@@ -1,0 +1,104 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" />
+  <meta content="Pre-defined reports in Process Reporting" name="jcr:title" />
+  <meta content="2018-10-24T10:43:09.410-0400" name="topicBrowsingSortDate" />
+  <meta content="2014-11-25T09:51:57.095-0500" name="lastPublishQADate" />
+  <meta content="2014-11-25T09:51:57.095-0500" name="publishQADate" />
+  <meta content="later" name="locPublishOption" />
+  <meta content="2018-10-24T10:43:09.410-0400" name="publishExternalDate" />
+  <meta content="khsingh" name="cq:lastModifiedBy" />
+  <meta content="mix:versionable;cq:ReplicationStatus" name="jcr:mixinTypes" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="khsingh" name="cq:lastReplicatedBy" />
+  <meta content="Pre-defined reports in Process Reporting" name="navTitle" />
+  <meta content="http://helpx.stage.adobe.com/livecycle/help/process-reporting/pre-defined-reports-in-process-reporting.html" name="publishQAURL" />
+  <meta content="khsingh@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="c3da1a34-c783-43e4-a829-cb2d40cff013" name="jcr:predecessors" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/process-reporting;/content/help/en/experience-manager/6-4/forms/morehelp/process-reporting" name="moreHelpPaths" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="Query for AEM Forms on JEE process data to create reports on long running processes, Process duration, and Workflow volume" name="seoDescription" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2013-06-21T08:39:41.691-0400" name="jcr:created" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/process-reporting/pre-defined-reports-in-process-reporting.html" name="publishExternalURL" />
+  <meta content="2013-09-02T09:37:35.911-0400" name="locHandOffDate" />
+  <meta content="95106612-0e3b-46ce-a9b8-0352583b57f9" name="jcr:uuid" />
+  <meta content="2013-06-19T09:44:05.379-0400" name="firstPublishQADate" />
+  <meta content="content_type:reference;topic_tags:process-reporting;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" />
+  <meta content="2018-10-24T10:43:09.420-0400" name="cq:lastModified" />
+  <meta content="2018-10-24T10:43:09.921-0400" name="cq:lastReplicated" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2018-10-24T10:43:09.410-0400" name="lastPublishExternalDate" />
+  <meta content="2013-09-18T09:35:52.019-0400" name="firstPublishExternalDate" />
+  <meta content="09/06/13" name="locPublishDate" />
+ </head>
+ <body>
+  <h2>Pre-defined Reports in Process Reporting</h2>
+  <p>AEM Forms Process Reporting ships with the following <em>out-of-the-box</em> reports:</p> 
+  <ul> 
+   <li><strong><a href="../../../forms/using/process-reporting/pre-defined-reports-in-process-reporting.md#main-pars-header-0">Long Running Processes</a></strong>: A report of all AEM Forms processes that took more than a specified time to complete<br /> </li> 
+   <li><strong><a href="../../../forms/using/process-reporting/pre-defined-reports-in-process-reporting.md#main-pars-header-2">Process Duration Chart</a></strong>: A report of a specified AEM Forms process by duration<br /> </li> 
+   <li><strong><a href="../../../forms/using/process-reporting/pre-defined-reports-in-process-reporting.md#main-pars-header-4">Workflow Volume</a></strong>: A report of the running and completed instances of specified process by date</li> 
+  </ul> 
+  <h2>Long Running Processes</h2>
+  <p>The Long Running Processes report displays the AEM Forms processes that have taken more than a specified time to complete.</p> 
+  <h3>To execute a Long Running Process report &lt;br&gt;</h3>
+  <ol>
+   <li><p>To view the list of pre-defined reports in Process Reporting, on the <strong>Process Reporting</strong> tree view, click the <strong>Reports </strong>node.</p> </li>
+   <li><p>Click the <strong>Long Running Processes</strong> report node.</p> <img imageRotate="0" src="assets/long_running_node.png" /><p>When you select a report, the <strong>Report Parameters</strong> panel is displayed to the right of the tree view.<br /> </p> <img alt="long running processes report parameters panel" imageRotate="0" src="assets/report_parameters_panel.png" /><p>Parameters:</p> 
+    <ul> 
+     <li><strong>Duration </strong>(<em>mandatory</em>): Specify a duration and unit of time. Display all AEM Forms processes that have run for more than the specified duration.</li> 
+     <li><strong>Started After</strong> (<em>optional</em>): Select a date. Filter the report to display process instances that started after the specified date.</li> 
+     <li><strong>Started Before</strong> (<em>optional</em>): Select a date. Filter the report to display process instances that started before the specified date.</li> 
+    </ul> </li>
+   <li><p>Click <strong>Go </strong>to execute the report.</p> <p>The report displays in the <strong>Report </strong>panel on the right of the <strong>Process Reporting</strong> window.<br /> </p> <img imageRotate="0" src="assets/long_running_processes.png" /><p>Use the options in the upper right corner of the <strong>Report </strong>panel to perform the following operations on the report.</p> 
+    <ul> 
+     <li><strong>Refresh</strong>: Refreshes the report with latest data lying in the storage</li> 
+     <li><strong>Change legend color</strong>: Select and change the color of the report legend</li> 
+     <li><strong>Export to CSV</strong>: Export and download the data from the report to a comma-separated file</li> 
+    </ul> </li>
+  </ol>
+  <h2>Process Duration report &lt;br&gt;</h2>
+  <p>The Process Duration report displays the number of instances of a Forms process by number of days that each instance has run.</p> 
+  <h3>To execute a Process Duration report &lt;br&gt;</h3>
+  <ol>
+   <li><p>To view the pre-defined reports in Process Reporting, on the <strong>Process Reporting</strong> tree view, click the <strong>Reports </strong>node.</p> </li>
+   <li><p>Click the <strong>Processes Duration</strong> report node.</p> <img imageRotate="0" src="assets/process_duration_node.png" /><p>When you select a report, the <strong>Report Parameters</strong> panel is displayed to the right of the tree view.<br /> </p> <img alt="long running processes report parameters panel" imageRotate="0" src="assets/process_duration_params.png" /><p>Parameters:</p> 
+    <ul> 
+     <li><strong>Select Process </strong>(<em>mandatory</em>): Select an AEM Forms process.</li> 
+    </ul> </li>
+   <li><p>Click <strong>Go </strong>to execute the report.</p> <p>The report displays in the <strong>Report </strong>panel on the right of the Process Reporting window.<br /> </p> <img imageRotate="0" src="assets/process_duration_report.png" /><p>Use the options in the upper right corner of the <strong>Report </strong>panel to perform the following operations on the report.</p> 
+    <ul> 
+     <li><strong>Refresh</strong>: Refreshes the report with latest data lying in the storage</li> 
+     <li><strong>Change legend color</strong>: Select and change the color of the report legend</li> 
+     <li><strong>Export to CSV</strong>: Export and download the data from the report to a comma-separated file</li> 
+    </ul> </li>
+  </ol>
+  <h2>Workflow Volume report</h2>
+  <p>The Workflow Volume report displays the number of currently running and completed instances of an AEM Forms process by calendar day.</p> 
+  <h3>To execute a Workflow Volume report &lt;br&gt;</h3>
+  <ol>
+   <li><p>To view the pre-defined reports in Process Reporting, on the <strong>Process Reporting </strong>tree view, click the <strong>Reports </strong>node.</p> </li>
+   <li><p>Click the <strong>Workflow Volume</strong> report node.</p> <img imageRotate="0" src="assets/workflow_volume_node.png" /><p>When you select a report, the <strong>Report Parameters</strong> panel is displayed to the right of the tree view.<br /> </p> <img alt="long running processes report parameters panel" imageRotate="0" src="assets/workflow_volume_params.png" /><p>Parameters:</p> 
+    <ul> 
+     <li><strong>Select Process </strong>(<em>mandatory</em>): Select an AEM Forms process.</li> 
+     <li><strong>Started After</strong> (<em>optional</em>): Select a date. Filters the report to display process instances that started after the specified date.</li> 
+     <li><strong>Started Before</strong> (<em>optional</em>): Select a date. Filters the report to display process instances that started before the specified date.</li> 
+    </ul> </li>
+   <li><p>Click <strong>Go </strong>to execute the report.</p> <p>The report displays in the <strong>Report </strong>panel on the right of the <strong>Process Reporting</strong> window.<br /> </p> <img imageRotate="0" src="assets/workflow_volume_report.png" /><p>Use the options in the upper right corner of the <strong>Report </strong>panel to perform the following operations on the report.</p> 
+    <ul> 
+     <li><strong>Refresh</strong>: Refreshes the report with latest data lying in the storage</li> 
+     <li><strong>Change legend color</strong>: Select and change the color of the report legend</li> 
+     <li><strong>Export to CSV</strong>: Export and download the data from the report to a comma-separated file</li> 
+    </ul> </li>
+  </ol>
+  <p><a href="https://www.adobe.com/account/sign-in.supportportal.html" target="_blank"><strong>Contact Support</strong></a></p> 
+ </body>
+</html>

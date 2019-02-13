@@ -1,0 +1,355 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="audience:developing" name="primaryAudienceTag" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="9b8714d6-75a0-403b-962e-aad7fe9ed646" name="jcr:uuid" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;content_type:reference;topic_tags:platform" name="cq:tags" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="Guillaume Carlino" name="contentOwner" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="Developing (generic)" name="jcr:title" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="2018-05-08T12:43:29.733-0400" name="cq:lastModified" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/morehelp/platform;/content/help/en/experience-manager/6-4/sites/developing/morehelp/platform" name="moreHelpPaths" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="d2ef1dde-3dd9-45b3-af6c-c3fb3da381e8" name="jcr:predecessors" /> 
+  <meta content="2018-05-08T12:43:29.731-0400" name="locHandOffDate" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/generic.html" name="publishExternalURL" /> 
+  <meta content="2017-10-31T16:16:42.172-0400" name="lastPublishExternalDate" /> 
+  <meta content="2017-12-01T19:07:13.297-0500" name="jcr:created" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2017-10-31T16:16:42.172-0400" name="topicBrowsingSortDate" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="/content/docs/en/aem/6-3/develop/ecommerce/generic" name="qaNotes" /> 
+  <meta content="2018-04-03T09:00:43.659-0400" name="cq:lastReplicated" /> 
+  <meta content="2017-10-31T16:16:42.172-0400" name="firstPublishExternalDate" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="The integration framework includes an integration layer with an API, allowing you to build AEM components for eCommerce capabilities" name="seoDescription" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="Developing (generic)" name="seoTitle" /> 
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2017-10-31T16:16:42.172-0400" name="publishExternalDate" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="Developing (generic)" name="navTitle" /> 
+ </head> 
+ <body> 
+  <note> 
+   <p><a href="../../../sites/developing/using/ecommerce.md#apidocumentation">API documentation</a> is also available.<br /> </p> 
+  </note> 
+  <p>The integration framework includes an integration layer with an API. This allows you to build AEM components for eCommerce capabilities (independent of your specific eCommerce engine). It also allows you to use the internal CRX database or to plug in an eCommerce system and pull product data into AEM.</p> 
+  <p>A number of out-of-the-box AEM components are provided to use the integration layer. Currently these are:</p> 
+  <ul> 
+   <li>A product display component</li> 
+   <li>A shopping cart</li> 
+   <li>Promotions and vouchers<br /> </li> 
+   <li>Catalog and section blueprints<br /> </li> 
+   <li>Check-out</li> 
+   <li>Search</li> 
+  </ul> 
+  <p>For search an integration hook is provided that allows you to use the AEM search, a third party search (like Search&amp;Promote) or a combination thereof.</p> 
+  <h3>eCommerce Engine Selection</h3> 
+  <p>The eCommerce framework can be used with any eCommerce solution, the engine being used needs to be identified by AEM - even when using the AEM generic engine:<br /> </p> 
+  <ul> 
+   <li>eCommerce Engines are OSGi services supporting the <span class="code">CommerceService</span> interface 
+    <ul> 
+     <li>Engines can be distinguished by a <span class="code">commerceProvider</span> service property</li> 
+    </ul> </li> 
+   <li>AEM supports <span class="code">Resource.adaptTo()</span> for <span class="code">CommerceService</span> and <span class="code">Product</span> 
+    <ul> 
+     <li>The <span class="code">adaptTo</span> implementation looks for a <span class="code">cq:commerceProvider</span> property in the resource's hierarchy: 
+      <ul> 
+       <li>If found, the value is used to filter the commerce service lookup.</li> 
+       <li>If not found, the highest-ranked commerce service is used.</li> 
+      </ul> </li> 
+     <li>A <span class="code">cq:Commerce</span> mixin is used so the <span class="code">cq:commerceProvider</span> can be added to strongly-typed resources.</li> 
+    </ul> </li> 
+   <li>The <span class="code">cq:commerceProvider</span> property is also used to reference the appropriate commerce factory definition. 
+    <ul> 
+     <li>For example, a <span class="code">cq:commerceProvider</span> property with the value geometrixx will correlate to the OSGi configuration for <strong>Day CQ Commerce Factory for Geometrixx-Outdoors</strong> (<span class="code">com.adobe.cq.commerce.hybris.impl.GeoCommerceServiceFactory</span>) - where the parameter <span class="code">commerceProvider</span> also has the value <span class="code">geometrixx</span>.<br /> </li> 
+     <li>Here further properties can be configured (when appropriate and available).<br /> </li> 
+    </ul> </li> 
+  </ul>  
+  <p>In a standard AEM installation a specific implementation is required, for example:</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td width="250"><span class="code">cq:commerceProvider = geometrixx</span></td> 
+     <td>geometrixx example; this includes minimal extensions to the generic API</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h4>Example</h4> 
+  <codeblock gutter="true" class="syntax shell">
+    /etc/commerce/products/geometrixx-outdoors&amp;nbsp;!!discoiqbr!!+&amp;nbsp;cq:commerceProvider&amp;nbsp;=&amp;nbsp;geometrixx&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;+&amp;nbsp;adobe-logo-shirt&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;cq:commerceType&amp;nbsp;=&amp;nbsp;product&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;price&amp;nbsp;=&amp;nbsp;12.50&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;+&amp;nbsp;adobe-logo-shirt_S&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;cq:commerceType&amp;nbsp;=&amp;nbsp;variant&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;size&amp;nbsp;=&amp;nbsp;S&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;+&amp;nbsp;adobe-logo-shirt_XL&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;cq:commerceType&amp;nbsp;=&amp;nbsp;variant&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;size&amp;nbsp;=&amp;nbsp;XL&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;price&amp;nbsp;=&amp;nbsp;14.50 
+  </codeblock> 
+  <note> 
+   <p>Using CRXDE Lite you can see how this is handled in the product component for the AEM generic implementation:</p> 
+   <p><span class="code"> /apps/geometrixx-outdoors/components/product</span><br /> </p> 
+  </note> 
+  <h3>Session Handling</h3> 
+  <p>A session to store information related to the customer's shopping cart. <br /> </p> 
+  <p>The <strong>CommerceSession</strong>:<br /> </p> 
+  <ul> 
+   <li>Owns the <strong>s</strong><strong>hopping </strong><strong>c</strong><strong>art</strong> 
+    <ul> 
+     <li>performs add/remove/etc</li> 
+     <li>performs the various calculations on the cart;<br /> <span class="code">commerceSession.getProductPriceInfo(Product product, Predicate filter)</span></li> 
+    </ul> </li> 
+   <li>Owns persistance of the <strong>order</strong> data:<br /> <span class="code"> CommerceSession.getUserContext()</span></li> 
+   <li>Can retrieve/update delivery details by using <span class="code">updateOrder(Map&amp;lt;String, Object&amp;gt; delta)</span></li> 
+   <li>Also owns the <strong>payment</strong> processing connection</li> 
+   <li>Also owns the <strong>fulfillment</strong> connection</li> 
+  </ul> 
+  <h3>Architecture</h3> 
+  <h4>Architecture of Product and Variants</h4> 
+  <p>A single product can have multiple variations; for instance, it might vary by color and/or size. A product must define which properties drive variation; we term these <i>variant axes</i>.</p> 
+  <p>However, not all properties are variant axes. Variations can also affect other properties; for example, the price might be dependant on size. These properties cannot be selected by the shopper and therefore are not considered variant axes.</p> 
+  <p>Each product and/or variant is represented by a resource, and therefore maps 1:1 to a repository node. It is a corollary that a specific product and/or variant can be uniquely identified by its path.</p> 
+  <p>Any product resource can be represented by a <span class="code">Product API</span>. Most calls in the product API are variation specific (although variations might inherit shared values from an ancestor), but there are also calls which list the set of variations (<span class="code">getVariantAxes()</span>, <span class="code">getVariants()</span>, etc.).</p> 
+  <note> 
+   <p>In effect a variant axes is determined by whatever <span class="code">Product.getVariantAxes()</span> returns:</p> 
+   <ul> 
+    <li>for the generic implementation AEM reads it from a property in the product data (<span class="code">cq:productVariantAxes</span>)<br /> </li> 
+   </ul> 
+   <p>While products (in general) can have many variant axes, the out-of-the-box product component only handles two:</p> 
+   <ol> 
+    <li><span class="code">size</span><br /> </li> 
+    <li>plus one more<br /> This additional variant is selected via the <span class="code">variationAxis</span> property of the product reference (usually <span class="code">color</span> for Geometrixx Outdoors).</li> 
+   </ol> 
+  </note> 
+  <h4>Product References and PIM Data</h4> 
+  <p>In general:</p> 
+  <ul> 
+   <li>PIM data is located under <span class="code">/etc</span><br /> </li> 
+   <li>Product references under <span class="code">/content</span>.</li> 
+  </ul> 
+  <p>There must be a 1:1 map between product variations and product data nodes.</p> 
+  <p>Product references must also have a node for each variation presented - but there is no requirement to present all variations. For instance, if a product has S, M, L variations, the product data might be:</p> 
+  <codeblock gutter="true" class="syntax shell">
+    etc!!discoiqbr!!&amp;nbsp;&amp;nbsp;commerce!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;products!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;shirt!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;shirt-s!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;shirt-m!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;shirt-l 
+  </codeblock> 
+  <p>While a "Big and Tall" catalog might have only:</p> 
+  <codeblock gutter="true" class="syntax shell">
+    content!!discoiqbr!!&amp;nbsp;&amp;nbsp;big-and-tall!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;shirt!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;shirt-l 
+  </codeblock> 
+  <p>Finally, there is no requirement to use product data. You can place all product data under the references in the catalog; but then you cannot really have multiple catalogs without duplicating all the product data.</p> 
+  <p><strong>API</strong><br /> </p> 
+  <h4>com.adobe.cq.commerce.api.Product interface</h4> 
+  <codeblock gutter="true" class="syntax java">
+    public&amp;nbsp;interface&amp;nbsp;Product&amp;nbsp;extends&amp;nbsp;Adaptable&amp;nbsp;{!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;String&amp;nbsp;getPath();&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;path&amp;nbsp;to&amp;nbsp;specific&amp;nbsp;variation!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;String&amp;nbsp;getPagePath();&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;path&amp;nbsp;to&amp;nbsp;presentation&amp;nbsp;page&amp;nbsp;for&amp;nbsp;all&amp;nbsp;variations!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;String&amp;nbsp;getSKU();&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;unique&amp;nbsp;ID&amp;nbsp;of&amp;nbsp;specific&amp;nbsp;variation!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;String&amp;nbsp;getTitle();&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;shortcut&amp;nbsp;to&amp;nbsp;getProperty(TITLE)!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;String&amp;nbsp;getDescription();&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;shortcut&amp;nbsp;to&amp;nbsp;getProperty(DESCRIPTION)!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;String&amp;nbsp;getImageUrl();&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;shortcut&amp;nbsp;to&amp;nbsp;getProperty(IMAGE_URL)!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;String&amp;nbsp;getThumbnailUrl();&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;shortcut&amp;nbsp;to&amp;nbsp;getProperty(THUMBNAIL_URL)!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;&lt;T&gt;&amp;nbsp;T&amp;nbsp;getProperty(String&amp;nbsp;name,&amp;nbsp;Class&lt;T&gt;&amp;nbsp;type);!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;Iterator&lt;String&gt;&amp;nbsp;getVariantAxes();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;boolean&amp;nbsp;axisIsVariant(String&amp;nbsp;axis);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;Iterator&lt;Product&gt;&amp;nbsp;getVariants(VariantFilter&amp;nbsp;filter)&amp;nbsp;throws&amp;nbsp;CommerceException;!!discoiqbr!!} 
+  </codeblock> 
+  <h4>com.adobe.cq.commerce.api.VariantFilter </h4> 
+  <codeblock gutter="true" class="syntax java">
+    /**!!discoiqbr!!&amp;nbsp;*&amp;nbsp;Interface&amp;nbsp;for&amp;nbsp;filtering&amp;nbsp;variants&amp;nbsp;and&amp;nbsp;AxisFilter&amp;nbsp;provided&amp;nbsp;as&amp;nbsp;common&amp;nbsp;implementation!!discoiqbr!!&amp;nbsp;*!!discoiqbr!!&amp;nbsp;*&amp;nbsp;The&amp;nbsp;&lt;code&gt;VariantFilter&lt;/code&gt;&amp;nbsp;is&amp;nbsp;used&amp;nbsp;to&amp;nbsp;filter&amp;nbsp;variants,!!discoiqbr!!&amp;nbsp;*&amp;nbsp;e.g.&amp;nbsp;when&amp;nbsp;using&amp;nbsp;{@link&amp;nbsp;Product#getVariants(VariantFilter&amp;nbsp;filter)}.!!discoiqbr!!&amp;nbsp;*/!!discoiqbr!!public&amp;nbsp;interface&amp;nbsp;VariantFilter&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;boolean&amp;nbsp;includes(Product&amp;nbsp;product);!!discoiqbr!!}!!discoiqbr!!!!discoiqbr!!/**!!discoiqbr!!&amp;nbsp;*&amp;nbsp;A&amp;nbsp;{@link&amp;nbsp;VariantFilter}&amp;nbsp;for&amp;nbsp;filtering&amp;nbsp;variants&amp;nbsp;by&amp;nbsp;the&amp;nbsp;given!!discoiqbr!!&amp;nbsp;*&amp;nbsp;axis&amp;nbsp;and&amp;nbsp;value.&amp;nbsp;The&amp;nbsp;following&amp;nbsp;example&amp;nbsp;returns&amp;nbsp;a&amp;nbsp;list&amp;nbsp;of!!discoiqbr!!&amp;nbsp;*&amp;nbsp;variant&amp;nbsp;products&amp;nbsp;that&amp;nbsp;have&amp;nbsp;a&amp;nbsp;value&amp;nbsp;of&amp;nbsp;&lt;i&gt;blue&lt;/i&gt;&amp;nbsp;on&amp;nbsp;the!!discoiqbr!!&amp;nbsp;*&amp;nbsp;&lt;i&gt;color&lt;/i&gt;&amp;nbsp;axis.!!discoiqbr!!&amp;nbsp;*&amp;nbsp;!!discoiqbr!!&amp;nbsp;*&amp;nbsp;&lt;p&gt;!!discoiqbr!!&amp;nbsp;*&amp;nbsp;&lt;code&gt;product.getVariants(new&amp;nbsp;AxisFilter("color",&amp;nbsp;"blue"));&lt;/code&gt;!!discoiqbr!!&amp;nbsp;*/!!discoiqbr!!public&amp;nbsp;class&amp;nbsp;AxisFilter&amp;nbsp;implements&amp;nbsp;VariantFilter&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;private&amp;nbsp;String&amp;nbsp;axis;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;private&amp;nbsp;String&amp;nbsp;value;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;AxisFilter(String&amp;nbsp;axis,&amp;nbsp;String&amp;nbsp;value)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;this.axis&amp;nbsp;=&amp;nbsp;axis;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;this.value&amp;nbsp;=&amp;nbsp;value;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/**!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*&amp;nbsp;{@inheritDoc}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*/!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;boolean&amp;nbsp;includes(Product&amp;nbsp;product)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;ValueMap&amp;nbsp;values&amp;nbsp;=&amp;nbsp;product.adaptTo(ValueMap.class);!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if(values&amp;nbsp;!=&amp;nbsp;null)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;String&amp;nbsp;v&amp;nbsp;=&amp;nbsp;values.get(axis,&amp;nbsp;String.class);!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;return&amp;nbsp;v&amp;nbsp;!=&amp;nbsp;null&amp;nbsp;&amp;&amp;&amp;nbsp;v&amp;nbsp;==&amp;nbsp;value;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;return&amp;nbsp;false;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!} 
+  </codeblock> 
+  <ul> 
+   <li><strong>General Storage Mechanism</strong> 
+    <ul> 
+     <li>Product nodes are nt:unstructured.</li> 
+     <li>A product node can be either: 
+      <ul> 
+       <li>A reference, with the product data stored elsewhere: 
+        <ul> 
+         <li>Product references contain a <span class="code">productData</span> property, which points to the product data (typically under <span class="code">/etc/commerce/products</span>).</li> 
+         <li>The product data is hierarchical; product attributes are inherited from a product data node's ancestors.</li> 
+         <li>Product references can also contain local properties, which override those specified in their product data.</li> 
+        </ul> </li> 
+       <li>A product itself: 
+        <ul> 
+         <li>Without a <span class="code">productData</span> property.</li> 
+         <li>A product node which holds all properties locally (and does not contain a productData property) inherits product attributes directly from its own ancestors.</li> 
+        </ul> </li> 
+      </ul> </li> 
+    </ul> </li> 
+   <li><strong>AEM-generic Product Structure</strong> 
+    <ul> 
+     <li>Each variant must have its own leaf node.</li> 
+     <li>The product interface represents both products and variants, but the related repository node is specific about which it is.</li> 
+     <li>The product node describes the product attributes and variant axes.</li> 
+    </ul> </li> 
+  </ul> 
+  <h4>Example</h4> 
+  <codeblock gutter="true" class="syntax shell">
+    +&amp;nbsp;banyan_shirt!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;cq:commerceType&amp;nbsp;=&amp;nbsp;product!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;cq:productAttributes&amp;nbsp;=&amp;nbsp;[jcr:title,&amp;nbsp;jcr:description,&amp;nbsp;size,&amp;nbsp;price,&amp;nbsp;color]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;cq:productVariantAxes&amp;nbsp;=&amp;nbsp;[color,&amp;nbsp;size]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;jcr:title&amp;nbsp;=&amp;nbsp;Banyan&amp;nbsp;Shirt!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;jcr:description&amp;nbsp;=&amp;nbsp;Flowery,&amp;nbsp;all-cotton&amp;nbsp;shirt.!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;price&amp;nbsp;=&amp;nbsp;14.00!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;banyan_shirt_s!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;cq:commerceType&amp;nbsp;=&amp;nbsp;variant!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;size&amp;nbsp;=&amp;nbsp;S!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;banyan_shirt_s_red!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;cq:commerceType&amp;nbsp;=&amp;nbsp;variant!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;color&amp;nbsp;=&amp;nbsp;red!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;banyan_shirt_s_blue!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;cq:commerceType&amp;nbsp;=&amp;nbsp;variant!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;color&amp;nbsp;=&amp;nbsp;blue!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;banyan_shirt_m!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;cq:commerceType&amp;nbsp;=&amp;nbsp;variant!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;size&amp;nbsp;=&amp;nbsp;M!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;banyan_shirt_m_red!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;cq:commerceType&amp;nbsp;=&amp;nbsp;variant!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;color&amp;nbsp;=&amp;nbsp;red!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;banyan_shirt_m_blue!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;cq:commerceType&amp;nbsp;=&amp;nbsp;variant!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;color&amp;nbsp;=&amp;nbsp;blue!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;banyan_shirt_l!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;cq:commerceType&amp;nbsp;=&amp;nbsp;variant!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;size&amp;nbsp;=&amp;nbsp;L!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;banyan_shirt_l_red!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;cq:commerceType&amp;nbsp;=&amp;nbsp;variant!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;color&amp;nbsp;=&amp;nbsp;red!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;banyan_shirt_l_blue!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;cq:commerceType&amp;nbsp;=&amp;nbsp;variant!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;color&amp;nbsp;=&amp;nbsp;blue!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;banyan_shirt_xl!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;cq:commerceType&amp;nbsp;=&amp;nbsp;variant!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;size&amp;nbsp;=&amp;nbsp;XL!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;price&amp;nbsp;=&amp;nbsp;18.00 
+  </codeblock> 
+  <h4>Architecture of the Shopping Cart</h4> 
+  <p><strong>Components</strong></p> 
+  <ul> 
+   <li>The shopping cart is owned by the <span class="code">CommerceSession:</span> 
+    <ul> 
+     <li>The <span class="code">CommerceSession</span> performs add, remove, etc.</li> 
+     <li>The <span class="code">CommerceSession</span> also performs the various calculations on the cart.</li> 
+     <li>The <span class="code">CommerceSession</span> also applies vouchers and promotions that have fired to the cart.</li> 
+    </ul> </li> 
+   <li>While not directly cart-related, the <span class="code">CommerceSession</span> must also provide catalog pricing information (since it owns pricing) 
+    <ul> 
+     <li>Pricing might have several modifiers: 
+      <ul> 
+       <li>Quantity discounts.</li> 
+       <li>Different currencies.</li> 
+       <li>VAT-liable and VAT-free.</li> 
+      </ul> </li> 
+     <li>The modifiers are completely open-ended with the following interface: 
+      <ul> 
+       <li><span class="code">int CommerceSession.getQuantityBreakpoints(Product product)</span></li> 
+       <li><span class="code">String CommerceSession.getProductPrice(Product product)</span></li> 
+      </ul> </li> 
+    </ul> <span class="code"></span></li> 
+  </ul> 
+  <p><strong>Storage</strong></p> 
+  <ul> 
+   <li>Storage 
+    <ul> 
+     <li>In the AEM-generic case carts of are stored in the <a href="../../../sites/administering/using/client-context.md">ClientContext</a></li> 
+    </ul> </li> 
+  </ul> 
+  <p><strong>Personalization</strong></p> 
+  <ul> 
+   <li>Personalization should always be driven through the <a href="../../../sites/administering/using/client-context.md">ClientContext</a>.</li> 
+   <li>A ClientContext <span class="code">/version/</span> of the cart is created in all cases: 
+    <ul> 
+     <li>Products should be added by using the <span class="code">CommerceSession.addCartEntry()</span> method.</li> 
+    </ul> </li> 
+   <li>The following illustrates an example of cart information in the ClientContext cart:</li> 
+  </ul> 
+  <img imageRotate="0" src="assets/chlimage_1-42.png" /> 
+  <h4>Architecture of Checkout</h4> 
+  <p><strong>Cart and Order Data</strong></p> 
+  <p>The <span class="code">CommerceSession</span> owns the three elements:</p> 
+  <ol> 
+   <li>Cart contents</li> 
+   <li>Pricing</li> 
+   <li>The order details</li> 
+  </ol> 
+  <ol> 
+   <li> <p>The cart contents schema is fixed by the API:</p> 
+    <codeblock gutter="true" class="syntax java">
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;void&amp;nbsp;addCartEntry(Product&amp;nbsp;product,&amp;nbsp;int&amp;nbsp;quantity);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;void&amp;nbsp;modifyCartEntry(int&amp;nbsp;entryNumber,&amp;nbsp;int&amp;nbsp;quantity);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;void&amp;nbsp;deleteCartEntry(int&amp;nbsp;entryNumber); 
+    </codeblock></li> 
+   <li>  <p>The pricing schema is also fixed by the API:<br /> </p> 
+    <codeblock gutter="true" class="syntax java">
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;String&amp;nbsp;getCartPreTaxPrice();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;String&amp;nbsp;getCartTax();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;String&amp;nbsp;getCartTotalPrice();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;String&amp;nbsp;getOrderShipping();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;String&amp;nbsp;getOrderTotalTax();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;String&amp;nbsp;getOrderTotalPrice(); 
+    </codeblock></li> 
+   <li>  <p>However, order details are <i>not</i> fixed by the API:<br /> </p> 
+    <codeblock gutter="true" class="syntax java">
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;void&amp;nbsp;updateOrderDetails(Map&lt;String,&amp;nbsp;String&gt;&amp;nbsp;orderDetails);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;Map&lt;String,&amp;nbsp;String&gt;&amp;nbsp;getOrderDetails();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;void&amp;nbsp;submitOrder(); 
+    </codeblock></li> 
+  </ol> 
+  <p><strong>Shipping Calculations</strong></p> 
+  <ul> 
+   <li>Order forms often need to present multiple shipping options (and prices).</li> 
+   <li>The prices might be based on items and details of the order, such as weight and/or delivery address.</li> 
+   <li>The <span class="code">CommerceSession</span> has access to all the dependencies, so it can be treated in a similar manner as product pricing: 
+    <ul> 
+     <li>The <span class="code">CommerceSession</span> owns shipping pricing.</li> 
+     <li>Use <span class="code">updateOrder(Map&amp;lt;String, Object&amp;gt; delta)</span> to retrieve/update delivery details.</li> 
+    </ul> </li> 
+  </ul> 
+  <h3>Search Definition</h3> 
+  <p>Following the standard service API model, the eCommerce project provides a set of search-related APIs that can be implemented by individual commerce engines.</p> 
+  <note> 
+   <p>Currently, only the hybris engine implements the search API out-of-the-box.</p> 
+   <p>However, the search API is generic and can be implemented by each CommerceService individually.</p> 
+   <p>So although the generic implementation provided out-of-the-box does not implement this API, you can extend it and add the search functionality.</p> 
+  </note> 
+  <p>The eCommerce project contains a default search component, located in:</p> 
+  <p><span class="code"> /libs/commerce/components/search</span></p> 
+  <img imageRotate="0" src="assets/chlimage_1-43.png" /> 
+  <p>This makes use of the search API to query the selected commerce engine (see <a href="#ecommerceengineselection">eCommerce Engine Selection</a>):</p> 
+  <h4>Search API</h4> 
+  <p>There are several generic / helper classes provided by the core project:</p> 
+  <ol> 
+   <li><span class="code">CommerceQuery</span> <br /> Is used to describe a search query (contains information about the query text, current page, page size, sort and selected facets). All eCommerce services that implement the search API will receive instances of this class in order to perform their search. A <span class="code">CommerceQuery</span> can be instantiated from a request object (<span class="code">HttpServletRequest</span>).</li> 
+   <li><span class="code">FacetParamHelper</span> <br /> Is a utility class that provides one static method - <span class="code">toParams</span> - that is used for generating <span class="code">GET</span> parameter strings from a list of facets and one toggled value. This is useful on the UI side, where you need to display a hyperlink for each value of each facet, such that when the user clicks on the hyperlink the respective value is toggled (i.e. if it was selected it is removed from the query, otherwise added). This takes care of all the logic of handling multiple/single-valued facets, overriding values, etc.</li> 
+  </ol> 
+  <p>The entry point for the search API is the <span class="code">CommerceService#search</span> method which returns a <span class="code">CommerceResult</span> object. See the <a href="#apidocumentation">API Documentation</a> for more information on this topic.</p> 
+  <h3>Developing Promotions and Vouchers</h3> 
+  <ul> 
+   <li>Vouchers: 
+    <ul> 
+     <li>A Voucher is a page-based component that is created / edited with the Websites console and stored under:<br /> <span class="code">/content/campaigns</span></li> 
+     <li>Vouchers supply: 
+      <ul> 
+       <li>A voucher code (to be typed into the cart by the shopper).</li> 
+       <li>A voucher label (to be displayed after the shopper has entered it into the cart).</li> 
+       <li>A promotion path (which defines the action the voucher applies).</li> 
+      </ul> </li> 
+     <li>Vouchers do not have their own on and off date/times, but use those of their parent campaigns.</li> 
+     <li>External commerce engines can also supply vouchers; these require a minimum of: 
+      <ul> 
+       <li>A voucher code</li> 
+       <li>An <span class="code">isValid()</span> method</li> 
+      </ul> </li> 
+     <li>The <strong>Voucher</strong> component (<span class="code">/libs/commerce/components/voucher</span>) provides: 
+      <ul> 
+       <li>A renderer for voucher administration; this shows any vouchers currently in the cart.<br /> </li> 
+       <li>The edit dialogs (form) for administrating (adding/removing) the vouchers.</li> 
+       <li>The actions required for adding/removing vouchers to/from the cart.</li> 
+      </ul> </li> 
+    </ul> </li> 
+   <li>Promotions: 
+    <ul> 
+     <li>A Promotion is a page-based component that is created / edited with the Websites console and stored under:<br /> <span class="code">/content/campaigns</span></li> 
+     <li>Promotions supply: 
+      <ul> 
+       <li>A priority</li> 
+       <li>A promotion handler path</li> 
+      </ul> </li> 
+     <li>You can connect promotions to a campaign to define their on/off date/times.</li> 
+     <li>You can connect promotions to an experience to define their segments.</li> 
+     <li>Promotions not connected to an experience will not fire on its own, but can still be fired by a Voucher.</li> 
+     <li>The Promotion component (<span class="code">/libs/commerce/components/promotion</span>) contains: 
+      <ul> 
+       <li>renderers and dialogs for promotion administration</li> 
+       <li>sub-components for rendering and editing configuration parameters specific to the promotion handlers</li> 
+      </ul> </li> 
+     <li>Two promotion handlers are supplied out of the box: 
+      <ul> 
+       <li><span class="code">DiscountPromotionHandler</span>, which applies a cart-wide absolute or percentage discount</li> 
+       <li><span class="code">PerfectPartnerPromotionHandler</span>, which applies a product absolute or percentage discount if the partner product is also in the cart</li> 
+      </ul> </li> 
+     <li>The ClientContext <span class="code">SegmentMgr</span> resolves segments and the ClientContext <span class="code">CartMgr</span> resolves promotions. Each promotion that is subject to at least one resolved segment will be fired. 
+      <ul> 
+       <li>Fired Promotions are sent back to the server via an AJAX call to re-calculate the cart.</li> 
+       <li>Fired Promotions (and added Vouchers) are also shown in the ClientContext panel.</li> 
+      </ul> </li> 
+    </ul> </li> 
+  </ul> 
+  <p>Adding/Removing a voucher from a cart is accomplished via the <span class="code">CommerceSession</span> API:</p> 
+  <codeblock gutter="true" class="syntax java">
+    /**!!discoiqbr!!&amp;nbsp;*&amp;nbsp;Apply&amp;nbsp;a&amp;nbsp;voucher&amp;nbsp;to&amp;nbsp;this&amp;nbsp;session's&amp;nbsp;cart.!!discoiqbr!!&amp;nbsp;*&amp;nbsp;!!discoiqbr!!&amp;nbsp;*&amp;nbsp;@param&amp;nbsp;code&amp;nbsp;the&amp;nbsp;voucher's&amp;nbsp;code!!discoiqbr!!&amp;nbsp;*&amp;nbsp;@throws&amp;nbsp;CommerceException!!discoiqbr!!&amp;nbsp;*/!!discoiqbr!!public&amp;nbsp;void&amp;nbsp;addVoucher(String&amp;nbsp;code)&amp;nbsp;throws&amp;nbsp;CommerceException;!!discoiqbr!!!!discoiqbr!!/**!!discoiqbr!!&amp;nbsp;*&amp;nbsp;Remove&amp;nbsp;a&amp;nbsp;voucher&amp;nbsp;that&amp;nbsp;was&amp;nbsp;previously&amp;nbsp;added&amp;nbsp;with&amp;nbsp;{@link&amp;nbsp;#addVoucher(String)}.!!discoiqbr!!&amp;nbsp;*&amp;nbsp;!!discoiqbr!!&amp;nbsp;*&amp;nbsp;@param&amp;nbsp;code&amp;nbsp;the&amp;nbsp;voucher's&amp;nbsp;code!!discoiqbr!!&amp;nbsp;*&amp;nbsp;@throws&amp;nbsp;CommerceException!!discoiqbr!!&amp;nbsp;*/!!discoiqbr!!public&amp;nbsp;void&amp;nbsp;removeVoucher(String&amp;nbsp;code)&amp;nbsp;throws&amp;nbsp;CommerceException;!!discoiqbr!!!!discoiqbr!!/**!!discoiqbr!!&amp;nbsp;*&amp;nbsp;Get&amp;nbsp;a&amp;nbsp;list&amp;nbsp;of&amp;nbsp;vouchers&amp;nbsp;that&amp;nbsp;were&amp;nbsp;added&amp;nbsp;to&amp;nbsp;this&amp;nbsp;cart&amp;nbsp;via&amp;nbsp;{@link&amp;nbsp;#addVoucher(String)}.!!discoiqbr!!&amp;nbsp;*&amp;nbsp;!!discoiqbr!!&amp;nbsp;*&amp;nbsp;@throws&amp;nbsp;CommerceException!!discoiqbr!!&amp;nbsp;*/!!discoiqbr!!public&amp;nbsp;List&lt;Voucher&gt;&amp;nbsp;getVouchers()&amp;nbsp;throws&amp;nbsp;CommerceException; 
+  </codeblock> 
+  <p>This way, the <code>CommerceSession</code> is responsible for checking whether a voucher exists and if it can be applied or not. This might be for vouchers that can only be applied if a certain condition is met; for example, when the total cart price is greater than $100). If a voucher cannot be applied for any reason, the <code>addVoucher</code> method will throw an exception. Also, the <code>CommerceSession</code> is responsible for updating the cart's price(s) after a voucher is added / removed.</p> 
+  <p>The <code>Voucher</code> is a bean-like class that contains fields for:</p> 
+  <ul> 
+   <li>Voucher code</li> 
+   <li>A short description</li> 
+   <li>Referencing the related promotion that indicates the discount type and value</li> 
+  </ul> 
+  <p>The <code>AbstractJcrCommerceSession</code> provided can apply vouchers. The vouchers returned by the class <code>getVouchers()</code> are instances of <span class="code">cq:Page</span> containing a jcr:content node with the following properties (amongst others):</p> 
+  <ul> 
+   <li><span class="code">sling:resourceType</span> (String) - this needs to be <span class="code">commerce/components/voucher</span><code></code></li> 
+   <li><code>jcr:title</code> (String) - for the voucher's description</li> 
+   <li><code>code</code> (String) - the code the user has to enter to apply this voucher</li> 
+   <li><span class="code">promotion</span> (String) - the promotion to be applied; e.g. <span class="code">/content/campaigns/geometrixx-outdoors/article/10-bucks-off</span></li> 
+  </ul> 
+  <p>Promotion handlers are OSGi services which modify the shopping cart. The cart will support several hooks that will be defined in the <span class="code">PromotionHandler</span> interface.</p> 
+  <codeblock gutter="true" class="syntax java">
+    /**!!discoiqbr!!&amp;nbsp;*&amp;nbsp;Apply&amp;nbsp;promotion&amp;nbsp;to&amp;nbsp;a&amp;nbsp;cart&amp;nbsp;line&amp;nbsp;item.&amp;nbsp;The&amp;nbsp;method&amp;nbsp;returns&amp;nbsp;a&amp;nbsp;discount!!discoiqbr!!&amp;nbsp;*&amp;nbsp;&lt;code&gt;PriceInfo&lt;/code&gt;&amp;nbsp;instance&amp;nbsp;or&amp;nbsp;&lt;code&gt;null&lt;/code&gt;&amp;nbsp;if&amp;nbsp;no&amp;nbsp;discount!!discoiqbr!!&amp;nbsp;*&amp;nbsp;was&amp;nbsp;applied.!!discoiqbr!!&amp;nbsp;*&amp;nbsp;@param&amp;nbsp;commerceSession&amp;nbsp;The&amp;nbsp;commerce&amp;nbsp;session!!discoiqbr!!&amp;nbsp;*&amp;nbsp;@param&amp;nbsp;promotion&amp;nbsp;The&amp;nbsp;configured&amp;nbsp;promotion!!discoiqbr!!&amp;nbsp;*&amp;nbsp;@param&amp;nbsp;cartEntry&amp;nbsp;The&amp;nbsp;cart&amp;nbsp;line&amp;nbsp;item!!discoiqbr!!&amp;nbsp;*&amp;nbsp;@return&amp;nbsp;A&amp;nbsp;discounted&amp;nbsp;&lt;code&gt;PriceInfo&lt;/code&gt;&amp;nbsp;or&amp;nbsp;&lt;code&gt;null&lt;/code&gt;!!discoiqbr!!&amp;nbsp;*/!!discoiqbr!!public&amp;nbsp;PriceInfo&amp;nbsp;applyCartEntryPromotion(CommerceSession&amp;nbsp;commerceSession,&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Promotion&amp;nbsp;promotion,&amp;nbsp;CartEntry&amp;nbsp;cartEntry)&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;throws&amp;nbsp;CommerceException;!!discoiqbr!!!!discoiqbr!!/**!!discoiqbr!!&amp;nbsp;*&amp;nbsp;Apply&amp;nbsp;promotion&amp;nbsp;to&amp;nbsp;an&amp;nbsp;order.&amp;nbsp;The&amp;nbsp;method&amp;nbsp;returns&amp;nbsp;a&amp;nbsp;discount!!discoiqbr!!&amp;nbsp;*&amp;nbsp;&lt;code&gt;PriceInfo&lt;/code&gt;&amp;nbsp;instance&amp;nbsp;or&amp;nbsp;&lt;code&gt;null&lt;/code&gt;&amp;nbsp;if&amp;nbsp;no&amp;nbsp;discount!!discoiqbr!!&amp;nbsp;*&amp;nbsp;was&amp;nbsp;applied.!!discoiqbr!!&amp;nbsp;*&amp;nbsp;@param&amp;nbsp;commerceSession&amp;nbsp;The&amp;nbsp;commerce&amp;nbsp;session!!discoiqbr!!&amp;nbsp;*&amp;nbsp;@param&amp;nbsp;promotion&amp;nbsp;The&amp;nbsp;configured&amp;nbsp;promotion!!discoiqbr!!&amp;nbsp;*&amp;nbsp;@return&amp;nbsp;A&amp;nbsp;discounted&amp;nbsp;&lt;code&gt;PriceInfo&lt;/code&gt;&amp;nbsp;or&amp;nbsp;&lt;code&gt;null&lt;/code&gt;!!discoiqbr!!&amp;nbsp;*/!!discoiqbr!!public&amp;nbsp;PriceInfo&amp;nbsp;applyOrderPromotion(CommerceSession&amp;nbsp;commerceSession,&amp;nbsp;Promotion&amp;nbsp;promotion)&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;throws&amp;nbsp;CommerceException;!!discoiqbr!!!!discoiqbr!!public&amp;nbsp;PriceInfo&amp;nbsp;applyShippingPromotion(CommerceSession&amp;nbsp;commerceSession,&amp;nbsp;Promotion&amp;nbsp;promotion)&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;throws&amp;nbsp;CommerceException;!!discoiqbr!!!!discoiqbr!!/**!!discoiqbr!!&amp;nbsp;*&amp;nbsp;Allows&amp;nbsp;a&amp;nbsp;promotion&amp;nbsp;handler&amp;nbsp;to&amp;nbsp;define&amp;nbsp;a&amp;nbsp;custom,&amp;nbsp;author-oriented&amp;nbsp;message&amp;nbsp;for&amp;nbsp;a&amp;nbsp;promotion.!!discoiqbr!!&amp;nbsp;*&amp;nbsp;The&amp;nbsp;{@link&amp;nbsp;com.adobe.cq.commerce.common.promotion.PerfectPartnerPromotionHandler},&amp;nbsp;for&amp;nbsp;instance,!!discoiqbr!!&amp;nbsp;*&amp;nbsp;uses&amp;nbsp;this&amp;nbsp;to&amp;nbsp;list&amp;nbsp;the&amp;nbsp;qualifying&amp;nbsp;pairs&amp;nbsp;of&amp;nbsp;products&amp;nbsp;in&amp;nbsp;the&amp;nbsp;current&amp;nbsp;cart.!!discoiqbr!!&amp;nbsp;*&amp;nbsp;@param&amp;nbsp;commerceSession!!discoiqbr!!&amp;nbsp;*&amp;nbsp;@param&amp;nbsp;promotion!!discoiqbr!!&amp;nbsp;*&amp;nbsp;@return&amp;nbsp;A&amp;nbsp;message&amp;nbsp;to&amp;nbsp;display!!discoiqbr!!&amp;nbsp;*&amp;nbsp;@throws&amp;nbsp;CommerceException!!discoiqbr!!&amp;nbsp;*/!!discoiqbr!!public&amp;nbsp;String&amp;nbsp;getMessage(SlingHttpServletRequest&amp;nbsp;request,&amp;nbsp;CommerceSession&amp;nbsp;commerceSession,&amp;nbsp;Promotion&amp;nbsp;promotion)&amp;nbsp;throws&amp;nbsp;CommerceException;!!discoiqbr!!!!discoiqbr!!/**!!discoiqbr!!&amp;nbsp;*&amp;nbsp;Informs&amp;nbsp;the&amp;nbsp;promotion&amp;nbsp;handler&amp;nbsp;that&amp;nbsp;something&amp;nbsp;under&amp;nbsp;the&amp;nbsp;promotions&amp;nbsp;root&amp;nbsp;has&amp;nbsp;been&amp;nbsp;edited,&amp;nbsp;and&amp;nbsp;the&amp;nbsp;handler!!discoiqbr!!&amp;nbsp;*&amp;nbsp;should&amp;nbsp;invalidate&amp;nbsp;any&amp;nbsp;caches&amp;nbsp;it&amp;nbsp;might&amp;nbsp;be&amp;nbsp;keeping.!!discoiqbr!!&amp;nbsp;*/!!discoiqbr!!public&amp;nbsp;void&amp;nbsp;invalidateCaches(); 
+  </codeblock> 
+  <p>Three promotion handlers are provided out of the box:</p> 
+  <ul> 
+   <li><span class="code">DiscountPromotionHandler</span> applies a cart-wide absolute or percentage discount</li> 
+   <li><span class="code">PerfectPartnerPromotionHandler</span> applies a product absolute or percentage discount if the product partner is also in the cart</li> 
+   <li><span class="code">FreeShippingPromotionHandler</span> applies free shipping</li> 
+  </ul>   
+ </body> 
+</html>

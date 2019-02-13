@@ -1,0 +1,85 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/author;/content/help/en/experience-manager/6-4/forms/morehelp/author" name="moreHelpPaths" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:author" name="cq:tags" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="faeea7aa-4b5d-4f60-994f-1ca08849c52b" name="jcr:predecessors" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" />
+  <meta content="2017-12-01T19:04:30.837-0500" name="jcr:created" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2018-04-03T08:52:00.622-0400" name="lastPublishExternalDate" />
+  <meta content="2018-04-03T08:52:00.622-0400" name="topicBrowsingSortDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/reference-adaptive-form-fragments.html" name="publishExternalURL" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="Reference adaptive form fragments" name="jcr:title" />
+  <meta content="en" name="pageCreatedAt" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2016-08-11T04:48:56.858-0400" name="firstPublishExternalDate" />
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2018-04-26T04:35:17.925-0400" name="cq:lastModified" />
+  <meta content="AEM Forms provides adaptive form fragments that you can use as assets to create a form quickly. " name="seoDescription" />
+  <meta content="772b3917-4268-4b8d-9ac0-9ca9f0927abb" name="jcr:uuid" />
+  <meta content="2018-04-03T08:52:00.622-0400" name="publishExternalDate" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-04-03T08:52:00.750-0400" name="cq:lastReplicated" />
+  <meta content="2018-04-26T04:35:17.924-0400" name="locHandOffDate" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+ </head>
+ <body>
+  <p><a href="../../forms/using/adaptive-form-fragments.md" target="_blank">Adaptive form fragment</a> is a group of fields, or a panel containing a group of fields that you can use when you create a form. It lets you create a form easily and quickly. You can drag-drop an adaptive form fragment into a form using the assets browser in sidebar, and you can edit it in the form editor. </p> 
+  <p>For adaptive forms authors, reference fragments are provided in the AEM Forms package <a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq630/fd/AEM-FORMS-6.3-REFERENCE-FRAGMENTS" target="_blank">AEM-FORMS-6.3-REFERENCE-FRAGMENTS</a>. It includes the following fragments:</p> 
+  <ul> 
+   <li>Address</li> 
+   <li>Contact Information</li> 
+   <li>Credit card Information<br /> </li> 
+   <li>Current Employment</li> 
+   <li>Dependents Information<br /> </li> 
+   <li>Employment History</li> 
+   <li>Income &amp; Expenditure</li> 
+   <li>Name<br /> </li> 
+   <li>Terms &amp; Conditions</li> 
+   <li>Terms &amp; Conditions with Scribble</li> 
+  </ul> 
+  <p>When you install the package, a Reference Fragments folder containing reference fragments is created under Forms &amp; Documents. For installing a package, see <a href="../../sites/administering/using/package-manager.md" target="_blank">How to Work With Packages</a>.</p> 
+  <img alt="All fragments listed" imageRotate="0" src="assets/ootb-frags.png" title="All fragments listed" />
+  <h2>Address</h2>
+  <p>Includes fields to specify mailing address. The available fields are street address, ZIP code, city, state, and country. It also includes a preconfigured web service that populates the city and state for a specified US zip code.</p> 
+  <a href="assets/address-1.png"><img alt="Address fragment" captionBottom="Click to enlarge" imageRotate="0" src="assets/address.png" title="Address fragment" /></a>
+  <h2>Contact Information</h2>
+  <p>Includes fields to capture phone number and email address. </p> 
+  <a href="assets/contact-info-1.png"><img alt="Contact information fragment" captionBottom="Click to enlarge" imageRotate="0" src="assets/contact-info.png" title="Contact information fragment" /></a>
+  <h2>Credit Card Information</h2>
+  <p>Includes fields to capture credit card information that can be used to process payments.</p> 
+  <a href="assets/cc-info-1.png"><img alt="Credit Card Information Fragment" imageRotate="0" src="assets/cc-info.png" title="Credit Card Information Fragment" /></a>
+  <h2>Current Employment</h2>
+  <p>Includes fields to capture current employment details like employment status, field of employment, designation, organization, and date of joining. </p> 
+  <a href="assets/current-emp-1.png"><img alt="Current Employment fragment" captionBottom="Click to enlarge" imageRotate="0" src="assets/current-emp.png" title="Current Employment fragment" /></a>
+  <h2>Dependents Information</h2>
+  <p>Includes fields to specify information about one or more dependents, such as their name, relationship, and age in a tabular format.</p> 
+  <a href="assets/dependents-info-1.png"><img alt="Dependents information fragment" captionBottom="Click to enlarge" imageRotate="0" src="assets/dependents-info.png" title="Dependents information fragment" /></a>
+  <h2>Employment History</h2>
+  <p>Includes fields to capture employment history. It allows adding multiple organizations.</p> 
+  <a href="assets/emp-history-1.png"><img alt="Employment History fragment" captionBottom="Click to enlarge" imageRotate="0" src="assets/emp-history.png" title="Employment History fragment" /></a>
+  <h2>Income &amp; Expenditure</h2>
+  <p>Includes fields to capture monthly cash flow and expenses. Forms that require users to provide financial details can use this fragment to capture income and expenditure.</p> 
+  <a href="assets/income-1.png"><img alt="Income &amp; Expenditure fragment" captionBottom="Click to enlarge" imageRotate="0" src="assets/income.png" title="Income &amp; Expenditure fragment" /></a>
+  <h2>Name</h2>
+  <p>Includes fields to specify title, first name, middle name, and last name.</p> 
+  <a href="assets/name-1.png"><img alt="Name fragment" captionBottom="Click to enlarge" imageRotate="0" src="assets/name.png" title="Name fragment" /></a>
+  <h2>Terms &amp; Conditions</h2>
+  <p>Specifies terms and conditions for users to accept before submitting a form.</p> 
+  <a href="assets/tnc-1.png"><img alt="Terms &amp; Conditions fragment" captionBottom="Click to enlarge" imageRotate="0" src="assets/tnc.png" title="Terms &amp; Conditions fragment" /></a>
+  <h2>Terms &amp; Conditions with Scribble</h2>
+  <p>Specifies terms and conditions for users to accept and sign before submitting a form.</p> 
+  <a href="assets/tnc-scribble-1.png"><img alt="Terms &amp; Conditions with Scribble" captionBottom="Click to enlarge" imageRotate="0" src="assets/tnc-scribble.png" title="Terms &amp; Conditions with Scribble" /></a>
+ </body>
+</html>

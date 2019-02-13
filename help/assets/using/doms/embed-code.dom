@@ -1,0 +1,73 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2018-04-24T11:58:17.987-0400" name="cq:lastModified" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS" name="primaryProductTag" />
+  <meta content="Rick Brough" name="contentOwner" />
+  <meta content="43" name="acrolinxSentences" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="asgupta" name="acrolinxLastCheckedBy" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="green" name="acrolinxPageStatus" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/embed_code_krs_workflow_f3c2f2ccebf6138e_130_report.xml" name="acrolinxReportURL" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2017-10-31T16:34:54.370-0400" name="publishExternalDate" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="2017-10-31T16:34:54.370-0400" name="firstPublishExternalDate" />
+  <meta content="Embedding the Video or Image Viewer on a Web Page" name="jcr:title" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-04-03T08:07:45.312-0400" name="cq:lastReplicated" />
+  <meta content="531" name="acrolinxWords" />
+  <meta content="checked_improved" name="acrolinxStatus" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="/content/docs/en/aem/6-3/author/assets/dynamic-media/delivering-dynamic-media-assets/embed-code" name="qaNotes" />
+  <meta content="rbrough" name="cq:lastModifiedBy" />
+  <meta content="2017-10-31T16:34:54.370-0400" name="lastPublishExternalDate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS;topic_tags:dynamic-media;content_type:reference" name="cq:tags" />
+  <meta content="2018-03-14T09:01:04.783-0400" name="jcr:created" />
+  <meta content="Learn how to embed dynamic media video or images on a web page" name="seoDescription" />
+  <meta content="2018-04-24T11:58:17.987-0400" name="locHandOffDate" />
+  <meta content="2017-10-31T16:34:54.370-0400" name="topicBrowsingSortDate" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" />
+  <meta content="/content/help/en/experience-manager/6-4/assets/morehelp/dynamic-media;/content/help/en/experience-manager/6-4/assets/morehelp/dynamic-media" name="moreHelpPaths" />
+  <meta content="2019-01-12T17:28:42.397-0500" name="acrolinxDate" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/assets/using/embed-code.html" name="publishExternalURL" />
+  <meta content="Embedding the Video or Image Viewer on a Web Page" name="seoTitle" />
+  <meta content="Embedding the Video or Image Viewer on a Web Page" name="navTitle" />
+  <meta content="0bb97a09-64ff-47fb-991c-44fb815c7eb7" name="jcr:uuid" />
+  <meta content="cc3cdcdf-491c-4274-afb6-b1d957de41a8" name="jcr:predecessors" />
+ </head>
+ <body>
+  <p>Use the Embed Code feature when you want to play the video or view an asset embedded on a web page. You copy the embed code to the clipboard so you can paste it in your web pages. Editing of the code is not permitted in the Embed Code dialog box.</p> 
+  <p>You embed URLs only if you are <strong>not</strong> using AEM as your WCM. If you are using AEM as your WCM, <a href="../../assets/using/adding-dynamic-media-assets-to-pages.md">you add the assets directly on your page.</a></p> 
+  <p>See also <a href="../../assets/using/linking-urls-to-yourwebapplication.md">Linking URLs to your Web Application.</a></p> 
+  <p>See also <a href="../../assets/using/responsive-site.md">Delivering Optimized Images for a Responsive Site.</a></p> 
+  <note>
+   <p>The embed code is not available to copy until you have published the selected asset. In addition, you must also publish the viewer preset or image preset.</p> 
+   <p>See <a href="../../assets/using/publishing-dynamicmedia-assets.md">Publishing Assets</a>.</p> 
+   <p>See <a href="../../assets/using/managing-viewer-presets.md#publishingviewerpresets">Publishing Viewer Presets</a>.</p> 
+   <p>See <a href="../../assets/using/managing-image-presets.md#publishingimagepresets">Publishing Image Presets</a>.</p> 
+  </note>
+  <p>To embed the video viewer or asset viewer on a web page:</p> 
+  <ol>
+   <li><p>Navigate to the <i>published </i>video or image asset whose embed code you want to copy.</p> <p>Remember that the embed code is only available to copy <i>after</i> you have first <i>published</i> the assets. In addition, the viewer preset or image preset must also be published.</p> <p>See <a href="../../assets/using/publishing-dynamicmedia-assets.md">Publishing Assets.</a></p> <p>See <a href="../../assets/using/managing-viewer-presets.md#publishingviewerpresets">Publishing Viewer Presets</a>.</p> <p>See <a href="../../assets/using/managing-image-presets.md#publishingimagepresets">Publishing Image Presets</a>.</p> </li>
+   <li><p>In the left rail, select the drop-down menu and click or tap <strong>Viewers</strong>. </p> </li>
+   <li><p>In the left rail, click a viewer preset name. The viewer preset is applied to the asset.</p> </li>
+   <li><p>Click <strong>Embed</strong>.</p> </li>
+   <li><p>In the Embed Code dialog box, copy the entire code to the clipboard, and then click <strong>Close</strong>.</p> </li>
+   <li><p>Paste the embed code into your web pages.</p> </li>
+  </ol>
+  <h3>Using HTTP/2 to deliver your Dynamic Media assets</h3>
+  <p>HTTP/2 is the new, updated web protocol that improves the way browsers and servers communicate. It provides faster transfer of information and reduces the amount of processing power that is needed. Delivery of Dynamic Media assets can now be over HTTP/2 which provides better response and load times.</p> 
+  <p>See <a href="../../assets/using/http2.md">HTTP2 Delivery of Content</a> for complete details on getting started using HTTP/2 with your Dynamic Media account.</p> 
+ </body>
+</html>

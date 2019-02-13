@@ -1,0 +1,879 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2017-12-07T19:01:44.627-0500" name="jcr:created" /> 
+  <meta content="dist5" name="distType" /> 
+  <meta content="2018-04-23T04:49:04.938-0400" name="cq:lastReplicated" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="bohnert@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2017-12-06T06:28:29.060-0500" name="topicBrowsingSortDate" /> 
+  <meta content="/content/docs/en/aem/6-3/develop/the-basics/website" name="qaNotes" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="trushton" name="cq:lastModifiedBy" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2017-12-06T06:28:29.060-0500" name="publishExternalDate" /> 
+  <meta content="This tutorial enables you to create a fully featured website with AEM" name="seoDescription" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="Guillaume Carlino" name="contentOwner" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/morehelp/introduction;/content/help/en/experience-manager/6-4/sites/developing/morehelp/introduction" name="moreHelpPaths" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/website.html" name="publishExternalURL" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="bohnert" name="cq:lastReplicatedBy" /> 
+  <meta content="2018-05-08T12:45:49.258-0400" name="locHandOffDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:introduction;content_type:reference" name="cq:tags" /> 
+  <meta content="d8c9e975-d45a-4037-bc33-adad864a1d8c" name="jcr:uuid" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="audience:developing" name="primaryAudienceTag" /> 
+  <meta content="Create a Fully-Featured Website (JSP)" name="seoTitle" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2018-05-08T12:45:49.259-0400" name="cq:lastModified" /> 
+  <meta content="Create a Fully-Featured Website (JSP)" name="navTitle" /> 
+  <meta content="Create a Fully-Featured Website (JSP)" name="jcr:title" /> 
+  <meta content="2017-12-06T06:28:29.060-0500" name="lastPublishExternalDate" /> 
+  <meta content="mix:lockable;mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="light" name="gnavTheme" /> 
+  <meta content="069c7975-8763-4409-98f0-3368dc732e8b" name="jcr:predecessors" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" /> 
+  <meta content="2017-10-31T16:15:51.840-0400" name="firstPublishExternalDate" /> 
+ </head> 
+ <body> 
+  <note> 
+   <p>This article describes how to create a website using JSP and based on the classic UI. Adobe recommends leveraging the latest AEM technologies for your websites as described in detail in the article <a href="../../../sites/developing/using/getting-started.md">Getting Started Developing AEM Sites</a>.</p> 
+  </note> 
+  <p>This tutorial enables you to create a fully featured website with Adobe Experience Manager (AEM). The website will be based on a generic website and is targeted primarily at web developers. All development will take place within an author environment.</p> 
+  <p>This tutorial describes how to:</p> 
+  <ol> 
+   <li>Install AEM.</li> 
+   <li>Access CRXDE Lite (the development environment).<br /> </li> 
+   <li>Set up the project structure in CRXDE Lite.<br /> </li> 
+   <li>Create the template, component, and scripts used as the basis for creating content pages.</li> 
+   <li>Create the root page for your website and then content pages.</li> 
+   <li>Create the following components for use on your pages:<br /> 
+    <ul> 
+     <li>Top Navigation<br /> </li> 
+     <li>List Children<br /> </li> 
+     <li>Logo<br /> </li> 
+     <li>Image<br /> </li> 
+     <li>Text-Image<br /> </li> 
+     <li>Search<br /> </li> 
+    </ul> </li> 
+   <li>Include various foundation components.</li> 
+  </ol> 
+  <p>After performing all the steps, your pages will look as follows:</p> 
+  <img imageRotate="0" src="assets/chlimage_1-109.png" /> 
+  <p><strong>Download the final result</strong></p> 
+  <p>To follow along with the tutorial rather than performing the exercises, download website-1.0.zip. This file is an AEM content package that contains the results of this tutorial. Use <a href="../../../sites/administering/using/package-manager.md">Package Manager</a> to install the package to your author instance.</p> 
+  <p><strong>NOTE: </strong>Installing this package will overwrite any resources on your authoring instance that you have created using this tutorial.</p> 
+  <p> </p> 
+  <div> 
+   <p>Website content package</p> 
+   <p><a alt="website-1.0.zip" href="assets/website-1_0.zip">Get File</a></p> 
+  </div> 
+  <h3>Installing Adobe Experience Manager</h3> 
+  <p>To install an AEM instance for developing your website, follow the instructions for setting up a <a href="../../../sites/deploying/using/deploy.md#main-pars-title-11">deployment environment with author and publish instances</a>, or perform a <a href="../../../sites/deploying/using/deploy.md#main-pars-title-1">generic installation</a>. The generic installation involves downloading the AEM Quickstart JAR file, placing the license.properties file in the same directory as the JAR file, and double-clicking the JAR file. </p> 
+  <p>After you have installed AEM, access the CRXDE Lite development environment by clicking the CRXDE Lite link on the Welcome page: </p> 
+  <img imageRotate="0" src="assets/chlimage_1-110.png" /> 
+  <note> 
+   <p>The URL of CRXDE Lite for an AEM authoring instance that is installed locally using the default port is <a href="http://localhost:4502/crx/de/">http://localhost:4502/crx/de/</a>.</p> 
+  </note> 
+  <h3>Setting up the project structure in CRXDE Lite</h3> 
+  <p>Use CRXDE Lite to create the mywebsite application structure in the repository:</p> 
+  <ol> 
+   <li><p>In the tree on the left side of CRXDE Lite, right-click the <strong><span class="code">/apps</span></strong> folder and click <strong>Create</strong> &amp;gt; <strong>Create</strong> <strong>Folder</strong>. In the <strong>Create Folder </strong>dialog, type <span class="code">mywebsite</span> as the folder name and click <strong>OK</strong>.</p> </li> 
+   <li><p>Right-click the <strong><span class="code">/apps/mywebsite</span></strong> folder and click <strong>Create</strong> &amp;gt; <strong>Create Folder</strong>. In the <strong>Create Folder</strong> dialog, type <span class="code">components</span> as the folder name and click <strong>OK</strong>.</p> </li> 
+   <li><p>Right-click the <strong><span class="code">/apps/mywebsite</span></strong> folder and click <strong>Create</strong> &amp;gt; <strong>Create Folder</strong>. In the<strong> Create Folder </strong>dialog, type <span class="code">templates</span> as the folder name and click <strong>OK</strong>.</p> <p>The structure in the tree should now look something like this:<br /> </p> <img imageRotate="0" src="assets/chlimage_1-111.png" /></li> 
+   <li><p>Click <strong>Save All</strong>.<br /> </p> </li> 
+  </ol> 
+  <h3>Setting up the Design</h3> 
+  <p>In this section, you create the design for your application using the Designer tool. The design provides CSS and image resources for your web site.</p> 
+  <note> 
+   <p>Click the following link to download mywebsite.zip. The archive contains the static.css and image files for your design.<br /> </p> 
+  </note> 
+  <div> 
+   <p>Sample static.css file and images</p> 
+   <p><a alt="mywebsite.zip" href="assets/mywebsite.zip">Get File</a></p> 
+  </div> 
+  <ol> 
+   <li><p>On the AEM Welcome page, click <strong>Tools</strong>. (<a href="http://localhost:4502/libs/cq/core/content/welcome.html">http://localhost:4502/libs/cq/core/content/welcome.html</a>)<br /> </p> <img imageRotate="0" src="assets/chlimage_1-112.png" /></li> 
+   <li><p>In the folder tree, select the <strong>Designs</strong> folder and then click <strong>New</strong> &amp;gt; <strong>New Page</strong>. Type <span class="code">mywebsite</span> as the title and click <strong>Create</strong>.<br /> </p> </li> 
+   <li><p>If the mywebsite item does not appear in the table, refresh the tree or the table.<br /> </p> </li> 
+   <li><p><a href="../../../sites/administering/using/webdav-access.md">Using WebDAV</a> access to the URL at http://localhost:4502, copy the sample <span class="code">static.css</span> file and <span class="code">images</span> folder from the downloaded mywebsite.zip file into the <span class="code">/etc/designs/mywebsite</span> folder. </p> <img imageRotate="0" src="assets/chlimage_1-113.png" /></li> 
+  </ol> 
+  <h3>Creating the Contentpage Template, Component and Script</h3> 
+  <p>In this section, you create the following:</p> 
+  <ul> 
+   <li>The contentpage template that will be used to create content pages in the example website</li> 
+   <li>The contentpage component that will be used to render pages of content</li> 
+   <li>The contentpage script</li> 
+  </ul> 
+  <h4>Creating the Contentpage Template</h4> 
+  <p>Create a template to use as the basis of the web pages of your site.</p> 
+  <p>A template defines the default content of a new page. Complex websites may use several templates for creating the different types of pages in the site. In this exercise, all pages are based on one simple template.</p> 
+  <ol> 
+   <li><p>In the folder tree of CRXDE Lite, right-click <span class="code">/apps/mywebsite/templates</span> and click <strong>Create</strong> &amp;gt; <strong>Create Template</strong>.<br /> </p> </li> 
+   <li><p>In the Create Template dialog, type the following values and then click <strong>Next</strong>:</p> 
+    <ul> 
+     <li><strong>Label</strong>: contentpage</li> 
+     <li><strong>Title</strong>: My Website Content Page Template</li> 
+     <li><strong>Description</strong>: This is my Website Content Page Template</li> 
+     <li><strong>Resource Type: </strong>mywebsite/components/contentpage</li> 
+    </ul> <p>Use the default value for the Ranking property.</p> <img imageRotate="0" src="assets/chlimage_1-114.png" /><p>The resource type identifies the component that renders the page. In this case, all pages created using the contentpage template are rendered by the <span class="code">mywebsite/components/contentpage</span> component.</p>  </li> 
+   <li><p>To specify the paths of the pages that can use this template, click the plus button and type <span class="code">/content(/.*)?</span> in the text box that appears. Then, click <strong>Next</strong>.</p> <img imageRotate="0" src="assets/chlimage_1-115.png" /><p>The value of the allowed path property is a <i>regular expression.</i> Pages that have a path that matches the expression can use the template. In this is case the regular expression matches the path of the <strong>/content</strong> folder and all subpages.</p> <p>When an author creates a page below /content, the <strong>contentpage</strong> template appears in a list of available templates to use.</p>  </li> 
+   <li><p>Click <strong>Next</strong> in the <strong>Allowed Parents</strong> and <strong>Allowed Children</strong> panels and click <strong>OK</strong>. In CRXDE Lite, click <strong>Save All</strong>.</p>  <img imageRotate="0" src="assets/chlimage_1-116.png" /></li> 
+  </ol> 
+  <h4>Creating the Contentpage Component</h4> 
+  <p>Create the <i>component</i> that defines the content and renders the pages that use the contentpage template. The location of the component must correspond with the value of the Resource Type property of the contentpage template.</p> 
+  <p></p> 
+  <ol> 
+   <li><p>In CRXDE Lite, right-click <span class="code">/apps/mywebsite/components</span> and click <strong>Create</strong> &amp;gt; <strong>Component</strong>.</p>  </li> 
+   <li><p>In the <strong>Create Component</strong> dialog, type the following property values: </p> 
+    <ul> 
+     <li><strong>Label</strong>: contentpage</li> 
+     <li><strong>Title</strong>: My Website Content Page Component</li> 
+     <li><strong>Description</strong>: This is My Website Content Page Component</li> 
+    </ul> <img imageRotate="0" src="assets/chlimage_1-117.png" /><p>The location of the new component is <span class="code">/apps/mywebsite/components/contentpage</span>. This path corresponds with the resource type of the contentpage template (minus the initial <strong><span class="code">/apps/</span></strong> part of the path).</p> <p>This correspondence connects the template to the component and is critical to the correct functioning of the website.</p>  </li> 
+   <li><p>Click <strong>Next</strong> until the Allowed Children panel of the dialog appears, and then click <strong>OK</strong>. In CRXDE Lite, click <strong>Save All</strong>.</p>  <p>The structure now looks as follows:</p>  <img imageRotate="0" src="assets/chlimage_1-118.png" /></li> 
+  </ol> 
+  <h4>Developing the Contentpage Component Script</h4> 
+  <p>Add code to the contentpage.jsp script to define the page content.</p> 
+  <ol> 
+   <li><p>In CRXDE Lite, open the file <span class="code">contentpage.jsp</span> in <span class="code">/apps/mywebsite/components/contentpage</span>. The file contains the following code by default:</p> 
+    <codeblock gutter="true" class="syntax java">
+      &lt;%--!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;My&amp;nbsp;Website&amp;nbsp;Content&amp;nbsp;Page&amp;nbsp;Component&amp;nbsp;component.!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;This&amp;nbsp;is&amp;nbsp;My&amp;nbsp;Website&amp;nbsp;Content&amp;nbsp;Page&amp;nbsp;Component.!!discoiqbr!!!!discoiqbr!!--%&gt;&lt;%!!discoiqbr!!%&gt;&lt;%@include&amp;nbsp;file="/libs/foundation/global.jsp"%&gt;&lt;%!!discoiqbr!!%&gt;&lt;%@page&amp;nbsp;session="false"&amp;nbsp;%&gt;&lt;%!!discoiqbr!!%&gt;&lt;%!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/*&amp;nbsp;TODO&amp;nbsp;add&amp;nbsp;you&amp;nbsp;code&amp;nbsp;here&amp;nbsp;*/!!discoiqbr!!%&gt; 
+    </codeblock></li> 
+   <li><p>Copy the following code and paste it in contentpage.jsp after the default code:</p>  
+    <codeblock gutter="true" class="syntax java">
+      &lt;%@&amp;nbsp;page&amp;nbsp;language="java"&amp;nbsp;contentType="text/html;&amp;nbsp;charset=ISO-8859-1"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;pageEncoding="ISO-8859-1"%&gt;!!discoiqbr!!&lt;!DOCTYPE&amp;nbsp;html&amp;nbsp;PUBLIC&amp;nbsp;"-//W3C//DTD&amp;nbsp;HTML&amp;nbsp;4.01&amp;nbsp;Transitional//EN"&amp;nbsp;!!discoiqbr!!"http://www.w3.org/TR/html4/loose.dtd"&gt;!!discoiqbr!!&lt;html&gt;!!discoiqbr!!&lt;head&gt;!!discoiqbr!!&lt;meta&amp;nbsp;http-equiv="Content-Type"&amp;nbsp;content="text/html;&amp;nbsp;charset=ISO-8859-1"&gt;!!discoiqbr!!&lt;title&gt;My&amp;nbsp;title&lt;/title&gt;!!discoiqbr!!&lt;/head&gt;!!discoiqbr!!&lt;body&gt;!!discoiqbr!!&lt;div&gt;My&amp;nbsp;body&lt;/div&gt;!!discoiqbr!!&lt;/body&gt;!!discoiqbr!!&lt;/html&gt; 
+    </codeblock></li> 
+   <li><p>Click<strong> Save All</strong> to save your changes.</p>  </li> 
+  </ol> 
+  <h3>Creating your Website Page and Content Pages</h3> 
+  <p>In this section, you create the following pages which all use the contentpage template: My Website, English, Products, Services, and Customers.</p> 
+  <ol> 
+   <li><p>On the AEM Welcome page (<a href="http://localhost:4502/libs/cq/core/content/welcome.html">http://localhost:4502/libs/cq/core/content/welcome.html</a>), click Websites.</p> <img imageRotate="0" src="assets/chlimage_1-119.png" /></li> 
+   <li><p>In the folder tree, select the <strong>Websites</strong> folder and then click <strong>New </strong>&amp;gt; <strong>New Page</strong>.</p> </li> 
+   <li><p>In the<strong> Create Page</strong> window, enter the following:</p> 
+    <ul> 
+     <li>Title: <span class="code">My Website</span></li> 
+     <li>Name: <span class="code">mywebsite</span></li> 
+     <li>Select the <span class="code">My Website Content Page Template</span></li> 
+    </ul> <img imageRotate="0" src="assets/chlimage_1-120.png" /></li> 
+   <li><p>Click <strong>Create</strong>. In the folder tree, select the <strong>/Websites/My Website</strong> page and click <strong>New</strong> &amp;gt;<strong> New Page</strong>.</p> </li> 
+   <li><p>In the Create Page dialog, enter the following property values and then click Create:</p> 
+    <ul> 
+     <li>Title: English</li> 
+     <li>Name: en</li> 
+     <li>Select the My Website Content Page Template</li> 
+    </ul> </li> 
+   <li><p>In the folder tree, select the <strong>/Websites/My Website/English</strong> page and click <strong>New</strong>&amp;gt;<strong> New Page</strong>.</p> </li> 
+   <li><p>In the<strong> Create Page</strong> dialog, enter the following property values and then click <strong>Create</strong>: </p> 
+    <ul> 
+     <li>Title: Products</li> 
+     <li>Select the My Website Content Page Template </li> 
+    </ul>  </li> 
+   <li><p>In the folder tree, select the <strong>/Websites/My Website/English</strong> page and click <strong>New</strong> &amp;gt;<strong> New Page</strong>.</p>  </li> 
+   <li><p>In the <strong>Create Page</strong> dialog, enter the following property values and then click <strong>Create</strong>:</p> 
+    <ul> 
+     <li>Title: Services</li> 
+     <li>Select the My Website Content Page Template</li> 
+    </ul> </li> 
+   <li><p>In the folder tree, select the <strong>/Websites/My Website/English</strong> page and click <strong>New</strong> &amp;gt;<strong> New Page</strong>. </p>  </li> 
+   <li><p>In the<strong> Create Page</strong> dialog, enter the following property values and then click <strong>Create</strong>: </p> 
+    <ul> 
+     <li>Title: Customers</li> 
+     <li>Select the My Website Content Page Template </li> 
+    </ul> <p>Your structure looks as follows:</p>  <img imageRotate="0" src="assets/chlimage_1-121.png" /></li> 
+   <li><p>To link your pages to the mywebsite design, in CRXDE Lite, select the <span class="code">/content/mywebsite/en/jcr:content</span> node. On the Properties tab, type the following values for a new property and then click Add:</p> 
+    <ul> 
+     <li>Name: cq:designPath</li> 
+     <li>Type: String</li> 
+     <li>Value: /etc/designs/mywebsite</li> 
+    </ul> <img imageRotate="0" src="assets/chlimage_1-122.png" /></li> 
+   <li><p>In a new wb browser tab or window, open <a href="http://localhost:4502/content/mywebsite/en/products.html">http://localhost:4502/content/mywebsite/en/products.html</a> to see the Products page:</p> <img imageRotate="0" src="assets/chlimage_1-123.png" /></li> 
+  </ol> 
+  <h3>Enhancing the Contentpage Script</h3> 
+  <p>This section describes how to enhance the contentpage script using the AEM foundation component scripts and by writing your own scripts.</p> 
+  <p>The <strong>Products</strong> page will look as follows:</p> 
+  <img imageRotate="0" src="assets/chlimage_1-4.jpeg" /> 
+  <h4>Using the Foundation Page Scripts</h4> 
+  <p>In this exercise, you configure your pagecontent component so that its supertype is the AEM Page component. Because components inherit the features of their supertype, your pagecontent inherits the scripts and properties of the Page component.</p> 
+  <p>For example, in your component JSP code, you can reference the scripts that the supertype component provides as though they are included in your component. </p> 
+  <ol> 
+   <li><p>In CRXDE Lite, add a property to the <span class="code">/apps/mywebsite/components/contentpage</span> node.</p> 
+    <ol> 
+     <li>Select the <span class="code">/apps/mywebsite/components/contentpage</span> node.</li> 
+     <li>At the bottom of the Properties tab, type the following property values and then click Add: 
+      <ul> 
+       <li><strong>Name: </strong>sling:resourceSuperType</li> 
+       <li><strong>Type: </strong>String</li> 
+       <li><strong>Value:</strong> foundation/components/page</li> 
+      </ul> </li> 
+     <li>Click Save All.</li> 
+    </ol> </li> 
+   <li><p>Open the <span class="code">contentpage.jsp</span> file under <span class="code">/apps/mywebsite/components/contentpage</span> and replace the existing code with the following code:</p> 
+    <codeblock gutter="true" class="syntax xml">
+      &lt;%@include&amp;nbsp;file="/libs/foundation/global.jsp"%&gt;&lt;%!!discoiqbr!!%&gt;&lt;%@page&amp;nbsp;session="false"&amp;nbsp;contentType="text/html;&amp;nbsp;charset=utf-8"&amp;nbsp;%&gt;&lt;%!!discoiqbr!!%&gt;&lt;!DOCTYPE&amp;nbsp;HTML&amp;nbsp;PUBLIC&amp;nbsp;"-//W3C//DTD&amp;nbsp;HTML&amp;nbsp;4.01//EN"&amp;nbsp;"http://www.w3.org/TR/html4/strict.dtd"&gt;!!discoiqbr!!&lt;html&gt;!!discoiqbr!!&lt;cq:include&amp;nbsp;script="head.jsp"/&gt;!!discoiqbr!!&lt;cq:include&amp;nbsp;script="body.jsp"/&gt;!!discoiqbr!!&lt;/html&gt; 
+    </codeblock></li> 
+   <li><p>Save your changes.</p>  </li> 
+   <li><p>In your browser, reload the Products page. It looks as follows:</p>  <img imageRotate="0" src="assets/chlimage_1-5.jpeg" /><p>Open the page source to see the javascript and HTML elements that the head.jsp and body.jsp scripts generated. The following script snippet opens Sidekick when you open the page:</p>  
+    <codeblock class="syntax java">
+      CQ.WCM.launchSidekick("/content/mywebsite/en/products",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;{propsDialog:&amp;nbsp;"/libs/foundation/components/page/dialog",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;locked:&amp;nbsp;false&amp;nbsp;locked:&amp;nbsp;false!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;});&amp;nbsp; 
+    </codeblock></li> 
+  </ol> 
+  <h4>Using your own scripts</h4> 
+  <p>In this section you create several scripts that each generate a part of the page body. You then create the body.jsp file in the pagecontent component to override the body.jsp of the AEM Page component. In your body.jsp file, you include your scripts that generate the different parts of the page body. </p> 
+  <p><strong>Tip:</strong> When a component includes a file that has the same name and relative location as a file in the component's supertype, it is called <i>overlaying</i>.</p> 
+  <ol> 
+   <li><p>In CRXDE Lite, create the file <span class="code">left.jsp</span> under <span class="code">/apps/mywebsite/components/contentpage</span>:</p> 
+    <ol> 
+     <li>Right-click the node <span class="code">/apps/mywebsite/components/contentpage</span>, then select <strong>Create </strong>then <strong>Create File</strong>.</li> 
+     <li>In the window, type <span class="code">left.jsp</span> as the<strong> Name</strong> and click <strong>OK</strong>.</li> 
+    </ol> </li> 
+   <li><p>Edit the file <span class="code">left.jsp</span> to remove the existing content and replace with the following code:</p> 
+    <codeblock gutter="true" class="syntax java">
+      &lt;%@include&amp;nbsp;file="/libs/foundation/global.jsp"%&gt;&lt;%!!discoiqbr!!%&gt;&lt;div&amp;nbsp;class="left"&gt;!!discoiqbr!!&lt;div&gt;logo&lt;/div&gt;!!discoiqbr!!&lt;div&gt;newslist&lt;/div&gt;!!discoiqbr!!&lt;div&gt;search&lt;/div&gt;!!discoiqbr!!&lt;/div&gt; 
+    </codeblock></li> 
+   <li><p>Save the changes.</p> </li> 
+   <li><p>In CRXDE Lite, create the file <span class="code">center.jsp</span> under <span class="code">/apps/mywebsite/components/contentpage</span>:</p> 
+    <ol> 
+     <li>Right-click the node <span class="code">/apps/mywebsite/components/contentpage</span>, select <strong>Create</strong>, then <strong>Create File</strong>.</li> 
+     <li>In the dialog box, type <span class="code">center.jsp</span> as <strong>Name</strong> and click <strong>OK</strong>.</li> 
+    </ol> </li> 
+   <li><p>Edit the file <span class="code">center.jsp</span> to remove the existing content and replace it with the following code:<br /> </p> 
+    <codeblock gutter="true" class="syntax java">
+      &lt;%@include&amp;nbsp;file="/libs/foundation/global.jsp"%&gt;&lt;%!!discoiqbr!!%&gt;&lt;div&amp;nbsp;class="center"&gt;!!discoiqbr!!&lt;div&gt;trail&lt;/div&gt;!!discoiqbr!!&lt;div&gt;title&lt;/div&gt;!!discoiqbr!!&lt;div&gt;parsys&lt;/div&gt;!!discoiqbr!!&lt;/div&gt; 
+    </codeblock></li> 
+   <li><p>Save the changes.</p> </li> 
+   <li><p>In CRXDE Lite, create the file <span class="code">right.jsp</span> under <span class="code">/apps/mywebsite/components/contentpage</span>:</p> 
+    <ol> 
+     <li>Right-click the node <span class="code">/apps/mywebsite/components/contentpage</span>, select <strong>Create</strong>, then <strong>Create File</strong>.</li> 
+     <li>In the dialog box, type <span class="code">right.jsp</span> as <strong>Name</strong> and click <strong>OK</strong>.</li> 
+    </ol> </li> 
+   <li><p>Edit the file <span class="code">right.jsp</span> to remove the existing content and replace with the following code:</p> 
+    <codeblock gutter="true" class="syntax java">
+      &lt;%@include&amp;nbsp;file="/libs/foundation/global.jsp"%&gt;&lt;%!!discoiqbr!!%&gt;&lt;div&amp;nbsp;class="right"&gt;!!discoiqbr!!&lt;div&gt;iparsys&lt;/div&gt;!!discoiqbr!!&lt;/div&gt; 
+    </codeblock></li> 
+   <li><p>Save the changes.</p> </li> 
+   <li><p>In CRXDE Lite, create the file <span class="code">body.jsp</span> under <span class="code">/apps/mywebsite/components/contentpage</span>:</p> </li> 
+   <li><p>Edit the file <span class="code">body.jsp</span> to remove the existing content and replace with the following code:</p> 
+    <codeblock gutter="true" class="syntax java">
+      &lt;%@include&amp;nbsp;file="/libs/foundation/global.jsp"%&gt;&lt;%!!discoiqbr!!%&gt;&lt;body&gt;!!discoiqbr!!&lt;div&amp;nbsp;id="CQ"&gt;!!discoiqbr!!&lt;div&amp;nbsp;class="topnav"&gt;topnav&lt;/div&gt;!!discoiqbr!!&lt;div&amp;nbsp;class="content"&gt;!!discoiqbr!!&lt;cq:include&amp;nbsp;script="left.jsp"&amp;nbsp;/&gt;!!discoiqbr!!&lt;cq:include&amp;nbsp;script="center.jsp"&amp;nbsp;/&gt;!!discoiqbr!!&lt;cq:include&amp;nbsp;script="right.jsp"&amp;nbsp;/&gt;!!discoiqbr!!&lt;/div&gt;!!discoiqbr!!&lt;div&amp;nbsp;class="footer"&gt;!!discoiqbr!!&lt;div&amp;nbsp;class="toolbar"&gt;toolbar&lt;/div&gt;!!discoiqbr!!&lt;/div&gt;!!discoiqbr!!&lt;/div&gt;!!discoiqbr!!&lt;/body&gt; 
+    </codeblock></li> 
+   <li><p>Save the changes.</p> </li> 
+   <li><p>In your browser, reload the Products page. It looks as follows:</p> <img imageRotate="0" src="assets/chlimage_1-6.jpeg" /></li> 
+  </ol> 
+  <h3>Creating the Top Navigation Component</h3> 
+  <p>In this section, you create a component that displays links to all top level pages of the website as to ease navigation. This component content appears at the top of all pages that are created using the contentpage template.</p> 
+  <p>In the first version of the top navigation component (topnav) the navigation items are text links only. In the second version you implement topnav with image navigation links.</p> 
+  <p>Your top navigation will look as follows:</p> 
+  <img imageRotate="0" src="assets/chlimage_1-124.png" /> 
+  <h4>Creating the Top Navigation Component</h4> 
+  <ol> 
+   <li><p>In CRXDE Lite, right-click <span class="code">/apps/mywebsite/components</span>, select <strong>Create</strong>, then <strong>Create Component</strong>.</p>  </li> 
+   <li><p>In the <strong>Create Component</strong> window, enter the following:</p>  
+    <ul> 
+     <li><strong>Label</strong>: <span class="code">topnav</span></li> 
+     <li><strong>Title</strong>: <span class="code">My Top Navigation Component</span></li> 
+     <li><strong>Description</strong>: <span class="code">This is My Top Navigation Component</span></li> 
+    </ul>  </li> 
+   <li><p>Click <strong>Next</strong> until you come to the last window where you click <strong>OK</strong>. Save your changes.</p>  </li> 
+  </ol> 
+  <h4>Creating the Top Navigation Script with Textual Links</h4> 
+  <p>Add the rendering script to topnav to generate text links to child pages:</p> 
+  <ol> 
+   <li><p>In CRXDE Lite, open the file <span class="code">topnav.jsp</span> under <span class="code">/apps/mywebsite/components/topnav</span>.</p>  </li> 
+   <li><p>Replace the code that is there by copying and pasting the following code:</p>  
+    <codeblock gutter="true" class="syntax xml">
+      &lt;%@include&amp;nbsp;file="/libs/foundation/global.jsp"%&gt;&lt;%&amp;nbsp;!!discoiqbr!!%&gt;&lt;%@&amp;nbsp;page&amp;nbsp;import="java.util.Iterator,!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;com.day.text.Text,&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;com.day.cq.wcm.api.PageFilter,&amp;nbsp;com.day.cq.wcm.api.Page"&amp;nbsp;%&gt;&lt;%&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/*&amp;nbsp;get&amp;nbsp;starting&amp;nbsp;point&amp;nbsp;of&amp;nbsp;navigation&amp;nbsp;*/!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Page&amp;nbsp;navRootPage&amp;nbsp;=&amp;nbsp;currentPage.getAbsoluteParent(2);&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if&amp;nbsp;(navRootPage&amp;nbsp;==&amp;nbsp;null&amp;nbsp;&amp;&amp;&amp;nbsp;currentPage&amp;nbsp;!=&amp;nbsp;null)&amp;nbsp;{&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;navRootPage&amp;nbsp;=&amp;nbsp;currentPage;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if&amp;nbsp;(navRootPage&amp;nbsp;!=&amp;nbsp;null)&amp;nbsp;{&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Iterator&lt;Page&gt;&amp;nbsp;children&amp;nbsp;=&amp;nbsp;navRootPage.listChildren(new&amp;nbsp;PageFilter(request));!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;while&amp;nbsp;(children.hasNext())&amp;nbsp;{&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Page&amp;nbsp;child&amp;nbsp;=&amp;nbsp;children.next();&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;%&gt;&lt;a&amp;nbsp;href="&lt;%=&amp;nbsp;child.getPath()&amp;nbsp;%&gt;.html"&gt;&lt;%=child.getTitle()&amp;nbsp;%&gt;&lt;/a&gt;&lt;%&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&amp;nbsp;!!discoiqbr!!%&gt;&amp;nbsp; 
+    </codeblock></li> 
+  </ol> 
+  <h4>Including Top Navigation in the Contentpage Component</h4>  
+  <p>To include topnav in your contentpage component:</p> 
+  <p></p> 
+  <ol> 
+   <li><p>In CRXDE Lite, open the <span class="code">body.jsp</span> under <span class="code">/apps/mywebsite/components/contentpage </span>and replace:</p>  
+    <codeblock gutter="true" class="syntax xml">
+      &lt;div&amp;nbsp;class="topnav"&gt;topnav&lt;/div&gt; 
+    </codeblock><p>with:</p>  
+    <codeblock gutter="true" class="syntax xml">
+      &lt;cq:include&amp;nbsp;path="topnav"&amp;nbsp;resourceType="mywebsite/components/topnav"&amp;nbsp;/&gt; 
+    </codeblock></li> 
+   <li><p>Save the changes.</p>  </li> 
+   <li><p>In your browser, reload the Products Page. The top navigation appears as follows:</p>  <img imageRotate="0" src="assets/chlimage_1-125.png" /></li> 
+  </ol> 
+  <h4>Enhancing Pages with Subtitles</h4> 
+  <p>The Page component defines properties that enable you to provide subtitles for pages. Add subtitles that provide information about the page content.</p> 
+  <p></p> 
+  <ol> 
+   <li><p>In your browser, open the <strong>Products</strong> page.</p>  </li> 
+   <li><p>On the Sidekick <strong>Page</strong> tab, click <strong><strong>Page Properties</strong></strong>.</p> </li> 
+   <li><p>On the Basic tab of the dialog, expand <strong>More Titles and Description,</strong> and for the <strong>Subtitle </strong>property, type <strong>what we do</strong>. Click <strong><strong>OK</strong></strong>.</p> </li> 
+   <li><p>Repeat the previous steps to add the subtitle <strong></strong><strong>about our services</strong> to the <strong>Services</strong> page.</p> </li> 
+   <li><p>Repeat the previous steps to add the subtitle <strong>the trust we earn</strong> to the <strong>Customers</strong> page.</p> <p><strong>Tip:</strong> In CRXDE Lite, select the /content/mywebsite/en/products/jcr:content node to see that the subtitle property is added.</p>  </li> 
+  </ol> 
+  <h4>Enhance Top Navigation by Using Image Links</h4> 
+  <p>Enhance the rendering script of the topnav component to use image links instead of hypertext for the navigation controls. The image includes the title and subtitle of the link target.</p> 
+  <p>This exercise demonstrates <a href="../../../sites/developing/using/the-basics.md#main-pars-title-10">Sling request processing</a>. The topnav.jsp script is modified to call a script that dynamically generates images to use for the page navigation links. In this exercise, Sling parses the URL of image source files to determine the script to use to render the images.</p> 
+  <p>For example, the source for the image link to the Products page could be http://localhost:4502/content/mywebsite/en/products.navimage.png. Sling parses this URL to determine the resource type and the script to use to render the resource:</p> 
+  <ol> 
+   <li>Sling determines the path of the resource to be <span class="code">/content/mwebysite/en/products.png.</span></li> 
+   <li>Sling matches this path with the <span class="code">/content/mywebsite/en/products</span> node.</li> 
+   <li>Sling determines the <span class="code">sling:resourceType</span> of this node to be <span class="code">mywebsite/components/contentpage</span>.</li> 
+   <li>Sling finds the script in this component that best matches the URL selector (<span class="code">navimage</span>) and file name extension (<span class="code">png</span>).</li> 
+  </ol> 
+  <p>In this exercise, Sling matches these URLs to the /apps/mywebsite/components/contentpage/navimage.png.java script that you create.</p> 
+  <ol> 
+   <li><p>In CRXDE Lite, open the <span class="code">topnav.jsp</span> under <span class="code">/apps/mywebsite/components/topnav. </span>Locate the content of the anchor element (line 14):</p>  
+    <codeblock gutter="true" class="syntax xml">
+      &lt;%=child.getTitle()&amp;nbsp;%&gt; 
+    </codeblock></li> 
+   <li><p>Replace the anchor content with the following code:</p>  
+    <codeblock gutter="true" class="syntax xml">
+      &lt;img&amp;nbsp;alt="&lt;%=&amp;nbsp;child.getTitle()&amp;nbsp;%&gt;"&amp;nbsp;src="&lt;%=&amp;nbsp;child.getPath()&amp;nbsp;%&gt;.navimage.png"&gt; 
+    </codeblock></li> 
+   <li><p>Save the changes.</p>  </li> 
+   <li><p>Right-click the <span class="code">/apps/mywebsite/components/contentpage</span> node and click <strong>Create </strong>&amp;gt; <strong>Create File</strong>.</p>  </li> 
+   <li><p>In the <strong>Create File</strong> window, as <strong>Name</strong>, type <span class="code">navimage.png.java</span>.</p> <p>The .java file name extension indicates to Sling that the Apache Sling Scripting Java Support should be used to compile the script and create a servlet.</p> </li> 
+   <li><p>Copy the following code into <span class="code">navimage.png.java. </span>The code extends the AbstractImageServlet class:</p> 
+    <ul> 
+     <li><a href="/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/commons/AbstractImageServlet">AbstractImageServlet</a> creates an ImageContext object that stores the properties of the current resource.</li> 
+     <li>The parent page of the resource is extracted from the ImageContext object. The page title and subtitle are then obtained. </li> 
+     <li><a href="/sites/developing/using/reference-materials/javadoc/com/day/cq/commons/ImageHelper">ImageHelper</a> is used to generate the image from the navimage_bg.jpg file of the site design, the page title, and the page subtitle.</li> 
+    </ul> 
+    <codeblock gutter="true" class="syntax java">
+      package&amp;nbsp;apps.mywebsite.components.contentpage;!!discoiqbr!!!!discoiqbr!!import&amp;nbsp;java.awt.Color;&amp;nbsp;!!discoiqbr!!import&amp;nbsp;java.awt.Paint;&amp;nbsp;!!discoiqbr!!import&amp;nbsp;java.awt.geom.Rectangle2D;&amp;nbsp;!!discoiqbr!!!!discoiqbr!!import&amp;nbsp;java.io.IOException;&amp;nbsp;&amp;nbsp;!!discoiqbr!!import&amp;nbsp;javax.jcr.RepositoryException;&amp;nbsp;!!discoiqbr!!&amp;nbsp;!!discoiqbr!!import&amp;nbsp;com.day.cq.wcm.api.Page;&amp;nbsp;!!discoiqbr!!import&amp;nbsp;com.day.cq.wcm.api.PageManager;&amp;nbsp;!!discoiqbr!!import&amp;nbsp;com.day.cq.wcm.api.components.Component;&amp;nbsp;!!discoiqbr!!import&amp;nbsp;com.day.cq.wcm.api.designer.Designer;!!discoiqbr!!!!discoiqbr!!import&amp;nbsp;com.day.cq.commons.SlingRepositoryException;&amp;nbsp;!!discoiqbr!!import&amp;nbsp;com.day.cq.wcm.commons.WCMUtils;&amp;nbsp;!!discoiqbr!!import&amp;nbsp;com.day.cq.wcm.commons.AbstractImageServlet;&amp;nbsp;!!discoiqbr!!import&amp;nbsp;com.day.cq.commons.ImageHelper;&amp;nbsp;!!discoiqbr!!!!discoiqbr!!import&amp;nbsp;com.day.image.Font;&amp;nbsp;!!discoiqbr!!import&amp;nbsp;com.day.image.Layer;&amp;nbsp;!!discoiqbr!!!!discoiqbr!!import&amp;nbsp;org.apache.sling.api.SlingHttpServletRequest;&amp;nbsp;!!discoiqbr!!import&amp;nbsp;org.apache.sling.api.SlingHttpServletResponse;&amp;nbsp;!!discoiqbr!!import&amp;nbsp;org.apache.sling.api.resource.Resource;&amp;nbsp;!!discoiqbr!!import&amp;nbsp;org.apache.sling.api.servlets.SlingSafeMethodsServlet;&amp;nbsp;!!discoiqbr!!!!discoiqbr!!/**!!discoiqbr!!&amp;nbsp;&amp;nbsp;*&amp;nbsp;Renders&amp;nbsp;the&amp;nbsp;navigation&amp;nbsp;image!!discoiqbr!!&amp;nbsp;&amp;nbsp;*/&amp;nbsp;!!discoiqbr!!public&amp;nbsp;class&amp;nbsp;navimage_png&amp;nbsp;extends&amp;nbsp;AbstractImageServlet&amp;nbsp;{!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;protected&amp;nbsp;Layer&amp;nbsp;createLayer(ImageContext&amp;nbsp;ctx)!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;throws&amp;nbsp;RepositoryException,&amp;nbsp;IOException&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;PageManager&amp;nbsp;pageManager&amp;nbsp;=&amp;nbsp;ctx.resolver.adaptTo(PageManager.class);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Page&amp;nbsp;currentPage&amp;nbsp;=&amp;nbsp;pageManager.getContainingPage(ctx.resource);!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/*&amp;nbsp;constants&amp;nbsp;for&amp;nbsp;image&amp;nbsp;appearance&amp;nbsp;*/!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;int&amp;nbsp;scale&amp;nbsp;=&amp;nbsp;6;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;int&amp;nbsp;paddingX&amp;nbsp;=&amp;nbsp;24;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;int&amp;nbsp;paddingY&amp;nbsp;=&amp;nbsp;24;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Color&amp;nbsp;bgColor&amp;nbsp;=&amp;nbsp;new&amp;nbsp;Color(0x004a565c,&amp;nbsp;true);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/*&amp;nbsp;obtain&amp;nbsp;the&amp;nbsp;page&amp;nbsp;title&amp;nbsp;*/!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;String&amp;nbsp;title&amp;nbsp;=&amp;nbsp;currentPage.getTitle();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if&amp;nbsp;(title&amp;nbsp;==&amp;nbsp;null)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;title&amp;nbsp;=&amp;nbsp;currentPage.getName();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/*&amp;nbsp;format&amp;nbsp;the&amp;nbsp;title&amp;nbsp;text&amp;nbsp;*/!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;title&amp;nbsp;=&amp;nbsp;title.toUpperCase();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Paint&amp;nbsp;titleColor&amp;nbsp;=&amp;nbsp;Color.WHITE;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Font&amp;nbsp;titleFont&amp;nbsp;=&amp;nbsp;new&amp;nbsp;Font("Myriad&amp;nbsp;Pro",&amp;nbsp;10&amp;nbsp;*&amp;nbsp;scale,&amp;nbsp;Font.BOLD);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;int&amp;nbsp;titleBase&amp;nbsp;=&amp;nbsp;10&amp;nbsp;*&amp;nbsp;scale;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/*&amp;nbsp;obtain&amp;nbsp;and&amp;nbsp;format&amp;nbsp;the&amp;nbsp;page&amp;nbsp;subtitle&amp;nbsp;*/!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;String&amp;nbsp;subtitle&amp;nbsp;=&amp;nbsp;currentPage.getProperties().get("subtitle",&amp;nbsp;"");!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Paint&amp;nbsp;subtitleColor&amp;nbsp;=&amp;nbsp;new&amp;nbsp;Color(0xffa9afb1,&amp;nbsp;true);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Font&amp;nbsp;subTitleFont&amp;nbsp;=&amp;nbsp;new&amp;nbsp;Font("Tahoma",&amp;nbsp;7);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;int&amp;nbsp;subTitleBase&amp;nbsp;=&amp;nbsp;20;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/*&amp;nbsp;create&amp;nbsp;a&amp;nbsp;layer&amp;nbsp;that&amp;nbsp;contains&amp;nbsp;the&amp;nbsp;background&amp;nbsp;image&amp;nbsp;from&amp;nbsp;the&amp;nbsp;mywebsite&amp;nbsp;design&amp;nbsp;*/!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Designer&amp;nbsp;dg&amp;nbsp;=&amp;nbsp;ctx.resolver.adaptTo(Designer.class);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;String&amp;nbsp;imgPath&amp;nbsp;=&amp;nbsp;new&amp;nbsp;String(dg.getDesignPath(currentPage)+"/images/navimage_bg.jpg");!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Layer&amp;nbsp;bg&amp;nbsp;=&amp;nbsp;ImageHelper.createLayer(ctx.resolver.resolve(imgPath));!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/*&amp;nbsp;draw&amp;nbsp;the&amp;nbsp;title&amp;nbsp;text&amp;nbsp;(4&amp;nbsp;times&amp;nbsp;bigger)&amp;nbsp;*/!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Rectangle2D&amp;nbsp;titleExtent&amp;nbsp;=&amp;nbsp;titleFont.getTextExtent(0,&amp;nbsp;0,&amp;nbsp;0,&amp;nbsp;0,&amp;nbsp;title,&amp;nbsp;Font.ALIGN_LEFT,&amp;nbsp;0,&amp;nbsp;0);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Rectangle2D&amp;nbsp;subtitleExtent&amp;nbsp;=&amp;nbsp;subTitleFont.getTextExtent(0,&amp;nbsp;0,&amp;nbsp;0,&amp;nbsp;0,&amp;nbsp;subtitle,&amp;nbsp;Font.ALIGN_LEFT,&amp;nbsp;0,&amp;nbsp;0);!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/*&amp;nbsp;ensure&amp;nbsp;subtitleExtent&amp;nbsp;is&amp;nbsp;wide&amp;nbsp;enough&amp;nbsp;*/!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if&amp;nbsp;(&amp;nbsp;subtitle.length()&amp;nbsp;&gt;&amp;nbsp;0&amp;nbsp;)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;int&amp;nbsp;titleWidth&amp;nbsp;=&amp;nbsp;(int)titleExtent.getWidth()&amp;nbsp;/&amp;nbsp;scale;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if&amp;nbsp;(&amp;nbsp;subtitleExtent.getWidth()&amp;nbsp;&gt;&amp;nbsp;titleWidth&amp;nbsp;&amp;&amp;&amp;nbsp;subtitleExtent.getWidth()&amp;nbsp;+&amp;nbsp;2&amp;nbsp;*&amp;nbsp;paddingX&amp;nbsp;&gt;!!discoiqbr!!&amp;nbsp;bg.getWidth()&amp;nbsp;)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;int&amp;nbsp;charWidth&amp;nbsp;=&amp;nbsp;(int)subtitleExtent.getWidth()&amp;nbsp;/&amp;nbsp;subtitle.length();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;int&amp;nbsp;maxWidth&amp;nbsp;=&amp;nbsp;(bg.getWidth()&amp;nbsp;&gt;&amp;nbsp;titleWidth&amp;nbsp;+&amp;nbsp;2&amp;nbsp;&amp;nbsp;*&amp;nbsp;paddingX&amp;nbsp;?&amp;nbsp;bg.getWidth()&amp;nbsp;-&amp;nbsp;2&amp;nbsp;*&amp;nbsp;paddingX&amp;nbsp;:&amp;nbsp;titleWidth);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;int&amp;nbsp;len&amp;nbsp;=&amp;nbsp;(maxWidth&amp;nbsp;-&amp;nbsp;(&amp;nbsp;2&amp;nbsp;*&amp;nbsp;charWidth)&amp;nbsp;)&amp;nbsp;/&amp;nbsp;charWidth;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;subtitle&amp;nbsp;=&amp;nbsp;subtitle.substring(0,&amp;nbsp;len)&amp;nbsp;+&amp;nbsp;"...";!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;subtitleExtent&amp;nbsp;=&amp;nbsp;subTitleFont.getTextExtent(0,&amp;nbsp;0,&amp;nbsp;0,&amp;nbsp;0,&amp;nbsp;subtitle,&amp;nbsp;Font.ALIGN_LEFT,&amp;nbsp;0,&amp;nbsp;0);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;int&amp;nbsp;width&amp;nbsp;=&amp;nbsp;Math.max((int)&amp;nbsp;titleExtent.getWidth(),&amp;nbsp;(int)&amp;nbsp;subtitleExtent.getWidth());!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/*&amp;nbsp;create&amp;nbsp;the&amp;nbsp;text&amp;nbsp;layer&amp;nbsp;*/!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Layer&amp;nbsp;text&amp;nbsp;=&amp;nbsp;new&amp;nbsp;Layer(width,&amp;nbsp;(int)&amp;nbsp;titleExtent.getHeight()&amp;nbsp;+&amp;nbsp;40,&amp;nbsp;new&amp;nbsp;Color(0x01ffffff,&amp;nbsp;true));!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;text.setPaint(titleColor);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;text.drawText(0,&amp;nbsp;titleBase,&amp;nbsp;0,&amp;nbsp;0,&amp;nbsp;title,&amp;nbsp;titleFont,&amp;nbsp;Font.ALIGN_LEFT&amp;nbsp;|&amp;nbsp;Font.ALIGN_BASE,&amp;nbsp;0,&amp;nbsp;0);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;text.resize(text.getWidth()&amp;nbsp;/&amp;nbsp;scale,&amp;nbsp;text.getHeight()&amp;nbsp;/&amp;nbsp;scale);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;text.setX(0);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;text.setY(0);!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if&amp;nbsp;(subtitle.length()&amp;nbsp;&gt;&amp;nbsp;0)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/*&amp;nbsp;draw&amp;nbsp;the&amp;nbsp;subtitle&amp;nbsp;normal&amp;nbsp;sized&amp;nbsp;*/!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;text.setPaint(subtitleColor);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;text.drawText(0,&amp;nbsp;subTitleBase,&amp;nbsp;0,&amp;nbsp;0,&amp;nbsp;subtitle,&amp;nbsp;subTitleFont,&amp;nbsp;Font.ALIGN_LEFT&amp;nbsp;|&amp;nbsp;Font.ALIGN_BASE,&amp;nbsp;0,&amp;nbsp;0);&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/*&amp;nbsp;merge&amp;nbsp;the&amp;nbsp;image&amp;nbsp;and&amp;nbsp;text&amp;nbsp;layers&amp;nbsp;*/!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;text.setY(paddingY);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;text.setX(paddingX);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;text.setBackgroundColor(bgColor);!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;int&amp;nbsp;bgWidth&amp;nbsp;=&amp;nbsp;bg.getWidth();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if&amp;nbsp;(&amp;nbsp;text.getWidth()&amp;nbsp;+&amp;nbsp;2&amp;nbsp;*&amp;nbsp;paddingX&amp;nbsp;&gt;&amp;nbsp;bgWidth&amp;nbsp;)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;bgWidth&amp;nbsp;=&amp;nbsp;text.getWidth()&amp;nbsp;+&amp;nbsp;2&amp;nbsp;*&amp;nbsp;paddingX;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;bg.resize(bgWidth,&amp;nbsp;bg.getHeight());!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;bg.merge(text);!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;return&amp;nbsp;bg;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;} 
+    </codeblock></li> 
+   <li><p>Save the changes.</p>  </li> 
+   <li><p>In your browser, reload the Products page. The top navigation now appears as follows:</p>  <img imageRotate="0" src="assets/screen_shot_2012-03-07at10047pm.png" /></li> 
+  </ol> 
+  <h3>Creating the List Children Component</h3> 
+  <p>Create the listchildren component that generates a list of page links that include the title, description, and date of pages (for example, product pages). The links target the child pages of the current page, or of a root page that is specified in the component dialog.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-126.png" /> 
+  <h4>Creating Product Pages</h4> 
+  <p>Create two pages located below the Products page. For each page, which describe two specific products, you set a title, a description, and a date.</p> 
+  <ol> 
+   <li><p>In the folder tree of the Websites page, select the Websites/My Website/English/Products item and click New &amp;gt; New Page.</p> </li> 
+   <li> <p>In the dialog enter the following property values and then click Create:</p> 
+    <ul> 
+     <li>Title: Product 1.</li> 
+     <li>Name: product1.</li> 
+     <li>Select My Website Content Page Template</li> 
+    </ul> </li> 
+   <li> <p>Create another page below Products using the following property values:</p>  
+    <ul> 
+     <li>Title: Product 2</li> 
+     <li>Name: product2</li> 
+     <li>Select My Website Content Page Template</li> 
+    </ul> </li> 
+   <li> <p>In CRXDE Lite, set a description and a date for the Product 1 page:</p>  
+    <ol> 
+     <li>Select the <span class="code">/content/mywebsite/en/products/product1/jcr:content</span> node. </li> 
+     <li>In the <strong>Properties</strong> tab, enter the following values: 
+      <ul> 
+       <li>Name: <span class="code">jcr:description</span></li> 
+       <li>Type: <span class="code">String</span></li> 
+       <li>Value: <span class="code">This is a description of the Product 1!. </span></li> 
+      </ul> </li> 
+     <li>Click <strong>Add</strong>.</li> 
+     <li>In the <strong>Properties</strong> tab, create another property using the following values: 
+      <ul> 
+       <li>Name: date</li> 
+       <li>Type: String</li> 
+       <li>Value: 02/14/2008</li> 
+       <li>Click Add.</li> 
+      </ul> </li> 
+     <li>Click Save All.</li> 
+    </ol> </li> 
+   <li> <p>In CRXDE Lite, set a description and a date for the Product 2 page:</p>  
+    <ol> 
+     <li>Select the /content/mywebsite/en/products/product2/jcr:content node. </li> 
+     <li>In the <strong>Properties</strong> tab, enter the following values: 
+      <ul> 
+       <li>Name: jcr:description</li> 
+       <li>Type: String</li> 
+       <li>Value: This is a description of the Product 2!. </li> 
+      </ul> </li> 
+     <li>Click <strong>Add</strong>.</li> 
+     <li>In the same text boxes, replace the previous values with the following values: 
+      <ul> 
+       <li>Name: date</li> 
+       <li>Type: String</li> 
+       <li>Value: 05/11/2012</li> 
+       <li>Click Add.</li> 
+      </ul> </li> 
+     <li>Click Save All.</li> 
+    </ol> </li> 
+  </ol> 
+  <h4>Creating the List Children Component</h4> 
+  <p>To create the listchildren component:</p> 
+  <ol> 
+   <li><p>In CRXDE Lite, right-click <span class="code">/apps/mywebsite/components</span>, select <strong>Create</strong>, then <strong>Create Component</strong>.</p> </li> 
+   <li> <p>In the dialog enter the following property values and then click Next:</p>  
+    <ul> 
+     <li>Label: listchildren.</li> 
+     <li>Title: My Listchildren Component.</li> 
+     <li>Description: This is My Listchildren Component.</li> 
+    </ul> </li> 
+   <li><p>Continue clicking Next until the Allowed Children panel appears, and then click OK.</p>  </li> 
+  </ol> 
+  <h4>Creating the List Children Script</h4> 
+  <p>Develop the script for the listchildren component. </p> 
+  <ol> 
+   <li><p>In CRXDE Lite, open the file <span class="code">listchildren.jsp</span> under <span class="code">/apps/mywebsite/components/listchildren</span>.</p>  </li> 
+   <li><p>Replace the default code with the following code:</p>  
+    <codeblock gutter="true" class="syntax xml">
+      &lt;%@include&amp;nbsp;file="/libs/foundation/global.jsp"%&gt;&lt;%!!discoiqbr!!%&gt;&lt;%@&amp;nbsp;page&amp;nbsp;import="java.util.Iterator,!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;com.day.cq.wcm.api.PageFilter"%&gt;&lt;%!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/*&amp;nbsp;Create&amp;nbsp;a&amp;nbsp;new&amp;nbsp;Page&amp;nbsp;object&amp;nbsp;using&amp;nbsp;the&amp;nbsp;path&amp;nbsp;of&amp;nbsp;the&amp;nbsp;current&amp;nbsp;page&amp;nbsp;*/&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;String&amp;nbsp;listroot&amp;nbsp;=&amp;nbsp;properties.get("listroot",&amp;nbsp;currentPage.getPath());!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Page&amp;nbsp;rootPage&amp;nbsp;=&amp;nbsp;pageManager.getPage(listroot);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/*&amp;nbsp;iterate&amp;nbsp;through&amp;nbsp;the&amp;nbsp;child&amp;nbsp;pages&amp;nbsp;and&amp;nbsp;gather&amp;nbsp;properties&amp;nbsp;*/!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if&amp;nbsp;(rootPage&amp;nbsp;!=&amp;nbsp;null)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Iterator&lt;Page&gt;&amp;nbsp;children&amp;nbsp;=&amp;nbsp;rootPage.listChildren(new&amp;nbsp;PageFilter(request));!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;while&amp;nbsp;(children.hasNext())&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Page&amp;nbsp;child&amp;nbsp;=&amp;nbsp;children.next();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;String&amp;nbsp;title&amp;nbsp;=&amp;nbsp;child.getTitle()&amp;nbsp;==&amp;nbsp;null&amp;nbsp;?&amp;nbsp;child.getName()&amp;nbsp;:&amp;nbsp;child.getTitle();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;String&amp;nbsp;date&amp;nbsp;=&amp;nbsp;child.getProperties().get("date","");!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;%&gt;&lt;div&amp;nbsp;class="item"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a&amp;nbsp;href="&lt;%=&amp;nbsp;child.getPath()&amp;nbsp;%&gt;.html"&gt;&lt;b&gt;&lt;%=&amp;nbsp;title&amp;nbsp;%&gt;&lt;/b&gt;&lt;/a&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;span&gt;&lt;%=&amp;nbsp;date&amp;nbsp;%&gt;&lt;/span&gt;&lt;br&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;%=&amp;nbsp;child.getProperties().get("jcr:description","")&amp;nbsp;%&gt;&lt;br&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;%!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;%&gt; 
+    </codeblock></li> 
+   <li><p>Save the changes.</p>  </li> 
+  </ol> 
+  <h4>Creating the List Children Dialog</h4> 
+  <p>Create the dialog that is used to configure the listchildren component properties.</p> 
+  <p> </p> 
+  <ol> 
+   <li><p>Create the dialog node under the listchildren component:</p>  
+    <ol> 
+     <li>In CRXDE Lite, right-click the <span class="code">/apps/mywebsite/components/listchildren </span>node and click <strong>Create</strong> &amp;gt; <strong>Create Dialog</strong>.</li> 
+     <li>In the dialog, enter the following property values and click OK 
+      <ul> 
+       <li><strong>Label</strong>: <span class="code">dialog</span></li> 
+       <li><strong>Title</strong>: <span class="code">Edit Component</span> and click <strong>OK</strong>.</li> 
+      </ul> </li> 
+    </ol> <img imageRotate="0" src="assets/screen_shot_2012-03-07at45818pm.png" /><p>With the following properties:</p>  <img imageRotate="0" src="assets/screen_shot_2012-03-07at50415pm.png" /></li> 
+   <li><p>Select the <span class="code">/apps/mywebsite/components/listchildren/dialog/items/items/tab1</span> node.</p> </li> 
+   <li><p>In the Properties tab, change the value of the <strong>title</strong> property to <span class="code">List Children</span></p>  <img imageRotate="0" src="assets/chlimage_1-127.png" /></li> 
+   <li><p>Select the tab1 node and click Create &amp;gt; Create Node, enter the following property values, and click OK:</p> 
+    <ul> 
+     <li>Name: items</li> 
+     <li>Type: cq:WidgetCollection</li> 
+    </ul> <img imageRotate="0" src="assets/screen_shot_2012-03-07at51018pm.png" /></li> 
+   <li><p>Create a node below the items node using the following property values:</p> 
+    <ul> 
+     <li>Name: listroot</li> 
+     <li>Type: cq:Widget</li> 
+    </ul> <img imageRotate="0" src="assets/screen_shot_2012-03-07at51031pm.png" /></li> 
+   <li><p>Add properties for the listroot node to configure it as a text field. Each row in the following table represents a property. When finished, click Save All.</p> 
+    <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+     <tbody> 
+      <tr> 
+       <th>Name</th> 
+       <th>Type</th> 
+       <th>Value</th> 
+      </tr> 
+      <tr> 
+       <td>fieldLabel</td> 
+       <td>String</td> 
+       <td>Path of list root</td> 
+      </tr> 
+      <tr> 
+       <td>name</td> 
+       <td>String</td> 
+       <td>./listroot</td> 
+      </tr> 
+      <tr> 
+       <td>xtype</td> 
+       <td>String</td> 
+       <td>textfield</td> 
+      </tr> 
+     </tbody> 
+    </table> <img imageRotate="0" src="assets/screen_shot_2012-03-07at51433pm.png" /></li> 
+  </ol> 
+  <h4>Including List Children in the Contentpage Component</h4> 
+  <p>In order to include the listchildren component in your contentpage component, proceed as follows:</p> 
+  <ol> 
+   <li><p>In CRXDE Lite, open the file <span class="code">left.jsp</span> under <span class="code">/apps/mywebsite/components/contentpage</span> and locate the following code (line 4):</p> 
+    <codeblock class="syntax xml">
+      &lt;div&gt;newslist&lt;/div&gt; 
+    </codeblock></li> 
+   <li><p>Replace that code with the following code:</p>  
+    <codeblock gutter="true" class="syntax xml">
+      &lt;cq:include&amp;nbsp;path="newslist"&amp;nbsp;resourceType="mywebsite/components/listchildren"&amp;nbsp;/&gt; 
+    </codeblock></li> 
+   <li><p>Save the changes.</p> </li> 
+  </ol> 
+  <h4>Viewing List Children in a Page</h4> 
+  <p>To see the full operation of this component you can view the Products page:</p> 
+  <ul> 
+   <li>when the parent page ("Path of list root") is not defined.</li> 
+   <li>when the parent page ("Path of list root") is defined.</li> 
+  </ul> 
+  <ol> 
+   <li><p>In your browser, reload the Products Page. The listchildren component appears as follows:</p> <img imageRotate="0" src="assets/chlimage_1-128.png" /></li> 
+   <li><img imageRotate="0" src="assets/chlimage_1-129.png" /></li> 
+   <li><p>As Path of list root, enter: <span class="code">/content/mywebsite/en</span>. Click OK. The listchildren component on your page now looks as follows:</p> <img imageRotate="0" src="assets/chlimage_1-130.png" /></li> 
+  </ol> 
+  <h3>Creating the Logo Component</h3> 
+  <p>Create a component that displays the company logo and provides a link to the home page of the site. The component contains a design-mode dialog so that property values are stored in the site design (/etc/designs/mywebsite):</p> 
+  <ul> 
+   <li>The property values apply to all instances of the component that are added to pages that use the design.</li> 
+   <li>The properties can be configured using any instance of the component that is on a page that uses the design.</li> 
+  </ul> 
+  <p>Your design-mode dialog contains properties for setting the image and the link path. The logo component will be placed on the upper left side of all pages in the website.</p> 
+  <p>It will look as follows:</p> 
+  <img imageRotate="0" src="assets/chlimage_1-131.png" /> 
+  <note> 
+   <p>Adobe Experience Manager provides a more full-featured logo component (<span class="code">/libs/foundation/components/logo</span>).</p> 
+  </note> 
+  <h4>Creating the Logo Component Node</h4> 
+  <p>To create the logo component, follow the steps:</p> 
+  <ol> 
+   <li><p>In CRXDE Lite, right-click /apps/mywebsite/components, select <strong>Create</strong>, then <strong>Create Component</strong>.</p> </li> 
+   <li> <p>In the Create Component dialog enter the following property values and then click Next:</p>  
+    <ul> 
+     <li>Label: <span class="code">logo</span>.</li> 
+     <li>Title: <span class="code">My Logo Component</span>.</li> 
+     <li>Description: <span class="code">This is My Logo Component</span>.</li> 
+    </ul> </li> 
+   <li><p>Click Next until you reach the final panel of the dialog and then click <strong>OK</strong>.</p> </li> 
+  </ol> 
+  <h4>Creating the Logo Script</h4> 
+  <p>This section describes how to create the script to display the logo image with a link to the homepage.</p> 
+  <ol> 
+   <li><p>In CRXDE Lite, open the file <span class="code">logo.jsp</span> under <span class="code">/apps/mywebsite/components/logo</span>.</p> </li> 
+   <li><p>The following code creates the link to the site home page and adds a reference to the logo image. Copy the code to <span class="code">logo.jsp</span>:</p> 
+    <codeblock gutter="true" class="syntax xml">
+      &lt;%@include&amp;nbsp;file="/libs/foundation/global.jsp"%&gt;&lt;%!!discoiqbr!!%&gt;&lt;%@&amp;nbsp;page&amp;nbsp;import="com.day.text.Text,!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;com.day.cq.wcm.foundation.Image,!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;com.day.cq.commons.Doctype"&amp;nbsp;%&gt;&lt;%!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/*&amp;nbsp;obtain&amp;nbsp;the&amp;nbsp;path&amp;nbsp;for&amp;nbsp;home&amp;nbsp;*/!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;long&amp;nbsp;absParent&amp;nbsp;=&amp;nbsp;currentStyle.get("absParent",&amp;nbsp;2L);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;String&amp;nbsp;home&amp;nbsp;=&amp;nbsp;Text.getAbsoluteParent(currentPage.getPath(),&amp;nbsp;(int)&amp;nbsp;absParent);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/*&amp;nbsp;obtain&amp;nbsp;the&amp;nbsp;image&amp;nbsp;*/!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Resource&amp;nbsp;res&amp;nbsp;=&amp;nbsp;currentStyle.getDefiningResource("imageReference");!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if&amp;nbsp;(res&amp;nbsp;==&amp;nbsp;null)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;res&amp;nbsp;=&amp;nbsp;currentStyle.getDefiningResource("image");!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/*&amp;nbsp;if&amp;nbsp;no&amp;nbsp;image&amp;nbsp;use&amp;nbsp;text&amp;nbsp;link,&amp;nbsp;otherwise&amp;nbsp;draw&amp;nbsp;the&amp;nbsp;image&amp;nbsp;*/!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;%&gt;!!discoiqbr!!&lt;a&amp;nbsp;href="&lt;%=&amp;nbsp;home&amp;nbsp;%&gt;.html"&gt;&lt;%!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if&amp;nbsp;(res&amp;nbsp;==&amp;nbsp;null)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;%&gt;Home&lt;%!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&amp;nbsp;else&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Image&amp;nbsp;img&amp;nbsp;=&amp;nbsp;new&amp;nbsp;Image(res);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;img.setItemName(Image.NN_FILE,&amp;nbsp;"image");!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;img.setItemName(Image.PN_REFERENCE,&amp;nbsp;"imageReference");!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;img.setSelector("img");!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;img.setDoctype(Doctype.fromRequest(request));!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;img.setAlt("Home");!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;img.draw(out);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;%&gt;&lt;/a&gt; 
+    </codeblock></li> 
+   <li><p>Save the changes.</p> </li> 
+  </ol> 
+  <h4>Creating the Logo Design Dialog</h4> 
+  <p>Create the dialog for configuring your logo component in Design mode. Design-mode dialog nodes must be named <span class="code">design_dialog</span>.</p> 
+  <p></p> 
+  <ol> 
+   <li><p>Create the dialog node under the logo component:</p>  
+    <ol> 
+     <li>Right-click the <span class="code">/apps/mywebsite/components/logo</span> node and click <strong>Create</strong> &amp;gt; <strong>Create Dialog</strong>.</li> 
+     <li>Type the following property values and then click OK: 
+      <ul> 
+       <li><strong>Label:</strong> <span class="code">design_dialog</span> </li> 
+       <li><strong>Title:</strong> <span class="code">Logo (Design)</span></li> 
+      </ul> </li> 
+    </ol> </li> 
+   <li><p>Right-click the tab1 node in the design_dialog branch and click Delete. Click Save All.</p> </li> 
+   <li><p>Under the <span class="code">design_dialog/items/items </span>node, create a new node named <span class="code">img</span> of type <span class="code">cq:Widget</span>. Add the following properties and then click Save All:</p> 
+    <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+     <tbody> 
+      <tr> 
+       <th>Name</th> 
+       <th>Type</th> 
+       <th>Value</th> 
+      </tr> 
+      <tr> 
+       <td>fileNameParameter</td> 
+       <td>String</td> 
+       <td>./imageName</td> 
+      </tr> 
+      <tr> 
+       <td>fileReferenceParameter</td> 
+       <td>String</td> 
+       <td>./imageReference</td> 
+      </tr> 
+      <tr> 
+       <td>name</td> 
+       <td>String</td> 
+       <td>./image</td> 
+      </tr> 
+      <tr> 
+       <td>title</td> 
+       <td>String</td> 
+       <td>Image</td> 
+      </tr> 
+      <tr> 
+       <td>xtype</td> 
+       <td>String</td> 
+       <td>html5smartimage</td> 
+      </tr> 
+     </tbody> 
+    </table> <img imageRotate="0" src="assets/chlimage_1-132.png" /></li> 
+  </ol> 
+  <h4>Creating the logo render script</h4> 
+  <p>Create the script that retrieves the logo image and writes it to the page. </p> 
+  <ol> 
+   <li>Right-clck the logo component node and click Create &amp;gt; Create File to create the script file named img.GET.java.</li> 
+   <li>Open the file, copy the following code into the file, and then click Save All:</li> 
+  </ol> 
+  <p></p> 
+  <codeblock gutter="true" class="syntax java">
+    package&amp;nbsp;apps.mywebsite.components.logo;!!discoiqbr!!!!discoiqbr!!import&amp;nbsp;java.io.IOException;!!discoiqbr!!import&amp;nbsp;java.io.InputStream;!!discoiqbr!!!!discoiqbr!!import&amp;nbsp;javax.jcr.RepositoryException;!!discoiqbr!!import&amp;nbsp;javax.jcr.Property;!!discoiqbr!!import&amp;nbsp;javax.servlet.http.HttpServletResponse;!!discoiqbr!!!!discoiqbr!!import&amp;nbsp;com.day.cq.wcm.foundation.Image;!!discoiqbr!!import&amp;nbsp;com.day.cq.wcm.commons.RequestHelper;!!discoiqbr!!import&amp;nbsp;com.day.cq.wcm.commons.WCMUtils;!!discoiqbr!!import&amp;nbsp;com.day.cq.wcm.commons.AbstractImageServlet;!!discoiqbr!!import&amp;nbsp;com.day.cq.commons.SlingRepositoryException;!!discoiqbr!!import&amp;nbsp;com.day.image.Layer;!!discoiqbr!!import&amp;nbsp;org.apache.commons.io.IOUtils;!!discoiqbr!!import&amp;nbsp;org.apache.sling.api.SlingHttpServletRequest;!!discoiqbr!!import&amp;nbsp;org.apache.sling.api.SlingHttpServletResponse;!!discoiqbr!!import&amp;nbsp;org.apache.sling.api.resource.Resource;!!discoiqbr!!import&amp;nbsp;org.apache.sling.api.resource.ValueMap;!!discoiqbr!!import&amp;nbsp;org.apache.sling.api.servlets.SlingSafeMethodsServlet;!!discoiqbr!!!!discoiqbr!!/**!!discoiqbr!!&amp;nbsp;*&amp;nbsp;Renders&amp;nbsp;an&amp;nbsp;image!!discoiqbr!!&amp;nbsp;*/!!discoiqbr!!public&amp;nbsp;class&amp;nbsp;img_GET&amp;nbsp;extends&amp;nbsp;AbstractImageServlet&amp;nbsp;{!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;protected&amp;nbsp;Layer&amp;nbsp;createLayer(ImageContext&amp;nbsp;c)!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;throws&amp;nbsp;RepositoryException,&amp;nbsp;IOException&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/*&amp;nbsp;don't&amp;nbsp;create&amp;nbsp;the&amp;nbsp;layer&amp;nbsp;yet.&amp;nbsp;handle&amp;nbsp;everything&amp;nbsp;later&amp;nbsp;*/!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;return&amp;nbsp;null;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;protected&amp;nbsp;void&amp;nbsp;writeLayer(SlingHttpServletRequest&amp;nbsp;req,!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SlingHttpServletResponse&amp;nbsp;resp,!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;ImageContext&amp;nbsp;c,&amp;nbsp;Layer&amp;nbsp;layer)!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;throws&amp;nbsp;IOException,&amp;nbsp;RepositoryException&amp;nbsp;{!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Image&amp;nbsp;image&amp;nbsp;=&amp;nbsp;new&amp;nbsp;Image(c.resource);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;image.setItemName(Image.NN_FILE,&amp;nbsp;"image");!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;image.setItemName(Image.PN_REFERENCE,&amp;nbsp;"imageReference");!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if&amp;nbsp;(!image.hasContent())&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;resp.sendError(HttpServletResponse.SC_NOT_FOUND);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;return;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/*&amp;nbsp;get&amp;nbsp;pure&amp;nbsp;layer&amp;nbsp;*/!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;layer&amp;nbsp;=&amp;nbsp;image.getLayer(false,&amp;nbsp;false,&amp;nbsp;false);!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/*&amp;nbsp;do&amp;nbsp;not&amp;nbsp;re-encode&amp;nbsp;layer,&amp;nbsp;just&amp;nbsp;spool&amp;nbsp;*/!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Property&amp;nbsp;data&amp;nbsp;=&amp;nbsp;image.getData();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;InputStream&amp;nbsp;in&amp;nbsp;=&amp;nbsp;data.getStream();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;resp.setContentLength((int)&amp;nbsp;data.getLength());!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;String&amp;nbsp;contentType&amp;nbsp;=&amp;nbsp;image.getMimeType();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if&amp;nbsp;(contentType.equals("application/octet-stream"))&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;contentType=c.requestImageType;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;resp.setContentType(contentType);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;IOUtils.copy(in,&amp;nbsp;resp.getOutputStream());!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;in.close();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;resp.flushBuffer();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!} 
+  </codeblock> 
+  <h4>Adding the Logo Component to the Contentpage Component</h4> 
+  <ol> 
+   <li><p>In CRXDE Lite, open the <span class="code">left.jsp</span> under <span class="code">/apps/mywebsite/components/contentpage file</span> and locate the following line of code:</p> 
+    <codeblock class="syntax xml">
+      &lt;div&gt;logo&lt;/div&gt; 
+    </codeblock></li> 
+   <li><p>Replace that code with the following line of code:</p>  
+    <codeblock class="syntax xml">
+      &lt;cq:include&amp;nbsp;path="logo"&amp;nbsp;resourceType="mywebsite/components/logo"&amp;nbsp;/&gt; 
+    </codeblock></li> 
+   <li><p>Save the changes.</p> </li> 
+   <li><p>In your browser, reload the Products page. The logo looks as follows, though currently it only shows the underlying link:</p> <img imageRotate="0" src="assets/chlimage_1-133.png" /></li> 
+  </ol> 
+  <h4>Setting the Logo Image in a Page</h4> 
+  <p>This section describes how to set an image as your logo using the design mode dialog.</p> 
+  <ol> 
+   <li><p>With the Products page open in your browser, click the Design button at the bottom of Sidekick to enter design mode.</p> <img imageRotate="0" src="assets/chlimage_1-134.png" /></li> 
+   <li><p>In the Design of logo bar, click Edit to use the dialog to edit the settings for the logo component.</p> </li> 
+   <li><p>In the dialog, click in the panel of the Image tab, browse for the logo.png image that you extracted from the mywebsite.zip file, and click OK.</p> <img imageRotate="0" src="assets/chlimage_1-135.png" /></li> 
+   <li><p>Click the triangle on the Sidekick title bar to return to Edit mode.</p>  <img imageRotate="0" src="assets/chlimage_1-7.jpeg" /></li> 
+   <li><p>In CRXDE Lite, go to the following node to see the stored property values:</p>  </li> 
+  </ol> 
+  <h3>Including the Breadcrumb Component</h3> 
+  <p>In this section, you include the breadcrumb (trail) component, which is one of the foundation components.</p> 
+  <ol> 
+   <li><p>In CRXDE Lite, browse to <span class="code">/apps/mywebsite/components/contentpage</span>, open the file <span class="code">center.jsp</span> and replace:</p> 
+    <codeblock class="syntax java">
+      &lt;div&gt;trail&lt;/div&gt; 
+    </codeblock><p>with:</p> 
+    <codeblock gutter="true" class="syntax xml">
+      &lt;cq:include&amp;nbsp;path="trail"&amp;nbsp;resourceType="foundation/components/breadcrumb"&amp;nbsp;/&gt; 
+    </codeblock></li> 
+   <li><p>Save the changes.</p> </li> 
+   <li><p>In your browser, reload the <strong>Products 1</strong> page. The trail component looks as follows:</p> <img imageRotate="0" src="assets/chlimage_1-136.png" /></li> 
+  </ol> 
+  <h3>Including the Title Component</h3> 
+  <p>In this section, you include the title component, which is one of the foundation components.</p> 
+  <ol> 
+   <li><p>In CRXDE Lite, browse to <span class="code">/apps/mywebsite/components/contentpage</span>, open the file <span class="code">center.jsp</span> and replace:</p> 
+    <codeblock class="syntax xml">
+      &lt;div&gt;title&lt;/div&gt; 
+    </codeblock><p>with:</p> 
+    <codeblock gutter="true" class="syntax xml">
+      &lt;cq:include&amp;nbsp;path="title"&amp;nbsp;resourceType="foundation/components/title"&amp;nbsp;/&gt; 
+    </codeblock></li> 
+   <li><p>Save the changes.</p> </li> 
+   <li> <p>In your browser, reload the Products page. The title component looks as follows:</p>  <img imageRotate="0" src="assets/chlimage_1-137.png" /> <p><strong>Note</strong>: You can set a different Title and the Type/Size in edit mode.</p>  </li> 
+  </ol> 
+  <h3>Including the Paragraph System Component</h3> 
+  <p>The paragraph system (parsys) is a significant part of a website as it manages a list of paragraphs. It enables authors to add paragraph components to the page and provides structure.</p> 
+  <p>Add the parsys component (one of the foundation components) to your contentpage component.</p> 
+  <ol> 
+   <li><p>In CRXDE Lite, browse to <span class="code">/apps/mywebsite/components/contentpage</span>, open the file <span class="code">center.jsp</span> and locate the following line of code:</p> 
+    <codeblock class="syntax xml">
+      &lt;div&gt;parsys&lt;/div&gt; 
+    </codeblock></li> 
+   <li><p>Replace that line of code with the following code, then save the changes:</p> 
+    <codeblock class="syntax xml">
+      &lt;cq:include&amp;nbsp;path="par"&amp;nbsp;resourceType="foundation/components/parsys"&amp;nbsp;/&gt; 
+    </codeblock></li> 
+   <li> <p>In your browser, refresh the Products page. It now has the parsys component, which is seen as follows:</p>  <img imageRotate="0" src="assets/chlimage_1-138.png" /></li> 
+  </ol> 
+  <h3>Creating the Image Component</h3> 
+  <p>Create a component that displays an image in the paragraph system. To save time, the image component is created as a copy of the logo component with some property changes.</p> 
+  <note> 
+   <p>Adobe Experience Manager provides a more full-featured image component (<span class="code">/libs/foundation/components/image</span>).</p> 
+  </note> 
+  <h4>Creating the Image Component</h4> 
+  <ol> 
+   <li>Right click the <span class="code">/apps/mywebsite/components/logo</span> node and click Copy.</li> 
+   <li>Right-click the <span class="code">/apps/mywebsite/components</span> node and click Paste.</li> 
+   <li>Right-click the <span class="code">Copy of logo</span> node, click Rename, delete the existing text and type <span class="code">image</span>.</li> 
+   <li>Select the <span class="code">image</span> component node, and change the following property values: 
+    <ul> 
+     <li><span class="code">jcr:title:</span> My Image Component.</li> 
+     <li><span class="code">jcr:description</span>: This is My Image Component.</li> 
+    </ul> </li> 
+   <li>Add a property to the <span class="code">image</span> node with the following property values: 
+    <ul> 
+     <li>Name: componentGroup</li> 
+     <li>Type: String</li> 
+     <li>Value: MyWebsite</li> 
+    </ul> </li> 
+   <li>Below the <span class="code">image</span> node, rename the <span class="code">design_dialog</span> node to <span class="code">dialog</span>.</li> 
+   <li>Rename <span class="code">logo.jsp</span> to <span class="code">image.jsp.</span></li> 
+   <li>Open img.GET.java and change the package to <span class="code">apps.mywebsite.components.image</span>.</li> 
+  </ol> 
+  <p></p> 
+  <img imageRotate="0" src="assets/chlimage_1-139.png" /> 
+  <h4>Creating the Image Script</h4> 
+  <p>This section describes how to create the image script.</p> 
+  <ol> 
+   <li><p>Open <span class="code">/apps/mywebsite/components/image/</span><span class="code">image.jsp</span></p> </li> 
+   <li><p>Replace the existing code with the following code, then save the changes:</p> 
+    <codeblock gutter="true" class="syntax xml">
+      &lt;%@include&amp;nbsp;file="/libs/foundation/global.jsp"%&gt;&lt;%!!discoiqbr!!%&gt;&lt;%@&amp;nbsp;page&amp;nbsp;import="com.day.cq.commons.Doctype,!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;com.day.cq.wcm.foundation.Image,!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;com.day.cq.wcm.api.components.DropTarget,!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;com.day.cq.wcm.api.components.EditConfig,!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;com.day.cq.wcm.commons.WCMUtils"&amp;nbsp;%&gt;&lt;%!!discoiqbr!!&amp;nbsp;/*&amp;nbsp;global.jsp&amp;nbsp;provides&amp;nbsp;access&amp;nbsp;to&amp;nbsp;the&amp;nbsp;current&amp;nbsp;resource&amp;nbsp;through&amp;nbsp;the&amp;nbsp;resource&amp;nbsp;object&amp;nbsp;*/!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Image&amp;nbsp;img&amp;nbsp;=&amp;nbsp;new&amp;nbsp;Image(resource);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;img.setItemName(Image.NN_FILE,&amp;nbsp;"image");!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;img.setItemName(Image.PN_REFERENCE,&amp;nbsp;"imageReference");!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;img.setSelector("img");!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;img.setDoctype(Doctype.fromRequest(request));!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;img.setAlt("Home");!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;img.draw(out);&amp;nbsp;%&gt; 
+    </codeblock></li> 
+   <li><p>Save the changes.</p> </li> 
+  </ol> 
+  <h4>Creating the Image cq:editConfig Node</h4> 
+  <p>The <span class="code">cq:editConfig</span> node type enables you to configure certain behaviors of components when editing their properties.</p> 
+  <p>In this section, you use a cq:editConfig node to enable you to drag assets from Content Finder into your image component.</p> 
+  <ol> 
+   <li><p>In CRXDE Lite, under the node /apps/mywebsite/components/image, create a new node as follows:</p> 
+    <ul> 
+     <li><p>Name: cq:editConfig.</p> </li> 
+     <li><p>Type: cq:EditConfig.</p> </li> 
+    </ul> </li> 
+   <li><p>Under the node cq:editConfig, create a new node as follows:</p> 
+    <ul> 
+     <li><p>Name: cq:dropTargets.</p> </li> 
+     <li><p>Type: cq:DropTargetConfig.</p> </li> 
+    </ul> </li> 
+   <li><p>Under the node cq:dropTargets, create a new node as follows:</p> 
+    <ul> 
+     <li><p>Name: image.</p> </li> 
+     <li><p>Type: nt:unstructured.</p> </li> 
+    </ul> </li> 
+   <li>In CRXDE set the properties as follows:</li> 
+  </ol> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <th>Name</th> 
+     <th>Type</th> 
+     <th>Value</th> 
+    </tr> 
+    <tr> 
+     <td>accept</td> 
+     <td>String</td> 
+     <td>image/(gif|jpeg|png)</td> 
+    </tr> 
+    <tr> 
+     <td>groups</td> 
+     <td>String</td> 
+     <td>media</td> 
+    </tr> 
+    <tr> 
+     <td>propertyName</td> 
+     <td>String</td> 
+     <td>./imageReference</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <img imageRotate="0" src="assets/chlimage_1-140.png" /> 
+  <h4>Adding the icon</h4> 
+  <p>In this section, you add the icon to appear beside the image component when it is listed in Sidekick:</p> 
+  <ol> 
+   <li><p>In CRXDE Lite, right-click the file <span class="code">/libs/foundation/components/image/icon.png</span> and select <strong>Copy.</strong></p> </li> 
+   <li><p>Right-click the node <span class="code">/apps/mywebsite/components/image</span> and click<strong> Paste</strong>, then click <strong>Save All</strong>.</p> </li> 
+  </ol> 
+  <h4>Using the Image Component</h4> 
+  <p>In this section, you will view the<strong> Products </strong>page and add your image component to the paragraph system.</p> 
+  <ol> 
+   <li><p>In your browser, reload the <strong>Products </strong>page.</p> </li> 
+   <li><p>In the Sidekick, click the <strong>design mode</strong> icon.</p> </li> 
+   <li><p>Click the Edit button to edit the design dialog of par.</p> </li> 
+   <li><p>In the dialog, a list of <strong>Allowed Components</strong> is shown; navigate to <strong>MyWebsite</strong>, select the <strong>My Image Component</strong> and click <strong>OK.</strong></p> </li> 
+   <li><p>Return to <strong>edit mode.</strong></p> </li> 
+   <li><p>Double-click the parsys frame (on <strong>Drag components or assets here</strong>). The <strong>Insert New Component</strong> and <strong>Sidekick</strong> selectors look as follows:</p> <img imageRotate="0" src="assets/chlimage_1-8.jpeg" /></li> 
+  </ol> 
+  <h3>Including the Toolbar Component</h3> 
+  <p>In this section, you include the toolbar component, which is one of the foundation components.</p> 
+  <p>You have several options, in edit mode as well as design mode.</p> 
+  <ol> 
+   <li><p>In CRXDE Lite, navigate to <span class="code">/apps/mywebsite/components/contentpage</span>, open the <span class="code">body.jsp</span> file and locate the following code:</p> 
+    <codeblock class="syntax java">
+      &lt;div&amp;nbsp;class="toolbar"&gt;toolbar&lt;/div&gt; 
+    </codeblock></li> 
+   <li><p>Replace that code with the following code, and then save the changes.</p> 
+    <codeblock class="syntax java">
+      &lt;cq:include&amp;nbsp;path="toolbar"&amp;nbsp;resourceType="foundation/components/toolbar"/&gt; 
+    </codeblock></li> 
+   <li><p>In the folder tree of the AEM Websites page, select Websites/My Website/English, then click New &amp;gt; New Page. Specify the following property values and click Create:</p> 
+    <ul> 
+     <li>Title: Toolbar</li> 
+     <li>Select My Website Content Page Template</li> 
+    </ul> </li> 
+   <li><p>In the list of pages, right-click the Toolbar page and click Properties. Select Hide In Navigation, and click OK.</p> <p>The Hide in Navigation option prevents the page from appearing in navigation components, such as topnav and listchildren.</p>  </li> 
+   <li> <p>Under Toolbar, create following pages:</p> 
+    <ul> 
+     <li>Contacts</li> 
+     <li>Feedback</li> 
+     <li>Login</li> 
+     <li>Search</li> 
+    </ul> </li> 
+   <li><p>In your browser, reload the Products page. It looks as follows:</p> <img imageRotate="0" src="assets/chlimage_1-141.png" /></li> 
+  </ol> 
+  <h3>Creating the Search Component</h3> 
+  <p>In this section, you create the component to search for content on the website. This search component can be placed in the paragraph system of any page (for example, on a specialized search result page).</p> 
+  <p>Your search input box will look as follows on the <strong>English </strong>page:</p> 
+  <img imageRotate="0" src="assets/chlimage_1-142.png" /> 
+  <h4>Creating the Search Component</h4> 
+  <ol> 
+   <li><p>In CRXDE Lite, right-click <span class="code">/apps/mywebsite/components</span>, select <strong>Create</strong>, then <strong>Create Component</strong>.</p> </li> 
+   <li><p>Use the dialog to configure the component:</p> 
+    <ol> 
+     <li>One first panel, specify the following property values: 
+      <ul> 
+       <li>Label: search</li> 
+       <li>Title: My Search Component</li> 
+       <li>Description: This is My Search Component</li> 
+       <li>Group: MyWebsite</li> 
+      </ul> </li> 
+     <li>Click Next., then click Next again.</li> 
+     <li>On the Allowed Parents panel, click the + button and type <span class="code">*/parsys</span>.</li> 
+     <li>Click Next and then click OK.</li> 
+    </ol> </li> 
+   <li><p>Click Save All.</p> </li> 
+   <li><p>Copy the following nodes and paste them to the apps/mywebsite/components/search node:</p> 
+    <ul> 
+     <li> <span class="code">/libs/foundation/components/search/dialog</span></li> 
+     <li><span class="code"></span> <span class="code">/libs/foundation/components/search/i18n</span> </li> 
+     <li> <span class="code">/libs/foundation/components/search/icon.png</span> </li> 
+    </ul> </li> 
+   <li><p>Click Save All.</p> </li> 
+  </ol> 
+  <h4>Creating the Search Script</h4> 
+  <p> This section describes how to create the search script:</p> 
+  <ol> 
+   <li><p>Open the <span class="code">/apps/mywebsite/components/search/search.jsp</span> file.</p> </li> 
+   <li><p>Copy the following code to <span class="code">search.jsp</span>:</p> 
+    <codeblock gutter="true" class="syntax java">
+      &lt;%@&amp;nbsp;page&amp;nbsp;import="com.day.cq.wcm.foundation.Search,com.day.cq.tagging.TagManager"&amp;nbsp;%&gt;!!discoiqbr!!&lt;%@include&amp;nbsp;file="/libs/foundation/global.jsp"&amp;nbsp;%&gt;&lt;%!!discoiqbr!!%&gt;&lt;cq:setContentBundle/&gt;&lt;%!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Search&amp;nbsp;search&amp;nbsp;=&amp;nbsp;new&amp;nbsp;Search(slingRequest);!!discoiqbr!!&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;String&amp;nbsp;searchIn&amp;nbsp;=&amp;nbsp;(String)&amp;nbsp;properties.get("searchIn");!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;String&amp;nbsp;requestSearchPath&amp;nbsp;=&amp;nbsp;request.getParameter("path");!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if&amp;nbsp;(searchIn&amp;nbsp;!=&amp;nbsp;null)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/*&amp;nbsp;only&amp;nbsp;allow&amp;nbsp;the&amp;nbsp;"path"&amp;nbsp;request&amp;nbsp;parameter&amp;nbsp;to&amp;nbsp;be&amp;nbsp;used&amp;nbsp;if&amp;nbsp;it!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;is&amp;nbsp;within&amp;nbsp;the&amp;nbsp;searchIn&amp;nbsp;path&amp;nbsp;configured&amp;nbsp;*/!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if&amp;nbsp;(requestSearchPath&amp;nbsp;!=&amp;nbsp;null&amp;nbsp;&amp;&amp;&amp;nbsp;requestSearchPath.startsWith(searchIn))&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;search.setSearchIn(requestSearchPath);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&amp;nbsp;else&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;search.setSearchIn(searchIn);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&amp;nbsp;else&amp;nbsp;if&amp;nbsp;(requestSearchPath&amp;nbsp;!=&amp;nbsp;null)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;search.setSearchIn(requestSearchPath);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;pageContext.setAttribute("search",&amp;nbsp;search);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;TagManager&amp;nbsp;tm&amp;nbsp;=&amp;nbsp;resourceResolver.adaptTo(TagManager.class);!!discoiqbr!!%&gt;&lt;c:set&amp;nbsp;var="trends"&amp;nbsp;value="${search.trends}"/&gt;&lt;%!!discoiqbr!!%&gt;&lt;center&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;form&amp;nbsp;action="${currentPage.path}.html"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;input&amp;nbsp;size="41"&amp;nbsp;maxlength="2048"&amp;nbsp;name="q"&amp;nbsp;value="${fn:escapeXml(search.query)}"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;input&amp;nbsp;value="&lt;fmt:message&amp;nbsp;key="searchButtonText"/&gt;"&amp;nbsp;type="submit"&amp;nbsp;/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/form&gt;!!discoiqbr!!&lt;/center&gt;!!discoiqbr!!&lt;br/&gt;!!discoiqbr!!&lt;c:set&amp;nbsp;var="result"&amp;nbsp;value="${search.result}"/&gt;!!discoiqbr!!&lt;c:choose&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;c:when&amp;nbsp;test="${empty&amp;nbsp;result&amp;nbsp;&amp;&amp;&amp;nbsp;empty&amp;nbsp;search.query}"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/c:when&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;c:when&amp;nbsp;test="${empty&amp;nbsp;result.hits}"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;c:if&amp;nbsp;test="${result.spellcheck&amp;nbsp;!=&amp;nbsp;null}"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;p&gt;&lt;fmt:message&amp;nbsp;key="spellcheckText"/&gt;&amp;nbsp;&lt;a&amp;nbsp;href="&lt;c:url&amp;nbsp;value="${currentPage.path}.html"&gt;&lt;c:param&amp;nbsp;name="q"&amp;nbsp;value="${result.spellcheck}"/&gt;&lt;/c:url&gt;"&gt;&lt;b&gt;&lt;c:out&amp;nbsp;value="${result.spellcheck}"/&gt;&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/c:if&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;fmt:message&amp;nbsp;key="noResultsText"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;fmt:param&amp;nbsp;value="${fn:escapeXml(search.query)}"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/fmt:message&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/c:when&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;c:otherwise&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;p&amp;nbsp;class="searchmeta"&gt;Results&amp;nbsp;${result.startIndex&amp;nbsp;+&amp;nbsp;1}&amp;nbsp;-&amp;nbsp;${result.startIndex&amp;nbsp;+&amp;nbsp;fn:length(result.hits)}&amp;nbsp;of&amp;nbsp;${result.totalMatches}&amp;nbsp;for&amp;nbsp;&lt;b&gt;${fn:escapeXml(search.query)}&lt;/b&gt;.&amp;nbsp;(${result.executionTime}&amp;nbsp;seconds)&lt;/p&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;br/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;div&amp;nbsp;class="searchresults"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;div&amp;nbsp;class="results"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;c:forEach&amp;nbsp;var="hit"&amp;nbsp;items="${result.hits}"&amp;nbsp;varStatus="status"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;div&amp;nbsp;class="hit"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a&amp;nbsp;href="${hit.URL}"&gt;${hit.title}&lt;/a&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;div&amp;nbsp;class="excerpt"&gt;${hit.excerpt}&lt;/div&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;div&amp;nbsp;class="hiturl"&gt;&amp;nbsp;${hit.URL}&lt;c:if&amp;nbsp;test="${!empty&amp;nbsp;hit.properties['cq:lastModified']}"&gt;&amp;nbsp;-&amp;nbsp;&lt;c:catch&gt;&lt;fmt:formatDate&amp;nbsp;value="${hit.properties['cq:lastModified'].time}"&amp;nbsp;dateStyle="medium"/&gt;&lt;/c:catch&gt;&lt;/c:if&gt;&amp;nbsp;-&amp;nbsp;&lt;a&amp;nbsp;href="${hit.similarURL}"&gt;&lt;fmt:message&amp;nbsp;key="similarPagesText"/&gt;&lt;/a&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;/div&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/c:forEach&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/div&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;br/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;div&amp;nbsp;class="searchRight"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;c:if&amp;nbsp;test="${fn:length(trends.queries)&amp;nbsp;&gt;&amp;nbsp;0}"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;p&gt;&lt;fmt:message&amp;nbsp;key="searchTrendsText"/&gt;&lt;/p&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;div&amp;nbsp;class="searchTrends"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;c:forEach&amp;nbsp;var="query"&amp;nbsp;items="${trends.queries}"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a&amp;nbsp;href="&lt;c:url&amp;nbsp;value="${currentPage.path}.html"&gt;&lt;c:param&amp;nbsp;name="q"&amp;nbsp;value="${query.query}"/&gt;&lt;/c:url&gt;"&gt;&lt;span&amp;nbsp;style="font-size:${query.size}px"&gt;&lt;c:out&amp;nbsp;value="${query.query}"/&gt;&lt;/span&gt;&lt;/a&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/c:forEach&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/div&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/c:if&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;c:if&amp;nbsp;test="${result.facets.languages.containsHit}"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;p&gt;Languages&lt;/p&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;c:forEach&amp;nbsp;var="bucket"&amp;nbsp;items="${result.facets.languages.buckets}"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;c:set&amp;nbsp;var="bucketValue"&amp;nbsp;value="${bucket.value}"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;c:set&amp;nbsp;var="label"&amp;nbsp;value='&lt;%=&amp;nbsp;new&amp;nbsp;java.util.Locale((String)&amp;nbsp;pageContext.getAttribute("bucketValue")).getDisplayLanguage(request.getLocale())&amp;nbsp;%&gt;'/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;c:choose&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;c:when&amp;nbsp;test="${param.language&amp;nbsp;!=&amp;nbsp;null}"&gt;${label}&amp;nbsp;(${bucket.count})&amp;nbsp;-&amp;nbsp;&lt;a&amp;nbsp;href="&lt;cq:requestURL&gt;&lt;cq:removeParam&amp;nbsp;name="language"/&gt;&lt;/cq:requestURL&gt;"&gt;remove&amp;nbsp;filter&lt;/a&gt;&lt;/c:when&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;c:otherwise&gt;&lt;a&amp;nbsp;title="filter&amp;nbsp;results"&amp;nbsp;href="&lt;cq:requestURL&gt;&lt;cq:addParam&amp;nbsp;name="language"&amp;nbsp;value="${bucket.value}"/&gt;&lt;/cq:requestURL&gt;"&gt;${label}&amp;nbsp;(${bucket.count})&lt;/a&gt;&lt;/c:otherwise&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/c:choose&gt;&lt;br/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/c:forEach&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/c:if&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;c:if&amp;nbsp;test="${result.facets.tags.containsHit}"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;p&gt;Tags&lt;/p&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;c:forEach&amp;nbsp;var="bucket"&amp;nbsp;items="${result.facets.tags.buckets}"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;c:set&amp;nbsp;var="bucketValue"&amp;nbsp;value="${bucket.value}"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;c:set&amp;nbsp;var="tag"&amp;nbsp;value="&lt;%=&amp;nbsp;tm.resolve((String)&amp;nbsp;pageContext.getAttribute("bucketValue"))&amp;nbsp;%&gt;"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;c:if&amp;nbsp;test="${tag&amp;nbsp;!=&amp;nbsp;null}"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;c:set&amp;nbsp;var="label"&amp;nbsp;value="${tag.title}"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;c:choose&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;c:when&amp;nbsp;test="&lt;%=&amp;nbsp;request.getParameter("tag")&amp;nbsp;!=&amp;nbsp;null&amp;nbsp;&amp;&amp;&amp;nbsp;java.util.Arrays.asList(request.getParameterValues("tag")).contains(pageContext.getAttribute("bucketValue"))&amp;nbsp;%&gt;"&gt;${label}&amp;nbsp;(${bucket.count})&amp;nbsp;-&amp;nbsp;&lt;a&amp;nbsp;href="&lt;cq:requestURL&gt;&lt;cq:removeParam&amp;nbsp;name="tag"&amp;nbsp;value="${bucket.value}"/&gt;&lt;/cq:requestURL&gt;"&gt;remove&amp;nbsp;filter&lt;/a&gt;&lt;/c:when&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;c:otherwise&gt;&lt;a&amp;nbsp;title="filter&amp;nbsp;results"&amp;nbsp;href="&lt;cq:requestURL&gt;&lt;cq:addParam&amp;nbsp;name="tag"&amp;nbsp;value="${bucket.value}"/&gt;&lt;/cq:requestURL&gt;"&gt;${label}&amp;nbsp;(${bucket.count})&lt;/a&gt;&lt;/c:otherwise&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/c:choose&gt;&lt;br/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/c:if&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/c:forEach&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/c:if&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;c:if&amp;nbsp;test="${result.facets.mimeTypes.containsHit}"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;jsp:useBean&amp;nbsp;id="fileTypes"&amp;nbsp;class="com.day.cq.wcm.foundation.FileTypes"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;p&gt;File&amp;nbsp;types&lt;/p&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;c:forEach&amp;nbsp;var="bucket"&amp;nbsp;items="${result.facets.mimeTypes.buckets}"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;c:set&amp;nbsp;var="bucketValue"&amp;nbsp;value="${bucket.value}"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;c:set&amp;nbsp;var="label"&amp;nbsp;value="${fileTypes[bucket.value]}"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;c:choose&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;c:when&amp;nbsp;test="&lt;%=&amp;nbsp;request.getParameter("mimeType")&amp;nbsp;!=&amp;nbsp;null&amp;nbsp;&amp;&amp;&amp;nbsp;java.util.Arrays.asList(request.getParameterValues("mimeType")).contains(pageContext.getAttribute("bucketValue"))&amp;nbsp;%&gt;"&gt;${label}&amp;nbsp;(${bucket.count})&amp;nbsp;-&amp;nbsp;&lt;a&amp;nbsp;href="&lt;cq:requestURL&gt;&lt;cq:removeParam&amp;nbsp;name="mimeType"&amp;nbsp;value="${bucket.value}"/&gt;&lt;/cq:requestURL&gt;"&gt;remove&amp;nbsp;filter&lt;/a&gt;&lt;/c:when&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;c:otherwise&gt;&lt;a&amp;nbsp;title="filter&amp;nbsp;results"&amp;nbsp;href="&lt;cq:requestURL&gt;&lt;cq:addParam&amp;nbsp;name="mimeType"&amp;nbsp;value="${bucket.value}"/&gt;&lt;/cq:requestURL&gt;"&gt;${label}&amp;nbsp;(${bucket.count})&lt;/a&gt;&lt;/c:otherwise&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/c:choose&gt;&lt;br/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/c:forEach&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/c:if&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;c:if&amp;nbsp;test="${result.facets.lastModified.containsHit}"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;p&gt;Last&amp;nbsp;Modified&lt;/p&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;c:forEach&amp;nbsp;var="bucket"&amp;nbsp;items="${result.facets.lastModified.buckets}"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;c:choose&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;c:when&amp;nbsp;test="${param.from&amp;nbsp;==&amp;nbsp;bucket.from&amp;nbsp;&amp;&amp;&amp;nbsp;param.to&amp;nbsp;==&amp;nbsp;bucket.to}"&gt;${bucket.value}&amp;nbsp;(${bucket.count})&amp;nbsp;-&amp;nbsp;&lt;a&amp;nbsp;href="&lt;cq:requestURL&gt;&lt;cq:removeParam&amp;nbsp;name="from"/&gt;&lt;cq:removeParam&amp;nbsp;name="to"/&gt;&lt;/cq:requestURL&gt;"&gt;remove&amp;nbsp;filter&lt;/a&gt;&lt;/c:when&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;c:otherwise&gt;&lt;a&amp;nbsp;title="filter&amp;nbsp;results"&amp;nbsp;href="&lt;cq:requestURL&gt;&lt;cq:removeParam&amp;nbsp;name="from"/&gt;&lt;cq:removeParam&amp;nbsp;name="to"/&gt;&lt;c:if&amp;nbsp;test="${bucket.from&amp;nbsp;!=&amp;nbsp;null}"&gt;&lt;cq:addParam&amp;nbsp;name="from"&amp;nbsp;value="${bucket.from}"/&gt;&lt;/c:if&gt;&lt;c:if&amp;nbsp;test="${bucket.to&amp;nbsp;!=&amp;nbsp;null}"&gt;&lt;cq:addParam&amp;nbsp;name="to"&amp;nbsp;value="${bucket.to}"/&gt;&lt;/c:if&gt;&lt;/cq:requestURL&gt;"&gt;${bucket.value}&amp;nbsp;(${bucket.count})&lt;/a&gt;&lt;/c:otherwise&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/c:choose&gt;&lt;br/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/c:forEach&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/c:if&gt;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;c:if&amp;nbsp;test="${fn:length(search.relatedQueries)&amp;nbsp;&gt;&amp;nbsp;0}"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;br/&gt;&lt;br/&gt;&lt;div&amp;nbsp;class="related"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;fmt:message&amp;nbsp;key="relatedSearchesText"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;c:forEach&amp;nbsp;var="rq"&amp;nbsp;items="${search.relatedQueries}"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a&amp;nbsp;href="${currentPage.path}.html?q=${rq}"&gt;&lt;c:out&amp;nbsp;value="${rq}"/&gt;&lt;/a&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/c:forEach&gt;&lt;/div&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/c:if&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/div&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;c:if&amp;nbsp;test="${fn:length(result.resultPages)&amp;nbsp;&gt;&amp;nbsp;1}"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;div&amp;nbsp;class="pagination"&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;fmt:message&amp;nbsp;key="resultPagesText"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;c:if&amp;nbsp;test="${result.previousPage&amp;nbsp;!=&amp;nbsp;null}"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a&amp;nbsp;href="${result.previousPage.URL}"&gt;&lt;fmt:message&amp;nbsp;key="previousText"/&gt;&lt;/a&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/c:if&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;c:forEach&amp;nbsp;var="page"&amp;nbsp;items="${result.resultPages}"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;c:choose&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;c:when&amp;nbsp;test="${page.currentPage}"&gt;${page.index&amp;nbsp;+&amp;nbsp;1}&lt;/c:when&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;c:otherwise&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a&amp;nbsp;href="${page.URL}"&gt;${page.index&amp;nbsp;+&amp;nbsp;1}&lt;/a&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/c:otherwise&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/c:choose&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/c:forEach&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;c:if&amp;nbsp;test="${result.nextPage&amp;nbsp;!=&amp;nbsp;null}"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a&amp;nbsp;href="${result.nextPage.URL}"&gt;&lt;fmt:message&amp;nbsp;key="nextText"/&gt;&lt;/a&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/c:if&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/div&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/c:if&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/div&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/c:otherwise&gt;!!discoiqbr!!&lt;/c:choose&gt; 
+    </codeblock></li> 
+   <li><p>Save the changes.</p> </li> 
+  </ol> 
+  <h4>Including a Search Box in the Contentpage Component</h4> 
+  <p>To include a search input box in the left section of your contentpage, proceed as follows:</p> 
+  <ol> 
+   <li><p>In CRXDE Lite, open the file <span class="code">left.jsp</span> under <span class="code">/apps/mywebsite/components/contentpage</span> and locate the following code (line 2):</p> 
+    <codeblock class="syntax xml">
+      %&gt;&lt;div&amp;nbsp;class="left"&gt; 
+    </codeblock></li> 
+   <li><p>Insert the following code <strong>before</strong> that line:</p> 
+    <codeblock class="syntax java">
+      %&gt;&lt;%@&amp;nbsp;page&amp;nbsp;import="com.day.text.Text"%&gt;&lt;%!!discoiqbr!!%&gt;&lt;%&amp;nbsp;String&amp;nbsp;docroot&amp;nbsp;=&amp;nbsp;currentDesign.getPath();&amp;nbsp;!!discoiqbr!!String&amp;nbsp;home&amp;nbsp;=&amp;nbsp;Text.getAbsoluteParent(currentPage.getPath(),&amp;nbsp;2);%&gt;&lt;% 
+    </codeblock></li> 
+   <li><p>Locate the following line of code:</p> 
+    <codeblock class="syntax xml">
+      &lt;div&gt;search&lt;/div&gt; 
+    </codeblock></li> 
+   <li><p>Replace that code with the following code, and then save the changes.</p> 
+    <codeblock class="syntax java">
+      &lt;div&amp;nbsp;class="form_1"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;form&amp;nbsp;class="geo"&amp;nbsp;action="&lt;%=&amp;nbsp;home&amp;nbsp;%&gt;/toolbar/search.html"&amp;nbsp;id="form"&amp;nbsp;&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;p&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;input&amp;nbsp;class="geo"&amp;nbsp;type="text"&amp;nbsp;name="q"&gt;&lt;br&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;a&amp;nbsp;href="&lt;%=&amp;nbsp;home&amp;nbsp;%&gt;/toolbar/search.html"&amp;nbsp;class="link_1"&gt;advanced&amp;nbsp;search&lt;/a&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/form&gt;!!discoiqbr!!&lt;/div&gt; 
+    </codeblock></li> 
+   <li> <p>In your browser, reload the Products page. The search component looks as follows:</p>  <img imageRotate="0" src="assets/chlimage_1-143.png" /></li> 
+  </ol> 
+  <h4>Including the Search Component in the Search Page</h4> 
+  <p>In this section, you add your search component to the paragraph system.</p> 
+  <ol> 
+   <li><p>In your browser, open the Search page.</p> </li> 
+   <li><p>In the Sidekick, click the design mode icon.</p> </li> 
+   <li><p>In the Design of par block (below the Search title), click Edit.</p> </li> 
+   <li><p>In the dialog, scroll down to the<strong> My Websites</strong> group, select <strong>My Search Component</strong> and click <strong>OK</strong>.</p> </li> 
+   <li><p>On Sidekick, click the triangle to return to edit mode.</p> </li> 
+   <li><p>Drag the My Search Component from the Sidekick into the parsys frame. It looks as follows:</p> <img imageRotate="0" src="assets/chlimage_1-144.png" /></li> 
+   <li><p>Navigate to your Products page. Search for customers in the input box and press Enter. You are redirected to the Search page. Switch to preview mode: the output is in a similar format as the following:</p> <img imageRotate="0" src="assets/chlimage_1-145.png" /></li> 
+  </ol> 
+  <h3>Including the Iparsys Component</h3> 
+  <p>In this section, you include the Inheritance Paragraph System (iparsys) component, which is one of the foundation components. This component enables you to create a structure of paragraphs on a parent page, and have child pages inherit the paragraphs.</p> 
+  <p>For this component you can set several parameters in both edit mode and design mode.</p> 
+  <ol> 
+   <li><p>In CRXDE Lite, navigate to <span class="code">/apps/mywebsite/components/contentpage</span>, open the file <span class="code">right.jsp</span> and replace:</p> 
+    <codeblock class="syntax java">
+      &lt;div&gt;iparsys&lt;/div&gt; 
+    </codeblock><p>with:</p> 
+    <codeblock class="syntax java">
+      &lt;cq:include&amp;nbsp;path="rightpar"&amp;nbsp;resourceType="foundation/components/iparsys"&amp;nbsp;/&gt; 
+    </codeblock></li> 
+   <li><p>Save the changes.</p> </li> 
+   <li><p>In your browser, reload the<strong> Products</strong> page. The whole page looks as follows:</p> <img imageRotate="0" src="assets/chlimage_1-9.jpeg" /></li> 
+  </ol> 
+ </body> 
+</html>

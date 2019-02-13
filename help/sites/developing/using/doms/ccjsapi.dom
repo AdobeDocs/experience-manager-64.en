@@ -1,0 +1,509 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="Client Context Javascript API" name="jcr:title" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="2017-10-31T16:17:18.904-0400" name="firstPublishExternalDate" /> 
+  <meta content="/content/docs/en/aem/6-3/develop/personalization/ccjsapi" name="qaNotes" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2018-05-08T12:40:27.705-0400" name="cq:lastModified" /> 
+  <meta content="2018-05-08T12:40:27.703-0400" name="locHandOffDate" /> 
+  <meta content="Client Context Javascript API" name="navTitle" /> 
+  <meta content="audience:developing" name="primaryAudienceTag" /> 
+  <meta content="2018-01-18T11:18:09.692-0500" name="lastPublishExternalDate" /> 
+  <meta content="f3b547e5-7a2d-46f8-80cf-cba122e4de3a" name="jcr:predecessors" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="msm-service" name="cq:lastModifiedBy" /> 
+  <meta content="2018-01-19T19:07:04.091-0500" name="jcr:created" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/ccjsapi.html" name="publishExternalURL" /> 
+  <meta content="2018-01-18T11:18:09.692-0500" name="publishExternalDate" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2018-04-03T09:00:05.645-0400" name="cq:lastReplicated" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="Guillaume Carlino" name="contentOwner" /> 
+  <meta content="The Javascript API for Client Context" name="seoDescription" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:personalization;content_type:reference" name="cq:tags" /> 
+  <meta content="d894abd3-24f6-429e-a3c6-43832b5e47ca" name="jcr:uuid" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2018-01-18T11:18:09.692-0500" name="topicBrowsingSortDate" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/morehelp/personalization;/content/help/en/experience-manager/6-4/sites/developing/morehelp/personalization" name="moreHelpPaths" /> 
+  <meta content="Client Context Javascript API" name="seoTitle" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="" name="jcr:primaryType" /> 
+ </head> 
+ <body>  
+  <h2>CQ_Analytics.ClientContextMgr</h2> 
+  <p>The CQ_Analytics.ClientContextMgr object is a singleton that contains a set of self-registered session stores, and provides methods for registering, persisting, and managing the session stores. </p> 
+  <p>Extends CQ_Analytics.PersistedSessionStore.</p> 
+  <h3>Methods</h3>  
+  <h4>getRegisteredStore(name)</h4> 
+  <p>Returns a session store of a specified name. See also <a href="../../../sites/developing/using/client-context.md#main-pars-title-34">Accessing a Session Store</a>.</p> 
+  <p><strong>Parameters</strong></p> 
+  <ul> 
+   <li>name: String. The name of the session store.</li> 
+  </ul> 
+  <p><strong>Returns</strong></p> 
+  <p>A CQ_Analytics.SessionStore object that represents the session store of the given name. Returns <span class="code">null</span> when no store exists of the given name.</p> 
+  <h4>register(sessionstore)</h4> 
+  <p>Registers a session store with Client Context. Fires the storeregister and storeupdate events upon completion.</p> 
+  <p><strong>Parameters</strong></p> 
+  <ul> 
+   <li>sessionstore: CQ_Analytics.SessionStore. The session store object to register.</li> 
+  </ul> 
+  <p><strong>Returns</strong></p> 
+  <p>No returned value.</p>    
+  <h2>CQ_Analytics.ClientContextUtils</h2> 
+  <p>Provides methods for listening for session store activation and registration. See also <a href="../../../sites/developing/using/client-context.md#main-pars-title-6">Checking That a Session Store is Defined and Initialized</a>.</p> 
+  <h3>Methods</h3> 
+  <h4>onStoreInitialized(storeName, callback, delay)</h4> 
+  <p>Registers a callback function that is called when a session store is initialized. For stores that are initialized several times, specify a callback delay so that the callback function is called only once:</p> 
+  <ul> 
+   <li>When the store is initialized during the delay period of a previous initialization, the previous function call is cancelled, and the function is called again for the current initialization.</li> 
+   <li>If the delay period lapses before a subsequent initialization occurs, the callback function is executed twice.</li> 
+  </ul> 
+  <p>For example, a session store is based on a JSON object and retrieved via a JSON request. The following intialization scenarios are possible:</p> 
+  <ul> 
+   <li>The request is completed, data retrieved and loaded into the store. In this case, initialization occurs once.</li> 
+   <li>The request fails (timeout). In this case initialization does not happen and there is no data in the store.</li> 
+   <li>The store is pre-populated with default values (init properties), but the request fails (timeout). There is only one initialization with default values.</li> 
+   <li>The store is pre-populated.</li> 
+  </ul> 
+  <p>When the delay is set to <span class="code">true</span> or a number of milliseconds, the method waits before calling the callback method. If another initialization event is triggered before the delay is passed, it will wait until the delay time is exceeded with no initialization event. This enables waiting for a second initialization event to be triggered and calls the callback function in the most optimal case.</p> 
+  <p><strong>Parameters</strong></p> 
+  <ul> 
+   <li>storeName: String. The name of the session store to add the listener.</li> 
+   <li>callback: Function. The function to call upon store initialization.</li> 
+   <li>delay: Boolean or Number. The amount of time to delay the call to the callback function, in milliseconds. A boolean value of <span class="code">true</span> uses the default delay of <span class="code">200 ms</span>. A boolean value of <span class="code">false</span> or a negative number causes no delay to be used. </li> 
+  </ul> 
+  <p><strong>Returns</strong></p> 
+  <p>No returned value.</p> 
+  <h4>onStoreRegistered(storeName, callback)</h4> 
+  <p>Registers a callback function that is called when a session store is registered. The register event occurs when a store is registered to <a href="#cqanalyticsclientcontextmgr">CQ_Analytics.ClientContextMgr</a>. </p> 
+  <p><strong>Parameters</strong></p> 
+  <ul> 
+   <li>storeName: String. The name of the session store to add the listener.</li> 
+   <li>callback: Function. The function to call upon store initialization.</li> 
+  </ul> 
+  <p><strong>Returns</strong></p> 
+  <p>No returned value.</p> 
+  <h2>CQ_Analytics.JSONPStore</h2> 
+  <p>A non-persisted session store that contains JSON data. The data is retrieved from an external JSONP service. Use the <span class="code">getInstance</span> or <span class="code">getRegisteredInstance</span> method to create an instance of this class. </p> 
+  <p>Extends CQ_Analytics.JSONStore.</p> 
+  <h3>Properties</h3> 
+  <p>See CQ_Analytics.JSONStore and CQ_Analytics.SessonStore for inherited properties.</p> 
+  <h3>Methods</h3> 
+  <p>Also see CQ_Analytics.JSONStore and CQ_Analytics.SessonStore for inherited methods.</p> 
+  <h4>getInstance(storeName, serviceURL, dynamicData, deferLoading, loadingCallback)</h4> 
+  <p>Creates a CQ_Analytics.JSONPStore object.</p> 
+  <p><strong>Parameters</strong></p> 
+  <ul> 
+   <li>storeName: String. The name to use as the STORENAME property. The value of the STOREKEY property is set to storeName with all upper-case characters. If no storeName is provided, the method returns null.</li> 
+   <li>serviceURL: String. The URL of the JSONP service</li> 
+   <li>dynamicData: (Optional) Object. JSON data to append to the store's initialization data before the callback function is called.</li> 
+   <li>deferLoading: (Optional) Boolean. A value of true prevents the JSONP service from being called upon object creation. A value of false causes the JSONP service to be called.</li> 
+   <li>loadingCallback: (Optional) String. The name of the function to call for processing the JSONP object that the JSONP service returns. The callback function must define a single parameter that is a CQ_Analytics.JSONPStore object.</li> 
+  </ul> 
+  <p><strong>Returns</strong></p> 
+  <p>The new CQ_Analytics.JSONPStore object, or null if storeName is null.</p> 
+  <h4>getServiceURL()</h4> 
+  <p>Retrieves the URL of the JSONP service that this object uses to retrieve JSON data.</p> 
+  <p><strong>Parameters</strong></p> 
+  <p>None.</p> 
+  <p><strong>Returns</strong></p> 
+  <p>A String that represents the service URL, or null if no service URL has been configured.</p> 
+  <h4>load(serviceURL, dynamicData, callback)</h4> 
+  <p>Calls the JSONP service. The JSONP URL is the service URL suffixed with a give callback function name. </p> 
+  <p><strong>Parameters</strong></p> 
+  <ul> 
+   <li>serviceURL: (Optional) String. The JSONP service to call. A value of null causes the already-configured service URL to be used. A non-null value sets the JSONP service to use for this object. (See setServiceURL.) </li> 
+   <li>dynamicData: (Optional) Object. JSON data to append to the store's initialization data before the callback function is called.</li> 
+   <li>callback: (Optional) String. The name of the function to call for processing the JSONP object that the JSONP service returns. The callback function must define a single parameter that is a CQ_Analytics.JSONPStore object.</li> 
+  </ul> 
+  <p><strong>Returns</strong></p> 
+  <p>No returned value.</p> 
+  <h4>registerNewInstance(storeName, serviceURL, dynamicData, callback)</h4> 
+  <p>Creates a CQ_Analytics.JSONPStore object and registers the store with Client Context.<br /> </p> 
+  <p><strong>Parameters</strong></p> 
+  <ul> 
+   <li>storeName: String. The name to use as the STORENAME property. The value of the STOREKEY property is set to storeName with all upper-case characters. If no storeName is provided, the method returns null.</li> 
+   <li>serviceURL: (Optional) String. The URL of the JSONP service. </li> 
+   <li>dynamicData: (Optional) Object. JSON data to append to the store's initialization data before the callback function is called.</li> 
+   <li>callback: (Optional) String. The name of the function to call for processing the JSONP object that the JSONP service returns. The callback function must define a single parameter that is a CQ_Analytics.JSONPStore object.</li> 
+  </ul> 
+  <p><strong>Returns</strong></p> 
+  <p>The registered CQ_Analytics.JSONPStore object.</p> 
+  <h4>setServiceURL(serviceURL)</h4> 
+  <p>Sets the URL of the JSONP service to use for retrieving JSON data.</p> 
+  <p><strong>Parameters</strong></p> 
+  <ul> 
+   <li>serviceURL: String. The URL of the JSONP service that provides JSON data</li> 
+  </ul> 
+  <p><strong>Returns</strong></p> 
+  <p>No returned value.</p> 
+  <h2>CQ_Analytics.JSONStore</h2> 
+  <p>A container for a JSON object. Create an instance of this class to create a non-persisted session store that contains JSON data:</p> 
+  <p><span class="code">myjsonstore = new CQ_Analytics.JSONStore</span></p> 
+  <p>You can define a set of data that populates the store upon initialization.</p> 
+  <p>Extends CQ_Analytics.SessionStore.</p> 
+  <h3>Properties</h3> 
+  <h4>STOREKEY</h4> 
+  <p>The key that identifies the store. Use the <span class="code">getInstance</span> method to retrieve this value.</p> 
+  <h4>STORENAME</h4> 
+  <p>The name of the store. Use the <span class="code">getInstance</span> method to retrieve this value.</p> 
+  <h3>Methods</h3> 
+  <p>Also see CQ_Analytics.SessionStore for inherited methods.</p> 
+  <h4>clear()</h4> 
+  <p>Removes the session store data and removes all initialization properties.</p> 
+  <p><strong>Parameters</strong></p> 
+  <p>None.</p> 
+  <p><strong>Returns</strong></p> 
+  <p>No returned value.</p> 
+  <h4>getInstance(storeName, jsonData)</h4> 
+  <p>Creates a CQ_Analytics.JSONStore object with a given name and initialized with the given JSON data (calls the initJSON method).</p> 
+  <p><strong>Parameters</strong></p> 
+  <ul> 
+   <li>storeName: String. The name to use as the STORENAME property. The value of the STOREKEY property is set to storeName with all upper-case characters.</li> 
+   <li>jsonData: Object. An object that contains JSON data.</li> 
+  </ul> 
+  <p><strong>Returns</strong></p> 
+  <p>The CQ_Analytics.JSONStore object.</p> 
+  <h4>getJSON()</h4> 
+  <p>Retrieves the data of the session store in JSON format.</p> 
+  <p><strong>Parameters</strong></p> 
+  <p>None.</p> 
+  <p><strong>Returns</strong></p> 
+  <p>An object that represents the store data in JSON format.</p> 
+  <h4>init()</h4> 
+  <p>Clears the session store and initializes it with the initialization property. Sets the initialization flag to <span class="code">true</span> and then fires the <span class="code">initialize</span> and <span class="code">update</span> events.</p> 
+  <p><strong>Parameters</strong></p> 
+  <p>None.</p> 
+  <p><strong>Returns</strong></p> 
+  <p>No returned data.</p> 
+  <h4>initJSON(jsonData, doNotClear)</h4> 
+  <p>Creates initialization properties from the data in a JSON object. You can optionally remove all existing initialization properties.</p> 
+  <p>The names of the properties are derived from the hierarchy of the data in the JSON object. The following example code represents a JSON object:</p> 
+  <codeblock class="syntax xml">
+    {!!discoiqbr!!A:&amp;nbsp;"valueA",&amp;nbsp;&amp;nbsp;!!discoiqbr!!B:&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;B1:&amp;nbsp;"valueBB1"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!} 
+  </codeblock> 
+  <p>For this example, the following properties are created in the store:</p> 
+  <codeblock class="syntax xml">
+    A:&amp;nbsp;"valueA"&amp;nbsp;!!discoiqbr!!B/B1:&amp;nbsp;"valueBB1" 
+  </codeblock> 
+  <p><strong>Parameters</strong></p> 
+  <ul> 
+   <li>jsonData: A JSON object that contains the data to store.</li> 
+   <li>doNotClear: A value of true preserves the existing initialization properties and adds those derived from the JSON object. A value of false removes existing initialization properties before adding those derived from the JSON object.</li> 
+  </ul> 
+  <p><strong>Returns</strong></p> 
+  <p>No returned value.</p> 
+  <h4>registerNewInstance(storeName, jsonData)</h4> 
+  <p>Creates a CQ_Analytics.JSONStore object with a given name and initialized with the given JSON data (calls the initJSON method). The new object is automatically registered with the Clickstream Cloud Manager.</p> 
+  <p><strong>Parameters</strong></p> 
+  <ul> 
+   <li>storeName: String. The name to use as the STORENAME property. The value of the STOREKEY property is set to storeName with all upper-case characters.</li> 
+   <li>jsonData: Object. An object that contains JSON data.</li> 
+  </ul> 
+  <p><strong>Returns</strong></p> 
+  <p>The CQ_Analytics.JSONStore object.</p> 
+  <h2>CQ_Analytics.Observable</h2> 
+  <p>Fires events and allows other objects to listen to these events and react. Classes that extend this class can fire events that cause listeners to be called.</p> 
+  <h3>Methods</h3> 
+  <h4>addListener(event, fct, scope)</h4> 
+  <p>Registers a listener for an event. See also <a href="../../../sites/developing/using/client-context.md#main-pars-title-5">Creating a Listener to React to a Session Store Update</a>.</p> 
+  <p><strong>Parameters</strong></p> 
+  <ul> 
+   <li>event: String. The name of the event to listen for.</li> 
+   <li>fct: Function. The function that is called when the event occurs.</li> 
+   <li>scope: (Optional) Object. The scope in which to execute the handler function. The handler function's "this" context.</li> 
+  </ul> 
+  <p><strong>Returns</strong></p> 
+  <p>No returned value.</p> 
+  <h4>removeListener(event, fct)</h4> 
+  <p>Removes the given event handler for an event.</p> 
+  <p><strong>Parameters</strong></p> 
+  <ul> 
+   <li>event: String. The name of the event.</li> 
+   <li>fct: Function. The event handler. </li> 
+  </ul> 
+  <p><strong>Returns</strong></p> 
+  <p>No returned value.</p> 
+  <h2>CQ_Analyics.PersistedJSONPStore</h2> 
+  <p>A persisted container of a JSON object retrieved from a remote JSONP service.</p> 
+  <p>Extends CQ_Analytics.PersistedJSONStore.</p> 
+  <h3>Methods</h3> 
+  <p>Also see CQ_Analytics.PersistedJSONStore for inherited methods.</p> 
+  <h4>getInstance(storeName, serviceURL, dynamicData, deferLoading, loadingCallback)</h4> 
+  <p>Creates a CQ_Analytics.PersistedJSONPStore object.</p> 
+  <p><strong>Parameters</strong></p> 
+  <ul> 
+   <li>storeName: String. The name to use as the STORENAME property. The value of the STOREKEY property is set to storeName with all upper-case characters. If no storeName is provided, the method returns null.</li> 
+   <li>serviceURL: String. The URL of the JSONP service</li> 
+   <li>dynamicData: (Optional) Object. JSON data to append to the store's initialization data before the callback function is called.</li> 
+   <li>deferLoading: (Optional) Boolean. A value of true prevents the JSONP service from being called upon object creation. A value of false causes the JSONP service to be called.</li> 
+   <li>loadingCallback: (Optional) String. The name of the function to call for processing the JSONP object that the JSONP service returns. The callback function must define a single parameter that is a CQ_Analytics.JSONPStore object.</li> 
+  </ul> 
+  <p><strong>Returns</strong></p> 
+  <p>The new CQ_Analytics.PersistedJSONPStore object, or null if storeName is null.</p> 
+  <h4>getServiceURL()</h4> 
+  <p>Retrieves the URL of the JSONP service that this object uses to retrieve JSON data.</p> 
+  <p><strong>Parameters</strong></p> 
+  <p>None.</p> 
+  <p><strong>Returns</strong></p> 
+  <p>A String that represents the service URL, or null if no service URL has been configured.</p> 
+  <h4>load(serviceURL, dynamicData, callback)</h4> 
+  <p>Calls the JSONP service. The JSONP URL is the service URL suffixed with a give callback function name. </p> 
+  <p><strong>Parameters</strong></p> 
+  <ul> 
+   <li>serviceURL: (Optional) String. The JSONP service to call. A value of null causes the already-configured service URL to be used. A non-null value sets the JSONP service to use for this object. (See setServiceURL.) </li> 
+   <li>dynamicData: (Optional) Object. JSON data to append to the store's initialization data before the callback function is called.</li> 
+   <li>callback: (Optional) String. The name of the function to call for processing the JSONP object that the JSONP service returns. The callback function must define a single parameter that is a CQ_Analytics.JSONPStore object.</li> 
+  </ul> 
+  <p><strong>Returns</strong></p> 
+  <p>No returned value.</p> 
+  <h4>registerNewInstance(storeName, serviceURL, dynamicData, callback)</h4> 
+  <p>Creates a CQ_Analytics.PersistedJSONPStore object and registers the store with Client Context.<br /> </p> 
+  <p><strong>Parameters</strong></p> 
+  <ul> 
+   <li>storeName: String. The name to use as the STORENAME property. The value of the STOREKEY property is set to storeName with all upper-case characters. If no storeName is provided, the method returns null.</li> 
+   <li>serviceURL: (Optional) String. The URL of the JSONP service. </li> 
+   <li>dynamicData: (Optional) Object. JSON data to append to the store's initialization data before the callback function is called.</li> 
+   <li>callback: (Optional) String. The name of the function to call for processing the JSONP object that the JSONP service returns. The callback function must define a single parameter that is a CQ_Analytics.JSONPStore object.</li> 
+  </ul> 
+  <p><strong>Returns</strong></p> 
+  <p>The registered CQ_Analytics.PersistedJSONPStore object.</p> 
+  <h4>setServiceURL(serviceURL)</h4> 
+  <p>Sets the URL of the JSONP service to use for retrieving JSON data.</p> 
+  <p><strong>Parameters</strong></p> 
+  <ul> 
+   <li>serviceURL: String. The URL of the JSONP service that provides JSON data</li> 
+  </ul> 
+  <p><strong>Returns</strong></p> 
+  <p>No returned value.</p> 
+  <h2>CQ_Analytics.PersistedJSONStore</h2> 
+  <p>A persisted container of a JSON object.</p> 
+  <p>Extends <span class="code">CQ_Analytics.PersistedSessionStore</span>.</p> 
+  <h3>Properties</h3> 
+  <h4>STOREKEY</h4> 
+  <p>The key that identifies the store. Use the <span class="code">getInstance</span> method to retrieve this value.</p> 
+  <h4>STORENAME</h4> 
+  <p>The name of the store. Use the <span class="code">getInstance</span> method to retrieve this value.</p> 
+  <h3>Methods</h3> 
+  <p>Also see CQ_Analytics.PersistedSessionStore for inherited methods.</p> 
+  <h4>getInstance(storeName, jsonData)</h4> 
+  <p>Creates a CQ_Analytics.PersistedJSONStore object with a given name and initialized with the given JSON data (calls the initJSON method).</p> 
+  <p><strong>Parameters</strong></p> 
+  <ul> 
+   <li>storeName: String. The name to use as the STORENAME property. The value of the STOREKEY property is set to storeName with all upper-case characters.</li> 
+   <li>jsonData: Object. An object that contains JSON data.</li> 
+  </ul> 
+  <p><strong>Returns</strong></p> 
+  <p>The CQ_Analytics.PersistedJSONStore object.</p> 
+  <h4>getJSON()</h4> 
+  <p>Retrieves the data of the session store in JSON format.</p> 
+  <p><strong>Parameters</strong></p> 
+  <p>None.</p> 
+  <p><strong>Returns</strong></p> 
+  <p>An object that represents the store data in JSON format.</p> 
+  <h4>initJSON(jsonData, doNotClear)</h4> 
+  <p>Creates initialization properties from the data in a JSON object. You can optionally remove all existing initialization properties.</p> 
+  <p>The names of the properties are derived from the hierarchy of the data in the JSON object. The following example code represents a JSON object:</p> 
+  <codeblock class="syntax xml">
+    {!!discoiqbr!!A:&amp;nbsp;"valueA",&amp;nbsp;&amp;nbsp;!!discoiqbr!!B:&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;B1:&amp;nbsp;"valueBB1"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!} 
+  </codeblock> 
+  <p>For this example, the following properties are created in the store:</p> 
+  <codeblock class="syntax xml">
+    A:&amp;nbsp;"valueA"&amp;nbsp;!!discoiqbr!!B/B1:&amp;nbsp;"valueBB1" 
+  </codeblock> 
+  <p><strong>Parameters</strong></p> 
+  <ul> 
+   <li>jsonData: A JSON object that contains the data to store.</li> 
+   <li>doNotClear: A value of true preserves the existing initialization properties and adds those derived from the JSON object. A value of false removes existing initialization properties before adding those derived from the JSON object.</li> 
+  </ul> 
+  <p><strong>Returns</strong></p> 
+  <p>No returned value.</p> 
+  <h4>registerNewInstance(storeName, jsonData)</h4> 
+  <p>Creates a CQ_Analytics.PersistedJSONStore object with a given name and initialized with the given JSON data (calls the initJSON method). The new object is automatically registered with the Client Context Manager.</p> 
+  <p><strong>Parameters</strong></p> 
+  <ul> 
+   <li>storeName: String. The name to use as the STORENAME property. The value of the STOREKEY property is set to storeName with all upper-case characters.</li> 
+   <li>jsonData: Object. An object that contains JSON data.</li> 
+  </ul> 
+  <p><strong>Returns</strong></p> 
+  <p>The CQ_Analytics.PersistedJSONStore object.</p> 
+  <h2>CQ_Analytics.PersistedSessionStore</h2> 
+  <p>A container of properties and values. The data is persisted using CQ_Analytics.SessionPersistence. Create an instance of this class to create a persisted session store:</p> 
+  <p><span class="code">mypersistedstore = new CQ_Analytics.PersistedSessionStore</span></p> 
+  <p>Extends CQ_Analytics.SessionStore.</p> 
+  <h3>Properties</h3> 
+  <h4>STOREKEY</h4> 
+  <p>Default value is <span class="code">key</span>.</p> 
+  <h3>Methods</h3> 
+  <p>See CQ_Analytics.SessionStore for inherited methods.</p> 
+  <p>When the inherited methods <span class="code">clear</span>, <span class="code">setProperty</span>, <span class="code">setProperties</span>, <span class="code">removeProperty</span> are used to change the store data, the changes are automatically persisted, unless the changed properties are flagged as notPersisted.</p> 
+  <h4>getStoreKey()</h4> 
+  <p>Retrieves the <span class="code">STOREKEY</span> property.</p> 
+  <p><strong>Parameters</strong></p> 
+  <p>None</p> 
+  <p><strong>Returns</strong></p> 
+  <p>The value of the <span class="code">STOREKEY</span> property.</p> 
+  <h4>isPersisted(name)</h4> 
+  <p>Determines whether a data property is persisted.</p> 
+  <p><strong>Parameters</strong></p> 
+  <ul> 
+   <li>name: String. The name of the property.</li> 
+  </ul> 
+  <p><strong>Returns</strong></p> 
+  <p>A Boolean value of <span class="code">true</span> if the property is persisted, and a value of <span class="code">false</span> if the value is not a persisted property.</p> 
+  <h4>persist()</h4> 
+  <p>Persists the session store. The default persistence mode uses browser <span class="code">localStorage</span> using <span class="code">ClientSidePersistence</span> as the name (<span class="code">window.localStorage.set("ClientSidePersistance", store);</span>)</p> 
+  <p>If localStorage is not available or writeable, then the store is persisted as a property of the window.</p> 
+  <p>Fires the <span class="code">persist</span> event upon completion.</p> 
+  <p><strong>Parameters</strong></p> 
+  <p>None</p> 
+  <p><strong>Returns</strong></p> 
+  <p>No returned value.</p> 
+  <h4>reset(deferEvent)</h4> 
+  <p>Removes all data properties from the store and persists the store. Optionally does not fire the <span class="code">udpate</span> event upon completion.</p> 
+  <p><strong>Parameters</strong></p> 
+  <ul> 
+   <li>deferEvent: A value of true prevents the <span class="code">update</span> event from being fired. A value of <span class="code">false</span> causes the update event to fire.</li> 
+  </ul> 
+  <p><strong>Returns</strong></p> 
+  <p>No returned value.</p> 
+  <h4>setNonPersisted(name)</h4> 
+  <p>Flags a data property as not persisted.</p> 
+  <p><strong>Parameters</strong></p> 
+  <ul> 
+   <li>name: String. The name of the property that is not to be persisted.</li> 
+  </ul> 
+  <p><strong>Returns</strong></p> 
+  <p>No return value.</p> 
+  <h2>CQ_Analytics.SessionStore</h2> 
+  <p>CQ_Analytics.SessionStore represents a session store. Create an instance of this class to create a session store:</p> 
+  <p><span class="code">mystore = new CQ_Analytics.SessionStore</span></p> 
+  <p>Extends CQ_Analytics.Observable.</p> 
+  <h3>Properties</h3> 
+  <h4>STORENAME</h4> 
+  <p>The name of the session store. Use getName to retrieve the value of this property.</p> 
+  <h3>Methods</h3>  
+  <h4>addInitProperty(name, value)</h4> 
+  <p>Adds a property and value to the session store initialization data.</p> 
+  <p>Use loadInitProperties to populate the session store data with the initialization values.</p> 
+  <p><strong>Parameters</strong></p> 
+  <ul> 
+   <li>name: String. The name of the property to add.</li> 
+   <li>value: String. The value of the property to add.</li> 
+  </ul> 
+  <p><strong>Returns</strong></p> 
+  <p>No returned value.</p> 
+  <h4>clear()</h4> 
+  <p>Removes all data properties from the store.</p> 
+  <p><strong>Parameters</strong></p> 
+  <p>None.</p> 
+  <p><strong>Returns</strong></p> 
+  <p>No return value.</p> 
+  <h4>getData(excluded)</h4> 
+  <p>Returns the store data. Optionally, excludes name properties from the data. Calls the <span class="code">init</span> method if the data property of the store does not exist.</p> 
+  <p><strong>Parameters</strong></p> 
+  <p>excluded: (Optional) An array of property names to exclude from the returned data.</p> 
+  <p><strong>Returns</strong></p> 
+  <p>An object of properties and their values.</p> 
+  <h4>getInitProperty(name)</h4> 
+  <p>Retrieves the value of a data property.</p> 
+  <p><strong>Parameters</strong></p> 
+  <ul> 
+   <li>name: String. The name of the data property to retrieve.</li> 
+  </ul> 
+  <p><strong>Returns</strong></p> 
+  <p>The value of the data property. Returnes <span class="code">null</span> if the session store contains no property of the given name.</p> 
+  <h4>getName()</h4> 
+  <p>Returns the name of the session store.</p> 
+  <p><strong>Parameters</strong></p> 
+  <p>None.</p> 
+  <p><strong>Returns</strong></p> 
+  <p>A String value that represents the store name.</p> 
+  <h4>getProperty(name, raw)</h4> 
+  <p>Returns the value of a property. The value is returned as the raw property or the XSS-filtered value. Calls the <span class="code">init</span> method if the data property of the store does not exist.</p> 
+  <p><strong>Parameters</strong></p> 
+  <ul> 
+   <li>name: String. The name of the data property to retrieve.</li> 
+   <li>raw: Boolean. A value of true causes the raw property value to be returned. A value of false causes the returned value to be XSS-filtered.</li> 
+  </ul> 
+  <p><strong>Returns</strong></p> 
+  <p>The value of the data property.</p> 
+  <h4>getPropertyNames(excluded)</h4> 
+  <p>Returns the names of the properties that the session store contains. Calls the <span class="code">init</span> method if the data property of the store does not exist.</p> 
+  <p><strong>Parameters</strong></p> 
+  <p>excluded: (Optional) An array of property names to omit from the results.</p> 
+  <p><strong>Returns</strong></p> 
+  <p>An array of String values that represent the session property names.</p> 
+  <h4>getSessionStore()</h4> 
+  <p>Returns the session store attached to the current object.</p> 
+  <p><strong>Parameters</strong></p> 
+  <p>None.</p> 
+  <p><strong>Returns</strong></p> 
+  <p>this</p> 
+  <h4>init()</h4> 
+  <p>Marks the store as initialized and fires the <span class="code">initialize</span> event.</p> 
+  <p><strong>Parameters</strong></p> 
+  <p>None.</p> 
+  <p><strong>Returns</strong></p> 
+  <p>No returned value.</p> 
+  <h4>isInitialized()</h4> 
+  <p>Indicates whether the sessions store is initialized.</p> 
+  <p><strong>Parameters</strong></p> 
+  <p>None.</p> 
+  <p><strong>Returns</strong></p> 
+  <p>A value of <span class="code">true</span> if the store is initialized, and a value of <span class="code">false</span> if the store is not initialized.</p> 
+  <h4>loadInitProperties(obj, setValues)</h4> 
+  <p>Adds the properties of a given object to the intialization data of the session store. Optionally, the object data is also added to the store data.</p> 
+  <p><strong>Parameters</strong></p> 
+  <ul> 
+   <li>obj: An object that contains enumerable propertes. </li> 
+   <li>setValues: When true, the obj properties are added to the session store data if the store data does not already include a property of the same name. When false, no data is added to the session store data. </li> 
+  </ul> 
+  <p><strong>Returns</strong></p> 
+  <p>No returned value.</p> 
+  <h4>removeProperty(name)</h4> 
+  <p>Removes a property from the session store. Fires the <span class="code">update</span> event upon completion. Calls the <span class="code">init</span> method if the data property of the store does not exist.</p> 
+  <p><strong>Parameters</strong></p> 
+  <ul> 
+   <li>name: String. The name of the property to remove.</li> 
+  </ul> 
+  <p><strong>Returns</strong></p> 
+  <p>No returned value.</p> 
+  <h4>reset()</h4> 
+  <p>Restores the initial values of the data store. The default implementation simply removes all data. Fires the <span class="code">update</span> event upon completion.</p> 
+  <p><strong>Parameters</strong></p> 
+  <p>None.</p> 
+  <p><strong>Returns</strong></p> 
+  <p>No returned value.</p> 
+  <h4>setProperties(properties)</h4> 
+  <p>Sets the values of multiple properties. Fires the <span class="code">update</span> event upon completion. Calls the <span class="code">init</span> method if the data property of the store does not exist.</p> 
+  <p><strong>Parameters</strong></p> 
+  <ul> 
+   <li>Properties: Object. An object that contains enumerable properties. Each property name and value is added to the store.</li> 
+  </ul> 
+  <p><strong>Returns</strong></p> 
+  <p>No returned value.</p> 
+  <h4>setProperty(name, value)</h4> 
+  <p>Sets the value of a property. Fires the <span class="code">update</span> event upon completion. Calls the <span class="code">init</span> method if the data property of the store does not exist.</p> 
+  <p><strong>Parameters</strong></p> 
+  <ul> 
+   <li>name: String. The name of the property.</li> 
+   <li>value: String. Property value.</li> 
+  </ul> 
+  <p><strong>Returns</strong></p> 
+  <p>No returned value.</p>       
+ </body> 
+</html>

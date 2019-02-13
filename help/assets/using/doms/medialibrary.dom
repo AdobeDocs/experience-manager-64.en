@@ -1,0 +1,83 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS" name="primaryProductTag" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="cmajumda@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS;topic_tags:administering;content_type:reference" name="cq:tags" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="checked_not_improved" name="acrolinxStatus" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/assets/using/medialibrary.html" name="publishExternalURL" />
+  <meta content="609" name="acrolinxWords" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="Chiradeep Majumdar" name="contentOwner" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="/content/docs/en/aem/6-3/administer/content/assets/medialibrary" name="qaNotes" />
+  <meta content="4edd45bf-c5c3-44b7-8281-20221ab741d5" name="jcr:predecessors" />
+  <meta content="Frequently asked questions around AEM Assets and. AEM Media Library, including differences between the two." name="seoDescription" />
+  <meta content="AEM Assets vs. AEM MediaLibrary" name="seoTitle" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2017-11-28T10:56:54.745-0500" name="lastPublishExternalDate" />
+  <meta content="2017-12-01T19:06:17.040-0500" name="jcr:created" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="/content/help/en/experience-manager/6-4/assets/morehelp/administering;/content/help/en/experience-manager/6-4/assets/morehelp/administering" name="moreHelpPaths" />
+  <meta content="2018-04-24T11:56:57.357-0400" name="cq:lastModified" />
+  <meta content="yellow" name="acrolinxPageStatus" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2017-10-31T16:34:24.593-0400" name="firstPublishExternalDate" />
+  <meta content="2017-11-28T10:56:54.745-0500" name="publishExternalDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="AEM Assets vs. AEM MediaLibrary" name="navTitle" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="41" name="acrolinxSentences" />
+  <meta content="2018-04-24T11:56:57.357-0400" name="locHandOffDate" />
+  <meta content="2019-01-12T17:33:09.360-0500" name="acrolinxDate" />
+  <meta content="2018-04-03T08:09:35.936-0400" name="cq:lastReplicated" />
+  <meta content="2017-11-28T10:56:54.745-0500" name="topicBrowsingSortDate" />
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/medialibrary_krs_workflow_f3c2f2ccebf6138e_161_report.xml" name="acrolinxReportURL" />
+  <meta content="asgupta" name="acrolinxLastCheckedBy" />
+  <meta content="57af7eed-fcf0-42d4-90d5-17edfa9ccab9" name="jcr:uuid" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="AEM Assets vs. AEM MediaLibrary" name="jcr:title" />
+ </head>
+ <body>
+  <p>Adobe Experience Manager (AEM) Assets is an integral part of the AEM platform. This smooth integration is seen as a major advantage of AEM and ensures consistency in content management and high productivity for content authors.<br /> </p> 
+  <h3>Frequently asked questions</h3>
+  <h4>What is AEM Assets?</h4>
+  <p>AEM Assets is an application on the AEM Platform that allows our customers to manage their digital assets (images, videos, documents and audio clips) in a web-based repository. AEM Assets includes Metadata-support, Renditions, the Digital Asset Management Finder and the AEM Assets Administration UI.</p> 
+  <h4>What is the AEM Media Library?</h4>
+  <p>The AEM Media Library is a designated part of the AEM WCM content repository where images and other shared resources are stored. The Media Library uses the Digital Asset Management capabilities of AEM WCM.</p> 
+  <h4>What do I get from AEM Assets that is not part of AEM WCM?</h4>
+  <p>Unique features that are only available to customers of AEM Assets are:<br /> </p> 
+  <ol> 
+   <li>the ability to extract and edit metadata other than title, tags and description.<br /> </li> 
+   <li>the AEM Assets Admin, available from the welcome screen by clicking the second button next to the siteadmin<br /> </li> 
+   <li>the Geometrixx Asset Share example DAM finder<br /> </li> 
+   <li>All components being used in the Geometrixx Asset Share - namely: Query Builder, Category Predicate, Date Predicate, Generic Predicate, Lens Deck, Mosaic Lens, List Lens, iFrame Lens and all Asset-related actions<br /> </li> 
+   <li>All workflow steps related to Digital Asset Management, namely AEM Assets Ingestion, AEM Assets Deletion, AEM Assets Sub-Asset-Handling, AEM Assets metadata extraction<br /> </li> 
+   <li>libraries including "dam" im package space<br /> </li> 
+  </ol> 
+  <p>Using these features requires a valid license of AEM Assets.</p> 
+  <h4>Is AEM Assets available as a separate Package?</h4>
+  <p>No. To ease installation and deployment, all AEM Applications and add-ons are delivered in one single package with all functionality included. This does not imply that you have permission to use all features in the package.</p> 
+  <h4>I want to edit metadata of digital assets. Do I need AEM Assets?</h4>
+  <p>If you are planning to edit metadata other than title, description and tags, it is required to license AEM Assets.<br /> </p> 
+  <h4>I want to use the category predicate on my website. Do I need AEM Assets?</h4>
+  <p>Yes, the category predicate, together with all other components used in Geometrixx Press Center are part of AEM Assets and require an AEM Assets license.</p> 
+  <h4>I want to automatically resize images upon import. Do I need AEM Assets?</h4>
+  <p>Yes. Image resizing and automatic workflow-driven transformation as well as the ability to manage renditions is part of AEM Assets and requires an AEM Assets license.<br /> </p> 
+  <h4>I want to resize images using a customized image component. Do I need AEM Assets?</h4>
+  <p>The image component is part of AEM WCM. The graphics library that is being used by the image component (but also by AEM Assets) is part of the AEM platform and does not require an AEM Assets license.<br /> </p> 
+  <h4>How can I prevent my users from using AEM Assets if I did not license AEM Assets?</h4>
+  <p>You can remove all AEM Assets-specific workflows, components, taxonomies, options and the AEM Assets admin from AEM. Doing so prevents your users from accidentially using AEM Assets features that you did not license.<br /> </p> 
+  <h4>I want to add images to a page and want to crop and resize these images. Do I need AEM Assets?</h4>
+  <p>For this use case it is not required to buy AEM Assets, even the use of the Media Library is not required to use images on a website as the smart image component allows uploading images directly into the page.</p> 
+ </body>
+</html>

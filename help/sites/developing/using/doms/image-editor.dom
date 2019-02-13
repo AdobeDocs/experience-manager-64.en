@@ -1,0 +1,67 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="Image Editor" name="jcr:title" /> 
+  <meta content="020396d3-b346-4ac1-9753-8bf302fcd6b0" name="jcr:uuid" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="bohnert" name="contentOwner" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="The Image Editor is a core piece of AEM and can be leveraged by components to facilitate the manipulation of images by content authors." name="seoDescription" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/morehelp/components;/content/help/en/experience-manager/6-4/sites/developing/morehelp/components" name="moreHelpPaths" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;content_type:reference;topic_tags:components" name="cq:tags" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="en" name="pageCreatedAt" /> 
+  <meta content="2018-07-11T03:07:00.388-0400" name="cq:lastModified" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="bohnert" name="cq:lastReplicatedBy" /> 
+  <meta content="2018-07-11T03:07:04.307-0400" name="cq:lastReplicated" /> 
+  <meta content="audience:developing" name="primaryAudienceTag" /> 
+  <meta content="bohnert" name="cq:lastModifiedBy" /> 
+  <meta content="2018-07-03T07:29:29.705-0400" name="jcr:created" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="c5b20f42-6985-4b6d-ba9d-51855ddcfa81" name="jcr:predecessors" /> 
+ </head> 
+ <body> 
+  <p>The Image Editor is a core piece of AEM and can be leveraged by components to facilitate the manipulation of images by content authors.</p> 
+  <note> 
+   <p>To use the features of the Image Editor described in this article, <a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/featurepack/cq-6.4.0-featurepack-24267">feature pack 24267</a> must be installed.<br /> </p> 
+  </note> 
+  <h2>Relative Units for Image Map</h2> 
+  <p>The Image Editor persists image map areas as both absolute and relative units. Relative units are useful when provided as data attributes for dynamically resizing an image map (relative to the image size) on the client-side in a responsive image component.</p> 
+  <h3>imageMap Property</h3> 
+  <p>The image map coordinates are persisted to the JCR as an <span class="code">imageMap</span> property by the Image Editor. It has the following format.</p> 
+  <p>The property stores map areas as follows:</p> 
+  <p><span class="code">[area1][area2][...]</span></p> 
+  <p>Area format:</p> 
+  <p><span class="code">[SHAPE(COORDINATES)"HREF"|"TARGET"|"ALT"|(RELATIVE_COORDINATES)]</span></p> 
+  <p>Example:</p> 
+  <p><span class="code">[rect(0,0,10,10)"http://www.adobe.com"|"_self"|"alt"|(0,0,0.8,0.8)][circle(10,10,10)"http://www.adobe.com"|"_self"|"alt"|(0.8,0.8,0.8)]</span></p> 
+  <h2>Support for SVG Images</h2> 
+  <p>Scalable Vector Graphics (SVG) are supported by the Image Editor.</p> 
+  <ul> 
+   <li>Drag-and-drop of an SVG asset from DAM and upload of an SVG file upload from a local file system are both supported.<br /> </li> 
+  </ul> 
+  <h2>Enabling Plugins by MIME Type</h2> 
+  <p>In certain situations authoring actions must be restricted for certain MIME-types, due to lack of support in server-side processing. For example, editing SVG images may not be allowed.</p> 
+  <p>Plugins in the Image Editor can be selectively enabled by MIME type by setting a <span class="code">supportedMimeTypes</span> property on the individual plugin's configuration node.<br /> </p>  
+  <h3>Example</h3> 
+  <p>As an example, let's say that the ability to crop should only be allowed for GIF, JPEG, PNG, WEBP and TIFF images.</p> 
+  <p>The <span class="code">supportedMimeTypes</span> property must then be set as a string of the allowed MIME types on the configuration node of the plugin on the <span class="code">cq:editConfig</span> node of the image component.</p> 
+  <p><span class="code">/apps/core/wcm/components/image/v2/image/cq:editConfig</span></p> 
+  <codeblock gutter="true" class="syntax xml">
+    &amp;nbsp;jcr:primaryType="cq:EditConfig"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;cq:dropTargets&amp;nbsp;jcr:primaryType="nt:unstructured"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;image&amp;nbsp;...&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;...!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/image&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/cq:dropTargets&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;cq:inplaceEditing!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;jcr:primaryType="cq:InplaceEditingConfig"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;active="{Boolean}true"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;editorType="image"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;config&amp;nbsp;jcr:primaryType="nt:unstructured"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;plugins&amp;nbsp;jcr:primaryType="nt:unstructured"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;crop!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;jcr:primaryType="nt:unstructured"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;supportedMimeTypes="[image/gif,image/jpeg,image/png,image/webp,image/tiff]"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;features="*"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;aspectRatios&amp;nbsp;jcr:primaryType="nt:unstructured"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;...!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/aspectRatios&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/crop&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;...!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/plugins&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;ui&amp;nbsp;jcr:primaryType="nt:unstructured"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;...!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/ui&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/config&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/cq:inplaceEditing&gt;!!discoiqbr!!&amp;nbsp;&lt;/jcr:root&gt; 
+  </codeblock> 
+ </body> 
+</html>

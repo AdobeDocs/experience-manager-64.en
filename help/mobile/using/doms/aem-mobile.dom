@@ -1,0 +1,77 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2018-05-11T10:01:14.503-0400" name="cq:lastModified" />
+  <meta content="d8935a4d-6541-4bb8-836d-f518cef6658e" name="jcr:predecessors" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/mobile/using/aem-mobile.html" name="publishExternalURL" />
+  <meta content="2017-12-13T19:01:02.490-0500" name="jcr:created" />
+  <meta content="2018-05-04T05:12:30.110-0400" name="lastPublishExternalDate" />
+  <meta content="AEM Mobile On-Demand" name="seoTitle" />
+  <meta content="msm-service" name="contentOwner" />
+  <meta content="2017-10-31T16:26:39.864-0400" name="firstPublishExternalDate" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="Follow this page to get started with administering AEM mobile On-Demand services app. It provides an overview of the roles and responsibilities of an AEM administrator for On-Demand services." name="seoDescription" />
+  <meta content="d1577b0b-1ddd-49dd-8428-485d1896a291" name="jcr:uuid" />
+  <meta content="2018-05-11T10:01:14.503-0400" name="locHandOffDate" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/MOBILE;content_type:reference;topic_tags:administering-on-demand-services-app" name="cq:tags" />
+  <meta content="bohnert" name="cq:lastModifiedBy" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="AEM Mobile On-Demand" name="jcr:title" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="bohnert" name="cq:lastReplicatedBy" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2018-05-04T05:12:30.110-0400" name="topicBrowsingSortDate" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="/content/help/en/experience-manager/6-4/mobile/morehelp/administering-on-demand-services-app;/content/help/en/experience-manager/6-4/mobile/morehelp/administering-on-demand-services-app" name="moreHelpPaths" />
+  <meta content="bohnert@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="/content/docs/en/aem/6-3/administer/mobile-apps/aem-mobile" name="qaNotes" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-05-04T05:12:30.244-0400" name="cq:lastReplicated" />
+  <meta content="2018-05-04T05:12:30.110-0400" name="publishExternalDate" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/MOBILE" name="primaryProductTag" />
+  <meta content="true" name="jcr:isCheckedOut" />
+ </head>
+ <body>
+  <note>
+   <p>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). <a href="../../sites/developing/using/spa-overview.md">Learn more</a>.</p>
+  </note>
+  <note>
+   <p>If you are not using AEM as your content managment source, see <a href="https://helpx.adobe.com/digital-publishing-solution/topics.html">AEM Mobile On-Demand Services Help</a>.</p> 
+  </note>
+  <h3>AEM Administrator</h3>
+  <note>
+   <p><strong>Prerequisite:</strong></p> 
+   <p>Before you get started with setting up your environment for AEM Mobile On-Demand Services, see <a href="../../mobile/using/mobile-apps-ondemand-application-dashboard.md">AEM Mobile Application Dashboard or the Control Center</a>.</p> 
+  </note>
+  <p>An <i><strong>AEM administrator</strong></i> is responsible for adding a new application to the AEM Mobile catalog, either by creating a new app using the creation wizard, or by importing an existing application. AEM administrators who create a new app using AEM Mobile's <i>creation wizard</i> typically select one of the desired app templates either from our out-of-the-box reference samples or (in most cases) a custom app template created by <i>AEM developers.</i></p> 
+  <note>
+   <p>For more information on setting up AEM Groups and Permissions, click <a href="https://helpx.adobe.com/digital-publishing-solution/help/account-admin-dps.html">Creating User Roles and Granting Access</a> in Online Help.</p> 
+  </note>
+  <p>An AEM administrator is responsible for the following tasks while creating an app using AEM Mobile On-Demand Services:</p> 
+  <ul> 
+   <li><a href="../../mobile/using/aem-mobile-setup.md">Setting up AEM Mobile</a>, that covers
+    <ul> 
+     <li>AEM Mobile Provisioning</li> 
+     <li>Creating Projects for AEM Mobile</li> 
+     <li>Configuring an AEM Mobile Connector</li> 
+     <li>Adding AEM Mobile User Roles and Assigning Permissions</li> 
+    </ul> </li> 
+   <li><a href="../../mobile/using/aem-mobile-configure-users.md">Configuring your User and User Groups</a></li> 
+   <li><a href="../../mobile/using/aem-mobile-manage-ondemand-services.md">Previewing with Preflight</a></li> 
+   <li><a href="/mobile/using/content-services">Administering Content Services</a></li> 
+  </ul> 
+  <h3>Additional Resources</h3>
+  <p>To understand more on the other two roles and responsibilities for creating an AEM Mobile On-Demand Services App, see the following resources:</p> 
+  <ul> 
+   <li><a href="../../mobile/using/aem-mobile-on-demand.md">Developing AEM Content for AEM Mobile On-Demand Services</a></li> 
+   <li><a href="../../mobile/using/mobile-apps-ondemand.md">Authoring AEM Content for AEM Mobile On-Demand Services App</a></li> 
+  </ul> 
+ </body>
+</html>

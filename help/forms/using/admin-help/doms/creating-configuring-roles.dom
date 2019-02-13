@@ -1,0 +1,263 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="82" name="acrolinxSentences" /> 
+  <meta content="AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7f6c.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7f54.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-7cb05b4612905cded5a-7ff6.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7f4d.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7f4c.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7f4b.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7f4a.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7f49.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7f48.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-7cb05b4612905cded5a-7feb.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7f47.2" name="cq:gepId" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="2016-05-31T06:58:55.234-0400" name="acrolinxDate" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2018-04-26T04:23:59.811-0400" name="cq:lastModified" /> 
+  <meta content="2016-04-20T10:05:01.072-0400" name="firstPublishExternalDate" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2018-04-03T09:09:59.238-0400" name="cq:lastReplicated" /> 
+  <meta content="yellow" name="acrolinxPageStatus" /> 
+  <meta content="2016-02-05T03:27:21.591-0500" name="lr_lastModified" /> 
+  <meta content="2461" name="acrolinxWords" /> 
+  <meta content="admin" name="lr_creator" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="Learn how to associate users and groups with roles that are already part of the User Management database. You can also create, edit, and delete roles." name="seoDescription" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="Creating and configuring roles" name="jcr:title" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="sortDate" /> 
+  <meta content="2017-10-31T16:32:18.417-0400" name="lastPublishExternalDate" /> 
+  <meta content="2018-04-26T04:23:59.811-0400" name="locHandOffDate" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="topicBrowsingSortDate" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="admin" name="lr_lastModifiedBy" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/forms/using/admin-help/creating-configuring-roles.html" name="publishExternalURL" /> 
+  <meta content="2e42d291-93e9-44a3-9c1b-7a28077fd987" name="jcr:uuid" /> 
+  <meta content="2017-12-01T19:07:36.462-0500" name="jcr:created" /> 
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/setting_up_and_organizing_users;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/creating_configuring_roles_admin_5e12de0b318c6865_2309_report.xml" name="acrolinxReportURL" /> 
+  <meta content="2017-10-31T16:32:18.417-0400" name="publishExternalDate" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="admin" name="contentOwner" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="Creating and configuring roles" name="navTitle" /> 
+  <meta content="e9123746-618b-48ec-aff6-27812ce2d0c6" name="jcr:predecessors" /> 
+ </head> 
+ <body> 
+  <p>Using the User Management web pages, you can associate users and groups with roles that are already part of the User Management database. You can also create, edit, and delete roles.</p> 
+  <p>User Management has two types of roles:</p> 
+  <p><strong>Mutable roles:</strong> This type of role can be edited and deleted, and role permissions can be added and deleted from these role types. Any role that you create is considered a mutable role. You can add or remove users and groups assigned to mutable roles.</p> 
+  <p><strong>Immutable roles:</strong> The default roles that are included with User Management are immutable roles. These roles cannot be edited or deleted. You can, however, add or remove users and groups assigned to immutable roles.</p> 
+  <p>Both mutable and immutable roles can also be created through the AEM forms APIs.</p> 
+  <h2 id="default_roles">Default roles</h2> 
+  <p></p> 
+  <p>The following default roles are included in the User Management database.</p> 
+  <p><strong>administration console User:</strong> Can access administration console.</p> 
+  <p><strong>Application Administrator:</strong> Can use all Workbench features. Can use the Applications and Services pages in administration console to configure service run-time properties, endpoints, and security.</p> 
+  <p><strong>AEM forms Administrator:</strong> Can perform all tasks for all installed services.</p> 
+  <p><strong>Security Administrator:</strong> Controls User Management settings, and manages users and groups that are associated with any User Manager domain</p> 
+  <p><strong>Services User:</strong> Can view and invoke any service</p> 
+  <p><strong>Super Administrator:</strong> Has access to all administrative functionality in the system, including services</p> 
+  <p><strong>Trust Administrator:</strong> Can manage the PKI trust settings and PKI credentials that are managed from the Trust Store Management page in administration console</p> 
+  <h3 id="additional_default_roles">Additional default roles</h3> 
+  <p></p> 
+  <p>The following additional default roles may be included, depending on the AEM forms components you installed </p> 
+  <p><strong>Document Upload Application User:</strong> Can upload documents using Flex Remoting.</p> 
+  <p><strong>Forms Administrator:</strong> Can view and modify settings from the Forms page in Administration Console</p> 
+  <p><strong>AEM forms Contentspace Administrator:</strong> Can view and modify settings from the Content Services (Deprecated) page in administration console</p> 
+  <p><strong>AEM forms Contentspace User:</strong> Can log in to the Contentspace (Deprecated) web pages</p> 
+  <p><strong>Documentum Connector Administrator:</strong> Can view and modify settings from the Connector for EMC Documentum page in administration console</p> 
+  <p><strong>AEM forms FileNet Connector Administrator:</strong> Can view and modify settings from the Connector for IBM FileNet page in administration console</p> 
+  <p><strong>AEM forms IBM CM Connector Administrator:</strong> Can view and modify settings from the Connector for IBM Content Manager page in administration console</p> 
+  <p><strong>Rights Management Administrator:</strong> Performs all tasks that are required for all server configurations on the relevant Rights Management pages</p> 
+  <p><strong>Rights Management End User:</strong> Can access Rights Management end-user web pages</p> 
+  <p><strong>Rights Management Invite User:</strong> Can invite users</p> 
+  <p><strong>Rights Management Manage Invited and Local Users:</strong> Can perform tasks that are required to manage all invited and local users on the relevant Rights Management pages</p> 
+  <p><strong>Rights Management Policy Set Administrator:</strong> Performs all tasks that are required for all policy sets on the relevant Rights Management pages</p> 
+  <p><strong>Rights Management Super Administrator:</strong> Performs all tasks that are required from the Rights Management page</p> 
+  <p><strong>AEM forms Workspace Administrator:</strong> Can view and modify settings from the Workspace page in Administration Console</p> 
+  <p><i><strong>note</strong>: The Flex Worksapce is deprecated for AEM forms release.</i></p> 
+  <p><strong>Workspace User:</strong> Can log in to the Workspace end-user application</p> 
+  <p><strong>Output Administrator:</strong> Can view and modify settings from the Output page in Administration Console</p> 
+  <p><strong>PDFG Administrator:</strong> Can view and modify settings from the PDF Generator page in administration console</p> 
+  <p><strong>PDFG User:</strong> Can access all non-administrative functionality for PDF Generator</p> 
+  <p><strong>Acrobat Reader DC extensions Web Application:</strong> Can use the Acrobat Reader DC extensions web application</p> 
+  <note> 
+   <p>Users with certain types of administrator privileges cannot access the Workspace end-user web pages for security reasons. Because these pages can exist outside a firewall, permitting administration-level tasks could pose a security risk. Only users who have the AEM forms Workspace Administrator or AEM forms Workspace User privileges can access the Workspace end-user web pages.</p> 
+  </note> 
+  <note> 
+   <p>The Flex Worksapce is deprecated for AEM forms release.</p> 
+  </note> 
+  <h2 id="create_a_role">Create a role</h2> 
+  <p></p> 
+  <ol> 
+   <li><p>In administration console, click Settings &amp;gt; User Management &amp;gt; Role Management, and then click New Role.</p></li> 
+   <li><p>In the Role Name box, type a name for the role and, optionally, type a description of the role, and then click Next.</p> 
+    <note> 
+     <p>When using MySQL, you cannot create two roles that have the same name but differ in the use of extended characters. For example, attempting to create a role named abcde when one named âbcdè already exists results in an error. </p> 
+    </note></li> 
+   <li><p>Click Find Permissions, select the permissions to add to the role. </p></li> 
+   <li><p>Click OK and then click Next.</p></li> 
+   <li><p>Assign this role to users and groups:</p> 
+    <ul> 
+     <li><p>Click Find Users/Groups.</p></li> 
+     <li><p>In the Find box, type your search criteria.</p></li> 
+     <li><p>Select Name, Email, or User ID, and then select Users, Groups, or Users and Groups.</p></li> 
+     <li><p>Select the domain, select the number of results to display, and click Find.</p></li> 
+     <li><p>Select the check boxes for the users and groups to assign this role to and click OK.</p></li> 
+    </ul></li> 
+   <li><p>To view user and group details, select the entity.</p></li> 
+   <li><p>Click OK and then click Finish.</p></li> 
+  </ol> 
+  <h2 id="edit_a_role">Edit a role</h2> 
+  <p></p> 
+  <ol> 
+   <li><p>In administration console, click Settings &amp;gt; User Management &amp;gt; Role Management, and then click Role Name. </p><p>By default, the Role Management page displays all the roles in the User Management database. If the list of roles is large, use the Find area at the top of the page to search for a specific role name.</p></li> 
+   <li><p>Click the role to edit, edit the general settings, and click Save.</p></li> 
+   <li><p>To edit role permissions, click the Permissions tab and do these tasks:</p> 
+    <ul> 
+     <li><p>To add new permissions, click Find Permissions, select the check boxes for the permissions to add, click OK, and then click Save.</p></li> 
+     <li><p>To delete a permission from the role, select the check box for the permission, click Delete, and then click Save.</p></li> 
+    </ul></li> 
+   <li><p>To manage who the role is assigned to, click the Role Users tab and do these tasks:</p> 
+    <ul> 
+     <li><p>To assign the role to new users and groups, click Find Users/Groups, and complete the search information. Select the check box for each user and group to assign this role to, click OK, and then click Save.</p></li> 
+     <li><p>To remove the role, select the check box for the users or group, click Unassign, and then click Save.</p></li> 
+    </ul></li> 
+  </ol> 
+  <h2 id="delete_a_role">Delete a role</h2> 
+  <p></p> 
+  <p>You can delete any of the roles that you created, but not the default AEM forms roles that are included in the product. </p> 
+  <ol> 
+   <li><p>In administration console, click Settings &amp;gt; User Management &amp;gt; Role Management, and then click Role Name. </p><p>By default, the Role Management page displays all the roles in the User Management database. If the list of roles is large, use the Find area at the top of the page to search for a specific role name.</p></li> 
+   <li><p>Select the check box for the role to delete, click Delete, and then click OK.</p></li> 
+  </ol> 
+  <h2 id="assign_a_role_to_users_and_groups">Assign a role to users and groups</h2> 
+  <p></p> 
+  <ol> 
+   <li><p>In administration console, click Settings &amp;gt; User Management &amp;gt; Users and Groups.</p></li> 
+   <li><p>Specify information to narrow the search and click Find. The results of the search are listed at the bottom of the page. You can sort the list by clicking any of the column headings.</p></li> 
+   <li><p>Select the check boxes beside the users and groups to associate with a role and click Assign Role.</p></li> 
+   <li><p>Select the role to assign to the user or group and click OK.</p></li> 
+  </ol> 
+  <p>You can also assign roles by using the Role Management page.</p> 
+  <h2 id="determine_who_is_assigned_to_a_role">Determine who is assigned to a role</h2> 
+  <p></p> 
+  <ol> 
+   <li><p>In administration console, click Settings &amp;gt; User Management &amp;gt; Role Management, and then click Role Name. </p><p>By default, the Role Management page displays all the roles in the User Management database. If the list of roles is large, use the Find area at the top of the page to search for a specific role name.</p></li> 
+   <li><p>On the Role Detail page, click the Role Users tab. A list of users and groups that are directly associated with the role are displayed.</p></li> 
+  </ol> 
+  <h2 id="change_role_permissions">Change role permissions</h2> 
+  <p></p> 
+  <p>You can change the permissions for any of the roles that you created. You cannot change the permissions for the default AEM forms roles that are included in the product. </p> 
+  <ol> 
+   <li><p>In administration console, click Settings &amp;gt; User Management &amp;gt; Role Management, and then click Role Name. </p><p>By default, the Role Management page displays all the roles in the User Management database. If the list of roles is large, use the Find area at the top of the page to search for a specific role name.</p></li> 
+   <li><p>Select the role to view permissions for and click the Permissions tab. </p></li> 
+   <li><p>To change these permissions, click Find Permissions, select the check boxes for the permissions to add to the role, click OK, and then click Save.</p></li> 
+   <li><p>To delete a permission, select the permission, click Delete, and then click Save.</p></li> 
+  </ol> 
+  <h3 id="aem_forms_permissions">AEM forms permissions</h3> 
+  <p></p> 
+  <p><strong>ADD_REMOVE_ENDPOINT_PERM:</strong> Add, remove, and modify endpoints for a service</p> 
+  <p><strong>Admin Console Login:</strong> View the administration console</p> 
+  <p><strong>Certificate Modify:</strong> Modify the trust settings of any certificate in the Trust Store</p> 
+  <p><strong>Certificate Read:</strong> Read any certificate in the Trust Store</p> 
+  <p><strong>Certificate Write:</strong> Add a certificate to the Trust Store</p> 
+  <p><strong>Component Add:</strong> Install a new component in the system</p> 
+  <p><strong>Component Delete:</strong> Delete any component in the system</p> 
+  <p><strong>Component Read:</strong> Read any component in the system</p> 
+  <p><strong>Contentspace Administrator:</strong> Permission for Contentspace (Deprecated) Administrator</p> 
+  <p><strong>Contentspace Console Login:</strong> Permission for Contentspace (Deprecated) Console Login</p> 
+  <p><strong>Core Settings Control:</strong> Manage the settings on the Core System Settings page in Administration Console</p> 
+  <p><strong>CREATE_VERSION_PERM:</strong> Create a new version of a service</p> 
+  <p><strong>Credential Modify:</strong> Modify any signing credential in the Trust Store</p> 
+  <p><strong>Credential Read:</strong> Read any signing credential in the Trust Store</p> 
+  <p><strong>Credential Write:</strong> Add a signing credential to the Trust Store</p> 
+  <p><strong>CRL Modify:</strong> Modify any CRL (Certificate Revocation List) in the Trust Store</p> 
+  <p><strong>CRL Read:</strong> Read any CRL in the Trust Store</p> 
+  <p><strong>CRL Write:</strong> Add a CRL to the Trust Store</p> 
+  <p><strong>Delegate:</strong> Set an ACL on a resource</p> 
+  <p><strong>DELETE_VERSION_PERM:</strong> Delete a version of a service</p> 
+  <p><strong>Document Upload:</strong> Upload documents in AEM forms</p> 
+  <p><strong>Domain Control:</strong> Create, delete, or modify settings for any User Management domain, including its authentication and directory providers</p> 
+  <p><strong>Event Type Edit:</strong> Edit to event types</p> 
+  <p><strong>Identity Impersonation Control:</strong> Impersonate identity in User Manager</p> 
+  <p><strong>INVOKE_PERM:</strong> Invoke all operations on a service</p> 
+  <p><strong>LCDS Data Model Control:</strong> Read and deploy data models in Data Services</p> 
+  <p><strong>License Manager Update:</strong> Update license information</p> 
+  <p><strong>MODIFY_CONFIG_PERM:</strong> Modify the configuration of a service</p> 
+  <p><strong>TERM</strong> Modify the version of a service</p> 
+  <p><strong>PDFGAdminPermission:</strong> PDFG administrator</p> 
+  <p><strong>PDFGUserPermission:</strong> PDFG user</p> 
+  <p><strong>PERM_DCTM_ADMIN:</strong> Documentum Connector administrator</p> 
+  <p><strong>PERM_FILENET_ADMIN:</strong> FileNet Connector administrator</p> 
+  <p><strong>PERM_FORMS_ADMIN:</strong> Forms administrator</p> 
+  <p><strong>PERM_IBMCM_ADMIN:</strong> IBM CM Connector administrator</p> 
+  <p><strong>PERM_OUTPUT_ADMIN:</strong> Output administrator</p> 
+  <p><strong>PERM_READER_EXTENSIONS_WEB_APPLICATION:</strong> Use the Acrobat Reader DC extensions web application</p> 
+  <p><strong>PERM_SP_ADMIN:</strong> Manage SharePoint Connector settings</p> 
+  <p><strong>PERM_WORKSPACE_ADMIN:</strong> Manage Workspace settings</p> 
+  <p><strong>PERM_WORKSPACE_USER:</strong> Log in to the Workspace end-user application</p> 
+  <p><strong>Principal Control:</strong> Manage users and groups for any domain, and manage role assignments for all users and groups in any domain</p> 
+  <p><strong>Process Recording Read/Delete:</strong> List and retrieve workflow audit instances</p> 
+  <p><strong>PROCESS_OWNER_PERM:</strong> View trend data and perform administrative actions on a service created from a process</p> 
+  <p><strong>Read:</strong> Read the content of a resource</p> 
+  <p><strong>READ_PERM:</strong> Read or view a service</p> 
+  <p><strong>Renew assertion:</strong> Renew assertions in User Management</p> 
+  <p><strong>Repository Delegate:</strong> Set an ACL on a resource</p> 
+  <p><strong>Repository Read:</strong> Read the content of a resource</p> 
+  <p><strong>Repository Traverse:</strong> Include a resource in a list resources request or read the metadata of a resource</p> 
+  <p><strong>Repository Write:</strong> Write repository metadata and content</p> 
+  <p><strong>Rights Management Change Policy Owner:</strong> Change policy owner</p> 
+  <p><strong>Rights Management End User Console Login:</strong> Log in to the Rights Management End User UI</p> 
+  <p><strong>Rights Management Manage Configuration:</strong> Manage server configuration</p> 
+  <p><strong>Rights Management Manage Invited and Local Users:</strong> Manage invited and local users</p> 
+  <p><strong>Rights Management Manage Policy Sets:</strong> Manage all policies and documents within any policy set</p> 
+  <p><strong>Rights Management Policy Set Add Coordinator:</strong> Add, remove, and change permissions for policy set coordinators</p> 
+  <p><strong>Rights Management Policy Set Create Policy:</strong> Create a a new policy for a policy set</p> 
+  <p><strong>Rights Management Policy Set Delete Policy:</strong> Remove a policy from a policy set</p> 
+  <p><strong>Rights Management Policy Set Edit Policy:</strong> Edit a policy in a policy set</p> 
+  <p><strong>Rights Management Policy Set Manage Document Publisher:</strong> When you create policy sets, you assign users the role of document publisher. The document publisher is the user who protects the document with a policy.</p> 
+  <p><strong>Rights Management Policy Set Remove Coordinator:</strong> Remove a policy set coordinator from a policy set</p> 
+  <p><strong>Rights Management Policy Set Revoke Document:</strong> Revoke access to documents in a policy set</p> 
+  <p><strong>Rights Management Policy Set Switch Policy:</strong> Switch policies for a document</p> 
+  <p><strong>Rights Management Policy Set Unrevoke Document:</strong> Unrevoke a document</p> 
+  <p><strong>Rights Management Policy Set View Event:</strong> View policy and document events for any policy or document within a policy set</p> 
+  <p><strong>Rights Management View Server Events:</strong> Search and view all audit events</p> 
+  <p><strong>Role Control:</strong> Create, delete, and modify roles in User Management</p> 
+  <p><strong>Service Activate:</strong> Start any service, making it available for invocation</p> 
+  <p><strong>Service Add:</strong> Deploy a new service to the service registry. This includes adding new processes and process variants</p> 
+  <p><strong>Service Deactivate:</strong> Stop any service in the system</p> 
+  <p><strong>Service Delete:</strong> Delete any service in the system, including processes and process variants</p> 
+  <p><strong>Service Invoke:</strong> Invoke any service in the service registry available at runtime</p> 
+  <p><strong>Service Modify:</strong> Modify the configuration properties of any service in the system. This includes locking and unlocking a service in the IDE, and adding or removing endpoints from a service</p> 
+  <p><strong>Service Read:</strong> Read any services in the system. This includes all processes and process variants</p> 
+  <p><strong>SERVICE_AGENT_PERM:</strong> View data and interact with process instances for a service created from a process</p> 
+  <p><strong>SERVICE_MANAGER_PERM:</strong> Perform load balancing and other administrative actions on a service created from a process</p> 
+  <p><strong>START_STOP_PERM:</strong> Start or stop a service</p> 
+  <p><strong>SUPERVISOR_PERM:</strong> View process instance data for a service created from a process</p> 
+  <p><strong>Traverse:</strong> Include a resource in a list resources request or read the metadata of a resource</p> 
+  <p><strong>Write:</strong> Write repository metadata and content</p> 
+  <p><strong>Opening files in Workbench </strong></p> 
+  <p>To view the contents of the Resources view in Workbench and open files for viewing, a user requires the following permissions:</p> 
+  <ul> 
+   <li><p>Repository Read</p></li> 
+   <li><p>Repository Traverse</p></li> 
+   <li><p>Service Invoke</p></li> 
+   <li><p>Service Read</p></li> 
+  </ul> 
+  <h2 id="remove_a_user_or_group_from_a_role">Remove a user or group from a role</h2> 
+  <p></p> 
+  <p>Use the Role Management page to remove users and groups from a particular role. If the user or group inherited the role assignment, you cannot remove the role at the user or group level. Either remove the user or group from the inheritance tree or remove the role from the parent.</p> 
+  <ol> 
+   <li><p>In administration console, click Settings &amp;gt; User Management &amp;gt; Role Management, and then click Role Name. </p><p>By default, the Role Management page displays all the roles in the User Management database. If the list of roles is large, use the Find area at the top of the page to search for a specific role name.</p></li> 
+   <li><p>In the list of roles, click the name of the role to update and then click the Role Users tab. A list of users and groups associated with the role are displayed.</p></li> 
+   <li><p>Select the check boxes for the users and groups to remove from the role and click Unassign.</p></li> 
+   <li><p>Click Save and then click OK.</p></li> 
+  </ol> 
+ </body> 
+</html>

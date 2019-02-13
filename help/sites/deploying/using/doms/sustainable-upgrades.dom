@@ -1,0 +1,94 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="2018-03-30T04:56:09.414-0400" name="unpublishInternalDate" /> 
+  <meta content="b4d6de1a-f214-4bbd-b18e-8fbbc361e94b" name="jcr:uuid" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/deploying/morehelp/upgrading;/content/help/en/experience-manager/6-4/sites/deploying/morehelp/upgrading" name="moreHelpPaths" /> 
+  <meta content="2018-04-03T10:34:18.826-0400" name="lastPublishExternalDate" /> 
+  <meta content="en" name="pageCreatedAt" /> 
+  <meta content="sarchiz" name="contentOwner" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="" name="publishInternalURL" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2018-03-23T07:28:51.325-0400" name="jcr:created" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="Sustainable Upgrades" name="jcr:title" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2018-04-30T03:29:11.258-0400" name="locHandOffDate" /> 
+  <meta content="2018-04-30T03:29:11.259-0400" name="cq:lastModified" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="Learn about sustainable upgrades in AEM 6.4." name="seoDescription" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2018-04-03T10:34:18.826-0400" name="firstPublishExternalDate" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2018-04-03T10:34:18.826-0400" name="publishExternalDate" /> 
+  <meta content="2018-04-03T10:34:18.826-0400" name="topicBrowsingSortDate" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/sustainable-upgrades.html" name="publishExternalURL" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="audience:deploying" name="primaryAudienceTag" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="adb5f96e-9d8d-460f-8fe2-cd9bacbb3caf" name="jcr:predecessors" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;content_type:reference;topic_tags:upgrading" name="cq:tags" /> 
+  <meta content="2018-04-03T10:34:19.185-0400" name="cq:lastReplicated" /> 
+ </head> 
+ <body> 
+  <h2>Customization Framework</h2> 
+  <h3>Architecture (Functional / Infrastructure / Content / Application) </h3> 
+  <p>The Customization Framework feature is designed to help reduce the violations in non-extensible areas of the code (like APIS) or content (like overlays) that are not upgrade friendly.</p> 
+  <p>There are two components of the customization framework: the <strong>API Surface</strong> and the <strong>Content Classification</strong>.</p> 
+  <h4>API Surface</h4> 
+  <p>In previous releases of AEM many APIs were exposed via the Uber Jar. Some of these APIs were not intended to be used by customers, but were exposed to support AEM functionality across bundles. Going forward, the Java APIs will be marked as Public or Private to indicate to customers which APIs are safe to use in the context of upgrades. Other specifics include:</p> 
+  <ul> 
+   <li>Java APIs marked as <span class="code">Public</span> can be used and referenced by custom implementation bundles.<br /> </li> 
+   <li>The Public APIs will be backwards compatible with the installation of a compatibility package.<br /> </li> 
+   <li>The compatibility package will contain a compatibility Uber JAR to ensure backwards compatability<br /> </li> 
+   <li>Java APIs marked as <span class="code">Private</span> are intended to only be used by AEM internal bundles and should not be used by custom bundles.</li> 
+  </ul> 
+  <note> 
+   <p>The concept of <span class="code">Private</span> and <span class="code">Public</span> in this context should not be confused with Java notions of public and private classes.</p> 
+  </note> 
+  <img imageRotate="0" src="assets/image2018-2-12_23-52-48.png" /> 
+  <h4>Content Classifications</h4> 
+  <p>AEM has long used the principal of overlays and Sling Resource Merger to allow customers to extend and customize AEM functionality. Predefined functionality that powers the AEM consoles and UI are stored in <strong>/libs</strong>. Customers are never to modify anything beneath <strong>/libs</strong> but could add additional content beneath <strong>/apps</strong> to overlay and extend the functionality defined in <strong>/libs</strong> (See Developing with Overlays for more information). This still caused numerous issues when upgrading AEM as the content in <strong>/libs</strong> might change causing the overlay funcationlity to break in unexpected ways. Customers could also extend AEM components through inheritance via <span class="code">sling:resourceSuperType</span>, or simply reference a component in <strong>/libs</strong> directly via sling:resourceType. Similar upgrade issues could occur with reference and override use cases.</p> 
+  <p>In order to make it safer and easier for customers to understand what areas of <strong>/libs</strong> are safe to use and overlay the content in <strong>/libs</strong> has been classified with the following mixins:</p> 
+  <ul> 
+   <li><strong>Public (granite:PublicArea)</strong> - Defines a node as public so that it can overlaid, inherited (<span class="code">sling:resourceSuperType</span>) or used directly (<span class="code">sling:resourceType</span>). Nodes beneath /libs marked as Public will be safe to upgrade with the addition of a Compatibility Package. In general customers should only leverage nodes marked as Public.<br /> </li> 
+   <li><strong>Abstract (granite:AbstractArea)</strong> - Defines a node as abstract. Nodes can be overlaid or inherited (<span class="code">sling:resourceSupertype</span>) but must not be used directly (<span class="code">sling:resourceType</span>).<br /> </li> 
+   <li><strong>Final (granite:FinalArea)</strong> - Defines a node as final. Nodes classified as final cannot be overlaid or inherited. Final nodes can be used directly via <span class="code">sling:resourceType</span>. Subnodes under final node are considered internal by default<br /> </li> 
+   <li><strong>Internal (granite:InternalArea)</strong> - Defines a node as internal. Nodes classified as internal cannot be overlaid, inherited, or used directly. These nodes are meant only for internal functionality of AEM<br /> </li> 
+   <li><strong>No Annotation</strong> - Nodes inherit classification based on the tree hierachy. The / root is by default Public. <strong>Nodes with a parent classified as Internal or Final are also to be treated as Internal.</strong></li> 
+  </ul> 
+  <note> 
+   <p>These policies are only enforced against Sling search path based mechanisms. Other areas of <strong>/libs</strong> like a client-side library may be marked as <span class="code">Internal</span>, but could still be used with standard clientlib inclusion. It is important that a customer continues to respect the Internal classification in these cases.</p> 
+  </note> 
+  <h4>CRXDE Lite Content Type Indicators</h4> 
+  <p>Mixins applied in CRXDE Lite will show content nodes and trees that are marked as <span class="code">INTERNAL</span> as being greyed out. For <span class="code">FINAL</span> only the icon is greyed out. The children of these nodes will also appear grey. The Overlay Node functionality is disabled in both these cases.</p> 
+  <p><strong>Public</strong></p> 
+  <img imageRotate="0" src="assets/image2018-2-8_23-34-5.png" /> 
+  <p><strong>Final</strong></p> 
+  <img imageRotate="0" src="assets/image2018-2-8_23-34-56.png" /> 
+  <p><strong>Internal</strong></p> 
+  <img imageRotate="0" src="assets/image2018-2-8_23-38-23.png" /> 
+  <p><strong>Content Health Check</strong></p> 
+  <p>AEM 6.4 will ship with a health check to alert customers if overlaid or referenced content is used in a way inconsistent with the content classification.</p> 
+  <p>The<strong> Sling/Granite Content Access Check</strong> is a new health check that monitors the repository to see if customer code is improperly accessing protected nodes in AEM.</p> 
+  <p>This will scan <strong>/apps</strong> and typically takes several seconds to complete.</p> 
+  <p>In order to access this new health check, you need to do the following:</p> 
+  <ol> 
+   <li><p>From the AEM Home Screen, navigate to <strong>Tools &amp;gt; Operations &amp;gt; Health Reports</strong></p> </li> 
+   <li><p>Click on the <strong>Sling/Granite Content Access Check</strong> as shown below:</p> <img imageRotate="0" src="assets/screen_shot_2017-12-14at55648pm.png" /></li> 
+  </ol> 
+  <p>After the scan is complete, a list of warnings will appear notifiying an end user of the protected node that is being improperly referenced:</p> 
+  <img imageRotate="0" src="assets/screenshot-2018-2-5healthreports.png" /> 
+  <p>After fixing the violations it will return to green state:</p> 
+  <img imageRotate="0" src="assets/screenshot-2018-2-5healthreports-violations.png" /> 
+  <p>The health check displays information collected by a background service that asynchronously checks whenever an overlay or resource type is used across all Sling search paths. If content mixins are used incorrectly it reports a violation.</p> 
+ </body> 
+</html>

@@ -1,0 +1,48 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2017-10-31T16:19:16.583-0400" name="topicBrowsingSortDate" />
+  <meta content="2017-10-31T16:19:16.583-0400" name="firstPublishExternalDate" />
+  <meta content="803cbd43-0022-4be6-aa53-9c5fee17bffe" name="jcr:uuid" />
+  <meta content="2017-10-31T16:19:16.583-0400" name="lastPublishExternalDate" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:page-authoring;content_type:reference" name="cq:tags" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/sites/classic-ui-authoring/using/classic-page-author-conponent-console.html" name="publishExternalURL" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="Components Console" name="navTitle" />
+  <meta content="2017-12-15T11:20:49.746-0500" name="cq:lastReplicated" />
+  <meta content="Components Console" name="seoTitle" />
+  <meta content="Components Console" name="jcr:title" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" />
+  <meta content="/content/docs/en/aem/6-3/author/classicui/page-authoring/default-components/components-console" name="qaNotes" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-08-13T06:05:19.747-0400" name="cq:lastModified" />
+  <meta content="2017-12-01T19:02:00.202-0500" name="jcr:created" />
+  <meta content="audience:classic-ui-authoring" name="primaryAudienceTag" />
+  <meta content="The Components console allows you to browse through all components defined for your instance and view key information for each component." name="seoDescription" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="/content/help/en/experience-manager/6-4/sites/classic-ui-authoring/morehelp/page-authoring;/content/help/en/experience-manager/6-4/sites/classic-ui-authoring/morehelp/page-authoring" name="moreHelpPaths" />
+  <meta content="d5e5187b-c7df-42be-99fe-9dbddd07735a" name="jcr:predecessors" />
+  <meta content="Deactivate" name="cq:lastReplicationAction" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="User" name="contentOwner" />
+  <meta content="2017-11-27T05:25:19.478-0500" name="locHandOffDate" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2017-10-31T16:19:16.583-0400" name="publishExternalDate" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+ </head>
+ <body>
+  <p>The Components console allows you to browse through all components defined for your instance and view key information for each component.<br /> </p> 
+  <note>
+   <p>The <strong>Components</strong> <strong>Console</strong> is not available in the classic UI. See <a href="../../../sites/authoring/using/default-components-console.md">Components Console</a> in the standard authoring documentation for details.</p> 
+  </note>
+ </body>
+</html>

@@ -1,0 +1,108 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="Add photographs and scribble notes as annotations to your task in the AEM Forms app" name="seoDescription" />
+  <meta content="LiveCycle/10.5/MobileWorkspace/WS2d2a17056e2191987296923513caebf6bb0-8000,LiveCycle/10.5/MobileWorkspace/WS2d2a17056e2191987296923513caebf6bb0-7fff,LiveCycle/10.5/MobileWorkspace/WS2d2a17056e2191984d6ef0c313caed40224-8000,LiveCycle/10.5/MobileWorkspace/WS2d2a17056e2191983d4aed7413caedc0d41-8000,LiveCycle/10.5/MobileWorkspace/WS2d2a17056e219198-144bd04413caf337469-8000,LiveCycle/10.5/MobileWorkspace/WS2d2a17056e219198-2b2cab9913caf8e3784-8000,LiveCycle/10.5/MobileWorkspace/WS2d2a17056e219198-2b2cab9913caf8e3784-7fff" name="cq:gepId" />
+  <meta content="2018-04-03T08:01:17.453-0400" name="topicBrowsingSortDate" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" />
+  <meta content="left" name="sideColumn" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2018-04-26T04:25:51.050-0400" name="locHandOffDate" />
+  <meta content="2015-09-16T05:53:08.452-0400" name="lastPublishQADate" />
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/forms-app;/content/help/en/experience-manager/6-4/forms/morehelp/forms-app" name="moreHelpPaths" />
+  <meta content="2018-04-03T08:01:20.383-0400" name="cq:lastReplicated" />
+  <meta content="92518dac-1eef-41ef-8659-d923bd9c7388" name="jcr:uuid" />
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:forms-app" name="cq:tags" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2013-02-13T03:00:00.000-0500" name="lr_lastModified" />
+  <meta content="2016-05-31T06:51:19.085-0400" name="acrolinxDate" />
+  <meta content="2018-04-03T08:01:17.453-0400" name="publishExternalDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="false" name="doNotLocalize" />
+  <meta content="Annotating a task" name="navTitle" />
+  <meta content="robhagat" name="lr_lastModifiedBy" />
+  <meta content="mix:lockable;mix:versionable;cq:ReplicationStatus" name="jcr:mixinTypes" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="not_checked" name="acrolinxStatus" />
+  <meta content="robhagat" name="lr_creator" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2016-04-20T09:31:09.913-0400" name="firstPublishExternalDate" />
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/add_attachments_admin_5e12de0b318c6865_2181_report.xml" name="acrolinxReportURL" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="2013-02-28T08:14:28.352-0500" name="jcr:created" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="c278694d-69ee-46b9-bd90-547468669f87" name="jcr:predecessors" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" />
+  <meta content="2018-04-03T08:01:17.453-0400" name="lastPublishExternalDate" />
+  <meta content="head1_20111213" name="gep_conversion_script_version" />
+  <meta content="barraud" name="jcr:createdBy" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="yellow" name="acrolinxPageStatus" />
+  <meta content="" name="autotags" />
+  <meta content="41" name="acrolinxSentences" />
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="" name="autotagsRejected" />
+  <meta content="600" name="acrolinxWords" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/add-attachments.html" name="publishExternalURL" />
+  <meta content="2018-04-26T04:25:51.051-0400" name="cq:lastModified" />
+  <meta content="Adding attachments" name="jcr:title" />
+  <meta content="" name="jcr:versionHistory" />
+ </head>
+ <body>
+  <h2 id="adding_annotations">Adding attachments in forms synced with AEM Forms Workflow server (AEM Forms on JEE)</h2>
+  <p>AEM Forms app lets you attach images, scribbled notes, and text notes to your form synced with AEM Forms JEE server. If your form is loaded from an AEM Forms Workflow server, your attachments are added to the form. You can tap the attachment button <img src="assets/attachments-app.png" /> to see all the attachments in a form together. The red notification specifies the number of attachments in the form. If there are no attachments in the form, you cannot see the red notifications button. If there are no attachments in the form, when you tap the attachments button <img src="assets/attch.png" />, you get options to attach photos or scribbles. </p> 
+  <p>Your options are:</p> 
+  <ul> 
+   <li><strong>Gallery</strong>: Lets you add a picture from the pictures saved on your device.<br /> </li> 
+   <li><strong>Camera</strong>: Lets you take a picture and add it to the form.<br /> </li> 
+   <li><strong>Notes</strong>: Lets you add a scribble or a text note. Use <img src="assets/scribble.png" /> to add a scribble, and <img src="assets/keyboard.png" /> to add a text note.<br /> </li> 
+  </ul> 
+  <note>
+   <p>Attachments added by one user are visible to other AEM Forms app users. Other users cannot delete attachments added by a user. </p> 
+   <p> </p> 
+  </note>
+  <h3>The Attachments screen</h3>
+  <p>To see all the attachments in a place, tap <img src="assets/attachments-app.png" />. You can add, rename, and delete attachments here. </p> 
+  <img alt="All attachments in a place" imageRotate="0" src="assets/attachments-screen.png" title="All attachments in a place" />
+  <p>You can use the <strong>+ </strong>button in the Attachments screen to attach another picture, scribble, or text.</p> 
+  <h3 id="adding_a_photograph">Adding a photograph</h3>
+  <p></p>
+  <p>You can use the camera of your mobile device or saved pictures in your device to attach a picture in the form.</p> 
+  <ol>
+   <li><p>Tap the attachment button <img src="assets/attch.png" /> at the bottom of the window.</p> </li>
+   <li><p>Tap <strong>Gallery</strong> or <strong>Camera</strong> in the pop-up that appears. </p> </li>
+   <li><p>Based on the option you select, perform the following:</p> 
+    <ol>
+     <li><p>If you select <strong>Camera</strong>.</p> <p>Take a photograph. Then tap the <strong>Use</strong> <img src="assets/use-pic.png" /> button.</p> <p>Or tap the <strong>Retake </strong><img src="assets/retake.png" /> button to retake the photograph.</p> </li>
+     <li><p>If you select <strong>Gallery</strong>.</p> <p>The image browser of device pops up. In the picture browser of your device, tap the picture you want to attach. </p> </li>
+    </ol></li>
+  </ol>
+  <h3 id="adding_a_note">Adding a note</h3>
+  <p>The <strong>Notes</strong> option lets you add freehand scribbles and text attachments in your form. </p> 
+  <ol>
+   <li><p>Tap the attachment button <img src="assets/attch.png" /> at the bottom of the window.</p> </li>
+   <li><p>Tap <strong>Notes</strong> in the pop-up that appears.</p> </li>
+   <li><p>In the Notes user interface that is launched, capture a freehand scribble.</p> <img alt="Scribble interface" captionBottom="Scribble" imageRotate="0" src="assets/scribble-ui.png" title="Scribble interface" /><p>You can use the following options in the Scribble interface:</p> 
+    <ul> 
+     <li><strong>Clear</strong>: Clears the screen.</li> 
+     <li><strong>Done button</strong>: Attaches the current scribble.</li> 
+     <li><strong>Cancel button</strong>: Discards the current scribble and exits the Scribble user interface.</li> 
+     <li><img src="assets/keyboard.png" />: Clears the scribble and lets you add a text note.<br /> </li> 
+    </ul> <img alt="Keyboard in AEM Forms app scribble" imageRotate="0" src="assets/keyboard-inapp.png" title="Keyboard in AEM Forms app scribble" /></li>
+  </ol>
+  <h2>Attachments in forms synced with the AEM Forms servers without AEM Forms Workflow (AEM Forms on OSGi)</h2>
+  <p>Attachments for mobile forms synced with AEM Forms OSGi servers work similar to the AEM Forms JEE servers. </p> 
+  <p>Form level attachments are not supported for adaptive forms loaded in the app from an AEM Forms OSGi server. To attach images or text notes, enable field level attachments in the form when you author it. Drag-drop the file attachment component from the components browser on the field. </p> 
+  <p>In case of adaptive forms, you can view the attached files in the document of record (DoR). See, <a href="../../forms/using/generate-document-of-record-for-non-xfa-based-adaptive-forms.md" target="_blank">Generate Document of Record for non-XFA adaptive forms</a>. </p> 
+  <p><a href="https://www.adobe.com/account/sign-in.supportportal.html" target="_blank"><strong>Contact Support</strong></a></p> 
+  <related-links>
+   <a href="../../forms/using/open-task.md" target="_blank">Opening a task</a>
+   <a href="../../forms/using/working-with-form.md" target="_blank">Working with a Form</a>
+   <a href="../../forms/using/add-attachments.md" target="_blank">Adding attachments</a>
+   <a href="../../forms/using/save-as-draft.md" target="_blank">Saving a task (Save as Draft)</a>
+  </related-links>
+ </body>
+</html>

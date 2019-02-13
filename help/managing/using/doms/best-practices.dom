@@ -1,0 +1,496 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2017-10-31T16:26:49.246-0400" name="firstPublishExternalDate" /> 
+  <meta content="Managing a project to implement Adobe Experience Manager (AEM) requires planning and understanding. The Project Checklists are intended as a set of best practices for project delivery. They guide you through all phases of the project life cycle and provide high level monitoring of your current status. " name="seoDescription" /> 
+  <meta content="2018-05-09T09:49:02.681-0400" name="cq:lastModified" /> 
+  <meta content="Managing Projects - Best Practices Checklist" name="navTitle" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/MANAGING;topic_tags:managing-checklist;content_type:reference;topic_tags:introduction" name="cq:tags" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="msm-service" name="cq:lastModifiedBy" /> 
+  <meta content="User" name="contentOwner" /> 
+  <meta content="2018-05-09T09:49:02.680-0400" name="locHandOffDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/MANAGING" name="primaryProductTag" /> 
+  <meta content="b53fc835-7241-40ce-8093-26046701108d" name="jcr:predecessors" /> 
+  <meta content="157dc1f7-60d5-484a-be1b-6542bef5459a" name="jcr:uuid" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2017-12-19T19:01:20.852-0500" name="jcr:created" /> 
+  <meta content="jsyal" name="cq:lastReplicatedBy" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2018-04-03T10:58:16.147-0400" name="topicBrowsingSortDate" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="/content/help/en/experience-manager/6-4/managing/morehelp/managing-checklist;/content/help/en/experience-manager/6-4/managing/morehelp/introduction;/content/help/en/experience-manager/6-4/managing/morehelp/managing-checklist;/content/help/en/experience-manager/6-4/managing/morehelp/introduction" name="moreHelpPaths" /> 
+  <meta content="Managing Projects - Best Practices Checklist" name="jcr:title" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="Managing Projects - Best Practices Checklist" name="seoTitle" /> 
+  <meta content="2018-10-27T23:43:53.161-0400" name="cq:lastReplicated" /> 
+  <meta content="2018-04-03T10:58:16.147-0400" name="publishExternalDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/managing/using/best-practices.html" name="publishExternalURL" /> 
+  <meta content="2018-04-03T10:58:16.147-0400" name="lastPublishExternalDate" /> 
+  <meta content="/content/docs/en/aem/6-3/manage/best-practices" name="qaNotes" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+ </head> 
+ <body> 
+  <p>Managing a project to implement Adobe Experience Manager (AEM) requires planning and understanding to ensure you are aware of the issues and (related) decisions that you need to make (both before and while implementing your project). </p> 
+  <p>To help you, the best practices consist of:</p> 
+  <ul> 
+   <li>An <a href="../../managing/using/best-practices-checklist.md">interactive checklist</a> that allows you to track and monitor your progress with these best practices. 
+    <ul> 
+     <li>Defines inputs and deliverables according to phase, milestone and persona.</li> 
+     <li>Provides automated overviews (quality, health and completeness) to indicate progress and project-health.</li> 
+    </ul> </li> 
+   <li>Documentation, based directly on the <a href="../../managing/using/best-practices-checklist.md">checklist</a>, that details the: 
+    <ul> 
+     <li><a href="#projectheartbeat">Project Heartbeat</a> analysis.</li> 
+     <li><a href="#statusbyrole">Status by Role</a> overview.</li> 
+     <li><a href="#phasesandmilestones">Phases and Milestones</a>.</li> 
+     <li><a href="#persona">Key Persona</a> and their involvement at every (relevant) stage.</li> 
+     <li>A <a href="../../managing/using/best-practices-glossary.md">Glossary</a> of the <a href="#requireddocumentsanddeliverables">Required Documents and Deliverables</a>.</li> 
+    </ul> </li> 
+   <li><a href="../../managing/using/best-practices-further-reference.md">Further reference</a> material to provide more details on specific areas.</li> 
+  </ul> 
+  <h2>Project Heartbeat Dashboard</h2>  
+  <p>The <strong>Project Heartbeat</strong> worksheet provides a graphical overview of critical metrics for your project:</p> 
+  <ul> 
+   <li><strong>Phase Quality</strong> 
+    <ul> 
+     <li>Indicates the quality of the <a href="#requireddocumentsanddeliverables">Required Documents and Deliverables</a> across the project.</li> 
+    </ul> </li> 
+   <li><strong>Phase Health</strong> 
+    <ul> 
+     <li>A high level status indicator for your project; useful to highlight areas that may be at risk.</li> 
+    </ul> </li> 
+   <li><strong>Phase Completeness</strong> 
+    <ul> 
+     <li>At any point in time during the project this indicates how much has already been completed for each phase of your project.</li> 
+    </ul> </li> 
+  </ul> 
+  <h2>Status by Role</h2> 
+  <p>The <strong>Status by Role</strong> worksheet shows detailed breakdown of <a href="#projectheartbeat"><strong>Health</strong>, <strong>Quality</strong> and <strong>Completeness</strong></a> by <strong><a href="#phasesandmilestones">Phase</a></strong> and <strong><a href="#persona">Persona</a></strong>.</p> 
+  <h2>Phases and Milestones</h2> 
+  <p>The project plan is broken down into distinct (high level) phases.</p> 
+  <p>Each phase contains its own milestones. For each <a href="#persona">persona</a> (or role), the relevant milestones are listed, together with the documents that are required to produce the defined deliverables. </p> 
+  <note> 
+   <p>There is not a direct 1:1 relationship between the individual required documents and deliverables.</p> 
+  </note> 
+  <h3>Preparation</h3> 
+  <p>Preparation of your project forms the basis of the entire project. You need to define key requirements together with clear goals and expectations for the:</p> 
+  <ul> 
+   <li><strong>Business Rationale</strong> 
+    <ul> 
+     <li>The fundamental reasons and justification for undertaking the project.</li> 
+    </ul> </li> 
+   <li><strong>Scope and Schedule</strong> 
+    <ul> 
+     <li>A basic scope, and rough schedule should be made available to define what is required, and within which time frame; if it helps clarify the situation, you can also define what lies outside the scope.</li> 
+    </ul> </li> 
+  </ul> 
+  <p>How you prepare, plan and run your project and implement your solution will be affected by the restrictions you are operating under e.g. fixed budget, fixed timeline, quantity of content, quality required. </p> 
+  <p>As always, adjusting any of the factors will impact the others. For example reducing the time, but requiring the same level of quality will probably increase the price while reducing the quantity of content you can cater for. Budget is often a key factor so such relationships cannot be forgotten.</p> 
+  <p>The Four Factors:</p> 
+  <img imageRotate="0" src="assets/projectphases_fourphases.png" title="Four Factors" /> 
+  <h4>Milestones</h4> 
+  <ul> 
+   <li> <p>In this phase you need to validate and confirm the goals for the project; for example:</p> 
+    <ul> 
+     <li>What do you want to achieve/provide?</li> 
+     <li>Who will benefit?</li> 
+     <li>What is the scope? 
+      <ul> 
+       <li>If it helps clarify the situation, you can also define what lies outside the scope. </li> 
+      </ul> </li> 
+     <li>How will you define success?</li> 
+     <li>How will you measure success?</li> 
+     <li>What are the requirements, business and technical?<br /> </li> 
+     <li>Are there legacy systems to be replaced and if so, is there data to be migrated?</li> 
+     <li>Who will be involved?</li> 
+     <li>How will you measure progress?</li> 
+     <li>How often will you review progress during the life of the project?</li> 
+    </ul> </li> 
+   <li> <p>Before you start any project you need a reliable, realistic estimation of what it will cost to implement:<br /> </p> 
+    <ul> 
+     <li>Use information from the validation milestone as a basis for the estimates.</li> 
+     <li>Be realistic in your estimates.</li> 
+     <li>Consider and respect any client guidelines, processes or restrictions that the client may be subject to. </li> 
+     <li>Consider contingency and review processes should a review, or refinement, of the budget is required at a later stage.</li> 
+     <li>Remember that costs come in many forms; purchases, use of resources and fees amongst others.</li> 
+    </ul> </li> 
+  </ul> 
+  <h3>Planning</h3> 
+  <p>Planning your project consolidates the preparation. Here you need to start converting the goals and expectations into a well-defined roadmap consisting of concrete tasks, bound by clear communication, with stringent reviews to measure progress.</p> 
+  <h4>Milestones</h4> 
+  <ul> 
+   <li> <p>A clean handover ensures that the appropriate persona/groups are aware of their responsibilites within the project. </p> <p>Full details should be provided/generated to ensure they have a full understanding of all relevant aspects, including the roadmap, scope, goals, requirements and KPIs.</p> </li> 
+   <li> <p>To avoid unpleasant surprises, use risk assessment to identify and quantify any potential risks together with their impact and probability.</p> <p>This should be done early in the project life cycle to ensure that any vunerabilities are identified and evaluated. Based on the findings you can report to your stakeholders on whether the full requirements can be implemented and, if necessary, whether it is possible to plan for appropriate actions to be taken and tracked.</p> </li> 
+   <li> <p>Communication is always key to the success of any project. You need to communicate clearly and efficiently to ensure that everyone is:</p> 
+    <ul> 
+     <li>Working towards the same basic goals</li> 
+     <li>From the same information base</li> 
+     <li>With the same channels</li> 
+    </ul> </li> 
+   <li> <p>The Kick Off meeting is used to raise awareness that the project is starting. It is a good opportunity to:</p> 
+    <ul> 
+     <li>Invite all interested parties (or at least group-representatives).</li> 
+     <li>Present key facts about the project.</li> 
+     <li>Answer questions.</li> 
+     <li>Ensure that everyone has the same knowledge base.</li> 
+     <li>Get commitment from everyone who will be involved - this will have to be earned. 
+      <ul> 
+       <li>By involving prime players (including prospective authors) at the very start of the project, you increase your chances of getting their commitment to the project. </li> 
+      </ul> </li> 
+    </ul> </li> 
+  </ul> 
+  <h3>Development Preparation</h3> 
+  <p>Planning the development is key to ensure that your project is built on a solid design by a team that has the required knowledge.</p> 
+  <h4>Milestones</h4> 
+  <ul> 
+   <li> <p>Before starting on any project you should ensure that your development team is appropriately staffed and that all team members are trained for the task in hand.</p> </li> 
+   <li> <p>The content architecture defines and describes the future architecture of the content; including:</p> 
+    <ul> 
+     <li>The content tree; including assets</li> 
+     <li>Basic structures; including campaigns, etc.</li> 
+     <li>Multi site and multi language structures (MSM, Translation, etc.)</li> 
+     <li>Supportive content (including tags and tagging concepts)</li> 
+     <li>Caching and content reuse strategies</li> 
+    </ul> </li> 
+   <li> <p>The system architecture defines the conceptual view of your system; including (amongst other information):</p> 
+    <ul> 
+     <li><a href="../../sites/deploying/using/recommended-deploys.md#deploymentscenarios">System structure</a> for all required environments</li> 
+     <li>Sub-systems</li> 
+     <li>Third party systems</li> 
+     <li>Interfaces; hardware, software and human interaction</li> 
+     <li>Servers for each environment; see the <a href="../../sites/deploying/using/technical-requirements.md">Technical Requirements</a> and <a href="../../managing/using/hardware-sizing-guidelines.md">Hardware Sizing Guidelines</a></li> 
+     <li>Processes for each environment; for example, deployment and maintenance requirements</li> 
+     <li>Maintenance activities (Datastore GC, TarPM optimization, etc.)</li> 
+     <li><a href="/content/help/en/experience-manager/dispatcher/user-guide">Dispatcher</a> caching </li> 
+     <li><a href="../../sites/deploying/using/recommended-deploys.md#deploymentscenarios">Clustering</a> Publish/Authorshare </li> 
+     <li>Performance for the client-side (JS minify, concat, css sprites, total number of http requests, and others)</li> 
+    </ul> </li> 
+   <li> <p>The application architecture defines and describes the behavior of the proposed applications.</p> <p>It is focused on:</p> 
+    <ul> 
+     <li>How they will interact with each other and with users. </li> 
+     <li>The data to be consumed and produced by applications, rather than their internal structure.</li> 
+    </ul> <p>The definitions should cover:</p> 
+    <ul> 
+     <li>Basic code structure for the project</li> 
+     <li>Code artifacts (bundles, packages, etc.)</li> 
+     <li>Breakdowns of the templates/components and their relationships</li> 
+     <li>High level details of required customizations (specific overlays will follow later)</li> 
+     <li>Design of workflows required by the solution (for example, content creation, approval, publishing, transformations, imports, exports, etc.)</li> 
+     <li>Special consideration for any complex modules, such as MSM, Commerce, third party integration</li> 
+    </ul> </li> 
+   <li> <p>System integration requires you to plan (then implement):</p> 
+    <ul> 
+     <li>How all the sub-systems and <a href="../../sites/administering/using/integration.md">solution integrations</a> will be brought together to operate as one coherent system</li> 
+     <li>How any third party systems will be integrated; together with any special considerations, such as offline/online, client-side/browser-side or fallover handling when a third party system is down </li> 
+    </ul> </li> 
+   <li> <p>Before starting development you should draw up an in-depth and comprehensive concept of all <a href="/sites/developing/using/test">testing</a> requirements for your project.</p> <p>This should include (amongst others):</p> 
+    <ul> 
+     <li>Details of all tests to be performed</li> 
+     <li>Preparation of any content required for those tests</li> 
+     <li>Information of any test tools to be used</li> 
+     <li>High level indication of who will be involved in testing; especially groups outside the QA team</li> 
+     <li>Details of test automation; for example, with Selenium or AEM Developer mode</li> 
+    </ul> </li> 
+   <li> <p>Exoerience Design (XD) involves designing the user experience for your solution.</p> <p>The user experience should be analyzed and developed for both your authors and the final users of your website.</p> </li> 
+   <li> <p>Prior to development all support processes, required to deploy, release, test and report issues, should be set in place.</p> <p>See also the <a href="/content/help/en/marketing-cloud/contact-support">Adobe Support Portal</a>.</p> </li> 
+  </ul> 
+  <h3>Operations Planning and Operations</h3> 
+  <p>On a similar basis the operations must be properly planned to ensure you have the environments that you require - for all stages of the project life cycle. You also need the appropriate processes for maintaining them.</p> 
+  <h4>Milestones</h4> 
+  <ul> 
+   <li> <p>You need to plan and then implement a Roles and Rights Concept for all users/groups that will use the solution.</p> <p>For example:</p> 
+    <ul> 
+     <li>A list of roles (i.e. groups) with <span class="code">read</span>/<span class="code">write</span> access definitions for each </li> 
+     <li>Definition of the use of privileges that impact the publish environment; for example, <span class="code">replicate</span></li> 
+     <li>For users with minimal privileges, workflows should be defined </li> 
+     <li>Users in the <span class="code">editor</span> group should not have <span class="code">admin</span> rights nor be part of the <span class="code">administrators</span> group</li> 
+    </ul> <p>For more information, see <a href="../../sites/administering/using/security.md">User Administration and Security</a>.</p> </li> 
+   <li> <p>Monitoring and maintenance are key aspects of ensuring the smooth operation of your solution once it goes live. For this you need to define:</p> 
+    <ul> 
+     <li>What needs monitoring</li> 
+     <li>Maintenance tasks; both regular and for special cases</li> 
+    </ul> <p>See also <a href="../../sites/deploying/using/monitoring-and-maintaining.md">Monitoring and Maintenance</a> for more information.</p> </li> 
+   <li> <p>Any content from the legacy system should be reviewed and validated for migration.</p> </li> 
+   <li> <p>Ensure that you have a recovery plan in place. In an emergency situation this must be available to secure the production use of AEM.. This should cover situations such as backup, restore, fallover and others.</p> </li> 
+  </ul> 
+  <h3>Development</h3> 
+  <p>Development is a crucial phase that requires more than just coding.</p> 
+  <h4>Milestones</h4> 
+  <ul> 
+   <li> <p>Plan and document your development environment, including:</p> 
+    <ul> 
+     <li>Architecture</li> 
+     <li><a href="../../sites/developing/using/dev-tools.md">Development tools</a> 
+      <ul> 
+       <li>A typical environment consists of<strong>:</strong> 
+        <ul> 
+         <li>an issue tracking system; such as Jira</li> 
+         <li>an IDE; such as Eclipse</li> 
+         <li>a build management tool; such as Maven</li> 
+         <li>a tool for continuous integration; such as Jenkins </li> 
+         <li>a tool for version control; such as GIT/SVN</li> 
+         <li>a build artifact repository manager; such as Archiva/Nexus</li> 
+        </ul> </li> 
+      </ul> </li> 
+     <li>Third party software integration/dependencies</li> 
+     <li><a href="../../sites/administering/using/integration.md">Solution integration/dependencies</a></li> 
+     <li>Deployment cadence</li> 
+    </ul> </li> 
+   <li> <p>Plan and document your test environment, including:</p> 
+    <ul> 
+     <li>Architecture</li> 
+     <li>Dependencies on development builds; including nightly builds</li> 
+     <li>The possibilities for, or limitations of, testing third party software integration/dependencies</li> 
+     <li>Testing tools</li> 
+     <li>Automated testing strategy</li> 
+    </ul> </li> 
+   <li> <p>Plan and document your production environment, including:</p> 
+    <ul> 
+     <li>Architecture</li> 
+     <li>Deployment cadence</li> 
+     <li>Third party software integration/dependencies</li> 
+     <li>Security setup</li> 
+     <li>Baseline performance verified by running the <a href="../../sites/developing/using/tough-day.md">Tough Day tests</a> on the production setup</li> 
+     <li>Requirements for performance tests; see <a href="../../sites/deploying/using/configuring-performance.md#bestpracticesforqualityassurance">Best Practices for Quality Assurance</a></li> 
+    </ul> </li> 
+   <li> <p>Plan, document and test all aspects of the system and <a href="../../sites/administering/using/integration.md">solution integration</a>, including:</p> 
+    <ul> 
+     <li>An automated testing strategy</li> 
+     <li>Automated processes to <a href="../../managing/using/enterprise-devops.md#codemovement">move applications from development to test, then production</a></li> 
+     <li>Automated processes to <a href="../../managing/using/enterprise-devops.md#contentmovement">move content from production to test and development</a></li> 
+    </ul> </li> 
+   <li> <p>Plan, document and test all aspects of the content migration; including:</p> 
+    <ul> 
+     <li>Content architecture</li> 
+     <li>Migration strategy</li> 
+    </ul> </li> 
+   <li> <p>Ensure that all team members and project persona are kept up-to-date as necessary.</p> </li> 
+   <li> <p>Document the solution fully; including:</p> 
+    <ul> 
+     <li>Operations Manual</li> 
+     <li>Any customizations that may affect upgrades</li> 
+     <li>Release notes</li> 
+    </ul> </li> 
+  </ul> 
+  <h3>Performance and Testing</h3> 
+  <p>Once the new application is available it will need to undergo stringent testing, both for functionality and <a href="../../sites/deploying/using/configuring-performance.md">performance</a>.</p> 
+  <note> 
+   <p>Any testing team should be allowed to remain neutral and deliver the testing results.</p> 
+   <p>It is the responsibility of the Project Manager to assess any implications of the results and decide on appropriate action. </p> 
+  </note> 
+  <h4>Milestones</h4> 
+  <ul> 
+   <li> <p><a href="../../sites/developing/using/acceptance-signoff.md">User acceptance testing</a> (UAT) is crucial to ensure that:</p> 
+    <ul> 
+     <li>The solution fulfills the user/customer requirements</li> 
+     <li>The customer/users accept the solution (function, design and performance)</li> 
+    </ul> <p>There should be a formalized checklist for customer handover; ideally automated and run on a nightly basis against a snapshot. The results should be sent to the project manager and development team</p> </li> 
+   <li> <p>Performance and load tests are used to ensure that the solution meets the required performance levels, at average and peak loads.</p> <p>For more information about performance testing, see:</p> 
+    <ul> 
+     <li><a href="../../sites/deploying/using/configuring-performance.md">Performance Testing</a></li> 
+     <li><a href="../../sites/developing/using/planning.md">How to plan and run testing</a><br /> </li> 
+     <li><a href="../../sites/deploying/using/configuring-performance.md#basicperformanceguidelines">Basic Performance Guidelines</a></li> 
+    </ul> 
+    <note> 
+     <p>This process will have to be continued during normal use of AEM, but these initial stages are the most crucial.<br /> </p> 
+    </note></li> 
+  </ul> 
+  <h3>Rollout</h3> 
+  <p>Rollout of your new application needs careful planning to ensure a smooth Go Live. This includes confirming a high level of security, training all prospective users and making multiple dry-runs to confirm that all issues have been dealt with.</p> 
+  <h4>Milestones</h4> 
+  <ul> 
+   <li> <p>Preparation and planning will help ensure a smooth rollout.</p> </li> 
+   <li> <p>Ensure that all involved staff have been trained.</p> <p>See <a href="https://training.adobe.com/training/courses.html#solution=adobeExperienceManager">Adobe Experience Manager</a> in the course catalog.</p> </li> 
+   <li> <p>Ensure that your solution administrators have:</p> 
+    <ul> 
+     <li>Been trained</li> 
+     <li>Received the appropriate training material</li> 
+     <li>Received the appropriate documentation</li> 
+    </ul> </li> 
+   <li> <p>Ensure that your authors have:</p> 
+    <ul> 
+     <li>Been trained</li> 
+     <li>Received the appropriate training material</li> 
+     <li>Received the appropriate documentation; for example, the User Guide</li> 
+    </ul> </li> 
+   <li> <p>Penetration tests simulate an attack on a computer system to identify potential security weaknesses. </p> </li> 
+   <li> <p>To ensure the security of your solution, perform specific penetration tests, together with a wider range of security tests.</p> <p>See the <a href="../../sites/administering/using/security-checklist.md">Security Checklist</a> for more details.</p> </li> 
+  </ul> 
+  <h3>Go Live</h3> 
+  <p>You want your Go Live to be as smooth as possible. Again the final steps need planning for clean execution.</p> 
+  <h4>Milestones</h4> 
+  <ul> 
+   <li> <p>Preparation and planning will help ensure a smooth Go Live.</p> </li> 
+   <li> <p>Confirm the security of your solution for both internal and external users and their content.</p> </li> 
+   <li> <p>Ensure that all systems, procedures and mechanisms required for fallback are in place before going live.</p> </li> 
+   <li> <p>Ensure that support services are in-place and ready.</p> </li> 
+   <li> <p>Plan and execute the transition to your production environment and users.</p> </li> 
+   <li> <p>Prepare and execute your smoke tests.</p> </li> 
+  </ul> 
+  <h2>Persona</h2> 
+  <p>The checklists are designed by persona. These are the roles with significant involved in the project life cycle.</p> 
+  <p>There are also some <a href="#otherpersona">other persona</a> that are involved in specific tasks.</p> 
+  <h3>Project Sponsor</h3> 
+  <p>The project sponsor is:</p> 
+  <ul> 
+   <li>Responsible for providing/presenting the business case for the project.</li> 
+   <li>Key to shaping and defining the scope of the project; including: 
+    <ul> 
+     <li>the definition of, and criteria for, success</li> 
+     <li>the main KPIs</li> 
+    </ul> </li> 
+   <li>Provide the main milestones based on the client roadmap.</li> 
+  </ul> 
+  <h3>Project Manager</h3> 
+  <p>The project manager is:</p> 
+  <ul> 
+   <li>Responsible for the overall delivery of the project based on the requirements (e.g. scope, KPIs, success criteria and definition) provided by the project sponsor.</li> 
+   <li>Responsible for defining the budget and resourcing the project based on that budget.</li> 
+   <li>The main point of communication for all persona involved in the project.</li> 
+  </ul> 
+  <h3>Architect</h3> 
+  <p>The solution architect:</p> 
+  <ul> 
+   <li>Is responsible for the high-level design of the solution and system.</li> 
+   <li>Helps define the implementation strategy for AEM. For example, whether to implement a clustered installation, or a cold standby, or when a content delivery network (CDN) is needed.</li> 
+   <li>Also define the AEM solution architecture based on the client requirements. This can include the concept for user roles (with related rights), the relationship between templates and components, or when to use multi site management.</li> 
+  </ul> 
+  <h3>Business Analyst</h3> 
+  <p>The business analyst:</p> 
+  <ul> 
+   <li>Is primarily responsible for gathering and analyzing the high-level requirements, then transforming these into specifications: 
+    <ul> 
+     <li>for the project manager to use when planning the development</li> 
+     <li>for the development team to work from during design and development.</li> 
+    </ul> </li> 
+   <li>Works closely with the client to analyse the requirements. They match these against: 
+    <ul> 
+     <li>The definition of success.</li> 
+     <li>The criteria for success.</li> 
+     <li>KPIs (both business and performance based). </li> 
+    </ul> </li> 
+  </ul> 
+  <h3>Development Lead</h3> 
+  <p>The development lead:</p> 
+  <ul> 
+   <li>Is responsible for the technical delivery of the project.</li> 
+   <li>Is responsible for selecting a development methodology that is compliant with client requirements. </li> 
+   <li>Draws up the development strategy: 
+    <ul> 
+     <li>ensuring that it is aligned with the business and performance KPIs</li> 
+     <li>taking into account the success criteria and definition</li> 
+    </ul> </li> 
+   <li>Works closely with the architect (especially when drawing up the development strategy for AEM) to define aspects such as the relationship between templates and components, the integration strategy for third party applications and any specialized functionality.</li> 
+  </ul> 
+  <h3>Quality Lead</h3> 
+  <p>The quality lead:</p> 
+  <ul> 
+   <li>Is responsible for the quality of the delivery; ensuring that it meets the criteria for success and any KPIs defined by the client.</li> 
+   <li>Defines the quality metrics, aligns with all stakeholders, draws up the testing plans and ensures that they are executed.</li> 
+   <li>Creates and delivers reports to project stakeholders. </li> 
+  </ul> 
+  <h3>System Engineer</h3> 
+  <p>The system engineer:</p> 
+  <ul> 
+   <li>Is responsible for overseeing the project infrastructure.</li> 
+   <li>Is responsible for: 
+    <ul> 
+     <li>the setup of internal development and test environments</li> 
+     <li>for matching those systems to the client systems</li> 
+    </ul> </li> 
+   <li>Provides hardware recommendations, monitor the various implementations and provide operations support both prior to go live and afterwards.</li> 
+  </ul> 
+  <h3>Security Lead</h3> 
+  <p>The security lead:</p> 
+  <ul> 
+   <li>Is responsible for the overall security concept of the solution, ensuring that it is aligned with any requirements and policies from the client.</li> 
+   <li>Delivers a security concept, security operations and recommendations for any hardware based security concepts; such as zones and firewalls.</li> 
+  </ul> 
+  <h3>Other Persona</h3> 
+  <ul> 
+   <li>Stakeholders 
+    <ul> 
+     <li>People (often from the business) who have an interest (stake) in the success of the project. They often contribute to the budget.</li> 
+    </ul> </li> 
+   <li>Legal 
+    <ul> 
+     <li>Legal advice is required when negotiating contracts.</li> 
+    </ul> </li> 
+   <li>Trainers 
+    <ul> 
+     <li>Depending on the scale and nature of the project, specialized trainers can be used to develop and present training sessions for the relevant groups.</li> 
+    </ul> </li> 
+   <li>Technical Writers 
+    <ul> 
+     <li>Depending on the scale and nature of the project, specialized technical writers can be used to write guidelines and manuals for specific groups; e.g. a Maintenance manual for system administrators or a User Guide for the authors.</li> 
+    </ul> </li> 
+   <li>System Administrators 
+    <ul> 
+     <li>Responsible for the ongoing operation of the system. </li> 
+    </ul> </li> 
+   <li>Authors and End Users 
+    <ul> 
+     <li>The people who will use the system to create and maintain your website content.</li> 
+    </ul> </li> 
+  </ul> 
+  <h2>Required Documents and Deliverables</h2> 
+  <p>The checklists cover the <strong>Required Documents</strong> and <strong>Deliverables</strong> for each milestone. </p> 
+  <ul> 
+   <li>There is no 1:1 relationship between these; for example, a group of required documents can result in a single deliverable.</li> 
+   <li>A deliverable from one persona can be a required document for another persona during the same milestone.</li> 
+  </ul> 
+  <h3>Required Documents</h3> 
+  <p>The <strong>Required Documents</strong> are needed by the appropriate persona when producing their deliverables.</p> 
+  <p>For each <strong>Required Document</strong> the persona should indicate:</p> 
+  <ul> 
+   <li><strong>Y/N</strong>: whether it has been received.</li> 
+   <li><strong>1-3</strong>: an indication of the quality of the received document.</li> 
+  </ul> 
+  <h3>Deliverables</h3> 
+  <p>For each milestone the appropriate persona are responsible for delivering specific documents and therefore realizing their responsibilities for a specific milestone. </p> 
+  <p>For each <strong>Deliverable</strong> the persona must indicate:</p> 
+  <ul> 
+   <li><strong>Y/N</strong>: whether it has been completed.</li> 
+  </ul> 
+  <p>Deliverables are often used as <strong>Required Documents</strong> for either the current or a later milestone.</p> 
+  <h2>Related Best Practices</h2> 
+  <p>For best practices on deploying, administering, developing, or authoring, see the following:</p> 
+  <ul> 
+   <li><a href="../../managing/using/manage-reference.md">Other Best Practices and Guidelines related to Managing an AEM project</a></li> 
+   <li><a href="../../sites/deploying/using/best-practices.md">Deploying and Maintaining best practices</a></li> 
+   <li><a href="../../sites/administering/using/administer-best-practices.md">Administering best practices</a></li> 
+   <li><a href="../../sites/developing/using/best-practices.md">Developing best practices</a></li> 
+   <li><a href="../../sites/authoring/using/best-practices.md">Authoring best practices</a></li> 
+  </ul> 
+  <h2>Key Documentation Areas</h2> 
+  <ul> 
+   <li>AEM Documentation<br /> In addition, the following sections of AEM documentation are of particular interest (however, this list is not exhaustive): 
+    <ul> 
+     <li><a href="../../sites/developing/using/security.md">Security</a></li> 
+     <li><a href="../../sites/deploying/using/recommended-deploys.md">Recommended Deployments</a></li> 
+     <li><a href="../../managing/using/enterprise-devops.md">Enterprise DevOps</a></li> 
+     <li><a href="../../managing/using/hardware-sizing-guidelines.md">Hardware sizing</a></li> 
+     <li>Concepts of AEM: 
+      <ul> 
+       <li><a href="../../sites/developing/using/the-basics.md">Developing - the basics</a></li> 
+       <li><a href="../../sites/administering/using/msm.md">MSM concepts</a></li> 
+       <li><a href="/content/help/en/experience-manager/htl/user-guide">HTML Template Language (HTL)</a></li> 
+      </ul> </li> 
+    </ul> </li> 
+   <li>Related Documentation<br /> 
+    <ul> 
+     <li>Adobe Experience Cloud - <a href="https://helpx.adobe.com/marketing-cloud/how-to/planning.html">Planning for the Adobe Experience Cloud</a></li> 
+    </ul> </li> 
+  </ul> 
+ </body> 
+</html>

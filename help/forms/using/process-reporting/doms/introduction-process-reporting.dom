@@ -1,0 +1,74 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="khsingh" name="cq:lastReplicatedBy" />
+  <meta content="ec43ec1f-101a-49a1-ba28-fd44c8d2a87f" name="jcr:uuid" />
+  <meta content="Introduction to process management" name="navTitle" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="http://helpx.stage.adobe.com/livecycle/help/process-reporting/introduction-process-reporting.html" name="publishQAURL" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="Introduction and key capabilities of AEM Forms on JEE Process Reporting" name="seoDescription" />
+  <meta content="mix:versionable;cq:ReplicationStatus" name="jcr:mixinTypes" />
+  <meta content="2013-09-18T09:35:52.070-0400" name="firstPublishExternalDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-10-24T10:43:08.672-0400" name="cq:lastReplicated" />
+  <meta content="2014-11-25T09:48:10.046-0500" name="publishQADate" />
+  <meta content="admin" name="cq:lastModifiedBy" />
+  <meta content="content_type:reference;topic_tags:process-reporting;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS;products:SG_AEMFORMS_JEE" name="primaryProductTag" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2014-11-25T09:48:10.046-0500" name="lastPublishQADate" />
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/process-reporting;/content/help/en/experience-manager/6-4/forms/morehelp/process-reporting" name="moreHelpPaths" />
+  <meta content="2013-06-14T10:19:38.607-0400" name="firstPublishQADate" />
+  <meta content="2018-10-24T10:43:08.608-0400" name="lastPublishExternalDate" />
+  <meta content="09/06/13" name="locPublishDate" />
+  <meta content="2018-10-24T10:43:08.608-0400" name="publishExternalDate" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="khsingh@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="later" name="locPublishOption" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/process-reporting/introduction-process-reporting.html" name="publishExternalURL" />
+  <meta content="2019-02-12T06:34:27.912-0500" name="cq:lastModified" />
+  <meta content="2013-06-01T00:26:31.203-0400" name="jcr:created" />
+  <meta content="2018-10-24T10:43:08.608-0400" name="topicBrowsingSortDate" />
+  <meta content="Introduction to Process Reporting" name="jcr:title" />
+  <meta content="5b87595d-3345-483a-8176-6bb874f54661" name="jcr:predecessors" />
+  <meta content="" name="jcr:baseVersion" />
+ </head>
+ <body>
+  <img imageRotate="0" src="assets/process-reporting.png" />
+  <p>Process Reporting is a browser-based tool that you use to create and view reports on AEM Forms processes and tasks.</p> 
+  <p>Process Reporting provides a set of out-of-the-box reports that allow you to filter, view infromation on long running processes, process duration, and workflow volume.</p> 
+  <p>Additionaly Process Reporting provides an interface to run adhoc queries and to integrate custom report views into the Process Reporting user interface.</p> 
+  <p>For the list of supported browsers, see <a href="../../../forms/using/AEM-forms-JEE-supported-platforms.md" target="_blank">AEM Forms Supported Platforms</a>.</p> 
+  <p>Process Reporting is built on modules that:</p> 
+  <ul> 
+   <li>Read process data from AEM Forms Database</li> 
+   <li>Publish process data to an embedded Process Reporting repository</li> 
+   <li>Provides a browser-based user interface to view reports<br /> </li> 
+  </ul> 
+  <h2>Key Capabilities</h2>
+  <h3>Always-on Reporting</h3>
+  <img imageRotate="0" src="assets/site-management.png" />
+  <p>View the list of long running processes, process duration charts, and run custom queries using filters.</p> 
+  <p>Process Reporting also provides the option to export the report and query data in CSV format.</p> 
+  <h3>Adhoc Reports</h3>
+  <img imageRotate="0" src="assets/print-&amp;-colour.png" />
+  <p>Use filters to get a specific view of your data.</p> 
+  <p>You can search processes or tasks by ID, duration, start and end dates, process initiator etc..</p> 
+  <p>You can combine multiple filters to create specific reports.</p> 
+  <p>You can then save the report filters to be run at a later date or time.<br /> </p> 
+  <h3>Process/Task History</h3>
+  <img imageRotate="0" src="assets/file-management.png" />
+  <p>AEM Forms servers run numerous processes in parallel. These processes keep on transitioning from one state to another. By publishing Forms data to the Process Reporting repository at regular intervals, Process Reporting retains the transitioning information about the processes running in AEM Forms.</p> 
+  <p> </p> 
+  <h3>Access Control &lt;br&gt;</h3>
+  <img imageRotate="0" src="assets/untitled.png" />
+  <p>Process Reporing provides permission-based access to the user interface.</p> 
+  <p>This means only users with reporting permissions have access to the Process Reporting user interface.</p> 
+  <p><a href="https://www.adobe.com/account/sign-in.supportportal.html" target="_blank"><strong>Contact Support</strong></a></p> 
+ </body>
+</html>

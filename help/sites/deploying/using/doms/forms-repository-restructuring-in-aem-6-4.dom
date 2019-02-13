@@ -1,0 +1,342 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;content_type:reference;topic_tags:repo_restructuring" name="cq:tags" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="Forms Repository Restructuring in AEM 6.4" name="jcr:title" />
+  <meta content="en" name="pageCreatedAt" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2018-07-27T04:43:03.520-0400" name="firstPublishExternalDate" />
+  <meta content="false" name="doNotLocalize" />
+  <meta content="not_checked" name="acrolinxStatus" />
+  <meta content="sarchiz@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="light" name="heroGradient" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2018-07-27T04:43:03.520-0400" name="topicBrowsingSortDate" />
+  <meta content="2018-05-25T07:28:52.897-0400" name="jcr:created" />
+  <meta content="video" name="pageLayout" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="f6b179c2-0482-406c-9654-add0d350d400" name="jcr:predecessors" />
+  <meta content="left" name="sideColumn" />
+  <meta content="/content/help/en/experience-manager/6-4/sites/deploying/morehelp/repo_restructuring;/content/help/en/experience-manager/6-4/sites/deploying/morehelp/repo_restructuring" name="moreHelpPaths" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2018-07-27T04:43:03.520-0400" name="lastPublishExternalDate" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="sarchiz" name="cq:lastModifiedBy" />
+  <meta content="audience:deploying" name="primaryAudienceTag" />
+  <meta content="2018-07-27T04:43:03.520-0400" name="publishExternalDate" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/forms-repository-restructuring-in-aem-6-4.html" name="publishExternalURL" />
+  <meta content="Learn how to make the necessary changes in order to migrate to the new repository structure in AEM 6.4 for Forms." name="seoDescription" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-07-27T04:43:03.772-0400" name="cq:lastReplicated" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" />
+  <meta content="a509b0ef-212b-4f4b-9d11-2a62bb1a4462" name="jcr:uuid" />
+  <meta content="sarchiz" name="cq:lastReplicatedBy" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2018-07-27T04:43:03.554-0400" name="cq:lastModified" />
+ </head>
+ <body>
+  <p>As described on the parent <a href="../../../sites/deploying/using/repository-restructuring.md">Repository Restructuring in AEM 6.4</a> page, customers upgrading to AEM 6.4 should use this page to assess the work effort associated with repository changes impacting the AEM Forms Solution. Some changes require work effort during the AEM 6.4 upgrade process, while others can be deferred until a 6.5 upgrade.</p> 
+  <p><strong>With 6.4 Upgrade</strong></p> 
+  <ul> 
+   <li><a href="../../../sites/deploying/using/forms-repository-restructuring-in-aem-6-4.md#main-pars-header-1531137065">Misc</a></li> 
+  </ul> 
+  <p><strong>Prior to 6.5 Upgrade</strong></p> 
+  <ul> 
+   <li><a href="../../../sites/deploying/using/forms-repository-restructuring-in-aem-6-4.md#echosigncloudserviceconfiguration">Echosign Cloud Service Configuration</a></li> 
+   <li><a href="../../../sites/deploying/using/forms-repository-restructuring-in-aem-6-4.md#recaptchacloudserviceconfigurations">Recaptcha Cloud Service Configurations</a></li> 
+   <li><a href="../../../sites/deploying/using/forms-repository-restructuring-in-aem-6-4.md#typekitcloudserviceconfigurations">Typekit Cloud Service Configurations</a></li> 
+   <li><a href="../../../sites/deploying/using/forms-repository-restructuring-in-aem-6-4.md#main-pars-header">Misc</a></li> 
+  </ul> 
+  <h2>With 6.4 Upgrade</h2>
+  <h3>Misc</h3>
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody>
+    <tr>
+     <td><strong>Previous location</strong></td> 
+     <td><span class="code">/etc/clientlibs/fd/fp</span></td> 
+    </tr>
+    <tr>
+     <td><strong>New location(s)</strong></td> 
+     <td><span class="code">/libs/fd/fp/components</span></td> 
+    </tr>
+    <tr>
+     <td><strong>Restructuring guidance</strong></td> 
+     <td>Any explicit references in custom code to the Legacy location must be updated to the New location.</td> 
+    </tr>
+    <tr>
+     <td><strong>Notes</strong></td> 
+     <td>These client libraries should not be modified or extended.</td> 
+    </tr>
+   </tbody>
+  </table> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody>
+    <tr>
+     <td><strong>Previous location</strong></td> 
+     <td><span class="code">/etc/clientlibs/fd/rte</span></td> 
+    </tr>
+    <tr>
+     <td><strong>New location(s)</strong></td> 
+     <td><span class="code">/libs/fd/rte</span></td> 
+    </tr>
+    <tr>
+     <td><strong>Restructuring guidance</strong></td> 
+     <td>For the resources in the client libs that can be referred byabsolute paths, you need to use newer paths in fresh assets.</td> 
+    </tr>
+    <tr>
+     <td><strong>Notes</strong></td> 
+     <td>N/A</td> 
+    </tr>
+   </tbody>
+  </table> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody>
+    <tr>
+     <td><strong>Previous location</strong></td> 
+     <td><span class="code">/etc/clientlibs/fd/af</span></td> 
+    </tr>
+    <tr>
+     <td><strong>New location(s)</strong></td> 
+     <td><span class="code">/libs/fd/af/authoring/clientlibs</span></td> 
+    </tr>
+    <tr>
+     <td><strong>Restructuring guidance</strong></td> 
+     <td>For the resources in the client libs that can be referred byabsolute paths, you need to use newer paths in fresh assets.</td> 
+    </tr>
+    <tr>
+     <td><strong>Notes</strong></td> 
+     <td>N/A</td> 
+    </tr>
+   </tbody>
+  </table> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody>
+    <tr>
+     <td><strong>Previous location</strong></td> 
+     <td><span class="code">/etc/clientlibs/fd/xfaforms</span></td> 
+    </tr>
+    <tr>
+     <td><strong>New location(s)</strong></td> 
+     <td><span class="code">/libs/fd/xfaforms/clientlibs/</span></td> 
+    </tr>
+    <tr>
+     <td><strong>Restructuring guidance</strong></td> 
+     <td>For the resources in the client libs that can be referred byabsolute paths, you need to use newer paths in fresh assets.</td> 
+    </tr>
+    <tr>
+     <td><strong>Notes</strong></td> 
+     <td>N/A</td> 
+    </tr>
+   </tbody>
+  </table> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody>
+    <tr>
+     <td><strong>Previous location</strong></td> 
+     <td><span class="code">/etc/clientlibs/fd/af</span></td> 
+    </tr>
+    <tr>
+     <td><strong>New location(s)</strong></td> 
+     <td><span class="code">/libs/fd/af/runtime/clientlibs</span></td> 
+    </tr>
+    <tr>
+     <td><strong>Restructuring guidance</strong></td> 
+     <td>For the resources in the client libs that can be referred byabsolute paths, you need to use newer paths in fresh assets.</td> 
+    </tr>
+    <tr>
+     <td><strong>Notes</strong></td> 
+     <td>N/A</td> 
+    </tr>
+   </tbody>
+  </table> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody>
+    <tr>
+     <td><strong>Previous location</strong></td> 
+     <td><span class="code">/etc/clientlibs/fd/af</span></td> 
+    </tr>
+    <tr>
+     <td><strong>New location(s)</strong></td> 
+     <td><span class="code">/libs/fd/af/runtime/clientlibs</span></td> 
+    </tr>
+    <tr>
+     <td><strong>Restructuring guidance</strong></td> 
+     <td>For the resources in the client libs that can be referred byabsolute paths, you need to use newer paths in fresh assets.</td> 
+    </tr>
+    <tr>
+     <td><strong>Notes</strong></td> 
+     <td>N/A</td> 
+    </tr>
+   </tbody>
+  </table> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody>
+    <tr>
+     <td><strong>Previous location</strong></td> 
+     <td><span class="code">/etc/clientlibs/fd/expeditor</span></td> 
+    </tr>
+    <tr>
+     <td><strong>New location(s)</strong></td> 
+     <td><span class="code">/libs/fd/expeditor/clientlibs</span></td> 
+    </tr>
+    <tr>
+     <td><strong>Restructuring guidance</strong></td> 
+     <td>For the resources in the client libs that can be referred byabsolute paths, you need to use newer paths in fresh assets.</td> 
+    </tr>
+    <tr>
+     <td><strong>Notes</strong></td> 
+     <td>N/A</td> 
+    </tr>
+   </tbody>
+  </table> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody>
+    <tr>
+     <td><strong>Previous location</strong></td> 
+     <td><span class="code">/etc/clientlibs/fd/fmaddon</span></td> 
+    </tr>
+    <tr>
+     <td><strong>New location(s)</strong></td> 
+     <td><span class="code">/libs/fd/fmaddon</span></td> 
+    </tr>
+    <tr>
+     <td><strong>Restructuring guidance</strong></td> 
+     <td>Changing these clientlibs was never recommended or supported. If modifications have been made to these clientlibs, they should be rolled back to use the AEM-provided code.</td> 
+    </tr>
+    <tr>
+     <td><strong>Notes</strong></td> 
+     <td>N/A</td> 
+    </tr>
+   </tbody>
+  </table> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody>
+    <tr>
+     <td><strong>Previous location</strong></td> 
+     <td><span class="code">/etc/aep</span></td> 
+    </tr>
+    <tr>
+     <td><strong>New location(s)</strong></td> 
+     <td><span class="code">/var/fd/content/annotations</span></td> 
+    </tr>
+    <tr>
+     <td><strong>Restructuring guidance</strong></td> 
+     <td>Changing these clientlibs was never recommended or supported. If modifications have been made to these clientlibs, they should be rolled back to use the AEM-provided code.</td> 
+    </tr>
+    <tr>
+     <td><strong>Notes</strong></td> 
+     <td>N/A</td> 
+    </tr>
+   </tbody>
+  </table> 
+  <h2>Prior to 6.5 Upgrade</h2>
+  <h3>Echosign Cloud Service Configuration</h3>
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody>
+    <tr>
+     <td><strong>Previous location</strong></td> 
+     <td><span class="code">/etc/cloudservices/echosign</span></td> 
+    </tr>
+    <tr>
+     <td><strong>New location(s)</strong></td> 
+     <td><span class="code">/conf/&lt;tenant&gt;/settings/cloudconfigs/echosign</span></td> 
+    </tr>
+    <tr>
+     <td><strong>Restructuring guidance</strong></td> 
+     <td>The <a href="../../../sites/deploying/using/lazy-content-migration.md">Lazy Content Migration</a> utility to be triggered from Forms Migration UI.</td> 
+    </tr>
+    <tr>
+     <td><strong>Notes</strong></td> 
+     <td>N/A</td> 
+    </tr>
+   </tbody>
+  </table> 
+  <h3>Recaptcha Cloud Service Configurations</h3>
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody>
+    <tr>
+     <td><strong>Previous location</strong></td> 
+     <td><span class="code">/etc/cloudservices/recaptcha</span></td> 
+    </tr>
+    <tr>
+     <td><strong>New location(s)</strong></td> 
+     <td><span class="code">/conf/&lt;tenant&gt;/settings/cloudconfigs/recaptcha</span></td> 
+    </tr>
+    <tr>
+     <td><strong>Restructuring guidance</strong></td> 
+     <td>The <a href="../../../sites/deploying/using/lazy-content-migration.md">Lazy Content Migration</a> utility to be triggered from Forms Migration UI.</td> 
+    </tr>
+    <tr>
+     <td><strong>Notes</strong></td> 
+     <td>N/A</td> 
+    </tr>
+   </tbody>
+  </table> 
+  <h3>Typekit Cloud Service Configurations</h3>
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody>
+    <tr>
+     <td><strong><em></em>Previous location</strong></td> 
+     <td><span class="code">/etc/cloudservices/typekit</span></td> 
+    </tr>
+    <tr>
+     <td><strong>New location(s)</strong></td> 
+     <td><span class="code">/conf/&lt;tenant&gt;/settings/cloudconfigs/typekit</span></td> 
+    </tr>
+    <tr>
+     <td><strong>Restructuring guidance</strong></td> 
+     <td>The <a href="../../../sites/deploying/using/lazy-content-migration.md" target="_blank">Lazy Content Migration</a> utility to be triggered from Forms Migration UI.</td> 
+    </tr>
+    <tr>
+     <td><strong>Notes</strong></td> 
+     <td>N/A</td> 
+    </tr>
+   </tbody>
+  </table> 
+  <h3>Misc</h3>
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody>
+    <tr>
+     <td><strong>Previous location</strong></td> 
+     <td><span class="code">/etc/cloudservices/fdm</span></td> 
+    </tr>
+    <tr>
+     <td><strong>New location(s)</strong></td> 
+     <td><span class="code">/conf/&lt;tenant&gt;/settings/cloudconfigs/fdm</span></td> 
+    </tr>
+    <tr>
+     <td><strong>Restructuring guidance</strong></td> 
+     <td>The <a href="../../../sites/deploying/using/lazy-content-migration.md">Lazy Content Migration</a> utility to be triggered from Forms Migration UI.</td> 
+    </tr>
+    <tr>
+     <td><strong>Notes</strong></td> 
+     <td>N/A</td> 
+    </tr>
+   </tbody>
+  </table> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody>
+    <tr>
+     <td><strong>Previous location</strong></td> 
+     <td><span class="code">/etc/designs/fd/fp</span></td> 
+    </tr>
+    <tr>
+     <td><strong>New location(s)</strong></td> 
+     <td><span class="code">/libs/fd/fp</span></td> 
+    </tr>
+    <tr>
+     <td><strong>Restructuring guidance</strong></td> 
+     <td>Any references to the /etc templates should eventually be updated to point to their <span class="code">/libs</span> counterparts.</td> 
+    </tr>
+    <tr>
+     <td><strong>Notes</strong></td> 
+     <td>N/A</td> 
+    </tr>
+   </tbody>
+  </table> 
+ </body>
+</html>

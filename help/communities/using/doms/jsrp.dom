@@ -1,0 +1,98 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2017-10-31T16:33:33.123-0400" name="firstPublishExternalDate" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2017-12-01T19:02:44.609-0500" name="jcr:created" />
+  <meta content="Janice Kendall" name="contentOwner" />
+  <meta content="JSRP - JCR Storage Resource Provider" name="seoTitle" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES" name="primaryProductTag" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="JSRP is generally best suited for demonstration or development environments of one publish instance and one author instance" name="seoDescription" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES;topic_tags:administering;content_type:reference" name="cq:tags" />
+  <meta content="2018-04-03T07:47:28.028-0400" name="topicBrowsingSortDate" />
+  <meta content="30c73090-c592-48d9-9eb6-3917452879b8" name="jcr:uuid" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="JSRP - JCR Storage Resource Provider" name="jcr:title" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="/content/help/en/experience-manager/6-4/communities/morehelp/administering;/content/help/en/experience-manager/6-4/communities/morehelp/administering" name="moreHelpPaths" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" />
+  <meta content="/content/docs/en/aem/6-3/administer/communities/srp/jsrp" name="qaNotes" />
+  <meta content="2018-04-03T07:47:28.028-0400" name="publishExternalDate" />
+  <meta content="2018-04-03T07:47:28.028-0400" name="lastPublishExternalDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="622163ae-0401-4e38-ace6-72915025b51f" name="jcr:predecessors" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/communities/using/jsrp.html" name="publishExternalURL" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-04-03T07:47:29.228-0400" name="cq:lastReplicated" />
+  <meta content="JSRP - JCR Storage Resource Provider" name="navTitle" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-05-17T05:53:01.338-0400" name="locHandOffDate" />
+  <meta content="2018-05-17T05:53:01.339-0400" name="cq:lastModified" />
+ </head>
+ <body>
+  <h2>About JSRP</h2>
+  <p>When AEM Communities uses JSRP as its storage option (the default), community content is stored in JCR and user generated content (UGC) is accessible only from the author or publish instance to which it was posted.</p> 
+  <p>Because of the simplicity of deployment, JSRP is generally best suited for demonstration or development environments of one publish instance and one author instance.</p> 
+  <p>See also <a href="../../communities/using/working-with-srp.md#characteristicsofsrpoptions">Characteristics of SRP Options</a> and <a href="../../communities/using/topologies.md">Recommended Topologies</a>.</p> 
+  <h2>Configuration</h2>
+  <h3>Select JSRP</h3>
+  <p>By default, JSRP is the storage option for UGC.</p> 
+  <p>The <a href="../../communities/using/srp-config.md">Storage Configuration console</a> allows for the selection of the default storage configuration, which identifies which implementation of SRP to use.</p> 
+  <p>In the author environment, to reach the Storage Configuration console</p> 
+  <ul> 
+   <li>from global navigation : <strong>Tools, Communities, Storage Configuration</strong></li> 
+  </ul> 
+  <img imageRotate="0" src="assets/chlimage_1-234.png" />
+  <ul> 
+   <li>select <strong>JCR Storage Resource Provider (JSRP)</strong></li> 
+   <li>select <strong>Submit</strong></li> 
+  </ul> 
+  <h3>Publishing the Configuration</h3>
+  <p>While JSRP is the default configuration, to ensure the identical configuration is set in the publish environment :</p> 
+  <ul> 
+   <li>on author :<br /> 
+    <ul> 
+     <li>from global navigation : <strong>Tools, Deployment, Replication</strong></li> 
+     <li>select <strong>Activate Tree</strong></li> 
+     <li><strong>Start Path :</strong>
+      <ul> 
+       <li>browse to <span class="code">/etc/socialconfig/srpc/</span></li> 
+      </ul> </li> 
+     <li>select <strong>Activate</strong></li> 
+    </ul> </li> 
+  </ul> 
+  <h2>Managing User Data</h2>
+  <p>For information regarding <i>users</i>, <i>user profiles</i> and <i>user groups</i>, often entered in the publish environment, visit</p> 
+  <ul> 
+   <li><a href="../../communities/using/sync.md">User Synchronization</a></li> 
+   <li><a href="../../communities/using/users.md">Managing Users and User Groups</a></li> 
+  </ul>
+  <h2>Troubleshooting</h2>
+  <h3>UGC Not Visible in JCR</h3>
+  <p>Make sure JSRP has been configured to be the default provider by checking the configuration of the storage option. By default, the storage resource provider is JSRP.</p> 
+  <p>On all author and publish AEM instances, revisit the Storage Configuration console or check the AEM repository :</p> 
+  <ul> 
+   <li>in JCR, if <a href="http://localhost:4502/crx/de/index.jsp#/etc/socialconfig/">/etc/socialconfig</a>
+    <ul> 
+     <li>does not contain an <a href="http://localhost:4502/crx/de/index.jsp#/etc/socialconfig/srpc">srpc</a> node, it means the storage provider is JSRP</li> 
+     <li>if the srpc node exists and contains node <a href="http://localhost:4502/crx/de/index.jsp#/etc/socialconfig/srpc/defaultconfiguration">defaultconfiguration</a>, the defaultconfiguration's properties should define JSRP to be the default provider</li> 
+    </ul> </li> 
+  </ul> 
+  <h3>UGC Not Visible on Author Instance</h3>
+  <p>This is not a bug. A characteristic of JSRP is that community content entered in the publish environment will only be visible in the publish environment.</p> 
+  <h3>UGC Not Visible on Publish Instance</h3>
+  <p>If a single publish instance or if a publish cluster is deployed, then follow instructions for <a href="#ugcnotvisibleinjcr">UGC Not Visible in JCR</a>.</p> 
+  <p>If a publish farm is deployed, a characteristic of JSRP is that community content will only be visible on the publish instance to which it was posted.</p> 
+  <p>For UGC to be visible from any publish instance, a publish cluster is required.</p> 
+ </body>
+</html>

@@ -1,0 +1,159 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2017-12-13T19:01:33.004-0500" name="jcr:created" />
+  <meta content="2018-05-04T05:14:10.515-0400" name="publishExternalDate" />
+  <meta content="bohnert" name="cq:lastReplicatedBy" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="This page serves a landing page for developing AEM Mobile Content Services." name="seoDescription" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="/content/docs/en/aem/6-3/author/mobile-apps/content-as-a-service/spaces-and-entities" name="qaNotes" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="2018-05-11T10:03:11.498-0400" name="locHandOffDate" />
+  <meta content="2018-05-11T10:03:11.498-0400" name="cq:lastModified" />
+  <meta content="2018-05-04T05:14:10.515-0400" name="lastPublishExternalDate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-05-04T05:14:10.708-0400" name="cq:lastReplicated" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="af2c3be2-a127-4ba3-8e3d-b7ed7766d5a2" name="jcr:uuid" />
+  <meta content="077c53b4-f45b-45e7-afcf-9de90b346894" name="jcr:predecessors" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/mobile/using/spaces-and-entities.html" name="publishExternalURL" />
+  <meta content="msm-service" name="cq:lastModifiedBy" />
+  <meta content="Spaces and Entities" name="jcr:title" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="bohnert@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/MOBILE" name="cq:tags" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/MOBILE" name="primaryProductTag" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2018-05-04T05:14:10.515-0400" name="topicBrowsingSortDate" />
+  <meta content="Jyotika Syal" name="contentOwner" />
+  <meta content="2018-04-03T07:24:39.171-0400" name="firstPublishExternalDate" />
+  <meta content="Developing AEM Mobile Content Services" name="seoTitle" />
+ </head>
+ <body>
+  <note>
+   <p>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). <a href="../../sites/developing/using/spa-overview.md">Learn more</a>.</p>
+  </note>
+  <p>A Space is a convenient location to store entities that are exposed through the Content Services REST API. This is especially useful because an app (or any channel) can be associated with many entities. Forcing Entities to be within a Space forces the best practice of grouping an App's requirements. Optionally, you can associate an app in AEM with a small number of Spaces.</p> 
+  <note>
+   <p>To make something available to any channel from Content Services, it needs to be under a space.</p> 
+  </note>
+  <h2>Creating a Space</h2>
+  <p>If the user wants to expose a bunch of content and assets to a mobile app, the user creates the space using the AEM Mobile dashboard.</p> 
+  <p>For the first time user, who has not configured content services to work with spaces, the AEM Mobile dashboard displays only Apps after selecting <strong>Content Services</strong>.</p> 
+  <note>
+   <p><strong>Prerequisites for adding a space</strong></p> 
+   <p>Check the <strong>Enable AEM Content Services</strong> to work with Spaces and enable it in your AEM Mobile application dashboard.</p> 
+   <p>See <a href="/mobile/using/content-services">Administering Content Services</a> for more details.</p> 
+  </note>
+  <p>Once you configure Spaces in dashboard, follow these steps to create Spaces:</p> 
+  <ol>
+   <li><p>Choose <strong>Spaces</strong> from Content Services.</p> <img imageRotate="0" src="assets/chlimage_1-88.png" /></li>
+   <li><p>Choose <strong>Create</strong> to create a space. Enter <strong>Title</strong>, <strong>Name</strong>, and <strong>Description</strong> for the space.</p> <p>Click <strong>Create</strong>.</p> <img imageRotate="0" src="assets/chlimage_1-89.png" /></li>
+  </ol>
+  <h2>Managing a Space</h2>
+  <p>Once you create a space, click on the left to manage the space in the list.</p> 
+  <p>You can view properties of the space, delete the space, or publish the space and its contents to an AEM publish instance.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-90.png" />
+  <p><strong>Viewing and Editing Properties of a Space</strong></p>
+  <ol> 
+   <li>Select the space from the list</li> 
+   <li>Choose <strong>Properties</strong> from the toolbar</li> 
+   <li>Click <strong>Close</strong> when done</li> 
+  </ol>
+  <p><strong>Publishing a Space</strong> When a space is published, all folders and entities in that space are also published.</p>
+  <ol> 
+   <li>Select the space by clicking on its icon in the Space Console list</li> 
+   <li>Choose <strong>Publish Tree</strong></li> 
+  </ol>
+  <note>
+   <p>You can <strong>Unpublish </strong>a Space, which removes the space from the publish instance.</p> 
+   <p>The following image illustrates the actions that can be performed, after you publish the space.</p> 
+  </note>
+  <img imageRotate="0" src="assets/chlimage_1-91.png" />
+  <h2>Working with Folders in a Space</h2>
+  <p>Spaces can include folders to help further organize space's content and assets. Users can create their own hierarchy under a space.</p> 
+  <h3>Creating a Folder</h3>
+  <ol>
+   <li><p>Click on the space in the list in the space console and click <strong>Create Folder</strong></p> <img imageRotate="0" src="assets/chlimage_1-92.png" /></li>
+   <li><p>Enter the <strong>Title</strong>, <strong>Name,</strong> and <strong>Description</strong> for the folder</p> <img imageRotate="0" src="assets/chlimage_1-93.png" /></li>
+   <li><p>Click <strong>Create </strong>to create the folder in a space</p> </li>
+  </ol>
+  <h2>Language Copy</h2>
+  <note>
+   <p>Language Copy is not fully functional for this release. It only sets up the structure.</p> 
+  </note>
+  <p>The <strong>Language Copy</strong> feature allows authors to copy their master Language Copy and then create a Project and Workflow to automatically translate the content. Language Copy creates the correct structure. Once you add a folder in a space, you can add Language Copy to your space.</p> 
+  <note>
+   <p>It is recommended that any content that might be translated, should be placed under the Language Copy node.</p> 
+  </note>
+  <h3>Adding Language Copy</h3>
+  <ol>
+   <li><p>Once you create space, click on that space to create a language copy.</p> <p>Click <strong>Create</strong> and choose <strong>Language Copy</strong>.</p> <img imageRotate="0" src="assets/chlimage_1-94.png" />
+    <note>
+     <p>Language Copy nodes can only exist as a direct child of the Space.</p> 
+    </note></li>
+   <li><p>Choose <strong>Content Package Language*</strong> and enter the <strong>Title*</strong> in <strong>Create Language Copy</strong> dialog.</p> <p>Click <strong>Create</strong>.</p> <img imageRotate="0" src="assets/chlimage_1-95.png" /></li>
+   <li><p>Once you create a Language Copy, it appears in your space in <strong>Language Masters</strong>.</p> <img imageRotate="0" src="assets/chlimage_1-96.png" />
+    <note>
+     <p>Select <strong>Language Masters</strong> to view the language copy folders.</p> 
+    </note></li>
+  </ol>
+  <h3>Removing a Folder from the Space</h3>
+  <ol>
+   <li><p>Select the folder from the list of space contents</p> </li>
+   <li><p>Click <strong>Delete</strong> from the toolbar</p> 
+    <note>
+     <p>To navigate into a folder and to see its contents or add a sub folder or entity, click on the title of the folder in the space's content list.</p> 
+    </note></li>
+  </ol>
+  <h2>Working with Entities in a Space</h2>
+  <p>Entities represent content that is exposed through the web service endpoint. Entities are stored in spaces so the can be easily found and are kept independent of the AEM repository structure that holds their related content.</p> 
+  <p>You may want to group entities together in some logical gathering. To do so you can create any number of folders. </p> 
+  <p>If entity children, which are other entities, are gathered for data modeling, the developer user may create specific "Group Models" from the "Entity Group" model type, provided out-of-the-box. </p> 
+  <note>
+   <p>Entities are always associated with a space, so most of the entity user interface is accessed through the space console.</p> 
+  </note>
+  <h3>Creating an Entity</h3>
+  <ol>
+   <li><p>Open the Space console and click on the title of the space.</p> <p>Optionally, you can navigate to the folder by clicking on the title of the folder in the list.</p> <img imageRotate="0" src="assets/chlimage_1-97.png" /></li>
+   <li><p>Choose the model for the entity. This is the type of entity that you want to create. Click Next.</p> <img imageRotate="0" src="assets/chlimage_1-98.png" />
+    <note>
+     <p>You have the option to choose the <strong>Assets Model</strong>, <strong>Pages Model</strong>, or a model of entity type you created before.</p> 
+     <p>See <a href="../../mobile/using/working-with-a-model.md">Creating a Model</a>, to create your custom entity.</p> 
+    </note></li>
+   <li><p>Enter a <strong>Title</strong>,<strong> Name</strong>, <strong>Description</strong>, and<strong> Tags</strong> for the entity. Click <strong>Create</strong>.</p> <img imageRotate="0" src="assets/chlimage_1-99.png" /><p>Once you are done, the entity appears in your space's descendants.</p> </li>
+  </ol>
+  <h3>Editing an Entity</h3>
+  <ol>
+   <li><p>Once you have created an entity, go to your folder or space and choose your entity from the Space console to edit.</p> <img imageRotate="0" src="assets/chlimage_1-100.png" /></li>
+   <li><p>Select an entity for editing and click <strong>Edit</strong>.</p> <img imageRotate="0" src="assets/chlimage_1-101.png" />
+    <note>
+     <p>Depending on the template you choose to create your entity, the UI will be different for both, for editing and viewing properties of your entity. See the steps below for more details.</p> 
+    </note><p><strong><i>If you choose the template for creating the entity as Assets Models</i></strong>, clicking on <strong>Edit</strong> allows you to add assets as shown in the figure below:</p> <img imageRotate="0" src="assets/chlimage_1-102.png" /><p>Alternatively, you can click on <strong>Preview</strong> to view the json link.</p> <img imageRotate="0" src="assets/chlimage_1-103.png" /><p><strong><i>If you choose the template for creating the entity as Pages Models</i></strong>, clicking on <strong>Edit</strong> allows you to add assets as shown in the figure below:</p> <img imageRotate="0" src="assets/chlimage_1-104.png" /><p>Click on the icon in the <strong>Path</strong> to add an asset</p> <img imageRotate="0" src="assets/chlimage_1-105.png" />
+    <note>
+     <p>Once you add an entity, it must be saved for the Preview link to work. To view the preview, click <strong>Save</strong>. Clicking on the <strong>Preview</strong> shows the json of the added asset, as shown in the figure below:</p> 
+    </note><img imageRotate="0" src="assets/chlimage_1-106.png" />
+    <note>
+     <p>When you are done adding assets to your entity, you can either choose <strong>Save</strong> to save the changes or choose <strong>Save &amp; Close</strong> to save and redirect to the Space console list where the entities are defined.</p> 
+    </note><p>Additionally, select an entity from the space console list and click on <strong>Properties</strong> to view and edit the properties for a defined entity.</p> <img imageRotate="0" src="assets/chlimage_1-107.png" /><p>You can edit the title, description, tags and add the assets to your entity. </p> <img imageRotate="0" src="assets/chlimage_1-108.png" /></li>
+  </ol>
+  <h3>Removing an Entity</h3>
+  <ol>
+   <li><p>Select the entity from the list of space contents</p> <img imageRotate="0" src="assets/chlimage_1-109.png" /></li>
+   <li><p>Click <strong>Delete</strong> from the toolbar to remove the specific entity from the space</p> </li>
+  </ol>
+  <h3>Publishing an Entity</h3>
+  <p>You have the option of choosing <strong>Publish Tree</strong> or <strong>Quick Publish</strong> to publish your entity.</p> 
+  <ol>
+   <li><p>Select an entity from the space console list and click <strong>Publish Tree </strong>to publish that entity and its children.</p> <img imageRotate="0" src="assets/chlimage_1-110.png" /><p><strong>Or</strong>,</p> <p>Click <strong>Quick Publish</strong> to publish that specific entity.</p> </li>
+  </ol>
+ </body>
+</html>

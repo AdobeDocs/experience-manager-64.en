@@ -1,0 +1,56 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="Admin Consoles" name="jcr:title" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" />
+  <meta content="/content/help/en/experience-manager/6-4/sites/administering/morehelp/operations;/content/help/en/experience-manager/6-4/sites/administering/morehelp/operations" name="moreHelpPaths" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/enable-classic-ui-admin.html" name="publishExternalURL" />
+  <meta content="2018-04-26T10:13:22.464-0400" name="locHandOffDate" />
+  <meta content="2018-04-03T07:03:20.246-0400" name="lastPublishExternalDate" />
+  <meta content="Admin Consoles" name="seoTitle" />
+  <meta content="2017-10-31T16:25:08.596-0400" name="firstPublishExternalDate" />
+  <meta content="2018-04-03T07:03:20.246-0400" name="topicBrowsingSortDate" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-04-03T07:03:20.681-0400" name="cq:lastReplicated" />
+  <meta content="Lear how to use the Admin Consoles available in AEM." name="seoDescription" />
+  <meta content="2018-04-03T07:03:20.246-0400" name="publishExternalDate" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2017-12-01T19:05:04.845-0500" name="jcr:created" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="0b0b33fc-02a4-430e-8d03-88592ea6eb26" name="jcr:uuid" />
+  <meta content="2701f3b7-f051-41fc-bfe0-e217813c1140" name="jcr:predecessors" />
+  <meta content="/content/docs/en/aem/6-3/administer/operations/enabling-access-to-classic-ui/admin-consoles" name="qaNotes" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="Chris Bohnert" name="contentOwner" />
+  <meta content="2018-04-26T10:13:22.464-0400" name="cq:lastModified" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="audience:administering" name="primaryAudienceTag" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="bohnert" name="cq:lastModifiedBy" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:operations;content_type:reference" name="cq:tags" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+ </head>
+ <body>
+  <p>By default, the ability to switch to the classic UI via the admin consoles has been disabled. Therefore the pop-up icons that was seen when mousing over certain console icons, allowing access to classic UI, are no longer displayed.</p> 
+  <img imageRotate="0" src="assets/screen_shot_2018-03-23at111956.png" />
+  <p>Every console that has a Classic UI version in <span class="code">/libs/cq/core/content/nav</span> can be re-enabled individually so that the <strong>Classic UI</strong> option once again pops up over the console icon when it is moused over.</p> 
+  <p>In this example, we are re-enabling the Classic UI for the Sites console.</p> 
+  <ol>
+   <li><p>Using CRXDE Lite, find the node corresponding the the admin console for which you want to re-enable Classic UI. They are found under:</p>  <p>For example</p>  </li>
+   <li><p>Select the node corresponding to the console for which you want to re-enable Classic UI. For our example, we will re-enable classic UI for the Sites console.</p>  </li>
+   <li><p>Using the <strong>Overlay Node</strong> option, create an overlay for the selected node under <span class="code">/apps</span> as follows:</p>  </li>
+   <li><p>Add the following boolean property to the overlaid node:</p>  </li>
+   <li><p>The <strong>Classic UI</strong> option is again available as a popover option in the admin console.</p> <img imageRotate="0" src="assets/screen_shot_2018-03-23at111924.png" /></li>
+  </ol>
+  <p>Repeat these steps for every console for which you wish to re-enable access to the Classic UI version.</p> 
+ </body>
+</html>

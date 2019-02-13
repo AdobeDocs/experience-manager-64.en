@@ -1,0 +1,70 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2019-01-03T05:35:12.535-0500" name="firstPublishExternalDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2018-03-29T07:29:27.073-0400" name="jcr:created" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="9bc7784a-6890-4b0e-b7b4-85b0a35a5097" name="jcr:predecessors" /> 
+  <meta content="2019-01-03T05:35:12.568-0500" name="cq:lastReplicated" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="en" name="pageCreatedAt" /> 
+  <meta content="anujkapo" name="cq:lastModifiedBy" /> 
+  <meta content="2019-01-03T05:35:12.535-0500" name="publishExternalDate" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2019-01-07T06:42:55.727-0500" name="locHandOffDate" /> 
+  <meta content="anujkapo" name="cq:lastReplicatedBy" /> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/correspondence-management;/content/help/en/experience-manager/6-3/forms/morehelp/correspondence-management" name="moreHelpPaths" /> 
+  <meta content="Configuring a Correspondence Management solution" name="seoTitle" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2019-01-03T05:35:12.535-0500" name="lastPublishExternalDate" /> 
+  <meta content="topic_tags:correspondence-management;content_type:reference;products:SG_EXPERIENCEMANAGER/6.3/FORMS" name="cq:tags" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="Configuring a Correspondence Management solution" name="jcr:title" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2019-01-07T06:42:55.728-0500" name="cq:lastModified" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="8e566145-ef06-444c-91b8-c6f407ef8aea" name="jcr:uuid" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="2019-01-03T05:35:12.535-0500" name="topicBrowsingSortDate" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/configuring-a-cm-solution.html" name="publishExternalURL" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="anujkapo@adobe.com" name="lr_lastReplicatedBy" /> 
+ </head> 
+ <body> 
+  <h2>Defining author instance URL for VersionRestoreManagerImpl</h2> 
+  <p>Use the following steps to define an author instance URL for the author instance version restore:</p> 
+  <ol> 
+   <li><p>Go to <em>http://:&amp;lt;PublishHost&amp;gt;:&amp;lt;PublishPort&amp;gt;/lc/system/console/configMgr</em>. Login with OSGi Management Console user credentials. The default credentials are admin/admin. </p> </li> 
+   <li><p>Find and click the <span class="uicontrol">Edit</span> icon next to the <span class="uicontrol">com.adobe.livecycle.content.activate.impl.VersionRestoreManagerImpl.name</span> setting.</p> </li> 
+   <li><p>In the <span class="uicontrol">VersionRestoreManager Author URL</span> field, specify the URL of Author instance of VersionRestoreManager. </p> <p><strong>URL string</strong>:<br /> <span class="code">http://&amp;lt;hostname&amp;gt;:&amp;lt;port&amp;gt;:/libs/fd/fdm/content/crud/lc.content.remote.activate.VersionRestoreManager</span></p> 
+    <note> 
+     <p>If there are multiple author instances (Clustered) fronted by a Load Balancer, specify the URL to the load balancer in the <span class="uicontrol">VersionRestoreManager Author URL</span> field. </p> 
+    </note></li> 
+   <li><p>Click <span class="uicontrol">Save</span>.</p> </li> 
+  </ol> 
+  <h2>Defining the Publish instance URL for ActivationManagerImpl (public instance activation manager)</h2> 
+  <p>Follow these steps the define the Publish instance URL for public instance activation manager:</p> 
+  <ol> 
+   <li><p>Go to <em>http://:&amp;lt;authorHost&amp;gt;:&amp;lt;authorPort&amp;gt;/lc/system/console/configMgr</em>. Login with OSGi Management Console user credentials. The default credentials are admin/admin. </p> </li> 
+   <li><p>Find and click the <span class="uicontrol">Edit</span> icon next to the <span class="uicontrol">com.adobe.livecycle.content.activate.impl.ActivationManagerImpl.name</span> setting.</p> </li> 
+   <li><p>In the <span class="uicontrol">ActivationManager Publish URL</span> field, specify the URL for accessing the Publish instance ActivationManager. You can provide the following URLs.</p> 
+    <ul> 
+     <li><strong>Load Balancer URL (Recommended)</strong>: Provide load balancer URL, If you have a webserver acting as load balancer in front of publish farm (multiple non-clustered publish instances).</li> 
+     <li><strong>Publish instance URL</strong>: Provide any publish instance URL, If you have a single publish instance or the webserver fronting the publish farm is not accessible from the author environment due to any restrictions. In case, the specified publish instance is down, there is a fallback mechanism to deal with on the author side.</li> 
+     <li><strong>URL string</strong>: <br /> <span class="code">http://&amp;lt;hostname&amp;gt;:&amp;lt;port&amp;gt;:/libs/fd/fdm/content/crud/lc.content.remote.activate.activationManager</span></li> 
+    </ul> </li> 
+   <li><p>Click <span class="uicontrol">Save</span>.</p> </li> 
+  </ol> 
+  <p>For more information about configuring Correspondence Management, see <a href="/content/help/en/aem-forms/6-2/cm-configuration-properties" target="_blank">Correspondence Management Configuration Properties</a>.</p> 
+ </body> 
+</html>

@@ -1,0 +1,304 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2018-01-18T11:19:06.387-0500" name="topicBrowsingSortDate" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2018-01-18T11:19:06.387-0500" name="publishExternalDate" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2018-05-08T12:42:08.542-0400" name="locHandOffDate" /> 
+  <meta content="2018-04-03T09:00:31.263-0400" name="cq:lastReplicated" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/morehelp/components;/content/help/en/experience-manager/6-4/sites/developing/morehelp/components" name="moreHelpPaths" /> 
+  <meta content="Developing AEM Components (Classic UI)" name="navTitle" /> 
+  <meta content="e99e3b7e-3887-4f72-82d0-8d23a1bb9c33" name="jcr:uuid" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="/content/docs/en/aem/6-2/develop/components/components-classic" name="legacyPath" /> 
+  <meta content="2018-05-08T12:42:08.543-0400" name="cq:lastModified" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="dist5" name="distType" /> 
+  <meta content="Developing AEM Components (Classic UI)" name="jcr:title" /> 
+  <meta content="2017-10-31T16:17:00.497-0400" name="firstPublishExternalDate" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="Developing AEM Components (Classic UI)" name="seoTitle" /> 
+  <meta content="light" name="gnavTheme" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/developing-components-classic.html" name="publishExternalURL" /> 
+  <meta content="msm-service" name="cq:lastModifiedBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:components;content_type:reference" name="cq:tags" /> 
+  <meta content="The classic UI uses ExtJS to create widgets that provide the look-and-feel of the components. HTL is not the recommended scripting language for AEM." name="seoDescription" /> 
+  <meta content="audience:developing" name="primaryAudienceTag" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="User" name="contentOwner" /> 
+  <meta content="/content/docs/en/aem/6-3/develop/components/developing-components-classic" name="qaNotes" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2018-01-18T11:19:06.387-0500" name="lastPublishExternalDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2018-01-19T19:05:35.598-0500" name="jcr:created" /> 
+  <meta content="65154473-7d9f-4828-a068-73a5d465a477" name="jcr:predecessors" /> 
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" /> 
+ </head> 
+ <body> 
+  <p>The classic UI uses ExtJS to create widgets that provide the look-and-feel of the components. Due to the nature of these widgets there are some differences between how components interact with the classic UI and the <a href="../../../sites/developing/using/developing-components.md">touch-enabled UI</a>.</p> 
+  <note> 
+   <p>Many aspects of component development are common to both the classic UI and the touch-enabled UI, so <strong>you must read <a href="../../../sites/developing/using/components-basics.md">AEM Components - The Basics</a> before</strong> using this page, which deals with the specifics of the classic UI.</p> 
+  </note> 
+  <note> 
+   <p>Although both the HTML Template Language (HTL) and JSP can be used for developing components for the classic UI, this page illustrates development with JSP. This is solely due to the history of using JSP within the classic UI.<br /> </p> 
+   <p>HTL is now the recommended scripting language for AEM. See <a href="/content/help/en/experience-manager/htl/user-guide">HTL</a> and <a href="../../../sites/developing/using/developing-components.md">Developing AEM Components</a> to compare methods.<br /> </p> 
+  </note> 
+  <h2>Structure</h2> 
+  <p>The basic structure of a component is covered on the page <a href="../../../sites/developing/using/components-basics.md#structure">AEM Components - The Basics</a>, which applies both the touch-eanbeld and classic UIs. Een if you do not need to use the settings for the touch-enabled UI in your new component, it can help to be aware of them when inheriting from existing components.</p> 
+  <h2>JSP Scripts</h2> 
+  <p>JSP Scripts or Servlets can be used to render components. According to the request processing rules of Sling the name for the default script is:</p> 
+  <p style="margin-left: 40px;"><span class="code">&amp;lt;<i>componentname</i>&amp;gt;.jsp</span></p> 
+  <h2>global.jsp</h2> 
+  <p>The JSP script file <span class="code">global.jsp</span> is used to provide quick access to specific objects (i.e. to access content) to any JSP script file used to render a component.</p> 
+  <p>Therefore <span class="code">global.jsp</span> should be included in every component rendering JSP script where one or more of the objects provided in <span class="code">global.jsp</span> are used.</p> 
+  <p>The location of the default <span class="code">global.jsp</span> is:</p> 
+  <p style="margin-left: 40px;"><span class="code">/libs/foundation/global.jsp</span></p> 
+  <note> 
+   <p>The path <span class="code">/libs/wcm/global.jsp</span>, which was used by the versions CQ 5.3 and earlier, is now obsolete.</p> 
+  </note> 
+  <h3>Function of global.jsp, used APIs, and Taglibs</h3> 
+  <p>The following lists the most important objects provided from the default <span class="code">global.jsp</span>:</p> 
+  <p>Summary:</p> 
+  <ul> 
+   <li><span class="code">&amp;lt;cq:defineObjects /&amp;gt;</span><br /> 
+    <ul> 
+     <li><span class="code">slingRequest</span> - The wrapped Request Object (<span class="code">SlingHttpServletRequest</span>).</li> 
+     <li><span class="code">slingResponse</span> - The wrapped Response Object (<span class="code">SlingHttpServletResponse</span>).</li> 
+     <li><span class="code">resource</span> - The Sling Resource Object (<span class="code">slingRequest.getResource();</span>).</li> 
+     <li><span class="code">resourceResolver</span> - The Sling Resource Resolver Object (<span class="code">slingRequest.getResoucreResolver();</span>).</li> 
+     <li><span class="code">currentNode</span> - The resolved JCR node for the request.</li> 
+     <li><span class="code">log</span> - The Default logger ().</li> 
+     <li><span class="code">sling</span> - The Sling script helper.</li> 
+     <li><span class="code">properties</span> - The properties of the addressed resource (<span class="code">resource.adaptTo(ValueMap.class);</span>).</li> 
+     <li><span class="code">pageProperties</span> - The properties of the page of the addressed resource.</li> 
+     <li><span class="code">pageManager</span> - The page manager for accessing AEM content pages (<span class="code">resourceResolver.adaptTo(PageManager.class);</span>).</li> 
+     <li><span class="code">component</span> - The component object of the current AEM component..</li> 
+     <li><span class="code">designer</span> - The designer object for retrieving design information (<span class="code">resourceResolver.adaptTo(Designer.class);</span>).</li> 
+     <li><span class="code">currentDesign</span> - The design of the addressed resource.</li> 
+     <li><span class="code">currentStyle</span> - The style of the addressed resource.</li> 
+    </ul> </li> 
+  </ul> 
+  <h3>Accessing Content</h3> 
+  <p>There are three methods to access content in AEM WCM:</p> 
+  <ul> 
+   <li>Via the properties object introduced in <span class="code">global.jsp</span>:<br /> The properties object is an instance of a ValueMap (see <a href="http://sling.apache.org/apidocs/sling5/org/apache/sling/api/resource/ValueMap.html">Sling API</a>) and contains all properties of the current resource.<br /> Example: <span class="code">String pageTitle = properties.get("jcr:title", "no title");</span> used in the rendering script of a page component.<br /> Example: <span class="code">String paragraphTitle = properties.get("jcr:title", "no title");</span> used in the rendering script of a standard paragraph component.</li> 
+   <li>Via the <span class="code">currentPage</span> object introduced in <span class="code">global.jsp</span>:<br /> The <span class="code">currentPage</span> object is an instance of a page (see <a href="/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/api/Page">AEM API</a>). The page class provides some methods to access content.<br /> Example: <span class="code">String pageTitle = currentPage.getTitle();</span></li> 
+   <li>Via <span class="code">currentNode</span> object introduced in <span class="code">global.jsp</span>:<br /> The <span class="code">currentNode</span> object is an instance of a node (see <a href="http://jackrabbit.apache.org/api/2.16/org/apache/jackrabbit/standalone/cli/core/CurrentNode.html">JCR API</a>). The properties of a node can be accessed by the <span class="code">getProperty()</span> method.<br /> Example: <span class="code">String pageTitle = currentNode.getProperty("jcr:title");</span></li> 
+  </ul> 
+  <h2>JSP Tag Libraries</h2> 
+  <p>The CQ and Sling tag libraries give you access to specific functions for use in the JSP script of your templates and components.</p> 
+  <p>For more information, see the document <a href="../../../sites/developing/using/taglib.md">Tag Libraries</a>. </p> 
+  <h2>Using Client-Side HTML Libraries</h2> 
+  <p>Modern websites rely heavily on client-side processing driven by complex JavaScript and CSS code. Organizing and optimizing the serving of this code can be a complicated issue.</p> 
+  <p>To help deal with this issue, AEM provides <strong>Client-side Library Folders</strong>, which allow you to store your client-side code in the repository, organize it into categories and define when and how each category of code is to be served to the client. The client-side library system then takes care of producing the correct links in your final web page to load the correct code.</p> 
+  <p>See the document <a href="../../../sites/developing/using/clientlibs.md">Using Client-Side HTML Libraries</a> for more information.</p> 
+  <h2>Dialog</h2> 
+  <p>Your component will need a dialog for authors to add and configure the content.</p> 
+  <p>See <a href="../../../sites/developing/using/components-basics.md#dialogs">AEM Components - The Basics</a> for further details.</p> 
+  <h2>Configuring the Edit Behavior</h2> 
+  <p>You can configure the edit behavir of a component. This includes attributes such as actions available for the component, characteristics of the inplace editor, and the listeners related to events on the component. The configuration is common to both the touch-enabled and classic UIs, albeit with certain, specific differences.</p> 
+  <p>The <a href="../../../sites/developing/using/components-basics.md#editbehavior">edit behavior of a component is configured</a> by adding a <span class="code">cq:editConfig</span> node of type <span class="code">cq:EditConfig</span> below the component node (of type <span class="code">cq:Component</span>) and by adding specific properties and child nodes. </p> 
+  <h2>Using and Extending ExtJS Widgets</h2> 
+  <p>See <a href="../../../sites/developing/using/widgets.md">Using and Extending ExtJS Widgets</a> for more details.<br /> </p> 
+  <h2>Using xtypes for ExtJS Widgets</h2> 
+  <p>See <a href="../../../sites/developing/using/xtypes.md">Using xtypes</a> for more details.</p> 
+  <h2>Developing New Components</h2> 
+  <p>This section describes how to create your own components and add them to the paragraph system.</p> 
+  <p>A quick way to get started is to copy an existing component and then make the changes you want.</p> 
+  <p>An example of how to develop a component is described in detail in <a href="#extendingthetextandimagecomponentanexample">Extending the Text and Image Component - An Example.</a></p> 
+  <h3>Develop a New Component (Adapt Existing Component)</h3> 
+  <p>To develop new components for AEM based on existing component you can copy the component, create a javascript file for the new component and store it in a location accessible to AEM (see also <a href="../../../sites/developing/using/dev-guidelines-bestpractices.md#customizingcomponentsandotherelements">Customizing Components and Other Elements</a>):</p> 
+  <ol> 
+   <li><p>Using CRXDE Lite, create a new component folder in:</p> <p style="margin-left: 40px;">/<span class="code">apps/&amp;lt;<i>myProject</i>&amp;gt;/components/&amp;lt;<i>myComponent</i>&amp;gt;</span></p> <p>Recreate the node structure as in libs, then copy the definition of an existing component, such as the Text component. For example, to customize the Text component copy:</p> 
+    <ul> 
+     <li>from <span class="code">/libs/foundation/components/text</span></li> 
+     <li>to <span class="code">/apps/myProject/components/text</span></li> 
+    </ul>   </li> 
+   <li><p>Modify the <span class="code">jcr:title</span> to reflect its new name.</p> </li> 
+   <li><p>Open the new component folder and make the changes you require. Also, delete any extraneous information in the folder.</p> <p>You can make changes such as:</p> 
+    <ul> 
+     <li>adding a new field in the dialog box 
+      <ul> 
+       <li><span class="code">cq:dialog</span> - dialog for the touch-enabled UI<br /> </li> 
+       <li><span class="code">dialog</span> - dialog for the classic UI</li> 
+      </ul> </li> 
+     <li>replacing the <span class="code">.jsp</span> file (name it after your new component)</li> 
+     <li>or completely reworking the entire component if you want</li> 
+    </ul> <p>For example, if you take a copy of the standard Text component, you can add an additional field to the dialog box, then update the <span class="code">.jsp</span> to process the input made there.</p> 
+    <note> 
+     <p>A component for the:<br /> </p> 
+     <ul> 
+      <li>Touch-enabled UI uses <a href="/sites/developing/using/reference-materials/granite-ui/api/jcr_root/libs/granite/ui/index">Granite</a> components<br /> </li> 
+      <li>Classic UI uses <a href="/sites/developing/using/reference-materials/widgets-api/index">ExtJS widgets</a></li> 
+     </ul> 
+    </note> 
+    <note> 
+     <p>A dialog defined for the classic UI will operate within the touch-enabled UI.</p> 
+     <p>A dialog defined for the touch-enabled UI will not operate within the classic UI.</p> 
+     <p>Depending on your instance and author environment you might want to define both types of dialog for your component.<br /> </p> 
+    </note> </li> 
+   <li><p>One of the following nodes should be present and properly initialized for the new component to appear:</p> 
+    <ul> 
+     <li><span class="code">cq:dialog</span> - dialog for the touch-enabled UI<br /> </li> 
+     <li><span class="code">dialog</span> - dialog for the classic UI<br /> </li> 
+     <li><span class="code">cq:editConfig</span> - how components behave in the edit environment (e.g drag and drop)<br /> </li> 
+     <li><span class="code">design_dialog</span> - dialog for design mode (classic UI only)</li> 
+    </ul> </li> 
+   <li><p>Activate the new component in your paragraph system by either:</p> 
+    <ul> 
+     <li>using CRXDE Lite to add the value <span class="code">&amp;lt;path-to-component&amp;gt;</span> (for example, <span class="code">/apps/geometrixx/components/myComponent</span>) to the property components of the node <span class="code">/etc/designs/geometrixx/jcr:content/contentpage/par</span> <br /> </li> 
+     <li>following the instructions in <a href="#addinganewcomponenttotheparagraphsystemdesignmode">Adding new components to paragraph systems</a></li> 
+    </ul> </li> 
+   <li><p>In AEM WCM, open a page in your web site and insert a new paragraph of the type you just created to make sure the component is working properly.</p> </li> 
+  </ol> 
+  <note> 
+   <p>To see timing statistics for page loading, you can use Ctrl-Shift-U - with <span class="code">?debugClientLibs=true</span> set in the URL.</p> 
+  </note> 
+  <h3>Adding a New Component to the Paragraph System (Design Mode)</h3> 
+  <p>After the component has been developed, you add it to the paragraph system, which enables authors to select and use the component when editing a page.</p> 
+  <ol> 
+   <li><p>Access a page within your authoring environment that uses the paragraph system, for example <span class="code">&amp;lt;contentPath&amp;gt;/Test.html</span>.</p> </li> 
+   <li><p>Switch to Design mode by either:</p> 
+    <ul> 
+     <li>adding <span class="code">?wcmmode=design</span> to the end of the URL and accessing again, for example:<br /> <span class="code">&amp;lt;contextPath&amp;gt;/ Test.html?wcmmode=design</span></li> 
+     <li>clicking Design in Sidekick</li> 
+    </ul> <p>You are now in design mode and can edit the paragraph system.</p> </li> 
+   <li><p>Click Edit.</p> <p>A list of components belonging to the paragraph system are shown. Your new component is also listed.</p> <p>The components can be activated (or deactivated) to determine which are offered to the author when editing a page.</p> </li> 
+   <li><p>Activate your component, then return to normal edit mode to confirm that it is available for use.</p> </li> 
+  </ol> 
+  <h3>Extending the Text and Image Component - An Example</h3> 
+  <p>This section provides an example on how to extend the widely used text and image standard component with a configurable image placement feature.</p> 
+  <p>The extension to the text and image component allows editors to use all the existing functionality of the component plus have an extra option to specify the placement of the image either:</p> 
+  <ul> 
+   <li>On the left-hand side of the text (current behavior and the new default)</li> 
+   <li>As well as on the right-hand side</li> 
+  </ul> 
+  <p>After extending this component, you can configure the image placement through the component's dialog box.</p> 
+  <p>The following techniques are described in this exercise:</p> 
+  <ul> 
+   <li>Copying existing component node and modifying its metadata</li> 
+   <li>Modifying the component's dialog, including inheritance of widgets from parent dialog boxes</li> 
+   <li>Modifying the component's script to implement the new functionality</li> 
+  </ul> 
+  <note> 
+   <p>This example is targeted at the classic UI.<br /> </p> 
+  </note> 
+  <note> 
+   <p>This example is based on the Geometrixx sample content, which is no longer shipped with AEM, having been replaced by We.Retail. See the document <a href="../../../sites/developing/using/we-retail.md#main-pars-title-2a55">We.Retail Reference Implementation</a> for how to download and install Geometrixx.</p> 
+  </note> 
+  <h4>Extending the Existing textimage Component</h4> 
+  <p>To create the new component, we use the standard textimage component as a basis and modify it. We store the new component in the Geometrixx AEM WCM example application.<br /> </p> 
+  <ol> 
+   <li><p>Copy the standard textimage component from <span class="code">/libs/foundation/components/textimage</span> into the Geometrixx component folder, <span class="code">/apps/geometrixx/components</span>, using textimage as the target node name. (Copy the component by navigating to the component, right-clicking and selecting Copy and browsing to the target directory.)</p> <img imageRotate="0" src="assets/chlimage_1-68.png" /></li> 
+   <li><p>To keep this example simple, navigate to the component you copied and delete all the subnodes of the new textimage node except for the following ones:</p> 
+    <ul> 
+     <li>dialog definition: <span class="code">textimage/dialog</span></li> 
+     <li>component script: <span class="code">textimage/textimage.jsp</span></li> 
+     <li>edit configuration node (allowing drag-and-drop of assets): <span class="code">textimage/cq:editConfig</span><strong><br /> </strong></li> 
+    </ul> 
+    <note> 
+     <p>The dialog definition is dependent on the UI:</p> 
+     <ul> 
+      <li>Touch-enabled UI: <span class="code">textimage/cq:dialog</span></li> 
+      <li>Classic UI: <span class="code">textimage/dialog</span></li> 
+     </ul> 
+    </note></li> 
+   <li><p>Edit the component metadata:</p> 
+    <ul> 
+     <li>Component name 
+      <ul> 
+       <li>Set <span class="code">jcr:description</span> to <span class="code">Text Image Component (Extended)</span></li> 
+       <li>Set <span class="code">jcr:title</span> to <span class="code">Text Image (Extended)</span></li> 
+      </ul> </li> 
+     <li>Group, where the component is listed in the sidekick (leave as is) 
+      <ul> 
+       <li>Leave <span class="code">componentGroup</span> set to <span class="code">General</span></li> 
+      </ul> </li> 
+     <li>Parent component for the new component (the standard textimage component) 
+      <ul> 
+       <li>Set <span class="code">sling:resourceSuperType</span> to <span class="code">foundation/components/textimage</span></li> 
+      </ul> </li> 
+    </ul> <p>After this step, the component node looks like this:</p>  <img imageRotate="0" src="assets/chlimage_1-69.png" /></li> 
+   <li><p>Change the <span class="code">sling:resourceType</span> property of the edit configuration node of the image (property: <span class="code">textimage/cq:editConfig/cq:dropTargets/image/parameters/sling:resourceType</span>) to <span class="code">geometrixx/components/textimage.</span><br /> </p> <p>This way, when an image is dropped to the component on the page, the <span class="code">sling:resourceType</span> property of the extended textimage component is set to: <span class="code">geometrixx/components/textimage.</span></p> </li> 
+   <li><p>Modify the component's dialog box to include the new option. The new component inherits the parts of the dialog box that are the same as in the original. The only addition we make is to extend the <strong>Advanced</strong> tab, adding an <strong>Image Position</strong> dropdown list, with options <strong>Left</strong> and <strong>Right</strong>:</p> 
+    <ul> 
+     <li>Leave the <span class="code">textimage/dialog </span>properties unchanged.</li> 
+    </ul> <p>Note how <span class="code">textimage/dialog/items</span> has four subnodes, tab1 to tab4, representing the four tabs of the textimage dialog box.</p> 
+    <ul> 
+     <li>For the first two tabs (tab1 and tab2): 
+      <ul> 
+       <li>Change xtype to cqinclude (to inherit from the standard component).</li> 
+       <li>Add a path property with values <span class="code">/libs/foundation/components/textimage/dialog/items/tab1.infinity.json </span>and <span class="code">/libs/foundation/components/textimage/dialog/items/tab2.infinity.json</span>, respectively.</li> 
+       <li>Remove all other properties or subnodes.</li> 
+      </ul> </li> 
+     <li>For tab3: 
+      <ul> 
+       <li>Leave the properties and subnodes without changes</li> 
+       <li>Add a new field definition to <span class="code">tab3/items</span>, node position of type <span class="code">cq:Widget</span></li> 
+       <li>Set the following properties (of type String) for the new <span class="code">tab3/items/position </span>node: 
+        <ul> 
+         <li><span class="code">name</span>: <span class="code">./imagePosition</span></li> 
+         <li><span class="code">xtype</span>: <span class="code">selection</span></li> 
+         <li><span class="code">fieldLabel</span>: <span class="code">Image Position</span></li> 
+         <li><span class="code">type</span>: <span class="code">select</span></li> 
+        </ul> </li> 
+       <li>Add subnode <span class="code">position/options</span> of type <span class="code">cq:WidgetCollection</span> to represent the two choices for image placement, and under it create two nodes, o1 and o2 of type <span class="code">nt:unstructured</span>.</li> 
+       <li>For node <span class="code">position/options/o1</span> set the properties: <span class="code">text</span> to <span class="code">Left</span> and <span class="code">value</span> to <span class="code">left.</span></li> 
+       <li>For node <span class="code">position/options/o2</span> set the properties: <span class="code">text</span> to <span class="code">Right</span> and <span class="code">value</span> to <span class="code">right</span>.</li> 
+      </ul> </li> 
+     <li>Delete tab4.<br /> </li> 
+    </ul> <p>Image position is persisted in content as the <span class="code">imagePosition </span>property of the node representing <span class="code">textimage</span> paragraph. After these steps, the component dialog box looks like this:</p> <img imageRotate="0" src="assets/chlimage_1-70.png" /></li> 
+   <li><p>Extend the component script, <span class="code">textimage.jsp</span>, with extra handling of the new parameter:</p>  
+    <codeblock gutter="true" class="syntax xml">
+      Image&amp;nbsp;image&amp;nbsp;=&amp;nbsp;new&amp;nbsp;Image(resource,&amp;nbsp;"image");!!discoiqbr!!!!discoiqbr!!if&amp;nbsp;(image.hasContent()&amp;nbsp;||&amp;nbsp;WCMMode.fromRequest(request)&amp;nbsp;==&amp;nbsp;WCMMode.EDIT)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;image.loadStyleData(currentStyle); 
+    </codeblock><p>We are going to replace the emphasized code fragment <i>%&amp;gt;&amp;lt;div class="image"&amp;gt;&amp;lt;%</i> with new code generating a custom style for this tag.</p>  
+    <codeblock gutter="true" class="syntax xml">
+      //&amp;nbsp;todo:&amp;nbsp;add&amp;nbsp;new&amp;nbsp;CSS&amp;nbsp;class&amp;nbsp;for&amp;nbsp;the&amp;nbsp;'right&amp;nbsp;image'&amp;nbsp;instead&amp;nbsp;of&amp;nbsp;using&amp;nbsp;!!discoiqbr!!//&amp;nbsp;the&amp;nbsp;style&amp;nbsp;attribute&amp;nbsp;!!discoiqbr!!String&amp;nbsp;style="";!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if&amp;nbsp;(properties.get("imagePosition",&amp;nbsp;"left").equals("right"))&amp;nbsp;{&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;style&amp;nbsp;=&amp;nbsp;"style=\"float:right\"";&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;%&gt;&lt;div&amp;nbsp;&lt;%=&amp;nbsp;style&amp;nbsp;%&gt;&amp;nbsp;class="image"&gt;&lt;% 
+    </codeblock>  <p>4. Save the component to the repository. The component is ready to test.<br /> </p> </li> 
+  </ol>   
+  <h4>Checking the New Component</h4> 
+  <p>After the component has been developed, you can add it to the paragraph system, which enables authors to select and use the component when editing a page. These steps allow you to test the component.</p> 
+  <ol> 
+   <li><p>Open a page in Geometrixx such as English / Company.</p> </li> 
+   <li><p>Switch to design mode by clicking Design in Sidekick.</p> </li> 
+   <li><p>Edit the paragraph system design by clicking Edit on the paragraph system in the middle of the page. A list of components, which can be placed in the paragraph system are shown, and it should include your newly developed component, Text Image (Extended) . Activate it for the paragraph system by selecting it and clicking OK .</p> </li> 
+   <li><p>Switch back to the editing mode.</p> </li> 
+   <li><p>Add the Text Image (Extended) paragraph to the paragraph system, initialize text and image with sample content. Save the changes.</p> </li> 
+   <li><p>Open the dialog of the text and image paragraph, and change the Image Position on the Advanced tab to Right , and click OK to save the changes.</p> </li> 
+   <li><p>The paragraph is rendered with the image on the right.</p> </li> 
+   <li><p>The component is now ready to use.</p> </li> 
+  </ol> 
+  <p>The component stores its content in a paragraph on the Company page.</p> 
+  <h3>Disable Upload Capability of the Image Component</h3> 
+  <p>To disable this capability, we use the standard image component as a basis and modify it. We store the new component in the Geometrixx example application.</p> 
+  <ol> 
+   <li><p>Copy the standard image component from <span class="code">/libs/foundation/components/image</span> into the Geometrixx component folder, <span class="code">/apps/geometrixx/components</span>, using image as the target node name.</p> <img imageRotate="0" src="assets/chlimage_1-71.png" /></li> 
+   <li><p>Edit the component metadata:</p> 
+    <ul> 
+     <li>Set <strong>jcr:title</strong> to <span class="code">Image (Extended)</span></li> 
+    </ul> </li> 
+   <li><p>Navigate to<span class="code"> /apps/geometrixx/components/image/dialog/items/image</span>.</p> </li> 
+   <li><p>Add a new property:</p> 
+    <ul> 
+     <li><strong>Name</strong>: <span class="code">allowUpload</span></li> 
+     <li><strong>Type</strong>: <span class="code">String</span></li> 
+     <li><strong>Value</strong>: <span class="code">false</span></li> 
+    </ul> <img imageRotate="0" src="assets/chlimage_1-72.png" /></li> 
+   <li><p>Click <strong>Save All</strong>. The component is ready to test.</p> </li> 
+   <li><p>Open a page in Geometrixx such as English / Company.</p> </li> 
+   <li><p>Switch to design mode and activate Image (Extended).</p> </li> 
+   <li><p>Switch back to the editing mode and add it to the paragraph system. On the next pictures, you can see the differences between the original image component and the one you just created.</p> <p>Original image component:</p> <img imageRotate="0" src="assets/chlimage_1-73.png" /><p>Your new image component:</p> <img imageRotate="0" src="assets/chlimage_1-74.png" /></li> 
+   <li><p>The component is now ready to use.</p> </li> 
+  </ol> 
+ </body> 
+</html>

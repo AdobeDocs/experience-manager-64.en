@@ -1,0 +1,119 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2017-10-31T16:33:46.168-0400" name="firstPublishExternalDate" /> 
+  <meta content="msm-service" name="cq:lastModifiedBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES" name="primaryProductTag" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="/content/docs/en/aem/6-3/administer/communities/srp/dsrp" name="qaNotes" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2018-04-03T07:39:20.275-0400" name="lastPublishExternalDate" /> 
+  <meta content="2018-04-03T07:39:20.275-0400" name="publishExternalDate" /> 
+  <meta content="Janice Kendall" name="contentOwner" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="/content/help/en/experience-manager/6-4/communities/morehelp/administering;/content/help/en/experience-manager/6-4/communities/morehelp/administering" name="moreHelpPaths" /> 
+  <meta content="2018-04-03T07:39:20.275-0400" name="topicBrowsingSortDate" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="DSRP - Relational Database Storage Resource Provider" name="seoTitle" /> 
+  <meta content="2018-05-17T05:56:18.266-0400" name="locHandOffDate" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="DSRP - Relational Database Storage Resource Provider" name="jcr:title" /> 
+  <meta content="2018-05-17T05:56:18.266-0400" name="cq:lastModified" /> 
+  <meta content="75d0a977-5f87-489a-9d4e-a5b300914db9" name="jcr:uuid" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES;topic_tags:administering;content_type:reference" name="cq:tags" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="fdc4b908-d8cc-42ef-9402-0b0701e1d676" name="jcr:predecessors" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/communities/using/dsrp.html" name="publishExternalURL" /> 
+  <meta content="2018-04-03T07:39:21.870-0400" name="cq:lastReplicated" /> 
+  <meta content="2017-12-19T19:01:05.989-0500" name="jcr:created" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="Set up AEM Communities to use a relational database as its common store" name="seoDescription" /> 
+ </head> 
+ <body> 
+  <h2>About DSRP</h2> 
+  <p>When AEM Communities is configured to use a relational database as its common store, user generated content (UGC) is accessible from all author and publish instances without the need for synchronization nor replication.</p> 
+  <p>See also <a href="../../communities/using/working-with-srp.md#characteristicsofsrpoptions">Characteristics of SRP Options</a> and <a href="../../communities/using/topologies.md">Recommended Topologies</a>.</p> 
+  <h2>Requirements</h2> 
+  <ul> 
+   <li><a href="#mysqlconfiguration">MySQL</a>, a relational database</li> 
+   <li><a href="#solrconfiguration">Apache Solr</a>, a search platform</li> 
+  </ul> 
+  <h2>Relational Database Configuration</h2> 
+  <h3>MySQL Configuration</h3> 
+  <p>A MySQL installation may be shared between enablement features and common store (DSRP) within the same connections pool by using different database (schema) names and also different connections (server:port).</p> 
+  <p>For installation and configuration details, see <a href="../../communities/using/dsrp-mysql.md">MySQL Configuration for DSRP</a>.</p> 
+  <h3>Solr Configuration</h3> 
+  <p>A Solr installation may be shared between the node store (Oak) and common store (SRP) by using different collections.</p> 
+  <p>If both the Oak and SRP collections are used intensively, a second Solr may be installed for performance reasons.</p> 
+  <p>For production environments, SolrCloud mode provides improved performance over standalone mode (a single, local Solr setup).</p> 
+  <p>For installation and configuration details, see <a href="../../communities/using/solr.md">Solr Configuration for SRP</a>.</p> 
+  <h3>Select DSRP</h3> 
+  <p>The <a href="../../communities/using/srp-config.md">Storage Configuration console</a> allows for the selection of the default storage configuration, which identifies which implementation of SRP to use.</p> 
+  <p>On author, to access the Storage Configuration console</p> 
+  <ul> 
+   <li>sign in with administrator privileges</li> 
+   <li>from the <strong>main menu</strong> 
+    <ul> 
+     <li>select <strong>Tools</strong> (from the left hand pane)</li> 
+     <li>select <strong>Communities</strong></li> 
+     <li>select <strong>Storage Configuration</strong> 
+      <ul> 
+       <li>as an example, the resulting location is:<a href="http://localhost:4502/communities/admin/defaultsrp">http://localhost:4502/communities/admin/defaultsrp</a></li> 
+      </ul> </li> 
+    </ul> </li> 
+  </ul> 
+  <img imageRotate="0" src="assets/chlimage_1-128.png" /> 
+  <ul> 
+   <li>select <strong>Database Storage Resource Provider (DSRP)</strong></li> 
+   <li><strong>Database Configuration</strong> 
+    <ul> 
+     <li><strong>JDBC datasource name</strong><br /> name given to MySQL connection<br /> must be the same as entered in <a href="../../communities/using/dsrp-mysql.md#configurejdbcconnections">JDBC OSGi configuration</a><br /> <i>default</i> : communities</li> 
+     <li><strong>Database name</strong><br /> name given to schema in <a href="../../communities/using/dsrp-mysql.md#obtainthesqlscript">init_schema.sql</a> script<br /> <i>default</i> : communities</li> 
+    </ul> </li> 
+   <li><strong>SolrConfiguration</strong> 
+    <ul> 
+     <li><strong><a href="https://cwiki.apache.org/confluence/display/solr/Using+ZooKeeper+to+Manage+Configuration+Files">Zookeeper</a> Host</strong><br /> Leave this value blank if running Solr using the internal ZooKeeper. Else, when running in <a href="../../communities/using/solr.md#solrcloudmode">SolrCloud mode</a> with an external ZooKeeper, set this value to the URI for the ZooKeeper, such as <i>my.server.com:80</i><br /> <i>default</i> : <i> &amp;lt;blank&amp;gt;</i></li> 
+     <li><strong>Solr URL</strong><br /> <i>default</i> : http://127.0.0.1:8983/solr/</li> 
+     <li><strong>Solr Collection</strong><br /> <i>default</i> : collection1</li> 
+    </ul> </li> 
+   <li>select <strong>Submit</strong></li> 
+  </ul> 
+  <h2>Publishing the Configuration</h2> 
+  <p>DSRP must be identified as the common store on all author and publish instances.</p> 
+  <p>To make the identical configuration available in the publish environment :</p> 
+  <ul> 
+   <li>on author :<br /> 
+    <ul> 
+     <li>navigate from main menu to <span class="code">Tools &amp;gt; Operations &amp;gt; Replication</span></li> 
+     <li>double-click <strong>Activate Tree</strong></li> 
+     <li><strong>Start Path :</strong> 
+      <ul> 
+       <li>browse to <span class="code">/etc/socialconfig/srpc/</span></li> 
+      </ul> </li> 
+     <li>ensure <em>Only Modified</em> is not selected.</li> 
+     <li>select <strong>Activate</strong></li> 
+    </ul> </li> 
+  </ul> 
+  <h2>Managing User Data</h2> 
+  <p>For information regarding <i>users</i>, <i>user profiles</i> and <i>user groups</i>, often entered in the publish environment, visit</p> 
+  <ul> 
+   <li><a href="../../communities/using/sync.md">User Synchronization</a></li> 
+   <li><a href="../../communities/using/users.md">Managing Users and User Groups</a></li> 
+  </ul> 
+  <h2>Reindexing Solr for DSRP</h2> 
+  <p>To reindex DSRP Solr, follow the documentation for <a href="../../communities/using/msrp.md#msrpreindextool">reindexing MSRP</a>, however when reindexing for DSRP, use this URL instead: <strong>/services/social/datastore/rdb/reindex</strong></p> 
+  <p>For example, a curl command to re-index DSRP would look like this:</p> 
+  <codeblock class="syntax shell">
+    curl&amp;nbsp;-u&amp;nbsp;admin:password&amp;nbsp;-X&amp;nbsp;POST&amp;nbsp;-F&amp;nbsp;path=/&amp;nbsp;http://host:port/services/social/datastore/rdb/reindex 
+  </codeblock> 
+ </body> 
+</html>

@@ -1,0 +1,40 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="" name="jcr:primaryType" />
+  <meta content="en" name="pageCreatedAt" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-10-30T00:23:18.943-0400" name="lastPublishExternalDate" />
+  <meta content="video" name="pageLayout" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="REDIRECT Video Playback Configuration and Troubleshooting" name="jcr:title" />
+  <meta content="/content/help/en/experience-manager/6-4/screens/using/troubleshoot-videos" name="redirectTarget" />
+  <meta content="2018-10-30T00:23:18.943-0400" name="firstPublishExternalDate" />
+  <meta content="2018-10-30T00:23:18.954-0400" name="cq:lastModified" />
+  <meta content="not_checked" name="acrolinxStatus" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/troubleshoot-videos.html" name="publishExternalURL" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="true" name="noIndex" />
+  <meta content="jsyal" name="contentOwner" />
+  <meta content="2017-12-05T19:03:05.289-0500" name="jcr:created" />
+  <meta content="2018-10-30T00:23:18.943-0400" name="topicBrowsingSortDate" />
+  <meta content="f471fc47-0ed2-4cc0-b451-0c942525ac40" name="jcr:predecessors" />
+  <meta content="2018-10-30T00:23:19.002-0400" name="cq:lastReplicated" />
+  <meta content="2018-10-30T00:23:18.943-0400" name="publishExternalDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="light" name="heroGradient" />
+  <meta content="left" name="sideColumn" />
+  <meta content="jsyal" name="cq:lastReplicatedBy" />
+  <meta content="790d796c-11b0-4da7-8e24-c26c723977ed" name="jcr:uuid" />
+  <meta content="jsyal@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="false" name="doNotLocalize" />
+  <meta content="jsyal" name="cq:lastModifiedBy" />
+  <meta content="admin" name="jcr:createdBy" />
+ </head>
+ <body></body>
+</html>

@@ -1,0 +1,71 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2018-04-26T04:21:59.521-0400" name="cq:lastModified" />
+  <meta content="2016-02-05T03:27:00.000-0500" name="sortDate" />
+  <meta content="2017-12-01T19:03:11.556-0500" name="jcr:created" />
+  <meta content="693de896-c49c-4378-ab02-ddb4d9834f69" name="jcr:uuid" />
+  <meta content="26" name="acrolinxSentences" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="not_checked" name="acrolinxStatus" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="admin" name="lr_creator" />
+  <meta content="2018-04-03T09:10:40.865-0400" name="cq:lastReplicated" />
+  <meta content="Learn about the different types of endpoints." name="seoDescription" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="light" name="heroGradient" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" />
+  <meta content="2018-04-26T04:21:59.520-0400" name="locHandOffDate" />
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="AEMForms/6.1/AdminHelp/WSa7dd8288c271d662-382c895f12a845230b4-8000.2" name="cq:gepId" />
+  <meta content="false" name="doNotLocalize" />
+  <meta content="head1_20111213" name="gep_conversion_script_version" />
+  <meta content="video" name="pageLayout" />
+  <meta content="admin" name="lr_lastModifiedBy" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="left" name="sideColumn" />
+  <meta content="2016-02-05T03:27:00.000-0500" name="topicBrowsingSortDate" />
+  <meta content="2016-02-05T03:27:33.499-0500" name="lr_lastModified" />
+  <meta content="2017-10-31T16:30:03.650-0400" name="lastPublishExternalDate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="admin" name="contentOwner" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="ed8e2913-a37f-4d1d-94fb-f3d0411b9d03" name="jcr:predecessors" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/forms/using/admin-help/types-endpoints.html" name="publishExternalURL" />
+  <meta content="434" name="acrolinxWords" />
+  <meta content="2016-05-31T07:03:41.888-0400" name="acrolinxDate" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/types_endpoints_admin_5e12de0b318c6865_2383_report.xml" name="acrolinxReportURL" />
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" />
+  <meta content="Types of endpoints" name="jcr:title" />
+  <meta content="2017-10-31T16:30:03.650-0400" name="publishExternalDate" />
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/managing_endpoints;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="Types of endpoints" name="navTitle" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="red" name="acrolinxPageStatus" />
+  <meta content="2016-04-20T10:10:09.117-0400" name="firstPublishExternalDate" />
+ </head>
+ <body>
+  <p>Before a service can be used, you must configure and enable an endpoint. An endpoint specifies how a service is to be invoked. </p>
+  <note>
+   <p>In Workbench, endpoints are called start points.</p>
+  </note>
+  <p>The following types of endpoints can be added to services. Not all services support all endpoints:</p>
+  <p><strong>Email:</strong> Enables a user to invoke a service by sending an email message with one or more file attachments to a specified email account. Before you configure an email endpoint, you must configure the required email accounts. (See Configuring email endpoints.)</p>
+  <p><strong>Watched Folder:</strong> Enables a user to invoke a service by placing a file in a folder, which is scanned at a defined interval. (See Configuring watched folder endpoints.)</p>
+  <p><strong>TaskManager:</strong> Enables a Workspace user to invoke the service.</p>
+  <p><strong>Remoting:</strong> Enables an application built with Flex to invoke the service using (Deprecated for AEM forms) AEM forms Remoting. A remoting endpoint is automatically created for each activated service. A Flex destination that has the same name as the endpoint is created, and Flex clients can create remote objects that point to this destination to invoke operations on the relevant service.</p>
+  <p><strong>SOAP:</strong> Enables a client application developed using the AEM forms programming APIs to invoke the service using SOAP mode. A SOAP endpoint is automatically created for each activated service.</p>
+  <p><i><strong>note</strong>: Security can be removed from document security documents when the SOAP endpoint is used while viewing the documents in Adobe Acrobat or Adobe Reader. For details on how to disable SOAP enpoints on your LCRM documents, see <a href="../../../forms/using/admin-help/configuring-client-server-options.md#disable-soap-endpoints-for-document-security-documents">Disable SOAP endpoints for document security documents</a></i></p>
+  <p><strong>EJB:</strong> Enables a client application developed using the AEM forms programming APIs to invoke the service using Enterprise JavaBeans (EJB) mode. An EJB endpoint is automatically created for each activated service.</p>
+  <p><strong>WSDL:</strong> Enables a client application developed using the AEM forms programming APIs to invoke the service using Web Service Definition Language (WSDL). The Core Configurations page contains an option to enable WSDL generation for all services that are part of AEM forms. (See Configure general AEM forms settings.)</p>
+  <p><strong>REST:</strong> Processes created in Workbench can be configured so that you can invoke them through Representational State Transfer (REST) requests. REST requests are sent from HTML pages. That is, you can invoke a AEM forms process directly from a web page using a REST request.</p>
+  <p>The Email, TaskManager, Watched Folder, and Remoting endpoints expose only a specific operation of the service. Adding these endpoints requires a second configuration step to select a method to invoke the service, setting configuration parameters, and specifying input and output parameter mappings. </p>
+ </body>
+</html>

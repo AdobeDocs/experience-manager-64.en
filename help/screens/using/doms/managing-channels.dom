@@ -1,0 +1,218 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="jsyal" name="cq:lastModifiedBy" /> 
+  <meta content="2019-01-15T15:39:04.376-0500" name="jcr:created" /> 
+  <meta content="2019-01-22T18:02:40.257-0500" name="cq:lastReplicated" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/SCREENS;topic_tags:authoring" name="cq:tags" /> 
+  <meta content="jsyal@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="Managing Channels" name="seoTitle" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="" name="primaryAudienceTag" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/screens/using/managing-channels.html" name="publishExternalURL" /> 
+  <meta content="Jyotika syal" name="contentOwner" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2018-04-19T10:32:47.456-0400" name="locHandOffDate" /> 
+  <meta content="Follow this page to learn about creating and managing channels. It also explains channel dashboard and editing content for a channel." name="seoDescription" /> 
+  <meta content="Creating and Managing Channels" name="jcr:title" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2019-01-22T18:02:40.201-0500" name="topicBrowsingSortDate" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2017-10-31T16:20:23.788-0400" name="firstPublishExternalDate" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2019-01-22T18:02:40.201-0500" name="publishExternalDate" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="2019-01-22T18:02:40.209-0500" name="cq:lastModified" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SCREENS" name="primaryProductTag" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="/content/help/en/experience-manager/6-4/screens/morehelp/authoring;/content/help/en/experience-manager/6-4/screens/morehelp/authoring" name="moreHelpPaths" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="jsyal" name="cq:lastReplicatedBy" /> 
+  <meta content="fcb0facf-41a9-486e-955d-a979d6f6ec50" name="jcr:uuid" /> 
+  <meta content="/content/docs/en/aem/6-3/author/authoring-screens/managing-channels" name="qaNotes" /> 
+  <meta content="abbb886d-bc34-4a7f-a27c-15bc05225a28" name="jcr:predecessors" /> 
+  <meta content="2019-01-22T18:02:40.201-0500" name="lastPublishExternalDate" /> 
+ </head> 
+ <body> 
+  <p>A Channel displays a sequence of content and display images and videos, but they could also display a website or a single-page application.</p> 
+  <p>This page shows creating and managing channels for Screens.</p> 
+  <p><strong>Pre-requisites</strong>:</p> 
+  <ul> 
+   <li><a href="../../sites/deploying/using/configuring-screens-introduction.md">Configuring and Deploying Screens</a></li> 
+   <li><a href="../../screens/using/creating-a-screens-project.md">Create and Manage Screens Project</a></li> 
+  </ul> 
+  <h2>Creating a New Channel</h2> 
+  <p>Once you create your project for Screens, follow the steps below to create a new Channel for a Screens project:</p> 
+  <ol> 
+   <li>Select the Adobe Experience Manager link (top left) and then Screens. Alternatively, you can ﻿go directly to: <a href="http://localhost:4502/screens.html/content/screens">http://localhost:4502/screens.html/content/screens</a>.</li> 
+   <li>Navigate to Screens project and click <strong>Channels</strong>. </li> 
+   <li>Click <strong>Create</strong> next to the plus icon in the action bar. A wizard will open (<i>See Channel Types for more information</i>).</li> 
+   <li>Select the template from the wizard and click <strong>Next</strong>.</li> 
+   <li>Enter the properties for <strong>Title and Tags</strong>, <strong>More Titles and Description</strong>, <strong>On/Off Time</strong>, and <strong>Vanity URL</strong>.</li> 
+   <li>Click <strong>Create</strong> and the channel is created and added to your channels folder.</li> 
+  </ol> 
+  <h3>Channel Types</h3> 
+  <p>The following template options are available while using the wizard such as:</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td><strong>Template option</strong></td> 
+     <td><strong>Description</strong></td> 
+    </tr> 
+    <tr> 
+     <td>Channels Folder</td> 
+     <td>Allows to create a folder to store collection of channels.</td> 
+    </tr> 
+    <tr> 
+     <td>Sequence Channel</td> 
+     <td>Allows to create a channel that plays the components sequentially (one by one in a slideshow).</td> 
+    </tr> 
+    <tr> 
+     <td>Application Channel</td> 
+     <td>Allows to showcase your custom web application in Screens player.</td> 
+    </tr> 
+    <tr> 
+     <td>1x1 Split Screen Channel</td> 
+     <td>Allows to view the component in a single zone.</td> 
+    </tr> 
+    <tr> 
+     <td>1x2 Split Screen Channel</td> 
+     <td>Allows to view the assets in two zones (split horizontally).</td> 
+    </tr> 
+    <tr> 
+     <td>2x2 Split Screen Channel</td> 
+     <td>Allows to view the assets in four zones (split horizontally and vertically in a matrix).</td> 
+    </tr> 
+    <tr> 
+     <td>2 to 3 Split Screen Channel</td> 
+     <td>Allows to view the assets in two zones (split horizontally) with one of the zones being larger than the other one.</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <note> 
+   <p>The Split Screen channels split the display into multiple zones so you can play several experiences at the same time, side-by-side. The experiences can either be static assets/text or embedded sequences.</p> 
+  </note> 
+  <p>The following example shows the creation of a Sequence Channel (C<em>hannelOne</em>) for a Screens project (<em>DemoProject</em>).</p> 
+  <img imageRotate="0" src="assets/player2-2.gif" /> 
+  <note> 
+   <p>You can create different zones using the template options such as 1x2, 2x2, or 2 to 3 split screen channels mentioned above.</p> 
+  </note> 
+  <p><strong><em>Important</em></strong>:</p> 
+  <p>Once you create and add content to your channel, the next step is to create a location followed by creating a display. Furthermore you need to assign that channel to a display. See the resources below at the end of the section to learn more.</p> 
+  <h2>Working with Channels</h2> 
+  <p>You can edit, view properties and dashboard, copy, preview, and delete a channel.</p> 
+  <note> 
+   <p>Click on the icon on the left to select an item. For example, click on the icon for channel and perform the following actions, as shown in the figure below.</p> 
+  </note> 
+  <img imageRotate="0" src="assets/screen_shot_2018-08-23at10208pm.png" /> 
+  <h3>Adding/Editing Content to a Channel</h3> 
+  <p>To add or edit content in a channel, follow the steps below:</p> 
+  <ol> 
+   <li>Click on the Channel you want to edit (as shown in the figure above).</li> 
+   <li>Click <strong>Edit </strong>from the top left corner of the action bar to edit the channel properties. The editor opens that allows you to add assets/components to your channel that you want to publish.</li> 
+  </ol> 
+  <img imageRotate="0" src="assets/chlimage_1-81.png" /> 
+  <p><strong>Uploading Videos to the Channel</strong> Follow the steps below to upload videos to your channel:</p> 
+  <ol> 
+   <li>Select the channel where you want to upload the video. <br /> </li> 
+   <li>Click <strong>Edit</strong> from the action bar to open the editor.</li> 
+   <li>Select <strong>Videos</strong> under Assets and drag and drop the required videos.</li> 
+  </ol> 
+  <note> 
+   <p>If you encounter issues uploading videos in your channel, see <a href="../../screens/using/troubleshoot-videos.md">Troubleshooting Videos</a> under Administering Screens.</p> 
+  </note> 
+  <h3>Viewing Properties</h3> 
+  <p>To view or edit properties of a channel, follow the steps below:</p> 
+  <ol> 
+   <li>Click on the Channel you want to edit.</li> 
+   <li>Click <strong>Properties </strong>from the action bar to view/edit the channel properties. The following tabs allow you to change the options.</li> 
+  </ol> 
+  <img imageRotate="0" src="assets/player2-3.gif" /> 
+  <h3>Viewing Dashboard</h3> 
+  <p>To view dashboard of a channel, follow the steps below:</p> 
+  <ol> 
+   <li>Click on the Channel you want to edit.</li> 
+   <li>Click <strong>View Dashboard </strong>from the action bar to view the dashobard. The <strong>CHANNEL INFORMATION</strong> and <strong>ASSIGNED DISPLAYS </strong>panel opens, as shown in the figure below:</li> 
+  </ol> 
+  <img imageRotate="0" src="assets/player2-4.gif" /> 
+  <h3>Channel Information</h3> 
+  <p>The Channel Information panel describes the Channel properties, along with the preview to the channel. Also, it provides you the information on whether the channel is offline or online.</p> 
+  <p>Click on the (<strong>...</strong>) in the <strong>Channel Information</strong> action bar to view properties, edit the content, or to update cache (offline content) for the channel.</p> 
+  <img imageRotate="0" src="assets/screen_shot_2017-12-20at82048am.png" /> 
+  <h3>Online and Offline Channels</h3> 
+  <note> 
+   <p>By Default, when you create a channel, the channel is Offline.</p> 
+  </note> 
+  <p>When you create a channel, it can either be defined as an online or an offline channel.</p> 
+  <p>An <strong><i>Online Channel</i></strong>, will show the updated content in the real time environment whereas an <strong><i>Offline Channel</i></strong>, shows the cached content.</p> 
+  <p>Follow the steps below to make the channel online:</p> 
+  <ol> 
+   <li><p>Navigate to the channel as <strong>TestProject</strong> --&amp;gt; <strong>Channels</strong> --&amp;gt; <strong>TestChannel</strong>.</p> <p>Select the channel.</p> <img imageRotate="0" src="assets/chlimage_1-82.png" /><p>Click <strong>View Dashboard</strong> from the action bar to view the status of the player. The <strong>CHANNEL INFORMATION </strong>panel provides information on whether the channel is online or offline.</p> <img imageRotate="0" src="assets/chlimage_1-83.png" /></li> 
+   <li><p>Click <strong>Properties</strong> from the action bar and navigate to the <strong>Channel</strong> tab as shown below:</p> <img imageRotate="0" src="assets/chlimage_1-84.png" /></li> 
+   <li><p>Check the <strong>Make channel online</strong> to make the channel as online.</p> <p>Click <strong>Save &amp; Close</strong> to save your option.</p> <img imageRotate="0" src="assets/screen_shot_2018-08-23at15525pm.png" /><p>The channel dashboard displays and the <strong>CHANNEL INFORMATION</strong> panel shows the online status of the player.</p> <img imageRotate="0" src="assets/chlimage_1-85.png" /></li> 
+  </ol> 
+  <h4>Automatic versus Manual Updates from the Device Dashboard</h4> 
+  <p>The following table summarizes the events associated with the automatic and manual updates from the device dashboard.</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td><strong>Event</strong></td> 
+     <td><strong>Device Auto Update</strong></td> 
+     <td><strong>Device Manual Update</strong></td> 
+    </tr> 
+    <tr> 
+     <td>Change in Online Channel</td> 
+     <td>Content updated automatically</td> 
+     <td><p>Content updated on "Device: Push Config"</p> <p>Or,</p> <p>Content updated on <strong><i>Device: Restart</i></strong></p> </td> 
+    </tr> 
+    <tr> 
+     <td>Change in Offline channel but Channel "Push Content" is NOT triggered (no offline package re-creation)</td> 
+     <td>No content update</td> 
+     <td>No content update</td> 
+    </tr> 
+    <tr> 
+     <td>Change in Offline Channel and Channel "Push Content" is triggered (new offline package)</td> 
+     <td>Content updated automatically</td> 
+     <td><p>Content updated on <strong><i>Device: Push Config</i></strong></p> <p>Or,</p> <p>Content updated on <strong><i>Device: Restart</i></strong></p> </td> 
+    </tr> 
+    <tr> 
+     <td><p>Change in Config</p> 
+      <ul> 
+       <li>Display (forced channel)</li> 
+       <li>Device</li> 
+       <li>Channel assignments (new channel, removed channel)</li> 
+       <li>Channel assignment (role, event, scheduling)</li> 
+      </ul> </td> 
+     <td>Config updated automatically</td> 
+     <td><p>Config updated on <strong><i>Device: Push Config</i></strong></p> <p>Or,</p> <p>Config updated on <strong><i>Device: Restart</i></strong></p> </td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h3>Assigned Displays</h3> 
+  <p>The assigned displays panel shows the display associated to the channel. It provides a snapshot of the assigned display along with the resolution.</p> 
+  <p>The associated displays will list in the <strong>Assigned Displays</strong> panel, as shown below:</p> 
+  <img imageRotate="0" src="assets/chlimage_1-86.png" /> 
+  <note> 
+   <p>To learn about creating a display in a location, please refer to:</p> 
+   <ul> 
+    <li><a href="../../screens/using/managing-locations.md">Create and Manage Locations</a></li> 
+    <li><a href="../../screens/using/managing-displays.md">Create and Manage Displays</a></li> 
+   </ul> 
+  </note> 
+  <p>Additionally, click on the display in the <strong>ASSIGNED DISPLAYS</strong> panel, to view the display information, as shown below:</p> 
+  <img imageRotate="0" src="assets/chlimage_1-87.png" /> 
+  <h3>The Next Steps</h3> 
+  <p>The next step after creating a channel and adding/editing content in your channel is to learn how to create a location and display. Furthermore, then assign a channel to that display.</p> 
+  <p>See the following resources, for next steps:</p> 
+  <ul> 
+   <li><a href="../../screens/using/managing-channels.md">Create and Manage Channels</a></li> 
+   <li><a href="../../screens/using/managing-locations.md">Create and Manage Locations</a></li> 
+   <li><a href="../../screens/using/managing-displays.md">Create and Manage Displays</a></li> 
+  </ul> 
+ </body> 
+</html>

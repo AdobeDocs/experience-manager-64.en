@@ -1,0 +1,301 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="18ddf42b-5247-4341-abaa-2f22966975a8" name="jcr:predecessors" /> 
+  <meta content="audience:administering" name="primaryAudienceTag" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/contexthub-config.html" name="publishExternalURL" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="Configuring ContextHub" name="navTitle" /> 
+  <meta content="2018-04-03T07:03:00.161-0400" name="topicBrowsingSortDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2018-05-14T02:00:12.757-0400" name="cq:lastModified" /> 
+  <meta content="2017-10-31T16:25:23.663-0400" name="firstPublishExternalDate" /> 
+  <meta content="Configuring ContextHub" name="jcr:title" /> 
+  <meta content="2018-04-03T07:03:00.161-0400" name="lastPublishExternalDate" /> 
+  <meta content="2018-04-03T07:03:00.161-0400" name="publishExternalDate" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="absarasw" name="cq:lastModifiedBy" /> 
+  <meta content="2017-12-01T19:02:59.288-0500" name="jcr:created" /> 
+  <meta content="jsyal" name="cq:lastReplicatedBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="2018-10-27T23:45:10.609-0400" name="cq:lastReplicated" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="2018-04-26T10:13:34.237-0400" name="locHandOffDate" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="Learn how to configure Context Hub." name="seoDescription" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="msm-service" name="contentOwner" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="Configuring ContextHub" name="seoTitle" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="76419ba4-f399-4f2d-ab9c-a6a52e18b284" name="jcr:uuid" /> 
+  <meta content="/content/docs/en/aem/6-3/administer/personalization/contexthub-config" name="qaNotes" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:personalization;content_type:reference" name="cq:tags" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/administering/morehelp/personalization;/content/help/en/experience-manager/6-4/sites/administering/morehelp/personalization" name="moreHelpPaths" /> 
+  <meta content="" name="jcr:primaryType" /> 
+ </head> 
+ <body> 
+  <p>ContextHub is a framework for storing, manipulating, and presenting context data. For more detail on ContextHub, please see the <a href="../../../sites/developing/using/contexthub.md">developer documentation</a>. ContextHub replaces <a href="../../../sites/administering/using/client-context.md">Client Context</a> in the touch UI.</p> 
+  <p>Configure the <a href="../../../sites/developing/using/contexthub.md">ContextHub</a> toolbar to control whether it appears in Preview mode, to create ContextHub stores, and add UI modules using the Touch-Optimized UI.</p> 
+  <h2>Disabling ContextHub</h2> 
+  <p>By default, ContextHub is enabled in an AEM installation. ContextHub can be disabled to prevent it from loading js/css and initializing. There are two options to disable ContextHub:</p> 
+  <ul> 
+   <li>Edit the ContextHub's <a href="http://localhost:4502/etc/cloudsettings/default/contexthub.edit.html">configuration</a> and check the option <strong>Disable ContextHub</strong> 
+    <ol> 
+     <li>In the rail click or tap <strong>Tools &amp;gt; Sites &amp;gt; ContextHub</strong></li> 
+     <li>Click or tap the default <strong>Configuration Container</strong></li> 
+     <li>Select the <strong>ContextHub Configuration</strong> and click or tap <strong>Edit Selected Element</strong></li> 
+     <li>Click or tap <strong>Disable ContextHub</strong> and click or tap <strong>Save</strong></li> 
+    </ol> </li> 
+  </ul> 
+  <p>or</p> 
+  <ul> 
+   <li>Use CRXDE Lite to set the property <span class="code">disabled</span> to <strong>true</strong> under <span class="code">/etc/cloudsettings/default/contexthub </span></li> 
+  </ul> 
+  <h2>Showing and Hiding the ContextHub UI</h2> 
+  <p>Configure the Adobe Granite ContextHub OSGi service to show or hide the <a href="../../../sites/authoring/using/ch-previewing.md">ContextHub UI</a> on your pages. The PID of this service is <span class="code">com.adobe.granite.contexthub.impl.ContextHubImpl.</span></p> 
+  <p>To configure the service you can either use the <a href="../../../sites/deploying/using/configuring-osgi.md#main-pars-title-104">Web Console</a> or use a <a href="../../../sites/deploying/using/configuring-osgi.md#main-pars-par11">JCR node in the repository</a>:</p> 
+  <ul> 
+   <li><strong>Web Console:</strong> To show the UI, select the Show UI property. To hide the UI, clear the Hide UI property.</li> 
+   <li><strong>JCR node:</strong> To show the UI, set the boolean <span class="code">com.adobe.granite.contexthub.show_ui</span> property to <span class="code">true</span>. To hide the UI, set the property to <span class="code">false</span>.</li> 
+  </ul> 
+  <p>When showing the ContextHub UI, it only appears on pages on AEM author instances. The UI does not appear on pages of publish instances.</p> 
+  <h2>Adding ContextHub UI Modes and Modules</h2> 
+  <p>Configure the UI modes and modules that appear in the ContextHub toolbar in Preview mode:</p> 
+  <ul> 
+   <li>UI Modes: Groups of related modules</li> 
+   <li>Modules: Widgets that expose context data from a store and enable authors to manipulate the context</li> 
+  </ul> 
+  <p>UI modes appear as a series of icons on the left side of the toolbar. When selected, the modules of a UI mode appear to the right.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-372.png" /> 
+  <p>Icons are references from the <a href="/sites/developing/using/reference-materials/coral-ui/docs/2.17.0-granite-004/icon">Coral UI icon library</a>.</p> 
+  <h3>Adding a UI Mode</h3> 
+  <p>Add a UI mode to group related ContextHub modules. When you create the UI mode, you provide the title and icon that appear in the ContextHub toolbar.</p> 
+  <ol> 
+   <li><p>On the Experience Manager rail, click or tap Tools &amp;gt; Sites &amp;gt; Context Hub.</p> </li> 
+   <li><p>Click or tap the default Configuration Container.</p> </li> 
+   <li><p>Click or tap the Context Hub Configuration.</p> </li> 
+   <li><p>Click or tap the Create button, and then click or tap Context Hub UI Mode.</p> <img imageRotate="0" src="assets/chlimage_1-373.png" /></li> 
+   <li><p>Provide values for the following properties:</p> 
+    <ul> 
+     <li>UI Mode Title: The title that identifies the UI mode </li> 
+     <li>Mode Icon: The selector for the <a href="/sites/developing/using/reference-materials/coral-ui/docs/2.17.0-granite-004/icon">Coral UI icon</a> to use, for example <span class="code">coral-Icon--user</span></li> 
+     <li>Enabled: Select to show the UI mode in the ContextHub toolbar</li> 
+    </ul> </li> 
+   <li><p>Click or tap Save.</p> </li> 
+  </ol> 
+  <h3>Adding a UI Module</h3> 
+  <p>Add a ContextHub UI module to a UI mode so that it appears in the ContextHub toolbar for previewing page content. When you add a UI module, you are creating an instance of a module type that is registered with ContextHub. To add a UI module, you must know the name of the associated module type.</p> 
+  <p>AEM provides a base UI module type as well several sample UI Module types upon which you can base a UI module. The following table provides a brief description of each one. For information about developing a custom UI module, see <a href="../../../sites/developing/using/ch-extend.md#main-pars-title-2121301991">Creating ContextHub UI Modules</a>.</p> 
+  <p>The UI module properties include a detail configuration where you can provide values for module-specific properties. You provide the detail configuration in JSON format. The Module Type column in the table provides links to information about the JSON code required for each UI module type.</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <th>Module Type</th> 
+     <th>Description</th> 
+     <th>Store</th> 
+    </tr> 
+    <tr> 
+     <td><a href="../../../sites/developing/using/ch-samplemodules.md#main-pars-title">contexthub.base</a></td> 
+     <td>A generic UI module type</td> 
+     <td>Configured in the UI module properties</td> 
+    </tr> 
+    <tr> 
+     <td><a href="../../../sites/developing/using/ch-samplemodules.md#main-pars-title-1650205289">contexthub.browserinfo</a></td> 
+     <td>Displays information about the browser</td> 
+     <td>surferinfo</td> 
+    </tr> 
+    <tr> 
+     <td><a href="../../../sites/developing/using/ch-samplemodules.md#main-pars-title-1573109392">contexthub.datetime</a></td> 
+     <td>Displays date and time information</td> 
+     <td>datetime</td> 
+    </tr> 
+    <tr> 
+     <td><a href="../../../sites/developing/using/ch-samplemodules.md#main-pars-title-1813964922">contexthub.device</a></td> 
+     <td>Display the client device</td> 
+     <td>emulators</td> 
+    </tr> 
+    <tr> 
+     <td><a href="../../../sites/developing/using/ch-samplemodules.md#main-pars-title-372971705">contexthub.location</a></td> 
+     <td>Displays the latitude and longitude of the client, as well as the location on a map. Enables you to change the location.</td> 
+     <td>geolocation</td> 
+    </tr> 
+    <tr> 
+     <td><a href="../../../sites/developing/using/ch-samplemodules.md#main-pars-title-1972087015">contexthub.screen-orientation</a></td> 
+     <td>Displays the screen orientation of the device (landscape or portrait)</td> 
+     <td>emulators</td> 
+    </tr> 
+    <tr> 
+     <td><a href="../../../sites/developing/using/ch-samplemodules.md#main-pars-title-352479778">contexthub.season</a></td> 
+     <td>Displays the season for the location of the client. Enables you to select the season</td> 
+     <td>datetime</td> 
+    </tr> 
+    <tr> 
+     <td><a href="../../../sites/developing/using/ch-samplemodules.md#main-pars-title-1425355535">contexthub.tagcloud</a></td> 
+     <td>Displays statistics about page tags</td> 
+     <td>tagcloud</td> 
+    </tr> 
+    <tr> 
+     <td><a href="../../../sites/developing/using/ch-samplemodules.md#main-pars-title-393672762">granite.profile</a></td> 
+     <td>Displays the profile information for the current user, including authorizableID, displayName and familyName. You can change the value of displayName and familyName.</td> 
+     <td>profile</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <ol> 
+   <li><p>On the Experience Manager rail, click or tap Tools &amp;gt; Sites &amp;gt; ContextHub.</p> </li> 
+   <li><p>Click or tap the Configuration Container to which you want to add a UI module.</p> </li> 
+   <li><p>Click or typ the ContextHub Configuration to which you want to add the UI module.</p> </li> 
+   <li><p>Click or tap the UI mode to which you are adding the UI module.</p> </li> 
+   <li><p>Click or tap the Create button, then click or tap ContextHub UI Module (generic).</p> <img imageRotate="0" src="assets/chlimage_1-374.png" /></li> 
+   <li><p>Provide values for the following properties:</p> 
+    <ul> 
+     <li>UI Module Title: A title that identifies the UI module</li> 
+     <li>Module Type: The module type</li> 
+     <li>Enabled: Select to show the UI module in the ContextHub toolbar</li> 
+    </ul> </li> 
+   <li><p>(Optional) To override the default store configuration, enter a JSON object to configure the UI Module.</p> </li> 
+   <li><p>Click or tap Save.</p> </li> 
+  </ol> 
+  <h2>Creating a ContextHub Store</h2> 
+  <p>Create a Context Hub store to persist user data and access the data as needed. ContextHub stores are based on registered store candidates. When you create the store, you need the value of the storeType with which the store candidate was registered. (See <a href="../../../sites/developing/using/ch-extend.md#main-pars-title">Creating Custom Store Candidates</a>.)</p> 
+  <h4>Detailed Store Configuration</h4> 
+  <p>When you configure a store, the Detail Configuration property enables you to provide values for store-specific properties. The value is based on the <span class="code">config</span> parameter of the store's <span class="code">init</span> function. Therefore, whether you need to provide this value, and the format of the value, depends on the store.</p> 
+  <p>The value of the Detail Configuration property is a <span class="code">config</span> object in JSON format.</p> 
+  <h4>Sample Store Candidates</h4> 
+  <p>AEM provides the following sample store candidates upon which you can base a store.</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <th scope="col">Store Type</th> 
+     <th scope="col">Description</th> 
+    </tr> 
+    <tr> 
+     <td><a href="../../../sites/developing/using/ch-samplestores.md#main-pars-title">aem.segmentation</a></td> 
+     <td>Store for resolved and unresolved ContextHub segments. Automatically retrieves segments from the ContextHub SegmentManager</td> 
+    </tr> 
+    <tr> 
+     <td><a href="../../../sites/developing/using/ch-samplestores.md#main-pars-title-2062310228">aem.resolvedsegments</a></td> 
+     <td>Stores the currently resolved segments. Listens to the ContextHub SegmentManager service to automatically update the store</td> 
+    </tr> 
+    <tr> 
+     <td><a href="../../../sites/developing/using/ch-samplestores.md#main-pars-title-1304151477">contexthub.geolocation</a></td> 
+     <td>Stores the latitude and longitude of the browser location.</td> 
+    </tr> 
+    <tr> 
+     <td><a href="../../../sites/developing/using/ch-samplestores.md#main-pars-title-877835219">contexthub.datetime</a></td> 
+     <td>Stores the current date, time, and season for the browser location</td> 
+    </tr> 
+    <tr> 
+     <td><a href="../../../sites/developing/using/ch-samplestores.md#main-pars-title-427753803">granite.emulators</a></td> 
+     <td>Defines properties and capabilities for a number of devices, and detects the current client device</td> 
+    </tr> 
+    <tr> 
+     <td><a href="../../../sites/developing/using/ch-samplestores.md#main-pars-title-468439243">contexthub.generic-jsonp</a></td> 
+     <td>Retrieves and stores data from a JSONP service</td> 
+    </tr> 
+    <tr> 
+     <td><a href="../../../sites/developing/using/ch-samplestores.md#main-pars-title-222346835">granite.profile</a></td> 
+     <td>Stores profile data for the current user</td> 
+    </tr> 
+    <tr> 
+     <td><a href="../../../sites/developing/using/ch-samplestores.md#main-pars-title-1446016736">contexthub.surferinfo</a></td> 
+     <td>Stores information about the client, such as device information, browser type, and window orientation</td> 
+    </tr> 
+    <tr> 
+     <td><a href="../../../sites/developing/using/ch-samplestores.md#main-pars-title-55392515">contexthub.tagcloud</a></td> 
+     <td>Stores page tags and tag counts</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <ol> 
+   <li><p>On the Experience Manager rail, click or tap Tools &amp;gt; Sites &amp;gt; ContextHub.</p> </li> 
+   <li><p>Click or tap the default configuration container.</p> </li> 
+   <li><p>Click or tap Contexthub Configuration</p> </li> 
+   <li><p>To add a store, click or tap the Create icon and then click or tap ContexHub Store Configuration.</p> <img imageRotate="0" src="assets/chlimage_1-375.png" /></li> 
+   <li><p>Provide values for the basic configuration properties and then click or tap Next:</p> 
+    <ul> 
+     <li><strong>Configuration Title:</strong> The title that identifies the store</li> 
+     <li><strong>Store Type:</strong> The value of the storeType property of the store candidate upon which to base the store</li> 
+     <li><strong>Required: </strong>Select</li> 
+     <li><strong>Enabled:</strong> Select to enable the store</li> 
+    </ul> </li> 
+   <li><p>(Optional) To override the default store configuration, enter a JSON object in the Detail Configuration (JSON) box.</p> </li> 
+   <li><p>Click or tap Save.</p> </li> 
+  </ol> 
+  <h2>Example: Using a JSONP Service </h2> 
+  <p>This example illustrates how to configure a store and display the data in a UI module. In this example, the MD5 service of the jsontest.com site is used as a data source for a store. The service returns the MD5 hash code of a given string, in JSON format.</p> 
+  <p>A contexthub.generic-jsonp store is configured so that it stores data for the service call <span class="code">http://md5.jsontest.com/?text=%22text%20to%20md5%22</span>. The service returns the following data which is displayed in a UI module:</p> 
+  <codeblock class="syntax xml">
+    {!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;"md5":&amp;nbsp;"919a56ab62b6d5e1219fe1d95248a2c5",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;"original":&amp;nbsp;"\"text&amp;nbsp;to&amp;nbsp;md5\""!!discoiqbr!!} 
+  </codeblock> 
+  <h3>Creating a contexthub.generic-jsonp Store</h3> 
+  <p>The contexthub.generic-jsonp sample store candidate enables you to retrieve data from a JSONP service or a web servcie that returns JSON data. For this store candidate, use the store configuration to provide details about the JSONP service to use.</p> 
+  <p>The <a href="../../../sites/developing/using/contexthub-api.md#main-pars-title-30">init</a> function of the <span class="code">ContextHub.Store.JSONPStore</span> Javascript class defines a <span class="code">config</span> object that initializes this store candidate. The <span class="code">config</span> object contains a <span class="code">service</span> object that includes details about the JSONP service. To configure the store, you provide the <span class="code">service</span> object in JSON format as the value for the Detail Configuration property.</p> 
+  <p>To save data from the MD5 service of the jsontest.com site, use the procedure in <a href="../../../sites/administering/using/contexthub-config.md#main-pars-title-1">Creating a ContextHub Store</a> using the following properties:</p> 
+  <ul> 
+   <li><strong>Configuration Title:</strong> md5</li> 
+   <li><strong>Store Type:</strong> contexthub.generic-jsonp</li> 
+   <li><strong>Required: </strong>Select</li> 
+   <li><strong>Enabled:</strong> Select</li> 
+   <li><strong>Detail Configuration (JSON):</strong><br /> <code class="code">{ 
+     <discoiqbr /> "service": { 
+     <discoiqbr /> "jsonp": false, 
+     <discoiqbr /> "timeout": 1000, 
+     <discoiqbr /> "ttl": 1800000, 
+     <discoiqbr /> "secure": false, 
+     <discoiqbr /> "host": "md5.jsontest.com", 
+     <discoiqbr /> "port": 80, 
+     <discoiqbr /> "params":{ 
+     <discoiqbr /> "text":"text to md5" 
+     <discoiqbr /> } 
+     <discoiqbr /> } 
+     <discoiqbr /> }</code></li> 
+  </ul> 
+  <h3>Adding a UI Module for the md5 Data</h3> 
+  <p>Add a UI module to the ContextHub toolbar to display the data that is stored in the example md5 store. In this example, the contexthub.base module is used to produce the following UI module:</p> 
+  <img imageRotate="0" src="assets/chlimage_1-376.png" /> 
+  <p>Use the procecure in <a href="../../../sites/administering/using/contexthub-config.md#main-pars-title-2108758587">Adding a UI Module</a> to add the UI module to an existing UI Mode, such as the sample Perona UI Mode. For the UI Module, use the following property values:</p> 
+  <ul> 
+   <li><strong>UI Module Title:</strong> MD5</li> 
+   <li><strong>Module Type:</strong> contexthub.base</li> 
+   <li><strong>Detail Configuration (JSON):</strong><br /> <code class="code">{ 
+     <discoiqbr /> "icon": "coral-Icon--data", 
+     <discoiqbr /> "title": "MD5 Converstion", 
+     <discoiqbr /> "storeMapping": { "md5": "md5" }, 
+     <discoiqbr /> "template": "&amp;lt;p&amp;gt;</code>{{md5.original}}&amp;lt;/p&amp;gt;<br /> &amp;lt;p&amp;gt;{{md5.md5}}&amp;lt;/p&amp;gt;" <br /> }</li> 
+  </ul> 
+  <h2>Debugging ContextHub</h2> 
+  <p>A debugging mode for the ContextHub can be enabled to allow for troubleshooting. The debug mode can be enabled either through the ContextHub configuration or via CRXDE.</p> 
+  <h3>Via the Configuration</h3> 
+  <p>Edit the ContextHub's <a href="http://localhost:4502/etc/cloudsettings/default/contexthub.edit.html">configuration</a> and check the option <strong>Debug</strong></p> 
+  <ol> 
+   <li><p>In the rail click or tap <strong>Tools &amp;gt; Sites &amp;gt; ContextHub</strong></p> </li> 
+   <li><p>Click or tap the default <strong>Configuration Container</strong></p> </li> 
+   <li><p>Select the <strong>ContextHub Configuration</strong> and click or tap <strong>Edit Selected Element</strong></p> </li> 
+   <li><p>Click or tap <strong>Debug</strong> and click or tap <strong>Save</strong></p> </li> 
+  </ol> 
+  <h3>Via CRXDE</h3> 
+  <p>Use CRXDE Lite to set the property <span class="code">debug</span> to <strong>true</strong> under /etc/cloudsettings/default/contexthub</p> 
+  <h3>Silent Mode</h3> 
+  <p>Silent mode suppresses all debug information. Unlike the normal debug option, which can be set independently for each ConextHub configuration, silent mode is a global setting which takes precedent over any debug settings on the ContextHub configuration level.</p> 
+  <p>This is useful for your publish instance, where you don't want any debug information at all. Because it is a global setting, it is enabled via OSGi.</p> 
+  <ol> 
+   <li><p>Open the <a href="http://localhost:4502/system/console/configMgr"><strong>Adobe Experience Manager Web Console Configuration</strong></a></p> </li> 
+   <li><p>Search for <strong>Adobe Granite ContextHub</strong></p> </li> 
+   <li><p>Click the configuration <strong>Adobe Granite ContextHub</strong> to edit its properties</p> </li> 
+   <li><p>Check the option <strong>Silent Mode</strong> and click <strong>Save</strong></p> </li> 
+  </ol> 
+  <h2>Recovering ContextHub Configurations After Upgrading</h2> 
+  <p>When an <a href="../../../sites/deploying/using/upgrade.md">upgrade to AEM</a> is performed, the ContextHub configurations are backed up and stored in a safe location. During the upgrade, the default ContextHub configurations are installed, replacing the existing configurations. The backup is required to preserve any changes or additions that you have made.</p> 
+  <p>ContextHub configurations are stored below the /etc/cloudsettings/default node, in a folder named contexthub. After an upgrade, the backup is stored below a node named /etc/cloudsettings/default-pre-upgrade_<i>yyyymmdd</i>_<i>xxxxxxx</i>, in a folder named contexthub. The yyyymmdd part of the node name is the date when the upgrade was performed.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-377.png" /> 
+  <p>To recover your ContextHub configurations, use CRXDE Lite to copy the nodes that represent your stores, UI modes, and UI modules from below the default-pre-upgrade_<i>yyyymmdd_xxxxxx</i> node to below the /etc/cloudsettings/default node. </p> 
+ </body> 
+</html>

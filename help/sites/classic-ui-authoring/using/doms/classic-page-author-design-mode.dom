@@ -1,0 +1,77 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" />
+  <meta content="Configuring Components in Design Mode" name="seoTitle" />
+  <meta content="b0b151e8-e719-41d5-aa96-8fe9615e8b8b" name="jcr:predecessors" />
+  <meta content="Deactivate" name="cq:lastReplicationAction" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2017-10-31T16:19:14.923-0400" name="publishExternalDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="/content/docs/en/aem/6-3/author/classicui/page-authoring/default-components/designmode" name="qaNotes" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" />
+  <meta content="2017-10-31T16:19:14.923-0400" name="lastPublishExternalDate" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2017-12-15T11:20:49.746-0500" name="cq:lastReplicated" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:page-authoring;content_type:reference" name="cq:tags" />
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="94f44a19-70f9-4f47-8fee-07b175690708" name="jcr:uuid" />
+  <meta content="Configuring Components in Design Mode" name="jcr:title" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="User" name="contentOwner" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="audience:classic-ui-authoring" name="primaryAudienceTag" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/sites/classic-ui-authoring/using/classic-page-author-design-mode.html" name="publishExternalURL" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="2017-12-01T19:04:47.914-0500" name="jcr:created" />
+  <meta content="When AEM instance is installed out-of-the-box, a selection of components are immediately available in the sidekick. In addition to these, various other components are also available. You can use Design mode to Enable/disable such components. " name="seoDescription" />
+  <meta content="trushton" name="cq:lastModifiedBy" />
+  <meta content="2017-10-31T16:19:14.923-0400" name="topicBrowsingSortDate" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="/content/help/en/experience-manager/6-4/sites/classic-ui-authoring/morehelp/page-authoring;/content/help/en/experience-manager/6-4/sites/classic-ui-authoring/morehelp/page-authoring" name="moreHelpPaths" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="Configuring Components in Design Mode" name="navTitle" />
+  <meta content="2017-10-31T16:19:14.923-0400" name="firstPublishExternalDate" />
+  <meta content="2018-08-13T06:05:19.665-0400" name="cq:lastModified" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="2017-11-27T05:25:24.999-0500" name="locHandOffDate" />
+  <meta content="" name="jcr:versionHistory" />
+ </head>
+ <body>
+  <p>When AEM instance is installed out-of-the-box, a selection of components are immediately available in the sidekick.</p> 
+  <p>In addition to these, various other components are also available. You can use Design mode to <a href="#enabledisablecomponentsusingdesignmode">Enable/disable such components</a>. When enabled and located on your page you can then use Design mode to <a href="#configuringcomponentsusingdesignmode">configure aspects of the component design</a> by editing the attribute parameters. </p> 
+  <note>
+   <p>Care must be taken when editing these components. The design settings are often an integral part of the design of the entire website, so they should only be changed by someone with the appropriate privileges (and experience), often an administrator or developer. See <a href="../../../sites/developing/using/components.md">Developing Components</a> for more information.<br /> </p> 
+  </note>
+  <p>This actually involves adding, or removing, the components allowed in the paragraph system for the page. The paragraph system (<span class="code">parsys</span>) is a compound component that contains all other paragraph components. The paragraph system allows authors to add components of different types to a page as it contains all other paragraph components. Each paragraph type is represented as a component.</p> 
+  <p>For example, the content of a product page may contain a paragraph system holding the following:</p> 
+  <ul> 
+   <li>An image of the product (in the form of an image or textimage paragraph)</li> 
+   <li>The product description (as a text paragraph)</li> 
+   <li>A table with technical data (as a table paragraph)</li> 
+   <li>A form users fill out (as a forms begin, forms element, and forms end paragraph)</li> 
+  </ul> 
+  <note>
+   <p>See <a href="../../../sites/developing/using/components.md#paragraphsystem">Developing Components</a> and <a href="../../../sites/developing/using/dev-guidelines-bestpractices.md#guidelinesforusingtemplatesandcomponents">Guidelines for Using Templates and Components</a> for more information about <span class="code">parsys</span>.</p> 
+  </note>
+  <h2>Enable/Disable Components</h2>
+  <p>In Design mode, the sidekick is minimized and you have the possibility to configure the components accessible for authoring:</p> 
+  <ol>
+   <li><p>To enter Design mode, open a page for editing and use the Sidekick icon:</p> <img imageRotate="0" src="assets/chlimage_1-12.png" /></li>
+   <li><p>Click <strong>Edit</strong> on the Paragraph system (<strong>Design of par</strong>).</p> <img imageRotate="0" src="assets/screen_shot_2012-02-08at102726am.png" /></li>
+   <li><p>A dialog will be opened, listing the component groups that are shown in the Sidekick together with the individual components that they contain.</p> <p>Select as required to add, or remove, the components to be available in the sidekick.</p> <img imageRotate="0" src="assets/screen_shot_2012-02-08at103407am.png" /></li>
+   <li><p>The Sidekick minimizes in Design mode. By clicking on the arrow you can maximize the Sidekick and return to Edit Mode:</p> <img imageRotate="0" src="assets/sidekick-collapsed.png" /></li>
+  </ol>
+  <h2>Configuring the Design of a Component</h2>
+  <p>In Design mode, you can also configure attributes for the individual components. Each component has its own parameters, the following example shows the <strong>Image</strong> component:</p> 
+  <ol>
+   <li><p>To enter Design mode, open a page for editing and use the Sidekick icon:</p> <img imageRotate="0" src="assets/chlimage_1-13.png" /></li>
+   <li><p>You can configure the design of components.</p> <p>For example, if you click <strong>Edit</strong> on the Image component (<strong>Design of image</strong>) you can configure the component specific parameters:</p> <img imageRotate="0" src="assets/chlimage_1-14.png" /></li>
+   <li><p>Click <strong>OK</strong> to save your changes.<br /> </p> </li>
+   <li><p>The Sidekick minimizes in Design mode. By clicking on the arrow you can maximize the Sidekick and return to Edit Mode:</p> <img imageRotate="0" src="assets/sidekick-collapsed-1.png" /></li>
+  </ol>
+ </body>
+</html>

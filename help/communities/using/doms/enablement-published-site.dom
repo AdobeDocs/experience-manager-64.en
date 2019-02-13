@@ -1,0 +1,243 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="mgulati" name="cq:lastReplicatedBy" /> 
+  <meta content="2017-10-31T16:33:41.522-0400" name="firstPublishExternalDate" /> 
+  <meta content="5a787c52-d890-4480-bf6a-81ad7382d962" name="jcr:uuid" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="Browse to a published site for enablement" name="seoDescription" /> 
+  <meta content="Experience the Published Site" name="navTitle" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="mgulati@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2018-09-19T02:40:39.517-0400" name="publishExternalDate" /> 
+  <meta content="2017-12-01T19:02:54.314-0500" name="jcr:created" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="/content/docs/en/aem/6-3/administer/communities/getting-started-enablement/published-site" name="qaNotes" /> 
+  <meta content="Experience the Published Site" name="seoTitle" /> 
+  <meta content="2018-05-17T05:55:34.754-0400" name="locHandOffDate" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="dea8e9bb-c791-4bb3-ae2a-4154a5271530" name="jcr:predecessors" /> 
+  <meta content="mgulati" name="cq:lastModifiedBy" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2018-09-19T02:40:39.517-0400" name="lastPublishExternalDate" /> 
+  <meta content="2018-09-19T02:40:39.621-0400" name="cq:lastReplicated" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES;topic_tags:introduction;content_type:reference" name="cq:tags" /> 
+  <meta content="Experience the Published Site" name="jcr:title" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="Janice Kendall" name="contentOwner" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2018-09-19T02:40:39.537-0400" name="cq:lastModified" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/communities/using/enablement-published-site.html" name="publishExternalURL" /> 
+  <meta content="2018-09-19T02:40:39.517-0400" name="topicBrowsingSortDate" /> 
+  <meta content="/content/help/en/experience-manager/6-4/communities/morehelp/introduction;/content/help/en/experience-manager/6-4/communities/morehelp/introduction" name="moreHelpPaths" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES" name="primaryProductTag" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+ </head> 
+ <body> 
+  <p> </p> 
+  <table cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td style="text-align: left;"><strong><a href="../../communities/using/resource.md">⇐ Create and Assign Enablement Resources</a></strong></td> 
+     <td style="text-align: right;"> </td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h2>Browse to New Site on Publish</h2> 
+  <p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">Now that the newly created community site and its enablement resources and learning path have been published, it is possible to experience the Enablement Tutorial site.</p> 
+  <p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">Begin by browsing to the URL displayed when creating the site, but on the publish server, e.g.</p> 
+  <ul style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;"> 
+   <li>author URL = <a href="http://localhost:4502/content/sites/enable/en.html">http://localhost:4502/content/sites/enable/en.html</a></li> 
+   <li>publish URL = <a href="http://localhost:4503/content/sites/enable/en.html">http://localhost:4503/content/sites/enable/en.html</a></li> 
+  </ul> 
+  <p>If the <a href="../../communities/using/enablement-create-site.md#changethedefaulthomepage">default home page was set</a>, then simply browsing to <a href="http://localhost:4503/">http://localhost:4503/</a> should launch the site.</p> 
+  <p>When first arriving at the published site, the site visitor would typically not already be signed in and would be anonymous.</p> 
+  <h4>http://localhost:4503/content/sites/enable/en.html</h4> 
+  <img imageRotate="0" src="assets/chlimage_1-433.png" /> 
+  <h2>Anonymous Site Visitor</h2> 
+  <p style="font-family: tahoma, arial, helvetica, sans-serif;">An anonymous site visitor is immediately presented with the login page for this private enablement community site. Note that there is no option to self-register nor login with Facebook or Twitter.</p> 
+  <p>Notice this 
+   <g class="gr_ gr_46 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del" data-gr-id="46" id="46">
+     home page 
+   </g> shows four menu items: <span class="code">Assignments, Ski Catalog, What's New</span> and <span class="code">Discussions</span>, but none may be reached without signing in.</p> 
+  <note> 
+   <p>It is possible to grant anonymous access to an enablement site without allowing site visitors to self-register.<br /> If an enablement resource is set to <span class="code">show in catalog</span> and <span class="code">allow anonymous access</span>, it will be possible for anonymous site visitors to view resources in the catalog.</p> 
+  </note> 
+  <h3>Prevent anonymous access on JCR</h3> 
+  <p>A known limitation exposes the community site content to anonymous visitors through 
+   <g class="gr_ gr_8 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling" data-gr-id="8" id="8">
+     jcr 
+   </g> content and 
+   <g class="gr_ gr_9 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling" data-gr-id="9" id="9">
+     json 
+   </g>, though <strong>allow anonymous access</strong> is disabled for the site's content. However, this behavior can be controlled using Sling Restrictions as a workaround.</p> 
+  <p>To protect your community site's content from access by anonymous users through 
+   <g class="gr_ gr_6 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling" data-gr-id="6" id="6">
+     jcr 
+   </g> content and 
+   <g class="gr_ gr_7 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling" data-gr-id="7" id="7">
+     json 
+   </g>, follow these steps:</p> 
+  <ol> 
+   <li><p>On AEM Author instance, go to http://&amp;lt;host&amp;gt;:&amp;lt;port&amp;gt;/editor.html/content/site/&amp;lt;sitename&amp;gt;.html.</p> 
+    <note> 
+     <p>Do not go to the localized site.</p> 
+    </note></li> 
+   <li><p>Go to <strong>Page Properties</strong>.</p> <img imageRotate="0" src="assets/page-properties-1.png" /></li> 
+   <li><p>Go to <strong>Advanced</strong> tab.</p> </li> 
+   <li><p>Enable <strong>Authentication Requirement</strong>.</p> <img imageRotate="0" src="assets/site-authentication-1.png" /></li> 
+   <li><p>Add the path of the login page. For example, <strong>/content/......./GetStarted</strong>.</p> </li> 
+   <li><p>Publish the page.</p> </li> 
+  </ol> 
+  <h2>Enrolled Member</h2> 
+  <p>This experience relies on users <span class="code">Riley Taylor</span> and <span class="code">Sidney Croft</span> being <a href="../../communities/using/enablement-setup.md#publishcreateenablementmembers">created</a> and <a href="../../communities/using/resource.md#settings">assigned</a> to the <i>Ski Lessons</i> learning path through their membership in the <i>Community Ski Class</i> group.</p> 
+  <p>Login with</p> 
+  <ul> 
+   <li>username : riley</li> 
+   <li>password : password</li> 
+  </ul> 
+  <p>If the user profile was not created through self-registration, the very first time a member signs in, their Profile page is displayed so they may verify and modify it as necessary.</p> 
+  <p>The next time the member signs in, the home page, identified by the first menu item, is displayed.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-434.png" /> 
+  <h3>Assignments</h3> 
+  <p>The Assignments page is where the member is shown all of the learning paths and enablement resources assigned specifically to them.</p> 
+  <p>Each assignment provides basic information as to</p> 
+  <ul> 
+   <li>the type of Assignment</li> 
+   <li>whether it is a new Assignment</li> 
+   <li>the name</li> 
+   <li>details relevant for the type of Assignment</li> 
+   <li>Assignment contact, expert, and author (if provided)</li> 
+  </ul> 
+  <p>The type of Assignment is indicated by an icon in the upper left corner of the card. The image of a road is for a learning path with the number of included enablement resources.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-435.png" /> 
+  <p>Selecting <i>Ski Lessons</i> will display the two enablement resources referenced by the learning path.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-436.png" /> 
+  <p>Selecting <i>Ski Lesson 1</i> will open the enablement resource's details page.</p> 
+  <p>From the details page, the member is able to learn, <a href="../../communities/using/rating.md">rate</a> the lesson and add <a href="../../communities/using/comments.md">comments</a>. Any member activity will be reflected in the What's New section of the site.</p> 
+  <p>Interactions with the enablement resource will be noted in the Report section accessible in the author environment.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-437.png" /> 
+  <h3>Ski Catalog</h3> 
+  <p>The Ski Catalog page is the catalog of enablement resources tagged with tags from the <span class="code">Tutorial</span> namespace. The two <i>Ski Lesson</i> resources are tagged with the <span class="code">Skiing</span> tag, such that if any tags other than <span class="code">All</span> or <span class="code">Tutorial: Sports / Skiing</span> is selected, nothing is displayed.</p> 
+  <p>When a member has not been assigned enablement resources, either directly or through a learning path, it is possible to interact with enablement resources located within a catalog and provide feedback through comments and ratings.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-438.png" /> 
+  <h3>Discussions</h3> 
+  <p>In addition to rating and commenting on enablement resources (<a></a><a href="../../communities/using/enablement-create-site.md#step33asettings">when enabled</a>), the community site template from which <span class="code">Enablement Tutorial</span> was created includes the <a href="../../communities/using/functions.md#forumfunction">forum function</a> (title is <span class="code">Discussions)</span>. </p> 
+  <p>Select the <span class="code">Discussions </span>link and post a topic.</p> 
+  <p>Log out and Log in as Sidney Croft (sidney / password) and reply to the question, as well as Follow the topic.</p> 
+  <p>Notice, in addition to inline moderation, there are options to share the topic on social media or to email the topic.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-439.png" /> 
+  <h3>What's New</h3> 
+  <p>The <span class="code">What's New</span> menu item is the title given the <a href="../../communities/using/functions.md#activitystreamfunction">activity stream function</a> in this community site's structure.</p> 
+  <p>Still signed in as Sidney, select the <span class="code">What's New</span> link to show the activity.</p> 
+  <p> </p> 
+  <img imageRotate="0" src="assets/chlimage_1-440.png" /> 
+  <h2>Trusted Community Member</h2> 
+  <p>This experience assumes <span class="code"><a href="../../communities/using/enablement-setup.md#publishcreateenablementmembers">Quinn Harper</a></span> was assigned the roles of <a href="../../communities/using/enablement-create-site.md#moderation">moderator</a> and <a href="../../communities/using/resource.md#settings">resource contact</a>.</p> 
+  <p>Login with</p> 
+  <ul> 
+   <li>username : quinn</li> 
+   <li>password : password</li> 
+  </ul> 
+  <p>Once signed in, notice there is a new menu item, <span class="code">Administration</span>, which appears because the member was given the role of moderator. </p> 
+  <img imageRotate="0" src="assets/chlimage_1-441.png" /> 
+  <p>The home page is identified by the first menu item, Assignments. Quinn is the moderator and enablement resource contact and was not enrolled in any enablement resources or learning paths, and so there is nothing to display.</p> 
+  <h3>Administration</h3> 
+  <p>What there is, is activity by the two learners, <span class="code">Riley Taylor</span> and <span class="code">Sidney Croft. By s</span>electing the <span class="code">Administration </span>link to access the Moderation Console, Quinn is able to use the <a href="../../communities/using/moderation.md">bulk moderation console</a> to moderate their posts. </p> 
+  <p>Selecting the side-panel icon toggles open the filters used to search community content.</p> 
+  <p>Hovering over a comment card displays moderation actions.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-442.png" /> 
+  <h2>Reports on Author</h2> 
+  <p>There are two ways to access reporting on learners and enablement resources.</p> 
+  <p>On author, navigate to the <strong>Communities, <a href="../../communities/using/resources.md">Resources console</a></strong>, where the enablement resources are managed, and after selecting a community site, it is possible to generate reports for</p> 
+  <ul> 
+   <li>all enablement resources and learning paths</li> 
+   <li>one specific enablement resource or learning path </li> 
+  </ul> 
+  <p>Navigate to the <strong>Communities, <a href="../../communities/using/reports.md">Reports console</a></strong>, and generate reports according to </p> 
+  <ul> 
+   <li>assignments to enablement resources and learning paths</li> 
+   <li>posts to a community site over a specific period</li> 
+   <li>views (site visits) of a community site over a specific period</li> 
+  </ul> 
+  <ul> 
+   <li>posts and views may be to all content, or to specific content : 
+    <ul> 
+     <li>Forum</li> 
+     <li>Forum Topic</li> 
+     <li>QnA</li> 
+     <li>QnA Question</li> 
+     <li>Blog</li> 
+     <li>Blog Article</li> 
+     <li>Calendar</li> 
+     <li>Calendar Event</li> 
+    </ul> </li> 
+  </ul> 
+  <h3>Resources Console</h3> 
+  <p>With a little activity and interaction with the Resources on publish, viewing the reports on author is worth a look.</p> 
+  <ul> 
+   <li>on author</li> 
+   <li>sign in with administrative privileges</li> 
+   <li>navigate from the main menu to <strong>Communities &amp;gt; Resources</strong></li> 
+   <li>select the <span class="code">Enablement Tutorial</span> site</li> 
+   <li>select the <span class="code">Report </span>icon for a summary of all Resources</li> 
+   <li>select a Resource and then the <span class="code">Report </span>icon for a report on that Resource</li> 
+  </ul> 
+  <p>Notice that it is likely too soon to show data from Adobe Analytics, which can take from 1 to 12 hours to appear. However, basic SCORM reporting is already available.</p> 
+  <h4>Ski Lessons Resource Report</h4> 
+  <img imageRotate="0" src="assets/chlimage_1-443.png" /> 
+  <h4>Ski Lessons User Report</h4> 
+  <ul> 
+   <li>select <strong>Communities</strong>, <strong>Resources</strong></li> 
+   <li>open card <span class="code">Enablement Tutorial</span></li> 
+   <li>open card <span class="code">Ski Lessons</span></li> 
+   <li><span class="code">select Report, User Report</span></li> 
+  </ul> 
+  <img imageRotate="0" src="assets/chlimage_1-444.png" /> 
+  <h3>Reports Console</h3> 
+  <p>The Reports console allows for generation of reports on</p> 
+  <ul> 
+   <li><strong>Assignments</strong> for any enablement community site</li> 
+   <li><strong>Views</strong> for any community site</li> 
+   <li><strong>Posts</strong> for any community site</li> 
+  </ul> 
+  <p>For reports on assignments : </p> 
+  <ul> 
+   <li>on author</li> 
+   <li>sign in with administrative privileges</li> 
+   <li>navigate to <strong>Communities, Reports, Assignments Report</strong></li> 
+   <li>select a <strong>Site </strong>from the pull-down menu (select <span class="code">Enablement Tutorial</span>)</li> 
+   <li>select <strong>Group</strong> (select <span class="code">Community Ski Class</span>)</li> 
+   <li>select an <strong>Assignment </strong>(select <span class="code">Ski Lessons</span>)</li> 
+   <li>select <strong>Generate</strong></li> 
+  </ul> 
+  <img imageRotate="0" src="assets/chlimage_1-445.png" /> 
+  <p>For reports on views : </p> 
+  <ul> 
+   <li>on author</li> 
+   <li>sign in with administrative privileges</li> 
+   <li>navigate to <strong>Communities, Reports, Views Report</strong></li> 
+   <li>select a <strong>Site </strong>from the pull-down menu (select <span class="code">Enablement Tutorial</span>)</li> 
+   <li>select <strong>Content Type</strong> (select <span class="code">all</span>)</li> 
+   <li>select a <strong>date range</strong> (select <span class="code">Last 7 days</span>)</li> 
+   <li>select <strong>Generate</strong></li> 
+  </ul> 
+  <img imageRotate="0" src="assets/chlimage_1-446.png" /> 
+  <p> </p> 
+  <table cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td style="text-align: left;"><strong><a href="../../communities/using/resource.md">⇐ Create and Assign Enablement Resources</a></strong></td> 
+     <td style="text-align: right;"> </td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <p> </p> 
+ </body> 
+</html>

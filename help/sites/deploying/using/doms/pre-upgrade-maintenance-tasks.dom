@@ -1,0 +1,257 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/pre-upgrade-maintenance-tasks.html" name="publishExternalURL" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2018-04-04T10:21:55.413-0400" name="cq:lastReplicated" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="audience:deploying" name="primaryAudienceTag" /> 
+  <meta content="en" name="pageCreatedAt" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="cdd83b62-238e-47d5-9b77-eecf94d00013" name="jcr:uuid" /> 
+  <meta content="2018-04-04T10:21:53.846-0400" name="topicBrowsingSortDate" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="sarchiz@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="Pre-Upgrade Maintenance Tasks" name="jcr:title" /> 
+  <meta content="2018-04-04T10:21:53.846-0400" name="lastPublishExternalDate" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2017-12-16T19:01:29.310-0500" name="jcr:created" /> 
+  <meta content="Pre-Upgrade Maintenance Tasks" name="seoTitle" /> 
+  <meta content="sarchiz" name="cq:lastReplicatedBy" /> 
+  <meta content="2018-04-30T03:27:53.306-0400" name="cq:lastModified" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;content_type:reference;topic_tags:upgrading" name="cq:tags" /> 
+  <meta content="sarchiz" name="contentOwner" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/deploying/morehelp/upgrading;/content/help/en/experience-manager/6-4/sites/deploying/morehelp/upgrading" name="moreHelpPaths" /> 
+  <meta content="Learn about the pre-upgrade tasks in AEM." name="seoDescription" /> 
+  <meta content="2018-04-04T10:21:53.846-0400" name="publishExternalDate" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2017-11-29T07:08:31.365-0500" name="firstPublishExternalDate" /> 
+  <meta content="2018-04-30T03:27:53.306-0400" name="locHandOffDate" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="eeb258df-4751-49b6-9c2c-6c9246f035a9" name="jcr:predecessors" /> 
+  <meta content="taneja" name="cq:lastModifiedBy" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+ </head> 
+ <body> 
+  <p>Before beginning your upgrade, it is important to follow these maintenance tasks to ensure that the system is ready and can be rolled back should issues occur:</p> 
+  <ul> 
+   <li><a href="/sites/deploying/using/pre-upgrade-maintenance-tasks.html?wcmmode=disabled#ensure-sufficient-disk-space">Ensure Sufficient Disk Space</a></li> 
+   <li><a href="/sites/deploying/using/pre-upgrade-maintenance-tasks.html?wcmmode=disabled#fully-back-up-aem">Fully Back Up AEM</a></li> 
+   <li><a href="/sites/deploying/using/pre-upgrade-maintenance-tasks.html?wcmmode=disabled#backup-changes-etc">Back Up Changes to /etc</a></li> 
+   <li><a href="/sites/deploying/using/pre-upgrade-maintenance-tasks.html?wcmmode=disabled#generate-quickstart-properties">Generate The quickstart.properties File</a></li> 
+   <li><a href="/sites/deploying/using/pre-upgrade-maintenance-tasks.html?wcmmode=disabled#configure-wf-audit-purging">Configure Workflow and Audit Log Purging</a></li> 
+   <li><a href="/sites/deploying/using/pre-upgrade-maintenance-tasks.html?wcmmode=disabled#install-configure-run-pre-upgrade-tasks">Install, Configure, and Run The Pre-Upgrade Tasks</a></li> 
+   <li><a href="/sites/deploying/using/pre-upgrade-maintenance-tasks.html?wcmmode=disabled#disable-custom-login-modules">Disable Custom Login Modules</a></li> 
+   <li><a href="/sites/deploying/using/pre-upgrade-maintenance-tasks.html?wcmmode=disabled#remove-updates-install-directory">Remove Updates From The /install Directory</a></li> 
+   <li><a href="/sites/deploying/using/pre-upgrade-maintenance-tasks.html?wcmmode=disabled#stop-tarmk-coldstandby-instance">Stop Any Cold Standby Instances</a></li> 
+   <li><a href="/sites/deploying/using/pre-upgrade-maintenance-tasks.html?wcmmode=disabled#disable-custom-scheduled-jobs">Disable Custom Scheduled Jobs</a></li> 
+   <li><a href="/sites/deploying/using/pre-upgrade-maintenance-tasks.html?wcmmode=disabled#execute-offline-revision-cleanup">Execute Offline Revision Cleanup</a></li> 
+   <li><a href="/sites/deploying/using/pre-upgrade-maintenance-tasks.html?wcmmode=disabled#execute-datastore-garbage-collection">Execute Datastore Garbage Collection</a></li> 
+   <li><a href="/sites/deploying/using/pre-upgrade-maintenance-tasks.html?wcmmode=disabled#rotate-log-files">Rotate Log Files</a></li> 
+  </ul> 
+  <h2 id="ensure-sufficient-disk-space">Ensure Sufficient Disk Space</h2> 
+  <p>When executing the upgrade, in addition to the content and code upgrade activities, a repository migration will need to be performed. The migration will create a copy of the repository in the new Segment Tar format. As a result, you will need enough disk space to retain a second, potentially larger, version of your repository.</p> 
+  <h2 id="fully-back-up-aem">Fully Back Up AEM</h2> 
+  <p>AEM should be fully backed up before beginning the upgrade. Make sure to back up your repository, application installation, datastore, and Mongo instances if applicable. For more information on backing up and restoring an AEM instance, see <a href="../../../sites/administering/using/backup-and-restore.md">Backup and Restore</a>.</p> 
+  <h2 id="backup-changes-etc">Back Up Changes to /etc</h2> 
+  <p>The upgrade process does a good job of maintaining and merging existing content and configurations from under the <span class="code">/apps</span> and <span class="code">/libs</span> paths in the repository. For changes made to the <span class="code">/etc</span> path, including Context Hub configurations, it is often necessary to re-apply these changes after the upgrade. While the upgrade will make a backup copy of any changes that it cannot merge under <span class="code">/var</span>, we recommend backing up these changes manually before beginning the upgrade.</p> 
+  <h2 id="generate-quickstart-properties">Generate The quickstart.properties File</h2> 
+  <p>When starting AEM from the jar file, a <span class="code">quickstart.properties</span> file will be generated under <span class="code">crx-quickstart/conf</span>. If AEM has only been started with the start script in the past, this file will not be present and the upgrade will fail. Make sure to check for the existence of this file and restart AEM from the jar file if it is not present.</p> 
+  <h2 id="configure-wf-audit-purging">Configure Workflow and Audit Log Purging</h2> 
+  <p>The <span class="code">WorkflowPurgeTask</span> and <span class="code">com.day.cq.audit.impl.AuditLogMaintenanceTask</span> tasks require separate OSGi configurations and will not work without them. If they fail during pre-upgrade task execution, missing configurations is the most likely reason. Therefore, make sure to add OSGi configurations for these tasks or remove them altogether from the pre-upgrade optimization tasks list if you do not wish to run them. Documentation for configuring workflow purging tasks can be found at <a href="/content/help/en/experience-manager/6-2/sites/administering/using/wf-administering#Regular Purging of Workflow Instances">Administering Workflow Instances</a> and audit log maintenance task configuration can be found at <a href="../../../sites/administering/using/operations-audit-log.md">Audit Log Maintenance in AEM 6</a>.</p> 
+  <p>For workflow and audit log purging on CQ 5.6 as well as audit log purging on AEM 6.0, see <a href="/content/help/en/experience-manager/kb/howtopurgewf">Purge workflow and audit nodes</a>.</p> 
+  <h2 id="install-configure-run-pre-upgrade-tasks">Install, Configure, and Run The Pre-Upgrade Tasks</h2> 
+  <p>Because of the level of customization AEM allows, environments usually do not adhere to a uniform way of performing upgrades. This makes creating a standardized procedure for upgrades a difficult process.</p> 
+  <p>In previous versions, it was also difficult for AEM upgrades that were stopped or that have failed to be safely resumed. This led to situations where restarting the full upgrade procedure was necessary or where defective upgrades were carried out without triggering any warnings.</p> 
+  <p>In order to address these issues, Adobe has added several enhancements to the upgrade process, making it more resilient and user friendly. Pre-upgrade maintenance tasks that before had to be performed manually are being optimized and automated. Also, post-upgrade reports have been added so that the process can be fully scrutinized in the hope that any issues are found more easily.</p> 
+  <p>Pre-upgrade maintenance tasks are currently spread over various interfaces which are partially or completely performed manually. The pre-upgrade maintenance optimization introduced in AEM 6.3 enables a unified way to trigger these tasks and be able to inspect their result on demand.</p> 
+  <p>All tasks included in the pre-upgrade optimization step are compatible with all versions from AEM 6.0 onwards.</p> 
+  <h3 id="How to Set It Up">How to Set It Up</h3> 
+  <p>In AEM 6.3 and later, the pre-upgrade maintenance optimization tasks come included in the quickstart jar. If you are upgrading from an older version of AEM 6, they are made available through separate packages that you can download from the Package Manager.</p> 
+  <p>You can find the packages at these locations:</p> 
+  <ul> 
+   <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq600/product/pre-upgrade-tasks-content-cq60">For upgrading from AEM 6.0</a><br /><br /> </li> 
+   <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq610/product/pre-upgrade-tasks-content-cq61">For upgrading from AEM 6.1</a><br /><br /> </li> 
+   <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/product/pre-upgrade-tasks-content-cq62">For upgrading from AEM 6.2</a></li> 
+  </ul> 
+  <h3 id="How to Use It">How to Use It</h3> 
+  <p>The <span class="code">PreUpgradeTasksMBean</span> OSGI component comes preconfigured with a list of pre-upgrade maintenance tasks that can be run all at once. You can configure the tasks by following the below procedure:</p> 
+  <ol> 
+   <li><p>Go to the Web Console by browsing to <em>http://serveraddress:serverport/system/console/configMgr</em><br /> </p> </li> 
+   <li><p>Search for "<strong>preupgradetasks</strong>", then click on the first matching component. The full name of the component is <span class="code">com.adobe.aem.upgrade.prechecks.mbean.impl.PreUpgradeTasksMBeanImpl</span><br /> </p> </li> 
+   <li><p>Modify the list of maintenance tasks that need to run as shown below:<br /> </p> <img imageRotate="0" src="assets/1487758925984.png" /></li> 
+  </ol> 
+  <p>The task list differs depending on the run mode that is being used to start the instance. Below is a description of the run mode each maintenance task is designed for.</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td><strong>Task</strong></td> 
+     <td><strong>Run Mode</strong></td> 
+     <td><strong>Notes</strong></td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">TarIndexMergeTask</span></td> 
+     <td>crx2</td> 
+     <td> </td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">DataStoreGarbageCollectionTask</span></td> 
+     <td>crx2</td> 
+     <td>Will run mark and sweep. For shared datastores, remove this step and run<br /> manually or properly prepare instances before executing.</td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">ConsistencyCheckTask</span></td> 
+     <td>crx2</td> 
+     <td> </td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">WorkflowPurgeTask</span></td> 
+     <td>crx2/crx3</td> 
+     <td>Must configure the Adobe Granite Workflow Purge Configuration OSGi before running.</td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">GenerateBundlesListFileTask</span></td> 
+     <td>crx2/crx3</td> 
+     <td> </td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">RevisionCleanupTask</span></td> 
+     <td>crx3</td> 
+     <td>For TarMK instances on AEM 6.0 to 6.2, manually run Offline Revision Cleanup instead.</td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">com.day.cq.audit.impl.AuditLogMaintenanceTask</span></td> 
+     <td>crx3</td> 
+     <td>Must configure the Audit Log Purge Scheduler OSGi configuration before running.</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <note> 
+   <p><span class="code">DataStoreGarbageCollectionTask</span> is calling a Datastore Garbage Collection operation with the mark and sweep phase if used. For deployments that use a shared datastore make sure to either reconfigure it or properly or prepare the instance to avoid deletion of items referenced by another instance. This might require running the mark phase manually on all instances before triggering this pre-upgrade task.</p> 
+  </note> 
+  <h3 id="Default Configuration of the Pre-Upgrade Health Checks">Default Configuration of the Pre-Upgrade Health Checks</h3> 
+  <p>The <span class="code">PreUpgradeTasksMBeanImpl</span> OSGI component comes pre-configured with a list of pre-upgrade health check tags to execute when the <span class="code">runAllPreUpgradeHealthChecks</span> method is called:</p> 
+  <ul> 
+   <li><strong>system</strong> - the tag used by the granite maintenance health checks<br /> </li> 
+   <li><strong>pre-upgrade</strong> - this is a custom tag that could be added to all the health checks that you can set to run before an upgrade</li> 
+  </ul> 
+  <p>The list is editable. You can use the plus <strong>(+)</strong> and minus <strong>(-)</strong> buttons besides the tags to add more custom tags, or remove the default ones.</p> 
+  <p><strong>MBean Methods</strong></p> 
+  <p>The managed bean functionality can be accessed using the <a href="../../../sites/administering/using/jmx-console.md">JMX Console</a>.</p> 
+  <p>You can access the MBeans by:</p> 
+  <ol> 
+   <li><p>Going to the JMX Console at <em>http://serveraddress:serverport/system/console/jmx</em></p> </li> 
+   <li><p>Search for <strong>PreUpgradeTasks</strong> and click the result<br /> </p> </li> 
+   <li><p>Select any method from the <strong>Operations</strong> section and select <strong>Invoke</strong> in the following window.<br /> </p> </li> 
+  </ol> 
+  <p>Below is a list of all the available methods that the <span class="code">PreUpgradeTasksMBeanImpl</span> exposes:</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td><strong>Method Name</strong></td> 
+     <td><strong>Type</strong></td> 
+     <td><strong>Description</strong></td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">getAvailablePreUpgradeTasksNames()</span></td> 
+     <td>INFO</td> 
+     <td>Displays the list of available pre-upgrade maintenance tasks names.</td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">getAvailablePreUpgradeHealthChecksTagNames()</span></td> 
+     <td>INFO</td> 
+     <td>Displays the list of pre-upgrade health checks tag names.</td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">runAllPreUpgradeTasks()</span></td> 
+     <td>ACTION</td> 
+     <td>Runs all the pre-upgrade maintenance tasks in the list.</td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">runPreUpgradeTask(preUpgradeTaskName)</span></td> 
+     <td>ACTION</td> 
+     <td>Runs the pre-upgrade maintenance task with the name given as the parameter.</td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">isRunAllPreUpgradeTaskRunning()</span></td> 
+     <td>ACTION_INFO</td> 
+     <td>Checks if the <span class="code">runAllPreUpgradeTasksmaintenance</span> task is currently running.</td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">getAnyPreUpgradeTaskRunning()</span></td> 
+     <td>ACTION_INFO</td> 
+     <td>Checks if any pre-upgrade maintenance task is currently running and<br /> returns an array containing the names of currently running tasks.</td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">getPreUpgradeTaskLastRunTime(preUpgradeTaskName)</span></td> 
+     <td>ACTION</td> 
+     <td>Displays the exact running time of the pre-upgrade maintenance task with the name given as the parameter.</td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">getPreUpgradeTaskLastRunState(preUpgradeTaskName)</span></td> 
+     <td>ACTION</td> 
+     <td>Displays the last running state of the pre-upgrade maintenance task with the name given as the parameter.</td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">runAllPreUpgradeHealthChecks(shutDownOnSuccess)</span></td> 
+     <td>ACTION</td> 
+     <td><p>Runs all the pre-upgrade health checks and saves their status in a file named <span class="code">preUpgradeHCStatus.properties</span> that is located in the sling home path. If the <span class="code">shutDownOnSuccess</span> parameter is set to <span class="code">true</span>, the AEM instance will be shut down, but only if all the pre-upgrade health checks have an OK status.</p> <p>The properties file will be used as a precondition for any future upgrade<br /> and the upgrade process will be stopped if the pre-upgrade health check<br /> execution failed. If you want to ignore the result of the pre-upgrade<br /> health checks and launch the upgrade anyway, you can delete the file.</p> </td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">detectUsageOfUnavailableAPI(aemVersion)</span></td> 
+     <td>ACTION</td> 
+     <td>Lists all the imported packages that will no longer be satisfied when<br /> upgrading to the specified AEM version. The target AEM version must be<br /> given as parameter.</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <note> 
+   <p>The MBean methods can be invoked via:</p> 
+   <ul> 
+    <li> The JMX Console<br /> </li> 
+    <li>Any external application that connects to JMX<br /> </li> 
+    <li>cURL</li> 
+   </ul> 
+  </note> 
+  <h2 id="disable-custom-login-modules">Disable Custom Login Modules</h2> 
+  <note> 
+   <p>This step is only required if you are upgrading from an AEM 5 version. It can be skipped entirely for upgrades from older AEM 6 versions.</p> 
+  </note> 
+  <p>The way custom <span class="code">LoginModules</span> are configured for authentication at the repository level has fundamentally changed in Apache Oak.</p> 
+  <p>In AEM versions that used CRX2 configuration was placed in the <span class="code">repository.xml</span> file, while from AEM 6 onwards it is done in the Apache Felix JAAS Configuration Factory service via the Web Console.</p> 
+  <p>Therefore, any existing configurations will have to be disabled and re-created for Apache Oak after the upgrade.</p> 
+  <p>To disable the custom modules defined in the JAAS configuration of <span class="code">repository.xml</span>, you need to modify the configuration to make use of default <span class="code">LoginModule</span>, as in this example:</p> 
+  <codeblock gutter="true" class="syntax xml">
+    &lt;Security&amp;nbsp;&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;....!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;!--!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Use&amp;nbsp;LoginModule&amp;nbsp;authenticating&amp;nbsp;against&amp;nbsp;repository&amp;nbsp;itself!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;--&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;LoginModule&amp;nbsp;class&amp;nbsp;=&amp;nbsp;"com.day.crx.core.CRXLoginModule"&amp;nbsp;&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;param&amp;nbsp;name&amp;nbsp;=&amp;nbsp;"anonymousId"&amp;nbsp;value&amp;nbsp;=&amp;nbsp;"anonymous"&amp;nbsp;/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;param&amp;nbsp;name&amp;nbsp;=&amp;nbsp;"adminId"&amp;nbsp;value&amp;nbsp;="admin"&amp;nbsp;/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;param&amp;nbsp;name&amp;nbsp;=&amp;nbsp;"disableNTLMAuth"&amp;nbsp;value&amp;nbsp;=&amp;nbsp;"true"&amp;nbsp;/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;param&amp;nbsp;name&amp;nbsp;=&amp;nbsp;"tokenExpiration"&amp;nbsp;value&amp;nbsp;=&amp;nbsp;"43200000"&amp;nbsp;/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;!--&amp;nbsp;param&amp;nbsp;name="trust_credentials_attribute"&amp;nbsp;value="d5b9167e95dad6e7d3b5d6fa8df48af8"/!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;--&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/LoginModule&amp;nbsp;&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/&amp;nbsp;Security&gt; 
+  </codeblock> 
+  <note> 
+   <p>For more information, see <a href="https://jackrabbit.apache.org/oak/docs/security/authentication/externalloginmodule.html">Authentication with the External Login Module</a>.</p> 
+   <p>For an example of <span class="code">LoginModule</span> configuration in AEM 6, see <a href="../../../sites/administering/using/ldap-config.md">Configuring LDAP with AEM 6</a>.</p> 
+  </note> 
+  <h2 id="remove-updates-install-directory">Remove Updates From The /install Directory</h2> 
+  <note> 
+   <p>Only remove packages from the crx-quickstart/install directory AFTER shutting down the AEM instance. This will be one of the last steps before starting the in-place upgrade procedure.</p> 
+  </note> 
+  <p>Remove any service packs, feature packs or hotfixes that have been deployed through the <span class="code">crx-quickstart/install</span> directory on the local file system. This will prevent the inadvertent installation of old hotfixes and service packs on top of the new AEM version after the update has completed.</p> 
+  <h2 id="stop-tarmk-coldstandby-instance">Stop Any Cold Standby Instances</h2> 
+  <p>If using TarMK cold standby, stop any cold standby instances. These will guarantee an efficient way to come back online in case of issues in the upgrade. After the upgrade has completed successfully, the cold standby instances will need to be rebuilt from the upgraded primary instances.</p> 
+  <h2 id="disable-custom-scheduled-jobs">Disable Custom Scheduled Jobs</h2> 
+  <p> Disable any OSGi scheduled jobs that are included in your application code.</p> 
+  <h2 id="execute-offline-revision-cleanup">Execute Offline Revision Cleanup</h2> 
+  <note> 
+   <p>This step is only necessary for TarMK installations</p> 
+  </note> 
+  <p>If using TarMK, you should execute Offline Revision Cleanup before upgrading. This will make the repository migration step and subsequent upgrade tasks execute much faster and will help to ensure that Online Revision Cleanup can execute successfully after the upgrade has completed. For information on running Offline Revision Cleanup, see <a href="/content/help/en/experience-manager/6-2/sites/deploying/using/storage-elements-in-aem-6#PerformingOfflineRevisionCleanup">Performing Offline Revision Cleanup</a>.</p> 
+  <h2 id="execute-datastore-garbage-collection">Execute Datastore Garbage Collection</h2> 
+  <note> 
+   <p>This step is only necessary for instances running crx3</p> 
+  </note> 
+  <p>After running revision cleanup on CRX3 instances, you should run Datastore Garbage Collection to remove any unreferenced blobs in the data store. For instructions, see the documentation on <a href="../../../sites/administering/using/data-store-garbage-collection.md">Data Store Garbage Collection</a>.</p> 
+  <h2 id="rotate-log-files">Rotate Log Files</h2> 
+  <p>We recommend archiving your current log files before beginning your upgrade. This will make it easier to monitor and scan your log files during and after the upgrade to identify and resolve any issues that may occur.</p> 
+ </body> 
+</html>

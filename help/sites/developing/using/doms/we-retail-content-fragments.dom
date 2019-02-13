@@ -1,0 +1,125 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2017-10-31T16:16:04.493-0400" name="topicBrowsingSortDate" /> 
+  <meta content="Trying out Content Fragments in We.Retail" name="jcr:title" /> 
+  <meta content="2017-10-31T16:16:04.493-0400" name="lastPublishExternalDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2018-03-15T09:01:14.960-0400" name="jcr:created" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/we-retail-content-fragments.html" name="publishExternalURL" /> 
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2018-10-27T23:47:45.714-0400" name="cq:lastReplicated" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="0344ef3f-2df8-473c-bf26-1438c91f7bdb" name="jcr:predecessors" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="/content/docs/en/aem/6-3/develop/best-practices/we-retail/content-fragments" name="qaNotes" /> 
+  <meta content="aheimoz" name="cq:lastModifiedBy" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="User" name="contentOwner" /> 
+  <meta content="2018-05-08T12:46:32.404-0400" name="locHandOffDate" /> 
+  <meta content="audience:developing" name="primaryAudienceTag" /> 
+  <meta content="b321ec83-1666-4041-a623-5977a583c2e1" name="jcr:uuid" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/morehelp/best-practices;/content/help/en/experience-manager/6-4/sites/developing/morehelp/best-practices" name="moreHelpPaths" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="2018-11-16T05:15:41.109-0500" name="cq:lastModified" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2017-10-31T16:16:04.493-0400" name="publishExternalDate" /> 
+  <meta content="2017-10-31T16:16:04.493-0400" name="firstPublishExternalDate" /> 
+  <meta content="jsyal" name="cq:lastReplicatedBy" /> 
+  <meta content="Trying out Content Fragments in We.Retail" name="seoTitle" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;content_type:reference;topic_tags:best-practices" name="cq:tags" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+ </head> 
+ <body> 
+  <p>Content Fragments allow you to create channel-neutral content, together with (possibly channel-specific) variations. <strong>We.Retail</strong> (as available in an out-of-the-box instance of AEM) provides the fragment <strong>Arctic Surfing in Lofoten</strong> as a basic sample. This illustrates that:</p> 
+  <ul> 
+   <li>Adobe Experience Manager (AEM) content fragments are <a href="../../../assets/using/content-fragments.md">created and managed as page-independent assets</a>. They allow you to create channel-neutral content, together with (possibly channel-specific) variations. 
+    <ul> 
+     <li>See <a href="#wheretofindcontentfragmentsinweretail">Where to Find Content Fragment assets in We.Retail</a></li> 
+    </ul> </li> 
+   <li>You can then <a href="../../../sites/authoring/using/content-fragments.md">use these fragments, and their variations, when authoring</a> your content pages. 
+    <ul> 
+     <li>See <a href="#wherecontentfragmentsareusedinweretail">Where Content Fragments are Used in We.Retail</a></li> 
+    </ul> </li> 
+  </ul> 
+  <p>For the full documentation on creating, managing, using and developing content fragments:</p> 
+  <ul> 
+   <li>See <a href="#furtherinformation">Further Information</a></li> 
+  </ul> 
+  <note> 
+   <p><strong>Content Fragments</strong> and <strong><a href="../../../sites/authoring/using/experience-fragments.md">Experience Fragments</a></strong> are different features within AEM:</p> 
+   <ul> 
+    <li><strong>Content Fragments</strong> are editorial content, primarily text and related images. They are pure content, without design and layout.</li> 
+    <li><strong>Experience Fragments</strong> are fully laid out content; a fragment of a web page.<br /> </li> 
+   </ul> 
+   <p>Experience Fragments can contain content in the form of Content Fragments, but not the other way around.<a href="../../../sites/authoring/using/experience-fragments.md"></a></p> 
+  </note> 
+  <h3>Where to Find Content Fragments in We.Retail</h3> 
+  <p>There are several sample content fragments in We.Retail; navigate via <strong>Assets</strong>, <strong>Files</strong>, <strong>We.Retail</strong>, <strong>English</strong>, <strong>Experiences</strong>.</p> 
+  <p>These include <strong>Arctic Surfing in Lofoten</strong>, a fragment together with related visual assets:</p> 
+  <ul> 
+   <li>Navigate via <strong>Assets</strong>, <strong>Files</strong>, <strong>We.Retail</strong>, <strong>English</strong>, <strong>Experiences</strong>, <strong>Artic Surfing in Lofoten</strong>: 
+    <ul> 
+     <li><a href="http://localhost:4502/assets.html/content/dam/we-retail/en/experiences/arctic-surfing-in-lofoten">http://localhost:4502/assets.html/content/dam/we-retail/en/experiences/arctic-surfing-in-lofoten</a></li> 
+    </ul> </li> 
+  </ul> 
+  <img imageRotate="0" src="assets/cf-44.png" /> 
+  <p>You can select and edit the <strong>Arctic Surfing in Lofoten</strong> fragment:</p> 
+  <ul> 
+   <li><a href="http://localhost:4502/editor.html/content/dam/we-retail/en/experiences/arctic-surfing-in-lofoten/arctic-surfing-in-lofoten">http://localhost:4502/editor.html/content/dam/we-retail/en/experiences/arctic-surfing-in-lofoten/arctic-surfing-in-lofoten</a></li> 
+  </ul> 
+  <p>Here you can <a href="../../../assets/using/content-fragments.md">edit and manage</a> your fragment using the tabs (left side panel):</p> 
+  <ul> 
+  </ul> 
+  <img imageRotate="0" src="assets/cf-45-aa.png" /> 
+  <img imageRotate="0" src="assets/cf-45-a.png" /> 
+  <ul> 
+   <li><strong><a href="../../../assets/using/content-fragments-variations.md">Variations</a></strong> including <a href="../../../assets/using/content-fragments-markdown.md">Markdown</a> <br /> </li> 
+   <li><strong><a href="../../../assets/using/content-fragments-assoc-content.md">Associated Content</a></strong></li> 
+   <li><strong><a href="../../../assets/using/content-fragments-metadata.md">Metadata</a></strong></li> 
+  </ul> 
+  <img imageRotate="0" src="assets/cf-46.png" /> 
+  <h3>Where Content Fragments are Used in We.Retail</h3> 
+  <p>To illustrate <a href="../../../sites/authoring/using/content-fragments.md">page authoring with a content fragment</a> there are several example pages provided under, for example:</p> 
+  <ul> 
+   <li><a href="/sites.html/content/we-retail/language-masters/en/experience">http://localhost:4502/sites.html/content/we-retail/language-masters/en/experience</a></li> 
+  </ul> 
+  <p>For example, the <strong>Arctic Surfing in Lofoten</strong> content fragment is referenced in the Sites page:</p> 
+  <ul> 
+   <li>Navigate via <strong>Sites</strong>, <strong>We.Retail</strong>, <strong>Language Masters</strong>, <strong>English</strong>, <strong>Experience</strong>. Then open <strong>Arctic Surfing in Lofoten</strong> for editing: 
+    <ul> 
+     <li><a href="http://localhost:4502/editor.html/content/we-retail/language-masters/en/experience/arctic-surfing-in-lofoten.html">http://localhost:4502/editor.html/content/we-retail/language-masters/en/experience/arctic-surfing-in-lofoten.html</a></li> 
+    </ul> </li> 
+  </ul> 
+  <img imageRotate="0" src="assets/cf-53.png" /> 
+  <h3>Further Information</h3> 
+  <p>For more details see:</p> 
+  <ul> 
+   <li><a href="../../../assets/using/content-fragments.md">Working with Content Fragments</a> 
+    <ul> 
+     <li>Learn how to create, edit and manage your Content Fragment assets.</li> 
+    </ul> </li> 
+   <li><a href="../../../sites/authoring/using/content-fragments.md">Page Authoring with Content Fragments</a> 
+    <ul> 
+     <li>Use your Content Fragment when authoring a page.</li> 
+    </ul> </li> 
+   <li><a href="../../../sites/developing/using/components-content-fragments.md">Developing AEM - Components for Content Fragments</a> 
+    <ul> 
+     <li>An overview of the components for Content Fragments.</li> 
+    </ul> </li> 
+   <li><a href="../../../sites/developing/using/customizing-content-fragments.md">Developing and Extending Content Fragments</a> 
+    <ul> 
+     <li>Information to help you develop and extend Content Fragments.</li> 
+    </ul> </li> 
+  </ul> 
+  <p> </p> 
+ </body> 
+</html>

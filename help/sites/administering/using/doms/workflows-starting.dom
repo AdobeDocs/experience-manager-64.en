@@ -1,0 +1,155 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2018-04-16T08:44:17.554-0400" name="publishExternalDate" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="User" name="contentOwner" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="Starting Workflows" name="seoTitle" /> 
+  <meta content="1cc949e4-d6b2-4ce0-8500-c696dbdca44a" name="jcr:predecessors" /> 
+  <meta content="c73a9728-8ce0-437e-a32c-6a207ccc5a74" name="jcr:uuid" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/workflows-starting.html" name="publishExternalURL" /> 
+  <meta content="jsyal" name="cq:lastReplicatedBy" /> 
+  <meta content="audience:administering" name="primaryAudienceTag" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/administering/morehelp/operations;/content/help/en/experience-manager/6-4/sites/administering/morehelp/operations" name="moreHelpPaths" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:operations;content_type:reference" name="cq:tags" /> 
+  <meta content="/content/docs/en/aem/6-3/administer/operations/workflows/starting" name="qaNotes" /> 
+  <meta content="Learn how to start Workflows in AEM." name="seoDescription" /> 
+  <meta content="aheimoz" name="cq:lastModifiedBy" /> 
+  <meta content="2018-04-16T08:44:17.554-0400" name="lastPublishExternalDate" /> 
+  <meta content="2018-03-09T08:01:31.683-0500" name="jcr:created" /> 
+  <meta content="2018-10-27T23:45:52.057-0400" name="cq:lastReplicated" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2018-04-26T10:11:16.447-0400" name="locHandOffDate" /> 
+  <meta content="2018-04-26T10:11:16.447-0400" name="cq:lastModified" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2017-10-31T16:21:17.618-0400" name="firstPublishExternalDate" /> 
+  <meta content="2018-04-16T08:44:17.554-0400" name="topicBrowsingSortDate" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="Starting Workflows" name="jcr:title" /> 
+  <meta content="Starting Workflows" name="navTitle" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="aheimoz@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" /> 
+ </head> 
+ <body> 
+  <p>When administering workflows you can start them using a variety of methods:</p> 
+  <ul> 
+   <li>Manually: 
+    <ul> 
+     <li>From a <a href="#workflowmodels">Workflow Model</a>.</li> 
+     <li>Using a workflow package for <a href="#workflowpackagesforbatchprocessing">batch processing</a>.</li> 
+    </ul> </li> 
+   <li>Automatically: 
+    <ul> 
+     <li>In response to node changes; <a href="#workflowlaunchers">using a Launcher</a>.</li> 
+    </ul> </li> 
+  </ul> 
+  <note> 
+   <p>Other methods are also available to authors; for full details see:</p> 
+   <ul> 
+    <li><a href="../../../sites/authoring/using/workflows-applying.md">Applying Workflows to Pages</a></li> 
+    <li><a href="../../../assets/using/assets-workflow.md">How to apply workflows to DAM assets</a></li> 
+    <li><a href="https://helpx.adobe.com/aem-forms/6-2/aem-workflows-submit-process-form.html">AEM Forms</a></li> 
+    <li><a href="../../../sites/administering/using/tc-manage.md">Translation Projects</a></li> 
+   </ul> 
+  </note> 
+  <h3>Workflow Models</h3> 
+  <p>You can start a workflow <a href="../../../sites/administering/using/workflows.md#workflowmodelsandinstances">based on one of the models</a> listed on the Workflow Models console. The only mandatory information is the payload, though a title and/or comment can be added as well.</p> 
+  <h3>Workflows Launchers</h3> 
+  <p>The Workflow Launcher monitors changes in the content repository to launch workflows dependent on the location and resource type of the changed node.</p> 
+  <p>Using the <strong>Launcher</strong> you can:</p> 
+  <ul> 
+   <li>See the workflows already launched for specific nodes.</li> 
+   <li>Select a workflow to be launched when a certain node/node-type has been created/modified/removed.</li> 
+   <li>Remove an existing workflow-to-node relationship.</li> 
+  </ul> 
+  <p>A launcher can be created for any node. However, changes to certain nodes do not launch workflows. Changes to nodes below the following paths do not cause workflows to launch:</p> 
+  <ul> 
+   <li><span class="code">/var/workflow/instances</span></li> 
+   <li>Any workflow-inbox node located anywhere in the <span class="code">/home/users</span> branch</li> 
+   <li><span class="code">/tmp</span></li> 
+   <li><span class="code">/var/audit</span></li> 
+   <li><span class="code">/var/classes</span></li> 
+   <li><span class="code">/var/eventing</span></li> 
+   <li><span class="code">/var/linkchecker</span></li> 
+   <li><span class="code">/var/mobile</span></li> 
+   <li><span class="code">/var/statistics</span> 
+    <ul> 
+     <li>Exception: Changes to nodes below <span class="code">/var/statistics/tracking</span> <em>do</em> cause workflows to launch.</li> 
+    </ul> </li> 
+  </ul> 
+  <p>Various definitions are included with the standard installation. These are used for digital asset management and social collaboration tasks:</p> 
+  <img imageRotate="0" src="assets/wf-100.png" /> 
+  <h3>Workflow Packages for Batch Processing</h3> 
+  <p>Workflow packages are packages that can be passed to a workflow as payload for processing, allowing multiple resources to be processed.</p> 
+  <p>A workflow package:</p> 
+  <ul> 
+   <li>contains links to a set of resources (such as pages, assets).</li> 
+   <li>holds package information such as the creation date, the user that created the package and a short description.</li> 
+   <li>is defined using a specialized page template; such pages allow the user to specify the resources in the package.<br /> </li> 
+   <li>can be used multiple times.</li> 
+   <li>can be changed by the user (add or remove resources) while the workflow instance is actually running.</li> 
+  </ul> 
+  <h3>Starting a Workflow from the Models Console</h3> 
+  <ol> 
+   <li><p>Navigate to the <strong>Models</strong> console using <strong>Tools</strong>, <strong>Workflow</strong>, then <strong>Models</strong>.</p> </li> 
+   <li><p>Select the workflow (according to the console view); you can also use Search (top left) if required:</p> <img imageRotate="0" src="assets/wf-103.png" /> 
+    <note> 
+     <p>The <strong><a href="../../../sites/developing/using/workflows.md#transientworkflows">Transient</a></strong> indicator shows workflows for which the workflow history will not be persisted.</p> 
+    </note></li> 
+   <li><p>Select <strong>Start Workflow</strong> from the toolbar. </p> </li> 
+   <li><p>The Run Workflow dialog will open, allowing you to specify:</p> 
+    <ul> 
+     <li><strong>Payload</strong><br /> This can be a page, node, asset, package, amongst other resources.</li> 
+     <li><strong>Title</strong><br /> An optional title to help identify this instance.</li> 
+     <li><strong>Comment</strong><br /> An optional comment to help indicate details of this instance.</li> 
+    </ul> <img imageRotate="0" src="assets/wf-104.png" /></li> 
+  </ol> 
+  <h3>Creating a Launcher Configuration</h3> 
+  <ol> 
+   <li><p>Navigate to the <strong>Workflow Launchers</strong> console using <strong>Tools</strong>, <strong>Workflow</strong>, then <strong>Launchers</strong>.</p> </li> 
+   <li><p>Select <strong>Create</strong>, then <strong>Add Launcher</strong> to open the dialog:</p> <img imageRotate="0" src="assets/wf-105.png" /> 
+    <ul> 
+     <li><strong>Event Type</strong><br /> The event type that will launch the workflow: 
+      <ul> 
+       <li>Created</li> 
+       <li>Modified</li> 
+       <li>Removed</li> 
+      </ul> </li> 
+    </ul> 
+    <ul> 
+     <li><strong>Notetype</strong> <br /> The type of node that the workflow launcher applies to.</li> 
+     <li><strong>Path</strong><br /> The path that the workflow launcher applies to.</li> 
+     <li><strong>Run Mode(s)</strong><br /> The type of server that the workflow launcher applies to. Select <strong>Author</strong>, <strong>Publish</strong>, or <strong>Author &amp; Publish</strong>.</li> 
+     <li><strong>Conditions</strong><br /> A list of conditions for node values that, when evaluated, determine whether the worklow is launched. For example, the following condition causes the workflow to launch when the node has a property name with the value User:<br /> name==User</li> 
+     <li><strong>Features</strong><br /> A list of features to be enabled. Select the required feature(s) using the drop down selector.</li> 
+     <li><strong>Disabled Features<br /> </strong>A list of features to be disabled. Select the required feature(s) using the drop down selector.</li> 
+     <li><strong>Workflow Model</strong><br /> The workflow to launch when the Event Type occurs on the Nodetype and/or Path under the defined Condition.</li> 
+     <li><strong>Description<br /> </strong>Your own text to describe and identify the launcher configuration.</li> 
+     <li><strong>Activate</strong><br /> Controls whether the workflow launcher is activated: 
+      <ul> 
+       <li>Select <strong>Enable</strong> to launch workflows when the configuration properties are satisfied.</li> 
+       <li>Select <strong>Disable</strong> when the workflow should not execute (not even when the configuration properties are satisfied).</li> 
+      </ul> </li> 
+     <li><strong>Exclude List</strong><br /> This specifies any JCR events to exclude (i.e. ignore) when determining whether a workflow should be triggered.<br /> This launcher property is a comma separated list of items:<span class="code"></span> 
+      <ul> 
+       <li><span class="code">property-name</span> ignore any <span class="code">jcr</span> event which triggered on the specified property name.<span class="code"></span></li> 
+       <li><span class="code">event-user-data:&amp;lt;<i>someValue</i>&amp;gt;</span> ignores any event that contains the <span class="code"><i>&amp;lt;someValue</i></span>&amp;gt; <span class="code">user-data</span> set through the <a href="https://docs.adobe.com/content/docs/en/spec/jsr170/javadocs/jcr-2.0/javax/jcr/observation/ObservationManager.html#setUserData(java.lang.String"><span class="code">ObservationManager</span> API</a>.</li> 
+      </ul> For example:<br /> <span class="code">jcr:lastModified,dc:modified,dc:format,jcr:lastModifiedBy,imageMap,event-user-data:changedByWorkflowProcess</span><br /> This feature can be used to ignore any changes triggered by another workflow process by adding the exclude item:<br /> <span class="code">event-user-data:changedByWorkflowProcess</span></li> 
+    </ul> </li> 
+   <li><p>Select <strong>Create</strong>, to create the launcher and return to the console. </p> <p>Once the appropriate event occurs the launcher will be triggered and the workflow started.</p> </li> 
+  </ol> 
+  <h3>Managing a Launcher Configuration</h3> 
+  <p>After you have created your launcher configuration you can use the same console to select the instance, then <strong>View Properties</strong> (and edit them) or <strong>Delete</strong>.</p> 
+ </body> 
+</html>

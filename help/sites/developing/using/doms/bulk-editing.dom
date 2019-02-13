@@ -1,0 +1,98 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="audience:developing" name="primaryAudienceTag" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2018-05-08T12:40:26.489-0400" name="cq:lastModified" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2017-10-31T16:17:19.270-0400" name="firstPublishExternalDate" /> 
+  <meta content="2018-01-18T11:18:09.425-0500" name="publishExternalDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="Configuring your Page for Bulk Editing of Page Properties" name="jcr:title" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="2018-01-18T11:18:09.425-0500" name="lastPublishExternalDate" /> 
+  <meta content="b46cb9eb-ca40-43f5-b42e-a8c95b56010a" name="jcr:uuid" /> 
+  <meta content="jsyal" name="cq:lastReplicatedBy" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2018-05-08T12:40:26.487-0400" name="locHandOffDate" /> 
+  <meta content="2018-01-18T11:18:09.425-0500" name="topicBrowsingSortDate" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2018-10-27T23:47:12.924-0400" name="cq:lastReplicated" /> 
+  <meta content="Configuring your Page for Bulk Editing of Page Properties" name="seoTitle" /> 
+  <meta content="/content/docs/en/aem/6-3/develop/extending/customizing-page-properties/bulk-editing" name="qaNotes" /> 
+  <meta content="2018-01-19T19:05:43.791-0500" name="jcr:created" /> 
+  <meta content="msm-service" name="cq:lastModifiedBy" /> 
+  <meta content="User" name="contentOwner" /> 
+  <meta content="Configuring your Page for Bulk Editing of Page Properties" name="navTitle" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/bulk-editing.html" name="publishExternalURL" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="d5a7a6f0-415d-4984-b2b3-8978a730573a" name="jcr:predecessors" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/morehelp/extending-aem;/content/help/en/experience-manager/6-4/sites/developing/morehelp/extending-aem" name="moreHelpPaths" /> 
+  <meta content="Bulk editing of page properties allows you to edit the properties of multiple pages at once" name="seoDescription" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:extending-aem;content_type:reference" name="cq:tags" /> 
+ </head> 
+ <body> 
+  <p><a href="../../../sites/authoring/using/editing-page-properties.md#fromthesitesconsolemultiplepages">Bulk editing of page properties</a> allows you to edit the properties of multiple pages at once.</p> 
+  <p>Due to the possibility of different values, page properties are not enabled for bulk editing as default. They must be explicitily whitelisted (enabled). When defining the page properties to be available for bulk editing you need to consider certain implications, such as:</p> 
+  <ul> 
+   <li>Certain fields are usually unique; for example a page title. You must decide whether it is meaningful to enable such fields for bulk editing, when one value will be applied.<br /> </li> 
+   <li>Certain fields might have multiple values - this needs meaningful representation when rendering.<br /> For example, a check-box indicating "Ready for Publication". This might have several values before bulk-editing (e.g. ready, in-review, in-progress). </li> 
+  </ul> 
+  <note> 
+   <p>Bulk editing of page properties is:</p> 
+   <ul> 
+    <li>Not available in the classic UI.</li> 
+    <li>Not available for pages within a live copy.</li> 
+    <li>Only available for pages with the same resource type. </li> 
+   </ul> 
+  </note> 
+  <note> 
+   <p>Bulk editing is also available for Assets. It is very similar, but differs in a few points. See <a href="../../../assets/using/managing-multiple-assets.md">Editing Properties of Multiple Assets</a> for full information. You can customize the fields in the Bulk Metadata editor for Assets using the <a href="../../../assets/using/metadata-schemas.md">Schema editor</a>.</p> 
+  </note> 
+  <h3>Enabling a Field</h3> 
+  <note> 
+   <p>Certain fields might have multiple values - this needs meaningful representation when rendering. For this reason you should only enable the following field types: </p> 
+   <ul> 
+    <li><span class="code">/libs/granite/ui/components/foundation/form/textfield</span></li> 
+    <li><span class="code">/libs/granite/ui/components/foundation/form/textarea</span></li> 
+    <li><span class="code">/libs/granite/ui/components/foundation/form/tagspicker</span></li> 
+    <li><span class="code">/libs/granite/ui/components/foundation/form/datepicker</span></li> 
+    <li><span class="code">/libs/granite/ui/components/foundation/form/pathbrowser</span></li> 
+    <li><span class="code">/libs/granite/ui/components/foundation/form/checkbox</span></li> 
+   </ul> 
+  </note> 
+  <p>Fields are enabled on the page component (<i>not</i> on the template):</p> 
+  <ol> 
+   <li><p>Using CRXDE Lite (or an equivalent method) open your page component.</p> <p>For example: <span class="code">/apps/core/wcm/components/page/v1/page</span><br /> </p> 
+    <note> 
+     <p>This example assumes that the Core Components have been installed on the instance, which is the case if the instance is running with We.Retail sample content. See the <a href="/content/help/en/experience-manager/core-components/user-guide">Core Components documentation</a> for more information.</p> 
+    </note></li> 
+   <li><p>Navigate to the required field within the <span class="code">cq:dialog</span> definition.</p> </li> 
+   <li><p>Define the following property on the field node:</p> 
+    <ul> 
+     <li><strong>Name</strong>: <span class="code">allowBulkEdit</span><br /> </li> 
+     <li><strong>Type</strong>: <span class="code">Boolean</span><br /> </li> 
+     <li><strong>Value</strong>: <span class="code">true</span></li> 
+    </ul> <p>For example, for the standard page <a href="../../../sites/authoring/using/default-components-foundation.md">foundation component</a>:</p>  <p>The property would be defined on:</p>  
+    <note> 
+     <p>You <i><strong>must</strong></i> not change anything in the <span class="code">/libs</span> path.</p> 
+     <p>This is because the content of <span class="code">/libs</span> is overwritten the next time you upgrade your instance (and may well be overwritten when you apply either a hotfix or feature pack).</p> 
+     <p>The recommended method for configuration and other changes is:</p> 
+     <ol> 
+      <li>Recreate the required item (i.e. as it exists in <span class="code">/libs</span>) under <span class="code">/apps</span><br /> </li> 
+      <li>Make any changes within <span class="code">/apps</span></li> 
+     </ol> 
+    </note></li> 
+   <li><p>Select <strong>Save All</strong> to persist your updates.<br /> </p> </li> 
+  </ol>         
+ </body> 
+</html>

@@ -1,0 +1,137 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="Creating forms with repeatable sections" name="jcr:title" /> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/author;/content/help/en/experience-manager/6-4/forms/morehelp/author" name="moreHelpPaths" /> 
+  <meta content="b009dc01-bd24-4649-9f72-92ced13087dc" name="jcr:predecessors" /> 
+  <meta content="2018-11-12T08:03:42.750-0500" name="publishExternalDate" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="2016-05-31T06:36:24.008-0400" name="acrolinxDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2018-11-12T08:03:42.788-0500" name="cq:lastReplicated" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="1095" name="acrolinxWords" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="Creating forms with repeatable sections" name="navTitle" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2016-04-20T09:31:03.756-0400" name="firstPublishExternalDate" /> 
+  <meta content="khsingh" name="cq:lastReplicatedBy" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="khsingh" name="cq:lastModifiedBy" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/creating_forms_repeatable_sections_admin_5e12de0b318c6865_1990_report.xml" name="acrolinxReportURL" /> 
+  <meta content="Repeatable sections are panels that can be dynamically added or removed to a form.  " name="seoDescription" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:author" name="cq:tags" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="khsingh@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/creating-forms-repeatable-sections.html" name="publishExternalURL" /> 
+  <meta content="2017-12-01T19:03:15.871-0500" name="jcr:created" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="112c5c6c-3bc6-4c58-99c1-32834e2b8d1e" name="jcr:uuid" /> 
+  <meta content="2018-11-19T08:17:12.182-0500" name="locHandOffDate" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="2018-11-19T08:17:12.183-0500" name="cq:lastModified" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="74" name="acrolinxSentences" /> 
+  <meta content="2015-11-25T06:06:06.876-0500" name="lastPublishQADate" /> 
+  <meta content="2018-11-12T08:03:42.750-0500" name="topicBrowsingSortDate" /> 
+  <meta content="2018-11-12T08:03:42.750-0500" name="lastPublishExternalDate" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+ </head> 
+ <body> 
+  <p>Repeatable sections are panels that can be added or removed to a form dynamically. </p> 
+  <p>For example, while applying for a job, the job seeker provides previous employment details such as company name, role, project, and other information. Information of all the employers requires different but similar looking sections. In such a scenario, the employment form provides an employer section and also provides an option to dynamically add more such sections. These sections, which are added dynamically, are known as Repeatable sections. </p> 
+  <p>You can use one of the following methods to create repeatable panels:</p> 
+  <h2>Using Instance Manager via scripts&amp;nbsp;</h2> 
+  <ol> 
+   <li><p>In the edit mode, select a panel, then tap <img src="assets/cmppr.png-" />. In the sidebar, under Properties, enable <strong>Make Panel Repeatable</strong>. Specify values for the <strong><span class="uicontrol">Maximum</span></strong> and <span class="uicontrol"><strong>Minimum</strong></span> fields. </p> <p>The Maximum field specifies the maximum number of times a panel can appear on the page. You can specify -1 in the Maximum Count field to allow the panel to appear for infinite number of times.</p> <p>The Minimum field specifies the minimum the number times a panel appears on the form. If you set The Minimum Count filed to zero, later, you can remove all the instances via scripts after rendition is complete.</p> 
+    <note> 
+     <p>To create a non-repeatable panel, set value of the Maximum and Minimum field to one. The accordion layout does not support -1 in the Maximum Count field. You can specify a high number to give the notion of infinite value.</p> 
+    </note></li> 
+   <li><p>The parent of the panel, which is to be repeated, should contain add and delete buttons to manage instances of the repeatable panels. Perform the following steps to insert buttons to the parent and enable scripts on the buttons: </p> 
+    <ol> 
+     <li><p>From the sidebar, drag-and-drop a button component to the parent of the panel<strong>. </strong>Select the component and tap <img src="assets/edit-rules.png" />. The rules of the button open in the rule editor.</p> </li> 
+     <li><p>In the Rule Editor window, click <strong>Create</strong>.</p> <p>Select <strong>Visual Editor</strong> in the Form Objects and Functions row. </p> 
+      <ol> 
+       <li>In the rule area, under WHEN, select state <strong>is clicked</strong>.</li> 
+       <li>Under THEN: 
+        <ul> 
+         <li>To create an add panel button, select<strong> Add Instance, </strong>and drag-drop the panel using <img src="assets/toggle-side-panel.png" /> or select it using <strong>Drop object or select here.</strong> </li> 
+         <li>To create a delete panel button, select Remove Instance, and drag-drop the panel using <img src="assets/toggle-side-panel.png" /> or select it using <strong>Drop object or select here.</strong></li> 
+        </ul> </li> 
+      </ol> <p>Select <strong>Code Editor</strong> in the Form Objects and Functions row. Click <strong>Edit Rules</strong> and in the code area:</p> 
+      <ul> 
+       <li>To create an add panel button, specify <span class="code">this.panel.instanceManager.addInstance()</span></li> 
+       <li>To create a delete panel button, specify <span class="code">this.panel.instanceManager.removeInstance(this.panel.instanceIndex)</span></li> 
+      </ul> <p>Click <strong>Done</strong>.</p> 
+      <note> 
+       <p>If a field belongs to a repeatable panel, you cannot access it directly using its name in your scripts. To access the field, specify the repeatable instance to which the field belongs using the <span class="code">instances</span> API in <span class="code">InstanceManager</span>. The syntax to use the <span class="code">instances</span> API in <span class="code">InstanceManager</span> is:</p> 
+       <p><span class="code">&amp;lt;panelName&amp;gt;.instanceManager.instances[&amp;lt;instanceNumber&amp;gt;].&amp;lt;fieldname&amp;gt;</span></p> 
+       <p>For example, you create an adaptive form with a repeatable panel having a text box. When you pre-fill the form with three repeatable text boxes, you need the xml below:</p> 
+       <p><span class="code">&amp;lt;panel1&amp;gt;&amp;lt;textbox1&amp;gt;AA1&amp;lt;/panel1&amp;gt;&amp;lt;/textbox1&amp;gt;</span></p> 
+       <p><span class="code">&amp;lt;panel1&amp;gt;&amp;lt;textbox1&amp;gt;AA2&amp;lt;/panel1&amp;gt;&amp;lt;/textbox1&amp;gt;</span></p> 
+       <p><span class="code">&amp;lt;panel1&amp;gt;&amp;lt;textbox1&amp;gt;AA3&amp;lt;/panel1&amp;gt;&amp;lt;/textbox1&amp;gt;</span></p> 
+       <p>To read AA1 data, specify:</p> 
+       <p><span class="code">Panel1.instanceManager.instances[0].textbox.value</span></p> 
+       <p>To read AA2 data, specify:</p> 
+       <p><span class="code">Panel1.instanceManager.instances[1].textbox.value</span></p> 
+       <p>For more information, see: Class: InstanceManager#instances in <a href="http://adobe.com/go/learn_aemforms_documentation_63" target="_blank">AEM Forms Java API reference</a>.</p> 
+      </note> 
+      <note> 
+       <p>When all of the instances of a panel are removed from an adaptive form, to add an instance of the removed panel, use the _panelName syntax to capture the instance manager of the panel and the use the addInstance API of instance manager to add the deleted instance. For example, _panelName.addInstance(). It adds an instance of the removed panel. </p> 
+      </note></li> 
+    </ol></li> 
+  </ol> 
+  <h2>Using the accordion layout for the parent panel &amp;nbsp;</h2> 
+  <p>A panel has various layouts options. The Layout for accordian design option has out of the box support for repeatable panels. Perform the following steps to repeatable panel with Layout for accordian design option:<br /> </p> 
+  <ol> 
+   <li><p>On the parent of panel to be repeated, tap <img src="assets/cmppr.png" />. You can see the properties in the sidebar. In the <strong>Layout</strong> drop-down, select <strong>Accordion</strong>.</p> </li> 
+   <li><p>On a panel, which is to be repeated, tap <img src="assets/cmppr.png" />. You can see the panel properties in the sidebar. Enable the <strong>Make Panel Repeatable</strong> tab, and specify value for the <strong>Maximum </strong>and <strong>Minimum</strong> fields.</p> <p>Now, you can use the plus (+) and delete (<img src="assets/delete-panel.png" />) buttons to add and remove the panels.</p> </li> 
+  </ol> 
+  <h2>Using repeating subforms from Form Template (XDP/XSD)</h2> 
+  <p>Repeatable subform is similar to the repeatable panels in Adaptive Forms. In AEM Forms Designer, perform the following steps to create a repeating subform: </p> 
+  <ol> 
+   <li>In the Hierarchy palette, select the parent subform of the subform you want to repeat.</li> 
+   <li>In the Object palette, click the Subform tab, and in the Content list, select Flowed.</li> 
+   <li>Select the subform to repeat.</li> 
+   <li>In the Object palette, click the Subform tab and, in the Content list, select either Positioned or Flowed.</li> 
+   <li>Click the Binding tab and select Repeat Subform For Each Data Item.</li> 
+   <li>To specify the minimum number of repetitions, select Min Count and type a number in the associated box. If this option is set to 0 and no data is provided for the objects in the subform at data-merge time, the subform is not placed when the form is rendered.</li> 
+   <li>To specify the maximum number of subform repetitions, select Max and type a number in the associated box. If you do not specify a value in the Max box, the number of subform repetitions are unlimited.</li> 
+   <li>To specify a set number of subform repetitions, regardless of the quantity of data, select Initial Count and type a number in the associated box. If you select this option and either no data is available or fewer data entries exist than the specified Initial Count value, empty instances of the subform are still placed on the form.</li> 
+   <li>Add two buttons in the parent subform- one for adding instance and another for deleting instance of repeatable subform. For detailed steps, see <a href="http://help.adobe.com/en_US/AEMForms/6.1/DesignerHelp/WS107c29ade9134a2c74572b5612a87ca2b56-8000.2.html#WS107c29ade9134a2c-1f74d86012a87d4fe55-8000.2" target="_blank">Build an action</a>.</li> 
+   <li>Now, link the Form Template to the Adaptive form. For detailed steps, see <a href="../../forms/using/creating-adaptive-form.md#create-an-adaptive-form-based-on-a-template" target="_blank">Create an adaptive form based on a template</a>.</li> 
+   <li>Use the buttons created in step 9 to add and remove subforms. </li> 
+  </ol> 
+  <div> 
+   <p>Attached .zip file contains a sample repeatable sub form. </p> 
+   <p><a alt="sampleRepeatableSubform.zip" href="assets/samplerepeatablesubform.zip">Get File</a></p> 
+  </div> 
+  <h2>Using repeat settings of an XML Schema (XSD) &lt;br&gt;</h2> 
+  <p>You can create repeatable panels from an XML Schema and from the minOccours &amp; maxOccurs property of any complex type element. For detailed information about XML Schema, see <a href="../../forms/using/adaptive-form-xml-schema-form-model.md" target="_blank">Create adaptive forms using XML Schema as Form Model</a>.</p> 
+  <p>In the following code, the <span class="code">SampleType </span>panel uses the minOccours &amp; maxOccurs property.</p> 
+  <codeblock gutter="true" class="syntax xml">
+    &lt;?xml&amp;nbsp;version="1.0"&amp;nbsp;encoding="utf-8"&amp;nbsp;?&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;xs:schema&amp;nbsp;targetNamespace="http://adobe.com/sample.xsd"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;xmlns="http://adobe.com/sample.xsd"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;xmlns:xs="http://www.w3.org/2001/XMLSchema"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&gt;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;xs:element&amp;nbsp;name="sample"&amp;nbsp;type="SampleType"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;xs:complexType&amp;nbsp;name="SampleType"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;xs:sequence&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;xs:element&amp;nbsp;name="leaderName"&amp;nbsp;type="xs:string"&amp;nbsp;default="Enter&amp;nbsp;Name"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;xs:element&amp;nbsp;name="assignmentStartDate"&amp;nbsp;type="xs:date"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;xs:element&amp;nbsp;name="gender"&amp;nbsp;type="GenderEnum"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;xs:element&amp;nbsp;name="noOfProjectsAssigned"&amp;nbsp;type="IntType"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;xs:element&amp;nbsp;name="assignmentDetails"&amp;nbsp;type="AssignmentDetails"&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;minOccurs="0"&amp;nbsp;maxOccurs="10"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/xs:sequence&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/xs:complexType&gt;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;xs:complexType&amp;nbsp;name="AssignmentDetails"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;xs:attribute&amp;nbsp;name="name"&amp;nbsp;type="xs:string"&amp;nbsp;use="required"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;xs:attribute&amp;nbsp;name="durationOfAssignment"&amp;nbsp;type="xs:unsignedInt"&amp;nbsp;use="required"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;xs:attribute&amp;nbsp;name="numberOfMentees"&amp;nbsp;type="xs:unsignedInt"&amp;nbsp;use="required"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;xs:attribute&amp;nbsp;name="descriptionOfAssignment"&amp;nbsp;type="xs:string"&amp;nbsp;use="required"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;xs:attribute&amp;nbsp;name="financeRelatedProject"&amp;nbsp;type="xs:boolean"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/xs:complexType&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;xs:simpleType&amp;nbsp;name="IntType"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;xs:restriction&amp;nbsp;base="xs:int"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/xs:restriction&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/xs:simpleType&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;xs:simpleType&amp;nbsp;name="GenderEnum"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;xs:restriction&amp;nbsp;base="xs:string"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;xs:enumeration&amp;nbsp;value="Female"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;xs:enumeration&amp;nbsp;value="Male"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/xs:restriction&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/xs:simpleType&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/xs:schema&gt; 
+  </codeblock> 
+  <note> 
+   <p>For non-accordian layout, use adaptive form button components to add and remove instances.</p> 
+  </note> 
+  <related-links> 
+   <a href="../../forms/using/creating-adaptive-form.md" target="_blank">Creating adaptive forms</a> 
+   <a href="../../forms/using/authoring-in-field-help.md" target="_blank">Authoring in-context help for form fields</a> 
+   <a href="../../forms/using/layout-capabilities-adaptive-forms.md" target="_blank">Layout capabilities of adaptive forms</a> 
+   <a href="/forms/using/enabling-eSign-your-adaptive-forms" target="_blank">Enabling eSign services signatures in adaptive forms</a> 
+   <a href="/forms/using/localizing-adaptive-forms" target="_blank">Localizing adaptive forms</a> 
+   <a href="/forms/using/create-custom-templates-adaptive-forms-documents" target="_blank"> Creating a custom adaptive form template</a> 
+  </related-links> 
+ </body> 
+</html>

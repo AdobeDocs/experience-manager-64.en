@@ -1,0 +1,190 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2018-12-03T08:06:29.828-0500" name="locHandOffDate" />
+  <meta content="video" name="pageLayout" />
+  <meta content="anujkapo" name="acrolinxLastCheckedBy" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="false" name="doNotLocalize" />
+  <meta content="anujkapo" name="contentOwner" />
+  <meta content="yellow" name="acrolinxPageStatus" />
+  <meta content="2019-01-15T15:36:12.276-0500" name="jcr:created" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="left" name="sideColumn" />
+  <meta content="Plan the anatomy for your Interactive Communication" name="jcr:description" />
+  <meta content="2018-11-22T09:25:54.546-0500" name="lastPublishExternalDate" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="Tutorial: Plan the Interactive Communication" name="jcr:title" />
+  <meta content="69" name="acrolinxSentences" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="anujkapo" name="cq:lastModifiedBy" />
+  <meta content="2018-11-22T09:10:56.451-0500" name="firstPublishExternalDate" />
+  <meta content="2018-12-03T08:06:29.829-0500" name="cq:lastModified" />
+  <meta content="en" name="pageCreatedAt" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/planning-interactive-communications.html" name="publishExternalURL" />
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/introduction;/content/help/en/experience-manager/6-4/forms/morehelp/interactive-communications;/content/help/en/experience-manager/6-4/forms/morehelp/introduction;/content/help/en/experience-manager/6-4/forms/morehelp/interactive-communications" name="moreHelpPaths" />
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/planning_interactive_communications_krs_workflow_27a21c3e5e538b90_61_report.xml" name="acrolinxReportURL" />
+  <meta content="Plan your Interactive Communication" name="seoTitle" />
+  <meta content="Plan the anatomy for your Interactive Communication" name="seoDescription" />
+  <meta content="2018-11-22T05:02:42.071-0500" name="acrolinxDate" />
+  <meta content="2018-11-22T09:25:54.761-0500" name="cq:lastReplicated" />
+  <meta content="2018-11-22T09:25:54.546-0500" name="publishExternalDate" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" />
+  <meta content="anujkapo" name="cq:lastReplicatedBy" />
+  <meta content="light" name="heroGradient" />
+  <meta content="checked_improved" name="acrolinxStatus" />
+  <meta content="2018-11-22T09:25:54.546-0500" name="topicBrowsingSortDate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="dcef3a87-ca06-4747-a1a7-14243a1eccf0" name="jcr:uuid" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="cd3e2d35-f37e-46bd-bf09-b10dbe4fa24d" name="jcr:predecessors" />
+  <meta content="634" name="acrolinxWords" />
+  <meta content="anujkapo@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="en_us" name="jcr:language" />
+ </head>
+ <body>
+  <p><img src="assets/02-create-adaptive-form-%20main-image.png" /></p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody>
+    <tr>
+     <td>This tutorial is a step in the <a href="../../forms/using/create-your-first-interactive-communication.md">Create your first Interactive Communication</a> series. It is recommended to follow the series in chronological sequence to understand, perform, and demonstrate the complete tutorial use case.</td> 
+    </tr>
+   </tbody>
+  </table> 
+  <p>The first step in planning an Interactive Communication is to finalize the content of the Interactive Communication. Subject matter experts from departments such as legal, finance, support, or marketing can help you in finalizing the content. After the content is finalized, you must analyze it to identify the various asset types that are required to create the Interactive Communication.</p> 
+  <h2>Planning considerations</h2>
+  <p>An interactive communication includes the following elements:</p> 
+  <ul> 
+   <li><strong>Static text</strong> mostly includes the parts of the interactive communication that are generic in nature and are included in communication to all the customers. For example, header, footer, salutation, or disclaimers.</li> 
+   <li><strong>Data sourced from a backend system (form data model)</strong> is customer-specific and is dynamically merged with the interactive communication. For example, the policy number or address can be sourced using form data model.</li> 
+   <li><strong>Layout or templates</strong> for the Print and Web version of the Interactive Communication.</li> 
+   <li><strong>Order</strong> in which the various text paragraphs appear in the Interactive Communication.</li> 
+   <li><strong>Data entered by a frontline employee </strong>(<strong>Agent UI</strong>) who is customizing the communication before sending it out. For example, the payment due date.</li> 
+   <li><strong>Conditional data</strong> that gets populated based on predefined conditions. For example, the date when the interactive communication is generated.</li> 
+   <li><strong>Images stored in a repository</strong>, such as logos and signature images. Images such as corporate logos would appear in most or all of the interactive communication.</li> 
+   <li><strong>Charts and tables</strong> required to simplify the representation of complex data in an Interactive Communication</li> 
+  </ul> 
+  <h2>Anatomy of the Interactive Communication</h2>
+  <p>Once you have finalized the content and elements that are used to create your Interactive Communication, you can create an anatomy of the Interactive Communication. The anatomy must have the details listed in the <a href="../../forms/using/planning-interactive-communications.md#main-pars-header-515923919">Planning Considerations</a> section. Based on our use case, the following is an example of an anatomy of the monthly bill that a telecom operator sends to its customers.</p> 
+  <video imageRotate="0" status="changing" videoLocalizationType="subtitle" videoSrcUrl="/content/dam/help/en/aem-forms/6-4/anatomy_callouts_flyins.mp4"></video>
+  <p>The anatomy includes data with the following modes of input:</p> 
+  <ul> 
+   <li>Static text</li> 
+   <li>Form data model</li> 
+   <li>Agent UI</li> 
+   <li>Conditional data</li> 
+   <li>Images</li> 
+  </ul> 
+  <p>In each section, the text in bold represents static text. The database includes customer, bills, and calls tables. A form data model can receive data from any of these tables. For more information, see <a href="../../forms/using/create-form-data-model0.md">Create form data model</a>.</p> 
+  <p>The following table illustrates the data source for each field in the anatomy of Interactive Communication:</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody>
+    <tr>
+     <td>Section</td> 
+     <td>Static text</td> 
+     <td>FDM </td> 
+     <td>Agent UI</td> 
+     <td>Images</td> 
+    </tr>
+    <tr>
+     <td>Bill Details</td> 
+     <td><p>Invoice No</p> <p>Bill Date</p> <p>Bill Period</p> <p>Your Plan</p> </td> 
+     <td><p>Value for <strong>Your Plan </strong>field</p> <p>Table - customer</p> </td> 
+     <td><p>Values for the following fields:</p> 
+      <ul> 
+       <li>Invoice No</li> 
+       <li>Bill Date</li> 
+       <li>Bill Period</li> 
+      </ul> <p> </p> </td> 
+     <td>--</td> 
+    </tr>
+    <tr>
+     <td>Customer Details</td> 
+     <td><p>Place of Supply</p> <p>State Code</p> <p>Mobile Number</p> <p>Alternate Contact Number</p> <p>Relationship Number</p> <p>Number of Connections</p> </td> 
+     <td><p>Values for the following fields:</p> 
+      <ul> 
+       <li>Name</li> 
+       <li>Address</li> 
+       <li>Mobile Number</li> 
+       <li>Alternate Contact Number</li> 
+       <li>Relationship Number</li> 
+      </ul> <p>Table - customer</p> </td> 
+     <td><p>Values for the following fields:</p> 
+      <ul> 
+       <li>Place of Supply</li> 
+       <li>State Code</li> 
+       <li>Number of Connections</li> 
+      </ul> </td> 
+     <td>--</td> 
+    </tr>
+    <tr>
+     <td>Bill Summary</td> 
+     <td><p>Previous Balance</p> <p>Payments</p> <p>Adjustments</p> <p>Charges current bill period</p> <p>Amount Due</p> <p>Due Date</p> </td> 
+     <td><p>Value for the <strong>Charges current bill period </strong> field</p> <p>Table - bills</p> </td> 
+     <td><p>Values for the following fields:</p> 
+      <ul> 
+       <li>Previous Balance</li> 
+       <li>Payments</li> 
+       <li>Adjustments</li> 
+       <li>Amount Due</li> 
+       <li>Due Date</li> 
+      </ul> </td> 
+     <td>--</td> 
+    </tr>
+    <tr>
+     <td>Summary of charges</td> 
+     <td><p>Call Charges</p> <p>Conference Call Charges</p> <p>SMS Charges </p> <p>Mobile Internet Charges</p> <p>National Roaming Charges</p> <p>International Roaming Charges</p> <p>Value Added Services Charges</p> <p>Total Charges</p> <p>TOTAL PAYABLE</p> <p>Condition on the Value Added Services Charges field</p> </td> 
+     <td><p>Values for the following fields:</p> 
+      <ul> 
+       <li>Call Charges</li> 
+       <li>Conference Call Charges</li> 
+       <li>SMS Charges </li> 
+       <li>Mobile Internet Charges</li> 
+       <li>National Roaming Charges</li> 
+       <li>International Roaming Charges</li> 
+       <li>Value Added Services Charges</li> 
+       <li>Total Charges (usagecharges computed field)</li> 
+       <li>TOTAL PAYABLE (usagecharges computed field)</li> 
+      </ul> <p>Table - bills</p> </td> 
+     <td>No fields</td> 
+     <td>--</td> 
+    </tr>
+    <tr>
+     <td>Itemised calls - Outgoing</td> 
+     <td><p>Column names:</p> 
+      <ul> 
+       <li>Date</li> 
+       <li>Time</li> 
+       <li>Number</li> 
+       <li>Duration</li> 
+       <li>Charges</li> 
+      </ul> </td> 
+     <td><p>All values</p> <p>Table - calls</p> </td> 
+     <td>No fields</td> 
+     <td>--</td> 
+    </tr>
+    <tr>
+     <td>Pay Now</td> 
+     <td>--</td> 
+     <td>--</td> 
+     <td>--</td> 
+     <td>PayNow</td> 
+    </tr>
+    <tr>
+     <td>Value Added Services</td> 
+     <td>--</td> 
+     <td>--</td> 
+     <td>--</td> 
+     <td>ValueAddedServices</td> 
+    </tr>
+   </tbody>
+  </table> 
+ </body>
+</html>

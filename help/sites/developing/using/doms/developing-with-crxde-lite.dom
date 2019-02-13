@@ -1,0 +1,425 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/morehelp/development-tools;/content/help/en/experience-manager/6-4/sites/developing/morehelp/development-tools" name="moreHelpPaths" /> 
+  <meta content="2018-10-08T09:48:38.294-0400" name="cq:lastModified" /> 
+  <meta content="2017-10-31T16:16:52.271-0400" name="firstPublishExternalDate" /> 
+  <meta content="Developing with CRXDE Lite" name="jcr:title" /> 
+  <meta content="/content/docs/en/aem/6-3/develop/dev-tools/developing-with-crxde-lite" name="qaNotes" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2018-02-03T08:01:34.130-0500" name="jcr:created" /> 
+  <meta content="CRXDE Lite is embedded into AEM and enables you to perform standard development tasks in the browser" name="seoDescription" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/developing-with-crxde-lite.html" name="publishExternalURL" /> 
+  <meta content="2018-02-02T16:28:42.240-0500" name="topicBrowsingSortDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="alvawb@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="audience:developing" name="primaryAudienceTag" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="bohnert" name="cq:lastModifiedBy" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="Developing with CRXDE Lite" name="navTitle" /> 
+  <meta content="2018-02-02T16:28:42.240-0500" name="lastPublishExternalDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:development-tools;content_type:reference" name="cq:tags" /> 
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2018-10-08T09:49:26.781-0400" name="cq:lastReplicated" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="Developing with CRXDE Lite" name="seoTitle" /> 
+  <meta content="b0918055-3396-4c06-9746-e63b9eef2937" name="jcr:predecessors" /> 
+  <meta content="c6dc6283-e002-4a3c-8431-435af7fe3704" name="jcr:uuid" /> 
+  <meta content="mix:lockable;mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="Guillaume Carlino" name="contentOwner" /> 
+  <meta content="2018-02-02T16:28:42.240-0500" name="publishExternalDate" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="bohnert" name="cq:lastReplicatedBy" /> 
+  <meta content="2018-05-08T12:42:24.430-0400" name="locHandOffDate" /> 
+ </head> 
+ <body> 
+  <p>This section describes how to develop your AEM application using CRXDE Lite.</p> 
+  <p>Please refer to the overview documentation for more information on the different development environments that are available.</p> 
+  <p>CRXDE Lite is embedded into AEM and enables you to perform standard development tasks in the browser. With CRXDE Lite, you can create a project, create and edit files (like .jsp and .java), folders, templates, components, dialogs, nodes, properties and bundles while logging and integrating with SVN.<br /> CRXDE Lite is recommended when you do not have direct access to the AEM server, when you develop an application by extending or modifying the out-of-the-box components and Java bundles or when you do not need a dedicated debugger, code completion and syntax highlighting.</p> 
+  <note> 
+   <p>By default, all AEM users can access CRXDE Lite. If desired, <a href="../../../sites/administering/using/security.md#permissionsandacls">configure ACLs</a> for the following node so that only developers can access CRX DE Lite:</p> 
+   <p><span class="code">/libs/granite/crxde</span></p> 
+  </note> 
+  <note> 
+   <p>It is recommended to use the <a href="../../../sites/developing/using/aem-eclipse.md">AEM Developer Tools for Eclipse</a> and the <a href="../../../sites/developing/using/aem-brackets.md">AEM HTL Brackets Extension</a> during project development.</p> 
+  </note> 
+  <h3>Getting Started with CRXDE Lite</h3> 
+  <p>To get started with CRXDE Lite, proceed as follows:</p> 
+  <ol> 
+   <li>Install AEM.</li> 
+   <li>In your browser, enter http://&amp;lt;host&amp;gt;:&amp;lt;port&amp;gt;/crx/de. By default it is <span class="code">http://localhost:4502/crx/de</span>.</li> 
+   <li>Enter your <strong>username</strong> and <strong>password</strong>. By default it is <span class="code">admin</span> and <span class="code">admin</span>.</li> 
+   <li>Click <strong>OK</strong>.</li> 
+  </ol> 
+  <p>The CRXDE Lite User Interface looks as follows in your browser:<br /> <br /> </p> 
+  <img imageRotate="0" src="assets/chlimage_1-250.png" /> 
+  <p>You can now use CRXDE Lite to develop your application. </p> 
+  <h3>Overview of the User Interface</h3> 
+  <p>CRXDE Lite offers the following functionality:</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td>Top switcher bar</td> 
+     <td>Allows you to quickly switch between CRXDE Lite, Package Manager, and Package Share.</td> 
+    </tr> 
+    <tr> 
+     <td>Node path widget</td> 
+     <td><p>Displays the path to the currently selected node.</p> <p>You can also use it to jump to a node, by entering the path by hand, or pasting it from somewhere else, and hitting Enter.</p> <p>It also provides support for looking for nodes with specific node name. Enter the name of the node you would like to find, and wait (or hit the search symbol on the right-hand side). You can try entering, e.g., the string <em>oak</em> into the widget to see how it works. If a given node or nodes is loaded into the explorer pane, the list will be displayed, and you can select the path and hit Enter to navigate to it. Note that it only works for the nodes currently loaded into the CRXDE client application in browser. If you want to search the whole repository, use Tools, then Query.</p> </td> 
+    </tr> 
+    <tr> 
+     <td>Explorer pane</td> 
+     <td><p>Displays a tree of all the nodes in the repository.</p> <p>Click a node to display its properties in the <strong>Properties</strong> tab. After clicking a node, you can select an action in the toolbar. Click the node again to rename it.</p> <p>Tree Navigation Filter (binocular icon): enables you to filter the nodes in the repository for which the name contains the input text. It only applies to nodes that have been loaded locally.<br /> </p> </td> 
+    </tr> 
+    <tr> 
+     <td>Edit pane</td> 
+     <td><p><strong>Home</strong> tab: lets you search content and/or documentation and access developer resources (documentation, developer blog, knowledge base) and support (Adobe homepage and support center).<br /> </p> <p>Double-click a file in the <strong>Explorer</strong> pane to display its content; like for example a .jsp or a .java file. You can then modify it and save the changes.</p> <p>Once a file is edited in the <strong>Edit</strong> pane, the following tools are available on the toolbar:<br /> </p> - <strong>Show in tree: </strong>shows the file in the repository tree.<br /> - <strong>Search/Replace ...</strong>: do search or replace.<br /> <br /> Double-click on the status line of the <strong>Edit</strong> pane opens the <strong>Go to line</strong> dialog so you can enter a specific line number to go to.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td>Properties tab<br /> </td> 
+     <td>Displays the properties of the node that you have selected. You can add new properties or delete existing ones.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td>Access Control tab</td> 
+     <td><p>Display permissions based on current path, repository-level or principal.</p> <p>The permissions are broken down into</p> <p>- <strong>Applicable Access Control Policy</strong>: The policies that can be applied to the current selection.</p> <p>- <strong>Local Access Control Policies</strong>: The current policies applied locally to the current selection.</p> <p>- <strong>Effective Access Control Policies</strong>: The current policies applied for the current selection, might be set locally or inherited from parent nodes.</p> <p>Note. To be able to see the Access Control information at all, the user logged in to CRXDE Lite must have rights to read ACL entries. The anonymous user cannot see this information by default - please log in as, e.g., admin to see the information.</p> </td> 
+    </tr> 
+    <tr> 
+     <td>Replication tab</td> 
+     <td><p>Display the replication status of current node. You can replicate and replicate delete the current node.</p> </td> 
+    </tr> 
+    <tr> 
+     <td>Console tab<br /> </td> 
+     <td><p><strong>Server Logs</strong>:</p> <p>Displays logs messages. You can configure the log level, clear the console, pin at the selected scroll position and enable/disable the displaying of messages.<br /> </p> <p><strong>Version Control</strong>:</p> <p>Displays version control messages.<br /> </p> </td> 
+    </tr> 
+    <tr> 
+     <td>Build Info tab<br /> </td> 
+     <td>Displays information when a bundle is being built.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td>Refresh<br /> </td> 
+     <td>Refreshes the current selection. Changes from other users are updated in your view of the repository. Changes you have made are unaffected.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td>Save All</td> 
+     <td><p><strong>Save All</strong>:<br /> </p> <p>Saves all the changes you have made. Until you click save, the changes are temporary, and will be lost when you exit the console.</p> <p><strong>Revert</strong>:</p> <p>Discards all the changes that you have made on the selected node since the last save action, then reloads the current state of the repository for the selected node.</p> <p><strong>Revert All</strong>:</p> <p>Discards all the changes that you have made throughout the entire repository since the last save action, then reloads the current state of the repository.</p> </td> 
+    </tr> 
+    <tr> 
+     <td>Create ...<br /> </td> 
+     <td><p>Drop-down menu to create the following under the selected node:<br /> </p> <p>- <strong>Node</strong>: a node with an arbitrary node type<br /> </p> <p>- <strong>File</strong>: nt:file node and its nt:resource subnode</p> <p>- <strong>Folder</strong>: nt:folder node</p> <p>- <strong>Template</strong>: AEM template</p> <p>- <strong>Component</strong>: AEM component</p> <p>- <strong>Dialog</strong>: AEM dialog</p> </td> 
+    </tr> 
+    <tr> 
+     <td>Delete<br /> </td> 
+     <td>Deletes the selected node.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td>Copy</td> 
+     <td>Copies the selected node.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td>Paste<br /> </td> 
+     <td>Pastes the copied node under the selected node.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td>Move ...<br /> </td> 
+     <td>Moves the selected node to the node that is set through the dialog.</td> 
+    </tr> 
+    <tr> 
+     <td>Rename ...<br /> </td> 
+     <td>Renames the selected node.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td>Mixins ...<br /> </td> 
+     <td>Allows you to add mixin types to the node type. The mixin types are mostly used to add advanced features such as versioning, access control, referencing, and locking to the node.</td> 
+    </tr> 
+    <tr> 
+     <td>Team<br /> </td> 
+     <td><p>Drop-down menu to perform standard version control tasks:</p> <p>- <strong>Update</strong> repository from SVN server</p> <p>- <strong>Commit</strong> local changes to SVN server</p> <p>- View <strong>Status</strong> of the current node</p> <p>- View <strong>Recursive Status</strong> of the subtree of the current node</p> <p>- <strong>Checkout</strong> a working copy from SVN server</p> <p>- <strong>Export</strong> a project from SVN server (without creating a working copy)</p> <p>- <strong>Import</strong> a project from repository to SVN server<br /> </p> <p>Note you need to be logged in as user with sufficient permissions to be able to execute some of the tasks (especially the ones that write to the local repository).<br /> </p> </td> 
+    </tr> 
+    <tr> 
+     <td>Tools<br /> </td> 
+     <td><p>Drop-down menu with the following tools:</p> <p>- <strong>Server Config ...</strong>: to access the Felix Console.</p> <p>- <strong>Query ...</strong>: to query the repository.</p> <p>- <strong>Privileges ...</strong>: to open privilege management, where you can view and add privileges.</p> <p>- <strong>Test Access Control ...</strong>: a place where you can test the permission for certain path and/or principal.</p> <p>- <strong>Export Node Type</strong>: to export node types in the system as cnd notation.</p> <p>- <strong>Import Node Type ...</strong>: to import node types using cnd notation.</p> <p>- <strong>Import Site ...</strong>: opens the <a href="../../../sites/developing/using/site-importer.md">Site Importer</a> tool to import an existing site into AEM</p> <p>- <strong>Install SiteCatalyst Debugger ...</strong>: instructions on how to install Analytics Debugger.</p> </td> 
+    </tr> 
+    <tr> 
+     <td>Login widget<br /> </td> 
+     <td><p>Displays the currently logged-in users and the workspace they are logged into, e.g., admin@crx.default.</p> <p>Click it to log in or re-login as a specific user. If you don't specify a workspace to log in to, you will be logged into the default workspace, crx.default.</p> <p>If you want to browse the repository as Anonymous user, use <strong>anonymous</strong> as the login name, and any password (e.g., a space or a dot).<br /> </p> <p>If your authorization is no longer valid (e.g., it is expired), the login widget displays "<strong>Unauthorized - Login...</strong>". Click it to log in again.</p> </td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h3>Creating a Project</h3> 
+  <p>With CRXDE Lite you can create a working project in three clicks. The project wizard creates a new project under <span class="code">/apps</span>, some content under <span class="code">/conten</span>t and a package wrapping all the project the content under <span class="code">/etc/packages</span>. The project can be used right away to render a sample page displaying <strong>Hello World</strong>, based on a jsp script that renders a property from the repository and calls a Java class to render some text.</p> 
+  <p>To create a project with CRXDE Lite:</p> 
+  <ol> 
+   <li>Open CRXDE Lite in your browser.</li> 
+   <li>In the Navigation pane, right-click a node, select <strong>Create ...</strong>, then <strong>Create Project ...</strong>.<br /> Note: you can right-click any node in the tree navigation, as the new project nodes are, by design, created below <span class="code">/apps,</span> <span class="code">/content</span> and <span class="code">/etc/packages</span>.</li> 
+   <li>Define<strong>:</strong> 
+    <ul> 
+     <li><strong>Project Name</strong> - the project name is used to create the new nodes and the bundle, e.g. <span class="code">myproject</span>.<br /> </li> 
+     <li><strong>Java Package</strong> - the Java package name prefix, e.g. <span class="code">com.mycompany</span>.<br /> </li> 
+    </ul> </li> 
+   <li>Click <strong>Create</strong>.</li> 
+   <li>Click <strong>Save All</strong> to save the changes on the server.</li> 
+  </ol> 
+  <p>To access the sample page displaying <strong>Hello World</strong>, point your browser to:</p> 
+  <p><span class="code">http://localhost:4502/content/&amp;lt;project-name&amp;gt;.html</span></p> 
+  <p>The <strong>Hello World</strong> page is based on a content node, that calls a jsp script through the <span class="code">sling:resourceType</span> property. The script reads the <span class="code">jcr:title</span> property from the repository and gets the body content by calling a method of the SampleUtil class, that is available in the project bundle.<br /> </p> 
+  <p>The following nodes are created:</p> 
+  <ul> 
+   <li><span class="code">/apps/&amp;lt;project-name&amp;gt;</span>: the application container.</li> 
+   <li><span class="code">/apps/&amp;lt;project-name&amp;gt;/components</span>: the components container, containing the sample html.jsp file, used to render a page.<br /> </li> 
+   <li><span class="code">/apps/&amp;lt;project-name&amp;gt;/src</span>: the bundles container, containing a sample project bundle.<br /> </li> 
+   <li><span class="code">/apps/&amp;lt;project-name&amp;gt;/install</span>: the compiled bundles container, containing the compiled sample project bundle.</li> 
+   <li><span class="code">/content/&amp;lt;project-name&amp;gt;</span>: the content container.</li> 
+   <li>/etc/packages/&amp;lt;java-suffix&amp;gt;/&amp;lt;project-name&amp;gt;.zip, a package wrapping all the project app and content. You can use it to rebuild the project for further deployment (e.g. to other environments) or for sharing through Package Share.<br /> </li> 
+  </ul> 
+  <p>The structure looks as follows in CRXDE Lite with a project called <strong>myproject</strong> and a java package suffix called <strong>mycompany</strong>:<br /> </p> 
+  <img imageRotate="0" src="assets/chlimage_1-251.png" /> 
+  <img imageRotate="0" src="assets/chlimage_1-252.png" /> 
+  <h3>Creating a Folder</h3> 
+  <p>To create a folder with CRXDE Lite:</p> 
+  <ol> 
+   <li>Open CRXDE Lite in your browser.</li> 
+   <li>In the Navigation pane, right-click the folder under which you want to create the new folder, select <strong>Create ...</strong>, then <strong>Create Folder ...</strong>.</li> 
+   <li>Enter the folder<strong> Name</strong> and click <strong>OK</strong>.</li> 
+   <li>Click <strong>Save All</strong> to save the changes on the server.</li> 
+  </ol> 
+  <h3>Creating a Template</h3> 
+  <p>To create a template with CRXDE Lite:</p> 
+  <ol> 
+   <li>Open CRXDE Lite in your browser.</li> 
+   <li>In the Navigation pane, right-click the folder where you want to create the template, select <strong>Create ...</strong>, then <strong>Create Template ...</strong>.<br /> </li> 
+   <li>Enter the <strong>Label</strong>, <strong>Title</strong>, <strong>Description</strong>, <strong>Resource Type</strong> and <strong>Ranking</strong> of the template. Click <strong>Next</strong>.</li> 
+   <li>This step is optional: set the <strong>Allowed Paths</strong>. Click <strong>Next</strong></li> 
+   <li>This step is optional: set the <strong>Allowed Parents</strong>. Click <strong>Next</strong>.</li> 
+   <li>This step is optional: set the <strong>Allowed Children</strong>. Click <strong>OK</strong>.</li> 
+   <li>Click <strong>Save All</strong> to save the changes on the server.</li> 
+  </ol> 
+  <p>It creates:</p> 
+  <ul> 
+   <li>A node of type <span class="code">cq:Template</span> with Template properties<br /> </li> 
+   <li>A child node of type <span class="code">cq:PageContent</span> with Page Content properties</li> 
+  </ul> 
+  <p>You can add properties to your template: refer to the <a href="#creatingaproperty">Creating a Property</a> section.</p> 
+  <h3>Creating a Component</h3> 
+  <p>The feature described here is only available if CQ5 is installed, that is if the node type <span class="code">cq:Component</span> is available in the repository.</p> 
+  <p>To create a component with CRXDE Lite:</p> 
+  <ol> 
+   <li>Open CRXDE Lite in your browser.</li> 
+   <li>In the Navigation pane, right-click the folder where you want to create the component, select <strong>Create ...</strong>, then <strong>Create Component ...</strong>.<br /> </li> 
+   <li>Enter the <strong>Label</strong>, <strong>Title</strong>, <strong>Description</strong>, <strong>Super Resource Type</strong> and <strong>Group</strong> of the component. Click <strong>Next</strong>.</li> 
+   <li>This step is optional: set the component properties <strong>Is Container,</strong> <strong>No Decoration</strong>, <strong>Cell Name</strong> and <strong>Dialog Path</strong>. Click <strong>Next</strong>.</li> 
+   <li>This step is optional: set the component property <strong>Allowed Parents</strong>. Click <strong>Next</strong>.</li> 
+   <li>This step is optional: set the component property <strong>Allowed Children</strong>. Click <strong>OK</strong>.</li> 
+   <li>Click <strong>Save All</strong> to save the changes on the server.</li> 
+  </ol> 
+  <p>It creates:</p> 
+  <ul> 
+   <li>A node of type <span class="code">cq:Component</span></li> 
+   <li>Component properties</li> 
+   <li>A component .jsp script</li> 
+  </ul> 
+  <h3>Creating a Dialog</h3> 
+  <p>To create a dialog with CRXDE Lite:</p> 
+  <ol> 
+   <li>Open CRXDE Lite in your browser.</li> 
+   <li>In the Navigation pane, right-click the component where you want to create the dialog, select <strong>Create ...</strong>, then <strong>Create Dialog ...</strong>.<br /> </li> 
+   <li>Enter the <strong>Label</strong> and the <strong>Title</strong>. Click <strong>OK</strong>.</li> 
+   <li>Click <strong>Save Al</strong>l to save the changes on the server.</li> 
+  </ol> 
+  <p>It creates a dialog with the following structure:</p> 
+  <p><span class="code">dialog[cq:Dialog]/items[cq:Widget]/items[cq:WidgetCollection]/tab1[cq:Panel]</span></p> 
+  <p>You can now adapt the dialog to your needs by modifying properties or creating new nodes.</p> 
+  <p>You can also use the Dialog Editor to edit a dialog. Double clicking the dialog node in CRXDE Lite will bring up the editor. More information about the Dialog Editor can be found <a href="../../../sites/developing/using/dialog-editor.md">here</a>.</p> 
+  <h3>Creating a Node</h3> 
+  <p>To create a node with CRXDE Lite:</p> 
+  <ol> 
+   <li>Open CRXDE Lite in your browser.</li> 
+   <li>In the Navigation pane, right-click the node where you want to create the new node, select <strong>Create ...</strong>, then <strong>Create Node ...</strong>.<br /> </li> 
+   <li>Enter the <strong>Name</strong> and the <strong>Type</strong>. Click <strong>OK</strong>.</li> 
+   <li>Click <strong>Save All</strong> to save the changes on the server.</li> 
+  </ol> 
+  <p>You can now adapt the node to your needs by modifying properties or creating new nodes.</p> 
+  <note> 
+   <p>Most of the edit operations, including Create Node, keeps all the changes in memory, and only stores them into the repository upon saving (via the "Save All" button). However some operations such as move are automatically persisted.</p> 
+   <p>The validation with regard to whether the newly created node is allowed by the node type of the parent node is also carried out by the JCR repository first when saving changes. If you receive an error message while saving a node, please check, whether the content structure is valid (e.g., you cannot create an <span class="code">nt:unstructured</span> node as a child of <span class="code">nt:folder</span> node).<br /> </p> 
+  </note> 
+  <h3>Creating a Property</h3> 
+  <p>To create a property with CRXDE Lite:</p> 
+  <ol> 
+   <li>Open CRXDE Lite in your browser.</li> 
+   <li>In the Navigation pane, select the node where you want to add the new property.<br /> </li> 
+   <li>In the <strong>Properties</strong> tab in the bottom pane, enter the <strong>Name</strong>, the <strong>Type</strong> and the <strong>Value</strong>. Click <strong>Add</strong>.</li> 
+   <li>Click <strong>Save All</strong> to save the changes on the server.</li> 
+  </ol> 
+  <h3>Creating a Script</h3> 
+  <p>To create a new script:</p> 
+  <ol> 
+   <li>Open CRXDE Lite in your browser.</li> 
+   <li>In the Navigation pane, right-click the component where you want to create the script, select <strong>Create ...</strong>, then <strong>Create File ...</strong>.</li> 
+   <li>Enter the File<strong> Name</strong> including its extension. Click <strong>OK</strong>.</li> 
+   <li>The new file opens as a tab in the Edit pane.</li> 
+   <li>Edit the file.</li> 
+   <li>Click <strong>Save All</strong> to save the changes.</li> 
+  </ol> 
+  <h3>Managing a Bundle</h3> 
+  <p>With CRXDE Lite, it is straightforward to create an OSGI bundle, add Java classes to it, and build it. The bundle is then automatically installed and started in the OSGI container.</p> 
+  <p>This section describes how to create a <span class="code">Test</span> bundle with a <span class="code">HelloWorld</span> Java class that displays<strong> Hello World! </strong>in your browser when the resource is requested.</p> 
+  <h4>Creating a Bundle</h4> 
+  <p>To create the Test bundle with CRXDE Lite:</p> 
+  <ol> 
+   <li>In CRXDE Lite create <span class="code">myapp</span> project with the <a href="#creatingaproject">project wizard</a>. Among others the following nodes are created:<br /> 
+    <ul> 
+     <li><span class="code">/apps/myapp/src</span></li> 
+     <li><code class="code">/apps/myapp/install
+       <discoiqbr /> </code></li> 
+    </ul> </li> 
+   <li>Right-click the folder <span class="code">/apps/myapp/src</span> that will contain the <span class="code">Test</span> bundle, select <strong>Create ...</strong>, then <strong>Create Bundle ...</strong>.<br /> </li> 
+   <li>Set the bundle properties as follows:<br /> 
+    <ul> 
+     <li>Symbolic Bundle Name: <span class="code">com.mycompany.test.TestBundle</span><br /> </li> 
+     <li>Bundle Name: <span class="code">Test Bundle</span></li> 
+     <li>Bundle Description: <code class="code">This is my Test Bundle
+       <discoiqbr /> </code></li> 
+     <li>Package: <code class="code">com.mycompany.test
+       <discoiqbr /> </code></li> 
+    </ul> Click <strong>OK</strong>.</li> 
+   <li>Click <strong>Save All</strong> to save the changes on the server.</li> 
+  </ol> 
+  <p>The wizard creates the following elements:</p> 
+  <ul> 
+   <li>The node <span class="code">com.mycompany.test.TestBundle</span> of type <span class="code">nt:folder.</span> It is the bundle container node.<br /> </li> 
+   <li>The file <span class="code">com.mycompany.test.TestBundle.bnd</span>. It acts as deployment descriptor for your bundle and consists of a set of headers.<br /> </li> 
+   <li>The folder structures:<br /> 
+    <ul> 
+     <li><span class="code">src/main/java/com/mycompany/test</span>. It will contain the packages and the Java classes.<br /> </li> 
+     <li><span class="code">src/main/resources</span>. It will contain the resources used within the bundle.<br /> </li> 
+    </ul> </li> 
+   <li>The <span class="code">Activator.java</span> file. It is the optional listener class to be notified of bundle start and stop events.<br /> </li> 
+  </ul> 
+  <p>The following table lists all the properties of the .bnd file, their values and descriptions:</p> 
+  <table border="1" cellpadding="1" cellspacing="0" columns="3" header="none" width="400"> 
+   <tbody> 
+    <tr> 
+     <td><strong>Property</strong></td> 
+     <td><strong>Value (at bundle creation)<br /> </strong></td> 
+     <td><strong>Description</strong></td> 
+    </tr> 
+    <tr> 
+     <td>Export-Package:</td> 
+     <td><p>*</p> <p>Note: this value needs to be adapted to reflect the specificity of the bundle.</p> </td> 
+     <td>The Export-Package header defines exported packages from the bundle (comma-separated list of packages). The exported packages constitute the public<br /> view of the bundle.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td>Import-Package:</td> 
+     <td><p>*</p> <p>Note: this value needs to be adapted to reflect the specificity of the bundle.</p> </td> 
+     <td>The Import-Package header defines imported packages for the bundle (comma-separated list of packages)</td> 
+    </tr> 
+    <tr> 
+     <td>Private-Package:</td> 
+     <td><p>*</p> <p>Note: this value needs to be adapted to reflect the specificity of the bundle.</p> </td> 
+     <td>The Private-Package header defines private packages for the bundle (comma-separated list of packages). The private packages constitute the internal implementation.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td>Bundle-Name:</td> 
+     <td>Test Bundle</td> 
+     <td>Defines a short, human-readable name for the bundle</td> 
+    </tr> 
+    <tr> 
+     <td>Bundle-Description:</td> 
+     <td>This is my Test Bundle</td> 
+     <td>Defines a short, human-readable description for the bundle</td> 
+    </tr> 
+    <tr> 
+     <td>Bundle-SymbolicName:</td> 
+     <td>com.mycompany.test.TestBundle</td> 
+     <td>Specifies a unique, non-localizable name for the bundle</td> 
+    </tr> 
+    <tr> 
+     <td>Bundle-Version:</td> 
+     <td>1.0.0-SNAPSHOT</td> 
+     <td>Specifies the version of the bundle</td> 
+    </tr> 
+    <tr> 
+     <td>Bundle-Activator:</td> 
+     <td>com.mycompany.test.Activator</td> 
+     <td>Specifies the name of the optional listener class to be notified of bundle start and stop events</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <p>For more information on the bnd format, refer to the <a href="http://bndtools.org/">bnd utility</a> used by CRXDE to create OSGI bundles.</p> 
+  <h4>Creating a Java Class</h4> 
+  <p>To create the <span class="code">HelloWorld</span> Java class within the Test Bundle:</p> 
+  <ol> 
+   <li>Open CRXDE Lite in your browser.</li> 
+   <li>In the Navigation pane, right-click the node containing the <span class="code">Activator.java</span> file (<span class="code">/apps/myapp/src/com.mycompany.test.TestBundle/src/main/java</span>), select <strong>Create ...</strong>, then <strong>Create File ...</strong>.</li> 
+   <li>Name the file <span class="code">HelloWorld.java</span>. Click <strong>OK</strong>.</li> 
+   <li>The <span class="code">HelloWorld.java</span> file opens in the Edit pane.</li> 
+   <li>Add the following lines into <span class="code">HelloWorld.java</span>:<br /> package com.mycompany.test;<br /> <br /> public class HelloWorld {<br /> public String getString(){<br /> return "Hello World!";<br /> }<br /> }</li> 
+   <li>Click <strong>Save All</strong> to save the changes on the server.</li> 
+  </ol> 
+  <h4>Building a Bundle</h4> 
+  <p>To build the Test Bundle:</p> 
+  <ol> 
+   <li>Open CRXDE Lite in your browser.</li> 
+   <li>In the Navigation pane, right-click the .bnd file, select <strong>Tools, </strong>then<strong> Bundle</strong>.</li> 
+  </ol> 
+  <p>The Build Bundle wizard:</p> 
+  <ul> 
+   <li>Compiles the Java classes.</li> 
+   <li>Creates the .jar file containing the compiled Java classes and the resources and places it into the <span class="code">myapp/install</span> folder.</li> 
+   <li>Installs and starts the bundle in the OSGI container.</li> 
+  </ul> 
+  <p>To see the effect of the Test Bundle, create a component that uses the Java method HelloWorld.getString() and a resource that is rendered by this component:</p> 
+  <ol> 
+   <li>Create the component <span class="code">mycomp</span> under <span class="code">myapp/components</span>.</li> 
+   <li>Edit <span class="code">mycomp.jsp</span> and replace the code with the following lines:<br /> &amp;lt;%@ page import="com.mycompany.test.HelloWorld"%&amp;gt;&amp;lt;%<br /> %&amp;gt;&amp;lt;%@ include file="/libs/foundation/global.jsp"%&amp;gt;&amp;lt;%<br /> %&amp;gt;&amp;lt;% HelloWorld hello = new HelloWorld();%&amp;gt;&amp;lt;%<br /> %&amp;gt;<br /> &amp;lt;html&amp;gt;<br /> &amp;lt;body&amp;gt;<br /> &amp;lt;b&amp;gt;&amp;lt;%= hello.getString() %&amp;gt;&amp;lt;/b&amp;gt;&amp;lt;br&amp;gt;<br /> &amp;lt;/body&amp;gt;<br /> &amp;lt;/html&amp;gt;</li> 
+   <li>Create the resource <span class="code">test_node</span> of type <span class="code">nt:unstructured</span> under <span class="code">/content</span>.<br /> </li> 
+   <li>For <span class="code">test_node</span>, create the following property: Name = <span class="code">sling:resourceType</span>, Type = <span class="code">String</span>, Value = <span class="code">myapp/components/mycomp</span>.</li> 
+   <li>Click <strong>Save All</strong> to save the changes on the server.<br /> </li> 
+   <li>In your browser, request <span class="code">test_node</span>: <span class="code">http://&amp;lt;hostname&amp;gt;:&amp;lt;port&amp;gt;/content/test_node.html</span>.</li> 
+   <li>A page is displayed with the <strong>Hello World!</strong> message.</li> 
+  </ol> 
+  <h3>Exporting and Importing Node Types</h3> 
+  <p>With CRXDE Lite you can import and/or export node type definitions in CND (Compact Namespace and Node Type Definition) notation.</p> 
+  <p>To export a node type definition:</p> 
+  <ol> 
+   <li>Open CRXDE Lite in your browser.</li> 
+   <li>Select your required node.</li> 
+   <li>Select <strong>Tools </strong>then <strong>Export Node Type</strong>.</li> 
+   <li>The definition, in cnd notation will be displayed in your browser. Save the information if required.</li> 
+  </ol> 
+  <p>To import a node type definition:</p> 
+  <ol> 
+   <li>Open CRXDE Lite in your browser.</li> 
+   <li>Select <strong>Tools </strong>then <strong>Import Node Type...</strong>.</li> 
+   <li>Enter the CND notation for the definition n the text box.</li> 
+   <li>Check <strong>Allow Update</strong> if you are updating an existing definition.</li> 
+   <li>Click <strong>Import</strong>.</li> 
+  </ol> 
+  <h3>Logging</h3> 
+  <p>With CRXDE Lite you can display the file <span class="code">error.log</span> that is located on the file system at <span class="code">&amp;lt;crx-install-dir&amp;gt;/crx-quickstart/server/logs</span> and filter it with the appropriate log level. Proceed as follows:</p> 
+  <ol> 
+   <li>Open CRXDE Lite in your browser.</li> 
+   <li>In the <strong>Console</strong> tab at the bottom of the window, in the drop-down menu on the right, select <strong>Server Logs</strong>.</li> 
+   <li>Click the <strong>Stop</strong> icon to display the messages.</li> 
+  </ol> 
+  <p>You can:</p> 
+  <ul> 
+   <li>Adjust the log parameters in the Felix Console by clicking the <strong>Logging Configurations</strong> icon.</li> 
+   <li>Clear the messages by clicking the <strong>Brush</strong> icon.</li> 
+   <li>Pin the message at the current selection by clicking the <strong>Pin</strong> icon.</li> 
+   <li>Enable or disable the displaying of messages by clicking the <strong>Stop</strong> icon.</li> 
+  </ul> 
+  <h2>Access Control</h2> 
+  <note> 
+   <p>See <a href="../../../sites/administering/using/user-group-ac-admin.md">Users, Groups and Access Rights Administration</a> for more information.<br /> </p> 
+  </note> 
+ </body> 
+</html>

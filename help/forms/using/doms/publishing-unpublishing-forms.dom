@@ -1,0 +1,191 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2018-09-17T09:28:26.212-0400" name="locHandOffDate" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="2018-09-17T09:28:26.213-0400" name="cq:lastModified" /> 
+  <meta content="2018-10-15T11:00:00.000-0400" name="publishExternalDate" /> 
+  <meta content="23bbbb4e-ee50-41b3-be4d-de9f9a9b958d" name="jcr:uuid" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
+  <meta content="You can schedule publishing and unpublishing of forms. Published forms are replicated on the publish instance." name="seoDescription" /> 
+  <meta content="1311" name="acrolinxWords" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2016-05-31T06:42:33.374-0400" name="acrolinxDate" /> 
+  <meta content="2018-04-03T08:51:59.090-0400" name="topicBrowsingSortDate" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="dhv" name="cq:lastModifiedBy" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/publishing-unpublishing-forms.html" name="publishExternalURL" /> 
+  <meta content="2018-10-15T11:00:00.000-0400" name="lastPublishExternalDate" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:publish;content-strategy:max-2018" name="cq:tags" /> 
+  <meta content="2018-04-03T08:51:59.348-0400" name="cq:lastReplicated" /> 
+  <meta content="2015-12-03T01:57:57.474-0500" name="lastPublishQADate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="98" name="acrolinxSentences" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="MAX2018LocSimBFHO1 MAX2018TypekitRebrand" name="qaNotes" /> 
+  <meta content="10/15/18" name="locPublishDate" /> 
+  <meta content="later" name="locPublishOption" /> 
+  <meta content="e47a84ae-fbba-4ca9-ba89-63b137b74646" name="jcr:predecessors" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/publish;/content/help/en/experience-manager/6-4/forms/morehelp/publish" name="moreHelpPaths" /> 
+  <meta content="Publishing and unpublishing forms and documents" name="jcr:title" /> 
+  <meta content="2016-04-20T09:07:59.479-0400" name="firstPublishExternalDate" /> 
+  <meta content="Publishing and Un-Publishing forms" name="navTitle" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/publishing_unpublishing_forms_admin_5e12de0b318c6865_2056_report.xml" name="acrolinxReportURL" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2017-12-01T19:04:55.933-0500" name="jcr:created" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+ </head> 
+ <body> 
+  <p>AEM Forms let you create, publish, and unpublish forms easily. For more information about AEM Forms, see <a href="../../forms/using/introduction-managing-forms.md" target="_blank">Introduction to managing forms</a>.</p> 
+  <p>The AEM Forms server provides two instances: Author and Publish. Author instance is for creating and managing form assets and resources. Publish instance is for keeping assets and related resources that are available for end users. You can import XDP and PDF forms in the Author mode. For more information, see <a href="../../forms/using/get-xdp-pdf-documents-aem.md">Getting XDP and PDF documents in AEM Forms</a>. <br /> </p> 
+  <h2>Supported assets &amp;nbsp;</h2> 
+  <p>AEM Forms support the following types of assets: </p> 
+  <ul> 
+   <li>Adaptive forms</li> 
+   <li>Adaptive documents<br /> </li> 
+   <li>Adaptive form fragments</li> 
+   <li>Themes</li> 
+   <li>Form templates (XFA forms)</li> 
+   <li>PDF forms</li> 
+   <li>Document (Flat PDF documents)</li> 
+   <li>Form Sets</li> 
+   <li>Resource (Images, Schemas, and Stylesheets)</li> 
+  </ul> 
+  <p>Initially, all the assets are available only in the Author instance. An administrator or form author can publish all the assets except resources. </p>  
+  <p>When you select a form and publish it, its related assets and resources are also published. However, dependent assets are not published. In this context, related assets and resources are assets that a published asset uses or refers to. Dependent assets are assets that refer to a published asset.</p> 
+  <p>Your Adaptive Forms may utilize some configutaions, settings, and customizations that are not automatically published. It is recommended that you publish or activate these resources before you publish an adaptive form.</p> 
+  <ul> 
+   <li>Editable Adaptive Form Templates</li> 
+   <li>Cloud Service configutaions for Adobe Sign, Typekit, reCAPTCHA, and Form Data Models</li> 
+   <li>Other Cloud services configations are only activated if the user has admin permissions.</li> 
+   <li>Customizations. These include but are not limited to: 
+    <ul> 
+     <li>Custom layouts</li> 
+     <li>Custom appearances</li> 
+     <li>CSS File - taken as input in Adaptive Form container properties dialog</li> 
+     <li>Client Library Category - taken as input in Adaptive Form container properties dialog</li> 
+     <li>Ay other client library which may been included as part of Adaptive Form template.</li> 
+     <li>Design Paths</li> 
+    </ul> </li> 
+  </ul> 
+  <h2>Asset states</h2> 
+  <p>An asset can have the following states:</p> 
+  <ul> 
+   <li><strong>Unpublished: </strong>An asset that has never been published (The unpublished state is applicable only to Forms assets. Correspondence Management assets do not have an Unpublished state.) </li> 
+   <li><strong>Published</strong>: An asset that has been published and is available on the Publish instance</li> 
+   <li><strong>Modified</strong>: An asset that is modified after being published </li> 
+  </ul> 
+  <h2>Publish an asset</h2> 
+  <ol> 
+   <li><p>Log in to the AEM Forms server. </p> </li> 
+   <li><p>Use one of the following to select and publish an asset.</p> 
+    <ol> 
+     <li><p>Move the pointer over an asset and tap <span class="uicontrol">Publish </span><img height="16" src="assets/aem6forms_globe.pngasset.png" width="16" />.</p> </li> 
+     <li><p>Do one of following and then tap Publish:</p> 
+      <ul> 
+       <li>If you are in the card view, tap <strong><span class="uicontrol">Enter Selection</span> </strong><img height="16" src="assets/aem6forms_check-circle.png" width="16" />, and tap the asset. The asset is selected.</li> 
+       <li>If you are in the list view, select the checkbox of an asset. The asset is selected.<br /> </li> 
+       <li>Tap an asset to display its details.</li> 
+       <li>Display an asset's properties by tapping View Properties <img src="assets/viewproperties.png" />.</li> 
+      </ul> 
+      <note> 
+       <p>Do not select multiple assets. Publishing multiple assets at once is not supported. </p> 
+      </note></li> 
+    </ol></li> 
+   <li><p>When the Publish process starts, a confirmation dialog appears listing all the related assets and resources. In the dialog box that contains related assets, tap <span class="uicontrol">Publish</span>. The asset is published and the Publish Assets Success dialog appears. </p> 
+    <note> 
+     <p>For the Adaptive forms, along with the related assets, the Adaptive Form page name is also displayed.</p> 
+    </note><img alt="A confirmation dialog with all the related assets and resources" captionBottom="A confirmation dialog with all the related assets and resources." imageRotate="0" src="assets/p4.png" title="A confirmation dialog with all the related assets and resources" /> 
+    <note> 
+     <p>For Forms Manager, if the user does not have permission to publish the listed assets, the Publish action is disabled. An asset that requires extra permissions is shown in red. </p> 
+    </note><p>After an asset is published, metadata properties of the asset are copied to the Publish instance and the status of the asset is changed to Published. The status of dependent assets that are published is also changed to Published.</p> <p>After publishing an asset, you can use the Forms Portal to display all the assets on a web page. For more information, see <a href="../../forms/using/introduction-publishing-forms.md" target="_blank">Introduction to publishing forms on a portal</a>.</p> </li> 
+  </ol> 
+  <h2>Publish all the Correspondence Management Assets</h2> 
+  <p>AEM Forms lets you publish all Correspondence Management assets on a server in one go. The published assets include all the Correspondence Management assets and related dependencies. </p> 
+  <p>Complete the following steps to publish all the Correspondence Management assets on a server:</p> 
+  <ol> 
+   <li><p>Log in to the AEM Forms server. </p> </li> 
+   <li><p>Tap <strong>Adobe Experience Manager</strong> in the global navigation bar.</p> </li> 
+   <li><p>Tap <img height="20" src="assets/tools-1.png" weight="20" />, and then tap <strong>Forms</strong>.</p> </li> 
+   <li><p>Tap <strong>Publish Correspondence Management Assets</strong>. </p> <img imageRotate="0" src="assets/publish-cmp-assets-1.png" /><p>The Publish All Correspondence Management Assets page appears and displays the information about the last time the Publish Correspondence Management Assets process was attempted.</p> <img imageRotate="0" src="assets/publish-last-run-details.png" /></li> 
+   <li><p>Tap <strong>Publish</strong> and, in the confirm message, tap <strong>OK</strong>.</p> <p>After a batch process is complete, you can view the last run details. This includes information such as the Administrator login and if the batch run successfully or failed.</p> 
+    <note> 
+     <p>The Publish process cannot be canceled once initiated. Also, while the Publish operation is in process, do not create, delete, modify, or publish any assets or initiate Export All Correspondence Management Assets operation. </p> 
+    </note></li> 
+  </ol> 
+  <h2>Automate publishing and unpublishing for Forms &amp;amp; Documents</h2> 
+  <p>AEM Forms let you schedule asset publishing and unpublishing for Forms &amp; Documents. You can specify the schedule in the Metadata Editor. For more information about managing form metadata, see <a href="../../forms/using/manage-form-metadata.md" target="_blank">Managing form metadata. </a></p> 
+  <p>Follow these steps to schedule the date and time of publishing and unpublishing Forms &amp; Documents assets:</p> 
+  <ol> 
+   <li><p>Select an asset and tap <span class="uicontrol">View Properties</span>. The Metadata Properties page opens.</p> </li> 
+   <li><p>In the Metadata Properties page, tap <span class="uicontrol">Advanced</span>, and then tap <span class="uicontrol">Edit </span><img height="16" src="assets/illustratorcc_penciltool_cur_edit_2_17.png" width="16" />.</p> </li> 
+   <li><p>In the <span class="uicontrol">Publish On Time</span> and <span class="uicontrol">Publish Off Time</span> fields, select the date and time.<br /> Tap <span class="uicontrol">Done </span><img height="16" src="assets/aem6forms_check.png" width="16" />.</p> </li> 
+  </ol> 
+  <h2>Unpublish an asset</h2> 
+  <ol> 
+   <li><p>Select an asset that is published and tap <span class="uicontrol">Unpublish</span><img src="assets/unpublish.png" width="18" />.</p> </li> 
+   <li><p>Use one of the following to select and unpublish an asset.</p> 
+    <ol> 
+     <li><p>Move the pointer over an asset and tap <span class="uicontrol">Unpublish</span><img src="assets/unpublish.png" width="18" />.</p></li> 
+     <li><p>Do one of following and then tap unpublish:</p> 
+      <ul> 
+       <li>If you are in the card view, tap <strong><span class="uicontrol">Enter Selection</span> </strong><img height="16" src="assets/aem6forms_check-circle.png" width="16" />, and tap the asset. The asset is selected.</li> 
+       <li>If you are in the list view, hover over an asset and tap <img src="assets/selectassetcheckmark.png" /> . The asset is selected.<br /> </li> 
+       <li>Tap an asset to display its details.</li> 
+       <li>Display an asset's properties by tapping View Properties <img src="assets/viewproperties.png" />.</li> 
+      </ul> </li> 
+    </ol></li> 
+   <li><p>When the Unpublish process starts, a confirmation dialog appears. Tap <span class="uicontrol">Unpublish</span>. </p> 
+    <note> 
+     <p>Only the selected asset is unpublished, and its child and referenced assets, if any, are not unpublished. </p> 
+    </note></li> 
+  </ol> 
+  <h2>Revert an asset or letter to the previously published version</h2> 
+  <p>Everytime you publish an asset or letter after editing it, a version of the asset or letter is created. You can revert an asset or letter to a previously published version. You may need to do so if something goes wrong with the current version of the asset or document.</p> 
+  <note> 
+   <p>Do not revert a letter to a last published state if any dependent asset used in that published letter is deleted from the system.</p> 
+  </note> 
+  <ol> 
+   <li><p>Select an asset and tap <span class="uicontrol">Revert to Previously Published Version</span><img height="18/" src="assets/reverttopreviouslypublishedversion.png" />.</p> </li> 
+   <li><p>Before the asset is reverted, a confirmation dialog appears. Tap <span class="uicontrol">Revert</span>. </p> <p>The asset or letter is rolled back to its previously published version. </p> </li> 
+  </ol> 
+  <h2>Delete an asset</h2> 
+  <note> 
+   <p>Deleting an asset removes it from the publish instance. Deleting an assets also removes its version history except the base version.</p> 
+  </note> 
+  <ol> 
+   <li><p>Select an asset and tap <span class="uicontrol">Delete</span> <img height="18" src="assets/delete.png" />.</p> 
+    <note> 
+     <p>The Delete option is also available when you display asset details by tapping an asset or you display an asset's properties by tapping View Properties <img src="assets/viewproperties.png" />. </p> 
+    </note></li> 
+   <li><p>Before the asset is deleted, a confirmation dialog appears. Tap <span class="uicontrol">Delete</span>. </p> 
+    <note> 
+     <p>Only the selected asset is deleted, and the dependent assets and are not deleted. To check references of an asset, tap <img src="assets/references.png" /> and then select an asset. </p> 
+     <p>If the asset you are attempting to delete is child asset of another asset, it is not deleted. To delete such an asset, remove references of this asset from other assets and then retry. </p> 
+    </note></li> 
+  </ol> 
+  <h2>Protected adaptive forms</h2> 
+  <p>You can enable authentication for forms you want selected users to access. When you enable authentication for your forms, users see a login screen before accessing them. Only users with credentials that are authorized can access the forms. </p> 
+  <p>To enable authentication for your forms:</p> 
+  <ol> 
+   <li>In your browser, open configMgr in the publish instance.<br /> URL: <span class="code">http://&amp;lt;hostname&amp;gt;:&amp;lt;PublishPort&amp;gt;/system/console/configMgr</span></li> 
+   <li>In the Adobe Experience Manager Web Console Configuration, click <strong>Apache Sling Authentication Service </strong>to configure it.</li> 
+   <li>In the Apache Sling Authentication Service dialog that appears, use the <strong>+</strong> button to add paths.<br /> When you add a path, the authentication service is enabled for forms in that path.</li> 
+  </ol> 
+ </body> 
+</html>

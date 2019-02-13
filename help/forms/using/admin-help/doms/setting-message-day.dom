@@ -1,0 +1,83 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="admin" name="lr_lastModifiedBy" /> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/using/morehelp/configuring_workspace;/content/help/en/experience-manager/6-4/forms/using/morehelp/configuring_workspace" name="moreHelpPaths" /> 
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/configuring_workspace;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="381baf03-d779-4abb-a851-731244b34ad6" name="jcr:predecessors" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="The message of the day let you set a message to be displayed on the Welcome page in the Workspace user interface." name="seoDescription" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="Setting the message of the day" name="navTitle" /> 
+  <meta content="2018-04-03T09:10:30.574-0400" name="cq:lastReplicated" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="2016-02-05T03:27:30.894-0500" name="lr_lastModified" /> 
+  <meta content="6" name="acrolinxSentences" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="2016-05-31T07:03:00.361-0400" name="acrolinxDate" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="2017-10-31T16:31:59.413-0400" name="publishExternalDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="admin" name="contentOwner" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/setting_message_day_admin_5e12de0b318c6865_2365_report.xml" name="acrolinxReportURL" /> 
+  <meta content="2016-04-20T10:07:53.220-0400" name="firstPublishExternalDate" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="sortDate" /> 
+  <meta content="157" name="acrolinxWords" /> 
+  <meta content="2017-10-31T16:31:59.413-0400" name="lastPublishExternalDate" /> 
+  <meta content="2017-12-01T19:04:06.281-0500" name="jcr:created" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="admin" name="lr_creator" /> 
+  <meta content="73a96768-1d17-4caa-a714-168518019ad9" name="jcr:uuid" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2018-04-26T04:22:44.557-0400" name="locHandOffDate" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/forms/using/admin-help/setting-message-day.html" name="publishExternalURL" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="topicBrowsingSortDate" /> 
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7cd2.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb6c44304f12905ce0037-7ff8.2" name="cq:gepId" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2018-04-26T04:22:44.557-0400" name="cq:lastModified" /> 
+  <meta content="Setting the message of the day" name="jcr:title" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+ </head> 
+ <body> 
+  <p>You can set a message to be displayed on the Welcome page in the Workspace user interface. </p> 
+  <p>If required, you can use the HTML tags supported by Adobe Flash® Player to format the appearance of the text: </p> 
+  <ul> 
+   <li><p>&amp;lt;a&amp;gt; Anchor tag</p></li> 
+   <li><p>&amp;lt;b&amp;gt; Bold tag</p></li> 
+   <li><p>&amp;lt;br&amp;gt; Break tag</p></li> 
+   <li><p>&amp;lt;font&amp;gt; Font tag</p></li> 
+   <li><p>&amp;lt;img&amp;gt; Image tag</p></li> 
+   <li><p>&amp;lt;i&amp;gt; Italic tag</p></li> 
+   <li><p>&amp;lt;li&amp;gt; List item tag</p></li> 
+   <li><p>&amp;lt;p&amp;gt; Paragraph tag</p></li> 
+   <li><p>&amp;lt;span&amp;gt; Span tag</p></li> 
+   <li><p>&amp;lt;textformat&amp;gt; Text format tag</p></li> 
+   <li><p>&amp;lt;u&amp;gt; Underline tag</p></li> 
+  </ul> 
+  <p>For more information about the supported tags, see the definition of the <span class="code">htmlText</span> property for the TextField class in the <a href="http://www.adobe.com/support/documentation/en/flex/">Flex Language Reference</a>. </p> 
+  <h2 id="set_the_message_of_the_day">Set the message of the day</h2> 
+  <p></p> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; Workspace &amp;gt; Message Of The Day.</p></li> 
+   <li><p>In The Message Of The Day box, provide the text to be displayed on the Welcome screen.</p></li> 
+   <li><p>Click Save.</p></li> 
+  </ol> 
+  <note> 
+   <p>The Flex Worksapce is deprecated for AEM forms release.</p> 
+  </note> 
+ </body> 
+</html>

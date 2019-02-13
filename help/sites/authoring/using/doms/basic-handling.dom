@@ -1,0 +1,390 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="audience:authoring" name="primaryAudienceTag" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="2018-10-28T01:23:08.792-0400" name="lastPublishExternalDate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-04-19T10:28:43.926-0400" name="locHandOffDate" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="Basic Handling" name="seoTitle" />
+  <meta content="Chris Bohnert" name="contentOwner" />
+  <meta content="2018-10-28T01:23:08.801-0400" name="cq:lastModified" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" />
+  <meta content="b7f8592c-bffd-450f-8c7b-f11ab60771da" name="jcr:uuid" />
+  <meta content="34491eb4-e92f-460a-8a2e-ff156d982f32" name="jcr:predecessors" />
+  <meta content="Basic Handling" name="jcr:title" />
+  <meta content="2017-10-31T16:21:04.687-0400" name="firstPublishExternalDate" />
+  <meta content="mix:versionable;cq:ReplicationStatus" name="jcr:mixinTypes" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:introduction;content_type:reference" name="cq:tags" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="aheimoz" name="jcr:createdBy" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-10-28T01:23:08.792-0400" name="publishExternalDate" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/basic-handling.html" name="publishExternalURL" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="Basic Handling" name="navTitle" />
+  <meta content="2018-10-28T01:23:08.792-0400" name="topicBrowsingSortDate" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="jsyal@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="jsyal" name="cq:lastReplicatedBy" />
+  <meta content="/content/docs/en/aem/6-3/author/author-environment/basic-handling" name="qaNotes" />
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" />
+  <meta content="/content/help/en/experience-manager/6-4/sites/authoring/morehelp/introduction;/content/help/en/experience-manager/6-4/sites/authoring/morehelp/introduction" name="moreHelpPaths" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2013-01-10T05:04:05.527-0500" name="jcr:created" />
+  <meta content="2018-10-28T01:23:08.840-0400" name="cq:lastReplicated" />
+  <meta content="jsyal" name="cq:lastModifiedBy" />
+  <meta content="Get comfortable with navigating AEM and its basic usage" name="seoDescription" />
+ </head>
+ <body>
+  <note>
+   <ul> 
+    <li>This page is designed to give an overview of basic handling when using the AEM author environment. It uses the <strong>Sites</strong> console as a basis.<br /> </li> 
+    <li>Some functionality is not available in all consoles and additional functionality may be available in some consoles. Specific information about the individual consoles and their related functionality will be covered in more detail on other pages.</li> 
+    <li>Keyboard shortcuts are available throughout AEM. In particular when <a href="../../../sites/authoring/using/keyboard-shortcuts.md">using consoles</a> and <a href="../../../sites/authoring/using/page-authoring-keyboard-shortcuts.md">editing pages</a>.<br /> </li> 
+   </ul> 
+  </note>
+  <h2>Getting Started</h2>
+  <h3>A Touch-Enabled UI</h3>
+  <p>AEM's user interface has been enabled for touch. A touch-enabled interface allows you to use touch to interact with the software through gestures such as tap, touch-and-hold, and swipe. This is in contrast to how a traditional desktop interface operates with mouse actions such as click, double-click, right-click, and mouseover. Because only gestures are required, the touch-enabled UI is fully operational on mobile tablet devices and still has full functionality on the desktop as well.<br /> </p> 
+  <h3>First Steps</h3>
+  <p>Immediately after logging in you arrive on the <a href="../../../sites/authoring/using/basic-handling.md#main-pars-procedure-701559143">Navigation panel</a>. This will be discussed in more detail in a following section.</p> 
+  <img imageRotate="0" src="assets/screen_shot_2018-03-23at102603.png" />
+  <p>Clicking on one of the options opens the respective console. To get a good understanding of the basic use of AEM, this document is based on the <strong>Sites</strong> console.</p> 
+  <p>Click or tap on <strong>Sites</strong> to get started.</p> 
+  <h3>Product Navigation</h3>
+  <p>Whenever a user first accesses a console, a product navigation tutorial is started. Take a minute to click or tap through to get a good overview of the basic handling of AEM.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-292.png" />
+  <p>Click or tap <strong>Got it!</strong> to advance to the next page of the overview. Click or tap <strong>Close</strong> or click or tap outside of the overview dialogue to close.</p> 
+  <p>The overview will restart the next time you access a console unless you check the option <strong>Never show this again</strong>.</p> 
+  <h2>Global Navigation</h2>
+  <p>You can navigate between the consoles using the global navigation panel. This is triggered as a full-screen drop down when you click or tap the Adobe Experience Manager link at the top-left of the screen. </p> 
+  <p>You can close the global navigation panel by clicking or tapping <strong>Close</strong> to return to your previous location.</p> 
+  <img imageRotate="0" src="assets/screen_shot_2018-03-23at102631.png" />
+  <note>
+   <p>When you first login you presented with the <strong>Navigation</strong> panel.</p> 
+  </note>
+  <p>Global navigation has two panels, represented by icons at the left-margin of the screen:</p> 
+  <ul> 
+   <li><strong>Navigation</strong> - Represented by a compass</li> 
+   <li><strong>Tools</strong> - Represented by a hammer</li> 
+  </ul> 
+  <p>The options available on these panels are described below.</p> 
+  <ol>
+   <li><p>The Navigation panel:</p> <img imageRotate="0" src="assets/screen_shot_2018-03-23at102603-1.png" /><p>From Navigation the consoles available are:</p> 
+    <table border="0" cellpadding="1" cellspacing="0" width="100%"> 
+     <tbody>
+      <tr>
+       <td><strong>Console</strong></td> 
+       <td valign="top"><strong>Purpose</strong></td> 
+      </tr>
+      <tr>
+       <td>Assets<br /> </td> 
+       <td>These consoles let you import and <a href="/assets/user-guide">manage digital assets</a> such as images, videos, documents and audio files. These assets can then be used by any website running on the same AEM instance. </td> 
+      </tr>
+      <tr>
+       <td>Communities</td> 
+       <td>This console allows you to create and manage <a href="../../../communities/using/sites-console.md">community sites</a> for <a href="../../../communities/using/overview.md#engagementcommunity">engagement</a> and <a href="../../../communities/using/overview.md#enablementcommunity">enablement</a>.</td> 
+      </tr>
+      <tr>
+       <td>Commerce</td> 
+       <td>This allows you to manage products, product catalogs and orders related to your <a href="../../../sites/administering/using/ecommerce.md">Commerce</a> sites.</td> 
+      </tr>
+      <tr>
+       <td>Experience Fragments</td> 
+       <td>An <a href="../../../sites/authoring/using/experience-fragments.md">experience fragment</a> is a stand-alone experience that can be re-used across channels and have variations, saving the trouble of repeatedly copying and pasting experiences or parts of experiences.</td> 
+      </tr>
+      <tr>
+       <td>Forms</td> 
+       <td>This console allows you to create, manage, and process your <a href="/forms/user-guide">forms and documents</a>.</td> 
+      </tr>
+      <tr>
+       <td>Content Services</td> 
+       <td>This console allows you to manage your <a href="../../../sites/developing/using/mobile-web.md">mobile applications</a>.</td> 
+      </tr>
+      <tr>
+       <td>Personalization</td> 
+       <td>This console provides a <a href="../../../sites/authoring/using/personalization.md">framework of tools for authoring targeted content and presenting personalized experiences</a>.</td> 
+      </tr>
+      <tr>
+       <td>Projects</td> 
+       <td>The <a href="../../../sites/authoring/using/touch-ui-managing-projects.md">Projects console gives you direct access to your projects</a>. Projects are virtual dashboards. They can be used to build a team, then give that team access to resources, workflows and tasks, allowing people to work on a common goal. <br /> </td> 
+      </tr>
+      <tr>
+       <td>Screens</td> 
+       <td><a href="../../../screens/using/authoring-screens.md">Screens</a> will allow you to manage all your customer-facing screens, of any size and in any location.</td> 
+      </tr>
+      <tr>
+       <td>Sites</td> 
+       <td>The Sites consoles let you <a href="../../../sites/authoring/using/page-authoring.md">create, view and manage websites</a> running on your AEM instance. Through these consoles you can create, edit, copy, move and delete website pages, start workflows, and publish pages.<br /> </td> 
+      </tr>
+     </tbody>
+    </table> </li>
+   <li><p>In the Tools panel, each option in the side panel contains a range of sub-menus. The <a href="../../../sites/administering/using/tools-consoles.md">Tools consoles</a> available here provide access to a number of specialized tools and consoles that help you administer your websites, digital assets and other aspects of your content repository.</p> <img imageRotate="0" src="assets/screen_shot_2018-03-23at103406.png" /></li>
+  </ol>
+  <h2>The Header</h2>
+  <p>The header is always present at the top of the screen. While most options in the header remain the same no matter where you are in the system, some are context-specific.</p> 
+  <img imageRotate="0" src="assets/screen_shot_2018-03-23at102631-1.png" />
+  <ul>
+   <li> <p>Select the <strong>Adobe Experience Manager</strong> link to navigate between consoles.</p> <img imageRotate="0" src="assets/screen_shot_2018-03-23at103615.png" /></li>
+   <li> <img imageRotate="0" src="assets/screen_shot_2018-03-23at103542.png" /><p>You can also use the <a href="../../../sites/authoring/using/keyboard-shortcuts.md">shortcut key</a> <span class="kbd">/</span> (forward slash) to invoke search from any console.</p> </li>
+   <li> <img imageRotate="0" src="assets/screen_shot_2018-03-23at103547.png" /></li>
+   <li> <img imageRotate="0" src="assets/screen_shot_2018-03-23at103552.png" /></li>
+   <li> <img imageRotate="0" src="assets/screen_shot_2018-03-23at103558.png" /><p>This icon will be badged with the number of currently assigned incomplete notifications.<br /> </p> 
+    <note>
+     <p>Out-of-the-box AEM comes pre-loaded with administrative tasks assigned to the administrator user group. See <a href="../../../sites/authoring/using/inbox.md#outoftheboxadministrativetasks">Your Inbox - Out-of-the-Box Administrative Tasks</a> for details.</p> 
+    </note></li>
+   <li> <img imageRotate="0" src="assets/screen_shot_2018-03-23at103603.png" /></li>
+   <li> <img imageRotate="0" src="assets/screen_shot_2018-03-23at103943.png" /><p>The options presented depend on your current console. For example, in <strong>Sites</strong> you can select content only (the default), the timeline, references or filter side panel.</p> <img imageRotate="0" src="assets/screen_shot_2018-03-23at104029.png" /></li>
+   <li><p>Breadcrumbs</p> <img imageRotate="0" src="assets/chlimage_1-293.png" /><p>Situated in the middle of the rail, and always showing the description of the currently selected item, the breadcrumbs allow you to navigate within a specific console. In the Sites console, you can navigate through the levels of your website.</p> <p> Simply click on the breadcrumb text to display a drop-down listing the levels of the hierarchy of the currently selected item. Click on an entry to jump to that location. </p> <img imageRotate="0" src="assets/chlimage_1-294.png" /></li>
+   <li><p>Analytics time period selection</p> <img imageRotate="0" src="assets/screen_shot_2018-03-23at104126.png" /><p>This is available in list view only. See <a href="#main-pars-title-859848004">list view</a> for more information.</p> </li>
+   <li><p><strong>Create</strong> button</p> <img imageRotate="0" src="assets/screen_shot_2018-03-23at104301.png" /><p>Once clicked, the options displayed are appropriate to the console/context.</p> </li>
+   <li> <img imageRotate="0" src="assets/screen_shot_2018-03-23at104310.png" /><p>You can switch between column view, card view, list view and the view settings.</p> <img imageRotate="0" src="assets/screen_shot_2018-03-23at104504.png" /></li>
+  </ul>
+  <h2>Accessing Help</h2>
+  <p>There are various help resources available:<br /> </p> 
+  <ul>
+   <li> <p>Depending on your location the <strong>Help</strong> icon will open the appropriate resources:</p> <img imageRotate="0" src="assets/screen_shot_2018-03-20at121326.png" /></li>
+   <li> <p>The first time you navigate the system, <a href="../../../sites/authoring/using/basic-handling.md#main-pars-title-fd07">a series of slides introduce AEM navigation</a>.<br /> </p> </li>
+   <li> <p>The first time you edit a page a series of slides introduce the page editor.</p> <img imageRotate="0" src="assets/chlimage_1-295.png" /><p>Navigate this overview as you would the <a href="../../../sites/authoring/using/basic-handling.md#main-pars-title-fd07">product navigation overview</a> when first accessing any console.</p> <p>From the <a href="../../../sites/authoring/using/author-environment-tools.md#accessinghelp"><strong>Page Information</strong> menu you can select <strong>Help</strong></a> to show this again at any time.</p> </li>
+   <li> <p>From the <strong>Tools</strong> console you can also access the external <strong>Resources</strong>:</p> 
+    <ul> 
+     <li><strong>Documentation</strong><br /> View the Web Experience Management documentation</li> 
+     <li><strong>Developer Resources</strong><br /> Developer resources and downloads</li> 
+    </ul> 
+    <note>
+     <p>You can access an overview of shortcut keys available at any time using the hotkey <span class="kbd">?</span> (question mark) when in a console.</p> 
+     <p>For an overview of all keyboard shortcuts see the following documentation:</p> 
+     <ul> 
+      <li><a href="../../../sites/authoring/using/page-authoring-keyboard-shortcuts.md">Keyboard shortcuts for editing pages</a></li> 
+      <li><a href="../../../sites/authoring/using/keyboard-shortcuts.md">Keyboard shortcuts for consoles</a></li> 
+     </ul> 
+    </note></li>
+  </ul>
+  <h2>Actions Toolbar</h2>
+  <p>Whenever a resource is selected (e.g. a page or an asset), various actions are indicated by icons with explanatory text in the toolbar. These actions are dependent on:</p> 
+  <ul> 
+   <li>The current console.</li> 
+   <li>The current context.</li> 
+   <li>Whether you are in <a href="#navigatingandselectionmode">selection mode</a>.</li> 
+  </ul> 
+  <p>The action available in the toolbar change to reflect the actions you can take on the specific items selected.</p> 
+  <p>How you <a href="../../../sites/authoring/using/basic-handling.md#main-pars-title-14">select a resource</a> depends on the view. </p> 
+  <p>Due to the space restrictions in some windows, the toolbar can quickly become longer than the space available. When this happens<strong> </strong>additional options appears. Clicking or tapping on the ellipsis (the three dots or<strong> ...</strong>) opens a drop down selector holding all remaining actions. For example, after selecting a page in the <strong>Sites</strong> console:<br /> </p> 
+  <img imageRotate="0" src="assets/screen_shot_2018-03-23at104827.png" />
+  <note>
+   <p>The individual icons available are documented in relation to the appropriate console/feature/scenario.</p> 
+  </note>
+  <h2>Quick Actions</h2>
+  <p>In <a href="#cardviewquickactions">Card View</a> certain actions are available as quick action icons as well as being on the toolbar. Quick action icons are available for a single item at a time and eliminate the need for you to preselect.</p> 
+  <p>The quick actions are visible when you mouseover (desktop device) a resource card. The quick actions available can depend on the console and context. For example, here are the quick actions for a page in the <strong>Sites</strong> console:</p> 
+  <img imageRotate="0" src="assets/screen_shot_2018-03-23at104953.png" />
+  <h2>Viewing and Selecting Resources</h2>
+  <p>Viewing, navigating, and selecting are each conceptually the same across all views, but have small variations in handling, dependent on the view you are using.<br /> </p> 
+  <p>You can view, navigate through, and select (for further action) your resources with any of the available views, each of which can be selected by the icon at the top right:</p> 
+  <ul> 
+   <li><a href="#columnview">Column View</a></li> 
+   <li><a href="#cardview">Card View</a><br /> </li> 
+   <li><a href="#listview">List View</a></li> 
+  </ul> 
+  <note>
+   <p>By default, AEM Assets does not display the original renditions of assets in the UI as thumbnails in any of the views. If you are an administrator, you can use overlays to configure AEM Assets to display original renditions as thumbnails.</p> 
+  </note>
+  <h3>Selecting Resources</h3>
+  <p>Selecting a specific resource is dependent on a combination of the view and the device:</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody>
+    <tr>
+     <td> </td> 
+     <td>Select</td> 
+     <td>Unselect</td> 
+    </tr>
+    <tr>
+     <td>Column View<br /> </td> 
+     <td>
+      <ul> 
+       <li>Desktop:<br /> Click the thumbnail</li> 
+       <li>Mobile device:<br /> Tap the thumbnail</li> 
+      </ul> </td> 
+     <td>
+      <ul> 
+       <li>Desktop:<br /> Click the thumbnail</li> 
+       <li>Mobile device:<br /> Tap the thumbnail</li> 
+      </ul> </td> 
+    </tr>
+    <tr>
+     <td>Card View<br /> </td> 
+     <td>
+      <ul> 
+       <li>Desktop:<br /> Mouseover, then use the checkmark quick action</li> 
+       <li>Mobile device:<br /> Tap-and-hold the card</li> 
+      </ul> </td> 
+     <td>
+      <ul> 
+       <li>Desktop:<br /> Click the card</li> 
+       <li>Mobile device:<br /> Tap the card</li> 
+      </ul> </td> 
+    </tr>
+    <tr>
+     <td>List View</td> 
+     <td>
+      <ul> 
+       <li>Desktop:<br /> Click the thumbnail</li> 
+       <li>Mobile device:<br /> Tap the thumbnail</li> 
+      </ul> </td> 
+     <td>
+      <ul> 
+       <li>Desktop:<br /> Click the thumbnail</li> 
+       <li>Mobile device:<br /> Tap the thumbnail</li> 
+      </ul> </td> 
+    </tr>
+   </tbody>
+  </table> 
+  <h4>Deselecting All</h4>
+  <p>In all cases as you select items, the count of the items selected is displayed at the top-right of the toolbar. </p> 
+  <p>You can deselect all items and exit selection mode by clicking or tapping the X next to the count.</p> 
+  <img imageRotate="0" src="assets/screen_shot_2018-03-23at105432.png" />
+  <p>In all views, all items can be deslected by tapping escape on the keyboard if you are using a desktop device.</p> 
+  <h4>Selecting Example</h4>
+  <ol>
+   <li><p>For example in card view:</p> <img imageRotate="0" src="assets/screen_shot_2018-03-23at105508.png" /></li>
+   <li><p>Once you have selected a resource the top header is covered by the <a href="#actionstoolbar">actions toolbar</a> that provides access to actions currently applicable to the selected resource.</p> <p>To exit selection mode select the <strong>X</strong> to the top-right.</p> </li>
+  </ol>
+  <h3>Column View</h3>
+  <img imageRotate="0" src="assets/screen_shot_2018-03-23at105607.png" />
+  <p>The column view allows for a visual navigation of a content tree through a series of cascading columns. This view allows you to visualize and traverse the tree structure of your website.</p> 
+  <p>Selecting a resource in the leftmost column will display the child resources in a column to the right. Selecting a resource in the right column will then display the child resources in another column to the right and so on.</p> 
+  <ul>
+   <li><p>You can navigate up and down in the tree by tapping or clicking on the resource name or the chevron to the right of the resource name.</p> 
+    <ul> 
+     <li>The resource name and chevron will be highlighted when tapped or clicked.</li> 
+    </ul> <img imageRotate="0" src="assets/chlimage_1-296.png" />
+    <ul> 
+     <li>The children of the clicked/tapped resource are displayed in the column to the right of the clicked/tapped resource.</li> 
+     <li>If you tap or click on a resource name that has no children, its details will be displayed in the final column.</li> 
+    </ul> </li>
+   <li><p>Tapping or clicking on the thumbnail selects the resource.</p> 
+    <ul> 
+     <li>When selected, a checkmark will be overlaid on the thumbnail and the resource name will be highlighted as well.</li> 
+     <li>The details of the selected resource will be shown in the final column.</li> 
+    </ul> <img imageRotate="0" src="assets/chlimage_1-297.png" /><p>When a page is selected in column view, the selected page is displayed in the final colum along with the following details:</p> 
+    <ul> 
+     <li>Page title</li> 
+     <li>Page name (part of the page's URL)</li> 
+     <li>Template the page is based on</li> 
+     <li>Last modified date</li> 
+     <li>Last user to modify page</li> 
+     <li>Page language</li> 
+     <li>Publication status</li> 
+    </ul> </li>
+  </ul>
+  <h3>Card View</h3>
+  <img imageRotate="0" src="assets/screen_shot_2018-03-23at105508-1.png" />
+  <ul>
+   <li><p>Card view displays information cards for each item at the current level. These provide information such as:</p> 
+    <ul> 
+     <li>A visual representation of the page content.</li> 
+     <li>The page title.</li> 
+     <li>Important dates (such as last edited, last published).</li> 
+     <li>If the page is locked, hidden or part of a livecopy.<br /> </li> 
+     <li>If appropriate, when you are required to take action as part of a workflow.
+      <ul> 
+       <li>Markers that indicate required actions may be related to entries in your <a href="../../../sites/authoring/using/inbox.md">Inbox</a>.</li> 
+      </ul> </li> 
+    </ul> </li>
+   <li><p><a href="#quickactions">Quick actions</a> are also available in this view such as selection and common actions such as edit.</p> <img imageRotate="0" src="assets/screen_shot_2018-03-23at104953-1.png" /></li>
+   <li><p>You can navigate down the tree by tapping/clicking on cards (taking care to avoid the quick actions) or up again by using the <a href="../../../sites/authoring/using/basic-handling.md#main-pars-title-21">breadcrumbs in the header</a>.</p> </li>
+  </ul>
+  <h3>List View</h3>
+  <img imageRotate="0" src="assets/screen_shot_2018-03-23at105824.png" />
+  <ul>
+   <li><p>The list view lists information for each resource at the current level.</p> </li>
+   <li><p>You can navigate down through the tree by tapping/clicking on the resource name and back up by using the <a href="../../../sites/authoring/using/basic-handling.md#main-pars-title-21">breadcrumbs in the header</a>.<br /> </p> </li>
+   <li><p>To easily select all items in the list, use the checkbox at the top-left of the list.</p> <img imageRotate="0" src="assets/screen_shot_2018-03-23at105857.png" />
+    <ul> 
+     <li>When all items in the list are selected, this checkbox appears checked.
+      <ul> 
+       <li>Click or tap the checkbox to deselect all.</li> 
+      </ul> </li> 
+     <li>When only some items are selected, it appears with a minus sign.
+      <ul> 
+       <li>Click or tap the checkbox to select all.</li> 
+       <li>Click or tap the checkbox again to deselect all.</li> 
+      </ul> </li> 
+    </ul> </li>
+   <li><p>Select the columns to be shown using <strong>View Settings </strong>option located under the Views button. The following columns are available for display:</p> 
+    <ul> 
+     <li><strong>Name</strong> - Page name, which can be useful in a multilingual authoring environment since it is part of the page's URL and does not change regardless of language</li> 
+     <li><strong>Modified</strong> - Last modified date and last modified by user</li> 
+     <li><strong>Published</strong> - Publication status</li> 
+     <li><strong>Template</strong> - Template on which the page is based</li> 
+     <li><strong>Page analytics</strong></li> 
+     <li><strong>Unique visitors</strong></li> 
+     <li><strong>Time on page</strong></li> 
+    </ul>  <img imageRotate="0" src="assets/screen_shot_2018-03-23at105952.png" /><p>By default the <strong>Name</strong> column is shown, which makes up part of the URL for the page. In some cases the author might need to access pages that are in a different language and seeing the name of the page (which usually is unchanging) can be of great help if the author does not know the language of the page.</p> </li>
+   <li><p>Change the order of items using the dotted vertical bar at the far right of each item in the list.</p> <img imageRotate="0" src="assets/screen_shot_2018-03-23at110113.png" /><p>Click or tap on the vertical selection bar and drag the item to a new position in the list.</p> <img imageRotate="0" src="assets/screen_shot_2018-03-23at110145.png" /></li>
+   <li><p>You can display Analytics Data by showing the appropriate columns using the View Settings dialogue.</p> <p>You can filter Anyltics Data for the past 30, 90, or 365 days using the filter options on the right side of the header.</p> <img imageRotate="0" src="assets/screen_shot_2018-03-23at110230.png" /></li>
+  </ul>
+  <h2>Rail Selector</h2>
+  <p>The <strong>Rail Selector</strong> is available at the top-left of the window and displays options depending on your current consoles.</p> 
+  <img imageRotate="0" src="assets/screen_shot_2018-03-21at095653.png" />
+  <p>For example, in Sites you can select content only (the default), content tree, the timeline, references, or filter side panel.</p> 
+  <p>If content only is selected, then only the rail icon appears. When any other option is selected, the option name appears next to the rail icon.<br /> </p> 
+  <note>
+   <p><a href="../../../sites/authoring/using/keyboard-shortcuts.md">Keyboard shortcuts</a> are available to quickly switch between rail display options.<br /> </p> 
+  </note>
+  <h3>Content tree</h3>
+  <p>The content tree can be used to quickly navigate the site hierarchy within the side panel and view much information about the pages in the current folder.</p> 
+  <p>Using the content tree side panel in conjunction with a list view or cards view, users can easily see the hierarchical structure of the project and navigate easily across the content structure with the content tree side-panel, as well as view detailed page information in the list view.</p> 
+  <img imageRotate="0" src="assets/screen_shot_2018-03-21at100858.png" />
+  <note>
+   <p>Once an entry in the hierarchy view is selected, arrow keys can be used to quickly navigate the hierarchy.</p> 
+   <p>Refer to the <a href="../../../sites/authoring/using/keyboard-shortcuts.md">keyboard shortcuts</a> for more information.</p> 
+  </note>
+  <h3>Timeline</h3>
+  <p>The timeline can be used to view and/or initiate events that have occured on the selected resource. To open the timeline column use the rail selector:</p> 
+  <p>The timeline column allows you to:</p> 
+  <ul> 
+   <li><a href="#timelineviewevents">View various events</a> related to a selected item.
+    <ul> 
+     <li>The event types can be selected from the drop-down list:
+      <ul> 
+       <li><a href="#timelineaddingandviewingcomments">Comments</a></li> 
+       <li>Annotations</li> 
+       <li>Activities</li> 
+       <li><a href="../../../sites/authoring/using/launches.md">Launches</a></li> 
+       <li><a href="../../../sites/authoring/using/working-with-page-versions.md">Versions</a></li> 
+       <li><a href="../../../sites/authoring/using/workflows-applying.md">Workflows</a> 
+        <ul> 
+         <li>with the exception of <a href="../../../sites/developing/using/workflows.md#transientworkflows">transient workflows</a> as no history information is saved for these</li> 
+        </ul> </li> 
+       <li>and Show All<br /> </li> 
+      </ul> </li> 
+    </ul> </li> 
+   <li><a href="#timelineaddingandviewingcomments">Add/view comments</a> about the selected item. The <strong>Comment</strong> box is shown at the bottom of the list of events. Typing a comment followed by Return will register the comment. It is shown when <strong>Comments</strong> or <strong>Show All</strong> is selected.<br /> </li> 
+   <li>Specific consoles have additional functionality. For example, in the Sites console you can:
+    <ul> 
+     <li><a href="../../../sites/authoring/using/working-with-page-versions.md#creatinganewversiontouchoptimizedui">Save a version</a>.</li> 
+     <li><a href="../../../sites/authoring/using/workflows-applying.md#startingaworkflowfromtherail">Start a workflow</a>.</li> 
+    </ul> </li> 
+  </ul> 
+  <p>These options accessible via the chevron next to the <strong>Comment</strong> field.</p> 
+  <img imageRotate="0" src="assets/screen_shot_2018-03-23at110958.png" />
+  <h3>References</h3>
+  <p><strong>References</strong> shows any connections to the selected resource. For example, in the <strong>Sites</strong> console <a href="../../../sites/authoring/using/author-environment-tools.md#showingpagereferences">references</a> for pages shows:</p> 
+  <ul> 
+   <li><a href="../../../sites/authoring/using/launches.md#main-pars-title-649493919">Launches</a></li> 
+   <li><a href="../../../sites/administering/using/msm-livecopy-overview.md#openingthelivecopyoverviewfromreferences">Live copies</a></li> 
+   <li><a href="../../../sites/administering/using/tc-prep.md#main-pars-title-3">Language copies</a></li> 
+   <li>Content references (e.g. content borrowed and/or lent by the Reference component)</li> 
+  </ul> 
+  <img imageRotate="0" src="assets/screen_shot_2018-03-23at111122.png" />
+  <h3>Filter</h3>
+  <p>This will open a panel similar to <a href="../../../sites/authoring/using/search.md">search</a> with the appropriate location filters already set, allowing you to further filter the content you wish to view.<br /> </p> 
+  <img imageRotate="0" src="assets/screen_shot_2018-03-23at111509.png" />
+ </body>
+</html>

@@ -1,0 +1,92 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="jsyal" name="cq:lastModifiedBy" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="en" name="pageCreatedAt" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SCREENS;topic_tags:authoring;content_type:reference" name="cq:tags" /> 
+  <meta content="2019-01-18T16:49:01.728-0500" name="lastPublishExternalDate" /> 
+  <meta content="jsyal@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2019-01-18T16:49:01.728-0500" name="publishExternalDate" /> 
+  <meta content="2019-01-18T16:49:01.735-0500" name="cq:lastModified" /> 
+  <meta content="Follow this page to learn about creating a video padding in the workflow for your assets." name="seoDescription" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SCREENS" name="primaryProductTag" /> 
+  <meta content="2019-01-18T16:49:01.772-0500" name="cq:lastReplicated" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="Creating a Video Padding Workflow" name="jcr:title" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="8047eef4-ea49-40b8-a23e-ac9e1c00fef6" name="jcr:uuid" /> 
+  <meta content="3b96adb6-7a46-4565-a412-9327d2fa7351" name="jcr:predecessors" /> 
+  <meta content="2019-01-15T15:39:10.017-0500" name="jcr:created" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2019-01-18T16:49:01.728-0500" name="topicBrowsingSortDate" /> 
+  <meta content="2018-10-29T21:24:36.773-0400" name="firstPublishExternalDate" /> 
+  <meta content="jsyal" name="cq:lastReplicatedBy" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/screens/using/creating-a-video-padding-workflow.html" name="publishExternalURL" /> 
+  <meta content="jsyal" name="contentOwner" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="/content/help/en/experience-manager/6-4/screens/morehelp/authoring;/content/help/en/experience-manager/6-4/screens/morehelp/authoring" name="moreHelpPaths" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="en_us" name="jcr:language" /> 
+ </head> 
+ <body> 
+  <p>This section covers the following topics:</p> 
+  <ul> 
+   <li><strong><a href="../../screens/using/creating-a-video-padding-workflow.md#overview">Overview</a></strong></li> 
+   <li><strong>Prerequisites<br /> </strong></li> 
+   <li><strong>Creating a Video Padding Workflow</strong> 
+    <ul> 
+     <li><strong>Creating a Workflow<br /> </strong></li> 
+     <li><strong>Using the Workflow in AEM Screens Project</strong></li> 
+    </ul> </li> 
+   <li><strong>Validating the Output for the Workflow</strong></li> 
+  </ul> 
+  <h2>Overview</h2> 
+  <p>The following use case involves placing a video (example: 1280 x 720) in a channel where the display is 1920 x 1080 and having the video be placed at 0x0 (upper left). The video should not be stretched or modified in any way and do not use <strong>Cover</strong> in the video component.</p> 
+  <p>The video will be displayed as an object from pixel 1 to pixel 1280 across and from pixel 1 to pixel 720 down and the rest of the channel will be default color.</p> 
+  <h2>Prerequisites</h2> 
+  <p>Before you create a workflow for video, please complete the following prerequisites:</p> 
+  <ol> 
+   <li>Upload a video in <strong>Assets</strong> folder in your AEM instance</li> 
+   <li>Create an AEM Screens project (for example, <strong>TestVideoRendition</strong>) and a channel named (<strong>VideoRendering</strong>), as shown in the figure below:<br /> </li> 
+  </ol> 
+  <img imageRotate="0" src="assets/screen_shot_2018-10-17at85307pm.png" /> 
+  <h2>Creating a Video Padding Workflow</h2> 
+  <p>To create a video padding workflow, you must create a workflow for your video and then use the same in your AEM Screens project channel.</p> 
+  <p>Follow the steps below to create and use the workflow:</p> 
+  <ol> 
+   <li>Creating a Workflow</li> 
+   <li>Using the Workflow in an AEM Screens Project<br /> </li> 
+  </ol> 
+  <h3>Creating a Workflow</h3> 
+  <p>Follow the steps below to create a workflow for your video:</p> 
+  <ol> 
+   <li><p>Navigate to your AEM instance and click tools from side rail. Select <strong>Workflow</strong> --&amp;gt; <strong>Models</strong> to create a new model.</p> <img imageRotate="0" src="assets/screen_shot_2018-10-17at90025pm.png" /></li> 
+   <li><p>Click <strong>Models</strong> --&amp;gt; <strong>Create</strong> --&amp;gt; <strong>Create Model</strong>. Enter the <strong>Title</strong> (as <strong>VideoRendition</strong>) and <strong>Name</strong> in the <strong>Add Workflow Model</strong>. Click <strong>Done</strong> to add the workflow model.</p> <img imageRotate="0" src="assets/screen_shot_2018-10-17at90747pm.png" /></li> 
+   <li><p>Once you create the workflow model, select the model (<strong>VideoRendition</strong>), and click <strong>Edit</strong> from the action bar.</p> <img imageRotate="0" src="assets/screen_shot_2018-10-17at91256pm.png" /></li> 
+   <li><p>Drag and drop the <strong>Command Line </strong>component to your workflow.</p> <img imageRotate="0" src="assets/screen_shot_2018-10-22at14846pm.png" /></li> 
+   <li><p>Select the <strong>Command Line</strong> component and open the properties dialog box.</p> <img imageRotate="0" src="assets/screen_shot_2018-10-17at95752pm.png" /></li> 
+   <li><p>Select the <strong>Arguments</strong> tab to enter the fields in the <strong>Command Line - Step Properties</strong> dialog box.</p> <p>Enter the format in the <strong>Mime Types</strong> (as <strong><em>video/mp4</em></strong>) and the command as (<strong><em>/usr/local/Cellar/ffmpeg -i ${filename} -vf "pad=1920:height=1080:x=0:y=0:color=black" cq5dam.video.fullhd-hp.mp4</em></strong>) to start the workflow in the <strong>Commands</strong> field.</p> <p>Please refer to the details on <strong>Mime Types</strong> and <strong>Commands</strong> in the note below.</p> <img imageRotate="0" src="assets/screen_shot_2018-10-18at105300am.png" /></li> 
+   <li><p>Select the workflow (<strong>VideoRenditions</strong>) and click <strong>Start Workflow</strong> from the action bar to open the <strong>Run Workflow</strong> dialog bbox.</p> <img imageRotate="0" src="assets/screen_shot_2018-10-18at105335am.png" /></li> 
+   <li><p>Select the path of your asset in the <strong>Payload</strong> (as <strong><em>/content/dam/huseinpeyda-crossroads01_512kb 2.mp4</em></strong>) and enter the <strong>Title </strong>(as <strong><em>RunVideo</em></strong>) and click <strong>Run</strong>.</p> <img imageRotate="0" src="assets/screen_shot_2018-10-18at112043am.png" /></li> 
+  </ol> 
+  <h3>Using the Workflow in an AEM Screens Project</h3> 
+  <p>Follow the steps below to use the workflow in your AEM Screens project:</p> 
+  <ol> 
+   <li><p>Navigate to an AEM Screens project (<strong>TestVideoRendition</strong> --&amp;gt; <strong>Channels</strong> --&amp;gt;<strong>VideoRendition</strong>).</p> <img imageRotate="0" src="assets/screen_shot_2018-10-17at100715pm.png" /></li> 
+   <li><p>Click <strong>Edit</strong> from the action bar. Drag and drop the video that you initially uploaded to <strong>Assets</strong>.</p> <img imageRotate="0" src="assets/screen_shot_2018-10-17at102806pm.png" /></li> 
+   <li><p>Once you have uploaded the video, click <strong>Preview</strong> to view the output.</p> <img imageRotate="0" src="assets/screen_shot_2018-10-22at15151pm.png" /></li> 
+  </ol> 
+  <h2>Validating the Output for the Workflow</h2> 
+  <p>You can validate your output by:</p> 
+  <ul> 
+   <li>Check preview of the video in the channel</li> 
+   <li>Navigate to the <strong><em>/content/dam/testvideo.mp4/jcr:content/renditions/cq5dam.video.fullhd-hp.mp4</em></strong> in CRXDE Lite, as shown in the figure below:</li> 
+  </ul> 
+  <img imageRotate="0" src="assets/screen_shot_2018-10-22at14326pm.png" /> 
+ </body> 
+</html>

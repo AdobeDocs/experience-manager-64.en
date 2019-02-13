@@ -1,0 +1,187 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2017-08-09T03:29:43.298-0400" name="lr_lastModified" />
+  <meta content="2017-11-22T19:07:06.094-0500" name="jcr:created" />
+  <meta content="Passing Documents to the Forms&amp;#xA;Service Passing Documents to the Forms&amp;#xA;Service Passing Documents to the Forms&amp;#xA;Service" name="navTitle" />
+  <meta content="admin" name="lr_lastModifiedBy" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="video" name="pageLayout" />
+  <meta content="60c52066-f8ad-4c26-b3f4-af42538a892a" name="jcr:predecessors" />
+  <meta content="admin" name="lr_creator" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2017-11-21T06:59:37.542-0500" name="cq:lastModified" />
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/rendering_forms;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:operations" name="cq:tags" />
+  <meta content="light" name="heroGradient" />
+  <meta content="65805735-9b10-410f-bc9d-edbeac1089b9" name="jcr:uuid" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="audience:developing" name="primaryAudienceTag" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="head1_20111213" name="gep_conversion_script_version" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="Passing Documents to the FormsService" name="jcr:title" />
+  <meta content="left" name="sideColumn" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2017-10-03T06:52:16.996-0400" name="firstPublishExternalDate" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="false" name="doNotLocalize" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" />
+  <meta content="2018-04-03T08:32:20.478-0400" name="cq:lastReplicated" />
+  <meta content="not_checked" name="acrolinxStatus" />
+  <meta content="2017-10-03T06:52:16.996-0400" name="lastPublishExternalDate" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="khsingh@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2017-10-03T06:52:16.996-0400" name="publishExternalDate" />
+  <meta content="admin" name="contentOwner" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7ff4.2,AEMForms/6.1/ProgramLC/WS18ed0c54b56b590b-b4052b515a1c6eb8fe-8000,AEMForms/6.1/ProgramLC/WS624e3cba99b79e123724db581336a352486-7ffe.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7a82.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7a81.2" name="cq:gepId" />
+  <meta content="2017-08-09T03:29:00.000-0400" name="sortDate" />
+  <meta content="2017-08-09T03:29:00.000-0400" name="topicBrowsingSortDate" />
+  <meta content="https://helpx.adobe.com/aem-forms/6-3/developing/passing-documents-forms-service.html" name="publishExternalURL" />
+  <meta content="" name="jcr:versionHistory" />
+ </head>
+ <body>
+  <h2 id="passing_documents_to_the_forms_service">Passing Documents to the Forms Service</h2>
+  <p></p>
+  <p>The AEM Forms service renders interactive PDF forms to client devices, typically web browsers, to collect information from users. An interactive PDF form is based on a form design that is typically saved as an XDP file and created in Designer. As of AEM Forms, you can pass a <span class="code">com.adobe.idp.Document</span> object that contains the form design to the Forms service. The Forms service then renders the form design located in the <span class="code">com.adobe.idp.Document</span> object.</p>
+  <p>An advantage of passing a <span class="code">com.adobe.idp.Document</span> object to the Forms service is that other service operations return a <span class="code">com.adobe.idp.Document</span> instance. That is, you can get a <span class="code">com.adobe.idp.Document</span> instance from another service operation and render it. For example, assume that an XDP file is stored in a Content Services (deprecated) node named <span class="code">/Company Home/Form Designs</span>, as shown in the following illustration. </p>
+  <img alt="" src="lc_re_pass_documents_pd.xml" />
+  <p>You can programmatically retrieve Loan.xdp from Content Services (deprecated) (deprecated) and pass the XDP file to the Forms service within a <span class="code">com.adobe.idp.Document</span> object.</p>
+  <note>
+   <p>For more information about the Forms service, see<a href="http://www.adobe.com/go/learn_aemforms_services_63"> Services Reference for AEM Forms</a>.</p>
+  </note>
+  <h3 id="summary_of_steps">Summary of steps</h3>
+  <p></p>
+  <p>To pass a document obtained from Content Services (deprecated) (deprecated) to the Forms service, perform the following tasks:</p>
+  <ol>
+   <li><p>Include project files.</p></li>
+   <li><p>Create a Forms and a Document Management Client API object. </p></li>
+   <li><p>Retrieve the form design from Content Services (deprecated).</p></li>
+   <li><p>Render the interactive PDF form.</p></li>
+   <li><p>Perform an action with the form data stream.</p></li>
+  </ol>
+  <p><strong>Include project files</strong></p>
+  <p>Include the necessary files in your development project. If you are creating a client application by using Java, include the necessary JAR files. If you are using web services, include the proxy files.</p>
+  <p><strong>Create a Forms and a Document Management Client API object</strong></p>
+  <p>Before you can programmatically perform a Forms service API operation, create a Forms Client API object. Also, because this workflow retrieves an XDP file from Content Services (deprecated), create a Document Management API object. </p>
+  <p><strong>Retrieve the form design from Content Services (deprecated)</strong></p>
+  <p>Retrieve the XDP file from Content Services (deprecated) by using the Java or web service API. The XDP file is returned within a <span class="code">com.adobe.idp.Document</span> instance (or a <span class="code">BLOB</span> instance if you are using web services). You can then pass the <span class="code">com.adobe.idp.Document</span> instance to the Forms service. </p>
+  <p><strong>Render an interactive PDF form</strong></p>
+  <p>To render an interactive form, pass the <span class="code">com.adobe.idp.Document</span> instance that was returned from Content Services (deprecated) to the Forms service. </p>
+  <note>
+   <p>You can pass a <span class="code">com.adobe.idp.Document</span> that contains the form design to the Forms service. Two new methods named <span class="code">renderPDFForm2</span> and <span class="code">renderHTMLForm2</span> accept a <span class="code">com.adobe.idp.Document</span> object that contains a form design. </p>
+  </note>
+  <p><strong>Perform an action with the form data stream</strong></p>
+  <p>Depending on the type of client application, you can write the form to a client web browser or save the form as a PDF file. A web-based application typically writes the form to web browser. However, a desktop application typically saves the form as a PDF file. </p>
+  <p><strong>See also</strong></p>
+  <p><a href="/programming-with-aem-forms/rendering-forms-rendering-forms passing-documents-forms-service-passing passing-documents-forms-service-passing#pass_documents_to_the_forms_service_using_the_java_api">Pass documents to the Forms Service using the Java API</a></p>
+  <p><a href="/programming-with-aem-forms/rendering-forms-rendering-forms passing-documents-forms-service-passing passing-documents-forms-service-passing#pass_documents_to_the_forms_service_using_the_web_service_api">Pass documents to the Forms Service using the web service API</a></p>
+  <p><a href="#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2">Including AEM Forms Java library files</a></p>
+  <p><a href="#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2">Setting connection properties</a></p>
+  <p><a href="#unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7af6.2">Forms Service API Quick Starts</a></p>
+  <p><a href="#unresolvedlink-lc-cs-api-retrieve-content-rc.xml#ws624e3cba99b79e12e69a9941333732bac8-7ffc.2">Retrieving Content from Content Services (deprecated)</a></p>
+  <h3 id="pass_documents_to_the_forms_service_using_the_java_api">Pass documents to the Forms Service using the Java API</h3>
+  <p></p>
+  <p>Pass a document obtained from Content Services (deprecated) by using the Forms service and Content Services (deprecated) API (Java):</p>
+  <ol>
+   <li><p>Include project files </p><p>Include client JAR files, such as adobe-forms-client.jar and adobe-contentservices-client.jar, in your Java project’s class path. </p></li>
+   <li><p>Create a Forms and a Document Management Client API object </p>
+    <ul>
+     <li><p>Create a <span class="code">ServiceClientFactory</span> object that contains connection properties. (See <a href="#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2">Setting connection properties</a>.)</p></li>
+     <li><p>Create an <span class="code">FormsServiceClient</span> object by using its constructor and passing the <span class="code">ServiceClientFactory</span> object.</p></li>
+     <li><p>Create a <span class="code">DocumentManagementServiceClientImpl</span> object by using its constructor and passing the <span class="code">ServiceClientFactory</span> object.</p></li>
+    </ul></li>
+   <li><p>Retrieve the form design from Content Services (deprecated) </p><p>Invoke the <span class="code">DocumentManagementServiceClientImpl</span> object’s <span class="code">retrieveContent</span> method and pass the following values:</p>
+    <ul>
+     <li><p>A string value that specifies the store where the content is added. The default store is <span class="code">SpacesStore</span>. This value is a mandatory parameter. </p></li>
+     <li><p>A string value that specifies the fully qualified path of the content to retrieve (for example, <span class="code">/Company Home/Form Designs/Loan.xdp</span>). This value is a mandatory parameter.</p></li>
+     <li><p>A string value that specifies the version. This value is an optional parameter, and you can pass an empty string. In this situation, the latest version is retrieved.</p></li>
+    </ul><p>The <span class="code">retrieveContent</span> method returns a <span class="code">CRCResult</span> object that contains the XDP file. Obtain a <span class="code">com.adobe.idp.Document</span> instance by invoking the <span class="code">CRCResult</span> object’s <span class="code">getDocument</span> method. </p></li>
+   <li><p>Render an interactive PDF form </p><p>Invoke the <span class="code">FormsServiceClient</span> object’s <span class="code">renderPDFForm2</span> method and pass the following values:</p>
+    <ul>
+     <li><p>A <span class="code">com.adobe.idp.Document</span> object that contains the form design retrieved from Content Services (deprecated).</p></li>
+     <li><p>A <span class="code">com.adobe.idp.Document</span> object that contains data to merge with the form. If you do not want to merge data, pass an empty <span class="code">com.adobe.idp.Document</span> object.</p></li>
+     <li><p>A <span class="code">PDFFormRenderSpec</span> object that stores run-time options. This value is an optional parameter, and you can specify <span class="code">null</span> if you do not want to specify run-time options.</p></li>
+     <li><p>A <span class="code">URLSpec</span> object that contains URI values. This value is an optional parameter, and you can specify <span class="code">null</span>.</p></li>
+     <li><p>A <span class="code">java.util.HashMap</span> object that stores file attachments. This value is an optional parameter, and you can specify <span class="code">null</span> if you do not want to attach files to the form.</p></li>
+    </ul><p>The <span class="code">renderPDFForm</span> method returns a <span class="code">FormsResult</span> object that contains a form data stream that must be written to the client web browser.</p></li>
+   <li><p>Perform an action with the form data stream </p>
+    <ul>
+     <li><p>Create a <span class="code">com.adobe.idp.Document</span> object by invoking the <span class="code">FormsResult</span> object ‘s <span class="code">getOutputContent</span> method.</p></li>
+     <li><p>Get the content type of the <span class="code">com.adobe.idp.Document</span> object by invoking its <span class="code">getContentType</span> method.</p></li>
+     <li><p>Set the <span class="code">javax.servlet.http.HttpServletResponse</span> object’s content type by invoking its <span class="code">setContentType</span> method and passing the content type of the <span class="code">com.adobe.idp.Document</span> object.</p></li>
+     <li><p>Create a <span class="code">javax.servlet.ServletOutputStream</span> object used to write the form data stream to the client web browser by invoking the <span class="code">javax.servlet.http.HttpServletResponse</span> object’s <span class="code">getOutputStream</span> method.</p></li>
+     <li><p>Create a <span class="code">java.io.InputStream</span> object by invoking the <span class="code">com.adobe.idp.Document</span> object’s <span class="code">getInputStream</span> method. </p></li>
+     <li><p>Create a byte array and populate it with the form data stream by invoking the <span class="code">InputStream</span> object’s <span class="code">read</span> method. Pass the byte array as an argument. </p></li>
+     <li><p>Invoke the <span class="code">javax.servlet.ServletOutputStream</span> object’s <span class="code">write</span> method to send the form data stream to the client web browser. Pass the byte array to the <span class="code">write</span> method.</p></li>
+    </ul></li>
+  </ol>
+  <p><strong>See also</strong></p>
+  <p><a href="/programming-with-aem-forms/rendering-forms-rendering-forms passing-documents-forms-service-passing#passing_documents_to_the_forms_service">Passing Documents to the Forms Service</a></p>
+  <p><a href="#unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd1.2">Quick Start (SOAP mode): Passing documents to the Forms Service using the Java API</a></p>
+  <p><a href="#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2">Including AEM Forms Java library files</a></p>
+  <p><a href="#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2">Setting connection properties</a></p>
+  <h3 id="pass_documents_to_the_forms_service_using_the_web_service_api">Pass documents to the Forms Service using the web service API</h3>
+  <p></p>
+  <p>Pass a document obtained from Content Services (deprecated) by using the Forms service and Content Services (deprecated) API (web service):</p>
+  <ol>
+   <li><p>Include project files </p><p>Create a Microsoft .NET project that uses MTOM. Because this client application invokes two AEM Forms services, create two service references. Use the following WSDL definition for the service reference associated with the Forms service: <span class="code">http://localhost:8080/soap/services/FormsService?WSDL&amp;lc_version=9.0.1</span>.</p><p>Use the following WSDL definition for the service reference associated with the Document Management service: <span class="code">http://localhost:8080/soap/services/DocumentManagementService?WSDL&amp;lc_version=9.0.1</span>. </p><p>Because the <span class="code">BLOB</span> data type is common to both service references, fully qualify the <span class="code">BLOB</span> data type when using it. In the corresponding web service quick start, all <span class="code">BLOB</span> instances are fully qualified. </p>
+    <note>
+     <p>Replace <span class="code">localhost</span><i> with the IP address of the server hosting AEM Forms. </i></p>
+    </note></li>
+   <li><p>Create a Forms and a Document Management Client API object </p>
+    <ul>
+     <li><p>Create a <span class="code">FormsServiceClient</span> object by using its default constructor. </p></li>
+     <li><p>Create a <span class="code">FormsServiceClient.Endpoint.Address</span> object by using the <span class="code">System.ServiceModel.EndpointAddress</span> constructor. Pass a string value that specifies the WSDL to the AEM Forms service (for example, <span class="code">http://localhost:8080/soap/services/FormsService?WSDL</span>). You do not need to use the <span class="code">lc_version</span> attribute. This attribute is used when you create a service reference.) </p></li>
+     <li><p>Create a <span class="code">System.ServiceModel.BasicHttpBinding</span> object by getting the value of the <span class="code">FormsServiceClient.Endpoint.Binding</span> field. Cast the return value to <span class="code">BasicHttpBinding</span>. </p></li>
+     <li><p>Set the <span class="code">System.ServiceModel.BasicHttpBinding</span> object’s <span class="code">MessageEncoding</span> field to <span class="code">WSMessageEncoding.Mtom</span>. This value ensures that MTOM is used. </p></li>
+     <li><p>Enable basic HTTP authentication by performing the following tasks:</p>
+      <ul>
+       <li><p>Assign the AEM forms user name to the field <span class="code">FormsServiceClient.ClientCredentials.UserName.UserName</span>.</p></li>
+       <li><p>Assign the corresponding password value to the field <span class="code">FormsServiceClient.ClientCredentials.UserName.Password</span>.</p></li>
+       <li><p>Assign the constant value <span class="code">HttpClientCredentialType.Basic</span> to the field <span class="code">BasicHttpBindingSecurity.Transport.ClientCredentialType</span>. </p></li>
+      </ul></li>
+     <li><p>Assign the constant value <span class="code">BasicHttpSecurityMode.TransportCredentialOnly</span> to the field <span class="code">BasicHttpBindingSecurity.Security.Mode</span>. </p></li>
+    </ul>
+    <note>
+     <p>Repeat these steps for the <span class="code">DocumentManagementServiceClient</span><i> service client. </i></p>
+    </note></li>
+   <li><p>Retrieve the form design from Content Services (deprecated) </p><p>Retrieve content by invoking the <span class="code">DocumentManagementServiceClient</span> object’s <span class="code">retrieveContent</span> method and passing the following values:</p>
+    <ul>
+     <li><p>A string value that specifies the store where the content is added. The default store is <span class="code">SpacesStore</span>. This value is a mandatory parameter. </p></li>
+     <li><p>A string value that specifies the fully qualified path of the content to retrieve (for example, <span class="code">/Company Home/Form Designs/Loan.xdp</span>). This value is a mandatory parameter. </p></li>
+     <li><p>A string value that specifies the version. This value is an optional parameter, and you can pass an empty string. In this situation, the latest version is retrieved. </p></li>
+     <li><p>A string output parameter that stores the browse link value.</p></li>
+     <li><p>A <span class="code">BLOB</span> output parameter that stores the content. You can use this output parameter to retrieve the content. </p></li>
+     <li><p>A <span class="code">ServiceReference1.MyMapOf_xsd_string_To_xsd_anyType</span> output parameter that stores content attributes. </p></li>
+     <li><p>A <span class="code">CRCResult</span> output parameter. Instead of using this object, you can use the <span class="code">BLOB</span> output parameter to obtain the content. </p></li>
+    </ul></li>
+   <li><p>Render an interactive PDF form </p><p>Invoke the <span class="code">FormsServiceClient</span> object’s <span class="code">renderPDFForm2</span> method and pass the following values:</p>
+    <ul>
+     <li><p>A <span class="code">BLOB</span> object that contains the form design retrieved from Content Services (deprecated).</p></li>
+     <li><p>A <span class="code">BLOB</span> object that contains data to merge with the form. If you do not want to merge data, pass an empty <span class="code">BLOB</span> object.</p></li>
+     <li><p>A <span class="code">PDFFormRenderSpec</span> object that stores run-time options. This value is an optional parameter, and you can specify <span class="code">null</span> if you do not want to specify run-time options.</p></li>
+     <li><p>A <span class="code">URLSpec</span> object that contains URI values. This value is an optional parameter, and you can specify <span class="code">null</span>.</p></li>
+     <li><p>A <span class="code">Map</span> object that stores file attachments. This value is an optional parameter, and you can specify <span class="code">null</span> if you do not want to attach files to the form.</p></li>
+     <li><p>A long output parameter that is used to store the page count.</p></li>
+     <li><p>A string output parameter that is used to store the locale value. </p></li>
+     <li><p>A <span class="code">FormsResult</span> output parameter that is used to store the interactrive PDF form<span class="code">.</span></p></li>
+    </ul><p>The <span class="code">renderPDFForm2</span> method returns a <span class="code">FormsResult</span> object that contains the interactive PDF form. </p></li>
+   <li><p>Perform an action with the form data stream </p>
+    <ul>
+     <li><p>Create a <span class="code">BLOB</span> object that contains form data by getting the value of the <span class="code">FormsResult</span> object’s <span class="code">outputContent</span> field. </p></li>
+     <li><p>Create a <span class="code">System.IO.FileStream</span> object by invoking its constructor. Pass a string value that represents the file location of the interactive PDF document and the mode in which to open the file.</p></li>
+     <li><p>Create a byte array that stores the content of the <span class="code">BLOB</span> object retrieved from the <span class="code">FormsResult</span> object. Populate the byte array by getting the value of the <span class="code">BLOB</span> object’s <span class="code">MTOM</span> data member.</p></li>
+     <li><p>Create a <span class="code">System.IO.BinaryWriter</span> object by invoking its constructor and passing the <span class="code">System.IO.FileStream</span> object.</p></li>
+     <li><p>Write the contents of the byte array to a PDF file by invoking the <span class="code">System.IO.BinaryWriter</span> object’s <span class="code">Write</span> method and passing the byte array.</p></li>
+    </ul></li>
+  </ol>
+  <p><strong>See also</strong></p>
+  <p><a href="/programming-with-aem-forms/rendering-forms-rendering-forms passing-documents-forms-service-passing#passing_documents_to_the_forms_service">Passing Documents to the Forms Service</a></p>
+  <p><a href="#unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7e17.2">Quick Start (MTOM): Passing documents to the Forms Service using the web service API</a></p>
+  <p><a href="#unresolvedlink-lc-in-invoke-using-web-services-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fe7.2">Invoking AEM Forms using MTOM</a></p>
+ </body>
+</html>

@@ -1,0 +1,219 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2017-10-31T16:17:11.529-0400" name="firstPublishExternalDate" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2018-10-08T01:29:43.113-0400" name="cq:lastReplicated" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/content-fragment-templates.html" name="publishExternalURL" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:platform;content_type:reference" name="cq:tags" /> 
+  <meta content="2018-10-08T01:29:43.045-0400" name="publishExternalDate" /> 
+  <meta content="aheimoz" name="cq:lastReplicatedBy" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="Content Fragment Templates" name="navTitle" /> 
+  <meta content="Templates are selected when creating a content fragmen and provide the new fragment with the basic structure, element, and variation" name="seoDescription" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="2018-10-08T01:29:43.045-0400" name="topicBrowsingSortDate" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="Content Fragment Templates" name="seoTitle" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="aheimoz" name="cq:lastModifiedBy" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="audience:developing" name="primaryAudienceTag" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2018-10-08T01:29:43.045-0400" name="lastPublishExternalDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/morehelp/platform;/content/help/en/experience-manager/6-4/sites/developing/morehelp/platform" name="moreHelpPaths" /> 
+  <meta content="Guillaume Carlino" name="contentOwner" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2018-05-08T12:41:04.781-0400" name="locHandOffDate" /> 
+  <meta content="/content/docs/en/aem/6-3/develop/templates/content-fragment-templates" name="qaNotes" /> 
+  <meta content="aheimoz@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="e6bf1bfa-fd5a-47cd-a39c-891b9456e7ba" name="jcr:predecessors" /> 
+  <meta content="2018-10-08T01:29:43.059-0400" name="cq:lastModified" /> 
+  <meta content="Content Fragment Templates" name="jcr:title" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2018-03-15T09:02:39.282-0400" name="jcr:created" /> 
+  <meta content="1cd3ddf7-8dbf-4e6b-bfc5-d41b170eb69c" name="jcr:uuid" /> 
+ </head> 
+ <body> 
+  <note> 
+   <p>Some Content Fragment functionality requires the application of <a href="../../../release-notes/sp-release-notes.md">AEM 6.4 Service Pack 2 (6.4.2.0)</a>.</p> 
+  </note>   
+  <note> 
+   <p><a href="../../../assets/using/content-fragments-models.md">Content fragment models</a> are now recommended for creating all your fragments. </p> 
+   <p>Content fragment models are used for all examples in We.Retail.</p> 
+  </note>   
+  <p>Templates are selected when creating a content fragment. They provide the new fragment with the basic structure, element(s) and variation. The templates used for content fragments are subject to the Granite Configuration Manager.<br /> </p> 
+  <p>The out-of-the-box templates are held under:</p> 
+  <ul> 
+   <li><span class="code">/libs/settings/dam/cfm/templates</span></li> 
+  </ul> 
+  <p>You can create your site-specific templates for content fragments under:</p> 
+  <ul> 
+   <li><span class="code">/apps/settings/dam/cfm/templates</span><br /> The location for overlaying out-of-the-box templates or providing customer-specific, application-wide templates that are not intended to be extended/changed at runtime.</li> 
+   <li><span class="code">/conf/global/settings/dam/cfm/templates</span><br /> The location for instance-wide customer-specific templates that need to be changed at runtime.</li> 
+  </ul> 
+  <p>The order of precedence is (in descending order) <span class="code">/conf</span>, <span class="code">/apps</span>, <span class="code">/libs</span>.</p> 
+  <note> 
+   <p>You <i><strong>must</strong></i> not change anything in the <span class="code">/libs</span> path.</p> 
+   <p>This is because the content of <span class="code">/libs</span> is overwritten the next time you upgrade your instance (and may well be overwritten when you apply either a hotfix or feature pack).</p> 
+   <p>The recommended method for configuration and other changes is:</p> 
+   <ol> 
+    <li>Recreate the required item (i.e. as it exists in <span class="code">/libs</span>) under <span class="code">/apps</span><br /> </li> 
+    <li>Make any changes within <span class="code">/apps</span></li> 
+   </ol> 
+  </note> 
+  <p>The basic structure of a template is held under:</p> 
+  <codeblock gutter="true" class="syntax xml">
+    conf!!discoiqbr!!&amp;nbsp;&amp;nbsp;global!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;settings!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;dam!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;cfm!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;templates!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;template-name&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;... 
+  </codeblock> 
+  <p>With the specific structure being:</p> 
+  <codeblock gutter="true" class="syntax xml">
+    +&amp;nbsp;&lt;template-name&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;jcr:primaryType!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;jcr:title!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;jcr:description!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;initialAssociatedContent!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;precreateElements!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;version&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;elements!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;jcr:primaryType!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;&lt;element-name&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;jcr:primaryType!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;jcr:title&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;defaultContent&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;initialContentType&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;name&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;...&amp;nbsp;+&amp;nbsp;other&amp;nbsp;element&amp;nbsp;definitions!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;variations!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;jcr:primaryType&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;&lt;variation-name&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;jcr:primaryType&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;jcr:title&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;jcr:description!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;name&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;...&amp;nbsp;+&amp;nbsp;other&amp;nbsp;variation&amp;nbsp;definitions&amp;nbsp; 
+  </codeblock> 
+  <p>More details about the nodes and their properties are:<br /> </p> 
+  <ul> 
+   <li> 
+    <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+     <tbody> 
+      <tr> 
+       <th scope="row">Name</th> 
+       <th>Type</th> 
+       <th>Value</th> 
+      </tr> 
+      <tr> 
+       <td><span class="code">&lt;<em>template-name</em>&gt;</span></td> 
+       <td><span class="code">nt:unstructured</span></td> 
+       <td>This node is the root for each template. It is mandatory and should have a unique name.</td> 
+      </tr> 
+      <tr> 
+       <td><span class="code">jcr:title</span></td> 
+       <td><p><span class="code">String</span></p> <p>required<br /> </p> </td> 
+       <td>The title of the template (displayed in the <strong>Create Fragment</strong> wizard).</td> 
+      </tr> 
+      <tr> 
+       <td><span class="code">jcr:description</span></td> 
+       <td><p><span class="code">String</span></p> <p>optional</p> </td> 
+       <td>A text that describes the purpose of the template (displayed in the <strong>Create Fragment</strong> wizard).</td> 
+      </tr> 
+      <tr> 
+       <td><span class="code">initialAssociatedContent</span></td> 
+       <td><p><span class="code">String[]</span></p> <p>optional</p> </td> 
+       <td>An array with paths to collections that should be associated to a newly created content fragment by default.</td> 
+      </tr> 
+      <tr> 
+       <td><span class="code">precreateElements</span></td> 
+       <td><p><span class="code">Boolean</span></p> <p>required</p> </td> 
+       <td><p><span class="code">true</span>, if the subassets representing the elements (except the master element) of the content fragment should be created when the content fragment is created; <em>false</em> if they should be created "on the fly".</p> <p><strong>Note</strong>: currently this parameter has to be set to <span class="code">true</span>.</p> </td> 
+      </tr> 
+      <tr> 
+       <td><span class="code">version</span></td> 
+       <td><p><span class="code">Long</span></p> <p>required</p> </td> 
+       <td><p>Version of the content structure; currently supported:</p> <p><strong>Note</strong>: currently this parameter has to be set to <span class="code">2</span>.<br /> </p> </td> 
+      </tr> 
+     </tbody> 
+    </table> </li> 
+   <li> 
+    <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+     <tbody> 
+      <tr> 
+       <th scope="row">Name</th> 
+       <th>Type</th> 
+       <th>Value</th> 
+      </tr> 
+      <tr> 
+       <td><span class="code">elements</span><br /> </td> 
+       <td><p><span class="code">nt:unstructured</span></p> <p>required</p> </td> 
+       <td><p>Node that contains the definition of the elements of the content fragment. It is mandatory and needs to contain at least one child node for the <strong>Main</strong> element, but can contain [1..n] child nodes.</p> <p>When the template is used the elements sub-branch is copied to the model sub-branch of the fragment.</p> <p>The first element (as viewed in CRXDE Lite) is automatically considered to be the <i>main</i> element; the node name is irrelevant and the node itself does not have a special significance, apart from the fact that it is represented by the main asset; the other elements are handled as sub assets.</p> </td> 
+      </tr> 
+     </tbody> 
+    </table> </li> 
+   <li> 
+    <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+     <tbody> 
+      <tr> 
+       <th scope="row">Name</th> 
+       <th>Type</th> 
+       <th>Value</th> 
+      </tr> 
+      <tr> 
+       <td><span class="code">&lt;<i>element-name</i>&gt;</span></td> 
+       <td><span class="code">nt:unstructured</span></td> 
+       <td>This node defines an element. It is mandatory and should have a unique name.</td> 
+      </tr> 
+      <tr> 
+       <td><span class="code">jcr:title</span></td> 
+       <td><p><span class="code">String</span></p> <p>required</p> </td> 
+       <td>The title of the element (displayed in the fragment editor's element selector).</td> 
+      </tr> 
+      <tr> 
+       <td><span class="code">defaultContent</span></td> 
+       <td><p><span class="code">String</span></p> <p>optional</p> <p>default: ""</p> </td> 
+       <td>Initial content of the element; only used if <span class="code">precreateElements</span><i> = </i><span class="code">true</span></td> 
+      </tr> 
+      <tr> 
+       <td><span class="code">initialContentType</span></td> 
+       <td width="150"><p><span class="code">String</span></p> <p>optional</p> <p>default: <span class="code">text/html</span></p> </td> 
+       <td><p>Initial content type of the element; only used if <span class="code">precreateElements</span><i> = </i><span class="code">true</span>; currently supported:</p> 
+        <ul> 
+         <li><span class="code">text/html</span></li> 
+         <li><span class="code">text/plain</span></li> 
+         <li><span class="code">text/x-markdown</span></li> 
+        </ul> </td> 
+      </tr> 
+      <tr> 
+       <td><span class="code">name</span></td> 
+       <td><p><span class="code">String</span></p> <p>required</p> </td> 
+       <td>The internal name of the element; must be unique for the fragment type.</td> 
+      </tr> 
+     </tbody> 
+    </table> </li> 
+   <li> 
+    <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+     <tbody> 
+      <tr> 
+       <th scope="row">Name</th> 
+       <th>Type</th> 
+       <th>Value</th> 
+      </tr> 
+      <tr> 
+       <td><span class="code">variations</span><br /> </td> 
+       <td><p><span class="code">nt:unstructured</span></p> <p>optional</p> </td> 
+       <td>This optional node contains the definition of the initial variations of the content fragment.</td> 
+      </tr> 
+     </tbody> 
+    </table> </li> 
+   <li> 
+    <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+     <tbody> 
+      <tr> 
+       <th scope="row">Name</th> 
+       <th>Type</th> 
+       <th>Value</th> 
+      </tr> 
+      <tr> 
+       <td><span class="code">&lt;<i>variation-name</i>&gt;</span><br /> </td> 
+       <td><p><span class="code">nt:unstructured</span></p> <p>required if a variation node is present</p> </td> 
+       <td><p>Defines an initial variation.<br /> The variation is added to all elements of the content fragment by default.</p> <p>The variation will have the same initial content as the respective element (see <code class="code">defaultContent/
+          <discoiqbr /> initialContentType</code>)</p> </td> 
+      </tr> 
+      <tr> 
+       <td><span class="code">jcr:title</span></td> 
+       <td><p><span class="code">String</span></p> <p>required</p> </td> 
+       <td>The title of the variation (displayed in the fragment editor's <strong>Variation</strong> tab (left rail)).</td> 
+      </tr> 
+      <tr> 
+       <td><span class="code">jcr:desciption</span></td> 
+       <td><p><span class="code">String</span></p> <p>optional</p> <p>default: ""</p> </td> 
+       <td>A text that provides a description of the variation <span>(displayed in the fragment editor's <strong>Variation</strong> tab (left rail)).</span></td> 
+      </tr> 
+     </tbody> 
+    </table> </li> 
+  </ul> 
+ </body> 
+</html>

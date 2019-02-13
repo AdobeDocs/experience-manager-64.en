@@ -1,0 +1,86 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="549f492d-004e-4fc4-8c5a-2bfb77eb8d9e" name="jcr:predecessors" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2016-05-31T06:47:21.026-0400" name="acrolinxDate" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="2018-04-03T08:37:41.859-0400" name="publishExternalDate" /> 
+  <meta content="3994e72e-5be9-4340-a6f5-d21c02f79cee" name="jcr:uuid" /> 
+  <meta content="Enabling attachments for an HTML5 form" name="navTitle" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="328" name="acrolinxWords" /> 
+  <meta content="Enabling attachments for an HTML5 form" name="jcr:title" /> 
+  <meta content="https://helpx.stage.adobe.com/aem-forms/6-1/html5-forms/enabling-attachments-html5-form.html" name="publishQAURL" /> 
+  <meta content="2018-04-03T08:37:41.859-0400" name="lastPublishExternalDate" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="22" name="acrolinxSentences" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2015-02-03T11:28:58.377-0500" name="firstPublishExternalDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="2015-09-19T11:04:45.443-0400" name="publishQADate" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/enabling_attachments_html5_form_admin_5e12de0b318c6865_2107_report.xml" name="acrolinxReportURL" /> 
+  <meta content="2018-04-26T04:38:33.068-0400" name="cq:lastModified" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="2015-09-19T11:04:45.443-0400" name="lastPublishQADate" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="By default, the attachment support for HTML5 forms is disabled." name="seoDescription" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="2017-12-01T19:01:55.220-0500" name="jcr:created" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:hTML5_forms" name="cq:tags" /> 
+  <meta content="2015-02-03T11:28:58.377-0500" name="firstPublishQADate" /> 
+  <meta content="2018-04-03T08:37:42.360-0400" name="cq:lastReplicated" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/enabling-attachments-html5-form.html" name="publishExternalURL" /> 
+  <meta content="2018-04-03T08:37:41.859-0400" name="topicBrowsingSortDate" /> 
+  <meta content="2018-04-26T04:38:33.068-0400" name="locHandOffDate" /> 
+ </head> 
+ <body> 
+  <p>You can upload, preview, and submit attachments with HTML5 forms. By default, the attachment support is disabled. To enable the attachment support:<br /> </p> 
+  <ol> 
+   <li><p>Create a <a href="../../forms/using/custom-profile.md" target="_blank">custom profile</a> with mutiselect string property <span class="code">mfAttachmentOptions</span>.</p> </li> 
+   <li><p>In the custom profile, specify properties <span class="code">fileSizeLimit</span>, <span class="code">multiSelect</span>, and <span class="code">buttonTex</span>t to configure options of the file attachment widget. As required, you can also specify more custom properties. <br /> </p> </li> 
+   <li><p>In the custom profile, use the following configurations: <br /> </p> 
+    <ul> 
+     <li><strong>multiSelect </strong>-&amp;gt; true or false (true by default)</li> 
+     <li><strong>fileSizeLimit </strong>-&amp;gt; value_in_mb (say 5) (2 MBs by default)</li> 
+     <li><strong>buttonText </strong>-&amp;gt; Button text for pop-up window ("Attach" by default) </li> 
+     <li><strong>accept </strong>-&amp;gt; file types to accept ("audio/*, video/*, image/*, text/*, .pdf" by default)</li> 
+    </ul> 
+    <note> 
+     <p>In Microsoft Internet Explorer 9, users can attach files larger than the specified limit. It is a known issue.</p> 
+    </note></li> 
+   <li><p>Use the <a href="../../forms/using/manage-form-metadata.md" target="_blank">metadata editor</a> to select the custom profile that you have created above for HTML 5 forms. </p> </li> 
+   <li><p>Render your form template with custom profile and the attachments icon would appear on the forms toolbar.</p> 
+    <note> 
+     <p>Out of the box, the forms portal provides a custom profile with drafts and attachments capability enabled. For more information about the <strong>Save as Draft </strong>profile, see <a href="../../forms/using/saving-html5-form-draft.md" target="_blank">Saving HTML5 forms as a draft</a>.</p> 
+    </note></li> 
+   <li><p>Click the attachment icon, an attachment selection dialog box appears. Browse and select the attachment and click <strong>Attach</strong>.<br /> </p> 
+    <note> 
+     <p>To preview an attachment, click the attachment name. </p> 
+    </note> 
+    <note> 
+     <p>The file preview option is not available for anonymous users.<br /> </p> 
+    </note></li> 
+  </ol> 
+  <h2>Attachment submission format</h2> 
+  <p>When attachments are enabled, HTML5 form submits multipart data. The mutii-part submission data has two parts <strong>dataXml </strong>and<strong> attachments. </strong></p> 
+  <note> 
+   <p>For backward compatibility, if <span class="code">mfAllowAttachments </span>option is turned off, then the HTML5 forms does not send the muti-<span class="acrolinxCursorMarker"></span>part data. It sends simple data xml in <strong>application/xml </strong>format.</p> 
+  </note> 
+  <p>If the mfAllowAttachments flag is turned on, the <a href="../../forms/using/service-proxy.md" target="_blank">submit service proxy service</a> also posts multipart data with dataXml and attachments.</p> 
+ </body> 
+</html>

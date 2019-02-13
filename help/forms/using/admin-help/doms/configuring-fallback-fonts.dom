@@ -1,0 +1,69 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="AEMForms/6.1/AdminHelp/WS196e8398323ca8ae5f46a1e9130d2478d76-8000.2" name="cq:gepId" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="2017-12-01T19:05:06.831-0500" name="jcr:created" />
+  <meta content="admin" name="contentOwner" />
+  <meta content="2016-09-19T09:13:00.000-0400" name="sortDate" />
+  <meta content="2018-04-26T04:24:41.662-0400" name="cq:lastModified" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-04-03T09:10:46.785-0400" name="cq:lastReplicated" />
+  <meta content="2017-10-31T16:32:30.425-0400" name="publishExternalDate" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="admin" name="lr_creator" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/forms/using/admin-help/configuring-fallback-fonts.html" name="publishExternalURL" />
+  <meta content="Configuring fallback fonts" name="jcr:title" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="admin" name="lr_lastModifiedBy" />
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2018-04-26T04:24:41.661-0400" name="locHandOffDate" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2d4a267d-2882-4cb2-9a4f-5439067bda6d" name="jcr:uuid" />
+  <meta content="head1_20111213" name="gep_conversion_script_version" />
+  <meta content="825cd938-9385-41c1-aa9c-e60bf8871970" name="jcr:predecessors" />
+  <meta content="2016-09-19T09:13:40.767-0400" name="lr_lastModified" />
+  <meta content="2016-09-19T09:13:00.000-0400" name="topicBrowsingSortDate" />
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/working_with_pdf_generator;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" />
+  <meta content="2016-09-20T07:54:09.765-0400" name="firstPublishExternalDate" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Configuring fallback fonts" name="navTitle" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="/content/help/en/experience-manager/6-4/forms/using/morehelp/working_with_pdf_generator;/content/help/en/experience-manager/6-4/forms/using/morehelp/working_with_pdf_generator" name="moreHelpPaths" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="Learn how to configure fallback fonts." name="seoDescription" />
+  <meta content="2017-10-31T16:32:30.425-0400" name="lastPublishExternalDate" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" />
+ </head>
+ <body>
+  <p>You can manually configure the FontManagerResources.properties file to map the default AEM forms fonts to fallback (or substitute) if the default fonts are not available on the server. This property file is located in the adobe-fontmanager.jar file. </p>
+  <note>
+   <p>Fallback font configuration also applies to the assembler service.</p>
+  </note>
+  <ol>
+   <li><p>Navigate to the adobe-livecycle-<i>[appserver]</i>.ear file in the <i>[aem-forms root]</i>/configurationManager/export directory, make a backup copy, and unpackage the original.</p></li>
+   <li><p>Locate the adobe-fontmanager.jar file and unpackage it.</p></li>
+   <li><p>Locate the FontManagerResources.properties file and open it in a text editor.</p></li>
+   <li><p>Modify the Generic and Fallback font locations and names as required and save the file.</p><p>The font entries in the FontManagerResources.properties file are relative to the <i>[aem-forms root]</i>/fonts directory. If you specify fonts that are not default AEM forms fonts, you must install those fonts within this directory structure (either within an existing directory or in a newly created one).</p>
+    <note>
+     <p>If the specified font or default font does not contain a specific unicode character or if it is unavailable, the character is taken from a fallback font according to the following priority:</p>
+    </note>
+    <ul>
+     <li><p>Locale-specific font</p></li>
+     <li><p>ROOT font if locale not set</p></li>
+     <li><p>Generic font, searched by order set in the fallback table</p></li>
+    </ul></li>
+   <li><p>Repackage the adobe-fontmanager.jar file. </p></li>
+   <li><p>Repackage the adobe-livecycle-<i>[appserver]</i>.ear file and then redeploy it either manually or by running Configuration Manager.</p></li>
+  </ol>
+  <note>
+   <p>Do not use Configuration Manager to repackage the adobe-livecycle-[appserver].ear file because it will overwrite your modifications with the AEM forms default values.</p>
+  </note>
+ </body>
+</html>

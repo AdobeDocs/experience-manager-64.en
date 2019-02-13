@@ -1,0 +1,73 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="bohnert@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="Creating Article Export Configuration" name="seoTitle" /> 
+  <meta content="532befd3-672c-4be3-8456-f14a20ab69b0" name="jcr:predecessors" /> 
+  <meta content="2017-10-31T16:26:31.315-0400" name="firstPublishExternalDate" /> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/MOBILE;topic_tags:developing-on-demand-services-app" name="cq:tags" /> 
+  <meta content="2018-05-04T05:12:41.262-0400" name="topicBrowsingSortDate" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/mobile/using/creating-article-export-configuration.html" name="publishExternalURL" /> 
+  <meta content="User" name="contentOwner" /> 
+  <meta content="2018-05-04T05:12:41.262-0400" name="lastPublishExternalDate" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/MOBILE" name="primaryProductTag" /> 
+  <meta content="2018-05-04T05:12:41.499-0400" name="cq:lastReplicated" /> 
+  <meta content="Follow this page to learn about exporting content from Adobe Experience Manager (AEM) for upload to AEM Mobile." name="seoDescription" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="bohnert" name="cq:lastReplicatedBy" /> 
+  <meta content="Creating Article Export Configuration" name="jcr:title" /> 
+  <meta content="msm-service" name="cq:lastModifiedBy" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2018-05-11T10:01:27.635-0400" name="locHandOffDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2018-05-11T10:01:27.635-0400" name="cq:lastModified" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="/content/help/en/experience-manager/6-4/mobile/morehelp/developing-on-demand-services-app;/content/help/en/experience-manager/6-4/mobile/morehelp/developing-on-demand-services-app" name="moreHelpPaths" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2018-05-04T05:12:41.262-0400" name="publishExternalDate" /> 
+  <meta content="f81fa1d1-b477-4876-8d4d-d64e2ca123f3" name="jcr:uuid" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="/content/docs/en/aem/6-3/develop/mobile-apps/aem-mobile-on-demand/content-properties-exporting/creating-article-export-configuration" name="qaNotes" /> 
+  <meta content="2017-12-13T19:01:11.914-0500" name="jcr:created" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+ </head> 
+ <body> 
+  <note> 
+   <p>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). <a href="../../sites/developing/using/spa-overview.md">Learn more</a>.</p> 
+  </note> 
+  <note> 
+   <p><strong>Prerequisite</strong>:</p> 
+   <p>Prior to learn about creating and modifying shared resources, see <a href="../../mobile/using/mobile-ondemand-contentsync.md">Content Sync</a> to understand the basic concepts.</p> 
+  </note> 
+  <p>AEM Mobile users use Content Sync to export live content to static content for use in Mobile Apps and this export occurs when content is uploaded to Mobile On-Demand Services from AEM Mobile.</p> 
+  <p>The property <i><strong>dps-exportTemplate</strong></i> mentioned in table above, defines the path to the app's export configs. Set this property to create and modify shared resources.</p> 
+  <p>The following resources describes exporting content from Adobe Experience Manager (AEM) for upload to AEM Mobile.</p> 
+  <h2></h2> 
+  <p>Articles have content that needs to be exported and uploaded. Some of this content can be shared between Articles.</p> 
+  <p>Use <a href="../../mobile/using/mobile-ondemand-contentsync.md">ContentSync</a> to gather the content together and create a <strong><i>Shared Resources</i></strong> package.</p> 
+  <p>The ContentSync configuration found at <strong>&amp;lt;dps-exportTemplate&amp;gt;/dps-article&amp;gt;</strong> should be configured to export all the content an article required for property static rendering on device.</p> 
+  <note> 
+   <p>You can perform the steps below to view sample shared resources, only if you have:</p> 
+   <ul> 
+    <li>installed the sample content</li> 
+    <li>running AEM instance</li> 
+    <li>no configured custom context or a different port</li> 
+   </ul> 
+  </note> 
+  <p>To view sample shared resource, see the steps below:</p> 
+  <ol> 
+   <li><p>Open CRXDE Lite on your AEM server.</p> </li> 
+   <li><p>Browse to this path <i><a href="http://localhost:4502/crx/de/index.jsp#/etc/contentsync/templates/dps-we-unlimited-app/dps-article">/etc/contentsync/templates/dps-we-unlimited-app/dps-article</a></i>, to view the sample shared resources.</p> <p>You can view all the properties required for creating your shared resources as shown in the figure below:</p> <img imageRotate="0" src="assets/chlimage_1-139.png" /></li> 
+  </ol> 
+  <note> 
+   <p>Articles should be uploaded or exported to AEM Mobile On-Demand Services when an articles content changes.</p> 
+  </note> 
+ </body> 
+</html>

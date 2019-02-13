@@ -1,0 +1,392 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="Chris Bohnert" name="contentOwner" />
+  <meta content="Editing Page Content" name="seoTitle" />
+  <meta content="2017-12-13T19:01:09.411-0500" name="jcr:created" />
+  <meta content="Once your page is created you can edit the content to make the updates you require" name="seoDescription" />
+  <meta content="Editing Page Content" name="jcr:title" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:page-authoring;content_type:reference" name="cq:tags" />
+  <meta content="2018-11-06T05:06:15.558-0500" name="cq:lastModified" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-10-28T00:26:37.653-0400" name="publishExternalDate" />
+  <meta content="mix:lockable;mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-11-06T05:06:23.860-0500" name="cq:lastReplicated" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="25e239c1-0d02-43f1-a2c8-af54d13b5bc8" name="jcr:predecessors" />
+  <meta content="bohnert" name="cq:lastModifiedBy" />
+  <meta content="2018-04-19T10:30:58.079-0400" name="locHandOffDate" />
+  <meta content="2017-10-31T16:20:36.605-0400" name="firstPublishExternalDate" />
+  <meta content="2018-10-28T00:26:37.653-0400" name="lastPublishExternalDate" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2018-10-28T00:26:37.653-0400" name="topicBrowsingSortDate" />
+  <meta content="jsyal@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="Editing Page Content" name="navTitle" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/editing-content.html" name="publishExternalURL" />
+  <meta content="/content/help/en/experience-manager/6-4/sites/authoring/morehelp/page-authoring;/content/help/en/experience-manager/6-4/sites/authoring/morehelp/page-authoring" name="moreHelpPaths" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="audience:authoring" name="primaryAudienceTag" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="bohnert" name="cq:lastReplicatedBy" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="/content/docs/en/aem/6-3/author/page-authoring/editing-content" name="qaNotes" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="54a0a8bd-d58e-44dd-8aa1-a99157db638e" name="jcr:uuid" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" />
+ </head>
+ <body>
+  <p>Once your page is created (either new or as part of a launch or live copy) you can edit the content to make the updates you require.</p> 
+  <p>Content is added using <a href="../../../sites/authoring/using/default-components-console.md">components</a> (appropriate to the content type) that can be dragged onto the page. These can then be edited in place, moved, or deleted.<br /> </p> 
+  <note>
+   <p>Your account needs the <a href="../../../sites/administering/using/security.md">appropriate access rights</a> and <a href="../../../sites/administering/using/security.md#permissions">permissions</a> to edit pages.</p> 
+   <p>If you encounter any problems we suggest you contact your system administrator.</p> 
+  </note>
+  <note>
+   <p>If your page and/or template has been appropriately set up, then you can use <a href="../../../sites/authoring/using/responsive-layout.md">responsive layout</a> when editing.<br /> </p> 
+  </note>
+  <note>
+   <p>When in <strong>Edit</strong> mode, links in your content are visible, but <strong>not accessible</strong>. Use <a href="#previewingpagestouchoptimizedui">Preview mode</a> if you want to navigate using the links in your content.</p> 
+  </note>
+  <h2>Page Toolbar</h2>
+  <p>The page toolbar offers access to the appropriate functionality, dependent on the page configuration.</p> 
+  <img imageRotate="0" src="assets/screen_shot_2018-03-22at111338.png" />
+  <p>The toolbar offers access to numerous options. Depending on your current context and configuration, some options may not be available.</p> 
+  <ul>
+   <li> <p>This opens/closes the side panel, which holds the <a href="../../../sites/authoring/using/author-environment-tools.md#main-pars-title">Asset Browser</a>, <a href="../../../sites/authoring/using/author-environment-tools.md#main-pars-title-17">Component Browser</a>, and <a href="../../../sites/authoring/using/author-environment-tools.md#main-pars-title-96d3">Content Tree</a>.</p> <img imageRotate="0" src="assets/screen_shot_2018-03-22at111425.png" /></li>
+   <li> <p>Provides access to the <a href="../../../sites/authoring/using/author-environment-tools.md#main-pars-title-21">Page Information</a> menu including page details and actions that can be taken on the page including viewing and editing page information, viewing page properties, and publishing/unpublishing the page.</p> <img imageRotate="0" src="assets/screen_shot_2018-03-22at111437.png" /></li>
+   <li> <p>Toggles the <a href="../../../sites/authoring/using/responsive-layout.md#main-pars-title-3">emulator toolbar</a>, which is used to emulate the look-and-feel of the page on another device. This is automatically toggled in layout mode.</p> <img imageRotate="0" src="assets/screen_shot_2018-03-22at111442.png" /></li>
+   <li> <p>Opens the <a href="../../../sites/authoring/using/ch-previewing.md">context hub</a>. Only available in Preview mode.</p> <img imageRotate="0" src="assets/screen_shot_2018-03-22at111543.png" /></li>
+   <li> <p>This is purely informational.</p> <img imageRotate="0" src="assets/screen_shot_2018-03-22at111554.png" /></li>
+   <li> <p>Displays the current <a href="../../../sites/authoring/using/author-environment-tools.md#main-pars-title-20">mode</a> and allows you to select another mode such as edit, layout, timewarp, or targeting.</p> <img imageRotate="0" src="assets/chlimage_1-300.png" /></li>
+   <li> <p>Enables <a href="../../../sites/authoring/using/editing-content.md#main-pars-title-196884421">preview mode</a>. This displays the page as it will appear when published.</p> <img imageRotate="0" src="assets/chlimage_1-301.png" /></li>
+   <li> <p>Allows you to add <a href="../../../sites/authoring/using/annotations.md">annotations</a> to the page when reviewing a page. After the first annotation, the icon will switch to a number indicating the number of annotations on the page.</p> <img imageRotate="0" src="assets/screen_shot_2018-03-22at111638.png" /></li>
+  </ul>
+  <h3>Status Notification</h3>
+  <p>If a page is part of a <a href="../../../sites/authoring/using/workflows.md">workflow</a> or multiple workflows, this information is shown in a notification bar at the top of the screen when editing the page.</p> 
+  <img imageRotate="0" src="assets/screen_shot_2018-03-22at111739.png" />
+  <note>
+   <p>The status bar is only visible to user accounts with appropriate privileges.</p> 
+  </note>
+  <p>The notification lists the workflow that is running against the page. If the user is involved in the current workflow step, options to <a href="../../../sites/authoring/using/workflows-participating.md">affect the workflow status</a> and get more information about the workflow are also available such as:</p> 
+  <ul> 
+   <li><strong>Complete</strong> - Opens the <strong>Complete Workitem</strong> dialog</li> 
+   <li><strong>Delegate</strong> - Opens the <strong>Complete Workitem</strong> dialog</li> 
+   <li><strong>View details</strong> - Opens the <strong>Details</strong> window of the workflow</li> 
+  </ul> 
+  <p>Completing and delegating workflow steps via the notification bar works as it does when <a href="../../../sites/authoring/using/workflows-participating.md">participating in workflows</a> from the Notification inbox.</p> 
+  <p>If the page is subject to multiple workflows, the number of workflows is displayed at the right end of the notification along with arrow buttons to allow you to scroll through the workflows.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-302.png" />
+  <h2>Component Placeholder</h2>
+  <p>The component placeholder is an indicator to show where a component will be positioned when you drop it - above the component you are currently hovering over.</p> 
+  <ul>
+   <li><p>When adding a new component to the page (dragging from the component browser):</p> <img imageRotate="0" src="assets/screen_shot_2018-03-22at111928.png" /></li>
+   <li><p>When moving an existing component:</p> <img imageRotate="0" src="assets/screen_shot_2018-03-22at112445.png" /></li>
+  </ul>
+  <h2>Inserting a Component</h2>
+  <h3>Inserting a Component from the Components Browser</h3>
+  <p>You can add a new component by using the <a href="../../../sites/authoring/using/author-environment-tools.md#main-pars-title-17">component browser</a>. The <a href="#componentplaceholder">component placeholder</a> shows you where the component will be positioned:<br /> </p> 
+  <ol>
+   <li><p>Make sure that your page is in <a href="../../../sites/authoring/using/author-environment-tools.md#main-pars-title-20"><strong>Edit</strong> mode</a>.</p> </li>
+   <li><p>Open the <a href="../../../sites/authoring/using/author-environment-tools.md#main-pars-title-17">component browser</a>.</p> </li>
+   <li><p>Drag the required component to the <a href="#componentplaceholder">required position</a>.<br /> </p> </li>
+   <li><p><a href="#editmovecopypastedelete">Edit</a> the component.</p> </li>
+  </ol>
+  <note>
+   <p>On a mobile device, the component browser will fill the entire screen. Once you start dragging a component, the browser will close to show the page again so you can place the component.</p> 
+  </note>
+  <h3>Inserting a Component from the Paragraph System</h3>
+  <p>You can add a new component by using the <strong>Drag components here</strong> box of the paragraph system:<br /> </p> 
+  <ol>
+   <li><p>Make sure that your page is in <a href="../../../sites/authoring/using/author-environment-tools.md#main-pars-title-20"><strong>Edit</strong> mode</a>.</p> </li>
+   <li><p>There are two ways to select and add a new component from the paragraph system:</p> 
+    <ul> 
+     <li>Select the <strong>Insert Component</strong> option (+) from either the toolbar of an existing component or the <strong>Drag components here</strong> box.</li> 
+    </ul> <img imageRotate="0" src="assets/screen_shot_2018-03-22at112536.png" />
+    <ul> 
+     <li>If you are on a desktop device you can double-click on the <strong>Drag components here</strong> box.</li> 
+    </ul> <p>The <strong>Insert New Component</strong> dialog will open to allow you to select your required component:</p> <img imageRotate="0" src="assets/screen_shot_2018-03-22at112650.png" /></li>
+   <li><p>The selected component will be added to the bottom of the page. <a href="#editmovecopypastedelete">Edit</a> the component as required.</p> </li>
+  </ol>
+  <h3>Inserting a Component using the Assets Browser</h3>
+  <p>You can also add a new component to the page by dragging an asset from the <a href="../../../sites/authoring/using/author-environment-tools.md#main-pars-title">assets browser</a>. This will automatically create a new component of the appropriate type (and containing the asset).</p> 
+  <p>This is valid for the following asset types (some will be dependent on page/paragraph system):<br /> </p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody>
+    <tr>
+     <th>Asset Type</th> 
+     <th>Resultant Component Type</th> 
+    </tr>
+    <tr>
+     <td>Image</td> 
+     <td>Image</td> 
+    </tr>
+    <tr>
+     <td>Document</td> 
+     <td>Download</td> 
+    </tr>
+    <tr>
+     <td>Product</td> 
+     <td>Product</td> 
+    </tr>
+    <tr>
+     <td>Video</td> 
+     <td>Flash</td> 
+    </tr>
+    <tr>
+     <td>Content Fragment</td> 
+     <td>Content Fragment<br /> </td> 
+    </tr>
+   </tbody>
+  </table> 
+  <note>
+   <p>This behavior can be configured for your installation. See <a href="../../../sites/developing/using/developing-components.md#configuringaparagraphsystemsothatdragginganassetcreatesacomponentinstance">Configuring a Paragraph System so that Dragging an Asset Creates a Component Instance</a> for further details.</p> 
+  </note>
+  <p>To create a component by dragging one of the above asset types:</p> 
+  <ol>
+   <li><p>Make sure that your page is in <a href="../../../sites/authoring/using/author-environment-tools.md#main-pars-title-20"><strong>Edit</strong> mode</a>.</p> </li>
+   <li><p>Open the <a href="../../../sites/authoring/using/author-environment-tools.md#main-pars-title">asset browser</a>.</p> </li>
+   <li><p>Drag the required asset to the required position. The <a href="#componentplaceholder">component placeholder</a> shows you where the component will be positioned.</p> <p>A component, appropriate for the asset type, will be created at the required location - it will contain the selected asset.</p> </li>
+   <li><p><a href="#editmovecopypastedelete">Edit</a> the component if required.</p> </li>
+  </ol>
+  <note>
+   <p>On a mobile device, the asset browser will fill the entire screen. Once you start dragging an asset, the browser will close to show the page again so you can place the asset.</p> 
+  </note>
+  <p>If when browsing the assets you find that you need to make a quick change to an asset, you can start the <a href="../../../assets/using/managing-assets-touch-ui.md">asset editor</a> directly from the browser by clicking the edit icon next to the asset's name.</p> 
+  <img imageRotate="0" src="assets/screen_shot_2018-03-22at112735.png" />
+  <h2>Edit/Configure/Copy/Cut/Delete/Paste</h2>
+  <p>Selecting a component will open the toolbar. This provides access to various actions that can be performed on the component.</p> 
+  <p>The actual actions available to the user will be shown as appropriate and not all actions may be described here.<br /> </p> 
+  <img imageRotate="0" src="assets/screen_shot_2018-03-22at112909.png" />
+  <ul>
+   <li> <p><a href="../../../sites/authoring/using/default-components.md">Dependent on the component type</a> this will allow you to <a href="#editcontent">edit the content of the component</a>. Often a toolbar will be provided.</p> <img imageRotate="0" src="assets/screen_shot_2018-03-22at112936.png" /></li>
+   <li> <p><a href="../../../sites/authoring/using/default-components.md">Dependent on the component type</a> this will allow you to edit and configure the properties of the component. Often a dialog will be opened.</p> <img imageRotate="0" src="assets/screen_shot_2018-03-22at112955.png" /></li>
+   <li> <p>This will copy the component to the clipboard. After the paste action, the original component will remain.</p> <img imageRotate="0" src="assets/screen_shot_2018-03-22at113000.png" /></li>
+   <li> <p>This will copy the component to the clipboard. After the paste action, the original component will be removed.</p> <img imageRotate="0" src="assets/screen_shot_2018-03-22at113007.png" /></li>
+   <li> <p>This will delete the component from the page with your confirmation.</p> <img imageRotate="0" src="assets/screen_shot_2018-03-22at113012.png" /></li>
+   <li> <p>This opens the dialog to <a href="../../../sites/authoring/using/editing-content.md#main-pars-title-35">add a new component</a>.</p> <img imageRotate="0" src="assets/screen_shot_2018-03-22at113017.png" /></li>
+   <li> <p>This will paste the component from the clipboard to the page. Whether the original remains, depends on whether you used copy or cut. </p> 
+    <ul> 
+     <li>You can paste to the same page or to a different page.</li> 
+     <li>The pasted item will be pasted above the item where you select the paste action.</li> 
+     <li>The Pate action will only be shown if there is content on the clipboard.</li> 
+    </ul> <img imageRotate="0" src="assets/screen_shot_2018-03-22at113553.png" />
+    <note>
+     <p>If you paste to a different page that was already open before the cut/copy operation, you must refresh the page to see the pasted content.</p> 
+    </note></li>
+   <li> <p>This allows you to select multiple components at once. The same can be achieved on a desktop device by a <strong>Control+Click</strong> or <strong>Command+Click</strong>.</p> <img imageRotate="0" src="assets/screen_shot_2018-03-22at113240.png" /></li>
+   <li> <p>Allows you to select the parent component of the selected component.</p> <img imageRotate="0" src="assets/screen_shot_2018-03-22at113028.png" /></li>
+   <li> <p>This allows you to modify the <a href="../../../sites/authoring/using/editing-content.md#main-pars-title-54f5">layout</a> of the selected component. This only applies to the selected component and does not activate the <a href="../../../sites/authoring/using/author-environment-tools.md#main-pars-title-20">Layout mode</a> for the entire page.</p> <img imageRotate="0" src="assets/screen_shot_2018-03-22at113044.png" /></li>
+   <li> <p>This allows you to create a new <a href="../../../sites/authoring/using/experience-fragments.md">experience fragment</a> from the selected component or add it to an existing experience fragment.<br /> </p> <img imageRotate="0" src="assets/screen_shot_2018-03-22at113033.png" /></li>
+  </ul>
+  <h2>Edit (Content)</h2>
+  <p>There are two methods of adding and/or editing content in components:</p> 
+  <ul> 
+   <li>Open the <a href="#componenteditdialog">component dialog for editing</a>.</li> 
+   <li><a href="#draganddropintocomponent">Drag and drop an asset</a> from the assets browser to directly add content.</li> 
+  </ul> 
+  <h3>Component Edit Dialog</h3>
+  <p>You can open a component to edit the content using the <a href="#editconfigurecopycutdeletepaste">Edit (pencil) icon of the component toolbar</a>.</p> 
+  <p>The exact edit options will depend on the component. For some components <a href="#editcontentfullscreenmode">all actions will only be available in full screen mode</a>. For example:<br /> </p> 
+  <ul>
+   <li> <img imageRotate="0" src="assets/screen_shot_2018-03-22at120215.png" /></li>
+   <li><p>Image component</p> <img imageRotate="0" src="assets/screen_shot_2018-03-22at120252.png" />
+    <note>
+     <p>Editing does not work on an empty image component.</p> 
+     <p>You must <a href="../../../sites/authoring/using/default-components-foundation.md#image">drag or upload an image (using Configure)</a> before you can start to edit it.</p> 
+    </note></li>
+   <li><p>Image component - full screen</p> <p><a href="../../../sites/authoring/using/editing-content.md#main-pars-title-31">Entering full screen mode</a> for the image component allows for more space to edit the image as well as showing extra editing options such as <strong>Launch Map</strong> and <strong>Reset Zoom</strong>. In addition, full screen allows for crop presets to be selected.</p> <img imageRotate="0" src="assets/screen_shot_2018-03-22at120529.png" /></li>
+   <li><p>Components constructed from more than one basic component, such as the <a href="../../../sites/authoring/using/default-components-foundation.md#main-pars-title-10">Text &amp; Image foundation component</a>, first ask you to confirm which set of edit options you want:</p> <img imageRotate="0" src="assets/chlimage_1-303.png" /></li>
+  </ul>
+  <h3>Drag and Drop Assets into Component</h3>
+  <p>For specific component types you can drag and drop assets from the asset browser directly into the component to update the content:</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody>
+    <tr>
+     <th>Asset Type</th> 
+     <th>Component Type</th> 
+    </tr>
+    <tr>
+     <td>Image</td> 
+     <td>Image</td> 
+    </tr>
+    <tr>
+     <td>Document</td> 
+     <td>Download</td> 
+    </tr>
+    <tr>
+     <td>Product</td> 
+     <td>Product</td> 
+    </tr>
+    <tr>
+     <td>Video</td> 
+     <td>Flash</td> 
+    </tr>
+    <tr>
+     <td>Content Fragment</td> 
+     <td>Content Fragment</td> 
+    </tr>
+   </tbody>
+  </table> 
+  <h2>Edit (Content) Full Screen Mode</h2>
+  <p>For all components the full screen mode can be accessed with (and exited from):<br /> </p> 
+  <img imageRotate="0" src="assets/chlimage_1-304.png" />
+  <p>For example, the <strong>Text</strong> component:<br /> </p> 
+  <img imageRotate="0" src="assets/screen_shot_2018-03-22at121616.png" />
+  <note>
+   <p>For some components, the full screen mode will have more options available than the basic in-place editior.</p> 
+  </note>
+  <h2>Moving a Component</h2>
+  <p>To move a paragraph component:</p> 
+  <ol>
+   <li><p>Select the paragraph to be moved with either tap-and-hold or click-and-hold.</p> </li>
+   <li><p>Drag the paragraph to the new location. AEM indicates where the paragraph can be deposited. Drop it in your desired location.</p> <img imageRotate="0" src="assets/screen_shot_2018-03-22at121821.png" /></li>
+   <li><p>Your paragraph is moved.</p> </li>
+  </ol>
+  <note>
+   <p>You can also use <a href="../../../sites/authoring/using/editing-content.md#editconfigurecopycutdeletepaste">Cut and Paste</a> to move a component.<br /> </p> 
+  </note>
+  <h2>Edit Component Layout</h2>
+  <p>Instead of repeatedly switching from edit to <a href="../../../sites/authoring/using/responsive-layout.md">layout mode</a> to adjust a component, you can select the <strong>Layout</strong> action for a component to change that component's layout and save time by not having to leave the edit mode.</p> 
+  <ol>
+   <li><p>When in <strong>Edit</strong> mode of the sites console, selecting a component reveals the component's toolbar.</p> <img imageRotate="0" src="assets/screen_shot_2018-03-22at133756.png" /><p>Click or tap the <strong>Layout</strong> action to adjust the layout of the component.</p> <img imageRotate="0" src="assets/chlimage_1-305.png" /></li>
+   <li><p>Once the Layout action is selected:</p> 
+    <ul> 
+     <li>The resizing handles for the component display.</li> 
+     <li>The emulator toolbar is shown at the top of the screen.</li> 
+     <li>Layout actions instead of the standard edit actions show on the component toolbar.</li> 
+    </ul> <img imageRotate="0" src="assets/screen_shot_2018-03-22at133843.png" /><p>You can now modify the layout of the component as you would in <a href="../../../sites/authoring/using/responsive-layout.md#main-pars-title">layout mode</a>.</p> </li>
+   <li><p>After making the necessary layout changes, click the <strong>Close</strong> button in the component action menu to stop modifying the layout of the component. The component's toolbar returns to its normal edit state.</p> <img imageRotate="0" src="assets/screen_shot_2018-03-22at133920.png" /></li>
+  </ol>
+  <note>
+   <p>The Layout action is limited in scope to the selected component. For example, if you are editing the layout of one component and then click on another component, the standard edit toolbar (not the layout toolbar) displays for the newly selected component and the reszing handles as well as the the emulator toolbar disappear. </p> 
+   <p>If you need to edit the overall layout of the page, affecting multiple components, switch to the <a href="../../../sites/authoring/using/responsive-layout.md">layout mode</a>.</p> 
+  </note>
+  <h2>Inherited Components</h2>
+  <p>Inherited components can be the product of various scenarios, including:<br /> </p> 
+  <ul> 
+   <li><a href="../../../sites/administering/using/msm.md">Multi site management</a></li> 
+   <li><a href="../../../sites/authoring/using/launches.md">Launches</a> (when based on live copy).</li> 
+   <li>Specific components such as the Inherited Paragraph System within Geometrixx.<br /> </li> 
+  </ul> 
+  <p>You can cancel (then re-enable) the inheritance. Depending on the component, this can be available from:</p> 
+  <ul>
+   <li> <p>The component toolbar, if the component is on a page that is part of a live copy or launch (based on a live copy). For example:</p> <img imageRotate="0" src="assets/screen_shot_2018-03-22at134339.png" /><p>The Cancel Inheritance option is available:</p> <img imageRotate="0" src="assets/screen_shot_2018-03-22at134406.png" /><p>Or re-enable inheritance if already cancelled:</p> <img imageRotate="0" src="assets/screen_shot_2018-03-22at134417.png" /><p>The Rollout action is also available in the blueprint or Live Copy source:<br /> </p> <img imageRotate="0" src="assets/screen_shot_2018-03-22at134516.png" /></li>
+   <li> <p>The configuration dialog. For example, as with the Inherited Paragraph System:</p> <img imageRotate="0" src="assets/chlimage_1-306.png" /></li>
+  </ul>
+  <h2>Editing the Page Template</h2>
+  <p>If the page is based on an <a href="../../../sites/authoring/using/templates.md#main-pars-title-1120829965">editable template</a>, you can easily switch to the <a href="../../../sites/authoring/using/templates.md#main-pars-title-1909278313">template editor</a> by selecting <strong>Edit Template</strong> in the <a href="../../../sites/authoring/using/author-environment-tools.md#main-pars-title-21">Page Information menu</a>.</p> 
+  <p>If the page is based on a <a href="../../../sites/authoring/using/templates.md#main-pars-title-1120829965">static template</a>, you can switch to <a href="../../../sites/authoring/using/default-components-designmode.md">Design mode</a> using the <a href="../../../sites/authoring/using/author-environment-tools.md#main-pars-title-20">page mode selector</a> on the toolbar to enable/disable components for use on the page.</p> 
+  <p>You can easily see which template the page is based on when selecting the page in either <a href="../../../sites/authoring/using/basic-handling.md#main-pars-title-1571169225">Column view</a> or <a href="../../../sites/authoring/using/basic-handling.md#main-pars-title-859848004">List view</a>.</p> 
+  <h2>Live Copy Status</h2>
+  <p>The <a href="../../../sites/authoring/using/author-environment-tools.md#main-pars-title-20">Live Copy Status page mode</a> allows you a quick overview of the live copy status and which components are/are not inherited:</p> 
+  <ul> 
+   <li>Green border: Inherited</li> 
+   <li>Pink border: Inheritance has been cancelled</li> 
+  </ul> 
+  <p>For example:</p> 
+  <img imageRotate="0" src="assets/screen_shot_2018-03-22at134820.png" />
+  <h2>Adding Annotations</h2>
+  <p><a href="../../../sites/authoring/using/annotations.md">Annotations</a> allow reviewers and other authors to provide feedback on your content. They are often used for review and validation purposes.</p> 
+  <h2>Previewing Pages</h2>
+  <p>There are two options for previewing a page:</p> 
+  <ul> 
+   <li><a href="#previewmode">Preview Mode</a> - a quick, in-place preview<br /> </li> 
+   <li><a href="#viewaspublished">View as Published</a> - a full preview that opens the page in a new tab</li> 
+  </ul> 
+  <note>
+   <ul> 
+    <li>Links in the content are visible, but not accessible in Edit mode. </li> 
+    <li>Use either of the preview options if you want to navigate using your links.</li> 
+    <li>Use the <a href="../../../sites/authoring/using/keyboard-shortcuts.md">keyboard shortcut</a> <span class="code">Ctrl-Shift-M</span> to switch between preview and the last selected mode.</li> 
+   </ul> 
+  </note>
+  <note>
+   <p>The WCM Mode cookie is set for both options.</p> 
+  </note>
+  <h3>Preview Mode</h3>
+  <p>When editing content you can preview the page using the preview <a href="../../../sites/authoring/using/author-environment-tools.md#main-pars-title-20">mode</a>. This mode:</p> 
+  <ul> 
+   <li>Hides various edit mechanisms to give you a quick view of how the page will appear on publish.<br /> </li> 
+   <li>Allows you to use links to navigate.</li> 
+   <li>Does <strong>not</strong> refresh the page content.</li> 
+  </ul> 
+  <p>When authoring, the preview mode is available using the icon at the top right of the page editor:</p> 
+  <img imageRotate="0" src="assets/chlimage_1-307.png" />
+  <h3>View as Published</h3>
+  <p>The <strong>View as Published</strong> option is available from the <a href="../../../sites/authoring/using/author-environment-tools.md#pageinformation">Page Information</a> menu. This opens the page in a new tab, refreshes the content and shows the page exactly as it will appear in the publish environment.</p> 
+  <h2>Locking a Page</h2>
+  <p>AEM allows you to lock a page, so that no one else can modify the contents. This is useful when you are making a lot of edits to one specific page or when you need to freeze a page for a short while.<br /> </p> 
+  <p>A page can be locked from either:</p> 
+  <ul>
+   <li><p><strong>Sites</strong> console</p> 
+    <ol> 
+     <li>Select the page with <a href="../../../sites/authoring/using/basic-handling.md#main-pars-title-14">selection mode</a>.</li> 
+     <li>Select the lock icon.</li> 
+    </ol> <img imageRotate="0" src="assets/screen_shot_2018-03-22at134928.png" /></li>
+   <li> 
+    <ol> 
+     <li>Select the <strong>Page Information</strong> icon to open the menu.</li> 
+     <li>Select the <strong>Lock Page</strong> option.</li> 
+    </ol> </li>
+  </ul>
+  <p>Once locked the console view information is updated and when editing a lock symbol is shown in the toolbar.<br /> </p> 
+  <img imageRotate="0" src="assets/screen_shot_2018-03-22at135010.png" />
+  <note>
+   <p>Locking a page can be performed when <a href="../../../sites/administering/using/security.md#main-pars-title-23">impersonating a user</a>. However a page locked in this way can only then be unlocked by the user who was impersonated or by the admin user.</p> 
+   <p>Pages can not be unlocked by impersonating the user who locked the page.</p> 
+  </note>
+  <h2>Unlocking a Page</h2>
+  <p>Unlocking a page is very similar to <a href="#lockingapage">locking the page</a>. Once the page is locked the lock options are replaced by unlock actions.</p> 
+  <p>The Page Information menu lists <strong>Unlock</strong> as an option and the Lock icon in the sites console is replaced by an <strong>Unlock</strong> icon.</p> 
+  <img imageRotate="0" src="assets/screen_shot_2018-03-22at134942.png" />
+  <note>
+   <p>Locking a page can be performed when <a href="../../../sites/administering/using/security.md#main-pars-title-23">impersonating a user</a>. However a page locked in this way can only then be unlocked by the user who was impersonated or by the admin user.</p> 
+   <p>Pages can not be unlocked by impersonating the user who locked the page.<br /> </p> 
+  </note>
+  <h2>Undoing and Redoing Page Edits</h2>
+  <p>The following icons allow you to undo or redo an action. These are shown in the toolbar when appropriate:<br /> </p> 
+  <img imageRotate="0" src="assets/screen_shot_2018-03-23at093614.png" />
+  <note>
+   <p>The <a href="../../../sites/authoring/using/page-authoring-keyboard-shortcuts.md">keyboard shortcut</a> <span class="code">Ctrl-Z</span> is also availalbe to undo page edit actions.</p> 
+   <p>The keyboard shortcut <span class="code">Ctrl-Y</span> is also availalbe to redo page edit actions.</p> 
+  </note>
+  <note>
+   <p>See <a href="#undoingandredoingpageeditsthetheory">Undoing and Redoing Page Edits - The Theory</a> for the full details of what is possible when undoing and redoing page edits.<br /> </p> 
+  </note>
+  <h2>Undoing and Redoing Page Edits - The Theory</h2>
+  <note>
+   <p>Your system administrator can <a href="../../../sites/administering/using/config-undo.md">configure various aspects of the Undo/Redo features</a> according to the requirements for your instance.<br /> </p> 
+  </note>
+  <p>AEM stores a history of actions that you perform and the sequence in which you performed them so that you can undo multiple actions in the order that you performed them as well as redo them to re-apply one or more of the actions if necessary.<br /> </p> 
+  <p>If an element on the content page is selected (such as a text component), then the undo and redo command applies to the selected item.</p> 
+  <p>The behavior of the undo and redo commands is similar to that in other software programs. Use the commands to restore the recent state of your web page as you make decisions about content. For example, if you move a text paragraph to a different location on the page, you can use the undo command to move the paragraph back. If you then decide that the previous position was better, use the redo command to "undo the undo".</p> 
+  <note>
+   <p>You can:</p> 
+   <ul> 
+    <li>Redo actions as long as you have not made a page edit since you used undo.</li> 
+    <li>Undo a maximum of 20 edit actions (default setting).</li> 
+    <li>Also use <a href="../../../sites/authoring/using/page-authoring-keyboard-shortcuts.md">Keyboard shortcuts</a> for undo and redo.</li> 
+   </ul> 
+  </note>
+  <p>You can use undo and redo for the following types of page changes:</p> 
+  <ul> 
+   <li>Adding, editing, removing, and moving paragraphs</li> 
+   <li>In-place editing of paragraph content</li> 
+   <li>Copying, cutting, and pasting items within a page</li> 
+  </ul> 
+  <p>Form fields that form components render are not meant to have values specified while authoring pages. Therefore, the undo and redo commands do not affect changes that you make to the values of those types of components. For example, you cannot undo the selecting of a value in a drop-down list.</p> 
+  <note>
+   <p>Special permissions are required to undo and redo changes to files and images.<br /> </p> 
+  </note>
+  <note>
+   <p>The history of changes to files and images lasts for a minimum of ten hours. Beyond this time however, the undo of the changes is not guaranteed. Your administrator can change the default time of ten hours.</p> 
+  </note>
+ </body>
+</html>

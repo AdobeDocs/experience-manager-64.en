@@ -1,0 +1,132 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2018-04-03T07:45:23.359-0400" name="lastPublishExternalDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="/content/help/en/experience-manager/6-4/communities/morehelp/authoring;/content/help/en/experience-manager/6-4/communities/morehelp/authoring" name="moreHelpPaths" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="Forum Feature" name="jcr:title" />
+  <meta content="2018-05-17T05:54:16.317-0400" name="cq:lastModified" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="How to add and configure the forum feature" name="seoDescription" />
+  <meta content="Forum Feature" name="navTitle" />
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES;topic_tags:authoring;content_type:reference" name="cq:tags" />
+  <meta content="2018-04-03T07:45:23.359-0400" name="topicBrowsingSortDate" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="/content/docs/en/aem/6-3/author/communities/forum" name="qaNotes" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES" name="primaryProductTag" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="msm-service" name="contentOwner" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="2017-12-01T19:02:40.037-0500" name="jcr:created" />
+  <meta content="d5869b33-5ff2-4359-ac4f-0422a1c7c61b" name="jcr:uuid" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-04-03T07:45:24.605-0400" name="cq:lastReplicated" />
+  <meta content="2018-05-17T05:54:16.316-0400" name="locHandOffDate" />
+  <meta content="Forum Feature" name="seoTitle" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="2018-04-03T07:45:23.359-0400" name="publishExternalDate" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/communities/using/forum.html" name="publishExternalURL" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2017-10-31T16:33:35.977-0400" name="firstPublishExternalDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" />
+  <meta content="b60b7da2-f85d-44e3-8bb8-567fbf2e4818" name="jcr:predecessors" />
+ </head>
+ <body>
+  <h3>Introduction</h3>
+  <p>The forum feature provides an area for signed-in site visitors (community members) in the publish environment to :</p> 
+  <ul> 
+   <li>create new topics</li> 
+   <li>view and reply to topics</li> 
+   <li>follow a topic</li> 
+   <li>search a forum</li> 
+   <li>help moderate the forum content</li> 
+   <li>move forum topics from one page to another</li> 
+  </ul> 
+  <p>This section of the documentation describes</p> 
+  <ul> 
+   <li>adding the forum feature to an AEM site</li> 
+   <li>configuration settings for the <span class="code">Forum </span>component</li> 
+  </ul> 
+  <h3>Adding a Forum to a Page</h3>
+  <p>To add a <span class="code">Forum</span> component to a page in author mode, use the component browser to locate</p> 
+  <ul> 
+   <li><span class="code">Communities / Forum</span></li> 
+  </ul> 
+  <p>and drag it into place on a page where the forum should appear.</p> 
+  <p>For necessary information, visit <a href="../../communities/using/basics.md">Communities Components Basics</a>.</p> 
+  <p>When the <a href="../../communities/using/essentials-forum.md#essentialsforclientside">required client-side libraries</a> are included, this is how the <span class="code">Forum </span>component will appear :</p> 
+  <img imageRotate="0" src="assets/chlimage_1-60.png" />
+  <h3>Configuring a Forum</h3>
+  <p>Select the placed <span class="code">Forum</span> component to access and select the <span class="code">Configure</span> icon which opens the edit dialog.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-61.png" />
+  <img imageRotate="0" src="assets/chlimage_1-62.png" />
+  <h4>Settings tab</h4>
+  <p>Under the <strong>Settings </strong>tab, specify settings for topics and replies :</p> 
+  <ul> 
+   <li><strong>Topics Per Page</strong><br /> Defines the number of topics/posts shown per page. Default is 10.</li> 
+   <li><strong>Moderated</strong><br /> If checked, posting of topics and comments must be approved before they will appear on a publish site. Default is unchecked.</li> 
+   <li><strong>Closed</strong><br /> If checked, the forum is closed to new topics and comments. Default is unchecked.</li> 
+   <li><strong>Rich Text Editor</strong><br /> If checked, topics and comments may be entered with markup. Default is unchecked.</li> 
+   <li><strong>Allow Tagging</strong><br /> If checked, allow members to add tag labels to their post (see <strong>Tag field</strong> tab). Default is unchecked.</li> 
+   <li><strong>Allow File Uploads</strong><br /> If checked, allow file attachments to be added to the topic or comment. Default is unchecked.</li> 
+   <li><strong>Allow Following</strong><br /> If checked, include the following feature for forum posts, which allows members to be <a href="../../communities/using/notifications.md">notified</a> of new posts. Default is unchecked.</li> 
+   <li><strong>Allow Pinning</strong><br /> If checked, forum topics may be pinned to the top of the list of topics. Default is unchecked.</li> 
+   <li><strong>Allow Featured Content</strong><br /> if checked, the idea is able to be identified as <a href="../../communities/using/featured.md">featured content</a>. Default is unchecked.</li> 
+   <li><strong>Allow Email Subscriptions</strong><br /> If checked, allow members to be notified of new posts by email (<a href="../../communities/using/subscriptions.md">subscription</a>). Requires <span class="code">Allow Following</span> to be checked and <a href="../../communities/using/email.md">email configured</a>. Default is unchecked.</li> 
+   <li><strong>Max File Size</strong><br /> Relevant only if <span class="code">Allow File Uploads</span> is checked. This field will limit the size (in bytes) of an uploaded file. Default is 104857600 (10 Mb).</li> 
+   <li><strong>Allowed File Types</strong><br /> Relevant only if <span class="code">Allow File Uploads</span> is checked. A comma separated list of file extensions with the "dot" separater. For example : .jpg, .jpeg, .png, .doc, .docx, .pdf. If any file types are specifed, then those not specified will not be allowed to be uploaded. Default is none specified such that<strong> </strong>all file types are allowed.</li> 
+   <li><strong>Max Attach Image File Size</strong><br /> Relevant only if Allow File Uploads is checked. Maximum number of bytes an uploaded image file may have. Default is 2097152<strong> </strong>(2 Mb).</li> 
+   <li><strong>Allow Threaded Replies</strong><br /> If checked, allow replies to comments posted to the topic. Default is unchecked.</li> 
+   <li><strong>Allow Users to Delete Comments and Topics</strong><br /> If checked, allow members to delete the comments and topics they posted. Default is unchecked.</li> 
+   <li><strong>Allow Voting</strong><br /> If checked, include the Voting feature with a topic. Default is unchecked.</li> 
+   <li><strong>Show Breadcrumbs</strong><br /> If checked, show navigational breadcrumbs on topic pages. Default is checked.</li> 
+   <li><strong>Display Badges</strong><br /> If checked, display earned and assigned <a href="../../communities/using/implementing-scoring.md">badges</a> with a member's blog entry. Default is unchecked.</li> 
+  </ul> 
+  <note>
+   <p>It may be necessary to check both <span class="code">AllowThreaded Replies</span> and <span class="code">Allow users to Delete Comments and Topics</span> to enable comments on a topic.</p> 
+  </note>
+  <h4>User Moderation tab</h4>
+  <p>Under the <strong>User Moderation </strong>tab, specify how the posted topics and replies (user generated content) are managed. For more information, see <a href="../../communities/using/moderate-ugc.md">Moderating User Generated Content</a>.</p> 
+  <ul> 
+   <li><strong>Deny Posts</strong><br /> If checked, trusted member moderators will be allowed to deny posts and prevent the post from appearing on the public forum. Default is unchecked.</li> 
+   <li><strong>Close / Reopen Topics</strong><br /> If checked, trusted member moderators may close a topic to further edits and comments, and may also reopen a topic. Default is unchecked.</li> 
+   <li><strong>Move Topics</strong><br /> If checked, allow publish-side moderators to move topics. Default is checked.</li> 
+   <li><strong>Flag Posts</strong><br /> If checked, allow members to flag others' topics or comments as inappropriate. Default is unchecked.</li> 
+   <li><strong>Flag Reason List</strong><br /> If checked, allow members to choose, from a drop-down list, their reason for flagging a topic or comment as inappropriate. Default is unchecked.</li> 
+   <li><strong>Custom Flag Reason</strong><br /> If checked, allow members to enter their own reason for flagging a topic or comment as inappropriate. Default is unchecked.</li> 
+   <li><strong>Moderation Threshold</strong><br /> Enter the number of times a topic or comment has to be flagged by members before moderators are notified. Default is 1 ( one time).</li> 
+   <li><strong>Flagging Limit</strong><br /> Enter the number of times a topic or comment has to be flagged before it is hidden from public view. If set to -1, the flagged topic or comment is never hidden from public view. Else, this number must be greater than or equal to the Moderation Threshold. Default is 5.</li> 
+  </ul> 
+  <h4>Tag field tab</h4>
+  <p>Under the <strong>Tag field</strong> tab, the tags which may be applied, if allowed under the <strong>Settings </strong>tab, are limited according to namespaces chosen.</p> 
+  <ul> 
+   <li><strong>Allowed Namespaces</strong><br /> Relevant if <span class="code">Allow Tagging</span> is checked under the <strong>Settings </strong>tab. The tags which may be applied are limited to those within the namespace categories checked. The list of namespaces includes "Standard Tags" (the default namespace) as well as "Include All Tags". Default is none checked, which means all namespaces are allowed.</li> 
+   <li><strong>Suggestion Limit</strong><br /> Enter the number of tags to be displayed as a suggestion to the member posting to the forum. Default is <strong>-</strong>1 (no limits).</li> 
+  </ul> 
+  <h4>Translation tab</h4>
+  <p>Under the <strong>Translation </strong>tab, if translation is enabled for the community site, translation may be set to translate the entire topic or selected posts.</p> 
+  <ul> 
+   <li><strong>Translate All</strong><br /> If checked, the forum thread is translated into the user's preferred language. Default is unchecked.</li> 
+  </ul> 
+  <h4>Sort Settings tab</h4>
+  <p>Under the <strong>Sort Settings </strong>tab, specify how the posted comments are sorted when displayed. </p> 
+  <ul> 
+   <li><strong>Sort By</strong><br /> Check all allowed sort selections : <span class="code">Newest, Oldest, Last Updated, Most Viewed, Most Active, Most Followed and Most Liked</span>. Default is <span class="code">Newest, Oldest, Last Updated</span>.</li> 
+   <li><strong>Set as Default</strong><br /> Pull down to select one of the checked sort options to appear as the default. Default is <span class="code">Newest</span>.</li> 
+   <li><strong>Select Time Options for Analytics Sorting</strong><br /> Pull down to select one of <span class="code">All, Last 24 Hours, Last 7 Days, Last 30 Days</span>. Default is <span class="code">All</span>.</li> 
+  </ul> 
+  <h3>Additional Information</h3>
+  <p>More information may be found on the <a href="../../communities/using/essentials-forum.md">Forum Essentials</a> page for developers.</p> 
+  <p>For moderation of posted topics and comments, see <a href="../../communities/using/moderate-ugc.md">Moderating User Generated Content</a>.</p> 
+  <p>For tagging posted topics and comments, see <a href="../../communities/using/tag-ugc.md">Tagging User Generated Content</a>.</p> 
+  <p>For translation of posted topics and comments, see <a href="../../communities/using/translate-ugc.md">Translating User Generated Content</a>.</p> 
+ </body>
+</html>

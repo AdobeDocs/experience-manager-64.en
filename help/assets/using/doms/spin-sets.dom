@@ -1,0 +1,164 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="2018-09-20T15:11:49.164-0400" name="publishExternalDate" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="Spin Sets" name="jcr:title" /> 
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/spin_sets_krs_workflow_f3c2f2ccebf6138e_171_report.xml" name="acrolinxReportURL" /> 
+  <meta content="142" name="acrolinxSentences" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS;topic_tags:dynamic-media;content_type:reference" name="cq:tags" /> 
+  <meta content="Spin Sets" name="seoTitle" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2019-01-12T17:33:40.232-0500" name="acrolinxDate" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="checked_not_improved" name="acrolinxStatus" /> 
+  <meta content="rbrough@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="/content/docs/en/aem/6-3/author/assets/dynamic-media/spin-sets" name="qaNotes" /> 
+  <meta content="/content/help/en/experience-manager/6-4/assets/morehelp/dynamic-media;/content/help/en/experience-manager/6-4/assets/morehelp/dynamic-media" name="moreHelpPaths" /> 
+  <meta content="2018-09-20T15:11:49.164-0400" name="lastPublishExternalDate" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="asgupta" name="acrolinxLastCheckedBy" /> 
+  <meta content="2018-09-20T15:11:49.504-0400" name="cq:lastReplicated" /> 
+  <meta content="Learn how to work with spin sets in dynamic media" name="seoDescription" /> 
+  <meta content="rbrough" name="cq:lastReplicatedBy" /> 
+  <meta content="7e1ecbdf-b5db-4069-956e-064de6e8bbd8" name="jcr:uuid" /> 
+  <meta content="Rick Brough" name="contentOwner" /> 
+  <meta content="Spin Sets" name="navTitle" /> 
+  <meta content="2018-09-20T15:11:49.230-0400" name="cq:lastModified" /> 
+  <meta content="3a6a8cd7-ee0f-48b6-bcd6-b263ead574a2" name="jcr:predecessors" /> 
+  <meta content="2018-09-20T15:11:49.164-0400" name="topicBrowsingSortDate" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2017-10-31T16:34:13.949-0400" name="firstPublishExternalDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/assets/using/spin-sets.html" name="publishExternalURL" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2018-04-24T11:56:00.195-0400" name="locHandOffDate" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2018-03-14T09:01:10.604-0400" name="jcr:created" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS" name="primaryProductTag" /> 
+  <meta content="yellow" name="acrolinxPageStatus" /> 
+  <meta content="rbrough" name="cq:lastModifiedBy" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="1817" name="acrolinxWords" /> 
+ </head> 
+ <body> 
+  <p>A Spin Set simulates the real-world act of turning an object to examine it. Spin Sets make it possible to view items from any angle, gaining the key visual details from any angle.</p> 
+  <p>A Spin Set simulates a 360-degree viewing experience. Dynamic Media offers single-axis Spin Sets in which viewers can rotate an item. Moreover, users can “free-form” zoom and pan any of the views with a few simple mouse-clicks. In this way, users can examine an item more closely from a particular viewpoint.</p> 
+  <p>Spin Sets are designated by a banner with the word <strong>SPINSET</strong>. In addition, if the Spin Set is published, then the publish date, indicated by the <strong>World</strong> icon is on the banner along with the last modification date, indicated by the <strong>Pencil</strong> icon displays. </p> 
+  <img imageRotate="0" src="assets/chlimage_1-381.png" /> 
+  <note> 
+   <p>For information on the Assets user interface, see <a href="../../assets/using/managing-assets-touch-ui.md">Managing assets with the Touch UI</a>.</p> 
+  </note> 
+  <h2>Quick Start: Spin Sets</h2> 
+  <p>To get you up and running quickly with Spin Sets, follow these steps:</p> 
+  <ol> 
+   <li> <p>At minimum, you need 8-12 shots of an item for a one-dimensional Spin Set and 16-24 for a two-dimensional Spin Set. The shots must be taken at regular intervals to give the impression that the item is rotating and being flipped. For example, if a one-dimensional Spin Set includes 12 shots, rotate the item 30 degrees (360/12) for each shot.</p> </li> 
+   <li> <p>To create a Spin Set, select <strong>Create </strong>&amp;gt; <strong>Spin Set</strong> and then name the set, choose the assets, and choose the order the images appear.</p> <p>See <a href="../../assets/using/working-with-selectors.md">Working with Selectors</a>.</p> 
+    <note> 
+     <p>You can also create spin sets automatically through <a href="../../assets/using/config-dms7.md#creating%20batch%20set%20presets%20to%20auto-generate%20image%20sets%20and%20spin%20sets" target="_blank">batch set presets</a>. <strong>Important:</strong> Batch sets are created by the IPS (Image Production System) as part of asset ingestion and are available only in Dynamic Media - Scene7 mode.</p> 
+    </note> </li> 
+   <li><p>Set up <a href="../../assets/using/managing-viewer-presets.md">Spin Set Viewer presets</a>, as needed.</p> <p>Administrators can create or modify Spin Set Viewer Presets. To see your spin set with a viewer preset, select the spin set, and in the left-rail drop-down menu, select <strong>Viewers</strong>.</p> <p>See <strong>Tools</strong> &amp;gt; <strong>Assets</strong> &amp;gt; <strong>Viewer Presets</strong> to create or edit viewer presets.</p> <p>See <a href="../../assets/using/managing-viewer-presets.md">Adding and editing viewer presets.</a></p> </li> 
+   <li><p><a href="#viewingspinsets">Viewing Spin Sets</a>.</p> <p>You can view and access sets created by way of batch set presets in three different ways. (Sets created using batch set presets, do <strong>not</strong> appear in the user interface.)</p> </li> 
+   <li> <p>Select the Spin Set and you can preview it. Rotate the Spin Set. You can choose different viewers from the <strong>Viewers</strong> menu, available from the left rail drop-down menu.</p> </li> 
+   <li> <p>Publishing a Spin Set activates the URL and Embed string. In addition, you must <a href="../../assets/using/managing-viewer-presets.md">publish the viewer preset</a>. </p> </li> 
+   <li><p><a href="../../assets/using/linking-urls-to-yourwebapplication.md">Link URLs to your Web Application</a> or <a href="../../assets/using/embed-code.md">Embed the Video or Image Viewer</a>. </p> <p>AEM Assets creates URL calls for Spin Sets and activates them after you publish the spin sets. You can copy these URLs when you preview assets. Alternatively you can embed them on your web site.</p> <p>Select the Spin Set, then in the left rail drop-down menu, select <strong>Viewers</strong>.</p> <p>See <a href="../../assets/using/linking-urls-to-yourwebapplication.md">Linking a Spin Set to a web page</a> and <a href="../../assets/using/embed-code.md">Embedding the Video or Image Viewer</a>.</p> </li> 
+  </ol> 
+  <p>If you need to, you can <a href="#editingspinsets">edit Spin Sets</a>. In addition, you can view and modify <a href="../../assets/using/managing-assets-touch-ui.md#editingproperties">Spin Set properties</a>.</p> 
+  <h2>Uploading Assets for Spin Sets</h2> 
+  <p>At minimum, you need 8-12 shots of an item for a one-dimensional Spin Set and 16-24 for a two-dimensional Spin Set. The shots must be taken at regular intervals to give the impression that the item is rotating and being flipped. For example, if a one-dimensional Spin Set includes 12 shots, rotate the item 30 degrees (360/12) for each shot.</p> 
+  <p>You can upload images for the Spin Sets as you would <a href="../../assets/using/managing-assets-touch-ui.md">upload any other asset in AEM Assets</a>. </p> 
+  <h3>Guidelines for shooting Spin Set images</h3> 
+  <p>The following are some best practices around spin set images. In general, the more images you have in a Spin Set, the better the image spinning effect is. However, including many images in the set also increases the amount of time it takes for the images to load. AEM recommends these guidelines for shooting images for use in Spin Sets:</p> 
+  <ul> 
+   <li><p>At minimum, use 8-12 images in a one-dimensional spin set and 16-24 images in a two-dimensional Spin Set. A minimum of 8 images is necessary to be able to turn 360 degrees. One-dimensional Spin Sets are more common as creating two-dimensional Spin Sets is labor intensive.</p> </li> 
+   <li><p>Use a lossless format; TIFF and PNG are recommended.</p> </li> 
+   <li><p>Mask all images so the item appears on a pure white or other high-contrast background. Optionally, add shadows.</p> </li> 
+   <li><p>Make sure that product details are well lighted and in focus.</p> </li> 
+   <li><p>Take spin images for fashion clothing with a mannequin or model. Often the mannequin is either completely masked (using a glass mannequin) or a stylized mannequin/dressform is shown in the image. You can create an on-model spin set by defining the number of angles. Mark each angle with tape on the floor to guide the model to step and look in the direction of each shot.</p> </li> 
+  </ul> 
+  <h2>Creating Spin Sets</h2> 
+  <p>This section describes how to create Spin Sets in AEM. </p> 
+  <note> 
+   <p>You can also create spin sets automatically through <a href="../../assets/using/config-dms7.md#creating%20batch%20set%20presets%20to%20auto-generate%20image%20sets%20and%20spin%20sets" target="_blank">batch set presets</a>. <strong>Important:</strong> Batch sets are created by the IPS (Image Production System) as part of asset ingestion and are available only in Dynamic Media - Scene7 mode.</p> 
+   <p>See "Creating batch set presets to auto-generate Image Sets and Spin Sets" in <a href="../../assets/using/config-dms7.md#creating%20batch%20set%20presets%20to%20auto-generate%20image%20sets%20and%20spin%20sets" target="_blank">Configuring Dynamic Media - Scene7 mode</a>.</p> 
+   <p> </p> 
+  </note>  
+  <note> 
+   <p>The order in which images appear in a spin set matter. Be sure to order them so that the spin is a smooth 360 degree view.</p> 
+  </note> 
+  <p><strong>To create Spin Sets:</strong></p> 
+  <ol> 
+   <li><p>In Assets, navigate to where you want to create a spin set, click <strong>Create</strong>, and select<strong> Spin Set</strong>. You can also create the set from inside a folder that contains your assets. The Spin Set Editor displays.</p> <img imageRotate="0" src="assets/chlimage_1-382.png" /></li> 
+   <li><p>In the Spin Set Editor, in the <strong>Title</strong> field, enter a name for the Spin Set. The name appears in the banner across the Spin Set. Optionally, enter a description.</p> <img imageRotate="0" src="assets/chlimage_1-383.png" /> 
+    <note> 
+     <p>When creating the spin set, you can change the spin set thumbnail or allow AEM to select the thumbnail automatically based on the assets in the spin set. To select a thumbnail, click <strong>Change thumbnail </strong>and select any image (you can navigate to other folders to find images as well). If you have selected a thumbnail and then decide that you want AEM to generate one from the spin set, select <strong>Switch to Automatic thumbnail</strong>.</p> 
+    </note></li> 
+   <li><p>Do either one of the following:</p> 
+    <ul> 
+     <li>Near the upper-left corner of the Spin Set Editor page, tap <strong>Add Asset</strong>.<br /> </li> 
+     <li>Near the middle of the Spin Set Editor page, tap <strong>Tap to open Asset Selector</strong>.</li> 
+    </ul> <p>Tap to select assets that you want to include in your Spin Set. Selected assets have a checkmark icon over them. When you are finished, near the upper-right corner of the page, tap <strong>Select</strong>.</p> <p>With the Asset Selector, you can search for assets by typing in a keyword and tapping or clicking <strong>Return</strong>. You can also apply filters to refine your search results. You can filter by path, collection, file type, and tag. Select the filter and then tap the <strong>Filter</strong> icon on the toolbar. Change the view by tapping the View icon and selecting <strong>Column View</strong>, <strong>Card View</strong>, or <strong>List View</strong>.</p> <p>See <a href="../../assets/using/working-with-selectors.md">Working with Selectors</a>.</p> <img imageRotate="0" src="assets/chlimage_1-384.png" /></li> 
+   <li><p>When you add assets to your set, they are automatically added in alphanumeric order. You can manually re-order or sort assets after you add them.</p> <p>If necessary, drag an asset's Reorder icon to the right of the asset's file name to re-order images up or down the set list.</p> <img imageRotate="0" src="assets/spin_set_assets6-4.png" /></li> 
+   <li><p>(Optional) Do any of the following:</p> 
+    <ul> 
+     <li>To delete an image, select the image and tap <strong>Delete Asset</strong>.<br /> </li> 
+     <li>To apply a preset, near the upper-right corner of the page, tap <strong>Preset</strong>, then select a preset to apply to all the assets at once.</li> 
+    </ul> </li> 
+   <li><p>Click <strong>Save</strong>. Your newly created Spin Set appears in the folder you created it in.</p> </li> 
+  </ol> 
+  <h2>Viewing Spin Sets</h2> 
+  <p>You can create spin sets either in the user interface or automatically using <a href="../../assets/using/config-dms7.md#creating%20batch%20set%20presets%20to%20auto-generate%20image%20sets%20and%20spin%20sets" target="_blank">batch set presets</a>. However, sets created using batch set presets, do <strong>not</strong> appear in the user interface. You can access sets created via batch set presets in three different ways. (These methods are available even if you created the spin sets in the user interface).</p> 
+  <note> 
+   <p>You can also view sets by way of the user interface as described in <a href="#editingspinsets">Editing Spin Sets</a>.</p> 
+  </note> 
+  <p><strong>To view Spin Sets:</strong></p> 
+  <ol> 
+   <li><p>When opening the properties of an individual asset. Properties indicate what sets the selected asset is a member of (under <strong>Member of Sets</strong>). Click the name of the set to see the entire set.</p> <img imageRotate="0" src="assets/chlimage_1-385.png" /></li> 
+   <li><p>From a member image of any set. Select the <strong>Sets</strong> menu to display the sets that the asset is a member of. </p> <img imageRotate="0" src="assets/chlimage_1-386.png" /></li> 
+   <li><p>From search, you can Select <strong>Filters</strong>, then expand <strong>Dynamic Media</strong> and select <strong>Sets</strong>.</p> <p>The search returns matching sets that were manually created in the UI or automatically created through batch set presets. For automated sets, the search query is conducted using "Starts with" search criteria which is different from AEM search which is based on using "Contains" search criteria. Setting the filter to <strong>Sets</strong> is the the only way to search automated sets.</p> <img imageRotate="0" src="assets/chlimage_1-387.png" /></li> 
+  </ol> 
+  <h2>Editing Spin Sets</h2> 
+  <p>You can perform a variety of editing tasks on Spin Sets such as the following:</p> 
+  <ul> 
+   <li>Add images to the Spin Set.</li> 
+   <li>Re-order images in the Spin Set.</li> 
+   <li>Delete assets in the Spin Set.</li> 
+   <li>Apply viewer presets.</li> 
+   <li>Delete the Spin Set.</li> 
+  </ul> 
+  <p><strong>To edit a Spin Set:</strong></p> 
+  <ol> 
+   <li><p>Do any one of the following:</p> 
+    <ul> 
+     <li>Hover over a Spin Set asset, then tap <strong>Edit</strong> (pencil icon).</li> 
+     <li>Hover over a Spin Set asset, tap <strong>Select</strong> (checkmark icon), then tap <strong>Edit</strong> on the toolbar.</li> 
+     <li>Tap on a Spin Set asset, then tap <strong>Edit</strong> (pencil icon) on the toolbar.</li> 
+    </ul> </li> 
+   <li><p>To edit the Spin Set, do any of the following:</p> 
+    <ul> 
+     <li>To reorder images, drag an image to a new location (select the reorder icon to move items).</li> 
+     <li>To sort items in ascending or descending order, click the column heading.<br /> </li> 
+     <li>To add an asset or update an existing asset, click <strong>Add Asset</strong>. Navigate to an asset, select it, then tap <strong>Select</strong> near the upper-right corner. <strong>Note</strong>: If you delete the image that AEM uses for the thumbnail by replacing it with another image, the original asset still displays. </li> 
+     <li>To delete an asset, select it and click or tap <strong>Delete Asset</strong>.</li> 
+     <li>To apply a preset, tap or click the Preset icon and select a preset.</li> 
+     <li>To delete an entire Spin Set, navigate to the Spin Set, select it, and select <strong>Delete</strong></li> 
+    </ul> 
+    <note> 
+     <ul> 
+      <li>You can edit the images in a Spin Set by navigating to the set, tap <strong>Set Members</strong> in the left rail, and then tap the Pencil icon on an individual asset to open the editing window.</li> 
+     </ul> 
+    </note></li> 
+   <li><p>Click <strong>Save</strong> when done editing.</p> </li> 
+  </ol> 
+  <h2>Previewing Spin Sets</h2> 
+  <p>See <a href="../../assets/using/previewing-assets.md">Previewing Assets</a>.</p> 
+  <h2>Publishing Spin Sets</h2> 
+  <p>See <a href="../../assets/using/publishing-dynamicmedia-assets.md">Publishing Assets</a>.</p> 
+ </body> 
+</html>

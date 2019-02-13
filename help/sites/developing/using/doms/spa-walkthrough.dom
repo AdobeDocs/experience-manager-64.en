@@ -1,0 +1,146 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:spa;content_type:reference" name="cq:tags" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="bohnert" name="contentOwner" /> 
+  <meta content="This article introduces the concepts of a SPA and walks through using a basic SPA application for authoring, showing how it relates to the underlying AEM SPA Editor." name="seoDescription" /> 
+  <meta content="d3dab551-332c-4a5c-981d-e10654d2f7a4" name="jcr:uuid" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/morehelp/spa;/content/help/en/experience-manager/6-4/sites/developing/morehelp/spa" name="moreHelpPaths" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="e7b4ba38-31ee-4c6a-ad12-e110ffdeda31" name="jcr:predecessors" /> 
+  <meta content="2018-12-11T04:52:35.507-0500" name="publishExternalDate" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/spa-walkthrough.html" name="publishExternalURL" /> 
+  <meta content="bohnert" name="cq:lastModifiedBy" /> 
+  <meta content="audience:developing" name="primaryAudienceTag" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="bohnert@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2018-06-08T07:29:09.734-0400" name="jcr:created" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2019-01-17T03:27:44.741-0500" name="cq:lastReplicated" /> 
+  <meta content="2018-12-11T04:52:35.507-0500" name="topicBrowsingSortDate" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2018-06-29T13:38:17.771-0400" name="firstPublishExternalDate" /> 
+  <meta content="en" name="pageCreatedAt" /> 
+  <meta content="2018-12-11T04:52:35.507-0500" name="lastPublishExternalDate" /> 
+  <meta content="bohnert" name="cq:lastReplicatedBy" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="SPA Introduction and Walkthrough" name="jcr:title" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2019-01-17T03:27:24.754-0500" name="cq:lastModified" /> 
+ </head> 
+ <body> 
+  <p>Single page applications (SPAs) can offer compelling experiences for website users. Developers want to be able to build sites using SPA frameworks and authors want to seamlessly edit content within AEM for a site built using such frameworks.</p> 
+  <p>The SPA Editor offers a comprehensive solution for supporting SPAs within AEM. This article walks through using a basic SPA application for authoring and shows how it relates to the underlying AEM SPA Editor.</p> 
+  <h2>Introduction</h2> 
+  <h3>Article Objective</h3> 
+  <p>This article introduces the basic concepts of SPAs before leading the reader through a walkthrough of the SPA editor by using a simple SPA application to demonstrate basic content editing. It then dives down into the construction of the page and how the SPA application relates to and interacts with the AEM SPA Editor.</p> 
+  <p>The goal of this introduction and walkthrough is to demonstrate to an AEM developer why SPAs are relevant, how they generally work, how a SPA is handled by the AEM SPA Editor, and how it is different from a standard AEM application.</p> 
+  <p>The walkthrough is based on standard AEM functionality and the sample We.Retail Journal app. The following requirements must be met:</p> 
+  <ul> 
+   <li><a href="../../../release-notes/sp-release-notes.md">AEM version 6.4 with service pack 2 or newer<br /> </a></li> 
+   <li><a href="https://github.com/Adobe-Marketing-Cloud/aem-sample-we-retail-journal">Install the sample We.Retail Journal app available on GitHub here.</a></li> 
+  </ul> 
+  <h3>What is a SPA?</h3> 
+  <p>A single-page application (SPA) differs from a conventional page in that it is rendered client-side and is primarily Javascript-driven, relying on Ajax calls to load data and dynamically update the page. Most or all content is retrieved once in a single page load with additional resources loaded asynchronously as needed based on user interaction with the page.</p> 
+  <p>This reduces the need for page refreshes and presents an experience to the user that is seamless, fast, and feels more like a native app experience. </p> 
+  <p>The AEM SPA Editor allows front-end developers to create SPAs that can be integrated into an AEM site, allowing the content authors to edit the SPA content as easily as any other AEM content.</p> 
+  <h3>Why a SPA?</h3> 
+  <p>By being faster, fluid, and more like a native application, a SPA becomes a very attractive experience not only for the visitor of the webpage, but also for marketers and developers due to the nature of how SPAs work.<br /> </p> 
+  <img imageRotate="0" src="assets/screen_shot_2018-08-20at135550.png" /> 
+  <p><strong>Visitors</strong></p> 
+  <ul> 
+   <li>Visitors want native-like experiences when they interact with content.</li> 
+   <li>There is clear data that the faster a page, the more likely a conversion will occur.</li> 
+  </ul> 
+  <p><strong>Marketers</strong></p> 
+  <ul> 
+   <li>Marketers want to offer rich, native-like experiences to entice visitors to fully engage with content.</li> 
+   <li>Personalization can make these experiences even more compelling.</li> 
+  </ul> 
+  <p><strong>Developers</strong></p> 
+  <ul> 
+   <li>Developers want a clean separation of concerns between content and presentation.</li> 
+   <li>Clean separation makes the system more extensible as well as allow for independent front-end development.<br /> </li> 
+  </ul> 
+  <h3>How Does a SPA Work?</h3> 
+  <p>The primary idea behind a SPA is that calls and dependency on a server are reduced in order to minimize delays caused by server calls so that the SPA approaches the responsiveness of a native application.</p> 
+  <p>In a traditional, sequential webpage, only the data needed for the immediate page is loaded. This means that when the visitor moves to another page, the server is called for the additional resources. Additinoal calls might be necessary as the visitor interacts with elements on the page. These multiple calls can give a sense of lag or delay as the page has to catch up with the visitor's requests.<br /> </p> 
+  <img imageRotate="0" src="assets/screen_shot_2018-08-20at140449.png" /> 
+  <p>For a more fluid experience, that approaches what a visitor expects from mobile, native apps, a SPA loads all necessary data for the visitor on the first load. Although this might take a bit longer at first, it then eliminates the need for additional server calls.</p> 
+  <p>By rendering on the client side, page element react faster, and interactions with the page by the visitor are immediate. Any additional data that might be needed is called asynchronously to maximize the speed of the page.<br /> </p> 
+  <note> 
+   <p>For technical details on how SPAs work in AEM, see the article <a href="../../../sites/developing/using/spa-getting-started-react.md">Getting Started with SPAs in AEM</a>.</p> 
+   <p>For a closer look at the design, architecture, and technical workflow of the SPA Editor, see the article <a href="../../../sites/developing/using/spa-overview.md">SPA Editor Overview</a>.<br /> </p> 
+  </note> 
+  <h2>Content Editing Experience with SPA</h2> 
+  <p>When an SPA is built to leverage the AEM SPA Editor, the content author notices no difference when editing and creating content. Common AEM functionality is available and no changes to the author's workflow is required.</p> 
+  <note> 
+   <p>The walkthrough is based on standard AEM functionality and the sample We.Retail Journal app. The following requirements must be met:</p> 
+   <ul> 
+    <li><a href="../../../release-notes/sp-release-notes.md">AEM version 6.4 with service pack 2</a></li> 
+    <li><a href="https://github.com/Adobe-Marketing-Cloud/aem-sample-we-retail-journal">Install the sample We.Retail Journal app available on GitHub here.</a></li> 
+   </ul> 
+  </note> 
+  <ol> 
+   <li><p>Edit the We.Retail Journal app in AEM.</p>  <img imageRotate="0" src="assets/screen_shot_2018-06-07at142533.png" /></li> 
+   <li><p>Select a heading component and notice that a toolbar appears like for any other component. Select <strong>Edit</strong>.</p> <img imageRotate="0" src="assets/screen_shot_2018-06-07at142937.png" /></li> 
+   <li><p>Edit the content as normal within AEM and note that the changes are persisted.</p> <img imageRotate="0" src="assets/screen_shot_2018-06-07at143419.png" /></li> 
+   <li><p>Use the Assets Browser to drag-and-drop a new image into an image component.</p> <img imageRotate="0" src="assets/screen_shot_2018-06-07at143530.png" /></li> 
+   <li><p>The change is persisted.</p> <img imageRotate="0" src="assets/screen_shot_2018-06-07at143732.png" /></li> 
+  </ol> 
+  <p>Additional authoring tools such as dragging-and-dropping additional components on the page, rearranging components, and modifying the layout are supported as in any non-SPA application.</p> 
+  <note> 
+   <p>The SPA Editor does not modify the DOM of the application. The SPA itself is responsible for the DOM.</p> 
+   <p>To see how this works, continue on to the next section of this article <a href="../../../sites/developing/using/spa-walkthrough.md#main-pars-header-1713058108">SPA Apps and the AEM SPA Editor</a>.<br /> </p> 
+  </note> 
+  <h2>SPA Apps and the AEM SPA Editor</h2> 
+  <p>Experiencing how an SPA behaves for the end user and then inspecting the SPA page helps to better understand how an SAP app works with the SPA Editor in AEM.</p> 
+  <h3>Using an SPA Application</h3> 
+  <ol> 
+   <li><p>Load the We.Retail Journal application either on the publish server or using the option <strong>View as Published</strong> from the <strong>Page Information</strong> menu in the page editor.</p>  <img imageRotate="0" src="assets/screen_shot_2018-06-08at102650.png" /><p>Note the pages structure including navigation to child pages, weather widget, and articles.</p> </li> 
+   <li><p>Navigate to a child page using the menu and see that the page loads immediately without the need for a refresh.</p> <img imageRotate="0" src="assets/screen_shot_2018-06-08at102815.png" /></li> 
+   <li><p>Open your browser's built-in developer tools and monitor network activity as you navigate the child pages.</p> <img imageRotate="0" src="assets/screen_shot_2018-06-08at103922.png" /><p>There is very little traffic as you move from page to page in the app. The page is not reloaded and only the new images are requested.</p> <p>The SPA manages the content and routing entirely on the client side.</p> </li> 
+  </ol> 
+  <p>So if the page is not reloaded when navigating through the child pages, how is it loaded? </p> 
+  <p>The next section, <a href="../../../sites/developing/using/spa-walkthrough.md#main-pars-header-215577676">Loading an SPA Application</a>, digs deeper into the mechanics of loading the SPA and how content can be loaded synchronously and asynchronously.</p> 
+  <h3>Loading an SPA Application</h3> 
+  <ol> 
+   <li><p>If not already loaded, load the We.Retail Journal application either on the publish server or using the option <strong>View as Published</strong> from the <strong>Page Information</strong> menu in the page editor.</p>  <img imageRotate="0" src="assets/screen_shot_2018-06-07at144736.png" /></li> 
+   <li><p>Use the built-in tool of your browser to view the source of the page.</p> </li> 
+   <li><p>Note that the content of the source is extremely limited.</p> 
+    <codeblock gutter="true" class="syntax js">
+      &lt;!DOCTYPE&amp;nbsp;HTML&gt;!!discoiqbr!!&lt;html&amp;nbsp;lang="en-CH"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;head&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;meta&amp;nbsp;charset="UTF-8"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;title&gt;We.Retail&amp;nbsp;Journal&lt;/title&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;meta&amp;nbsp;name="template"&amp;nbsp;content="we-retail-react-template"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&lt;link&amp;nbsp;rel="stylesheet"&amp;nbsp;href="/etc.clientlibs/we-retail-journal/react/clientlibs/we-retail-journal-react.css"&amp;nbsp;type="text/css"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&lt;link&amp;nbsp;rel="stylesheet"&amp;nbsp;href="/libs/wcm/foundation/components/page/responsive.css"&amp;nbsp;type="text/css"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&lt;/head&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;body&amp;nbsp;class="page&amp;nbsp;basicpage"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&lt;div&amp;nbsp;id="page"&gt;&lt;/div&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&lt;script&amp;nbsp;type="text/javascript"&amp;nbsp;src="/etc.clientlibs/we-retail-journal/react/clientlibs/we-retail-journal-react.js"&gt;&lt;/script&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/body&gt;!!discoiqbr!!&lt;/html&gt; 
+    </codeblock><p>The page does not have any content within its body. It is primarily made up of stylesheets and a call to a React script, <span class="code">we-retail-journal-react.js</span>.</p> <p>This React script is the primary driver of this application and is responsible for rendering all content.</p> </li> 
+   <li><p>Use your browser's built-in tools to inspect the page. See the content of the DOM fully loaded.</p> <img imageRotate="0" src="assets/screen_shot_2018-06-07at151848.png" /></li> 
+   <li><p>Switch to the Network tab in the Inspector and reload the page. </p> <p>Ignoring image requests, note that the primary resources loaded for the page are the page itself, CSS, the React Javascript, its dependencies, as well as JSON data for the page.</p> <img imageRotate="0" src="assets/screen_shot_2018-06-07at152155.png" /></li> 
+   <li><p>Load the <span class="code">react.model.json</span> in a new tab.</p>  <img imageRotate="0" src="assets/screen_shot_2018-06-07at152636.png" /><p>The AEM SPA Editor leverages <a href="../../../assets/using/content-fragments.md">AEM Content Services</a> to deliver the entire content of the page as a JSON model.</p> <p>By implementing specific interfaces, Sling Models provide the information necessary to the SPA. The delivery of the JSON data is delegated downward to each component (from page, to paragraph, to component, etc.).</p> <p>Each component chooses what it exposes and how it is rendered (server-side with HTL or client-side with React). Of course this article focuses on client-side rendering with React.</p> </li> 
+   <li><p>The model can also group pages together so that they are loaded synchronously, reducing the number of page reloads needed.</p> <p>In the example of We.Retail Journal, the <span class="code">home</span>, <span class="code">blog</span>, and <span class="code">aboutus</span> pages are loaded synchronously, since visitors commonly visit all of those pages. However the <span class="code">weather</span> page is loaded asynchronously, since visitors are less likely to visit it.</p> <p>This behavior is not mandatory and is fully definable.</p> <img imageRotate="0" src="assets/screen_shot_2018-06-07at153945.png" /></li> 
+   <li><p>To view this difference in behavior, reload the page and clear the network activity of the inspector. Navigate to the blog and about us pages in the page menu and see that there is no network activity reported.</p> <p>Navigate to the weather page and see that the <span class="code">weather.model.json</span> is called asynchronously.</p> <img imageRotate="0" src="assets/screen_shot_2018-06-07at155738.png" /></li> 
+  </ol> 
+  <h3>Interaction with the SPA Editor</h3> 
+  <p>Using the sample We.Retail Journal application, it is clear how the app behaves and is loaded when published, leveraging content services for JSON content delivery as well as asynchronous loading of resources.</p> 
+  <p>Additionally, for the content author, content creation using a SPA editor is seamless within AEM.</p> 
+  <p>In the following section we will explore the contract that allows the SPA Editor to relate components within the SPA to AEM components and achieve this seamless editing experience.</p> 
+  <ol> 
+   <li><p>Load the We.Retail Journal application in the editor and switch to <strong>Preview</strong> mode.</p>  </li> 
+   <li><p>Using your browser's built-in developer tools, inspect the content of the page. Using the selection tool, select an editable component on the page and view the element detail.</p> <p>Note that the component has a new data attribute <span class="code">data-cq-data-path</span>.</p> <img imageRotate="0" src="assets/screen_shot_2018-06-08at095124.png" /><p>For example </p>  <p>This paths allows the retrieval and association of the edit context configuration object of each component.<br /> <br /> This is the only markup attribute required for the editor to recognize this as an editable component within the SPA. Based on this attribute, the SPA Editor will determine which editable configuration is associated with the component, so that the correct frame, toolbar, etc. is loaded.</p> <p>Some specific class names are also added for marking placeholders and for asset drag-and-drop functionality.</p>  
+    <note> 
+     <p>This is a change in behavior from server-side rendered pages in AEM, where there is a <span class="code">cq</span> element inserted for each editable component.</p> 
+     <p>This approach in SPA removes the need to inject custom elements, relying only an additional data attribute, making the markup simpler for the frontend developer.</p> 
+    </note></li> 
+  </ol> 
+  <h2>Next Steps</h2> 
+  <p>Now that you understand the SPA editing experience in AEM and how a SPA relates to the SPA Editor, take a deeper dive into understanding how a SPA is built.</p> 
+  <ul> 
+   <li><a href="../../../sites/developing/using/spa-getting-started-react.md">Getting Started with SPAs in AEM</a> shows how a basic SPA is built to work with the SPA Editor in AEM</li> 
+   <li><a href="../../../sites/developing/using/spa-overview.md">SPA Editor Overview</a> goes into more depth into the communication model between AEM and the SPA.</li> 
+   <li><a href="../../../sites/developing/using/spa-architecture.md">Developing SPAs for AEM</a> describes how to engage front-end developers to develop a SPA for AEM as well as how SPAs interact with AEM's architecture.<br /> </li> 
+  </ul> 
+ </body> 
+</html>

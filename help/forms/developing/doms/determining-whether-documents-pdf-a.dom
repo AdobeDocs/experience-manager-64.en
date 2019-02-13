@@ -1,0 +1,224 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2017-10-03T06:52:15.687-0400" name="publishExternalDate" /> 
+  <meta content="admin" name="contentOwner" /> 
+  <meta content="2017-08-09T03:29:00.000-0400" name="topicBrowsingSortDate" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2018-04-03T08:31:32.866-0400" name="cq:lastReplicated" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2017-11-21T06:59:31.931-0500" name="cq:lastModified" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7f95.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12-f9ae1bb1336a357064-8000.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-73b3.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-73b2.2" name="cq:gepId" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="admin" name="lr_lastModifiedBy" /> 
+  <meta content="Determining Whether Documents Are PDF/A-&amp;#xA;Compliant Determining Whether Documents Are PDF/A-&amp;#xA;Compliant" name="navTitle" /> 
+  <meta content="Determining Whether Documents Are PDF/A-Compliant" name="jcr:title" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="khsingh@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="6d5245fb-b3d3-475e-8d32-74182168f8e0" name="jcr:predecessors" /> 
+  <meta content="https://helpx.adobe.com/aem-forms/6-3/developing/determining-whether-documents-pdf-a.html" name="publishExternalURL" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="2017-08-09T03:29:42.206-0400" name="lr_lastModified" /> 
+  <meta content="2017-10-03T06:52:15.687-0400" name="firstPublishExternalDate" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="2017-10-03T06:52:15.687-0400" name="lastPublishExternalDate" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="admin" name="lr_creator" /> 
+  <meta content="2017-11-22T19:07:40.268-0500" name="jcr:created" /> 
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/assembling_pdf_documents;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:operations" name="cq:tags" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="audience:developing" name="primaryAudienceTag" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="a0d2877a-89e9-4b2a-87d5-5318d0a2fb3b" name="jcr:uuid" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2017-08-09T03:29:00.000-0400" name="sortDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+ </head> 
+ <body> 
+  <p>You can determine whether a PDF document is PDF/A-compliant by using the Assembler service. A PDF/A document exists as an archival format meant for long-term preservation of the document’s content. The fonts are embedded within the document, and the file is uncompressed. As a result, a PDF/A document is typically larger than a standard PDF document. Also, a PDF/A document does not contain audio and video content.</p> 
+  <p>The PDF/A-1 specification consists of two levels of conformance, namely A and B. The major difference between the two levels is the logical structure (accessibility) support, which is not required for conformance level B. Regardless of the conformance level, PDF/A-1 dictates that all fonts are embedded within the generated PDF/A document. At this time, only PDF/A-1b is supported in validation (and conversion). </p> 
+  <p>For the purpose of this discussion, assume that the following DDX document is used.</p> 
+  <codeblock gutter="true" class="syntax as3">
+     &lt;?xml&amp;nbsp;version="1.0"&amp;nbsp;encoding="UTF-8"?&gt;&amp;nbsp;!!discoiqbr!! &lt;DDX&amp;nbsp;xmlns="http://ns.adobe.com/DDX/1.0/"&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;DocumentInformation&amp;nbsp;source="Loan.pdf"&amp;nbsp;result="Loan_result.xml"&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;PDFAValidation&amp;nbsp;compliance="PDF/A-1b"&amp;nbsp;resultLevel="Detailed"&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;ignoreUnusedResources="true"&amp;nbsp;allowCertificationSignatures="true"&amp;nbsp;/&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/DocumentInformation&gt;&amp;nbsp;!!discoiqbr!! &lt;/DDX&gt; 
+  </codeblock> 
+  <p>Within this DDX document, the <span class="code">DocumentInformation</span> element instructs the Assembler service to return information about the input PDF document. Within the <span class="code">DocumentInformation</span> element, the <span class="code">PDFAValidation</span> element instructs the Assembler service to indicate whether the input PDF document is PDF/A-compliant.</p> 
+  <p>The Assembler service returns information that specifies whether the input PDF document is PDF/A-compliant within an XML document that contains a <span class="code">PDFAConformance</span> element. If the input PDF document is PDF/A-compliant, the value of the <span class="code">PDFAConformance</span> element’s <span class="code">isCompliant</span> attribute is <span class="code">true</span>. If the PDF document is not PDF/A-compliant, the value of the <span class="code">PDFAConformance</span> element’s <span class="code">isCompliant</span> attribute is <span class="code">false</span>. </p> 
+  <note> 
+   <p>Because the DDX document specified in this section contains a <span class="code">DocumentInformation</span> element, the Assembler service returns XML data instead of a PDF document. That is, the Assembler service does not assemble or disassemble a PDF document; it returns information about the input PDF document within an XML document. </p> 
+  </note> 
+  <note> 
+   <p>For more information about the Assembler service, see <a href="http://www.adobe.com/go/learn_aemforms_services_63">Services Reference for AEM Forms</a>.</p> 
+  </note> 
+  <note> 
+   <p>For more information about a DDX document, see <a href="http://www.adobe.com/go/learn_aemforms_ddx_63">Assembler Service and DDX Reference</a>. </p> 
+  </note> 
+  <h2 id="summary_of_steps">Summary of steps</h2> 
+  <p></p> 
+  <p>To determine whether a PDF document is PDF/A-compliant, perform the following tasks: </p> 
+  <ol> 
+   <li><p>Include project files.</p></li> 
+   <li><p>Create a PDF Assembler client.</p></li> 
+   <li><p>Reference an existing DDX document.</p></li> 
+   <li><p>Reference a PDF document used to determine PDF/A compliancy.</p></li> 
+   <li><p>Set run-time options.</p></li> 
+   <li><p>Retrieve information about the PDF document. </p></li> 
+   <li><p>Save the returned XML document.</p></li> 
+  </ol> 
+  <p><strong>Include project files</strong></p> 
+  <p>Include the necessary files in your development project. If you are creating a client application by using Java, include the necessary JAR files. If you are using web services, ensure that you include the proxy files.</p> 
+  <p>The following JAR files must be added to your project’s class path:</p> 
+  <ul> 
+   <li><p>adobe-livecycle-client.jar</p></li> 
+   <li><p>adobe-usermanager-client.jar</p></li> 
+   <li><p>adobe-assembler-client.jar</p></li> 
+   <li><p>adobe-utilities.jar (required if AEM Forms is deployed on JBoss) </p></li> 
+   <li><p>jbossall-client.jar (required if AEM Forms is deployed on JBoss)</p></li> 
+  </ul> 
+  <p>if AEM Forms is deployed on a supported J2EE application server other than JBoss, you must replace the adobe-utilities.jar and jbossall-client.jar files with JAR files that are specific to the J2EE application server that AEM Forms is deployed on. For information about the location of all AEM Forms JAR files, see <a href="#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2">Including AEM Forms Java library files</a>.</p> 
+  <p><strong>Create a PDF Assembler client</strong></p> 
+  <p>Before you can programmatically perform an Assembler operation, you must create an Assembler service client. </p> 
+  <p><strong>Reference an existing DDX document</strong></p> 
+  <p>A DDX document must be referenced to perform an Assembler service operation. To determine whether an input PDF document is PDF/A-compliant, ensure that the DDX document contains the <span class="code">PDFAValidation</span> element within a <span class="code">DocumentInformation</span> element. The <span class="code">PDFAValidation</span> element instructs the Assembler service to return an XML document that specifies whether the input PDF document is PDF/A-compliant. </p> 
+  <p><strong>Reference a PDF document used to determine PDF/A compliancy</strong></p> 
+  <p>A PDF document must be referenced and passed to the Assembler service to determine whether the PDF document is PDF/A-compliant.</p> 
+  <p><strong>Set run-time options</strong></p> 
+  <p>You can set run-time options that control the behaviour of the Assembler service while it performs a job. For example, you can set an option that instructs the Assembler service to continue processing a job if an error is encountered. For information about the run-time options that you can set, see the <span class="code">AssemblerOptionSpec</span> class reference in <a href="http://www.adobe.com/go/learn_aemforms_javadocs_63_en">AEM Forms API Reference</a>.</p> 
+  <p><strong>Retrieve information about the PDF document</strong></p> 
+  <p>After you create the Assembler service client, reference the DDX document, reference an interactive PDF document, and set run-time options, you can invoke the <span class="code">invokeDDX</span> operation. Because the DDX document contains the <span class="code">DocumentInformation</span> element, the Assembler service returns XML data instead of a PDF document.</p> 
+  <p><strong>Save the returned XML document</strong></p> 
+  <p>The XML document that the Assembler service returns specifies whether the input PDF document is PDF/A-compliant. For example, if the input PDF document is not PDF/A-compliant, the Assembler service returns an XML document that contains the following element:</p> 
+  <codeblock gutter="true" class="syntax as3">
+     &lt;PDFAConformance&amp;nbsp;isCompliant="false"&amp;nbsp;compliance="PDF/A-1b"&amp;nbsp;resultLevel="Detailed"&amp;nbsp;ignoreUnusedResources="true"&amp;nbsp;allowCertificationSignatures="true"&gt; 
+  </codeblock> 
+  <p>Save the XML document as an XML file so that you can open the file and view the results. </p> 
+  <p><strong>See also</strong></p> 
+  <p><a href="/programming-with-aem-forms/determining-whether-documents-pdf-a determining-whether-documents-pdf-a#determine_whether_a_document_is_pdf_a_compliant_using_the_java_api">Determine whether a document is PDF/A compliant using the Java API</a></p> 
+  <p><a href="/programming-with-aem-forms/determining-whether-documents-pdf-a determining-whether-documents-pdf-a#determine_whether_a_document_is_pdf_a_compliant_using_the_web_service_api">Determine whether a document is PDF/A compliant using the web service API</a></p> 
+  <p><a href="#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2">Including AEM Forms Java library files</a></p> 
+  <p><a href="#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2">Setting connection properties</a></p> 
+  <p><a href="/programming-with-aem-forms/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically#programmatically_assembling_pdf_documents">Programmatically Assembling PDF Documents</a></p> 
+  <h2 id="determine_whether_a_document_is_pdf_a_compliant_using_the_java_api">Determine whether a document is PDF/A compliant using the Java API</h2> 
+  <p></p> 
+  <p>Determine whether a PDF document is PDF/A-compliant by using the Assembler Service API (Java):</p> 
+  <ol> 
+   <li><p>Include project files. </p><p>Include client JAR files, such as adobe-assembler-client.jar, in your Java project’s class path.</p></li> 
+   <li><p>Create a PDF Assembler client. </p> 
+    <ul> 
+     <li><p>Create a <span class="code">ServiceClientFactory</span> object that contains connection properties.</p></li> 
+     <li><p>Create an <span class="code">AssemblerServiceClient</span> object by using its constructor and passing the <span class="code">ServiceClientFactory</span> object. </p></li> 
+    </ul></li> 
+   <li><p>Reference an existing DDX document. </p> 
+    <ul> 
+     <li><p>Create a <span class="code">java.io.FileInputStream</span> object that represents the DDX document by using its constructor and passing a string value that specifies the location of the DDX file. To determine whether the PDF document is PDF/A-compliant, ensure that the DDX document contains the <span class="code">PDFAValidation</span> element that is contained within a <span class="code">DocumentInformation</span> element.</p></li> 
+     <li><p>Create a <span class="code">com.adobe.idp.Document</span> object by using its constructor and passing the <span class="code">java.io.FileInputStream</span> object.</p></li> 
+    </ul></li> 
+   <li><p>Reference a PDF document used to determine PDF/A compliancy. </p> 
+    <ul> 
+     <li><p>Create a <span class="code">java.io.FileInputStream</span> object by using its constructor and passing the location of a PDF document that is used to determine PDF/A compliancy.</p></li> 
+     <li><p>Create a <span class="code">com.adobe.idp.Document</span> object by using its constructor and passing the <span class="code">java.io.FileInputStream</span> object that contains the PDF document.</p></li> 
+     <li><p>Create a <span class="code">java.util.Map</span> object that is used to store the input PDF document by using a <span class="code">HashMap</span> constructor.</p></li> 
+     <li><p>Add an entry to the <span class="code">java.util.Map</span> object by invoking its <span class="code">put</span> method and passing the following arguments:</p> 
+      <ul> 
+       <li><p>A string value that represents the key name. This value must match the value of the source element specified in the DDX document. For example, the value of the source element located in the DDX document that is introduced in this section is Loan.pdf.</p></li> 
+       <li><p>A <span class="code">com.adobe.idp.Document</span> object that contains the input PDF document. </p></li> 
+      </ul></li> 
+    </ul></li> 
+   <li><p>Set run-time options. </p> 
+    <ul> 
+     <li><p>Create an <span class="code">AssemblerOptionSpec</span> object that stores run-time options by using its constructor.</p></li> 
+     <li><p>Set run-time options to meet your business requirements by invoking a method that belongs to the <span class="code">AssemblerOptionSpec</span> object. For example, to instruct the Assembler service to continue processing a job when an error occurs, invoke the <span class="code">AssemblerOptionSpec</span> object’s <span class="code">setFailOnError</span> method and pass <span class="code">false</span>. </p></li> 
+    </ul></li> 
+   <li><p>Retrieve information about the PDF document. </p><p>Invoke the <span class="code">AssemblerServiceClient</span> object’s <span class="code">invokeDDX</span> method and pass the following required values:</p> 
+    <ul> 
+     <li><p>A <span class="code">com.adobe.idp.Document</span> object that represents the DDX document to use</p></li> 
+     <li><p>A <span class="code">java.util.Map</span> object that contains the input PDF file that is used to determine PDF/A compliancy</p></li> 
+     <li><p>A <span class="code">com.adobe.livecycle.assembler.client.AssemblerOptionSpec</span> object that specifies the run-time options</p></li> 
+    </ul><p>The <span class="code">invokeDDX</span> method returns a <span class="code">com.adobe.livecycle.assembler.client.AssemblerResult</span> object that contains XML data that specifies whether the input PDF document is PDF/A-compliant.</p></li> 
+   <li><p>Save the returned XML document. </p><p>To obtain XML data that specifies whether the input PDF document is a PDF/A document, perform the following actions:</p> 
+    <ul> 
+     <li><p>Invoke the <span class="code">AssemblerResult</span> object’s <span class="code">getDocuments</span> method. This returns a <span class="code">java.util.Map</span> object.</p></li> 
+     <li><p>Iterate through the <span class="code">java.util.Map</span> object until you find the resultant <span class="code">com.adobe.idp.Document</span> object.</p></li> 
+     <li><p>Invoke the <span class="code">com.adobe.idp.Document</span> object’s <span class="code">copyToFile</span> method to extract the XML document. Ensure that you save the XML data as an XML file.</p></li> 
+    </ul></li> 
+  </ol> 
+  <p><strong>See also</strong></p> 
+  <p><a href="/programming-with-aem-forms/determining-whether-documents-pdf-a determining-whether-documents-pdf-a#determining_whether_documents_are_pdf_a_compliant">Determining Whether Documents Are PDF/A- Compliant</a></p> 
+  <p><a href="#unresolvedlink-lc-qs-assembler-as.xml#ws624e3cba99b79e12e69a9941333732bac8-7f7f.2">Quick Start (SOAP mode): Determining whether a document is PDF/A compliant using the Java API</a> (SOAP mode)</p> 
+  <p><a href="#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2">Including AEM Forms Java library files</a></p> 
+  <p><a href="#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2">Setting connection properties</a></p> 
+  <h2 id="determine_whether_a_document_is_pdf_a_compliant_using_the_web_service_api">Determine whether a document is PDF/A compliant using the web service API</h2> 
+  <p></p> 
+  <p>Determine whether a PDF document is PDF/A-compliant by using the Assembler Service API (web service):</p> 
+  <ol> 
+   <li><p>Include project files. </p><p>Create a Microsoft .NET project that uses MTOM. Ensure that you use the following WSDL definition: <span class="code">http://localhost:8080/soap/services/AssemblerService?WSDL&amp;lc_version=9.0.1</span>. </p> 
+    <note> 
+     <p>Replace <span class="code">localhost</span> with the IP address of the server hosting AEM Forms.</p> 
+    </note></li> 
+   <li><p>Create a PDF Assembler client. </p> 
+    <ul> 
+     <li><p>Create an <span class="code">AssemblerServiceClient</span> object by using its default constructor. </p></li> 
+     <li><p>Create an <span class="code">AssemblerServiceClient.Endpoint.Address</span> object by using the <span class="code">System.ServiceModel.EndpointAddress</span> constructor. Pass a string value that specifies the WSDL to the AEM Forms service (for example, <span class="code">http://localhost:8080/soap/services/AssemblerService?blob=mtom</span>). You do not need to use the <span class="code">lc_version</span> attribute. This attribute is used when you create a service reference.) </p></li> 
+     <li><p>Create a <span class="code">System.ServiceModel.BasicHttpBinding</span> object by getting the value of the <span class="code">AssemblerServiceClient.Endpoint.Binding</span> field. Cast the return value to <span class="code">BasicHttpBinding</span>. </p></li> 
+     <li><p>Set the <span class="code">System.ServiceModel.BasicHttpBinding</span> object’s <span class="code">MessageEncoding</span> field to <span class="code">WSMessageEncoding.Mtom</span>. This value ensures that MTOM is used. </p></li> 
+     <li><p>Enable basic HTTP authentication by performing the following tasks:</p> 
+      <ul> 
+       <li><p>Assign the AEM forms user name to the field <span class="code">AssemblerServiceClient.ClientCredentials.UserName.UserName</span>.</p></li> 
+       <li><p>Assign the corresponding password value to the field <span class="code">AssemblerServiceClient.ClientCredentials.UserName.Password</span>.</p></li> 
+       <li><p>Assign the constant value <span class="code">HttpClientCredentialType.Basic</span> to the field <span class="code">BasicHttpBindingSecurity.Transport.ClientCredentialType</span>. </p></li> 
+       <li><p>Assign the constant value <span class="code">BasicHttpSecurityMode.TransportCredentialOnly</span> to the field <span class="code">BasicHttpBindingSecurity.Security.Mode</span>. </p></li> 
+      </ul></li> 
+    </ul></li> 
+   <li><p>Reference an existing DDX document. </p> 
+    <ul> 
+     <li><p>Create a <span class="code">BLOB</span> object by using its constructor. The <span class="code">BLOB</span> object is used to store the DDX document.</p></li> 
+     <li><p>Create a <span class="code">System.IO.FileStream</span> object by invoking its constructor and passing a string value that represents the file location of the DDX document and the mode to open the file in.</p></li> 
+     <li><p>Create a byte array that stores the content of the <span class="code">System.IO.FileStream</span> object. You can determine the size of the byte array by getting the <span class="code">System.IO.FileStream</span> object’s <span class="code">Length</span> property. </p></li> 
+     <li><p>Populate the byte array with stream data by invoking the <span class="code">System.IO.FileStream</span> object’s <span class="code">Read</span> method and passing the byte array, the starting position, and the stream length to read.</p></li> 
+     <li><p>Populate the <span class="code">BLOB</span> object by assigning its <span class="code">MTOM</span> field with the contents of the byte array.</p></li> 
+    </ul></li> 
+   <li><p>Reference a PDF document used to determine PDF/A compliancy. </p> 
+    <ul> 
+     <li><p>Create a <span class="code">BLOB</span> object by using its constructor. The <span class="code">BLOB</span> object is used to store the input PDF document. </p></li> 
+     <li><p>Create a <span class="code">System.IO.FileStream</span> object by invoking its constructor and passing a string value that represents the file location of the input PDF document and the mode in which to open the file.</p></li> 
+     <li><p>Create a byte array that stores the content of the <span class="code">System.IO.FileStream</span> object. You can determine the size of the byte array by getting the <span class="code">System.IO.FileStream</span> object’s <span class="code">Length</span> property. </p></li> 
+     <li><p>Populate the byte array with stream data by invoking the <span class="code">System.IO.FileStream</span> object’s <span class="code">Read</span> method and passing the byte array, the starting position, and the stream length to read.</p></li> 
+     <li><p>Populate the <span class="code">BLOB</span> object by assigning its <span class="code">MTOM</span> property with the contents of the byte array.</p></li> 
+     <li><p>Create a <span class="code">MyMapOf_xsd_string_To_xsd_anyType</span> object. This collection object is used to store the PDF document. </p></li> 
+     <li><p>Create a <span class="code">MyMapOf_xsd_string_To_xsd_anyType_Item</span> object. </p></li> 
+     <li><p>Assign a string value that represents the key name to the <span class="code">MyMapOf_xsd_string_To_xsd_anyType_Item</span> object's <span class="code">key</span> field. This value must match the value of the PDF source element specified in the DDX document.</p></li> 
+     <li><p>Assign the <span class="code">BLOB</span> object that stores the PDF document to the <span class="code">MyMapOf_xsd_string_To_xsd_anyType_Item</span> object's <span class="code">value</span> field.</p></li> 
+     <li><p>Add the <span class="code">MyMapOf_xsd_string_To_xsd_anyType_Item</span> object to the <span class="code">MyMapOf_xsd_string_To_xsd_anyType</span> object. Invoke the <span class="code">MyMapOf_xsd_string_To_xsd_anyType</span> object' <span class="code">Add</span> method and pass the <span class="code">MyMapOf_xsd_string_To_xsd_anyType</span> object.</p></li> 
+    </ul></li> 
+   <li><p>Set run-time options. </p> 
+    <ul> 
+     <li><p>Create an <span class="code">AssemblerOptionSpec</span> object that stores run-time options by using its constructor.</p></li> 
+     <li><p>Set run-time options to meet your business requirements by assigning a value to a data member that belongs to the <span class="code">AssemblerOptionSpec</span> object. For example, to instruct the Assembler service to continue processing a job when an error occurs, assign <span class="code">false</span> to the <span class="code">AssemblerOptionSpec</span> object’s <span class="code">failOnError</span> data member. </p></li> 
+    </ul></li> 
+   <li><p>Retrieve information about the PDF document. </p><p>Invoke the <span class="code">AssemblerServiceService</span> object’s <span class="code">invoke</span> method and pass the following values:</p> 
+    <ul> 
+     <li><p>A <span class="code">BLOB</span> object that represents the DDX document. </p></li> 
+     <li><p>The <span class="code">MyMapOf_xsd_string_To_xsd_anyType</span> object that contains the input PDF document. Its keys must match the names of the PDF source files, and its values must be the <span class="code">BLOB</span> object that corresponds to the input PDF file.</p></li> 
+     <li><p>An <span class="code">AssemblerOptionSpec</span> object that specifies run-time options.</p></li> 
+    </ul><p>The <span class="code">invoke</span> method returns an <span class="code">AssemblerResult</span> object that contains XML data that specifies whether the input PDF document is a PDF/A document. </p></li> 
+   <li><p>Save the returned XML document. </p><p>To obtain XML data that specifies whether the input PDF document is a PDF/A document, perform the following actions:</p> 
+    <ul> 
+     <li><p>Access the <span class="code">AssemblerResult</span> object's <span class="code">documents</span> field, which is a <span class="code">Map</span> object that contains the XML data that specifies whether the input PDF document is a PDF/A document.</p></li> 
+     <li><p>Iterate through the <span class="code">Map</span> object to obtain each resultant document. Then, cast that array member's value to a <span class="code">BLOB</span>.</p></li> 
+     <li><p>Extract the binary data that represents the XML data by accessing its <span class="code">BLOB</span> object's <span class="code">MTOM</span> field. This field stores an array of bytes that you can write out to as a XML file.</p></li> 
+    </ul></li> 
+  </ol> 
+  <p><strong>See also</strong></p> 
+  <p><a href="/programming-with-aem-forms/determining-whether-documents-pdf-a determining-whether-documents-pdf-a#determining_whether_documents_are_pdf_a_compliant">Determining Whether Documents Are PDF/A- Compliant</a></p> 
+  <p><a href="#unresolvedlink-lc-qs-assembler-as.xml#ws624e3cba99b79e12e69a9941333732bac8-7f7e.2">Quick Start (MTOM): Determining whether a document is PDF/A compliant using the web service API</a></p> 
+  <p><a href="#unresolvedlink-lc-in-invoke-using-web-services-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fe7.2">Invoking AEM Forms using MTOM</a></p> 
+ </body> 
+</html>

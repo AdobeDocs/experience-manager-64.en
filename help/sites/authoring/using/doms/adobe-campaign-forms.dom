@@ -1,0 +1,127 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="Creating Adobe Campaign Forms in AEM" name="seoTitle" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/authoring/morehelp/personalization;/content/help/en/experience-manager/6-4/sites/authoring/morehelp/personalization" name="moreHelpPaths" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="Creating Adobe Campaign Forms in AEM" name="navTitle" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/adobe-campaign-forms.html" name="publishExternalURL" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2019-01-25T10:35:58.541-0500" name="cq:lastModified" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="audience:authoring" name="primaryAudienceTag" /> 
+  <meta content="fd2f314b-e2d4-47fd-b395-90e1ef286ffa" name="jcr:predecessors" /> 
+  <meta content="2019-01-25T10:35:58.556-0500" name="cq:lastReplicated" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;content_type:reference;topic_tags:personalization" name="cq:tags" /> 
+  <meta content="2019-01-25T10:35:58.537-0500" name="topicBrowsingSortDate" /> 
+  <meta content="2017-10-31T16:21:11.189-0400" name="firstPublishExternalDate" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="Creating Adobe Campaign Forms in AEM" name="jcr:title" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="/content/docs/en/aem/6-3/author/personalization/adobe-campaign/adobe-campaign-forms" name="qaNotes" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="2018-04-19T10:28:12.433-0400" name="locHandOffDate" /> 
+  <meta content="AEM lets you create and use forms that interact with Adobe Campaign on your website" name="seoDescription" /> 
+  <meta content="2019-01-25T10:35:58.537-0500" name="publishExternalDate" /> 
+  <meta content="f703e6fb-5d43-47ed-b1b1-e97e6a3c9dcd" name="jcr:uuid" /> 
+  <meta content="2019-01-25T10:35:58.537-0500" name="lastPublishExternalDate" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2017-12-01T19:05:09.496-0500" name="jcr:created" /> 
+  <meta content="Chris Bohnert" name="contentOwner" /> 
+ </head> 
+ <body> 
+  <p>AEM lets you create and use forms that interact with Adobe Campaign on your website. Specific fields can be inserted into your forms and mapped to the Adobe Campaign database.</p> 
+  <p>You can manage new contact subscriptions, unsubscriptions, and user profile data, all while integrating their data into your Adobe Campaign database.</p> 
+  <p>To use Adobe Campaign forms in AEM, you need to follow these steps, described in this document:</p> 
+  <ol> 
+   <li>Make a template available.</li> 
+   <li>Create a form.</li> 
+   <li>Edit form content.</li> 
+  </ol> 
+  <p>Three types of forms, specific to Adobe Campaign, are available by default:</p> 
+  <ul> 
+   <li>Save a profile</li> 
+   <li>Subscribe to a service</li> 
+   <li>Unsubscribe from a service</li> 
+  </ul> 
+  <p>These forms define a URL parameter that accepts the encrypted primary key of an Adobe Campaign profile. Based on this URL parameter, the form updates the data of the associated Adobe Campaign profile.</p> 
+  <p>Although you create these forms independently, in a typical use case, you generate a personalized link to a form page inside the newsletter content, so that recipients can open the link and make adjustments to their profile data (whether unsubscribing, subscribing, or updating their profile).</p> 
+  <p>The form automatically updates based on the user. See <a href="#editingformcontent">Editing Form Content</a> for more information.</p>  
+  <h2>Making a Template Available</h2> 
+  <p>Before being able to create forms that are specific to Adobe Campaign, you must make the different templates available in your AEM application.</p> 
+  <p>To do this, see the <a href="../../../sites/developing/using/page-templates-static.md#templateavailability">Templates documentation</a>.</p> 
+  <h2>Creating a Form</h2> 
+  <p>First of all, check the connection between the author and publish instances and Adobe Campaign is working. See <a href="../../../sites/administering/using/campaignstandard.md">Integrating with Adobe Campaign Standard</a> or <a href="../../../sites/administering/using/campaignonpremise.md">Integrating with Adobe Campaign Classic</a>.</p> 
+  <note> 
+   <p>Make sure the <strong>acMapping </strong>property on the page's <strong>jcr:content</strong> node is set to <strong>mapRecipient</strong> or <strong>profile</strong> when using Adobe Campaign Classic or Adobe Campaign Standard, respectively</p> 
+   <p> </p> 
+  </note> 
+  <ol> 
+   <li><p>In AEM, in Sites, navigate to where you want to create a new page.</p> </li> 
+   <li><p>Create a page and select <strong>Adobe Campaign Classic Profile </strong>or<strong> Adobe Campaign Standard Profile</strong> and click <strong>Next</strong>.</p> <img imageRotate="0" src="assets/chlimage_1-43.png" /> 
+    <note> 
+     <p>If the desired template is not available, see <a href="../../../sites/authoring/using/adobe-campaign.md#activatingatemplate">Making a template available</a>.</p> 
+    </note></li> 
+   <li><p>In the <strong>Name</strong> field, add the name of the page. It must be a valid JCR name.</p> </li> 
+   <li><p>In the <strong>Title</strong> field, enter a title and click <strong>Create</strong>.</p> </li> 
+   <li><p>Open the page and select <strong>Open Properties</strong> and in Cloud Services add the Adobe Campaign configuration and select the checkmark to save your changes.</p> <img imageRotate="0" src="assets/chlimage_1-44.png" /></li> 
+   <li><p>On the page, in the <strong>Form Start</strong> component, select the type of form it is - <strong>Subscribe, Unsubscribe, </strong>or<strong> Save Profile</strong>. You can only have one type per form. You can now <a href="#editingformcontent">edit the form's content</a>. </p> </li> 
+  </ol> 
+  <h2>Editing Form Content</h2> 
+  <p>Forms dedicated to Adobe Campaign have specific components. These components have an option to allow you to link each field of the form to a field in the Adobe Campaign database.</p> 
+  <note> 
+   <p>If the desired template is not available, see <a href="../../../sites/authoring/using/adobe-campaign.md#activatingatemplate">Making a template available</a>.</p> 
+  </note> 
+  <p>This section only details specific links to Adobe Campaign. For more information on a more general overview of how to use forms in Adobe Experience Manager, see <a href="../../../sites/authoring/using/default-components-foundation.md">Editmode components</a>.</p> 
+  <ol> 
+   <li><p>Select <strong>Open Properties</strong> and in Cloud Services add the Adobe Campaign configuration and select the checkmark to save your changes.</p> <img imageRotate="0" src="assets/chlimage_1-45.png" /></li> 
+   <li><p>On the page, in the <strong>Form Start</strong> component, click the Configuration icon.</p> <img imageRotate="0" src="assets/chlimage_1-46.png" /></li> 
+   <li><p>Click the <strong>Advanced</strong> tab and select the type of form it is - <strong>Subscribe, Unsubscribe, </strong>or<strong> Save Profile </strong>and click<strong> OK.</strong> You can only have one type per form.</p> 
+    <ul> 
+     <li><strong>Adobe Campaign: Save profile</strong>: lets you create or update a recipient in Adobe Campaign (default value).</li> 
+     <li><strong>Adobe Campaign: Subscribe to Services</strong>: lets you manage the subscriptions of a recipient in Adobe Campaign.</li> 
+     <li><strong>Adobe Campaign: Unsubscribe from Services</strong>: lets you cancel the subscriptions of a recipient in Adobe Campaign.</li> 
+    </ul> </li> 
+   <li><p>You must have an <strong>Encrypted Primary Key</strong> component on each form. This component defines which URL parameter will be used to accept the encrypted primary key of an Adobe Campaign profile. In Components, select Adobe Campaign so only those componente are visible. </p> </li> 
+   <li><p>Drag the component <strong>Encrypted Primary Key</strong> to the form (anywhere) and click or tap the <strong>Configuration</strong> icon. In the <strong>Adobe Campaign</strong> tab, specify any name for the URL parameter. Click or tap the check mark to save your changes.</p> <p>Generated links to this form need to use this URL parameter and assign it the encrypted primary key of an Adobe Campaign profile. The encrypted primary key must be properly URL (percent) encoded.</p> <img imageRotate="0" src="assets/chlimage_1-47.png" /></li> 
+   <li><p>Add components to the form as needed, such as a Text field, Date field, Checkbox field, Option field, and so on. See <a href="../../../sites/authoring/using/adobe-campaign-components.md">Adobe Campaign Form Components</a> for more information on each component.</p> </li> 
+   <li><p>Click the Configuration icon to open the component. For example, in <strong>Text Field (Campaign) </strong>component, change the title and text. </p> <p>Click<strong> Adobe Campaign</strong> to map the form field to an Adobe Campaign metadata variable. When you submit the form, the mapped field is updated in Adobe Campaign. Only fields with matching types are available in the variable picker (for example, string variables for text fields).</p> <img imageRotate="0" src="assets/chlimage_1-48.png" /> 
+    <note> 
+     <p>You can add/remove fields that are displayed in the recipient table by following the instructions here: <a href="http://blogs.adobe.com/experiencedelivers/experience-management/aem-campaign-integration/">http://blogs.adobe.com/experiencedelivers/experience-management/aem-campaign-integration/</a></p> 
+    </note> </li> 
+   <li><p>Click <strong>Publish Page</strong>. The page is activated on your site. You can view it by going to your AEM publication instance. You can also <a href="#testingaform">test a form</a>.</p> 
+    <note> 
+     <p>You need to provide read permisssions to the anonymous user on the cloud service to use forms on publish. However, be aware of the potential security issues with providing read permissions to the anonymous user and be sure to mitigate it by, for example, configuring the dispatcher.</p> 
+    </note></li> 
+  </ol> 
+  <h2>Testing a Form</h2> 
+  <p>After you create a form and edit form content, you may want to manually test that the form is working as expected.</p> 
+  <note> 
+   <p>You must have an <strong>Encryted Primary Key</strong> component on each form. In Components, select Adobe Campaign so only those componente are visible. </p> 
+   <p>Although in this procedure you enter the epk number manually, in practice, users would get a link to this page (whether to unsubscribe, subscribe, or update your profile) within a newsletter. Based on the user, the epk automatically updates.</p> 
+   <p>To create that link, you use the variable<strong> Main resource identifier </strong>(Adobe Campaign Standard) or <strong>Encrypted identifier</strong> (Adobe Campaign Classic) (for example, in a <strong>Text &amp; Personalization (Campaign)</strong> component), which links to the epk in Adobe Campaign.</p> 
+  </note> 
+  <p>To do this, you need to manually get the EPK of an Adobe Campaign profile and then append it to the URL:</p> 
+  <ol> 
+   <li><p>To get the encrypted primarly key (EPK) of an Adobe Campaign profile:</p> 
+    <ul> 
+     <li>In Adobe Campaign Standard - Navigate to <strong>Profiles and Audiences</strong> &amp;gt; <strong>Profiles</strong>, which<strong> </strong>lists the existing profiles. Make sure the table displays the <strong>Main Resource Identifier</strong> field in a column (This can be configured by clicking/tapping <strong>Configure list</strong>). Copy the main resource identifier of the desired profile.</li> 
+     <li>In Adobe Campaign Classic, go to <strong>Profiles and Targets </strong>&amp;gt; <strong>Recipients</strong>, which lists the existing profiles. Make sure the table displays the <strong>Encrypted identifier</strong> field in a column (This can be configured by right-clicking on an entry and selecting <strong>Configure list...</strong>). Copy the encrypted identifier of the desired profile.</li> 
+    </ul> </li> 
+   <li><p>In AEM, open the form page on the publish instance and append the EPK from step 1 as a URL parameter: use the same name that you previously defined in the EPK component when authoring the form (for example: <span class="code">?epk=...</span>)</p> </li> 
+   <li><p>The form can now be used to modify the data and subscriptions associated to the linked Adobe Campaign profile. After you modify some fields and submit the form, you can verify inside Adobe Campaign that the appropriate data has been updated.</p> </li> 
+  </ol> 
+  <p>The data in the Adobe Campaign database is updated once a form is validated.</p> 
+ </body> 
+</html>

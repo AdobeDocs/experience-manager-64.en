@@ -1,0 +1,69 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="/content/docs/en/aem/6-3/develop/best-practices/we-retail/globalized-site-structure" name="qaNotes" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2018-04-03T09:01:28.284-0400" name="cq:lastReplicated" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="2018-05-08T12:46:34.614-0400" name="locHandOffDate" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="no" name="groupSectionNavItems" /> 
+  <meta content="2018-05-08T12:46:34.615-0400" name="cq:lastModified" /> 
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="inherit" name="hideMerchandisingBar" /> 
+  <meta content="User" name="contentOwner" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2017-12-01T19:05:21.249-0500" name="jcr:created" /> 
+  <meta content="light" name="gnavTheme" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/we-retail-globalized-site-structure.html" name="publishExternalURL" /> 
+  <meta content="dist5" name="distType" /> 
+  <meta content="db35145e-16d2-4561-929a-45b5c7445875" name="jcr:uuid" /> 
+  <meta content="Trying out the Globalized Site Structure in We.Retail" name="jcr:title" /> 
+  <meta content="2017-10-31T16:16:00.296-0400" name="publishExternalDate" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/morehelp/best-practices;/content/help/en/experience-manager/6-4/sites/developing/morehelp/best-practices" name="moreHelpPaths" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;content_type:reference;topic_tags:best-practices" name="cq:tags" /> 
+  <meta content="2017-10-31T16:16:00.296-0400" name="lastPublishExternalDate" /> 
+  <meta content="inherit" name="hidePromoComponent" /> 
+  <meta content="ad259662-a514-4610-85b6-14a120d3b32d" name="jcr:predecessors" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="426x240" name="modalSize" /> 
+  <meta content="audience:developing" name="primaryAudienceTag" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="Trying out the Globalized Site Structure in We.Retail" name="seoTitle" /> 
+  <meta content="2017-10-31T16:16:00.296-0400" name="topicBrowsingSortDate" /> 
+  <meta content="2017-10-31T16:16:00.296-0400" name="firstPublishExternalDate" /> 
+ </head> 
+ <body> 
+  <p>We.Retail has been built with a globalized site structure offering a language masters that can be live-copied to country-specific web sites. Everything is set up out-of-the-box to allow you to experiment with this structure and the built-in translation capabilities.</p> 
+  <h2>Trying it out</h2> 
+  <ol> 
+   <li><p>Open the sites console from <strong>Global Navigation -&amp;gt; Sites</strong>.</p> </li> 
+   <li><p>Switch to column view (if not already active) and select We.Retail. Note the example country structure with Switzerland, the United States, France, etc., along side the Language Masters.</p> <img imageRotate="0" src="assets/chlimage_1-97.png" /></li> 
+   <li><p>Select Switzerland and see the language roots for the languages of that country. Note that there is not yet any content below these roots.</p> <img imageRotate="0" src="assets/chlimage_1-98.png" /></li> 
+   <li><p>Switch to the list view and see that the language copies for the countries are all live copies.</p> <img imageRotate="0" src="assets/chlimage_1-99.png" /></li> 
+   <li><p>Return to column view and click on the Language Master and see the language master roots with content. Note that only English has content.</p> <p>We.Retail does not come with any translated content, but the structure and configuration is in place to allow you to demonstrate the translation services.</p> <img imageRotate="0" src="assets/chlimage_1-100.png" /></li> 
+   <li><p>With the English Language Master selected, open the <strong>References</strong> rail in the sites console and select <strong>Language Copies</strong>.</p> <img imageRotate="0" src="assets/chlimage_1-101.png" /></li> 
+   <li><p>Tick the checkbox next to the <strong>Language Copies</strong> label to select all language copies. In the <strong>Update language copies</strong> section of the rail, select the option to <strong>Create a new translation project</strong>. Provide a name for the project and click <strong>Update</strong>.</p> <img imageRotate="0" src="assets/chlimage_1-102.png" /></li> 
+   <li><p>A project is created for each language translation. View them under <strong>Navigation -&amp;gt; Projects</strong>.</p> <img imageRotate="0" src="assets/chlimage_1-103.png" /></li> 
+   <li><p>Click on German to see the details of the translation project. Note that the status is in <strong>Draft</strong>. To start the translation with Microsoft's translation service, click the chevron next to the <strong>Translation Job</strong> heading and select <strong>Start</strong>.</p> <img imageRotate="0" src="assets/chlimage_1-104.png" /></li> 
+   <li><p>The translation project starts. Click on the ellipsis at the bottom of the card labeled Translation Job to see the details. Pages with the state <strong>Ready for review</strong> have already been translated by the translation service.</p> <img imageRotate="0" src="assets/chlimage_1-105.png" /></li> 
+   <li><p>Selecting one of the pages in the list and then <strong>Preview in Sites</strong> in the toolbar opens the translated page in the page editor.</p> <img imageRotate="0" src="assets/chlimage_1-106.png" /></li> 
+  </ol> 
+  <note> 
+   <p>This procedure demonstrated the built-in integration with Microsoft machine translation. Using the <a href="../../../sites/administering/using/translation.md">AEM Translation Integration Framework</a>, you can integrate with many standard translation services to orchestrate the translation of AEM.</p> 
+  </note> 
+  <h2>Further Information</h2> 
+  <p>For further information, refer to the authoring document <a href="../../../sites/administering/using/translation.md">Translating Content for Multilingual Sites</a> for complete technical details.</p> 
+ </body> 
+</html>

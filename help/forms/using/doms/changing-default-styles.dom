@@ -1,0 +1,94 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2015-06-12T04:29:43.464-0400" name="lastPublishQADate" /> 
+  <meta content="2017-12-01T19:01:46.912-0500" name="jcr:created" /> 
+  <meta content="2018-04-03T08:10:44.468-0400" name="publishExternalDate" /> 
+  <meta content="2016-04-20T09:25:24.858-0400" name="firstPublishExternalDate" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/changing-default-styles.html" name="publishExternalURL" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="1b17cc83-1fd0-4456-829e-898049c12d90" name="jcr:predecessors" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/using/morehelp/html5_forms;/content/help/en/experience-manager/6-4/forms/using/morehelp/html5_forms" name="moreHelpPaths" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="18" name="acrolinxSentences" /> 
+  <meta content="2013-03-15T12:30:52.223-0400" name="cq%3AlastModified" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="2018-04-03T08:10:45.136-0400" name="cq:lastReplicated" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="deepakk" name="cq%3AlastModifiedBy" /> 
+  <meta content="0d0bebcf-ce62-4289-a001-b801205783ca" name="jcr:uuid" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2018-04-26T04:21:07.177-0400" name="locHandOffDate" /> 
+  <meta content="2018-04-26T04:21:07.177-0400" name="cq:lastModified" /> 
+  <meta content="2016-05-31T06:47:25.879-0400" name="acrolinxDate" /> 
+  <meta content="Changing default styles" name="navTitle" /> 
+  <meta content="367" name="acrolinxWords" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:hTML5_forms" name="cq:tags" /> 
+  <meta content="2018-04-03T08:10:44.468-0400" name="lastPublishExternalDate" /> 
+  <meta content="mix:lockable;mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2018-04-03T08:10:44.468-0400" name="topicBrowsingSortDate" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/changing_default_styles_admin_5e12de0b318c6865_2110_report.xml" name="acrolinxReportURL" /> 
+  <meta content="HTML5 forms styling is based on CSS. You can change the default styles of the form." name="seoDescription" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="Changing default styles of HTML5 forms" name="jcr:title" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+ </head> 
+ <body> 
+  <p>HTML5 forms are rendered using HTML5 capabilities and the styling of the rendered form is done using CSS. Default appearance of a HTML5 forms is similar to its PDF rendition. Developers can use custom CSS to change default appearance of HTML5 forms.</p> 
+  <p>This article provides step-by-step information to change style of an HTML5 form and <a href="../../forms/using/css-styles.md" target="_blank">Introduction to Styles</a> article contains detailed information about various styling aspects of HTML5 forms. Ensure that you read Introduction to styles article before performing steps mentioned in this article. </p> 
+  <p>The following two images show the difference between the default and customized styles.</p> 
+  <p> </p> 
+  <img imageRotate="0" src="assets/pictures-002-small.png" /> 
+  <h2>Style your forms</h2> 
+  <ol> 
+   <li> <p>Access the CRX DE interface at the URL: <strong>http://&amp;lt;server&amp;gt;:&amp;lt;port&amp;gt;/crx/de</strong> and create a profile or choose an existing profile. To know how to create a profile, see <a href="../../forms/using/custom-profile.md">Creating a new Profile</a></p> </li> 
+   <li> <p>Navigate to the folder in which you have created the profile renderer and create a CSS style sheet file. The steps to follow are</p> 
+    <ol> 
+     <li>Right click the folder and select <strong>create </strong>-&amp;gt; <strong>create File</strong> from the menu</li> 
+     <li>In the create file dialog, enter the name of the style sheet. Make sure that you use the extension .css (for example stylesheet.css)</li> 
+     <li>From the navigation pane, open the CSS file that you have created.</li> 
+     <li>Define the CSS classes of the components that you want to style and add styles in those classes. </li> 
+    </ol> 
+    <div>
+      To know which CSS classes to create for a particular component in your HTML5 forms, see 
+     <a href="../../forms/using/css-styles.md" target="_blank">Introduction to Styles</a>. 
+    </div> </li> 
+   <li> <p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">Open the Profile Renderer page (jsp file) in CRX DE, and include the CSS file in the page just below the XFA client library. Perform these steps to include the CSS file in profile.</p> 
+    <ol> 
+     <li>Search in the renderer page for the following line:<br /> 
+      <div style="font-family: tahoma, arial, helvetica, sans-serif; text-align: left;"> &amp;lt;cq:includeClientLib categories="xfaforms.profile" /&amp;gt; 
+      </div> </li> 
+     <li>Insert the following below the line above to include the style sheet:<br /> 
+      <div style="font-family: tahoma, arial, helvetica, sans-serif; text-align: left;"> &amp;lt;link href="/path/to/stylesheet" rel="stylesheet" type="text/css"/&amp;gt; 
+      </div> </li> 
+     <li>Save the file.</li> 
+    </ol> 
+    <div style="text-align: center;"> 
+    </div> </li> 
+  </ol> 
+  <p><a href="https://www.adobe.com/account/sign-in.supportportal.html" target="_blank"><strong>Contact Support</strong></a></p> 
+  <related-links> 
+   <a href="../../forms/using/introduction-widgets.md">Appearance framework for adaptive and HTML5 forms</a> 
+   <a href="../../forms/using/custom-profile.md">Creating custom profiles for HTML5 forms</a> 
+   <a href="../../forms/using/custom-widgets.md">Custom Widgets for HTML5 forms</a> 
+   <a href="../../forms/using/form-bridge-apis.md">Form Bridge for HTML5 forms</a> 
+   <a href="../../forms/using/integrate-form-bridge-forms-portal.md">Integrating form bridge with forms portal</a> 
+   <a href="../../forms/using/css-styles.md">Changing default styles of HTML5 forms</a> 
+  </related-links> 
+ </body> 
+</html>

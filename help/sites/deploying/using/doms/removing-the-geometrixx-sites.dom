@@ -1,0 +1,67 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2017-12-01T19:04:01.747-0500" name="jcr:created" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="Removing the Geometrixx Sites" name="navTitle" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="2018-04-03T08:50:33.237-0400" name="cq:lastReplicated" /> 
+  <meta content="2018-04-03T08:50:33.212-0400" name="firstPublishExternalDate" /> 
+  <meta content="2018-04-03T08:50:33.212-0400" name="topicBrowsingSortDate" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2018-04-03T08:50:33.212-0400" name="lastPublishExternalDate" /> 
+  <meta content="2018-04-30T03:28:01.045-0400" name="cq:lastModified" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="45075b3e-ee21-46a1-a8f5-d78e9cd2079a" name="jcr:uuid" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="audience:deploying" name="primaryAudienceTag" /> 
+  <meta content="Removing the Geometrixx Sites" name="seoTitle" /> 
+  <meta content="/content/docs/en/aem/6-3/deploy/upgrade/removing-the-geometrixx-sites" name="qaNotes" /> 
+  <meta content="Learn how to remove the sample Geometrixx content." name="seoDescription" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/removing-the-geometrixx-sites.html" name="publishExternalURL" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2018-04-30T03:28:01.044-0400" name="locHandOffDate" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="37f50a38-1c0b-46f8-9ba5-01732c460828" name="jcr:predecessors" /> 
+  <meta content="2018-04-03T08:50:33.212-0400" name="publishExternalDate" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;content_type:reference" name="cq:tags" /> 
+  <meta content="User" name="contentOwner" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="Removing the Geometrixx Sites" name="jcr:title" /> 
+ </head> 
+ <body> 
+  <p>AEM comes with a set of sample Geometrixx websites. You can remove this sample content through the <strong>Package Manager</strong>.</p> 
+  <p>The individual geometrixx-related packages are:</p> 
+  <ul> 
+   <li><span class="code">cq-geometrixx-outdoors-ugc-pkg-<i>&amp;lt;version&amp;gt;</i>.zip</span></li> 
+   <li><span class="code">cq-geometrixx-pkg-<i>&amp;lt;version&amp;gt;</i>.zip</span></li> 
+   <li><span class="code">cq-content-mac-<i>&amp;lt;version&amp;gt;</i>.zip</span></li> 
+   <li><span class="code">cq-geometrixx-login-pkg-<i>&amp;lt;version&amp;gt;</i>.zip</span></li> 
+   <li><span class="code">cq-geometrixx-users-pkg-<i>&amp;lt;version&amp;gt;</i>.zip</span></li> 
+   <li><span class="code">cq-geometrixx-workflow-pkg-<i>&amp;lt;version&amp;gt;</i>.zip</span></li> 
+   <li><span class="code">cq-geometrixx-outdoors-pkg-<i>&amp;lt;version&amp;gt;</i>.zip</span></li> 
+   <li><span class="code">cq-geometrixx-commons-pkg-<i>&amp;lt;version&amp;gt;</i>.zip</span></li> 
+   <li><span class="code">cq-geometrixx-media-pkg-<i>&amp;lt;version&amp;gt;</i>.zip</span></li> 
+  </ul> 
+  <p>To remove an individual package, simple click <strong>Uninstall</strong> on that package.</p> 
+  <p>There is also a super-package:</p> 
+  <ul> 
+   <li><span class="code">cq-geometrixx-all-pkg-5.6.12.zip</span></li> 
+  </ul> 
+  <p>This package includes all the above individual packages. To remove all the geometrixx-related content at once, click <strong>Uninstall</strong> on this package. The super-package will go into the uninstalled state, and all the individual packages will disappear from the package manager view.</p> 
+  <p>You have now an "empty" AEM instance without any demonstration sites.<br /> </p> 
+  <note> 
+   <p>When upgrading, geometrixx sites are automatically re-installed. You may need to remove geometrixx web sites after upgrading if you do not want these samples.</p> 
+  </note> 
+ </body> 
+</html>

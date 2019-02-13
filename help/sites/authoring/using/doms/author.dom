@@ -1,0 +1,110 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2018-10-28T01:46:09.930-0400" name="cq:lastModified" /> 
+  <meta content="2017-12-05T19:01:28.367-0500" name="jcr:created" /> 
+  <meta content="Janice Kendall" name="contentOwner" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2018-10-28T01:46:09.970-0400" name="cq:lastReplicated" /> 
+  <meta content="2017-10-31T16:21:10.646-0400" name="firstPublishExternalDate" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="2018-10-28T01:46:09.922-0400" name="lastPublishExternalDate" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/author.html" name="publishExternalURL" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:introduction;content_type:reference" name="cq:tags" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2018-04-19T10:28:19.552-0400" name="locHandOffDate" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="dist5" name="distType" /> 
+  <meta content="light" name="gnavTheme" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="jsyal" name="cq:lastReplicatedBy" /> 
+  <meta content="56bd4a20-eacd-46ed-b5a4-caecc033e274" name="jcr:uuid" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/authoring/morehelp/introduction;/content/help/en/experience-manager/6-4/sites/authoring/morehelp/introduction" name="moreHelpPaths" /> 
+  <meta content="Authoring" name="jcr:title" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="jsyal@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="audience:authoring" name="primaryAudienceTag" /> 
+  <meta content="2018-10-28T01:46:09.922-0400" name="publishExternalDate" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="Authoring" name="navTitle" /> 
+  <meta content="Concepts of authoring in AEM" name="seoDescription" /> 
+  <meta content="cc015bd4-fd77-48aa-bd1c-798b5f5d2844" name="jcr:predecessors" /> 
+  <meta content="true" name="thumbMode" /> 
+  <meta content="bohnert" name="cq:lastModifiedBy" /> 
+  <meta content="Authoring" name="seoTitle" /> 
+  <meta content="/content/docs/en/aem/6-3/author" name="qaNotes" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2018-10-28T01:46:09.922-0400" name="topicBrowsingSortDate" /> 
+ </head> 
+ <body> 
+  <note> 
+   <p>Authoring by default is performed in the standard, touch-enabled AEM UI, which is the focus of this authoring documentation.</p> 
+   <p>For an explanation of the differences between the standard UI and the classic UI, see <a href="../../../sites/authoring/using/author-environment.md">Working with the Author Enviornment</a>.</p> 
+   <p>If you are looking for authoring documentation for the classic UI, see <a href="/sites/classic-ui-authoring/user-guide">Authoring in the Classic UI User Guide</a>.</p> 
+  </note> 
+  <h2>Concept of Authoring (and Publishing)</h2> 
+  <p>AEM provides you with two environments:</p> 
+  <ul> 
+   <li>Author</li> 
+   <li>Publish</li> 
+  </ul> 
+  <p>These interact to enable you to make content available on your website - so that your visitors can read it. </p> 
+  <p>The author environment provides the mechanisms for creating, updating and reviewing this content before actually publishing it:</p> 
+  <ul> 
+   <li>An author creates and reviews the content (this can be of several types; for example, pages, assets, publications, etc)<br /> </li> 
+   <li>which will, at some point, be published to your website.</li> 
+  </ul> 
+  <img imageRotate="0" src="assets/chlimage_1-350.png" /> 
+  <p>On the author environment the functionality of AEM is made available through two UIs. For the publish environment you design the entire look-and-feel of the interface made available to your users.</p> 
+  <note> 
+   <p>AEM itself is used to author the AEM documentation. </p> 
+   <p>Together with the Dispatcher it is also used for publishing.</p> 
+  </note> 
+  <h4>Author Environment</h4> 
+  <p>The author works in what is known as the <strong><a href="../../../sites/authoring/using/author-environment.md">author environment</a></strong>. This provides an easy to use interface (graphical user interface (GUI or UI)) for creating the content. It is usually located behind a company's firewall that provides full protection and requires the author to login, using an account that has been assigned the appropriate access rights.</p> 
+  <note> 
+   <p>Your account needs the appropriate access rights to create, edit or publish content.</p> 
+  </note> 
+  <p>Depending on how your instance and your personal access rights are configured you can perform many tasks on your content, including (amongst others):</p> 
+  <ul> 
+   <li>generate new content, or edit existing content, on a page</li> 
+   <li>use predefined templates to create new content pages<br /> </li> 
+   <li>create, edit and manage your assets and collections</li> 
+   <li>create, edit and manage your publications<br /> </li> 
+   <li>develop your campaigns and the related resources</li> 
+   <li>develop and manage community sites<br /> </li> 
+   <li>move, copy or delete content pages, assets, etc<br /> </li> 
+   <li>publish (or unpublish) pages, assets, etc</li> 
+  </ul> 
+  <p>Additionally, there are administrative tasks that help you manage your content:</p> 
+  <ul> 
+   <li>workflows that control how changes are managed; for example. enforcing a review before publication</li> 
+   <li>projects that coordinate individual tasks</li> 
+  </ul> 
+  <note> 
+   <p>AEM is also <a href="/sites/administering/user-guide">administered</a> (for a majority of tasks) from the author environment.</p> 
+  </note> 
+  <h4>Publish Environment</h4> 
+  <p>When ready, the AEM site's content is published to the <strong>publish environment</strong>. Here the website's pages are made available to the intended audience in accordance with the look-and-feel of the designed interface.</p> 
+  <p>Usually, the publish environment is located inside the demilitarized zone; in other words, available to the internet, but no longer under the full protection of the internal network.</p> 
+  <p>When the AEM site is a <a href="../../../communities/using/overview.md">community site</a>, or includes <a href="../../../communities/using/author-communities.md">Communities components</a>, signed-in site visitors (members) may interact with Communities features. For example, they may post to a forum, post a comment, or follow other members. Members may be granted permission to perform activites normally limited to the author environment, such as create new pages (community groups), blog articles, and moderate other members' posts.</p>   
+  <note> 
+   <p>Unfortunately there is sometimes an overlap in the terminology used. This can happen with:</p> 
+   <ul> 
+    <li><strong>Publish / Unpublish</strong><br /> These are the primary terms for the actions that make your content publicly available on your publish environment (or not).<br /> </li> 
+    <li><strong>Activate / Deactivate</strong><br /> These terms are synonymous with publish/unpublish. They are more common in the classic UI.<br /> </li> 
+    <li><strong>Replicate / Replication</strong><br /> These are the technical terms used to indicate the movement of data (e.g. page content, files, code, user comments) from one environment to another; i.e. when publishing, or reverse-replicating user comments.</li> 
+   </ul> 
+  </note> 
+  <h4>Dispatcher</h4> 
+  <p>To optimize performance for visitors to your website, the <strong><a href="/content/help/en/experience-manager/dispatcher/user-guide">dispatcher</a></strong> implements load balancing and caching.</p> 
+ </body> 
+</html>

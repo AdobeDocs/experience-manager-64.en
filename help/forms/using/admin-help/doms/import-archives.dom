@@ -1,0 +1,130 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="admin" name="contentOwner" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="admin" name="lr_lastModifiedBy" /> 
+  <meta content="88" name="acrolinxSentences" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2016-05-31T07:01:36.871-0400" name="acrolinxDate" /> 
+  <meta content="AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7efe.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb2f936dcc12905cdf0a6-7ff3.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb2f936dcc12905cdf0a6-7ff1.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb2f936dcc12905cdf0a6-7ff0.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb2f936dcc12905cdf0a6-7ff6.2" name="cq:gepId" /> 
+  <meta content="2018-04-26T04:23:28.700-0400" name="locHandOffDate" /> 
+  <meta content="2016-04-20T10:05:33.510-0400" name="firstPublishExternalDate" /> 
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/importing_and_managing_applications_and_archives;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="Learn how to import and manage archives." name="seoDescription" /> 
+  <meta content="2017-10-31T16:32:12.644-0400" name="lastPublishExternalDate" /> 
+  <meta content="2017-12-01T19:04:56.245-0500" name="jcr:created" /> 
+  <meta content="40914f8f-3770-4d11-9f12-159068e39d7b" name="jcr:uuid" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="sortDate" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/forms/using/admin-help/import-archives.html" name="publishExternalURL" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="Import and manage archives" name="navTitle" /> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2016-02-05T03:27:25.564-0500" name="lr_lastModified" /> 
+  <meta content="2017-10-31T16:32:12.644-0400" name="publishExternalDate" /> 
+  <meta content="2018-04-03T09:10:13.557-0400" name="cq:lastReplicated" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="admin" name="lr_creator" /> 
+  <meta content="1427" name="acrolinxWords" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="1fb9bad6-9923-413c-a470-20c4325078d3" name="jcr:predecessors" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="topicBrowsingSortDate" /> 
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/import_archives_admin_5e12de0b318c6865_2330_report.xml" name="acrolinxReportURL" /> 
+  <meta content="Import and manage archives" name="jcr:title" /> 
+  <meta content="2018-04-26T04:23:28.700-0400" name="cq:lastModified" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+ </head> 
+ <body> 
+  <p>Use the archives tab to import and manage LCAs that were created in workbench. </p> 
+  <h2 id="import_an_archive">Import an archive</h2> 
+  <p></p> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; Applications and Services &amp;gt; Application Management and click thearchives tab.</p></li> 
+   <li><p>Click Import.</p></li> 
+   <li><p>Click Browse to locate the archive to import, and then click Preview.</p></li> 
+   <li><p>Review the list of resources and objects that will be installed with the archive. Ensure that there are no conflicts with existing resources, objects, and service configurations because no undo capability is available.</p><p>If you select to import the service configurations, AEM forms imports all of the process configuration files (endpoints, security profiles, and service configuration parameters) used by the processes in the LCA.</p></li> 
+   <li><p>Click Import.</p></li> 
+   <li><p>Review the import results and either click Skip Configuration to finish the import process or click Configure to configure the archive.</p> 
+    <note> 
+     <p>If you click Skip Configuration, you can configure the archive later.</p> 
+    </note></li> 
+   <li><p>If you click Configure, the Configure Endpoints page appears, where you can make any changes that you require:</p>  
+    <ul> 
+     <li><p>To rename an endpoint or edit its description, click it. </p></li> 
+     <li><p>To add a Task Manager endpoint, click Add TaskManager. For details about the Task Manager settings, see <a href="../../../forms/using/admin-help/configuring-task-manager-endpoints.md#configuring-task-manager-endpoints">Configuring Task Manager endpoints</a>. </p></li> 
+     <li><p>To add a Watched Folder endpoint, click Add WatchedFolder. For details about the Watched Folder settings, see <a href="../../../forms/using/admin-help/configuring-watched-folder-endpoints.md#watched-folder-endpoint-settings">Watched folder endpoint settings</a>.</p></li> 
+     <li><p>To add an Email endpoint, click Add Email. For details about the Email settings, see <a href="../../../forms/using/admin-help/configuring-email-endpoints.md#email-endpoint-settings">Email endpoint settings</a>.</p></li> 
+     <li><p>To add an EJB endpoint, click Add EJB and specify a name and description for the endpoint.</p></li> 
+     <li><p>To add a SOAP endpoint, click Add SOAP and specify a name and description for the endpoint.</p></li> 
+     <li><p>To add a Remoting endpoint, click Add Remoting. For details about the Remoting settings, see <a href="../../../forms/using/admin-help/configuring-remoting-endpoints.md#remoting-endpoint-settings">Remoting endpoint settings</a>.</p></li> 
+     <li><p>To add a REST endpoint, click Add REST and specify a name and description for the endpoint. Note the REST invocation URL displayed on the Add REST Endpoint page.</p></li> 
+     <li><p>To remove an endpoint, select the checkbox next to it and click Remove.</p></li> 
+    </ul></li> 
+   <li><p>Click Next.</p></li> 
+   <li><p>If a process or service in the LCA has configuration parameters, a Configure Parameters page appears, where you configure the service parameters and click Next. </p></li> 
+   <li><p>On the Configure Security Profile page, make any changes that you require:</p> 
+    <ul> 
+     <li><p><strong>Require callers to authenticate:</strong> This setting indicates whether the service can be invoked with or without credentials. </p><p>If <i>Callers are currently required to authenticate</i> is displayed, the caller of the service must be authenticated and the user principal for that caller must be authorized to invoke the service; otherwise, the invocation attempt will be refused. To remove the need to authenticate, click Allow Unauthenticated Callers. </p><p>If <i>Callers are not required to authenticate</i> is displayed, the caller of the service need not be authenticated. The invocation of the service will always succeed because there is no authorization check. To require authentication, click Require Callers to Authenticate.</p></li> 
+     <li><p><strong>Run As:</strong> Specifies run-time identity used by a service after it has been invoked. To change this option, click Change. Choose from the following options: </p><p><strong>Unspecified: </strong>The default behavior is used.</p><p><strong>Invoker:</strong> Uses the same identity as the user who invoked the service. </p><p><strong>System: </strong>Runs the service with full privileges. This is the default setting for long-lived processes.</p><p><strong>Named User: </strong>Enables you to run the service as a specific user. This is the default setting for short-lived processes. When you select this option, click Select User to display the Select Principal page, where you can search for and select the user. </p></li> 
+     <li><p>To add a principal to the security profile, click Add Principal and select the user or group to add as a principal. Click Next and then select the permissions you want to assign to this principal:</p><p><strong>INVOKE_PERM: </strong>To invoke all operations on the service </p><p><strong>MODIFY_CONFIG_PERM: </strong>To modify the configuration of a service</p><p><strong>SUPERVISOR_PERM: </strong>To view process instance data for a service that is created from a process</p><p><strong>START_STOP_PERM: </strong>To start and stop a service</p><p><strong>ADD_REMOVE_ENDPOINTS_PERM: </strong>To add, remove, and modify endpoints for a service</p><p><strong>CREATE_VERSION_PERM: </strong>To create a new version of the service</p><p><strong>DELETE_VERSION_PERM: </strong>To delete a version of the service</p><p><strong>MODIFY_VERSION_PERM: </strong>To modify a version of the service</p><p><strong>READ_PERM: </strong>To view the service</p><p>Click Finished to add the principal to the security profile.</p></li> 
+    </ul></li> 
+   <li><p>Click Finished to complete the configuration.</p></li> 
+  </ol> 
+  <h2 id="configure_the_aem_forms_that_are_part_of_an_archive_file">Configure the AEM forms that are part of an archive file</h2> 
+  <p></p> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; Applications and Services &amp;gt; Application Management and click thearchives tab.</p></li> 
+   <li><p>On the Archive Management page, select the archive file to configure.</p></li> 
+   <li><p>On the View Archive page, select the highlighted archive resource.</p></li> 
+   <li><p>Configure the imported process archive file.</p></li> 
+  </ol> 
+  <h2 id="use_the_configuration_wizard_to_configure_the_aem_forms_that_are_part_of_an_archive_file">Use the configuration wizard to configure the AEM forms that are part of an archive file</h2> 
+  <p></p> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; Applications and Services &amp;gt; Application Management and click thearchives tab.</p></li> 
+   <li><p>Click Configure next to the archive file to configure.</p></li> 
+   <li><p>The Configure Endpoints page appears, where you can make any changes that you require:</p>  
+    <ul> 
+     <li><p>To rename an endpoint or edit its description, click it. </p></li> 
+     <li><p>To add a Task Manager endpoint, click Add TaskManager. For details about the Task Manager settings, see <a href="../../../forms/using/admin-help/configuring-task-manager-endpoints.md#configuring-task-manager-endpoints">Configuring Task Manager endpoints</a>. </p></li> 
+     <li><p>To add a Watched Folder endpoint, click Add WatchedFolder. For details about the Watched Folder settings, see <a href="../../../forms/using/admin-help/configuring-watched-folder-endpoints.md#watched-folder-endpoint-settings">Watched folder endpoint settings</a>.</p></li> 
+     <li><p>To add an Email endpoint, click Add Email. For details about the Email settings, see <a href="../../../forms/using/admin-help/configuring-email-endpoints.md#email-endpoint-settings">Email endpoint settings</a>.</p></li> 
+     <li><p>To add an EJB endpoint, click Add EJB and specify a name and description for the endpoint.</p></li> 
+     <li><p>To add a SOAP endpoint, click Add SOAP and specify a name and description for the endpoint.</p></li> 
+     <li><p>To add a Remoting endpoint, click Add Remoting. For details about the Remoting settings, see <a href="../../../forms/using/admin-help/configuring-remoting-endpoints.md#remoting-endpoint-settings">Remoting endpoint settings</a>.</p></li> 
+     <li><p>To add a REST endpoint, click Add REST and specify a name and description for the endpoint. Note the REST invocation URL displayed on the Add REST Endpoint page.</p></li> 
+     <li><p>To remove an endpoint, select the checkbox next to it and click Remove.</p></li> 
+    </ul></li> 
+   <li><p>Click Next.</p></li> 
+   <li><p>If a process or service in the LCA has configuration parameters, a Configure Parameters page appears, where you configure the service parameters and click Next. </p></li> 
+   <li><p>On the Configure Security Profile page, you can make any changes that you require:</p> 
+    <ul> 
+     <li><p><strong>Require callers to authenticate:</strong> This setting indicates whether the service can be invoked with or without credentials. </p><p>If <i>Callers are currently required to authenticate</i> is displayed, the caller of the service must be authenticated and the user principal for that caller must be authorized to invoke the service; otherwise, the invocation attempt will be refused. To remove the need to authenticate, click Allow Unauthenticated Callers. </p><p>If <i>Callers are not required to authenticate</i> is displayed, the caller of the service may or may not be authenticated. The invocation of the service will always succeed because there is no authorization check. To require authentication, click Require Callers to Authenticate.</p></li> 
+     <li><p><strong>Run As:</strong> Specifies run-time identity used by a service after it has been invoked. To change this option, click Change. Choose from the following options: </p><p><strong>Unspecified: </strong>The default behavior is used.</p><p><strong>Invoker:</strong> Uses the same identity as the user who invoked the service. </p><p><strong>System: </strong>Runs the service with full privileges. This is the default setting for long-lived processes.</p><p><strong>Named User: </strong>Enables you to run the service as a specific user. This is the default setting for short-lived processes. When you select this option, click Select User to display the Select Principal page, where you can search for and select the user. </p></li> 
+     <li><p>To add a principal to the security profile, click Add Principal and select the user or group to add as a principal. Click Next and then select the permissions you want to assign to this principal:</p><p><strong>INVOKE_PERM: </strong>To invoke all operations on the service </p><p><strong>MODIFY_CONFIG_PERM: </strong>To modify the configuration of a service</p><p><strong>SUPERVISOR_PERM: </strong>To view process instance data for a service that is created from a process</p><p><strong>START_STOP_PERM: </strong>To start and stop a service</p><p><strong>ADD_REMOVE_ENDPOINTS_PERM: </strong>To add, remove, and modify endpoints for a service</p><p><strong>CREATE_VERSION_PERM: </strong>To create a new version of the service</p><p><strong>DELETE_VERSION_PERM: </strong>To delete a version of the service</p><p><strong>MODIFY_VERSION_PERM: </strong>To modify a version of the service</p><p><strong>READ_PERM: </strong>To view the service</p><p>Click Finished to add the principal to the security profile.</p></li> 
+    </ul></li> 
+  </ol> 
+  <h2 id="remove_an_archive">Remove an archive</h2> 
+  <p></p> 
+  <note> 
+   <p>To remove an archive containing assets stored in a third-party repository (EMC Documentum Content Server, IBM FileNet Content Manager, or IBM Content Manager), you must also delete the asset files from the repository using Workbench.</p> 
+  </note> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; Applications and Services &amp;gt; Archive Management.</p></li> 
+   <li><p>On the Archive Management page, select the check box for the archive to remove and click Remove.</p></li> 
+  </ol> 
+ </body> 
+</html>

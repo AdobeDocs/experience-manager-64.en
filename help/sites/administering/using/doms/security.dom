@@ -1,0 +1,658 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/security.html" name="publishExternalURL" /> 
+  <meta content="/content/docs/en/aem/6-3/administer/security/security" name="qaNotes" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="sarchiz" name="cq:lastReplicatedBy" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="User Administration and Security" name="jcr:title" /> 
+  <meta content="Learn about User Administration and Security in AEM." name="seoDescription" /> 
+  <meta content="sarchiz" name="cq:lastModifiedBy" /> 
+  <meta content="2017-12-01T19:06:53.074-0500" name="jcr:created" /> 
+  <meta content="msm-service" name="contentOwner" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="2018-04-26T10:12:01.612-0400" name="locHandOffDate" /> 
+  <meta content="65835ce2-24c9-454d-98e2-078b6be3ce8c" name="jcr:predecessors" /> 
+  <meta content="2019-01-11T08:40:27.106-0500" name="lastPublishExternalDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="User Administration and Security" name="seoTitle" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2019-01-11T08:40:27.180-0500" name="cq:lastReplicated" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="sarchiz@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2019-01-11T08:40:27.106-0500" name="topicBrowsingSortDate" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="audience:administering" name="primaryAudienceTag" /> 
+  <meta content="8b4d1203-ea99-438c-aff0-083edb3aa1f8" name="jcr:uuid" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/administering/morehelp/security;/content/help/en/experience-manager/6-4/sites/administering/morehelp/security" name="moreHelpPaths" /> 
+  <meta content="2017-10-31T16:22:00.307-0400" name="firstPublishExternalDate" /> 
+  <meta content="2019-01-11T08:40:27.106-0500" name="publishExternalDate" /> 
+  <meta content="User Administration and Security" name="navTitle" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:Security;content_type:reference" name="cq:tags" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2019-01-11T08:40:27.117-0500" name="cq:lastModified" /> 
+ </head> 
+ <body>  
+  <p>This chapter describes how to configure and maintain user authorization and also describes the theory behind how authentication and authorization work in AEM.</p> 
+  <h2>Users and Groups in AEM</h2> 
+  <p>This section deals with the various entities and related concepts in more detail to help you configure an easy to maintain user management concept.</p> 
+  <h4>Users</h4> 
+  <p>Users will log in to AEM with their account. Each user account is unique and holds the basic account details, together with the privileges assigned.</p> 
+  <p>Users are often members of Groups, which simplify the allocation of these permissions and/or privileges.</p> 
+  <h4>Groups</h4> 
+  <p>Groups are collections of users and/or other groups; these are all called Members of a group.</p> 
+  <p>Their primary purpose is to simplify the maintenance process by reducing the number of entities to be updated, as a change made to a group is applied to all members of the group. Groups often reflect:</p> 
+  <ul> 
+   <li><p>a role within the application; such as someone who is allowed to surf the content, or someone who is allowed to contribute content.</p> </li> 
+   <li><p>your own organization; you may want to extend the roles to differentiate between contributors from different departments when they are restricted to different branches in the content tree.</p> </li> 
+  </ul> 
+  <p>Therefore groups tend to remain stable, whereas users come and go more frequently.</p> 
+  <p>With planning and a clean structure, the use of groups can reflect your structure, giving you a clear overview and an efficient mechanism for updates.</p> 
+  <h4>Built-in Users and Groups</h4> 
+  <p>AEM WCM installs a number of users and groups. These can be seen when you first access the Security Console after installation.</p> 
+  <p>The following tables list each item together with:</p> 
+  <ul> 
+   <li>a short description<br /> </li> 
+   <li>any recommendations about necessary changes<br /> </li> 
+  </ul> 
+  <p><i>Please change all default passwords</i> (if you do not delete the account itself in certain circumstances).</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td>User ID</td> 
+     <td>Type</td> 
+     <td>Description</td> 
+     <td>Recommendation</td> 
+    </tr> 
+    <tr> 
+     <td><p>admin</p> <p>Default password: admin</p> </td> 
+     <td>User</td> 
+     <td><p>System administration account and member of the administrator group, with full access rights.</p> <p>This account is used for the connection between AEM WCM and CRX.</p> <p>If you accidentally delete this account, it will be re-created upon repository restart (in the default setup).</p> <p>The admin account is a requirement of the AEM platform. As a consequence, this account cannot be deleted.<br /> </p> </td> 
+     <td><p>Adobe strongly recommends that the password for this user account be changed from the default.</p> <p>Preferably upon installation, though it can be done afterwards.</p> <p>Note: This account is not to be confused with the admin account of the CQ Servlet Engine.</p> </td> 
+    </tr> 
+    <tr> 
+     <td><p>anonymous</p> <p> </p> </td> 
+     <td>User</td> 
+     <td><p>Holds the default rights for unauthenticated access to an instance. Per default this holds the minimum access rights.</p> <p>If you accidentally delete this account, it will be re-created upon startup. It cannot be permanently deleted, but it can be disabled.</p> </td> 
+     <td>Please avoid deleting or disabling this account, as it will negatively impact the functioning of author instances. If there are security requirements that mandate you to delete it, make sure you properly test the effects it has on your systems first.</td> 
+    </tr> 
+    <tr> 
+     <td><p>author</p> <p>Default password: author</p> </td> 
+     <td>User</td> 
+     <td><p>A author account allowed to write to /content. Encompasses contributor and surfer privileges.</p> <p>Can be used as a webmaster as it has access to the entire /content tree.</p> <p>This is not a built-in user, but another geometrixx demo user</p> </td> 
+     <td><p>Adobe recommends that either the account is deleted completely, or the password changed from the default.<br /> </p> <p>Preferably upon installation, though it can be done afterwards.</p> </td> 
+    </tr> 
+    <tr> 
+     <td>administrators</td> 
+     <td>Group</td> 
+     <td><p>Group that gives administrator rights to all its members. Only admin is allowed to edit this group.</p> <p>Has full access rights.</p> </td> 
+     <td>If you set a 'deny-everyone' on a node, the administrators will<br /> only have access if it is enabled again for that group.</td> 
+    </tr> 
+    <tr> 
+     <td>content-authors</td> 
+     <td>Group</td> 
+     <td><p>Group responsible for content editing. Requires read, modify, create and delete permissions.</p> </td> 
+     <td>You can create your own content-author group(s) with project specific access rights, provided you add read, modify, create and delete permissions.</td> 
+    </tr> 
+    <tr> 
+     <td>contributor</td> 
+     <td>Group</td> 
+     <td><p>Basic privileges which allow the user to write content (as in functionality only).</p> <p>Does not allocate any privileges to the /content tree - these must be specifically allocated for the individual groups or users.</p> </td> 
+     <td> </td> 
+    </tr> 
+    <tr> 
+     <td>dam-users</td> 
+     <td>Group</td> 
+     <td>Out-of-the-box reference group for a typical AEM Assets user. Members of this group have appropriate privileges to enable uploading/sharing of assets and collections.</td> 
+     <td> </td> 
+    </tr> 
+    <tr> 
+     <td>everyone</td> 
+     <td>Group</td> 
+     <td><p>Every user in AEM is a member of the group everyone, even though you may not see the group or the membership relation in all tools.</p> <p>This group can be thought of as the default rights as it can be used to apply permissions for everyone, even users that will be created in the future.</p> </td> 
+     <td><p>Do not modify or delete this group.</p> <p>Modifying this account has additional security implications.</p> </td> 
+    </tr> 
+    <tr> 
+     <td>tag-administrators</td> 
+     <td>Group</td> 
+     <td>Group that is allowed to edit tags.</td> 
+     <td> </td> 
+    </tr> 
+    <tr> 
+     <td>user-administrators</td> 
+     <td>Group</td> 
+     <td>Authorizes user administration, that is, the right to create users and groups.<br /> </td> 
+     <td> </td> 
+    </tr> 
+    <tr> 
+     <td>workflow-editors</td> 
+     <td>Group</td> 
+     <td>Group that is allowed to create and modify workflow models.</td> 
+     <td> </td> 
+    </tr> 
+    <tr> 
+     <td>workflow-users</td> 
+     <td>Group</td> 
+     <td><p>A user participating in a workflow must be member of group workflow-users. This gives him or her full access to: /etc/workflow/instances so that he or she can update the workflow instance.</p> <p>The group is included in the standard installation, but you must manually add your users to the group.</p> </td> 
+     <td> </td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h2>Permissions in AEM</h2> 
+  <p>AEM uses ACLs to determine what actions a user or group and can take and where it can perform those actions.<br /> </p> 
+  <h3>Permissions and ACLs</h3> 
+  <p>Permissions define who is allowed to perform which actions on a resource. The permissions are the result of <a href="security#Access%20Control%20Lists%20and%20how%20they%20are%20evaluated">access control</a> evaluations.<br /> </p> 
+  <p>You can change the permissions granted/denied to a given user by selecting or clearing the checkboxes for the individual AEM <a href="security#Actions">actions</a>. A check mark indicates that an action is allowed. No checkmark indicates that an action is denied.<br /> </p> 
+  <p>Where the checkmark is located in the grid also indicates what permissions users have in what locations within AEM (that is, which paths).</p> 
+  <h3>Actions</h3> 
+  <p>Actions can be performed on a page (resource). For each page in the hierarchy, you can specify which action the user is allowed to take on that page. <a href="security.html?#Permissions%20and%20ACLs">Permissions</a> enable you to allow or deny an action.</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td><strong>Action </strong></td> 
+     <td><strong>Description </strong></td> 
+    </tr> 
+    <tr> 
+     <td>Read</td> 
+     <td>The user is allowed to read the page and any child pages.</td> 
+    </tr> 
+    <tr> 
+     <td>Modify</td> 
+     <td><p>The user can:</p> 
+      <ul> 
+       <li>modify existing content on the page and on any child pages.</li> 
+       <li>create new paragraphs on the page or on any child page.</li> 
+      </ul> <p>At the JCR level, users can modify a resource by modifying its properties, locking, versioning, nt-modifications, and they have complete write permission on nodes defining a jcr:content child node, for example cq:Page, nt:file, cq:Asset.</p> </td> 
+    </tr> 
+    <tr> 
+     <td>Create</td> 
+     <td><p>The user can:</p> 
+      <ul> 
+       <li>create a new page or child page.</li> 
+      </ul> <p>If <strong>modify</strong> is denied the subtrees below jcr:content are specifically excluded because the creation of jcr:content and its child nodes are considered a page modification. This only applies to nodes defining a jcr:content child node.<br /> </p> </td> 
+    </tr> 
+    <tr> 
+     <td>Delete</td> 
+     <td><p>The user can:</p> 
+      <ul> 
+       <li>delete existing paragraphs from the page or any child page.</li> 
+       <li>delete a page or child page.</li> 
+      </ul> <p>If <strong>modify</strong> is denied any subtrees below jcr:content are specifically excluded as removing jcr:content and its child nodes is considered a page modification. This only applies to nodes defining a jcr:content child node.</p> </td> 
+    </tr> 
+    <tr> 
+     <td>Read ACL</td> 
+     <td>The user can read the access control list of the page or child pages.</td> 
+    </tr> 
+    <tr> 
+     <td>Edit ACL</td> 
+     <td>The user can modify the access control list of the page or any child pages.</td> 
+    </tr> 
+    <tr> 
+     <td>Replicate</td> 
+     <td>The user can replicate content to another environment (for example, the Publish environment). The privilege is also applied to any child pages.</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <note> 
+   <p>AEM automatically generates user groups for role-assignment (Owner, Editor, Viewer) in <a href="../../../assets/using/managing-collections-touch-ui.md">Collections</a>. However, manually adding ACLs for such groups can introduce security vulnerabilities within AEM. Adobe recommends that you avoid adding ACLs manually.</p> 
+  </note> 
+  <h3>Access Control Lists and how they are evaluated</h3> 
+  <p>AEM WCM uses Access Control Lists (ACLs) to organize the permissions being applied to the various pages.</p> 
+  <p>Access Control Lists are made up of the individual permissions and are used to determine the order in which these permissions are actually applied. The list is formed according to the hierarchy of the pages under consideration. This list is then scanned bottom-up until the first appropriate permission to apply to a page is found.</p> 
+  <note> 
+   <p>There are ACLs that are included with the samples. It is recommended that you review and determine what is appropriate for your applications. To review the ACLs that are included, go to <strong>CRXDE </strong>and select the <strong>Access Control</strong> tab for the following nodes:</p> 
+   <p><br /> <span class="code">/etc/cloudservices/facebookconnect/geometrixx-outdoorsfacebookapp</span>: Allows everyone read access.<br /> <br /> <span class="code">/etc/cloudservices/twitterconnect/geometrixx-outdoors-twitter-app</span>: Allows everyone read access.<br /> <br /> <span class="code">/home/users/geometrixx-outdoors</span>: Allows everyone read access for <span class="code">*/profile*</span> and<br /> <span class="code">*/social/relationships/following/*</span>.</p> 
+   <p><br /> Your custom application may set access for other relationships, such as <span class="code">*/social/relationships/friend/*</span> or <span class="code">*/social/relationships/pending-following/*</span>.<br /> <br /> When you create ACLs specific to communities, members joining those communities may be granted additional permissions. For example, this could be the case when users join the communities at <span class="code">/content/geometrixx-outdoors/en/community/hiking</span> or <span class="code">/content/geometrixx-outdoors/en/community/winter-sports</span>.<br /> </p> 
+  </note> 
+  <h3>Permission States</h3> 
+  <note> 
+   <p>For CQ 5.3 users:</p> 
+   <p>In contrast to previous CQ versions, <strong>create</strong> and <strong>delete</strong> should no longer be granted if a user only needs to modify pages. Instead, grant the <strong>modify</strong> action only if you want users to be able to create, modify, or delete components on existing pages.</p> 
+   <p>For backwards compatibility reasons, the tests for actions does not take the special treatment of nodes defining <strong>jcr:content</strong> into account.</p> 
+  </note>  
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td><strong>Action </strong></td> 
+     <td><strong>Description </strong></td> 
+    </tr> 
+    <tr> 
+     <td>Allow (Check mark)</td> 
+     <td>AEM WCM allows the user to perform the action on this page or on any child pages.</td> 
+    </tr> 
+    <tr> 
+     <td>Deny (No checkmark)</td> 
+     <td>AEM WCM does not allow the user to perform the action on this page nor on any child pages.</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <p>The permissions are also applied to any child pages.</p> 
+  <p>If a permission is not inherited from the parent node but has at least one local entry for it, then the following symbols are appended to the check box. A local entry is one that is created in the CRX 2.2 interface (Wildcard ACLs currently can only be created in CRX.)<br /> </p> 
+  <p>For an action at a given path:<br /> </p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td>* (asterisk)</td> 
+     <td>There is at least one local entry (either effective or ineffective). These wildcard ACLs are defined in CRX.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td>! (exclamation mark)</td> 
+     <td>There is at least one entry that currently has no effect.</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <p>When you hover over the asterisk or exclamation mark, a tooltip provides more details about the declared entries. The tooltip is split into two parts:</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td>Upper part</td> 
+     <td><p>Lists the effective entries.</p> </td> 
+    </tr> 
+    <tr> 
+     <td>Lower part</td> 
+     <td>Lists the noneffective entries that may have an effect somewhere else in the tree (as indicated by a special attribute present with the corresponding ACE limiting the scope of the entry). Alternatively, this is an entry whose effect has been revoked by another entry defined at the given path or at an ancestor node.</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <img imageRotate="0" src="assets/chlimage_1-419.png" /> 
+  <note> 
+   <p>If no permissions are defined for a page then all actions are denied.</p> 
+  </note> 
+  <p>The following are recommendations about managing access control lists:</p> 
+  <ul> 
+   <li>Do not assign permissions directly to users. Assign them only to groups.</li> 
+  </ul> 
+  <p>This will simplify the maintenance, as the number of groups is much smaller than the number of users, and also less volatile.</p> 
+  <ul> 
+   <li>If you want a group/user to be able only to modify pages, do not grant them create or deny rights. Only grant them modify and read rights.</li> 
+  </ul> 
+  <ul> 
+   <li><p>Use Deny sparingly. As far as possible use only Allow.</p> <p>Using deny can cause unexpected effects if the permissions are applied in a different order than the order expected. If a user is a member of more than one group, the Deny statements from one group may cancel the Allow statement from another group or vice versa. It is hard to keep an overview when this happens and can easily lead to unforeseen results, whereas Allow assignments do not cause such conflicts.</p> <p>Adobe recommends that you work with Allow rather than Deny see <a href="#bestpractices">Best Practices</a>.</p> </li> 
+  </ul> 
+  <p>Before modifying either permission, be sure you understand how they work and inter-relate. See the CRX documentation to illustrate how AEM WCM <a href="../../../sites/administering/using/user-group-ac-admin.md#howaccessrightsareevaluated">evaluates access rights</a> and examples on setting up access control lists.</p>  
+  <h3>Permissions</h3> 
+  <p>Permissions give users and groups access to AEM functionality on AEM pages.</p> 
+  <p>You browse permissions by path by expanding/collapsing the nodes and you can track the permission inheritance up to the root node.<br /> </p> 
+  <p>You allow or deny permissions by selecting or clearing the appropriate check boxes.</p> 
+  <img imageRotate="0" src="assets/cqsecuritypermissionstab.png" /> 
+  <h3>Viewing Detailed Permission Information</h3>  
+  <p>Along with the grid view, AEM provides a detailed view of permissions for a selected user/group at a given path. The detail view provides additional information.</p> 
+  <p>In addition to viewing information, you can also include or exclude the current user or group from a group. See <a href="#addingusersorgroupswhileaddingpermissions">Adding Users or Groups while Adding Permissions</a>. Changes made here are immediately reflected in the upper portion of the detailed view.<br /> </p> 
+  <p>To access the Detail view, in the <strong>Permissions</strong> tab, click <strong>Details</strong> for any selected group/user and path.<br /> </p> 
+  <img imageRotate="0" src="assets/permissiondetails.png" /> 
+  <p>Details are split into two parts:<br /> </p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td>Upper part</td> 
+     <td><p>Repeats the information you see in the tree grid. For each action, an icon shows whether the action is allowed or denied:</p> 
+      <ul> 
+       <li>no icon = no declared entry</li> 
+       <li>(tick) = declared action (allow)</li> 
+       <li>(-) = declared action (deny)</li> 
+      </ul> </td> 
+    </tr> 
+    <tr> 
+     <td>Lower part</td> 
+     <td><p>Shows the grid of users and groups that does the following:</p> 
+      <ul> 
+       <li>Declares an entry for the given path AND<br /> </li> 
+       <li>Is the given authorizable OR is a group</li> 
+      </ul> </td> 
+    </tr> 
+   </tbody> 
+  </table>  
+  <h3>Impersonating another User</h3> 
+  <p>With the <a href="../../../sites/authoring/using/user-properties.md#main-pars-title-3"><strong>Impersonate</strong> functionality</a> a user can work on behalf of another user.</p> 
+  <p>This means that a user account can specify other accounts that can operate with their account. In other words, if user-B is allowed to impersonate user-A, then user-B can take actions using the full account details of user-A.</p> 
+  <p>This allows the impersonator accounts to complete tasks as if they were using the account they are impersonating; for example, during an absence or to share an excessive load short-term.</p> 
+  <note> 
+   <p>In order for impersonating to work for non-admin users, the impersonator (in the above case user-B) is required to have READ permissions in the <span class="code">/home/users</span> path.</p> 
+   <p>For more information on how to achieve this, see <a href="../../../sites/administering/using/security.md#permissionsinaem">Permissions in AEM</a>.<br /> </p> 
+  </note> 
+  <note> 
+   <p>If one account impersonates another it is very difficult to see. An entry is made in the audit log when the impersonation starts and ends, but the other log files (such as the access log) hold no information about the fact that impersonation has occurred on the events. So if user-B is impersonating user-A all events will look as if they were performed by user-A personally.</p> 
+  </note> 
+  <note> 
+   <p>Locking a page can be performed when impersonating a user. However a page locked in this way can only then be unlocked as the user who was impersonated or a user with administrator privileges.</p> 
+   <p>Pages can not be unlocked by impersonating the user who locked the page.<br /> </p> 
+  </note> 
+  <h3>Best Practices</h3> 
+  <p>The following describes best practices when working with permissions and privileges:</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td>Rule</td> 
+     <td>Reason</td> 
+    </tr> 
+    <tr> 
+     <td><i>Use Groups</i>.</td> 
+     <td><p>Avoid assigning access rights on a user-by-user basis. There are several reasons for this:</p> <li><p>You have many more users than groups, so groups simplify the structure.</p> </li> <li><p>Groups help provide an overview over all accounts.</p> </li> <li><p>Inheritance is simpler with groups.</p> </li> <li><p>Users come and go. Groups are long-term.</p> </li> </td> 
+    </tr> 
+    <tr> 
+     <td><i>Be Positive.</i></td> 
+     <td><p>Always use Allow statements to specify the group’s rights (wherever possible). Avoid using a Deny statement.</p> <p>Groups are evaluated in order, and the order may be defined differently per user.</p> <p>In other words: You may have little control over the order in which the statements are implemented and evaluated. If you use only Allow statements, the order does not matter.</p> </td> 
+    </tr> 
+    <tr> 
+     <td><i>Keep It Simple</i></td> 
+     <td><p>Investing some time and thought when configuring a new installation will be well repaid.</p> <p>Applying a clear structure will simplify the ongoing maintenance and administration, ensuring that both your current colleagues and/or future successors can easily understand what is being implemented.</p> </td> 
+    </tr> 
+    <tr> 
+     <td><i>Test</i></td> 
+     <td>Use a test installation to practice and ensure that you understand the relationships between the various users and groups.</td> 
+    </tr> 
+    <tr> 
+     <td><i>Default Users/Groups</i></td> 
+     <td>Always update the Default Users and Groups immediately after installation to help prevent any security issues.</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h2>Managing Users and Groups</h2> 
+  <p>Users include people using the system and foreign systems making requests to the system.</p> 
+  <p>A group is a set of users.</p> 
+  <p>Both can be configured using the User Administration functionality within the Security Console.</p> 
+  <h3>Accessing User Administration with the Security Console</h3> 
+  <p>You access all users, groups, and associated permissions using the Security console. All the procedures described in this section are performed in this window.</p> 
+  <p>To access AEM WCM security, do one of the following:</p> 
+  <ul> 
+   <li>From the Welcome screen or various locations in AEM, click the security icon:<br /> </li> 
+  </ul> 
+  <img imageRotate="0" src="assets/wcmtoolbar.png" /> 
+  <ul> 
+   <li>Navigate directly to <span class="code">http://&amp;lt;server&amp;gt;:&amp;lt;port&amp;gt;/useradmin</span>. Be sure you log into AEM as an administrator.<br /> </li> 
+  </ul> 
+  <p>The following window displays:</p> 
+  <img imageRotate="0" src="assets/cqsecuritypage.png" /> 
+  <p>The left tree lists all the users and groups currently in the system. You can select the columns you want displayed, sort the contents of the columns, and even change the order in which the columns are displayed by dragging the column-header to a new position.</p> 
+  <img imageRotate="0" src="assets/cqsecuritycolumncontext.png" /> 
+  <p>The tabs provide access to various configurations:</p>  
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td><strong>Tab<a href="#settingpermissions"></a></strong></td> 
+     <td><strong>Description </strong></td> 
+    </tr> 
+    <tr> 
+     <td>Filter box</td> 
+     <td>A mechanism for filtering the users and/or groups listed. See <a href="#filteringusersandgroups">Filtering Users and Groups</a>.</td> 
+    </tr> 
+    <tr> 
+     <td>Hide Users</td> 
+     <td>A toggle switch which will hide all users listed, leaving only groups. See <a href="#hidingusersandgroups">Hiding Users and Groups</a>.</td> 
+    </tr> 
+    <tr> 
+     <td>Hide Groups</td> 
+     <td>A toggle switch which will hide all groups listed, leaving only users. See <a href="#hidingusersandgroups">Hiding Users and Groups</a>.</td> 
+    </tr> 
+    <tr> 
+     <td>Edit</td> 
+     <td>A menu allowing you to create and delete as well activate and deactivate users or groups. See <a href="#creatingusersandgroups">Creating Users and Groups</a> and <a href="#deletingusersandgroups">Deleting Users and Groups</a>.</td> 
+    </tr> 
+    <tr> 
+     <td>Properties</td> 
+     <td>Lists information about the user or group that can include email information, a description, and name information. Also allows you to change a user's password. See <a href="http://security.html#Creating%20Users%20and%20Groups">Creating Users and Groups</a>, <a href="http://security.html#Modifying%20User%20and%20Group%20Properties">Modifying User and Group Properties</a> and <a href="#changingauserpassword">Changing a User Password</a>.</td> 
+    </tr> 
+    <tr> 
+     <td>Groups</td> 
+     <td>Lists all groups that the selected user or group belongs to. You can assign the selected user or groups to additional groups or remove them from groups. See <a href="#addingusersorgroupstoagroup">Groups</a>.</td> 
+    </tr> 
+    <tr> 
+     <td>Members</td> 
+     <td>Available for groups only. Lists the members of a particular group. See <a href="#membersaddingusersorgroupstoagroup">Members</a>.</td> 
+    </tr> 
+    <tr> 
+     <td>Permissions</td> 
+     <td><p>You can allocate permissions to a user or group. Lets you control the following:</p> 
+      <ul> 
+       <li>Permissions related to particular pages/nodes. See <a href="#settingpermissions">Setting Permissions</a>.<br /> </li> 
+       <li>Permissions related to creating and deleting pages and hierarchy modification. ??? lets you <a href="#settingprivileges">allocate privileges</a>, such as hierarchy modification, which lets you create and delete pages, </li> 
+       <li>Permissions related to <a href="#settingreplicationprivileges">replication privileges</a> (usually from author to publish) according to a path.</li> 
+      </ul> </td> 
+    </tr> 
+    <tr> 
+     <td>Impersonators</td> 
+     <td>Lets another user impersonate the account. Useful when you need a user to act on behalf of another user. See <a href="#impersonatinganotheruser">Imperso</a><a name="Impersonating Users"></a>nating Users.</td> 
+    </tr> 
+    <tr> 
+     <td>Preferences</td> 
+     <td>Sets <a href="#settinguserandgrouppreferences">preferences for the group or user</a>. For example, language preferences.<br /> </td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h3>Filtering Users and Groups</h3> 
+  <p>You can filter the list by entering a filter expression, which hides all the users and groups that do not match the expression. You can also hide users and groups by using the <a href="#hidingusersandgroups">Hide User and Hide Group</a> buttons. </p> 
+  <p>To filter users or groups:</p> 
+  <ol> 
+   <li><p>In the left tree list, type your filter expression in the space provided. For example, entering <strong>admin</strong> displays all users and groups containing this string.</p> </li> 
+   <li><p>Click the magnifying glass to filter the list.<br /> </p> <img imageRotate="0" src="assets/cqsecurityfilter.png" /></li> 
+   <li><p>Click the <strong>x</strong> when you want to remove all filters.<br /> </p> </li> 
+  </ol> 
+  <h3>Hiding Users and Groups</h3> 
+  <p>Hiding users or groups is another way to filter the list of all users and groups in a system. There are two toggle mechanisms. Clicking Hide User hides all users from view and clicking Hide Groups hides all groups from view (you cannot hide both users and groups at the same time). To filter the list by using a filter expression, see <a href="security#Filtering%20Users%20and%20Groups">Filtering users and groups</a>.</p> 
+  <p>To hide users and groups:</p> 
+  <ol> 
+   <li><p>In the <strong>Security</strong> console, click <strong>Hide Users</strong> or <strong>Hide Groups</strong>. The selected button appears highlighted.<br /> </p> <img imageRotate="0" src="assets/cqsecurityhideusers.png" /></li> 
+   <li><p>To make either users or groups reappear, click the corresponding button again.<br /> </p> </li> 
+  </ol> 
+  <h3>Creating Users and Groups</h3> 
+  <p>To create a new user or group:<br /> </p> 
+  <ol> 
+   <li><p>In the <strong>Security</strong> console tree list, click <strong>Edit</strong> and then either <strong>Create User</strong> or <strong>Create Group</strong>.<br /> </p> <img imageRotate="0" src="assets/cqseruityeditcontextmenu.png" /></li> 
+   <li><p>Enter the required details, according to whether you are creating a user or a group.</p> 
+    <ul> 
+     <li>If you select <strong>Create User,</strong> you enter the Login ID, first and last name, e-mail address and a password. By default, AEM creates a path based on the first letter of the last name, but you can select another path.<br /> </li> 
+    </ul> <img imageRotate="0" src="assets/createuserdialog.png" /> 
+    <ul> 
+     <li>If you select <strong>Create Group</strong>, you enter a group ID and an optional description.</li> 
+    </ul> <img imageRotate="0" src="assets/creategroupdialog.png" /></li> 
+   <li><p>Click <strong>Create</strong>. The user or group you created appears in the tree list.</p> </li> 
+  </ol> 
+  <h3>Deleting Users and Groups</h3> 
+  <p>To delete a user or group:</p> 
+  <ol> 
+   <li><p>In the <strong>Security</strong> console, select the user or group you want to delete. If you want to delete multiple items, Shift+click or Control+click to select them.</p> </li> 
+   <li><p>Click <strong>Edit,</strong> then select Delete. AEM WCM asks whether you want to delete the user or group.</p> </li> 
+   <li><p>Click<strong> OK</strong> to confirm or Cancel to cancel your action.</p> </li> 
+  </ol> 
+  <h3>Modifying User and Group Properties</h3> 
+  <p>To modify user and group properties:</p> 
+  <ol> 
+   <li><p>In the <strong>Security</strong> console, double-click the user or group name you want to modify.<br /> </p> </li> 
+   <li><p>Click the <strong>Properties</strong> tab, make the required changes, and click <strong>Save</strong>.<br /> </p> <img imageRotate="0" src="assets/cqsecurityuserprops.png" /></li> 
+  </ol> 
+  <note> 
+   <p>The path of the user is displayed at the bottom of the user properties. It cannot be modified.<br /> </p> 
+  </note> 
+  <h3>Changing a User Password</h3> 
+  <p>Use the following procedure to modify a user's password.<br /> </p> 
+  <note> 
+   <p>You cannot use the Security console to change the admin password. To change the password for the admin account, use the <a href="../../../sites/administering/using/granite-user-group-admin.md#main-pars-title-9">Users console</a> that Granite Operations provides. </p> 
+   <p> </p> 
+   <p> </p> 
+  </note> 
+  <ol> 
+   <li><p>In the <strong>Security</strong> console, double-click the user name you want to change the password for.</p> </li> 
+   <li><p>Click the <strong>Properties</strong> tab (if not already active).<br /> </p> </li> 
+   <li><p>Click <strong>Set Password</strong>. The Set Password window opens where you can change your password.<br /> </p> <img imageRotate="0" src="assets/cqsecurityuserpassword.png" /></li> 
+   <li><p>Enter the new password twice; as they are not displayed in clear text this is for confirmation - if they do not match, the system shows an error.</p> </li> 
+   <li><p>Click <strong>Set</strong> to activate the new password for the account.</p> </li> 
+  </ol> 
+  <h3>Adding Users or Groups to a Group</h3> 
+  <p>AEM offers three different ways to add users or groups to an existing group:</p> 
+  <ul> 
+   <li>When you are in the group, you can add members (either users or groups).</li> 
+   <li>When you are in the member, you can add members to groups.</li> 
+   <li>When you are working on Permissions, you can add members to groups.</li> 
+  </ul> 
+  <h4>Groups - Adding Users or Groups to a Group</h4> 
+  <p>The <strong>Groups</strong> tab shows you which groups the current account belongs to. You can use it to add the selected account to a group:</p> 
+  <ol> 
+   <li><p>Double-click the name of the account (user or group) that you want to assign to a group.</p> </li> 
+   <li><p>Click the <strong>Groups</strong> tab. You see a list of groups that the account already belongs to.</p> </li> 
+   <li><p>In the tree list, click the name of the group you want to add to the account to and drag it to the <strong>Groups</strong> pane. (If you want to add multiple users, Shift+click or Control+click those names and drag them.)</p> <img imageRotate="0" src="assets/cqsecurityaddusertogroup.png" /></li> 
+   <li><p>Click <strong>Save</strong> to save your changes.<br /> </p> </li> 
+  </ol> 
+  <h4>Members - Adding Users or Groups to a Group</h4> 
+  <p>The <strong>Members</strong> tab only works for groups and shows you which users and groups belong to the current group. You can used it to add accounts to a group:<br /> </p> 
+  <ol> 
+   <li><p>Double-click the name of the group you want to add members to.</p> </li> 
+   <li><p>Click the <strong>Members</strong> tab. You see a list of members that already belong to this group.</p> </li> 
+   <li><p>In the tree list, click the name of the member you want to add to the group and drag it to the <strong>Members</strong> pane. (If you want to add multiple users, Shift+click or Control+click those names and drag them.)</p> <img imageRotate="0" src="assets/cqsecurityadduserasmember.png" /></li> 
+   <li><p>Click <strong>Save</strong> to save your changes.<br /> </p> </li> 
+  </ol> 
+  <h4>Adding Users or Groups while Adding Permissions</h4> 
+  <p>To add members to a group at in a certain path:<br /> </p> 
+  <ol> 
+   <li><p>Double-click the name of the group or user that you want to add users to.<br /> </p> </li> 
+   <li><p>Click the <strong>Permissions</strong> tab.<br /> </p> </li> 
+   <li><p>Navigate to the path you want to add permissions to and click <strong>Details</strong>. The lower part of the details window provides information about who has permissions for that page.<br /> </p> <img imageRotate="0" src="assets/chlimage_1-420.png" /></li> 
+   <li><p>Select the check box in the <strong>Member</strong> column for the members you want to have permissions to that path. Clear the check box for member you want to remove permissions for. A red triangle appears in the cell you made changes to.</p> </li> 
+   <li><p>Click <strong>OK</strong> to save your changes.<br /> </p> </li> 
+  </ol> 
+  <h3>Removing Users or Groups from Groups</h3> 
+  <p> </p> 
+  <p>AEM offers three different ways to remove users or groups from a group:</p> 
+  <ul> 
+   <li>When you are in the group profile, you can remove members (either users or groups).</li> 
+   <li>When you are in the member profile, you can remove members from groups.</li> 
+   <li>When you are working on Permissions, you can remove members from groups.</li> 
+  </ul> 
+  <p> </p> 
+  <h4>Groups - Removing Users or Groups from Groups</h4> 
+  <p>To remove a user or group account from a group:<br /> </p> 
+  <ol> 
+   <li><p>Double-click the name of the group or user account you want to remove from a group.</p> </li> 
+   <li><p>Click the <strong>Groups</strong> tab. You see what groups the selected account belongs to.</p> </li> 
+   <li><p>In the <strong>Groups</strong> pane, click the name of the user or group you want to remove from the group and click <strong>Remove</strong>. (If you want to remove multiple accounts, Shift+click or Control+click those names and click <strong>Remove</strong>.)<br /> </p> <img imageRotate="0" src="assets/cqsecurityremoveuserfromgrp.png" /></li> 
+   <li><p>Click <strong>Save</strong> to save your changes.<br /> </p> </li> 
+  </ol> 
+  <h4>Members - Removing Users or Groups from Groups</h4> 
+  <p>To remove accounts from a group:<br /> </p> 
+  <ol> 
+   <li><p>Double-click the name of the group you want to remove members from.</p> </li> 
+   <li><p>Click the <strong>Members</strong> tab. You see a list of members that already belong to this group.</p> </li> 
+   <li><p>In the <strong>Members</strong> pane, click the name of the member you want to remove from the group and click <strong>Remove</strong>. (If you want to remove multiple users, Shift+click or Control+click those names and and click <strong>Remove</strong>.)</p> <img imageRotate="0" src="assets/cqsecurityremovemember.png" /></li> 
+   <li><p>Click <strong>Save</strong> to save your changes.<br /> </p> </li> 
+  </ol> 
+  <h4>Removing Users or Groups while Adding Permissions</h4> 
+  <p>To remove members from a group at a certain path:<br /> </p> 
+  <ol> 
+   <li><p>Double-click the name of the group or user that you want to remove users from.<br /> </p> </li> 
+   <li><p>Click the <strong>Permissions</strong> tab.<br /> </p> </li> 
+   <li><p>Navigate to the path you want to remove permissions to and click <strong>Details</strong>. The lower part of the details window provides information about who has permissions for that page.<br /> </p> <img imageRotate="0" src="assets/chlimage_1-421.png" /></li> 
+   <li><p>Select the check box in the <strong>Member</strong> column for the members you want to have permissions to that path. Clear the check box for member you want to remove permissions for. A red triangle appears in the cell you made changes to.</p> </li> 
+   <li><p>Click <strong>OK</strong> to save your changes.<br /> </p> </li> 
+  </ol> 
+  <h3>User Synchronization</h3> 
+  <p>When the deployment is a <a href="../../../sites/deploying/using/recommended-deploys.md#tarmkfarm">publish farm</a>, users and groups need to be synchronized among all publish nodes. </p> 
+  <p>To learn about user sync and how to enable it, see <a href="../../../sites/administering/using/sync.md">User Sychronization</a>.</p> 
+  <h2>Managing Permissions</h2> 
+  <p>This section describes how to set permissions, including replication privileges.<br /> </p> 
+  <h4>Setting Permissions</h4> 
+  <p>Permissions allow users to perform certain actions on resources at certain paths. It also includes the ability to create or delete pages.<br /> </p> 
+  <p>To add, modify, or delete permissions:</p> 
+  <ol> 
+   <li><p>In the <strong>Security</strong> console, double-click the name of the user or group you want to set permissions for or <a href="#searchingfornodes">search for nodes</a>.<br /> </p> </li> 
+   <li><p>Click the <strong>Permissions</strong> tab.<br /> </p> <img imageRotate="0" src="assets/cquserpermissions.png" /></li> 
+   <li><p>In the tree grid, select a check box to allow the selected user or group to perform an action or clear a check box to deny the selected user or group to perform an action. For more information click <strong>Details</strong>.<br /> </p> </li> 
+   <li><p>When finished, click <strong>Save</strong>.<br /> </p> </li> 
+  </ol> 
+  <h4>Setting Replication Privileges</h4> 
+  <p>Replication privilege is the right to publish content, and it can be set for groups and users.</p> 
+  <note> 
+   <ul> 
+    <li>Any replication rights applied to a group apply to all the users in that group.</li> 
+    <li>A user's replication privileges supersedes a group's replication privileges.</li> 
+    <li>The Allow replication rights have a higher precedence than the Deny replication rights. See <a href="#permissionsinaem">Permissions in AEM</a> for more information.</li> 
+   </ul> 
+  </note> 
+  <p>To set replication privileges:</p> 
+  <ol> 
+   <li><p>Select the user or group from the list, double-click to open, and click <strong>Permissions</strong>.</p> </li> 
+   <li><p>In the grid, navigate to the path where you want the user to have replication privileges or <a href="#searchingfornodes">search for nodes.</a><br /> </p> </li> 
+   <li><p>In the <strong>Replicate</strong> column at the path selected, select a check box to add the replication privilege for that user or group, or clear the check box to remove the replication privilege. AEM displays a red triangle anywhere you have made changes that have not yet been saved.<br /> </p> <img imageRotate="0" src="assets/cquserreplicatepermissions.png" /></li> 
+   <li><p>Click <strong>Save</strong> to save your changes.</p> </li> 
+  </ol> 
+  <h3>Searching for nodes</h3> 
+  <p>When adding or removing permissions, you can either browse or search for the node.</p> 
+  <p>There are two different types of path search:</p> 
+  <ul> 
+   <li>Path search - If the search string starts with a "/" then the search will search for the direct sub-nodes of the given path:</li> 
+  </ul> 
+  <img imageRotate="0" src="assets/cqsecuritypathsearch.png" /> 
+  <p>In the search box, you can do the following:<br /> </p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td>Right arrow key<br /> </td> 
+     <td>Selects a sub-node in the search result</td> 
+    </tr> 
+    <tr> 
+     <td>Down arrow key </td> 
+     <td>Starts the search again. </td> 
+    </tr> 
+    <tr> 
+     <td>Enter (Return) key </td> 
+     <td>Selects a subnode and loads it in the treegrid</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <ul> 
+   <li>FullText search - If the search string does not start with a "/" then a fulltext search is executed on all the nodes under the path "/content."</li> 
+  </ul> 
+  <img imageRotate="0" src="assets/cqsecurityfulltextsearch.png" /> 
+  <p>To perform a search on paths or fulltext:<br /> </p> 
+  <ol> 
+   <li><p>In the Security console, select a user or group and then click the <strong>Permissions</strong> tab.<br /> </p> </li> 
+   <li><p>In the Search box, enter a term to search for.<br /> </p> </li> 
+  </ol> 
+  <h4>Impersonating Users</h4> 
+  <p>You can specify one or more users that are allowed to impersonate the current user. This means they can switch their account settings to those of the current user and act on behalf of this user.</p> 
+  <p></p> 
+  <p>Use this function with caution as it may allow users to perform actions that their own user cannot. When impersonating a user, users are notified that they are not logged in as themselves.</p> 
+  <p></p> 
+  <p>There are various scenarios when you may want to use this functionality, including:</p> 
+  <ul> 
+   <li><p>If you are out of the office, you can let another person impersonate you while you are away. By using this feature, you can make sure that somebody has your access rights and you do not need to modify a user profile or give out your password.</p> </li> 
+   <li><p>You can use it for debugging purposes. For example, to see how the Web site looks for a user with restricted access rights. Also, if a user complains about technical problems, you can impersonate that user to diagnose and fix the problem.</p> </li> 
+  </ul> 
+  <p>To impersonate an existing user:</p> 
+  <ol> 
+   <li><p>In the tree list, select the name of the person who you want to assign other users to impersonate. Double-click to open.</p> </li> 
+   <li><p>Click the <strong>Impersonators</strong> tab.</p> </li> 
+   <li><p>Click the user you want to be able to impersonate the selected user. Drag the user (who will impersonate) from the list to the Impersonate pane. The name appears in the list.</p> <img imageRotate="0" src="assets/chlimage_1-422.png" /></li> 
+   <li><p>Click <strong>Save</strong>.<br /> </p> </li> 
+  </ol> 
+  <h4>Setting User and Group Preferences</h4> 
+  <p>To set user and group preferences, including language, window management, and toolbar preferences:</p> 
+  <ol> 
+   <li><p>Select the user or group whose preferences you want to change in the left-hand tree. To select multiple users or groups, Ctrl+click or Shift+click your selections.</p> </li> 
+   <li><p>Click the <strong>Preferences</strong> tab.</p> <img imageRotate="0" src="assets/cqsecuritypreferences.png" /></li> 
+   <li><p>Make changes, as necessary to the group or user preferences and click <strong>Save</strong> when finished.</p> </li> 
+  </ol> 
+  <h4>Setting users or administrators to have the privilege to manage other users</h4> 
+  <p>To set users or administrators to have the privileges to delete/activate/deactivate other users:<br /> </p> 
+  <ol> 
+   <li><p>Add the user you want to give privileges to manage other users to the administrator group and save your changes.<br /> </p> <img imageRotate="0" src="assets/cqsecurityaddmembertoadmin.png" /></li> 
+   <li><p>In the user's <strong>Permissions</strong> tab, navigate to "/" and in the Replicate column, select the check box to allow replication at "/" and click <strong>Save</strong>.<br /> </p> <img imageRotate="0" src="assets/cqsecurityreplicatepermissions.png" /><p>The selected user now has the ability to deactivate, activate, delete, and create users.</p> </li> 
+  </ol> 
+  <h3>Extending Privileges on a Project Level</h3> 
+  <p>If you plan to implement application-specific privileges, the following information describes what you need to know to implement a custom privilege and how to enforce it throughout CQ:</p> 
+  <p>The hierarchy-modification privilege is covered by a combination of jcr-privileges. The replication privilege is named <strong>crx:replicate</strong> that is stored/evaluated along with other privileges on the jcr repository. It is, however, not enforced on the jcr level.</p> 
+  <p>The definition and registration of custom privileges is officially part of the <a href="http://svn.apache.org/viewvc/jackrabbit/trunk/jackrabbit-api/src/main/java/org/apache/jackrabbit/api/security/authorization/PrivilegeManager.java">Jackrabbit API</a> as of version 2.4 (see also <a href="https://issues.apache.org/jira/browse/JCR-2887">JCR-2887</a>). Further usage is covered by JCR Access Control Management such as definedby <a href="http://jcp.org/en/jsr/detail?id=283">JSR 283</a> (section 16). In addition, the Jackrabbit API defines a couple of extensions.</p> 
+  <p>The privilege registration mechanism is reflected in the UI under <strong>Repository Configuration</strong>. </p> 
+  <p>The registration of new (custom) privileges is itself protected by a built-in privilege that must be granted on the repository level (in JCR: passing 'null' as the 'absPath' parameter in the ac mgt api, see jsr 333 for details). By default, <strong>admin</strong> and all members of administrators have that privilege granted.</p> 
+  <note> 
+   <p>While the implementation takes care of validating and evaluating custom privileges, it cannot enforce them unless they are aggregates of built-in privileges.</p> 
+  </note> 
+ </body> 
+</html>

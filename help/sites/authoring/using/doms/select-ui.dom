@@ -1,0 +1,121 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="aheimoz" name="cq:lastReplicatedBy" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:introduction;content_type:reference" name="cq:tags" />
+  <meta content="Chris Bohnert" name="contentOwner" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="Selecting your UI" name="jcr:title" />
+  <meta content="Configure which interface you will use to work in AEM" name="seoDescription" />
+  <meta content="audience:authoring" name="primaryAudienceTag" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="/content/help/en/experience-manager/6-4/sites/authoring/morehelp/introduction;/content/help/en/experience-manager/6-4/sites/authoring/morehelp/introduction" name="moreHelpPaths" />
+  <meta content="2019-01-24T02:24:47.461-0500" name="topicBrowsingSortDate" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2017-10-31T16:19:52.138-0400" name="firstPublishExternalDate" />
+  <meta content="b09e9f81-762d-4a50-8c75-5a78fe79b671" name="jcr:predecessors" />
+  <meta content="2017-12-01T19:02:46.633-0500" name="jcr:created" />
+  <meta content="2019-01-24T02:24:47.487-0500" name="cq:lastReplicated" />
+  <meta content="aheimoz" name="cq:lastModifiedBy" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" />
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" />
+  <meta content="71d72555-fa2d-4b66-9698-ff20dcd98478" name="jcr:uuid" />
+  <meta content="Selecting your UI" name="seoTitle" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" />
+  <meta content="Selecting your UI" name="navTitle" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="2019-01-24T02:24:47.461-0500" name="lastPublishExternalDate" />
+  <meta content="/content/docs/en/aem/6-3/author/author-environment/select-ui" name="qaNotes" />
+  <meta content="2019-01-24T02:24:47.461-0500" name="publishExternalDate" />
+  <meta content="aheimoz@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/select-ui.html" name="publishExternalURL" />
+  <meta content="2018-04-19T10:35:11.699-0400" name="locHandOffDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2019-01-24T02:24:47.465-0500" name="cq:lastModified" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="en_us" name="jcr:language" />
+ </head>
+ <body>
+  <p>Although the touch-enabled UI is now the standard UI and feature parity has been nearly reached with the administration and editing of sites, there may be times when the user wishes to switch to the <a href="../../../sites/classic-ui-authoring/using/classicui.md">classic UI</a>. There are several options for doing this.</p> 
+  <note>
+   <p>For details on the status of feature parity with the classic UI, see the <a href="../../../release-notes/touch-ui-features-status.md">Touch UI Feature Parity</a> document.</p> 
+  </note>
+  <p>There are various locations where you can define which UI is to be used:</p> 
+  <ul> 
+   <li><a href="#configuringthedefaultuiforyourinstance">Configuring the default UI for your instance</a><br /> This will set the default UI to be shown at user login, although the user may be able to override this and select a different UI for their account or current session.<br /> </li> 
+   <li><a href="../../../sites/authoring/using/select-ui.md#main-pars-title">Setting Classic UI Authoring for your account</a><br /> This will set the UI to be used as default when editing pages, although the user can override this and select a different UI for their account or current session.<br /> </li> 
+   <li><a href="#switchingtoclassicuiforthecurrentsession">Switching to classic UI for the current session</a><br /> This switches to the classic UI for the current session.</li> 
+   <li>For the case of <a href="#uioverridesfortheeditor">page authoring the system makes certain overrides in the relation to the UI</a>.</li> 
+  </ul> 
+  <note>
+   <p>Various options for switching to the classic UI are not immediately available out-of-the-box, they must be specifically configured for your instance.</p> 
+   <p>See <a href="../../../sites/administering/using/enable-classic-ui.md">Enabling Access to Classic UI</a> for more information.</p> 
+  </note>
+  <note>
+   <p>Instances upgraded from a previous version will retain the classic UI for page authoring.</p> 
+   <p>After upgrade, page authoring will not be automatically switched to the touch-enabled UI, but you can configure this using the the <a href="../../../sites/deploying/using/configuring-osgi.md">OSGi configuration</a> of the <strong>WCM Authoring UI Mode Service</strong> (<span class="code">AuthoringUIMode</span> service). See <a href="#uioverridesfortheeditor">UI Overrides for the Editor</a>.<br /> </p> 
+  </note>
+  <h2>Configuring the Default UI for Your Instance</h2>
+  <p>A system administrator can configure the UI that is seen at startup and login by using <a href="../../../sites/deploying/using/osgi-configuration-settings.md#daycqrootmapping">Root Mapping</a>.</p> 
+  <p>This can be overridden by user defaults or session settings.</p> 
+  <h2>Setting Classic UI Authoring for Your Account</h2>
+  <p>Each user can access his/her <a href="../../../sites/authoring/using/user-properties.md#userpreferences">user preferences</a> to define if he/she wishes to use the classic UI for page authoring (instead of the default UI).</p> 
+  <p>This can be overridden by session settings.</p> 
+  <h2>Switching to Classic UI for the Current Session</h2>
+  <p>When using the touch-enabled UI desktop users might want to revert to the classic (desktop only) UI. There are several methods to switch to the classic UI for the current session:</p> 
+  <ul>
+   <li> 
+    <note>
+     <p>This option for switching to the classic UI is not immediately available out-of-the-box, it must be specifically configured for your instance.</p> 
+     <p>See <a href="../../../sites/administering/using/enable-classic-ui.md">Enabling Access to Classic UI</a> for more information.</p> 
+    </note><p>If this is enabled, whenever you mouseover an applicable console, an icon appears (symbol of a monitor), tapping/clicking this will open the appropriate location in the classic UI.</p> <p>For examples, the links from <strong>Sites</strong> to <strong>siteadmin</strong>:<br /> </p> <img imageRotate="0" src="assets/screen_shot_2018-03-23at111924.png" /></li>
+   <li> <p>The classic UI can be accessed using the URL for the welcome screen at <span class="code">welcome.html</span>. For example:</p>  
+    <note>
+     <p>The touch-enabled UI can be accessed via <span class="code">sites.html</span>. For example:</p> 
+     <p><span class="code"> http://localhost:4502/sites.html</span></p> 
+    </note></li>
+  </ul>
+  <h3>Switching to Classic UI when Editing a Page</h3>
+  <note>
+   <p>This option for switching to the classic UI is not immediately available out-of-the-box, it must be specifically configured for your instance.</p> 
+   <p>See <a href="../../../sites/administering/using/enable-classic-ui.md">Enabling Access to Classic UI</a> for more information.</p> 
+  </note>
+  <p>If enabled, <strong>Open the Classic UI</strong> is available from the <strong>Page Information</strong> dialog:<br /> </p> 
+  <img imageRotate="0" src="assets/chlimage_1-49.png" />
+  <h3>UI Overrides for the Editor</h3>
+  <p>The settings defined by a user or system administrator can be overriden by the system in the case of page authoring.</p> 
+  <ul> 
+   <li>When authoring pages:
+    <ul> 
+     <li>Use of the classic editor is forced when accessing the page using <span class="code">cf#</span> in the URL. For example:<br /> <span class="code">http://localhost:4502/cf#/content/geometrixx/en/products/triangle.html</span></li> 
+     <li>Use of the touch-enabled editor is forced when using <span class="code">/editor.html</span> in the URL or when using a touch device. For example:<br /> <span class="code">http://localhost:4502/editor.html/content/geometrixx/en/products/triangle.html</span></li> 
+    </ul> </li> 
+   <li>Any forcing is temporary and only valid for the browser session<br /> 
+    <ul> 
+     <li>A cookie set will be set dependent on whether touch-enabled (<span class="code">editor.html</span>) or classic (<span class="code">cf#</span>) is used.<br /> </li> 
+    </ul> </li> 
+   <li>When opening pages through <span class="code">siteadmin</span>, checks will be made for the existence of:
+    <ul> 
+     <li>The cookie</li> 
+     <li>A user preference<br /> </li> 
+     <li>If neither exist, it will default to the definitions set in the <a href="../../../sites/deploying/using/configuring-osgi.md">OSGi configuration</a> of the <strong>WCM Authoring UI Mode Service</strong> (<span class="code">AuthoringUIMode</span> service).</li> 
+    </ul> </li> 
+  </ul> 
+  <note>
+   <p>If <a href="#settingthedefaultauthoringuiforyouraccount">a user has already defined a preference for page authoring</a>, that will not be overridden by changing the OSGi property.</p> 
+  </note>
+  <note>
+   <p>Due to the use of cookies, as already described, it is not recommended to either:</p> 
+   <ul> 
+    <li>Manually edit the URL - A non-standard URL could result in an unknown situation and lack of functionality.</li> 
+    <li>Have both editors open at the same time - For example, in separate windows.<br /> </li> 
+   </ul> 
+  </note>
+ </body>
+</html>

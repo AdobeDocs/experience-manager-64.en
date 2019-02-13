@@ -1,0 +1,376 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS;topic_tags:dynamic-media;content_type:reference" name="cq:tags" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS" name="primaryProductTag" /> 
+  <meta content="2018-08-16T17:36:13.786-0400" name="publishExternalDate" /> 
+  <meta content="Learn how to work with interactive images in dynamic media" name="seoDescription" /> 
+  <meta content="286" name="acrolinxSentences" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="Interactive Images" name="seoTitle" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="jsyal" name="cq:lastReplicatedBy" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="Interactive Images" name="jcr:title" /> 
+  <meta content="/content/help/en/experience-manager/6-4/assets/morehelp/dynamic-media;/content/help/en/experience-manager/6-4/assets/morehelp/dynamic-media" name="moreHelpPaths" /> 
+  <meta content="2018-04-24T11:57:48.234-0400" name="locHandOffDate" /> 
+  <meta content="ce940f01-d529-47e9-a3c5-52a455a72335" name="jcr:predecessors" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="Interactive Images" name="navTitle" /> 
+  <meta content="yellow" name="acrolinxPageStatus" /> 
+  <meta content="2017-10-31T16:34:44.041-0400" name="firstPublishExternalDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2018-08-16T17:36:13.786-0400" name="topicBrowsingSortDate" /> 
+  <meta content="/content/docs/en/aem/6-3/author/assets/dynamic-media/interactive-images" name="qaNotes" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2018-03-03T08:01:08.254-0500" name="jcr:created" /> 
+  <meta content="rbrough" name="cq:lastModifiedBy" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="4380" name="acrolinxWords" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/assets/using/interactive-images.html" name="publishExternalURL" /> 
+  <meta content="2018-10-27T23:42:58.539-0400" name="cq:lastReplicated" /> 
+  <meta content="checked_not_improved" name="acrolinxStatus" /> 
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/interactive_images_krs_workflow_f3c2f2ccebf6138e_145_report.xml" name="acrolinxReportURL" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="rbrough@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="1fbb3f0d-b659-43dd-bbc4-aca1beafcfab" name="jcr:uuid" /> 
+  <meta content="Alva Ware-Bevacqui" name="contentOwner" /> 
+  <meta content="2018-08-16T17:36:13.792-0400" name="cq:lastModified" /> 
+  <meta content="2019-01-12T17:30:28.209-0500" name="acrolinxDate" /> 
+  <meta content="asgupta" name="acrolinxLastCheckedBy" /> 
+  <meta content="2018-08-16T17:36:13.786-0400" name="lastPublishExternalDate" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+ </head> 
+ <body> 
+  <p>You can easily make static images rich, engaging experiences for customers by dragging and dropping "shoppable" hotspots onto an image. Shoppable hotspots combine additional information about a product or service with a direct, point-of-sale "Add to cart" or "Buy" capability. Customers can tap or click these hotspots and be linked directly to the product or service, add it to a shopping cart, or be linked to a web page. Direct experiences such as these increase customer engagment and conversion on your web site.</p> 
+  <p>The following is a shoppable banner with a Quickview pop-up. A user activates the Quickview by tapping the circle or "hotspot" on the model.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-369.png" /> 
+  <p>See interactive images in action on the web page above by going to the following:</p> 
+  <p><a href="https://marketing.adobe.com/resources/help/en_US/dm/shoppable-banner/we-fashion-QVzoom/index2-shoppable.html">https://marketing.adobe.com/resources/help/en_US/dm/shoppable-banner/we-fashion-QVzoom/index2-shoppable.html</a></p> 
+  <h3>Watch how interactive image banners are created</h3> 
+  <p>Watch a 10 minute and 33 second walkthrough on <a href="http://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=http://s7d5.scene7.com/is/content/&amp;emailurl=http://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=http://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video_social&amp;contenturl=http://s7d5.scene7.com/skins/&amp;asset=S7tutorials/InteractiveCarouselBanner">how interactive image banners are created</a>. You will also learn how to preview, edit, and deliver interactive image banners.</p> 
+  <h2>Quick Start: Interactive Images</h2> 
+  <p>The following step-by-step workflow description is designed to help you get up and running quickly with interactive images in AEM Assets.</p> 
+  <p>Look for the <strong>Example</strong> heading within some of the Quick Start tasks. It contains a brief tutorial that is based on the following web page example that does not yet have Interactive Images added to it:</p> 
+  <p><a href="https://marketing.adobe.com/resources/help/en_US/dm/shoppable-banner/we-fashion/landing-0.html">https://marketing.adobe.com/resources/help/en_US/dm/shoppable-banner/we-fashion/landing-0.html</a></p> 
+  <p>The tutorial helps to illustrate the steps of integrating interactive images on your own website.</p> 
+  <p>Interactive Images steps:</p> 
+  <ol> 
+   <li><strong>(Optional) Identifying hotspot variables</strong> - If you use AEM Assets and Dynamic Media standalone, start by identifying dynamic variables used in your existing Quickview implementation so that you can enter hotspot data when creating the interactive image. See <a href="#optionalidentifyinghotspotvariables">(Optional) Identifying hotspot variables</a>.<br /> However, if you use AEM Sites, or AEM eCommerce, or both, then this step is not necessary.<br /> See <a href="../../sites/administering/using/concepts.md">eCommerce concepts in AEM Assets</a>.<br /> </li> 
+   <li><strong>(Optional) Creating an Interactive Image viewer preset </strong>- Customize the graphic image that is used to represent hotspots. Creating your own Interactive Image viewer preset is not required if you intend to use the out-of-the-box Interactive Image viewer preset named <span class="code">Shoppable_Banner</span> instead.<strong><br /> </strong>See <a href="../../assets/using/managing-viewer-presets.md#creatinganewviewerpreset">(Optional) Creating an Interactive Image viewer preset</a>.<br /> </li> 
+   <li><strong>Uploading an image banner</strong> - Upload image banners that you want to make interactive.<br /> See <a href="#uploadinganimagebanner" style="font-size: 1em; line-height: 1.25em;">Uploading an image banner</a>.<br /> </li> 
+   <li><strong>Adding hotspots to an image banner</strong> - Add one or more hotspots to an image banner and associate each one with an action such as a hyperlink, a Quickview, or an Experience Fragment. After you add hotspots, you will finish this task by publishing the interactive image.<br /> See <a href="#addinghotspotstoanimagebanner" style="font-size: 1em; line-height: 1.25em;">Adding hotspots to an image banner</a>.<br /> See <a href="#optionalpreviewinginteractiveimages">Previewing interactive images</a> - Optional. If desired, you can view a representation of your shoppable banner and test its interactivity.<br /> See <a href="../../assets/using/publishing-dynamicmedia-assets.md">Publishing Assets</a> for details on how to publish interactive image assets.<br /> </li> 
+   <li><strong>Adding an interactive image to your website or to your website in AEM</strong><br /> If you use AEM Sites, or AEM eCommerce, or both, you can add the interactive image directly to a web page in AEM by dragging the Interactive Media component onto the page. See <a href="../../assets/using/adding-dynamic-media-assets-to-pages.md">Adding Dynamic Media Assets to Pages.</a><br /> If you use AEM Assets and Dynamic Media standalone, you must copy the embed code on your website and then integrate it with your existing Quickview. See <a href="#integratinganinteractiveimagewithyourwebsite">Integrating an interactive image with your website</a>.<br /> If you are using a third party WCM (Web Content Manager), you must integrate the new interactive video with the existing Quickview implementation that is used on your website. See <a href="#integratinganinteractiveimagewithanexistingquickview">Integrating an interactive image with an existing Quickview</a>.</li> 
+  </ol> 
+  <h2>(Optional) Identifying hotspot variables</h2> 
+  <note> 
+   <p>This task is only required if the following are true:</p> 
+   <ul> 
+    <li>You want to add interactivity to your image by triggering to Quickviews.</li> 
+    <li>Your implementation of AEM does <em>not</em> use an eCommerce integration framework for pulling product data into AEM from any eCommerce solution such as IBM Websphere Commerce, Elastic Path, hybris, or Intershop. See <a href="../../sites/administering/using/concepts.md">eCommerce concepts in AEM Assets</a>.</li> 
+   </ul> 
+   <p>If your implementation of AEM uses eCommerce, you can skip this task and proceed to the next task.</p> 
+  </note> 
+  <p>Start by identifying dynamic variables used by your existing Quickview implementation so that you can enter hotspot data to create the interactive image.</p> 
+  <p>When you add hotspots to a banner image in AEM Assets you need to assign a SKU (Stock Keeping Unit; a unique identifier for each distinct product or service that you offer) and optional additional variables to each hotspot. Such hotspot variables are used later to match hotspots with Quickview content.</p> 
+  <p>It is important to properly identify the number and type of variables to associate with hotspot data. Each hotspot added to a banner image must carry enough information to unambiguously identify the product in the existing backend system. </p> 
+  <p>There are different ways to identify a set of variables to use for hotspot data.</p> 
+  <p>Sometimes it may be enough to consult with IT specialists responsible for the existing Quickview implementation, as they are likely to know what is the minimum set of data needed to identify Quickview in the system. However, in most cases it is also possible to simply analyze the existing behavior of the front-end code.</p> 
+  <p>The majority of Quickview implementations use the following paradigm:</p> 
+  <ul> 
+   <li>User activates a user interface element on the website. For example, clicking a "Quickview" button.</li> 
+   <li>The website sends an Ajax request to the backend to load the Quickview data or content, if needed.</li> 
+   <li>The Quickview data is translated into the content in preparation for rendering on the web page.</li> 
+   <li>Finally, the front-end code visually renders such content on the screen.</li> 
+  </ul> 
+  <p>The approach then is to visit different areas of the existing website where the Quickview feature is implemented, trigger the Quickview and capture the Ajax URL sent by web page for loading the Quickview data or content.</p> 
+  <p>Normally there is no need for you to use any specialized debugging tools. Modern web browsers feature web inspectors that do an adequate job. The following are a few examples of web browsers that include web inspectors:</p> 
+  <ul> 
+   <li>To see all outgoing HTTP requests in Google Chrome, press F12 to open the Developer Tools panel, and then click the Network tab.<br /> On a Mac, press Command+Option+I to open the Developer Tools panel, then click the Network tab.<br /> </li> 
+   <li>In Firefox, you can either activate the Firebug plug-in by pressing F12 and use its Net tab, or you can use the built-in Inspector tool and its Network tab.<br /> On a Mac, press Command+Option+I to open the Developer Tools panel, then click the Inspector tab.</li> 
+  </ul> 
+  <p>When network monitoring is turned on in the browser, trigger the Quickview on the page.</p> 
+  <p>Now find the Quickview Ajax URL in the network log and copy the recorded URL for future analysis. In most cases when you trigger the Quickview there are numerous requests that are sent out to the server. Typically, the Quickview Ajax URL is one of the first in the list. It has either a complex query string portion or path, and its response MIME type is either<span class="code"> text/html</span>, <span class="code">text/xml</span>, or <span class="code">text/javascript</span>.</p> 
+  <p>During this process it is important to visit different areas of your website, with different product categories and types. The reason is that Quickview URLs may have parts that are common for a given website category, but change only if you visit a different area of the website.</p> 
+  <p>In the simplest case, the only variable part in the Quickview URL is the product SKU. In this case, the SKU value is the only data piece that you need for adding hotspots to the banner image.</p> 
+  <p>However, in complex cases, the Quickview URL has different varying elements in addition to the SKU, such as category ID, color code, size code, and so forth. In such cases, every element is a separate variable in your hotspot data definition in the shoppable interactive image feature in AEM Assets.</p> 
+  <p>Consider the following examples of Quickview URLs and their resulting hotspot variables:</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td colspan="2" rowspan="3"> 
+      <table border="1" cellpadding="4" cellspacing="0"> 
+       <tbody> 
+        <tr> 
+         <td valign="top" width="22.271714922048996%"><p>Single SKU, found in the query string.</p> </td> 
+         <td valign="top" width="77.728285077951%"><p>The recorded Quickview URLs include the following:</p> 
+          <ul> 
+           <li> </li> 
+           <li> </li> 
+           <li> </li> 
+           <li> </li> 
+          </ul> <p>The only variable part in the URL is the value of the productId= query string parameter, and it is clearly a SKU value. Therefore, our hotspots only need SKU fields populated with values like <strong><span class="code">866558</span></strong>, <strong><span class="code">1196184</span></strong>, <strong><span class="code">1081492</span></strong>, <strong><span class="code">1898294</span></strong>.</p> </td> 
+        </tr> 
+        <tr> 
+         <td valign="top" width="22.271714922048996%"><p>Single SKU, found in the URL path.</p> </td> 
+         <td valign="top" width="77.728285077951%"><p>The recorded Quickview URLs include the following:</p> 
+          <ul> 
+           <li> </li> 
+           <li> </li> 
+           <li> </li> 
+          </ul> <p>The variable part is in the last portion of the path, and it becomes the SKU value of the hotspots: <strong><span class="code">6422350843</span></strong>, <strong><span class="code">1607745002</span></strong>, <strong><span class="code">0086724882</span></strong>.</p> </td> 
+        </tr> 
+        <tr> 
+         <td valign="top" width="22.271714922048996%"><p>SKU and category ID in the query string.</p> </td> 
+         <td valign="top" width="77.728285077951%"><p>The recorded Quickview URLs include the following:</p> 
+          <ul> 
+           <li> </li> 
+           <li> </li> 
+           <li> </li> 
+          </ul> <p>In this case, there are two varying parts in the URL. The SKU is stored in the <span class="code">prodId</span> parameter and the category ID<span class="code"></span> is stored in the <span class="code">category=</span> parameter.</p> <p>As such, the hotspot definitions are pairs. That is, a SKU value and an additional variable called <span class="code">categoryId</span>. The resulting pairs are the following:</p> 
+          <ul> 
+           <li><p>SKU is <strong><span class="code">305466</span></strong> and <span class="code">categoryId</span> is <span class="code">1100004</span>.</p> </li> 
+           <li><p>SKU is <strong><span class="code">310181</span></strong> and <span class="code">categoryId</span> is <strong><span class="code">1100004</span></strong>.</p> </li> 
+           <li><p>SKU is <strong><span class="code">308706</span></strong> and <span class="code">categoryId</span> is <strong><span class="code">1740148</span></strong>.</p> </li> 
+          </ul> <p> </p> </td> 
+        </tr> 
+       </tbody> 
+      </table> </td> 
+    </tr> 
+    <tr></tr> 
+    <tr></tr> 
+   </tbody> 
+  </table> 
+  <p><strong>Example</strong></p> 
+  <p>You can apply the same approach used in the three examples above to the demo web page:</p> 
+  <p><a href="https://marketing.adobe.com/resources/help/en_US/dm/shoppable-banner/we-fashion/landing-0.html">https://marketing.adobe.com/resources/help/en_US/dm/shoppable-banner/we-fashion/landing-0.html</a></p> 
+  <p>The demo web page has several product thumbnails, each having a Quickview button labeled “See More”. With your web browser's debugging tool still activated, click each button and note the recorded Quickview URLs. After you activate all four product Quickviews available on the page, you have the following list of Quickview requests made to the backend:</p> 
+  <ul> 
+   <li><span class="code">/datafeed/Men-Windbreaker.json</span></li> 
+   <li><span class="code">/datafeed/Men-SimpleHenley.json</span></li> 
+   <li><span class="code">/datafeed/Men-CamoPullover.json</span></li> 
+   <li><span class="code">/datafeed/Women-QuiltedDownJacket.json</span></li> 
+  </ul> 
+  <p>Looking at these server calls, you see that product-specific information is only present in the request path. You also notice that the query string is not used at all and there are two distinct types of data pieces involved:</p> 
+  <ul> 
+   <li>The first type is Men or Women. You can call this "product category".</li> 
+   <li>The second type is product name, such as CamoPullover. You can assume this is the product SKU.</li> 
+  </ul> 
+  <p>Given this information, the entire Quickview URL has the following pattern:</p> 
+  <p><span class="code">/datafeed/$categoryId$-$SKU$.json</span></p> 
+  <p>Based on such analysis, you would use <span class="code">categoryId</span> and <span class="code">SKU</span> for hotspots.</p> 
+  <p>You are now ready to upload an image banner and add hotspots to it using the shoppable interactive image feature in AEM Assets.</p> 
+  <h2>(Optional) Creating an Interactive Image viewer preset</h2> 
+  <p>You can choose to use the default, out-of-the-box Interactive Image viewer preset called <strong>Shoppable_Banner </strong>that comes with AEM Assets. Or you can create your own custom viewer preset for use with interactive images.</p> 
+  <p>When you create a custom Interactive Image viewer preset, you can determine the look of hotspots on the image banner. As part of the creation of the viewer preset, you can choose to use a hotspot graphic from a gallery of pre-defined images.</p> 
+  <p>After you save the viewer preset, it is automatically activated (turned on) on the Viewer Preset list page in AEM Assets. This functionality means that it is visible in the Interactive Media component and whenever you view an asset. However, to <i>deliver </i>an interactive banner with this viewer preset, you must <i>publish </i>your viewer preset as well (this is true for custom or out-of-box viewer presets). </p> 
+  <p>To create an Interactive Image viewer preset:</p> 
+  <ol> 
+   <li><p>In the left rail, tap <strong>Tools</strong> &amp;gt; <strong>Assets</strong> &amp;gt; <strong>Viewer Presets</strong>.</p> </li> 
+   <li><p>Near the upper-right corner of the page, tap <strong>Create</strong>.</p> </li> 
+   <li><p>In the New Viewer Preset dialog box, type a name to describe the interactive banner viewer preset.<br /> This is the title that will appear in the Viewer Preset list page after you save.</p> </li> 
+   <li><p>In the Rich Media Type pull-down menu, select <strong>Interactive Image</strong>.</p> </li> 
+   <li><p>Tap <strong>Create</strong>.</p> </li> 
+   <li><p>On the Edit Viewer Preset page, tap the <strong>Appearance</strong> tab.</p> </li> 
+   <li><p>Do one of the following:</p> 
+    <ul> 
+     <li>To upload your own hotspot image that you want to use on images, tap the Asset Picker icon. In the Select Content page, navigate to the hotspot image you want to use, select it, and then tap the Check Mark icon in the upper-right corner.</li> 
+     <li>To select a predefined hotspot image, tap the Hotspot Gallery icon. On the hotspot gallery pallette, tap the hotspot image you want to use.</li> 
+    </ul> </li> 
+   <li><p>Near the upper-right corner of the page, tap <strong>Save</strong>.</p> <p>Be sure you publish the new viewer preset.</p> <p>See <a href="../../assets/using/managing-viewer-presets.md#publishingviewerpresets">Publishing Viewer Presets That You Have Added</a>.</p> <p>You are now ready to upload an image banner.</p> </li> 
+  </ol> 
+  <h2>Uploading an image banner</h2> 
+  <p>If you have already uploaded the images that you want to use, advance to the next step, <a href="#addinghotspotstoanimagebanner" style="line-height: 1.3em;">Adding hotspots to an image banner</a>.<br /> </p> 
+  <p>To upload an image banner:</p> 
+  <ol> 
+   <li><p>Upload image banners that you want to make interactive.<br /> </p> <p>See <a href="../../assets/using/managing-assets-touch-ui.md#uploadingassets">Uploading assets</a>.<br /> </p> <p>You are now ready to add hotspots to the image banner; see the next task below.</p> </li> 
+  </ol> 
+  <h2>Adding hotspots to an image banner</h2> 
+  <p>You can add hotspots to an image banner using the editor on the Hotspot Management page.</p> 
+  <p>When you add hotspots, you can define them as a Quickview pop-up display, as a hyperlink, or an Experience Fragment.</p> 
+  <p>See <a href="../../sites/authoring/using/experience-fragments.md" target="_blank">Experience Fragments</a>.</p> 
+  <p>Undo and Redo options, near the upper-right corner of the page, are supported during your current creation/editing session.</p> 
+  <p>When you finish creating your interactive image, you can use Preview to see a representation of how your interactive image will appear to customers.</p> 
+  <p>See <a href="#optionalpreviewinginteractiveimages">(Optional) Previewing interactive images</a>.</p> 
+  <note> 
+   <p>When you add hotspots to an image in an Interactive Image or a Carousel Banner, the hotspot information is stored in the same metadata location--relative to the image's location--regardless of whether it is an Interactive Image or a Carousel Banner. This functionality means that you can easily re-use the same image--along with its defined hotspot data--in either viewer.<br /> <br /> Be aware, however, that Carousel Banners support image maps on images that can also contain hotspots; an Interactive Image does not. Keep this in mind if you intend to create an Interactive Image or Carousel Banner that uses the same image. You may want to create Interactive Images and Carousel Banners using separate copies of the same image instead.</p> 
+   <p>See also <a href="../../assets/using/carousel-banners.md" target="_blank">Carousel Banners</a>.</p> 
+  </note> 
+  <note> 
+   <p>If you are editing interactive images with hotspots and crop the image, your hotspots are removed.</p> 
+  </note> 
+  <p>To add hotspots to an image banner:</p> 
+  <ol> 
+   <li><p>In the Assets view, navigate to the image banner that you want to make interactive.</p> </li> 
+   <li><p>Do one of the following:</p> 
+    <ul> 
+     <li>Hover on the image, then tap <strong>Selec</strong>t (checkmark icon). On the toolbar, tap <strong>Edit</strong>.<br /> </li> 
+     <li>Hover on the image, then tap <strong>More actions</strong> (three dots icon) &amp;gt; <strong>Edit</strong>.</li> 
+     <li>Tap the image to open it in the Detail View page. On the toolbar, tap <strong>Edit</strong>.</li> 
+    </ul>  </li> 
+   <li><p>Near the upper-left corner of the page, tap <strong>Add Hotspot</strong> (finger tap icon) to open the Hotspot management page.</p> </li> 
+   <li><p>Near the upper-left corner of the page, tap <strong>Hotspot</strong>.</p> </li> 
+   <li> 
+    <ol> 
+     <li>Near the upper-left corner of the Hotspot Management page, tap <strong>Hotspot</strong>.</li> 
+     <li>On the image, tap a location where you want the hotspot to appear. If necessary, drag the hotspot to adjust its location.</li> 
+     <li>Add additional hotspots as necessary by repeating steps a and b.</li> 
+     <li>(Optional) To delete a hotspot, select it on the image, then tap <strong>Delete </strong>(garbage can icon) under the <strong>Hotspots</strong> heading.</li> 
+    </ol> </li> 
+   <li><p>In the Name text field, type the name of the hotspot. This name also appears in the Selected Hotspot drop-down list.</p> </li> 
+   <li><p>Do one of the following:</p> 
+    <ul> 
+     <li>Tap or click <strong>Quickview</strong>. 
+      <ul> 
+       <li>If you are an AEM Sites or eCommerce customer, tap or click the Product Picker icon (magnifying glass) to open the Select Product page. Tap or click the product you want to use, then tap <strong>Select </strong>in the upper-right corner of the page to return to the Hotspot management page.</li> 
+       <li> If you are <em>not</em> an AEM Sites or eCommerce customer 
+        <ul> 
+         <li>See <a href="#optionalidentifyinghotspotvariables">Identifying hotspot variables</a>; you will need to define these variables. </li> 
+         <li>Then, manually enter the SKU value. In the SKU Value text field, type the product's SKU (Stock Keeping Unit), which is a unique identifier for each distinct product or service that you offer. The entered SKU value automatically populates the variable portion of the Quickview template so that the system knows to associate the tapped hotspot with a particular SKU's Quickview.</li> 
+         <li>(Optional) If there are other variables within the Quickview that you need to use to further identify a product, tap <strong>Add Generic Variable</strong>. In the text field, specify an additional variable. For example, <span class="code">category=Mens</span> is an added variable.</li> 
+        </ul> </li> 
+      </ul> </li> 
+     <li>Tap or click <strong>Hyperlink</strong>. 
+      <ul> 
+       <li>If you are an AEM Sites customer, tap or click the Site Selector icon (folder) to navigate to a URL. Note that the URL-based method of linking is not possible if your interactive content has links with relative URLs, particularly links to AEM Sites pages.</li> 
+       <li>If you are a standalone customer, in the HREF text field, specify the full URL path to a linked web page.</li> 
+      </ul> </li> 
+    </ul> <p style="margin-left: 40px;">Be sure you specify whether to open the link in a new browser tab (recommended default) or the same tab.</p> <p style="margin-left: 40px;">See <a href="../../assets/using/working-with-selectors.md">Working with Selectors</a> for more information.</p> 
+    <ul> 
+     <li>Tap or click <strong>Experience Fragment</strong>. 
+      <ul> 
+       <li>If you are an AEM Sites customer, tap or click the Search icon (magnifying glass) to open the Experience Fragment page. Tap or click the Experience Fragment you want to use, then tap Select in the upper-right corner of the page to return to the Hotspot management page.<br /> See <a href="../../sites/authoring/using/experience-fragments.md" target="_blank">Experience Fragments</a>.</li> 
+      </ul> 
+      <ul> 
+       <li>Specify the width and height of the Experience Fragment as it will appear on the banner.</li> 
+      </ul> </li> 
+    </ul> </li> 
+   <li><p>Tap <strong>Save</strong> to save your work and return to the Browse page.</p> </li> 
+   <li><p>Publish the interactive image. Publishing allows for the banner to be delivered through the cloud and also generates embed code if you need to integrate with a third party website.</p> <p>See <a href="../../assets/using/managing-assets-touch-ui.md#publishingassets">Publishing assets</a>.</p> <p>After you have added hotspots and published the interactive image, you are now ready to add it to your existing website.</p> <p>See <a href="#integratinganinteractiveimagewithyourwebsite">Integrating an interactive image with your website</a>.</p> 
+    <note> 
+     <p>If you are editing interactive images with hotspots and crop the image, your hotspots are deleted.</p> 
+    </note></li> 
+  </ol> 
+  <h3>(Optional) Previewing interactive images</h3> 
+  <p>You can use Preview to see a representation of what your interactive image will look like to customers and to test the image's hotspots to ensure they are behaving as expected.</p> 
+  <p>When you are satisfied with the interactive image, you can publish it.<br /> See <a href="../../assets/using/embed-code.md">Embedding the Video or Image Viewer on a Web Page</a>.<br /> See <a href="../../assets/using/linking-urls-to-yourwebapplication.md">Linking URLs to your web application</a>. Note that the URL-based method of linking is not possible if your interactive content has links with relative URLs, particularly links to AEM Sites pages.<br /> See <a href="../../assets/using/adding-dynamic-media-assets-to-pages.md">Adding Dynamic Media Assets to Pages.</a></p> 
+  <p>To preview interactive images:</p> 
+  <ol> 
+   <li><p>In the Assets view, navigate to an existing interactive image that you have created and tap to open it in Preview.</p> </li> 
+   <li><p>Near the upper-left corner of the Preview page, in the Content drop-down list, tap <strong>Viewers</strong>.</p> </li> 
+   <li><p>In the Viewers list, tap <strong>Shoppable_Banner </strong>or the name of the interactive image viewer preset you have created.</p> </li> 
+   <li><p>Tap hotspots on the image to test their associated actions.</p> </li> 
+  </ol> 
+  <h2>Publishing interactive image assets</h2> 
+  <p>See <a href="../../assets/using/publishing-dynamicmedia-assets.md">Publishing Assets</a> for details on how to publish interactive image assets.</p>    
+  <h2>Integrating an interactive image with your website</h2> 
+  <p>After you have uploaded a banner image, added hotspots to the image, and published the interactive image, you are now ready to add it to your website page.</p> 
+  <p>If you are an AEM Sites customer, you can add the interactive image by dragging the Interactive Media component onto your page. See <a href="../../assets/using/adding-dynamic-media-assets-to-pages.md">Adding Dynamic Media Assets to Pages.</a></p> 
+  <p>If you are a standalone AEM Assets customer, you can manually add the interactive image to your website as described in this section.</p> 
+  <ol> 
+   <li>Copy the published interactive image's embed code.<br /> See <a href="../../assets/using/embed-code.md">Embedding the Video or Image Viewer on a Web Page</a>.</li> 
+   <li>Add the copied embed code on the desired location within the webpage. <br /> The copied embed code is set for a responsive environment so it should automatically fit the assigned area.</li> 
+  </ol> 
+  <p><strong><u>Example</u></strong></p> 
+  <p>Using the demo website as an example:</p> 
+  <p><a href="https://marketing.adobe.com/resources/help/en_US/dm/shoppable-banner/we-fashion/landing-0.html">https://marketing.adobe.com/resources/help/en_US/dm/shoppable-banner/we-fashion/landing-0.html</a></p> 
+  <p>Notice that the picture of the three men is a static <span class="code">IMG</span> tag:</p> 
+  <codeblock gutter="true" class="syntax xml">
+    &lt;img&amp;nbsp;class="img-responsive"&amp;nbsp;width="100%"&amp;nbsp;title="Hero&amp;nbsp;Image&amp;nbsp;2"&amp;nbsp;alt="Hero&amp;nbsp;Image&amp;nbsp;2"&amp;nbsp;src="images/shoppable-banner.jpg"&gt; 
+  </codeblock> 
+  <p>Integration is as simple as removing the <span class="code">IMG</span> tag and replacing it with the copied embed code from AEM Assets. You can see the result in the following URL which shows the shoppable interactive image on the page with three circle hotspots:</p> 
+  <p><a href="https://marketing.adobe.com/resources/help/en_US/dm/shoppable-banner/we-fashion/landing-1.html">https://marketing.adobe.com/resources/help/en_US/dm/shoppable-banner/we-fashion/landing-1.html</a></p> 
+  <note> 
+   <p>As this point, the hotspots on the shoppable interactive image of the demo website are for display purposes only; they are not yet integrated with the existing Quickviews.</p> 
+  </note> 
+  <p>To apply a "crop" to a shoppable interactive image for a responsive environment, you can include the Interactive Image configuration attribute <span class="code">ZoomView.iscommand</span> to the path--where <span class="code">ZoomView</span> is the component to call and <span class="code">iscommand</span> is the "crop" image serving command that you apply.</p> 
+  <p>See <a href="https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/r_html5_aem_interactive_image_config_attrib_zoomview_iscommand.html">ZoomView.iscommand</a> configuration attribute.</p> 
+  <p>See <a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/http_ref/r_crop.html">crop</a> image serving command.</p> 
+  <p>You are now ready to integrate the interactive image with an existing Quickview on your website.</p> 
+  <h2>Integrating an interactive image with an existing Quickview</h2> 
+  <note> 
+   <p>This task only applies if you are a standalone AEM Assets customer.</p> 
+  </note> 
+  <p>The last step in this process is integrating the interactive image with an existing Quickview implementation on your website. There is no solution to the integration that works for all cases. Every Quickview implementation is unique and a specific approach is needed that most likely involves the assistance of a front-end IT person.</p> 
+  <p>The existing Quickview implementation normally represents a chain of inter-related actions that happen on the web page in the following order:</p> 
+  <ol> 
+   <li>A user triggers an element in the user interface of your website.</li> 
+   <li>The front-end code obtains a Quickview URL based on the user interface element that was triggered in step 1.</li> 
+   <li>The front-end code sends an Ajax request using the URL obtained in step 2.</li> 
+   <li>The backend logic returns the corresponding Quickview data or content back to the front-end code.</li> 
+   <li>The front-end code loads the Quickview data or content.</li> 
+   <li>Optionally, the front-end code converts the loaded Quickview data into an HTML representation.</li> 
+   <li>The front-end code displays a modal dialog box or panel and renders the HTML content on the screen for the end user.</li> 
+  </ol> 
+  <p>These calls may not represent independent public API calls which can be called by the web page logic from an arbitrary step. Instead, it is a chained call where every next step is hidden in the last phase (callback) of the previous step.</p> 
+  <p>At the same time that the shoppable interactive image is replacing step 1, and partially step 2, when a user clicks a hotspot inside the shoppable image, such user interaction is handled by the viewer. The viewer returns an event to the web page that contains all the hotspot data previously added to AEM Assets.</p> 
+  <p>In such an event handler, the front-end code does the following:</p> 
+  <ul> 
+   <li>Listens to an event emitted by the shoppable interactive image.</li> 
+   <li>Constructs a Quickview URL based on the hotspot data.</li> 
+   <li>Triggers the process of loading the Quickview from the backend and rendering it on the screen for display.</li> 
+  </ul> 
+  <p>The embed code returned by AEM Assets already has a ready-to-use event handler in place that is commented out, as seen in the following highlighted code snippet:</p> 
+  <codeblock gutter="true" class="syntax xml">
+    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;var&amp;nbsp;s7interactiveimageviewer&amp;nbsp;=&amp;nbsp;new&amp;nbsp;s7viewers.InteractiveImage({!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"containerId"&amp;nbsp;:&amp;nbsp;"s7interactiveimage_div",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"params"&amp;nbsp;:&amp;nbsp;{&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"serverurl"&amp;nbsp;:&amp;nbsp;"https://aodmarketingna.assetsadobe.com/is/image",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"contenturl"&amp;nbsp;:&amp;nbsp;"https://aodmarketingna.assetsadobe.com/",&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"config"&amp;nbsp;:&amp;nbsp;"/etc/dam/presets/viewer/Shoppable_Media",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"asset"&amp;nbsp;:&amp;nbsp;"/content/dam/mac/aodmarketingna/shoppable-banner/shoppable-banner.jpg"&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;})!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/*&amp;nbsp;//&amp;nbsp;Example&amp;nbsp;of&amp;nbsp;interactive&amp;nbsp;image&amp;nbsp;event&amp;nbsp;for&amp;nbsp;Quickview.!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;s7interactiveimageviewer.setHandlers({&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"quickViewActivate":&amp;nbsp;function(inData)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;var&amp;nbsp;sku=inData.sku;&amp;nbsp;//SKU&amp;nbsp;for&amp;nbsp;product&amp;nbsp;ID!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//To&amp;nbsp;pass&amp;nbsp;other&amp;nbsp;parameter&amp;nbsp;from&amp;nbsp;the&amp;nbsp;hotspot,&amp;nbsp;you&amp;nbsp;will&amp;nbsp;need&amp;nbsp;to&amp;nbsp;add&amp;nbsp;custom&amp;nbsp;parameter&amp;nbsp;during&amp;nbsp;the&amp;nbsp;hotspot&amp;nbsp;setup&amp;nbsp;as&amp;nbsp;parameterName=value!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;loadQuickView(sku);&amp;nbsp;//Replace&amp;nbsp;this&amp;nbsp;call&amp;nbsp;with&amp;nbsp;your&amp;nbsp;Quickview&amp;nbsp;plugin!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//Please&amp;nbsp;refer&amp;nbsp;to&amp;nbsp;your&amp;nbsp;Quickviewer&amp;nbsp;plugin&amp;nbsp;for&amp;nbsp;the&amp;nbsp;Quickview&amp;nbsp;call!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;},&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;});!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*/!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;s7interactiveimageviewer.init(); 
+  </codeblock> 
+  <p>So, it is only necessary to uncomment the code and replace the dummy handler body with the code that is specific to the particular web page.</p> 
+  <p>The process of constructing the Quickview URL is basically opposite of the process used for identifying hotspot variables covered earlier.</p> 
+  <p>See <a href="#optionalidentifyinghotspotvariables">Identifying hotspot variables</a>.</p> 
+  <p>Using our previous Quickview URL examples, you can see, in the following examples, how the Quickview URL is constructed in each case:</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td valign="top" width="17.035775127768314%"><p>Single SKU, found in the query string</p> </td> 
+     <td valign="top" width="82.96422487223168%"><code class="code">s7interactiveimageviewer.setHandlers({
+       <discoiqbr /> "quickViewActivate": function(inData) {
+       <discoiqbr /> var quickViewUrl = "http://server/json?productId=" + inData.sku + "&amp;amp;source=100";
+       <discoiqbr /> },
+       <discoiqbr /> });</code></td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="17.035775127768314%"><p>Single SKU, found in the URL path</p> </td> 
+     <td valign="top" width="82.96422487223168%"><code class="code">s7interactiveimageviewer.setHandlers({
+       <discoiqbr /> "quickViewActivate": function(inData) {
+       <discoiqbr /> var quickViewUrl = "http://server/product/" + inData.sku;
+       <discoiqbr /> },
+       <discoiqbr /> });</code></td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="17.035775127768314%"><p>SKU and category ID in the query string</p> </td> 
+     <td valign="top" width="82.96422487223168%"><code class="code">s7interactiveimageviewer.setHandlers({
+       <discoiqbr /> "quickViewActivate": function(inData) {
+       <discoiqbr /> var quickViewUrl = "http://server/quickView/product/?category=" + inData.categoryId + "&amp;amp;prodId=" + inData.sku;
+       <discoiqbr /> },
+       <discoiqbr /> });</code></td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <p>The last step to trigger the Quickview URL and activate the Quickview panel most likely requires the assistance of a front-end IT person from your IT department. They have the knowledge to know best how to accurately trigger the Quickview implementation from the proper step, having a ready-to-use Quickview URL.</p> 
+  <p>You can see how these steps are applied to the demo website to fully integrate a shoppable interactive image with the Quickview code. Earlier, the structure of the Quickview URL was identified as the following:</p> 
+  <codeblock class="syntax xml">
+    /datafeed/$categoryId$-$SKU$.json 
+  </codeblock> 
+  <p>To reconstruct this URL inside the <span class="code">quickViewActivate</span> handler, you can use the <span class="code">categoryId</span> and <span class="code">SKU</span> fields available in the <span class="code">inData</span> object that is passed to the handler by the viewer's code:</p> 
+  <codeblock gutter="true" class="syntax xml">
+    var&amp;nbsp;sku=inData.sku;!!discoiqbr!!var&amp;nbsp;categoryId=inData.categoryId;!!discoiqbr!!var&amp;nbsp;quickViewUrl&amp;nbsp;=&amp;nbsp;"datafeed/"&amp;nbsp;+&amp;nbsp;categoryId&amp;nbsp;+&amp;nbsp;"-"&amp;nbsp;+&amp;nbsp;sku&amp;nbsp;+&amp;nbsp;".json"; 
+  </codeblock> 
+  <p>The demo website is triggering the Quickview dialog box using a simple <span class="code">loadQuickView()</span> function call. This function takes only one argument, which is the Quickview data URL. As such, the last step needed to integrate the shoppable interactive image is to add the following line of code to the <span class="code">quickViewActivate</span> handler:</p> 
+  <codeblock gutter="true" class="syntax xml">
+    loadQuickView(quickViewUrl); 
+  </codeblock> 
+  <p>The following is the complete source code:</p> 
+  <codeblock gutter="true" class="syntax xml">
+    &amp;nbsp;var&amp;nbsp;s7interactiveimageviewer&amp;nbsp;=&amp;nbsp;new&amp;nbsp;s7viewers.InteractiveImage({!!discoiqbr!!&amp;nbsp;&amp;nbsp;"containerId"&amp;nbsp;:&amp;nbsp;"s7interactiveimage_div",!!discoiqbr!!&amp;nbsp;&amp;nbsp;"params"&amp;nbsp;:&amp;nbsp;{&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;"serverurl"&amp;nbsp;:&amp;nbsp;"https://aodmarketingna.assetsadobe.com/is/image",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;"contenturl"&amp;nbsp;:&amp;nbsp;"https://aodmarketingna.assetsadobe.com/",&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;"config"&amp;nbsp;:&amp;nbsp;"/etc/dam/presets/viewer/Shoppable_Media",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;"asset"&amp;nbsp;:&amp;nbsp;"/content/dam/mac/aodmarketingna/shoppable-banner/shoppable-banner.jpg"&amp;nbsp;}!!discoiqbr!!&amp;nbsp;})!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;s7interactiveimageviewer.setHandlers({&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;"quickViewActivate":&amp;nbsp;function(inData)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;var&amp;nbsp;sku=inData.sku;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;var&amp;nbsp;categoryId=inData.categoryId;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;var&amp;nbsp;quickViewUrl&amp;nbsp;=&amp;nbsp;"datafeed/"&amp;nbsp;+&amp;nbsp;categoryId&amp;nbsp;+&amp;nbsp;"-"&amp;nbsp;+&amp;nbsp;sku&amp;nbsp;+&amp;nbsp;".json";!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;loadQuickView(quickViewUrl);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;},&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;});!!discoiqbr!!&amp;nbsp;s7interactiveimageviewer.init(); 
+  </codeblock> 
+  <p>The final demo website with the fully integrated interactive image looks like the following:</p> 
+  <p><a href="https://marketing.adobe.com/resources/help/en_US/dm/shoppable-banner/we-fashion/landing-3.html">https://marketing.adobe.com/resources/help/en_US/dm/shoppable-banner/we-fashion/landing-3.html</a></p> 
+  <h2>Using Quickviews to create custom pop-ups</h2> 
+  <p>See <a href="../../assets/using/custom-pop-ups.md">Using Quickviews to create custom pop-ups</a>.</p> 
+ </body> 
+</html>

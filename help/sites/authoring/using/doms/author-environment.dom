@@ -1,0 +1,75 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" />
+  <meta content="2018-04-19T10:28:23.636-0400" name="locHandOffDate" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2018-10-28T01:21:35.364-0400" name="lastPublishExternalDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="Get to know the author environment and how classic UI and the modern UI are different." name="seoDescription" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="Working with the Author Environment" name="seoTitle" />
+  <meta content="488b854e-ba4b-45f0-88ee-4a00ea14c2c7" name="jcr:predecessors" />
+  <meta content="2017-10-31T16:21:10.058-0400" name="firstPublishExternalDate" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="Chris Bohnert" name="contentOwner" />
+  <meta content="2018-10-28T01:21:35.405-0400" name="cq:lastReplicated" />
+  <meta content="/content/help/en/experience-manager/6-4/sites/authoring/morehelp/introduction;/content/help/en/experience-manager/6-4/sites/authoring/morehelp/introduction" name="moreHelpPaths" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" />
+  <meta content="2018-10-28T01:21:35.364-0400" name="publishExternalDate" />
+  <meta content="2018-10-28T01:21:35.371-0400" name="cq:lastModified" />
+  <meta content="audience:authoring" name="primaryAudienceTag" />
+  <meta content="fc03cb02-abce-4c04-a5df-92da09ba1fe5" name="jcr:uuid" />
+  <meta content="Working with the Author Environment" name="navTitle" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2017-12-01T19:01:13.763-0500" name="jcr:created" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-10-28T01:21:35.364-0400" name="topicBrowsingSortDate" />
+  <meta content="jsyal" name="cq:lastReplicatedBy" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:introduction;content_type:reference" name="cq:tags" />
+  <meta content="/content/docs/en/aem/6-3/author/author-environment" name="qaNotes" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="bohnert" name="cq:lastModifiedBy" />
+  <meta content="Working with the Author Environment" name="jcr:title" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="jsyal@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/author-environment.html" name="publishExternalURL" />
+ </head>
+ <body>
+  <note>
+   <p>The following documentation focuses on the AEM standard, touch-enabled UI. For information about authoring in the classic UI, see the <a href="/sites/classic-ui-authoring/user-guide">Classic UI Authoring User Guide</a>.</p> 
+  </note>
+  <p>The author environment allows for:</p> 
+  <ul> 
+   <li><a href="../../../sites/authoring/using/author.md">Authoring</a> (including <a href="../../../sites/authoring/using/page-authoring.md">page authoring</a>, <a href="/assets/user-guide">managing assets</a>, <a href="../../../communities/using/author-communities.md">communities</a>)<br /> </li> 
+   <li><a href="/sites/administering/user-guide">Administering</a> tasks you need when generating and maintaining the content on your website </li> 
+  </ul> 
+  <p>Two graphical user interfaces are provided to achieve this. These are accessible through any modern browser.</p> 
+  <ol>
+   <li><p>Touch-Enabled UI</p> 
+    <ul> 
+     <li>This is the modern, standard AEM UI.</li> 
+     <li>It is predominantly grey, with a clean, flat interface.</li> 
+     <li>Designed for use on both touch and desktop devices, the look and feel is the same on all devices, though <a href="../../../sites/authoring/using/basic-handling.md#viewingandselectingyourresources">viewing and selecting your resources</a> differs slightly (taps versus clicks).<br /> 
+      <ul> 
+       <li>Desktop:</li> 
+      </ul> </li> 
+    </ul> <img imageRotate="0" src="assets/screen_shot_2018-03-23at115248.png" /> 
+    <ul> 
+     <li style="margin-left: 40px;">Tablet devices (or desktop less than 1024 pixels wide):</li> 
+    </ul> <img imageRotate="0" src="assets/screen_shot_2018-03-23at115505.png" /></li>
+   <li><p>Classic UI</p> 
+    <ul> 
+     <li>This is the legacy UI and has been available in AEM for many years.</li> 
+     <li>It is predominantly green.</li> 
+     <li>It was designed for use on desktop devices.</li> 
+     <li>The following documentation focuses on the modern UI. For information about authoring in the classic UI, see the <a href="../../../sites/classic-ui-authoring/using/classicui.md">Authoring documentation for the Classic UI</a>.</li> 
+    </ul> <img imageRotate="0" src="assets/chlimage_1-282.png" /></li>
+  </ol>
+ </body>
+</html>

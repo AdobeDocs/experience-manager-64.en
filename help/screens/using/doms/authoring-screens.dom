@@ -1,0 +1,48 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/SCREENS;topic_tags:authoring" name="cq:tags" />
+  <meta content="Authoring Screens" name="seoTitle" />
+  <meta content="2018-11-02T13:40:00.017-0400" name="publishExternalDate" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/screens/using/authoring-screens.html" name="publishExternalURL" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="/content/docs/en/aem/6-3/author/authoring-screens" name="qaNotes" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="jsyal" name="cq:lastReplicatedBy" />
+  <meta content="2019-01-15T15:39:03.920-0500" name="jcr:created" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="/content/help/en/experience-manager/6-4/screens/morehelp/authoring;/content/help/en/experience-manager/6-4/screens/morehelp/authoring" name="moreHelpPaths" />
+  <meta content="fa4277a8-06cd-47ba-ac50-9260f7ed9f9c" name="jcr:uuid" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SCREENS" name="primaryProductTag" />
+  <meta content="2018-11-02T13:40:00.017-0400" name="topicBrowsingSortDate" />
+  <meta content="Jyotika syal" name="contentOwner" />
+  <meta content="7c55905a-81e6-47fc-b9de-a6db88d1eaba" name="jcr:predecessors" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="This page serves as a landing page for authoring AEM Screens. It provides an overview of the various roles and responsibilities of an AEM Screens author." name="seoDescription" />
+  <meta content="jsyal@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2017-10-31T16:21:05.136-0400" name="firstPublishExternalDate" />
+  <meta content="2018-04-19T10:28:35.402-0400" name="locHandOffDate" />
+  <meta content="2018-11-02T13:40:00.112-0400" name="cq:lastModified" />
+  <meta content="2018-11-02T13:40:00.017-0400" name="lastPublishExternalDate" />
+  <meta content="jsyal" name="cq:lastModifiedBy" />
+  <meta content="2018-11-02T13:40:01.823-0400" name="cq:lastReplicated" />
+  <meta content="" name="primaryAudienceTag" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="Authoring Screens" name="jcr:title" />
+ </head>
+ <body>
+  <p>An <strong><em>AEM Screens</em></strong> <strong><em>Author</em></strong> is responsible for creating and managing a user experience using the available components in AEM Screens. The author creates and reviews the content and provides an easy to use graphical user interface by configuring, deploying, and integrating the available segments of AEM Screens.</p> 
+  <p>An author typically begins the Screens project by creating a simple project, creating channels, adding components and assets to the channel, scheduling, creating locations and displays, followed by assigning channels to the displays. An author creates channels from the given sequences and knows the campaign audience and the desired focus. Thus, an AEM Screens author creates and orchestrates the end user experience by creating different channels and assigning sequences into timed channel experience.</p> 
+  <note>
+   <p>Additionally, you can create a simple digital signage experience, using <strong><a href="../../screens/using/kickstart-for-aem-screens.md">QuickStart for AEM Screens</a>.</strong></p> 
+  </note>
+ </body>
+</html>

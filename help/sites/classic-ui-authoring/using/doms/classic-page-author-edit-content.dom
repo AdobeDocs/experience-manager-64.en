@@ -1,0 +1,255 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="audience:classic-ui-authoring" name="primaryAudienceTag" /> 
+  <meta content="bohnert" name="cq:lastModifiedBy" /> 
+  <meta content="2017-12-01T19:02:38.578-0500" name="jcr:created" /> 
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" /> 
+  <meta content="Editing Page Content" name="seoTitle" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2018-10-30T09:06:40.299-0400" name="cq:lastReplicated" /> 
+  <meta content="Editing Page Content" name="jcr:title" /> 
+  <meta content="583cb323-6c8d-4aff-81ca-cbfff4fb09b2" name="jcr:predecessors" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="bohnert" name="cq:lastReplicatedBy" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2017-10-31T16:19:12.782-0400" name="firstPublishExternalDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:page-authoring;content_type:reference" name="cq:tags" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/classic-ui-authoring/using/classic-page-author-edit-content.html" name="publishExternalURL" /> 
+  <meta content="2018-10-30T09:06:26.589-0400" name="cq:lastModified" /> 
+  <meta content="33d9361c-4dff-4e75-ad0c-00638be62680" name="jcr:uuid" /> 
+  <meta content="mix:lockable;mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="2018-04-19T10:24:19.387-0400" name="locHandOffDate" /> 
+  <meta content="Content is added using components that can be dragged onto the page. These can then be edited in place, moved, or deleted." name="seoDescription" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/classic-ui-authoring/morehelp/page-authoring;/content/help/en/experience-manager/6-4/sites/classic-ui-authoring/morehelp/page-authoring" name="moreHelpPaths" /> 
+  <meta content="/content/docs/en/aem/6-3/author/classicui/page-authoring/editing-content" name="qaNotes" /> 
+  <meta content="2018-04-03T06:44:37.624-0400" name="lastPublishExternalDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2018-04-03T06:44:37.624-0400" name="publishExternalDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2018-04-03T06:44:37.624-0400" name="topicBrowsingSortDate" /> 
+  <meta content="Chris Bohnert" name="contentOwner" /> 
+  <meta content="Editing Page Content" name="navTitle" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+ </head> 
+ <body>  
+  <p>Once your page is created (either new or as part of a launch or live copy) you can edit the content to make the updates you require.</p> 
+  <p>Content is added using <a href="../../../sites/classic-ui-authoring/using/classic-page-author-conponent-console.md">components</a> (appropriate to the content type) that can be dragged onto the page. These can then be edited in place, moved, or deleted.<br /> </p> 
+  <note> 
+   <p>Your account needs the <a href="../../../sites/administering/using/security.md">appropriate access rights</a> and <a href="../../../sites/administering/using/security.md#permissions">permissions</a> to edit pages; for example, adding, editing or deleting components, annotating, unlocking.</p> 
+   <p>If you encounter any problems we suggest you contact your system administrator.</p> 
+  </note> 
+  <h2>Sidekick</h2> 
+  <p>The sidekick is a key tool when authoring pages. It floats when authoring a page, so it is always visible.</p> 
+  <p>Several tabs and icons are available, including:</p> 
+  <ul> 
+   <li>Components</li> 
+   <li>Page</li> 
+   <li>Information</li> 
+   <li>Versioning</li> 
+   <li>Workflow</li> 
+   <li>Modes</li> 
+   <li>Scaffolding</li> 
+   <li>Client Context</li> 
+   <li>Websites</li> 
+  </ul> 
+  <img imageRotate="0" src="assets/chlimage_1-108.png" /> 
+  <p>These provide access to a wide selection of functionality; including:<br /> </p> 
+  <ul> 
+   <li><a href="../../../sites/classic-ui-authoring/using/classic-page-author-env-tools.md#main-pars-title-18">selecting components</a> </li> 
+   <li><a href="../../../sites/classic-ui-authoring/using/classic-page-author-env-tools.md#main-pars-title-23">showing references</a> </li> 
+   <li><a href="../../../sites/classic-ui-authoring/using/classic-page-author-env-tools.md#main-pars-title-7">accessing the audit log</a> </li> 
+   <li><a href="../../../sites/classic-ui-authoring/using/classic-page-author-env-tools.md#main-pars-title-25">switching modes</a> </li> 
+   <li><a href="../../../sites/classic-ui-authoring/using/classic-page-author-work-with-versions.md#main-pars-title-iadugd-refd">creating</a>, <a href="../../../sites/classic-ui-authoring/using/classic-page-author-work-with-versions.md#main-pars-title-1-evzhpd-refd">restoring</a> and <a href="../../../sites/classic-ui-authoring/using/classic-page-author-work-with-versions.md#main-pars-title-5">comparing</a> versions<br /> </li> 
+   <li><a href="../../../sites/classic-ui-authoring/using/classic-page-author-publish-pages.md#main-pars-title-4">publishing</a>, <a href="../../../sites/classic-ui-authoring/using/classic-page-author-publish-pages.md#main-pars-title-6">unpublishing</a> a page</li> 
+   <li><a href="../../../sites/classic-ui-authoring/using/classic-page-author-edit-page-properties.md">editing page properties</a> <br /> </li> 
+   <li><a href="../../../sites/authoring/using/scaffolding.md">scaffolding</a><br /> </li> 
+   <li><a href="../../../sites/administering/using/client-context.md">client context</a> </li> 
+  </ul> 
+  <h2>Inserting a Component</h2> 
+  <h3>Inserting a Component</h3> 
+  <p>After you open the page, you can start to add content. You do this by adding components (also called paragraphs).</p> 
+  <p>To insert a new component:</p> 
+  <ol> 
+   <li><p>There are several methods of selecting the type of paragraph you want to insert:</p> 
+    <ul> 
+     <li>Double-click the area labeled <strong>Drag components or assets here...</strong> - the <strong>Insert New Component</strong> toolbar opens. Select a component and click <strong>OK</strong>.<br /> </li> 
+     <li>Drag a component from the floating toolbar (called sidekick) to insert a new paragraph.<br /> </li> 
+     <li>Right-click an existing paragraph and select <strong>New...</strong> - the Insert New Component toolbar opens. Select a component and click <strong>OK</strong>.<br /> </li> 
+    </ul> <img imageRotate="0" src="assets/screen_shot_2012-02-15at115605am.png" /></li> 
+   <li><p>In both the sidekick and the <strong>Insert New Component</strong> toolbar you see a list of the available components (paragraph types). These may be split into various sections (for example, General, Columns, etc.), which can be expanded as required.</p> <p>Depending on your production environment, these choices may differ. For complete details on components, see <a href="../../../sites/classic-ui-authoring/using/classic-page-author-default-components.md">Default Components</a>.</p> </li> 
+   <li><p>Insert the component that you want on the page. Then double-click the paragraph, a window opens that allows you to configure your paragraph and add content.</p> </li> 
+  </ol> 
+  <h3>Inserting a Component using the Content Finder</h3> 
+  <p>You can also add a new component to the page by dragging an asset from the <a href="../../../sites/classic-ui-authoring/using/classic-page-author-env-tools.md#main-pars-title-0">Content Finder</a>. This will automatically create a new component of the appropriate type containing the asset.</p> 
+  <p>This is valid for the following asset types (some will be dependent on page/paragraph system):<br /> </p>  
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <th>Asset Type</th> 
+     <th>Resultant Component Type</th> 
+    </tr> 
+    <tr> 
+     <td>Image</td> 
+     <td>Image</td> 
+    </tr> 
+    <tr> 
+     <td>Document</td> 
+     <td>Download</td> 
+    </tr> 
+    <tr> 
+     <td>Product</td> 
+     <td>Product</td> 
+    </tr> 
+    <tr> 
+     <td>Video</td> 
+     <td>Flash</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <note> 
+   <p>This behavior can be configured for your installation. See <a href="../../../sites/developing/using/developing-components.md#configuringaparagraphsystemsothatdragginganassetcreatesacomponentinstance">Configuring a Paragraph System so that Dragging an Asset Creates a Component Instance</a> for further details.</p> 
+  </note> 
+  <p>To create a component by dragging one of the above asset types:</p> 
+  <ol> 
+   <li><p>Make sure that your page is in <a href="../../../sites/classic-ui-authoring/using/classic-page-author-env-tools.md#main-pars-title-25"><strong>Edit</strong> mode</a>.</p> </li> 
+   <li><p>Open the <a href="../../../sites/classic-ui-authoring/using/classic-page-author-env-tools.md#main-pars-title-0">Content Finder</a>.</p> </li> 
+   <li><p>Drag the required asset to the required position. The <a href="#componentplaceholder">component placeholder</a> shows you where the component will be positioned.</p> <p>A component, appropriate for the asset type, will be created at the required location - it will contain the selected asset.</p> </li> 
+   <li><p><a href="#editmovecopypastedelete">Edit</a> the component if required.</p> </li> 
+  </ol> 
+  <h2>Editing a Component (Content and Properties)</h2> 
+  <p>To edit an existing paragraph, do one of the following:</p> 
+  <ul> 
+   <li><strong>Double-click</strong> the paragraph to open it. You see the same window as when you created the paragraph with the existing content. Make your changes and click <strong>OK</strong>.</li> 
+   <li><strong>Right-click</strong> the paragraph and click <strong>Edit</strong>.</li> 
+   <li><strong>Click</strong> twice on the paragraph (a slow double-click) to enter the in-place editing mode. You will be able to directly edit the text on the page, instead of inside a dialog window. In this mode, you will be provided with a toolbar at the top of the page. Just make your changes and they will be automatically saved.</li> 
+  </ul> 
+  <h2>Moving a Component</h2> 
+  <p>To move a paragraph:</p> 
+  <note> 
+   <p>You can also use <a href="#cutcopypasteacomponent">Cut and Paste</a> to move a component.<br /> </p> 
+  </note> 
+  <ol> 
+   <li><p>Select the paragraph to be moved:</p> <img imageRotate="0" src="assets/screen_shot_2012-02-15at115855am.png" /></li> 
+   <li><p>Drag the paragraph to the new location - AEM indicates where the paragraph can be moved to with a green checkmark. Drop it in your desired location.</p> </li> 
+   <li><p>Your paragraph is moved:</p> <img imageRotate="0" src="assets/screen_shot_2012-02-15at120030pm.png" /></li> 
+  </ol> 
+  <h2>Deleting a Component</h2> 
+  <p>To delete a paragraph:</p> 
+  <ol> 
+   <li><p>Select the paragraph and <strong>right-click</strong>:</p> <img imageRotate="0" src="assets/screen_shot_2012-02-15at120220pm.png" /></li> 
+   <li><p>Select <strong>Delete</strong> from the menu. AEM WCM requests confirmation that you want to delete the paragraph as this action cannot be undone.</p> </li> 
+   <li><p>Click <strong>OK</strong>.</p> </li> 
+  </ol> 
+  <note> 
+   <p>If you have set your <a href="../../../sites/classic-ui-authoring/using/author-env-user-props.md">User Properties to show the Global Editing Toolbar</a> you can also perform certain actions on the paragraphs by using the <strong>Copy</strong>, <strong>Cut</strong>, <strong>Paste</strong>, <strong>Delete</strong> buttons available.<br /> </p> 
+   <p>Various <a href="../../../sites/classic-ui-authoring/using/classic-page-author-keyboard-shortcuts.md">keyboard shortcuts</a> are also available.<br /> </p> 
+  </note> 
+  <h2>Cut/Copy/Paste a Component</h2> 
+  <p>As when <a href="#deletingacomponent">Deleting a Component</a> you can use the context menu to copy, cut and/or paste a component<br /> </p> 
+  <note> 
+   <p>If you have set your <a href="../../../sites/classic-ui-authoring/using/author-env-user-props.md">User Properties to show the Global Editing Toolbar</a> you can also perform certain actions on the paragraphs by using the <strong>Copy</strong>, <strong>Cut</strong>, <strong>Paste</strong>, <strong>Delete</strong> buttons available.<br /> </p> 
+   <p>Various <a href="../../../sites/classic-ui-authoring/using/classic-page-author-keyboard-shortcuts.md">keyboard shortcuts</a> are also available.<br /> </p> 
+  </note> 
+  <note> 
+   <p>Cutting, copying, and pasting content is only supported within the same page.<br /> </p> 
+  </note> 
+  <h2>Inherited Components</h2> 
+  <p>Inherited components can be the product of various scenarios, including:<br /> </p> 
+  <ul> 
+   <li><a href="../../../sites/administering/using/msm.md">Multi site management</a>; also in combination with <a href="../../../sites/classic-ui-authoring/using/classic-feature-scaffolding.md#scaffoldingwithmsminheritance">scaffolding</a>.</li> 
+   <li><a href="../../../sites/classic-ui-authoring/using/classic-launches.md">Launches</a> (when based on livecopy).</li> 
+   <li>Specific components; for example the Inherited Paragraph System within Geometrixx.<br /> </li> 
+  </ul> 
+  <p>You can cancel (then re-enable) the inheritance. Depending on the component, this can be available from:</p> 
+  <ol> 
+   <li> <p>If a component is part of a livecopy or launch, it is indicated by a padlock icon. You can click on the padlock to cancel the inheritance.<br /> </p> 
+    <ul> 
+     <li>The padlock icon is shown when the component is selected; for example:</li> 
+    </ul> <img imageRotate="0" src="assets/chlimage_1-109.png" /> 
+    <ul> 
+     <li>The padlock is also shown in the dialog of components; for example:</li> 
+    </ul> <img imageRotate="0" src="assets/chlimage_1-110.png" /></li> 
+   <li> <p>The configuration dialog. For example, as with the Inherited Paragraph System within Geometrixx:</p> <img imageRotate="0" src="assets/chlimage_1-111.png" /></li> 
+  </ol> 
+  <h2>Adding Annotations</h2> 
+  <p><a href="../../../sites/classic-ui-authoring/using/classic-page-author-annotations.md">Annotations</a> allow other authors to provide feedback on your content. This is often used for review and validation purposes.</p> 
+  <h2>Previewing Pages</h2> 
+  <p>There are two icons in the bottom border of the sidekick that are important to previewing pages:</p> 
+  <img imageRotate="0" src="assets/chlimage_1-112.png" /> 
+  <ul> 
+   <li><p>The pencil icon shows you that you are currently in edit mode where you can add, modify, move or delete content.</p> <img imageRotate="0" src="assets/chlimage_1-113.png" /></li> 
+   <li><p>The magnifying glass icon allows you to select preview mode where the page is displayed as it will be seen in the publish environment (a page refresh is sometimes also needed):</p> <img imageRotate="0" src="assets/chlimage_1-114.png" /><p>In preview mode the sidekick will be reduced, click the down arrow icon to return to edit mode:<br /> </p> <img imageRotate="0" src="assets/chlimage_1-115.png" /></li> 
+  </ul> 
+  <h2>Find &amp; Replace</h2> 
+  <p>For larger scale edits of the same phrase a <strong><a href="../../../sites/classic-ui-authoring/using/author-env-search.md#findandreplace">Find &amp; Replace</a></strong> menu option allows you to search for, and replace multiple instances of a string, within a section of the website.</p> 
+  <h2>Locking a Page</h2> 
+  <p>AEM allows you to lock a page, so that no-one else can modify the contents. This is useful when you are making a lot of edits to one specific page, or when you need to freeze a page for a short while.<br /> </p> 
+  <note> 
+   <p>Locking a page should be used with care as the only person who can unlock a page is the person who locked it (or an account with administrator privileges).</p> 
+  </note> 
+  <p>To lock a page:</p> 
+  <ol> 
+   <li><p>In the <strong>Websites</strong> tab, select the page that you want to lock.</p> </li> 
+   <li><p>Double-click the page to open it for edit.</p> </li> 
+   <li><p>In the <strong>Page</strong> tab of sidekick, select <strong>Lock Page</strong>:</p> <img imageRotate="0" src="assets/screen_shot_2012-02-08at15750pm.png" /><p>A message shows that your page is locked to other users. In addition, in the right pane of the <strong>Websites</strong> console, AEM WCM displays the page as locked and indicates which user has locked the page.</p> <img imageRotate="0" src="assets/screen_shot_2012-02-08at20657pm.png" /></li> 
+  </ol> 
+  <h2>Unlocking a Page</h2> 
+  <p>To unlock a page:</p> 
+  <ol> 
+   <li><p>In the <strong>Websites</strong> tab, select the page you want to unlock.</p> </li> 
+   <li><p>Double-click the page to open it.</p> </li> 
+   <li><p>In the <strong>Page</strong> tab of sidekick, select <strong>Unlock Page</strong>.</p> </li> 
+  </ol> 
+  <h2>Undoing and Redoing Page Edits</h2> 
+  <p>Use the following keyboard shortcuts while the content frame of the page has focus:</p> 
+  <ul> 
+   <li>Undo: Ctrl+Z (Windows) or Cmd+Z (Mac)<br /> </li> 
+   <li>Redo: Ctrl+Y (Windows) or Cmd+Y (Mac)<br /> </li> 
+  </ul> 
+  <p>When you undo or redo the removal, addition, or relocation of one or more paragraphs, flashing (default behavior) highlights indicate the affected paragraphs. </p> 
+  <note> 
+   <p>See <a href="#undoingandredoingpageeditsthetheory">Undoing and Redoing Page Edits - The Theory</a> for the full details of what is possible when undoing and redoing page edits.<br /> </p> 
+  </note> 
+  <h2>Undoing and Redoing Page Edits - The Theory</h2> 
+  <note> 
+   <p>Your system administrator can <a href="../../../sites/administering/using/config-undo.md">configure various aspects of the Undo/Redo features</a> according to the requirements for your instance.<br /> </p> 
+  </note> 
+  <p>AEM stores a history of actions that you perform and the sequence in which you performed them. So, you undo several actions in the order that you performed them. Then, you can use redo to re-apply one or more of the actions.<br /> </p> 
+  <p>If an element on the content page is selected, the undo and redo command applies to the selected item, such as a text component.</p> 
+  <p>The behavior of the undo and redo commands is similar to that in other software programs. Use the commands to restore the recent state of your web page as you make decisions about content. For example, if you move a text paragraph to a different location on the page, you can use the undo command to move the paragraph back. If you then decide again to move the paragraph, use the redo command.</p> 
+  <note> 
+   <p>You can:</p> 
+   <ul> 
+    <li> redo actions as long as you have not made a page edit since you used undo.</li> 
+    <li>undo a maximum of 20 edit actions (default setting).</li> 
+    <li>also use <a href="../../../sites/classic-ui-authoring/using/classic-page-author-keyboard-shortcuts.md">Keyboard shortcuts</a> for undo and redo.</li> 
+   </ul> 
+  </note> 
+  <p>You can use undo and redo for the following types of page changes:</p> 
+  <ul> 
+   <li>Adding, editing, removing, and moving paragraphs</li> 
+   <li>In-place editing of paragraph content</li> 
+   <li>Copying, cutting, and pasting items within a page</li> 
+   <li>Copying, cutting, and pasting items across pages</li> 
+   <li>Adding, removing, and changing files and images<br /> </li> 
+   <li>Adding, removing, and changing annotations and sketches<br /> </li> 
+   <li>Changes to Scaffold</li> 
+   <li>Adding and removing references</li> 
+   <li>Changing property values in component dialog boxes.</li> 
+  </ul> 
+  <p>Form fields that form components render are not meant to have values specified while authoring pages. Therefore, the undo and redo commands do not affect changes that you make to the values of those types of components. For example, you cannot undo the selecting of a value in a drop-down list.<br /> </p> 
+  <note> 
+   <p>Special permissions are required to undo and redo changes to files and images. Also, undo history for changes to files and images lasts for a minimum of hours. Beyond this time however, the undo of the changes is not guaranteed. Your administrator can provide permissions and change the default time of ten hours.<br /> </p> 
+  </note> 
+ </body> 
+</html>

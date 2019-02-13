@@ -1,0 +1,129 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="audience:administering" name="primaryAudienceTag" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2018-04-26T10:14:16.903-0400" name="locHandOffDate" />
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="light" name="gnavTheme" />
+  <meta content="trushton" name="cq:lastModifiedBy" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;content_type:reference;topic_tags:best-practices" name="cq:tags" />
+  <meta content="Find best practices compiled by Adobe engineering and consulting teams to help administrators get up and running." name="seoDescription" />
+  <meta content="/content/help/en/experience-manager/6-4/sites/administering/morehelp/best-practices;/content/help/en/experience-manager/6-4/sites/administering/morehelp/best-practices" name="moreHelpPaths" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" />
+  <meta content="Best Practices" name="jcr:title" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="2017-10-31T16:25:57.372-0400" name="firstPublishExternalDate" />
+  <meta content="2018-05-23T14:31:27.892-0400" name="cq:lastModified" />
+  <meta content="2018-03-06T08:01:05.282-0500" name="jcr:created" />
+  <meta content="/content/docs/en/aem/6-3/administer/best-practices" name="qaNotes" />
+  <meta content="2018-04-03T07:01:36.855-0400" name="publishExternalDate" />
+  <meta content="2018-10-27T23:44:33.443-0400" name="cq:lastReplicated" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="8491fe59-3d5b-4856-abc7-55e095251f33" name="jcr:predecessors" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2018-04-03T07:01:36.855-0400" name="lastPublishExternalDate" />
+  <meta content="Best Practices" name="navTitle" />
+  <meta content="Guillaume Carlino" name="contentOwner" />
+  <meta content="dist5" name="distType" />
+  <meta content="Best Practices" name="seoTitle" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="jsyal" name="cq:lastReplicatedBy" />
+  <meta content="68b150e5-a445-45bd-8406-58545d7144d2" name="jcr:uuid" />
+  <meta content="2018-04-03T07:01:36.855-0400" name="topicBrowsingSortDate" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/administer-best-practices.html" name="publishExternalURL" />
+  <meta content="" name="jcr:primaryType" />
+ </head>
+ <body>
+  <p>Best practices describe how to develop, administer, or use AEM in the most efficient and most effective way possible. This growing list of topics includes a variety of areas in AEM.</p> 
+  <p>The following areas have documentation available concerning best practices: </p> 
+  <ul> 
+   <li><a href="#assets">Assets</a></li> 
+   <li><a href="#sites">Sites</a></li> 
+  </ul> 
+  <p>For best practices on authoring, deploying and maintaining, or developing, see one of the following:</p> 
+  <ul> 
+   <li><a href="../../../sites/authoring/using/best-practices.md">Authoring best practices</a></li> 
+   <li><a href="../../../sites/developing/using/best-practices.md">Developing best practices</a></li> 
+   <li><a href="../../../sites/deploying/using/best-practices.md">Deploying best practices</a></li> 
+  </ul> 
+  <div>
+   Specific documents are described and linked to in the tables that follow.
+  </div> 
+  <h2>Assets</h2>
+  <p>Best practices around Assets, including the dynamic media capability and Scene 7 integration, are described in the following topics:</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody>
+    <tr>
+     <td>Best practices in different areas around Assets to enhance system stability and performance under load</td> 
+     <td><a href="../../../assets/using/best-practices-for-assets.md">Best Practices for Assets</a></td> 
+     <td>Includes links to best practices guides in different areas around Assets. After reviewing them, you will have the knowledge and tools to build and manage an enterprise asset management system.</td> 
+    </tr>
+    <tr>
+     <td>How to organize your content (folder hierarchy)</td> 
+     <td><a href="../../../assets/using/best-practices-for-file-management.md">Best practices for file management</a></td> 
+     <td>Much of processing profiles is folder based as video, metadata, image processing are always applied to folders. This best practice document describes how to define and set up your folder hierarchy as the hierarchy has a significant impact on how content is processed. </td> 
+    </tr>
+    <tr>
+     <td>Integrating Scene7 and AEM</td> 
+     <td><a href="../../../sites/administering/using/scene7.md#bestpracticesforintegratingscene7withaem">Best practices for integrating Scene7 with AEM</a></td> 
+     <td><p>Describes when to turn on polling importer, how to test drive your integration, and when to use the content browser versus a direct upload to Assets.</p> </td> 
+    </tr>
+    <tr>
+     <td>Image preset options</td> 
+     <td>Understanding <a href="../../../assets/using/managing-image-presets.md#understandingimagepresets">image presets</a> and <a href="../../../assets/using/managing-image-presets.md#imagepresetbestpractices">image preset best practices</a></td> 
+     <td>As part of the documentation on <a href="../../../assets/using/managing-image-presets.md">Managing Image presets</a>, these topics describe what image presets are and best practices around selecting image preset options.</td> 
+    </tr>
+    <tr>
+     <td>Dynamic Media versus direct integration with Scene7</td> 
+     <td><a href="../../../sites/administering/using/scene7.md#aemscene7integrationversusdynamicmedia">Scene7/AEM integration versus Dynamic Media</a></td> 
+     <td>Describes when it is best to use the Dynamic Media solution, when to integrate S7 with AEM, or when to use both.</td> 
+    </tr>
+   </tbody>
+  </table> 
+  <h2>Sites</h2>
+  <p>Managing and authoring your website content has some best practices outlined as follows:</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody>
+    <tr>
+     <td>GDPR Compliance</td> 
+     <td><a href="../../../sites/administering/using/gdpr-compliance-sites.md">AEM Sites GDPR Compliance</a></td> 
+     <td>The European Union's General Data Protection Regulation on data privacy rights takes effect as of May 2018. AEM Sites is compliant with GDPR. This page guides customers through the procedures to handle GDPR requests in AEM Sites. It describes the location of private data stored, and how to remove them manually or with code.</td> 
+    </tr>
+    <tr>
+     <td>Define the default UI for your instance.</td> 
+     <td><p><a href="../../../sites/authoring/using/select-ui.md#configuringthedefaultuiforyourinstance">Configuring the default UI for your instance</a></p> </td> 
+     <td>AEM has two UIs: touch-optimized and classic. This section details how to define the default UI for your instance.</td> 
+    </tr>
+    <tr>
+     <td>Multi-Site Management</td> 
+     <td><a href="../../../sites/administering/using/msm-best-practices.md">MSM Best Practices</a></td> 
+     <td>Best practices for using MSM to automate content deployment. </td> 
+    </tr>
+    <tr>
+     <td>Translating content</td> 
+     <td><a href="../../../sites/administering/using/tc-bp.md">Translation Best Practices</a></td> 
+     <td>Best practices for planning and implementing your multilanguage site.</td> 
+    </tr>
+    <tr>
+     <td>User administration</td> 
+     <td><a href="../../../sites/administering/using/security.md#bestpractices">Permissions and privileges best practices</a></td> 
+     <td>Describes best practices when working with permissions and privileges </td> 
+    </tr>
+    <tr>
+     <td>Workflows</td> 
+     <td><a href="../../../sites/developing/using/workflows-best-practices.md#configuration">Workflow Best Practices - Configuration</a></td> 
+     <td>Workflows enable you to automate Adobe Experience Manager (AEM) activities and can represent a large amount of the processing that occurs in an AEM environment, so it is highly recommended to plan and configure your workflows implementations carefully.</td> 
+    </tr>
+   </tbody>
+  </table> 
+ </body>
+</html>

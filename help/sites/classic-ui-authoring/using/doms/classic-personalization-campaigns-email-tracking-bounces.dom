@@ -1,0 +1,138 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2017-10-31T16:18:45.417-0400" name="firstPublishExternalDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:personalization;content_type:reference" name="cq:tags" /> 
+  <meta content="2018-04-19T10:26:14.671-0400" name="cq:lastModified" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="Tracking Bounced Emails" name="seoTitle" /> 
+  <meta content="Tracking Bounced Emails" name="navTitle" /> 
+  <meta content="2018-04-03T06:45:49.343-0400" name="publishExternalDate" /> 
+  <meta content="e2b58721-b5b7-49e1-bcaa-daf88a376f30" name="jcr:uuid" /> 
+  <meta content="2018-04-03T06:45:49.343-0400" name="lastPublishExternalDate" /> 
+  <meta content="/content/docs/en/aem/6-3/author/classicui/personalization/campaigns/email-marketing/tracking-bounced-emails" name="qaNotes" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="When you send a newsletter to many users, there are usually some invalid emails addresses in the list. Sending newsletters to those addresses bounce back. AEM is capable of managing those bounces and can stop sending newsletters to those addresses after the configured bounce counter is exceeded." name="seoDescription" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="audience:classic-ui-authoring" name="primaryAudienceTag" /> 
+  <meta content="2018-04-03T06:45:49.343-0400" name="topicBrowsingSortDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2018-04-19T10:26:14.670-0400" name="locHandOffDate" /> 
+  <meta content="User" name="contentOwner" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="2017-12-01T19:05:53.106-0500" name="jcr:created" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/classic-ui-authoring/using/classic-personalization-campaigns-email-tracking-bounces.html" name="publishExternalURL" /> 
+  <meta content="2018-04-03T06:45:50.285-0400" name="cq:lastReplicated" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="8bdc9ab3-5d90-4392-95b0-9c42363112a9" name="jcr:predecessors" /> 
+  <meta content="Tracking Bounced Emails" name="jcr:title" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/classic-ui-authoring/morehelp/personalization;/content/help/en/experience-manager/6-4/sites/classic-ui-authoring/morehelp/personalization" name="moreHelpPaths" /> 
+ </head> 
+ <body> 
+  <note> 
+   <p>Adobe is not planning to further enhance E-mail tracking of open/bounces (not deliverable) send by AEM SMTP service.<br /> Recommendation is to <a href="../../../sites/administering/using/campaign.md">leverage Adobe Campaign and the integration to AEM</a>.</p> 
+  </note> 
+  <p>When you send a newsletter to many users, there are usually some invalid emails adresses in the list. Sending newsletters to those addresses bounce back. AEM is capable of managing those bounces and can stop sending newsletters to those adresses after the configured bounce counter is exceeded. By default, the bounce rate is set to 3 but is configurable.<br /> </p> 
+  <p>To set AEM up to track bounced emails, you need to set up AEM to poll an existing mailbox where bounced emails are received (usually this is the "from" email address that you specify where you send the newsletter). AEM polls this inbox and imports all emails below the path specified in the polling configuration. A workflow is then triggered to search for the bounced email adresses within the users and updates the bounceCounter property value of the user accordingly. After the configured max bounces is exceeded, the user is removed from the newsletter list.<br /> </p> 
+  <h3>Configuring the Feed Importer</h3> 
+  <p>The feed importer lets you repeatedly import content from external sources into your repository. With this configuration of the feed importer, AEM checks the sender's mailbox for bounced emails.<br /> </p> 
+  <p>To configure the feed importer for tracking bounced emails:<br /> </p> 
+  <ol> 
+   <li><p>In <strong>Tools</strong>, select the Feed Importer.<br /> </p> </li> 
+   <li><p>Click <strong>Add</strong> to create a new configuration.<br /> </p> <img imageRotate="0" src="assets/chlimage_1.png" /></li> 
+   <li><p>Add a new configuration by selecting the type and by adding information to the polling URL to configure the host and port. In addition, you need to add some mail and protocol-specific parameters to the URL query. Set the configuration to poll at least once a day.<br /> </p> <p>All configurations need information about the following in the polling URL:<br /> </p> 
+    <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+     <tbody> 
+      <tr> 
+       <td><p>username</p> </td> 
+       <td>The username to use for connecting</td> 
+      </tr> 
+      <tr> 
+       <td>password</td> 
+       <td>The password to use for connecting</td> 
+      </tr> 
+     </tbody> 
+    </table> <p>In addition, depending on the protocol, you can configure certain settings.<br /> </p>  
+    <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+     <tbody> 
+      <tr> 
+       <td>pop3.leave.on.server</td> 
+       <td>Defines whether to leave messages on server or not. Set to true to leave messages on server, false otherwise. Defaults to true.</td> 
+      </tr> 
+     </tbody> 
+    </table>  
+    <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+     <tbody> 
+      <tr> 
+       <td>pop3s://pop.gmail.com:995/INBOX?username=user&amp;password=secret</td> 
+       <td>Using pop3 over SSL to connect to GMail on port 995 with user/secret, leaving messages on server by default</td> 
+      </tr> 
+      <tr> 
+       <td>pop3s://pop.gmail.com:995/INBOX?username=user&amp;password=secret&amp;pop3.leave.on.server=false</td> 
+       <td>pop3s://pop.gmail.com:995/INBOX?username=user&amp;password=secret&amp;pop3.leave.on.server=false</td> 
+      </tr> 
+     </tbody> 
+    </table>  <p>Allows you to set flags to search for. <br /> </p> 
+    <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+     <tbody> 
+      <tr> 
+       <td>imap.flag.SEEN</td> 
+       <td>Set false for new/unseen message, true for already-read messages</td> 
+      </tr> 
+     </tbody> 
+    </table> <p>See <a href="http://java.sun.com/products/javamail/javadocs/javax/mail/Flags.Flag.html">http://java.sun.com/products/javamail/javadocs/javax/mail/Flags.Flag.html</a> for the full list of flags.</p>  
+    <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+     <tbody> 
+      <tr> 
+       <td>imaps://imap.gmail.com:993/inbox?username=user&amp;password=secret</td> 
+       <td>Using IMAP over SSL to connect to GMail on port 993 with user/secret. Getting new messages only by default.</td> 
+      </tr> 
+      <tr> 
+       <td>imaps://imap.gmail.com:993/inbox?username=user&amp;password=secret&amp;imap.flag.SEEN=true</td> 
+       <td>Using IMAP over SSL to connect to GMail 993 with user/secret, only getting already seen message.</td> 
+      </tr> 
+      <tr> 
+       <td>imaps://imap.gmail.com:993/inbox?username=user&amp;password=secret&amp;imap.flag.SEEN=true&amp;imap.flag.SEEN=false</td> 
+       <td>Using IMAP over SSL to connect to GMail 993 with user/secret, getting already read OR new messages.</td> 
+      </tr> 
+     </tbody> 
+    </table> </li> 
+   <li><p>Save the configuration.<br /> </p> </li> 
+  </ol> 
+  <h3>Configuring the newsletter service component</h3> 
+  <p>After configuring the feed importer, you need to configure the From address and the bounce counter.</p> 
+  <p>To configure the newsletter service:<br /> </p> 
+  <ol> 
+   <li><p>In the OSGi console at <span class="code">&amp;lt;host&amp;gt;:&amp;lt;port&amp;gt;/system/console/configMgr</span> and navigate to <strong>MCM Newsletter</strong>.<br /> </p> </li> 
+   <li><p>Configure the service and save the changes when finished.<br /> </p> <img imageRotate="0" src="assets/chlimage_1-1.png" /><p>The following configurations can be set to adjust the behavior:</p> 
+    <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+     <tbody> 
+      <tr> 
+       <td>Bounce Counter Maximum (max.bounce.count)</td> 
+       <td>Defines the number of bounces until a user will be omitted when sending a newsletter. Setting this value to 0 disables the bounce check completely.</td> 
+      </tr> 
+      <tr> 
+       <td>Activity No Cache (sent.activity.nocache)</td> 
+       <td>Defines the cache setting to use for the newsletter sent activity</td> 
+      </tr> 
+     </tbody> 
+    </table> <p>Once saved, the newsletter MCM service does the following:</p> 
+    <ul> 
+     <li>Writes an activity to the users hidden stream upon successful sending of a newsletter.</li> 
+     <li>Writes an activity if a bounce is detected and the users bounce counter changes.</li> 
+    </ul>  </li> 
+  </ol> 
+ </body> 
+</html>

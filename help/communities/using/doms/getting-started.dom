@@ -1,0 +1,59 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="/content/help/en/experience-manager/6-4/communities/morehelp/introduction;/content/help/en/experience-manager/6-4/communities/morehelp/introduction" name="moreHelpPaths" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="2018-04-03T07:45:31.366-0400" name="publishExternalDate" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES;topic_tags:introduction;content_type:reference" name="cq:tags" />
+  <meta content="Getting Started with AEM Communities" name="jcr:title" />
+  <meta content="2018-04-03T07:45:31.366-0400" name="lastPublishExternalDate" />
+  <meta content="2018-04-03T07:45:33.207-0400" name="cq:lastReplicated" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2017-10-31T16:33:35.496-0400" name="firstPublishExternalDate" />
+  <meta content="2017-12-01T19:01:06.115-0500" name="jcr:created" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES" name="primaryProductTag" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2018-04-03T07:45:31.366-0400" name="topicBrowsingSortDate" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-05-17T05:55:57.486-0400" name="locHandOffDate" />
+  <meta content="A tutorial on getting started with AEM Communities" name="seoDescription" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/communities/using/getting-started.html" name="publishExternalURL" />
+  <meta content="57ffc786-85e8-498e-a760-dcf83e7e7e3e" name="jcr:predecessors" />
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="Janice Kendall" name="contentOwner" />
+  <meta content="Getting Started with AEM Communities" name="navTitle" />
+  <meta content="/content/docs/en/aem/6-3/administer/communities/getting-started" name="qaNotes" />
+  <meta content="2018-05-17T05:55:57.486-0400" name="cq:lastModified" />
+  <meta content="d4ba3a62-6d07-4440-93ec-2a2792d0764b" name="jcr:uuid" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="Getting Started with AEM Communities" name="seoTitle" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+ </head>
+ <body>
+  <p>AEM Communities allows companies to create dedicated branded community experiences from a library of site templates. Forums, groups, blogs, file sharing, calendars, activity feeds, and extended user profiles can be integrated into your website to foster interactions between propsects, customers, and companies.</p> 
+  <p>Following is a tutorial on quickly setting up an <a href="../../communities/using/overview.md#engagementcommunity">engagement community</a> for demonstration or development purposes.</p> 
+  <p>For a tutorial on quickly setting up an <a href="../../communities/using/overview.md#enablementcommunity">enablement community</a>, visit <a href="../../communities/using/getting-started-enablement.md">Getting Started with AEM Communities for Enablement</a>.</p> 
+  <ul> 
+   <li><a href="../../communities/using/setup.md">Initial Setup</a></li> 
+  </ul> 
+  <ul> 
+   <li><a href="../../communities/using/create-site.md">Author a New Community Site</a></li> 
+  </ul> 
+  <ul> 
+   <li><a href="../../communities/using/published-site.md">Experience the Published Site</a></li> 
+  </ul> 
+  <ul> 
+   <li><a href="../../communities/using/nested-groups.md">Authoring Nested Groups</a></li> 
+  </ul> 
+ </body>
+</html>

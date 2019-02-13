@@ -1,0 +1,65 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2018-04-26T04:30:35.147-0400" name="cq:lastModified" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2018-04-03T08:55:46.851-0400" name="lastPublishExternalDate" />
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2016-04-20T09:33:33.877-0400" name="firstPublishExternalDate" />
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/using_som_expressions_adaptive_forms_admin_5e12de0b318c6865_2072_report.xml" name="acrolinxReportURL" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="light" name="heroGradient" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/using-som-expressions-adaptive-forms.html" name="publishExternalURL" />
+  <meta content="2018-04-03T08:55:46.985-0400" name="cq:lastReplicated" />
+  <meta content="Using SOM expressions in adaptive forms" name="jcr:title" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="red" name="acrolinxPageStatus" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" />
+  <meta content="2018-04-03T08:55:46.851-0400" name="topicBrowsingSortDate" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2017-12-01T19:05:28.467-0500" name="jcr:created" />
+  <meta content="/content/help/en/experience-manager/6-4/forms/using/morehelp/develop;/content/help/en/experience-manager/6-4/forms/using/morehelp/develop" name="moreHelpPaths" />
+  <meta content="2018-04-26T04:30:35.147-0400" name="locHandOffDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:develop" name="cq:tags" />
+  <meta content="not_checked" name="acrolinxStatus" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" />
+  <meta content="video" name="pageLayout" />
+  <meta content="25" name="acrolinxSentences" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2016-05-31T06:44:01.484-0400" name="acrolinxDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="Using SOM expressions in adaptive forms" name="navTitle" />
+  <meta content="2015-06-17T05:43:23.192-0400" name="lastPublishQADate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="false" name="doNotLocalize" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="8346390c-d18a-496d-811c-4ccc529f2eee" name="jcr:predecessors" />
+  <meta content="378" name="acrolinxWords" />
+  <meta content="2018-04-03T08:55:46.851-0400" name="publishExternalDate" />
+  <meta content="ccdc0dc7-e54e-4ebf-a1f9-24518a58ebf3" name="jcr:uuid" />
+  <meta content="left" name="sideColumn" />
+  <meta content="Learn how to extract SOM expressions of a panel of an adaptive form." name="seoDescription" />
+ </head>
+ <body>
+  <p>Adaptive forms are modeled as AEM Page which is represented as JCR content structure in AEM repository. The key element of the content structure is guideContainer node. Below guideContainer, there is rootPanel which may contain nested panel and fields.</p> 
+  <p>You can use a scripting object model (SOM) to reference values, properties, and methods within a particular document object model (DOM). A DOM organizes the memory objects and properties in a tree hierarchy. A SOM expression references Fields/Draw elements and panels.</p> 
+  <p>The following image depicts a node structure that an adaptive form translates to when you add components to a form. For example, you can add a panel to the root panel and a radio button in the panel that is transformed to DOM at runtime. The SOM Expression for the radio-button field in adaptive form is specified as <span class="code">guide[0].guide1[0].guideRootPanel[0].panel1[0].radiobutton[0]</span>.</p> 
+  <img alt="DOM tree" captionBottom="DOM tree" imageRotate="0" src="assets/hierarchy.png" />
+  <p>A SOM expression for any element in an adaptive form is prefixed by <span class="code">guide[0].guide1[0]</span>. The position of a component in the node structure hierarchy is used to derive its SOM expression.</p> 
+  <img alt="DOM tree with two radio buttons" captionBottom="DOM tree with two radio buttons" imageRotate="0" src="assets/hierarchy_radio_button.png" />
+  <p>The SOM expression changes when you change the position of the radio-buttons in the adaptive form. In the authoring mode, you can view the SOM expression of a field or element within AEM Forms using the View SOM Expression option. The option appears on the panel and when you right-click the field or element. </p> 
+  <img alt="Extracting SOM Expressions in an Adaptive form" captionBottom="Extracting SOM Expressions in an Adaptive form" imageRotate="0" src="assets/som-expressions.png" title="Extracting SOM Expressions in an Adaptive form" />
+  <p>Within panels, you can access the feature from the panel toolbar. The feature facilitates scripting by adaptive form authors.<br /> </p> 
+  <img alt="Extracting SOM Expressions using panel toolbar" captionBottom="Extracting SOM Expressions using panel toolbar" imageRotate="0" src="assets/som-expression.png" />
+  <p>Some APIs listed in <a href=" http://helpx.adobe.com/aem-forms/6/javascript-api/GuideBridge" target="_blank">GuideBridge</a> use the SOM expression of an element. For example, to bring focus to a particular field in an adaptive form, pass the corresponding SOM expression to the <span class="code">getFocus </span>API in <span class="code">guideBridge</span>.<br /> </p> 
+  <related-links>
+   <a href="../../forms/using/introduction-forms-authoring.md">Introduction to authoring adaptive forms</a>
+  </related-links>
+ </body>
+</html>

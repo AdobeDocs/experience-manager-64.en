@@ -1,0 +1,94 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="What's New in AEM 6.4 Communities" name="seoTitle" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/communities/using/whats-new-aem-communities.html" name="publishExternalURL" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="mgulati" name="cq:lastReplicatedBy" />
+  <meta content="mgulati" name="cq:lastModifiedBy" />
+  <meta content="2018-05-07T07:03:31.314-0400" name="topicBrowsingSortDate" />
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/whats_new_aem_communities_krs_workflow_0eaa5f398ed6741b_341_report.xml" name="acrolinxReportURL" />
+  <meta content="2018-04-04T03:47:30.081-0400" name="acrolinxDate" />
+  <meta content="2018-05-07T07:03:31.314-0400" name="lastPublishExternalDate" />
+  <meta content="What's New in AEM 6.4 Communities" name="jcr:title" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="mgulati@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2018-05-07T07:03:31.314-0400" name="publishExternalDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2018-04-03T10:46:05.918-0400" name="firstPublishExternalDate" />
+  <meta content="2018-05-17T14:08:45.992-0400" name="locHandOffDate" />
+  <meta content="mgulati" name="acrolinxLastCheckedBy" />
+  <meta content="e950cc89-db8d-4e19-8117-1e4bf90a1182" name="jcr:predecessors" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="64" name="acrolinxSentences" />
+  <meta content="52e0f4bc-ef84-433c-a669-a7ed90cc3de3" name="jcr:uuid" />
+  <meta content="2018-08-03T06:36:17.164-0400" name="cq:lastModified" />
+  <meta content="985" name="acrolinxWords" />
+  <meta content="2018-05-07T07:03:31.430-0400" name="cq:lastReplicated" />
+  <meta content="What's New in AEM 6.4 Communities" name="navTitle" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="checked_not_improved" name="acrolinxStatus" />
+  <meta content="mgulati" name="contentOwner" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2018-03-29T07:29:30.580-0400" name="jcr:created" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="en" name="pageCreatedAt" />
+  <meta content="yellow" name="acrolinxPageStatus" />
+  <meta content="" name="jcr:versionHistory" />
+ </head>
+ <body>
+  <p>AEM Communities offers a framework to businesses to collaborate among their partners, customers and employees. It imparts social capabilities to website structure, and helps businesses to engage and impart knowledge to their stakeholders, to enhance their brand value their way.</p> 
+  <p>AEM 6.4 Communities brings in functionalities to enhance the experiences of community users, and ease the day-today tasks of community administrators, moderators, and managers.</p> 
+  <p>Read further for quick introduction to new features and enhancements. Also, see AEM 6.4 Communities <a href="../../release-notes/communities-release-notes.md" target="_blank">release notes</a>. For AEM 6.4 Communities documentation, visit <a href="https://helpx.adobe.com/experience-manager/6-4/communities/user-guide.html" target="_blank">AEM 6.4 Communities User Guide</a>.</p> 
+  <h2>Managing Sub-Communities or Community Groups</h2>
+  <p>AEM Communities enables community administrators to create groups and sub-groups within communities site, using pre-defined templates, in the author environment. These groups serve as sub communities, which can inherit many configurations, such as themes and styling from the parent site. However, these groups can differ from the parent site, for example having a different set of group moderators or can vary in the security level. These groups function as independent, fully fledged mini-communities which are further empowered by the following enhancements.</p> 
+  <h3>Create multi-locale groups in single step</h3>
+  <p>As part of a community site, multi-lingual groups can be created in single operation. <strong>Additional Available Community Group Language(s)</strong> field in <strong>Community Group Template</strong> page, which is available while creating a <a href="../../communities/using/groups.md#main-pars-title-262161330" target="_blank">new community group</a> within a community site, makes this feasible.</p> 
+  <img imageRotate="0" src="assets/multilingualgroup-1.png" />
+  <p>To create such groups, users can simply navigate to Group Collection of the desired communities site from the Sites console. Create a group, and specify the desired languages in <strong>Additional Available Community Group Language(s)</strong> field of <strong>Community Group Template</strong> page.</p> 
+  <h3>Delete community groups from groups console</h3>
+  <p>AEM 6.4 Communities provides Delete Group icon on the existing community groups, in community Groups collection within community Sites console. This enables <a href="../../communities/using/groups.md#main-pars-header-591c" target="_blank">group deletion</a> in one click, along with the deletion of all the items associated (such as content and user memberships) with the group.</p> 
+  <img imageRotate="0" src="assets/deletegrp.png" />
+  <h3>Create and assign enablement resources within groups</h3>
+  <p>Learning content can now be created, managed and published for a specific set of targeted community members. Due to the availability of catalog and assignment functions for community groups (and not only the entire community site), enablement managers can <a href="../../communities/using/resource.md" target="_blank">assign enablement resources</a> and learning path to a small set of people too.</p> 
+  <img imageRotate="0" src="assets/assignmentcatalog.png" />
+  <h2>Moderating user generated content</h2>
+  <p>AEM 6.4 Communities offers few improvements to moderation, which are instrumental in easing the day-to-day lives of community moderators.</p> 
+  <h3>Automatic spam detection </h3>
+  <p>New spam detection engine helps in filtering out the unwanted and unsolicited user generated content on community sites or groups. When enabled, this functionality can mark a piece of user generated content as Spam or Not Spam based on a pre-defined set of spam words. Moderators can further act upon the content to deny or allow it to appear on the publish instance. These moderation actions can be performed inline or through bulk moderation console.</p> 
+  <img imageRotate="0" src="assets/spamdetection-1.png" />
+  <p><a href="../../communities/using/moderate-ugc.md#main-pars-header" target="_blank">Spam detector</a> finds and flags a given piece of user generated content with 90% accuracy. However, this functionality is not enabled by default. To enable it, community administrators need to navigate to configMgr on system/console and add Spam Process.</p> 
+  <img imageRotate="0" src="assets/spamprocess-1.png" />
+  <h3>New (Answered/Unanswered) filters for QnA</h3>
+  <p>AEM 6.4 adds two <a href="../../communities/using/moderation.md#main-pars-image-1686651047" target="_blank">new filters</a>, named Answered and Not Answered for QnA questions, to bulk moderation console. These filters are available under Status in Filter Rail.</p> 
+  <p> </p> 
+  <img imageRotate="0" src="assets/statuses.png" />
+  <p>On selecting the Answered status, all the answered questions are visible to the moderator in content area. Whereas, if only the Not Answered status is selected, then the moderator will see all the content (for all content types) except the answered questions, because the property responsible for the Answered Question does not exist in the case of not-answered questions and other content such as forum topic, blog article, or comments.</p> 
+  <h3>Bookmark moderation filters</h3>
+  <p>AEM Communities provides the ability to <a href="../../communities/using/moderation.md#main-pars-title-2" target="_blank">bookmark the pre-defined moderation filters</a> on moderation console. These saved bookmarks can be revisited later and shared with other users.</p> 
+  <p>Users simply need to select the desired filters from the Filter Rail in moderation console, to view the filtered UGC and bookmark the filters on their browsers. These filters are appended toward the end of the URL string, and therefore can be shared, reused and revisited later.</p> 
+  <h2> Managing Community Sites</h2>
+  <p>AEM 6.4 Communities provides site management enhancements, which ensure that numerous community sites in different language are easily created, managed, and deleted by site administrators.</p> 
+  <h3>Create multi locale community sites in one step</h3>
+  <p>AEM Communities allows creating a <a href="../../communities/using/create-site.md#main-pars-image-370942726" target="_blank">multi-lingual community sites</a> in single operation. This is possible due to the availability of multiple languages to select from in <strong>Community Site Base Language</strong> field in <strong>Site Template</strong> page, while creating a new community site from the sites console.</p> 
+  <img imageRotate="0" src="assets/multilocalesite.png" />
+  <p>Users can select configuration folders, branding and many other configurations at once for all these sites.</p> 
+  <h3>Delete community sites from sites console</h3>
+  <p>AEM 6.4 Communities provides Delete Site icon on the existing community sites, in community Sites console. This enables the <a href="../../communities/using/create-site.md#main-pars-image-871f" target="_blank">deletion of the site</a> and the associated items in one click.</p> 
+  <img imageRotate="0" src="assets/siteactions.png" />
+  <h2>Managing UGC and user profiles</h2>
+  <p>Keeping user data protection at the heart of communities experience, AEM Communities exposes <a href="../../communities/using/user-ugc-management-service.md" target="_blank">APIs out-of-the-box</a> and <a href="https://github.com/Adobe-Marketing-Cloud/aem-communities-ugc-migration/tree/master/bundles/communities-ugc-management-servlet" target="_blank">sample servlet</a>. These APIs help bulk manage (bulk delete and bulk export) user generated content and delete user profiles, and are instrumental in handling EU GDPR compliance requests.</p> 
+  <h2>What's Changed</h2>
+  <ul> 
+   <li>Captcha verification, while creating a new community site, is no longer available out-of-the-box in AEM 6.4 Communities. However, Communities site can be customized to include <a href="/content/help/en/experience-manager/using/aem_recaptcha" target="_blank">Google component reCAPTCHA</a> for better security.</li> 
+   <li>Option to upload a custom CSS has been removed from the community sites and groups theme.</li> 
+   <li>Content Only and Search icons have been added in the Filter Rail in Bulk Moderation UI.</li> 
+   <li>Content Path filter has been added in Filter Rail in Bulk Moderation UI.<br /> </li> 
+   <li>Switch to bulk mode and Exit bulk mode have been removed from the Bulk Moderation UI. To enter multi-select mode click the Select (<img src="assets/selecticon.png" />) icon on a post, which appears on hovering over it with the mouse (desktop) or pressing and holding a finger on the post (mobile).</li> 
+  </ul> 
+ </body>
+</html>

@@ -1,0 +1,464 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2017-10-31T16:19:39.625-0400" name="firstPublishExternalDate" /> 
+  <meta content="Creating Page Templates" name="navTitle" /> 
+  <meta content="Creating Page Templates" name="seoTitle" /> 
+  <meta content="2018-11-22T08:45:37.518-0500" name="cq:lastReplicated" /> 
+  <meta content="jsyal@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2018-11-22T08:45:28.484-0500" name="cq:lastModified" /> 
+  <meta content="bohnert" name="cq:lastReplicatedBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="2018-10-28T01:42:20.717-0400" name="lastPublishExternalDate" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html" name="publishExternalURL" /> 
+  <meta content="2018-10-28T01:42:20.717-0400" name="topicBrowsingSortDate" /> 
+  <meta content="Creating Page Templates" name="jcr:title" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="000c3050-c23f-497f-b422-8074f915713a" name="jcr:uuid" /> 
+  <meta content="2018-10-28T01:42:20.717-0400" name="publishExternalDate" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="bohnert" name="cq:lastModifiedBy" /> 
+  <meta content="/content/docs/en/aem/6-3/author/site-page-features/templates" name="qaNotes" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="The template defines the structure of the resultant page and with the template editor, creating and maintaining templates is no longer a developer-only task" name="seoDescription" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="audience:authoring" name="primaryAudienceTag" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;content_type:reference;topic_tags:site-features" name="cq:tags" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="Chris Bohnert" name="contentOwner" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/authoring/morehelp/site-features;/content/help/en/experience-manager/6-4/sites/authoring/morehelp/site-features" name="moreHelpPaths" /> 
+  <meta content="1f74188d-f08c-45da-851f-8db84047f972" name="jcr:predecessors" /> 
+  <meta content="2018-04-19T10:35:53.739-0400" name="locHandOffDate" /> 
+  <meta content="2017-12-12T19:02:29.116-0500" name="jcr:created" /> 
+ </head> 
+ <body> 
+  <p>When creating a page you must select a template, which will be used as the basis for creating the new page. The template defines the structure of the resultant page, any initial content, and the components that can be used.</p> 
+  <p>With the <strong>Template Editor</strong>, creating and maintaining templates is no longer a developer-only task. A type of power-user, who is called a <strong>template author</strong>, can be involved too. Developers are still required to setup the environment, create client libraries, and create the components to be used, but once these basics are in place the <strong>template author</strong> has the flexibility to create and configure templates without a development project.</p> 
+  <p>The <strong>Templates Console</strong> allows template authors to:</p> 
+  <ul> 
+   <li>Create a new template or copy an existing template.<br /> </li> 
+   <li>Manage the lifecycle of the template.</li> 
+  </ul> 
+  <p>The <strong>Template Editor</strong> allows template authors to:</p> 
+  <ul> 
+   <li>Add components to the template and position them on a responsive grid.</li> 
+   <li>Pre-configure the components.<br /> </li> 
+   <li>Define which components can be edited on pages created with the template.</li> 
+  </ul> 
+  <p>This document explains how a <strong>template author</strong> can use the template console and editor to create and manage editable templates.</p> 
+  <p>For detailed information about how editable templates work at a technical level, please see the developer document <a href="../../../sites/developing/using/page-templates-editable.md">Page Templates - Editable</a> for more information.</p> 
+  <note> 
+   <p>The <strong>Template Editor</strong> does not support targeting directly on the template level. Pages created based on an editable template can be targeted, but the templates themselves can not be.</p> 
+  </note> 
+  <note> 
+   <p>Pages and templates created with the <strong>Templates Console</strong> are not meant to be used with the classic UI and such use is not supported.</p> 
+  </note> 
+  <h2>Before You Start</h2> 
+  <note> 
+   <p>An administrator must configure a template folder in the <strong>Configurations Browser</strong> and apply proper permissions before a template author can create a template in that folder.</p> 
+  </note> 
+  <p>The following points are important to consider before you start:</p> 
+  <ul> 
+   <li>Creating a new template requires collaboration. For this reason the <a href="#roles">Role</a> is indicated for each task.<br /> </li> 
+   <li>Depending on how your instance is configured, it might be useful to be aware that AEM now provides <a href="../../../sites/authoring/using/templates.md#main-pars-title-1120829965">two basic types of template</a>. This does not impact how you actually <a href="#usingatemplatetocreateapage">use a template to create a page</a>, but it does impact the type of template you can create and how a page relates to its template.</li> 
+  </ul> 
+  <h3>Roles</h3> 
+  <p>Creating a new template using the <strong>Templates Console</strong> and the <strong>Template Editor</strong> requires collaboration between the following roles:</p> 
+  <ul> 
+   <li><strong>Admin</strong>: 
+    <ul> 
+     <li>Creates a new folder for templates requires <span class="code">admin</span> rights.<br /> </li> 
+     <li>Such tasks can often also be done by a developer</li> 
+    </ul> </li> 
+   <li><strong>Developer</strong>: 
+    <ul> 
+     <li>Concentrates on the technical/internal details</li> 
+     <li>Needs experience with the development environment.<br /> </li> 
+     <li>Provides the template author with necessary information.<br /> </li> 
+    </ul> </li> 
+   <li><strong>Template Author</strong>: 
+    <ul> 
+     <li>This is a specific author who is member of the group <span class="code">template-authors</span> 
+      <ul> 
+       <li>This allocates the required privileges and permissions.<br /> </li> 
+      </ul> </li> 
+     <li>Can configure the use of components and other high level details which requires: 
+      <ul> 
+       <li>Some technical knowledge 
+        <ul> 
+         <li>For example, using patterns when defining paths.</li> 
+        </ul> </li> 
+       <li>Technical information from the developer.<br /> </li> 
+      </ul> </li> 
+    </ul> </li> 
+  </ul> 
+  <p>Due to the nature of some tasks such as creating a folder, a development environment is needed, and this requires knowledge/experience.</p> 
+  <p>The tasks detailed in this document are listed with the role responsible for carrying them out.</p> 
+  <h3>Editable and Static Templates</h3> 
+  <p>AEM now offers two basic types of templates:</p> 
+  <ul> 
+   <li> 
+    <ul> 
+     <li>Can be <a href="#creatinganewtemplate">created</a> and <a href="#editingatemplate">edited</a> by template authors using the <strong>Template</strong> console and editor. The <strong>Template</strong> console is accessible in the <strong>General</strong> section of the <strong>Tools</strong> console.<br /> </li> 
+     <li>After the new page is created a dynamic connection is maintained between the page and the template. This means that changes to the template structure and/or locked content will be reflected on any pages created with that template. Changes to the unlocked (i.e. initial) content will not be reflected.</li> 
+     <li>Use content policies, which you can define these from the template editor, to persist the design properties. Design mode within the page editor is no longer used for editable templates.</li> 
+    </ul> </li> 
+   <li><p>Static Templates</p> 
+    <ul> 
+     <li>Static templates have been available for several versions of AEM.<br /> </li> 
+     <li>They are <a href="../../../sites/developing/using/page-templates-static.md">provided by your developers</a>, so they cannot be created or edited by authors.</li> 
+     <li>Are copied to create the new page, but no dynamic connection exists after this (though the template name is registered for information).<br /> </li> 
+     <li>Use <a href="../../../sites/authoring/using/default-components-designmode.md">Design Mode</a> to persist design properties.</li> 
+     <li>Because editing static templates is the exclusive task of a developer, please see the developer document <a href="../../../sites/developing/using/page-templates-static.md">Page Templates - Static</a> for more information.</li> 
+    </ul> </li> 
+  </ul> 
+  <p>By definition, the template console and template editor only allow creation and editing of editable templates. Therefore this document focuses exclusively on editable templates.</p> 
+  <h3>Using a Template to Create a Page</h3> 
+  <p>When using a template to <a href="../../../sites/authoring/using/managing-pages.md#creatinganewpage">create a new page</a> there is no visible difference and no indication between static and editable templates. For the page author, the process is transparent.<br /> </p> 
+  <h2>Creating and Managing Templates</h2> 
+  <p>When creating a new editable template you:</p> 
+  <ul> 
+   <li>Use the <strong>Template</strong> console. This is available in the <strong>General</strong> section of the <strong>Tools</strong> console. 
+    <ul> 
+     <li>Or directly at: <a href="http://localhost:4502/libs/wcm/core/content/sites/templates.html/conf">http://localhost:4502/libs/wcm/core/content/sites/templates.html/conf</a></li> 
+    </ul> </li> 
+   <li>Can <a href="#creatingatemplatefolderadmin">create a folder for the templates</a> if necessary</li> 
+   <li><a href="#creatinganewtemplateauthor">Create a new template</a>, which will initially be empty<a href="#templatedefinitions"></a></li> 
+   <li><a href="#definingtemplatepropertiesauthor">Define additional properties</a> for the template if required</li> 
+   <li><a href="#editingtemplates">Edit the template</a> to define the: 
+    <ul> 
+     <li><a href="#editingatemplatestructureauthor">Structure</a> - Predefined content that cannot be changed on pages created with the template.<br /> </li> 
+     <li><a href="#editingatemplateinitialcontentauthor">Initial Content</a> - Predefined content that can be changed on pages created with the template.<br /> </li> 
+     <li><a href="#editingatemplatelayoutauthor">Layout</a> - For a range of devices.</li> 
+     <li><a href="../../../sites/authoring/using/style-system.md">Styles</a> - Define the styles to be used with the template and its components.<br /> </li> 
+    </ul> </li> 
+   <li><a href="#enablingatemplateauthor">Enable the template</a> for use when creating a page</li> 
+   <li><a href="#allowingatemplateauthor">Allow the template</a> for the required page or branch of your website</li> 
+   <li><a href="#publishingatemplateauthor">Publish the template</a> to make it available on the publish environment</li> 
+  </ul> 
+  <note> 
+   <p>The <strong>Allowed Templates</strong> are often pre-defined when your website is initially set up.<br /> </p> 
+  </note> 
+  <note> 
+   <p>Never enter any information that needs to be <a href="../../../sites/developing/using/i18n.md">internationalized</a> into a template.</p> 
+  </note> 
+  <h3>Creating a Template Folder - Admin</h3> 
+  <p>A template folder should be created for your project to hold your project-specific templates. This is an admin task and is described in the document <a href="../../../sites/developing/using/page-templates-editable.md#main-pars-title-1575837874">Page Templates - Editable</a>.</p> 
+  <h3>Creating a New Template - Template Author</h3> 
+  <ol> 
+   <li><p>Open the <strong>Templates Console</strong> (via <strong>Tools -&amp;gt;</strong> <strong>General</strong>) then navigate to the required folder.<br /> </p> 
+    <note> 
+     <p>In a standard AEM instance the <strong>global</strong> folder already exists in the template console. This holds default templates and acts as a fallback if no policies and/or template-types are found in the current folder.</p> 
+     <p>It is recommended best practice to use a <a href="../../../sites/developing/using/page-templates-editable.md#main-pars-title-1575837874">template folder created for your project</a>.</p> 
+    </note></li> 
+   <li><p>Select <strong>Create</strong>, followed by <strong>Create Template</strong> to open the wizard.<br /> </p> </li> 
+   <li><p>Pick a <strong>Template Type</strong>, then select <strong>Next</strong>.</p> 
+    <note> 
+     <p>Template types are predefined template layouts and can be thought of as templates for a template. These are predefined by developers or the system administrator. More information can be found in the developer document <a href="../../../sites/developing/using/page-templates-editable.md#main-pars-title-219787436">Page Templates - Editable</a>.</p> 
+    </note></li> 
+   <li><p>Complete the <strong>Template Details</strong>:</p> 
+    <ul> 
+     <li><strong>Template Name</strong></li> 
+     <li><strong>Description</strong></li> 
+    </ul>  </li> 
+   <li><p>Select <strong>Create</strong>. A confirmation will be shown, select <strong>Open</strong> to start <a href="#editingatemplate">editing the template</a> or <strong>Done</strong> to return to the template console.<br /> </p> 
+    <note> 
+     <p>When a new template is created it is marked as <strong>Draft</strong> in the console, this indicates that it is not yet available to use by page authors.</p> 
+    </note></li> 
+  </ol> 
+  <h3>Defining Template Properties - Template Author</h3> 
+  <p>A template can have the following properties:</p> 
+  <ul> 
+   <li>Image 
+    <ul> 
+     <li>Image to be used as a <a href="../../../sites/authoring/using/templates.md#main-pars-title-a12f">thumbnail of the template</a> to aid selection such as in the Create Page wizard. 
+      <ul> 
+       <li>Can be uploaded</li> 
+       <li>Can be generated based on the template content</li> 
+      </ul> </li> 
+    </ul> </li> 
+   <li>Title 
+    <ul> 
+     <li>A title used for identifying the template such as in the <strong>Create Page</strong> wizard.</li> 
+    </ul> </li> 
+   <li>Description 
+    <ul> 
+     <li>An optional description to provide more information about the template and its use, which can be seein for example in the <strong>Create Page</strong> wizard.</li> 
+    </ul> </li> 
+  </ul> 
+  <p>To view and/or edit the properties:</p> 
+  <ol> 
+   <li><p>In the <strong>Templates Console</strong>, select the template.</p> </li> 
+   <li><p>Select <strong>View Properties</strong> from the toolbar or quick options to open the dialog.</p> </li> 
+   <li><p>You can now view or edit the template properties.<br /> </p> </li> 
+  </ol> 
+  <note> 
+   <p>The status of a template (draft, enabled, or disabled) is indicated in the console.<br /> </p> 
+  </note> 
+  <h4>Template Thumbnail Image</h4> 
+  <p>To define the template thumbnail:</p> 
+  <ol> 
+   <li><p>Edit the template properties.</p> </li> 
+   <li><p>Choose if you wish to upload a thumbnail or have it generated from the template content.</p> 
+    <ul> 
+     <li>If you wish to upload a thumbnail, click or tap <strong>Upload Image</strong></li> 
+     <li>If you wish to generate a thumbnail, click or tap <strong>Generate Preview</strong></li> 
+    </ul> </li> 
+   <li><p>For both methods a preview of the thumbnail will be displayed. </p> <p>If it is not satisfactory, click or tap <strong>Clear</strong> to upload another image or re-generate the thumbnail.</p> </li> 
+   <li><p>When you are satisfied with the thumbnail, click or tap <strong>Save &amp; Close</strong>.</p> </li> 
+  </ol> 
+  <h3>Enabling and Allowing a Template - Template Author</h3> 
+  <p>To be able to use a template when creating a page you need to:</p> 
+  <ul> 
+   <li><a href="#enablingatemplate">Enable the template</a> to make it available for use when creating pages.</li> 
+   <li><a href="#allowingatemplate">Allow the template</a> to specify the content branches where the template can be used.<br /> </li> 
+  </ul> 
+  <h4>Enabling a Template - Template Author</h4> 
+  <p>A template can be enabled or disabled to make it available or unavailable in the <strong>Create Page</strong> wizard.</p> 
+  <note> 
+   <p>Once a template is enabled a warning will be displayed when a template author starts to update the template further. This is to inform the user that the template might be referenced, so any changes might affect the pages referencing the template.</p> 
+  </note> 
+  <ol> 
+   <li><p>In the <strong>Templates Console</strong>, select the template.</p> </li> 
+   <li><p>Select <strong>Enable</strong> or <strong>Disable</strong> from the toolbar, and again in the confirmation dialog.</p> </li> 
+   <li><p>You can now use your template when <a href="../../../sites/authoring/using/managing-pages.md#creatinganewpage">creating a new page</a>, though you will probably want to <a href="#editingatemplate">edit the template</a> according to your requirements.<br /> </p> </li> 
+  </ol> 
+  <note> 
+   <p>The status of a template (draft, enabled, or disabled) is indicated in the console.<br /> </p> 
+  </note> 
+  <h4>Allowing a Template - Author</h4> 
+  <p>A template can be made available or unavailable for certain page branches.</p> 
+  <ol> 
+   <li><p>Open the <a href="../../../sites/authoring/using/editing-page-properties.md">Page Properties</a> for the root page of the branch where you want the template to be available.<br /> </p> </li> 
+   <li><p>Open the <strong>Advanced</strong> tab.<br /> </p> </li> 
+   <li><p>Under <strong>Template Settings</strong> use <strong>Add field</strong> to specify the path(s) to your template(s). </p> <p>The path can be explicit or use patterns. For example:</p>  <p>The order of the paths is irrelevant, all paths will be scanned and any templates retrieved.</p> 
+    <note> 
+     <p>If the <strong>Allowed Templates</strong> list is left empty then the tree will be ascended until a value/list is found.</p> 
+     <p>See <a href="../../../sites/developing/using/templates.md#main-pars-title-1885710792">Template Availability</a> - the principles for allowed templates remain the same.</p> 
+    </note></li> 
+   <li><p>Click <strong>Save</strong> to save the changes to the page properties.</p> </li> 
+  </ol> 
+  <note> 
+   <p>Often the allowed templates are pre-defined for your entire site when it is set up.<br /> </p> 
+  </note> 
+  <h3>Publishing a Template - Template Author</h3> 
+  <p>As the template is referenced when a page is rendered, the fully configured template needs to be published so that it is available on the publish environment.</p> 
+  <ol> 
+   <li><p>In the <strong>Templates Console</strong>, select the template.</p> </li> 
+   <li><p>Select <strong>Publish</strong> from the toolbar to open the wizard. </p> </li> 
+   <li><p>Select the <strong>Content Policies</strong> to be published in tandem.<br /> </p> </li> 
+   <li><p>Select <strong>Publish</strong> from the toolbar to complete the action.</p> </li> 
+  </ol> 
+  <h2>Editing Templates - Template Authors</h2> 
+  <p>When creating or editing a template there are various aspects that you can define. Editing templates is similar to page authoring.</p> 
+  <p>The following aspects of a template can be edited:</p> 
+  <ul> 
+   <li> <p>Components added here cannot be moved/removed from resultant pages by the page authors. If you want page authors to be able to add and remove components to resultant pages, then you need to add a paragraph system to the template.</p> <p>When components are locked you can add content, which cannot be edited by page authors. You can unlock components to allow you to define <a href="#editingatemplateinitialcontent">Initial Content</a>.</p> 
+    <note> 
+     <p>In structure mode, any components that are the parent of an unlocked component cannot be moved, cut, or deleted.</p> 
+    </note></li> 
+   <li> <p>When a component has been unlocked you can define the initial content that will be copied to the resultant page(s), created from the template. These unlocked components can be edited on the resulting page(s).<br /> </p> 
+    <note> 
+     <p>In <strong>Initial Content</strong> mode as well as on the resultant pages, any unlocked components that have an accessible parent (i.e. components within a layout container) can be deleted.</p> 
+    </note></li> 
+   <li> <p>Here you can predefine the template layout for the required device formats. <strong>Layout</strong> mode for template authoring has the same functionality as the <a href="../../../sites/authoring/using/responsive-layout.md#main-pars-title"><strong>Layout</strong> mode for page authoring</a>.</p> </li> 
+   <li> <p>Under page policies you can connect predefined page policies to the page. These page policies define the various design configurations.</p> </li> 
+   <li> <p>The Style System allows a template author to define style classes in the content policy of a component so that a content author is able to select them when editing the component on a page. These styles can be alternative visual variations of a component, making it more flexible.</p> <p>See the <a href="../../../sites/authoring/using/style-system.md">Style System documentation</a> for more information.<br /> </p> </li> 
+  </ul> 
+  <p>The <strong>Mode</strong> selector in the toolbar allows you to select and edit the appropriate aspect of the template:</p> 
+  <ul> 
+   <li><a href="#editingatemplatestructure">Structure</a></li> 
+   <li><a href="#editingatemplateinitialcontent">Initial Content</a></li> 
+   <li><a href="#editingatemplatelayout">Layout</a></li> 
+  </ul> 
+  <img imageRotate="0" src="assets/chlimage_1-351.png" /> 
+  <p>While the <strong>Page Policy</strong> option on the <strong>Page Information</strong> menu allows you to <a href="#editingatemplatepagepolicies">select the required page policies</a>:</p> 
+  <img imageRotate="0" src="assets/screen_shot_2018-03-23at120604.png" /> 
+  <note> 
+   <p>If an author starts to edit a template that has already been enabled a warning will be displayed. This is to inform the user that the template might be referenced, so any changes might affect the pages referencing the template.</p> 
+  </note> 
+  <h3>Editing a Template - Structure - Template Author</h3> 
+  <p>In <strong>Structure</strong> mode you define components and content for your template and define policy for the template and its compontnes.</p> 
+  <ul> 
+   <li>Components defined in the template structure cannot be moved on a resulting page nor deleted from any resulting pages.</li> 
+   <li>If you want page authors to be able to add and remove components, add a paragraph system to the template.</li> 
+   <li>Components can be unlocked and locked again to allow you to define <a href="#editingatemplateinitialcontent">initial content</a>.<br /> </li> 
+   <li>The design policies for the components and page are defined.</li> 
+  </ul> 
+  <img imageRotate="0" src="assets/screen_shot_2018-03-23at120819.png" /> 
+  <p>In <strong>Structure</strong> mode of the template editor:</p> 
+  <ul> 
+   <li> <p>There are several mechanisms for adding components to the template:</p> 
+    <ul> 
+     <li>From the <strong>Components</strong> browser in the side panel.</li> 
+     <li>By using the <strong>Insert Component</strong> option (<strong>+</strong> icon) available on the toolbar of components already on the template or the <strong>Drag components here</strong> box.<br /> </li> 
+     <li>By dragging an asset (from the <strong>Assets</strong> browser in the side panel) directly onto the template to generate the appropriate component in situ.</li> 
+    </ul> <p>Once added, each component is marked with:</p> 
+    <ul> 
+     <li>A border</li> 
+     <li>A marker to show the component type</li> 
+     <li>A marker to show when the component has been unlocked</li> 
+    </ul> 
+    <note> 
+     <p>When you add an out-of-the-box <strong>Title</strong> component to the template it will contain the default text <strong>structure</strong>.</p> 
+     <p>If you change this, and add your own text, then this updated text will be used when a page is created from the template.</p> 
+     <p>If you leave the default text (structure) then the title will default to the name of the subsequent page.<br /> </p> 
+    </note> 
+    <note> 
+     <p>Although not identical, adding components and assets to a template has many similiarities to similar actions when <a href="../../../sites/authoring/using/editing-content.md">page authoring</a>.</p> 
+    </note></li> 
+   <li> <p>Take actions on the components once they have been added to the template. Each individual instance has a toolbar that allows you to access the available actions, the toolbar is dependent on the component type.</p> <img imageRotate="0" src="assets/screen_shot_2018-03-23at120909.png" /><p>It can also be dependent on actions taken such as when a policy has been associated with the component, then the design configuration icon becomes available.<br /> </p> </li> 
+   <li> <p>With these two actions you can add content to your components.</p> </li> 
+   <li> <p>When working in <strong>Structure</strong> mode an orange border indicates the component currently selected. A dotted line also indicates the parent component.</p> <p>For example, in the screenshot below the <strong>Text</strong> component is selected, within a <strong>Layout Container</strong> (responsivegrid).<br /> </p> <img imageRotate="0" src="assets/chlimage_1-352.png" /></li> 
+   <li> <p>The content (or design) policies define the design properties of a component. For example, the components available or minimum/maximum dimensions. These are applicable to the template (and pages created with the template).</p> <p>Create a content policy, or select an existing one, for a component. This allows you to define the design details.</p> <img imageRotate="0" src="assets/chlimage_1-353.png" /><img imageRotate="0" src="assets/chlimage_1-354.png" /><p>The configuration window is divided in two.</p> 
+    <ul> 
+     <li>In the left side of the dialogue under <strong>Policy</strong>, you have the ability to select an existing policy or select an existing one.</li> 
+     <li>In the right side of the dialogue under <strong>Properties</strong>, you can set the properties specific to the component type.</li> 
+    </ul> <p>The properties available are dependent on the selected component. For example, for a text component the properties define the copy and paste options, formatting options, and paragraph style amongst other options.</p>  <p>The content (or design) policies define the design properties of a component. For example, the components available or minimum/maximum dimensions. These are applicable to the template (and pages created with the template).</p> <p>Under <strong>Policy</strong> you can select an existing policy to apply to the component via the drop-down.</p> <img imageRotate="0" src="assets/chlimage_1-355.png" /><p>A new policy can be added by selecting the add button next to the <strong>Select policy</strong> dropdown. A new title should then be given in the <strong>Policy Title</strong> field.</p> <img imageRotate="0" src="assets/chlimage_1-356.png" /><p>The selected existing policy in the <strong>Select policy</strong> dropdown can be copied as a new policy using the copy button next to the dropdown. A new title should then be given in the <strong>Policy Title</strong> field. By default the copied policy will be titled <strong>Copy of X</strong>, where X is the title of the copied policy.</p> <img imageRotate="0" src="assets/chlimage_1-357.png" /><p>A description of the policy is optional in the <strong>Policy Description</strong> field.</p> <p> In the <strong>Other templates also using the selected policy</strong> section, you can easily see which other templates use the policy selected in the <strong>Select policy</strong> dropdown.</p> <img imageRotate="0" src="assets/chlimage_1-358.png" /> 
+    <note> 
+     <p>If multiple components of the same type are added as initial content, the same policy applies to all the components. This mirrors the same restriction in <a href="../../../sites/authoring/using/default-components-designmode.md"><strong>Design Mode</strong> for static templates</a>.</p> 
+    </note> <p>Under the <strong>Properties</strong> heading you can define the settings of the component. The heading has two tabs:</p> 
+    <ul> 
+     <li>Main</li> 
+     <li>Features</li> 
+    </ul>  <p>On the <strong>Main</strong> tab, the most important settings of the component are defined.</p> <p>For example for an image component the allowed widths can be defined along with enabling lazy loading.</p> <p>If a setting allows for multiple configurations, click or tap the <strong>Add</strong> button to add another configuration.</p> <img imageRotate="0" src="assets/chlimage_1-359.png" /><p>To remove a configuration, click or tap the <strong>Delete</strong> button located to the right of the configuration.</p> <p>To remove a configuration, click or tap the<strong> Delete</strong> button.</p> <img imageRotate="0" src="assets/chlimage_1-360.png" /> <p>The <strong>Features</strong> tab allows you to enable or disable additional features of the component.</p> <p>For example for an image component you can define the cropping proportions, allowed image orientations, and if uploads are allowed.</p> <img imageRotate="0" src="assets/chlimage_1-361.png" /> 
+    <note> 
+     <p>Note that in AEM crop ratios are defined as <strong>height/width</strong>. This differs from the conventional definition of width/height and is done for legacy compatability reasons. The page authoring users will not be aware of any difference provided you define the <strong>Name</strong> clearly as this is what is displayed in the UI.</p> 
+    </note></li> 
+   <li> <p>The policy and properties settings of a layout container are similar to the general usage, but with some differences.</p> 
+    <note> 
+     <p>Configuring a policy is mandatory for container components as it enables you to define components that will be available in the container.</p> 
+    </note><p>The configuration window is divided in two, just as in the general usage of the window.</p>  <p>The content (or design) policies define the design properties of a component. For example, the components available or minimum/maximum dimensions. These are applicable to the template (and pages created with the template).</p> <p>Under <strong>Policy</strong> you can select an existing policy to apply to the component via the drop-down. This functions just as it does in the general usage of the window.</p>  <p>Under the <strong>Properties</strong> heading you can choose which components are available for the layout container and define their settings. The heading has three tabs:</p> 
+    <ul> 
+     <li>Allowed Components</li> 
+     <li>Default Components</li> 
+     <li>Responsive Settings</li> 
+    </ul>  <p>On the <strong>Allowed Components</strong> tab, you define which components are available for the layout container.</p> 
+    <ul> 
+     <li>The components are grouped by their component groups, which can be expanded and collapsed.</li> 
+     <li>An entire group can be selected, by checking the group name and all can be deselected by unchecking.</li> 
+     <li>A minus represents at least one but not all items in a group are selected.</li> 
+     <li>A search is available to filter for a component by name.</li> 
+     <li>The counts listed to the right of the component group name represent the total number of selected components in those groups regardless of the filter.</li> 
+    </ul> <img imageRotate="0" src="assets/chlimage_1-362.png" /> <p>On the <strong>Default Components</strong> tab, you define which components are automatically associated with given media types so that when an author drags an asset from the asset browser, AEM knows with which component to associate it. Note that only components with drop zones are available for such configuration.</p> <p>Click or tap <strong>Add Mapping</strong> to add an entirely new component and MIME type mapping.</p> <p>Select a component in the list and click or tap <strong>Add type</strong> to add an additional MIME type to an already mapped component. Click the <strong>Delete</strong> icon to remove a MIME type.</p>  <img imageRotate="0" src="assets/chlimage_1-363.png" /> <p>On the <strong>Responsive Settings</strong> tab you can configure the number of columns in the resulting grid of the layout container.</p> </li> 
+   <li> <p>You unlock/lock components to define whether the content is available for change in <strong>Initial Content</strong> mode.</p> <p>When a component has been unlocked:</p> 
+    <ul> 
+     <li>An open padlock indicator is shown in the border.</li> 
+     <li>The component toolbar will be adjusted accordingly.</li> 
+     <li>Any content already entered will no longer be shown in <strong>Structure</strong> mode. 
+      <ul> 
+       <li>Already entered content is considered initial content and is only visible in <strong>Initial Content</strong> mode.</li> 
+      </ul> </li> 
+     <li>The parents of the unlocked component cannot be moved, cut or deleted.</li> 
+    </ul> <img imageRotate="0" src="assets/chlimage_1-364.png" /><p>This includes unlocking container components so that further components can be added, either in <strong>Initial Content</strong> mode or on resulting pages. If you have already added components/content to the container before unlocking it, then these will no longer be shown when in <strong>Structure</strong> mode but they will be shown in <strong>Initial Content</strong> mode. In <strong>Structure Mode</strong>, only the container component itself will be shown with its list of <strong>Allowed Components</strong>.<br /> </p> <img imageRotate="0" src="assets/chlimage_1-365.png" /><p>To save space, the layout container does not grow to accomodate the list of allowed components. Rather the container becomes a scrollable list.</p> <p>Components that are configurable are shown with a <strong>Policy</strong> icon, which can be tapped or clicked to edit the policy and properties of that component.</p> <img imageRotate="0" src="assets/chlimage_1-366.png" /></li> 
+   <li> <p>If the structure is updated after creating pages based on the template, then these pages will reflect the changes to the template. A warning is displayed in the toolbar to remind you of this fact along with confirmation dialogues.<br /> </p> <img imageRotate="0" src="assets/chlimage_1-367.png" /></li> 
+  </ul> 
+  <h3>Editing a Template - Initial Content - Author</h3> 
+  <p><strong>Initial Content</strong> mode is used to defined content that will appear when a page is first created based on the template. The initial content can then be edited by page authors.</p> 
+  <p>Although all content created in <strong>Structure</strong> mode is visible in <strong>Initial Content</strong>, only components that have been unlocked can be selected and edited.<br /> </p> 
+  <note> 
+   <p><strong>Initial Content</strong> mode can be thought of edit mode for pages created with that template. Therefore policies are not defined in <strong>Initial Content</strong> mode but rather in <a href="../../../sites/authoring/using/templates.md#main-pars-title-1754153843"><strong>Structure</strong> mode</a>.</p> 
+  </note> 
+  <ul> 
+   <li><p>Unlocked components that are available for editing are marked. When selected they have a blue border:</p> <img imageRotate="0" src="assets/chlimage_1-368.png" /></li> 
+   <li><p>Unlocked components have a toolbar allowing you to edit and configure the content:</p> <img imageRotate="0" src="assets/chlimage_1-369.png" /></li> 
+   <li><p>If a container component has been unlocked (in <strong>Structure</strong> mode) then you can add new components to the container (in <strong>Initial Content</strong> mode). Components added in <strong>Initial Content</strong> mode can be moved on or deleted from resulting pages.</p> <p>You can add component using either the <strong>Drag components here</strong> area or the <strong>Insert New Component</strong> option from the toolbar of the appropriate container.</p> <img imageRotate="0" src="assets/chlimage_1-370.png" /><img imageRotate="0" src="assets/chlimage_1-371.png" /></li> 
+   <li><p>If the initial content of the template is updated after pages are created based on the template, then these pages will not be affected by changes to the initial content in the template.<br /> </p> </li> 
+  </ul> 
+  <note> 
+   <p>Initial content is intended for preparing components and the page layout that serve as a starting point for creating the content. It is not intended to be the actual content that would remain as is. For this reason, initial content can not be translated.</p> 
+  </note> 
+  <h3>Editing a Template - Layout - Template Author</h3> 
+  <p>You can define the template layout for a range of devices. <a href="../../../sites/authoring/using/responsive-layout.md">Responsive layout</a> for templates operates as it does for page authoring.</p> 
+  <note> 
+   <p>Changes to the layout will be reflected in <strong>Initial Content</strong> mode, but no change is seen in <strong>Structure</strong> mode.<br /> </p> 
+  </note> 
+  <img imageRotate="0" src="assets/chlimage_1-372.png" /> 
+  <h3>Editing a Template - Page Design - Template Author/Developer</h3>   
+  <p>The page design including required client-side libraries and page policies are maintained under the <strong>Page Design</strong> option of the <strong>Page Information</strong> menu.</p> 
+  <p>To access the <strong>Page Design</strong> dialog:</p> 
+  <ol> 
+   <li><p>From the <strong>Template Editor</strong>, select <strong>Page Information</strong> from the toolbar, then <strong>Page Design</strong> to open the dialog.</p> </li> 
+   <li><p>The <strong>Page Design</strong> dialog opens and is divided into two sections:</p> 
+    <ul> 
+     <li>The left half defines the <a href="../../../sites/authoring/using/templates.md#main-pars-title-1c27">page policies</a></li> 
+     <li>The right half defines the <a href="../../../sites/authoring/using/templates.md#main-pars-title-969044481">page properties</a></li> 
+    </ul> <img imageRotate="0" src="assets/chlimage_1-373.png" /></li> 
+  </ol> 
+  <h4>Page Policies</h4> 
+  <p>You can apply a content policy to either the template or resultant pages. This defines the content policy for the main paragraph system on the page.<br /> </p> 
+  <img imageRotate="0" src="assets/chlimage_1-374.png" /> 
+  <ul> 
+   <li><p>You can select an existing policy for the page from the <strong>Select policy</strong> drop-down.</p> <img imageRotate="0" src="assets/chlimage_1-375.png" /><p>A new policy can be added by selecting the add button next to the <strong>Select policy</strong> dropdown. A new title should then be given in the <strong>Policy Title</strong> field.</p> <img imageRotate="0" src="assets/chlimage_1-376.png" /><p>The selected existing policy in the <strong>Select policy</strong> dropdown can be copied as a new policy using the copy button next to the dropdown. A new title should then be given in the <strong>Policy Title</strong> field. By default the copied policy will be titled <strong>Copy of X</strong>, where X is the title of the copied policy.</p> <img imageRotate="0" src="assets/chlimage_1-377.png" /></li> 
+   <li><p>Define a title for the policy in the <strong>Policy Title</strong> field. A policy is required to have a title so that it can be easily selected in the <strong>Select policy</strong> dropdown.<br /> </p> <img imageRotate="0" src="assets/chlimage_1-378.png" /></li> 
+   <li><p>A description of the policy is optional in the <strong>Policy Description</strong> field.</p> </li> 
+   <li><p> In the <strong>Other templates also using the selected policy</strong> section, you can easily see which other templates use the policy selected in the <strong>Select policy</strong> dropdown.</p> <img imageRotate="0" src="assets/chlimage_1-379.png" /></li> 
+  </ul> 
+  <h4>Page Properties</h4> 
+  <p>Using page properties, you can define the required client-side libraries by using the <strong>Page Design</strong> dialog. These client-side libraries include stylesheets and javascript to be loaded with the template and pages created with that template.<br /> </p> 
+  <img imageRotate="0" src="assets/chlimage_1-380.png" /> 
+  <ul> 
+   <li><p>Specify the client-side libraries you want applied to pages created with this template. Entering the name of a library in the text field in the <strong>Client Side Libraries</strong> section.</p> <img imageRotate="0" src="assets/chlimage_1-381.png" /></li> 
+   <li><p>If multiple libraries are needed, click the Add button to add an additional text field for the library name.</p> <img imageRotate="0" src="assets/chlimage_1-382.png" /><p>Add as many text fields as necessary for your client-side libraries.</p> <img imageRotate="0" src="assets/chlimage_1-383.png" /></li> 
+   <li><p>Define the libraries' relative position as necessary by dragging the fields using the drag handle.<br /> </p> <img imageRotate="0" src="assets/chlimage_1-384.png" /></li> 
+  </ul> 
+  <note> 
+   <p>While the template author can specify the page policy on the template, he or she will need to get details of the appropriate client-side libraries from the developer.<br /> </p> 
+  </note> 
+  <h3>Editing a Template - Initial Page Properties - Author</h3> 
+  <p>Using the <strong>Initial Page Properties</strong> option, you can define the initial <a href="../../../sites/authoring/using/editing-page-properties.md">page properties</a> to be used when creating resultant pages.<br /> </p> 
+  <ol> 
+   <li><p>From the template editor, select <strong>Page Information</strong> from the toolbar, then <strong>Initial Page Properties</strong> to open the dialog.<br /> </p> </li> 
+   <li><p>In the dialog you can define the properties you want applied to pages created with this template. </p> <img imageRotate="0" src="assets/chlimage_1-385.png" /></li> 
+   <li><p>Confirm your definitions with <strong>Done</strong>.</p> </li> 
+  </ol> 
+  <h2>Best Practices</h2> 
+  <p>When creating templates you should consider:</p> 
+  <ol> 
+   <li><p>The impact of changes to the template once pages have been created from that template.</p> <p>Here is a list of the different operations possible on templates together with how they affect the pages created from them:</p> 
+    <ul> 
+     <li>Changes to the structure: 
+      <ul> 
+       <li>These are immediately applied to the resulting pages.</li> 
+       <li>Publication of the changed template is still needed for visitors to see the changes.</li> 
+      </ul> </li> 
+     <li>Changes to content policies and design configurations: 
+      <ul> 
+       <li>These apply immediately to the resultant pages. </li> 
+       <li>Publication of the changes is needed for visitors to see the changes.</li> 
+      </ul> </li> 
+     <li>Changes to the initial content: 
+      <ul> 
+       <li>These only apply to pages created after the changes to the template.</li> 
+      </ul> </li> 
+     <li>Changes to the layout depend on whether the modified component is part of: 
+      <ul> 
+       <li>Structure-only - applied immediately</li> 
+       <li>Contain initial content - only on pages created after the change</li> 
+      </ul> </li> 
+    </ul> <p>Take special caution when:</p> 
+    <ul> 
+     <li>Locking or unlocking components on enabled templates.</li> 
+     <li>This can have side-effects, as existing pages can already be using it. Typically: 
+      <ul> 
+       <li>Unlocking components (that were locked) will be missing on existing pages.</li> 
+       <li>Locking components (that were editable) will hide that content from being displayed on the pages.</li> 
+      </ul> </li> 
+    </ul> 
+    <note> 
+     <p>AEM gives explicit warnings when changing the lock status of components on templates that are no longer drafts.</p> 
+    </note></li> 
+   <li><p><a href="#creatingatemplatefolderdeveloper">Creating your own folders</a> for your site-specific templates.</p> </li> 
+   <li><p><a href="#publishingatemplateauthor">Publish your templates</a> from the <strong>Templates</strong> console.</p> </li> 
+  </ol> 
+ </body> 
+</html>

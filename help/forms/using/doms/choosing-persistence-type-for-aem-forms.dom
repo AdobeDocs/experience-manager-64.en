@@ -1,0 +1,92 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="en_us" name="jcr:language" />
+  <meta content="Choose a persistence type wisely. It helps you build an efficient and scalable AEM Forms environment. " name="jcr:description" />
+  <meta content="2018-04-13T07:32:35.156-0400" name="lastPublishExternalDate" />
+  <meta content="false" name="doNotLocalize" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/choosing-persistence-type-for-aem-forms.html" name="publishExternalURL" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="checked_not_improved" name="acrolinxStatus" />
+  <meta content="msm-service" name="cq:lastModifiedBy" />
+  <meta content="light" name="heroGradient" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="68188972-55b3-466f-ab99-88a034817878" name="jcr:uuid" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="14" name="acrolinxSentences" />
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" />
+  <meta content="khsingh" name="cq:lastReplicatedBy" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2017-12-12T19:01:43.904-0500" name="jcr:created" />
+  <meta content="Choosing a persistence type for an AEM Forms installation" name="jcr:title" />
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/oosing_a_microkernel_for_an_aem_forms_installation_admin_5e12de0b318c6865_2179_report.xml" name="acrolinxReportURL" />
+  <meta content="khsingh@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2018-04-13T07:32:35.156-0400" name="topicBrowsingSortDate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-04-26T04:20:55.427-0400" name="locHandOffDate" />
+  <meta content="152e7b7a-01b8-4b8b-afc4-60b16a5e4fd3" name="jcr:predecessors" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2016-05-31T06:51:13.172-0400" name="acrolinxDate" />
+  <meta content="2018-04-13T07:32:35.156-0400" name="publishExternalDate" />
+  <meta content="Choose a persistence type wisely. It helps you build an efficient and scale able AEM Forms environment. " name="seoDescription" />
+  <meta content="left" name="sideColumn" />
+  <meta content="2017-01-06T02:29:02.564-0500" name="firstPublishExternalDate" />
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/installing;/content/help/en/experience-manager/6-4/forms/morehelp/jee;/content/help/en/experience-manager/6-4/forms/morehelp/installing;/content/help/en/experience-manager/6-4/forms/morehelp/jee" name="moreHelpPaths" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" />
+  <meta content="2018-04-13T07:32:35.174-0400" name="cq:lastReplicated" />
+  <meta content="323" name="acrolinxWords" />
+  <meta content="2018-04-26T04:20:55.427-0400" name="cq:lastModified" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:installing;geptopics:SG_AEMFORMS/categories/jee" name="cq:tags" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="video" name="pageLayout" />
+  <meta content="red" name="acrolinxPageStatus" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+ </head>
+ <body>
+  <p>Persistence is the method to store content on the physical storages. It defines the actual data structure and storage mechanism for the data. MicroKernels act as persistence managers in AEM Forms. AEM Forms supports persistence (MicroKernals) of type TarMK, MongoMK, and RDBMK. You can choose a persistence type for AEM Forms depending upon the purpose and deployment type (Single-Server, Farm, or Cluster) of an AEM Forms instance.<br /> <br /> </p> 
+  <note>
+   <p>LiveCycle ES4 SP1 uses TarPM persistence to store content. <br /> </p> 
+  </note>
+  <p>The following table lists all the supported persistence types along with various parameters to help you choose a persistence type for your environment: </p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody>
+    <tr>
+     <th><strong>Installation Type / Cost</strong></th> 
+     <th><strong>TarMK</strong></th> 
+     <th><strong>MongoMk</strong></th> 
+     <th><strong>RDBMK</strong></th> 
+    </tr>
+    <tr>
+     <th><strong>Standalone Setup</strong></th> 
+     <td>Supported<br /> </td> 
+     <td>Supported</td> 
+     <td>Supported</td> 
+    </tr>
+    <tr>
+     <th><strong>Cluster Setup</strong></th> 
+     <td>Not Supported</td> 
+     <td>Supported</td> 
+     <td>Supported</td> 
+    </tr>
+    <tr>
+     <th><strong>License Cost</strong></th> 
+     <td>Included with AEM </td> 
+     <td>Separate license required</td> 
+     <td>Separate license required</td> 
+    </tr>
+   </tbody>
+  </table> 
+  <p>TarMK is designed for performance, while MongoMK and RDBMK are designed for scalability. Adobe highly recommends TarMK as the default persistence technology for all AEM Forms deployment scenarios, for both Author and Publish instances, except in the use cases outlined in section <a href="#main-pars-header">Choosing Mongo or a Relational Database Microkernel over TarMK</a>.</p> 
+  <p>For the list of supported Microkernels, see <a href="../../sites/deploying/using/technical-requirements.md" target="_blank">AEM Forms on OSGi Technical Requirements</a> or <a href="../../forms/using/AEM-forms-JEE-supported-platforms.md">AEM Forms on JEE supported platform combinations</a> articles.</p> 
+  <h2>Choosing Mongo or a Relational Database Microkernel over TarMK</h2>
+  <p>A scalable (clustered) AEM Forms environment is a set of two or more horizontally configured active author instances. You can choose to run more than one author instance if a single server, supporting all concurrent authoring activities, is no longer sustainable.</p> 
+  <p>Only MongoMK and RDBMK persistence type are supported for a scalable (clustered) AEM Forms on JEE environment. The number of servers or the size of scalable environment varies for every installation. For a list of considerations and examples, see the <a href="../../sites/deploying/using/recommended-deploys.md">Recommended Deployments</a> and or <a href="../../forms/using/aem-forms-architecture-deployment.md" target="_blank">Architecture and deployment topologies for AEM Forms</a> article. You can also contact AEM Forms support for detailed information on capacity planning for AEM Forms with RDBMK and TarMK.</p> 
+  <related-links>
+   <a href="https://helpx.adobe.com/experience-manager/6-4/forms/using/installing-configuring-aem-forms-osgi.html" target="_blank">Installing and configuring AEM Forms</a>
+   <a href="../../forms/using/html5-forms-architecture.md" target="_blank">Architecture and deployment topologies for AEM Forms</a>
+  </related-links>
+ </body>
+</html>

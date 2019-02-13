@@ -1,0 +1,114 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SCREENS" name="primaryProductTag" /> 
+  <meta content="Multi-zone Layout allows you to create multiple zone content and use a variety of assets such as videos, images and text that can be combined in a single screen. Follow this page to learn more." name="seoDescription" /> 
+  <meta content="2019-01-15T15:39:10.183-0500" name="jcr:created" /> 
+  <meta content="2019-01-18T17:10:46.118-0500" name="cq:lastReplicated" /> 
+  <meta content="2019-01-18T17:10:46.082-0500" name="lastPublishExternalDate" /> 
+  <meta content="jsyal" name="contentOwner" /> 
+  <meta content="jsyal" name="cq:lastReplicatedBy" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2019-01-18T17:10:46.088-0500" name="cq:lastModified" /> 
+  <meta content="2019-01-18T17:10:46.082-0500" name="topicBrowsingSortDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2018-12-19T17:46:25.168-0500" name="firstPublishExternalDate" /> 
+  <meta content="jsyal" name="cq:lastModifiedBy" /> 
+  <meta content="true" name="noIndex" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/screens/using/multi-zone-layout-aem-screens.html" name="publishExternalURL" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SCREENS;content_type:reference;topic_tags:authoring" name="cq:tags" /> 
+  <meta content="jsyal@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="bf7ef9f7-41c3-49f6-a829-4f100a6e34fc" name="jcr:uuid" /> 
+  <meta content="2019-01-18T17:10:46.082-0500" name="publishExternalDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="Multi-zone Layout" name="jcr:title" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="en" name="pageCreatedAt" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="/content/help/en/experience-manager/6-4/screens/morehelp/authoring;/content/help/en/experience-manager/6-4/screens/morehelp/authoring" name="moreHelpPaths" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2264585e-61cf-4ee2-a5a5-30cb9fec0ee1" name="jcr:predecessors" /> 
+ </head> 
+ <body> 
+  <p>The following page describes the usage of multi-zone layout and covers the following topics:</p> 
+  <ul> 
+   <li><a href="/screens/using/multi-zone-layout-aem-screens.html?cq_ck=1544732181418#Overview">Overview</a></li> 
+   <li><a href="../../screens/using/multi-zone-layout-aem-screens.md#creatingmultizonelayout">Creating Multi-zone Layout</a><br /> 
+    <ul> 
+     <li><a href="/screens/using/multi-zone-layout-aem-screens.html?cq_ck=1544732181418#Prerequisites">Prerequisites</a></li> 
+     <li><a href="/screens/using/multi-zone-layout-aem-screens.html?cq_ck=1545259747305#UsingSingleAssetsinoneormoreZones">Using Single Assets in one or more Zones</a></li> 
+     <li><a href="/screens/using/multi-zone-layout-aem-screens.html?cq_ck=1545256536139#UsingSequencedContentinoneormoreZones">Using Sequenced Content in one or more Zones</a></li> 
+    </ul> </li> 
+  </ul> 
+  <h2>Overview</h2> 
+  <p><strong><em>Multi-zone Layout</em></strong> allows you to create multiple zone content and use a variety of assets such as videos, images, and text that can be combined in a single screen. You can pull in images, videos, and text allowing it all to blend together and create an intuitive digital experience.</p> 
+  <p>As per the project requirements, sometimes you need multiple zones in a channel and edit them as one comprehensive unit. For example, a product sequence with a related social media feed running in three separate zones on a single channel.</p> 
+  <h2>Creating Multi-zone Layout</h2> 
+  <p>While creating a channel, you can use different templates in order to create zones in your channel. You can add a single image, video, or an embedded channel which allows for multiple assets to be shown in a sequence.</p> 
+  <h3>Prerequisites</h3> 
+  <p>Before you start implementing this functionality, please make sure you have a project ready as a prerequisite to start implementing multi-zone layout. For example,</p> 
+  <ul> 
+   <li>Create an AEM Screens project titled as <strong>Zones</strong></li> 
+   <li>Create a display under <strong>Locations </strong>titled as<strong> MultiZoneDisplay</strong></li> 
+  </ul> 
+  <p>Create a channel titled as <strong>MultiZone</strong> in <strong>Zones</strong> project. Follow the steps below:<br /> </p> 
+  <p><strong>Creating the Channel </strong></p> 
+  <ol> 
+   <li>Select the Adobe Experience Manager link (top left) and then <strong>Screens</strong>. Alternatively, you can ﻿go directly to: http://localhost:4502/screens.html/content/screens.</li> 
+   <li>Navigate to <strong>Channels</strong> folder and click <strong>Create</strong> from the action bar. <br /> </li> 
+   <li>Select <strong>Left L-bar Split Screen Chanel</strong> from the <strong>Create</strong> wizard.<br /> </li> 
+   <li>Click <strong>Next</strong> and enter the <strong>title</strong> as <strong>MultiZone</strong>.</li> 
+   <li>Click <strong>Create</strong> to complete the channel creation.</li> 
+  </ol> 
+  <img imageRotate="0" src="assets/screen_shot_2018-12-07at120026pm.png" /> 
+  <h3>Using Single Assets in one or more Zones</h3> 
+  <p>You can use single assets such as an image or a video in all three different zones. Follow the steps below for implementation:</p> 
+  <ol> 
+   <li> 
+    <ol> 
+     <li>Navigate to <strong>Zones</strong> --&amp;gt; <strong>Channels </strong>--&amp;gt;<strong> MultiZone</strong>.</li> 
+     <li>Select the <strong>MultiZone</strong> channel and click <strong>Edit</strong> from the action bar to open the editor.</li> 
+    </ol> <img imageRotate="0" src="assets/screen_shot_2018-12-07at14917pm.png" /></li> 
+   <li> <p>To play a single image or a video in all three zones, simply drag and drop the image in the channel editor, as shown below.</p> <img imageRotate="0" src="assets/new1-1.gif" /></li> 
+  </ol> 
+  <h3>Using Sequenced Content in one or more Zones</h3> 
+  <p>If you want the zones to display sequence of images or content and a static image in three different zones, please follow steps below for details.</p> 
+  <ol> 
+   <li> 
+    <ol> 
+     <li>Navigate to <strong>Zones</strong> --&amp;gt; <strong>MultiZone</strong> --&amp;gt; <strong>Channels</strong> and click <strong>Create</strong> from the action bar.</li> 
+     <li>Select <strong>Channels Folder</strong> from the <strong>Create</strong> wizard and click<strong> Next</strong>.</li> 
+     <li>Enter the title as <strong>EmbeddedChannels</strong> and click <strong>Create</strong>.<br /> </li> 
+    </ol> <img imageRotate="0" src="assets/screen_shot_2018-12-19at125428pm.png" /></li> 
+   <li> 
+    <ol> 
+     <li>Navigate to <strong>Zones</strong> --&amp;gt; <strong>Channels</strong> --&amp;gt; <strong>EmbeddedChannels</strong> and click <strong>Create</strong> from the action bar.</li> 
+     <li>Select <strong>Sequence Channel</strong> from the <strong>Create</strong> wizard to create a channel titled as<strong> Zone1</strong>.</li> 
+     <li>Select <strong>Zone1</strong> and click <strong>Edit</strong> from the action bar to open the editor.</li> 
+     <li>Drag and drop few images to this channel.</li> 
+    </ol> <p>Similarly, create another sequence channel titled as <strong>Zone2</strong> in <strong>EmbeddedChannels</strong> folder.</p> <img imageRotate="0" src="assets/screen_shot_2018-12-19at125930pm.png" /></li> 
+   <li> 
+    <ol> 
+     <li>Navigate to <strong>Zones</strong> --&amp;gt; <strong>Channels</strong> --&amp;gt; <strong>MultiZone</strong>.<br /> </li> 
+     <li>Click <strong>Edit</strong> from the action bar to open the editor.<br /> </li> 
+     <li>Drag and drop the <strong>Embedded Sequence </strong>component to two of the zones, as shown in the figure below.</li> 
+    </ol> <img imageRotate="0" src="assets/new.gif" /></li> 
+   <li> 
+    <ol> 
+     <li>Navigate to <strong>Zones</strong> --&amp;gt; <strong>Channels</strong> --&amp;gt; <strong>MultiZone</strong>.</li> 
+     <li>Select the embedded sequence in one of the zones.<br /> </li> 
+     <li>Click the <strong>Configure</strong> (wrench) icon to one of the embedded sequences in the editor.</li> 
+     <li>Select the channel path as <strong>Zones</strong> --&amp;gt; <strong>Channels</strong> --&amp;gt; <strong>EmbeddedChannels</strong> --&amp;gt; <strong>Zone1</strong>, as shown in the figure below.</li> 
+    </ol> <p>Similarly, add the <strong>Zone2</strong> to another embedded sequence component in the editor. Also, add an image to the third zone at the bottom, as shown below.</p> <img imageRotate="0" src="assets/new2-1.gif" /></li> 
+  </ol> 
+  <h4>Viewing the Result</h4> 
+  <p>Once you implement multi-zone layouts using the preceding steps, the following output displays, as shown in the figure below.</p> 
+  <p>The following output in Screens Player displays the content in three different zones. The left and the right zones (both use embedded sequence as a component) display sequence of images and the zone below displays a static image.</p> 
+  <img imageRotate="0" src="assets/new2-2.gif" /> 
+ </body> 
+</html>

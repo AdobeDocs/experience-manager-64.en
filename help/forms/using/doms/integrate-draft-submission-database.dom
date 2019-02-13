@@ -1,0 +1,299 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="khsingh@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="52fc9dc9-7737-490c-a61a-8afa64219633" name="jcr:predecessors" /> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/publish;/content/help/en/experience-manager/6-4/forms/morehelp/publish" name="moreHelpPaths" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="4fe22204-7ab2-41d5-93ed-577edc4a320b" name="jcr:uuid" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="khsingh" name="cq:lastModifiedBy" /> 
+  <meta content="2019-01-28T03:45:26.477-0500" name="publishExternalDate" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2016-05-31T06:40:31.764-0400" name="acrolinxDate" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2019-01-28T03:45:26.565-0500" name="cq:lastReplicated" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/integrate_draft_submission_database_admin_5e12de0b318c6865_2027_report.xml" name="acrolinxReportURL" /> 
+  <meta content="4038" name="acrolinxWords" /> 
+  <meta content="2019-02-04T08:10:49.608-0500" name="locHandOffDate" /> 
+  <meta content="2019-01-28T03:45:26.477-0500" name="lastPublishExternalDate" /> 
+  <meta content="2019-01-28T03:45:26.477-0500" name="topicBrowsingSortDate" /> 
+  <meta content="2015-08-06T09:38:07.791-0400" name="lastPublishQADate" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:publish" name="cq:tags" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="Reference implementation of customized data and metadata services to integrate drafts and submissions component with a database." name="seoDescription" /> 
+  <meta content="2017-12-01T19:06:38.365-0500" name="jcr:created" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/integrate-draft-submission-database.html" name="publishExternalURL" /> 
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
+  <meta content="khsingh" name="cq:lastReplicatedBy" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="Sample for integrating drafts &amp; submissions component with database" name="jcr:title" /> 
+  <meta content="2019-02-04T08:10:49.609-0500" name="cq:lastModified" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="338" name="acrolinxSentences" /> 
+  <meta content="2016-04-20T09:33:38.586-0400" name="firstPublishExternalDate" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="Integration of draft and submission with database" name="navTitle" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+ </head> 
+ <body> 
+  <h2>Sample overview</h2> 
+  <p>AEM Forms portal drafts and submissions component allows users to save their forms as drafts and submit later from any device. Also, users can view their submitted forms on portal. To enable this functionality, AEM Forms provides data and metadata services to store the data filled in by a user in the form and the form metadata associated with drafts and submitted forms. This data is stored in the CRX repository, by default. However, as users interact with forms through AEM publish instance, which is generally outside the enterprise firewall, organizations may want to customize data storage for it to be more secure and reliable.</p> 
+  <p>The sample, discussed in this document, is a reference implementation of customized data and metadata services to integrate drafts and submissions component with a database. The database used in the sample implementation is <strong>MySQL 5.6.24</strong>. However, you can integrate the drafts and submissions component with any database of your choice.</p> 
+  <note> 
+   <ul style="list-style-position: inside;"> 
+    <li>The examples and configurations explained in this document are according to MySQL 5.6.24 and you must substitute them appropriately for your database system.</li> 
+    <li>Ensure that you have installed latest version of AEM Forms add-on package. For the list of available packages, see the <a href="/content/help/en/aem-forms/kb/aem-forms-releases" target="_blank">AEM Forms releases</a> article.</li> 
+   </ul> 
+  </note> 
+  <h2>Set up and configure the sample</h2> 
+  <p>Perform the following steps, on all the author and publish instances, to install and configure the sample :</p> 
+  <ol> 
+   <li><p>Download the following <strong>aem-fp-db-integration-sample-pkg-6.1.2.zip</strong> package to your file system.</p> 
+    <div> 
+     <p>Sample package for database integration</p> 
+     <p><a alt="aem-fp-db-integration-sample-pkg-6.1.2.zip" href="assets/aem-fp-db-integration-sample-pkg-6.1.2.zip">Get File</a></p> 
+    </div></li> 
+   <li><p>Go to AEM package manager at http://[<em>host</em>]:[<em>port</em>]/crx/packmgr/.</p> </li> 
+   <li><p>Click <strong>Upload Package</strong>.<br /> </p> </li> 
+   <li><p>Browse to select the <strong>aem-fp-db-integration-sample-pkg-6.1.2.zip</strong> package and click <strong>OK</strong>.</p> </li> 
+   <li><p>Click <strong>Install</strong> to next to the package to install the package.</p> </li> 
+   <li><p>Go to AEM Web Console Configuration page at http://[<em>host</em>]:[<em>port</em>]/system/console/configMgr.</p> </li> 
+   <li><p>Click to open <strong>Forms Portal Draft and Submission Configuration</strong> in edit mode.<br /> </p> </li> 
+   <li><p>Specify the values for properties as described in the following table:<br /> </p> 
+    <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+     <tbody> 
+      <tr> 
+       <td><strong>Property</strong></td> 
+       <td><strong>Description</strong></td> 
+       <td><strong>Value</strong></td> 
+      </tr> 
+      <tr> 
+       <td>Forms Portal Draft Data Service</td> 
+       <td>Identifier for draft data service</td> 
+       <td>formsportal.sampledataservice</td> 
+      </tr> 
+      <tr> 
+       <td>Forms Portal Draft Metadata Service</td> 
+       <td>Identifier for draft metadata service </td> 
+       <td>formsportal.samplemetadataservice</td> 
+      </tr> 
+      <tr> 
+       <td>Forms Portal Submit Data Service</td> 
+       <td>Identifier for submit data service </td> 
+       <td>formsportal.sampledataservice</td> 
+      </tr> 
+      <tr> 
+       <td>Forms Portal Submit Metadata Service</td> 
+       <td>Identifier for submit metadata service </td> 
+       <td>formsportal.samplemetadataservice</td> 
+      </tr> 
+      <tr> 
+       <td>Forms Portal Pending Sign Data Service</td> 
+       <td>Identifier for Pending Sign data service </td> 
+       <td>formsportal.sampledataservice</td> 
+      </tr> 
+      <tr> 
+       <td>Forms Portal Pending Sign Metadata Service</td> 
+       <td>Identifier for Pending Sign metadata service </td> 
+       <td>formsportal.samplemetadataservice</td> 
+      </tr> 
+     </tbody> 
+    </table> 
+    <note> 
+     <p>The services are resolved by their names mentioned as value for the <span class="code">aem.formsportal.impl.prop</span> key as follows:</p> 
+    </note> 
+    <codeblock class="syntax java">
+      @Service(value&amp;nbsp;=&amp;nbsp;{SubmitDataService.class,&amp;nbsp;DraftDataService.class})!!discoiqbr!!@Property(name&amp;nbsp;=&amp;nbsp;"aem.formsportal.impl.prop",&amp;nbsp;value&amp;nbsp;=&amp;nbsp;"formsportal.sampledataservice")!!discoiqbr!!@Service(value&amp;nbsp;=&amp;nbsp;{&amp;nbsp;SubmitMetadataService.class,&amp;nbsp;DraftMetadataService.class&amp;nbsp;})!!discoiqbr!!@Property(name&amp;nbsp;=&amp;nbsp;"aem.formsportal.impl.prop",&amp;nbsp;value&amp;nbsp;=&amp;nbsp;"formsportal.samplemetadataservice") 
+    </codeblock><p>You can change names of the data and metadata tables.</p> <p>To provide a different name for the metadata table:</p> 
+    <ul> 
+     <li>In the Web Console Configuration, find and click Forms Portal Metadata Service Sample Implementation. You can change the values of data source, metadata/additional metadata table name.</li> 
+    </ul> <p>To provide a different name for the data table:</p> 
+    <ul> 
+     <li>In the Web Console Configuration, find and click Forms Portal Data Service Sample Implementation. You can change the values of data source and data table name.</li> 
+    </ul>  </li> 
+   <li><p>Leave other configurations as is and click <strong>Save</strong>.<br /> </p> </li> 
+   <li><p>The database connection can be done via Apache Sling Connection Pooled Data Source.</p> </li> 
+   <li><p>For Apache Sling connection, find and click to open <span class="uicontrol">Apache Sling Connection Pooled DataSource</span> in edit mode in the Web Console Configuration. Specify the values for properties as described in the following table:</p> 
+    <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+     <tbody> 
+      <tr> 
+       <td><strong>Property</strong></td> 
+       <td><strong>Value</strong></td> 
+      </tr> 
+      <tr> 
+       <td>Datasource name</td> 
+       <td><p>A datasource name for filtering drivers from the data source pool</p> <p><strong>Note: </strong><em>The sample implementation uses FormsPortal as the datasource name.</em></p> </td> 
+      </tr> 
+      <tr> 
+       <td>JDBC driver class</td> 
+       <td>com.mysql.jdbc.Driver</td> 
+      </tr> 
+      <tr> 
+       <td>JDBC connection URI<br /> </td> 
+       <td>jdbc:mysql://[<em>host</em>]:[<em>port</em>]/[<em>schema_name</em>]</td> 
+      </tr> 
+      <tr> 
+       <td>Username</td> 
+       <td>A username to authenticate and perform actions on database tables</td> 
+      </tr> 
+      <tr> 
+       <td>Password</td> 
+       <td>Password associated with the username</td> 
+      </tr> 
+      <tr> 
+       <td>Transaction Isolation</td> 
+       <td>READ_COMMITTED</td> 
+      </tr> 
+      <tr> 
+       <td>Max Active Connections</td> 
+       <td>1000</td> 
+      </tr> 
+      <tr> 
+       <td>Max Idle Connections</td> 
+       <td>100</td> 
+      </tr> 
+      <tr> 
+       <td>Min Idle Connections</td> 
+       <td>10</td> 
+      </tr> 
+      <tr> 
+       <td>Initial Size</td> 
+       <td>10</td> 
+      </tr> 
+      <tr> 
+       <td>Max Wait</td> 
+       <td>100000</td> 
+      </tr> 
+      <tr> 
+       <td>Test on Borrow</td> 
+       <td>Checked</td> 
+      </tr> 
+      <tr> 
+       <td>Test while Idle</td> 
+       <td>Checked</td> 
+      </tr> 
+      <tr> 
+       <td>Validation Query</td> 
+       <td>Example values are SELECT 1(mysql), select 1 from dual(oracle), SELECT 1(MS Sql Server) (validationQuery)</td> 
+      </tr> 
+      <tr> 
+       <td>Validation Query timeout</td> 
+       <td>10000</td> 
+      </tr> 
+     </tbody> 
+    </table> 
+    <note> 
+     <ul style="list-style-position: inside;"> 
+      <li>The JDBC driver for MySQL is not provided with the sample. Ensure that you have provisioned for it and provide the required information to configure the JDBC connection pool.</li> 
+      <li>Point your author and publish instances to use same database. Value of the JDBC connection URI field must be same for all the author and publish instances.</li> 
+     </ul> 
+    </note></li> 
+   <li><p>Leave other configurations as is and click <strong>Save</strong>.<br /> </p> </li> 
+   <li><p>If you already have a table in the database schema, skip to the next step.</p> <p>Otherwise, if you do not already have a table in the database schema, execute the following SQL statements to create separate tables for data, metadata, and additional metadata in the database schema:</p> 
+    <note> 
+     <p>You do not require different databases for author and publish instances. Use same database on all the author and publish instances.<br /> </p> 
+    </note> 
+    <codeblock gutter="true" class="syntax sql">
+      CREATE&amp;nbsp;TABLE&amp;nbsp;`data`&amp;nbsp;(!!discoiqbr!!`owner`&amp;nbsp;varchar(255)&amp;nbsp;DEFAULT&amp;nbsp;NULL,!!discoiqbr!!`data`&amp;nbsp;longblob,!!discoiqbr!!`metadataId`&amp;nbsp;varchar(45)&amp;nbsp;DEFAULT&amp;nbsp;NULL,!!discoiqbr!!`id`&amp;nbsp;varchar(45)&amp;nbsp;NOT&amp;nbsp;NULL,!!discoiqbr!!PRIMARY&amp;nbsp;KEY&amp;nbsp;(`id`)!!discoiqbr!!)&amp;nbsp;ENGINE=InnoDB&amp;nbsp;DEFAULT&amp;nbsp;CHARSET=utf8; 
+    </codeblock> 
+    <codeblock gutter="true" class="syntax sql">
+      CREATE&amp;nbsp;TABLE&amp;nbsp;`metadata`&amp;nbsp;(&amp;nbsp;!!discoiqbr!!`formPath`&amp;nbsp;varchar(1000)&amp;nbsp;DEFAULT&amp;nbsp;NULL,!!discoiqbr!!`formType`&amp;nbsp;varchar(100)&amp;nbsp;DEFAULT&amp;nbsp;NULL,!!discoiqbr!!`description`&amp;nbsp;text,!!discoiqbr!!`formName`&amp;nbsp;varchar(255)&amp;nbsp;DEFAULT&amp;nbsp;NULL,!!discoiqbr!!`owner`&amp;nbsp;varchar(255)&amp;nbsp;DEFAULT&amp;nbsp;NULL,!!discoiqbr!!`enableAnonymousSave`&amp;nbsp;varchar(45)&amp;nbsp;DEFAULT&amp;nbsp;NULL,!!discoiqbr!!`renderPath`&amp;nbsp;varchar(1000)&amp;nbsp;DEFAULT&amp;nbsp;NULL,!!discoiqbr!!`nodeType`&amp;nbsp;varchar(45)&amp;nbsp;DEFAULT&amp;nbsp;NULL,!!discoiqbr!!`charset`&amp;nbsp;varchar(45)&amp;nbsp;DEFAULT&amp;nbsp;NULL,!!discoiqbr!!`userdataID`&amp;nbsp;varchar(45)&amp;nbsp;DEFAULT&amp;nbsp;NULL,!!discoiqbr!!`status`&amp;nbsp;varchar(45)&amp;nbsp;DEFAULT&amp;nbsp;NULL,!!discoiqbr!!`formmodel`&amp;nbsp;varchar(45)&amp;nbsp;DEFAULT&amp;nbsp;NULL,!!discoiqbr!!`markedForDeletion`&amp;nbsp;varchar(45)&amp;nbsp;DEFAULT&amp;nbsp;NULL,!!discoiqbr!!`showDorClass`&amp;nbsp;varchar(255)&amp;nbsp;DEFAULT&amp;nbsp;NULL,!!discoiqbr!!`sling:resourceType`&amp;nbsp;varchar(1000)&amp;nbsp;DEFAULT&amp;nbsp;NULL,!!discoiqbr!!`attachmentList`&amp;nbsp;longtext,!!discoiqbr!!`draftID`&amp;nbsp;varchar(45)&amp;nbsp;DEFAULT&amp;nbsp;NULL,!!discoiqbr!!`submitID`&amp;nbsp;varchar(45)&amp;nbsp;DEFAULT&amp;nbsp;NULL,!!discoiqbr!!`id`&amp;nbsp;varchar(60)&amp;nbsp;NOT&amp;nbsp;NULL,!!discoiqbr!!`profile`&amp;nbsp;varchar(255)&amp;nbsp;DEFAULT&amp;nbsp;NULL,!!discoiqbr!!`submitUrl`&amp;nbsp;varchar(1000)&amp;nbsp;DEFAULT&amp;nbsp;NULL,!!discoiqbr!!`xdpRef`&amp;nbsp;varchar(1000)&amp;nbsp;DEFAULT&amp;nbsp;NULL,!!discoiqbr!!`agreementId`&amp;nbsp;varchar(255)&amp;nbsp;DEFAULT&amp;nbsp;NULL,!!discoiqbr!!`nextSigners`&amp;nbsp;varchar(255)&amp;nbsp;DEFAULT&amp;nbsp;NULL,!!discoiqbr!!`eSignStatus`&amp;nbsp;varchar(45)&amp;nbsp;DEFAULT&amp;nbsp;NULL,!!discoiqbr!!`pendingSignID`&amp;nbsp;varchar(45)&amp;nbsp;DEFAULT&amp;nbsp;NULL,!!discoiqbr!!`agreementDataId`&amp;nbsp;varchar(255)&amp;nbsp;DEFAULT&amp;nbsp;NULL,!!discoiqbr!!`enablePortalSubmit`&amp;nbsp;varchar(45)&amp;nbsp;DEFAULT&amp;nbsp;NULL,!!discoiqbr!!`submitType`&amp;nbsp;varchar(45)&amp;nbsp;DEFAULT&amp;nbsp;NULL,!!discoiqbr!!`dataType`&amp;nbsp;varchar(45)&amp;nbsp;DEFAULT&amp;nbsp;NULL,!!discoiqbr!!`jcr:lastModified`&amp;nbsp;varchar(45)&amp;nbsp;DEFAULT&amp;nbsp;NULL,!!discoiqbr!!PRIMARY&amp;nbsp;KEY&amp;nbsp;(`id`),!!discoiqbr!!UNIQUE&amp;nbsp;KEY&amp;nbsp;`ID_UNIQUE`&amp;nbsp;(`id`)!!discoiqbr!!)&amp;nbsp;ENGINE=InnoDB&amp;nbsp;DEFAULT&amp;nbsp;CHARSET=utf8;!!discoiqbr!! 
+    </codeblock> 
+    <codeblock gutter="true" lineWrap="true" class="syntax sql">
+      CREATE&amp;nbsp;TABLE&amp;nbsp;`additionalmetadatatable`&amp;nbsp;(!!discoiqbr!!`value`&amp;nbsp;text,!!discoiqbr!!`key`&amp;nbsp;varchar(255)&amp;nbsp;NOT&amp;nbsp;NULL,!!discoiqbr!!`id`&amp;nbsp;varchar(60)&amp;nbsp;NOT&amp;nbsp;NULL,!!discoiqbr!!PRIMARY&amp;nbsp;KEY&amp;nbsp;(`id`,`key`),!!discoiqbr!!CONSTRAINT&amp;nbsp;‘additionalmetadatatable_fk’&amp;nbsp;FOREIGN&amp;nbsp;KEY&amp;nbsp;(`id`)&amp;nbsp;REFERENCES&amp;nbsp;`metadata`&amp;nbsp;(`id`)&amp;nbsp;ON&amp;nbsp;DELETE&amp;nbsp;CASCADE!!discoiqbr!!)&amp;nbsp;ENGINE=InnoDB&amp;nbsp;DEFAULT&amp;nbsp;CHARSET=utf8; 
+    </codeblock> 
+    <codeblock gutter="true" class="syntax sql">
+      CREATE&amp;nbsp;TABLE&amp;nbsp;`commenttable`&amp;nbsp;(!!discoiqbr!!`commentId`&amp;nbsp;varchar(255)&amp;nbsp;DEFAULT&amp;nbsp;NULL,!!discoiqbr!!`comment`&amp;nbsp;text&amp;nbsp;DEFAULT&amp;nbsp;NULL,!!discoiqbr!!`ID`&amp;nbsp;varchar(255)&amp;nbsp;DEFAULT&amp;nbsp;NULL,!!discoiqbr!!`commentowner`&amp;nbsp;varchar(255)&amp;nbsp;DEFAULT&amp;nbsp;NULL,!!discoiqbr!!`time`&amp;nbsp;varchar(255)&amp;nbsp;DEFAULT&amp;nbsp;NULL); 
+    </codeblock></li> 
+   <li><p>If you already have the tables (data, metadata, and additionalmetadatatable) in the database schema, execute the following alter table queries:</p>  
+    <codeblock gutter="true" lineWrap="true" class="syntax sql">
+      ALTER&amp;nbsp;TABLE&amp;nbsp;`data`&amp;nbsp;CHANGE&amp;nbsp;`owner`&amp;nbsp;`owner`&amp;nbsp;VARCHAR(255)&amp;nbsp;CHARACTER&amp;nbsp;SET&amp;nbsp;utf8&amp;nbsp;COLLATE&amp;nbsp;utf8_general_ci&amp;nbsp;NULL&amp;nbsp;DEFAULT&amp;nbsp;NULL; 
+    </codeblock> 
+    <codeblock gutter="true" lineWrap="true" class="syntax sql">
+      ALTER&amp;nbsp;TABLE&amp;nbsp;metadata&amp;nbsp;add&amp;nbsp;markedForDeletion&amp;nbsp;varchar(45)&amp;nbsp;DEFAULT&amp;nbsp;NULL 
+    </codeblock> 
+    <note> 
+     <p>The ALTER TABLE metadata add query fails if you have already run it and the markedforDeletion column is present in the table. </p> 
+    </note> 
+    <codeblock gutter="true" class="syntax sql">
+      ALTER&amp;nbsp;TABLE&amp;nbsp;metadata&amp;nbsp;add&amp;nbsp;agreementId&amp;nbsp;varchar(255)&amp;nbsp;DEFAULT&amp;nbsp;NULL,!!discoiqbr!!add&amp;nbsp;nextSigners&amp;nbsp;varchar(255)&amp;nbsp;DEFAULT&amp;nbsp;NULL,&amp;nbsp;!!discoiqbr!!add&amp;nbsp;eSignStatus&amp;nbsp;varchar(45)&amp;nbsp;DEFAULT&amp;nbsp;NULL,!!discoiqbr!!add&amp;nbsp;pendingSignID&amp;nbsp;varchar(45)&amp;nbsp;DEFAULT&amp;nbsp;NULL,!!discoiqbr!!add&amp;nbsp;agreementDataId&amp;nbsp;varchar(255)&amp;nbsp;DEFAULT&amp;nbsp;NULL,!!discoiqbr!!add&amp;nbsp;enablePortalSubmit&amp;nbsp;varchar(45)&amp;nbsp;DEFAULT&amp;nbsp;NULL,!!discoiqbr!!add&amp;nbsp;submitType&amp;nbsp;varchar(45)&amp;nbsp;DEFAULT&amp;nbsp;NULL,!!discoiqbr!!add&amp;nbsp;dataType&amp;nbsp;varchar(45)&amp;nbsp;DEFAULT&amp;nbsp;NULL;!!discoiqbr!! 
+    </codeblock> 
+    <codeblock gutter="true" lineWrap="true" class="syntax sql">
+      ALTER&amp;nbsp;TABLE&amp;nbsp;`metadata`&amp;nbsp;CHANGE&amp;nbsp;`formPath`&amp;nbsp;`formPath`&amp;nbsp;VARCHAR(1000)&amp;nbsp;CHARACTER&amp;nbsp;SET&amp;nbsp;utf8&amp;nbsp;COLLATE&amp;nbsp;utf8_general_ci&amp;nbsp;NULL&amp;nbsp;DEFAULT&amp;nbsp;NULL,!!discoiqbr!!CHANGE&amp;nbsp;`formType`&amp;nbsp;`formType`&amp;nbsp;VARCHAR(100)&amp;nbsp;CHARACTER&amp;nbsp;SET&amp;nbsp;utf8&amp;nbsp;COLLATE&amp;nbsp;utf8_general_ci&amp;nbsp;NULL&amp;nbsp;DEFAULT&amp;nbsp;NULL,!!discoiqbr!!CHANGE&amp;nbsp;`description`&amp;nbsp;`description`&amp;nbsp;TEXT&amp;nbsp;CHARACTER&amp;nbsp;SET&amp;nbsp;utf8&amp;nbsp;COLLATE&amp;nbsp;utf8_general_ci&amp;nbsp;NULL&amp;nbsp;DEFAULT&amp;nbsp;NULL,!!discoiqbr!!CHANGE&amp;nbsp;`formName`&amp;nbsp;`formName`&amp;nbsp;VARCHAR(255)&amp;nbsp;CHARACTER&amp;nbsp;SET&amp;nbsp;utf8&amp;nbsp;COLLATE&amp;nbsp;utf8_general_ci&amp;nbsp;NULL&amp;nbsp;DEFAULT&amp;nbsp;NULL,!!discoiqbr!!CHANGE&amp;nbsp;`owner`&amp;nbsp;`owner`&amp;nbsp;VARCHAR(255)&amp;nbsp;CHARACTER&amp;nbsp;SET&amp;nbsp;utf8&amp;nbsp;COLLATE&amp;nbsp;utf8_general_ci&amp;nbsp;NULL&amp;nbsp;DEFAULT&amp;nbsp;NULL,!!discoiqbr!!CHANGE&amp;nbsp;`renderPath`&amp;nbsp;`renderPath`&amp;nbsp;VARCHAR(1000)&amp;nbsp;CHARACTER&amp;nbsp;SET&amp;nbsp;utf8&amp;nbsp;COLLATE&amp;nbsp;utf8_general_ci&amp;nbsp;NULL&amp;nbsp;DEFAULT&amp;nbsp;NULL,!!discoiqbr!!CHANGE&amp;nbsp;`showDorClass`&amp;nbsp;`showDorClass`&amp;nbsp;VARCHAR(255)&amp;nbsp;CHARACTER&amp;nbsp;SET&amp;nbsp;utf8&amp;nbsp;COLLATE&amp;nbsp;utf8_general_ci&amp;nbsp;NULL&amp;nbsp;DEFAULT&amp;nbsp;NULL,!!discoiqbr!!CHANGE&amp;nbsp;`sling:resourceType`&amp;nbsp;`sling:resourceType`&amp;nbsp;VARCHAR(1000)&amp;nbsp;CHARACTER&amp;nbsp;SET&amp;nbsp;utf8&amp;nbsp;COLLATE&amp;nbsp;utf8_general_ci&amp;nbsp;NULL&amp;nbsp;DEFAULT&amp;nbsp;NULL,!!discoiqbr!!CHANGE&amp;nbsp;`profile`&amp;nbsp;`profile`&amp;nbsp;VARCHAR(255)&amp;nbsp;CHARACTER&amp;nbsp;SET&amp;nbsp;utf8&amp;nbsp;COLLATE&amp;nbsp;utf8_general_ci&amp;nbsp;NULL&amp;nbsp;DEFAULT&amp;nbsp;NULL,!!discoiqbr!!CHANGE&amp;nbsp;`submitUrl`&amp;nbsp;`submitUrl`&amp;nbsp;VARCHAR(1000)&amp;nbsp;CHARACTER&amp;nbsp;SET&amp;nbsp;utf8&amp;nbsp;COLLATE&amp;nbsp;utf8_general_ci&amp;nbsp;NULL&amp;nbsp;DEFAULT&amp;nbsp;NULL,!!discoiqbr!!CHANGE&amp;nbsp;`xdpRef`&amp;nbsp;`xdpRef`&amp;nbsp;VARCHAR(1000)&amp;nbsp;CHARACTER&amp;nbsp;SET&amp;nbsp;utf8&amp;nbsp;COLLATE&amp;nbsp;utf8_general_ci&amp;nbsp;NULL&amp;nbsp;DEFAULT&amp;nbsp;NULL; 
+    </codeblock> 
+    <codeblock gutter="true" lineWrap="true" class="syntax sql">
+      ALTER&amp;nbsp;TABLE&amp;nbsp;`additionalmetadatatable`&amp;nbsp;CHANGE&amp;nbsp;`value`&amp;nbsp;`value`&amp;nbsp;TEXT&amp;nbsp;CHARACTER&amp;nbsp;SET&amp;nbsp;utf8&amp;nbsp;COLLATE&amp;nbsp;utf8_general_ci&amp;nbsp;NULL&amp;nbsp;DEFAULT&amp;nbsp;NULL,&amp;nbsp;CHANGE&amp;nbsp;`key`&amp;nbsp;`key`&amp;nbsp;VARCHAR(255)&amp;nbsp;CHARACTER&amp;nbsp;SET&amp;nbsp;utf8&amp;nbsp;COLLATE&amp;nbsp;utf8_general_ci&amp;nbsp;NOT&amp;nbsp;NULL; 
+    </codeblock></li> 
+  </ol> 
+  <p>The sample implementation is now configured, which you can use to list your drafts and submissions while storing all data and metadata in a database. Let’s now see how data and metadata services are configured in the sample.</p> 
+  <h2>Install mysql-connector-java-5.1.39-bin.jar file</h2> 
+  <p>Perform the following steps,on all the author and publish instances, to install the mysql-connector-java-5.1.39-bin.jar file:</p> 
+  <ol> 
+   <li><p>Navigate to http://[server]:[port]/system/console/depfinder and search for com.mysql.jdbc package.</p> </li> 
+   <li><p>In the Exported by column, check if the package is exported by any bundle.</p> <p>Proceed if the package is not exported by any bundle.</p> </li> 
+   <li><p>Navigate to http://[server]:[port]/system/console/bundles and click <strong>Install/Update</strong>.</p> </li> 
+   <li><p>Click <strong>Choose File</strong> and browse to select the mysql-connector-java-5.1.39-bin.jar file. Also, select <strong>Start Bundle</strong> and <strong>Refresh Packages</strong> checkboxes.</p> </li> 
+   <li><p>Click <strong>Install or Update</strong>. Once complete, restart the server.</p> </li> 
+   <li><p>(<em>Windows only</em>) Turn off the system firewall for your operating system. </p> </li> 
+  </ol> 
+  <h2>Sample code for forms portal data and metadata service</h2> 
+  <p>The following zip contains <span class="code">FormsPortalSampleDataServiceImpl</span> and <span class="code">FormsPortalSampleMetadataServiceImpl</span> (implementation classes) for data and metadata service interfaces. Additionally, it contains all the classes required for compilation of above mentioned implementation classes.</p> 
+  <div> 
+   <p></p> 
+   <p><a alt="Sample_Package.zip" href="assets/sample_package.zip">Get File</a></p> 
+  </div> 
+  <h2>Verify length of the file name </h2> 
+  <p>Database implementation of Forms Portal uses additional metadata table. The table has a composite primary key based on Key and id columns of the table. MySQL allows primary keys up to the length of 255 characters. You can use the following client-side validation script to verify the length of filename attached to the file widget. The validation is run when a file is attached. The script provided in the following procedure displays a message, when the filename is larger than 150 (including extension). You can modify the script to check it for a different number of characters.<br /> </p> 
+  <p>Perform the following steps to create <a href="../../sites/developing/using/clientlibs.md" target="_blank">a client library</a> and use the script:</p> 
+  <ol> 
+   <li><p>Log in to CRXDE and navigate to /etc/clientlibs/</p> </li> 
+   <li><p>Create a node of type <strong>cq:ClientLibraryFolder</strong> and provide name of the node. For example, <span class="code">validation</span>.</p> <p>Click <strong>Save All</strong>.<br /> </p> </li> 
+   <li><p>Right-click the node, click <strong>create new file</strong>, and create a file with extension .txt. For example, <span class="code">js.txt </span>Add the following code to the newly created .txt file and click <strong>Save All</strong>.</p>  <p>In the above code, <span class="code">util</span> is the name of the folder and <span class="code">util.js</span> name of the file in the <span class="code">util</span> folder. The <span class="code">util</span> folder and <span class="code">util.js</span> file are created in suceeeding steps.</p> </li> 
+   <li><p>Right-click the <span class="code">cq:ClientLibraryFolder</span> node created in step 2, select Create &amp;gt; Create Folder. Create a folder named <span class="code">util</span>. Click <strong>Save All</strong>. Right-click the <span class="code">util</span> folder, select Create &amp;gt; Create File. Create a file named <span class="code">util.js</span>. Click <strong>Save All</strong>.<br /> </p> </li> 
+   <li><p>Add the following code to util.js file and click <strong>Save All</strong>. The code validate length of the file name.<br /> </p> 
+    <codeblock gutter="true" class="syntax js">
+      /*!!discoiqbr!!&amp;nbsp;*&amp;nbsp;ADOBE&amp;nbsp;CONFIDENTIAL!!discoiqbr!!&amp;nbsp;*&amp;nbsp;___________________!!discoiqbr!!&amp;nbsp;*!!discoiqbr!!&amp;nbsp;*&amp;nbsp;Copyright&amp;nbsp;2016&amp;nbsp;Adobe&amp;nbsp;Systems&amp;nbsp;Incorporated!!discoiqbr!!&amp;nbsp;*&amp;nbsp;All&amp;nbsp;Rights&amp;nbsp;Reserved.!!discoiqbr!!&amp;nbsp;*!!discoiqbr!!&amp;nbsp;*&amp;nbsp;NOTICE:&amp;nbsp;&amp;nbsp;All&amp;nbsp;information&amp;nbsp;contained&amp;nbsp;herein&amp;nbsp;is,&amp;nbsp;and&amp;nbsp;remains!!discoiqbr!!&amp;nbsp;*&amp;nbsp;the&amp;nbsp;property&amp;nbsp;of&amp;nbsp;Adobe&amp;nbsp;Systems&amp;nbsp;Incorporated&amp;nbsp;and&amp;nbsp;its&amp;nbsp;suppliers,!!discoiqbr!!&amp;nbsp;*&amp;nbsp;if&amp;nbsp;any.&amp;nbsp;&amp;nbsp;The&amp;nbsp;intellectual&amp;nbsp;and&amp;nbsp;technical&amp;nbsp;concepts&amp;nbsp;contained!!discoiqbr!!&amp;nbsp;*&amp;nbsp;herein&amp;nbsp;are&amp;nbsp;proprietary&amp;nbsp;to&amp;nbsp;Adobe&amp;nbsp;Systems&amp;nbsp;Incorporated&amp;nbsp;and&amp;nbsp;its!!discoiqbr!!&amp;nbsp;*&amp;nbsp;suppliers&amp;nbsp;and&amp;nbsp;may&amp;nbsp;be&amp;nbsp;covered&amp;nbsp;by&amp;nbsp;U.S.&amp;nbsp;and&amp;nbsp;Foreign&amp;nbsp;Patents,!!discoiqbr!!&amp;nbsp;*&amp;nbsp;patents&amp;nbsp;in&amp;nbsp;process,&amp;nbsp;and&amp;nbsp;are&amp;nbsp;protected&amp;nbsp;by&amp;nbsp;trade&amp;nbsp;secret&amp;nbsp;or&amp;nbsp;copyright&amp;nbsp;law.!!discoiqbr!!&amp;nbsp;*&amp;nbsp;Dissemination&amp;nbsp;of&amp;nbsp;this&amp;nbsp;information&amp;nbsp;or&amp;nbsp;reproduction&amp;nbsp;of&amp;nbsp;this&amp;nbsp;material!!discoiqbr!!&amp;nbsp;*&amp;nbsp;is&amp;nbsp;strictly&amp;nbsp;forbidden&amp;nbsp;unless&amp;nbsp;prior&amp;nbsp;written&amp;nbsp;permission&amp;nbsp;is&amp;nbsp;obtained!!discoiqbr!!&amp;nbsp;*&amp;nbsp;from&amp;nbsp;Adobe&amp;nbsp;Systems&amp;nbsp;Incorporated.!!discoiqbr!!&amp;nbsp;*!!discoiqbr!!&amp;nbsp;*/!!discoiqbr!!(function&amp;nbsp;()&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;var&amp;nbsp;connectWithGuideBridge&amp;nbsp;=&amp;nbsp;function&amp;nbsp;(gb)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;gb.connect(function&amp;nbsp;()&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//For&amp;nbsp;first&amp;nbsp;time&amp;nbsp;load!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;window.guideBridge.on("elementValueChanged"&amp;nbsp;,&amp;nbsp;function(event,&amp;nbsp;payload)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;var&amp;nbsp;component&amp;nbsp;=&amp;nbsp;payload.target;&amp;nbsp;//&amp;nbsp;Field&amp;nbsp;whose&amp;nbsp;value&amp;nbsp;has&amp;nbsp;changed!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if(component.name&amp;nbsp;==&amp;nbsp;'fileAttachment'&amp;nbsp;&amp;&amp;&amp;nbsp;component.parent)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;var&amp;nbsp;fileItems&amp;nbsp;=&amp;nbsp;$('#'+payload.target.parent.id).find(".guide-fu-fileItem");!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;for&amp;nbsp;(i&amp;nbsp;=&amp;nbsp;0;i&lt;fileItems.length;i++)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;var&amp;nbsp;filename&amp;nbsp;=&amp;nbsp;$(fileItems[i]).find(".guide-fu-fileName").text();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//check&amp;nbsp;whether&amp;nbsp;it&amp;nbsp;is&amp;nbsp;previously&amp;nbsp;attached&amp;nbsp;file&amp;nbsp;or&amp;nbsp;a&amp;nbsp;newly&amp;nbsp;&amp;nbsp;attached&amp;nbsp;one!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if(filename.length&amp;nbsp;&gt;&amp;nbsp;150&amp;nbsp;&amp;&amp;&amp;nbsp;filename.indexOf("fp.attach.jsp")&amp;nbsp;&lt;&amp;nbsp;0)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;window.alert("filename&amp;nbsp;is&amp;nbsp;larger&amp;nbsp;than&amp;nbsp;150&amp;nbsp;:&amp;nbsp;"+filename);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;$(fileItems[i]).find(".guide-fu-fileClose.close").click();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;});!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;});!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;};!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if&amp;nbsp;(window.guideBridge)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;connectWithGuideBridge(window.guideBridge);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&amp;nbsp;else&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;window.addEventListener("bridgeInitializeStart",&amp;nbsp;function&amp;nbsp;(event)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;connectWithGuideBridge(event.detail.guideBridge);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;});!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!})();!!discoiqbr!! 
+    </codeblock> 
+    <note> 
+     <p>The script is for out of the box (OOTB) attachment widget component. If you have customized the OOTB attachment widget then change the above script to incorporate respective changes.</p> 
+    </note></li> 
+   <li><p>Add the following property to the folder created in step 2 and click <strong>Save All</strong>.</p> 
+    <ul> 
+     <li><strong>Name:</strong> categories</li> 
+    </ul> 
+    <ul> 
+    </ul> 
+    <ul> 
+     <li><strong>Type:</strong> String</li> 
+    </ul> 
+    <ul> 
+    </ul> 
+    <ul> 
+     <li><strong>Value:</strong> fp.validation</li> 
+    </ul> 
+    <ul> 
+    </ul> 
+    <ul> 
+     <li><strong>multi option:</strong> Enabled<br /> </li> 
+    </ul> </li> 
+   <li><p>Navigate to<span class="code"> /libs/fd/af/runtime/clientlibs/guideRuntime </span>and append the <span class="code">fp.validation</span> value to the <strong>embed </strong>property.<br /> </p> </li> 
+   <li><p>Navigate to /libs/fd/af/runtime/clientlibs/guideRuntimeWithXFA and append the<span class="code"> fp.validation</span> value to embed property.<br /> </p> 
+    <note> 
+     <p>If you are using custom client libraries instead of of the guideRuntime and guideRuntimeWithXfa client libraries, use the category name to embed the client library created in this procedure to your custom libraries loaded at runtime.<br /> </p> 
+    </note></li> 
+   <li><p>Click <strong>Save All.</strong> Now, when the filename is larger than 150 (including extension) characters a message is displayed. <br /> </p> </li> 
+  </ol> 
+ </body> 
+</html>

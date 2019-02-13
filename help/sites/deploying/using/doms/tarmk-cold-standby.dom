@@ -1,0 +1,301 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="How to Run AEM with TarMK Cold Standby" name="seoTitle" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="2018-07-13T04:41:25.251-0400" name="publishExternalDate" /> 
+  <meta content="How to Run AEM with TarMK Cold Standby" name="jcr:title" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="User" name="contentOwner" /> 
+  <meta content="How to Run AEM with TarMK Cold Standby" name="navTitle" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/deploying/morehelp/deploying;/content/help/en/experience-manager/6-4/sites/deploying/morehelp/deploying" name="moreHelpPaths" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2018-07-13T04:41:25.251-0400" name="lastPublishExternalDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="2017-12-22T19:01:25.668-0500" name="jcr:created" /> 
+  <meta content="2017-10-31T16:17:34.109-0400" name="firstPublishExternalDate" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="efdfeb2a-c85c-407e-920b-c85a38cab1af" name="jcr:uuid" /> 
+  <meta content="f9c15252-233e-4b0a-8cf0-0ccb19e7dcd6" name="jcr:predecessors" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/tarmk-cold-standby.html" name="publishExternalURL" /> 
+  <meta content="2018-04-30T03:26:54.771-0400" name="locHandOffDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="/content/docs/en/aem/6-3/deploy/recommended-deploys/tarmk-cold-standby" name="qaNotes" /> 
+  <meta content="2018-07-13T04:41:25.251-0400" name="topicBrowsingSortDate" /> 
+  <meta content="audience:deploying" name="primaryAudienceTag" /> 
+  <meta content="2018-07-13T04:41:25.295-0400" name="cq:lastReplicated" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;content_type:reference;topic_tags:deploying" name="cq:tags" /> 
+  <meta content="2018-07-13T04:41:25.257-0400" name="cq:lastModified" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="Learn how to create, configure and maintain a TarMK Cold Standby setup." name="seoDescription" /> 
+ </head> 
+ <body> 
+  <h2>Introduction</h2> 
+  <p>The Cold Standby capacity of the Tar Micro Kernel allows one or more standby AEM instances to connect to a primary instance. The sync process is one way only meaning that it is only done from the primary to the standby instances.</p> 
+  <p>The purpose of the standby instances is to guarantee a live data copy of the master repository and ensure a quick switch without data loss in case the master is unavailable for any reason.</p> 
+  <p>Content is synced linearly between the primary instance and the standby instances without any integrity checks for file or repository corruption. Because of this design, standby instances are exact copies of the primary instance and cannot help to mitigate inconsistencies on primary instances.</p> 
+  <note> 
+   <p>The Cold Standby feature is meant to secure scenarios where high availability is required on <strong>author</strong> instances. For situations where high availability is required on <strong>publish</strong> instances using the Tar Micro Kernel, Adobe recommends using a publish farm.</p> 
+   <p>For info on more available deployments, see the <a href="../../../sites/deploying/using/recommended-deploys.md">Recommended Deployments</a> page.<br /> </p> 
+  </note> 
+  <h2>How it works</h2> 
+  <p>On the primary AEM instance, a TCP port is opened and is listening to incoming messages. Currently, there are two type of messages that the slaves will send to the master:</p> 
+  <ul> 
+   <li>a message requesting the segmend ID of the current head</li> 
+   <li>a message requesting segment data with a specified ID</li> 
+  </ul> 
+  <p>The standby periodically requests the segment ID of the current head of the primary. If the segment is locally unknown it will be retrieved. If it's already present the segments are compared and referenced segments will be requested too, if necessary.</p> 
+  <note> 
+   <p>Standby instances are not receiving any type of requests, because they are running in sync only mode. The only section available on a standby instance is the Web Console, in order to facilitate bundle and services configuration.<br /> </p> 
+  </note>   
+  <p>A typical TarMK Cold Standby deployment:<br /> </p> 
+  <img imageRotate="0" src="assets/chlimage_1-86.png" /> 
+  <h2>Other characteristics</h2> 
+  <h4>Robustness</h4> 
+  <p>The data flow is designed to detect and handle connection and network related problems automatically. All packets are bundled with checksums and as soon as problems with the connection or damaged packets occur retry mechanisms are triggered. </p> 
+  <h4>Performance</h4> 
+  <p>Enabling TarMK Cold Standby on the primary instance has almost no measurable impact on the performance. The additional CPU consumption is very low and the extra hard disk and network IO should not produce and performance issues.</p> 
+  <p>On the standby you can expect high CPU consumption during the sync process. Due to the fact that the procedure is not multithreaded it cannot be sped up by using multiple cores. If no data is changed or transferred there will be no measurable activity. The connection speed will vary depending on the hardware and network environment but it does not depend on the size of the repository or SSL use. You should keep this in mind when estimating the time needed for an initial sync or when much data was changed in the meantime on the primary node.</p> 
+  <h4>Security</h4> 
+  <p>Assuming that all the instances run in the same intranet security zone the risk of a security breach is greatly reduced. Nevertheless, you can add extra security layer by enabling SSL connections between the slaves and the master. Doing so reduces the possibility that the data is compromised by a man-in-the-middle.</p> 
+  <p>Furthermore you can specify the standby instances that are allowed to connect by restricting the IP address of incoming requests. This should help to garantuee that no one in the intranet can copy the repository.</p> 
+  <note> 
+   <p>It is recommended that a load balancer be added between the Dispatcher and the servers that are part of the Coldy Standby setup. The load balancer should be configured to direct user traffic only to the <strong>primary</strong> instance in order to ensure consitency and prevent content from getting copied on the standby instance by other means than the Cold Standby mechanism.</p> 
+  </note> 
+  <h2>Creating an AEM TarMK Cold Standby setup</h2> 
+  <note> 
+   <p>The PID for the Segment node store and the Standby store service has changed in AEM 6.3 compared to the previous versions as follows:</p> 
+   <ul> 
+    <li>from org.apache.jackrabbit.oak.<strong>plugins</strong>.segment.standby.store.StandbyStoreService to org.apache.jackrabbit.oak.segment.standby.store.StandbyStoreService </li> 
+    <li>from org.apache.jackrabbit.oak.<strong>plugins</strong>.segment.SegmentNodeStoreService to org.apache.jackrabbit.oak.segment.SegmentNodeStoreService</li> 
+   </ul> 
+   <p>Make sure you make the necessary configuration adjustments to reflect this change.</p> 
+  </note> 
+  <p>In order to create a TarMK cold standby setup, you first need to create the standby instances by performing a file system copy of the entire installation folder of the primary to a new location. You can then start each instance with a runmode that will specify its role (<span class="code">primary</span> or <span class="code">standby</span>).</p> 
+  <p>Below is the procedure that needs to be followed in order to create a setup with one master and one standby instance:<br /> </p> 
+  <ol> 
+   <li><p>Install AEM.<br /> </p> </li> 
+   <li><p>Shutdown your instance, and copy its installation folder to the location where the cold standby instance will run from. Even if run from different machines, make sure to give each folder a descriptive name (like <em>aem-primary</em> or <em>aem-standby</em>) to differentiate between the instances.</p> </li> 
+   <li><p>Go to the installation folder of the primary instance and:</p> 
+    <ol> 
+     <li>Check and delete any preivous OSGi configurations you might have under <span class="code">aem-primary/crx-quickstart/install</span><br /> </li> 
+     <li>Create a folder called <span class="code">install.primary</span> under <span class="code">aem-primary/crx-quickstart/install</span></li> 
+     <li>Create the required configurations for the prefered node store and data store under <span class="code">aem-primary/crx-quickstart/install/install.primary</span></li> 
+     <li>Create a file called <span class="code">org.apache.jackrabbit.oak.segment.standby.store.StandbyStoreService.config</span> in the same location and configure it accordingly. For more information on the configuration options, see <a href="../../../sites/deploying/using/tarmk-cold-standby.md#main-pars-title-9">Configuration</a>.</li> 
+     <li>If you are using an AEM TarMK instance with an external data store, create a folder named <span class="code">crx3</span> under <span class="code">aem-primary/crx-quickstart/install</span> named <span class="code">crx3</span></li> 
+     <li>Place the data store configuration file in the <span class="code">crx3</span> folder.<br /> </li> 
+    </ol> <p>If, for example, you are running an AEM TarMK instance with an external File Data Store, you need these configuration files:</p> 
+    <ul> 
+     <li><span class="code">aem-primary/crx-quickstart/install/install.primary/org.apache.jackrabbit.oak.segment.SegmentNodeStoreService.config</span></li> 
+     <li><span class="code">aem-primary/crx-quickstart/install/install.primary/org.apache.jackrabbit.oak.segment.standby.store.StandbyStoreService.config</span></li> 
+     <li><span class="code">aem-primary/crx-quickstart/install/crx3/org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.config</span></li> 
+    </ul> <p>Below you'll find sample configurations for the primary instance:<br /> </p>  
+    <codeblock gutter="true" class="syntax xml">
+      org.apache.sling.installer.configuration.persist=B"false"!!discoiqbr!!customBlobStore=B"true"!!discoiqbr!!standby=B"false" 
+    </codeblock> 
+    <codeblock gutter="true" class="syntax xml">
+      org.apache.sling.installer.configuration.persist=B"false"!!discoiqbr!!mode="primary"!!discoiqbr!!port=I"8023" 
+    </codeblock> 
+    <codeblock gutter="true" class="syntax xml">
+      org.apache.sling.installer.configuration.persist=B"false"!!discoiqbr!!path="./crx-quickstart/repository/datastore"!!discoiqbr!!minRecordLength=I"16384" 
+    </codeblock></li> 
+   <li><p>Start the primary making sure you specify the primary runmode:</p> 
+    <codeblock class="syntax shell">
+      java&amp;nbsp;-jar&amp;nbsp;quickstart.jar&amp;nbsp;-r&amp;nbsp;primary,crx3,crx3tar 
+    </codeblock></li> 
+   <li><p>Create a new Apache Sling Logging Logger for the <strong>org.apache.jackrabbit.oak.segment</strong> package. Set log level to “Debug” and point its log output to a separate logfile, like <i>/logs/tarmk-coldstandby.log</i>. For more information, see <a href="../../../sites/deploying/using/configure-logging.md">Logging</a>.</p> </li> 
+   <li><p>Go to the location of the <strong>standby</strong> instance and start it by running the jar. </p>  </li> 
+   <li><p>Create the same logging configuration as for the primary. Then, stop the instance.</p> </li> 
+   <li><p>Next, prepare the standby instance. You can do this by performing the same steps as for the primary instance:</p> 
+    <ol> 
+     <li>Delete any files you might have under <span class="code">aem-standby/crx-quickstart/install</span>.</li> 
+     <li>Create a new folder called <span class="code">install.standby</span> under <span class="code">aem-standby/crx-quickstart/install</span></li> 
+     <li>Create two configuration files called:<br /> 
+      <ul> 
+       <li><span class="code">org.apache.jackrabbit.oak.segment.SegmentNodeStoreService.config</span></li> 
+       <li><span class="code">org.apache.jackrabbit.oak.segment.standby.store.StandbyStoreService.config</span></li> 
+      </ul> </li> 
+     <li>Create a new folder called <span class="code">crx3</span> under <span class="code">aem-standby/crx-quickstart/install</span></li> 
+     <li>Create the data store configuration and place it under <span class="code">aem-standby/crx-quickstart/install/crx3</span>. For this example, the file you need to create is: 
+      <ul> 
+       <li>org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore.config</li> 
+      </ul> </li> 
+     <li>Edit the files and create the necessary configurations.</li> 
+    </ol>  <p>Below are sample configuration files for a typical standby instance:</p>  
+    <codeblock gutter="true" class="syntax xml">
+      org.apache.sling.installer.configuration.persist=B"false"!!discoiqbr!!name="Oak-Tar"!!discoiqbr!!service.ranking=I"100"!!discoiqbr!!standby=B"true"!!discoiqbr!!customBlobStore=B"true" 
+    </codeblock> 
+    <codeblock gutter="true" class="syntax xml">
+      org.apache.sling.installer.configuration.persist=B"false"!!discoiqbr!!mode="standby"!!discoiqbr!!primary.host="127.0.0.1"!!discoiqbr!!port=I"8023"!!discoiqbr!!secure=B"false"!!discoiqbr!!interval=I"5"!!discoiqbr!!standby.autoclean=B"true" 
+    </codeblock> 
+    <codeblock gutter="true" class="syntax xml">
+      org.apache.sling.installer.configuration.persist=B"false"!!discoiqbr!!path="./crx-quickstart/repository/datastore"!!discoiqbr!!minRecordLength=I"16384" 
+    </codeblock></li> 
+   <li><p>Start the <strong>standby</strong> instance by using the standby runmode:</p> 
+    <codeblock gutter="true" class="syntax xml">
+      java&amp;nbsp;-jar&amp;nbsp;quickstart.jar&amp;nbsp;-r&amp;nbsp;standby,crx3,crx3tar 
+    </codeblock></li> 
+  </ol> 
+  <p>The service can also be configured via the Web Console, by:</p> 
+  <ol> 
+   <li>Going to the Web Console at: <i>http://serveraddress:serverport/system/console/configMgr</i></li> 
+   <li>Looking for a service called <strong>TarMK Cold Standby service</strong> and double click it to edit the settings.</li> 
+   <li>Saving the settings, and restarting the instances so the new settings can take effect.</li> 
+  </ol> 
+  <note> 
+   <p>You can check the role of an instance at any time by checking the presence of the <strong>primary</strong> or <strong>standby</strong> runmodes in the Sling Settings Web Console.<br /> </p> 
+   <p>This can be done by going to <i>http://localhost:4502/system/console/status-slingsettings</i> and checking the <strong>"Run Modes"</strong> line.</p> 
+   <p> </p> 
+  </note> 
+  <h2>First time synchronization</h2>   
+  <p>After the preparation is complete and the standby is started for the first time there will be heavy network traffic between the instances as the standby catches up to the primary. You can consult the logs to observe the status of the synchronization.</p> 
+  <p>In the standby <i>tarmk-coldstandby.log</i>, you will see entries such as these:<br /> </p> 
+  <codeblock gutter="true" class="syntax xml">
+    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*DEBUG*&amp;nbsp;[defaultEventExecutorGroup-2-1]&amp;nbsp;org.apache.jackrabbit.oak.segment.standby.store.StandbyStore&amp;nbsp;trying&amp;nbsp;to&amp;nbsp;read&amp;nbsp;segment&amp;nbsp;ec1f739c-0e3c-41b8-be2e-5417efc05266!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*DEBUG*&amp;nbsp;[nioEventLoopGroup-3-1]&amp;nbsp;org.apache.jackrabbit.oak.segment.standby.codec.SegmentDecoder&amp;nbsp;received&amp;nbsp;type&amp;nbsp;1&amp;nbsp;with&amp;nbsp;id&amp;nbsp;ec1f739c-0e3c-41b8-be2e-5417efc05266&amp;nbsp;and&amp;nbsp;size&amp;nbsp;262144!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*DEBUG*&amp;nbsp;[defaultEventExecutorGroup-2-1]&amp;nbsp;org.apache.jackrabbit.oak.segment.standby.store.StandbyStore&amp;nbsp;got&amp;nbsp;segment&amp;nbsp;ec1f739c-0e3c-41b8-be2e-5417efc05266&amp;nbsp;with&amp;nbsp;size&amp;nbsp;262144!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*DEBUG*&amp;nbsp;[defaultEventExecutorGroup-2-1]&amp;nbsp;org.apache.jackrabbit.oak.segment.file.TarWriter&amp;nbsp;Writing&amp;nbsp;segment&amp;nbsp;ec1f739c-0e3c-41b8-be2e-5417efc05266&amp;nbsp;to&amp;nbsp;/mnt/crx/author/crx-quickstart/repository/segmentstore/data00016a.tar!!discoiqbr!! 
+  </codeblock> 
+  <p>In the standby’s <i>error.log</i>, you should see an entry such as this:</p> 
+  <codeblock gutter="true" class="syntax xml">
+    *INFO*&amp;nbsp;[FelixStartLevel]&amp;nbsp;org.apache.jackrabbit.oak.segment.standby.store.StandbyStoreService&amp;nbsp;started&amp;nbsp;standby&amp;nbsp;sync&amp;nbsp;with&amp;nbsp;10.20.30.40:8023&amp;nbsp;at&amp;nbsp;5&amp;nbsp;sec. 
+  </codeblock> 
+  <p>In the above log snippet, <i>10.20.30.40</i> is the IP address of the primary.</p> 
+  <p>In the <strong>primary</strong> <i>tarmk-coldstandby.log</i>, you will see entries such as these:</p> 
+  <codeblock gutter="true" class="syntax xml">
+    &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*DEBUG*&amp;nbsp;[nioEventLoopGroup-3-2]&amp;nbsp;org.apache.jackrabbit.oak.segment.standby.store.CommunicationObserver&amp;nbsp;got&amp;nbsp;message&amp;nbsp;‘s.d45f53e4-0c33-4d4d-b3d0-7c552c8e3bbd’&amp;nbsp;from&amp;nbsp;client&amp;nbsp;c7a7ce9b-1e16-488a-976e-627100ddd8cd!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*DEBUG*&amp;nbsp;[nioEventLoopGroup-3-2]&amp;nbsp;org.apache.jackrabbit.oak.segment.standby.server.StandbyServerHandler&amp;nbsp;request&amp;nbsp;segment&amp;nbsp;id&amp;nbsp;d45f53e4-0c33-4d4d-b3d0-7c552c8e3bbd!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*DEBUG*&amp;nbsp;[nioEventLoopGroup-3-2]&amp;nbsp;org.apache.jackrabbit.oak.segment.standby.server.StandbyServerHandler&amp;nbsp;sending&amp;nbsp;segment&amp;nbsp;d45f53e4-0c33-4d4d-b3d0-7c552c8e3bbd&amp;nbsp;to&amp;nbsp;/10.20.30.40:34998!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*DEBUG*&amp;nbsp;[nioEventLoopGroup-3-2]&amp;nbsp;org.apache.jackrabbit.oak.segment.standby.store.CommunicationObserver&amp;nbsp;did&amp;nbsp;send&amp;nbsp;segment&amp;nbsp;with&amp;nbsp;262144&amp;nbsp;bytes&amp;nbsp;to&amp;nbsp;client&amp;nbsp;c7a7ce9b-1e16-488a-976e-627100ddd8cd 
+  </codeblock> 
+  <p>In this case, the "client" mentioned in the log is the <strong>standby</strong> instance.</p> 
+  <p>Once these entries stop appearing in the log, you can safely assume that the syncing process is complete.</p> 
+  <p>While the above entries show that the polling mechanism is functioning properly, it is often useful to understand if there is any data being synchronized as polling is occurring. To do so, look for entries like the following:</p> 
+  <codeblock gutter="true" class="syntax xml">
+    *DEBUG*&amp;nbsp;[defaultEventExecutorGroup-156-1]&amp;nbsp;org.apache.jackrabbit.oak.segment.file.TarWriter&amp;nbsp;Writing&amp;nbsp;segment&amp;nbsp;3a03fafc-d1f9-4a8f-a67a-d0849d5a36d5&amp;nbsp;to&amp;nbsp;/&lt;&lt;CQROOTDIRECTORY&gt;&gt;/crx-quickstart/repository/segmentstore/data00014a.tar 
+  </codeblock> 
+  <p>Additionally, when running with a non shared <span class="code">FileDataStore</span>, messages like the following will confirm that the binary files are being properly transmitted:</p> 
+  <codeblock gutter="true" class="syntax xml">
+    *DEBUG*&amp;nbsp;[nioEventLoopGroup-228-1]&amp;nbsp;org.apache.jackrabbit.oak.segment.standby.codec.ReplyDecoder&amp;nbsp;received&amp;nbsp;blob&amp;nbsp;with&amp;nbsp;id&amp;nbsp;eb26faeaca7f6f5b636f0ececc592f1fd97ea1a9#169102&amp;nbsp;and&amp;nbsp;size&amp;nbsp;169102 
+  </codeblock> 
+  <h3>Configuration</h3> 
+  <p>The following OSGi settings are available for the Cold Standby service:</p> 
+  <ul> 
+   <li><strong>Persist Configuration:</strong> if enabled, this will store the configuration in the repository instead of the traditional OSGi configuration files. It is recommeded to keep this setting disabled on production systems so that the primary configuration will not be pulled by the standby.<br /> </li> 
+   <li><strong>Mode (<span class="code">mode</span>):</strong> this will choose the runmode of the instance.<br /> </li> 
+   <li><strong>Port (port):</strong> the port to use for communication. The default is <span class="code">8023</span>.</li> 
+   <li><strong>Primary host (<span class="code">primary.host</span>):</strong> - the host of the primary instance. This setting is only applicable for the standby.</li> 
+   <li><strong>Sync interval (<span class="code">interval</span>):</strong> - this setting determines the interval between sync request and is only applicable for the standby instance.<br /> </li> 
+   <li><strong>Allowed IP-Ranges (<span class="code">primary.allowed-client-ip-ranges</span>):</strong> - the IP ranges that the primary will allow connections from.</li> 
+   <li><strong>Secure (<span class="code">secure</span>):</strong> Enable SSL encryption. In order to make use of this setting, it must be enabled on all instances.</li> 
+   <li><strong>Standby Read Timeout (<span class="code">standby.readtimeout</span>):</strong> Timeout for requests issued from the standby instance in milliseconds. <strong>The recommended timeout setting is 43200000. It is generally advised you set the timeout to a value of at least 12 hours.<br /> </strong></li> 
+   <li><strong>Standby Automatic Cleanup (<span class="code">standby.autoclean</span>): </strong>Call the cleanup method if the size of the store increases on a sync cycle<strong>.<br /> </strong></li> 
+  </ul> 
+  <p> </p> 
+  <note> 
+   <p>It is highly recommended that the primary and standby have different repository IDs in order to make them separately indetifiable for services like Offloading.</p> 
+   <p>The best way to make sure this is covered is by deleting the <i>sling.id</i> file on the standby and restarting the instance.</p> 
+  </note> 
+  <h2>Failover procedures</h2> 
+  <p>In case the primary instance fails for any reason, you can set one of the standby instances to take the role of the primary by changing the start runmode as detailed below:<br /> </p> 
+  <note> 
+   <p>The configuration files also need to be modified so that they match the settings used for the primary instance.</p> 
+  </note> 
+  <ol> 
+   <li><p>Go to the location where the standby instance is installed, and stop it.<br /> </p> </li> 
+   <li><p>In case you have a load balancer configured with the setup, you can remove the primary from the load balancer's configuration at this point.</p> </li> 
+   <li><p>Backup the <span class="code">crx-quickstart</span> folder from standby installation folder. It can be used as a starting point when setting up a new standby.<br /> </p> </li> 
+   <li><p>Restart the instance using the <span class="code">primary</span> runmode:</p> 
+    <codeblock class="syntax shell">
+      java&amp;nbsp;-jar&amp;nbsp;quickstart.jar&amp;nbsp;-r&amp;nbsp;primary,crx3,crx3tar 
+    </codeblock></li> 
+   <li><p>Add the new primary to the load balancer.</p> </li> 
+   <li><p>Create and start a new standby instance. For more info, see the procedure above on <a href="../../../sites/deploying/using/tarmk-cold-standby.md#main-pars-title-2">Creating an AEM TarMK Cold Standby Setup</a>.<br /> </p> </li> 
+  </ol> 
+  <h2>Applying Hotfixes to a Cold Standby Setup</h2> 
+  <p>The recommended way to apply hotfixes to a cold stanby setup is by installing them to the primary instance and then cloning it into a new cold standby instance with the hotfixes installed.</p> 
+  <p>You can do this by following the steps outlined below:</p> 
+  <ol> 
+   <li><p>Stop the synchronization process on the cold standby instance by going to the JMX Console and using the <strong>org.apache.jackrabbit.oak: Status ("Standby")</strong>bean. For more information on how to do this, see the section on <a href="#main-pars-title-7">Monitoring</a>.</p> </li> 
+   <li><p>Stop the cold standby instance.</p> </li> 
+   <li><p>Install the hotfix on the primary instance. For more details on how to install a hotfix, see <a href="../../../sites/administering/using/package-manager.md">How to Work With Packages</a>.</p> </li> 
+   <li><p>Test the instance for issues after the installation. </p> </li> 
+   <li><p>Remove the cold standby instance by deleting its installation folder.</p> </li> 
+   <li><p>Stop the primary instance and clone it by performing a file system copy of its entire installation folder to the location of the cold standby.</p> </li> 
+   <li><p>Reconfigure the newly created clone to act as a cold standby instance. For additional details, see <a href="../../../sites/deploying/using/tarmk-cold-standby.md#creatinganaemtarmkcoldstandbysetup">Creating an AEM TarMK Cold Standby Setup.</a></p> </li> 
+   <li><p>Start both the primary and the cold standby instances.</p> </li> 
+  </ol> 
+  <h2>Monitoring</h2> 
+  <p>The feature exposes information using JMX or MBeans. Doing so you can inspect the current state of the standby and the master using the <a href="../../../sites/administering/using/jmx-console.md">JMX console</a>. The information can be found in an MBean of <span class="code">type org.apache.jackrabbit.oak:type="Standby" </span>named <span class="code">Status</span>.</p> 
+  <p><strong>Standby</strong></p> 
+  <p>Observing a standby instance you will expose one node. The ID is usually a generic UUID.</p> 
+  <p>This node has five read-only attributes:</p> 
+  <ul> 
+   <li><span class="code">Running:</span> boolean value indicating whether the sync process is running or not.<br /> </li> 
+   <li><span class="code">Mode:</span> Client: followed by the UUID used to identify the instance. Note that this UUID will change every time the configuration is updated.<br /> </li> 
+   <li><span class="code">Status:</span> a textual representation of the current state (like <span class="code">running</span> or <span class="code">stopped</span>).</li> 
+   <li><span class="code">FailedRequests: </span>the number of consecutive errors.</li> 
+   <li><span class="code">SecondsSinceLastSuccess:</span> the number of seconds since the last successful communication with the server. It will display <span class="code">-1</span> if no successful communication has been made.</li> 
+  </ul> 
+  <p>There are also three invokable methods:</p> 
+  <ul> 
+   <li><span class="code">start():</span> starts the sync process.</li> 
+   <li><span class="code">stop():</span> stops the sync process.</li> 
+   <li><span class="code">cleanup():</span> runs the cleanup operation on the standby.</li> 
+  </ul> 
+  <p><strong>Primary</strong><br /> </p> 
+  <p>Observing the primary exposes some general information via a MBean whose ID value is the port number the TarMK standby service is using (8023 by default). Most of the methods and attributes are the same as for the standby, but some differ:</p> 
+  <ul> 
+   <li><span class="code">Mode:</span> will always show the value <span class="code">primary</span>.</li> 
+  </ul> 
+  <p>Furthermore information for up to 10 clients (standby instances) that are connected to the master can be retrieved. The MBean ID is the UUID of the instance. There are no invokable methods for these MBeans but some very useful readonly attributes:</p> 
+  <ul> 
+   <li><span class="code">Name:</span> the ID of the client.</li> 
+   <li><span class="code">LastSeenTimestamp:</span> the timestamp of the last request in a textual representation.</li> 
+   <li><span class="code">LastRequest:</span> the last request of the client.</li> 
+   <li><span class="code">RemoteAddress:</span> the IP address of the client.</li> 
+   <li><span class="code">RemotePort:</span> the port the client used for the last request.</li> 
+   <li><span class="code">TransferredSegments:</span> the total number of segments transferred to this client.</li> 
+   <li><span class="code">TransferredSegmentBytes: </span>the total number of bytes transferred to this client.</li> 
+  </ul> 
+  <h5> </h5> 
+  <p> </p>  
+  <h2>Cold Standby Repository Maintenance</h2>  
+  <note> 
+   <p>If you run <a href="../../../sites/deploying/using/revision-cleanup.md">Online Revision Cleanup</a> on the primary instance, the manual procedure presented below is not needed. Addittionally, if you are using Online Revision Cleanup, the <span class="code">cleanup ()</span> operation on the standby instance will pe performed automatically.</p> 
+  </note> 
+  <note> 
+   <p>Do not run offline revision cleanup on the standby. It is not needed and it will not reduce the segmentstore size.</p> 
+  </note> 
+  <p>Adobe recommends runing maintenance on a regular basis to prevent excessive repository growth over time. To manually perform cold standby repository maintenance, follow the steps below:</p> 
+  <ol> 
+   <li><p>Stop the standby process on the standby instance by going to the JMX Console and using the <strong>org.apache.jackrabbit.oak: Status ("Standby")</strong> bean. For more info on how to do this, see the above section on <a href="../../../sites/deploying/using/tarmk-cold-standby.md#monitoring">Monitoring</a>.<br /> </p> </li> 
+   <li><p>Stop the primary AEM instance.</p> </li> 
+   <li><p>Run the oak compaction tool on the primary instance. For more details, see <a href="../../../sites/deploying/using/storage-elements-in-aem-6.md#maintaining-the-repository">Maintaining the Repository</a>.</p> </li> 
+   <li><p>Start the primary instance.</p> </li> 
+   <li><p>Start the standby process on the standby instance using the same JMX bean as described in the first step.</p> </li> 
+   <li><p>Watch the logs and wait for synchronization to complete. It is possible that substantial growth in the standby repository will be seen at this time.</p> </li> 
+   <li><p>Run the <span class="code">cleanup()</span> operation on the standby instance, using the same JMX bean as described in the first step.</p>  </li> 
+  </ol> 
+  <p>It may take longer than usual for the standby instance to complete synchronization with the primary as offline compaction effectively rewrites the repository history, thus making computation of the changes in the repositories take more time. It should also be noted that once this process completes, the size of the repository on the standby will be roughly the same size as the repository on the primary. </p> 
+  <p>As an alternative, the primary repository can be copied over to the standby manually after running compaction on the primary, essentially rebuilding the standby each time compaction runs.</p> 
+  <h4>Data Store Garbage Collection</h4> 
+  <p>It is important to run garbage collection on file datastore instances from time to time as otherwise, deleted binaries will remain on the filesystem, eventually filling up the drive. To run garbage collection, follow the below procedure:</p> 
+  <ol> 
+   <li><p>Run cold standby repository maintenance as described in the section <a href="../../../sites/deploying/using/tarmk-cold-standby.md#coldstandbyrepositorymaintenance">above</a>.</p> </li> 
+   <li><p>After the maintenance process has completed and the instances have been restarted:</p> 
+    <ul> 
+     <li>On the primary, run the data store garbage collection via the relevant JMX bean as described in <a href="../../../sites/administering/using/data-store-garbage-collection.md#runningdatastoregarbagecollectionviathejmxconsole">this article</a>.</li> 
+     <li>On the standby, the data store garbage collection is available only via the <strong>BlobGarbageCollection</strong> MBean - <span class="code">startBlobGC()</span>. The <strong>RepositoryManagement </strong>MBean is not available on the standby.</li> 
+    </ul> 
+    <note> 
+     <p>In case you are not using a shared data store, garbage collection will first have to be run on primary and then on the standby.</p> 
+    </note></li> 
+  </ol> 
+ </body> 
+</html>

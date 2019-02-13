@@ -1,0 +1,467 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/rule-editor.html" name="publishExternalURL" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/rule_editor_krs_workflow_c77e08fb6f309c49_22_report.xml" name="acrolinxReportURL" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2015-12-02T04:58:31.608-0500" name="lastPublishQADate" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="checked_not_improved" name="acrolinxStatus" /> 
+  <meta content="418" name="acrolinxSentences" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="yellow" name="acrolinxPageStatus" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/adaptive_forms;/content/help/en/experience-manager/6-4/forms/morehelp/develop;/content/help/en/experience-manager/6-4/forms/morehelp/adaptive_forms;/content/help/en/experience-manager/6-4/forms/morehelp/develop" name="moreHelpPaths" /> 
+  <meta content="893fb211-7d28-4fa6-815c-5bf49f2bd639" name="jcr:predecessors" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="2016-12-23T01:40:13.021-0500" name="firstPublishExternalDate" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2018-04-03T08:52:03.864-0400" name="topicBrowsingSortDate" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="Adaptive forms rule editor" name="jcr:title" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2018-04-03T08:52:03.864-0400" name="publishExternalDate" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="content_type:reference;topic_tags:adaptive_forms;topic_tags:develop;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" /> 
+  <meta content="" name="privateBeta" /> 
+  <meta content="2018-04-26T04:34:26.560-0400" name="locHandOffDate" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="2018-04-03T08:52:04.142-0400" name="cq:lastReplicated" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="2018-04-03T08:52:03.864-0400" name="lastPublishExternalDate" /> 
+  <meta content="5900" name="acrolinxWords" /> 
+  <meta content="1046a181-8df4-4c2e-8f05-51f54a8edc53" name="jcr:uuid" /> 
+  <meta content="2017-12-01T19:06:27.518-0500" name="jcr:created" /> 
+  <meta content="2018-04-26T04:34:26.561-0400" name="cq:lastModified" /> 
+  <meta content="Adaptive forms rule editor allows you to add dynamic behavior and build complex logic into forms without coding or scripting." name="seoDescription" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2016-12-22T04:58:15.062-0500" name="acrolinxDate" /> 
+ </head> 
+ <body> 
+  <h2>Overview</h2> 
+  <p>The rule editor feature in Adobe Experience Manager Forms empowers forms business users and developers to write rules on adaptive form objects. These rules define actions to trigger on form objects based on preset conditions, user inputs, and user actions on the form. It helps further streamline the form filling experience ensuring accuracy and speed.</p> 
+  <p>The rule editor provides an intuitive and simplified user interface to write rules. Rule editor offers a visual editor for all the users. In addition, only for forms power users, rule editor provides a code editor to write rules and scripts. Some of the key actions that you can perform on adaptive form objects using rules are:</p> 
+  <ul> 
+   <li>Show or hide an object<br /> </li> 
+   <li>Enable or disable an object<br /> </li> 
+   <li>Set a value for an object<br /> </li> 
+   <li>Validate the value of an object<br /> </li> 
+   <li>Execute functions to compute the value of an object<br /> </li> 
+   <li>Invoke a form data model service and perform an operation</li> 
+   <li>Set property of an object<br /> </li> 
+  </ul> 
+  <p>Rule editor replaces the scripting capabilities in AEM 6.1 Forms and earlier releases. However, your existing scripts are preserved in the new rule editor. For more information about working with existing scripts in the rule editor, see <a href="../../forms/using/rule-editor.md#main-pars-header-2">Impact of rule editor on existing scripts</a>.</p> 
+  <p>Users added to the forms-power-users group can create new scripts and edit existing ones. Users in the forms-users group can use the scripts but not create or edit scripts.</p> 
+  <h2>Understanding a rule</h2> 
+  <p>A rule is a combination of actions and conditions. In rule editor, actions include activities such as hide, show, enable, disable, or compute the value of an object in a form. Conditions are Boolean expressions that are evaluated by performing checks and operations on the state, value, or property of a form object. Actions are performed based on the value (<span class="code">True</span> or <span class="code">False</span>) returned by evaluating a condition.</p> 
+  <p>The rule editor provides a set of predefined rule types, such as When, Show, Hide, Enable, Disable, Set Value Of, and Validate to help you write rules. Each rule type allows you to define conditions and actions in a rule. The document further explains each rule type in detail.<br /> </p> 
+  <p>A rule typically follows one of the following constructs:<br /> </p> 
+  <p><strong>Condition-Action</strong> In this construct, a rule first defines a condition followed by an action to trigger. The construct is comparable to if-then statement in programming languages.</p> 
+  <p>In rule editor, the <strong>When</strong> rule type enforces the condition-action construct.</p> 
+  <p><strong>Action-Condition</strong> In this construct, a rule first defines an action to trigger followed by conditions for evaluation. Another variation of this construct is action-condition-alternate action, which also defines an alternate action to trigger if the condition returns False.</p> 
+  <p>The Show, Hide, Enable, Disable, Set Value Of, and Validate rule types in rule editor enforce the action-condition rule construct. By default, the alternate action for Show is Hide and for Enable is Disable, and vice versa. You cannot change the default alternate action.<br /> </p> 
+  <note> 
+   <p>The available rule types, including conditions and actions that you define in rule editor, also depend on the type of form object on which you are creating a rule. The rule editor displays only valid rule types and options for writing condition and action statements for a particular form object type. For example, you do not see Validate, Set Value Of, Enable, and Disable rule types for a panel object.<br /> </p> 
+  </note> 
+  <p>For more information about rule types available in the rule editor, see <a href="../../forms/using/rule-editor.md#main-pars-header-11">Available rule types in rule editor</a>.<br /> </p> 
+  <h3>Guidelines for choosing a rule construct</h3> 
+  <p>While you can achieve most of the use cases by using any rule construct, here are some guidelines to choose one construct over another. For more information about the available rules in rule editor, see <a href="../../forms/using/rule-editor.md#main-pars-header-11">Available rule types in rule editor</a>.</p> 
+  <ul> 
+   <li><p>A typical rule of the thumb when creating a rule is to think about it in the context of the object on which you are writing a rule. Consider that you want to hide or show the field B based on the value a user specifies in the field A. In this case, you are evaluating a condition on field A, and based on the value it returns, you are triggering an action on field B.</p> <p>Therefore, if you are writing a rule on field B (the object on which you are evaluating a condition), use the condition-action construct or the When rule type. Similarly, use the action-condition construct or Show or Hide rule type on field A.</p> </li> 
+   <li><p>At times, you need to perform multiple actions based on one condition. In such cases, it is recommended to use the condition-action construct. In this construct, you can evaluate a condition once and specify multiple action statements.</p> <p>For example, to hide fields B, C, and D based on the condition that checks for the value a user specifies in field A, write one rule with condition-action construct or When rule type on field A and specify actions to control the visibility of fields B, C, and D. Otherwise, you need three separate rules on fields B, C, and D, where each rule checks the condition and shows or hides the respective field. In this example, it is more efficient to write the When rule type on one object rather than Show or Hide rule type on three objects.</p> </li> 
+   <li>To trigger an action based on multiple conditions, it is recommended to use action-condition construct. For example to show and hide field A by evaluating conditions on fields B, C, and D, use Show or Hide rule type on field A.</li> 
+   <li>Use condition-action or action condition construct if the rule contains one action for one condition.</li> 
+   <li>If a rule checks for a condition and performs an action immediately on providing a value in a field or exiting a field, it is recommended to write a rule with condition-action construct or the When rule type on the field on which the condition is evaluated. </li> 
+   <li>The condition in the When rule is evaluated when a user changes the value of the object on which the When rule is applied. However, if you want the action to trigger when the value changes on the server side, like in case of prepopulating the value, it is recommended to write a When rule that triggers the action when the field is initialized.</li> 
+   <li>When writing rules for drop-downs, radio buttons, or check boxes objects, the options or values of these form objects in the form are pre-populated in the rule editor.<br /> </li> 
+  </ul> 
+  <h2>Available operator types and events in rule editor</h2> 
+  <p>The rule editor provides the following logical operators and events using which you can create rules.</p> 
+  <ul> 
+   <li><strong>Is Equal To</strong></li> 
+   <li><strong>Is Not Equal To</strong></li> 
+   <li><strong>Starts With </strong></li> 
+   <li><strong>Ends With</strong> </li> 
+   <li><strong>Contains </strong></li> 
+   <li><strong>Is Empty </strong></li> 
+   <li><strong>Is Not Empty</strong></li> 
+   <li><strong>Has Selected: </strong> Returns true when the user selects a particular option for a checkbox, drop-down, radio button.</li> 
+   <li><strong>Is Initialized (event): </strong>Returns true when a form object renders in the browser. </li> 
+   <li><strong>Is Changed (event): </strong>Returns true when the user changes the entered value or selected option for a form object.</li> 
+  </ul> 
+  <h2>Available rule types in rule editor</h2> 
+  <p>The rule editor provides a set of predefined rule types that you can use to write rules. Let's look at each rule type in detail. For more information about writing rules in rule editor, see <a href="../../forms/using/rule-editor.md#main-pars-header-1">Write rules</a>.</p> 
+  <h3>When</h3> 
+  <p>The <strong>When</strong> rule type follows the <strong>condition-action-alternate action</strong> rule construct, or sometimes, just the <strong>condition-action</strong> construct. In this rule type, you first specify a condition for evaluation followed by an action to trigger if the condition is satisfied (<span class="code">True</span>). While using the When rule type, you can use multiple AND and OR operators to create <a href="#nestedexpressions">nested expressions</a>. </p> 
+  <p>Using the When rule type, you can evaluate a condition on a form object and perform actions on one or more objects. </p> 
+  <p>In plain words, a typical When rule is structured as follows:</p> 
+  <p>____________________________________________</p> 
+  <p><span class="code">When on Object A:</span></p> 
+  <p style="margin-left: 40px;"><span class="code">(Condition 1 AND Condition 2 OR Condition 3) is TRUE;</span></p> 
+  <p><span class="code">Then, do the following:</span></p> 
+  <p>Action 2 on Object B;<br /> AND<br /> Action 3 on Object C;</p> 
+  <p> </p> 
+  <p>_____________________________________________</p> 
+  <p>When you have a multi-value component, such as radio buttons or list, while creating a rule for that component the options are automatically retrieved and made available to the rule creator. You need not type the option values again.</p> 
+  <p>For example, a list has four options: Red, Blue, Green, and Yellow. While creating the rule, the options (radio buttons) are automatically retrieved and made available to the rule creator as following:</p> 
+  <img imageRotate="0" src="assets/multivaluefcdisplaysoptions.png" /> 
+  <p>While writing a When rule, you can trigger the Clear Value Of action. Clear Value Of action clears the value of the specified object. Having Clear Value of as an option in the When statement allows you to create complex conditions with multiple fields.</p> 
+  <img imageRotate="0" src="assets/clearvalueof.png" /> 
+  <p><strong>Hide</strong> Hides the specified object.</p> 
+  <p><strong>Show</strong> Shows the specified object.</p> 
+  <p><strong>Enable</strong> Enables the specified object.</p> 
+  <p><strong>Disable</strong> Disables the specified object.</p> 
+  <p><strong>Invoke service</strong> Invokes a service configured in a form data model. When you choose the Invoke Service operation, a field appears. On tapping the field, it displays all services configured in all form data models on your AEM instance. On choosing a form data model service, additional fields appear where you can map form objects with input and output parameters for the specified service. See example rule for invoking form data model services.</p> 
+  <p>In addition to form data model service, you can specify a direct WSDL URL to invoke a web service. However, a form data model service has many benefits and the recommended approach to invoke a service.</p> 
+  <p>For more information about configuring services in form data model, see <a href="../../forms/using/data-integration.md">AEM Forms Data Integration</a>.</p> 
+  <p><strong>Set value of</strong> Computes and sets the value of the specified object. You can set the object value to a string, the value of another object, the computed value using mathematical expression or function, the value of a property of an object, or the output value from a configured form data model service. When you choose the web service option, it displays all services configured in all form data models on your AEM instance. On choosing a form data model service, additional fields appear where you can map form objects with input and output parameters for the specified service.</p> 
+  <p>For more information about configuring services in form data model, see <a href="../../forms/using/data-integration.md">AEM Forms Data Integration</a>.</p> 
+  <p><strong>Set property</strong> Sets the value of a property of the specified object.</p> 
+  <p><strong>Clear Value Of</strong> Clears the value of the specified object.</p> 
+  <p><strong>Set Focus</strong> Sets focus on the specified object.</p> 
+  <p><strong>Save Form</strong> Saves the form.</p> 
+  <p><strong>Submit Forms</strong> Submits the form.</p> 
+  <p><strong>Reset Form</strong> Resets the form.</p> 
+  <p><strong>Validate Form</strong> Validates the form.</p> 
+  <p><strong>Add Instance</strong> Adds an instance of the specified repeatable panel or table row.</p> 
+  <p><strong>Remove Instance</strong> Removes an instance of the specified repeatable panel or table row.</p> 
+  <h3>Set Value of</h3> 
+  <p>The <span class="uicontrol">Set Value of</span> rule type allows you to set the value of a form object depending on whether the specified condition is satisfied or not. The value can be set to a value of another object, a literal string, a value derived from a mathematical expression or a function, a value of a property of another object, or the output of a form data model service. Similarly, you can check for a condition on a component, string, property, or values derived from a function or mathematical expression.</p> 
+  <p>Note that the Set Value Of rule type is not available for all form objects, such as panels and toolbar buttons. A standard Set Value Of rule has the following structure:</p> 
+  <p>____________________________________________</p> 
+  <p>Set value of Object A to:</p> 
+  <p>(string ABC) OR <br /> (object property X of Object C) OR <br /> (value from a function) OR <br /> (value from a mathematical expression) OR<br /> (output value of a data model service or web service);</p> 
+  <p>When (optional):</p> 
+  <p>(Condition 1 AND Condition 2 AND Condition 3) is TRUE;</p> 
+  <p>____________________________________________</p> 
+  <p>The following example takes the value in <span class="code">dependentid</span> field as input and sets the value of the <span class="code">Relation</span> field to the output of the <span class="code">Relation</span> argument of the <span class="code">getDependent</span> form data model service.</p> 
+  <img captionBottom="Example of Set Value rule using form data model service" imageRotate="0" src="assets/set-value-web-service.png" /> 
+  <note> 
+   <p>In addition, you can use Set Value of rule to populate all values in a drop-down list component from the output of a form data model service or a web service. However, ensure that the output argument you choose is of an array type. All values returned in an array become available in the specified drop-down list.</p> 
+  </note> 
+  <h3>Show</h3> 
+  <p>Using the <strong>Show</strong> rule type, you can write a rule to show or hide a form object based on whether a condition is satisfied or not. The Show rule type also triggers the Hide action in case the condition is not satisfied or returns <span class="code">False</span>.</p> 
+  <p>A typical Show rule is structured as follows:</p> 
+  <p>____________________________________________</p> 
+  <p><span class="code">Show Object A;</span></p> 
+  <p><span class="code">When:</span></p> 
+  <p style="margin-left: 40px;"><span class="code">(Condition 1 OR Condition 2 OR Condition 3) is TRUE;</span></p> 
+  <p><span class="code">Else:</span></p> 
+  <p style="margin-left: 40px;"><span class="code">Hide Object A;</span></p> 
+  <p>____________________________________________</p> 
+  <h3>Hide</h3> 
+  <p>Similar to the Show rule type, you can use the <strong>Hide</strong> rule type to show or hide a form object based on whether a condition is satisfied or not. The Hide rule type also triggers the Show action in case the condition is not satisfied or returns <span class="code">False</span>.</p> 
+  <p>A typical Hide rule is structured as follows:</p> 
+  <p>____________________________________________</p> 
+  <p><span class="code">Hide Object A;</span></p> 
+  <p><span class="code">When:</span></p> 
+  <p style="margin-left: 40px;"><span class="code">(Condition 1 AND Condition 2 AND Condition 3) is TRUE;</span></p> 
+  <p><span class="code">Else:</span></p> 
+  <p style="margin-left: 40px;"><span class="code">Show Object A;</span></p> 
+  <p>____________________________________________</p> 
+  <h3>Enable</h3> 
+  <p>The <strong>Enable</strong> rule type lets you enable or disable a form object based on whether a condition is satisfied or not. The Enable rule type also triggers the Disable action in case the condition is not satisfied or returns <span class="code">False</span>.</p> 
+  <p>A typical Enable rule is structured as follows:</p> 
+  <p>____________________________________________</p> 
+  <p><span class="code">Enable Object A;</span></p> 
+  <p><span class="code">When:</span></p> 
+  <p style="margin-left: 40px;"><span class="code">(Condition 1 AND Condition 2 AND Condition 3) is TRUE;</span></p> 
+  <p><span class="code">Else:</span></p> 
+  <p style="margin-left: 40px;"><span class="code">Disable Object A;</span></p> 
+  <p>____________________________________________</p> 
+  <h3>Disable</h3> 
+  <p>Similar to the Enable rule type, the <strong>Disable</strong> rule type allows you to enable or disable a form object based on whether a condition is satisfied or not. The Disable rule type also triggers the Enable action in case the condition is not satisfied or returns <span class="code">False</span>.</p> 
+  <p>A typical Disable rule is structured as follows:</p> 
+  <p>____________________________________________</p> 
+  <p><span class="code">Disable Object A;</span></p> 
+  <p><span class="code">When:</span></p> 
+  <p style="margin-left: 40px;"><span class="code">(Condition 1 OR Condition 2 OR Condition 3) is TRUE;</span></p> 
+  <p><span class="code">Else:</span></p> 
+  <p style="margin-left: 40px;"><span class="code">Enable Object A;</span></p> 
+  <p>____________________________________________</p> 
+  <h3>Validate</h3> 
+  <p>The <strong>Validate</strong> rule type validates the value in a field using an expression. For example, you can write an expression to check that the text box for specifying name doesn't contain special characters or numbers.</p> 
+  <p>A typical Validate rule is structured as follows:</p> 
+  <p>____________________________________________</p> 
+  <p><span class="code">Validate Object A;</span></p> 
+  <p><span class="code">Using:</span></p> 
+  <p style="margin-left: 40px;"><span class="code">(Expression 1 AND Expression 2 AND Expression 3) is TRUE;</span></p> 
+  <p>____________________________________________</p> 
+  <note> 
+   <p>If the specified value doesn't comply with the Validate rule, you can display a validation message to the user. You can specify the message in the <span class="uicontrol">Script validation message</span> field in the component properties in the sidebar. </p> 
+  </note> 
+  <img imageRotate="0" src="assets/script-validation.png" /> 
+  <h2>Understanding the rule editor user interface</h2> 
+  <p>Rule editor provides a comprehensive yet simple user interface to write and manage rules. You can launch the rule editor user interface from within an adaptive form in authoring mode.</p> 
+  <p>To launch the rule editor user interface:</p> 
+  <ol> 
+   <li><p>Open an adaptive form in authoring mode.</p> </li> 
+   <li><p>Tap the form object for which you want to write a rule, and in Component Toolbar tap <img height="20" src="assets/edit-rules.png" weight="20" />. The rule editor user interface appears.</p> <img imageRotate="0" src="assets/create-rules.png" /><p>Any existing rules on the selected form objects are listed in this view. For information about managing existing rules, see <a href="../../forms/using/rule-editor.md#main-pars-header-15">Manage rules</a>.</p> </li> 
+   <li><p>Tap <span class="uicontrol">Create</span> to write a new rule. The visual editor of the rule editor user interface opens by default when you launch the rule editor the first time.</p> <a href="assets/rule-editor-ui-1.png"><img alt="Rule Editor UI" captionBottom="Click to view enlarged image" imageRotate="0" src="assets/rule-editor-ui.png" /></a><p>Let's look at each component of the rule editor UI in detail.<br /> </p> </li> 
+  </ol> 
+  <h3>A. Component-rule display</h3> 
+  <p>Displays the title of the adaptive form object through which you launched the rule editor and the rule type currently selected. In the above example, the rule editor is launched from an adaptive form object titled Salary and the rule type selected is When.<br /> </p> 
+  <h3>B. Form objects and functions &lt;br&gt;</h3> 
+  <p>The pane on the left in the rule editor user interface includes two tabs — <span class="uicontrol">Forms Objects</span> and <span class="uicontrol">Functions</span>.</p> 
+  <p>The Form Objects tab shows a hierarchical view of all objects contained in the adaptive form. It displays the title and type of the objects. When writing a rule, you can drag-drop form objects onto the rule editor. While creating or editing a rule when you drag-and-drop an object or function into a placeholder, the placeholder automatically takes the appropriate value type. </p> 
+  <p>The form objects that have one or more valid rules applied are marked with a Green dot. If any of the rules applied to a form object is invalid, the form object is marked with a Yellow dot.</p> 
+  <p>The Functions tab includes a set of built-in functions, such as Sum Of, Min Of, Max Of, Average Of, Number Of, and Validate Form. You can use these functions to compute values in repeatable panels and table rows and use them in action and condition statements when writing rules. You can, however, create <a href="../../forms/using/rule-editor.md#custom-functions">custom functions</a> too.</p> 
+  <img alt="The Functions tab" imageRotate="0" src="assets/functions.png" /> 
+  <note> 
+   <p>You can perform text search on objects and functions names and titles in Forms Objects and Functions tabs.<br /> </p> 
+  </note> 
+  <p>In the left tree of the form objects, you can tap the form objects to display the rules applied to each of the objects. Not only you can navigate through the rules of the various form objects, you can also copy-paste rules between the form objects. For more information, see <a href="../../forms/using/rule-editor.md#main-pars-header-531769179">Copy-paste rules</a>.</p> 
+  <h3>C. Form objects and functions toggle &lt;br&gt;</h3> 
+  <p>The toggle button, when tapped, toggles the form objects and functions pane.</p> 
+  <h3>D. Visual rule editor</h3> 
+  <p>Visual rule editor is the area in the visual editor mode of the rule editor user interface where you write rules. It allows you to select a rule type and accordingly define conditions and actions. When defining conditions and actions in a rule, you can drag-drop form objects and functions from the Form Objects and Functions pane.</p> 
+  <p>For more information about using visual rule editor, see <a href="../../forms/using/rule-editor.md#main-pars-header-1">Write rules</a>.<br /> </p> 
+  <h3>E. Visual-code editors switcher</h3> 
+  <p>Users in the forms-power-users group can access code editor. For other users, code editor is not available. If you have the rights, you can switch from visual editor mode to code editor mode of the rule editor, and vice versa, using the switcher right above the rule editor. When you launch rule editor the first time, it opens in the visual editor mode. You can write rules in the visual editor mode or switch to the code editor mode to write a rule script. However, note that if you modify a rule or write a rule in code editor, you cannot switch back to the visual editor for that rule unless you clear the code editor.</p> 
+  <p>AEM Forms tracks the rule editor mode you used last to write a rule. When you launch the rule editor next time, it opens in that mode. However, you can also configure a default mode to open the rule editor in the specified mode. To do so:</p> 
+  <ol> 
+   <li>Go to AEM web console at http://[host]:[port]/system/console/configMgr.</li> 
+   <li>Click to edit <span class="uicontrol">Adaptive Form Configuration Service</span>.</li> 
+   <li>choose <span class="uicontrol">Visual Editor</span> or <span class="uicontrol">Code Editor</span> from the <span class="uicontrol">Default Mode for Rule Editor</span> drop-down</li> 
+   <li>Click <span class="uicontrol">Save</span>.</li> 
+  </ol> 
+  <h3>F. Done and cancel buttons</h3> 
+  <p>The <span class="uicontrol">Done</span> button is used to save a rule. You can save an incomplete rule. However, incomplete are invalid and don't execute. Saved rules on a form object are listed when you launch the rule editor next time from the same form object. You can manage existing rules in that view. For more information, see <a href="../../forms/using/rule-editor.md#main-pars-header-15">Manage rules</a>.</p> 
+  <p>The <span class="uicontrol">Cancel</span> button discards any changes you made to a rule and closes the rule editor.</p> 
+  <h2>Write rules</h2> 
+  <p>You can write rules using the visual rule editor or the code editor. When you launch the rule editor the first time, it opens in the visual editor mode. You can switch to the code editor mode and write rules. However, note that if you write or modify a rule in code editor, you cannot switch to the visual editor for that rule unless you clear the code editor. When you launch the rule editor next time, it opens in the mode that you used last to create rule.</p> 
+  <p>Let's first look at how to write rules using visual editor.</p> 
+  <h3>Using visual editor</h3> 
+  <p>Let's understand how to create a rule in visual editor using the following example form.</p> 
+  <img imageRotate="0" src="assets/create-rule-example.png" /> 
+  <p>The Loan Requirements section in the example loan application form requires applicants to specify their marital status, salary, and if married, their spouse's salary. Based on the user inputs, the rule computes the loan eligibility amount and displays in the Loan Eligibility field. Apply the following rules to implement the scenario:</p> 
+  <ul> 
+   <li>The Spouse's Salary field is shown only when the Marital Status is Married.</li> 
+   <li>The loan eligibility amount is 50% of the total salary.</li> 
+  </ul> 
+  <div>
+    Perform the following steps to write rules: 
+  </div> 
+  <ol> 
+   <li><p>First, write the rule to control the visibility of the Spouse Salary field based on the option user selects for the Marital Status radio button. </p> <p>Open the loan application form in authoring mode. Tap the <strong>Marital Status</strong> component and tap <img src="assets/edit-rules.png" />. Next, tap <span class="uicontrol">Create</span> to launch the rule editor.</p> <img imageRotate="0" src="assets/write-rules-visual-editor-1.png" /><p>When you launch the rule editor, the When rule is selected by default. Also, the form object (in this case, Marital Status) from where you launched the rule editor is specified in the When statement.</p> <p>While you cannot change or modify the selected object, you can use the rule drop-down, as shown below, to select another rule type. If you want to create a rule on another object, tap Cancel to exit the rule editor and launch it again from the desired form object.</p> </li> 
+   <li><p>Tap <span class="uicontrol">Select State</span> drop-down and select <span class="uicontrol">is equal to</span>. The <span class="uicontrol">Enter a String</span> field appears.</p> <img imageRotate="0" src="assets/write-rules-visual-editor-2.png" /><p>In the Marital Status radio button, <strong>Married</strong> and <strong>Single</strong> options are assigned <strong>0</strong> and <strong>1</strong> values, respectively. You can verify assigned values in the Title tab of the Edit radio button dialog as shown below.</p> <img alt="Radio button values from rule editor" imageRotate="0" src="assets/radio-button-values.png" title="Radio button values from rule editor" /></li> 
+   <li><p>In the <strong>Enter a String</strong> field in the rule, specify <strong>0</strong>.</p> <img imageRotate="0" src="assets/write-rules-visual-editor-4.png" /><p>You have defined the condition as <span class="code">When Marital Status is equal to Married</span>. Next, define the action to perform if this condition is True.</p> </li> 
+   <li><p>In the Then statement, select <span class="uicontrol">Show</span> from the <span class="uicontrol">Select Action</span> drop-down.</p> <img imageRotate="0" src="assets/write-rules-visual-editor-5.png" /></li> 
+   <li><p>Drag-drop the <strong>Spouse Salary</strong> field from the Form Objects tab on the <strong>Drop object or select here </strong>field. Alternatively, tap the <strong>Drop object or select here</strong> field and select the <strong>Spouse Salary</strong> field from the pop-up menu, which lists all form objects in the form.</p> <img imageRotate="0" src="assets/write-rules-visual-editor-6.png" /><p>The rule appears as follows in the rule editor.</p> <img imageRotate="0" src="assets/write-rules-visual-editor-7.png" /><p>Tap <strong>Done</strong> to save the rule.</p> </li> 
+   <li><p>Repeat steps 1 through 5 to define another rule to hide the Spouse Salary field if the marital Status is Single. The rule appears as follows in the rule editor.</p> <img imageRotate="0" src="assets/write-rules-visual-editor-8.png" /> 
+    <note> 
+     <p>Alternatively, you can write one Show rule on the Spouse Salary field, instead of two When rules on the Marital Status field, to implement the same behavior.</p> 
+    </note><img imageRotate="0" src="assets/write-rules-visual-editor-9.png" /></li> 
+   <li><p>Next, write a rule to compute the loan eligibility amount, which is 50% of the total salary, and display it in the Loan Eligibility field. To achieve this, create <strong>Set value Of</strong> rules on Loan Eligibility field.</p> <p>In authoring mode, tap the <span class="uicontrol">Loan Eligibility</span> field and tap <img src="assets/edit-rules.png" />. Next, tap <span class="uicontrol">Create</span> to launch the rule editor.</p> </li> 
+   <li><p>Select <span class="uicontrol">Set Value Of</span> rule from the rule drop-down.</p> <img imageRotate="0" src="assets/write-rules-visual-editor-10.png" /></li> 
+   <li><p>Tap <span class="uicontrol">Select Option</span> and select <span class="uicontrol">Mathematical Expression</span>. A field to write mathematical expression opens.</p> <img imageRotate="0" src="assets/write-rules-visual-editor-11.png" /></li> 
+   <li><p>In the expression field:</p> 
+    <ul> 
+     <li>Select or drag-drop from the Forms Object tab the <strong>Salary</strong> field in the first <strong>Drop object or select here</strong> field.</li> 
+     <li>Select <strong>Plus</strong> from the <strong>Select Operator</strong> field.</li> 
+     <li>Select or drag-drop from the Forms Object tab the <strong>Spouse Salary</strong> field in the other <strong>Drop object or select here</strong> field.<br /> </li> 
+    </ul> <img imageRotate="0" src="assets/write-rules-visual-editor-12.png" /></li> 
+   <li><p>Next, tap in the highlighted area around the expression field and tap <strong>Extend Expression</strong>.</p> <img imageRotate="0" src="assets/write-rules-visual-editor-13.png" /><p>In the extended expression field, select <strong>divided by</strong> from the <strong>Select Operator</strong> field and <strong>Number</strong> from the <strong>Select Option</strong> field. Then, specify <strong>2</strong> in the number field.</p> <img imageRotate="0" src="assets/write-rules-visual-editor-14.png" /> 
+    <note> 
+     <p>You can create complex expressions by using components, functions, mathematical expressions, and property values from the Select Option field.</p> 
+    </note><p>Next, create a condition, which when returns True, the expression executes.</p> </li> 
+   <li><p>Tap <strong>Add Condition </strong>to add a When statement.</p> <img imageRotate="0" src="assets/write-rules-visual-editor-15.png" /><p>In the When statement:</p> 
+    <ul> 
+     <li>Select or drag-drop from the Forms Object tab the <strong>Marital Status</strong> field in the first <strong>Drop object or select here</strong> field.</li> 
+     <li>Select i<strong>s equal to</strong> from the <strong>Select Operator</strong> field.</li> 
+     <li>Select String in the other <strong>Drop object or select here</strong> field and specify <strong>Married</strong> in the <strong>Enter a String</strong> field.<br /> </li> 
+    </ul> 
+    <div>
+      The rule finally appears as follows in the rule editor. 
+    </div> <img imageRotate="0" src="assets/write-rules-visual-editor-16.png" /><p>Tap <strong>Done</strong> to save the rule.</p> </li> 
+   <li><p>Repeat steps 7 through 12 to define another rule to compute the loan eligibility if the marital Status is Single. The rule appears as follows in the rule editor.</p> <img imageRotate="0" src="assets/write-rules-visual-editor-17.png" /></li> 
+  </ol> 
+  <note> 
+   <p>Alternatively, you can use the Set Value Of rule to compute the loan eligibility in the When rule that you created to show-hide the Spouse Salary field. The resultant combined rule when Marital Status is Single appears as follows in the rule editor.</p> 
+   <p>Similarly, you can write a combined rule to control visibility of the Spouse Salary field and compute loan eligibility when the Marital Status is Married.</p> 
+  </note> 
+  <img imageRotate="0" src="assets/write-rules-visual-editor-18.png" /> 
+  <h3>Using code editor</h3> 
+  <p>Users added to the forms-power-users group can use code editor. The rule editor auto generates the JavaScript code for any rule you create using visual editor. You can switch from visual editor to the code editor to view the generated code. However, if you modify the rule code in the code editor, you cannot switch back to the visual editor. If you prefer writing rules in code editor rather than visual editor, you can write rules afresh in the code editor. The visual-code editors switcher helps you switch between the two modes.</p> 
+  <p>The code editor JavaScript is the expression language of adaptive forms. All the expressions are valid JavaScript expressions and use adaptive forms scripting model APIs. These expressions return values of certain types. For the complete list of adaptive forms classes, events, objects, and public APIs, see <a href="http://helpx.adobe.com/aem-forms/6-2/javascript-api/index.html" target="_blank">JavaScript Library API reference for adaptive forms</a>.</p> 
+  <p>For more information about guidelines to write rules in the code editor, see <a href="../../forms/using/adaptive-form-expressions.md" target="_blank">Adaptive Form Expressions</a>.</p> 
+  <p>While writing JavaScript code in the rule editor, the following visual cues help you with the structure and syntax:</p> 
+  <ul> 
+   <li>Syntax highlights</li> 
+   <li>Auto Indentation</li> 
+   <li>Hints and suggestions for Form objects, functions, and their properties</li> 
+   <li>Auto completion of form component names and common JavaScript functions</li> 
+  </ul> 
+  <img imageRotate="0" src="assets/javascriptruleeditor.png" /> 
+  <h4 id="custom_functions">Custom functions in rule editor</h4> 
+  <p>Apart from the out-of-the-box functions like <em>Sum of, </em>that are listed under Functions Output, you can write custom functions that you frequently need. Ensure that the function you write is accompanied by the <span class="code">jsdoc</span> above it. </p> 
+  <p>Accompanying <span class="code">jsdoc</span> is required:</p> 
+  <ul> 
+   <li>If you want custom configuration and description.</li> 
+   <li>Because there are multiple ways to declare a function in <span class="code">JavaScript,</span> and comments let you keep a track of the functions. </li> 
+  </ul> 
+  <p>For more information, see <a href="http://usejsdoc.org/" target="_blank">usejsdoc.org</a>. </p> 
+  <p>Supported <span class="code">jsdoc</span> tags:</p> 
+  <ul> 
+   <li><strong>Private</strong><br /> Syntax: <span class="code">@private</span><br /> A private function is not included as a custom function.<br /> </li> 
+   <li><strong>Name</strong><br /> Syntax: <span class="code">@name funcName &amp;lt;Function Name&amp;gt;</span><br /> Alternatively<span class="code">,</span> you can use: <span class="code">@function funcName &amp;lt;Function Name&amp;gt;</span> <strong>or</strong> <span class="code">@func</span> <span class="code">funcName &amp;lt;Function Name&amp;gt;</span>.<br /> <span class="code">funcName</span> is the name of the function (no spaces allowed). <br /> <span class="code">&amp;lt;Function Name&amp;gt;</span> is the display name of the function. <br /> </li> 
+   <li><strong>Member</strong><br /> Syntax: <span class="code">@memberof namespace</span><br /> Attaches a namespace to the function. <br /> </li> 
+   <li><strong>Parameter</strong><br /> Syntax: <span class="code">@param {type} name &amp;lt;Parameter Description&amp;gt;</span><br /> Alternatively, you can use: <span class="code">@argument</span> <span class="code">{type} name &amp;lt;Parameter Description&amp;gt;</span> <strong>or</strong> <span class="code">@arg</span> <span class="code">{type}</span> <span class="code">name &amp;lt;Parameter Description&amp;gt;</span>.<br /> Shows parameters used by the function. A function can have multiple parameter tags, one tag for each parameter in the order of occurrence. <br /> <span class="code">{type}</span> represents parameter type. Allowed parameter types are:<br /> 
+    <ol> 
+     <li>string<br /> </li> 
+     <li>number<br /> </li> 
+     <li>boolean<br /> </li> 
+    </ol> <p>All other parameter types are categorized under one of the above. None is not supported. Ensure that you select one of the types above. Types are not case sensitive. Spaces are not allowed in the parameter <span class="code">name</span>. <span class="code">&amp;lt;Parameter Descrption&amp;gt;</span> 
+     <parameter>
+       can have multiple words. 
+     </parameter></p> </li> 
+   <li><strong>Return Type</strong><br /> Syntax: <span class="code">@return {type}</span><br /> Alternatively, you can use <span class="code">@returns {type}</span>. <br /> Adds information about the function, such as its objective. <br /> {type} represents the return type of the function. Allowed return types are:<br /> 
+    <ol> 
+     <li>string<br /> </li> 
+     <li>number<br /> </li> 
+     <li>boolean<br /> </li> 
+    </ol> <p>All other return types are categorized under one of the above. None is not supported. Ensure that you select one of the types above. Return types are not case sensitive.</p> </li> 
+  </ul> 
+  <note> 
+   <p>Comments before custom function are used for summary. Summary can extend to multiple lines until a tag is encountered. Limit the size to a single for a concise description in the rule builder.</p> 
+  </note> 
+  <p><strong>Adding a custom function</strong></p> 
+  <p>For example, you want to add a custom function which calculates area of a square. Side length is the user input to the custom function, which is accepted using a numeric box in your form. The calculated output is displayed in another numeric box in your form. To add a custom function, you have to first create a client library, and then add it to the CRX repository.</p> 
+  <p>Perform the following steps to create a client library and add it in the CRX repository. </p> 
+  <ol> 
+   <li><p>Create a client library. For more information, see <a href="../../sites/developing/using/clientlibs.md">Using Client-Side Libraries</a>. </p> </li> 
+   <li><p>In CRXDE, add a property <span class="code">categories </span>with string type value as <span class="code">customfunction</span> to the <span class="code">clientlib</span> folder. </p> 
+    <note> 
+     <p><span class="code">customfunction </span>is an example category. You can choose any name for the category you create in the <span class="code">clientlib </span>folder. </p> 
+    </note></li> 
+  </ol> 
+  <p>After you have added your client library in the CRX repository, use it in your adaptive form. It lets you use your custom function as a rule in your form. Perform the following steps to add the client library in your adaptive form. </p> 
+  <ol> 
+   <li><p>Open your form in edit mode. <br /> To open a form in edit mode, select a form and tap <strong>Open</strong>.</p> </li> 
+   <li><p>In the edit mode, select a component, then tap <img src="assets/field-level.png" /> &amp;gt; <strong>Adaptive Form Container</strong>, and then tap <img src="assets/cmppr.png-" />.</p> </li> 
+   <li><p>In the sidebar, under Name of Client Library, add your client library. (<span class="code">customfunction</span> in the example.)</p> <img alt="Adding the custom function client library" imageRotate="0" src="assets/clientlib.png" title="Adding the custom function client library" /></li> 
+   <li><p>Select the input numeric box, and tap <img src="assets/edit-rules.png" /> to open the rule editor. </p> </li> 
+   <li><p>Tap <strong>Create Rule</strong>. Using options shown below, create a rule to save the squared value of the input in the Output field of your form. </p> <a href="assets/add-custom-rule-1.png"><img alt="Using custom functions to create a rule" imageRotate="0" src="assets/add-custom-rule.png" title="Using custom functions to create a rule" /></a><p>Tap <strong>Done</strong>. Your custom function is added. </p> </li> 
+  </ol> 
+  <h4>Function declaration supported types</h4> 
+  <p><strong>Function Statement</strong></p> 
+  <codeblock gutter="true" class="syntax js">
+    function&amp;nbsp;area(len)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;return&amp;nbsp;len*len;!!discoiqbr!!} 
+  </codeblock> 
+  <p>This function is included without <span class="code">jsdoc</span> comments. </p> 
+  <p><strong>Function Expression</strong></p> 
+  <codeblock gutter="true" class="syntax js">
+    var&amp;nbsp;area;!!discoiqbr!!//Some&amp;nbsp;codes&amp;nbsp;later!!discoiqbr!!/**&amp;nbsp;*/!!discoiqbr!!area&amp;nbsp;=&amp;nbsp;function(len)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;return&amp;nbsp;len*len;!!discoiqbr!!}; 
+  </codeblock> 
+  <p><strong>Function Expression and Statement</strong></p> 
+  <codeblock gutter="true" class="syntax js">
+    var&amp;nbsp;b={};!!discoiqbr!!/**&amp;nbsp;*/!!discoiqbr!!b.area&amp;nbsp;=&amp;nbsp;function(len)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;return&amp;nbsp;len*len;!!discoiqbr!!} 
+  </codeblock> 
+  <p><strong>Function Declaration as Variable</strong></p> 
+  <codeblock gutter="true" class="syntax js">
+    /**&amp;nbsp;*/!!discoiqbr!!var&amp;nbsp;x1,!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;area&amp;nbsp;=&amp;nbsp;function(len)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;return&amp;nbsp;len*len;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;},!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;x2&amp;nbsp;=5,&amp;nbsp;x3&amp;nbsp;=true; 
+  </codeblock> 
+  <p>Limitation: custom function picks only the first function declaration from the variable list, if together. You can use function expression for every function declared.</p> 
+  <p><strong>Function Declaration as Object</strong></p> 
+  <codeblock gutter="true" class="syntax js">
+    var&amp;nbsp;c&amp;nbsp;=&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;b&amp;nbsp;:&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/**&amp;nbsp;*/!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;area&amp;nbsp;:&amp;nbsp;function(len)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;return&amp;nbsp;len*len;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!}; 
+  </codeblock> 
+  <note> 
+   <p>Ensure that you use <span class="code">jsdoc</span> for every custom function. Although <span class="code">jsdoc </span>comments are encouraged, include an empty <span class="code">jsdoc </span>comment to mark your function as custom function. It enables default handling of your custom function. </p> 
+  </note> 
+  <h2>Manage rules</h2> 
+  <p>Any existing rules on a form object are listed when you tap the object and tap <img src="assets/edit-rules1.png" />. You can view the title and a preview the rule summary. Furthermore, the UI allows you to expand and view the complete rule summary, change the order of rules, edit rules, and delete rules.</p> 
+  <img imageRotate="0" src="assets/list-rules.png" /> 
+  <p>You can perform the following actions on rules:</p> 
+  <ul> 
+   <li><strong>Expand/Collapse</strong>: The Content column in the rule list displays the rule content. If the entire rule content is not visible in the default view, tap<img src="assets/expand-rule-content.png" /> to expand it.</li> 
+   <li><strong>Reorder</strong>: Any new rule you create is stacked at the bottom of the rule list. The rules are executed from top to bottom. The rule at the top executes first followed by other rules of the same type. For example, if you have When, Show, Enable, and When rules at first, second, third, and fourth positions from top, respectively, the When rule at the top gets executed first followed by the When rule at the fourth position. Then, the Show and Enable rules will be executed.<br /> You can change the order of a rule by tapping <img height="15" src="assets/sort-rules.png" /> against it or drag-drop it to the desired order in the list.</li> 
+   <li><strong>Edit</strong>: To edit a rule, select the check box next to the rule title. Additional options to edit and delete the rule appear. Tap <strong>Edit</strong> to open the selected rule in the rule editor in visual or code editor mode depending the mode used to create the rule. </li> 
+   <li><strong>Delete</strong>: To delete a rule, select the rule and tap <strong>Delete</strong>.</li> 
+   <li><strong>Enable/Disable</strong>: You may need to suspend usage of a rule temporarily. You can select one or more rules and tap Disable in the Actions toolbar to disable them. If a rule is disabled, it does not execute at the runtime. To enable a rule that is disabled, you can select it and tap Enable in the actions toolbar. The status column of the rule displays whether the rule is enabled or disabled.</li> 
+  </ul> 
+  <img imageRotate="0" src="assets/disablerule.png" /> 
+  <h2>Copy-paste rules</h2> 
+  <p>You can copy-paste a rule from one field to other similar fields to save time.</p> 
+  <p>To copy-paste rules, do the following:</p> 
+  <ol> 
+   <li><p>Tap the form object from which you want to copy a rule, and in the component toolbar tap <img src="assets/editrule.png" />. The rule editor user interface appears with the form object selected and the existing rules appear.</p> <img imageRotate="0" src="assets/copyrule.png" /><p>For information about managing existing rules, see <a href="../../forms/using/rule-editor.md#main-pars-header-15">Manage rules</a>.</p> </li> 
+   <li><p>Select the check box next to the rule title. Additional options to manage the rule appear. Tap <strong>Copy</strong>.</p><img imageRotate="0" src="assets/copyrule2.png" /></li> 
+   <li><p>Select another form object to which you want to paste the rule and tap <strong>Paste</strong>. Further, you can edit the rule to make changes in it.</p> 
+    <note> 
+     <p>You can paste a rule to another form object only if that form object supports the copied rule's event. For example, a button supports the click event. You can paste a rule with a click event to a button but not to a check box.</p> 
+    </note></li> 
+   <li><p>Tap <strong>Done</strong> to save the rule.</p> </li> 
+  </ol> 
+  <h2 id="NestedExpressions">Nested expressions</h2> 
+  <p>Rule editor allows you to use multiple AND and OR operators to create nested rules. You can mix multiple AND and OR operators in rules. </p> 
+  <p>Following is an example of a nested rule that displays a message to the user about eligibility for a child's custody when the required conditions are met.</p> 
+  <img imageRotate="0" src="assets/complexexpression.png" /> 
+  <p>You can also drag-and-drop conditions within a rule to edit it. Tap and hover over the handle (<img height="25" src="assets/handle.png" />) before a condition. Once the pointer turns into the hand symbol as shown below, drag and drop the condition anywhere within the rule. The rule structure changes.</p> 
+  <img imageRotate="0" src="assets/drag-and-drop.png" /> 
+  <h2 id="DateExpression">Date expression conditions</h2> 
+  <p>Rule editor allows you to use date comparisons to create conditions. </p> 
+  <p>Following is an example condition that displays a static text object if the mortgage on the house is already taken, which the user signifies by filling up the date field. </p> 
+  <p>When the date of mortgage of the property as filled in by the user is in the past, the adaptive form displays a note about the income calculation. The following rule compares the date filled in by the user with the current date and if the date filled in by the user is earlier than the current date, the form displays the text message (named Income).</p> 
+  <img imageRotate="0" src="assets/dateexpressioncondition.png" /> 
+  <p>When filled date is earlier than the current date, the form displays the text message (Income) as following:</p> 
+  <img imageRotate="0" src="assets/dateexpressionconditionmet.png" /> 
+  <h2>Number comparison conditions</h2> 
+  <p>Rule editor allows you to create conditions that compare two numbers. </p> 
+  <p>Following is an example condition that displays a static text object if the number of months an applicant is staying at his current address is less than 36. </p> 
+  <img imageRotate="0" src="assets/numbercomparisoncondition.png" /> 
+  <p>When the user signifies that he has been living at his present residential address for less than 36 months, the form displays a notification that additional proof of residence may be requested. </p> 
+  <img imageRotate="0" src="assets/additionalproofrequested.png" /> 
+  <h2>Impact of rule editor on existing scripts</h2> 
+  <p>In AEM Forms versions prior to AEM 6.1 Forms feature pack 1, form authors and developers used to write expressions in the Scripts tab of the Edit component dialog to add dynamic behavior to adaptive forms. The Scripts tab is now replaced by the rule editor.</p> 
+  <p>Any scripts or expressions that you must have written in the Scripts tab are available in the rule editor. While you cannot view or edit them in visual editor, if you are a part of the forms-power-users group you can edit scripts in code editor. </p> 
+  <h2 id="example">Example rules</h2> 
+  <h3 id="invoke">Invoke form data model service</h3> 
+  <p>Consider a web service <span class="code">GetInterestRates</span> that takes loan amount, tenure, and applicant's credit score as input and returns a loan plan including EMI amount and rate of interest. You create a form data model using the web service as a data source. You add data model objects and a <span class="code">get</span> service to the form model. The service appears in the Services tab of the form data model. Then, create an adaptive form that includes fields from data model objects to capture user inputs for loan amount, tenure, and credit score. Add a button that triggers the web service to fetch plan details. The output is populated in appropriate fields.</p> 
+  <p>The following rule shows how you will configure the Invoke service action to accomplish the example scenario.</p> 
+  <img captionBottom="Invoke form data model service using adaptive form rule" imageRotate="0" src="assets/example-invoke-services.png" /> 
+  <h3>Triggering multiple actions using the When rule</h3> 
+  <p>In a loan application form, you want to capture whether the loan applicant is an existing customer or not. Based on the information user provides, the customer ID field should show or hide. Also, you want to set focus on the customer ID field if the user is an existing customer. The loan application form has the following components:</p> 
+  <ul> 
+   <li>A radio button, <strong>Are you an existing Geometrixx customer?</strong>, which provides Yes and No options. The value for Yes is <strong>0</strong> and No is <strong>1</strong>.</li> 
+   <li>A text field, <strong>Geometrixx customer ID</strong>, to specify the customer ID.</li> 
+  </ul> 
+  <div>
+    When you write a When rule on the radio button to implement this behavior, the rule appears as follows in the visual rule editor. 
+  </div> 
+  <img captionBottom="Rule in the visual editor" imageRotate="0" src="assets/when-rule-example.png" /> 
+  <p>In the example rule, the statement in the When section is the condition, which when returns True, executes the actions specified in the Then section.</p> 
+  <p>The rule appears as follows in the code editor.</p> 
+  <img captionBottom="Rule in the code editor" imageRotate="0" src="assets/when-rule-example-code.png" /> 
+  <h3>Using a function output in a rule</h3> 
+  <p>In a purchase order form, you have the following table, in which users will fill in their orders. In this table:</p> 
+  <ul> 
+   <li>The first row is repeatable, so users can order multiple products and specify different quantities. Its element name is <span class="code">Row1</span>.</li> 
+   <li>The title of the cell in Product Quantity column of the repeatable row is Quantity. The element name for this cell is <span class="code">productquantity</span>.</li> 
+   <li>The second row in the table is non-repeatable and the title of the cell in Product Quantity column in this row is Total Quantity.</li> 
+  </ul> 
+  <img imageRotate="0" src="assets/example-function-table.png" /> 
+  <p><strong>A.</strong> Row1 <strong>B.</strong> Quantity <strong>C.</strong> Total Quantity</p> 
+  <p>Now, you want to add specified quantities in the Product Quantity column for all products and display the sum in the Total Quantity cell. You can achieve this by writing a Set Value Of rule on the Total Quantity cell as shown below.</p> 
+  <img captionBottom="Rule in the visual editor" imageRotate="0" src="assets/example-function-output.png" /> 
+  <p>The rule appears as follows in the code editor.</p> 
+  <img captionBottom="Rule in the code editor" imageRotate="0" src="assets/example-function-output-code.png" /> 
+  <h3>Validating a field value using expression</h3> 
+  <p>In the purchase order form explained in the previous example, you want to restrict user from ordering more than one quantity of any product that is priced more that 10000. To do this, you can write a Validate rule as shown below. </p> 
+  <img captionBottom="Rule in the visual editor" imageRotate="0" src="assets/example-validate.png" /> 
+  <p>The rule appears as follows in the code editor.</p> 
+  <img captionBottom="Rule in the code editor" imageRotate="0" src="assets/example-validate-code.png" /> 
+  <related-links> 
+   <a href="../../forms/using/invoke-form-data-model-services.md" target="_blank">API to invoke form data model service from adaptive forms</a> 
+  </related-links> 
+ </body> 
+</html>

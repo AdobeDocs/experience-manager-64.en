@@ -1,0 +1,62 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2017-12-01T19:02:50.851-0500" name="jcr:created" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="2017-10-31T16:32:03.304-0400" name="lastPublishExternalDate" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="2018-04-03T09:10:25.272-0400" name="cq:lastReplicated" /> 
+  <meta content="182" name="acrolinxWords" /> 
+  <meta content="10" name="acrolinxSentences" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2018-04-26T04:23:05.265-0400" name="cq:lastModified" /> 
+  <meta content="d7b985cd-018a-45af-b265-887131872052" name="jcr:uuid" /> 
+  <meta content="e87679a3-87f9-4598-a3ca-63c6420b3199" name="jcr:predecessors" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="Learn about the various forms services that help you create interactive data capture applications." name="seoDescription" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="Overview" name="navTitle" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="AEMForms/6.1/AdminHelp/WS3342fabedfabd324201feacc1523492d86d-8000" name="cq:gepId" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="Basics of configuring forms" name="jcr:title" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="sortDate" /> 
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/forms/using/admin-help/overview-7.html" name="publishExternalURL" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/overview_7_admin_5e12de0b318c6865_2348_report.xml" name="acrolinxReportURL" /> 
+  <meta content="2016-02-05T03:27:28.682-0500" name="lr_lastModified" /> 
+  <meta content="2016-04-20T10:07:37.321-0400" name="firstPublishExternalDate" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="2018-04-26T04:23:05.265-0400" name="locHandOffDate" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="topicBrowsingSortDate" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="admin" name="contentOwner" /> 
+  <meta content="admin" name="lr_creator" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/using/morehelp/configuring_forms;/content/help/en/experience-manager/6-4/forms/using/morehelp/configuring_forms" name="moreHelpPaths" /> 
+  <meta content="2017-10-31T16:32:03.304-0400" name="publishExternalDate" /> 
+  <meta content="admin" name="lr_lastModifiedBy" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="2016-05-31T07:02:22.872-0400" name="acrolinxDate" /> 
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/configuring_forms;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="en_us" name="jcr:language" /> 
+ </head> 
+ <body> 
+  <p>The Forms service enables you to create interactive data capture client applications that validate, process, transform, and deliver forms typically created in Designer. Form authors develop a single form design that the Forms service renders in various formats:</p> 
+  <ul> 
+   <li><p>as PDF in Adobe Reader or in a browser</p></li> 
+   <li><p>as HTML in various browser environments including a compliant XHTML 1.0 rendering</p></li> 
+   <li><p>as form Guides in various browser environments that support Adobe Flash Player.</p></li> 
+  </ul> 
+  <p>For additional information about the Forms service, see <a href="http://www.adobe.com/go/learn_aemforms_services_63">Services Reference</a>.</p> 
+  <p>Using the Forms page in administration console, you can configure the behavior of the Forms service. These settings apply to all invocations of the service. Any parameters sent through the AEM forms SDK override the settings set in administration console; however, they affect only that particular invocation.</p> 
+  <p>After you change the Forms settings in administration console, click Save. You do not need to restart the server for the changes to take effect. However, you may need to stop and restart the Forms service when configuring cache mode settings. (See <a href="../../../forms/using/admin-help/starting-stopping-services.md#starting-and-stopping-services">Starting and stopping services</a>.)</p> 
+ </body> 
+</html>

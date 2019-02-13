@@ -1,0 +1,665 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="How to Work With Packages" name="navTitle" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="audience:administering" name="primaryAudienceTag" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/administering/morehelp/content;/content/help/en/experience-manager/6-4/sites/administering/morehelp/content" name="moreHelpPaths" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="Chiradeep Majumdar" name="contentOwner" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2017-12-15T19:05:16.581-0500" name="jcr:created" /> 
+  <meta content="2cab2ff5-7620-437e-a86c-ae839e0ae060" name="jcr:predecessors" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2018-07-12T09:35:21.927-0400" name="cq:lastReplicated" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/package-manager.html" name="publishExternalURL" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:content;content_type:reference" name="cq:tags" /> 
+  <meta content="/content/docs/en/aem/6-3/administer/content/package-manager" name="qaNotes" /> 
+  <meta content="2018-07-12T09:35:21.848-0400" name="cq:lastModified" /> 
+  <meta content="How to Work With Packages" name="seoTitle" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="How to Work With Packages" name="jcr:title" /> 
+  <meta content="6f6491d5-a8ab-4326-99f2-49be3aefcd22" name="jcr:uuid" /> 
+  <meta content="2018-07-12T09:35:21.838-0400" name="publishExternalDate" /> 
+  <meta content="2017-10-31T16:24:30.473-0400" name="firstPublishExternalDate" /> 
+  <meta content="Learn the basics of working with packages in AEM." name="seoDescription" /> 
+  <meta content="2018-07-12T09:35:21.838-0400" name="topicBrowsingSortDate" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2018-07-12T09:35:21.838-0400" name="lastPublishExternalDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2018-04-26T10:12:29.363-0400" name="locHandOffDate" /> 
+ </head> 
+ <body> 
+  <p>Packages enable the importing and exporting of repository content. For example, you can use packages to install new functionality, transfer content between instances, and back up repository content.<br /> </p> 
+  <p>Packages can be accessed and/or maintained from the following pages:<br /> </p> 
+  <ul> 
+   <li><a href="#packagemanager">Package Manager</a>, which you use to manage the packages in your local AEM instance.<br /> </li> 
+   <li><a href="#packageshare">Package Share</a>, a centralized server holding both publicly available packages and those private to your company. The public packages can contain hotfixes, new functionality, documentation, etc.</li> 
+  </ul> 
+  <p>You can transfer packages between Package Manager, Package Share, and your file system.</p> 
+  <h2>What are Packages?</h2> 
+  <p>A package is a zip file holding repository content in the form of a file-system serialization (called "vault" serialization). This provides an easy-to-use-and-edit representation of files and folders. <br /> </p> 
+  <p>Packages include content, both page-content and project-related content, selected using filters.<br /> </p> 
+  <p>A package also contains vault meta information, including the filter definitions and import configuration information. Additional content properties (that are not used for package extraction) can be included in the package, such as a description, a visual image, or an icon; these properties are for the content package consumer and for informational purposes only.</p> 
+  <note> 
+   <p>Packages represent the current version of the content at the time the package is built. They do not include any previous versions of the content that AEM keeps in the repository.</p> 
+  </note> 
+  <p>You can perform the following actions on or with packages:</p> 
+  <ul> 
+   <li>Create new packages; defining package settings and filters as required<br /> </li> 
+   <li>Preview package contents (before build)<br /> </li> 
+   <li>Build packages<br /> </li> 
+   <li>View package information<br /> </li> 
+   <li>View package contents (after build)<br /> </li> 
+   <li>Modify the definition for existing packages</li> 
+   <li>Rebuild existing packages</li> 
+   <li>Rewrap packages</li> 
+   <li>Download packages from AEM to your file system<br /> </li> 
+   <li>Upload packages from your file system into your local AEM instance<br /> </li> 
+   <li>Validate package content before installation</li> 
+   <li>Perform a dry run installation <br /> </li> 
+   <li>Install packages (AEM does not automatically install packages after uploading)<br /> </li> 
+   <li>Delete packages</li> 
+   <li>Download packages, such as hotfixes, from the Package Share library</li> 
+   <li>Upload packages to the company-internal section of the Package Share library</li> 
+  </ul> 
+  <h2>Package Information</h2> 
+  <p>A package definition is made up of various types of information:</p> 
+  <ul> 
+   <li><a href="#packagesettings">Package Settings</a></li> 
+   <li><a href="#packagefilters">Package Filters</a></li> 
+   <li><a href="#packagescreenshots">Package Screenshots</a></li> 
+   <li><a href="#packageicons">Package Icons</a> </li> 
+  </ul> 
+  <h3>Package Settings</h3> 
+  <p>You can edit a variety of Package Settings to define aspects such as the package description, related bugs, dependencies and provider information.<br /> </p> 
+  <p>The <strong>Package Settings</strong> dialog is available via the <strong>Edit</strong> button when <a href="#creatinganewpackage">creating</a> or <a href="#viewingandeditingpackageinformation">editing</a> a package and provides three tabs for configuration. After any changes are made click <strong>OK</strong> to save these.<br /> </p> 
+  <img imageRotate="0" src="assets/packagesedit.png" /> 
+  <table border="1" cellpadding="1" cellspacing="0" width="600"> 
+   <tbody> 
+    <tr> 
+     <td><strong>Field</strong></td> 
+     <td><strong>Description</strong></td> 
+    </tr> 
+    <tr> 
+     <td>Name</td> 
+     <td>The name of the package.</td> 
+    </tr> 
+    <tr> 
+     <td>Group</td> 
+     <td>The name of the group to add the package to, for organizing packages. Type the name of a new group, or select an existing group.</td> 
+    </tr> 
+    <tr> 
+     <td>Version</td> 
+     <td>Text to use for the custom version.</td> 
+    </tr> 
+    <tr> 
+     <td>Description</td> 
+     <td>A brief description of the package. HTML markup can be used for formatting.</td> 
+    </tr> 
+    <tr> 
+     <td>Thumbnail</td> 
+     <td>The icon that appears with the package listing. Click Browse to select a local file.</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <img imageRotate="0" src="assets/chlimage_1-412.png" />  
+  <table> 
+   <tbody> 
+    <tr> 
+     <th><strong>Field</strong></th> 
+     <th><strong>Description</strong></th> 
+     <th><strong>Format/Example</strong></th> 
+    </tr> 
+    <tr> 
+     <td>Name</td> 
+     <td>The name of the provider.</td> 
+     <td><em>AEM Geometrixx<br /> </em></td> 
+    </tr> 
+    <tr> 
+     <td>URL</td> 
+     <td>URL of the provider.</td> 
+     <td><em>http://www.aem-geometrixx.com</em></td> 
+    </tr> 
+    <tr> 
+     <td>Link</td> 
+     <td>Package-specific link to a provider page.</td> 
+     <td><em>http://www.aem-geometrixx.com/mypackage.html</em></td> 
+    </tr> 
+    <tr> 
+     <td>Requires<br /> </td> 
+     <td> 
+      <ul> 
+       <li>Admin: Select when the package can only be installed by an account with admin privileges.</li> 
+       <li>Restart: Select when the server needs to be restarted after the package is installed.</li> 
+      </ul> </td> 
+     <td> </td> 
+    </tr> 
+    <tr> 
+     <td>AC Handling</td> 
+     <td><p>Specify how the access control information defined in the package is handled when the package is imported:</p> 
+      <ul> 
+       <li><strong>Ignore</strong></li> 
+       <li><strong>Overwrite</strong></li> 
+       <li><strong>Merge</strong></li> 
+       <li><strong>Clear</strong></li> 
+       <li><strong>MergePreserve</strong></li> 
+      </ul> <p>The default value is <strong>Ignore</strong>.</p> </td> 
+     <td> 
+      <ul> 
+       <li><strong>Ignore</strong> - preserve ACLs in the repository</li> 
+       <li><strong>Overwrite</strong> - overwrite ACLs in the repository</li> 
+       <li><strong>Merge</strong> - merge both sets of ACLs</li> 
+       <li><strong>Clear</strong> - clear ACLs</li> 
+       <li><strong>MergePreserve</strong> - merge access control in the content with the one provided with the package by adding the access control entries of principals not present in the content</li> 
+      </ul> </td> 
+    </tr> 
+   </tbody> 
+  </table>  
+  <img imageRotate="0" src="assets/packagesdependencies.png" /> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <th><strong>Field</strong></th> 
+     <th><strong>Description</strong></th> 
+     <th><strong>Format/Example</strong></th> 
+    </tr> 
+    <tr> 
+     <td>Tested With</td> 
+     <td>The product name and version this package is targeted to or is compatible with.</td> 
+     <td><i>AEM6</i></td> 
+    </tr> 
+    <tr> 
+     <td>Fixed Bugs/Issues</td> 
+     <td>A text field allowing you to list details of bugs fixed with this package. Please list each bug on a separate line.</td> 
+     <td>bug-nr summary</td> 
+    </tr> 
+    <tr> 
+     <td>Depends on</td> 
+     <td>Lists dependency information that needs to be respected whenever other packages are necessary to let the current package run as expected. This field is important when using hotfixes.</td> 
+     <td>groupId:name:version</td> 
+    </tr> 
+    <tr> 
+     <td>Replaces</td> 
+     <td>A list of deprecated packages that this package replaces. Before installing, check that this package includes all necessary content from the obsolete packages so no content is overwritten.</td> 
+     <td>groupId:name:version</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h3>Package Filters</h3> 
+  <p>Filters identify the repository nodes to include in the package. A <strong>Filter Definition</strong> specifies the following information:</p> 
+  <ul> 
+   <li>The <strong>Root Path</strong> of the content to include.</li> 
+   <li><strong>Rules</strong> that include or exclude specific nodes below the root path.</li> 
+  </ul> 
+  <p>Filters can include zero or more rules. When no rules are defined, the package contains all content below the root path.</p> 
+  <p>You can define one or more filter definitions for a package. Use more than one filter to include content from multiple root paths.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-413.png" /> 
+  <p>The following table describes these rules and provides examples:</p> 
+  <table border="1" cellpadding="1" cellspacing="0" columns="3" header="none" width="400"> 
+   <tbody> 
+    <tr> 
+     <th> Rule type</th> 
+     <th>Description </th> 
+     <th>Example </th> 
+    </tr> 
+    <tr> 
+     <td> include</td> 
+     <td>You can define a path, or use a regular expression to specify all the nodes that you want to include.<br /> <br /> Including a directory will: 
+      <ul> 
+       <li>include that directory <i>and</i> all the files and folders in that directory (i.e. the entire subtree)</li> 
+       <li><strong>not</strong> include other files or folders from under the specified root path</li> 
+      </ul> </td> 
+     <td>/libs/sling/install(/.*)? </td> 
+    </tr> 
+    <tr> 
+     <td> exclude</td> 
+     <td>You can specify a path or use a regular expression to specify all the nodes that you want to exclude.<br /> <br /> Excluding a directory will exclude that directory <i>and</i> all files and folders in that directory (i.e. the entire subtree).<br /> </td> 
+     <td>/libs/wcm/foundation/components(/.*)?</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <note> 
+   <p>One package can contain multiple filter definitions, so that nodes from different locations can easily be combined into one package.</p> 
+  </note> 
+  <p>Package filters are most often defined when you first <a href="#creatingnewpackages">create the package</a>, but they can be edited at a later time as well (after which the package should be rebuilt).<br /> </p> 
+  <h3>Package Screenshots</h3> 
+  <p>You can attach screenshots to your package to provide a visual representation of what the content looks like; for example, by providing screenshots of new functionality.</p> 
+  <h3>Package Icons</h3> 
+  <p>You can also attach an icon to your package to provide a quick-reference visual representation of what the package contains. This is then shown in the package list and can help you easily identify the package, or the class of package.<br /> </p> 
+  <p>As a package can contain an icon, the following conventions are used for official packages:</p> 
+  <note> 
+   <p>To avoid confusion, use a descriptive icon for your package and do not use one of the official icons.</p> 
+  </note> 
+  <p>Official Hotfix package:</p> 
+  <img imageRotate="0" src="assets/chlimage_1-414.png" /> 
+  <p>Official AEM Installation or Extension package:</p>  
+  <p>Official Feature packs:</p> 
+  <img imageRotate="0" src="assets/chlimage_1-415.png" /> 
+  <h2>Package Manager</h2> 
+  <p>The Package Manager manages the packages on your local AEM installation. After you have <a href="#providingpermissionstothepackagemanager">assigned the necessary permissions</a> you can use the Package Manager for various actions, including configuring, building, downloading and installing your packages. The key elements to be configured are:</p> 
+  <ul> 
+   <li><a href="#packagesettings">Package Settings</a></li> 
+   <li><a href="#packagefilters">Package Filters</a></li> 
+  </ul> 
+  <h3>Permissions needed for using the Package Manager</h3> 
+  <p>To grant users the right to create, modify, upload, and install packages, you must give them the appropriate permissions at the following locations:</p> 
+  <ul> 
+   <li><strong>/etc/packages</strong> (full rights excluding delete)</li> 
+   <li>the node that contains the package contents<br /> </li> 
+  </ul> 
+  <p>See <a href="../../../sites/administering/using/security.md#settingpagepermissions">Setting permissions</a> for instructions on changing permissions.</p>   
+  <h3>Creating a New Package</h3> 
+  <p>To create a new package definition:<br /> </p> 
+  <ol> 
+   <li><p>On the AEM Welcome screen, click <strong>Packages</strong> (or from the <strong>Tools</strong> console double-click on <strong>Packages</strong>).<br /> </p> </li> 
+   <li><p>Then select <strong>Package Manager</strong>.</p> </li> 
+   <li><p>Click <strong>Create Package</strong>.<br /> </p> 
+    <note> 
+     <p>If your instance has a lot of packages there might be a folder structure in place, so you can navigate to the required target folder before creating the new package.</p> 
+    </note></li> 
+   <li><p>In the dialog:<br /> </p> <img imageRotate="0" src="assets/packagesnew.png" /><p>Enter the:</p> 
+    <ul> 
+     <li><strong>Group Name</strong><br /> The target group (or folder) name. Groups are intended to be used to help you organize your packages.<br /> A folder will be created for the group if it does not already exist. If you leave the group name blank, it will create the package in the main package list (Home &amp;gt; Packages).<br /> </li> 
+     <li><strong>Package Name</strong><br /> The name of your new package. Select a descriptive name to help you (and others) easily identify the contents of the package.<br /> </li> 
+     <li><strong>Version</strong><br /> A textual field for you to indicate a version. This will be appended to the package name to form the name of the zip file.<br /> </li> 
+    </ul> <p>Click <strong>OK</strong> to create the package.</p> </li> 
+   <li><p>AEM lists the new package in the appropriate group folder.<br /> </p> <img imageRotate="0" src="assets/packagesitem.png" /><p>Click on the icon or package name to open.</p> <img imageRotate="0" src="assets/packagesitemclicked.png" /> 
+    <note> 
+     <p>You can return to this page at a later stage if required.<br /> </p> 
+    </note></li> 
+   <li><p>Click <strong>Edit</strong> to edit the <a href="#packagesettings">package settings</a>.</p> <p>Here, you can add information and/or define certain settings; for example these include a description, the <a href="#packageicons">icon</a>, related bugs and add provider details.</p> <p>Click <strong>OK</strong> after you are finished editing the settings.</p> </li> 
+   <li><p>Add <strong><a href="#packagescreenshots">Screenshots</a></strong> to the package as required. One instance is available when the package is created, add more if required by using <strong>Package Screenshot</strong> from sidekick.</p> <p>Add the actual image by double-clicking the image component in the <strong>Screenshots</strong> area, adding an image, and clicking <strong>OK</strong>.<br /> </p> </li> 
+   <li><p>Define the <strong><a href="#packagefilters">Package Filters</a></strong> by dragging instances of the <strong>Filter Definition</strong> from the sidekick, then double-clicking to open for editing:<br /> </p> <img imageRotate="0" src="assets/packagesfilter.png" /><p>Specify:</p> 
+    <ul> 
+     <li><strong>Root Path</strong><br /> The content to be packaged; this can be the root of a subtree.<br /> </li> 
+     <li><strong>Rules</strong><br /> Rules are optional; for simple package definitions, it is not necessary to specify include or exclude rules.<br /> If needed, you can define either <a href="#packagefilters"><strong>Include</strong> or <strong>Exclude</strong> rules</a> to exactly define the package contents. <br /> Add rules using the <strong>+</strong> symbol, alternatively remove rules using the <strong>-</strong> symbol. Rules are applied according to their order so position them as required using the <strong>Up</strong> and <strong>Down</strong> buttons.<br /> </li> 
+    </ul> <p>Then click <strong>OK</strong> to save the filter.</p> 
+    <note> 
+     <p>You can use as many filter definitions as you need, though care must be taken to ensure they do not conflict. Use <strong>Preview</strong> to confirm what the package contents will be.<br /> </p> 
+    </note></li> 
+   <li><p>To confirm what the package will hold you can use <strong>Preview</strong>. This performs a dry run of the build process and lists everything that will be added to the package when it is actually built.</p> </li> 
+   <li><p>You can now <a href="#buildingapackage">Build</a> your package.<br /> </p> 
+    <note> 
+     <p>It is not compulsory to build the package at this point, it can be done at a later point in time.<br /> </p> 
+    </note></li> 
+  </ol> 
+  <h3>Building a Package</h3> 
+  <p>A package is often built at the same time as you <a href="#creatinganewpackage">create the package definition</a>, but you can return at a later point in time to either build, or rebuild the package. This can be useful if the content within the repository has changed.<br /> </p> 
+  <note> 
+   <p>Before building the package it can be useful to preview the contents of the package. To do this click <strong>Preview</strong>. </p> 
+  </note> 
+  <ol> 
+   <li><p>Open the package definition from <strong>Package Manager</strong> (click on the package icon or name).<br /> </p> </li> 
+   <li><p>Click <strong>Build</strong>. A dialog asks for confirmation that you do want to build the package.<br /> </p> 
+    <note> 
+     <p>This is of particular significance when you are rebuilding a package as the package contents will be overwritten.<br /> </p> 
+    </note></li> 
+   <li><p>Click <strong>OK</strong>. AEM will build the package, listing all content added to the package as it does so. When complete AEM displays a confirmation that the package was built and (when you close the dialog) updates the package list information.<br /> </p> </li> 
+  </ol> 
+  <h3>Rewrapping a Package</h3> 
+  <p>Once a package has been built it can be rewrapped, if required.</p> 
+  <p>Rewrapping changes the package information - <i>without</i> changing the package content. Package information is the thumbnail, description, etc., in other words everything you can edit with the <strong>Package Settings</strong> dialog (to open this click <strong>Edit</strong>).<br /> <br /> A major use case for rewrap is when preparing a package for the package share. For example, you might have an existing package and decide to share it with others. For that you want to add a thumbnail and add a description. Instead of recreating the entire package with all its functionality (which might take some time and bears the risk that the package is no longer identical to the original) you can rewrap it and just add the thumbnail and description.</p> 
+  <ol> 
+   <li><p>Open the package definition from <strong>Package Manager</strong> (click on the package icon or name).<br /> </p> </li> 
+   <li><p>Click <strong>Edit</strong> and update the <strong><a href="#packagesettings">Package Settings</a></strong> as required. Click <strong>OK</strong> to save.<br /> </p> </li> 
+   <li><p>Click <strong>Rewrap</strong>, a dialog will ask for confirmation.<br /> </p> </li> 
+  </ol> 
+  <h3>Viewing and Editing Package Information</h3> 
+  <p>To view, or edit, information about a package definition:</p> 
+  <ol> 
+   <li><p>In the Package Manager navigate to the package you want to view.</p> </li> 
+   <li><p>Click the package icon of the package you want to view. This will open the package page listing information about the package definition:<br /> </p> <img imageRotate="0" src="assets/packagesitemclicked-1.png" /> 
+    <note> 
+     <p>You can also edit and perform certain actions on the package from this page.</p> 
+     <p>The buttons available will depend on whether the package has already been built or not.<br /> </p> 
+    </note></li> 
+   <li><p>If the package has already been built click <strong>Contents</strong>, a window will open and list the entire contents of the package:<br /> </p> </li> 
+  </ol> 
+  <h3>Viewing Package Contents and Testing Installation</h3> 
+  <p>After a package has been built you can view the contents:</p> 
+  <ol> 
+   <li><p>In the Package Manager navigate to the package you want to view.</p> </li> 
+   <li><p>Click the package icon of the package you want to view. This will open the package page listing information about the package definition.<br /> </p> </li> 
+   <li><p>To view the contents click <strong>Contents</strong>, a window will open and list the entire contents of the package:<br /> </p> <img imageRotate="0" src="assets/packgescontents.png" /></li> 
+   <li><p>To perform a dry run of the installation click <strong>Test Installation</strong>. After you confirm the action, a window will open and list the results as if installation was performed:<br /> </p> <img imageRotate="0" src="assets/packagestestinstall.png" /></li> 
+  </ol> 
+  <h3>Downloading Packages to Your File System</h3> 
+  <p>This section describes how to download a package from AEM to your file system by using <strong>Package Manager</strong>.</p> 
+  <note> 
+   <p>See <a href="#packageshare">Package Share</a> for information on downloading hotfixes, feature packs, and packages from the public area and your company's internal area of package share.</p> 
+   <p>From Package Share you can:</p> 
+   <ul> 
+    <li>download packages from <a href="#downloadingandinstallingpackagesfrompackageshare">Package Share directly into your local AEM instance</a>.<br /> Upon download the package is imported into your repository, after which you can immediately install it on your local instance using the <strong>Package Manager</strong>. These packages include hotfixes and other shared packages.</li> 
+    <li>download packages from <a href="#downloadingpackagestoyourfilesystemfrompackageshare">Package Share to your file system</a>.</li> 
+   </ul> 
+  </note> 
+  <ol> 
+   <li><p>On the AEM Welcome screen, click <strong>Packages</strong>, then select <strong>Package Manager</strong>.</p> </li> 
+   <li><p>Navigate to the package you want to download.</p> <img imageRotate="0" src="assets/packagesdownload.png" /></li> 
+   <li><p>Click the link formed by the name of the zip file (underlined) for the package you want to download; for example <span class="code">export-for-offline.zip</span>.<br /> </p> <p>AEM downloads the package to your computer (using a standard browser download dialog).</p> </li> 
+  </ol> 
+  <h3>Uploading Packages from Your File System</h3> 
+  <p>A package upload allows you to upload a package from your file system into the AEM Package Manager.</p> 
+  <note> 
+   <p>See <a href="#uploadingpackagestothecompanyinternalpackageshare">Uploading packages to the company-internal Package Share</a> to upload a package to your company's private area of Package Share.<br /> </p> 
+  </note> 
+  <p>To upload a package:</p> 
+  <ol> 
+   <li><p>Navigate to the <strong>Package Manager</strong>. Then to the group folder into which you want the package to uploaded.<br /> </p> <img imageRotate="0" src="assets/packagesuploadbutton.png" /></li> 
+   <li><p>Click <strong>Upload Package</strong>. </p> <img imageRotate="0" src="assets/packagesuploaddialog.png" /> 
+    <ul> 
+     <li><strong>File</strong><br /> You can either type the file name directly, or use the <strong>Browse...</strong> dialog to select the required package from your local file system (after selection click <strong>OK</strong>).<br /> </li> 
+     <li><strong>Force Upload</strong><br /> If a package with this name already exists you can click this to force upload (and overwrite the existing package).</li> 
+    </ul> <p>Click <strong>OK</strong> so that the new package is uploaded and listed in the Package Manager list.</p> 
+    <note> 
+     <p>To make the content available to AEM, be sure to <a href="#installingpackages">install the package</a>.</p> 
+    </note></li> 
+  </ol> 
+  <h3>Validating Packages</h3> 
+  <p>Before installing a package, you may wish to verify its content. Because packages can modify overlaid files under <span class="code">/apps</span> and/or add, modify, and remove ACLs, it is often useful to validate these changes before installing.</p> 
+  <h4>Validation Options</h4> 
+  <p>The validation mechanism can check the following characteristics of the package:</p> 
+  <ul> 
+   <li>OSGi Package Imports</li> 
+   <li>Overlays</li> 
+   <li>ACLs</li> 
+  </ul> 
+  <p>These options are detailed below.<br /> </p> 
+  <ul> 
+   <li>  <p>This validation inspects the package for all JAR files (OSGi bundles), extracts their <span class="code">manifest.xml</span> (which contains the versioned dependencies on which said OSGi bundle relies) and verifies the AEM instance exports said dependencies with the correct versions.</p>  <p>Any versioned dependencies that cannot be satisfied by the AEM instance are listed in the <strong>Activity Log</strong> of the Package Manager.</p>  <p>If dependencies are unsatisfied, then the OSGi bundles in the package with those dependencies will not start. This results in a broken application deployment as anything relying on the un-started OSGi bundle will in turn not function properly.</p>  <p>To resolve errors due to unsatisfied OSGi bundles, the dependency version in the bundle with unsatisfied imports needs to be adjusted.</p> </li> 
+   <li>  <p>This validation determines if the package being installed contains a file that is already overlaid in the destination AEM instance.</p> <p>For example, given an existing overlay at <span class="code">/apps/sling/servlet/errorhandler/404.jsp</span>, a package that contains <span class="code">/libs/sling/servlet/errorhandler/404.jsp</span>, such that it will change the existing file at <span class="code">/libs/sling/servlet/errorhandler/404.jsp</span>.</p>  <p>Any such overlays are described in the <strong>Activity Log</strong> of the Package Manager.</p>  <p>An error state means that the package is attempting to deploy a file that is already overlaid, thus the changes in the package will be overridden (and thus "hidden") by the overlay and not take effect.</p>  <p>To resolve this issue, the maintainer of the of the overlay file in <span class="code">/apps</span> must review the changes to the overlaid file in <span class="code">/libs</span> and incorporate the changes as needed into the overlay (<span class="code">/apps</span>), and redeploy the overlaid file.</p> 
+    <note> 
+     <p>Note that the validation mechanism has no way to reconcile if the overlaid content has been properly incorporated into the overlay file. Therefore this validation will continue to report over conflicts even after the necessary changes have been made.</p> 
+    </note></li> 
+   <li>  <p>This validation checks which permissions are being added, how they will be handled (merge/replace), and if the current permissions will be impacted.</p>  <p>The permissions are described in the <strong>Activity Log</strong> of the Package Manager.</p>  <p>No explicit errors can be provided. The validation simply indicates whether any new ACL permissions will be added or impacted by installing the package. </p>  <p>Using the information provided by the validation, the impacted nodes can be reviewed in CRXDE and the ACLs can be adjusting in the package as needed.</p> 
+    <note> 
+     <p>As best practice it is recommended that packages should not affect AEM-provided ACLs as this may result in unexpected product behavior.</p> 
+    </note></li> 
+  </ul> 
+  <h4>Performing Validation</h4> 
+  <p>Validation of packages can be done in two different ways:</p> 
+  <ul> 
+   <li>Via the Package Manager UI</li> 
+   <li>Via HTTP POST request such as with cURL<br /> </li> 
+  </ul> 
+  <note> 
+   <p>Validation should always occur after uploading the package but before installing it.</p> 
+  </note> 
+  <p><strong>Package Validation Via the Package Manager</strong><br /> </p> 
+  <ol> 
+   <li><p>Open the Package Manager at <span class="code">http://&amp;lt;server&amp;gt;:&amp;lt;port&amp;gt;/crx/packmgr</span></p> </li> 
+   <li><p>Select the package in the list and then select <strong>More</strong> dropdown from the heading and then <strong>Validate</strong> from the drop-down menu.<br /> </p> 
+    <note> 
+     <p>This should be done after uploading the content package, but before installing the package.</p> 
+    </note></li> 
+   <li><p>In the modal dialog box that then appears, use the checkboxes to select the type(s) of validation and begin the validation by clicking <strong>Validate</strong>. Alternatively click <strong>Cancel</strong>.<br /> </p> </li> 
+   <li><p>The chosen validation(s) is/are then run. Results are displayed in the activity log of the Package Manager.<br /> </p> </li> 
+  </ol> 
+  <p><strong>Package Validation Via HTTP POST Request<br /> </strong></p> 
+  <p>The POST request takes the following form.<br /> </p> 
+  <codeblock class="syntax plain">
+    http://&lt;host&gt;:&lt;port&gt;/crx/packmgr/service.jsp?cmd=validate&amp;type=osgiPackageImports,overlays,acls 
+  </codeblock> 
+  <note> 
+   <p>The <span class="code">type</span> parameter can be any comma separated unordered list consisting of:</p> 
+   <ul> 
+    <li> <span class="code">osgiPackageImports</span></li> 
+    <li><span class="code">overlays</span></li> 
+    <li><span class="code">acls</span></li> 
+   </ul> 
+   <p>The value of <span class="code">type</span> defaults to <span class="code">osgiPackageImports</span> if not passed.</p> 
+  </note> 
+  <p>The following is an example of using cURL to execute a package validation.<br /> </p> 
+  <ol> 
+   <li><p>If using cURL execute a statement similar to the following:<br /> </p> 
+    <codeblock class="syntax shell">
+      curl&amp;nbsp;-v&amp;nbsp;-X&amp;nbsp;POST&amp;nbsp;--user&amp;nbsp;admin:admin&amp;nbsp;-F&amp;nbsp;file=@/Users/SomeGuy/Desktop/core.wcm.components.all-1.1.0.zip&amp;nbsp;'http://localhost:4502/crx/packmgr/service.jsp?cmd=validate&amp;type=osgiPackageImports,overlays,acls' 
+    </codeblock></li> 
+   <li><p>The requested validation is run and the response is sent back as a JSON object.<br /> </p> </li> 
+  </ol> 
+  <note> 
+   <p>The response to a validation HTTP POST request will be a JSON object with the results of the validation.</p> 
+  </note> 
+  <h3>Installing Packages</h3> 
+  <p>After you upload a package, you need to install the content. To have the package content installed and functional, it needs to be both:</p> 
+  <ul> 
+   <li>loaded into AEM (either <a href="#uploadingpackagesfromyourfilesystem">uploaded from your filesystem</a> or <a href="#downloadingandinstallingpackagesfrompackageshare">downloaded from package share</a>)<br /> </li> 
+   <li>installed</li> 
+  </ul> 
+  <note> 
+   <p>Installing a package can overwrite or delete existing content. Only upload a package if you are sure that it does not delete or overwrite content that you need.</p> 
+   <p>To see the contents, or impact, of a package you can:</p> 
+   <ul> 
+    <li>Perform a test installation of the package without modifying any of the contents:<br /> Open the package (click on the package icon or name) and click <strong>Test Install</strong>.<br /> </li> 
+    <li>See a list of package contents:<br /> Open the package and click <strong>Contents</strong>.</li> 
+   </ul> 
+  </note> 
+  <note> 
+   <p>Immediately prior to installation of your package, a snapshot package is created to contain the content that will be overwritten.</p> 
+   <p>This snapshot will be re-installed if/when you uninstall your package.</p> 
+  </note> 
+  <note> 
+   <p>If you are installing digital assets, you must:</p> 
+   <ul> 
+    <li>First, deactivate the WorkflowLauncher.<br /> Use the Components menu option of the OSGi console to deactivate <span class="code">com.day.cq.workflow.launcher.impl.WorkflowLauncherImpl</span>.</li> 
+    <li>Next, when installation is complete, reactivate the WorkflowLauncher.</li> 
+   </ul> 
+   <p>Deactivating the WorkflowLauncher ensures that the Assets importer framework does not (unintentionally) manipulate the assets upon installation.</p> 
+  </note> 
+  <ol> 
+   <li><p>In the Package Manager navigate to the package you want to install.</p> <p>An <strong>Install</strong> button is shown at the side of Packages that have not yet been installed.</p> 
+    <note> 
+     <p>Alternatively, you can open the package by clicking on its icon to access the <strong>Install</strong> button there.</p> 
+    </note></li> 
+   <li><p>Click <strong>Install</strong> to start the installation. A dialog will request confirmation and list all changes being made. When finished click <strong>Close</strong> on the dialog.<br /> </p> <p> The word <strong>Installed</strong> appears next to the package after it has been installed.</p> </li> 
+  </ol>  
+  <h3>File System Based Upload and Installation</h3> 
+  <p>There is an alternative way to upload and install packages to your instance. In your file system, you have a <span class="code">crx-quicksart</span> folder alongside with your jar and <span class="code">license.properties</span> file. You need to create a folder named <span class="code">install</span> under <span class="code">crx-quickstart</span>. You will then have something like this: <span class="code">&amp;lt;aem_home&amp;gt;/crx-quickstart/install</span></p> 
+  <p>In this install, folder, you can add directly your packages. They will automatically be uploaded and installed on your instance. When it's done, you can see the packages in the Package Manager. </p> 
+  <p>If your instance is running, adding a package to the <span class="code">install</span> folder will launch directly the upload and the installation on the instance. If your instance is not running, the packages you put in the <span class="code">install</span> folder will be installed at startup in the alphabetical order.</p> 
+  <note> 
+   <p>You can also do this before even starting the instance for the first time. To do that, you need to create the <span class="code">crx-quickstart</span> folder manually, create the <span class="code">install</span> folder under it and put your pacakges there. Then when you launch your instance for the first time, the packages will be installed in the alphabetical order.</p> 
+  </note> 
+  <h3>Uninstalling Packages</h3> 
+  <p>AEM lets you uninstall packages. This action reverts the contents of the repository that are impacted to the snapshot made immediately prior to the package installation.</p> 
+  <note> 
+   <p>Upon installation, a snapshot package is created containing the content that will be overwritten.</p> 
+   <p>This package will be re-installed when you uninstall the package.</p> 
+  </note>  
+  <ol> 
+   <li><p>In the Package Manager navigate to the package you want to uninstall.</p> </li> 
+   <li><p>Click the package icon of the package you want to uninstall.</p> </li> 
+   <li><p>Click <strong>Uninstall</strong> to remove the contents of this package from the repository. A dialog will request confirmation and list all changes being made. When finished click <strong>Close</strong> on the dialog.<br /> </p> </li> 
+  </ol> 
+  <h3>Deleting packages</h3> 
+  <p>To delete a package from the Package Manager list(s):</p> 
+  <note> 
+   <p>The installed files/nodes from the package are <strong>not</strong> deleted.<br /> </p> 
+  </note> 
+  <ol> 
+   <li><p>In the <strong>Tools</strong> console, expand the <strong>Packages</strong> folder to show your package in the right-hand pane.<br /> </p> </li> 
+   <li><p>Click the package you want to delete so that it is highlighted and then either:</p> 
+    <ul> 
+     <li>Click <strong>Delete </strong>in the toolbar menu.</li> 
+     <li>Right-click and select <strong>Delete</strong>.</li> 
+    </ul> <img imageRotate="0" src="assets/packagesdelete.png" /></li> 
+   <li><p>AEM asks for confirmation that you want to delete the package. Click <strong>OK</strong> to confirm the deletion.</p> </li> 
+  </ol> 
+  <note> 
+   <p>If this package has already been installed, then the <i>installed</i> content will <strong>not</strong> be deleted.<br /> </p> 
+  </note> 
+  <h3>Replicating Packages</h3> 
+  <p>Replicate the contents of a package to install it to the publish instance:</p> 
+  <ol> 
+   <li><p>In the <strong>Package Manager</strong>, navigate to the package that you want to replicate.<br /> </p> </li> 
+   <li><p>Click the icon or the name of the package you want to replicate to expand it.</p> </li> 
+   <li><p>In the <strong>More</strong> drop-down menu on the toolbar, select <strong>Replicate</strong>.</p> </li> 
+  </ol> 
+  <h2>Package Share</h2> 
+  <p>The Package Share is a centralized server made publicly available to share Content-Packages.</p> 
+  <p>With Package Share, you can download these packages, which can include official hotfixes, feature sets, updates or sample content generated by other users.</p> 
+  <p>You can also upload and share packages within your company.</p> 
+  <h3>Access to Package Share</h3> 
+  <p>There is no anonymous access to the Package Share; that is, only registered users are allowed to view, download and upload packages.</p> 
+  <p>Access to the Package Share is available for our partners and customers. Registration details must be submitted for access rights to be assigned.</p> 
+  <p>To gain access to Package Share:</p> 
+  <ul> 
+   <li>Use the <a href="#signingintopackageshare">Sign In page</a></li> 
+   <li>The first time you use the sign in page you will need to: 
+    <ul> 
+     <li><a href="#registeringforpackageshare">Register for an Adobe ID</a> and/or <a href="#validatingyouradobeid">validate your existing Adobe ID</a><br /> </li> 
+     <li>so that your <a href="#packageshareaccount">Package Share Account</a> can be created</li> 
+    </ul> </li> 
+  </ul> 
+  <note> 
+   <p>Any Package Share user that has not been assigned to a customer, must join a community to see those resources by clicking <strong>Join</strong> next to the package share login. </p> 
+  </note> 
+  <h4>Signing In to Package Share</h4> 
+  <ol> 
+   <li><p>On the AEM Welcome screen, click <strong>Tools</strong></p> </li> 
+   <li><p>Then select <strong>Package Share</strong>. You will be required to either:</p> 
+    <ul> 
+     <li>login with your Adobe ID</li> 
+     <li><a href="#registeringforpackageshare">Create an Adobe ID</a></li> 
+    </ul> 
+    <note> 
+     <p>The first time you login with your Adobe ID, you must complete the <a href="#validatingyouradobeid">validation of your email address</a>.</p> 
+    </note> 
+    <note> 
+     <p>If you have forgotten your password, please use the <a href="http://enterprise-dev.adobe.com/content/edev/en/registration/account.html">Help pages</a> link (also on the sign in dialog).</p> 
+    </note></li> 
+  </ol> 
+  <h4>Validating your Adobe ID</h4> 
+  <p>The first time you sign into Package Share with your Adobe ID your email address will be validated.</p> 
+  <ol> 
+   <li>You will receive an email containing a link.<br /> </li> 
+   <li>You need to click on this link.</li> 
+   <li>A webpage will be opened.<br /> The action of opening this webpage is taken as validation.</li> 
+   <li>Sign in will continue.</li> 
+  </ol> 
+  <ol> 
+   <li><p>You will receive an email containing a link.</p> </li> 
+   <li><p>You need to click on this link.</p> </li> 
+   <li><p>A webpage will be opened. The action of opening this webpage is taken as validation.</p> </li> 
+   <li><p>Sign in will continue.</p> </li> 
+  </ol> 
+  <h4>Registering for Package Share</h4> 
+  <p>If you need access to Package Share, you will need to register for an Adobe ID:</p> 
+  <ul> 
+   <li>The <a href="#signingintopackageshare">Package Share sign-in page</a> offers a link for registering an Adobe ID.</li> 
+   <li>You can register for an Adobe ID from certain Adobe desktop software.</li> 
+   <li>Alternatively, you can register online on the <a href="https://www.adobe.com/cfusion/membership/index.cfm?nf=1&amp;nl=1">Adobe Sign In page</a>.</li> 
+  </ul> 
+  <p>An Adobe ID can be created by providing:</p> 
+  <ul> 
+   <li>your e-mail address</li> 
+   <li>a password of your choice</li> 
+   <li>some additional information such as your name and country of residence</li> 
+  </ul> 
+  <h4>Package Share Account</h4> 
+  <p>The validity of your application will be checked before:</p> 
+  <ul> 
+   <li>Your user account is created with the required/allowed permissions.<br /> </li> 
+   <li>Your account is added to your company's group.<br /> </li> 
+  </ul> 
+  <note> 
+   <p>A user from one of our partner companies can also be a member of his/her customer groups.</p> 
+  </note> 
+  <h4>Network Considerations</h4>  
+  <p><strong>IPv6</strong></p> 
+  <p>You may experience problems when trying to access Package Share from a pure IPv6 environment.</p> 
+  <p>This is because package share is service hosted on a server, meaning your connection is made through various networks on the internet. It cannot be ensured that all the connecting networks support IPv6; if not the connection might fail.<br /> </p> 
+  <p>To avoid this issue, you can access Package Share from an IPv4 network, download the package and then upload it to the IPv6 environment.<br /> </p> 
+  <p><strong>HTTP Proxy</strong></p> 
+  <p>Package Share is currently unavailable if your company runs an http proxy that requires authentication.</p> 
+  <p>Package Share is only available when your AEM server has access to the Internet without authentication being required. To configure the proxy for all services that use the http client (including package share) use the <a href="../../../sites/deploying/using/osgi-configuration-settings.md#daycommonshttpclient31">OSGi configuration of the Day Commons HTTP Client 3.1 bundle</a>.<br /> </p>   
+  <h3>Inside Package Share</h3> 
+  <p>In Package Share packages are arranged in tree subtrees:<br /> </p> 
+  <ul> 
+   <li>Adobe packages provided by Adobe.<br /> </li> 
+   <li>Shared packages that have been provided by others companies and have been made public by Adobe.<br /> </li> 
+   <li>Your company packages that are private.<br /> </li> 
+  </ul> 
+  <img imageRotate="0" src="assets/chlimage_1-416.png" />    
+  <h3>Searching and Filtering Packages</h3> 
+  <p>Package Share offers a search bar you can use for searching specific keywords or/and tags. Both keywords and tags support multiple values.</p> 
+  <ul> 
+   <li>To search for multiple keywords you have to separate each keyword by a space.</li> 
+   <li>To search for multiple tags you have to select each of them in the package trees. </li> 
+  </ul> 
+  <p>You can also change the conditional operator from OR to AND on the right side of the filter summary bar. </p> 
+  <h3>Downloading And Installing Packages From Package Share</h3> 
+  <p>To download packages from Package Share and install them on your local instance, it is easier to access Package Share from your AEM instance. This will download the package and immediately register it in your Package Manager, from where it can be installed.</p> 
+  <ol> 
+   <li><p>From the AEM Welcome screen, click <strong>Tools</strong>, then select <strong>Package Share</strong> to open the Package Share page.</p> </li> 
+   <li><p>Using your account details, log into Package Share. The landing page is shown, listing the Adobe folder, the Shared folder and one specific to your company.</p> 
+    <note> 
+     <p>Before starting to download packages from Package Share, make sure you have the <a href="#accesstopackageshare">required access</a>.</p> 
+    </note></li> 
+   <li><p>Navigate to the package you want to download and click <strong>Download</strong>.<br /> </p>  </li> 
+   <li><p>Go back or navigate to the <strong>Package Manager</strong> on your AEM instance. Then navigate to the package you just downloaded.</p> 
+    <note> 
+     <p>To find the package you downloaded, follow the same path as in Package Share. For example, if you downloaded a package from the following path in Package Share:</p> 
+     <p><strong>Packages</strong> &amp;gt; <strong>Public</strong> &amp;gt; <strong>Hotfixes</strong></p> 
+     <p>Then in Package Manager on your local instance the package will also appear under:</p> 
+     <p><strong>Packages</strong> &amp;gt; <strong>Public</strong> &amp;gt; <strong>Hotfixes</strong><br /> </p> 
+    </note></li> 
+   <li><p>Click <strong>Install</strong> to install the package to your local AEM installation.</p> 
+    <note> 
+     <p>If the package has already been installed on your instance, the <strong>Installed</strong> indicator appears next to the package instead of the <strong>Install</strong> button.</p> 
+    </note> 
+    <note> 
+     <p>Installing a package can overwrite existing content in the repository. Therefore, we recommend that you perform a <strong>Test Install</strong> first. This allows you to inspect whether the content that the package contains conflicts with your existing content.</p> 
+    </note></li> 
+  </ol> 
+  <h3>Downloading Packages to Your File System From Package Share</h3> 
+  <p><a href="#downloadingandinstallingpackagesfrompackageshare">Downloading and installing</a> is very convenient, but if required you can also download the package and save it to your local file system:</p> 
+  <ol> 
+   <li><p>In Package Share click on the package icon or name.</p> </li> 
+   <li><p>Click the <strong>Assets</strong> tab.</p> </li> 
+   <li><p>Click <strong>Download to disk</strong>.</p> </li> 
+  </ol> 
+  <h3>Uploading a package</h3> 
+  <p>With Package Share, you can upload packages to your company-internal area of package share. This makes them available for sharing within your company.</p> 
+  <p>These packages are <i>not</i> available to the general AEM community, but are available to all users registered with your company.</p> 
+  <p>To upload packages your the company-internal Package Share:</p> 
+  <note> 
+   <p>To upload a package to Package Share, you first have to create a group folder named after your company on your local Package Manager. For example, geometrixx. All packages to be uploaded for sharing must be placed in this group folder.<br /> </p> 
+   <p>Packages in the Package Manager home list or in other folders cannot be shared.</p> 
+  </note> 
+  <ol> 
+   <li><p>Open the <strong>Package Manager</strong> and navigate to the package you want to upload.<br /> </p> </li> 
+   <li><p>Click the package icon to open it.</p> </li> 
+   <li><p>Click <strong>Share</strong> to open the dialog for uploading the package to Package Share.</p> </li> 
+   <li><p>If are not already logged into Package Share you will need to enter your login credentials.</p> <p>When you are logged in, AEM will display details about the package to be uploaded:<br /> </p> <img imageRotate="0" src="assets/chlimage_1-417.png" /> </li> 
+   <li><p>Click <strong>Share</strong> to upload the package to your company's internal Package Share.</p> <p>AEM displays the status and indicates when the package has finished uploading, after which you can click the <strong>x</strong> (upper right hand corner) to exit the <strong>Share Package</strong> window.</p> </li> 
+   <li><p>After the upload has completed, you can navigate to your company's internal folder to see the package you just shared.</p> </li> 
+  </ol>  
+  <note> 
+   <p>To modify a package available on Package Share, you need to download it, re-build it, and then upload it again to Package Share.</p> 
+  </note> 
+  <h3>Deleting A Package</h3>  
+  <p>You can only delete packages that you have uploaded by proceed as follows:<br /> </p> 
+  <ol> 
+   <li><p>In your company tree, check the package group containing the package. </p> </li> 
+   <li><p>Click on the package. </p> </li> 
+   <li><p>Click the delete button.</p> <img imageRotate="0" src="assets/chlimage_1-418.png" /></li> 
+   <li><p>Click <strong>Delete</strong> to confirm you want to delete the package. </p> </li> 
+  </ol> 
+  <h3>Making Packages Semi-Private</h3> 
+  <p>You can share packages outside your organization, but not publicly. These packages would be considered as semi-private. To share these semi-private packages you will need some help from Adobe Support. To do this, open a ticket with Adobe Support requesting a package be made available outside your organization. They will ask you for a list of Adobe ID's you want to grant access to your packages. <br /> </p> 
+ </body> 
+</html>

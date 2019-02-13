@@ -1,0 +1,69 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2016-02-05T03:27:00.000-0500" name="topicBrowsingSortDate" />
+  <meta content="admin" name="lr_creator" />
+  <meta content="2017-10-31T16:32:21.019-0400" name="publishExternalDate" />
+  <meta content="2017-10-31T16:32:21.019-0400" name="lastPublishExternalDate" />
+  <meta content="2017-12-01T19:04:06.114-0500" name="jcr:created" />
+  <meta content="2018-04-03T09:09:52.361-0400" name="cq:lastReplicated" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Configuring SSL on Windows Vista" name="jcr:title" />
+  <meta content="admin" name="lr_lastModifiedBy" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="2016-02-05T03:27:19.624-0500" name="lr_lastModified" />
+  <meta content="false" name="doNotLocalize" />
+  <meta content="video" name="pageLayout" />
+  <meta content="2018-04-26T04:24:14.581-0400" name="cq:lastModified" />
+  <meta content="4f30d2c4-5832-49fe-ae01-e547cb6d4061" name="jcr:uuid" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/forms/using/admin-help/configuring-ssl-windows-vista.html" name="publishExternalURL" />
+  <meta content="AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7df1.2" name="cq:gepId" />
+  <meta content="80e523e3-3631-4c0c-a5d7-52c92d0fcd69" name="jcr:predecessors" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/configuring_ssl;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" />
+  <meta content="Configuring SSL on Windows Vista" name="navTitle" />
+  <meta content="2016-04-20T10:02:40.333-0400" name="firstPublishExternalDate" />
+  <meta content="2018-04-26T04:24:14.581-0400" name="locHandOffDate" />
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/configuring_ssl_windows_vista_admin_5e12de0b318c6865_2302_report.xml" name="acrolinxReportURL" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="Learn how to configure SSL on Windows Vista." name="seoDescription" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="2016-05-31T06:57:57.171-0400" name="acrolinxDate" />
+  <meta content="light" name="heroGradient" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="left" name="sideColumn" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="red" name="acrolinxPageStatus" />
+  <meta content="169" name="acrolinxWords" />
+  <meta content="2016-02-05T03:27:00.000-0500" name="sortDate" />
+  <meta content="admin" name="contentOwner" />
+  <meta content="not_checked" name="acrolinxStatus" />
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="head1_20111213" name="gep_conversion_script_version" />
+  <meta content="7" name="acrolinxSentences" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+ </head>
+ <body>
+  <p>To configure SSL on Windows Vista™, you need an SSL certificate with RSA keys for authentication. You can use the Java keytool to create the certificate. </p>
+  <note>
+   <p>Windows Vista will not work with DSA keys.</p>
+  </note>
+  <p>You can run keytool by using a single command that includes all the information that is required to create the certificate and keystore. </p>
+  <p><strong>Create an SSL certificate</strong></p>
+  <ol>
+   <li><p>In a command prompt, navigate to <i>[JAVA HOME]</i>/bin and type the following command to create the certificate and keystore:</p>
+    <note>
+     <p>Replace <i>[JAVA_HOME] with the directory where the JDK is installed, and replace the text in italic with values that correspond with your environment.</i></p>
+    </note></li>
+   <li><p>Type <span class="code">changeit</span> as the password. This password is the default for a Java installation, and the system administrator may have changed it.</p></li>
+  </ol>
+ </body>
+</html>

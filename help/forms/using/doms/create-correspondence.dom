@@ -1,0 +1,288 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/correspondence-management;/content/help/en/experience-manager/6-4/forms/morehelp/correspondence-management" name="moreHelpPaths" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2016-12-22T04:58:35.774-0500" name="acrolinxDate" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="95054936-172e-4cea-979e-851e1b63fefd" name="jcr:uuid" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/create_correspondence_krs_workflow_c77e08fb6f309c49_24_report.xml" name="acrolinxReportURL" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="" name="privateBeta" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2015-11-29T11:23:14.627-0500" name="lastPublishQADate" /> 
+  <meta content="2018-04-03T08:18:52.486-0400" name="cq:lastReplicated" /> 
+  <meta content="2018-04-26T04:40:11.055-0400" name="locHandOffDate" /> 
+  <meta content="yellow" name="acrolinxPageStatus" /> 
+  <meta content="now" name="locPublishOption" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="2018-04-26T04:40:11.055-0400" name="cq:lastModified" /> 
+  <meta content="2016-12-23T01:40:10.881-0500" name="firstPublishExternalDate" /> 
+  <meta content="Create Correspondence" name="seoTitle" /> 
+  <meta content="2018-04-03T08:18:51.113-0400" name="lastPublishExternalDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="243" name="acrolinxSentences" /> 
+  <meta content="Create Correspondence" name="jcr:title" /> 
+  <meta content="2018-04-03T08:18:51.113-0400" name="publishExternalDate" /> 
+  <meta content="2018-04-03T08:18:51.113-0400" name="topicBrowsingSortDate" /> 
+  <meta content="AEM 6.3 | Create Correspondence" name="navTitle" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="After you have created a letter template, you can use it to create correspondence in AEM Forms by managing data, content, and attachments." name="seoDescription" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/create-correspondence.html" name="publishExternalURL" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="2017-12-01T19:03:27.375-0500" name="jcr:created" /> 
+  <meta content="f830a5eb-ebc5-42ef-a8b7-bccc2a0e152e" name="jcr:predecessors" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="3521" name="acrolinxWords" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:correspondence-management" name="cq:tags" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+ </head> 
+ <body> 
+  <h2>Create correspondence in the Create Correspondence user interface</h2> 
+  <p>After a <a href="../../forms/using/create-letter.md">letter template is created in Correspondence Management</a>, the end user/agent/claim adjustor can open the letter in the Create Correspondence user interface and create a correspondence by entering data, setting up content, and managing attachments. Finally, the claim adjustor or agent can manage the content in the preview mode and submit the letter.</p> 
+  <h3>Preview a correspondence</h3> 
+  <p>Select the letter to preview using the following steps:</p> 
+  <ol> 
+   <li><p>On the Letters page, tap <strong>Select</strong>.</p> </li> 
+   <li><p>Select the appropriate letter by tapping it.</p> <img alt="Select letter" captionBottom="Select letter" imageRotate="0" src="assets/1_selectletter.png" title="Select letter" /></li> 
+   <li><p>For a Data Dictionary based letter, select <strong>Preview</strong> &amp;gt; <strong>Preview</strong>. Or for a non-Data-Dictionary-based letter, select <strong>Preview</strong>. You can also hover over a letter (without selecting it) and tap the Letter Preview icon to preview it.</p> 
+    <note> 
+     <p>If a data dictionary is not associated with the letter, the letter preview opens. Otherwise, if the letter is data dictionary based, Correspondence Management displays Preview and Custom options in the Preview menu and you can select one of the two options. You can also associate test data with a Data Dictionary. When the <a href="../../forms/using/data-dictionary.md#main-pars-header-18">Data Dictionary has associated test data</a>, then on selecting the preview option, the normal preview opens with the test data populated. </p> 
+    </note> </li> 
+   <li><p>To be able to render a correspondence while previewing it, you should either be an administrator or a part of one of the following groups:</p> 
+    <ul> 
+     <li>forms-users (to preview on author instance)</li> 
+     <li>cm-agent-users (for rendition on publish instance)<br /> </li> 
+    </ul> <p>If you do not the required permissions, request the admin for the appropriate access. For more information on creating and adding users to groups, see <a href="../../sites/administering/using/security.md" target="_blank">Adding Users or Groups to a Group</a>. If you try to render a correspondence without having the appropriate permissions, the 404 error page appears.</p>  </li> 
+   <li><p>If you've selected <strong>Preview </strong>&amp;gt; <strong>Custom</strong>, a dialog opens. In the dialog, select a data file, corresponding to the data dictionary, to preview the letter with and then select <strong>Preview</strong>. A data file is created based on a data dictionary for a specific letter. For more information on the data file, see <a href="../../forms/using/data-dictionary.md#main-pars-header-18">Data Dictionary</a>.</p> <img alt="Preview letter" imageRotate="0" src="assets/8_previewcustomdatafile.png" title="Preview letter" /></li> 
+   <li><p>The letter HTML preview (mobile forms preview) opens with the Data tab in focus by default.</p> <p>For more information on mobile forms and the features they support, see <a href="https://helpx.adobe.com/livecycle/help/mobile-forms/feature-differentiation-mobile-forms-pdf.html">Feature differentiation between Mobile Forms and PDF Forms</a>.</p> <p>There are three tabs: data, content, and attachments. If there are no data elements (placeholder variables and layout fields) then the letter directly opens in with the Content tab displayed. Attachments tab is available only when attachments are present or library access is enabled.</p> 
+    <note> 
+     <br /> For more information on switching between HTML or PDF rendition mode of letter preview, see 
+     <a href="#changerenditionmode">Change rendition mode of letter</a>. For more information on PDF support in Correspondence Management and AEM, see 
+     <a href="https://helpx.adobe.com/aem-forms/kb/discontinuation-of-npapi-plugins-impact-on-aem-forms.html" target="_blank">Discontinuation of NPAPI browser plug-ins and its impact</a> and 
+     <a href="https://helpx.adobe.com/aem-forms/kb/pdf-forms-to-html5-forms.html" target="_blank">PDF Forms to HTML5 Forms</a>. 
+     <p></p> 
+    </note></li> 
+  </ol> 
+  <h3 id="EnterData">Enter data</h3> 
+  <p>In the Data tab, fill up the available layout fields and placeholders.</p> 
+  <ol> 
+   <li><p>Enter the data and content variables in the fields as required. Fill up all the mandatory fields marked with an asterisk (*) to enable the <strong>Submit</strong> button. <br /> </p> <p>Tap a data field value in the HTML letter preview to highlight the corresponding data field in the Data tab.</p> <img alt="Enter data in the letter" imageRotate="0" src="assets/2_enterdata.png" title="Enter data in the letter" /><img imageRotate="0" src="assets/2_1_enterdata.png" /></li> 
+  </ol> 
+  <h3 id="ManageContent">Manage Content</h3> 
+  <p>In the content tab, manage the content such as document fragments and content variables in the letter.</p> 
+  <ol> 
+   <li><p>Select <strong>Content</strong>. Correspondence Management displays the content tab of the letter.</p> <img alt="Content tab - highlight module in content" imageRotate="0" src="assets/3_content.png" title="Content tab - highlight module in content" /></li> 
+   <li><p>Edit the content modules, as required, in the Content tab. To bring focus to the relevant content module in the content hierarchy, you can either tap the relevant line or paragraph in the letter preview or tap the content module directly in the Content hierarchy.</p> <p>For example, the line "We have reviewed... " is selected in the below graphic and the relevant content module is selected in the Content tab. </p> <img imageRotate="0" src="assets/4_highlightmoduleincontent.png" /><p>In the Content or Data tab, by tapping Highlight Selected Modules (<img height="16" src="assets/highlightselectedmodulesincontentccr.png" width="16" />) on upper left of the HTML letter preview, you can disable or enable functionality to go to the content/data module when the relevant text, paragraph, or data field is selected in the letter preview.</p> <p>For more information on the actions available for various modules in the Create Correspondence user interface, see <a href="../../forms/using/create-letter.md#main-pars-header-9">Actions and info available in the Create Correspondence user interface</a>.</p> </li> 
+   <li><p>To locate content modules, use the Find field. Enter full or partial name or title of the content module to search for it in the correspondence. </p> </li> 
+   <li><p>Tap the Display icon (<img src="assets/display.png" />) in front of a list, text, condition, or target area to show or hide it in the letter. </p> </li> 
+   <li><p>To edit an inline or editable text module, tap the relevant <strong>Edit</strong> icon (<img height="16" src="assets/edittextmodule.png" width="16" />) or double-click the relevant text module in the letter preview.</p> <p>The system displays a text editor to edit and format the text. </p> <p>The default spellchecker in your browser checks spelling in the Text editor. To manage the spelling and grammar checking, you can edit your browser's spellchecker settings or install browser plugins/addons to check spelling and grammar.<br /> <br /> </p> <p>You can also use the various keyboard shortcuts in the text editor to manage, edit, and format text. For more information on <a href="../../forms/using/keyboard-shortcuts.md#main-pars-header-334882848" target="_blank">Text Editor</a> keyboard shortcuts in Correspondence Management Keyboard Shortcuts. </p> <img imageRotate="0" src="assets/5_edittextmodule.png" /><p>You may want to reuse one of more paragraphs of text that exist in another application of document. You can directly copy and paste text, such as from MS Word, HTML pages, or any other application.</p> <p>You can copy and paste one or more paragraphs of text in an editable text module. For example, you may have an MS Word document with a bulleted list of acceptable proofs of residence such a following:</p> <img imageRotate="0" src="assets/pastetextmsword-1.png" /><p>You can directly copy and paste the text from the MS Word document to an editable text module. The formatting such as bulleted list, font, and text color is retained in the text module.</p> <img imageRotate="0" src="assets/pastetexteditablemodule.png" /> 
+    <note> 
+     <p>The formatting of pasted text, however, has some <a href="/content/help/en/aem-forms/kb/cm-copy-paste-text-limitations">limitations</a>.</p> 
+    </note><p>You can indent the text and numbers in your letter using the Tab key. For example, you can use the Tab key to align multiple columns of text in a list into a tabular format. </p> <img captionBottom="Example: Using the Tab key to align multiple columns of text into a tabular format" imageRotate="0" src="assets/tabspaces.png" /> 
+    <note> 
+     <p>For more information on setting up tab spacing for your text modules and letters, see <a href="/content/help/en/aem-forms/kb/cm-tab-spacing-limitations" target="_blank">More information on using tab spacing for arranging text</a>.</p> 
+    </note></li> 
+   <li><p>If required, insert special characters in the correspondence. For example, you can use the Special Characters palette to insert:</p> 
+    <ul> 
+     <li>Currency symbols such as €,￥, and £</li> 
+     <li>Mathematical symbols such as ∑, √, ∂, and ^</li> 
+     <li>Punctuation symbols such as ‟ and ”</li> 
+    </ul> <img imageRotate="0" src="assets/specialcharacters-1.png" /><p>Correspondence Management has built in support for 210 special characters. The admin can <a href="../../forms/using/custom-special-characters.md">add support for more/custom special characters by customization</a>. </p> </li> 
+   <li><p>To highlight\emphasize parts of text in an editable inline module, select the text and tap Highlight Color.</p> <img imageRotate="0" src="assets/letterbackgroundcolor.png" /><p>You can either directly tap a basic color <strong>[A]</strong> present in the Basic Colors palette or tap <strong>Select</strong> after using the slider <strong>[B]</strong> to choose the appropriate shade of the color.</p> <p>Optionally, you can also go to the Advanced tab to select the appropriate Hue, Lightness, and Saturation <strong>[C]</strong> to create the precise color and then tap Select <strong>[D]</strong> to apply the color to highlight the text. </p> <img imageRotate="0" src="assets/textbackgroundcolor-1.png" /></li> 
+   <li><p>Make the appropriate content and format changes and tap <strong>Save</strong>. Tap (<img height="16" src="assets/editnextmoduleccr.png" width="32" />) to move between editable text modules, or tap <strong>Save and Next</strong> to save the changes and move to the next editable text module. </p> </li> 
+   <li><p>The system also displays the unfilled variables for each of the branches. When there are no unfilled variables, unfilled variables are shown as 0. If there is unfilled variable, you can tap a branch to expand it and locate the unfilled variable. Use the content toolbar to Delete content, increase/decrease indent of the content, and insert page breaks before/after the content.</p> <p>You can insert page breaks above and below data modules even when they are part of lists and conditions.</p> </li> 
+   <li><p>Tap Open/Close Content Variable (<img src="assets/opencontentvariables.png" />) to open the content variables and fill them appropriately.</p> </li> 
+   <li><p>Once you fill in the unfilled variable correctly, the count of unfilled variable is set to 0.<br /> </p> <p>In the Create Correspondence user interface, the unfilled variable count is displayed at each level of the hierarchy of any module that contains at least one variable. If a module contains unfilled variables, the count is displayed at the variable, module, target area, and letter template level.</p> <p>The unfilled variable count includes:</p> 
+    <ul> 
+     <li>Only unprotected data dictionary and placeholder variables. The variable count does not include layout or protected data dictionary variables.</li> 
+     <li>Mandatory fields.</li> 
+     <li>Layout fields if they are mandatory and bound to the user.<br /> </li> 
+     <li>Only unique variables instances. If a module, target area, or letter template contains two or more instances of the same variable, the count is displayed as 1 (one). However, for each of the instances, the count is displayed as 1.</li> 
+    </ul> <p>The unfilled variable count does not include deselected modules. If a module is included in a letter template but is not in the letter, the count for unfilled variables in this module are not displayed.</p> <p>For the target area, module, and variable the count is displayed to the right of each object in the letter template. However, for the complete template, the count is displayed in the Create Correspondence status bar.</p> <p>The modules in a letter template display the unfilled variable count as described below:</p> 
+    <ul> 
+     <li><strong>Text </strong>Displays the sum of the unique unfilled placeholder variables and data dictionary elements contained in the text module.</li> 
+     <li><strong>Condition </strong>Displays the sum of the unique unfilled condition variables contained in the condition and the variables contained in the resultant modules.</li> 
+     <li><strong>List </strong>Displays the sum of all unique unfilled variables contained in the modules assigned to the list.</li> 
+     <li><strong>Target area </strong>Displays the sum of all unique unfilled variables contained in the modules assigned to the target area.</li> 
+    </ul> <p>Note the following regarding variables with default values:</p> 
+    <ul> 
+     <li>A Boolean variable field defaults to <em>false</em>. However, the variable is considered to be unfilled. This implies that the variable count includes all Boolean variable fields with value <em>false</em>.</li> 
+     <li>A numeric variable field defaults to <em>0 (zero)</em>. However, the variable is considered to be unfilled. This implies that the variable count includes all numeric variable fields with value <em>0 (zero)</em>.</li> 
+    </ul> </li> 
+  </ol> 
+  <h4>Actions and Info available in the Create Correspondence Content tab</h4> 
+  <p><strong>Target Area</strong></p> 
+  <ul> 
+   <li>Insert Blank Line: Inserts new blank line.</li> 
+   <li>Insert Inline Text: Inserts new text module.</li> 
+   <li>Order Lock (info): Indicates that the order of the contents cannot be changed. </li> 
+   <li>Unfilled Values (info): Indicates the number of unfilled variables in the target area.</li> 
+  </ul> 
+  <p><strong>Module</strong></p> 
+  <ul> 
+   <li>Selection (eye icon): Includes\excludes module from the letter.</li> 
+   <li>Skip Bullets (applicable for list modules and their child modules): Skips bullets in a particular module.</li> 
+   <li>Page Break Before (applicable for child modules of target area): Inserts page break before the module.</li> 
+   <li>Page Break After (applicable for child modules of target area): Inserts page break before the module.</li> 
+   <li>Unfilled Values (info): Indicates the number of unfilled variables in the target area. </li> 
+   <li>Edit (text modules only): Open rich text editor for editing the text module.</li> 
+   <li>Data Panel (text and condition modules): Open all variables of the module.</li> 
+  </ul> 
+  <p><strong>List Module</strong></p> 
+  <ul> 
+   <li>Insert Blank Line: Inserts new blank line.</li> 
+   <li>Content Library: Opens content library to add modules to the list.</li> 
+   <li>List Setting (nested list only): </li> 
+   <li>Order Lock (info): Indicates that the order of the list items cannot be changed. </li> 
+  </ul> 
+  <h3>Manage attachments</h3> 
+  <ol> 
+   <li><p>Select <strong>Attachments</strong>. Correspondence Management displays the available attachments, as set up while creating the letter template. </p> </li> 
+   <li><p>You can choose not to submit an attachment along with the letter by tapping the view icon and you can tap the cross in the attachment to delete it from the letter. For the attachments specified, while creating a letter template, as Mandatory, the View and Delete icons are disabled. </p> </li> 
+   <li><p>Tap the Library Access (<img src="assets/libraryaccess.png" />) icon to access Content Library to insert DAM assets as attachments. </p> 
+    <note> 
+     <p>Library Access icon is available only library access was enabled while authoring the letter. </p> 
+    </note></li> 
+   <li><p>If the order of the attachments was not locked while creating the correspondence, you can reorder the attachments by selecting an attachment and tapping the down and up arrows. </p> <p>For more information, see <a href="#attachmentdelivery">Attachment delivery</a>.</p> </li> 
+  </ol> 
+  <h3>Manage content in preview and submit the letter</h3> 
+  <p>You can make layout and content related changes to ensure the letter looks the way you intend it to and submit it to the various post processes. </p> 
+  <ol> 
+   <li><p>To highlight all the editable content in the letter, tap <strong>Highlight Editable Sections</strong>. </p> <p>The editable contents of the letter are highlighted with gray background.</p> <img alt="Highlight editable content" imageRotate="0" src="assets/4_highlightmoduleincontent-1.png" title="Highlight editable content" /></li> 
+   <li><p>Edit the content modules, as required, in the Content tab. To bring focus to the relevant content module in the content hierarchy, you can either tap the relevant line or paragraph in the letter preview or tap the content module directly in the Content hierarchy.</p> <p>For example, the line "To allow us to access..." is selected in the below graphic and the corresponding content module is selected in the Content tab. </p> <p>By tapping Highlight Selected Modules in Content (<img height="16" src="assets/highlightselectedmodulesincontentccr.png" width="16" />), you can disable or enable functionality to highlight the content module in Content tab when the relevant text, paragraph, or data field is tapped in the letter preview.</p> <p>For more information on the actions available for various modules in the Create Correspondence user interface, see <a href="../../forms/using/create-letter.md#main-pars-header-9">Actions and info available in the Create Correspondence user interface</a>.</p> </li> 
+   <li><p>To add a page break to the letter, tap where you want to insert a page break and select Page Break Before or Page Break After (<img height="18" src="assets/pagebreakbeforeafter.png" width="48" />).</p> <p>An explicit page break placeholder gets inserted in the letter. To view how an explicit page break affects the letter, see the flattened PDF preview. </p> 
+    <note> 
+     <p>As mobile forms do not support page breaks, headers and footers appear only once. You can, however, explicitly set headers and footers in the layout (per page) to appear in the mobile forms preview. Also, blank pages in the letter, if any, do not appear in the Mobile forms preview.</p> 
+    </note><img alt="Explicit page break" imageRotate="0" src="assets/8_pagebreak.png" title="Explicit page break" /></li> 
+   <li><p>To save the letter as a draft, which you can continue working on later, tap Save As Draft. To use this option, your letter needs to be <a href="../../forms/using/publishing-unpublishing-forms.md#publishanasset" target="_blank">published</a>. For more information, see Draft Instance under <a href="#savingdrafts">Saving drafts and submitting letter instances</a>.</p> <img imageRotate="0" src="assets/saveasdraft.png" /><p>The Draft Letter Name dialog appears with the letter instance id. You can, optionally edit this ID. Make a note of the letter Id and then tap <strong>Done</strong>. You can later use this ID to <a href="../../forms/using/submit-letter-topostprocess.md#main-pars-header-1" target="_blank">reload the draft letter</a>.</p> </li> 
+   <li><p>To preview the letter as a flattened PDF with the exact layout and page breaks as it will be submitted, tap (<img height="16" src="assets/preview.png" width="48" />) Preview. </p> <p>The letter appears as a flattened PDF. The flattened PDF is the exact representation of the letter as it will be submitted with the correct fonts, breaks, and layout of the letter. </p> 
+    <note> 
+     <p>If you are using Mozilla Firefox and HTML rendition type, to preview the letter as flattened PDF, ensure that you use the native browser plug-in and not the Acrobat plugin. To select the native browser plug-in, go to Mozilla Firefox's settings and for content type PDF, select Preview in Firefox.</p> 
+    </note></li> 
+   <li><p>If you find the flattened PDF preview to be satisfactory, tap <strong>Submit</strong> to submit the letter. Or to make changes to the letter, tap <strong>Exit Preview</strong> to go back to the Create Correspondence UI preview of the letter to make changes in the letter. When you tap Submit, if the Manage Letter Instance configuration is enabled on the Publish instance, the submit letter instance is generated. </p> <p>For more information, see Draft Instance under Saving drafts and submitting letter instances.</p> <p> You can also save the letter as a draft to make changes to the letter later.</p> <p>After making the required changes, you can either submit the letter from the HTML5 preview or tap Preview again to review the flattened PDF output.</p> <p>For information on differences between HTML5 forms and PDF forms, see <a href="../../forms/using/feature-differentiation-html5-forms-pdf-forms.md" target="_blank">Feature differentiation between HTML5 forms and PDF forms</a>.</p>  </li> 
+  </ol> 
+  <h2 id="SavingDrafts">Saving drafts and submitting letter instances</h2> 
+  <p>When a letter is rendered in the Create Correspondence user interface, you can save the letter as being viewed.<br /> <br /> There are two types of letter instances that can be saved: Draft instance and Submit instance.</p> 
+  <ul> 
+   <li><strong>Draft Instance</strong>: Draft instance captures the current state of the letter you are previewing. To save a draft instance, first ensure that the letter and all the assets the letter references are in Published state. For information on publishing a letter, see <a href="../../forms/using/publishing-unpublishing-forms.md#publishanasset" target="_blank">Publish an asset</a>. You need to Publish a letter before you could save it as a draft, because when you publish a letter, you create a version of the letter, its dependent assets, and data at that point. The published version of a letter cannot be edited by you or another user and can be restored later without any unexpected discrepancies from the published version. You can return to this instance later and continue from where you left.</li> 
+   <li><strong>Submit Instance</strong>: Submit instances captures the state of letter as it is submitted. Submit instance stores the PDF state of the letter instance after it is post processed along with the data entered by user in the Create Correspondence user interface.<br /> </li> 
+  </ul> 
+  <p> </p> 
+  <p>Such instances can only be saved when the letter is being viewed on publish instance. By default saving on instances is turned off. To enable saving of letter instances, perform the following steps.</p> 
+  <ol> 
+   <li>In AEM, open Adobe Experience Manager Web Console Configuration for your server using the following URL: http://&amp;lt;server&amp;gt;:&amp;lt;port&amp;gt;/&amp;lt;contextpath&amp;gt;/system/console/configMgr</li> 
+   <li>Locate <span class="uicontrol">Correspondence Management Configurations</span> and click it.</li> 
+   <li>Check <span class="uicontrol">Manage Letter Instances on Publish</span> configuration and then click <span class="uicontrol">Save</span>.</li> 
+  </ol> 
+  <p>When the saving of letter instances is turned on, you have the option to select where to save the letter instances. There are two options for saving the letter instances: Local Save or Remote Save.</p> 
+  <h3>Local save</h3> 
+  <p> Letter instances are saved on the publish instance and are reverse replicated on the author instance.</p> 
+  <h3>Remote save</h3> 
+  <p>This option exists for people who have concerns over saving user data on publish instances, which are in general case outside the corporate firewall. When remote save is turned on, the letter instances are not saved on publish instance but they are remotely saved on the processing author specified through the LiveCycle Client SDK configurations.</p> 
+  <h4>Enable remote save</h4> 
+  <ol> 
+   <li>In AEM, open Adobe Experience Manager Web Console Configuration for your server using the following URL: <span class="kbd">http://&amp;lt;server&amp;gt;:&amp;lt;port&amp;gt;/&amp;lt;contextpath&amp;gt;/system/console/configMgr</span></li> 
+   <li>Search for <span class="uicontrol">Correspondence Management Configurations </span>and click it. </li> 
+   <li>Locate the <strong><span class="uicontrol">Remote Save</span></strong> configuration, check it, and the click <strong><span class="uicontrol">Save</span></strong>. </li> 
+  </ol> 
+  <h4>Specify processing author settings</h4> 
+  <ol> 
+   <li><p>In AEM, open Adobe Experience Manager Web Console Configuration for your server using the following URL: <span class="kbd">http://&amp;lt;server&amp;gt;:&amp;lt;port&amp;gt;/&amp;lt;contextpath&amp;gt;/system/console/configMgr</span></p> <img alt="Adobe Experience Manager Web Console Configuration" imageRotate="0" src="assets/2configmanager.png" title="Adobe Experience Manager Web Console Configuration" /></li> 
+   <li><p>On this page, locate Adobe LiveCycle Client SDK Configuration and expand it by clicking it.<br /> </p> </li> 
+   <li><p>In the Processing Server URL, enter the name of your LiveCycle server, provide the login information, and then click <strong>Save</strong>. </p> <img alt="Enter the name and login information of your LiveCycle server" imageRotate="0" src="assets/3configmanager.png" title="Enter the name and login information of your LiveCycle server" /></li> 
+   <li><p>If necessary, set the user name and password with which you want to access the server.<br /> </p> </li> 
+  </ol> 
+  <h4 id="AttachmentDelivery">Attachment delivery</h4> 
+  <ul> 
+   <li>The letter attachments are available post process in the PDF, which is created after letter submission. </li> 
+   <li>When the Letter is rendered using Server-side APIs as an interactive or non-interactive PDF, the rendered PDF contains attachments as PDF attachments.</li> 
+   <li>When a post process associated with a letter template is loaded as part of the Submit or Complete Correspondence operations using the Create Correspondence user interface, attachments are passed as the List&amp;lt;com.adobe.idp.Document&amp;gt; in AttachmentDocs parameter.</li> 
+   <li>Out-of-the-box delivery mechanisms, such as email and Print, also deliver attachments along with the PDF of the generated correspondence.</li> 
+  </ul> 
+  <h2>Rendition modes of letter preview: Mobile forms preview and PDF preview</h2> 
+  <div>
+    AEM Forms Correspondence Management displays a letter as HTML in the Create Correspondence UI. However, Correspondence Management still supports reverting to the PDF preview instead of HTML preview. For more information on switching between HTML and PDF mode of preview, see 
+   <a href="#changerenditionmode">Change rendition mode of letter</a>. 
+  </div> 
+  <div> 
+  </div> 
+  <div>
+    Following are the benefits and functionality available in HTML and PDF preview. 
+  </div> 
+  <div> 
+  </div> 
+  <div> 
+   <strong>Benefits of mobile forms/HTML preview</strong> 
+  </div> 
+  <ul> 
+   <li><strong>Tap a data field value to highlight corresponding data field</strong>: In the Create Correspondence user interface, you can tap a data field value in the letter to highlight the corresponding data field in the Data tab. For more information, see <a href="#enterdata">Enter data</a>.</li> 
+   <li><strong>Browser support</strong>: Browsers a withdrawing support for NPAPI gradually, which affects PDF preview of letter. HTML/mobile forms preview of letter is unaffected by this.</li> 
+   <li><strong>Highlight editable content in a letter</strong>: In the Create Correspondence user interface, you can tap Highlight Editable Content to highlight all the editable content in the letter in gray. For more information, see <a href="#managecontent">Manage content</a>.</li> 
+  </ul> 
+  <div style="position: absolute; left: -10000px; width: 9000px; top: 0px;"> 
+   <li> </li> 
+   <li>Benefits of HTML preview 
+    <ul> 
+     <li>Right to left</li> 
+     <li>NPAPI</li> 
+     <li>Highlight Editable Content</li> 
+    </ul> </li> 
+   <li>Benefits of PDF preview 
+    <ul> 
+     <li>Page Break</li> 
+     <li>Final Preview</li> 
+    </ul> </li> 
+  </div> 
+  <div style="position: absolute; left: -10000px; width: 9000px; top: 0px;"> 
+   <li> </li> 
+   <li>Benefits of HTML preview 
+    <ul> 
+     <li>Right to left</li> 
+     <li>NPAPI</li> 
+     <li>Highlight Editable Content</li> 
+    </ul> </li> 
+   <li>Benefits of PDF preview 
+    <ul> 
+     <li>Page Break</li> 
+     <li>Final Preview</li> 
+    </ul> </li> 
+  </div> 
+  <p><strong>Benefits of PDF preview</strong></p> 
+  <ul> 
+   <li><strong>Page break</strong>: In the PDF preview, you can view exactly how the page breaks in the letter affect its output. </li> 
+   <li><strong>Final preview</strong>: In the PDF preview, you can view the exact formatting and appearance of the letter as the letter will appear in its output.</li> 
+  </ul> 
+  <p>For information on scripting support in PDF forms, see <a href="http://help.adobe.com/en_US/livecycle/11.0/ScriptingSupport/index.html" target="_blank">Scripting Support</a>. </p> 
+  <p>For more information on scripting support in HTML5 forms, see <a href="../../forms/using/scripting-support.md" target="_blank">Scripting support for HTML5 forms</a>.</p> 
+  <h3 id="ChangeRenditionMode">Change rendition mode of letter</h3> 
+  <p>By default, the Create Correspondence UI uses the HTML or mobile forms to render the letter preview. The mobile forms preview has no issues rendering in any browser, as it uses the browser's native plug-in and requires no additional plug-ins. You can change the letter preview mode to PDF. However, browser constraints may create issues for different features of the interactive PDF preview of the letter. </p> 
+  <p>For more information on browser compatibility with letter preview, see <a href="https://helpx.adobe.com/aem-forms/kb/discontinuation-of-npapi-plugins-impact-on-aem-forms.html" target="_blank">Discontinuation of NPAPI browser plug-ins and its impact</a>.</p> 
+  <p>To change the preview mode of the letter, complete the following steps:</p> 
+  <ol> 
+   <li><p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">Go to <span class="kbd">http://[system]:[port]/system/console/configMgr</span> and, if necessary, log in as Admin.</p> </li> 
+   <li><p>Go to <span class="uicontrol">Correspondence Management Configurations</span> &amp;gt; <span class="uicontrol">Rendition Type</span> and select <strong>HTML Rendition</strong> (Default) or <strong>PDF Rendition</strong>. </p> </li> 
+   <li><p>Click <strong><span class="uicontrol">Save</span></strong>.</p> </li> 
+  </ol> 
+  <related-links> 
+   <a href="../../forms/using/create-letter.md" target="_blank">Create letter</a> 
+   <a href="../../forms/using/manage-agent-signature-images.md" target="_blank">Manage agent signature images</a> 
+   <a href="../../forms/using/layout-design-details.md" target="_blank">Layout design details</a> 
+   <a href="../../forms/using/expression-builder.md" target="_blank">Expression builder</a> 
+   <a href="../../forms/using/submit-letter-topostprocess.md" target="_blank">Post processing of letters</a> 
+   <a href="../../forms/using/cm-configuration-properties.md" target="_blank">Correspondence Management configuration properties</a> 
+   <a href="../../forms/using/add-custom-action-asset-listing-view.md" target="_blank">Add custom action to Asset Listing view</a> 
+   <a href="../../forms/using/add-custom-properties-cm-assets.md" target="_blank">Add custom properties to Correspondence Management assets</a> 
+   <a href="../../forms/using/add-action-button-in-create-correspondence-ui.md" target="_blank">Add custom action/button in Create Correspondence UI</a> 
+   <a href="../../forms/using/customize-create-correspondence-ui.md" target="_blank">Customize Create Correspondence UI logo</a> 
+  </related-links> 
+ </body> 
+</html>

@@ -1,0 +1,430 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/configuring_file_type_settings_admin_5e12de0b318c6865_2290_report.xml" name="acrolinxReportURL" /> 
+  <meta content="a5fb3895-af37-4564-91af-b7bbf2f598ef" name="jcr:predecessors" /> 
+  <meta content="2017-10-31T16:32:24.708-0400" name="lastPublishExternalDate" /> 
+  <meta content="admin" name="lr_lastModifiedBy" /> 
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/working_with_pdf_generator;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" /> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="Learn how to configure file type settings." name="seoDescription" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="2018-04-26T04:24:36.965-0400" name="locHandOffDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7e83.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7e42.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-71590aba12905cdf53a-7fa9.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7e3c.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7e3b.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-71590aba12905cdf53a-7fa6.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-71590aba12905cdf53a-7fa5.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-71590aba12905cdf53a-7fa4.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-71590aba12905cdf53a-7fa3.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-71590aba12905cdf53a-7fa2.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7e3a.2,AEMForms/6.1/AdminHelp/WS196e8398323ca8ae-5bfaaf1f130fad0d8a0-8000.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7e39.2,AEMForms/6.1/AdminHelp/WSe887ca7d317bc0ec-6d2ce186135802d58c0-8000,AEMForms/6.1/AdminHelp/WS3c8afe65f2ca9fc24f2ce6e61359fc057db-8000" name="cq:gepId" /> 
+  <meta content="admin" name="lr_creator" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="12580bbb-80d7-4dba-b910-e22f2a31b9cc" name="jcr:uuid" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="Configuring file type settings" name="jcr:title" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/forms/using/admin-help/configuring-file-type-settings1.html" name="publishExternalURL" /> 
+  <meta content="2018-04-26T04:24:36.965-0400" name="cq:lastModified" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="Configuring file type settings" name="navTitle" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="sortDate" /> 
+  <meta content="2410" name="acrolinxWords" /> 
+  <meta content="2017-12-01T19:03:56.348-0500" name="jcr:created" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2018-04-03T09:10:52.543-0400" name="cq:lastReplicated" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="2016-05-31T06:56:38.467-0400" name="acrolinxDate" /> 
+  <meta content="admin" name="contentOwner" /> 
+  <meta content="2017-10-31T16:32:24.708-0400" name="publishExternalDate" /> 
+  <meta content="2016-04-20T10:02:11.984-0400" name="firstPublishExternalDate" /> 
+  <meta content="2016-02-05T03:27:17.489-0500" name="lr_lastModified" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="topicBrowsingSortDate" /> 
+  <meta content="150" name="acrolinxSentences" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="/content/help/en/aem-forms/6-2/morehelp/working_with_pdf_generator;/content/help/en/aem-forms/6-2/morehelp/working_with_pdf_generator" name="moreHelpPaths" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="" name="jcr:primaryType" /> 
+ </head> 
+ <body> 
+  <p>In PDF Generator, you can set up the application settings for supported file types. On Windows, you can set up the application settings for each supported file type. On UNIX and Linux, you can set up the application settings for HTML-to-PDF and OpenOffice.</p> 
+  <p>On the File Type Settings page, you can perform these tasks:</p> 
+  <ul> 
+   <li><a href="../../../forms/using/admin-help/configuring-file-type-settings1.md#main-pars-heading-0">Create or edit a File Type setting</a></li> 
+   <li>Specify which file type settings to use by default (see <a href="/content/help/en/aem-forms/6-2/admin-help/importing-exporting-pdf-generator-configuration" target="_blank">Importing and exporting PDF Generator configuration files</a>)</li> 
+   <li><a href="../../../forms/using/admin-help/configuring-file-type-settings1.md#main-pars-header-1872905633">Change the default settings</a></li> 
+   <li><a href="/content/help/en/aem-forms/6-2/admin-help/enable-pdf-a-support" target="_blank">Enable PDF/A support</a></li> 
+   <li><a href="/content/help/en/aem-forms/6-2/admin-help/enable-pdf-a-support" target="_blank">Delete a File Type setting</a></li> 
+  </ul> 
+  <note> 
+   <p>The file type settings are not available for the fallback convertors such as Acrobat for HTML to PDF conversion, Microsoft PowerPoint, Microsoft Word, and Microsoft Excel. </p> 
+  </note> 
+  <h2 id="create_or_edit_file_type_settings">Create or edit File Type settings</h2> 
+  <p>Create or edit a file type setting to specify how the application handles the conversion of supported file types. On Windows, you can set up the application settings for each supported file type. On UNIX and Linux, you can set up the application settings for HTML-to-PDF and OpenOffice.</p> 
+  <ol> 
+   <li><p>In administration console, click <span class="uicontrol">Services</span> &amp;gt;<span class="uicontrol"> PDF Generator</span> &amp;gt; <span class="uicontrol">File Type Settings</span>.</p> </li> 
+   <li><p>Click New or click the name of a setting.</p></li> 
+   <li><p>In the Filename Extensions box, type the filename extensions, separated by commas, for file types that are accepted for this application. Do not include the period before or a space between the extensions. The default is <span class="code">bmp,gif,jpeg,jpg,tif,tiff,png</span>.</p></li> 
+   <li><p>(Optional) To use optical code recognition (OCR) of text in graphics or images, select Use OCR and set the following options: </p></li> 
+  </ol> 
+  <p><strong>Primary OCR</strong><strong>Language:</strong> The language for the OCR engine to use to identify the characters. The default is English (US). </p> 
+  <p><strong>PDF Output Style:</strong> Select Searchable Image to have a bitmap image of the pages in the foreground and the scanned text on an invisible layer beneath. The appearance of the page does not change, but the text becomes selectable and readable. Select Formatted Text &amp; Graphics to reconstruct the original page by using recognized text, fonts, pictures, and other graphic elements. The default is Searchable Image (Exact).</p> 
+  <p><strong>Downsample Images:</strong> Decreases the number of pixels in color, grayscale, and monochrome images. Downsampling of scanned images is performed after OCR is complete. The default is Lowest (600 dpi). This option is not available if you set PDF output style to Searchable Image (Exact). </p> 
+  <ol> 
+   <li><p>Complete the required information in these sections:</p>                <p>To go to another section, click its link on the web page or use the <span class="uicontrol">Next </span>or <span class="uicontrol">Previous</span> buttons.</p> </li> 
+   <li><p>After you complete all the sections, click <span class="uicontrol">Save</span> or <span class="uicontrol">Save As</span> and provide a name for the setting.</p> </li> 
+  </ol> 
+  <p>Support for various file types can be customized. (See "<a href="http://help.adobe.com/en_US/AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7756.2.html" target="_blank">Adding Support for Additional Native File Formats</a>" in <a href="http://www.adobe.com/go/learn_lc_programming_11">Programming with AEM forms</a>.)</p> 
+  <h2>Change the default settings</h2> 
+  <p>You can change the default value for the Adobe PDF settings, security settings, and file type settings that apply to newly created sources. Changing the defaults does not affect the settings of existing sources.</p> 
+  <ol> 
+   <li><p>In Administration Console, click <span class="uicontrol">Services &amp;gt; PDF Generator</span>.</p> </li> 
+   <li><p>On the <span class="uicontrol">Adobe PDF Settings</span>, <span class="uicontrol">File Type Settings</span>, or <span class="uicontrol">Security Settings</span> page, click <span class="uicontrol">Set Default Settings</span>.</p> </li> 
+   <li><p>Select your preferred default settings. One or more of the following settings are available on the Set Default Settings page:</p> <p><span class="uicontrol">Adobe PDF Setting</span>: The original default is Standard (Acrobat 6).</p> <p><span class="uicontrol">Security Settings</span>: The original default is No Security (Acrobat 5).</p> <p><span class="uicontrol">File Type Settings</span>: The original default is Standard.</p> </li> 
+   <li><p>Click <span class="uicontrol">Save</span>.</p> </li> 
+  </ol> 
+  <h2>Delete a File Type setting</h2> 
+  <p>You can delete a file type setting that is no longer used.</p> 
+  <ol> 
+   <li>In administration console, click <span class="uicontrol">Services &amp;gt; PDF Generator&amp;gt; File Type Settings</span>.</li> 
+   <li>Select the check box beside the setting to delete. You can select multiple sources. Settings that do not have a check box next to them are always included with PDF Generator and cannot be deleted.</li> 
+   <li>Click <span class="uicontrol">Delete</span> and, on the Delete Confirmation page, click <span class="uicontrol">Delete</span>.</li> 
+  </ol> 
+  <h2 id="image_to_pdf_settings">Image to PDF settings</h2> 
+  <p></p> 
+  <p>The following options determine how image files are converted to PDF. For instructions about accessing these settings, see <a href="configuring-file-type-settings#create_or_edit_file_type_settings">Create or edit file type settings</a>. </p> 
+  <p><strong>Filename Extensions:</strong> Comma-separated list of filename extensions that can be converted.</p> 
+  <p><strong>Try Fallback Converter:</strong> PDF Generator can use either Java™ or Acrobat to convert image files to PDF. When this option is selected and a conversion fails or reaches the specified time-out limit, PDF Generator attempts the conversion by using the alternate method. If alternate method fails or reaches the specified time-out limit, an exception is written to the log file.</p> 
+  <p><i><strong>Note</strong>: JPEG 2000 files can only be converted using Acrobat.</i></p> 
+  <p><strong>Use OCR:</strong> Specifies whether to apply OCR (optical character recognition) to the PDF. OCR software enables you to search, correct, and copy the text in the PDF.</p> 
+  <p><i><strong>note</strong>: The OCR PDF (searchable PDF) feature is supported only on Microsoft Windows.</i></p> 
+  <p></p> 
+  <p><strong>Primary OCR Language:</strong> Specifies the language for the OCR engine to use to identify the characters.</p> 
+  <p><strong>PDF Output Style:</strong> Determines the type of PDF to produce. All formats apply OCR and font and page recognition to the text images and convert them to normal text.</p> 
+  <p><strong>Searchable Image:</strong> Ensures that text is searchable and selectable. This option keeps the original image, deskews it as needed, and places an invisible text layer over it. The Downsample Images option determines whether the image is downsampled and to what extent.</p> 
+  <p><strong>Searchable Image (Exact):</strong> Ensures that text is searchable and selectable. This option keeps the original image and places an invisible text layer over it. Recommended for cases that require maximum fidelity to the original image.</p> 
+  <p><strong>ClearScan:</strong> Synthesizes a new Type 3 font that closely approximates the original, and preserves the page background by using a low-resolution copy.</p> 
+  <p><strong>Downsample Images:</strong> Decreases the number of pixels in color, grayscale, and monochrome images after OCR is complete. Choose the degree of downsampling to apply. Higher-numbered options do less downsampling, which produces higher-resolution PDFs.</p> 
+  <h2 id="adobe_pdf_export_settings_windows_only">Adobe PDF export settings (Windows only)</h2> 
+  <p>The Export File Type setting in the Adobe PDF export settings section is used for converting a PDF file to another format. The default is HTML 4.01 with cascading style sheets (CSS) 1.0<strong></strong>(*.htm, *.html). </p> 
+  <p>For instructions about accessing this setting, see <a href="configuring-file-type-settings#create_or_edit_file_type_settings">Create or edit file type settings</a>. </p> 
+  <h2 id="html_to_pdf_settings">HTML-to-PDF settings</h2> 
+  <p></p> 
+  <p>The following options determine how HTML files are converted to PDF. For instructions about accessing these options, see <a href="configuring-file-type-settings#create_or_edit_file_type_settings">Create or edit file type settings</a>.</p> 
+  <p><strong>Try Fallback Converter:</strong> PDF Generator can use either Java™ or Acrobat to convert HTML files to PDF. When this option is selected and a conversion fails or reaches the specified time-out limit, PDF Generator attempts the conversion by using the alternate method. If alternate method fails or reaches the specified time-out limit, an exception is written to the log file.</p> 
+  <p><strong>Default Encoding:</strong> Sets the input encoding of the file text from a menu of operating systems and alphabets. Uses the selection shown in the Default Encoding option only if the HTML source file does not specify a type of encoding.</p> 
+  <p><strong>Force Selected Encoding:</strong> Ignores any encoding that is specified in the HTML source file and uses the selection shown in the Default Encoding option.</p> 
+  <h3 id="spidering_settings">Spidering settings</h3> 
+  <p></p> 
+  <p><i>Spidering</i> scans web pages for links to other web pages. When a link to another web page is encountered, the destination page is fetched and included in the PDF document that is generated. Enable these options to set the number of levels to be fetched and converted to PDF:</p> 
+  <p><strong>Get Only X Levels:</strong> Spiders and converts pages up to a depth of the specified level from the base page URL. A value of 1 converts only the supplied URL.</p> 
+  <p><strong>Get Entire Site:</strong> Converts the entire site, starting from the provided URL.</p> 
+  <p><strong>Stay On Same Path:</strong> Any links that point to pages that are not on the same relative path as the base URL are not converted during spidering.</p> 
+  <p><strong>Stay On Same Server:</strong> Any links that point to pages on different servers are not converted during spidering. Only links that point to the same server as the specified URL are converted.</p> 
+  <h3 id="page_conversion_settings">Page conversion settings</h3> 
+  <p></p> 
+  <p>Enable these options to specify how the HTML pages are converted. Based on the page size, the width, height, and margin values adjust accordingly. </p> 
+  <p><strong>Page Size:</strong> Choose custom and specify the width and height, or select predefined dimensions.</p> 
+  <p><strong>Orientation:</strong> Select either portrait or landscape for the converted PDF document.</p> 
+  <p><strong>Margins:</strong> Specifies the margins (Top, Bottom, Left, and Right) in the generated PDF document.</p> 
+  <p><strong>Add Bookmarks To PDF:</strong> Adds bookmarks to the PDF document.</p> 
+  <p><strong>Enable Tagged PDF:</strong> Embeds tags in the PDF document.</p> 
+  <p><strong>Set Initial View Settings:</strong> Lets you configure Document Options, Window Options, and User Interface Options. These settings determine how the content is initially displayed.</p> 
+  <h3 id="document_options">Document Options</h3> 
+  <p></p> 
+  <p>Enable these options to specify how to display content, how to display pages in the PDF document, and how to specify the magnification level:</p> 
+  <p><strong>Show:</strong> Select the panes to be open in Acrobat when the PDF document is opened.</p> 
+  <p><strong>Page Layout:</strong> Select the type of page layout for the PDF document.</p> 
+  <p><strong>Magnification:</strong> Choose preset magnification for the initial view of the PDF document or select a custom value. Choosing a default setting indicates that the default Acrobat magnification will be used.</p> 
+  <p><strong>Open To Page Number:</strong> Specify the page number that the PDF opens to.</p> 
+  <h3 id="window_options">Window Options</h3> 
+  <p></p> 
+  <p>Enable these options to specify how the window is sized and displayed. </p> 
+  <p><strong>Resize Window To Initial Page:</strong> Resizes the Acrobat window to the size of the initial page.</p> 
+  <p><strong>Center Window On Screen:</strong> Opens the window in the center of the screen.</p> 
+  <p><strong>Open In Full Screen Mode:</strong> Opens the window in full screen mode.</p> 
+  <p><strong>Show:</strong> Displays the document title or filename in the window.</p> 
+  <h3 id="user_interface_options">User Interface Options</h3> 
+  <p></p> 
+  <p>Enable these options to specify the window appearance:</p> 
+  <p><strong>Hide Menu Bar:</strong> Hides the menu bar in the PDF document.</p> 
+  <p><strong>Hide Toolbars:</strong> Hides the toolbars in the PDF document.</p> 
+  <p><strong>Hide Window Controls:</strong> Hides the window controls in the PDF document.</p> 
+  <h2 id="flash_videos_to_pdf_settings">Flash videos to PDF settings</h2> 
+  <p></p> 
+  <p>PDF Generator supports the ability to submit a video for Adobe Flash (SWF or FLV file) and create a PDF file with a video for Adobe Flash embedded in it. This conversion does not require Adobe Flash Player to be installed on the forms server. For instructions about accessing this option, see <a href="configuring-file-type-settings#create_or_edit_file_type_settings">Create or edit file type settings</a>. </p> 
+  <p><strong>Filename Extensions:</strong> Comma-separated list of filename extensions that can be converted.</p> 
+  <h2 id="xps_to_pdf_settings">XPS to PDF settings</h2> 
+  <p></p> 
+  <p>XML Paper Specification (XPS) is used in Windows Printing machine. This is a Microsoft format and can be created from any Microsoft Office application. AEM forms provides the ability to convert XPS files PDF. </p> 
+  <p><strong>Filename Extensions:</strong> A comma-separated list of all the XPS filename extensions that can be converted. Currently there is one format: .xps.</p> 
+  <h2 id="pdf_optimizer_settings">PDF optimizer settings</h2> 
+  <p></p> 
+  <p>PDF Generator supports the ability to reduce the size of PDF files. Whether you use all these settings or only a few depends on how you intend to use the files and on the essential properties that a file must have. In most cases, the default settings are appropriate for maximum efficiency - saving space by removing embedded fonts, compressing images, and removing items from the files that are no longer needed.</p> 
+  <note> 
+   <p>Optimizing a digitally signed document removes and invalidates the digital signatures. </p> 
+  </note> 
+  <p>For instructions about accessing this setting, see <a href="configuring-file-type-settings#create_or_edit_file_type_settings">Create or edit file type settings</a>. </p> 
+  <p><strong>Target PDF Version:</strong> Specifies the version of Acrobat that the PDF is compatible with.</p> 
+  <h3 id="fonts">Fonts</h3> 
+  <p></p> 
+  <ol> 
+   <li><p>Select <strong>Fonts.</strong></p> </li> 
+   <li><p>Select one of the following options:</p> <p><strong>Unembed all fonts: </strong>Unembeds all embedded fonts.</p> <p><strong>Do not unembed any font: </strong>Does not unembed any fonts.</p> <p><strong>Unembed some fonts: </strong>Unembeds only the specified fonts. Follow these steps to specify the fonts that you want to unembed:</p> 
+    <ul> 
+     <li><p>If necessary, select a different fonts directory from the <strong>Font source</strong> drop-down menu. This drop-down menu lists fonts directories specified in <strong>Home &amp;gt; Settings &amp;gt; Core System &amp;gt; Core Configurations</strong>.</p> </li> 
+     <li><p>Select one or more fonts from the <strong>Available Fonts</strong> list and click <strong>Add</strong>. These fonts are added to the <strong>Fonts to Unembed</strong> list.</p> </li> 
+     <li><p>If you want to unembed some fonts that don’t exist on the forms server, enter the names of those fonts in the <strong>Add fonts to unembed</strong> box. Click <strong>Add</strong>.</p> </li> 
+    </ul> 
+    <note> 
+     <p><em>If you want to unembed some fonts whose subsets are embedded in the document, prefix the font name with the + sign. For example, “+Helvetica”.</em></p> 
+    </note></li> 
+   <li><p>If you want to embed only the in-use subsets of the embedded fonts, select <strong>Subset all embedded fonts</strong>.</p> 
+    <note> 
+     <p><em>If you’re using this option in combination with <strong>Unembed some fonts</strong>, fonts in the <strong>A<strong>dd fonts to unembed</strong></strong> list are still completely unembedded.</em></p> 
+    </note> 
+    <note> 
+     <p><em>Font subsetting is the technique of embedding only a portion of a font. A font subset contains only the characters used in your document.</em></p> 
+    </note></li> 
+  </ol> 
+  <h3 id="transparency">Transparency</h3> 
+  <p>If your PDF document includes artwork that contains transparency, you can use the PDF Optimizer settings to flatten transparency and reduce file size.</p> 
+  <note> 
+   <p>If Acrobat 4.0 and later is selected as the Target PDF version, all transparent objects are flattened. For other Target PDF versions, transparency is supported and you can configure the transparency settings.</p> 
+  </note> 
+  <p>Select <strong>Transparency</strong> to configure the transparency settings while optimizing PDF documents.</p> 
+  <p><strong>Transparency level</strong> Specifies the amount of vector information that will be preserved. Higher settings preserve more vector objects, while lower settings rasterize more vector objects; intermediate settings preserve simple areas in vector form and rasterize complex ones. Select the lowest setting to rasterize all the artwork.</p> 
+  <p> </p> 
+  <p> </p> 
+  <note> 
+   <p>The amount of rasterization that occurs depends on the complexity of the page and the types of overlapping objects.</p> 
+  </note> 
+  <p><strong>Line Art and Text</strong> Resolution to which all objects, including images, vector artwork, text, and gradients, are rasterized. The supported values are 1 pixels per inch (ppi) to 9600 ppi.</p> 
+  <p> </p> 
+  <note> 
+   <p>Line Art and Text resolution should generally be set to 600-1200 ppi to provide high-quality rasterization, especially on serif or small point sized type.</p> 
+  </note> 
+  <p><strong>Gradient and Meshes</strong> Resolution to which gradient and meshes are rasterized. The supported values are 1 ppi to 1200 ppi.</p> 
+  <p> </p> 
+  <p> </p> 
+  <note> 
+   <p>Gradient and mesh resolution should generally be set to 150-300 ppi because the quality of the gradients, drop shadows, and feathers do not improve with higher resolutions, but printing time and file size increase.</p> 
+  </note> 
+  <p><strong>Convert All Text to Outlines</strong> Converts all type objects (point type, area type, and path type) to outlines and discards all type glyph information on pages containing transparency. This option ensures that the width of text stays consistent during flattening. Note that enabling this option will cause small fonts to appear slightly thicker when viewed in Acrobat or printed on low-resolution desktop printers. It doesn’t affect the quality of the type printed on high-resolution printers or imagesetters.</p> 
+  <p><strong>Convert All Strokes to Outlines</strong> Converts all strokes to simple filled paths on pages containing transparency. This option ensures that the width of strokes stays consistent during flattening. Note that enabling this option causes thin strokes to appear slightly thicker and may degrade flattening performance.</p> 
+  <p><strong>Clip Complex Regions</strong> Ensures that the boundaries between vector artwork and rasterized artwork fall along object paths. This option reduces stitching artifacts that result when part of an og] "&gt;</p> 
+  <note> 
+   <p>Some print drivers process raster and vector art differently, sometimes resulting in color stitching. You may be able to minimize stitching problems by disabling some print-driver specific color-management settings. These settings vary with each printer, so see the documentation that came with your printer for details.</p> 
+  </note> 
+  <p> Preserve Overprint: Blends the color of transparent artwork with the background color to create an overprint effect.</p> 
+  <p>The following table shows common types of printers and their resolution measured in dpi, their default screen ruling measured in lines per inch (lpi), and a resampling resolution for images measured in pixels per inch (ppi). For example, if you were printing to a 600-dpi laser printer, you would enter 170 for the resolution at which to resample images.</p> 
+  <p><strong>Images</strong> Select Images to specify compression and resampling options for color, grayscale, and monochrome images. You may want to experiment with these options to find an appropriate balance between file size and image quality.The resolution setting for color and grayscale images should be 1.5 to 2 times the line screen ruling at which the file will be printed. The resolution for monochrome images should be the same as the output device, but be aware that saving a monochrome image at a resolution higher than 1500 dpi increases the file size without noticeably improving image quality. Images that will be magnified, such as maps, may require higher resolutions.</p> 
+  <note> 
+   <p>Resampling monochrome images can have unexpected viewing results, such as no image display. If this happens, turn off resampling and convert the file again. This problem is most likely to occur with subsampling, and least likely with bicubic downsampling.</p> 
+  </note> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <th><p><strong>Printer resolution</strong></p> </th> 
+     <th><p><strong>Default line screen</strong></p> </th> 
+     <th><p><strong>Image resolution</strong></p> </th> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="NaN%"><p>300 dpi (laser printer)</p> </td> 
+     <td valign="top" width="NaN%"><p>60 lpi</p> </td> 
+     <td valign="top" width="NaN%"><p>120 ppi</p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="NaN%"><p>600 dpi (laser printer)</p> </td> 
+     <td valign="top" width="NaN%"><p>85 lpi</p> </td> 
+     <td valign="top" width="NaN%"><p>170 ppi</p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="NaN%"><p>1200 dpi (imagesetter)</p> </td> 
+     <td valign="top" width="NaN%"><p>120 lpi</p> </td> 
+     <td valign="top" width="NaN%"><p>240 ppi</p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="NaN%"><p>2400 dpi (imagesetter)</p> </td> 
+     <td valign="top" width="NaN%"><p>150 lpi</p> </td> 
+     <td valign="top" width="NaN%"><p>300 ppi</p> </td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h4>Discard Objects</h4> 
+  <ul> 
+   <li>Select <strong>Discard Objects</strong> to specify objects to remove from the PDF and to optimize curved lines in CAD drawings.</li> 
+   <li><strong>Discard All Form Submission, Import And Reset Actions</strong>: Disables all actions that are related to submitting or importing form data, and resets form fields. This option retains form objects that actions are linked to.</li> 
+   <li><strong>Discard All JavaScript Actions</strong>: Removes from the PDF any actions that use JavaScript.</li> 
+   <li><strong>Discard Embedded Page Thumbnails</strong>: Removes embedded page thumbnails. This option is useful for large documents, which can take a long time to draw page thumbnails after you click the Pages button.</li> 
+   <li><strong>Convert Smooth Lines To Curves</strong>: Reduces the number of control points used to build curves in CAD drawings, which results in smaller PDF files and faster onscreen rendering.</li> 
+   <li><strong>Discard Embedded Print Settings</strong>: Removes embedded print settings, such as page scaling and duplex mode, from the document.</li> 
+   <li><strong>Discard Bookmarks</strong>: Removes all bookmarks from the document.</li> 
+   <li><strong>Flatten Form Fields</strong>: Makes form fields unusable with no change to their appearance. Form data is merged with the page to become page content.</li> 
+   <li><strong>Discard All Alternate Images</strong>: Removes all versions of an image except the version that is destined for onscreen viewing. Some PDFs include multiple versions of the same image for different purposes, such as low-resolution onscreen viewing and high-resolution printing.</li> 
+   <li><strong>Discard Document Tags</strong>: Removes tags from the document, which also removes the accessibility and reflow capabilities for the text.</li> 
+   <li><strong>Detect And Merge Image Fragments</strong>: Looks for images or masks that are fragmented into thin slices and tries to merge the slices into a single image or mask.</li> 
+   <li><strong>Discard Embedded Search Index</strong>: Removes embedded search indexes, which reduces file size.</li> 
+  </ul> 
+  <h4>Discard User Data</h4> 
+  <p>Select <strong>Discard User Data</strong> to remove any personal information that you do not want to distribute or share with other users.</p> 
+  <ul> 
+   <li><strong>Discard All Comments, Forms And Multimedia</strong>: Removes all comments, forms, form fields, and multimedia from the PDF.</li> 
+   <li><strong>Discard All Object Data</strong>: Removes all objects from the PDF.</li> 
+   <li><strong>Discard External Cross References</strong>: Removes links to other documents. Links that jump to other locations within the PDF are not removed.</li> 
+   <li><strong>Discard Hidden Layer Content And Flatten Visible Layers</strong>: Decreases file size. The optimized document looks like the original PDF but does not contain layer information.</li> 
+   <li><strong>Discard Document Information And Metadata</strong>: Removes information in the document information dictionary and all metadata streams. (Use the Save As command to restore metadata streams to a copy of the PDF.)</li> 
+   <li><strong>Discard File Attachments</strong>: Removes all file attachments, including attachments added to the PDF as comments. (PDF Optimizer does not optimize attached files.)</li> 
+   <li><strong>Discard Private Data Of Other Applications</strong>: Strips information from a PDF document that is useful only to the application that created the document. This setting does not affect the functionality of the PDF, but it does decrease the file size.</li> 
+  </ul> 
+  <h3>Clean Up</h3> 
+  <p>Select <strong>Clean Up</strong> to remove unnecessary items from the document. <br /> These items include elements that are obsolete or unnecessary for your intended use of the document. Removing certain elements can seriously affect the functionality of the PDF. By default, only elements that do not affect functionality are selected. If you are unsure of the implications of removing other options, use the default selections.</p> 
+  <p><strong>Compression</strong></p> 
+  <p> Select one of the following Flate compression options from the drop-down menu:</p> 
+  <ul> 
+   <li>Compress entire file</li> 
+   <li>Compress document structure</li> 
+   <li>Remove compression</li> 
+   <li>Leave compression untouched</li> 
+  </ul> 
+  <p><strong>Use Flate To Encode Streams That Are Not Encoded</strong>: Applies Flate compression to all streams that are not encoded.</p> 
+  <p><strong>Discard Invalid Bookmarks</strong>: Removes bookmarks that point to pages in the document that are deleted.</p> 
+  <p><strong>Discard Unreferenced Named Destinations</strong>: Removes named destinations that are not being referenced internally from within the PDF document. This option does not check for links from other PDF files or websites.</p> 
+  <p><strong>Optimize The PDF For Fast Web View</strong>: Restructures a PDF document for page-at-a-time downloading (byte-serving) from web servers.</p> 
+  <p><strong>In Streams That Use LZW Encoding, Use Flate Instead</strong>: Applies Flate compression to all content streams and images that use LZW encoding.</p> 
+  <p><strong>Discard Invalid Links</strong>: Removes links that jump to invalid destinations.</p> 
+  <p><strong>Optimize Page Content</strong>: Converts all end-of-line characters to space characters, which improves Flate compression.</p> 
+  <p> </p> 
+  <h2>Microsoft Excel settings (Windows only)</h2> 
+  <p>These options determine how Microsoft Excel files are converted. For instructions about accessing these options, see <a href="../../../forms/using/admin-help/configuring-file-type-settings1.md#main-pars-heading-0">Create or edit file type settings</a>.</p> 
+  <p><strong>Try OpenOffice As Fallback Converter</strong>: When this option is selected and a conversion using Microsoft Excel fails or reaches the specified time-out limit, PDF Generator attempts the conversion by using OpenOffice. If the conversion using OpenOffice fails or reaches the specified time-out limit, an exception is written to the log file.</p> 
+  <p><strong>Filename Extensions</strong>: Specifies the filename extensions for file types, separated by commas, that are accepted for this application. The default is <span class="code">xls,xlsx</span>. Do not include a period before or a space between the extensions.</p> 
+  <p><strong>Create PDF/A-1a Compliant File</strong>: Forces the use of the PDF/A-1b:2005 RGB Adobe PDF setting.</p> 
+  <p><strong>Add Bookmarks To Adobe PDF</strong>: Converts Excel worksheet names to bookmarks. This option is selected by default.</p> 
+  <p><strong>Fit Worksheet To A Single Page</strong>: Reduces the size of the text to fit the worksheet on a single page.</p> 
+  <p><strong>Convert Entire Workbook</strong>: Converts all worksheets in the Excel file. If this option is not selected, only the current page is converted.</p> 
+  <p><strong>Run Macros Automatically</strong>: Runs any macros in the Excel document (such as a macro that inserts the current time) before converting the document.</p> 
+  <p><strong>Convert Document Information</strong>: Adds PDF document properties based on the document information in the source file. This includes information such as document title, author, subject, and keywords.</p> 
+  <p><strong>Add Links To Adobe PDF</strong>: Converts hyperlinks in the source file to hyperlinks in the PDF document.</p> 
+  <p><strong>Attach Source File To Adobe PDF</strong>: When this option is selected, the original Excel spreadsheet is inserted as an attachment inside the generated PDF document.</p> 
+  <p><strong>Enable Accessibility And Reflow With Tagged Adobe PDF</strong>: Embeds tags inside the PDF document to enable accessibility and reflow.</p> 
+  <p><strong>List Of Excel Addins To Load</strong>: By default (for security reasons), no Excel add-ins are run when an Excel file is converted to PDF. To allow certain Excel add-ins to run during conversion, provide a comma-separated list of the names of the add-ins.</p> 
+  <p><strong>List Of Worksheets To Convert</strong>: When this box is empty, all worksheets in the Excel spreadsheet are included in the generated PDF. To selectively convert a subset of the worksheets, provide a comma-separated list of worksheet names.</p> 
+  <p> </p> 
+  <h2>Microsoft PowerPoint settings (Windows only)</h2> 
+  <p>These options determine how Microsoft PowerPoint files are converted. For instructions about accessing these options, see <a href="../../../forms/using/admin-help/configuring-file-type-settings1.md#create-or-edit-file-type-settings">Create or edit file type settings</a>.</p> 
+  <p><span class="uicontrol">Try OpenOffice As Fallback Converter</span>: When this option is selected and a conversion using Microsoft PowerPoint fails or reaches the specified time-out limit, PDF Generator attempts the conversion by using OpenOffice. If the conversion using OpenOffice fails or reaches the specified time-out limit, an exception is written to the log file.</p> 
+  <p><strong><span class="uicontrol">Filename Extensions</span></strong>: Specifies the filename extensions for file types, separated by commas, that are accepted for this application. The default is ppt,pptx. Do not include a period before or a space between the extensions.</p> 
+  <p><strong><span class="uicontrol">Convert Document Information</span></strong>: Adds document information from the Properties dialog box of the source file, including title, subject, author, keywords, manager, company, category, and comments. This option is selected by default.</p> 
+  <p><strong><span class="uicontrol">Add Bookmarks To Adobe PDF</span></strong>: Converts PowerPoint titles to bookmarks. This option is selected by default.</p> 
+  <p><span class="uicontrol">Attach Source File To Adobe PDF</span>: Adds the source file to the PDF file as an attachment. This option is deselected by default.</p> 
+  <p><span class="uicontrol">Enable Accessibility And Reflow With Tagged Adobe PDF</span>: Embeds tags into the PDF file. This option is deselected by default.</p> 
+  <p><span class="uicontrol">Convert Multimedia To PDF Multimedia</span>: Converts multimedia to PDF multimedia, where possible. This option is selected by default.</p> 
+  <p><span class="uicontrol">Convert Speaker Notes</span>: Converts speaker notes to PDF.</p> 
+  <p><span class="uicontrol">Run Macros Automatically</span>: Runs any macros in the PowerPoint document (such as a macro that inserts the current time) before converting the document.</p> 
+  <p><span class="uicontrol">PDF Layout Based On PowerPoint Printer Settings</span>: Uses PowerPoint printer settings to lay out the PDF document.</p> 
+  <p><span class="uicontrol">Add Links To Adobe PDF</span>: Preserves existing links when the file is converted. The appearance of links is generally unchanged. Links can be created only if the Enable Accessibility option is also selected. This option is deselected by default.</p> 
+  <p><span class="uicontrol">Save Slide Transitions In Adobe PDF</span>: Converts slide transitions. This option is selected by default.</p> 
+  <p><span class="uicontrol">Save Animations In Adobe PDF</span>: Saves converted animations in the PDF file.</p> 
+  <p><span class="uicontrol">Convert Hidden Slides To PDF Pages</span>: Converts hidden slides.</p> 
+  <p><span class="uicontrol">Create PDF/A-1a Compliant File</span>: Forces the use of the PDF/A-1b:2005 RGB Adobe PDF setting. A few PowerPoint features are not converted when you produce a PDF file. If a PowerPoint transition does not have an equivalent transition in Acrobat, a similar transition is substituted. If multiple animation effects are in the same slide, a single effect is used. Page transitions and bullet fly-ins are converted.</p> 
+  <p> </p> 
+  <h2>Microsoft Project settings (Windows only)</h2> 
+  <p>These options determine how Microsoft Project files are converted. For instructions about accessing these options, see <a href="../../../forms/using/admin-help/configuring-file-type-settings1.md#main-pars-heading-0">Create or edit file type settings</a>.</p> 
+  <ol> 
+   <li><span class="uicontrol"><strong>Filename Extensions</strong>:</span> Specifies the filename extensions for file types, separated by commas, that are accepted for this application. The default is <span class="code">mpp</span>. Do not include a period before or a space between the extensions.</li> 
+   <li><strong><span class="uicontrol">Convert Document Information</span></strong>: Adds document information from the Properties dialog box of the source file, including title, subject, author, keywords, manager, company, category, and comments. This option is selected by default.</li> 
+   <li><span class="uicontrol">Attach Source File To Adobe PDF</span>: Adds the source file to the PDF file as an attachment. </li> 
+   <li><span class="uicontrol">Create PDF/A-1a Compliant File</span>: Forces the use of the PDF/A-1b:2005 RGB Adobe PDF setting.</li> 
+   <li><span class="uicontrol">Run Macros Automatically</span>: Runs any macros in the Microsoft Project document (such as a macro that inserts the current time) before converting the document. </li> 
+  </ol> 
+  <h2>Microsoft Word settings (Windows only)</h2> 
+  <p>These options determine how Microsoft Word files are converted. For instructions about accessing these options, see <a href="../../../forms/using/admin-help/configuring-file-type-settings1.md#main-pars-heading-0">Create or edit file type settings</a>.</p> 
+  <p><span class="uicontrol">Try OpenOffice As Fallback Converter</span>: When this option is selected and a conversion using Microsoft Word fails or reaches the specified time-out limit, PDF Generator attempts the conversion by using OpenOffice. If the conversion using OpenOffice fails or reaches the specified time-out limit, an exception is written to the log file.</p> 
+  <p><span class="uicontrol">Filename Extensions</span>: Specifies the filename extensions for file types, separated by commas, that are accepted for this application. The default is <span class="code">doc,docx,rtf,txt</span>. Do not include a period before or a space between the extensions.</p> 
+  <p><span class="uicontrol">Convert Document Information</span>: Adds document information from the Properties dialog box of the source file, including title, subject, author, keywords, manager, company, category, and comments. This option is selected by default.</p> 
+  <p><span class="uicontrol">Add Bookmarks To Adobe PDF</span>: Converts headings to bookmarks. This option is selected by default.</p> 
+  <p><span class="uicontrol">Attach Source File To Adobe PDF</span>: Adds the source file to the PDF file as an attachment.</p> 
+  <p><span class="uicontrol">Convert Cross-References And Table Of Contents To Links</span>: Converts all cross-references and table of contents entries to links. This option is selected by default.</p> 
+  <p><span class="uicontrol">Enable Accessibility And Reflow With Tagged Adobe PDF</span>: Embeds tags into the PDF file. This option is selected by default.</p> 
+  <p><span class="uicontrol">Create PDF/A-1a Compliant File</span>: If selected, forces the PDF/A-1b:2005 RGB Adobe PDF setting to be used.</p> 
+  <p><span class="uicontrol">Run Macros Automatically</span>: Runs any macros in the Word document (such as a macro that inserts the current time) before converting the document.</p> 
+  <p><span class="uicontrol">Preserve Document Markup In Adobe PDF</span>: Converts markup in the Word document to annotations in the PDF file.</p> 
+  <p><span class="uicontrol">Add Links To Adobe PDF</span>: Converts hyperlinks in the source file to hyperlinks in the PDF document.</p> 
+  <p><span class="uicontrol">Convert Footnote And Endnote Links</span>: Creates links from the footnote and endnote citations to notes in the PDF document.</p> 
+  <p><span class="uicontrol">Convert Displayed Comments To Notes in Adobe PDF</span>: Converts comments in the Word document to text notes in the PDF document.</p> 
+  <p><span class="uicontrol">Enable Advanced Tagging</span>: Adds advanced tags for enhanced accessibility.</p> 
+  <p><span class="uicontrol">Convert All Styles To Bookmarks</span>: Converts all styles in the Word document to bookmarks in the PDF document.</p> 
+  <p><span class="uicontrol">Styles With Levels</span>: Specifies which styles in the Word document are converted to bookmarks in the PDF document. Also specifies the level of the bookmarks. To use this feature, deselect the <span class="uicontrol">Convert All Styles To Bookmarks</span> option and specify the style names in the following format:</p> 
+  <p>styleName1=level1[,styleName2=level2...]</p> 
+  <p>If a Microsoft Word style name includes a comma (,) or equal sign (=), precede the special characters with the escape character (“\_). For example, specify a style named “Heading, 1" as Heading\, 1. </p> 
+  <p> </p> 
+  <h2 id="visio">Microsoft Visio settings (Windows only)</h2> 
+  <p><strong>Convert Document Information</strong>: Adds document information from the Properties dialog box of the source file, including title, subject, author, keywords, manager, company, category, and comments. This option is selected by default. This option is enabled by default.</p> 
+  <p><strong>Add Links To Adobe PDF</strong>: Preserves all links. This option is selected by default.</p> 
+  <p><strong>Add Bookmarks To Adobe PDF</strong>: Converts headings to bookmarks. This option is selected by default.</p> 
+  <p><strong>Attach Source File To Adobe PDF</strong>: Adds the source file to the PDF file as an attachment.</p> 
+  <p><strong>Always Flatten Layers In Adobe PDF</strong>: Flattens all Visio layers.</p> 
+  <p><strong>Convert All Pages</strong>: Converts all pages of the Visio file.</p> 
+  <p><strong>Open Layers Panel When Viewed In Adobe Acrobat</strong>: If Visio layers are not flattened, opens a window where you can specify the layers that are preserved in the PDF file when opened using Acrobat. This option is selected by default.</p> 
+  <p><strong>Create PDF/A-1b Compliant File</strong>: Forces the use of the Adobe PDF Setting PDF/A-1b:2005 (RGB).</p> 
+  <p><strong>Convert Comments To Adobe PDF Comments</strong>: Converts Visio notes to PDF comments.</p> 
+  <h2>Microsoft Publisher settings (Windows only)</h2> 
+  <p>These options determine how Microsoft Publisher files are converted. For instructions about accessing these options, see <a href="../../../forms/using/admin-help/configuring-file-type-settings1.md#main-pars-heading-0">Create or edit file type settings</a>.</p> 
+  <p><span class="uicontrol">Filename Extensions</span>: Specifies the filename extensions for file types, separated by commas, that are accepted for this application. The default is <span class="code">pub</span>. Do not include a period before or a space between the extensions.</p> 
+  <h2>AutoCAD settings (Windows only)</h2> 
+  <p>These options determine how AutoCAD files are converted. For instructions about accessing these options, see <a href="../../../forms/using/admin-help/configuring-file-type-settings1.md#create-or-edit-file-type-settings">Create or edit file type settings</a>.</p> 
+  <p><span class="uicontrol">Filename Extensions</span>: Specifies the filename extensions for file types, separated by commas, that are accepted for this application. The default is <span class="code">dwg</span>. Do not include a period before or a space between the extensions.</p> 
+  <p><span class="uicontrol">Convert Document Information</span>: Adds document information from the Properties dialog box of the source file, including title, subject, author, keywords, manager, company, category, and comments. This option is selected by default.</p> 
+  <p><span class="uicontrol">Add Bookmarks To Adobe PDF</span>: Converts headings to bookmarks.</p> 
+  <p><span class="uicontrol">Always Flatten Layers In Adobe PDF</span>: Flattens all AutoCAD layers.</p> 
+  <p><span class="uicontrol">Open Layers Pane When Viewed In Adobe Acrobat</span>: Shows the layers structure when the PDF is opened in Acrobat.</p> 
+  <p><span class="uicontrol">Create PDF/E-1 Compliant File</span>: Creates a file that is PDF/E-1 compliant. PDF/E is an ISO standard for the exchange of engineering and technical documentation. For more information about PDF/E-1, see <a href="http://www.adobe.com/enterprise/standards/index.html">Adobe and industry standards</a>.</p> 
+  <p><span class="uicontrol">Convert All Layouts</span>: Includes all layouts in the PDF.</p> 
+  <p><span class="uicontrol">Convert Model Space to 3D</span>: When selected, the model space layout is converted to a 3D annotation in the PDF.</p> 
+  <p><span class="uicontrol">Add Links To Adobe PDF</span>: If selected, preserves all links.</p> 
+  <p><span class="uicontrol">Attach Source File To Adobe PDF</span>: Adds the source file to the PDF file as an attachment.</p> 
+  <p><span class="uicontrol">Create PDF/A-1b Compliant File</span>: Forces the use of the PDF/A-1b Adobe PDF setting.</p> 
+  <p><span class="uicontrol">Convert All Layers</span>: By default, PDF Generator converts only the default layer of AutoCAD files to PDF instead of all layers within the file. Select this option to convert all layers of the file.</p> 
+  <p><span class="uicontrol">Embed Scale Information</span>: Preserves drawing scale information.</p> 
+  <p><span class="uicontrol">Convert Current Layout</span>: Includes only the current layout in the PDF.</p> 
+  <p><span class="uicontrol">List Of AutoCAD Layouts To Convert</span>: An AutoCAD drawing can have multiple layouts. When this box is empty, all layouts in the AutoCAD drawing are included in the generated PDF document. To selectively convert a subset of the layouts, provide a comma-separated list of layout names. </p> 
+  <p> </p> 
+  <h2>OpenOffice settings</h2> 
+  <p>These options determine how OpenOffice files are converted. For instructions about accessing these options, see <a href="../../../forms/using/admin-help/configuring-file-type-settings1.md#create-or-edit-file-type-settings">Create or edit file type settings</a>.</p> 
+  <p><strong>Try PDFMaker As Fallback Converter</strong>: When this option is selected and a conversion using OpenOffice fails or reaches the specified time-out limit, PDF Generator attempts the conversion by using PDFMaker. If the conversion using PDFMaker fails or reaches the specified time-out limit, an exception is written to the log file.</p> 
+  <p><strong>Filename Extensions</strong>: Specify the filename extensions for file types, separated by commas, that are accepted for this application. The default is <span class="code">odt,odp,ods,odg,odf,sxw,sxi,sxd</span>. Do not include a period before or a space between the extensions.</p> 
+  <p><strong>Range</strong>: Convert all pages or specify particular pages or a page range. If a page range is not defined, all pages are converted. To export a range of pages, use the format 3-6. To export single pages, use the format 7;9;11. You can export a combination of page ranges and single pages by using a format such as 3-6;8;10;12.</p> 
+  <p><strong>Page Orientation</strong>: For plain text files only, select either portrait or landscape for the converted PDF document.</p> 
+  <p><strong>Images</strong>: Configure how images are converted. EPS images with embedded previews are exported only as previews. EPS images without embedded previews are exported as empty placeholders. With lossless compression of images, all pixels are preserved. With JPEG compression of images and a high-quality level, almost all pixels are preserved. With a low-quality level, some pixels get lost and artifacts are introduced, but file sizes are reduced.</p> 
+  <p><strong>General</strong>: Enable the options to convert a tagged PDF or to export Writer and FormCalc document notes, Impress slide transition effects, or blank pages to the PDF. When tags are exported, the file size can increase by large amounts. Some tags that are exported are tables of contents, hyperlinks, and controls.</p> 
+  <p>You can also specify how forms are submitted. The options are XML, FDF, PDF, or HTML. This setting overrides the control's URL property that you set in the document. Only one common setting can be selected for the PDF document:</p> 
+  <ul> 
+   <li>PDF (sends the whole document)</li> 
+   <li>FDF (sends the control contents)</li> 
+   <li>HTML</li> 
+   <li>XML</li> 
+  </ul> 
+  <p><strong>Tagged PDF</strong>: Enables creation of tagged PDF from OpenOffice documents. Tagged PDF contains information about the structure of the document contents. This can help when displaying the document on devices with different screens, and when using screen reader software. It also helps accessibility software to perform various useful operations with the PDF document, such as reading aloud the contents of the PDF document.</p> 
+  <p><strong>Export Notes</strong>: Converts the notes in OpenOffice documents to notes in the generated PDF document.</p> 
+  <p><strong>Use Transition Effects</strong>: Converts the slide transition effects in OpenOffice presentations to corresponding PDF transition effects.</p> 
+  <p><strong>Submit Forms In Format</strong>: Creates a PDF form that can be filled out and printed by the user of the PDF document.</p> 
+  <p><strong>Export Automatically Inserted Blank Pages</strong>: When this option is selected, automatically inserted blank pages are included in the generated PDF document. This is useful if you are printing a PDF document double-sided. For example, a book may be configured so that the first page of chapter always starts on an odd-numbered page. If the previous chapter ends on an odd-numbered page, OpenOffice insets a blank even-numbered page. This option controls whether to include that even-numbered page in the generated PDF.</p> 
+  <h2>Other applications’ settings (Windows only)</h2> 
+  <p>You cannot change the settings for other applications through administration console; they display the filename extensions for the supported file types. For instructions about accessing these settings, see <a href="http://help.adobe.com/en_US/AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7e42.2.html">Create or edit file type settings</a>.</p> 
+  <ul> 
+   <li>Corel WordPerfect: <span class="code">wpd</span></li> 
+   <li>Adobe PageMaker: <span class="code">pmd, pm6, p65, pm</span></li> 
+   <li>Adobe FrameMaker: <span class="code">fm</span></li> 
+   <li>Adobe Photoshop: <span class="code">psd</span></li> 
+  </ul> 
+  <p>Support for these file types may need to be customized. For more information, see “Adding Support for Additional Native File Formats” in <a href="http://www.adobe.com/go/learn_aemforms_programming_62" target="_blank">Programming with AEM forms</a>.</p> 
+  <p>For help on configuring a PDFG network printer, see <a href="../../../forms/using/admin-help/setting-pdfg-network-printer-windows.md" target="_blank">Setting up a PDFG network printer (Windows only)</a>.</p> 
+ </body> 
+</html>

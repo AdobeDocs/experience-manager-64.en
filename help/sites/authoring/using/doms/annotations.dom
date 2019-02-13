@@ -1,0 +1,112 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="Annotations when Editing a Page" name="seoTitle" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2017-12-01T19:03:55.578-0500" name="jcr:created" />
+  <meta content="2018-10-28T00:23:36.096-0400" name="lastPublishExternalDate" />
+  <meta content="2018-10-28T00:23:36.102-0400" name="cq:lastModified" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:page-authoring;content_type:reference" name="cq:tags" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="2018-10-28T00:23:36.130-0400" name="cq:lastReplicated" />
+  <meta content="trushton" name="cq:lastModifiedBy" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2018-10-28T00:23:36.096-0400" name="publishExternalDate" />
+  <meta content="/content/docs/en/aem/6-3/author/page-authoring/annotations" name="qaNotes" />
+  <meta content="2017-10-31T16:21:10.973-0400" name="firstPublishExternalDate" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="audience:authoring" name="primaryAudienceTag" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="Annotations when Editing a Page" name="jcr:title" />
+  <meta content="b6e9d9af-737c-4867-a062-e1616158f793" name="jcr:uuid" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/annotations.html" name="publishExternalURL" />
+  <meta content="Chris Bohnert" name="contentOwner" />
+  <meta content="jsyal@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="Annotations when Editing a Page" name="navTitle" />
+  <meta content="2018-04-19T10:28:15.535-0400" name="locHandOffDate" />
+  <meta content="2018-10-28T00:23:36.096-0400" name="topicBrowsingSortDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Many components directly related to content allow you to add an annotation" name="seoDescription" />
+  <meta content="95c6af56-f909-4a28-879f-ee7bb14f7d40" name="jcr:predecessors" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="/content/help/en/experience-manager/6-4/sites/authoring/morehelp/page-authoring;/content/help/en/experience-manager/6-4/sites/authoring/morehelp/page-authoring" name="moreHelpPaths" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="jsyal" name="cq:lastReplicatedBy" />
+ </head>
+ <body>
+  <p>Adding content to the pages of your website is often subject to discussions prior to it actually being published. To aid this, many components directly related to content (as opposed, for example, to layout) allow you to add an annotation.</p> 
+  <p>An annotation places a colored marker/sticky-note on the page. The annotation allows you (or other users) to leave comments and/or questions for other authors/reviewers.<br /> </p> 
+  <note>
+   <p>The definition of an individual component type determines whether adding an annotation is possible (or not) on instances of that component.<br /> </p> 
+  </note>
+  <note>
+   <p>Annotations created in the Classic UI will be shown in the touch-enabled UI. However sketches are UI-specific and they are only shown in the UI in which they were created.</p> 
+  </note>
+  <note>
+   <p>Deleting a resource (e.g. paragraph) deletes all the annotations and sketches attached to that resource irrespective of their position on the page as a whole.<br /> </p> 
+  </note>
+  <note>
+   <p>Depending on your requirements you can also develop a workflow to send notifications when annotations are added, updated, or deleted.</p> 
+  </note>
+  <h2>Annotations</h2>
+  <p>A special <a href="../../../sites/authoring/using/author-environment-tools.md#main-pars-title-20">mode</a> is used for creating and viewing annotations.</p> 
+  <note>
+   <p>Don't forget that <a href="../../../sites/authoring/using/basic-handling.md#main-pars-title-281465694">comments</a> are also available for providing feedback on a page.</p> 
+  </note>
+  <note>
+   <p>You can annotate a variety of resources:<br /> </p> 
+   <ul> 
+    <li><a href="../../../assets/using/managing-assets-touch-ui.md#annotating">Annotating Assets</a></li> 
+    <li><a href="../../../assets/using/managing-video-assets.md#annotatingvideos">Annotating Videos</a></li> 
+   </ul> 
+  </note>
+  <h3>Annotating a Component</h3>
+  <p>The Annotate mode allows you to create, edit, move or delete annotations on your content:</p> 
+  <ol>
+   <li><p>You can enter Annotate mode using the icon in the toolbar (top right) when editing a page:</p> <img imageRotate="0" src="assets/screen_shot_2018-03-22at110414.png" /><p>You can now view any existing annotations.</p> 
+    <note>
+     <p>To exit Annotation mode tap/click the Annotate icon (x symbol) at the right of the top toolbar.</p> 
+    </note></li>
+   <li><p>Click/tap the Add Annotation icon (plus symbol at the left of the toolbar) to start adding annotations.<br /> </p> 
+    <note>
+     <p>To stop adding annotations (and return to viewing) tap/click the Cancel icon (x symbol in a white circle) at the left of the top toolbar.</p> 
+    </note></li>
+   <li><p>Click/tap the required component (components that can be annotated will be highlighted with a blue border) to add the annotation and open the dialog:</p> <img imageRotate="0" src="assets/screen_shot_2018-03-22at110606.png" /><p>Here you can use the appropriate field and/or icon to:</p> 
+    <ul> 
+     <li>Enter the annotation text.</li> 
+     <li>Create a sketch (lines and shapes) to highlight an area of the component.<br /> The cursor will change to a crosswire when you are creating a sketch. You can draw multiple distinct lines. The sketch line reflects the annotation color and can be either an arrow, circle, or oval.</li> 
+    </ul> <img imageRotate="0" src="assets/screen_shot_2018-03-22at110640.png" />
+    <ul> 
+     <li>Choose/change the color:</li> 
+    </ul> <img imageRotate="0" src="assets/chlimage_1-298.png" />
+    <ul> 
+     <li>Delete the annotation.</li> 
+    </ul> <img imageRotate="0" src="assets/screen_shot_2018-03-22at110647.png" /></li>
+   <li><p>You can close the annotation dialog by clicking/tapping outside the dialog. A truncated view (the first word) of the annotation, together with any sketches, is shown:</p> <img imageRotate="0" src="assets/screen_shot_2018-03-22at110850.png" /></li>
+   <li><p>After you have finished editing a specific annotation, you can:</p> 
+    <ul> 
+     <li>Click/tap the text marker to open the annotation. Once open you can view the full text, make changes or delete the annotation.
+      <ul> 
+       <li>Sketches cannot be deleted independently of the annotation.</li> 
+      </ul> </li> 
+     <li>Reposition the text marker.</li> 
+     <li>Click/tap on a sketch line to select that sketch and drag it to the desired position.<br /> </li> 
+     <li>Move, or copy, a component
+      <ul> 
+       <li>Any related annotations and their sketches will also be moved or copied and their position in relation to the paragraph will remain the same.</li> 
+      </ul> </li> 
+    </ul> </li>
+   <li><p>To exit Annotation mode, and return to the mode previously used, tap/click the Annotate icon (x symbol) at the right of the top toolbar.</p> </li>
+  </ol>
+  <h3>Annotation Indicator</h3>
+  <p>Annotations do not appear in Edit mode, but the badge at the top right of the toolbar shows how many annotations exist for the current page. The badge replaces the default Annotations icon, but still functions as a quick link that toggles to/from the Annotate mode:<br /> </p> 
+  <img imageRotate="0" src="assets/chlimage_1-299.png" />
+ </body>
+</html>

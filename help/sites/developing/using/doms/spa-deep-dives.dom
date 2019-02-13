@@ -1,0 +1,47 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="bohnert" name="cq:lastModifiedBy" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-12-11T04:52:17.504-0500" name="cq:lastModified" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2019-01-15T15:39:01.449-0500" name="jcr:created" />
+  <meta content="The AEM SPA Editor SDK was featured in a series of AEM Gems sessions. Hosted by Adobe engineers, this series can serve as a great guide to gain a deeper understanding of the AEM SPA Editor SDK at a low level, hosted by Adobe engineers." name="seoDescription" />
+  <meta content="bohnert" name="cq:lastReplicatedBy" />
+  <meta content="2018-12-11T04:52:17.494-0500" name="publishExternalDate" />
+  <meta content="SPA Deep Dives" name="jcr:title" />
+  <meta content="2018-12-11T04:52:17.494-0500" name="topicBrowsingSortDate" />
+  <meta content="bohnert" name="contentOwner" />
+  <meta content="7e5a23c6-0c99-4354-83f9-fae47feb5945" name="jcr:predecessors" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2018-12-11T04:52:17.674-0500" name="cq:lastReplicated" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/spa-deep-dives.html" name="publishExternalURL" />
+  <meta content="audience:developing" name="primaryAudienceTag" />
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/morehelp/spa;/content/help/en/experience-manager/6-4/sites/developing/morehelp/spa" name="moreHelpPaths" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="en" name="pageCreatedAt" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:spa;content_type:reference" name="cq:tags" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-12-11T04:52:17.494-0500" name="lastPublishExternalDate" />
+  <meta content="bohnert@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2018-12-11T04:52:17.494-0500" name="firstPublishExternalDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="37f7390d-411e-48f5-bdb9-53cdbc4350e2" name="jcr:uuid" />
+  <meta content="SPA Deep Dives" name="seoTitle" />
+ </head>
+ <body>
+  <p>The AEM SPA Editor SDK was featured in a series of AEM Gems sessions. <a href="/content/help/en/experience-manager/kt/eseminars/gems/aem-index">Adobe Experience Manager Gems</a> is a series of technical deep dives delivered by Adobe experts. Hosted by Adobe engineers, this series can serve as a great guide to gain a deeper understanding of the AEM SPA Editor SDK at a low level.<br /> </p> 
+  <h2>Gem Sessions</h2>
+  <ul> 
+   <li><strong><a href="/content/help/en/experience-manager/kt/eseminars/gems/aem-spa-editor">AEM SPA Editor</a><a href="/content/help/en/experience-manager/kt/eseminars/gems/aem-spa-editor"></a></strong> - A beginner's overview of the SPA Editor. If are just getting started with SPAs in AEM, start here.</li> 
+   <li><strong><a href="/content/help/en/experience-manager/kt/eseminars/gems/SPA-Editor-SDK-Deep-Dive-React">SPA Editor SDK Deep Dive - Part 1 - React</a></strong> - A deep dive into the development of Single Page Applications that can be authored using the AEM Page Editor. Covering considerations and recommendations about the structure of projects, review of all the layers that compose the architecture of a project, the role of AEM and SPA components, structure and key JSON fields of the model object, and more!</li> 
+   <li><strong><a href="/content/help/en/experience-manager/kt/eseminars/gems/SPA-Editor-SDK-Deep-Dive-Angular">SPA Editor SDK Deep Dive - Part 2 - Angular</a></strong> - A deep dive into the development of Single Page Applications that can be authored using the AEM Page Editor. Covering considerations and recommendations about the structure of projects, review of all the layers that compose the architecture of a project, the role of AEM and SPA components, structure and key JSON fields of the model object, and more!</li> 
+  </ul> 
+ </body>
+</html>

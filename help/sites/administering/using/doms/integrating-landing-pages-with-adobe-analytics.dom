@@ -1,0 +1,111 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="Integrating Landing Pages with Adobe Analytics" name="jcr:title" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2018-04-26T10:12:52.023-0400" name="cq:lastModified" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="2018-04-03T07:04:27.504-0400" name="topicBrowsingSortDate" />
+  <meta content="2018-04-26T10:12:52.022-0400" name="locHandOffDate" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="2018-04-03T07:04:27.504-0400" name="lastPublishExternalDate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2017-12-01T19:05:31.009-0500" name="jcr:created" />
+  <meta content="/content/help/en/experience-manager/6-4/sites/administering/morehelp/personalization;/content/help/en/experience-manager/6-4/sites/administering/morehelp/personalization" name="moreHelpPaths" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/integrating-landing-pages-with-adobe-analytics.html" name="publishExternalURL" />
+  <meta content="2017-10-31T16:24:51.799-0400" name="firstPublishExternalDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="audience:administering" name="primaryAudienceTag" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="light" name="gnavTheme" />
+  <meta content="Integrating Landing Pages with Adobe Analytics" name="navTitle" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="/content/docs/en/aem/6-3/administer/personalization/campaigns/integrating-landing-pages-with-sitecatalyst" name="qaNotes" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:personalization;content_type:reference" name="cq:tags" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2018-04-03T07:04:27.504-0400" name="publishExternalDate" />
+  <meta content="dist5" name="distType" />
+  <meta content="2018-04-03T07:04:27.765-0400" name="cq:lastReplicated" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" />
+  <meta content="a6222ab5-c215-4f1e-87ed-e562fb0c28d7" name="jcr:uuid" />
+  <meta content="msm-service" name="contentOwner" />
+  <meta content="Integrating Landing Pages with Adobe Analytics" name="seoTitle" />
+  <meta content="Learn how to integrate landing pages with Adobe Analytics." name="seoDescription" />
+  <meta content="81f7aa26-a9d0-4591-9dc2-a778752efd48" name="jcr:predecessors" />
+ </head>
+ <body>
+  <p>AEM has integrated the landing pages solution with <a href="http://www.omniture.com/en/products/analytics/sitecatalyst">Adobe Analytics</a> by using the following call-to-action (CTA) components:</p> 
+  <ol> 
+   <li>Click Through Component</li> 
+   <li>Graphical Link Component</li> 
+  </ol> 
+  <p>These components expose certain attributes that can be mapped via Adobe Analytics variables (Traffic, conversion variables) and success events to send information to Adobe Analytics.</p> 
+  <h2>Prerequisites</h2>
+  <p>Adobe recommends that you go through the <a href="../../../sites/administering/using/adobeanalytics.md">existing AEM-Adobe Analytics integration</a> to understand how this integration works.</p> 
+  <h2>Components available for mapping</h2>
+  <p>In AEM, the <strong>Call to Action</strong> components - <strong>ClickThroughLink</strong> and <strong>GraphicalLink</strong> - displayed here in the sidekick, can be mapped to Adobe Analytics variables.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-21.jpeg" />
+  <h3>Mapping Landing Page components to Adobe Analytics</h3>
+  <p>To map landing page components to Adobe Analytics:</p> 
+  <ol>
+   <li><p>After creating the Adobe Analytics configuration and creating a new framework, select the appropriate reporting suite from the drop-down menu. This results in fetching the Adobe Analytics variables and showing them in the content finder.</p> </li>
+   <li><p>Drag and drop Call to Action (CTA) components from the sidekick into the mapping area in the middle of the page, as appropriate.</p> 
+    <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+     <tbody>
+      <tr>
+       <td><strong>Component Name</strong></td> 
+       <td><strong>Attributes Exposed</strong></td> 
+       <td><strong>Meaning of Attribute</strong></td> 
+      </tr>
+      <tr>
+       <td><strong>CTA Click Through Link</strong></td> 
+       <td><i>eventdata.clickthroughLinkLabel</i> <br /> </td> 
+       <td>The label on the link or the text of the link </td> 
+      </tr>
+      <tr>
+       <td><br type="_moz" /> </td> 
+       <td><i>eventdata.clickthroughLinkTarget</i> <br /> </td> 
+       <td>The destination where you are taken when you click on the link </td> 
+      </tr>
+      <tr>
+       <td><br type="_moz" /> </td> 
+       <td><i>eventdata.events.clickthroughLinkClick</i> <br /> </td> 
+       <td>The click event </td> 
+      </tr>
+      <tr>
+       <td><strong>CTA Graphical Link</strong></td> 
+       <td><i>eventdata.clicktroughImageLabel</i> <br /> </td> 
+       <td>The title of the CTA image </td> 
+      </tr>
+      <tr>
+       <td><br type="_moz" /> </td> 
+       <td><i>eventdata.clicktroughImageTarget</i> <br /> </td> 
+       <td>The destination where you are taken when you click on the image which contains a link</td> 
+      </tr>
+      <tr>
+       <td><br type="_moz" /> </td> 
+       <td><i>eventdata.clicktroughImageAsset</i> <br /> </td> 
+       <td>The path to the image asset in the repository </td> 
+      </tr>
+      <tr>
+       <td><br type="_moz" /> </td> 
+       <td><i>eventdata.events.clicktroughImageClick</i> <br /> </td> 
+       <td>The click event</td> 
+      </tr>
+     </tbody>
+    </table> </li>
+   <li><p>Map these exposed attributes with any Adobe Analytics variables from the content finder. The framework is now ready to use. </p> </li>
+   <li><p>You can now create a new landing page or open an existing landing page with existing CTA components and click <strong>Cloud Services</strong> tab in <strong>Page Properties</strong> from the sidekick (in the touch-optimized UI, select <strong>Open Properties </strong>and<strong> </strong>click<strong> Cloud Services</strong>) and configure the framework to use with landing page. Select the framework from the drop-down list.</p> <img imageRotate="0" src="assets/chlimage_1-26.png" /></li>
+   <li><p>After configuring the framework with the landing page, you can now use the instrumented components and any clicks on CTA are recorded in Adobe Analytics.</p> </li>
+  </ol>
+ </body>
+</html>

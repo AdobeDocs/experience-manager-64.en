@@ -1,0 +1,144 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="anujkapo" name="cq:lastModifiedBy" /> 
+  <meta content="2019-01-03T05:29:27.977-0500" name="lastPublishExternalDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="anujkapo@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="APIs to access letter instances" name="jcr:title" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="2017-12-01T19:06:12.459-0500" name="jcr:created" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/cm_apis_to_access_letter_instances_admin_5e12de0b318c6865_1967_report.xml" name="acrolinxReportURL" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/correspondence-management;/content/help/en/experience-manager/6-4/forms/morehelp/correspondence-management" name="moreHelpPaths" /> 
+  <meta content="0dc1f9ff-4635-4101-921c-8175db79db0a" name="jcr:predecessors" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/cm-apis-to-access-letter-instances.html" name="publishExternalURL" /> 
+  <meta content="45" name="acrolinxSentences" /> 
+  <meta content="2019-01-03T05:29:27.977-0500" name="topicBrowsingSortDate" /> 
+  <meta content="2016-05-04T05:00:52.867-0400" name="firstPublishExternalDate" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="2016-05-31T06:34:18.943-0400" name="acrolinxDate" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="2019-01-07T06:42:58.079-0500" name="cq:lastModified" /> 
+  <meta content="677" name="acrolinxWords" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2019-01-07T06:42:58.078-0500" name="locHandOffDate" /> 
+  <meta content="2019-01-03T05:29:27.977-0500" name="publishExternalDate" /> 
+  <meta content="09aab842-72fa-490f-9c36-c2296aad24f5" name="jcr:uuid" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:correspondence-management" name="cq:tags" /> 
+  <meta content="2019-01-03T05:29:28.021-0500" name="cq:lastReplicated" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="anujkapo" name="cq:lastReplicatedBy" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="Learn how to use APIs to access letter instances." name="seoDescription" /> 
+ </head> 
+ <body> 
+  <h2>Overview</h2> 
+  <p>Using the Create Correspondence UI of Correspondence Management, you can save drafts of letter instances under progress and there are submitted letter instances.</p> 
+  <p>Correspondence Management provides you APIs using which you can build the listing interface to work with submitted letter instances or drafts. The APIs list and open submitted and draft letter instances of an agent, so that the agent could continue working on the draft or submitted letter instances.</p> 
+  <h2>Fetching letter instances</h2> 
+  <p>Correspondence Management exposes APIs to fetch letter instances through the LetterInstanceService service.</p> 
+  <table border="0" cellpadding="0" cellspacing="0"> 
+   <tbody> 
+    <tr> 
+     <td valign="top"><p><strong>Method</strong></p> </td> 
+     <td valign="top"><p><strong>Description</strong></p> </td> 
+    </tr> 
+   </tbody> 
+   <tbody> 
+    <tr> 
+     <td valign="top"><p>getAllLetterInstances</p> </td> 
+     <td valign="top"><p>Fetches letter instances based on the input query parameter. To fetch all letter instances, pass the query parameter as null.</p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top"><p>getLetterInstance</p> </td> 
+     <td valign="top"><p>Fetches the specified letter instance based on letter instance Id.</p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top"><p>letterInstanceExists</p> </td> 
+     <td valign="top"><p>Checks if a LetterInstance exists by the given name. </p> </td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <note> 
+   <p>LetterInstanceService is OSGI service and its instance can be retrieved by using @Reference in Java<br /> Class or sling.getService(LetterInstanceService. Class ) in JSP.</p> 
+  </note> 
+  <h3>Using&amp;nbsp;getAllLetterInstances</h3> 
+  <p>The following API finds the letter instances based on the query object (both Submitted and Draft). If query object is null then, it returns all the letter instances. This API returns list of <a href="https://helpx.adobe.com/aem-forms/6-2/javadocs/com/adobe/icc/dbforms/obj/LetterInstanceVO.html" target="_blank">LetterInstanceVO</a> objects, which can be used for extracting additional information of letter instance </p> 
+  <p><strong>Syntax</strong>: <span class="code">List getAllLetterInstances(Query query) throws ICCException;</span></p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td><strong>Parameter</strong></td> 
+     <td><strong>Description</strong></td> 
+    </tr> 
+    <tr> 
+     <td>query</td> 
+     <td>The query parameter is used to find/filter Letter instance. Here query supports only top-level attributes/properties of the object. Query consists of statements and the "attributeName" used in the Statement object should be the name of the property in the Letter instance object.<br /> </td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h4>Example 1: Fetch all the letter instances of type SUBMITTED</h4> 
+  <p>The following code returns the list of submitted letter instances. To get only drafts, change the <span class="code">LetterInstanceType.COMPLETE.name()</span> to <span class="code">LetterInstanceType.DRAFT.name().</span></p> 
+  <codeblock gutter="true" class="syntax java">
+    @Reference!!discoiqbr!!LetterInstanceService&amp;nbsp;letterInstanceService;!!discoiqbr!!Query&amp;nbsp;query&amp;nbsp;=&amp;nbsp;new&amp;nbsp;Query();!!discoiqbr!!&amp;nbsp;!!discoiqbr!!List&lt;LetterInstanceVO&gt;&amp;nbsp;submittedLetterInstances&amp;nbsp;=&amp;nbsp;new&amp;nbsp;ArrayList&lt;LetterInstanceVO&gt;();!!discoiqbr!!&amp;nbsp;!!discoiqbr!!Statement&amp;nbsp;statementForInstanceType&amp;nbsp;=&amp;nbsp;new&amp;nbsp;Statement();!!discoiqbr!!statementForInstanceType.setAttributeName("letterInstanceType");!!discoiqbr!!statementForInstanceType.setOperator(Operator.EQUALS);!!discoiqbr!!statementForInstanceType.setAttributeValue(LetterInstanceType.COMPLETE.name());!!discoiqbr!!query.addStatement(statementForInstanceType);!!discoiqbr!!submittedLetterInstances&amp;nbsp;=&amp;nbsp;letterInstanceService.getAllLetterInstances(query);!!discoiqbr!! 
+  </codeblock> 
+  <h4>Example 2:&amp;nbsp;Fetch all the letter instances submitted by a user and letter instance type is DRAFT</h4> 
+  <p>The following code has multiple statements in the same query to get the results filtered based on different criteria such as letter instance submitted (attribute submittedby) by a user and type of letterInstanceType is DRAFT.</p> 
+  <codeblock gutter="true" class="syntax java">
+    @Reference!!discoiqbr!!LetterInstanceService&amp;nbsp;letterInstanceService;!!discoiqbr!!&amp;nbsp;!!discoiqbr!!String&amp;nbsp;submittedBy&amp;nbsp;=&amp;nbsp;"tglodman";!!discoiqbr!!Query&amp;nbsp;query&amp;nbsp;=&amp;nbsp;new&amp;nbsp;Query();!!discoiqbr!!&amp;nbsp;!!discoiqbr!!List&lt;LetterInstanceVO&gt;&amp;nbsp;submittedLetterInstances&amp;nbsp;=&amp;nbsp;new&amp;nbsp;ArrayList&lt;LetterInstanceVO&gt;();!!discoiqbr!!&amp;nbsp;!!discoiqbr!!Statement&amp;nbsp;statementForInstanceType&amp;nbsp;=&amp;nbsp;new&amp;nbsp;Statement();!!discoiqbr!!statementForInstanceType.setAttributeName("letterInstanceType");!!discoiqbr!!statementForInstanceType.setOperator(Operator.EQUALS);!!discoiqbr!!statementForInstanceType.setAttributeValue(LetterInstanceType.COMPLETE.name());!!discoiqbr!!query.addStatement(statementForInstanceType);!!discoiqbr!!&amp;nbsp;!!discoiqbr!!Statement&amp;nbsp;statementForSubmittedBy&amp;nbsp;=&amp;nbsp;new&amp;nbsp;Statement();!!discoiqbr!!statementForSubmittedBy&amp;nbsp;.setAttributeName("submittedby");!!discoiqbr!!statementForSubmittedBy&amp;nbsp;.setOperator(Operator.EQUALS);!!discoiqbr!!statementForSubmittedBy&amp;nbsp;.setAttributeValue(submittedBy);!!discoiqbr!!query.addStatement(statementForSubmittedBy&amp;nbsp;);!!discoiqbr!!submittedLetterInstances&amp;nbsp;=&amp;nbsp;letterInstanceService.getAllLetterInstances(query); 
+  </codeblock> 
+  <h3>Using&amp;nbsp;getLetterInstance</h3> 
+  <p>Fetch the letter instance identified by the given letter instance id. It returns<span class="acrolinxCursorMarker"></span> null if instance id is not matched.</p> 
+  <p><strong>Syntax:</strong> <span class="code">public LetterInstanceVO getLetterInstance(String letterInstanceId) throws ICCException;</span></p> 
+  <codeblock gutter="true" class="syntax java">
+    @Reference!!discoiqbr!!LetterInstanceService&amp;nbsp;letterInstanceService;!!discoiqbr!!String&amp;nbsp;letterInstanceId&amp;nbsp;=&amp;nbsp;"/content/apps/cm/letterInstances/1001/sampleLetterInstance";!!discoiqbr!!LetterInstanceVO&amp;nbsp;letterInstance&amp;nbsp;=&amp;nbsp;letterInstanceService.getLetterInstance(letterInstanceId&amp;nbsp;); 
+  </codeblock> 
+  <h3>Verifying if LetterInstance exist</h3> 
+  <p>Check if a Letter Instance exists by the given name </p> 
+  <p><strong>Syntax</strong>: <span class="code">public Boolean letterInstanceExists(String letterInstanceName) throws ICCException;</span></p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td><strong>Parameter</strong></td> 
+     <td><strong>Description</strong></td> 
+    </tr> 
+    <tr> 
+     <td>letterInstanceName</td> 
+     <td>Name of letter instance that you want to check if it exists.</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <codeblock gutter="true" class="syntax java">
+    @Reference!!discoiqbr!!LetterInstanceService&amp;nbsp;letterInstanceService;!!discoiqbr!!String&amp;nbsp;letterInstanceName&amp;nbsp;=&amp;nbsp;"sampleLetterInstance";!!discoiqbr!!Boolean&amp;nbsp;result&amp;nbsp;=&amp;nbsp;letterInstanceService.letterInstanceExists(letterInstanceName&amp;nbsp;); 
+  </codeblock> 
+  <h2>Opening letter instances</h2> 
+  <p>Letter Instance can be of type Submitted or Draft. Opening both the letter instance types show different behaviors:</p> 
+  <ul> 
+   <li>In case of Submitted letter instance a PDF representing the letter instance is opened. Submitted Letter instance persisted on the server also contains the dataXML &amp; processed XDP, which can be used to accomplish and further custom use a case such as creating a PDF/A.</li> 
+   <li>In case of Draft letter instance, the create correspondence UI is reloaded to exact previous state as it was during the time when draft was created<br /> </li> 
+  </ul> 
+  <h3>Opening Draft Letter Instance&amp;nbsp;</h3> 
+  <p>CCR UI support the cmLetterInstanceId parameter, which can be used to reloaded letter.</p> 
+  <p> <span class="code">http://[hostName]:[portNo]/[contextPath]//aem/forms/createcorrespondence.html?random=[randomNo]&amp;cmLetterInstanceId=[letterInstanceId] </span></p> 
+  <note> 
+   <p>You do not have to specify the cmLetterId or cmLetterName/State/Version when reloading a correspondence, as the submitted data already contains all the details about the correspondence that is reloaded. RandomNo is used to avoid browser cache issues, you can use timestamp as a random number.</p> 
+  </note> 
+  <h3>Opening submitted letter instance</h3> 
+  <p>Submitted PDF can be directly opened using letter instance Id:</p> 
+  <p><span class="code">http://[hostName]:[portNo]/[contextPath]/[letterInstanceId]</span></p> 
+ </body> 
+</html>

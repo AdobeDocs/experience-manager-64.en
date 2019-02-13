@@ -1,0 +1,70 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="Keyboard Shortcuts for Consoles" name="jcr:title" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2018-04-03T06:43:17.515-0400" name="topicBrowsingSortDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2018-04-19T10:23:46.772-0400" name="locHandOffDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:introduction;content_type:reference" name="cq:tags" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="/content/docs/en/aem/6-3/author/classicui/author-environment/keyboard-shortcuts" name="qaNotes" /> 
+  <meta content="2018-04-03T06:43:17.515-0400" name="publishExternalDate" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2017-12-01T19:02:02.047-0500" name="jcr:created" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="d9ddd4db-c668-4ca5-a3a4-98fac356c2f6" name="jcr:uuid" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/classic-ui-authoring/morehelp/introduction;/content/help/en/experience-manager/6-4/sites/classic-ui-authoring/morehelp/introduction" name="moreHelpPaths" /> 
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="a5aa6444-3cea-4d50-924a-199d4822e16b" name="jcr:predecessors" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="audience:classic-ui-authoring" name="primaryAudienceTag" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="Chris Bohnert" name="contentOwner" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/classic-ui-authoring/using/author-env-keyboard-shortcuts.html" name="publishExternalURL" /> 
+  <meta content="2018-04-03T06:43:17.515-0400" name="lastPublishExternalDate" /> 
+  <meta content="2017-10-31T16:19:30.635-0400" name="firstPublishExternalDate" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2018-04-19T10:23:46.774-0400" name="cq:lastModified" /> 
+  <meta content="Keyboard Shortcuts for Consoles" name="seoTitle" /> 
+  <meta content="Various keyboard shortcuts are available throughout AEM. Some apply to the use of consoles, others to page editing." name="seoDescription" /> 
+  <meta content="2018-04-03T06:43:18.336-0400" name="cq:lastReplicated" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="Keyboard Shortcuts for Consoles" name="navTitle" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+ </head> 
+ <body> 
+  <p>Various keyboard shortcuts are available throughout AEM. Some apply to the use of consoles, others to <a href="../../../sites/classic-ui-authoring/using/classic-page-author-keyboard-shortcuts.md">page editing</a>.<br /> </p> 
+  <note> 
+   <p>Multi-select on a desktop device:</p> 
+   <ul> 
+    <li>Windows: <strong>Ctrl</strong>+<strong>click</strong> on required components.<br /> </li> 
+    <li>Mac: <strong>Cmd</strong>+<strong>click</strong> on required components.</li> 
+   </ul> 
+  </note> 
+  <h2>Keyboard Shortcuts</h2> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <th>Location</th> 
+     <th>Shortcut *</th> 
+     <th>Description</th> 
+    </tr> 
+    <tr> 
+     <td>Console</td> 
+     <td><strong><span class="code">Shift-Double-Click</span></strong><br /> (on required page)</td> 
+     <td>Open page in new window.<br /> <strong>Note:</strong> this is operational if the <a href="../../../sites/classic-ui-authoring/using/author-env-user-props.md">User Properties</a> are set to Single Window; if Multiple Windows then this is the default behavior.</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <p>Various keyboard shortcuts are also available for desktop users when using the <a href="../../../sites/classic-ui-authoring/using/classic-page-author-keyboard-shortcuts.md">page editor</a> to author pages.</p> 
+ </body> 
+</html>

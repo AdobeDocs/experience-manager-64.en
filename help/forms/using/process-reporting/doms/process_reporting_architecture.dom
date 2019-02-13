@@ -1,0 +1,79 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2018-10-24T10:43:12.245-0400" name="topicBrowsingSortDate" />
+  <meta content="2013-06-21T08:39:41.691-0400" name="jcr:created" />
+  <meta content="d437851a-a44f-4c4c-93c9-2480c3fb69cd" name="jcr:predecessors" />
+  <meta content="How Process Reporting Works" name="jcr:title" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2018-10-24T10:43:12.254-0400" name="cq:lastModified" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/process-reporting/process_reporting_architecture.html" name="publishExternalURL" />
+  <meta content="khsingh" name="cq:lastModifiedBy" />
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:process-reporting" name="cq:tags" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="How Process Reporting works" name="navTitle" />
+  <meta content="2014-11-25T09:48:16.340-0500" name="lastPublishQADate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="khsingh" name="cq:lastReplicatedBy" />
+  <meta content="2013-06-19T09:44:05.379-0400" name="firstPublishQADate" />
+  <meta content="2018-10-24T10:43:12.245-0400" name="publishExternalDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="b27bdc2b-3005-4373-821a-f5e751469c35" name="jcr:uuid" />
+  <meta content="2014-11-25T09:48:16.340-0500" name="publishQADate" />
+  <meta content="later" name="locPublishOption" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" />
+  <meta content="khsingh@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2013-09-18T09:35:53.059-0400" name="firstPublishExternalDate" />
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/process-reporting;/content/help/en/experience-manager/6-4/forms/morehelp/process-reporting" name="moreHelpPaths" />
+  <meta content="09/06/13" name="locPublishDate" />
+  <meta content="http://helpx.stage.adobe.com/livecycle/help/process-reporting/process_reporting_architecture.html" name="publishQAURL" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="mix:versionable;cq:ReplicationStatus" name="jcr:mixinTypes" />
+  <meta content="Description of the services that make up the AEM Forms on JEE Process Reporting and an introduction to the Process Reporting UI" name="seoDescription" />
+  <meta content="2018-10-24T10:43:12.245-0400" name="lastPublishExternalDate" />
+  <meta content="2018-10-24T10:43:12.462-0400" name="cq:lastReplicated" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2013-08-19T06:26:41.444-0400" name="locHandOffDate" />
+ </head>
+ <body>
+  <p>Process Reporting is the reporting module of the AEM Forms on JEE.</p> 
+  <p>Process Reporting allows you to run reports on AEM Forms processes and tasks.</p> 
+  <p>Process Reporting uses the embedded Process Reporting repository to publish Forms data. It then uses that data to run reports.</p> 
+  <p>Process Reporting consists of the following modules:</p> 
+  <ul> 
+   <li><a href="../../../forms/using/process-reporting/process_reporting_architecture.md#main-pars-header-1">ProcessDataPublisher service</a></li> 
+   <li><a href="../../../forms/using/process-reporting/process_reporting_architecture.md#main-pars-header-2">ProcessDataStorage service</a></li> 
+   <li><a href="../../../forms/using/process-reporting/process_reporting_architecture.md#main-pars-header-3">OSGi service</a></li> 
+   <li><a href="../../../forms/using/process-reporting/process_reporting_architecture.md#main-pars-header-4">Query Data servlet</a></li> 
+   <li><a href="../../../forms/using/process-reporting/process_reporting_architecture.md#main-pars-header-5">Process Reporting user interface</a></li> 
+  </ul> 
+  <h2>Process Reporting architecture &lt;br&gt;</h2>
+  <img imageRotate="0" src="assets/processreportingarchitecture.png" />
+  <h2>Process Reporting modules</h2>
+  <h3>ProcessDataPublisher service &lt;br&gt;</h3>
+  <p>The ProcessDataPublisher server runs periodically on the AEM Forms database and extracts the data that has changed since the last run of the service. It then publishes the data to the Process Data Storage service.</p> 
+  <p>For details on configuring the service, see <a href="../../../forms/using/process-reporting/install-start-process-reporting.md#main-pars-header-4">Configure ProcessDataPublisher service</a>.</p> 
+  <h3>ProcessDataStorageProvider service &lt;br&gt;</h3>
+  <p>The ProcessDataStorageProvider service receives process data from the ProcessDataPublisher service and saves the data to the Process Reporting repository.</p> 
+  <p>For details on configuring the service, see <a href="../../../forms/using/process-reporting/install-start-process-reporting.md#main-pars-header-1">Configure ProcessDataStorageProvider service</a>.</p> 
+  <h3>OSGi service &lt;br&gt;</h3>
+  <p>The QueryDataServlet uses this service to obtain the reporting data from the Process Reporting repository.</p> 
+  <h3>QueryDataServlet service &lt;br&gt;</h3>
+  <p>The QueryDataServlet service accepts queries from Process Reporting user interface.</p> 
+  <p>The service then uses OSGi services to obtain the relevant reporting data, processes the data, and returns the data to the user interface.</p> 
+  <h3>Process Reporting user interface &lt;br&gt;</h3>
+  <p>The Process Reporting user interface is a Web browser-based interface. You use this interface to view process and task information that is published from the AEM Forms database.</p> 
+  <p>For an introduction to the Process Reporting user interface, see <a href="/forms/using/process-reporting/process-reporting-user-interface" target="_blank">Process Reporting user interface</a>.</p> 
+  <h3>QueryDataServlet service &lt;br&gt;</h3>
+  <p>The QueryDataServlet service accepts queries from Process Reporting user interface.</p> 
+  <p>The service then uses OSGi services to obtain the relevant reporting data, processes the data, and returns the data to the user interface.</p> 
+  <h3>Custom Reports &lt;br&gt;</h3>
+  <p>You can create your own custom reports and display these reports in the Custom Reports tab of the Process Reporting user interface.</p> 
+  <p>For the steps to create a custom report, see To create a custom report in the article <a href="../../../forms/using/process-reporting/process-reporting-custom-reports.md" target="_blank">Custom Reports in Process Reporting</a>.<br /> </p> 
+  <p><a href="https://www.adobe.com/account/sign-in.supportportal.html" target="_blank"><strong>Contact Support</strong></a></p> 
+ </body>
+</html>

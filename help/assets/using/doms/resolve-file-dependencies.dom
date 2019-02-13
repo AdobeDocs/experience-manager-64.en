@@ -1,0 +1,76 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="af41e32f-c314-43ee-bef2-f1f1aecf94d0" name="jcr:uuid" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2017-10-31T16:34:19.859-0400" name="publishExternalDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="asgupta" name="acrolinxLastCheckedBy" /> 
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/resolve_file_dependencies_krs_workflow_f3c2f2ccebf6138e_180_report.xml" name="acrolinxReportURL" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="Resolving file dependencies" name="seoTitle" /> 
+  <meta content="26" name="acrolinxSentences" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2017-10-31T16:34:19.859-0400" name="firstPublishExternalDate" /> 
+  <meta content="How to resolve 3D file dependencies such as texture map files when auto-resolving fails." name="seoDescription" /> 
+  <meta content="User" name="contentOwner" /> 
+  <meta content="2018-04-03T08:11:10.808-0400" name="cq:lastReplicated" /> 
+  <meta content="2019-01-12T17:34:13.317-0500" name="acrolinxDate" /> 
+  <meta content="462297df-53cb-4d52-a54f-1eb4e94c0243" name="jcr:predecessors" /> 
+  <meta content="topic_tags:3D;content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/ASSETS" name="cq:tags" /> 
+  <meta content="green" name="acrolinxPageStatus" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="2018-04-24T11:56:24.909-0400" name="locHandOffDate" /> 
+  <meta content="2017-10-31T16:34:19.859-0400" name="lastPublishExternalDate" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="checked_not_improved" name="acrolinxStatus" /> 
+  <meta content="/content/docs/en/aem/6-3/author/assets/3d-assets/upload-processing-3d-assets/resolve-file-dependencies" name="qaNotes" /> 
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="Resolving file dependencies" name="jcr:title" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS" name="primaryProductTag" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="/content/help/en/experience-manager/6-4/assets/morehelp/3d;/content/help/en/experience-manager/6-4/assets/morehelp/3d" name="moreHelpPaths" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="2017-10-31T16:34:19.859-0400" name="topicBrowsingSortDate" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/assets/using/resolve-file-dependencies.html" name="publishExternalURL" /> 
+  <meta content="331" name="acrolinxWords" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2018-04-24T11:56:24.909-0400" name="cq:lastModified" /> 
+  <meta content="2017-12-01T19:05:05.225-0500" name="jcr:created" /> 
+ </head> 
+ <body> 
+  <p>Primary 3D model file dependencies, such as texture map files, are automatically resolved where possible. This functionality is accomplished by having AEM search nearby Asset folders for files with the same names that are found in the 3D file. If one or more dependencies are unresolvable during the Creating preview processing stage, the asset's card displays the following red banner message in the Card View:<br /> <br /> </p> 
+  <img imageRotate="0" src="assets/chlimage_1-124.png" /> 
+  <p>To resolve file dependencies:</p> 
+  <ol> 
+   <li><p>In the Card View, hover the pointer over the <strong>Unresolved Dependencies</strong> banner message on the card, then tap the exclamation point icon.<br /> </p> <img imageRotate="0" src="assets/chlimage_1-125.png" /></li> 
+   <li><p>On the metadata properties page, tap the <strong>Dependencies </strong>tab.</p> <p>The files that AEM could not auto-resolve are listed under the Original Paths column, in red.<br /> </p> </li> 
+   <li><p>Do one or more of the following:</p> 
+    <ul> 
+     <li><strong>Browse to and select the dependencies</strong>. (This option assumes that you have already uploaded the dependency files. 
+      <ol> 
+       <li>Tap the File Browse icon to the left of the red path.</li> 
+       <li>On the Select Content page, navigate to the missing file, then tap on the file's card to select it.</li> 
+       <li>In the upper-left corner of the Select Content page, tap Close (X icon) to return to the View Properties page.</li> 
+      </ol> </li> 
+     <li><strong>Upload the dependencies</strong>. (This option assumes that you have not yet uploaded the missing files.) 
+      <ol> 
+       <li>Note the missing paths and file names.</li> 
+       <li>Near the upper-right corner of the properties page, tap <strong>Close</strong>.<br /> </li> 
+      </ol> </li> 
+    </ul> <p style="margin-left: 40px;">After the files are uploaded return to View Properties &amp;gt; Dependencies page. The newly uploaded asset are now properly listed as referenced assets.</p> 
+    <ul> 
+     <li><strong>Ignore the dependencies</strong>.<br /> If a missing dependency is no longer needed, under the Referenced Asset column, in the text field to the left of the missing file, type <span class="code">n/a</span> so that AEM 3D ignores the file.</li> 
+    </ul> </li> 
+   <li><p>Near the upper-right corner of the View Properties page, tap <strong>Save</strong>.</p> </li> 
+   <li><p>Tap <strong>Close </strong>to return to the Card View.</p> <p>The asset is automatically reprocessed with the newly resolved dependencies.<br /> <br /> </p> </li> 
+  </ol> 
+ </body> 
+</html>

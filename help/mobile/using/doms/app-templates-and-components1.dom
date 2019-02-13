@@ -1,0 +1,92 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="bohnert" name="cq:lastModifiedBy" /> 
+  <meta content="2018-05-04T05:12:34.834-0400" name="topicBrowsingSortDate" /> 
+  <meta content="2018-05-04T05:12:34.834-0400" name="lastPublishExternalDate" /> 
+  <meta content="bohnert" name="cq:lastReplicatedBy" /> 
+  <meta content="2018-05-11T10:01:18.341-0400" name="cq:lastModified" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="/content/help/en/experience-manager/6-4/mobile/morehelp/developing-on-demand-services-app;/content/help/en/experience-manager/6-4/mobile/morehelp/developing-on-demand-services-app" name="moreHelpPaths" /> 
+  <meta content="6bba4768-33ad-432b-abfe-61986d3a77aa" name="jcr:predecessors" /> 
+  <meta content="App Templates and Components" name="navTitle" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="/content/docs/en/aem/6-3/develop/mobile-apps/aem-mobile-on-demand/app-templates-and-components1" name="qaNotes" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2018-05-04T05:12:35.017-0400" name="cq:lastReplicated" /> 
+  <meta content="2017-12-13T19:01:03.759-0500" name="jcr:created" /> 
+  <meta content="066d0403-6327-4970-834c-7299ab262641" name="jcr:uuid" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/mobile/using/app-templates-and-components1.html" name="publishExternalURL" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="Follow this page to learn about App Templates and Components. It provides detailed information on the structure of templates." name="seoDescription" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2018-05-04T05:12:34.834-0400" name="publishExternalDate" /> 
+  <meta content="bohnert@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/MOBILE;topic_tags:developing-on-demand-services-app" name="cq:tags" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/MOBILE" name="primaryProductTag" /> 
+  <meta content="2018-05-11T10:01:18.340-0400" name="locHandOffDate" /> 
+  <meta content="User" name="contentOwner" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="App Templates and Components" name="jcr:title" /> 
+  <meta content="2017-10-31T16:26:36.910-0400" name="firstPublishExternalDate" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="App Templates and Components" name="seoTitle" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+ </head> 
+ <body> 
+  <note> 
+   <p>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). <a href="../../sites/developing/using/spa-overview.md">Learn more</a>.</p> 
+  </note> 
+  <p>A Template is used to create a Page and defines which components can be used within the selected scope. A template is a hierarchy of nodes that has the same structure as the page to be created, but without any actual content.</p> 
+  <p>Each Template will present you with a selection of components available for use.</p> 
+  <ul> 
+   <li><p>Templates are built up of <a href="../../sites/developing/using/components.md">Components</a>;</p> </li> 
+   <li><p>Components use, and allow access to, Widgets and these are used to render the Content.</p> </li> 
+  </ul> 
+  <note> 
+   <p>To learn how to develop your AEM application using CRXDE Lite, see <a href="../../sites/developing/using/developing-with-crxde-lite.md">Developing with CRXDE Lite</a>.</p> 
+  </note> 
+  <p>A template is the basis of a page.</p> 
+  <p>To create a page, the template must be copied (node-tree <strong>/apps/&amp;lt;myapp&amp;gt;/templates/&amp;lt;mytemplate&amp;gt;</strong>) to the corresponding position in the site-tree: this is what happens if a page is created using the <strong>Websites</strong> tab.</p> 
+  <p>This copy action also gives the page its initial content (usually Top-Level Content only) and the property sling:resourceType, the path to the page component that is used to render the page (everything in the child node jcr:content).</p> 
+  <h2>Structure of a Template</h2> 
+  <p>There are two aspects to be considered:</p> 
+  <ul> 
+   <li>the structure of the template itself</li> 
+   <li>the structure of the content produced when a template is used</li> 
+  </ul> 
+  <p>A Template is created under a node of type <strong>cq:Template</strong>.</p> 
+  <p>Various properties can be set, in particular:</p> 
+  <ul> 
+   <li><strong>jcr:title</strong> - title for the template; appears in the dialog when creating a page.</li> 
+   <li><strong>jcr:description</strong> - description for the template; appears in the dialog when creating a page.</li> 
+  </ul> 
+  <p><a name="par_text_6"></a>This node contains <i>a jcr:content (cq:PageContent) </i>node which be used as the basis for the content node of resulting pages; this references, using <i>sling:resourceType</i>, the component to be used for rendering the actual content of a new page.</p> 
+  <note> 
+   <p>To learn the basics for templates and components in AEM, see the resources below:</p> 
+   <ul> 
+    <li><a href="../../sites/developing/using/templates.md">Templates</a></li> 
+    <li><a href="../../sites/developing/using/components.md">Components</a></li> 
+   </ul> 
+  </note> 
+  <p>Once you have the basic understanding of Templates and Components, See the following resources:</p> 
+  <ul> 
+   <li><a href="../../mobile/using/mobile-ondemand-app-templates.md">Creating and Adding Templates and Components</a></li> 
+   <li><a href="../../mobile/using/on-demand-content-properties-exporting.md">Using Content Properties to Export Content</a></li> 
+   <li><a href="../../mobile/using/best-practices-aem-mobile.md">Best Practices</a></li> 
+   <li><a href="../../mobile/using/developing-content-services.md">Developing AEM Mobile Content Services</a></li> 
+  </ul> 
+  <h3>Additional Resources</h3> 
+  <p>To learn about additional topics on mobile apps, See the links below:</p> 
+  <ul> 
+   <li><a href="../../mobile/using/mobile-ondemand-contentsync.md">Mobile with Content Sync</a></li> 
+   <li><a href="../../mobile/using/develop-mobile-apps-testing.md">Testing Mobile Apps</a></li> 
+  </ul> 
+ </body> 
+</html>

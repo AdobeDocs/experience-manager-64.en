@@ -1,0 +1,143 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:content;content_type:reference" name="cq:tags" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="Chiradeep Majumdar" name="contentOwner" /> 
+  <meta content="2018-04-26T10:12:29.184-0400" name="locHandOffDate" /> 
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" /> 
+  <meta content="2017-12-01T19:06:34.938-0500" name="jcr:created" /> 
+  <meta content="audience:administering" name="primaryAudienceTag" /> 
+  <meta content="2018-04-03T07:05:10.096-0400" name="topicBrowsingSortDate" /> 
+  <meta content="2018-04-03T07:05:10.096-0400" name="lastPublishExternalDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="Learn how to use the AEM Page Exporter." name="seoDescription" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2017-10-31T16:24:30.101-0400" name="firstPublishExternalDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="729ca5e5-e452-43e7-8413-1cafc47a8a89" name="jcr:uuid" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/page-exporter.html" name="publishExternalURL" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/administering/morehelp/content;/content/help/en/experience-manager/6-4/sites/administering/morehelp/content" name="moreHelpPaths" /> 
+  <meta content="The Page Exporter" name="seoTitle" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="/content/docs/en/aem/6-3/administer/content/page-exporter" name="qaNotes" /> 
+  <meta content="The Page Exporter" name="navTitle" /> 
+  <meta content="2018-04-03T07:05:10.285-0400" name="cq:lastReplicated" /> 
+  <meta content="69b7000d-2cd6-44ec-bd96-b161419d5322" name="jcr:predecessors" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2018-04-26T10:12:29.184-0400" name="cq:lastModified" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="The Page Exporter" name="jcr:title" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2018-04-03T07:05:10.096-0400" name="publishExternalDate" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+ </head> 
+ <body> 
+  <p>AEM allows you to export a page as a complete web page including images, .js and .css files.<br /> </p> 
+  <p>Once the export is configured you simply request a page in your browser by replacing <span class="code">html</span> with <span class="code">export.zip</span> in the URL and you get a zip file download containing the rendered page in html format and the referenced assets. All the paths in the page, e.g. paths to images, are rewritten to point either to the files included in the zip file or to the resources on the server.<br /> </p> 
+  <p> </p> 
+  <h2>Exporting a Page</h2> 
+  <p>The following steps describe how to export a page, and assume that an export configuration template exists for your site. A configuration template defines the way a page is exported and is specific to your site. To create a configuration template refer to the <a href="page-exporter#Creating%20a%20Page%20Exporter%20Configuration%20for%20your%20Site">Creating a Page Exporter Configuration for your Site</a> section.<br /> </p> 
+  <p>To export a page:<br /> </p> 
+  <ol> 
+   <li>In your browser, open the page. For example:<br /> </li> 
+   <li><span class="code">http://localhost:4502/content/geometrixx/en/products/triangle.html</span></li> 
+   <li>Open the page properties dialog, select the <strong>Advanced</strong> tab and expand the <strong>Export</strong> field set.</li> 
+   <li>Click the magnifier icon and select a configuration template. Select the <strong>geometrixx</strong> template, as it is the default one for the Geometrixx site. Click <strong>OK</strong>.</li> 
+   <li>Click <strong>OK</strong> to close the page properties dialog.</li> 
+   <li>Request the page by replacing <span class="code">html</span> with <span class="code">export.zip</span> in the URL.<br /> </li> 
+   <li>Download the <span class="code">&amp;lt;page-name&amp;gt;.export.zip</span> file to your file system.<br /> </li> 
+   <li>In your file system, unzip the file: 
+    <ul> 
+     <li>the page html file (<span class="code">&amp;lt;page-name&amp;gt;.html</span>) is available below <span class="code">&amp;lt;unzip-dir&amp;gt;/&amp;lt;page-path&amp;gt;</span></li> 
+     <li>other resources (.js files, .css files, images, ...) are located according to the settings in the export template. In this example some resources are below <span class="code">&amp;lt;unzip-dir&amp;gt;/etc</span>, some below <span class="code">&amp;lt;unzip-dir&amp;gt;/&amp;lt;page-path&amp;gt;</span>.</li> 
+    </ul> </li> 
+   <li>Open the page html file (<span class="code">&amp;lt;unzip-dir&amp;gt;/&amp;lt;page-path&amp;gt;.html</span>) in your browser to check the rendering.<br /> </li> 
+  </ol> 
+  <p></p> 
+  <h2>Creating a Page Exporter Configuration for your Site</h2> 
+  <p>The page exporter is based on the <a href="/content/docs/en/aem/6-3/develop/mobile/contentsync">Content Sync</a> framework. The configurations that are available in the page properties dialog are configuration templates. They define all the required dependencies for a page. When a page export is triggered, the configuration template is used and both the page path and the design path are dynamically applied to the configuration. The zip file is then created by using the standard Content Sync functionality.</p> 
+  <p>AEM embeds a few templates, including:</p> 
+  <ul> 
+   <li>A default one at <span class="code">/etc/contentsync/templates/default</span>. This template:<br /> 
+    <ul> 
+     <li>Is the fallback template when no configuration template is found in the repository.</li> 
+     <li>Can serve as a base for a new configuration template.</li> 
+    </ul> </li> 
+   <li>One that is dedicated to the <strong>Geometrixx</strong> site, at <span class="code">/etc/contentsync/templates/geometrixx</span>. This template can be used as an example to create a new one.<br /> </li> 
+  </ul> 
+  <p>To create a page exporter configuration template:</p> 
+  <ol> 
+   <li>In <strong>CRXDE Lite</strong>, create a node below <span class="code">/etc/contentsync/templates</span>:<br /> 
+    <ul> 
+     <li>Name: e.g. <span class="code">mysite</span>. The name appears in the page properties dialog when choosing the page exporter template.</li> 
+     <li>Type: <span class="code">nt:unstructured</span></li> 
+    </ul> </li> 
+   <li>Below the template node, called here <span class="code">mysite</span>, create a node structure using the configuration nodes described below.</li> 
+  </ol> 
+  <h3>Page Exporter Configuration Nodes</h3> 
+  <p>The configuration template consists in a node structure. Each node has a <span class="code">type</span> property that defines a specific action in the creation process of the zip file. For more details about the type property, refer to the <a href="/content/docs/en/aem/6-3/develop/mobile/contentsync#Overview of configuration types">Overview of configuration types</a> section in the <strong>Content Sync</strong> framework page.<br /> </p> 
+  <p>The following nodes can be used to build an export configuration template:<br /> </p> 
+  <p><strong>page node</strong> The page node is used to copy the page html to the zip file. It has the following characteristics:</p> 
+  <ul> 
+   <li>Is a mandatory node.</li> 
+   <li>Is located below <span class="code">/etc/contentsync/templates/&lt;sitename&gt;</span>.</li> 
+   <li>Its name is <span class="code">page</span>. </li> 
+   <li>Its node type is <span class="code">nt:unstructured</span></li> 
+  </ul> 
+  <p>The <span class="code">page</span> node has the following properties:<br /> </p> 
+  <ul> 
+   <li>A <span class="code">type</span> property set with the value <span class="code">pages</span>.</li> 
+   <li>It does not have a <span class="code">path</span> property as the current page path is dynamically copied to the configuration.<br /> </li> 
+   <li>The other properties are described in the <a href="/content/docs/en/aem/6-3/develop/mobile/contentsync#Overview of configuration types">Overview of configuration types</a> section of the Content Sync framework.<br /> </li> 
+  </ul> 
+  <p><strong>rewrite node</strong> The rewrite node defines how the links are rewritten in the exported page. The rewritten links can either point to the files included in the zip file or to the resources on the server.</p> 
+  <p>Please refer to the <a href="/content/docs/en/aem/6-3/develop/mobile/contentsync#Overview of configuration types">Content Sync</a> page for a complete description of the <span class="code">rewrite</span> node.</p> 
+  <p><strong>design node</strong> The design node is used to copy the design used for the exported page. It has the following characteristics:</p> 
+  <ul> 
+   <li>Is optional.<br /> </li> 
+   <li>Is located below <span class="code">/etc/contentsync/templates/&lt;sitename&gt;</span>.</li> 
+   <li>Its name is <span class="code">design</span>. </li> 
+   <li>Its node type is <span class="code">nt:unstructured</span>.</li> 
+  </ul> 
+  <p>The <span class="code">design</span> node has the following properties:<br /> </p> 
+  <ul> 
+   <li>A <span class="code">type</span> property set to the value <span class="code">copy</span>.</li> 
+   <li>It does not have a <span class="code">path</span> property as the current page path is dynamically copied to the configuration.<br /> </li> 
+  </ul> 
+  <p><strong>generic node</strong> A generic node is used to copy resources like clientlibs .js or .css files to the zip file. It has the following characteristics:</p> 
+  <ul> 
+   <li>Is optional.<br /> </li> 
+   <li>Is located below <span class="code">/etc/contentsync/templates/&lt;sitename&gt;</span>.</li> 
+   <li>Does not have a specific name.<br /> </li> 
+   <li>Its node type is <span class="code">nt:unstructured</span>.</li> 
+   <li>Has a <span class="code">type</span> property and any <span class="code">type</span> related properties as defined in the <a href="/content/docs/en/aem/6-3/develop/mobile/contentsync#Overview of configuration types">Overview of configuration types</a> section of the Content Sync framework.</li> 
+  </ul> 
+  <p>For example the following configuration node copies the geometrixx clientlibs .js files to the zip file:</p> 
+  <codeblock class="syntax xml">
+    "geometrixx.clientlibs.js":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"extension":&amp;nbsp;"js",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"type":&amp;nbsp;"clientlib",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"path":&amp;nbsp;"/etc/designs/geometrixx/clientlibs",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"jcr:primaryType":&amp;nbsp;"nt:unstructured"!!discoiqbr!!} 
+  </codeblock> 
+  <p>The <strong>Geometrixx</strong> page export configuration template shows you how a page export can be configured. To view the node structure of the template in your browser as json format, request the following URL:</p> 
+  <p><span class="code">http://localhost:4502/etc/contentsync/templates/geometrixx.-1.json</span></p> 
+  <p><strong>Implementing a Custom Configuration</strong></p> 
+  <p>As you may have noticed in the node structure, the <strong>Geometrixx</strong> page export configuration template has a <span class="code">logo</span> node with a <span class="code">type</span> property set to <span class="code">image</span>. This is a special configuration type that has been created to copy the image logo to the zip file. To meet some specific requirements, you may need to implement a custom <span class="code">type</span> property: to do so, refer to the <a href="/content/docs/en/aem/6-3/develop/mobile/contentsync#Implementing a custom update handler">Implementing a custom update handler</a> section in the Content Sync page.<br /> </p> 
+  <h2>Programmatically Exporting a Page</h2> 
+  <p>To programmatically export a page, you can use the <a href="/sites/developing/using/reference-materials/javadoc/index.html?com/day/cq/wcm/contentsync/PageExporter">PageExporter</a> OSGI service. This service allows you to:</p> 
+  <ul> 
+   <li>Export a page and write to the HTTP servlet response.</li> 
+   <li>Export a page and save the zip file at a specific location.</li> 
+  </ul> 
+  <p>The servlet that is bound to the <span class="code">export</span> selector and the <span class="code">zip</span> extension uses the PageExporter service.</p> 
+  <h2>Troubleshooting</h2> 
+  <p>If you experience a problem with the download of the zip file, you may delete the <span class="code">/var/contentsync</span> node in the repository and send the export request again.<br /> </p> 
+ </body> 
+</html>

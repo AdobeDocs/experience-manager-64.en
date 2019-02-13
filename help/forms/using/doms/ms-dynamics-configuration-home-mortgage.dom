@@ -1,0 +1,74 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/develop;/content/help/en/experience-manager/6-4/forms/morehelp/configuration;/content/help/en/experience-manager/6-3/forms/morehelp/develop;/content/help/en/experience-manager/6-3/forms/morehelp/configuration" name="moreHelpPaths" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="en" name="pageCreatedAt" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2018-04-16T05:09:20.613-0400" name="cq:lastReplicated" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2018-02-01T08:01:34.151-0500" name="jcr:created" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/ms-dynamics-configuration-home-mortgage.html" name="publishExternalURL" /> 
+  <meta content="khsingh" name="cq:lastReplicatedBy" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.3/FORMS;topic_tags:develop;topic_tags:Configuration" name="cq:tags" /> 
+  <meta content="2018-04-16T05:09:20.588-0400" name="lastPublishExternalDate" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2018-04-16T05:09:20.588-0400" name="topicBrowsingSortDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="2018-06-11T06:39:07.140-0400" name="cq:lastModified" /> 
+  <meta content="Learn how to leverage the Microsoft® Dynamics 365 services through adaptive forms for the home mortgage workflow of the We.Finance Reference site" name="jcr:description" /> 
+  <meta content="Configure Microsoft Dynamics 365 for the home mortgage workflow of the We.Finance reference site" name="jcr:title" /> 
+  <meta content="2018-04-16T05:09:20.588-0400" name="publishExternalDate" /> 
+  <meta content="2017-10-31T16:28:05.334-0400" name="firstPublishExternalDate" /> 
+  <meta content="Learn how to leverage the Microsoft® Dynamics 365 services through adaptive forms for the home mortgage workflow of the We.Finance Reference site" name="seoDescription" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="khsingh@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2018-04-26T04:36:12.297-0400" name="locHandOffDate" /> 
+  <meta content="0cd4b20c-83ca-4c4f-9ae3-59e1c397a43b" name="jcr:uuid" /> 
+  <meta content="f758af8b-b518-4891-a4ee-c66661d52c8b" name="jcr:predecessors" /> 
+  <meta content="khsingh" name="cq:lastModifiedBy" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+ </head> 
+ <body> 
+  <h2>Overview</h2> 
+  <p>Microsoft® Dynamics 365 is a Customer Relationship Management (CRM) and Enterprise Resource Planning (ERP) software that provides enterprise solutions for creating and managing customer accounts, contacts, leads, opportunities, and cases.</p> 
+  <p>AEM Forms provides a cloud service to integrate Dynamics 365 with <a href="../../forms/using/data-integration.md" target="_blank">Forms Data Integration</a> module. The scenario <a href="../../forms/using/finance-reference-site-walkthrough.md#main-pars-header-742766648" target="_blank">Home Mortgage application walkthrough with Microsoft® Dynamics</a> showcases how a customer uses the We.Finance reference site to apply for a loan when the site is using Microsoft® Dynamics for Forms Data Integration. Before you can use the Home Mortgage application walkthrough with Microsoft® Dynamics scenario, you need to configure Microsoft® Dynamics 365 to be used with the We.Finance reference site. </p> 
+  <h2>Prerequisites</h2> 
+  <p>Before you begin to set up and configure Dynamics 365, ensure that you have:</p> 
+  <ul> 
+   <li><a href="../../forms/using/setup-reference-sites.md" target="_blank">Set up and configure AEM Forms reference sites</a>.<br /> </li> 
+   <li>AEM 6.3 Forms Service Pack 1 and later</li> 
+   <li>Microsoft® Dynamics 365 account</li> 
+   <li>Registered application for Dynamics 365 service with Microsoft® Azure Active Directory</li> 
+   <li>Client ID and client secret for the registered application</li> 
+  </ul> 
+  <h2>Link the home mortgage calculator with your site home page</h2> 
+  <ol> 
+   <li><p>On the author instance, go to the following page:</p> <p>http://[sderver]:[port]/editor.html/content/we-finance/global/en/loan-landing-page.html<br /> </p> </li> 
+   <li><p>Scroll down to the Home Mortgage Calculator.</p> </li> 
+   <li><p>Highlight the right column's (calculator's) panel and tap to display the pop-up menu. In the pop-up menu, tap Configure. The Edit AEM Forms Container dialog appears.</p> <img imageRotate="0" src="assets/calculatorconfigurepanel.png" /></li> 
+   <li><p>In the Edit AEM Forms Container dialog, browse the asset path and select home-mortgage-calculator at the following path and tap <strong>Confirm</strong>:</p> <p>formsanddocuments/We.Finance/MS Dynamics/ </p> <img imageRotate="0" src="assets/selectassetpath.png" /></li> 
+   <li><p>Tap <strong>Done</strong>.</p> </li> 
+   <li><p>Publish the edited page. </p> 
+    <note> 
+     <p>The binding of the calculator fields with the FDM is preconfigured through the We.Finance reference site package. To view the binding, you can open the form in the authoring mode and see the field bind references.</p> 
+    </note></li> 
+   <li><p>To create a custom entity for storing applicant record for home mortgage application, import the AEMFormsFSIRefsite_1_0.zip solution package to your Microsoft® Dynamics instance:</p> 
+    <ol> 
+     <li><p>Download the package from:</p> <p>http://[server]:[port]/content/aemforms-refsite-collaterals/we-finance/home-mortgage/ms-dynamics/AEMFormsFSIRefsite_1_0.zip</p> </li> 
+     <li><p>Import the solution package to Microsoft® Dynamics instance. In your Microsoft® Dynamics instance, go to <strong>Settings</strong> &amp;gt; <strong>Solutions</strong> and then tap <strong>Import</strong>. </p> </li> 
+    </ol></li> 
+   <li><p>To set up user contact details used in the refsite, import the Sarah Rose Contact.CSV package to your Microsoft® Dynamics instance:</p> 
+    <ol> 
+     <li><p>Download the package from:</p> <p>http://[server]:[port]/content/aemforms-refsite-collaterals/we-finance/home-mortgage/ms-dynamics/Sarah%20Rose%20Contact.csv<br /> </p> </li> 
+     <li><p>Import the package to your Microsoft® Dynamics instance. In your Microsoft® Dynamics instance, go to <strong>Sales</strong> &amp;gt; <strong>Contacts</strong> and then tap <strong>Import Data</strong>. <br /> </p> </li> 
+    </ol></li> 
+  </ol> 
+ </body> 
+</html>

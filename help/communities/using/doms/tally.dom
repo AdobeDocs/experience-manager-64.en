@@ -1,0 +1,76 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2018-05-17T05:54:32.910-0400" name="cq:lastModified" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-05-17T05:54:32.909-0400" name="locHandOffDate" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="/content/help/en/experience-manager/6-4/communities/morehelp/developing;/content/help/en/experience-manager/6-4/communities/morehelp/developing" name="moreHelpPaths" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2017-10-31T16:33:15.496-0400" name="firstPublishExternalDate" />
+  <meta content="Tally Essentials" name="jcr:title" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="msm-service" name="contentOwner" />
+  <meta content="Tally class overview" name="seoDescription" />
+  <meta content="66e65476-1506-4a02-b3c0-79c61681a60b" name="jcr:predecessors" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2018-04-03T08:03:30.102-0400" name="topicBrowsingSortDate" />
+  <meta content="6ea0a7ea-6ca9-4059-9eca-33c62ff2c07f" name="jcr:uuid" />
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="Tally Essentials" name="navTitle" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES" name="primaryProductTag" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="2018-04-03T08:03:30.102-0400" name="lastPublishExternalDate" />
+  <meta content="Tally Essentials" name="seoTitle" />
+  <meta content="/content/docs/en/aem/6-3/develop/communities/essentials/tally" name="qaNotes" />
+  <meta content="2017-12-01T19:01:08.429-0500" name="jcr:created" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES;topic_tags:developing;content_type:reference" name="cq:tags" />
+  <meta content="2018-04-03T08:03:30.102-0400" name="publishExternalDate" />
+  <meta content="mix:lockable;mix:versionable" name="jcr:mixinTypes" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2018-04-03T08:03:31.522-0400" name="cq:lastReplicated" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/communities/using/tally.html" name="publishExternalURL" />
+ </head>
+ <body>
+  <p>Tally is an abstract class providing a standard method of collecting feedback from members on how they value specific products and services. Anonymous feedback is not supported. The site visitor must register and sign in to participate and sign in to change their feedback. The requirement to sign in facilitates moderation and enhances the value of the feedback by preventing multiple posts.</p> 
+  <p>A custom tally component can be created by extending the abstract tally class.</p> 
+  <p><a href="../../communities/using/essentials-liking.md">Liking</a> is an implementation of tally that is simple form of expressing a positive opinion.</p> 
+  <p><a href="../../communities/using/essentials-voting.md">Voting</a> is an implementation of tally that is simple form of expressing a positive or negative opinion.</p> 
+  <p><a href="../../communities/using/rating-basics.md">Rating</a> is an implementation of tally that uses a star system for expressing a range of opinions from positive to negative.</p> 
+  <p>As of AEM 6.1, the <a href="../../communities/using/poll-basics.md">poll</a> component is not currently available.</p> 
+  <p><a href="../../communities/using/reviews-basics.md">Reviews</a> is an SCF component that is a hybrid of <a href="../../communities/using/essentials-comments.md">comments</a> and <a href="../../communities/using/rating-basics.md">rating</a>.</p> 
+  <h2>Essentials for Client-Side</h2>
+  <ul> 
+   <li><a href="../../communities/using/client-customize.md">Client-side Customizations</a></li> 
+  </ul> 
+  <h2>Essentials for Server-Side</h2>
+  <ul> 
+   <li><a href="/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/tally/client/api/package-summary">Tally APIs</a></li> 
+  </ul> 
+  <ul> 
+   <li><a href="/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/tally/client/endpoints/package-summary">Tally Endpoints</a></li> 
+  </ul> 
+  <ul> 
+   <li><a href="../../communities/using/server-customize.md">Server-side Customizations</a></li> 
+  </ul> 
+  <h3>Accessing Posted Tallies (UGC)</h3>
+  <p>UGC should be moderated using one of the standard methods for moderation.<br /> See <a href="../../communities/using/moderate-ugc.md">Moderating User Generated Content</a>.</p> 
+  <p>As of AEM 6.1 Communities, use of a <a href="../../communities/using/working-with-srp.md">common store</a> for UGC includes programmatic access to UGC regardless of the chosen storage option (such as ASRP, MSRP or JSRP).</p> 
+  <p><strong>The location and format of the UGC in the repository is subject to change without warning</strong>.</p> 
+  <p>See :</p> 
+  <ul> 
+   <li><a href="../../communities/using/srp.md">Storage Resource Provider Overview</a> - introduction and repository usage overview</li> 
+   <li><a href="../../communities/using/srp-and-ugc.md">SRP and UGC Essentials</a> - SRP utility methods and examples</li> 
+   <li><a href="../../communities/using/accessing-ugc-with-srp.md">Accessing UGC with SRP</a> - coding guidelines</li> 
+   <li><a href="../../communities/using/socialutils.md">SocialUtils Refactoring</a> - mapping deprecated utility methods to current SRP utility methods</li> 
+  </ul> 
+ </body>
+</html>

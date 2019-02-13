@@ -1,0 +1,66 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2018-04-18T06:29:37.486-0400" name="lastPublishExternalDate" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="2018-04-26T04:21:00.651-0400" name="cq:lastModified" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/changing_page_zero_content_designer_admin_5e12de0b318c6865_1966_report.xml" name="acrolinxReportURL" /> 
+  <meta content="khsingh" name="cq:lastModifiedBy" /> 
+  <meta content="khsingh@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="41031eb5-b37c-4503-8f5a-1cff42c8ed0a" name="jcr:predecessors" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="352" name="acrolinxWords" /> 
+  <meta content="2015-06-12T04:24:50.468-0400" name="lastPublishQADate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="Do you know how you can change the message displayed on Page Zero of an XFA PDF when viewing it in a non-Adobe PDF viewer?" name="seoDescription" /> 
+  <meta content="khsingh" name="cq:lastReplicatedBy" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="2016-04-20T09:47:26.445-0400" name="firstPublishExternalDate" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/changing-page-zero-content-designer.html" name="publishExternalURL" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2018-04-26T04:21:00.651-0400" name="locHandOffDate" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2018-04-18T06:29:37.486-0400" name="topicBrowsingSortDate" /> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/develop;/content/help/en/experience-manager/6-4/forms/morehelp/develop" name="moreHelpPaths" /> 
+  <meta content="18" name="acrolinxSentences" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="2017-12-01T19:06:11.125-0500" name="jcr:created" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:develop" name="cq:tags" /> 
+  <meta content="719c20e2-df82-404f-ad94-3a026a012e26" name="jcr:uuid" /> 
+  <meta content="2016-05-31T06:34:15.265-0400" name="acrolinxDate" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="Changing Page Zero content in Designer" name="jcr:title" /> 
+  <meta content="2018-04-18T06:29:37.486-0400" name="publishExternalDate" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2018-04-18T06:29:37.545-0400" name="cq:lastReplicated" /> 
+ </head> 
+ <body> 
+  <p>Page Zero content is displayed by default when a non-Adobe PDF viewer, such as the default PDF viewer in Chrome or Firefox, cannot read the content of the PDF/XFA form. The default Page Zero message is shown below.</p> 
+  <img imageRotate="0" src="assets/defaultpage0message.png" /> 
+  <p>AEM Forms Feature Pack 1 version of Designer allows you to change the message that is displayed on Page Zero. To change the Page Zero message, perform the following steps:</p> 
+  <ol> 
+   <li><p>Ensure that you have the AEM Forms Feature Pack 1 version of Designer installed. You can check the version from the About screen of designer.<br /> </p> </li> 
+   <li><p>Open the form for which you want to change the Page Zero content.<br /> </p> </li> 
+   <li><p>Click <strong>File &amp;gt; Form Properties</strong>.<br /> </p> </li> 
+   <li><p>In the Form Properties dialog, click <img height="17" src="assets/plus.png" width="17" /> (Plus icon) to add a custom property.<br /> </p> </li> 
+   <li><p>Specify <strong>_pagezerocontent</strong> as the name of the property.</p> </li> 
+   <li><p>Add the new Page Zero message, in Rich Text format, as value. For example:</p>  </li> 
+   <li><p>Save the form as PDF.<br /> </p> </li> 
+   <li><p>View the PDF form in browser to confirm that the message is updated. The example value above appears as follows:<br /> </p> <img imageRotate="0" src="assets/changedmessage.png" /></li> 
+  </ol> 
+  <note> 
+   <p>The custom property you just created may not appear properly in the Form Properties dialog when you reopen the form. However, it works fine and the form displays the updated Page Zero message.</p> 
+  </note> 
+ </body> 
+</html>

@@ -1,0 +1,522 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="rbrough@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="yellow" name="acrolinxPageStatus" /> 
+  <meta content="d6be4fd8-93dc-446d-af3f-6b41d1b10be2" name="jcr:predecessors" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS" name="primaryProductTag" /> 
+  <meta content="2019-01-10T15:30:28.301-0500" name="cq:lastModified" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="/content/docs/en/aem/6-0/administer/integration/dynamic-media/viewer-presets" name="legacyPath" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="4145" name="acrolinxWords" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="rbrough" name="cq:lastReplicatedBy" /> 
+  <meta content="How to create and manage viewer presets" name="seoDescription" /> 
+  <meta content="rbrough" name="cq:lastModifiedBy" /> 
+  <meta content="checked_not_improved" name="acrolinxStatus" /> 
+  <meta content="465e73a7-86aa-4e3d-b8f5-2b850dd5430d" name="jcr:uuid" /> 
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" /> 
+  <meta content="2019-01-10T15:30:28.290-0500" name="publishExternalDate" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2019-01-12T17:32:54.976-0500" name="acrolinxDate" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="2019-01-10T15:30:28.356-0500" name="cq:lastReplicated" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/assets/using/managing-viewer-presets.html" name="publishExternalURL" /> 
+  <meta content="2018-03-15T09:03:10.200-0400" name="jcr:created" /> 
+  <meta content="2019-01-10T15:30:28.290-0500" name="lastPublishExternalDate" /> 
+  <meta content="2018-04-24T11:57:01.659-0400" name="locHandOffDate" /> 
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/managing_viewer_presets_krs_workflow_f3c2f2ccebf6138e_159_report.xml" name="acrolinxReportURL" /> 
+  <meta content="/content/help/en/experience-manager/6-4/assets/morehelp/dynamic-media;/content/help/en/experience-manager/6-4/assets/morehelp/dynamic-media" name="moreHelpPaths" /> 
+  <meta content="Managing Viewer Presets" name="seoTitle" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="asgupta" name="acrolinxLastCheckedBy" /> 
+  <meta content="Alva Ware-Bevacqui" name="contentOwner" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2017-10-31T16:34:25.071-0400" name="firstPublishExternalDate" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2019-01-10T15:30:28.290-0500" name="topicBrowsingSortDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS;topic_tags:dynamic-media;content_type:reference" name="cq:tags" /> 
+  <meta content="Managing Viewer Presets" name="jcr:title" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="Managing Viewer Presets" name="navTitle" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="/content/docs/en/aem/6-3/administer/content/dynamic-media/viewer-presets" name="qaNotes" /> 
+  <meta content="398" name="acrolinxSentences" /> 
+ </head> 
+ <body> 
+  <p>A Viewer Preset is a collection of settings that determine how users view rich-media assets on their computer screens and mobile devices. If you are an administrator, you can create Viewer Presets. Settings are available for an array of viewer configuration options. For example, you can change the viewer display size or zoom behavior.</p> 
+  <p>For instructions on creating and customizing your own HTML5 viewer presets, see the <em>Adobe Scene7 HTML5 Viewer SDK</em>. The SDK is available on the IS publish server embedded in the SDK itself. Each library version has its own SDK documentation included.</p> 
+  <p>Path: <span class="kbd">&amp;lt;scene7_domain&amp;gt;/s7sdk/&amp;lt;library_version&amp;gt;/docs/jsdocs/index.html</span>.<br /> For example, 3.5 SDK: <a href="http://s7d1.scene7.com/s7sdk/3.5/docs/jsdoc/index.html" target="_blank">http://s7d1.scene7.com/s7sdk/3.5/docs/jsdoc/index.html</a></p> 
+  <p>See also the <a href="https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/" target="_blank">Adobe Viewers Reference Guide</a>.</p>   
+  <p>This section describes how to create, edit, and manage viewer presets. You can apply a viewer preset to an asset anytime you preview it. See <a href="../../assets/using/viewer-presets.md">Applying Viewer Presets</a>.</p> 
+  <note> 
+   <p>Be aware that editing any <i>predefined, out-of-the-box viewer presets</i> is not a supported scenario. If you attempt to edit an out-of-the-box viewer preset, you are prompted to save the viewer preset using a new name.</p> 
+  </note> 
+  <h4>Keyboard accessibility for viewers</h4> 
+  <p>All out-of-the-box viewers support keyboard accessibility.</p> 
+  <p>See also <a href="https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/c_keyboard_accessibility.html">Keyboard accessiblity and navigation</a>.</p> 
+  <h2>Managing Viewer Presets</h2> 
+  <p>You can add, edit, delete, publish, unpublish, and preview viewer presets in AEM by tapping <strong>Tools</strong> (hammer icon) &amp;gt; <strong>Assets</strong> &amp;gt; <strong>Viewer Presets</strong>.</p> 
+  <img imageRotate="0" src="assets/tools-assets.png" /> 
+  <note> 
+   <p>By default, the system shows 15 viewer presets when you select Viewers in an asset's detail view. You can increase this limit. See <a href="#increasingthenumberofviewerpresetsthatdisplay">Increasing the number of viewer presets that display</a>.</p> 
+  </note> 
+  <h3>Viewer support for responsive designed web pages</h3> 
+  <p>Different web pages have different needs. For example, sometimes you want a web page that provides a link that opens the HTML5 Viewer in a separate browser window. In other cases, it may be necessary to embed the HTML5 Viewer directly on the hosting page. In the latter case, the web page may have a static layout. Or, it may be "responsive" and display differently on different devices or for different browser window sizes. To accommodate these needs, all the pre-defined, out-of-the-box HTML5 Viewers that come with Dynamic Media support both static web pages and responsive designed web pages.</p> 
+  <p>See <a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/c_about_responsive_static_image_library.html" target="_blank">Responsive Image library</a> in the <em>Scene7 Image Serving API Help</em> for more information on how to embed responsive viewers onto your web pages.</p>  
+  <note> 
+   <p>Please note that you must publish all out-of-the-box viewers before you first use them.<br /> See <a href="#publishingviewerpresets">Publishing Viewer Presets.</a></p> 
+  </note> 
+  <h3>Viewer Preset system compatiblity </h3> 
+  <p>All out-of-the-box Viewer Presets that come with Dynamic Media are fully compatible with the following systems:</p> 
+  <ul> 
+   <li>Desktops</li> 
+   <li>Apple iPhone</li> 
+   <li>Apple iPad</li> 
+   <li>Android Smartphone</li> 
+   <li>Android Tablet</li> 
+   <li>For video, additional support for MP4 playback is provided for <a href="https://developer.blackberry.com/devzone/develop/supported_media/bb_media_support_at_a_glance.html#kba1328730952678">Blackberry</a> and <a href="https://msdn.microsoft.com/library/windows/apps/ff462087%28v=vs.105%29.aspx">Windows Phone</a>.</li> 
+  </ul> 
+  <h3>Rich Media Types for Viewer Presets</h3> 
+  <p>Administrators can add and customize the following rich media types when creating new viewer presets.</p> 
+  <table border="1" cellpadding="1" cellspacing="0" height="19" width="522"> 
+   <tbody> 
+    <tr> 
+     <td><strong>Carousel Set</strong><br /> </td> 
+     <td><p>Hotspots, or image maps, or both are added to a series of two or more images. A customer can pan the images left or right and then click a hotspot on an image for additional details or for purchasing directly from a website's category, home, or landing pages.</p> </td> 
+    </tr> 
+    <tr> 
+     <td><strong>Flyout Zoom</strong></td> 
+     <td><p>Displays a second image of the zoomed area next to the original image. There are no controls to use - users move the selection over the area they want to view.</p> <p>When determining the complete bandwidth usage for this viewer, consider that both the main image and the flyout image are served in the viewer. The main image size (Stage Width and Height) and the Zoom Factor determine the flyout image size. To keep the flyout file size from becoming too large, balance these two values: if you have a large main image size, lower the Zoom Factor value. (The Flyout Width and Flyout Height determine the size of the flyout window, but not the size of the flyout image that is served into the viewer.)</p> <p>For example, if your main image size is 350 by 350 pixels, with a Zoom Factor of 3, the resulting flyout image is 1050 by 1050 pixels. If your main image size is 300 by 300 pixels, with a Zoom Factor of 4, the flyout image is 1200 by 1200 pixels. Depending on the JPEG quality setting (recommended settings are between 80-90), you can decrease the file size significantly. Recommended zoom factors are 2.5 to 4, depending on the size of your main image.</p> </td> 
+    </tr> 
+    <tr> 
+     <td><strong>Inline Zoom</strong></td> 
+     <td>Displays an image of the zoomed area within the original viewer. There are no controls to use. That is, users move the selection over the area they want to view.</td> 
+    </tr> 
+    <tr> 
+     <td><strong>Image Set</strong></td> 
+     <td>In the Image Set viewer, users can see different views or color variations of an item by clicking a thumbnail image. This viewer also offers zooming tools for examining images closely.</td> 
+    </tr> 
+    <tr> 
+     <td><strong>Interactive Image</strong></td> 
+     <td>Hotspots are added to portions of an image that a customer can then click for additional details or for purchasing directly from a website's category, home, or landing pages.</td> 
+    </tr> 
+    <tr> 
+     <td><strong>Interactive Video</strong></td> 
+     <td>Thumbnails are added to timeline segments in a video that a customer can then click for additional details or for purchasing directly from a website's category, home, or landing pages.</td> 
+    </tr> 
+    <tr> 
+     <td><strong>Mixed Media</strong></td> 
+     <td>Displays different types of media in one viewer. You can include spin sets, image set, images, and videos.</td> 
+    </tr> 
+    <tr> 
+     <td><strong>Panoramic Image</strong></td> 
+     <td><p>The Panoramic Image and PanoramicVR viewers render spherical panoramic images to immerse users in a 360° viewing experience of a room, property, location, or landscape.</p> <p>For an uploaded image to qualify as a spherical panorama, it must have either one or both of the following:</p> 
+      <ul> 
+       <li>An aspect ratio of 2:1.</li> 
+       <li>Tagged with the keywords <span class="kbd">equirectangular</span>, or <span class="kbd">spherical</span> and <span class="kbd">panorama</span>, or <span class="kbd">spherical </span>and <span class="kbd">panoramic</span>. See <a href="../../sites/authoring/using/tags.md">Using Tags</a>.</li> 
+      </ul> <p>Both the aspect ratio and keyword criteria apply to panoramic assets for the asset details page and the "Panoramic Media" WCM component.</p> <p><strong>Important</strong>: This viewer is only available in Dynamic Media - Scene7 mode.</p> </td> 
+    </tr> 
+    <tr> 
+     <td><strong>Spin Set</strong></td> 
+     <td>Provides multiple views of an image so users can turn the object to examine the different sides and angles.</td> 
+    </tr> 
+    <tr> 
+     <td><strong>Video</strong></td> 
+     <td><p>Plays video using progressive or adaptive bitrate streaming. Adaptive bitrate streaming automatically performs device and bandwidth detection to serve the right quality video in the right format.</p> </td> 
+    </tr> 
+    <tr> 
+     <td><strong>Vertical Zoom</strong></td> 
+     <td><p>The Vertical Zoom viewer lets you maximize a product imagery viewing experience to give your users the best representation of a product. The vertical location of swatches does the following:</p> 
+      <ul> 
+       <li>Ensures swatches are “above the fold”.<br /> With horizontal swatches, depending on the user’s desktop screen size, swatches were not be visible until the user scrolled down the page. By placing the swatches vertically in the viewer, it ensures that they are visible no matter the user's screen size.</li> 
+       <li>Maximizes main image size.<br /> With horizontal swatches, it is necessary to reserve space on the page to ensure that they are visible. This positioning decreased the size of the main image. With a vertical swatch layout, however, you do not need to allocate this space. As such, you can maximize the main image size.</li> 
+      </ul> </td> 
+    </tr> 
+    <tr> 
+     <td><strong>Zoom</strong></td> 
+     <td>Lets users zoom into the area by clicking it. Users can click controls to zoom in, zoom out, and reset the image to its default size.</td> 
+    </tr> 
+   </tbody> 
+  </table>      
+  <h3>List of out-of-the-box Viewer Presets</h3> 
+  <p>The following table identifies all pre-defined, out-of-box Viewer Presets that come with Dynamic Media.</p> 
+  <p>See also <a href="https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html">Viewers Reference Library Examples</a> and <a href="https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html" target="_blank">Live Demos</a>.</p> 
+  <p>For information about supported web browser and operating system versions for Viewers, you can review the Viewers Release Notes.</p> 
+  <p>See "Viewers release notes" in the table of contents of the <a href="https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/" target="_blank">Viewers Reference Guide</a>.</p>  
+  <note> 
+   <p>All out-of-the-box viewer presets in Dynamic Media come already activated (on), but you must publish them.<br /> See <a href="#publishingviewerpresets">Publishing Viewer Presets</a>.</p> 
+   <p>Any new viewer presets that you create and add must be both activated <i>and </i>published.<br /> See <a href="#activatingordeactivatingviewerpresets">Activating or Deactivating Viewer Presets</a> and <a href="#publishingviewerpresets">Publishing Viewer Presets</a>.</p> 
+  </note> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td><strong>Viewer preset title</strong></td> 
+     <td><strong>Type</strong></td> 
+     <td><strong>CSS file name</strong><br /> </td> 
+    </tr> 
+    <tr> 
+     <td>Carousel_Dotted_dark</td> 
+     <td>Carousel_Set</td> 
+     <td><span class="code">html5_carouselviewer_dotted_dark.css</span></td> 
+    </tr> 
+    <tr> 
+     <td>Carousel_Dotted_light</td> 
+     <td>Carousel_Set</td> 
+     <td><span class="code">html5_carouselviewer_dotted_light.css</span></td> 
+    </tr> 
+    <tr> 
+     <td>Carousel_Numeric_dark</td> 
+     <td>Carousel_Set</td> 
+     <td><span class="code">html5_carouselviewer_numeric_dark.css</span></td> 
+    </tr> 
+    <tr> 
+     <td>Carousel_Numeric_light</td> 
+     <td>Carousel_Set</td> 
+     <td><span class="code">html5_carouselviewer_numeric_light.css</span></td> 
+    </tr> 
+    <tr> 
+     <td>Flyout</td> 
+     <td>Flyout_Zoom</td> 
+     <td><span class="code">html5_flyoutviewer.css</span></td> 
+    </tr> 
+    <tr> 
+     <td>ImageSet_dark</td> 
+     <td>Image Set</td> 
+     <td><span class="code">html5_zoomviewer_dark.css</span></td> 
+    </tr> 
+    <tr> 
+     <td>ImageSet_light</td> 
+     <td>Image Set</td> 
+     <td><span class="code">html5_zoomviewer_light.css</span></td> 
+    </tr> 
+    <tr> 
+     <td>InlineMixedMedia_dark</td> 
+     <td>Mixed_Media</td> 
+     <td><span class="code">html5_inlinemixedmediaviewer_dark.css</span></td> 
+    </tr> 
+    <tr> 
+     <td>InlineMixedMedia_light</td> 
+     <td>Mixed_Media</td> 
+     <td><span class="code">html5_inlinemixedmediaviewer_light.css</span></td> 
+    </tr> 
+    <tr> 
+     <td>InlineZoom</td> 
+     <td>Flyout_Zoom</td> 
+     <td><span class="code">html5_inlinezoomviewer.css</span></td> 
+    </tr> 
+    <tr> 
+     <td>MixedMedia_dark</td> 
+     <td>Mixed_Media</td> 
+     <td><span class="code">html5_mixedmediaviewer_dark.css</span></td> 
+    </tr> 
+    <tr> 
+     <td>MixedMedia_light</td> 
+     <td>Mixed_Media</td> 
+     <td><span class="code">html5_mixedmediaviewer_light.css</span></td> 
+    </tr> 
+    <tr> 
+     <td>PanoramicImage</td> 
+     <td>Panoramic_Image</td> 
+     <td><span class="code">html5_panoramicimage.css</span></td> 
+    </tr> 
+    <tr> 
+     <td>PanoramicImageVR</td> 
+     <td>Panoramic_Image</td> 
+     <td><span class="code">html5_panoramicimage.css</span></td> 
+    </tr> 
+    <tr> 
+     <td>Shoppable_Banner</td> 
+     <td>Interactive_Image</td> 
+     <td><span class="code">html5_interactiveimage.css</span></td> 
+    </tr> 
+    <tr> 
+     <td>Shoppable_Video_dark</td> 
+     <td>Interactive_Video</td> 
+     <td><span class="code">html5_interactivevideoviewer_dark.css</span></td> 
+    </tr> 
+    <tr> 
+     <td>Shoppable_Video_light</td> 
+     <td>Interactive_Video</td> 
+     <td><span class="code">html5_interactivevideovewer_light.css</span></td> 
+    </tr> 
+    <tr> 
+     <td>SpinSet_dark</td> 
+     <td>Spin_Set</td> 
+     <td><span class="code">html5_spinviewer_dark.css</span></td> 
+    </tr> 
+    <tr> 
+     <td>SpinSet_light</td> 
+     <td>Spin_Set</td> 
+     <td><span class="code">html5_spinviewer_light.css</span></td> 
+    </tr> 
+    <tr> 
+     <td><p>Video</p> <p>(Includes support for closed captioning)</p> </td> 
+     <td>Video</td> 
+     <td><span class="code">html5_videoviewer.css</span></td> 
+    </tr> 
+    <tr> 
+     <td><p>Video_social</p> <p>(Includes support for closed captioning and social media)</p> </td> 
+     <td>Video</td> 
+     <td><span class="code">html5_videoviewersocial.css</span></td> 
+    </tr> 
+    <tr> 
+     <td>Zoom_dark<br /> </td> 
+     <td>Zoom<br /> </td> 
+     <td><span class="code">html5_basiczoomviewer_dark.css</span></td> 
+    </tr> 
+    <tr> 
+     <td>Zoom_light<br /> </td> 
+     <td>Zoom</td> 
+     <td><span class="code">html5_basiczoomviewer_light.css</span></td> 
+    </tr> 
+    <tr> 
+     <td>ZoomVertical_dark<br /> </td> 
+     <td>Vertical_Zoom</td> 
+     <td><span class="code">html5_zoomverticalviewer_dark.css</span></td> 
+    </tr> 
+    <tr> 
+     <td>ZoomVertical_light</td> 
+     <td>Vertical_Zoom</td> 
+     <td><span class="code">html5_zoomverticalviewer_light.css</span></td> 
+    </tr> 
+   </tbody> 
+  </table>   
+  <h3>Supported mobile viewers gestures matrix</h3> 
+  <p>The following table identifies the mobile viewer gestures that are supported on iOS, Android 2.x, and Android 3.x devices.</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td style="text-align: center;"><strong>Gesture</strong></td> 
+     <td style="text-align: center;"><strong>Flyout Zoom</strong></td> 
+     <td style="text-align: center;"><strong>Zoom</strong></td> 
+     <td style="text-align: center;"><strong>Spin</strong></td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="NaN%"><p><strong>Drag</strong></p> </td> 
+     <td valign="top" width="NaN%"><p>Pans</p> </td> 
+     <td valign="top" width="NaN%"><p>Pans</p> </td> 
+     <td valign="top" width="NaN%"><p>Pans</p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="NaN%"><p><strong>Tap</strong></p> </td> 
+     <td valign="top" width="NaN%"><p>Shows flyout window</p> </td> 
+     <td valign="top" width="NaN%"><p>Shows or hides the user interface</p> </td> 
+     <td valign="top" width="NaN%"><p>Shows or hides the user interface</p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="NaN%"><p><strong>Double-tap</strong></p> </td> 
+     <td valign="top" width="NaN%"><p>Does not apply</p> </td> 
+     <td valign="top" width="NaN%"><p>Zooms in or resets</p> </td> 
+     <td valign="top" width="NaN%"><p>Zooms in or resets</p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="NaN%"><p><strong>Pinch open</strong></p> </td> 
+     <td valign="top" width="NaN%"><p>Does not apply</p> </td> 
+     <td valign="top" width="NaN%"><p>Zooms in (iOS and Android 3x only)</p> </td> 
+     <td valign="top" width="NaN%"><p>Zooms in (iOS and Android 3x only)</p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="NaN%"><p><strong>Pinch close</strong></p> </td> 
+     <td valign="top" width="NaN%"><p>Does not apply</p> </td> 
+     <td valign="top" width="NaN%"><p>Zooms out (iOS and Android 3x only)</p> </td> 
+     <td valign="top" width="NaN%"><p>Zooms out (iOS and Android 3x only)</p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="NaN%"><p><strong>Swipe</strong></p> </td> 
+     <td valign="top" width="NaN%"><p>Scrolls swatch bar</p> </td> 
+     <td valign="top" width="NaN%"><p>Scrolls images</p> </td> 
+     <td valign="top" width="NaN%"><p>Spins</p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="NaN%"><p><strong>Flick</strong></p> </td> 
+     <td valign="top" width="NaN%"><p>Scrolls swatch bar</p> </td> 
+     <td valign="top" width="NaN%"><p>Scrolls images</p> </td> 
+     <td valign="top" width="NaN%"><p>Spins</p> </td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h2>Increasing the number of viewer presets that display</h2> 
+  <p>AEM shows a wide variety viewer presets when viewing an assets from <strong>Detail View</strong> &amp;gt; <strong>Viewers</strong>. You can increase or decrease the number of viewers that display.</p> 
+  <p><strong>To increase the number of viewer presets displayed</strong>:</p>  
+  <ol> 
+   <li><p>Navigate to CRXDE Lite (<a href="http://localhost:4502/crx/de">http://localhost:4502/crx/de</a>).</p> </li> 
+   <li><p>Navigate to the viewer preset listing node at <strong>/libs/dam/gui/coral/content/commons/sidepanels/viewerpresets/viewerpresetslist</strong></p> <img imageRotate="0" src="assets/chlimage_1-221.png" /></li> 
+   <li><p>In the <strong>limit</strong> property, change the <strong>Value</strong>, which is set to 15 by default, to the desired number.</p> </li> 
+   <li><p>Navigate to the viewer preset datasource at <strong>/libs/dam/gui/coral/content/commons/sidepanels/viewerpresets/viewerpresetslist/datasource</strong></p> <img imageRotate="0" src="assets/chlimage_1-222.png" /></li> 
+   <li><p>In the limit property, change the number to the desired number, for example <span class="code">{empty requestPathInfo.selectors[1] ? "20" : requestPathInfo.selectors[1]}</span></p> </li> 
+   <li><p>Tap or click <strong>Save All</strong>.</p> </li> 
+  </ol> 
+  <h2>Creating a New Viewer Preset</h2> 
+  <p>Creating viewer presets lets you apply various settings to view and interact with assets. However, you do not need to create new viewer presets. If you prefer, you can use the default, out-of-the-box viewer presets that already come with AEM Assets.</p> 
+  <p>If you choose to create a new viewer preset, after you save it, the viewer's state is automatically activated (set to <strong>On</strong>) in the Viewer Presets page. This state means that it is visible in the Dynamic Media component and the Interactive Media component and whenever you preview an image or video. </p> 
+  <p>Some viewer presets have exclusive settings that can affect the use and overall behavior of the viewer. Depending on the viewer preset you are creating, you may want to be aware of these special considerations. </p> 
+  <p>See <a href="#specialconsiderationsforcreatinganinteractiveviewerpreset">Special considerations for creating an Interactive Viewer preset</a>.</p> 
+  <p>See <a href="#specialconsiderationsforcreatingacarouselbannerviewerpreset">Special considerations for creating a Carousel Banner Viewer preset</a>.</p>  
+  <p>To create a new viewer preset:</p> 
+  <ol> 
+   <li><p>In the upper-left corner of AEM, tap the AEM logo, then in the left rail, tap <strong>Tools </strong>(hammer icon) &amp;gt; <strong>Assets</strong> &amp;gt; <strong>Viewer Presets</strong>.</p> <img imageRotate="0" src="assets/viewerpresets.png" /></li> 
+   <li><p>On the Viewer Presets page, on the toolbar, tap <strong>Create</strong>.</p> </li> 
+   <li><p>In the <strong>New Viewer Preset</strong> dialog box, in the <strong>Preset Name</strong> field, enter the name of the new preset. Choose a name carefully--they are not editable after you tap <strong>Create</strong>.</p> <p>When you save the preset later in these steps, the name appears on the Viewer Presets page under the Preset Title column header.<br /> </p> </li> 
+   <li><p>On the Rich Media Type drop-down menu, select the type of viewer preset you want to create, then in the upper-right corner of the page, tap <strong>Create</strong>. </p> <p>See <a href="#richmediatypesforviewerpresets">Rich Media Types for Viewer Presets</a>.</p> </li> 
+   <li><p>On the Edit Viewer Preset page, tap the <strong>Appearance </strong>tab.</p> </li> 
+   <li><p>Do one of the following:</p> 
+    <ul> 
+     <li>In the <strong>Selected Type</strong> pull-down menu, select a component whose visual design you want to customize. Alternatively, you can tap or click any visual element in the viewer to select it for configuration.<br /> <br /> The visual editor lets you see what effect a certain property has on a style. Just set or adjust any property to instantly see what effect it has on the viewer using the sample to the left of the editor. <br /> <br /> The CSS styling properties for each type of viewer preset are described in the any "Customizing <em>&amp;lt;viewer name&amp;gt;</em> Viewer" Help topic in the <a href="https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/" target="_blank">Viewers Reference Guide</a>. For example, if you are creating a viewer preset of the type <span class="code">Mixed_Media</span>, see <a href="https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/c_html5_mixedmedia_viewer_customizingviewer.html" target="_blank">Customizing Mixed Media Viewer</a> for a list and description of each property.<br /> </li> 
+     <li>If you have defined style settings in a separate CSS file, you can upload the CSS file to AEM Assets. Tap <strong>Import CSS</strong> below the Selected Type pull-down menu (you may need to scroll the visual editor up to see it) to find the uploaded CSS file and associate it with the viewer preset.<br /> <br /> When you import a CSS file, the visual editor checks to see if the CSS uses the correct viewer markers. For example, if you are creating a Zoom viewer, all the CSS rules you import must be defined using its viewer class name <span class="code">.s7mixedmediaviewer</span> defined on a parent viewer element.<br /> <br /> You can import arbitrary, handmade CSS as long as it properly defines the CSS markers for a given viewer. (CSS markers are described in any "Customzing <em>&amp;lt;viewer name&amp;gt;</em> Viewer" Help topic in the <a href="https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/" target="_blank">Viewers Reference Guide</a>. For example, if you want to read about CSS markers for the Zoom Viewer, see <a href="https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/c_html5_20_zoom_viewer_customizingviewer.html" target="_blank">Customizing Zoom Viewer</a>.) It is possible, however, that the visual editor may not understand some CSS values. In such cases, the visual editor attempts to override the errors so that the CSS can still work. <br /> <br /> </li> 
+    </ul>   
+    <note> 
+     <p>If you prefer to edit the CSS directly in its raw form, tap <strong>Show/Hide CSS</strong> below the Selected Type pull-down menu (you may need to scroll the visual editor up to see it).</p> 
+     <p>Like the visual editor, when you make a change to a property directly in the CSS, you can instantly see what effect it has on the viewer sample. And, that same property is automatically updated at the same time in the visual editor. As such, you can use the raw CSS editor, or the visual editor, or use both interchangeably.</p> 
+    </note> 
+    <note> 
+     <p>For button artwork, choose the 2x image and upload high resolution art work. When working with interactive images and shoppable banners, you can also select from a variety of out-of-the-box hotspot buttons. </p> 
+    </note></li> 
+   <li><p>(Optional) Near the top of the Edit Viewer Preset page, tap <strong>Desktop</strong>, <strong>Tablet</strong>, or <strong>Phone</strong> to uniquely define visual styles for different device and screen types.</p> </li> 
+   <li><p>On the Edit Viewer Preset page, tap the <strong>Behavior</strong> tab. Alternatively, you can tap or click any visual element in the viewer to select it for configuration.</p> </li> 
+   <li><p>From the <strong>Selected Type</strong> pull-down menu, select a component whose behaviors you want to change.</p> <p>Many components in the visual editor have a detailed description associated with it. These descriptions appear within blue boxes when you expand a component to reveal its associated parameters.</p> <p>Some Viewer types have components that let you specify Image Serving commands in an <strong>IS Command</strong> text field. For a list of commands you can use, see the <a href="https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/image_serving_api_ref.html">Image Serving API Reference</a>.</p> 
+    <note> 
+     <p><strong>If you are using a touch device, such as a phone or tablet...</strong></p> 
+     <p>After you type a value in the text field, tap elsewhere in the user interface to submit the change and close the virtual keyboard. If you tap Enter, no action occurs.</p> 
+    </note></li> 
+   <li><p>Near the upper-right corner of the page, tap <strong>Save</strong>.</p> </li> 
+   <li><p>Publish your new viewer preset. You must publish the preset before you can use it on your website.</p> <p>See <a href="#publishingviewerpresets">Publishing Viewer Presets</a>.</p> </li> 
+  </ol> 
+  <h3>Special considerations for creating an Interactive Viewer preset</h3> 
+  <p><strong>About Display Modes for image thumbnails in the panel</strong></p> 
+  <p>When you create or edit an Interactive Video viewer preset, you have the choice of which Display Mode setting to use when you select <span class="code">InteractiveSwatches</span> from the Selected Component pull-down menu under the <strong>Behavior </strong>tab. The display mode you choose affects how and when thumbnails appear while the video is playing. You can choose either a <span class="code">segment </span>display mode (default) or a <span class="code">continuous </span>display mode.</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td><strong>Display Mode</strong></td> 
+     <td><strong>Description</strong></td> 
+    </tr> 
+    <tr> 
+     <td>Segment</td> 
+     <td><p><span class="code">Segment </span>is the default display mode for the out-of-box Interactive Video Viewer presets <span class="code">Shoppable_Video_light</span> and <span class="code">Shoppable_Video_dark</span> and any Interactive Video Viewer presets that you create yourself.</p> <p>In this mode, when there are fewer thumbnails assigned to a video segment than the number of visible spots in the display panel, thumbnails from the next or previous sub-segments are <i>not </i>pulled in to fill any empty spots in the panel. That is, it preserves the display of swatches that were assigned to the particular video segment.</p> </td> 
+    </tr> 
+    <tr> 
+     <td>Continuous</td> 
+     <td><p>In <span class="code">continuous </span>display mode, if the number of thumbnails in a segment is less than the number that are visible in the panel, the viewer automatically includes the display of thumbnails from the next segment, or the previous segment, in cases where the last thumbnail is displayed.</p> <p>The <a href="../../assets/using/interactive-videos.md">video in this topic</a> is an example of the <span class="code">continuous </span>display mode.</p> </td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <p><strong>About Auto Scrolling Behavior in the Interactive Video Viewer</strong></p> 
+  <p>The auto scroll behavior of thumbnails in the Interactive Video viewer functions independently of the display mode that you chose.</p> 
+  <p>When you create or edit an interactive video viewer preset, you access Auto Scroll from the Behavior tab. In the Behavior tab, from the <strong>Selected Components</strong> drop-down menu, tap <strong>InteractiveSwatches</strong>. The Auto Scroll check box is listed below the IS Command text field.<br /> </p> 
+  <p>If you disable Auto Scroll (clear the check box) in the viewer preset, during video playback by the user, the panel only displays the first thumbnail image for the entire length of the video. However, a user can manually scroll through the thumbnails using the up and down arrow icons, if desired.</p> 
+  <p>When you enable (select) Auto Scroll in the viewer preset, during video playback, thumbnail images assigned to a video segment scroll into view at the start of a segment. There are instances, however, where certain thumbnails within a segment display twice as long as other thumbnails before or after it. This behavior occurs because the number of thumbnails in a segment is greater than the number that are visible in the panel, and are not evenly divisible.</p> 
+  <p>To illustrate, suppose you have one 30 second video segment. And, there are a total of nine thumbnails to display over the 30 seconds. Your browser is sized in such a way that there are four visible thumbnail positions in the display panel. The 30 second video time segment is divided into three sub-segments. The following table shows the breakdown of which thumbnails are displayed for a given time sub-segment:</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td><strong>Video sub-segment</strong></td> 
+     <td><strong>Sub-segment time in seconds</strong></td> 
+     <td><strong>Thumbnails that are visible in the panel</strong></td> 
+    </tr> 
+    <tr> 
+     <td>1</td> 
+     <td>0-10</td> 
+     <td>1, 2, 3, 4</td> 
+    </tr> 
+    <tr> 
+     <td>2</td> 
+     <td>10-20</td> 
+     <td>4, 5, 6, 7</td> 
+    </tr> 
+    <tr> 
+     <td>3</td> 
+     <td>20-30</td> 
+     <td>6, 7, 8, 9</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <p>Video sub-segment 3 does not extend beyond the thumbnails that are assigned to it. Notice also that thumbnails 4, 6, and 7 are visible in the panel twice as long as the other thumbnails.</p> 
+  <p>The logic that the viewer uses for how many thumbnails are displayed in the panel based on the number of available positions is as follows:</p> 
+  <ul> 
+   <li>Number of sub-segments = round up to next sub-segment (number of thumbnails / number of visible slots in the thumbnail panel, based on browser window size).<br /> Using the example in the table above, 9 thumbnails / 4 slots = 2.25; the viewer logic rounds it up to 3 sub-segments.<br /> <br /> </li> 
+   <li>Number of thumbnails = round up to next thumbnail (number of thumbnails / number of video sub-segments).<br /> Using the example in the table above, 9 thumbnails / 3 video sub-segments = 3 thumbnails.<br /> <br /> </li> 
+   <li>Duration of sub-segment = total video duration / number of video sub-segments.<br /> Using the example in the table above, 30 seconds / 3 video sub-segments = 10 second display of each video sub-segment.</li> 
+  </ul> 
+  <h4>Special considerations for creating a Carousel Banner Viewer preset</h4> 
+  <p>When creating Carousel Banner viewer presets, changing the style of hotspots can be accessed as follows:</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td><strong> </strong></td> 
+     <td><strong>Description</strong></td> 
+     <td><strong>Actions</strong></td> 
+    </tr> 
+    <tr> 
+     <td><strong>Hotspot Icon </strong></td> 
+     <td>Change the icon used for hotspot </td> 
+     <td>To change the hotspot icon image, in the <strong>Appearance</strong> tab, in <strong>Selected Component</strong>, click or tap <strong>ImageMapEffect</strong>.<strong> </strong>Under <strong>Icon</strong>, select <strong>Background</strong> and in the <strong>Image</strong> field navigate to the background image you want.</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h2>Activating or Deactivating Viewer Presets</h2> 
+  <p>The Viewer Presets that are available in the user interface depends on which ones are active in Author mode. By default, a viewer preset is "On" after you create it. If you toggle the preset off, you will not see it in Author mode. If the preset is published. it will always be published regardless of whether it is toggled on or off. You may want to deactivate viewer presets if the list becomes too unwieldy or you do not want a viewer preset made available to use.</p>   
+  <p>To activate or deactivate viewer presets:</p> 
+  <ol> 
+   <li><p>In the upper-left corner of AEM, tap the AEM logo, then in the left rail, tap <strong>Tools </strong>(hammer icon) &amp;gt; <strong>Assets</strong> &amp;gt; <strong>Viewer Presets</strong>.</p> </li> 
+   <li><p>On the Viewer Preset page, under the <strong>State</strong> column header, tap the toggle to activate or deactivate a viewer preset.</p> <p>Viewer presets that are activated have the toggle appear on the right, inside a blue box; deactivated viewer presets have the toggle appear on the left, inside a light grey box.</p> </li> 
+  </ol> 
+  <h2>Publishing Viewer Presets</h2> 
+  <p>Activating (or turning "On") the state of a viewer preset means that it is visible in the Dynamic Media component, the Interactive Media component, and whenever you view an asset.</p> 
+  <p>However, to deliver<em> </em>an asset with a viewer preset, the viewer preset must be published as well. All viewer presets must be activated <em>and </em>published to obtain URL or embed code for an asset. You must activate and publish all out-of-the-box viewer presets that come with Dynamic Media. Custom viewer presets that you create and add are auto-activated, but must also be published.</p> 
+  <p>See <a href="#activatingordeactivatingviewerpresets">Activating or Deactivating Viewer Presets</a>.</p> 
+  <p>See also <a href="../../assets/using/previewing-assets.md">Previewing Assets</a>.</p>  
+  <p>To publish viewer presets:<br /> </p> 
+  <ol> 
+   <li><p>In the upper-left corner of AEM, tap the AEM logo, then in the left rail, tap <strong>Tools </strong>(hammer icon) &amp;gt; <strong>Assets</strong> &amp;gt; <strong>Viewer Presets</strong>.</p> </li> 
+   <li><p>Select one or more viewer presets that you want to publish.</p> </li> 
+   <li><p>On the toolbar, tap the <strong>Publish</strong> icon.</p> </li> 
+  </ol> 
+  <h2>Sorting Viewer Presets</h2> 
+  <p>To sort viewer presets:</p> 
+  <ol> 
+   <li><p>In the upper-left corner of AEM, tap the AEM logo, then in the left rail, tap <strong>Tools </strong>(hammer icon) &amp;gt; <strong>Assets</strong> &amp;gt; <strong>Viewer Presets</strong>.</p> </li> 
+   <li><p>Click <strong>Preset Title</strong>, <strong>Type</strong>, <strong>Published</strong>, or <strong>State</strong> to sort by that column heading. For example, click <strong>Type </strong>to sort the viewer preset types in alphabetical or reverse-alphabetical order.</p> </li> 
+  </ol> 
+  <h2>Editing Viewer Presets</h2> 
+  <p>Be aware that editing any <i>predefined, out-of-the-box viewer presets</i> is not a supported scenario. If you edit an out-of-the-box viewer preset, you are prompted to save it with a new name.</p> 
+  <p>To edit Viewer Presets:</p> 
+  <ol> 
+   <li><p>In the upper-left corner of AEM, tap the AEM logo, then in the left rail, tap <strong>Tools </strong>(hammer icon) &amp;gt; <strong>Assets</strong> &amp;gt; <strong>Viewer Presets</strong>.</p> </li> 
+   <li><p>Select a preset by checking the box to the left of the viewer preset title.</p> </li> 
+   <li><p>On the toolbar, tap or click <strong>Edit</strong>.</p> </li> 
+   <li><p>On the <strong>Edit Viewer Preset</strong> page make the changes you want to the viewer preset.</p> </li> 
+   <li><p>Do one of the following:</p> 
+    <ul> 
+     <li>Tap <strong>Save</strong> to save your changes and return to the Viewer Preset page.</li> 
+     <li>Tap <strong>Cancel</strong> to void any changes you made and return to the Viewer Preset page.</li> 
+    </ul> </li> 
+  </ol> 
+  <h2>Deleting custom Viewer Presets</h2> 
+  <p>You can delete Viewer Presets that you have created and added to Dynamic Media.</p> 
+  <p>To delete custom Viewer Presets:</p>  
+  <ol> 
+   <li><p>In the upper-left corner of AEM, tap the AEM logo, then in the left rail, tap <strong>Tools </strong>(hammer icon) &amp;gt; <strong>Assets</strong> &amp;gt; <strong>Viewer Presets</strong>.</p> </li> 
+   <li><p>On the Viewer Presets page, check a Preset Title, and then tap the <strong>Trash</strong> icon.</p> </li> 
+   <li><p>Tap <strong>Delete</strong>.</p> </li> 
+  </ol> 
+  <h2>Applying a Viewer Preset to an asset</h2> 
+  <p>If you have already published both the asset and the selected viewer, the <strong>URL</strong> and <strong>Embed</strong> buttons appear after you select a viewer preset.</p> 
+  <p>To apply a Viewer Preset to an asset:</p> 
+  <ol> 
+   <li><p>Open the asset and near the upper-left corner of the page, tap the drop-down menu, then select <strong>Viewers</strong>.</p> 
+    <note> 
+     <p>If you have already published both the asset and the selected viewer, the <strong>URL</strong> and <strong>Embed</strong> buttons appear after you select a viewer preset.</p> 
+    </note></li> 
+   <li><p>Select a viewer preset<strong> </strong>from the left pane to apply it to the asset.</p> <p>You can <a href="../../assets/using/linking-urls-to-yourwebapplication.md">copy the URL to share</a> with other users.</p> </li> 
+  </ol> 
+  <h2>Delivering Assets with Viewer Presets</h2> 
+  <p>To get the URLs for Viewer Presets, see <a href="../../assets/using/linking-urls-to-yourwebapplication.md">Linking URLs to your Web application</a>. See also <a href="../../assets/using/embed-code.md">Embedding the Video Viewer on a Web Page</a>.</p> 
+  <p>If you are using AEM as your WCM, you can add assets using the viewer presets directly on the page. See <a href="../../assets/using/adding-dynamic-media-assets-to-pages.md">Adding Dynamic Media Assets to Pages</a>.</p> 
+ </body> 
+</html>

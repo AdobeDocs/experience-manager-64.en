@@ -1,0 +1,50 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS" name="primaryProductTag" />
+  <meta content="2018-04-03T06:47:29.124-0400" name="topicBrowsingSortDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS;topic_tags:authoring;content_type:reference" name="cq:tags" />
+  <meta content="14752725-7702-4d7d-9e0d-24cd58f50c39" name="jcr:predecessors" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="/content/docs/en/aem/6-3/author/classicui/assets/3d-assets/about-the-use-of-stages-in-aem-3d" name="qaNotes" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2018-04-19T10:28:00.654-0400" name="locHandOffDate" />
+  <meta content="/content/help/en/experience-manager/6-4/assets/classic-ui-authoring/morehelp/authoring;/content/help/en/experience-manager/6-4/assets/classic-ui-authoring/morehelp/authoring" name="moreHelpPaths" />
+  <meta content="2018-04-19T10:28:00.656-0400" name="cq:lastModified" />
+  <meta content="2018-04-03T06:47:29.124-0400" name="publishExternalDate" />
+  <meta content="2018-04-03T06:47:29.124-0400" name="lastPublishExternalDate" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2017-10-31T16:18:26.080-0400" name="firstPublishExternalDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="16e84d53-dc6f-4f73-ac50-6152b070fad2" name="jcr:uuid" />
+  <meta content="audience:classic-ui-authoring" name="primaryAudienceTag" />
+  <meta content="Stages are light-weight 3D scene files that provide the basic viewing environment (lights, backgrounds, ground planes or other fixed geometry), optional pre-defined cameras, and render settings for third-party renderers." name="seoDescription" />
+  <meta content="2018-04-03T06:47:30.243-0400" name="cq:lastReplicated" />
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="User" name="contentOwner" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/classic-ui-authoring/using/classicui-stages-aem3d.html" name="publishExternalURL" />
+  <meta content="About the use of stages in AEM 3D" name="jcr:title" />
+  <meta content="About the use of stages in AEM 3D" name="seoTitle" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2017-12-01T19:04:01.861-0500" name="jcr:created" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+ </head>
+ <body>
+  <p>Stages are light-weight 3D scene files that provide the basic viewing environment (lights, backgrounds, ground planes or other fixed geometry), optional pre-defined cameras, and render settings for third-party renderers.<br /> <br /> </p> 
+  <note>
+   <p>The OBJ 3D format does not support lights. Therefore, it cannot be used to provide stages to AEM 3D.</p> 
+  </note>
+  <p>The file format of the stage determines which renderer you can use with that stage. For example, if Autodesk® Maya® is used for high-quality rendering, the stage must be in <span class="code">.ma</span> or <span class="code">.mb</span> format. If you intend to only use the default Rapid Refine™ renderer, any supported stage file format is acceptable.</p> 
+  <p>All render settings in AEM 3D, except the output image type and size must be pre-configured and saved into the stage file prior to uploading to AEM.<br /> <br /> <br /> </p> 
+ </body>
+</html>

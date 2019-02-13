@@ -1,0 +1,78 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2018-10-28T00:58:39.827-0400" name="topicBrowsingSortDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/authoring/morehelp/personalization;/content/help/en/experience-manager/6-4/sites/authoring/morehelp/personalization" name="moreHelpPaths" /> 
+  <meta content="Campaign Management" name="jcr:title" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="jsyal" name="cq:lastReplicatedBy" /> 
+  <meta content="2018-10-28T00:58:39.827-0400" name="publishExternalDate" /> 
+  <meta content="Campaign Management" name="navTitle" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="2018-04-19T10:29:00.480-0400" name="locHandOffDate" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="Campaign management provides digital marketers the opportunity to deliver personalized content and so create dedicated experiences for visitors" name="seoDescription" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="audience:authoring" name="primaryAudienceTag" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="jsyal@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="Guillaume Carlino" name="contentOwner" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2017-10-31T16:20:59.612-0400" name="firstPublishExternalDate" /> 
+  <meta content="2018-10-28T00:58:39.880-0400" name="cq:lastReplicated" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="Campaign Management" name="seoTitle" /> 
+  <meta content="51548fdf-8d39-40af-84dc-86e50648ee6f" name="jcr:uuid" /> 
+  <meta content="d160d478-7023-41b2-9580-43061a73e6cb" name="jcr:predecessors" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;content_type:reference;topic_tags:personalization" name="cq:tags" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="msm-service" name="cq:lastModifiedBy" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/campaigns.html" name="publishExternalURL" /> 
+  <meta content="2018-10-28T00:58:39.827-0400" name="lastPublishExternalDate" /> 
+  <meta content="2018-02-03T08:01:03.407-0500" name="jcr:created" /> 
+  <meta content="mix:lockable;mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="2018-10-28T00:58:39.834-0400" name="cq:lastModified" /> 
+  <meta content="/content/docs/en/aem/6-3/author/personalization/campaigns" name="qaNotes" /> 
+ </head> 
+ <body> 
+  <p>Campaign management provides digital marketers the opportunity to deliver personalized content and so create dedicated experiences for visitors.</p> 
+  <p>It allows you to orchestrate your marketing campaigns across the web, email and mobile services and so engage your visitors. You can create content, segment visitors, push and promote targeted content for specific user profiles and manage campaigns across multiple channels.<br /> </p> 
+  <p>This document describes the various elements that make up campaigns. More detailed information is available in the following documents:</p> 
+  <ul> 
+   <li><a href="../../../sites/authoring/using/teasers-and-strategies.md">Teasers and Strategies</a></li> 
+   <li><a href="../../../sites/authoring/using/email-marketing.md">E-mail Marketing</a></li> 
+   <li><a href="../../../sites/authoring/using/landingpages.md">Landing Pages</a></li> 
+   <li><a href="../../../sites/authoring/using/target-offers.md">Target offers</a></li> 
+   <li><a href="../../../sites/authoring/using/marketing-campaign-manager.md">Working with the Marketing Campaign Manager</a></li> 
+   <li><a href="../../../sites/authoring/using/segmentation-overview.md">Understanding Segmentation</a></li> 
+   <li><a href="../../../sites/authoring/using/setting-up-your-campaign.md">Setting up your campaign</a></li> 
+  </ul> 
+  <p>Campaign management is made up of various elements:<br /> </p> 
+  <ul> 
+   <li><strong>Brands</strong><br /> In AEM, brands are the top level unit and form a collection of <strong>Campaigns</strong>.</li> 
+   <li><strong>Campaigns</strong><br /> A campaign is a collection of individual <strong>Experiences</strong>.</li> 
+   <li><strong>Experiences</strong><br /> The focused content forms the various experiences, presented to the visitor at <strong>Touchpoints</strong>. There are several types of experience available:<br /> 
+    <ul> 
+     <li><strong>Teasers</strong><br /> <a href="#teasers">Teaser Pages / Paragraphs</a> are used to steer specific visitor <strong>Segments</strong> to content that is focused on their interests.<br /> Teaser pages can:<br /> 
+      <ul> 
+       <li>present a range of options for the visitor to choose from</li> 
+       <li>show only one teaser paragraph that is based on the specific visitor segment; for example, the teaser paragraph shown may be dependent on the age of the visitor.</li> 
+      </ul> Typically a teaser page is a temporary action that will last for a specific period of time, until it is replaced by the next teaser page.</li> 
+     <li><strong>Newsletters</strong><br /> <a href="#emailmarketing">E-mail Communications</a> are used to engage users and encourage them to visit your web site. These usually take the form of a newsletter, sent to your <strong>Leads</strong> (which are usually grouped into <strong>Lists</strong>). <strong>Note:</strong> Adobe is not planning to further enhance this capability. Recommendation is to <a href="../../../sites/administering/using/campaign.md">leverage Adobe Campaign and the integration to AEM</a>.</li> 
+     <li><strong>Adobe Target</strong><br /> This allows integration with Adobe Target (formerly Test&amp;Target), which gives marketers a conversion website optimization tool with the necessary capabilities to continually make their online content and offers more relevant to their customers—yielding greater conversion. Adobe Target provides an intuitive interface for designing and executing tests, creating audience segments and targeting content—all from a single application.</li> 
+    </ul> </li> 
+   <li><strong>Touchpoints</strong><br /> These are the points of contact between the visitor and your campaign. The touchpoints are connected to the experiences that you have created.<br /> For example, for teasers it is the content page where the teaser paragraph is located, for a newsletter it is the mailing list.</li> 
+   <li><strong>Leads</strong><br /> The information that you have collected about your visitors and how to contact them forms the basis for your leads. <strong>Note:</strong> Adobe is not planning to further enhance this capability.<br /> Recommendation is to <a href="../../../sites/administering/using/campaign.md">leverage Adobe Campaign and the integration to AEM</a>.<br /> </li> 
+   <li><strong>Lists</strong><br /> Leads are usually grouped into lists so that you can take collective action on them. Note: <strong>Note:</strong> Adobe is not planning to further enhance this capability.<br /> Recommendation is to <a href="../../../sites/administering/using/campaign.md">leverage Adobe Campaign and the integration to AEM.</a><br /> </li> 
+   <li><strong>Segments</strong><br /> Site visitors have different interests and objectives when they come to a site. Analyzing this according to factors such as activity on the website, profile information registered and activity on other websites, helps you to define segments. Content can then be specifically targeted to the visitor's needs and interests according to the segment(s) they match.</li> 
+   <li><strong>MCM</strong><br /> The Marketing Campaign Manager (MCM) is a console that allows you to access all the functionality you need to create and control your campaigns, brands, experiences, touchpoints, leads, lists, segments and reports.<br /> It can be accessed from various locations (labelled as <strong>Campaigns</strong>), or with, for example, the URL:<br /> <span class="code"> http://localhost:4502/libs/mcm/content/admin.html</span></li> 
+  </ul> 
+ </body> 
+</html>

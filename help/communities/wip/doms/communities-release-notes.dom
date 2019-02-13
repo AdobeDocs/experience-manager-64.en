@@ -1,0 +1,86 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="mgulati" name="cq:lastModifiedBy" /> 
+  <meta content="Release notes specific to Adobe Experience Manager 6.4 Communities." name="seoDescription" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="light" name="gnavTheme" /> 
+  <meta content="aef1e95d-3363-47f8-9afe-b3fa197c9184" name="jcr:predecessors" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="9ebac1fb-dd3b-41a0-8260-c25f85c7e4f6" name="jcr:uuid" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="AEM Communities" name="seoTitle" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4;topic_tags:release-notes;content_type:reference" name="cq:tags" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4" name="primaryProductTag" /> 
+  <meta content="AEM Communities" name="navTitle" /> 
+  <meta content="2018-04-09T17:48:38.901-0400" name="lastPublishExternalDate" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2019-01-15T15:35:25.047-0500" name="jcr:created" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2018-10-15T04:01:20.115-0400" name="cq:lastModified" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="dist5" name="distType" /> 
+  <meta content="/content/help/en/experience-manager/6-4/morehelp/release-notes;/content/help/en/experience-manager/6-4/morehelp/release-notes" name="moreHelpPaths" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="AEM Communities" name="jcr:title" /> 
+ </head> 
+ <body> 
+  <p>This section provides information on the improvements to AEM Communities since the 6.3 release. To learn about the new features in greater detail, see <a href="/communities/using/whats-new-aem-communities.html?cq_ck=1522837662674" target="_blank">What's New in AEM 6.4 Communities</a>.</p> 
+  <p>To obtain the latest release, see the <a href="../../communities/using/deploy-communities.md#latestreleases">Deploying Communities</a> section of the documentation.</p> 
+  <h2>Main improvements</h2> 
+  <p>Community Sites:</p> 
+  <ul> 
+   <li>Community Administrators can now: 
+    <ul> 
+     <li>Delete permanently Community Sites</li> 
+     <li>Select a context-aware configuration folder for Community Sites</li> 
+    </ul> </li> 
+  </ul> 
+  <p>Community Groups:</p> 
+  <ul> 
+   <li>Community Administrators can now: 
+    <ul> 
+     <li>Delete permanently Community Groups</li> 
+     <li>Create Community Groups in multiple languages</li> 
+     <li>Add enablement catalog &amp; assignments within Community Groups</li> 
+    </ul> </li> 
+   <li>Enablement Managers can now 
+    <ul> 
+     <li>Create and assign resources and learning paths within Community Groups</li> 
+    </ul> </li> 
+  </ul> 
+  <p>File Library:</p> 
+  <ul> 
+   <li>Community Members now have multiple enhancements to the File Library e.g. sort orders, tagging...</li> 
+  </ul> 
+  <p>Notifications:</p> 
+  <ul> 
+   <li>Community Members now receive notifications upon approval of contributions that went through a moderation process</li> 
+  </ul> 
+  <p>Moderation:</p> 
+  <ul> 
+   <li>Automated Spam Detection Filter</li> 
+   <li>Community Moderators have additional Moderation filters (e.g. answered/unanswered questions)</li> 
+   <li>Community Moderators can bookmark and link moderation to predefined filters (e.g. all posts pending approval)</li> 
+  </ul> 
+  <p>Overall compatibility with foundational changes in AEM 6.4.</p> 
+  <p>Note: all these features are also available for 6.3. Please check the AEM Communities release notes for <a href="https://helpx.adobe.com/experience-manager/6-3/release-notes.html">6.3</a>.<br /> </p> 
+  <h2>Known Issues</h2> 
+  <ul> 
+   <li><strong>Moderation</strong> - Not able to delete parent post as a single delete operation from the bulk moderation UI (CQ-4236797)</li> 
+   <li><strong>Console</strong> - Forgot Username or Password link is redirecting to the Login Page instead of the corresponding password retrieval form (CQ-4237682)</li> 
+  </ul> 
+  <h2>Select Features</h2> 
+  <div>
+    Expert Scoring ( 
+   <em>Powered by Sensei</em>) - is used to enable gamification, which is an effective way of encouraging and rewarding valuable community behavior. It can also be used to identify experts for recommendation or marketing purposes. 
+  </div> 
+  <h2>Demonstrations</h2> 
+  <p>All these features can be demonstrated using the <a href="https://github.com/Adobe-Marketing-Cloud/aem-demo-machine/wiki">AEM Demo Machine</a> available publicly on GitHub.com when using the AEM Communities demo scenario and also within the new We.Retail reference implementation.</p> 
+ </body> 
+</html>

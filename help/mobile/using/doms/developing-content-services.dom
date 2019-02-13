@@ -1,0 +1,63 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="03865efb-5f32-4fbc-9c12-0f5cc05f502e" name="jcr:uuid" />
+  <meta content="25e209da-541f-475e-a2b5-bf8fe01e5849" name="jcr:predecessors" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2017-12-13T19:01:16.465-0500" name="jcr:created" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/MOBILE" name="primaryProductTag" />
+  <meta content="User" name="contentOwner" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="Content Services" name="seoTitle" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" />
+  <meta content="Content Services" name="jcr:title" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="bohnert@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2018-04-03T07:18:57.736-0400" name="firstPublishExternalDate" />
+  <meta content="msm-service" name="cq:lastModifiedBy" />
+  <meta content="2018-05-04T05:14:08.633-0400" name="lastPublishExternalDate" />
+  <meta content="/content/docs/en/aem/6-3/develop/mobile-apps/content-services" name="qaNotes" />
+  <meta content="2018-05-04T05:14:08.768-0400" name="cq:lastReplicated" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="bohnert" name="cq:lastReplicatedBy" />
+  <meta content="2018-05-11T10:01:30.374-0400" name="locHandOffDate" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/MOBILE" name="cq:tags" />
+  <meta content="2018-05-04T05:14:08.633-0400" name="topicBrowsingSortDate" />
+  <meta content="2018-05-11T10:01:30.375-0400" name="cq:lastModified" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/mobile/using/developing-content-services.html" name="publishExternalURL" />
+  <meta content="2018-05-04T05:14:08.633-0400" name="publishExternalDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+ </head>
+ <body>
+  <note>
+   <p>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). <a href="../../sites/developing/using/spa-overview.md">Learn more</a>.</p>
+  </note>
+  <note>
+   <p>The Content Services feature is documented for preview purposes only.</p> 
+   <p>It is subject to change with the release of 6.3 GA Service Pack 1. </p> 
+  </note>
+  <p>AEM Mobile Content Services is a lightweight, feature for requesting content that is managed by AEM. This provides all app developers with a high performing way to retrieve content without having to have deep knowledge of AEM's content repository (JCR) and web framework (Sling). It allows the requesting applications to be decoupled from the content repository.</p> 
+  <p>Content Services introduces several new AEM constructs that allows a developer to access AEM managed content without knoweldge of the repository structure of that content. </p> 
+  <p>These constructs are necessary to maintain flexibility and to enable future expansion by providing an abstraction layer between the AEM managed content and the mobile apps consuming the content. This allows AEM Content Services to work as an abstraction layer between the native application’s content requirements and the AEM content repository. </p> 
+  <p>Content Services can deliver the content as assets, packaged HTML (HTML/CSS/JS), or as channel independent content.</p> 
+  <note>
+   <p><strong>Prerequisites:</strong></p> 
+   <p>Before you get started with Content Services, ensure to enable Content Services flag. To enable creation and management of models in your app, you need to enable data models in Configuration Browser.</p> 
+   <p>See <strong><a href="/mobile/using/content-services">Administering Content Services</a></strong> for details.</p> 
+  </note>
+  <img imageRotate="0" src="assets/chlimage_1-150.png" />
+  <p>Once you have set the Content Services flag and enabled data models in Configuration Browser, see the resources below to get started with AEM Mobile Content Services, get familiar with Content Services Concepts such as model management, entity management followed by content delivery/rendering for AEM Mobile Content Services.</p> 
+  <ul> 
+   <li>Models in Repository</li> 
+   <li>Rendering and Delivery</li> 
+  </ul> 
+ </body>
+</html>

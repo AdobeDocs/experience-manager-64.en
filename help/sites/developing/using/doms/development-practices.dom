@@ -1,0 +1,74 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="User" name="contentOwner" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="msm-service" name="cq:lastModifiedBy" />
+  <meta content="2018-05-08T12:42:25.424-0400" name="cq:lastModified" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="Development Practices" name="seoTitle" />
+  <meta content="Best practices for developing on AEM" name="seoDescription" />
+  <meta content="2018-01-18T11:18:59.833-0500" name="publishExternalDate" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;content_type:reference;topic_tags:best-practices" name="cq:tags" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="/content/docs/en/aem/6-3/develop/best-practices/development-practices" name="qaNotes" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/morehelp/best-practices;/content/help/en/experience-manager/6-4/sites/developing/morehelp/best-practices" name="moreHelpPaths" />
+  <meta content="2018-01-18T11:18:59.833-0500" name="lastPublishExternalDate" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2017-10-31T16:16:52.078-0400" name="firstPublishExternalDate" />
+  <meta content="audience:developing" name="primaryAudienceTag" />
+  <meta content="2018-04-03T09:00:37.598-0400" name="cq:lastReplicated" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/development-practices.html" name="publishExternalURL" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2018-05-08T12:42:25.423-0400" name="locHandOffDate" />
+  <meta content="2018-01-18T11:18:59.833-0500" name="topicBrowsingSortDate" />
+  <meta content="2018-01-19T19:06:34.697-0500" name="jcr:created" />
+  <meta content="ca350849-14e8-4bcc-befa-9633e076563e" name="jcr:uuid" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="Development Practices" name="jcr:title" />
+  <meta content="feaa0664-f3da-48eb-a3d7-01cf1df6d865" name="jcr:predecessors" />
+ </head>
+ <body>
+  <h3>Work according to a Definition of Done</h3>
+  <p>Each team has a different definition of what “done” means, but it is important to have one and ensure that a story meets the defined criteria before being accepted. </p> 
+  <p>Some criteria that are commonly specified by teams include:</p> 
+  <ul> 
+   <li>Code reviewed for formatting</li> 
+   <li>Comments/Javadoc added</li> 
+   <li>Meets required test coverage levels</li> 
+   <li>Passes unit and integration tests</li> 
+   <li>Validated in the QA environment</li> 
+   <li>Localization implemented</li> 
+  </ul> 
+  <p>Without a well-defined DoD, it is easy to end up in a situation where a lot of things are halfway done and nothing is truly complete.</p> 
+  <h3>Define and adhere to coding and formatting conventions</h3>
+  <p>Things like indentation levels and white space may not seem important, but having properly formatted code goes a long way towards readability and maintainability. Conventions should be discussed and agreed to as a team and then followed in the code.</p> 
+  <h3>Aim for high test coverage </h3>
+  <p>As a project implementation grows in size, so will the amount of time that is required to test it. Without good test coverage, the testing team will not be able to scale and the developers will eventually become buried in bugs.</p> 
+  <p>Developers should practice TDD, writing failing unit tests before the production code that will fulfill their requirements. QA should create an automated set of acceptance tests to ensure that the system works as expected from a high level.</p> 
+  <p>There are custom frameworks available, such as Jackalope and Prosper, to make mocking of JCR APIs simpler to ensure productivity of developers while writing unit tests.</p> 
+  <h3>Stay Demo Ready</h3>
+  <p>The system should be available for demo to the business at the end of each iteration. By keeping the system in a demo-ready state, the team will always be within an iteration of being production ready and technical debt can be kept to a maintainable level.</p> 
+  <h3>Implement a continuous integration environment and use it</h3>
+  <p>Implementing a continuous integration environment will allow you to easily and repeatably run unit tests and integration tests. It will also decouple deployments from the development team, empowering the other parts of the team to be more efficient and making for more stable and predictable deployments.</p> 
+  <h3>Keep the development cycle fast by keeping build times low</h3>
+  <p>If unit tests take a long time to run, developers will avoid running them and they will lose their value. If it takes a long time to build the code and deploy it, people will do so less often. Making short build times a priority ensures that the time we have invested into our test coverage and CI infrastructure will continue to make the team more productive.</p> 
+  <h3>Fine tune Sonar and other static code analysis tools and act on their reports</h3>
+  <p>Code analysis tools can be valuable, but only if their reports lead to action on the part of the development team. Without fine-tuning the analysis that these tools provide, the recommendations that they generate will not be relevant and they will lose their value.</p> 
+  <h3>Follow the Boy Scout Rule</h3>
+  <p>The Boy Scouts have a rule: “Leave it better than you found it.” As long as all of the members of the development team adhere to this rule and clean something up when they come across a mess, the code will constantly improve.</p> 
+  <h3>Avoid implementing YAGNI features</h3>
+  <p>YAGNI (or You Aren’t Gonna Need It) features are things that are implemented when we expect that we will need something in the future, even though we don’t need it now. Ideally, we should implement the simplest thing that will work today and use continuous refactoring to ensure that the architecture of the system evolves with the requirements over time. This will allow us to focus on what matters and prevent code bloat and feature creep.</p> 
+ </body>
+</html>

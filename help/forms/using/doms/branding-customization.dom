@@ -1,0 +1,223 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2013-02-13T03:00:00.000-0500" name="topicBrowsingSortDate" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="2017-12-01T19:05:37.988-0500" name="jcr:created" /> 
+  <meta content="2018-04-26T04:21:19.835-0400" name="cq:lastModified" /> 
+  <meta content="2015-11-20T08:18:51.444-0500" name="publishQADate" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="mix:lockable;mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="https://helpx.stage.adobe.com/aem-forms/6-1/mobile-workspace/branding-customization.html" name="publishQAURL" /> 
+  <meta content="robhagat" name="lr_creator" /> 
+  <meta content="robhagat" name="lr_lastModifiedBy" /> 
+  <meta content="Branding Customization" name="navTitle" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="2013-02-20T08:58:58.452-0500" name="firstPublishQADate" /> 
+  <meta content="50b0aa71-6480-40bb-bb6f-c6789875f4ea" name="jcr:predecessors" /> 
+  <meta content="974" name="acrolinxWords" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/branding_customization_admin_5e12de0b318c6865_2164_report.xml" name="acrolinxReportURL" /> 
+  <meta content="LiveCycle/10.5/MobileWorkspace/WS885BB528-B0B0-4b2e-8459-0D6B69E99E25,LiveCycle/10.5/MobileWorkspace/WSF9C01337-2A20-406d-9F96-F419278D2FDD,LiveCycle/10.5/MobileWorkspace/WSF8A87397-30CA-4c9f-87CD-C86A90989D16,LiveCycle/10.5/MobileWorkspace/WS7E43767A-2342-4899-8C47-D6641456BB85" name="cq:gepId" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/branding-customization.html" name="publishExternalURL" /> 
+  <meta content="" name="autotagsRejected" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="2013-02-13T03:00:00.000-0500" name="sortDate" /> 
+  <meta content="Branding Customization" name="jcr:title" /> 
+  <meta content="2016-05-31T06:50:27.042-0400" name="acrolinxDate" /> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="2018-04-26T04:21:19.834-0400" name="locHandOffDate" /> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/forms-app;/content/help/en/experience-manager/6-4/forms/morehelp/forms-app" name="moreHelpPaths" /> 
+  <meta content="" name="autotags" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2018-04-03T08:10:33.900-0400" name="publishExternalDate" /> 
+  <meta content="2013-02-13T03:00:00.000-0500" name="lr_lastModified" /> 
+  <meta content="ac5c2049-ea24-4e2c-b8ca-65530e711bcd" name="jcr:uuid" /> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:forms-app" name="cq:tags" /> 
+  <meta content="Customize the application icon, application name, launch images, and login page to provide a distinct organization-specific look and feel to AEM Forms app." name="seoDescription" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2018-04-03T08:10:33.900-0400" name="lastPublishExternalDate" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2015-11-20T08:18:51.444-0500" name="lastPublishQADate" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="60" name="acrolinxSentences" /> 
+  <meta content="robhagat" name="contentOwner" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="2013-03-22T13:11:22.529-0400" name="firstPublishExternalDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2018-04-03T08:10:34.573-0400" name="cq:lastReplicated" /> 
+ </head> 
+ <body> 
+  <p>You can customize the application icon, application name, launch images, and login page to provide a distinct organization-specific appearance to AEM Forms app. For example, you can change the images to use logos from your organization. The AEM Forms app supports the following customizations:</p> 
+  <ul> 
+   <li><p>Customizing application icon and launch images</p> </li> 
+   <li><p>Customizing app name</p> </li> 
+   <li><p>Customizing images on the login page</p> </li> 
+   <li>Customizing the logo in the app menu</li> 
+  </ul> 
+  <h2 id="customizing_icon_and_launch_images">Customizing icon and launch images</h2> 
+  <p></p> 
+  <p>Perform the following steps to customize the default app icon and the launch image of the AEM Forms app:</p> 
+  <note> 
+   <p>For all the icons and images, use non-interlaced PNG format.</p> 
+  </note> 
+  <h3>To customize icon and launch images</h3> 
+  <h4>For iOS</h4> 
+  <ol> 
+   <li><p>Open the <span class="code">Capture.xcodeproj</span> project in Xcode.</p> </li> 
+   <li><p>(<strong><em>For customizing icon</em></strong>) In the navigator view of Capture, navigate to <strong>Capture &amp;gt; Capture &amp;gt; Supporting Files &amp;gt; Capture-info.plist</strong>. Click the drop-down next to the Icon files. Specify the name of the icon file (.png) and upload the file at <strong>Capture &amp;gt; Capture &amp;gt; Resources &amp;gt; icons</strong>. Currently supported dimesions are: 29x29, 50x50, 58x58, 72x72, 100x100, and 144x144.</p> </li> 
+   <li><p>(<strong><em>For customizing launch images</em></strong>) Ensure that the filenames of your images are:</p> 
+    <ul> 
+     <li>For portrait: <span class="code">Default-Portrait~ipad.png</span> and <span class="code">Default-Portrait@2x~ipad.png</span></li> 
+     <li>For landscape: <span class="code">Default-Landscape~ipad.png</span> and <span class="code">Default-Landscape@2x~ipad.png</span></li> 
+    </ul> <p>Upload them to the Capture project to replace existing files in the project.</p> 
+    <note> 
+     <p>Ensure that the name and resolution of your image matches the image you replace in the project.</p> 
+    </note></li> 
+   <li><p>Build and run AEM Forms app on iOS device or iOS simulator.</p> </li> 
+  </ol> 
+  <h4>For Android</h4> 
+  <ol> 
+   <li><p>Name the application icon files as:</p>  </li> 
+   <li><p>Place the corresponding icon files in the following directories:</p> 
+    <ul> 
+     <li><span class="code">[User_Home]/Projects/[your-project]/src/android/res/drawable-hdpi</span></li> 
+     <li><span class="code">[User_Home]/Projects/[your-project]/src/android/res/drawable-mdpi</span></li> 
+     <li><span class="code">[User_Home]/Projects/[your-project]/src/android/res/drawable-xhdpi</span></li> 
+     <li><span class="code">[User_Home]/Projects/[your-project]/src/android/res/drawable-xxhdpi</span></li> 
+     <li><span class="code">[User_Home]/Projects/[your-project]/src/android/res/drawable-xxxhdpi</span></li> 
+    </ul> 
+    <note> 
+     <p>Ensure that the name and resolution of your image matches the image you replace in the project.</p> 
+    </note></li> 
+   <li><p>Rebuild the AEM Forms app.</p> </li> 
+  </ol> 
+  <h3>For Windows</h3> 
+  <ol> 
+   <li><p>Replace the icons in the path:</p>  </li> 
+   <li><p>Replace the launcher image in the path:</p>  
+    <note> 
+     <p>Ensure that the name and resolution of your image matches the image you replace in the project.</p> 
+    </note></li> 
+   <li><p>Rebuild the AEM Forms app. </p> </li> 
+  </ol> 
+  <h2 id="customize_the_app_name">Customize the app name</h2> 
+  <p></p> 
+  <h4>For iOS</h4> 
+  <ol> 
+   <li><p>Open the <span class="code">Capture.xcodeproj</span> project in Xcode.</p> </li> 
+   <li><p>In the navigator view of Capture, navigate to <strong>Capture &amp;gt; Capture &amp;gt; Supporting Files &amp;gt; InfoPlist.strings</strong>. <br /> Update the value for the <span class="code">CFBundleDisplayName</span> attribute to a name you want to display for the app.<br /> </p> </li> 
+   <li><p>Build and run AEM Forms app on iOS device or iOS simulator.</p> <p>For details on building the app for iOS, see <a href="../../forms/using/setup-xcode-project-build-installer.md">Set up the Xcode project and build the iOS app</a>.</p> </li> 
+  </ol> 
+  <h4>For Android</h4> 
+  <ol> 
+   <li><p>Open the following Xml in any text or Xml editor:</p>  </li> 
+   <li><p>Update the value for the key <span class="code">app_name</span>.</p> </li> 
+   <li><p>Rebuild the AEM Forms app.</p> <p>For details on building the app for Android, see <a href="../../forms/using/setup-eclipse-project-build-installer.md" target="_blank">Set up the Eclipse project and build the Android app</a>.</p> </li> 
+  </ol> 
+  <h3>For Windows</h3> 
+  <ol> 
+   <li><p>Open the following Xml in any text editor:</p>  </li> 
+   <li><p>Update the value in the <span class="code">&amp;lt;name&amp;gt;...&amp;lt;/name&amp;gt;</span> tag.</p> </li> 
+   <li><p>Rebuild the AEM Forms app.</p> <p>For details on building the app for Windows, see <a href="../../forms/using/setup-visual-studio-project-build-installer.md" target="_blank">Set up the Visual Studio project and build the Windows app</a>.</p> </li> 
+  </ol> 
+  <h2 id="customizing_images_on_the_login_page">Customizing images on the login page</h2> 
+  <p>The login page of the AEM Forms app has logo and background images. The logo is located above the login dialog box and background image is located below the login dialog box. Perform the following steps to customize the default image on the login page:</p> 
+  <p><strong>Before you start</strong></p> 
+  <p>Ensure that you have following images: </p> 
+  <table cellpadding="4" cellspacing="0"> 
+   <tbody> 
+    <tr> 
+     <th class="row-nocellborder" valign="top" width="NaN%"><p>Description</p> </th> 
+     <th class="row-nocellborder" valign="top" width="NaN%"><p>Size</p> </th> 
+     <th class="cellrowborder" valign="top" width="NaN%"><p>Filename</p> </th> 
+    </tr> 
+    <tr> 
+     <td class="row-nocellborder" valign="top" width="NaN%"><p>Logo</p> </td> 
+     <td class="row-nocellborder" valign="top" width="NaN%"><p>72 x 72 pixel</p> </td> 
+     <td class="cellrowborder" valign="top" width="NaN%"><p>LC-logo.png</p> </td> 
+    </tr> 
+    <tr> 
+     <td class="row-nocellborder" valign="top" width="NaN%"><p>Background image (Portrait)</p> </td> 
+     <td class="row-nocellborder" valign="top" width="NaN%"><p>1280 x 989 pixel</p> </td> 
+     <td class="cellrowborder" valign="top" width="NaN%"><p>Landing_bg.jpeg</p> </td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <p><strong>To customize images on the login page using Xcode</strong></p> 
+  <ol> 
+   <li><p>Open the <span class="code">Capture.xcodeproj</span> project in Xcode.<br /> </p> </li> 
+   <li><p>Navigate to the <span class="code">www/wsmobile/images </span>folder. </p></li> 
+   <li><p>To change logo, replace the default <span class="code">LC-logo.png</span> file with the custom <span class="code">LC-logo.png</span> file.</p></li> 
+   <li><p>To change background, replace the default <span class="code">Landing_bg.jpeg</span> file with the custom <span class="code">Landing_bg.jpeg </span>file.</p> </li> 
+   <li><p>Build and run AEM Forms app on iOS device or iOS simulator.</p> </li> 
+  </ol> 
+  <h3>To customize images on the login pages using Eclipse</h3> 
+  <ol> 
+   <li><p>Open the Android project in Eclipse.<br /> </p> </li> 
+   <li><p>Navigate to the <span class="code">assets/www/wsmobile/images </span>folder.</p> </li> 
+   <li><p>To change logo, replace the default <span class="code">LC-logo.png</span> file with the custom <span class="code">LC-logo.png</span> file.</p></li> 
+   <li><p>To change background, replace the default <span class="code">Landing_bg.jpeg</span> file with the custom <span class="code">Landing_bg.jpeg </span>file.</p> </li> 
+   <li><p>Build and run AEM Forms app on Android device.</p> </li> 
+  </ol> 
+  <h3>To customize images on the login pages using Visual Studio</h3> 
+  <ol> 
+   <li><p>Open the <span class="code">MWSWindows.sln</span> project in Visual Studio.<br /> </p> </li> 
+   <li><p>Navigate to the <span class="code">MWSWindows\www\wsmobile\images </span>folder.</p> </li> 
+   <li><p>To change logo, replace the default <span class="code">LC-logo.png</span> file with the custom <span class="code">LC-logo.png</span> file.</p></li> 
+   <li><p>To change background, replace the default <span class="code">Landing_bg.jpeg</span> file with the custom <span class="code">Landing_bg.jpeg </span>file.</p> </li> 
+   <li><p>Build and run AEM Forms app on Windows device.</p> </li> 
+  </ol> 
+  <h2 id="customizing_images_on_the_login_page">Customizing the logo in the app menu</h2> 
+  <p>After you login to the AEM Forms app and tap the menu button, you can see the logo above the menu. Perform the following steps to customize the default logo:</p> 
+  <p><strong>Before you start</strong></p> 
+  <p>Ensure that you have following image:</p> 
+  <table cellpadding="4" cellspacing="0"> 
+   <tbody> 
+    <tr> 
+     <th class="row-nocellborder" valign="top" width="NaN%"><p>Description</p> </th> 
+     <th class="row-nocellborder" valign="top" width="NaN%"><p>Size</p> </th> 
+     <th class="cellrowborder" valign="top" width="NaN%"><p>Filename</p> </th> 
+    </tr> 
+    <tr> 
+     <td class="row-nocellborder" valign="top" width="NaN%"><p>Logo</p> </td> 
+     <td class="row-nocellborder" valign="top" width="NaN%"><p>72 x 72 pixel</p> </td> 
+     <td class="cellrowborder" valign="top" width="NaN%"><p>aem_icon.png</p> </td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <p><strong>To customize images on the login page using Xcode</strong></p> 
+  <ol> 
+   <li><p>Open the <span class="code">Capture.xcodeproj</span> project in Xcode.<br /> </p> </li> 
+   <li><p>Navigate to the <span class="code">www/wsmobile/images </span>folder. </p></li> 
+   <li><p>To change the logo, replace the default <span class="code">aem_icon.png</span> file with the custom <span class="code">aem_icon.png</span> file.</p> </li> 
+   <li><p>Build and run AEM Forms app on iOS device or iOS simulator.</p> </li> 
+  </ol> 
+  <h3>To customize images on the login pages using Eclipse</h3> 
+  <ol> 
+   <li><p>Open the Android project in Eclipse.<br /> </p> </li> 
+   <li><p>Navigate to the <span class="code">assets/www/wsmobile/images </span>folder.</p> </li> 
+   <li><p>To change the logo, replace the default <span class="code">aem_icon.png</span> file with the custom <span class="code">aem_icon.png</span> file.</p> </li> 
+   <li><p>Build and run AEM Forms app on Android device.</p> </li> 
+  </ol> 
+  <h3>To customize images on the login pages using Visual Studio</h3> 
+  <ol> 
+   <li><p>Open the <span class="code">MWSWindows.sln</span> project in Visual Studio.<br /> </p> </li> 
+   <li><p>Navigate to the <span class="code">MWSWindows\www\wsmobile\images </span>folder.</p> </li> 
+   <li><p>To change the logo, replace the default <span class="code">aem_icon.png</span> file with the custom <span class="code">aem_icon.png</span> file.</p> </li> 
+   <li><p>Build and run AEM Forms app on Windows device.</p> </li> 
+  </ol> 
+  <p><a href="https://www.adobe.com/account/sign-in.supportportal.html" target="_blank"><strong>Contact Support</strong></a></p> 
+ </body> 
+</html>

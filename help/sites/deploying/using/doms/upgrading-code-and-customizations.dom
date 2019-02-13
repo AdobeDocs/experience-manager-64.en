@@ -1,0 +1,182 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/deploying/morehelp/upgrading;/content/help/en/experience-manager/6-4/sites/deploying/morehelp/upgrading" name="moreHelpPaths" /> 
+  <meta content="d6a37913-89a7-49d9-8319-25f503d9c96e" name="jcr:uuid" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/upgrading-code-and-customizations.html" name="publishExternalURL" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="asgupta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2018-11-02T08:58:01.262-0400" name="cq:lastReplicated" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="Learn more about upgrading custom code in AEM." name="seoDescription" /> 
+  <meta content="2018-02-10T08:01:16.161-0500" name="jcr:created" /> 
+  <meta content="Upgrading Code and Customizations" name="seoTitle" /> 
+  <meta content="2017-11-29T07:07:58.014-0500" name="firstPublishExternalDate" /> 
+  <meta content="2018-11-05T07:46:30.358-0500" name="locHandOffDate" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="audience:deploying" name="primaryAudienceTag" /> 
+  <meta content="6e0baf7d-b4da-4697-917f-c71472b6d1fd" name="jcr:predecessors" /> 
+  <meta content="2018-11-02T08:58:01.109-0400" name="topicBrowsingSortDate" /> 
+  <meta content="Upgrading Code and Customizations" name="jcr:title" /> 
+  <meta content="topic_tags:upgrading;products:SG_EXPERIENCEMANAGER/6.4/SITES;content_type:reference" name="cq:tags" /> 
+  <meta content="en" name="pageCreatedAt" /> 
+  <meta content="2018-11-02T08:58:01.109-0400" name="publishExternalDate" /> 
+  <meta content="2019-01-17T13:32:14.584-0500" name="cq:lastModified" /> 
+  <meta content="asgupta" name="cq:lastReplicatedBy" /> 
+  <meta content="sarchiz" name="contentOwner" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
+  <meta content="castaned" name="cq:lastModifiedBy" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="target-audience:upgrader" name="targetAudience" /> 
+  <meta content="2018-11-02T08:58:01.109-0400" name="lastPublishExternalDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+ </head> 
+ <body> 
+  <p>When planning an upgrade the following areas of an implementation need to be investigated and addressed.</p> 
+  <ul> 
+   <li><a href="#upgrade-code-base">Upgrade the Code Base</a></li> 
+   <li><a href="#align-repository-structure">Align with 6.4 Repository Structure</a></li> 
+   <li><a href="#aem-customizations">AEM Customizations</a></li> 
+   <li><a href="#testing-procedure">Testing Procedure</a></li> 
+  </ul> 
+  <h2 id="overview">Overview</h2> 
+  <ol> 
+   <li><strong>Pattern Detector</strong> - Run the Pattern Detector as described in upgrade planning and described in detail in <a href="../../../sites/deploying/using/pattern-detector.md">this page</a> to get a pattern detector report that contains more details on areas that need to be addressed in addition to the unvailable APIs/bundles in the Target version of AEM. The Pattern Detection report should give you an indication of any incompatibilities in your code, if there are none then your deployment is already 6.4 compatible, you can still choose to do new development for utilizing 6.4 functionality, but you do't need it just for maintaining compatibility. If there are incompatibilities reported then you can choose to either a) Run in compatibility mode and defer your development for new 6.4 features or compatibility, b) Decide to do development after upgrade, and move to step 2. Please see please see <a href="../../../sites/deploying/using/backward-compatibility.md">Backward Compatibility in AEM 6.4</a> for more details.<br /><br /> </li> 
+   <li><strong>Develop Code Base for 6.4 </strong>- Create a dedicated branch or repository for the code base for the Target version. Use info from Pre-Upgrade Compatibility to plan areas of code to update.</li> 
+   <li><strong>Compile with 6.4 Uber jar </strong>- Update code base POMs to point to 6.4 uber jar and compile code against this.</li> 
+   <li><strong>Update AEM Customizations</strong><em> - </em>Any customizations or extensions to AEM should be updated/validated to work in 6.4 and added to the 6.4 code base. Includes UI Search Forms, Assets Customizations, anything using /mnt/overlay</li> 
+   <li><strong>Deploy to 6.4 Environment</strong> - A clean instance of AEM 6.4 (Author + Publish) should be stood up in a Dev/QA environment. Updated code base and a representative sample of content (from current production) should be deployed.</li> 
+   <li><strong>QA Validation and Bug fix</strong> - QA should validate the application on both Author and Publish instances of 6.4. Any bugs found should be fixed and committed to the 6.4 code base. Repeat Dev-Cycle as necessary until all bugs are fixed.</li> 
+  </ol>  
+  <p>Before proceeding with an upgrade you should have a stable application code base that has been thoroughly tested against the target version of AEM. Based on observations made in testing there could be ways to optimize the custom code. This might include refactoring the code to avoid traversing the repository, custom indexing to optimize search, or use of unordered nodes in JCR, amongst others.</p> 
+  <p>In addition to the option of upgrading your code base and customizations to work with the new AEM version, 6.4 also helps manage your customizations more efficiently with the Backward Compatibility feature as described on <a href="../../../sites/deploying/using/backward-compatibility.md">this page</a>.</p> 
+  <p>As mentioned above and shown in the diagram below,running the <a href="../../../sites/deploying/using/pattern-detector.md">Pattern Detector</a> in the first step will help you assess the overall complexity of the upgrade and whether you want to run in compatibility mode or update your customizations to use all the new AEM 6.4 features. Please see the <a href="../../../sites/deploying/using/backward-compatibility.md">Backward Compatibility in AEM 6.4</a> page for more details.</p> 
+  <a href="assets/upgrade-code-base-highlevel.png"><img imageRotate="0" src="assets/screen_shot_2018-03-30at175257.png" /></a> 
+  <h2 id="upgrade-code-base">Upgrade the Code Base</h2> 
+  <h3 id="Create a dedicated branch for 6.3 code in Version Control">Create a Dedicated Branch for 6.4 Code in Version Control</h3> 
+  <p>All code and configurations required for your AEM implementation should be managed using some form of version control. A dedicated branch in version control should be created for managing any changes needed for the code base in the target version of AEM. Iterative testing of the code base against the target version of AEM and subsequent bug fixes will be managed in this branch.</p> 
+  <h3 id="Update the AEM Uber Jar version">Update the AEM Uber Jar version</h3> 
+  <p>The AEM Uber jar includes all AEM APIs as a single dependency in your Maven project's <span class="code">pom.xml</span>. It is always a best practice to include the Uber Jar as a single dependency instead of including individual AEM API dependencies. When upgrading the code base the version of the Uber Jar should be changed to point to the target version of AEM. If your project was developed on a version of AEM prior to the existence of the Uber Jar all individual AEM API dependencies should be removed and replaced by a single inclusion of the Uber Jar for the target version of AEM. The code base should then be recompiled against the new version of the Uber Jar. Any deprecated APIs or methods should be updated to be compatible with the target version of AEM.</p> 
+  <codeblock class="syntax plain">
+    &lt;dependency&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;groupId&gt;com.adobe.aem&lt;/groupId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;artifactId&gt;uber-jar&lt;/artifactId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;version&gt;6.4.0&lt;/version&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;classifier&gt;apis&lt;/classifier&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;scope&gt;provided&lt;/scope&gt;!!discoiqbr!!&lt;/dependency&gt; 
+  </codeblock> 
+  <h3 id="Phase out use of Administrative Resource Resolver">Phase out use of Administrative Resource Resolver</h3> 
+  <p>The use of an administrative session through <span class="code">SlingRepository.loginAdministrative()</span> and <span class="code">ResourceResolverFactory.getAdministrativeResourceResolver()</span> was quite prevalent in code bases prior to AEM 6.0. These methods have been deprecated for security reasons as they give too broad of a level of access. <a href="https://sling.apache.org/documentation/the-sling-engine/service-authentication.html#deprecation-of-administrative-authentication">In future versions of Sling these methods will be removed</a>. It is highly recommended to refactor any code to use Service Users instead. More information about Service Users and <a href="../../../sites/administering/using/security-service-users.md#how-to-phase-out-admin-sessions">how to phase out administrative sessions can be found here</a>.</p> 
+  <h3 id="Queries and Oak Indexes">Queries and Oak Indexes</h3> 
+  <p>Any use of queries in the code base needs to be thoroughly tested as part of upgrading the code base. For customers upgrading from Jackrabbit 2 (versions of AEM older than 6.0) this is especially important as Oak does not index content automatically and custom indexes may need to be created. If upgrading from an AEM 6.x version the out of the box Oak index definitions may have changed and could effect existing queries.</p> 
+  <p>Several tools for tools for analyzing and inspecting query performance are available:</p> 
+  <ul> 
+   <li><a href="../../../sites/deploying/using/queries-and-indexing.md">AEM Index Tools</a><br /> </li> 
+   <li><a href="../../../sites/administering/using/operations-dashboard.md#diagnosistools">Operations Diagnosis Tools - Query Performance</a><br /> </li> 
+   <li><a href="https://oakutils.appspot.com/">Oak Utils</a>. This is an open source tool that is not maintained by Adobe.</li> 
+  </ul> 
+  <h3 id="Classic UI Authoring">Classic UI Authoring</h3> 
+  <p>Classic UI authoring is still available in AEM 6.4 but is being deprecated. More information can be found <a href="../../../release-notes/deprecated-removed-features.md#pre-announcement-for-next-release">here</a>. If your application is currently running on the Classic UI author environment it is recommended to upgrade to AEM 6.4 and continue using the Classic UI. Migration to the Touch UI can then be planned as separate project to be completed over several development cycles. In order to use the Classic UI in AEM 6.4 several OSGi configurations are needed to be committed to the code base. More details on how to configure this can be found <a href="../../../sites/administering/using/enable-classic-ui.md">here</a>. </p> 
+  <h2 id="align-repository-structure">Align with 6.4 Repository Structure</h2>  
+  <p>To make upgrades easier and ensure that configurations are not overwritten during an upgrade, the repository is restructured in 6.4 to separate content from configuration. <br /> </p> 
+  <p>Therefore, a number of settings must be moved to no longer reside under <span class="code">/etc</span> as had been the case in the past. To review the full set of repository restructuring concerns that must be reviewed and accomodated in the updated to AEM 6.4, see <a href="../../../sites/deploying/using/repository-restructuring-in-aem64.md">Repository Restructuring in AEM 6.4</a>. <br /> </p> 
+  <h2 id="aem-customizations">AEM Customizations </h2> 
+  <p>All customizations to the AEM authoring environment in the source version of AEM need to be identified. Once identified, it is recommended that each customizations be stored in version control or at a minimum backed up as a part of a content package. All customizations should be deployed and validated in a QA or Staging environment running the target version of AEM prior to a production upgrade. </p> 
+  <h3 id="Overlays in general">Overlays in general</h3> 
+  <p>It is a common practice to extend AEM out of the box functionality by overlaying nodes and/or files under /libs with additional nodes under /apps. These overlays should be tracked in version control and tested against the target version of AEM. If a file (be it JS, JSP, HTL) is overlayed, it is recommended to leave a comment on what functionality has been augmented for easier regression testing on the target version of AEM. More information about overlays in general can be found <a href="../../../sites/developing/using/overlays.md">here</a>. Instructions for specific AEM overlays can be found below.</p> 
+  <h3 id="Upgrading Custom Search Forms">Upgrading Custom Search Forms</h3> 
+  <p>Custom Search Facets require some manual adjustments after the upgrade in order to function properly. For more details, see <a href="../../../sites/deploying/using/upgrading-custom-search-forms.md">Upgrading Custom Search Forms</a>.</p> 
+  <h3 id="Assets UI Customizations">Assets UI Customizations</h3> 
+  <note> 
+   <p>This procedure is required only for upgrades from versions older than AEM 6.2. </p> 
+  </note> 
+  <p>Instances that have customized Assets deployments need to be prepared for the upgrade. This is needed to ensure that all customized content is compatible with the new 6.4 node structure.</p> 
+  <p>You can prepare customizations to the Assets UI by doing the following: </p> 
+  <ol> 
+   <li><p>On the instance that needs to be upgraded, open CRXDE Lite by going to <em>http://server:port/crx/de/index.jsp</em><br /> </p> </li> 
+   <li><p>Go to the following node:</p> 
+    <ul> 
+     <li><span class="code">/apps/dam/content</span><br /> </li> 
+    </ul> </li> 
+   <li><p>Rename the content node to <strong>content_backup</strong>. You can do this by right clicking the explorer pane in the left hand side of the window and choosing <strong>Rename</strong>.<br /> </p> </li> 
+   <li><p>Once the node has been renamed, create a new node named content under <span class="code">/apps/dam</span> named <strong>content</strong> and set its node type to <strong>sling:Folder</strong>.<br /> </p> </li> 
+   <li><p>Move all the children nodes of <strong>content_backup</strong> to the newly created content node. You can do this by right clicking each children node in the explorer pane and selecting <strong>Move</strong>.<br /> </p> </li> 
+   <li><p>Delete the <strong>content_backup</strong> node.<br /> </p> </li> 
+   <li><p>The updated nodes beneath <span class="code">/apps/dam</span> with the correct node type of <span class="code">sling:Folder</span> should ideally be saved into version control and deployed with the code base or at a minimum backed up as content package.<br /> </p> </li> 
+  </ol> 
+  <h3 id="Generating Asset IDs for Existing Assets">Generating Asset IDs for Existing Assets</h3> 
+  <p>To generate asset IDs for existing assets, upgrade the assets when you upgrade your AEM instance to run AEM 6.4. This is required to enable the <a href="../../../assets/using/touch-ui-asset-insights.md">Assets Insights feature</a>. For more details, see <a href="../../../assets/using/touch-ui-using-page-tracker.md#contentbody-title-1017167766">Adding Embed code</a>.</p> 
+  <p>To upgrade assets, configure the Associate Asset IDs package in the JMX console. Depending on the number of assets in the repository, <span class="code">migrateAllAssets</span> may take a long time. Our internal tests estimate roughly one hour for 125 thousand assets on TarMK.</p> 
+  <img imageRotate="0" src="assets/1487758945977.png" /> 
+  <p>If you require asset IDs for a subset of your entire assets, use the <span class="code">migrateAssetsAtPath</span> API.</p> 
+  <p>For all other purposes, use the <span class="code">migrateAllAssets()</span> API.</p> 
+  <h3 id="InDesign Script Customizations">InDesign Script Customizations</h3>  
+  <p>Adobe recommends putting custom scripts at <span class="code">/apps/settings/dam/indesign/scripts</span> location. More information about InDesign Script customizations can be found <a href="../../../assets/using/indesign.md#configuring-the-aem-assets-workflow">here</a>.</p> 
+  <h3 id="Recovering ContextHub Configurations">Recovering ContextHub Configurations</h3> 
+  <p>ContextHub configurations are effected by an upgrade. Instructions on how to recover existing ContextHub configurations can be found <a href="../../../sites/administering/using/contexthub-config.md#recovering-contexthub-configurations-after-upgrading">here</a>. </p> 
+  <h3 id="Workflow Customizations">Workflow Customizations</h3> 
+  <p>It is a common practice to update modify out of the box workflows to add or remove un-needed functionality. A common workflow that is customized is the DAM Update Asset workflow. All workflows required for a custom implementation should be backed up and stored in version control as they may be overwritten during an upgrade. </p> 
+  <h3 id="Editable Templates">Editable Templates</h3> 
+  <note> 
+   <p>This procedure is required only for Sites upgrades using Editable Templates from AEM 6.2</p> 
+  </note> 
+  <p>The structure for Editable templates changed between AEM 6.2 and 6.3. If you are upgrading from 6.2 or earlier and If your site content is built using editable templates you will need to use the <a href="https://github.com/Adobe-Marketing-Cloud/aem-sites-template-migration">Responsive Nodes Clean Up Tool</a>. The tool is meant to run <strong>after</strong> an upgrade in order to clean up content. It will need to be run on both Author and Publish tiers.</p> 
+  <h3 id="CUG Implementation Changes">CUG Implementation Changes</h3> 
+  <p>The implementation of Closed User Groups has changed significantly to address performance and scalability limitations in previous versions of AEM. The previous version of CUG was deprecated in 6.3 and the new implementation is only supported in the Touch UI. If you are upgrading from 6.2 or ealier then Instructions to migrate to the new CUG implementation can be found <a href="../../../sites/administering/using/closed-user-groups.md#upgradetoaem63">here</a>. </p> 
+  <h2 id="testing-procedure">Testing Procedure</h2> 
+  <p>A comprehensive test plan should be prepared for testing upgrades. Testing the upgraded code base and application will need to be done in lower environments first. Any bugs found should be fixed in an iterative fashion until the code base is stable, only then should higher level environments be upgraded.</p> 
+  <h3 id="Testing the Upgrade Procedure">Testing the Upgrade Procedure</h3> 
+  <p>The upgrade procedure as outlined here should be tested on Dev and QA environments as documented in your customized run book (see <a href="../../../sites/deploying/using/upgrade-planning.md">Planning Your Upgrade</a>). The upgrade procedure should be repeated until all steps are documented in the upgrade run book and the upgrade process is smooth.</p> 
+  <h3 id="Implementation Test Areas ">Implementation Test Areas </h3> 
+  <p>Below are critical areas of any AEM implementation that should be covered by your test plan once the environment has been upgraded and the upgraded code base has been deployed.</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td><strong>Functional Test Area</strong></td> 
+     <td><strong>Description</strong></td> 
+    </tr> 
+    <tr> 
+     <td>Published Sites</td> 
+     <td>Testing the AEM implementation and associated code on the publish tier<br /> through the dispatcher. Should include criteria for page updates and<br /> cache invalidation.</td> 
+    </tr> 
+    <tr> 
+     <td>Authoring</td> 
+     <td>Testing the AEM implementation and associated code on the Author tier. Should include page, component authoring and dialogs.</td> 
+    </tr> 
+    <tr> 
+     <td>Integrations with Marketing Cloud Solutions</td> 
+     <td>Validating integrations with products like Analytics, DTM, and Target.</td> 
+    </tr> 
+    <tr> 
+     <td>Integrations with 3rd Party Systems</td> 
+     <td>Any 3rd party integrations should be validated on both Author and Publish tiers.</td> 
+    </tr> 
+    <tr> 
+     <td>Authentication, Security and Permissions</td> 
+     <td>Any authentication mechanisms like LDAP/SAML should be validated.<br /> Permissions and groups should be tested on both Author and Publish<br /> tiers.</td> 
+    </tr> 
+    <tr> 
+     <td>Queries</td> 
+     <td>Custom indexes and queries should be tested along with query performance.</td> 
+    </tr> 
+    <tr> 
+     <td>UI Customizations</td> 
+     <td>Any extensions or customizations to the AEM UI in the author environment.</td> 
+    </tr> 
+    <tr> 
+     <td>Workflows</td> 
+     <td>Custom and/or out of the box workflows and functionality.</td> 
+    </tr> 
+    <tr> 
+     <td>Performance Testing</td> 
+     <td>Load testing should be performed on both Author and Publish tiers that simulate real-world scenarios.</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h3 id="Document Test Plan and Results">Document Test Plan and Results</h3> 
+  <p>A test plan should be created that covers the above implementation test areas. In many cases it will make sense to separate the test plan by Author and Publish task lists. This test plan should be executed on Dev, QA, and Stage environments prior to upgrading Production environments. Test results and performance metrics should be captured on lower environments to provide comparison when upgrading Stage and Production environments.</p> 
+ </body> 
+</html>

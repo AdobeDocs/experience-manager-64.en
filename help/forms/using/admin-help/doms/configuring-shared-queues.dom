@@ -1,0 +1,111 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2017-10-31T16:32:22.121-0400" name="lastPublishExternalDate" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="admin" name="lr_lastModifiedBy" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="topicBrowsingSortDate" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/configuring_shared_queues_admin_5e12de0b318c6865_2298_report.xml" name="acrolinxReportURL" /> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/using/morehelp/configuring_forms_workflow;/content/help/en/experience-manager/6-4/forms/using/morehelp/configuring_forms_workflow" name="moreHelpPaths" /> 
+  <meta content="2017-12-01T19:06:18.892-0500" name="jcr:created" /> 
+  <meta content="2017-10-31T16:32:22.121-0400" name="publishExternalDate" /> 
+  <meta content="620" name="acrolinxWords" /> 
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/configuring_forms_workflow;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" /> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="2016-04-20T10:02:27.765-0400" name="firstPublishExternalDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2018-04-26T04:24:20.665-0400" name="locHandOffDate" /> 
+  <meta content="2016-05-31T06:57:40.048-0400" name="acrolinxDate" /> 
+  <meta content="9310b8a8-1abf-4d1d-a68a-12f8fe504fc9" name="jcr:predecessors" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/forms/using/admin-help/configuring-shared-queues.html" name="publishExternalURL" /> 
+  <meta content="Configuring Shared Queues" name="navTitle" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="sortDate" /> 
+  <meta content="admin" name="lr_creator" /> 
+  <meta content="45" name="acrolinxSentences" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="Configuring Shared Queues" name="jcr:title" /> 
+  <meta content="2018-04-03T09:09:52.361-0400" name="cq:lastReplicated" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="2018-04-26T04:24:20.666-0400" name="cq:lastModified" /> 
+  <meta content="2016-02-05T03:27:18.885-0500" name="lr_lastModified" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="d9175b81-f518-4b93-ac72-cd2dc8f95db8" name="jcr:uuid" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="admin" name="contentOwner" /> 
+  <meta content="Shared Queues allow you to configure and manage user queues effectively. Learn how to configure shared queues." name="seoDescription" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="AEMForms/6.1/AdminHelp/WSf23b27ebc7b554b6-20ae3986135c3fcb847-8000,AEMForms/6.1/AdminHelp/WSf23b27ebc7b554b6-20ae3986135c3fcb847-7fff,AEMForms/6.1/AdminHelp/WSf23b27ebc7b554b6-59e899a4135e0fd2eee-8000,AEMForms/6.1/AdminHelp/WSf23b27ebc7b554b6-59e899a4135e0fd2eee-7fff,AEMForms/6.1/AdminHelp/WSf23b27ebc7b554b66f97f02b135e10e977d-8000,AEMForms/6.1/AdminHelp/WSf23b27ebc7b554b66f97f02b135e10e977d-7fff,AEMForms/6.1/AdminHelp/WSf23b27ebc7b554b66f97f02b135e10e977d-7ffe" name="cq:gepId" /> 
+ </head> 
+ <body> 
+  <p>Shared Queues allow you to configure and manage user queues effectively. A user queue is simply all tasks assigned to a user, see <a href="http://help.adobe.com/en_US/livecycle/11.0/WorkspaceHelp/WS92d06802c76abadb-2b6ab502126beb6ba2f-7ffc.2.html" target="_blank">To Do Lists</a> for more information. You can assign, unassign, and reassign user queues depending on your organizational needs. You can manage Shared Queues in two ways:</p> 
+  <p><strong>Manage Access To A User</strong></p> 
+  <p>You can manage access to a selected user queue using this option.</p> 
+  <p> </p> 
+  <p><strong>Manage Access By A User</strong></p> 
+  <p>You can manage shared queues assigned to a selected user using this option.</p> 
+  <p> </p> 
+  <p> </p> 
+  <h2 id="managing_access_to_a_selected_user_queue">Managing access to a selected user queue</h2> 
+  <p></p> 
+  <p>Manage Access To A User functionality allows you to manage access to a selected user queue. You can grant or revoke access to a selected user queue to other users in your organization. For example, Kara Bowman is out of office. Using the Manage Access To A User functionality, her queue can be shared with Akira Tanaka and John Jacobs for completion. At a later point, when Kara Bowman returns to the office, you can revoke access to her queue from Akira Tanaka and John Jacobs.</p> 
+  <p>Once shared, these tasks can be completed by the user, with access to the queue, using Workspace.</p> 
+  <note> 
+   <p>The Flex Worksapce is deprecated for AEM forms release.</p> 
+  </note> 
+  <h3 id="configuring_access_to_a_selected_user_queue">Configuring access to a selected user queue</h3> 
+  <p></p> 
+  <ol> 
+   <li>Log in to administration console using an Administrator account.</li> 
+   <li>Select <strong>Services</strong> &amp;gt; <strong>forms workflow</strong> &amp;gt; <strong>Shared Queue</strong>.</li> 
+   <li>On the Manage Access To A User tab, find and select the user whose queue you wish to share. At any point, the bottom right pane displays the list of users with access to the selected user queue.</li> 
+   <li>In the bottom left pane, find and select the user. Click Share.</li> 
+   <li>Click Save to complete.</li> 
+  </ol> 
+  <h3 id="revoking_access_to_a_selected_user_queue">Revoking access to a selected user queue</h3> 
+  <p></p> 
+  <ol> 
+   <li>Log in to administration console using an Administrator account.</li> 
+   <li>Select <strong>Services</strong> &amp;gt; <strong>forms workflow</strong> &amp;gt; <strong>Shared Queue</strong>.</li> 
+   <li>On the Manage Access To A User tab, find and select the user whose queue you wish to manage.</li> 
+   <li>The bottom right pane displays the list of users with access to the selected user queue. Select the user and click Revoke.</li> 
+   <li>Click Save to complete.</li> 
+  </ol> 
+  <h2 id="managing_queues_assigned_to_a_user">Managing queues assigned to a user</h2> 
+  <p></p> 
+  <p>Manage Access By A User functionality allows you to manage queues assigned to to a selected user. You can grant or revoke access to user queues to a selected user individually. For example, you wish to assign Akira Tanaka and John Jacobs user queues to Kara Bowman. Using the Manage Access By A User functionality, you can search for Kara Bowman and grant access to tasks assigned to Akira Tanaka and John Jacobs. At a later point, you can revoke Kara Bowman’s access to these user queues.</p> 
+  <p>Once assigned, these tasks can be completed by the user using Workspace.</p> 
+  <note> 
+   <p>The Flex Worksapce is deprecated for AEM forms release.</p> 
+  </note> 
+  <h3 id="granting_access_to_a_selected_user_queue">Granting access to a selected user queue</h3> 
+  <p></p> 
+  <ol> 
+   <li>Log in to administration console using an Administrator account.</li> 
+   <li>Select <strong>Services</strong> &amp;gt; <strong>forms workflow</strong> &amp;gt; <strong>Shared Queue</strong>.</li> 
+   <li>On the Manage Access to a User tab, find and select the user whose queue you wish to share. At any point, the bottom right pane displays the list of users with access to the selected user queue.</li> 
+   <li>In the bottom left pane, find and select user queues you wish to share with the selected user. Click Share.</li> 
+   <li>Click Save to complete.</li> 
+  </ol> 
+  <h3 id="revoking_access_to_a_selected_user_queue">Revoking access to a selected user queue</h3> 
+  <p></p> 
+  <ol> 
+   <li>Log in to administration console using an Administrator account.</li> 
+   <li>Select <strong>Services</strong> &amp;gt; <strong>forms workflow</strong> &amp;gt; <strong>Shared Queue</strong>.</li> 
+   <li>On the Manage Access By A User tab, find and select the user whose queue you wish to manage.</li> 
+   <li>The bottom right pane displays the list of user queues assigned to the selected user. Select the user queue and click Revoke.</li> 
+   <li>Click Save to complete.</li> 
+  </ol> 
+ </body> 
+</html>

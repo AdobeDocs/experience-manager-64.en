@@ -1,0 +1,115 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="95f27cfe-c4e8-469e-994c-39601d3808c9" name="jcr:uuid" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="audience:administering" name="primaryAudienceTag" /> 
+  <meta content="/content/docs/en/aem/6-3/administer/security/cug" name="qaNotes" /> 
+  <meta content="2018-04-03T07:03:01.747-0400" name="lastPublishExternalDate" /> 
+  <meta content="2018-04-03T07:03:01.747-0400" name="topicBrowsingSortDate" /> 
+  <meta content="2018-04-03T07:03:02.034-0400" name="cq:lastReplicated" /> 
+  <meta content="Creating a Closed User Group" name="seoTitle" /> 
+  <meta content="sarchiz" name="cq:lastModifiedBy" /> 
+  <meta content="Creating a Closed User Group" name="navTitle" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2017-10-31T16:25:22.721-0400" name="firstPublishExternalDate" /> 
+  <meta content="Learn how to create a Closed User Group." name="seoDescription" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/cug.html" name="publishExternalURL" /> 
+  <meta content="2018-04-26T10:13:32.800-0400" name="locHandOffDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2018-04-03T07:03:01.747-0400" name="publishExternalDate" /> 
+  <meta content="msm-service" name="contentOwner" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:Security;content_type:reference" name="cq:tags" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="fc9d3a88-29aa-4322-8618-3447b57870a1" name="jcr:predecessors" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/administering/morehelp/security;/content/help/en/experience-manager/6-4/sites/administering/morehelp/security" name="moreHelpPaths" /> 
+  <meta content="2018-10-30T10:41:56.913-0400" name="cq:lastModified" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2017-12-01T19:02:04.014-0500" name="jcr:created" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="Creating a Closed User Group" name="jcr:title" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="mix:lockable;mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+ </head> 
+ <body> 
+  <p>Closed User Groups (CUGs) are used to limit access to specific pages that reside within a published internet site. Such pages require the assigned members to login and provide security credentials.</p> 
+  <p>To configure such a area within your website you:</p> 
+  <ul> 
+   <li><a href="#creatingtheusergrouptobeused">create the actual closed user group and assign members</a>.<br /> </li> 
+   <li><a href="#applyingyourclosedusergrouptocontentpages">apply this group to the required pages</a> and select (or create) the login page for use by the members of the CUG; also specified when applying a CUG to a content page.<br /> </li> 
+   <li><a href="#linkingtotherealm">create a link, of some form, to at least one page within the protected area</a>, otherwise it will not be visible.</li> 
+   <li><a href="#configurethedispatcher">configure the Dispatcher</a> if in use.</li> 
+  </ul> 
+  <note> 
+   <p>Closed user groups (CUGs) should always be created with performance in mind.</p> 
+   <p>Although the number of users and groups in a CUG is not limited, a high number of CUGs on a page may slow down rendering performance.</p> 
+   <p>The impact of CUGs should always be considered when doing performance testing.</p> 
+  </note> 
+  <h2>Creating The User Group To Be Used</h2> 
+  <p>To create a closed user group:</p> 
+  <ol> 
+   <li><p>Go to <strong>Tools - Security</strong> from the AEM homescreen.<br /> </p> 
+    <note> 
+     <p>See <a href="../../../sites/administering/using/security.md#managingusersandgroups">Managing Users and Groups</a> for full information on creating and configuring users and groups.</p> 
+    </note></li> 
+   <li><p>Select the <strong>Groups</strong> card from the next screen.</p> <img imageRotate="0" src="assets/screenshot_2018-10-30at145502.png" /></li> 
+   <li><p>Press the <strong>Create</strong> button in the top right corner, in order to create a new group.</p> </li> 
+   <li><p>Name your new group; for example, <span class="code">cug_access</span>.</p> <img imageRotate="0" src="assets/screenshot_2018-10-30at151459.png" /></li> 
+   <li><p>Go to the <strong>Members</strong> tab and assign the required users to this group.</p> <img imageRotate="0" src="assets/screenshot_2018-10-30at151808.png" /></li> 
+   <li><p>Activate any users that you have assigned to your CUG; in this case, all members of <span class="code">cug_access</span>.</p> </li> 
+   <li><p>Activate the closed user group so that it is available in the publish environment; in this example, <span class="code">cug_access</span>.</p> </li> 
+  </ol> 
+  <h2>Applying Your Closed User Group To Content Pages</h2> 
+  <p>To apply the CUG to a page:</p> 
+  <ol> 
+   <li><p>Navigate to the root page of the restricted section you want to assign to your CUG.</p> </li> 
+   <li><p>Select the page by clicking on its thumbnail and then clicking <strong>Properties</strong> in the top panel.</p> <img imageRotate="0" src="assets/screenshot_2018-10-30at162632.png" /></li> 
+   <li><p>In the following window, go to the <strong>Advanced</strong> tab.</p> </li> 
+   <li><p>Scroll down and enable the tickbox in the <strong>Authentication Requirement</strong> section.<br /> </p> </li> 
+   <li><p>Add your comnfiguration path below, then press Save.</p> </li> 
+   <li><p>Next, go to the <strong>Permissions</strong> tab and press the <strong>Edit Closed User Group</strong> button.</p> <img imageRotate="0" src="assets/screenshot_2018-10-30at163003.png" /></li> 
+   <li><p>Look for and add your CUG in the following window - in this case add the group named <strong>cug_access</strong>. Finally, press <strong>Save</strong>.</p> </li> 
+   <li><p>Click <strong>Enabled</strong> to define that this page (and any child pages) belong to a CUG.</p> </li> 
+   <li><p>Specify the <strong>Login Page</strong> that members of the group will use; for example:<br /> <span class="code">/content/geometrixx/en/toolbar/login.html</span> <br /> This is optional, if left blank the standard login page will be used.</p> </li> 
+   <li><p>Add the <strong>Admitted Groups</strong>. Use + to add groups or - to remove. Only members of these groups will be allowed to log in and access the pages.</p> </li> 
+   <li><p>Assign a <strong>Realm</strong> (a name for the groups of pages) if required. Leave empty to use the page title.</p> </li> 
+   <li><p>Click <strong>OK</strong> to save the specification.</p> </li> 
+  </ol> 
+  <p>See <a href="../../../sites/administering/using/identity-management.md">Identity Management</a> for information about profiles in the publish environment and providing forms for logging in and out.</p> 
+  <h2>Linking To The Realm</h2> 
+  <p>Since the target of any links to the CUG Realm are not visible to the anonymous user, the linkchecker will remove such links.</p> 
+  <p>To avoid this, it is advisable to create non-protected redirect pages that point to pages within the CUG Realm. The navigation entries are then rendered without causing the linkchecker any problems. Only when actually accessing the redirect page will the user be redirected inside the CUG Realm - after successfully providing their login credentials.</p> 
+  <h2>Configure Dispatcher for CUGs</h2> 
+  <p>If you are using Dispatcher, you need to define a Dispatcher farm with the following properties:</p> 
+  <ul> 
+   <li><a href="/content/help/en/experience-manager/dispatcher/using/dispatcher-configuration#IdentifyingVirtualHostsvirtualhosts">virtualhosts</a>: Matches the path to the pages that the CUG applies to.</li> 
+   <li>\sessionmanagement: see below.</li> 
+   <li><a href="/content/help/en/experience-manager/dispatcher/using/dispatcher-configuration#ConfiguringtheDispatcherCachecache">cache</a>: A cache directory that is dedicated to the files that the CUG applies to.</li> 
+  </ul> 
+  <h3>Configuring Dispatcher Session Management for CUGs</h3> 
+  <p>Configure <a href="/content/help/en/experience-manager/dispatcher/using/dispatcher-configuration#EnablingSecureSessionssessionmanagement">session management in the dispatcher.any file</a> for the CUG. The authentication handler that is used when access is requested for CUG pages determines how you configure session management. </p> 
+  <codeblock class="syntax xml">
+    /sessionmanagement!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;...!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/header&amp;nbsp;"Cookie:login-token"&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;... 
+  </codeblock> 
+  <note> 
+   <p>When a Dispatcher farm has session-management enabled, all pages that the farm handles are not cached. To cache pages that are outside of CUG, create a second farm in dispatcher.any<br /> that handles the non-CUG pages.</p> 
+  </note> 
+  <ol> 
+   <li><p>Configure <a href="/content/help/en/experience-manager/dispatcher/using/dispatcher-configuration#EnablingSecureSessionssessionmanagement">/sessionmanagement</a> by defining <span class="code">/directory</span>; for example:<br /> </p> 
+    <codeblock gutter="true" class="syntax xml">
+      /sessionmanagement!!discoiqbr!!&amp;nbsp;&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;/directory&amp;nbsp;"/usr/local/apache/.sessions"!!discoiqbr!!&amp;nbsp;&amp;nbsp;...!!discoiqbr!!&amp;nbsp;&amp;nbsp;} 
+    </codeblock></li> 
+   <li><p>Set <a href="/content/help/en/experience-manager/dispatcher/using/dispatcher-configuration#main-pars_title_31">/allowAuthorized</a> to <span class="code">0</span>.</p> </li> 
+  </ol> 
+ </body> 
+</html>

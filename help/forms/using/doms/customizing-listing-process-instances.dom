@@ -1,0 +1,148 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:forms-workspace" name="cq:tags" /> 
+  <meta content="2013-04-05T06:17:14.285-0400" name="firstPublishExternalDate" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="2018-04-03T08:24:26.592-0400" name="lastPublishExternalDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="https://helpx.stage.adobe.com/aem-forms/6-1/html-workspace/customizing-listing-process-instances.html" name="publishQAURL" /> 
+  <meta content="2015-09-28T11:02:09.280-0400" name="publishQADate" /> 
+  <meta content="2018-04-03T08:24:26.592-0400" name="topicBrowsingSortDate" /> 
+  <meta content="2016-05-31T06:48:03.909-0400" name="acrolinxDate" /> 
+  <meta content="e6b8e2e4-7134-4569-b0ad-23e146a738e2" name="jcr:predecessors" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="Customizing listing of process instances" name="navTitle" /> 
+  <meta content="03eb9e0e-e9bf-4c6c-9fe3-bccea0da1c5e" name="jcr:uuid" /> 
+  <meta content="296" name="acrolinxWords" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2013-03-08T16:55:03.772-0500" name="firstPublishQADate" /> 
+  <meta content="2017-12-01T19:01:03.299-0500" name="jcr:created" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="2018-04-03T08:24:27.956-0400" name="cq:lastReplicated" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="mix:lockable;mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2015-09-28T11:02:09.280-0400" name="lastPublishQADate" /> 
+  <meta content="How-to customize the properties displayed in process instance in AEM Forms workspace." name="seoDescription" /> 
+  <meta content="2018-04-26T04:39:22.501-0400" name="cq:lastModified" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="Customizing the listing of process instances" name="jcr:title" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/customizing-listing-process-instances.html" name="publishExternalURL" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/customizing_listing_process_instances_admin_5e12de0b318c6865_2123_report.xml" name="acrolinxReportURL" /> 
+  <meta content="2018-04-03T08:24:26.592-0400" name="publishExternalDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="26" name="acrolinxSentences" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2018-04-26T04:39:22.500-0400" name="locHandOffDate" /> 
+  <meta content="video" name="pageLayout" /> 
+ </head> 
+ <body> 
+  <p>The process instance list is displayed in the Tracking tab of AEM Forms workspace.</p> 
+  <p>In the process instance list, for each process instance, AEM Forms workspace shows some properties of that instance. The following properties are available for each process instance. These properties are stored as attributes in the process instance component model and are available for use in its view and template.</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td style="text-align: center;"><strong>Property</strong></td> 
+     <td style="text-align: center;"><strong>Comments</strong></td> 
+    </tr> 
+    <tr> 
+     <td>description</td> 
+     <td>Description of the process instance.</td> 
+    </tr> 
+    <tr> 
+     <td>initiator</td> 
+     <td>Name of initiator of the process instance.</td> 
+    </tr> 
+    <tr> 
+     <td>initiatorId</td> 
+     <td>ID of the initiator of the process instance.</td> 
+    </tr> 
+    <tr> 
+     <td>processCompleteTime</td> 
+     <td>Time stamp when the process completed.</td> 
+    </tr> 
+    <tr> 
+     <td>processInstanceId</td> 
+     <td>ID of the process instance.</td> 
+    </tr> 
+    <tr> 
+     <td>processInstanceStatus</td> 
+     <td>0 = Initiated<br /> 1 = Running<br /> 2 = Complete<br /> 3 = Completing<br /> 4 = Terminated<br /> 5 = Terminating<br /> 6 = Suspended<br /> 7 = Suspending<br /> 8 = Unsuspending</td> 
+    </tr> 
+    <tr> 
+     <td>processName</td> 
+     <td>Name of the process.</td> 
+    </tr> 
+    <tr> 
+     <td>processStartTime</td> 
+     <td>Time stamp when the process started.</td> 
+    </tr> 
+    <tr> 
+     <td>processVariables</td> 
+     <td>Array of objects of process variables. Each process variable object contains <strong>name</strong> (the name of process variable), <strong>value</strong> (value of the process variable), and<strong> type</strong> (the type of process variable).</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <p><strong>Example:</strong></p> 
+  <p>To display the <span class="code">description</span> property of the process instance in the process instance card, perform the following steps.</p> 
+  <ol> 
+   <li><p>Follow the <a href="../../forms/using/generic-steps-html-workspace-customization.md" target="_blank">Generic steps for AEM Forms workspace customization</a>.</p> </li> 
+   <li><p>Do the following:</p> 
+    <ol> 
+     <li>Copy /libs/ws/js/runtime/templates/processinstance.html to/apps/ws/js/runtime/templates/, if it does not exist. Click <strong>Save All</strong>.</li> 
+     <li>Add process description div with class = 'processDescription' inprocessinstance.html.</li> 
+    </ol> 
+    <codeblock gutter="true" class="syntax plain">
+      &lt;div&amp;nbsp;class="processDescription"&amp;nbsp;title="&lt;%=&amp;nbsp;description%&gt;"&gt;&lt;%=&amp;nbsp;description%&gt;&lt;/div&gt; 
+    </codeblock></li> 
+   <li><p>Do the following:</p> 
+    <ol> 
+     <li>Open /apps/ws/js/registry.js for editing.</li> 
+     <li>Search and replace <span class="code">text!/lc/libs/ws/js/runtime/templates/processinstance.html </span>with <span class="code">text!/lc/</span><strong>apps</strong>/ws/js/runtime/templates/processinstance.html.</li> 
+    </ol> </li> 
+   <li><p>The above changes may require an update to the CSS file by adding an entry in the style sheet /apps/ws/css/newStyle.css in the following way:</p>  
+    <codeblock gutter="true" class="syntax css">
+      .processinstance&amp;nbsp;.processDescription&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&lt;!--Dummy&amp;nbsp;values,&amp;nbsp;need&amp;nbsp;to&amp;nbsp;be&amp;nbsp;configured&amp;nbsp;by&amp;nbsp;user&amp;nbsp;as&amp;nbsp;per&amp;nbsp;requirement&amp;nbsp;as&amp;nbsp;well&amp;nbsp;as&amp;nbsp;user&amp;nbsp;can&amp;nbsp;add&amp;nbsp;or&amp;nbsp;delete&amp;nbsp;any&amp;nbsp;property&amp;nbsp;depending&amp;nbsp;upon&amp;nbsp;requirement--&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;width&amp;nbsp;:&amp;nbsp;250px;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;font-size&amp;nbsp;:&amp;nbsp;11pt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;padding&amp;nbsp;:&amp;nbsp;2px;!!discoiqbr!!} 
+    </codeblock></li> 
+  </ol> 
+  <p><a href="https://www.adobe.com/account/sign-in.supportportal.html" target="_blank"><strong>Contact Support</strong></a></p> 
+  <related-links> 
+   <a href="../../forms/using/introduction-customizing-html-workspace.md">Introduction to Customizing AEM Forms workspace</a> 
+   <a href="../../forms/using/generic-steps-html-workspace-customization.md">Generic steps for AEM Forms workspace customization</a> 
+   <a href="../../forms/using/tasks-organizational-hierarchy-using-manager.md">Managing tasks in an organizational hierarchy using Manager View</a> 
+   <a href="../../forms/using/integrating-correspondence-management-html-workspace.md">Integrating Correspondence Management in AEM Forms workspace</a> 
+   <a href="../../forms/using/single-sign-timeout-handlers.md">Single Sign On and timeout handlers</a> 
+   <a href="../../forms/using/displaying-user-avatar.md">Displaying the user avatar</a> 
+   <a href="../../forms/using/displaying-information-task-summary-pane.md">Displaying information in the Task Summary pane</a> 
+   <a href="../../forms/using/changing-organization-logo-branding.md">Changing the organization logo</a> 
+   <a href="../../forms/using/changing-color-scheme-interface.md">Changing the color scheme of the interface</a> 
+   <a href="../../forms/using/changing-font-interface.md">Changing the font on the interface</a> 
+   <a href="../../forms/using/changing-locale-user-interface.md">Changing the locale of the user interface</a> 
+   <a href="../../forms/using/customizing-error-dialogs.md">Customizing error dialogs</a> 
+   <a href="../../forms/using/customizing-tabs-task.md">Customizing tabs for a task</a> 
+   <a href="../../forms/using/customizing-task-actions.md">Customizing Task Actions</a> 
+   <a href="../../forms/using/customizing-listing-process-instances.md">Customizing the listing of process instances</a> 
+   <a href="../../forms/using/customizing-task-details-page.md">Customizing the task Details page</a> 
+   <a href="../../forms/using/display-additional-data-in-todo-list.md">Displaying additional data in ToDo list</a> 
+   <a href="../../forms/using/getting-task-variables-summary-url.md">Getting Task Variables in Summary URL</a> 
+   <a href="../../forms/using/images-route-actions.md">Images for Route Actions</a> 
+   <a href="../../forms/using/creating-new-login-screen.md">Creating a new login screen</a> 
+   <a href="../../forms/using/minification-javascript-files.md">Minification of the JavaScript files</a> 
+   <a href="../../forms/using/sorting-tracking-tables-add-columns.md">Sorting of Tracking tables and adding more columns</a> 
+   <a href="../../forms/using/updating-link-help-documentation.md">Updating the link to the documentation</a> 
+   <a href="../../forms/using/two-html-workspace-instances-one.md">Hosting two AEM Forms workspace instances on one server</a> 
+  </related-links> 
+ </body> 
+</html>

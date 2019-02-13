@@ -1,0 +1,735 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2018-04-03T09:00:25.185-0400" name="cq:lastReplicated" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2017-10-31T16:17:03.960-0400" name="firstPublishExternalDate" /> 
+  <meta content="e06dcace-0521-4378-b524-94e3668de969" name="jcr:uuid" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:extending-aem;content_type:reference" name="cq:tags" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="Developing Reports" name="navTitle" /> 
+  <meta content="2018-05-08T12:42:56.234-0400" name="cq:lastModified" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="audience:developing" name="primaryAudienceTag" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="msm-service" name="cq:lastModifiedBy" /> 
+  <meta content="Developing Reports" name="jcr:title" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2018-05-08T12:42:56.233-0400" name="locHandOffDate" /> 
+  <meta content="b6d92c95-cb78-4a5d-aa44-3d057884131d" name="jcr:predecessors" /> 
+  <meta content="2018-01-18T11:19:29.475-0500" name="lastPublishExternalDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="/content/docs/en/aem/6-3/develop/operations/dev-reports" name="qaNotes" /> 
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2018-01-18T11:19:29.475-0500" name="publishExternalDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/dev-reports.html" name="publishExternalURL" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/morehelp/extending-aem;/content/help/en/experience-manager/6-4/sites/developing/morehelp/extending-aem" name="moreHelpPaths" /> 
+  <meta content="2018-01-18T11:19:29.475-0500" name="topicBrowsingSortDate" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="2018-01-19T19:06:19.890-0500" name="jcr:created" /> 
+  <meta content="Developing Reports" name="seoTitle" /> 
+  <meta content="AEM provides a selection of standard reports based on a reporting framework" name="seoDescription" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="Guillaume Carlino" name="contentOwner" /> 
+ </head> 
+ <body>  
+  <p>CQ provides a selection of <a href="../../../sites/administering/using/reporting.md">standard reports</a> most of which are based on a reporting framework. <br /> </p> 
+  <p>Using the framework you can either extend these standard reports, or develop your own, completely new, report(s). The reporting framework integrates tightly with existing CQ5 concepts and principles so that developers can use their existing knowledge of CQ5 as a springboard for developing reports.<br /> </p> 
+  <p>For the standard reports delivered with CQ:</p> 
+  <ul> 
+   <li>These reports are built on the reporting framework: 
+    <ul> 
+     <li><a href="#componentreport">Component Report</a></li> 
+     <li><a href="#pageactivityreport">Page Activity Report</a></li> 
+     <li><a href="#userreport">User Report</a></li> 
+     <li><a href="#workflowinstancereport">Workflow Instance Report</a></li> 
+    </ul> </li> 
+   <li>The following reports are based on individual principles and therefore cannot be extended: 
+    <ul> 
+     <li><a href="#diskusage">Disk Usage</a></li> 
+     <li><a href="#healthcheck">Health Check</a></li> 
+     <li><a href="#workflowreport">Workflow Report</a></li> 
+    </ul> </li> 
+  </ul> 
+  <note> 
+   <p>The tutorial <a href="#creatingyourownreportanexample">Creating Your Own Report - An Example</a> also shows how many of the principles below can be used.<br /> </p> 
+   <p>You can also refer to the standard reports to see other examples of implementation.<br /> </p> 
+  </note> 
+  <note> 
+   <p>In the examples and definitions below the following notation is used :</p> 
+   <ul> 
+    <li>Each line defines a node or a property where:<br /> 
+     <ul> 
+      <li><span class="code">N:&amp;lt;<i>name</i>&amp;gt; [&amp;lt;<i>nodeType</i>&amp;gt;]</span><br /> Describes a node with the name of <span class="code">&amp;lt;<i>name</i>&amp;gt;</span> and node type of <span class="code">&amp;lt;<i>nodeType</i>&amp;gt;</span><i>.</i></li> 
+      <li><span class="code">P:&amp;lt;<i>name</i>&amp;gt; [&amp;lt;<i>propertyType</i>]</span><br /> Describes a property with the name of <span class="code">&amp;lt;<i>name</i>&amp;gt;</span> and a property type of <span class="code">&amp;lt;<i>propertyType</i>&amp;gt;</span>.<br /> </li> 
+      <li><span class="code">P:&amp;lt;<i>name</i>&amp;gt; = &amp;lt;<i>value</i>&amp;gt;</span><br /> Describes a property <span class="code">&amp;lt;<i>name</i>&amp;gt;</span> that must be set to the value of <span class="code">&amp;lt;<i>value</i>&amp;gt;</span>.</li> 
+     </ul> </li> 
+    <li>Indentation shows the hierarchical dependencies between the nodes.</li> 
+    <li>Items separated by | denotes a list of possible items; for example, types or names:<br /> e.g. String|String[] means that the property can be either String or String[].</li> 
+    <li>[] depicts an array; such as String[] or an array of nodes as in the <a href="#querydefinition">Query Definition</a>. </li> 
+   </ul> 
+   <p>Unless otherwise stated the default types are:</p> 
+   <ul> 
+    <li>Nodes - <span class="code">nt:unstructured</span> </li> 
+    <li>Properties - <span class="code">String</span></li> 
+   </ul> 
+  </note> 
+  <h2>Reporting Framework</h2> 
+  <p>The reporting framework works on the following principles:<br /> </p> 
+  <ul> 
+   <li>It is entirely based on result sets that are returned by a query executed by the CQ5 QueryBuilder.</li> 
+   <li>The result set defines the data displayed in the report. Each row in the result set corresponds to a row in the tabular view of the report.</li> 
+   <li>The operations available for execution on the result set resemble RDBMS concepts; primarily <i>grouping</i> and <i>aggregation</i>.</li> 
+   <li>Most data retrieval and processing is done serverside.<br /> </li> 
+   <li>The client is solely responsible for displaying the pre-processed data. Only minor processing tasks (for example, creating links in cell content) are executed clientside.</li> 
+  </ul> 
+  <p>The reporting framework (illustrated by the structure of a standard report) uses the following building blocks, fed by the processing queue:</p> 
+  <img imageRotate="0" src="assets/chlimage_1-260.png" /> 
+  <h3>Report Page</h3> 
+  <p>The report page:</p> 
+  <ul> 
+   <li>Is a standard CQ5 page.</li> 
+   <li>Is based on a <a href="#reporttemplate">standard CQ5 template, configured for the report</a>.</li> 
+  </ul> 
+  <h3>Report Base</h3> 
+  <p>The <a href="#reportbasecomponent"><span class="code">reportbase</span> component</a> forms the basis of any report as it:</p> 
+  <ul> 
+   <li>Holds the definition of the <a href="#thequeryanddataretrieval">query</a> that delivers the underlying result set of data.<br /> </li> 
+   <li>Is an adapted paragraph system that will contain all columns (<span class="code">columnbase</span>) added to the report.</li> 
+   <li>Defines which chart types are available and which are currently active.</li> 
+   <li>Defines the Edit dialog, which allows the user to configure certain aspects of the report.<br /> </li> 
+  </ul> 
+  <h3>Column Base</h3> 
+  <p>Each column is an instance of the <a href="#columnbasecomponent"><span class="code">columnbase</span> component</a> that:</p> 
+  <ul> 
+   <li>Is a paragraph, used by the parsys (<span class="code">reportbase</span>) of the respective report.</li> 
+   <li>Defines the link to the <a href="#thequeryanddataretrieval">underlying result set</a>; i.e. defines the specific data referenced within this result set, and how it is processed.</li> 
+   <li>Holds additional definitions; such as the aggregates and filters available, together with any default values.</li> 
+  </ul> 
+  <h3>The Query and Data Retrieval</h3> 
+  <p>The query:</p> 
+  <ul> 
+   <li>Is defined as part of the <a href="#reportbase"><span class="code">reportbase</span></a> component.</li> 
+   <li>Is based on the <a href="/sites/developing/using/reference-materials/javadoc/com/day/cq/search/QueryBuilder">CQ QueryBuilder</a>.</li> 
+   <li>Retrieves the data used as the basis of the report. Each row of the result set (table) is tied to a node as returned by the query. Specific information for <a href="#columnbasecomponent">individual columns</a> is then extracted from this data set.<br /> </li> 
+   <li>Usually consists of: 
+    <ul> 
+     <li>A root path.<br /> This specifies the sub-tree of the repository to be searched.<br /> To help minimize the performance impact, it is advisable to (try to) restrict the query to a specific sub-tree of the repository. The root path can be either predefined in the <a href="#reporttemplate">report template</a> or set by the user in the <a href="#configurationdialog">Configuration (Edit) dialog</a>.<br /> </li> 
+     <li><a href="#querydefinition">One or more criteria</a>.<br /> These are imposed to produce the (initial) result set; they include for example, restrictions on the node type, or property constraints.</li> 
+    </ul> </li> 
+  </ul> 
+  <p><span class="uicontrol">The key point here is that each single node returned in the result set of the query is used to generate a single row on the report (so a 1:1 relationship).</span></p> 
+  <p>The developer has to ensure that the query defined for a report returns a node set appropriate for that report. However, the node itself need not hold all the required information, this can also be derived from parent and/or child nodes. For example, the query used for the <a href="../../../sites/administering/using/reporting.md#userreport">User Report</a> selects nodes based on the node type (in this case <span class="code">rep:user</span>). However, most columns on this report do not take their data directly from these nodes, but from the child nodes <span class="code">profile</span>.<br /> </p>  
+  <h3>Processing Queue</h3> 
+  <p>The <a href="#thequeryanddataretrieval">query</a> returns a result set of data to be displayed as rows on the report. Each row in the result set is processed (server-side), in <a href="#phasesoftheprocessingqueue">several phases</a>, before being transferred to the client for display on the report.<br /> </p> 
+  <p>This allows:<br /> </p> 
+  <ul> 
+   <li>Extracting and deriving values from the underlying result set.<br /> For example, it allows you to process two property values as a single value by calculating the difference between the two.</li> 
+   <li>Resolving extracted values; this can be done in a variety of ways.<br /> For example, paths can be mapped to a title (as in the more human-readable content of the respective <i>jcr:title</i> property).</li> 
+   <li>Applying filters at various points.</li> 
+   <li>Creating compound values, if necessary.<br /> For example, consisting of a text that is displayed to the user, a value to be used for sorting and an additional URL that is used (on the client side) for creating a link.</li> 
+  </ul> 
+  <h4>Workflow of the Processing Queue</h4> 
+  <p>The following workflow represents the processing queue:<br /> </p> 
+  <img imageRotate="0" src="assets/chlimage_1-261.png" /> 
+  <h4>Phases of the Processing Queue</h4> 
+  <p>Where the detailed steps and elements are:<br /> </p> 
+  <ol> 
+   <li>Transforms the results returned by the <a href="#querydefinition">initial query (<span class="code">reportbase</span>)</a> into the basic result set using value extractors.<br /> Value extractors are automatically chosen depending on the <a href="#columnspecificdefinitions">column type</a>. They are used for reading values from the underlying JCR Query and creating a result set from them; after which further processing may then be applied. For example, for the <span class="code">diff</span> type, the value extractor reads two properties, calculates the single value that is then added to the result set. The value extractors cannot be configured.<br /> </li> 
+   <li>To that initial result set, containing raw data, <a href="#columnspecificdefinitions">initial filtering</a> (<i>raw</i> phase) is applied.</li> 
+   <li>Values are <a href="#processingqueue">preprocessed</a>; as defined for the <i>apply</i> phase.</li> 
+   <li><a href="#columnspecificdefinitions">Filtering</a> (assigned to the <i>preprocessed</i> phase) is executed on the preprocessed values.</li> 
+   <li>Values are resolved; according to the <a href="#processingqueue">defined resolver</a>.</li> 
+   <li><a href="#columnspecificdefinitions">Filtering</a> (assigned to the <i>resolved</i> phase) is executed on the resolved values.</li> 
+   <li>Data is <a href="#columnspecificdefinitions">grouped and aggregated</a>.</li> 
+   <li>Array data is resolved by converting it into a (string-based) list.<br /> This is an implicit step that converts a multi-value result into a list that can be displayed; it is required for (unaggregated) cell values that are based on multi-value JCR properties.</li> 
+   <li>Values are again <a href="#processingqueue">preprocessed</a>; as defined for the <i>afterApply</i> phase.</li> 
+   <li>Data is sorted.</li> 
+   <li>The processed data is transferred to the client.</li> 
+  </ol> 
+  <note> 
+   <p>The initial query returning the basis data result set is defined on the <span class="code">reportbase</span> component.</p> 
+   <p>Other elements of the processing queue are defined on the <span class="code">columnbase</span> components.<br /> </p> 
+  </note> 
+  <h2>Report Construction and Configuration</h2> 
+  <p>The following are needed to construct and configure a report:</p> 
+  <ul> 
+   <li>a <a href="#locationofreportcomponents">location for the definition of your report components</a></li> 
+   <li>a <a href="#reportbasecomponent"><span class="code">reportbase</span> component</a></li> 
+   <li>one, or more, <a href="#columnbasecomponent"><span class="code">columnbase</span> component(s)</a></li> 
+   <li>a <a href="#pagecomponent">page component</a></li> 
+   <li>a <a href="#reportdesign">report design</a></li> 
+   <li>a <a href="#reporttemplate">report template</a></li> 
+  </ul> 
+  <h3>Location of Report Components</h3> 
+  <p>The default reporting components are held under <span class="code">/libs/cq/reporting/components</span>.</p> 
+  <p>However, it is strongly recommended that you do not update these nodes, but create your own component nodes under <span class="code">/apps/cq/reporting/components</span> or if more appropriate <span class="code">/apps/&amp;lt;<i>yourProject</i>&amp;gt;/reports/components</span>.</p> 
+  <p>Where (as an example):</p> 
+  <codeblock gutter="true" class="syntax xml">
+    N:apps&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:cq&amp;nbsp;[nt:folder]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:reporting|reports&amp;nbsp;[sling:Folder]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:components&amp;nbsp;[sling:Folder] 
+  </codeblock> 
+  <p>Under this you create the root for your report and under this, the report base component and the column base components:<br /> </p> 
+  <codeblock gutter="true" class="syntax xml">
+    N:apps&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:cq&amp;nbsp;[nt:folder]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:reporting|reports&amp;nbsp;[sling:Folder]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:components&amp;nbsp;[sling:Folder]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:&lt;reportname&gt;&amp;nbsp;[sling:Folder]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:&lt;reportname&gt;&amp;nbsp;[cq:Component]&amp;nbsp;&amp;nbsp;//&amp;nbsp;report&amp;nbsp;base&amp;nbsp;component!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:&lt;columnname&gt;&amp;nbsp;[cq:Component]&amp;nbsp;&amp;nbsp;//&amp;nbsp;column&amp;nbsp;base&amp;nbsp;component 
+  </codeblock> 
+  <h3>Page Component</h3> 
+  <p>A report page must use the <span class="code">sling:resourceType</span> of <span class="code">/libs/cq/reporting/components/reportpage</span>.</p> 
+  <p>A customized page component should not be necessary (in most cases).</p> 
+  <h2>Report Base Component</h2> 
+  <p>Each report type requires a container component derived from <span class="code">/libs/cq/reporting/components/reportbase</span>.</p> 
+  <p>This component acts as a container for the report as a whole and provides information for:</p> 
+  <ul> 
+   <li>The <a href="#querydefinition">query definition</a>.</li> 
+   <li>An <a href="#configurationdialog">(optional) dialog</a> for configuring the report.</li> 
+   <li>Any <a href="#chartdefinitions">Charts</a> integrated in the report.</li> 
+  </ul> 
+  <codeblock gutter="true" class="syntax xml">
+    N:&lt;reportname&gt;&amp;nbsp;[cq:Component]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:sling:resourceSuperType&amp;nbsp;=&amp;nbsp;"cq/reporting/components/reportbase"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:charting!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:dialog&amp;nbsp;[cq:Dialog]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:queryBuilder 
+  </codeblock> 
+  <h3>Query Definition</h3> 
+  <codeblock gutter="true" class="syntax xml">
+    N:queryBuilder!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:propertyConstraints!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;[!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:&lt;name&gt;&amp;nbsp;//&amp;nbsp;array&amp;nbsp;of&amp;nbsp;nodes&amp;nbsp;(name&amp;nbsp;irrelevant),&amp;nbsp;each&amp;nbsp;with&amp;nbsp;the&amp;nbsp;following&amp;nbsp;properties:!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:name!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:value!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:nodeTypes&amp;nbsp;[String|String[]]&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:mandatoryProperties&amp;nbsp;[String|String[]] 
+  </codeblock> 
+  <ul> 
+   <li><span class="code">propertyConstraints </span><br /> Can be used to limit the result set to nodes that have specific properties with specific values. If multiple constraints are specified, the node must satisfy all of them (AND operation).<br /> For example:<br /> <code class="code"> N:propertyConstraints
+     <discoiqbr /> [
+     <discoiqbr /> N:0
+     <discoiqbr /> P:sling:resourceType
+     <discoiqbr /> P:foundation/components/textimage
+     <discoiqbr /> N:1
+     <discoiqbr /> P:jcr:modifiedBy
+     <discoiqbr /> P:admin
+     <discoiqbr /> ]</code><br /> Would return all <span class="code">textimage</span> components that were last modified by the <span class="code">admin</span> user.<br /> </li> 
+   <li><span class="code">nodeTypes </span><br /> Used to limit the result set to the specified node types. Multiple node types can be specified.</li> 
+   <li><span class="code">mandatoryProperties </span><br /> Can be used to limit the result set to nodes that have <i>all</i> of the specified properties. The value of the properties is not taken into account.</li> 
+  </ul> 
+  <p>All are optional and can be combined as necessary, but you must define at least one of them.<br /> </p> 
+  <h3>Chart Definitions</h3> 
+  <codeblock gutter="true" class="syntax xml">
+    N:charting!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:settings!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:active&amp;nbsp;[cq:WidgetCollection]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;[!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:&lt;name&gt;&amp;nbsp;//&amp;nbsp;array&amp;nbsp;of&amp;nbsp;nodes,&amp;nbsp;each&amp;nbsp;with&amp;nbsp;the&amp;nbsp;following&amp;nbsp;property!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:id&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;must&amp;nbsp;match&amp;nbsp;the&amp;nbsp;id&amp;nbsp;of&amp;nbsp;a&amp;nbsp;child&amp;nbsp;node&amp;nbsp;of&amp;nbsp;definitions&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:definitions&amp;nbsp;[cq:WidgetCollection]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;[!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:&lt;name&gt;&amp;nbsp;//&amp;nbsp;array&amp;nbsp;of&amp;nbsp;nodes,&amp;nbsp;each&amp;nbsp;with&amp;nbsp;the&amp;nbsp;following&amp;nbsp;properties!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:id!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:type!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;additional,&amp;nbsp;chart&amp;nbsp;type&amp;nbsp;specific&amp;nbsp;configurations!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;] 
+  </codeblock> 
+  <ul> 
+   <li><span class="code">settings</span><br /> Holds definitions for the active charts. 
+    <ul> 
+     <li><span class="code">active</span><br /> As multiple settings can be defined, you can use this to define which are currently active. These are defined by an array of nodes (there is no compulsory naming convention for these nodes, but the standard reports often use <span class="code">0</span>,<span class="code">1</span>..<span class="code">x</span>), each having the following property:<br /> 
+      <ul> 
+       <li><span class="code">id</span><br /> Identification for the active charts. This must match the id of one of the chart <span class="code">definitions</span>.<br /> </li> 
+      </ul> </li> 
+    </ul> </li> 
+   <li><span class="code">definitions</span><br /> Defines the chart types that are potentially available for the report. The <span class="code">definitions</span> to be used will be specified by the <span class="code">active</span> settings.<br /> The definitions are specified using an array of nodes (again often named <span class="code">0</span>,<span class="code">1</span>..<span class="code">x</span>), each having the following properties: 
+    <ul> 
+     <li><span class="code">id</span><br /> The chart identification.</li> 
+     <li><span class="code">type</span><br /> The type of chart available. Select from: 
+      <ul> 
+       <li><span class="code">pie</span><br /> Pie chart. Generated from current data only.</li> 
+       <li><span class="code">lineseries</span><br /> Series of lines (connecting dots representing the actual snapshots). Generated from historic data only.</li> 
+      </ul> </li> 
+     <li>Additional properties are available, dependent on the chart type: 
+      <ul> 
+       <li>for the chart type <span class="code">pie</span>: 
+        <ul> 
+         <li><span class="code">maxRadius</span> (<span class="code">Double/Long</span>)<br /> The maximum radius allowed for the pie chart; therefore the maximum size allowed for the chart (without legend). Ignored if <span class="code">fixedRadius</span> is defined.<br /> </li> 
+         <li><span class="code">minRadius</span> (<span class="code">Double/Long</span>)<br /> The minimum radius allowed for the pie chart. Ignored if <span class="code">fixedRadius</span> is defined.</li> 
+         <li><span class="code">fixedRadius</span> (<span class="code">Double/Long</span>)<br /> Defines a fixed radius for the pie chart.</li> 
+        </ul> </li> 
+       <li><a href="../../../sites/administering/using/reporting.md#displaylimits">for the chart type <span class="code">lineseries</span></a>:<br /> 
+        <ul> 
+         <li><span class="code">totals</span> (<span class="code">Boolean</span>)<br /> True if an additional line showing the <strong>Total</strong> should be shown.<br /> default: <span class="code">false</span><br /> </li> 
+         <li><span class="code">series</span> (<span class="code">Long</span>)<br /> Number of lines/series to be shown.<br /> default: <span class="code">9</span> (this is also the maximum allowed)<br /> </li> 
+         <li><span class="code">hoverLimit</span> (<span class="code">Long</span>)<br /> Maximum number of aggregated snapshots (dots shown on each horizontal line, representing distinct values) for which popups are to be displayed i.e. when the user does mouse-over on a distinct value or corresponding label in the chart legend.<br /> default: <span class="code">35</span> (i.e. no popups at all are shown if more than 35 distinct values are applicable for the current chart settings).<br /> There is an additional limit of 10 popups that can be shown in parallel (multiple popups can be shown when mouse-over is made over the legend texts).</li> 
+        </ul> </li> 
+      </ul> </li> 
+    </ul> </li> 
+  </ul> 
+  <h3>Configuration Dialog</h3> 
+  <p>Every report can have a configuration dialog, allowing the user to specify various parameters for the report. This dialog is accessible through the <strong>Edit</strong> button when the report page is open.<br /> </p> 
+  <p>This dialog is a standard CQ <a href="../../../sites/developing/using/components.md#dialogs">dialog</a> and can be configured as such (see <a href="/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.Dialog">CQ.Dialog</a> for more information).</p> 
+  <p>An example dialog can look as follows:<br /> </p> 
+  <codeblock gutter="true" class="syntax xml">
+    &lt;?xml&amp;nbsp;version="1.0"&amp;nbsp;encoding="UTF-8"?&gt;!!discoiqbr!!&lt;jcr:root&amp;nbsp;xmlns:cq="http://www.day.com/jcr/cq/1.0"&amp;nbsp;xmlns:jcr="http://www.jcp.org/jcr/1.0"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;jcr:primaryType="cq:Dialog"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;height="{Long}424"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;items&amp;nbsp;jcr:primaryType="cq:WidgetCollection"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;props&amp;nbsp;jcr:primaryType="cq:Panel"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;items&amp;nbsp;jcr:primaryType="cq:WidgetCollection"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;title!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;jcr:primaryType="cq:Widget"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;path="/libs/cq/reporting/components/commons/title.infinity.json"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;xtype="cqinclude"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;description!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;jcr:primaryType="cq:Widget"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;path="/libs/cq/reporting/components/commons/description.infinity.json"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;xtype="cqinclude"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;rootPath!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;jcr:primaryType="cq:Widget"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;fieldLabel="Root&amp;nbsp;path"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;name="./report/rootPath"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;rootPath=""!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;rootTitle="Repository&amp;nbsp;root"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;xtype="pathfield"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;processing!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;jcr:primaryType="cq:Widget"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;path="/libs/cq/reporting/components/commons/processing.infinity.json"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;xtype="cqinclude"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;scheduling!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;jcr:primaryType="cq:Widget"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;path="/libs/cq/reporting/components/commons/scheduling.infinity.json"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;xtype="cqinclude"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/items&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/props&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/items&gt;!!discoiqbr!!&lt;/jcr:root&gt; 
+  </codeblock> 
+  <p>Several preconfigured components are provided; these can be referenced in the dialog, using the <span class="code">xtype</span> property with a value of <span class="code">cqinclude</span>:</p> 
+  <ul> 
+   <li><strong><span class="code">title</span></strong><br /> <span class="code">/libs/cq/reporting/components/commons/title </span><br /> Textfield to define the report title.</li> 
+   <li><strong><span class="code">description</span></strong><br /> <span class="code">/libs/cq/reporting/components/commons/description </span><br /> Textarea to define the report description.</li> 
+   <li><strong><span class="code">processing</span></strong><br /> <span class="code">/libs/cq/reporting/components/commons/processing</span><br /> Selector for the report's processing mode (manually/automatically load data).</li> 
+   <li><strong><span class="code">scheduling</span></strong><br /> <span class="code">/libs/cq/reporting/components/commons/scheduling</span><br /> Selector for scheduling snapshots for the historic chart.</li> 
+  </ul> 
+  <note> 
+   <p>The referenced components must be included using the <span class="code">.infinity.json</span> suffix (see example above).</p> 
+  </note>   
+  <h3>Root Path</h3> 
+  <p>Additionally a root path can be defined for the report:</p> 
+  <ul> 
+   <li><strong><span class="code">rootPath</span></strong><br /> This limits the report to a certain section (tree or subtree) of the repository, which is recommended for performance optimization. The root path is specified by the <span class="code">rootPath</span> property of the <span class="code">report</span> node of each report page (taken from the template upon page creation).<br /> It can be specified by: 
+    <ul> 
+     <li>the <a href="#reporttemplate">report template</a> (either as a fixed value or as the default value for the configuration dialog).</li> 
+     <li>the user (using this parameter)</li> 
+    </ul> </li> 
+  </ul> 
+  <h2>Column Base Component</h2> 
+  <p>Each column type requires a component derived from <span class="code">/libs/cq/reporting/components/columnbase</span>.</p> 
+  <p>A column component defines a combination of the following:</p> 
+  <ul> 
+   <li>The <a href="#columnspecificquery">Column Specific Query</a> configuration.</li> 
+   <li>The <a href="#resolversandpreprocessing">Resolvers and Preprocessing</a>.</li> 
+   <li>The <a href="#columnspecificdefinitions">Column Specific Definitions</a> (such as filters and aggregates; <span class="code">definitions</span> child node).</li> 
+   <li><a href="#columndefaultvalues">Column Default Values</a>.</li> 
+   <li>The <a href="#clientfilter">Client Filter</a> to extracts the information to be displayed from the data returned by the server.</li> 
+   <li>Additionally, a column component must provide a suitable instance of <span class="code">cq:editConfig</span>. to define the <a href="#eventsandactions">Events and Actions</a> required.<br /> </li> 
+   <li>The configuration for <a href="#genericcolumns">generic columns</a>.</li> 
+  </ul> 
+  <p><code class="code">N:&amp;lt;columnname&amp;gt; [cq:Component]
+    <discoiqbr /> P:componentGroup
+    <discoiqbr /> P:jcr:title
+    <discoiqbr /> P:sling:resourceSuperType = "cq/reporting/components/columnbase"
+    <discoiqbr /> N:cq:editConfig [cq:EditConfig] // <a href="#eventsandactions">Events and Actions</a>
+    <discoiqbr /> N:defaults // <a href="#columndefaultvalues">Column Default Values</a>
+    <discoiqbr /> N:definitions
+    <discoiqbr /> N:queryBuilder // <a href="#columnspecificquery">Column Specific Query</a>
+    <discoiqbr /> P:property [String|String[]] // Column Specific Query
+    <discoiqbr /> P:subPath // Column Specific Query
+    <discoiqbr /> P:secondaryProperty [String|String[]] // Column Specific Query
+    <discoiqbr /> P:secondarySubPath // Column Specific Query
+    <discoiqbr /> N:data
+    <discoiqbr /> P:clientFilter [String] // <a href="#clientfilter">Client Filter</a>
+    <discoiqbr /> P:resolver // <a href="#resolversandpreprocessing">Resolvers and Preprocessing</a>
+    <discoiqbr /> N:resolverConfig // Resolvers and Preprocessing
+    <discoiqbr /> N:preprocessing // Resolvers and Preprocessing
+    <discoiqbr /> P:type // <a href="#columnspecificdefinitions">Column Specific Definitions</a>
+    <discoiqbr /> P:groupable [Boolean] // Column Specific Definitions
+    <discoiqbr /> N:filters [cq:WidgetCollection] // Column Specific Definitions
+    <discoiqbr /> N:aggregates [cq:WidgetCollection] // Column Specific Definitions</code></p> 
+  <p>See also <a href="#definingyournewreport">Defining Your New Report</a>.</p> 
+  <h3>Column Specific Query</h3> 
+  <p>This defines the specific data extraction (from the <a href="#thequeryanddataretrieval">report data result set</a>) for use in the individual column.<br /> </p> 
+  <codeblock gutter="true" class="syntax xml">
+    N:definitions&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:queryBuilder!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:property&amp;nbsp;[String|String[]]&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:subPath!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:secondaryProperty&amp;nbsp;[String|String[]]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:secondarySubPath 
+  </codeblock> 
+  <ul> 
+   <li><span class="code">property</span><br /> Defines the property to be used for calculating the actual cell value.<br /> If property is defined as String[] multiple properties are scanned (in sequence) to find the actual value.<br /> For example, in the case of:<br /> <span class="code">property = [ "jcr:lastModified", "jcr:created" ]</span><br /> The corresponding value extractor (which is in control here) will: 
+    <ul> 
+     <li>Check whether there is a jcr:lastModified property available and if so, use it.<br /> </li> 
+     <li>If no jcr:lastModified property is available, the contents of jcr:created will be used instead.</li> 
+    </ul> </li> 
+   <li><span class="code">subPath</span><br /> If the result is not located on the node that is returned by the query, <span class="code">subPath</span> defines where the property is actually located.</li> 
+   <li><span class="code">secondaryProperty</span><br /> Defines a second property that must also be used for calculating the actual cell value; this will only be used for certain column types (diff and sortable).<br /> For example, in the case of the Workflow Instances Report, the property specified is used to store the actual value of the time difference (in milliseconds) between start and end times.<br /> </li> 
+   <li><span class="code">secondarySubPath</span><br /> Similar to subPath, when <span class="code">secondaryProperty</span> is used.</li> 
+  </ul> 
+  <p>In most cases, only <span class="code">property</span> will be used.</p> 
+  <h3>Client Filter</h3> 
+  <p>The client filter extracts the information to be displayed, from the data returned by the server.</p> 
+  <note> 
+   <p>This filter is executed clientside, after the entire serverside processing has been applied.</p> 
+  </note> 
+  <codeblock gutter="true" class="syntax xml">
+    N:definitions!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:data!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:clientFilter&amp;nbsp;[String] 
+  </codeblock> 
+  <p><span class="code">clientFilter</span> is defined as a JavaScript function that:</p> 
+  <ul> 
+   <li>as input, receives one parameter; the data returned from the server (so fully preprocessed)<br /> </li> 
+   <li>as output, returns the filtered (processed) value; the data extracted or derived from the input information<br /> </li> 
+  </ul> 
+  <p>The following example extracts the corresponding page path from a component path:</p> 
+  <codeblock gutter="true" class="syntax js">
+    function(v)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;var&amp;nbsp;sepPos&amp;nbsp;=&amp;nbsp;v.lastIndexOf('/jcr:content');!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if&amp;nbsp;(sepPos&amp;nbsp;&lt;&amp;nbsp;0)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;return&amp;nbsp;v;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;return&amp;nbsp;v.substring(sepPos&amp;nbsp;+&amp;nbsp;'/jcr:content'.length,&amp;nbsp;v.length);!!discoiqbr!!} 
+  </codeblock> 
+  <h3>Resolvers and Preprocessing</h3> 
+  <p>The <a href="#processingqueue">processing queue</a> defines the various resolvers and configures the preprocessing:<br /> </p> 
+  <codeblock gutter="true" class="syntax xml">
+    N:definitions!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:data!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:resolver!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:resolverConfig!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:preprocessing!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:apply!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:applyAfter 
+  </codeblock> 
+  <ul> 
+   <li><span class="code">resolver</span><br /> Defines the resolver to be used. The following resolvers are available:<br /> 
+    <ul> 
+     <li><span class="code">const</span><br /> Maps values to other values; for example, this is used to resolve constants such as <span class="code">en</span> to its equivalent value <span class="code">English</span>.</li> 
+     <li><span class="code">default</span><br /> The default resolver. This is a dummy resolver that actually resolves nothing.</li> 
+     <li><span class="code">page </span><br /> Resolves a path value to the path of the appropriate page; more precisely, to the corresponding <span class="code">jcr:content</span> node. For example, <span class="code">/content/.../page/jcr:content/par/xyz</span> is resolved to <span class="code">/content/.../page/jcr:content</span>.</li> 
+     <li><span class="code">path </span><br /> Resolves a path value by optionally appending a sub path and taking the actual value from a property of the node (as defined by <span class="code">resolverConfig</span>) at the resolved path. For example, a <span class="code">path</span> of <span class="code">/content/.../page/jcr:content</span> can be resolved to the content of the <span class="code">jcr:title</span> property, this would mean that a page path is resolved to the page title.</li> 
+     <li><span class="code">pathextension </span><br /> Resolves a value by prepending a path and taking the actual value from a property of the node at the resolved path. For example, a value <span class="code">de</span> might be prepended by a path such as <span class="code">/libs/wcm/core/resources/languages</span>, taking the value from the property <span class="code">language</span>, to resolve the country code <span class="code">de</span> to the language description <span class="code">German</span>.</li> 
+    </ul> </li> 
+   <li><span class="code">resolverConfig</span><br /> Provides definitions for the resolver; the options available are dependent on the <span class="code">resolver</span> selected:<br /> 
+    <ul> 
+     <li><span class="code">const </span><br /> Use properties to specify the constants for resolving. The name of the property defines the constant to be resolved; the value of the property defines the resolved value.<br /> For example a property with <strong>Name</strong>=<span class="code">1</span> and <strong>Value</strong><span class="code">=One</span> will resolve 1 to One.</li> 
+     <li><span class="code">default </span><br /> No configuration available.<br /> </li> 
+     <li><span class="code">page</span> 
+      <ul> 
+       <li><span class="code">propertyName</span> (optional)<br /> Defines the name of the property that should be used for resolving the value. If not specified, the default value of <em>jcr:title</em> (the page title) is used; for the <span class="code">page</span> resolver, this means that first the path is resolved to the page path, then further resolved to the page title.</li> 
+      </ul> </li> 
+     <li><span class="code">path</span> 
+      <ul> 
+       <li><span class="code">propertyName</span> (optional)<br /> Specifies the name of the property that should be used for resolving the value. If not specified, the default value of <span class="code">jcr:title</span> is used.</li> 
+       <li><span class="code">subPath</span> (optional)<br /> This property can be used to specify a suffix to be appended to the path before the value is resolved.</li> 
+      </ul> </li> 
+     <li><span class="code">pathextension</span> 
+      <ul> 
+       <li><span class="code">path</span> (mandatory)<br /> Defines the path to be prepended.</li> 
+       <li><span class="code">propertyName</span> (mandatory)<br /> Defines the property on the resolved path where the actual value is located.</li> 
+       <li><span class="code">i18n</span> (optional; type Boolean)<br /> Determines whether the resolved value should be <em>internationalized</em> (i.e. using <a href="../../../sites/administering/using/tc-manage.md">CQ5's internationalization services</a>).</li> 
+      </ul> </li> 
+    </ul> </li> 
+   <li><span class="code">preprocessing</span><br /> Preprocessing is optional and can be bound (separately) to the processing phases <em>apply</em> or <em>applyAfter</em>:<br /> 
+    <ul> 
+     <li><span class="code">apply</span><br /> The initial preprocessing phase (<a href="#processingqueue">step 3 in the representation of the processing queue</a>).<br /> </li> 
+     <li><span class="code">applyAfter</span><br /> Apply after preprocessing (<a href="#processingqueue">step 9 in the representation of the processing queue</a>).</li> 
+    </ul> </li> 
+  </ul> 
+  <h4>Resolvers</h4> 
+  <p>The resolvers are used to extract the information required. Examples of the various resolvers are:</p> 
+  <p><strong>Const</strong></p> 
+  <p>The following will resolve a contant value of <span class="code">VersionCreated</span> to the string <span class="code">New version created</span>.<br /> </p> 
+  <p>See <span class="code">/libs/cq/reporting/components/auditreport/typecol/definitions/data</span>.<br /> </p> 
+  <codeblock gutter="true" class="syntax xml">
+    N:data!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:resolver=const!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:resolverConfig!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:VersionCreated="New&amp;nbsp;version&amp;nbsp;created" 
+  </codeblock> 
+  <p><strong>Page</strong></p> 
+  <p>Resolves a path value to the jcr:description property on the jcr:content (child) node of the corresponding page.<br /> </p> 
+  <p>See <span class="code">/libs/cq/reporting/components/compreport/pagecol/definitions/data</span>.<br /> </p> 
+  <codeblock gutter="true" class="syntax xml">
+    N:data!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:resolver=page!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:resolverConfig!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:propertyName="jcr:description" 
+  </codeblock> 
+  <p><strong>Path</strong></p> 
+  <p>The following resolves a path of <span class="code">/content/.../page</span> to the content of the <span class="code">jcr:title</span> property, this would mean that a page path is resolved to the page title.<br /> </p> 
+  <p>See <span class="code">/libs/cq/reporting/components/auditreport/pagecol/definitions/data</span>.<br /> </p> 
+  <codeblock gutter="true" class="syntax xml">
+    N:data!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:resolver=path!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:resolverConfig!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:propertyName="jcr:title"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:subPath="/jcr:content" 
+  </codeblock> 
+  <p><strong>Path Extension</strong></p> 
+  <p>The following prepends a value <span class="code">de</span> with the path extension <span class="code">/libs/wcm/core/resources/languages</span>, then takes the value from the property <span class="code">language</span>, to resolve the country code <span class="code">de</span> to the language description <span class="code">German</span>.<br /> </p> 
+  <p>See <span class="code">/libs/cq/reporting/components/userreport/languagecol/definitions/data</span>.<br /> </p> 
+  <codeblock gutter="true" class="syntax xml">
+    N:data!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:resolver=pathextension!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:resolverConfig!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:path="/libs/wcm/core/resources/languages"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:propertyName="language" 
+  </codeblock> 
+  <h4>Preprocessing</h4> 
+  <p><span class="code"></span>The <span class="code">preprocessing</span> definition can be applied to either the:</p> 
+  <ul> 
+   <li>original value:<br /> The preprocessing definition for the original value is specified on <span class="code">apply</span> and/or <span class="code">applyAfter</span> directly.</li> 
+   <li>value in its aggregated state:<br /> If necessary, a separate definition can be provided for each aggregation.<br /> To specify explicit preprocessing for aggregated values, the preprocessing definitions have to reside on a respective <span class="code">aggregated</span> child node (<span class="code">apply/aggregated</span>, <span class="code">applyAfter/aggregated</span>). If explicit preprocessing for distinct aggregates is required, the preprocessing definition is located on a child node with the name of the respective aggregate (for example <span class="code">apply/aggregated/min/max</span> or other aggregates).</li> 
+  </ul> 
+  <p>You can specify either of the following to be used during preprocessing:</p> 
+  <ul> 
+   <li><a href="#preprocessingfindandreplacepatterns">find and replace patterns</a><br /> When found, the specified pattern (which is defined as a regular expression) is replaced by another pattern; for example, this can be used to extract a substring of the original.<br /> </li> 
+   <li><a href="#preprocessingdatatypeformatters">data type formatters</a><br /> Converts a numeric value into a relative string; for example, the value <span class="code"></span>representing a time difference of 1 hour would be resolved to a string such as <span class="code">1:24PM (1 hour ago)</span>.<br /> </li> 
+  </ul> 
+  <p>For example:</p> 
+  <codeblock gutter="true" class="syntax xml">
+    N:definitions!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:data!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:preprocessing!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:apply|applyAfter!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:pattern&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;regex!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:replace&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;replacement&amp;nbsp;for&amp;nbsp;regex!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;and/or!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:format&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;data&amp;nbsp;type&amp;nbsp;formatter 
+  </codeblock> 
+  <h4>Preprocessing - Find and Replace Patterns</h4> 
+  <p>For preprocessing you can specify a <span class="code">pattern</span> (defined as a <a href="http://en.wikipedia.org/wiki/Regular_expression">regular expression</a> or regex) that is located and then substituted by the <span class="code">replace</span> pattern:</p> 
+  <ul> 
+   <li><span class="code">pattern</span><br /> The regular expression used to locate a substring.</li> 
+   <li><span class="code">replace</span><br /> The string, or representation of the string, that will be used as a replacement for the original string. Often this represents a substring of the string located by the regular expression <span class="code">pattern</span>.<br /> </li> 
+  </ul> 
+  <p>An example replacement can be broken down as:</p> 
+  <ul> 
+   <li>For the node <span class="code">definitions/data/preprocessing/apply</span> with the following two properties:<br /> 
+    <ul> 
+     <li><span class="code">pattern</span>: <span class="code">(.*)(/jcr:content)(/|$)(.*)</span><br /> </li> 
+     <li><span class="code">replace</span>: <span class="code">$1</span></li> 
+    </ul> </li> 
+   <li>A string arriving as:<span class="code"></span> 
+    <ul> 
+     <li><span class="code">/content/geometrixx/en/services/jcr:content/par/text</span></li> 
+    </ul> </li> 
+   <li>Will be broken into four sections: 
+    <ul> 
+     <li><span class="code">$1</span> - <span class="code">(.*)</span> - <span class="code">/content/geometrixx/en/services</span><br /> </li> 
+     <li><span class="code">$2</span> - <span class="code">(/jcr:content)</span> - <span class="code">/jcr:content</span><br /> </li> 
+     <li><span class="code">$3</span> - <span class="code">(/|$)</span> - <span class="code">/</span></li> 
+     <li><span class="code">$4</span> - <span class="code">(.*)</span> - <span class="code">par/text</span></li> 
+    </ul> </li> 
+   <li>And replaced with the string represented by <span class="code">$1</span>: 
+    <ul> 
+     <li><span class="code">/content/geometrixx/en/services</span></li> 
+    </ul> </li> 
+  </ul> 
+  <h4>Preprocessing - Data Type Formatters</h4> 
+  <p><span class="code"></span></p> 
+  <p>These formatters convert a numeric value into a relative string.</p> 
+  <p><span class="code"></span></p> 
+  <p>For example, this can be used for a time column that allows <span class="code">min</span>, <span class="code">avg</span> and <span class="code">max</span> aggregates. As <span class="code">min</span>/<span class="code">avg</span>/<span class="code">max</span> aggregates are displayed as a <i>time difference</i> (e.g. <span class="code">10 days ago</span>), they require a data formatter. For this, a <span class="code">datedelta</span> formatter is applied to the <span class="code">min</span>/<span class="code">avg</span>/<span class="code">max</span> aggregated values. If a <span class="code">count</span> aggregate is also available then this does not need a formatter, neither does the original value.<br /> </p> 
+  <p>Currently the available data type formatters are:</p> 
+  <ul> 
+   <li><span class="code">format</span><br /> Data type formatter: 
+    <ul> 
+     <li><span class="code">duration</span><br /> Duration is the time span between two defined dates. For example, the start and end of a workflow action that took 1 hour, starting at 2/13/11 11:23h and ending one hour later at 2/13/11 12:23h.<br /> It converts a numeric value (interpreted as milliseconds) into a duration string; for example, <span class="code">30000</span> is formatted as <i><span class="code">30s</span>.</i></li> 
+     <li><span class="code">datedelta</span><br /> Datadelta is the time span between a date in the past until "now" (so it will have a different result if the report is viewed at a later point in time).<br /> It converts the numeric value (interpreted as a time difference in days) into a relative date string. For example, 1 is formatted as 1 day ago.<br /> </li> 
+    </ul> </li> 
+  </ul>  
+  <p><span class="code"></span></p> 
+  <p>The following example defines <span class="code">datedelta</span> formatting for <span class="code">min</span> and <span class="code">max</span> aggregates:</p> 
+  <codeblock gutter="true" class="syntax xml">
+    N:definitions!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:data!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:preprocessing!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:apply!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:aggregated!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:min!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:format&amp;nbsp;=&amp;nbsp;"datedelta"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:max!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:format&amp;nbsp;=&amp;nbsp;"datedelta" 
+  </codeblock> 
+  <h3>Column Specific Definitions</h3> 
+  <p>The column specific definitions define the filters and aggregates available for that column.<br /> </p> 
+  <codeblock gutter="true" class="syntax xml">
+    N:definitions!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:type!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:groupable&amp;nbsp;[Boolean]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:filters&amp;nbsp;[cq:WidgetCollection]&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;[!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:&lt;name&gt;&amp;nbsp;//&amp;nbsp;array&amp;nbsp;of&amp;nbsp;nodes&amp;nbsp;(names&amp;nbsp;irrelevant)&amp;nbsp;with&amp;nbsp;the&amp;nbsp;following&amp;nbsp;properties:!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:filterType!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:id!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:phase!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:aggregates&amp;nbsp;[cq:WidgetCollection]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;[!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:&lt;name&gt;&amp;nbsp;//&amp;nbsp;array&amp;nbsp;of&amp;nbsp;nodes&amp;nbsp;(names&amp;nbsp;irrelevant)&amp;nbsp;with&amp;nbsp;the&amp;nbsp;following&amp;nbsp;properties:!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:text!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:type!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;] 
+  </codeblock> 
+  <ul> 
+   <li><span class="code">type</span><br /> The following are available as standard options:<br /> 
+    <ul> 
+     <li><span class="code">string</span></li> 
+     <li><span class="code">number</span></li> 
+     <li><span class="code">int</span></li> 
+     <li><span class="code">date</span></li> 
+     <li><span class="code">diff</span></li> 
+     <li><span class="code">timeslot</span><br /> Is used for extracting parts of a date needed for aggregation (for example, group by year to get data aggregated for each year).</li> 
+     <li><span class="code">sortable</span><br /> Is used for values that use different values (as taken from different properties) for sorting and displaying.</li> 
+    </ul> In addition. any of the above can be defined as multi value; for example, <span class="code">string[]</span> defines an array of strings.<br /> The value extractor is chosen by the column type. If a value extractor is available for a column type, then this extractor is used. Otherwise, the default value extractor is used.<br /> A type may (optionally) take a parameter. For example, <span class="code">timeslot:year</span> extracts the year from a date field. Types with their parameters: 
+    <ul> 
+     <li><span class="code">timeslot</span> - The values are comparible to the corresponding constants of <span class="code">java.utils.Calendar</span>.<br /> 
+      <ul> 
+       <li><span class="code">timeslot:year</span> - <span class="code">Calendar.YEAR</span><br /> </li> 
+       <li><span class="code">timeslot:month-of-year</span> - <span class="code">Calendar.MONTH</span><br /> </li> 
+       <li><span class="code">timeslot:week-of-year</span> - <span class="code">Calendar.WEEK_OF_YEAR</span><br /> </li> 
+       <li><span class="code">timeslot:day-of-month</span> - <span class="code">Calendar.DAY_OF_MONTH</span><br /> </li> 
+       <li><span class="code">timeslot:day-of-week</span> - <span class="code">Calendar.DAY_OF_WEEK</span><br /> </li> 
+       <li><span class="code">timeslot:day-of-year</span> - <span class="code">Calendar.DAY_OF_YEAR</span><br /> </li> 
+       <li><span class="code">timeslot:hour-of-day</span> - <span class="code">Calendar.HOUR_OF_DAY</span><br /> </li> 
+       <li><span class="code">timeslot:minute-of-hour</span> - <span class="code">Calendar.MINUTE</span><br /> </li> 
+      </ul> </li> 
+    </ul> </li> 
+   <li><span class="code">groupable </span><br /> Defines whether the report can be grouped by this column.</li> 
+   <li><span class="code">filters</span><br /> Filter definitions. 
+    <ul> 
+     <li><span class="code">filterType</span><br /> Available filters are: 
+      <ul> 
+       <li><span class="code">string</span><br /> A string based filter.</li> 
+      </ul> </li> 
+     <li><span class="code">id</span><br /> Filter identifier.</li> 
+     <li><span class="code">phase</span><br /> Available phases: 
+      <ul> 
+       <li><span class="code">raw </span><br /> Filter is applied on raw data.</li> 
+       <li><span class="code">preprocessed </span><br /> Filter is applied on preprocessed data.</li> 
+       <li><span class="code">resolved </span><br /> Filter is applied on resolved data.</li> 
+      </ul> </li> 
+    </ul> </li> 
+   <li><span class="code">aggregates</span><br /> Aggregate definitions. 
+    <ul> 
+     <li><span class="code">text</span><br /> Textual name of the aggregate. If <span class="code">text</span> is not specified, then it will take the default description of the aggregate; for example, <span class="code">minimum</span> will be used for the <span class="code">min</span> aggregate.<br /> </li> 
+     <li><span class="code">type</span><br /> Aggregate type. Available aggregates are: 
+      <ul> 
+       <li><span class="code">count </span><br /> Counts the number of rows.</li> 
+       <li><span class="code">count-nonempty</span><br /> Counts the number of non-empty rows.</li> 
+       <li><span class="code">min </span><br /> Provides the minimum value.</li> 
+       <li><span class="code">max </span><br /> Provides the maximum value.</li> 
+       <li><span class="code">average </span><br /> Provides the average value.</li> 
+       <li><span class="code">sum </span><br /> Provides the sum of all values.</li> 
+       <li><span class="code">median </span><br /> Provides the median value.</li> 
+       <li><span class="code">percentile95 </span><br /> Takes the 95th percentile of all values.</li> 
+      </ul> </li> 
+    </ul> </li> 
+  </ul> 
+  <h3>Column Default Values</h3> 
+  <p>This is used to define default values for the column:<br /> </p> 
+  <codeblock gutter="true" class="syntax xml">
+    N:defaults!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:aggregate 
+  </codeblock> 
+  <ul> 
+   <li><span class="code">aggregate</span><br /> Valid <span class="code">aggregate</span> values are the same as for <span class="code">type</span> under <span class="code">aggregates</span> (see <a href="#columnspecificdefinitionsdefinitionsfiltersaggregates">Column Specific Definitions (definitions - filters / aggregates)</a> ).</li> 
+  </ul> 
+  <h3>Events and Actions</h3> 
+  <p>Edit Configuration defines the necessary events for the listeners to detect and the actions to be applied after those events occurs. See the <a href="../../../sites/developing/using/components.md">introduction to component development</a> for background information.<br /> </p> 
+  <p>The following values must be defined to ensure that all required actions are catered for:<br /> </p> 
+  <codeblock gutter="true" class="syntax xml">
+    N:cq:editConfig&amp;nbsp;[cq:EditConfig]&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:cq:actions&amp;nbsp;[String[]]&amp;nbsp;=&amp;nbsp;"insert",&amp;nbsp;"delete"&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:cq:dialogMode&amp;nbsp;=&amp;nbsp;"floating"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:cq:layout&amp;nbsp;=&amp;nbsp;"auto"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:cq:listeners&amp;nbsp;[cq:EditListenersConfig]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:aftercreate&amp;nbsp;=&amp;nbsp;"REFRESH_INSERTED"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:afterdelete&amp;nbsp;=&amp;nbsp;"REFRESH_SELF"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:afteredit&amp;nbsp;=&amp;nbsp;"REFRESH_SELF"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:afterinsert&amp;nbsp;=&amp;nbsp;"REFRESH_INSERTED"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:aftermove&amp;nbsp;=&amp;nbsp;"REFRESH_SELF"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:afterremove&amp;nbsp;=&amp;nbsp;"REFRESH_SELF" 
+  </codeblock> 
+  <h3>Generic Columns</h3> 
+  <p>Generic columns are an extension where (most of) the column definitions are stored on the instance of the column node (rather than the component node).</p> 
+  <p>They use a (standard) dialog, that you customize, for the individual generic component. This dialog allows the report user to define the column properties of a generic column on the report page (using the menu option <strong>Column properties...</strong>).</p> 
+  <p>An example is the <strong>Generic</strong> column of the <strong>User Report</strong>; see <span class="code">/libs/cq/reporting/components/userreport/genericcol</span>.</p> 
+  <p>To make a column generic:</p> 
+  <ul> 
+   <li>Set the <span class="code">type</span> property of the column's <span class="code">definition</span> node to <span class="code">generic</span>.<br /> See <span class="code">/libs/cq/reporting/components/userreport/genericcol/definitions</span></li> 
+   <li>Specify a (standard) dialog definition under the column's <span class="code">definition</span> node.<br /> See <span class="code">/libs/cq/reporting/components/userreport/genericcol/definitions/dialog</span> 
+    <ul> 
+     <li>The fields of the dialog must refer to the same names as the corresponding component property (including its path).<br /> For example, if you want to make the type of the generic column configurable through the dialog, use a field with the name of <span class="code">./definitions/type</span>.</li> 
+     <li>Properties defined using the UI/dialog take precedence over those defined on the <span class="code">columnbase</span> component.</li> 
+    </ul> </li> 
+   <li>Define the <a href="#editconfigurationcqeditconfig">Edit Configuration</a>.<br /> See <span class="code">/libs/cq/reporting/components/userreport/genericcol/cq:editConfig</span></li> 
+   <li>Use standard CQ methodologies to define (additional) column properties.<br /> Note that for properties that are defined on both the component and column instances, the value on the column instance takes precedence.<br /> Properties available for a generic column are:<br /> 
+    <ul> 
+     <li><span class="code">jcr:title</span> - column name</li> 
+     <li><span class="code">definitions/aggregates</span> - aggregates</li> 
+     <li><span class="code">definitions/filters</span> - filters</li> 
+     <li><span class="code">definitions/type </span>- the type of the column (this must be defined in the dialog, either using a selector/combobox or a hidden field)<br /> </li> 
+     <li><span class="code">definitions/data/resolver</span> and <span class="code">definitions/data/resolverConfig</span> (but not <span class="code">definitions/data/preprocessing</span> or <span class="code">.../clientFilter</span>) - the resolver and configuration<br /> </li> 
+     <li><span class="code">definitions/queryBuilder</span> - the query builder configuration</li> 
+     <li><span class="code">defaults/aggregate</span> - the default aggregate</li> 
+    </ul> In the case of a new instance of the generic column on the <strong>User Report</strong> the properties defined with the dialog are persisted under:<br /> <span class="code"> /etc/reports/userreport/jcr:content/report/columns/genericcol/settings/generic</span><br /> </li> 
+  </ul>  
+  <h2>Report Design</h2> 
+  <p>The design defines which column types are available for creating a report. It also defines the paragraph system to which the columns are added.</p> 
+  <p>You are strongly recommended to create an individual design for each report. This ensures full flexibility. See also <a href="#definingyournewreport">Defining Your New Report</a>.</p> 
+  <p>The default reporting components are held under <span class="code">/etc/designs/reports</span>.</p> 
+  <p>The location for your reports can depend on where you have located your components:</p> 
+  <ul> 
+   <li><span class="code">/etc/designs/reports/&amp;lt;<i>yourReport</i>&amp;gt;</span> is suitable if the report is located unter <span class="code">/apps/cq/reporting</span></li> 
+   <li><span class="code">/etc/designs/&amp;lt;<i>yourProject</i>&amp;gt;/reports/&amp;lt;<i>yourReport</i>&amp;gt;</span> for reports using the <span class="code">/apps/&amp;lt;<i>yourProject</i>&amp;gt;/reports</span> pattern</li> 
+  </ul> 
+  <p>Required design properties are registered on <span class="code">jcr:content/reportpage/report/columns</span> (for example, <span class="code">/etc/designs/reports/&amp;lt;<i>reportName</i>&amp;gt;/jcr:content/reportpage/report/columns</span>):</p> 
+  <ul> 
+   <li><span class="code">components</span><br /> Any components and/or component groups that are allowed on the report.</li> 
+   <li><span class="code">sling:resourceType</span><br /> Property with value <span class="code">cq/reporting/components/repparsys</span>.</li> 
+  </ul> 
+  <p>An example design snippet (taken from the design of the component report) is:</p> 
+  <codeblock gutter="true" class="syntax xml">
+    &lt;!--&amp;nbsp;...&amp;nbsp;--&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;jcr:content!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;jcr:primaryType="nt:unstructured"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;jcr:title="Component&amp;nbsp;Report"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;sling:resourceType="wcm/core/components/designer"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;reportpage&amp;nbsp;jcr:primaryType="nt:unstructured"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;report&amp;nbsp;jcr:primaryType="nt:unstructured"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;columns!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;jcr:primaryType="nt:unstructured"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;sling:resourceType="cq/reporting/components/repparsys"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;components="group:Component&amp;nbsp;Report"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/report&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/reportpage&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/jcr:content&gt;!!discoiqbr!!&lt;!--&amp;nbsp;...&amp;nbsp;--&gt; 
+  </codeblock> 
+  <p>Specifying designs for individual columns is not required. Available columns can be defined in design mode.</p> 
+  <note> 
+   <p>It is recommended that you do not make any changes to the standard report designs. This is to ensure that you do not lose any changes when upgrading or installing hotfixes.</p> 
+   <p>Please copy the report and its design if you want to customize a standard report.<br /> </p> 
+  </note> 
+  <note> 
+   <p>Default columns can be created automatically when a report is created. These are specified in the template.</p> 
+  </note> 
+  <h2>Report Template</h2> 
+  <p>Each report type must provide a template. These are standard <a href="../../../sites/developing/using/templates.md">CQ Templates</a> and can be configured as such.<br /> </p> 
+  <p>The template must:</p> 
+  <ul> 
+   <li>set the <span class="code">sling:resourceType</span> to <span class="code">cq/reporting/components/reportpage</span></li> 
+   <li>indicate the design to be used<br /> </li> 
+   <li>create a <span class="code">report</span> child node that references the container (<span class="code">reportbase</span>) component by means of the <span class="code">sling:resourceType</span> property</li> 
+  </ul> 
+  <p>An example template snippet (taken from the component report template) is:</p> 
+  <codeblock gutter="true" class="syntax xml">
+    &lt;!--&amp;nbsp;...&amp;nbsp;--&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;jcr:content!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;cq:designPath="/etc/designs/reports/compreport"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;jcr:primaryType="cq:PageContent"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;sling:resourceType="cq/reporting/components/reportpage"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;report!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;jcr:primaryType="nt:unstructured"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;sling:resourceType="cq/reporting/components/compreport/compreport"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/jcr:content&gt;!!discoiqbr!!&lt;!--&amp;nbsp;..&amp;nbsp;--&gt; 
+  </codeblock> 
+  <p>An example template snippet, showing the definition of the root path (taken from the user report template), is:</p> 
+  <codeblock gutter="true" class="syntax xml">
+    &lt;!--&amp;nbsp;...&amp;nbsp;--&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;jcr:content!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;cq:designPath="/etc/designs/reports/userreport"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;jcr:primaryType="cq:PageContent"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;sling:resourceType="cq/reporting/components/reportpage"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;report!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;jcr:primaryType="nt:unstructured"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;rootPath="/home/users"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;sling:resourceType="cq/reporting/components/compreport/compreport"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/jcr:content&gt;!!discoiqbr!!&lt;!--&amp;nbsp;..&amp;nbsp;--&gt; 
+  </codeblock> 
+  <p>The default reporting templates are held under <span class="code">/libs/cq/reporting/templates</span>.</p> 
+  <p>However, it is strongly recommended that you do not update these nodes, but create your own component nodes under <span class="code">/apps/cq/reporting/templates</span> or if more appropriate <span class="code">/apps/&amp;lt;<i>yourProject</i>&amp;gt;/reports/templates</span>.</p> 
+  <p>Where, as an example (see also <a href="#locationofreportcomponents">Location of Report Components</a>):</p> 
+  <codeblock gutter="true" class="syntax xml">
+    N:apps&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:cq&amp;nbsp;[nt:folder]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:reporting|reports&amp;nbsp;[sling:Folder]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:templates&amp;nbsp;[sling:Folder] 
+  </codeblock> 
+  <p>Under this you create the root for your template:<br /> </p> 
+  <codeblock gutter="true" class="syntax xml">
+    N:apps&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:cq&amp;nbsp;[nt:folder]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:reporting|reports&amp;nbsp;[sling:Folder]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:templates&amp;nbsp;[sling:Folder]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:&lt;reportname&gt;&amp;nbsp;[sling:Folder] 
+  </codeblock> 
+  <h2>Creating Your Own Report - An Example</h2> 
+  <h3>Defining Your New Report</h3> 
+  <p>To define a new report you must create and configure:</p> 
+  <ol> 
+   <li>The root for your report components.</li> 
+   <li>The report base component.</li> 
+   <li>One, or more, column base components.</li> 
+   <li>The report design.</li> 
+   <li>The root for your report template.</li> 
+   <li>The report template.</li> 
+  </ol> 
+  <p>To illustrate these steps, the following example defines a report that lists all OSGi configurations within the repository; i.e. all instances of the <span class="code">sling:OsgiConfig</span> node.<br /> </p> 
+  <note> 
+   <p>Copying an existing report, then customizing the new version, is an alternative method.<br /> </p> 
+  </note> 
+  <ol> 
+   <li><p>Create the root node for your new report.</p> <p>For example, under <span class="code">/apps/cq/reporting/components/osgireport</span>.</p> 
+    <codeblock gutter="true" class="syntax xml">
+      N:cq&amp;nbsp;[nt:folder]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:reporting&amp;nbsp;[sling:Folder]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:components&amp;nbsp;[sling:Folder]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:osgireport&amp;nbsp;[sling:Folder] 
+    </codeblock></li> 
+   <li><p>Define your report base. For example <span class="code">osgireport[cq:Component]</span> under <span class="code">/apps/cq/reporting/components/osgireport</span>.</p> 
+    <codeblock gutter="true" class="syntax xml">
+      N:osgireport&amp;nbsp;[sling:Folder]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:osgireport&amp;nbsp;[cq:Component]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:sling:resourceSuperType&amp;nbsp;[String]&amp;nbsp;=&amp;nbsp;"cq/reporting/components/reportbase"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:charting&amp;nbsp;[nt:unstructured]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:settings&amp;nbsp;[nt:unstructured]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:active&amp;nbsp;[cq:WidgetCollection]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:0&amp;nbsp;[nt:unstructured]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:id&amp;nbsp;[String]&amp;nbsp;=&amp;nbsp;"pie"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:1&amp;nbsp;[nt:unstructured]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:id&amp;nbsp;[String]&amp;nbsp;=&amp;nbsp;"lineseries"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:definitions&amp;nbsp;[cq:WidgetCollections]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:0&amp;nbsp;[nt:unstructured]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:id&amp;nbsp;[String]&amp;nbsp;=&amp;nbsp;"pie"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:maxRadius&amp;nbsp;[Long]&amp;nbsp;=&amp;nbsp;180!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:type&amp;nbsp;[String]&amp;nbsp;=&amp;nbsp;"pie"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:1&amp;nbsp;[nt:unstructured]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:id&amp;nbsp;[String]&amp;nbsp;=&amp;nbsp;"lineseries"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:type&amp;nbsp;[String]&amp;nbsp;=&amp;nbsp;"lineseries"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:dialog&amp;nbsp;[cq:Dialog]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:height&amp;nbsp;[Long]&amp;nbsp;=&amp;nbsp;424!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:items&amp;nbsp;[cq:WidgetCollection]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:props&amp;nbsp;[cq:Panel]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:items&amp;nbsp;[cq:WidgetCollection]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:title&amp;nbsp;[cq:Widget]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:path&amp;nbsp;[String]&amp;nbsp;=&amp;nbsp;"/libs/cq/reporting/components/commons/title.infinity.json"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:xtype&amp;nbsp;[String]&amp;nbsp;=&amp;nbsp;"cqinclude"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:description&amp;nbsp;[cq:Widget]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:path&amp;nbsp;[String]&amp;nbsp;=&amp;nbsp;"/libs/cq/reporting/components/commons/description.infinity.json"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:xtype&amp;nbsp;[String]&amp;nbsp;=&amp;nbsp;"cqinclude"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:rootPath&amp;nbsp;[cq:Widget]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:fieldLabel&amp;nbsp;[String]&amp;nbsp;=&amp;nbsp;"Root&amp;nbsp;path"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:name&amp;nbsp;[String]&amp;nbsp;=&amp;nbsp;"./report/rootPath"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:xtype&amp;nbsp;[String]&amp;nbsp;=&amp;nbsp;"pathfield"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:processing&amp;nbsp;[cq:Widget]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:path&amp;nbsp;[String]&amp;nbsp;=&amp;nbsp;"/libs/cq/reporting/components/commons/processing.infinity.json"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:xtype&amp;nbsp;[String]&amp;nbsp;=&amp;nbsp;"cqinclude"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:scheduling&amp;nbsp;[cq:Widget]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:path&amp;nbsp;[String]&amp;nbsp;=&amp;nbsp;"/libs/cq/reporting/components/commons/scheduling.infinity.json"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:xtype&amp;nbsp;[String]&amp;nbsp;=&amp;nbsp;"cqinclude"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:queryBuilder&amp;nbsp;[nt:unstructured]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:nodeTypes&amp;nbsp;[String[]]&amp;nbsp;=&amp;nbsp;"sling:OsgiConfig" 
+    </codeblock><p>This defines a report base component that:</p> 
+    <ul> 
+     <li>searches for all nodes of type <span class="code">sling:OsgiConfig</span></li> 
+     <li>displays both <span class="code">pie</span> and <span class="code">lineseries</span> charts</li> 
+     <li>provides a dialog for the user to configure the report</li> 
+    </ul> </li> 
+   <li><p>Define your first column (columnbase) component. For example <span class="code">bundlecol[cq:Component]</span> under <span class="code">/apps/cq/reporting/components/osgireport</span>.</p> 
+    <codeblock gutter="true" class="syntax xml">
+      N:osgireport&amp;nbsp;[sling:Folder]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:bundlecol&amp;nbsp;[cq:Component]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:componentGroup&amp;nbsp;[String]&amp;nbsp;=&amp;nbsp;"OSGi&amp;nbsp;Report"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:jcr:title&amp;nbsp;=&amp;nbsp;"Bundle"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:sling:resourceSuperType&amp;nbsp;[String]&amp;nbsp;=&amp;nbsp;"cq/reporting/components/columnbase"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:cq:editConfig&amp;nbsp;[cq:EditConfig]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:cq:actions&amp;nbsp;[String[]]&amp;nbsp;=&amp;nbsp;"insert",&amp;nbsp;"delete"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:cq:dialogMode&amp;nbsp;[String]&amp;nbsp;=&amp;nbsp;"floating"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:cq:layout&amp;nbsp;[String]&amp;nbsp;=&amp;nbsp;"auto"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:cq:listeners&amp;nbsp;[cq:EditListenersConfig]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:aftercreate&amp;nbsp;[String]&amp;nbsp;"REFRESH_INSERTED"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:afterdelete&amp;nbsp;[String]&amp;nbsp;"REFRESH_SELF"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:afteredit&amp;nbsp;[String]&amp;nbsp;"REFRESH_SELF"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:afterinsert&amp;nbsp;[String]&amp;nbsp;"REFRESH_INSERTED"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:aftermove&amp;nbsp;[String]&amp;nbsp;"REFRESH_SELF"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:afterremove&amp;nbsp;[String]&amp;nbsp;"REFRESH_SELF"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:defaults&amp;nbsp;[nt:unstructured]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:aggregate&amp;nbsp;[String]&amp;nbsp;=&amp;nbsp;"count"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:definitions&amp;nbsp;[nt:unstructured]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:groupable&amp;nbsp;[Boolean]&amp;nbsp;=&amp;nbsp;false!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:type&amp;nbsp;[String]&amp;nbsp;=&amp;nbsp;"string"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:queryBuilder&amp;nbsp;[nt:unstructured]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:property&amp;nbsp;[String]&amp;nbsp;=&amp;nbsp;"jcr:path" 
+    </codeblock><p>This defines a column base component that:</p> 
+    <ul> 
+     <li>searches for and returns the value that it receives from the server; in this case the property <span class="code">jcr:path</span> for every <span class="code">sling:OsgiConfig</span> node</li> 
+     <li>provides the <span class="code">count</span> aggregate</li> 
+     <li>is not groupable</li> 
+     <li>has the title <span class="code">Bundle</span> (column title within the table)<br /> </li> 
+     <li>is in the sidekick group <span class="code">OSGi Report</span></li> 
+     <li>refreshes on specified events</li> 
+    </ul> 
+    <note> 
+     <p>In this example there are no definitions of <span class="code">N:data</span> and <span class="code">P:clientFilter</span>. This is because the value received from the server is returned on a 1:1 basis - which is the default behavior.<br /> </p> 
+     <p>This is the same as the definitions:<br /> <code class="code"> N:data [nt:unstructured]
+       <discoiqbr /> P:clientFilter [String] = "function(v) { return v; }"
+       <discoiqbr /> </code>Where the function simply returns the value it receives.</p> 
+    </note></li> 
+   <li><p>Define your report design. For example <span class="code">osgireport[cq:Page]</span> under <span class="code">/etc/designs/reports</span>.</p> 
+    <codeblock gutter="true" class="syntax xml">
+      N:osgireport&amp;nbsp;[cq:Page]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:jcr:content&amp;nbsp;[nt:unstructured]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:jcr:title&amp;nbsp;[String]&amp;nbsp;=&amp;nbsp;"OSGi&amp;nbsp;report"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:sling:resourceType&amp;nbsp;[String]&amp;nbsp;=&amp;nbsp;"wcm/core/components/designer"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:reportpage&amp;nbsp;[nt:unstructured]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:report&amp;nbsp;[nt:unstructured]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:columns&amp;nbsp;[nt:unstructured]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:components&amp;nbsp;[String]&amp;nbsp;=&amp;nbsp;"group:OSGi&amp;nbsp;Report"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:sling:resourceType&amp;nbsp;[String]&amp;nbsp;=&amp;nbsp;"cq/reporting/components/repparsys" 
+    </codeblock></li> 
+   <li><p>Create the root node for your new report template.</p> <p>For example, under <span class="code">/apps/cq/reporting/templates/osgireport</span>.</p> 
+    <codeblock gutter="true" class="syntax xml">
+      N:cq&amp;nbsp;[nt:folder]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:reporting&amp;nbsp;[sling:Folder]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:templates&amp;nbsp;[sling:Folder]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:osgireport&amp;nbsp;[cq:Template] 
+    </codeblock></li> 
+   <li><p>Define your report template. For example <span class="code">osgireport[cq:Template]</span> under <span class="code">/apps/cq/reporting/templates</span>.</p> 
+    <codeblock gutter="true" class="syntax xml">
+      N:osgireport&amp;nbsp;[cq:Template]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:allowedPaths&amp;nbsp;[String[]]&amp;nbsp;=&amp;nbsp;"/etc/reports(/.*)?"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:jcr:description&amp;nbsp;[String]&amp;nbsp;=&amp;nbsp;"Use&amp;nbsp;this&amp;nbsp;report&amp;nbsp;generator&amp;nbsp;to&amp;nbsp;create&amp;nbsp;a&amp;nbsp;new&amp;nbsp;OSGi&amp;nbsp;report."!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:jcr:title&amp;nbsp;[String]&amp;nbsp;=&amp;nbsp;"OSGi&amp;nbsp;Report&amp;nbsp;Template"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:ranking&amp;nbsp;[Long]&amp;nbsp;=&amp;nbsp;100!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:shortTitle&amp;nbsp;[String]&amp;nbsp;=&amp;nbsp;"OSGi&amp;nbsp;Report"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:jcr:content&amp;nbsp;[cq:PageContent]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:cq:designPath&amp;nbsp;[String]&amp;nbsp;=&amp;nbsp;"/etc/designs/reports/osgireport"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:sling:resourceType&amp;nbsp;[String]&amp;nbsp;=&amp;nbsp;"cq/reporting/components/reportpage"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:report&amp;nbsp;[nt:unstructured]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:rootPath&amp;nbsp;[String]&amp;nbsp;=&amp;nbsp;"/"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;P:sling:resourceType&amp;nbsp;[String]&amp;nbsp;=&amp;nbsp;"cq/reporting/components/osgireport/osgireport"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;N:thumbnail.png&amp;nbsp;[nt:file] 
+    </codeblock><p>This defines a template that:</p> 
+    <ul> 
+     <li>defines the <span class="code">allowedPaths</span> for the resulting reports - in the above case anywhere under <span class="code">/etc/reports</span></li> 
+     <li>provides titles and descriptions for the template</li> 
+     <li>provides a thumbnail image for use in the template list (the full definition of this node is not listed above - it is easiest to copy an instance of thumbnail.png from an existing report).<br /> </li> 
+    </ul> </li> 
+  </ol> 
+  <h3>Creating an Instance of Your New Report</h3> 
+  <p>An instance of your new report can now be created:</p> 
+  <ol> 
+   <li><p>Open the <strong>Tools</strong> console.<br /> </p> </li> 
+   <li><p>Select <strong>Reports</strong> in the left-hand pane.</p> </li> 
+   <li><p>Then <strong>New...</strong> from the toolbar. Define a <strong>Title</strong> and <strong>Name</strong>, select your new report type (the <strong>OSGi Report Template</strong>) from the list of templates, then click <strong>Create</strong>.</p> </li> 
+   <li><p>Your new report instance will appear in the list. Double-click this to open.</p> </li> 
+   <li><p>Drag a component (for this example, <strong>Bundle</strong> in the <strong>OSGi Report</strong> group) from the sidekick to create the first column and <a href="../../../sites/administering/using/reporting.md#thebasicsofreportcustomization">start the report definition</a>.<a href="../../../sites/administering/using/reporting.md#thebasicsofreportcustomization"></a></p> 
+    <note> 
+     <p>As this example does not have any groupable columns the charts will not be available. To see charts, set <span class="code">groupable</span> to <span class="code">true</span>:<br /> </p> 
+     <p><code class="code"> N:osgireport [sling:Folder]
+       <discoiqbr /> N:bundlecol [cq:Component]
+       <discoiqbr /> N:definitions [nt:unstructured]
+       <discoiqbr /> P:groupable [Boolean] = true</code></p> 
+    </note></li> 
+  </ol>  
+  <h2>Configuring the Report Framework Services</h2> 
+  <p>This section describes advanced configuration options for the OSGi services that implement the report framework.</p> 
+  <p>These can be viewed using the Configuration menu of the web console (available for example at <span class="code">http://localhost:4502/system/console/configMgr</span>). When working with AEM there are several methods of managing the configuration settings for such services; see <a href="../../../sites/deploying/using/configuring-osgi.md">Configuring OSGi</a> for more details and the recommended practices.</p> 
+  <h3>Basic Service (Day CQ Reporting Configuration)</h3> 
+  <ul> 
+   <li><strong>Timezone</strong> defines the timezone historic data is created for. This is to ensure that the historic chart displays the same data for each user around the globe.</li> 
+   <li><strong>Locale</strong> defines the locale to be used in conjunction with the <strong>Timezone</strong> for historic data. The locale is used to determine some locale-specific calendar settings (e.g. whether the first day of a week is Sunday or Monday).</li> 
+   <li><strong>Snapshot path</strong> defines the root path where snapshots for historic charts are stored.</li> 
+   <li><strong>Path to reports</strong> defines the path where reports are located. This is used by the snapshot service to determine the reports to actually take snapshots for.</li> 
+   <li><strong>Daily snapshots</strong> defines the hour of each day when daily snapshots are taken. The specified hour is in the local timezone of the server.</li> 
+   <li><strong>Hourly snapshots</strong> defines the minute of each hour when hourly snapshots are taken.</li> 
+   <li><strong>Rows (max)</strong> defines the maximum number of rows that are stored for each snapshot. This value should be chosen reasonably; if it is too high, this will affect the size of the repository, if too low, data may not be accurate because of the way historic data is handled.</li> 
+   <li><strong>Fake data</strong>, if enabled, fake historic data can be created by using the <span class="code">fakedata</span> selector; if disabled, then use of the <span class="code">fakedata</span> selector will throw an exception.<br /> As the data is fake it must <i>only</i> be used for testing and debugging purposes.<br /> Using the <span class="code">fakedata</span> selector will finish the report implicitly, so all existing data will be lost; data can be restored manually, but this can be a time-consuming process.<br /> </li> 
+   <li><strong>Snapshot user</strong> defines an optional user that can be used for taking snapshots.<br /> Basically, snapshots are taken for the user that has finished the report. There might be situations (for example on a publish system, where this user is non-existant as their account has not been replicated) where you want specify a fallback user that is used instead.<br /> Additionally, specifying a user might impose a security risk.</li> 
+   <li><strong>Enforce snapshot user</strong>, if enabled, all snapshots will be taken with the user specified under <i>Snapshot user</i>. This might have serious security impacts if not handled correctly.<br /> </li> 
+  </ul> 
+  <h3>Cache Settings (Day CQ Reporting Cache)</h3> 
+  <ul> 
+   <li><strong>Enable</strong> allows you to enable or disable the caching of report data. Enabling the report cache will keep report data in memory during several requests. This may boost performance, but will lead to higher memory consumption and may, in extreme circumstances, lead to out of memory situations.</li> 
+   <li><strong>TTL</strong> defines the time (in seconds) for which report data is cached. A higher number will boost performance, but may also return inaccurate data if the data changes within the time period.</li> 
+   <li><strong>Max entries</strong> defines the maximum number of reports to be cached at any one time.</li> 
+  </ul> 
+  <note> 
+   <p>Report data may be different for each user and language. Therefore report data is cached per report, user and language. This means that a <strong>Max entries</strong> value of <span class="code">2</span> actually caches data for either:</p> 
+   <ul> 
+    <li>one report for two users with different language settings<br /> </li> 
+    <li>one user and two reports</li> 
+   </ul> 
+  </note> 
+ </body> 
+</html>

@@ -1,0 +1,177 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="true" name="preview" /> 
+  <meta content="yellow" name="acrolinxPageStatus" /> 
+  <meta content="6804b0fc-4af7-4950-89b3-88740ba258aa" name="jcr:predecessors" /> 
+  <meta content="2977" name="acrolinxWords" /> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/installing;/content/help/en/experience-manager/6-4/forms/morehelp/jee;/content/help/en/experience-manager/6-3/forms/morehelp/installing;/content/help/en/experience-manager/6-3/forms/morehelp/jee" name="moreHelpPaths" /> 
+  <meta content="[DO NOT PUBLISH] Upgrade or migrate to AEM 6.3 Forms" name="jcr:title" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="You can perform a direct upgrade from AEM 6.1 Forms and AEM 6.2 Forms to AEM 6.3 Forms. You can also perform a multi-hop upgrade from a LiveCycle version to AEM 6.3 Forms. " name="seoDescription" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="b77ebfbc-599f-4912-a3d0-4368e8652879" name="jcr:uuid" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2015-12-03T08:36:34.802-0500" name="lastPublishQADate" /> 
+  <meta content="khsingh" name="acrolinxLastCheckedBy" /> 
+  <meta content="2019-02-08T04:30:19.558-0500" name="cq:lastModified" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2017-05-29T06:48:37.214-0400" name="acrolinxDate" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.3/FORMS;topic_tags:installing;geptopics:SG_AEMFORMS/categories/jee" name="cq:tags" /> 
+  <meta content="202" name="acrolinxSentences" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/upgrade1_krs_workflow_73861b2050b0db99_118_report.xml" name="acrolinxReportURL" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2017-05-04T05:04:09.613-0400" name="lastPublishExternalDate" /> 
+  <meta content="2019-02-11T20:42:44.316-0500" name="jcr:created" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="reference-adjustment-service" name="cq:lastModifiedBy" /> 
+ </head> 
+ <body> 
+  <p>AEM 6.3 Forms includes several new features and enhancements that streamline the creation, management, and user experiences with forms, documents, and correspondences. It also brings enhancements to Adobe Sign and Forms Workflow and many new features such as Data Integration. To learn about all the new capabilities and enhancements of AEM 6.3 Forms, see <a href="../../../forms/using/whats-new.md">New features summary document</a>.</p> 
+  <p>You can upgrade or migrate from existing LiveCycle or AEM Forms to AEM 6.3 Forms. You can perform a direct upgrade from AEM 6.1 Forms and AEM 6.2 Forms to AEM 6.3 Forms. You can also perform a multi-hop upgrade from various releases of LiveCycle and AEM 6.1 Forms. </p> 
+  <p>You can upgrade your existing AEM Forms server to obtain new capabilities and enhancements offered in AEM 6.3 Forms while retaining existing data, processes, and assets intact. On upgrade, metadata and state of the processes is also preserved. You can choose an upgrade path to get started with upgrade:</p> 
+  <h2>Choose between upgrade and migration</h2> 
+  <p><strong>Upgrade</strong> refers to the process by which an existing AEM Forms server is moved from one version to a newer version. Upgrades are always fully supported and are tested in many configurations before being released. In an upgrade, data on the server is transformed at the database level, and all data, metadata, and state of the processes is preserved. Upgrading to an AEM Forms server involves downtime.</p> 
+  <p><strong>Migration</strong> refers to the process of replaying actions from one system into another fresh installation of AEM Forms. One of the key differences as compared to an upgrade is that a migration involves moving only assets (PDF, XDP, images, adaptive forms, adaptive documents, correspondence management assets) from one server to another - processes (LCA), settings, configurations, and a few other pieces of metadata are not migrated. Migration can be performed with the minimum amount of downtime. Depending on the modules, processes, and assets used, migration can also require a lot of rework.</p> 
+  <h4 id="MigrateWhen">Migrate when</h4> 
+  <ul> 
+   <li>You do not require existing workflows and processes. Migration does not move existing processes (LCAs) to AEM 6.3 Forms.<br /> </li> 
+   <li>You are using AEM Forms on JEE only for document services (PDF Generator, Output, and more) or forms (adaptive forms, HTML5 forms, PDF Forms), then <a href="#main-pars-accordion-container-1460251140">Migrate to AEM 6.3 Forms on OSGi</a>.</li> 
+   <li>You are using AEM Forms on JEE Process Management and the <a href="../../../forms/using/aem-forms-workflow.md" target="_blank">Forms-centric AEM Workflows on OSGi</a> capability suits your requirement.<br /> </li> 
+   <li>You are running short lived processes on AEM Forms on JEE. You have the following choices in the order of recommendation 
+    <ul> 
+     <li>Set up a fresh AEM 6.3 Forms on JEE environment and <a href="#main-pars-accordion-container-1460251140">migrate existing processes (LCAs) or other assets to the fresh environment</a>.<br /> </li> 
+     <li>Install a fresh instance of AEM 6.3 Forms on OSGi, <a href="#main-pars-accordion-container-1460251140">move XDP, and other compatible assets to the new instance, and build services</a>, if necessary.<br /> </li> 
+     <li>Set up a fresh AEM 6.3 Forms on JEE environment and <a href="#main-pars-accordion-container-1460251140" style="outline: 1px dotted; outline-offset: 0px;">migrate existing processes (LCA) or other assets to fresh environment</a>. Migrate to AEM Forms on OSGi at a later stage.<br /> </li> 
+    </ul> </li> 
+  </ul> 
+  <h4>Upgrade when</h4> 
+  <ul> 
+   <li>You are looking to use latest features of AEM 6.3 Forms while keeping everything (processes and assets) available on the previous version intact.<br /> </li> 
+   <li>You are running long lived processes on AEM Forms on JEE.</li> 
+   <li>You are using AEM Form Document Security, <a href="../../../forms/using/wip/upgrade-migrate.md#main-pars-accordion-container-270280220">upgrade to AEM 6.3 Forms on JEE</a>.</li> 
+   <li>You are using <a href="../../../forms/using/aem-forms-workflow.md" target="_blank">advanced feature</a> of AEM Forms on JEE Process Management.</li> 
+  </ul> 
+  <p>You can perform a direct upgrade from AEM 6.1 Forms on JEE and AEM 6.2 Forms on JEE to AEM 6.3 Forms on JEE. You can also perform a multi-hop upgrade from LiveCycle ES2, LiveCycle ES3, LiveCycle ES4, and AEM 6.1 Forms on JEE to AEM 6.3 Forms on JEE. The following diagram displays all the possible upgrade paths:</p> 
+  <img imageRotate="0" src="assets/upgrade-path-2nd.png" /> 
+  <p>If you are performing an intermediate upgrade to one or more versions of LiveCycle or AEM Forms, visit the following documentation pages for corresponding upgrade instructions: </p> 
+  <ul> 
+   <li><a href="/content/help/en/livecycle/topics/installing-upgrading-clustering" target="_blank">Upgrade to LiveCycle ES4 SP1</a></li> 
+   <li><a href="/content/help/en/aem-forms/6-1/upgrade" target="_blank">Upgrade to AEM 6.1 Forms</a></li> 
+   <li><a href="/content/help/en/aem-forms/6-2/upgrade" target="_blank">Upgrade to AEM 6.2 Forms</a></li> 
+  </ul> 
+  <p>You can perform a direct upgrade from AEM 6.1 Forms on OSGi and AEM 6.2 Forms on OSGi to AEM 6.3 Forms on OSGi. You can also perform a multi-hop upgrade from AEM 6.1 Forms on OSGi to AEM 6.3 Forms on OSGi. The following diagram displays all the possible upgrade paths:</p> 
+  <img imageRotate="0" src="assets/upgrade-path-osgi.png" /> 
+  <p>If you are performing an intermediate upgrade to AEM 6.2 Forms on OSGi, visit the following documentation page for corresponding upgrade instructions: </p> 
+  <ul> 
+   <li><a href="/content/help/en/aem-forms/6-2/upgrade" target="_blank">Upgrade to AEM 6.2 Forms</a></li> 
+  </ul>           
+  <p>Direct upgrade from AEM 6.0 Forms to AEM 6.3 Forms is not available. Perform an intermediate <a href="/content/help/en/aem-forms/6-2/upgrade">upgrade to AEM 6.2 Forms</a> and then upgrade from AEM 6.2 Forms to AEM 6.3 Forms. </p> 
+  <p>You can perform a direct upgrade from AEM 6.1 Forms and AEM 6.2 Forms to AEM 6.3 Forms. Perform the following steps to upgrade from AEM 6.1 Forms or AEM 6.2 Forms to AEM 6.3 Forms:</p> 
+  <ol> 
+   <li><p>Upgrade the existing AEM instance to AEM 6.3. The steps are listed below:</p> 
+    <ol> 
+     <li><p>Install the latest service pack and patches for AEM 6.1 Forms. For details, see AEM 6.1 <a href="https://docs.adobe.com/docs/en/aem/6-3/release-notes.html" target="_blank">release notes</a>.</p> </li> 
+     <li><p>Prepare the source instance for the upgrade. For detailed steps, see the <a href="https://docs.adobe.com/docs/en/aem/6-3/deploy/upgrade.html#Preparing%20the%20source%20instance" target="_blank">Upgrading to AEM 6.3</a> article.</p> </li> 
+     <li><p>Download the <a href="https://docs.adobe.com/docs/en/aem/6-3/deploy.html#Getting%20the%20software" target="_blank">AEM 6.3 QuickStart</a>.</p> </li> 
+     <li><p><strong>(Unix/Linux-based installations only)</strong> If you are using UNIX or Linux as the underlying operating system, open the terminal window, navigate to the folder containing crx-quickstart, and run the following command:</p>  </li> 
+     <li><p>Upgrade your AEM 6.1 instance to AEM 6.3. For step by step instructions, see <a href="https://docs.adobe.com/docs/en/aem/6-3/deploy/upgrade.html" target="_blank">Upgrading to AEM 6.3</a>.</p> <p>Before continuing with the next steps, wait until the ServiceEvent REGISTERED and ServiceEvent UNREGISTERED messages stop appearing in the &amp;lt;crx-repository&amp;gt;/error.log file. </p> 
+      <note> 
+       <p>After the server is up and running, a few AEM Forms bundles remain in install state. The number of bundles can vary for every installation. You can safely ignore the state these bundles. The bundles are listed at http://[server]:[port]/system/console/.</p> 
+      </note></li> 
+    </ol></li> 
+   <li><p>Prepare the upgraded AEM instance for AEM 6.3 Forms. </p> 
+    <ol> 
+     <li><p>Copy the [AEM_installation_directory]\crx-repository\archived-versions\[time-stamp]\fonts\fonts directory to [AEM_installation_directory]\crx-repository. </p> </li> 
+     <li><p>Open CRXDE Lite, navigate to /libs/fd/signatures/install, delete the <span class="uicontrol">aemfd-signatures-bootdelegated-libs-pkg</span> package, and click <span class="uicontrol">Save All</span>.</p> </li> 
+     <li><p>Shut down the AEM server.</p> </li> 
+     <li><p>Download AEM Forms add-on package from AEM Package Share. </p> <p>A separate AEM Forms add-on package is available for every supported operating system. For the complete list of the available packages and download links, see the <a href="/content/help/en/aem-forms/kb/aem-forms-releases" target="_blank">AEM Forms Releases</a> article.</p> </li> 
+     <li><p>Extract the downloaded AEM Forms add-on package.</p> <p>Copy the core-common-pkg-&amp;lt;version&amp;gt;.zip file from [extracted-aem-forms-add-on-package]\jcr_root\etc\packages\day\cq60\fd\[adobe-aemds-common-pkg-version.zip]\jcr_root\etc\packages\day\cq60\fd to [AEM-Installation-Directory]\crx-quickstart\install directory</p> </li> 
+     <li><p>AEM Forms requires RSA and BouncyCastle libraries to be installed with AEM Forms add-on package. Perform the following steps to boot delegate these libraries: </p> 
+      <ol> 
+       <li><p>Open the sling.properties at [AEM installation]\crx-quickstart\conf\ for editing. If you use [AEM_installation_directory]\crx-quickstart\bin\start.bat to start AEM, then edit the sling.properties at [AEM_installation_directory]\crx-quickstart\</p> </li> 
+       <li><p>Add the following properties to the sling.properties file:</p> 
+        <codeblock gutter="true" class="syntax js">
+          sling.bootdelegation.class.com.rsa.jsafe.provider.JsafeJCE=com.rsa.*!!discoiqbr!!sling.bootdelegation.class.org.bouncycastle.jce.provider.BouncyCastleProvider=org.bouncycastle.* 
+        </codeblock><p>Save and close the file.</p> </li> 
+      </ol></li> 
+     <li><p>Start the AEM Server.</p> <p>Before continuing with the next steps, wait until the ServiceEvent REGISTERED and ServiceEvent UNREGISTERED messages stop appearing in the &amp;lt;crx-repository&amp;gt;/error.log file. </p> </li> 
+    </ol></li> 
+   <li><p>Install AEM Forms add-on package. The steps are listed below:</p> 
+    <ol> 
+     <li><p>Log in to the AEM server as an administrator and open the package share. The default URL of the package share is http://[server]:[port]/crx/packageshare.</p> </li> 
+     <li><p>In package share, search <strong>AEM 6.3 Forms add-on packages</strong>, click the package applicable to your operating system, and click <strong>Download</strong>. Read and accept the license agreement and click <strong>OK</strong>. The download starts. Once downloaded, the word <strong>Downloaded </strong>appears next to the package.</p> <p>Alternately, you can also use the hyperlinks listed in the <a href="/content/help/en/aem-forms/kb/aem-forms-releases">AEM Forms releases</a> article to manually download a package.</p> </li> 
+     <li><p>After the download is complete, click <strong>Downloaded</strong>. You are redirected to package manager. In the package manager, search the downloaded package, and click <strong>Install</strong>. </p> <p>If you manually download the package using the direct link listed in the <a href="/content/help/en/aem-forms/kb/aem-forms-releases">AEM Forms releases</a> article, then open AEM Package Manager, click <strong>Upload Package</strong>, select the downloaded package, and click upload. After the package is uploaded, click package name, and click <strong>Install.</strong></p> 
+      <note> 
+       <p>After the package is installed, you are prompted to restart the AEM instance. <strong>Do not immediately stop the server.</strong> Before stopping the AEM Forms server, wait until the ServiceEvent REGISTERED and ServiceEvent UNREGISTERED messages stop appearing in the &amp;lt;crx-repository&amp;gt;/error.log file and the log is stable. Also note, the following three packages can remain in the installed state. You can safely ignore the state of these packages:</p> 
+       <ul> 
+        <li>Adobe Correspondence Management Migration</li> 
+        <li>Adobe LiveCycle FormsManager Core</li> 
+        <li>Forms Common Service</li> 
+       </ul> 
+      </note></li> 
+     <li><p>Stop the AEM instance and delete the following files:</p> 
+      <ul> 
+       <li>[AEM_Installation_Directory]\[crx-quickstart]\launchpad\ext\bcmail-jdk15-1.35</li> 
+       <li>[AEM_Installation_Directory]\[crx-quickstart]\launchpad\ext\bcprov-jdk15-1.35</li> 
+      </ul> </li> 
+     <li><p>Start the AEM instance.</p> </li> 
+    </ol></li> 
+   <li><p>Perform post-installation activities.</p> 
+    <ul> 
+     <li> <p>The migration utility makes the adaptive forms and correspondence management assets of earlier versions compatible with AEM 6.3 forms. You can download the utility from AEM package share. For step-by-step information to configure and use the migration utility, see <a href="../../../forms/using/migration-utility.md" target="_blank">migration utility</a> documentation.</p> </li> 
+     <li> <p>If you had Adobe Sign configured in the previous version of AEM Forms, then reconfigure Adobe Sign from AEM Cloud services. For more details, see <a href="../../../forms/using/adobe-sign-integration-adaptive-forms.md" target="_blank">Integrate Adobe Sign with AEM Forms</a>.</p> <p>Moreover, AEM 6.3 Forms release has introduced many new Adobe Sign features. For step-by-step information to use Adobe Sign, see <a href="../../../forms/using/working-with-adobe-sign.md" target="_blank">Using Adobe Sign in an adaptive form</a>.</p> </li> 
+     <li> <p>In AEM 6.3 Forms, traffic variable for source and success event for impression are not available. So, when you upgrade to AEM 6.3 Forms, AEM Forms stops sending data to Adobe Analytics server and analytics reports for adaptive forms and adaptive document are not available. Moreover, AEM 6.3 Forms introduces traffic variable for the version of form analytics and success event for the amount of time spent on a field. So, reconfigure analytics and reports for your AEM Forms environment. For detailed steps, see <a href="../../../forms/using/configure-analytics-forms-documents.md">Configuring analytics and reports</a>.</p> <p>Methods to calculate average fill time for forms and average read time for adaptive documents have changed. So, when you upgrade to AEM 6.3 forms, older data (data from previous AEM Forms release) for these metrics is available only in Adobe Analytics. It is not visible in AEM Forms analytics reports. For these metrics, AEM Forms analytics reports display data which is captured after performing the upgrade.</p> </li> 
+    </ul></li> 
+   <li><p>Verify that the server is upgraded successfully, all the data is also migrated successfully, and it can operate normally.</p> 
+    <ul> 
+     <li><strong>Verify the status of the bundles: </strong>Ensure that all the bundles are in active state.<br /> </li> 
+     <li><strong>Verify replication and reverse replication:</strong> Publish, fill, and submit a few migrated forms. Verify the submitted data also.</li> 
+     <li><strong>Verify access to admin and developer user interfaces:</strong> Log in to AEM instance from an admin account and verify that you have access to the following URLs: 
+      <ul> 
+       <li>http://[server]:[port]/crx/packmgr</li> 
+       <li>http://[server]:[port]/crx/de</li> 
+       <li>http://[server]:[port]/aem/forms.html/content/dam/formsanddocuments<br /> </li> 
+      </ul> </li> 
+    </ul> </li> 
+  </ol> 
+  <p>Direct upgrade from LiveCycle ES2, ES3, ES4, and AEM 6.0 Forms to AEM 6.3 Forms is not available. You can perform an intermediate upgrade to one or more versions of LiveCycle or AEM Forms and then upgrade from AEM 6.3 Forms. For the list of intermediate versions and corresponding upgrade instructions, see <a href="../../../forms/using/wip/upgrade-migrate.md#main-pars-header">Choose an upgrade path</a>.</p> 
+  <p>Perform the following procedure to upgrade an existing version of LiveCycle or AEM Forms on OSGi to AEM 6.3 Forms:</p> 
+  <ol> 
+   <li><p>Download the AEM 6.3 Forms on JEE installer from the <a href="http://licensing.adobe.com/">Adobe Licensing Website (LWS)</a>. You require a valid Maintenance &amp; Support contract to download the installer.</p> </li> 
+   <li><p>Read the <a href="http://www.adobe.com/go/learn_aemfroms_upgrade_checklist_63" target="_blank">Upgrade checklist and planning</a> document to learn about the checks to perform to ensure a successful upgrade.</p> </li> 
+   <li><p>Use the <a href="http://www.adobe.com/go/learn_aemforms_prepareupgrade_63" target="_blank">Prepare to upgrade to AEM Forms</a> to learn and perform the tasks that ensure the upgrade runs correctly with minimal server downtime.</p> </li> 
+   <li><p>Depending on your application server, choose one of the following documents and follow the instructions:</p> 
+    <ul> 
+     <li><a href="http://www.adobe.com/go/learn_aemforms_upgradeJBoss_63" target="_blank">Upgrade to AEM Forms for JBoss</a></li> 
+     <li><a href="http://www.adobe.com/go/learn_aemforms_upgradeWebLogic_63" target="_blank">Upgrade to AEM Forms for WebLogic</a></li> 
+     <li><a href="http://www.adobe.com/go/learn_aemforms_upgradeWebSphere_63" target="_blank">Upgrade to AEM Forms for WebSphere</a></li> 
+     <li><a href="http://www.adobe.com/go/learn_aemforms_upgradeTurnkey_63" target="_blank">Upgrade to AEM Forms using JBoss Turnkey</a></li> 
+    </ul> </li> 
+  </ol> 
+  <p>Download the <a href="https://docs.adobe.com/docs/en/aem/6-3/deploy.html#Getting%20the%20software" target="_blank">AEM 6.3 QuickStart</a>.</p> 
+  <p>Upgrade your AEM 6.2 instance to AEM 6.3. For step by step instructions, see <a href="https://docs.adobe.com/docs/en/aem/6-3/release-notes.html" target="_blank">https://docs-author.corp.adobe.com/content/docs/en/aem/6-3/deploy/upgrade.html</a> </p> 
+  <p><strong>(Unix/Linux-based installations only)</strong> If you are using UNIX or Linux as the underlying operating system, open the terminal window, navigate to the folder containing crx-quickstart, and run the following command:</p> 
+  <p><span class="code">chmod -R 755 ../crx-quickstart</span></p> 
+  <p>[Work in Progress]</p> 
+  <p>Migration involves moving only assets (PDF, XDP, images, adaptive forms, adaptive documents, correspondence management assets) from one server to another - processes (LCA), settings, configurations, and a few other pieces of metadata are not migrated. Perform the following steps to migrate to AEM 6.3 Forms:</p> 
+  <ol> 
+   <li><p>Set up a fresh environment of <a href="http://adobe.com/go/learn_aemforms_documentation_63" target="_blank">AEM 6.3 Forms</a>. </p> </li> 
+   <li><p>Move XDP or other compatible assets to the freshly set instance. For detailed instructions, see <a href="../../../forms/using/import-export-forms-templates.md" target="_blank">Importing and exporting assets to AEM Forms</a>.<a href="../../../forms/using/import-export-forms-templates.md" target="_blank"><br /></a> </p> </li> 
+   <li><p>Build the required services, if any. </p> <p>For example, if you are using AEM Forms on JEE Document Services, changes are required in the code to use document services available in AEM Forms on OSGi.</p> </li> 
+   <li><p>Perform post-installation activities:</p> 
+    <ul> 
+     <li> <p>The migration utility makes the adaptive forms and correspondence management assets of earlier versions compatible with AEM 6.3 forms. You can download the utility from AEM package share. For step-by-step information to configure and use the migration utility, see <a href="../../../forms/using/migration-utility.md" target="_blank">migration utility</a> documentation.</p> </li> 
+     <li> <p>If you had Adobe Sign configured in the previous version of AEM Forms, then reconfigure Adobe Sign from AEM Cloud services. For more details, see <a href="../../../forms/using/adobe-sign-integration-adaptive-forms.md" target="_blank">Integrate Adobe Sign with AEM Forms</a>.</p> <p>Moreover, AEM 6.3 Forms release has introduced many new Adobe Sign features. For step-by-step information to use Adobe Sign, see <a href="../../../forms/using/working-with-adobe-sign.md" target="_blank">Using Adobe Sign in an adaptive form</a>.</p> </li> 
+     <li> <p>In AEM 6.3 Forms, traffic variable for source and success event for impression are not available. So, when you upgrade to AEM 6.3 Forms, AEM Forms stops sending data to Adobe Analytics server and analytics reports for adaptive forms and adaptive document are not available. Moreover, AEM 6.3 Forms introduces traffic variable for the version of form analytics and success event for the amount of time spent on a field. So, reconfigure analytics and reports for your AEM Forms environment. For detailed steps, see <a href="../../../forms/using/configure-analytics-forms-documents.md">Configuring analytics and reports</a>.</p> <p>Methods to calculate average fill time for forms and average read time for adaptive documents have changed. So, when you upgrade to AEM 6.3 forms, older data (data from previous AEM Forms release) for these metrics is available only in Adobe Analytics. It is not visible in AEM Forms analytics reports. For these metrics, AEM Forms analytics reports display data which is captured after performing the upgrade.</p> </li> 
+    </ul></li> 
+  </ol> 
+  <p>[TBD]</p> 
+ </body> 
+</html>

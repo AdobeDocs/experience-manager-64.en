@@ -1,0 +1,129 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="khsingh" name="contentOwner" /> 
+  <meta content="2018-04-03T08:51:59.787-0400" name="publishExternalDate" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2018-04-26T04:35:27.481-0400" name="cq:lastModified" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="Reader extending policy-protected PDF documents using Portable Protection Library" name="jcr:title" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2018-04-26T04:35:27.480-0400" name="locHandOffDate" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="2017-12-01T19:06:01.877-0500" name="jcr:created" /> 
+  <meta content="Reader extensions enable interactive features in Adobe PDF documents through Acrobat Reader. You can use the Portable Protection Library (PPL) to reader extend the DRM protected PDF documents. " name="seoDescription" /> 
+  <meta content="2015-12-11T07:11:47.749-0500" name="lastPublishQADate" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="1052" name="acrolinxWords" /> 
+  <meta content="e85542ff-b293-4572-b8ad-82bd98e722dd" name="jcr:predecessors" /> 
+  <meta content="checked_not_improved" name="acrolinxStatus" /> 
+  <meta content="2015-12-10T13:49:47.638-0500" name="firstPublishQADate" /> 
+  <meta content="2018-04-03T08:52:00.150-0400" name="cq:lastReplicated" /> 
+  <meta content="dc3af393-0d06-4d9f-bd36-b5fedab57bdc" name="jcr:uuid" /> 
+  <meta content="71" name="acrolinxSentences" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2018-04-03T08:51:59.787-0400" name="lastPublishExternalDate" /> 
+  <meta content="2016-04-21T08:45:42.134-0400" name="firstPublishExternalDate" /> 
+  <meta content="https://helpx.stage.adobe.com/aem-forms/6-2/reader-extending-policy-protected-pdf-documents-using-ppl.html" name="publishQAURL" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2016-05-31T06:29:53.550-0400" name="acrolinxDate" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2018-04-03T08:51:59.787-0400" name="topicBrowsingSortDate" /> 
+  <meta content="2015-12-11T07:11:47.749-0500" name="publishQADate" /> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:document_services" name="cq:tags" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/reader-extending-policy-protected-pdf-documents-using-ppl.html" name="publishExternalURL" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/extending_policy_protected_pdf_documents_using_ppl_admin_5e12de0b318c6865_1938_report.xml" name="acrolinxReportURL" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+ </head> 
+ <body> 
+  <p>You must be familiar with concepts of document security, reader extension, and Java Programming language to reader-extend the document security policy-protected PDF documents. </p> 
+  <p>You can use document security to restrict access of specific PDF documents to only authorized users. You can also determine how a recipient can use a protected document. For example, you can specify whether recipients can print, copy, or edit text of a document security policy-protected document. To learn more about document security, see <a href="../../forms/using/admin-help/document-security.md" target="_blank">about document security</a>.</p> 
+  <p>You can use reader extensions to enable interactive features in Adobe PDF document through Acrobat Reader. These interactive features that are normally available only through Adobe Acrobat Professional and Standard. To learn about the interactive features that reader extension can enable, see <a href="../../forms/using/overview-aem-document-services.md">Adobe Experience Manager Forms DocAssurance service</a><strong>.</strong></p> 
+  <p>You can use the portable protection library to apply policies on the document without the need of document traveling over the network. Only security credentials and protection-policy details travel over the network. The actual document never leaves the client and protection-policies are applied locally on the client.</p> 
+  <h2>Reader extending document security policy-protected PDF documents</h2> 
+  <p>The policy-protected documents are encrypted documents. You cannot use standard reader-extension APIs to apply, remove, and retrieve usage rights of a policy-protected PDF documents. Only Reader Extensions service of Portable Protection Library provides APIs to apply, remove, and retrieve usage rights of a document security policy-protected PDF documents. </p> 
+  <h3>Reader Extensions service</h3> 
+  <p>The reader extension service adds usage rights to a policy-protected PDF document, activating features that are not normaly available when a PDF document is opened using Adobe Acrobat Reader. It also has APIs to remove and retrieve usage rights of a policy-protected document.</p> 
+  <p>The Reader Extensions service fully supports PDF documents based on PDF standard 1.6 and later. Apart from Acrobat Reader, third-party users do not require any additional software or plug-ins to use the policy-protected PDF documents.</p> 
+  <p>You can accomplish the following tasks with the Reader Extensions service:</p> 
+  <ul> 
+   <li>Apply usage rights to a policy-protected PDF document.</li> 
+   <li>Remove usage rights of a policy-protected PDF document.</li> 
+   <li>Retrieve usage rights applied to a policy-protected PDF document. </li> 
+  </ul> 
+  <h3>Apply usage rights to a document security policy-protected PDF document</h3> 
+  <p>You can use the <span class="code">applyUsageRights </span>Java API to apply usage rights to policy-protected PDF documents. Usage rights pertain to functionality that is available by default in Acrobat but not in Adobe Reader, such as the ability to add comments to a form or to fill in form fields and save the form. PDF documents that have usage rights applied to them are called rights-enabled documents. A user who opens a rights-enabled document in Adobe Reader can perform operations that are enabled for that specific document.</p> 
+  <p><strong>Syntax:</strong> <span class="code">InputStream applyUsageRights(InputStream inputFile, File certFile, String credentialPassword, UsageRights usageRights)</span></p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td valign="top" width="132"><p><strong>Parameter</strong></p> </td> 
+     <td valign="top" width="492"><p><strong>Description</strong></p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="132"><p>inputFile</p> </td> 
+     <td valign="top" width="492"><p>Specify InputStream that represents the PDF document to which usage rights are to be applied. You can use LiveCycle Rights Management or AEM Forms document security protected documents.</p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="132"><p>certFile</p> </td> 
+     <td valign="top" width="492"><p>Specify File object that represents a .jks file. The .jks file is a keystore file. It points to a certificate that grants usage rights.</p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="132"><p>credentialPassword</p> </td> 
+     <td valign="top" width="492"><p>Specify password of the keystore. </p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="132"><p>usageRights</p> </td> 
+     <td valign="top" width="492"><p>Specifies an object of type <a href="http://help.adobe.com/en_US/livecycle/11.0/ProgramLC/javadoc/com/adobe/livecycle/readerextensions/client/UsageRights.html" target="_blank">UsageRights</a>. The usageRights object represents individual rights that can be applied to a policy-protected PDF document.</p> </td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h3>Retrieve usage rights applied to a policy-protected PDF document. &amp;nbsp;</h3> 
+  <p>You can use the <span class="code">getDocumentUsageRights </span>Java API to retrieve the reader extension usage rights applied to a policy-protected PDF document. By retrieving information about usage rights, you can learn about the features reader extension has enabled for the policy-protected PDF document. </p> 
+  <p><strong>Syntax:</strong> <span class="code">public GetUsageRightsResult getDocumentUsageRights(InputStream inDoc)</span></p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td valign="top" width="132"><p><strong>Parameter</strong></p> </td> 
+     <td valign="top" width="492"><p><strong>Description</strong></p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="132"><p>inDoc</p> </td> 
+     <td valign="top" width="492"><p>Specify InputStream that represents the PDF document from which usage rights are to be retrieved. You can use LiveCycle Rights Management or AEM Forms document security protected documents.</p> </td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h4>Code Sample</h4> 
+  <codeblock gutter="true" class="syntax java">
+    //Create&amp;nbsp;a&amp;nbsp;ServiceClientFactory&amp;nbsp;instance!!discoiqbr!!ServiceClientFactory&amp;nbsp;factory&amp;nbsp;=&amp;nbsp;ServiceClientFactory.createInstance(connectionProps);!!discoiqbr!!//Create&amp;nbsp;a&amp;nbsp;RightsManagementClient&amp;nbsp;object!!discoiqbr!!RightsManagementClient2&amp;nbsp;rmClient2=&amp;nbsp;new&amp;nbsp;RightsManagementClient2(factory);!!discoiqbr!!!!discoiqbr!!!!discoiqbr!!String&amp;nbsp;inputFileName&amp;nbsp;=&amp;nbsp;"C:\\Sample\\protected.pdf";&amp;nbsp;//Input&amp;nbsp;file&amp;nbsp;can&amp;nbsp;be&amp;nbsp;RM&amp;nbsp;protected&amp;nbsp;or&amp;nbsp;unprotected&amp;nbsp;pdf&amp;nbsp;file&amp;nbsp;!!discoiqbr!!File&amp;nbsp;certFile&amp;nbsp;=&amp;nbsp;new&amp;nbsp;File("C:\\Sample\\cert.jks");&amp;nbsp;//RE&amp;nbsp;certificate&amp;nbsp;file!!discoiqbr!!String&amp;nbsp;password&amp;nbsp;=&amp;nbsp;"password";&amp;nbsp;//password&amp;nbsp;for&amp;nbsp;RE&amp;nbsp;certificate!!discoiqbr!!UsageRights&amp;nbsp;usageRights&amp;nbsp;=&amp;nbsp;getUsageRights(true,true,false,false,true,true,false,false,false,false,true);!!discoiqbr!!!!discoiqbr!!//RE&amp;nbsp;rights&amp;nbsp;to&amp;nbsp;be&amp;nbsp;applied&amp;nbsp;on&amp;nbsp;the&amp;nbsp;file&amp;nbsp;:&amp;nbsp;FormFillIn,&amp;nbsp;FormDataImportExport,&amp;nbsp;SubmitStandalone,&amp;nbsp;OnlineForms,&amp;nbsp;DynamicFormField,&amp;nbsp;DynamicFormPages,&amp;nbsp;BarcodeDecoding,&amp;nbsp;DigitalSignatures,&amp;nbsp;Comments,&amp;nbsp;CommentsOnline,&amp;nbsp;EmbeddedFiles!!discoiqbr!!!!discoiqbr!!!!discoiqbr!!InputStream&amp;nbsp;inputFileStream&amp;nbsp;=&amp;nbsp;new&amp;nbsp;FileInputStream(inputFileName);!!discoiqbr!!InputStream&amp;nbsp;output&amp;nbsp;=&amp;nbsp;rmClient2.getRightsManagementReaderExtensionService().applyUsageRights(inputFileStream,&amp;nbsp;certFile,&amp;nbsp;credentialPassword,&amp;nbsp;rights);!!discoiqbr!!!!discoiqbr!!!!discoiqbr!!String&amp;nbsp;outputFileName&amp;nbsp;=&amp;nbsp;"C:\\Sample\\ReAdded.pdf";!!discoiqbr!!//Save&amp;nbsp;the&amp;nbsp;PDF&amp;nbsp;document!!discoiqbr!!File&amp;nbsp;myFile&amp;nbsp;=&amp;nbsp;new&amp;nbsp;File(outputFileName);!!discoiqbr!!FileOutputStream&amp;nbsp;outputStream&amp;nbsp;=&amp;nbsp;new&amp;nbsp;FileOutputStream(myFile);!!discoiqbr!!!!discoiqbr!!!!discoiqbr!!int&amp;nbsp;read&amp;nbsp;=&amp;nbsp;0;!!discoiqbr!!byte[]&amp;nbsp;bytes&amp;nbsp;=&amp;nbsp;new&amp;nbsp;byte[1024];!!discoiqbr!!!!discoiqbr!!!!discoiqbr!!while&amp;nbsp;((read&amp;nbsp;=&amp;nbsp;output.read(bytes))&amp;nbsp;!=&amp;nbsp;-1)&amp;nbsp;{&amp;nbsp;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;outputStream.write(bytes,&amp;nbsp;0,&amp;nbsp;read);!!discoiqbr!!}!!discoiqbr!!!!discoiqbr!!!!discoiqbr!!System.out.println("UsageRights&amp;nbsp;applied&amp;nbsp;successfully&amp;nbsp;to&amp;nbsp;the&amp;nbsp;document.&amp;nbsp;”);!!discoiqbr!!&amp;nbsp;outputStream.close();!!discoiqbr!!inputFileStream.close();!!discoiqbr!!&amp;nbsp;!!discoiqbr!!//Get&amp;nbsp;Usage&amp;nbsp;Rights&amp;nbsp;for&amp;nbsp;the&amp;nbsp;output&amp;nbsp;pdf&amp;nbsp;document&amp;nbsp;!!discoiqbr!!InputStream&amp;nbsp;fileWithRe&amp;nbsp;=&amp;nbsp;new&amp;nbsp;FileInputStream(myFile);!!discoiqbr!!!!discoiqbr!!GetUsageRightsResult&amp;nbsp;usageRights&amp;nbsp;=&amp;nbsp;rmClient2.getRightsManagementReaderExtensionService().getDocumentUsageRights(fileWithRe);!!discoiqbr!!!!discoiqbr!!!!discoiqbr!!UsageRights&amp;nbsp;rights&amp;nbsp;=&amp;nbsp;usageRights.getRights();&amp;nbsp;!!discoiqbr!!String&amp;nbsp;right1&amp;nbsp;=&amp;nbsp;rights1.toString();!!discoiqbr!!System.out.println("RE&amp;nbsp;rights&amp;nbsp;for&amp;nbsp;the&amp;nbsp;file&amp;nbsp;are&amp;nbsp;:\n"+right1);!!discoiqbr!!&amp;nbsp;fileWithRe.close();!!discoiqbr!! 
+  </codeblock> 
+  <h3>Remove usage rights of a policy-protected PDF document</h3> 
+  <p>You can use the <span class="code">removeUsageRights </span>Java API to remove usage rights from a policy-protected document. Removing usage rights from a policy-protected PDF document is necessary to perform other AEM Forms operations on the document. For example, you must digitally sign (or certify) a PDF document before you set usage rights. Therefore, if you want to perform operations on a policy-protected document, you must remove usage rights from the PDF document, perform the other operations, such as digitally signing the document, and then re-apply usage rights to the document.</p> 
+  <p><strong>Syntax:</strong> <span class="code">InputStream removeUsageRights(InputStream inputFile)</span></p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td valign="top" width="132"><p><strong>Parameter</strong></p> </td> 
+     <td valign="top" width="492"><p><strong>Description</strong></p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="132"><p> </p> <p>inputFile</p> </td> 
+     <td valign="top" width="492">Specify InputStream that represents the PDF document from which usage<br /> rights are to be removed. You can use LiveCycle Rights Management or AEM Forms document security protected documents.</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h4>Code Sample</h4> 
+  <codeblock gutter="true" class="syntax java">
+    //Create&amp;nbsp;a&amp;nbsp;ServiceClientFactory&amp;nbsp;instance!!discoiqbr!!ServiceClientFactory&amp;nbsp;factory&amp;nbsp;=&amp;nbsp;ServiceClientFactory.createInstance(connectionProps);!!discoiqbr!!//Create&amp;nbsp;a&amp;nbsp;RightsManagementClient&amp;nbsp;object!!discoiqbr!!RightsManagementClient2&amp;nbsp;rmClient2=&amp;nbsp;new&amp;nbsp;RightsManagementClient2(factory);!!discoiqbr!!!!discoiqbr!!!!discoiqbr!!String&amp;nbsp;inputFileName&amp;nbsp;=&amp;nbsp;"C:\\Sample\\fileWithRe.pdf";&amp;nbsp;//Input&amp;nbsp;file&amp;nbsp;can&amp;nbsp;be&amp;nbsp;RM&amp;nbsp;protected&amp;nbsp;or&amp;nbsp;unprotected&amp;nbsp;pdf&amp;nbsp;file&amp;nbsp;!!discoiqbr!!InputStream&amp;nbsp;inputFileStream&amp;nbsp;=&amp;nbsp;new&amp;nbsp;FileInputStream(inputFileName);!!discoiqbr!!!!discoiqbr!!InputStream&amp;nbsp;fileStream&amp;nbsp;=&amp;nbsp;rmClient2.getRightsManagementReaderExtensionService().removeUsageRights(inputFileStream);!!discoiqbr!!!!discoiqbr!!!!discoiqbr!!String&amp;nbsp;outputFileName&amp;nbsp;=&amp;nbsp;"C:\\Sample\\ReRemoveded.pdf";!!discoiqbr!!//Save&amp;nbsp;the&amp;nbsp;PDF&amp;nbsp;document!!discoiqbr!!File&amp;nbsp;myFile&amp;nbsp;=&amp;nbsp;new&amp;nbsp;File(outputFileName);!!discoiqbr!!FileOutputStream&amp;nbsp;outputStream&amp;nbsp;=&amp;nbsp;new&amp;nbsp;FileOutputStream(myFile);!!discoiqbr!!!!discoiqbr!!!!discoiqbr!!int&amp;nbsp;read&amp;nbsp;=&amp;nbsp;0;!!discoiqbr!!byte[]&amp;nbsp;bytes&amp;nbsp;=&amp;nbsp;new&amp;nbsp;byte[1024];!!discoiqbr!!!!discoiqbr!!!!discoiqbr!!while&amp;nbsp;((read&amp;nbsp;=&amp;nbsp;fileStream.read(bytes))&amp;nbsp;!=&amp;nbsp;-1)&amp;nbsp;{&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;outputStream.write(bytes,&amp;nbsp;0,&amp;nbsp;read);!!discoiqbr!!}!!discoiqbr!!System.out.println("RE&amp;nbsp;rights&amp;nbsp;removed&amp;nbsp;successfully&amp;nbsp;from&amp;nbsp;the&amp;nbsp;document.”);&amp;nbsp;!!discoiqbr!!outputStream.close();!!discoiqbr!!inputFileStream.close();!!discoiqbr!! 
+  </codeblock> 
+ </body> 
+</html>

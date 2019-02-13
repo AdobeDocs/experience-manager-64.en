@@ -1,0 +1,393 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="edad1adc-52dc-45d4-915e-c901c6fbe3a4" name="jcr:predecessors" /> 
+  <meta content="2018-05-24T06:28:47.291-0400" name="lastPublishExternalDate" /> 
+  <meta content="2018-05-24T06:28:47.291-0400" name="topicBrowsingSortDate" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="Replication" name="jcr:title" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="raiman" name="cq:lastModifiedBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;content_type:reference;topic_tags:configuring" name="cq:tags" /> 
+  <meta content="Replication" name="seoTitle" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/replication.html" name="publishExternalURL" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="90d8bc20-6561-47d6-938f-e423c211550a" name="jcr:uuid" /> 
+  <meta content="raiman@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="jsyal" name="cq:lastReplicatedBy" /> 
+  <meta content="audience:deploying" name="primaryAudienceTag" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2018-10-27T23:47:05.093-0400" name="cq:lastReplicated" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2018-04-30T03:29:06.623-0400" name="locHandOffDate" /> 
+  <meta content="User" name="contentOwner" /> 
+  <meta content="2017-10-31T16:17:39.544-0400" name="firstPublishExternalDate" /> 
+  <meta content="2018-05-24T06:28:47.294-0400" name="cq:lastModified" /> 
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" /> 
+  <meta content="/content/docs/en/aem/6-3/deploy/configuring/replication" name="qaNotes" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="2018-05-24T06:28:47.291-0400" name="publishExternalDate" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/deploying/morehelp/configuring;/content/help/en/experience-manager/6-4/sites/deploying/morehelp/configuring" name="moreHelpPaths" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="Learn how to configure and monitor replication agents in AEM." name="seoDescription" /> 
+  <meta content="Replication" name="navTitle" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2017-12-01T19:03:15.144-0500" name="jcr:created" /> 
+ </head> 
+ <body> 
+  <p>Replication agents are central to Adobe Experience Manager (AEM) as the mechanism used to:</p> 
+  <ul> 
+   <li><a href="../../../sites/authoring/using/publishing-pages.md#activatingcontent">Publish (activate)</a> content from an author to a publish environment.</li> 
+   <li>Explicitly flush content from the Dispatcher cache.</li> 
+   <li>Return user input (for example, form input) from the publish environment to the author environment (under control of the author environment).</li> 
+  </ul> 
+  <p>Requests are <a href="../../../sites/deploying/using/osgi-configuration-settings.md#apacheslingjobeventhandler">queued</a> to the appropriate agent for processing.</p> 
+  <note> 
+   <p>User data (users, user groups, and user profiles) are not replicated between author and publish instances.</p> 
+   <p>For multiple publish instances, user data is Sling distributed when <a href="../../../sites/administering/using/sync.md">User Synchronization</a> is enabled.</p> 
+  </note> 
+  <h3>Replicating from Author to Publish</h3> 
+  <p>Replication, to a publish instance or dispatcher, takes place in several steps:</p> 
+  <ul> 
+   <li>the author requests that certain content be published (activated); this can be initiated by a manual request, or by automatic triggers which have been preconfigured.</li> 
+   <li>the request is passed to the appropriate default replication agent; an environment can have several default agents which will always be selected for such actions.</li> 
+   <li>the replication agent "packages" the content and places it in the replication queue.</li> 
+   <li>in the Websites tab the <a href="../../../sites/authoring/using/publishing-pages.md#determiningpagepublicationstatus">colored status indicator</a> is set for the individual pages.</li> 
+   <li>the content is lifted from the queue and transported to the publish environment using the configured protocol; usually this is HTTP.</li> 
+   <li>a servlet in the publish environment receives the request and publishes the received content; the default servlet is <span class="code">http://localhost:4503/bin/receive</span>.<br /> </li> 
+   <li>multiple author and publish environments can be configured.</li> 
+  </ul> 
+  <img imageRotate="0" src="assets/chlimage_1-147.png" /> 
+  <h3>Replicating from Publish to Author</h3> 
+  <p>Some features allow users to enter data on a publish instance.</p> 
+  <p>In some cases, a type of replication known as reverse replication, is needed to return this data to the author environment from where it is redistributed to other publish environments. Due to security considerations, any traffic from the publish to the author environment must be strictly controlled.</p> 
+  <p>Reverse replication uses an agent in the publish environment which references the author environment. This agent places the data into an outbox. This outbox is matched with replication listeners in the author environment. The listeners poll the outboxes to collect any data entered and then distribute it as necessary. This ensures that the author environment controls all traffic.</p> 
+  <p>In other cases, such as for Communities features (for example, forums, blogs, comments, and reviews), the amount of user generated content (UGC) being entered in the publish environment is difficult to efficiently synchronize across AEM instances using replicaiton.</p> 
+  <p>AEM <a href="../../../communities/using/overview.md">Communities</a> never uses replication for UGC. Instead, the deployment for Communities requires a common store for UGC (see <a href="../../../communities/using/working-with-srp.md">Community Content Storage</a>).</p> 
+  <h3>Replication - Out of the Box</h3> 
+  <p>The Geometrixx website that is included in a standard installation of AEM can be used to illustrate replication.<br /> </p> 
+  <p>To follow this example and use the default replication agents you need to <a href="../../../sites/deploying/using/deploy.md">Install AEM</a> with:</p> 
+  <ul> 
+   <li>the author environment on port <span class="code">4502</span></li> 
+   <li>the publish environment on port <span class="code">4503</span></li> 
+  </ul> 
+  <note> 
+   <p>Enabled by default :</p> 
+   <ul> 
+    <li>Agents on author : Default Agent (publish)</li> 
+   </ul> 
+   <p>Effectively disabled by default (as of AEM 6.1) :</p> 
+   <ul> 
+    <li>Agents on author : Reverse Replication Agent (publish_reverse)</li> 
+    <li>Agents on publish : Reverse Replication (outbox)</li> 
+   </ul> 
+   <p>To check the status of either the agent or the queue use the <strong>Tools</strong> console.<br /> See <a href="#monitoringyourreplicationagents">Monitoring your Replication Agents</a>.</p> 
+  </note> 
+  <h4>Replication (Author to Publish)</h4> 
+  <ol> 
+   <li><p>Navigate to the support page on the author environment.<br /> <span class="code">http://localhost:4502/content/geometrixx/en/support.html</span> 
+     <pi /></p> </li> 
+   <li><p>Edit the page to add some new text.</p> </li> 
+   <li><p><strong>Activate Page</strong> to publish the changes.</p> </li> 
+   <li><p>Open the support page on the publish environment:<br /> <span class="code">http://localhost:4503/content/geometrixx/en/support.html</span></p> </li> 
+   <li><p>You can now see the changes that you entered on author.</p> </li> 
+  </ol> 
+  <p>This replication is actioned from the author environment by the:</p> 
+  <ul> 
+   <li><strong>Default Agent (publish)</strong> <br /> This agent replicates content to the default publish instance.<br /> Details of this (configuration and logs) can be accessed from the Tools console of the author environment; or:<br /> <span class="code">http://localhost:4502/etc/replication/agents.author/publish.html</span>.<br /> </li> 
+  </ul>      
+  <h4>Replication Agents - Out of the Box</h4> 
+  <p>The following agents are available in a standard AEM installation:</p> 
+  <ul> 
+   <li><a href="#replicationauthortopublish">Default Agent</a><br /> Used for replicating from author to publish.</li> 
+   <li>Dispatcher Flush<br /> This is used for managing the Dispatcher cache. See <a href="/content/help/en/experience-manager/dispatcher/using/page-invalidate#InvalidatingDispatcherCachefromtheAuthoringEnvironment">Invalidating Dispatcher Cache from the Authoring Environment</a> and <a href="/content/help/en/experience-manager/dispatcher/using/page-invalidate#InvalidatingDispatcherCachefromaPublishingInstance">Invalidating Dispatcher Cache from a Publishing Instance</a> for more information.</li> 
+   <li><a href="#reversereplicationpublishtoauthor">Reverse Replication</a><br /> Used for replicating from publish to author. Reverse replication is not used for Communities features, such as forums, blogs, and comments. It is effectively disabled as the outbox is not enabled. Use of reverse replication would require custom configuration.</li> 
+   <li>Static Agent<br /> This is an "Agent that stores a static representation of a node into the filesystem.".<br /> For example with the default settings, content pages and dam assets are stored under <span class="code">/tmp</span>, either as HTML or the appropriate asset format. See the <span class="code">Settings</span> and <span class="code">Rules</span> tabs for the configuration.<br /> This was requested so that when the page is requested directly from the application server the content can be seen. This is a specialized agent and (probably) will not be required for most instances.<br /> </li> 
+  </ul> 
+  <h2>Replication Agents - Configuration Parameters</h2> 
+  <p>When configuring a replication agent from the Tools console, four tabs are available within the dialog:</p> 
+  <h4>Settings</h4> 
+  <ul> 
+   <li> <p>A unique name for the replication agent.</p> </li> 
+   <li> <p>A description of the purpose this replication agent will serve.</p> </li> 
+   <li> <p>Indicates whether the replication agent is currently enabled.</p> <p>When the agent is <strong>enabled</strong> the queue will be shown as:</p> 
+    <ul> 
+     <li><strong>Active </strong>when items are being processed.</li> 
+     <li><strong>Idle </strong>when the queue is empty.</li> 
+     <li><strong>Blocked </strong>when items are in the queue, but cannot be processed; for example, when the receiving queue is disabled.</li> 
+    </ul> </li> 
+   <li> <p>The type of serialization:</p> 
+    <ul> 
+     <li><strong>Default</strong>: Set if the agent is to be automatically selected.</li> 
+     <li><strong>Dispatcher Flush</strong>: Select this if the agent is to be used for flushing the dispatcher cache.</li> 
+    </ul> </li> 
+   <li> <p>The delay (waiting time in milliseconds) between two retries, should a problem be encountered.</p> <p>Default: <span class="code">60000</span></p> </li> 
+   <li> <p>Depending on the environment, the agent will use this user account to:</p> 
+    <ul> 
+     <li>collect and package the content from the author environment</li> 
+     <li>create and write the content on the publish environment</li> 
+    </ul> <p>Leave this field empty to use the system user account (the account defined in sling as the administrator user; by default this is <span class="code">admin</span>).</p> 
+    <note> 
+     <p>For an agent on the author environment this account <i>must</i> have read access to all paths that you want to have replicated.</p> 
+    </note> 
+    <note> 
+     <p>For an agent on the publish environment this account <i>must</i> have the create/write access required to replicate the content.<br /> </p> 
+    </note> 
+    <note> 
+     <p>This can be used as a mechanism for selecting specific content for replication.</p> 
+    </note></li> 
+   <li> <p>Specifies the level of detail to be used for log messages.</p> 
+    <ul> 
+     <li><span class="code">Error</span>: only errors will be logged</li> 
+     <li><span class="code">Info</span>: errors, warnings and other informational messages will be logged</li> 
+     <li><span class="code">Debug</span>: a high level of detail will be used in the messages, primarily for debug purposes</li> 
+    </ul> <p>Default: <span class="code">Info</span></p> </li> 
+   <li> <p>Indicates whether this agent will be used for reverse replication; returns user input from the publish to author environment.</p> </li> 
+   <li> <p>Selecting this option enables alias or vanity path invalidation requests to Dispatcher. Also, see <a href="../../../sites/deploying/using/replication.md#configuringadispatcherflushagent">Configuring a Dispatcher Flush Agent</a>.</p> </li> 
+  </ul> 
+  <h4>Transport</h4> 
+  <ul> 
+   <li> <p>This specifies the receiving servlet at the target location. In particular, you can specify the hostname (or alias) and context path to the target instance here.</p> <p>For example:</p> 
+    <ul> 
+     <li>A Default Agent may replicate to <span class="code">http://localhost:4503/bin/receive</span></li> 
+     <li>A Dispatcher Flush agent may replicate to <span class="code">http://localhost:8000/dispatcher/invalidate.cache</span></li> 
+    </ul> <p>The protocol specified here (HTTP or HTTPS) will determine the transport method.</p> <p>For Dispatcher Flush agents, the URI property is used only if you use path-based virtualhost entries to differentiate between farms, you use this field to target the farm to invalidate. For example, farm #1 has a virtual host of <span class="code">www.mysite.com/path1/*</span> and farm #2 has a virtual host of <span class="code">www.mysite.com/path2/*</span>. You can use a URL of <span class="code">/path1/invalidate.cache</span> to target the first farm and <span class="code">/path2/invalidate.cache</span> to target the second farm.</p> </li> 
+   <li> <p>User name of the account to be used for accessing the target.</p> </li> 
+   <li> <p>Password for the account to be used for accessing the target.</p> </li> 
+   <li> <p>Domain for NTML authentication.</p> </li> 
+   <li> <p>Host for NTML authentication.</p> </li> 
+   <li> <p>Enable if you want self-certified SSL certificates to be accepted.</p> </li> 
+   <li> <p>Enable if you want expired SSL certificates to be accepted.</p> </li> 
+  </ul> 
+  <h4>Proxy</h4> 
+  <p>The following settings are only needed if a proxy is needed:</p> 
+  <ul> 
+   <li> <p>Hostname of the proxy used for transport.</p> </li> 
+   <li> <p>Port of the proxy.</p> </li> 
+   <li> <p>User name of the account to be used.</p> </li> 
+   <li> <p>Password of the account to be used.</p> </li> 
+   <li> <p>The proxy NTLM domain.</p> </li> 
+   <li> <p>The proxy NTLM domain.</p> </li> 
+  </ul> 
+  <h4>Extended</h4> 
+  <ul> 
+   <li> <p>Here you can define the socket interface to bind to.</p> <p>This sets the local address to be used when creating connections. If this is not set, the default address will be used. This is useful for specifying the interface to use on multi-homed or clustered systems.</p> </li> 
+   <li> <p>The HTTP method to be used.</p> <p>For a Dispatcher Flush agent this is nearly always GET and should not be changed (POST would be another possible value).</p> </li> 
+   <li> <p>These are used for Dispatcher Flush agents and specify elements that must be flushed.</p> <p>For a Dispatcher Flush agent the three standard entries should not need changing:</p> 
+    <ul> 
+     <li><span class="code">CQ-Action:{action}</span></li> 
+     <li><span class="code">CQ-Handle:{path}</span></li> 
+     <li><span class="code">CQ-Path:{path}</span></li> 
+    </ul> <p>These are used, as appropriate, to indicate the action to be used when flushing the handle or path. The sub-parameters are dynamic:</p> 
+    <ul> 
+     <li><span class="code">{action}</span> indicates a replication action<br /> </li> 
+     <li><span class="code">{path}</span> indicates a path</li> 
+    </ul> <p>They are substituted by the path/action relevant to the request and therefore do not need to be "hardcoded":</p> 
+    <note> 
+     <p>If you have installed AEM in a context other than the recommended default context, then you will need to register the context in the HTTP Headers. For example:<br /> <span class="code">CQ-Handle:/&amp;lt;<i>yourContext</i>&amp;gt;{path}</span><br /> </p> 
+    </note></li> 
+   <li> <p>Enable to close the connection after each request.</p> </li> 
+   <li> <p>Timeout (in milliseconds) to be applied when trying to establish a connection.</p> </li> 
+   <li> <p>Timeout (in milliseconds) to be applied when waiting for traffic after a connection has been established.</p> </li> 
+   <li> <p>Version of the protocol; for example <span class="code">1.0</span> for HTTP/1.0.</p> </li> 
+  </ul> 
+  <h4>Triggers</h4> 
+  <p>These settings are used to define triggers for automated replication:</p> 
+  <ul> 
+   <li> <p>If checked, the agent is excluded from default replication; this means it will not be used if a content author issues a replication action.</p> </li> 
+   <li> <p>Here a replication by this agent will be automatically triggered when a page is modified. This is mainly used for Dispatcher Flush agents, but also for reverse replication.</p> </li> 
+   <li> <p>If checked, the agent will automatically replicate any content that is marked for distribution when it is modified.</p> </li> 
+   <li> <p>This will trigger automatic replication (to activate or deactivate a page as appropriate) when the ontimes or offtimes defined for a page occur. This is primarily used for Dispatcher Flush agents.</p> </li> 
+   <li> <p>If checked, the agent will chain replicate whenever receiving replication events.</p> </li> 
+   <li> <p>When checked the agent will not force a replication status update.</p> </li> 
+   <li> <p>When checked the agent will not force versioning of activated pages.</p> </li> 
+  </ul> 
+  <h2>Configuring your Replication Agents</h2> 
+  <p>For information about connecting replication agents to the publish instance using MSSL, see <a href="../../../sites/deploying/using/mssl-replication.md">Replicating Using Mutual SSL</a>.</p> 
+  <h3>Configuring your Replication Agents from the Author Environment</h3> 
+  <p>From the Tools tab in the author environment you can configure replication agents that reside in either the author environment (<strong>Agents on author</strong>) or the publish environment (<strong>Agents on publish</strong>). The following procedures illustrate the configuration of an agent for the author environment, but can be used for both.</p> 
+  <note> 
+   <p>When a dispatcher handles HTTP requests for author or publish instances, the HTTP request from the replication agent must include the PATH header. In addition to the following procedure, you must add the PATH header to the dispatcher list of client headers. (See <a href="/content/help/en/experience-manager/dispatcher/using/dispatcher-configuration#SpecifyingtheHTTPHeaderstoPassThroughclientheaders">/clientheaders (Client Headers)</a>.<a href="/content/help/en/experience-manager/dispatcher/using/dispatcher-configuration#SpecifyingtheHTTPHeaderstoPassThroughclientheaders"></a></p> 
+   <p> </p> 
+  </note> 
+  <ol> 
+   <li><p>Access the <strong>Tools</strong> tab in AEM.</p> </li> 
+   <li><p>Click <strong>Replication</strong> (left pane to open the folder).</p> </li> 
+   <li><p>Double-click <strong>Agents on author</strong> (either the left or the right pane).</p> </li> 
+   <li><p>Click the appropriate agent name (which is a link) to show detailed information on that agent.</p> </li> 
+   <li><p>Click <strong>Edit</strong> to open the configuration dialog:</p> <img imageRotate="0" src="assets/chlimage_1-148.png" /></li> 
+   <li><p>The values provided should be sufficient for a default installation. If you make changes then click <strong>OK</strong> to save them (see <a href="#replicationagentsconfigurationparameters">Replication Agents - Configuration Parameters</a> for more details of the individual parameters).</p> </li> 
+  </ol> 
+  <note> 
+   <p>A standard installation of AEM specifies <span class="code">admin</span> as the user for transport credentials within the default replication agents.</p> 
+   <p>This should be changed to a site-specific replication user account with the privileges to replicate the required path(s).</p> 
+  </note> 
+  <h3>Configuring Reverse Replication</h3> 
+  <p>Reverse replication is used to get user content generated on a publish instance back to an author instance. This is commonly used for features such as surveys and registration forms.</p> 
+  <p>For security reasons, most network topologies do not allow connections <i>from</i> the "Demilitarized Zone" (a subnetwork that exposes the external services to an untrusted network such as the Internet).</p> 
+  <p>As the publish environment is usually in the DMZ, to get content back to the author environment the connection must be initiated from the author instance. This is done with:</p> 
+  <ul> 
+   <li>an <i>outbox</i> in the publish environment where the content is placed.</li> 
+   <li>an agent (publish) in the author environment which periodically polls the outbox for new content.</li> 
+  </ul> 
+  <note> 
+   <p>For AEM <a href="../../../communities/using/overview.md">Communities</a>, replication is not used for user generated content on a publish instance. See <a href="../../../communities/using/working-with-srp.md">Community Content Storage</a>.</p> 
+  </note> 
+  <p>To do this you need:</p> 
+  <p><strong>A reverse replication agent in the author environment</strong> This acts as the active component to collect information from the outbox in the publish environment:</p> 
+  <p>If you want to use reverse replication then ensure that this agent is activated.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-149.png" /> 
+  <p><strong>A reverse replication agent in the publish environment (an outbox)</strong> This is the passive element as it acts as an "outbox". User input is placed here, from where it is collected by the agent in the author environment.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-12.jpeg" /> 
+  <h3>Configuring Replication for Multiple Publish Instances</h3> 
+  <note> 
+   <p>Only content is replicated - user data is not (users, user groups, and user profiles).</p> 
+   <p>To synchronize user data across multiple publish instances, enable <a href="../../../sites/administering/using/sync.md">User Synchronization</a>.</p> 
+  </note> 
+  <p>Upon installation a default agent is already configured for replication of content to a publish instance running on port 4503 of the localhost.</p> 
+  <p>To configure replication of content for an additional publish instance you need to create, and configure, a new replication agent:</p> 
+  <ol> 
+   <li><p>Open the <strong>Tools</strong> tab in AEM.</p> </li> 
+   <li><p>Select <strong>Replication</strong>, then <strong>Agents on author</strong> in the left panel.</p> </li> 
+   <li><p>Select <strong>New...</strong>.</p> </li> 
+   <li><p>Set the <strong>Title</strong> and <strong>Name</strong>, then select <strong>Replication Agent</strong>.</p> </li> 
+   <li><p>Click <strong>Create</strong> to create the new agent.</p> </li> 
+   <li><p>Double-click the new agent item to open the configuration panel.</p> </li> 
+   <li><p>Click <strong>Edit</strong> - the <strong>Agent Settings</strong> dialog will open - the <strong>Serialization Type</strong> is already defined as Default, this must remain so.</p> 
+    <ul> 
+     <li>In the <strong>Settings</strong> tab: 
+      <ul> 
+       <li>Activate <strong>Enabled</strong>.</li> 
+       <li>Enter a <strong>Description</strong>.</li> 
+       <li>Set the <strong>Retry Delay</strong> to <span class="code">60000</span>.</li> 
+       <li>Leave the <strong>Serialization Type</strong> as <span class="code">Default</span>.</li> 
+      </ul> </li> 
+     <li>In the <strong>Transport</strong> tab: 
+      <ul> 
+       <li>Enter the required URI for the new publish instance; for example,<br /> <span class="code">http://localhost:4504/bin/receive</span>.</li> 
+       <li>Enter the site-specific user account used for replication.</li> 
+       <li>You can configure other parameters as required.</li> 
+      </ul> </li> 
+    </ul> </li> 
+   <li><p>Click <strong>OK</strong> to save the settings.</p> </li> 
+  </ol> 
+  <p>You can then test operation by updating, then publishing, a page in the author environment.</p> 
+  <p>The updates will appear on all publish instances that have been configured as above.</p> 
+  <p>If you encounter any problems, you can check the logs on the author instance. Depending on the level of detail required you can also set the <strong>Log Level</strong> to <span class="code">Debug</span> using the <strong>Agent Settings</strong> dialog as above.</p> 
+  <note> 
+   <p>This can be combined with use of the <a href="#agentuserid">Agent User Id</a> to select different content for replicating to the individual publish environments. For each publish environment:<br /> </p> 
+   <ol> 
+    <li>Configure a replication agent for replicating to that publish environment.</li> 
+    <li>Configure a user account; with the access rights required to read the content that will be replicated to that specific publish environment.</li> 
+    <li>Assign the user account as the <strong>Agent User Id</strong> for the replication agent.</li> 
+   </ol> 
+  </note> 
+  <h3>Configuring a Dispatcher Flush agent</h3> 
+  <p>Default agents are included with the installation. However, certain configuration is still needed and the same applies if you are defining a new agent:</p> 
+  <ol> 
+   <li><p>Open the <strong>Tools</strong> tab in AEM.</p> </li> 
+   <li><p>Click <strong>Deployment</strong>.</p> </li> 
+   <li><p>Select <strong>Replication </strong>and then <strong>Agents on publish</strong>.</p> </li> 
+   <li><p>Double-click on the <strong>Dispatcher Flush</strong> item to open the overview.</p> </li> 
+   <li><p>Click <strong>Edit</strong> - the <strong>Agent Settings</strong> dialog will open:</p> 
+    <ul> 
+     <li>In the <strong>Settings</strong> tab: 
+      <ul> 
+       <li>Activate <strong>Enabled</strong>.</li> 
+       <li>Enter a <strong>Description</strong>.</li> 
+       <li>Leave the <strong>Serialization Type</strong> as <span class="code">Dispatcher Flush</span>, or set it as such if creating a new agent.</li> 
+       <li>(optional) Select <strong>Alias update</strong> to enable alias or vanity path invalidation requests to Dispatcher.</li> 
+      </ul> </li> 
+     <li>In the <strong>Transport</strong> tab: 
+      <ul> 
+       <li>Enter the required URI for the new publish instance; for example,<br /> <span class="code">http://localhost:80/dispatcher/invalidate.cache</span>.</li> 
+       <li>Enter the site-specific user account used for replication.</li> 
+       <li>You can configure other parameters as required.</li> 
+      </ul> </li> 
+    </ul> <p>For Dispatcher Flush agents, the URI property is used only if you use path-based virtualhost entries to differentiate between farms, you use this field to target the farm to invalidate. For example, farm #1 has a virtual host of <span class="code">www.mysite.com/path1/*</span> and farm #2 has a virtual host of <span class="code">www.mysite.com/path2/*</span>. You can use a URL of <span class="code">/path1/invalidate.cache</span> to target the first farm and <span class="code">/path2/invalidate.cache</span> to target the second farm.</p> 
+    <note> 
+     <p>If you have installed AEM in a context other than the recommended default context, then you need to configure the <a href="#extended">HTTP Headers</a> in the <strong>Extended</strong> tab.<br /> </p> 
+    </note></li> 
+   <li><p>Click <strong>OK</strong> to save the changes.</p> </li> 
+   <li><p>Return to the <strong>Tools</strong> tab, from here you can <strong>Activate</strong> the <strong>Dispatcher Flush</strong> agent (<strong>Agents on publish</strong>).</p> </li> 
+  </ol> 
+  <p>The <strong>Dispatcher Flush</strong> replication agent is not active on author. You can access the same page in the publish environment by using the equivalent URI; for example, <span class="code">http://localhost:4503/etc/replication/agents.publish/flush.html</span>.</p> 
+  <h3>Controlling Access to Replication Agents</h3> 
+  <p>Access to the pages used to configure the replication agents can be controlled by using user and/or group page permissions on the <span class="code">etc/replication</span> node.</p> 
+  <note> 
+   <p>Setting such permissions will not affect users replicating content (e.g. from the Websites console or sidekick option). The replication framework does not use the "user session" of the current user to access replication agents when replicating pages.<br /> </p> 
+  </note> 
+  <h3>Configuring your Replication Agents from CRXDE Lite</h3> 
+  <p>Various parameters of your replication agents can be configured using CRXDE Lite.</p> 
+  <p>If you navigate to <span class="code">/etc/replication</span> you can see the following three nodes:</p> 
+  <ul> 
+   <li><span class="code">agents.author</span></li> 
+   <li><span class="code">agents.publish</span></li> 
+   <li><span class="code">treeactivation</span></li> 
+  </ul> 
+  <p>The two <span class="code">agents</span> hold configuration information about the appropriate environment, and are only active when that environment is running. For example, <span class="code">agents.publish</span> will only be used in the publish environment. The following screenshot shows the publish agent in the author environment, as included with AEM WCM:</p> 
+  <img imageRotate="0" src="assets/chlimage_1-150.png" /> 
+  <h2>Monitoring your Replication Agents</h2> 
+  <p>To monitor a replication agent:</p> 
+  <ol> 
+   <li><p>Access the <strong>Tools</strong> tab in AEM.</p> </li> 
+   <li><p>Click <strong>Replication</strong>.</p> </li> 
+   <li><p>Double-click the link to agents for the appropriate environment (either the left or the right pane); for example <strong>Agents on author</strong>.</p> <p>The resulting window shows an overview of all your replication agents for the author environment, including their target and status.</p> </li> 
+   <li><p>Click the appropriate agent name (which is a link) to show detailed information on that agent:</p> <img imageRotate="0" src="assets/chlimage_1-13.jpeg" /><p>Here you can:</p> 
+    <ul> 
+     <li>See whether the agent is enabled.</li> 
+     <li>See the target of any replications.</li> 
+     <li>See whether the replication queue is currently active (enabled).</li> 
+     <li>See whether there are any items in the queue.</li> 
+     <li><strong>Refresh</strong> or <strong>Clear</strong> to update the display of queue entries; this helps you see items enter and leave the queue.</li> 
+     <li><strong>View Log</strong> to access the log of any actions by the replication agent.</li> 
+     <li><strong>Test Connection</strong> to the target instance.</li> 
+     <li><strong>Force Retry</strong> on any queue items if required.</li> 
+    </ul> 
+    <note> 
+     <p>Do not use the "Test Connection" link for the Reverse Replication Outbox on a publish instance.</p> 
+     <p>If a replication test is performed for an Outbox queue, any items that are older than the test replication will be re-processed with every reverse replication.<br /> </p> 
+     <p>If such items already exist in a queue, they can be found with the following XPath JCR query and should be removed.<br /> </p> 
+     <p><span class="code">/jcr:root/var/replication/outbox//*[@cq:repActionType='TEST']</span> </p> 
+    </note></li> 
+  </ol> 
+  <h3>Additional Resources</h3> 
+  <p>For details about troubleshooting, you can read the <a href="../../../sites/deploying/using/troubleshoot-rep.md">Troubleshooting Replication</a> page.</p> 
+  <p>For additional information, Adobe has a series of Knowledge Base articles related to replication:</p> 
+  <p><a href="/content/help/en/experience-manager/kb/ReplicationSiblingReordering" title="Follow link">http://helpx.adobe.com/experience-manager/kb/ReplicationSiblingReordering.html</a><br /> <a href="/content/help/en/experience-manager/kb/ReplicationFailureAfterNewIP" title="Follow link">http://helpx.adobe.com/experience-manager/kb/ReplicationFailureAfterNewIP.html</a><br /> <a href="/content/help/en/experience-manager/kb/LimitAccessToReplicationAgents" title="Follow link">http://helpx.adobe.com/experience-manager/kb/LimitAccessToReplicationAgents.html</a><br /> <a href="/content/help/en/experience-manager/kb/PagePermissionsNotReplicatedWithUser" title="Follow link">http://helpx.adobe.com/experience-manager/kb/PagePermissionsNotReplicatedWithUser.html</a><br /> <a href="/content/help/en/experience-manager/kb/HowToUseReverseReplication" title="Follow link">http://helpx.adobe.com/experience-manager/kb/HowToUseReverseReplication.html</a><br /> <a href="/content/help/en/experience-manager/kb/CQ5ReplicateToSpecificAgents" title="Follow link">http://helpx.adobe.com/experience-manager/kb/CQ5ReplicateToSpecificAgents.html</a><br /> <a href="/content/help/en/experience-manager/kb/ReplicationListener" title="Follow link">http://helpx.adobe.com/experience-manager/kb/ReplicationListener.html</a><br /> <a href="/content/help/en/experience-manager/kb/replication-stuck" title="Follow link">http://helpx.adobe.com/experience-manager/kb/replication-stuck.html</a><br /> <a href="/content/help/en/experience-manager/kb/replication-privileges-missing-after-upgrade-to-cq-5-5" title="Follow link">http://helpx.adobe.com/experience-manager/kb/replication-privileges-missing-after-upgrade-to-cq-5-5.html</a><br /> <a href="/content/help/en/experience-manager/kb/CQ53UnableToCreateJobQueueDueToMaxQueues" title="Follow link">http://helpx.adobe.com/experience-manager/kb/CQ53UnableToCreateJobQueueDueToMaxQueues.html</a><br /> <a href="/content/help/en/experience-manager/kb/ACLReplication" title="Follow link">http://helpx.adobe.com/experience-manager/kb/ACLReplication.html</a><br /> <a href="/content/help/en/experience-manager/kb/content-grow-due-reverse-replication" title="Follow link">http://helpx.adobe.com/experience-manager/kb/content-grow-due-reverse-replication.html</a><br /> <a href="/content/help/en/experience-manager/kb/ReplicationAgentUsingAnonUser" title="Follow link">http://helpx.adobe.com/experience-manager/kb/ReplicationAgentUsingAnonUser.html</a></p> 
+  <div style="position: absolute; left: -10000px; width: 9000px; top: 0px;"> 
+   <a class="external-link" rel="nofollow" style="color: rgb(69, 112, 153); text-decoration: none; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px; background-color: rgb(255, 255, 255);" title="Follow link">http://helpx.adobe.com/experience-manager/kb/ReplicationSiblingReordering.html</a> 
+   <br style="color: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 14px; line-height: 20px; background-color: rgb(255, 255, 255);" /> 
+   <a class="external-link" rel="nofollow" style="color: rgb(69, 112, 153); text-decoration: none; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px; background-color: rgb(255, 255, 255);" title="Follow link">http://helpx.adobe.com/experience-manager/kb/ReplicationFailureAfterNewIP.html</a> 
+   <br style="color: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 14px; line-height: 20px; background-color: rgb(255, 255, 255);" /> 
+   <a class="external-link" rel="nofollow" style="color: rgb(69, 112, 153); text-decoration: none; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px; background-color: rgb(255, 255, 255);" title="Follow link">http://helpx.adobe.com/experience-manager/kb/LimitAccessToReplicationAgents.html</a> 
+   <br style="color: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 14px; line-height: 20px; background-color: rgb(255, 255, 255);" /> 
+   <a class="external-link" rel="nofollow" style="color: rgb(69, 112, 153); text-decoration: none; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px; background-color: rgb(255, 255, 255);" title="Follow link">http://helpx.adobe.com/experience-manager/kb/PagePermissionsNotReplicatedWithUser.html</a> 
+   <br style="color: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 14px; line-height: 20px; background-color: rgb(255, 255, 255);" /> 
+   <a class="external-link" rel="nofollow" style="color: rgb(69, 112, 153); text-decoration: none; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px; background-color: rgb(255, 255, 255);" title="Follow link">http://helpx.adobe.com/experience-manager/kb/HowToUseReverseReplication.html</a> 
+   <br style="color: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 14px; line-height: 20px; background-color: rgb(255, 255, 255);" /> 
+   <a class="external-link" rel="nofollow" style="color: rgb(69, 112, 153); text-decoration: none; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px; background-color: rgb(255, 255, 255);" title="Follow link">http://helpx.adobe.com/experience-manager/kb/CQ5ReplicateToSpecificAgents.html</a> 
+   <br style="color: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 14px; line-height: 20px; background-color: rgb(255, 255, 255);" /> 
+   <a class="external-link" rel="nofollow" style="color: rgb(69, 112, 153); text-decoration: none; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px; background-color: rgb(255, 255, 255);" title="Follow link">http://helpx.adobe.com/experience-manager/kb/ReplicationListener.html</a> 
+   <br style="color: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 14px; line-height: 20px; background-color: rgb(255, 255, 255);" /> 
+   <a class="external-link" rel="nofollow" style="color: rgb(69, 112, 153); text-decoration: none; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px; background-color: rgb(255, 255, 255);" title="Follow link">http://helpx.adobe.com/experience-manager/kb/replication-stuck.html</a> 
+   <br style="color: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 14px; line-height: 20px; background-color: rgb(255, 255, 255);" /> 
+   <a class="external-link" rel="nofollow" style="color: rgb(69, 112, 153); text-decoration: none; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px; background-color: rgb(255, 255, 255);" title="Follow link">http://helpx.adobe.com/experience-manager/kb/replication-privileges-missing-after-upgrade-to-cq-5-5.html</a> 
+   <br style="color: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 14px; line-height: 20px; background-color: rgb(255, 255, 255);" /> 
+   <a class="external-link" rel="nofollow" style="color: rgb(69, 112, 153); text-decoration: none; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px; background-color: rgb(255, 255, 255);" title="Follow link">http://helpx.adobe.com/experience-manager/kb/CQ53UnableToCreateJobQueueDueToMaxQueues.html</a> 
+   <br style="color: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 14px; line-height: 20px; background-color: rgb(255, 255, 255);" /> 
+   <a class="external-link" rel="nofollow" style="color: rgb(69, 112, 153); text-decoration: none; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px; background-color: rgb(255, 255, 255);" title="Follow link">http://helpx.adobe.com/experience-manager/kb/ACLReplication.html</a> 
+   <br style="color: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 14px; line-height: 20px; background-color: rgb(255, 255, 255);" /> 
+   <a class="external-link" rel="nofollow" style="color: rgb(69, 112, 153); text-decoration: none; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px; background-color: rgb(255, 255, 255);" title="Follow link">http://helpx.adobe.com/experience-manager/kb/content-grow-due-reverse-replication.html</a> 
+   <br style="color: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 14px; line-height: 20px; background-color: rgb(255, 255, 255);" /> 
+   <a class="external-link" rel="nofollow" style="color: rgb(69, 112, 153); text-decoration: none; font-family: Arial, sans-serif; font-size: 14px; line-height: 20px; background-color: rgb(255, 255, 255);" title="Follow link">http://helpx.adobe.com/experience-manager/kb/ReplicationAgentUsingAnonUser.html</a> 
+  </div> 
+ </body> 
+</html>

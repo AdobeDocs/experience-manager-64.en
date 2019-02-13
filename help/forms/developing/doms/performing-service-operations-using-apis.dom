@@ -1,0 +1,46 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2017-07-12T07:03:39.148-0400" name="lr_lastModified" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2017-10-03T06:48:51.286-0400" name="lastPublishExternalDate" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:operations" name="cq:tags" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="2017-07-12T07:03:00.000-0400" name="sortDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2017-11-21T06:58:42.631-0500" name="cq:lastModified" />
+  <meta content="2017-10-03T06:48:51.286-0400" name="firstPublishExternalDate" />
+  <meta content="admin" name="lr_creator" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="https://helpx.adobe.com/aem-forms/6-3/developing/performing-service-operations-using-apis.html" name="publishExternalURL" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2017-10-03T06:48:51.286-0400" name="publishExternalDate" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" />
+  <meta content="head1_20111213" name="gep_conversion_script_version" />
+  <meta content="khsingh@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="190355a2-f700-4594-8700-dd3b4749a0fa" name="jcr:predecessors" />
+  <meta content="2017-07-12T07:03:00.000-0400" name="topicBrowsingSortDate" />
+  <meta content="Performing Service Operations Using APIs" name="navTitle" />
+  <meta content="admin" name="lr_lastModifiedBy" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="3daf2f38-329c-4d5e-86d5-961631c99094" name="jcr:uuid" />
+  <meta content="admin" name="contentOwner" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="2018-04-03T08:26:02.499-0400" name="cq:lastReplicated" />
+  <meta content="audience:developing" name="primaryAudienceTag" />
+  <meta content="2017-11-22T19:02:09.027-0500" name="jcr:created" />
+  <meta content="AEMForms/6.1/ProgramLC/WS624e3cba99b79e123a3b98a71336a35207f-8000.2" name="cq:gepId" />
+  <meta content="Performing Service Operations Using APIs" name="jcr:title" />
+ </head>
+ <body>
+  <p>Before you start developing client applications by using the AEM Forms APIs, it is recommended that you first read Invoking AEM Forms, which describes the different ways in which to invoke services. (See <a href="/programming-with-aem-forms/service-container#service_container">Service container</a>.)</p>
+  <p>After you become familiar with the different invocation methods, you can learn how to programmatically interact with each service. You can develop a client application in Adobe Flex® Builder™, in a Java development environment, or in an environment such as Microsoft Visual Studio .NET that permits you to use the exposed WSDL for consumption on a native SOAP stack.</p>
+  <p>Each topic includes introductory information (including a step summary section), code walkthroughs, and code examples. The summary of steps explain the required sub-tasks and each sub-task links to a section in the code walkthroughs. All topics have links to Quick Starts, which are full code examples that are designed to help you get started quickly by copying and pasting the code into your project. (See <a href="/programming-with-aem-forms/#java_api_soap_quick_start_code_examples">API Quick Starts (Code Examples)</a>.)</p>
+ </body>
+</html>

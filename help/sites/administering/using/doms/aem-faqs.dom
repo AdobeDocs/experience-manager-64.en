@@ -1,0 +1,122 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="" name="primaryAudienceTag" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/aem-faqs.html" name="publishExternalURL" /> 
+  <meta content="checked_not_improved" name="acrolinxStatus" /> 
+  <meta content="974" name="acrolinxWords" /> 
+  <meta content="asgupta" name="acrolinxLastCheckedBy" /> 
+  <meta content="2019-01-31T16:40:38.948-0500" name="cq:lastModified" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/administering/morehelp/best_practices;/content/help/en/experience-manager/6-4/sites/administering/morehelp/best_practices" name="moreHelpPaths" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2019-01-31T16:40:38.944-0500" name="topicBrowsingSortDate" /> 
+  <meta content="2018-11-19T08:16:47.899-0500" name="locHandOffDate" /> 
+  <meta content="AEM FAQs" name="jcr:title" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/aem_faqs_krs_workflow_28a7cd1f928ceb53_48_report.xml" name="acrolinxReportURL" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2019-01-31T16:40:38.944-0500" name="lastPublishExternalDate" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="en" name="pageCreatedAt" /> 
+  <meta content="AEM 6.4 frequently asked questions" name="seoTitle" /> 
+  <meta content="Use these FAQs to understand, configure, and troubleshoot common workflows or issues in AEM." name="seoDescription" /> 
+  <meta content="jsyal" name="cq:lastModifiedBy" /> 
+  <meta content="2018-03-03T08:01:03.354-0500" name="jcr:created" /> 
+  <meta content="jsyal" name="cq:lastReplicatedBy" /> 
+  <meta content="jsyal" name="contentOwner" /> 
+  <meta content="e26e3407-a7dc-41ea-9fb3-5f3b1a1bbc45" name="jcr:predecessors" /> 
+  <meta content="2019-01-31T16:40:38.962-0500" name="cq:lastReplicated" /> 
+  <meta content="yellow" name="acrolinxPageStatus" /> 
+  <meta content="2019-01-31T16:40:38.944-0500" name="publishExternalDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2018-11-15T14:26:27.951-0500" name="acrolinxDate" /> 
+  <meta content="7d8c485b-03c0-4a0c-ac3f-86e6666e16c8" name="jcr:uuid" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="65" name="acrolinxSentences" /> 
+  <meta content="2018-02-26T15:21:57.272-0500" name="firstPublishExternalDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="jsyal@adobe.com" name="lr_lastReplicatedBy" /> 
+ </head> 
+ <body> 
+  <p>Know the answers to some AEM troubleshooting and configuration issues.</p> 
+  <h2>Sites</h2> 
+  <h4>How do I configure binary-less distribution?</h4> 
+  <p>Binary-less distribution is supported for deployments over a shared data store and involves agents that leverage the Vault-based Distribution package exporter (factory PID: <span class="code">org.apache.sling.distribution.serialization.impl.vlt.VaultDistributionPackageBuilderFactory</span>) package builder.</p> 
+  <p>With binary-less mode enabled, the content packages distributed contain references to binaries rather than the actual binaries.</p> 
+  <h4>How do I enable binary-less distribution?</h4> 
+  <p>To enable binary-less distribution, deploy with a shared blob store.<br /> Check the <span class="code">useBinaryReferences</span> property in the OSGI configuration with the factory PID (<span class="code">org.apache.sling.distribution.serialization.impl.vlt.VaultDistributionPackageBuilderFactory</span><em>)</em> that your agent is using.</p> 
+  <h4>How can I customize the error messages while navigating page hierarchy in AEM sites console?</h4> 
+  <p>Check the Network panel (of Chrome browser) where a personal setup (JS has not been minified).</p> 
+  <p>View the <span class="code">Initiator</span> column to determine what the initiator of a request was. It provides the files and the line numbers from where the AJAX calls are made. Later, you can trace the error handling function and change the error message as per your requirement.</p> 
+  <h4>How to enable permissions while creating Language Copy for Content-Authors in AEM?</h4> 
+  <p>To create language copy feature, content-authors need permissions at <span class="code">/content/projects</span> location.</p> 
+  <p>If one requires the authors to manage projects as well, then the workaround is to add the author to <span class="code">project-administrators</span> group.</p> 
+  <h4>How to change the format while creating Language Copy for a project?</h4> 
+  <p>Create a language root and language copy inside the root, before creating a translation project.</p> 
+  <p>For example,<br /> Create a language root at <span class="code">/content/geometrixx</span> with name as <span class="code">fr_LU</span> (and title as French (Luxembourg)). Subsequently, create language copy of page from the references panel and navigate to <span class="code">Create structure only</span> option in <span class="code">Create &amp; Translate</span>. Finally, create a translation project and then add the language copy to the translation job.</p> 
+  <p>For details, refer to the additional resources below:</p> 
+  <ul> 
+   <li><a href="../../../sites/administering/using/tc-prep.md">Preparing content for translation</a></li> 
+   <li><a href="../../../sites/administering/using/tc-manage.md">Managing translation projects</a></li> 
+  </ul> 
+  <h4>How to audit AEM capabilities such as, login attempts and ACL or permission changes?</h4> 
+  <p>AEM has introduced the ability to log administrative changes for better troubleshooting and audit. By default, the information is logged in the <span class="code">error.log</span> file. To make monitoring easier, it is recommended that they be redirected to a separate log file.<br /> To redirect the output to a separate log file, see <a href="https://chl-author./content/help/en/experience-manager/6-4/sites/administering/using/audit-user-management-operations.html">How to audit user management operations in AEM</a>.</p> 
+  <h4>How to enable SSL by default?</h4> 
+  <p>Adobe Experience Manager (AEM) 6.4 ships with the SSL wizard and offers a User Interface to configure Jetty and Granite Jetty SSL support.</p> 
+  <p>To enable SSL by default, see <a href="https://chl-author.c/content/help/en/experience-manager/6-4/sites/administering/using/ssl-by-default.html">SSL by default</a>.</p> 
+  <h4>What is the recommended architecture when using AEM’s Content Services from a mobile app, ideally React Native?</h4> 
+  <p>The Content Services are based on the Sling Models and the AEM developers must provide a Sling Model pojo for each component that is exported. </p> 
+  <p>To understand how to consume AEM content services from a React application, see <a href="https://helpx.adobe.com/experience-manager/kt/sites/using/content-services-tutorial-use.html">Get Started with AEM Content Services</a> tutorial.</p> 
+  <p>Also, if the developers want to export a tree of components they can also implement the <span class="code">ComponentExporter</span> and <span class="code">ContainerExporter</span> interfaces as well as use the <span class="code">ModelFactory</span> to iterate over the child components and return their model representation. See the resources below:</p> 
+  <p>[1] <a href="https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/blob/master/bundles/core/src/main/java/com/adobe/cq/wcm/core/components/internal/models/v1/PageImpl.java#L245" title="Follow link">Adobe-Marketing-Cloud/aem-core-wcm-components</a></p> 
+  <p>[2] <a href="https://sling.apache.org/documentation/bundles/models.html" title="Follow link">Apache Sling :: Sling Models</a><br /> </p> 
+  <h4>How to disable AEM 6.4 survey pop-up?</h4> 
+  <p>You can opt into usage statistics collection by using either the Touch UI or the Web Console. For detailed instructions, see <a href="../../../sites/deploying/using/opt-in-aggregated-usage-statistics.md">Opting into aggregated usage statistics collection</a>.</p> 
+  <h4>Is there a good resource that highlights the key features for upgrading to AEM 6.4?</h4> 
+  <p>Please refer to <a href="/content/help/en/experience-manager/kt/platform-repository/using/upgrade-aem-article-understand">Understanding Reasons to Upgrade AEM</a> that describes high-level breakdown of key features for customers considering upgrading to the latest version of Adobe Experience Manager.</p> 
+  <h4>How to configure an AEM instance to use the PorterStem filter?</h4> 
+  <p>PorterStem filter applies the Porter Stemming Algorithm for English. The results are similar to using the Snowball Porter Stemmer with the <em>language="English"</em> argument. But this stemmer is coded directly in Java and is not based on Snowball. It does not accept a list of protected words and is only appropriate for English language text.</p> 
+  <p>Oak exposes a set of lucene-provides analyzer configuration elements for use in AEM. To learn how to use filters, please refer to <strong>Apache Oak Analyzers</strong> in <a href="/content/help/en/experience-manager/kt/sites/using/search-tutorial-develop">Simple search implementation guide</a>.<br /> </p> 
+  <h4>How to perform a full re-indexing?</h4> 
+  <p>Re-indexing should always be approached with proper consideration on its impact to AEM's overall performance, and performed during periods of low activity or maintenance windows.</p> 
+  <p>Please refer to the <a href="../../../sites/deploying/using/best-practices-for-queries-and-indexing.md">Best Practices for Queries and Indexing</a> to understand the reasons for re-indexing.</p> 
+  <h4>Do we support minified JS libs in Design Importer?</h4> 
+  <p>You need to change the JS processor default configs property of the Adobe Granite HTML Library Manager to <strong><em>min:gcc</em></strong>. To import the Design Package successfully, it is recommended to include pre-minified 3rd party libraries in our Client-Side Libraries.</p> 
+  <h2>Assets</h2> 
+  <h4>Why the Assets workflow repeats itself while uploading MP4 files (for example, using drag-and-drop method)?</h4> 
+  <p>If the user, uploading the movie files does not have delete permissions under asset node, the delete chunk nodes fail and the upload restarts.</p> 
+  <h4>What is the maximum number of digital assets that can be operated with AEM 6.4 at a time?</h4> 
+  <p>Adobe Experience Manager (AEM) 6.4 currently lets you upload up to 2 GB of assets at a time.</p> 
+  <p>For additional information on maximum number of assets that can be operated with AEM 6.4, see <a href="https://chl-author.c/content/help/en/experience-manager/6-4/assets/using/assets-sizing-guide.html">Assets sizing guide</a>.</p> 
+  <h4>What are the default settings for OOTB configurations while creating Language Copy?</h4> 
+  <p>When creating language copies through classic UI, Assets are not moved under the new language hierarchy but used from the language master.</p> 
+  <p>Whereas, when you create a language copy through Touch UI (<strong>References</strong> -&amp;gt; <strong>Update Language Copy</strong>), a new DAM folder is created under the new language and assets are referenced from there.</p> 
+  <p>This is default setting for OOTB configurations. You can set <strong>Translate Page Assets</strong> = <strong>Do not translate</strong> in Translation configurations.<br /> For AEM 6.4, <strong>Tools</strong> &amp;gt; <strong>Cloud Services</strong> &amp;gt; <strong>Translation Cloud services</strong>.</p> 
+  <h4>How to disable an AEM component causing exponential growth for the AEM SegmentStore (AEM 6.3.1.1)?</h4> 
+  <p>You can disable the OSGi Component Disabler. To use this service, see <a href="https://adobe-consulting-services.github.io/acs-aem-commons/features/osgi-disablers/component-disabler/index.html">OSGi Component Disabler</a>.</p> 
+  <p>As a workaround, you can also manually disable the component either via the UI or via a <span class="code">curl</span> command (example below), after every AEM restart.<br /> </p> 
+  <p><span class="code">curl -u admin:$(pass CQ_Admin) 'http://localhost:4502/system/console/components/com.day.cq.analytics.sitecatalyst.impl.importer.ReportImporter' --data 'action=disable'</span></p> 
+  <h4>How to configure Asset Insights with AEM 6.4 instance?</h4> 
+  <p>To setup and configure Asset Insights for Experience Manager deployed via Adobe Activation (DTM), please refer to <a href="/content/help/en/experience-manager/kt/assets/using/asset-insights-tutorial-setup">Set up Asset Insights with AEM Assets</a>.</p> 
+  <h4>How to customize admin consoles?</h4> 
+  <p>AEM provides various mechanisms to enable you to customize the consoles and the page authoring functionality of your authoring instance. To learn how to create a custom console and customize a default view for a console, please refer to <a href="../../../sites/developing/using/customizing-consoles-touch.md">Customizing the Consoles</a>.</p> 
+  <h4>What is the difference between CoralUI 2 and CoralUI 3-based components?</h4> 
+  <p>A new set of Sling components of Granite UI Foundation is created for Coral3 and is located under <a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/granite-ui/api/jcr_root/libs/granite/ui/components/coral/foundation/server.html">/libs/granite/ui/components/coral/foundation.</a> There is one set for CoralUI 2-based components and one set for CoralUI 3-based components. The new set will not be just a copy-paste of the old set, rather it will be cleaned up (for example streamlining, removing deprecated feature). So it is recommended that a page only use either CoralUI 3-based or CoralUI 2-based set.</p> 
+  <p>To learn more in detail, please refer to <a href="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/granite-ui/api/jcr_root/libs/granite/ui/components/legacy/coral2/migration.html">Migration Guide to CoralUI 3-based</a>.<br /> </p> 
+  <h4>How to customize the search component in AEM Assets?</h4> 
+  <p>To learn about search boost/ranking and further implementation information, please refer to <a href="/content/help/en/experience-manager/kt/sites/using/search-tutorial-develop">Simple search implementation guide</a>.</p> 
+  <p>The Simple search implementation are the materials from the 2017 Summit lab AEM Search Demystified.<br /> </p> 
+  <h4>If a customer buys only Sites license in AEM, do they still have access to Assets?</h4> 
+  <p>No, the customer cannot access Assets (or anything other than Sites). Even though all of Adobe Experience Manager (AEM) On-premises is included in the JAR, the customer is authorized access to only those components in the JAR for which they are licensed in their contract. If they want to explore other components, they can either use the AEM trial program for up to 45 days or can sign a $0 Sales Order that authorizes them to evaluate (no production use) named components such as Assets. </p> 
+  <p>Please refer to the following resources to learn more about AEM On-premise software and Adobe Managed Services:</p> 
+  <ul> 
+   <li><a href="/content/help/en/legal/product-descriptions/adobe-experience-manager-on-premise">Adobe Experience Manager On-premise Software</a><br /> </li> 
+   <li><a href="/content/help/en/legal/product-descriptions/adobe-experience-manager-managed-services">Adobe Experience Manager Managed Services</a><br /> </li> 
+  </ul> 
+ </body> 
+</html>

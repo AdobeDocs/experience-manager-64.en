@@ -1,0 +1,175 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2018-10-27T23:52:56.721-0400" name="topicBrowsingSortDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="/content/docs/en/aem/6-3/author/page-authoring/publishing-pages" name="qaNotes" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="audience:authoring" name="primaryAudienceTag" />
+  <meta content="Chris Bohnert" name="contentOwner" />
+  <meta content="b68a1c92-38a6-492b-8517-71e8369f9c1d" name="jcr:predecessors" />
+  <meta content="Publishing Pages" name="seoTitle" />
+  <meta content="2018-10-27T23:52:56.721-0400" name="publishExternalDate" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/publishing-pages.html" name="publishExternalURL" />
+  <meta content="2018-10-27T23:52:56.721-0400" name="lastPublishExternalDate" />
+  <meta content="jsyal@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-10-27T23:52:56.763-0400" name="cq:lastReplicated" />
+  <meta content="Publishing Pages" name="jcr:title" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" />
+  <meta content="c6db683c-a206-4a96-891c-75f2689ac2a3" name="jcr:uuid" />
+  <meta content="2018-04-19T10:34:17.811-0400" name="locHandOffDate" />
+  <meta content="2017-10-31T16:19:54.067-0400" name="firstPublishExternalDate" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:page-authoring;content_type:reference" name="cq:tags" />
+  <meta content="bohnert" name="cq:lastModifiedBy" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2017-12-05T19:01:39.942-0500" name="jcr:created" />
+  <meta content="jsyal" name="cq:lastReplicatedBy" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="Publishing Pages" name="navTitle" />
+  <meta content="/content/help/en/experience-manager/6-4/sites/authoring/morehelp/page-authoring;/content/help/en/experience-manager/6-4/sites/authoring/morehelp/page-authoring" name="moreHelpPaths" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-10-27T23:52:56.728-0400" name="cq:lastModified" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+ </head>
+ <body>
+  <p>Once you have created and reviewed your content on the author environment, the goal is to <a href="../../../sites/authoring/using/author.md#main-pars-title">make it available on your public website</a> (your publish environment).</p> 
+  <p>This is referred to as publishing a page. When you want to remove a page from the publish environment is referred to as unpublishing. When publishing and unpublishing the page remains available on the author environment for further changes until you delete it.</p> 
+  <p>You can also publish/unpublish a page immediately or at a predefined date/time in the future.<br /> </p> 
+  <note>
+   <p>Certain terms related to publishing can be confused:</p> 
+   <ul> 
+    <li><strong>Publish / Unpublish</strong><br /> These are the primary terms for the actions that make your content publicly available on your publish environment (or not).<br /> </li> 
+    <li><strong>Activate / Deactivate</strong><br /> These terms are synonymous with publish/unpublish.<br /> </li> 
+    <li><strong>Replicate / Replication</strong><br /> These are the technical terms describing the movement of data (e.g. page content, files, code, user comments) from one environment to another such as when publishing or reverse-replicating user comments.</li> 
+   </ul> 
+  </note>
+  <note>
+   <p>If you do not have the required privileges for publishing a specific page:</p> 
+   <ul> 
+    <li>A workflow will be triggered to notify the appropriate person of your request to publish.</li> 
+    <li>This <a href="../../../sites/developing/using/workflows-models.md#main-pars-procedure-6fe6">workflow may have been customized</a> by your development team.</li> 
+    <li>A message will be displayed briefly to notify you that the workflow was triggered.</li> 
+   </ul> 
+  </note>
+  <h2>Publishing Pages</h2>
+  <p>Depending on your location, you can publish:</p> 
+  <ul> 
+   <li><a href="../../../sites/authoring/using/publishing-pages.md#main-pars-title-437b">From the page editor</a></li> 
+   <li><a href="../../../sites/authoring/using/publishing-pages.md#main-pars-title-dd0">From the sites console</a></li> 
+  </ul> 
+  <h3>Publishing from the Editor</h3>
+  <p>If you are editing a page, it can be published directly from the editor.</p> 
+  <ol>
+   <li><p>Select the <strong>Page Information</strong> icon to open the menu and then the <strong>Publish Page</strong> option.</p> <img imageRotate="0" src="assets/screen_shot_2018-03-21at152734.png" /></li>
+   <li><p>Depending on whether the page has references that need publishing:</p> 
+    <ul> 
+     <li>The page will be published directly if there are no references to be published.<br /> </li> 
+     <li>If the page has references that need publishing, these will be listed in the <strong>Publish</strong> wizard, where you can either:
+      <ul> 
+       <li>Specify which of the assets/tags/etc. you want to publish together with the page, then use <strong>Publish</strong> to complete the process.<br /> </li> 
+       <li>Use <strong>Cancel</strong> to abort the action.</li> 
+      </ul> </li> 
+    </ul> <img imageRotate="0" src="assets/chlimage_1-50.png" /></li>
+   <li><p>Selecting <strong>Publish</strong> will replicate the page to the publish environment. In the page editor an information banner will be shown confirming the publish action.</p> <img imageRotate="0" src="assets/screen_shot_2018-03-21at152840.png" /><p>When viewing the same page in the console, the updated publication status is visible.</p> <img imageRotate="0" src="assets/screen_shot_2018-03-21at152951.png" /></li>
+  </ol>
+  <note>
+   <p>Publishing from the editor is a shallow publish, i.e. only the selected page/pages is/are published and any child pages are not.</p> 
+  </note>
+  <h3>Publishing from the Console</h3>
+  <p>In the sites console there are two options for publishing:</p> 
+  <ul> 
+   <li><a href="../../../sites/authoring/using/publishing-pages.md#main-pars-title-6876">Quick Publish</a></li> 
+   <li><a href="../../../sites/authoring/using/publishing-pages.md#main-pars-title-cd34">Manage Publication</a></li> 
+  </ul> 
+  <h4>Quick Publish</h4>
+  <p><strong>Quick Publish</strong> is for simple cases and publishes the selected page(s) immediately without any further interaction. Because of this, any non-published references will also be published automatically.</p> 
+  <p>To publish a page with Quick Publish:</p> 
+  <ol>
+   <li><p>Select the page or pages in the sites console and click on the <strong>Quick Publish</strong> button.</p> <img imageRotate="0" src="assets/screen_shot_2018-03-21at153115.png" /></li>
+   <li><p>In the Quick Publish dialogue, confirm the publication by clicking on <strong>Publish</strong> or cancel by clicking on <strong>Cancel</strong>. Remember that any unpublished references will automatically be published as well.</p> <img imageRotate="0" src="assets/chlimage_1-51.png" /></li>
+   <li><p>When the page is published an alert is shown confirming the publication.</p> </li>
+  </ol>
+  <note>
+   <p>Quick Publish is a shallow publish, i.e. only the selected page/pages is/are published and any child pages are not.</p> 
+  </note>
+  <h4>Manage Publication</h4>
+  <p><strong>Manage Publication</strong> offers more options than Quick Publish, allowing for the inclusion of child pages, customization of the references, and starting any applicable workflows as well as offering the option to publish at a later date.</p> 
+  <p>To publish or unpublish a page using Manage Publication:</p> 
+  <ol>
+   <li><p>Select the page or pages in the sites console and click on the <strong>Manage Publication</strong> button.</p> <img imageRotate="0" src="assets/screen_shot_2018-03-21at153309.png" /></li>
+   <li><p>The <strong>Manage Publication</strong> wizard starts. The first step, <strong>Options</strong>, allows you to:</p> 
+    <ul> 
+     <li>Choose to publish or unpublish the selected pages.</li> 
+     <li>Choose to take that action now or at a later date.</li> 
+    </ul> <p>Publishing later starts a workflow to publish the selected page or pages at the specified time. Conversely, unpublishing later starts a workflow to unpublish the selected page or pages at a specific time.</p> <p>If you want to cancel a publish/unpublish later, go to the <a href="../../../sites/administering/using/workflows.md">Workflow Console</a> to terminate the corresponding workflow.</p> <img imageRotate="0" src="assets/chlimage_1-52.png" /><p>Click <strong>Next</strong> to continue.</p> </li>
+   <li><p>In the next step of the Manage Publication wizard, <strong>Scope</strong>, you can define the scope of the publication/unpublication such as including to include child pages and/or including references.</p> <img imageRotate="0" src="assets/screen_shot_2018-03-21at153354.png" /><p>You can use the <strong>Add Content</strong> button to add additional pages to the list of pages to be published in case you neglected to select one before starting the Manage Publication wizard.</p> <p>Clicking the Add Content button starts the <a href="../../../sites/authoring/using/author-environment-tools.md#main-pars-title-b097">path browser</a> to allow content selection.</p> <p>Select the required pages and then click <strong>Select</strong> to add the content to the wizard or <strong>Cancel </strong>to cancel the selection and return to the wizard.</p> <p>Back in the wizard, you can select an item in the list to configure its further options such as:</p> 
+    <ul> 
+     <li>Include its children.</li> 
+     <li>Remove it from the selection.</li> 
+     <li>Manage its published references.</li> 
+    </ul> <img imageRotate="0" src="assets/screen_shot_2018-03-21at153450.png" /><p>Clicking <strong>Include Children</strong> opens a dialogue allowing you to:</p> 
+    <ul> 
+     <li>Include only immediate children.</li> 
+     <li>Include only modified pages.</li> 
+     <li>Include only already published pages.</li> 
+    </ul> <p>Click <strong>Add</strong> to add the children pages to the list of pages to be published or unpublished based on the selection options. Click <strong>Cancel</strong> to cancel the selection and return to the wizard.</p> <img imageRotate="0" src="assets/chlimage_1-53.png" /><p>Returning to the wizard you see the pages added based on your choice of options in the Include Children dialogue.</p> <p>You can view and modify the references to be published or unpublished for a page by selecting it and then clicking the <strong>Published References</strong> button.</p> <img imageRotate="0" src="assets/screen_shot_2018-03-21at153801.png" /><p>The <strong>Published References</strong> dialogue displayes the references for the selected content. By default they are all selected and will be published/unpublished, but you can uncheck to deslect them so that they are not included in the action.</p> <p>Click <strong>Done</strong> to save your changes or <strong>Cancel</strong> to cancel the selction and return to the wizard.</p> <img imageRotate="0" src="assets/screen_shot_2018-03-21at153824.png" /><p>Back in the wizard, the <strong>References</strong> column will be updated to reflect your selection of references to be published or unpublished.</p> <img imageRotate="0" src="assets/screen_shot_2018-03-21at153925.png" /></li>
+   <li><p>Click <strong>Publish</strong> to complete.</p> <p>Back in the sites console a notification message will confirm the publication.</p> <img imageRotate="0" src="assets/screen_shot_2018-03-21at153951.png" /></li>
+   <li><p>If the published pages are associated with workflows, they may be shown in a final <strong>Workflows</strong> step of the publication wizard.</p> 
+    <note>
+     <p>The <strong>Workflows</strong> step will be shown based on what rights your user may or may not have. See the <a href="../../../sites/authoring/using/publishing-pages.md#main-pars-note-0-ejsjqg-refd">previous note on this page</a> regarding publishing privileges as well as <a href="../../../sites/administering/using/workflows-managing.md">Managing Access to Workflows</a> and <a href="../../../sites/authoring/using/workflows-applying.md#main-pars-text-5-bvhbkh-refd">Applying Workflows to Pages</a> for details.</p> 
+    </note><p>The resources are grouped by the workflows triggered and each given options to:</p> 
+    <ul> 
+     <li>Define the title of the workflow.</li> 
+     <li>Keep the workflow package, provided that the workflow has <a href="../../../sites/developing/using/workflows-models.md#main-pars-title-8277">multi-resourse support</a>.</li> 
+     <li>Define a title of the workflow package if the option to keep the workflow package was chosen.</li> 
+    </ul> <p>Click <strong>Publish</strong> or <strong>Publish Later </strong>to complete the publication.</p> <img imageRotate="0" src="assets/chlimage_1-54.png" /></li>
+  </ol>
+  <h2>Unpublishing Pages</h2>
+  <p>Unpublishing a page will remove it from your publish environment so that it is no longer available to your readers.</p> 
+  <p>In a <a href="../../../sites/authoring/using/publishing-pages.md#main-pars-title-4880">manner similar to publishing</a>, one or more pages can be unpublished:</p> 
+  <ul> 
+   <li><a href="../../../sites/authoring/using/publishing-pages.md#main-pars-title-51b2">From the page editor</a></li> 
+   <li><a href="../../../sites/authoring/using/publishing-pages.md#main-pars-title-a582">From the sites console</a></li> 
+  </ul> 
+  <h3>Unpublishing from the Editor</h3>
+  <p>When editing a page, if you wish to unpublish that page, select <strong>Unpublish Page</strong> in the <strong>Page Information</strong> menu, much as you would <a href="../../../sites/authoring/using/publishing-pages.md#main-pars-title-437b">publish the page</a>.</p> 
+  <h3>Unpublishing from the Console</h3>
+  <p>Just as you <a href="../../../sites/authoring/using/publishing-pages.md#main-pars-title-cd34">use the Manage Publication option to publish</a>, you can also use it to unpublish.</p> 
+  <ol>
+   <li><p>Select the page or pages in the sites console and click on the <strong>Manage Publication</strong> button.</p> </li>
+   <li><p>The <strong>Manage Publication</strong> wizard starts. In the first step, <strong>Options</strong>, select to <strong>Unpublish</strong> instead of the default option of <strong>Publish</strong>.</p> <img imageRotate="0" src="assets/chlimage_1-55.png" /><p>Just as publishing later starts a workflow to publish this version of the page at the specified time, deactivating later starts a workflow to unpublish the selected page or pages at a specific time.</p> <p>If you want to cancel a publish/unpublish later, go to the <a href="../../../sites/administering/using/workflows.md">Workflow Console</a> to terminate the corresponding workflow.</p> </li>
+   <li><p>To complete the unpublication, continue through the wizard as you would to <a href="../../../sites/authoring/using/publishing-pages.md#main-pars-title-cd34">publish the page</a>.</p> </li>
+  </ol>
+  <h2>Publishing and Unpublishing a Tree</h2>
+  <p>When you have entered or updated a considerable number of content pages - all of which are resident under the same root page - it can be easier to publish the entire tree in one action.</p> 
+  <p>You can use the <a href="../../../sites/authoring/using/publishing-pages.md#main-pars-title-cd34">Manage Publication</a> option on the sites console to do this.</p> 
+  <ol>
+   <li><p>In the sites console, select the root page of the tree you wish to publish or unpublish and select <strong>Manage Publication</strong>.</p> </li>
+   <li><p>The <strong>Manage Publication</strong> wizard starts. Choose to publish or unpublish and when it should occur and select <strong>Next</strong> to continue.</p> </li>
+   <li><p>In the <strong>Scope</strong> step, select the root page and select <strong>Include Children</strong>.</p> <img imageRotate="0" src="assets/chlimage_1-56.png" /></li>
+   <li><p>In the <strong>Include Children</strong> dialogue, uncheck the options:</p> 
+    <ul> 
+     <li>Include only immediate children</li> 
+     <li>Include only already published pages</li> 
+    </ul> <p>These options are selected by default, so you must remember to unselect them. Click <strong>Add</strong> to confirm and add the content to the publication/unpublication.</p> <img imageRotate="0" src="assets/chlimage_1-57.png" /></li>
+   <li><p>The <strong>Manage Publication</strong> wizard lists the content of the tree for review. You can further customize the selection by adding additional pages or removing those selected.</p> <img imageRotate="0" src="assets/screen_shot_2018-03-21at154237.png" /><p>Remember that you can also review the references to be published via the <strong>Published References</strong> option.</p> </li>
+   <li><p><a href="#main-pars-title-cd34">Continue the Manage Publication wizard as normal</a> to complete the publication or unpublication of the tree.</p> </li>
+  </ol>
+  <h2>Determining Publication Status</h2>
+  <p>You can detemine the publication status of a page:</p> 
+  <ul>
+   <li><p>In the <a href="../../../sites/authoring/using/basic-handling.md#main-pars-title-14">resource overview information on the sites console</a></p> <img imageRotate="0" src="assets/screen_shot_2018-03-21at154336.png" /><p>The publication status is shown in <a href="../../../sites/authoring/using/basic-handling.md#main-pars-title-734737884">card</a>, <a href="../../../sites/authoring/using/basic-handling.md#main-pars-title-1571169225">column</a>, and <a href="../../../sites/authoring/using/basic-handling.md#main-pars-title-859848004">list</a> views in the sites console.</p> </li>
+   <li><p>In the <a href="../../../sites/authoring/using/basic-handling.md#main-pars-title-281465694">timeline</a></p> <img imageRotate="0" src="assets/screen_shot_2018-03-21at154420.png" /></li>
+   <li><p>In the <a href="../../../sites/authoring/using/author-environment-tools.md#main-pars-title-21">Page Information menu</a> when editing a page</p> <img imageRotate="0" src="assets/screen_shot_2018-03-21at154456.png" /></li>
+  </ul>
+ </body>
+</html>

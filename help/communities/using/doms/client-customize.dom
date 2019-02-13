@@ -1,0 +1,194 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="Client-side Customization" name="seoTitle" /> 
+  <meta content="2018-04-03T07:33:29.394-0400" name="topicBrowsingSortDate" /> 
+  <meta content="2018-05-17T05:50:40.797-0400" name="cq:lastModified" /> 
+  <meta content="Client-side Customization" name="jcr:title" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2018-04-03T07:33:31.817-0400" name="cq:lastReplicated" /> 
+  <meta content="2018-04-03T07:33:29.394-0400" name="publishExternalDate" /> 
+  <meta content="/content/docs/en/aem/6-3/develop/communities/scf/client-customize" name="qaNotes" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2018-04-03T07:33:29.394-0400" name="lastPublishExternalDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES;topic_tags:developing;content_type:reference" name="cq:tags" /> 
+  <meta content="Client-side Customization" name="navTitle" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="2017-10-31T16:33:56.658-0400" name="firstPublishExternalDate" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="2018-05-17T05:50:40.796-0400" name="locHandOffDate" /> 
+  <meta content="2017-12-01T19:03:02.516-0500" name="jcr:created" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="Customizing behavior or appearance client-side in AEM Communities" name="seoDescription" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="c58dcf71-8962-46d3-bf4f-8807f3c4ad8b" name="jcr:uuid" /> 
+  <meta content="Guillaume Carlino" name="contentOwner" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="2364e637-0c38-42a0-a3ea-319da55d4fd3" name="jcr:predecessors" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/communities/using/client-customize.html" name="publishExternalURL" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES" name="primaryProductTag" /> 
+ </head> 
+ <body> 
+  <table border="0" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td style="text-align: left;"><strong><a href="../../communities/using/essentials.md">⇐ Feature Essentials</a></strong></td> 
+     <td style="text-align: right;"><strong><a href="../../communities/using/server-customize.md">Server-side Customization ⇒</a></strong></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;"> </td> 
+     <td style="text-align: right;"><strong><a href="../../communities/using/handlebars-helpers.md">SCF Handlebars Helpers ⇒</a></strong></td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <p> </p> 
+  <p>To customize the appearance and/or behavior of an AEM Communities component on the client-side, there are several approaches.</p> 
+  <p>Two major approaches are to overlay or extend a component.</p> 
+  <p><a href="#overlays">Overlaying</a> a component changes the default component and affects every reference to the component.</p> 
+  <p><a href="#extensions">Extending</a> a component, being uniquely named, limits the scope of changes. The term 'extend' is used interchangeably with 'override'.</p> 
+  <h3>Overlays</h3> 
+  <p>Overlaying a component is a method of making modifications to a default component and affecting all instances which use the default.</p> 
+  <p>The overlay is accomplished by modifying a copy of the default component in the /<strong>apps </strong>directory, rather than modifying the original component in the /<strong>libs</strong> directory. The component is constructed with an identical relative path, except 'libs' is replaced with 'apps'. </p> 
+  <p>The /apps directory is the first place searched to resolve requests, and if not found, the default version located in the/libs directory is used. </p> 
+  <p>The default component in the /libs directory must never be modified as future patches and upgrades are free to alter the /libs directory in any manner necessary while maintaining public interfaces.</p> 
+  <p>This is different from <a href="#extensions">extending</a> a default component where the desire is to make modifications for a specific use, creating an unique path to the component and relying on referencing the original default component in the /libs directory as the super resource type.</p> 
+  <p>For a quick example of overlaying the comments component, try the <a href="../../communities/using/overlay-comments.md">Overlay Comments Component tutorial</a>.</p> 
+  <h3>Extensions</h3> 
+  <p>Extending (overriding) a component is a method of making modifications for a specific use without affecting all instances which use the default. The extended component is uniquely named in the /apps folder and references the default component in the /libs folder, thus a component's default design and behavior are not modified.</p> 
+  <p>This is different from <a href="#overlays">overlaying</a> the default component where the nature of Sling resolves relative references to the apps/ folder before searching in the libs/ folder, thus a component's design or behavior is modified globally.</p> 
+  <p>For a quick example of extending the comments component, try the <a href="../../communities/using/extend-comments.md">Extend Comments Component tutorial</a>.</p> 
+  <h3>Javascript Binding</h3> 
+  <p>The HBS script for the component must be bound to the JavaScript objects, models and views, which implement this feature.</p> 
+  <p>The value of the <span class="code">data-scf-component</span> attribute may be the default, such as <strong><span class="code">social/tally/components/hbs/rating</span></strong>, or an extended (customized) component for customized functionality, such as <strong>weretail/components/hbs/rating</strong>.</p> 
+  <p>To bind a component, the entire component script must be enclosed within a &amp;lt;div&amp;gt; element with the following attributes:</p> 
+  <ul> 
+   <li><span class="code">data-component-id</span>="{{id}}"<br /> resolves to the id property from the context</li> 
+   <li><span class="code">data-scf-component</span>="<i>&amp;lt;resourceType&amp;gt;</i> 
+    <resourcetype>
+      " 
+     <br /> the sling:resourceType identifying the Javascript used to render the content 
+    </resourcetype></li> 
+  </ul> 
+  <p>For example, from <span class="code">/apps/weretail/components/hbs/rating/rating.hbs</span> : </p> 
+  <codeblock class="syntax xml">
+    &lt;div&amp;nbsp;class="we-Rating"&amp;nbsp;data-component-id="{{id}}"&amp;nbsp;data-scf-component="weretail/components/hbs/rating"&gt;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;!--&amp;nbsp;HTML&amp;nbsp;with&amp;nbsp;HBS&amp;nbsp;accessing&amp;nbsp;the&amp;nbsp;rating&amp;nbsp;component&amp;nbsp;--&gt;!!discoiqbr!!!!discoiqbr!!&lt;/div&gt; 
+  </codeblock> 
+  <h3>Custom Properties</h3> 
+  <p>When extending or overlaying a component, it is possible to add properties to a modified dialog.</p> 
+  <p>All properties set on a component/resource can be accessed by referencing the property keys in the handlebars template:</p> 
+  <p style="margin-left: 40px;"><span class="code">{{properties.&amp;lt;property_name&amp;gt;}}</span></p> 
+  <h3>Skinning CSS</h3> 
+  <p>Customizing components to match the overall theme of the website can be achieved by 'skinning' - changing colors, fonts, images, buttons, links, spacing and even positioning to a certain extent.</p> 
+  <p>Skinning can be achieved by selectively overriding the framework styles or by writing entirely new style sheets. The SCF components define namespaced, modular and semantic CSS classes that affect the various elements that make up a component.</p> 
+  <p>To skin a component:</p> 
+  <ol> 
+   <li>Identify the elements that you want to change (example - composer area, toolbar buttons, message font, etc).</li> 
+   <li>Identify the CSS class/rules that affect these elements.</li> 
+   <li>Create a stylesheet file (.css).</li> 
+   <li>Include the stylesheet in a client library folder (<a href="#clientlibsforscf">clientlibs</a>) for your site and make sure it is included from your templates and pages with <a href="../../sites/developing/using/clientlibs.md">ui:includeClientLib</a>.</li> 
+   <li>Redefine the CSS classes and rules that you have identified (#2) in your style sheet and add styles.</li> 
+  </ol> 
+  <p>The custom styles will now override the default framework styles and the component will be rendered with the new skin.</p> 
+  <note> 
+   <p>Any CSS class name that is prefixed with<strong> scf-js-*</strong>has a specific use in javascript code. These classes affect the state of a component (for example, toggle from hidden to visible) and should neither be overriden nor removed.</p> 
+   <p>While the scf-js-* classes do not affect styles, the class names may be used in stylesheets with the caveat that, as they control the states of elements, there may be side effects.</p> 
+  </note> 
+  <h3>Extending Javascript</h3> 
+  <p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">To extend a components Javascript implementation, you need only</p> 
+  <ol style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;"> 
+   <li>create a component for you app with a jcr:resourceSuperType set to the value of the extended component's jcr:resourceType, e.g. social/forum/components/hbs/forum</li> 
+   <li>examine the default SCF component's Javascript to determine what methods need to be registered using SCF.registerComponent()</li> 
+   <li>either copy the extended component's Javascript or start from scratch</li> 
+   <li>extend the method<br /> </li> 
+   <li>use SCF.registerComponent() to register all methods with either the defaults or the customized objects and views.</li> 
+  </ol> 
+  <h4>forum.js : Sample Extension of Forum - HBS </h4> 
+  <codeblock gutter="true" class="syntax xml">
+    (function($CQ,&amp;nbsp;_,&amp;nbsp;Backbone,&amp;nbsp;SCF)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"use&amp;nbsp;strict";!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;var&amp;nbsp;GMForumView&amp;nbsp;=&amp;nbsp;SCF.ForumView.extend({!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;viewName:&amp;nbsp;"GMForum",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;showComposer:&amp;nbsp;function(e)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SCF.ForumView.prototype.toggleComposer.apply(this);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;var&amp;nbsp;cancel&amp;nbsp;=&amp;nbsp;this.$el.find('.cancel-new-topic');!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;cancel.toggle();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;},!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;hideComposer:&amp;nbsp;function(e)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SCF.ForumView.prototype.toggleComposer.apply(this);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;var&amp;nbsp;cancel&amp;nbsp;=&amp;nbsp;this.$el.find('.cancel-new-topic');!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;cancel.toggle();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;});!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SCF.registerComponent('social/forum/components/hbs/post',&amp;nbsp;SCF.Post,&amp;nbsp;SCF.PostView);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SCF.registerComponent('social/forum/components/hbs/topic',&amp;nbsp;SCF.Topic,&amp;nbsp;SCF.TopicView);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;SCF.registerComponent('social/forum/components/hbs/forum',&amp;nbsp;SCF.Forum,&amp;nbsp;GMForumView&amp;nbsp;);!!discoiqbr!!})($CQ,&amp;nbsp;_,&amp;nbsp;Backbone,&amp;nbsp;SCF); 
+  </codeblock> 
+  <h3>Script Tags</h3> 
+  <p>Script tags are an inherent part of the client side framework. They are the glue that helps bind the markup generated on the server side with the models and views on the client side. </p> 
+  <p>Script tags in SCF scripts should not be removed when overlaying or overriding components. SCF script tags auto created for injecting JSON in the HTML are identified with the attribute <span class="code">data-scf-json=</span>true.</p> 
+  <h3>Clientlibs for SCF</h3> 
+  <p>The use of <a href="../../sites/developing/using/clientlibs.md">client-side libraries</a> (clientlibs), provides a means of organizing and optimizing the Javascript and CSS used to render content on the client.</p> 
+  <p>The clientlibs for SCF follow a very specific naming pattern for two variants, which vary only by the presence of 'author' in the category name:</p> 
+  <table width="100%"> 
+   <tbody> 
+    <tr> 
+     <td> </td> 
+     <td><strong>Clientlib Variant</strong></td> 
+     <td><strong>Pattern for Categories Property</strong><br /> </td> 
+    </tr> 
+    <tr> 
+     <td> </td> 
+     <td>complete clientlib</td> 
+     <td>cq.social.hbs.&amp;lt;component name&amp;gt;</td> 
+    </tr> 
+    <tr> 
+     <td> </td> 
+     <td>author clientlib</td> 
+     <td>cq.social.<strong>author</strong>.hbs.&amp;lt;component name&amp;gt;</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h4>Complete Clientlibs</h4> 
+  <p>The complete (non-author) clientlibs include dependencies and are convenient for including with ui:includeClientLib.</p> 
+  <p>These versions are found in</p> 
+  <ul> 
+   <li>/etc/clientlibs/social/hbs/&amp;lt;component name&amp;gt;</li> 
+  </ul> 
+  <p>For example</p> 
+  <ul> 
+   <li>client folder node : /etc/clientlibs/social/hbs/forum </li> 
+   <li>categories property : cq.social.hbs.forum</li> 
+  </ul> 
+  <p>The <a href="../../communities/using/components-guide.md">Community Components guide</a> lists the complete clientlibs required for each SCF component.</p> 
+  <p><a href="../../communities/using/clientlibs.md">Clientlibs for Communities Components</a> describes how to add clientlibs to a page.</p> 
+  <h4>Author Clientlibs</h4> 
+  <p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">The author version clientlibs are stripped down to the minimal Javascript necessary to implement the component. </p> 
+  <p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">These clientlibs should never be directly included, but instead are available to embed into other clientlibs, which are handcrafted for a site.</p> 
+  <p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">These versions are found in the SCF libs folder:</p> 
+  <ul style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;"> 
+   <li> /libs/social/&amp;lt;feature&amp;gt;/components/hbs/&amp;lt;component name&amp;gt;/clientlibs</li> 
+  </ul> 
+  <p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">For example</p> 
+  <ul style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;"> 
+   <li>client folder node : /libs/social/forum/hbs/forum/clientlibs </li> 
+   <li>categories property : cq.social.author.hbs.forum</li> 
+  </ul> 
+  <p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">Note: while author clientlibs never embed other libraries, they do list their dependencies. When embedded in other libraries, the dependencies are not automatically pulled in and must be embedded as well.</p> 
+  <p>The required author clientlibs can be identified by inserting "author" into the clientlibs listed for each SCF component in the <a href="../../communities/using/components-guide.md">Community Components guide</a>.</p> 
+  <h4>Usage Considerations</h4> 
+  <div>
+    Every site is different in how they manage client libraries. Various factors include: 
+  </div> 
+  <ul> 
+   <li>Overall Speed : Maybe the desire is for the site to be responsive, but it is acceptable for the first page to be a little slow to load. If many of the pages use the same Javascript, then the various Javascripts can be embeded into one clientlib and referenced from the first page to load. The Javascript in this single download remains cached, minimizing the amount of data to download for subsequent pages.</li> 
+   <li>Short Time to First Page : Maybe the desire is for the first page to load quickly. In this case, the Javascript is in multiple small files to be referenced only where needed.</li> 
+   <li>A balance between first page load and subsequent downloads.</li> 
+  </ul>  
+  <p> </p> 
+  <table border="0" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td style="text-align: left;"><strong><a href="../../communities/using/essentials.md">⇐ Feature Essentials</a></strong></td> 
+     <td style="text-align: right;"><strong><a href="../../communities/using/server-customize.md">Server-side Customization ⇒</a></strong></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: left;"> </td> 
+     <td style="text-align: right;"><strong><a href="../../communities/using/handlebars-helpers.md">SCF Handlebars Helpers ⇒</a></strong></td> 
+    </tr> 
+   </tbody> 
+  </table> 
+ </body> 
+</html>

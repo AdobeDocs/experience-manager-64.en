@@ -1,0 +1,728 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="Learn about Closed User Groups in AEM." name="seoDescription" /> 
+  <meta content="dist5" name="distType" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2018-09-14T19:37:58.684-0400" name="locHandOffDate" /> 
+  <meta content="light" name="gnavTheme" /> 
+  <meta content="2017-12-01T19:06:02.441-0500" name="jcr:created" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="User" name="contentOwner" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2017-10-31T16:21:58.635-0400" name="firstPublishExternalDate" /> 
+  <meta content="2018-11-16T03:01:41.063-0500" name="publishExternalDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:Security;content_type:reference" name="cq:tags" /> 
+  <meta content="Closed User Groups in AEM" name="seoTitle" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="Closed User Groups in AEM" name="jcr:title" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="2018-11-16T03:01:41.067-0500" name="cq:lastModified" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/administering/morehelp/security;/content/help/en/experience-manager/6-4/sites/administering/morehelp/security" name="moreHelpPaths" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="26baec3b-e7b7-4519-a20b-9335f285389a" name="jcr:uuid" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2018-11-16T03:01:41.063-0500" name="lastPublishExternalDate" /> 
+  <meta content="2018-11-16T03:01:41.063-0500" name="topicBrowsingSortDate" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
+  <meta content="2018-11-16T03:01:41.106-0500" name="cq:lastReplicated" /> 
+  <meta content="audience:administering" name="primaryAudienceTag" /> 
+  <meta content="/content/docs/en/aem/6-3/administer/security/custom-user-groups" name="qaNotes" /> 
+  <meta content="60aa1e98-55e7-4eed-bfab-43562626a03d" name="jcr:predecessors" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/closed-user-groups.html" name="publishExternalURL" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+ </head> 
+ <body> 
+  <h2>Introduction</h2> 
+  <p>Since AEM 6.3, there is a new Closed User Group implementation intended to address the performance, scalability and security issues present with the existing implementation.</p> 
+  <note> 
+   <p>For the sake of simplicity, the CUG abbreviation will be used throughout this documentation.</p> 
+  </note> 
+  <p>The goal of the new implementation is to cover existing functionality where needed while at the same time addressing problems and design limitations from tolder versions. The result is a new CUG design with the following characteristics:</p> 
+  <ul> 
+   <li>Clear separation of authentication and authorization elements, which can be used individually or in combination;</li> 
+   <li>Dedicated authorization model to reflect the restricted read access at the configured CUG trees without interfering with other access control setup and permission requirements;</li> 
+   <li>Separation between the access control setup of the restricted read access, which is usually needed on authoring instances, and permission evaluation which is usually only desired on publish;</li> 
+   <li>Editing of restricted read access without privilege escalation;</li> 
+   <li>Dedicated node type extension to mark the authentication requirement;</li> 
+   <li>Optional login path associated with the authentication requirement.</li> 
+  </ul> 
+  <h3>The New Custom User Group Implementation</h3> 
+  <p>A CUG as it is known in the context of AEM consists of the following steps:</p> 
+  <ul> 
+   <li>Restrict read access on the tree that needs to be protected and only allow read for principals that are either listed with a given CUG instance or excluded from the CUG evaluation altogether. This is called the <strong>authorization</strong> element.</li> 
+   <li>Enforce authentication on a given tree and optionally specify a dedicated login page for that tree that is subsequently excluded. This is called the <strong>authentication</strong> element.</li> 
+  </ul> 
+  <p>The new implementation has been designed to draw a line between the authentication and the authorization elements. As of AEM 6.3, it is possible to restrict read access without explicitly adding an authentication requirement. For example, if a given instance requires authentication altogether or a given tree already resides in a subtree that requires authentication already.</p> 
+  <p>Equally, a given tree can be marked with an authentication requirement without changing the efective permission setup. The combinations and results are listed in the <a href="../../../sites/administering/using/closed-user-groups.md#combiningcugpoliciesandtheauthenticationrequirement" target="_blank">Combining CUG Policies and the Authentication Requirement</a> section.</p> 
+  <h2>Overview</h2> 
+  <h3>Authorization: Restricting Read Access</h3> 
+  <p>The key feature of a CUG is restricting read access on a given tree in the content repository for everyone except selected principals. Instead of manipulating the default access control content on the fly the new implementation takes a diferent approach by defining a dedicated type of access control policy that represents a CUG.</p> 
+  <h4>Access Control Policy for CUG</h4> 
+  <p>This new type of policy has the following characteristics:</p> 
+  <ul> 
+   <li>Access control policy of type org.apache.jackrabbit.api.security.authorization.PrincipalSetPolicy (defined by the Apache Jackrabbit API);</li> 
+   <li>PrincipalSetPolicy grants privileges to a modifable set of principals;</li> 
+   <li>The privileges granted and the scope of the policy is an implementation detail.</li> 
+  </ul> 
+  <p>The implementation of PrincipalSetPolicy used to represent CUGs in addition defines that:</p> 
+  <ul> 
+   <li>CUG policies only grant read access to regular JCR items (for example, access control content is excluded);</li> 
+   <li>The scope is defined by the access controlled node that holds the CUG policy;</li> 
+   <li>CUG policies can be nested, a nested CUG starts a new CUG without inheriting the principal set of the 'parent' CUG;</li> 
+   <li>The effect of the policy, if evaluation is enabled, is inherited to the whole subtree down to the next nested CUG.</li> 
+  </ul> 
+  <p>These CUG policies are deployed to an AEM instance through a separate authorization module called oak-authorization-cug. This module comes with its own access control management and permission evaluation. In other words, the default AEM setup ships an Oak content repository configuration that combines multiple authorization mechanisms. For more info, see <a href="http://jackrabbit.apache.org/oak/docs/security/authorization/composite.html">this page on the Apache Oak Documentation</a>.</p> 
+  <p>In this composite setup a new CUG does not replace the existing access control content attached to the target node, but is designed to be a supplement which can also be removed later on without afecting the original access control, that by default in AEM would be an access control list.</p> 
+  <p>In contrast to the former implementation the new CUG policies are always recognized and treated as access control content. This implies that they are created and edited using the JCR access control management API. For more info, see the <a href="#managingcugpolicies">Managing CUG Policies</a> section.</p> 
+  <h4>Permission Evaluation of CUG Policies</h4> 
+  <p>Apart from a dedicated access control management for CUGs, the new authorization model allows to conditionally enable permission evaluation for its policies. This allows to setup CUG policies in a staging environment , and only enable evaluation of the effective permissions once replicated to the production environment.</p> 
+  <p>Permission evaluation for CUG policies and the interaction with the default or any additional authorization model follows the pattern designed for multiple authorization mechanisms in Apache Jackrabbit Oak: a given set of permissions is granted if and only if all models grant access. See <a href="http://jackrabbit.apache.org/oak/docs/security/authorization/composite.html">this page</a> for more details.</p> 
+  <p>The following characteristics apply for the permission evaluation associated with the authorization model designed to handle and evaluate CUG policies:</p> 
+  <ul> 
+   <li>It only handles read permissions for regular nodes and properties, but not reading access control content</li> 
+   <li>It doesn not handle write permissions nor any kind of permissions required for modifcation of protected JCR content (access control, node type information, versioning, locking or user management amongst others); These permissions are not afected by a CUG policy and will not be evaluated by the associated authorization model. Whether or not these permissions are granted depends on the other models configured in the security setup.</li> 
+  </ul> 
+  <p>The efect of a single CUG policy upon permission evaluation can be summarized as follows:</p> 
+  <ul> 
+   <li>Read access is denied for everyone except for subjects containing excluded principals or principals listed in the policy;</li> 
+   <li>The policy takes efect on the access controlled node which holds the policy and its properties;</li> 
+   <li>The efect is additionally inherited down the hierarchy - that is, the item tree defined by the access controlled node;</li> 
+   <li>However, it does neither afect siblings nor ancestors of the access controlled node;</li> 
+   <li>The inheritance of a given CUG stops at a nested CUG.</li> 
+  </ul> 
+  <h4>Best Practices</h4> 
+  <p>The following best practices should be taken into account for defining restricted read access through CUGs:</p> 
+  <ul> 
+   <li>Make a conscious decision on whether your need for a CUG is about restricting read access or an authentication requirement. In case of the latter or if there is a need for both, consult the section on Best Practices for details with regards to the Authentication requirement</li> 
+   <li>Create a threat model for the data or content that needs to be protected in order to identify threat boundaries and get a clear picture about the sensitivity of the data and the roles associated with authorized access</li> 
+   <li>Model the repository content and CUGs keeping general authorization related aspects and best practices in mind: 
+    <ul> 
+     <li>Remember that read permission will only be granted if a given CUG and the evaluation of other modules deployed in the setup grant allow a given subject to read a given repository item</li> 
+     <li>Avoid creating redundant CUGs where read access is already restricted by other authorization modules</li> 
+     <li>Excessive need for nested CUGs may potentially highlight issues in the content design</li> 
+     <li>Very excessive need for CUGs (for example, on every single page) may indicate the need for a custom authorization model potentially better suited to match the specific security needs of the application and content at hand.</li> 
+    </ul> </li> 
+   <li>Limit the paths supported for CUG policies to a few trees in the repository to allow for optimized performance. For example only allow CUGs below the /content node as shipped as the default value since AEM 6.3.</li> 
+   <li>CUG policies are designed to grant read access to a small set of principals. The need for a huge number of principals may highlight issues in the content or application design and should be reconsidered.</li> 
+  </ul> 
+  <h3>Authentication: Defining the Auth Requirement</h3> 
+  <p>The authentication related parts of the CUG feature allows to mark trees that require authentication and optionally specify a dedicated login page. In accordance to the previous version, the new implementation allows to mark trees that require authentication in the content repository and conditionally enable synchronization with the <span class="code">Sling org.apache.sling.api.auth.Authenticator </span>responsible for ultimately enforcing the requirement and redirecting to a login resource.</p> 
+  <p>These requirements are registered with the Authenticator by means of an OSGi service that provides the <span class="code">sling.auth.requirements</span> registration property. These properties are then used to dynamically extend the authentication requirements. For more details, consult the <a href="https://sling.apache.org/apidocs/sling7/org/apache/sling/auth/core/AuthConstants.html#AUTH_REQUIREMENTS" target="_blank">Sling documentation</a>.</p> 
+  <h4>Defining the Authentication Requirement with A Dedicated Mixin Type</h4> 
+  <p>For security reasons the new implementation replaces the usage of a residual JCR property by a dedicated mixin type called <span class="code">granite:AuthenticationRequired</span>, which defines a single optional property of type STRING for the login path <span class="code">granite:loginPath</span>. Only content changes related to this mixin type will lead to update of the requirements registered with Apache Sling Authenticator. The modifications are tracked upon persisting any transient modifcations and thus require a <span class="code">javax.jcr.Session.save()</span> call to become efective.</p> 
+  <p>The same applies for the <span class="code">granite:loginPath</span> property. It will only be respected if it is defned by the auth-requirement related mixin type. Adding a residual property with this very name at an unstructured JCR node will not show the desired efect and the property will be ignored by the handler responsible for updating the OSGi registration.</p> 
+  <note> 
+   <p>Setting the login path property is optional and only needed if the tree which requires authentication cannot fall back to the default or an otherwise inherited login page. See the <a href="../../../sites/administering/using/closed-user-groups.md#main-pars-title-914954954">Evaluation of Login Path</a> below.</p> 
+  </note> 
+  <h4>Registering the Authentication Requirement and Login Path With the Sling Authenticator</h4> 
+  <p>Since this type of authentication requirement is expected to be limited to certain run modes and to a small subset of trees within the content repository, tracking of the requirement mixin type and the login path properties is conditional and bound to a corresponding confguration that defines the supported paths (see Confguration Options below). Consequently, only changes within the scope of these supported paths will trigger an update of the OSGi registration, elsewhere both the mixin type and the property will be ignored.</p> 
+  <p>The default AEM setup now makes use of this confguration by allowing to set the mixin in the author run mode but only have it take efect upon replication to the publish instance. See <a href="https://sling.apache.org/documentation/the-sling-engine/authentication/authenticationframework.html">this page</a> for details how Sling enforces the authentication requirement.</p> 
+  <p>Adding the <span class="code">granite:AuthenticationRequired</span> mixin type within the configured supported paths will cause the OSGi registration of the responsible handler to be updated containing an new, additional entry with the <span class="code">sling.auth.requirements</span> property. If a given authentication requirement specifes the optional <span class="code">granite:loginPath</span> property, the value is additionally registered with the Authenticator with a '-' prefix in order to be excluded from authentication requirement.</p> 
+  <h4>Evaluation and Inheritence of the Authentication Requirement</h4> 
+  <p>Apache Sling authentication requirements are expected to be inherited through the page or node hierarchy. The very details of the inheritance and the evaluation of the authentication requirements such as order and precedence are considered an implementation detail and will not be documented in this article.</p> 
+  <h4>Evaluation of Login Path</h4> 
+  <p>The evaluation of the login path and redirect to the corresponding resource upon authentication is currently an implementation detail of the Adobe Granite Login Selector Authentication Handler (<span class="code">com.day.cq.auth.impl.LoginSelectorHandler</span>), which is an Apache Sling AuthenticationHandler configured with AEM by default.</p> 
+  <p>Upon calling <span class="code">AuthenticationHandler.requestCredentials</span> this handler makes an attempt to determine the mapping login page to which the user will be redirected. This includes the following steps:</p> 
+  <ul> 
+   <li>Distinguish between expired password and need for regular login as reason for the redirect;</li> 
+   <li>In case of a regular login, tests if a login path can be obtained in the following order: 
+    <ul> 
+     <li>from the LoginPathProvider as implemented by the new <span class="code">com.adobe.granite.auth.requirement.impl.RequirementService</span>,</li> 
+     <li>from the old, deprecated CUG implementation,</li> 
+     <li>from the Login Page Mappings, as defined with the <span class="code">LoginSelectorHandler</span>,</li> 
+     <li>and finally, fallback to the Default Login Page, as defined with the <span class="code">LoginSelectorHandler</span>.</li> 
+    </ul> </li> 
+   <li>As soon as a valid login path was obtained through the calls listed above, the user's request will be redirected to that page.</li> 
+  </ul> 
+  <p>The target of this documentation is the evaluation of the login path as exposed by the internal <span class="code">LoginPathProvider</span> interface. The implementation shipped since AEM 6.3 behaves as follows:</p> 
+  <ul> 
+   <li>Registration of login paths depends on distinguishing between expired password and need for regular login as reason for the redirect</li> 
+   <li>In case of regular login, tests if a login path can be obtained in the following order: 
+    <ul> 
+     <li>from the <span class="code">LoginPathProvider</span> as implemented by the new <span class="code">com.adobe.granite.auth.requirement.impl.RequirementService</span>,</li> 
+     <li>from the old, deprecated CUG implementation,</li> 
+     <li>from the Login Page Mappings as defined with the <span class="code">LoginSelectorHandler</span>,</li> 
+     <li>and finally fallback to the Default Login Page as defined with the <span class="code">LoginSelectorHandler</span>.</li> 
+    </ul> </li> 
+   <li>As soon as a valid login path was obtained through the calls listed above, the user's request will be redirected to that page.</li> 
+  </ul> 
+  <p>The <span class="code">LoginPathProvider</span> as implemented by the new auth-requirement support in Granite exposes login paths as defined by the <span class="code">granite:loginPath</span> properties, which in turn are defined by the mixin type as described above. The mapping of the resource path holding the login path and the property value itself is kept in memory and will be evaluated to find a suitable login path for other nodes in the hierarchy.</p> 
+  <note> 
+   <p>The evaluation is only performed for requests associated with resources that are located with in the configured supported paths. For any other requests the alternative ways of determining the login path will be evaluated.</p> 
+  </note> 
+  <h4>Best Practices</h4> 
+  <p>The following best practices should be taken into account when defining authentication requirements:</p> 
+  <ul> 
+   <li>Avoid nesting authentication requirements: placing a single auth-requirement marker at the start of a tree should be sufficient and is inherited to the whole subtree defined by the target node. Additional authentication requirements within that tree should be considered redundant and may lead to performance issues while evaluating the authentication requirement within Apache Sling. With the separation of authorization and authentication related CUG areas it is possible to restrict read access by means of CUG or other type of policies while at the same time enforcing authentication for the whole tree.</li> 
+   <li>Model repository content such that authentication requirements apply for the whole tree without the need to exclude nested subtrees from requirement again.</li> 
+   <li>To avoid specifying, and subsequently registering redundant login paths: 
+    <ul> 
+     <li>rely on inheritance and avoid defning nested login paths,</li> 
+     <li>don't set the optional login path to a value that corresponds to the default or an inherited value,</li> 
+     <li>application developers should identify which login paths should be configured in the global login-path configurations (both default and mappings) associated with the <span class="code">LoginSelectorHandler</span>.</li> 
+    </ul> </li> 
+  </ul> 
+  <h2>Representation in the Repository</h2> 
+  <h3>CUG Policy Representation in the Repository</h3> 
+  <p>The Oak documentation covers the how the new CUG policies are refected in the repository content. For more information consult <a href="http://jackrabbit.apache.org/oak/docs/security/authorization/cug.html#Representation_in_the_Repository" target="_blank">this page</a>.</p> 
+  <h3>Authentication Requirement in the Repository</h3> 
+  <p>The need for a separate authentication requirement is refected in the repository content with a dedicated mixin node type placed at the target node. The mixin type defines an optional property to specify a dedicated login page for the tree defined by the target node.</p> 
+  <p>The page associated with the login path may be located inside or outside that tree. It will be excluded from the authentication requirement.</p> 
+  <codeblock gutter="true" class="syntax java">
+    [granite:AuthenticationRequired]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;mixin!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;granite:loginPath&amp;nbsp;(STRING) 
+  </codeblock> 
+  <h2>Managing CUG Policies and Authentication Requirement</h2> 
+  <h3>Managing CUG Policies</h3> 
+  <p>The new type of access control policies to restrict read access for a CUG is managed using the JCR access control management API and follows the mechanisms described with the <a href="https://docs.adobe.com/content/docs/en/spec/jcr/2.0/16_Access_Control_Management.html">JCR 2.0 specification</a>.</p> 
+  <h4>Set A New CUG Policy</h4> 
+  <p>Code to apply a new CUG policy at a node that didn't have a CUG set before. Please note that <span class="code">getApplicablePolicies</span> will only return new policies that have not been set before. At the end the policy needs to written back and changes needs to be persisted.</p> 
+  <codeblock gutter="true" class="syntax java">
+    String&amp;nbsp;path&amp;nbsp;=&amp;nbsp;[...]&amp;nbsp;//&amp;nbsp;needs&amp;nbsp;to&amp;nbsp;be&amp;nbsp;a&amp;nbsp;supported,&amp;nbsp;absolute&amp;nbsp;path!!discoiqbr!!!!discoiqbr!!Principal&amp;nbsp;toAdd1&amp;nbsp;=&amp;nbsp;[...]!!discoiqbr!!Principal&amp;nbsp;toAdd2&amp;nbsp;=&amp;nbsp;[...]!!discoiqbr!!Principal&amp;nbsp;toRemove&amp;nbsp;=&amp;nbsp;[...]!!discoiqbr!!!!discoiqbr!!AccessControlManager&amp;nbsp;acMgr&amp;nbsp;=&amp;nbsp;session.getAccessControlManager();!!discoiqbr!!PrincipalSetPolicy&amp;nbsp;cugPolicy&amp;nbsp;=&amp;nbsp;null;!!discoiqbr!!!!discoiqbr!!AccessControlPolicyIterator&amp;nbsp;it&amp;nbsp;=&amp;nbsp;acMgr.getApplicablePolicies(path);!!discoiqbr!!while&amp;nbsp;(it.hasNext())&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;AccessControlPolicy&amp;nbsp;policy&amp;nbsp;=&amp;nbsp;it.nextAccessControlPolicy();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if&amp;nbsp;(policy&amp;nbsp;instanceof&amp;nbsp;PrincipalSetPolicy)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;cugPolicy&amp;nbsp;=&amp;nbsp;(PrincipalSetPolicy)&amp;nbsp;policy;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;break;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!}!!discoiqbr!!!!discoiqbr!!if&amp;nbsp;(cugPolicy&amp;nbsp;==&amp;nbsp;null)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;log.debug("no&amp;nbsp;applicable&amp;nbsp;policy");&amp;nbsp;//&amp;nbsp;path&amp;nbsp;not&amp;nbsp;supported&amp;nbsp;or&amp;nbsp;no&amp;nbsp;applicable&amp;nbsp;policy&amp;nbsp;(e.g.!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;the&amp;nbsp;policy&amp;nbsp;was&amp;nbsp;set&amp;nbsp;before)!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;return;!!discoiqbr!!}!!discoiqbr!!!!discoiqbr!!cugPolicy.addPrincipals(toAdd1,&amp;nbsp;toAdd2);!!discoiqbr!!cugPolicy.removePrincipals(toRemove));!!discoiqbr!!!!discoiqbr!!acMgr.setPolicy(path,&amp;nbsp;cugPolicy);&amp;nbsp;//&amp;nbsp;as&amp;nbsp;of&amp;nbsp;this&amp;nbsp;step&amp;nbsp;the&amp;nbsp;policy&amp;nbsp;can&amp;nbsp;be&amp;nbsp;edited/removed!!discoiqbr!!session.save(); 
+  </codeblock> 
+  <h4>Edit An Existing CUG Policy</h4> 
+  <p>The following steps are needed to edit an existing CUG policy. Please note that the modifed policy needs to written back and changes needs to be persisted using <span class="code">javax.jcr.Session.save()</span>.</p> 
+  <codeblock gutter="true" class="syntax java">
+    String&amp;nbsp;path&amp;nbsp;=&amp;nbsp;[...]&amp;nbsp;//&amp;nbsp;needs&amp;nbsp;to&amp;nbsp;be&amp;nbsp;a&amp;nbsp;supported,&amp;nbsp;absolute&amp;nbsp;path!!discoiqbr!!!!discoiqbr!!Principal&amp;nbsp;toAdd1&amp;nbsp;=&amp;nbsp;[...]!!discoiqbr!!Principal&amp;nbsp;toAdd2&amp;nbsp;=&amp;nbsp;[...]!!discoiqbr!!Principal&amp;nbsp;toRemove&amp;nbsp;=&amp;nbsp;[...]!!discoiqbr!!!!discoiqbr!!AccessControlManager&amp;nbsp;acMgr&amp;nbsp;=&amp;nbsp;session.getAccessControlManager();!!discoiqbr!!PrincipalSetPolicy&amp;nbsp;cugPolicy&amp;nbsp;=&amp;nbsp;null;!!discoiqbr!!!!discoiqbr!!for&amp;nbsp;(AccessControlPolicy&amp;nbsp;policy&amp;nbsp;:&amp;nbsp;acMgr.getPolicies(path))&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if&amp;nbsp;(policy&amp;nbsp;instanceof&amp;nbsp;PrincipalSetPolicy)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;cugPolicy&amp;nbsp;=&amp;nbsp;(PrincipalSetPolicy)&amp;nbsp;policy;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;break;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!}!!discoiqbr!!!!discoiqbr!!if&amp;nbsp;(cugPolicy&amp;nbsp;==&amp;nbsp;null)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;log.debug("no&amp;nbsp;policy&amp;nbsp;to&amp;nbsp;edit");&amp;nbsp;//&amp;nbsp;path&amp;nbsp;not&amp;nbsp;supported&amp;nbsp;or&amp;nbsp;policy&amp;nbsp;not&amp;nbsp;set&amp;nbsp;before!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;return;!!discoiqbr!!}!!discoiqbr!!!!discoiqbr!!if&amp;nbsp;(cugPolicy.addPrincipals(toAdd1,&amp;nbsp;toAdd2)&amp;nbsp;||&amp;nbsp;cugPolicy.removePrincipals(toRemove))&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;acMgr.setPolicy(path,&amp;nbsp;cugPolicy);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;session.save();!!discoiqbr!!}&amp;nbsp;else&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;log.debug("cug&amp;nbsp;policy&amp;nbsp;not&amp;nbsp;modified");!!discoiqbr!!} 
+  </codeblock> 
+  <h3>Retrieve Effective CUG Policies</h3> 
+  <p>The JCR access control management defines a best effort method to retrieve the policies that take effect at a given path. Due to the fact that evaluation of CUG policies is conditional and depends on the corresponding configuration to be enabled, calling <span class="code">getEffectivePolicies</span> is a convenient way to verify if a given CUG policy is taking efect in a given installation.</p> 
+  <note> 
+   <p>Please note the diference between <span class="code">getEffectivePolicies</span> and the subsequent code example that walks up the hierarchy to find if a given path is already part of an existing CUG.</p> 
+  </note> 
+  <codeblock gutter="true" class="syntax java">
+    String&amp;nbsp;path&amp;nbsp;=&amp;nbsp;[...]&amp;nbsp;//&amp;nbsp;needs&amp;nbsp;to&amp;nbsp;be&amp;nbsp;a&amp;nbsp;supported,&amp;nbsp;absolute&amp;nbsp;path!!discoiqbr!!!!discoiqbr!!AccessControlManager&amp;nbsp;acMgr&amp;nbsp;=&amp;nbsp;session.getAccessControlManager();!!discoiqbr!!PrincipalSetPolicy&amp;nbsp;cugPolicy&amp;nbsp;=&amp;nbsp;null;!!discoiqbr!!!!discoiqbr!!//&amp;nbsp;log&amp;nbsp;an&amp;nbsp;debug&amp;nbsp;message&amp;nbsp;of&amp;nbsp;all&amp;nbsp;CUG&amp;nbsp;policies&amp;nbsp;that&amp;nbsp;take&amp;nbsp;effect&amp;nbsp;at&amp;nbsp;the&amp;nbsp;given&amp;nbsp;path!!discoiqbr!!//&amp;nbsp;there&amp;nbsp;could&amp;nbsp;be&amp;nbsp;zero,&amp;nbsp;one&amp;nbsp;or&amp;nbsp;many&amp;nbsp;(creating&amp;nbsp;nested&amp;nbsp;CUGs&amp;nbsp;is&amp;nbsp;possible)!!discoiqbr!!for&amp;nbsp;(AccessControlPolicy&amp;nbsp;policy&amp;nbsp;:&amp;nbsp;acMgr.getEffectivePolicies(path)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if&amp;nbsp;(policy&amp;nbsp;instanceof&amp;nbsp;PrincipalSetPolicy)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;String&amp;nbsp;policyPath&amp;nbsp;=&amp;nbsp;"-";!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if&amp;nbsp;(policy&amp;nbsp;instanceof&amp;nbsp;JackrabbitAccessControlPolicy)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;policyPath&amp;nbsp;=&amp;nbsp;((JackrabbitAccessControlPolicy)&amp;nbsp;policy).getPath();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;log.debug("Found&amp;nbsp;effective&amp;nbsp;CUG&amp;nbsp;for&amp;nbsp;path&amp;nbsp;'{}'&amp;nbsp;at&amp;nbsp;'{}',&amp;nbsp;path,&amp;nbsp;policyPath);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!} 
+  </codeblock> 
+  <h4>Retrieve Inherited CUG Policies</h4> 
+  <p>Finding all nested CUGs that have been defined at a given path irrespective on whether they take effect or not. For more info, see the <a href="../../../sites/administering/using/closed-user-groups.md#main-pars-title-2031931217">Configuration Options</a> section.</p> 
+  <codeblock gutter="true" class="syntax java">
+    String&amp;nbsp;path&amp;nbsp;=&amp;nbsp;[...]!!discoiqbr!!!!discoiqbr!!List&lt;AccessControlPolicy&gt;&amp;nbsp;cugPolicies&amp;nbsp;=&amp;nbsp;new&amp;nbsp;ArrayList&lt;AccessControlPolicy&gt;();!!discoiqbr!!while&amp;nbsp;(isSupportedPath(path))&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;for&amp;nbsp;(AccessControlPolicy&amp;nbsp;policy&amp;nbsp;:&amp;nbsp;acMgr.getPolicies(path))&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if&amp;nbsp;(policy&amp;nbsp;instanceof&amp;nbsp;PrincipalSetPolicy)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;cugPolicies.add(policy);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;path&amp;nbsp;=&amp;nbsp;(PathUtils.denotesRoot(path))&amp;nbsp;?&amp;nbsp;null&amp;nbsp;:&amp;nbsp;PathUtils.getAncestorPath(path,&amp;nbsp;1);!!discoiqbr!!} 
+  </codeblock> 
+  <h4>Managing CUG Policies by Pincipal</h4> 
+  <p>The extensions defined by <span class="code">JackrabbitAccessControlManager</span> that allow to edit access control policies by principal are not implemented with CUG access control management, as by definition a CUG policy always afects all principals: those listed with the <span class="code">PrincipalSetPolicy</span> are being granted read access while all other principals will be prevented to read content in the tree defined by the target node.</p> 
+  <p>The corresponding methods always return an empty policy array but will not throw exceptions.</p> 
+  <h3>Managing the Authentication Requirement</h3> 
+  <p>The creation, modification or removal of a new authentication requirements is achieved by changing the efective node type of the target node. The optional login path property can then be written using regular JCR API.</p> 
+  <note> 
+   <p>The modifications to a given target node mentioned above will only be reflected on the Apache Sling Authenticator if the <span class="code">RequirementHandler</span> has been confgured and the target is contained in the trees defined by the supported paths (see section Confguration Options).</p> 
+   <p>For more info, see <a href="https://docs.adobe.com/docs/en/spec/jcr/2.0/10_Writing.html#10.10.3 Assigning Mixin Node Types" target="_blank">Assigning Mixin Node Types</a> and <a href="https://docs.adobe.com/docs/en/spec/jcr/2.0/10_Writing.html#10.4 Adding Nodes and Setting Properties" target="_blank">Adding Nodes and Setting Properties</a></p> 
+  </note> 
+  <h4>Adding a New Auth Requirement</h4> 
+  <p>Steps to create a new authentication requirement are detailed below. Note that the requirement will only be registered with the Apache Sling Authenticator if the <span class="code">RequirementHandler</span> has been configured for the tree containing the target node.</p> 
+  <codeblock gutter="true" class="syntax java">
+    Node&amp;nbsp;targetNode&amp;nbsp;=&amp;nbsp;[...]!!discoiqbr!!!!discoiqbr!!targetNode.addMixin("granite:AuthenticationRequired");!!discoiqbr!!session.save(); 
+  </codeblock> 
+  <h4>Add a New Auth Requirement with Login Path</h4> 
+  <p>Steps to create a new authentication requirement including a login path. Note, that the requirement and the exclusion for the login path will only be registered with the Apache Sling Authenticator if the <span class="code">RequirementHandler</span> has been confgured for the tree containing the target node.</p> 
+  <codeblock gutter="true" class="syntax java">
+    Node&amp;nbsp;targetNode&amp;nbsp;=&amp;nbsp;[...]!!discoiqbr!!String&amp;nbsp;loginPath&amp;nbsp;=&amp;nbsp;[...]&amp;nbsp;//&amp;nbsp;STRING&amp;nbsp;property!!discoiqbr!!!!discoiqbr!!Node&amp;nbsp;targetNode&amp;nbsp;=&amp;nbsp;session.getNode(path);!!discoiqbr!!targetNode.addMixin("granite:AuthenticationRequired");!!discoiqbr!!!!discoiqbr!!targetNode.setProperty("granite:loginPath",&amp;nbsp;loginPath);!!discoiqbr!!session.save(); 
+  </codeblock> 
+  <h4>Modify an Existing Login Path</h4> 
+  <p>Steps to change an existing login path are detailed below. The modifcation will only be registered with the Apache Sling Authenticator if the <span class="code">RequirementHandler</span> has been configured for the tree containing the target node. The previous login path value will be removed from the registration. The auth requirement associated with the target node is not affected by this modification.</p> 
+  <codeblock gutter="true" class="syntax java">
+    Node&amp;nbsp;targetNode&amp;nbsp;=&amp;nbsp;[...]!!discoiqbr!!String&amp;nbsp;newLoginPath&amp;nbsp;=&amp;nbsp;[...]&amp;nbsp;//&amp;nbsp;STRING&amp;nbsp;property!!discoiqbr!!!!discoiqbr!!if&amp;nbsp;(targetNode.isNodeType("granite:AuthenticationRequired"))&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;targetNode.setProperty("granite:loginPath",&amp;nbsp;newLoginPath);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;session.save();!!discoiqbr!!}&amp;nbsp;else&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;log.debug("cannot&amp;nbsp;modify&amp;nbsp;login&amp;nbsp;path&amp;nbsp;property;&amp;nbsp;mixin&amp;nbsp;type&amp;nbsp;missing");!!discoiqbr!!} 
+  </codeblock> 
+  <h4>Remove an Existing Login Path</h4> 
+  <p>Steps to remove an existing login path. The login path entry will only be unregistered from the Apache Sling Authenticator if the <span class="code">RequirementHandler</span> has been configured for the tree containing the target node. The auth requirement associated with the target node is not affected.</p> 
+  <codeblock gutter="true" class="syntax java">
+    Node&amp;nbsp;targetNode&amp;nbsp;=&amp;nbsp;[...]!!discoiqbr!!!!discoiqbr!!if&amp;nbsp;(targetNode.hasProperty("granite:loginPath")&amp;nbsp;&amp;&amp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;targetNode.isNodeType("granite:AuthenticationRequired"))&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;targetNode.setProperty("granite:loginPath",&amp;nbsp;null);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;session.save();!!discoiqbr!!}&amp;nbsp;else&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;log.debug("cannot&amp;nbsp;remove&amp;nbsp;login&amp;nbsp;path&amp;nbsp;property;&amp;nbsp;mixin&amp;nbsp;type&amp;nbsp;missing");!!discoiqbr!!} 
+  </codeblock> 
+  <p>Or, you can use the below method for achieving the same purpose:</p> 
+  <codeblock gutter="true" class="syntax java">
+    String&amp;nbsp;path&amp;nbsp;=&amp;nbsp;[...]&amp;nbsp;//&amp;nbsp;absolute&amp;nbsp;path&amp;nbsp;to&amp;nbsp;target&amp;nbsp;node!!discoiqbr!!!!discoiqbr!!String&amp;nbsp;propertyPath&amp;nbsp;=&amp;nbsp;PathUtils.concat(path,&amp;nbsp;"granite:loginPath");!!discoiqbr!!if&amp;nbsp;(session.propertyExists(propertyPath))&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;session.getProperty(propertyPath).remove();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;or:&amp;nbsp;session.removeItem(propertyPath);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;session.save();!!discoiqbr!!} 
+  </codeblock> 
+  <h4>Remove an Auth Requirement</h4> 
+  <p>Steps to remove an existing authentication requirement. The requirement will only be unregistered from the Apache Sling Authenticator if the <span class="code">RequirementHandler</span> has been confgured for the tree containing the target node.</p> 
+  <codeblock gutter="true" class="syntax java">
+    Node&amp;nbsp;targetNode&amp;nbsp;=&amp;nbsp;[...]!!discoiqbr!!targetNode.removeMixin("granite:AuthenticationRequired");!!discoiqbr!!!!discoiqbr!!session.save(); 
+  </codeblock> 
+  <h4>Retrieve Effective Auth Requirements</h4> 
+  <p>There is no dedicated public API to read all efective authentication requirements as registered with the Apache Sling Authenticator. However, the list is exposed in the system console at <em>http://serveraddress:serverport/system/console/slingauth</em> under the "<strong>Authentication Requirement Confguration</strong>" section.</p> 
+  <p>The following image shows the authentication requirements of an AEM publish instance with demo content. The highlighted path of the community page illustrates how a requirement added by the implementation described in this document is reflected in the Apache Sling Authenticator.</p> 
+  <note> 
+   <p>In this example the optional login path property was not set. Consequently, no second entry has been registered with the authenticator.</p> 
+  </note> 
+  <img imageRotate="0" src="assets/chlimage_1-65.jpeg" /> 
+  <h4>Retrieve the Effective Login Path</h4> 
+  <p>There currently is no public API to retrieve the login path that will take efect upon anonymously accessing a resource that requires authentication. See section Evaluation of Login Path for implementation details on how the login path is retrieved.</p> 
+  <p>Note however, that apart from the login paths defined with this feature there are alternative ways to specify the redirect to the login, which should be taken into consideration when designing the content model and the authentication requirements of a given AEM installation.</p> 
+  <h4>Retrieve the Inherited Auth Requirement</h4> 
+  <p>Like with the login path, there is no public API to retrieve the inherited authentication requirements defined in the content. The following sample illustrates how to list all authentication requirements that have been defined with a given hierarchy irrespective on whether they take efect or not. For more info, see <a href="../../../sites/administering/using/closed-user-groups.md#main-pars-title-2031931217">Configuration Options</a>.</p> 
+  <note> 
+   <p>It is recommended to rely on the inheritance mechanism both for authentication requirements and login path and avoid creation of nested auth requirements.</p> 
+   <p>For more information see <a href="/content#contentbody_title_1715134837" target="_blank">Evaluation and Inheritance of Authentication Requirement</a>, <a href="/content#contentbody_title_914954954" target="_blank">Evaluation of Login Path</a> and <a href="/content#contentbody_title_1658415695" target="_blank">Best Practices</a>.</p> 
+  </note> 
+  <codeblock gutter="true" class="syntax java">
+    String&amp;nbsp;path&amp;nbsp;=&amp;nbsp;[...]!!discoiqbr!!Node&amp;nbsp;node&amp;nbsp;=&amp;nbsp;session.getNode(path);!!discoiqbr!!!!discoiqbr!!Map&lt;String,&amp;nbsp;String&gt;&amp;nbsp;authRequirements&amp;nbsp;=&amp;nbsp;new&amp;nbsp;ArrayList&lt;String,&amp;nbsp;String&gt;();!!discoiqbr!!while&amp;nbsp;(isSupported(node))&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if&amp;nbsp;(node.isNodeType("granite:AuthenticationRequired"))&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;String&amp;nbsp;loginPath&amp;nbsp;=&amp;nbsp;(node.hasProperty("granite:loginPath")&amp;nbsp;?!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;node.getProperty("granite:loginPath").getString()&amp;nbsp;:!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"";!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;authRequirements.put(node.getPath(),&amp;nbsp;loginPath);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;node&amp;nbsp;=&amp;nbsp;node.getParent();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!} 
+  </codeblock>  
+  <h3>Combining CUG Policies and the Authentication Requirement</h3> 
+  <p>The following table lists the valid combinations of CUG policies and the authentication requirement in an AEM instance that has both modules enabled through configuration.</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td><strong>Authentication Required</strong></td> 
+     <td><strong>Login Path</strong></td> 
+     <td><strong>Restricted Read Access</strong></td> 
+     <td><strong>Expected Efect</strong></td> 
+    </tr> 
+    <tr> 
+     <td>Yes</td> 
+     <td>Yes</td> 
+     <td>Yes</td> 
+     <td>A given user will only be able to view the subtree marked with the CUG policy if effective permission evaluation grants access. An unauthenticated user will be redirected to the specifed login page. </td> 
+    </tr> 
+    <tr> 
+     <td>Yes</td> 
+     <td>No</td> 
+     <td>Yes</td> 
+     <td>A given user will only be able to view the subtree marked with the CUG policy if effective permission evaluation grants access. An unauthenticated user will be redirected to an inherited default login page. </td> 
+    </tr> 
+    <tr> 
+     <td>Yes</td> 
+     <td>Yes</td> 
+     <td>No</td> 
+     <td>An unauthenticated user will be redirected to the specified login page. Whether or not it is allowed to view the tree marked with the auth-requirement depends on the effective permissions of the individual items contained in that subtree. No dedicated CUG restricting read access in place. </td> 
+    </tr> 
+    <tr> 
+     <td>Yes</td> 
+     <td>No</td> 
+     <td>No</td> 
+     <td>An unauthenticated user will be redirected to an inherited default login page. Whether or not it is allowed to view the tree marked with the auth requirement depends on the effective permissions of the individual items contained in that subtree. No dedicated CUG restricting read access in place.</td> 
+    </tr> 
+    <tr> 
+     <td>No</td> 
+     <td>No</td> 
+     <td>Yes</td> 
+     <td>A given authenticated or unauthenticated user will only be able to view the subtree marked with the CUG policy if effective permission evaluation grants access. An unauthenticated user will be treated equally and will not be redirected to login. </td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <note> 
+   <p>The combination of 'Authentication Requirement' = No and 'Login Path' = Yes is not listed above as the 'Login Path' is an optional attribute associated with an Auth-Requirement. Specifying a JCR property with that name without adding the defining mixin type will have no efect and will be ignored by the corresponding handler.</p> 
+  </note> 
+  <h2>OSGi Components and Configuration</h2> 
+  <p>This sections provides an overview to the OSGi components and the individual configuration options introduced with the new CUG implementation.</p> 
+  <p>See also the CUG mapping documentation for a comprehensive mapping of the confguration options between the old and the new implementation.</p>  
+  <h3>Authorization: Setup and Configuration</h3> 
+  <p>The new, authorization related parts are contained in the <strong>Oak CUG Authorization</strong> bundle (<span class="code">org.apache.jackrabbit.oak-authorizationcug</span>), which is part of the AEM default installation. The bundle defines a separated authorization model aimed to be deployed as an additional way to manage read access.</p> 
+  <h4>Setting Up CUG Authorization</h4> 
+  <p>Setting up CUG authorization is described in detail in the <a href="http://jackrabbit.apache.org/oak/docs/security/authorization/cug.html#pluggability">relevant Apache Documentation</a>. By default, AEM has CUG authorization deployed in all run modes. The step by step instructions may also be used to disable CUG authorization in those installations that require a diferent authorization setup.</p> 
+  <h4>Configuring the Referrer Filter</h4> 
+  <p>You also need to configure the <a href="../../../sites/administering/using/security-checklist.md#theslingreferrerfilter">Sling Referrer Filter</a> with all hostnames that may be used to access AEM; for example, via CDN, Load Balancer, and any others.</p> 
+  <p>If the referrer filter is not configured, then errors, similar to the following, are seen when a user tries to log in to a CUG site:</p> 
+  <codeblock gutter="true" class="syntax shell">
+    31.01.2017&amp;nbsp;13:49:42.321&amp;nbsp;*INFO*&amp;nbsp;[qtp1263731568-346]&amp;nbsp;org.apache.sling.security.impl.ReferrerFilter&amp;nbsp;Rejected&amp;nbsp;referrer&amp;nbsp;header&amp;nbsp;for&amp;nbsp;POST&amp;nbsp;request&amp;nbsp;to&amp;nbsp;/libs/granite/core/content/login.html/j_security_check&amp;nbsp;:&amp;nbsp;http://hostname/libs/granite/core/content/login.html?resource=%2Fcontent%2Fgeometrixx%2Fen%2Ftest-site%2Ftest-page.html&amp;$$login$$=%24%24login%24%24&amp;j_reason=unknown&amp;j_reason_code=unknown 
+  </codeblock> 
+  <h4>Characteristics of OSGi Components</h4> 
+  <p>The following two OSGi components have been introduced to define authentication requirements and specify dedicated login paths:</p> 
+  <ul> 
+   <li><span class="code">org.apache.jackrabbit.oak.spi.security.authorization.cug.impl.CugConfiguration</span></li> 
+   <li><span class="code">org.apache.jackrabbit.oak.spi.security.authorization.cug.impl.CugExcludeImpl</span></li> 
+  </ul> 
+  <p><strong>org.apache.jackrabbit.oak.spi.security.authorization.cug.impl.CugConfiguration</strong></p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td>Label</td> 
+     <td>Apache Jackrabbit Oak CUG Configuration</td> 
+    </tr> 
+    <tr> 
+     <td>Description</td> 
+     <td>Authorization configuration dedicated to setup and evaluate CUG permissions.</td> 
+    </tr> 
+    <tr> 
+     <td>Confguration Properties</td> 
+     <td> 
+      <ul> 
+       <li><span class="code">cugSupportedPaths</span></li> 
+       <li><span class="code">cugEnabled</span></li> 
+       <li><span class="code">confgurationRanking</span></li> 
+      </ul> <p>Also, see <a href="../../../sites/administering/using/closed-user-groups.md#main-pars-title-73408163" target="_blank">Configuration Options</a> below.</p> </td> 
+    </tr> 
+    <tr> 
+     <td>Confguration Policy</td> 
+     <td><span class="code">ConfgurationPolicy.REQUIRE</span></td> 
+    </tr> 
+    <tr> 
+     <td>References</td> 
+     <td><span class="code">CugExclude (ReferenceCardinality.OPTIONAL_UNARY)</span></td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <p><strong>org.apache.jackrabbit.oak.spi.security.authorization.cug.impl.CugExcludeImpl</strong></p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td>Label</td> 
+     <td>Apache Jackrabbit Oak CUG Exclude List</td> 
+    </tr> 
+    <tr> 
+     <td>Description</td> 
+     <td>Allows to exclude principal(s) with the confgured name(s) from CUG evaluation.</td> 
+    </tr> 
+    <tr> 
+     <td>Confguration Properties</td> 
+     <td> 
+      <ul> 
+       <li><span class="code">principalNames</span></li> 
+      </ul> <p>Also see section Confguration Options below.</p> </td> 
+    </tr> 
+    <tr> 
+     <td>Confguration Policy</td> 
+     <td><span class="code">ConfgurationPolicy.REQUIRE</span></td> 
+    </tr> 
+    <tr> 
+     <td>References</td> 
+     <td>NA</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h4>Configuration Options</h4> 
+  <p>The key confguration options are:<br /> </p> 
+  <ul> 
+   <li><span class="code">cugSupportedPaths</span>: specify the subtrees that may contain CUGs. No default value is set</li> 
+   <li><span class="code">cugEnabled</span>: configuration option to enable permission evaluation for the present CUG policies.</li> 
+  </ul> 
+  <p>The available configuration options associated with the CUG-authorization module are listed and described in more detail at the <a href="http://jackrabbit.apache.org/oak/docs/security/authorization/cug.html#configuration" target="_blank">Apache Oak Documentation</a>.</p> 
+  <h4>Excluding Principals From CUG Evaluation</h4> 
+  <p>Exempting individual principals from CUG evaluation has been adopted from the former implementation. The new CUG authorization covers this with a dedicated interface named CugExclude. Apache Jackrabbit Oak 1.4 ships with a default implementation that excludes a fixed set of principals as well as an extended implementation that allows to configure individual principal names. The latter is configured in AEM publish instances.</p> 
+  <p>The default since AEM 6.3 prevents the following principals from being afected by CUG policies:</p> 
+  <ul> 
+   <li>administrative principals (admin user, administrators group)</li> 
+   <li>service user principals</li> 
+   <li>repository internal system principal</li> 
+  </ul> 
+  <p>For more info, see the table in the <a href="#main-pars-title-440923711">Default Configuration since AEM 6.3</a> section below.</p> 
+  <p>The exclusion of the 'administrators' group can be altered or expanded in the system console in the confguration section of <strong>Apache Jackrabbit Oak CUG Exclude List</strong>.</p> 
+  <p>Alternatively, it is possible to provide and deploy a custom implementation of the CugExclude interface to adjust the set of excluded principals in case of special needs. See the documentation on <a href="http://jackrabbit.apache.org/oak/docs/security/authorization/cug.html#pluggability">CUG pluggability</a> for details and an example implementation.</p> 
+  <h3>Authentication: Setup and Configuration</h3> 
+  <p>The new, authentication related parts are contained in the <strong>Adobe Granite Authentication Handler</strong> bundle (<span class="code">com.adobe.granite.auth.authhandler</span> version 5.6.48). This bundle is part of the AEM default installation.</p> 
+  <p>In order to setup the authentication requirement replacement for the deprecated CUG support, some OSGi components must be present and active in a given AEM installation. For more details see <strong>Characteristics of OSGi Components</strong> below.</p> 
+  <note> 
+   <p>Due to the mandatory configuration option with the RequirementHandler, the authentication related parts will only be active if the feature has been enabled by specifying a set of supported paths. With a standard AEM installation the feature is disabled in author run mode and enabled for /content in publish run mode.</p> 
+  </note> 
+  <p><strong>Characteristics of OSGi Components</strong></p> 
+  <p>The following 2 OSGi components have been introduced to defne authentication requirements and specify dedicated login paths:</p> 
+  <ul> 
+   <li><span class="code">com.adobe.granite.auth.requirement.impl.RequirementService</span></li> 
+   <li><span class="code">com.adobe.granite.auth.requirement.impl.DefaultRequirementHandler</span></li> 
+  </ul> 
+  <p><strong>com.adobe.granite.auth.requirement.impl.RequirementService</strong></p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td>Label</td> 
+     <td>-</td> 
+    </tr> 
+    <tr> 
+     <td>Description</td> 
+     <td>Dedicated OSGi service for authentication requirements that registers an observer for content changes afecting auth-requirement (through the <span class="code">granite:AuthenticationRequirement</span> mixin type) and login paths with are exposed to the <span class="code">LoginSelectorHandler</span>. </td> 
+    </tr> 
+    <tr> 
+     <td>Confguration Properties</td> 
+     <td>-</td> 
+    </tr> 
+    <tr> 
+     <td>Confguration Policy</td> 
+     <td><span class="code">ConfgurationPolicy.OPTIONAL</span></td> 
+    </tr> 
+    <tr> 
+     <td>References</td> 
+     <td> 
+      <ul> 
+       <li><span class="code">RequirementHandler (ReferenceCardinality.MANDATORY_UNARY)</span></li> 
+       <li><span class="code">Executor (ReferenceCardinality.MANDATORY_UNARY)</span></li> 
+      </ul> </td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <p><strong>com.adobe.granite.auth.requirement.impl.DefaultRequirementHandler</strong></p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td>Label</td> 
+     <td>Adobe Granite Authentication Requirement and Login Path Handler</td> 
+    </tr> 
+    <tr> 
+     <td>Description</td> 
+     <td><span class="code">RequirementHandler</span> implementation that updates the Apache Sling authentication requirements and the corresponding exclusion for the associated login paths. </td> 
+    </tr> 
+    <tr> 
+     <td>Confguration Properties</td> 
+     <td><span class="code">supportedPaths</span></td> 
+    </tr> 
+    <tr> 
+     <td>Confguration Policy</td> 
+     <td><span class="code">ConfgurationPolicy.REQUIRE</span></td> 
+    </tr> 
+    <tr> 
+     <td>References</td> 
+     <td>NA</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h4>Configuration Options</h4> 
+  <p>The authentication related parts of the CUG rewrite only come with a single configuration option associated with the Adobe Granite Authentication Requirement and Login Path Handler:</p> 
+  <p><strong>“Authentication Requirement and Login Path Handler”</strong></p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td>Property</td> 
+     <td>Type</td> 
+     <td>Default Value</td> 
+     <td>Description</td> 
+    </tr> 
+    <tr> 
+     <td><p>Label = Supported Paths</p> <p>Name = 'supportedPaths'</p> </td> 
+     <td>Set&lt;String&gt;</td> 
+     <td>-</td> 
+     <td>Paths under which authentication requirements will be respected by this handler. Leave this confguration unset if you want to add the <span class="code">granite:AuthenticationRequirement</span> mixin type to nodes without having them enforced (for example, on author instances). If missing, the feature is disabled. </td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h2>Default Configuration since AEM 6.3</h2> 
+  <p>New installations of AEM will by default use the new implementations both for the authorization and authentication related parts of the CUG feature. The old implementation “Adobe Granite Closed User Group (CUG) Support” has been deprecated and will by default be disabled in all AEM installations. The new implementations will instead be enabled as follows:</p> 
+  <h3>Author Instances</h3> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td><strong>“Apache Jackrabbit Oak CUG Configuration”</strong></td> 
+     <td><strong>Explanation</strong></td> 
+    </tr> 
+    <tr> 
+     <td> 
+      <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+       <tbody> 
+        <tr> 
+         <td>Supported Paths</td> 
+         <td><span class="code">/content</span></td> 
+        </tr> 
+       </tbody> 
+      </table> </td> 
+     <td>Access control management for CUGpolicies is enabled.</td> 
+    </tr> 
+    <tr> 
+     <td> 
+      <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+       <tbody> 
+        <tr> 
+         <td>CUG Evaluation Enabled</td> 
+         <td>FALSE</td> 
+        </tr> 
+       </tbody> 
+      </table> </td> 
+     <td>Permission evaluation is disabled. CUG policies take no effect. </td> 
+    </tr> 
+    <tr> 
+     <td> 
+      <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+       <tbody> 
+        <tr> 
+         <td>Ranking</td> 
+         <td>200</td> 
+        </tr> 
+       </tbody> 
+      </table> </td> 
+     <td>See Oak documentation.</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <note> 
+   <p>No configuration for <strong>Apache Jackrabbit Oak CUG Exclude List</strong> and <strong>Adobe Granite Authentication Requirement and Login Path Handler</strong> is present on default authoring instances.</p> 
+  </note> 
+  <h3>Publish Instances</h3> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td><strong>“Apache Jackrabbit Oak CUG Confguration”</strong></td> 
+     <td><strong>Explanation</strong></td> 
+    </tr> 
+    <tr> 
+     <td> 
+      <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+       <tbody> 
+        <tr> 
+         <td>Supported Paths</td> 
+         <td><span class="code">/content</span></td> 
+        </tr> 
+       </tbody> 
+      </table> </td> 
+     <td>Access control management for CUG policies is enabled below the configured paths. </td> 
+    </tr> 
+    <tr> 
+     <td> 
+      <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+       <tbody> 
+        <tr> 
+         <td>CUG Evaluation Enabled</td> 
+         <td>TRUE</td> 
+        </tr> 
+       </tbody> 
+      </table> </td> 
+     <td>Permission evaluation is enabled below the configured paths. CUG policies take efectupon <span class="code">Session.save()</span>. </td> 
+    </tr> 
+    <tr> 
+     <td> 
+      <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+       <tbody> 
+        <tr> 
+         <td>Ranking</td> 
+         <td>200</td> 
+        </tr> 
+       </tbody> 
+      </table> </td> 
+     <td>See Oak documentation.</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td><strong>“Apache Jackrabbit Oak CUG Exclude List”</strong></td> 
+     <td><strong>Explanation</strong></td> 
+    </tr> 
+    <tr> 
+     <td> 
+      <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+       <tbody> 
+        <tr> 
+         <td>Principal Names</td> 
+         <td>administrators</td> 
+        </tr> 
+       </tbody> 
+      </table> </td> 
+     <td>Excludes administrators principal from CUG evaluation.</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td><strong>“Adobe Granite Authentication Requirement and Login Path Handler”</strong></td> 
+     <td><strong>Explanation</strong></td> 
+    </tr> 
+    <tr> 
+     <td> 
+      <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+       <tbody> 
+        <tr> 
+         <td>Supported Paths</td> 
+         <td><span class="code">/content</span></td> 
+        </tr> 
+       </tbody> 
+      </table> </td> 
+     <td>Authentication requirements as defined in the repository by means of the <span class="code">granite:AuthenticationRequired</span> mixin type take efect below <span class="code">/content</span> upon <span class="code">Session.save()</span>. Sling Authenticator gets updated. Adding the mixin type outside of the supported paths is ignored.</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h2>Disabling CUG Authorization and Authentication Requirement</h2> 
+  <p>The new implementation may be disabled altogether in case a given installation does not make use of CUGs or uses different means for authentication and authorization.</p> 
+  <h3>Disable CUG Authorization</h3> 
+  <p>Consult the <a href="http://jackrabbit.apache.org/oak/docs/security/authorization/cug.html#pluggability" target="_blank">CUG pluggability</a> documentation for details on how to remove the CUG authorization model from the composite authorization setup.</p> 
+  <h3>Disable the Authentication Requirement</h3> 
+  <p>In order to disable support for the authentication requirement as provided by the <span class="code">granite.auth.authhandler</span> module it is sufficient to remove the configuration associated with <strong>Adobe Granite Authentication Requirement and Login Path Handler</strong>.</p> 
+  <note> 
+   <p>Note however, that removing the configuration will not unregister the mixin type, which was still applicable to nodes without taking efect.</p> 
+  </note> 
+  <h2>Interaction with other Modules</h2> 
+  <h3>Apache Jackrabbit API</h3> 
+  <p>In order to refect the new type of access control policy used by the CUG authorization model, the API defined by Apache Jackrabbit has been extended. Since version 2.11.0 of the <span class="code">jackrabbit-api</span> module defines a new interface called <span class="code">org.apache.jackrabbit.api.security.authorization.PrincipalSetPolicy</span>, which extends from <span class="code">javax.jcr.security.AccessControlPolicy</span>.</p> 
+  <h3>Apache Jackrabbit FileVault</h3> 
+  <p>The import mechanism of Apache Jackrabbit FileVault has been adjusted to deal with access control policies of type <span class="code">PrincipalSetPolicy</span>. </p> 
+  <h3>Apache Sling Content Distribution</h3> 
+  <p>See the above <a href="../../../sites/administering/using/closed-user-groups.md#apachejackrabbitfilevault" target="_blank">Apache Jackrabbit FileVault</a> section.</p> 
+  <h3>Adobe Granite Replication</h3> 
+  <p>The replication module has been slightly adjusted in order to be able to replicate the CUG policies between diferent AEM instances:</p> 
+  <ul> 
+   <li><span class="code">DurboImportConfiguration.isImportAcl()</span> is interpreted literally and will only affect access control policies implementing <span class="code">javax.jcr.security.AccessControlList</span></li> 
+   <li><span class="code">DurboImportTransformer</span> will only respect this confguration for true ACLs</li> 
+   <li>Other policies such as <span class="code">org.apache.jackrabbit.api.security.authorization.PrincipalSetPolicy</span> instances created by the CUG authorization model will always get replicated and the configuration option <span class="code">DurboImportConfiguration.isImportAcl</span>() will be ignored.</li> 
+  </ul> 
+  <p>There is one limitation of replicating CUG policies. If a given CUG policy gets removed without removing the corresponding mixin node type <span class="code">rep:CugMixin,</span> the removal will not be reflected upon replication. This has been addressed by always removing the mixin upon policy removal. The limitation may nevertheless show up if the mixin type is manually added.</p> 
+  <h3>Adobe Granite Authentication Handler</h3> 
+  <p>The authentication handler <strong>Adobe Granite HTTP Header Authentication Handler</strong> shipped with the <span class="code">com.adobe.granite.auth.authhandler</span> bundle holds a reference to the <span class="code">CugSupport</span> interface defined by the same module. It is used to calculate the 'realm' in certain circumstances, falling back to the realm configured with the handler.</p> 
+  <p>This has been adjusted to make the reference to <span class="code">CugSupport</span> optional in order to ensure maximal backwards compatibility if a given setup decides to re-enable the deprecated implementation. Installations using the the implementation will no longer get the realm extracted from the CUG implementation but will always display the realm as defined with <strong>Adobe Granite HTTP Header Authentication Handler</strong>.</p> 
+  <note> 
+   <p>By default, the <strong>Adobe Granite HTTP Header Authentication Handler</strong> is only configured in publish run mode with the “Disable Login Page” (<span class="code">auth.http.nologin</span>) option enabled.</p> 
+  </note> 
+  <h2>Changes with the New CUG Implementation</h2> 
+  <p>The aim of this section is to provide an overview of the changes made to the CUG feature as well as a comparison between the old and the new implementation. It lists the changes affecting the way CUG support is configured and describes how and by whom CUGs are managed in the repository content.</p> 
+  <h3>Diferences in CUG Setup and Configuration</h3> 
+  <p>The deprecated OSGi component <strong>Adobe Granite Closed User Group (CUG) Support</strong> (<span class="code">com.day.cq.auth.impl.cug.CugSupportImpl</span>) has been replaced by new components in order to be able to separately handle authorization and authentication related parts of the former CUG functionality.</p> 
+  <h2>Diferrences in Managing CUGs in the Repository Content</h2> 
+  <p>The following sections describe the differences between the old and the new implementations from the implementation and security perspectives. While the new implementation aims to provide the same functionality, there are subtle changes that are important to know when using the new CUG.</p> 
+  <h3>Diferences With Regards To Authorization</h3> 
+  <p>The main diferences from an authorization perspective are summarized in the list below:</p> 
+  <p><strong>Dedicated Access Control Content For CUGs</strong></p> 
+  <p>In the old implementation the default authorization model was used to manipulate access control list policies on publish, replacing any existing ACEs by the setup mandated by the CUG. This was triggered by writing regular, residual JCR properties which were interpreted on publish.</p> 
+  <p>With the new implementation the access control setup of the default authorization model is not afected by any CUG being created,modifed or removed. Instead a new type of policy called <span class="code">PrincipalSetPolicy</span> is applied as additional access control content to the target node. This additional policy will be located as a child of the target node and would be a sibling of the default policy node if present.</p> 
+  <p> </p> 
+  <p><strong>Editing CUG Policies In Access Control Management</strong></p> 
+  <p>This move from residual JCR properties to a dedicated access control policy has an impact on the permission needed to create or modify the authorization part of the CUG feature. Since this is considered a modifcation to access control content, it requires <span class="code">jcr:readAccessControl</span> and <span class="code">jcr:modifyAccessControl</span> privileges in order to be written to the repository. Therefore, only content authors entitled to modify the access control content of a page can setup or modify this content. This contrasts to the old implementation where the ability to write regular JCR properties was sufficient, resulting in a privilege escalation.</p> 
+  <p> </p> 
+  <p><strong>Target Node Defined By Policy</strong></p> 
+  <p>CUG policies are expected to be created at the JCR node defining the subtree to be subject to restricted read access. This is likely to be a AEM page in case the CUG is expected afect the whole tree.</p> 
+  <p>Note that placing the CUG policy only at the jcr:content node located below a given page will only restrict access to the content s.str. of a given page but will not take effect on any siblings or child pages. This may be a valid use case and it is possible to achieve with a repository editor that allows to apply fine grained access content content. However, it contrasts the former implementation where placing a cq:cugEnabled property on the jcr:content node was internally re-mapped to the page node. This mapping is no longer performed.</p>  
+  <p><strong>Permission Evaluation With CUG Policies</strong></p> 
+  <p>Moving from the old CUG support to an additional authorization model, changes the way effective read permissions are evaluated. As described in the <a href="http://jackrabbit.apache.org/oak/docs/security/authorization/composite.html" target="_blank">Jackrabbit documentation</a>, a given principal allowed to view the <span class="code">CUGcontent</span> will only be granted read access if the permission evaluation of all models confgured in the Oak repository grant read access.</p> 
+  <p>In other words, for the evaluation of the effective permissions, both the <span class="code">CUGPolicy</span> and the default access control entries will be taken into account and read access on the CUG content will only be granted if it is granted by both types of policies. In a default AEM publish installation where read access to the complete <span class="code">/content</span> tree is granted for everyone, the effect of the CUG policies will be the same as with the old implementation.</p> 
+  <p> </p> 
+  <p><strong>On Demand Evaluation</strong></p> 
+  <p>The CUG authorization model allows to individually turn on access control management and permission evaluation:</p> 
+  <ul> 
+   <li>access control management is enabled if the module has one or many supported paths where CUGs can be created</li> 
+   <li>permission evaluation is only enabled if option <strong>CUG Evaluation Enabled</strong> is additionally checked.</li> 
+  </ul> 
+  <p>In the new AEM default setup evaluation of CUG policies it is only enabled with the 'publish' run mode. See the details on the <a href="#defaultconfigurationsinceaem63">default configuration since AEM 6.3</a> for more details. This can be verifed by comparing the effective policies for a given path to the policies stored in the content. Effective policies will only be shown in case permission evaluation for CUGs is enabled.</p> 
+  <p>As explained above the CUG access control policies are now always stored in the content but evaluation of the effective permissions that result from those policies will only be enforced if <strong>CUG Evaluation Enabled</strong> is turned on in the system console at Apache Jackrabbit Oak <strong>CUG Confguration.</strong> By default, it is enabled with the 'publish' run mode only.</p> 
+  <h3>Differences With Regards To Authentication</h3> 
+  <p>The diferences with regards to authentication are described below.</p> 
+  <h4>Dedicated Mixin Type For Authentication Requirement</h4> 
+  <p>In the former implementation both the authorization and authentication aspects of a CUG were triggered by a single JCR property (<span class="code">cq:cugEnabled</span>). As far as authentication is concerned this resulted in an updated list of authentication requirements as stored with the Apache Sling Authenticator implementation. With the new implementation the same result is achieved by marking the target node with a dedicated mixin type (<span class="code">granite:AuthenticationRequired</span>).</p> 
+  <h4>Property For Excluding Login Path</h4> 
+  <p>The mixing type defines a single, optional property called <span class="code">granite:loginPath</span>, which basically corresponds to the <span class="code">cq:cugLoginPage</span> property. In contrast to the previous implementation the login path property will only be respected if its declaring node type is the mentioned mixin. Adding a property with that name without setting the mixin type will have no effect and neither a new requirement nor an exclusion for the login path will be reported to the authenticator.</p> 
+  <h4>Privilege For Authentication Requirement</h4> 
+  <p>Adding or removing a mixin type requires <span class="code">jcr:nodeTypeManagement</span> privilege being granted. In the previous implementation, the <span class="code">jcr:modifyProperties</span> privilege is used to edit the residual property.</p> 
+  <p>As far as the <span class="code">granite:loginPath</span> is concerned the same privilege is required to add, modify or remove the property.</p> 
+  <h4>Target Node Defined By Mixin Type</h4> 
+  <p>Authentication requirements are expected to be created at the JCR node defining the subtree to be subject to enforced login. This is likely to be an AEM Page in case the CUG is expected to affect the whole tree and the UI for the new implementation will consequently add the auth-requirement mixin type on the page node.</p> 
+  <p>Placing the CUG policy only at the jcr:content node located below a given page will only restrict access to the content s.str, but will not take afect on the page node itself nor on any child pages.</p> 
+  <p>This may be a valid scenario and is possible with a repository editor that allows to place the mixin at any node. However, the behavior contrasts the former implementation, where placing a cq:cugEnabled or cq:cugLoginPage property on the jcr:content node was internally remapped ultimately to the page node. This mapping is no longer performed.</p> 
+  <h4>Configured Supported Paths</h4> 
+  <p>Both the <span class="code">granite:AuthenticationRequired</span> mixin type and the granite:loginPath property will only be respected within the scoped defined by the set of <strong>Supported Paths</strong> configuration option present with the <strong>Adobe Granite Authentication Requirement and Login Path Handler</strong>. If no paths are specifed, the authentication requirement feature is disabled altogether. In this case mixin type nor property take efect when being added or set to a given JCR node.<span class="code"></span></p> 
+  <h3>Mapping of JCR Content, OSGi Services and Configurations</h3> 
+  <p>The document below provides a comprehensive mapping of OSGi services, confgurations and repository content between the old and the new implementation.</p> 
+  <div> 
+   <p>CUG Mapping since AEM 6.3</p> 
+   <p><a alt="cug-mapping.pdf" href="assets/cug-mapping.pdf">Get File</a></p> 
+  </div> 
+  <h2>Upgrade CUG</h2> 
+  <h3>Existing Installations Using the Deprecated CUG</h3> 
+  <p>The old CUG support implementation has been deprecated and will be removed for in future versions. It is recommended to move to the new implementations when upgrading from versions older than AEM 6.3. </p> 
+  <p>For upgraded AEM installation, it is important to ensure that only one CUG implementation is enabled. The combination of the new and the old, deprecated CUG support is not tested and is likely to cause undesired behavior:</p> 
+  <ul> 
+   <li>collisions in the Sling Authenticator with regards to authentication requirements</li> 
+   <li>denied read access when the ACL setup associated with old CUG collides with a new CUG policy.</li> 
+  </ul> 
+  <p> </p> 
+  <h3>Migrating Existing CUG Content</h3> 
+  <p>Adobe provides a tool for migrating to the new CUG implementation. In order to use it, perform the following steps:</p> 
+  <ol> 
+   <li><p>Go to <i>http://serveraddress:serverport/system/console/cug-migration</i> to access the tool.</p> </li> 
+   <li><p>Enter the root path you want to check CUGs for, and press the <strong>Perform dry run</strong> button. This will scan for CUGs elligible for conversion in the selected location.</p> </li> 
+   <li><p>After you have reviewed the results, press the <strong>Perform migration</strong> button to migrate to the new implementation.</p> </li> 
+  </ol> 
+  <note> 
+   <p>If you run into issues, it is possible to set up a specific logger at <strong>DEBUG</strong> level on <span class="code">com.day.cq.auth.impl.cug</span> to get the output of the migration tool. See <a href="../../../sites/deploying/using/configure-logging.md">Logging</a> for more information on how to do this.</p> 
+  </note> 
+ </body> 
+</html>

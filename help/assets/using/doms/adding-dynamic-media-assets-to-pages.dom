@@ -1,0 +1,173 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2018-04-24T12:00:18.965-0400" name="cq:lastModified" />
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2019-01-12T17:10:56.819-0500" name="acrolinxDate" />
+  <meta content="2017-10-31T16:35:26.377-0400" name="firstPublishExternalDate" />
+  <meta content="/content/help/en/experience-manager/6-4/assets/morehelp/dynamic-media;/content/help/en/experience-manager/6-4/assets/morehelp/dynamic-media" name="moreHelpPaths" />
+  <meta content="Adding Dynamic Media Assets to Pages" name="jcr:title" />
+  <meta content="yellow" name="acrolinxPageStatus" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="How to add Dynamic Media components to a page in AEM" name="seoDescription" />
+  <meta content="2017-10-31T16:35:26.377-0400" name="publishExternalDate" />
+  <meta content="2017-10-31T16:35:26.377-0400" name="lastPublishExternalDate" />
+  <meta content="Rick Brough" name="contentOwner" />
+  <meta content="2018-03-14T09:01:13.247-0400" name="jcr:created" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS;topic_tags:dynamic-media;content_type:reference" name="cq:tags" />
+  <meta content="2018-04-24T12:00:18.965-0400" name="locHandOffDate" />
+  <meta content="3b80a470-70ce-410c-8133-4c87325db9b1" name="jcr:predecessors" />
+  <meta content="/content/docs/en/aem/6-3/author/assets/dynamic-media/delivering-dynamic-media-assets/adding-dynamic-media-assets-to-pages" name="qaNotes" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="rbrough" name="cq:lastModifiedBy" />
+  <meta content="jsyal" name="cq:lastReplicatedBy" />
+  <meta content="Adding Dynamic Media Assets to Pages" name="navTitle" />
+  <meta content="Adding Dynamic Media Assets to Pages" name="seoTitle" />
+  <meta content="183" name="acrolinxSentences" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="asgupta" name="acrolinxLastCheckedBy" />
+  <meta content="2018-10-27T23:42:47.509-0400" name="cq:lastReplicated" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS" name="primaryProductTag" />
+  <meta content="checked_not_improved" name="acrolinxStatus" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/assets/using/adding-dynamic-media-assets-to-pages.html" name="publishExternalURL" />
+  <meta content="2143" name="acrolinxWords" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="9c6a1788-c2c9-4725-afeb-2c586d778a5b" name="jcr:uuid" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/adding_dynamic_media_assets_to_pages_krs_workflow_f3c2f2ccebf6138e_78_report.xml" name="acrolinxReportURL" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2017-10-31T16:35:26.377-0400" name="topicBrowsingSortDate" />
+ </head>
+ <body>
+  <p>To add the dynamic media functionality to assets you use on your websites, you can add the <strong>Dynamic Media</strong> or<strong> Interactive Media</strong> component directly on the page. You do this by entering Layout mode and enabling the dynamic media components. Then you can add these components to the page and add assets to the component. The dynamic media and interactive media components are smart - they know whether you are adding an image or a video and the options available change accordingly.</p> 
+  <p>You add dynamic media assets directly to the page if you are using AEM as your WCM. If you are using a third-party for your WCM, either <a href="../../assets/using/linking-urls-to-yourwebapplication.md">link</a> or <a href="../../assets/using/embed-code.md">embed</a> your assets. For a responsive third-party web site, see <a href="../../assets/using/responsive-site.md">delivering optimized images to a responsive site</a>.</p> 
+  <note>
+   <p>You must publish assets before adding them to pages in AEM. See <a href="../../assets/using/publishing-dynamicmedia-assets.md">Publishing Dynamic Media Assets</a>.</p> 
+  </note>
+  <h2>Adding a Dynamic Media Component to a Page</h2>
+  <p>Adding the Dynamic Media or Interactive Media component to a page is the same as adding a component to any page. The Dynamic Media and Interactive Media components are described in detail in the following sections.</p> 
+  <ol>
+   <li><p>In AEM, open the page where you want to add the Dynamic Media or Interactive Media component.</p> </li>
+   <li><p>In the left pane, click the <strong>Components icon </strong>and filter for Dynamic Media.<strong> </strong>If no Dynamic Media component is available, you need to enable the Dynamic Media components. See <a href="../../sites/authoring/using/templates.md#editingtemplatestemplateauthors">Editing Page Templates</a> for more information. </p> <img imageRotate="0" src="assets/chlimage_1-403.png" /></li>
+   <li><p>Drag the <strong>Dynamic Media</strong> or <strong>Interactive Media</strong> component onto the page in the desired location.</p> </li>
+   <li><p>Click<strong> </strong>the blue box around the component and click the<strong> Configuration</strong> (wrench)<strong> </strong>icon<strong>.</strong></p> </li>
+   <li><p><a href="#dynamicmediacomponents">Edit the components</a> as necessary and click the checkmark to save changes.</p> </li>
+  </ol>
+  <h2>Localizing Dynamic Media Components</h2>
+  <p>You can localize Dynamic Media components in one of two ways:</p> 
+  <ul>
+   <li><p>Within a web page in Sites, open <strong>Properties</strong> and select the <strong>Advanced</strong> tab. Select the desired language for localization.</p> <img imageRotate="0" src="assets/chlimage_1-404.png" /></li>
+   <li><p>From the site selector, select the desired page or page group. Tap or click <strong>Properties</strong> and select the <strong>Advanced</strong> tab. Select the desired language for localization.</p> 
+    <note>
+     <p>Please note that not all languages available in the <strong>Language</strong> menu currently have tokens assigned.</p> 
+    </note></li>
+  </ul>
+  <h2>Dynamic Media Components</h2>
+  <p>Dynamic Media and Interactive Media are available under the <strong>Dynamic Media</strong> tab in <strong>Components</strong>. You use the <strong>Interactive Media</strong> component for any interactive assets such as interactive video, interactive images, or carousel sets. For all other dynamic media components, use the <strong>Dynamic Media</strong> component.</p> 
+  <note>
+   <p>These components are not available by default and need to be made available via the template editor before using. <a href="../../sites/authoring/using/templates.md#editingtemplatestemplateauthors">After they are made available i</a>n the template editor, you can add the components to your page as you would any other AEM component. </p> 
+  </note>
+  <img imageRotate="0" src="assets/chlimage_1-405.png" />
+  <h3>Dynamic Media component</h3>
+  <p>The Dynamic Media component is smart - depending on whether you add an image or a video, you have various options. The component supports image presets, image-based viewers such as image sets, spin sets, mixed media sets, and video. In addition, the viewer is responsive - the size of the screen changes automatically based on screen size. All viewers are HTML5 viewers.</p> 
+  <note>
+   <p>When you add the Dynamic Media component, and <strong>Dynamic Media Settings</strong> is blank or you cannot add an asset properly, check the following:</p> 
+   <ul> 
+    <li>You have <a href="../../assets/using/config-dynamic.md">enabled Dynamic Media</a>. Dynamic Media is disabled by default.</li> 
+    <li>The image has a pyramid tiff file. Images imported before dynamic media is enabled do not have a pyramid tiff file.</li> 
+   </ul> 
+  </note>
+  <h4>When working with images</h4>
+  <p>The Dynamic Media component lets you add dynamic images, including image sets, spin sets, and mixed media sets. You can zoom in, zoom out, and if applicable turn an image within a spin set or select an image from another type of set. </p> 
+  <p>You can also configure the viewer preset, image preset, or image format directly in the component. To make an image responsive you can either set the breakpoints or apply a responsive image preset.</p> 
+  <p>You can edit the following Dynamic Media Settings by clicking the <strong>Edit</strong> icon in the component and then <strong>Dynamic Media Settings</strong>.</p> 
+  <img imageRotate="0" src="assets/dm-settings-image-preset.png" />
+  <note>
+   <p>By default, the Dynamic Media image component is adaptive. If you want to make it a fixed size, set it in the component in the <strong>Advanced</strong> tab with the <strong>Width</strong> and <strong>Height</strong>.</p> 
+  </note>
+  <p><strong>Viewer preset</strong> Select an existing viewer preset from the drop-down menu. If the viewer preset you are looking for is not visible, you may need to make it visible. See Managing Viewer Presets. You cannot select a viewer preset if you are using an image preset and vice versa.</p>
+  <p>This is the only option available if you are viewing image sets, spin sets, or mixed media sets. The viewer presets displayed are also smart - only relevant viewer presets appear.</p>
+  <p><strong>Viewer modifiers</strong> Viewer modifiers take the form of name=value pair with a &amp; delimiter and let you change viewers as outlined in the Viewers Reference Guide. An example of a viewer modifier is posterimage=img.jpg&amp;caption=text.vtt,1 which sets a different image for the video thumbnail and associates a closed caption/subtitle file with the video.</p>
+  <p><strong>Image preset</strong> Select an existing image preset from the drop-down menu. If the image preset you are looking for is not visible, you may need to make it visible. See Managing Image Presets. You cannot select a viewer preset if you are using an image preset and vice versa.</p>
+  <p>This option is not available if you are viewing image sets, spin sets, or mixed media sets.</p>
+  <p><strong>Image Modifiers</strong> You can apply image effects by supplying additional image commands. These are described in Image Presets and the Image Serving Command reference.</p>
+  <p>This option is not available if you are viewing image sets, spin sets, or mixed media sets.</p>
+  <p><strong>Breakpoints</strong> If you are using this asset on a responsive site, you need to add the image breakpoints. Image breakpoints need to be separated by commas (,). This option works when there is no height or width defined in an image preset.</p>
+  <p>This option is not available if you are viewing image sets, spin sets, or mixed media sets.</p>
+  <p>You can edit the following Advanced Settings by clicking <strong>Edit</strong> in the component.</p> 
+  <p><strong>Title</strong> Change the title of the image.</p>
+  <p><strong>Alt Text</strong> Add a title to the image for those users who have graphics turned off.</p>
+  <p>This option is not available if you are viewing image sets, spin sets, or mixed media sets.</p>
+  <p><strong>URL, Open in</strong> You can set an asset to open a link. Set the URL and in Open in indicate whether you want it to open in the same window or a new window.</p>
+  <p>This option is not available if you are viewing image sets, spin sets, or mixed media sets.</p>
+  <p><strong>Width and Height</strong> Enter value in pixels if you want the image to be a fixed size. Leaving these values blank makes the asset adaptive.</p>
+  <h4>When working with Video</h4>
+  <p>Use the Dynamic Media component to add dynamic video to your web pages. When you edit the component you can choose to use a predefined video viewer preset for playing the video on the page.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-406.png" />
+  <p>You can edit the following Dynamic Media Settings by clicking <strong>Edit</strong> in the component.</p> 
+  <note>
+   <p>By default, the Dynamic Media video component is adaptive. If you want to make it a fixed size, set it in the component with the <strong>Width</strong> and <strong>Height </strong>in<strong> </strong>the<strong> Advanced </strong>tab.</p> 
+  </note>
+  <p><strong>Viewer preset</strong> Select an existing video viewer preset from the drop-down menu. If the viewer preset you are looking for is not visible, you may need to make it visible. See Managing Viewer Presets.</p>
+  <p><strong>Viewer modifiers</strong> Viewer modifiers take the form of name=value pair with a &amp; delimiter and let you change viewers as outlined in the Adobe Viewers Reference Guide. An example of a viewer modifier is posterimage=img.jpg&amp;caption=text.vtt,1</p>
+  <p>With viewer modifiers, you for example, can do the following:</p> 
+  <ul> 
+   <li>Associate a caption file with a video: <a href="https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/r_html5_video_viewer_url_caption.html">https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/r_html5_video_viewer_url_caption.html</a></li> 
+   <li>Associate a navigation file with a video: <a href="https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/r_html5_video_viewer_url_navigation.html">https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/r_html5_video_viewer_url_navigation.html</a></li> 
+  </ul>
+  <p>You can edit the following Advanced Settings by clicking <strong>Edit</strong> in the component.</p> 
+  <p><strong>Title</strong> Change the title of the video.</p>
+  <p><strong>Width and Height</strong> Enter value in pixels if you want the video to be a fixed size. Leaving these values blank makes it adaptive.</p>
+  <h4>When working with Smart Crop</h4>
+  <p>Use the Dynamic Media component to add Smart Crop image assets to your web pages. When you edit the component you can choose to use a predefined video viewer preset for playing the video on the page.</p> 
+  <p>See also <a href="../../assets/using/image-profiles.md" target="_blank">Image Profiles</a>.</p> 
+  <img imageRotate="0" src="assets/dm-settings-smart-crop.png" />
+  <p>You can edit the following Dynamic Media Setting by clicking <strong>Edit</strong> in the component.</p> 
+  <note>
+   <p>By default, the Dynamic Media image component is adaptive. If you want to make it a fixed size, set it in the component in the <strong>Advanced</strong> tab with the <strong>Width</strong> and <strong>Height</strong>.</p> 
+  </note>
+  <p><strong>Image Modifiers</strong> You can apply image effects by supplying additional image commands. These are described in Image Presets and the Image Serving Command reference.</p>
+  <p>This option is not available if you are viewing image sets, spin sets, or mixed media sets.</p>
+  <p>You can edit the following Advanced Settings by clicking <strong>Edit</strong> in the component.</p> 
+  <p><strong>Title</strong> Change the title of the Smart Crop image.</p>
+  <p><strong>Alt Text</strong> Add a title to the smart crop image for those users who have graphics turned off.</p>
+  <p>This option is not available if you are viewing image sets, spin sets, or mixed media sets.</p>
+  <p><strong>URL, Open in</strong> You can set an asset to open a link. Set the URL and in Open in indicate whether you want it to open in the same window or a new window.</p>
+  <p>This option is not available if you are viewing image sets, spin sets, or mixed media sets.</p>
+  <p><strong>Height, Width</strong> Enter value in pixels if you want the smart crop image to be a fixed size. Leaving these values blank makes it adaptive.</p>
+  <h3>Interactive Media Component</h3>
+  <p>Interactive Media component is for those assets that have interactivity on them such hotspots or image maps. If you have an interactive image, interactive video, or carousel banner, use the <strong>Interactive Media</strong> component.</p> 
+  <p>The Interactive Media component is smart - depending on whether you add an image or a video, you have various options. In addition, the viewer is responsive - the size of the screen changes automatically based on screen size. All viewers are HTML5 viewers.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-407.png" />
+  <p>You can edit the following <strong>General</strong> settings by clicking <strong>Edit</strong> in the component.</p> 
+  <p><strong>Viewer preset</strong> Select an existing viewer preset from the drop-down menu. If the viewer preset you are looking for is not visible, you may need to make it visible. Viewer Presets must be published before they can be used. See Managing Viewer Presets.</p>
+  <p><strong>Title</strong> Change the title of the video.</p>
+  <p><strong>Width and Height</strong> Enter value in pixels if you want the video to be a fixed size. Leaving these values blank makes it adaptive.</p>
+  <p>You can edit the following <strong>Add To Cart</strong> settings by clicking <strong>Edit</strong> in the component.</p> 
+  <p><strong>Show Product Asset</strong> By default, this value is selected. The product asset shows an image of the product as defined in the Commerce module. Clear the check mark to not show the product asset.</p>
+  <p><strong>Show Product Price</strong> By default, this value is selected. Product price shows the price of the item as defined in the Commerce module. Clear the check mark to not show the product price.</p>
+  <p><strong>Show Product Form</strong> By default, this value is not selected. The Product Form includes any product variants such as size and color. Clear the check mark to not show the product variants.</p>
+  <h3>Panoramic Media Component</h3>
+  <p>Panoramic Media component is for those assets that are spherical panoramic images. Such images provide a 360° viewing experience of a room, property, location, or landscape. For an image to qualify as a spherical panorama, it must have either one OR both of the following:</p> 
+  <ul> 
+   <li>An aspect ratio of 2:1.</li> 
+   <li>Tagged with the keywords “equirectangular” or (“spherical” + “panorama”) or (“spherical” + “panoramic”). See <a href="../../sites/authoring/using/tags.md">Using Tags</a>.</li> 
+  </ul> 
+  <p>Both the aspect ratio and keyword criteria apply to panoramic assets for the asset details page and the "Panoramic Media" WCM component.</p> 
+  <img imageRotate="0" src="assets/panoramic-media-viewer-preset.png" />
+  <p>You can edit the following<strong> </strong>setting by clicking <strong>Configure</strong> in the component.</p> 
+  <p><strong>Viewer Preset</strong> Select an existing viewer from the Viewer preset drop-down menu.</p>
+  <p>If the viewer preset you are looking for is not visible, check to ensure that it is published. You must publish viewer presets before you can use them. See <a href="../../assets/using/managing-viewer-presets.md">Managing Viewer Presets</a>.</p>
+  <h3>Using HTTP/2 to delivery Dynamic Media assets</h3>
+  <p>HTTP/2 is the new, updated web protocol that improves the way browsers and servers communicate. It provides faster transfer of information and reduces the amount of processing power that is needed. Delivery of Dynamic Media assets can now be over HTTP/2 which provides better response and load times.</p> 
+  <p>See <a href="../../assets/using/http2.md">HTTP2 Delivery of Content</a> for complete details on getting started using HTTP/2 with your Dynamic Media account.</p> 
+ </body>
+</html>

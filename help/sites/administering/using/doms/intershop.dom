@@ -1,0 +1,122 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="audience:administering" name="primaryAudienceTag" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="Intershop" name="jcr:title" /> 
+  <meta content="2018-04-26T10:12:48.340-0400" name="cq:lastModified" /> 
+  <meta content="19c5a65d-3567-400a-8ad2-bf0e381b5d48" name="jcr:uuid" /> 
+  <meta content="Intershop" name="seoTitle" /> 
+  <meta content="Guillaume Carlino" name="contentOwner" /> 
+  <meta content="2018-04-03T07:04:33.594-0400" name="lastPublishExternalDate" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2017-10-31T16:24:50.745-0400" name="firstPublishExternalDate" /> 
+  <meta content="Learn how to use AEM with Intershop." name="seoDescription" /> 
+  <meta content="2017-12-01T19:05:28.668-0500" name="jcr:created" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2018-04-03T07:04:33.594-0400" name="publishExternalDate" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="/content/docs/en/aem/6-3/administer/ecommerce/intershop" name="qaNotes" /> 
+  <meta content="fc0fa1f2-3e53-4c63-ab6e-98f15f135ef2" name="jcr:predecessors" /> 
+  <meta content="2018-04-03T07:04:33.751-0400" name="cq:lastReplicated" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2018-04-03T07:04:33.594-0400" name="topicBrowsingSortDate" /> 
+  <meta content="Administering Intershop" name="pageTitle" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:e-commerce;content_type:reference" name="cq:tags" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/intershop.html" name="publishExternalURL" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2018-04-26T10:12:48.340-0400" name="locHandOffDate" /> 
+  <meta content="Intershop" name="navTitle" /> 
+  <meta content="dist5" name="distType" /> 
+  <meta content="light" name="gnavTheme" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/administering/morehelp/e-commerce;/content/help/en/experience-manager/6-4/sites/administering/morehelp/e-commerce" name="moreHelpPaths" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+ </head> 
+ <body> 
+  <note> 
+   <p>This document applies to both Intershop 7.4 and Intershop 7.4 CI (Continuous Integration).</p> 
+  </note> 
+  <h2>Catalog Importer</h2> 
+  <p>There are a variety of ways to import product and catalog data. The product and catalog data can be imported when initially setting up the environment, or after changes have been made in the Intershop data.</p> 
+  <p>The importer supports the following modes:</p> 
+  <ul> 
+   <li><a href="#fullimport">Full Import</a></li> 
+   <li><a href="#incrementalimport">Incremental Import</a></li> 
+   <li><a href="#expressupdate">Express Update</a></li> 
+  </ul> 
+  <p>The product data is maintained in Intershop 7 software and made available through AEM.</p> 
+  <p>The actual product information imported from Intershop or any other source is held in the CRX repository under:</p> 
+  <p> <span class="code">/etc/commerce/products</span></p> 
+  <p>The following properties indicate that the products are linked with Intershop:</p> 
+  <ul> 
+   <li><span class="code">commerceProvider</span></li> 
+   <li><span class="code">cq:intershopCatalogId</span></li> 
+   <li><span class="code">cq:intershopId</span></li> 
+  </ul> 
+  <note> 
+   <p>The Intershop implementation (for example <span class="code">geometrixx-outdoors/en_US</span>) only stores product IDs and other basic information under <span class="code">/etc/commerce</span>.</p> 
+   <p>The Intershop server is referenced every time information about a product is requested.</p> 
+  </note> 
+  <h3>Full Import</h3> 
+  <p>If required, before the actual import, delete all existing product data using CRXDE Lite:</p> 
+  <ol> 
+   <li><p>In CRXDE Lite, navigate to the sub-tree holding the product data:<br /> <span class="code">/etc/commerce/products</span></p> </li> 
+   <li><p>Delete the node that holds your product data; for example, <span class="code">outdoors</span>.</p> </li> 
+   <li><p>Click <strong>Save All</strong> to persist the change.</p> </li> 
+  </ol> 
+  <p>To do the full import:</p> 
+  <ol> 
+   <li><p>Open the Intershop importer in AEM:</p>  </li> 
+   <li><p>Configure the parameters as required; for example:</p> <img imageRotate="0" src="assets/chlimage_1-30.jpeg" /></li> 
+   <li><p>Click <strong>Import Catalog</strong> to start the import.</p> <p>When complete, you can verify the data imported at:<br /> <a href="http://localhost:4502/crx/de/index.jsp#/etc/commerce/products">http://localhost:4502/crx/de/index.jsp#/etc/commerce/products</a></p> </li> 
+  </ol> 
+  <h3>Incremental Import</h3> 
+  <ol> 
+   <li><p>Check the information held in AEM for the relevant product(s), in the appropriate sub-tree under:</p>  </li> 
+   <li><p>In Intershop, update the information held on the relevant product(s).</p> </li> 
+   <li><p>Open the Intershop importer in AEM:</p>  </li> 
+   <li><p>Select the checkbox <strong>Incremental Import</strong>.</p> </li> 
+   <li><p>Click <strong>Import Catalog</strong> to start the import.</p> <p>When complete, you can verify the data imported at:<br /> <a href="http://localhost:4502/crx/de/index.jsp#/etc/commerce/products">http://localhost:4502/crx/de/index.jsp#/etc/commerce/products</a></p> </li> 
+  </ol> 
+  <h3>Express Update</h3> 
+  <p>The import process can take a long time so you can select specific areas of the catalog for an express update that is triggered manually. This uses the export feed together with the standard attributes configuration:</p> 
+  <ol> 
+   <li><p>Check the information held in AEM for the relevant product(s), in the appropriate sub-tree under:</p>  </li> 
+   <li><p>Log on to the Intershop 7 Commerce Management application.</p> </li> 
+   <li><p>Navigate to to the desired product.</p> </li> 
+   <li><p>Click the lock icon on top of the page to lock the product for editing.</p> </li> 
+   <li><p>On the <strong>General</strong> tab mark the checkbox <strong>Express Update</strong>.</p> </li> 
+   <li><p>Click <strong>Apply</strong> and click the lock icon on top of the page again to unlock the product.</p> <img imageRotate="0" src="assets/chlimage_1-111.png" /></li> 
+   <li><p>Open the Intershop importer in AEM:</p>  </li> 
+   <li><p>Select the checkbox <strong>Express Update</strong>.</p> </li> 
+   <li><p>Click <strong>Import Catalog</strong> to start the import.</p> <p>When complete, you can verify the data imported at:<br /> <a href="http://localhost:4502/crx/de/index.jsp#/etc/commerce/products">http://localhost:4502/crx/de/index.jsp#/etc/commerce/products</a></p> </li> 
+  </ol> 
+  <h2>Configure the Catalog Importer</h2> 
+  <p>The Intershop catalog can be imported into AEM, using the batch importer for Intershop catalogs, categories and products.</p> 
+  <p>The parameters used by the importer can be configured for:</p> 
+  <p style="margin-left: 40px;"><strong>Intershop Product and Catalog Importer</strong><br /> (<span class="code">com.adobe.cq.commerce.intershop.impl.importer.IntershopImporter</span>)</p> 
+  <img imageRotate="0" src="assets/chlimage_1-112.png" /> 
+  <note> 
+   <p>When working with AEM there are several methods of managing the configuration settings for such services; see <a href="../../../sites/deploying/using/configuring-osgi.md">Configuring OSGi</a> for full details. Also see the console for a full list of configurable parameters and their defaults.</p> 
+  </note> 
+  <h2>Configure the Product Attributes to Load</h2> 
+  <p>The response parser can be configured to define the properties and attributes to be loaded for (variant) products.</p> 
+  <p>The parameters used by the parser can be configured for:</p> 
+  <p style="margin-left: 40px;"><strong>Intershop JSON Parser</strong><br /> (<span class="code">com.adobe.cq.commerce.intershop.impl.importer.IntershopJSONParser</span>)</p> 
+  <img imageRotate="0" src="assets/chlimage_1-113.png" /> 
+  <note> 
+   <p>When working with AEM there are several methods of managing the configuration settings for such services; see <a href="../../../sites/deploying/using/configuring-osgi.md">Configuring OSGi</a> for full details. Also see the console for a full list of configurable parameters and their defaults.</p> 
+  </note> 
+ </body> 
+</html>

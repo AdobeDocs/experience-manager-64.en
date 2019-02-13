@@ -1,0 +1,66 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2018-04-03T07:02:18.035-0400" name="lastPublishExternalDate" /> 
+  <meta content="dfd45fa8-83e6-4bbe-a6dd-1e3a7ede1e0a" name="jcr:predecessors" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2018-04-03T07:02:19.310-0400" name="cq:lastReplicated" /> 
+  <meta content="Configuring for AEM Apps" name="jcr:title" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="Learn how to configure AEM Apps." name="seoDescription" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2018-04-26T10:13:44.909-0400" name="cq:lastModified" /> 
+  <meta content="audience:administering" name="primaryAudienceTag" /> 
+  <meta content="Guillaume Carlino" name="contentOwner" /> 
+  <meta content="2017-12-01T19:02:50.152-0500" name="jcr:created" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:operations;content_type:reference" name="cq:tags" /> 
+  <meta content="2018-04-03T07:02:18.035-0400" name="topicBrowsingSortDate" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2018-04-03T07:02:18.035-0400" name="publishExternalDate" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/administering/morehelp/operations;/content/help/en/experience-manager/6-4/sites/administering/morehelp/operations" name="moreHelpPaths" /> 
+  <meta content="2017-10-31T16:25:28.726-0400" name="firstPublishExternalDate" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="/content/docs/en/aem/6-3/administer/operations/config-apps" name="qaNotes" /> 
+  <meta content="Configuring for AEM Apps" name="seoTitle" /> 
+  <meta content="Configuring for AEM Apps" name="navTitle" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="2018-04-26T10:13:44.909-0400" name="locHandOffDate" /> 
+  <meta content="f22cfe0a-e272-4dea-b03b-a6cd470950b4" name="jcr:uuid" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/config-apps.html" name="publishExternalURL" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+ </head> 
+ <body> 
+  <p>Adobe Experience Manager Apps provides the ability to update the content of your application over the air (OTA). The updated content is stored on the publish instance. To allow the App on your device to connect to the publish instance and check for updates the publish instance needs to be configured to allow an empty referrer header.</p> 
+  <h3>Configuring Empty Referrer Header</h3> 
+  <p></p> 
+  <p></p> 
+  <p>To configure the referrer filter service:</p> 
+  <p></p> 
+  <p></p> 
+  <p><a name="par_procedure-wammox-refd"></a></p> 
+  <p></p> 
+  <p></p> 
+  <ul> 
+   <li><p>Open the Apache Felix console (<strong>Configurations</strong>) at:<br /> <i> http://&amp;lt;server&amp;gt;:&amp;lt;port_number&amp;gt;/system/console/configMgr</i></p>     </li> 
+   <li><p>Login as admin.</p>     </li> 
+   <li><p>In the <strong>Configurations</strong> menu, select:</p>      </li> 
+   <li><p>Check the Allow Empty field, to allow empty/missing referrer headers.</p>     </li> 
+   <li><p>Click <strong>Save</strong> to save your changes.</p>     </li> 
+  </ul> 
+  <p></p> 
+  <p></p> 
+  <img imageRotate="0" src="assets/chlimage_1-59.png" /> 
+  <p>See the <a href="../../../sites/deploying/using/osgi-configuration-settings.md">OSGI Configuration Settings</a> and <a href="/content/docs/en/aem/6-3/administer/security/crx-security-checklist#Issues%20with%20Cross-Site%20Request%20Forgery">Security Checklist - Issues with Cross-Site Request Forgery</a> for further details. </p> 
+ </body> 
+</html>

@@ -1,0 +1,106 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="/content/docs/en/aem/6-3/author/author-environment/user-properties" name="qaNotes" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-04-19T10:36:16.624-0400" name="locHandOffDate" />
+  <meta content="bohnert" name="cq:lastModifiedBy" />
+  <meta content="2018-10-28T01:11:49.938-0400" name="topicBrowsingSortDate" />
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" />
+  <meta content="jsyal@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="417ab989-93c1-4c1c-93ba-99fbda6c10c7" name="jcr:predecessors" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-10-28T01:11:49.938-0400" name="lastPublishExternalDate" />
+  <meta content="2018-10-28T01:11:49.952-0400" name="cq:lastModified" />
+  <meta content="2018-10-28T01:11:49.938-0400" name="publishExternalDate" />
+  <meta content="2017-12-01T19:02:58.839-0500" name="jcr:created" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="AEM provides you with the capability to configure your account and certain aspects of the author environment" name="seoDescription" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:introduction;content_type:reference" name="cq:tags" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="b0421d7b-2f06-475f-8e80-1ac4cbe639a3" name="jcr:uuid" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="Chris Bohnert" name="contentOwner" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="Configuring your account environment" name="seoTitle" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="/content/help/en/experience-manager/6-4/sites/authoring/morehelp/introduction;/content/help/en/experience-manager/6-4/sites/authoring/morehelp/introduction" name="moreHelpPaths" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/user-properties.html" name="publishExternalURL" />
+  <meta content="2018-10-28T01:11:50.027-0400" name="cq:lastReplicated" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="jsyal" name="cq:lastReplicatedBy" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2017-10-31T16:19:36.777-0400" name="firstPublishExternalDate" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="audience:authoring" name="primaryAudienceTag" />
+  <meta content="Configuring your account environment" name="navTitle" />
+  <meta content="Configuring your account environment" name="jcr:title" />
+ </head>
+ <body>
+  <p>AEM provides you with the capability to configure your account and certain aspects of the author environment.<br /> </p> 
+  <p>Using the <a href="../../../sites/authoring/using/user-properties.md#main-pars-title-3">User</a> option in the <a href="../../../sites/authoring/using/basic-handling.md#main-pars-title-21">header</a> and the associated <a href="#userpreferences">My Preferences</a> dialog, you can modify your user options such as.</p> 
+  <p>Begin by acessing the <a href="../../../sites/authoring/using/user-properties.md#main-pars-title-3">User</a> option in the header.<br /> </p> 
+  <h3>User Settings</h3>
+  <p>The <strong>User</strong> settings dialog gives you access to:</p> 
+  <ul> 
+   <li>Impersonate as
+    <ul> 
+     <li>With the <a href="../../../sites/administering/using/security.md#main-pars-title-23">Impersonate as</a> functionality a user can work on behalf of another user.</li> 
+    </ul> </li> 
+   <li>Profile<br /> 
+    <ul> 
+     <li>Offers a convenient link to your <a href="../../../sites/administering/using/security.md">user settings</a>)<br /> </li> 
+    </ul> </li> 
+   <li><a href="../../../sites/authoring/using/user-properties.md#main-pars-title-2">My Preferences</a>
+    <ul> 
+     <li>Specify various preference settings unique to your user<br /> </li> 
+    </ul> </li> 
+  </ul> 
+  <img imageRotate="0" src="assets/screen_shot_2018-03-20at103808.png" />
+  <h3>My Preferences</h3>
+  <p>The <strong>My Preferences</strong> dialog is access via the <a href="../../../sites/authoring/using/user-properties.md#main-pars-title-3">User</a> option in the header. </p> 
+  <p>Each user can set certain properties for himself or herself.<br /> </p> 
+  <img imageRotate="0" src="assets/screen_shot_2018-03-20at102118.png" />
+  <ul>
+   <li> <p>This defines the language to use for the UI of the authoring environment. Select the required language from the available list.</p> <p>This configuration is also used for the classic UI.</p> </li>
+   <li> <p>This defines the behavior or opening windows. Select either:<br /> </p> 
+    <ul> 
+     <li><strong>Multiple Windows</strong> (Default)
+      <ul> 
+       <li>Pages will be opened in a new window.</li> 
+      </ul> </li> 
+     <li><strong>Single Window</strong>
+      <ul> 
+       <li>Pages will be opened in the current window.</li> 
+      </ul> </li> 
+    </ul> </li>
+   <li> <p>This option requires the Assets companion app or Create Cloud desktop app.</p> </li>
+   <li> <p>This defines the default color used when making annotations.</p> 
+    <ul> 
+     <li>Click the color block to open the swatch selector to select a color.</li> 
+     <li>Alternatively, enter the hex code for the desire color in the field.<br /> </li> 
+    </ul> </li>
+   <li> <p>To improve readability, AEM will render dates within the last seven days as relative dates (e.g. Three days ago) and older dates as exact dates (e.g. 20 March 2017). </p> <p>This option defines how dates in the system are displayed. The following options are available:<br /> </p> 
+    <ul> 
+     <li><strong>Always show exact date</strong>: The exact date is always displayed (never a relative date).</li> 
+     <li><strong>1 Day</strong>: The relative date is shown for dates within one day, otherwise an exact date is shown.<br /> </li> 
+     <li><strong>7 Days (default)</strong>: The relative date is shown for dates within seven days, otherwise an exact date is shown.<br /> </li> 
+     <li><strong>1 Month</strong>: The relative date is shown for dates within one month, otherwise an exact date is shown.<br /> </li> 
+     <li><strong>1 Year</strong>: The relative date is shown for dates within one year, otherwise an exact date is shown.<br /> </li> 
+     <li><strong>Always show relative date</strong>: Exact dates are never shown and only relative dates are shown.</li> 
+    </ul> </li>
+   <li> <p>AEM supports a number of keyboard shortcuts that make authoring more efficient.</p> 
+    <ul> 
+     <li><a href="../../../sites/authoring/using/page-authoring-keyboard-shortcuts.md">Keyboard shortcuts for editing pages</a></li> 
+     <li><a href="../../../sites/authoring/using/keyboard-shortcuts.md">Keyboard shortcuts for consoles</a><br /> </li> 
+    </ul> <p>This option enables keyboard shortcuts. By default they are enabled, but can be disabled for example if a user has certain accessibility requirements.</p> </li>
+   <li> <p>This option enables <a href="/sites/classic-ui-authoring/user-guide">classic UI</a>-based page authoring. By default the standard UI is used.<br /> </p> </li>
+   <li> <p>This option will only be available if your system administrator has enabled Assets Home Page experience for the entire organization.</p> </li>
+  </ul>
+ </body>
+</html>

@@ -1,0 +1,75 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="/content/docs/en/aem/6-3/author/classicui/site-page-features/launches/promoting-launches" name="qaNotes" /> 
+  <meta content="5e06b414-ab8c-40dd-bb00-19b7f858360f" name="jcr:predecessors" /> 
+  <meta content="Promoting Launches" name="seoTitle" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="2018-04-03T06:43:58.212-0400" name="lastPublishExternalDate" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2018-04-03T06:43:59.292-0400" name="cq:lastReplicated" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2017-10-31T16:19:19.704-0400" name="firstPublishExternalDate" /> 
+  <meta content="2018-04-19T10:23:15.429-0400" name="cq:lastModified" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="You need to promote launch pages to move the content back into the source (production) before publishing. When a launch page is promoted, the corresponding page of the source pages is replaced with the content of the promoted page." name="seoDescription" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;content_type:reference;topic_tags:site-features" name="cq:tags" /> 
+  <meta content="audience:classic-ui-authoring" name="primaryAudienceTag" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="Promoting Launches" name="navTitle" /> 
+  <meta content="User" name="contentOwner" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2018-04-03T06:43:58.212-0400" name="publishExternalDate" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="Promoting Launches" name="jcr:title" /> 
+  <meta content="2018-04-19T10:23:15.427-0400" name="locHandOffDate" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/classic-ui-authoring/morehelp/site-features;/content/help/en/experience-manager/6-4/sites/classic-ui-authoring/morehelp/site-features" name="moreHelpPaths" /> 
+  <meta content="2c243abe-f193-40df-aef7-2bf3a0afd533" name="jcr:uuid" /> 
+  <meta content="/content/docs/en/aem/6-0/author/site-page-features/launches" name="legacyPath" /> 
+  <meta content="2017-12-01T19:03:45.394-0500" name="jcr:created" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/classic-ui-authoring/using/classic-launches-promoting.html" name="publishExternalURL" /> 
+  <meta content="2018-04-03T06:43:58.212-0400" name="topicBrowsingSortDate" /> 
+ </head> 
+ <body>  
+  <p>You need to promote launch pages to move the content back into the source (production) before publishing. When a launch page is promoted, the corresponding page of the source pages is replaced with the content of the promoted page. The following options are available when promoting a launch page:</p> 
+  <ul> 
+   <li>Whether to promote only the current page or the entire launch.</li> 
+   <li>Whether to promote the child pages of the current page.</li> 
+   <li>Whether to promote the full launch or only pages that have changed.</li> 
+  </ul> 
+  <h2>Promoting Launch Pages</h2> 
+  <p>To promote pages, perform the following steps while editing the launch page that you want to promote:</p> 
+  <ol> 
+   <li><p>On the <strong>Page</strong> tab in Sidekick, click <strong>Promote Launch</strong>.</p> </li> 
+   <li><p>Specify the pages to promote:</p> 
+    <ul> 
+     <li>(Default) To promote only the current page, select <strong>Promote Page Changes To Production Version</strong>.</li> 
+     <li>To also promote the child pages of the curent page, select <strong>Include Sub Pages</strong>.</li> 
+     <li>To promote all pages in the launch, select <strong>Promote Full Launch To Production Version</strong>.</li> 
+    </ul> </li> 
+   <li><p>To add the production pages to a workflow package, select <strong>Add To Workflow Package</strong> and then select the workflow package.</p> </li> 
+   <li><p>Click <strong>Promote</strong>.</p> </li> 
+  </ol> 
+  <h2>Processing Promoted Pages Using AEM Workflow</h2> 
+  <p>Use workflow models to perform bulk processing of promoted Launches pages:</p> 
+  <ol> 
+   <li>Create a workflow package. </li> 
+   <li>When authors promote Launch pages, they store them in the workflow package.</li> 
+   <li>Start a workflow model using the package as the payload. </li> 
+  </ol> 
+  <p>To start a workflow automatically when pages are promoted, <a href="../../../sites/administering/using/workflows-starting.md#main-pars-par12-evwuge-refd">configure a workflow launcher</a> for the package node.</p> 
+  <p>For example, you can automatically generate page activation requests when authors promote Launches pages. Configure a workflow launcher to start the Request Activation workflow when the package node is modified. </p> 
+  <img imageRotate="0" src="assets/chlimage_1-147.png" /> 
+ </body> 
+</html>

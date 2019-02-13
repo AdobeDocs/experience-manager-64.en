@@ -1,0 +1,80 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="asgupta" name="acrolinxLastCheckedBy" />
+  <meta content="2018-04-24T11:58:23.702-0400" name="locHandOffDate" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Delivering Dynamic Media Assets" name="navTitle" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-10-25T15:36:50.331-0400" name="publishExternalDate" />
+  <meta content="2018-10-25T15:36:50.331-0400" name="lastPublishExternalDate" />
+  <meta content="2019-01-12T17:28:24.498-0500" name="acrolinxDate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-10-25T15:36:50.331-0400" name="topicBrowsingSortDate" />
+  <meta content="/content/help/en/experience-manager/6-4/assets/morehelp/dynamic-media;/content/help/en/experience-manager/6-4/assets/morehelp/dynamic-media" name="moreHelpPaths" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="50a0befc-786c-44ed-864e-f2a1f822a631" name="jcr:uuid" />
+  <meta content="/content/docs/en/aem/6-3/author/assets/dynamic-media/delivering-dynamic-media-assets" name="qaNotes" />
+  <meta content="green" name="acrolinxPageStatus" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/delivering_dynamic_media_assets_krs_workflow_f3c2f2ccebf6138e_124_report.xml" name="acrolinxReportURL" />
+  <meta content="2018-03-14T09:01:04.922-0400" name="jcr:created" />
+  <meta content="7d119f30-6bdd-4ab0-b24f-40b9d6f52b52" name="jcr:predecessors" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="Learn how to deliver dynamic media assets" name="seoDescription" />
+  <meta content="2019-01-10T13:13:12.689-0500" name="cq:lastModified" />
+  <meta content="checked_not_improved" name="acrolinxStatus" />
+  <meta content="Delivering Dynamic Media Assets" name="jcr:title" />
+  <meta content="2018-10-25T15:36:50.382-0400" name="cq:lastReplicated" />
+  <meta content="rbrough" name="cq:lastReplicatedBy" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="rbrough" name="cq:lastModifiedBy" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="Rick Brough" name="contentOwner" />
+  <meta content="rbrough@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="313" name="acrolinxWords" />
+  <meta content="2017-10-31T16:35:00.815-0400" name="firstPublishExternalDate" />
+  <meta content="20" name="acrolinxSentences" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS" name="primaryProductTag" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/assets/using/delivering-dynamic-media-assets.html" name="publishExternalURL" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS;topic_tags:dynamic-media;content_type:reference" name="cq:tags" />
+  <meta content="Delivering Dynamic Media Assets" name="seoTitle" />
+ </head>
+ <body>
+  <p>How you can deliver your dynamic media assets - both video and images - depends on how your website is implemented.</p> 
+  <p>With Dynamic Media you have several options:</p> 
+  <ul> 
+   <li>If your website is hosted on AEM, then you want to add the dynamic media assets directly to your page. </li> 
+   <li>If your website is not on AEM, then you have the choice of either:
+    <ul> 
+     <li>Embedding your video or image on your website.</li> 
+     <li>Link URLs to your web application. Use linking when you want to deliver a video player as a pop-up or modal window.</li> 
+     <li>If your site is responsive, you can <a href="../../assets/using/responsive-site.md">deliver optimized images.</a></li> 
+    </ul> </li> 
+  </ul> 
+  <note>
+   <p>Smart imaging works with your existing image presets and uses intelligence at the last millisecond of delivery to further reduce image file size based on browser or network connection speed. See <a href="../../assets/using/imaging-faq.md">Smart Imaging</a> for more information.</p> 
+  </note>
+  <p>For more information, see the following topics:</p> 
+  <ul> 
+   <li><a href="../../assets/using/adding-dynamic-media-assets-to-pages.md" target="_blank">Adding Dynamic Media Assets to Web Pages</a></li> 
+   <li><a href="../../assets/using/embed-code.md" target="_blank">Embedding the Video or Image Viewer on a Web Page</a></li> 
+   <li><a href="https://helpx.adobe.com/experience-manager/6-4/assets/using/hotlink-protection.html" target="_blank">Activating hotlink protection in Dynamic Media</a></li> 
+   <li>Integrating digital non-visible watermarking (Digimarc) with Dynamic Media<br /> </li> 
+   <li><a href="../../assets/using/linking-urls-to-yourwebapplication.md" target="_blank">Linking URLs to your Web Application</a></li> 
+   <li><a href="../../assets/using/responsive-site.md" target="_blank">Delivering Optimized Images for a Responsive Site</a></li> 
+   <li><a href="../../assets/using/http2.md" target="_blank">HTTP2 Delivery of Content</a></li> 
+   <li>I<a href="../../assets/using/invalidate-cdn-cached-content.md" target="_blank">nvalidating your CDN cached content</a></li> 
+   <li><a href="../../assets/using/using-rulesets-to-transform-urls.md" target="_blank">Using Rulesets to Transform URLs</a></li> 
+  </ul> 
+  <h3>HTTP/2 delivery of Dynamic Media assets</h3>
+  <p>AEM now supports the delivery of all Dynamic Media content (images and video) over HTTP/2. That is, a published URL or embed code for the image or video is available to be integrated with any application that accepts a hosted asset. That published asset is then delivered by way of HTTP/2 protocol. This method of delivery improves the way browsers and servers communicate, allowing for better response and load times of all your Dynamic Media assets.</p> 
+  <p>See <a href="../../sites/administering/using/scene7-http2faq.md">HTTP/2 Delivery of Content Frequently Asked Questions</a> to learn more.</p> 
+ </body>
+</html>

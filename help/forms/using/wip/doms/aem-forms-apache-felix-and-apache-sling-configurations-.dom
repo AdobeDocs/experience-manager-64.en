@@ -1,0 +1,98 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="khsingh" name="contentOwner" /> 
+  <meta content="dde6e0cf-932f-45f7-bb7b-258078818db1" name="jcr:predecessors" /> 
+  <meta content="en" name="pageCreatedAt" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="This article explores all the Apache Felix/Apache Sling configurations of AEM Forms. These configurations help you change the behavior of an AEM Forms author and publish instance." name="jcr:description" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2019-02-11T20:42:45.528-0500" name="jcr:created" /> 
+  <meta content="2017-11-30T06:14:22.547-0500" name="cq:lastModified" /> 
+  <meta content="75e79a3f-88d2-4a1f-b7df-a0bd4906a051" name="jcr:uuid" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="true" name="preview" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="DO NOT PUBLISH: AEM Forms Apache Felix and Apache Sling configurations " name="jcr:title" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+ </head> 
+ <body> 
+  <h2 id="Overview">Overview </h2> 
+  <p>Along with other, an AEM Forms installation contains Apache Felix and Apache Sling applications. These applications provide configurations to change the behavior of AEM modules and components. Many AEM Forms modules provide such configurations.</p> 
+  <p>This article explores all such AEM Forms configurations available out of the box, provides methods to browse and edit the configurations, and provides detailed information about the options available in a configuration. The configurations are classified into the following categories:</p> 
+  <ul> 
+   <li>AEM Forms on OSGi - Native configurations</li> 
+   <li>AEM Forms on OSGI - Document Services configurations</li> 
+   <li>AEM Forms on JEE - Document Services configurations</li> 
+  </ul> 
+  <h2 id="AEM-Forms-on-OSGi-Native-configurations">AEM Forms on OSGi Configurations</h2> 
+  <p>The correspondence management module has the following configurations: </p> 
+  <h4>Asset Composer Configurations</h4> 
+  <p>The Asset Composer configuration provides options to configure core correspondence management capabilities such as asset (text, image, list, condition, and letter template) creation and document rendering. To configure available capabilities, navigate to AEM Web Console Configuration and open the <strong>Asset Composer Configurations</strong> option. The <a href="../../../forms/using/cm-configuration-properties.md" target="_blank">Correspondence Management Configuration Properties</a> article also lists all the properties of the configuration.</p> 
+  <p>For detailed steps to edit a configuration, see configuration section in <a href="../../../sites/deploying/using/web-console.md">Web Console</a> documentation.</p> 
+  <h4>AEM Forms Analytics Configuration</h4> 
+  <p>AEM Forms integrates with Adobe Analytics that allows you to capture and track performance metrics for your published forms and documents. The objective 
+   <g class="gr_ gr_10 gr-alert gr_gramm gr_run_anim Grammar multiReplace" data-gr-id="10">
+     behind 
+   </g> analyzing these metrics is to make informed decisions based on data about the changes required to make forms or document more usable. AEM Forms Analytics Configuration provides options to select framework, configure 
+   <g class="gr_ gr_13 gr-alert gr_spell gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="13">
+     cron 
+   </g> expression, and report time-out. To configure available options, navigate to AEM Web Console Configuration and open the AEM Forms Analytics Configuration option.</p> 
+  <p>The configuration service has only a subset of options required to configure Adobe Analytics and AEM Forms reports. For detailed information about configuring Adobe Analytics and AEM Forms reports, see the<a href="../../../forms/using/configure-analytics-forms-documents.md" target="_blank"> Configuring analytics and reports</a> article.</p> 
+  <h4>AEM Forms Analytics Configuration</h4> 
+  <h2 id="AEM-Forms-on-OSGi-Document-Service-configurations">AEM Forms on OSGI - Document Services configurations </h2> 
+  <p>Assembler service lets you combine, rearrange, and augment PDF and XDP documents and obtain information about PDF documents. Each job submitted to the Assembler service includes a Document Description XML (DDX) document, source documents, and external resources (strings and graphics). For more information about assembler service, see <a href="https://helpx.adobe.com/content/help/en/aem-forms/6/overview-aem-document-services.html#main-pars_header_0">Overview of Assembler Service</a>.</p> 
+  <p>Assembler service depends on the Reader Extensions service, Signature service, Forms service, and Output service. Perform the following steps to ensure that above mentioned services are configured:</p> 
+  <ol> 
+   <li><p>Open AEM Bundles Web Console as an administrator. The default URL is http://[server]:[port]&amp;gt;/system/console/bundles. </p> </li> 
+   <li><p>Search the services/bundles listed below and ensure that these services are up and running:</p> 
+    <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+     <tbody> 
+      <tr> 
+       <th>Service<br /> </th> 
+       <th>Bundle </th> 
+      </tr> 
+      <tr> 
+       <td>Signatures Service</td> 
+       <td>adobe-aemfd-signatures</td> 
+      </tr> 
+      <tr> 
+       <td>Reader Extensions Service</td> 
+       <td>com.adobe.aemfd.adobe-aemfd-readerextensions<br /> </td> 
+      </tr> 
+      <tr> 
+       <td>Forms Service</td> 
+       <td>com.adobe.livecycle.adobe-lc-forms-bedrock-connector<br /> </td> 
+      </tr> 
+      <tr> 
+       <td>Output Service</td> 
+       <td>com.adobe.livecycle.adobe-lc-forms-bedrock-connector</td> 
+      </tr> 
+     </tbody> 
+    </table> </li> 
+  </ol> 
+  <p><a>Barcoded Forms</a> service extracts data from electronic images of barcodes. By default, the service starts scanning a barcode from all the sides (Top to bottom, left to right, bottom to top, and right to left). You can use the <strong>AEMFD Barcoded Forms Service</strong> configuration to limit the service to scan the barcode only from specified side. To configure the sides, navigate to AEM Web Console Configuration, open the AEMFD Barcoded Forms Service configuration, and change select the required sides. </p> 
+  <p>AEM Forms PDF Generator enables IT managers to centrally manage and control the creation of Adobe PDF documents throughout the enterprise. With it, employees can easily convert documents created within the organization to Adobe PDF files that can be viewed using the ubiquitous Adobe Reader® software. PDF Generator offers flexible deployment options, granular control over document properties, and feature sets that can meet the document conversion needs of every organization.</p> 
+  <ul> 
+   <li>To install, configure, and run PDF Generator on an <strong>AEM Forms on OSGi</strong> environment, see the <a href="/forms/using/install-configure-pdf-generator" target="_blank">Install and Configure PDF Generator</a> article.</li> 
+   <li>To install, configure, and run PDF generator on an <strong>AEM Forms on JEE </strong>environment, see AEM Forms on JEE specific Installing, Upgrading, and Clustering documentation at <a href="/forms/using/topics">AEM Forms help and tutorials</a>.<br /> </li> 
+  </ul> 
+  <p>The Reader Extensions service enables your organization to easily share interactive PDF documents by extending the functionality of Adobe Reader with additional usage rights. The Reader Extension service is part of the <a href="../../../forms/using/overview-aem-document-services.md" target="_blank">DocAssurance Service</a>. To configure the DocAssurance service, perform the steps listed in the <a href="/forms/using/configuring-document-services">Configuring the DocAssurance service</a> article.</p> 
+  <p>The Signature service accesses certificates and credentials that are stored in the trust store. It lets you work with digital signatures and documents on the AEM server. The signature service is part of the <a href="../../../forms/using/overview-aem-document-services.md">DocAssurance Service</a>. To configure the DocAssurance service, perform the steps listed in the <a href="/forms/using/configuring-document-services" target="_blank">Configuring the DocAssurance service</a> article.</p> 
+  <p>AEM Forms can also use credentials stored on an HSM or etoken to eSign or apply server-sided digital signatures to a document. Hardware security modules (HSM) and etokens are dedicated, hardened, and tamper-resistance computing devices designed to securely manage, process, and store digital keys. These devices are directly attached to a computer or a network server. For detailed steps to use an HSM or etoken device with AEM Forms, see <a href="../../../forms/using/hsm-certify-esign-docs.md">Use HSM to digitally sign or certify documents</a>.</p> 
+  <h2 id="AEM-Forms-on-JEE-Document-Services-configurations">AEM Forms on JEE - Document Services configurations </h2> 
+ </body> 
+</html>

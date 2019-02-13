@@ -1,0 +1,203 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="Projects let you group resources into one entity whose common, shared environment makes it easy to manage your projects" name="seoDescription" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="0e825929-e8b5-4d9b-9e68-f08cbb209f3e" name="jcr:predecessors" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="2018-10-28T00:40:09.676-0400" name="topicBrowsingSortDate" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/authoring/morehelp/projects;/content/help/en/experience-manager/6-4/sites/authoring/morehelp/projects" name="moreHelpPaths" /> 
+  <meta content="Projects" name="navTitle" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="bohnert" name="cq:lastModifiedBy" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="6a2fb3c3-28b5-4a8f-97a5-90a07cb26b9b" name="jcr:uuid" /> 
+  <meta content="Chris Bohnert" name="contentOwner" /> 
+  <meta content="2017-10-31T16:19:56.069-0400" name="firstPublishExternalDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="jsyal" name="cq:lastReplicatedBy" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2018-04-19T10:34:12.307-0400" name="locHandOffDate" /> 
+  <meta content="Projects" name="seoTitle" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:projects;content_type:reference" name="cq:tags" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2018-10-28T00:40:09.676-0400" name="publishExternalDate" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/projects.html" name="publishExternalURL" /> 
+  <meta content="2018-10-28T00:40:09.676-0400" name="lastPublishExternalDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="audience:authoring" name="primaryAudienceTag" /> 
+  <meta content="/content/docs/en/aem/6-3/author/projects" name="qaNotes" /> 
+  <meta content="jsyal@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2018-02-03T08:01:14.127-0500" name="jcr:created" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2018-10-28T00:40:09.683-0400" name="cq:lastModified" /> 
+  <meta content="Projects" name="jcr:title" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2018-10-28T00:40:09.729-0400" name="cq:lastReplicated" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+ </head> 
+ <body>   
+  <p>Projects let you group resources into one entity. A common, shared environment makes it easy to manage your projects. The types of resources you can associate with a project are referred to in AEM as Tiles. Tiles may include project and team information, assets, workflows, and other types of information, as described in detail in <a href="#projecttiles">Project Tiles.</a></p> 
+  <note> 
+   <p>For users in projects to see other users/groups while using Projects functionality like creating projects, creating tasks/workflows, seeing and managing the team, those users need to have read access on <strong>/home/users</strong> and <strong>/home/groups</strong>. The easiest way to implement this is to give the <strong>projects-users</strong> group read access to <strong>/home/users</strong> and<strong>/home/groups</strong>. </p> 
+  </note> 
+  <p>As a user, you can do the following:</p> 
+  <ul> 
+   <li>Create projects</li> 
+   <li>Associate content and asset folders to a project</li> 
+   <li>Delete projects</li> 
+   <li>Remove content links from project</li> 
+  </ul> 
+  <p>See the following additional topics:</p> 
+  <ul> 
+   <li><a href="../../../sites/authoring/using/touch-ui-managing-projects.md">Managing Projects<br /> </a></li> 
+   <li><a href="../../../sites/authoring/using/task-content.md">Working with Tasks</a></li> 
+   <li><a href="../../../sites/authoring/using/projects-with-workflows.md">Working with Project Workflows</a></li> 
+   <li><a href="../../../sites/authoring/using/managing-product-information.md">Creative Project and PIM Integration</a></li> 
+  </ul> 
+  <h2>Projects Console</h2>  
+  <p>The projects console is where you access and manage your projects within AEM.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-210.png" /> 
+  <ul> 
+   <li><p>Select <strong>Timeline</strong> and then a project to view its timeline.</p> </li> 
+   <li><p>Click/tap <strong>Select</strong> to enter selection mode.</p> </li> 
+   <li><p>Click <strong>Create</strong> to add projects.</p> </li> 
+   <li><p><strong>Toggle Active Projects</strong> lets you switch between all projects and only those that are active.</p> </li> 
+   <li><p><strong>Show Statistics View</strong> lets you see project statistics concerning task completions.</p> </li> 
+  </ul> 
+  <h2>Project Tiles</h2> 
+  <p>With Projects, you associate different types of information with your projects. These are called <strong>Tiles</strong>. Each of the tiles and what kind of information they contain is described in this section.</p> 
+  <p>You can have the following tiles associated with your project. Each is described in the sections that follow:</p> 
+  <ul> 
+   <li>Assets and asset collections</li> 
+   <li>Experiences</li> 
+   <li>Links</li> 
+   <li>Project Information</li> 
+   <li>Team</li> 
+   <li>Landing Pages</li> 
+   <li>Emails</li> 
+   <li>Workflows</li> 
+   <li>Launches</li> 
+   <li>Tasks</li> 
+  </ul> 
+  <h3>Assets</h3> 
+  <p>In the <strong>Assets</strong> tile, you can gather all assets that you use for a particular project.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-211.png" /> 
+  <p>You upload assets directly in the tile. In addition you can create Image Sets, Spin Sets, or Mixed Media Sets if you have the Dynamic Media add-on.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-212.png" /> 
+  <h3>Asset Collections</h3> 
+  <p>Similar to assets, you can add <a href="../../../assets/using/managing-collections-touch-ui.md">asset collections</a> directly to your project. You define collections in Assets.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-213.png" /> 
+  <p>Add a collection by clicking <strong>Add Collection</strong> and selecting the appropriate collection from the list.</p> 
+  <h3>Experiences</h3> 
+  <p>The <strong>Experiences</strong> tile lets you add a Mobile app, web site, or publication to the project.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-214.png" /> 
+  <p>The icons indicate which kind of experience is represented: web site, mobile application or a publication. Add experiences by clicking the + sign or clicking <strong>Add Experience</strong> and selecting the type of experience.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-215.png" /> 
+  <p>Select the path for the thumbnails and if applicable, change the thumbnail for the experience. Experiences are grouped together in the <strong>Experiences</strong> tile. </p> 
+  <h3>Links</h3> 
+  <p>The Links tile lets you associate external links with your project.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-216.png" /> 
+  <p>You can name the link with an easy-to-recognize name as well as change the thumbnail.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-217.png" /> 
+  <h3>Project Info</h3> 
+  <p>The Project Information tile provides general information on the project including a description, project status (inactive or active), a due date, and members. In addition, you can add a project thumbnail, which is displayed on the main Projects page.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-218.png" /> 
+  <p>Team members can be assigned and deleted from this tile (or have their roles changed) as well as the Team tile.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-219.png" /> 
+  <h3>Translation Job</h3> 
+  <p>The Translation Job tile is where you start a translation and also where you see the status of your translations. To set up your translation, see <a href="../../../assets/using/translation-projects.md">Creating Translation Projects</a>.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-220.png" /> 
+  <p>Click the ellipsis at the bottom of the <strong>Translation Job</strong> card to view the assets in the translation workflow. The translation job list also displays entries for asset metadata and tags. These entries indicate that the metadata and tags for the assets are also translated.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-221.png" />  
+  <h3>Team</h3> 
+  <p>In this tile, you can specify the members of the project team. When editing, you can enter the name of the team member and assign the user role.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-222.png" /> 
+  <p>You can add and delete team members from the team. In addition, you can edit the <a href="#userroles">user role</a> assigned to the team member. </p> 
+  <img imageRotate="0" src="assets/chlimage_1-223.png" /> 
+  <h3>Landing Pages</h3> 
+  <p>The <strong>Landing</strong> Pages tile lets you request a new landing page.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-224.png" /> 
+  <p>This workflow is described in <a href="../../../sites/authoring/using/projects-with-workflows.md#requestlandingpageworkflow">Create a Landing Page workflow</a>.</p> 
+  <h3>Emails</h3> 
+  <p>The <strong>Emails</strong> tile helps you manage requests for email. It starts the Request for Email workflow.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-225.png" /> 
+  <p>More information is described in the <a href="../../../sites/authoring/using/projects-with-workflows.md#requestemailworkflow">Request Email workflow.</a></p> 
+  <h3>Workflows</h3> 
+  <p>You can assign your project to follow certain workflows. If any workflows are running, their status displays in the <strong>Workflows</strong> tile in Projects.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-226.png" /> 
+  <p>You can assign your project to follow certain workflows. Depending on which project you choose you have different workflows available. </p> 
+  <p>These are described in <a href="../../../sites/authoring/using/projects-with-workflows.md">Working with Project Workflows.</a></p> 
+  <h3>Launches</h3> 
+  <p>The Launches tile shows any launches that have been requested with a <a href="../../../sites/authoring/using/projects-with-workflows.md">Request Launch workflow.</a></p> 
+  <img imageRotate="0" src="assets/chlimage_1-227.png" /> 
+  <h3>Tasks</h3> 
+  <p>Tasks let you monitor the status of any project-related tasks, including workflows. Tasks are covered in detail at <a href="../../../sites/authoring/using/task-content.md">Working with Tasks</a>.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-228.png" /> 
+  <h2>Project Templates</h2> 
+  <p>AEM ships with three different templates out of the box: </p> 
+  <ul> 
+   <li>A simple project - A reference sample for any projects that do not fit into other categories (a catch-all). It includes three basic roles (Owners, Editors, and Observers) and four workflows (Project Approval, Request Launch, Request Landing Page and Request Email).</li> 
+   <li>A media project - A reference sample project for media-related activities. It includes several media related project roles (Photographers, Editors, Copywriters, Designers, Owners and Observers). It also includes two workflows related to media content - Request Copy (for requesting and reviewing text) and Product Photo Shoot (for managing product related photography)</li> 
+   <li><a href="../../../sites/authoring/using/managing-product-information.md">Product Photo Shoot Project</a> - A reference sample for managing eCommerce related product photography. It includes roles for Photographers, Editors, Photo Retouchers, Owners, Creative Directors, Social Media Marketers, Marketing Managers, Reviewers and Observers.</li> 
+   <li><a href="../../../sites/administering/using/translation.md">A translation project</a> - A reference sample for managing translation related activities. It includes three basic roles (Owners, Editors, and Observers). It includes two workflows that are accessed in the Workflows user interface. </li> 
+  </ul> 
+  <p>Based on the template you select, you have different options available to you particularly around user roles and workflows.</p>  
+  <h2>User Roles in a Project</h2> 
+  <p>The different user roles are set in a Project template and are used for two primary reasons:</p> 
+  <ol> 
+   <li>Permissions. The user roles fall into one of the three categories listed: Observer, Editor, Owner. For example, a Photographer or Copywriter will have the same privileges as an Editor. The permissions determine what a user can do to content in a project.</li> 
+   <li>Workflows. The workflows determine who is assigned tasks in a project. The tasks can be associated with a project role. For example, a task can be assigned to Photographers so all team members that have the Photographer role will get the task.</li> 
+  </ol> 
+  <p>All projects support the following default roles to let you administer security and control permissions:</p> 
+  <table border="1" cellpadding="0" cellspacing="0"> 
+   <tbody> 
+    <tr> 
+     <td valign="top" width="160"><p><strong>Role</strong></p> </td> 
+     <td valign="top" width="160"><p><strong>Description</strong></p> </td> 
+     <td valign="top" width="160"><p><strong>Permissions</strong></p> </td> 
+     <td valign="top" width="160"><p><strong>Group Membership</strong></p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="160"><p>Observer</p> </td> 
+     <td valign="top" width="160"><p>A user in this role can view project details, including the project status.</p> </td> 
+     <td valign="top" width="160"><p>Read-only permissions on a project</p> </td> 
+     <td valign="top" width="160"><p>workflow-users group</p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="160"><p>Editor</p> </td> 
+     <td valign="top" width="160"><p>A user in this role can upload and edit the contents of a project.</p> <p> </p> </td> 
+     <td valign="top" width="160"> 
+      <ul> 
+       <li>Read and Write access on a project, associated metadata, and related assets.</li> 
+       <li>Privileges to upload a shot list, photo shoot, and review and approve assets</li> 
+       <li>Write permission on /etc/commerce</li> 
+       <li>Have modify permision on a specific project</li> 
+      </ul> </td> 
+     <td valign="top" width="160"><p>workflow-users group</p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="160"><p>Owner</p> </td> 
+     <td valign="top" width="160"><p>A user in this role can initiate a project. An owner can create a project, intiate work in a project and also move approved assets to the Production folder. Although all other tasks in the project can also be viewed and performed by the owner.</p> </td> 
+     <td valign="top" width="160"> 
+      <ul> 
+       <li>Write permission on /etc/commerce</li> 
+      </ul> </td> 
+     <td valign="top" width="160"> 
+      <ul> 
+       <li>DAM-users group (to be able to create a project)</li> 
+       <li>project-administrators group (to be able to move assets)</li> 
+      </ul> </td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <p>For creative projects, additional roles - for example, photographers - are also provided. You can use these roles to derive custom roles for a specific project.</p> 
+  <note> 
+   <p>When you create the project and add users to the various roles, groups associated with the project are automatically created to manage associated permissions. For example, a project called Myproject would have three groups <strong>Myproject Owners</strong>, <strong>Myproject Editors</strong>, <strong>Myproject Observers</strong>. However, if the project is deleted, those groups are not automatically deleted. An administrator needs to manually delete the groups in <strong>Tools</strong> &amp;gt; <strong>Security</strong> &amp;gt; <strong>Groups</strong>.</p> 
+  </note> 
+ </body> 
+</html>

@@ -1,0 +1,50 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="Catalog Feature" name="seoTitle" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="/content/help/en/experience-manager/6-4/communities/morehelp/authoring;/content/help/en/experience-manager/6-4/communities/morehelp/authoring" name="moreHelpPaths" />
+  <meta content="2018-07-12T03:35:40.927-0400" name="lastPublishExternalDate" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="Catalog Feature" name="navTitle" />
+  <meta content="/content/docs/en/aem/6-3/author/communities/catalog" name="qaNotes" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="2017-10-31T16:33:57.178-0400" name="firstPublishExternalDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="mgulati" name="cq:lastReplicatedBy" />
+  <meta content="2018-07-12T03:35:40.927-0400" name="publishExternalDate" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="Catalog Feature" name="jcr:title" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="mgulati" name="cq:lastModifiedBy" />
+  <meta content="2018-07-12T03:35:40.969-0400" name="cq:lastReplicated" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES" name="primaryProductTag" />
+  <meta content="2018-05-17T05:49:56.988-0400" name="locHandOffDate" />
+  <meta content="mgulati@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="msm-service" name="contentOwner" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="The Enablement Assignments and Enablement Catalog components are components of an enablement community" name="seoDescription" />
+  <meta content="2018-07-12T03:35:40.932-0400" name="cq:lastModified" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES;topic_tags:authoring;content_type:reference" name="cq:tags" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="c12d470e-b3a6-4e17-a9bb-2eeee4e305e6" name="jcr:uuid" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-07-12T03:35:40.927-0400" name="topicBrowsingSortDate" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="7dec7c2f-41e5-463d-8e32-b3095d09fecd" name="jcr:predecessors" />
+  <meta content="2017-12-01T19:01:22.671-0500" name="jcr:created" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/communities/using/catalog.html" name="publishExternalURL" />
+ </head>
+ <body>
+  <p>The <a href="../../communities/using/assignments.md"><span class="code">Enablement Assignments</span></a> and <span class="code">Enablement Catalog</span> components found in the Communities group in the components browser are components of an <a href="../../communities/using/overview.md#enablementcommunity">enablement community</a>.</p> 
+  <p>The <span class="code">Enablement Catalog</span> component allows community members to access a catalog of <a href="../../communities/using/resources.md">enablement resources</a>. The use of AEM tags is an important part of managing the listing of enablement resources in a catalog (see <a href="../../communities/using/tag-resources.md">Tagging Enablement Resources</a>).</p> 
+  <p>From the <a href="../../communities/using/getting-started-enablement.md">Getting Started with AEM Communities for Enablement</a> tutorial, see a member's view of assignments and catalogs in the <a href="../../communities/using/enablement-published-site.md">Experience the Published Site</a> section.</p> 
+  <h3>Additional Information</h3>
+  <p>More information may be found on the <a href="../../communities/using/catalog-developer-essentials.md">Catalog Essentials</a> page for developers.</p> 
+  <p>The <a href="../../communities/using/functions.md#catalogfunction">catalog function</a> is available when creating a <a href="../../communities/using/sites-console.md">community site</a>.</p> 
+ </body>
+</html>

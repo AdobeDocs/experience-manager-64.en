@@ -1,0 +1,84 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/mobile/using/starting-aem-phonegap-app.html" name="publishExternalURL" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="/content/docs/en/aem/6-3/develop/mobile-apps/developing-in-phonegap/developing-mobile-applications/starting-aem-phonegap-app" name="qaNotes" />
+  <meta content="Follow this page to learn about the starterkit for developers." name="seoDescription" />
+  <meta content="dist5" name="distType" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="Starting AEM PhoneGap" name="jcr:title" />
+  <meta content="2017-10-31T16:25:57.568-0400" name="firstPublishExternalDate" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="bohnert@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/MOBILE" name="primaryProductTag" />
+  <meta content="2018-05-11T10:03:14.254-0400" name="cq:lastModified" />
+  <meta content="bohnert" name="cq:lastReplicatedBy" />
+  <meta content="2017-12-13T19:01:04.456-0500" name="jcr:created" />
+  <meta content="716c1eb2-1b6b-4592-8c50-8b2137c2dc49" name="jcr:predecessors" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2018-05-11T10:03:14.253-0400" name="locHandOffDate" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="0a709072-9fee-467a-a262-cb2ecf7124c8" name="jcr:uuid" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="User" name="contentOwner" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-05-04T05:14:07.246-0400" name="cq:lastReplicated" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2018-05-04T05:14:07.186-0400" name="topicBrowsingSortDate" />
+  <meta content="2018-05-04T05:14:07.186-0400" name="lastPublishExternalDate" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="light" name="gnavTheme" />
+  <meta content="2018-05-04T05:14:07.186-0400" name="publishExternalDate" />
+  <meta content="msm-service" name="cq:lastModifiedBy" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="/content/help/en/experience-manager/6-4/mobile/morehelp/developing-adobe-phonegap-enterprise;/content/help/en/experience-manager/6-4/mobile/morehelp/developing-adobe-phonegap-enterprise" name="moreHelpPaths" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/MOBILE;topic_tags:developing-adobe-phonegap-enterprise" name="cq:tags" />
+  <meta content="Starting AEM PhoneGap" name="seoTitle" />
+ </head>
+ <body>
+  <note>
+   <p>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). <a href="../../sites/developing/using/spa-overview.md">Learn more</a>.</p>
+  </note>
+  <p>For developers, the best place to start is to take a look at the Adobe Expererience Manager Mobile Starterkit in github</p> 
+  <p>https://github.com/Adobe-Marketing-Cloud-Apps/aem-phonegap-starter-kit</p> 
+  <p>The starterkit will get you going quickly by walking you through the basics of AEM Mobile development, starting with project creation and governance, installing the necessary tooling, defining a Maven archetype, building, deploying and then creating your own experience.</p> 
+  <div>
+   The developers can use this example as a starting point for trying out an AEM Mobile application using PhoneGap. Running through the starterkit and the reference application, will give a solid understanding of the basics to create rich Mobile Applications. 
+  </div> 
+  <ul> 
+   <li>Use the <a href="https://github.com/Adobe-Marketing-Cloud-Apps/aem-phonegap-starter-kit">AEM PhoneGap Starter Kit</a> to create apps suitable for the AEM Mobile catalog.</li> 
+   <li>A <a href="https://github.com/Adobe-Marketing-Cloud-Apps/aem-mobile-hybrid-reference">reference app</a> with full source has been created that demonstrates many of the new features in AEM Mobile, whether you are migrating an existing app into AEM Mobile or starting fresh.</li> 
+   <li>All our samples can be found here on github: <a href="https://github.com/Adobe-Marketing-Cloud-Apps">https://github.com/Adobe-Marketing-Cloud-Apps</a> and include bootstrapping your project with Maven.</li> 
+   <li>Most conference talks will leverage the <a href="https://github.com/blefebvre/aem-phonegap-kitchen-sink">Kitchen Sink tutorial</a>, which you can also find in Github and is focused on the usage of Apache Cordova native extensibility.</li> 
+  </ul> 
+  <note>
+   <p>Once you have had a chance to familiarize yourself with the starterkit, it is important to learn about Adobe Experience Manager <i>components and templates.</i></p> 
+  </note>
+  <h3>Templates and Components</h3>
+  <p>AEM <i>Templates</i> and <i>Components</i> enable line of business owners to create custom experiences. Both <i>Templates </i>and <i>Components</i> are available out-of-the-box or can be custom developed by you, the developer either by extending existing components or creating greenfield (advanced). <i>Templates</i> and <i>Components</i> are what allow the AEM Author to drag-and-dropped to create engaging and relevent experiences. </p> 
+  <ol> 
+   <li><a href="../../sites/developing/using/components.md">Creating Components</a></li> 
+   <li><a href="../../sites/developing/using/templates.md">Creating Templates</a></li> 
+  </ol> 
+  <p>Once you have a solid understanding of the above two steps, jump into:</p> 
+  <ol> 
+   <li><a href="../../mobile/using/phonegap-structure-an-app.md">The structure of an AEM Mobile app</a></li> 
+   <li><a href="../../mobile/using/phonegap-apps-arch.md">The anatomy of an AEM Mobile app</a></li> 
+   <li><a href="../../mobile/using/phonegap-adding-content-to-imported-app.md">Is your existing app ready for AEM Mobile?</a></li> 
+  </ol> 
+  <h3>The Next Steps</h3>
+  <ol> 
+   <li><a href="../../mobile/using/starting-aem-phonegap-app.md">Start my AEM Mobile app experience</a></li> 
+   <li><h5><strong><a href="/content/docs/en/aem/6-3/author/authoring-mobile-apps/phonegap/manage-my-apps-content">Manage my app's content</a></strong></h5> </li> 
+   <li><a href="../../mobile/using/building-app-mobile-phonegap.md">Build my application</a></li> 
+   <li><a href="../../mobile/using/phonegap-intro-to-app-analytics.md">Track my app's performance with Adobe Mobile Analytics</a></li> 
+   <li><a href="../../mobile/using/phonegap-aem-mobile-content-personalization.md">Deliver a personalized app experience with Adobe Target</a></li> 
+   <li><a href="../../mobile/using/phonegap-push-notifications.md">Send important messages to my users</a></li> 
+  </ol> 
+ </body>
+</html>

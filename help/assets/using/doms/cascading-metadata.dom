@@ -1,0 +1,100 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2018-10-15T22:35:27.131-0400" name="lastPublishExternalDate" /> 
+  <meta content="2018-04-03T07:28:58.208-0400" name="jcr:created" /> 
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
+  <meta content="This article describes how to define cascading metadata for assets." name="jcr:description" /> 
+  <meta content="asgupta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2018-10-15T22:35:27.238-0400" name="cq:lastReplicated" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2018-10-15T22:35:27.131-0400" name="topicBrowsingSortDate" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="How to define cascading metadata for assets." name="seoDescription" /> 
+  <meta content="Cascading Metadata" name="jcr:title" /> 
+  <meta content="checked_not_improved" name="acrolinxStatus" /> 
+  <meta content="2018-10-15T22:35:27.131-0400" name="publishExternalDate" /> 
+  <meta content="2018-10-15T22:35:27.141-0400" name="cq:lastModified" /> 
+  <meta content="cmajumda" name="contentOwner" /> 
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/cascading_metadata_krs_workflow_f3c2f2ccebf6138e_222_report.xml" name="acrolinxReportURL" /> 
+  <meta content="2018-01-25T10:08:02.845-0500" name="firstPublishExternalDate" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="asgupta" name="acrolinxLastCheckedBy" /> 
+  <meta content="en" name="pageCreatedAt" /> 
+  <meta content="asgupta" name="cq:lastReplicatedBy" /> 
+  <meta content="2019-01-12T17:37:33.162-0500" name="acrolinxDate" /> 
+  <meta content="82e8df46-63b2-47ac-86ff-dee8e354506c" name="jcr:predecessors" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS" name="primaryProductTag" /> 
+  <meta content="asgupta" name="cq:lastModifiedBy" /> 
+  <meta content="green" name="acrolinxPageStatus" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2018-10-09T05:13:09.679-0400" name="locHandOffDate" /> 
+  <meta content="890" name="acrolinxWords" /> 
+  <meta content="32f6aecd-b0a1-4746-959c-17955c3cc2e5" name="jcr:uuid" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/assets/using/cascading-metadata.html" name="publishExternalURL" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS;topic_tags:authoring" name="cq:tags" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="/content/help/en/experience-manager/6-4/assets/morehelp/authoring;/content/help/en/experience-manager/6-4/assets/morehelp/authoring" name="moreHelpPaths" /> 
+  <meta content="71" name="acrolinxSentences" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+ </head> 
+ <body> 
+  <p>When capturing the metadata information of an asset, users provide information in the various available fields. You can display specific metadata fields or field values that are dependent on the options selected in the other fields. Such conditional display of metadata is called cascading metadata. In other words, you can create a dependency between a particular metadata field/value and one or more fields and/or their values. </p> 
+  <p>Use metadata schemas to define rules for displaying cascading metadata. For example, if your metadata schema includes an asset type field, you can define a pertinent set of fields to be displayed based on the type of asset a user selects.</p> 
+  <p>Here are some use cases for which you can define cascading metadata:</p> 
+  <ul> 
+   <li>Where user location is required, display relevant city names based on the user's choice of country and state.</li> 
+   <li>Load pertinent brand names in a list based on the user's choice of product category.</li> 
+   <li>Toggle the visibility of a particular field based on the value specified in another field. For example, display separate shipping address fields if the user wants the shipment delivered at a different address.</li> 
+   <li>Designate a field as mandatory based on the value specified in another field.</li> 
+   <li>Change options displayed for a particular field based on the value specified in another field.</li> 
+   <li>Set the default metadata value in a particular field based on the value specified in another field.</li> 
+  </ul> 
+  <h2>Configure cascading metadata in AEM</h2> 
+  <p>Consider a scenario where you want to display cascading metadata based on the type of asset that is selected. Some examples</p> 
+  <ul> 
+   <li>For a video, display applicable fields such as format, codec, duration, and so on.</li> 
+   <li>For a Word or PDF document, display fields, such as page count, author, and so on.<br /> </li> 
+  </ul> 
+  <p>Irrespective of the asset type chosen, display the copyright information as a required field.</p> 
+  <ol> 
+   <li><p>Tap/click the AEM logo, and go to <span class="uicontrol">Tools</span> &amp;gt; <span class="uicontrol">Assets</span> &amp;gt; <span class="uicontrol">Metadata Schemas</span>.</p> </li> 
+   <li><p>In the <span class="uicontrol">Schema Forms</span> page, select a schema form and then tap/click <span class="uicontrol">Edit</span> from the toolbar to edit the schema.</p> <img imageRotate="0" src="assets/select_form.png" /></li> 
+   <li><p>(Optional) In the metadata schema editor, create a new field to conditionalize. Specify a name and property path in the <span class="uicontrol">Settings</span> tab.</p> <p>To create a new tab, tap/click <strong><span class="uicontrol">+</span></strong> to add a tab and then add a metadata field.</p> <img imageRotate="0" src="assets/add_tab.png" /></li> 
+   <li><p>Key-values pairs are the options provided to a form-user. You can provide the key-value pairs either manually or from a JSON file.</p> 
+    <ul> 
+     <li>To specify the values manually, select <span class="uicontrol">Add Manually</span>, and tap/click <span class="uicontrol">Add Choice</span> and specify the option text and value. For example, specify Video, PDF, Word, and Image asset types.</li> 
+     <li>To fetch the values from a JSON file dynamically, select <span class="uicontrol">Add Through JSON Path</span> and provide the path of the JSON file. AEM fetches the key-value pairs in the real time when the form is presented to the user.</li> 
+    </ul> <p>Both options are mutually exclusive. You cannot import the options from a JSON file and edit manually.</p> <img imageRotate="0" src="assets/add_choice.png" /> 
+    <note> 
+     <p>When you add a JSON file, the key-value pairs are not displayed in the metadata schema editor but are available in the published form.</p> 
+    </note></li> 
+   <li><p>Add a Dropdown field for asset type. Specify a name and property path in the <span class="uicontrol">Settings</span> tab. Add an optional description.</p> <img imageRotate="0" src="assets/asset_type_field.png" /></li> 
+   <li><p>(Optional) Add the other required fields. For example, format, codec, and duration for the asset type video.</p> <p>Similarly, add dependent fields for other asset types. For example, add fields page count and author for document assets, such as PDF and Word files.</p> <img imageRotate="0" src="assets/video_dependent_fields.png" /></li> 
+   <li><p>To create a dependency between the asset type field and other fields, choose the dependent field and open the <span class="uicontrol">Rules</span> tab.</p> <img imageRotate="0" src="assets/select_dependentfield.png" /></li> 
+   <li><p>Under <span class="uicontrol">Requirement</span>, choose the <span class="uicontrol">Required, based on new rule</span> option.</p> </li> 
+   <li><p>Tap/click <span class="uicontrol">Add Rule</span> and choose the <span class="uicontrol">Asset Type</span> field to create a dependency. Also choose the field value upon which to create the dependency. In this case, choose <span class="uicontrol">Video</span>. Tap/click <span class="uicontrol">Done</span> to save the changes.</p> <img imageRotate="0" src="assets/define_rule.png" /> 
+    <note> 
+     <p>Dropdown with manually predefined values can be used with rules. Dropdown menus with configured JSON path can't be used with rules that use predefined values to apply conditions. If the values are loaded from JSON at runtime, it is not possible to apply a predefined rule.<br /> </p> 
+    </note></li> 
+   <li><p>Under <span class="uicontrol">Visibility</span>, choose the <span class="uicontrol">Visible, based on new rule</span> option.<br /> </p> </li> 
+   <li><p>Tap/click <span class="uicontrol">Add Rule</span> and choose the <span class="uicontrol">Asset Type</span> field to create a dependency. Also choose the field value upon which to create the dependency. In this case, choose <span class="uicontrol">Video</span>. Tap/click <span class="uicontrol">Done</span> to save the changes.<br /> </p> <img imageRotate="0" src="assets/define_visibilityrule.png" /> 
+    <note> 
+     <p>Tapping/clicking on whitespaces (or anyplace other than values) will reset the values. In this case, you must select them again.</p> 
+    </note> 
+    <note> 
+     <p>You can apply <span class="uicontrol">Requirement</span> condition and <span class="uicontrol">Visibility</span> condition independent of each other.</p> 
+    </note></li> 
+   <li><p>Similary, create a dependency between the value Video in the Asset Type field and other fields, such as Codec and Duration.</p> </li> 
+   <li><p>Repeat the steps to create dependency between document assets (PDF and Word) in the Asset Type<strong> </strong>field and fields such as Page Count and Author.</p> </li> 
+   <li><p>Click <span class="uicontrol">Save</span>. Apply the Metadata Schema to a folder. <br /> </p> </li> 
+   <li><p>Navigate to the folder to which you applied the Metadata Schema and open the properties page of an asset. Depending upon your choice in the Asset Type field, pertinent cascading metadata fields are displayed.</p> <img alt="Cascading metadata for Video asset" captionBottom="Cascading metadata for Video asset" imageRotate="0" src="assets/video_asset.png" title="Cascading metadata for Video asset" /><img alt="Cascading metadata for document asset" captionBottom="Cascading metadata for document asset" imageRotate="0" src="assets/doc_type_fields.png" title="Cascading metadata for document asset" /></li> 
+  </ol> 
+ </body> 
+</html>

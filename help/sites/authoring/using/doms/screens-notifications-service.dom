@@ -1,0 +1,40 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="a41bd782-5667-4bc0-952a-083c3e364c49" name="jcr:uuid" />
+  <meta content="d96a7845-3a6b-40d2-a668-1800b24471a1" name="jcr:predecessors" />
+  <meta content="2018-04-27T07:28:48.020-0400" name="jcr:created" />
+  <meta content="jsyal" name="cq:lastModifiedBy" />
+  <meta content="2018-10-31T01:08:08.074-0400" name="firstPublishExternalDate" />
+  <meta content="jsyal" name="contentOwner" />
+  <meta content="2018-10-31T01:08:08.208-0400" name="cq:lastReplicated" />
+  <meta content="video" name="pageLayout" />
+  <meta content="2018-10-31T01:08:08.074-0400" name="topicBrowsingSortDate" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="jsyal@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2018-10-31T01:08:08.105-0400" name="cq:lastModified" />
+  <meta content="not_checked" name="acrolinxStatus" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="REDIRECT AEM Screens Notifications Service" name="jcr:title" />
+  <meta content="2018-10-31T01:08:08.074-0400" name="publishExternalDate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="left" name="sideColumn" />
+  <meta content="false" name="doNotLocalize" />
+  <meta content="en" name="pageCreatedAt" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/screens-notifications-service.html" name="publishExternalURL" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="jsyal" name="cq:lastReplicatedBy" />
+  <meta content="true" name="noIndex" />
+  <meta content="light" name="heroGradient" />
+  <meta content="/content/help/en/experience-manager/6-4/screens/using/screens-notifications-service" name="redirectTarget" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-10-31T01:08:08.074-0400" name="lastPublishExternalDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+ </head>
+ <body></body>
+</html>

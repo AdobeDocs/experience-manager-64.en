@@ -1,0 +1,143 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2016-05-31T06:36:50.713-0400" name="acrolinxDate" /> 
+  <meta content="Learn how to customize create correspondence UI." name="seoDescription" /> 
+  <meta content="Customize create correspondence UI" name="jcr:title" /> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:correspondence-management" name="cq:tags" /> 
+  <meta content="2019-01-03T05:47:37.775-0500" name="topicBrowsingSortDate" /> 
+  <meta content="1df69ee4-62c4-446f-91bf-80655bf0fb41" name="jcr:predecessors" /> 
+  <meta content="2019-01-03T05:47:37.807-0500" name="cq:lastReplicated" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="anujkapo" name="cq:lastModifiedBy" /> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/correspondence-management;/content/help/en/experience-manager/6-4/forms/morehelp/correspondence-management" name="moreHelpPaths" /> 
+  <meta content="2015-11-20T09:09:23.546-0500" name="lastPublishQADate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="2019-01-07T06:42:48.037-0500" name="locHandOffDate" /> 
+  <meta content="checked_not_improved" name="acrolinxStatus" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2019-01-07T06:42:48.038-0500" name="cq:lastModified" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/customize_create_correspondence_ui_admin_5e12de0b318c6865_1995_report.xml" name="acrolinxReportURL" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="69" name="acrolinxSentences" /> 
+  <meta content="2016-04-20T09:30:58.311-0400" name="firstPublishExternalDate" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="50664bec-5e0a-459e-aea6-3da1570e6645" name="jcr:uuid" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2019-01-03T05:47:37.775-0500" name="lastPublishExternalDate" /> 
+  <meta content="anujkapo@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2017-12-01T19:05:39.533-0500" name="jcr:created" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
+  <meta content="1174" name="acrolinxWords" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/customize-create-correspondence-ui.html" name="publishExternalURL" /> 
+  <meta content="2019-01-03T05:47:37.775-0500" name="publishExternalDate" /> 
+  <meta content="anujkapo" name="cq:lastReplicatedBy" /> 
+ </head> 
+ <body> 
+  <h2>Overview</h2> 
+  <p>Correspondence Management allows you to rebrand its solution template for better brand value and to adhere to your organization's branding standards. Rebranding the user interface includes changing the organization logo, which is displayed at the upper-left corner of Create Correspondence UI.</p> 
+  <p>You can change the logo in the Create Correspondence UI with your organization's logo.</p> 
+  <p> </p> 
+  <img alt="The custom icon in the Create Correspondence UI" captionBottom="The custom icon in the Create Correspondence UI" imageRotate="0" src="assets/0_1_introscreenshot.png" /> 
+  <h3>Changing the logo in the Create Correspondence UI</h3> 
+  <p>To set up a logo image of your choice, do the following:</p> 
+  <ol> 
+   <li>Create the appropriate <a href="#creatingfolderstructure">folder structure in CRX</a>. </li> 
+   <li><a href="#uploadlogo">Upload the new logo file</a> in the folder you have created in CRX. <br /> </li> 
+   <li><a href="#createcss">Set up the CSS</a> on CRX to refer to the new logo.</li> 
+   <li>Clear the browser history and <a href="#refreshccrui">refresh the Create Correspondence UI</a>.</li> 
+  </ol> 
+  <h2 id="CreatingFolderStructure">Creating the required folder structure</h2> 
+  <p>Create the folder structure, as explained below, for hosting the custom logo image and the stylesheet. The new folder structure with the root folder /apps is similar to the /libs folder's structure.</p> 
+  <p>For any customization, create a parallel folder structure, as explained below, in the /apps branch.</p> 
+  <p>The /apps branch (folder structure): </p> 
+  <ul> 
+   <li>Ensures that your files are safe in case of an update to the system. In case of upgrade, feature pack, or a hot fix, the /libs branch gets updated and if you host your changes in the /libs branch, they are overwritten.</li> 
+   <li>Helps you not to disturb the present system/branch, which you possibly can unsettle by mistake if you use the default locations for storing the custom files.</li> 
+   <li>Helps your resources get higher priority when AEM searches for resources. AEM is configured to search the /apps branch first and then the /libs branch to find a resource. This mechanism means that the system uses your overlay (and the customizations defined there). </li> 
+  </ul> 
+  <p>Use the following steps to create the required folder structure in the /apps branch:</p> 
+  <ol> 
+   <li><p>Go to <span class="code">http://[server]:[port]/[ContextPath]/crx/de</span> and login as Administrator.</p> </li> 
+   <li><p>In the apps folder, create a folder named <span class="code">css</span> with path/structure similar to the css folder (located in ccrui folder). <br /> <br /> Steps for creating the css folder:</p> 
+    <ol> 
+     <li><p>Right-click the <strong>css</strong> folder at the following path and select <strong>Overlay Node</strong>: <span class="code">/libs/fd/cm/ccr/gui/components/admin/clientlibs/ccrui/css</span></p> <img alt="Overlay node" imageRotate="0" src="assets/1_overlaynode_css.png" title="Overlay node" /></li> 
+     <li><p>Ensure that the Overlay Node dialog has the following values:</p> <p><strong>Path:</strong> /libs/fd/cm/ccr/gui/components/admin/clientlibs/ccrui/css</p> <p><strong>Overlay Location:</strong> /apps/</p> <p><strong>Match Node Types:</strong> Checked<br /> <br /> </p> <img alt="Overlay node path" imageRotate="0" src="assets/0_1_5ioverlaynodedialog.png" title="Overlay node path" /> 
+      <note> 
+       <p>Do not make changes in the /libs branch. Any changes you do make may be lost, because this branch is liable to changes whenever you:</p> 
+       <ul> 
+        <li>Upgrade on your instance</li> 
+        <li>Apply a hot fix</li> 
+        <li>Install a feature pack</li> 
+       </ul> 
+      </note></li> 
+     <li><p>Click <strong>OK</strong>. The css folder is created in the specified path.</p> </li> 
+    </ol></li> 
+   <li><p>In the apps folder, create a folder named <span class="code">imgs</span> with path/structure similar to the imgs folder (located in ccrui folder). </p> 
+    <ol> 
+     <li><p>Right-click the <strong>imgs</strong> folder at the following path and select <strong>Overlay Node</strong>: <span class="code">/libs/fd/cm/ccr/gui/components/admin/clientlibs/ccrui/imgs</span></p> </li> 
+     <li><p>Ensure that the Overlay Node dialog has the following values:</p> <p><strong>Path:</strong> /libs/fd/cm/ccr/gui/components/admin/clientlibs/ccrui/imgs</p> <p><strong>Overlay Location:</strong> /apps/</p> <p><strong>Match Node Types:</strong> Checked</p> </li> 
+     <li><p>Click <strong>OK</strong>.</p> 
+      <note> 
+       <p>You can also create the folder structure in the /apps folder manually. </p> 
+      </note></li> 
+    </ol></li> 
+   <li><p>Click <strong>Save All </strong>to save the changes on the server.<br /> </p> </li> 
+  </ol> 
+  <h2 id="UploadLogo">Upload the new logo to CRX</h2> 
+  <p>Upload your custom logo file to CRX. Standard HTML rules govern the rendering of the logo. The image file formats supported are according to the browser you are using to access AEM Forms. All the browsers support JPEG, GIF, and PNG. For more information, see the browser-specific documentation on the supported image formats.</p> 
+  <ul> 
+   <li>The default dimensions of the logo image are 48 px * 48 px. Ensure that your image is similar to this size or bigger than 48 px * 48 px.</li> 
+   <li>If the height of your logo image is more than 50 px, Create Correspondence user interface scales down the image to a maximum height of 50 px as this is the height of the header. While scaling the image down, Create Correspondence user interface maintains the aspect ratio of your image. </li> 
+   <li>The Create Correspondence User Interface does not scale up your image if it is small, so ensure you use a logo image at least 48 px in height and sufficient width for clarity.</li> 
+  </ul> 
+  <p> </p> 
+  <p>Use the following steps to upload the custom logo file to CRX:</p> 
+  <ol> 
+   <li><p>Go to <span class="code">http://[server]:[port]/[contextpath]/crx/de</span>. If necessary, log in as Administrator.</p> </li> 
+   <li><p>In CRXDE, right-click the <strong>imgs</strong> folder at the following path and select <strong>Create &amp;gt; Create File</strong>:</p>  <img alt="Create new node in imgs folder" imageRotate="0" src="assets/2_contentexplorernewnode.png" title="Create new node in imgs folder" /></li> 
+   <li><p>In the Create File dialog, enter the name of the file as CustomLogo.png (or the name of your logo file).</p>  <img alt="CustomLogo.png as new node" imageRotate="0" src="assets/3_contentexplorernewnode_customlogo.png" title="CustomLogo.png as new node" /></li> 
+   <li><p>Click <strong>Save All</strong>.</p> <p>Under the new file you have created (here CustomLogo.png), jcr:content property appears.</p> </li> 
+   <li><p>Click jcr:content in the folder structure. </p> <p>jcr:content's properties appear. </p> <img imageRotate="0" src="assets/jcrcontentproperties.png" /></li> 
+   <li><p>Double-click the <strong>jcr:data </strong>property. </p> <p>The Edit jcr:data dialog appears.</p> 
+    <div style="position: absolute; left: -10000px; width: 9000px; top: 0px;">
+      Now click on newlogo.png folder, double click on jcr:content (dim option) and set type nt:resource. If not present create a property with name jcr:content. 
+    </div> </li> 
+   <li><p>In the Edit jcr:data dialog, click <strong>Browse</strong> and select the image file you want to use as a logo (here CustomLogo.png). <br /> <br /> The image file formats supported are according to the browser you are using to access AEM Forms. All the browsers support JPEG, GIF, and PNG. For more information, see the browser-specific documentation on the supported image formats. </p> <img alt="Sample custom logo file" captionBottom="Example: CustomLogo.png to be used as the custom logo" imageRotate="0" src="assets/geometrixx-outdoors.png" title="Sample custom logo file" /></li> 
+   <li><p>Click <strong>Save All</strong>.</p> </li> 
+  </ol> 
+  <h2 id="CreateCSS">Create the CSS to integrate the logo with the UI</h2> 
+  <p>The custom logo image requires an additional style sheet to be loaded in the content context. </p> 
+  <p>Use the following steps to set up the style sheet for rendering the logo:</p> 
+  <ol> 
+   <li><p>Go to <span class="code">http://[server]:[port]/[contextpath]/crx/de</span>. If necessary, log in as Administrator.</p> </li> 
+   <li><p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">Create a file named customcss.css (you cannot use a different filename) in the following location:</p>  <p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">Steps to create the customcss.css file:</p> 
+    <ol> 
+     <li><p>Right-click the <strong>css</strong> folder and select <strong>Create &amp;gt; Create File</strong>.</p> </li> 
+     <li><p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">In the New File dialog, specify the name of the CSS as <span class="code">customcss.css </span>(you cannot use a different filename), and click <strong>OK</strong>.</p> </li> 
+     <li><p>Add the following code to the newly created css file. In content:url in the code, specify the image name you have uploaded to the imgs folder in CRXDE.</p> 
+      <codeblock gutter="true" class="syntax css">
+        .logo,&amp;nbsp;.logo:after&amp;nbsp;{!!discoiqbr!!content:url("../imgs/CustomLogo.png");!!discoiqbr!!} 
+      </codeblock></li> 
+     <li><p>Click <strong>Save All</strong>.</p> </li> 
+    </ol></li> 
+  </ol> 
+  <h2 id="RefreshCCRUI">Refresh the Create Correspondence UI to see the custom logo</h2> 
+  <p>Clear the browser cache and then open the Create Correspondence UI instance in your browser. You should see your custom logo. </p> 
+  <img alt="Create correspondence user interface with custom logo" captionBottom="The custom icon in the Create Correspondence UI" imageRotate="0" src="assets/0_1_introscreenshot-1.png" title="Create correspondence user interface with custom logo" /> 
+  <related-links> 
+   <a href="../../forms/using/add-custom-action-asset-listing-view.md">Add custom action to Asset Listing view</a> 
+   <a href="../../forms/using/add-action-button-in-create-correspondence-ui.md">Add Custom Action/Button in Create Correspondence UI</a> 
+   <a href="../../forms/using/add-custom-properties-cm-assets.md">Add custom properties to Correspondence Management assets</a> 
+  </related-links> 
+ </body> 
+</html>

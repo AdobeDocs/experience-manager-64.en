@@ -1,0 +1,133 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="sortDate" /> 
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/forms/using/admin-help/manager-throttling.html" name="publishExternalURL" /> 
+  <meta content="admin" name="lr_creator" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="0d0712f7-3456-44e7-8778-73b3600205c2" name="jcr:predecessors" /> 
+  <meta content="This document provides background information on Work Manager, and provides instructions on configuring Work Manager throttling options." name="seoDescription" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2018-04-03T09:10:19.691-0400" name="cq:lastReplicated" /> 
+  <meta content="Work Manager and throttling" name="navTitle" /> 
+  <meta content="2017-12-01T19:05:56.297-0500" name="jcr:created" /> 
+  <meta content="70" name="acrolinxSentences" /> 
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/maintaining_aem_forms;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="bccebaaf-7e56-48dc-adab-712f1969258c" name="jcr:uuid" /> 
+  <meta content="Work Manager and throttling" name="jcr:title" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="1049" name="acrolinxWords" /> 
+  <meta content="2018-04-26T04:23:16.551-0400" name="cq:lastModified" /> 
+  <meta content="admin" name="contentOwner" /> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2017-10-31T16:32:05.456-0400" name="lastPublishExternalDate" /> 
+  <meta content="admin" name="lr_lastModifiedBy" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="2017-10-31T16:32:05.456-0400" name="publishExternalDate" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="topicBrowsingSortDate" /> 
+  <meta content="2016-02-05T03:27:26.670-0500" name="lr_lastModified" /> 
+  <meta content="2016-05-31T07:02:03.559-0400" name="acrolinxDate" /> 
+  <meta content="2016-04-20T10:05:44.467-0400" name="firstPublishExternalDate" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/manager_throttling_admin_5e12de0b318c6865_2338_report.xml" name="acrolinxReportURL" /> 
+  <meta content="AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7c9d.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-6ad975e12905ce0269-7fdb.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-6ad975e12905ce0269-7fda.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-6ad975e12905ce0269-7fd9.2" name="cq:gepId" /> 
+  <meta content="2018-04-26T04:23:16.550-0400" name="locHandOffDate" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+ </head> 
+ <body> 
+  <p>AEM forms (and earlier versions) used JMS queues to execute operations asynchronously. In AEM forms, JMS queues have been replaced by Work Manager. This document provides background information on Work Manager, and provides instructions on configuring Work Manager throttling options.</p> 
+  <h2 id="about_long_lived_asynchronous_operations">About long-lived (asynchronous) operations</h2> 
+  <p></p> 
+  <p>In AEM forms, operations performed by services can be either short-lived (synchronous) or long-lived (asynchronous). Short-lived operations complete synchronously on the same thread from which they were invoked. These operations wait for a response before continuing.</p> 
+  <p>Long-lived operations may span systems or even extend beyond the organization, such as when a client must complete and submit a loan application form as part of a larger solution that integrates multiple automated and human tasks. Such operations must continue while awaiting a response. Long-lived operations perform their underlying work asynchronously, permitting resources to be otherwise engaged while awaiting completion. Unlike a short-lived operation, Work Manager does not consider a long-lived operation complete once it is invoked. An external trigger, such as a system requesting another operation on the same service or a user submitting a form, must occur to complete the operation.</p> 
+  <h2 id="about_work_manager">About Work Manager</h2> 
+  <p></p> 
+  <p>AEM forms (and earlier versions) used JMS queues to execute operations asynchronously. AEM forms uses Work Manager to schedule and execute asynchronous operations via managed threads.</p> 
+  <p>Asynchronous operations are handled in this manner: </p> 
+  <ol> 
+   <li><p>Work Manager receives a work item for execution.</p></li> 
+   <li><p>Work Manager stores the work item in a database table and assigns a unique identifier to the work item. The database record contains all of the information required to execute the work item. </p></li> 
+   <li><p>Work Manager threads pull in work items when the threads become free. Before pulling in the work items, threads can check whether the required services are started, whether there is enough heap size to pull in the next work item, and whether there are enough CPU cycles to process the work item. Work Manager also evaluates attributes of the work item (such as its priority) when scheduling its execution. </p></li> 
+  </ol> 
+  <p>AEM forms administrators can use Health Monitor to check Work Manager statistics, such as the number of work items in the queue and their statuses. You can also use Health Monitor to pause, resume, retry, or delete work items. (See <a href="../../../forms/using/admin-help/view-statistics-related-manager.md#view-statistics-related-to-work-manager">View statistics related to Work Manager</a>.)</p> 
+  <h2 id="configuring_work_manager_throttling_options">Configuring Work Manager throttling options</h2> 
+  <p></p> 
+  <p>You can configure throttling for Work Manager, so that work items are scheduled only when there are enough memory resources available. You configure throttling by setting the following JVM options in your application server. </p> 
+  <table cellpadding="4" cellspacing="0"> 
+   <thead align="left"> 
+    <tr> 
+     <th class="cellrowborder" id="d19e28320" valign="top" width="NaN%"><p>Property</p></th> 
+     <th class="cellrowborder" id="d19e28323" valign="top" width="NaN%"><p>Description</p></th> 
+    </tr> 
+   </thead> 
+   <tbody> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e28320 " valign="top" width="NaN%"><span class="code"> adobe.work-manager.queue-refill-interval</span></td> 
+     <td class="cellrowborder" headers="d19e28323 " valign="top" width="NaN%"><p>Specifies the time interval, in milliseconds, that Work Manager uses when checking for new items in its queue.</p><p>The value for this option is an integer. The default value is <span class="code">1000</span> milliseconds (1 second). </p><p>If the volume of asynchronous invocations is low, you can increase this value. For example, you could increase it to somewhere between 2000 and 5000 (2 to 5 seconds). </p><p>If the volume of asynchronous invocations is high, the default value should be sufficient, but you can use a lower value if necessary. Decreasing this value too much (for example, below 50, which results in a poll frequency of 20 times per second) causes a substantial overhead on the system.</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e28320 " valign="top" width="NaN%"><span class="code"> adobe.workmanager.debug-mode-enabled</span></td> 
+     <td class="cellrowborder" headers="d19e28323 " valign="top" width="NaN%"><p>Set this option to <span class="code">true</span> to enable debug mode, or to false to disable it. </p><p>In debug mode, messages regarding Work Manager policy violations and Work Manager pause/resume actions are logged. Set this option to true only when troubleshooting.</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e28320 " valign="top" width="NaN%"><span class="code"> adobe.workmanager.memory-control.enabled</span></td> 
+     <td class="cellrowborder" headers="d19e28323 " valign="top" width="NaN%"><p>Set this option to <span class="code">true</span> to enable throttling based on the memory-control settings described below, or to <span class="code">false</span> to disable throttling.</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e28320 " valign="top" width="NaN%"><span class="code"> adobe.workmanager.memory-control.high-limit</span></td> 
+     <td class="cellrowborder" headers="d19e28323 " valign="top" width="NaN%"><p>Specifies the maximum percentage of memory that can be in use before Work Manager throttles incoming jobs.</p><p>The default value for this option is <span class="code">95</span>. This value should be fine for most systems. Increase it only if your system needs to push through to its maximum capacity. But note that as you increase this value, the risk of Out of Memory issues also increases.</p><p>If you are running AEM forms in a clustered environment, you may want to set the memory control limit settings differently on different nodes of the cluster. For example, you could have a lower high-limit on nodes A and B, which are programmed in your load balancer for interactive work. And you could have higher high-limits set on nodes C and D, which are not used by the load balancer, but reserved for asynchronous work.</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e28320 " valign="top" width="NaN%"><span class="code"> adobe.workmanager.memory-control.low-limit</span></td> 
+     <td class="cellrowborder" headers="d19e28323 " valign="top" width="NaN%"><p>Specifies the maximum percentage of memory that can be in use before Work Manager stops throttling incoming jobs.</p><p>The default value for this option is <span class="code">20</span>. This value should be fine for most systems.</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e28320 " valign="top" width="NaN%"><span class="code">Dadobe.workmanager.allocate.max-batch-size</span></td> 
+     <td class="cellrowborder" headers="d19e28323 " valign="top" width="NaN%"><p>Specifies the maximum batch size for workmanager. The default batch size is 10.</p><p>If the status of a process in the workmanager is not updated even after the task is complete, then set the batch size to 1.</p></td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <p><strong>Add Java options to JBoss</strong></p> 
+  <ol> 
+   <li><p>Stop the JBoss application server.</p></li> 
+   <li><p>Open the <i>[appserver root]</i>/bin/run.bat (Windows) or run.sh (Linux or UNIX) in an editor and add any of the Java options as required, in the format <span class="code">-Dproperty=value</span>. </p></li> 
+   <li><p>Restart the server.</p></li> 
+  </ol> 
+  <p><strong>Add Java options to WebLogic</strong></p> 
+  <ol> 
+   <li><p>Start the WebLogic Administration Console by typing <span class="code">http://</span><i>[host name]</i><span class="code">:</span><i>[port]</i><span class="code">/console</span> in a web browser.</p></li> 
+   <li><p>Type the user name and password that you created for the WebLogic Server domain and click Log Under Change Center, click Lock &amp; Edit.</p></li> 
+   <li><p>Under Domain Structure, click Environment &amp;gt; Servers and, in the right pane, click the managed server name.</p></li> 
+   <li><p>On the next screen, click the Configuration tab &amp;gt; Server Start tab.</p></li> 
+   <li><p>In the Arguments box, append the arguments you require to the end of the current content. For example, to disable Health Monitor, add:</p><p><span class="code">-Dadobe.healthmonitor.enabled=false</span> disables Health Monitor.</p></li> 
+   <li><p>Click Save and then click Activate Changes.</p></li> 
+   <li><p>Restart WebLogic managed server.</p></li> 
+  </ol> 
+  <p><strong>Add Java options to WebSphere</strong></p> 
+  <ol> 
+   <li><p>In the WebSphere Administrative Console navigation tree, click Servers &amp;gt; Server Types &amp;gt; WebSphere application servers.</p></li> 
+   <li><p>In the right pane, click the server name. </p></li> 
+   <li><p>Under Server Infrastructure, click Java and forms workflow &amp;gt; Process Definition. </p></li> 
+   <li><p>Under Additional Properties, click Java Virtual Machine. </p></li> 
+   <li><p>In the Generic JVM arguments box, type the arguments you require. </p></li> 
+   <li><p>Click OK or Apply, and then click Save directly to the master configuration.</p></li> 
+  </ol> 
+ </body> 
+</html>

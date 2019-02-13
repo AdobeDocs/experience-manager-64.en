@@ -1,0 +1,461 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2018-05-08T12:47:08.617-0400" name="locHandOffDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="2018-04-22T02:16:47.392-0400" name="topicBrowsingSortDate" /> 
+  <meta content="4082439b-e4ff-49bc-961b-b80a792697f5" name="jcr:predecessors" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:extending-aem;content_type:reference" name="cq:tags" /> 
+  <meta content="2017-10-31T16:15:46.164-0400" name="firstPublishExternalDate" /> 
+  <meta content="dist5" name="distType" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="aheimoz" name="cq:lastModifiedBy" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="Interacting with Workflows Programmatically" name="navTitle" /> 
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" /> 
+  <meta content="eaac3a1b-0cc0-4c79-88ac-9ce2082c676c" name="jcr:uuid" /> 
+  <meta content="/content/docs/en/aem/6-3/develop/extending/workflows/program-interaction" name="qaNotes" /> 
+  <meta content="aheimoz" name="cq:lastReplicatedBy" /> 
+  <meta content="2018-03-01T08:01:27.902-0500" name="jcr:created" /> 
+  <meta content="audience:developing" name="primaryAudienceTag" /> 
+  <meta content="2018-04-22T02:16:47.392-0400" name="lastPublishExternalDate" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/morehelp/extending-aem;/content/help/en/experience-manager/6-4/sites/developing/morehelp/extending-aem" name="moreHelpPaths" /> 
+  <meta content="aheimoz@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2018-05-08T12:47:08.618-0400" name="cq:lastModified" /> 
+  <meta content="2018-04-22T02:16:47.412-0400" name="cq:lastReplicated" /> 
+  <meta content="Interacting with Workflows Programmatically" name="jcr:title" /> 
+  <meta content="Interacting with Workflows Programmatically" name="seoTitle" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="light" name="gnavTheme" /> 
+  <meta content="2018-04-22T02:16:47.392-0400" name="publishExternalDate" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/workflows-program-interaction.html" name="publishExternalURL" /> 
+  <meta content="User" name="contentOwner" /> 
+ </head> 
+ <body> 
+  <p>When <a href="../../../sites/developing/using/workflows-customizing-extending.md">customizing and extending your workflows</a> you can access workflow objects:</p> 
+  <ul> 
+   <li><a href="#usingtheworkflowjavaapi">Using the Workflow Java API</a></li> 
+   <li><a href="#obtainingworkflowobjectsinecmascripts">Obtaining Workflow Objects in ECMA Scripts</a></li> 
+   <li><a href="#usingtheworkflowrestapi">Using the Workflow REST API</a></li> 
+  </ul> 
+  <h2>Using the Workflow Java API</h2> 
+  <p>The workflow Java API consists of the <a href="/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/package-summary"><span class="code">com.adobe.granite.workflow</span></a> package and several sub-packages. The most significant member of the API is the <span class="code">com.adobe.granite.workflow.WorkflowSession</span> class. The <span class="code">WorkflowSession</span> class provides access to both design-time and runtime workflow objects:</p> 
+  <ul> 
+   <li>workflow models</li> 
+   <li>work items</li> 
+   <li>workflow instances</li> 
+   <li>workflow data</li> 
+   <li>inbox items</li> 
+  </ul> 
+  <p>The class also provides several methods for intervening in workflow lifecycles.</p> 
+  <p>The following table provides links to the reference documentation of several key Java objects to use when interacting programmatically with workflows. The examples that follow demonstrate how to obtain and use the class objects in code.</p> 
+  <table border="1" cellpadding="1" cellspacing="0"> 
+   <tbody> 
+    <tr> 
+     <th>Features<a href="/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/status/WorkflowStatus"></a></th> 
+     <th>Objects<br /> </th> 
+    </tr> 
+    <tr> 
+     <td>Accessing a workflow<br /> </td> 
+     <td><a href="/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/WorkflowSession"><span class="code">WorkflowSession</span></a><br /> </td> 
+    </tr> 
+    <tr> 
+     <td>Executing and querying a workflow instance<br /> </td> 
+     <td><a href="/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/exec/Workflow"><span class="code">Workflow</span></a><br /> <a href="/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/exec/WorkItem"><span class="code">WorkItem</span></a><br /> <a href="/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/exec/WorkflowData"><span class="code">WorkflowData</span></a><br /> </td> 
+    </tr> 
+    <tr> 
+     <td>Managing a workflow model<br /> </td> 
+     <td><a href="/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/model/WorkflowModel"><span class="code">WorkflowModel</span></a><br /> <a href="/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/model/WorkflowNode"><span class="code">WorkflowNode</span></a><br /> <a href="/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/model/WorkflowTransition"><span class="code">WorkflowTransition</span></a><br /> </td> 
+    </tr> 
+    <tr> 
+     <td>Information for a node that is in the workflow (or not) </td> 
+     <td><a href="/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/status/WorkflowStatus"><span class="code">WorkflowStatus</span></a></td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h2>Obtaining Workflow Objects in ECMA Scripts</h2> 
+  <p>As described in <a href="../../../sites/developing/using/the-basics.md#main-pars-title-20">Locating the Script</a>, AEM (via Apache Sling) provides an ECMA script engine that executes server-side ECMA scripts. The <a href="http://sling.apache.org/apidocs/sling5/org/apache/sling/scripting/core/ScriptHelper.html"><span class="code">org.apache.sling.scripting.core.ScriptHelper</span></a> class is immediately available to your scripts as the <span class="code">sling</span> variable.</p> 
+  <p>The <span class="code">ScriptHelper</span> class provides access to the <span class="code">SlingHttpServletRequest</span> that you can use to eventually obtain the <span class="code">WorkflowSession</span> object; for example:</p> 
+  <codeblock class="syntax js">
+    var&amp;nbsp;wfsession&amp;nbsp;=&amp;nbsp;sling.getRequest().getResource().getResourceResolver().adaptTo(Packages.com.adobe.granite.workflow.WorkflowSession); 
+  </codeblock> 
+  <h2>Using the Workflow REST API</h2> 
+  <p>The Workflow console makes heavy use of the REST API; so this page describes the REST API for workflows.</p> 
+  <note> 
+   <p>The curl command line tool enables you to use the Workflow REST API to access workflow objects and manage instance lifecycles. The examples throughout this page demonstrate the use of the REST API via the curl command line tool.</p> 
+  </note> 
+  <p>The following actions are supported with the REST API:</p> 
+  <ul> 
+   <li>start or stop a workflow service</li> 
+   <li>create, update or delete workflow models</li> 
+   <li><a href="../../../sites/administering/using/workflows.md#workflowstatusandactions">start, suspend, resume or terminate workflow instances</a></li> 
+   <li>complete or delegate work items</li> 
+  </ul> 
+  <note> 
+   <p>By using Firebug, a Firefox extension for web development, it is possible to follow the HTTP traffic when the console is operated. For example you can check the parameters and the values sent to the AEM server with a <span class="code">POST</span> request.</p> 
+  </note> 
+  <p>In this page it is assumed that AEM runs on localhost at port <span class="code">4502</span> and that the installation context is "<span class="code">/</span>" (root). If it is not the case of your installation, the URIs, to which the HTTP requests apply, need to be adapted accordingly.<br /> </p> 
+  <p>The rendering supported for <span class="code">GET</span> requests is the JSON rendering. The URLs for <span class="code">GET</span> should have the <span class="code">.json</span> extension, for example:</p> 
+  <p style="margin-left: 40px;"><span class="code">http://localhost:4502/etc/workflow.json</span></p> 
+  <h3>Managing Workflow Instances</h3> 
+  <p>The following HTTP request methods apply to:</p> 
+  <p style="margin-left: 40px;"><span class="code">http://localhost:4502/etc/workflow/instances</span></p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td width="20%">HTTP request method</td> 
+     <td>Actions</td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">GET</span></td> 
+     <td>Lists the available workflow instances.</td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">POST</span></td> 
+     <td><p>Creates a new workflow instance. The parameters are:<br /> - <span class="code">model</span>: the ID (URI) of the respective workflow model<br /> - <span class="code">payloadType</span>: containing the type of the payload (for example <span class="code">JCR_PATH</span> or URL).<br /> The payload is sent as parameter <span class="code">payload</span>. A <span class="code">201</span> (<span class="code">CREATED</span>) response is sent back with a location header containing the URL of the new workflow instance resource.</p> </td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h4>Managing a Workflow Instance by its State</h4> 
+  <p>The following HTTP request methods apply to:</p> 
+  <p style="margin-left: 40px;"><span class="code">http://localhost:4502/etc/workflow/instances.{state}</span></p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td width="20%">HTTP request method</td> 
+     <td>Actions</td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">GET</span></td> 
+     <td>Lists the available workflow instances and their states (<span class="code">RUNNING</span>, <span class="code">SUSPENDED</span>, <span class="code">ABORTED</span> or <span class="code">COMPLETED</span>)</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h4>Managing a Workflow Instance by its ID</h4> 
+  <p>The following HTTP request methods apply to:</p> 
+  <p style="margin-left: 40px;"><span class="code">http://localhost:4502/etc/workflow/instances/{id}</span></p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td width="20%">HTTP request method</td> 
+     <td>Actions</td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">GET</span></td> 
+     <td>Gets the instances data (definition and metadata) including the link to the respective workflow model.</td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">POST</span></td> 
+     <td>Changes the state of the instance. The new state is sent as the parameter <span class="code">state</span> and must have one of the following values: <span class="code">RUNNING</span>, <span class="code">SUSPENDED</span>, or <span class="code">ABORTED</span>.<br /> If the new state is not reachable (for example when suspending a terminated instance) a <span class="code">409</span> (<span class="code">CONFLICT</span>) response is sent back to the client.</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h3>Managing Workflow Models</h3> 
+  <p>The following HTTP request methods apply to:<span class="code"></span></p> 
+  <p style="margin-left: 40px;"><span class="code">http://localhost:4502/etc/workflow/models</span></p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td width="20%">HTTP request method</td> 
+     <td>Actions</td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">GET</span></td> 
+     <td>Lists the available workflow models.</td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">POST</span></td> 
+     <td>Creates a new workflow model. If the parameter <span class="code">title</span> is sent, a new model is created with the specified title. Attaching a JSON model definition as parameter <span class="code">model</span> creates a new workflow model according to the provided definition.<br /> A <span class="code">201</span> response (<span class="code">CREATED</span>) is sent back with a location header containing the URL of the new workflow model resource.<br /> The same happens when a model definition is attached as a file parameter called <span class="code">modelfile</span>.<br /> In both the cases of the <span class="code">model</span> and <span class="code">modelfile</span> parameters, an additional parameter called <span class="code">type</span> is required to define the serialization format. New serialization formats can be integrated using the OSGI API. A standard JSON serializer is delivered with the workflow engine. Its type is JSON. See below for an example of the format.</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <p>Example: in the browser, a request to<span class="code"></span> <span class="code">http://localhost:4502/etc/workflow/models.json</span> generates a json response similar to the following:</p> 
+  <codeblock gutter="true" class="syntax js">
+    [!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;{"uri":"/var/workflow/models/activationmodel"}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;,{"uri":"/var/workflow/models/dam/adddamsize"}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;,{"uri":"/var/workflow/models/cloudconfigs/dtm-reactor/library-download"}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;,{"uri":"/var/workflow/models/ac-newsletter-workflow-simple"}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;,{"uri":"/var/workflow/models/dam/dam-create-language-copy"}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;,{"uri":"/var/workflow/models/dam/dam-create-and-translate-language-copy"}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;,{"uri":"/var/workflow/models/dam-indesign-proxy"}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;,{"uri":"/var/workflow/models/dam-xmp-writeback"}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;,{"uri":"/var/workflow/models/dam-parse-word-documents"}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;,{"uri":"/var/workflow/models/dam/process_subasset"}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;,{"uri":"/var/workflow/models/dam/dam_set_last_modified"}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;,{"uri":"/var/workflow/models/dam/dam-autotag-assets"}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;,{"uri":"/var/workflow/models/dam/update_asset"}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;,{"uri":"/var/workflow/models/dam/update_asset_offloading"}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;,{"uri":"/var/workflow/models/dam/dam-update-language-copy"}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;,{"uri":"/var/workflow/models/dam/update_from_lightbox"}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;,{"uri":"/var/workflow/models/cloudservices/DTM_bundle_download"}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;,{"uri":"/var/workflow/models/dam/dam_download_asset"}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;,{"uri":"/var/workflow/models/dam/dynamic-media-encode-video"}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;,{"uri":"/var/workflow/models/dam/dynamic-media-video-thumbnail-replacement"}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;,{"uri":"/var/workflow/models/dam/dynamic-media-video-user-uploaded-thumbnail"}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;,{"uri":"/var/workflow/models/newsletter_bounce_check"}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;,{"uri":"/var/workflow/models/projects/photo_shoot_submission"}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;,{"uri":"/var/workflow/models/projects/product_photo_shoot"}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;,{"uri":"/var/workflow/models/projects/approval_workflow"}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;,{"uri":"/var/workflow/models/prototype-01"}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;,{"uri":"/var/workflow/models/publish_example"}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;,{"uri":"/var/workflow/models/publish_to_campaign"}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;,{"uri":"/var/workflow/models/screens/publish_to_author_bin"}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;,{"uri":"/var/workflow/models/s7dam/request_to_publish_to_youtube"}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;,{"uri":"/var/workflow/models/projects/request_copy"}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;,{"uri":"/var/workflow/models/projects/request_email"}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;,{"uri":"/var/workflow/models/projects/request_landing_page"}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;,{"uri":"/var/workflow/models/projects/request_launch"}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;,{"uri":"/var/workflow/models/request_for_activation"}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;,{"uri":"/var/workflow/models/request_for_deactivation"}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;,{"uri":"/var/workflow/models/request_for_deletion"}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;,{"uri":"/var/workflow/models/request_for_deletion_without_deactivation"}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;,{"uri":"/var/workflow/models/request_to_complete_move_operation"}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;,{"uri":"/var/workflow/models/reverse_replication"}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;,{"uri":"/var/workflow/models/salesforce-com-export"}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;,{"uri":"/var/workflow/models/scene7"}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;,{"uri":"/var/workflow/models/scheduled_activation"}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;,{"uri":"/var/workflow/models/scheduled_deactivation"}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;,{"uri":"/var/workflow/models/screens/screens-update-asset"}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;,{"uri":"/var/workflow/models/translation"}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;,{"uri":"/var/workflow/models/s7dam/request_to_remove_from_youtube"}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;,{"uri":"/var/workflow/models/wcm-translation/create_language_copy"}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;,{"uri":"/var/workflow/models/wcm-translation/prepare_translation_project"}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;,{"uri":"/var/workflow/models/wcm-translation/translate-i18n-dictionary"}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;,{"uri":"/var/workflow/models/wcm-translation/sync_translation_job"}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;,{"uri":"/var/workflow/models/wcm-translation/translate-language-copy"}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;,{"uri":"/var/workflow/models/wcm-translation/update_language_copy"}!!discoiqbr!!] 
+  </codeblock> 
+  <h4>Managing a Specific Workflow Model</h4> 
+  <p>The following HTTP request methods apply to:</p> 
+  <p style="margin-left: 40px;"><span class="code">http://localhost:4502<i>{uri}</i></span></p> 
+  <p><span class="code"></span>Where <i><span class="code">{uri}</span></i> is the path to the model node in the repository.</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td width="20%">HTTP request method</td> 
+     <td>Actions</td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">GET</span></td> 
+     <td>Gets the <span class="code">HEAD</span> version of the model (definition and metadata).</td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">PUT</span></td> 
+     <td>Updates the <span class="code">HEAD</span> version of the model (creates a new version).<br /> The complete model definition for the new version of the model must be added as a parameter called <span class="code">model</span>. Additionally a <span class="code">type</span> parameter is needed as when creating new models and needs to have the value <span class="code">JSON</span>.<br /> </td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">POST</span></td> 
+     <td>Same behaviour as with PUT. Needed because AEM widgets do not support <span class="code">PUT</span> operations.</td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">DELETE</span></td> 
+     <td>Deletes the model. In order to solve firewall/proxy issues a <span class="code">POST</span> that contains an <span class="code">X-HTTP-Method-Override</span> header entry with value <span class="code">DELETE</span> will also be accepted as <span class="code">DELETE</span> request.</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <p>Example: in the browser, a request to <span class="code">http://localhost:4502/var/workflow/models/publish_example.json</span> returns a <span class="code">json</span> response that is similar to the following code:</p> 
+  <codeblock gutter="true" class="syntax shell">
+    {!!discoiqbr!!&amp;nbsp;&amp;nbsp;"id":"/var/workflow/models/publish_example",!!discoiqbr!!&amp;nbsp;&amp;nbsp;"title":"Publish&amp;nbsp;Example",!!discoiqbr!!&amp;nbsp;&amp;nbsp;"version":"1.0",!!discoiqbr!!&amp;nbsp;&amp;nbsp;"description":"This&amp;nbsp;example&amp;nbsp;shows&amp;nbsp;a&amp;nbsp;simple&amp;nbsp;review&amp;nbsp;and&amp;nbsp;publish&amp;nbsp;process.",!!discoiqbr!!&amp;nbsp;&amp;nbsp;"metaData":&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"multiResourceSupport":"true",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"tags":"wcm,publish"!!discoiqbr!!&amp;nbsp;&amp;nbsp;},!!discoiqbr!!&amp;nbsp;&amp;nbsp;"nodes":!!discoiqbr!!&amp;nbsp;&amp;nbsp;[{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"id":"node0",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"type":"START",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"title":"Start",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"description":"The&amp;nbsp;start&amp;nbsp;node&amp;nbsp;of&amp;nbsp;the&amp;nbsp;workflow.",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"metaData":!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;},!!discoiqbr!!&amp;nbsp;&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"id":"node1",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"type":"PARTICIPANT",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"title":"Validate&amp;nbsp;Content",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"description":"Validate&amp;nbsp;the&amp;nbsp;modified&amp;nbsp;content.",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"metaData":!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"PARTICIPANT":"admin"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;},!!discoiqbr!!&amp;nbsp;&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"id":"node2",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"type":"PROCESS",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"title":"Publish&amp;nbsp;Content",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"description":"Publish&amp;nbsp;the&amp;nbsp;modified&amp;nbsp;content.",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"metaData":!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"PROCESS_AUTO_ADVANCE":"true",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"PROCESS":"com.day.cq.wcm.workflow.process.ActivatePageProcess"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;},!!discoiqbr!!&amp;nbsp;&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"id":"node3",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"type":"END",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"title":"End",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"description":"The&amp;nbsp;end&amp;nbsp;node&amp;nbsp;of&amp;nbsp;the&amp;nbsp;workflow.",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"metaData":!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;}],!!discoiqbr!!&amp;nbsp;&amp;nbsp;"transitions":!!discoiqbr!!&amp;nbsp;&amp;nbsp;[{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"from":"node0",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"to":"node1",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"metaData":!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;},!!discoiqbr!!&amp;nbsp;&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"from":"node1",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"to":"node2",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"metaData":!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;},!!discoiqbr!!&amp;nbsp;&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"from":"node2",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"to":"node3",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"metaData":!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;}!!discoiqbr!!]} 
+  </codeblock> 
+  <h4>Managing a Workflow Model by its Version</h4> 
+  <p>The following HTTP request methods apply to:<span class="code"></span></p> 
+  <p style="margin-left: 40px;"><span class="code">http://localhost:4502/etc/workflow/models/{id}.{version}</span></p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td width="20%">HTTP request method</td> 
+     <td>Actions</td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">GET</span></td> 
+     <td>Gets the data of the model in the given version (if it exists).</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h3>Managing (User) Inboxes</h3> 
+  <p>The following HTTP request methods apply to:<span class="code"></span></p> 
+  <p style="margin-left: 40px;"><span class="code">http://localhost:4502/bin/workflow/inbox</span></p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td width="20%">HTTP request method</td> 
+     <td>Actions</td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">GET</span></td> 
+     <td>Lists the work items that are in the inbox of the user, who is identified by the HTTP authentication headers.</td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">POST</span></td> 
+     <td>Completes the work item whose URI is sent as the parameter <span class="code">item</span> and advances the according workflow instance to the next node(s), that is defined by the parameter <span class="code">route</span> or <span class="code">backroute</span> in case of going a step back.<br /> If the parameter <span class="code">delegatee</span> is sent, the work item identified by the parameter <span class="code">item</span> is delegated to the specified participant.</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h4>Managing a (User) Inbox by the WorkItem ID</h4> 
+  <p>The following HTTP request methods apply to:</p> 
+  <p style="margin-left: 40px;"><span class="code">http://localhost:4502/bin/workflow/inbox/{id} </span></p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td width="20%">HTTP request method</td> 
+     <td>Actions</td> 
+    </tr> 
+    <tr> 
+     <td><span class="code">GET</span></td> 
+     <td>Gets the data (definition and metadata) of the inbox <span class="code">WorkItem</span> identified by its ID.</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h2>Examples</h2> 
+  <h3>How to get a List of all Running Workflows with their IDs</h3> 
+  <p>To get a list of all running workflows, do a GET to:</p> 
+  <p style="margin-left: 40px;"><span class="code">http://localhost:4502/etc/workflow/instances.RUNNING.json</span></p> 
+  <h4>How to get a List of all Running Workflows with their IDs - REST using curl</h4> 
+  <p>Example using curl:</p> 
+  <codeblock gutter="true" class="syntax shell">
+    curl&amp;nbsp;-u&amp;nbsp;admin:admin&amp;nbsp;http://localhost:4502/etc/workflow/instances.RUNNING.json 
+  </codeblock> 
+  <p>The <span class="code">uri</span> displayed in the results can be used as the instance <span class="code">id</span> in other commands; for example:</p> 
+  <codeblock gutter="true" class="syntax shell">
+    [!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;{"uri":"/etc/workflow/instances/server0/2017-03-08/request_for_activation_1"}!!discoiqbr!!] 
+  </codeblock> 
+  <note> 
+   <p>This <span class="code">curl</span> command can be used with any <a href="../../../sites/administering/using/workflows.md#workflowstatusandactions">workflow status</a> in place of <span class="code">RUNNING</span>.</p> 
+  </note> 
+  <h3>How to change the Workflow Title</h3> 
+  <p>To change the <strong>Workflow Title</strong> displayed in the <strong>Instances</strong> tab of the workflow console, send a <span class="code">POST</span> command:</p> 
+  <ul> 
+   <li>to: <span class="code">http://localhost:4502/etc/workflow/instances/{id} </span><br /> </li> 
+   <li>with the following parameters: 
+    <ul> 
+     <li><span class="code">action</span>: its value has to be: <span class="code">UPDATE</span><br /> </li> 
+     <li><span class="code">workflowTitle</span>: the workflow title</li> 
+    </ul> </li> 
+  </ul> 
+  <h4>How to change the Workflow Title - REST using curl</h4> 
+  <p>Example using curl:</p> 
+  <codeblock gutter="true" class="syntax shell">
+    curl&amp;nbsp;-u&amp;nbsp;admin:admin&amp;nbsp;-d&amp;nbsp;"action=UPDATE&amp;workflowTitle=myWorkflowTitle"&amp;nbsp;http://localhost:4502/etc/workflow/instances/{id}!!discoiqbr!!!!discoiqbr!!#&amp;nbsp;for&amp;nbsp;example!!discoiqbr!!curl&amp;nbsp;-u&amp;nbsp;admin:admin&amp;nbsp;-d&amp;nbsp;"action=UPDATE&amp;workflowTitle=myWorkflowTitle"&amp;nbsp;http://localhost:4502/etc/workflow/instances/server0/2017-03-08/request_for_activation_1 
+  </codeblock> 
+  <h3>How to List all Workflow Models</h3> 
+  <p>To get a list of all available workflow models, do a GET to:</p> 
+  <p style="margin-left: 40px;"><span class="code">http://localhost:4502/etc/workflow/models.json</span></p> 
+  <h4>How to List all Workflow Models - REST using curl</h4> 
+  <p>Example using curl:</p> 
+  <codeblock gutter="true" class="syntax shell">
+    curl&amp;nbsp;-u&amp;nbsp;admin:admin&amp;nbsp;http://localhost:4502/etc/workflow/models.json 
+  </codeblock> 
+  <note> 
+   <p>See also <a href="#managingworkflowmodels">Managing Workflow Models</a>.</p> 
+  </note> 
+  <h3>Obtaining a WorkflowSession Object</h3> 
+  <p>The <span class="code">com.adobe.granite.workflow.WorkflowSession</span> class is adaptable from a <span class="code">javax.jcr.Session</span> object or a <span class="code">org.apache.sling.api.resource.ResourceResolver</span> object.</p> 
+  <h4>Obtaining a WorkflowSession Object - Java</h4> 
+  <p>In a JSP script (or Java code for a servlet class), use the HTTP request object to obtain a <span class="code">SlingHttpServletRequest</span> object, which provides access to a <span class="code">ResourceResolver</span> object. Adapt the <span class="code">ResourceResolver</span> object to <span class="code">WorkflowSession</span>.</p> 
+  <codeblock gutter="true" class="syntax java">
+    &lt;%!!discoiqbr!!%&gt;&lt;%@include&amp;nbsp;file="/libs/foundation/global.jsp"%&gt;&lt;%!!discoiqbr!!%&gt;&lt;%@page&amp;nbsp;session="false"&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;import="com.adobe.granite.workflow.WorkflowSession,!!discoiqbr!!&amp;nbsp;&amp;nbsp;org.apache.sling.api.SlingHttpServletRequest"%&gt;&lt;%!!discoiqbr!!!!discoiqbr!!SlingHttpServletRequest&amp;nbsp;slingReq&amp;nbsp;=&amp;nbsp;(SlingHttpServletRequest)request;!!discoiqbr!!WorkflowSession&amp;nbsp;wfSession&amp;nbsp;=&amp;nbsp;slingReq.getResourceResolver().adaptTo(WorkflowSession.class);!!discoiqbr!!%&gt; 
+  </codeblock> 
+  <h4>Obtaining a WorkflowSession Object - ECMA Script</h4> 
+  <p>Use the <span class="code">sling</span> variable to obtain the <span class="code">SlingHttpServletRequest</span> object that you use to obtain a <span class="code">ResourceResolver</span> object. Adapt the <span class="code">ResourceResolver</span> object to the <span class="code">WorkflowSession</span> object.</p> 
+  <codeblock class="syntax js">
+    var&amp;nbsp;wfsession&amp;nbsp;=&amp;nbsp;sling.getRequest().getResource().getResourceResolver().adaptTo(Packages.com.adobe.granite.workflow.WorkflowSession); 
+  </codeblock> 
+  <h3>Creating, Reading or Deleting Workflow Models</h3> 
+  <p>The following examples show how to access workflow models:</p> 
+  <ul> 
+   <li>The code for Java and ECMA script uses the <span class="code">WorkflowSession.createNewModel</span> method.</li> 
+   <li>The curl command accesses the model directly using its URL.</li> 
+  </ul> 
+  <p>The examples used:</p> 
+  <ol> 
+   <li>Create a model (with the ID <span class="code">/var/workflow/models/mymodel/jcr:content/model</span>).</li> 
+   <li>Delete the model.</li> 
+  </ol> 
+  <note> 
+   <p>Deleting the model sets the <span class="code">deleted</span> property of the model's <span class="code">metaData</span> child node to <span class="code">true</span>. </p> 
+   <p>Deletion does not remove the model node.</p> 
+  </note> 
+  <p>When creating a new model:</p> 
+  <ul> 
+   <li><p>The workflow model editor requires that models use a specific node structure below <span class="code">/var/workflow/models</span>. The parent node of the model must be of the type <span class="code">cq:Page</span> having a <span class="code">jcr:content</span> node with the following property values:</p> 
+    <ul> 
+     <li><span class="code">sling:resourceType</span>: <span class="code">cq/workflow/components/pages/model</span></li> 
+     <li><span class="code">cq:template</span>: <span class="code">/libs/cq/workflow/templates/model </span></li> 
+    </ul> <p>When you create a model, you must first create this <span class="code">cq:Page</span> node and use its <span class="code">jcr:content</span> node as the parent of the model node.</p> </li> 
+   <li><p>The <span class="code">id</span> argument that some methods require for identifying the model is the absolute path of the model node in the repository:</p>  
+    <note> 
+     <p>See <a href="#howtolistallworkflowmodels">How to List all Workflow Models</a>.</p> 
+    </note></li> 
+  </ul> 
+  <h4>Creating, Reading or Deleting Workflow Models - Java</h4> 
+  <codeblock gutter="true" class="syntax java">
+    &lt;%@include&amp;nbsp;file="/libs/foundation/global.jsp"%&gt;&lt;%!!discoiqbr!!%&gt;&lt;%@page&amp;nbsp;session="false"&amp;nbsp;import="com.adobe.granite.workflow.WorkflowSession,!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;com.adobe.granite.workflow.model.WorkflowModel,!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;org.apache.sling.api.SlingHttpServletRequest"%&gt;&lt;%!!discoiqbr!!!!discoiqbr!!SlingHttpServletRequest&amp;nbsp;slingReq&amp;nbsp;=&amp;nbsp;(SlingHttpServletRequest)request;!!discoiqbr!!WorkflowSession&amp;nbsp;wfSession&amp;nbsp;=&amp;nbsp;slingReq.getResourceResolver().adaptTo(WorkflowSession.class);!!discoiqbr!!/*&amp;nbsp;Create&amp;nbsp;the&amp;nbsp;parent&amp;nbsp;page&amp;nbsp;*/!!discoiqbr!!String&amp;nbsp;modelRepo&amp;nbsp;=&amp;nbsp;new&amp;nbsp;String("/var/workflow/models");!!discoiqbr!!String&amp;nbsp;modelTemplate&amp;nbsp;=&amp;nbsp;new&amp;nbsp;String&amp;nbsp;("/libs/cq/workflow/templates/model");!!discoiqbr!!String&amp;nbsp;modelName&amp;nbsp;=&amp;nbsp;new&amp;nbsp;String("mymodel");!!discoiqbr!!Page&amp;nbsp;modelParent&amp;nbsp;=&amp;nbsp;pageManager.create(modelRepo,&amp;nbsp;modelName,&amp;nbsp;modelTemplate,&amp;nbsp;"My&amp;nbsp;workflow&amp;nbsp;model");!!discoiqbr!!!!discoiqbr!!/*&amp;nbsp;create&amp;nbsp;the&amp;nbsp;model&amp;nbsp;*/!!discoiqbr!!String&amp;nbsp;modelId&amp;nbsp;=&amp;nbsp;new&amp;nbsp;String(modelParent.getPath()+"/jcr:content/model")!!discoiqbr!!WorkflowModel&amp;nbsp;model&amp;nbsp;=&amp;nbsp;wfSession.createNewModel("Made&amp;nbsp;using&amp;nbsp;Java",modelId);!!discoiqbr!!!!discoiqbr!!/*&amp;nbsp;delete&amp;nbsp;the&amp;nbsp;model&amp;nbsp;*/!!discoiqbr!!wfSession.deleteModel(modelId);!!discoiqbr!!%&gt; 
+  </codeblock> 
+  <h4>Creating, Reading or Deleting Workflow Models - ECMA Script</h4> 
+  <codeblock gutter="true" class="syntax js">
+    var&amp;nbsp;resolver&amp;nbsp;=&amp;nbsp;sling.getRequest().getResource().getResourceResolver();!!discoiqbr!!var&amp;nbsp;wfSession&amp;nbsp;=&amp;nbsp;resolver.adaptTo(Packages.com.adobe.granite.workflow.WorkflowSession);!!discoiqbr!!var&amp;nbsp;pageManager&amp;nbsp;=&amp;nbsp;resolver.adaptTo(Packages.com.day.cq.wcm.api.PageManager);!!discoiqbr!!!!discoiqbr!!//create&amp;nbsp;the&amp;nbsp;parent&amp;nbsp;page&amp;nbsp;node!!discoiqbr!!var&amp;nbsp;workflowPage&amp;nbsp;=&amp;nbsp;pageManager.create("/var/workflow/models",&amp;nbsp;"mymodel",&amp;nbsp;"/libs/cq/workflow/templates/model",&amp;nbsp;"Created&amp;nbsp;via&amp;nbsp;ECMA&amp;nbsp;Script");!!discoiqbr!!var&amp;nbsp;modelId&amp;nbsp;=&amp;nbsp;workflowPage.getPath()+&amp;nbsp;"/jcr:content/model";!!discoiqbr!!//create&amp;nbsp;the&amp;nbsp;model!!discoiqbr!!var&amp;nbsp;model&amp;nbsp;=&amp;nbsp;wfSession.createNewModel("My&amp;nbsp;Model",&amp;nbsp;modelId);!!discoiqbr!!//delete&amp;nbsp;the&amp;nbsp;model!!discoiqbr!!var&amp;nbsp;model&amp;nbsp;=&amp;nbsp;wfSession.deleteModel(modelId); 
+  </codeblock> 
+  <h4>Deleting a Workflow Model - REST using curl</h4> 
+  <codeblock gutter="true" class="syntax shell">
+    #&amp;nbsp;deleting&amp;nbsp;the&amp;nbsp;model&amp;nbsp;by&amp;nbsp;its&amp;nbsp;id!!discoiqbr!!curl&amp;nbsp;-u&amp;nbsp;admin:admin&amp;nbsp;-X&amp;nbsp;DELETE&amp;nbsp;http://localhost:4502/etc/workflow/models/{id} 
+  </codeblock> 
+  <note> 
+   <p>Due to the level of detail required, curl is not considered practical for creating and/or reading a model.</p> 
+  </note> 
+  <h3>Filtering Out System Workflows when Checking Workflow Status</h3> 
+  <p>You can use the <a href="/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/status/WorkflowStatus">WorkflowStatus API</a> to retrieve information about the workflow status of a node. </p> 
+  <p>Various methods have the parameter:</p> 
+  <p style="margin-left: 40px;"><span class="code">excludeSystemWorkflows</span></p> 
+  <p>This parameter can be set to <span class="code">true</span> to indicate that system workflows should be excluded from the relevant results. </p> 
+  <p>You <a href="../../../sites/deploying/using/configuring-osgi.md">can update the OSGi configuration</a> <strong>Adobe Granite Workflow PayloadMapCache</strong> that specifies the workflow <span class="code">Models</span> to be considered as system workflows. The default (runtime) workflow models are:<br /> </p> 
+  <ul> 
+   <li><span class="code">/var/workflow/models/scheduled_activation/jcr:content/model</span></li> 
+   <li><span class="code">/var/workflow/models/scheduled_deactivation/jcr:content/model</span></li> 
+  </ul> 
+  <h3>Auto-Advance Participant Step after a Timeout</h3> 
+  <p>If you need to auto-advance a <strong>Participant</strong> step that has not been completed within a predefined time you can:</p> 
+  <ol> 
+   <li>Implement an OSGI event listener to listen on task creation and modification.</li> 
+   <li>Specify a timeout (deadline), then create a scheduled sling job to fire at that time.</li> 
+   <li>Write a job handler that is notified when the timeout expires and triggers the job. <br /> This handler will take the required action on the task if the task is not yet completed</li> 
+  </ol> 
+  <note> 
+   <p>The action to be taken must be clearly defined to be able to use this approach.</p> 
+  </note> 
+  <h3>Interacting with Workflow Instances</h3> 
+  <p>The following provide basic examples of how to interact (progammatically) with workflow instances.</p> 
+  <h4>Interacting with Workflow Instances - Java</h4> 
+  <codeblock gutter="true" class="syntax java">
+    //&amp;nbsp;starting&amp;nbsp;a&amp;nbsp;workflow!!discoiqbr!!WorkflowModel&amp;nbsp;model&amp;nbsp;=&amp;nbsp;wfSession.getModel(workflowId);!!discoiqbr!!WorkflowData&amp;nbsp;wfData&amp;nbsp;=&amp;nbsp;wfSession.newWorkflowData("JCR_PATH",&amp;nbsp;repoPath);!!discoiqbr!!wfSession.startWorkflow(model,&amp;nbsp;wfData);!!discoiqbr!!!!discoiqbr!!//&amp;nbsp;querying&amp;nbsp;and&amp;nbsp;managing&amp;nbsp;a&amp;nbsp;workflow!!discoiqbr!!Workflow[]&amp;nbsp;workflows&amp;nbsp;workflows&amp;nbsp;=&amp;nbsp;wfSession.getAllWorkflows();!!discoiqbr!!Workflow&amp;nbsp;workflow=&amp;nbsp;wfSession.getWorkflow(id);!!discoiqbr!!wfSession.suspendWorkflow(workflow);!!discoiqbr!!wfSession.resumeWorkflow(workflow);!!discoiqbr!!wfSession.terminateWorkflow(workflow); 
+  </codeblock> 
+  <h4>Interacting with Workflow Instances - ECMA Script</h4> 
+  <codeblock gutter="true" class="syntax js">
+    //&amp;nbsp;starting&amp;nbsp;a&amp;nbsp;workflow!!discoiqbr!!var&amp;nbsp;model&amp;nbsp;=&amp;nbsp;wfSession.getModel(workflowId);!!discoiqbr!!var&amp;nbsp;wfData&amp;nbsp;=&amp;nbsp;wfSession.newWorkflowData("JCR_PATH",&amp;nbsp;repoPath);!!discoiqbr!!wfSession.startWorkflow(model,&amp;nbsp;wfData);!!discoiqbr!!!!discoiqbr!!//&amp;nbsp;querying&amp;nbsp;and&amp;nbsp;managing&amp;nbsp;a&amp;nbsp;workflow!!discoiqbr!!var&amp;nbsp;workflows&amp;nbsp;=&amp;nbsp;wfSession.getWorkflows(“RUNNING“);!!discoiqbr!!var&amp;nbsp;workflow=&amp;nbsp;wfSession.getWorkflow(id);!!discoiqbr!!wfSession.suspendWorkflow(workflow);!!discoiqbr!!wfSession.resumeWorkflow(workflow);!!discoiqbr!!wfSession.terminateWorkflow(workflow); 
+  </codeblock> 
+  <h4>Interacting with Workflow Instances - REST using curl</h4> 
+  <ul> 
+   <li> 
+    <codeblock gutter="true" class="syntax shell">
+      #&amp;nbsp;starting&amp;nbsp;a&amp;nbsp;workflow!!discoiqbr!!curl&amp;nbsp;-d&amp;nbsp;"model={id}&amp;payloadType={type}&amp;payload={payload}"&amp;nbsp;http://localhost:4502/etc/workflow/instances!!discoiqbr!!!!discoiqbr!!#&amp;nbsp;for&amp;nbsp;example:!!discoiqbr!!curl&amp;nbsp;-u&amp;nbsp;admin:admin&amp;nbsp;-d&amp;nbsp;"model=/var/workflow/models/request_for_activation/jcr:content/model&amp;payloadType=JCR_PATH&amp;payload=/content/we-retail/us/en/products"&amp;nbsp;http://localhost:4502/etc/workflow/instances 
+    </codeblock></li> 
+   <li> 
+    <codeblock gutter="true" class="syntax shell">
+      #&amp;nbsp;listing&amp;nbsp;the&amp;nbsp;instances!!discoiqbr!!curl&amp;nbsp;-u&amp;nbsp;admin:admin&amp;nbsp;http://localhost:4502/etc/workflow/instances.json 
+    </codeblock><p>This will list all instances; for example:</p> 
+    <codeblock gutter="true" class="syntax shell">
+      [!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;{"uri":"/var/workflow/instances/server0/2018-02-26/prototype-01_1"}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;,{"uri":"/var/workflow/instances/server0/2018-02-26/prototype-01_2"}!!discoiqbr!!] 
+    </codeblock> 
+    <note> 
+     <p>See <a href="#howtogetalistofallrunningworkflowswiththeirids">How to get a List of all Running Workflows</a> with their IDs for listing instances with a specific status.</p> 
+    </note></li> 
+   <li> 
+    <codeblock gutter="true" class="syntax shell">
+      #&amp;nbsp;suspending&amp;nbsp;a&amp;nbsp;workflow!!discoiqbr!!curl&amp;nbsp;-d&amp;nbsp;"state=SUSPENDED"&amp;nbsp;http://localhost:4502/etc/workflow/instances/{id}!!discoiqbr!!!!discoiqbr!!#&amp;nbsp;for&amp;nbsp;example:!!discoiqbr!!curl&amp;nbsp;-u&amp;nbsp;admin:admin&amp;nbsp;-d&amp;nbsp;"state=SUSPENDED"&amp;nbsp;http://localhost:4502/etc/workflow/instances/server0/2017-03-08/request_for_activation_1!!discoiqbr!! 
+    </codeblock></li> 
+   <li> 
+    <codeblock gutter="true" class="syntax shell">
+      #&amp;nbsp;resuming&amp;nbsp;a&amp;nbsp;workflow!!discoiqbr!!curl&amp;nbsp;-d&amp;nbsp;"state=RUNNING"&amp;nbsp;http://localhost:4502/etc/workflow/instances/{id}!!discoiqbr!!!!discoiqbr!!#&amp;nbsp;for&amp;nbsp;example:!!discoiqbr!!curl&amp;nbsp;-u&amp;nbsp;admin:admin&amp;nbsp;-d&amp;nbsp;"state=RUNNING"&amp;nbsp;http://localhost:4502/etc/workflow/instances/server0/2017-03-08/request_for_activation_1!!discoiqbr!! 
+    </codeblock></li> 
+   <li> 
+    <codeblock gutter="true" class="syntax shell">
+      #&amp;nbsp;terminating&amp;nbsp;a&amp;nbsp;workflow!!discoiqbr!!curl&amp;nbsp;-d&amp;nbsp;"state=ABORTED"&amp;nbsp;http://localhost:4502/etc/workflow/instances/{id}!!discoiqbr!!!!discoiqbr!!#&amp;nbsp;for&amp;nbsp;example:!!discoiqbr!!curl&amp;nbsp;-u&amp;nbsp;admin:admin&amp;nbsp;-d&amp;nbsp;"state=ABORTED"&amp;nbsp;http://localhost:4502/etc/workflow/instances/server0/2017-03-08/request_for_activation_1 
+    </codeblock></li> 
+  </ul> 
+  <h3>Interacting with Work Items</h3> 
+  <p>The following provide basic examples of how to interact (progammatically) with work items.</p> 
+  <h4>Interacting with Work Items - Java</h4> 
+  <codeblock gutter="true" class="syntax java">
+    //&amp;nbsp;querying&amp;nbsp;work&amp;nbsp;items!!discoiqbr!!WorkItem[]&amp;nbsp;workItems&amp;nbsp;=&amp;nbsp;wfSession.getActiveWorkItems();!!discoiqbr!!WorkItem&amp;nbsp;workItem&amp;nbsp;=&amp;nbsp;wfSession.getWorkItem(id);!!discoiqbr!!!!discoiqbr!!//&amp;nbsp;getting&amp;nbsp;routes!!discoiqbr!!List&lt;Route&gt;&amp;nbsp;routes&amp;nbsp;=&amp;nbsp;wfSession.getRoutes(workItem);!!discoiqbr!!!!discoiqbr!!//&amp;nbsp;delegating!!discoiqbr!!Iterator&lt;Participant&gt;&amp;nbsp;delegatees&amp;nbsp;=&amp;nbsp;wfSession.getDelegatees(workItem);!!discoiqbr!!wfSession.delegateWorkItem(workItem,&amp;nbsp;delegatees.get(0));!!discoiqbr!!!!discoiqbr!!//&amp;nbsp;completing&amp;nbsp;or&amp;nbsp;advancing&amp;nbsp;to&amp;nbsp;the&amp;nbsp;next&amp;nbsp;step!!discoiqbr!!wfSession.complete(workItem,&amp;nbsp;routes.get(0)); 
+  </codeblock> 
+  <h4>Interacting with Work Items - ECMA Script</h4> 
+  <codeblock gutter="true" class="syntax js">
+    //&amp;nbsp;querying&amp;nbsp;work&amp;nbsp;items!!discoiqbr!!var&amp;nbsp;workItems&amp;nbsp;=&amp;nbsp;wfSession.getActiveWorkItems();!!discoiqbr!!var&amp;nbsp;workItem&amp;nbsp;=&amp;nbsp;wfSession.getWorkItem(id);!!discoiqbr!!!!discoiqbr!!//&amp;nbsp;getting&amp;nbsp;routes!!discoiqbr!!var&amp;nbsp;routes&amp;nbsp;=&amp;nbsp;wfSession.getRoutes(workItem);!!discoiqbr!!!!discoiqbr!!//&amp;nbsp;delegating!!discoiqbr!!var&amp;nbsp;delegatees&amp;nbsp;=&amp;nbsp;wfSession.getDelegatees(workItem);!!discoiqbr!!wfSession.delegateWorkItem(workItem,&amp;nbsp;delegatees.get(0));!!discoiqbr!!!!discoiqbr!!//&amp;nbsp;completing&amp;nbsp;or&amp;nbsp;advancing&amp;nbsp;to&amp;nbsp;the&amp;nbsp;next&amp;nbsp;step!!discoiqbr!!wfSession.complete(workItem,&amp;nbsp;routes.get(0)); 
+  </codeblock> 
+  <h4>Interacting with Work Items - REST using curl</h4> 
+  <ul> 
+   <li> 
+    <codeblock gutter="true" class="syntax shell">
+      #&amp;nbsp;listing&amp;nbsp;the&amp;nbsp;work&amp;nbsp;items!!discoiqbr!!curl&amp;nbsp;-u&amp;nbsp;admin:admin&amp;nbsp;http://localhost:4502/bin/workflow/inbox!!discoiqbr!! 
+    </codeblock><p>Details for work items currently in the Inbox will be listed; for example:</p> 
+    <codeblock gutter="true" class="syntax shell">
+      [{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"uri_xss":&amp;nbsp;"/var/workflow/instances/server0/2018-02-26/prototype-01_2/workItems/node2_var_workflow_instances_server0_2018-02-26_prototype-01_2",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"uri":&amp;nbsp;"/var/workflow/instances/server0/2018-02-26/prototype-01_2/workItems/node2_var_workflow_instances_server0_2018-02-26_prototype-01_2",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"currentAssignee_xss":&amp;nbsp;"workflow-administrators",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"currentAssignee":&amp;nbsp;"workflow-administrators",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"startTime":&amp;nbsp;1519656289274,!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"payloadType_xss":&amp;nbsp;"JCR_PATH",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"payloadType":&amp;nbsp;"JCR_PATH",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"payload_xss":&amp;nbsp;"/content/we-retail/es/es",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"payload":&amp;nbsp;"/content/we-retail/es/es",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"comment_xss":&amp;nbsp;"Process&amp;nbsp;resource&amp;nbsp;is&amp;nbsp;null",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"comment":&amp;nbsp;"Process&amp;nbsp;resource&amp;nbsp;is&amp;nbsp;null",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"type_xss":&amp;nbsp;"WorkItem",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"type":&amp;nbsp;"WorkItem"!!discoiqbr!!&amp;nbsp;&amp;nbsp;},{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"uri_xss":&amp;nbsp;"configuration/configure_analyticstargeting",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"uri":&amp;nbsp;"configuration/configure_analyticstargeting",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"currentAssignee_xss":&amp;nbsp;"administrators",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"currentAssignee":&amp;nbsp;"administrators",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"type_xss":&amp;nbsp;"Task",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"type":&amp;nbsp;"Task"!!discoiqbr!!&amp;nbsp;&amp;nbsp;},{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"uri_xss":&amp;nbsp;"configuration/securitychecklist",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"uri":&amp;nbsp;"configuration/securitychecklist",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"currentAssignee_xss":&amp;nbsp;"administrators",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"currentAssignee":&amp;nbsp;"administrators",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"type_xss":&amp;nbsp;"Task",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"type":&amp;nbsp;"Task"!!discoiqbr!!&amp;nbsp;&amp;nbsp;},{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"uri_xss":&amp;nbsp;"configuration/enable_collectionofanonymoususagedata",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"uri":&amp;nbsp;"configuration/enable_collectionofanonymoususagedata",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"currentAssignee_xss":&amp;nbsp;"administrators",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"currentAssignee":&amp;nbsp;"administrators",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"type_xss":&amp;nbsp;"Task",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"type":&amp;nbsp;"Task"!!discoiqbr!!&amp;nbsp;&amp;nbsp;},{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"uri_xss":&amp;nbsp;"configuration/configuressl",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"uri":&amp;nbsp;"configuration/configuressl",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"currentAssignee_xss":&amp;nbsp;"administrators",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"currentAssignee":&amp;nbsp;"administrators",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"type_xss":&amp;nbsp;"Task",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"type":&amp;nbsp;"Task"!!discoiqbr!!&amp;nbsp;&amp;nbsp;}!!discoiqbr!! 
+    </codeblock></li> 
+   <li> 
+    <codeblock gutter="true" class="syntax xml">
+      #&amp;nbsp;delegating!!discoiqbr!!curl&amp;nbsp;-d&amp;nbsp;"item={item}&amp;delegatee={delegatee}"&amp;nbsp;http://localhost:4502/bin/workflow/inbox!!discoiqbr!!!!discoiqbr!!#&amp;nbsp;for&amp;nbsp;example:&amp;nbsp;!!discoiqbr!!curl&amp;nbsp;-u&amp;nbsp;admin:admin&amp;nbsp;-d&amp;nbsp;"item=/etc/workflow/instances/server0/2017-03-08/request_for_activation_1/workItems/node1_etc_workflow_instances_server0_2017-03-08_request_for_act_1&amp;delegatee=administrators"&amp;nbsp;http://localhost:4502/bin/workflow/inbox 
+    </codeblock> 
+    <note> 
+     <p>The <span class="code">delegatee</span> must be a valid option for the workflow step.</p> 
+    </note></li> 
+   <li> 
+    <codeblock gutter="true" class="syntax xml">
+      #&amp;nbsp;retrieve&amp;nbsp;the&amp;nbsp;list&amp;nbsp;of&amp;nbsp;routes;&amp;nbsp;the&amp;nbsp;results&amp;nbsp;will&amp;nbsp;be&amp;nbsp;similar&amp;nbsp;to&amp;nbsp;{"results":1,"routes":[{"rid":"233123169","label":"End","label_xss":"End"}]}!!discoiqbr!!http://localhost:4502/etc/workflow/instances/&lt;path-to-the-workitem&gt;.routes.json!!discoiqbr!!!!discoiqbr!!#&amp;nbsp;completing&amp;nbsp;or&amp;nbsp;advancing&amp;nbsp;to&amp;nbsp;the&amp;nbsp;next&amp;nbsp;step;&amp;nbsp;use&amp;nbsp;the&amp;nbsp;appropriate&amp;nbsp;route&amp;nbsp;ID&amp;nbsp;(rid&amp;nbsp;value)&amp;nbsp;from&amp;nbsp;the&amp;nbsp;above&amp;nbsp;list!!discoiqbr!!curl&amp;nbsp;-d&amp;nbsp;"item={item}&amp;route={route}"&amp;nbsp;http://localhost:4502/bin/workflow/inbox!!discoiqbr!!!!discoiqbr!!#&amp;nbsp;for&amp;nbsp;example:!!discoiqbr!!curl&amp;nbsp;-u&amp;nbsp;admin:admin&amp;nbsp;-d&amp;nbsp;"item=/etc/workflow/instances/server0/2017-03-08/request_for_activation_1/workItems/node1_etc_workflow_instances_server0_2017-03-08_request_for_activation_1&amp;route=233123169"&amp;nbsp;http://localhost:4502/bin/workflow/inbox 
+    </codeblock></li> 
+  </ul> 
+  <h3>Listening for Workflow Events</h3> 
+  <p>Use the OSGi event framework to listen for events that the <a href="/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/event/WorkflowEvent"><span class="code">com.adobe.granite.workflow.event.WorkflowEvent</span></a> class defines. This class also provides several useful methods for obtaining information about the subject of the event. For example, the <span class="code">getWorkItem</span> method returns the <span class="code">WorkItem</span> object for the workitem that is involved in the event.</p> 
+  <p>The following example code defines a service that listens to workflow events and performs tasks according to the type of event.</p> 
+  <codeblock gutter="true" class="syntax java">
+    package&amp;nbsp;com.adobe.example.workflow.listeners;!!discoiqbr!!!!discoiqbr!!import&amp;nbsp;org.apache.sling.event.jobs.JobProcessor;!!discoiqbr!!import&amp;nbsp;org.apache.sling.event.jobs.JobUtil;!!discoiqbr!!!!discoiqbr!!import&amp;nbsp;org.osgi.service.event.Event;!!discoiqbr!!import&amp;nbsp;org.osgi.service.event.EventHandler;!!discoiqbr!!import&amp;nbsp;org.slf4j.Logger;!!discoiqbr!!import&amp;nbsp;org.slf4j.LoggerFactory;!!discoiqbr!!!!discoiqbr!!import&amp;nbsp;org.apache.felix.scr.annotations.Component;!!discoiqbr!!import&amp;nbsp;org.apache.felix.scr.annotations.Property;!!discoiqbr!!import&amp;nbsp;org.apache.felix.scr.annotations.Service;!!discoiqbr!!!!discoiqbr!!import&amp;nbsp;com.adobe.granite.workflow.event.WorkflowEvent;!!discoiqbr!!import&amp;nbsp;com.adobe.granite.workflow.exec.WorkItem;!!discoiqbr!!!!discoiqbr!!/**!!discoiqbr!!&amp;nbsp;*&amp;nbsp;The&amp;nbsp;&lt;code&gt;WorkflowEventCatcher&lt;/code&gt;&amp;nbsp;class&amp;nbsp;listens&amp;nbsp;to&amp;nbsp;workflow&amp;nbsp;events.&amp;nbsp;!!discoiqbr!!&amp;nbsp;*/!!discoiqbr!!@Component(metatype=false,&amp;nbsp;immediate=true)!!discoiqbr!!@Service(value=org.osgi.service.event.EventHandler.class)!!discoiqbr!!public&amp;nbsp;class&amp;nbsp;WorkflowEventCatcher&amp;nbsp;implements&amp;nbsp;EventHandler,&amp;nbsp;JobProcessor&amp;nbsp;{!!discoiqbr!!!!discoiqbr!!&amp;nbsp;@Property(value=com.adobe.granite.workflow.event.WorkflowEvent.EVENT_TOPIC)!!discoiqbr!!&amp;nbsp;static&amp;nbsp;final&amp;nbsp;String&amp;nbsp;EVENT_TOPICS&amp;nbsp;=&amp;nbsp;"event.topics";!!discoiqbr!!!!discoiqbr!!&amp;nbsp;private&amp;nbsp;static&amp;nbsp;final&amp;nbsp;Logger&amp;nbsp;logger&amp;nbsp;=&amp;nbsp;LoggerFactory.getLogger(WorkflowEventCatcher.class);!!discoiqbr!!!!discoiqbr!!&amp;nbsp;public&amp;nbsp;void&amp;nbsp;handleEvent(Event&amp;nbsp;event)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;JobUtil.processJob(event,&amp;nbsp;this);!!discoiqbr!!&amp;nbsp;}!!discoiqbr!!!!discoiqbr!!&amp;nbsp;public&amp;nbsp;boolean&amp;nbsp;process(Event&amp;nbsp;event)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;logger.info("Received&amp;nbsp;event&amp;nbsp;of&amp;nbsp;topic:&amp;nbsp;"&amp;nbsp;+&amp;nbsp;event.getTopic());!!discoiqbr!!&amp;nbsp;&amp;nbsp;String&amp;nbsp;topic&amp;nbsp;=&amp;nbsp;event.getTopic();!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;try&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;if&amp;nbsp;(topic.equals(WorkflowEvent.EVENT_TOPIC))&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;WorkflowEvent&amp;nbsp;wfevent&amp;nbsp;=&amp;nbsp;(WorkflowEvent)event;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;String&amp;nbsp;eventType&amp;nbsp;=&amp;nbsp;wfevent.getEventType();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;String&amp;nbsp;instanceId&amp;nbsp;=&amp;nbsp;wfevent.getWorkflowInstanceId();!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if&amp;nbsp;(instanceId&amp;nbsp;!=&amp;nbsp;null)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//workflow&amp;nbsp;instance&amp;nbsp;events!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if&amp;nbsp;(eventType.equals(WorkflowEvent.WORKFLOW_STARTED_EVENT)&amp;nbsp;||!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;eventType.equals(WorkflowEvent.WORKFLOW_RESUMED_EVENT)&amp;nbsp;||!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;eventType.equals(WorkflowEvent.WORKFLOW_SUSPENDED_EVENT))&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;your&amp;nbsp;code&amp;nbsp;comes&amp;nbsp;here...!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&amp;nbsp;else&amp;nbsp;if&amp;nbsp;(!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;eventType.equals(WorkflowEvent.WORKFLOW_ABORTED_EVENT)&amp;nbsp;||!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;eventType.equals(WorkflowEvent.WORKFLOW_COMPLETED_EVENT))&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;your&amp;nbsp;code&amp;nbsp;comes&amp;nbsp;here...!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;workflow&amp;nbsp;node&amp;nbsp;event!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if&amp;nbsp;(eventType.equals(WorkflowEvent.NODE_TRANSITION_EVENT))&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;WorkItem&amp;nbsp;currentItem&amp;nbsp;=&amp;nbsp;(WorkItem)&amp;nbsp;event.getProperty(WorkflowEvent.WORK_ITEM);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;your&amp;nbsp;code&amp;nbsp;comes&amp;nbsp;here...!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;}&amp;nbsp;catch(Exception&amp;nbsp;e){!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;logger.debug(e.getMessage());!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;e.printStackTrace();!!discoiqbr!!&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;return&amp;nbsp;true;!!discoiqbr!!&amp;nbsp;}!!discoiqbr!!} 
+  </codeblock> 
+ </body> 
+</html>

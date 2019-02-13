@@ -1,0 +1,134 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:platform;content_type:reference" name="cq:tags" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="aheimoz" name="cq:lastReplicatedBy" /> 
+  <meta content="Templates" name="seoTitle" /> 
+  <meta content="2018-12-11T07:34:11.225-0500" name="cq:lastReplicated" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="Guillaume Carlino" name="contentOwner" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2018-12-11T07:34:11.145-0500" name="topicBrowsingSortDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2018-05-08T12:45:25.735-0400" name="locHandOffDate" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/templates.html" name="publishExternalURL" /> 
+  <meta content="aheimoz@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="ea99a218-1602-4b8e-a73c-89163ac4ea7f" name="jcr:predecessors" /> 
+  <meta content="Templates are used when creating a page which will be used as the base for the new page" name="seoDescription" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/morehelp/platform;/content/help/en/experience-manager/6-4/sites/developing/morehelp/platform" name="moreHelpPaths" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2018-12-11T07:34:11.159-0500" name="cq:lastModified" /> 
+  <meta content="2017-12-01T19:01:52.827-0500" name="jcr:created" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" /> 
+  <meta content="Templates" name="navTitle" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2017-10-31T16:16:15.877-0400" name="firstPublishExternalDate" /> 
+  <meta content="aheimoz" name="cq:lastModifiedBy" /> 
+  <meta content="2018-12-11T07:34:11.145-0500" name="lastPublishExternalDate" /> 
+  <meta content="audience:developing" name="primaryAudienceTag" /> 
+  <meta content="/content/docs/en/aem/6-1/develop/the-basics/templates" name="legacyPath" /> 
+  <meta content="d4d9b859-3933-4363-9874-39d9092ac05e" name="jcr:uuid" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2018-12-11T07:34:11.145-0500" name="publishExternalDate" /> 
+  <meta content="Templates" name="jcr:title" /> 
+  <meta content="/content/docs/en/aem/6-3/develop/templates" name="qaNotes" /> 
+ </head> 
+ <body> 
+  <p>Templates are used at various points in AEM:</p> 
+  <ul> 
+   <li>When <a href="#templatespages">creating a page you need to select a template</a>; this will be used as the base for the new page. The template defines the structure of the resultant page, any initial content and the <a href="../../../sites/authoring/using/default-components.md">components</a> that can be used (design properties).</li> 
+   <li>When <a href="#templatescontentfragments">creating a Content Fragment you also need to select a template</a>. This template defines the structure, initial elements and variations.<br /> </li> 
+  </ul> 
+  <p>The following templates are covered in detail:<br /> </p> 
+  <ul> 
+   <li><a href="../../../sites/developing/using/page-templates-editable.md">Page Templates - Editable</a></li> 
+   <li><a href="../../../sites/developing/using/page-templates-static.md">Page Templates - Static</a></li> 
+   <li><a href="../../../sites/developing/using/content-fragment-templates.md">Content Fragment Templates</a></li> 
+   <li><a href="../../../sites/developing/using/templates-adaptive-rendering.md">Adaptive Template Rendering</a></li> 
+  </ul> 
+  <h2>Templates - Pages</h2> 
+  <p>AEM now offers two basic types of templates for creating pages:</p> 
+  <note> 
+   <p>When using a template to <a href="../../../sites/authoring/using/managing-pages.md#creatinganewpage">create a new page</a> there is no visible difference (to the page author) and no indication of the type of template being used.<br /> </p> 
+  </note> 
+  <h3>Editable Templates</h3> 
+  <p>Editable templates are now cosidered best practices for developing with AEM 6.4.</p> 
+  <p>The advantages of Editable Templates:</p> 
+  <ul> 
+   <li>Can be <a href="../../../sites/authoring/using/templates.md#creatinganewtemplate">created</a> and <a href="../../../sites/authoring/using/templates.md#editingatemplate">edited</a> by your authors.</li> 
+   <li>Have been introduced to allow you to define the following for any pages created with the template: 
+    <ul> 
+     <li>the structure</li> 
+     <li>the initial content</li> 
+     <li>content policies</li> 
+    </ul> </li> 
+   <li>After the new page is created a dynamic connection is maintained between the page and the template; this means that changes to the template structure will be reflected on any pages created with that template (changes to the initial content will not be reflected).<br /> </li> 
+   <li>Uses content policies (edited from the template editor) to persist the design properties (does not use Design mode within the page editor).</li> 
+   <li>Are stored under <span class="code">/conf</span></li> 
+   <li>See <a href="../../../sites/developing/using/page-templates-editable.md">Editable Templates</a> for further information.</li> 
+  </ul> 
+  <note> 
+   <p>An AEM Community Article is available explaining how to develop an Experience Manager site with Editable Templayes, see <a href="https://helpx.adobe.com/experience-manager/using/first_aem64_website.html">Creating an Adobe Experience Manager 6.4 website using Editable Templates</a>.</p> 
+  </note> 
+  <h3>Static Templates</h3> 
+  <p>Static Templates:</p> 
+  <ul> 
+   <li>Must be defined and configured by your developers.</li> 
+   <li>These templates have been available for several versions of AEM. </li> 
+   <li>A static template is a hierarchy of nodes that has the same structure as the page to be created, but without any actual content.</li> 
+   <li>Are copied to create the new page, no dynamic connection exists after this.</li> 
+   <li>Uses <a href="../../../sites/authoring/using/default-components-designmode.md">Design Mode</a> to persist design properties.</li> 
+   <li>Are stored under <span class="code">/apps</span></li> 
+   <li>See <a href="../../../sites/developing/using/page-templates-static.md">Static Templates</a> for further information.</li> 
+  </ul> 
+  <note> 
+   <p>The use of Static Templates in Experience Manager 6.4 is not considered a best practice. Use Editable Templates instead. </p> 
+  </note> 
+  <h3>Template Availability</h3> 
+  <note> 
+   <p>AEM offers multiple properties to control the templates allowed under <strong>Sites</strong>. However, combining them can lead to very complex rules that are difficult to track and manage.</p> 
+   <p>Therefore, Adobe recommends that you start simple, by defining:</p> 
+   <ul> 
+    <li>only the <span class="code">cq:allowedTemplates</span> property<br /> </li> 
+    <li>only on the site root</li> 
+   </ul> 
+   <p>For an example, see We.Retail: <span class="code">/content/we-retail/jcr:content</span></p> 
+   <p>The properties <span class="code">allowedPaths</span>, <span class="code">allowedParents</span>, and <span class="code">allowedChildren</span> can also be placed on the templates to define more sophisticated rules. However, when possible, it is <em>much</em> simpler to define further <span class="code">cq:allowedTemplates</span> properties on sub-sections of the site if there is a need to further restrict the allowed templates.</p> 
+   <p>An additional advantage is that the <span class="code">cq:allowedTemplates</span> properties can be updated by an author in the <strong>Advanced</strong> tab of the <strong>Page Properties</strong>. The other template properties cannot be updated using the (standard) UI, so would need a developer to maintain the rules and a code deployment for every change.</p> 
+  </note> 
+  <p>When creating a new page in the site admin interface, the list of available templates depends on the location of the new page and the restrictions on placement specified in each template.</p> 
+  <p>The following properties determine whether a template <span class="code">T</span> is allowed to be used for a new page to be placed as a child of page <span class="code">P</span>. Each of these properties is a multi-value string holding zero or more Regular Expressions that are used for matching with paths:</p> 
+  <ul> 
+   <li>The <span class="code">cq:allowedTemplates</span> property of the <span class="code">jcr:content</span> subnode of <span class="code">P</span> or an ancestor of <span class="code">P</span>. </li> 
+   <li>The <span class="code">allowedPaths</span> property of <span class="code">T</span>.</li> 
+   <li>The <span class="code">allowedParents</span> property of <span class="code">T</span>.</li> 
+   <li>The <span class="code">allowedChildren</span> property of the template of <span class="code">P</span>.</li> 
+  </ul> 
+  <p>The evaluation works as follows:</p> 
+  <ul> 
+   <li>The first non-empty <span class="code">cq:allowedTemplates</span> property found while ascending the page hierarchy starting with <span class="code">P</span> is matched against the path of <span class="code">T</span>. If none of the values match, <span class="code">T</span> is rejected.</li> 
+   <li>If <span class="code">T</span> has a non-empty <span class="code">allowedPaths</span> property, but none of the values match the path of <span class="code">P</span>, <span class="code">T</span> is rejected.</li> 
+   <li>If both of the above properties are either empty or non-existent, <span class="code">T</span> is rejected unless it belongs to the same application as <span class="code">P</span>. <span class="code">T</span> belongs to the same application as <span class="code">P</span> if and only if the name of the second level of the path of <span class="code">T</span> is the same as the name of the second level of the path of <span class="code">P</span>. For example, the template <span class="code">/apps/geometrixx/templates/foo</span> belongs to the same application as the page <span class="code">/content/geometrixx</span>.</li> 
+   <li>If <span class="code">T</span> has an non-empty <span class="code">allowedParents</span> property, but none of the values match the path of <span class="code">P</span>, <span class="code">T</span> is rejected.</li> 
+   <li>If the template of <span class="code">P</span> has a non-empty <span class="code">allowedChildren</span> property, but none of the values match the path of <span class="code">T</span>, <span class="code">T</span> is rejected.</li> 
+   <li>In all other cases, <span class="code">T</span> is allowed.</li> 
+  </ul> 
+  <p>The following diagram depicts the template evaluation process:</p> 
+  <img imageRotate="0" src="assets/chlimage_1-187.png" /> 
+  <h4>Limiting templates used in child pages</h4> 
+  <p>To limit what templates can be used to create child pages under a given page, use the <span class="code">cq:allowedTemplates</span> property of <span class="code">jcr:content</span> node of the page to specify the list of templates to be allowed as child pages. Each value in the list must be an absolute path to a template for an allowed child page, for example <span class="code">/apps/geometrixx/templates/contentpage</span>.</p> 
+  <p>You can use the <span class="code">cq:allowedTemplates</span> property on the template's<strong> </strong><span class="code">jcr:content</span> node to have this configuration applied to all newly created pages that use this template.</p> 
+  <p>If you want to add more constraints, for example regarding the template hierarchy, you can use the <span class="code">allowedParents/allowedChildren</span> properties on the template. You can then explicitly specify that pages created from a template T have to be parents/children of pages created from a template T.</p> 
+  <h2>Templates - Content Fragments</h2> 
+  <p>See <a href="../../../sites/developing/using/content-fragment-templates.md">Content Fragment Templates</a> for full information.</p> 
+ </body> 
+</html>

@@ -1,0 +1,74 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2018-05-08T12:41:59.672-0400" name="cq:lastModified" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2018-01-19T19:04:57.109-0500" name="jcr:created" /> 
+  <meta content="2018-01-18T11:19:14.599-0500" name="lastPublishExternalDate" /> 
+  <meta content="/content/docs/en/aem/6-3/develop/the-basics/designer" name="qaNotes" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="d9a3709c-bb27-4fb6-a657-8073848f2aec" name="jcr:predecessors" /> 
+  <meta content="Designs and the Designer" name="navTitle" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="Guillaume Carlino" name="contentOwner" /> 
+  <meta content="You will need to create a design for your website and in AEM, you do so by using the Designer" name="seoDescription" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="audience:developing" name="primaryAudienceTag" /> 
+  <meta content="8253e5a8-d884-4b62-821b-3c1893b0c884" name="jcr:uuid" /> 
+  <meta content="Designs and the Designer" name="seoTitle" /> 
+  <meta content="2018-01-18T11:19:14.599-0500" name="publishExternalDate" /> 
+  <meta content="Designs and the Designer" name="jcr:title" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="2017-10-31T16:17:05.531-0400" name="firstPublishExternalDate" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="2018-01-18T11:19:14.599-0500" name="topicBrowsingSortDate" /> 
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:introduction;content_type:reference" name="cq:tags" /> 
+  <meta content="2018-04-03T09:00:25.185-0400" name="cq:lastReplicated" /> 
+  <meta content="msm-service" name="cq:lastModifiedBy" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/morehelp/introduction;/content/help/en/experience-manager/6-4/sites/developing/morehelp/introduction" name="moreHelpPaths" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2018-05-08T12:41:59.670-0400" name="locHandOffDate" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/designer.html" name="publishExternalURL" /> 
+ </head> 
+ <body> 
+  <p>You will need to create a design for your website and in AEM, you do so by using the Designer.</p> 
+  <note> 
+   <p>For more information about Web accessibility, see <a href="../../../managing/using/web-accessibility.md">AEM and the Web Accessibility Guidelines</a>.</p> 
+  </note> 
+  <h3>Using the Designer</h3> 
+  <p>Your design can be defined in the <strong></strong><strong>designs</strong> section of the <strong>Tools</strong> tab:</p> 
+  <img imageRotate="0" src="assets/screen_shot_2012-02-01at30237pm.png" /> 
+  <p>Here you can create the structure required to store the design, then upload the cascaded style sheets and images required.</p> 
+  <p>Designs are stored under <span class="code">/etc/designs</span>. The path to the design to be used for a website is specified using the <span class="code">cq:designPath</span> property of the <span class="code">jcr:content</span> node.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-84.png" /> 
+  <note> 
+   <p>All the changes that are made on a page in design mode are persisted below the design node of the site and are automatically applied to all pages that have the same design.</p> 
+  </note> 
+  <h3>What you will need</h3> 
+  <p>To realize your design you will need:</p> 
+  <p><strong>CSS</strong> The Cascading Style Sheets define the formats of specific areas on your pages.</p> 
+  <p><strong>Images</strong> Any images that you use for features such as backgrounds, buttons.</p> 
+  <h3>Considerations When Designing Your Website</h3>  
+  <p>When developing a website, it is highly recommended to store images and CSS files under <span class="code">/etc/design/&amp;lt;project&amp;gt;</span> so you can reference your resources based on the current design like described by the following snippet.<br /> <br /> </p> 
+  <codeblock gutter="true" class="syntax xml">
+    &lt;%=&amp;nbsp;currentDesign.getPath()&amp;nbsp;+&amp;nbsp;"/static/img/icon.gif&amp;nbsp;%&gt; 
+  </codeblock> 
+  <p>The preceding example offers severals benefits:</p> 
+  <ul> 
+   <li>Components can have a different look/feel based on each site using a different design path.</li> 
+   <li>Re-design of the website can be simply done by pointing the design path to a different node at the root of the site from <span class="code">design/v1</span> to <span class="code">design/v2.</span></li> 
+   <li><span class="code">/etc/designs</span> and <span class="code">/content</span> are the only external URLs that the browser sees protecting you of an external user getting curious about what is under your <span class="code">/apps</span> tree. The above URL benefits also aid your System Administrator to setup better security because you are limiting the exposure of the assets to a few distinct locations.<br /> </li> 
+  </ul> 
+ </body> 
+</html>

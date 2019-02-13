@@ -1,0 +1,74 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="/content/help/en/experience-manager/6-4/sites/authoring/morehelp/personalization;/content/help/en/experience-manager/6-4/sites/authoring/morehelp/personalization" name="moreHelpPaths" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="Personalization" name="seoTitle" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="jsyal" name="cq:lastReplicatedBy" />
+  <meta content="2017-10-31T16:19:59.094-0400" name="firstPublishExternalDate" />
+  <meta content="Personalization" name="navTitle" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="Personalization" name="jcr:title" />
+  <meta content="/content/docs/en/aem/6-3/author/personalization" name="qaNotes" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="2018-04-19T10:34:04.522-0400" name="locHandOffDate" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/personalization.html" name="publishExternalURL" />
+  <meta content="audience:authoring" name="primaryAudienceTag" />
+  <meta content="Chris Bohnert" name="contentOwner" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2018-10-28T01:12:06.271-0400" name="publishExternalDate" />
+  <meta content="2018-10-28T01:12:06.278-0400" name="cq:lastModified" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="Learn how to create personalized content in AEM" name="seoDescription" />
+  <meta content="1c7fc904-9885-4e7f-b6a0-a0605e208b38" name="jcr:predecessors" />
+  <meta content="2017-12-01T19:01:21.866-0500" name="jcr:created" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="jsyal@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2018-10-28T01:12:06.312-0400" name="cq:lastReplicated" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="344a1363-15b9-49f5-babf-840500b5a650" name="jcr:uuid" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;content_type:reference;topic_tags:personalization" name="cq:tags" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-10-28T01:12:06.271-0400" name="topicBrowsingSortDate" />
+  <meta content="2018-10-28T01:12:06.271-0400" name="lastPublishExternalDate" />
+ </head>
+ <body>
+  <h2>Personalization and Content Targeting</h2>
+  <p>AEM provides a framework of tools for authoring targeted content and presenting personalized experiences.</p> 
+  <h3>Targeting mode</h3>
+  <p><a href="../../../sites/authoring/using/content-targeting-touch.md">Author targeted content</a> using Targeting mode of AEM. Targeting mode and the Target component provide tools for creating content for the experiences of your marketing activities.</p> 
+  <h3>Activities</h3>
+  <p>Activities define and organize your marketing efforts. Activities comprise the audiences that you are targeting, and the period of time when the targeting is applied.</p> 
+  <p>For example, the Geometrixx Outdoors product catalog includes teasers that focus attention on seasonal products. The Summer Sports activity defines the marketing segments that the teasers target during summer months.</p> 
+  <p>Activities also identify the <a href="../../../sites/authoring/using/personalization.md#main-pars-title-2">targeting engine</a> that your pages use.</p> 
+  <p>Use the <a href="../../../sites/authoring/using/activitylib.md">Activites console</a> to create and manage the activities for your brands. You can also create activities as you <a href="../../../sites/authoring/using/content-targeting-touch.md">author targeted content</a>. </p> 
+  <h3>Experiences</h3>
+  <p>For each activity, you define one or more experiences that identify the audiences that you are targeting. AEM enables you to control the content that comprises each experience.</p> 
+  <p>Audiences are based on marketing segments that are created either in AEM or Adobe Target. When a visitor opens a web page, the page logic determines the audience to which they belong and displays the content that you have created for that audience. </p> 
+  <p>For example, an activity defines experiences for two separate audiences: women over the age of 30 and women under the age of 30. The Women's page of the Geometrixx Outdoors web site displays different products for each experience. </p> 
+  <p>You define experiences for an activity. You can use the <a href="../../../sites/authoring/using/activitylib.md#main-pars-title-0">Activities console</a> or <a href="../../../sites/authoring/using/content-targeting-touch.md#main-pars-title-1">Targeting mode</a> to add experiences to an activity.</p> 
+  <h3>Offers</h3>
+  <p>An offer is content that appears at a location on a page for an experience. Use different offers for different experiences to maximize the effectiveness of the content for your audiences.</p> 
+  <p>For example, the Women's page of the Geometrixx Outdoors sample web site can use offers as the teaser image that appears at the top of the page. A different offer is used as the teaser for the Female Over 30 experience and for the Female Under 30 experience.</p> 
+  <p>Use the <a href="../../../sites/authoring/using/offerlib.md">Offers console</a> to create offers that you can use in multiple experiences. Create single-use offers or add offers from an offer library when <a href="../../../sites/authoring/using/content-targeting-touch.md">authoring targeted content</a>.</p> 
+  <h3>Targeting Engine</h3>
+  <p>The targeting engine is the mechanism that drives the logic for targeted content. <a href="../../../sites/authoring/using/activitylib.md">Activities</a> are configured to use one of two targeting engines that are available: AEM and Adobe Target.</p> 
+  <h4>AEM</h4>
+  <p>AEM provides a built-in targeting engine that processes page requests and determines the content to display. When using the AEM targeting engine, you are limited to using segments that are created in AEM for defining the audiences of your experiences. </p> 
+  <h4>Adobe Target</h4>
+  <p>The Adobe Target targeting engine causes information gathered from page visits to be tracked in Adobe Target.</p> 
+  <ul> 
+   <li>When using this targeting engine, you use the segments that you import from Adobe Target to define the audiences for your experiences.</li> 
+   <li>Activities that use the Adobe Target engine are <a href="../../../sites/authoring/using/activitylib.md#main-pars-title-1192575824">synchronized to Target</a>.</li> 
+  </ul> 
+  <p>You can use this engine when you have <a href="../../../sites/administering/using/opt-in.md">integrated with Adobe Target</a>.</p> 
+ </body>
+</html>

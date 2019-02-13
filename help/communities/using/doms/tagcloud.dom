@@ -1,0 +1,95 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="/content/docs/en/aem/6-3/author/communities/tagcloud" name="qaNotes" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/communities/using/tagcloud.html" name="publishExternalURL" />
+  <meta content="2018-05-17T05:52:18.432-0400" name="locHandOffDate" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="jsyal" name="cq:lastReplicatedBy" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2017-12-01T19:02:04.417-0500" name="jcr:created" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES" name="primaryProductTag" />
+  <meta content="2018-10-27T23:43:35.576-0400" name="cq:lastReplicated" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="Using Social Tag Cloud" name="jcr:title" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2018-04-03T08:03:24.935-0400" name="publishExternalDate" />
+  <meta content="Using Social Tag Cloud" name="seoTitle" />
+  <meta content="2018-05-17T05:52:18.432-0400" name="cq:lastModified" />
+  <meta content="078016cb-04f4-4d91-9ede-90ce063e39d8" name="jcr:predecessors" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" />
+  <meta content="/content/help/en/experience-manager/6-4/communities/morehelp/authoring;/content/help/en/experience-manager/6-4/communities/morehelp/authoring" name="moreHelpPaths" />
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="Using Social Tag Cloud" name="navTitle" />
+  <meta content="2018-04-03T08:03:24.935-0400" name="topicBrowsingSortDate" />
+  <meta content="2018-04-03T08:03:24.935-0400" name="lastPublishExternalDate" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2017-10-31T16:33:15.680-0400" name="firstPublishExternalDate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="Adding a Social Tag Cloud component to a page" name="seoDescription" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES;topic_tags:authoring;content_type:reference" name="cq:tags" />
+  <meta content="Guillaume Carlino" name="contentOwner" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="5606ee74-69be-4119-afce-5c10e68929d1" name="jcr:uuid" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+ </head>
+ <body>
+  <h3>Introduction</h3>
+  <p>The <span class="code">Social Tag Cloud</span> component highlights tags applied by community members when posting content. It is a means of identifying trending topics and allowing site visitors to quickly locate tagged content.</p> 
+  <p>For another means of identifying current trends, visit <a href="../../communities/using/trends.md">Activity Trends</a>.</p> 
+  <p>This page documents the <span class="code">Social Tag Cloud</span> component dialog settings and describes the user experience. </p> 
+  <p>For detailed information for developers see <a href="../../communities/using/tag.md">Tag Essentials</a>.<br /> </p> 
+  <p>See <a href="../../sites/administering/using/tags.md">Administering Tags</a> for information about creating and managing tags, as well as to which content tags have been applied.</p> 
+  <h3>Adding a Social Tag Cloud</h3>
+  <p>To add a <span class="code">Social Tag Cloud</span> component to a page in author mode, use the component browser to locate</p> 
+  <ul> 
+   <li><span class="code">Communities / Social Tag Cloud</span></li> 
+  </ul> 
+  <p>and drag it into place on a page where the tag cloud should appear.</p> 
+  <p>For necessary information, visit <a href="../../communities/using/basics.md">Communities Components Basics</a>.</p> 
+  <p>When the <a href="../../communities/using/tag.md#essentialsforclientside">required client-side libraries</a> are included, this is how the <span class="code">Social Tag Cloud</span> component will appear :</p> 
+  <img imageRotate="0" src="assets/chlimage_1-303.png" />
+  <h3>Configuring Social Tag Cloud</h3>
+  <p>Select the placed <span class="code">Social Tag Cloud</span> component to access and select the <span class="code">Configure</span> icon which opens the edit dialog.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-304.png" />
+  <p>Under the <strong>Social Tag Cloud</strong> tab, specify which tags to display and, if the tags are active links, the location of the page for search results.:</p> 
+  <img imageRotate="0" src="assets/chlimage_1-305.png" />
+  <ul> 
+   <li><strong>Social Tags to Display</strong><br /> Identify which UGC tags to display. The pull-down options are
+    <ul> 
+     <li><span class="code">From page and child pages</span></li> 
+     <li><span class="code">All tags</span></li> 
+    </ul> The default is <span class="code">From page and child pages</span>, where "page" refers to the <strong>Page</strong> setting below.</li> 
+   <li><strong>Page</strong><br /> (required if not <span class="code">All tags)</span> The path to the UGC for a page. Default is the current page if left blank.</li> 
+   <li><strong>No links on tags</strong><br /> If checked, the tags are displayed in the tag cloud as plain text. If unchecked, the tags are displayed as active links which search on all content to which that tag is applied. Default is unchecked and requires the <strong>Search Result Path</strong> to be set.</li> 
+   <li><strong>Search Result Path</strong><br /> The path to a page on which a <span class="code">Search Result</span> component has been placed, configured to reference UGC which includes the UGC path specified by the <strong>Page </strong>setting.</li> 
+  </ul> 
+  <h3>Change Display of Social Tag Cloud</h3>
+  <p>To edit the display of the <strong>Social Tag Cloud</strong>, enter <a href="../../sites/authoring/using/default-components-designmode.md">Design Mode</a> and double click on the placed <span class="code">Social Tag Cloud</span> component to open a dialog with an additional tab.</p> 
+  <p>Using the <strong>Social Tag Cloud (Design)</strong> tab, specify how tags are displayed. A tag may be a simple tag, a single word in the default namespace, or a hierarchical taxonomy :</p> 
+  <img imageRotate="0" src="assets/chlimage_1-306.png" />
+  <ul> 
+   <li><strong>Show full title paths</strong><br /> If checked, shows the titles for the parent tags and namespace for each applied tag. <br /> For example :<br /> 
+    <ul> 
+     <li>checked :<span class="code"> Geometrixx Media : Gadgets / Cars</span></li> 
+     <li>unchecked : <span class="code">Cars</span></li> 
+    </ul> There is no difference for a simple tag.<br /> Default is unchecked.</li> 
+   <li><strong>Show only leaf tags</strong><br /> If checked, shows only applied tags which contain no other tags.<br /> For example, given the TagID of<br /> <span class="code">Geometrixx Media : Gadgets / Cars</span><br /> there are 3 tags which can be applied : <span class="code">Geometrixx Media (the namespace)</span>, <span class="code">Gadgets</span>, and <span class="code">Cars</span><br /> 
+    <ul> 
+     <li>checked : only <span class="code">Cars</span> will display, if applied</li> 
+     <li>unchecked : <span class="code">Geometrixx Media</span> and <span class="code">Gadgets </span>as well as <span class="code">Cars</span> will display, if applied</li> 
+    </ul> A simple tag is a leaf tag.<br /> Default is unchecked.</li> 
+   <li><strong>Link Template</strong><br /> A template, other than a default, used to display the links in a tag cloud, when links are enabled through the component edit dialog.</li> 
+   <li><strong>Same size for all tags</strong><br /> If checked, all words in the tag cloud are styled the same. If unchecked, words are styled differently according to their usage. Default is unchecked.</li> 
+  </ul> 
+  <h3>Additional Information</h3>
+  <p>More information may be found on the <a href="../../communities/using/tag.md">Tag Essentials</a> page for developers.<br /> </p> 
+  <p>See <a href="../../communities/using/tag-ugc.md">Tagging User Generated Content</a> (UGC) for information about creating and managing tags.</p> 
+ </body>
+</html>

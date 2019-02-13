@@ -1,0 +1,64 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="/content/help/en/experience-manager/6-4/assets/morehelp/administering;/content/help/en/experience-manager/6-4/assets/morehelp/administering" name="moreHelpPaths" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2019-01-12T17:13:03.190-0500" name="acrolinxDate" />
+  <meta content="/content/docs/en/aem/6-3/administer/content/assets/best-practices-for-assets" name="qaNotes" />
+  <meta content="2017-10-31T16:35:20.012-0400" name="firstPublishExternalDate" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS;topic_tags:administering;content_type:reference" name="cq:tags" />
+  <meta content="2017-11-24T06:24:17.594-0500" name="topicBrowsingSortDate" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="4079fefe-434f-4c11-97b9-15907b01518c" name="jcr:uuid" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="2018-04-24T11:59:25.761-0400" name="locHandOffDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="Best Practices for Assets" name="seoTitle" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS" name="primaryProductTag" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/assets/using/best-practices-for-assets.html" name="publishExternalURL" />
+  <meta content="2017-11-24T06:24:17.594-0500" name="lastPublishExternalDate" />
+  <meta content="checked_not_improved" name="acrolinxStatus" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="28" name="acrolinxSentences" />
+  <meta content="2017-11-24T06:24:17.594-0500" name="publishExternalDate" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="Depending upon your AEM Assets deployment and features that you use for asset ingestion, rendition generation, and metadata extraction, identifying and adhering to best practices in different areas greatly enhances system stability and performance under load." name="seoDescription" />
+  <meta content="75a621c6-e7af-4dcd-be54-5256c435f1a1" name="jcr:predecessors" />
+  <meta content="653" name="acrolinxWords" />
+  <meta content="2018-04-24T11:59:25.761-0400" name="cq:lastModified" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="2018-04-03T08:04:08.401-0400" name="cq:lastReplicated" />
+  <meta content="yellow" name="acrolinxPageStatus" />
+  <meta content="cmajumda@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="Chiradeep Majumdar" name="contentOwner" />
+  <meta content="asgupta" name="acrolinxLastCheckedBy" />
+  <meta content="2017-12-01T19:02:13.406-0500" name="jcr:created" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/best_practices_for_assets_krs_workflow_f3c2f2ccebf6138e_101_report.xml" name="acrolinxReportURL" />
+  <meta content="Best Practices for Assets" name="jcr:title" />
+ </head>
+ <body>
+  <p>Adobe Experience Manager (AEM) Assets is a crucial part of delivering high-quality digital marketing experiences that contribute to the achievement of business goals through increasing your content velocity. If you work with a large number of assets within AEM Assets or regularly/periodically upload numerous assets, including videos and dynamic media, optimizing your digital asset management experience is critical for system efficiency.</p> 
+  <p>Depending upon how you have positioned AEM Assets for your organization and the features that you use around asset ingestion, rendition generation, and metadata extraction, identifying and adhering to best practices in different areas greatly enhances system stability and performance under load.</p> 
+  <p>After reviewing the following guides, you will have the knowledge and tools to build and manage an enterprise asset management system that meets your needs:</p> 
+  <ul> 
+   <li>The <a href="../../assets/using/performance-tuning-guidelines.md">Assets Performance Tuning guide</a>: This guide includes a set of best practices that can be followed at any point in your implementation, even after you go live, to ensure that you get the most out of your system.</li> 
+   <li>The <a href="../../assets/using/assets-sizing-guide.md">Assets Sizing guide</a>:<i> </i>When drawing up estimates for an Assets implementation, it is important to ensure that there are sufficient resources available in terms of asset storage, CPU, memory, IO and network throughput. Sizing many of these items require understanding how many assets are being loaded into the system. This guide includes best practices that help determine efficient metrics for estimating the infrastructure and resources required for deploying AEM Assets as well as a sizing tool.</li> 
+   <li>The <a href="../../assets/using/assets-migration-guide.md">Assets Migration guide</a>: If you want to migrate assets from your legacy system to AEM Assets, there are several steps to consider to streamline the migration process. The Migration guide include best practices around the tasks you perform to bring the assets into AEM in a phase-wise manner. This includes applying metadata, generating renditions, and activating the assets to publish instances.</li> 
+   <li>The <a href="../../assets/using/assets-network-considerations.md">Assets Network Considerations document</a>: When handling AEM instances, understanding the network topology is important to understand network performance, identify chokepoints, and describe the expected user experience. The Assets Network Considerations document discusses network considerations when designing your AEM Asset deployment.</li> 
+   <li>The <a href="../../assets/using/assets-monitoring-best-practices.md">Assets Monitoring guide</a>: After your AEM instance is deployed, you should monitor certain tasks and the system in general to ensure system integrity and efficiency of operations. The Monitoring guide includes best practices for monitoring various aspects of your system.</li> 
+   <li>The <a href="../../assets/using/assets-offloading-best-practices.md">Assets Offloading guide</a>: Handling large files and running workflows in AEM Assets can consume considerable CPU, memory, and I/O resources. Offloading these tasks can reduce CPU, memory, and IO overheads. The Assets offloading guide includes recommended use cases and best practices for Assets offloading.</li> 
+   <li><a href="/assets/using/aem-desktop-app-best-practices">AEM Desktop App Best Practices</a>: AEM Desktop App links your digital asset management (DAM) solution with your desktop so you can open the files that are available in the AEM web UI directly on desktop. Desktop App's easy-to-use workflow is enabled using network share technology that desktop operating systems provide. This guide explains key capabilities and recommended use of AEM Desktop App.</li> 
+   <li><a href="../../assets/using/aem-cc-integration-best-practices.md">AEM and Creative Cloud Integration Best Practices</a>: You can integrate your AEM instance with Creative Cloud in multiple ways. Following some best practices to streamline your integration and asset transfer workflows helps achieve maximum efficiency. This guide includes best practices around integrating AEM Assets with Adobe Creative Cloud.</li> 
+   <li><a href="../../assets/using/aem-cc-folder-sharing-best-practices.md">AEM to Creative Cloud Folder Sharing Best Practices</a>: You can configure AEM to allow users in DAM to share folders with Creative Cloud (CC) users, so they are available as shared folders in the Creative Cloud Assets service. The feature can be used to exchange files between creative teams and DAM users. This guide explains best practices for leveraging the AEM to CC folder sharing feature. </li> 
+  </ul> 
+ </body>
+</html>

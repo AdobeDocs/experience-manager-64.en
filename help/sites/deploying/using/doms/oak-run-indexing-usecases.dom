@@ -1,0 +1,169 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2018-04-06T15:03:12.658-0400" name="cq:lastReplicated" /> 
+  <meta content="2018-04-03T08:43:23.685-0400" name="firstPublishExternalDate" /> 
+  <meta content="https://helpx-internal.corp.adobe.com/content/help/en/experience-manager/6-4/sites/deploying/using/oak-run-indexing-usecases.html" name="publishInternalURL" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="be498134-c706-4c71-9df0-908e6867afa9" name="jcr:uuid" /> 
+  <meta content="2018-04-06T15:03:12.326-0400" name="topicBrowsingSortDate" /> 
+  <meta content="2018-03-27T07:29:13.298-0400" name="jcr:created" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="beccc206-5eef-47b5-bbb5-cde3911060e4" name="jcr:predecessors" /> 
+  <meta content="Oak-run.jar Indexing Use Cases" name="jcr:title" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/deploying/morehelp/deploying;/content/help/en/experience-manager/6-4/sites/deploying/morehelp/deploying" name="moreHelpPaths" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/oak-run-indexing-usecases.html" name="publishExternalURL" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2018-04-06T15:03:12.326-0400" name="publishInternalDate" /> 
+  <meta content="audience:deploying" name="primaryAudienceTag" /> 
+  <meta content="dgonzale@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="dgonzale" name="cq:lastReplicatedBy" /> 
+  <meta content="2018-04-06T15:03:12.326-0400" name="publishExternalDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;content_type:reference;topic_tags:deploying" name="cq:tags" /> 
+  <meta content="en" name="pageCreatedAt" /> 
+  <meta content="2018-04-06T15:02:11.161-0400" name="firstPublishInternalDate" /> 
+  <meta content="2018-04-06T15:03:12.326-0400" name="lastPublishInternalDate" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="Learn about the various user cases for performing indexing with the Oak-run tool." name="seoDescription" /> 
+  <meta content="true" name="noIndex" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2018-04-30T03:27:30.970-0400" name="locHandOffDate" /> 
+  <meta content="2018-04-30T03:27:30.971-0400" name="cq:lastModified" /> 
+  <meta content="dgonzale" name="cq:lastModifiedBy" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2018-04-06T15:03:12.326-0400" name="lastPublishExternalDate" /> 
+ </head> 
+ <body> 
+  <p>Oak-run supports indexing use cases on the command line without having to orchestrate the execution of these use cases via AEM's JMX console.</p> 
+  <p>The overarching benefits of using the oak-run.jar index command approach for managing Oak indexes are:</p> 
+  <ol> 
+   <li>Oak-run index command 
+    <g class="gr_ gr_20 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="20" id="20">
+      provideds 
+    </g> a new indexing toolset for AEM 6.4.</li> 
+   <li>Oak-run decreases time-to-reindex which reduces re-index times on larger repositories.</li> 
+   <li>Oak-run reduces resource consumption during re-indexing in AEM, resulting in overall better system performance.</li> 
+   <li>Oak-run provides out-of-band re-indexing, supporting situations where production must be available, and cannot tolerate maintenance or downtime otherwise required to reindex.</li> 
+  </ol> 
+  <p>Sections below would provide sample commands. oak-run index command supports all NodeStore and BlobStore setups. The examples provided below are around setups having FileDataStore and SegmentNodeStore.</p>  
+  <h2 id="UserCase1IndexConsistencyCheck">Use Case 1 - Index Consistency Check</h2> 
+  <p>This is a use case related to index corruption. In some cases it was not possible to determine which of the indexes are corrupt. Therefore, Adobe has provided tooling that:</p> 
+  <ol> 
+   <li>Performs index consistency checks on all indexes and provides a report on which indexes are valid and which are not valid;<br /> </li> 
+   <li>The tooling is usable even if AEM is not accessible;<br /> </li> 
+   <li>It is easy to use.</li> 
+  </ol> 
+  <p>Checking for corrupt indexes can be performed via <span class="code">--index-consistency-check</span> operation:</p> 
+  <codeblock gutter="true" class="syntax shell">
+    java&amp;nbsp;-jar&amp;nbsp;oak-run*.jar&amp;nbsp;index&amp;nbsp;--fds-path=/path/to/datastore&amp;nbsp;&amp;nbsp;/path/to/segmentstore/&amp;nbsp;--index-consistency-check 
+  </codeblock> 
+  <p>This will generate a report in <span class="code">indexing-result/index-consistency-check-report.txt</span>. See below for a sample report:</p> 
+  <codeblock gutter="true" class="syntax plain">
+    Valid&amp;nbsp;indexes&amp;nbsp;:!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;/content/oak:index/enablementResourceName!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;/oak:index/cqProjectLucene!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;/oak:index/cqTagLucene!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;/oak:index/lucene!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;/oak:index/ntBaseLucene!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;/oak:index/socialLucene!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Invalid&amp;nbsp;indexes&amp;nbsp;:!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;/oak:index/atDamIndex!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;/oak:index/atIndex!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;/oak:index/cqPageLucene!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;/oak:index/damAssetLucene!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;/oak:index/groups!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;/oak:index/slingeventJob!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;/oak:index/users!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;/oak:index/workflowDataLucene!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Ignored&amp;nbsp;indexes&amp;nbsp;as&amp;nbsp;these&amp;nbsp;are&amp;nbsp;not&amp;nbsp;of&amp;nbsp;type&amp;nbsp;lucene:!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;/oak:index/acPrincipalName!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;/oak:index/active 
+  </codeblock> 
+  <h3 id="UC1Benefits">Benefits</h3> 
+  <p>This tooling can now be used by Support and the System Administrator to determine quickly which indexes are corrupt and then reindex them. </p> 
+  <h2 id="UseCase2IndexStatistics">Use Case 2 - Index Statistics</h2> 
+  <p>For diagnosing some of the cases around query performance Adobe often required existing index definition, index related statistics from the customer setup. So far this information was scattered across multiple resources. To make troubleshooting easier, Adobe has created tooling that will:</p> 
+  <ol> 
+   <li>Dump all index definition present on the system in a signle JSON file;<br /><br /> </li> 
+   <li>Dump important statistics from existing indexes;<br /><br /> </li> 
+   <li>Dump index contents for offline analysis;<br /><br /> </li> 
+   <li>Will be usable even if AEM is not accessible<br /><br /> </li> 
+  </ol> 
+  <p>The above operations can now be done via the following operation index commands:</p> 
+  <ul> 
+   <li><span class="code">--index-info</span> - Collects and dumps various statistics related to the indexes<br /><br /> </li> 
+   <li><span class="code">--index-definitions</span> - Collects and dumps index definitions<br /><br /> </li> 
+   <li><span class="code">--index-dump</span> - Dumps index content</li> 
+  </ul> 
+  <p>See below an example of how the commands work in practice:</p> 
+  <codeblock gutter="true" class="syntax shell">
+    java&amp;nbsp;-jar&amp;nbsp;oak-run*.jar&amp;nbsp;index&amp;nbsp;--fds-path=/path/to/datastore&amp;nbsp;&amp;nbsp;/path/to/segmentstore/&amp;nbsp;--index-info&amp;nbsp;--index-definitions&amp;nbsp;--index-dump 
+  </codeblock> 
+  <p>The reports would be generated in <span class="code">indexing-result/index-info.txt</span> and <span class="code">indexing-result/index-definitions.json</span></p> 
+  <p>In addition same details are provided via the Web Console and would be part of the configuration dump zip. They can be accessed at the following location:</p> 
+  <p><em>http://serverhost:serverport/system/console/status-oak-index-defn</em></p> 
+  <h3 id="UC2Benefits">Benefits</h3> 
+  <p>This tooling enables the gathering of all required details related to indexing or query issues quickly and reduce the time spent in extracting this information.</p> 
+  <h2 id="UseCase3Reindexing">Use Case 3 - Reindexing</h2> 
+  <p>Depending on the <a href="https://jackrabbit.apache.org/oak/docs/query/indexing.html#reindexing" target="_blank">scenarios</a>, in some cases reindexing needs to be performed. Currently the reindexing is done by setting the <span class="code">reindex</span> flag to <span class="code">true</span> in the index definition node via CRXDE or via the Index Manager user interface. After the flag is set, reindexing is done asynchronously.</p> 
+  <p>Some points to note around reindexing:</p> 
+  <ul> 
+   <li>Reindexing is lot slower on <span class="code">DocumentNodeStore</span> setups compared to <span class="code">SegmentNodeStore</span> setups where all content is local;<br /> </li> 
+   <li>With the current design, while reindexing happens the async indexer is blocked and all other async indexes become stale and do not get update for the duration of indexing. Because of this, if the system is in use, users may not see up to date results;<br /> </li> 
+   <li>Reindexing involves traversal of the whole repository which can put a high load on the AEM setup and thus impact end user experience;<br /> </li> 
+   <li>For a <span class="code">DocumentNodeStore</span> installation where reindexing might take a considerable amount of time, if the connection to the Mongo database fails in the middle of the operation, indexing would have to be restarted from scratch;<br /> </li> 
+   <li>In some cases reindexing can take long time because of text extraction. This is mainly specific for setups having lots of PDF files, where the time spent on text extraction can impact indexing time.</li> 
+  </ul> 
+  <p>To meet these objectives the oak-run index tooling supports different modes for reindexing which can be used as required. The oak-run index command provides following benefits:</p> 
+  <ul> 
+   <li><strong>out-of-band reindexing</strong> - oak-run reindexing can be done separately from a running AEM setup and thus, it minimizes the impact on the AEM instance that is in use;<br /> </li> 
+   <li><strong>out-of-lane reindexing</strong> - The reindexing takes place without impacting indexing indexing operations. This means that the async indexer can continue to index other indexes;<br /> </li> 
+   <li><strong>Simplified reindex for DocumentNodeStore installations</strong> - For <span class="code">DocumentNodeStore</span> installations, reindexing can be done with a single command which ensures that reindexing is done in the most optimal way;<br /> </li> 
+   <li><strong>Supports updating index definitions and introducing new index definitions</strong></li> 
+  </ul> 
+  <p> </p> 
+  <h3 id="ReindexDocumentNodeStore">Reindex - DocumentNodeStore</h3> 
+  <p>For <span class="code">DocumentNodeStore</span> installations reindexing can be done via a single oak-run command:</p> 
+  <codeblock gutter="true" class="syntax shell">
+    java&amp;nbsp;-jar&amp;nbsp;oak-run*.jar&amp;nbsp;index&amp;nbsp;--reindex&amp;nbsp;--index-paths=/oak:index/lucene&amp;nbsp;--read-write&amp;nbsp;--fds-path=/path/to/datastore&amp;nbsp;mongodb://server:port/aem 
+  </codeblock> 
+  <p>This provides following benefits</p> 
+  <ul> 
+   <li>Minimal impact on running AEM instances. Most of the reads can be done from secondary servers and running AEM caches are not adversaly impacted due to all the traversal required for reindexing;<br /> </li> 
+   <li>Users can also provide a JSON of a new or updated index via the <span class="code">--index-definitions-file</span> option.</li> 
+  </ul> 
+  <h3 id="ReindexSegmentNodeStore">Reindex - SegmentNodeStore</h3> 
+  <p>For <span class="code">SegmentNodeStore</span> installations reindexing can be done in one of the following ways:</p> 
+  <h4 id="OnlineReindexSegmentNodeStore">Online Reindex - SegmentNodeStore</h4> 
+  <p>Follow the established way where reindexing is done via setting <span class="code">reindex</span> flag. </p>  
+  <h4 id="OnlineReindexSegmentNodeStoreTheAEMInstanceisRunning">Online Reindex - SegmentNodeStore - The AEM Instance is Running</h4> 
+  <p>For <span class="code">SegmentNodeStore</span> installations only one process can access segment files in read-write mode. Due to this some operations in oak-run indexing require additional manual steps being taken.</p> 
+  <p>This would involve the following:</p> 
+  <ol> 
+   <li>Step text</li> 
+   <li><p>Connect the <span class="code">oak-run</span> to the same repository used by AEM in read only mode and perform indexing. An example on how to achieve this:<br /> </p> 
+    <codeblock gutter="true" class="syntax shell">
+      java&amp;nbsp;-jar&amp;nbsp;oak-run-1.7.6.jar&amp;nbsp;index&amp;nbsp;--fds-path=/Users/dhasler/dev/cq/quickstart/target/crx-quickstart/repository/datastore/&amp;nbsp;--checkpoint&amp;nbsp;26b7da38-a699-45b2-82fb-73aa2f9af0e2&amp;nbsp;--reindex&amp;nbsp;--index-paths=/oak:index/lucene&amp;nbsp;/Users/dhasler/dev/cq/quickstart/target/crx-quickstart/repository/segmentstore/ 
+    </codeblock></li> 
+   <li><p>Fnally, import the created index files via the <span class="code">IndexerMBean#importIndex</span> operation from the path where oak-run saved the indexing files after running the above command.</p> </li> 
+  </ol> 
+  <p>In this scenario you do not have to stop the AEM server or provision any new instance. However, as indexing involves traversal of the whole repository it would increase the I/O load on the installation, negatively impacting runtime performance.</p> 
+  <h4 id="OnlineReindexSegmentNodeStoreAEMInstanceisdown">Online Reindex - SegmentNodeStore - The AEM Instance is Shut Down</h4> 
+  <p>For <span class="code">SegmentNodeStore</span> installations reindexing can be done via a single oak-run command. However, the AEM instance needs to be shut down.</p> 
+  <p>You can trigger reindexing with the following command:</p> 
+  <codeblock gutter="true" class="syntax shell">
+    java&amp;nbsp;-jar&amp;nbsp;oak-run*.jar&amp;nbsp;index&amp;nbsp;--reindex&amp;nbsp;--index-paths=/oak:index/lucene&amp;nbsp;--read-write&amp;nbsp;--fds-path=/path/to/datastore&amp;nbsp;&amp;nbsp;/path/to/segmentstore/&amp;nbsp; 
+  </codeblock> 
+  <p>The difference between this approach and the one explained above is that checkpoint creation and index import are done automatically. The downside is that AEM needs to be down during the process.</p> 
+  <h4 id="OutofBandReindexSegmentNodeStore">Out of Band Reindex - SegmentNodeStore</h4> 
+  <p>In this use case, you can perform reindexing on a cloned setup to minimize impact on the running AEM instance:</p> 
+  <ol> 
+   <li><p>Create checkpoint via a JMX operation. You can do this by going to the <a href="../../../sites/administering/using/jmx-console.md">JMX Console</a> and search for <span class="code">CheckpointManager</span>. Then, click on the <strong>createCheckpoint(long p1)</strong> operation using a high value for expiration in seconds (for example, <strong>2592000</strong>).</p> </li> 
+   <li><p>Copy the <span class="code">crx-quickstart</span> folder to a new machine </p> </li> 
+   <li><p>Perform reindex via oak-run index command<br /> </p> </li> 
+   <li><p>Copy the generated index files to AEM server<br /> </p> </li> 
+   <li><p>Import the index files via JMX.<br /> </p> </li> 
+  </ol> 
+  <p>Under this use case, it is assumed that the Data Store is accessible on another instance which may not be possible if <span class="code">FileDataStore</span> is placed on a cloud based storage solution like EBS. This excludes the scenario where <span class="code">FileDataStore</span> is also cloned. If the index definition does not perform fulltext indexing, then access to <span class="code">DataStore</span> is not required.</p>    
+  <h2 id="UseCase4UpdatingIndexDefinitions">Use Case 4 - Updating Index Definitions</h2> 
+  <p>Currently, you can shipping index definition changes via <a href="https://adobe-consulting-services.github.io/acs-aem-commons/features/ensure-oak-index/index.html" target="_blank">ACS Ensure Index</a> package. This allows shipping of the index definitions via content package which later requires reindexing to be performed via setting the <span class="code">reindex</span> flag to <span class="code">true</span>.</p> 
+  <p>This works well for smaller installations where reindexing does not take a long time. However for very large repositories, reindexing will be done in a considerably larger amount of time. For such cases we can now use the oak-run index tooling.</p> 
+  <p>Oak-run now supports providing index definitions in JSON format and creation of index in out-of-band mode where no changes are performed on a live instance.</p> 
+  <p>The process you need to consider for this use case is:</p> 
+  <ol> 
+   <li>A developer would update the index definitions on a local instance and then generate an index definition JSON file via the <span class="code">--index-definitions</span> option<br /> </li> 
+   <li>The updated JSON is then given to the System Administrator<br /> </li> 
+   <li>System Administrator follows the out-of-band approach and prepares the index on a different installation<br /> </li> 
+   <li>Once this is completed, the generated index files will be imported on a running AEM installation.</li> 
+  </ol> 
+ </body> 
+</html>

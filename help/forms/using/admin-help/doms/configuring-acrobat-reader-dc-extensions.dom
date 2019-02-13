@@ -1,0 +1,78 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="Learn how to configure Acrobat Reader DC extensions for data capture." name="seoDescription" /> 
+  <meta content="2016-04-20T09:59:42.072-0400" name="firstPublishExternalDate" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="2017-12-01T19:05:06.581-0500" name="jcr:created" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2016-05-31T06:54:25.490-0400" name="acrolinxDate" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/forms/using/admin-help/configuring-acrobat-reader-dc-extensions.html" name="publishExternalURL" /> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/using/morehelp/configuring_acrobat_reader_dc_extensions;/content/help/en/experience-manager/6-4/forms/using/morehelp/configuring_acrobat_reader_dc_extensions" name="moreHelpPaths" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/configuring_acrobat_reader_dc_extensions_admin_5e12de0b318c6865_2276_report.xml" name="acrolinxReportURL" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="topicBrowsingSortDate" /> 
+  <meta content="admin" name="contentOwner" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="Configuring Acrobat Reader DC extensions for data capture" name="jcr:title" /> 
+  <meta content="2018-04-26T04:25:11.449-0400" name="locHandOffDate" /> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="Configuring Acrobat Reader DC extensions&amp;#xA;for data capture" name="navTitle" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2018-04-03T09:09:36.065-0400" name="cq:lastReplicated" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="admin" name="lr_creator" /> 
+  <meta content="2016-02-05T03:27:14.751-0500" name="lr_lastModified" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2017-10-31T16:32:34.786-0400" name="publishExternalDate" /> 
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/configuring_acrobat_reader_dc_extensions;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="399bc0e7-b039-4e02-8142-6c4feea629d6" name="jcr:uuid" /> 
+  <meta content="admin" name="lr_lastModifiedBy" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="318" name="acrolinxWords" /> 
+  <meta content="37479244-9a5f-44cc-9983-35df6ad41a4e" name="jcr:predecessors" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="2017-10-31T16:32:34.786-0400" name="lastPublishExternalDate" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="sortDate" /> 
+  <meta content="18" name="acrolinxSentences" /> 
+  <meta content="2018-04-26T04:25:11.450-0400" name="cq:lastModified" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7e98.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-620a5f4712905cdf3e2-7fee.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-620a5f4712905cdf3e2-7fe8.2" name="cq:gepId" /> 
+  <meta content="false" name="doNotLocalize" /> 
+ </head> 
+ <body> 
+  <p>If users of your AEM forms installation use the data capture functionality of Content Services (Deprecated), it is recommended that you create a role with read-only access for these users. </p> 
+  <p><i><strong>note</strong>: Adobe® LiveCycle® Content Services ES (Deprecated) is a content management system installed with LiveCycle. It enables users to design, manage, monitor, and optimize human-centric processes. Content Services (Deprecated) support ends on 12/31/2014. See<a href="http://www.adobe.com/support/products/enterprise/eol/eol_matrix.html"> Adobe product lifecycle document</a>. To know about configuring Content Services (Deprecated), see <a href="http://help.adobe.com/en_US/livecycle/9.0/admin_contentservices.pdf">Administering Content Services</a>.</i></p> 
+  <p></p> 
+  <p>Data capture requires that you assign a user role to access the SampleReaderExtensionsCredential. You may assign the standard Trust Administrator role, but consider that this role gives general, non-administrative users the powerful administrator privileges that control the PKI Trust settings and manage PKI Credentials, which could compromise the security of your AEM forms installation in a production environment. It is recommended that the AEM forms system administrator create a role that grants only read-only access to the Trust Store, and assign this new role to non-administrator users who use data capture.</p> 
+  <h2 id="create_a_role_for_data_capture_users">Create a role for data capture users</h2> 
+  <p></p> 
+  <ol> 
+   <li><p>In administration console, click Settings &amp;gt; User Management &amp;gt; Role Management, and then click New Role.</p></li> 
+   <li><p>Enter the role name (for example, Data Capture User) and description in the appropriate fields, then click Next.</p></li> 
+   <li><p>On the Role Permissions screen, click Find Permissions, then select Credential Read from the list of available permissions.</p></li> 
+   <li><p>Click OK, then click Finish.</p></li> 
+  </ol> 
+  <h2 id="assign_the_data_capture_role">Assign the data capture role</h2> 
+  <p></p> 
+  <ol> 
+   <li><p>In administration console, click Settings &amp;gt; User Management &amp;gt; Role Management, and then click Find.</p></li> 
+   <li><p>Click the data capture user role you created.</p></li> 
+   <li><p>On the Role Users/Groups tab, click Find Users/Groups.</p></li> 
+   <li><p>On the Find Users and Groups screen, click Find, select the users who require the data capture user role, then click OK.</p></li> 
+   <li><p>On the Edit Role screen, click Save.</p></li> 
+  </ol> 
+ </body> 
+</html>

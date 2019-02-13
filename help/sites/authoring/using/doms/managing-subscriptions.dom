@@ -1,0 +1,52 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2018-10-28T00:57:45.093-0400" name="cq:lastReplicated" />
+  <meta content="audience:authoring" name="primaryAudienceTag" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="Managing Subscriptions" name="jcr:title" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="/content/docs/en/aem/6-3/author/personalization/campaigns/email-marketing/managing-subscriptions" name="qaNotes" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="bohnert" name="cq:lastModifiedBy" />
+  <meta content="dd6d8be2-399a-48f0-a5d1-6dc78d6dde6b" name="jcr:predecessors" />
+  <meta content="2018-10-28T00:57:45.033-0400" name="lastPublishExternalDate" />
+  <meta content="2018-10-28T00:57:45.042-0400" name="cq:lastModified" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-10-28T00:57:45.033-0400" name="topicBrowsingSortDate" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="jsyal" name="cq:lastReplicatedBy" />
+  <meta content="2018-04-19T10:33:27.120-0400" name="locHandOffDate" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="Managing Subscriptions" name="navTitle" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/managing-subscriptions.html" name="publishExternalURL" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-10-28T00:57:45.033-0400" name="publishExternalDate" />
+  <meta content="User" name="contentOwner" />
+  <meta content="Managing Subscriptions" name="seoTitle" />
+  <meta content="Users can be asked to subscribe to Email Service Provider's mailing lists with the help of the Form component used on an AEM web page" name="seoDescription" />
+  <meta content="2018-02-03T08:01:31.874-0500" name="jcr:created" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2017-10-31T16:20:08.972-0400" name="firstPublishExternalDate" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="aa1d3e8a-6306-4094-81e3-3576ee511e9e" name="jcr:uuid" />
+  <meta content="jsyal@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="/content/help/en/experience-manager/6-4/sites/authoring/morehelp/personalization;/content/help/en/experience-manager/6-4/sites/authoring/morehelp/personalization" name="moreHelpPaths" />
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;content_type:reference;topic_tags:personalization" name="cq:tags" />
+ </head>
+ <body>
+  <note>
+   <p>Adobe will not further enhance this capability (Managing Leads and Lists).</p> 
+   <p>Adobe's recommendation is to leverage <a href="../../../sites/administering/using/campaign.md">Adobe Campaign and the integration to AEM</a>.</p> 
+  </note>
+  <p>Users can be asked to subscribe to <strong>Email Service Provider's</strong> mailing lists with the help of the<strong> Form </strong>component used on an AEM web page. To prepare an AEM page with a sign-up form for subscription to your e-mail service mailing lists, you must apply the corresponding service configuration to the AEM page that the potential subscriber will visit.</p> 
+  <p>See <a href="../../../sites/classic-ui-authoring/using/classic-personalization-campaigns-email-subscriptions.md">Managing Subscriptions in the classic user interface</a> for more detailed descriptions of how to manage your subscriptions. </p> 
+ </body>
+</html>

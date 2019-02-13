@@ -1,0 +1,371 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2018-12-17T06:03:16.982-0500" name="locHandOffDate" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/administering/morehelp/operations;/content/help/en/experience-manager/6-4/sites/administering/morehelp/operations" name="moreHelpPaths" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="asgupta" name="cq:lastModifiedBy" /> 
+  <meta content="1144965b-cf78-4702-91df-008cd5a8cdb9" name="jcr:uuid" /> 
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/rich_text_editor_krs_workflow_a9d8be2d910fe9fc_123_report.xml" name="acrolinxReportURL" /> 
+  <meta content="2017-10-31T16:24:24.584-0400" name="firstPublishExternalDate" /> 
+  <meta content="asgupta" name="acrolinxLastCheckedBy" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/rich-text-editor.html" name="publishExternalURL" /> 
+  <meta content="2018-08-16T16:42:49.425-0400" name="acrolinxDate" /> 
+  <meta content="2a24d01d-27e5-4a10-b921-fbfc7f3daafa" name="jcr:predecessors" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="2018-12-12T02:51:20.245-0500" name="publishExternalDate" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="asgupta" name="cq:lastReplicatedBy" /> 
+  <meta content="2018-02-09T08:01:28.157-0500" name="jcr:created" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="now" name="locPublishOption" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="234" name="acrolinxSentences" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="asgupta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" /> 
+  <meta content="Learn to configure the AEM Rich Text Editor." name="seoDescription" /> 
+  <meta content="audience:administering" name="primaryAudienceTag" /> 
+  <meta content="2018-12-12T02:51:20.326-0500" name="cq:lastReplicated" /> 
+  <meta content="asgupta" name="contentOwner" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:operations;content_type:reference" name="cq:tags" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2019-01-03T07:40:42.904-0500" name="cq:lastModified" /> 
+  <meta content="Configure the Rich Text Editor" name="navTitle" /> 
+  <meta content="checked_not_improved" name="acrolinxStatus" /> 
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
+  <meta content="Configure the Rich Text Editor" name="seoTitle" /> 
+  <meta content="2018-12-12T02:51:20.245-0500" name="topicBrowsingSortDate" /> 
+  <meta content="2018-12-12T02:51:20.245-0500" name="lastPublishExternalDate" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="2311" name="acrolinxWords" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="Configure the Rich Text Editor" name="jcr:title" /> 
+ </head> 
+ <body> 
+  <p>The Rich Text Editor (RTE) provides authors with a wide range of functionality for editing their text content. Icons, selection boxes, toolbar, and menus are provided for a WYSIWYG text-editing experience.</p> 
+  <p>RTE can be configured to enable, disable, and extend the features available in the authoring components. To know how to use RTE features for authoring, see <a href="../../../sites/authoring/using/rich-text-editor.md" target="_blank">Use Rich Text Editor for authoring</a>.<br /> </p>  
+  <p>The following workflow illustrates a recommended order of completing the RTE configuration tasks.</p> 
+  <img alt="Typical workflow to configure Rich Text Editor" captionBottom="Typical workflow to configure Rich Text Editor" imageRotate="0" src="assets/rte_workflow_v1.png" title="Typical workflow to configure Rich Text Editor" /> 
+  <h2>Understand Touch-enabled UI and Classic UI</h2>  
+  <p>The Touch-enabled UI is the standard UI for AEM. Adobe introduced Touch UI with <a href="../../../sites/authoring/using/responsive-layout.md">responsive design</a> for authoring environment, in version 5.6. The Touch UI is designed for touch and desktop devices. The UI differs considerably from the original classic UI.</p> 
+  <img alt="Rich Text Editor toolbar in Touch-enabled UI" captionBottom="Rich Text Editor toolbar in Touch-enabled UI" imageRotate="0" src="assets/chlimage_1-282.png" title="Rich Text Editor toolbar in Touch-enabled UI" /> 
+  <img alt="Rich Text Editor toolbar in Classic UI" captionBottom="Rich Text Editor toolbar in Classic UI" imageRotate="0" src="assets/rtedefault.png" title="Rich Text Editor toolbar in Classic UI" /> 
+  <p><strong>See also</strong>:</p> 
+  <ul> 
+   <li><a href="../../../sites/deploying/using/ui-recommendations.md" target="_blank">UI recommendations</a></li> 
+   <li>About deprecating the Classic UI, see <a href="../../../release-notes/deprecated-removed-features.md" target="_blank">AEM 6.4 Release Notes</a></li> 
+   <li>For difference between the UIs, see <a href="https://aemcq5pedia.wordpress.com/2018/01/05/touch-enabled-ui-aem6-3/" target="_blank">Touch UI and Classic UI</a></li> 
+   <li>To understand the Touch-enabled UI in detail, see <a href="../../../sites/developing/using/touch-ui-concepts.md" target="_blank">Concepts of AEM Touch UI</a></li> 
+  </ul> 
+  <h2 id="editingmodes">Various modes of editing</h2> 
+  <p>Authors can create and edit textual content in AEM using the different modes of components. The toolbar options for authoring and formatting content and the user experience of RTE-enabled components in different editing mode varies based on RTE configurations.</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <th style="text-align: center;" valign="middle">Editing mode</th> 
+     <th>Editing area</th> 
+     <th>Recommended features to be enabled<br /> </th> 
+     <th style="text-align: center;" valign="middle">Touch UI</th> 
+     <th style="text-align: center;" valign="middle">Classic UI</th> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">Inline</td> 
+     <td>In-place editing for quick, minor edits; Format without opening a dialog box</td> 
+     <td>Minimal RTE features</td> 
+     <td style="text-align: center;">Y</td> 
+     <td style="text-align: center;">Y</td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">RTE full screen</td> 
+     <td>Covers entire page<br /> </td> 
+     <td>All the required RTE features<br /> </td> 
+     <td style="text-align: center;">Y</td> 
+     <td style="text-align: center;">N<br /> </td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">Dialog</td> 
+     <td>Dialog box on top of the page content but does not cover the entire page</td> 
+     <td>All the required RTE features in Classic UI; judiciously enable features in Touch UI<br /> </td> 
+     <td style="text-align: center;">Y</td> 
+     <td style="text-align: center;">Y</td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">Dialog full screen<br /> </td> 
+     <td>Same as Full screen mode; contains fields of the dialog alongside RTE<br /> </td> 
+     <td>All the required RTE features</td> 
+     <td style="text-align: center;">Y</td> 
+     <td style="text-align: center;">N</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <note> 
+   <p>The source-edit feature is not available in inline editing mode in Touch-enabled UI. You cannot drag images in the full screen mode. All other features work in all the modes.</p> 
+  </note> 
+  <h3>Inline editing</h3> 
+  <p>When opened (with a slow double-tap/click) the content can be edited within the page. A compact toolbar with very basic options is presented.<br /> </p> 
+  <img alt="Inline editing with basic toolbar in Touch-enabled UI" captionBottom="Inline editing with basic toolbar in Touch-enabled UI" imageRotate="0" src="assets/chlimage_1-283.png" title="Inline editing with basic toolbar in Touch-enabled UI" /> 
+  <p>In Classic UI, a slow double-click on the component allows inline editing and an orange outline highlights the content. If the Content Finder is open, a toolbar with the available RTE formatting options is displayed at the top of the window. If the Content Finder is not open, the formatting options are not displayed and you can do basic text edits only.<br /> </p> 
+  <h3>Full screen editing</h3> 
+  <p>AEM components can be opened in full screen view that hides the page content and occupies the available screen. Consider full screen editing a detailed version of the inline editing as it offers the most editing options. It can be opened by clicking <img src="assets/rte_fullscreen.png" />, from the compact toolbar when using the inline editing mode.</p> 
+  <p>In the dialog full screen mode, along with a detailed RTE toolbar, the options and components available in a dialog are also available. It is applicable only for a dialog that contains RTE alongside other components.</p> 
+  <img alt="The detailed RTE toolbar when editing in full screen mode in Touch-enabled UI" captionBottom="The detailed RTE toolbar when editing in full screen mode in Touch-enabled UI" imageRotate="0" src="assets/chlimage_1-284.png" title="The detailed RTE toolbar when editing in full screen mode in Touch-enabled UI" /> 
+  <h3>Dialog editing</h3> 
+  <p>When a component is double-clicked a dialog box opens for editing the contents. The dialog box opens on top of the existing page. In some specific scenarios, the dialog opens as a pop-up window. For example, when a Text component is part of a column in a multicolumn page layout and the area available for the dialog is less.</p> 
+  <img alt="Dialog editing mode in Touch-enabled UI" captionBottom="Dialog editing mode in Touch-enabled UI" imageRotate="0" src="assets/dialog_editing_modetouchui.png" title="Dialog editing mode in Touch-enabled UI" /> 
+  <img alt="Dialog box in Classic UI that contains detailed toolbar for editing" captionBottom="Dialog box in Classic UI that contains detailed toolbar for editing" imageRotate="0" src="assets/chlimage_1-285.png" title="Dialog box in Classic UI that contains detailed toolbar for editing" /> 
+  <h2 id="aboutplugins">About RTE plug-ins and the associated features</h2> 
+  <p>The functionality is made available via a series of plug-ins, each with:</p> 
+  <ul> 
+   <li>A <span class="code">features</span> property: 
+    <ul> 
+     <li>Used to activate, or deactivate, basic functionality for that plug-in</li> 
+     <li>That can be configured using a standardized procedure<br /> </li> 
+    </ul> </li> 
+   <li>Where appropriate, additional properties and options requiring specialized configuration</li> 
+  </ul> 
+  <p>Basic features of the RTE are activated, or deactivated, by the value of the <span class="code">features</span> property on a node specific to the appropriate plug-in.</p> 
+  <p>The following table lists the current plug-ins, showing:</p> 
+  <ul> 
+   <li>Plug-in IDs with a link to API documentation. ID is used as the node name when <a href="../../../sites/administering/using/configure-rich-text-editor-plug-ins.md#activateplugin" target="_blank">activating a plug-in</a>.</li> 
+   <li>Permitted values for the <span class="code">features</span> property.</li> 
+   <li>A description of the functionality provided by the plug-in.</li> 
+  </ul> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td valign="top" width="100"><p>Plug-in ID<br /> <br /> </p> </td> 
+     <td valign="top" width="100"><p>features<br /> <br /> </p> </td> 
+     <td valign="top" width="200"><p>Description<br /> <br /> </p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="100"><p>edit</p> </td> 
+     <td valign="top" width="100"><p>cut<br /> copy<br /> paste-default<br /> paste-plaintext<br /> paste-wordhtml</p> </td> 
+     <td valign="top" width="200"><p><a href="../../../sites/administering/using/configure-rich-text-editor-plug-ins.md#textstyles" target="_blank">Cut, copy and, the three paste modes</a>.</p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="100"><p><a href="/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.rte.plugins.FindReplacePlugin">findreplace</a></p> </td> 
+     <td valign="top" width="100"><p>find<br /> replace</p> </td> 
+     <td valign="top" width="200"><p>Find and replace.</p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="100"><p><a href="/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.rte.plugins.FormatPlugin">format</a></p> </td> 
+     <td valign="top" width="100"><p>bold<br /> italic<br /> underline</p> </td> 
+     <td valign="top" width="200"><p><a href="../../../sites/administering/using/configure-rich-text-editor-plug-ins.md#textstyles" target="_blank">Basic text formatting</a>.</p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="100"><p><a href="/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.rte.plugins.ImagePlugin">image</a></p> </td> 
+     <td valign="top" width="100"><p>image</p> </td> 
+     <td valign="top" width="200">Basic image support (drag from content or Content Finder). Depending on the browser, the support has different behaviors for authors.</td> 
+    </tr> 
+    <tr> 
+     <td valign="top"><p><a href="/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.rte.plugins.KeyPlugin">keys</a></p> </td> 
+     <td valign="top"><p> </p> </td> 
+     <td valign="top"><p>To define this value, see <a href="../../../sites/administering/using/configure-rich-text-editor-plug-ins.md#tabsize" target="_blank">tab size</a>.</p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="100"><p><a href="/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.rte.plugins.JustifyPlugin">justify</a></p> </td> 
+     <td valign="top" width="100"><p>justifyleft<br /> justifycenter<br /> justifyright</p> </td> 
+     <td valign="top" width="200"><p>Paragraph alignment.</p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="100"><p><a href="/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.rte.plugins.LinkPlugin">links</a></p> </td> 
+     <td valign="top" width="100"><p>modifylink<br /> unlink<br /> anchor</p> </td> 
+     <td valign="top" width="200"><p><a href="../../../sites/administering/using/configure-rich-text-editor-plug-ins.md#linkstyles" target="_blank">Hyperlinks and anchors</a>.</p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top"><p><a href="/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.rte.plugins.ListPlugin">lists</a></p> </td> 
+     <td valign="top"><p>ordered<br /> unordered<br /> indent<br /> outdent</p> </td> 
+     <td valign="top"><p>This plug-in controls both <a href="../../../sites/administering/using/configure-rich-text-editor-plug-ins.md#indentmargin" target="_blank">indentation and lists</a>; including nested lists.</p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="100"><p><a href="/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.rte.plugins.MiscToolsPlugin">misctools</a></p> </td> 
+     <td valign="top" width="100"><p>specialchars<br /> sourceedit</p> </td> 
+     <td valign="top" width="200">Miscellaneous tools allow authors to enter <a href="../../../sites/administering/using/configure-rich-text-editor-plug-ins.md#spchar" target="_blank">special characters</a> or edit the HTML source. Also, you can add a whole <a href="../../../sites/administering/using/configure-rich-text-editor-plug-ins.md#definerangechar" target="_blank">range of special characters</a> if you want to define your own list.</td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="100"><p>Paraformat</p> </td> 
+     <td valign="top" width="100"><p>paraformat</p> </td> 
+     <td valign="top" width="200">The default paragraph formats are Paragraph, Heading 1, Heading 2, and Heading 3 (&lt;p&gt;, &lt;h1&gt;, &lt;h2&gt;, and &lt;h3&gt;). You can <a href="../../../sites/administering/using/configure-rich-text-editor-plug-ins.md#paraformats" target="_blank">add more paragraph formats</a> or extend the list.</td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="100"><p>spellcheck</p> </td> 
+     <td valign="top" width="100"><p>checktext</p> </td> 
+     <td valign="top" width="200"><p><a href="../../../sites/administering/using/configure-rich-text-editor-plug-ins.md#adddict" target="_blank">Language aware spell checker</a>.</p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="100"><p>styles</p> </td> 
+     <td valign="top" width="100"><p>styles</p> </td> 
+     <td valign="top" width="200">Support for styling using a CSS class. <a href="../../../sites/administering/using/configure-rich-text-editor-plug-ins.md#textstyles" target="_blank">Add new text styles</a> if you want to add (or extend) your own range of styles for use with text.</td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="100"><p>subsuperscript</p> </td> 
+     <td valign="top" width="100"><p>subscript<br /> superscript</p> </td> 
+     <td valign="top" width="200"><p>Extensions to the basic formats, adding sub- and super-script.</p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="100"><p>table</p> </td> 
+     <td valign="top" width="100"><p>table<br /> removetable<br /> insertrow<br /> removerow<br /> insertcolumn<br /> removecolumn<br /> cellprops<br /> mergecells<br /> splitcell<br /> selectrow<br /> selectcolumns</p> </td> 
+     <td valign="top" width="200">See <a href="../../../sites/administering/using/configure-rich-text-editor-plug-ins.md#tablestyles" target="_blank">configure table styles</a>, if you want to add your own styles for either entire tables or individual cells.</td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="100"><p>undo</p> </td> 
+     <td valign="top" width="100"><p>undo<br /> redo</p> </td> 
+     <td valign="top" width="200">History size of <a href="../../../sites/administering/using/configure-rich-text-editor-plug-ins.md#undohistory" target="_blank">undo and redo</a> operations.</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <note> 
+   <p>The full screen plug-in is not supported in dialog mode. Use of the <span class="code">dialogFullScreen</span> setting to configure the toolbar for full screen mode.</p> 
+  </note>  
+  <h2>Understand the configuration paths and locations</h2> 
+  <p>The <a href="#editingmodes">mode of RTE editing (and the UI)</a> that you provide for your authors decide the location for the configuration details when you are <a href="../../../sites/administering/using/configure-rich-text-editor-plug-ins.md#activateplugin" target="_blank">activating the RTE plug-ins</a>:</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <th style="text-align: center;" valign="middle">Editing mode</th> 
+     <th style="text-align: center;" valign="middle">Location for Touch UI</th> 
+     <th style="text-align: center;" valign="middle">Location for Classic UI</th> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">Inline</td> 
+     <td colspan="2" style="text-align: center;"><code class="code">cq:editConfig/cq:inplaceEditing
+       <discoiqbr /> </code></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">Full screen</td> 
+     <td style="text-align: center;"><span class="code">cq:editConfig/cq:inplaceEditing</span></td> 
+     <td style="text-align: center;">Not applicable<code class="code">
+       <discoiqbr /> </code></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">Dialog</td> 
+     <td style="text-align: center;"><span class="code">cq:dialog</span></td> 
+     <td style="text-align: center;"><span class="code">dialog</span></td> 
+    </tr> 
+    <tr> 
+     <td style="text-align: center;">Full screen dialog</td> 
+     <td style="text-align: center;"><span class="code">cq:dialog</span></td> 
+     <td style="text-align: center;">Not applicable</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <note> 
+   <p>Do not name the node under <span class="code">cq:inplaceEditing</span> as <span class="code">config</span>. On <span class="code">cq:inplaceEditing</span> node, define the following properties:</p> 
+   <ul> 
+    <li><strong>Name</strong>: <span class="code">configPath</span></li> 
+    <li><strong>Type</strong>: <span class="code">String</span><br /> </li> 
+    <li><strong>Value</strong>: path of the node containing the actual configuration</li> 
+   </ul> 
+   <p>Do not name the RTE configuration node as <span class="code">config</span>. Otherwise, the RTE configurations take effect for only the administrators and not for the users in the group <span class="code">content-author</span>.</p> 
+  </note> 
+  <div>
+    Configure the following properties that apply in Dialog editing mode in Touch UI only: 
+  </div> 
+  <ul> 
+   <li><span class="code">useFixedInlineToolbar</span>: Set this Boolean property defined on the RTE node (one with sling:resourceType=<span class="code">cq/gui/components/authoring/dialog/richtext</span>) to <span class="code">True</span>, to make RTE toolbar fixed instead of floating.<br /> When this property is true, Richtext editing is, by default, started on the "foundation-contentloaded" event.<br /> To prevent this, set the property <span class="code">customStart</span> to <span class="code">True </span>and trigger the 'rte-start' event to start RTE editing. When this property is 'true', the default behavior, rte start on click, does not work.</li> 
+   <li><span class="code">customStart</span>: Set this Boolean property defined on the RTE node to <span class="code">True</span>, to control when to start RTE by triggering the event <span class="code">rte-start</span>.</li> 
+   <li><span class="code">rte-start</span>: Trigger this event on the <span class="code">contenteditable-div</span> of RTE, when to start editing RTE. This works only if <span class="code">customStart</span> has been set to true.</li> 
+  </ul> 
+  <p>When RTE is used in the touch-enabled dialog, setting the property <span class="code">useFixedInlineToolbar</span> to true is mandatory to avoid issues.</p>  
+  <h2>Enable RTE functionalities by activating plug-ins</h2> 
+  <p>RTE functionalities are made available via a series of plug-ins, each with features property. You can configure the features property to enable or disable the various features of each plug-in. </p> 
+  <p>For detailed configurations of the RTE plug-ins, see <a href="../../../sites/administering/using/configure-rich-text-editor-plug-ins.md" target="_blank">how to activate and configure the RTE plug-ins</a>.</p> 
+  <note> 
+   <p>The <a href="/content/help/en/experience-manager/core-components/using/text">Core Components text component</a> allows template editors to configure many RTE plugins in a GUI, eliminating the need for technical configuration.</p> 
+   <p>For more information, see <a href="../../../sites/authoring/using/templates.md">Creating Page Templates</a> and the <a href="/content/help/en/experience-manager/core-components/using/developing">Core Components developer documentation</a>.</p> 
+  </note> 
+  <note> 
+   <p>For reference purposes, the default Text components (delivered as part of a standard installation) can be found at:</p> 
+   <ul> 
+    <li><span class="code">/libs/wcm/foundation/components/text</span></li> 
+    <li><span class="code">/libs/foundation/components/text</span></li> 
+   </ul> 
+   <p>To create your own text component, copy the above component instead of editing these components.</p> 
+  </note> 
+  <h2 id="dialogfullscreen">Configure RTE toolbar</h2> 
+  <p>AEM allows you to configure the UI for the RichText Editor differently for the different editing modes. The default settings are provided below. You can override these defaults based on your requirements. </p> 
+  <p>For best authoring experience, enable only the plug-ins without pop-up for a floating dialog as it is smaller in size. Configure the plug-ins with larger pop-up, such as the Paste plug-in, to be enabled only in full screen dialog.</p> 
+  <codeblock gutter="true" lineWrap="true" class="syntax java">
+    &lt;uiSettings&amp;nbsp;jcr:primaryType="nt:unstructured"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;cui&amp;nbsp;jcr:primaryType="nt:unstructured"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;inline!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;jcr:primaryType="nt:unstructured"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;toolbar="[format#bold,format#italic,format#underline,#justify,#lists,links#modifylink,links#unlink,#paraformat]"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;popovers&amp;nbsp;jcr:primaryType="nt:unstructured"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;justify!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;jcr:primaryType="nt:unstructured"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;items="[justify#justifyleft,justify#justifycenter,justify#justifyright]"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;ref="justify"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;lists!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;jcr:primaryType="nt:unstructured"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;items="[lists#unordered,lists#ordered,lists#outdent,lists#indent]"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;ref="lists"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;paraformat!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;jcr:primaryType="nt:unstructured"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;items="paraformat:getFormats:paraformat-pulldown"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;ref="paraformat"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/popovers&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/inline&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;dialogFullScreen!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;jcr:primaryType="nt:unstructured"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;toolbar="[format#bold,format#italic,format#underline,justify#justifyleft,justify#justifycenter,justify#justifyright,lists#unordered,lists#ordered,lists#outdent,lists#indent,links#modifylink,links#unlink,table#createoredit,#paraformat,image#imageProps]"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;popovers&amp;nbsp;jcr:primaryType="nt:unstructured"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;paraformat!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;jcr:primaryType="nt:unstructured"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;items="paraformat:getFormats:paraformat-pulldown"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;ref="paraformat"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/popovers&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/dialogFullScreen&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;tableEditOptions!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;jcr:primaryType="nt:unstructured"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;toolbar="[table#insertcolumn-before,table#insertcolumn-after,table#removecolumn,-,table#insertrow-before,table#insertrow-after,table#removerow,-,table#mergecells-right,table#mergecells-down,table#mergecells,table#splitcell-horizontal,table#splitcell-vertical,-,table#selectrow,table#selectcolumn,-,table#ensureparagraph,-,table#modifytableandcell,table#removetable,-,undo#undo,undo#redo,-,table#exitTableEditing,-]"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/tableEditOptions&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/cui&gt;!!discoiqbr!!&lt;/uiSettings&gt; 
+  </codeblock> 
+  <p>Different UI settings are used for the inline mode and full screen mode. The toolbar property is used to specify the buttons of the toolbar.</p> 
+  <p>For example, if the button is itself a feature (for example, Bold), it is specified as 'PluginName#FeatureName' (for example, links#modifylink).</p> 
+  <p>If the button is a popover (containing some features of a plug-in), it is specified as '#PluginName' (for example, #format).</p> 
+  <p>Separators ( | ) between a group of buttons can be specified with '-'.</p> 
+  <p>The pop-up node under inline or full-screen mode contains a list of the popovers being used. Each child node under the 'popovers' node is named after the plug-in (for example, format). It has a property 'items' containing a list of features of the plug-in (for example, format#bold).</p> 
+  <h2 id="iconstoolbar">Customize mapping between toolbar icons and commands</h2> 
+  <p>You can customize the mapping between Coral icons displayed on the RTE toolbar and the available commands. You cannot use any other icons besides Coral icons.</p> 
+  <ol> 
+   <li>Create a node named <span class="code">icons</span> under <span class="code">uiSettings/cui</span>.</li> 
+   <li>Create nodes for individual icons under it.</li> 
+   <li>On each of the individual icon nodes, specify a Coral icon and a command to map to the icon.</li> 
+  </ol> 
+  <p>Below is a sample snippet to map the command Bold to the Coral icon named <span class="code">textItalic</span>.</p> 
+  <codeblock gutter="true" class="syntax java">
+    &lt;text&amp;nbsp;jcr:primaryType="nt:unstructured"&amp;nbsp;sling:resourceType="cq/gui/components/authoring/dialog/richtext"&amp;nbsp;name="./text"&amp;nbsp;useFixedInlineToolbar="{Boolean}true"&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;rtePlugins&amp;nbsp;jcr:primaryType="nt:unstructured"&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;format&amp;nbsp;jcr:primaryType="nt:unstructured"&amp;nbsp;features="bold,italic"/&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/rtePlugins&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;uiSettings&amp;nbsp;jcr:primaryType="nt:unstructured"&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;cui&amp;nbsp;jcr:primaryType="nt:unstructured"&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;inline&amp;nbsp;jcr:primaryType="nt:unstructured"&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;toolbar="[format#bold,format#italic,format#underline,links#modifylink,links#unlink]"&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/inline&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;icons&amp;nbsp;jcr:primaryType="nt:unstructured"&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;bold&amp;nbsp;jcr:primaryType="nt:unstructured"&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;command="format#bold"&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;icon="textItalic"/&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/icons&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/cui&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/uiSettings&gt;&amp;nbsp;!!discoiqbr!!&lt;/text&gt;!!discoiqbr!! 
+  </codeblock> 
+  <h2>Switch to CoralUI 2 Rich Text Editor</h2> 
+  <p>On a page, you can either include CoralUI 2 RTE clientlib or the CoralUI 3 RTE clientlib. By default, Rich Text Editor includes the CoralUI 3 RTE clientlib. To switch to CoralUI 2 RTE, perform the following steps.</p> 
+  <note> 
+   <p>Adobe does not recommend it as a best practice. Switch to CoralUI 2 RTE as a last resort. Custom plugins for CoralUI 2 RTE work with CoralUI 3 RTE if the plugins do not depend on RTE internals, such as classes.</p> 
+   <p>If you are using custom plugins for CoralUI3 RTE, use <span class="code">rte.coralui3</span> library.</p> 
+  </note> 
+  <ol> 
+   <li><p>Overlay the node <span class="code">/libs/cq/gui/components/authoring/editors/clientlibs/core</span> under <span class="code">/apps</span>, and do the following:</p> 
+    <ul> 
+     <li> Replace <span class="code">rte.coralui3</span> with <span class="code">rte.coralui2</span> for the dependencies property.</li> 
+     <li>Replace <span class="code">cq.authoring.editor.core.inlineediting.rte.coralui3</span> with <span class="code">cq.authoring.editor.core.inlineediting.rte.coralui2</span> for the embed property.</li> 
+     <li>Replace <span class="code">cq.authoring.rte.coralui3</span> with <span class="code">cq.authoring.rte.coralui2</span> for the embed property.</li> 
+    </ul> </li> 
+   <li><p>Overlay the nodes <span class="code">/libs/cq/gui/components/authoring/dialog/richtext/clientlibs/rte/coralui3</span> and <span class="code">/libs/cq/gui/components/authoring/dialog/richtext/clientlibs/rte/coralui2</span> under <span class="code">/apps</span>.</p> <p>Remove category <span class="code">cq.authoring.dialog</span> from <span class="code">/apps/cq/gui/components/authoring/dialog/richtext/clientlibs/rte/coralui3</span> and add it to <span class="code">/apps/cq/gui/components/authoring/dialog/richtext/clientlibs/rte/coralui2</span>.<br /> <br /> </p> </li> 
+   <li><p>Change any other dependency that is getting included on the page from <span class="code">rte.coralui3</span> to <span class="code">rte.coralui2</span>. For example, after overlaying the node <span class="code">/libs/mcm/campaign/components/touch-ui/clientlibs/rte</span> under <span class="code">/apps</span>, change any dependency on it from <span class="code">rte.coralui3</span> to <span class="code">rte.coralui2</span>.<br /> </p> </li> 
+   <li><p>Overlay the node <span class="code">cq/ui/widgets</span> under <span class="code">/apps</span>. Replace the dependency <span class="code">cq.rte</span> at the node <span class="code">/apps/cq/ui/widgets</span> with <span class="code">cq.coralui2.rte</span>.<br /> </p> </li> 
+  </ol> 
+  <note> 
+   <p>CoralUI 2 RTE uses handlebars templates for plug-in dialogs. Therefore, the CoralUI 2 RTE clientlib had a dependency on the handlebars clientlib. CoralUI 3 RTE does not use handlebars templates and doesn't have any associated dependency. If your custom plug-ins use handlebars templates, include the handlebars clientlib in your web page.</p> 
+  </note> 
+  <h2>Further Information</h2> 
+  <p>For more information about configuring the RTE, see the <a href="/sites/developing/using/reference-materials/widgets-api/index">AEM Widget API</a> reference.</p> 
+  <p>In particular, to see the plug-ins and related options available:</p> 
+  <ul> 
+   <li>The <a href="/sites/developing/using/reference-materials/widgets-api/output/CQ.form.RichText">CQ.form.RichText</a> component provides a form field for editing styled text information (rich text). To know all the parameters available for the rich text form, see the Config Options.</li> 
+   <li>The RichText component provides a wide range of functionality using plug-ins listed under <a href="/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.rte.plugins.Plugin">CQ.form.rte.plugins.Plugin</a>. For each plug-in: 
+    <ul> 
+     <li>see the Features for details of functionality that can be enabled (or disabled)<br /> </li> 
+     <li>See the Config Options for all parameters available for detailed configuration of the appropriate plug-in</li> 
+    </ul> </li> 
+   <li>More information about HTML Rules for links is also available.</li> 
+  </ul> 
+  <p>These can be used to extend and customize your own RTE, for example:</p> 
+  <ul> 
+   <li>To list the anchors available in the page when creating a link you can provide your own implementation of the LinkPlugin.<br /> </li> 
+  </ul> 
+  <h2>Known limitations</h2> 
+  <details> 
+   <summary>Use only in AEM components</summary> 
+   <p>RTE capabilities are supported only in AEM component dialogs. RTE is not supported on wizards or Foundation-forms like <a href="../../../sites/developing/using/page-properties-views.md" target="_blank">Page Properties</a> and <a href="../../../sites/authoring/using/scaffolding.md" target="_blank">Scaffolding</a> on Touch-enabled UI.</p> 
+  </details> 
+  <details> 
+   <summary>Does not work with Hybrid devices</summary> 
+   <p>AEM does not work on <a href="../../../release-notes/known-issues.md#knownissues" target="_blank">Hybrid devices</a>.</p> 
+  </details> 
+  <details> 
+   <summary>Configuration node cannot be named config</summary> 
+   <p>Do not name the RTE configuration node as <span class="code">config</span>. Otherwise, the RTE configurations take effect for only the administrators and not for the users in the group <span class="code">content-author</span>.</p> 
+  </details> 
+  <related-links> 
+   <a href="../../../sites/administering/using/configure-rich-text-editor-plug-ins.md">Configure RTE plug-ins</a> 
+   <a href="../../../sites/authoring/using/rich-text-editor.md">Use Rich Text Editor for authoring</a> 
+   <a href="../../../sites/administering/using/rte-accessible-content.md">Configure RTE for accessible sites</a> 
+   <a href="../../../release-notes/touch-ui-features-status.md">Touch UI and Classic UI feature parity</a> 
+  </related-links> 
+ </body> 
+</html>

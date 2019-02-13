@@ -1,0 +1,703 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="admin" name="lr_creator" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:operations" name="cq:tags" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="admin" name="lr_lastModifiedBy" /> 
+  <meta content="2017-07-12T07:03:00.000-0400" name="topicBrowsingSortDate" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="2017-11-21T06:59:15.250-0500" name="cq:lastModified" /> 
+  <meta content="2017-10-03T06:49:13.095-0400" name="lastPublishExternalDate" /> 
+  <meta content="2017-11-22T19:06:24.654-0500" name="jcr:created" /> 
+  <meta content="2018-04-03T08:30:24.163-0400" name="cq:lastReplicated" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="87c7c8f7-e803-452d-9466-6b7a1d44ba17" name="jcr:uuid" /> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="khsingh@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2017-07-12T07:03:00.000-0400" name="sortDate" /> 
+  <meta content="Managing Users" name="navTitle" /> 
+  <meta content="https://helpx.adobe.com/aem-forms/6-3/developing/users.html" name="publishExternalURL" /> 
+  <meta content="Managing Users" name="jcr:title" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2017-07-12T07:03:40.349-0400" name="lr_lastModified" /> 
+  <meta content="bcf6bdcf-67ce-459e-b73c-d89647e95cba" name="jcr:predecessors" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="admin" name="contentOwner" /> 
+  <meta content="2017-10-03T06:49:13.095-0400" name="publishExternalDate" /> 
+  <meta content="AEMForms/6.1/ProgramLC/WS624e3cba99b79e12-ad9be551336a357d83-8000.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7fea.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12f3657c41336a357e7d-7fff.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-729c.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-729b.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7fe9.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e127f9e1c2c1336a357f87-7ffe.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7284.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7283.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7fdc.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e122953d3711336a358081-7fff.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-726e.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7bd4.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12-6aaedf1a1336a35816b-7ffe.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-725f.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-725e.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7bd3.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12-4c42c43f1336a358256-7fff.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-724a.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7249.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7fe8.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e126be1c2c61336a35835f-7ff8.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7239.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7238.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7bb6.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e121005d901336a358469-7ffb.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e121005d901336a358469-7ff8.2" name="cq:gepId" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="2017-10-03T06:49:13.095-0400" name="firstPublishExternalDate" /> 
+  <meta content="audience:developing" name="primaryAudienceTag" /> 
+  <meta content="en_us" name="jcr:language" /> 
+ </head> 
+ <body> 
+  <p><strong>About User Management</strong></p> 
+  <p>You can use the User Management API to create client applications that can manage roles, permissions, and principals (which can be users or groups), as well as authenticate users. User Management API consists of the following AEM Forms APIs:</p> 
+  <ul> 
+   <li><p>Directory Manager Service API</p></li> 
+   <li><p>Authentication Manager Service API</p></li> 
+   <li><p>Authorization Manager Service API</p></li> 
+  </ul> 
+  <p>User Management enables you to assign, remove, and determine roles and permissions. It also enables you to assign, remove, and query domains, users, and groups. Finally, you can use User Management to authenticate users.</p> 
+  <p>In <a href="users#adding_users">Adding Users</a> you will understand how to programmatically add users. This section uses the Directory Manager Service API.</p> 
+  <p>In <a href="users#deleting_users">Deleting Users</a> you will understand how to programmatically delete users. This section uses the Directory Manager Service API.</p> 
+  <p>In <a href="users#managing_users_and_groups">Managing Users and Groups</a> you will understand the difference between a local user and a directory user, and see examples of how to use the Java and web service APIs to programmatically manage users and groups. This section uses the Directory Manager Service API.</p> 
+  <p>In <a href="users#managing_roles_and_permissions">Managing Roles and Permissions</a> you will learn about the system roles and permissions and what you can do programmatically to augment them, and see examples of how to use the Java and web service APIs to programmatically manage roles and permissions. This section uses both the Directory Manager Service API and Authorization Manager Service API.</p> 
+  <p>In <a href="users#authenticating_users">Authenticating Users</a> you will see examples of how to use the Java and web service APIs to programmatically authenticate users. This section uses the Authorization Manager Service API.</p> 
+  <p><strong>Understanding the authentication process</strong></p> 
+  <p>User Management provides built-in authentication functionality, and also provides you with the ability to connect it with your own authentication provider. When User Management receives an authentication request (for example, a user attempts to log in), it passes user information to the authentication provider to authenticate. User Management receives the results from the authentication provider after it authenticates the user.</p> 
+  <p>The following diagram shows the interaction among an end user attempting to log in, User Management, and the authentication provider.</p> 
+  <img alt="" src="assets/mu_mu_umauth_process.png" /> 
+  <p>The following table describes each step of the authentication process. </p> 
+  <table cellpadding="4" cellspacing="0"> 
+   <thead align="left"> 
+    <tr> 
+     <th class="cellrowborder" id="d19e69785" valign="top" width="NaN%"><p>Step</p></th> 
+     <th class="cellrowborder" id="d19e69788" valign="top" width="NaN%"><p>Description</p></th> 
+    </tr> 
+   </thead> 
+   <tbody> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e69785 " valign="top" width="NaN%"><p>1</p></td> 
+     <td class="cellrowborder" headers="d19e69788 " valign="top" width="NaN%"><p>A user attempts to log into a service that invokes User Management. The user specifies a user name and password. </p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e69785 " valign="top" width="NaN%"><p>2</p></td> 
+     <td class="cellrowborder" headers="d19e69788 " valign="top" width="NaN%"><p>User Management sends the user name and password, as well as configuration information, to the authentication provider.</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e69785 " valign="top" width="NaN%"><p>3</p></td> 
+     <td class="cellrowborder" headers="d19e69788 " valign="top" width="NaN%"><p>The authentication provider connects to the user store and authenticates the user.</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e69785 " valign="top" width="NaN%"><p>4</p></td> 
+     <td class="cellrowborder" headers="d19e69788 " valign="top" width="NaN%"><p>The authentication provider returns the results to User Management.</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e69785 " valign="top" width="NaN%"><p>5</p></td> 
+     <td class="cellrowborder" headers="d19e69788 " valign="top" width="NaN%"><p>User Management either lets the user log in or denies access to the product.</p></td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <note> 
+   <p>If the server time zone is different from the client time zone, when consuming the WSDL for the AEM Forms Generate PDF service on a native SOAP stack using a .NET client on a WebSphere Application Server cluster, the following User Management authentication error may occur:</p> 
+  </note> 
+  <p><span class="code">[com.adobe.idp.um.webservices.WSSecurityHandler] errorCode:12803 errorCodeHEX:0x3203 message:WSSecurityHandler: UM authenticate returns exception : An error was discovered processing the &amp;lt;wsse:Security&amp;gt; header. (WSSecurityEngine: Invalid timestamp The security semantics of message have expired). </span></p> 
+  <p><strong>Understanding directory management</strong></p> 
+  <p>User Management is packaged with a directory service provider (the DirectoryManagerService) that supports connections to LDAP directories. If your organization uses a non-LDAP repository to store user records, you can create your own directory service provider that works with your repository. </p> 
+  <p>Directory service providers retrieve records from a user store at the request of User Management. User Management regularly caches user and group records in the database to improve performance.</p> 
+  <p>The directory service provider can be used to synchronize the User Management database with the user store. This step ensures that all user directory information and all user and group records are up to date. </p> 
+  <p>In addition, the DirectoryManagerService provides you with the ability to create and manage domains. Domains define different user bases. The boundary of a domain is usually defined according to the way your organization is structured or how your user store is set up. User Management domains provide configuration settings that authentication providers and directory service providers use. </p> 
+  <p>In the configuration XML that User Management exports, the root node that has the attribute value of <span class="code">Domains</span> contains an XML element for each domain defined for User Management. Each of these elements contain other elements that define aspects of the domain associated with specific service providers.</p> 
+  <p><strong>Understanding objectSID values</strong></p> 
+  <p>When using Active Directory, it is important to understand that an <span class="code">objectSID</span> value is not a unique attribute across multiple domains. This value stores the security identifier of an object. In a multiple domain environment (for example, a tree of domains) the <span class="code">objectSID</span> value can be different. </p> 
+  <p>An <span class="code">objectSID</span> value would change if an object is moved from one Active Directory domain to another domain. Some objects have the same <span class="code">objectSID</span> value anywhere in the domain. For example, groups like BUILTIN\Administrators, BUILTIN\Power Users and so on would have the same <span class="code">objectSID</span> value regardless of the domains. These <span class="code">objectSID</span> values are well known.</p>  
+  <h2 id="adding_users">Adding Users</h2> 
+  <p></p> 
+  <p>You can use the Directory Manager Service API (Java and web service) to programmatically add users to AEM Forms. After you add a user, you can use that user when performing a service operation that requires a user. For example, you can assign a task to the new user. (See <a href="/programming-with-aem-forms/processes-tasks#assigning_tasks">Assigning Tasks</a>.) </p> 
+  <h3 id="summary_of_steps">Summary of steps</h3> 
+  <p></p> 
+  <p>To add a user, perform the following steps:</p> 
+  <ol> 
+   <li><p>Include project files.</p></li> 
+   <li><p>Create a DirectoryManagerService client.</p></li> 
+   <li><p>Define user information.</p></li> 
+   <li><p>Add the user to AEM Forms. </p></li> 
+   <li><p>Verify that the user is added.</p></li> 
+  </ol> 
+  <p><strong>Include project files</strong></p> 
+  <p>Include necessary files in your development project. If you are creating a client application using Java, include the necessary JAR files. If you are using web services, include the proxy files.</p> 
+  <p><strong>Create a DirectoryManagerService client</strong></p> 
+  <p>Before you can programmatically perform a Directory Manager service operation, create a Directory Manager Service API client.</p> 
+  <p><strong>Define user information</strong></p> 
+  <p>When you add a new user by using the Directory Manager Service API, define information for that user. Typically, when you add a new user, you define the following values:</p> 
+  <ul> 
+   <li><p><strong>Domain name</strong>: The domain to which the user belongs (for example, <span class="code">DefaultDom</span>).</p></li> 
+   <li><p><strong>User identifier value</strong>: The identifier value of the user (for example, <span class="code">wblue</span>).</p></li> 
+   <li><p><strong>Principal type</strong>: The type of user (for example, you can specify <span class="code">USER)</span>. </p></li> 
+   <li><p><strong>Given name</strong>: A given name for the user (for example, <span class="code">Wendy</span>). </p></li> 
+   <li><p><strong>Family name</strong>: The family name for the user (for example, <span class="code">Blue)</span>. </p></li> 
+   <li><p><strong>Locale</strong>: Locale information for the user. </p></li> 
+  </ul> 
+  <p><strong>Add the user to AEM Forms</strong></p> 
+  <p>After you define user information, you can add the user to AEM Forms. To add a user, invoke the <span class="code">DirectoryManagerServiceClient</span> object’s <span class="code">createLocalUser</span> method. </p> 
+  <p><strong>Verify that the user was added</strong></p> 
+  <p>You can verify that the user was added to ensure that no issues occurred. Locate the new user by using the user identifier value.</p> 
+  <p><strong>See also</strong></p> 
+  <p><a href="users#add_users_using_the_java_api">Add users using the Java API</a></p> 
+  <p><a href="users#add_users_using_the_web_service_api">Add users using the web service API</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p> 
+  <p><a href="users#deleting_users">Deleting Users</a></p> 
+  <h3 id="add_users_using_the_java_api">Add users using the Java API</h3> 
+  <p></p> 
+  <p>Add users by using the Directory Manager Service API (Java):</p> 
+  <ol> 
+   <li><p>Include project files. </p><p>Include client JAR files, such as adobe-usermanager-client.jar, in your Java project’s class path.</p></li> 
+   <li><p>Create a DirectoryManagerServices client. </p><p>Create a <span class="code">DirectoryManagerServiceClient</span> object by using its constructor and passing a <span class="code">ServiceClientFactory</span> object that contains connection properties. </p></li> 
+   <li><p>Define user information. </p> 
+    <ul> 
+     <li><p>Create a <span class="code">UserImpl</span> object by using its constructor. </p></li> 
+     <li><p>Set the demain name by invoking the <span class="code">UserImpl</span> object’s <span class="code">setDomainName</span> method. Pass a string value that specifies the domain name. </p></li> 
+     <li><p>Set the principal type by invoking the <span class="code">UserImpl</span> object’s <span class="code">setPrincipalType</span> method. Pass a string value that specifies the type of user. For example, you can specify <span class="code">USER</span>. </p></li> 
+     <li><p>Set the user identifier value by invoking the <span class="code">UserImpl</span> object’s <span class="code">setUserid</span> method. Pass a string value that specifies the user identifier value. For example, you can specify <span class="code">wblue</span>. </p></li> 
+     <li><p>Set the canonical name by invoking the <span class="code">UserImpl</span> object’s <span class="code">setCanonicalName</span> method. Pass a string value that specifies the user’s canonical name. For example, you can specify <span class="code">wblue</span>.</p></li> 
+     <li><p>Set the given name by invoking the <span class="code">UserImpl</span> object’s <span class="code">setGivenName</span> method. Pass a string value that specifies the user’s given name. For example, you can specify <span class="code">Wendy</span>.</p></li> 
+     <li><p>Set the family name by invoking the <span class="code">UserImpl</span> object’s <span class="code">setFamilyName</span> method. Pass a string value that specifies the user’s family name. For example, you can specify <span class="code">Blue</span>.</p></li> 
+    </ul> 
+    <note> 
+     <p>Invoke a method that belongs to the <span class="code">UserImpl</span> object to set other values. For example, you can set the locale value by invoking the <span class="code">UserImpl</span> object’s <span class="code">setLocale</span> method.</p> 
+    </note></li> 
+   <li><p>Add the user to AEM Forms. </p><p>Invoke the <span class="code">DirectoryManagerServiceClient</span> object’s <span class="code">createLocalUser</span> method and pass the following values:</p> 
+    <ul> 
+     <li><p>The <span class="code">UserImpl</span> object that represents the new user</p></li> 
+     <li><p>A string value that represents the user’s password</p></li> 
+    </ul><p>The <span class="code">createLocalUser</span> method returns a string value that specifies the local user identifier value. </p></li> 
+   <li><p>Verify that the user was added. </p> 
+    <ul> 
+     <li><p>Create a <span class="code">PrincipalSearchFilter</span> object by using its constructor. </p></li> 
+     <li><p>Set the user identifier value by invoking the <span class="code">PrincipalSearchFilter</span> object’s <span class="code">setUserId</span> method. Pass a string value that represents the user identifier value.</p></li> 
+     <li><p>Invoke the <span class="code">DirectoryManagerServiceClient</span> object’s <span class="code">findPrincipals</span> method and pass the <span class="code">PrincipalSearchFilter</span> object. This method returns a <span class="code">java.util.List</span> instance, where each element is a <span class="code">User</span> object. Iterate through the <span class="code">java.util.List</span> instance to locate the user. </p></li> 
+    </ul></li> 
+  </ol> 
+  <p><strong>See also</strong></p> 
+  <p><a href="users#summary_of_steps">Summary of steps</a></p> 
+  <p><a href="#unresolvedlink-lc-qs-user-manager-um.xml#ws624e3cba99b79e12e69a9941333732bac8-7bdc.2">Quick Start (SOAP mode): Adding users using the Java API</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p> 
+  <h3 id="add_users_using_the_web_service_api">Add users using the web service API</h3> 
+  <p></p> 
+  <p>Add users by using the Directory Manager Service API (web service):</p> 
+  <ol> 
+   <li><p>Include project files. </p><p>Create a Microsoft .NET project that uses MTOM. Ensure that you use the following WSDL definition for the service reference: <span class="code">http://localhost:8080/soap/services/DirectoryManagerService?WSDL&amp;lc_version=9.0.1</span>. </p> 
+    <note> 
+     <p>Replace <span class="code">localhost</span> with the IP address of the server hosting AEM Forms. </p> 
+    </note></li> 
+   <li><p>Create a DirectoryManagerService client. </p> 
+    <ul> 
+     <li><p>Create a <span class="code">DirectoryManagerServiceClient</span> object by using its default constructor. </p></li> 
+     <li><p>Create a <span class="code">DirectoryManagerServiceClient.Endpoint.Address</span> object by using the <span class="code">System.ServiceModel.EndpointAddress</span> constructor. Pass a string value that specifies the WSDL to the AEM Forms service (for example, <span class="code">http://localhost:8080/soap/services/DirectoryManagerService?blob=mtom</span>). You do not need to use the <span class="code">lc_version</span> attribute. This attribute is used when you create a service reference. Ensure that you specify <span class="code">?blob=mtom</span>.</p></li> 
+     <li><p>Create a <span class="code">System.ServiceModel.BasicHttpBinding</span> object by getting the value of the <span class="code">DirectoryManagerServiceClient.Endpoint.Binding</span> field. Cast the return value to <span class="code">BasicHttpBinding</span>. </p></li> 
+     <li><p>Set the <span class="code">System.ServiceModel.BasicHttpBinding</span> object’s <span class="code">MessageEncoding</span> field to <span class="code">WSMessageEncoding.Mtom</span>. This value ensures that MTOM is used. </p></li> 
+     <li><p>Enable basic HTTP authentication by performing the following tasks:</p> 
+      <ul> 
+       <li><p>Assign the AEM forms user name to the field <span class="code">DirectoryManagerServiceClient.ClientCredentials.UserName.UserName</span>.</p></li> 
+       <li><p>Assign the corresponding password value to the field <span class="code">DirectoryManagerServiceClient.ClientCredentials.UserName.Password</span>.</p></li> 
+       <li><p>Assign the constant value <span class="code">HttpClientCredentialType.Basic</span> to the field <span class="code">BasicHttpBindingSecurity.Transport.ClientCredentialType</span>.</p></li> 
+       <li><p>Assign the constant value <span class="code">BasicHttpSecurityMode.TransportCredentialOnly</span> to the field <span class="code">BasicHttpBindingSecurity.Security.Mode</span>. </p></li> 
+      </ul></li> 
+    </ul></li> 
+   <li><p>Define user information. </p> 
+    <ul> 
+     <li><p>Create a <span class="code">UserImpl</span> object by using its constructor. </p></li> 
+     <li><p>Set the demain name by assigning a string value to the <span class="code">UserImpl</span> object’s <span class="code">domainName</span> field.</p></li> 
+     <li><p>Set the principal type by assigning a string value to the <span class="code">UserImpl</span> object’s <span class="code">principalType</span> field. For example, you can specify <span class="code">USER</span>. </p></li> 
+     <li><p>Set the user identifier value by assigning a string value to the <span class="code">UserImpl</span> object’s <span class="code">userid</span> field. </p></li> 
+     <li><p>Set the canonical name value by assigning a string value to the <span class="code">UserImpl</span> object’s <span class="code">canonicalName</span> field. </p></li> 
+     <li><p>Set the given name value by assigning a string value to the <span class="code">UserImpl</span> object’s <span class="code">givenName</span> field. </p></li> 
+     <li><p>Set the family name value by assigning a string value to the <span class="code">UserImpl</span> object’s <span class="code">familyName</span> field. </p></li> 
+    </ul></li> 
+   <li><p>Add the user to AEM Forms. </p><p>Invoke the <span class="code">DirectoryManagerServiceClient</span> object’s <span class="code">createLocalUser</span> method and pass the following values:</p> 
+    <ul> 
+     <li><p>The <span class="code">UserImpl</span> object that represents the new user</p></li> 
+     <li><p>A string value that represents the user’s password</p></li> 
+    </ul><p>The <span class="code">createLocalUser</span> method returns a string value that specifies the local user identifier value. </p></li> 
+   <li><p>Verify that the user was added. </p> 
+    <ul> 
+     <li><p>Create a <span class="code">PrincipalSearchFilter</span> object by using its constructor. </p></li> 
+     <li><p>Set the user identifier value of the user by assigning a string value that represents the user identifier value to the <span class="code">PrincipalSearchFilter</span> object’s <span class="code">userId</span> field.</p></li> 
+     <li><p>Invoke the <span class="code">DirectoryManagerServiceClient</span> object’s <span class="code">findPrincipals</span> method and pass the <span class="code">PrincipalSearchFilter</span> object. This method returns a <span class="code">MyArrayOfUser</span> collection object, where each element is a <span class="code">User</span> object. Iterate through the <span class="code">MyArrayOfUser</span> collection to locate the user. </p></li> 
+    </ul></li> 
+  </ol> 
+  <p><strong>See also</strong></p> 
+  <p><a href="users#summary_of_steps">Summary of steps</a></p> 
+  <p><a href="#unresolvedlink-lc-qs-user-manager-um.xml#ws624e3cba99b79e12e69a9941333732bac8-7bdb.2">Quick Start (MTOM): Adding users using the web service API</a></p> 
+  <p><a href="#unresolvedlink-lc-qs-user-manager-um.xml#ws624e3cba99b79e12e69a9941333732bac8-7bda.2">Quick Start (SwaRef): Adding users using the web service API</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_mtom">Invoking AEM Forms using MTOM</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_swaref">Invoking AEM Forms using SwaRef</a></p> 
+  <p></p>  
+  <h2 id="deleting_users">Deleting Users</h2> 
+  <p></p> 
+  <p>You can use the Directory Manager Service API (Java and web service) to programmatically delete users from AEM Forms. After you delete a user, the user can no longer be used to perform a service operation that requires a user. For example, you cannot assign a task to a deleted user. (See <a href="/programming-with-aem-forms/processes-tasks#assigning_tasks">Assigning Tasks</a>.)</p> 
+  <h3 id="summary_of_steps">Summary of steps</h3> 
+  <p></p> 
+  <p>To delete a user, perform the following steps:</p> 
+  <ol> 
+   <li><p>Include project files.</p></li> 
+   <li><p>Create a DirectoryManagerService client.</p></li> 
+   <li><p>Specify the user to delete.</p></li> 
+   <li><p>Delete the user from AEM Forms. </p></li> 
+  </ol> 
+  <p><strong>Include project files</strong></p> 
+  <p>Include necessary files in your development project. If you are creating a client application by using Java, include the necessary JAR files. If you are using web services, include the proxy files.</p> 
+  <p><strong>Create a DirectoryManagerService client</strong></p> 
+  <p>Before you can programmatically perform a Directory Manager Service API operation, create a Directory Manager service client. </p> 
+  <p><strong>Specify the user to delete</strong></p> 
+  <p>You can specify a user to delete by using the user’s identifier value. </p> 
+  <p><strong>Delete the user from AEM Forms</strong></p> 
+  <p>To delete a user, invoke the <span class="code">DirectoryManagerServiceClient</span> object’s <span class="code">deleteLocalUser</span> method. </p> 
+  <p><strong>See also</strong></p> 
+  <p><a href="users#delete_users_using_the_java_api">Delete users using the Java API</a></p> 
+  <p><a href="users#delete_users_using_the_web_service_api">Delete users using the web service API</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p> 
+  <p><a href="users#adding_users">Adding Users</a></p> 
+  <h3 id="delete_users_using_the_java_api">Delete users using the Java API</h3> 
+  <p></p> 
+  <p>Delete users by using the Directory Manager Service API (Java):</p> 
+  <ol> 
+   <li><p>Include project files. </p><p>Include client JAR files, such as adobe-usermanager-client.jar, in your Java project’s class path.</p></li> 
+   <li><p>Create a DirectoryManagerService client. </p><p>Create a <span class="code">DirectoryManagerServiceClient</span> object by using its constructor and passing a <span class="code">ServiceClientFactory</span> object that contains connection properties. </p></li> 
+   <li><p>Specify the user to delete. </p> 
+    <ul> 
+     <li><p>Create a <span class="code">PrincipalSearchFilter</span> object by using its constructor. </p></li> 
+     <li><p>Set the user identifier value by invoking the <span class="code">PrincipalSearchFilter</span> object’s <span class="code">setUserId</span> method. Pass a string value that represents the user identifier value.</p></li> 
+     <li><p>Invoke the <span class="code">DirectoryManagerServiceClient</span> object’s <span class="code">findPrincipals</span> method and pass the <span class="code">PrincipalSearchFilter</span> object. This method returns a <span class="code">java.util.List</span> instance, where each element is a <span class="code">User</span> object. Iterate through the <span class="code">java.util.List</span> instance to locate the user to delete. </p></li> 
+    </ul></li> 
+   <li><p>Delete the user from AEM Forms. </p><p>Invoke the <span class="code">DirectoryManagerServiceClient</span> object’s <span class="code">deleteLocalUser</span> method and pass the value of the <span class="code">User</span> object’s <span class="code">oid</span> field. Invoke the <span class="code">User</span> object’s <span class="code">getOid</span> method. Use the <span class="code">User</span> object retrieved from the <span class="code">java.util.List</span> instance. </p></li> 
+  </ol> 
+  <p><strong>See also</strong></p> 
+  <p><a href="users#summary_of_steps">Summary of steps</a></p> 
+  <p><a href="/programming-with-aem-forms/user-manager-java-api-quick#quick_start_soap_mode_deleting_users_using_the_java_api">Quick Start (EJB mode): Deleting users using the Java API</a></p> 
+  <p><a href="#unresolvedlink-lc-qs-user-manager-um.xml#ws624e3cba99b79e12e69a9941333732bac8-7bd7.2">Quick Start (SOAP mode): Deleting users using the Java API</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p> 
+  <h3 id="delete_users_using_the_web_service_api">Delete users using the web service API</h3> 
+  <p></p> 
+  <p>Delete users by using the Directory Manager Service API (web service):</p> 
+  <ol> 
+   <li><p>Include project files. </p><p>Include client JAR files, such as adobe-usermanager-client.jar, in your Java project’s class path.</p></li> 
+   <li><p>Create a DirectoryManagerService client. </p> 
+    <ul> 
+     <li><p>Create a <span class="code">DirectoryManagerServiceClient</span> object by using its default constructor. </p></li> 
+     <li><p>Create a <span class="code">DirectoryManagerServiceClient.Endpoint.Address</span> object by using the <span class="code">System.ServiceModel.EndpointAddress</span> constructor. Pass a string value that specifies the WSDL to the AEM Forms service (for example, <span class="code">http://localhost:8080/soap/services/DirectoryManagerService?blob=mtom</span>). You do not need to use the <span class="code">lc_version</span> attribute. This attribute is used when you create a service reference. Ensure that you specify <span class="code">blob=mtom.</span></p></li> 
+     <li><p>Create a <span class="code">System.ServiceModel.BasicHttpBinding</span> object by getting the value of the <span class="code">DirectoryManagerServiceClient.Endpoint.Binding</span> field. Cast the return value to <span class="code">BasicHttpBinding</span>. </p></li> 
+     <li><p>Set the <span class="code">System.ServiceModel.BasicHttpBinding</span> object’s <span class="code">MessageEncoding</span> field to <span class="code">WSMessageEncoding.Mtom</span>. This value ensures that MTOM is used. </p></li> 
+     <li><p>Enable basic HTTP authentication by performing the following tasks:</p> 
+      <ul> 
+       <li><p>Assign the AEM forms user name to the field <span class="code">DirectoryManagerServiceClient.ClientCredentials.UserName.UserName</span>.</p></li> 
+       <li><p>Assign the corresponding password value to the field <span class="code">DirectoryManagerServiceClient.ClientCredentials.UserName.Password</span>.</p></li> 
+       <li><p>Assign the constant value <span class="code">HttpClientCredentialType.Basic</span> to the field <span class="code">BasicHttpBindingSecurity.Transport.ClientCredentialType</span>. </p></li> 
+       <li><p>Assign the constant value <span class="code">BasicHttpSecurityMode.TransportCredentialOnly</span> to the field <span class="code">BasicHttpBindingSecurity.Security.Mode</span>. </p></li> 
+      </ul></li> 
+    </ul></li> 
+   <li><p>Specify the user to delete. </p> 
+    <ul> 
+     <li><p>Create a <span class="code">PrincipalSearchFilter</span> object by using its constructor. </p></li> 
+     <li><p>Set the user identifier value by assigning a string value to the <span class="code">PrincipalSearchFilter</span> object’s <span class="code">userId</span> field.</p></li> 
+     <li><p>Invoke the <span class="code">DirectoryManagerServiceClient</span> object’s <span class="code">findPrincipals</span> method and pass the <span class="code">PrincipalSearchFilter</span> object. This method returns a <span class="code">MyArrayOfUser</span> collection object, where each element is a <span class="code">User</span> object. Iterate through the <span class="code">MyArrayOfUser</span> collection to locate the user. The <span class="code">User</span> object retrieved from the <span class="code">MyArrayOfUser</span> collection object is used to delete the user. </p></li> 
+    </ul></li> 
+   <li><p>Delete the user from AEM Forms. </p><p>Delete the user by passing the <span class="code">User</span> object’s <span class="code">oid</span> field value to the <span class="code">DirectoryManagerServiceClient</span> object’s <span class="code">deleteLocalUser</span> method.</p></li> 
+  </ol> 
+  <p><strong>See also</strong></p> 
+  <p><a href="users#summary_of_steps">Summary of steps</a></p> 
+  <p><a href="#unresolvedlink-lc-qs-user-manager-um.xml#ws624e3cba99b79e12e69a9941333732bac8-7bd0.2">Quick Start (MTOM): Deleting users using the Java API</a></p> 
+  <p><a href="#unresolvedlink-lc-qs-user-manager-um.xml#ws624e3cba99b79e12e69a9941333732bac8-7bcd.2">Quick Start (SwaRef): Deleting users using the Java API</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_mtom">Invoking AEM Forms using MTOM</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_swaref">Invoking AEM Forms using SwaRef</a></p> 
+  <p></p>  
+  <h2 id="creating_groups">Creating Groups</h2> 
+  <p></p> 
+  <p>You can use the Directory Manager Service API (Java and web service) to programmatically create AEM Forms groups. After you create a group, you can use that group to perform a service operation that requires a group. For example, you can assign a user to the new group. (See <a href="users#managing_users_and_groups">Managing Users and Groups</a>.)</p> 
+  <h3 id="summary_of_steps">Summary of steps</h3> 
+  <p></p> 
+  <p>To create a group, perform the following steps:</p> 
+  <ol> 
+   <li><p>Include project files.</p></li> 
+   <li><p>Create a DirectoryManagerService client.</p></li> 
+   <li><p>Determine that the group does not exist.</p></li> 
+   <li><p>Create the group. </p></li> 
+   <li><p>Perform an action with the group.</p></li> 
+  </ol> 
+  <p><strong>Include project files</strong></p> 
+  <p>Include necessary files in your development project. If you are creating a client application using Java, include the necessary JAR files. </p> 
+  <p>The following JAR files must be added to your project’s classpath:</p> 
+  <ul> 
+   <li><p>adobe-livecycle-client.jar</p></li> 
+   <li><p>adobe-usermanager-client.jar</p></li> 
+   <li><p>adobe-utilities.jar (Required if AEM Forms is deployed on JBoss)</p></li> 
+   <li><p>jbossall-client.jar (Required if AEM Forms is deployed on JBoss)</p></li> 
+  </ul> 
+  <p>For information about the location of these JAR files, see <a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a>.</p> 
+  <p><strong>Create a DirectoryManagerService client</strong></p> 
+  <p>Before you can programmatically perform a Directory Manager service operation, create a Directory Manager Service API client.</p> 
+  <p><strong>Determine whether the group exists</strong></p> 
+  <p>When you create a group, ensure that the group does not exist in the same domain. That is, two groups cannot have the same name within the same domain. To perform this task, perform a search and filter the search results based on two values. Set the principal type to <span class="code">com.adobe.idp.um.api.infomodel.Principal.PRINCIPALTYPE_GROUP</span> to ensure that only groups are returned. Also, sure that you specify the domain name. </p> 
+  <p><strong>Create the group</strong></p> 
+  <p>After you determine that the group does not exist in the domain, create the group and specify the following attributes:</p> 
+  <ul> 
+   <li><p><strong>CommonName</strong>: The name of the group.</p></li> 
+   <li><p><strong>Domain</strong>: The domain in which the group is added. </p></li> 
+   <li><p><strong>Description</strong>: A description of the group.</p></li> 
+  </ul> 
+  <p><strong>Perform an action with the group</strong></p> 
+  <p>After you create a group, you can perform an action using the group. For example, you can add a user to the group. To add a user to a group, retrieve the unique identifier value of both the user and the group. Pass these values to the <span class="code">addPrincipalToLocalGroup</span> method. </p> 
+  <p><strong>See also</strong></p> 
+  <p><a href="users#create_groups_using_the_java_api">Create groups using the Java API</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p> 
+  <p><a href="users#adding_users">Adding Users</a></p> 
+  <p><a href="users#deleting_users">Deleting Users</a></p> 
+  <h3 id="create_groups_using_the_java_api">Create groups using the Java API</h3> 
+  <p></p> 
+  <p>Create a group by using the Directory Manager Service API (Java):</p> 
+  <ol> 
+   <li><p>Include project files. </p><p>Include client JAR files, such as adobe-usermanager-client.jar, in your Java project’s class path.</p></li> 
+   <li><p>Create a DirectoryManagerService client. </p><p>Create a <span class="code">DirectoryManagerServiceClient</span> object by using its constructor and passing a <span class="code">ServiceClientFactory</span> object that contains connection properties. </p></li> 
+   <li><p>Determine whether the group exists. </p> 
+    <ul> 
+     <li><p>Create a <span class="code">PrincipalSearchFilter</span> object by using its constructor. </p></li> 
+     <li><p>Set the principal type by invoking the <span class="code">PrincipalSearchFilter</span> object’s <span class="code">setPrincipalType</span> object. Pass the value <span class="code">com.adobe.idp.um.api.infomodel.Principal.PRINCIPALTYPE_GROUP</span>.</p></li> 
+     <li><p>Set the domain by invoking the <span class="code">PrincipalSearchFilter</span> object’s <span class="code">setSpecificDomainName</span> object. Pass a string value that specifies the domain name.</p></li> 
+     <li><p>To find a group, invoke the <span class="code">DirectoryManagerServiceClient</span> object’s <span class="code">findPrincipals</span> method (a principal can be a group). Pass the <span class="code">PrincipalSearchFilter</span> object that specifies the principal type and the domain name. This method returns a <span class="code">java.util.List</span> instance where each element is a <span class="code">Group</span> instance. Each group instance conforms to the filter specified by using the <span class="code">PrincipalSearchFilter</span> object.</p></li> 
+     <li><p>Iterate through the <span class="code">java.util.List</span> instance. For each element, retrieve the group name. Ensure that the group name does not equal the new group name.</p></li> 
+    </ul></li> 
+   <li><p>Create the group. </p> 
+    <ul> 
+     <li><p>If the group does not exist, invoke the <span class="code">Group</span> object’s <span class="code">setCommonName</span> method and pass a string value that specifies the group name. </p></li> 
+     <li><p>Invoke the <span class="code">Group</span> object’s <span class="code">setDescription</span> method and pass a string value that specifies the group description. </p></li> 
+     <li><p>Invoke the <span class="code">Group</span> object’s <span class="code">setDomainName</span> method and pass a string value that specifies the domain name. </p></li> 
+     <li><p>Invoke the <span class="code">DirectoryManagerServiceClient</span> object’s <span class="code">createLocalGroup</span> method and pass the <span class="code">Group</span> instance.</p></li> 
+    </ul><p>The <span class="code">createLocalUser</span> method returns a string value that specifies the local user identifier value. </p></li> 
+   <li><p>Perform an action with the group. </p> 
+    <ul> 
+     <li><p>Create a <span class="code">PrincipalSearchFilter</span> object by using its constructor. </p></li> 
+     <li><p>Set the user identifier value by invoking the <span class="code">PrincipalSearchFilter</span> object’s <span class="code">setUserId</span> method. Pass a string value that represents the user identifier value.</p></li> 
+     <li><p>Invoke the <span class="code">DirectoryManagerServiceClient</span> object’s <span class="code">findPrincipals</span> method and pass the <span class="code">PrincipalSearchFilter</span> object. This method returns a <span class="code">java.util.List</span> instance, where each element is a <span class="code">User</span> object. Iterate through the <span class="code">java.util.List</span> instance to locate the user. </p></li> 
+     <li><p>Add a user to the group by invoking the <span class="code">DirectoryManagerServiceClient</span> object’s <span class="code">addPrincipalToLocalGroup</span> method. Pass the return value of the <span class="code">User</span> object’s <span class="code">getOid</span> method. Pass the return value of the <span class="code">Group</span> objects’s <span class="code">getOid</span> method (use the <span class="code">Group</span> instance that represents the new group).</p></li> 
+    </ul></li> 
+  </ol> 
+  <p><strong>See also</strong></p> 
+  <p><a href="users#summary_of_steps">Summary of steps</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p>  
+  <h2 id="managing_users_and_groups">Managing Users and Groups</h2> 
+  <p></p> 
+  <p>This topic describes how you can use (Java) to programmatically assign, remove, and query domains, users, and groups.</p> 
+  <note> 
+   <p>When configuring a domain, you must set the unique identifier for groups and users. The attribute that is chosen must not only be unique within the LDAP environment, but must also be immutable and will not change within the directory. This attribute must also be of a simple string data type (the only exception currently allowed for Active Directory 2000/2003 is <span class="code">"objectsid"</span>, which is a binary value). The Novell eDirectory attribute <span class="code">"GUID"</span>, for example, is not a simple string data type and therefore will not work. </p> 
+  </note> 
+  <ul> 
+   <li><p>For Active Directory, use <span class="code">"objectsid"</span>.</p></li> 
+   <li><p>For SunOne, use <span class="code">"nsuniqueid"</span>.</p></li> 
+  </ul> 
+  <note> 
+   <p>Creating multiple local users and groups while an LDAP directory synchronization is in progress is not supported. Attempting this process may result in errors.</p> 
+  </note> 
+  <h3 id="summary_of_steps">Summary of steps</h3> 
+  <p></p> 
+  <p>To manage users and groups, perform the following steps:</p> 
+  <ol> 
+   <li><p>Include project files.</p></li> 
+   <li><p>Create a DirectoryManagerService client.</p></li> 
+   <li><p>Invoke the appropriate user or group operations.</p></li> 
+  </ol> 
+  <p><strong>Include project files</strong></p> 
+  <p>Include necessary files in your development project. If you are creating a client application using Java, then include the necessary JAR files. If you are using web services, then make sure that you include the proxy files.</p> 
+  <p><strong>Create a DirectoryManagerService client</strong></p> 
+  <p>Before you can programmatically perform a Directory Manager service operation, you must create a Directory Manager service client. With the Java API this is accomplished by creating a <span class="code">DirectoryManagerServiceClient</span> object. With the web service API this is accomplished by creating a <span class="code">DirectoryManagerServiceService</span> object. </p> 
+  <p><strong>Invoke the appropriate user or group operations</strong></p> 
+  <p>Once you have created the service client, you can then invoke the user or group management operations. The service client allows you to assign, remove, and query domains, user, and groups. Note that it is possible to add either a directory principal or a local principal to a local group, but it is not possible to add a local principal to a directory group.</p> 
+  <p><strong>See also</strong></p> 
+  <p><a href="users#managing_users_and_groups_using_the_java_api">Managing users and groups using the Java API</a></p> 
+  <p><a href="users#managing_users_and_groups_using_the_web_service_api">Managing users and groups using the web service API</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p> 
+  <p><a href="/programming-with-aem-forms/user-manager-java-api-quick#user_manager_java_api_quick_start_soap">User Manager API Quick Starts</a></p> 
+  <h3 id="managing_users_and_groups_using_the_java_api">Managing users and groups using the Java API</h3> 
+  <p></p> 
+  <p>To programmatically manage users, groups, and domains using the (Java), perform the following tasks:</p> 
+  <ol> 
+   <li><p>Include project files. </p><p>Include client JAR files, such as adobe-usermanager-client.jar, in your Java project’s class path. For information about the location of these files, see <a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a>.</p></li> 
+   <li><p>Create a DirectoryManagerService client. </p><p>Create a <span class="code">DirectoryManagerServiceClient</span> object by using its constructor and passing a <span class="code">ServiceClientFactory</span> object that contains connection properties. For information, see <a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a><i>.</i></p></li> 
+   <li><p>Invoke the appropriate user or group operations. </p><p>To find a user or group, invoke one of the <span class="code">DirectoryManagerServiceClient</span> object’s methods for finding principals (since a principal can be a user or a group). In the example below, the <span class="code">findPrincipals</span> method is called using a search filter (a <span class="code">PrincipalSearchFilter</span> object). </p><p>Since the return value in this case is a <span class="code">java.util.List</span> containing <span class="code">Principal</span> objects, iterate through the result and cast the <span class="code">Principal</span> objects to either <span class="code">User</span> or <span class="code">Group</span> objects.</p><p>Using the resultant <span class="code">User</span> or <span class="code">Group</span> object (which both inherit from the <span class="code">Principal</span> interface), retrieve the information you need in your workflows. For example, the domain name and canonical name values, in combination, uniquely identify a principal. These are retrieved by invoking the <span class="code">Principal</span> object’s <span class="code">getDomainName</span> and <span class="code">getCanonicalName</span> methods, respectively.</p><p>To delete a local user, invoke the <span class="code">DirectoryManagerServiceClient</span> object’s <span class="code">deleteLocalUser</span> method and pass the user’s identifier.</p><p>To delete a local group, invoke the <span class="code">DirectoryManagerServiceClient</span> object’s <span class="code">deleteLocalGroup</span> method and pass the group’s identifier.</p></li> 
+  </ol> 
+  <p><strong>See also</strong></p> 
+  <p><a href="users#summary_of_steps">Summary of steps</a></p> 
+  <p><a href="#unresolvedlink-lc-qs-user-manager-um.xml#ws624e3cba99b79e12e69a9941333732bac8-7bc7.2">Quick Start (SOAP): Managing users and groups using the Java API</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p> 
+  <h3 id="managing_users_and_groups_using_the_web_service_api">Managing users and groups using the web service API</h3> 
+  <p></p> 
+  <p>To programmatically manage users, groups, and domains using the Directory Manager Service API (web service), perform the following tasks:</p> 
+  <ol> 
+   <li><p>Include project files. </p> 
+    <ul> 
+     <li><p>Create a Microsoft .NET client assembly that consumes the Directory Manager WSDL. (See <a href="/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_base64_encoding">Invoking AEM Forms using Base64 encoding</a>.)</p></li> 
+     <li><p>Reference the Microsoft .NET client assembly. (See <a href="/programming-with-aem-forms/invoking-aem-forms-using-web#creating_a_net_client_assembly_that_uses_base64_encoding">Creating a .NET client assembly that uses Base64 encoding</a>.)</p></li> 
+    </ul></li> 
+   <li><p>Create a DirectoryManagerService client. </p><p>Create a <span class="code">DirectoryManagerServiceService</span> object by using your proxy class’ constructor. </p></li> 
+   <li><p>Invoke the appropriate user or group operations.</p><p>To find a user or group, invoke one of the <span class="code">DirectoryManagerServiceService</span> object’s methods for finding principals (since a principal can be a user or a group). In the example below, the <span class="code">findPrincipalsWithFilter</span> method is called using a search filter (a <span class="code">PrincipalSearchFilter</span> object). When using a <span class="code">PrincipalSearchFilter</span> object, local principals are only returned if the <span class="code">isLocal</span> property is set to <span class="code">true</span>. This behavior is different than what would occur with the Java API.</p> 
+    <note> 
+     <p>If the maximum number of results is not specified in the search filter (through the <span class="code">PrincipalSearchFilter.resultsMax</span> field), a maximum of 1000 results will be returned. This is different behavior than what occurs using the Java API, in which 10 results is the default maximum. Also, the search methods such as <span class="code">findGroupMembers</span> will not yield any results unless the maximum number of results is specified in the search filter (for example, through the <span class="code">GroupMembershipSearchFilter.resultsMax</span> field). This applies to all search filters that inherit from the <span class="code">GenericSearchFilter</span> class. For more information, see <a href="http://www.adobe.com/go/learn_aemforms_javadocs_63_en">AEM Forms API Reference</a>.</p> 
+    </note><p>Since the return value in this case is an <span class="code">object[]</span> containing <span class="code">Principal</span> objects, iterate through the result and cast the <span class="code">Principal</span> objects to either <span class="code">User</span> or <span class="code">Group</span> objects.</p><p>Using the resultant <span class="code">User</span> or <span class="code">Group</span> object (which both inherit from the <span class="code">Principal</span> interface), retrieve the information you need in your workflows. For example, the domain name and canonical name values, in combination, uniquely identify a principal. These are retrieved by invoking the <span class="code">Principal</span> object’s <span class="code">domainName</span> and <span class="code">canonicalName</span> fields, respectively.</p><p>To delete a local user, invoke the <span class="code">DirectoryManagerServiceService</span> object’s <span class="code">deleteLocalUser</span> method and pass the user’s identifier.</p><p>To delete a local group, invoke the <span class="code">DirectoryManagerServiceService</span> object’s <span class="code">deleteLocalGroup</span> method and pass the group’s identifier.</p></li> 
+  </ol> 
+  <p><strong>See also</strong></p> 
+  <p><a href="users#summary_of_steps">Summary of steps</a></p> 
+  <p><a href="#unresolvedlink-lc-qs-user-manager-um.xml#ws624e3cba99b79e12e69a9941333732bac8-7251.2">Quick Start (MTOM): Managing users and groups using the web service API</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_mtom">Invoking AEM Forms using MTOM</a></p>  
+  <h2 id="managing_roles_and_permissions">Managing Roles and Permissions</h2> 
+  <p></p> 
+  <p>This topic describes how you can use the Authorization Manager Service API (Java) to programmatically assign, remove, and determine roles and permissions.</p> 
+  <p>In AEM Forms, a <i>role</i> is a group of permissions for accessing one or more system-level resources. These permissions are created through User Management and are enforced by the service components. For example, an Administrator could assign the role of "Policy Set Author" to a group of users. Rights Management would then permit the users of that group with that role to create policy sets through administration console.</p> 
+  <p>There are two types of roles: <i>default roles</i> and <i>custom roles</i>. Default roles (<i>system roles)</i> are already resident in AEM Forms. It is assumed that default roles may not be deleted or modified by the administrator, and are thus immutable. Custom roles created by the administrator, who may subsequently modify or delete them, are thus mutable. </p> 
+  <p>Roles make it easier to manage permissions. When a role is assigned to a principal, a set of permissions is automatically assigned to that principal, and all the specific access-related decisions for the principal are based on that overall set of assigned permissions.</p> 
+  <h3 id="summary_of_steps">Summary of steps</h3> 
+  <p></p> 
+  <p>To manage roles and permissions, perform the following steps:</p> 
+  <ol> 
+   <li><p>Include project files.</p></li> 
+   <li><p>Create an AuthorizationManagerService client.</p></li> 
+   <li><p>Invoke the appropriate role or permission operations. </p></li> 
+  </ol> 
+  <p><strong>Include project files</strong></p> 
+  <p>Include necessary files in your development project. If you are creating a client application using Java, then include the necessary JAR files. If you are using web services, then make sure that you include the proxy files.</p> 
+  <p><strong>Create an AuthorizationManagerService client</strong></p> 
+  <p>Before you can programmatically perform a User Management AuthorizationManagerService operation, you must create an AuthorizationManagerService client. With the Java API this is accomplished by creating an <span class="code">AuthorizationManagerServiceClient</span> object. </p> 
+  <p><strong>Invoke the appropriate role or permission operations</strong></p> 
+  <p>Once you have created the service client, you can then invoke the role or permission operations. The service client allows you to assign, remove, and determine roles and permissions.</p> 
+  <p><strong>See also</strong></p> 
+  <p><a href="users#managing_roles_and_permissions_using_the_java_api">Managing roles and permissions using the Java API</a></p> 
+  <p><a href="users#managing_roles_and_permissions_using_the_web_service_api">Managing roles and permissions using the web service API</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p> 
+  <p><a href="/programming-with-aem-forms/user-manager-java-api-quick#user_manager_java_api_quick_start_soap">User Manager API Quick Starts</a></p> 
+  <h3 id="managing_roles_and_permissions_using_the_java_api">Managing roles and permissions using the Java API</h3> 
+  <p></p> 
+  <p>To manage roles and permissions using the Authorization Manager Service API (Java), perform the following tasks:</p> 
+  <ol> 
+   <li><p>Include project files. </p><p>Include client JAR files, such as adobe-usermanager-client.jar, in your Java project’s class path.</p></li> 
+   <li><p>Create an AuthorizationManagerService client. </p><p>Create an <span class="code">AuthorizationManagerServiceClient</span> object by using its constructor and passing a <span class="code">ServiceClientFactory</span> object that contains connection properties. </p></li> 
+   <li><p>Invoke the appropriate role or permission operations. </p><p>To assign a role to a principal, invoke the <span class="code">AuthorizationManagerServiceClient</span> object’s <span class="code">assignRole</span> method and pass the following values:</p> 
+    <ul> 
+     <li><p>A <span class="code">java.lang.String</span> object that contains the role identifier</p></li> 
+     <li><p>An array of <span class="code">java.lang.String</span> objects containing the principal identifiers.</p></li> 
+    </ul><p>To remove a role from a principal, invoke the <span class="code">AuthorizationManagerServiceClient</span> object’s <span class="code">unassignRole</span> method and pass the following values:</p> 
+    <ul> 
+     <li><p>A <span class="code">java.lang.String</span> object that contains the role identifier.</p></li> 
+     <li><p>An array of <span class="code">java.lang.String</span> objects containing the principal identifiers.</p></li> 
+    </ul></li> 
+  </ol> 
+  <p><strong>See also</strong></p> 
+  <p><a href="users#summary_of_steps">Summary of steps</a></p> 
+  <p><a href="#unresolvedlink-lc-qs-user-manager-um.xml#ws624e3cba99b79e12e69a9941333732bac8-7bbe.2">Quick Start (SOAP mode): Managing roles and permissions using the Java API</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p> 
+  <h3 id="managing_roles_and_permissions_using_the_web_service_api">Managing roles and permissions using the web service API</h3> 
+  <p></p> 
+  <p>Manage roles and permissions by using the Authorization Manager Service API (web service):</p> 
+  <ol> 
+   <li><p>Include project files. </p><p>Create a Microsoft .NET project that uses MTOM. Ensure that you use the following WSDL definition: <span class="code">http://localhost:8080/soap/services/AuthorizationManagerService?WSDL&amp;lc_version=9.0.1</span>. </p> 
+    <note> 
+     <p>Replace <span class="code">localhost</span> with the IP address of the server hosting AEM Forms. </p> 
+    </note></li> 
+   <li><p>Create an AuthorizationManagerService client. </p> 
+    <ul> 
+     <li><p>Create an <span class="code">AuthorizationManagerServiceClient</span> object by using its default constructor. </p></li> 
+     <li><p>Create an <span class="code">AuthorizationManagerServiceClient.Endpoint.Address</span> object by using the <span class="code">System.ServiceModel.EndpointAddress</span> constructor. Pass a string value that specifies the WSDL to the AEM Forms service (for example, <span class="code">http://localhost:8080/soap/services/AuthorizationManagerService?blob=mtom</span>.) You do not need to use the <span class="code">lc_version</span> attribute. This attribute is used when you create a service reference. </p></li> 
+     <li><p>Create a <span class="code">System.ServiceModel.BasicHttpBinding</span> object by getting the value of the <span class="code">AuthorizationManagerServiceClient.Endpoint.Binding</span> field. Cast the return value to <span class="code">BasicHttpBinding</span>. </p></li> 
+     <li><p>Set the <span class="code">System.ServiceModel.BasicHttpBinding</span> object’s <span class="code">MessageEncoding</span> field to <span class="code">WSMessageEncoding.Mtom</span>. This value ensures that MTOM is used. </p></li> 
+     <li><p>Enable basic HTTP authentication by performing the following tasks:</p> 
+      <ul> 
+       <li><p>Assign the AEM forms user name to the field <span class="code">AuthorizationManagerServiceClient.ClientCredentials.UserName.UserName</span>.</p></li> 
+       <li><p>Assign the corresponding password value to the field <span class="code">AuthorizationManagerServiceClient.ClientCredentials.UserName.Password</span>.</p></li> 
+       <li><p>Assign the constant value <span class="code">HttpClientCredentialType.Basic</span> to the field <span class="code">BasicHttpBindingSecurity.Transport.ClientCredentialType</span>. </p></li> 
+       <li><p>Assign the constant value <span class="code">BasicHttpSecurityMode.TransportCredentialOnly</span> to the field <span class="code">BasicHttpBindingSecurity.Security.Mode</span>. </p></li> 
+      </ul></li> 
+    </ul></li> 
+   <li><p>Invoke the appropriate role or permission operations. </p><p>To assign a role to a principal, invoke the <span class="code">AuthorizationManagerServiceClient</span> object’s <span class="code">assignRole</span> method and pass the following values:</p> 
+    <ul> 
+     <li><p>A <span class="code">string</span> object that contains the role identifier</p></li> 
+     <li><p>A <span class="code">MyArrayOf_xsd_string</span> object that contains the principal identifiers. </p></li> 
+    </ul><p>To remove a role from a principal, invoke the <span class="code">AuthorizationManagerServiceService</span> object’s <span class="code">unassignRole</span> method and pass the following values:</p> 
+    <ul> 
+     <li><p>A <span class="code">string</span> object that contains the role identifier.</p></li> 
+     <li><p>An array of <span class="code">string</span> objects containing the principal identifiers.</p></li> 
+    </ul></li> 
+  </ol> 
+  <p><strong>See also</strong></p> 
+  <p><a href="users#summary_of_steps">Summary of steps</a></p> 
+  <p><a href="#unresolvedlink-lc-qs-user-manager-um.xml#ws624e3cba99b79e12e69a9941333732bac8-7bbd.2">Quick Start (MTOM): Managing roles and permissions using the web service API</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_mtom">Invoking AEM Forms using MTOM</a></p>  
+  <h2 id="authenticating_users">Authenticating Users</h2> 
+  <p></p> 
+  <p>This topic describes how you can use the Authentication Manager Service API (Java) to enable your client applications to programmatically authenticate users.</p> 
+  <p>User authentication may be required to interact with an enterprise database or other enterprise repositories that store secure data.</p> 
+  <p>Consider, for example, a scenario where a user enters a user name and password into a web page and submits the values to a J2EE application server hosting Forms. A Forms custom application can authenticate the user with the Authentication Manager service. </p> 
+  <p>If the authentication is successful, the application accesses a secured enterprise database. Otherwise, a message is sent to the user stating that the user is not an authorized user. </p> 
+  <p>The following diagram shows the application’s logic flow.</p> 
+  <img alt="" src="assets/au_au_umauth_process.png" /> 
+  <p>The following table describes the steps in this diagram</p> 
+  <table cellpadding="4" cellspacing="0"> 
+   <thead align="left"> 
+    <tr> 
+     <th class="cellrowborder" id="d19e71891" valign="top" width="NaN%"><p>Step</p></th> 
+     <th class="cellrowborder" id="d19e71894" valign="top" width="NaN%"><p>Description</p></th> 
+    </tr> 
+   </thead> 
+   <tbody> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e71891 " valign="top" width="NaN%"><p>1</p></td> 
+     <td class="cellrowborder" headers="d19e71894 " valign="top" width="NaN%"><p>The user accesses a web site and specifies a user name and password. This information is submitted to a J2EE application server hosting AEM Forms.</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e71891 " valign="top" width="NaN%"><p>2</p></td> 
+     <td class="cellrowborder" headers="d19e71894 " valign="top" width="NaN%"><p>The user credentials are authenticated with the Authentication Manager service. If the user credentials are valid, the workflow proceeds to step 3. Otherwise, a message is sent to the user stating that the user is not an authorized user.</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e71891 " valign="top" width="NaN%"><p>3</p></td> 
+     <td class="cellrowborder" headers="d19e71894 " valign="top" width="NaN%"><p>User information and a form design are retrieved from a secured enterprise database. </p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e71891 " valign="top" width="NaN%"><p>4</p></td> 
+     <td class="cellrowborder" headers="d19e71894 " valign="top" width="NaN%"><p>User information is merged with a form design and the form is rendered to the user. </p></td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h3 id="summary_of_steps">Summary of steps</h3> 
+  <p></p> 
+  <p>To programmatically authenticate a user, perform the following steps:</p> 
+  <ol> 
+   <li><p>Include project files.</p></li> 
+   <li><p>Create an AuthenticationManagerService client.</p></li> 
+   <li><p>Invoke the authentication operation.</p></li> 
+   <li><p>If necessary, retrieve the context so that the client application can forward it to another AEM Forms service for authentication.</p></li> 
+  </ol> 
+  <p><strong>Include project files</strong></p> 
+  <p>Include necessary files in your development project. If you are creating a client application using Java, then include the necessary JAR files. If you are using web services, then make sure that you include the proxy files.</p> 
+  <p><strong>Create an AuthenticationManagerService client</strong></p> 
+  <p>Before you can programmatically authenticate a user, you must create a AuthenticationManagerService client. When using the Java API, create an <span class="code">AuthenticationManagerServiceClient</span> object. </p> 
+  <p><strong>Invoke the authentication operation</strong></p> 
+  <p>Once you have created the service client, you can then invoke the authentication operation. This operation will need information about the user, such as the user’s name and password. If the user does not authenticate, an exception is thrown. </p> 
+  <p><strong>Retrieve the authentication context</strong></p> 
+  <p>Once you have authenticated the user, you can create a context based in the authenticated user. Then you can use the content to invoke another AEM Forms services. For example, you can use the context to create an <span class="code">EncryptionServiceClient</span> and encrypt a PDF document with a password. Ensure that the user that was authenticated has the role named <span class="code">Services User</span> that is required to invoke a AEM Forms service. </p> 
+  <p><strong>See also</strong></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p> 
+  <p><a href="/programming-with-aem-forms/user-manager-java-api-quick#user_manager_java_api_quick_start_soap">User Manager API Quick Starts</a></p> 
+  <p><a href="/programming-with-aem-forms/encrypting-decrypting-pdf-documents#encrypting_pdf_documents_with_a_password">Encrypting PDF Documents with a Password</a></p> 
+  <h3 id="authenticate_a_user_using_the_java_api">Authenticate a user using the Java API</h3> 
+  <p></p> 
+  <p>Authenticate a user using the Authentication Manager Service API (Java):</p> 
+  <ol> 
+   <li><p>Include project files. </p><p>Include client JAR files, such as adobe-usermanager-client.jar, in your Java project’s class path.</p></li> 
+   <li><p>Create an AuthenticationManagerServices client. </p><p>Create an <span class="code">AuthenticationManagerServiceClient</span> object by using its constructor and passing a <span class="code">ServiceClientFactory</span> object that contains connection properties.</p></li> 
+   <li><p>Invoke the authentication operation. </p><p>Invoke the <span class="code">AuthenticationManagerServiceClient</span> object’s <span class="code">authenticate</span> method and pass the following values:</p> 
+    <ul> 
+     <li><p>A <span class="code">java.lang.String</span> object that contains the user’s name.</p></li> 
+     <li><p>A byte array (a <span class="code">byte[]</span> object) containing the user’s password. You can obtain the <span class="code">byte[]</span> object by invoking the <span class="code">java.lang.String</span> object’s <span class="code">getBytes</span> method.</p></li> 
+    </ul><p>The authenticate method returns an <span class="code">AuthResult</span> object, which contains information about the authenticated user.</p></li> 
+   <li><p>Retrieve the authentication context. </p><p>Invoke the <span class="code">ServiceClientFactory</span> object’s <span class="code">getContext</span> method, which will return a <span class="code">Context</span> object. </p><p>Then invoke the <span class="code">Context</span> object’s <span class="code">initPrincipal</span> method and pass the <span class="code">AuthResult</span>.</p></li> 
+  </ol> 
+  <h3 id="authenticate_a_user_using_the_web_service_api">Authenticate a user using the web service API</h3> 
+  <p></p> 
+  <p>Authenticate a user using the Authentication Manager Service API (web service):</p> 
+  <ol> 
+   <li><p>Include project files. </p> 
+    <ul> 
+     <li><p>Create a Microsoft .NET client assembly that consumes the Authentication Manager WSDL. (See <a href="/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_base64_encoding">Invoking AEM Forms using Base64 encoding</a>.)</p></li> 
+     <li><p>Reference the Microsoft .NET client assembly. (See “Referencing the .NET client assembly” in <a href="/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_base64_encoding">Invoking AEM Forms using Base64 encoding</a>.)</p></li> 
+    </ul></li> 
+   <li><p>Create an AuthenticationManagerService client. </p><p>Create a <span class="code">AuthenticationManagerServiceService</span> object by using your proxy class’ constructor. </p></li> 
+   <li><p>Invoke the authentication operation. </p><p>Invoke the <span class="code">AuthenticationManagerServiceClient</span> object’s <span class="code">authenticate</span> method and pass the following values:</p> 
+    <ul> 
+     <li><p>A <span class="code">string</span> object that contains the user’s name</p></li> 
+     <li><p>A byte array (a <span class="code">byte[]</span> object) containing the user’s password. You can obtain the <span class="code">byte[]</span> object by converting a <span class="code">string</span> object containing the password to a <span class="code">byte[]</span> array using the logic shown in the example below.</p></li> 
+     <li><p>The returned value will be an <span class="code">AuthResult</span> object, which can be used to retrieve information about the user. In the example below, the user’s information is retrieved by first obtaining the <span class="code">AuthResult</span> object’s <span class="code">authenticatedUser</span> field and subsequently obtaining the resultant <span class="code">User</span> object’s <span class="code">canonicalName</span> and <span class="code">domainName</span> fields.</p></li> 
+    </ul></li> 
+  </ol> 
+  <p><strong>See also</strong></p> 
+  <p><a href="#unresolvedlink-lc-qs-signature-si.xml#ws624e3cba99b79e12e69a9941333732bac8-7c07.2">Quick Start (MTOM): Removing a digital signature using the web service API</a></p> 
+  <p><a href="#unresolvedlink-lc-qs-signature-si.xml#ws624e3cba99b79e12e69a9941333732bac8-7c06.2">Quick Start (SwaRef): Removing a digital signature using the web service API</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_mtom">Invoking AEM Forms using MTOM</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_swaref">Invoking AEM Forms using SwaRef</a></p>  
+  <h2 id="programmatically_synchronizing_users">Programmatically Synchronizing Users</h2> 
+  <p></p> 
+  <p>You can programmatically synchronize users by using the User Management API. When you synchronize users, you are updating AEM Forms with user data that is located in your user repository. For example, assume that you add new users to your user repository. After you perform a synchronization operation, the new users become AEM forms users. As well, users no longer in your user respository are removed from AEM Forms.</p> 
+  <p>The following diagram shows AEM Forms synchronizing with a user respository.</p> 
+  <img alt="" src="assets/ps_ps_umauth_sync.png" /> 
+  <p>The following table describes the steps in this diagram</p> 
+  <table cellpadding="4" cellspacing="0"> 
+   <thead align="left"> 
+    <tr> 
+     <th class="cellrowborder" id="d19e72202" valign="top" width="NaN%"><p>Step</p></th> 
+     <th class="cellrowborder" id="d19e72205" valign="top" width="NaN%"><p>Description</p></th> 
+    </tr> 
+   </thead> 
+   <tbody> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e72202 " valign="top" width="NaN%"><p>1</p></td> 
+     <td class="cellrowborder" headers="d19e72205 " valign="top" width="NaN%"><p>A client application requests that AEM Forms performs a synchronization operation.</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e72202 " valign="top" width="NaN%"><p>2</p></td> 
+     <td class="cellrowborder" headers="d19e72205 " valign="top" width="NaN%"><p>AEM Forms performs a synchronization operation.</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e72202 " valign="top" width="NaN%"><p>3</p></td> 
+     <td class="cellrowborder" headers="d19e72205 " valign="top" width="NaN%"><p>User information is updated.</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e72202 " valign="top" width="NaN%"><p>4</p></td> 
+     <td class="cellrowborder" headers="d19e72205 " valign="top" width="NaN%"><p>A user is able to view the updated user information. </p></td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h3 id="summary_of_steps">Summary of steps</h3> 
+  <p></p> 
+  <p>To programmatically synchronize users, perform the following steps:</p> 
+  <ol> 
+   <li><p>Include project files.</p></li> 
+   <li><p>Create a UserManagerUtilServiceClient client.</p></li> 
+   <li><p>Specify the enterprise domain.</p></li> 
+   <li><p>Invoke the authentication operation.</p></li> 
+   <li><p>Determine if the synchronization operation is complete</p></li> 
+  </ol> 
+  <p><strong>Include project files</strong></p> 
+  <p>Include necessary files in your development project. If you are creating a client application using Java, then include the necessary JAR files. If you are using web services, then make sure that you include the proxy files.</p> 
+  <p><strong>Create a UserManagerUtilServiceClientclient</strong></p> 
+  <p>Before you can programmatically synchronize users, you must create a <span class="code">UserManagerUtilServiceClient</span> object. </p> 
+  <p><strong>Specify the enterprise domain</strong></p> 
+  <p>Before you perform a synchronization operation by using the User Management API, you specify the enterprise domain to which users belong. You can specify one or many enterprise domains. Before you can programmatically perform a synchronization operation, you have to setup an enterprise domain using Administration Console. (See <a href="http://www.adobe.com/go/learn_aemforms_admin_63">administration help</a>.) </p> 
+  <p><strong>Invoke the synchronization operation</strong></p> 
+  <p>After you specify one or more enterprise domains, you can perform the synchronization operation. The time it takes to perform this operation depends upon the number of user records that are located in the user repository.</p> 
+  <p><strong>Determine if the synchronization operation is complete</strong></p> 
+  <p>After you programmatically perform a synchronization operation, you can detemine if the operation is complete. </p> 
+  <p><strong>See also</strong></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p> 
+  <p><a href="/programming-with-aem-forms/user-manager-java-api-quick#user_manager_java_api_quick_start_soap">User Manager API Quick Starts</a></p> 
+  <p><a href="/programming-with-aem-forms/encrypting-decrypting-pdf-documents#encrypting_pdf_documents_with_a_password">Encrypting PDF Documents with a Password</a></p> 
+  <h3 id="programmatically_synchronizing_users_using_the_java_api">Programmatically synchronizing users using the Java API</h3> 
+  <p></p> 
+  <p>Synchronize users by using the User Management API (Java):</p> 
+  <ol> 
+   <li><p>Include project files. </p><p>Include client JAR files, such as adobe-usermanager-client.jar and adobe-usermanager-util-client.jar, in your Java project’s class path.</p></li> 
+   <li><p>Create a UserManagerUtilServiceClient client. </p><p>Create a <span class="code">UserManagerUtilServiceClient</span> object by using its constructor and passing a <span class="code">ServiceClientFactory</span> object that contains connection properties.</p></li> 
+   <li><p>Specify the enterprise domain. </p> 
+    <ul> 
+     <li><p>Invoke the <span class="code">UserManagerUtilServiceClient</span> object’s <span class="code">scheduleSynchronization</span> method to start the user synchronization operation.</p></li> 
+     <li><p>Create a <span class="code">java.util.Set</span> instance by using a <span class="code">HashSet</span> constructor. Ensure that you specify <span class="code">String</span> as the data type. This <span class="code">Java.util.Set</span> instance stores the domain names to which the synchronization operation applies.</p></li> 
+     <li><p>For each domain name to add, invoke the <span class="code">java.util.Set</span> object’s add method and pass the domain name. </p></li> 
+    </ul></li> 
+   <li><p>Invoke the synchronization operation. </p><p>Invoke the <span class="code">ServiceClientFactory</span> object’s <span class="code">getContext</span> method, which will return a <span class="code">Context</span> object. </p><p>Then invoke the <span class="code">Context</span> object’s <span class="code">initPrincipal</span> method and pass the <span class="code">AuthResult</span>.</p></li> 
+  </ol> 
+  <p><strong>See also</strong></p> 
+  <p><a href="users#programmatically_synchronizing_users">Programmatically Synchronizing Users</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p> 
+ </body> 
+</html>

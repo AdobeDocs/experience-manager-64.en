@@ -1,0 +1,864 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="admin" name="lr_creator" />
+  <meta content="Encrypting and Decrypting PDF Documents" name="jcr:title" />
+  <meta content="2017-07-12T07:03:38.301-0400" name="lr_lastModified" />
+  <meta content="https://helpx.adobe.com/aem-forms/6-3/developing/encrypting-decrypting-pdf-documents.html" name="publishExternalURL" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="AEMForms/6.1/ProgramLC/WS624e3cba99b79e1267f5e9ce1336a354ba6-8000.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7e9f.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12470f9e3e1336a354ca0-7fff.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-76fb.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-76ee.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7e95.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12-20cfde3f1336a354da9-7ffd.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-76e2.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-76e1.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7e90.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e122f43949e1336a354e94-7fff.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-76c4.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-76c3.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7e9a.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e1276d486aa1336a354f7e-7fff.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-76ac.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-76ab.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7e8b.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12-29aa2d691336a355068-7fff.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7693.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7692.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7e86.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12-2702aa151336a355153-7ffe.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7679.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7678.2" name="cq:gepId" />
+  <meta content="Encrypting and Decrypting PDF Documents" name="navTitle" />
+  <meta content="admin" name="contentOwner" />
+  <meta content="audience:developing" name="primaryAudienceTag" />
+  <meta content="2017-10-03T06:47:38.851-0400" name="lastPublishExternalDate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2017-10-03T06:47:38.851-0400" name="publishExternalDate" />
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:operations" name="cq:tags" />
+  <meta content="2017-11-21T06:58:07.127-0500" name="cq:lastModified" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" />
+  <meta content="head1_20111213" name="gep_conversion_script_version" />
+  <meta content="2017-10-03T06:47:38.851-0400" name="firstPublishExternalDate" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="1f6be5d8-c466-41de-af7c-9e63fed93185" name="jcr:uuid" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="khsingh@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2017-07-12T07:03:00.000-0400" name="topicBrowsingSortDate" />
+  <meta content="2017-11-22T19:05:07.563-0500" name="jcr:created" />
+  <meta content="2017-07-12T07:03:00.000-0400" name="sortDate" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2018-04-03T08:20:53.792-0400" name="cq:lastReplicated" />
+  <meta content="bf7cd2b3-97e3-4f08-9410-717051d570ed" name="jcr:predecessors" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="admin" name="lr_lastModifiedBy" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="" name="jcr:primaryType" />
+ </head>
+ <body>
+  <p><strong>About the Encryption Service</strong></p>
+  <p>The Encryption service lets you encrypt and decrypt documents. When a document is encrypted, its contents become unreadable. An authorized user can decrypt the document to obtain access to the contents. If a PDF document is encrypted with a password, the user must specify the open password before the document can be viewed in Adobe Reader or Adobe Acrobat. Likewise, if a PDF document is encrypted with a certificate, the user must decrypt the PDF document with the public key that corresponds to the certificate (private key) that was used to encrypt the PDF document.</p>
+  <p>You can accomplish these tasks using the Encryption service:</p>
+  <ul>
+   <li><p>Encrypt a PDF document with a password. (See <a href="encrypting-decrypting-pdf-documents#encrypting_pdf_documents_with_a_password">Encrypting PDF Documents with a Password</a>.) </p></li>
+   <li><p>Encrypt a PDF document with a certificate. (See <a href="encrypting-decrypting-pdf-documents#encrypting_pdf_documents_with_certificates">Encrypting PDF Documents with Certificates</a>.)</p></li>
+   <li><p>Remove password-based encryption from a PDF document. (See <a href="encrypting-decrypting-pdf-documents#removing_password_encryption">Removing Password Encryption</a>.)</p></li>
+   <li><p>Remove certificate-based encryption from a PDF document. (See <a href="encrypting-decrypting-pdf-documents#removing_certificate_based_encryption">Removing Certificate Based Encryption</a>.)</p></li>
+   <li><p>Unlock the PDF document so that other service operations can be performed. For example, after a password-encrypted PDF document is unlocked, you can apply a digital signature to it. (See <a href="encrypting-decrypting-pdf-documents#unlocking_encrypted_pdf_documents">Unlocking Encrypted PDF Documents</a>.)</p></li>
+   <li><p>Determine the encryption type of a secured PDF document. (See <a href="encrypting-decrypting-pdf-documents#determining_encryption_type">Determining Encryption Type</a>.)</p></li>
+  </ul>
+  <h2 id="encrypting_pdf_documents_with_a_password">Encrypting PDF Documents with a Password</h2>
+  <p></p>
+  <p>When you encrypt a PDF document with a password, a user must specify the password to open the PDF document in Adobe Reader or Acrobat. Also, before another AEM Forms operation, such as digitally signing the PDF document, can be performed on the document, a password-encrypted PDF document must be unlocked.</p>
+  <note>
+   <p>If you upload an encrypted PDF document to the AEM Forms repository, it cannot decrypt the PDF document and extract the XDP content. It is recommended that you do not encrypt a document prior to uploading it to the AEM Forms repository. (See <a href="/programming-with-aem-forms/aem-forms-repository#writing_resources">Writing Resources</a>.) </p>
+  </note>
+  <note>
+   <p>For more information about the Encryption service, see <a href="http://www.adobe.com/go/learn_aemforms_services_63">Services Reference for AEM Forms</a>.</p>
+  </note>
+  <h3 id="summary_of_steps">Summary of steps</h3>
+  <p></p>
+  <p>To encrypt a PDF document with a password, perform the following steps:</p>
+  <ol>
+   <li><p>Include project files.</p></li>
+   <li><p>Create an Encryption Client API object. </p></li>
+   <li><p>Get a PDF document to encrypt.</p></li>
+   <li><p>Set encryption run-time options.</p></li>
+   <li><p>Add the password.</p></li>
+   <li><p>Save the encrypted PDF document as a PDF file.</p></li>
+  </ol>
+  <p><strong>Include project files</strong></p>
+  <p>Include necessary files in your development project. If you are creating a client application using Java, include the necessary JAR files. If you are using web services, ensure that you include the proxy files.</p>
+  <p>The following JAR files must be added to your project’s class path:</p>
+  <ul>
+   <li><p>adobe-livecycle-client.jar</p></li>
+   <li><p>adobe-usermanager-client.jar</p></li>
+   <li><p>adobe-encryption-client.jar</p></li>
+   <li><p>adobe-utilities.jar (required if AEM Forms is deployed on JBoss)</p></li>
+   <li><p>jbossall-client.jar (required if AEM Forms is deployed on JBoss)</p></li>
+  </ul>
+  <p><strong>Create an Encryption Client API object </strong></p>
+  <p>To programmatically perform an Encryption service operation, you must create an Encryption service client.</p>
+  <p><strong>Get a PDF document to encrypt</strong></p>
+  <p>You must obtain an unencrypted PDF document to encrypt the document with a password. If you attempt to secure a PDF document that is already encrypted, you cause an exception.</p>
+  <p><strong>Set encryption run-time options</strong></p>
+  <p>To encrypt a PDF document with a password, you specify four values, including two password values. The first password value is used to encrypt the PDF document and must be specified when opening the PDF document. The second password value, named the master password value, is used to remove encryption from the PDF document. Password values are case sensitive, and these two password values cannot be the same values.</p>
+  <p>You must specify the PDF document resources to encrypt. You can encrypt the entire PDF document, everything except for the document’s metadata, or just the document’s attachments. If you encrypt only the document’s attachments, a user is prompted for a password when they attempt to access the file attachments.</p>
+  <p>When encrypting a PDF document, you can specify permissions that are associated with the secured document. By specifying permissions, you can control the actions that a user who opens a password-encrypted PDF document is allowed to perform. For example to successfully extract form data, you must set the following permissions:</p>
+  <ul>
+   <li><p>PASSWORD_EDIT_ADD</p></li>
+   <li><p>PASSWORD_EDIT_MODIFY</p></li>
+  </ul>
+  <note>
+   <p>Permissions are specified as <span class="code">PasswordEncryptionPermission</span> enumeration values. </p>
+  </note>
+  <p><strong>Add the password</strong></p>
+  <p>After you retrieve an unsecured PDF document and set encryption run-time values, you can add a password to the PDF document.</p>
+  <p><strong>Save the encrypted PDF document as a PDF file</strong></p>
+  <p>You can save the password-encrypted PDF document as a PDF file.</p>
+  <p><strong>See also</strong></p>
+  <p><a href="encrypting-decrypting-pdf-documents#encrypt_a_pdf_document_using_the_java_api">Encrypt a PDF document using the Java API</a></p>
+  <p><a href="encrypting-decrypting-pdf-documents#encrypting_a_pdf_document_using_the_web_service_api">Encrypting a PDF document using the web service API</a></p>
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p>
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p>
+  <p><a href="/programming-with-aem-forms/encryption-service-java-api-quick#encryption_service_java_api_quick_start_soap">Encryption Service API Quick Starts</a></p>
+  <p><a href="encrypting-decrypting-pdf-documents#encrypting_pdf_documents_with_certificates">Encrypting PDF Documents with Certificates</a></p>
+  <h3 id="encrypt_a_pdf_document_using_the_java_api">Encrypt a PDF document using the Java API</h3>
+  <p></p>
+  <p>Encrypt a PDF document with a password by using the Encryption API (Java):</p>
+  <ol>
+   <li><p>Include project files. </p><p>Include client JAR files, such as adobe-encryption-client.jar, in your Java project’s class path.</p></li>
+   <li><p>Create an Encryption Client API. </p>
+    <ul>
+     <li><p>Create a <span class="code">ServiceClientFactory</span> object that contains connection properties. </p></li>
+     <li><p>Create an <span class="code">EncryptionServiceClient</span> object by using its constructor and passing the <span class="code">ServiceClientFactory</span> object.</p></li>
+    </ul></li>
+   <li><p>Get a PDF document to encrypt. </p>
+    <ul>
+     <li><p>Create a <span class="code">java.io.FileInputStream</span> object that represents the PDF document to encrypt by using its constructor and passing a string value that specifies the location of the PDF document.</p></li>
+     <li><p>Create a <span class="code">com.adobe.idp.Document</span> object by using its constructor and passing the <span class="code">java.io.FileInputStream</span> object.</p></li>
+    </ul></li>
+   <li><p>Set encryption run-time options. </p>
+    <ul>
+     <li><p>Create a <span class="code">PasswordEncryptionOptionSpec</span> object by invoking its constructor.</p></li>
+     <li><p>Specify the PDF document resources to encrypt by invoking the <span class="code">PasswordEncryptionOptionSpec</span> object’s <span class="code">setEncryptOption</span> method and passing a <span class="code">PasswordEncryptionOption</span> enumeration value that specifies the document resources to encrypt. For example, to encrypt the entire PDF document, including its metadata and its attachments, specify <span class="code">PasswordEncryptionOption.ALL</span>.</p></li>
+     <li><p>Create a <span class="code">java.util.List</span> object that stores the encryption permissions by using the <span class="code">ArrayList</span> constructor.</p></li>
+     <li><p>Specify a permission by invoking the <span class="code">java.util.List</span> object ‘s <span class="code">add</span> method and passing an enumeration value that corresponds to the permission that you want to set. For example, to set the permission that lets a user copy data located in the PDF document, specify <span class="code">PasswordEncryptionPermission.PASSWORD_EDIT_COPY</span>. (Repeat this step for each permission to set). </p></li>
+     <li><p>Specify the Acrobat compatibility option by invoking the <span class="code">PasswordEncryptionOptionSpec</span> object’s <span class="code">setCompatability</span> method and passing an enumeration value that specifies the Acrobat compatibility level. For example, you can specify <span class="code">PasswordEncryptionCompatability.ACRO_7</span>.</p></li>
+     <li><p>Specify the password value that lets a user open the encrypted PDF document by invoking the <span class="code">PasswordEncryptionOptionSpec</span> object’s <span class="code">setDocumentOpenPassword</span> method and passing a string value that represents the open password.</p></li>
+     <li><p>Specify the master password value that lets a user remove encryption from the PDF document by invoking the <span class="code">PasswordEncryptionOptionSpec</span> object’s <span class="code">setPermissionPassword</span> method and passing a string value that represents the master password.</p></li>
+    </ul></li>
+   <li><p>Add the password. </p><p>Encrypt the PDF document by invoking the <span class="code">EncryptionServiceClient</span> object’s <span class="code">encryptPDFUsingPassword</span> method and passing the following values:</p>
+    <ul>
+     <li><p>The <span class="code">com.adobe.idp.Document</span> object that contains the PDF document to encrypt with the password.</p></li>
+     <li><p>The <span class="code">PasswordEncryptionOptionSpec</span> object that contains encryption run-time options. </p></li>
+    </ul><p>The <span class="code">encryptPDFUsingPassword</span> method returns a <span class="code">com.adobe.idp.Document</span> object that contains a password-encrypted PDF document. </p></li>
+   <li><p>Save the encrypted PDF document as a PDF file. </p>
+    <ul>
+     <li><p>Create a <span class="code">java.io.File</span> object and ensure that the file extension is .pdf.</p></li>
+     <li><p>Invoke the <span class="code">com.adobe.idp.Document</span> object’s <span class="code">copyToFile</span> method to copy the contents of the <span class="code">com.adobe.idp.Document</span> object to the file. Ensure that you use the <span class="code">com.adobe.idp.Document</span> object that was returned by the <span class="code">encryptPDFUsingPassword</span> method.</p></li>
+    </ul></li>
+  </ol>
+  <p><strong>See also</strong></p>
+  <p><a href="encrypting-decrypting-pdf-documents#summary_of_steps">Summary of steps</a></p>
+  <p><a href="/programming-with-aem-forms/encryption-service-java-api-quick#quick_start_soap_mode_encrypting_a_pdf_document_using_the_java_api">Quick Start (SOAP mode): Encrypting a PDF document using the Java API</a></p>
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p>
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p>
+  <h3 id="encrypting_a_pdf_document_using_the_web_service_api">Encrypting a PDF document using the web service API</h3>
+  <p></p>
+  <p>Encrypt a PDF document with a password by using the Encryption API (web service):</p>
+  <ol>
+   <li><p>Include project files. </p><p>Create a Microsoft .NET project that uses MTOM. Ensure that you use the following WSDL definition: <span class="code">http://localhost:8080/soap/services/EncryptionService?WSDL&amp;lc_version=9.0.1</span>. </p>
+    <note>
+     <p>Replace <span class="code">localhost</span> with the IP address of the server hosting AEM Forms. </p>
+    </note></li>
+   <li><p>Create an Encryption Client API object. </p>
+    <ul>
+     <li><p>Create an <span class="code">EncryptionServiceClient</span> object by using its default constructor. </p></li>
+     <li><p>Create an <span class="code">EncryptionServiceClient.Endpoint.Address</span> object by using the <span class="code">System.ServiceModel.EndpointAddress</span> constructor. Pass a string value that specifies the WSDL to the AEM Forms service (for example, <span class="code">http://localhost:8080/soap/services/EncryptionService?WSDL</span>.) You do not need to use the <span class="code">lc_version</span> attribute. This attribute is used when you create a service reference.) </p></li>
+     <li><p>Create a <span class="code">System.ServiceModel.BasicHttpBinding</span> object by getting the value of the <span class="code">EncryptionServiceClient.Endpoint.Binding</span> field. Cast the return value to <span class="code">BasicHttpBinding</span>. </p></li>
+     <li><p>Set the <span class="code">System.ServiceModel.BasicHttpBinding</span> object’s <span class="code">MessageEncoding</span> field to <span class="code">WSMessageEncoding.Mtom</span>. This value ensures that MTOM is used. </p></li>
+     <li><p>Enable basic HTTP authentication by performing the following tasks:</p>
+      <ul>
+       <li><p>Assign the AEM forms user name to the field <span class="code">EncryptionServiceClient.ClientCredentials.UserName.UserName</span>.</p></li>
+       <li><p>Assign the corresponding password value to the field <span class="code">EncryptionServiceClient.ClientCredentials.UserName.Password</span>.</p></li>
+       <li><p>Assign the constant value <span class="code">HttpClientCredentialType.Basic</span> to the field <span class="code">BasicHttpBindingSecurity.Transport.ClientCredentialType</span>. </p></li>
+       <li><p>Assign the constant value <span class="code">BasicHttpSecurityMode.TransportCredentialOnly</span> to the field <span class="code">BasicHttpBindingSecurity.Security.Mode</span>. </p></li>
+      </ul></li>
+    </ul></li>
+   <li><p>Get a PDF document to encrypt. </p>
+    <ul>
+     <li><p>Create a <span class="code">BLOB</span> object by using its constructor. The <span class="code">BLOB</span> object is used to store a PDF document that is encrypted with a password.</p></li>
+     <li><p>Create a <span class="code">System.IO.FileStream</span> object by invoking its constructor and passing a string value that represents the file location of the PDF document to encrypt and the mode in which to open the file. </p></li>
+     <li><p>Create a byte array that stores the content of the <span class="code">System.IO.FileStream</span> object. You can determine the size of the byte array by getting the <span class="code">System.IO.FileStream</span> object’s <span class="code">Length</span> property. </p></li>
+     <li><p>Populate the byte array with stream data by invoking the <span class="code">System.IO.FileStream</span> object’s <span class="code">Read</span> method and passing the byte array, the starting position, and the stream length to read.</p></li>
+     <li><p>Populate the <span class="code">BLOB</span> object by assigning the contents of the byte array to the <span class="code">BLOB</span> object’s <span class="code">MTOM</span> data member.</p></li>
+    </ul></li>
+   <li><p>Set encryption run-time options. </p>
+    <ul>
+     <li><p>Create a <span class="code">PasswordEncryptionOptionSpec</span> object by using its constructor.</p></li>
+     <li><p>Specify the PDF document resources to encrypt by assigning a <span class="code">PasswordEncryptionOption</span> enumeration value to the <span class="code">PasswordEncryptionOptionSpec</span> object’s <span class="code">encryptOption</span> data member. To encrypt the entire PDF, including its metadata and its attachments, assign <span class="code">PasswordEncryptionOption.ALL</span> to this data member.</p></li>
+     <li><p>Specify the Acrobat compatibility option by assigning a <span class="code">PasswordEncryptionCompatability</span> enumeration value to the <span class="code">PasswordEncryptionOptionSpec</span> object’s <span class="code">compatability</span> data member. For example, assign <span class="code">PasswordEncryptionCompatability.ACRO_7</span> to this data member.</p></li>
+     <li><p>Specify the password value that lets a user open the encrypted PDF document by assigning a string value that represents the open password to the <span class="code">PasswordEncryptionOptionSpec</span> object’s <span class="code">documentOpenPassword</span> data member.</p></li>
+     <li><p>Specify the password value that lets a user remove encryption from the PDF document by assigning a string value that represents the master password to the <span class="code">PasswordEncryptionOptionSpec</span> object’s <span class="code">permissionPassword</span> data member.</p></li>
+    </ul></li>
+   <li><p>Add the password. </p><p>Encrypt the PDF document by invoking the <span class="code">EncryptionServiceClient</span> object’s <span class="code">encryptPDFUsingPassword</span> method and passing the following values:</p>
+    <ul>
+     <li><p>The <span class="code">BLOB</span> object that contains the PDF document to encrypt with the password.</p></li>
+     <li><p>The <span class="code">PasswordEncryptionOptionSpec</span> object that contains encryption run-time options. </p></li>
+    </ul><p>The <span class="code">encryptPDFUsingPassword</span> method returns a <span class="code">BLOB</span> object that contains a password-encrypted PDF document.</p></li>
+   <li><p>Save the encrypted PDF document as a PDF file. </p>
+    <ul>
+     <li><p>Create a <span class="code">System.IO.FileStream</span> object by invoking its constructor and passing a string value that represents the file location of the secured PDF document.</p></li>
+     <li><p>Create a byte array that stores the data content of the <span class="code">BLOB</span> object that was returned by the <span class="code">encryptPDFUsingPassword</span> method. Populate the byte array by getting the value of the <span class="code">BLOB</span> object’s <span class="code">MTOM</span> data member.</p></li>
+     <li><p>Create a <span class="code">System.IO.BinaryWriter</span> object by invoking its constructor and passing the <span class="code">System.IO.FileStream</span> object.</p></li>
+     <li><p>Write the contents of the byte array to a PDF file by invoking the <span class="code">System.IO.BinaryWriter</span> object’s <span class="code">Write</span> method and passing the byte array.</p></li>
+    </ul></li>
+  </ol>
+  <p><strong>See also</strong></p>
+  <p><a href="encrypting-decrypting-pdf-documents#summary_of_steps">Summary of steps</a></p>
+  <p><a href="#unresolvedlink-lc-qs-encryption-en.xml#ws624e3cba99b79e12e69a9941333732bac8-7e9c.2">Quick Start (MTOM): Encrypting a PDF document using the web service API</a></p>
+  <p><a href="#unresolvedlink-lc-qs-encryption-en.xml#ws624e3cba99b79e12e69a9941333732bac8-7e9b.2">Quick Start (Java SwaRef): Encrypting a PDF document using the web service API</a></p>
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_mtom">Invoking AEM Forms using MTOM</a></p>
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_swaref">Invoking AEM Forms using SwaRef</a></p>
+  <h2 id="encrypting_pdf_documents_with_certificates">Encrypting PDF Documents with Certificates</h2>
+  <p></p>
+  <p>Certificate-based encryption lets you encrypt a document for specific recipients by means of public key technology. Various recipients can be given different permissions for the document. Many aspects of encryption are made possible by public key technology. An algorithm is used to generate two large numbers, known as <i>keys</i>, that have the following properties:</p>
+  <ul>
+   <li><p>One key is used to encrypt a set of data. Subsequently, only the other key can be used to decrypt the data.</p></li>
+   <li><p>It is impossible to distinguish one key from the other.</p></li>
+  </ul>
+  <p>One of the keys acts as a user’s private key. It is important that only the user has access to this key. The other key is the user’s public key, which can be shared with others.</p>
+  <p>A public key certificate contains a user’s public key and identifying information. The X.509 format is used for storing certificates. Certificates are typically issued and digitally signed by a certificate authority (CA), which is a recognized entity that provides a measure of confidence in the validity of the certificate. Certificates have an expiration date, after which they are no longer valid. In addition, certificate revocation lists (CRLs) provide information about certificates that were revoked prior to their expiration date. CRLs are published periodically by certificate authorities. The revocation status of a certificate can also be retrieved through Online Certificate Status Protocol (OCSP) over the network. </p>
+  <note>
+   <p>If you upload an encrypted PDF document to the AEM Forms repository, it cannot decrypt the PDF document and extract the XDP content. It is recommended that you do not encrypt a document prior to uploading it to the AEM Forms repository. (See <a href="/programming-with-aem-forms/aem-forms-repository#writing_resources">Writing Resources</a>.) </p>
+  </note>
+  <note>
+   <p>Before you can encrypt a PDF document with a certificate, you must ensure that you add the certificate to AEM Forms. A certificate is added using administration console or programmatically using the Trust Manager API. (See <a href="/programming-with-aem-forms/credentials#importing_credentials_by_using_the_trust_manager_api">Importing Credentials by using the Trust Manager API</a>.)</p>
+  </note>
+  <note>
+   <p>For more information about the Encryption service, see <a href="http://www.adobe.com/go/learn_aemforms_services_63">Services Reference for AEM Forms</a>.</p>
+  </note>
+  <h3 id="summary_of_steps">Summary of steps</h3>
+  <p></p>
+  <p>To encrypt a PDF document with a certificate, perform the following steps:</p>
+  <ol>
+   <li><p>Include project files.</p></li>
+   <li><p>Create an Encryption Client API object. </p></li>
+   <li><p>Get a PDF document to encrypt.</p></li>
+   <li><p>Reference the certificate.</p></li>
+   <li><p>Set encryption run-time options.</p></li>
+   <li><p>Create a certificate-encrypted PDF document.</p></li>
+   <li><p>Save the encrypted PDF document as a PDF file.</p></li>
+  </ol>
+  <p><strong>Include project files</strong></p>
+  <p>Include the necessary files in your development project. If you are creating a client application by using Java, include the necessary JAR files. If you are using web services, ensure that you include the proxy files.</p>
+  <p>The following JAR files must be added to your project’s class path:</p>
+  <ul>
+   <li><p>adobe-livecycle-client.jar</p></li>
+   <li><p>adobe-usermanager-client.jar</p></li>
+   <li><p>adobe-encryption-client.jar</p></li>
+   <li><p>adobe-utilities.jar (required if AEM Forms is deployed on JBoss Application Server)</p></li>
+   <li><p>jbossall-client.jar (required if AEM Forms is deployed on JBoss Application Server)</p></li>
+  </ul>
+  <p><strong>Create an Encryption Client API object </strong></p>
+  <p>To programmatically perform an Encryption service operation, you must create an Encryption service client. If you are using the Java Encryption Service API, create an <span class="code">EncrytionServiceClient</span> object. If you are using the web service Encryption Service API, create an <span class="code">EncryptionServiceService</span> object.</p>
+  <p><strong>Get a PDF document to encrypt</strong></p>
+  <p>You must obtain an unencrypted PDF document to encrypt. If you attempt to secure a PDF document that is already encrypted, an exception is thrown.</p>
+  <p><strong>Reference the certificate</strong></p>
+  <p>To encrypt a PDF document with a certificate, reference a certificate that is used to encrypt a PDF document. The certificate is a .cer file, a .crt file, or a .pem file. A PKCS#12 file is used to store private keys with corresponding certificates.</p>
+  <p>When encrypting a PDF document with a certificate, specify permissions that are associated with the secured document. By specifying permissions, you can control the actions that a user who opens a certificate-encrypted PDF document can perform.</p>
+  <p><strong>Set encryption run-time options</strong></p>
+  <p>Specify the PDF document resources to encrypt. You can encrypt the entire PDF document, everything except the document’s metadata, or only the document’s attachments. </p>
+  <p><strong>Create a certificate-encrypted PDF document</strong></p>
+  <p>After you retrieve an unsecured PDF document, reference the certificate, and set run-time options, you can create a certificate-encrypted PDF document. After the PDF document is encrypted, you need the corresponding public key to decrypt it. </p>
+  <p><strong>Save the encrypted PDF document as a PDF file</strong></p>
+  <p>You can save the encrypted PDF document as a PDF file.</p>
+  <p><strong>See also</strong></p>
+  <p><a href="encrypting-decrypting-pdf-documents#encrypt_a_pdf_document_with_a_certificate_using_the_java_api">Encrypt a PDF document with a certificate using the Java API</a></p>
+  <p><a href="encrypting-decrypting-pdf-documents#encrypt_a_pdf_document_with_a_certificate_using_the_web_service_api">Encrypt a PDF document with a certificate using the web service API</a></p>
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p>
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p>
+  <p><a href="/programming-with-aem-forms/encryption-service-java-api-quick#encryption_service_java_api_quick_start_soap">Encryption Service API Quick Starts</a></p>
+  <p><a href="encrypting-decrypting-pdf-documents#encrypting_pdf_documents_with_a_password">Encrypting PDF Documents with a Password</a></p>
+  <h3 id="encrypt_a_pdf_document_with_a_certificate_using_the_java_api">Encrypt a PDF document with a certificate using the Java API</h3>
+  <p></p>
+  <p>Encrypt a PDF document with a certificate by using the Encryption API (Java):</p>
+  <ol>
+   <li><p>Include project files. </p><p>Include client JAR files, such as adobe-encryption-client.jar, in your Java project’s class path.</p></li>
+   <li><p>Create an Encryption Client API object. </p>
+    <ul>
+     <li><p>Create a <span class="code">ServiceClientFactory</span> object that contains connection properties. </p></li>
+     <li><p>Create an <span class="code">EncryptionServiceClient</span> object by using its constructor and passing the <span class="code">ServiceClientFactory</span> object.</p></li>
+    </ul></li>
+   <li><p>Get a PDF document to encrypt. </p>
+    <ul>
+     <li><p>Create a <span class="code">java.io.FileInputStream</span> object that represents the PDF document to encrypt by using its constructor and passing a string value that specifies the location of the PDF document.</p></li>
+     <li><p>Create a <span class="code">com.adobe.idp.Document</span> object by using its constructor and passing the <span class="code">java.io.FileInputStream</span> object.</p></li>
+    </ul></li>
+   <li><p>Reference the certificate. </p>
+    <ul>
+     <li><p>Create a <span class="code">java.util.List</span> object that stores permission information by using its constructor.</p></li>
+     <li><p>Specify the permission associated with the encrypted document by invoking the <span class="code">java.util.List</span> object’s <span class="code">add</span> method and passing a <span class="code">CertificateEncryptionPermissions</span> enumeration value that represents the permissions that are granted to the user who opens the secured PDF document. For example, to specify all permissions, pass <span class="code">CertificateEncryptionPermissions.PKI_ALL_PERM</span>.</p></li>
+     <li><p>Create a <span class="code">Recipient</span> object by using its constructor. </p></li>
+     <li><p>Create a <span class="code">java.io.FileInputStream</span> object that represents the certificate that is used to encrypt the PDF document by using its constructor and passing a string value that specifies the location of the certificate.</p></li>
+     <li><p>Create a <span class="code">com.adobe.idp.Document</span> object by using its constructor and passing the <span class="code">java.io.FileInputStream</span> object that represents the certificate. </p></li>
+     <li><p>Invoke the <span class="code">Recipient</span> object’s <span class="code">setX509Cert</span> method and pass the <span class="code">com.adobe.idp.Document</span> object that contains the certificate. (In addition, the <span class="code">Recipient </span>object can have a Truststore certificate alias or LDAP URL as a certificate source.)</p></li>
+     <li><p>Create a <span class="code">CertificateEncryptionIdentity</span> object that stores permission and certificate information by using its constructor. </p></li>
+     <li><p>Invoke the <span class="code">CertificateEncryptionIdentity</span> object’s <span class="code">setPerms</span> method and pass the <span class="code">java.util.List</span> object that stores permission information.</p></li>
+     <li><p>Invoke the <span class="code">CertificateEncryptionIdentity</span> object’s <span class="code">setRecipient</span> method and pass the <span class="code">Recipient</span> object that stores certificate information.</p></li>
+     <li><p>Create a <span class="code">java.util.List</span> object that stores certificate information by using its constructor.</p></li>
+     <li><p>Invoke the <span class="code">java.util.List</span> object’s add method and pass the <span class="code">CertificateEncryptionIdentity</span> object. (This <span class="code">java.util.List</span> object is passed as a parameter to the <span class="code">encryptPDFUsingCertificates</span> method.)</p></li>
+    </ul></li>
+   <li><p>Set encryption run-time options. </p>
+    <ul>
+     <li><p>Create a <span class="code">CertificateEncryptionOptionSpec</span> object by invoking its constructor.</p></li>
+     <li><p>Specify the PDF document resources to encrypt by invoking the <span class="code">CertificateEncryptionOptionSpec</span> object’s <span class="code">setOption</span> method and passing a <span class="code">CertificateEncryptionOption</span> enumeration value that specifies the document resources to encrypt. For example, to encrypt the entire PDF document, including its metadata and its attachments, specify <span class="code">CertificateEncryptionOption.ALL</span>.</p></li>
+     <li><p>Specify the Acrobat compatibility option by invoking the <span class="code">CertificateEncryptionOptionSpec</span> object’s<span class="code"> setCompat</span> method and passing a <span class="code">CertificateEncryptionCompatibility</span> enumeration value that specifies the Acrobat compatibility level. For example, you can specify <span class="code">CertificateEncryptionCompatibility.ACRO_7</span>.</p></li>
+    </ul></li>
+   <li><p>Create a certificate-encrypted PDF document. </p><p>Encrypt the PDF document with a certificate by invoking the <span class="code">EncryptionServiceClient</span> object’s <span class="code">encryptPDFUsingCertificates</span> method and passing the following values:</p>
+    <ul>
+     <li><p>The <span class="code">com.adobe.idp.Document</span> object that contains the PDF document to encrypt.</p></li>
+     <li><p>The <span class="code">java.util.List</span> object that stores certificate information.</p></li>
+     <li><p>The <span class="code">CertificateEncryptionOptionSpec</span> object that contains encryption run-time options.</p></li>
+    </ul><p>The <span class="code">encryptPDFUsingCertificates</span> method returns a <span class="code">com.adobe.idp.Document</span> object that contains a certificate-encrypted PDF document.</p></li>
+   <li><p>Save the encrypted PDF document as a PDF file. </p>
+    <ul>
+     <li><p>Create a <span class="code">java.io.File</span> object and ensure that the file name extension is .pdf.</p></li>
+     <li><p>Invoke the <span class="code">com.adobe.idp.Document</span> object’s <span class="code">copyToFile</span> method to copy the contents of the <span class="code">com.adobe.idp.Document</span> object to the file. Ensure that you use the <span class="code">com.adobe.idp.Document</span> object that was returned by the <span class="code">encryptPDFUsingCertificates</span> method.</p></li>
+    </ul></li>
+  </ol>
+  <p><strong>See also</strong></p>
+  <p><a href="encrypting-decrypting-pdf-documents#summary_of_steps">Summary of steps</a></p>
+  <p><a href="/programming-with-aem-forms/encryption-service-java-api-quick#quick_start_soap_mode_encrypting_a_pdf_document_with_a_certificate_using_the_java_api">Quick Start (SOAP mode): Encrypting a PDF document with a certificate using the Java API</a></p>
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p>
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p>
+  <h3 id="encrypt_a_pdf_document_with_a_certificate_using_the_web_service_api">Encrypt a PDF document with a certificate using the web service API</h3>
+  <p></p>
+  <p>Encrypt a PDF document with a certificate by using the Encryption API (web service):</p>
+  <ol>
+   <li><p>Include project files. </p><p>Create a Microsoft .NET project that uses MTOM. Ensure that you use the following WSDL definition: <span class="code">http://localhost:8080/soap/services/EncryptionService?WSDL&amp;lc_version=9.0.1</span>. </p>
+    <note>
+     <p>Replace <span class="code">localhost</span> with the IP address of the server hosting AEM Forms. </p>
+    </note></li>
+   <li><p>Create an Encryption Client API object. </p>
+    <ul>
+     <li><p>Create an <span class="code">EncryptionServiceClient</span> object by using its default constructor. </p></li>
+     <li><p>Create an <span class="code">EncryptionServiceClient.Endpoint.Address</span> object by using the <span class="code">System.ServiceModel.EndpointAddress</span> constructor. Pass a string value that specifies the WSDL to the AEM Forms service (for example, <span class="code">http://localhost:8080/soap/services/EncryptionService?WSDL</span>.) You do not need to use the <span class="code">lc_version</span> attribute. This attribute is used when you create a service reference.) </p></li>
+     <li><p>Create a <span class="code">System.ServiceModel.BasicHttpBinding</span> object by getting the value of the <span class="code">EncryptionServiceClient.Endpoint.Binding</span> field. Cast the return value to <span class="code">BasicHttpBinding</span>. </p></li>
+     <li><p>Set the <span class="code">System.ServiceModel.BasicHttpBinding</span> object’s <span class="code">MessageEncoding</span> field to <span class="code">WSMessageEncoding.Mtom</span>. This value ensures that MTOM is used. </p></li>
+     <li><p>Enable basic HTTP authentication by performing the following tasks:</p>
+      <ul>
+       <li><p>Assign the AEM forms user name to the field <span class="code">EncryptionServiceClient.ClientCredentials.UserName.UserName</span>.</p></li>
+       <li><p>Assign the corresponding password value to the field <span class="code">EncryptionServiceClient.ClientCredentials.UserName.Password</span>.</p></li>
+       <li><p>Assign the constant value <span class="code">HttpClientCredentialType.Basic</span> to the field <span class="code">BasicHttpBindingSecurity.Transport.ClientCredentialType</span>. </p></li>
+       <li><p>Assign the constant value <span class="code">BasicHttpSecurityMode.TransportCredentialOnly</span> to the field <span class="code">BasicHttpBindingSecurity.Security.Mode</span>. </p></li>
+      </ul></li>
+    </ul></li>
+   <li><p>Get a PDF document to encrypt. </p>
+    <ul>
+     <li><p>Create a <span class="code">BLOB</span> object by using its constructor. The <span class="code">BLOB</span> object is used to store a PDF document that is encrypted with a certificate.</p></li>
+     <li><p>Create a <span class="code">System.IO.FileStream</span> object by invoking its constructor and passing a string value that represents the file location of the PDF document to encrypt and the mode in which to open the file. </p></li>
+     <li><p>Create a byte array that stores the content of the <span class="code">System.IO.FileStream</span> object. You can determine the size of the byte array by getting the <span class="code">System.IO.FileStream</span> object’s <span class="code">Length</span> property. </p></li>
+     <li><p>Populate the byte array with stream data by invoking the <span class="code">System.IO.FileStream</span> object’s <span class="code">Read</span> method and passing the byte array, the starting position, and the stream length to read.</p></li>
+     <li><p>Populate the <span class="code">BLOB</span> object by assigning its <span class="code">MTOM</span> property with the contents of the byte array.</p></li>
+    </ul></li>
+   <li><p>Reference the certificate. </p>
+    <ul>
+     <li><p>Create a <span class="code">Recipient</span> object by using its constructor. This object will store certificate information. </p></li>
+     <li><p>Create a <span class="code">BLOB</span> object by using its constructor. This <span class="code">BLOB</span> object will store the certificate that encrypts the PDF document.</p></li>
+     <li><p>Create a<span class="code"> System.IO.FileStream</span> object by invoking its constructor and passing a string value that represents the file location of the certificate and the mode in which to open the file.</p></li>
+     <li><p>Create a byte array that stores the content of the <span class="code">System.IO.FileStream</span> object. You can determine the size of the byte array by getting the <span class="code">System.IO.FileStream</span> object’s <span class="code">Length</span> property. </p></li>
+     <li><p>Populate the byte array with stream data by invoking the <span class="code">System.IO.FileStream</span> object’s <span class="code">Read</span> method and passing the byte array, the starting position, and the stream length to read.</p></li>
+     <li><p>Populate the <span class="code">BLOB</span> object by assigning the contents of the byte array to the <span class="code">BLOB</span> object’s <span class="code">MTOM</span> data member.</p></li>
+     <li><p>Assign the <span class="code">BLOB</span> object that stores the certificate to the <span class="code">Recipient</span> object’s <span class="code">x509Cert</span> data member.</p></li>
+     <li><p>Create a <span class="code">CertificateEncryptionIdentity</span> object that stores certificate information by using its constructor. </p></li>
+     <li><p>Assign the <span class="code">Recipient</span> object that stores the certificate to the <span class="code">CertificateEncryptionIdentity </span>object’s recipient data member.</p></li>
+     <li><p>Create an <span class="code">Object</span> array and assign the <span class="code">CertificateEncryptionIdentity</span> object to the first element of the <span class="code">Object</span> array. This <span class="code">Object</span> array is passed as a parameter to the <span class="code">encryptPDFUsingCertificates</span> method. </p></li>
+    </ul></li>
+   <li><p>Set encryption run-time options. </p>
+    <ul>
+     <li><p>Create a <span class="code">CertificateEncryptionOptionSpec</span> object by using its constructor.</p></li>
+     <li><p>Specify the PDF document resources to encrypt by assigning a <span class="code">CertificateEncryptionOption</span> enumeration value to the <span class="code">CertificateEncryptionOptionSpec</span> object’s <span class="code">option</span> data member. To encrypt the entire PDF document, including its metadata and its attachments, assign <span class="code">CertificateEncryptionOption.ALL</span> to this data member.</p></li>
+     <li><p>Specify the Acrobat compatibility option by assigning a <span class="code">CertificateEncryptionCompatibility</span> enumeration value to the <span class="code">CertificateEncryptionOptionSpec</span> object’s <span class="code">compat</span> data member. For example, assign <span class="code">CertificateEncryptionCompatibility.ACRO_7</span> to this data member.</p></li>
+    </ul></li>
+   <li><p>Create a certificate-encrypted PDF document. </p><p>Encrypt the PDF document with a certificate by invoking the <span class="code">EncryptionServiceService</span> object’s <span class="code">encryptPDFUsingCertificates</span> method and passing the following values:</p>
+    <ul>
+     <li><p>The <span class="code">BLOB</span> object that contains the PDF document to encrypt.</p></li>
+     <li><p>The <span class="code">Object</span> array that stores certificate information.</p></li>
+     <li><p>The <span class="code">CertificateEncryptionOptionSpec</span> object that contains encryption run-time options.</p></li>
+    </ul><p>The <span class="code">encryptPDFUsingCertificates</span> method returns a <span class="code">BLOB</span> object that contains a certificate-encrypted PDF document.</p></li>
+   <li><p>Save the encrypted PDF document as a PDF file. </p>
+    <ul>
+     <li><p>Create a <span class="code">System.IO.FileStream</span> object by invoking its constructor and passing a string value that represents the file location of the secured PDF document.</p></li>
+     <li><p>Create a byte array that stores the data content of the <span class="code">BLOB</span> object that was returned by the <span class="code">encryptPDFUsingCertificates</span> method. Populate the byte array by getting the value of the <span class="code">BLOB</span> object’s <span class="code">binaryData</span> data member.</p></li>
+     <li><p>Create a <span class="code">System.IO.BinaryWriter</span> object by invoking its constructor and passing the <span class="code">System.IO.FileStream</span> object.</p></li>
+     <li><p>Write the contents of the byte array to a PDF file by invoking the <span class="code">System.IO.BinaryWriter</span> object’s <span class="code">Write</span> method and passing the byte array.</p></li>
+    </ul></li>
+  </ol>
+  <p><strong>See also</strong></p>
+  <p><a href="encrypting-decrypting-pdf-documents#summary_of_steps">Summary of steps</a></p>
+  <p><a href="#unresolvedlink-lc-qs-encryption-en.xml#ws624e3cba99b79e12e69a9941333732bac8-7e92.2">Quick Start (MTOM): Encrypting a PDF document with a certificate using the web service API</a></p>
+  <p><a href="#unresolvedlink-lc-qs-encryption-en.xml#ws624e3cba99b79e12e69a9941333732bac8-7e91.2">Quick Start (Java SwaRef): Encrypting a PDF document with a certificate using the web service API</a></p>
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_mtom">Invoking AEM Forms using MTOM</a></p>
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_swaref">Invoking AEM Forms using SwaRef</a></p>
+  <h2 id="removing_certificate_based_encryption">Removing Certificate Based Encryption</h2>
+  <p></p>
+  <p>Certificate-based encryption can be removed from a PDF document so that users can open the PDF document in Adobe Reader or Acrobat. To remove encryption from a PDF document that is encrypted with a certificate, a public key must be referenced. After encryption is removed from a PDF document, it is no longer secure.</p>
+  <note>
+   <p>For more information about the Encryption service, see <a href="http://www.adobe.com/go/learn_aemforms_services_63">Services Reference for AEM Forms</a>.</p>
+  </note>
+  <h3 id="summary_of_steps">Summary of steps</h3>
+  <p></p>
+  <p>To remove certificate-based encryption from a PDF document, perform the following steps:</p>
+  <ol>
+   <li><p>Include project files.</p></li>
+   <li><p>Create an encryption service client. </p></li>
+   <li><p>Get the encrypted PDF document.</p></li>
+   <li><p>Remove encryption.</p></li>
+   <li><p>Save the PDF document as a PDF file.</p></li>
+  </ol>
+  <p><strong>Include project files</strong></p>
+  <p>Include necessary files into your development project. If you are creating a client application using Java, include the necessary JAR files. If you are using web services, ensure that you include the proxy files.</p>
+  <p>The following JAR files must be added to your project’s class path:</p>
+  <ul>
+   <li><p>adobe-livecycle-client.jar</p></li>
+   <li><p>adobe-usermanager-client.jar</p></li>
+   <li><p>adobe-encryption-client.jar</p></li>
+   <li><p>adobe-utilities.jar (required if AEM Forms is deployed on JBoss Application Server)</p></li>
+   <li><p>jbossall-client.jar (required if AEM Forms is deployed on JBoss Application Server)</p></li>
+  </ul>
+  <p><strong>Create an encryption service client </strong></p>
+  <p>To programmatically perform an Encryption service operation, you must create an Encryption service client. If you are using the Java Encryption Service API, create an <span class="code">EncrytionServiceClient</span> object. If you are using the web service Encryption Service API, create an <span class="code">EncryptionServiceService</span> object.</p>
+  <p><strong>Get the encrypted PDF document</strong></p>
+  <p>You must obtain an encrypted PDF document to remove certificate-based encryption. If you attempt to remove encryption from a PDF document that is not encrypted, an exception is thrown. Likewise, if you attempt to remove certificate-based encryption from a password-encrypted document, an exception is thrown.</p>
+  <p><strong>Remove encryption</strong></p>
+  <p>To remove certificate-based encryption from an encrypted PDF document, you require both an encrypted PDF document and the private key that corresponds to the key that was used to encrypt the PDF document. The alias value of the private key is specified when removing certificate-based encryption from an encrypted PDF document. For information about the public key, see <a href="encrypting-decrypting-pdf-documents#encrypting_pdf_documents_with_certificates">Encrypting PDF Documents with Certificates</a>.</p>
+  <note>
+   <p>A private key is stored in the AEM Forms Trust Store. When a certificate is placed there, an alias value is specified. </p>
+  </note>
+  <p><strong>Save the PDF document </strong></p>
+  <p>After certificate-based encryption is removed from an encrypted PDF document, you can save the PDF document as a PDF file. Users can open the PDF document in Adobe Reader or Acrobat. </p>
+  <p><strong>See also</strong></p>
+  <p><a href="encrypting-decrypting-pdf-documents#remove_certificate_based_encryption_using_the_java_api">Remove certificate-based encryption using the Java API</a></p>
+  <p><a href="encrypting-decrypting-pdf-documents#remove_certificate_based_encryption_using_the_web_service_api">Remove certificate-based encryption using the web service API</a></p>
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p>
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p>
+  <p><a href="/programming-with-aem-forms/encryption-service-java-api-quick#encryption_service_java_api_quick_start_soap">Encryption Service API Quick Starts</a></p>
+  <h3 id="remove_certificate_based_encryption_using_the_java_api">Remove certificate-based encryption using the Java API</h3>
+  <p></p>
+  <p>Remove certificate-based encryption from a PDF document by using the Encryption API (Java):</p>
+  <ol>
+   <li><p>Include project files. </p><p>Include client JAR files, such as adobe-encryption-client.jar, in your Java project’s class path. </p></li>
+   <li><p>Create an encryption service client. </p>
+    <ul>
+     <li><p>Create a <span class="code">ServiceClientFactory</span> object that contains connection properties.</p></li>
+     <li><p>Create an <span class="code">EncryptionServiceClient</span> object by using its constructor and passing the <span class="code">ServiceClientFactory</span> object.</p></li>
+    </ul></li>
+   <li><p>Get the encrypted PDF document. </p>
+    <ul>
+     <li><p>Create a <span class="code">java.io.FileInputStream</span> object that represents the encrypted PDF document by using its constructor and passing a string value that specifies the location of the encrypted PDF document.</p></li>
+     <li><p>Create a <span class="code">com.adobe.idp.Document</span> object by using its constructor and passing the <span class="code">java.io.FileInputStream</span> object.</p></li>
+    </ul></li>
+   <li><p>Remove encryption. </p><p>Remove certificate-based encryption from the PDF document by invoking the <span class="code">EncryptionServiceClient</span> object’s <span class="code">removePDFCertificateSecurity</span> method and passing the following values: </p>
+    <ul>
+     <li><p>The <span class="code">com.adobe.idp.Document</span> object that contains the encrypted PDF document. </p></li>
+     <li><p>A string value that specifies the alias name of the private key that corresponds to the key used to encrypt the PDf document. </p></li>
+    </ul><p>The <span class="code">removePDFCertificateSecurity</span> method returns a <span class="code">com.adobe.idp.Document</span> object that contains an unsecured PDF document.</p></li>
+   <li><p>Save the PDF document. </p>
+    <ul>
+     <li><p>Create a <span class="code">java.io.File</span> object and ensure that the file extension is .pdf.</p></li>
+     <li><p>Invoke the <span class="code">com.adobe.idp.Document</span> object’s <span class="code">copyToFile</span> method to copy the contents of the <span class="code">Document</span> object to the file. Ensure that you use the <span class="code">com.adobe.idp.Document</span> object that was returned by the <span class="code">removePDFCredentialSecurity</span> method. </p></li>
+    </ul></li>
+  </ol>
+  <p><strong>See also</strong></p>
+  <p><a href="encrypting-decrypting-pdf-documents#summary_of_steps">Summary of steps</a></p>
+  <p><a href="/programming-with-aem-forms/encryption-service-java-api-quick#quick_start_soap_mode_removing_certificate_based_encryption_using_the_java_api">Quick Start (SOAP mode): Removing certificate-based encryption using the Java API</a></p>
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p>
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p>
+  <h3 id="remove_certificate_based_encryption_using_the_web_service_api">Remove certificate-based encryption using the web service API</h3>
+  <p></p>
+  <p>Remove certificate-based encryption by using the Encryption API (web service):</p>
+  <ol>
+   <li><p>Include project files. </p><p>Create a Microsoft .NET project that uses MTOM. Ensure that you use the following WSDL definition: <span class="code">http://localhost:8080/soap/services/EncryptionService?WSDL&amp;lc_version=9.0.1</span>. </p>
+    <note>
+     <p>Replace <span class="code">localhost</span> with the IP address of the server hosting AEM Forms. </p>
+    </note></li>
+   <li><p>Create an encryption service client. </p>
+    <ul>
+     <li><p>Create an <span class="code">EncryptionServiceClient</span> object by using its default constructor. </p></li>
+     <li><p>Create an <span class="code">EncryptionServiceClient.Endpoint.Address</span> object by using the <span class="code">System.ServiceModel.EndpointAddress</span> constructor. Pass a string value that specifies the WSDL to the AEM Forms service (for example, <span class="code">http://localhost:8080/soap/services/EncryptionService?WSDL</span>.) You do not need to use the <span class="code">lc_version</span> attribute. This attribute is used when you create a service reference.) </p></li>
+     <li><p>Create a <span class="code">System.ServiceModel.BasicHttpBinding</span> object by getting the value of the <span class="code">EncryptionServiceClient.Endpoint.Binding</span> field. Cast the return value to <span class="code">BasicHttpBinding</span>. </p></li>
+     <li><p>Set the <span class="code">System.ServiceModel.BasicHttpBinding</span> object’s <span class="code">MessageEncoding</span> field to <span class="code">WSMessageEncoding.Mtom</span>. This value ensures that MTOM is used. </p></li>
+     <li><p>Enable basic HTTP authentication by performing the following tasks:</p>
+      <ul>
+       <li><p>Assign the AEM forms user name to the field <span class="code">EncryptionServiceClient.ClientCredentials.UserName.UserName</span>.</p></li>
+       <li><p>Assign the corresponding password value to the field <span class="code">EncryptionServiceClient.ClientCredentials.UserName.Password</span>.</p></li>
+       <li><p>Assign the constant value <span class="code">HttpClientCredentialType.Basic</span> to the field <span class="code">BasicHttpBindingSecurity.Transport.ClientCredentialType</span>. </p></li>
+       <li><p>Assign the constant value <span class="code">BasicHttpSecurityMode.TransportCredentialOnly</span> to the field <span class="code">BasicHttpBindingSecurity.Security.Mode</span>. </p></li>
+      </ul></li>
+    </ul></li>
+   <li><p>Get the encrypted PDF document. </p>
+    <ul>
+     <li><p>Create a <span class="code">BLOB</span> object by using its constructor. The <span class="code">BLOB</span> object is used to store the encrypted PDF document.</p></li>
+     <li><p>Create a <span class="code">System.IO.FileStream</span> object by invoking its constructor and passing a string value that represents the file location of the encrypted PDF document and the mode in which to open the file. </p></li>
+     <li><p>Create a byte array that stores the content of the <span class="code">System.IO.FileStream</span> object. You can determine the size of the byte array by getting the <span class="code">System.IO.FileStream</span> object’s <span class="code">Length</span> property. </p></li>
+     <li><p>Populate the byte array with stream data by invoking the <span class="code">System.IO.FileStream</span> object’s <span class="code">Read</span> method and passing the byte array, the starting position, and the stream length to read.</p></li>
+     <li><p>Populate the <span class="code">BLOB</span> object by assigning the contents of the byte array to the <span class="code">BLOB</span> object’s <span class="code">MTOM</span> data member.</p></li>
+    </ul></li>
+   <li><p>Remove encryption. </p><p>Invoke the <span class="code">EncryptionServiceClient</span> object’s <span class="code">removePDFCertificateSecurity</span> method and pass the following values:</p>
+    <ul>
+     <li><p>The <span class="code">BLOB</span> object that contains file stream data that represents an encrypted PDF document. </p></li>
+     <li><p>A string value that specifies the alias name of the public key that corresponds to the private key used to encrypt the PDf document. </p></li>
+    </ul><p>The <span class="code">removePDFCredentialSecurity</span> method returns a <span class="code">BLOB</span> object that contains an unsecured PDF document. </p></li>
+   <li><p>Save the PDF document. </p>
+    <ul>
+     <li><p>Create a <span class="code">System.IO.FileStream</span> object by invoking its constructor and passing a string value that represents the file location of the unsecured PDF document.</p></li>
+     <li><p>Create a byte array that stores the content of the <span class="code">BLOB</span> object that was returned by the <span class="code">removePDFPasswordSecurity</span> method. Populate the byte array by getting the value of the <span class="code">BLOB</span> object’s <span class="code">MTOM</span> data member.</p></li>
+     <li><p>Create a <span class="code">System.IO.BinaryWriter</span> object by invoking its constructor and passing the <span class="code">System.IO.FileStream</span> object.</p></li>
+     <li><p>Write the contents of the byte array to a PDF file by invoking the <span class="code">System.IO.BinaryWriter</span> object’s <span class="code">Write</span> method and passing the byte array.</p></li>
+    </ul></li>
+  </ol>
+  <p><strong>See also</strong></p>
+  <p><a href="encrypting-decrypting-pdf-documents#summary_of_steps">Summary of steps</a></p>
+  <p><a href="#unresolvedlink-lc-qs-encryption-en.xml#ws624e3cba99b79e12e69a9941333732bac8-7e8d.2">Quick Start (MTOM): Removing certificate-based encryption using the web service API</a></p>
+  <p><a href="#unresolvedlink-lc-qs-encryption-en.xml#ws624e3cba99b79e12e69a9941333732bac8-7e8c.2">Quick Start (Java SWAref): Removing certificate-based encryption using the web service API</a></p>
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_mtom">Invoking AEM Forms using MTOM</a></p>
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_swaref">Invoking AEM Forms using SwaRef</a></p>
+  <h2 id="removing_password_encryption">Removing Password Encryption</h2>
+  <p></p>
+  <p>Password-based encryption can be removed from a PDF document so that users can open the PDF document in Adobe Reader or Acrobat without having to specify a password. After password-based encryption is removed from a PDF document, the document is no longer secure.</p>
+  <note>
+   <p>For more information about the Encryption service, see <a href="http://www.adobe.com/go/learn_aemforms_services_63">Services Reference for AEM Forms</a>.</p>
+  </note>
+  <h3 id="summary_of_steps">Summary of steps</h3>
+  <p></p>
+  <p>To remove password-based encryption from a PDF document, perform the following steps:</p>
+  <ol>
+   <li><p>Include project files</p></li>
+   <li><p>Create an encryption service client. </p></li>
+   <li><p>Get the encrypted PDF document.</p></li>
+   <li><p>Remove the password.</p></li>
+   <li><p>Save the PDF document as a PDF file.</p></li>
+  </ol>
+  <p><strong>Include project files</strong></p>
+  <p>Include the necessary files into your development project. If you are creating a client application using Java, include the necessary JAR files. If you are using web services, make sure that you include the proxy files.</p>
+  <p>The following JAR files must be added to your project’s class path:</p>
+  <ul>
+   <li><p>adobe-livecycle-client.jar</p></li>
+   <li><p>adobe-usermanager-client.jar</p></li>
+   <li><p>adobe-encryption-client.jar</p></li>
+   <li><p>adobe-utilities.jar (required if AEM Forms is deployed on JBoss)</p></li>
+   <li><p>jbossall-client.jar (required if AEM Forms is deployed on JBoss)</p></li>
+  </ul>
+  <p><strong>Create an encryption service client </strong></p>
+  <p>To programmatically perform an Encryption service operation, you must create an Encryption service client. If you are using the Java Encryption Service API, create an <span class="code">EncrytionServiceClient</span> object. If you are using the web service Encryption Service API, create an <span class="code">EncryptionServiceService</span> object.</p>
+  <p><strong>Get the encrypted PDF document</strong></p>
+  <p>You must obtain an encrypted PDF document to remove password-based encryption. If you attempt to remove encryption from a PDF document that is not encrypted, an exception is thrown. </p>
+  <p><strong>Remove the password</strong></p>
+  <p>To remove password-based encryption from an encrypted PDF document, you require both an encrypted PDF document and a master password value that is used to remove encryption from the PDF document. The password that is used to open a password-encrypted PDF document cannot be used to remove encryption. A master password is specified when the PDF document is encrypted with a password. (See <a href="encrypting-decrypting-pdf-documents#encrypting_pdf_documents_with_a_password">Encrypting PDF Documents with a Password</a>.)</p>
+  <p><strong>Save the PDF document </strong></p>
+  <p>After the Encryption service removes password-based encryption from a PDF document, you can save the PDF document as a PDF file. Users can open the PDF document in Adobe Reader or Acrobat without specifying a password. </p>
+  <p><strong>See also</strong></p>
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p>
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p>
+  <p><a href="/programming-with-aem-forms/encryption-service-java-api-quick#encryption_service_java_api_quick_start_soap">Encryption Service API Quick Starts</a></p>
+  <p><a href="encrypting-decrypting-pdf-documents#encrypting_pdf_documents_with_a_password">Encrypting PDF Documents with a Password</a></p>
+  <h3 id="remove_password_based_encryption_using_the_java_api">Remove password-based encryption using the Java API</h3>
+  <p></p>
+  <p>Remove password-based encryption from a PDF document by using the Encryption API (Java):</p>
+  <ol>
+   <li><p>Include project files. </p><p>Include client JAR files, such as the adobe-encryption-client.jar, in your Java project’s class path. </p></li>
+   <li><p>Create an encryption service client. </p>
+    <ul>
+     <li><p>Create a <span class="code">ServiceClientFactory</span> object that contains connection properties. </p></li>
+     <li><p>Create an <span class="code">EncryptionServiceClient</span> object by using its constructor and passing the <span class="code">ServiceClientFactory</span> object. </p></li>
+    </ul></li>
+   <li><p>Get the encrypted PDF document. </p>
+    <ul>
+     <li><p>Create a <span class="code">java.io.FileInputStream</span> object that represents the encrypted PDF document by using its constructor and passing a string value that specifies the location of the PDF document.</p></li>
+     <li><p>Create a <span class="code">com.adobe.idp.Document</span> object by using its constructor and passing the <span class="code">java.io.FileInputStream</span> object.</p></li>
+    </ul></li>
+   <li><p>Remove the password. </p><p>Remove password-based encryption from the PDF document by invoking the <span class="code">EncryptionServiceClient</span> object’s <span class="code">removePDFPasswordSecurity</span> method and passing the following values: </p>
+    <ul>
+     <li><p>A <span class="code">com.adobe.idp.Document</span> object that contains the encrypted PDF document. </p></li>
+     <li><p>A string value that specifies the master password value that is used to remove encryption from the PDF document.</p></li>
+    </ul><p>The <span class="code">removePDFPasswordSecurity</span> method returns a <span class="code">com.adobe.idp.Document</span> object that contains an unsecured PDF document.</p></li>
+   <li><p>Save the PDF document. </p>
+    <ul>
+     <li><p>Create a <span class="code">java.io.File</span> object and ensure that the file name extension is .pdf.</p></li>
+     <li><p>Invoke the <span class="code">com.adobe.idp.Document</span> object’s <span class="code">copyToFile</span> method to copy the contents of the <span class="code">Document</span> object to the file. Ensure that you use the <span class="code">Document</span> object that was returned by the <span class="code">removePDFPasswordSecurity</span> method. </p></li>
+    </ul></li>
+  </ol>
+  <p><strong>See also</strong></p>
+  <p><a href="/programming-with-aem-forms/encryption-service-java-api-quick#quick_start_soap_mode_removing_password_based_encryption_using_the_java_api">Quick Start (SOAP mode): Removing password-based encryption using the Java API</a></p>
+  <h3 id="remove_password_based_encryption_using_the_web_service_api">Remove password-based encryption using the web service API</h3>
+  <p></p>
+  <p>Remove password-based encryption by using the Encryption API (web service):</p>
+  <ol>
+   <li><p>Include project files. </p><p>Create a Microsoft .NET project that uses MTOM. Ensure that you use the following WSDL definition: <span class="code">http://localhost:8080/soap/services/EncryptionService?WSDL&amp;lc_version=9.0.1</span>. </p>
+    <note>
+     <p>Replace <span class="code">localhost</span> with the IP address of the server hosting AEM Forms. </p>
+    </note></li>
+   <li><p>Create an encryption service client. </p>
+    <ul>
+     <li><p>Create an <span class="code">EncryptionServiceClient</span> object by using its default constructor. </p></li>
+     <li><p>Create an <span class="code">EncryptionServiceClient.Endpoint.Address</span> object by using the <span class="code">System.ServiceModel.EndpointAddress</span> constructor. Pass a string value that specifies the WSDL to the AEM Forms service (for example, <span class="code">http://localhost:8080/soap/services/EncryptionService?WSDL</span>.) You do not need to use the <span class="code">lc_version</span> attribute. This attribute is used when you create a service reference.) </p></li>
+     <li><p>Create a <span class="code">System.ServiceModel.BasicHttpBinding</span> object by getting the value of the <span class="code">EncryptionServiceClient.Endpoint.Binding</span> field. Cast the return value to <span class="code">BasicHttpBinding</span>. </p></li>
+     <li><p>Set the <span class="code">System.ServiceModel.BasicHttpBinding</span> object’s <span class="code">MessageEncoding</span> field to <span class="code">WSMessageEncoding.Mtom</span>. This value ensures that MTOM is used. </p></li>
+     <li><p>Enable basic HTTP authentication by performing the following tasks:</p>
+      <ul>
+       <li><p>Assign the AEM forms user name to the field <span class="code">EncryptionServiceClient.ClientCredentials.UserName.UserName</span>.</p></li>
+       <li><p>Assign the corresponding password value to the field <span class="code">EncryptionServiceClient.ClientCredentials.UserName.Password</span>.</p></li>
+       <li><p>Assign the constant value <span class="code">HttpClientCredentialType.Basic</span> to the field <span class="code">BasicHttpBindingSecurity.Transport.ClientCredentialType</span>. </p></li>
+       <li><p>Assign the constant value <span class="code">BasicHttpSecurityMode.TransportCredentialOnly</span> to the field <span class="code">BasicHttpBindingSecurity.Security.Mode</span>. </p></li>
+      </ul></li>
+    </ul></li>
+   <li><p>Get the encrypted PDF document. </p>
+    <ul>
+     <li><p>Create a <span class="code">BLOB</span> object by using its constructor. The <span class="code">BLOB</span> object is used to store a password-encrypted PDF document.</p></li>
+     <li><p>Create a <span class="code">System.IO.FileStream</span> object by invoking its constructor and passing a string value that represents the file location of the encrypted PDF document and the mode in which to open the file. </p></li>
+     <li><p>Create a byte array that stores the content of the <span class="code">System.IO.FileStream</span> object. You can determine the size of the byte array by getting the <span class="code">System.IO.FileStream</span> object’s <span class="code">Length</span> property. </p></li>
+     <li><p>Populate the byte array with stream data by invoking the <span class="code">System.IO.FileStream</span> object’s <span class="code">Read</span> method and passing the byte array, the starting position, and the stream length to read.</p></li>
+     <li><p>Populate the <span class="code">BLOB</span> object by assigning the contents of the byte array to the <span class="code">BLOB</span> object’s <span class="code">MTOM</span> data member.</p></li>
+    </ul></li>
+   <li><p>Remove the password. </p><p>Invoke the <span class="code">EncryptionServiceService</span> object’s <span class="code">removePDFPasswordSecurity</span> method and pass the following values:</p>
+    <ul>
+     <li><p>The <span class="code">BLOB</span> object that contains file stream data that represents an encrypted PDF document. </p></li>
+     <li><p>A string value that specifies the password value that is used to remove encryption from the PDF document. This value is specified when encrypting the PDF document with a password.</p></li>
+    </ul><p>The <span class="code">removePDFPasswordSecurity</span> method returns a <span class="code">BLOB</span> object that contains an unsecured PDF document. </p></li>
+   <li><p>Save the PDF document. </p>
+    <ul>
+     <li><p>Create a <span class="code">System.IO.FileStream</span> object by invoking its constructor and passing a string value that represents the file location of the unsecured PDF document.</p></li>
+     <li><p>Create a byte array that stores the content of the <span class="code">BLOB</span> object that was returned by the <span class="code">removePDFPasswordSecurity</span> method. Populate the byte array by getting the value of the <span class="code">BLOB</span> object’s <span class="code">MTOM</span> data member.</p></li>
+     <li><p>Create a <span class="code">System.IO.BinaryWriter</span> object by invoking its constructor and passing the <span class="code">System.IO.FileStream</span> object.</p></li>
+     <li><p>Write the contents of the byte array to a PDF file by invoking the <span class="code">System.IO.BinaryWriter</span> object’s <span class="code">Write</span> method and passing the byte array.</p></li>
+    </ul></li>
+  </ol>
+  <p><strong>See also</strong></p>
+  <p><a href="#unresolvedlink-lc-qs-encryption-en.xml#ws624e3cba99b79e12e69a9941333732bac8-7e97.2">Quick Start (MTOM): Removing password-based encryption using the web service API</a></p>
+  <p><a href="#unresolvedlink-lc-qs-encryption-en.xml#ws624e3cba99b79e12e69a9941333732bac8-7e96.2">Quick Start (Java SWAref): Removing password-based encryption using web service API</a></p>
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_mtom">Invoking AEM Forms using MTOM</a></p>
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_swaref">Invoking AEM Forms using SwaRef</a></p>
+  <p></p>
+  <h2 id="unlocking_encrypted_pdf_documents">Unlocking Encrypted PDF Documents</h2>
+  <p></p>
+  <p>A password-encrypted or certificate-encrypted PDF document must be unlocked before another AEM Forms operation can be performed on it. If you attempt to perform an operation on an encrypted PDF document, you will generate an exception. After you unlock an encrypted PDF document, you can perform one or more operations on it. These operations can belong to other services, such as the Acrobat Reader DC extensions Service.</p>
+  <note>
+   <p>For more information about the Encryption service, see <a href="http://www.adobe.com/go/learn_aemforms_services_63">Services Reference for AEM Forms</a>.</p>
+  </note>
+  <h3 id="summary_of_steps">Summary of steps</h3>
+  <p></p>
+  <p>To unlock an encrypted PDF document, perform the following steps:</p>
+  <ol>
+   <li><p>Include project files.</p></li>
+   <li><p>Create an encryption service client. </p></li>
+   <li><p>Get the encrypted PDF document.</p></li>
+   <li><p>Unlock the document.</p></li>
+   <li><p>Perform an AEM Forms operation.</p></li>
+  </ol>
+  <p><strong>Include project files</strong></p>
+  <p>Include necessary files into your development project. If you are creating a client application using Java, include the necessary JAR files. If you are using web services, make sure that you include the proxy files.</p>
+  <p>The following JAR files must be added to your project’s class path:</p>
+  <ul>
+   <li><p>adobe-livecycle-client.jar</p></li>
+   <li><p>adobe-usermanager-client.jar</p></li>
+   <li><p>adobe-encryption-client.jar</p></li>
+   <li><p>adobe-utilities.jar (required if AEM Forms is deployed on JBoss Application Server)</p></li>
+   <li><p>jbossall-client.jar (required if AEM Forms is deployed on JBoss Application Server)</p></li>
+  </ul>
+  <p><strong>Create an encryption service client </strong></p>
+  <p>To programmatically perform an Encryption service operation, you must create an Encryption service client. If you are using the Java Encryption Service API, create an <span class="code">EncrytionServiceClient</span> object. If you are using the web service Encryption Service API, create an <span class="code">EncryptionServiceService</span> object.</p>
+  <p><strong>Get the encrypted PDF document</strong></p>
+  <p>You must obtain an encrypted PDF document in order to unlock it. If you attempt to unlock a PDF document that is not encrypted, an exception is thrown. </p>
+  <p><strong>Unlock the document</strong></p>
+  <p>To unlock a password-encrypted PDF document, you require both an encrypted PDF document and a password value that is used to open a password-encrypted PDF document. This value is specified when encrypting the PDF document with a password. (See <a href="encrypting-decrypting-pdf-documents#encrypting_pdf_documents_with_a_password">Encrypting PDF Documents with a Password</a>.)</p>
+  <p>To unlock a certificate-encrypted PDF document, you require both an encrypted PDF document and the alias value of the public key that corresponds to the private key that was used to encrypt the PDF document.</p>
+  <p><strong>Perform an AEM Forms operation</strong></p>
+  <p>After an encrypted PDF document is unlocked, you can perform another service operation on it, such as applying usage rights to it. This operation belongs to the Acrobat Reader DC Extensions service.</p>
+  <p><strong>See also</strong></p>
+  <p><a href="encrypting-decrypting-pdf-documents#unlock_an_encrypted_pdf_document_using_the_java_api">Unlock an encrypted PDF document using the Java API</a></p>
+  <p><a href="encrypting-decrypting-pdf-documents#unlock_an_encrypted_pdf_document_using_the_web_service_api">Unlock an encrypted PDF document using the web service API</a></p>
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p>
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p>
+  <p><a href="/programming-with-aem-forms/encryption-service-java-api-quick#encryption_service_java_api_quick_start_soap">Encryption Service API Quick Starts</a></p>
+  <h3 id="unlock_an_encrypted_pdf_document_using_the_java_api">Unlock an encrypted PDF document using the Java API</h3>
+  <p></p>
+  <p>Unlock an encrypted PDF document by using the Encryption API (Java):</p>
+  <ol>
+   <li><p>Include project files. </p><p>Include client JAR files, such as adobe-encryption-client.jar, in your Java project’s class path. </p></li>
+   <li><p>Create an encryption service client. </p>
+    <ul>
+     <li><p>Create a <span class="code">ServiceClientFactory</span> object that contains connection properties.</p></li>
+     <li><p>Create an <span class="code">EncryptionServiceClient</span> object by using its constructor and passing the <span class="code">ServiceClientFactory</span> object.</p></li>
+    </ul></li>
+   <li><p>Get the encrypted PDF document. </p>
+    <ul>
+     <li><p>Create a <span class="code">java.io.FileInputStream</span> object that represents the encrypted PDF document by using its constructor and passing a string value that specifies the location of the encrypted PDF document.</p></li>
+     <li><p>Create a <span class="code">com.adobe.idp.Document</span> object by using its constructor and passing the <span class="code">java.io.FileInputStream</span> object.</p></li>
+    </ul></li>
+   <li><p>Unlock the document.</p><p>Unlock an encrypted PDF document by invoking the <span class="code">EncryptionServiceClient</span> object’s <span class="code">unlockPDFUsingPassword</span> or <span class="code">unlockPDFUsingCredential</span> method.</p><p>To unlock a PDF document that is encrypted with a password, invoke the <span class="code">unlockPDFUsingPassword</span> method and pass the following values:</p>
+    <ul>
+     <li><p>A <span class="code">com.adobe.idp.Document</span> object that contains the password-encrypted PDF document. </p></li>
+     <li><p>A string value that specifies the password value that is used to open a password-encrypted PDF document. This value is specified when encrypting the PDF document with a password.</p></li>
+    </ul><p>To unlock a PDF document that is encrypted with a certificate, invoke the <span class="code">unlockPDFUsingCredential</span> method and pass the following values:</p>
+    <ul>
+     <li><p>A <span class="code">com.adobe.idp.Document</span> object that contains the certificate-encrypted PDF document. </p></li>
+     <li><p>A string value that specifies the alias name of the public key that corresponds to the private key used to encrypt the PDF document. </p></li>
+    </ul><p>The <span class="code">unlockPDFUsingPassword</span> and <span class="code">unlockPDFUsingCredential</span> methods both return a <span class="code">com.adobe.idp.Document</span> object that you pass to another AEM Forms Java method to perform an operation. </p></li>
+   <li><p>Perform a AEM Forms operation. </p><p>Perform a AEM Forms operation on the unlocked PDF document to meet your business requirements. For example, assuming that you want to apply usage rights to an unlocked PDF document, pass the <span class="code">com.adobe.idp.Document</span> object that was returned by either the <span class="code">unlockPDFUsingPassword</span> or <span class="code">unlockPDFUsingCredential</span> methods to the <span class="code">ReaderExtensionsServiceClient</span> object’s <span class="code">applyUsageRights</span> method. </p></li>
+  </ol>
+  <p><strong>See also</strong></p>
+  <p><a href="encrypting-decrypting-pdf-documents#summary_of_steps">Summary of steps</a></p>
+  <p><a href="/programming-with-aem-forms/encryption-service-java-api-quick#quick_start_soap_mode_unlocking_an_encrypted_pdf_document_using_the_java_api">Quick Start (SOAP mode): Unlocking an encrypted PDF document using the Java API</a> (SOAP mode)</p>
+  <p><a href="/programming-with-aem-forms/assigning-usage-rights#applying_usage_rights_to_pdf_documents">Applying Usage Rights to PDF Documents</a></p>
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p>
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p>
+  <h3 id="unlock_an_encrypted_pdf_document_using_the_web_service_api">Unlock an encrypted PDF document using the web service API</h3>
+  <p></p>
+  <p>Unlock an encrypted PDF document by using the Encryption API (web service):</p>
+  <ol>
+   <li><p>Include project files. </p><p>Create a Microsoft .NET project that uses MTOM. Ensure that you use the following WSDL definition: <span class="code">http://localhost:8080/soap/services/EncryptionService?WSDL&amp;lc_version=9.0.1</span>. </p>
+    <note>
+     <p>Replace <span class="code">localhost</span> with the IP address of the server hosting AEM Forms. </p>
+    </note></li>
+   <li><p>Create an encryption service client. </p>
+    <ul>
+     <li><p>Create an <span class="code">EncryptionServiceClient</span> object by using its default constructor. </p></li>
+     <li><p>Create an <span class="code">EncryptionServiceClient.Endpoint.Address</span> object by using the <span class="code">System.ServiceModel.EndpointAddress</span> constructor. Pass a string value that specifies the WSDL to the AEM Forms service (for example, <span class="code">http://localhost:8080/soap/services/EncryptionService?WSDL</span>.) You do not need to use the <span class="code">lc_version</span> attribute. This attribute is used when you create a service reference.) </p></li>
+     <li><p>Create a <span class="code">System.ServiceModel.BasicHttpBinding</span> object by getting the value of the <span class="code">EncryptionServiceClient.Endpoint.Binding</span> field. Cast the return value to <span class="code">BasicHttpBinding</span>. </p></li>
+     <li><p>Set the <span class="code">System.ServiceModel.BasicHttpBinding</span> object’s <span class="code">MessageEncoding</span> field to <span class="code">WSMessageEncoding.Mtom</span>. This value ensures that MTOM is used. </p></li>
+     <li><p>Enable basic HTTP authentication by performing the following tasks:</p>
+      <ul>
+       <li><p>Assign the AEM forms user name to the field <span class="code">EncryptionServiceClient.ClientCredentials.UserName.UserName</span>.</p></li>
+       <li><p>Assign the corresponding password value to the field <span class="code">EncryptionServiceClient.ClientCredentials.UserName.Password</span>.</p></li>
+       <li><p>Assign the constant value <span class="code">HttpClientCredentialType.Basic</span> to the field <span class="code">BasicHttpBindingSecurity.Transport.ClientCredentialType</span>. </p></li>
+       <li><p>Assign the constant value <span class="code">BasicHttpSecurityMode.TransportCredentialOnly</span> to the field <span class="code">BasicHttpBindingSecurity.Security.Mode</span>. </p></li>
+      </ul></li>
+    </ul></li>
+   <li><p>Get an encrypted PDF document. </p>
+    <ul>
+     <li><p>Create a <span class="code">BLOB</span> object by using its constructor. </p></li>
+     <li><p>Create a <span class="code">System.IO.FileStream</span> object by invoking its constructor and passing a string value that represents the file location of the encrypted PDF document and the mode in which to open the file. </p></li>
+     <li><p>Create a byte array that stores the content of the <span class="code">System.IO.FileStream</span> object. You can determine the size of the byte array by getting the <span class="code">System.IO.FileStream</span> object’s <span class="code">Length</span> property. </p></li>
+     <li><p>Populate the byte array with stream data by invoking the <span class="code">System.IO.FileStream</span> object’s <span class="code">Read</span> method and passing the byte array, the starting position, and the stream length to read.</p></li>
+     <li><p>Populate the <span class="code">BLOB</span> object by assigning the contents of the byte array to the <span class="code">BLOB</span> object’s <span class="code">MTOM</span> data member.</p></li>
+    </ul></li>
+   <li><p>Unlock the document. </p><p>Unlock an encrypted PDF document by invoking the <span class="code">EncryptionServiceClient</span> object’s <span class="code">unlockPDFUsingPassword</span> or <span class="code">unlockPDFUsingCredential</span> method.</p><p>To unlock a PDF document that is encrypted with a password, invoke the <span class="code">unlockPDFUsingPassword</span> method and pass the following values:</p>
+    <ul>
+     <li><p>A <span class="code">BLOB</span> object that contains the password-encrypted PDF document. </p></li>
+     <li><p>A string value that specifies the password value that is used to open a password-encrypted PDF document. This value is specified when encrypting the PDF document with a password.</p></li>
+    </ul><p>To unlock a PDF document that is encrypted with a certificate, invoke the <span class="code">unlockPDFUsingCredential</span> method and pass the following values:</p>
+    <ul>
+     <li><p>A <span class="code">BLOB</span> object that contains the certificate-encrypted PDF document.</p></li>
+     <li><p>A string value that specifies the alias name of the public key that corresponds to the private key used to encrypt the PDf document. </p></li>
+    </ul><p>The <span class="code">unlockPDFUsingPassword</span> and <span class="code">unlockPDFUsingCredential</span> methods both return a <span class="code">com.adobe.idp.Document</span> object that you pass to another AEM Forms method to perform an operation. </p></li>
+   <li><p>Perform a AEM Forms operation. </p><p>Perform a AEM Forms operation on the unlocked PDF document to meet your business requirements. For example, assuming that you want to apply usage rights to the unlocked PDF document, pass the <span class="code">BLOB</span> object that was returned by either the <span class="code">unlockPDFUsingPassword</span> or <span class="code">unlockPDFUsingCredential</span> methods to the <span class="code">ReaderExtensionsServiceClient</span> object’s <span class="code">applyUsageRights</span> method. </p></li>
+  </ol>
+  <p><strong>See also</strong></p>
+  <p><a href="encrypting-decrypting-pdf-documents#summary_of_steps">Summary of steps</a></p>
+  <p><a href="#unresolvedlink-lc-qs-encryption-en.xml#ws624e3cba99b79e12e69a9941333732bac8-7e88.2">Quick Start (MTOM): Unlocking an encrypted PDF document using the web service API</a></p>
+  <p><a href="#unresolvedlink-lc-qs-encryption-en.xml#ws624e3cba99b79e12e69a9941333732bac8-7e87.2">Quick Start (Java SwaRef): Unlocking an encrypted PDF document using the web service API</a></p>
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_mtom">Invoking AEM Forms using MTOM</a></p>
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_swaref">Invoking AEM Forms using SwaRef</a></p>
+  <p></p>
+  <h2 id="determining_encryption_type">Determining Encryption Type</h2>
+  <p></p>
+  <p>You can programmatically determine the type of encryption that is protecting a PDF document by using the Java Encryption Service API or the web service Encryption Service API. Sometimes it is necessary to dynamically determine whether a PDF document is encrypted and, if so, the encryption type. For example, you can determine whether a PDF document is protected with password-based encryption or a Rights Management policy. </p>
+  <p>A PDF document can be protected by the following encryption types:</p>
+  <ul>
+   <li><p>Password-based encryption</p></li>
+   <li><p>Certificate-based encryption</p></li>
+   <li><p>A policy that is created by the Rights Management service</p></li>
+   <li><p>Another type of encryption</p></li>
+  </ul>
+  <note>
+   <p>For more information about the Encryption service, see <a href="http://www.adobe.com/go/learn_aemforms_services_63">Services Reference for AEM Forms</a>.</p>
+  </note>
+  <h3 id="summary_of_steps">Summary of steps</h3>
+  <p></p>
+  <p>To determine the type of encryption that is protecting a PDF document, perform the following steps:</p>
+  <ol>
+   <li><p>Include project files.</p></li>
+   <li><p>Create an encryption service client. </p></li>
+   <li><p>Get the encrypted PDF document.</p></li>
+   <li><p>Determine the encryption type.</p></li>
+  </ol>
+  <p><strong>Include project files</strong></p>
+  <p>Include necessary files into your development project. If you are creating a client application using Java, include the necessary JAR files. If you are using web services, ensure that you include the proxy files.</p>
+  <p>The following JAR files must be added to your project’s class path:</p>
+  <ul>
+   <li><p>adobe-livecycle-client.jar</p></li>
+   <li><p>adobe-usermanager-client.jar</p></li>
+   <li><p>adobe-encryption-client.jar</p></li>
+   <li><p>adobe-utilities.jar (required if AEM Forms is deployed on JBoss Application Server)</p></li>
+   <li><p>jbossall-client.jar (required if AEM Forms is deployed on JBoss Application Server)</p></li>
+  </ul>
+  <p><strong>Create a service client </strong></p>
+  <p>To programmatically perform an Encryption service operation, you must create an Encryption service client. If you are using the Java Encryption Service API, create an <span class="code">EncrytionServiceClient</span> object. If you are using the web service Encryption Service API, create an <span class="code">EncryptionServiceService</span> object.</p>
+  <p><strong>Get the encrypted PDF document</strong></p>
+  <p>You must obtain a PDF document to determine the type of encryption that is protecting it. </p>
+  <p><strong>Determine the encryption type</strong></p>
+  <p>You can determine the type of encryption that is protecting a PDF document. If the PDF document is not protected, then the Encryption service informs you that the PDF document is not secured. </p>
+  <p><strong>See also</strong></p>
+  <p><a href="encrypting-decrypting-pdf-documents#determine_the_encryption_type_using_the_java_api">Determine the encryption type using the Java API</a></p>
+  <p><a href="encrypting-decrypting-pdf-documents#determine_the_encryption_type_using_the_web_service_api">Determine the encryption type using the web service API</a></p>
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p>
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p>
+  <p><a href="/programming-with-aem-forms/encryption-service-java-api-quick#encryption_service_java_api_quick_start_soap">Encryption Service API Quick Starts</a></p>
+  <p><a href="/programming-with-aem-forms/protecting-documents-policies#protecting_documents_with_policies">Protecting Documents with Policies</a></p>
+  <p></p>
+  <h3 id="determine_the_encryption_type_using_the_java_api">Determine the encryption type using the Java API</h3>
+  <p></p>
+  <p>Determine the type of encryption that is protecting a PDF document by using the Encryption API (Java):</p>
+  <ol>
+   <li><p>Include project files. </p><p>Include client JAR files, such as adobe-encryption-client.jar, in your Java project’s class path. </p></li>
+   <li><p>Create a service client. </p>
+    <ul>
+     <li><p>Create a <span class="code">ServiceClientFactory</span> object that contains connection properties. </p></li>
+     <li><p>Create an <span class="code">EncryptionServiceClient</span> object by using its constructor and passing the <span class="code">ServiceClientFactory</span> object.</p></li>
+    </ul></li>
+   <li><p>Get the encrypted PDF document. </p>
+    <ul>
+     <li><p>Create a <span class="code">java.io.FileInputStream</span> object that represents the PDF document by using its constructor and passing a string value that specifies the location of the PDF document.</p></li>
+     <li><p>Create a <span class="code">com.adobe.idp.Document</span> object by using its constructor and passing the <span class="code">java.io.FileInputStream</span> object.</p></li>
+    </ul></li>
+   <li><p>Determine the encryption type. </p>
+    <ul>
+     <li><p>Determine the encryption type by invoking the <span class="code">EncryptionServiceClient</span> object’s <span class="code">getPDFEncryption</span> method and passing the<span class="code">com.adobe.idp.Document</span> object that contains the PDF document. This method returns an <span class="code">EncryptionTypeResult</span> object. </p></li>
+     <li><p>Invoke the <span class="code">EncryptionTypeResult</span> object’s <span class="code">getEncryptionType</span> method. This method returns an <span class="code">EncryptionType</span> enum value that specifies the encryption type. For example, if the PDF document is protected with password-based encryption, this method returns <span class="code">EncryptionType.PASSWORD</span>. </p></li>
+    </ul></li>
+  </ol>
+  <p><strong>See also</strong></p>
+  <p><a href="encrypting-decrypting-pdf-documents#summary_of_steps">Summary of steps</a></p>
+  <p><a href="/programming-with-aem-forms/encryption-service-java-api-quick#quick_start_soap_mode_determining_encryption_type_using_the_java_api">Quick Start (SOAP mode): Determining encryption type using the Java API</a></p>
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p>
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p>
+  <h3 id="determine_the_encryption_type_using_the_web_service_api">Determine the encryption type using the web service API</h3>
+  <p></p>
+  <p>Determine the type of encryption that is protecting a PDF document by using the Encryption API (web service):</p>
+  <ol>
+   <li><p>Include project files. </p><p>Create a Microsoft .NET project that uses MTOM. Ensure that you use the following WSDL definition: <span class="code">http://localhost:8080/soap/services/EncryptionService?WSDL&amp;lc_version=9.0.1</span>. </p>
+    <note>
+     <p>Replace <span class="code">localhost</span> with the IP address of the server hosting AEM Forms. </p>
+    </note></li>
+   <li><p>Create a service client. </p>
+    <ul>
+     <li><p>Create an <span class="code">EncryptionServiceClient</span> object by using its default constructor. </p></li>
+     <li><p>Create an <span class="code">EncryptionServiceClient.Endpoint.Address</span> object by using the <span class="code">System.ServiceModel.EndpointAddress</span> constructor. Pass a string value that specifies the WSDL to the AEM Forms service (for example, <span class="code">http://localhost:8080/soap/services/EncryptionService?WSDL</span>.) You do not need to use the <span class="code">lc_version</span> attribute. This attribute is used when you create a service reference.) </p></li>
+     <li><p>Create a <span class="code">System.ServiceModel.BasicHttpBinding</span> object by getting the value of the <span class="code">EncryptionServiceClient.Endpoint.Binding</span> field. Cast the return value to <span class="code">BasicHttpBinding</span>. </p></li>
+     <li><p>Set the <span class="code">System.ServiceModel.BasicHttpBinding</span> object’s <span class="code">MessageEncoding</span> field to <span class="code">WSMessageEncoding.Mtom</span>. This value ensures that MTOM is used. </p></li>
+     <li><p>Enable basic HTTP authentication by performing the following tasks:</p>
+      <ul>
+       <li><p>Assign the AEM forms user name to the field <span class="code">EncryptionServiceClient.ClientCredentials.UserName.UserName</span>.</p></li>
+       <li><p>Assign the corresponding password value to the field <span class="code">EncryptionServiceClient.ClientCredentials.UserName.Password</span>.</p></li>
+       <li><p>Assign the constant value <span class="code">HttpClientCredentialType.Basic</span> to the field <span class="code">BasicHttpBindingSecurity.Transport.ClientCredentialType</span>. </p></li>
+       <li><p>Assign the constant value <span class="code">BasicHttpSecurityMode.TransportCredentialOnly</span> to the field <span class="code">BasicHttpBindingSecurity.Security.Mode</span>. </p></li>
+      </ul></li>
+    </ul></li>
+   <li><p>Get the encrypted PDF document. </p>
+    <ul>
+     <li><p>Create a <span class="code">BLOB</span> object by using its constructor. </p></li>
+     <li><p>Create a <span class="code">System.IO.FileStream</span> object by invoking its constructor and passing a string value that represents the file location of the encrypted PDF document and the mode in which to open the file. </p></li>
+     <li><p>Create a byte array that stores the content of the <span class="code">System.IO.FileStream</span> object. You can determine the size of the byte array by getting the <span class="code">System.IO.FileStream</span> object’s <span class="code">Length</span> property. </p></li>
+     <li><p>Populate the byte array with stream data by invoking the <span class="code">System.IO.FileStream</span> object’s <span class="code">Read</span> method and passing the byte array, the starting position, and the stream length to read.</p></li>
+     <li><p>Populate the <span class="code">BLOB</span> object by assigning the contents of the byte array to the <span class="code">BLOB</span> object’s <span class="code">MTOM</span> data member.</p></li>
+    </ul></li>
+   <li><p>Determine the encryption type. </p>
+    <ul>
+     <li><p>Invoke the <span class="code">EncryptionServiceClient</span> object’s <span class="code">getPDFEncryption</span> method and pass the <span class="code">BLOB</span> object that contains the PDF document. This method returns an <span class="code">EncryptionTypeResult</span> object. </p></li>
+     <li><p>Get the value of the <span class="code">EncryptionTypeResult</span> object’s <span class="code">encryptionType</span> data method. For example, if the PDF document is protected with password-based encryption, the value of this data member is <span class="code">EncryptionType.PASSWORD</span>. </p></li>
+    </ul></li>
+  </ol>
+  <p><strong>See also</strong></p>
+  <p><a href="encrypting-decrypting-pdf-documents#summary_of_steps">Summary of steps</a></p>
+  <p><a href="#unresolvedlink-lc-qs-encryption-en.xml#ws624e3cba99b79e12e69a9941333732bac8-7e83.2">Quick Start (MTOM): Determining encryption type using the web service API</a></p>
+  <p><a href="#unresolvedlink-lc-qs-encryption-en.xml#ws624e3cba99b79e12e69a9941333732bac8-7e82.2">Quick Start (Java SWAref): Determining encryption type using the web service API</a></p>
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_mtom">Invoking AEM Forms using MTOM</a></p>
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_swaref">Invoking AEM Forms using SwaRef</a></p>
+  <p></p>
+ </body>
+</html>

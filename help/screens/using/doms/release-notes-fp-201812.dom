@@ -1,0 +1,60 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="" name="jcr:primaryType" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SCREENS;content_type:reference;topic_tags:release-notes" name="cq:tags" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="/content/help/en/experience-manager/6-4/screens/morehelp/release-notes;/content/help/en/experience-manager/6-4/screens/morehelp/release-notes" name="moreHelpPaths" />
+  <meta content="en" name="pageCreatedAt" />
+  <meta content="true" name="noIndex" />
+  <meta content="2019-01-16T12:01:44.783-0500" name="cq:lastModified" />
+  <meta content="jsyal" name="contentOwner" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2019-01-15T15:39:11.746-0500" name="jcr:created" />
+  <meta content="2019-01-16T12:01:44.772-0500" name="publishExternalDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="c41a9f54-82c6-4f44-84ef-aa040a459ba4" name="jcr:predecessors" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SCREENS" name="primaryProductTag" />
+  <meta content="3f1b9151-bafe-48eb-967f-f206fde6a0cf" name="jcr:uuid" />
+  <meta content="2019-01-16T12:01:44.772-0500" name="firstPublishExternalDate" />
+  <meta content="Release Notes for Feature Pack 201812" name="jcr:title" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2019-01-16T12:01:44.772-0500" name="topicBrowsingSortDate" />
+  <meta content="2019-01-16T12:01:44.772-0500" name="lastPublishExternalDate" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/screens/using/release-notes-fp-201812.html" name="publishExternalURL" />
+  <meta content="Follow this page to get information for AEM Screens Feature Pack 201812 released on January 16, 2019." name="seoDescription" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="jsyal@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="jsyal" name="cq:lastReplicatedBy" />
+  <meta content="jsyal" name="cq:lastModifiedBy" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2019-01-16T12:01:44.826-0500" name="cq:lastReplicated" />
+ </head>
+ <body>
+  <p>The AEM Screens released AEM 6.3 Feature Pack 5 and AEM 6.4 Feature Pack 3 with the following details.</p> 
+  <h3>Release Date</h3>
+  <p>The Release Date for AEM Screens Feature Pack 201812 is January 16, 2019.</p> 
+  <h3>What's New</h3>
+  <ul> 
+   <li><strong>Text Overlay on Assets in Channel</strong>:<br /> Text Overlay is a feature available in AEM Screens that allows you to create a compelling experience in a Sequence Channel by providing a title or a description overlaid on top of an image. Please refer to <a href="../../screens/using/text-overlay.md"><strong>Text Overlay</strong></a> to learn more.</li> 
+   <li><strong>Multi-asset Scheduling</strong>:<br /> Multi-asset Scheduling allows the user to select multiple assets and apply a playback schedule to all selected assets. Please refer to <strong>Multi-Asset Scheduling </strong>section in<strong> <a href="../../screens/using/asset-level-scheduling.md">Asset Scheduling</a></strong> to learn more.</li> 
+   <li><strong>Multi-zone Layout</strong>:<br /> Multi-zone Layout allows you to create multiple zone content and use a variety of assets such as videos, images, and text that can be combined in a single screen. Please refer to <strong><a href="../../screens/using/multi-zone-layout-aem-screens.md">Multi-zone Layout</a></strong> to learn more.</li> 
+   <li><strong>Smart Syncing of Assets to Players</strong></li> 
+   <li><strong>Author / Publish deployment (Hardening)</strong></li> 
+  </ul> 
+  <h3>Released AEM Screens Players</h3>
+  <p>The following AEM Screens Players are released for AEM 6.3 Feature Pack 5 and AEM 6.4 Feature Pack 3:</p> 
+  <ul> 
+   <li>ChromeOS</li> 
+   <li>Windows</li> 
+   <li>Android</li> 
+   <li>iOS</li> 
+  </ul> 
+  <h4>AEM Screens Player Downloads</h4>
+  <p>To download the latest AEM Screens player and learn more about the bug fixes, please refer to <a href="https://download.macromedia.com/screens/"><strong>AEM Screens Player Downloads</strong></a>.</p> 
+ </body>
+</html>

@@ -1,0 +1,102 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="/content/docs/en/aem/6-3/develop/communities/essentials/liking" name="qaNotes" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="mix:lockable;mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES" name="primaryProductTag" /> 
+  <meta content="Liking Essentials" name="navTitle" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="361e22be-34c2-42da-b217-0da2f9b5f438" name="jcr:predecessors" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2018-04-03T07:42:16.249-0400" name="publishExternalDate" /> 
+  <meta content="2017-10-31T16:33:38.727-0400" name="firstPublishExternalDate" /> 
+  <meta content="Liking Essentials" name="jcr:title" /> 
+  <meta content="Liking Essentials" name="seoTitle" /> 
+  <meta content="d096342d-c354-4de2-bd8e-8dd4e2c99294" name="jcr:uuid" /> 
+  <meta content="msm-service" name="contentOwner" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2017-12-01T19:01:04.733-0500" name="jcr:created" /> 
+  <meta content="2018-04-03T07:42:17.426-0400" name="cq:lastReplicated" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES;topic_tags:developing;content_type:reference" name="cq:tags" /> 
+  <meta content="2018-04-03T07:42:16.249-0400" name="lastPublishExternalDate" /> 
+  <meta content="dist5" name="distType" /> 
+  <meta content="2018-05-17T05:52:13.908-0400" name="locHandOffDate" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="Liking Essentials" name="pageTitle" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="Liking component overview" name="seoDescription" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2018-04-03T07:42:16.249-0400" name="topicBrowsingSortDate" /> 
+  <meta content="2018-05-17T05:52:13.909-0400" name="cq:lastModified" /> 
+  <meta content="light" name="gnavTheme" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/communities/using/essentials-liking.html" name="publishExternalURL" /> 
+ </head> 
+ <body> 
+  <p>The liking component, a <a href="../../communities/using/tally.md">tally</a> subclass, is a useful tool that allows members to express a positive opinion about a particular piece of content by simply selecting the heart icon.</p> 
+  <p>Placing multiple instances of a liking component on the same page is allowed; each instance must be configured with an unique <span class="code">tally name</span> property.</p> 
+  <p>Anonymous posting of a like is not supported. Site visitors must register and sign in to participate in liking. The signed in visitor (member) may toggle like on and off at any time.</p> 
+  <h2>Essentials for Client-Side</h2> 
+  <table border="1" cellpadding="4" cellspacing="4" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td> <strong>resourceType</strong></td> 
+     <td>social/tally/components/hbs/liking</td> 
+    </tr> 
+    <tr> 
+     <td> <a href="../../communities/using/scf.md#addorincludeacommunitiescomponent"><strong>includable</strong></a></td> 
+     <td>Yes - properties are editable in <i>design </i>mode</td> 
+    </tr> 
+    <tr> 
+     <td> <a href="../../communities/using/client-customize.md#clientlibsforscf"><strong>clientlibs</strong></a></td> 
+     <td> cq.social.hbs.liking</td> 
+    </tr> 
+    <tr> 
+     <td> <strong>templates</strong></td> 
+     <td><p> /libs/social/tally/components/hbs/liking/liking.hbs<br /> /libs/social/tally/components/hbs/liking/activity-icon.hbs<br /> /libs/social/tally/components/hbs/liking/activity-title.hbs</p> </td> 
+    </tr> 
+    <tr> 
+     <td><strong>CSS</strong></td> 
+     <td> /libs/social/tally/components/hbs/liking/clientlibs/likingcomponent.css</td> 
+    </tr> 
+    <tr> 
+     <td><strong>properties</strong></td> 
+     <td><p>see <a href="../../communities/using/liking.md">Using Liking</a></p> </td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <ul> 
+   <li><a href="../../communities/using/client-customize.md">Client-side Customizations</a></li> 
+  </ul> 
+  <h2>Essentials for Server-Side</h2> 
+  <ul> 
+   <li><a href="/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/tally/client/api/package-summary">Tally APIs</a></li> 
+  </ul> 
+  <ul> 
+   <li><a href="/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/tally/client/endpoints/package-summary">Tally Endpoints</a></li> 
+  </ul> 
+  <ul> 
+   <li><a href="../../communities/using/server-customize.md">Server-side Customizations</a></li> 
+  </ul> 
+  <h3>Accessing Posted Voting (UGC)</h3> 
+  <p>UGC should be moderated using one of the standard methods for moderation.<br /> See <a href="../../communities/using/moderate-ugc.md">Moderating User Generated Content</a>.</p> 
+  <p>As of AEM 6.1 Communities, use of a <a href="../../communities/using/working-with-srp.md">common store</a> for UGC includes programmatic access to UGC regardless of the chosen storage option (such as ASRP, MSRP or JSRP).</p> 
+  <p><strong>The location and format of the UGC in the repository is subject to change without warning</strong>.</p> 
+  <p>See :</p> 
+  <ul> 
+   <li><a href="../../communities/using/srp.md">Storage Resource Provider Overview</a> - introduction and repository usage overview</li> 
+   <li><a href="../../communities/using/srp-and-ugc.md">SRP and UGC Essentials</a> - SRP utility methods and examples</li> 
+   <li><a href="../../communities/using/accessing-ugc-with-srp.md">Accessing UGC with SRP</a> - coding guidelines</li> 
+   <li><a href="../../communities/using/socialutils.md">SocialUtils Refactoring</a> - mapping deprecated utility methods to current SRP utility methods</li> 
+  </ul> 
+ </body> 
+</html>

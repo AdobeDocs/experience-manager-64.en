@@ -1,0 +1,144 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="sortDate" /> 
+  <meta content="admin" name="contentOwner" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="Configuring Connector for EMC Documentum" name="navTitle" /> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="2016-05-31T06:55:46.286-0400" name="acrolinxDate" /> 
+  <meta content="2018-04-03T09:09:36.065-0400" name="cq:lastReplicated" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2017-10-31T16:32:32.318-0400" name="publishExternalDate" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="admin" name="lr_creator" /> 
+  <meta content="2017-10-31T16:32:32.318-0400" name="lastPublishExternalDate" /> 
+  <meta content="admin" name="lr_lastModifiedBy" /> 
+  <meta content="2018-04-26T04:24:53.271-0400" name="cq:lastModified" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2018-04-26T04:24:53.271-0400" name="locHandOffDate" /> 
+  <meta content="64" name="acrolinxSentences" /> 
+  <meta content="5d7268eb-afc8-4e7d-a582-37a8b7578e83" name="jcr:uuid" /> 
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="f3b42ccd-10e8-4a8e-91ab-77a48bda6681" name="jcr:predecessors" /> 
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/connecting_to_a_content_management_system;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="topicBrowsingSortDate" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/using/morehelp/connecting_to_a_content_management_system;/content/help/en/experience-manager/6-4/forms/using/morehelp/connecting_to_a_content_management_system" name="moreHelpPaths" /> 
+  <meta content="Learn how to configure the Connector for EMC Documentum to enable communication between AEM forms and EMC Documentum." name="seoDescription" /> 
+  <meta content="1009" name="acrolinxWords" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/configuring_connector_emc_documentum_admin_5e12de0b318c6865_2283_report.xml" name="acrolinxReportURL" /> 
+  <meta content="2016-02-05T03:27:16.224-0500" name="lr_lastModified" /> 
+  <meta content="2016-04-20T10:01:51.377-0400" name="firstPublishExternalDate" /> 
+  <meta content="2017-12-01T19:05:56.649-0500" name="jcr:created" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/forms/using/admin-help/configuring-connector-emc-documentum.html" name="publishExternalURL" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="Configuring Connector for EMC Documentum" name="jcr:title" /> 
+  <meta content="AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7f23.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7f37.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7f2b.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7f2a.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-e1e885412905cdee74-7ff4.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7f31.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7f28.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7f27.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7f26.2,AEMForms/6.1/AdminHelp/WS196e8398323ca8ae-cdc9af130d2501f4e-8000.2" name="cq:gepId" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+ </head> 
+ <body> 
+  <p>Connector for EMC Documentum enables communication between AEM forms and EMC Documentum. For additional background information, see "Connectors for ECM" in <a href="http://www.adobe.com/go/learn_aemforms_services_63">Services Reference</a>.</p> 
+  <p>Setting up Connector for EMC Documentum involves configuring the server connection and the repository credentials.</p> 
+  <note> 
+   <p>In earlier releases , assets could be stored in an ECM repository. In the current release, assets are stored in the AEM forms native repository and the Repository Provider services have been deprecated. The migration of assets from an ECM repository to the AEM forms repository is done when you perform an upgrade to AEM forms. For more information, see the AEM forms Upgrade guide for your application server.</p> 
+  </note> 
+  <h2 id="configuring_the_server_connection">Configuring the server connection</h2> 
+  <p></p> 
+  <p>This topic describes the tasks for Connector for EMC Documentum that you can perform on the Configuration Settings page.</p> 
+  <note> 
+   <p>If you are configuring all of the settings simultaneously, you only need to click Save once.</p> 
+  </note> 
+  <h3 id="configure_the_server">Configure the server</h3> 
+  <p></p> 
+  <p>You need to configure the connection broker server information. This information is necessary for connecting to the Documentum content repositories and starting the Connector for EMC Documentum.</p> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; Connector for EMC Documentum &amp;gt; Configuration Settings.</p></li> 
+   <li><p>In the Documentum Configuration Information area, enter the host name or IP address and the port number of the connection broker. The port number must be a positive integer (for example, 1489).</p></li> 
+   <li><p>Click Save.</p></li> 
+  </ol> 
+  <h3 id="configure_principal_credentials">Configure principal credentials</h3> 
+  <p></p> 
+  <p>When configuring the principal credentials, the repository name you provide depends on whether an explicit repository name is provided during login.</p> 
+  <p>If you enter an incorrect user name or password, you will get the following results, depending on whether the service is currently running: </p> 
+  <ul> 
+   <li><p>If both the EMC Documentum Repository Provider service and the EMC Documentum Content Repository Connector service are stopped, when you save the service configuration information, no error appears. However, the next time you start the service, an exception will be thrown and the service will not start.</p> </li> 
+   <li><p>If either the EMC Documentum Repository Provider service or the EMC Documentum Content Repository Connector service are started, when you save the service configuration information, the service attempts to validate the credential information immediately. In this case, an error occurs and the configuration information is not saved.</p> </li> 
+  </ul> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; Connector for EMC Documentum &amp;gt; Configuration Settings.</p> </li> 
+   <li><p>In the Documentum Principal Credentials Information area, type the user name and password of a user with super-administrator privileges.</p> </li> 
+   <li><p>If an explicit repository name is not provided during login, enter the repository name that the credentials are associated with.</p> </li> 
+   <li><p>Click Save.</p> </li> 
+  </ol> 
+  <h3 id="change_the_repository_service_provider">Change the repository service provider</h3> 
+  <p></p> 
+  <p>You can configure which repository service provider to use with Documentum. Repository service calls are delegated to the provider you configure. The following options are available:</p> 
+  <p><strong>Current Repository Service Provider Name:</strong> The name of the current repository service provider</p> 
+  <p><strong>ECM Documentum Repository Provider:</strong> Makes the Documentum repository provider the provider for the repository. This option has been deprecated</p> 
+  <p><strong>repository provider:</strong> Makes the native repository provider the provider for the repository</p> 
+  <p><em><strong>Note</strong>: To select a repository service provider other than those listed, configure RepositoryService in Applications and Services &gt; Service Management. (See <a href="/forms/using/admin-help/topics/managing-services" target="_blank">Managing Services</a>.)</em></p> 
+  <ol> 
+   <li><p>In administration console, click Services &gt; Connector for EMC Documentum &gt; Configuration Settings.</p> </li> 
+   <li><p>In the Repository Service Provider Information area, select the alternative repository service provider.</p> </li> 
+   <li><p>Click Save.</p> </li> 
+  </ol> 
+  <h2 id="configuring_repository_credentials">Configuring repository credentials</h2> 
+  <p></p> 
+  <p>The Documentum credential information is used in the AEM forms system context. Repository credentials are specific to particular repositories in Documentum. You can provide credentials for any number of repositories; however, you can specify only one set of credentials per repository. </p> 
+  <h3 id="add_a_repository_credential">Add a repository credential</h3> 
+  <p></p> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; Connector for EMC Documentum &amp;gt; Repository Credentials Settings.</p></li> 
+   <li><p>Click Add. The Documentum System Credentials Information page appears.</p></li> 
+   <li><p>Enter a name for the repository.</p></li> 
+   <li><p>Enter a user name and password.</p></li> 
+   <li><p>Click Save.</p></li> 
+  </ol> 
+  <p>If the Content Repository Connector for EMC Documentum service and/or the Repository Service for EMC Documentum are running, the credential information is verified against the specified repository before is stored in the database. If the credentials are invalid or exist, an error message is displayed.</p> 
+  <h3 id="remove_a_repository_credential">Remove a repository credential</h3> 
+  <p></p> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; Connector for EMC Documentum &amp;gt; Configuration Settings.</p></li> 
+   <li><p>Select the check box next to the repository to remove credentials from and click Remove. The credentials for the selected repository are removed from the database.</p></li> 
+  </ol> 
+  <h3 id="change_the_user_name_and_password_for_a_repository_credential">Change the user name and password for a repository credential</h3> 
+  <p></p> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; Connector for EMC Documentum &amp;gt; Configuration Settings.</p></li> 
+   <li><p>Click the name of the repository to edit credentials for.</p></li> 
+   <li><p>Change the repository’s user name or password, or both. (The repository name is read-only.)</p></li> 
+   <li><p>Click Save.</p></li> 
+  </ol> 
+  <p>If the Content Repository Connector for EMC Documentum service and/or the Repository Service for EMC Documentum are running, the credential information is verified against the specified repository before is stored in the database. If the credentials are invalid or exist, an error message is displayed.</p> 
+  <h2 id="enable_the_request_for_sharing_of_workspace_task_queues">Enable the request for sharing of Workspace task queues</h2> 
+  <p></p> 
+  <p>Some manual steps are required to ensure that the Request for Sharing of Task Queue feature in Workspace functions properly with Connector for EMC Documentum.</p> 
+  <ol> 
+   <li><p>After AEM forms is deployed and Workbench is installed, log in to Workbench and open the Resources view. You will determine where the QueueSharing.swf file is located from this view.</p></li> 
+   <li><p>Drag the QueueSharing.swf file from the Resources View to the Windows desktop or an equivalent location, depending on your operating system.</p></li> 
+   <li><p>In administration console, click Services &amp;gt; Connector for EMC Documentum &amp;gt; Configuration Settings.</p></li> 
+   <li><p>Under Repository Service Provider Information, change the configured repository provider to EMC Documentum Repository Provider.</p></li> 
+   <li><p>Start Workbench and copy the QueueSharing.swf file from the location where you originally copied it to (for example, the Windows desktop or another location) into an existing directory inside the EMC Documentum repository.</p></li> 
+   <li><p>In the Workbench Processes view, open the Queue Sharing process. </p></li> 
+   <li><p>In the Variables view, open the properties of the "theForm" variable and change the URI to match the path where you placed the QueueSharing.swf file in step 5.</p></li> 
+   <li><p>Save the process.</p></li> 
+   <li><p>Migrate the process to the production environment according to your organization's policy.</p></li> 
+  </ol> 
+ </body> 
+</html>

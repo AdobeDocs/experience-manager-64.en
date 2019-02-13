@@ -1,0 +1,152 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2018-05-08T12:40:29.127-0400" name="locHandOffDate" /> 
+  <meta content="325c96cd-fe09-48b4-95f1-aa218021a516" name="jcr:uuid" /> 
+  <meta content="/content/docs/en/aem/6-3/develop/personalization/contexthub/ch-adding" name="qaNotes" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2017-10-31T16:17:18.684-0400" name="firstPublishExternalDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:personalization;content_type:reference" name="cq:tags" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/ch-adding.html" name="publishExternalURL" /> 
+  <meta content="2018-01-19T19:01:23.711-0500" name="jcr:created" /> 
+  <meta content="bohnert" name="cq:lastModifiedBy" /> 
+  <meta content="audience:developing" name="primaryAudienceTag" /> 
+  <meta content="User" name="contentOwner" /> 
+  <meta content="0b4bb312-67de-4842-b92c-96d156600ce0" name="jcr:predecessors" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="Adding ContextHub to Pages and Accessing Stores" name="jcr:title" /> 
+  <meta content="2018-04-03T09:00:05.645-0400" name="cq:lastReplicated" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2018-01-18T11:18:10.001-0500" name="publishExternalDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="Adding ContextHub to Pages and Accessing Stores" name="seoTitle" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="Adding ContextHub to Pages and Accessing Stores" name="navTitle" /> 
+  <meta content="2018-05-08T12:40:29.128-0400" name="cq:lastModified" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="Add ContextHub to your pages to enable the ContextHub features and to link to the ContextHub Javascript libraries" name="seoDescription" /> 
+  <meta content="2018-01-18T11:18:10.001-0500" name="topicBrowsingSortDate" /> 
+  <meta content="2018-01-18T11:18:10.001-0500" name="lastPublishExternalDate" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/morehelp/personalization;/content/help/en/experience-manager/6-4/sites/developing/morehelp/personalization" name="moreHelpPaths" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+ </head> 
+ <body> 
+  <p>Add ContextHub to your pages to enable the ContextHub features and to link to the ContextHub Javascript libraries</p> 
+  <p>The ContextHub Javascript API provides access to the context data that ContextHub manages. This page briefly describes the main features of the API for acessing and manipulating context data. Follow links to the API reference documentation to see detailed information and code examples. </p> 
+  <h2>Adding ContextHub to a Page Component</h2> 
+  <p>To enable the ContextHub features and to link to the ContextHub Javascript libraries, include the contexthub component in the <span class="code">head</span> section of your page. The JSP code for your page component resembles the following example:</p> 
+  <codeblock class="syntax xml">
+    &lt;head&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;sling:include&amp;nbsp;path="contexthub"&amp;nbsp;resourceType="granite/contexthub/components/contexthub"&amp;nbsp;/&gt;!!discoiqbr!!&lt;/head&gt; 
+  </codeblock> 
+  <p>Note that you also need to configure whether the ContextHub toolbar appears in Preview mode. See <a href="../../../sites/administering/using/contexthub-config.md#main-pars-title">Showing and Hiding the ContextHub UI</a>.</p> 
+  <h2>About ContextHub Stores</h2> 
+  <p>Use ContextHub stores to persist context data. ContextHub provides the following types of stores that form the basis of all store types:</p> 
+  <ul> 
+   <li><a href="../../../sites/developing/using/contexthub-api.md#main-pars-title-2">PersistedStore</a></li> 
+   <li><a href="../../../sites/developing/using/contexthub-api.md#main-pars-title-3">SessionStore</a></li> 
+   <li><a href="../../../sites/developing/using/contexthub-api.md#main-pars-title-1">JSONPStore</a></li> 
+   <li><a href="../../../sites/developing/using/contexthub-api.md#main-pars-title-2">PersistedJSONPStore</a></li> 
+  </ul> 
+  <p>All store types are extensions of the <a href="../../../sites/developing/using/contexthub-api.md#main-pars-title"><span class="code">ContextHub.Store.Core</span></a> class. For information about creating a new store type, see <a href="../../../sites/developing/using/ch-extend.md#main-pars-title">Creating Custom Stores</a>. For information about sample store types, see <a href="../../../sites/developing/using/ch-samplestores.md">Sample ContextHub Store Candidates</a>.</p> 
+  <h3>Persistence Modes</h3> 
+  <p>Context Hub stores use one of the following persistence modes:</p> 
+  <ul> 
+   <li><strong>Local:</strong> Uses HTML5 localStorage to persist data. Local storage is persisted on the browser across sessions.</li> 
+   <li><strong>Session:</strong> Uses HTML5 sessionStorage to persist data. Session storage is persisted for the duration of the browser session and is available to all browser windows.</li> 
+   <li><strong>Cookie:</strong> Uses the browser's native support of cookies for data storage. Cookie data is sent to and from the server in HTTP requests.</li> 
+   <li><strong>Window.name:</strong> Uses the window.name property to persist data. </li> 
+   <li><strong>Memory:</strong> Uses a Javascript object to persist data. </li> 
+  </ul> 
+  <p>By default, Context Hub uses the Local persistence mode. If the browser does not support or allow HTML5 localStorage, Session persistence is used. If the browser does not support or allow HTML5 sessionStorage, Window.name persistence is used. </p> 
+  <h3>Store Data</h3> 
+  <p>Internally, store data forms a tree structure, enabling values to be added as primary types or complex objects. When you add complex objects to stores, the object properties form branches in the data tree. For example, the following complex object is added to an empty store named location:</p> 
+  <codeblock class="syntax xml">
+    Object&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;number:&amp;nbsp;321,!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;data:&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;city:&amp;nbsp;"Basel",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;country:&amp;nbsp;"Switzerland",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;details:&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;population:&amp;nbsp;173330,!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;elevation:&amp;nbsp;260!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!} 
+  </codeblock> 
+  <p>The tree structure of the store data can be conceptualized as follows:</p> 
+  <codeblock class="syntax xml">
+    /!!discoiqbr!!|-&amp;nbsp;number!!discoiqbr!!|-&amp;nbsp;data!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;city!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;country!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;details!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;population!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;elevation 
+  </codeblock> 
+  <p>The tree structure defines data items in the store as key/value pairs. In the above example, the key <span class="code">/number</span> corresponds with the value <span class="code">321</span>, and the key <span class="code">/data/country</span> corresponds with the value <span class="code">Switzerland</span>.</p> 
+  <h3>Manipulating Objects</h3> 
+  <p>ContextHub provides the <a href="../../../sites/developing/using/contexthub-api.md#main-pars-title-38"><span class="code">ContextHub.Utils.JSON.tree</span></a> class for manipulating Javascript objects. Use the functions of this class for manipulating Javascript objects before you add them to a store, or after you obtain them from a store.<a href="../../../sites/developing/using/contexthub-api.md#main-pars-title-38"></a></p> 
+  <p>Additionally, the <a href="../../../sites/developing/using/contexthub-api.md#main-pars-title-39"><span class="code">ContextHub.Utils.JSON</span></a> class provides functions for serializing objects to stings, and deserializing strings to objects. Use this class for handling JSON data to support browsers that do not natively include the <span class="code">JSON.parse</span> and <span class="code">JSON.stringify</span> functions.</p>  
+  <h2>Interacting with ContextHub Stores</h2> 
+  <p>Use the <a href="../../../sites/developing/using/contexthub-api.md#main-pars-title-930406431"><span class="code">ContextHub</span></a> Javascript object to obtain a store as a Javascript object. Once you obtain the store object you can manipulate the data that it contains. Use the <a href="../../../sites/developing/using/contexthub-api.md#main-pars-title-2025351617"><span class="code">getAllStores</span></a> or the <a href="../../../sites/developing/using/contexthub-api.md#main-pars-title-494079455"><span class="code">getStore</span></a> function to obtain the store.</p> 
+  <h3>Accessing Store Data</h3> 
+  <p>The <a href="../../../sites/developing/using/contexthub-api.md#main-pars-title"><span class="code">ContexHub.Store.Core</span></a> Javascript class defines several functions for interacting with store data. The following functions store and retrieve multiple data items that are contained in objects:</p> 
+  <ul> 
+   <li><a href="../../../sites/developing/using/contexthub-api.md#main-pars-title-8">addAllItems</a></li> 
+   <li><a href="../../../sites/developing/using/contexthub-api.md#main-pars-title-15">getTree</a></li> 
+  </ul> 
+  <p>Individual data items are stored as a set of key/value pairs. To store and retrieve values you specify the corresponding key:</p> 
+  <ul> 
+   <li><a href="../../../sites/developing/using/contexthub-api.md#main-pars-title-12">getItem</a></li> 
+   <li><a href="../../../sites/developing/using/contexthub-api.md#main-pars-title-24">setItem</a></li> 
+  </ul> 
+  <p>Note that custom store candidates can define additional functions that provide access to store data.</p> 
+  <note> 
+   <p>ContextHub is not by default aware of the currently logged in used on publish servers and such users are regarded by ContextHub as “Anonymous.”</p> 
+   <p>You can make ContextHub aware of logged in users by loading the profile store as implemented in the <a href="../../../sites/developing/using/we-retail.md">We.Retail reference site</a>. Refer to the <a href="https://github.com/Adobe-Marketing-Cloud/aem-sample-we-retail/blob/master/ui.apps/src/main/content/jcr_root/apps/weretail/components/structure/header/clientlib/js/utilities.js">relevant code on GitHub here</a>.</p> 
+  </note> 
+  <h3>ContextHub Eventing</h3> 
+  <p>ContextHub includes an event framework that enables you to automatically react to store events. Each store object contains a <a href="../../../sites/developing/using/contexthub-api.md#main-pars-title-574450215"><span class="code">ContextHub.Utils.Eventing</span></a> object that is available as the store's <a href="../../../sites/developing/using/contexthub-api.md#main-pars-title-62"><span class="code">eventing</span></a> property. Use the <a href="../../../sites/developing/using/contexthub-api.md#main-pars-title-1653326109"><span class="code">on</span></a> or <a href="../../../sites/developing/using/contexthub-api.md#main-pars-title-401556000"><span class="code">once</span></a> function to bind a Javascript function to a store event.</p> 
+  <h2>Using Context Hub to Manipulate Cookies</h2> 
+  <p>The Context Hub Javascript API provides cross-browser support for handling browser cookies. The <a href="../../../sites/developing/using/contexthub-api.md#main-pars-title-29"><span class="code">ContextHub.Utils.Cookie</span></a> namespace defines several functions for creating, manipulating, and deleting cookies.</p> 
+  <h2>Determining Resolved ContextHub Segments</h2> 
+  <p>The ContextHub segment engine enables you to determine which of the registered segments are resolved in the current context. Use the getResolvedSegments function of the <a href="../../../sites/developing/using/contexthub-api.md#main-pars-title-442765428"><span class="code">ContextHub.SegmentEngine.SegmentManager</span></a> class to retrieve resolved segments. Then, use the <span class="code">getName</span> or <span class="code">getPath</span> function of the <a href="../../../sites/developing/using/contexthub-api.md#main-pars-title-117223142"><span class="code">ContextHub.SegmentEngine.Segment</span></a> class to test for a segment.</p> 
+  <h3>Installed Segments</h3> 
+  <p>ContextHub segments are installed below the <span class="code">/etc/segmentation/contexthub</span> node.</p> 
+  <ul> 
+   <li>female</li> 
+   <li>female-over-30<br _rte_temp_br="brEOB" /> </li> 
+   <li>female-under-30<br _rte_temp_br="brEOB" /> </li> 
+   <li>male</li> 
+   <li>male-over-30<br _rte_temp_br="brEOB" /> </li> 
+   <li>male-under-30<br _rte_temp_br="brEOB" /> </li> 
+   <li>order-value-75-to-100<br _rte_temp_br="brEOB" /> </li> 
+   <li>order-value-over-100<br _rte_temp_br="brEOB" /> </li> 
+   <li>over-30</li> 
+   <li>summer<br _rte_temp_br="brEOB" /> </li> 
+   <li>summer-female<br _rte_temp_br="brEOB" /> </li> 
+   <li>summer-female-over-30<br _rte_temp_br="brEOB" /> </li> 
+   <li>summer-female-under-30<br _rte_temp_br="brEOB" /> </li> 
+   <li>summer-male<br _rte_temp_br="brEOB" /> </li> 
+   <li>summer-male-over-30<br _rte_temp_br="brEOB" /> </li> 
+   <li>summer-male-under-30<br _rte_temp_br="brEOB" /> </li> 
+   <li>under-30<br _rte_temp_br="brEOB" /> </li> 
+   <li>winter<br _rte_temp_br="brEOB" /> </li> 
+   <li>winter-female<br _rte_temp_br="brEOB" /> </li> 
+   <li>winter-female-over-30<br _rte_temp_br="brEOB" /> </li> 
+   <li>winter-female-under-30<br _rte_temp_br="brEOB" /> </li> 
+   <li>winter-male<br _rte_temp_br="brEOB" /> </li> 
+   <li>winter-male-over-30<br _rte_temp_br="brEOB" /> </li> 
+   <li>winter-male-under-20</li> 
+  </ul> 
+  <p>The rules that are used to resolve these segments are summarized as follows:</p> 
+  <ul> 
+   <li>Female or male is determined from the <span class="code">gender</span> data item of the <a href="../../../sites/developing/using/ch-samplestores.md#main-pars-title-222346835">profile</a> store.</li> 
+   <li>Age is determined from the age data item of the profile store.</li> 
+   <li>Season is determined from the the latitude data item of the <a href="../../../sites/developing/using/ch-samplestores.md#main-pars-title-1304151477">geolocation</a> store, and the month data item of the surferinfo store.</li> 
+  </ul> 
+  <h2>Logging Debug Messages for ContextHub</h2> 
+  <p>Configure the Adobe Granite ContextHub OSGi service (PID = <span class="code">com.adobe.granite.contexthub.impl.ContextHubImpl</span>) to log detailed Debug messages that are useful when developing.</p> 
+  <p>To configure the service you can either use the <a href="../../../sites/deploying/using/configuring-osgi.md#main-pars-title-104">Web Console</a> or use a <a href="../../../sites/deploying/using/configuring-osgi.md#main-pars-par11">JCR node in the repository</a>:</p> 
+  <ul> 
+   <li>Web Console: To log Debug messages, select the Debug property.</li> 
+   <li>JCR node: To log Debug messages, set the boolean <span class="code">com.adobe.granite.contexthub.debug</span> property to <span class="code">true</span>.</li> 
+  </ul> 
+  <h2>See an Overview of the ContextHub Framework</h2> 
+  <p>ContextHub provides a <a href="../../../sites/developing/using/ch-diagnostics.md">diagnostics page</a> where you can see an overview of the ContextHub framework.</p> 
+ </body> 
+</html>

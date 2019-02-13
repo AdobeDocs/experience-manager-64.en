@@ -1,0 +1,101 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:integration;content_type:reference" name="cq:tags" />
+  <meta content="User" name="contentOwner" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="/content/help/en/experience-manager/6-4/sites/administering/morehelp/integration;/content/help/en/experience-manager/6-4/sites/administering/morehelp/integration" name="moreHelpPaths" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="Learn about the AEM Product Feed." name="seoDescription" />
+  <meta content="2018-04-03T07:06:28.023-0400" name="topicBrowsingSortDate" />
+  <meta content="33fd8d8b-3b4c-45e0-807f-5288e8e5dd85" name="jcr:uuid" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="Product Feed" name="navTitle" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-04-03T07:06:28.240-0400" name="cq:lastReplicated" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/product-feed.html" name="publishExternalURL" />
+  <meta content="2017-12-01T19:04:32.345-0500" name="jcr:created" />
+  <meta content="2017-10-31T16:24:29.541-0400" name="firstPublishExternalDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="18bef05f-9b0c-4e2d-a249-24a3286b5db8" name="jcr:predecessors" />
+  <meta content="2018-04-03T07:06:28.023-0400" name="publishExternalDate" />
+  <meta content="Product Feed" name="jcr:title" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="audience:administering" name="primaryAudienceTag" />
+  <meta content="2018-04-26T10:12:18.874-0400" name="cq:lastModified" />
+  <meta content="2018-04-26T10:12:18.874-0400" name="locHandOffDate" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-04-03T07:06:28.023-0400" name="lastPublishExternalDate" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" />
+  <meta content="Product Feed" name="seoTitle" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" />
+  <meta content="/content/docs/en/aem/6-3/administer/integration/marketing-cloud/search-and-promote/product-feed" name="qaNotes" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+ </head>
+ <body>
+  <p>AEM integrates with <a href="http://www.adobe.com/solutions/testing-targeting/searchandpromote.html">Search&amp;Promote</a> and allows you to:</p> 
+  <ul> 
+   <li>use the eCommerce API, independently of the underlying repository structure and commerce platform.</li> 
+   <li>leverage the Index Connector feature of Search&amp;Promote to provide a product feed in XML format.</li> 
+   <li>leverage the Remote Control feature of Search&amp;Promote to perform on-demand or scheduled requests of the product feed</li> 
+   <li>feed generation for different Search&amp;Promote accounts, configured as cloud services configurations.</li> 
+  </ul> 
+  <p>You need to have a valid acount and to <a href="../../../sites/administering/using/search-and-promote.md#configuringtheconnectiontosearchpromote">configure the connection to Search&amp;Promote</a>. You also have to verify that you are using the correct <a href="../../../sites/administering/using/search-and-promote.md#configuringthedatacenter">data center</a> and make sure that the <strong>Remote server URI </strong>is configured.</p> 
+  <h2>Set up the Product Feed</h2>
+  <p>You first have to enter a web site root and an identifier attribute. To do this:</p> 
+  <ol>
+   <li><p>Navigate to your Search&amp;Promote configuration.</p> </li>
+   <li><p>Click <strong>Edit</strong>.</p> </li>
+   <li><p>Click the <strong>Index Connector Feed Configuration</strong> tab.</p> </li>
+   <li><p>Enter the <strong>Web site root</strong> and <strong>Identifier attribute</strong>.</p> 
+    <note>
+     <p>The <strong>Web site root</strong> is the root of your eCommerce website, for example <span class="code">/content/geometrixx-outdoors/en</span>.</p> 
+     <p>The <strong>Identifier attribute</strong> is a JCR property that uniquely identifies the product: <span class="code">identifier</span>.</p> 
+    </note></li>
+   <li><p>Click <strong>OK</strong>.</p> </li>
+  </ol>
+  <p>Then you also have to edit two configurations in the Web Console before you can generate product feeds.</p> 
+  <h3>Configuring the Day CQ Search&amp;Promote Products Crawler Implementation for Geometrixx</h3>
+  <ol>
+   <li><p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12.222222328186035px;">Navigate to <a href="http://localhost:4502/system/console/configMgr">http://localhost:4502/system/console/configMgr</a>.</p> </li>
+   <li><p>Click <strong>Day CQ Search&amp;Promote products crawler implementation for Geometrixx</strong>.</p> </li>
+   <li><p>Specify the Search&amp;Promote account number that this crawler is linked to. It will be used to look up the cloud services configuration used by this crawler.</p> </li>
+   <li><p>Click <strong>Save</strong>.</p> </li>
+  </ol>
+  <h3>Configuring the Day CQ Search&amp;Promote Products Feed Generator for Geometrixx</h3>
+  <ol>
+   <li><p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12.222222328186035px;">Navigate to <a href="http://localhost:4502/system/console/configMgr">http://localhost:4502/system/console/configMgr</a>.</p> </li>
+   <li><p>Click <strong>Day CQ Search&amp;Promote products feed generator for Geometrixx</strong>.</p> </li>
+   <li><p>Specify the Search&amp;Promote account number that this generator is linked to. It will be used to look up the cloud services configuration used by this generator.</p> </li>
+   <li><p>Click <strong>Save</strong>.</p> </li>
+  </ol>
+  <h2>Schedule the Product Feed</h2>
+  <p>To enable scheduled feed generation, you must configure a scheduler for it.<br /> A scheduler is configured as a child configuration of your specific Search&amp;Promote cloud services configuration.</p> 
+  <ol>
+   <li><p>Navigate to your Search&amp;Promote configuration.</p> </li>
+   <li><p>Click <strong>+</strong> next to <strong>Scheduler configuration</strong>.</p> </li>
+   <li><p>Enter a <strong>Title</strong> that is recognizable to page authors, and a unique <strong>Name</strong>.</p> </li>
+   <li><p>Click <strong>Create</strong>. A dialog opens.</p> <img imageRotate="0" src="assets/chlimage_1-115.png" /></li>
+   <li><p>Enter the <strong>Remote Control Password</strong>. It is the password you configured in your Search&amp;Pronote account.</p> 
+    <note>
+     <p>This is not the password to your Search&amp;Promote account. You can find and change this password by logging into your Search&amp;Promote account and going to <strong>Index</strong> and then to <strong>Remote control</strong>.</p> 
+    </note></li>
+   <li><p>Check <strong>Enable schedule</strong> box.</p> </li>
+   <li><p>Select a <strong>Schedule</strong>. It is the actual feed generation schedule.</p> </li>
+   <li><p>Enable the <strong>On-demand indexing</strong> or not. This feature is used to manually call the Search&amp;Promote index. If <strong>Request full products feed</strong> is checked, Search&amp;Promote will request a full products feed. Otherwise, an incremental products feed is requested.</p> 
+    <note>
+     <p>The on-demand indexing feature makes use of the Remote Control feature of Search&amp;Promote. When a remote indexing is called, the indexing will not start immediately, but an indexing request will be posted to Search&amp;Promote using the remote control feature.</p> 
+    </note></li>
+   <li><p>Click <strong>OK</strong>.</p> </li>
+  </ol>
+  <p>Now that you configured everything, you can see an XML page containing all the products under the configured web site root: <a href="http://localhost:4502/etc/commerce/searchpromote/feed/full">http://localhost:4502/etc/commerce/searchpromote/feed/full</a>.</p> 
+ </body>
+</html>

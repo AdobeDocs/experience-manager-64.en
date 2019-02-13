@@ -1,0 +1,278 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/administering/morehelp/personalization;/content/help/en/experience-manager/6-4/sites/administering/morehelp/personalization" name="moreHelpPaths" /> 
+  <meta content="2018-04-26T10:12:19.344-0400" name="cq:lastModified" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/personalization.html" name="publishExternalURL" /> 
+  <meta content="Personalization" name="jcr:title" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2018-04-26T10:12:19.344-0400" name="locHandOffDate" /> 
+  <meta content="Personalization" name="navTitle" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="Personalization" name="seoTitle" /> 
+  <meta content="/content/docs/en/aem/6-3/administer/personalization/personalization" name="qaNotes" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:personalization;content_type:reference" name="cq:tags" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="Guillaume Carlino" name="contentOwner" /> 
+  <meta content="2017-10-31T16:24:29.907-0400" name="firstPublishExternalDate" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="b38ffc40-b53e-44f6-a3b0-46e5b76bfe52" name="jcr:uuid" /> 
+  <meta content="7a4ad49b-e948-45d5-af5d-6927efb57cca" name="jcr:predecessors" /> 
+  <meta content="2017-12-01T19:05:51.562-0500" name="jcr:created" /> 
+  <meta content="2018-04-03T07:06:27.616-0400" name="publishExternalDate" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2018-04-03T07:06:27.616-0400" name="topicBrowsingSortDate" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="Learn about personalization in AEM." name="seoDescription" /> 
+  <meta content="2018-04-03T07:06:27.736-0400" name="cq:lastReplicated" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="2018-04-03T07:06:27.616-0400" name="lastPublishExternalDate" /> 
+  <meta content="audience:administering" name="primaryAudienceTag" /> 
+ </head> 
+ <body> 
+  <h2>What is Personalization?</h2> 
+  <p>There is an ever-increasing volume of content available today, be it on internet, extranet, or intranet websites.</p> 
+  <p>Personalization centers on providing the user with a tailor-made environment displaying dynamic content that is selected according to their specific needs; be this on the basis of predefined profiles, user selection, or interactive user behavior.</p> 
+  <p>There are three main elements involved in personalization:</p> 
+  <p><strong>Users</strong></p> 
+  <ul> 
+   <li>have profiles, both individual and group. These profiles contain characteristics (such as job description, location, interests) which can be used to personalize the content they can see.</li> 
+   <li>take actions. These can then be analyzed and matched against behavior rules to tailor the content they see.</li> 
+  </ul> 
+  <p><strong>Content</strong></p> 
+  <ul> 
+   <li>is what the user wants to see. Preferably content of interest and use to them for fulfilling their tasks.</li> 
+   <li>can be categorized, and therefore made available to users according to predefined rules.must be dynamic; in other words the content </li> 
+   <li>must, in some way, be dependent upon the user - if every user would see the same content, then personalization would be redundant.</li> 
+  </ul> 
+  <p><strong>Rules</strong></p> 
+  <ul> 
+   <li>define how personalization actually happens - which content the user can see, and when.</li> 
+  </ul> 
+  <p></p> 
+  <p> </p> 
+  <p>Personalization can be either:</p> 
+  <p><strong>Explicit</strong></p> 
+  <ul> 
+   <li>Customization: whereby the user makes selections from a choice of content sources.</li> 
+  </ul> 
+  <p><strong>Implicit</strong></p> 
+  <ul> 
+   <li>Rules based: business managers define specific rules for actions based upon specific profiles and/or behavior.</li> 
+   <li>Simple filtering: selections are made on the basis of predefined profiles at user and/or group level.</li> 
+   <li>Collaborative / recommendation filtering: user behavior is registered according to predefined rules. These rules are based on behavior observed with like-minded individuals. The information collected is used to tailor the information displayed to the user, particularly in the form of recommendations.</li> 
+  </ul> 
+  <p></p> 
+  <h2>How and when can Personalization be used?</h2> 
+  <p>Personalization can be used in many cases, for example:</p> 
+  <p><strong> Intranet pages</strong></p> 
+  <ul> 
+   <li>Content can be proffered based on the location, department, and/or role of a user - already defined within an internal network.</li> 
+   <li>Dependent on the choice available, the user can make further selections.</li> 
+  </ul> 
+  <p><strong>Specific, limited, target user groups (extranets)</strong></p> 
+  <ul> 
+   <li>Users require a login for authorization; this will be linked to a profile providing information required for personalization; possibly details such as their location, relationship to the product, usage history, budgeting responsibilities, etc.</li> 
+   <li>Such instances can range over sites such as:</li> 
+   <li>Companies which provide websites to a highly specialized section of their market e.g. a pharmaceutical company providing a specialized website for physicians.</li> 
+   <li>Companies which provide websites allowing their customer to view current account and billing information; for example telephone providers.<strong></strong></li> 
+  </ul> 
+  <p><strong>Sales and Distribution website</strong></p> 
+  <ul> 
+   <li>Sales and distribution websites, such as Amazon, can combine a user profile, the user's sales history and their browsing history to make suggestions as to what might interest the user next.</li> 
+  </ul> 
+  <p><strong>Search websites</strong></p> 
+  <ul> 
+   <li>Many of the major search engine websites have very powerful analytical tools which record user behavior, the search terms they use and the websites they actually visit. This is then used to customize the content provided - particularly with regard to displaying advertisements.</li> 
+  </ul> 
+  <p></p> 
+  <h4>Strengths of Personalization and Points to Consider</h4> 
+  <p> The following are reasons why personalization should be used:</p> 
+  <ul> 
+   <li><p>A user can experience a comfortable, focused website.</p> </li> 
+   <li><p>Personalization can be used to automatically propagate access to the latest version of content.</p> </li> 
+   <li><p>Social collaboration features are available for users to communicate with each other, as they can be identified by their profiles.</p> </li> 
+   <li><p>A user can be provided with the content they need to fulfill a particular task. Within a company's intranet this can provide an invaluable tool for disseminating information.</p> </li> 
+   <li><p>A user can be provided with the content they need/want, thus reducing the time they need to perform search operations.</p> </li> 
+   <li><p>The content provider can steer the content to be seen by specific categories of users.</p> </li> 
+   <li><p>Rules can be defined to deliver content based on combinations of both user characteristics and behavior. This provides a sophisticated mechanism for personalizing their web-experience.</p> </li> 
+  </ul> 
+  <p> When using personalization, consider the following:</p> 
+  <p><strong>Performance</strong></p> 
+  <ul> 
+   <li>Naturally the extra analysis and evaluation has an impact on performance. However, the methods used are highly sophisticated and can be optimized to minimize the impact.</li> 
+  </ul> 
+  <p><strong>Authorization</strong></p> 
+  <ul> 
+   <li>Personalization requires a login mechanism as the website must be able to identify the user.</li> 
+  </ul> 
+  <p><strong>Caching</strong></p> 
+  <ul> 
+   <li>Caching is an aspect which the user will see in terms of performance and accuracy - how quickly does the website deliver personalized content, and is it always current.</li> 
+   <li>Caching is a key consideration when configuring personalization and time must be taken to ensure that the correct implementation is used. This will be discussed in more detail later.</li> 
+  </ul> 
+  <p><strong>Accuracy of Rules</strong></p> 
+  <ul> 
+   <li>Personalization realized by tracking the user's behavior, or setting rules based on the user's profile, must be accurate and logical.</li> 
+   <li>There is nothing more frustrating to the user than having content forced upon, or denied to, them because of the inaccurate logic of a rule.</li> 
+   <li>Therefore rules must be well thought-out - with the user's requirements in the foreground. This can take a lot of effort, and is not to be under-estimated; defining the business rules often outweighs the technical effort when implementing personalization.</li> 
+  </ul> 
+  <p><strong>When to use</strong></p> 
+  <ul> 
+   <li>Like many features on the web, personalization should be used with care. Will its use really benefit the user? should always be the first consideration - or whether the desired goal can be achieved with less effort by another method. Personalization can run the risk of being a feature that users configure once (to see how it works) and only once - as it brings them no real advantages.</li> 
+   <li>Personalization is only meaningful when the content is dynamic - dependent on the user in some way. If all users see the same content, then the personalization is redundant.</li> 
+  </ul> 
+  <p><strong>Confidentiality</strong></p> 
+  <ul> 
+   <li>Many users are concerned about Data Protection and Security. In particular concerning data retrieved when tracking their behavior when surfing the web.</li> 
+  </ul> 
+  <p></p> 
+  <h2>Personalization and Access</h2> 
+  <p>Personalization should be considered separately from access control, but they do interrelate.</p> 
+  <p>Personalization itself does not create any form of access control. It is simply a method of steering what the user sees; it does not restrict the user from accessing other content and as with any content, they need to have the correct access controls already assigned.</p> 
+  <p>However, access control can be used to create a form of personalization. If you allow or deny a user access to content, this inevitably affects the choice of content that they have available - thus personalizing their web-experience.</p> 
+  <h2>Components available for Personalization</h2> 
+  <p>Various components are provided with AEM for personalization. Some allow users to log in and edit their profiles, others (like My Gadgets) allow the users to configure a specific page:</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td>Title in Sidekick</td> 
+     <td>Purpose</td> 
+    </tr> 
+    <tr> 
+     <td>Checked Password Field</td> 
+     <td>Requests password and confirmation of password.</td> 
+    </tr> 
+    <tr> 
+     <td>Combined Sign-in Sign-up</td> 
+     <td>Allows the user to either sign in to an existing account, or to sign up for a new account.</td> 
+    </tr> 
+    <tr> 
+     <td>Forms Address Field</td> 
+     <td>A complex field allowing the input of an international address.</td> 
+    </tr> 
+    <tr> 
+     <td>Forms Begin</td> 
+     <td>Starts a form definition</td> 
+    </tr> 
+    <tr> 
+     <td>Forms Captcha</td> 
+     <td>A field consisting of an alphanumeric word that refreshes automatically. The captcha component protects websites against bots.</td> 
+    </tr> 
+    <tr> 
+     <td>Forms Checkbox Group</td> 
+     <td>Multiple items organized into a list and preceded by check boxes. Users can select multiple check boxes.</td> 
+    </tr> 
+    <tr> 
+     <td>Forms Dropdown List</td> 
+     <td>Multiple items organized into a drop-down list. The Multi Selectable switch specifies if several elements can be selected from the list.</td> 
+    </tr> 
+    <tr> 
+     <td>Forms End</td> 
+     <td>Terminates the form definition.</td> 
+    </tr> 
+    <tr> 
+     <td>Forms File Upload</td> 
+     <td>An upload element that allows the user to upload a file to the server.</td> 
+    </tr> 
+    <tr> 
+     <td>Forms Hidden Field</td> 
+     <td>This field is not displayed to the user. It can be used to transport a value to the client and back to the server. This field should have no constraints.</td> 
+    </tr> 
+    <tr> 
+     <td>Forms Image Button</td> 
+     <td>An additional submit button for the form that is rendered as an image.</td> 
+    </tr> 
+    <tr> 
+     <td>Forms Password Field</td> 
+     <td>Same as text field but only a single line is allowed and the text input from the user is not visible in the field.</td> 
+    </tr> 
+    <tr> 
+     <td>Forms Radio Group</td> 
+     <td>Multiple items organized into a list preceded by a radio button. Users must select only one radio button.</td> 
+    </tr> 
+    <tr> 
+     <td>Forms Submit Button</td> 
+     <td>An additional submit button for the form where the title is displayed as text on the button.</td> 
+    </tr> 
+    <tr> 
+     <td>Forms Text Field</td> 
+     <td>Text field that allows users to enter information.</td> 
+    </tr> 
+    <tr> 
+     <td>My Gadgets</td> 
+     <td>Allows you to include one of a selection of gadgets available.</td> 
+    </tr> 
+    <tr> 
+     <td>Profile Avatar Photo</td> 
+     <td>Allows input of an Avatar Photo.</td> 
+    </tr> 
+    <tr> 
+     <td>Profile Detailed Name</td> 
+     <td>Input of name details, including elements such as title, middle name and suffix if required.</td> 
+    </tr> 
+    <tr> 
+     <td>Profile Display Name</td> 
+     <td>Name to be displayed.</td> 
+    </tr> 
+    <tr> 
+     <td>Profile E-mail</td> 
+     <td>Input of an e-mail address.</td> 
+    </tr> 
+    <tr> 
+     <td>Profile Gender</td> 
+     <td>Allows input of the gender.</td> 
+    </tr> 
+    <tr> 
+     <td>Profile Primary Phonenumber</td> 
+     <td>Allows input of a telephone number.</td> 
+    </tr> 
+    <tr> 
+     <td>Profile Primary URL</td> 
+     <td>Allows input of a URL.</td> 
+    </tr> 
+    <tr> 
+     <td>Profile General Text property</td> 
+     <td>Profile properties.</td> 
+    </tr> 
+    <tr> 
+     <td>Sign-in</td> 
+     <td>Allows you to submit a username and password when logging in.</td> 
+    </tr> 
+    <tr> 
+     <td>Sign out</td> 
+     <td>Indicates the user currently logged in, and gives you a link to log out.</td> 
+    </tr> 
+    <tr> 
+     <td>Tag Cloud</td> 
+     <td>A tag cloud to show a graphically presented selection of tags within your website</td> 
+    </tr> 
+    <tr> 
+     <td>Teaser</td> 
+     <td>A piece of content (usually an image) displayed on a main page to "tease" users into accessing the underlying content.</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h2>Personalization and Community Content</h2> 
+  <p>Community features such as blogs, forums and calendars result in the creation of community content, commonly referred to as user generated content (UGC). When UGC is entered in a publish environment consisting of multiple AEM instances (a <a href="../../../communities/using/topologies.md">publish farm</a>), one major issue has been how to synchronize UGC across all instances.</p> 
+  <p>With <a href="../../../communities/using/overview.md">AEM Communities 6.1</a> extension, this issue is solved by using a <a href="../../../communities/using/working-with-srp.md">common store for UGC</a>. In regards, to personalization, Communities includes <a href="../../../communities/using/social-login.md">Social Login</a> - the ability to provide the option for site visitors to sign in with Facebook and Twitter.</p> 
+  <p>Without Communities extension, various methods to explore for addressing the issue of UGC consistency are :</p> 
+  <ul> 
+   <li>synchronize the multiple publish instances when necessary</li> 
+   <li>send the UGC from the publish instance to the author environment, from where it can be published in a manner similar to publishing page content</li> 
+  </ul> 
+  <p>The method used to achieve UGC consistency across a publish environment consisting of multiple publish instances should be carefully designed and tested for performance as well as consistency.</p> 
+ </body> 
+</html>

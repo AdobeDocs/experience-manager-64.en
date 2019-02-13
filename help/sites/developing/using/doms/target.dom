@@ -1,0 +1,196 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="Developing for Targeted Content" name="seoTitle" /> 
+  <meta content="d58b4aca-76ac-4b66-abce-088853ae97e7" name="jcr:uuid" /> 
+  <meta content="Topics about developing components for use with content targeting" name="seoDescription" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="b155a201-70d7-4dc6-8bd8-c6ef9cbfa2de" name="jcr:predecessors" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/target.html" name="publishExternalURL" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2018-10-05T08:08:17.561-0400" name="cq:lastModified" /> 
+  <meta content="2018-10-05T08:08:17.557-0400" name="lastPublishExternalDate" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2018-10-05T08:08:17.557-0400" name="topicBrowsingSortDate" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="/content/docs/en/aem/6-3/develop/personalization/target" name="qaNotes" /> 
+  <meta content="audience:developing" name="primaryAudienceTag" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/morehelp/personalization;/content/help/en/experience-manager/6-4/sites/developing/morehelp/personalization" name="moreHelpPaths" /> 
+  <meta content="Guillaume Carlino" name="contentOwner" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="jsyal" name="cq:lastReplicatedBy" /> 
+  <meta content="2017-10-31T16:16:16.276-0400" name="firstPublishExternalDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="2018-02-01T08:01:36.266-0500" name="jcr:created" /> 
+  <meta content="Developing for Targeted Content" name="navTitle" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:personalization;content_type:reference" name="cq:tags" /> 
+  <meta content="2018-05-08T12:45:24.122-0400" name="locHandOffDate" /> 
+  <meta content="Developing for Targeted Content" name="jcr:title" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2018-10-05T08:08:17.557-0400" name="publishExternalDate" /> 
+  <meta content="2018-10-27T23:47:40.223-0400" name="cq:lastReplicated" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+ </head> 
+ <body> 
+  <p>This section describes topics about developing components for use with content targeting.</p> 
+  <ul> 
+   <li>For information about connecting with Adobe Target, see <a href="../../../sites/administering/using/target.md">Integrating With Adobe Target</a>.</li> 
+   <li>For information about authoring targeted content, see <a href="../../../sites/authoring/using/content-targeting-touch.md">Authoring Targeted Content Using Targeting Mode</a>.</li> 
+  </ul> 
+  <note> 
+   <p>When you target a component in AEM author, the component makes a series of server-side calls to Adobe Target to register the campaign, set up offers, and retrieve Adobe Target segments (if configured). No server-side calls are made from AEM publish to Adobe Target.</p> 
+  </note> 
+  <h2>Enabling Targeting with Adobe Target On Your Pages</h2> 
+  <p>To use targeted components in your pages that interact with Adobe Target, include specific client-side code in the &amp;lt;head&amp;gt; element.</p> 
+  <h3>The head Section</h3> 
+  <p>Add both of the following code blocks to the &amp;lt;head&amp;gt; section of your page:</p> 
+  <codeblock gutter="true" class="syntax xml">
+    &lt;!--/*&amp;nbsp;Include&amp;nbsp;Context&amp;nbsp;Hub&amp;nbsp;*/--&gt;!!discoiqbr!!&lt;sly&amp;nbsp;data-sly-resource="${'contexthub'&amp;nbsp;@&amp;nbsp;resourceType='granite/contexthub/components/contexthub'}"/&gt; 
+  </codeblock> 
+  <codeblock class="syntax xml">
+    &lt;cq:include&amp;nbsp;script="/libs/cq/cloudserviceconfigs/components/servicelibs/servicelibs.jsp"/&gt; 
+  </codeblock> 
+  <p>This code adds the required analytics javascript objects and loads the cloud service libraries associated with the web site. For Target service, the libraries are loaded via <span class="code">/libs/cq/analytics/components/testandtarget/headlibs.jsp </span></p> 
+  <p>The set of libraries loaded depend on the type of target client library (mbox.js or at.js) used on Target configuration:</p> 
+  <p><strong>For default mbox.js</strong></p> 
+  <codeblock gutter="true" class="syntax js">
+    &lt;script&amp;nbsp;type="text/javascript"&amp;nbsp;src="/etc/clientlibs/foundation/testandtarget/parameters.js"&gt;&lt;/script&gt;!!discoiqbr!!&amp;nbsp;&lt;script&amp;nbsp;type="text/javascript"&amp;nbsp;src="/etc/clientlibs/foundation/testandtarget/mbox.js"&gt;&lt;/script&gt;!!discoiqbr!!&amp;nbsp;&lt;script&amp;nbsp;type="text/javascript"&amp;nbsp;src="/etc/clientlibs/foundation/personalization/integrations/commons.js"&gt;&lt;/script&gt;!!discoiqbr!!&amp;nbsp;&lt;script&amp;nbsp;type="text/javascript"&amp;nbsp;src="/etc/clientlibs/foundation/testandtarget/util.js"&gt;&lt;/script&gt;!!discoiqbr!!&amp;nbsp;&lt;script&amp;nbsp;type="text/javascript"&amp;nbsp;src="/etc/clientlibs/foundation/testandtarget/init.js"&gt;&lt;/script&gt; 
+  </codeblock> 
+  <p><strong>For custom mbox.js</strong></p> 
+  <codeblock gutter="true" class="syntax js">
+    &lt;script&amp;nbsp;type="text/javascript"&amp;nbsp;src="/etc/cloudservices/testandtarget/&lt;CLIENT-CODE&gt;/_jcr_content/public/mbox.js"&gt;&lt;/script&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;script&amp;nbsp;type="text/javascript"&amp;nbsp;src="/etc/clientlibs/foundation/testandtarget/parameters.js"&gt;&lt;/script&gt;!!discoiqbr!!&amp;nbsp;&lt;script&amp;nbsp;type="text/javascript"&amp;nbsp;src="/etc/clientlibs/foundation/personalization/integrations/commons.js"&gt;&lt;/script&gt;!!discoiqbr!!&amp;nbsp;&lt;script&amp;nbsp;type="text/javascript"&amp;nbsp;src="/etc/clientlibs/foundation/testandtarget/util.js"&gt;&lt;/script&gt;!!discoiqbr!!&amp;nbsp;&lt;script&amp;nbsp;type="text/javascript"&amp;nbsp;src="/etc/clientlibs/foundation/testandtarget/init.js"&gt;&lt;/script&gt; 
+  </codeblock> 
+  <p><strong>For at.js</strong></p> 
+  <codeblock gutter="true" class="syntax js">
+    &lt;script&amp;nbsp;type="text/javascript"&amp;nbsp;src="/etc/clientlibs/foundation/testandtarget/parameters.js"&gt;&lt;/script&gt;!!discoiqbr!!&amp;nbsp;&lt;script&amp;nbsp;type="text/javascript"&amp;nbsp;src="/etc/clientlibs/foundation/testandtarget/atjs-integration.js"&gt;&lt;/script&gt;!!discoiqbr!!&amp;nbsp;&lt;script&amp;nbsp;type="text/javascript"&amp;nbsp;src="/etc/clientlibs/foundation/testandtarget/atjs.js"&gt;&lt;/script&gt; 
+  </codeblock> 
+  <note> 
+   <p>Only the version of <span class="code">at.js</span> shipped with the product is supported. The version of <span class="code">at.js</span> shipped with the product can be obtained by looking at the <span class="code">at.js</span> file at location <span class="code">/etc/clientlibs/foundation/testandtarget/atjs/source/at.js</span>.</p> 
+  </note> 
+  <p><strong>For custom at.js</strong></p> 
+  <codeblock gutter="true" class="syntax js">
+    &lt;script&amp;nbsp;type="text/javascript"&amp;nbsp;src="/etc/cloudservices/testandtarget/&lt;CLIENT-CODE&gt;/_jcr_content/public/at.js"&gt;&lt;/script&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;script&amp;nbsp;type="text/javascript"&amp;nbsp;src="/etc/clientlibs/foundation/testandtarget/parameters.js"&gt;&lt;/script&gt;!!discoiqbr!!&amp;nbsp;&lt;script&amp;nbsp;type="text/javascript"&amp;nbsp;src="/etc/clientlibs/foundation/testandtarget/atjs-integration.js"&gt;&lt;/script&gt; 
+  </codeblock> 
+  <p>The Target functionality on the client side is managed by the <span class="code">CQ_Analytics.TestTarget</span> object. Therefore, the page will contain some init code such as in the following example:</p> 
+  <codeblock gutter="true" class="syntax js">
+    &lt;script&amp;nbsp;type="text/javascript"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if&amp;nbsp;(&amp;nbsp;!window.CQ_Analytics&amp;nbsp;)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;window.CQ_Analytics&amp;nbsp;=&amp;nbsp;{};!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if&amp;nbsp;(&amp;nbsp;!CQ_Analytics.TestTarget&amp;nbsp;)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;CQ_Analytics.TestTarget&amp;nbsp;=&amp;nbsp;{};!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;CQ_Analytics.TestTarget.clientCode&amp;nbsp;=&amp;nbsp;'my_client_code';!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/script&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;...!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;div&amp;nbsp;class="cloudservice&amp;nbsp;testandtarget"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;script&amp;nbsp;type="text/javascript"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;CQ_Analytics.TestTarget.maxProfileParams&amp;nbsp;=&amp;nbsp;11;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;if&amp;nbsp;(CQ_Analytics.CCM)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;if&amp;nbsp;(CQ_Analytics.CCM.areStoresInitialized)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;CQ_Analytics.TestTarget.registerMboxUpdateCalls();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;}&amp;nbsp;else&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;CQ_Analytics.CCM.addListener("storesinitialize",&amp;nbsp;function&amp;nbsp;(e)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;CQ_Analytics.TestTarget.registerMboxUpdateCalls();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;});!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;}&amp;nbsp;else&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;client&amp;nbsp;context&amp;nbsp;not&amp;nbsp;there,&amp;nbsp;still&amp;nbsp;register&amp;nbsp;calls!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;CQ_Analytics.TestTarget.registerMboxUpdateCalls();!!discoiqbr!!&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/script&gt;!!discoiqbr!!&amp;nbsp;&lt;/div&gt; 
+  </codeblock>  
+  <p>The JSP adds the required analytics javascript objects and references to client-side javascript libraries. The testandtarget.js file contains the mbox.js functions. The HTML that the script generates is similar to the following example:</p> 
+  <codeblock class="syntax xml">
+    &lt;script&amp;nbsp;type="text/javascript"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if&amp;nbsp;(&amp;nbsp;!window.CQ_Analytics&amp;nbsp;)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;window.CQ_Analytics&amp;nbsp;=&amp;nbsp;{};!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if&amp;nbsp;(&amp;nbsp;!CQ_Analytics.TestTarget&amp;nbsp;)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;CQ_Analytics.TestTarget&amp;nbsp;=&amp;nbsp;{};!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;CQ_Analytics.TestTarget.clientCode&amp;nbsp;=&amp;nbsp;'MyClientCode';!!discoiqbr!!&lt;/script&gt;!!discoiqbr!!&lt;link&amp;nbsp;rel="stylesheet"&amp;nbsp;href="/etc/clientlibs/foundation/testandtarget/testandtarget.css"&amp;nbsp;type="text/css"&gt;!!discoiqbr!!&lt;script&amp;nbsp;type="text/javascript"&amp;nbsp;src="/etc/clientlibs/foundation/testandtarget/testandtarget.js"&gt;&lt;/script&gt;!!discoiqbr!!&lt;script&amp;nbsp;type="text/javascript"&amp;nbsp;src="/etc/clientlibs/foundation/testandtarget/init.js"&gt;&lt;/script&gt; 
+  </codeblock> 
+  <h4>The body Section (start)</h4> 
+  <p>Add the following code immediately following the &amp;lt;body&amp;gt; tag to add the client context features to the page:</p> 
+  <codeblock class="syntax xml">
+    &lt;cq:include&amp;nbsp;path="clientcontext"&amp;nbsp;resourceType="cq/personalization/components/clientcontext"/&gt; 
+  </codeblock> 
+  <h4>The body Section (end)</h4> 
+  <p>Add the following code immediately before the &amp;lt;/body&amp;gt; end tag:</p> 
+  <codeblock class="syntax xml">
+    &lt;cq:include&amp;nbsp;path="cloudservices"&amp;nbsp;resourceType="cq/cloudserviceconfigs/components/servicecomponents"/&gt; 
+  </codeblock> 
+  <p>The JSP script of this component generates calls to the Target javascript API and implements other required configurations. The HTML that the script generates is similar to the following example:</p> 
+  <codeblock class="syntax xml">
+    !!discoiqbr!!&lt;div&amp;nbsp;class="servicecomponents&amp;nbsp;cloudservices"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;div&amp;nbsp;class="cloudservice&amp;nbsp;testandtarget"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;script&amp;nbsp;type="text/javascript"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;CQ_Analytics.TestTarget.maxProfileParams&amp;nbsp;=&amp;nbsp;11;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;CQ_Analytics.CCM.addListener("storesinitialize",&amp;nbsp;function(e)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;CQ_Analytics.TestTarget.registerMboxUpdateCalls();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;});!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/script&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;div&amp;nbsp;id="cq-analytics-texthint"&amp;nbsp;style="background:white;&amp;nbsp;padding:0&amp;nbsp;10px;&amp;nbsp;display:none;"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;h3&amp;nbsp;class="cq-texthint-placeholder"&gt;Component&amp;nbsp;clientcontext&amp;nbsp;is&amp;nbsp;missing&amp;nbsp;or&amp;nbsp;misplaced.&lt;/h3&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/div&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;script&amp;nbsp;type="text/javascript"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;$CQ(function(){!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if(&amp;nbsp;CQ_Analytics&amp;nbsp;&amp;&amp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;CQ_Analytics.ClientContextMgr&amp;nbsp;&amp;&amp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!CQ_Analytics.ClientContextMgr.isConfigLoaded&amp;nbsp;)&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;{&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;$CQ("#cq-analytics-texthint").show();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;});!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/script&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/div&gt;!!discoiqbr!!&lt;/div&gt; 
+  </codeblock> 
+  <h3>Using a Custom Target library file</h3> 
+  <note> 
+   <p>If you are not using DTM or another target marketing system, you can use custom target library files.</p> 
+  </note> 
+  <note> 
+   <p>By default, mboxes are hidden - the mboxDefault class determines this behavior. Hiding mboxes ensures that visitors do not see the default content before it is swapped; however, hiding mboxes impacts perceived performance.</p> 
+  </note> 
+  <p>The default mbox.js file that is used to create mboxes is located at /etc/clientlibs/foundation/testandtarget/mbox/source/mbox.js. To use a customer mbox.js file, add the file to the Target cloud configuration. To add the file, the mbox.js file must be available on the file system.</p> 
+  <p>For example, if you want to use the <a href="https://marketing.adobe.com/resources/help/en_US/mcvid/">Marketing Cloud ID service</a> you need to download mbox.js so that it contains the correct value for the <span class="code">imsOrgID</span> variable, which is based on your tenant. This variable is required for integrating with the Marketing Cloud ID service. For information, see <a href="https://marketing.adobe.com/resources/help/en_US/target/a4t/a4t.html">Adobe Analytics as the Reporting Source for Adobe Target</a> and <a href="https://marketing.adobe.com/resources/help/en_US/target/a4t/c_before_implement.html">Before You Implement</a>.</p> 
+  <note> 
+   <p>If a custom mbox is defined in a Target configuration, everyone must have read access to <strong>/etc/cloudservices</strong> on publish servers. Without this access, loading mbox.js files on publish website results in a 404 error. </p> 
+  </note> 
+  <ol> 
+   <li><p>Go to the CQ <strong>Tools</strong> page and select <strong>Cloud Services</strong>. (<a href="http://localhost:4502/libs/cq/core/content/tools/cloudservices.html">http://localhost:4502/libs/cq/core/content/tools/cloudservices.html</a>)</p> </li> 
+   <li><p>In the tree, select Adobe Target, and in the list of configurations, double-click your Target configuration.</p> </li> 
+   <li><p>On the configuration page, click Edit.</p> </li> 
+   <li><p>For the Custom mbox.js property, click Browse and select the file.</p> </li> 
+   <li><p>To apply the changes, enter the password for your Adobe Target account, click Re-connect To Target, and click OK when the connection is successful. Then, click OK on the Edit Component dialog box. </p> </li> 
+  </ol> 
+  <p>Your Target configuration includes a custom mbox.js file, <a href="../../../sites/developing/using/target.md#main-pars-title-5">the required code in the head section</a> of your page adds the file to the client library framework instead of a reference to the testandtarget.js library.</p> 
+  <h2>Disabling the Target Command for Components</h2> 
+  <p>Most components can be converted to targeted components using the Target command on the context menu.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-184.png" /> 
+  <p>To remove the Target command from the context menu, add the following property to the cq:editConfig node of the component:</p> 
+  <ul> 
+   <li>Name: cq:disableTargeting</li> 
+   <li>Type: Boolean</li> 
+   <li>Value: True</li> 
+  </ul> 
+  <p>For example, to disable targeting for the title components of the Geometrixx Demo Site pages, add the property to the /apps/geometrixx/components/title/cq:editConfig node.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-185.png" /> 
+  <h2>Sending Order Confirmation Information to Adobe Target</h2> 
+  <note> 
+   <p>If you are not using DTM, you send order confirmation to Adobe Target. </p> 
+  </note> 
+  <p>For tracking the performance of your website, send purchase information from your order confirmation page to Adobe Target. (See <a href="https://marketing.adobe.com/resources/help/en_US/dtm/target/order-confirmation-mbox.html">Create an orderConfirmPage Mbox</a> in the Adobe Target documentation.) Adobe Target recognizes mbox data as order confirmation data when your MBox name is <span class="code">orderConfirmPage</span> and uses the following specific parameter names:</p> 
+  <ul> 
+   <li>productPurchasedId: A list of IDs that identify the purchased products.</li> 
+   <li>orderId: The ID of the order.</li> 
+   <li>orderTotal: The total amount of the purchase.</li> 
+  </ul> 
+  <p>The code on the rendered HTML page that creates the mbox is similar to the following example:</p> 
+  <codeblock class="syntax xml">
+    &lt;script&amp;nbsp;type="text/javascript"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;mboxCreate('orderConfirmPage',!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;'productPurchasedId=product1&amp;nbsp;product2&amp;nbsp;product3',!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;'orderId=order1234',!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;'orderTotal=24.54');!!discoiqbr!!&lt;/script&gt; 
+  </codeblock> 
+  <p>The values of each parameter are different for each order. Therefore, you require a component that generates the code based on the properties of the purchase. The CQ <a href="../../../sites/administering/using/ecommerce.md">eCommerce Integration Framework</a> enables you to integrate with your product catalogue and implement a shopping cart and checkout page. </p> 
+  <p>The Geometrixx Outdoors sample displays the following confirmation page when a visitor purchases products:</p> 
+  <img imageRotate="0" src="assets/chlimage_1-186.png" /> 
+  <p>The following code for the JSP script of a component accesses the properties of the shopping cart and then prints the code for creating the mbox.</p> 
+  <codeblock class="syntax java">
+    &lt;%--!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;confirmationmbox&amp;nbsp;component.!!discoiqbr!!!!discoiqbr!!!!discoiqbr!!!!discoiqbr!!--%&gt;&lt;%!!discoiqbr!!%&gt;&lt;%@include&amp;nbsp;file="/libs/foundation/global.jsp"%&gt;&lt;%!!discoiqbr!!%&gt;&lt;%@page&amp;nbsp;session="false"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;import="com.adobe.cq.commerce.api.CommerceService,!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;com.adobe.cq.commerce.api.CommerceSession,!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;com.adobe.cq.commerce.common.PriceFilter,!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;com.adobe.cq.commerce.api.Product,&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;java.util.List,&amp;nbsp;java.util.Iterator"%&gt;&lt;%!!discoiqbr!!!!discoiqbr!!/*&amp;nbsp;obtain&amp;nbsp;the&amp;nbsp;CommerceSession&amp;nbsp;object&amp;nbsp;*/&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!CommerceService&amp;nbsp;commerceservice&amp;nbsp;=&amp;nbsp;resource.adaptTo(CommerceService.class);!!discoiqbr!!CommerceSession&amp;nbsp;session&amp;nbsp;=&amp;nbsp;commerceservice.login(slingRequest,&amp;nbsp;slingResponse);!!discoiqbr!!!!discoiqbr!!/*&amp;nbsp;obtain&amp;nbsp;the&amp;nbsp;cart&amp;nbsp;items&amp;nbsp;*/!!discoiqbr!!List&lt;CommerceSession.CartEntry&gt;&amp;nbsp;entries&amp;nbsp;=&amp;nbsp;session.getCartEntries();!!discoiqbr!!Iterator&lt;CommerceSession.CartEntry&gt;&amp;nbsp;cartiterator&amp;nbsp;=&amp;nbsp;entries.iterator();!!discoiqbr!!!!discoiqbr!!/*&amp;nbsp;iterate&amp;nbsp;the&amp;nbsp;items&amp;nbsp;and&amp;nbsp;get&amp;nbsp;the&amp;nbsp;product&amp;nbsp;IDs&amp;nbsp;*/!!discoiqbr!!String&amp;nbsp;productIDs&amp;nbsp;=&amp;nbsp;new&amp;nbsp;String();!!discoiqbr!!while(cartiterator.hasNext()){!!discoiqbr!!&amp;nbsp;CommerceSession.CartEntry&amp;nbsp;entry&amp;nbsp;=&amp;nbsp;cartiterator.next();!!discoiqbr!!&amp;nbsp;productIDs&amp;nbsp;=&amp;nbsp;productIDs&amp;nbsp;+&amp;nbsp;entry.getProduct().getSKU();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if&amp;nbsp;(cartiterator.hasNext())&amp;nbsp;productIDs&amp;nbsp;=&amp;nbsp;productIDs&amp;nbsp;+&amp;nbsp;",&amp;nbsp;";!!discoiqbr!!}!!discoiqbr!!!!discoiqbr!!/*&amp;nbsp;get&amp;nbsp;the&amp;nbsp;cart&amp;nbsp;price&amp;nbsp;and&amp;nbsp;orderID&amp;nbsp;*/!!discoiqbr!!String&amp;nbsp;total&amp;nbsp;=&amp;nbsp;session.getCartPrice(new&amp;nbsp;PriceFilter("CART",&amp;nbsp;"PRE_TAX"));!!discoiqbr!!String&amp;nbsp;orderID&amp;nbsp;=&amp;nbsp;session.getOrderId();!!discoiqbr!!!!discoiqbr!!%&gt;&lt;div&amp;nbsp;class="mboxDefault"&gt;&lt;/div&gt;!!discoiqbr!!&lt;script&amp;nbsp;type="text/javascript"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;mboxCreate('orderConfirmPage',!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;'productPurchasedId=&lt;%=&amp;nbsp;productIDs&amp;nbsp;%&gt;',!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;'orderId=&lt;%=&amp;nbsp;orderID&amp;nbsp;%&gt;',!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;'orderTotal=&lt;%=&amp;nbsp;total&amp;nbsp;%&gt;');!!discoiqbr!!&lt;/script&gt; 
+  </codeblock> 
+  <p>When the component is included in the checkout page in the previous example, the page source includes the following script that creates the mbox:</p> 
+  <codeblock class="syntax js">
+    &lt;div&amp;nbsp;class="mboxDefault"&gt;&lt;/div&gt;!!discoiqbr!!&lt;script&amp;nbsp;type="text/javascript"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;mboxCreate('orderConfirmPage',!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;'productPurchasedId=47638-S,&amp;nbsp;46587',!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;'orderId=d03cb015-c30f-4bae-ab12-1d62b4d105ca',!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;'orderTotal=US$677.00');!!discoiqbr!!!!discoiqbr!!&lt;/script&gt; 
+  </codeblock> 
+  <h2>Understanding the Target Component</h2> 
+  <p>The Target component enables authors to create dynamic mboxes from CQ content components. (See <a href="../../../sites/authoring/using/content-targeting-touch.md">Content Targeting</a>.) The Target component is located at /libs/cq/personalization/components/target.</p> 
+  <p>The target.jsp script accesses the page properties to determine the targeting engine to use for the component, and then executes the appropriate script:</p> 
+  <ul> 
+   <li>Adobe Target: /libs/cq/personalization/components/target/engine_tnt.jsp<br /> </li> 
+   <li><a href="../../../sites/administering/using/target.md">Adobe Target with AT.JS</a>: /libs/cq/personalization/components/target/engine_atjs.jsp</li> 
+   <li><a href="../../../sites/authoring/using/target-adobe-campaign.md">Adobe Campaign</a>: /libs/cq/personalization/components/target/engine_cq_campaign.jsp</li> 
+   <li>Client-side Rules/ContextHub: /libs/cq/personalization/components/target/engine_cq.jsp</li> 
+  </ul> 
+  <h4>The Creation of Mboxes</h4> 
+  <note> 
+   <p>By default, mboxes are hidden - the mboxDefault class determines this behavior. Hiding mboxes ensures that visitors do not see the default content before it is swapped; however, hiding mboxes impacts perceived performance.</p> 
+  </note> 
+  <p>When Adobe Target drives content targeting, the engine_tnt.jsp script creates mboxes that contain the content of the targeted experience:</p> 
+  <ul> 
+   <li>Adds a <span class="code">div</span> element with the class of <span class="code">mboxDefault</span>, as required by the Adobe Target API. </li> 
+   <li>Adds the mbox content (the content of the targeted experience) inside the <span class="code">div</span> element.</li> 
+  </ul> 
+  <p>Following the <span class="code">mboxDefault</span> div element, the javascript that creates the mbox is inserted:</p> 
+  <ul> 
+   <li>The mbox name, ID, and location are based on the repository path of the component.</li> 
+   <li>The script obtains Client Context parameter names and values.</li> 
+   <li>Calls are made to the functions that mbox.js and other client libraries define to create mboxes. </li> 
+  </ul> 
+  <h4>Client Libraries for Content Targeting</h4> 
+  <p>The following are the available clientlib categories:</p> 
+  <ul> 
+   <li>testandtarget.mbox</li> 
+   <li>testandtarget.init</li> 
+   <li>testandtarget.util</li> 
+   <li>testandtarget.atjs</li> 
+   <li>testandtarget.atjs-integration</li> 
+  </ul>       
+ </body> 
+</html>

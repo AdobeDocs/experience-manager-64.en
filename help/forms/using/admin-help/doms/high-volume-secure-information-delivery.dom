@@ -1,0 +1,63 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2016-04-20T10:05:29.335-0400" name="firstPublishExternalDate" />
+  <meta content="2016-02-05T03:27:00.000-0500" name="sortDate" />
+  <meta content="light" name="heroGradient" />
+  <meta content="2016-05-31T07:01:17.913-0400" name="acrolinxDate" />
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/high_volume_secure_information_delivery_admin_5e12de0b318c6865_2326_report.xml" name="acrolinxReportURL" />
+  <meta content="red" name="acrolinxPageStatus" />
+  <meta content="left" name="sideColumn" />
+  <meta content="2017-10-31T16:32:13.684-0400" name="publishExternalDate" />
+  <meta content="not_checked" name="acrolinxStatus" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="false" name="doNotLocalize" />
+  <meta content="/content/help/en/experience-manager/6-4/forms/using/morehelp/working_with_document_security;/content/help/en/experience-manager/6-4/forms/using/morehelp/working_with_document_security" name="moreHelpPaths" />
+  <meta content="2017-12-01T19:05:10.423-0500" name="jcr:created" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" />
+  <meta content="video" name="pageLayout" />
+  <meta content="2018-04-26T04:23:33.726-0400" name="locHandOffDate" />
+  <meta content="admin" name="contentOwner" />
+  <meta content="High-volume secure information&amp;#xA;delivery" name="navTitle" />
+  <meta content="16" name="acrolinxSentences" />
+  <meta content="305" name="acrolinxWords" />
+  <meta content="cf4ffd79-719d-4847-a983-ab3503926c87" name="jcr:uuid" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="Document security supports the association of licenses to users, rather than to the documents in mass production environments." name="seoDescription" />
+  <meta content="2016-02-05T03:27:24.960-0500" name="lr_lastModified" />
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/working_with_document_security;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" />
+  <meta content="2018-04-26T04:23:33.726-0400" name="cq:lastModified" />
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/forms/using/admin-help/high-volume-secure-information-delivery.html" name="publishExternalURL" />
+  <meta content="admin" name="lr_creator" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2016-02-05T03:27:00.000-0500" name="topicBrowsingSortDate" />
+  <meta content="7a14fa98-ac8b-4e9d-a8ad-18854d78142b" name="jcr:predecessors" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="High-volume secure information delivery" name="jcr:title" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="AEMForms/6.1/AdminHelp/WSb96e41f8a4ca47a936055db613103678f9c-8000.2" name="cq:gepId" />
+  <meta content="2017-10-31T16:32:13.684-0400" name="lastPublishExternalDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2018-04-03T09:10:13.557-0400" name="cq:lastReplicated" />
+  <meta content="head1_20111213" name="gep_conversion_script_version" />
+  <meta content="admin" name="lr_lastModifiedBy" />
+ </head>
+ <body>
+  <p>In a mass production environment, such as one that generates secured monthly invoices for a telecom company, creating licenses that are specific to each document can become a resource-intensive process. In such cases, document security supports the association of licenses to users, rather than to the documents. The license generated for a user is used for all documents that are protected for that user.</p> 
+  <p>One advantage of this approach is that the document security database size doesn't grow linearly with the documents, rather with the number of users. Also, because you need to create the license only once for a user, subsequent protection of documents through these policies becomes faster. Features such as offline access, document expiration, and revocation are supported for all such documents.</p> 
+  <p>Document security also supports Abstract Policies. Abstract policies are policy templates that contain all policy attributes such as document security settings and usage rights, but do not contain a list of principals. Administrators can create any number of policies from the abstract policy with different principals who should have access to the documents. Changes made to the abstract policy do not affect the actual policies that are generated from the abstract policies.</p> 
+  <p>In the case of monthly invoice generation for a telecom company, you create an abstract policy, create users, and then generate unique licenses for each user. The licenses are later applied to documents for each user.</p> 
+  <p>Creation of an abstract policy is supported only through document security Java SDK. You can, however, administer the policies that you create from the abstract policy from the document security web pages. Policies that are created using this method are identical in behavior to those created from document security web pages.</p> 
+  <p>See <a href="http://www.adobe.com/go/learn_aemforms_programming_63">Programming with AEM forms</a> for more information.</p> 
+ </body>
+</html>

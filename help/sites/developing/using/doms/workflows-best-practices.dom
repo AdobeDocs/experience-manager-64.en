@@ -1,0 +1,251 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="aheimoz@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/morehelp/extending-aem;/content/help/en/experience-manager/6-4/sites/developing/morehelp/extending-aem" name="moreHelpPaths" /> 
+  <meta content="2a0ebf19-989f-4f76-a1b8-13b17f8d11f9" name="jcr:uuid" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="jsyal" name="cq:lastReplicatedBy" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="User" name="contentOwner" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="2018-04-18T09:35:41.720-0400" name="topicBrowsingSortDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="d0bab4dd-83af-404b-a2db-e13d68d30287" name="jcr:predecessors" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2017-10-31T16:15:50.136-0400" name="firstPublishExternalDate" /> 
+  <meta content="Workflow Best Practices" name="jcr:title" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2018-04-18T09:35:41.720-0400" name="publishExternalDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:extending-aem;content_type:reference" name="cq:tags" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2018-05-08T12:46:53.844-0400" name="cq:lastModified" /> 
+  <meta content="audience:developing" name="primaryAudienceTag" /> 
+  <meta content="/content/docs/en/aem/6-3/develop/extending/workflows/best-practices" name="qaNotes" /> 
+  <meta content="2018-04-18T09:35:41.720-0400" name="lastPublishExternalDate" /> 
+  <meta content="Workflow Best Practices" name="seoTitle" /> 
+  <meta content="2018-10-27T23:47:50.760-0400" name="cq:lastReplicated" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="aheimoz" name="cq:lastModifiedBy" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/workflows-best-practices.html" name="publishExternalURL" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2018-05-08T12:46:53.843-0400" name="locHandOffDate" /> 
+  <meta content="2018-03-09T08:02:06.073-0500" name="jcr:created" /> 
+ </head> 
+ <body> 
+  <p>Workflows enable you to automate Adobe Experience Manager (AEM) activities.</p> 
+  <p>They often represent a large amount of the processing that occurs in an AEM environment, so when custom workflow steps are not written according to best practices, or out-of-the-box workflows are not configured to run as efficiently as possible, the system can suffer as a result. </p> 
+  <p> It is therefore highly recommended to plan your workflows implementations carefully.</p> 
+  <h2>Configuration</h2> 
+  <p>When configuring workflow processes (customized and/or out-of-the-box), there are a few things that should be kept in mind.</p> 
+  <h3>Transient Workflows</h3> 
+  <p>To optimize high ingestion loads you can define a <a href="../../../sites/developing/using/workflows.md#transientworkflows">workflow as transient</a>.</p> 
+  <p>When a workflow is transient the runtime data related to the intermediate worksteps are not persisted in the JCR when they run (the output renditions are persisted of course).</p> 
+  <p>The advantages can include:</p> 
+  <ul> 
+   <li>A reduction in the workflow processing time; of upto 10%.</li> 
+   <li>Significantly reduce repository growth.</li> 
+   <li>No more CRUD workflows are required to purge.</li> 
+   <li>In addition, it reduces the number of TAR files to compact. </li> 
+  </ul> 
+  <note> 
+   <p>If your business dictates that you persist/archive workflow runtime data for audit purposes, do not enable this feature. </p> 
+  </note> 
+  <h3>Tuning DAM Workflows</h3> 
+  <p>For performance tuning guidelines for DAM workflows, see the <a href="../../../assets/using/performance-tuning-guidelines.md">AEM Assets Performance Tuning Guide</a>.</p> 
+  <h3>Configure the Maximum Number of Concurrent Workflows</h3> 
+  <p>AEM can allow multiple workflow threads to run concurrently. By default the number of threads is configured to be half the number of processor cores on the system.</p> 
+  <p>In cases where the workflows being executed are demanding of system resources, this can mean little is left for AEM to use for other tasks, such as rendering the authoring UI. As a result, the system may be sluggish during activities such as bulk image uploading.</p> 
+  <p>To address this issue, Adobe recommends configuring the number of <strong>Maximum Parallel Jobs</strong> to be between half to three-quarters of the number of processor cores on the system. This should allow enough capacity for the system to stay responsive when processing these workflows. </p> 
+  <p>To configure <strong>Maximum Parallel Jobs</strong>, you can either:</p> 
+  <ul> 
+   <li>Configure the <strong><a href="../../../sites/deploying/using/configuring-osgi.md">OSGi Configuration</a></strong> from the AEM Web console; for <strong>Queue: Granite Workflow Queue</strong> (an <strong>Apache Sling Job Queue Configuration</strong>).</li> 
+   <li>Configure the queue can from the <strong>Sling Jobs</strong> option of the AEM Web console; for <strong>Job Queue Configuration: Granite Workflow Queue</strong>, at <span class="code">http://localhost:4502/system/console/slingevent</span>.</li> 
+  </ul> 
+  <p>Additionally, there is a separate configuration for the <strong>Granite Workflow External Process Job Queue</strong>. This is used for workflow processes that launch external binaries, such as <strong>InDesign Server</strong> or <strong>Image Magick</strong>.</p> 
+  <h3>Configure Individual Job Queues</h3> 
+  <p>In some cases it is useful to configure individual job queues to control concurrent threads, or other queue options, on an individual job basis. You can add and configure an individual queue from the Web console via the <strong>Apache Sling Job Queue Configuration</strong> factory. To find the appropriate topic to list, execute your workflow’s model and look for it in the <strong>Sling Jobs</strong> console; for example, at <span class="code">http://localhost:4502/system/console/slingevent</span>.</p> 
+  <p>Individual job queues can be added for transient workflows as well. </p> 
+  <h3>Configure Workflow Purging</h3> 
+  <p>In a standard installation AEM provides a maintenance console where daily and weekly maintenance activities can be scheduled and configured; for example, at:</p> 
+  <p><span class="code">http://localhost:4502/libs/granite/operations/content/maintenance.html</span></p> 
+  <p>By default, the <strong>Weekly Maintenance Window</strong> has a <strong>Workflow Purge</strong> task, but this needs to be configured before it will run. To configure workflow purges, a new <strong>Adobe Granite Workflow Purge Configuration</strong> must be added in the Web console.</p> 
+  <p>For further details on maintenance tasks in AEM, see the <a href="../../../sites/administering/using/operations-dashboard.md">Operations Dashboard</a>.</p> 
+  <h2>Customization</h2> 
+  <p>When writing custom workflow processes, there are some things that should be kept in mind.</p> 
+  <h3>Locations</h3> 
+  <p>Definitions of workflow models, launchers, scripts and notifications are held in the repository according to type; i.e. out-of-the-box, custom, amongst others.<br /> </p> 
+  <note> 
+   <p>See also <a href="../../../sites/deploying/using/repository-restructuring-in-aem64.md">Repository Restructuring in AEM 6.4</a>.</p> 
+  </note> 
+  <h4>Locations - Workflow Models</h4> 
+  <p>Workflow models are stored in the repository according to type:</p> 
+  <ul> 
+   <li><p>Out-of-the-box workflow designs are held under the following path:</p>  
+    <note> 
+     <p>Do not:</p> 
+     <ul> 
+      <li>place any of your custom workflow models in this folder</li> 
+      <li>edit anything in <span class="code">/libs</span></li> 
+     </ul> 
+     <p>As any changes may be overwritten at upgrade or when installing hot-fixes, cumulative fix packs or service packs.</p> 
+    </note></li> 
+   <li><p>Custom workflow designs are held under:</p>  </li> 
+   <li><p>Runtime workflow designs (both out-of-the-box and custom) are held under the following path:</p>  </li> 
+   <li><p>Legacy workflow designs (both design-time and runtime) are held under the following path:</p>  
+    <note> 
+     <p>If these designs are edited <em>using the AEM UI</em>, then the details will be copied to the new locations.</p> 
+    </note></li> 
+  </ul> 
+  <h4>Locations - Workflow Launchers</h4> 
+  <p>Workflow launcher definitions are also stored in the repository according to type:</p> 
+  <ul> 
+   <li><p>Out-of-the-box workflow launchers are held under the following path:</p>  
+    <note> 
+     <p>Do not:</p> 
+     <ul> 
+      <li>place any of your custom workflow launchers in this folder</li> 
+      <li>edit anything in <span class="code">/libs</span></li> 
+     </ul> 
+     <p>As any changes may be overwritten at upgrade or when installing hot-fixes, cumulative fix packs or service packs.</p> 
+    </note></li> 
+   <li><p>Custom workflow launchers are held under:</p>  </li> 
+   <li><p>Legacy workflow launchers are held under the following path:</p>  
+    <note> 
+     <p>If these definitions are edited <em>using the AEM UI</em>, then the details will be copied to the new locations.</p> 
+    </note></li> 
+  </ul> 
+  <h4>Locations - Workflow Scripts</h4> 
+  <p>Workflow scripts are also stored in the repository according to type:</p> 
+  <ul> 
+   <li><p>Out-of-the-box workflow scripts are held under the following path:</p>  
+    <note> 
+     <p>Do not:</p> 
+     <ul> 
+      <li>place any of your custom workflow scripts in this folder</li> 
+      <li>edit anything in <span class="code">/libs</span></li> 
+     </ul> 
+     <p>As any changes may be overwritten at upgrade or when installing hot-fixes, cumulative fix packs or service packs.</p> 
+    </note></li> 
+   <li><p>Custom workflow scripts are held under:</p>  </li> 
+   <li><p>Legacy workflow scripts are held under the following path:</p>  </li> 
+  </ul> 
+  <h4>Locations - Workflow Notifications</h4> 
+  <p>Workflow notifications are also stored in the repository according to type:</p> 
+  <ul> 
+   <li><p>Out-of-the-box workflow notification definitions are held under the following path:</p>  
+    <note> 
+     <p>Do not:</p> 
+     <ul> 
+      <li>place any of your custom workflow notification definitions in this folder</li> 
+      <li>edit anything in <span class="code">/libs</span></li> 
+     </ul> 
+     <p>As any changes may be overwritten at upgrade or when installing hot-fixes, cumulative fix packs or service packs.</p> 
+    </note></li> 
+   <li><p>Custom workflow notification definitions are held under:</p>  
+    <note> 
+     <p>If you want to override a workflow notification text, create an overlaid path under:</p> 
+     <p style="margin-left: 40px;"><span class="code">/conf/global/settings/workflow/notification/&amp;lt;<em>path-under-libs</em>&amp;gt;</span></p> 
+    </note></li> 
+   <li><p>Legacy workflow notification definitions are held under the following path:</p>  </li> 
+  </ul> 
+  <h3>Process Sessions</h3> 
+  <p>As in any custom development, it is always recommended to use a user’s session when possible:</p> 
+  <ul> 
+   <li>for best adherence to security guidelines</li> 
+   <li>to allow the system to manage opening and closing the session</li> 
+  </ul> 
+  <p>When implementing a workflow process:</p> 
+  <ul> 
+   <li>A workflow session will be provided and should be used unless there is a compelling reason not to. <br /> </li> 
+   <li>New sessions should not be created from workflow steps as this causes inconsistencies in the state(s) together with possible concurrency issues in the workflow engine.</li> 
+   <li>You should not acquire a new JCR session from within a process step in a workflow; you should adapt the workflow session provided by the Process Step API to a jcr session. For example:</li> 
+  </ul> 
+  <codeblock gutter="true" class="syntax js">
+    public&amp;nbsp;void&amp;nbsp;execute(WorkItem&amp;nbsp;item,&amp;nbsp;WorkflowSession&amp;nbsp;workflowSession,&amp;nbsp;MetaDataMap&amp;nbsp;args)&amp;nbsp;throws&amp;nbsp;WorkflowException&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;to&amp;nbsp;obtain&amp;nbsp;a&amp;nbsp;jcr&amp;nbsp;session:!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;javax.jcr.Session&amp;nbsp;jcrSession&amp;nbsp;=&amp;nbsp;workflowSession.adaptTo(javax.jcr.Session.class);!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;to&amp;nbsp;obtain&amp;nbsp;a&amp;nbsp;sling&amp;nbsp;resource&amp;nbsp;resolver:!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;org.apache.sling.api.resource.ResourceResolver&amp;nbsp;slingResourceResolver&amp;nbsp;=&amp;nbsp;workflowSession.adaptTo(org.apache.sling.api.resource.ResourceResolver.class); 
+  </codeblock> 
+  <p>Saving a session:</p> 
+  <ul> 
+   <li>Inside a workflow process, if the <span class="code">WorkflowSession</span> is being used to modify the repository then do not explicitly save the session - the workflow will save the session when it completes. </li> 
+   <li><span class="code">Session.Save</span> should not be called from within a workflow step: 
+    <ul> 
+     <li>it is recommended to adapt the workflow jcr session; then <span class="code">save</span> is not necessary as the workflow engine saves the session automatically once the workflow has finished executing.<br /> </li> 
+     <li>it is not recommended for a process step to create its own jcr session.</li> 
+    </ul> </li> 
+   <li>By eliminating unnecessary saves, you can reduce overhead and thus make the workflows more efficient. </li> 
+  </ul> 
+  <note> 
+   <p>If, despite the recommendations here, you do create your own jcr session, then it will need to be saved.<br /> </p> 
+  </note> 
+  <h3>Minimize the Number/Scope of Launchers</h3> 
+  <p>There is one listener that is responsible for all of the <a href="../../../sites/administering/using/workflows-starting.md#workflowslaunchers">workflow launchers</a> that are registered:</p> 
+  <ul> 
+   <li>It will listen for changes at all of the paths specified in the globbing properties of the other launchers. </li> 
+   <li>When an event is dispatched, the workflow engine will then evaluate each launcher to determine if it should run.</li> 
+  </ul> 
+  <p>Creating too many launchers will cause the evaluation process to run more slowly.</p> 
+  <p>Creating a globbing path at the root of the repository on a single launcher would cause the workflow engine to listen for and evaluate create/modify events to every node in the repository. For this reason, it is recommended to only create launchers that are needed and to make the globbing path as specific as possible.</p> 
+  <p>Due to the impact of these launchers on workflow behavior, it can also be helpful to disable any out-of-the-box launchers that are not in use. </p> 
+  <h3>Configuration Enhancements for Launchers</h3> 
+  <p>The custom <a href="../../../sites/administering/using/workflows-starting.md#workflowslaunchers">launcher configuration</a> has been enhanced to support the following: </p> 
+  <ul> 
+   <li>Have multiple conditions "AND"ed together.</li> 
+   <li>Have OR conditions within a single condition.</li> 
+   <li>Disable/enable launchers based on whether a feature flag is enabled or disabled. </li> 
+   <li>Support regex in launcher conditions. </li> 
+  </ul> 
+  <h3>Do Not Start Workflows from other Workflows</h3> 
+  <p>Workflows can carry a significant amount of overhead, both in terms of objects created in memory and nodes tracked in the repository. For this reason, it is better to have a workflow do its processing within itself rather than start additional workflows.</p> 
+  <p>An example of this would be a workflow that implements a business process on a set of content and then activates that content. It is better to create a custom workflow process that activates each of these nodes, rather than starting an <strong>Activate Content</strong> model for each of the content nodes that needs to be published. This approach will require additional development work, but is more efficient when executed than starting a separate workflow instance for each activation.</p> 
+  <p>Another example would be a workflow that processes a number of nodes, creates a workflow package, then activates said package. Rather than creating the package and then starting a separate workflow with the package as the payload, you can change the payload of your workflow in the step that creates the package and then call the step to activate the package within the same workflow model. </p> 
+  <h3>Handler Advance</h3> 
+  <p>When designing a workflow model you have the option to enable handler advance on your workflow steps. Alternately, you can add code to your workflow step to determine which step should be run next and then execute it.</p> 
+  <p>It is recommened to use handler advance as it delivers better performance. </p> 
+  <h3>Workflow Stages</h3> 
+  <p>You can define <a href="../../../sites/developing/using/workflows.md#workflowstages">workflow stages</a>, then assign tasks/steps to a specific workflow stage.</p> 
+  <p>This information is used for displaying the progress of a workflow when you click on the <a href="../../../sites/authoring/using/workflows-participating.md#openingaworkflowitemtoviewdetailsandtakeactions"><strong>Workflow Info</strong> tab of a workitem from the <strong>Inbox</strong></a>. Existing workflow models can be edited to add stages. </p> 
+  <h3>Activate Page Process Step</h3> 
+  <p>The <strong>Activate Page Process</strong> step will activate pages for you, but it will not automatically find any referenced DAM assets and activate those as well. </p> 
+  <p>This is something to keep in mind if you plan to use this step as part of a workflow model. </p> 
+  <h3>Upgrade Considerations</h3> 
+  <p>When upgrading your instance:</p> 
+  <ul> 
+   <li>make sure that any custom workflow models are backed up before an instance is upgraded.</li> 
+   <li>confirm that none of your custom workflows are stored under the <a href="#location">location</a>: 
+    <ul> 
+     <li><span class="code">/libs/settings/workflow/models/projects</span></li> 
+    </ul> </li> 
+  </ul> 
+  <note> 
+   <p>See also <a href="../../../sites/deploying/using/repository-restructuring-in-aem64.md">Repository Restructuring in AEM 6.4</a>.</p> 
+  </note> 
+  <h2>System Tools</h2> 
+  <p>There are many system tools available to help with monitoring, maintaining, and troubleshooting workflows. All example URLs below use <span class="code">localhost:4502</span>, but should be available on any author instance (<span class="code">&amp;lt;<i>hostname</i>&amp;gt;:&amp;lt;<i>port</i>&amp;gt;</span>). </p> 
+  <h3>Sling Job Handling Console</h3> 
+  <p><span class="code">http://localhost:4502/system/console/slingevent</span></p> 
+  <p>The Sling Job Handling console will show:</p> 
+  <ul> 
+   <li>Statistics on the state of jobs in the system since the last restart. </li> 
+   <li>It will also show the configurations for all job queues and provide a shortcut to editing them in the configuration manager. </li> 
+  </ul> 
+  <h3>Workflow Report Tool</h3> 
+  <p>The workflow reporting tool is being removed in 6.3 to prevent performance degradation. </p> 
+  <h3>Workflow Maintenance Operations MBean</h3> 
+  <p><span class="code">http://localhost:4502/system/console/jmx/com.adobe.granite.workflow:type=Maintenance</span></p> 
+  <p>The workflow maintenance MBean exposes several useful maintenance routines such as purging completed workflows and retrieving workflow statistics. </p> 
+  <h2>Further Information</h2> 
+  <p>For further information see:</p> 
+  <ul> 
+   <li><a href="../../../sites/authoring/using/workflows.md">Working with Workflows</a></li> 
+   <li><a href="../../../sites/administering/using/workflows.md">Administering Workflows</a></li> 
+   <li><a href="../../../sites/developing/using/workflows.md">Developing and Extending Workflows</a></li> 
+   <li><a href="../../../sites/deploying/using/configuring-performance.md">Performance Optimization</a></li> 
+  </ul> 
+ </body> 
+</html>

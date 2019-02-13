@@ -1,0 +1,78 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-11-02T16:57:56.204-0400" name="publishExternalDate" />
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/SCREENS;topic_tags:authoring" name="cq:tags" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2018-11-02T16:57:56.206-0400" name="cq:lastModified" />
+  <meta content="AEM Screens Notifications Service" name="jcr:title" />
+  <meta content="2018-11-02T16:57:56.204-0400" name="topicBrowsingSortDate" />
+  <meta content="jsyal" name="cq:lastModifiedBy" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="en" name="pageCreatedAt" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="/content/help/en/experience-manager/6-4/screens/morehelp/authoring;/content/help/en/experience-manager/6-4/screens/morehelp/authoring" name="moreHelpPaths" />
+  <meta content="jsyal" name="contentOwner" />
+  <meta content="4abe64be-5dc5-4002-a465-b62179bc4c71" name="jcr:predecessors" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-11-02T16:57:56.204-0400" name="lastPublishExternalDate" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2018-06-29T18:46:20.833-0400" name="firstPublishExternalDate" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/screens/using/screens-notifications-service.html" name="publishExternalURL" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="211e8db3-6d9e-41d0-b748-67b2e7e389b9" name="jcr:uuid" />
+  <meta content="@adobe.com;@caesars.com" name="admittedDomains" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SCREENS" name="primaryProductTag" />
+  <meta content="jsyal@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2018-11-02T16:57:56.401-0400" name="cq:lastReplicated" />
+  <meta content="2019-01-15T15:39:10.469-0500" name="jcr:created" />
+  <meta content="Follow this page to learn more about how you can monitor device activity." name="seoDescription" />
+  <meta content="jsyal" name="cq:lastReplicatedBy" />
+ </head>
+ <body>
+  <p><strong><em>AEM Screens Notifications Service</em></strong>, describes the feature where you can monitor device activity.</p> 
+  <p>This section covers the following topics:</p> 
+  <ul> 
+   <li><strong>Overview</strong></li> 
+   <li><strong>Configuring Email Settings</strong></li> 
+   <li><strong>Email Notification</strong></li> 
+   <li><strong>Example Use Case</strong></li> 
+  </ul> 
+  <note>
+   <p>This AEM Screens functionality is only available, if you have installed AEM 6.3.2 Feature Pack 3 or AEM 6.4.1 Screens Feature Pack 1.</p> 
+   <p>To get access to this Feature Pack, you must contact Adobe Support and request access. Once you have permissions you can download it from Package Share.<br /> </p> 
+  </note>
+  <h2>Overview</h2>
+  <p><strong><em>AEM Screens Notifications Service</em></strong>, allows administrators to receive an email if an AEM screens player does not ping for a configurable period of time.</p> 
+  <p>This service can be configured in the OSGi web console.</p> 
+  <h2>Configuring Email Settings</h2>
+  <p>Follow the steps below to configure the email notification settings:</p> 
+  <ol>
+   <li><p>Open <strong>Adobe Experience Manager Web Console Configuration</strong>.</p> </li>
+   <li><p>Open <strong>Screens Device Email Monitoring Service</strong>.</p> <img imageRotate="0" src="assets/screen_shot_2018-04-26at44602pm.png" /></li>
+   <li><p>Define the following fields to configure your settings for the email:</p> <p><strong>Devices Path</strong> Enter the path to the Screens Project(s) you wish to monitor. The path is usually /home/users/screens/&lt;Name of your project&gt;.</p><p>For example, if your project is <strong>We.Retail</strong>, you will use the project path as <strong><em>/home/users/screens/we-retail</em></strong>.</p>
+    <note>
+     <p>Specify the project path, where the device users are located.</p> 
+    </note><p><strong>Schedule Frequency</strong> Specify a time (e.g., 5:00 pm or 17:00) or frequency in hours (e.g., 1) at which this monitor should send emails.</p><p><strong>Ping Timeout</strong> This specifies the interval in minutes after which a device should be considered not reachable.</p><p><strong>SMTP Server</strong> Specifies the SMTP Server that is used for sending emails.</p><p><strong>SMTP Port</strong> Enter the SMTP Port.</p><p><strong>Use TLS</strong> Transport Layer Security (TLS) enables you to use a secure communication with the SMTP Server.</p><p>It is recommended to use TLS for secure connection to corporate mail servers. Please check with your mail administrator for appropriate values.</p><p><strong>username</strong> Specify the username for sending emails.</p><p><strong>password</strong> Specify the password for sending emails.</p><p><strong>Recipient</strong> Specify the recipient's email address.</p>
+    <note>
+     <p>You can enter only one email address. In order to send a bulk email, create a group or distribution list with the relevant users.</p> 
+    </note></li>
+   <li><p>Click <strong>Save</strong> to configure the monitor activity through an email for your AEM Screens device.</p> </li>
+  </ol>
+  <h2>Email Notification</h2>
+  <p>Once you set the configuration for your email notifications, you will receive an email notification that will contain the link to the actual device that is reported of inactivity.</p> 
+  <p>Accessing that link will navigate you directly to the device dashboard.</p> 
+  <p>Emails will only be sent, if there is at least one device that has not pinged for the given ping timeout and is still not pinging at the time of generating the email.</p> 
+  <h3>Example Use Cases</h3>
+  <p>The following example describe few scenarios for reference, to configure the properties from Screens Device Email Monitoring Service.</p> 
+  <p><strong>Scenario 1</strong>:</p> 
+  <p>If you set the schedule frequency as 1:00 am and the ping timeout as 60, then if your Screens device does not ping between 12:00 pm until 1:00 pm, you will receive an email notification confirming device inactivity.</p> 
+  <p><strong>Scenario 2</strong>:</p> 
+  <p>If you set the schedule frequency as 1 and the ping timeout as 60, then if your Screens device does not ping between once at any particular time of the day, you will receive an email notification confirming device inactivity.</p> 
+ </body>
+</html>

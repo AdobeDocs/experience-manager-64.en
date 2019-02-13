@@ -1,0 +1,144 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2018-01-19T19:06:46.287-0500" name="jcr:created" /> 
+  <meta content="1db47586-1e14-4e8a-b630-e43dfae7bb1a" name="jcr:predecessors" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/morehelp/development-tools;/content/help/en/experience-manager/6-4/sites/developing/morehelp/development-tools" name="moreHelpPaths" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="/content/docs/en/aem/6-3/develop/dev-tools/aem-brackets" name="qaNotes" /> 
+  <meta content="2018-05-08T12:40:16.105-0400" name="locHandOffDate" /> 
+  <meta content="2018-04-03T09:00:00.607-0400" name="cq:lastReplicated" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2018-01-18T11:18:01.362-0500" name="publishExternalDate" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="msm-service" name="cq:lastModifiedBy" /> 
+  <meta content="45d1bb9a-ed5a-4948-b4a8-ffa518a84021" name="jcr:uuid" /> 
+  <meta content="2017-10-31T16:17:27.025-0400" name="firstPublishExternalDate" /> 
+  <meta content="User" name="contentOwner" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="2018-01-18T11:18:01.362-0500" name="lastPublishExternalDate" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:development-tools;content_type:reference" name="cq:tags" /> 
+  <meta content="2018-01-18T11:18:01.362-0500" name="topicBrowsingSortDate" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/aem-brackets.html" name="publishExternalURL" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2018-05-08T12:40:16.106-0400" name="cq:lastModified" /> 
+  <meta content="audience:developing" name="primaryAudienceTag" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="AEM Brackets Extension" name="jcr:title" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="AEM Brackets Extension" name="navTitle" /> 
+  <meta content="AEM Brackets Extension" name="seoTitle" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="" name="jcr:primaryType" /> 
+ </head> 
+ <body> 
+  <h3>Overview</h3> 
+  <p>The AEM Brackets Extension provides a smooth workflow to edit AEM components and client libraries, and leverages the power of the <a href="http://brackets.io/" target="_blank">Brackets</a> code editor, which gives access from within the code editor to Photoshop files and layers. The easy synchronization provided by the extension (no Maven or File Vault required) increases developer efficiency and also helps front-end developers with limited AEM knowledge to participate on projects. This extension also provides some support for the <a href="/content/help/en/experience-manager/htl/user-guide">HTML Template Language (HTL)</a>, which takes away the complexity of JSP to make component development easier and more secure.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-62.png" title="Brackets with Extract and the AEM Extension" /> 
+  <h4>Features</h4> 
+  <p>The main features of the AEM Brackets Extension are:</p> 
+  <ul> 
+   <li>Automated synchronization of changed files to the AEM development instance.</li> 
+   <li>Manual bidirectional synchronization of files and folders.</li> 
+   <li>Full content-package synchronization of the project.</li> 
+   <li>HTL code completion for expressions and <span class="code">data-sly-*</span> block statements.</li> 
+  </ul> 
+  <p>Additionally, Brackets comes with many useful features for AEM font-end developers:</p> 
+  <ul> 
+   <li>Photoshop file support to extract information from a PSD file, like layers, measurements, colors, fonts, texts, etc.</li> 
+   <li>Code hints from the PSD, to easily reuse this extracted information in the code.</li> 
+   <li>CSS preprocessor support, like LESS and SCSS.</li> 
+   <li>And hundreds of additional extensions that cover more specific needs.</li> 
+  </ul> 
+  <h3>Installation</h3> 
+  <h4>Brackets</h4> 
+  <p>The AEM Brackets Extension supports Brackets version 1.0 or greater.</p> 
+  <p>Download the latest Brackets version from <a href="http://brackets.io/" target="_blank">brackets.io</a>.<br /> </p> 
+  <h4>The Extension</h4> 
+  <p>To install the extension proceed as follows:</p> 
+  <ol> 
+   <li><p>Open Brackets. In menu <strong>File</strong>, select <strong>Extension Manager…</strong></p> </li> 
+   <li><p>Enter <strong>AEM</strong> in the search bar and look for <strong>AEM Brackets Extension</strong>.</p> <img imageRotate="0" src="assets/chlimage_1-63.png" title="Brackets Extension Manager" /></li> 
+   <li><p>Click <strong>Install</strong>.</p> </li> 
+   <li><p>Close the dialog and Extension Manager after the installation completed.</p> </li> 
+  </ol> 
+  <h3>Getting Started</h3> 
+  <h4>The Content-Package Project</h4> 
+  <p>After the extension has been installed, you can start developing AEM components by opening a content-package folder from your file system with Brackets.</p> 
+  <p>The project has to contain at least:</p> 
+  <ol> 
+   <li>a <span class="code">jcr_root</span> folder (e.g. <span class="code">myproject/jcr_root</span>)</li> 
+   <li>a <span class="code">filter.xml</span> file (e.g. <span class="code">myproject/META-INF/vault/filter.xml</span>); for more details about the structure of the <span class="code">filter.xml</span> file please see the <a href="http://jackrabbit.apache.org/filevault/filter.html">Workspace Filter definition</a>.</li> 
+  </ol> 
+  <p>In Brackets' <strong>File</strong> menu, choose <strong>Open Folder…</strong> and pick either the <span class="code">jcr_root</span> folder, or the parent project folder.</p> 
+  <note> 
+   <p>If you don't have of your own a project with a content-package, you can try the <a href="https://github.com/Adobe-Marketing-Cloud/aem-sightly-sample-todomvc">HTL TodoMVC Example</a>. On GitHub, click <strong>Download ZIP</strong>, extract the files locally, and as instructed above, open the <span class="code">jcr_root</span> folder in Brackets. Then follow the steps below to setup the <strong>Project Settings</strong>, and finally upload the whole package to your AEM development instance by doing an <strong>Export Content Package</strong> as instructed further down in the Full Content-Package Synchronization section.</p> 
+   <p>After these steps, you should be able to access the <span class="code">/content/todo.html</span> URL on your AEM development instance and you can start doing modifications to the code in Brackets and see how, after doing a refresh in the web browser, the changes were immediately synchronized to the AEM server.</p> 
+  </note> 
+  <h4>Project Settings</h4> 
+  <p>In order to synchronize your content to and from an AEM development instance, you need to define your Project Settings. This can be done by going to the <strong>AEM</strong> menu and choosing<strong> Project Settings…</strong></p> 
+  <img imageRotate="0" src="assets/chlimage_1-64.png" title="HTL Project Settings" /> 
+  <p>The Project Settings allow to define:</p> 
+  <ol> 
+   <li>The server URL (e.g. <span class="code">http://localhost:4502</span>)</li> 
+   <li>Wether to tolerate servers that don't have a valid HTTPS certificate (keep unchecked, unless required)</li> 
+   <li>The username used for synchronizing content (e.g. <span class="code">admin</span>)</li> 
+   <li>The user's password (e.g. <span class="code">admin</span>)</li> 
+  </ol> 
+  <h3>Synchronizing Content</h3> 
+  <p>The AEM Brackets Extension provides following types of content synchronization for files and folders that are allowed by the filtering rules defined in <span class="code">filter.xml</span>:</p> 
+  <h4>Automated Synchronization Of Changed Files</h4> 
+  <p>This will only synchronize changes from Brackets to the AEM instance, but never the other way around.</p> 
+  <h4>Manual Bidirectional Synchronization</h4> 
+  <p>In the Project Explorer, open the contextual menu by right-clicking on any file or folder, and the <strong>Export to Server</strong> or <strong>Import from Server</strong> options can be accessed.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-65.png" title="Synchronise specific file or folder" /> 
+  <note> 
+   <p>If the selected entry is outside of the <span class="code">jcr_root</span> folder, the <strong>Export to Server</strong> and <strong>Import from Server</strong> contextual menu entries are disabled.</p> 
+  </note> 
+  <h4>Full Content-Package Synchronization</h4> 
+  <p>In the <strong>AEM</strong> menu, the <strong>Export Content Package</strong> or <strong>Import Content Package</strong> options allow to synchronize the whole project with the server.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-66.png" title="Synchronise full content-package" /> 
+  <h4>Synchronization Status</h4> 
+  <p>The AEM Brackets Extension features a notification icon in the toolbar on the right of the Brackets window, which indicates the status of the last synchronization:</p> 
+  <ul> 
+   <li>green - all files have been synchronized successfully</li> 
+   <li>blue - a sync operation is in progress</li> 
+   <li>yellow - some of the files were not synchronized</li> 
+   <li>red - none of the files were synchronized</li> 
+  </ul> 
+  <p>Clicking on the notification icon will open the Synchronization Status report dialog that lists of all the status for each synchronized file.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-67.png" title="Synchronisation Status" /> 
+  <note> 
+   <p>Only content that's marked as included by the filtering rules from <span class="code">filter.xml</span> will be synchronized, regardless of the synchronization method used.</p> 
+   <p>Additionally, <span class="code">.vltignore</span> files are supported for excluding content from synchronizing to and from the repository.</p> 
+  </note> 
+  <h3>Editing HTL Code</h3> 
+  <p>The AEM Brackets Extension also features some auto-completion to ease the writing of HTL attributes and expressions.<br /> </p> 
+  <h4>Attribute Auto-Completion</h4> 
+  <ol> 
+   <li><p>In an HTML attribute, type <span class="code">sly</span>. The attribute is auto-completed to <span class="code">data-sly-</span>.</p> </li> 
+   <li><p>Select the HTL attribute in the dropdown list.</p> </li> 
+  </ol> 
+  <h4>Expression Auto-Completion</h4> 
+  <p>Within an expression <span class="code">${}</span>, common variable names are auto-completed. </p> 
+  <h3>More Information</h3> 
+  <p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">The AEM Brackets Extension is an open-source project, hosted on GitHub by the <a href="https://github.com/Adobe-Marketing-Cloud">Adobe Marketing Cloud</a> organization, under the Apache License, version 2.0:</p> 
+  <ul style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;"> 
+   <li>Code repository: <a href="https://github.com/Adobe-Marketing-Cloud/aem-sightly-brackets-extension">https://github.com/Adobe-Marketing-Cloud/aem-sightly-brackets-extension</a></li> 
+   <li>Apache License, version 2.0: <a href="http://www.apache.org/licenses/LICENSE-2.0.html">http://www.apache.org/licenses/LICENSE-2.0.html</a></li> 
+  </ul> 
+  <p>The Brackets code editor is also an open-source project, hosted on GitHub by the <a href="https://github.com/adobe">Adobe Systems Incorporated</a> organization:</p> 
+  <ul> 
+   <li>Code repository: <a href="https://github.com/adobe/brackets">https://github.com/adobe/brackets</a></li> 
+  </ul> 
+  <p>Feel free to contribute!</p> 
+ </body> 
+</html>

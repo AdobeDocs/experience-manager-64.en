@@ -1,0 +1,227 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2018-04-26T04:21:14.364-0400" name="locHandOffDate" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="en" name="pageCreatedAt" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="2018-04-03T08:10:37.897-0400" name="topicBrowsingSortDate" /> 
+  <meta content="2018-04-03T08:10:38.474-0400" name="cq:lastReplicated" /> 
+  <meta content="2017-12-01T19:06:25.677-0500" name="jcr:created" /> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/adaptive_forms;/content/help/en/experience-manager/6-4/forms/morehelp/develop" name="moreHelpPaths" /> 
+  <meta content="Using Calvin you can create test cases in CRXDE and run UI tests directly in the web browser to thoroughly test your adaptive forms." name="seoDescription" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="Automate testing of adaptive forms" name="jcr:title" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="0420a65f-f528-4fac-a67b-3380757f6006" name="jcr:predecessors" /> 
+  <meta content="0a7a4a21-aebf-42b0-952b-96d6ddae4179" name="jcr:uuid" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="gtalwar" name="contentOwner" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="msm-service" name="cq:lastModifiedBy" /> 
+  <meta content="2018-04-03T08:10:37.897-0400" name="publishExternalDate" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/calvin.html" name="publishExternalURL" /> 
+  <meta content="content_type:reference;topic_tags:adaptive_forms;topic_tags:develop" name="cq:tags" /> 
+  <meta content="2018-04-26T04:21:14.364-0400" name="cq:lastModified" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2017-06-05T12:48:32.475-0400" name="firstPublishExternalDate" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2018-04-03T08:10:37.897-0400" name="lastPublishExternalDate" /> 
+ </head> 
+ <body> 
+  <h2>Overview</h2> 
+  <p>Adaptive forms are integral to your customer interactions. It is important to test your adaptive forms with every change you make in them, such as while rolling out a new fix pack or changing a rule in the form. However, functional testing adaptive forms and every field in them may be tedious. </p> 
+  <p>Calvin allows you to automate testing of your adaptive forms in the web browser. Calvin utilizes <a href="../../sites/developing/using/hobbes.md" target="_blank">Hobbes</a>'s user interface for running the tests and provides the following tools:</p> 
+  <ul> 
+   <li>A JavaScript API for creating tests.</li> 
+   <li>A user interface for running tests.</li> 
+  </ul> 
+  <p>Using Calvin, you can create test cases in CRXDE and run UI tests directly in the web browser to thoroughly test your adaptive forms' following aspects:</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td><strong>Adaptive form aspect to test</strong></td> 
+     <td><strong>Description</strong></td> 
+    </tr> 
+    <tr> 
+     <td>Prefill experience of an Adaptive Form</td> 
+     <td> 
+      <ul> 
+       <li>Is the form being prepopulated as expected based on the type of data model?</li> 
+       <li>Are the default values of form objects being prefilled as expected?</li> 
+      </ul> </td> 
+    </tr> 
+    <tr> 
+     <td>Submit experience of an adaptive form</td> 
+     <td> 
+      <ul> 
+       <li>Is correct data being generated on submit?</li> 
+       <li>Is the form being re-validated on the server during submit?</li> 
+       <li>Is the submit action configured for the form being executed?</li> 
+      </ul> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="221"><p>Expression Rules</p> <p> </p> </td> 
+     <td valign="top" width="221"> 
+      <ul> 
+       <li>Are the expressions associated with form objects, such as calculate, visible, execute scripts after exiting a field, being executed after performing the relevant UI operations?<br /> </li> 
+      </ul> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="221">Validations</td> 
+     <td valign="top" width="221"> 
+      <ul> 
+       <li>Are field validations executing as expected after performing the operations?</li> 
+      </ul> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="221"><p>Lazy Loading</p> <p> </p> </td> 
+     <td valign="top" width="221"> 
+      <ul> 
+       <li>On click of tabs (or any navigation item of a panel), is the HTML being fetched from server as per lazy loading configuration?</li> 
+      </ul> <h1> </h1> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="221"><p>UI Interaction</p> </td> 
+     <td valign="top" width="221"> 
+      <ul> 
+       <li><a href="https://helpx.adobe.com/aem-forms/6-3/calvin-sdk-javascript-api/calvin.html#toc2__anchor" target="_blank">Testing UI interaction with Adaptive Form objects</a></li> 
+      </ul> </td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <p> </p> 
+  <h3>Prerequisites</h3> 
+  <p>Before using this article to create your test cases, you need to know the following:</p> 
+  <ul> 
+   <li>Creating test suites and executing test cases using <a href="https://docs.adobe.com/docs/en/aem/6-3/develop/components/hobbes.html" target="_blank">Hobbes</a></li> 
+   <li><a href="https://docs.adobe.com/docs/en/aem/6-2/develop/ref/test-api/index.html" target="_blank">Hobbes JavaScript APIs</a></li> 
+   <li><a href="https://helpx.adobe.com/aem-forms/6-3/calvin-sdk-javascript-api/calvin.html" target="_blank">Calvin JavaScript APIs</a></li> 
+  </ul> 
+  <h2>Example: Create a test suite for an adaptive form using Hobbes as testing framework</h2> 
+  <p>The following example walks you through creation of a test suite for testing multiple adaptive forms. You need to create a separate test case for each form that you need to test. By following steps similar to the following ones and modifying the JavaScript code in step 11, you can create your own test suite to test your adaptive forms. </p> 
+  <ol> 
+   <li><p> Go to CRXDE Lite in your web browser: <span class="kbd">http://[server]:[port]/crx/de</span>.</p> </li> 
+   <li><p>Right-click the /etc/clientlibs subfolder and click <strong>Create</strong> &amp;gt; <strong>Create Node</strong>. Enter a name (here afTestRegistration), specify the type of node as cq:ClientLibraryFolder, and click <strong>OK.</strong></p> <p>The clientlibs folder contains the registration aspect of your application (JS and Init). It is recommended that you register all Hobbes test suites objects specific to a form in the clientlibs folder.</p> </li> 
+   <li><p>Specify the following property values in the newly created node (here afTestRegistration) and then click<strong> Save All</strong>. These properties help Hobbes recognize the folder as a test. To reuse this client library as a dependency in other client libraries, name it as granite.testing.calvin.tests. </p> 
+    <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+     <tbody> 
+      <tr> 
+       <td>Property</td> 
+       <td>Type</td> 
+       <td>Value</td> 
+      </tr> 
+      <tr> 
+       <td valign="top"><p>categories</p> </td> 
+       <td valign="top"><p>String[]</p> </td> 
+       <td valign="top"><p>granite.testing.hobbes.tests, granite.testing.calvin.tests</p> </td> 
+      </tr> 
+      <tr> 
+       <td valign="top"><p>dependencies</p> </td> 
+       <td valign="top"><p>String[]</p> </td> 
+       <td valign="top"><p>granite.testing.hobbes.testrunner, granite.testing.calvin, apps.testframework.all</p> </td> 
+      </tr> 
+     </tbody> 
+    </table> 
+    <note> 
+     <p>The granite.testing.calvin.af clientlib contains all the adaptive forms APIs. These APIs are part of the calvin namespace.</p> 
+    </note><img imageRotate="0" src="assets/1_aftestregistration.png" /></li> 
+   <li><p>Right-click the test node (here <strong>afTestRegistration)</strong> and then click <strong>Create</strong> &amp;gt; <strong>Create File</strong>. Name the file js.txt and click <strong>OK</strong>.</p> </li> 
+   <li><p>In the js.txt file, add the following text: </p> 
+    <codeblock gutter="true" class="syntax js">
+      #base=.!!discoiqbr!!js.txt!!discoiqbr!! 
+    </codeblock></li> 
+   <li><p>Click <strong>Save All</strong> and then close the js.txt file.</p> </li> 
+   <li><p>Right-click the test node (here <strong>afTestRegistration)</strong> and click <strong>Create</strong> &amp;gt; <strong>Create File</strong>. Name the file init.js and click <strong>OK</strong>.</p> </li> 
+   <li><p>Copy the following code to the init.js file and click <strong>Save All</strong>: </p> 
+    <codeblock gutter="true" class="syntax js">
+      (function(window,&amp;nbsp;hobs)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;'use&amp;nbsp;strict';!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;window.testsuites&amp;nbsp;=&amp;nbsp;window.testsuites&amp;nbsp;||&amp;nbsp;{};!!discoiqbr!!&amp;nbsp;&amp;nbsp;//&amp;nbsp;Registering&amp;nbsp;the&amp;nbsp;test&amp;nbsp;form&amp;nbsp;suite&amp;nbsp;to&amp;nbsp;the&amp;nbsp;sytem!!discoiqbr!!&amp;nbsp;&amp;nbsp;//&amp;nbsp;If&amp;nbsp;there&amp;nbsp;are&amp;nbsp;other&amp;nbsp;forms,&amp;nbsp;all&amp;nbsp;registration&amp;nbsp;should&amp;nbsp;be&amp;nbsp;done&amp;nbsp;here!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;window.testsuites.testForm&amp;nbsp;=&amp;nbsp;new&amp;nbsp;hobs.TestSuite("Adaptive&amp;nbsp;Form&amp;nbsp;-&amp;nbsp;Demo&amp;nbsp;Test",&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;path:&amp;nbsp;'/etc/clientlibs/afTestRegistration/init.js',!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;register:&amp;nbsp;true!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;});!!discoiqbr!!&amp;nbsp;//&amp;nbsp;window.testsuites.testForm1&amp;nbsp;=&amp;nbsp;new&amp;nbsp;hobs.TestSuite("testForm1");!!discoiqbr!!}(window,&amp;nbsp;window.hobs)); 
+    </codeblock><p>The above code creates a test suite named <strong>Adaptive Form - Demo Test</strong>. To create a test suite with a different name, change the name accordingly.</p> </li> 
+   <li><p>Click <strong>Create</strong> &amp;gt; <strong>Create Node</strong> to create a node under the clientlib folder for each form that you want to test. This example uses a node named <strong>testForm </strong>to test an adaptive form named <strong>testForm</strong><span class="code">.</span>Specify the following properties and click <strong>OK</strong>:</p> 
+    <ul> 
+     <li>Name: testForm (your form name)</li> 
+     <li>Type: cq:ClientLibraryFolder</li> 
+    </ul> </li> 
+   <li><p>Add the following properties to the newly created node (here testForm) to test an adaptive form:</p> 
+    <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+     <tbody> 
+      <tr> 
+       <td><strong>Property</strong></td> 
+       <td><strong>Type</strong></td> 
+       <td><strong>Value</strong></td> 
+      </tr> 
+      <tr> 
+       <td>categories</td> 
+       <td>String[]</td> 
+       <td>granite.testing.hobbes.tests, granite.testing.hobbes.tests.testForm</td> 
+      </tr> 
+      <tr> 
+       <td>dependencies</td> 
+       <td>String[]</td> 
+       <td>granite.testing.calvin.tests</td> 
+      </tr> 
+     </tbody> 
+    </table> 
+    <note> 
+     <p>This example uses a dependency on the client lib granite.testing.calvin.tests for better management. This example also adds a client lib category, "granite.testing.hobbes.tests.testForm" to reuse this client lib, if necessary.</p> 
+    </note><img imageRotate="0" src="assets/2_testformproperties.png" /></li> 
+   <li><p>Right-click the folder you have created for the test form (here testForm) and select <strong>Create</strong> &amp;gt; <strong>Create File</strong>. Name the file scriptingTest.js and add the following code to the file and click <strong>Save All.</strong></p> <p>To use the following code to test another adaptive form, change the path and name of the form in <strong>navigateTo</strong> (lines 11, 36, and 62) and the respective test cases. For more information on APIs for testing different aspects of forms and form objects, see <a href="https://helpx.adobe.com/aem-forms/6-3/calvin-sdk-javascript-api/calvin.html" target="_blank">Calvin APIs</a>. </p>  
+    <codeblock gutter="true" class="syntax js">
+      (function(window,&amp;nbsp;hobs)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;'use&amp;nbsp;strict';!!discoiqbr!!!!discoiqbr!!&amp;nbsp;var&amp;nbsp;ts&amp;nbsp;=&amp;nbsp;new&amp;nbsp;hobs.TestSuite("Script&amp;nbsp;Test",&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;path:&amp;nbsp;'/etc/clientlibs/testForm/scriptingTest.js',!!discoiqbr!!&amp;nbsp;&amp;nbsp;register:&amp;nbsp;false!!discoiqbr!!&amp;nbsp;})&amp;nbsp;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;.addTestCase(new&amp;nbsp;hobs.TestCase("Checking&amp;nbsp;execution&amp;nbsp;of&amp;nbsp;calculate&amp;nbsp;script")!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;navigate&amp;nbsp;to&amp;nbsp;the&amp;nbsp;testForm&amp;nbsp;which&amp;nbsp;is&amp;nbsp;to&amp;nbsp;be&amp;nbsp;tested!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;.navigateTo("/content/forms/af/testForm.html?wcmmode=disabled")!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;check&amp;nbsp;if&amp;nbsp;adaptive&amp;nbsp;form&amp;nbsp;is&amp;nbsp;loaded!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;.asserts.isTrue(function&amp;nbsp;()&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;return&amp;nbsp;calvin.isFormLoaded()!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;})!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;.execSyncFct(function&amp;nbsp;()&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;create&amp;nbsp;a&amp;nbsp;spy&amp;nbsp;before&amp;nbsp;checking&amp;nbsp;for&amp;nbsp;the&amp;nbsp;expression!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;calvin.spyOnExpression("panel1.textbox1");!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;setValue&amp;nbsp;would&amp;nbsp;trigger&amp;nbsp;enter,&amp;nbsp;set&amp;nbsp;the&amp;nbsp;value&amp;nbsp;and&amp;nbsp;exit&amp;nbsp;from&amp;nbsp;the&amp;nbsp;field!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;calvin.setValueInDOM("panel1.textbox",&amp;nbsp;"5");!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;})!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;if&amp;nbsp;the&amp;nbsp;calculate&amp;nbsp;expression&amp;nbsp;was&amp;nbsp;setting&amp;nbsp;"textbox1"&amp;nbsp;value&amp;nbsp;to&amp;nbsp;"5",&amp;nbsp;let's&amp;nbsp;also&amp;nbsp;check&amp;nbsp;that!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;.asserts.isTrue(function&amp;nbsp;()&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;return&amp;nbsp;calvin.isExpressionExecuted("panel1.textbox1",&amp;nbsp;"Calculate");!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;})!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;.execSyncFct(function&amp;nbsp;()&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;calvin.destroySpyOnExpression("panel1.textbox1");!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;})!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;.asserts.isTrue(function&amp;nbsp;()&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;return&amp;nbsp;calvin.model("panel1.textbox1").value&amp;nbsp;==&amp;nbsp;"5"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;})!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;)!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;.addTestCase(new&amp;nbsp;hobs.TestCase("Calculate&amp;nbsp;script&amp;nbsp;Test")!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;navigate&amp;nbsp;to&amp;nbsp;the&amp;nbsp;testForm&amp;nbsp;which&amp;nbsp;is&amp;nbsp;to&amp;nbsp;be&amp;nbsp;tested!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;.navigateTo("/content/forms/af/cal/demoform.html?wcmmode=disabled&amp;dataRef=crx:///content/forms/af/cal/prefill.xml")!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;check&amp;nbsp;if&amp;nbsp;adaptive&amp;nbsp;form&amp;nbsp;is&amp;nbsp;loaded!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;.asserts.isTrue(function&amp;nbsp;()&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;return&amp;nbsp;calvin.isFormLoaded()!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;})!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;.execSyncFct(function&amp;nbsp;()&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;create&amp;nbsp;a&amp;nbsp;spy&amp;nbsp;before&amp;nbsp;checking&amp;nbsp;for&amp;nbsp;the&amp;nbsp;expression!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;calvin.spyOnExpression("panel2.panel1488218690733.downPayment");!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;setValue&amp;nbsp;would&amp;nbsp;trigger&amp;nbsp;enter,&amp;nbsp;set&amp;nbsp;the&amp;nbsp;value&amp;nbsp;and&amp;nbsp;exit&amp;nbsp;from&amp;nbsp;the&amp;nbsp;field!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;calvin.setValueInDOM("panel2.panel1488218690733.priceProperty",&amp;nbsp;"1000000");!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;})!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;.asserts.isTrue(function&amp;nbsp;()&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;return&amp;nbsp;calvin.isExpressionExecuted("panel2.panel1488218690733.downPayment",&amp;nbsp;"Calculate");!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;})!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;.execSyncFct(function&amp;nbsp;()&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;calvin.destroySpyOnExpression("panel2.panel1488218690733.downPayment");!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;})!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;.asserts.isTrue(function&amp;nbsp;()&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;if&amp;nbsp;the&amp;nbsp;calculate&amp;nbsp;expression&amp;nbsp;was&amp;nbsp;setting&amp;nbsp;"downPayment"&amp;nbsp;value&amp;nbsp;to&amp;nbsp;"10000",&amp;nbsp;let's&amp;nbsp;also&amp;nbsp;check&amp;nbsp;that!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;return&amp;nbsp;calvin.model("panel2.panel1488218690733.downPayment").value&amp;nbsp;==&amp;nbsp;10000!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;})!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;)!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;.addTestCase(new&amp;nbsp;hobs.TestCase("Checking&amp;nbsp;execution&amp;nbsp;of&amp;nbsp;Value&amp;nbsp;commit&amp;nbsp;script")!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;navigate&amp;nbsp;to&amp;nbsp;the&amp;nbsp;testForm&amp;nbsp;which&amp;nbsp;is&amp;nbsp;to&amp;nbsp;be&amp;nbsp;tested!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;.navigateTo("/content/forms/af/cal/demoform.html?wcmmode=disabled&amp;dataRef=crx:///content/forms/af/cal/prefill.xml")!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;check&amp;nbsp;if&amp;nbsp;adaptive&amp;nbsp;form&amp;nbsp;is&amp;nbsp;loaded!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;.asserts.isTrue(function&amp;nbsp;()&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;return&amp;nbsp;calvin.isFormLoaded()!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;})!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;.execSyncFct(function&amp;nbsp;()&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;create&amp;nbsp;a&amp;nbsp;spy&amp;nbsp;before&amp;nbsp;checking&amp;nbsp;for&amp;nbsp;the&amp;nbsp;expression!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;calvin.spyOnExpression("panel2.panel1488218690733.priceProperty");!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;setValue&amp;nbsp;would&amp;nbsp;trigger&amp;nbsp;enter,&amp;nbsp;set&amp;nbsp;the&amp;nbsp;value&amp;nbsp;and&amp;nbsp;exit&amp;nbsp;from&amp;nbsp;the&amp;nbsp;field!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;calvin.setValueInDOM("panel2.panel1488218690733.priceProperty",&amp;nbsp;"100");!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;})!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;.asserts.isTrue(function&amp;nbsp;()&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;return&amp;nbsp;calvin.isExpressionExecuted("panel2.panel1488218690733.priceProperty",&amp;nbsp;"Value&amp;nbsp;Commit");!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;})!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;.execSyncFct(function&amp;nbsp;()&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;calvin.destroySpyOnExpression("panel2.panel1488218690733.priceProperty");!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;})!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;.asserts.isTrue(function&amp;nbsp;()&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;if&amp;nbsp;the&amp;nbsp;value&amp;nbsp;commit&amp;nbsp;expression&amp;nbsp;was&amp;nbsp;setting&amp;nbsp;"textbox1488215618594"&amp;nbsp;value&amp;nbsp;to&amp;nbsp;"0",&amp;nbsp;let's&amp;nbsp;also&amp;nbsp;check&amp;nbsp;that!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;return&amp;nbsp;calvin.model("panel2.panel1488218690733.textbox1488215618594").value&amp;nbsp;==&amp;nbsp;0!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;})!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;);!!discoiqbr!!!!discoiqbr!!&amp;nbsp;//&amp;nbsp;register&amp;nbsp;the&amp;nbsp;test&amp;nbsp;suite&amp;nbsp;with&amp;nbsp;testForm!!discoiqbr!!&amp;nbsp;&amp;nbsp;window.testsuites.testForm.add(ts);!!discoiqbr!!!!discoiqbr!!!!discoiqbr!!&amp;nbsp;}(window,&amp;nbsp;window.hobs));!!discoiqbr!! 
+    </codeblock> <p>The test case is created. Proceed to run the test case to test adaptive forms through Hobbes. For steps for running the test cases, see <a href="../../sites/developing/using/hobbes.md">Executing Tests in Testing Your UI Using Automated Tests</a>.</p> </li> 
+  </ol> 
+  <div> 
+   <p>You can also install the package in the attached file SampleTestPackage.zip to achieve the same results as by the steps explained in Example: Create a test suite for an adaptive form using Hobbes as testing framework.</p> 
+   <p><a alt="SampleTestPackage.zip" href="assets/sampletestpackage.zip">Get File</a></p> 
+  </div> 
+  <h2>Testing Your UI Using Automated Tests</h2> 
+  <h3>Running a Single Test Suite</h3> 
+  <p>Tests Suites can be run individually. When you run a Test Suite, the page changes as the Test Cases and their Actions are executed and the results appear after completion of the test. Icons indicate the results.</p> 
+  <p>A checkmark icon indicates a passed test: <img src="assets/checkmark.png" /></p> 
+  <p>An "X" icon indicates a failed test: <img src="assets/cross.png" /></p> 
+  <p>To run a Test Suite:</p> 
+  <ol> 
+   <li><p>In the Tests panel, click or tap the name of the Test Case that you want to run to expand the deatils of the Actions.</p> <img imageRotate="0" src="assets/1_tapnameoftestcase.png" /></li> 
+   <li><p>Click or tap the Run tests button. <img src="assets/runtestcase.png" /></p> <img imageRotate="0" src="assets/2_clickrun.png" /></li> 
+   <li><p>The placeholder is replaced with page content as the test executes.</p> <img imageRotate="0" src="assets/3_pagecontent.png" /></li> 
+   <li><p>Review the results of the Test Case by tapping or clicking the description to open the Result panel. Tapping or clicking the name of your Test Case in the Result panel shows all details.</p> <img imageRotate="0" src="assets/4_reviewresults.png" /></li> 
+  </ol> 
+  <p>The steps for testing your AEM adaptive forms are similar to steps for testing your AEM UI. For more information on testing your adaptive forms, see the following topics in <a href="/content/help/en//experience-manager/6-3/sites/developing/using/hobbes" target="_blank">Testing Your UI</a>:</p> 
+  <ul> 
+   <li>Viewing Test Suites</li> 
+   <li>Running Multiple Tests<br /> </li> 
+  </ul> 
+  <h2>Glossary</h2> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td><strong>Term</strong></td> 
+     <td><strong>Description</strong></td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="100"><p>Test suite</p> </td> 
+     <td valign="top" width="315"><p>A test suite is a collection of related test cases.</p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="100"><p>Test case</p> </td> 
+     <td valign="top" width="315"><p>A test case represents a task that a user performs using your UI. Add test cases to your test suite to test the activities that users perform.</p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="100"><p>Actions</p> </td> 
+     <td valign="top" width="315"><p>Actions are methods that perform a gesture in the UI, such as clicking a button or filling an input box with a value.</p> <p>The methods of the hobs.actions.Asserts, hobs.actions.Core and hobs.utils.af classes are actions that you can use in your tests. All actions execute synchronously.</p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="100"><p>Author or publish environment</p> </td> 
+     <td valign="top" width="315"><p>In general, forms can either be tested in author or publish environment. In case of publish environment, by default, the access to execute the test is restricted. This is because all the client libraries related to test runner lies inside the /libs in the JCR structure.</p> </td> 
+    </tr> 
+   </tbody> 
+  </table> 
+ </body> 
+</html>

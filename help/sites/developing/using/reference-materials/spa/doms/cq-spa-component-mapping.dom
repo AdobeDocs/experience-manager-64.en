@@ -1,0 +1,40 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2019-01-15T15:38:59.904-0500" name="jcr:created" />
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/using/reference-materials" name="redirectTarget" />
+  <meta content="2018-11-26T09:52:12.526-0500" name="cq:lastModified" />
+  <meta content="bd7a1217-7e8e-4d4b-914b-b138f6ea616a" name="jcr:predecessors" />
+  <meta content="left" name="sideColumn" />
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="9323ad95-bdef-4428-8447-6911e0a23116" name="jcr:uuid" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="false" name="doNotLocalize" />
+  <meta content="2018-11-26T09:52:12.519-0500" name="topicBrowsingSortDate" />
+  <meta content="2018-11-26T09:52:12.519-0500" name="lastPublishExternalDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="video" name="pageLayout" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials/spa/cq-spa-component-mapping.html" name="publishExternalURL" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="carlino" name="contentOwner" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="not_checked" name="acrolinxStatus" />
+  <meta content="cq-spa-component-mapping" name="jcr:title" />
+  <meta content="true" name="noIndex" />
+  <meta content="light" name="heroGradient" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="en" name="pageCreatedAt" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-11-26T09:52:12.576-0500" name="cq:lastReplicated" />
+  <meta content="2018-11-05T03:15:42.676-0500" name="firstPublishExternalDate" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-11-26T09:52:12.519-0500" name="publishExternalDate" />
+ </head>
+ <body></body>
+</html>

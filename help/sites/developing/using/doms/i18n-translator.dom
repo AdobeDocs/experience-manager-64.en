@@ -1,0 +1,291 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2017-10-31T16:16:31.339-0400" name="firstPublishExternalDate" /> 
+  <meta content="trushton@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2018-12-11T13:38:49.700-0500" name="publishExternalDate" /> 
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" /> 
+  <meta content="Using Translator to Manage Dictionaries" name="seoTitle" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/morehelp/components;/content/help/en/experience-manager/6-4/sites/developing/morehelp/components" name="moreHelpPaths" /> 
+  <meta content="Using Translator to Manage Dictionaries" name="jcr:title" /> 
+  <meta content="AEM provides a console for managing the various translations of texts used in component UI" name="seoDescription" /> 
+  <meta content="2017-12-06T19:03:24.546-0500" name="jcr:created" /> 
+  <meta content="Using Translator to Manage Dictionaries" name="navTitle" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="2018-12-11T13:38:49.793-0500" name="cq:lastReplicated" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/i18n-translator.html" name="publishExternalURL" /> 
+  <meta content="1f28eb8b-8b3b-4cba-aaed-77c7df25794e" name="jcr:uuid" /> 
+  <meta content="trushton" name="cq:lastReplicatedBy" /> 
+  <meta content="2018-12-11T13:38:49.700-0500" name="lastPublishExternalDate" /> 
+  <meta content="Guillaume Carlino" name="contentOwner" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2018-05-08T12:44:07.431-0400" name="locHandOffDate" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="2018-12-11T13:38:49.700-0500" name="topicBrowsingSortDate" /> 
+  <meta content="/content/docs/en/aem/6-3/develop/components/i18n/translator" name="qaNotes" /> 
+  <meta content="2018-12-11T13:38:49.713-0500" name="cq:lastModified" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;content_type:reference;topic_tags:components" name="cq:tags" /> 
+  <meta content="trushton" name="cq:lastModifiedBy" /> 
+  <meta content="audience:developing" name="primaryAudienceTag" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="8214a9da-9ca4-478d-a7d4-e221dcf88544" name="jcr:predecessors" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+ </head> 
+ <body> 
+  <p>AEM provides a console for managing the various translations of texts used in component UI. This console is available at <span class="code">http://&amp;lt;<i>hostname</i>&amp;gt;:&amp;lt;<i>port-number</i>&amp;gt;/libs/cq/i18n/translator.html</span></p> 
+  <p><span class="code"> <a href="http://localhost:4502/libs/cq/i18n/translator.html">http://localhost:4502/libs/cq/i18n/translator.html</a></span></p> 
+  <p>Use the translator tool to manage English strings and their translations. The dictionaries are created in the repository, for example /apps/myproject/i18n. </p> 
+  <p>Note that the Translator tool and the dictionaries that you manage are for presenting component UI in different languages. If you want to translate page or user generated content, see <a href="../../../sites/administering/using/translation.md">Translating Content for Multilingual Sites</a> and <a href="../../../communities/using/translate-ugc.md">Translation of User Generated Content</a>.</p> 
+  <note> 
+   <p>Only edit dictionaries that are created for your project and reside under /apps.</p> 
+   <p>AEM system dictionaries are also available in this tool. Do not change the AEM system dictionaries as this can cause problems with the AEM UI. Also, changes can be lost upon upgrade. AEM system dictionaries are located under /libs.</p> 
+  </note> 
+  <note> 
+   <p>Although the Translator tool has a classic UI interface, it is used for translation of phrases regarless of the interface where those phrases are found.</p> 
+  </note> 
+  <p>The translator lists the texts used in AEM with the various language translations alongside each other:</p> 
+  <img imageRotate="0" src="assets/chlimage_1-216.png" /> 
+  <p>You can search, filter and edit the English and translated texts. You can also export dictionaries to XLIFF format for translating, then import the translations back into the dictionaries. </p> 
+  <p>It is also possible to add the i18n dictonaries to a translation project from this console. You can either create a new one or add to an existing project.</p> 
+  <ol> 
+   <li><p>Click <strong>Translate Dictionary</strong>.</p> <img imageRotate="0" src="assets/chlimage_1-217.png" /></li> 
+   <li><p>Select Create or Add option depending on your need. A dialog opens.</p> <img imageRotate="0" src="assets/chlimage_1-218.png" /></li> 
+   <li>Fill the fields as required and click OK.<img imageRotate="0" src="assets/chlimage_1-219.png" /></li> 
+   <li><p>You can now click <strong>OK </strong>or see the Target Dictionary.</p> 
+    <note> 
+     <p>For more information about translation projects, read <a href="../../../sites/administering/using/tc-manage.md">Managing Translation Projects</a>.</p> 
+    </note></li> 
+  </ol> 
+  <h2>Creating a Dictionary</h2> 
+  <p>Create a dictionary for managing your localized UI strings. After you create a dictionary you can use the Translation tool to manage it.</p> 
+  <ol> 
+   <li><p>Using CRXDE Lite, add the root node (<span class="code">sling:Folder</span>) for your new dictionary as the structure to hold the language definitions:</p>  <p>For example,<span class="code"> /apps/myProject/i18n </span><br /> </p> </li> 
+   <li><p>Add the required language structure under this root. For example:</p> 
+    <codeblock gutter="true" class="syntax shell">
+      /apps/myProject/i18n&amp;nbsp;[sling:Folder]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;de.json&amp;nbsp;[nt:file]&amp;nbsp;[mix:language]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;jcr:language&amp;nbsp;=&amp;nbsp;de!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;fr.json&amp;nbsp;[nt:file]&amp;nbsp;[mix:language]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;+&amp;nbsp;jcr:language&amp;nbsp;=&amp;nbsp;fr 
+    </codeblock> 
+    <note> 
+     <p>This is the structure from the <a href="http://sling.apache.org/site/internationalization-support.html">Sling i18n module</a>.</p> 
+    </note></li> 
+   <li><p>Reload the translator and the dictionary path (e.g. <span class="code">/apps/myProject/i18n</span>) will be available in the drop-down selector in the toolbar. Select this to start adding strings and their translations.<br /> </p> 
+    <note> 
+     <p></p> 
+     <p>The translator will only save translations for languages that are actually present underneath the path (e.g. <span class="code">/apps/myProject/i18n</span>).<br /> </p> 
+     <p>Make sure that these <a href="#changinglanguageslistedinthegrid">correspond to the languages shown in the grid</a>.<br /> </p> 
+    </note></li> 
+  </ol> 
+  <h2>Managing Dictionary Strings</h2> 
+  <p>Use the Translation tool to manage the strings in your dictionaries. You can add, modify, and remove English strings, and also provide tranlsated strings.</p> 
+  <note> 
+   <p>Only edit dictionaries that are created for your project and reside under /apps.</p> 
+   <p>Do not change the AEM system dictionaries as this can cause problems with the AEM UI. Also, changes can be lost upon upgrade. AEM system dictionaries are located under /libs.</p> 
+  </note> 
+  <h3>Adding, Changing, and Removing Strings</h3> 
+  <p>Add English strings to a dictionary that your component has internationalized. Only add strings that are internationalized so that you do not waste resources by translating strings that are not used.</p> 
+  <p>The strings that you add to a dictionary must exactly match the string that is specified in code. If the default English string that is used in the code does not match the English string in a dictionary, the translated string does not appear in the UI when needed. Strings are case-sensitive.</p> 
+  <p><strong>Providing Translation Hints</strong></p> 
+  <p>Use the Commenet poperty of the dictionary string to provide information to the translator to clarify the meaning of the string. Typically, the UI assists users to determine the meaning of ambiguous words. However, the translator does not see the string within the context of the UI. The translation hint removes the ambiguity. For example, a comment helps the translator to understand that the English word Request is used as a noun rather than a verb.</p> 
+  <p>Translation hints also distinguish strings that are identical and have different meanings. For example the word Search can be a noun or a verb, requiring two "Search" entries in the dictionary with two different translation hints. The code that requests the string also includes the translation hint so that the correct string is used in the UI.</p> 
+  <p><strong>Including Indexed Variables</strong></p> 
+  <p>Include variables in the localized string to build contextual meaning into a sentence. For example, after logging into a web application, the home page displays the message "Welcome back Administrator. You have 2 messages in your inbox." The page context determines the user name and the number of messages.</p> 
+  <p>To include variables in the localized string, place bracketed indexes at the location of the variables in the first argument of the get method. Use the localization hint to describe the values. The translator must understand the meaning of the variables because different languages use different sentence structures.</p> 
+  <p>Note that <a href="../../../sites/developing/using/i18n-dev.md#main-pars-title-13">the code that requests the translated string</a> provides values for the indexed variables according to the context. </p> 
+  <p>For example, the following string appears when a user logs into a web site, and is included in the dictionary: </p> 
+  <p><span class="code">Welcome back {0}. You have {1} messages.</span></p> 
+  <p>The following Comment describes the variables:</p> 
+  <p><span class="code">{0} = the user name, {1} = the number of items in the user's inbox</span></p> 
+  <p><strong>Modifying Strings</strong></p> 
+  <p>Change or remove English strings as they are changed or removed in the code. When you change a string, the original string is persisted and a new string is made that reflects the change. Before you remove a string, make sure that no code uses it. </p> 
+  <p>Use the following procedure to add a string.</p> 
+  <ol> 
+   <li><p>In the Dictionaries drop-down menu, select the dictionary to which you are adding a string. In the drop-down menu, Dictionaries are represented by their path in the respository. </p> </li> 
+   <li><p>Above the Strings and Translations table, click Add.</p> <img imageRotate="0" src="assets/chlimage_1-220.png" /></li> 
+   <li><p>In the String box of the Add String dialog box, type the English string. In the Comment box, type a translation hint for the translator if necessary.</p> </li> 
+   <li><p>Click OK.</p> </li> 
+   <li><p>Click Save.</p> <img imageRotate="0" src="assets/chlimage_1-221.png" /></li> 
+  </ol> 
+  <p>Use the following procedure to change a string in a dictionary.</p> 
+  <ol> 
+   <li><p>In the Dictionaries drop-down menu, select the dictionary that contains the string to change.</p> </li> 
+   <li><p>Double-click the string to change.</p> </li> 
+   <li><p>In the Edit String dialog box, select Modify String or Comment (Creates a Copy).</p> <img imageRotate="0" src="assets/chlimage_1-222.png" /></li> 
+   <li><p>Modify the string or the comment and click OK.</p> </li> 
+   <li><p>Click Save.</p> <img imageRotate="0" src="assets/chlimage_1-223.png" /></li> 
+  </ol> 
+  <p>Use the following procedure to remove a string from a dictionary.</p> 
+  <ol> 
+   <li><p>In the Dictionaries drop-down menu, select the dictionary from which you are removing a string.</p> </li> 
+   <li><p>Click Remove.</p> <img imageRotate="0" src="assets/chlimage_1-224.png" /></li> 
+   <li><p>Click Save.</p> <img imageRotate="0" src="assets/chlimage_1-225.png" /></li> 
+  </ol> 
+  <h3>Searching for Strings</h3> 
+  <p>The search bar at the bottom of the Translator tool provides string selection options:</p> 
+  <ul> 
+   <li><strong>Filter by text:</strong> A pattern to match with the English string, comment, or translations. Only items that match all or part of the pattern appear in the table.</li> 
+   <li><strong>Changes: Any, Modified, New, Deleted: </strong>Show items that have been changed and not saved. 
+    <ul> 
+     <li>Any: Show items that have been modified, added, or removed.</li> 
+     <li>Modified: Show items that are changed.</li> 
+     <li>New: Show items that are added.</li> 
+     <li>Deleted: Show items that are to be removed.</li> 
+     <li>Multiple Selections: Show items that have all of the selected properties.</li> 
+    </ul> </li> 
+   <li><strong>Has Comment</strong>: Show items that have comments for translators.</li> 
+   <li><strong>Missing Translations: </strong>Show items where at least one language does not have a translation.</li> 
+  </ul> 
+  <img imageRotate="0" src="assets/chlimage_1-226.png" /> 
+  <ol> 
+   <li><p>On the search bar, select the filtering options.</p> </li> 
+   <li><p>To filter using the options click Filter.</p> </li> 
+   <li><p>To remove the filters and see all items in the dictionary, click Clear.</p> </li> 
+  </ol> 
+  <h3>Editing Translated Strings</h3> 
+  <p>After you add the English string to a dictionary, you can add translations of the string. You can also <a href="../../../sites/developing/using/i18n-translator.md#main-pars-title-8">export the dictionary</a> to have it translated by a third party.</p> 
+  <ol> 
+   <li><p>Select <a href="#creatinganewdictionary">your project specific dictionary</a> as it specifies the path in the repository holding the translations. For example, select <strong>Dictionaries</strong> as:</p>  
+    <note> 
+     <p>Only edit dictionaries that are created for your project and reside under /apps.</p> 
+     <p>AEM system dictionaries are also available in this tool. Do not change the AEM system dictionaries as this can cause problems with the AEM UI. Also, changes can be lost upon upgrade. AEM system dictionaries are located under /libs.</p> 
+    </note></li> 
+   <li><p>To edit the translated texts for one of the strings you can either:</p> 
+    <ul> 
+     <li>Double click on the appropriate language for the required string to edit that single text:<br /> </li> 
+    </ul> <img imageRotate="0" src="assets/chlimage_1-227.png" /> 
+    <ul> 
+     <li>Double click on the <strong>String</strong> or <strong>Comment</strong> fields for the required string to open the <strong>Edit string</strong> dialog, edit the translation(s) as required, then click <strong>OK</strong> to close the dialog:<br /> </li> 
+    </ul> <img imageRotate="0" src="assets/chlimage_1-228.png" /></li> 
+   <li><p>Click <strong>Save</strong> in the toolbar to commit your changes.<br /> </p> 
+    <note> 
+     <p>Clicking on <strong>Reset &amp; Refresh</strong> (instead of <strong>Save</strong>) reverts any changes to the prior texts.<br /> </p> 
+    </note></li> 
+  </ol> 
+  <h2>Using Third-Party Translators</h2> 
+  <p>To support the use of third party translation services, the Translation tool enables you to export and import dictionaries.</p> 
+  <h3>Exporting a Dictionary</h3> 
+  <p>Export a dictionary to an XLIFF file so that a third-party service can translate the dictionary strings.</p> 
+  <ul> 
+   <li>Export a dictionary and include the English and the translated terms for a language.</li> 
+   <li>Export some or all of only the English strings.</li> 
+  </ul> 
+  <p>When you export an XLIFF file and include a language, the node structure of the dictionary in the repository must include that language. If the language is not included, errors occur. For example, to export the French XLIFF file, the dictionary folder must include the <span class="code">mix:language</span> child node named <span class="code">fr</span>. (See <a href="../../../sites/developing/using/i18n-translator.md#main-pars-title-0">Creating a Dictionary</a>.)</p> 
+  <p>Use the following procedure to export an XLIFF file for a specific language.</p> 
+  <ol> 
+   <li><p>Open the Translation tool. (<a href="http://localhost:4502/libs/cq/i18n/translator.html">http://localhost:4502/libs/cq/i18n/translator.html</a>)</p> </li> 
+   <li><p>Use the Dictionaries drop-down menu to select the dictionary to export.</p> </li> 
+   <li><p>Click Export &amp;gt; Export Full <i>XX</i> Xliff Options, where <i>XX</i> is the two-letter language code such as DE or FR.</p> <p>The XLIFF file opens in a new tab or window.</p> </li> 
+   <li><p>Use the web browser commands to save the page as a file on your file system, such as File &amp;gt; Save Page As.</p> </li> 
+  </ol> 
+  <p>Use the following procedure to export all or some of only the English strings.</p> 
+  <ol> 
+   <li><p>Open the Translation tool. (<a href="http://localhost:4502/libs/cq/i18n/translator.html">http://localhost:4502/libs/cq/i18n/translator.html</a>)</p> </li> 
+   <li><p>Use the Dictionaries drop-down menu to select the dictionary to export.</p> </li> 
+   <li><p>If your are exporting a subset of the strings, select the items in the dictionary to export. Selecting no items exports all of the items.</p> </li> 
+   <li><p>Click Export &amp;gt; Export Selection As Xliff (Strings Only).</p> </li> 
+   <li><p>In the dialog box that appears, copy the text and paste it into a text file.</p> </li> 
+  </ol> 
+  <h3>Importing a Dictionary</h3> 
+  <p>Import an XLIFF file into a dictionary to populate the dictionary. When the dictionary includes a translation for an English string and the XLIFF file contains a different translation for the same string, the dictionary translation is replaced. </p> 
+  <ol> 
+   <li><p>Open the Translation tool. (<a href="http://localhost:4502/libs/cq/i18n/translator.html">http://localhost:4502/libs/cq/i18n/translator.html</a>)</p> </li> 
+   <li><p>Click Import &amp;gt; XLIFF Translations.</p> </li> 
+   <li><p>Select the file to import and click OK.</p> </li> 
+  </ol> 
+  <h2>Managing Supported Lanuages</h2> 
+  <p>Add or remove languages that the Translation tool supports and that are provided to users of your web pages.</p> 
+  <h3>Changing Languages Listed in the Dictionary Table</h3> 
+  <p>The Translator tool includes the following languages in the dictionary table: </p> 
+  <ul> 
+   <li>de - German<br /> </li> 
+   <li>fr - French<br /> </li> 
+   <li>it - Italian<br /> </li> 
+   <li>es - Spanish<br /> </li> 
+   <li>ja - Japanese<br /> </li> 
+   <li>pt-br - Brazilian Portuguese</li> 
+   <li>zh-cn - Simplified Chinese</li> 
+   <li>zh-tw - Traditional Chinese (limited support)</li> 
+   <li>ko-kr - Korean</li> 
+  </ul> 
+  <p>Use the following procedure to add or remove languages.</p> 
+  <ol> 
+   <li><p>Using CRXDE Lite create a new node:</p>  </li> 
+   <li><p>On this node, create a property:</p> 
+    <ul> 
+     <li><strong>Name</strong>: <span class="code">languages</span></li> 
+     <li><strong>Type</strong>: <span class="code">Multi-String</span></li> 
+     <li><strong>Value</strong>: the list of languages you want displayed. For example: 
+      <ul> 
+       <li>fr</li> 
+       <li>es</li> 
+      </ul> </li> 
+    </ul> 
+    <note> 
+     <p>The language codes must be lowercase.<br /> </p> 
+    </note></li> 
+   <li><p>Click <strong>Save All</strong> in CRXDE Lite and reload the translator. The grid will be updated to show the languages defined.<br /> </p> 
+    <note> 
+     <p> </p> 
+     <p>The translator will only save translations for languages that are actually <a href="#creatinganewdictionary">present in the dictionary</a> (i.e. underneath the dictionary path such as <span class="code">/apps/myProject/i18n</span>).<br /> </p> 
+     <p>Make sure that these correspond to the languages shown in the grid.<br /> </p> 
+    </note></li> 
+  </ol> 
+  <h3>Making Languages Available to Authors</h3> 
+  <p>After defing a dictionary for a language new to your CQ instance you need to make this available for selection by the authors (for example, for use in <strong>Preferences</strong>):<br /> </p> 
+  <ol> 
+   <li><p>To change the list of available languages available in <strong>Preferences</strong> of the <strong>Security</strong> console:</p> 
+    <ol> 
+     <li>Create an overlay in your application code for:<code class="code">
+       <discoiqbr /> /libs/cq/security/widgets/source/widgets/security/Preferences.js
+       <discoiqbr /> and update as required. </code></li> 
+    </ol> </li> 
+   <li><p>To make the language available in <strong>Preferences</strong> from the <strong>Websites</strong> console you need to make the following changes in your application:</p> 
+    <ol> 
+     <li>Create an overlay for the structure under:<br /> <span class="code"> /libs/cq/security/content/tools/userProperties</span><br /> </li> 
+     <li>Inside the overlay update the language list under:<br /> <span class="code"> items/common/items /lang/options</span><br /> </li> 
+    </ol> </li> 
+   <li><p>Save everything and reload the appropriate console.</p> </li> 
+  </ol> 
+  <h3>Changing Language Names and Default Countries</h3> 
+  <p>Various countries use the same language, for example, the US, the UK and Australia all use English. This is indicated by a code indicating both language and country such as <span class="code">en_US</span>, <span class="code">en_GB</span> and <span class="code">en_AU</span>.</p> 
+  <p>The default countries are used when displaying flags (e.g. in the language copy dialog), they are used to resolve the country for a language code.</p> 
+  <note> 
+   <p>For localizations as managed by the translator above, only the exact language works. If the language preference drop down uses <span class="code">en_uk</span>, there must be a <span class="code">en_uk</span> dictionary in the repository.</p> 
+  </note> 
+  <p>To change the default definitions:<br /> </p> 
+  <ol> 
+   <li><p>A language list is stored under:</p>  <p>Overlay this by copying it to:</p>  <p>Then changing or extending the list there. The property <span class="code">defaultCountry</span> on a language node (e.g. <span class="code">ja</span>) must contain the full code, such as <span class="code">ja_jp</span>, which would define <span class="code">jp</span> as the default country for the language <span class="code">ja</span>.<br /> </p> </li> 
+   <li><p>Update the <strong>CQ WCM Language Manager</strong>.<br /> </p> 
+    <ul> 
+     <li><strong>Language list</strong>:<br /> The path to the language list in the repository. Set this to the location used to overlay: <code class="code">
+       <discoiqbr /> /apps/wcm/core/resources/languages</code><br /> </li> 
+    </ul> <p>You can do this using the OSGi Web Console:</p> 
+    <codeblock gutter="true" class="syntax shell">
+      http://&lt;hostname&gt;:&lt;port-number&gt;/system/console/configMgr/com.day.cq.wcm.core.impl.LanguageManagerImpl&amp;nbsp; 
+    </codeblock></li> 
+  </ol> 
+  <h2>Publishing Dictionaries</h2> 
+  <p>Incorporate your dictionaries into the release management process of your AEM applications. For example, include the dictionary in the content package of your application for deployment to the publish instance. This strategy provides the following benefits:</p> 
+  <ul> 
+   <li>Dictionaries are available for components in their publish environment.</li> 
+   <li>Changes to component UI strings are deployed along with the updated translations. </li> 
+  </ul> 
+  <div>
+    Similarly, testing of dictionary strings should be performed as part of your normal software development lifecycle. 
+  </div> 
+  <note> 
+   <p>Regular publish functionality, or replication, should not be used for dictionaries. Instead dictionaires should be treated the same way as code and configuration. This includes using source control to track changes, and using content packages to apply changes to author and publish.</p> 
+  </note> 
+  <note> 
+   <p>When using Dispatcher, you need to <a href="/content/help/en/experience-manager/dispatcher/using/page-invalidate">invalidate cached pages</a> to include new dicationary strings in rendered component strings.</p> 
+  </note> 
+ </body> 
+</html>

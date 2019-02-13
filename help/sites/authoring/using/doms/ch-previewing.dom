@@ -1,0 +1,74 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2018-10-28T00:39:07.032-0400" name="topicBrowsingSortDate" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="The ContextHub toolbar displays data from ContextHub stores and enables you to change store data and  is useful for previewing content" name="seoDescription" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="Previewing Pages Using ContextHub Data" name="jcr:title" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2017-10-31T16:20:59.407-0400" name="firstPublishExternalDate" />
+  <meta content="2018-10-28T00:39:07.032-0400" name="publishExternalDate" />
+  <meta content="2018-10-28T00:39:07.063-0400" name="cq:lastReplicated" />
+  <meta content="/content/help/en/experience-manager/6-4/sites/authoring/morehelp/personalization;/content/help/en/experience-manager/6-4/sites/authoring/morehelp/personalization" name="moreHelpPaths" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="Previewing Pages Using ContextHub Data" name="seoTitle" />
+  <meta content="055e978a-3bb8-4398-bc81-1e4c15d4f604" name="jcr:uuid" />
+  <meta content="2018-10-28T00:39:07.032-0400" name="lastPublishExternalDate" />
+  <meta content="jsyal@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="audience:authoring" name="primaryAudienceTag" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-10-28T00:39:07.038-0400" name="cq:lastModified" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;content_type:reference;topic_tags:personalization" name="cq:tags" />
+  <meta content="2018-02-03T08:01:21.942-0500" name="jcr:created" />
+  <meta content="Chris Bohnert" name="contentOwner" />
+  <meta content="jsyal" name="cq:lastReplicatedBy" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="/content/docs/en/aem/6-3/author/personalization/ch-previewing" name="qaNotes" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="Previewing Pages Using ContextHub Data" name="navTitle" />
+  <meta content="2018-04-19T10:29:16.361-0400" name="locHandOffDate" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="trushton" name="cq:lastModifiedBy" />
+  <meta content="e850e926-f0a8-4ff6-b04d-6466be7b62bd" name="jcr:predecessors" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/ch-previewing.html" name="publishExternalURL" />
+ </head>
+ <body>
+  <p>The <a href="../../../sites/developing/using/contexthub.md">ContextHub</a> toolbar displays data from ContextHub stores and enables you to change store data. The ContextHub toolbar is useful for previewing content that is determined by data in a ContextHub store.</p> 
+  <p>The toolbar consists of a series of UI modes that contain one or more UI modules.</p> 
+  <ul> 
+   <li>UI modes are icons that appear on the left hand side of the toolbar. When you click or tap an icon, the toolbar reveals the UI modules that it contains.</li> 
+   <li>UI modules display data from one or more ContextHub stores. Some UI modules also enable you to manipulate store data. </li> 
+  </ul> 
+  <p>ContextHub installs several UI modes and UI modules. Your administrator may have <a href="../../../sites/administering/using/contexthub-config.md">configured ContextHub</a> to display different ones.</p> 
+  <img imageRotate="0" src="assets/screen_shot_2018-03-23at093446.png" />
+  <h2>Revealing the ContextHub Toolbar</h2>
+  <p>The ContextHub toolbar is available in Preview mode. The toolbar is available only on author instances and only when your administrator has enabled it. <br /> </p> 
+  <img imageRotate="0" src="assets/screen_shot_2018-03-23at093730.png" />
+  <ol>
+   <li><p>With your page open for editing, on the toolbar click or tap Preview.</p> <img imageRotate="0" src="assets/chlimage_1-264.png" /></li>
+   <li><p>To reveal the toolbar, click or tap the ContextHub icon.</p> <img imageRotate="0" src="assets/screen_shot_2018-03-23at093621.png" /></li>
+  </ol>
+  <h2>UI Module Features</h2>
+  <p>Each UI module provides is different set of features, but the following types of features are common. Because UI modules are extendable, your developer can implement other features as required.</p> 
+  <h4>Toolbar Content</h4>
+  <p>UI modules can display data from one or more ContextHub stores in the toolbar. UI modules use an icon and a title to identify themselves. <br /> </p> 
+  <img imageRotate="0" src="assets/screen_shot_2018-03-23at093936.png" />
+  <h4>Popup Content</h4>
+  <p>Some UI modules display a popup overaly when clicked or tapped. Typically, the popup contains additional information than what appears on the toolbar.</p> 
+  <p> </p> 
+  <img imageRotate="0" src="assets/screen_shot_2018-03-23at094003.png" />
+  <h4>Popup Forms</h4>
+  <p>The popup overlay of a module can include form elements that enable you to change the data in the ContextHub store. If page content is determined by the store data, you can use the form and observe changes to page content.</p> 
+  <h4>Fullscreen Mode</h4>
+  <p>Popup overlays can include an icon that you click or tap to expand the popup content to cover the entire browser window or screen.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-265.png" />
+ </body>
+</html>

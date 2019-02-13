@@ -1,0 +1,67 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2016-04-20T09:59:00.318-0400" name="firstPublishExternalDate" />
+  <meta content="About administration and process terminology" name="jcr:title" />
+  <meta content="2018-04-26T04:25:40.331-0400" name="cq:lastModified" />
+  <meta content="2016-02-05T03:27:10.648-0500" name="lr_lastModified" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2017-12-01T19:04:07.780-0500" name="jcr:created" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="admin" name="lr_lastModifiedBy" />
+  <meta content="head1_20111213" name="gep_conversion_script_version" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7d3d.2" name="cq:gepId" />
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="About administration and process terminology" name="navTitle" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="Learn about administration and process terms like process instance, process diagram and operation." name="seoDescription" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="7da6999f-aaf0-4be0-b3f4-59f9a47c9eeb" name="jcr:predecessors" />
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/administration_process_terminology_admin_5e12de0b318c6865_2254_report.xml" name="acrolinxReportURL" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/forms/using/admin-help/administration-process-terminology.html" name="publishExternalURL" />
+  <meta content="2016-05-31T06:52:36.415-0400" name="acrolinxDate" />
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="light" name="heroGradient" />
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/configuring_forms_workflow;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2016-02-05T03:27:00.000-0500" name="sortDate" />
+  <meta content="2018-04-03T09:09:18.952-0400" name="cq:lastReplicated" />
+  <meta content="10" name="acrolinxSentences" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2017-10-31T16:32:40.037-0400" name="publishExternalDate" />
+  <meta content="admin" name="lr_creator" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="false" name="doNotLocalize" />
+  <meta content="left" name="sideColumn" />
+  <meta content="not_checked" name="acrolinxStatus" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2017-10-31T16:32:40.037-0400" name="lastPublishExternalDate" />
+  <meta content="admin" name="contentOwner" />
+  <meta content="166" name="acrolinxWords" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="2016-02-05T03:27:00.000-0500" name="topicBrowsingSortDate" />
+  <meta content="/content/help/en/experience-manager/6-4/forms/using/morehelp/configuring_forms_workflow;/content/help/en/experience-manager/6-4/forms/using/morehelp/configuring_forms_workflow" name="moreHelpPaths" />
+  <meta content="red" name="acrolinxPageStatus" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="aa524b17-22aa-4278-b46b-029916bcff9b" name="jcr:uuid" />
+  <meta content="video" name="pageLayout" />
+  <meta content="2018-04-26T04:25:40.331-0400" name="locHandOffDate" />
+ </head>
+ <body>
+  <p>To administer forms workflow effectively, you should understand the following terms and the hierarchy of the elements: </p>
+  <ul>
+   <li><p><i>Process categories</i> organize processes into logical groups.</p></li>
+   <li><p><i>Processes</i> represent the business processes that are automated. At least one process should exist for each business process implemented. </p></li>
+   <li><p>A <i>process diagram</i> is the visual representation of the business process that is being automated. </p></li>
+   <li><p>A <i>process instance</i> is a process that has been initiated by a user (such as completing and submitting a form) or an automated step. There may be multiple instances of a process.</p></li>
+   <li><p>An <i>operation </i>is one step of a process diagram, which is represented in Workbench by an icon in the process diagram.</p></li>
+   <li><p>A <i>task</i> is an action that has been assigned to a user. When the task is run and the operation is executed, the User service assigns a task to a user.</p></li>
+  </ul>
+  <p>For more information about these terms, see <a href="http://www.adobe.com/go/learn_aemforms_workbench_63">Workbench Help</a>.</p> 
+ </body>
+</html>

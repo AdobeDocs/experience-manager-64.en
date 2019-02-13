@@ -1,0 +1,59 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2018-11-02T16:57:57.516-0400" name="lastPublishExternalDate" />
+  <meta content="2018-11-02T16:57:57.631-0400" name="cq:lastReplicated" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SCREENS;topic_tags:introduction;content_type:reference" name="cq:tags" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SCREENS" name="primaryProductTag" />
+  <meta content="2018-02-14T09:45:54.752-0500" name="firstPublishInternalDate" />
+  <meta content="2018-01-31T16:36:20.591-0500" name="firstPublishExternalDate" />
+  <meta content="a88e1b79-7a93-4c09-915e-b92dad9ab696" name="jcr:uuid" />
+  <meta content="2018-02-14T09:45:54.752-0500" name="lastPublishInternalDate" />
+  <meta content="9f13533b-2d34-40de-979a-5f655c315913" name="jcr:predecessors" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-11-02T16:57:57.519-0400" name="cq:lastModified" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="AEM Screens Overview Video" name="jcr:title" />
+  <meta content="target-audience:new" name="targetAudience" />
+  <meta content="jsyal" name="cq:lastReplicatedBy" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="AEM Screens is a Digital Signage Solution that allows marketers to publish dynamic and interactive digital experiences to different types of screens. The following videos introduce the different areas of an AEM Screens project, as well as detail the steps to create channel content and publish to a Screens Player." name="jcr:description" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="AEM Screens is a Digital Signage Solution that allows marketers to publish dynamic and interactive digital experiences to different types of screens. The following videos introduce the different areas of an AEM Screens project, as well as detail the steps to create channel content and publish to a screens player." name="seoDescription" />
+  <meta content="2018-11-02T16:57:57.516-0400" name="topicBrowsingSortDate" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="dgordon" name="contentOwner" />
+  <meta content="2018-11-02T16:57:57.516-0400" name="publishExternalDate" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/screens/using/screens-concepts-feature-video-understand.html" name="publishExternalURL" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2019-01-15T15:39:10.936-0500" name="jcr:created" />
+  <meta content="en" name="pageCreatedAt" />
+  <meta content="https://helpx-internal.corp.adobe.com/content/help/en/experience-manager/kt/screens/using/screens-concepts-feature-video-understand.html" name="publishInternalURL" />
+  <meta content="/content/help/en/experience-manager/6-4/screens/morehelp/introduction;/content/help/en/experience-manager/6-4/screens/morehelp/introduction" name="moreHelpPaths" />
+  <meta content="jsyal" name="cq:lastModifiedBy" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-02-14T09:45:54.752-0500" name="publishInternalDate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="jsyal@adobe.com" name="lr_lastReplicatedBy" />
+ </head>
+ <body>
+  <h2 id="terminology-and-concepts">Screens Terminology and Concepts</h2>
+  <video imageRotate="0" status="changing" videoLocalizationType="subtitle" videoSrcUrl="https://video.tv.adobe.com/v/21353?quality=9"></video>
+  <p>Additional reference material for <a href="../../sites/deploying/using/aem-screens-introduction.md">What is AEM Screens?</a> and a <a href="../../screens/using/screens-glossary.md">Glossary</a> of terms. <a href="/content/help/en/experience-manager/6-3/sites/deploying/using/aem-screens-introduction"></a></p> 
+  <h2 id="channels-and-schedules-part-2">Authoring Channels and Schedules - Part 1</h2>
+  <p>To follow along with the videos you will need:</p> 
+  <ol> 
+   <li><strong>AEM 6.4 GA</strong> or <strong>AEM 6.3 </strong>+ <strong>Screens Feature Pack 1</strong></li> 
+   <li>A Screens Player</li> 
+  </ol> 
+  <p>To download AEM Screens Player, click <a href="https://download.macromedia.com/screens/">here</a>. Additionally, AEM Screens is also available in <a href="https://itunes.apple.com/us/app/aem-screens/id1169641856?mt=8">iTunes App Store</a> and <a href="https://play.google.com/store/apps/details?id=com.adobe.aem.screens.player&amp;hl=en">Google Play Store</a>. See <a href="https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/configuring-screens-introduction.html">Installing and Configuring Screens</a> for more details.</p> 
+  <p>The below video detail the creation of a new channel, authoring new content and adding a channel to a re-usable schedule. It loosely follows the first half of the <a href="../../screens/using/kickstart-for-aem-screens.md">Screens Kickstart Guide</a>.</p> 
+  <video imageRotate="0" status="changing" videoLocalizationType="subtitle" videoSrcUrl="https://video.tv.adobe.com/v/21387?quality=9"></video>
+  <h2 id="display-and-device-pt2">Display Assignments and Device Registration - Part 2</h2>
+  <p>The below video shows the creation of a location, display, and device configuration. The video also shows the steps for registering a device and assigning the device to a display. It loosely follows the second half of the <a href="../../screens/using/kickstart-for-aem-screens.md">Screens Kickstart Guide</a>.</p> 
+  <video imageRotate="0" status="changing" videoLocalizationType="subtitle" videoSrcUrl="https://video.tv.adobe.com/v/21411?quality=9"></video>
+ </body>
+</html>

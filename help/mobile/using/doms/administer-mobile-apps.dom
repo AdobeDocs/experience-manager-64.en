@@ -1,0 +1,55 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="c1dc47be-b2d3-4b32-a20e-0e763ba7b57c" name="jcr:predecessors" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/mobile/using/administer-mobile-apps.html" name="publishExternalURL" />
+  <meta content="2018-05-04T05:12:29.798-0400" name="cq:lastReplicated" />
+  <meta content="/content/docs/en/aem/6-3/administer/mobile-apps" name="qaNotes" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-05-04T05:12:29.771-0400" name="publishExternalDate" />
+  <meta content="88e430de-a7c1-42b5-8e12-50efd13e5bf7" name="jcr:uuid" />
+  <meta content="2018-05-11T10:01:14.218-0400" name="locHandOffDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-05-11T10:01:14.219-0400" name="cq:lastModified" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="/content/help/en/experience-manager/6-4/mobile/morehelp/introduction;/content/help/en/experience-manager/6-4/mobile/morehelp/introduction" name="moreHelpPaths" />
+  <meta content="bohnert@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="bohnert" name="cq:lastReplicatedBy" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="bohnert" name="cq:lastModifiedBy" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/MOBILE;topic_tags:introduction;content_type:reference" name="cq:tags" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="msm-service" name="contentOwner" />
+  <meta content="2017-12-13T19:01:04.687-0500" name="jcr:created" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/MOBILE" name="primaryProductTag" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2017-10-31T16:26:45.214-0400" name="firstPublishExternalDate" />
+  <meta content="2018-05-04T05:12:29.771-0400" name="topicBrowsingSortDate" />
+  <meta content="Follow this page to get started with administering content for mobile apps." name="seoDescription" />
+  <meta content="Mobile Apps" name="jcr:title" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="Mobile Apps" name="seoTitle" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2018-05-04T05:12:29.771-0400" name="lastPublishExternalDate" />
+ </head>
+ <body>
+  <note>
+   <p>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). <a href="../../sites/developing/using/spa-overview.md">Learn more</a>.</p>
+  </note>
+  <p>Adobe Experience Manager (AEM) Mobile is part of the Adobe Experience Manager multi-channel digital platform that also leverages AEM Assets, Sites, Screens, Workflow, User Manager, Commerce and Forms. AEM Mobile offers remarkable deployment flexibility, enabling enterprises to use a variety of content sources. </p> 
+  <p>AEM Mobile offers multiple methods for creating apps. The different ways that you can use to create apps are:</p> 
+  <ul> 
+   <li><a href="../../mobile/using/aem-mobile.md">Administering Content for AEM Mobile On-Demand Services</a></li> 
+   <li><a href="../../mobile/using/administer-phonegap.md">Administering Content for Adobe PhoneGap Enterprise with AEM</a></li> 
+  </ul> 
+  <note>
+   <p>If you are new to Adobe Experience Manager, you may want to walk through <a href="../../sites/deploying/using/deploy.md">Getting Started with AEM</a>.</p> 
+  </note>
+ </body>
+</html>

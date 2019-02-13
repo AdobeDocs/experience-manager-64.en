@@ -1,0 +1,82 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2017-10-31T16:33:32.940-0400" name="firstPublishExternalDate" />
+  <meta content="2018-05-17T05:57:11.540-0400" name="locHandOffDate" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" />
+  <meta content="2018-04-03T07:47:57.777-0400" name="cq:lastReplicated" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2017-12-01T19:01:02.273-0500" name="jcr:created" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="light" name="gnavTheme" />
+  <meta content="2018-04-03T07:47:56.651-0400" name="publishExternalDate" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES" name="primaryProductTag" />
+  <meta content="/content/help/en/experience-manager/6-4/communities/morehelp/developing;/content/help/en/experience-manager/6-4/communities/morehelp/developing" name="moreHelpPaths" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/communities/using/leaderboard.html" name="publishExternalURL" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-04-03T07:47:56.651-0400" name="lastPublishExternalDate" />
+  <meta content="545e126f-3dab-4ecd-8722-451bf1d0816d" name="jcr:predecessors" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="Leaderboard feature overview" name="seoDescription" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="281841c0-d2b0-4a96-a963-59d04ffbe310" name="jcr:uuid" />
+  <meta content="Leaderboard Essentials" name="navTitle" />
+  <meta content="2018-05-17T05:57:11.541-0400" name="cq:lastModified" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES;topic_tags:developing;content_type:reference" name="cq:tags" />
+  <meta content="Leaderboard Essentials" name="seoTitle" />
+  <meta content="Leaderboard Essentials" name="jcr:title" />
+  <meta content="/content/docs/en/aem/6-3/develop/communities/essentials/leaderboard" name="qaNotes" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="msm-service" name="contentOwner" />
+  <meta content="2018-04-03T07:47:56.651-0400" name="topicBrowsingSortDate" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="dist5" name="distType" />
+ </head>
+ <body>
+  <p>This page provides the essential information for working with the leaderboard feature.</p> 
+  <p>Prior to including the leaderboard component on a page, it is necessary to configure <a href="../../communities/using/implementing-scoring.md">Communities Scoring and Badges</a>. See also <a href="../../communities/using/configure-scoring.md">Scoring and Badges Essentials</a>.</p> 
+  <h2>Essentials for Client-Side</h2>
+  <table border="1" cellpadding="4" cellspacing="4" width="100%"> 
+   <tbody>
+    <tr>
+     <td> <strong>resourceType</strong></td> 
+     <td>social/gamification/components/hbs/leaderboard</td> 
+    </tr>
+    <tr>
+     <td> <a href="../../communities/using/scf.md#addorincludeacommunitiescomponent"><strong>includable</strong></a></td> 
+     <td>No</td> 
+    </tr>
+    <tr>
+     <td> <a href="../../communities/using/clientlibs.md"><strong>clientllibs</strong></a></td> 
+     <td>cq.social.gamification.hbs.leaderboard</td> 
+    </tr>
+    <tr>
+     <td> <strong>templates</strong></td> 
+     <td> /libs/social/gamification/components/hbs/leaderboard/leaderboard.hbs<br /> </td> 
+    </tr>
+    <tr>
+     <td> <strong>css</strong></td> 
+     <td> /libs/social/gamification/components/hbs/leaderboard/clientlibs/leaderboard.css</td> 
+    </tr>
+    <tr>
+     <td><strong> properties</strong></td> 
+     <td>see <a href="../../communities/using/enabling-leaderboard.md">Leaderboard Feature</a></td> 
+    </tr>
+   </tbody>
+  </table> 
+  <ul> 
+   <li><a href="../../communities/using/client-customize.md">Client-side Customizations</a></li> 
+  </ul> 
+  <h3>File Library Function</h3>
+  <p>A community site structure that includes the <a href="../../communities/using/functions.md#leaderboardfunction">Leaderboard function</a>, includes a configured <span class="code">leaderboard</span> component.</p> 
+ </body>
+</html>

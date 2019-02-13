@@ -1,0 +1,50 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="2017-10-31T16:19:16.370-0400" name="firstPublishExternalDate" />
+  <meta content="a43d01bc-8fee-4253-a2d8-338685f75f80" name="jcr:predecessors" />
+  <meta content="/content/help/en/experience-manager/6-4/sites/classic-ui-authoring/morehelp/page-authoring;/content/help/en/experience-manager/6-4/sites/classic-ui-authoring/morehelp/page-authoring" name="moreHelpPaths" />
+  <meta content="Page Authoring with Content Fragments" name="navTitle" />
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2017-12-01T19:02:58.288-0500" name="jcr:created" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2017-10-31T16:19:16.370-0400" name="lastPublishExternalDate" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:page-authoring;content_type:reference" name="cq:tags" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="audience:classic-ui-authoring" name="primaryAudienceTag" />
+  <meta content="Deactivate" name="cq:lastReplicationAction" />
+  <meta content="0c0e52e5-cb2b-4e1f-b8d8-d3a392df5fbc" name="jcr:uuid" />
+  <meta content="Page Authoring with Content Fragments" name="jcr:title" />
+  <meta content="Page Authoring with Content Fragments" name="seoTitle" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2017-10-31T16:19:16.370-0400" name="topicBrowsingSortDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Chris Bohnert" name="contentOwner" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="Content fragments are created and managed as page-independent assets. They allow you to create channel-neutral content, together with variations." name="seoDescription" />
+  <meta content="2017-11-27T05:25:20.199-0500" name="locHandOffDate" />
+  <meta content="/content/docs/en/aem/6-3/author/classicui/page-authoring/content-fragments" name="qaNotes" />
+  <meta content="2018-08-13T06:05:19.726-0400" name="cq:lastModified" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2017-10-31T16:19:16.370-0400" name="publishExternalDate" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/sites/classic-ui-authoring/using/classic-page-author-content-fragments.html" name="publishExternalURL" />
+  <meta content="2017-12-15T11:20:49.746-0500" name="cq:lastReplicated" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+ </head>
+ <body>
+  <p>Adobe Experience Manager (AEM) content fragments are <a href="../../../assets/using/content-fragments.md">created and managed as page-independent assets</a>.</p> 
+  <p>They allow you to create channel-neutral content, together with (possibly channel-specific) variations. You can then use these fragments, and their variations, when authoring your content pages.</p> 
+  <note>
+   <p>The full functionality of Content Fragment Management is not available in classic UI. See <a href="../../../sites/authoring/using/content-fragments.md">Page Authoring with Content Fragments</a> in the standard authoring documentation.</p> 
+   <p>The Content Fragment component can be seen in the classic UI sidekick, but further functions are not available.</p> 
+  </note>
+ </body>
+</html>

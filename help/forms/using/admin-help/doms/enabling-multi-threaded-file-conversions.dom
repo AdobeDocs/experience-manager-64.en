@@ -1,0 +1,129 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7e87.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7e80.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-71590aba12905cdf53a-7ff9.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-71590aba12905cdf53a-7fc9.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-71590aba12905cdf53a-7fca.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7e89.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-71590aba12905cdf53a-7ff7.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-71590aba12905cdf53a-7ff6.2" name="cq:gepId" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="2018-04-26T04:23:44.939-0400" name="locHandOffDate" /> 
+  <meta content="2016-02-05T03:27:23.720-0500" name="lr_lastModified" /> 
+  <meta content="2017-10-31T16:32:15.463-0400" name="publishExternalDate" /> 
+  <meta content="Enabling multi-threaded file conversions" name="jcr:title" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="admin" name="lr_lastModifiedBy" /> 
+  <meta content="2017-12-01T19:06:42.311-0500" name="jcr:created" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2016-03-07T06:51:51.210-0500" name="firstPublishExternalDate" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="Learn how to enable multi-threaded file conversions." name="seoDescription" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="admin" name="contentOwner" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="51" name="acrolinxSentences" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/forms/using/admin-help/enabling-multi-threaded-file-conversions.html" name="publishExternalURL" /> 
+  <meta content="2017-10-31T16:32:15.463-0400" name="lastPublishExternalDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="891" name="acrolinxWords" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/using/morehelp/working_with_pdf_generator;/content/help/en/experience-manager/6-4/forms/using/morehelp/working_with_pdf_generator" name="moreHelpPaths" /> 
+  <meta content="Enabling multi-threaded file conversions" name="navTitle" /> 
+  <meta content="admin" name="lr_creator" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="sortDate" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="c9ba6508-3fb1-4818-bd8e-50126e5b5a33" name="jcr:uuid" /> 
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="topicBrowsingSortDate" /> 
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/working_with_pdf_generator;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" /> 
+  <meta content="2018-04-26T04:23:44.939-0400" name="cq:lastModified" /> 
+  <meta content="dc23c047-5c90-4f93-97a7-833a51f892e8" name="jcr:predecessors" /> 
+  <meta content="2018-04-03T09:10:06.957-0400" name="cq:lastReplicated" /> 
+  <meta content="2016-05-31T06:59:46.186-0400" name="acrolinxDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/enabling_multi_threaded_file_conversions_admin_5e12de0b318c6865_2318_report.xml" name="acrolinxReportURL" /> 
+ </head> 
+ <body> 
+  <p>PDF Generator provides the ability to enable multi-threaded file conversions for certain types of files. Multi-threaded file conversion improves the performance of PDF Generator by allowing it to perform multiple conversions at the same time. </p> 
+  <h2 id="enabling_multi_threaded_file_conversions_for_openoffice_word_and_powerpoint_documents">Enabling multi-threaded file conversions for OpenOffice, Word, and PowerPoint documents</h2> 
+  <p></p> 
+  <p>By default, PDF Generator can convert only one OpenOffice, Microsoft Word, or PowerPoint document at a time. If you enable multi-threaded conversions, PDF Generator can convert more than one of the documents concurrently. PDF Generator will launch multiple instances of OpenOffice or PDFMaker (used to perform the Word and PowerPoint conversions).</p> 
+  <note> 
+   <p>Multi-threaded file conversions are not supported with Microsoft Word 2003 and PowerPoint 2003. To enable multi-threaded file conversions, upgrade to Microsoft Word 2007 and PowerPoint 2007 or Microsoft Word 2010 and PowerPoint 2010. </p> 
+  </note> 
+  <note> 
+   <p>Multi-threaded file conversions are not supported with Microsoft Excel, Microsoft Visio, Microsoft Project, or Microsoft Publisher.</p> 
+  </note> 
+  <p>Each instance of OpenOffice or PDFMaker is launched using a separate user account. Each user account that you add must be a valid user with administrative privileges on the forms server computer. In a clustered environment, the same set of users must be valid for all nodes of the cluster. </p> 
+  <p>On the User Accounts page in administration console, you can specify which user accounts to use for multi-threaded file conversions. You can add accounts, delete them, or change account passwords. If you are running PDF Generator on Windows Server 2003 or Windows Server 2008, add at least three user accounts that have administrator privileges.</p> 
+  <p>When adding users for OpenOffice, Microsoft Word, or Microsoft PowerPoint on Windows Server 2003 or 2008, or for OpenOffice on Linux or Sun™ Solaris™, dismiss the initial activation dialogs for all users.</p> 
+  <h3 id="add_the_right_to_replace_the_process_level_token">Add the right to replace the process-level token</h3> 
+  <p></p> 
+  <p>On a Windows Operating system, the administrator user accounts that are used for PDF conversion (PDFG users) will need replace process level token privileges. You can add this right by using the Group Policy Editor:</p> 
+  <ol> 
+   <li><p>In the Windows Start menu, click Run and then enter gpedit.msc. </p></li> 
+   <li><p>Click Local Computer Policy &amp;gt; Computer Configuration &amp;gt; Windows Settings &amp;gt; Security Settings &amp;gt; Local Policies &amp;gt; User Rights Assignment. Edit the <i>Replace a process level token</i> policy to include the Administrators group.</p></li> 
+   <li><p>Add the user to the Replace a Process Level Token entry. </p></li> 
+  </ol> 
+  <h3 id="additional_configuration_required_for_openoffice_microsoft_word_and_microsoft_powerpoint_on_windows_server_2008">Additional configuration required for OpenOffice, Microsoft Word, and Microsoft PowerPoint on Windows Server 2008</h3> 
+  <p></p> 
+  <p>If you are running OpenOffice, Microsoft Word, or Microsoft PowerPoint on Windows Server 2008, disable UAC for each user added.</p> 
+  <ol> 
+   <li><p>Click Control Panel &amp;gt; User Accounts &amp;gt; Turn User Account Control on or off. </p></li> 
+   <li><p>Deselect the box “Use User Account Control (UAC) to help protect your computer” and click OK.</p></li> 
+   <li><p>Restart the computer for settings to take effect.</p></li> 
+  </ol> 
+  <h3 id="additional_configuration_required_for_openoffice_on_linux_or_solaris">Additional configuration required for OpenOffice on Linux or Solaris</h3> 
+  <p></p> 
+  <ol> 
+   <li><p>Add user accounts. (See <a href="enabling-multi-threaded-file-conversions#add_a_user_account">Add a user account</a>.) </p></li> 
+   <li><p>Next, you will make changes to the /etc/sudoers file. The default permission for this file is 440. Change the permission for this file to writable. </p></li> 
+   <li><p>Add entries for additional users (other than the administrator who runs the forms server) in the /etc/sudoers file. For example, if you are running AEM forms as a user named lcadm and a server named myhost, and you want to impersonate user1 and user2, add the following entries to /etc/sudoers:</p> 
+    <codeblock gutter="true" class="syntax as3">
+       lcadm&amp;nbsp;myhost=(user1)&amp;nbsp;NOPASSWD:&amp;nbsp;ALL&amp;nbsp;!!discoiqbr!! lcadm&amp;nbsp;myhost=(user2)&amp;nbsp;NOPASSWD:&amp;nbsp;ALL 
+    </codeblock><p>This configuration enables lcadm to run any command on host ‘myhost’ as ‘user1’ or ‘user2’ without prompting for password.</p> 
+    <note> 
+     <p>Ensure that you have assigned system user and PDFG user roles to ‘user1’ and ‘user2’ . To assign PDFG role to a user, see <a href="enabling-multi-threaded-file-conversions#add_a_user_account">Add a user account</a></p> 
+    </note></li> 
+   <li><p>Also in the /etc/sudoers file, locate and comment out this line by adding a number sign (#) at the beginning of the line:</p> 
+    <codeblock gutter="true" class="syntax as3">
+      Defaults&amp;nbsp;requiretty 
+    </codeblock><p>This enables you to add Linux users. </p></li> 
+   <li><p>Change the permission for the etc/sudoers file back to 440. </p></li> 
+   <li><p>Allow all the users that you added via <a href="enabling-multi-threaded-file-conversions#add_a_user_account"> Add a user account</a> to make connections to the forms server. For example, to allow a local user named user1 the permission of making the connection to the forms server, use the following command</p><p>For more details, refer to xhost command documentation.</p></li> 
+   <li><p>Restart the server.</p></li> 
+  </ol> 
+  <note> 
+   <p>OpenOffice must be installed in a directory location that all PDFG users can access. You can verify this by logging in as the PDFG user and checking whether you can launch OpenOffice without issues.</p> 
+  </note> 
+  <h3 id="add_a_user_account">Add a user account</h3> 
+  <p></p> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; PDF Generator &amp;gt; User Accounts. </p></li> 
+   <li><p>Click Add and enter the user name and password of a user who has administrative privileges on the forms server. If you are configuring users for OpenOffice, dismiss the initial OpenOffice activation dialogs.</p> 
+    <note> 
+     <p>If you are configuring users for OpenOffice, the number of instances of OpenOffice cannot be greater than number of user accounts specified in this step.</p> 
+    </note></li> 
+   <li><p>Restart the forms server.</p></li> 
+  </ol> 
+  <h3 id="remove_a_user_from_the_list_used_for_multi_threaded_file_conversions">Remove a user from the list used for multi-threaded file conversions</h3> 
+  <p></p> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; PDF Generator &amp;gt; User Accounts. </p></li> 
+   <li><p>Click the check box next to the user who you want to remove and click Delete.</p></li> 
+   <li><p>On the confirmation page, click Delete.</p></li> 
+   <li><p>Restart the forms server.</p></li> 
+  </ol> 
+  <h3 id="change_the_password_for_an_account">Change the password for an account</h3> 
+  <p></p> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; PDF Generator &amp;gt; User Accounts. </p></li> 
+   <li><p>Click the user name, and enter and confirm the new password. This password must match the user’s system password.</p></li> 
+  </ol> 
+ </body> 
+</html>

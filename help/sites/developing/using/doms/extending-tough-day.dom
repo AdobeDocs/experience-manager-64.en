@@ -1,0 +1,47 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="Deactivate" name="cq:lastReplicationAction" />
+  <meta content="2018-04-03T10:11:24.491-0400" name="cq:lastReplicated" />
+  <meta content="raiman" name="cq:lastModifiedBy" />
+  <meta content="raiman" name="contentOwner" />
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="true" name="preview" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="256949a3-b157-4c32-8bb0-e9fd6e1da4ed" name="jcr:uuid" />
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/morehelp/testing;/content/help/en/experience-manager/6-4/sites/developing/morehelp/testing" name="moreHelpPaths" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2018-08-13T06:05:19.440-0400" name="cq:lastModified" />
+  <meta content="Extending Tough Day" name="seoTitle" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="Extending Tough Day" name="jcr:title" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="" name="publishExternalURL" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-03-15T09:01:36.829-0400" name="jcr:created" />
+  <meta content="true" name="noIndex" />
+  <meta content="2018-04-03T10:11:24.137-0400" name="unpublishExternalDate" />
+  <meta content="9cb486c8-a27b-4555-9e2d-b7d732de23ef" name="jcr:predecessors" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="audience:developing" name="primaryAudienceTag" />
+  <meta content="en" name="pageCreatedAt" />
+ </head>
+ <body>
+  <h2>Extending Tough Day 2</h2>
+  <p>Add text here.</p> 
+  <ol>
+   <li>Step text</li>
+   <li>Step text</li>
+   <li>Step text</li>
+   <li>Step text</li>
+   <li>Step text</li>
+   <li>Step text</li>
+   <li>Step text</li>
+  </ol>
+ </body>
+</html>

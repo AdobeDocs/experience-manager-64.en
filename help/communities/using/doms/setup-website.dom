@@ -1,0 +1,127 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="573feb2c-5c3a-408f-93f2-641e887a968d" name="jcr:uuid" /> 
+  <meta content="2018-05-17T05:53:51.126-0400" name="locHandOffDate" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="User" name="contentOwner" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES" name="primaryProductTag" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="2017-12-01T19:04:33.979-0500" name="jcr:created" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2018-04-03T07:56:09.447-0400" name="cq:lastReplicated" /> 
+  <meta content="2017-10-31T16:33:19.467-0400" name="firstPublishExternalDate" /> 
+  <meta content="Setup Website Structure" name="seoTitle" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/communities/using/setup-website.html" name="publishExternalURL" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="Setup Website Structure" name="navTitle" /> 
+  <meta content="2018-05-17T05:53:51.127-0400" name="cq:lastModified" /> 
+  <meta content="2018-04-03T07:56:08.036-0400" name="topicBrowsingSortDate" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="a1d9480f-7589-4c6d-983b-897c908470e1" name="jcr:predecessors" /> 
+  <meta content="Setup Website Structure" name="jcr:title" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="Set up directories" name="seoDescription" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2018-04-03T07:56:08.036-0400" name="publishExternalDate" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES;topic_tags:developing;content_type:reference" name="cq:tags" /> 
+  <meta content="2018-04-03T07:56:08.036-0400" name="lastPublishExternalDate" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="/content/docs/en/aem/6-3/develop/communities/tutorials/an-scf-sandbox/setup-website" name="qaNotes" /> 
+ </head> 
+ <body> 
+  <table cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td><a href="../../communities/using/an-scf-sandbox.md"><strong>⇐ Create An SCF Sandbox</strong></a></td> 
+     <td style="text-align: right;"><strong><a href="../../communities/using/initial-app.md">Initial Sandbox Application ⇒</a></strong></td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <p>To setup your website, the instructions below describe the folders to create in the following locations :</p> 
+  <ul> 
+   <li><strong>/apps</strong>/an-scf-sandbox<br /> this is where custom applications and templates reside</li> 
+   <li><strong>/etc/designs</strong>/an-scf-sandbox<br /> this is where downloadable design elements reside</li> 
+   <li><strong>/content</strong>/an-scf-sandbox<br /> this is where the downloadable web pages reside</li> 
+  </ul> 
+  <p>The code in this tutorial will rely on the main folder name being the same for the application, design, and content. If you choose some other name for your website, then always replace <strong>an-scf-sandbox </strong>with the name you have chosen.</p> 
+  <note> 
+   <p>About names :</p> 
+   <ul> 
+    <li>the names seen in CRXDE are node names which form the path to addressable content</li> 
+    <li>node names may contain spaces, but when used in an URI, the space must be encoded either as '%20' or '+'</li> 
+    <li>node names may contain hyphens and underscores, but they must be encoded when referenced as a package name within a Java file. Both hyphens and underscores are escaped with underscore followed by their unicode value : 
+     <ul> 
+      <li>hypen becomes '_002d'<br /> </li> 
+      <li>underscore becomes '_005f'</li> 
+     </ul> </li> 
+   </ul> 
+  </note> 
+  <h3>Setup the Application Directory (/apps)</h3> 
+  <p>The /apps directory in the repository contains the code with implements the behavior and rendering of the pages served from the /content directory.</p> 
+  <p>The /apps directory is protected and not publicly accessible as are the /content and /etc/designs directories.<br /> </p> 
+  <ol> 
+   <li><p>Create<strong> /apps/an-scf-sandbox </strong>folder.</p> <p>Using <strong>CRXDE Lite</strong>, in the explorer pane</p> 
+    <ol> 
+     <li>select the <strong><span class="code">/apps</span></strong> folder <br /> </li> 
+     <li>right-click <strong>Create</strong>... or pull down the <strong>Create...</strong> menu</li> 
+     <li>select <strong>Create</strong> <strong>Folder...</strong> .</li> 
+     <li>in the <strong>Create Folder </strong>dialog, enter <strong>an-scf-sandbox</strong></li> 
+     <li>click <strong>OK</strong></li> 
+    </ol> </li> 
+   <li><p>Create <strong>components </strong>subfolder.</p> 
+    <ol> 
+     <li>select the <strong>/apps/an-scf-sandbox</strong> folder</li> 
+     <li>click <strong>Create</strong> &amp;gt; <strong>Create Folder</strong></li> 
+     <li>in the <strong>Create Folder</strong> dialog, enter <strong>components</strong></li> 
+     <li>click <strong>OK</strong></li> 
+    </ol> </li> 
+   <li><p>Create <strong>templates </strong>subfolder.</p> 
+    <ol> 
+     <li>select the <strong>/apps/an-scf-sandbox </strong>folder</li> 
+     <li>click <strong>Create</strong> &amp;gt; <strong>Create Folder</strong></li> 
+     <li>in the <strong>Create Folder</strong> dialog, enter <strong>templates</strong></li> 
+     <li><strong></strong>click <strong>OK</strong></li> 
+    </ol> </li> 
+   <li> 
+    <ol> 
+     <li>re-select /apps/<strong>an-scf-sandbox</strong></li> 
+     <li>select <strong>Save All</strong></li> 
+    </ol> <p>As with any editing process, save often. If you run into problems with entering data, it may be either because your login has timed out or you need to save previous edits.</p> </li> 
+   <li><p>The structure in the explorer pane of CRXDE Lite should now look something like this:<br /> </p> <img imageRotate="0" src="assets/chlimage_1-44.png" /></li> 
+  </ol> 
+  <h3>Setup the Design Directory (/etc/designs)</h3> 
+  <p>The /etc/designs directory contains the images, scripts, and stylesheets to be downloaded along with the page content.<br /> </p> 
+  <ol> 
+   <li><p>To use the Deisgner tool in the Classic UI, browse to <a href="http://localhost:4502/miscadmin">http://&amp;lt;server&amp;gt;:&amp;lt;port&amp;gt;/miscadmin</a>.</p> <p>Note : If you use CRXDE Lite to create a Node of type <span class="code">cq:Page</span>, the Access Control and Replication would not be set to default settings for a page.</p> </li> 
+   <li><p>In the explorer pane, select the <strong>Designs </strong>folder and then click <strong>New &amp;gt; New Page</strong>.</p> <p>Enter:</p> 
+    <ul> 
+     <li>Title :<strong> An SCF Sandbox</strong></li> 
+     <li>Name : <strong>an-scf-sandbox</strong></li> 
+     <li>select <strong>Design Page Template</strong></li> 
+    </ul> <p>Click <strong>Create</strong></p>  <img imageRotate="0" src="assets/chlimage_1-45.png" /></li> 
+   <li><p>Refresh the explorer pane if "An SCF Sandbox" folder does not appear.<br /> </p> </li> 
+   <li><p>Return to CRXDE Lite (http://localhost:4502/crx/de) and expand /etc/designs to see the node named "an-scf-sandbox".</p> <p>In the right, lower pane of CRXDE, you can view the Properties tab, Access Control tab and Replication tab to see what was defined using the Design Page Template.</p> <img imageRotate="0" src="assets/chlimage_1-46.png" /></li> 
+  </ol> 
+  <h3>Setup the Content Directory (/content)</h3> 
+  <p>The /content directory in the respository is where the website content resides. The paths under /content comprise the paths of the URL for browser requests.</p> 
+  <p><i>After </i>the <a href="../../communities/using/initial-app.md#createthepagetemplate">page template</a> is created as part of the initial application, the initial page content can be created based on the template.... <a href="../../communities/using/initial-app.md"><strong>⇒</strong></a></p> 
+  <table cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td><a href="../../communities/using/an-scf-sandbox.md"><strong>⇐ Create An SCF Sandbox</strong></a></td> 
+     <td style="text-align: right;"><strong><a href="../../communities/using/initial-app.md">Initial Sandbox Application ⇒</a></strong></td> 
+    </tr> 
+   </tbody> 
+  </table> 
+ </body> 
+</html>

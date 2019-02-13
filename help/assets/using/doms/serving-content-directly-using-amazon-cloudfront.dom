@@ -1,0 +1,91 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/serving_content_directly_using_amazon_cloudfront_krs_workflow_e3d4e63f2164900e_321_report.xml" name="acrolinxReportURL" /> 
+  <meta content="green" name="acrolinxPageStatus" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS;topic_tags:administering" name="cq:tags" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS" name="primaryProductTag" /> 
+  <meta content="DO NOT PUBLISH | Enable Amazon Cloudfront to serve content" name="jcr:title" /> 
+  <meta content="asgupta" name="contentOwner" /> 
+  <meta content="2018-11-19T03:00:57.647-0500" name="cq:lastModified" /> 
+  <meta content="/content/help/en/experience-manager/6-4/assets/morehelp/administering;/content/help/en/experience-manager/6-4/assets/morehelp/administering" name="moreHelpPaths" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="asgupta" name="acrolinxLastCheckedBy" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="asgupta" name="cq:lastModifiedBy" /> 
+  <meta content="true" name="preview" /> 
+  <meta content="Use S3-based datastore using AWS Cloudfront to directly serve content." name="seoDescription" /> 
+  <meta content="59" name="acrolinxSentences" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2018-05-29T07:29:32.891-0400" name="jcr:created" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="Use S3-based datastore using AWS Cloudfront to directly serve content." name="jcr:description" /> 
+  <meta content="Enable Amazon Cloudfront to serve content" name="navTitle" /> 
+  <meta content="Enable Amazon Cloudfront to serve content" name="seoTitle" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="823" name="acrolinxWords" /> 
+  <meta content="checked_improved" name="acrolinxStatus" /> 
+  <meta content="2018-07-13T05:53:02.126-0400" name="acrolinxDate" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="en" name="pageCreatedAt" /> 
+ </head> 
+ <body> 
+  <p>Normally, when a client requests for content, for example asset renditions, the content bits pass through Adobe Experience Manager (AEM). If the content is not cached locally, it is fetched from the S3 bucket.</p> 
+  <p>In both cases, the AEM instance performs the task of fetching and serving content, which involves multiple input/output operations. If the user-agent is at a distant location, serving content requires multiple network hops, which introduce latency.</p> 
+  <p>This feature uses the global Amazon CloudFront infrastructure to directly serve content to the client, rather than through AEM. It reduces the number of input/output operations and network hops. The content is served faster from an edge server that caches content.</p> 
+  <p>To know more, see <a href="https://aws.amazon.com/documentation/s3/" target="_blank">Amazon Simple Storage Service documentation</a>. </p> 
+  <note> 
+   <p>This feature is incompatible with the Catalog feature. If this feature is enabled, Catalogs do not work.<br /> </p> 
+  </note>    
+  <h2>Security considerations</h2> 
+  <p>The feature incorporates the following to reduce security risks:</p> 
+  <ul> 
+   <li>The CloudFront URI for the requested content is signed using an AWS Cloudfront private key to prevent tampering. The key is stored on a path that is readable from the AEM server. The path is configured in CloudFront UriProvider.</li> 
+   <li>By default, the CloudFront URI for the requested content expires in 60 seconds to prevent malafide sharing.</li> 
+   <li>You can enable the feature only on AEM publish instances for publicly accessible content, because the signed URL is not checked for fine-grained access control.</li> 
+   <li>The CloudFront URI for the requested content is generated based on the contentID of the binary large object (BLOB) entity. It is not available in the Oak API. Therefore, a reflection is used to fetch it. To safeguard against implementation changes in Oak, the Granite URI provider implementation fails to return a URL if it isn't able to get the content. In this case, the requested content is served from AEM.</li> 
+  </ul> 
+  <h2>Configure the feature</h2>  
+  <p>The feature uses Adobe Granite's implementation for <span class="code">org.apache.sling.api.resource.URIProvider</span>. It provides signed AWS CloudFront URLs for S3 objects stored in an Oak S3 DataStore.</p> 
+  <p>Before configuring the feature, deploy AEM as TarMK or on MongoMK with a S3 DataStore.</p> 
+  <p>You require the AWS CloudFront key to configure the feature. If you do not have it already, ensure that you have root access to the AWS subscription to manage keys in AWS. See <a href="http://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/private-content-trusted-signers.html">here</a> for more details.</p> 
+  <ol> 
+   <li><p>Follow the instructions <a href="http://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/private-content-trusted-signers.html#private-content-creating-cloudfront-key-pairs">here</a> to generate the keys and upload to AWS.</p> </li> 
+   <li><p>To generate keys for AWS, run the following commands:</p>  </li> 
+   <li><p>To generate a #PKCS8 formatted private key, run the following command:</p>  <p>AWS provides the keyPairID after the public key is uploaded.</p> </li> 
+   <li><p>Configure CloudFront for the S3 bucket that is used as DataStore. See <a href="http://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/GettingStarted.html">here</a> for more details.</p> </li> 
+   <li><p>Follow the instructions <a href="http://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/private-content-restricting-access-to-s3.html">here</a> to enable S3 bucket access from CloudFront.</p> </li> 
+   <li><p>Rewrite the URI generated by <span class="code">com.adobe.granite.uriprovider</span> to the appropriate CloudFront URL using the Amazon Lambda@Edge service. For details, see <a href="https://docs.aws.amazon.com/lambda/latest/dg/lambda-edge.html">here</a>.</p> <p>Essentially, do the following:</p> 
+    <ul> 
+     <li>Add a Lambda function with the following code: </li> 
+     <li>Add a CloudFront trigger with the following settings: 
+      <ul> 
+       <li><span class="code">Distribution ID</span>: The id of the cloudfront distribution</li> 
+       <li><span class="code">Event type</span>: origin-request</li> 
+       <li><span class="code">Path pattern</span>: *</li> 
+      </ul> </li> 
+     <li>Enable triggers and replicate.</li> 
+    </ul> </li> 
+   <li><p>Configure com.adobe.granite.uriprovider from the OSGi console. Provide the location of the CloudFront private key and the key pair Id.</p> 
+    <ul> 
+     <li>Cloud front url: The cloud front URL, including a trailing slash. Normally, it is <a href="http://cloudfrontdomain/">http://cloudfrontdomain/</a>.</li> 
+     <li>Ttl: Time in seconds for which each signed URL is valid.</li> 
+     <li>Private key file: Path to the #PKCS8 formatted private key file, generally an absolute path.</li> 
+     <li>Key pair id: The key pair ID generated by AWS Console when the public key is generated or uploaded.</li> 
+     <li>Min size: Minimum size in kb above which a binary is redirected.</li> 
+     <li>Forbidden paths: List of forbidden content path regex for which URIs are not provided. For example, to forbid paths that end with <span class="code">cqdam.pyramid.tiff</span>, use <span class="code">.*cqdam\.pyramid\.tiff$.</span> Set the forbidden paths to: 
+      <ul> 
+       <li><span class="code">.*cqdam\.pyramid\.tiff$</span></li> 
+       <li><span class="code">^\/var\/proxy\/jobs\/.*\.indd\/jcr:content\/renditions\/original$</span></li> 
+       <li><span class="code">^\/var\/proxy\/jobs\/.*\.idms\/jcr:content\/renditions\/original$</span></li> 
+       <li><span class="code">^\/var\/proxy\/jobs\/.*\.idml\/jcr:content\/renditions\/original$</span><br /> </li> 
+      </ul> </li> 
+    </ul> </li> 
+   <li><p>Validate the configuration by monitoring the content being served in the browser from AEM. In the browser's network console, you can view requests for content larger than the configured minimum size being redirected to AWS CloudFront.</p> </li> 
+  </ol> 
+ </body> 
+</html>

@@ -1,0 +1,122 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="admin" name="lr_creator" /> 
+  <meta content="admin" name="lr_lastModifiedBy" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="View statistics related to Work Manager" name="navTitle" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/forms/using/admin-help/view-statistics-related-manager.html" name="publishExternalURL" /> 
+  <meta content="2018-04-26T04:21:52.746-0400" name="locHandOffDate" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/view_statistics_related_manager_admin_5e12de0b318c6865_2387_report.xml" name="acrolinxReportURL" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="2017-10-31T16:30:02.756-0400" name="publishExternalDate" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="The Work Manager tab displays statistics that relate to Work Manager items. Learn how you can view and filter the work items." name="seoDescription" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="admin" name="contentOwner" /> 
+  <meta content="2017-10-31T16:30:02.756-0400" name="lastPublishExternalDate" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="topicBrowsingSortDate" /> 
+  <meta content="2016-02-05T03:27:34.048-0500" name="lr_lastModified" /> 
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="7689ac45-3ae7-4fda-870a-79d8ab09fa57" name="jcr:uuid" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/health_monitor;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" /> 
+  <meta content="yellow" name="acrolinxPageStatus" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="View statistics related to Work Manager" name="jcr:title" /> 
+  <meta content="2016-05-31T07:03:56.086-0400" name="acrolinxDate" /> 
+  <meta content="2017-12-01T19:07:07.478-0500" name="jcr:created" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2018-04-26T04:21:52.746-0400" name="cq:lastModified" /> 
+  <meta content="1202" name="acrolinxWords" /> 
+  <meta content="2016-04-20T10:10:12.532-0400" name="firstPublishExternalDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7cc1.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-309733be12905ce0150-7ffe.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-309733be12905ce0150-7ffa.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7cc0.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-309733be12905ce0150-7ff3.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-309733be12905ce0150-7ff6.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-309733be12905ce0150-7ff7.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-309733be12905ce0150-7ffb.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-309733be12905ce0150-7fec.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7cbe.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7cbd.2" name="cq:gepId" /> 
+  <meta content="80" name="acrolinxSentences" /> 
+  <meta content="2018-04-03T09:10:46.785-0400" name="cq:lastReplicated" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="sortDate" /> 
+  <meta content="26ccd66f-ef65-43b6-b543-2dca33941989" name="jcr:predecessors" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+ </head> 
+ <body> 
+  <p>The Work Manager tab displays statistics that relate to Work Manager items. These work items are in different states depending on where they are in their process. (See <a href="view-statistics-related-manager#status_for_default_workflow_or_events_categories_only">Status (for Default, Workflow, or Events categories only)</a>.) You can filter the information to view only a subset of the items by using the various options that are available (for example, Status or Category). You can sort resulting work or job items (in ascending or descending order) by clicking one of the column headers. Also, you can manage the work items by using the operation tools that are displayed above the work items list.</p> 
+  <h2 id="filter_the_work_items">Filter the work items</h2> 
+  <p></p> 
+  <ol> 
+   <li><p>Click the Work Manager tab.</p></li> 
+   <li><p>Select the criteria for one or more of the filters described below and then click Go.</p></li> 
+  </ol> 
+  <h3 id="category">Category</h3> 
+  <p></p> 
+  <p><strong>Default:</strong> All work items that the client did not assign a category to when they were submitted. Work Manager manages these items, therefore the statuses belong to Work Manager.</p> 
+  <p><strong>Job Manager:</strong> All jobs that belong to Job Manager. Job Manager manages its own jobs and has its own job statuses. See the specific job statuses described below.</p> 
+  <p><strong>Workflow:</strong> All work items that belong to the Workflow execution. Workflow does not manage its own work items but relies on Work Manager; therefore, the statuses belong to Work Manager.</p> 
+  <p><strong>Events:</strong> All work items that belong to Event Management. Event Management does not manage its own work items but relies on Work Manager; therefore, the statuses belong to Work Manager.</p> 
+  <h3 id="status_for_default_workflow_or_events_categories_only">Status (for Default, Workflow, or Events categories only)</h3> 
+  <p></p> 
+  <p><strong>Show All:</strong> Displays all current work items.</p> 
+  <p><strong>Scheduled:</strong> Displays all work items ready for execution by the application server but not yet started.</p> 
+  <p><strong>Paused:</strong> Displays all scheduled work items that the client application has paused. These items can be executed or deleted. (See Manage the work items or jobs.)</p> 
+  <p><strong>In Progress:</strong> Displays all work items that the application server’s Work Manager picked up and will either complete or fail. You cannot use operations on these work items.</p> 
+  <p><strong>Complete:</strong> Displays all work items that executed successfully. Persistent work items stay in this state and non-persistent items are deleted upon completion of callbacks to the callback handlers. You can delete these items by using the Delete Items operation. (See Manage the work items or jobs.)</p> 
+  <p><strong>Failed:</strong> Displays all work items that did not complete successfully due to an error condition. These work items can be retried a few times by using the Retry Items operation. (See Manage the work items or jobs.) A Failure link in the Status column allows you to access details about the failure.</p> 
+  <p><strong>Unknown:</strong> Displays all work items whose status is unknown.</p> 
+  <h3 id="status_for_job_manager_category_only">Status (for Job Manager category only)</h3> 
+  <p></p> 
+  <p><strong>Completed:</strong> Displays all jobs that have executed successfully. Persistent work items stay in this state and non-persistent items are deleted upon completion of callbacks to the callback handlers.</p> 
+  <p><strong>Complete Requested:</strong> Displays jobs for which a complete request was made.</p> 
+  <p><strong>Fail Requested:</strong> Displays jobs for which a fail request was made.</p> 
+  <p><strong>Failed:</strong> Displays jobs that did not complete successfully due to an error condition. A Failure link in the Status column allows you to access details about the failure.</p> 
+  <p><strong>Terminate Requested:</strong> Displays jobs for which a terminate request was made.</p> 
+  <p><strong>Terminated:</strong> Displays jobs that terminated without completing.</p> 
+  <p><strong>Suspend Requested:</strong> Displays jobs for which a suspend request was made.</p> 
+  <p><strong>Suspended:</strong> Displays jobs that are suspended.</p> 
+  <p><strong>Resume Requested:</strong> Displays jobs for which a resume request was made.</p> 
+  <p><strong>Queued:</strong> Displays jobs that are in the queue.</p> 
+  <p><strong>Running:</strong> Displays jobs that are running.</p> 
+  <h3 id="server_name">Server Name</h3> 
+  <p></p> 
+  <p>For clustered servers only, select the name of the node to display the work items or job items that were created on that server only. If Show All is selected, all work items for all nodes in a cluster are displayed.</p> 
+  <h3 id="create_time">Create Time</h3> 
+  <p></p> 
+  <p>Select an option in this filter to show only those work items that were created within the timeframe you select. For example, selecting 1 Day displays all work items that were created within 24 hours before the time that was set in the Prior To filter. </p> 
+  <h3 id="prior_to">Prior to</h3> 
+  <p></p> 
+  <p>Sets the date and time that the Create Time filter uses as an end date. Keep the Use Current Date &amp; Time option selected to filter back from the current date and time, or deselect the option and enter the appropriate values. Click either the calendar icons or the clock icons to select values by using those tools.</p> 
+  <p>For example, selecting Create Time = 1 day and Prior to = Use Current Date &amp; Time returns all work items that were created within the last 24 hours.</p>  
+  <note> 
+   <p>On Oracle database deployments, date range filters (that is, Create Time and Prior to settings) do not work accurately. Use another filter to retrieve work items. </p> 
+  </note> 
+  <h2 id="about_the_work_manager_tab_interface">About the Work Manager tab interface</h2> 
+  <p></p> 
+  <p>When you run a Work Manager query or perform an operation on a work item or job, a message appears above the list. This message provides feedback about the action you have initiated and in some cases, a More Info link to provide details. For example, if the operation you initiated failed, the message states as much and provides a link to get details about the error.</p> 
+  <p>When you click More Info, the Operation Details dialog box displays a list of the work items or jobs that were selected during the operation. You can click each list item to view the Error Details at the bottom of the dialog box.</p> 
+  <h3 id="manage_the_work_items_or_jobs">Manage the work items or jobs</h3> 
+  <p></p> 
+  <ol> 
+   <li><p>Use the operation tools described below to manage the work items or jobs in the list. </p> 
+    <note> 
+     <p>Operations are available depending on the item’s status.</p> 
+    </note><p><strong>Delete Items:</strong> Deletes the selected work item or job.</p><p><strong>Pause Items: </strong>Pauses the selected work item or job. </p><p><strong>Resume Items:</strong> Resumes the selected work item or job from its paused state.</p><p><strong>Retry Items: </strong>Attempts to rerun the selected work item or job from its current state.</p><p>You can verify whether an operation was successful by clicking More Info above the list. A dialog box that contains the selected work items or jobs and their statuses is displayed.</p></li> 
+  </ol> 
+  <h2 id="additional_information_about_work_item_statuses">Additional information about work item statuses</h2> 
+  <p></p> 
+  <p>A typical state transition for a work item is New &amp;gt; Scheduled &amp;gt;In Progress &amp;gt; Complete or Failure. </p> 
+  <p>The Paused state interrupts this normal flow. Either the client application or the system administrator can initiate this interruption (for example, for maintenance or upgrade). You can reverse this action by using the Resume operation to move the work item back into a Scheduled state. </p> 
+  <p>A work item in a Scheduled state is queued for execution that has not yet begun. These items can be paused or deleted, or will move to the In Progress state when Work Manager takes them from the queue. Work items that are in progress cannot be modified. They will either complete or fail.</p> 
+  <p>The Failed state occurs as a result of an error condition that occurs during execution of the work item. If you suspect errors to be circumstantial (due to the context at the time of execution), you can retry the execution, putting the work item back into the queue. Only a limited number of retries are permitted.</p> 
+ </body> 
+</html>

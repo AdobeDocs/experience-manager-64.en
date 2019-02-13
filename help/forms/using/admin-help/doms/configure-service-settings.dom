@@ -1,0 +1,589 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="sortDate" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/admin-help/configure-service-settings.html" name="publishExternalURL" /> 
+  <meta content="2018-09-26T13:27:18.769-0400" name="cq:lastReplicated" /> 
+  <meta content="khsingh" name="cq:lastModifiedBy" /> 
+  <meta content="11216" name="acrolinxWords" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/configure_service_settings_admin_5e12de0b318c6865_2274_report.xml" name="acrolinxReportURL" /> 
+  <meta content="2018-09-26T13:27:18.734-0400" name="lastPublishExternalDate" /> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="724" name="acrolinxSentences" /> 
+  <meta content="2018-10-09T05:12:21.955-0400" name="locHandOffDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/managing_services;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" /> 
+  <meta content="e1777085-cd3b-4bf2-afcc-8a05d004cd1b" name="jcr:uuid" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="admin" name="contentOwner" /> 
+  <meta content="2018-09-26T13:27:18.734-0400" name="publishExternalDate" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="admin" name="lr_creator" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2018-10-09T05:12:21.959-0400" name="cq:lastModified" /> 
+  <meta content="admin" name="lr_lastModifiedBy" /> 
+  <meta content="2016-04-20T09:59:37.192-0400" name="firstPublishExternalDate" /> 
+  <meta content="Configure service settings" name="jcr:title" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="topicBrowsingSortDate" /> 
+  <meta content="khsingh" name="cq:lastReplicatedBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="de1c86f2-dd19-4d3c-8259-b4f5e1a510ca" name="jcr:predecessors" /> 
+  <meta content="Configure service settings" name="navTitle" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="khsingh@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2017-12-01T19:06:52.510-0500" name="jcr:created" /> 
+  <meta content="2016-05-31T06:54:22.169-0400" name="acrolinxDate" /> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/managing_services;/content/help/en/experience-manager/6-4/forms/morehelp/managing_services" name="moreHelpPaths" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="Learn how to configure service settings." name="seoDescription" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="AEMForms/6.1/AdminHelp/WSa7dd8288c271d662-73523aaf12a8454ac40-8000.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-4a246f2612905cdf1b0-7ffe.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-4a246f2612905cdf1b0-7fed.2,AEMForms/6.1/AdminHelp/WSa7dd8288c271d6626fefdb3812a84aceb8e-8000.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-4a246f2612905cdf1b0-7ffa.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-4a246f2612905cdf1b0-7ffd.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-4a246f2612905cdf1b0-7ff9.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-4a246f2612905cdf1b0-7ffb.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-4a246f2612905cdf1b0-7fff.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-4a246f2612905cdf1b0-7ffc.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-4a246f2612905cdf1b0-7fec.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-4a246f2612905cdf1b0-7feb.2,AEMForms/6.1/AdminHelp/WS196e8398323ca8ae-1ce4455e131012c941a-8000.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-4a246f2612905cdf1b0-7fea.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-4a246f2612905cdf1b0-7fe8.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-4a246f2612905cdf1b0-7ff8.2,AEMForms/6.1/AdminHelp/WS8e6112d72b18142d-3319a969133180b06f3-8000.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-4a246f2612905cdf1b0-7fe7.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-4a246f2612905cdf1b0-7fe6.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-4a246f2612905cdf1b0-7fe5.2,AEMForms/6.1/AdminHelp/WSa7dd8288c271d6628aafd8512a850b6b69-8000.2,AEMForms/6.1/AdminHelp/WS196e8398323ca8ae61e1126c1310140780f-8000.2,AEMForms/6.1/AdminHelp/WS196e8398323ca8ae61e1126c1310140780f-7fff.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-4a246f2612905cdf1b0-7fe4.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-4a246f2612905cdf1b0-7fe3.2,AEMForms/6.1/AdminHelp/WS196e8398323ca8ae61e1126c1310140780f-7ffe.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-4a246f2612905cdf1b0-7fe2.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-4a246f2612905cdf1b0-7fe1.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-4a246f2612905cdf1b0-7fe0.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-4a246f2612905cdf1b0-7fdf.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-4a246f2612905cdf1b0-7fde.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-4a246f2612905cdf1b0-7fdd.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-4a246f2612905cdf1b0-7fdc.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-4a246f2612905cdf1b0-7fdb.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-4a246f2612905cdf1b0-7fda.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7ebc.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-4a246f2612905cdf1b0-7ff6.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-4a246f2612905cdf1b0-7ff1.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7ee3.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-4a246f2612905cdf1b0-7ff3.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-4a246f2612905cdf1b0-7fd8.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7ee1.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-4a246f2612905cdf1b0-7fd5.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-4a246f2612905cdf1b0-7fd4.2" name="cq:gepId" /> 
+  <meta content="2016-02-05T03:27:14.306-0500" name="lr_lastModified" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+ </head> 
+ <body> 
+  <p>You can use the Service Management page to configure settings for each of the services that are part of AEM forms. The available settings vary depending on the service being configured. </p> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; Applications and Services &amp;gt; Service Management.</p></li> 
+   <li><p>Stop the service before changing it. (See <a href="../../../forms/using/admin-help/starting-stopping-services.md#starting-and-stopping-services">Starting and stopping services</a>.)</p></li> 
+   <li><p>Click the name of the service that you want to configure.</p></li> 
+   <li><p>If the service has a Configuration tab, use it to change the settings for the service. See the list of links below for details. </p> 
+    <note> 
+     <p>Not all of the services listed on the Service Management page have a Configuration tab. For processes that you have created, the Configuration tab appears only if you have added a configuration parameter to the process in Workbench. (See “Configuration parameters” in the <em><a href="http://www.adobe.com/go/learn_aemforms_workbench_63">Workbench Help</a> .) </em></p> 
+    </note></li> 
+   <li><p>Click the Security tab and set the security settings for the service. See <a href="configure-service-settings#modifying_security_settings_for_a_service">Modifying security settings for a service</a>.</p></li> 
+   <li><p>If the service has an Endpoints tab, use it to change the endpoint settings. See <a href="/forms/using/admin-help/topics/managing-endpoints" target="_blank">Managing Endpoints</a>.</p> </li> 
+   <li><p>Click the Pooling tab and set the pooling settings. See <a href="configure-service-settings#configuring_pooling_for_a_service">Configuring pooling for a service</a>.</p></li> 
+   <li><p>Click Save to save your changes or click Cancel to discard them.</p></li> 
+   <li><p>Select the checkbox next to the service name and click Start to restart the service.</p></li> 
+  </ol> 
+  <h2 id="audit_workflow_service_settings">Audit Workflow service settings</h2> 
+  <p></p> 
+  <p>Workbench provides the ability to record process instances as they execute at runtime and then play them back to observe the behavior of the process. (See <a href="http://www.adobe.com/go/learn_aemforms_workbench_63">Workbench Help</a>.) To conserve space on the forms server's file system, you can limit the amount of process recording data that is stored. You can configure the following properties of the Audit Workflow Service service (<span class="code">AuditWorkflowService</span>):</p> 
+  <p><strong>maxNumberOfRecordingInstances:</strong> The maximum number of recordings that are stored. When the maximum number is stored, the oldest recording is removed from the file system when a new recording is created. This property is useful if you tend to create many recordings and you want to remove old recordings automatically. The default value is 50.</p> 
+  <p><strong>MaxNumberOfRecordingEntries:</strong> The maximum number of data entries that can be stored for each recording. Data entries are information about operations in the process. Several entries are stored for each execution of an operation, such as whether the operation started, whether the operation completed, and whether the route that leads to the operation is complete. This property is useful when processes can include many operation executions, for example, when an endless loop is encountered. The default value is 50.</p> 
+  <h2 id="barcoded_forms_service_settings">barcoded forms service settings</h2> 
+  <p></p> 
+  <p>The barcoded forms service <span class="code">(BarcodedFormsService)</span> extracts barcode data from scanned images. The service accepts a barcoded form (TIFF or PDF) as input and extracts the machine representation of the data encoded by the barcode.</p> 
+  <p>The following settings are available for the barcoded forms service.</p> 
+  <p><strong>Read Left:</strong> When selected, barcode images are scanned horizontally from right to left.</p> 
+  <p><strong>Read Right:</strong> When selected, barcode images are scanned horizontally from left to right.</p> 
+  <p><strong>Read Up:</strong> When selected, barcode images are scanned vertically from bottom to top.</p> 
+  <p><strong>Read Down:</strong> When selected, barcode images are scanned vertically from top to bottom.</p> 
+  <p><i><strong>Note</strong>: By default, all of the options are selected. Deselect an option only if you are certain that no barcodes appear that way on your forms.</i></p>    
+  <p><strong>Base File Path:</strong> The file path relative to which the batch input and output file parameters for the Run XML File Job and Run Flat File Job operations are resolved. In clustered configurations, the base file path must be a shared file system location to which all cluster nodes have read/write access.</p> 
+  <p><strong>Data Source Name:</strong> The name of data source used to maintain state and history information about batch processing jobs. The specified data source must support global (XA) transactions.</p>  
+  <h2 id="central_migration_bridge_service_settings">Central Migration Bridge service (Deprecated) settings</h2> 
+  <p>The Central Migration Bridge service (<span class="code">CentralMigrationBridge</span>) invokes a subset of Adobe Central Pro Output Server (Central) functionality, which includes the JFMERGE, JFTRANS, and XMLIMPORT commands. Central Migration Bridge service operations allow you to reuse the following Central assets in AEM forms:</p> 
+  <ul> 
+   <li><p>template design (*.ifd) </p></li> 
+   <li><p>output templates (*.mdf) </p></li> 
+   <li><p>data files (*.dat files) </p></li> 
+   <li><p>preamble files (*.pre files) </p></li> 
+   <li><p>data definition files (*.tdf) </p></li> 
+  </ul> 
+  <p>The following setting is available for the Central Migration Bridge service.</p> 
+  <p><strong>Central Install Directory:</strong> The directory where Adobe Central 5.7 is installed.</p> 
+  <h2 id="content_repository_connector_for_emc_documentum_service_settings">Content Repository Connector for EMC Documentum service settings</h2> 
+  <p></p> 
+  <p>The Content Repository Connector for EMC Documentum service (<span class="code">EMCDocumentumContentRepositoryConnector</span>) lets you create processes that interact with content that is stored in a Documentum repository.</p> 
+  <p>The following setting is available for the Content Repository Connector for EMC Documentum service.</p> 
+  <p><strong>Asset Link Object Default Path:</strong> The default portion of the path in the Documentum repository for storing the Asset Link object. The actual path consists of the default path and the location of the form template in the AEM forms repository.</p> 
+  <p>For example, if the default path is set to <span class="code">/LiveCycleES/ConnectorforEMCDocumentum/AssetLinkObjects</span>, and the form template is stored in a folder <span class="code">/Docbase/forms/</span>, the Asset Link object is stored at the following location:</p> 
+  <p><span class="code">/LiveCycleES/ConnectorforEMCDocumentum/AssetLinkObjects/Docbase/forms/</span></p> 
+  <p>The default value of this setting is <span class="code">/LiveCycleES/ConnectorforEMCDocumentum/AssetLinkObjects</span>. </p> 
+  <h2 id="content_repository_connector_for_ibm_filenet_service_settings">Content Repository Connector for IBM FileNet service settings</h2> 
+  <p></p> 
+  <p>The Content Repository Connector for IBM FileNet lets you create processes that interact with content that is stored in an IBM FileNet repository.</p> 
+  <p>The following setting is available for the Content Repository Connector for IBM FileNet service.</p> 
+  <p><strong>Asset Link Object Default Path:</strong> The default portion of the path in the IBM FileNet repository for storing the Asset Link object. The actual path consists of the default path and the location of the form template in the AEM forms repository.</p> 
+  <p>For example, if the default path is set to <span class="code">/LiveCycleES/ConnectorforIBMFileNet/AssetLinkObjects</span>, and the form template is stored in a folder <span class="code">/Docbase/forms/</span>, the Asset Link object is stored at the following location:</p> 
+  <p><span class="code">/LiveCycleES/ConnectorforIBMFileNet/AssetLinkObjects/Docbase/forms/</span></p> 
+  <p>The default value of this setting is <span class="code">/LiveCycleES/ConnectorforIBMFileNet/AssetLinkObjects</span>. </p> 
+  <h2 id="convert_pdf_service_settings">Convert PDF service settings</h2> 
+  <p></p> 
+  <p>The Convert PDF service (<span class="code">ConvertPdfService</span>) converts PDF documents to PostScript and to a number of image formats (JPEG, JPEG 2000, PNG, and TIFF). Converting a PDF document to PostScript is useful for unattended server-based printing on any PostScript printer. Converting a PDF document to a multipage TIFF file is practical when archiving documents in content management systems that do no support PDF documents.</p> 
+  <p>The following settings are available for the Convert PDF service. </p> 
+  <p><strong>Transaction Type:</strong> Specifies how a transaction context should be propagated to an operation.</p> 
+  <p><strong>Required:</strong> Supports a transaction context if one exists; otherwise, a new transaction context is created. This is the default value.</p> 
+  <p><strong>Requires New:</strong> Always creates a new transaction context. If an active transaction context exists, it is suspended.</p> 
+  <p><strong>Transaction Time Out (in sec):</strong> The number of seconds that the underlying transaction provider should wait before rolling back a transaction that is wrapping this operation. This value will be ignored if an existing transaction context is propagated. The default value is 180.</p> 
+  <p><strong>Threshold Resolution For Smoothing (in dpi):</strong> The image resolution below which smoothing (or anti-aliasing) is applied to text, line art and images, if you have selected the “Apply smoothing to” options for those elements.</p> 
+  <p><strong>Apply smoothing to text:</strong> Controls anti-aliasing of text. To disable smoothing of text and make text sharper and easier to read with a screen magnifier, clear this checkbox.</p> 
+  <p><strong>Apply smoothing to LineArt:</strong> Applies smoothing to remove abrupt angles in lines.</p> 
+  <p><strong>Apply smoothing to images:</strong> Applies smoothing to minimize abrupt changes in images.</p> 
+  <h2 id="distiller_service_settings">Distiller service settings</h2> 
+  <p></p> 
+  <p>The Distiller service (<span class="code">DistillerService</span>) converts PostScript, Encapsulated PostScript (EPS), and PRN files to PDF files over a network.</p> 
+  <p>The following settings are available for the Distiller service.</p> 
+  <p><strong>Adobe PDF Settings:</strong> The following preconfigured settings are applied to the generated PDF:</p> 
+  <ul> 
+   <li><p>High quality print</p></li> 
+   <li><p>Oversized pages</p></li> 
+   <li><p>PDFA1b 2005 CMYK</p></li> 
+   <li><p>PDFA1b 2005 RGB</p></li> 
+   <li><p>PDFX1a 2001</p></li> 
+   <li><p>PDFX3 2002</p></li> 
+   <li><p>Press quality</p></li> 
+   <li><p>Smallest file size</p></li> 
+   <li><p>Standard</p></li> 
+  </ul> 
+  <p>New settings can be created through the PDF Generator user interface. </p> 
+  <p><strong>Security Settings:</strong> Preconfigured security settings that are applied to generated PDF documents. The default value is No Security. You must create security settings using PDF Generator and then enter the setting here.</p> 
+  <p><strong>Pool Size:</strong> The initial size of the pool. When the Distiller service is deployed, this number is used to determine the number of service implementation instances that are created and allocated to the free pool awaiting invocation requests. The service container can then respond immediately to invocation requests without having to first initialize a service instance.</p> 
+  <h2 id="document_management_service_settings">Document Management service settings</h2> 
+  <p></p> 
+  <note> 
+   <p>Adobe® LiveCycle® Content Services ES (Deprecated) is a content management system installed with LiveCycle. It enables users to design, manage, monitor, and optimize human-centric processes. Content Services (Deprecated) support ends on 12/31/2014. See<a href="http://www.adobe.com/support/products/enterprise/eol/eol_matrix.html"> Adobe product lifecycle document</a>. To know about configuring Content Services (Deprecated), see <a href="http://help.adobe.com/en_US/livecycle/9.0/admin_contentservices.pdf">Administering Content Services</a>.</p> 
+  </note> 
+  <p>The Document Management service (<span class="code">DocumentManagementService</span>) enables processes to use the content management functionality provided by Content Services (Deprecated). Document Management operations provide basic tasks that are required to maintain spaces and content in the content management system. Examples of such tasks are copy, delete, move, retrieve, and store content, create spaces and associations, and get and set content attributes.</p> 
+  <p>The following settings are available for the Document Management service. </p> 
+  <p><strong>Store Scheme:</strong> The scheme of the store in which content is located. The default value is workspace.</p> 
+  <p><strong>HTTP Port:</strong> The port used to access Content Services (Deprecated). The default value is 8080.</p>  
+  <h2 id="email_service_settings">Email service settings</h2> 
+  <p></p> 
+  <p>Email is commonly used to distribute content or provide status information as part of an automated process. The Email service (<span class="code">EmailService</span>) enables processes to receive email messages from a POP3 or IMAP server, and send email messages to an SMTP server.</p> 
+  <p>For example, a process uses the Email service to send an email message with a PDF form attachment. The Email service connects to an SMTP server to send the email message with the attachment. The PDF form is designed to let the recipient click Submit after completing the form. The action causes the form to be returned as an attachment to the designated email server. The Email service retrieves the returned email message and stores the completed form in a process data form variable.</p> 
+  <p>The following settings are available for the Email service. </p> 
+  <p><strong>SMTP Host:</strong> The IP address or URL of the SMTP server to use for sending email.</p> 
+  <p><strong>SMTP Port Number:</strong> The port used to connect to the SMTP server.</p> 
+  <p><strong>SMTP Authenticate:</strong> Select if user authentication is required to connect to the SMTP server.</p> 
+  <p><strong>SMTP User:</strong> The user name of the user account to use to log in to the SMTP server.</p> 
+  <p><strong>SMTP Password:</strong> The password that is associated with the SMTP user account.</p> 
+  <p><strong>SMTP Transport Security:</strong> The security protocol to use for connecting to the SMTP server:</p> 
+  <ul> 
+   <li><p>Select None if no protocol is used (data is sent in clear text)</p></li> 
+   <li><p>Select SSL if Secure Sockets Layer protocol is used.</p></li> 
+   <li><p>Select TLS if Transport Layer Security is used.</p></li> 
+  </ul> 
+  <p><strong>POP3/IMAP Host:</strong> The IP address or URL of the POP3 or IMAP server to use for sending email.</p> 
+  <p><strong>POP3/IMAP Username:</strong> The user name of the user account to use to log into the POP3 or IMAP server.</p> 
+  <p><strong>POP3/IMAP Password:</strong> The password that is associated with the POP3 or IMAP user account.</p> 
+  <p><strong>POP3/IMAP Port Number:</strong> The port used to connect to the POP3 or IMAP server.</p> 
+  <p><strong>POP3/IMAP:</strong> The protocol to use for sending and receiving email.</p> 
+  <p><strong>Receive Transport Security:</strong> The security protocol to use for connecting to the SMTP server:</p> 
+  <ul> 
+   <li><p>Select None if no protocol is used (data is sent in clear text).</p></li> 
+   <li><p>Select SSL if Secure Sockets Layer protocol is used.</p></li> 
+   <li><p>Select TLS if Transport Layer Security is used.</p></li> 
+  </ul> 
+  <h2 id="encryption_service_settings">Encryption service settings</h2> 
+  <p></p> 
+  <p>The Encryption service (<span class="code">EncryptionService</span>) lets you encrypt and decrypt documents. When a document is encrypted, its contents become unreadable. An authorized user can decrypt the document to obtain access to the contents. If a PDF document is encrypted with a password, the user must specify the open password before the document can be viewed in Adobe Reader or Adobe Acrobat. Likewise, if a PDF document is encrypted with a certificate, the user must decrypt the PDF document with the public key that corresponds to the certificate (private key) that was used to encrypt the PDF document.</p> 
+  <p>The following settings are available for the Encryption service.</p> 
+  <p><strong>Default LDAP Server to connect to:</strong> Host name of the LDAP server used to retrieve certificates for document encryption.</p> 
+  <p><strong>Default LDAP Port to connect to:</strong> Port number of the LDAP server.</p> 
+  <p><strong>Default LDAP User Name:</strong> If the LDAP server requires authentication, specify the user name to be used to connect to the LDAP server.</p> 
+  <p><strong>Default LDAP Password:</strong> If the LDAP server requires authentication, specify the password that corresponds with the user name to be used to connect to the LDAP server.</p> 
+  <p><i><strong>Note</strong>: Use simple authentication (user name and password) only when the connection is protected via SSL (using LDAPS).</i></p>    
+  <p><strong>Compatibility Mode:</strong></p> 
+  <h2 id="ftp_service_settings">FTP service settings</h2> 
+  <p></p> 
+  <p>The FTP service (<span class="code">FTP</span>) enables processes to interact with an FTP server. FTP service operations can retrieve files from the FTP server, put files on the FTP server, and delete files from the FTP server. For example, documents such as reports generated from a process may be stored on an FTP server for distribution. Or an external system may generate some files based on previous steps in a process. In a subsequent step in the process, the files may be transferred to a remote location.</p> 
+  <p>The following settings are available for the FTP service. </p> 
+  <p><strong>Default host:</strong> The IP address or URL of the FTP server.</p> 
+  <p><strong>Default port:</strong> The port used to connect to the FTP server. The default value is 21.</p> 
+  <p><strong>Default username:</strong> The name of the user account that you can use to access the FTP server. The user account must have sufficient privileges to perform the FTP operations that this service requires.</p> 
+  <p><strong>Default password:</strong> The password to use with the specified user name for authenticating with the FTP server.</p> 
+  <h2 id="generate_pdf_service_settings">Generate PDF service settings</h2> 
+  <p></p> 
+  <p>The Generate PDF service (<span class="code">GeneratePDFService</span>) converts files in various native formats to PDF documents, and converts PDF documents to a number of file formats.</p> 
+  <p>The following settings are available for the Generate PDF service.</p> 
+  <p><strong>Adobe PDF Settings:</strong> The name of the pre-configured Adobe PDF settings to apply to a conversion job, if these settings are not specified as a part of the API invocation parameters. The Adobe PDF settings are configured in administration console, by clicking Services &gt; PDF Generator&gt; Adobe PDF Settings. These settings are applicable only to the PDFMaker based conversions.</p> 
+  <p><strong>Security Settings:</strong> The name of the pre-configured security settings to apply to a conversion job, if these settings are not specified as a part of the API invocation parameters. The security settings are configured in administration console, by clicking Services &gt; PDF Generator&gt; Security Settings.</p> 
+  <p><strong>File type Settings:</strong> The name of the pre-configured File Type Setting to apply to a conversion job, if these settings are not specified as a part of the API invocation parameters. The file type settings are configured in administration console, by clicking Services &gt; PDF Generator&gt; File Type Settings.</p> 
+  <p><strong>Use Acrobat WebCapture (Windows Only):</strong> When this setting is true, the Generate PDF service uses Acrobat X Pro for all HTML to PDF conversions. This can improve the quality of the PDF files produced from HTML, though performance may be slightly lower. The default value is false.</p> 
+  <p><strong>Use Acrobat Image Conversion (Windows Only):</strong> When this setting is true, the Generate PDF service uses Acrobat X Pro for all Image to PDF conversions. This setting is useful only if the default pure Java conversion mechanism is unable to convert a significant proportion of the input images successfully. The default value is false.</p> 
+  <p><strong>Enable Acrobat-based AutoCAD Conversions (Windows Only):</strong> When this setting is true, the Generate PDF service uses Acrobat X Pro for all DWG to PDF conversions. This setting is useful only if AutoCAD is not installed on the server or the AutoCAD conversion mechanism is unable to convert files successfully.</p> 
+  <p><strong>Regular Expressions For Finding Out Prohibited Special&amp;#xA;Characters In User Name (Windows Only):</strong> Specifies characters that interfere with the Export PDF and Optimize PDF operations when the characters appear in a user’s name.</p> 
+  <p><strong>ImageToPDF Pool Size:</strong> The pool size of the default (pure Java) Image-to-PDF converter in the Generate PDF service. This setting controls the maximum simultaneous Image-to-PDF conversions that the Generate PDF service can perform. The default value of this setting (recommended for single-processor systems) is 3, which you can increase on multi-processor systems.</p> 
+  <p><strong>HTML to PDF Pool Size:</strong> The pool size of the HTML-to-PDF converter in the Generate PDF service. This setting controls the maximum simultaneous HTML-to-PDF conversions that the Generate PDF service can perform. The default value of this setting (recommended for single-processor systems) is 3, which you can increase on multi-processor systems.</p> 
+  <p><strong>OCR Pool Size:</strong> The pool size of the PaperCaptureService that PDF Generator uses for OCR. The default value of this setting (recommended for single-processor systems) is 3, which you can increase on multi-processor systems. This setting is valid only on Windows systems.</p> 
+  <p><strong>Fallback Font Family For HTML To PDF Conversions:</strong> The name of the font family to use in PDF documents when the font used in the original HTML is not available to the AEM forms server. Specify a font family if you expect to convert HTML pages that use unavailable fonts. For example, pages authored in regional languages could use unavailable fonts.</p> 
+  <p><strong>Retry Logic for Native Conversions</strong> Governs PDF generation retries if the first attempt at conversion has failed:</p> 
+  <p><strong>No retry</strong> </p> 
+  <p>Do not retry the PDF conversion if the first conversion attempt has failed</p> 
+  <p></p> 
+  <p><strong>Retry</strong> </p> 
+  <p>Retry PDF conversion regardless of whether the timeout threshold has been reached. The default timeout duration for the first attempt is 270s.</p> 
+  <p></p> 
+  <p><strong>Retry if time permits</strong> </p> 
+  <p>Retry PDF conversion if the time consumed for the first conversion attempt was less than the specified timeout duration. For example, if the timeout duration is 270s and the first attempt consumed 200s, PDF Generator will reattempt the conversion. If the first attempt itself consumed 270s, conversion will not be retried.</p> 
+  <p></p> 
+  <p></p> 
+  <h2 id="guides_es4_utilities_service_settings">Guides ES4 Utilities service settings</h2> 
+  <p></p> 
+  <p>When you create a Guide, some resources, such as the Guide definition, are embedded in the Guide. Resources can also exist as references to application assets stored locally or on the AEM forms server. The Guide does not contain data, and the values for the submit location and inputs are not suitable for all external environments.</p> 
+  <p>In most cases, the default Guides render services is sufficient to prepare a Guide for use in Workspace or other external environments. (In the Services view, in Workbench, the default service is Guides (system)/Processes/Render Guide - 1.0.) The Guide Utilities service (<span class="code">GuidesUtility</span>) allows you to create a customized process for rendering a Guide, if necessary. </p> 
+  <p>The Guide Utilities operations allow you to add the following Guide rendering tasks to a process:</p> 
+  <ul> 
+   <li><p>Determine whether data is available to populate the Guide with </p></li> 
+   <li><p>Embed the Guide data or convert it to a link </p></li> 
+   <li><p>Convert referenced content to URLs that are externally accessible </p></li> 
+   <li><p>Substitute values in an HTML document or other wrapper, or convert them to URLs that are externally accessible </p></li> 
+   <li><p>Set the submit location </p></li> 
+   <li><p>Specify input values </p></li> 
+   <li><p>Create a parameter to represent referenced content </p></li> 
+   <li><p>If variations are available, set a variation </p></li> 
+  </ul> 
+  <p>The default values for the Guide Utilities service support most use cases. However, if necessary, you can change the following values. </p> 
+  <p><strong>publicPaths:</strong> This option has been deprecated. Do not use this option with AEM forms.</p> 
+  <p><strong>pathInfoExpiryInSeconds:</strong> The interval after which a request for path information from a client expires. Default is 1.</p> 
+  <p><strong>collateralExpiryInSeconds:</strong> The interval after which a request for collateral from a client expires. Default is 315576000.</p> 
+  <p><strong>mismatchExpiryInSeconds:</strong> The interval after which a request for collateral from a client expires, when the eTag (entity tag) does not match. (An eTag is an HTTP response header.) Default is 1.</p> 
+  <p><strong>guideContext:</strong> The context root of the Guides web application. Matches the value set using the Guides web application. Default is /Guides/.</p> 
+  <p><strong>secureRandomAlgorithm:</strong> The algorithm to use when generating keys and identifiers. This value is passed to the getInstance method of the SecureRandom Java class. Default is SHA1PRNG.</p> 
+  <p><strong>idBytes:</strong> The number of random bytes to use for a key identifier. Default is 6.</p> 
+  <p><strong>macAlgorithm:</strong> The MAC (message authentication code) algorithm to use for collateral URL verification. This method is passed to the getInstance method of the Mac class. Default is HmacSHA1.</p> 
+  <p><strong>macRefreshIntervalInMinutes:</strong> The amount of time a key is active. When a key has been active for this interval, a new key is generated. The new key becomes the active key. The previously active key is kept for 10% of the refresh interval. This behavior allows URLs that are generated by using the old key to continue to work across the key switch. Default is 144000.</p> 
+  <p><strong>macOverlapIntervalInMinutes:</strong> Length of time that the previous key will remain valid after a new one is generated. The default is 1440 minutes (1 day).</p> 
+  <p><strong>macKeySeed:</strong> A seed value for generating the secure URL. When this is option, the key is never refreshed. Setting the same seed on different servers will result in those servers generating secure URLs that are compatible. This may be useful if multiple forms servers are in use behind a load balancer. Enter a random sequence of characters and numbers as the seed.</p> 
+  <h3 id="using_guides_in_a_server_cluster">Using Guides in a server cluster</h3> 
+  <p></p>  
+  <p>Rendering a Guide in a server cluster that does not use sticky sessions fails with a NullPointerException. A Guides request leverages secure URLs that, by default, are unique to the server they are generated on. In a cluster that uses sticky sessions, after a request hits a node in the cluster, all subsequent requests for that session or user are routed exclusively to that server, and everything is ok. In a cluster that does not use sticky sessions, subsequent requests can hit any server in the cluster. If the server that the requests hit is not the original server, they fail to resolve the secure URL. </p> 
+  <p>If you are using Guides in a server cluster that does not use sticky sessions, set the macKeySeed value for the GuidesUtility service, and then stop and start the cluster. </p> 
+  <p>The macKeySeed value is the seed for the random number generator that is used to generate the secure URLs. Setting this value causes each cluster node to initialize the random number generator in the same manner, and to have access to the same secure URLs. You can use any random string for this seed value. </p> 
+  <p>Change the macKeySeed value when you need to refresh the secure URLs. Refreshing the secure URLs depends on your security policy, and is similar to the refresh policy for changing the master root password of the server. The macSeedValue is analogous to the master password for the secure URLs, because it is used to generate a new unique random number for use in secure URL generation and retrieval.</p> 
+  <p>You must restart the cluster because the macSeedValue is read only at system startup. All nodes need to restart to read the value, because they use it independently to initialize their internal random numbers with the seed value.</p> 
+  <h2 id="jdbc_service_settings">JDBC service settings</h2> 
+  <p></p> 
+  <p>The JDBC service (<span class="code">JdbcService</span>) enables processes to interact with databases.</p> 
+  <p>The following setting is available for the JDBC service. </p> 
+  <p><strong>datasourceName:</strong> A string value that represents the JNDI name of the data source to use to connect to the database server. The data source must be defined on the application server that hosts the forms server. The default value is the JNDI name of the data source for the AEM forms database.</p> 
+  <h2 id="jms_service_settings">JMS service settings</h2> 
+  <p></p> 
+  <p>The JMS service (<span class="code">JMS</span>) enables interaction with Java Messaging System (JMS) providers that implement both point-to-point messaging and publish/subscribe messaging.</p> 
+  <p>Configure the JMS service with default properties so that the service operations can connect and interact with a JMS provider and an associated JNDI service. The values of the service properties are set to default values based on the JBoss Application Server. Change these values if you are using a different application server to host AEM forms.</p> 
+  <p>The following settings are available for the JMS service. </p> 
+  <p><strong>Provider URL:</strong> The URL of the JNDI service provider. The default value is based on the JBoss Application Server. The following URL are default values for the application servers that AEM forms supports:</p> 
+  <p><strong>JBoss:</strong> &lt;server name&gt;:1099</p> 
+  <p><strong>WebLogic:</strong> &lt;server name&gt;:7001</p> 
+  <p><strong>WebSphere:</strong> &lt;server name&gt;:2809</p> 
+  <p><strong>JNDI Username:</strong> The user name of the account to use for authenticating with the JNDI service provider that is used for looking up queue and topic names. The default value is guest.</p> 
+  <p><strong>JNDI Password:</strong> The password that is associated with the user name specified for JNDI Username. The default value is guest.</p> 
+  <p><strong>Initial Context Factory:</strong> The Java class to use as the initial context factory. The JMS service uses this class to create an initial context, which is the starting point for resolving names of topics and queues. The default value is the initial context factory for the JMS service on JBoss. The following classes are the initial context factories for the application servers that AEM forms supports:</p> 
+  <p><strong>JBoss:</strong> org.jnp.interfaces.NamingContextFactory</p> 
+  <p><strong>WebLogic:</strong> weblogic.jndi.WLInitialContextFactory</p> 
+  <p><strong>WebSphere:</strong> com.ibm.websphere.naming.WsnInitialContextFactory</p> 
+  <p><strong>Connection Username:</strong> The password that is associated with the user name specified for Connection Username. The default value is guest.</p> 
+  <p><strong>Connection Password:</strong> The password that is associated with the user name specified for Connection Username. The default value is guest.</p> 
+  <p><strong>Other Properties:</strong> Property name and value pairs that you can pass to the JNDI service provider. These properties depend on the implementation and configuration of the provider that you are using.</p> 
+  <p>The property name and value pairs are separated by semi-colons (;). For example, the following text shows the value that would be specified for two properties named name1 and name2, with values value1 and value2, respectively:</p> 
+  <p><span class="code">name1=value1;name2=value2</span></p> 
+  <h2 id="ldap_service_settings">LDAP service settings</h2> 
+  <p></p> 
+  <p>The LDAP service (<span class="code">LDAPService</span>) provides operations for querying LDAP directories. LDAP directories are generally used to store information about the people, groups, and services in an organization.</p> 
+  <p>The following settings are available for the LDAP service. </p> 
+  <p><strong>Initial Context Factory:</strong> The Java class to use as the context factory. This class is used to create a connection to the LDAP server. The default value is com.sun.jndi.ldap.LdapCtxFactory, which is appropriate for most LDAP servers.</p> 
+  <p><strong>Provider URL:</strong> The URL to use to connect to the LDAP service. The format of the value is ldap://server name:port</p> 
+  <p><i>server name</i> is the name of the computer that hosts the LDAP server </p> 
+  <p><i>port</i> is the communications port that the LDAP service uses. The default value is 389, which is the standard port used for LDAP connections. </p> 
+  <p><strong>User Name:</strong> The user name of the user account to use to log in to the LDAP server. The user account needs to have permission to connect to the server and read the information in the LDAP directory.</p> 
+  <p>Depending on the LDAP server, the user name could be a simple user name such as <span class="code">myname</span> or a DN, such as <span class="code">cn=myname,cn=users,dc=myorg</span>.</p> 
+  <p><strong>Password:</strong> The password that corresponds with the user name provided for the Username setting.</p> 
+  <p><strong>Other Properties:</strong> A string value that represents other properties and their corresponding values that you can provide to the LDAP server. The value is in the following format:</p> 
+  <p><span class="code">property=value;property=value;...</span></p> 
+  <h2 id="microsoft_sharepoint_configuration_service_settings">Microsoft SharePoint configuration service settings</h2> 
+  <p></p> 
+  <p>The Microsoft SharePoint configuration service <span class="code">(MSSharePointConfigService)</span>lets you specify credentials for the AEM forms user that has impersonation permissions. For information about impersonation permissions, see <a href="http://help.adobe.com/en_US/AEMForms/6.1/SharePointConfig/index.html" target="_blank">Configuring the Connector for Microsoft SharePoint</a>.</p> 
+  <p>The following settings are available for the Microsoft SharePoint configuration service:</p> 
+  <ul> 
+   <li><p>Username for a user with impersonation permissions</p></li> 
+   <li><p>Password for the above user</p></li> 
+  </ul>     
+  <p><strong>Enable SSL (HTTPS):</strong> </p>    
+  <p><strong>Time to Live:</strong> Length of time, in seconds, that this provisioning profile is valid and cached on the client. The default is 86400 (24 hours). When a client application syncs with the server and the specified amount of time has passed, the client application requests a new provisioning profile from the server.</p> 
+  <p><strong>Encryption:</strong> Specifies whether to encrypt data stored on the mobile device.</p> 
+  <p><strong>Forms Application:</strong> Enables the Forms feature in the mobile client applications. When this option is selected, users can open forms and initiate processes from their mobile devices.</p> 
+  <p><strong>Tasks Application:</strong> Enables the Tasks feature in the mobile client applications. When this option is selected, users can access their task lists and complete tasks from their mobile devices.</p> 
+  <p><strong>Content Services Application:</strong> Enables the Content Services feature in the mobile client application. This feature is available only for iOS. When this option is selected, iPhone and iPad users can access files that are stored in your organizations’s WebDAV server.</p> 
+  <p><strong>Offline Support:</strong> Enables users to continue using the mobile client applications even when they do not have a connection to the server (for example, when they are out of cell range or in airplane mode). Users must also enable the Offline Support setting on their mobile devices. This feature is available for Android and iOS devices. By default, this feature is off.</p> 
+  <p><i><strong>note</strong>: If Offline support has been enabled and then you disable it, the users’ provisioning profiles are updated immediately, or as soon as they are online. If a user has been working offline, all pending tasks are returned to their Tasks list and all items in their Queue, including pending forms, tasks, and forms containing validation errors, are deleted from the Queue.</i></p> 
+  <p></p> 
+  <p><strong>Android:</strong> Allows Android devices to connect to the server.</p> 
+  <p><strong>Apple iOS:</strong> Allows iPhones and iPads to connect to the server.</p> 
+  <p><strong>AIR:</strong> Allows devices running apps based on Adobe AIR® to connect to the server.</p> 
+  <p><strong>BlackBerry:</strong> Allows BlackBerry devices to connect to the server.</p> 
+  <p><strong>Android Microsoft Exchange ActiveSync Required:</strong> Specifies whether Microsoft Exchange ActiveSync policy manager (EAS) must be installed and active on Android devices. When this option is selected, EAS must be enforced on the Android device. When this option is not selected, no check is performed, although other requirements are sill enforced.</p> 
+  <p><strong>Android Minimum PIN Length:</strong> Android devices must have a global setting that enforces that the PIN or password is at least this length. Simply having a PIN of the specified length is not sufficient. The PIN length must be enforced by the system so that users cannot remove or shorten the PIN later. The default value is 4.</p> 
+  <p><strong>Android Maximum Password Retries Before Wipe:</strong> Android devices have a global setting that wipes the system after a specified number of invalid password attempts. This global setting enabled and equal to or lower than the value specified here. The default value is 5.</p> 
+  <p><strong>Android Wipe On Removal:</strong> Specifies what happens when a policy violation occurs on an Android device. When this option is selected, the account is deleted. When this option is not selected, the stored account password and cached data are deleted. No more sync attempts are made until the user fixes the policy violation.</p> 
+  <h2 id="output_service_settings">Output service settings</h2> 
+  <p></p> 
+  <p>The Output service <span class="code">(OutputService) </span>enables you to merge XML form data with a form design created in AEM forms Designer to create a document output stream in one of the following formats:</p> 
+  <ul> 
+   <li><p>A PDF or PDF/A document output stream. </p></li> 
+   <li><p>An Adobe PostScript output stream. </p></li> 
+   <li><p>A Printer Control Language (PCL) output stream. </p></li> 
+   <li><p>A Zebra Programming Language (ZPL) output stream. </p></li> 
+  </ul> 
+  <p>The output stream can be sent to a network printer, a local printer, or a disk file. When you use the Output service as part of a process, you can also send the output stream to an email recipient as a file attachment.</p> 
+  <p>The following settings are available for the Output service. </p> 
+  <p><strong>Transaction Type:</strong> Specifies how a transaction context should be propagated to an operation:</p> 
+  <p><strong>Required:</strong> supports a transaction context if one already exists; otherwise, a new transaction context is created. This is the default value.</p> 
+  <p><strong>Requires New:</strong> Always creates a new transaction context. If an active transaction context exists, it is suspended.</p> 
+  <p><strong>Transaction Time Out (in sec):</strong> The number of seconds that the underlying transaction provider waits before rolling back a transaction that is wrapping this operation. This value is ignored if an existing transaction context is propagated.</p> 
+  <p>When processing large data files or operating on a busy server, it may be necessary to increase the Output service time out. To change the time-out value, ensure that hardware servers have adequate memory and that the memory is available to the Java Application Server heap. The default value is <span class="code">180</span>.</p> 
+  <h2 id="pdfg_config_service_settings">PDFG Config service settings</h2> 
+  <p></p> 
+  <p>The following settings are available for the PDFG Config service (<span class="code">PDFGConfigService</span>). </p> 
+  <p><strong>User Job Options Directory:</strong> The path of the file-system folder where the c service writes the job options files that are accessible to Acrobat Pro Extended. The default value is [user.home]/Application Data/Adobe/Adobe PDF/Settings.</p> 
+  <p><strong>PS Startup Directory:</strong> The path of the file-system folder where the startup files required by Adobe Acrobat Distiller are saved. The default value is [user.home]/Application Data/Adobe/Adobe PDF/Distiller/Startup.</p> 
+  <p><strong>PS Startup File:</strong> The name of the startup file required by Adobe Acrobat Distiller. The default value is example.ps.</p> 
+  <p><strong>Server Conversion Timeout:</strong> The maximum job conversion timeout (in seconds) for the Generate PDF service and the Distiller service. This setting limits the maximum conversion timeout that can be specified in the config.xml file and in the administration console pages for PDF Generator. The default value is 270.</p> 
+  <p><strong>Server Global Timeout:</strong> While performing PDF conversions, a forms server takes into account the timeout limit. Configure the timeout value to resolve the issue.</p> 
+  <p><strong>Job Options Prefix:</strong> A prefix used by the Generate PDF service to prepend a short string to the job options files that it creates temporarily for use by Acrobat Distiller. The default value is pdfg.</p> 
+  <p><strong>Non Unicode Apps:</strong> A comma-separated list of application names that are known to be Unicode-incapable. This list is pre-populated with the names of several applications, support for which is pre-configured in PDF Generator. If you choose to add support for PDF conversions through other third-party applications that are Unicode-incapable, you must add to them to this list. The default value is Autocad,Excel,PowerPoint,Project,Publisher,Visio,Word,WordPerfect.</p> 
+  <p><strong>Server Threadpool Count:</strong> Controls the size of the thread pool that the Generate PDF service uses internally to service HTML-to-PDF conversion requests that involve spidering (converting linked pages accessible from the main page). The default value is 20.</p> 
+  <p><strong>PDFG Cleanup Scan Seconds:</strong> See the Job Expirations Seconds section for details.</p> 
+  <p><strong>Job Expiration Seconds:</strong> The Generate PDF service deletes input files as soon as they are converted. It stores output files temporarily, for a length of time determined by the PDFG Cleanup Scan Seconds and Job Expiration Seconds settings.</p> 
+  <p>The Job Expiration Seconds setting specifies how old a file or empty folder must be before it is eligible for deletion. The PDFG Cleanup Scan Seconds setting specifies how often a cleanup thread scans the temporary folders for files that can be deleted. </p> 
+  <p>For example, if Job Expiration Seconds is set to 100 and PDFG Cleanup Scan Seconds is set to 200, the cleanup thread runs every 200 seconds and deletes files that are 100 seconds or older.</p> 
+  <p>The default value of PDFG Cleanup Scan Seconds is <span class="code">43200</span> (12 hours). The default value of Job Expiration Seconds is <span class="code">86400</span> (24 hours). </p> 
+  <p><strong>Default Locale:</strong> Used to override the default locale (country + language) of the server where the Generate PDF service is deployed. If this parameter is unspecified, then the default locale is determined from the operating system on which the service is deployed. This parameter controls the language in which the error messages are returned to the APIs.</p> 
+  <h2 id="forms_workflow_data_services_service_settings">forms workflow Data Services service settings</h2> 
+  <p></p> 
+  <p>The following services extend Data Services and expose assemblers that Workspace uses to talk to the server. Do not change the configuration options for these services unless you are instructed to do so by Adobe Support. These services are not intended for direct access:</p> 
+  <ul> 
+   <li></li> 
+   <li></li> 
+   <li></li> 
+  </ul> 
+  <h2 id="remoting_service_settings">Remoting service settings</h2> 
+  <p></p> 
+  <p>Most services are configured so that you can access them through (Deprecated for AEM forms) AEM forms Remoting. For information on (Deprecated for AEM forms) AEM forms Remoting, see <a href="http://adobe.com/go/learn_aemforms_programming_63" target="_blank">Programming with AEM forms</a>.</p> 
+  <p>The following settings are available for the Remoting service.</p> 
+  <p><strong>Flex Client Authentication Method:</strong> Determines the type of response that the server sends back to the client when the invoked service is security enabled, the operation invoked does not support anonymous invocations, and the client passes in either no or invalid credentials. Choose from Custom or Basic. The default value is Basic.</p> 
+  <p><strong>Allow Serialization Of Non-Serializable Classes:</strong> Most AEM forms endpoints allow only Serializable classes to be used for invocation. In older versions, the Remoting endpoint allowed non-Serializable classes to be used for invocation from Flex-based clients. To prevent a security vulnerability described in APS11-15, this was changed. If you want to continue to use non-Serializable classes with the Flex Remoting endpoint, select this checkbox.</p> 
+  <h2 id="repository_service_settings">Repository service settings</h2> 
+  <p></p> 
+  <p>The Repository service (<span class="code">RepositoryService</span>) provides resource storage and management services to AEM forms. When developers create an application, they can deploy the assets in the repository instead of on a file system. The assets can include any type of collateral, including XML forms, PDF forms (including Acrobat forms), form fragments, images, profiles, policies, SWF files, DDX files, XML schemas, WSDL files, and test data.</p> 
+  <p>You can use the default repository included with AEM forms, or use a third-party repository (EMC Documentum Content Server, IBM FileNet Content Manager, or IBM Content Manager).</p> 
+  <p>Repository Provider service is a service delegate that acts as the interface to a provider service. This allows you to connect to a common API and not have to be aware of which provider service is implementing the storage capabilities. Repository Provider service provides database storage for the Repository service resources.</p> 
+  <p>The following setting is available for the Repository service.</p> 
+  <p><strong>Provider Service:</strong> The name of the service that is used as the storage provider. The default value is RepositoryProviderService.</p> 
+  <h2 id="signature_service_settings">Signature service settings</h2> 
+  <p></p> 
+  <p>The Signature service (<span class="code">SignatureService</span>) enables your organization to protect the security and privacy of Adobe PDF documents that it distributes and receives. This service uses digital signatures and certification to ensure that documents are not altered. Altering a document breaks its signature. Because security features are applied to the document itself, the document remains secure and controlled for its entire life cycle; beyond the firewall, when it is downloaded offline, and when it is submitted back to your organization.</p> 
+  <p>The following settings are available for the Signature service.</p> 
+  <p><strong>Name Of The Remote HSM SPI Service:</strong> This option is for use when the HSM is installed on a remote computer. Specify this option when AEM forms is installed on a 64-bit Windows and you are using HSM devices for signing.</p> 
+  <p><strong>URL Of The Remote HSM Web Service:</strong> Specify this option when AEM forms is installed on 64-bit Windows and you are using HSM devices for signing.</p> 
+  <p><strong>Certification To Include Form Load Changes:</strong> When this option is selected, the XFA Form State is certified in addition to the XFA template. Note that enabling this option may have a negative impact on performance. The default value is true.</p> 
+  <p><strong>Execute Document JavaScript scripts:</strong> Specifies whether to execute Document JavaScript scripts during signature operations. The default value is false.</p> 
+  <p><strong>Process documents with Acrobat 9 compatibility:</strong> Specifies whether to enable Acrobat 9 compatibility. For example, when this option is selected, Visible Certification in Dynamic PDFs is enabled. The default value is false.</p> 
+  <p><strong>Embed Revocation Info While Signing:</strong> Specifies whether revocation information is embedded while signing the PDF document. The default value is false.</p> 
+  <p><strong>Embed Revocation Info While Certifying:</strong> Specifies whether the revocation information is embedded while certifying the PDF document. The default value is false.</p> 
+  <p><strong>Enforce Embedding of Revocation Info For All Certificates&amp;#xA;During Signing/Certification:</strong> Specifies whether a signing or certification operation fails if valid revocation information for all certificates is not embedded. Note that if a certificate does not contain any CRL or OCSP information, it is considered valid, even if no revocation information is retrieved. The default value is false.</p> 
+  <p><strong>Revocation Check Order:</strong> Specifies the order of revocation checking when checking is possible through both Certificate Revocation List (CRL) and Online Certificate Status Protocol (OCSP) mechanisms. The default value is OCSPFirst.</p> 
+  <p><strong>Maximum Size Of Revocation Archival Info:</strong> The maximum size of the revocation archival info in kilobytes. AEM forms attempts to store as much revocation information as possible without exceeding the limit. The default value is 10 KB.</p> 
+  <p><strong>Support Signatures Created From PreRelease Builds Of&amp;#xA;Adobe Products:</strong> When this option is selected, signature created using pre-release version of Adobe products will validate correctly. The default value is false.</p> 
+  <p><strong>Verification Time Option:</strong> Specifies the time of verification of a signer's certificate. The default value is Secure Time Else Current Time.</p> 
+  <p><strong>Use Revocation Information Archived in Signature during&amp;#xA;Validation:</strong> Specifies whether the revocation information that is archived with the signature is used for revocation checking. The default value is true.</p> 
+  <p><strong>Use Validation Information Stored In The Document For&amp;#xA;Validation Of Signatures:</strong> When this option is selected, validation information (including revocation and timestamp information) embedded in the doument is used to validate signatures. The default value is true.</p> 
+  <p><strong>Maximum Nested Verification Sessions Allowed:</strong> The maximum number of nested verification sessions that are allowed. AEM forms uses this value to prevent an infinite loop when verifying the OCSP or CRL signer certificates when the OCSP or CRL certificate is not set up correctly. The default value is 10.</p> 
+  <p><strong>Maximum Clock Skew for Verification:</strong> The maximum time, in minutes, that the signing time can be after the validation time. If the clock skew is greater than this value, the signature will not be valid. The default value is 65 minutes.</p> 
+  <p><strong>Certificate Lifetime Cache:</strong> The lifetime of a certificate, retrieved online or through other means, in the cache. The default value is 1 day.</p> 
+  <h3 id="transport_options">Transport Options</h3> 
+  <p></p> 
+  <p><strong>Proxy Host:</strong> The URL of the proxy host. Used only if some valid value is provided. No default value.</p> 
+  <p><strong>Proxy Port:</strong> The proxy port. Type any valid port number from 0 to 65535. The default value is 80.</p> 
+  <p><strong>Proxy Login Username:</strong> The proxy login user name. Used only if some valid value is provided for proxy host and proxy port. No default value.</p> 
+  <p><strong>Proxy Login Password:</strong> The proxy login password. Used only if some valid value is provided for proxy host, proxy port, and proxy login user name. No default value.</p> 
+  <p><strong>Maximum Download Limit:</strong> The maximum amount of data, in MBs, that can be received per connection. The minimum value is 1 MB and the maximum value is 1024 MB. The default value is 16 MB.</p> 
+  <p><strong>Connection Time Out:</strong> The maximum time to wait, in seconds, for establishing a new connection. The minimum value is 1 and the maximum value is 300. The default value is 5.</p> 
+  <p><strong>Socket Time Out:</strong> The maximum time to wait, in seconds, before a socket time-out (while waiting for data transfer) occurs. The minimum value is 1 and the maximum value is 3600. The default value is 30.</p> 
+  <h3 id="path_validation_options">Path Validation Options</h3> 
+  <p></p> 
+  <p><strong>Require Explicit Policy:</strong> Specifies whether the path must be valid for at least one of the certificate policies that is associated with the trust anchor of the signer certificate. The default value is false.</p> 
+  <p><strong>Inhibit ANY Policy:</strong> Specifies whether the policy object identifier (OID) should be processed if it is included in a certificate. The default value is false.</p> 
+  <p><strong>Inhibit Policy Mapping:</strong> Specifies whether policy mapping is allowed in the certification path. The default value is false.</p> 
+  <p><strong>Check All Paths:</strong> Specifies whether all paths should be validated or whether validation should stop after finding the first valid path. Select true or false. The default value is false.</p> 
+  <p><strong>LDAP Server:</strong> The LDAP Server used to look up certificates for path validation. No default value.</p> 
+  <p><strong>Follow URIs in Certificate AIA:</strong> Specifies whether Uniform Resource Identifiers (URIs) in Certificate AIA are processed during path discovery. The default value is false.</p> 
+  <p><strong>Basic Constraints Extension required in CA Certificates:</strong> Specifies whether the certificate authority (CA) Basic Constraints certificate extension must be present for CA certificates. Some early German certified root certificates (7 and earlier) are not compliant to RFC 3280 and do not contain the basic constraint extension. If it is known that a user's EE certificate chains up to such a German root, deselect this check box. The default value is true.</p> 
+  <p><strong>Require Valid Certificate Signature During Chain Building:</strong> Specifies whether the chain builder requires valid signatures on certificates used to build chains. When this check box is selected, the chain builder will not build chains with invalid RSA signatures on certificates. Consider chain CA &gt; ICA &gt; EE where the CA's signature on an ICA is not valid. If this setting is true, the chain building will stop at the ICA, and the CA will not be included in the chain. If this setting is false, the full 3-certificate chain is produced. This setting does not affect DSA signatures. The default value is false.</p> 
+  <h3 id="timestamp_provider_options">Timestamp Provider Options</h3> 
+  <p></p> 
+  <p><strong>TSP Server URL:</strong> The URL of the default timestamp provider. Used only if some valid value is provided. No default value.</p> 
+  <p><strong>TSP Server Username:</strong> The user name if required by the timestamp provider. Used only if some valid value is provided for the URL. No default value.</p> 
+  <p><strong>TSP Server Password:</strong> The password for the above user name if required by the timestamp provider. Used only if some valid value is provided for the URL and the user name. No default value.</p> 
+  <p><strong>Request Hash Algorithm:</strong> Specifies the hashing algorithm to be used while creating the request for the timestamp provider. The default value is SHA1.</p> 
+  <p><strong>Revocation Check Style:</strong> Specifies the revocation checking style used for determining the trust status of the timestamp provider's certificate from its observed revocation status. The default value is BestEffort.</p> 
+  <p><strong>Send Nonce:</strong> Specifies whether a nonce is sent with the timestamp provider request. A nonce can be a timestamp, a visit counter on a web page, or a special marker that is intended to limit or prevent the unauthorized replay or reproduction of a file. The default value is true.</p> 
+  <p><strong>Use Expired Timestamps During Validation:</strong> When this option is selected, expired timestamps can be used to retrieve validation times of signatures. The default value is true.</p> 
+  <p><strong>TSP Response Size:</strong> Estimated size, in bytes, of the TSP response. This value should represent the maximum size of the timestamp response that the configured timestamp provider could return. Do not change this unless you are absolutely sure. The minimum value is 60B and the maximum value is 10240B. The default value is 4096B.</p> 
+  <p><strong>Ignore TimeStamp Server Extension</strong>: Select the<strong> Ignore TimeStamp Server Extension</strong> option to stop AEM Forms server from contacting the specified time stamp server. Selecting the option helps avoid process failures which happen due to connection timeout between AEM Forms and time stamp servers.</p> 
+  <h3 id="certificate_revocation_list_options">Certificate Revocation List Options</h3> 
+  <p></p> 
+  <p><strong>Consult Local URI First:</strong> Specifies whether the CRL location that is provided in Local URI or CRL Lookup should be given preference over any location specified within a certificate for the purpose of revocation checking. The default value is false.</p> 
+  <p><strong>Local URI for CRL Lookup:</strong> URL of the local CRL provider. This value is consulted only if the Consult Local URI First setting is set to true. No default value.</p> 
+  <p><strong>Revocation Check Style:</strong> Specifies the revocation checking style used for determining the trust status of the CRL provider's certificate from its observed revocation status. The default value is BestEffort.</p> 
+  <p><strong>LDAP Server for CRL Lookup:</strong> The LDAP Server used to get the CRLs (as www.ldap.com). All DN-based queries for CRLs will be directed to this server. No default value.</p> 
+  <p><strong>Go Online:</strong> Specifies whether to go online to fetch a CRL. If false, only cached CRLs (on local disk or those embedded with signature) are consulted. The default value is true.</p> 
+  <p><strong>Ignore Validity Dates:</strong> Specifies whether to ignore the response's thisUpdate and nextUpdate times, which prevents these times from having a negative effect on response validity. The default value is false.</p> 
+  <p><strong>Require AKI extension in CRL:</strong> Specifies whether the Authority Key Identifier extension must be included in a CRL. The default value is false.</p> 
+  <h3 id="online_certificate_status_protocol_options">Online Certificate Status Protocol Options</h3> 
+  <p></p> 
+  <p><strong>OCSP Server URL:</strong> URL for the default OCSP server. Whether the OCSP server that is specified through this URL is used depends on the URL To Consult Option setting. No default value.</p> 
+  <p><strong>URL To Consult Option:</strong> Controls the list and order of the OCSP servers that are used for performing the status check. The default value is UseAIAInCert.</p> 
+  <p><strong>Revocation Check Style:</strong> Specifies the revocation checking style that is used while verifying the OCSP server's certificate. The default value is CheckIfAvailable.</p> 
+  <p><strong>Send Nonce:</strong> Specifies whether a nonce is sent with the OCSP request. A nonce can be a timestamp, a visit counter on a web page, or a special marker that is intended to limit or prevent the unauthorized replay or reproduction of a file. The default value is true.</p> 
+  <p><strong>Max Clock Skew Time:</strong> Maximum allowed skew, in minutes, between response time and local time. The minimum value is 0 and the maximum value is 2147483647m. The default value is 5m.</p> 
+  <p><strong>Response Freshness Time:</strong> Maximum time, in minutes, for which a preconstructed OCSP response is considered valid. The minimum value is 1m and the maximum value allowed is 2147483647. The default value is 525600 (one year).</p> 
+  <p><strong>Sign OCSP Request:</strong> Specifies whether the OCSP request should be signed. The default value is false.</p> 
+  <p><strong>Request Signer Credential Alias:</strong> Specifies the credential alias to use for signing the OCSP request if signing is enabled. Used only if signing of OCSP request is enabled. No default value.</p> 
+  <p><strong>Go Online:</strong> Specifies whether to go online to do revocation checking. The default value is true.</p> 
+  <p><strong>Ignore the response’s thisUpdate and nextUpdate times:</strong> Specifies whether to ignore the response's thisUpdate and nextUpdate times, which prevents these times from having a negative effect on response validity. The default value is false.</p> 
+  <p><strong>Allow OCSPNoCheck extension:</strong> Specifies whether the OCSPNoCheck extension is allowed in the response signing certificate. The default value is true.</p> 
+  <p><strong>Require OCSP ISIS-MTT CertHash Extension:</strong> Specifies whether a certificate public key hash extension must be included in OCSP responses. The default value is false.</p> 
+  <h3 id="error_handling_options_for_debugging">Error Handling Options for Debugging</h3> 
+  <p></p> 
+  <p><strong>Purge Certificate Cache on next API call:</strong> Specifies whether to purge the Certificate Cache when the next Signature Service Operation is called. After the operation is called, this option is set back to false. The default value is false.</p> 
+  <p><strong>Purge CRL Cache on next API call:</strong> Specifies whether to purge the CRL Cache when the next Signature Service Operation is called. After the operation is called, this option is set back to false. The default value is false.</p> 
+  <p><strong>Purge OCSP Cache on next API call:</strong> Specifies whether to purge the OCSP Cache when the next Signature Service Operation is called. After the operation is called, this option is set back to false. The default value is false.</p> 
+  <h2 id="watched_folder_service_settings">Watched Folder service settings</h2> 
+  <p></p> 
+  <p>The Watched Folder service (<span class="code">WatchedFolder</span>) configures attributes that are common for all watched folder endpoints. It also provides default values for watched folder endpoints. (See <a href="../../../forms/using/admin-help/configuring-watched-folder-endpoints.md#configuring-watched-folder-endpoints">Configuring watched folder endpoints</a>.) It is not invoked by external client applications or used in processes created in Workbench.</p> 
+  <p>The following settings are available for the Watched Folder service. </p> 
+  <p><strong>Cron Expression:</strong> The cron expression as used by quartz to schedule the polling of the input directory.</p> 
+  <p><strong>Repeat Count:</strong> The number of times the input directory is polled. The default repeat count to use if this value is not specified in the endpoint configuration. A value of -1 indicates indefinite scanning of the directory. The default value is -1.</p> 
+  <p><strong>Repeat Interval:</strong> The default number if seconds between each poll. This value is used as the repeat interval unless a different value is specified in the watched folder endpoint configuration. The default value is 5. See the description of the Batch Size setting for additional information.</p> 
+  <p><strong>Asynchronous:</strong> Identifies the invocation type as asynchronous or synchronous. Transient and synchronous processes can only be invoked synchronously. The default value is asynchronous.</p> 
+  <p><strong>Wait Time:</strong> The default value for time, in seconds, after which the files are retrieved from the input folders. If the file or folder is older than the time specified in the wait time, it is picked up for processing. The default value is 0.</p> 
+  <p><strong>Batch Size:</strong> The default value for the number of files or folder that are processed per scan. The default value is 2.</p> 
+  <p>The Repeat Interval and Batch Size settings determine how many files Watched Folder picks up in every scan. Watched Folder uses a Quartz thread pool to scan the input folder. The thread pool is shared with other services. If the scan interval is small, the threads scan the input folder often. If files are dropped frequently into the watched folder, keep the scan interval small. If files are dropped infrequently, use a larger scan interval so that the other services can use the threads.</p> 
+  <p>If there is a large volume of files being dropped, make the batch size large. For example, if the service invoked by the watched folder endpoint can process 700 files per minute, and users drop files into the input folder at the same rate, then setting the Batch Size to 350 and the Repeat Interval to 30 seconds will help Watched Folder performance without incurring the cost of scanning the watched folder too often.</p> 
+  <p>When files are dropped into the watched folder, it lists the files in the input, which can reduce performance if scanning is happening every second. Increasing the scan interval can improve performance. If the volume of files being dropped is small, adjust the Batch Size and Repeat Interval accordingly. For example, if 10 files are dropped every second, try setting the Repeat Interval to 1 second and the Batch Size to 10.</p> 
+  <p>In a cluster configuration, the batch size for a watched folder endpoint does not scale to multiple cluster nodes. For example, if the batch size is set to <span class="code">2</span> for a two-node cluster and the Throttle option is selected, the nodes process files collectively in batches of two instead of each node processing two files at a time.</p> 
+  <p><strong>Overwrite Duplicate Filenames:</strong> A Boolean string that specifies whether the watched folder overwrites duplicate result filenames and whether preserved documents of the same name should be overwritten.</p> 
+  <p><strong>Preserve Folder:</strong> The default value for the preserve folder. This folder is used to copy the source files into in case of successful processing of the input. This value can be an empty, relative, or absolute path with a file pattern as described for the Result Folder setting.</p> 
+  <p><strong>Failure Folder:</strong> The name of the folder where the failure files are copied. This value can be an empty, relative, or absolute path with a file pattern as described for the Result Folder setting.</p> 
+  <p><strong>Result Folder:</strong> The default name for the result folder. This folder is used to copy the results files into. This value can be an empty, relative, or absolute path with the following file pattern.</p> 
+  <ul> 
+   <li><p>%F = filename prefix </p></li> 
+   <li><p>%E = filename extension</p></li> 
+   <li><p>%Y = year (full) </p></li> 
+   <li><p>%y = year (last two digits) </p></li> 
+   <li><p>%M = month</p></li> 
+   <li><p>%D = day of month </p></li> 
+   <li><p>%d = day of year </p></li> 
+   <li><p>%H = hour (24-hour clock) </p></li> 
+   <li><p>%h = hour (12-hour clock) </p></li> 
+   <li><p>%m = minute </p></li> 
+   <li><p>%s = second </p></li> 
+   <li><p>%l = millisecond </p></li> 
+   <li><p>%R = random number (from 0 through 9) </p></li> 
+   <li><p>%P = process or job id</p></li> 
+  </ul> 
+  <p>For example, if it is 8 PM on July 17, 2009 and you specify <span class="code">C:/Test/WF0/failure/%Y/%M/%D/%H/</span>, the result folder is <span class="code">C:/Test/WF0/failure/2009/07/17/20</span>. </p> 
+  <p>If the path is not absolute but relative, the folder is created inside the watched folder. For more information about file patterns, see <a href="../../../forms/using/admin-help/configuring-watched-folder-endpoints.md#about-file-patterns">About file patterns</a>. </p> 
+  <p><i><strong>Note</strong>: The smaller the size of the result folders, the better Watched Folder performance will be. For example, if the estimated load for the watched folder is 1000 files every hour, try a pattern like <span class="code">result/%Y%M%D%H</span> so that a new subfolder is created every hour. If the load is smaller (for example, 1000 files per day), you could use a pattern like <span class="code">result/%Y%M%D</span>.</i></p> 
+  <p><strong>Stage Folder:</strong> The default name for the stage folder inside the watched folder.</p> 
+  <p><strong>Input Folder:</strong> The default name for the input folder inside the watched folder.</p> 
+  <p><strong>Preserve On Failure:</strong> If true, original files are preserved in the failure folder on failure.</p> 
+  <p><strong>Throttle:</strong> When this option is selected, it limits the number of watched folder jobs that AEM forms processes at any given time. The Batch Size value determines the maximum number of jobs (See About throttling).</p> 
+  <h2 id="web_service_service_settings">Web Service service settings</h2> 
+  <p></p> 
+  <p>The Web Service service (<span class="code">WebService</span>) enables processes to invoke web service operations.</p> 
+  <p>The Web Service service enables processes to invoke web service operations. For example, an organization may want to integrate a process to store and retrieve information such as contact and account details by invoking a service provider’s exposed web services. The Web Service service invokes a specified web service and passes through values for each of its parameters. It then saves the return values from the operation into a designated variable within a process.</p> 
+  <p>The Web Service service interacts with web services by sending and receiving SOAP messages. The service also supports sending MIME, MTOM, and SwaRef attachments with SOAP messages by using the WS-Attachment protocol. The Web Service service interactions are compatible with SAP systems and .NET web services.</p> 
+  <p>The following settings are available for the Web Service service.</p> 
+  <p><strong>Key Store:</strong> The full path of the keystore file that contains the private key to use for authentication. The forms server must be able to access the file.</p> 
+  <p><strong>Key Store Password:</strong> The password for the keystore file.</p> 
+  <p><strong>Key Store Type:</strong> The type of the keystore. Provide no value to use the default keystore type that is configured for the JVM that runs the forms server. Otherwise, provide one of the following values:</p> 
+  <ul> 
+   <li><p>jks</p></li> 
+   <li><p>pkcs12</p></li> 
+   <li><p>cms</p></li> 
+   <li><p>jceks</p></li> 
+  </ul> 
+  <p><strong>Trust Store:</strong> The full path of the trust store file that contains the public key of the web service server.</p> 
+  <p><strong>Trust Store Password:</strong> The password for the truststore file.</p> 
+  <p><strong>Trust Store Type:</strong> The type of the truststore. Provide no value to use the default keystore type that is configured for the JVM that runs the forms server. Otherwise, provide one of the following values:</p> 
+  <ul> 
+   <li><p>jks</p></li> 
+   <li><p>pkcs12</p></li> 
+   <li><p>cms</p></li> 
+   <li><p>jceks</p></li> 
+  </ul> 
+  <h2 id="xslt_transformation_service_settings">XSLT Transformation service settings</h2> 
+  <p></p> 
+  <p>The XSLT Transformation service (<span class="code">XSLTService</span>) enables processes to apply Extensible Stylesheet Language Transformations (XSLT) on XML documents.</p> 
+  <p>The following setting is available for the XSLT Transformation service. </p> 
+  <p><strong>Factory Name:</strong> The fully qualified name of the Java class to use for performing XSLT transformations. If no value is specified, the default factory configured in the Java Virtual Machine that runs the forms server is used.</p> 
+  <h2 id="modifying_security_settings_for_a_service">Modifying security settings for a service</h2> 
+  <p></p> 
+  <p>forms server enables you to configure security settings for each service, which allows you to configure fine-grained access control on a service-by-service level. </p> 
+  <p>Default security profiles are installed, which can then be configured to meet your system needs. Each security profile has an associated domain and is created at either the user level or the group level. </p> 
+  <h3 id="modify_security_settings_for_a_service">Modify security settings for a service</h3> 
+  <p></p> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; Applications and Services &amp;gt; Service Management.</p></li> 
+   <li><p>On the Service Management page, click the service to configure.</p></li> 
+   <li><p>Click the Security tab.</p></li> 
+   <li><p>In the Require Callers To Authenticate list, select either Yes or No to specify whether the service can be invoked with or without credentials. </p><p>If you select Yes, the caller of the service must be authenticated and the user principal for that caller must be authorized to invoke the service; otherwise, the invocation attempt will be refused.</p><p>If you select No, the caller of the service may or may not be authenticated. The invocation of the service will always succeed because there is no authorization check. </p></li> 
+   <li><p>For services that contain one or more operations flagged for anonymous access, select or deselect Anonymous Access Allowed. When anonymous access is enabled, any user within the system can invoke operations on the service. If anonymous access is disabled, users must be granted permission to call the service and invoke operations. Users are granted these permissions either directly or as being part of a group that has such permissions. </p></li> 
+   <li><p>For some services, the user account that executes the operation affects the results. For example, in Content Services (Deprecated), the user that stores content is made the owner of the content, which affects who can later access the content. If you are using a process to store content, think about what user is used to execute the Document Management service, because that user will own the stored content.</p><p>To specify the run-time identity used by a service to execute operations, select Specify Run As, select an option from the associated list, and then click Save. Choose from the following options: </p><p><strong>Invoker: </strong>Uses the same identity as the user who invoked the service. </p><p><strong>System: </strong>Uses the System user to run the service with full privileges. </p><p><strong>Named User: </strong>Enables you to run the service as a specific user. When you select this option, click Select User to display the Select Principal page, where you can search for and select the user. </p><p>If you do not select Specify Run As, the default behavior is used.</p> 
+    <note> 
+     <p>Render and submit services that are used with xfaForm, Document Form, and Form variables are always executed using the System user account.</p> 
+    </note></li> 
+   <li><p>Click Add Principal to specify the permissions that users and groups have for this service. </p></li> 
+   <li><p>The Select Principal screen displays the users and groups that are configured in User Management. If the user or group you want is not displayed, use the search function to find it. Click a user or group name.</p></li> 
+   <li><p>On the Add Permissions screen, select the permissions to assign to the user or group for this service:</p> 
+    <ul> 
+     <li><p><strong>INVOKE_PERM: </strong>To invoke all operations on the service</p></li> 
+     <li><p><strong>MODIFY_CONFIG_PERM: </strong>To modify the configuration of a service</p></li> 
+     <li><p><strong>SUPERVISOR_PERM: </strong>To view process instance data for a service that is created from a process</p></li> 
+     <li><p><strong>START_STOP_PERM: </strong>To start and stop a service</p></li> 
+     <li><p><strong>ADD_REMOVE_ENDPOINTS_PERM: </strong>To add, remove, and modify endpoints for a service</p></li> 
+     <li><p><strong>CREATE_VERSION_PERM: </strong>To create a new version of the service</p></li> 
+     <li><p><strong>DELETE_VERSION_PERM: </strong>To delete a version of the service</p></li> 
+     <li><p><strong>MODIFY_VERSION_PERM: </strong>To modify a version of the service</p></li> 
+     <li><p><strong>READ_PERM: </strong>To view the service</p></li> 
+     <li><p><strong>PROCESS_OWNER_PERM: </strong>For use in a future version of AEM forms. Do not use this permission.</p></li> 
+     <li><p><strong>SERVICE_MANAGER_PERM: </strong>For use in a future version of AEM forms. Do not use this permission.</p></li> 
+     <li><p><strong>SERVICE_AGENT_PERM: </strong>For use in a future version of AEM forms. Do not use this permission.</p></li> 
+    </ul></li> 
+   <li><p> Click Add.</p></li> 
+  </ol> 
+  <h3 id="remove_the_principal_from_a_security_profile">Remove the principal from a security profile</h3> 
+  <p></p> 
+  <ol> 
+   <li><p>On the Service Management page, select the service to configure.</p></li> 
+   <li><p>Click the <strong>Security</strong> tab, select the security profile to remove, and click <strong>Remove</strong>.</p></li> 
+  </ol> 
+  <h2 id="configuring_pooling_for_a_service">Configuring pooling for a service</h2> 
+  <p></p> 
+  <p>Each service can take advantage of the pooling capabilities to handle incoming invocation requests. Using a service pool ensures that service instances are invoked by a single thread at a time and are reused across invocation requests, which may result in improved performance. You can also use pooling to specify the Maximum Asynchronous Service Instances option, which allows services to limit the number of requests handled in parallel.</p> 
+  <h3 id="enable_pooling">Enable pooling</h3> 
+  <p></p> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; Applications and Services &amp;gt; Service Management.</p></li> 
+   <li><p>On the Service Management page, click the service to configure.</p></li> 
+   <li><p>Click the Pooling tab.</p></li> 
+   <li><p>In the Request Processing Strategy list, select Pooled Instances for All Requests.</p></li> 
+   <li><p>In the Initial Service Instance Pool Size box, enter the initial size of the pool. When the service is deployed, this number is used to determine the number of service implementation instances that are created and allocated to the free pool, awaiting invocation requests. This enables the service container to respond immediately to invocation requests without having to first initialize a service instance. </p></li> 
+   <li><p>In the Maximum Service Instance Pool Size box, enter the maximum number of instances in the pool for a given service. This setting controls the number of threads that can execute a given service at a given time. The default value is 0, which results in unlimited pool size. </p></li> 
+   <li><p>In the Maximum Asynchronous Service Instances box, enter the maximum number of instances from the pool that can be used to service asynchronous requests at any given time. This setting allows the service to limit the number of requests that it can handle in parallel. </p></li> 
+   <li><p>In the Invocation Wait Timeout box, enter the number of milliseconds to wait for a service to become available for an invocation request. If you do not specify a value for this setting, the default is 0, which results in no wait time.</p></li> 
+   <li><p>Click Save.</p></li> 
+  </ol> 
+  <h3 id="remove_pooling">Remove pooling</h3> 
+  <p></p> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; Applications and Services &amp;gt; Service Management.</p></li> 
+   <li><p>On the Service Management page, click the service to configure.</p></li> 
+   <li><p>Click the Pooling tab.</p></li> 
+   <li><p>In the Request Processing Strategy list, select either New Instance For Each Request or Single Instance For All Requests.</p><p><strong>Single Instance for All Requests:</strong> A service instance is created and cached when the first request comes into the container. Every request after that request uses the same service instance to handle the request.</p><p><strong>New Instance for Each Request:</strong> A new service instance is created for each invocation received.</p></li> 
+   <li><p>Click Save.</p></li> 
+  </ol> 
+ </body> 
+</html>

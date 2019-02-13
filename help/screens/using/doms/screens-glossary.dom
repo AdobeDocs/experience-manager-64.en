@@ -1,0 +1,54 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="" name="primaryAudienceTag" />
+  <meta content="e2edb5ab-8fd8-4b71-8cd6-a957c73f1bf0" name="jcr:predecessors" />
+  <meta content="Follow this page to understand the key terms associated with AEM Screens." name="jcr:description" />
+  <meta content="e1fcda46-481e-4475-b264-7dd2af0016ee" name="jcr:uuid" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2018-11-02T13:35:46.969-0400" name="lastPublishExternalDate" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2019-01-15T15:39:03.039-0500" name="jcr:created" />
+  <meta content="2017-10-31T16:17:36.308-0400" name="firstPublishExternalDate" />
+  <meta content="Follow this page to understand the key terms associated with AEM Screens." name="seoDescription" />
+  <meta content="jsyal" name="cq:lastReplicatedBy" />
+  <meta content="jsyal" name="cq:lastModifiedBy" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2018-04-30T03:26:53.009-0400" name="locHandOffDate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-11-02T13:35:46.969-0400" name="publishExternalDate" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SCREENS" name="primaryProductTag" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="2018-11-02T13:35:47.027-0400" name="cq:lastModified" />
+  <meta content="/content/help/en/experience-manager/6-4/screens/morehelp/introduction;/content/help/en/experience-manager/6-4/screens/morehelp/introduction" name="moreHelpPaths" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-11-02T13:35:47.558-0400" name="cq:lastReplicated" />
+  <meta content="Glossary" name="seoTitle" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/screens/using/screens-glossary.html" name="publishExternalURL" />
+  <meta content="content_type:reference;topic_tags:introduction;products:SG_EXPERIENCEMANAGER/6.4/SCREENS" name="cq:tags" />
+  <meta content="jsyal@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="User" name="contentOwner" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="Glossary" name="jcr:title" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="/content/docs/en/aem/6-3/deploy/aem-screens-introduction/glossary" name="qaNotes" />
+  <meta content="2018-11-02T13:35:46.969-0400" name="topicBrowsingSortDate" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+ </head>
+ <body>
+  <p><strong>Application Channel</strong> An Application Channel shows an application created by a developer that displays interactive content.</p>
+  <p><strong>Device</strong> A device has the ability to run the player software to produce a visual output. It is able to control displaying a cropped, scaled, translated portion of common content or experience. The screen configuration is bound to a display but can be replaced in case a technical defect occurs.</p>
+  <p><strong>Display</strong> A display is a virtual grouping of screens that are usually positioned next to each other. The display is usually permanent in respect to an installation. This will be the object content authors will work with and always reference to as logical display rather than their physical counter part(s).</p>
+  <p><strong>Firmware</strong> Firmware is the term given to the software that runs on the device inside the player application in a web view. It is a javascript layer that runs the content contained in a channel within iFrames and provides access to native capabilities through plugins. The firmware can be updated without updating the player application.</p>
+  <p><strong>Live Copy</strong> A Live Copy is a copy of specific site content for which a live relationship with the original source is maintained. This live relationship allows the live copy to inherit content and page properties from the source.</p>
+  <p><strong>Location</strong> Locations host the configuration of the displays according to where the various screens are.</p>
+  <p><strong>Player Software</strong> The player is the software running on a device that will allow you to show a channel on a display.</p>
+  <p><strong>Screen</strong> A screen is a physical monitor or any other system capable of producing visual output, that shows the content coming from its device.</p>
+  <p><strong>Sequence Channel</strong> A Sequence Channel is a page that you can author containing components that will be show one by one in a slideshow.</p>
+  <p><strong>Zones</strong> Zones are segmentation of displays that are used primary addressable entities for channels. In instances, where displays span multiple screens it is advantageous to define the zones to match the screen dimensions, especially if the screens show a prominent physical border.</p>
+ </body>
+</html>

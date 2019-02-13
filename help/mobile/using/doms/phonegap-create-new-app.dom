@@ -1,0 +1,91 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2018-05-04T05:13:39.258-0400" name="topicBrowsingSortDate" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/mobile/using/phonegap-create-new-app.html" name="publishExternalURL" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/MOBILE" name="primaryProductTag" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="/content/docs/en/aem/6-3/author/mobile-apps/phonegap/creating-a-new-aem-mobile-app" name="qaNotes" /> 
+  <meta content="2018-05-04T05:13:39.625-0400" name="cq:lastReplicated" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="msm-service" name="cq:lastModifiedBy" /> 
+  <meta content="32cd6935-a7bf-432c-a364-47f498b3e5fe" name="jcr:predecessors" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="bohnert@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2017-12-13T19:01:09.282-0500" name="jcr:created" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="User" name="contentOwner" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="/content/help/en/experience-manager/6-4/mobile/morehelp/authoring-adobe-phonegap-enterprise;/content/help/en/experience-manager/6-4/mobile/morehelp/authoring-adobe-phonegap-enterprise" name="moreHelpPaths" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2017-10-31T16:26:04.446-0400" name="firstPublishExternalDate" /> 
+  <meta content="AEM Mobile apps are based on a blueprint that defines a page structure and properties. Follow this page to learn about how to create a new app based on an app template." name="seoDescription" /> 
+  <meta content="2018-05-04T05:13:39.258-0400" name="publishExternalDate" /> 
+  <meta content="46d2db15-03fb-432a-86a1-1712d1985213" name="jcr:uuid" /> 
+  <meta content="Creating a new AEM Mobile app using create wizard" name="jcr:title" /> 
+  <meta content="Creating a new AEM Mobile app using create wizard" name="seoTitle" /> 
+  <meta content="bohnert" name="cq:lastReplicatedBy" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2018-05-11T10:03:04.978-0400" name="locHandOffDate" /> 
+  <meta content="2018-05-04T05:13:39.258-0400" name="lastPublishExternalDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/MOBILE;topic_tags:authoring-adobe-phonegap-enterprise" name="cq:tags" /> 
+  <meta content="2018-05-11T10:03:04.979-0400" name="cq:lastModified" /> 
+ </head> 
+ <body> 
+  <note> 
+   <p>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). <a href="../../sites/developing/using/spa-overview.md">Learn more</a>.</p> 
+  </note> 
+  <p>AEM Mobile apps are based on a blueprint that defines a page structure and properties. You can configure the following application properties:<br /> </p> 
+  <ul> 
+   <li><strong>Title:</strong> The application title.</li> 
+   <li><strong>Destination Path:</strong> The location in the repository where the application is stored. Leave the default to create a path based on the app name.<br /> </li> 
+   <li><strong>Name:</strong> The default value is the value of the Title property with space characters removed. The name is used within AEM to refer to the application, for example for the repository node that represents the application.</li> 
+   <li><strong>Description:</strong> A description of the application.</li> 
+   <li><strong>Server URL:</strong> The URL that provides Over-the-Air (OTA) content updates to the application. The default value is the publish server URL of the instance that is used to create an application (taken from the externalizer service). Note, this must be a publish server instance rather than an author, which requires authentication.<br /> </li> 
+  </ul> 
+  <p>You can also provide an image file to use as the application thumbnail, select the PhoneGap Build configuration to use, and select the Mobile App analytics configuration to use. This image is only used as a thumbnail to represent your mobile application within the mobile apps console in Experience Manager.</p> 
+  <p> </p> 
+  <p>Additional (and optional) tabs exist for build cloud service and integrating the Adobe Mobile Services SDK plug-in into your app.<br /> </p> 
+  <ul> 
+   <li>Build: Click manage configurations and set up your build.phonegap.com build service here. Then from the drop-down you will be able to select the newly created PhoneGap build cloud service.</li> 
+   <li>Analytics: Click manage configurations and set up your <a href="https://marketing.adobe.com/developer/en_US/get-started/mobile/c-measuring-mobile-applications">Adobe Mobile Services SDK</a> cloud service. Then from the drop-down you will be able to select the newly created Mobile Service to integrate into your mobile app.</li> 
+  </ul> 
+  <h3>Using App Templates</h3> 
+  <p>App templates provide an easy way to leverage existing designs created by devlopers, used for the creation of new apps within AEM. </p> 
+  <p>What is an app template? Think of it as a collection of page templates and components that represent a baseline or foundation of an app. <br /> When creating a new app based on the template of another app, you will get an app that has a starting point representative of the app in which it was created from.</p> 
+  <p>You must have an existing mobile app template (or an app installed that has an app template) to make use of this feature.</p> 
+  <p>The latest AEM Apps samples package includes an updated version of the Geometrixx app with an app template. Alternatively, you can install the <a href="https://github.com/Adobe-Marketing-Cloud-Apps/aem-phonegap-starter-kit">StarterKit</a> which also provides a template. </p> 
+  <p>Steps to creating a new app based on an app template: </p> 
+  <ol> 
+   <li>Navigate to the AEM Mobile app catalog: &amp;lt;<i>server-url</i>&amp;gt;aem/apps.html/content/mobileapps</li> 
+   <li>Select <strong>Create</strong> and then choose <strong>App</strong> as shown below</li> 
+  </ol> 
+  <img imageRotate="0" src="assets/chlimage_1-173.png" /> 
+  <p>Select an app template made available to you by an AEM developer. See <a href="../../mobile/using/phonegap-structure-an-app.md">Structure of an AEM Mobile App</a> for developer assistance.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-174.png" /> 
+  <p>Fill out your new app's details as needed including optionally changing its thumbnail image. These values can be edited later from the <strong>Manage App</strong> tile.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-175.png" /> 
+  <h3>The Next Steps</h3> 
+  <p>See the following resources to learn more about other authoring roles:</p> 
+  <ul> 
+   <li><a href="../../mobile/using/phonegap-app-details-tile.md">The Manage App Tile</a></li> 
+   <li><a href="../../mobile/using/phonegap-editmetadata.md">Editing App Metadata</a></li> 
+   <li><a href="../../mobile/using/phonegap-app-definitions.md">App Definitions</a></li> 
+   <li><a href="../../mobile/using/phonegap-import-hybrid-app.md">Import an Existing Hybrid App</a></li> 
+   <li><a href="/mobile/using/content-as-a-service">Content Services</a></li> 
+  </ul> 
+  <h3>Additional Resources</h3> 
+  <p>To learn about the roles and responsibilities of an Administrator and Developer, see the resources below:</p> 
+  <ul> 
+   <li><a href="../../mobile/using/developing-in-phonegap.md">Developing for Adobe PhoneGap Enterprise with AEM</a></li> 
+   <li><a href="../../mobile/using/administer-phonegap.md">Administering Content for Adobe PhoneGap Enterprise with AEM</a></li> 
+  </ul> 
+ </body> 
+</html>

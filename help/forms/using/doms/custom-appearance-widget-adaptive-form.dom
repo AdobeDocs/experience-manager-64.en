@@ -1,0 +1,201 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2018-04-03T08:24:03.330-0400" name="lastPublishExternalDate" /> 
+  <meta content="2017-12-01T19:06:24.904-0500" name="jcr:created" /> 
+  <meta content="2128" name="acrolinxWords" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/customization;/content/help/en/experience-manager/6-4/forms/morehelp/customization" name="moreHelpPaths" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2018-04-03T08:24:03.330-0400" name="topicBrowsingSortDate" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="Create custom appearances for adaptive form fields" name="jcr:title" /> 
+  <meta content="Customize appearance of out-of-the-box components in Adaptive Forms. " name="seoDescription" /> 
+  <meta content="e35d2d07-d7bc-46ff-81eb-7681875bee33" name="jcr:predecessors" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2016-05-31T06:36:45.319-0400" name="acrolinxDate" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2015-11-20T08:17:02.259-0500" name="lastPublishQADate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="153" name="acrolinxSentences" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/custom_appearance_widget_adaptive_form_admin_5e12de0b318c6865_1994_report.xml" name="acrolinxReportURL" /> 
+  <meta content="20b715dd-9391-4741-b008-f95282affb30" name="jcr:uuid" /> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:customization" name="cq:tags" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/custom-appearance-widget-adaptive-form.html" name="publishExternalURL" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="2018-04-26T04:39:34.844-0400" name="cq:lastModified" /> 
+  <meta content="2016-04-20T09:28:53.092-0400" name="firstPublishExternalDate" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2018-04-26T04:39:34.844-0400" name="locHandOffDate" /> 
+  <meta content="2018-04-03T08:24:04.696-0400" name="cq:lastReplicated" /> 
+  <meta content="2018-04-03T08:24:03.330-0400" name="publishExternalDate" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+ </head> 
+ <body> 
+  <h2>Introduction</h2> 
+  <p>Adaptive forms leverages the <a href="../../forms/using/introduction-widgets.md" target="_blank">appearance framework</a> to help you create custom appearances for adaptive form fields and provide a different user experience. For example, replace radio buttons and check boxes with toggle buttons or use custom jQuery plugins to restrict users inputs in fields like phone numbers or email ID.<br /> </p> 
+  <p>This document explains how to use a jQuery plugin to create these alternate experiences for adaptive form fields. In addition, it showcases an example to create a custom appearance for numeric field component to appear as a numeric stepper or slider.</p> 
+  <p>Let's first look at the key terms and concepts used in this article.</p> 
+  <p><strong>Appearance</strong> Refers to the style, look and feel, and organization of various elements of an adaptive form field. It usually includes a label, an interactive area to provide inputs, a help icon, and short and long descriptions of the field. The customization of appearance discussed in this article is applicable for the appearance of the input area of the field.</p> 
+  <p><strong>jQuery plugin</strong> Provides a standard mechanism, based on the jQuery widget framework, to implement an alternate appearance.</p> 
+  <p><strong>ClientLib</strong> A client-side libraries system in AEM client-side processing driven by complex JavaScript and CSS code. For more information, see Using Client-Side Libraries.</p> 
+  <p><strong>Archetype</strong> A Maven project templating toolkit defined as an original pattern or model for Maven projects. For more information, see Introduction to Archetypes.</p> 
+  <p><strong>User Control</strong> Refers to the main element in a widget that contains the value of the field, and is used by the appearance framework for binding the custom widget UI with the adaptive form model.</p> 
+  <h2>Steps to create a custom appearance</h2> 
+  <p>The steps, at a high level, to create a custom appearance are as follows:</p> 
+  <ol> 
+   <li><strong>Create a project</strong>: Create a Maven project that generates a content package to deploy on AEM.</li> 
+   <li><strong>Extend an existing widget class</strong>: Extend an existing widget class and override the required classes.</li> 
+   <li><strong>Create a client library</strong>: Create a <span class="code">clientLib: af.customwidget</span> library and add the required JavaScript and CSS files.</li> 
+   <li><strong>Build and install the project</strong>: Build the Maven project and install the generated content package on AEM.</li> 
+   <li><strong>Update the adaptive form</strong>: Update adaptive form field properties to use the custom appearance.</li> 
+  </ol> 
+  <h3>Create a project</h3> 
+  <p>A maven archetype is a starting point for creating a custom appearance. The details of the archetype to be used are as follows:</p> 
+  <ul> 
+   <li><strong>Repository</strong>: http://repo.adobe.com/nexus/content/groups/public/</li> 
+   <li><strong>Artifact Id</strong>: custom-appearance-archetype</li> 
+   <li><strong>Group Id</strong>: com.adobe.aemforms</li> 
+   <li><strong>Version</strong>: 1.0.4</li> 
+  </ul> 
+  <p>Execute the following command to create a local project based on the archetype:</p> 
+  <p><span class="code"> mvn archetype:generate -DarchetypeRepository=http://repo.adobe.com/nexus/content/groups/public/ -DarchetypeGroupId=com.adobe.aemforms -DarchetypeArtifactId=custom-appearance-archetype -DarchetypeVersion=1.0.4</span></p> 
+  <p>The command downloads the Maven plugins and archetype information from the repository, and generates a project based on the following information:</p> 
+  <ul> 
+   <li><strong>groupId</strong>: Group ID used by the generated Maven project</li> 
+   <li><strong>artifactId</strong>: Artifact ID used by the generated Maven project.</li> 
+   <li><strong>version</strong>: Version for the generated Maven project.</li> 
+   <li><strong>package</strong>: Package used for the file structure.</li> 
+   <li><strong>artifactName</strong>: Artifact name of the generated AEM package.</li> 
+   <li><strong>packageGroup</strong>: Package group of the generated AEM package.</li> 
+   <li><strong>widgetName</strong>: Appearance name used for reference.</li> 
+  </ul> 
+  <p>The generated project has the following structure:<br /> </p> 
+  <codeblock gutter="true" class="syntax java">
+    ─&lt;artifactId&gt;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;└───src!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;└───main!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;└───content!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;└───jcr_root!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;└───etc!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;└───clientlibs!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;└───custom!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;└───&lt;widgetName&gt;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;├───common&amp;nbsp;[client&amp;nbsp;library&amp;nbsp;-&amp;nbsp;af.customwidgets&amp;nbsp;which&amp;nbsp;encapsulates&amp;nbsp;below&amp;nbsp;clientLibs]!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;├───integration&amp;nbsp;[client&amp;nbsp;library&amp;nbsp;-&amp;nbsp;af.customwidgets.&lt;widgetName&gt;_widget&amp;nbsp;which&amp;nbsp;contains&amp;nbsp;template&amp;nbsp;files&amp;nbsp;for&amp;nbsp;integrating&amp;nbsp;a&amp;nbsp;third-party&amp;nbsp;plugin&amp;nbsp;with&amp;nbsp;Adaptive&amp;nbsp;Forms]!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;│&amp;nbsp;&amp;nbsp;&amp;nbsp;├───css!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;│&amp;nbsp;&amp;nbsp;&amp;nbsp;└───javascript!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;└───jqueryplugin&amp;nbsp;[client&amp;nbsp;library&amp;nbsp;-&amp;nbsp;af.customwidgets.&lt;widgetName&gt;_plugin&amp;nbsp;which&amp;nbsp;holds&amp;nbsp;the&amp;nbsp;third-party&amp;nbsp;plugins&amp;nbsp;and&amp;nbsp;related&amp;nbsp;dependencies]!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;├───css!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;└───javascript 
+  </codeblock> 
+  <h3>Extend an existing widget class</h3> 
+  <p>Once the project template is created, do the following changes, as required:</p> 
+  <ol> 
+   <li><p>Include the third-party plugin dependency to the project.</p> 
+    <ol> 
+     <li>Place the third-party or custom jQuery plugins in the <span class="code">jqueryplugin/javascript</span> folder and related CSS files in the <span class="code">jqueryplugin/css</span> folder. For more details, see the JS and CSS files under the <span class="code">jqueryplugin/javascript and jqueryplugin/css</span> folder.</li> 
+     <li>Modify the <span class="code">js.txt</span> and <span class="code">css.txt</span> files to include any additional JavaScript and CSS file of the jQuery plugin.</li> 
+    </ol> </li> 
+   <li><p>Integrate the third-party plugin with the framework to enable interaction between the custom appearance framework and the jQuery plugin. The new widget will be functional only after you extend or override the following functions.<br /> </p> 
+    <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+     <tbody> 
+      <tr> 
+       <td><strong>Function</strong></td> 
+       <td><strong>Description</strong></td> 
+      </tr> 
+      <tr> 
+       <td><span class="code">render</span></td> 
+       <td>The render function returns the jQuery object for the default HTML element of the widget. The default HTML element should be of focusable type. For example, <span class="code">&lt;a&gt;</span>, <span class="code">&lt;input&gt;</span>, and <span class="code">&lt;li&gt;</span>. The returned element is used as <span class="code">$userControl</span>. If the <span class="code">$userControl</span> specifies the above constraint, the functions of the <span class="code">AbstractWidget</span> class work as expected, else some of the common APIs (focus, click) require changes. </td> 
+      </tr> 
+      <tr> 
+       <td><span class="code">getEventMap</span></td> 
+       <td>Returns a map to convert HTML events to XFA events. <br /> <code class="code">{
+         <discoiqbr /> blur: XFA_EXIT_EVENT,
+         <discoiqbr /> }</code><br /> This example shows that <span class="code">blur</span> is an HTML event and <span class="code">XFA_EXIT_EVENT</span> is the corresponding XFA event. </td> 
+      </tr> 
+      <tr> 
+       <td><span class="code">getOptionsMap</span></td> 
+       <td>Returns a map that provides detail about the action to perform on the change of an option. The keys are the options that are provided to the widget and the values are functions that are called whenever a change in the option is detected. The widget provides handlers for all the common options (except <span class="code">value</span> and <span class="code">displayValue</span>).</td> 
+      </tr> 
+      <tr> 
+       <td><span class="code">getCommitValue</span></td> 
+       <td>The jQuery widget framework loads the function whenever the value of the jQuery widget is saved in the XFA model (for example on exit event of a text field). The implementation should return the value saved in the widget. The handler is provided with the new value for the option.</td> 
+      </tr> 
+      <tr> 
+       <td><span class="code">showValue</span></td> 
+       <td>By default, in XFA on enter event, the <span class="code">rawValue</span> of the field is displayed. This function is called to show the <span class="code">rawValue</span> to the user. </td> 
+      </tr> 
+      <tr> 
+       <td><span class="code">showDisplayValue</span></td> 
+       <td>By default, in XFA on exit event, the <span class="code">formattedValue</span> of the field is displayed. This function is called to show the <span class="code">formattedValue</span> to the user. </td> 
+      </tr> 
+     </tbody> 
+    </table> </li> 
+   <li><p>Update the JavaScript file in the <span class="code">integration/javascript</span> folder, as required.</p> 
+    <ul> 
+     <li>Replace the text <span class="code">__widgetName__</span> with the actual widget name.</li> 
+     <li>Extend the widget from a suitable out-of-the-box widget class. In most cases, It is the widget class corresponding to the existing widget being replaced. The parent class name is used at multiple locations, so it is recommended to search for all instances of the string <span class="code">xfaWidget.textField</span> in the file, and replace them with the actual parent class used.</li> 
+     <li>Extend the <span class="code">render</span> method to provide an alternate UI. It is the location from where the jQuery plugin will be invoked to update the UI or the interaction behavior. The <span class="code">render</span> method should return a user-control element.</li> 
+     <li>Extend the <span class="code">getOptionsMap</span> method to override any option setting impacted due to a change in the widget. The function returns a mapping that provides details for the action to perform on change of an option. The keys are the options provided to the widget and the values are the functions called whenever a change in the option is detected.</li> 
+     <li>The <span class="code">getEventMap</span> method maps events triggered by the widget, with the events required by the adaptive form model. The default value maps standard HTML events for the default widget, and needs to be updated if an alternate event is triggered.</li> 
+     <li>The <span class="code">showDisplayValue</span> and <span class="code">showValue</span> apply the display and edit picture clause and can be overridden to have an alternate behavior.</li> 
+     <li>The <span class="code">getCommitValue</span> method is called by the adaptive forms framework when the <span class="code">commit </span>event occurs. Generally, it is the exit event, except for the dropdown, radio button, and check box elements where it occurs on change). For more information, see <a href="../../forms/using/adaptive-form-expressions.md#main-pars-header-21" target="_blank">Adaptive Forms Expressions</a>.</li> 
+     <li>The template file provides sample implementation for various methods. Remove methods that are not to be extended.</li> 
+    </ul> </li> 
+  </ol> 
+  <h3>Create a client library</h3> 
+  <p>The sample project generated by the Maven archetype automatically creates required client libraries, and wraps them into a client library with a category <span class="code">af.customwidgets</span>. The JavaScript and CSS files available in the<span class="code"> af.customwidgets</span> are automatically included at runtime.</p> 
+  <h3>Build and install</h3> 
+  <p>To build the project, execute the following command on the shell to generate a CRX package that needs to be installed on the AEM server.</p> 
+  <p><span class="code">mvn clean install</span></p> 
+  <note> 
+   <p>The maven project refers to a remote repository inside the POM file. This is only for reference purposes, and according to Maven standards, the repository information is captured in the <span class="code">settings.xml</span> file.</p> 
+  </note> 
+  <h3>Update the adaptive form</h3> 
+  <p>To apply the custom appearance to an adaptive form field:</p> 
+  <ol> 
+   <li>Open the adaptive form in edit mode.</li> 
+   <li>Open the <strong>Property</strong> dialog for the field on which you want to apply the custom appearance.</li> 
+   <li>In the <strong>Styling</strong> tab, update the <span class="code">CSS class</span> property to add the appearance name in the <span class="code">widget_&amp;lt;widgetName&amp;gt;</span> format. For example: <strong>widget_numericstepper</strong></li> 
+  </ol> 
+  <h2>Sample: Create a custom appearance &amp;nbsp;</h2> 
+  <p>Let's now look at an example to create a custom appearance for a numeric field to appear as a numeric stepper or slider. Perform the following steps:</p> 
+  <ol> 
+   <li><p>Execute the following command to create a local project based on Maven archetype:</p>  <p>It prompts you to specify values for the following parameters. <br /> <em>The values used in this sample are highlighted in bold</em>.</p>        </li> 
+   <li><p>Navigate to the <span class="code">customWidgets</span> (specified value for the <span class="code">artifactID</span> property) directory and execute the following command to generate an Eclipse project:</p>  </li> 
+   <li><p>Open the Eclipse tool and do the following to import the Eclipse project:</p> 
+    <ol> 
+     <li><p>Select <span class="uicontrol">File &amp;gt; Import &amp;gt; Existing Projects into Workspace</span>.<br /> </p> </li> 
+     <li><p>Browse and select the folder where you executed the <span class="code">archetype:generate</span> command.<br /> </p> </li> 
+     <li><p>Click <span class="uicontrol">Finish</span>.<br /> </p> <img imageRotate="0" src="assets/eclipse-screenshot.png" /></li> 
+    </ol></li> 
+   <li><p>Select the widget to be used for the custom appearance. This sample uses the following numeric stepper widget:</p>  <p>In the Eclipse project, review the plug-in code in the <span class="code">plugin.js</span> file to ensure that it matches the requirements for the appearance. In this sample, the appearance fulfills the following requirements:</p> 
+    <ul> 
+     <li>The numeric stepper should extend from <span class="code">- $.xfaWidget.numericInput</span>.</li> 
+     <li>The <span class="code">set value</span> method of the widget sets the value after the focus is on the field. It is a mandatory requirement for an adaptive form widget.</li> 
+     <li>The <span class="code">render</span> method needs to be overridden to invoke the <span class="code">bootstrapNumber</span> method.</li> 
+     <li>There is no additional dependency for the plugin other than the main source code of the plugin.</li> 
+     <li>The sample does not perform any styling on the stepper, so no additional CSS is required.</li> 
+     <li>The <span class="code">$userControl</span> object should be available to the <span class="code">render</span> method. It is a field of the <span class="code">text</span> type which is cloned with the plugin code.</li> 
+     <li>The <strong>+</strong> and <strong>-</strong> buttons should be disabled when the field is disabled.<br /> </li> 
+    </ul> </li> 
+   <li><p>Replace the contents of the <span class="code">bootstrap-number-input.js</span> (jQuery plugin) with the content of the <span class="code">numericStepper-plugin.js</span> file.</p> </li> 
+   <li><p>In the <span class="code">numericStepper-widget.js</span> file, add the following code to override the render method to invoke the plugin and return the <span class="code">$userControl</span> object:<br /> </p> 
+    <codeblock gutter="true" class="syntax java">
+      render&amp;nbsp;:&amp;nbsp;function()&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;var&amp;nbsp;control&amp;nbsp;=&amp;nbsp;$.xfaWidget.numericInput.prototype.render.apply(this,&amp;nbsp;arguments);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;var&amp;nbsp;$control&amp;nbsp;=&amp;nbsp;$(control);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;var&amp;nbsp;controlObject;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;try{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if($control){!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;$control.bootstrapNumber();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;var&amp;nbsp;id&amp;nbsp;=&amp;nbsp;$control.attr("id");!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;controlObject&amp;nbsp;=&amp;nbsp;$("#"+id);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}catch&amp;nbsp;(exc){!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;console.log(exc);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;return&amp;nbsp;controlObject;!!discoiqbr!!} 
+    </codeblock></li> 
+   <li><p>In the <span class="code">numericStepper-widget.js</span> file, override the <span class="code">getOptionsMap</span> property to override the access option, and hide the + and - buttons in disabled mode.<br /> </p> 
+    <codeblock gutter="true" class="syntax java">
+      getOptionsMap:&amp;nbsp;function(){!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;var&amp;nbsp;parentOptionsMap&amp;nbsp;=&amp;nbsp;$.xfaWidget.numericInput.prototype.getOptionsMap.apply(this,arguments),!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;newMap&amp;nbsp;=&amp;nbsp;$.extend({},parentOptionsMap,!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;{!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"access":&amp;nbsp;function(val)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;switch(val)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;case&amp;nbsp;"open"&amp;nbsp;:!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;this.$userControl.removeAttr("readOnly");!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;this.$userControl.removeAttr("aria-readonly");!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;this.$userControl.removeAttr("disabled");!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;this.$userControl.removeAttr("aria-disabled");!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;this.$userControl.parent().find(".input-group-btn&amp;nbsp;button").prop('disabled',false);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;break;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;case&amp;nbsp;"nonInteractive"&amp;nbsp;:!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;case&amp;nbsp;"protected"&amp;nbsp;:!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;this.$userControl.attr("disabled",&amp;nbsp;"disabled");!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;this.$userControl.attr("aria-disabled",&amp;nbsp;"true");!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;this.$userControl.parent().find(".input-group-btn&amp;nbsp;button").prop('disabled',true);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;break;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;case&amp;nbsp;"readOnly"&amp;nbsp;:!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;this.$userControl.attr("readOnly",&amp;nbsp;"readOnly");!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;this.$userControl.attr("aria-readonly",&amp;nbsp;"true");!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;this.$userControl.parent().find(".input-group-btn&amp;nbsp;button").prop('disabled',true);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;break;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;default&amp;nbsp;:!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;this.$userControl.removeAttr("disabled");!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;this.$userControl.removeAttr("aria-disabled");!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;this.$userControl.parent().find(".input-group-btn&amp;nbsp;button").prop('disabled',false);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;break;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;},!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;});!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;return&amp;nbsp;newMap;!!discoiqbr!!&amp;nbsp;} 
+    </codeblock></li> 
+   <li><p>Save the changes, navigate to the folder containing the <span class="code">pom.xml</span> file, and execute the following Maven command to build the project: </p>  </li> 
+   <li><p>Install the package using AEM Package Manager.<br /> </p> </li> 
+   <li><p>Open the adaptive form in edit mode on which you want to apply the custom appearance and do the following:</p> 
+    <ol> 
+     <li><p>Right-click the field on which you want to apply the appearance and click <span class="uicontrol">Edit</span> to open the Edit Component dialog.<br /> </p> </li> 
+     <li><p>In the Styling tab, update the <span class="uicontrol">CSS class</span> property to add <span class="code">widget_numericStepper</span>.</p> </li> 
+    </ol></li> 
+  </ol> 
+  <p>The new appearance you just created is now available for use.</p> 
+ </body> 
+</html>

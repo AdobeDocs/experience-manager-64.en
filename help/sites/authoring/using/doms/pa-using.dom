@@ -1,0 +1,151 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="aheimoz" name="cq:lastModifiedBy" /> 
+  <meta content="/content/docs/en/aem/6-3/author/site-page-features/pa-using" name="qaNotes" /> 
+  <meta content="2018-10-28T01:29:21.425-0400" name="topicBrowsingSortDate" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="Guillaume Carlino" name="contentOwner" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="7f30561d-5fb1-482b-a559-a85c4d654a3b" name="jcr:uuid" /> 
+  <meta content="2018-10-28T01:29:21.425-0400" name="lastPublishExternalDate" /> 
+  <meta content="Seeing Page Analytics Data" name="seoTitle" /> 
+  <meta content="Use page analytics data to gauge the effectiveness of their page content" name="seoDescription" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;content_type:reference;topic_tags:site-features" name="cq:tags" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/authoring/morehelp/site-features;/content/help/en/experience-manager/6-4/sites/authoring/morehelp/site-features" name="moreHelpPaths" /> 
+  <meta content="jsyal@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="Seeing Page Analytics Data" name="jcr:title" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="2018-10-28T01:29:21.425-0400" name="publishExternalDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2018-10-28T01:29:21.486-0400" name="cq:lastReplicated" /> 
+  <meta content="audience:authoring" name="primaryAudienceTag" /> 
+  <meta content="5cd95da7-ef21-4e56-a9f5-c5978c40f30b" name="jcr:predecessors" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="Seeing Page Analytics Data" name="navTitle" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/pa-using.html" name="publishExternalURL" /> 
+  <meta content="2018-10-28T01:29:21.437-0400" name="cq:lastModified" /> 
+  <meta content="2017-10-31T16:20:00.573-0400" name="firstPublishExternalDate" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="2018-04-19T10:33:57.579-0400" name="locHandOffDate" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="jsyal" name="cq:lastReplicatedBy" /> 
+  <meta content="2018-02-22T08:01:43.276-0500" name="jcr:created" /> 
+ </head> 
+ <body> 
+  <p>Use page analytics data to gauge the effectiveness of the page content.</p> 
+  <h2>Analytics visible from the Console</h2> 
+  <img imageRotate="0" src="assets/aa-10.png" /> 
+  <p>Page analytics data is displayed in <a href="../../../sites/authoring/using/basic-handling.md#listview">List View</a> of the Sites console. When the pages are displayed in list format, the following columns are available by default:</p> 
+  <ul> 
+   <li>Page Views</li> 
+   <li>Unique Visitors</li> 
+   <li>Time on Page</li> 
+  </ul> 
+  <p>Each column shows a value for the current reporting period, and also indicates whether the value has increased or decreased since the previous reporting period. The data that you see is updated every 12 hours.</p> 
+  <note> 
+   <p>To change the update period, <a href="../../../sites/administering/using/adobeanalytics-connect.md#configuringtheimportinterval">configure the import interval</a>.</p> 
+  </note> 
+  <ol> 
+   <li><p>Open the <strong>Sites</strong> console; for example <a href="http://localhost:4502/sites.html/content">http://localhost:4502/sites.html/content</a></p> </li> 
+   <li><p>In the far right of the toolbar, (upper right corner), click or tap the icon to select <strong>List View</strong> (the icon shown will depend on the <a href="../../../sites/authoring/using/basic-handling.md#viewingandselectingresources">current view</a>).<br /> </p> </li> 
+   <li><p>Again, in the far right of the toolbar, (upper right corner), click or tap the icon then select <strong>View Settings</strong>. The <strong>Configure Columns</strong> dialog will open. Make any changes required and confirm with <strong>Update</strong>.<br /> </p> <img imageRotate="0" src="assets/aa-04.png" /></li> 
+  </ol> 
+  <h3>Selecting the Reporting Period</h3> 
+  <p>Select the reporting period for which Analytics data appears on the Sites console:</p> 
+  <ul> 
+   <li>Last 30 Days Data<br /> </li> 
+   <li>Last 90 Days Data<br /> </li> 
+   <li>This Year's Data<br /> </li> 
+  </ul> 
+  <div>
+    The current reporting period appears on the toolbar of the Sites console (right of the top toolbar). Use the drop down to select the required reporting period. 
+   <br /> 
+  </div> 
+  <img imageRotate="0" src="assets/aa-05.png" /> 
+  <h3>Configuring Available Data Columns</h3> 
+  <p>Members of the analytics-administrators user group can configure the Sites console to enable authors to see extra Analytics columns.</p>  
+  <note> 
+   <p>When a tree of pages contains children that are associated with different Adobe Analytics cloud configurations, you cannot configure available data columns for the pages.</p> 
+  </note> 
+  <ol> 
+   <li><p>In List View, use the view selectors (right of toolbar), select <strong>View Settings</strong> and then A<strong>dd Custom Analytics Data</strong>.</p> <img imageRotate="0" src="assets/aa-15.png" /></li> 
+   <li><p>Select the metrics that you want to expose to authors in the Sites console, and then click <strong>Add</strong>.</p> <p> The columns that appear are retrieved from Adobe Analytics.</p> <img imageRotate="0" src="assets/aa-16.png" /></li> 
+  </ol> 
+  <h3>Opening Content Insights from Sites</h3> 
+  <p>Open <a href="../../../sites/authoring/using/content-insights.md">Content Insight</a> from the Sites console to further investigate page effectiveness.</p> 
+  <ol> 
+   <li><p>In the Sites console, select the page for which you want to see Content Insights.</p> </li> 
+   <li><p>On the tool bar, click the Analytics and Recommendations icon.</p> <img imageRotate="0" src="assets/chlimage_1-254.png" /></li> 
+  </ol> 
+  <h2>Analytics visible from the Page Editor (Activity Map)</h2> 
+  <note> 
+   <p>This will be shown if the <a href="../../../sites/administering/using/adobeanalytics-connect.md#configuringfortheactivitymap">Activity Map has been configured</a> for your website.<br /> </p> 
+  </note> 
+  <note> 
+   <p>Data for the Activity Map is taken from Adobe Analytics.<br /> </p> 
+  </note> 
+  <p>When your website has been <a href="../../../sites/administering/using/adobeanalytics-connect.md">configured for Adobe Analytics</a>, you can use the <a href="../../../sites/authoring/using/author-environment-tools.md#pagemodes">mode Activity Map</a> to view relevant data. For example:<br /> </p> 
+  <img imageRotate="0" src="assets/aa-07.png" /> 
+  <h3>Accessing the Activity Map</h3> 
+  <p>After selecting the <a href="../../../sites/authoring/using/author-environment-tools.md#pagemodes">Activity Map</a> mode, you will be requested to enter your Adobe Analytics credentials.<br /> </p> 
+  <img imageRotate="0" src="assets/aa-03.png" /> 
+  <p>The <strong>Analytics</strong> floating toolbar is shown; here you can:</p> 
+  <ul> 
+   <li>change the toolbar format using the double arrows (<strong>&amp;gt;&amp;gt;</strong>)</li> 
+   <li>Toggle Page Details (eye icon)<br /> </li> 
+   <li>Configure the Activity Map Settings ( cog icon)<br /> </li> 
+   <li>Select the analytics to show (various drop-down selectors)<br /> </li> 
+   <li>Quit the Activity Map, and close the toolbar (x)</li> 
+  </ul> 
+  <img imageRotate="0" src="assets/aa-09.png" /> 
+  <h3>Selecting the Analytics to Show</h3> 
+  <p>You can select the analytical data to be shown, and how it should be displayed, using the various criteria:</p> 
+  <ul> 
+   <li><strong>Standard</strong>/<strong>Live</strong></li> 
+   <li>event type<br /> </li> 
+   <li>user group</li> 
+   <li><strong>Bubbles</strong>/<strong>Gradient</strong>/<strong>Gainers &amp; Losers</strong>/<strong>Off</strong></li> 
+   <li>period to be shown<br /> </li> 
+  </ul> 
+  <img imageRotate="0" src="assets/aa-13.png" /> 
+  <h3>Configuring the Activity Map</h3> 
+  <p>Use the <strong>Show Settings</strong> icon to open the <strong>Activity Map Settings</strong> dialog.</p> 
+  <img imageRotate="0" src="assets/aa-04-1.png" /> 
+  <p>The <strong>Activity Map Settings</strong> dialog provides a range of options on three tabs:</p> 
+  <img imageRotate="0" src="assets/aa-06.png" /> 
+  <ul> 
+   <li>General 
+    <ul> 
+     <li>Report Suite</li> 
+     <li>Page Name</li> 
+     <li>Language</li> 
+     <li>Label Overlays with</li> 
+     <li>Label Font Size</li> 
+     <li>Gradient Color</li> 
+     <li>Bubble Color</li> 
+     <li>Color Gradient Based On</li> 
+     <li>Gradient Transparency</li> 
+    </ul> </li> 
+   <li>Standard 
+    <ul> 
+     <li>Display (type and number of links)</li> 
+     <li>Hide overlays for links that received no hits</li> 
+    </ul> </li> 
+   <li>Live 
+    <ul> 
+     <li>Display Top (Gainers or Losers</li> 
+     <li>Exclude bottom %</li> 
+     <li>Auto Update (data and period)</li> 
+    </ul> </li> 
+  </ul> 
+ </body> 
+</html>

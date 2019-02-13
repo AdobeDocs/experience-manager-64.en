@@ -1,0 +1,139 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" />
+  <meta content="2017-10-31T16:19:00.685-0400" name="firstPublishExternalDate" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="62bdf425-6545-4b4e-87a3-895e4aaf0f67" name="jcr:uuid" />
+  <meta content="2018-04-19T10:24:31.071-0400" name="cq:lastModified" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="2018-04-03T06:44:50.863-0400" name="lastPublishExternalDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="audience:classic-ui-authoring" name="primaryAudienceTag" />
+  <meta content="2017-12-07T19:01:33.590-0500" name="jcr:created" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="Publishing Pages" name="seoTitle" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/classic-ui-authoring/using/classic-page-author-publish-pages.html" name="publishExternalURL" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" />
+  <meta content="msm-service" name="cq:lastModifiedBy" />
+  <meta content="/content/help/en/experience-manager/6-4/sites/classic-ui-authoring/morehelp/page-authoring;/content/help/en/experience-manager/6-4/sites/classic-ui-authoring/morehelp/page-authoring" name="moreHelpPaths" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="Once you have created and reviewed your content on the author environment, the goal is to make it available on your public website." name="seoDescription" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="2018-04-19T10:24:31.070-0400" name="locHandOffDate" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="fc7117a6-cc0a-48c7-aaba-5fc6ebe030de" name="jcr:predecessors" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2018-04-03T06:44:50.863-0400" name="publishExternalDate" />
+  <meta content="2018-04-03T06:44:51.651-0400" name="cq:lastReplicated" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:page-authoring;content_type:reference" name="cq:tags" />
+  <meta content="/content/docs/en/aem/6-3/author/classicui/page-authoring/publishing-pages" name="qaNotes" />
+  <meta content="Publishing Pages" name="jcr:title" />
+  <meta content="Publishing Pages" name="navTitle" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="Chris Bohnert" name="contentOwner" />
+  <meta content="2018-04-03T06:44:50.863-0400" name="topicBrowsingSortDate" />
+ </head>
+ <body>
+  <p>Once you have created and reviewed your content on the author environment, the goal is to make it available on your public website (your publish environment).</p> 
+  <p>This is referred to as publishing a page. When you want to remove a page from the publish environment is referred to as unpublishing. When publishing and unpublishing the page remains available on the author environment for further changes until you delete it.</p> 
+  <p>You can also publish/unpublish a page immediately or at a predefined date/time in the future.</p> 
+  <note>
+   <p>Certain terms related to publishing can be confused:</p> 
+   <ul> 
+    <li><strong>Publish / Unpublish</strong><br /> These are the primary terms for the actions that make your content publicly available on your publish environment (or not).<br /> </li> 
+    <li><strong>Activate / Deactivate</strong><br /> These terms are synonymous with publish/unpublish.<br /> </li> 
+    <li><strong>Replicate / Replication</strong><br /> These are the technical terms describing the movement of data (e.g. page content, files, code, user comments) from one environment to another such as when publishing or reverse-replicating user comments.</li> 
+   </ul> 
+  </note>
+  <note>
+   <p>If you do not have the required privileges for publishing a specific page:</p> 
+   <ul> 
+    <li>A workflow will be triggered to notify the appropriate person of your request to publish.</li> 
+    <li>A message will be displayed (for a short period of time) to notify you of this.</li> 
+   </ul> 
+  </note>
+  <h2>Publishing a Page</h2>
+  <p>There are two methods for activating a page:</p> 
+  <ul> 
+   <li><a href="#activatingapagefromthewebsitesconsole">from the Websites console</a></li> 
+   <li><a href="#activatingapagefromsidekick">from the sidekick on the page itself</a></li> 
+  </ul> 
+  <note>
+   <p>You can also activate a subtree of multiple pages using <a href="#howtoactivateacompletesectiontreeofyourwebsite">Activate Tree</a> on the Tools console.<br /> </p> 
+  </note>
+  <h3>Activating a Page from the Websites Console</h3>
+  <p>You can activate pages in the Websites console. After you have opened a page and modified its contents, you return to the Websites console:</p> 
+  <ol>
+   <li><p>In the Websites console, select the page that you want to activate.</p> </li>
+   <li><p>Select <strong>Activate</strong>, either from the top menu, or the drop-down menu on the selected page item.</p> <p>To activate the content of the page and all its sub-pages use the <a href="../../../sites/classic-ui-authoring/using/classic-page-author-publish-pages.md#howtoactivateacompletesectiontreeofyourwebsite"><strong>Tools</strong> console</a>.</p> <img imageRotate="0" src="assets/screen_shot_2012-02-08at13817pm.png" />
+    <note>
+     <p>If necessary, AEM requests that you activate or reactivate any assets that are linked to the page. You can select or clear the check boxes to activate those assets.</p> 
+     <p> </p> 
+    </note></li>
+   <li><p>If necessary, AEM requests that you activate or reactivate any assets that are linked to the page. You can select or clear the check boxes to activate those assets.</p> <img imageRotate="0" src="assets/chlimage_1-146.png" /></li>
+   <li><p>AEM WCM activates the selected content. The published page or pages appears in the <a href="../../../sites/classic-ui-authoring/using/author-env-basic-handling.md#main-pars-title-6">Websites console</a> (marked green) with information about who activated the content as well as date and time of activation.</p> <img imageRotate="0" src="assets/screen_shot_2012-02-08at14335pm.png" /></li>
+  </ol>
+  <h3>Activating a Page from Sidekick</h3>
+  <p>You can also activate a page when you have it open for editing.</p> 
+  <p>After you have opened the page and modified its contents, you:</p> 
+  <ol> 
+   <li>Select the <strong>Page</strong> tab in the Sidekick.</li> 
+   <li>Click <strong>Activate Page</strong>.<br /> A message displays at the top right of the window confirming that the page has been activated.</li> 
+  </ol> 
+  <h2>Unpublishing a Page</h2>
+  <p>To remove a page from the publish environment, you deactivate the content.</p> 
+  <p>To deactivate a page:</p> 
+  <ol>
+   <li><p>In the Websites console, select the page that you want to deactivate.</p> </li>
+   <li><p>Select <strong>Deactivate</strong>, either from the top menu, or the drop-down menu on the selected page item. You are asked to confirm the deletion.</p> <img imageRotate="0" src="assets/screen_shot_2012-02-08at14859pm.png" /></li>
+   <li><p>Refresh the <a href="../../../sites/classic-ui-authoring/using/author-env-basic-handling.md#main-pars-title-6">Websites console</a> and the content is marked in red, indicating that it is no longer published.</p> <img imageRotate="0" src="assets/screen_shot_2012-02-08at15018pm.png" /></li>
+  </ol>
+  <h2>Activate/Deactivate Later</h2>
+  <h3>Activate Later</h3>
+  <p>To schedule your activation for a later time: </p> 
+  <ol>
+   <li><p>In the Websites console, go to the <strong>Activate</strong> menu, and select <strong>Activate later</strong>. </p> </li>
+   <li><p>In the dialog that opens you provide the date and time for activation and click <strong>OK</strong>. This creates a version of the page that is activated at the specified time.</p> <img imageRotate="0" src="assets/screen_shot_2012-02-08at14751pm.png" /></li>
+  </ol>
+  <p>Activating later starts a workflow to activate this version of the page at the specified time. Conversely, deactivating later starts a workflow to deactivate this version of the page at a specific time.</p> 
+  <p>If you want to cancel this activation/deactivation, go to the <a href="../../../sites/administering/using/workflows-administering.md#main-pars-title-3-yjqslz-refd">Workflow Console</a> to terminate the corresponding workflow.</p> 
+  <h3>Deactivate Later</h3>
+  <p>To schedule your deactivation for a later time: </p> 
+  <ol>
+   <li><p>In the Website console, go to the <strong>Deactivate</strong> menu, and select <strong>Deactivate later</strong>. <br /> </p> </li>
+   <li><p>In the dialog that opens you provide the date and time for deactivation and click <strong>OK</strong>. </p> <img imageRotate="0" src="assets/screen_shot_2012-02-08at15129pm.png" /></li>
+  </ol>
+  <p><strong>Deactivating late</strong>r starts a workflow to deactivate this version of the page at a specific time.</p> 
+  <p>If you want to cancel this deactivation, go to the <a href="../../../sites/administering/using/workflows-administering.md#main-pars-title-3-yjqslz-refd">Workflow Console</a> to terminate the corresponding workflow.</p> 
+  <h2>Scheduled Activation/Deactivation (On/Off Time)</h2>
+  <p>You can schedule times for a page to be published/unpublished using the <strong>On Time</strong> and <strong>Off Time</strong> that can be defined in the <a href="../../../sites/classic-ui-authoring/using/classic-page-author-edit-page-properties.md">Page Properties</a>.<br /> </p> 
+  <h3>Determining Page Publication Status - Classic UI</h3>
+  <p>The status can be seen from the <a href="../../../sites/classic-ui-authoring/using/author-env-basic-handling.md#main-pars-title-6">Websites console</a>. The colors indicate publication status.</p> 
+  <h2>Activating a complete section (tree) of your website</h2>
+  <p>From the <strong>Websites</strong> tab you can activate the individual pages. When you have entered or updated a considerable number of content pages - all of which are resident under the same root page - it can be easier to activate the entire tree in one action. You can also perform a Dry Run to emulate an activation and highlight which pages would be activated.</p> 
+  <ol>
+   <li><p>Open the <strong>Tools</strong> console by selecting it from the <strong>Welcome</strong> page and then double-click <strong>Replication</strong> to open the console (<span class="code">http://localhost:4502/etc/replication.html</span>).</p> <img imageRotate="0" src="assets/screen_shot_2012-02-08at125033pm.png" /></li>
+   <li><p>On the <strong>Replication</strong> console, click on <strong>Activate Tree</strong>.</p> <p>The following window (<span class="code">http://localhost:4502/etc/replication/treeactivation.html</span>) will be displayed.</p> <img imageRotate="0" src="assets/screen_shot_2012-02-08at125033pm-1.png" /></li>
+   <li><p>Enter the <strong>Start Path</strong>. This specifies the path to the root of the section you want to activate (publish). This page and all pages underneath are considered for activation (or used in the emulation if a Dry Run is selected).</p> </li>
+   <li><p>Activate the selection criteria as required:</p> 
+    <ul> 
+     <li><strong>Only Modified</strong>: only activate pages that have been modified.</li> 
+     <li><strong>Only Activated</strong>: only activate pages that have (already) been activated. Acts as a form of reactivation.</li> 
+     <li><strong>Ignore Deactivated</strong>: ignore any pages which have been deactivated.</li> 
+    </ul> </li>
+   <li><p>Select the action you want to perform:</p> 
+    <ol> 
+     <li>Select <strong>Dry Run</strong> if you want to check which pages <i>would</i> be activated. This is only an emulation, no pages will be activated.</li> 
+     <li>Select <strong>Activate</strong> if you want to activate the pages.</li> 
+    </ol> </li>
+  </ol>
+ </body>
+</html>

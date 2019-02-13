@@ -1,0 +1,61 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2018-11-23T09:57:20.772-0500" name="cq:lastModified" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" />
+  <meta content="New to developing AEM? Need a refresher on best practices? This is the place to start! The goal for this multi-part tutorial is to teach a developer who is new to AEM how to implement a website in AEM using the latest standards and technologies." name="seoDescription" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2018-01-19T19:01:35.653-0500" name="jcr:created" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-11-23T09:57:20.768-0500" name="topicBrowsingSortDate" />
+  <meta content="dc1f5ee2-9118-42fc-b833-986058df0c65" name="jcr:uuid" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;content_type:reference;topic_tags:introduction" name="cq:tags" />
+  <meta content="2018-11-23T09:57:20.788-0500" name="cq:lastReplicated" />
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/morehelp/introduction;/content/help/en/experience-manager/6-4/sites/developing/morehelp/introduction" name="moreHelpPaths" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="/content/docs/en/aem/6-3/develop/the-basics/getting-started" name="qaNotes" />
+  <meta content="Getting Started Developing AEM Sites - WKND Tutorial" name="jcr:title" />
+  <meta content="2018-05-08T12:43:32.851-0400" name="locHandOffDate" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="bohnert@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="audience:developing" name="primaryAudienceTag" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="bohnert" name="cq:lastModifiedBy" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/getting-started.html" name="publishExternalURL" />
+  <meta content="2018-11-23T09:57:20.768-0500" name="publishExternalDate" />
+  <meta content="2017-10-31T16:16:41.936-0400" name="firstPublishExternalDate" />
+  <meta content="User" name="contentOwner" />
+  <meta content="Getting Started Developing AEM Sites - WKND Tutorial" name="seoTitle" />
+  <meta content="f477eda4-6ffc-4844-ae66-3c0040e3a675" name="jcr:predecessors" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2018-11-23T09:57:20.768-0500" name="lastPublishExternalDate" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="bohnert" name="cq:lastReplicatedBy" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="" name="jcr:versionHistory" />
+ </head>
+ <body>
+  <h2>Overview</h2>
+  <p>New to developing AEM? Need a refresher on best practices? This is the place to start!<br /> </p> 
+  <p>The goal for this multi-part tutorial is to teach a developer who is new to AEM how to implement a website in AEM using the latest standards and technologies. The hope is at the end of this tutorial you will understand the basic foundation of the AEM platform and knowledge of some of the common design patterns.</p> 
+  <h2>WKND Developer Tutorial</h2>
+  <p>The tutorial is available <a href="/content/help/en/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop">here</a> or click the image below.</p> 
+  <a href="/content/help/en/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop"><img captionBottom="The WKND Developer Tutorial guides you through creating an AEM project using the latest technologies and best practices." imageRotate="0" src="assets/screen_shot_2018-11-23at152453.png" title="WKND Website" /></a>
+  <h2>Core Concepts</h2>
+  <p>The tutorial implementation will only work as-is on AEM 6.4, however many of the topics apply to all versions of AEM. The site will be implemented using:</p> 
+  <ul> 
+   <li><a href="/content/help/en/experience-manager/htl/user-guide">HTL</a></li> 
+   <li><a href="https://sling.apache.org/documentation/bundles/models.html">Sling Models</a></li> 
+   <li><a href="../../../sites/developing/using/touch-ui-concepts.md">Touch UI</a></li> 
+   <li><a href="/content/help/en/experience-manager/core-components/user-guide">Core Components</a></li> 
+   <li><a href="../../../sites/developing/using/page-templates-editable.md">Editable Templates</a></li> 
+  </ul> 
+  <p>Please progress through the tutorial before diving into the above concepts in detail.</p> 
+  <h2>Next Steps</h2>
+  <p>Once you have completed the <a href="/content/help/en/experience-manager/kt/sites/using/getting-started-wknd-tutorial-develop">tutorial</a>, consider reviewing the document <a href="../../../sites/developing/using/the-basics.md">AEM Core Concepts</a> to get a better understanding of some of the underlying technologies and development paradigms of AEM.</p> 
+ </body>
+</html>

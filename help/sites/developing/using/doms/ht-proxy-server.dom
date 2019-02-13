@@ -1,0 +1,163 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="/content/docs/en/aem/6-3/develop/dev-tools/ht-proxy-server" name="qaNotes" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="audience:developing" name="primaryAudienceTag" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" /> 
+  <meta content="Guillaume Carlino" name="contentOwner" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2018-04-03T09:00:50.643-0400" name="cq:lastReplicated" /> 
+  <meta content="How to use the Proxy Server Tool" name="navTitle" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2018-05-08T12:43:58.811-0400" name="locHandOffDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2017-10-31T16:16:36.287-0400" name="topicBrowsingSortDate" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="How to use the Proxy Server Tool" name="seoTitle" /> 
+  <meta content="2018-05-08T12:43:58.812-0400" name="cq:lastModified" /> 
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/ht-proxy-server.html" name="publishExternalURL" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:development-tools;content_type:reference" name="cq:tags" /> 
+  <meta content="40d744a2-e507-4b47-a54e-151acc2c51fd" name="jcr:predecessors" /> 
+  <meta content="How to use the Proxy Server Tool" name="jcr:title" /> 
+  <meta content="2017-10-31T16:16:36.287-0400" name="lastPublishExternalDate" /> 
+  <meta content="2017-10-31T16:16:36.287-0400" name="publishExternalDate" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2017-10-31T16:16:36.287-0400" name="firstPublishExternalDate" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="3ab92c79-39a6-48c4-a7f4-6bf56a529290" name="jcr:uuid" /> 
+  <meta content="The proxy server acts as an intermediate server that relays requests between a client and a server" name="seoDescription" /> 
+  <meta content="2017-12-01T19:07:09.027-0500" name="jcr:created" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/morehelp/development-tools;/content/help/en/experience-manager/6-4/sites/developing/morehelp/development-tools" name="moreHelpPaths" /> 
+ </head> 
+ <body> 
+  <p>The proxy server acts as an intermediate server that relays requests between a client and a server. The proxy server keeps track of all the client-server interactions and outputs a log of the entire TCP communication. This allows you to monitor exactly what is going on, without having to access the main server.</p> 
+  <p>You can find the proxy server in your AEM installation here:</p> 
+  <p style="margin-left: 40px;"><span class="code">crx-quickstart/opt/helpers/proxy-2.1.jar</span></p> 
+  <p>You can use the proxy server to monitor all client-server interaction, regardless of the underlying communication protocol. For example, you can monitor the following protocols:</p> 
+  <ul> 
+   <li>HTTP for Web pages</li> 
+   <li>HTTPS for secure Web pages</li> 
+   <li>SMTP for email messages</li> 
+   <li>LDAP for user management</li> 
+  </ul> 
+  <p>For example, you can position the proxy server between any two applications that communicate via a TCP/IP network; e.g. a web browser and CQ. This allows you to monitor exactly what happens when you request a CQ page. </p> 
+  <h3>Starting the Proxy Server Tool</h3> 
+  <p>Start the server on the command line:</p> 
+  <p style="margin-left: 40px;"><span class="code">java -jar proxy-2.1.jar &amp;lt;host&amp;gt; &amp;lt;remoteport&amp;gt; &amp;lt;localport&amp;gt; [options]</span></p> 
+  <p><strong>Parameters</strong></p> 
+  <p><span class="code">&amp;lt;host&amp;gt;</span></p> 
+  <p><span class="code"></span>This is the host address of the CRX instance that you want to connect to. If the instance is on your local machine, then this will be <span class="code">localhost</span>.</p> 
+  <p><span class="code">&amp;lt;remoteport&amp;gt;</span></p> 
+  <p>This is the host port of the target CRX instance. For example, the default of a newly installed AEM installation is <strong><span class="code">4502</span></strong> and the default for a newly installed AEM author instance is <span class="code">4502</span>.</p> 
+  <p><span class="code">&amp;lt;localport&amp;gt;</span></p> 
+  <p><span class="code"></span>This is the port on your local machine that you wish to connect to to access the CRX instance through the proxy.</p> 
+  <p><strong>Options</strong></p> 
+  <p><span class="code">-q</span> (quiet mode)</p> 
+  <p>Does not write the output to the console window. Use this if you do not want to slow down the connection, or if you log the output to a file (see -logfile option).</p> 
+  <p><span class="code">-b </span>(binary mode)</p> 
+  <p>If you are looking for specific byte combinations in the traffic, enable binary mode. The output will then contain the hexadecimal and character output.</p> 
+  <p><span class="code">-t</span> (time stamp log entries)</p> 
+  <p>Adds a time stamp to each log output. The time stamp is in seconds, so it may not be suitable for checking single requests. Use it to locate events that occurred at a specific time if you use the proxy server over a longer time period.</p> 
+  <p><span class="code">-logfile &amp;lt;filename&amp;gt; </span>(write to log file)</p> 
+  <p>Writes the client-server conversation to a log file. This parameter also works in quiet mode.</p> 
+  <p><strong><span class="code">-i &amp;lt;numIndentions&amp;gt;</span> </strong>(add indention)</p> 
+  <p>Each active connection is indented for better readability. Default is 16 levels. This feature was introduced with <span class="code">proxy.jar version 1.16</span>.</p> 
+  <h3>Log Format</h3> 
+  <p>The log entries produced by proxy-2.1.jar all have the following format: </p> 
+  <p style="margin-left: 40px;"><span class="code">[timestamp (optional)] [Client|Server]-[ConnectionNumber]-[BytePosition] -&amp;gt;[Character Stream]</span></p> 
+  <p>For example, a request for a Web page may look as follows: </p> 
+  <p style="margin-left: 40px;"><span class="code">C-0-#000000 -&amp;gt; [GET /author/prox.html?CFC_cK=1102938422341 HTTP/1.1 ]</span></p> 
+  <ul> 
+   <li>C signifies that this entry comes from the client (it is a request for a Web page)</li> 
+   <li>0 is the connection number (the connection counter starts at 0)</li> 
+   <li>#00000 the offset in the byte stream. This is the first entry, so the offset is 0.</li> 
+   <li>[GET &amp;lt;?&amp;gt;] is the content of the request, in the example one of the HTTP headers (url).</li> 
+  </ul> 
+  <p>When a connection closes, the following information is logged: </p> 
+  <p style="margin-left: 40px;"><code class="code">C-6-Finished: 758 bytes (1.0 kb/s)
+    <discoiqbr /> S-6-Finished: 665 bytes (1.0 kb/s)</code></p> 
+  <p>This shows the number of bytes that passed between client (<span class="code">C</span>) and the server (<span class="code">S</span>) on the 6th connection and at the average speed.</p> 
+  <p><strong>An Example of Log Output</strong></p> 
+  <p>As an example, consider a page that produces the following code when requested:</p> 
+  <p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;"> </p> 
+  <h3>Example</h3> 
+  <p>As an example, consider a very simple html document located in the repository at</p> 
+  <p style="margin-left: 40px;"><span class="code">/content/test.html</span></p> 
+  <p>alongside an image file located at</p> 
+  <p style="margin-left: 40px;"><span class="code">/content/test.jpg</span></p> 
+  <p>The content of <span class="code">test.html</span> is:</p> 
+  <p></p> 
+  <codeblock class="syntax xml">
+    &lt;html&gt;!!discoiqbr!!&lt;head&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;title&gt;Test&lt;/title&gt;!!discoiqbr!!&lt;/head&gt;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&lt;body&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Test&lt;br&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;img&amp;nbsp;src="test.jpg"&gt;!!discoiqbr!!&lt;/body&gt;!!discoiqbr!!&lt;/html&gt; 
+  </codeblock> 
+  <p> </p> 
+  <p>Assuming the AEM instance is running on <span class="code">localhost:4502</span> we start the proxy like this:</p> 
+  <p style="margin-left: 40px;"><span class="code">java -jar proxy.jar localhost 4502 4444 -logfile test.log</span></p> 
+  <p>The CQ/CRX instance can now be accessed though the proxy at <span class="code">localhost:4444</span> and all communication via this port is logged to <span class="code">test.log</span>.</p> 
+  <p> </p> 
+  <p> </p> 
+  <p>If we now watch the output of the proxy we will see the interaction between the browser and the AEM instance.</p> 
+  <p>On startup the proxy outputs the following:</p> 
+  <p> </p> 
+  <codeblock class="syntax xml">
+    starting&amp;nbsp;proxy&amp;nbsp;for&amp;nbsp;localhost:4502&amp;nbsp;on&amp;nbsp;port&amp;nbsp;4444!!discoiqbr!!using&amp;nbsp;logfile:&amp;nbsp;&lt;some-dir&gt;/crx-quickstart/opt/helpers/test.log 
+  </codeblock> 
+  <p></p> 
+  <p>We then open a browser and access the test page:</p> 
+  <p style="margin-left: 40px;"><span class="code">http://localhost:4444/content/test.html </span></p> 
+  <p>and we see the browser make a <span class="code">GET</span> request for the page:</p> 
+  <p></p> 
+  <codeblock class="syntax shell">
+    C-0-#000000&amp;nbsp;-&gt;&amp;nbsp;[GET&amp;nbsp;/content/test.html&amp;nbsp;HTTP/1.1&amp;nbsp;]!!discoiqbr!!C-0-#000033&amp;nbsp;-&gt;&amp;nbsp;[Host:&amp;nbsp;localhost:4444&amp;nbsp;]!!discoiqbr!!C-0-#000055&amp;nbsp;-&gt;&amp;nbsp;[Connection:&amp;nbsp;keep-alive&amp;nbsp;]!!discoiqbr!!C-0-#000079&amp;nbsp;-&gt;&amp;nbsp;[User-Agent:&amp;nbsp;Mozilla/5.0&amp;nbsp;(Macintosh;&amp;nbsp;Intel&amp;nbsp;Mac&amp;nbsp;OS&amp;nbsp;X&amp;nbsp;10_7_4)&amp;nbsp;AppleWebKit/536.11&amp;nbsp;(KHTML,&amp;nbsp;like&amp;nbsp;Gecko)&amp;nbsp;Chrome/20.0.1132.57&amp;nbsp;Safari/536.11&amp;nbsp;]!!discoiqbr!!C-0-#000212&amp;nbsp;-&gt;&amp;nbsp;[Accept:&amp;nbsp;text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&amp;nbsp;]!!discoiqbr!!C-0-#000285&amp;nbsp;-&gt;&amp;nbsp;[Accept-Encoding:&amp;nbsp;gzip,deflate,sdch&amp;nbsp;]!!discoiqbr!!C-0-#000321&amp;nbsp;-&gt;&amp;nbsp;[Accept-Language:&amp;nbsp;en-US,en;q=0.8&amp;nbsp;]!!discoiqbr!!C-0-#000354&amp;nbsp;-&gt;&amp;nbsp;[Accept-Charset:&amp;nbsp;ISO-8859-1,utf-8;q=0.7,*;q=0.3&amp;nbsp;]!!discoiqbr!!C-0-#000402&amp;nbsp;-&gt;&amp;nbsp;[Cookie:&amp;nbsp;login-token=179ba6bd-e0a7-4909-a965-e11c7f2bc2fc%3a618bd8a8-fbaf-43c5-827d-c84c62248c5e_22ee860cc9036fee%3acrx.default%3b21148fb0-eb6c]!!discoiqbr!!C-0-#000543&amp;nbsp;-&gt;&amp;nbsp;[-43c9-a2b9-c8d40618d8ae%3ad87a3d1a-5e9a-4d5a-bab1-0ee60ad6d8df_d0e4ddce0fcd84b6%3acrx.default%3b5cb95227-ea51-47bf-850b-68ad1dfd7297%3af3bbb6]!!discoiqbr!!C-0-#000684&amp;nbsp;-&gt;&amp;nbsp;[59-7913-4285-8857-832c087bafd5_c484727d3b3665ad%3acrx.default;&amp;nbsp;ys-cq-siteadmin-tree=o%3Awidth%3Dn%253A240%5EselectedPath%3Ds%253A/content&amp;nbsp;]!!discoiqbr!!C-0-#000824&amp;nbsp;-&gt;&amp;nbsp;[&amp;nbsp;] 
+  </codeblock> 
+  <p>The AEM instance responds with the contents of the file <span class="code">test.html</span>:</p> 
+  <codeblock class="syntax shell">
+    S-0-#000000&amp;nbsp;-&gt;&amp;nbsp;[HTTP/1.1&amp;nbsp;200&amp;nbsp;OK&amp;nbsp;]!!discoiqbr!!S-0-#000017&amp;nbsp;-&gt;&amp;nbsp;[Connection:&amp;nbsp;Keep-Alive&amp;nbsp;]!!discoiqbr!!S-0-#000041&amp;nbsp;-&gt;&amp;nbsp;[Server:&amp;nbsp;Day-Servlet-Engine/4.1.24&amp;nbsp;&amp;nbsp;]!!discoiqbr!!S-0-#000077&amp;nbsp;-&gt;&amp;nbsp;[Content-Type:&amp;nbsp;text/html;charset=utf-8&amp;nbsp;]!!discoiqbr!!S-0-#000116&amp;nbsp;-&gt;&amp;nbsp;[Content-Length:&amp;nbsp;104&amp;nbsp;]!!discoiqbr!!S-0-#000137&amp;nbsp;-&gt;&amp;nbsp;[Date:&amp;nbsp;Mon,&amp;nbsp;16&amp;nbsp;Jul&amp;nbsp;2012&amp;nbsp;11:23:38&amp;nbsp;GMT&amp;nbsp;]!!discoiqbr!!S-0-#000174&amp;nbsp;-&gt;&amp;nbsp;[Last-Modified:&amp;nbsp;Mon,&amp;nbsp;16&amp;nbsp;Jul&amp;nbsp;2012&amp;nbsp;11:19:27&amp;nbsp;GMT&amp;nbsp;]!!discoiqbr!!S-0-#000220&amp;nbsp;-&gt;&amp;nbsp;[&amp;nbsp;]!!discoiqbr!!S-0-#000222&amp;nbsp;-&gt;&amp;nbsp;[&lt;html&gt;]!!discoiqbr!!S-0-#000229&amp;nbsp;-&gt;&amp;nbsp;[&lt;head&gt;]!!discoiqbr!!S-0-#000236&amp;nbsp;-&gt;&amp;nbsp;[&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;title&gt;Test&lt;/title&gt;]!!discoiqbr!!S-0-#000260&amp;nbsp;-&gt;&amp;nbsp;[&lt;/head&gt;&amp;nbsp;]!!discoiqbr!!S-0-#000269&amp;nbsp;-&gt;&amp;nbsp;[&lt;body&gt;]!!discoiqbr!!S-0-#000276&amp;nbsp;-&gt;&amp;nbsp;[&amp;nbsp;Test&lt;br&gt;]!!discoiqbr!!S-0-#000286&amp;nbsp;-&gt;&amp;nbsp;[&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;img&amp;nbsp;src="test.jpg"&gt;]!!discoiqbr!!S-0-#000311&amp;nbsp;-&gt;&amp;nbsp;[&lt;/body&gt;]!!discoiqbr!!S-0-#000319&amp;nbsp;-&gt;&amp;nbsp;[&lt;/html&gt;] 
+  </codeblock> 
+  <h3>Uses of the Proxy Server</h3> 
+  <p>The following scenarios illustrate a few of the purposes for which the Proxy Server can be used:</p> 
+  <p><strong>Check for Cookies and their Values</strong></p> 
+  <p>The following log entry example shows all cookies and their values sent by the client on the sixth connection opened since the proxy started:</p> 
+  <p style="margin-left: 40px;"><span class="code">C-6-#000635 -&amp;gt; [Cookie: cq3session=7e39bc51-ac72-3f48-88a9-ed80dbac0693; Show=ShowMode; JSESSIONID=68d78874-cabf-9444-84a4-538d43f5064d ]</span></p> 
+  <p><strong>Checking for Headers and their Values</strong></p> 
+  <p>The following log entry example shows that the server is able to make a keep-alive connection and the content length header was properly set:</p> 
+  <p style="margin-left: 40px;"><strong><code class="code">S-7-#000017 -&amp;gt; [Connection: Keep-Alive ]
+     <discoiqbr /> ...
+     <discoiqbr /> S-7-#000107 -&amp;gt; [Content-Length: 124 ]</code></strong></p> 
+  <p><strong>Checking if Keep-Alive works</strong></p> 
+  <p>Keep-alive is a feature of HTTP that allows a client to re-use the TCP connection to the server to make multiple requests (for the page code, pictures, style sheets and so on). Without keep-alive, the client has to establish a new connection for each request.</p> 
+  <p>To check if keep-alive works:</p> 
+  <ul> 
+   <li>Start the proxy server.</li> 
+   <li>Request a page.</li> 
+   <li>If keep-alive is working, the connection counter should never go above 5 to 10 connections.</li> 
+   <li>If keep-alive is not working, the connection counter increases rapidly.</li> 
+  </ul> 
+  <p><strong>Finding Lost Requests</strong></p> 
+  <p>If you lose requests in a complex server setting, for example with a firewall and a dispatcher, you can use the proxy server to find out where the request was lost. In case of a firewall:</p> 
+  <ul> 
+   <li>Start a proxy before a firewall</li> 
+   <li>Start another proxy after a firewall</li> 
+   <li>Use these to see how far the requests are getting.</li> 
+  </ul> 
+  <p><strong>Requests Hanging</strong></p> 
+  <p>If you experience hanging requests from time to time:</p> 
+  <ul> 
+   <li>Start the proxy.</li> 
+   <li>Wait or write the access log into a file with each entry having a timestamp.</li> 
+   <li>When the request start hanging you can see how many connections were open and which request is causing trouble.</li> 
+  </ul> 
+ </body> 
+</html>

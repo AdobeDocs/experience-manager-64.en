@@ -1,0 +1,101 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2018-04-24T11:58:08.429-0400" name="locHandOffDate" /> 
+  <meta content="51" name="acrolinxSentences" /> 
+  <meta content="2018-04-24T11:58:08.429-0400" name="cq:lastModified" /> 
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/http2_krs_workflow_f3c2f2ccebf6138e_136_report.xml" name="acrolinxReportURL" /> 
+  <meta content="HTTP2 Delivery of Content" name="seoTitle" /> 
+  <meta content="checked_not_improved" name="acrolinxStatus" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="HTTP/2 improves the way browsers and servers communicate, allowing for faster transfer of information while reducing the amount of needed processing power." name="seoDescription" /> 
+  <meta content="yellow" name="acrolinxPageStatus" /> 
+  <meta content="/content/help/en/experience-manager/6-4/assets/morehelp/dynamic-media;/content/help/en/experience-manager/6-4/assets/morehelp/dynamic-media" name="moreHelpPaths" /> 
+  <meta content="asgupta" name="acrolinxLastCheckedBy" /> 
+  <meta content="2019-01-12T17:29:24.146-0500" name="acrolinxDate" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2018-04-13T13:10:13.890-0400" name="publishExternalDate" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="HTTP2 Delivery of Content" name="navTitle" /> 
+  <meta content="HTTP2 Delivery of Content" name="jcr:title" /> 
+  <meta content="701" name="acrolinxWords" /> 
+  <meta content="2018-04-13T13:10:13.890-0400" name="topicBrowsingSortDate" /> 
+  <meta content="b5cf8342-03ec-4f7b-8248-b3e78e94889a" name="jcr:uuid" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="rbrough" name="cq:lastModifiedBy" /> 
+  <meta content="/content/docs/en/aem/6-3/author/assets/dynamic-media/delivering-dynamic-media-assets/http2" name="qaNotes" /> 
+  <meta content="2018-04-13T13:10:14.026-0400" name="cq:lastReplicated" /> 
+  <meta content="97071454-fdfa-4eb5-b865-a0ef974cdad4" name="jcr:predecessors" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2018-04-13T13:10:13.890-0400" name="lastPublishExternalDate" /> 
+  <meta content="2018-03-14T09:01:18.177-0400" name="jcr:created" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS;topic_tags:dynamic-media;content_type:reference" name="cq:tags" /> 
+  <meta content="2017-10-31T16:34:53.000-0400" name="firstPublishExternalDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS" name="primaryProductTag" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/assets/using/http2.html" name="publishExternalURL" /> 
+  <meta content="rbrough" name="cq:lastReplicatedBy" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="Rick Brough" name="contentOwner" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="rbrough@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+ </head> 
+ <body> 
+  <p>Adobe is excited to announce the availability of HTTP/2 delivery of content with the overall benefit of improved performance.<br /> </p> 
+  <h2>What is HTTP/2?</h2> 
+  <p>HTTP/2 improves the way browsers and servers communicate, allowing for faster transfer of information while reducing the amount of processing power that is needed.</p> 
+  <p>The following website describes HTTP/2 and its beneifts in a brief and simple manner:</p> 
+  <p><a href="https://www.engadget.com/2015/02/24/what-you-need-to-know-about-http-2/" target="_blank">https://www.engadget.com/2015/02/24/what-you-need-to-know-about-http-2/</a><br /> </p> 
+  <h2>What are the key benefits of moving to HTTP/2 for content delivery?</h2> 
+  <p>Performance improvement varies widely based on factors such as your website's code, how you are using Dynamic Media, the consumer's device, screen and location, and so on.</p> 
+  <p>Adobe's own testing yielded the following results:</p> 
+  <ul> 
+   <li>For images, response time improved 7%-28% depending on device and browser. The most notable performance gains were on iOS devices.</li> 
+   <li>For viewers, load time performance improved up 15%.</li> 
+  </ul> 
+  <p>The following demonstration illustrates the difference between HTTP/1 versus HTTP/2 loading:</p> 
+  <p><a href="https://http2.akamai.com/demo" target="_blank">https://http2.akamai.com/demo</a></p> 
+  <h2>Am I eligible to switch over to HTTP/2?</h2> 
+  <p>To use HTTP/2, you must meet the following requirements:</p> 
+  <ul> 
+   <li>Use secure HTTPS for your rich media requests.</li> 
+   <li>Use the Adobe-bundled CDN (content delivery network) as part of your Dynamic Media license.</li> 
+   <li>Use a dedicated (non- company-h.assetsadobe#.com) domain.<br /> If you already have a dedicated domain, you can opt-in by way of Technical Support.<br /> If you do not have a dedicated domain, Adobe will schedule your transition to HTTP/2 in 2018.</li> 
+  </ul> 
+  <h2>What is the process for enabling HTTP/2 for my Dynamic Media account?</h2> 
+  <p>You must initiate the request to switch over to HTTP/2; it is not automatically done for you.</p> 
+  <ol> 
+   <li>Initiate a Technical Support request to switch over to HTTP2. See <a href="https://helpx.adobe.com/experience-manager/kb/accessing-aem-support-portal.html" target="_blank">Accessing the AEM Support Portal</a>. 
+    <ol> 
+     <li>Provide the following information in your support request: 
+      <ol> 
+       <li>Primary contact name, email, phone.</li> 
+       <li>All domains to be transitioned over to HTTP2. </li> 
+       <li>Verify you are using secure HTTPS for rich media requests.</li> 
+       <li>Verify you are using the CDN through Adobe and are not managed with a direct relationship.</li> 
+       <li>Verify you are using a dedicated domain. If you use Dynamic Media, then you already are using a dedicated domain.</li> 
+      </ol> </li> 
+     <li>Technical Support will add you to the HTTP/2 customer waitlist based in the order in which requests were submitted.</li> 
+     <li>When Adobe is ready to handle your request, support will contact you to coordinate the transition and set a target date.</li> 
+     <li>You will be notified after completion and can verify successful transition over to HTTP2.<br /> Because the browser does not state this fact, it is necessary to download an extension.<br /> For Firefox and Chrome there is an extension called "HTTP/2 and SPDY Indicator". Browsers only support http/2 securely, so it is necessary to call a URL with https to verify. If http/2 is supported, this is indicated by the extension in the form of a blue Flash symbol, and a header "X-Firefox-Spdy" : "h2".<br /> </li> 
+    </ol> </li> 
+  </ol> 
+  <h2>When can I expect to be transitioned over to HTTP/2?</h2> 
+  <p>Requests will be processed in the order in which they are received by Technical Support.</p> 
+  <note> 
+   <p>There may be a long lead time because the transition to HTTP/2 involves clearing the cache. Therefore, only a few customer transitions can be handled at a time.</p> 
+  </note> 
+  <h2>What are the risks with moving to HTTP/2?</h2> 
+  <p>The transition to HTTP/2 clears out your cache at the CDN because it involves moving to a new CDN configuration. </p> 
+  <p>The non-cached content directly hits Adobe's origin servers until the cache is rebuilt again. Because of this, Adobe plans to handle a few customer transitions at a time so that acceptable performance is maintained when pulling requests from our origin.</p> 
+  <h2>How can you verify whether a URL or website is activated with HTTP/2?</h2> 
+  <p>Because the browser does not state this fact, it is necessary to download an extension.</p> 
+  <p>For Firefox and Chrome there is an extension called "HTTP/2 and SPDY Indicator". Browsers only support http/2 securely, so it is necessary to call a URL with https to verify. If http/2 is supported, this is indicated by the extension in the form of a blue Flash symbol, and a header "X-Firefox-Spdy" : "h2".</p> 
+ </body> 
+</html>

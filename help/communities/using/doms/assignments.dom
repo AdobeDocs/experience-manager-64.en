@@ -1,0 +1,50 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2017-12-01T19:01:21.765-0500" name="jcr:created" />
+  <meta content="2018-04-03T07:30:43.673-0400" name="cq:lastReplicated" />
+  <meta content="2018-04-03T07:30:42.143-0400" name="lastPublishExternalDate" />
+  <meta content="98028833-cd25-4310-9449-605bc0b0a28b" name="jcr:uuid" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="2018-04-03T07:30:42.143-0400" name="topicBrowsingSortDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="/content/docs/en/aem/6-3/author/communities/assignments" name="qaNotes" />
+  <meta content="2017-10-31T16:33:59.542-0400" name="firstPublishExternalDate" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="/content/help/en/experience-manager/6-4/communities/morehelp/authoring;/content/help/en/experience-manager/6-4/communities/morehelp/authoring" name="moreHelpPaths" />
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES" name="primaryProductTag" />
+  <meta content="2018-05-17T05:50:30.787-0400" name="cq:lastModified" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="Assignments Feature" name="seoTitle" />
+  <meta content="Assignments Feature" name="jcr:title" />
+  <meta content="Currently signed-in community members can access assigned enablement resources" name="seoDescription" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES;topic_tags:authoring;content_type:reference" name="cq:tags" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="2018-04-03T07:30:42.143-0400" name="publishExternalDate" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="Assignments Feature" name="navTitle" />
+  <meta content="1f424b7c-ea3b-4381-be86-f18eda28965f" name="jcr:predecessors" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/communities/using/assignments.html" name="publishExternalURL" />
+  <meta content="2018-05-17T05:50:30.786-0400" name="locHandOffDate" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="Guillaume Carlino" name="contentOwner" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+ </head>
+ <body>
+  <p>The Enablement Assignments and <a href="../../communities/using/catalog.md">Enablement Catalog</a> components found in the Communities group in the components browser are components of an <a href="../../communities/using/overview.md#enablementcommunity">enablement community</a>.</p> 
+  <p>The Enablement Assignments component allows the currently signed-in community member (learner) to access their assigned <a href="../../communities/using/resources.md">enablement resources</a>.</p> 
+  <p>From the <a href="../../communities/using/getting-started-enablement.md">Getting Started with AEM Communities for Enablement</a> tutorial, see a member's view of assignments and catalogs in the <a href="../../communities/using/enablement-published-site.md">Experience the Published Site</a> section.</p> 
+  <h3>Additional Information</h3>
+  <p>More information may be found on the <a href="../../communities/using/essentials-assignments.md">Assignments Essentials</a> page for developers.</p> 
+  <p>The <a href="../../communities/using/functions.md#assignmentsfunction">assignments function</a> is available when creating a <a href="../../communities/using/sites-console.md">community site</a>.</p> 
+ </body>
+</html>

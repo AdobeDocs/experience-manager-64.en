@@ -1,0 +1,136 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2018-04-04T04:17:40.921-0400" name="firstPublishExternalDate" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="Learn how to use the Pattern Detector to assess the complexity of your upgrade." name="seoDescription" /> 
+  <meta content="2018-08-01T05:33:14.316-0400" name="cq:lastModified" /> 
+  <meta content="2018-03-22T07:28:45.442-0400" name="jcr:created" /> 
+  <meta content="sarchiz@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/deploying/morehelp/upgrading;/content/help/en/experience-manager/6-4/sites/deploying/morehelp/upgrading" name="moreHelpPaths" /> 
+  <meta content="Assessing the Upgrade Complexity with the Pattern Detector" name="jcr:title" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2018-08-01T05:33:47.605-0400" name="cq:lastReplicated" /> 
+  <meta content="ba7f415e-9c7d-4d1d-8c89-d928e3821b74" name="jcr:predecessors" /> 
+  <meta content="2018-04-11T04:33:15.387-0400" name="publishExternalDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:upgrading;content_type:reference" name="cq:tags" /> 
+  <meta content="audience:deploying" name="primaryAudienceTag" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="2018-03-30T04:56:09.255-0400" name="unpublishInternalDate" /> 
+  <meta content="2018-04-11T04:33:15.387-0400" name="topicBrowsingSortDate" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/pattern-detector.html" name="publishExternalURL" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="Assessing the Upgrade Complexity with the Pattern Detector" name="seoTitle" /> 
+  <meta content="" name="publishInternalURL" /> 
+  <meta content="sarchiz" name="contentOwner" /> 
+  <meta content="arkadius" name="cq:lastModifiedBy" /> 
+  <meta content="arkadius" name="cq:lastReplicatedBy" /> 
+  <meta content="78ff24d1-7cd1-4da5-8fdb-01bb67971ffa" name="jcr:uuid" /> 
+  <meta content="2018-04-30T03:26:37.953-0400" name="locHandOffDate" /> 
+  <meta content="2018-04-11T04:33:15.387-0400" name="lastPublishExternalDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="en" name="pageCreatedAt" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+ </head> 
+ <body> 
+  <h2>Overview</h2> 
+  <p>This feature allows you to check existing AEM instances for their upgradability by detecting patterns in use that:</p> 
+  <ol> 
+   <li>Violate certain rules and are done in areas that will be affected or overwritten by the upgrade</li> 
+   <li>Use an AEM 6.x feature or an API that is not backwards compatible on AEM 6.4 and can potentially break after upgrade.</li> 
+  </ol> 
+  <p>This could serve as an assessment of the development effort that is involved in upgrading to AEM 6.4.</p> 
+  <h2>How to Set Up</h2> 
+  <p>The Pattern detector is released as part of the new <span class="code">pre-upgrade-package</span> for source AEM versions 6.1 to 6.3 and can be installed using the <a href="../../../sites/administering/using/package-manager.md">Package Manager</a>.</p> 
+  <p>See these links to packages for each AEM 6 version (starting from AEM 6.1):</p> 
+  <ul> 
+   <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq610/featurepack/pre-upgrade-package-cq61">AEM 6.1</a></li> 
+   <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq620/featurepack/pre-upgrade-package-cq62">AEM 6.2</a></li> 
+   <li><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq630/featurepack/pre-upgrade-package-cq63">AEM 6.3</a></li> 
+  </ul> 
+  <p> </p> 
+  <h2>How to Use</h2> 
+  <note> 
+   <p>Pattern Detector can run on any environment, including local development instances. However, in order to:</p> 
+   <ul> 
+    <li>increase the detection rate</li> 
+    <li>avoid any slowdowns on business critical instances<br /><br /> </li> 
+   </ul> 
+   <p>both at the same time it is recommended to run it <strong>on staging environments</strong> that are as close as possible to production ones in the areas of user applications, content and configurations.</p> 
+  </note> 
+  <p>You can use several methods to check the Pattern Detector output:<br /> </p> 
+  <ul> 
+   <li><strong>Via the Felix Inventory console:</strong></li> 
+  </ul> 
+  <ol> 
+   <li><p>Go to the AEM Web Console by browsing to <em>http://serveraddress:serverport/system/console/configMgr</em></p> </li> 
+   <li><p>Select <strong>Status - Pattern Detector</strong> as shown in the image below:</p> <img imageRotate="0" src="assets/screenshot-2018-2-5pattern-detector.png" /></li> 
+  </ol> 
+  <ul> 
+   <li><strong>Via a reactive text based or regular JSON interface</strong><br /> </li> 
+   <li><strong>Via a reactive JSON lines interface, </strong>that generates a separate JSON document in each line.</li> 
+  </ul> 
+  <p>Both of these methods are detailed below:</p> 
+  <h2>Reactive Interface</h2> 
+  <p>The reactive interface allows for the processing of the violation report as soon as a suspicion is detected.</p> 
+  <p>The output is currently available under 2 URLs:</p> 
+  <ol> 
+   <li>Plain text interface<br /> </li> 
+   <li>JSON interface</li> 
+  </ol> 
+  <h2>Handling the Plain Text Interface</h2> 
+  <p>The information in the output is formatted as a series of event entries. There are two channels - one for publishing violations and the second for publishing the current progress.</p> 
+  <p>They can be obtained by using the following commands:</p> 
+  <codeblock gutter="true" class="syntax shell">
+    curl&amp;nbsp;-Nsu&amp;nbsp;'admin:admin'&amp;nbsp;http://localhost:4502/system/console/status-pattern-detector.txt&amp;nbsp;|&amp;nbsp;tee&amp;nbsp;patterns-report.log&amp;nbsp;|&amp;nbsp;grep&amp;nbsp;SUSPICION 
+  </codeblock> 
+  <p>The output will look like this:</p> 
+  <codeblock gutter="true" class="syntax plain">
+    2018-02-13T14:18:32.071+01:00&amp;nbsp;[SUSPICION]&amp;nbsp;The&amp;nbsp;pattern=ECU/extraneous.content.usage&amp;nbsp;was&amp;nbsp;found&amp;nbsp;by&amp;nbsp;detector=ContentAccessDetector&amp;nbsp;with&amp;nbsp;id=a07fd94318f12312c165e06d890cbd3c2c8b8dad0c030663db8b4c800dd7c33f&amp;nbsp;message="Cross-boundary&amp;nbsp;overlay&amp;nbsp;of&amp;nbsp;internal&amp;nbsp;marked&amp;nbsp;path&amp;nbsp;/libs/granite/operations/components/commons/commons.jsp/jcr:content&amp;nbsp;referenced&amp;nbsp;at&amp;nbsp;/apps/granite/operations/components/commons/commons.jsp/jcr:content&amp;nbsp;with&amp;nbsp;properties&amp;nbsp;redefined:&amp;nbsp;jcr:lastModifiedBy,&amp;nbsp;jcr:mimeType,&amp;nbsp;jcr:data,&amp;nbsp;jcr:lastModified,&amp;nbsp;jcr:uuid".&amp;nbsp;More&amp;nbsp;info&amp;nbsp;at=https://www.adobe.com/go/aem6_EC 
+  </codeblock> 
+  <p>The progress can be filtered using the <span class="code">grep</span> command:</p> 
+  <codeblock gutter="true" class="syntax shell">
+    curl&amp;nbsp;-Nsu&amp;nbsp;'admin:admin'&amp;nbsp;http://localhost:4502/system/console/status-pattern-detector.txt&amp;nbsp;|&amp;nbsp;tee&amp;nbsp;patterns-report.log&amp;nbsp;|&amp;nbsp;grep&amp;nbsp;PROGRESS 
+  </codeblock> 
+  <p>Which results in the following output:</p> 
+  <codeblock gutter="true" class="syntax plain">
+    2018-02-13T14:19:26.909+01:00&amp;nbsp;[PROGRESS]&amp;nbsp;emitted=127731/52&amp;nbsp;MB&amp;nbsp;patterns&amp;nbsp;(from=6.4),&amp;nbsp;analysed=45780/16&amp;nbsp;MB&amp;nbsp;items,&amp;nbsp;found=0&amp;nbsp;suspicions&amp;nbsp;so&amp;nbsp;far&amp;nbsp;in&amp;nbsp;period=PT5.005S&amp;nbsp;(throughput=34667&amp;nbsp;items/sec)!!discoiqbr!!2018-02-13T14:19:31.904+01:00&amp;nbsp;[PROGRESS]&amp;nbsp;emitted=127731/52&amp;nbsp;MB&amp;nbsp;patterns&amp;nbsp;(from=6.4),&amp;nbsp;analysed=106050/39&amp;nbsp;MB&amp;nbsp;items,&amp;nbsp;found=0&amp;nbsp;suspicions&amp;nbsp;so&amp;nbsp;far&amp;nbsp;in&amp;nbsp;period=PT10S&amp;nbsp;(throughput=23378&amp;nbsp;items/sec)!!discoiqbr!!2018-02-13T14:19:35.685+01:00&amp;nbsp;[PROGRESS]&amp;nbsp;Finished&amp;nbsp;in&amp;nbsp;period=PT13.782 
+  </codeblock> 
+  <h2>Handling the JSON Interface</h2> 
+  <p>Similarly, JSON can be processed using the <a href="https://stedolan.github.io/jq/" target="_blank">jq tool</a> as soon as it is published.</p>  
+  <codeblock gutter="true" class="syntax shell">
+    curl&amp;nbsp;-Nsu&amp;nbsp;'admin:admin'&amp;nbsp;http://localhost:4502/system/console/status-pattern-detector.json&amp;nbsp;|&amp;nbsp;tee&amp;nbsp;patterns-report.json&amp;nbsp;|&amp;nbsp;jq&amp;nbsp;--unbuffered&amp;nbsp;-C&amp;nbsp;'select(.suspicion&amp;nbsp;==&amp;nbsp;true)' 
+  </codeblock> 
+  <p>With the output:</p> 
+  <codeblock gutter="true" class="syntax plain">
+    {!!discoiqbr!!&amp;nbsp;&amp;nbsp;"timestamp":&amp;nbsp;"2018-02-13T14:20:18.894+01:00",!!discoiqbr!!&amp;nbsp;&amp;nbsp;"suspicion":&amp;nbsp;true,!!discoiqbr!!&amp;nbsp;&amp;nbsp;"pattern":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"code":&amp;nbsp;"ECU",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"type":&amp;nbsp;"extraneous.content.usage",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"detective":&amp;nbsp;"ContentAccessDetector",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"moreInfo":&amp;nbsp;"https://www.adobe.com/go/aem6_ECU"!!discoiqbr!!&amp;nbsp;&amp;nbsp;},!!discoiqbr!!&amp;nbsp;&amp;nbsp;"item":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"id":&amp;nbsp;"a07fd94318f12312c165e06d890cbd3c2c8b8dad0c030663db8b4c800dd7c33f",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"message":&amp;nbsp;"Cross-boundary&amp;nbsp;overlay&amp;nbsp;of&amp;nbsp;internal&amp;nbsp;marked&amp;nbsp;path&amp;nbsp;/libs/granite/operations/components/commons/commons.jsp/jcr:content&amp;nbsp;referenced&amp;nbsp;at&amp;nbsp;/apps/granite/operations/components/commons/commons.jsp/jcr:content&amp;nbsp;with&amp;nbsp;properties&amp;nbsp;redefined:&amp;nbsp;jcr:lastModifiedBy,&amp;nbsp;jcr:mimeType,&amp;nbsp;jcr:data,&amp;nbsp;jcr:lastModified,&amp;nbsp;jcr:uuid"!!discoiqbr!!&amp;nbsp;&amp;nbsp;}!!discoiqbr!!} 
+  </codeblock> 
+  <p>The progress is reported every 5 seconds and can fetched by excluding other messages than those marked as suspicions:</p> 
+  <codeblock gutter="true" class="syntax shell">
+    curl&amp;nbsp;-Nsu&amp;nbsp;'admin:admin'&amp;nbsp;http://localhost:4502/system/console/status-pattern-detector.json&amp;nbsp;|&amp;nbsp;tee&amp;nbsp;patterns-report.json&amp;nbsp;|&amp;nbsp;jq&amp;nbsp;--unbuffered&amp;nbsp;-C&amp;nbsp;'select(.suspicion&amp;nbsp;==&amp;nbsp;false)' 
+  </codeblock> 
+  <p>With the output:</p> 
+  <codeblock gutter="true" class="syntax plain">
+    {!!discoiqbr!!&amp;nbsp;&amp;nbsp;"suspicion":&amp;nbsp;false,!!discoiqbr!!&amp;nbsp;&amp;nbsp;"timestamp":&amp;nbsp;"2018-02-13T14:21:17.279+01:00",!!discoiqbr!!&amp;nbsp;&amp;nbsp;"type":&amp;nbsp;"PROGRESS",!!discoiqbr!!&amp;nbsp;&amp;nbsp;"database":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"patternsEmitted":&amp;nbsp;127731,!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"patternsEmittedSize":&amp;nbsp;"52&amp;nbsp;MB",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"databasesEmitted":&amp;nbsp;[!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"6.4"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;]!!discoiqbr!!&amp;nbsp;&amp;nbsp;},!!discoiqbr!!&amp;nbsp;&amp;nbsp;"state":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"itemsAnalysed":&amp;nbsp;57209,!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"itemsAnalysedSize":&amp;nbsp;"26&amp;nbsp;MB",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"suspicionsFound":&amp;nbsp;0!!discoiqbr!!&amp;nbsp;&amp;nbsp;},!!discoiqbr!!&amp;nbsp;&amp;nbsp;"progress":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"elapsedTime":&amp;nbsp;"PT5.003S",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"elapsedTimeMilliseconds":&amp;nbsp;5003,!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"itemsPerSecond":&amp;nbsp;36965!!discoiqbr!!&amp;nbsp;&amp;nbsp;}!!discoiqbr!!}!!discoiqbr!!{!!discoiqbr!!&amp;nbsp;&amp;nbsp;"suspicion":&amp;nbsp;false,!!discoiqbr!!&amp;nbsp;&amp;nbsp;"timestamp":&amp;nbsp;"2018-02-13T14:21:22.276+01:00",!!discoiqbr!!&amp;nbsp;&amp;nbsp;"type":&amp;nbsp;"PROGRESS",!!discoiqbr!!&amp;nbsp;&amp;nbsp;"database":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"patternsEmitted":&amp;nbsp;127731,!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"patternsEmittedSize":&amp;nbsp;"52&amp;nbsp;MB",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"databasesEmitted":&amp;nbsp;[!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"6.4"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;]!!discoiqbr!!&amp;nbsp;&amp;nbsp;},!!discoiqbr!!&amp;nbsp;&amp;nbsp;"state":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"itemsAnalysed":&amp;nbsp;113194,!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"itemsAnalysedSize":&amp;nbsp;"46&amp;nbsp;MB",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"suspicionsFound":&amp;nbsp;0!!discoiqbr!!&amp;nbsp;&amp;nbsp;},!!discoiqbr!!&amp;nbsp;&amp;nbsp;"progress":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"elapsedTime":&amp;nbsp;"PT10S",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"elapsedTimeMilliseconds":&amp;nbsp;10000,!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"itemsPerSecond":&amp;nbsp;24092!!discoiqbr!!&amp;nbsp;&amp;nbsp;}!!discoiqbr!!}!!discoiqbr!!{!!discoiqbr!!&amp;nbsp;&amp;nbsp;"suspicion":&amp;nbsp;false,!!discoiqbr!!&amp;nbsp;&amp;nbsp;"timestamp":&amp;nbsp;"2018-02-13T14:21:25.762+01:00",!!discoiqbr!!&amp;nbsp;&amp;nbsp;"type":&amp;nbsp;"FINISHED",!!discoiqbr!!&amp;nbsp;&amp;nbsp;"database":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"patternsEmitted":&amp;nbsp;127731,!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"patternsEmittedSize":&amp;nbsp;"52&amp;nbsp;MB",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"databasesEmitted":&amp;nbsp;[!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"6.4"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;]!!discoiqbr!!&amp;nbsp;&amp;nbsp;},!!discoiqbr!!&amp;nbsp;&amp;nbsp;"state":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"itemsAnalysed":&amp;nbsp;140744,!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"itemsAnalysedSize":&amp;nbsp;"63&amp;nbsp;MB",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"suspicionsFound":&amp;nbsp;1!!discoiqbr!!&amp;nbsp;&amp;nbsp;},!!discoiqbr!!&amp;nbsp;&amp;nbsp;"progress":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"elapsedTime":&amp;nbsp;"PT13.486S",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"elapsedTimeMilliseconds":&amp;nbsp;13486,!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"itemsPerSecond":&amp;nbsp;19907!!discoiqbr!!&amp;nbsp;&amp;nbsp;}!!discoiqbr!!}!!discoiqbr!!{!!discoiqbr!!&amp;nbsp;&amp;nbsp;"suspicion":&amp;nbsp;false,!!discoiqbr!!&amp;nbsp;&amp;nbsp;"type":&amp;nbsp;"SUMMARY",!!discoiqbr!!&amp;nbsp;&amp;nbsp;"suspicionsFound":&amp;nbsp;1,!!discoiqbr!!&amp;nbsp;&amp;nbsp;"totalTime":&amp;nbsp;"PT13.487S"!!discoiqbr!!} 
+  </codeblock> 
+  <note> 
+   <p>The recommended approach is to save the whole output from curl into the file and then process it via <span class="code">jq</span> or <span class="code">grep</span> to filter information type.</p> 
+  </note> 
+  <h2 id="scope">Detection scope</h2> 
+  <p>Currently Pattern Detector allows to check:</p> 
+  <ul> 
+   <li>OSGi bundles exports and imports mismatch</li> 
+   <li>Sling resource types and super types (with search-path content overlays) overusages</li> 
+   <li>definitions of Oak indices (compatibility)</li> 
+   <li>VLT packages (overuse)</li> 
+   <li>rep:User nodes compatibility (in context of OAuth configuration)</li> 
+  </ul> 
+ </body> 
+</html>

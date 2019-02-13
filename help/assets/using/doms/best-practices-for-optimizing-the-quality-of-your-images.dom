@@ -1,0 +1,132 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/assets/using/best-practices-for-optimizing-the-quality-of-your-images.html" name="publishExternalURL" /> 
+  <meta content="checked_not_improved" name="acrolinxStatus" /> 
+  <meta content="2017-10-31T16:35:19.376-0400" name="publishExternalDate" /> 
+  <meta content="Learn best practices for optimizing image quality in dynamic media" name="seoDescription" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="Rick Brough" name="contentOwner" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS;topic_tags:dynamic-media;content_type:reference" name="cq:tags" /> 
+  <meta content="1591" name="acrolinxWords" /> 
+  <meta content="asgupta" name="acrolinxLastCheckedBy" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS" name="primaryProductTag" /> 
+  <meta content="2017-10-31T16:35:19.376-0400" name="firstPublishExternalDate" /> 
+  <meta content="2018-04-24T11:59:23.187-0400" name="cq:lastModified" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="Best practices for optimizing the quality of your images" name="seoTitle" /> 
+  <meta content="2017-10-31T16:35:19.376-0400" name="topicBrowsingSortDate" /> 
+  <meta content="91363b76-35b2-43a2-be70-a826254abed1" name="jcr:uuid" /> 
+  <meta content="2019-01-12T17:13:11.394-0500" name="acrolinxDate" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2017-10-31T16:35:19.376-0400" name="lastPublishExternalDate" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="/content/docs/en/aem/6-3/author/assets/dynamic-media/managing-assets/best-practices-for-optimizing-the-quality-of-your-images" name="qaNotes" /> 
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/ractices_for_optimizing_the_quality_of_your_images_krs_workflow_f3c2f2ccebf6138e_103_report.xml" name="acrolinxReportURL" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2018-04-24T11:59:23.186-0400" name="locHandOffDate" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2018-03-14T09:01:22.942-0400" name="jcr:created" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="rbrough" name="cq:lastModifiedBy" /> 
+  <meta content="dff48697-e4b2-477c-af0c-276de1f3191b" name="jcr:predecessors" /> 
+  <meta content="99" name="acrolinxSentences" /> 
+  <meta content="Best practices for optimizing the quality of your images" name="jcr:title" /> 
+  <meta content="2018-04-03T08:06:09.120-0400" name="cq:lastReplicated" /> 
+  <meta content="Best practices for optimizing the quality of your images" name="navTitle" /> 
+  <meta content="/content/help/en/experience-manager/6-4/assets/morehelp/dynamic-media;/content/help/en/experience-manager/6-4/assets/morehelp/dynamic-media" name="moreHelpPaths" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="yellow" name="acrolinxPageStatus" /> 
+ </head> 
+ <body> 
+  <p>Optimizing image quality can be a time consuming process as many factors contribute to rendering acceptable results. The outcome is partly subjective because individuals perceive image quality differently. Structured experimentation is key.</p> 
+  <p>AEM includes more than 100 dynamic media image delivery commands for tuning and optimizing images and rendering results. The following guidelines can help you streamline the process and achieve good results quickly using some essential commands and best practices.</p> 
+  <h3>Best practices for image format (&amp;fmt=)</h3> 
+  <ul> 
+   <li><p>JPG or PNG are the best choices to deliver images in good quality and with manageable size and weight.</p> </li> 
+   <li><p>If no format command is supplied in the URL, Dynamic Media Image Delivery defaults to JPG for delivery.</p> </li> 
+   <li><p>JPG compresses at a ratio of 10:1 and usually produces smaller image file sizes. PNG compresses at a ratio of about 2:1, except in some cases, such as when images contain a white background. Typically though, PNG file sizes are larger than JPG files.</p> </li> 
+   <li><p>JPG uses lossy compression, meaning that picture elements (pixels) are dropped during compression. PNG on the other hand uses lossless compression.</p> </li> 
+   <li><p>JPG often compresses photographic images with better fidelity than synthetic images with sharp edges and contrast.</p> </li> 
+   <li><p>If your images contain transparency, use PNG because JPG does not support transparency.</p> </li> 
+  </ul> 
+  <p>As a best practice for image format, start with the most common setting <span class="code">&amp;fmt=JPG</span>.</p> 
+  <h3>Best practices for image size</h3> 
+  <p>Dynamically reducing image size is one of the most common tasks. It involves specifying the size and, optionally, which downsampling mode is used to downscale the image.</p> 
+  <ul> 
+   <li><p>For image sizing, the best and most straightforward approach is to use <span class="code">&amp;wid=&amp;lt;value&amp;gt;</span> and <span class="code">&amp;hei=&amp;lt;value&amp;gt;, </span>or just <span class="code">&amp;hei=&amp;lt;value&amp;gt;</span>. These parameters automatically set the image width in accordance to the aspect ratio.</p> </li> 
+   <li><p><span class="code">&amp;resMode=&amp;lt;value&amp;gt; </span>controls the algorithm used for downsampling. Start with <span class="code">&amp;resMode=sharp2</span>. This value provides the best image quality. While using the downsampling <span class="code">value =bilin</span> is faster, it often results in the aliasing of artifacts.</p> </li> 
+  </ul> 
+  <p>As a best practice for image sizing, use <span class="code">&amp;wid=&amp;lt;value&amp;gt;&amp;hei=&amp;lt;value&amp;gt;&amp;resMode=sharp2</span> or <span class="code">&amp;hei=&amp;lt;value&amp;gt;&amp;resMode=sharp2</span></p> 
+  <h3>Best practices for image sharpening</h3> 
+  <p>Image sharpening is the most complex aspect of controlling images on your website, and where many mistakes are made. Take the time to learn more about how sharpening and unsharp masking works in AEM by referring to the following helpful resources:</p> 
+  <p>Best practices white paper <a href="http://microsite.omniture.com/t2/help/en_US/s7/sharpening/s7_sharpening_images.pdf">Sharpening images in Adobe Scene7 Publishing System and on Image Server</a> applies to AEM as well.</p> 
+  <p>On Adobe TV, watch <a href="http://tv.adobe.com/watch/visual-design-cs6/sharpening-an-image-with-unsharp-mask/">Sharpening an image with unsharp mask</a>.</p> 
+  <p>With AEM, you can sharpen images on ingestion, on delivery, or both. In most cases, however, you should sharpen images using only one method or the other, but not both. Sharpening images on delivery, on a URL, typically gives you the best results.</p> 
+  <p>There are two image sharpening methods that you can use:</p> 
+  <ul> 
+   <li><p>Simple sharpening (<span class="code">&amp;op_sharpen</span>) - Similar to the sharpen filter used in Photoshop, simple sharpening applies basic sharpening to the final view of the image following dynamic resizing. However, this method is not user-configurable. The best practice is to not use &amp;op_sharpen unless required.</p> </li> 
+   <li><p>Unsharp masking (<span class="code">&amp;op_USM</span>) - Unsharp masking is an industry standard sharpening filter. The best practice is to sharpen images with unsharp masking following the guidelines below. Unsharp masking lets you control the following three parameters:</p> 
+    <ul> 
+     <li><p><span class="code">&amp;op_sharpen=</span>amount,radius,threshold</p> 
+      <ul> 
+       <li><p>amount (0-5, strength of the effect.)</p> </li> 
+       <li><p>radius (0-250, width of the "sharpening lines" drawn around the sharpened object, as measured in pixels.)</p> <p>Keep in mind that the parameters radius and amount work against each other. Reducing radius can be compensated by increasing amount. Radius allows finer control as a lower value sharpens only the edge pixels, whereas a higher value sharpens a wider band of pixels.</p> </li> 
+       <li><p>threshold (0-255, sensitivity of effect.)</p> <p>This parameter determines how different the sharpened pixels must be from the surrounding area before they are considered edge pixels and the filter sharpens them. Threshold helps to avoid over-sharpening areas with similar colors, such as skin tones. For example, a threshold value of 12 ignores slight variations in skin tone brightness to avoid adding "noise", while still adding edge contrast to high contrast areas, such as where eyelashes meet skin.</p> </li> 
+      </ul> <p>For more information about how you set these three parameters, including best practices to use with the filter, see the following resources:</p> <p>AEM Help topic on Sharpening an image.</p> <p>Best practices white paper <a href="http://microsite.omniture.com/t2/help/en_US/s7/sharpening/s7_sharpening_images.pdf">Sharpening images in Adobe Scene7 Publishing System and on Image Server</a>.</p> </li> 
+    </ul> 
+    <ul> 
+     <li><p>AEM also lets you control a fourth parameter: monochrome (0,1). This parameter determines if unsharp masking is applied to each color component separately using the value 0 or to the image brightness/intensity using the value 1.</p> </li> 
+    </ul> </li> 
+  </ul> 
+  <p>As a best practice, start with the unsharp mask radius parameter. Radius settings that you can start with are the following:</p> 
+  <ul> 
+   <li><p>Website: 0.2-0.3 pixels</p> </li> 
+   <li><p>Photographic printing (250-300 ppi): 0.3-0.5 pixels</p> </li> 
+   <li><p>Offset printing (266-300 ppi): 0.7-1.0 pixels</p> </li> 
+   <li><p>Canvas printing (150 ppi): 1.5-2.0 pixels</p> </li> 
+  </ul> 
+  <p>Gradually increase the amount from 1.75 to 4. If sharpening is still not the way you want, increase the radius by a decimal point and run the amount again from 1.75 to 4. Repeat as necessary.</p> 
+  <p>Leave the monochrome parameter setting at 0.</p> 
+  <h3>Best practices for JPEF compression (&amp;qlt=)</h3> 
+  <ul> 
+   <li><p>This parameter controls JPG encoding quality. A higher value means a higher-quality image but a large file size; alternatively, a lower value means a lower quality image but a smaller file size. The range for this parameter is 0-100.</p> </li> 
+   <li><p>To optimize for quality, do not set the parameter value to 100. The difference between a setting of 90 or 95 and 100 is almost imperceptible, yet 100 unnecessarily increases the size of the image file. Therefore, to optimize for quality but avoid image files becoming too large, set the qlt= value to 90 or 95.</p> </li> 
+   <li><p>To optimize for a small image file size but keep image quality at an acceptable level, set the qlt= value to 80. Values below 70 to 75 results in significant image quality degradation.</p> </li> 
+   <li><p>As a best practice, to stay in the middle, set the qlt= value to 85 to stay in the middle.</p> </li> 
+   <li><p>Using the chroma flag in qlt=</p> 
+    <ul> 
+     <li><p>The qlt= parameter has a second setting that lets you turn on RGB chromaticity downsampling using the value ,1 or off using the value ,0.</p> </li> 
+     <li><p>To keep it simple, start with RGB chromaticity downsampling turned off (,0). This setting usually results in better image quality, especially for synthetic images with lots of sharp edges and contrast.</p> </li> 
+    </ul> </li> 
+  </ul> 
+  <p>As a best practice for JPG compression use &amp;qlt=85,0.</p> 
+  <h3>Best practices for JPEG sizing (&amp;jpegSize=)</h3> 
+  <p>jpegSize is a useful parameter if you want to guarantee that an image does not exceed a certain size for delivery to devices that have limited memory.</p> 
+  <ul> 
+   <li><p>This parameter is set in kilobytes (jpegSize=&amp;lt;size_in_kilobytes&amp;gt;). It defines the maximum allowed size for image delivery.</p> </li> 
+   <li><p>&amp;jpegSize= interacts with the JPG compression parameter &amp;qlt=. If the JPG response with the specified JPG compression parameter (&amp;qlt=) does not exceed thejpegSize value, the image is returned with &amp;qlt= as defined. Otherwise, &amp;qlt= is gradually decreased until the image fits in the maximum allowed size, or until the system determines it cannot fit and returns an error.</p> </li> 
+  </ul> 
+  <p>As a best practice, set &amp;jpegSize= and add the parameter &amp;qlt= if you are delivering JPG images to devices with limited memory.</p> 
+  <h3>Best practices summary</h3> 
+  <p>As a best practice, to achieve a high image quality and small file size, start with the following combination of parameters:</p> 
+  <p><span class="code">fmt=jpg&amp;qlt=85,0&amp;resMode=sharp2&amp;op_usm=1.75,0.3,2,0</span></p> 
+  <p>This combination of settings products excellent results under most circumstances.</p> 
+  <p>If the image requires further optimization, gradually fine-tune sharpening (unsharp masking) parameters by starting with a radius set to 0.2 or 0.3. Then, gradually increase the amount from 1.75 to a maximum of 4 (equivalent to 400% in Photoshop). Check to see that the desired result is achieved.</p> 
+  <p>If sharpening results are still not satisfactory, increase the radius in decimal increments. For every decimal increment, restart the amount at 1.75 and gradually increase it to 4. Repeat this process until you achieve the desired result. While the values above are an approach that creative studios have validated, remember that you can start with other values and follow other strategies. Whether the results are satisfactory to you or not is a subjective matter, therefore structured experimentation is key.</p> 
+  <p>As you experiment, you may also find the following general suggestions helpful to optimize your workflow:</p> 
+  <ul> 
+   <li><p>Try out and test different parameters in real time, either directly on a URL or using the Scene7 Publishing System's image adjustment functionality which provides real-time previews for adjustment operations.</p> </li> 
+   <li><p>As a best practice, remember that you can group dynamic media image serving commands into an image preset. An image preset is basically URL command macros with custom preset names such as $thumb_low$ and &amp;product_high$. The custom preset name in a URL path makes a call to these presets. Such functionality helps you manage commands and quality settings for different usage patterns of images on your website and shortens the overall length of URLs.</p> </li> 
+   <li><p>AEM also provides more advanced ways to tune image quality, such as applying sharpening images on ingestion. For advanced use cases where this may be an option to further tune and optimize rendering results, Adobe Professional Services can help you with customized insight and best practices.</p> </li> 
+  </ul> 
+ </body> 
+</html>

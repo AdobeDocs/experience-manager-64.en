@@ -1,0 +1,222 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/communities/using/configure-scoring.html" name="publishExternalURL" /> 
+  <meta content="7511e6cf-670a-4f03-bb20-6f0c78c8d688" name="jcr:uuid" /> 
+  <meta content="9b0e5aea-c896-46b8-9ec8-bc9d3523a44a" name="jcr:predecessors" /> 
+  <meta content="2018-05-17T05:51:13.586-0400" name="cq:lastModified" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="Scoring and Badges Essentials" name="jcr:title" /> 
+  <meta content="msm-service" name="contentOwner" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="Scoring and Badges Essentials" name="seoTitle" /> 
+  <meta content="2018-04-03T07:36:05.496-0400" name="topicBrowsingSortDate" /> 
+  <meta content="Scoring and Badges Essentials" name="navTitle" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="2017-10-31T16:33:55.082-0400" name="firstPublishExternalDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES;topic_tags:developing;content_type:reference" name="cq:tags" /> 
+  <meta content="/content/help/en/experience-manager/6-4/communities/morehelp/developing;/content/help/en/experience-manager/6-4/communities/morehelp/developing" name="moreHelpPaths" /> 
+  <meta content="2018-04-03T07:36:05.496-0400" name="publishExternalDate" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2017-12-01T19:02:03.266-0500" name="jcr:created" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="/content/docs/en/aem/6-3/develop/communities/essentials/scoring" name="qaNotes" /> 
+  <meta content="2018-05-17T05:51:13.585-0400" name="locHandOffDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES" name="primaryProductTag" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="Scoring and Badges feature overview" name="seoDescription" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2018-04-03T07:36:07.790-0400" name="cq:lastReplicated" /> 
+  <meta content="2018-04-03T07:36:05.496-0400" name="lastPublishExternalDate" /> 
+ </head> 
+ <body> 
+  <p>The AEM Communities scoring and badges feature provides the ability to identify and reward community members.</p> 
+  <p>The details of setting up the feature are described at</p> 
+  <ul> 
+   <li><a href="../../communities/using/implementing-scoring.md">Communities Scoring and Badges</a></li> 
+  </ul> 
+  <p>This page contains additional technical details :</p> 
+  <ul> 
+   <li>how to <a href="#displayingbadges">display a badge</a> as either image or text</li> 
+   <li>how to turn on extensive <a href="#debuglogforscoringandbadging">debug logging</a></li> 
+   <li>how to <a href="#ugcforscoringandbadging">access UGC</a> related to scoring and badging</li> 
+  </ul> 
+  <note> 
+   <p>The implementation structure visible in CRXDE Lite is subject to change.</p> 
+  </note> 
+  <h2>Displaying Badges</h2> 
+  <p>Whether a badge is displayed as text or image is controlled on the client side in the HBS template.</p> 
+  <p>For example, search for <span class="code">this.isAssigned</span> in<span class="code"> /libs/social/forum/components/hbs/topic/list-item.hbs</span>, :</p> 
+  <p> </p> 
+  <codeblock gutter="true" class="syntax js">
+    {{#each&amp;nbsp;author.badges}}!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;{{#if&amp;nbsp;this.isAssigned}}!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;div&amp;nbsp;class="scf-badge-text"&gt;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;{{this.title}}!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/div&gt;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;{{/if}}!!discoiqbr!!!!discoiqbr!!{{/each}}!!discoiqbr!!!!discoiqbr!!{{#each&amp;nbsp;author.badges}}!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;{{#unless&amp;nbsp;this.isAssigned}}!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;img&amp;nbsp;class="scf-badge-image"&amp;nbsp;alt="{{this.title}}"&amp;nbsp;title="{{this.title}}"&amp;nbsp;src="{{this.imageUrl}}"&amp;nbsp;/&gt;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;{{/unless}}!!discoiqbr!!!!discoiqbr!!{{/each}} 
+  </codeblock> 
+  <p>If true, isAssigned indicates the badge was assigned for a role and the badge should be displayed as text. </p> 
+  <p>If false, is Assigned indicates the badge was awarded for an earned score and the badge should be displayed as an image.</p> 
+  <p>Any changes to this behavior should be made in a customized script (either override or overlay). See <a href="../../communities/using/client-customize.md">Client-side Customizaton</a>.</p> 
+  <h2>Debug Log for Scoring and Badging</h2> 
+  <p>To help debug scoring and badging, a custom log file can be setup. The contents of this log file may then be provided to customer support if problems are encountered with the feature.</p> 
+  <p>For detailed instructions, visit <a href="../../sites/deploying/using/monitoring-and-maintaining.md#createacustomlogfile">Create a Custom Log File</a>.</p> 
+  <p>To quickly setup a slinglog file :</p> 
+  <ol> 
+   <li>access the <strong>Adobe Experience Manager Web Console Log Support</strong>, for example 
+    <ul> 
+     <li>http://localhost:4502/system/console/slinglog</li> 
+    </ul> </li> 
+   <li>select <strong>Add new logger</strong> 
+    <ol> 
+     <li>select <span class="code">DEBUG </span>for <strong>Log Level</strong></li> 
+     <li>enter a name for <strong>Log File</strong>, for example 
+      <ul> 
+       <li>logs/scoring-debug.log</li> 
+      </ul> </li> 
+     <li>enter two <strong>Logger </strong>(class) entries (using <span class="code">+</span> icon) 
+      <ul> 
+       <li><span class="code">com.adobe.cq.social.scoring</span></li> 
+       <li><span class="code">com.adobe.cq.social.badging</span></li> 
+      </ul> </li> 
+     <li>select <strong>Save</strong></li> 
+    </ol> </li> 
+  </ol> 
+  <img imageRotate="0" src="assets/chlimage_1-248.png" /> 
+  <p>To see log entries</p> 
+  <ul> 
+   <li>from the Web Console<br /> 
+    <ul> 
+     <li>under the <strong>Status </strong>menu</li> 
+     <li>select <strong>Log Files</strong></li> 
+     <li>search for your Log File name, such as <span class="code">scoring-debug</span></li> 
+    </ul> </li> 
+   <li>on the server's local disk 
+    <ul> 
+     <li>the log file is at &amp;lt;<i>server-install-dir</i>&amp;gt;/crx-quickstart/logs/&amp;lt;<i>log-file-name</i>&amp;gt;.log</li> 
+     <li>for example,<span class="code"> .../crx-quickstart/logs/scoring-debug.log</span></li> 
+    </ul> </li> 
+  </ul> 
+  <img imageRotate="0" src="assets/chlimage_1-249.png" /> 
+  <h2>UGC for Scoring and Badging</h2> 
+  <p>It is possible to view the UGC related to scoring and badging when the chosen SRP is either JSRP or MSRP, but not ASRP. (If not familiar with these terms, see <a href="../../communities/using/working-with-srp.md">Community Content Storage</a> and <a href="../../communities/using/srp.md">Storage Resource Provider Overview</a>.)</p> 
+  <p>The descriptions for accessing scoring and badging data use JSRP, as the UGC is easily accessible using <a href="../../sites/developing/using/developing-with-crxde-lite.md">CRXDE Lite</a>.</p> 
+  <p><strong>JSRP on author</strong> : experimenting in the author environment results in UGC that is only visible from the author environment. </p> 
+  <p><strong>JSRP on publish</strong> : similarly, if testing on the publish environment, it will be necessary to access CRXDE Lite with administrative privileges on a publish instance. If the publish instance is running in <a href="../../sites/administering/using/production-ready.md">production mode</a> (nosamplecontent runmode), it will be necessary to <a href="../../sites/administering/using/enabling-crxde-lite.md">enable CRXDE Lite</a>.</p> 
+  <p>The base location of UGC on JSRP is <span class="code">/content/usergenerated/asi/jcr/</span>.</p> 
+  <h3>Scoring and Badging APIs</h3> 
+  <p>The following APIs are available for use :</p> 
+  <ul> 
+   <li><a href="https://docs.adobe.com/content/docs/en/aem/6-3/develop/ref/javadoc/com/adobe/cq/social/scoring/api/package-summary.html">com.adobe.cq.social.scoring.api</a></li> 
+   <li><a href="https://docs.adobe.com/content/docs/en/aem/6-3/develop/ref/javadoc/com/adobe/cq/social/badging/api/package-summary.html">com.adobe.cq.social.badging.api</a></li> 
+  </ul> 
+  <p>The latest Javadocs for the installed <a href="/communities/using/version-history">feature pack</a> are available to developers from the Adobe repository. See <a href="../../communities/using/maven.md#javadocs">Using Maven for Communities : Javadocs</a>.</p> 
+  <p><strong>The location and format of the UGC in the repository is subject to change without warning</strong>.</p> 
+  <h3>Example Setup</h3> 
+  <p>The screen shots of repository data come from setting up scoring and badging for a forum on two different AEM sites :</p> 
+  <p>1) An AEM site <i>with </i>an unique id (community site created using wizard) :</p> 
+  <ul> 
+   <li>using the Getting Started Tutorial (engage) site created during the <a href="../../communities/using/getting-started.md">getting started tutorial</a></li> 
+   <li>locate the forum page node 
+    <ul> 
+     <li><span class="code">/content/sites/engage/en/forum/jcr:content</span></li> 
+    </ul> </li> 
+   <li>add scoring and badging properties 
+    <ul> 
+     <li><code class="code">scoringRules = [/etc/community/scoring/rules/comments-scoring,
+       <discoiqbr /> /etc/community/scoring/rules/forums-scoring]</code></li> 
+     <li><code class="code">badgingRules =[/etc/community/badging/rules/comments-scoring,
+       <discoiqbr /> /etc/community/badging/rules/forums-scoring]</code></li> 
+    </ul> </li> 
+   <li>locate the forum component node 
+    <ul> 
+     <li><span class="code">/content/sites/engage/en/forum/jcr:content/content/primary/forum</span><br /> (<span class="code">sling:resourceType = social/forum/components/hbs/forum</span>)</li> 
+    </ul> </li> 
+   <li>add property to display badges 
+    <ul> 
+     <li><span class="code">allowBadges = true</span></li> 
+    </ul> </li> 
+   <li>a user signs in, creates a forum topic, and is awarded a bronze badge</li> 
+  </ul> 
+  <p>2) An AEM site <i>without </i>an unique id :</p> 
+  <ul> 
+   <li>using the <a href="../../communities/using/components-guide.md">Community Components guide</a></li> 
+   <li>locate the forum page node 
+    <ul> 
+     <li><span class="code">/content/community-components/en/forum/jcr:content</span></li> 
+    </ul> </li> 
+   <li>add scoring and badging properties 
+    <ul> 
+     <li><code class="code">scoringRules = [/etc/community/scoring/rules/comments-scoring,
+       <discoiqbr /> /etc/community/scoring/rules/forums-scoring]</code></li> 
+     <li><code class="code">badgingRules =[/etc/community/badging/rules/comments-scoring,
+       <discoiqbr /> /etc/community/badging/rules/forums-scoring]</code></li> 
+    </ul> </li> 
+   <li>locate the forum component node 
+    <ul> 
+     <li><span class="code">/content/community-components/en/forum/jcr:content/content/forum</span><br /> (<span class="code">sling:resourceType = social/forum/components/hbs/forum</span>)</li> 
+    </ul> </li> 
+   <li>add property to display badges 
+    <ul> 
+     <li><span class="code">allowBadges = true</span></li> 
+    </ul> </li> 
+   <li>a user signs in, creates a forum topic, and is awarded a bronze badge</li> 
+  </ul> 
+  <p>3) a user is assigned a moderator badge using cURL :</p> 
+  <codeblock class="syntax shell">
+    curl&amp;nbsp;-i&amp;nbsp;-X&amp;nbsp;POST&amp;nbsp;-H&amp;nbsp;"Accept:application/json"&amp;nbsp;-u&amp;nbsp;admin:admin&amp;nbsp;-F&amp;nbsp;":operation=social:assignBadge"&amp;nbsp;-F&amp;nbsp;"badgeContentPath=/etc/community/badging/images/moderator/jcr:content/moderator.png"&amp;nbsp;http://localhost:4503/home/users/community/w271OOup2Z4DjnOQrviv/profile.social.json!!discoiqbr!! 
+  </codeblock> 
+  <p>As a user has earned two bronze badges and has been awarded a moderator badge, this is how the user appears with their forum entry :</p> 
+  <img imageRotate="0" src="assets/chlimage_1-250.png" /> 
+  <note> 
+   <p>This example does not follow these best practices :</p> 
+   <ul> 
+    <li>scoring rule names should be globally unique; they should not end with the same name.<br /> An example of what <i>not </i>to do :<br /> /etc/community/scoring/rules/site1/forums-scoring<br /> /etc/community/scoring/rules/site2/forums-scoring</li> 
+    <li>creating unique badge images for different AEM sites</li> 
+   </ul> 
+  </note> 
+  <h3>Access Scoring UGC</h3> 
+  <p>Use of the <a href="#scoringandbadgingapis">APIs</a> is preferred.</p> 
+  <p>For investigative purposes, using JSRP for the example, the base folder containing scores is</p> 
+  <ul> 
+   <li><span class="code">/content/usergenerated/asi/jcr/scoring</span></li> 
+  </ul> 
+  <p>The child node of <span class="code">scoring </span>is the scoring rule name. Thus, a best practice is that scoring rule names on a server be globally unique.</p> 
+  <p>For the Geometrixx Engage site, the user and their score is in a path contstructed with the scoring rule name, community site's site id (<span class="code">engage-ba81p</span>), an unique id, and the user's id :</p> 
+  <ul> 
+   <li><span class="code">.../scoring/forums-scoring/engage-ba81p/6d179715c0e93cb2b20886aa0434ca9b5a540401/riley</span></li> 
+  </ul> 
+  <p>For the Community Components guide site, the user and their score is in a path constructed with the scoring rule name, a default id (<span class="code">default-site</span>), an unique id, and the user's id :</p> 
+  <ul> 
+   <li><span class="code">.../scoring/forums-scoring/default-site/b27a17cb4910a9b69fe81fb1b492ba672d2c086e/riley</span></li> 
+  </ul> 
+  <p>The score is stored in the property <span class="code">scoreValue_tl</span> which may directonly contain a value or indirectly refer to an atomicCounter.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-251.png" /> 
+  <h3>Access Badging UGC</h3> 
+  <p>Use of the <a href="#scoringandbadgingapis">APIs</a> is preferred.</p> 
+  <p>For investigative purposes, using JSRP for the example, the base folder containing information about assigned or awarded badges is</p> 
+  <ul> 
+   <li>/content/usergenerated/asi/jcr</li> 
+  </ul> 
+  <p>Followed by the path to the user's profile, ending in a badges folder, such as</p> 
+  <ul> 
+   <li>/home/users/community/w271OOup2Z4DjnOQrviv/profile/badges</li> 
+  </ul> 
+  <h4>awarded badge</h4> 
+  <img imageRotate="0" src="assets/chlimage_1-252.png" /> 
+  <h4>assigned badge</h4> 
+  <img imageRotate="0" src="assets/chlimage_1-253.png" /> 
+  <h2>Additional Information</h2> 
+  <p>To display a sorted list of members based on points :</p> 
+  <ul> 
+   <li><a href="../../communities/using/functions.md#leaderboardfunction">Leaderboard function</a> for inclusion in a community site or group template.</li> 
+   <li><a href="../../communities/using/enabling-leaderboard.md">Leaderboard component</a>, the featured component of the Leaderboard function, for page authoring.</li> 
+  </ul> 
+ </body> 
+</html>

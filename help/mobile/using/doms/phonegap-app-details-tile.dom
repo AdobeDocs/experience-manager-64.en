@@ -1,0 +1,132 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="bohnert" name="cq:lastReplicatedBy" /> 
+  <meta content="2018-05-04T05:13:33.848-0400" name="cq:lastReplicated" /> 
+  <meta content="bohnert@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="/content/docs/en/aem/6-3/author/mobile-apps/phonegap/application-details-tile" name="qaNotes" /> 
+  <meta content="Manage App Tile" name="seoTitle" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="Manage App Tile" name="jcr:title" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="2018-05-04T05:13:33.618-0400" name="topicBrowsingSortDate" /> 
+  <meta content="/content/help/en/experience-manager/6-4/mobile/morehelp/authoring-adobe-phonegap-enterprise;/content/help/en/experience-manager/6-4/mobile/morehelp/authoring-adobe-phonegap-enterprise" name="moreHelpPaths" /> 
+  <meta content="msm-service" name="cq:lastModifiedBy" /> 
+  <meta content="131f39b4-1fb9-4664-9e98-d4d81966d72a" name="jcr:predecessors" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/MOBILE" name="primaryProductTag" /> 
+  <meta content="2017-10-31T16:26:17.414-0400" name="firstPublishExternalDate" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/MOBILE;topic_tags:authoring-adobe-phonegap-enterprise" name="cq:tags" /> 
+  <meta content="2018-05-04T05:13:33.618-0400" name="publishExternalDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="Follow this page to learn about the Manage App Tile on the app dashboard that provides the ability to modify details about the Application. " name="seoDescription" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/mobile/using/phonegap-app-details-tile.html" name="publishExternalURL" /> 
+  <meta content="da88ca74-bc26-4959-bc9d-c2c54f515f68" name="jcr:uuid" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2018-05-11T10:02:04.025-0400" name="cq:lastModified" /> 
+  <meta content="2018-05-11T10:02:04.025-0400" name="locHandOffDate" /> 
+  <meta content="2018-05-04T05:13:33.618-0400" name="lastPublishExternalDate" /> 
+  <meta content="User" name="contentOwner" /> 
+  <meta content="2017-12-13T19:01:19.809-0500" name="jcr:created" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="Manage App Tile" name="navTitle" /> 
+ </head> 
+ <body> 
+  <note> 
+   <p>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). <a href="../../sites/developing/using/spa-overview.md">Learn more</a>.</p> 
+  </note> 
+  <p>The <strong>Manage App</strong> Tile on the App Dashboard provides the ability to modify details about the Application. To open the Details page click on the Manage App tile's details link. From within the Manage App page you can edit the PhoneGap Application Configuration (config.xml) settings and prepare your application for submission to the various application stores.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-121.png" /> 
+  <h2>Understanding the Manage App Tile</h2> 
+  <p>You can drill into each tile in the <strong>Manage App</strong> tile to view or edit details by clicking the '...' in the bottom right corner.</p> 
+  <h3>The Basic tab</h3> 
+  <p>You can edit the <strong>Name</strong>, <strong>Author</strong>, <strong>Short Description</strong>, and the <strong>Description</strong> for your app from this tab.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-122.png" /> 
+  <h3>The Advanced tab</h3> 
+  <p>Each mobile application platform describes what data is collected, targeting each application store specifically.</p> 
+  <p>Platforms displayed is driven by the PhoneGap config.xml content:</p> 
+  <p>&amp;lt;widget&amp;gt;<br /> &amp;lt;gap:platform name="ios"/&amp;gt;<br /> &amp;lt;gap:platform name="android"/&amp;gt;<br /> &amp;lt;/widget&amp;gt;</p> 
+  <p>Each vendor application store, such as Apple App Store or Google Play Store, for example, requires one or more screenshots of your mobile application in order to display your application details to customers. These screenshots can have strict requirements around dimensions and content (basically they must truly represent the application). AEM Apps provides support for selecting and managing these screenshots for the supported platforms and view port dimensions as required by each vendor's application store.</p> 
+  <note> 
+   <p>The AEM Verify app provides the ability to send screenshots directly to your app details in AEM.</p> 
+   <p>See <a href="../../mobile/using/phonegap-mobile-quickstart.md">Mobile Quickstart for AEM Verify</a> for more details.</p> 
+  </note> 
+  <img imageRotate="0" src="assets/chlimage_1-123.png" /> 
+  <h3>Metadata</h3> 
+  <note> 
+   <p>Once you are familiar with the <strong>Manage App</strong> tile, see <a href="../../mobile/using/phonegap-editmetadata.md">Editing App Metadata</a> to view and edit the metadata.</p> 
+  </note> 
+  <h4>Common Metadata</h4> 
+  <p>Every Application should have associated metadata that aids in configuring different aspects of the application. The Manage App page is separated into two different areas related to metadata collection. Platform specific metadata and common metadata. </p> 
+  <p>There is common configuration and metadata to all platforms. </p> 
+  <p>Within this section you define the Content Update Server URL, landing page for your mobile application, PhoneGap version for compilation, your application version, name, description and more.</p> 
+  <p><strong>App Version</strong> is the working version of your application. Common best practice is to use a 3-decimal notation and start below 1.0.0 prior to your first release.</p> 
+  <p><strong>PhoneGap Version</strong> is the version in which you wish to compile your application with PhoneGap. Best practice is to keep up with the current version in order to ensure you get the latest and greatest features and bug fixes.</p> 
+  <p><strong>Content Update Server URL</strong> is the URL which your application will use to call for ContentSync updates. It must be set to your dispatcher URL or, if not using a dispatcher, to one of your publish instances that will be used to serve ContentSync updates to your application.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-124.png" /> 
+  <note> 
+   <p>This section may appear empty unless there is data populating the fields.</p> 
+   <p>At the top of the details view, you'll see Application Version, PhoneGap Version and Update URL, each of these values can be set within Common Metadata section. However, the Application ID cannot be edited.</p> 
+  </note> 
+  <h4>Platform Metadata</h4> 
+  <p>Every platform that's defined in the PhoneGap config.xml can contain custom platform properties. An AEM developer must contribute the content structure to capture these properties. A provided example of platform specific properties can be found for iOS. </p> 
+  <p>Metadata for all configured platforms is now displayed at the same time on the Advanced tab of the Manage App tile.</p> 
+  <note> 
+   <p>The platform metadata sections are not used by PhoneGap during a CLI or Remote PhoneGap build, but rather AEM attempts to capture metadata for platforms such that they can be used later on when submitting to the targeted vendor's application store. </p> 
+  </note> 
+  <p>For platforms which are not understood by AEM, it is still possible for a AEM developer to extend the UI to capture this metadata which later on can be exported and used during the application submission process.</p> 
+  <h4>iOS Metadata</h4> 
+  <p>The Apple AppStore requires additional metadata in order to submit your application for distribution. The iOS metadata section attempts to collect the required information that can be used by Apple's iTMSTransporter tool to publish the metadata to the associated Apple developer's account.</p> 
+  <p>To obtain the Apple specific metadata you first need to create your application on <a href="http://itunesconnect.apple.com/">http://itunesconnect.apple.com</a>. Upon creating your application Apple will generate metadata which is required by the iOS metadata section if you wish to use the Apple iTMSTransporter tool to validate and upload the metadata to itunesconnect.apple.com. If you just want to obtain the metadata to collect you don't necessarily need to fill out the iOS specific metadata. You can still export the metadata that will merge the iOS and common metadata and collect all the screenshots into a zip file that can be downloaded at any time.</p> 
+  <p>The downloaded zip file contains an itmsp file which can be inspected for the metadata.xml. The itmsp file contains the exported metadata (within the metadata.xml file), along with all the associated screenshots.</p> 
+  <p>The export functionality is used to provide a convenient way of collecting the screenshots and metadata that can be passed along to the application publisher for input into the vendor specific application store.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-125.png" /> 
+  <h4>Android Metadata</h4> 
+  <p>When selecting the Android platform, there is no custom metadata at this point that can be set. When clicking on the download button as zip file will be generated with a properties file that contains all the metadata and associated screenshots. </p> 
+  <p>The export functionality is used to provide a convenient way of collecting the screenshots and metadata that can be passed along to the application publisher for input into the vendor specific application store.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-126.png" /> 
+  <h3>Content Update Server URL</h3> 
+  <p>One of the key features of AEM Apps is the ability to have a mobile application request new content through ContentSync, where content can be html resources, pages, video, images, text and more. Once a content author has updated content and then publishes that content the server makes the content update available for the mobile application to download.</p> 
+  <p>The Content Update Server URL property is the URL that must point to a publish instance; either directly or through the dispatcher or CDN. The format of the URL is simply:</p> 
+  <p>http://[hostname]:[port]</p> 
+  <p> </p> 
+  <note> 
+   <p>If your Author server instance is replicating to multiple publish server instances (common architecture for AEM), each publish server will have the same update content because the update is built on the author and replicated to all publish instances. Basically, load balancing and failover is fully supported.</p> 
+  </note> 
+  <h3>The Plugins tab</h3> 
+  <p>The <strong>Plugins</strong> tab describes the plugins associated with your app. This information will be used to retrieve the appropriate plugin during a build.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-127.png" /> 
+  <h3>The Screenshots tab</h3> 
+  <p>The <strong>Screenshots</strong> tab displays the supported screenshot resolutions on different platforms.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-128.png" /> 
+  <note> 
+   <p>To add and remove screenshots, see <a href="../../mobile/using/phonegap-editmetadata.md">Editing App Metadata</a>.</p> 
+  </note> 
+  <h3>The Authentication tab</h3> 
+  <p>The <strong>Authentication</strong> tab allows you to select an OAuth client to be assoicated with your application and enables a developer to utilize Adobe Experience Manager's OAuth authentication. </p> 
+  <img imageRotate="0" src="assets/chlimage_1-129.png" /> 
+  <h3>The Next Steps</h3> 
+  <p>Once you have learnt about Managing App Tile in the application dashboard, see the following resources for other authoring roles:</p> 
+  <ul> 
+   <li><a href="../../mobile/using/phonegap-editmetadata.md">Editing App Metadata</a></li> 
+   <li><a href="../../mobile/using/phonegap-app-definitions.md">App Definitions</a></li> 
+   <li><a href="../../mobile/using/phonegap-create-new-app.md">Creating a New App using Create App Wizard</a></li> 
+   <li><a href="../../mobile/using/phonegap-import-hybrid-app.md">Import an Existing Hybrid App</a></li> 
+   <li><a href="/mobile/using/content-as-a-service">Content Services</a></li> 
+  </ul> 
+  <h3>Additional Resources</h3> 
+  <p>To learn about the roles and responsibilities of an Administrator and Developer, see the resources below:</p> 
+  <ul> 
+   <li><a href="../../mobile/using/developing-in-phonegap.md">Developing for Adobe PhoneGap Enterprise with AEM</a></li> 
+   <li><a href="../../mobile/using/administer-phonegap.md">Administering Content for Adobe PhoneGap Enterprise with AEM</a></li> 
+  </ul> 
+ </body> 
+</html>

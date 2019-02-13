@@ -1,0 +1,116 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="jsyal" name="contentOwner" />
+  <meta content="424e8e0a-0fdb-40e2-b97f-79a491705666" name="jcr:predecessors" />
+  <meta content="2018-11-02T13:39:40.466-0400" name="topicBrowsingSortDate" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="/content/help/en/experience-manager/6-4/screens/morehelp/administering;/content/help/en/experience-manager/6-4/screens/morehelp/administering" name="moreHelpPaths" />
+  <meta content="Adobe Analytics Integration with AEM Screens" name="jcr:title" />
+  <meta content="14751adc-e178-459f-b691-222f69a31361" name="jcr:uuid" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2018-11-02T13:39:40.466-0400" name="publishExternalDate" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/screens/using/adobe-analytics-integration-aem-screens.html" name="publishExternalURL" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="" name="primaryAudienceTag" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SCREENS" name="primaryProductTag" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2018-11-02T13:39:40.519-0400" name="cq:lastModified" />
+  <meta content="en" name="pageCreatedAt" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-11-02T13:39:41.299-0400" name="cq:lastReplicated" />
+  <meta content="jsyal@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2018-10-07T23:58:23.144-0400" name="firstPublishExternalDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2018-11-02T13:39:40.466-0400" name="lastPublishExternalDate" />
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/SCREENS;topic_tags:administering" name="cq:tags" />
+  <meta content="2019-01-15T15:39:03.580-0500" name="jcr:created" />
+  <meta content="jsyal" name="cq:lastModifiedBy" />
+  <meta content="jsyal" name="cq:lastReplicatedBy" />
+  <meta content="Follow this page to learn about out of the box integration of AEM Screens with Adobe Analytics and provides you with a proof of play." name="seoDescription" />
+ </head>
+ <body>
+  <note>
+   <p>This AEM Screens functionality is only available, if you have installed AEM 6.4.2 Feature Pack 2 and AEM 6.3.3 Feature Pack 4.<br /> </p> 
+   <p>To get access to either of these Feature Packs, you must contact Adobe Support and request access. Once you have permissions you can download it from Package Share.</p> 
+  </note>
+  <p>This section covers the following topics:</p> 
+  <ul> 
+   <li><strong>Overview</strong></li> 
+   <li><strong>Architectural Details</strong></li> 
+   <li><strong>Configuring the Properties</strong><br /> </li> 
+  </ul> 
+  <h2>Overview</h2>
+  <p><strong><em>AEM Screens</em></strong> leverages Adobe Analytics, and with that you can achieve something unique in the market - cross-channel analytics that help correlate content shown in location with other data sources.</p> 
+  <p>AEM Screens provides an out of the box integration with Adobe Analytics and provides you with a proof of play.</p> 
+  <p>This section describes the following functionality involved with connecting an AEM Screens project with Adobe Analytics:</p> 
+  <ul> 
+   <li>Allows for proof of play reporting by device</li> 
+   <li>Allows for proof of play reporting by asset</li> 
+   <li>Ensures that all player events are captured and timestamped</li> 
+   <li>Ensures that all player events are stored locally if the play is not connected to a network</li> 
+  </ul> 
+  <div>
+   Adobe Analytics Integration with AEM Screens thus enforces the following 
+   <em>goals</em>:
+  </div> 
+  <ul> 
+   <li>Enable ROI from digital signage implementations</li> 
+   <li>Integrate Analytics as a foundation for future enablement of gathering and analyzing usage information</li> 
+  </ul> 
+  <h2>Architectural Details</h2>
+  <p>The following architectural diagram explains the Adobe Analytics Integration with AEM Screens:</p> 
+  <img imageRotate="0" src="assets/screen_shot_2018-09-12at85611am.png" />
+  <h2>Enabling Adobe Analytics in AEM Screens</h2>
+  <p>The Adobe Analytics settings can be configured from the OSGi console.</p> 
+  <p>Navigate to <strong>Adobe Experience Manager Web Console Configuration</strong> to configure Adobe Analytics for AEM Screens, as shown in the figure below:</p> 
+  <img imageRotate="0" src="assets/screen_shot_2018-09-04at25550pm.png" />
+  <h3>Configuring the Properties</h3>
+  <note>
+   <p>Before you configure the properties, please contact your Adobe Relationship Manager to create a ticket to obtain an <strong>Anaytics API Key</strong> and <strong>Anaytics Project</strong> for use with AEM Screens.<br /> </p> 
+  </note>
+  <p>The following table highlights the properties with their description for configure Adobe Analytics for AEM Screens:</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody>
+    <tr>
+     <td><strong>Property</strong></td> 
+     <td><strong>Description</strong></td> 
+    </tr>
+    <tr>
+     <td><strong>Analytics URL</strong></td> 
+     <td>URL to post analytics data from the player<br /> </td> 
+    </tr>
+    <tr>
+     <td><strong>Analytics API Key</strong></td> 
+     <td>API key to authenticate to the Adobe Analytics server (provided by the Accounts Manager)</td> 
+    </tr>
+    <tr>
+     <td><strong>Analytics Project</strong></td> 
+     <td>AEM Screens project configured on your analytics to receive data (provided by the Accounts Manager)</td> 
+    </tr>
+    <tr>
+     <td><strong>Environment</strong></td> 
+     <td><p>Stage or Production environment.</p> <p><em>For development/stage</em> - https://cc-api-data-stage.adobe.io/ingest/<br /> <em>For Production</em> - https://cc-api-data.adobe.io/ingest/</p> </td> 
+    </tr>
+    <tr>
+     <td><strong>Analytics Send Frequency</strong></td> 
+     <td>Frequency in minutes for sending analytics data from the players. By default, it is set to 15 mins.</td> 
+    </tr>
+   </tbody>
+  </table> 
+  <note>
+   <p>By default, the <strong>Analytics Send Frequency </strong>is 15 minutes.</p> 
+  </note>
+  <h4>Using Adobe Analytics Service in AEM Screens</h4>
+  <p>This scenario invokes Analytics API through REST calls from an analytics service in the firmware and instrument screens-core components to explicitly create and send events specific to a particluar use case while allowing extensibility where any custom message can be sent to Analytics from a custom developed channel.</p> 
+  <p>Analytics events are stored offline in indexedDB and later chunked and sent to the cloud.</p> 
+  <note>
+   <p>To learn more about the <strong><em>Sequencing </em></strong>and<strong><em> Standard Data Model for Events</em></strong>, please refer to <strong><a href="../../screens/using/configuring-adobe-analytics-aem-screens.md">Configuring Adobe Analytics for AEM Screens</a></strong> in Developer's section of AEM Screens.</p> 
+  </note>
+ </body>
+</html>

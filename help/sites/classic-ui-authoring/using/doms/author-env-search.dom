@@ -1,0 +1,101 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="2017-10-31T16:19:29.879-0400" name="firstPublishExternalDate" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="Chris Bohnert" name="contentOwner" />
+  <meta content="/content/help/en/experience-manager/6-4/sites/classic-ui-authoring/morehelp/introduction;/content/help/en/experience-manager/6-4/sites/classic-ui-authoring/morehelp/introduction" name="moreHelpPaths" />
+  <meta content="fa94b1b0-c719-484d-a139-544cbbd705fc" name="jcr:predecessors" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" />
+  <meta content="Search" name="navTitle" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-04-19T10:23:45.822-0400" name="cq:lastModified" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="2018-04-03T06:43:20.160-0400" name="cq:lastReplicated" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2018-04-03T06:43:19.485-0400" name="publishExternalDate" />
+  <meta content="2018-04-03T06:43:19.485-0400" name="topicBrowsingSortDate" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="/content/docs/en/aem/6-3/author/classicui/author-environment/search" name="qaNotes" />
+  <meta content="5134eac5-bdff-44e8-bf75-6bade1da7876" name="jcr:uuid" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/classic-ui-authoring/using/author-env-search.html" name="publishExternalURL" />
+  <meta content="Search" name="jcr:title" />
+  <meta content="2017-12-01T19:03:34.585-0500" name="jcr:created" />
+  <meta content="The author environment of AEM provides various mechanisms for searching for content, dependent on the the resource type." name="seoDescription" />
+  <meta content="2018-04-19T10:23:45.820-0400" name="locHandOffDate" />
+  <meta content="Search" name="seoTitle" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2018-04-03T06:43:19.485-0400" name="lastPublishExternalDate" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:introduction;content_type:reference" name="cq:tags" />
+  <meta content="audience:classic-ui-authoring" name="primaryAudienceTag" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+ </head>
+ <body>
+  <p>The author environment of AEM provides various mechanisms for searching for content, dependent on the the resource type.</p> 
+  <note>
+   <p>Outside the author environment other mechanisms are also available for searching, such as the <a href="../../../sites/developing/using/querybuilder-api.md">Query Builder</a> and <a href="../../../sites/developing/using/developing-with-crxde-lite.md">CRXDE Lite</a>.</p> 
+  </note>
+  <h2>Search Basics</h2>
+  <p>To access the search panel, click on the <strong>Search</strong> tab at the top of the left-hand pane of the appropriate console.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-152.png" />
+  <p>The search panel lets you search across all your website pages. It contains fields and widgets for the following: <br /> </p> 
+  <ul> 
+   <li><strong>Fulltext</strong>: Search for the specified text</li> 
+   <li><strong>Modified after/before</strong>: Search only those pages that were changed between the specific dates</li> 
+   <li><strong>Template</strong>: Search only those pages based on the specified template</li> 
+   <li><strong>Tags</strong>: Search only those pages with the specified tags</li> 
+  </ul> 
+  <note>
+   <p>When your instance is configured for <a href="../../../sites/deploying/using/queries-and-indexing.md">Lucene search</a> you can use the following in <strong>Fulltext</strong>:</p> 
+   <ul> 
+    <li><a href="https://lucene.apache.org/core/5_3_1/queryparser/org/apache/lucene/queryparser/classic/package-summary.html#Wildcard_Searches">Wildcards</a></li> 
+    <li><a href="https://lucene.apache.org/core/5_3_1/queryparser/org/apache/lucene/queryparser/classic/package-summary.html#Boolean_operators">Boolean Operators</a><br /> </li> 
+    <li><a href="https://lucene.apache.org/core/5_3_1/queryparser/org/apache/lucene/queryparser/classic/package-summary.html#Regexp_Searches">Regular expressions</a></li> 
+    <li><a href="https://lucene.apache.org/core/5_3_1/queryparser/org/apache/lucene/queryparser/classic/package-summary.html#Field_Grouping">Field Grouping</a></li> 
+    <li><a href="https://lucene.apache.org/core/5_3_1/queryparser/org/apache/lucene/queryparser/classic/package-summary.html#Boosting_a_Term">Boosting</a></li> 
+   </ul> 
+  </note>
+  <p>Execute the search by clicking <strong>Search</strong> at the bottom of the pane. Click <strong>Reset</strong> to clear the search criteria.</p> 
+  <h2>Filter</h2>
+  <p>At various locations a filter can be set (and cleared) to drill down and refine your view:</p> 
+  <img imageRotate="0" src="assets/chlimage_1-153.png" />
+  <h2>Find and Replace</h2>
+  <p>In the <strong>Websites</strong> console a <strong>Find &amp; Replace</strong> menu option allows you to search for, and replace multiple instances of a string, within a section of the website.</p> 
+  <ol>
+   <li><p>Select the root page, or folder, where you want the find and replace action to take place.</p> </li>
+   <li><p>Select <strong>Tools</strong> then <strong>Find &amp; Replace</strong>:</p> <img imageRotate="0" src="assets/screen_shot_2012-02-15at120346pm.png" /></li>
+   <li><p>The <strong>Find &amp; Replace</strong> dialog does the following:</p> 
+    <ul> 
+     <li>confirms the root path where the find action should start</li> 
+     <li>defines the term to be found</li> 
+     <li>defines the term that should replace it</li> 
+     <li>indicates whether the search should be case-sensitive</li> 
+     <li>indicates whether only whole words should be found (otherwise substrings are also found)</li> 
+    </ul> <p>Clicking <strong>Preview</strong> lists where the term has been found. You can select/clear specific instances to be replaced:</p> <img imageRotate="0" src="assets/screen_shot_2012-02-15at120719pm.png" /></li>
+   <li><p>Click <strong>Replace</strong> to actually replace all instances. You will be asked to confirm the action.</p> </li>
+  </ol>
+  <p>The default scope for the find and replace servlet covers the following properties:</p> 
+  <ul> 
+   <li><span class="code">jcr:title</span></li> 
+   <li><span class="code">jcr:description</span></li> 
+   <li><span class="code">jcr:text</span></li> 
+   <li><span class="code">text</span></li> 
+  </ul> 
+  <p>The scope can be changed using the Apache Felix Web Management Console (for example, at <span class="code">http://localhost:4502/system/console/configMgr</span>). Select <span class="code">CQ WCM Find Replace Servlet (com.day.cq.wcm.core.impl.servlets.FindReplaceServlet)</span> and configure the scope as required.</p> 
+  <note>
+   <p>In a standard AEM installation Find and Replace uses Lucene for the search functionality.</p> 
+   <p>Lucene indexes string properties of up to 16k in length. Strings in excess of this will not be searched.<br /> </p> 
+  </note>
+ </body>
+</html>

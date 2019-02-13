@@ -1,0 +1,357 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2018-04-03T08:53:35.462-0400" name="publishExternalDate" />
+  <meta content="" name="autotags" />
+  <meta content="later" name="locPublishOption" />
+  <meta content="yellow" name="acrolinxPageStatus" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="head1_20111213" name="gep_conversion_script_version" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2013-03-14T14:14:55.831-0400" name="cq%3AlastModified" />
+  <meta content="2013-02-13T03:00:00.000-0500" name="topicBrowsingSortDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="Working with To-do lists" name="navTitle" />
+  <meta content="https://helpx.stage.adobe.com/aem-forms/6-1/html-workspace/todo-lists.html" name="publishQAURL" />
+  <meta content="2015-09-28T10:49:40.395-0400" name="publishQADate" />
+  <meta content="" name="autotagsRejected" />
+  <meta content="2013-02-13T03:00:00.000-0500" name="sortDate" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="How to open, work on, and complete the tasks as required, such as approving or rejecting a request or adding more information." name="seoDescription" />
+  <meta content="2018-04-26T04:32:07.129-0400" name="cq:lastModified" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/todo-lists.html" name="publishExternalURL" />
+  <meta content="Working with To-do lists" name="jcr:title" />
+  <meta content="2016-05-31T06:49:39.211-0400" name="acrolinxDate" />
+  <meta content="2015-09-28T10:49:40.395-0400" name="lastPublishQADate" />
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/todo_lists_admin_5e12de0b318c6865_2147_report.xml" name="acrolinxReportURL" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="asgupta" name="cq%3AlastModifiedBy" />
+  <meta content="mix:lockable;mix:versionable" name="jcr:mixinTypes" />
+  <meta content="robhagat" name="contentOwner" />
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:forms-workspace" name="cq:tags" />
+  <meta content="not_checked" name="acrolinxStatus" />
+  <meta content="2013-03-22T13:19:07.645-0400" name="firstPublishExternalDate" />
+  <meta content="0802efef-9803-4950-8b9c-5fe05bfcf709" name="jcr:predecessors" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-04-03T08:53:35.462-0400" name="lastPublishExternalDate" />
+  <meta content="2013-02-19T05:45:22.268-0500" name="firstPublishQADate" />
+  <meta content="robhagat" name="lr_lastModifiedBy" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" />
+  <meta content="217" name="acrolinxSentences" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="09/06/13" name="locPublishDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" />
+  <meta content="robhagat" name="lr_creator" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2018-04-03T08:53:36.081-0400" name="cq:lastReplicated" />
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2013-02-13T03:00:00.000-0500" name="lr_lastModified" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="LiveCycle/10.5/HTMLWorkspace/WSbc2d9d23a54292497c9e7c0313cb9a927d9-7ff4,LiveCycle/10.5/HTMLWorkspace/WSbc2d9d23a54292497c9e7c0313cb9a927d9-7ff3,LiveCycle/10.5/HTMLWorkspace/WSbc2d9d23a54292497c9e7c0313cb9a927d9-7ff2,LiveCycle/10.5/HTMLWorkspace/WSbc2d9d23a54292497c9e7c0313cb9a927d9-7ff1,LiveCycle/10.5/HTMLWorkspace/WSbc2d9d23a54292497c9e7c0313cb9a927d9-7ff0,LiveCycle/10.5/HTMLWorkspace/WSbc2d9d23a54292497c9e7c0313cb9a927d9-7fef,LiveCycle/10.5/HTMLWorkspace/WSbc2d9d23a54292497c9e7c0313cb9a927d9-7fee,LiveCycle/10.5/HTMLWorkspace/WSbc2d9d23a54292497c9e7c0313cb9a927d9-7fed,LiveCycle/10.5/HTMLWorkspace/WSbc2d9d23a54292497c9e7c0313cb9a927d9-7fec,LiveCycle/10.5/HTMLWorkspace/WSbc2d9d23a54292497c9e7c0313cb9a927d9-7feb,LiveCycle/10.5/HTMLWorkspace/WSbc2d9d23a54292497c9e7c0313cb9a927d9-7fea,LiveCycle/10.5/HTMLWorkspace/WSbc2d9d23a54292497c9e7c0313cb9a927d9-7fe9,LiveCycle/10.5/HTMLWorkspace/WSbc2d9d23a54292497c9e7c0313cb9a927d9-7fe8,LiveCycle/10.5/HTMLWorkspace/WSbc2d9d23a54292497c9e7c0313cb9a927d9-7fe7,LiveCycle/10.5/HTMLWorkspace/WSbc2d9d23a54292497c9e7c0313cb9a927d9-7fe6,LiveCycle/10.5/HTMLWorkspace/WSbc2d9d23a54292497c9e7c0313cb9a927d9-7fe5,LiveCycle/10.5/HTMLWorkspace/WSbc2d9d23a54292497c9e7c0313cb9a927d9-7fe4,LiveCycle/10.5/HTMLWorkspace/WSbc2d9d23a54292497c9e7c0313cb9a927d9-7fe3,LiveCycle/10.5/HTMLWorkspace/WSbc2d9d23a54292497c9e7c0313cb9a927d9-7fe2,LiveCycle/10.5/HTMLWorkspace/WSbc2d9d23a54292497c9e7c0313cb9a927d9-7fe1,LiveCycle/10.5/HTMLWorkspace/WSbc2d9d23a54292497c9e7c0313cb9a927d9-7fe0,LiveCycle/10.5/HTMLWorkspace/WSbc2d9d23a54292497c9e7c0313cb9a927d9-7fdf,LiveCycle/10.5/HTMLWorkspace/WSbc2d9d23a54292497c9e7c0313cb9a927d9-7fde,LiveCycle/10.5/HTMLWorkspace/WSbc2d9d23a54292497c9e7c0313cb9a927d9-7fdd,LiveCycle/10.5/HTMLWorkspace/WSbc2d9d23a54292497c9e7c0313cb9a927d9-7fdc" name="cq:gepId" />
+  <meta content="2017-12-01T19:06:46.452-0500" name="jcr:created" />
+  <meta content="2018-04-26T04:32:07.127-0400" name="locHandOffDate" />
+  <meta content="3996" name="acrolinxWords" />
+  <meta content="55573643-f651-4c2b-a533-ed5bbe87c3c5" name="jcr:uuid" />
+ </head>
+ <body>
+  <p>When you view your To-do lists, you may see tasks from a business process that are assigned to you, or to any groups that you belong to, or are the shared tasks of other users. You can open, work on, and complete the tasks as required, such as approving or rejecting a request or adding more information. After you complete a task, it is sent to the next person in the business process,</p> 
+  <h2 id="about_todo_lists">About To-do lists</h2>
+  <p>AEM Forms workspace has the following three types of To-do lists:</p> 
+  <ul> 
+   <li><p>Individual lists, which contain tasks that are assigned directly to you.</p> </li> 
+   <li><p>Group lists, which contain tasks that are assigned to a group. Any member of the group can open and complete the tasks. To open a task, a member of a group must claim the task first.</p> </li> 
+   <li><p>Shared lists, which contain tasks that are assigned to a user who has shared their To-do list with you and possibly other users. Any of the users sharing a list can claim, open, and complete shared tasks.</p> </li> 
+  </ul> 
+  <p>You can perform some actions without opening the task by clicking the icons that appear when you hover the pointer over a task.</p> 
+  <note>
+   <p>An exclamation icon indicates that the task is of high priority.</p> 
+  </note>
+  <h2 id="typical_tasks">Typical tasks</h2>
+  <p></p>
+  <p>When opening and working on a task, the tools that are available to you depend on the task. Different tasks require you to perform different actions and, for this reason, some tools may or may not be available to you. The typical tasks that you may receive are described below.</p>
+  <p><strong>Provide information</strong>: You receive a task that requires you to complete and submit a form.</p>
+  <p><strong>Review information</strong>: You receive a task that requires you to review the information and sign off on the content.</p>
+  <p><strong>Multiuser review</strong>: You receive a task at the same time other users receive the task. You and the other users must either provide information or review the content, or both. The following tools may be available with this type of task: </p>
+  <ul>
+   <li><p>Viewing the instructions for the task</p></li>
+   <li><p>Viewing the completion status of all users who are assigned the task</p></li>
+   <li><p>Viewing the comments of all users who are assigned the task</p></li>
+   <li><p>Adding comments to the task yourself</p></li>
+  </ul>
+  <p>Additional tools that may be available with any of the above tasks include the following:</p> 
+  <ul> 
+   <li>Forward </li> 
+   <li>Share </li> 
+   <li>Consult</li> 
+   <li>Return </li> 
+   <li>Notes</li> 
+   <li>Attachments</li> 
+  </ul> 
+  <h2 id="opening_tasks">Opening tasks</h2>
+  <p></p>
+  <p>You can open and lock tasks from your To-do list or claim and open tasks from a group or shared To-do list. When you open a task, it is displayed in the main pane. The other tasks are displayed in the task list next to the To-do list.</p> 
+  <p>If a Task Summary URL exists, the Task Summary view opens by default, instead of the form associated with a task. Even when a user enables ‘Open the form in maximized mode' option in Assign Task, the form does not open in maximized mode.</p> 
+  <note>
+   <p>When you open a task, depending on the task defaults, the associated form may display in full view.</p> 
+  </note>
+  <h3 id="open_and_lock_a_task_from_your_list">Open and lock a task from your list</h3>
+  <p></p>
+  <p>When you open a task from your To-do list, if your list is shared, you can lock the task to prevent another user who has access to your list from working on the task.</p> 
+  <ol>
+   <li><p>On the To-do page, in the left pane, select your individual To-do list. All your tasks are displayed in the middle pane.</p> 
+    <note>
+     <p>You can filter the tasks by selecting the process type within the To-do list. You can select your To-do list, to view all the tasks in the To-do list again.</p> 
+    </note></li>
+   <li><p>If necessary, lock your task. To lock a task, click All Options icon on the task and select Lock. Hover the pointer on the task for the option to be available.</p> 
+    <note>
+     <p>You can also lock or unlock a task on any tab when the task is open.</p> 
+    </note><img captionBottom="All Options menu on a task" imageRotate="0" src="assets/lock_task.png" /></li>
+   <li><p>Open the task by clicking it.</p> </li>
+  </ol>
+  <h3 id="open_and_claim_a_task_from_a_shared_or_group_list">Open and claim a task from a shared or group list</h3>
+  <p></p>
+  <p>When you open and claim a task from a group or shared list, the task is moved from the group or shared list into your individual To-do list. Other users with access to the list are prevented from working on the task. </p>
+  <ol>
+   <li><p>On the To-do page, in the left pane, select a group or shared To-do list. All the tasks are displayed in the middle pane.</p> </li>
+   <li><p>Perform one of these steps:</p>
+    <ul> 
+     <li><p>To claim a task, without opening it, from a group or shared To-do list, click <strong>Claim </strong>by hovering the pointer over the task. Alternatively, when task is open, the Claim button is available in the action bar below the task pane. Upon claiming, a task moves from the group or shared To-do list to your list.</p> </li> 
+     <li><p>To claim and open a task from a group or shared To-do list, click <strong>Claim and open</strong>.</p> </li> 
+    </ul> </li>
+  </ol>
+  <h2 id="working_with_tasks">Working with tasks</h2>
+  <p></p>
+  <p>After opening a task, the tabs that are displayed in the main pane and the tools that are available to you depend on the task. The tabs that you may see are described below:</p> 
+  <p><strong>Task Summary</strong>: When a task opens, the Task Summary pane allows you to show information about the task, if it exists, using a URL specified in the process at Assign Task step. Using Task Summary Pane additional and relevant information for a task can be displayed to add more value for the end-user of AEM Forms workspace. This tab is not available, if the Task Summary URL does not exist.</p> 
+  <p><strong>Details</strong>: Provides some information about the current task and process that it belongs to.</p> 
+  <p><strong>Form</strong>: Displays the form that is associated with the task. The form can be of many file types, including PDF, HTML, Guide, and SWF file. The form can look like a regular printable or web-based form or guide you through a series of wizard-style panels to gather information.</p> 
+  <p><strong>History</strong>: Lists the tasks that are part of the process instance and the associated form, task assignments, and attachments for each task.</p> 
+  <p><strong>Attachments</strong>: Displays existing attachments that are associated with the task and add attachments, if necessary.</p> 
+  <p><strong>Notes</strong>: Displays the existing notes associated with the task and add notes, if necessary.</p> 
+  <p>When working on a task, the tools you may see and actions you can take are described below.</p> 
+  <h3 id="forward_share_or_consult_on_a_task">Forward, share, or consult a task</h3>
+  <p>You can forward a task along with any notes or attachments to another user or share the task or consult the task with another user. If you change the form data that is associated with a task, save the form as a draft before you forward, share, or consult the task. Otherwise, the task is sent without the updated form. After you forward and share a task, the user who receives the task can claim and complete it or return it to you. If you consult a task, the user can only return the task to you.</p> 
+  <ol>
+   <li><p>If you change a form associated with a task that you want to keep, click <strong>Save</strong>. Save option is available in the action bar at the bottom of each tab. Otherwise, the task is sent without the updated form.</p> 
+    <note>
+     <p>The Save button is not available for some forms, depending on the task that you are working on.</p>
+    </note></li>
+   <li><p>On any tab, click one of these buttons:</p> 
+    <ul> 
+     <li> </li> 
+     <li> </li> 
+     <li> </li> 
+    </ul> 
+    <note>
+     <p>Depending on the task, you may also be able to perform these actions from the To-do list without opening the task.</p>
+    </note></li>
+   <li><p>On the pop-up dialog window, search and select the name of the user to forward, share, or consult the task with.</p> </li>
+  </ol>
+  <h3 id="return_a_task">Return a task</h3>
+  <p></p>
+  <ol>
+   <li><p>On any tab, click <strong>Return</strong>. The task is returned to the To-do list of the user who previously forwarded the task to you, or shared or consulted the task with you.</p> </li>
+  </ol>
+  <h3 id="take_a_task_offline">Take a task offline</h3>
+  <p></p>
+  <p>You may be allowed to work on a task offline and later submit its form from Adobe® Reader® or Adobe® Acrobat® Professional or Adobe® Acrobat® Standard. When the form is submitted, your email client is started with the appropriate server email address. You can then email the completed form to the server.</p> 
+  <ol>
+   <li><p>On any tab, click<strong> Offline</strong>.</p> </li>
+   <li><p>Specify a filename to save the form under and click <strong>Save</strong>. The form that is associated with the task is saved locally and the task remains in your To-do list until the form is submitted.</p></li>
+  </ol>
+  <h3 id="work_with_attachments">Work with attachments</h3>
+  <p></p>
+  <p>You may be allowed to add, update, delete, or save any attachments locally. </p>
+  <p><strong>Add an attachment</strong></p>
+  <ol>
+   <li><p>In the <strong>Attachments</strong> tab, Click <strong>Browse</strong> to select the file to attach.</p> </li>
+   <li><p>Select the <strong>Permissions</strong> level for the attachment for other users who participate in the process. If you select <strong>Read</strong>, other users can save the file locally. If you select one of the edit permissions, other users can also upload a new file to replace your attachment.</p>
+    <note>
+     <p>You can also add comments alongside your attachments.</p> 
+    </note></li>
+   <li><p>Click <strong>Upload</strong>. The file is attached to the form.</p> </li>
+  </ol>
+  <p><strong>View an attachment</strong></p>
+  <ol>
+   <li><p>On the <strong>Attachments</strong> tab, click the filename of the attachment to view.</p></li>
+  </ol>
+  <p><strong>Save an attachment locally</strong></p>
+  <ol>
+   <li><p>Click an attachment to open it. Save the open attachment locally.</p> </li>
+  </ol>
+  <p><strong>Update an attachment</strong></p>
+  <ol>
+   <li><p>Click <strong>Edit</strong> for the attachment. Select the file to replace the existing attachment with, by clicking <strong>Browse</strong>.</p> </li>
+  </ol>
+  <p><strong>Delete an attachment</strong></p>
+  <ol>
+   <li><p>Click <strong>Delete</strong> for an attachment.</p> </li>
+  </ol>
+  <h3 id="save_your_work_without_completing_the_task">Save your work without completing the task</h3>
+  <p></p>
+  <ol>
+   <li><p>On any tab, tap<strong> Save</strong>. </p> <p>The Save As Draft dialog appears. The default name of the draft is the task name from the task template.</p> <img imageRotate="0" src="assets/saveasdraftdialog.png" />
+    <note>
+     <p>You can configure workspace to periodically auto-save the information entered by a user as a draft. If auto-save is enabled and a user is working on a draft, the draft is saved periodically. In case of auto-save, the default name of the task is automatically taken. </p> 
+     <p>For more information, see Save Draft Periodically in <a href="../../forms/using/getting-started-livecycle-html-workspace.md">Managing Preferences</a>.</p> 
+    </note></li>
+   <li><p>In the Save As Draft dialog, specify a unique name for the task and tap <strong>OK</strong>.</p> <img imageRotate="0" src="assets/saveasdraftdialog_name.png" /><p>The draft is saved with the specified name. The task remains in your To-do list and any changes you made in the form are saved in the Drafts folder. Further, in your To-do list, you can search for the draft using the draft name to resume working on it.</p> <img imageRotate="0" src="assets/searchfortask.png" /></li>
+  </ol>
+  <h2 id="completing_tasks">Completing tasks</h2>
+  <p></p>
+  <p>How you complete a task depends on the task itself and your role in the process. You may be asked to approve or deny a request, provide content, review and verify information, or indicate that you acted.</p> 
+  <p>You can complete a task in various ways:</p> 
+  <ul> 
+   <li><p>Using the actions available in any of the tabs</p> </li> 
+   <li><p>Using the actions built in the form itself</p> </li> 
+   <li><p>From your To-do list, without opening the task<br /> Note: This option is available if <span class="code">isMustOpenToComplete</span> field is not selected in the <span class="code">Assign Task</span> step in Workbench, while designing a process.</p> </li> 
+   <li><p>By email, if you receive email notifications</p> </li> 
+  </ul> 
+  <p>When you complete a task, depending on the task, a confirmation dialog box may appear reaffirming your action. For example, you may see a dialog that prompts you to attest to the validity of the information that you provided.</p>
+  <note>
+   <p>If you changed a task but are not ready to complete it, you can save your work as a draft by clicking Save and return to it later.</p> 
+  </note>
+  <h3 id="complete_a_task">Complete a task</h3>
+  <p></p>
+  <ol>
+   <li><p>Perform one of the following steps:</p>
+    <ul> 
+     <li><p>Select the task and click the appropriate button for the next step required in the process at the bottom of the list.</p> </li> 
+     <li><p>If the form has no buttons and the Complete button in AEM Forms workspace is available, click <strong>Complete</strong>.</p> </li> 
+     <li><p>If the form has buttons and the Complete button in AEM Forms workspace is not available, click the appropriate button on the form for the next step required in the process.</p> </li> 
+    </ul> <p>If the form has no buttons and the Complete button in AEM Forms workspace is not available, a message appears, indicating that the form cannot be submitted.</p> </li>
+   <li><p>If a Confirmation dialog box appears, do one of these actions:</p>
+    <ul>
+     <li><p>Click <strong>OK</strong> if you completed the task and are ready to sign off on it.</p></li>
+     <li><p>Click <strong>Cancel</strong> if you want to return to the task and are not ready to sign off on it.</p></li>
+    </ul></li>
+  </ol>
+  <note>
+   <p>You may see a Submit button inside HTML forms when Process Properties are used in a form. This button is not visible when the same form is rendered as PDF. To complete a task click the Submit button available at the bottom of the AEM Forms workspace, outside the form and not on the Submit button inside the form.</p> 
+  </note>
+  <h3>Bulk approve tasks</h3>
+  <p>You can submit multiple tasks from your To Do list. Only tasks of the same process, with the same task names, and the same route options can be submitted together. </p> 
+  <note>
+   <p>This option is available if isMustOpenToComplete field is not selected in the Assign Task step in Workbench, while designing a process.</p> 
+  </note>
+  <ol>
+   <li><p>On the To-do page, in the left pane, select your individual To-do list. All your tasks are displayed in the middle pane.</p> </li>
+   <li><p>Select <strong>Enable Bulk Mode</strong>. Check boxes appear in front of the tasks in the list.</p> 
+    <note>
+     <p>This option is not available for tasks for which isMustOpenToComplete field is selected in the Assign Task step in Workbench, while designing a process. Checkboxes of such tasks in the TO-<span class="acrolinxCursorMarker"></span>DO list remain disabled always.</p> 
+    </note></li>
+   <li><p>Select tasks for bulk approval. Multiple tasks of the same process, with the same task names, and the same route options can be selected. Once you select one task for approval, only the tasks with the same process, with the same task names, and the same route options remain enabled. The rest are disabled. </p> <img imageRotate="0" src="assets/1_bulkapproval.png" /></li>
+   <li><p>Click the available Submit option. The selected tasks get submitted. </p> <img imageRotate="0" src="assets/bulkapproval.png" /></li>
+  </ol>
+  <h2 id="participating_in_tasks_through_email">Participating in tasks through email</h2>
+  <p></p>
+  <p>You can receive and complete tasks through email. Participating in tasks through emails eliminates having to routinely check your To-do list for new tasks or check the Tracking page for the status of a task.</p> 
+  <p>First, set your AEM Forms workspace preferences to receive email notifications. AEM Forms workspace can send email notifications for tasks in your To-do list or any group To-do lists that you belong to. The administrator determines when email notification messages are sent and who receives them.</p> 
+  <p>The email messages may contain a link that opens the task in AEM Forms workspace, an attachment of the form that is used for the task, or actions for completing the task through email. If a form is included in the email message, you can open the form and complete the task if the buttons for completing the task are built in the form. If actions for completing the task are included in the email message, you can complete the task by clicking the actions in the email or by replying to the email with the action typed as the first line in the body of the email.</p> 
+  <p><strong>Note</strong>: To configure the workspace to use the appropriate email templates, see the <a href="http://help.adobe.com/en_US/AEMForms/6.1/AdminHelp/">AEM Forms JEE Administrator Guide</a>.</p> 
+  <p>When you complete a task through email, the task is removed from your To-do list in AEM Forms workspace.</p> 
+  <note>
+   <p>If user is not logged in AEM Forms workspace in the browser and opens a link to a To-do task, the direct To-do link fails to open up and displays an exception. Log in the AEM Forms workspace before clicking links in the emails.</p> 
+  </note>
+  <note>
+   <p>You cannot forward an email notification to assign a task to someone else. You can only forward tasks to other users from within AEM Forms workspace.</p> 
+  </note>
+  <h3 id="receive_email_notification_messages">Receive email notification messages</h3>
+  <p></p>
+  <ol>
+   <li><p>Click <strong>Preferences</strong>.</p></li>
+   <li><p>In the <strong>Notify Task Events via Email</strong> list, select <strong>Yes</strong>.</p></li>
+   <li><p>To include the form and data with the email message, in the <strong>Attach Forms in Email</strong> list, select <strong>Yes</strong>.</p></li>
+  </ol>
+  <h2 id="participating_in_tasks_through_mobile_devices">Participating in tasks through mobile devices</h2>
+  <p></p>
+  <p>You can use AEM Forms workspace app to participate in tasks from your mobile device. Before installing the application, check with your systems administrator to ensure that your organization supports the use of AEM Forms workspace app.</p> 
+  <h2 id="about_deadlines_and_reminders">About deadlines and reminders</h2>
+  <p></p>
+  <p>A <em>deadline</em> determines the date and time that you must complete a task by. When a deadline passes, the server routes the task to the next step in the process (which can be another user’s To-do list) and then the deadline icon appears on the task. The deadline icon appears regardless of the rules that are associated with the process.</p> 
+  <p>A <em>reminder</em> notifies you of a task that requires your attention. Reminders occur at a predetermined time and then at regular intervals until you complete the associated task. When you receive a reminder, the reminder icon appears on the task.</p> 
+  <p>The business process determines the behavior and timing of deadlines and reminders. Not all processes have deadlines and reminders. The administrator specifies whether email notifications are sent for deadlines and reminders. You can set your preferences on whether to receive email notifications.</p> 
+  <h2 id="working_with_tasks_from_group_and_shared_queues">Working with tasks from group and shared queues</h2>
+  <p></p>
+  <p>All tasks that are assigned to you appear in your To-do list (queue).</p> 
+  <p>Any group and shared To-do lists that you have access to also appear in the left pane on the To-do page. You can complete tasks from any To-do list that you have access to.</p> 
+  <p>A group To-do list may have more than one member. An administrator sets up group To-do lists based on the specific requirements of your organization. Group To-do lists provide a way to distribute work among several people who share similar responsibilities.</p> 
+  <p>For example, each member of your team processes loan application forms. All these tasks are sent to a group To-do list that every member of your group has access to. Each member of your group can access the tasks from that To-do list.</p> 
+  <p>A shared To-do list appears when another user shares their To-do list with you, or explicitly shares a task with you. You can then view the tasks in that user’s To-do list and complete them on that user’s behalf. For example, if you are taking a vacation, you may choose to share your To-do list with a co-worker who completes your tasks while you are away.</p> 
+  <note>
+   <p>You can also specify out-of-office settings to forward tasks to other users while you are away.</p>
+  </note>
+  <p>To work on a task from a group or shared To-do list, claim the task first. You then become the owner of the task until you complete it or forward it to another user.</p> 
+  <h3 id="sharing_queues">Sharing queues</h3>
+  <p></p>
+  <p>You can share your To-do list with another user, who can then view the new tasks in your To-do list and act upon them for you. If any tasks exist in your To-do list before you share your To-do list, the other user cannot view them. The user can view and claim only the tasks that arrive in your To-do list after you grant access to your To-do list.</p>
+  <p>Keep in mind that for a user to see a task in a shared queue, the process designer must enable the Add ACL for Shared Queue option on the Task Access Control List (ACL) tab of the User Service.</p>
+  <note>
+   <p>If you plan to be away from the office, you can also specify out-of-office settings to forward tasks to other users while you are away instead of sharing your entire To-do list.</p>
+  </note>
+  <p><strong>Share your queue</strong></p>
+  <ol>
+   <li><p>In the <strong>Queues</strong> tab in the <strong>Preferences</strong> tab, click '+' icon for 'Users currently sharing my queue'.</p> </li>
+   <li><p>Search and select the name of the user.</p> </li>
+   <li><p>Click <strong>Share</strong> button, to share your Queue with the selected user.</p> </li>
+   <li><p>Select the name of the user and click <strong>Share</strong>.</p> 
+    <note>
+     <p>You can remove a user from sharing your To-do list by click <strong>X</strong> icon at the end of the row in which the user is listed.</p> 
+    </note></li>
+  </ol>
+  <h3 id="accessing_other_queues">Accessing other queues</h3>
+  <p></p>
+  <p>You can request access to another user’s To-do list to view and claim any new tasks in the user’s To-do list.</p>
+  <p>When you request access to another user’s To-do list, the user receives a task in their To-do list to either approve or deny your request. After the user completes the task, you receive a notification in your To-do list.</p>
+  <p>If you are granted access to another user’s To-do list, you cannot view any tasks that existed in the user’s To-do list before you were granted access. You can view only the tasks that arrive in the user’s To-do list after you are granted access to the To-do list.</p>
+  <p><strong>Access another queue</strong></p>
+  <ol>
+   <li><p>In the <strong>Preferences </strong>tab, open the <strong>Queues</strong> tab.</p> </li>
+   <li><p>Click '+' for the 'User queues that I have access to'. Search for the name of the user in the pop-<span class="acrolinxCursorMarker"></span>up dialog.</p> </li>
+   <li><p>Select the name of the user and click <strong>Request</strong>.</p>
+    <note>
+     <p>You can remove your access to another To-do list by selecting the user name from the Users Queues That I have Access To list and clicking <strong>X</strong> at the end of the row mentioning the user's name. You cannot remove your access to another To-do list when the request to access the To-do list is still pending.</p> 
+    </note></li>
+  </ol>
+  <h2 id="setting_out_of_office_preferences">Setting out-of-office preferences</h2>
+  <p></p>
+  <p>If you plan to be out of the office, you can specify what happens to tasks that are assigned to you for that period.</p>
+  <p>You have the option of specifying a start date and time and an end date and time for your out-of-office settings to be in effect. If you are located in a different time zone from the server, the time zone used is that of the server.</p>
+  <p>You can set a default person to which all of your tasks are sent. You can also specify exceptions for tasks from specific processes to be sent to a different user or to remain in your To-do list until you return. If the designated person is also out of the office, the task goes to the user that they designated. If the task cannot be assigned to a user who is not out of the office, the task remains in your To-do list.</p>
+  <note>
+   <p>When you are out of the office, any tasks that were previously in your To-do list remain there and are not forwarded to other users.</p>
+  </note>
+  <h3 id="set_out_of_office_preferences">Set out-of-office preferences</h3>
+  <p></p>
+  <ol>
+   <li><p>Click <strong>Preferences</strong> and click <strong>Out Of Office</strong>.</p> </li>
+   <li><p>To specify when you are out of the office, perform one of these steps:</p>
+    <ul> 
+     <li><p>To specify that you are out of the office now for an indefinite time period, in the<strong> I am currently</strong> list, select <strong>Out of the Office</strong> but do not add a date range.</p> </li> 
+     <li><p>To specify a start date and time that you are out of the office and click '+' for <strong>Out of Office Schedule</strong>. Use the calendar and time list to specify the start date and time. If you do not specify an end date and time, you are considered out of the office indefinitely from the start date and time until you change your preferences.</p> </li> 
+    </ul> </li>
+   <li><p>To specify how your tasks are to be handled by default, select one of these options from the <strong>When Out of the Office: Default User for Out of Office tasks</strong> list:</p> 
+    <ul>
+     <li><p>Select <strong>Do not assign</strong> to keep tasks in your To-do list until you return.</p></li>
+     <li><p>Select <strong>Find User</strong> to search for a user to assign your tasks to. When you select a user, you can also view their out-of-office schedule.</p></li>
+    </ul></li>
+   <li><p>To set exceptions to the default, click + for <strong>Process Exceptions</strong>, select the process to create an exception for, and then select a different user or select <strong>Do not assign</strong> from the <strong>is assigned to</strong> list.</p> 
+    <note>
+     <p>The process designer may specify that tasks from some processes are always kept private and not forwarded to other users. This setting overrides any settings that you make.</p>
+    </note></li>
+   <li><p>When you finish setting preferences, click <strong>Save</strong>. If your settings indicate that you are currently out of the office, your changes take effect immediately. Otherwise, they take effect at the specified start date and time. If you log in while you are out of the office, you are not considered in the office until you change your settings.</p></li>
+  </ol>
+  <p><a href="https://www.adobe.com/account/sign-in.supportportal.html" target="_blank"><strong>Contact Support</strong></a></p> 
+  <related-links>
+   <a href="../../forms/using/getting-started-livecycle-html-workspace.md">Getting started with AEM Forms workspace</a>
+   <a href="../../forms/using/starting-processes.md">Starting processes</a>
+   <a href="../../forms/using/tracking-processes.md">Tracking processes</a>
+   <a href="../../forms/using/todo-lists.md">Working with To-do lists</a>
+   <a href="../../forms/using/troubleshooting-guidelines-html-workspace.md">Troubleshooting guidelines for AEM Forms workspace</a>
+  </related-links>
+ </body>
+</html>

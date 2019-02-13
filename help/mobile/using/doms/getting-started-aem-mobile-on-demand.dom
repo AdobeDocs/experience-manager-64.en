@@ -1,0 +1,109 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="AEM Mobile On-Demand" name="jcr:title" /> 
+  <meta content="2017-12-13T19:01:05.280-0500" name="jcr:created" /> 
+  <meta content="2017-10-31T16:26:29.670-0400" name="firstPublishExternalDate" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="09e7f0d2-c686-4d93-9176-26e26f7e8ff7" name="jcr:uuid" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="bohnert@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2018-05-04T05:12:46.675-0400" name="cq:lastReplicated" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="/content/help/en/experience-manager/6-4/mobile/morehelp/introduction;/content/help/en/experience-manager/6-4/mobile/morehelp/introduction" name="moreHelpPaths" /> 
+  <meta content="AEM Mobile On-Demand" name="seoTitle" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/mobile/using/getting-started-aem-mobile-on-demand.html" name="publishExternalURL" /> 
+  <meta content="2018-05-11T10:01:33.214-0400" name="locHandOffDate" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="/content/docs/en/aem/6-3/deploy/getting-started-with-aem-mobile/aem-mobile-on-demand" name="qaNotes" /> 
+  <meta content="2018-05-04T05:12:46.413-0400" name="publishExternalDate" /> 
+  <meta content="User" name="contentOwner" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/MOBILE" name="primaryProductTag" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2018-05-04T05:12:46.413-0400" name="topicBrowsingSortDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="Starting a new AEM Mobile app experience requires a cohesion of roles before it is ready for content editing. Follow this page to get started with AEM mobile On-Demand services." name="seoDescription" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="f2f72713-6d23-44a9-a9e1-3be6b1779eb8" name="jcr:predecessors" /> 
+  <meta content="bohnert" name="cq:lastReplicatedBy" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="msm-service" name="cq:lastModifiedBy" /> 
+  <meta content="2018-05-11T10:01:33.215-0400" name="cq:lastModified" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/MOBILE;topic_tags:introduction;content_type:reference" name="cq:tags" /> 
+  <meta content="2018-05-04T05:12:46.413-0400" name="lastPublishExternalDate" /> 
+ </head> 
+ <body> 
+  <note> 
+   <p>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). <a href="../../sites/developing/using/spa-overview.md">Learn more</a>.</p> 
+  </note> 
+  <note> 
+   <p>If you are not using AEM as your content managment source, see <a href="https://helpx.adobe.com/digital-publishing-solution/topics.html">AEM Mobile On-Demand Services Help</a>.</p> 
+  </note> 
+  <p>AEM provides several tools that enable you to integrate your content into mobile applications.</p> 
+  <p>The following diagram illustrates how the various components of AEM Mobile and On-Demand Services fit together to deliver content to mobile apps.</p> 
+  <p>AEM Preflight app can be considered a testing environment to preview the app and content prior to publishing; whereas the AEM Mobile App is the final app that is built for distribution.</p> 
+  <note> 
+   <p>To learn in-depth about Preflight app, see <a href="https://helpx.adobe.com/digital-publishing-solution/help/preflight-app.html">Using the AEM Preflight app</a> in AEM Mobile On-Demand Services Help.</p> 
+  </note> 
+  <img imageRotate="0" src="assets/chlimage_1-186.png" /> 
+  <note> 
+   <p>In the diagram above, the AEM Publish instance is not required for a typical deployment scenario to AEM Mobile On-Demand Services.</p> 
+  </note> 
+  <h2>Starting a New Mobile App</h2> 
+  <p>AEM Mobile is just one pillar that makes up the complete AEM platform. </p> 
+  <p>Starting a new AEM Mobile app experience requires a cohesion of roles before it is ready for content editing. The following roles provide a a starting point for creating a new AEM Mobile application:</p> 
+  <ul> 
+   <li><strong>Administrator</strong></li> 
+   <li><strong>Developer</strong></li> 
+   <li><strong>Author</strong></li> 
+  </ul> 
+  <note> 
+   <p>Before working with AEM Mobile and following the steps within this getting started guide, users should be familiar with AEM. Learn the basics of AEM <a href="../../sites/deploying/using/deploy.md">here</a>.</p> 
+  </note> 
+  <h4>Understanding the AEM Mobile Application Dashboard</h4> 
+  <p>Before understanding the roles and responsibilities, the user should have throrough knowledge of <strong>AEM Mobile Control Center</strong> or the <strong>Application</strong> <strong>Dashboard</strong>. Click <a href="../../mobile/using/mobile-apps-ondemand-application-dashboard.md">here</a> for an in-depth understanding.</p> 
+  <h3>AEM Administrator</h3> 
+  <p>An <i><strong>AEM administrator</strong></i> is responsible for adding a new application to the AEM Mobile catalog, either by creating a new app using the creation wizard, or by importing an existing application. AEM administrators who create a new app using AEM Mobile's <i>creation wizard</i> typically select one of the desired app templates either from our out-of-the-box reference samples or (in most cases) a custom app template created by <i>AEM developers.</i></p> 
+  <p>An AEM administrator is responsible for the following tasks while creating an app using AEM Mobile On-Demand Services:</p> 
+  <ul> 
+   <li><a href="../../mobile/using/aem-mobile-setup.md">Setting up AEM Mobile</a></li> 
+   <li><a href="../../mobile/using/aem-mobile-configure-users.md">Configuring your User and User Groups</a></li> 
+   <li><a href="../../mobile/using/aem-mobile-manage-ondemand-services.md">Previewing with Preflight</a></li> 
+   <li><a href="/mobile/using/content-services">Administering Content Services</a></li> 
+  </ul> 
+  <p>To get started with an Administrator's roles and responsibilities, See <a href="../../mobile/using/aem-mobile.md">Administering Content to Use AEM Mobile On-Demand Services</a>.</p> 
+  <h3>AEM Developer</h3> 
+  <p>An <strong>AEM developer</strong> extends and creates custom web templates and components to enable the <em>AEM Author </em>to create beautiful and engaging mobile experiences. These templates and components are not only optimized for the mobile app world; but communicate both to the device and to the AEM server (any remote server) to omni-channel service end-points. AEM's built-in content editor is used by <em>AEM Authors</em> to create rich and relevent experiences within the app, including integration with the rest of the Adobe Marketing Cloud.</p> 
+  <p>An AEM developer is responsible for the following tasks while creating an app using AEM Mobile On-Demand Services:</p> 
+  <ul> 
+   <li><a href="../../mobile/using/app-templates-and-components1.md">App Templates and Components</a></li> 
+   <li><a href="../../mobile/using/mobile-ondemand-contentsync.md">Mobile with Content Sync</a></li> 
+   <li><a href="../../mobile/using/on-demand-content-properties-exporting.md">Content Properties and Exporting Content</a></li> 
+   <li><a href="../../mobile/using/developing-content-services.md">Developing AEM Mobile Content Services</a></li> 
+  </ul> 
+  <p>To get started with Developer's roles and responsibilities, See <a href="../../mobile/using/aem-mobile-on-demand.md">Developing AEM Content for AEM Mobile On-Demand Services</a>.</p> 
+  <note> 
+   <p>An <i>AEM developer's</i> role does not start and end with the development of templates and components. An <i>AEM developer</i> can create an entirely new app rather than simply extend the out-of-the-box reference implementation sample.</p> 
+  </note> 
+  <h3>AEM Author</h3> 
+  <p>An <strong><i>AEM Author</i> (or <i>Marketer</i>)</strong> uses the custom developed or out-of-the-box templates and components to add and edit pages, drag and drop components and add media of all types from the DAM including images, videos and text fragments (content fragments). AEM's built-in content editor is then used by <i>AEM Authors</i> to create rich and relevent experiences within the app, including integration with the rest of the Adobe Marketing Cloud.</p> 
+  <p>An AEM author must understand the following topics, while creating an app using AEM Mobile On-Demand Services:</p> 
+  <ul> 
+   <li><a href="../../mobile/using/mobile-apps-ondemand-application-dashboard.md">AEM Mobile Application Dashboard</a></li> 
+   <li><a href="../../mobile/using/mobile-apps-ondemand-application-create-configure-action.md">Application Create and Configuration Actions</a></li> 
+   <li><a href="../../mobile/using/mobile-on-demand-associating-an-On-Demand-app-to-cloud-configuration.md">Cloud Configuration</a></li> 
+   <li><a href="../../mobile/using/mobile-apps-ondemand-manage-content-ondemand.md">Managing Content</a></li> 
+   <li><a href="/mobile/using/content-as-a-service">Content Services Overview</a></li> 
+  </ul> 
+  <p>To get started with an Author's roles and responsibilities, See <a href="../../mobile/using/mobile-apps-ondemand.md">Authoring AEM Content for AEM Mobile On-Demand Services App</a>.</p> 
+  <note> 
+   <p>An AEM Author is also responsible for setting up entitlement, creating cards and layouts, and sending push notifications. Also, for more information on methods for authoring content; managing articles and collections; creating banners, cards, and layouts in AEM Mobile, see <a href="https://helpx.adobe.com/digital-publishing-solution/topics.html#dynamicpod_reference_2">AEM Mobile On-Demand Portal</a>.</p> 
+  </note> 
+ </body> 
+</html>

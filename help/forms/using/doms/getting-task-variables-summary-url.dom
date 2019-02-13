@@ -1,0 +1,106 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="Getting Task Variables in Summary URL" name="navTitle" /> 
+  <meta content="2018-04-03T08:38:59.977-0400" name="publishExternalDate" /> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:forms-workspace" name="cq:tags" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="468" name="acrolinxWords" /> 
+  <meta content="2018-04-26T04:38:06.792-0400" name="cq:lastModified" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/getting_task_variables_summary_url_admin_5e12de0b318c6865_2136_report.xml" name="acrolinxReportURL" /> 
+  <meta content="asgupta" name="jcr:createdBy" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="2018-04-26T04:38:06.791-0400" name="locHandOffDate" /> 
+  <meta content="Getting Task Variables in Summary URL" name="jcr:title" /> 
+  <meta content="2016-05-31T06:48:44.425-0400" name="acrolinxDate" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2013-03-08T16:56:44.725-0500" name="firstPublishQADate" /> 
+  <meta content="38" name="acrolinxSentences" /> 
+  <meta content="mix:lockable;mix:versionable;cq:ReplicationStatus" name="jcr:mixinTypes" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="848c0436-8fc7-4031-bce1-33723935676f" name="jcr:predecessors" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2018-04-03T08:39:01.366-0400" name="cq:lastReplicated" /> 
+  <meta content="2013-03-08T16:27:17.474-0500" name="jcr:created" /> 
+  <meta content="https://helpx.stage.adobe.com/aem-forms/6-1/html-workspace/getting-task-variables-summary-url.html" name="publishQAURL" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="b60dbfd0-a0f5-4d66-bd5e-511c4d8cd4f3" name="jcr:uuid" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2013-04-23T03:15:51.616-0400" name="firstPublishExternalDate" /> 
+  <meta content="2015-09-28T11:06:04.317-0400" name="publishQADate" /> 
+  <meta content="2018-04-03T08:38:59.977-0400" name="topicBrowsingSortDate" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/getting-task-variables-summary-url.html" name="publishExternalURL" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2018-04-03T08:38:59.977-0400" name="lastPublishExternalDate" /> 
+  <meta content="2015-09-28T11:06:04.317-0400" name="lastPublishQADate" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="How-to reuse the information about a task and generate a Summary URL to summarize or describe a task." name="seoDescription" /> 
+ </head> 
+ <body> 
+  <p>The summary page displays task-related information. This article describes how you can reuse task-related information in the summary page.</p> 
+  <p>In this sample orchestration, an employee submits a leave application form. The application form then goes to the employee's manager for approval.</p> 
+  <ol> 
+   <li><p>Create a sample HTML renderer (html.esp) for resourseType <strong>Employees/PtoApplication</strong>.</p> <p>The renderer assumes the following properties to be set on the node:</p> 
+    <ul> 
+     <li>ename</li> 
+     <li>empid</li> 
+     <li>reason</li> 
+     <li>duration</li> 
+    </ul> <p><strong>Note</strong>: This renderer is the summary page template.</p> <p>The following sample code for this renderer is contained in:</p>  
+    <codeblock gutter="true" class="syntax plain">
+      &lt;html&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;body&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;table&amp;nbsp;style="background-color:&amp;nbsp;#647B7B;color:&amp;nbsp;WHITE;text-align:&amp;nbsp;left;width:&amp;nbsp;100%;font-size:&amp;nbsp;24px;line-height:&amp;nbsp;40px;"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;tbody&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;tr&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;td&amp;nbsp;style="width:50%;"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;h3&gt;Employee&amp;nbsp;Name:&amp;nbsp;&lt;%=&amp;nbsp;currentNode.ename&amp;nbsp;%&gt;&lt;/h3&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;h3&gt;Employee&amp;nbsp;ID:&amp;nbsp;&lt;%=&amp;nbsp;currentNode.eid&amp;nbsp;%&gt;&lt;/h3&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;h3&gt;Leave&amp;nbsp;duration:&amp;nbsp;&lt;%=&amp;nbsp;currentNode.duration&amp;nbsp;%&gt;&amp;nbsp;days&lt;/h3&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;h3&gt;Reason:&amp;nbsp;&lt;%=&amp;nbsp;currentNode.reason&amp;nbsp;%&gt;&lt;/h3&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/td&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/tr&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/tbody&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/table&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/body&gt;!!discoiqbr!!&lt;/html&gt; 
+    </codeblock></li> 
+   <li><p>Modify the orchestration to extract the four properties from the submitted form data. After this create a node in CRX of type <strong>Employees/PtoApplication</strong>, with the properties populated.</p> 
+    <ol> 
+     <li><p>Create a process <strong>create PTO summary</strong> and use this as a subprocess before the <strong>Assign Task</strong> operation in your orchestration.</p> </li> 
+     <li><p>Define <strong>employeeName</strong>, <strong>employeeID</strong>, <strong>ptoReason</strong>, <strong>totalDays</strong>, and <strong>nodeName </strong>as input variables in your new process. These variables will be passed as submitted form data.</p> <p>Also define an output variable <strong>ptoNodePath </strong>which will be used while setting the summary Url.</p> </li> 
+     <li><p>In the <strong>create PTO summary</strong> process, use the <strong>set value</strong> component to set the input details in a <strong>nodeProperty </strong>(<strong>nodeProps</strong>) map.</p> <p>The keys in this map should be the same as the keys defined in your HTML renderer in the previous step.</p> <p>Also, add a <strong>sling:resourceType</strong> key with value <strong>Employees/PtoApplication</strong> in the map.</p> </li> 
+     <li><p>Use the subprocess <strong>storeContent</strong> from the <strong>ContentRepositoryConnector</strong> service in the <strong>create PTO summary</strong> process. This subprocess creates a CRX node.</p> <p>It takes three input variables:</p> 
+      <ul> 
+       <li><strong>Folder Path</strong>: The path where the new CRX node is created. Set the path as <strong>/content</strong>.</li> 
+       <li><strong>Node name</strong>: Assign the input variable nodeName to this field. This is a unique node name string. </li> 
+       <li><strong>Node Type</strong>: Define the type as <strong>nt:unstructured</strong>. The output of this process is nodePath. The nodePath is the CRX path of the newly created node. The ndoePath would be the final output of the <strong>create PTO</strong> summary process.</li> 
+      </ul> </li> 
+     <li><p>Pass the submitted form data (<strong>employeeName</strong>, <strong>employeeID</strong>, <strong>ptoReason</strong>, and <strong>totalDays</strong>) as input to the new process <strong>create PTO summary</strong>. Take the output as <strong>ptoSummaryNodePath</strong>.</p> </li> 
+    </ol></li> 
+   <li><p>Define the summary Url as an XPath expression containing the server details along with <strong>ptoSummaryNodePath</strong>.</p> <p>XPath: <span class="code">concat('http://[<em>server</em>]:[<em>port</em>]/lc',/process_data/@ptoSummaryNodePath,'.html')</span>.</p> </li> 
+  </ol> 
+  <p>In AEM Forms workspace, when you open a task, the summary Url accesses the CRX node, and the HTML renderer displays the summary.</p> 
+  <p>The summary layout can be changed without modifying the process. The HTML renderer displays the summary appropriately.</p> 
+  <p><a href="https://www.adobe.com/account/sign-in.supportportal.html" target="_blank"><strong>Contact Support</strong></a></p> 
+  <related-links> 
+   <a href="../../forms/using/introduction-customizing-html-workspace.md">Introduction to Customizing AEM Forms workspace</a> 
+   <a href="../../forms/using/generic-steps-html-workspace-customization.md">Generic steps for AEM Forms workspace customization</a> 
+   <a href="../../forms/using/tasks-organizational-hierarchy-using-manager.md">Managing tasks in an organizational hierarchy using Manager View</a> 
+   <a href="../../forms/using/integrating-correspondence-management-html-workspace.md">Integrating Correspondence Management in AEM Forms workspace</a> 
+   <a href="../../forms/using/single-sign-timeout-handlers.md">Single Sign On and timeout handlers</a> 
+   <a href="../../forms/using/displaying-user-avatar.md">Displaying the user avatar</a> 
+   <a href="../../forms/using/displaying-information-task-summary-pane.md">Displaying information in the Task Summary pane</a> 
+   <a href="../../forms/using/changing-organization-logo-branding.md">Changing the organization logo</a> 
+   <a href="../../forms/using/changing-color-scheme-interface.md">Changing the color scheme of the interface</a> 
+   <a href="../../forms/using/changing-font-interface.md">Changing the font on the interface</a> 
+   <a href="../../forms/using/changing-locale-user-interface.md">Changing the locale of the user interface</a> 
+   <a href="../../forms/using/customizing-error-dialogs.md">Customizing error dialogs</a> 
+   <a href="../../forms/using/customizing-tabs-task.md">Customizing tabs for a task</a> 
+   <a href="../../forms/using/customizing-task-actions.md">Customizing Task Actions</a> 
+   <a href="../../forms/using/customizing-listing-process-instances.md">Customizing the listing of process instances</a> 
+   <a href="../../forms/using/customizing-task-details-page.md">Customizing the task Details page</a> 
+   <a href="../../forms/using/display-additional-data-in-todo-list.md">Displaying additional data in ToDo list</a> 
+   <a href="../../forms/using/getting-task-variables-summary-url.md">Getting Task Variables in Summary URL</a> 
+   <a href="../../forms/using/images-route-actions.md">Images for Route Actions</a> 
+   <a href="../../forms/using/creating-new-login-screen.md">Creating a new login screen</a> 
+   <a href="../../forms/using/minification-javascript-files.md">Minification of the JavaScript files</a> 
+   <a href="../../forms/using/sorting-tracking-tables-add-columns.md">Sorting of Tracking tables and adding more columns</a> 
+   <a href="../../forms/using/updating-link-help-documentation.md">Updating the link to the documentation</a> 
+   <a href="../../forms/using/two-html-workspace-instances-one.md">Hosting two AEM Forms workspace instances on one server</a> 
+  </related-links> 
+ </body> 
+</html>

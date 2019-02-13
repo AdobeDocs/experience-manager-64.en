@@ -1,0 +1,162 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="Chiradeep Majumdar" name="contentOwner" /> 
+  <meta content="cc926cbc-17d9-472d-b5f9-4db65b736480" name="jcr:predecessors" /> 
+  <meta content="Classic UI Tagging Console" name="navTitle" /> 
+  <meta content="2018-04-26T10:13:48.119-0400" name="locHandOffDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:content;content_type:reference" name="cq:tags" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2018-04-26T10:13:48.119-0400" name="cq:lastModified" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/classic-console.html" name="publishExternalURL" /> 
+  <meta content="2018-04-03T07:02:13.859-0400" name="cq:lastReplicated" /> 
+  <meta content="2017-10-31T16:25:33.222-0400" name="firstPublishExternalDate" /> 
+  <meta content="2018-04-03T07:02:13.388-0400" name="publishExternalDate" /> 
+  <meta content="Learn about the Classic UI Tagging Console." name="seoDescription" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2017-12-01T19:04:45.477-0500" name="jcr:created" /> 
+  <meta content="633824fd-d61d-4b30-b326-3a5da21395cd" name="jcr:uuid" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="Classic UI Tagging Console" name="jcr:title" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="Classic UI Tagging Console" name="seoTitle" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="/content/docs/en/aem/6-3/administer/content/tags/classic-console" name="qaNotes" /> 
+  <meta content="audience:administering" name="primaryAudienceTag" /> 
+  <meta content="2018-04-03T07:02:13.388-0400" name="lastPublishExternalDate" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/administering/morehelp/content;/content/help/en/experience-manager/6-4/sites/administering/morehelp/content" name="moreHelpPaths" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" /> 
+  <meta content="2018-04-03T07:02:13.388-0400" name="topicBrowsingSortDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+ </head> 
+ <body> 
+  <p>This section is for the Classic UI Tagging Console.</p> 
+  <p>The Touch-optimized UI Tagging Console is <a href="../../../sites/administering/using/tags.md#taggingconsole">here</a>.</p> 
+  <p>To access the Classic UI Tagging console :</p> 
+  <ul> 
+   <li>on author</li> 
+   <li>sign in with administrative privileges</li> 
+   <li>browse to the console<br /> for example, <a href="http://localhost:4502/tagging">http://localhost:4502/tagging</a></li> 
+  </ul> 
+  <p> </p> 
+  <p> </p> 
+  <img imageRotate="0" src="assets/managing_tags_usingthetagasministrationconsole-1.png" /> 
+  <h2>Creating Tags and Namespaces</h2> 
+  <ol> 
+   <li><p>Depending on the level you are starting from you can create either a tag or a namespace using <strong>New</strong>:</p> <p>If you select <strong>Tags</strong> you can create a namespace:</p> <img imageRotate="0" src="assets/creating_tags_andnamespaces-1.png" /><p>If you select a namespace (for example <strong>Demo</strong>) you can create a tag within that namespace:</p> <img imageRotate="0" src="assets/creating_tags_andnamespacesinnewnamespace.png" /></li> 
+   <li><p>In both cases enter</p> 
+    <ul> 
+     <li><strong>Title</strong><br /> (<i>Required</i>) The display title for the tag. While any character may be entered,<br /> it is recommended to not use these special characters : 
+      <ul> 
+       <li><span class="code">colon (:)</span> - namespace delimiter</li> 
+       <li><span class="code">forward slash (/)</span> - sub-tag delimiter</li> 
+      </ul> These characters will not be displayed if entered.</li> 
+     <li><strong>Name</strong><br /> (<i>Required</i>) The node name for the tag.</li> 
+     <li><strong>Description</strong><br /> (<i>Optional</i>) A description for the tag.</li> 
+     <li>select <strong>Create</strong></li> 
+    </ul> </li> 
+  </ol> 
+  <h2>Editing Tags</h2> 
+  <ol> 
+   <li><p>In the right-hand pane, select the tag that you want to edit.</p> </li> 
+   <li><p>Click <strong>Edit</strong>.</p> </li> 
+   <li><p>You can modify the <strong>Title</strong> and the <strong>Description</strong>.</p> </li> 
+   <li><p>Click <strong>Save </strong>to close the dialog.</p> </li> 
+  </ol> 
+  <h2>Deleting Tags</h2> 
+  <ol> 
+   <li><p>In the right-hand pane, select the tag that you want to delete.</p> </li> 
+   <li><p>Click <strong>Delete</strong>.</p> </li> 
+   <li><p>Click <strong>Yes</strong> to close the dialog.</p> <p>The tag shouldn't be listed anymore.</p> </li> 
+  </ol> 
+  <h2>Activating and Deactivating Tags</h2> 
+  <ol> 
+   <li><p>In the right-hand pane, select the namespace or tag that you want to activate (publish) or deactivate (unpublish).</p> </li> 
+   <li><p>Click <strong>Activate</strong> or <strong>Deactivate</strong> as required.</p> </li> 
+  </ol> 
+  <h2>List - showing where tags are referenced</h2> 
+  <p><strong>List</strong> opens a new window showing the paths of all pages using the highlighted tag:</p> 
+  <img imageRotate="0" src="assets/list_showing_wheretagsarereferenced.png" /> 
+  <h2>Moving Tags</h2> 
+  <p>To help tags administrators and developers clean up the taxonomy or rename a tag ID, it is possible to move a tag to a new location :</p> 
+  <ol> 
+   <li><p>Open the <strong>Tagging</strong> console.</p> </li> 
+   <li><p>Select the tag and click <strong>Move...</strong> in the top tool bar (or in the context menu).</p> </li> 
+   <li><p>In the <strong>Move Tag</strong> dialog, define:</p> 
+    <ul> 
+     <li><strong>to</strong>, the destination node.</li> 
+     <li><strong>Rename to</strong>, the new node name.</li> 
+    </ul> </li> 
+   <li><p>Click <strong>Move</strong>.</p> </li> 
+  </ol> 
+  <p>The <strong>Move Tag</strong> dialog looks as follows:</p> 
+  <img imageRotate="0" src="assets/move_tag.png" /> 
+  <note> 
+   <p>Authors should not move tags or rename a tag ID. When necessary, Authors should only <a href="#editingtags">change the tag titles</a>.</p> 
+  </note> 
+  <h2>Merging Tags</h2> 
+  <p>Merging tags can be used when a taxonomy has duplicates. When tag A is merged into tag B, all the pages tagged with tag A will be tagged with tag B and tag A is no more available to authors.</p> 
+  <p>To merge a tag into another one:</p> 
+  <ol> 
+   <li><p>Open the <strong>Tagging</strong> console.</p> </li> 
+   <li><p>Select the tag and click <strong>Merge...</strong> in the top tool bar (or in the context menu).</p> </li> 
+   <li><p>In the <strong>Merge Tag</strong> dialog, define:</p> 
+    <ul> 
+     <li><strong>into</strong>, the destination node.</li> 
+    </ul> </li> 
+   <li><p>Click <strong>Merge</strong>.</p> </li> 
+  </ol> 
+  <p>The <strong>Merge Tag</strong> dialog looks as follows:</p> 
+  <img imageRotate="0" src="assets/mergetag.png" /> 
+  <h2>Counting Usage of Tags</h2> 
+  <p>To see how many times a tag is being used:</p> 
+  <ol> 
+   <li><p>Open the <strong>Tagging</strong> console.</p> </li> 
+   <li><p>Click <strong>Count usage</strong> in the top tool bar: the column Count displays the result.</p> </li> 
+  </ol> 
+  <h2>Managing Tags in Different Languages</h2> 
+  <p>The optional <span class="code">title </span>property of a tag may be translated into multiple languages. Tag <span class="code">titles</span> can then be displayed according to the user language or to the page language.<br /> </p> 
+  <h3>Defining Tag Titles in Multiple Languages</h3> 
+  <p>The following procedure shows how to translate the <span class="code">title </span>of the tag <strong>Animals</strong> into English, German and French:</p> 
+  <ol> 
+   <li><p>Go to the <strong>Tagging</strong> console.</p> </li> 
+   <li><p>Edit the tag <strong>Animals</strong> below <strong>Tags</strong> &amp;gt; <strong>Stock Photography</strong>.</p> </li> 
+   <li><p>Add the translations in the following languages:</p> 
+    <ul> 
+     <li><strong>English</strong>: Animals</li> 
+     <li><strong>German</strong>: Tiere<br /> </li> 
+     <li><strong>French</strong>: Animaux</li> 
+    </ul> </li> 
+   <li><p>Save the changes.</p> </li> 
+  </ol> 
+  <p>The dialog looks as follows:</p> 
+  <img imageRotate="0" src="assets/edit_tag.png" /> 
+  <p>The Tagging console uses the user language setting, so for the Animal tag, 'Animaux' is displayed for a user who sets the language to French in user properties.<br /> </p> 
+  <p>To add a new language to the dialog, please refer to the section <a href="../../../sites/developing/using/building.md#addinganewlanguagetotheedittagdialog">Adding a New Language to the Edit Tag Dialog</a> in the <strong>Tagging for Developers</strong> section.<br /> </p> 
+  <h3>Displaying Tag Titles in Page Properties in a Specified Language</h3> 
+  <p>By default the tag <span class="code">titles </span>in the page properties are displayed in the page language. The tag dialog in the page properties has a language field that enables the display of tag <span class="code">titles </span>in a different language. The following procedure describes how to display the tag <span class="code">titles </span>in French:</p> 
+  <ol> 
+   <li><p>Refer to the previous section to add the French translation to the <strong>Animals</strong> below <strong>Tags</strong> &amp;gt; <strong>Stock Photography</strong>.</p> </li> 
+   <li><p>Open the page properties of the <strong>Products</strong> page in the English branch of the <strong>Geometrixx</strong> site.</p> </li> 
+   <li><p>Open the <strong>Tags/Keywords</strong> dialog (by selecting the pull-down menu to the right of the Tags/Keywords display area) and select the <strong>French</strong> language from the pull-down menu in the bottom right corner.</p> </li> 
+   <li><p>Scroll using the left-right arrows until able to select the <strong>Stock Photography</strong> tab</p> <p>Select the <strong>Animals</strong> (<strong>Animaux</strong>) tag and select outside the dialog to close it and add the tag to the page properties.</p> <img imageRotate="0" src="assets/french_tag.png" /></li> 
+  </ol> 
+  <p>By default, the Page Properties dialog displays the tag <span class="code">titles </span>according to the page language.<br /> </p> 
+  <p>In general, the language of the tag is taken from the page language if the page language is available. When the <a href="../../../sites/developing/using/building.md#taggingontheclientside"><span class="code">tag</span> widget</a> is used in other cases (for example in forms or in dialogs), the tag language depends on the context.</p> 
+  <note> 
+   <p>The tag cloud and the meta keywords in the standard page component use the localized tag <span class="code">titles </span>based on the page language, if available.<br /> </p> 
+  </note> 
+ </body> 
+</html>

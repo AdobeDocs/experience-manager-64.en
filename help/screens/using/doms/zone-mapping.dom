@@ -1,0 +1,143 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="33aa9bc7-461f-47da-a761-642b968694e2" name="jcr:predecessors" /> 
+  <meta content="true" name="preview" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="reference-adjustment-service" name="cq:lastModifiedBy" /> 
+  <meta content="jsyal" name="contentOwner" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="en" name="pageCreatedAt" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2019-01-15T15:39:04.769-0500" name="jcr:created" /> 
+  <meta content="2018-10-28T00:36:16.547-0400" name="cq:lastModified" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="4ca755e0-b95f-4472-a4fd-35e5656a311d" name="jcr:uuid" /> 
+  <meta content="Display Layout Editor" name="jcr:title" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2018-04-19T10:36:48.428-0400" name="locHandOffDate" /> 
+ </head> 
+ <body> 
+  <p><strong><em>Zone Mapping</em></strong> allows you to create different zones and use variety of assets such as videos, images, and text that can be combined inn a single screen in contexual ways. You can pull in images, videos, and texts and allow it all to blend together and create an intuitive and interactive digital experience. As per the project requirements, sometimes you need multiple zones in a display. </p> 
+  <p>For example, a product sequence with a related social media feed running in two separate zones on a single display.</p> 
+  <h2>Overview</h2> 
+  <p>While creating a display for your channel, you can choose different template options to view/manage content in your channel.</p> 
+  <p>The following templates are available while creating zones for display:</p> 
+  <ul> 
+   <li>2x1 </li> 
+   <li>2x2 </li> 
+   <li>3x1 </li> 
+   <li>4x1</li> 
+   <li>5x1</li> 
+  </ul> 
+  <p>Using any one of these templates allows you to create an intuitive and interactive digital signage experience where a variety of content can be leveraged on a single screen.</p>  
+  <note> 
+   <p>To learn in-depth about creating channels and displays, see <a href="../../screens/using/managing-channels.md">Managing Channels</a> and <a href="/sites/authoring/using/managing-displays">Managing Displays</a> respectively in Authoring Screens.</p> 
+  </note> 
+  <h2>Use Case Description</h2> 
+  <p>This use case allows you to create an AEM Screens project with a channel that leverages content and display it on screen in multi zones. </p> 
+  <note> 
+   <p>Zones do not scale the content and that must be done prior to inserting the content to your channels.</p> 
+  </note> 
+  <h3>Steps for Creating a Project</h3> 
+  <p>Follow the steps below to create an AEM Screens project that shows how to achieve zone mapping for your AEM Screens project:</p> 
+  <ol> 
+   <li> 
+    <ol> 
+     <li>Select the Adobe Experience Manager link (top left) and then Screens. Alternatively, you can ﻿go directly to: <a href="http://localhost:4502/screens.html/content/screens">http://localhost:4502/screens.html/content/screens</a>.</li> 
+     <li>Click <strong>Create</strong> to create a new Screens project.</li> 
+     <li>Select <strong>Screens</strong> from the <strong>Create Screens Project</strong> wizard and click <strong>Next</strong>. </li> 
+     <li>Enter the title as <strong>Demo Mapping Project</strong> and click <strong>Create</strong>.</li> 
+    </ol> <img imageRotate="0" src="assets/zm1.gif" /></li> 
+   <li> 
+    <ol> 
+     <li>Navigate to<strong> Zone Mapping Project</strong>.</li> 
+     <li>Click <strong>Create</strong> from the action bar. A wizard will open.</li> 
+     <li>Choose the <strong>Channels Folder </strong>and click <strong>Next</strong>.</li> 
+     <li>Enter the Title as <strong>Dual Zone </strong>and click <strong>Create</strong>.<br /> </li> 
+    </ol> <img imageRotate="0" src="assets/zm2.gif" /></li> 
+   <li> 
+    <ol> 
+     <li>Navigate to the <strong>Zone Mapping Project</strong> you created and select the Channels folder (<strong>Dual Zone</strong>).</li> 
+     <li>Click <strong>Create</strong> from the action bar. A wizard will open.</li> 
+     <li>Choose the <strong>Sequence Channel </strong>and click <strong>Next</strong>. </li> 
+     <li>Enter the <strong>Title</strong> as <strong>Left</strong> and click <strong>Create</strong>.</li> 
+    </ol> <p>Similarly, create another sequence channel as <strong>Right</strong> in the<strong> Zone Mapping Project</strong>.</p> <img imageRotate="0" src="assets/zm3.gif" /></li> 
+   <li> 
+    <ol> 
+     <li>Navigate to the <strong>Zone Mapping Project</strong> you created and select the <strong>Channel</strong> you created.</li> 
+     <li>Click <strong>Edit</strong> from the action bar.</li> 
+     <li>The editor for the <strong>Left</strong> opens. Click the icon that toggles side panel on left hand side of the action bar to open the assets and components.</li> 
+     <li>Drag and drop the components you want to add to your channel.</li> 
+    </ol> <p>Similarly, add content to the <strong>Right</strong> channel too.</p> <img imageRotate="0" src="assets/zm4.gif" /> 
+    <note> 
+     <p>You can populate the content in your channels with different assets (images, videos) as per your project requirements.</p> 
+    </note></li> 
+   <li> 
+    <ol> 
+     <li>Navigate to the<strong> Zone Mapping Project</strong> and select the <strong>Locations</strong> folder.</li> 
+     <li>Click <strong>Create</strong> next to the plus icon in the action bar. A wizard will open. </li> 
+     <li>Select <strong>Location</strong> from the wizard and click <strong>Next</strong>.</li> 
+     <li>Enter the <strong>Title</strong> for your location (enter the title as <strong>San Jose</strong>) and click <strong>Create</strong>.</li> 
+    </ol> <img imageRotate="0" src="assets/zm5.gif" /></li> 
+   <li> 
+    <ol> 
+     <li>Navigate to the location where you want to create your display (<strong>Demo Mapping Project</strong> --&amp;gt; <strong>Locations</strong> --&amp;gt; <strong>San Jose</strong>) and select <strong>San Jose</strong>.</li> 
+     <li>Click <strong>Create</strong> from the action bar. Select <strong>Display</strong> from the <strong>Create</strong> wizard and click <strong>Next</strong>.</li> 
+     <li>Enter <strong>Title</strong> for your display location (enter the title as <strong>Dual Zone</strong>).</li> 
+     <li>Under the <strong>Display</strong> tab, choose the details of the Layout. Choose the Resolution as <strong>Full HD</strong>.</li> 
+     <li>Choose the <strong>Number of Devices Horizontally</strong> as <strong>2</strong>. Choose the <strong>Number of Devices Vertically</strong> as <strong>1</strong>.</li> 
+     <li>Click <strong>Create</strong>.</li> 
+    </ol> <img imageRotate="0" src="assets/zm6.gif" /></li> 
+   <li> 
+    <ol> 
+     <li>Navigate to the display from <strong>Zone Mapping Project</strong> --&amp;gt; <strong>Locations</strong> --&amp;gt; <strong>San Jose</strong> --&amp;gt; <strong>Dual Zone Display</strong>.</li> 
+     <li>Select <strong>Dual Zone Display </strong>and tap/click <strong>Assign Channel</strong> from the action bar, Or,</li> 
+     <li>Click <strong>Dashboard</strong> and select <strong>+Assign Channel</strong> at the top right from <strong>ASSIGNED CHANNELS &amp; SCHEDULES</strong> panel, as shown in the figure below. <strong>Channel Assignment </strong>dialog box opens.</li> 
+     <li>Enter the <strong>Channel Role</strong> as <strong>Zone</strong>.</li> 
+     <li>Select Reference Channel by path. Select the channel folder path (<strong>Zone Mapping Project </strong>--&amp;gt; <strong>Channels</strong> --&amp;gt; <strong>Dual Zone</strong> ) in the Channel.</li> 
+     <li>Select the <strong>Priority</strong> for this channel as <strong>1</strong>. Choose the <strong>Supported Events</strong> as <strong>Initial Load</strong> and <strong>Idle Screen</strong>.</li> 
+     <li>Click <strong>Save</strong>.</li> 
+    </ol> <img imageRotate="0" src="assets/zm7.gif" /></li> 
+   <li> 
+    <ol> 
+     <li>Launch a separate browser window. Go to Screens player using the web browser or launch the AEM Screens app. When you open the device you will notice the device's state as unregistered. </li> 
+     <li>From the AEM dashboard, navigate to <strong>Zone Mapping Project</strong> --&amp;gt; <strong>Devices</strong>.</li> 
+     <li>Click<strong> Device Manager</strong> from the action bar.</li> 
+     <li>Click <strong>Device Registration</strong> and you will see the pending devices.</li> 
+     <li>Select the device you want to register and click <strong>Register Device</strong>.<br /> </li> 
+     <li>You will need to validate the code by verifying the code from the web browser or AEM Screens player. Click <strong>Validate</strong> to navigate to <strong>Device Registration</strong> screen.<br /> </li> 
+     <li>Enter <strong>Title</strong> as <strong>Zone Device</strong> and click <strong>Register</strong> and the device will be registered.<br /> </li> 
+     <li>Click <strong>Assign Display</strong> to move on to the next step where you assign the device to a display.<br /> </li> 
+     <li>Click <strong>Assign Device</strong> fand select the display path for your channel () as <em>/content/screens/Test_Project/Locations/TestLocation/TestDisplay</em>. Click <strong>Assign</strong>.</li> 
+     <li>Click <strong>Finish</strong> to complete the process, and now the device is assigned.</li> 
+    </ol> <img imageRotate="0" src="assets/zm8.gif" /></li> 
+   <li> 
+    <ol> 
+     <li>Navigate and select the display from <strong>Zone Mapping Project</strong> --&amp;gt; <strong>Locations</strong> --&amp;gt; <strong>San Jose </strong>--&amp;gt; <strong>Dual Zone </strong>display and click <strong>Dashboard</strong> from the action bar.</li> 
+     <li>Select the icon to the left of <strong>Device Config</strong> of your player from the <strong>DEVICES</strong> panel and click <strong>properties</strong>.</li> 
+     <li>Navigate to the <strong>Device Config</strong> tab and fill in the <strong>Mapping</strong> and <strong>Template</strong> fields. Enter <em>{"a1":"${display.channel}/left", "a2": "${display.channel}/right"}</em> in the <strong>Mapping</strong> field and template as <em>grid-2x1</em>. </li> 
+     <li>Click <strong>Save</strong> <strong>&amp; Close</strong> and reload the player.</li> 
+    </ol> 
+    <note> 
+     <p><strong><em>Understanding Mapping and Template in device config:</em></strong></p> 
+     <ul> 
+      <li>identifiers "a1" and "a2" correspond to the zones defined in the template, that is, "screens-zone-a1" and "screens-zone-a2".</li> 
+      <li>${display.channel}/left" points to the channel to embed in the zone, where "display.channel" points to the current channel path in the display. This effectively embeds the "left" and "right" children of the channel.</li> 
+     </ul> 
+    </note><img imageRotate="0" src="assets/screen_shot_2018-01-22at114708am.png" /></li> 
+  </ol> 
+  <h4>Viewing Content in AEM Screens Player</h4> 
+  <p>Load your AEM Screens Player or use the web browser.</p> 
+  <p>You will notice the content of both the channel (Left and Right) displayed in your Screens player. The content is displayed as 2x1 display zone.</p> 
+  <img imageRotate="0" src="assets/screen_shot_2018-01-22at120206pm.png" /> 
+  <h3>Inference</h3> 
+  <p>Zone Mapping that uses one of the available templates while creating a channel in AEM Screens, allows you to do client side flattening. You can create different zones in your screen and further populate the zones with videos, images and other available assets.</p> 
+ </body> 
+</html>

@@ -1,0 +1,66 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2018-04-13T05:47:55.849-0400" name="lastPublishExternalDate" />
+  <meta content="2013-06-01T00:24:54.614-0400" name="jcr:created" />
+  <meta content="Getting Started with HTML5 forms" name="navTitle" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="mix:lockable;mix:versionable;cq:ReplicationStatus" name="jcr:mixinTypes" />
+  <meta content="not_checked" name="acrolinxStatus" />
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/html5_forms;/content/help/en/experience-manager/6-4/forms/morehelp/html5_forms" name="moreHelpPaths" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" />
+  <meta content="2015-06-12T04:29:44.866-0400" name="publishQADate" />
+  <meta content="2018-04-26T04:38:12.383-0400" name="locHandOffDate" />
+  <meta content="2018-04-13T05:47:55.849-0400" name="topicBrowsingSortDate" />
+  <meta content="khsingh@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="https://helpx-preview.corp.adobe.com/content/help/en/aem-forms/6-1/html5-forms/get-started.html" name="publishQAURL" />
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" />
+  <meta content="khsingh" name="cq:lastReplicatedBy" />
+  <meta content="119b5401-32f9-40d1-aa3a-9e9c6d7ceb5a" name="jcr:predecessors" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2013-04-26T04:32:52.359-0400" name="firstPublishQADate" />
+  <meta content="2018-04-13T05:47:55.971-0400" name="cq:lastReplicated" />
+  <meta content="2018-04-13T05:47:55.849-0400" name="publishExternalDate" />
+  <meta content="243" name="acrolinxWords" />
+  <meta content="14" name="acrolinxSentences" />
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/get_started_admin_5e12de0b318c6865_2105_report.xml" name="acrolinxReportURL" />
+  <meta content="2015-06-12T04:29:44.866-0400" name="lastPublishQADate" />
+  <meta content="2013-05-07T06:25:34.974-0400" name="firstPublishExternalDate" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="Getting started with HTML5 forms" name="jcr:title" />
+  <meta content="yellow" name="acrolinxPageStatus" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2018-04-26T04:38:12.384-0400" name="cq:lastModified" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="khsingh" name="cq:lastModifiedBy" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/get-started.html" name="publishExternalURL" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="e6a2189e-0513-4f8c-a8f6-2debb0501423" name="jcr:uuid" />
+  <meta content="2016-05-31T06:47:13.102-0400" name="acrolinxDate" />
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:hTML5_forms" name="cq:tags" />
+  <meta content="To get started, deploy AEM Forms add-on package and import existing HTML5 forms to AEM." name="seoDescription" />
+ </head>
+ <body>
+  <p>HTML5 forms bring numerous capabilities that are mobile-ready. It helps you expand your current solutions and workflows to tablets or smartphones devices with HTML5 browsers. Some of the capabilities include:</p> 
+  <ul> 
+   <li><strong>HTML5-based rendering of XFA form templates:</strong> In addition to regular PDF forms, you can now render your existing XFA-based forms in HTML5 format. It helps you to expand your client platform to mobile devices (Apple iPad, Android tablet, smartphones, and so on) that supports HTML5 and do not support Adobe Reader with XFA Forms. For more information about HTML5-based rendering capability, see <a href="../../forms/using/introduction.md" target="_blank">Introduction to HTML5 forms</a>. <br /> </li> 
+   <li><strong>Managing Forms:</strong> In addition, AEM includes new capabilities to simplify the process of organizing and managing forms. You can activate, deactivate, publish, and preview forms. For more information, see <a href="../../forms/using/introduction-managing-forms.md" target="_blank">Introduction to managing forms</a>.</li> 
+  </ul> 
+  <h2>Installing HTML5 forms</h2>
+  <p>After installing AEM, perform the following steps to import Mobile Forms to AEM:</p> 
+  <ul> 
+   <li><strong>Set up and deploy AEM Forms add-on package:</strong> Install AEM Forms add-on package to enable Mobile Forms. For information about installing AEM Forms add-on package, see <a href="../../forms/using/installing-configuring-aem-forms-osgi.md" target="_blank">Installing and configuring AEM Forms</a>.</li> 
+   <li><strong>Import Mobile Forms: </strong>Import your forms from your local file system to the CRX repository. For detailed information, see <a href="../../forms/using/get-xdp-pdf-documents-aem.md" target="_blank">Getting XDP and PDF documents in AEM Forms</a>.</li> 
+  </ul> 
+  <p><a href="https://www.adobe.com/account/sign-in.supportportal.html" target="_blank"><strong>Contact Support</strong></a></p> 
+  <related-links>
+   <a href="../../forms/using/designing-form-template.md">Designing form templates</a>
+   <a href="../../forms/using/rendering-form-template.md">Rendering Form Template</a>
+  </related-links>
+ </body>
+</html>

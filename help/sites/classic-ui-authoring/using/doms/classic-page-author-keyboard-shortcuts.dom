@@ -1,0 +1,189 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2018-04-03T06:44:46.681-0400" name="topicBrowsingSortDate" /> 
+  <meta content="2017-12-01T19:02:57.243-0500" name="jcr:created" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="8c9a91ec-6bcc-4fde-9e9b-caf439354b33" name="jcr:uuid" /> 
+  <meta content="Keyboard Shortcuts when Editing Pages" name="navTitle" /> 
+  <meta content="2018-04-03T06:44:46.681-0400" name="lastPublishExternalDate" /> 
+  <meta content="ae1abbc8-bf9a-4e2b-bae8-9cf7976931b8" name="jcr:predecessors" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="Chris Bohnert" name="contentOwner" /> 
+  <meta content="2018-04-19T10:24:25.738-0400" name="cq:lastModified" /> 
+  <meta content="Keyboard Shortcuts when Editing Pages" name="seoTitle" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="audience:classic-ui-authoring" name="primaryAudienceTag" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2018-04-03T06:44:47.352-0400" name="cq:lastReplicated" /> 
+  <meta content="2017-10-31T16:19:03.012-0400" name="firstPublishExternalDate" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="Various keyboard shortcuts are available throughout AEM. Some apply when editing pages, others to the use of consoles." name="seoDescription" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/classic-ui-authoring/morehelp/page-authoring;/content/help/en/experience-manager/6-4/sites/classic-ui-authoring/morehelp/page-authoring" name="moreHelpPaths" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="/content/docs/en/aem/6-3/author/classicui/page-authoring/keyboard-shortcuts" name="qaNotes" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/classic-ui-authoring/using/classic-page-author-keyboard-shortcuts.html" name="publishExternalURL" /> 
+  <meta content="2018-04-19T10:24:25.737-0400" name="locHandOffDate" /> 
+  <meta content="2018-04-03T06:44:46.681-0400" name="publishExternalDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:page-authoring;content_type:reference" name="cq:tags" /> 
+  <meta content="Keyboard Shortcuts when Editing Pages" name="jcr:title" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+ </head> 
+ <body> 
+  <p>Various keyboard shortcuts are available throughout AEM. Some apply when editing pages, others to the <a href="../../../sites/classic-ui-authoring/using/author-env-keyboard-shortcuts.md">use of consoles</a>.</p> 
+  <note> 
+   <p>In the following tables, for the key combinations in the <strong>Shortcut * </strong>column, both Ctrl and Command keys work on macOS.</p> 
+  </note> 
+  <note> 
+   <p>Multi-select on a desktop device:</p> 
+   <ul> 
+    <li>Windows: Ctrl+click on required components.<br /> </li> 
+    <li>Mac: Cmd+click on required components.</li> 
+   </ul> 
+  </note> 
+  <h2>Editing Keyboard Shortcuts</h2> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <th>Location</th> 
+     <th>Shortcut *</th> 
+     <th>Description</th> 
+    </tr> 
+    <tr> 
+     <td>Edit Mode</td> 
+     <td><span class="code">Ctrl-z</span></td> 
+     <td>Undo last change.</td> 
+    </tr> 
+    <tr> 
+     <td> </td> 
+     <td><span class="code">Ctrl-y</span></td> 
+     <td>Redo last change.</td> 
+    </tr> 
+    <tr> 
+     <td> </td> 
+     <td><strong><span class="code">Shift-Click</span></strong></td> 
+     <td>Select multiple paragraphs.</td> 
+    </tr> 
+    <tr> 
+     <td> </td> 
+     <td><strong><span class="code">Ctrl-Click</span></strong></td> 
+     <td>Select multiple paragraphs.</td> 
+    </tr> 
+    <tr> 
+     <td> </td> 
+     <td><strong><span class="code">Ctrl-C</span></strong></td> 
+     <td>Copy selected paragraph(s).</td> 
+    </tr> 
+    <tr> 
+     <td> </td> 
+     <td><strong><span class="code">Ctrl-X</span></strong></td> 
+     <td>Cut selected paragraph(s).<strong><br /> Note:</strong> The cut paragraph will not disappear until it has been pasted to the new location.</td> 
+    </tr> 
+    <tr> 
+     <td> </td> 
+     <td><strong><span class="code">Ctrl-V</span></strong></td> 
+     <td>Paste paragraph(s) from clipboard.</td> 
+    </tr> 
+    <tr> 
+     <td> </td> 
+     <td><strong><span class="code">Alt-Ctrl-V</span></strong></td> 
+     <td>Paste as reference.</td> 
+    </tr> 
+    <tr> 
+     <td> </td> 
+     <td><strong><span class="code">Super-Del (fn-delete)</span></strong></td> 
+     <td>Delete selected paragraph(s).</td> 
+    </tr> 
+    <tr> 
+     <td> </td> 
+     <td><strong><span class="code">Cmd-Backspace</span></strong></td> 
+     <td>Delete selected paragraph(s).</td> 
+    </tr> 
+    <tr> 
+     <td> </td> 
+     <td><strong><span class="code">Alt-right-click</span></strong></td> 
+     <td>Force default (browser) context menu.<br /> <strong>Note:</strong> AEM context menus only occur in the classic UI.</td> 
+    </tr> 
+    <tr> 
+     <td> </td> 
+     <td><strong><span class="code">Ctrl-Alt-c</span></strong></td> 
+     <td>Shows the <a href="../../../sites/administering/using/client-context.md">client context</a>.</td> 
+    </tr> 
+    <tr> 
+     <td>Rich Text Editor<br /> </td> 
+     <td><strong><span class="code">Ctrl-B</span></strong><br /> </td> 
+     <td>Bold</td> 
+    </tr> 
+    <tr> 
+     <td> </td> 
+     <td><strong><span class="code">Ctrl-I</span></strong><br /> </td> 
+     <td>Italic<br /> </td> 
+    </tr> 
+    <tr> 
+     <td> </td> 
+     <td><strong><span class="code">Ctrl-U</span></strong><br /> </td> 
+     <td>Underline</td> 
+    </tr> 
+    <tr> 
+     <td>Content Finder - Search box</td> 
+     <td><strong><span class="code">down-arrow</span></strong></td> 
+     <td>Trigger a suggestions list. Needed when too few characters have been entered to trigger the list automatically (this happens when 2 or more characters have been entered).</td> 
+    </tr> 
+    <tr> 
+     <td> </td> 
+     <td><strong><span class="code">right-arrow</span></strong><br /> (on a suggested path)</td> 
+     <td>Select item and trigger suggestions for the selected path.</td> 
+    </tr> 
+    <tr> 
+     <td> </td> 
+     <td><strong><span class="code">left-arrow</span></strong><br /> (on a suggested path)</td> 
+     <td>Select item and trigger suggestions for its ancestors (as in siblings of parent).</td> 
+    </tr> 
+    <tr> 
+     <td> </td> 
+     <td><strong><span class="code">Enter</span></strong><br /> (on a suggested path)</td> 
+     <td>Select item and trigger search.</td> 
+    </tr> 
+    <tr> 
+     <td> </td> 
+     <td><strong><span class="code">Esc</span></strong></td> 
+     <td>Close suggestions layer.</td> 
+    </tr> 
+    <tr> 
+     <td>Content Finder<br /> </td> 
+     <td><strong><span class="code">Alt+drag</span></strong></td> 
+     <td><p>Drag assets, drop on destination.</p> <p>The drop action produces a new paragraph; instead of replacing the asset in the destination.</p> </td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <p>Various keyboard shortcuts are also available for desktop users when using the <a href="../../../sites/classic-ui-authoring/using/author-env-keyboard-shortcuts.md">consoles</a>.</p> 
+  <h2>Keyboard Shortcuts for Development</h2> 
+  <p>Additional keyboard shortcuts are available for desktop developers when using the page editor.</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <th>Location</th> 
+     <th>Shortcut *</th> 
+     <th>Description</th> 
+    </tr> 
+    <tr> 
+     <td>Edit mode</td> 
+     <td>Set the following suffix in the URL:<br /> <span class="code">?debugClientLibs=true</span><br /> Then use:<br /> <strong><span class="code">Ctrl-Shift-U</span></strong></td> 
+     <td>To see timing statistics for page loading.</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+ </body> 
+</html>

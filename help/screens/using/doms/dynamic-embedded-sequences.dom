@@ -1,0 +1,292 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="/content/help/en/experience-manager/6-4/screens/morehelp/authoring;/content/help/en/experience-manager/6-4/screens/morehelp/authoring" name="moreHelpPaths" /> 
+  <meta content="" name="primaryAudienceTag" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="jsyal" name="contentOwner" /> 
+  <meta content="2018-11-27T14:01:33.235-0500" name="cq:lastModified" /> 
+  <meta content="2018-11-27T14:01:33.227-0500" name="topicBrowsingSortDate" /> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/SCREENS;topic_tags:authoring" name="cq:tags" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="Using Dynamic Embedded Sequence" name="jcr:title" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2018-11-27T14:01:33.227-0500" name="lastPublishExternalDate" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/screens/using/dynamic-embedded-sequences.html" name="publishExternalURL" /> 
+  <meta content="2018-11-27T14:01:33.227-0500" name="publishExternalDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SCREENS" name="primaryProductTag" /> 
+  <meta content="2018-09-20T12:44:29.489-0400" name="firstPublishExternalDate" /> 
+  <meta content="en" name="pageCreatedAt" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="jsyal" name="cq:lastReplicatedBy" /> 
+  <meta content="Follow this page to learn how to implement Dynamic Embedded Sequences in your AEM Screens project." name="seoDescription" /> 
+  <meta content="2018-11-27T14:01:33.292-0500" name="cq:lastReplicated" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="e5cf648f-2ce6-4e29-9167-637b3cf794f2" name="jcr:uuid" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="jsyal@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="jsyal" name="cq:lastModifiedBy" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2019-01-15T15:39:05.048-0500" name="jcr:created" /> 
+  <meta content="283c3e52-9286-43a8-9ddb-00a5c2c88f65" name="jcr:predecessors" /> 
+ </head> 
+ <body> 
+  <p>Using Dynamic Embedded Sequences covers the following topics:</p> 
+  <ul> 
+   <li><strong>Overview</strong></li> 
+   <li><strong>Using Dynamic Embedded Experience in AEM Screens</strong></li> 
+   <li><strong>Viewing the Results</strong></li> 
+   <li><strong>Restricting Users and Modifying the ACLs</strong></li> 
+  </ul> 
+  <h2>Overview</h2> 
+  <p><strong><em>Dynamic Embedded Sequences</em></strong> are created for large projects that follow parent child hierarchy, where the child is referenced inside a location folder and not a channel folder. It allows the user to embed a sequence inside a channel by <strong><em>Channel Role</em></strong>. It lets the user define location-specific placeholders for different offices using an embedded sequence inside a main channel.</p> 
+  <p>While assigning a channel to a display, you have the option of either specifying the path of the display or the role of the channel that will resolve to an actual channel by context.</p> 
+  <p>To use Dynamic Embedded Sequence, you assign a channel by <strong><em>Channel Role</em></strong>. Channel Role defines the context of the display. The role is targeted by various actions and is independent of the actual channel that fulfills the role. This section describes a use case that defines channels by role and how you can leverage that content to a global channel. You can also think of the role as an identifier for the assignment, or an alias for the channel in the context of.<br /> </p> 
+  <h3>Benefits of Using Dynamic Embedded Sequences</h3> 
+  <p>The main benefit of placing a sequence channel inside of a location instead of the channels folder is to allow local or regional authors to edit content relevant to them while being restricted from editing channels higher up in the hierarchy.</p> 
+  <p>Referencing a <em>Channel By Role</em>, allows you to create local version of a channel, in order to dynamically resolve location-specific content and also allows you to create a global channel that leverages the content for the location-specific channels.</p> 
+  <note> 
+   <p><strong>Embedded Sequences versus Dynamic Embedded Sequences</strong><br /> </p> 
+   <p>A Dynamic Embedded Sequence is similar to an embedded sequence but allows the user to follow a hierarchy where changes/updates made to one channel is propagated to other one in relation. It follows parent-child hierarchy and also includes assets like images or videos.<br /> </p> 
+   <p><em><strong>Dynamic Embedded Sequences</strong></em> lets you display location-specific content whereas <strong><em>Embedded Sequences</em></strong> only display general slide show of the content. Additionally, while setting up Dynamic Embedded Sequences, you need to configure the channel using channel role and name. Please refer to the steps below for practical implementation.<br /> </p> 
+   <p>To learn more about implementing embedded sequences, please refer to <a href="../../screens/using/embedded-sequences.md"><strong>Embedded Sequences</strong></a> in AEM Screens.</p> 
+  </note> 
+  <p>The following example provides a solution by focusing on the following key terms:</p> 
+  <ul> 
+   <li>a <strong><em>main sequence channel </em></strong>for the global sequence</li> 
+   <li><strong><em>dynamic embedded sequence</em> </strong>components for each locally customizable part of the sequence</li> 
+   <li><strong><em>individual sequence channels </em></strong>in the respective locations with a <em>role</em> in the display that matches the <strong><em>dynamic embedded sequence component</em>'s <em>role</em></strong></li> 
+  </ul> 
+  <note> 
+   <p>To learn more about channel assignment, see <strong><a href="../../screens/using/channel-assignment.md">Channel Assignment</a> </strong>under Authoring section in AEM Screens documentation.</p> 
+  </note> 
+  <h2>Using Dynamic Embedded Sequence</h2> 
+  <p>The following section explains the creation of a Dynamic Embedded Sequence in an AEM Screens channel.</p> 
+  <h3>Prerequisites</h3> 
+  <p>Before you start implementing this functionality, please make sure you have the following prerequisites ready to start implementing dynamic embedded sequences:</p> 
+  <ul> 
+   <li>Create an AEM Screens project (in this example, <strong>Demo</strong>)<br /> </li> 
+   <li>Create a channel as <strong>Global</strong> under <strong>Channels</strong> folder</li> 
+   <li>Add content to your <strong>Global</strong> Channel (<em>Please check <strong>Resources.zip</strong> for relevant assets</em>)</li> 
+  </ul> 
+  <div>
+    The following image shows the 
+   <strong>Demo</strong> project with 
+   <strong>Global</strong> channel in 
+   <strong>Channels</strong> folder. 
+   <br /> 
+  </div> 
+  <img imageRotate="0" src="assets/screen_shot_2018-09-07at21032pm.png" /> 
+  <h3>Resources</h3> 
+  <p>You can download the following resources (images and add these to assets) and further use these as channel content for demonstration purpose.</p> 
+  <div> 
+   <p></p> 
+   <p><a alt="Resources.zip" href="assets/resources.zip" status="changing">Get File</a></p> 
+  </div> 
+  <note> 
+   <p>For additional information on how to create a project and how to create a sequence channel, please refer to resources below:</p> 
+   <ul> 
+    <li><strong><a href="../../screens/using/creating-a-screens-project.md">Creating and Managing Projects</a><br /> </strong></li> 
+    <li><strong><a href="../../screens/using/managing-channels.md">Managing a Channel</a></strong></li> 
+   </ul> 
+  </note> 
+  <p>Implementing Dynamic Embedded Sequence in an AEM Screens project involves three major tasks:</p> 
+  <ol> 
+   <li><strong>Setting up Project taxonomy including Channels, Locations, and Displays<br /> </strong></li> 
+   <li><strong>Creating a Schedule <br /> </strong></li> 
+   <li><strong>Assigning Schedule to each display</strong></li> 
+  </ol> 
+  <p>Follow the steps below to implement the functionality:</p> 
+  <note> 
+   <p>While implementing Dynamic Embedded Sequences, please be careful of the <strong>Name</strong> and <strong>Title</strong> fields while creating channels under each location. Please follow the instructions on nomenclature carefully.</p> 
+  </note> 
+  <ol> 
+   <li> <p>Navigate to your <strong>Locations</strong> folder in your AEM Screens project and create two location folders as <strong>Region A</strong> and <strong>Region B</strong>. </p> 
+    <note> 
+     <p>While creating the <strong>Region A</strong> location folder, make sure you enter the <strong>Title</strong> as <strong>Region A</strong> and you can leave the <strong>Name</strong> field empty, so automatically <strong>region-a</strong> name is picked up.</p> 
+     <p>Similar, is the case for creating location folder <strong>Region B</strong>, as shown below:</p> 
+    </note><img imageRotate="0" src="assets/screen_shot_2018-09-13at23212pm.png" /> 
+    <note> 
+     <p>To learn how to create a location, please refer to <strong><a href="../../screens/using/managing-locations.md">Creating and Managing Locations</a></strong>.</p> 
+    </note></li> 
+   <li> 
+    <ol> 
+     <li>Navigate to <strong>Demo</strong> --&amp;gt; <strong>Locations</strong> --&amp;gt; <strong>Region A</strong>.</li> 
+     <li>Select <strong>Region A </strong>and click <strong>+ Create</strong> from the action bar.</li> 
+     <li>Select <strong>Location</strong> from the wizard with <strong>Title</strong> as <strong>Store 1</strong>. Similarly, create another location from the wizard titled as <strong>Store 2</strong> with <strong>Title</strong> as <strong>Store 2</strong>. You can leave the <strong>Name</strong> field empy while creating <strong>Store 1</strong> and <strong>Store 2</strong>.<br /> </li> 
+     <li>Repeat step (b) and now select <strong>Sequence Channel</strong> from the wizard. Enter the <strong>Title</strong> as <strong>Region A</strong> and <strong>Name</strong> as <strong>region </strong>for this channel.</li> 
+    </ol> 
+    <note> 
+     <p>Please make sure that while creating channel <strong>Region A</strong>, enter the <strong>Title</strong> as <strong>Region A </strong>and the <strong>Name</strong> as <strong>region</strong>. </p> 
+    </note><img imageRotate="0" src="assets/screen_shot_2018-09-13at22857pm.png" /><p>Similarly, create two locations under <strong>Region B</strong> titled as <strong>Store 3</strong> and <strong>Store 4</strong>. Also, create a <strong>Sequence Channel</strong> with <strong>Title</strong> as <strong>Region B</strong> and <strong>Name</strong> as <strong>region</strong>.</p> 
+    <note> 
+     <p>Please make sure that you can use the same name for the channels created in <strong>Region A</strong> and <strong>Region B</strong> as <strong>region</strong>.</p> 
+    </note><img imageRotate="0" src="assets/screen_shot_2018-09-13at24408pm.png" /></li> 
+   <li> 
+    <ol> 
+     <li>Navigate to <strong>Demo</strong> --&amp;gt; <strong>Locations</strong> --&amp;gt; <strong>Region A</strong> --&amp;gt; <strong>Store 1</strong>.<br /> </li> 
+     <li>Select <strong>Store 1 </strong>and click <strong>+ Create</strong> from the action bar.</li> 
+     <li>Select <strong>Display</strong> from the wizard and create <strong>Store1Display.</strong><br /> </li> 
+     <li>Repeat step (b) and this time select <strong>Sequence Channel</strong> from the wizard. Enter the <strong>Title</strong> as <strong>Store1Channel</strong> and the <strong>Name</strong> as <strong>store</strong>.</li> 
+    </ol> 
+    <note> 
+     <p>It is important when you create a sequence channel, the <strong>Title</strong> of the channel can be as your requirement, but the <strong>Name</strong> should be the same in all the local channels.</p> 
+     <p>In this example, the channels under <strong>Region A </strong>and <strong>Region B</strong> share the same <strong>Name</strong> as <strong>region</strong> and channels under <strong>Store 1</strong>, <strong>Store 2</strong>, <strong>Store 3</strong>, and <strong>Store 4 </strong>share the same <strong>Name</strong> as <strong>store</strong>.</p> 
+    </note><img imageRotate="0" src="assets/screen_shot_2018-09-19at120206pm.png" /><p>Similarly, create a display as <strong>Store2Display</strong> and a channel <strong>Store2Channel</strong> under<strong> Store 2</strong> (with name as <strong>store</strong>).</p> 
+    <note> 
+     <p>Please make sure that you can use the same name for the channels created in <strong>Store 1</strong> and <strong>Store 2</strong> as <strong>store</strong>.</p> 
+    </note><img imageRotate="0" src="assets/screen_shot_2018-09-19at120329pm.png" /><p>Follow the preceding steps to create a channel and display in <strong>Store 3</strong> and <strong>Store 4</strong> under <strong>Region B</strong>. Again, please make sure that you use same <strong>Name</strong> as <strong>store</strong> while creating channel <strong>Store3Channel</strong> and <strong>Store4Channel</strong> respectively.</p> <p>The following image shows the display and channel in <strong>Store 3</strong>.</p> <img imageRotate="0" src="assets/screen_shot_2018-09-19at120448pm.png" /><p>The following image shows the display and channel in <strong>Store 4</strong>.</p> <img imageRotate="0" src="assets/screen_shot_2018-09-19at120552pm.png" /></li> 
+   <li> <p>Navigate to the <strong>Demo</strong> -&amp;gt; <strong>Locations</strong> -&amp;gt; <strong>Region A</strong> -&amp;gt; <strong>Region A</strong> and click <strong>Edit</strong> from the action bar. Drag and drop the assets you would like to add to your channel.</p> 
+    <note> 
+     <p>You can use the <strong><em>Resources.zip</em></strong> file from the <strong>Resources</strong> section, above, to use the images as assets for your channel content.</p> 
+    </note><img imageRotate="0" src="assets/screen_shot_2018-09-12at12438pm.png" /><p>Similarly, navigate to the <strong>Demo</strong> -&amp;gt; <strong>Locations</strong> -&amp;gt; <strong>Region B</strong> -&amp;gt; <strong>Region B</strong> and click <strong>Edit</strong> from the action bar to drag and drop the assets to your channel, as shown below:</p> <img imageRotate="0" src="assets/screen_shot_2018-09-12at13133pm.png" /><p>Follow the preceding steps and the resources, to add content to the following channels:</p> 
+    <ul> 
+     <li><strong>Store1Channel</strong></li> 
+     <li><strong>Store2Channel</strong></li> 
+     <li><strong>Store3Channel</strong></li> 
+     <li><strong>Store4Channel</strong></li> 
+    </ul> </li> 
+   <li> <p>Navigate and select <strong>Schedules</strong> folder in your AEM Screens project and click <strong>Create</strong> from the action bar to create a new schedule.</p> <p>The following image shows the <strong>AdSchedule</strong> created in <strong>Demo</strong> project.</p> <img imageRotate="0" src="assets/screen_shot_2018-09-13at33307pm.png" /></li> 
+   <li> 
+    <ol> 
+     <li>Navigate to <strong>Demo</strong> --&amp;gt; <strong>Schedules</strong> --&amp;gt; <strong>AdSchedule</strong> and click <strong>Dashboard</strong> from the action bar.</li> 
+     <li>Click <strong>+ Assign Channel</strong> from <strong>ASSIGNED CHANNELS</strong> panel to open the <strong>Channel Assignment</strong> dialog box.</li> 
+     <li>Select <strong>Reference Channel</strong>.. by path.</li> 
+     <li>Select the <strong>Channel Path</strong> as <strong>Demo</strong><em> --&amp;gt; </em><strong>Channels</strong><em> --&amp;gt; </em><strong>Global</strong><em>.</em><br /> </li> 
+     <li>Enter the <strong>Channel Role</strong> as <strong>GlobalAdSegment</strong>.</li> 
+     <li>Select the <strong>Supported Events</strong> as <strong>Initial Load</strong>, <strong>Idle Screen</strong>, and <strong>User Interaction</strong>.<em><br /> </em></li> 
+     <li>Click <strong>Save</strong>.<em><br /> </em></li> 
+    </ol>  
+    <ol> 
+     <li>Click <strong>+ Assign Channel</strong> from <strong>ASSIGNED CHANNELS</strong> panel to open the <strong>Channel Assignment</strong> dialog box.</li> 
+     <li>Select <strong>Reference Channel</strong>.. by name.</li> 
+     <li>Enter the <strong>Channel Name</strong> as <strong>region</strong><em>.</em></li> 
+     <li>Enter the <strong>Channel Role</strong> as <strong>RegionAdSegment</strong>.</li> 
+     <li>Click <strong>Save</strong>.<em><br /> </em></li> 
+    </ol>  
+    <ol> 
+     <li>Click <strong>+ Assign Channel</strong> from <strong>ASSIGNED CHANNELS</strong> panel to open the <strong>Channel Assignment</strong> dialog box.</li> 
+     <li>Select <strong>Reference Channel</strong>.. by name.</li> 
+     <li>Enter the <strong>Channel Name</strong> as <strong>store</strong><em>.</em></li> 
+     <li>Enter the <strong>Channel Role</strong> as <strong>StoreAdSegment</strong>.</li> 
+     <li>Click <strong>Save</strong>.<em><br /> </em></li> 
+    </ol> <p>The following image shows the assigned channels by path and by role.</p> <img imageRotate="0" src="assets/screen_shot_2018-09-12at21429pm.png" /></li> 
+   <li> <p>Navigate to the <strong>Global</strong> Channel, you intially created in <strong>Demo</strong> project.</p> <p>Click <strong>Edit</strong> from the action to open the editor.<br /> </p> <img imageRotate="0" src="assets/screen_shot_2018-09-13at52754pm.png" /><p>Drag and drop two <strong>Dynamic Embedded Sequence</strong> components in the channel editor.</p> <p>Open the properties from one of the components and enter the <strong>Channel Assignment Role</strong> as <strong>RegionAdSegment</strong>.</p> <p>Similarly, select the other component and open properties to enter the <strong>Channel Assignment Role</strong> as <strong>StoreAdSegment</strong>.</p> <img imageRotate="0" src="assets/channeldisplay4.gif" /></li> 
+   <li> 
+    <ol> 
+     <li>Navigate to the each display, such as <strong>Demo</strong> --&amp;gt; <strong>Locations</strong> --&amp;gt; <strong>Region A</strong> --&amp;gt;<strong>Store 1</strong> --&amp;gt;<strong>Store1Display</strong>.</li> 
+     <li>Click <strong>Dashboard</strong> from the action to open the display dashboard.</li> 
+     <li>Click <strong>...</strong> from the <strong>ASSIGNED CHANNELS &amp; SCHEDULES</strong> panel and further click <strong>+Assign Schedule</strong>.</li> 
+     <li>Select the path to the Schedule (for example, here, <strong>Demo</strong> --&amp;gt; <strong>Schedules</strong> --&amp;gt;<strong>AdSchedule</strong>).</li> 
+     <li>Click <strong>Save</strong>.</li> 
+    </ol> </li> 
+  </ol> 
+  <h2>Viewing the Results</h2> 
+  <p>Once you have the set up for channels and display complete, please launch the AEM Screens player to view the content.</p> 
+  <note> 
+   <p>To learn about AEM Screen Player, please refer to the following resources:</p> 
+   <ul> 
+    <li><a href="https://download.macromedia.com/screens/"><strong>AEM Screens player downloads</strong></a></li> 
+    <li><a href="../../sites/authoring/using/working-with-screens-player.md"><strong>Working with AEM Screens Player</strong></a></li> 
+   </ul> 
+  </note> 
+  <p>The following output confirms your channel content in AEM Screens player, depending on the display path.</p> 
+  <p><strong>Scenario 1</strong>:</p> 
+  <p>If you assign the display path as <strong>Demo</strong> --&amp;gt; <strong>Locations</strong> --&amp;gt; <strong>Region A</strong> --&amp;gt;<strong> Store 1</strong> --&amp;gt; <strong>Store1Display</strong>, the following content will display on your AEM Screens player.</p> 
+  <img imageRotate="0" src="assets/channeldisplay1.gif" /> 
+  <p><strong>Scenario 1</strong>:</p> 
+  <p>If you assign the display path as <strong>Demo</strong> --&amp;gt; <strong>Locations</strong> --&amp;gt; <strong>Region B</strong> --&amp;gt;<strong> Store 3</strong> --&amp;gt; <strong>Store3Display</strong>, the following content will display on your AEM Screens player.</p> 
+  <img imageRotate="0" src="assets/channeldisplay2.gif" /> 
+  <h2>Restricting Users and Modifying the ACLs</h2> 
+  <p>You can create global, regional, or local authors to edit content relevant to them while being restricted from editing channels higher up in the hierarchy.</p> 
+  <p>You need to modify the ACLs to restrict the users access to the content based on their location.<br /> </p> 
+  <h3>Example Use Case</h3> 
+  <p>The following example allows you to create three users for the above Demo project.</p> 
+  <p>The privileges are assigned to each group are as follows:</p> 
+  <p><strong>Groups</strong>:</p> 
+  <ul> 
+   <li><strong>Global-Author</strong>: Consists of users that have access to all the locations and channels in the <strong>Demo</strong> project and have all the read, write, and edit permissions.<br /> </li> 
+   <li><strong>Region-Author</strong>: Consists of users that have read, write, and edit permissions to <strong>Region A</strong> and <strong>Region B</strong>.<br /> </li> 
+   <li><strong>Store-Author</strong>: Consists of users that have read, write, and edit permissions only to <strong>Store 1</strong>, <strong>Store 2</strong>, <strong>Store 3</strong>, and <strong>Store 4</strong>.</li> 
+  </ul> 
+  <h4>Steps for creating User Groups, Users and setting up ACLs</h4> 
+  <note> 
+   <p>To learn in detail how to segregate projects using ACLs so that each individual or team handles their own project, please refer to <strong>Setting up ACLs</strong>.</p> 
+  </note> 
+  <p>Follow the steps below to create groups, users and modify the ACLs as per the permissions:</p> 
+  <ol> 
+   <li> 
+    <ol> 
+     <li>Navigate to <strong>Adobe Experience Manager</strong>.</li> 
+     <li>Click <strong>Tools</strong> --&amp;gt; <strong>Security</strong> --&amp;gt; <strong>Groups</strong>.</li> 
+     <li>Click <strong>Create Group</strong> and enter <strong>Global-Author</strong> in <strong>ID</strong>.</li> 
+     <li>Click <strong>Save &amp; Close</strong>.</li> 
+    </ol> 
+    <div>
+      Similarly, create two other groups such as 
+     <strong>Region-Author</strong> and 
+     <strong>Store-Author</strong>. 
+     <br /> 
+    </div> <img imageRotate="0" src="assets/screen_shot_2018-09-17at34008pm.png" /></li> 
+   <li> 
+    <ol> 
+     <li>Navigate to <strong>Adobe Experience Manager</strong>.</li> 
+     <li>Click <strong>Tools</strong> --&amp;gt; <strong>Security</strong> --&amp;gt; <strong>Users</strong>.</li> 
+     <li>Click <strong>Create User</strong> and enter <strong>Global-User</strong> in <strong>ID</strong>.</li> 
+     <li>Enter <strong>Password</strong> and confirm password for this user.<br /> </li> 
+     <li>Click the <strong>Groups</strong> tab and enter the group name in <strong>Select Group</strong>, for example, enter <strong>Global-Author</strong> to add <strong>Global-User</strong> to that specific group.<br /> </li> 
+     <li>Click <strong>Save &amp; Close</strong>.</li> 
+    </ol> <p>Similarly, create two other users such as <strong>Region-User</strong> and <strong>Store-User</strong> and add those to <strong>Region-Author</strong> and <strong>Store-Author</strong> respectively.</p> 
+    <note> 
+     <p>It is a best practice to add users in a group and then assign permissions to each particular group of users.</p> 
+    </note><img imageRotate="0" src="assets/screen_shot_2018-09-17at34412pm.png" /></li> 
+   <li> 
+    <ol> 
+     <li>Navigate to <strong>Adobe Experience Manager</strong>.</li> 
+     <li>Click <strong>Tools</strong> --&amp;gt; <strong>Security</strong> --&amp;gt; <strong>Groups</strong>.</li> 
+     <li>Select <strong>Contributors</strong> from the list and select <strong>Members</strong> tab.</li> 
+     <li>Select the <strong>Group</strong> such as <strong>Global-Author</strong>, <strong>Region-Author,</strong> and <strong>Store-Author</strong> to contributors.</li> 
+     <li>Click <strong>Save &amp; Close</strong>.</li> 
+    </ol> </li> 
+   <li> 
+    <ol> 
+     <li>Navigate to the <em>Useradmin</em> and use this UI to modify the permissions for different groups.</li> 
+     <li>Search for <strong>Global-Author</strong> and click <strong>Permissions</strong> tab, as shown in the figure below.</li> 
+     <li>Similarly, you can access the permissions for <strong>Region-Author</strong> and <strong>Store-Author</strong>.</li> 
+    </ol> <img imageRotate="0" src="assets/screen_shot_2018-09-18at73523am.png" /></li> 
+   <li>  
+    <ol> 
+     <li>Navigate to the <strong>Permissions</strong> tab</li> 
+     <li>Navigate to <em><strong>/content/screens/demo</strong></em> and check all the permissions</li> 
+     <li>Navigate to <strong><em>/content/screens/demo/locations</em></strong> and check all the permissions</li> 
+     <li>Navigate to <strong><em>/content/screens/demo/locations</em></strong>/<strong><em>region-a</em></strong> and check all the permissions. Similarly, check the permissions for <strong>region-b</strong>.</li> 
+    </ol> 
+    <div>
+      Please refer to the figure below for understanding the steps: 
+     <br /> 
+    </div> <img imageRotate="0" src="assets/screen_shot_2018-09-18at115752am.png" /><p>The following image shows that now the <strong>Global-User</strong> has access to the <strong>Global Channel</strong> and both the <strong>Region A</strong> and <strong>Region B</strong> with all the four stores namely <strong>Store 1</strong>, <strong>Store 2</strong>, <strong>Store 3</strong>, and <strong>Store 4</strong>.</p> <img imageRotate="0" src="assets/global.gif" /> 
+    <ol> 
+     <li>Navigate to the <strong>Permissions</strong> tab.</li> 
+     <li>Navigate to <em><strong>/content/screens/demo</strong></em> and check only the<strong> Read</strong> permissions.</li> 
+     <li>Navigate to <strong><em>/content/screens/demo/locations</em></strong> and check only the <strong>Read</strong> permissions.</li> 
+     <li>Navigate to <strong><em>/content/screens/demo/channels </em></strong>and un-check the permissions for <strong>Global</strong> channel.<strong><em><br /> </em></strong></li> 
+     <li>Navigate to <strong><em>/content/screens/demo/locations</em></strong>/<strong><em>region-a</em></strong> and check all the permissions. Similarly, check the permissions for <strong>region-b</strong>.</li> 
+    </ol> <p>Please refer to the figure below for understanding the steps:</p> <img imageRotate="0" src="assets/screen_shot_2018-09-18at125158pm.png" /><p>The following image shows that now the Region-User has access to both the <strong>Region A</strong> and <strong>Region B</strong> with all the four stores namely <strong>Store 1</strong>, <strong>Store 2</strong>, <strong>Store 3</strong>, and <strong>Store 4</strong> but does not access to the <strong>Global</strong> Channel.</p> <img imageRotate="0" src="assets/region.gif" /> 
+    <ol> 
+     <li>Navigate to the <strong>Permissions</strong> tab.</li> 
+     <li>Navigate to <em><strong>/content/screens/demo</strong></em> and check only the <strong>Read</strong> permissions.</li> 
+     <li>Navigate to <strong><em>/content/screens/demo/locations</em></strong> and check only the <strong>Read</strong> permissions.<br /> </li> 
+     <li>Navigate to <strong><em>/content/screens/demo/channels </em></strong>and un-check the permissions for <strong>Global</strong> channel.</li> 
+     <li>Navigate to <strong><em>/content/screens/demo/locations</em></strong>/<strong><em>region-a</em></strong> and check only the<strong> Read</strong> permissions. Similarly, check only the<strong> Read</strong> permissions for <strong>region-b</strong>.</li> 
+     <li>Navigate to <strong><em>/content/screens/demo/locations</em></strong>/<strong><em>region-a /store-1 </em></strong>and check<strong><em> </em></strong>all the permissions. Similarly, check the permissions for <strong>store-2, store-3,</strong> and<strong> store-4</strong>.</li> 
+    </ol> <p>Please refer to the figure below for understanding the steps:</p> <img imageRotate="0" src="assets/screen_shot_2018-09-18at12415pm.png" /><p>The following image shows that now the <strong>Store-User</strong> has access only to the four stores namely <strong>Store 1</strong>, <strong>Store 2</strong>, <strong>Store 3</strong>, and <strong>Store 4</strong> but does not have permissions to access the <strong>Global</strong> or the region (<strong>Region A </strong>and <strong>Region B</strong>) channels.</p> <img imageRotate="0" src="assets/store.gif" /></li> 
+  </ol> 
+  <note> 
+   <p>To learn in detail about setting up permissions, please refer to <a href="../../screens/using/setting-up-acls.md"><strong>Setting up ACLs</strong></a> in AEM Screens Developer documentation.</p> 
+  </note> 
+ </body> 
+</html>

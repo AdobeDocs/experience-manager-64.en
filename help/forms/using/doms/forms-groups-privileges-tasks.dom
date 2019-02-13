@@ -1,0 +1,149 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="32" name="acrolinxSentences" />
+  <meta content="checked_improved" name="acrolinxStatus" />
+  <meta content="Assign users to the groups to manage AEM Forms on OSGi" name="jcr:description" />
+  <meta content="278" name="acrolinxWords" />
+  <meta content="anujkapo" name="acrolinxLastCheckedBy" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="AEM Forms on OSGi Groups and Privileges" name="seoTitle" />
+  <meta content="anujkapo@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="red" name="acrolinxPageStatus" />
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/forms_groups_privileges_tasks_krs_workflow_27a21c3e5e538b90_189_report.xml" name="acrolinxReportURL" />
+  <meta content="2018-12-05T00:05:12.611-0500" name="topicBrowsingSortDate" />
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/configuration;/content/help/en/experience-manager/6-4/forms/morehelp/configuration" name="moreHelpPaths" />
+  <meta content="2018-12-05T00:05:12.611-0500" name="publishExternalDate" />
+  <meta content="2018-12-17T06:03:36.903-0500" name="locHandOffDate" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="ecd387e9-2292-4f99-bc81-5211277d3ddf" name="jcr:predecessors" />
+  <meta content="anujkapo" name="contentOwner" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS;content_type:reference;topic_tags:Configuration" name="cq:tags" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-12-04T23:45:54.625-0500" name="acrolinxDate" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="en" name="pageCreatedAt" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" />
+  <meta content="2018-12-17T06:03:36.905-0500" name="cq:lastModified" />
+  <meta content="Assign users to the groups to manage AEM Forms on OSGi" name="seoDescription" />
+  <meta content="2018-12-05T00:05:12.661-0500" name="cq:lastReplicated" />
+  <meta content="2018-12-05T00:05:12.611-0500" name="lastPublishExternalDate" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="anujkapo" name="cq:lastReplicatedBy" />
+  <meta content="2018-12-04T23:59:00.451-0500" name="firstPublishExternalDate" />
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2019-01-15T15:36:12.813-0500" name="jcr:created" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/forms-groups-privileges-tasks.html" name="publishExternalURL" />
+  <meta content="anujkapo" name="cq:lastModifiedBy" />
+  <meta content="768e9f61-9ac9-444c-a291-278b093098ff" name="jcr:uuid" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="AEM Forms on OSGi Groups and Privileges" name="jcr:title" />
+ </head>
+ <body>
+  <p>You can <a href="../../sites/administering/using/user-group-ac-admin.md#groupadministration" target="_blank">create groups</a> and assign policies and <a href="../../sites/administering/using/user-group-ac-admin.md#useradministration" target="_blank">users</a> to the groups in AEM. These policies control privileges of the users that are part of the group.</p> 
+  <p>Once you install <a href="../../forms/using/installing-configuring-aem-forms-osgi.md" target="_blank">AEM Forms add-on package</a>, the groups mentioned in this article, such as forms-user and forms-power-user, are automatically available for assignment. The following table lists the tasks a user can perform for AEM Forms on OSGi based on the group assignments:</p> 
+  <p> </p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody>
+    <tr>
+     <td>Group</td> 
+     <td>Tasks</td> 
+    </tr>
+    <tr>
+     <td>forms-user <sup><a href="#main-pars-text">[1]</a></sup></td> 
+     <td>
+      <ul> 
+       <li>Create, preview, publish, and submit adaptive forms</li> 
+       <li>Create, preview, and publish interactive communications and document fragments</li> 
+       <li>Upload assets to an AEM instance</li> 
+       <li>Create themes</li> 
+      </ul> </td> 
+    </tr>
+    <tr>
+     <td>forms-power-user</td> 
+     <td>
+      <ul> 
+       <li>Create, preview, publish, and submit adaptive forms</li> 
+       <li>Create, preview, and publish interactive communications and document fragments</li> 
+       <li>Create scripts for adaptive forms using code editor</li> 
+       <li>Upload assets including scripts</li> 
+       <li>Create themes</li> 
+       <li>Import packages containing XDP</li> 
+      </ul> </td> 
+    </tr>
+    <tr>
+     <td>forms-submission-reviewers</td> 
+     <td>
+      <ul> 
+       <li>Review submissions</li> 
+       <li>Approve or reject submissions</li> 
+      </ul> </td> 
+    </tr>
+    <tr>
+     <td>template-authors <sup><a href="#main-pars-text">[2]</a></sup></td> 
+     <td>
+      <ul> 
+       <li>Create and preview adaptive forms or interactive communications templates</li> 
+      </ul> </td> 
+    </tr>
+    <tr>
+     <td>template-power-user</td> 
+     <td>
+      <ul> 
+       <li>Create and preview adaptive forms or interactive communications templates</li> 
+       <li>Create scripts for adaptive forms or interactive communications templates using code editor</li> 
+      </ul> </td> 
+    </tr>
+    <tr>
+     <td><p>fdm-authors</p> </td> 
+     <td>
+      <ul> 
+       <li>Create and modify a form data model</li> 
+      </ul> </td> 
+    </tr>
+    <tr>
+     <td>cm-user-agent</td> 
+     <td>
+      <ul> 
+       <li>Access Correspondence Management letters or interactive communications using Agent UI</li> 
+      </ul> </td> 
+    </tr>
+    <tr>
+     <td><p>workflow-editors</p> </td> 
+     <td>
+      <ul> 
+       <li>Create an inbox application</li> 
+       <li>Create a workflow model</li> 
+      </ul> </td> 
+    </tr>
+    <tr>
+     <td>workflow-user</td> 
+     <td>
+      <ul> 
+       <li>Use AEM inbox applications</li> 
+       <li>Manage workflow instances</li> 
+      </ul> </td> 
+    </tr>
+    <tr>
+     <td>fd-administrators</td> 
+     <td>
+      <ul> 
+       <li>Configure PDF Generator</li> 
+       <li>Configure Watched folder</li> 
+       <li>Manage workflow applications</li> 
+      </ul> </td> 
+    </tr>
+   </tbody>
+  </table> 
+  <ol> 
+   <li>The user with forms-user group privileges cannot write scripts for adaptive forms.</li> 
+   <li>The user with template-authors group privileges cannot write scripts for templates.</li> 
+  </ol> 
+ </body>
+</html>

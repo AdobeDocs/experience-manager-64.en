@@ -1,0 +1,88 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="2016-02-05T03:27:00.000-0500" name="sortDate" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/forms/using/admin-help/starting-stopping-websphere-application-server.html" name="publishExternalURL" />
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" />
+  <meta content="2016-05-31T07:03:19.724-0400" name="acrolinxDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/maintaining_the_application_server;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" />
+  <meta content="168" name="acrolinxWords" />
+  <meta content="2016-02-05T03:27:00.000-0500" name="topicBrowsingSortDate" />
+  <meta content="6" name="acrolinxSentences" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="67e6621c-6fa9-47bd-95e6-39aa99dca8c1" name="jcr:predecessors" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="Starting and stopping WebSphere Application Server" name="navTitle" />
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/starting_stopping_websphere_application_server_admin_5e12de0b318c6865_2377_report.xml" name="acrolinxReportURL" />
+  <meta content="2018-04-26T04:22:30.689-0400" name="locHandOffDate" />
+  <meta content="2017-12-01T19:04:08.220-0500" name="jcr:created" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="light" name="heroGradient" />
+  <meta content="d6124cbe-c18e-4ebd-a7c6-4fba0a0c2c41" name="jcr:uuid" />
+  <meta content="video" name="pageLayout" />
+  <meta content="/content/help/en/experience-manager/6-4/forms/using/morehelp/maintaining_the_application_server;/content/help/en/experience-manager/6-4/forms/using/morehelp/maintaining_the_application_server" name="moreHelpPaths" />
+  <meta content="2016-04-20T10:10:02.272-0400" name="firstPublishExternalDate" />
+  <meta content="2018-04-03T09:10:40.865-0400" name="cq:lastReplicated" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="Starting and stopping WebSphere Application Server" name="jcr:title" />
+  <meta content="2017-10-31T16:31:56.409-0400" name="publishExternalDate" />
+  <meta content="2018-04-26T04:22:30.690-0400" name="cq:lastModified" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2017-10-31T16:31:56.409-0400" name="lastPublishExternalDate" />
+  <meta content="2016-02-05T03:27:32.568-0500" name="lr_lastModified" />
+  <meta content="not_checked" name="acrolinxStatus" />
+  <meta content="red" name="acrolinxPageStatus" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="admin" name="contentOwner" />
+  <meta content="left" name="sideColumn" />
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="false" name="doNotLocalize" />
+  <meta content="admin" name="lr_creator" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="head1_20111213" name="gep_conversion_script_version" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" />
+  <meta content="admin" name="lr_lastModifiedBy" />
+  <meta content="AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7c87.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-61b84f5a12905ce047c-7ff3.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-61b84f5a12905ce047c-7ff2.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-61b84f5a12905ce047c-7ff1.2" name="cq:gepId" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="Several procedures require you to stop or start the instance of WebSphere where you want to deploy AEM forms products. This document describes how to start and stop the WebSphere Application Server." name="seoDescription" />
+ </head>
+ <body>
+  <p>Several procedures require you to stop or start the instance of WebSphere where you want to deploy AEM forms products. If you are unsure whether the application server has started, you can first view the status of WebSphere Application Server. </p>
+  <h2 id="view_the_status_of_websphere_application_server">View the status of WebSphere Application Server</h2>
+  <p></p>
+  <ol>
+   <li><p>From a command prompt, go to the <i>[appserver root]</i>/bin directory.</p></li>
+   <li><p>Enter the following command, replacing <i>server_name</i> with the name of your WebSphere Application Server: </p>
+    <ul>
+     <li><p>(Windows) <span class="code">serverStatus.bat </span><i>server_name</i></p></li>
+     <li><p>(Linux, UNIX) ./<span class="code">serverStatus.sh </span><i>server_name</i></p></li>
+    </ul></li>
+  </ol>
+  <h2 id="start_websphere_application_server">Start WebSphere Application Server</h2>
+  <p></p>
+  <ol>
+   <li><p>From a command prompt, go to the <i>[appserver root]</i>/bin directory.</p></li>
+   <li><p>Enter the following command, replacing <i>server_name</i> with the name of your WebSphere Application Server:</p>
+    <ul>
+     <li><p>(Windows) <span class="code">startServer.bat </span><i>server_name</i></p></li>
+     <li><p>(Linux, UNIX) ./<span class="code">startServer.sh </span><i>server_name</i></p></li>
+    </ul></li>
+  </ol>
+  <h2 id="stop_websphere_application_server">Stop WebSphere Application Server</h2>
+  <p></p>
+  <ol>
+   <li><p>From a command prompt, go to the <i>[appserver root]</i>/bin directory.</p></li>
+   <li><p>Enter the following command, replacing <i>server_name</i> with the name of your WebSphere Application Server:</p>
+    <ul>
+     <li><p>(Windows) <span class="code">stopServer.bat </span><i>server_name</i></p></li>
+     <li><p>(Linux, UNIX) ./<span class="code">stopServer.sh </span><i>server_name</i></p></li>
+    </ul></li>
+  </ol>
+ </body>
+</html>

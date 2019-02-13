@@ -1,0 +1,79 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="topicBrowsingSortDate" /> 
+  <meta content="aac5955d-df19-440a-a998-6b35071e6e23" name="jcr:uuid" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2018-04-03T09:10:35.793-0400" name="cq:lastReplicated" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="8ce75a5b-1b55-4484-9b2d-a27649aed604" name="jcr:predecessors" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="2018-04-26T04:22:41.960-0400" name="cq:lastModified" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="2017-12-01T19:05:10.554-0500" name="jcr:created" /> 
+  <meta content="2016-05-31T07:03:03.433-0400" name="acrolinxDate" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="334" name="acrolinxWords" /> 
+  <meta content="2016-04-20T10:07:55.722-0400" name="firstPublishExternalDate" /> 
+  <meta content="admin" name="contentOwner" /> 
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/configuring_output;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="sortDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2018-04-26T04:22:41.960-0400" name="locHandOffDate" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="Learn how to specify file locations for Output." name="seoDescription" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/specify_file_locations_output_admin_5e12de0b318c6865_2367_report.xml" name="acrolinxReportURL" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="admin" name="lr_creator" /> 
+  <meta content="Specify file locations for Output " name="jcr:title" /> 
+  <meta content="AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7d66.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-79fd288312905cdfdb6-7ffc.2" name="cq:gepId" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="Specify file locations for Output" name="navTitle" /> 
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2017-10-31T16:31:58.748-0400" name="publishExternalDate" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="2017-10-31T16:31:58.748-0400" name="lastPublishExternalDate" /> 
+  <meta content="18" name="acrolinxSentences" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="admin" name="lr_lastModifiedBy" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/forms/using/admin-help/specify-file-locations-output.html" name="publishExternalURL" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2016-02-05T03:27:31.245-0500" name="lr_lastModified" /> 
+  <meta content="false" name="doNotLocalize" /> 
+ </head> 
+ <body> 
+  <p>You can specify the locations where Output looks for certain types of files that it requires. </p> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; output.</p></li> 
+   <li><p>Under Locations, specify the appropriate options. </p></li> 
+   <li><p>Click Save.</p></li> 
+  </ol> 
+  <h2 id="locations_settings">Locations settings</h2> 
+  <p></p> 
+  <p><strong>Content Root URI:</strong> The URI or absolute location of the repository from which forms are retrieved. This value is combined with the sForm parameter, specified through the API, to construct the absolute path to the form that is retrieved. This value can reference a directory or a web location that is accessible using HTTP.</p> 
+  <p>The default value is an empty string.</p> 
+  <p><strong>XCI Configuration File:</strong> The relative or absolute location of the XCI configuration file that the Output service uses for rendering. For a relative value, it is assumed that the XCI file resides in the AEM forms deployable EAR file.</p> 
+  <p>The default value is <span class="code">com/adobe/formServer/PA/pa_output.xci</span>. </p> 
+  <p><strong>Cache Location:</strong> Specifies the location of the Output disk cache. When you change this setting, all existing cache information from the current location is reset and a new cache is created at the new location. Select one of the following options:</p> 
+  <p><strong>Default Location:</strong> This is the default selection. When this option is selected, the cache is created at a location that is dependent on the application server you are using:</p> 
+  <ul> 
+   <li><p><strong>JBoss: </strong><i>[JBoss Home]</i>\server\<i>[install type]</i>\svcdata\Output\Cache</p></li> 
+   <li><p><strong>WebLogic: </strong><i>[WebLogic Home]</i>\user_projects\domains\<i>[aem-forms domain Name]</i>\adobe\<i>[forms server name]</i>\Output\Cache</p></li> 
+   <li><p><strong>WebSphere: </strong><i>[IBM Home]</i>\WebSphere\AppServer\installedApps\adobe\server1\Output\Cache</p></li> 
+  </ul> 
+  <p><strong>LC Temp Directory:</strong> The cache is created in a subdirectory of the AEM forms temp directory, which is specified in the administration console under Settings &gt; Core System Settings &gt; Configurations &gt; Location of Temp Directory. The subdirectory is named adobeoutput_[servername].</p> 
+  <note> 
+   <p>If you are using a temp cleaning utility, be aware that while deleting these directories does not affect functionality, it can significantly impact performance for a short time, until the new cache is created. To avoid this issue, do not delete these directories while clearing the AEM forms temp directory.</p> 
+  </note> 
+ </body> 
+</html>

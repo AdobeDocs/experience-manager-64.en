@@ -1,0 +1,400 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="/content/docs/en/aem/6-3/deploy/configuring/offloading" name="qaNotes" /> 
+  <meta content="2018-04-03T08:43:22.841-0400" name="cq:lastReplicated" /> 
+  <meta content="2018-04-03T08:43:22.114-0400" name="publishExternalDate" /> 
+  <meta content="Offloading Jobs" name="jcr:title" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="2018-04-30T03:27:31.614-0400" name="locHandOffDate" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="b3891473-d551-4c41-8ff8-3e1f582a175d" name="jcr:uuid" /> 
+  <meta content="87f07aa0-0e29-4102-992e-c57fe53b92c4" name="jcr:predecessors" /> 
+  <meta content="2018-04-03T08:43:22.114-0400" name="topicBrowsingSortDate" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2017-10-31T16:17:50.654-0400" name="firstPublishExternalDate" /> 
+  <meta content="Learn how to configure and use AEM instances in a topology in order to perform specific types of processing." name="seoDescription" /> 
+  <meta content="Offloading Jobs" name="seoTitle" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:configuring;content_type:reference" name="cq:tags" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/deploying/morehelp/configuring;/content/help/en/experience-manager/6-4/sites/deploying/morehelp/configuring" name="moreHelpPaths" /> 
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" /> 
+  <meta content="2017-12-01T19:05:29.821-0500" name="jcr:created" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="Offloading Jobs" name="navTitle" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2018-04-03T08:43:22.114-0400" name="lastPublishExternalDate" /> 
+  <meta content="2018-08-22T14:01:51.987-0400" name="cq:lastModified" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="User" name="contentOwner" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/offloading.html" name="publishExternalURL" /> 
+  <meta content="audience:deploying" name="primaryAudienceTag" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="trushton" name="cq:lastModifiedBy" /> 
+ </head> 
+ <body> 
+  <h2>Introduction</h2> 
+  <p>Offloading distributes processing tasks amoung Experience Manager instances in a topology. With offloading, you can use specific Experience Manager instances for performing specific types of processing. Specialized processing enables you to maximize the usage of available server resources.</p> 
+  <p>Offloading is based on the <a href="http://sling.apache.org/documentation/bundles/discovery-api-and-impl.html">Apache Sling Discovery</a> and Sling JobManager features. To use offloading, you add Experience Manager clusters to a topology and identify the job topics that the cluster process. Clusters are comprised of one or more Experience Manager instances, so that a single instance is considered to be a cluster.</p> 
+  <p>For information about adding instances to a topology, see <a href="../../../sites/deploying/using/offloading.md#main-pars-title-0">Administering Topologies</a>.</p> 
+  <p> </p> 
+  <h4>Job Distribution</h4> 
+  <p>The Sling JobManager and JobConsumer enable the creation of jobs that are processed in a topology:</p> 
+  <ul> 
+   <li>JobManager: A service that creates jobs for specific topics. </li> 
+   <li>JobConsumer: A service that executes jobs of one or more topics. Multiple JobConsumer services can be registered for the same topic. </li> 
+  </ul> 
+  <p>When JobManager creates a job, the Offloading framework selects an Experience Manager cluster in the topology to execute the job:</p> 
+  <ul> 
+   <li>The cluster must include one or more instances that are running a JobConsumer that is registered for the job topic.</li> 
+   <li>The topic must be enabled for at least one instance in the cluster.</li> 
+  </ul> 
+  <p>See <a href="../../../sites/deploying/using/offloading.md#main-pars-title-2">Configuring Topic Consumption</a> for information about refining job distribution.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-112.png" /> 
+  <p>When the Offloading framework selects a cluster to execute a job, and the cluseter is comprised of multiple instances, Sling Distribution determines which instance in the cluster executes the job.</p> 
+  <h4>Job Payloads</h4> 
+  <p>The Offloading framework supports job payloads that associate jobs with resources in the repository. Job payloads are useful when jobs are created for processing resources and the job is offloaded to another computer. </p> 
+  <p>Upon creation of a job, the payload is only guaranteed to be located on the instance that creates the job. When offloading the job, replication agents ensure that the payload is created on the instance that eventually consumes the job. When job execution is complete, reverse replication causes the payload to be copied back to the instance that created the job.</p> 
+  <h2>Administering Topologies</h2> 
+  <p>Topologies are loosely-coupled Experience Manager clusters that are participating in offloading. A cluster consists of one or more Experience Manager server instances (a single instance is considered as a cluster).</p> 
+  <p>Each Experience Manager instance runs the following Offloading-related services:</p> 
+  <ul> 
+   <li>Discovery Service: Sends requests to a Topology Connector to join the topology.</li> 
+   <li>Topology Connector: Receives the join requests and either accepts or refuses each request.</li> 
+  </ul> 
+  <p>The Discovery Service of all members of the topology point to the Topology Connector on one of the members. In the sections that follow, this member is referred to as the root member.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-113.png" /> 
+  <p>Each cluster in the topology contains an instance that is recognized as the leader. The cluster leader interacts with the topology on behalf of the other members of the cluster. When the leader leaves the cluster, a new leader for the cluster is automatically chosen.</p> 
+  <h4>Viewing the Topology</h4> 
+  <p>Use Topology Browser to explore the state of the topology in which the Experience Manager instance is participating. Topology Browser shows the clusters and instances of the topology.</p> 
+  <p>For each cluster, you see a list of cluster members that indicates the order in which each member joined the cluseter, and which member is the Leader. The Current property indicates the instance that you are currently administering. </p> 
+  <p>For each instance in the cluster, you can see several topology-related properties:</p> 
+  <ul> 
+   <li>A whitelist of topics for the instance's job consumer.</li> 
+   <li>The endpoints that are exposed for connecting with the topology.</li> 
+   <li>The job topics for which the instance is registered for offloading.</li> 
+   <li>The job topics that the instance processes. </li> 
+  </ul> 
+  <ol> 
+   <li><p>Using the Touch UI, click the Tools tab. (<a href="http://localhost:4502/tools.html">http://localhost:4502/tools.html</a>)</p> </li> 
+   <li><p>In the Granite Operations area, click Offloading Browser.</p> </li> 
+   <li><p>In the navigation panel, click Topology Browser.</p> <p>The clusters that are participating in the topology appear.</p> <img imageRotate="0" src="assets/chlimage_1-114.png" /></li> 
+   <li><p>Click a cluster to see a list of the instances in the cluster and their ID, Current status, and Leader status.</p> </li> 
+   <li><p>Click an instance ID to see more detailed properties.</p> </li> 
+  </ol> 
+  <p>You can also use the Web Console to view topology information. The console provides further information about the topology clusters:</p> 
+  <ul> 
+   <li>Which instance is the local instance.</li> 
+   <li>The Topology Connector services that this instance uses to connect to the topology (outgoing), and the services that connect to this instance (incoming).</li> 
+   <li>Change history for the topology and intance properties.</li> 
+  </ul> 
+  <p>Use the following procedure to open the Topology Management page of the Web Console:</p> 
+  <ol> 
+   <li><p>Open the Web Console in your browser. (<a href="http://localhost:4502/system/console">http://localhost:4502/system/console</a>)</p> </li> 
+   <li><p>Click Main &amp;gt; Topology Management.</p> <img imageRotate="0" src="assets/chlimage_1-115.png" /></li> 
+  </ol> 
+  <h4>Configuring Topology Membership</h4> 
+  <p>The Apache Sling Resource-Based Discovery Service runs on each instance to control how Experience Manager instances interact with a topology.</p> 
+  <p>The Discovery Service sends periodic POST requests (heartbeats) to Topology Connector services to establish and maintain connections with the topology. The Topology Connector service maintains a whitelist of IP addresses or host names that are allowed to join the topology:</p> 
+  <ul> 
+   <li>To join an instance to a topology, specify the URL of the Topology Connector service of the root member. </li> 
+   <li>To enable an instance to join a topology, add the instance to the whitelist of the root member's Topology Connector service.</li> 
+  </ul> 
+  <p>Use the Web Console or a sling:OsgiConfig node to configure the following properties of the org.apache.sling.discovery.impt.Config service:</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <th>Property Name</th> 
+     <th>OSGi Name</th> 
+     <th>Description</th> 
+     <th>Default Value</th> 
+    </tr> 
+    <tr> 
+     <td>Heartbeat timeout (seconds)</td> 
+     <td>heartbeatTimeout</td> 
+     <td>The amount of time in seconds to wait for a heartbeat response before the targeted instance is considered unavailable. </td> 
+     <td>20</td> 
+    </tr> 
+    <tr> 
+     <td>Heartbeat interval (seconds)</td> 
+     <td>heartbeatInterval</td> 
+     <td>The amount of time in seconds between heartbeats.</td> 
+     <td>15</td> 
+    </tr> 
+    <tr> 
+     <td>Minimal Event Delay (seconds)</td> 
+     <td>minEventDelay</td> 
+     <td><p>When a change occurs to the topology, the amount of time to delay the change of state from TOPOLOGY_CHANGING to TOPOLOGY_CHANGED. Each change that occurs when the state is TOPOLOGY_CHANGING increases the delay by this amount of time.</p> <p>This delay prevents listeners from being flooded with events. </p> <p>To use no delay, specify 0 or a negative number.</p> </td> 
+     <td>3</td> 
+    </tr> 
+    <tr> 
+     <td>Topology Connector URLs</td> 
+     <td>topologyConnectorUrls</td> 
+     <td>The URLs of the Topology Connector services to send heartbeat messages.</td> 
+     <td>http://localhost:4502/libs/sling/topology/connector</td> 
+    </tr> 
+    <tr> 
+     <td>Topology Connector Whitelist</td> 
+     <td>topologyConnectorWhitelist</td> 
+     <td>The list of IP addresses or host names that the local Topology Connector service allows in the topology. </td> 
+     <td><p>localhost</p> <p>127.0.0.1</p> </td> 
+    </tr> 
+    <tr> 
+     <td>Repository Descriptor Name</td> 
+     <td>leaderElectionRepositoryDescriptor</td> 
+     <td> </td> 
+     <td>&lt;no value&gt;</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <p>Use the following procedure to connect a CQ instance to the root member of a topology. The procedure points the instance to the Topology Connector URL of the root topology member. Perform this procedure on all members of the topology.</p> 
+  <ol> 
+   <li><p>Open the Web Console in your browser. (<a href="http://localhost:4502/system/console">http://localhost:4502/system/console</a>)</p> </li> 
+   <li><p>Click Main &amp;gt; Topology Management.</p> </li> 
+   <li><p>Click Configure Discovery Service.</p> </li> 
+   <li><p>Add an item to the Topology Connector URLs property, and specify the URL of the root topology member's Topology Connector service. The URL is in the form http://rootservername:4502/libs/sling/topology/connector.</p> </li> 
+  </ol> 
+  <p>Perform the following procedure on the root member of the topology. The procedure adds the names of the other topology members to its Discovery Service whitelist.</p> 
+  <ol> 
+   <li><p>Open the Web Console in your browser. (<a href="http://localhost:4502/system/console">http://localhost:4502/system/console</a>)</p> </li> 
+   <li><p>Click Main &amp;gt; Topology Management.</p> </li> 
+   <li><p>Click Configure Discovery Service.</p> </li> 
+   <li><p>For each member of the topology, add an item to the Topology Connector Whitelist property, and specify the host name or IP address of the topology member.</p> </li> 
+  </ol> 
+  <h2>Configuring Topic Consumption</h2> 
+  <p>Use Offloading Browser to configure topic consumption for the Experience Manager instances in the topology. For each instance, you can specify the topics that it consumes. For example, to configure your topology so that only one instance consumes topics of a specific type, disable the topic on all instances except for one.</p> 
+  <p>Jobs are distributed amoung instances that have the associated topic enabled using round-robin logic.</p> 
+  <ol> 
+   <li><p>Using the Touch UI, click the Tools tab. (<a href="http://localhost:4502/tools.html">http://localhost:4502/tools.html</a>)</p> </li> 
+   <li><p>In the Granite Operations area, click Offloading Browser.</p> </li> 
+   <li><p>In the navigation panel, click Offloading Browser.</p> <p>The offloading topics and the server instances that that can consume the topics appear.</p> <img imageRotate="0" src="assets/chlimage_1-116.png" /></li> 
+   <li><p>To disable the consumption of a topic for an instance, below the topc name click Disable beside the instance.</p> </li> 
+   <li><p>To configure all topic consumption for an instance, click the instance identifier below any topic. </p> <img imageRotate="0" src="assets/chlimage_1-117.png" /></li> 
+   <li><p>Click one of the following buttons beside a topic to configure the consumption behavior for the instance, and then click Save:</p> 
+    <ul> 
+     <li>Enabled: This instance consumes jobs of this topic. </li> 
+     <li>Disabled: This instance does not consume jobs of this topic. </li> 
+     <li>Exclusive: This instance consumes jobs only of this topic. </li> 
+    </ul> <p><strong>Note:</strong> When you select Exclusive for a topic, all of the other topics are automatically set to Disabled.</p> </li> 
+  </ol> 
+  <h4>Installed Job Consumers</h4> 
+  <p>Several JobConsumer implementations are installed with Experience Manager. The topics for which these JobConsumers are registered appear in Offloading Browser. Additional topics that appear are those that custom JobConsumers have registered. The following table describes the default JobConsumers.</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <th>Job topic</th> 
+     <th>Service PID</th> 
+     <th>Description</th> 
+    </tr> 
+    <tr> 
+     <td>/</td> 
+     <td>org.apache.sling.event.impl.jobs.deprecated.EventAdminBridge</td> 
+     <td>Installed with Apache Sling. Processes jobs that the OSGi event admin generates, for backward compatibility.</td> 
+    </tr> 
+    <tr> 
+     <td>com/day/cq/replication/job/*</td> 
+     <td>com.day.cq.replication.impl.AgentManagerImpl</td> 
+     <td>A replication agent that replicates job payloads.</td> 
+    </tr> 
+    <tr> 
+     <td>com/adobe/granite/workflow/offloading</td> 
+     <td>com.adobe.granite.workflow.core.offloading.WorkflowOffloadingJobConsumer</td> 
+     <td>Processes jobs that the DAM Update Asset Offloader workflow generates.</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h4>Disabling and Enabling Topics For an Instance</h4> 
+  <p>The Apache Sling Job Consumer Manager service provides topic whitelist and blacklist properties. Configure these properties to enable or disable the processing of specific topics on an Experience Manager instance. </p> 
+  <p><strong>Note:</strong> If the instance belongs to a topology, you can also use Offloading Browser on any computer in the topology to enable or disable topics. </p> 
+  <p>The logic that creates the list of enabled topics first allows all of the topics that are in the whitelist, and then removes topics that are on the blacklist.By default, all topics are enabled (the whitelist value is <span class="code">*</span>) and no topics are disabled (the blacklist has no value).</p> 
+  <p>Use Web Console or a <span class="code">sling:OsgiConfig</span> node to configure the following properties. For <span class="code">sling:OsgiConfig</span> nodes, the PID of the Job Consumer Manager service is org.apache.sling.event.impl.jobs.JobConsumerManager.</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <th>Property Name in Web Console</th> 
+     <th>OSGi ID</th> 
+     <th>Description</th> 
+    </tr> 
+    <tr> 
+     <td>Topic Whitelist</td> 
+     <td>job.consumermanager.whitelist</td> 
+     <td>A list of topics that the local JobManager service processes. The default value of * causes all topics to be sent to the registered TopicConsumer service.</td> 
+    </tr> 
+    <tr> 
+     <td>Topic Blacklist</td> 
+     <td>job.consumermanager.blacklist</td> 
+     <td>A list of topics that the local JobManager service does not process. </td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h2>Creating Replication Agents For Offloading</h2> 
+  <p>The offloading framework uses replication to transport resources between author and worker. The offloading framework automatically creates replication agents when instances join the topology. The agents are created with default values. You must manually change the password that the agents use for authentication. </p> 
+  <note> 
+   <p>A known issue with the automatically-generated replication agents requires you to manually create new replication agents. Follow the procedure in <a href="../../../sites/deploying/using/offloading.md#main-pars-title-14">Problems Using the Automatically Generated Replication Agents</a> before you create the agents for Offloading.</p> 
+  </note> 
+  <p>Create the replication agents that transport job payloads between instances for offloading. The following illustration shows the agents that are required to offload from the author to a worker instance. The author has a Sling ID of 1 and the worker instance has a Sling ID of 2: </p> 
+  <img imageRotate="0" src="assets/chlimage_1-118.png" /> 
+  <p>This setup requires the following three agents:</p> 
+  <ol> 
+   <li>An outgoing agent on the author instance that replicates to the worker instance.</li> 
+   <li>A reverse agent on the author instance that pulls from the outbox on the worker instance.</li> 
+   <li>An outbox agent on the worker instance.</li> 
+  </ol> 
+  <p>This replication scheme is similar to that used between author and publish instances. However, for the offloading situation all of the instances involved are authoring instances. </p> 
+  <p> </p> 
+  <note> 
+   <p>The Offloading framework uses the topology to obtain the IP addresses of the offloading instances. The framework then automatically creates the replication agents based on these IP addresses. If the IP addresses of the offloading instances later change, the change is automatically propaged on the topology after the instance restarts. However, the Offloading framework does not automatically update the replication agents to reflect the new IP addresses. To avoid this situaion, use fixed IP addresses for all instances in the topology. </p> 
+  </note> 
+  <h4>Naming the Replication Agents for Offloading</h4> 
+  <p>Use a specific format for the <i><strong>Name</strong></i> property of the replication agents so that the offloading framework automatically uses the correct agent for specific worker instances.</p> 
+  <p><strong>Naming the outgoing agent on the author instance:</strong></p> 
+  <p><span class="code">offloading_</span><i><span class="code">&amp;lt;slingid&amp;gt;</span></i>, where <span class="code"><i>&amp;lt;slingid&amp;gt;</i></span> is the Sling ID of the worker instance. </p> 
+  <p>Example: <span class="code">offloading_f5c8494a-4220-49b8-b079-360a72f71559</span></p> 
+  <p><strong>Naming the reverse agent on the author instance:</strong></p> 
+  <p><span class="code">offloading_reverse_<i>&amp;lt;slingid&amp;gt;</i></span>, where <i><span class="code">&amp;lt;slingid&amp;gt;</span></i> is the Sling ID of the worker instance. </p> 
+  <p>Example: <span class="code">offloading_reverse_f5c8494a-4220-49b8-b079-360a72f71559</span></p> 
+  <p><strong>Naming the outbox on the worker instance:</strong></p> 
+  <p><span class="code">offloading_outbox</span></p> 
+  <h4>Creating the outgoing agent</h4> 
+  <ol> 
+   <li><p>Create a<strong> Replication Agent </strong>on author. (See the <a href="../../../sites/deploying/using/replication.md">documention for replication agents</a>). Specify any <strong>Title</strong>. The <strong>Name</strong> must follow the naming convention. </p> </li> 
+   <li><p>Create the agent using the following properties:</p> 
+    <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+     <tbody> 
+      <tr> 
+       <th>Property</th> 
+       <th>Value</th> 
+      </tr> 
+      <tr> 
+       <td>Settings &gt; Serialization Type</td> 
+       <td>Default</td> 
+      </tr> 
+      <tr> 
+       <td>Transport &gt;Transport URI</td> 
+       <td>http://<i>&lt;ip of target instance&gt;</i>:<i>&lt;port&gt;</i>/bin/receive?sling:authRequestLogin=1</td> 
+      </tr> 
+      <tr> 
+       <td>Transport &gt;Transport User</td> 
+       <td>Replication user on target instance</td> 
+      </tr> 
+      <tr> 
+       <td>Transport &gt;Transport Passoword</td> 
+       <td>Replication user password on target instance</td> 
+      </tr> 
+      <tr> 
+       <td>Extended &gt; HTTP Method</td> 
+       <td>POST</td> 
+      </tr> 
+      <tr> 
+       <td>Triggers &gt; Ignore Default</td> 
+       <td>True</td> 
+      </tr> 
+     </tbody> 
+    </table> </li> 
+  </ol> 
+  <h4>Creating the reverse agent</h4> 
+  <ol> 
+   <li><p>Create a<strong> Reverse Replication Agent </strong>on author. (See the <a href="../../../sites/deploying/using/replication.md">documention for replication agents</a>.) Specify any <strong>Title. </strong>The <strong>Name</strong> must follow the naming convention. </p> </li> 
+   <li><p>Create the agent using the following properties:</p> 
+    <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+     <tbody> 
+      <tr> 
+       <th>Property</th> 
+       <th>Value</th> 
+      </tr> 
+      <tr> 
+       <td>Settings &gt; Serialization Type</td> 
+       <td>Default</td> 
+      </tr> 
+      <tr> 
+       <td>Transport &gt;Transport URI</td> 
+       <td>http://<i>&lt;ip of target instance&gt;</i>:<i>&lt;port&gt;</i>/bin/receive?sling:authRequestLogin=1</td> 
+      </tr> 
+      <tr> 
+       <td>Transport &gt;Transport User</td> 
+       <td>Replication user on target instance</td> 
+      </tr> 
+      <tr> 
+       <td>Transport &gt;Transport Passoword</td> 
+       <td>Replication user password on target instance</td> 
+      </tr> 
+      <tr> 
+       <td>Extended &gt; HTTP Method</td> 
+       <td>GET</td> 
+      </tr> 
+     </tbody> 
+    </table> </li> 
+  </ol> 
+  <h4>Creating the outbox agent</h4> 
+  <ol> 
+   <li><p>Create a <strong>Replication Agent </strong>on the worker instance. (See the <a href="../../../sites/deploying/using/replication.md">documention for replication agents</a>.) Specify any <strong>Title</strong>. The <strong>Name</strong> must be <span class="code">offloading_outbox</span>.</p> </li> 
+   <li><p>Create the agent using the following properties.</p> 
+    <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+     <tbody> 
+      <tr> 
+       <th>Property</th> 
+       <th>Value</th> 
+      </tr> 
+      <tr> 
+       <td>Settings &gt; Serialization Type</td> 
+       <td>Default</td> 
+      </tr> 
+      <tr> 
+       <td>Transport &gt;Transport URI</td> 
+       <td>repo://var/replication/outbox</td> 
+      </tr> 
+      <tr> 
+       <td>Trigger &gt; Ignore Default</td> 
+       <td>True</td> 
+      </tr> 
+     </tbody> 
+    </table> </li> 
+  </ol> 
+  <h4>Finding the Sling ID</h4> 
+  <p>Obtain the Sling ID of an Experience Manager instance using either of the following methods:</p> 
+  <ul> 
+   <li>Open the Web Console and, in the Sling Settings, find the value of the Sling ID property (<a href="http://localhost:4502/system/console/status-slingsettings">http://localhost:4502/system/console/status-slingsettings</a>). This method is usefull if the instance is not yet part of the topology.</li> 
+   <li>Use the Topology browser if the instance is already part of the topology.</li> 
+  </ul> 
+  <h2>Offloading the Processing of DAM Assets</h2> 
+  <p>Configure the instances of a topology so that specific instances perform the background processing of assets that are added or updated in DAM.</p> 
+  <p>By default, Experience Manager executes the DAM Update Asset workflow when a DAM asset changes or one is added to DAM. Change the default behavior so that Experience Manager instead executes the DAM Update Asset Offloader workflow. This workflow generates a JobManager job that has a topic of <span class="code">com/adobe/granite/workflow/offloading</span>. Then, configure the topology so that the job is offloaded to a dedicated worker.</p> 
+  <note> 
+   <p> No workflow should be transient when used with workflow offloading. For example, the DAM Update Asset workflow must not be transient when used for asset offloading. To set/unset the transient flag on a workflow, see <a href="../../../assets/using/performance-tuning-guidelines.md#workflows">Transient Workflows</a>.</p> 
+  </note> 
+  <p>The following procedure assumes the following characteristics for the offloading topology:</p> 
+  <ul> 
+   <li>One or more Experience Manager instance are authoring instances that users interact with for adding or updating DAM assets.</li> 
+   <li>Users to do not directly interact with one or more Experience Manager instances that process the DAM assets. These instances are dedicated to the background processing of DAM assets.</li> 
+  </ul> 
+  <ol> 
+   <li><p>On each Experience Manager instance, configure the Discovery Service so that it points to the root Topography Connector. (See <a href="#title4">Configuring Topology Membership</a>.)</p> </li> 
+   <li><p>Configure the root Topography Connector so that the connecting instances are on the whitelist. </p> </li> 
+   <li><p>Open Offloading Browser and disable the <span class="code">com/adobe/granite/workflow/offloading</span> topic on the instances with which users interact to upload or change DAM assets.</p> <img imageRotate="0" src="assets/chlimage_1-119.png" /></li> 
+   <li><p>On each instance that users interact with to upload or change DAM assets, configure workflow launchers to use the DAM Update Asset Offloading workflow:</p> 
+    <ol> 
+     <li>Open the Workflow console.</li> 
+     <li>Click the Launcher tab.</li> 
+     <li>Locate the two Launcher configurations that execute the DAM Update Asset workflow. One launcher configuration event type is Node Created, and the other type is Node Modified.</li> 
+     <li>Change both event types so that they execute the DAM Update Asset Offloading workflow. (For information about launcher configurations, see <a href="../../../sites/administering/using/workflows-starting.md">Starting Workflows When Nodes Change</a>.)</li> 
+    </ol> </li> 
+   <li><p>On the instances that perform the background processing of DAM assets, disable the workflow launchers that execute the DAM Update Asset workflow. </p> </li> 
+  </ol> 
+  <h3>Further Reading</h3> 
+  <p>In addition to the details presented on this page, you can also read the following:</p> 
+  <ul> 
+   <li>For information about using Java APIs to create jobs and job consumers, see <a href="../../../sites/developing/using/dev-offloading.md" target="_blank">Creating and Consuming Jobs for Offloading</a>.</li> 
+   <li>For general guidelines and best practices for asset offloading, see <a href="../../../assets/using/assets-offloading-best-practices.md#generalguidanceandbestpracticesforassetoffloading" target="_blank">General Guidelines and Best Practices for Asset Offloading</a>.</li> 
+   <li>To know how to disable the automatic creation of offloading agents, see <a href="../../../assets/using/assets-offloading-best-practices.md#turningoffautomaticagentmanagement" target="_blank">Turning Off Automatic Agent Management</a>.</li> 
+  </ul>          
+ </body> 
+</html>

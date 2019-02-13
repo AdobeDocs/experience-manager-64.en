@@ -1,0 +1,138 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="Building Mobile Applications" name="jcr:title" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="/content/help/en/experience-manager/6-4/mobile/morehelp/developing-adobe-phonegap-enterprise;/content/help/en/experience-manager/6-4/mobile/morehelp/developing-adobe-phonegap-enterprise" name="moreHelpPaths" /> 
+  <meta content="Building Mobile Applications" name="seoTitle" /> 
+  <meta content="2018-05-04T05:12:37.314-0400" name="topicBrowsingSortDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="User" name="contentOwner" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="bohnert@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2017-10-31T16:26:35.059-0400" name="firstPublishExternalDate" /> 
+  <meta content="2018-05-04T05:12:37.314-0400" name="lastPublishExternalDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/MOBILE" name="primaryProductTag" /> 
+  <meta content="Building Mobile Applications" name="navTitle" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="trushton" name="cq:lastModifiedBy" /> 
+  <meta content="/content/docs/en/aem/6-3/develop/mobile-apps/developing-in-phonegap/developing-mobile-applications/building-app-mobile-phonegap" name="qaNotes" /> 
+  <meta content="jsyal" name="cq:lastReplicatedBy" /> 
+  <meta content="3bdaed6c-08e8-4968-b0bd-2fb380045be3" name="jcr:uuid" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2018-05-04T05:12:37.314-0400" name="publishExternalDate" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/mobile/using/building-app-mobile-phonegap.html" name="publishExternalURL" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2018-10-27T23:43:59.648-0400" name="cq:lastReplicated" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/MOBILE;topic_tags:developing-adobe-phonegap-enterprise" name="cq:tags" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2017-12-13T19:01:27.853-0500" name="jcr:created" /> 
+  <meta content="89bdc155-63ae-4fe4-a302-623cd98dfdb2" name="jcr:predecessors" /> 
+  <meta content="2018-05-11T10:01:20.585-0400" name="cq:lastModified" /> 
+  <meta content="This page provides a complete step-by-step article on how to build a mobile application using code available from GitHub is available here.Build your application to install to a device or simulator for testing or for publishing to app stores. You can build applications locally using the PhoneGap Command Line Interface, or in the cloud using PhoneGap Build.
+" name="seoDescription" /> 
+  <meta content="2018-05-11T10:01:20.585-0400" name="locHandOffDate" /> 
+ </head> 
+ <body> 
+  <note> 
+   <p>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). <a href="../../sites/developing/using/spa-overview.md">Learn more</a>.</p> 
+  </note> 
+  <p>Build your application to install to a device or simulator for testing or for publishing to app stores. You can build applications locally using the PhoneGap Command Line Interface, or in the cloud using PhoneGap Build.</p> 
+  <p>A complete step-by-step article on how to build a mobile application using code available from GitHub is available <a href="https://helpx.adobe.com/experience-manager/using/aem62_mobile.html">here</a>.</p>    
+  <h2>Moving the Application to the Publish Instance</h2> 
+  <p>Move application files to the publish instance so that you can provide content updates to the installed instances of the mobile application, and to build the application using the published content. Applications consist of two node branches in the repository:</p> 
+  <ul> 
+   <li><span class="code">/content/phonegap/apps/<i>&amp;lt;application name&amp;gt;</i></span>: The web pages that authors create and activate. </li> 
+   <li><span class="code">/content/phonegap/content/<i>&amp;lt;application name&amp;gt;</i></span>: Application configuration files and Content Sync configurations.</li> 
+  </ul> 
+  <note> 
+   <p>If you do not move the application files to the publish instance, content authors cannot update the Content Sync cache.</p> 
+  </note> 
+  <p>You only need to move the files in the <span class="code">/content/phonegap/content/<i>&amp;lt;application name&amp;gt;</i></span><i> </i>branch to the publish instance. The files in the <span class="code">/content/phonegap/apps/<i>&amp;lt;application name&amp;gt;</i></span> branch are moved when the author activates the pages.</p> 
+  <p>AEM provides two methods for moving bulk content to the publish instance:</p> 
+  <ul> 
+   <li><a href="../../sites/authoring/using/publishing-pages.md">Use the Activate Tree command</a> on the replication console.</li> 
+   <li><a href="../../sites/administering/using/package-manager.md">Create a package</a> that contains the content and replicate the package.</li> 
+  </ul> 
+  <p>For example, a mobile application named phonegapapp is created. The following node must be moved to the publish instance: /content/phonegap/content/phonegapapp.</p> 
+  <p><strong>Tip:</strong> To move a package from the author instance to the publish instance, use the Replicate command on the package.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-16.png" /> 
+  <h2>Building Using the PhoneGap Command Line Interface</h2> 
+  <p>Compile the PhoneGap application on your computer using the PhoneGap Command-line Interface (CLI). To include the AEM content into your application, AEM creates a ZIP file that contains the content of your mobile application, Content Sync configurations, and other required assets. Download the ZIP file and include it in your build.</p> 
+  <h3>Preparing Your Build Environment</h3> 
+  <p>To build using the PhoneGap CLI, you need to install Node.js and the PhoneGap client utility. You require an internet connection to perform the following procedure.</p> 
+  <ol> 
+   <li><p>Download and install <a href="http://nodejs.org/">Node.js</a>.</p> </li> 
+   <li><p>Open a terminal or command prompt and enter the following node command to install the PhoneGap utility:</p> 
+    <codeblock class="syntax shell">
+      npm&amp;nbsp;install&amp;nbsp;-g&amp;nbsp;phonegap 
+    </codeblock><p>On a Unix or Linux system, you may need to prefix the command with <span class="code">sudo</span>.</p> <p>The terminal shows the results of a series of HTTP GET commands. When the installation is succesful, the terminal shows where the libraries are installed similar to the following example:</p> 
+    <codeblock class="syntax xml">
+      /usr/local/bin/phonegap&amp;nbsp;-&gt;&amp;nbsp;/usr/local/lib/node_modules/phonegap/bin/phonegap.js!!discoiqbr!!phonegap@3.3.0-0.19.6&amp;nbsp;/usr/local/lib/node_modules/phonegap!!discoiqbr!!├──&amp;nbsp;pluralize@0.0.4!!discoiqbr!!├──&amp;nbsp;colors@0.6.0-1!!discoiqbr!!├──&amp;nbsp;semver@1.1.0!!discoiqbr!!├──&amp;nbsp;qrcode-terminal@0.9.4!!discoiqbr!!├──&amp;nbsp;shelljs@0.1.4!!discoiqbr!!├──&amp;nbsp;optimist@0.6.0&amp;nbsp;(...)!!discoiqbr!!├──&amp;nbsp;prompt@0.2.11&amp;nbsp;(...)!!discoiqbr!!├──&amp;nbsp;phonegap-build@0.8.4&amp;nbsp;(...)!!discoiqbr!!├──&amp;nbsp;connect-phonegap@0.8.1&amp;nbsp;(...)!!discoiqbr!!└──&amp;nbsp;cordova@3.3.0-0.1.1&amp;nbsp;(...) 
+    </codeblock></li> 
+   <li><p>(Optional) Obtain the SDK for the mobile platform that you are targeting:</p> 
+    <ul> 
+     <li>To build apps for the iOS platform, install the latest version of <a href="https://developer.apple.com/xcode/">Xcode</a>.</li> 
+     <li>To build Android apps, install the <a href="http://developer.android.com/">Android SDK</a>.</li> 
+    </ul> </li> 
+  </ol> 
+  <h3>Downloading the Content ZIP File</h3> 
+  <p>Move the content of your mobile application to your file system.</p> 
+  <ol> 
+   <li><p>On the Mobile Applications page, select your application.</p> </li> 
+   <li><p>(Optional) To build the application for complete installations, on the toolbar, click or tap the Clear Cache icon. </p> <img imageRotate="0" src="assets/chlimage_1-17.png" /> 
+    <note> 
+     <p>The cache holds content updates for installed applications. Clearing the cache voids all cached updates.</p> 
+    </note></li> 
+   <li><p>On the toolbar, click or tap the Download CLI Assets icon.</p> <img imageRotate="0" src="assets/chlimage_1-18.png" /></li> 
+   <li><p>After you have saved the ZIP file, click Close on the Success dialog.</p> </li> 
+   <li><p>Extract the contents of the ZIP file.</p> </li> 
+  </ol> 
+  <h3>Using the PhoneGap CLI to Build</h3> 
+  <p>Use the PhoneGap CLI to compile and install the application. For information about how to use the PhoneGap CLI, see the PhoneGap <a href="http://docs.phonegap.com/en/3.0.0/guide_cli_index.md.html">Command-line Interface</a> documentation.</p> 
+  <ol> 
+   <li><p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">Open a terminal or command prompt and change the current directory to the downloaded application ZIP file. For example, the following changes the directory to the ng-app-cli.1392137825303.zip file: </p> 
+    <codeblock class="syntax shell">
+      cd&amp;nbsp;~/Downloads/ng-app-cli.1392137825303 
+    </codeblock></li> 
+   <li><p>Enter the phonegap command for the platform that you are targeting. For example, the following command builds the app for Android:</p> 
+    <codeblock class="syntax shell">
+      phonegap&amp;nbsp;build&amp;nbsp;android 
+    </codeblock></li> 
+  </ol> 
+  <h2>Building Using PhoneGap Build</h2> 
+  <p>Use the PhoneGap cloud service to build your app. To perform this procedure, you must first create a PhoneGap Build configuration.</p> 
+  <h3>Connecting to PhoneGap Build</h3> 
+  <p>Create a PhoneGap Build configuration so that you can use the PhoneGap Build services from within AEM. Provide the user name and password of the PhoneGap Build account that you will use to build your mobile applications.</p> 
+  <ol> 
+   <li><p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">Open the Tools page. (<a href="http://localhost:4502/tools.html">http://localhost:4502/tools.html</a>). </p> </li> 
+   <li><p>In the CQ Operations area, click Cloud Services.</p> </li> 
+   <li><p>Click the Configure Now link for PhoneGap Build.</p> <img imageRotate="0" src="assets/chlimage_1-19.png" /></li> 
+   <li><p>In the Create Configuration dialog, type a value for the Title property. By default, the value of the Name property is derived from the title, however you can enter a name. Click Create.</p> </li> 
+   <li><p>In the PhoneGap Build Configuration dialog, type your PhoneGap Build user name and password, and then click OK.</p> </li> 
+  </ol> 
+  <h3>Using PhoneGap Build</h3> 
+  <p>Send your application resources to PhoneGap Build for compiling for the various mobile platforms.</p> 
+  <ol> 
+   <li><p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">On the Mobile Applications page, open your mobile application. (<a href="http://localhost:4502/mobile.html/content/phonegap">http://localhost:4502/mobile.html/content/phonegap</a>)</p> </li> 
+   <li><p>(Optional) To build the application for complete installations, select the application and click the Clear Cache icon. </p> <img imageRotate="0" src="assets/chlimage_1-20.png" /> 
+    <note> 
+     <p>The cache holds content updates for installed applications. Clearing the cache voids all cached updates.</p> 
+    </note></li> 
+   <li><p>Select the splash page, and then click the Build Remote icon.</p> <img imageRotate="0" src="assets/chlimage_1-21.png" /><p><strong>Note: </strong>The Beta version of AEM Beta does not create an Inbox notification when the build successfuly completes.</p> </li> 
+   <li><p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">In the Success dialog box, click PhoneGap Build to open the Adobe PhoneGap Build page at <a href="https://build.phonegap.com/apps">https://build.phonegap.com/apps</a>. If you are waiting for your app to appear, you can check the <a href="http://status.build.phonegap.com/">PhoneGap Build Status</a> page.</p> <p>For information about installing the build, see the <a href="http://docs.build.phonegap.com/en_US/3.1.0/#googtrans%28en%29">PhoneGap Build Documentation</a>. </p> 
+    <note> 
+     <p>Free PhoneGap Build accounts are allowed one private application. PhoneGap builds fail if you are building an additional private application. </p> 
+    </note></li> 
+  </ol> 
+  <h3>The Next Steps</h3> 
+  <p>The next step after the building process is learning about the <a href="../../mobile/using/phonegap-structure-an-app.md">Structure of an app</a>.</p> 
+ </body> 
+</html>

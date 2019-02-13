@@ -1,0 +1,112 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2019-01-03T05:27:47.493-0500" name="publishExternalDate" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="anujkapo@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="2019-01-03T05:27:47.531-0500" name="cq:lastReplicated" /> 
+  <meta content="anujkapo" name="cq:lastModifiedBy" /> 
+  <meta content="23b6c725-72cc-45c6-9fc0-ec9b058815d1" name="jcr:uuid" /> 
+  <meta content="2019-01-03T05:27:47.493-0500" name="lastPublishExternalDate" /> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/correspondence-management;/content/help/en/experience-manager/6-4/forms/morehelp/correspondence-management" name="moreHelpPaths" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2016-05-31T06:36:56.630-0400" name="acrolinxDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="1ddc5075-dace-4847-a568-fd99dbc89684" name="jcr:predecessors" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="2016-04-20T10:57:55.748-0400" name="firstPublishExternalDate" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="Customize text editor" name="jcr:title" /> 
+  <meta content="Learn how to customize text editor." name="seoDescription" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2019-01-03T05:27:47.493-0500" name="topicBrowsingSortDate" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="23" name="acrolinxSentences" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/customize_text_editor_admin_5e12de0b318c6865_1997_report.xml" name="acrolinxReportURL" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="608" name="acrolinxWords" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:correspondence-management" name="cq:tags" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="anujkapo" name="cq:lastReplicatedBy" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/customize-text-editor.html" name="publishExternalURL" /> 
+  <meta content="2017-12-01T19:06:46.970-0500" name="jcr:created" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2019-01-07T06:42:46.451-0500" name="locHandOffDate" /> 
+  <meta content="2019-01-07T06:42:46.452-0500" name="cq:lastModified" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+ </head> 
+ <body> 
+  <h2>Overview</h2> 
+  <p>You can customize the text editor, in Manage Assets and Create Correspondence UI, to add more fonts and font sizes. These fonts include English and non-English, such as Japanese, fonts.</p> 
+  <p>You can customize to change the following in font settings:</p> 
+  <ul> 
+   <li>Font family and size</li> 
+   <li>Properties such as height and letter spacing</li> 
+   <li>Default values of font family and size, height, letter spacing, and date format</li> 
+   <li>Bullet indents</li> 
+  </ul> 
+  <p>To do this, you need to:</p> 
+  <ol> 
+   <li><a href="#customizefonts">Customize fonts by editing the tbxeditor-config.xml file in CRX</a></li> 
+   <li><a href="#addcustomfonts">Add custom fonts to the client computer</a></li> 
+  </ol> 
+  <h2 id="CustomizeFonts">Customize fonts by editing the tbxeditor-config.xml file in&amp;nbsp;CRX</h2> 
+  <p>To customize fonts by editing the tbxeditor-config.xml file, do the following:</p> 
+  <ol> 
+   <li><p>Go to <span class="code">http://[server]:[port]/[ContextPath]/crx/de</span> and login as Administrator.</p> </li> 
+   <li><p>In the apps folder, create a folder named config with path/structure similar to the config folder, which is at libs/fd/cm/config, using the following steps:</p> 
+    <ol> 
+     <li><p>Right-click the items folder at the following path and select <strong>Overlay Node</strong>: </p>  <img alt="Overlay node" imageRotate="0" src="assets/1-4.png" title="Overlay node" /></li> 
+     <li><p>Ensure that the Overlay Node dialog has the following values:</p> <p><strong>Path:</strong> /libs/fd/cm/config</p> <p><strong>Location:</strong> /apps/</p> <p><strong>Match</strong> <strong>Node Types:</strong> Selected</p> <img alt="Overlay node" imageRotate="0" src="assets/2-2.png" title="Overlay node" /></li> 
+     <li><p>Click <strong>OK</strong>. The folder structure is created in the apps folder.<br /> </p> </li> 
+     <p>Click <strong>Save All</strong>.</p> 
+    </ol></li> 
+   <li><p>Create a copy of the tbxeditor-config.xml file in the newly created config folder, using the following steps:</p> 
+    <ol> 
+     <li><p>Right-click the tbxeditor-config.xml file at libs/fd/cm/config and select <strong>Copy</strong>.</p> </li> 
+     <li><p>Right-click the following folder and select <strong>Paste:</strong></p>  </li> 
+     <li><p>The name of pasted file, by default, is <span class="code">copy of tbxeditor-config.xml.</span> Rename the file to <span class="code">tbxeditor-config.xml</span> and click <strong>Save All</strong>.</p> </li> 
+    </ol></li> 
+   <li><p>Open the tbxeditor-config.xml file at apps/fd/cm/config and then make the required changes.</p> 
+    <ol> 
+     <li><p>Double-click the tbxeditor-config.xml file at apps/fd/cm/config. The file opens.</p> 
+      <codeblock gutter="true" class="syntax xml">
+        &lt;editorConfig&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;bulletIndent&gt;0.25in&lt;/bulletIndent&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;defaultDateFormat&gt;DD-MM-YYYY&lt;/defaultDateFormat&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;fonts&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;default&gt;Times&amp;nbsp;New&amp;nbsp;Roman&lt;/default&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;font&gt;_sans&lt;/font&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;font&gt;_serif&lt;/font&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;font&gt;_typewriter&lt;/font&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;font&gt;Arial&lt;/font&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;font&gt;Courier&lt;/font&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;font&gt;Courier&amp;nbsp;New&lt;/font&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;font&gt;Geneva&lt;/font&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;font&gt;Georgia&lt;/font&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;font&gt;Helvetica&lt;/font&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;font&gt;Tahoma&lt;/font&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;font&gt;Times&amp;nbsp;New&amp;nbsp;Roman&lt;/font&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;font&gt;Times&lt;/font&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;font&gt;Verdana&lt;/font&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/fonts&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;fontSizes&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;default&gt;12&lt;/default&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;fontSize&gt;8&lt;/fontSize&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;fontSize&gt;9&lt;/fontSize&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;fontSize&gt;10&lt;/fontSize&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;fontSize&gt;11&lt;/fontSize&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;fontSize&gt;12&lt;/fontSize&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;fontSize&gt;14&lt;/fontSize&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;fontSize&gt;16&lt;/fontSize&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;fontSize&gt;18&lt;/fontSize&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;fontSize&gt;20&lt;/fontSize&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;fontSize&gt;22&lt;/fontSize&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;fontSize&gt;24&lt;/fontSize&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;fontSize&gt;26&lt;/fontSize&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;fontSize&gt;28&lt;/fontSize&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;fontSize&gt;36&lt;/fontSize&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;fontSize&gt;48&lt;/fontSize&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;fontSize&gt;72&lt;/fontSize&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/fontSizes&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;lineHeights&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;default&gt;2&lt;/default&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;lineHeight&gt;2&lt;/lineHeight&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;lineHeight&gt;3&lt;/lineHeight&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;lineHeight&gt;4&lt;/lineHeight&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;lineHeight&gt;5&lt;/lineHeight&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;lineHeight&gt;6&lt;/lineHeight&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;lineHeight&gt;7&lt;/lineHeight&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;lineHeight&gt;8&lt;/lineHeight&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;lineHeight&gt;9&lt;/lineHeight&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;lineHeight&gt;10&lt;/lineHeight&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;lineHeight&gt;11&lt;/lineHeight&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;lineHeight&gt;12&lt;/lineHeight&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;lineHeight&gt;13&lt;/lineHeight&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;lineHeight&gt;14&lt;/lineHeight&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;lineHeight&gt;15&lt;/lineHeight&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;lineHeight&gt;16&lt;/lineHeight&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/lineHeights&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;letterSpacings&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;default&gt;0&lt;/default&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;letterSpacing&gt;0&lt;/letterSpacing&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;letterSpacing&gt;1&lt;/letterSpacing&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;letterSpacing&gt;2&lt;/letterSpacing&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;letterSpacing&gt;3&lt;/letterSpacing&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;letterSpacing&gt;4&lt;/letterSpacing&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;letterSpacing&gt;5&lt;/letterSpacing&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;letterSpacing&gt;6&lt;/letterSpacing&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;letterSpacing&gt;7&lt;/letterSpacing&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;letterSpacing&gt;8&lt;/letterSpacing&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;letterSpacing&gt;9&lt;/letterSpacing&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;letterSpacing&gt;10&lt;/letterSpacing&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;letterSpacing&gt;11&lt;/letterSpacing&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;letterSpacing&gt;12&lt;/letterSpacing&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;letterSpacing&gt;13&lt;/letterSpacing&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;letterSpacing&gt;14&lt;/letterSpacing&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;letterSpacing&gt;15&lt;/letterSpacing&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;letterSpacing&gt;16&lt;/letterSpacing&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/letterSpacings&gt;!!discoiqbr!!&lt;/editorConfig&gt; 
+      </codeblock></li> 
+     <li><p>Make the required changes in the file to change the following in font settings: </p> 
+      <ul> 
+       <li>Add or remove font family and size</li> 
+       <li>Properties such as height and letter spacing</li> 
+       <li>Default values of font family and size, height, letter spacing, and date format</li> 
+       <li>Bullet indents</li> 
+      </ul> <p>For example, to add a Japanese font called Sazanami Mincho Medium, you need to make the following entry in the XML file: <span class="code">&amp;lt;font&amp;gt;Sazanami Mincho Medium&amp;lt;/font&amp;gt;</span>. You also need to have this font installed on the client machine used to access and work with the font customization. For more information, see <a href="#addcustomfonts">Add custom fonts to the client computer</a>. <br /> <br /> You can also change the defaults for various aspects of text and, by removing the entries, remove the fonts from the text editor. </p> </li> 
+     <li><p>Click <strong>Save All</strong>.</p> </li> 
+    </ol></li> 
+  </ol> 
+  <h2 id="AddCustomFonts">Add custom fonts to the client computer</h2> 
+  <p>When you access a font in the Correspondence Management text editor, it needs to be present in the client machine you are using to access Correspondence Management. To be able to use a custom font in the text editor, first you need to install the same on the client machine. </p> 
+  <p>For more information on installing fonts, see the following:</p> 
+  <ul> 
+   <li><a href="http://windows.microsoft.com/en-us/windows-vista/install-or-uninstall-fonts" target="_blank">Install or uninstall fonts on Windows</a></li> 
+   <li><a href="https://support.apple.com/en-us/HT201749" target="_blank">Mac Basics: Font Book</a></li> 
+  </ul> 
+  <p> </p> 
+  <h2>Access font customizations</h2> 
+  <p>After you have made changes to fonts in the tbxeditor-config.xml file in CRX and installed the required fonts on the client machine used to access AEM Forms, the changes appear in the text editor.</p> 
+  <p>For example, the Sazanami Mincho Medium font added in the <a href="#customizefonts">Customize fonts by editing the tbxeditor-config.xml file in CRX</a> procedure appears in the text editor UI as following:</p> 
+  <img imageRotate="0" src="assets/sazanamiminchointext.png" /> 
+  <note> 
+   <p>To see text in Japanese, you first need to enter the text with Japanese characters. The application of a custom Japanese font only formats the text in a certain way. Application of a custom Japanese font does not change English or other characters to Japanese characters. </p> 
+  </note> 
+ </body> 
+</html>

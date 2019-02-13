@@ -1,0 +1,108 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="Guillaume Carlino" name="contentOwner" /> 
+  <meta content="2018-10-28T01:05:12.898-0400" name="topicBrowsingSortDate" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;content_type:reference;topic_tags:personalization" name="cq:tags" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/authoring/morehelp/personalization;/content/help/en/experience-manager/6-4/sites/authoring/morehelp/personalization" name="moreHelpPaths" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2018-10-28T01:05:12.898-0400" name="lastPublishExternalDate" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="2018-10-28T01:05:12.948-0400" name="cq:lastReplicated" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/offerlib.html" name="publishExternalURL" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="/content/docs/en/aem/6-3/author/personalization/offerlib" name="qaNotes" /> 
+  <meta content="jsyal@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="2018-02-03T08:01:28.793-0500" name="jcr:created" /> 
+  <meta content="Creating and Managing Offers" name="jcr:title" /> 
+  <meta content="audience:authoring" name="primaryAudienceTag" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2018-10-28T01:05:12.907-0400" name="cq:lastModified" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="2018-04-19T10:33:45.388-0400" name="locHandOffDate" /> 
+  <meta content="jsyal" name="cq:lastReplicatedBy" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="bohnert" name="cq:lastModifiedBy" /> 
+  <meta content="a1685b1c-cfd3-4556-8c35-0fd3c266e118" name="jcr:uuid" /> 
+  <meta content="Creating and Managing Offers" name="navTitle" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2017-10-31T16:20:02.307-0400" name="firstPublishExternalDate" /> 
+  <meta content="2018-10-28T01:05:12.898-0400" name="publishExternalDate" /> 
+  <meta content="945687c1-c36a-459d-98ac-d5bb51941926" name="jcr:predecessors" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="Creating and Managing Offers" name="seoTitle" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="Use the Offers console to create offers that you can use in activity experiences" name="seoDescription" /> 
+ </head> 
+ <body> 
+  <p>Use the Offers console to create offers that you can <a href="../../../sites/authoring/using/content-targeting-touch.md">use in activity experiences</a>. Creating offers in the Offers console saves time when several experiences require the same offer:</p> 
+  <ul> 
+   <li>Create the offer once in the library and use it in multiple experieces of your brand activities. </li> 
+   <li>Change the offer in the library and the change affects all of the experiences that use it.</li> 
+  </ul> 
+  <p>The Offers console organizes offers by brand. Each brand contains a library of offers that can be used in a brand's experiences. Use folders to define a heirarchical structure for organizing offers in each library. A logical folder structure enables authors to easily find offers by browsing. Tagging and search tools also enable authors to find offers.</p> 
+  <h2>Add a Brand Using the Offers Console</h2> 
+  <p>Create a brand with which your offers are associated. Open a brand in the Offers console to access its offer library where you can create folders and offers. </p> 
+  <p>When you create a brand using the Offers console, it also appears in the <a href="../../../sites/authoring/using/activitylib.md">Activities console</a> where you can add and administer activities for the brand.</p> 
+  <ol> 
+   <li><p>In the Navigation console, click or tap <strong>Personalization</strong> &amp;gt; <strong>Offers</strong>.</p> <img imageRotate="0" src="assets/chlimage_1-402.png" /></li> 
+   <li><p>Click or tap <strong>Create</strong> and then <strong>Create</strong> <strong>Brand</strong>.</p> </li> 
+   <li><p>Select the brand template and click or tap <strong>Next</strong>.</p> </li> 
+   <li><p>Type a title for the brand as you want it to appear in the Offers and Activities consoles. Optionally, type or select one or more tags to associate with the brand.</p> </li> 
+   <li><p>Click or tap <strong>Create</strong>.</p> </li> 
+  </ol> 
+  <h2>Add a Folder to an Offer Library</h2> 
+  <p>Add a folder to the offer library of a brand to organize and store offers. You can create a folder below the brand or below other folders.</p> 
+  <ol> 
+   <li><p>In the Offers console, open the location where you want to create the folder. For example, open the brand to create a top-level folder, or open another folder in the library.</p> </li> 
+   <li><p>Click or tap <strong>Create</strong> &amp;gt; <strong>Create Folder or Offer</strong>.</p> <img imageRotate="0" src="assets/chlimage_1-403.png" /></li> 
+   <li><p>Select <strong>Folder</strong> and click <strong>Next</strong>. </p> </li> 
+   <li><p>Type a title for the folder as you want it to appear in the offer library and type or select tags.</p> <img imageRotate="0" src="assets/chlimage_1-404.png" /></li> 
+   <li><p>Click or tap <strong>Create</strong>.</p> </li> 
+  </ol> 
+  <h2>Add an Offer to an Offer Library</h2> 
+  <p>Add an offer to a brand's offer library so that it can be added to the brand's experiences. When you add an offer you provide a title. You can also associate the offer with one or more tags for enhancing searchability.</p> 
+  <p>After you create the offer you can open it to author the content.</p> 
+  <ol> 
+   <li><p>In the Offers console, open the location where you want to create the offer. For example, open the brand to create a top-level offer, or open a folder in the library.</p> </li> 
+   <li><p>Click or tap <strong>Create</strong> &amp;gt; <strong>Create Folder or Offer</strong>.</p> <img imageRotate="0" src="assets/chlimage_1-405.png" /></li> 
+   <li><p>Select the <strong>Offer Page</strong> template and then click or tap <strong>Next</strong>.</p> </li> 
+   <li><p>Type a title for the offer and optionally select or type one or more tags to associate with the offer, then click or tap <strong>Create</strong>.</p> </li> 
+   <li><p>In the confirmation dialog box, to open the offer for editing click or tap <strong>Open Page</strong>. </p> </li> 
+  </ol> 
+  <h2>Editing an Offer</h2> 
+  <p>Open an offer and edit the content as you want it to appear in the experiences that use it. When you edit an offer that is used in any experiences, your changes appear in the experiences.</p> 
+  <p>You can open an offer from a folder in an offer library or from search results. You can also open an offer from an experience that uses the offer.</p> 
+  <ol> 
+   <li><p>In the Offers console, tap or click the icon next to the offer and click or tap <strong>Edit</strong>.</p> </li> 
+   <li><p>Add components to the offer and edit the component content as usual.</p> </li> 
+  </ol> 
+  <h2>Deleting an Offer</h2> 
+  <p>Delete an offer when it is no longer needed. When you attempt to delete an offer that is used in an experience, you are prompted to confirm the deletion. Confirming deletes the offer and removes it from the experiences.</p> 
+  <p>You can delete an offer while viewing either folder contents in an offer library or search results.</p> 
+  <ol> 
+   <li><p>In the Offers console, tap or click the icon next to the offer and click or tap <strong>Delete</strong>.</p> <p>Select the offer and click or tap <strong>Delete</strong>.</p> </li> 
+   <li><p>In the dialog box that appears, click or tap <strong>Delete</strong> to confirm the deletion.</p> </li> 
+   <li><p>If the offer is used in one or more experiences, a dialog box appears to indicate that the offer is referenced:</p> 
+    <ul> 
+     <li>To delete the offer and remove it from the experiences, click or tap <strong>Force Delete</strong>.</li> 
+     <li>To keep the offer, click or tap <strong>Cancel</strong>.</li> 
+    </ul> </li> 
+  </ol> 
+  <h2>Searching for Offers</h2> 
+  <p>Search for offers of any brand using keywords for matching the title.</p>   
+  <img imageRotate="0" src="assets/chlimage_1-406.png" /> 
+  <p>The current search criteria appear next to the search results. You can also sort the results by column in ascending or descending order. You can perform a search from any folder of any offer library. The search results are the same regardless of the current folder.</p>  
+  <p>To search offers:</p> 
+  <ol> 
+   <li><p>At the top of the Offers console, click or tap the magnifying glass icon. By default the search is limited to offers. </p> </li> 
+   <li><p>Enter your keyword to search for offers. Select from the results. </p> </li> 
+  </ol> 
+ </body> 
+</html>

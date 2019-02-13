@@ -1,0 +1,109 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="0b0e80c7-a1e0-408f-824a-532877279d18" name="jcr:uuid" /> 
+  <meta content="2015-09-28T10:55:42.087-0400" name="publishQADate" /> 
+  <meta content="https://helpx.stage.adobe.com/aem-forms/6-1/html-workspace/tasks-organizational-hierarchy-using-manager.html" name="publishQAURL" /> 
+  <meta content="2018-04-03T08:53:32.087-0400" name="publishExternalDate" /> 
+  <meta content="Managing tasks in an organizational hierarchy using Manager View" name="jcr:title" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="29" name="acrolinxSentences" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2013-02-19T05:45:23.760-0500" name="firstPublishQADate" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:forms-workspace" name="cq:tags" /> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/using/morehelp/forms-workspace;/content/help/en/experience-manager/6-4/forms/using/morehelp/forms-workspace" name="moreHelpPaths" /> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="" name="autotagsRejected" /> 
+  <meta content="asgupta" name="cq%3AlastModifiedBy" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/tasks-organizational-hierarchy-using-manager.html" name="publishExternalURL" /> 
+  <meta content="Managing tasks in an organizational hierarchy&amp;#xA;using Manager View" name="navTitle" /> 
+  <meta content="2018-04-03T08:53:32.260-0400" name="cq:lastReplicated" /> 
+  <meta content="2013-02-13T03:00:00.000-0500" name="sortDate" /> 
+  <meta content="robhagat" name="contentOwner" /> 
+  <meta content="robhagat" name="lr_lastModifiedBy" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="2013-03-14T14:14:55.000-0400" name="cq%3AlastModified" /> 
+  <meta content="robhagat" name="lr_creator" /> 
+  <meta content="2018-04-26T04:33:00.272-0400" name="cq:lastModified" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="LiveCycle/10.5/HTMLWorkspace/WSa0b1fbebd32c111d-4c8160513c63414d79-7ffc,LiveCycle/10.5/HTMLWorkspace/WSbc2d9d23a542924925b48b4013cecab89a6-8000" name="cq:gepId" /> 
+  <meta content="2016-05-31T06:49:22.598-0400" name="acrolinxDate" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/tasks_organizational_hierarchy_using_manager_admin_5e12de0b318c6865_2146_report.xml" name="acrolinxReportURL" /> 
+  <meta content="2017-12-01T19:01:16.711-0500" name="jcr:created" /> 
+  <meta content="2013-03-22T13:19:06.719-0400" name="firstPublishExternalDate" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="2015-09-28T10:55:42.087-0400" name="lastPublishQADate" /> 
+  <meta content="2018-04-03T08:53:32.087-0400" name="lastPublishExternalDate" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="458" name="acrolinxWords" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2013-02-13T03:00:00.000-0500" name="lr_lastModified" /> 
+  <meta content="2018-04-26T04:33:00.271-0400" name="locHandOffDate" /> 
+  <meta content="496a85f0-0cea-4b06-bdc0-1a9d7cd20514" name="jcr:predecessors" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="mix:lockable;mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="" name="autotags" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="2013-02-13T03:00:00.000-0500" name="topicBrowsingSortDate" /> 
+  <meta content="How managers and organization heads can access and work on the tasks of their direct and indirect reports in the To-do tab in AEM Forms workspace." name="seoDescription" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+ </head> 
+ <body> 
+  <p>In AEM Forms workspace, managers can now access the tasks assigned to anyone in their hierarchy—direct or indirect reports—and perform various actions on them. The tasks are available in the To-do tab in the AEM Forms workspace. The actions supported on the tasks of direct reports are:</p> 
+  <p><strong>Forward</strong> Forward a task from direct report to any user.</p> 
+  <p><strong>Claim</strong> Claim a task of a direct report.</p> 
+  <p><strong>Claim &amp; Open</strong> Claim a task of a direct report and automatically open it in the To-do list of the manager.</p> 
+  <p><strong>Reject</strong> Reject a task forwarded to a direct report by some other user. This option is available for the tasks forwarded by other users to a direct report.</p> 
+  <p>AEM Forms restricts a users' access to only those tasks for which the user has access control (ACL). Such a check ensures that a user can fetch only the tasks on which the user has access permissions. Using third-party web-services and implementations to define hierarchy, an organization can customize the definition of manager and direct reports to suit their needs.</p> 
+  <ol> 
+   <li><p>Create a DSC. For more information, see 'Developing Components for AEM Forms' topic in <a href="http://www.adobe.com/go/learn_aemforms_programming_63" target="_blank">Programming with AEM Forms</a> guide.</p> </li> 
+   <li><p>In the DSC, define a new SPI for hierarchy management to define direct reports and hierarchy within the AEM Forms users. Following is a sample Java™ code snippet.</p> 
+    <codeblock gutter="true" class="syntax as3">
+      public&amp;nbsp;class&amp;nbsp;MyHierarchyMgmtService&amp;nbsp;!!discoiqbr!!{&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/*!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Input&amp;nbsp;:&amp;nbsp;Principal&amp;nbsp;Oid&amp;nbsp;for&amp;nbsp;a&amp;nbsp;livecycle&amp;nbsp;user!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Output&amp;nbsp;:&amp;nbsp;Returns&amp;nbsp;true&amp;nbsp;when&amp;nbsp;the&amp;nbsp;user&amp;nbsp;is&amp;nbsp;either&amp;nbsp;the&amp;nbsp;service&amp;nbsp;invoker&amp;nbsp;OR&amp;nbsp;his&amp;nbsp;direct/indirect&amp;nbsp;report.!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*/!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;boolean&amp;nbsp;isInHierarchy(String&amp;nbsp;principalOid)&amp;nbsp;{!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/*&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Input&amp;nbsp;:&amp;nbsp;Principal&amp;nbsp;Oid&amp;nbsp;for&amp;nbsp;a&amp;nbsp;livecycle&amp;nbsp;user!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Output&amp;nbsp;:&amp;nbsp;List&amp;nbsp;of&amp;nbsp;principal&amp;nbsp;Oids&amp;nbsp;for&amp;nbsp;direct&amp;nbsp;reports&amp;nbsp;of&amp;nbsp;the&amp;nbsp;livecycle&amp;nbsp;user!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;A&amp;nbsp;user&amp;nbsp;may&amp;nbsp;get&amp;nbsp;direct&amp;nbsp;reports&amp;nbsp;only&amp;nbsp;for&amp;nbsp;himself&amp;nbsp;OR&amp;nbsp;his&amp;nbsp;direct/indirect&amp;nbsp;reports.!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;So&amp;nbsp;the&amp;nbsp;API&amp;nbsp;is&amp;nbsp;functionally&amp;nbsp;equivalent&amp;nbsp;to&amp;nbsp;-&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;isInHierarchy(principalOid)&amp;nbsp;?&amp;nbsp;&lt;return&amp;nbsp;direct&amp;nbsp;reports&gt;&amp;nbsp;:&amp;nbsp;&lt;return&amp;nbsp;empty&amp;nbsp;list&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*/!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;List&lt;String&gt;&amp;nbsp;getDirectReports(String&amp;nbsp;principalOid)&amp;nbsp;{!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/*&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Returns&amp;nbsp;whether&amp;nbsp;a&amp;nbsp;livecycle&amp;nbsp;user&amp;nbsp;has&amp;nbsp;direct&amp;nbsp;reports&amp;nbsp;or&amp;nbsp;not.!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;It's&amp;nbsp;functionally&amp;nbsp;equivalent&amp;nbsp;to&amp;nbsp;-!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;getDirectReports(principalOid).size()&gt;0!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;*/!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;boolean&amp;nbsp;isManager(String&amp;nbsp;principalOid)&amp;nbsp;{!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&amp;nbsp;&amp;nbsp;!!discoiqbr!!} 
+    </codeblock></li> 
+   <li><p>Create a component.xml file. Please ensure that spec-id must be same as shown in code snippet below. Following is a sample code snippet that you can repurpose.</p> 
+    <codeblock gutter="true" class="syntax as3">
+      &lt;component&amp;nbsp;xmlns="http://adobe.com/idp/dsc/component/document"&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;component-id&gt;com.adobe.sample.SampleDSC&lt;/component-id&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;version&gt;1.1&lt;/version&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;supports-export&gt;false&lt;/supports-export&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;descriptor-class&gt;com.adobe.idp.dsc.component.impl.DefaultPOJODescriptorImpl&lt;/descriptor-class&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;services&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;service&amp;nbsp;name="MyHierarchyMgmtService"&amp;nbsp;title="My&amp;nbsp;hierarchy&amp;nbsp;management&amp;nbsp;service"&amp;nbsp;orchestrateable="false"&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;auto-deploy&amp;nbsp;service-id="MyHierarchyMgmtService"&amp;nbsp;category-id="Sample&amp;nbsp;DSC"&amp;nbsp;major-version="1"&amp;nbsp;minor-version="0"&amp;nbsp;/&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;description&gt;Service&amp;nbsp;for&amp;nbsp;resolving&amp;nbsp;hierarchy&amp;nbsp;management.&lt;/description&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;specifications&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;specification&amp;nbsp;spec-id="com.adobe.idp.taskmanager.dsc.enterprise.HierarchyManagementProvider"/&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/specifications&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;specification-version&gt;1.0&lt;/specification-version&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;implementation-class&gt;com.adobe.sample.hierarchymanagement.MyHierarchyMgmtService&lt;/implementation-class&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;request-processing-strategy&gt;single_instance&lt;/request-processing-strategy&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;supported-connectors&gt;default&lt;/supported-connectors&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;operation-config&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;operation-name&gt;*&lt;/operation-name&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;transaction-type&gt;Container&lt;/transaction-type&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;transaction-propagation&gt;supports&lt;/transaction-propagation&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;!--transaction-timeout&gt;3000&lt;/transaction-timeout--&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/operation-config&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;operations&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;operation&amp;nbsp;anonymous-access="true"&amp;nbsp;name="isInHierarchy"&amp;nbsp;method="isInHierarchy"&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;input-parameter&amp;nbsp;name="principalOid"&amp;nbsp;type="java.lang.String"&amp;nbsp;/&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;output-parameter&amp;nbsp;name="result"&amp;nbsp;type="java.lang.Boolean"/&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/operation&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;operation&amp;nbsp;anonymous-access="true"&amp;nbsp;name="getDirectReports"&amp;nbsp;method="getDirectReports"&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;input-parameter&amp;nbsp;name="principalOid"&amp;nbsp;type="java.lang.String"&amp;nbsp;/&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;output-parameter&amp;nbsp;name="result"&amp;nbsp;type="java.util.List"/&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/operation&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;operation&amp;nbsp;anonymous-access="true"&amp;nbsp;name="isManager"&amp;nbsp;method="isManager"&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;input-parameter&amp;nbsp;name="principalOid"&amp;nbsp;type="java.lang.String"&amp;nbsp;/&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;output-parameter&amp;nbsp;name="result"&amp;nbsp;type="java.lang.Boolean"/&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/operation&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/operations&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/service&gt;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/services&gt;!!discoiqbr!!&lt;/component&gt; 
+    </codeblock></li> 
+   <li><p>Deploy DSC through Workbench. Restart <span class="code">ProcessManagementTeamTasksService</span> service.</p> </li> 
+   <li><p>You may have to refresh your browser or logout/login with the user again.</p> </li> 
+  </ol> 
+  <p>The following screen illustrates accessing the tasks of direct reports and the available actions. </p> 
+  <img captionBottom="Access tasks of direct reports and act on the tasks" imageRotate="0" src="assets/cu_manager_view.png" /> 
+  <p><a href="https://www.adobe.com/account/sign-in.supportportal.html" target="_blank"><strong>Contact Support</strong></a></p> 
+  <related-links> 
+   <a href="../../forms/using/introduction-customizing-html-workspace.md">Introduction to Customizing AEM Forms workspace</a> 
+   <a href="../../forms/using/generic-steps-html-workspace-customization.md">Generic steps for AEM Forms workspace customization</a> 
+   <a href="../../forms/using/tasks-organizational-hierarchy-using-manager.md">Managing tasks in an organizational hierarchy using Manager View</a> 
+   <a href="../../forms/using/integrating-correspondence-management-html-workspace.md">Integrating Correspondence Management in AEM Forms workspace</a> 
+   <a href="../../forms/using/single-sign-timeout-handlers.md">Single Sign On and timeout handlers</a> 
+   <a href="../../forms/using/displaying-user-avatar.md">Displaying the user avatar</a> 
+   <a href="../../forms/using/displaying-information-task-summary-pane.md">Displaying information in the Task Summary pane</a> 
+   <a href="../../forms/using/changing-organization-logo-branding.md">Changing the organization logo</a> 
+   <a href="../../forms/using/changing-color-scheme-interface.md">Changing the color scheme of the interface</a> 
+   <a href="../../forms/using/changing-font-interface.md">Changing the font on the interface</a> 
+   <a href="../../forms/using/changing-locale-user-interface.md">Changing the locale of the user interface</a> 
+   <a href="../../forms/using/customizing-error-dialogs.md">Customizing error dialogs</a> 
+   <a href="../../forms/using/customizing-tabs-task.md">Customizing tabs for a task</a> 
+   <a href="../../forms/using/customizing-task-actions.md">Customizing Task Actions</a> 
+   <a href="../../forms/using/customizing-listing-process-instances.md">Customizing the listing of process instances</a> 
+   <a href="../../forms/using/customizing-task-details-page.md">Customizing the task Details page</a> 
+   <a href="../../forms/using/display-additional-data-in-todo-list.md">Displaying additional data in ToDo list</a> 
+   <a href="../../forms/using/getting-task-variables-summary-url.md">Getting Task Variables in Summary URL</a> 
+   <a href="../../forms/using/images-route-actions.md">Images for Route Actions</a> 
+   <a href="../../forms/using/creating-new-login-screen.md">Creating a new login screen</a> 
+   <a href="../../forms/using/minification-javascript-files.md">Minification of the JavaScript files</a> 
+   <a href="../../forms/using/sorting-tracking-tables-add-columns.md">Sorting of Tracking tables and adding more columns</a> 
+   <a href="../../forms/using/updating-link-help-documentation.md">Updating the link to the documentation</a> 
+   <a href="../../forms/using/two-html-workspace-instances-one.md">Hosting two AEM Forms workspace instances on one server</a> 
+  </related-links> 
+ </body> 
+</html>

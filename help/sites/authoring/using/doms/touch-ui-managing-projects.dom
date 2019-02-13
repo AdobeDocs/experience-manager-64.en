@@ -1,0 +1,141 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2018-10-28T00:40:29.610-0400" name="cq:lastModified" /> 
+  <meta content="Guillaume Carlino" name="contentOwner" /> 
+  <meta content="Managing Projects" name="seoTitle" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:projects;content_type:reference" name="cq:tags" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="ea48c7b8-bcf4-4371-9486-40f839321c55" name="jcr:uuid" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="240e65aa-e4fb-4be1-9726-531a7b954ae4" name="jcr:predecessors" /> 
+  <meta content="2018-10-28T00:40:29.602-0400" name="publishExternalDate" /> 
+  <meta content="2017-10-31T16:19:37.420-0400" name="firstPublishExternalDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="2018-02-03T08:01:25.495-0500" name="jcr:created" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2018-10-28T00:40:29.659-0400" name="cq:lastReplicated" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2018-04-19T10:35:57.932-0400" name="locHandOffDate" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/authoring/morehelp/projects;/content/help/en/experience-manager/6-4/sites/authoring/morehelp/projects" name="moreHelpPaths" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="jsyal" name="cq:lastReplicatedBy" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/touch-ui-managing-projects.html" name="publishExternalURL" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" /> 
+  <meta content="Managing Projects" name="navTitle" /> 
+  <meta content="2018-10-28T00:40:29.602-0400" name="topicBrowsingSortDate" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="Managing Projects" name="jcr:title" /> 
+  <meta content="jsyal@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="bohnert" name="cq:lastModifiedBy" /> 
+  <meta content="/content/docs/en/aem/6-3/author/projects/touch-ui-managing-projects" name="qaNotes" /> 
+  <meta content="audience:authoring" name="primaryAudienceTag" /> 
+  <meta content="2018-10-28T00:40:29.602-0400" name="lastPublishExternalDate" /> 
+  <meta content="Projects lets you organize your project by grouping resources into one entity which can be acessed and managed in the the Projects console" name="seoDescription" /> 
+ </head> 
+ <body> 
+  <p>Projects lets you organize your project by grouping resources into one entity. </p> 
+  <p>In the <strong>Projects</strong> console, you access and take action on your projects:</p> 
+  <img imageRotate="0" src="assets/chlimage_1-316.png" /> 
+  <p>In Projects, you can create a project, associate resources with your project, and also delete a project or Resource links. You may want to open a tile to view its content as well as add items to a tile. This topic describes those procedures.</p> 
+  <note> 
+   <p>6.2 introduced the ability to organize Projects into folders. On the Projects page, you have the ability to create a project or a folder.</p> 
+   <p>If a folder is created, the user is then taken to that folder where they can create another folder or a project. It helps to organize projects into folders based on categories like product campaigns, location, translation languages, and so on.</p> 
+   <p>The projects and folders can be viewed in a list view and also searched.</p> 
+  </note> 
+  <note> 
+   <p>For users in projects to see other users/groups while using Projects functionality like creating projects, creating tasks/workflows, seeing and managing the team, those users need to have read access on <strong>/home/users</strong> and <strong>/home/groups</strong>. The easiest way to implement this is to give the <strong>projects-users</strong> group read access to <strong>/home/users</strong> and <strong>/home/groups</strong>. </p> 
+  </note> 
+  <h3>Creating a Project</h3> 
+  <p>Out of the box, AEM provides these templates to choose from when you create a project:</p> 
+  <ul> 
+   <li>Simple Project</li> 
+   <li>Media Project</li> 
+   <li>Product Photo Shoot Project</li> 
+   <li>Translation Project</li> 
+  </ul> 
+  <div>
+    The procedure of creating a project is the same from project to project. The difference between the types of projects includes available 
+   <a href="../../../sites/authoring/using/projects.md#userroles">user roles</a> and 
+   <a href="../../../sites/authoring/using/projects-with-workflows.md">workflows</a>. 
+  </div> 
+  <p>To create a new project:</p> 
+  <ol> 
+   <li><p>In <strong>Projects</strong>, tap/click <strong>Create</strong> to open the <strong>Create Project</strong> wizard:</p> </li> 
+   <li><p>Select a template. Out of the box, Simple Project, Media Project, <a href="/sites/authoring/using/language-copy">Translation Project</a>, and <a href="../../../sites/authoring/using/managing-product-information.md">Product Photo Shoot Product</a> are available and click <strong>Next</strong>. </p> <img imageRotate="0" src="assets/chlimage_1-317.png" /></li> 
+   <li><p>Define the <strong>Title</strong> and <strong>Description</strong> and add a <strong>Thumbnail</strong> image if required. You also add or delete users and what group they belong to. In addition, click <strong>Advanced</strong> to add a name used in the URL.</p> <img imageRotate="0" src="assets/chlimage_1-318.png" /></li> 
+   <li><p>Tap/click <strong>Create</strong>. The confirmation asks whether you want to open your new project or to return to the console.</p> </li> 
+  </ol> 
+  <h3>Associating Resources with your Project</h3> 
+  <p>As projects enable you to group resources into one entity, you want to associate resources to your project. These resources are called <strong>Tiles</strong>. The types of resources you can add are described in <a href="../../../sites/authoring/using/projects.md#projecttiles">Project Tiles</a>.</p> 
+  <p>To associate resources with your project:</p> 
+  <ol> 
+   <li><p>Open your project from the <strong>Projects</strong> console.</p> </li> 
+   <li><p>Tap/click <strong>Add Tile</strong> and select the tile that you want to link to your project. You can select multiple types of tiles.<br /> </p> <img imageRotate="0" src="assets/chlimage_1-319.png" />  
+    <note> 
+     <p>Project tiles that can be associated with a project are described in detail in <a href="../../../sites/authoring/using/projects.md#projecttiles">Project tiles.</a></p> 
+    </note></li> 
+   <li><p>Tap/click <strong>Create</strong>. Your resource is linked to your project and from now on you can access it from your project.</p> </li> 
+  </ol> 
+  <h3>Deleting a Project or Resource Link</h3> 
+  <p>The same method is used to delete a project from the console or a linked resource from your project:<br /> </p> 
+  <ol> 
+   <li><p>Navigate to the appropriate location:</p> 
+    <ul> 
+     <li>To delete a project go to the top level of the <strong>Projects</strong> console.</li> 
+     <li>To delete a resource link within a project, open your project in the <strong>Projects</strong> console.<br /> </li> 
+    </ul> </li> 
+   <li><p>Enter selection mode by clicking <strong>Select</strong> and selecting your project or resource link.</p> </li> 
+   <li><p>Tap/click <strong>Delete</strong>.<br /> </p> </li> 
+   <li><p>You need to confirm the deletion in a dialog. If confirmed, the project or resource link is deleted. Tap/click <strong>Deselect</strong> to exit selection mode.<br /> </p> </li> 
+  </ol> 
+  <note> 
+   <p>When you create the project and add users to the various roles, groups associated with the project are automatically created to manage associated permissions. For example, a project called Myproject would have three groups <strong>Myproject Owners</strong>, <strong>Myproject Editors</strong>, <strong>Myproject Observers</strong>. However, if the project is deleted, those groups are not automatically deleted. An administrator needs to manually delete the groups in <strong>Tools</strong> &amp;gt; <strong>Security</strong> &amp;gt; <strong>Groups</strong>.</p> 
+  </note> 
+  <h3>Adding Items to a Tile</h3> 
+  <p>In some tiles, you may want to add more than one item. For example, you may have more than one workflow running at once or more than one experience.</p> 
+  <p>To add items to a Tile:</p> 
+  <ol> 
+   <li><p>In <strong>Projects</strong>, navigate to the project and click the Add + icon on the tile you want to add an item to.<br /> </p> <img imageRotate="0" src="assets/chlimage_1-320.png" /></li> 
+   <li><p>Add an item to the tile as you would when creating a new tile. Project tiles are described <a href="../../../sites/authoring/using/projects.md#projecttiles">here</a>. In this example, another workflow was added.</p> <img imageRotate="0" src="assets/chlimage_1-321.png" /></li> 
+  </ol> 
+  <h3>Opening a Tile</h3> 
+  <p>You may want to see what items are included in a current tile, or modify or delete items in the tile.</p> 
+  <p>To open a tile so that you can view or modify items:</p> 
+  <ol> 
+   <li><p>In the Projects console, tap/click the ellipses (...)</p> <img imageRotate="0" src="assets/chlimage_1-322.png" /></li> 
+   <li><p>AEM lists the items in that tile. You can enter selection mode to modify or delete the items.</p> <img imageRotate="0" src="assets/chlimage_1-323.png" /></li> 
+  </ol> 
+  <h3>Viewing Project Statistics</h3> 
+  <p>To view project statistics, in the <strong>Projects</strong> console, click <strong>Show Statistics View</strong>. The level of completion for each project displays. Click <strong>Show Statistics View</strong> again to go to the <strong>Projects</strong> console.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-324.png" /> 
+  <h3>Viewing a Project Timeline</h3> 
+  <p>The project timeline provides information on when assets in the project were last used. To view the project timeline, click/tap <strong>Timeline</strong>, then enter selection mode and select the project. Assets are displayed in the left pane. Click/tap <strong>Timeline</strong> to return to the <strong>Projects</strong> console.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-325.png" /> 
+  <h3>Viewing Active/Inactive Projects</h3> 
+  <p>To toggle between your active and inactive projects, in the <strong>Projects</strong> console, click <strong>Toggle Active Projects</strong>. If the icon has a checkmark next to it, it is displaying the active projects.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-326.png" /> 
+  <p>If the icon has an x next to, it is displaying the inactive projects.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-327.png" /> 
+  <h3>Making Projects Inactive or Active</h3> 
+  <p>You may want to make a project inactive if you've completed it but you still want to keep the information on the project.</p> 
+  <p>To make a project inactive (or active):</p> 
+  <ol> 
+   <li><p>In the <strong>Projects</strong> console, open your project and then find the <strong>Project information</strong> tile.</p> 
+    <note> 
+     <p>You may need to add this tile if it is not already in your project. See <a href="#addingtiles">Adding Tiles</a>.</p> 
+    </note></li> 
+   <li><p>Tap/click <strong>Edit</strong>.</p> </li> 
+   <li><p>Change the selector from <strong>Active</strong> to <strong>Inactive</strong> (or vice versa).</p> <img imageRotate="0" src="assets/chlimage_1-328.png" /></li> 
+   <li><p>Tap/click <strong>Done</strong> to save your changes.</p> </li> 
+  </ol> 
+ </body> 
+</html>

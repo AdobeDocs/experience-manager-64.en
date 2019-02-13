@@ -1,0 +1,153 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="green" name="acrolinxPageStatus" /> 
+  <meta content="2018-05-03T06:24:29.460-0400" name="cq:lastModified" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="topic_tags:grdp;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" /> 
+  <meta content="Forms JEE workflows | Handling user data" name="jcr:title" /> 
+  <meta content="2018-05-03T06:24:29.442-0400" name="firstPublishExternalDate" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="vishgupt" name="cq:lastModifiedBy" /> 
+  <meta content="checked_not_improved" name="acrolinxStatus" /> 
+  <meta content="vishgupt" name="cq:lastReplicatedBy" /> 
+  <meta content="2018-05-03T06:24:29.442-0400" name="publishExternalDate" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/forms_workflow_jee_handling_user_data_krs_workflow_0eaa5f398ed6741b_623_report.xml" name="acrolinxReportURL" /> 
+  <meta content="2018-04-30T03:14:52.441-0400" name="locHandOffDate" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2018-05-03T06:24:29.442-0400" name="topicBrowsingSortDate" /> 
+  <meta content="a66404c8-c907-4d77-8ced-d490a86572ba" name="jcr:uuid" /> 
+  <meta content="80" name="acrolinxSentences" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="en" name="pageCreatedAt" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="2018-05-03T06:24:29.442-0400" name="lastPublishExternalDate" /> 
+  <meta content="vishgupt@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2018-05-03T06:24:29.792-0400" name="cq:lastReplicated" /> 
+  <meta content="2018-04-19T10:44:04.044-0400" name="acrolinxDate" /> 
+  <meta content="1390" name="acrolinxWords" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4" name="primaryProductTag" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/forms-workflow-jee-handling-user-data.html" name="publishExternalURL" /> 
+  <meta content="/content/help/en/experience-manager/6-4/morehelp/grdp;/content/help/en/experience-manager/6-4/forms/morehelp/grdp" name="moreHelpPaths" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="fe375669-4968-40a3-9dd4-d54119a019e5" name="jcr:predecessors" /> 
+  <meta content="2018-04-13T07:28:42.448-0400" name="jcr:created" /> 
+ </head> 
+ <body> 
+  <p>AEM Forms JEE workflows provide tools to design, create, and manage business processes. A workflow process consists of a series of steps that execute in a specified order. Each step performs a specific action such as assigning a task to a user or sending an email message. A process can interact with assets, user accounts, and services, and can be triggered using any of the following methods:</p> 
+  <ul> 
+   <li>Starting a process from AEM Forms Workspace</li> 
+   <li>Using SOAP or RESTful service</li> 
+   <li>Submitting an adaptive form</li> 
+   <li>Using watched folder</li> 
+   <li>Using Email</li> 
+  </ul> 
+  <p>For more information about creating AEM Forms JEE workflow process, see <a href="https://helpx.adobe.com/content/dam/help/en/experience-manager/6-4/forms/pdf/WorkbenchHelp.pdf" target="_blank">Workbench Help</a>.</p> 
+  <h2>User data and data stores</h2> 
+  <p>When a process is triggered and as it progresses, it captures data about the process participants, data entered by participants in the form associated with the process, and attachments added to the form. The data is stored in AEM Forms JEE server database, and if configured, some data like attachments are stored in the Global Document Storage (GDS) directory. The GDS directory can be configured on a shared file system or a database.</p> 
+  <h2>Access and delete user data</h2> 
+  <p>When a process is triggered, a unique process instance ID and long-lived invocation ID is generated and associated with the process instance. You can access and delete data for a process instance based on the long-lived invocation ID. You can deduce the long-lived invocation ID of a process instance with the user name of the process initiator or process participants who have submitted their tasks.</p> 
+  <p>However, you cannot identify the process instance ID for an initiator in the following scenarios:</p> 
+  <ul> 
+   <li><strong>Process triggered through a watched folder</strong>: A process instance cannot be identified using its initiator if the process is triggered by a watched folder. In this case, the user information is encoded in the stored data.</li> 
+   <li><strong>Process initiated from publish AEM instance</strong>: All process instances triggered from AEM publish instance do not capture information about the initiator. However, user data may be captured in the form associated with the process, which is stored in workflow variables.</li> 
+   <li><strong>Process initiated through email</strong>: The email ID of the sender is captured as a property in an opaque blob column of the <span class="code">tb_job_instance</span> database table, which cannot be queried directly.</li> 
+  </ul> 
+  <h4 id="initiator-participant">Identify process instance IDs when workflow initiator or participant is known</h4> 
+  <p>Perform the following steps to identify process instance IDs for a workflow initiator or a participant:</p> 
+  <ol> 
+   <li><p>Execute the following command in AEM Forms server database to retrieve the principal ID for workflow initiator or participant from the <span class="code">edcprincipalentity</span> database table.</p> 
+    <codeblock class="syntax sql">
+      select&amp;nbsp;id&amp;nbsp;from&amp;nbsp;edcprincipalentity&amp;nbsp;where&amp;nbsp;canonicalname='user_ID' 
+    </codeblock><p>The query returns the principal ID for the specified <span class="code">user_ID</span>.</p> </li> 
+   <li><p>(<strong>For workflow initiator</strong>) Execute the following command to retrieve all tasks associated with the principal ID for the initiator from the <span class="code">tb_task</span> database table.</p> 
+    <codeblock class="syntax sql">
+      select&amp;nbsp;*&amp;nbsp;from&amp;nbsp;tb_task&amp;nbsp;where&amp;nbsp;start_task&amp;nbsp;=&amp;nbsp;1&amp;nbsp;and&amp;nbsp;create_user_id=&amp;nbsp;'initiator_principal_id' 
+    </codeblock><p>The query returns tasks initiated by the specified <span class="code">initiator</span>_<span class="code">principal_id</span>. The tasks are of two types:</p> 
+    <ul> 
+     <li><strong>Completed tasks</strong>: These tasks have been submitted and display an alphanumeric value in the <span class="code">process_instance_id</span> field. Take note of all process instance IDs for submitted tasks and continue with the steps. </li> 
+     <li><strong>Tasks initiated but not complete</strong>: These tasks have initiated but not submitted yet. The value in the <span class="code">process_instance_id</span> field for these tasks is <strong>0</strong> (zero). In this case, take note of the corresponding task IDs and see <a href="#orphan">Work with orphan tasks</a>.</li> 
+    </ul> </li> 
+   <li><p>(<strong>For workflow participants</strong>) Execute the following command to retrieve process instance IDs associated with the principal ID of the process participant for the initiator from the <span class="code">tb_assignment</span> database table.</p> 
+    <codeblock class="syntax sql">
+      select&amp;nbsp;distinct&amp;nbsp;a.process_instance_id&amp;nbsp;from&amp;nbsp;tb_assignment&amp;nbsp;a&amp;nbsp;join&amp;nbsp;tb_queue&amp;nbsp;q&amp;nbsp;on&amp;nbsp;a.queue_id&amp;nbsp;=&amp;nbsp;q.id&amp;nbsp;where&amp;nbsp;q.workflow_user_id='participant_principal_id' 
+    </codeblock><p>The query returns instance IDs for all processes associated with the participant including those where the participant has not submitted any task.</p> <p>Take note of all process instance IDs for submitted tasks and continue with the steps. </p> <p>For orphan tasks or tasks where the <span class="code">process_instance_id</span> is 0 (zero), take note of the corresponding task IDs and see <a href="#orphan">Work with orphan tasks</a>.</p> </li> 
+   <li><p>Follow the instructions in <a href="/forms/using/forms-workflow-jee-handling-user-data.html?cq_ck=1523864709777#purge">Purge user data from workflow instances based on process instance IDs</a> section to delete user data for identified process instance IDs.</p> </li> 
+  </ol> 
+  <h4 id="#primitive">Identify process instance IDs when user data is stored in primitive variables</h4> 
+  <p>A workflow can be designed such that the user data is captured in a variable that gets stored as a blob in the database. In such cases, you can query user data only if it is stored in one of the following primitive-type variables:</p> 
+  <ul> 
+   <li><strong>String</strong>: Contains the user ID directly or as a substring and can be queried using SQL.</li> 
+   <li><strong>Numeric</strong>: Contains the user ID directly.</li> 
+   <li><strong>XML</strong>: Contains the user ID as a substring within the text stored as text columns in database and can be queried like strings.</li> 
+  </ul> 
+  <p>Perform the following steps to determine if a workflow that stores data in primitive-type variables contains data for the user:</p> 
+  <ol> 
+   <li><p>Execute the following database command:</p> 
+    <codeblock class="syntax sql">
+      select&amp;nbsp;database_table&amp;nbsp;from&amp;nbsp;omd_object_type&amp;nbsp;where&amp;nbsp;name='pt_&lt;app_name&gt;/&lt;workflow_name&gt;' 
+    </codeblock><p>The query returns a table name in <span class="code">tb_&amp;lt;number&amp;gt;</span> format for the specified application (<span class="code">app_name</span>) and workflow (<span class="code">workflow_name</span>).</p> 
+    <note> 
+     <p>The value of the <span class="code">name</span> property can be complex if the workflow is nested within sub-folders inside the application. Ensure that you specify the exact full path to the workflow, which you can get from the <span class="code">omd_object_type</span> database table.</p> 
+    </note></li> 
+   <li><p>Review the <span class="code">tb_&amp;lt;number&amp;gt;</span> table schema. The table contains variables that store user data for the specified workflow. The variables in the table correspond to the variables in the workflow.</p> <p>Identify and take note of the variable that corresponds to workflow variable containing the user ID. If the identified variable is of primitive-type, you can run a query to determine workflow instances associated with a user ID. </p> </li> 
+   <li><p>Execute the following database command. In this command, the <span class="code">user_var</span> is the primitive-type variable that contains user ID.</p> 
+    <codeblock class="syntax sql">
+      select&amp;nbsp;process_instance_id&amp;nbsp;from&amp;nbsp;&lt;tb_name&gt;&amp;nbsp;where&amp;nbsp;&lt;user_var&gt;=&lt;user_ID&gt; 
+    </codeblock><p>The query returns all process instance IDs associated with the specified <span class="code">user_ID</span>.</p> </li> 
+   <li><p>Follow the instructions in <a href="/forms/using/forms-workflow-jee-handling-user-data.html?cq_ck=1523864709777#purge">Purge user data from workflow instances based on process instance IDs</a> section to delete user data for identified process instance IDs.</p> </li> 
+  </ol> 
+  <h4 id="purge">Purge user data from workflow instances based on process instance IDs</h4> 
+  <p>Now that you have identified the process instance IDs associated with a user, do the following to delete user data from the respective process instances.</p> 
+  <ol> 
+   <li><p>Execute the following command to retrieve long-lived invocation ID and status for a process instance from the <span class="code">tb_process_instance</span> table.</p> 
+    <codeblock class="syntax sql">
+      select&amp;nbsp;long_lived_invocation_id,&amp;nbsp;status&amp;nbsp;from&amp;nbsp;tb_process_instance&amp;nbsp;where&amp;nbsp;id='process_instance_id' 
+    </codeblock><p>The query returns the long-lived invocation ID and status for the specified <span class="code">process_instance_id</span>.</p> </li> 
+   <li><p>Create an instance of the public <span class="code">ProcessManager</span> client (<span class="code">com.adobe.idp.workflow.client.ProcessManager</span>) using a <span class="code">ServiceClientFactory</span> instance with the correct connection settings.</p> <p>For more information, see Java API reference for <a href="https://helpx.adobe.com/experience-manager/6-3/forms/ProgramLC/javadoc/com/adobe/idp/workflow/client/ProcessManager.html" target="_blank">Class ProcessManager</a>.</p> </li> 
+   <li><p>Check the status of the workflow instance. If the status is other than 2 (COMPLETE) or 4 (TERMINATED), terminate the instance first by calling the following method:</p> <p><span class="code">ProcessManager.terminateProcess(&amp;lt;long_lived_invocation_id&amp;gt;)</span>.</p> </li> 
+   <li><p>Purge the workflow instance by calling the following method:</p>  <p>The <span class="code">purgeProcessInstance</span> method completely deletes all data for the specified invocation ID from AEM Forms server database and GDS, if configured.</p> </li> 
+  </ol> 
+  <h4 id="orphan">Work with orphan tasks</h4> 
+  <p>Orphan tasks are the tasks whose containing process has been initiated but not submitted yet. in this case, the <span class="code">process_instance_id</span> is <strong>0</strong> (zero). Therefore, you cannot trace user data stored for orphan tasks using process instance IDs. However, you can trace it using the task ID for an orphan task. You can identify the tasks IDs from the <span class="code">tb_task</span> table for a user as described in <a href="/forms/using/forms-workflow-jee-handling-user-data.html?cq_ck=1523866585112#initiator-participant">Identify process instance IDs when workflow initiator or participant is known</a>.</p> 
+  <p>Once you have the task IDs, do the following to purge the associated files and data with an orphan task from GDS and database.</p> 
+  <ol> 
+   <li><p>Execute the following command on AEM Forms server database to retrieve IDs for the identified task IDs.</p> 
+    <codeblock class="syntax sql">
+      select&amp;nbsp;id&amp;nbsp;from&amp;nbsp;tb_form_data&amp;nbsp;where&amp;nbsp;task_id=&lt;task_id&gt; 
+    </codeblock><p>The query returns a list of IDs. For each ID (<span class="code">fd_id</span>) returned in the results, create a list of session ID strings as follows:</p> 
+    <ul> 
+     <li>_<span class="code">wfattach&amp;lt;task_id&amp;gt;</span></li> 
+     <li><span class="code">_wftask&amp;lt;fd_id&amp;gt;</span></li> 
+     <li><span class="code">_wftaskformid&amp;lt;fd_id&amp;gt;</span></li> 
+    </ul> </li> 
+   <li><p>Depending on whether your GDS points to a file system or a database, perform one of the following steps:</p> 
+    <ol> 
+     <li> <p>In the GDS file system:</p> <p><strong>a. </strong>Search for files with the following session ID strings as their extensions:</p> 
+      <ul> 
+       <li><span class="code">_wfattach&amp;lt;task_id&amp;gt;</span></li> 
+       <li><span class="code">_wftask&amp;lt;fd_id&amp;gt;</span></li> 
+       <li><span class="code">_wftaskformid&amp;lt;fd_id&amp;gt;</span></li> 
+      </ul> <p>The files with these extensions are the marker files. They are stored with filenames in the following format:</p>  <p><strong>b. </strong>Delete all marker files and other files with the exact filename as <span class="code">&amp;lt;file_name_guid&amp;gt;</span> from the file system.</p> </li> 
+     <li> <p>Execute the following commands for each session ID:</p> 
+      <codeblock class="syntax sql">
+        delete&amp;nbsp;from&amp;nbsp;tb_dm_chunk&amp;nbsp;where&amp;nbsp;documentid&amp;nbsp;in&amp;nbsp;(select&amp;nbsp;documentid&amp;nbsp;from&amp;nbsp;tb_dm_session_reference&amp;nbsp;where&amp;nbsp;sessionid=&lt;session_id&gt;)!!discoiqbr!!delete&amp;nbsp;from&amp;nbsp;tb_dm_session_reference&amp;nbsp;where&amp;nbsp;sessionid=&lt;session_id&gt;!!discoiqbr!!delete&amp;nbsp;from&amp;nbsp;tb_dm_deletion&amp;nbsp;where&amp;nbsp;sessionid=&lt;session_id&gt; 
+      </codeblock></li> 
+    </ol></li> 
+   <li><p>Execute the following commands to delete data for task IDs from the AEM Forms server database:</p> 
+    <codeblock class="syntax sql">
+      delete&amp;nbsp;from&amp;nbsp;tb_task_acl&amp;nbsp;where&amp;nbsp;task_id=&lt;task_id&gt;!!discoiqbr!!delete&amp;nbsp;from&amp;nbsp;tb_task_attachment&amp;nbsp;where&amp;nbsp;task_id=&lt;task_id&gt;!!discoiqbr!!delete&amp;nbsp;from&amp;nbsp;tb_form_data&amp;nbsp;where&amp;nbsp;task_id=&lt;task_id&gt;!!discoiqbr!!delete&amp;nbsp;from&amp;nbsp;tb_assignment&amp;nbsp;where&amp;nbsp;task_id=&lt;task_id&gt;!!discoiqbr!!delete&amp;nbsp;from&amp;nbsp;tb_task&amp;nbsp;where&amp;nbsp;id=&lt;task_id&gt; 
+    </codeblock></li> 
+  </ol> 
+ </body> 
+</html>

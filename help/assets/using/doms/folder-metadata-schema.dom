@@ -1,0 +1,150 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="Folder Metadata Schema" name="jcr:title" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2019-01-15T15:35:20.549-0500" name="jcr:created" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="1032" name="acrolinxWords" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2018-10-15T22:35:26.301-0400" name="publishExternalDate" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/assets/using/folder-metadata-schema.html" name="publishExternalURL" /> 
+  <meta content="asgupta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2019-01-12T17:37:42.489-0500" name="acrolinxDate" /> 
+  <meta content="96" name="acrolinxSentences" /> 
+  <meta content="asgupta" name="cq:lastReplicatedBy" /> 
+  <meta content="This article describes how to create metadata schema for asset folders in AEM Assets." name="jcr:description" /> 
+  <meta content="2018-10-15T22:35:26.301-0400" name="lastPublishExternalDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="8080d4dc-70c6-4a0e-bf63-df166534a05c" name="jcr:predecessors" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2018-10-15T22:35:26.674-0400" name="cq:lastReplicated" /> 
+  <meta content="95514c6a-d224-4361-9512-8404b28611c5" name="jcr:uuid" /> 
+  <meta content="2018-10-09T05:12:56.617-0400" name="locHandOffDate" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2018-10-15T22:35:26.306-0400" name="cq:lastModified" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="checked_improved" name="acrolinxStatus" /> 
+  <meta content="en" name="pageCreatedAt" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="green" name="acrolinxPageStatus" /> 
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/folder_metadata_schema_krs_workflow_f3c2f2ccebf6138e_226_report.xml" name="acrolinxReportURL" /> 
+  <meta content="asgupta" name="cq:lastModifiedBy" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="asgupta" name="acrolinxLastCheckedBy" /> 
+  <meta content="2018-10-03T15:25:59.040-0400" name="firstPublishExternalDate" /> 
+  <meta content="How to create metadata schema for asset folders in AEM Assets." name="seoDescription" /> 
+  <meta content="2018-10-15T22:35:26.301-0400" name="topicBrowsingSortDate" /> 
+ </head> 
+ <body> 
+  <p>Adobe Experience Manager (AEM) Assets lets you create metadata schemas for asset folders, which define the layout and metadata displayed in folder properties pages.</p> 
+  <h2>Add a folder metadata schema form</h2> 
+  <p>Use the Folder Metadata Schema Forms editor to create and edit metadata schemas for folders.</p> 
+  <ol> 
+   <li><p>Tap/click the AEM logo, and go to <span class="uicontrol">Tools</span> &amp;gt; <span class="uicontrol">Assets </span>&amp;gt; <span class="uicontrol">Folder Metadata Schemas</span>.</p> </li> 
+   <li><p>In the Folder Metadata Schema Forms page, tap/click <span class="uicontrol">Create</span>.</p> </li> 
+   <li><p>Specify a name for the form, and tap/click <span class="uicontrol">Create</span>. The new schema form is listed in the Schema Forms page.</p> </li> 
+  </ol> 
+  <h2>Edit folder metadata schema forms</h2> 
+  <p>You can edit a newly added or existing metadata schema form, which includes the following:</p> 
+  <ul> 
+   <li>Tabs</li> 
+   <li>Form items within tabs.</li> 
+  </ul> 
+  <p>You can map/configure these form items to a field within a metadata node in the CRX repository. You can add new tabs or form items to the metadata schema form.</p> 
+  <ol> 
+   <li><p>In the Schema Forms page, select the form you created, and then tap/click the <span class="uicontrol">Edit </span>icon from the toolbar.</p> </li> 
+   <li><p>In the Folder Metadata Schema Editor page, tap/click the <strong><span class="uicontrol">+</span></strong> icon to add a tab to the form. To rename the tab, tap/click the default name and specify the new name under <span class="uicontrol">Settings</span>.</p> <img imageRotate="0" src="assets/custom_tab.png" /><p>To add more tabs, tap/click the <strong><span class="uicontrol">+</span></strong> icon. Tap/click <span class="uicontrol">X</span> to delete a tab.</p> </li> 
+   <li><p>In the active tab, add one or more components from the <span class="uicontrol">Build Form</span> tab.</p> <img imageRotate="0" src="assets/adding_components.png" /><p>If you create multiple tabs, tap/click a particular tab to add components.</p> </li> 
+   <li><p>To configure a component, select it and modify its properties in the<strong> </strong><span class="uicontrol">Settings</span><strong> </strong>tab.</p> <p>If required, delete a component from the <span class="uicontrol">Settings</span> tab.<br /> </p> <img imageRotate="0" src="assets/configure_properties.png" /></li> 
+   <li><p>Tap/click <span class="uicontrol">Save</span> from the toolbar to save the changes.</p> </li> 
+  </ol> 
+  <h3>Components to build forms</h3> 
+  <p>The <span class="uicontrol">Build Form</span><strong> </strong>tab lists form items that you use in your folder metadata schema form. The <span class="uicontrol">Settings</span><strong> </strong>tab displays the attributes for each item that you select in the <span class="uicontrol">Build Form</span><strong> </strong>tab. Here is a list the form items available in the <span class="uicontrol">Build Form</span><strong> </strong>tab:</p> 
+  <table border="1" cellpadding="0" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td valign="top"><p><strong>Component Name</strong></p> </td> 
+     <td valign="top"><p><strong>Description</strong></p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top"><p>Section Header</p> </td> 
+     <td valign="top"><p> Add a section heading for a list of common components.</p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top"><p>Single Line Text</p> </td> 
+     <td valign="top"><p> Add a single-line text property. It is stored as a string.</p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top"><p>Multi Value Text</p> </td> 
+     <td valign="top"><p> Add a multi value text property. It is stored as a string array.</p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top"><p>Number</p> </td> 
+     <td valign="top"><p> Add a number component.</p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top"><p>Date</p> </td> 
+     <td valign="top"><p> Add a date component.</p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top"><p>Dropdown</p> </td> 
+     <td valign="top"><p> Add a drop-down list.</p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top"><p>Standard Tags</p> </td> 
+     <td valign="top"><p> Add a tag. </p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top"><p>Hidden Field</p> </td> 
+     <td valign="top"><p> Add a hidden field. It is sent as a POST parameter when the asset is saved.</p> </td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h3>Editing form items</h3> 
+  <p>To edit the properties of form items, tap/click the component and edit all or a subset of the following properties in the <span class="uicontrol">Settings</span> tab.</p> 
+  <p><span class="uicontrol">Field Label</span>:<strong> </strong>The name of the metadata property that is displayed on the properties page for the folder.</p> 
+  <p><span class="uicontrol">Map to Property</span>: This property specifies the relative path of the folder node in the CRX repository where it is saved. It starts with "<strong>./</strong>", which indicates that the path is under the folder's node.</p> 
+  <p>The following are the valid values for this property:</p> 
+  <ul> 
+   <li><span class="code">./jcr:content/metadata/dc:title</span>: Stores the value at the folder's metadata node as the property <span class="code">dc:title</span>.</li> 
+   <li><span class="code">./jcr:created</span>: Displays the JCR property at the folder's node. If you configure these properties in CRXDE, Adobe recommends that you mark them as Disable Edit, because they are protected. Otherwise, the error '<span class="code">Asset(s) failed to modify</span>' occurs when you save the asset's properties.</li> 
+  </ul> 
+  <p>To ensure that the component is displayed properly in the metadata schema form, do not include a space in the property path.</p> 
+  <p><span class="uicontrol">JSON Path</span>:<strong> </strong>Use it to specify the path of the JSON file where you specify key-value pairs for options.</p> 
+  <p><span class="uicontrol">Placeholder</span>: Use this property to specify relevant placeholder text regarding the metadata property.</p> 
+  <p><span class="uicontrol">Choices</span>: Use this property to specify choices in a list.</p> 
+  <p><span class="uicontrol">Description</span>: Use this property to add a short description for the metadata component.</p> 
+  <p><span class="uicontrol">Class</span>: Object class the property is associated with.</p> 
+  <h2>Delete folder metadata schema forms</h2> 
+  <p>You can delete folder metadata schema forms from the Folder Metadata Schema Forms page. To delete a form, select it and tap/click the Delete icon from the toolbar.</p> 
+  <img imageRotate="0" src="assets/delete_form.png" /> 
+  <h2>Assign a folder metadata schema</h2> 
+  <p>You can assign a folder metadata schema to a folder either from the Folder Metadata Schema Forms page or when creating a folder.</p> 
+  <p>If you configure a metadata schema for a folder, the path to the schema form is stored in the <span class="code">folderMetadataSchema</span> property of the folder node under .<em>/jcr:content</em>.</p> 
+  <h3>Assign to a schema from the Folder Metadata Schema page</h3> 
+  <ol> 
+   <li><p>Tap/click the AEM logo, and go to <span class="uicontrol">Tools</span> &amp;gt; <span class="uicontrol">Assets </span>&amp;gt; <span class="uicontrol">Folder Metadata Schemas</span>.</p> </li> 
+   <li><p>From the Folder Metadata Schema Forms page, select the schema form you want to apply to a folder.</p> </li> 
+   <li><p>From the toolbar, tap/click<strong> </strong><span class="uicontrol">Apply to Folder(s)</span>.<br /> </p> </li> 
+   <li><p>Select the folder on which to apply the schema and then click/tap <span class="uicontrol">Apply</span>. If a metadata schema is already applied on the folder, a warning message informs that you are about to overwrite the existing metadata schema. Tap/click <span class="uicontrol">Overwrite</span>.</p> </li> 
+   <li><p>Open the metadata properties for the folder to which you applied the metadata schema.</p> <img imageRotate="0" src="assets/folder_properties.png" /><p>To view the folder metadata fields, tap/click the <span class="uicontrol">Folder Metadata</span> tab. </p> <img imageRotate="0" src="assets/folder_metadata_properties.png" /></li> 
+  </ol> 
+  <h3>Assign a schema when creating a folder</h3> 
+  <p>You can assign a folder metadata schema when creating a folder. If at least one folder metadata schema exists in the system, an extra list is displayed in the <span class="uicontrol">Create Folder</span> dialog. You can select the desired schema. By default, no schema is selected.</p> 
+  <ol> 
+   <li><p>From the AEM Assets user interface, tap/click <span class="uicontrol">Create </span>from the toolbar.</p> </li> 
+   <li><p>Specify a title and name for the folder.</p> </li> 
+   <li><p>From the Folder Metadata Schema list, select the desired schema. Then, tap/click <span class="uicontrol">Create</span>.</p> <img imageRotate="0" src="assets/select_schema.png" /></li> 
+   <li><p>Open the metadata properties for the folder to which you applied the metadata schema.</p> </li> 
+   <li><p>To view the folder metadata fields, tap/click the <span class="uicontrol">Folder Metadata</span> tab. </p> </li> 
+  </ol> 
+  <h2>Use the folder metadata schema</h2> 
+  <p>Open the properties for a folder configured with a folder metadata schema. A <span class="uicontrol">Folder Metadata</span> tab is displayed in the folder properties page. To view the folder metadata schema form, select this tab.</p> 
+  <p>Enter metadata values in the various fields and tap/click <span class="uicontrol">Save </span>to store the values. The values you specify are stored in the folder node in the CRX repository.</p> 
+  <img imageRotate="0" src="assets/folder_metadata_properties-1.png" /> 
+ </body> 
+</html>

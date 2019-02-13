@@ -1,0 +1,70 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="26" name="acrolinxSentences" /> 
+  <meta content="2018-04-24T11:56:23.784-0400" name="locHandOffDate" /> 
+  <meta content="rbrough" name="cq:lastModifiedBy" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="Delivering Optimized Images for a Responsive Site" name="jcr:title" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="How to use the responsive code feature to deliver optimized images" name="seoDescription" /> 
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/responsive_site_krs_workflow_f3c2f2ccebf6138e_179_report.xml" name="acrolinxReportURL" /> 
+  <meta content="yellow" name="acrolinxPageStatus" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2019-01-10T16:22:48.379-0500" name="cq:lastReplicated" /> 
+  <meta content="2017-10-31T16:34:19.649-0400" name="firstPublishExternalDate" /> 
+  <meta content="2019-01-10T16:22:48.323-0500" name="publishExternalDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2018-03-14T09:01:10.771-0400" name="jcr:created" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="Delivering Optimized Images for a Responsive Site" name="seoTitle" /> 
+  <meta content="f6862121-8e73-44cf-a033-b6ca243d184d" name="jcr:uuid" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="2019-01-10T16:22:48.333-0500" name="cq:lastModified" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS;topic_tags:dynamic-media;content_type:reference" name="cq:tags" /> 
+  <meta content="/content/docs/en/aem/6-3/author/assets/dynamic-media/delivering-dynamic-media-assets/responsive-site" name="qaNotes" /> 
+  <meta content="checked_not_improved" name="acrolinxStatus" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="334" name="acrolinxWords" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2019-01-10T16:22:48.323-0500" name="lastPublishExternalDate" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/assets/using/responsive-site.html" name="publishExternalURL" /> 
+  <meta content="2019-01-10T16:22:48.323-0500" name="topicBrowsingSortDate" /> 
+  <meta content="rbrough" name="cq:lastReplicatedBy" /> 
+  <meta content="Rick Brough" name="contentOwner" /> 
+  <meta content="rbrough@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="Delivering Optimized Images for a Responsive Site" name="navTitle" /> 
+  <meta content="3b23625a-fc9c-4064-af05-3cec2a4b2eaf" name="jcr:predecessors" /> 
+  <meta content="/content/help/en/experience-manager/6-4/assets/morehelp/dynamic-media;/content/help/en/experience-manager/6-4/assets/morehelp/dynamic-media" name="moreHelpPaths" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS" name="primaryProductTag" /> 
+  <meta content="asgupta" name="acrolinxLastCheckedBy" /> 
+  <meta content="2019-01-12T17:34:11.691-0500" name="acrolinxDate" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="" name="jcr:primaryType" /> 
+ </head> 
+ <body> 
+  <p>Use the Responsive code feature when you want to share the code for responsive serving with your web developer. You copy the responsive (RESS) code to the clipboard so you can share it with the web developer.</p> 
+  <p>This feature makes sense to use if your website is on a third-party WCM. However, if your website is on AEM instead, an offsite image server renders the image and supplies it to the web page.</p>   
+  <p>See also <a href="../../assets/using/embed-code.md">Embedding the Video Viewer on a Web Page.</a></p> 
+  <p>See also <a href="../../assets/using/linking-urls-to-yourwebapplication.md">Linking URLs to your Web Application.</a></p> 
+  <p>To deliver optimized images for a responsive site:</p> 
+  <ol> 
+   <li><p>Navigate to the image you want supply responsive code for and in the drop-down menu, tap or click <strong>Renditions</strong>.</p> <img imageRotate="0" src="assets/chlimage_1-414.png" /></li> 
+   <li><p>Select a responsive image preset. The <strong>URL</strong> and <strong>RESS</strong> buttons appear. </p> <img imageRotate="0" src="assets/chlimage_1-415.png" /> 
+    <note> 
+     <p>The selected asset <em>and</em> the selected image preset or viewer preset must be published to make the <strong>URL</strong> or <strong>RESS</strong> buttons available.</p> 
+     <p>(Note that Dynamic Media - Hybrid mode requires you to publish image presets; Dynamic Media - Scene7 mode automatically publishes image presets.</p> 
+    </note></li> 
+   <li><p>Tap or click <strong>RESS</strong>. The responsive code displays.</p> <img imageRotate="0" src="assets/chlimage_1-416.png" /></li> 
+   <li><p>Select and copy the text and paste it in your web site to access the responsive asset.</p> </li> 
+   <li><p>Edit the default breakpoints in the embed code to match those of the responsive web site directly in the code. In addition, test the different image resolutions being served at different page breakpoints. </p> </li> 
+  </ol> 
+  <h3>Using HTTP/2 to delivery your Dynamic Media assets</h3> 
+  <p>HTTP/2 is the new, updated web protocol that improves the way browsers and servers communicate. It provides faster transfer of information and reduces the amount of processing power that is needed. Delivery of Dynamic Media assets is supported using HTTP/2 which provides better response and load times.</p> 
+  <p>See <a href="../../assets/using/http2.md">HTTP2 Delivery of Content</a> for complete details on getting started using HTTP/2 with your Dynamic Media account.</p>  
+ </body> 
+</html>

@@ -1,0 +1,132 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="cb1b1c3f-89a9-4972-813b-d595c1649ac1" name="jcr:uuid" /> 
+  <meta content="User" name="contentOwner" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="2018-01-19T19:04:23.864-0500" name="jcr:created" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/deploying/morehelp/best-practices;/content/help/en/experience-manager/6-4/sites/deploying/morehelp/best-practices" name="moreHelpPaths" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2018-04-03T08:39:41.188-0400" name="lastPublishExternalDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;content_type:reference;topic_tags:best-practices" name="cq:tags" /> 
+  <meta content="audience:deploying" name="primaryAudienceTag" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="Best Practices for Performance Testing" name="jcr:title" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2017-10-31T16:18:14.801-0400" name="firstPublishExternalDate" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="This article outlines the overall strategies and methodologies used for performance testing as well as some of the tools that are available to assist in the process." name="seoDescription" /> 
+  <meta content="dd4e224f-49ee-4a0e-958c-276c14aeb324" name="jcr:predecessors" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2018-04-30T03:26:39.981-0400" name="locHandOffDate" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2018-04-03T08:39:41.188-0400" name="publishExternalDate" /> 
+  <meta content="2018-04-30T03:26:39.981-0400" name="cq:lastModified" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="Best Practices for Performance Testing" name="navTitle" /> 
+  <meta content="Best Practices for Performance Testing" name="seoTitle" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="msm-service" name="cq:lastModifiedBy" /> 
+  <meta content="2018-04-03T08:39:41.188-0400" name="topicBrowsingSortDate" /> 
+  <meta content="2018-04-03T08:39:42.113-0400" name="cq:lastReplicated" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/best-practices-for-performance-testing.html" name="publishExternalURL" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="/content/docs/en/aem/6-3/deploy/best-practices/best-practices-for-performance-testing" name="qaNotes" /> 
+ </head> 
+ <body> 
+  <h2>Introduction</h2> 
+  <p>Performance testing is an important part of any AEM deployment. Depending on customer requirements, performance testing may be performed on the publish instances, author instances, or both.</p> 
+  <p>This documentation will outline overall strategies and methodologies of performing performance tests as well as some of the tools that are made available by Adobe to assist in the process. Finally, we will analyze some of the tools that are available in AEM 6 to assist with performance tuning, both from a code analysis and system configuration perspective.</p> 
+  <h3>Simulating Reality</h3> 
+  <p>What is most important when performing performance tests is making sure that you mimic a production environment as closely as possible. While this can often be difficult, it is imperative to ensure the accuracy of these tests. When working on designing performance tests, it is important to take the following points into consideration:</p> 
+  <ul> 
+   <li>Production-like content</li> 
+  </ul> 
+  <p>Many performance measurements in AEM, such as query response time, can be impacted by the size of the content on the system. It is important to make sure that the test environment has as close of a copy of the production data as possible.</p> 
+  <ul> 
+   <li>Production code</li> 
+  </ul> 
+  <p>The AEM version and hotfixes deployed in production should be the same in the test environment. It is also important to test on the version of the code that is deployed to production.</p> 
+  <ul> 
+   <li>Production-like hardware and network configuration</li> 
+  </ul> 
+  <p>The tests will be meaningless without an environment that resembles the production one as closely as possible. Ideally, the hardware specifications, network interfaces, load balancers and CDN should be identical to production in the test environment.</p> 
+  <ul> 
+   <li>Production load</li> 
+  </ul> 
+  <p>Many performance issues are not seen until the system is under heavy load. Good performance tests should simulate the load that the production systems will be under at their peak.</p> 
+  <h3>Setting Goals</h3> 
+  <p>Before starting on performance testing, it is necessary to set non functional requirements to specify load and response times. If you are migrating from an existing system, make sure that response time are similar to your current production values. For load, it is best to take the current peak load and double it. This will ensure that the website can continue to perform well as it grows.</p> 
+  <h3>Tools</h3> 
+  <p>There are many commercially available performance testing tools on the market. When running a load generating tool, it is important to ensure that the computers which are performing the tests have sufficient network bandwidth. Otherwise, once the test machine reaches the limits of its connection, no additional load will be generated on the environment under test.</p> 
+  <h4>Testing Tools</h4> 
+  <ul> 
+   <li>Adobe’s <strong>Tough Day</strong> tool can be used to generate load on AEM instances and collect performance data. Adobe’s AEM engineering team actually uses the tool to do load testing of the AEM product itself. The scripts executed in Tough Day are configured via property files and JMX XML files. For more information, see the <a href="../../../sites/developing/using/tough-day.md">Tough Day documentation</a>.</li> 
+   <li>AEM provides out of the box tools to quickly see problematic queries, requests and error messages. For more information, see the <a href="../../../sites/administering/using/operations-dashboard.md#main-pars-title-8">Diagnosis Tools</a> section of the Operations Dashboard documentation.</li> 
+   <li>Apache provides a product called <strong>JMeter</strong> that can be used for performance and load testing as well as functional behavior. It is open source software and free to use, but has a smaller feature set than enterprise products and a steeper learning curve. JMeter can be found on Apache’s website at <a href="http://jmeter.apache.org/">http://jmeter.apache.org/</a></li> 
+   <li><strong>Load Runner</strong> is an enterprise grade load testing product produced by HP. A free evaluation version is provided. More information can be found on HP’s website at <a href="http://www8.hp.com/us/en/software-solutions/loadrunner-load-testing/">http://www8.hp.com/us/en/software-solutions/loadrunner-load-testing/</a></li> 
+   <li>Cloud based load testing tools like <a href="https://www.neustar.biz/services/web-performance/load-testing">Neustar</a> can also be used.</li> 
+   <li>When it comes to testing mobile or responsive websites, a separate set of tools need to be used. They work by throttling network bandwidth, simulating slower mobile connections like 3G or EDGE. Among the more widely used tools are:<br /> 
+    <ul> 
+     <li><strong><a href="http://nshipster.com/network-link-conditioner/">Network Link Conditioner</a></strong> - it provides an easy to use UI and works at a fairly low level on the networking stack. It includes versions for OS X and iOS;<a href="http://nshipster.com/network-link-conditioner/"></a></li> 
+     <li><a href="http://www.charlesproxy.com/"><strong>Charles</strong></a> - a web debugging proxy application that in addition to several other uses, provides network throttling. Versions are provided for Windows, OS X and Linux.<a href="http://www.charlesproxy.com/"></a></li> 
+    </ul> </li> 
+  </ul> 
+  <h4>Optimization Tools</h4> 
+  <p><strong><u>Monitoring</u></strong></p> 
+  <p>The <a href="../../../sites/deploying/using/monitoring-and-maintaining.md#main-pars-title-3">Monitoring Performance</a> documentation is a good resource for tools and methods that can be used to diagnose issue and pinpoint areas for tuning.</p> 
+  <p><strong><u>Developer Mode in Touch UI</u></strong><br /> </p> 
+  <p>One of the new features in AEM 6’s touch UI is the Developer Mode. Just as authors can switch between edit and preview modes, developers can switch to developer mode in the author UI to see the render time for each of the components on the page and to see stack traces of any errors. For more information on developer mode, see this <a href="http://docs.adobe.com/content/ddc/en/gems/aem-6-0-developer-mode.html">CQ Gems presentation</a>.</p> 
+  <p><strong><u>Using the rlog.jar to read the request logs</u></strong></p> 
+  <p>For a more comprehensive analysis of the request logs on an AEM system, <span class="code">rlog.jar</span> can be used to search through and sort the <span class="code">request.log</span> files that AEM generates. This jar file is included with an AEM installation in the <span class="code">/crx-quickstart/opt/helpers</span> folder. For more information on rlog tool and the request log in general, see the <a href="../../../sites/deploying/using/monitoring-and-maintaining.md">Monitoring and Maintaining</a> documentation.</p> 
+  <p><strong><u>The Explain Query Tool</u></strong></p> 
+  <p>The <a href="../../../sites/administering/using/operations-dashboard.md#main-pars-title-1097830066">Explain Query tool</a> in ACS AEM Tools can be used to view the indexes that are used when running a query. This can be very useful when optimizing slow running queries.</p> 
+  <p><strong><u>PageSpeed Tools<br /> </u></strong></p> 
+  <p>Google’s PageSpeed tools offer site analysis for adherence to best practices for page performance as well as a plugin that can be installed alongside the dispatcher on an Apache instance for additional optimizations. For more information, see the <a href="https://developers.google.com/speed/pagespeed/">PageSpeed Tools Website</a>.</p> 
+  <p> </p> 
+  <h2>Author Environment</h2> 
+  <h3>Performing Tests</h3> 
+  <p>In order to conduct performance testing on the author environment it is necessary that you simulate the experience of porduction authors. This means that the author installations must contain all the components, OSGi bundles, UI customization, custom indexes and any other additions you have in place for the production author instances.<br /> </p> 
+  <p>There are many automation frameworks available that are designed for performance and load testing. Custom scripts can be recorded in these tools and then played back to simulate a peak number of authors performing similar content creation and activation activities simultaneously. It is recommended you use the Tough Day tool to simulate activities like uploading thousands of assets or activating large numbers of pages.</p> 
+  <p>For the types of environments that have requirements of heavy asset loading or page authoring it is imperative to use tools like Tough Day in order to ensure that the environment will operate efficiently under peak load. <a href="../../../sites/administering/using/webdav-access.md">WebDAV</a> is a tool that does not require scripting and can also be used to load large amounts of assets.<br /> </p> 
+  <h4>MongoDB Specific Steps</h4> 
+  <p>On systems with MongoDB backends, AEM provides several <a href="../../../sites/administering/using/jmx-console.md">JMX</a> MBeans that need to be monitored when performing load or performance tests:</p> 
+  <ul> 
+   <li>The <strong>Consolidated Cache Statistics</strong> MBean. It can be accessed directly by going to <i>http://server:port/system/console/jmx/org.apache.jackrabbit.oak%3Aid%3D6%2Cname%3D%22Consolidated+Cache+statistics%22%2Ctype%3D%22ConsolidatedCacheStats%22</i><br /> </li> 
+  </ul> 
+  <p>For the cache named <strong>Document-Diff</strong>, the hit rate should be over <span class="code">.90</span>. If the hit rate falls below 90%, it is likely that you will need to modify your <span class="code">DocumentNodeStoreService</span> configuration. Adobe product support can recommend optimal settings for your environment.</p> 
+  <ul> 
+   <li>The <strong>Oak Repository Statistics</strong> Mbean. It can be accessed directly by going to <i>http://server:port/system/console/jmx/org.apache.jackrabbit.oak%3Aid%3D16%2Cname%3D%22Oak+Repository+Statistics%22%2Ctype%3D%22RepositoryStats%22</i><br /> </li> 
+  </ul> 
+  <p>The <strong>ObservationQueueMaxLength</strong> section will show the number of events in Oak’s observation queue over the last hours, minutes, seconds and weeks. Find the largest number of events in the "per hour" section. This number needs to be compared to the <span class="code">oak.observation.queue-length</span> setting which can be found in the <strong>SlingRepositoryManager</strong> component in the <a href="../../../sites/deploying/using/configuring-web-console.md">OSGi console</a>. If the highest number shown for the observation queue exceeds the <span class="code">queue-length</span> setting, contact Adobe Support for assistance with raising the setting. The default setting is 1,000, but most deployments usually need to raise it to 20,000 or 50,000.</p> 
+  <h2>Publish Environment</h2> 
+  <h3>Performing Tests</h3> 
+  <p>The most important part of a deployment that needs to be subjected to load tests is the end user facing publish or dispatcher environment.</p> 
+  <p>Third party automated testing tools can be used to test the performance of the website. These tools will allow you to record steps that users will go through on the site and run many of these sessions at the same time to simulate the load that is typical of a production website.<br /> </p> 
+  <p>Most production websites have optimizations in place like dispatcher caching and a content delivery network in place. When testing, you need to make sure that these optimizations are available for the test environment as well. In addition to monitoring response times for the end users, you also need to monitor system metrics on the publish servers and dispatchers to ensure that the system is not constrained by hardware resources.</p> 
+  <p>On a system that does not require a high level of personalization, the dispatcher should cache most requests. As a result, the load on the publish instance should remain relatively flat. If a high level of personalization is required, it is recommended to use technologies such as iFrames or AJAX requests for the personalized content so as to allow as much dispatcher caching as possible.</p> 
+  <p>For basic tests, Apache Bench can be used to measure web server response times and help to create load for measuring things like memory leaks. For more see the example in the <a href="../../../sites/deploying/using/monitoring-and-maintaining.md#main-pars-title-7-ztphmx-refd">Monitoring documentation</a>.</p> 
+  <h2>Troubleshooting Performance Issues</h2> 
+  <p>After running performance tests on the author instance, any issues will need to be investigated, diagnosed and addressed. You can use several tools and techniques when performing analysis and addressing issues:</p> 
+  <ul> 
+   <li>You can inspect the <a href="../../../sites/administering/using/operations-dashboard.md#main-pars-title-10">Request Performance log</a> in the Operations Dashboard. This tool can be used to identify slow page requests</li> 
+   <li>Analyze slow running queries with the <a href="../../../sites/administering/using/operations-dashboard.md#main-pars-title-11">Query Performance tool</a><br /> </li> 
+   <li>Watch the error lof for errors or warnings. For more information, see <a href="../../../sites/deploying/using/configure-logging.md">Logging</a></li> 
+   <li>Monitor system hardware resources such as memory and CPU utilization, disk I/O or network I/O. These resources are often the causes of performance bottlenecks</li> 
+   <li>Optimize the architecture of the pages and how they are addressed to minimize the usage of URL parameters to allow for as much caching as possible</li> 
+   <li>Follow the <a href="../../../sites/deploying/using/configuring-performance.md">Performance Optimization</a> and <a href="/content/help/en/experience-manager/kb/performance-tuning-tips">Performance tuning tips</a> documentation</li> 
+   <li>If issues are present with editing certain pages or components on author instances, use the TouchUI Developer Mode to inspect the page in question. This will provide a breakdown of each content area on the page as well as its load time</li> 
+   <li>Minify all JS and CSS on the site. For more information on how to do this, see this <a href="https://blogs.adobe.com/foxes/enable-js-and-css-minification/">blog post</a>.</li> 
+   <li>Eliminate embedded CSS and JS from the components. They should be included and minified with the client-side libraries to minimize the number of requests required to render the page</li> 
+   <li>Use browser tools like Chrome’s Network tab to inspect the server requests and see which are taking the longest.</li> 
+  </ul> 
+  <p>Once problem areas are identified, application code can be inspected for performance optimizations. Any out of the box AEM features that are not performing properly can be addressed with Adobe Support.</p> 
+ </body> 
+</html>

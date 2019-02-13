@@ -1,0 +1,85 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/screens/using/embedded-sequences.html" name="publishExternalURL" /> 
+  <meta content="2018-01-10T17:06:16.171-0500" name="firstPublishExternalDate" /> 
+  <meta content="jsyal" name="cq:lastModifiedBy" /> 
+  <meta content="/content/help/en/experience-manager/6-4/screens/morehelp/authoring;/content/help/en/experience-manager/6-4/screens/morehelp/authoring" name="moreHelpPaths" /> 
+  <meta content="jsyal@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SCREENS" name="primaryProductTag" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="Embedded Sequences" name="jcr:title" /> 
+  <meta content="en" name="pageCreatedAt" /> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/SCREENS;topic_tags:authoring" name="cq:tags" /> 
+  <meta content="2019-01-22T17:06:21.453-0500" name="lastPublishExternalDate" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2019-01-22T17:06:21.526-0500" name="cq:lastReplicated" /> 
+  <meta content="2019-01-22T17:06:21.453-0500" name="topicBrowsingSortDate" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="5cad4f4c-65da-4fb9-9c29-6b19d0066f72" name="jcr:uuid" /> 
+  <meta content="2019-01-22T17:06:21.464-0500" name="cq:lastModified" /> 
+  <meta content="2019-01-15T15:39:04.519-0500" name="jcr:created" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="92e0e6f7-5ed0-4218-83b6-77329ed1b655" name="jcr:predecessors" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2019-01-22T17:06:21.453-0500" name="publishExternalDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="Follow this page to learn about embedded sequences for channels that allows the user to add components in the parent channel and also to re-use the content from a different channel and embed it into the parent channel." name="seoDescription" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="jsyal" name="cq:lastReplicatedBy" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2018-04-19T10:31:11.287-0400" name="locHandOffDate" /> 
+  <meta content="jsyal" name="contentOwner" /> 
+ </head> 
+ <body> 
+  <p>Using <strong><em>Embedded Sequences</em></strong>, for channels, allows the user to add components in the parent channel and also to re-use the content from a different channel and embed it into the parent channel.</p> 
+  <h2>Adding Embedded Sequences</h2> 
+  <p>You have the option of adding the following the following components to your sequence channel:</p> 
+  <ul> 
+   <li>Embedded Sequence</li> 
+   <li>Dynamic Embedded Sequence</li> 
+  </ul> 
+  <note> 
+   <p>To learn about using other components in your Screens project, see <a href="../../screens/using/adding-components-to-a-channel.md">Adding Components to a Channel</a>.</p> 
+  </note> 
+  <h3>Adding an Embedded Sequence</h3> 
+  <p>You can add an embedded sequence to your channel. An embedded sequence ia another channel that includes assets like images or videos. Adding an embedded sequence allows the user to add the sequence to a channel by <strong><em>Channel Path</em></strong>.</p> 
+  <note> 
+   <p><strong><em>Channel Path </em></strong>defines an explicit reference to the channel.</p> 
+   <p>To learn more about <em>Channel Path</em>, see <a href="../../screens/using/channel-assignment.md">Channel Assignment</a> in Authoring Screens.</p> 
+  </note> 
+  <p>Follow the steps below to add an embedded sequence to your channel:</p> 
+  <ol> 
+   <li>Select the channel where you want to embed a page. For example, <strong>We.Retail In-Store</strong> --&amp;gt; <strong>Channels</strong> --&amp;gt;<strong> Idle Channel</strong>.</li> 
+   <li>Click <strong>Edit</strong> from the action bar to open the channel in the editor mode.</li> 
+   <li>Click components icon from the left side bar to add the embedded page. Drag and drop the the <strong>Embedded Sequence</strong> to the editor.</li> 
+   <li>Double-click the <strong>Embedded Sequence</strong> component to add the channel to your original sequence channel.</li> 
+   <li>Select the <strong>Channel Path</strong> of the channel. </li> 
+   <li>Select the <strong>Duration (ms)</strong> for your embedded channel in the <strong>Sequence</strong> tab. By default, the duration is set to <strong>-1</strong>, that means embedded channel is fully run. If the user specifies a duration, then the subsequence will be interrupted (that is, cut-off) at the specified time.</li> 
+   <li>Set the <strong>Metered Playback Strategy</strong> to <strong>normal</strong>.</li> 
+  </ol> 
+  <p style="margin-left: 40px;">By default, it is set to <strong>normal</strong>. Setting the value to <strong>normal</strong><em> (Play all items)</em> means that the subsequence will run fully on each cycle of the parent sequence. The other possible value is <strong>Play a single item</strong><em> (Play a single item)</em> and that would only show one item of the subsequence on each run (for instance, the 1st item on the first loop, 2nd item on the second loop, and so on.)</p> 
+  <p>The following example shows the addition of an embedded sequence (<strong>Idle Channel - Night</strong>) to an already existing channel (<strong>Idle Channel</strong>).</p> 
+  <img imageRotate="0" src="assets/new2.gif" /> 
+  <h3>Adding a Dynamic Embedded Sequence</h3> 
+  <p>You can add a dynamic embedded sequence to your channel. A dynamic embedded sequence is similar to an embedded sequence but allows the user to follow a hierarchy where changes/updates made to one channel is propagated to other one in relation. It follows parent-child herarchy and also includes assets like images or videos. Adding a dynamic sequence allows the user to add a channel by channel role.</p> 
+  <note> 
+   <p><strong><em>Channel Role</em></strong> defines the Channel role defines the context of the display.</p> 
+   <p>To learn more about <em>Channel Role</em>, see <a href="../../screens/using/channel-assignment.md">Channel Assignment</a> in Authoring Screens.</p> 
+  </note> 
+  <p>Follow the steps below to add an embedded sequence to your channel:</p> 
+  <ol> 
+   <li>Select the channel where you want to embed a dynamic sequence. For example, <strong>We.Retail In-Store</strong> --&amp;gt; <strong>Channels</strong> --&amp;gt; <strong>Idle Channel</strong>.</li> 
+   <li>Click <strong>Edit</strong> from the action bar to open the channel in the editor mode.</li> 
+   <li>Click components icon from the left side bar to add the dynamic embedded sequence. Drag and drop the the <strong>Dynamic</strong> <strong>Embedded Sequence </strong>to the editor.</li> 
+   <li>Double-click the <strong>Dynamic</strong> <strong>Embedded Sequence </strong>component to add the page to your sequence channel. </li> 
+   <li>Enter the <strong>Channel Assignment Role</strong>. </li> 
+   <li>Set the <strong>Metered Playback Strategy</strong> to <strong>normal</strong>. By default, it is set to <strong>normal</strong>. Setting the value to <strong>normal</strong><em> (Play all items)</em> means that the subsequence will run fully on each cycle of the parent sequence. The other possible value is <strong>Play a single item</strong><em> (Play a single item)</em> and that would only show one item of the subsequence on each run (for instance, the 1st item on the first loop, 2nd item on the second loop, and so on.)</li> 
+   <li>Select the <strong>Duration (ms)</strong> in <strong>Sequence</strong> tab for your embedded channel in the sequence.</li> 
+  </ol> 
+  <img imageRotate="0" src="assets/latest.gif" /> 
+ </body> 
+</html>

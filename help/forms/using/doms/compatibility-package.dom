@@ -1,0 +1,91 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="Compatibility Package" name="seoTitle" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2018-11-12T06:58:42.910-0500" name="cq:lastModified" />
+  <meta content="17da05fa-5e0c-411a-a078-6850cf17504d" name="jcr:predecessors" />
+  <meta content="2018-04-17T08:17:28.358-0400" name="cq:lastReplicated" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2018-02-22T08:01:25.955-0500" name="jcr:created" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/compatibility-package.html" name="publishExternalURL" />
+  <meta content="Compatibility Package" name="jcr:title" />
+  <meta content="Compatibility Package" name="navTitle" />
+  <meta content="khsingh" name="cq:lastReplicatedBy" />
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/installing;/content/help/en/experience-manager/6-4/forms/morehelp/correspondence-management;/content/help/en/experience-manager/6-4/forms/morehelp/jee;/content/help/en/experience-manager/6-4/forms/morehelp/installing;/content/help/en/experience-manager/6-4/forms/morehelp/correspondence-management;/content/help/en/experience-manager/6-4/forms/morehelp/jee" name="moreHelpPaths" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2018-04-17T08:17:28.335-0400" name="firstPublishExternalDate" />
+  <meta content="khsingh@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="Installing the Compatibility package on AEM Forms 6.4 allows you to use the Correspondence Management assets from AEM Forms 6.3 and deprecated adaptive forms templates and pages " name="jcr:description" />
+  <meta content="gtalwar" name="contentOwner" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:installing;topic_tags:correspondence-management;geptopics:SG_AEMFORMS/categories/jee" name="cq:tags" />
+  <meta content="24f0bded-ba09-4b8a-9929-33050cfb7a6b" name="jcr:uuid" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="en" name="pageCreatedAt" />
+  <meta content="2018-04-17T08:17:28.335-0400" name="publishExternalDate" />
+  <meta content="2018-04-17T08:17:28.335-0400" name="topicBrowsingSortDate" />
+  <meta content="Installing the Compatibility package on AEM Forms 6.4 allows you to use the Correspondence Management assets from AEM Forms 6.3 and deprecated adaptive forms templates and pages" name="seoDescription" />
+  <meta content="2018-04-26T04:20:43.980-0400" name="locHandOffDate" />
+  <meta content="2018-04-17T08:17:28.335-0400" name="lastPublishExternalDate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="anujkapo" name="cq:lastModifiedBy" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+ </head>
+ <body>
+  <h2>Overview</h2>
+  <p>Interactive communication is the default and recommended approach to create customer communications in AEM Forms 6.4. To continue using the letters from AEM 6.3 Forms and AEM 6.2 Forms, you need to install the <a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/fd/AEM-FORMS-6.4-COMPAT" target="_blank">AEMFD Compatibility package</a>.</p> 
+  <p>The AEMFD Compatibility package allows you to use the following assets from AEM Forms 6.3 and 6.2 on AEM Forms 6.4:</p> 
+  <ul> 
+   <li>Document fragments created in AEM Forms 6.3 and 6.2</li> 
+   <li>Letters</li> 
+   <li>Data dictionaries</li> 
+   <li>Adaptive forms deprecated templates and pages</li> 
+  </ul> 
+  <p>For more information, see <a href="../../forms/using/compatibility-package.md#assetsmadecompatible" target="_blank">Assets made compatible with AEM Forms 6.4 by installing the Compatibility package</a>. </p> 
+  <h2>Add support for AEM Forms 6.3 and 6.2 assets in AEM Forms 6.4</h2>
+  <p>After performing an upgrade, do the following to install the AEMFD compatibility package and make your assets compatible with 6.4:</p> 
+  <p>Ensure that you have <a href="../../sites/deploying/using/backward-compatibility.md" target="_blank">AEM Compatibility package</a> pre-installed. </p> 
+  <ol>
+   <li><p>Install the <a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/fd/AEM-FORMS-6.4-COMPAT" target="_blank">Compatibility package</a>. </p> <p>For more information on uploading and installing the package, see <a href="../../sites/administering/using/package-manager.md" target="_blank">How to work with packages</a>.</p> </li>
+   <li><p>After the logs are stabilized, restart the server. </p> </li>
+   <li><p>Use the migration utility for making your assets compatible with 6.4. </p> <p>For more information, see <a href="../../forms/using/migration-utility.md" target="_blank">migration utility</a>. <br /> </p> </li>
+  </ol>
+  <h2 id="AssetsMadeCompatible">Assets made compatible with AEM Forms 6.4 by installing the Compatibility package</h2>
+  <div>
+   By installing the Compatibility package, you can make the following assets and templates compatible with AEM Forms 6.4: 
+  </div> 
+  <ul> 
+   <li>Correspondence Management Assets from AEM 6.3 and earlier
+    <ul> 
+     <li><a href="../../forms/using/create-letter.md" target="_blank">Letters</a></li> 
+     <li><a href="/forms/using/data-dictionary.html?cq_ck=1519292756160" target="_blank">Data Dictionaries</a></li> 
+     <li>Document Fragments</li> 
+    </ul> </li> 
+   <li>Adaptive form deprecated templates
+    <ul> 
+     <li>/libs/fd/af/templates/blankTemplate2</li> 
+     <li>/libs/fd/af/templates/simpleEnrollmentTemplate</li> 
+     <li>/libs/fd/af/templates/simpleEnrollmentTemplate2</li> 
+     <li>/libs/fd/af/templates/surveyTemplate</li> 
+     <li>/libs/fd/af/templates/surveyTemplate2</li> 
+     <li>/libs/fd/af/templates/tabbedEnrollmentTemplate</li> 
+     <li>/libs/fd/af/templates/tabbedEnrollmentTemplate2</li> 
+     <li>/libs/fd/afaddon/templates/advancedEnrollmentTemplate</li> 
+     <li>/libs/fd/afaddon/templates/advancedEnrollmentTemplate2</li> 
+    </ul> </li> 
+   <li>Adaptive forms deprecated pages:
+    <ul> 
+     <li>/libs/fd/af/components/page/survey</li> 
+     <li>/libs/fd/af/components/page/tabbedenrollment</li> 
+     <li>/libs/fd/afaddon/components/page/advancedenrollment </li> 
+    </ul> </li> 
+  </ul> 
+ </body>
+</html>

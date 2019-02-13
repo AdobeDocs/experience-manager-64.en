@@ -1,0 +1,63 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2017-12-01T19:01:11.713-0500" name="jcr:created" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="Learn more about Solutions Integration in AEM." name="seoDescription" />
+  <meta content="reference-adjustment-service" name="cq:lastModifiedBy" />
+  <meta content="/content/docs/en/aem/6-3/administer/integration" name="qaNotes" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-04-03T07:04:28.379-0400" name="topicBrowsingSortDate" />
+  <meta content="Guillaume Carlino" name="contentOwner" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="2018-04-03T07:04:28.637-0400" name="cq:lastReplicated" />
+  <meta content="2018-04-03T07:04:28.379-0400" name="lastPublishExternalDate" />
+  <meta content="15183447-5609-4161-b7f7-7ce586054099" name="jcr:predecessors" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="Solutions Integration" name="jcr:title" />
+  <meta content="audience:administering" name="primaryAudienceTag" />
+  <meta content="122f2a52-cae2-48f5-85da-ddcf468c96ff" name="jcr:uuid" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/integration.html" name="publishExternalURL" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2018-04-26T10:12:49.756-0400" name="cq:lastModified" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" />
+  <meta content="2018-04-03T07:04:28.379-0400" name="publishExternalDate" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:integration;content_type:reference" name="cq:tags" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Solutions Integration" name="seoTitle" />
+  <meta content="Solutions Integration" name="navTitle" />
+  <meta content="/content/help/en/experience-manager/6-4/sites/administering/morehelp/integration;/content/help/en/experience-manager/6-4/sites/administering/morehelp/integration" name="moreHelpPaths" />
+  <meta content="2017-10-31T16:24:51.601-0400" name="firstPublishExternalDate" />
+  <meta content="2018-04-26T10:12:49.755-0400" name="locHandOffDate" />
+  <meta content="true" name="jcr:isCheckedOut" />
+ </head>
+ <body>
+  <ul> 
+   <li><a href="../../../sites/administering/using/marketing-cloud.md">Integrating with the Adobe Marketing Cloud</a></li> 
+   <li><a href="../../../sites/administering/using/third-party-services.md">Integrating with Third-Party Services</a></li> 
+   <li><a href="../../../sites/administering/using/external-providers.md">Analytics with External Providers</a></li> 
+   <li><a href="/sites/administering/using/cq-as-portal">CQ Portals and Portlets</a></li> 
+   <li><a href="../../../sites/administering/using/catalog-producer.md">Catalog Producer</a></li> 
+   <li><a href="../../../sites/administering/using/configure-assets-cc-integration.md">Configuring AEM Assets integration with Marketing Cloud and Creative Cloud</a></li> 
+   <li><a href="/assets/using/aem-desktop-app">Adobe Experience Manager Desktop App</a></li> 
+   <li><a href="../../../sites/administering/using/sharepoint-connector.md">SharePoint Connector</a></li> 
+  </ul> 
+  <p>The following information is available about integrating AEM with other Adobe or third-party services:</p> 
+  <note>
+   <p>If you are using a custom proxy configuration together with your integration, you need to configure both HTTP Client proxy configurations as some functionalities of AEM are using the 3.x APIs and some others the 4.x APIs:</p> 
+   <ul> 
+    <li>3.x is configured with <a href="http://localhost:4502/system/console/configMgr/com.day.commons.httpclient">http://localhost:4502/system/console/configMgr/com.day.commons.httpclient</a></li> 
+    <li>4.x is configured with <a href="http://localhost:4502/system/console/configMgr/org.apache.http.proxyconfigurator">http://localhost:4502/system/console/configMgr/org.apache.http.proxyconfigurator</a></li> 
+   </ul> 
+  </note>
+ </body>
+</html>

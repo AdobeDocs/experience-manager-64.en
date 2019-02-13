@@ -1,0 +1,377 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES;topic_tags:administering;content_type:reference" name="cq:tags" /> 
+  <meta content="a6849ee3-f589-4460-baad-0d86ff3b70c2" name="jcr:predecessors" /> 
+  <meta content="mgulati" name="cq:lastReplicatedBy" /> 
+  <meta content="Janice Kendall" name="contentOwner" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES" name="primaryProductTag" /> 
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
+  <meta content="2018-11-19T08:17:29.252-0500" name="cq:lastModified" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="2018-11-14T04:57:37.424-0500" name="lastPublishExternalDate" /> 
+  <meta content="2018-02-21T08:01:18.289-0500" name="jcr:created" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="/content/docs/en/aem/6-3/administer/communities/consoles/sites" name="qaNotes" /> 
+  <meta content="mgulati@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="/content/help/en/experience-manager/6-4/communities/morehelp/administering;/content/help/en/experience-manager/6-4/communities/morehelp/administering" name="moreHelpPaths" /> 
+  <meta content="9e34d4aa-fb7b-4a4f-8efb-43a528549fca" name="jcr:uuid" /> 
+  <meta content="Communities Sites Console" name="navTitle" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="How to access the Communities Sites console" name="seoDescription" /> 
+  <meta content="mgulati" name="cq:lastModifiedBy" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2018-11-14T04:57:37.512-0500" name="cq:lastReplicated" /> 
+  <meta content="Communities Sites Console" name="jcr:title" /> 
+  <meta content="2018-11-19T08:17:29.251-0500" name="locHandOffDate" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/communities/using/sites-console.html" name="publishExternalURL" /> 
+  <meta content="2017-10-31T16:33:18.637-0400" name="firstPublishExternalDate" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="Communities Sites Console" name="seoTitle" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2018-11-14T04:57:37.424-0500" name="publishExternalDate" /> 
+  <meta content="2018-11-14T04:57:37.424-0500" name="topicBrowsingSortDate" /> 
+  <meta content="en_us" name="jcr:language" /> 
+ </head> 
+ <body> 
+  <p>The Communities Sites console provides access to</p> 
+  <ul> 
+   <li>site creation</li> 
+   <li>site editing</li> 
+   <li>site management</li> 
+   <li><a href="../../communities/using/groups.md">creating and editing nested groups</a> (sub-communities)</li> 
+  </ul> 
+  <p>See <a href="../../communities/using/getting-started.md">Getting Started with AEM Communities</a> to experience how quickly a community site can be created in the author environment, as well as how to create community groups from the author and publish environments.</p> 
+  <note> 
+   <p>The main Communities menus for the creation of <a href="../../communities/using/sites-console.md">community sites</a>, <a href="../../communities/using/sites.md">community site templates</a>, <a href="../../communities/using/tools-groups.md">community group templates</a> and <a href="../../communities/using/functions.md">community functions</a> are for use only in the author environment.</p> 
+  </note> 
+  <h2>Prerequisites</h2> 
+  <p>Before creating a community site, it is <i>required</i> to</p> 
+  <ul> 
+   <li>ensure one or more publish instances are running</li> 
+   <li>enable the <a href="../../communities/using/deploy-communities.md#tunnelserviceonauthor">tunnel service</a> to manage members and member groups</li> 
+   <li>identify the <a href="../../communities/using/deploy-communities.md#primarypublisher">primary publisher</a></li> 
+   <li><a href="../../communities/using/deploy-communities.md#replicationagentsonauthor">configure replication</a> when primary publisher port is not the default (4503)</li> 
+  </ul> 
+  <p>Best practice, to ensure the site is prepared to support many features, is to take the following steps :</p> 
+  <ul> 
+   <li>install the <a href="../../communities/using/deploy-communities.md#latestfeaturepack">latest feature pack</a></li> 
+   <li>enable <a href="../../communities/using/analytics.md">Adobe Analytics</a> for AEM Communities</li> 
+   <li>configure <a href="../../communities/using/email.md">email</a></li> 
+   <li>identify <a href="../../communities/using/users.md#creatingcommunitymembers">Community Administrators</a></li> 
+   <li><a href="../../communities/using/social-login.md#adobegraniteoauthauthenticationhandler">enable OAuth handler</a> for social login</li> 
+  </ul> 
+  <h2>Accessing Communities Sites Console</h2> 
+  <p>In the author environment, to reach the Communities Sites console</p> 
+  <ul> 
+   <li>from global navigation :<strong> Communities, Sites</strong></li> 
+  </ul> 
+  <p>The Communities Sites console displays any existing community sites. From this console, community sites may be created, edited, managed and deleted.</p> 
+  <p>To create a new community site, select the <strong>Create </strong>icon.</p> 
+  <p>To access an existing community site, for the purpose of authoring, modifying, publishing, exporting, or adding a nested group, select the site's folder icon.</p> 
+  <p>For example, the following image shows the main Communities Sites console displaying the folders for two community sites : <a href="../../communities/using/getting-started-enablement.md">enable</a> and <a href="../../communities/using/getting-started.md">engage</a> :</p> 
+  <img imageRotate="0" src="assets/chlimage_1-448.png" /> 
+  <h2>Site Creation</h2> 
+  <p>The site creation console provides a step-by-step approach to assemble features of the site based on a selected <a href="../../communities/using/sites.md">community site template</a> and settings.</p> 
+  <p>Every site created includes a login feature as site visitors are required to sign in before being able to post content, send messages, or participate in a group. Other included features are user profiles, messaging, notifications, site menu, search, theming, and branding.</p> 
+  <p>The process is launched by selecting the <span class="code">Create</span> button located at the top of the Communities Sites console.</p> 
+  <p>The creation process is a series of steps presented as panels containing a set of features to be configured (presented as sub-panels). It is possible to move forward to the <strong>Next </strong>step or <strong>Back </strong>to the previous step before committing the site in the final step.</p> 
+  <h3>Step 1 : Site Template</h3> 
+  <img imageRotate="0" src="assets/newsitetemplate.png" /> 
+  <p>On the Site Template panel, the Title, Description, Site Root, Base Language, Name and Site Template are specified:</p> 
+  <ul> 
+   <li><strong>Community Site Title </strong>: a display title for the site.<br /> The title appears on the published site as well as in the site admin UI.</li> 
+   <li><strong>Community Site Description </strong>: a description of the site.<br /> The description does not appear on the published site.</li> 
+   <li><strong>Community Site Root </strong>: the root path to the site.<br /> The default root is <span class="code">/content/sites</span>, but the root may be moved to any location within the web site.</li> 
+   <li><strong>Community Site Base Language</strong> : (leave untouched for single language : English) use the pull down menu to choose one <em>or more</em> base languages from the available languages- German, Italian, French, Japanese, Spanish, Portuguese (Brazil), Chinese (Traditional), and Chinese (Simplified). One community site will be created for each language added, and will exist within the same site folder following the best practice described in <a href="../../sites/administering/using/translation.md">Translating Content for Multilingual Sites</a>. The root page of each site will contain a child page named by the language code of one of the languages selected, such as 'en' for English or 'fr' for French.<br /> </li> 
+   <li><strong>Community Site Name </strong>: the name of the site's root page which appears in the URL 
+    <ul> 
+     <li>double-check the name as it is not easily changed after the site is created</li> 
+     <li>the base URL (<span class="code">http://<em>server:port/site root/site name</em>)</span> will be displayed underneath the <span class="code">Community Site Name</span></li> 
+     <li>for a valid URL, append a base language code + ".html"<br /> <em>for example</em>, <span class="code"> http://localhost:4502/content/sites/mysight/en.html</span></li> 
+    </ul> </li> 
+   <li><strong>Community Site Template</strong> menu: use the pull down menu to choose an available <a href="../../communities/using/tools.md">community site template</a>.</li> 
+  </ul> 
+  <p>Select <strong>Next</strong></p> 
+  <h3>Step 2 : Design</h3> 
+  <p>The Design panel contains 2 sub-panels for selecing the theme and branding banner :</p> 
+  <h4>COMMUNITY SITE THEME</h4> 
+  <img imageRotate="0" src="assets/sitetheme-1.png" /> 
+  <p>The framework uses <a href="http://twitterbootstrap.org/">Twitter Bootstrap</a> to bring a responsive, flexible design to the site. One of the many preloaded Bootstrap themes may be selected to style the selected community site template, or a Bootstrap theme may be uploaded.</p> 
+  <p>When selected, the theme will be overlayed with an opaque blue checkmark.</p> 
+  <p>After the community site is published, it is possible to <a href="#modifyingsiteproperties">edit the properties</a> and select a different theme.</p> 
+  <h4>COMMUNITY SITE BRANDING</h4> 
+  <img imageRotate="0" src="assets/chlimage_1-449.png" /> 
+  <p>Community site branding is an image displayed as a header across the top of each page. </p> 
+  <p>The image should be sized to be as wide as the expected display of the page in the browser and 120 pixels in height.</p> 
+  <p>When creating or selecting an image, keep in mind :</p> 
+  <ul> 
+   <li>the image height will be cropped to 120 pixels measured from the top edge of the image</li> 
+   <li>the image is pinned to the left edge of the browser window</li> 
+   <li>there is no resizing of the image, such that when the image width is... 
+    <ul> 
+     <li>less than the browser's width, the image will repeat horizontally</li> 
+     <li>greater than the browser's width, the image will appear to be cropped</li> 
+    </ul> </li> 
+  </ul> 
+  <p>Select <strong>Next</strong>.</p> 
+  <h3>Step 3 : Settings</h3> 
+  <p>The Settings panel contains several sub-panels presenting features to configure before moving to the last step to create the site.</p> 
+  <ul> 
+   <li><a href="#usermanagement">USER MANAGEMENT</a></li> 
+   <li><a href="#tagging">TAGGING</a></li> 
+   <li><a href="#roles">ROLES</a></li> 
+   <li><a href="#moderation">MODERATION</a></li> 
+   <li><a href="#analytics">ANALYTICS</a></li> 
+   <li><a href="#translation">TRANSLATION</a></li> 
+   <li><a href="#enablement">ENABLEMENT</a></li> 
+  </ul> 
+  <note> 
+   <p><strong>Enable Tunnel Service</strong></p> 
+   <p>Several of the Settings sub-panels allow assignment of a trusted member to moderate UGC, manage groups, or be contacts for enablement resources in the publish environment.</p> 
+   <p>The convention is for publish-side <a href="../../communities/using/users.md">users and user groups</a> (members and member groups) to not be duplicated in the author environment.</p> 
+   <p>Thus, when creating the community site in the author environment and assigning trusted members to various roles, it is necessary to retrieve member data from the publish environment.</p> 
+   <p>This is accomplished by enabling the <span class="code"><a href="../../communities/using/deploy-communities.md#tunnelserviceonauthor">AEM Communities Publish Tunnel Service</a> </span>for the author environment.</p> 
+  </note> 
+  <h4>USER MANAGEMENT</h4> 
+  <img imageRotate="0" src="assets/createsitesettings-1.png" /> 
+  <note> 
+   <p>It is recommended that <a href="../../communities/using/overview.md#enablementcommunity">enablement community sites</a> be private (contact your account representative for more information).</p> 
+   <p>A community site is private when anonymous site visitors are denied access, may not self-register, and may not use social login.</p> 
+  </note> 
+  <ul> 
+   <li><strong>Allow User Registration</strong><br /> If checked, site visitors may become community members by self-registration.<br /> If unchecked, the community site is <em>restricted</em> and site visitors must be assigned to the community site's members group, make a request or be sent an invitation by email. If unchecked, anonymous access should not be allowed.<br /> Uncheck for a <em>private </em>community site. Default is checked. </li> 
+   <li><strong>Allow Anonymous Access</strong><br /> If checked, the community site is <em>open </em>and any site visitor may access the site.<br /> If unchecked, only signed-in members may access the site.<br /> Uncheck for a <em>private </em>community site. Default is checked.</li> 
+   <li><strong>Allow Messaging</strong><br /> If checked, members may send messages to one another and to the group within the community site.<br /> If unchecked, messaging is not setup for the community.<br /> Default is unchecked.</li> 
+   <li><strong>Allow Social Logins: Facebook<br /> </strong>If checked, allow site visitors to sign in with their Facebook account credentials. The selected <a href="../../communities/using/social-login.md#createafacebookconnectcloudservice">Facebook cloud configuration</a> should be configured to add users to the community site's members group once the community site is created. <br /> If unchecked, no Facebook login is presented.<br /> Leave unchecked for a <em>private</em> community site. Default is unchecked.</li> 
+   <li><strong>Allow Social Logins: Twitter</strong><br /> If checked, allow site visitors to sign in with their Twitter account credentials. The selected <a href="../../communities/using/social-login.md#createatwitterconnectcloudservice">Twitter cloud configuration</a> should be configured to add users to the community site's members group once the community site is created.<br /> If unchecked, no Twitter login is presented.<br /> Leave unchecked for a <em>private</em> community site. Default is unchecked.<br /> </li> 
+  </ul> 
+  <note> 
+   <p><strong>Allowing Social Logins</strong></p> 
+   <p>While sample Facebook and Twitter configurations may exist and be selectable, for a <a href="../../sites/administering/using/production-ready.md">production environment</a>, it is necessary to create custom Facebook and Twitter applications. See <a href="../../communities/using/social-login.md">Social Login with Facebook and Twitter</a>.</p> 
+  </note> 
+  <h4>TAGGING</h4> 
+  <img imageRotate="0" src="assets/chlimage_1-450.png" /> 
+  <p>The tags which may be applied to community content are controlled by selecting Tag Namespaces previously defined through the <a href="../../sites/administering/using/tags.md#taggingconsole">Tagging Console</a>.</p> 
+  <p>In addition, selecting tag namespaces for the community site limits the selection presented when defining catalogs and resources. See <a href="../../communities/using/tag-resources.md">Tagging Enablement Resources</a> for important information.</p> 
+  <ul> 
+   <li>text search box : start typing to identify tags allowed to be used on the site</li> 
+  </ul> 
+  <h4>ROLES</h4> 
+  <img imageRotate="0" src="assets/chlimage_1-451.png" /> 
+  <p>The <a href="../../communities/using/users.md">roles of community members</a> are assigned with these settings.</p> 
+  <p>Finding community members is easy using type-ahead search. </p> 
+  <ul> 
+   <li><strong>Community Managers</strong><br /> Start typing to select one or more community members or member groups who may manager community members and member groups.</li> 
+   <li><strong>Community Moderators</strong><br /> Start typing to select one or more community members or member groups who are to be trusted as moderators of user generated content.</li> 
+   <li><strong>Community Privileged Members</strong><br /> Start typing to select one or more community members or member groups to be given the ability to create new content when <span class="code">Allow Privileged Member</span> has been selected for a <a href="../../communities/using/functions.md">community function</a>.</li> 
+  </ul>  
+  <h4>MODERATION</h4> 
+  <img imageRotate="0" src="assets/chlimage_1-452.png" /> 
+  <p>The global setting for moderating user generated content (UGC) is controlled by these settings. Individual components have additional settings to control moderation.</p> 
+  <ul> 
+   <li><strong>Content is Premoderated</strong><br /> If checked, posted community content will not appear until approved by a moderator. Default is unchecked. For more information, see <a href="../../communities/using/moderate-ugc.md#premoderation">Moderating Community Content</a>.</li> 
+   <li><strong>Flagging threshold before content is hidden</strong><br /> If greater than 0, the number of times a topic or post has to be flagged before it is hidden from public view. If set to -1, the flagged topic or post is never hidden from public view. Default is 5. </li> 
+  </ul> 
+  <h4>ANALYTICS</h4> 
+  <img imageRotate="0" src="assets/chlimage_1-453.png" /> 
+  <ul> 
+   <li><strong>Enable Analytics</strong><br /> Only available when Adobe Analytics has been <a href="../../communities/using/analytics.md">configured</a> for Communities features.<br /> Default is unchecked. When checked, an additional selection menu appears :</li> 
+  </ul> 
+  <img imageRotate="0" src="assets/chlimage_1-454.png" /> 
+  <ul> 
+   <li><strong>Cloud Config Framework Reference</strong><br /> From the pull-down menu, select the Analytics cloud service framework configured for this community site.<br /> <span class="code">Communities </span>is the framework example from <a href="../../communities/using/analytics.md#aemanalyticsframeworkconfiguration">Analytics Configuration for Communities Features</a> documentation.</li> 
+  </ul> 
+  <h4>TRANSLATION</h4> 
+  <img imageRotate="0" src="assets/chlimage_1-455.png" /> 
+  <ul> 
+   <li><strong>Allow Machine Translation</strong><br /> When checked (default is unchecked), machine translation is enabled for UGC within the site. This does not affect any other content, such as page content, even if the site is setup as a multilingual site. See <a href="../../communities/using/translate-ugc.md">Translating User Generated Content</a> for information on configuring a licensed translation service for AEM Communities. See <a href="../../sites/administering/using/translation.md">Translating Content for Multilingual Sites</a> for a complete overview.</li> 
+  </ul> 
+  <img imageRotate="0" src="assets/chlimage_1-456.png" /> 
+  <ul> 
+   <li><strong>Enable Machine Translation for selected languages</strong><br /> The languages enabled for machine translation default to the system setting specified by the <a href="../../communities/using/translate-ugc.md#translationintegrationconfiguration">translation integration configuration</a>. These default settings may be overridden for this site by deleting defaults and/or selecting other languages from the pull-down menu.</li> 
+   <li><strong>Choose translation provider</strong><br /> By default, the service provider is a trial service using <span class="code">microsoft </span>for demonstration only. If no translation service provider is licensed, <strong>Allow Machine Translation</strong> should be unchecked.</li> 
+   <li><strong>Choose global shared store</strong><br /> For a website with multiple language copies, a global shared store provides a single thread of conversation, visible from each langauge copy. This is achieved by selecting one of the languages included as a language copy. Default is <i>No Global Shared Store</i>.</li> 
+   <li><strong>Choose translation provider config</strong><br /> Choose a <a href="../../sites/administering/using/tc-tic.md">translation integration framework</a> created for the licensed translation provider.</li> 
+   <li><strong>Select the translation options for your community site</strong> 
+    <ul> 
+     <li><strong>Translate entire page</strong><br /> If selected, all UGC on a page is translated into the base language of the page.<br /> Default is <i>not selected</i>.</li> 
+     <li><strong>Translate selection only</strong><br /> If selected, a translate option appears next to each post allowing individual posts to be translated into the base language of the page.<br /> Default is <i>selected</i>.</li> 
+    </ul> </li> 
+   <li><strong>Select Persistence Options</strong> 
+    <ul> 
+     <li><strong>Translate contributions on user request and persist afterwards</strong><br /> If selected, content is not translated until a request is made. Once translated, the translation is stored in the repository.<br /> Default is <i>not selected</i>.</li> 
+     <li><strong>Don't persist translations</strong><br /> If selected, translations are not stored in the repository.<br /> If not selected, translations are persisted.<br /> Default is <i>not selected</i>.</li> 
+    </ul> </li> 
+   <li><strong>Smart Render</strong><br /> Select one of 
+    <ul> 
+     <li><span class="code">Always show contributions in the original language</span> (default)</li> 
+     <li><span class="code">Always show contributions in user preferred language</span></li> 
+     <li><span class="code">Show contributions in user preferred language for only logged-in users</span></li> 
+    </ul> </li> 
+  </ul> 
+  <h4>ENABLEMENT</h4> 
+  <img imageRotate="0" src="assets/chlimage_1-457.png" /> 
+  <p>The <span class="code">ENABLEMENT </span>settings are applicable when the chosen community site template includes the <a href="../../communities/using/functions.md#assignmentsfunction">assignments function</a>, which is available when the enablement features are licensed and <a href="../../communities/using/enablement.md">configured</a>. The reference site template that includes the assignments function is <span class="code">Reference Structured Learning Site Template.</span></p> 
+  <ul> 
+   <li><strong>Enablement Managers</strong><br /> (required) Only members of the <span class="code">Community Enablementmanagers</span> group are available to be selected to manage this enablement community. Enablement managers are responsible for assigning members to resources. See also <a href="../../communities/using/users.md">Managing Users and User Groups</a>.</li> 
+   <li><strong>Marketing Cloud Org Id</strong><br /> (optional) The ID for a <a href="../../communities/using/analytics.md#videoheartbeatanalytics">Video Heartbeat Analytics</a> license.</li> 
+  </ul> 
+  <p>Select <strong>Next</strong>.</p> 
+  <h3>Step 4 : Create Communities Site</h3> 
+  <p>If any adjustments are needed, use the <strong>Back </strong>button to make them.</p> 
+  <p>Once <strong>Create</strong> is selected and started, the process of creating the site cannot be interrupted.</p> 
+  <p>Once the site is created :</p> 
+  <ul> 
+   <li>changing the url (node name) is not supported</li> 
+   <li>future changes to the community site template will not affect the created community site</li> 
+   <li>disabling the community site template will not affect the created community site</li> 
+   <li>it is possible to edit the <a href="#modifystructure">STRUCTURE</a> of a community site by modifying its properties</li> 
+  </ul> 
+  <img imageRotate="0" src="assets/chlimage_1-458.png" /> 
+  <p>When the process completes, the folder for the new site is displayed in the Communities Sites console, from where authors may add page content or administrators may modify the properties of the site.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-459.png" /> 
+  <p>In order to modify a community site, select its project folder to open it :</p> 
+  <img imageRotate="0" src="assets/siteactions-2.png" /> 
+  <p>When hovering over a site with a mouse, or touching a site card, icons appear which allow for <a href="#authoringsitecontent">editing the site in author mode</a>, <a href="#modifyingsiteproperties">opening the site properties for modification</a>, <a href="#publishingthesite">publishing the site</a>, <a href="#exportingthesite">exporting the site</a>, and <a href="#deletingthesite">deleting the site</a>.</p>  
+  <h2>Authoring Site Content</h2> 
+  <img imageRotate="0" src="assets/chlimage_1-460.png" /> 
+  <p>The content of a site may be authored with the same tools as any other AEM website. To open the site for authoring, select the <span class="code">Open Site</span> iconm that appears on hovering the site with mouse. The site will open in a new tab such that the Communities Sites console remains accessible.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-461.png" /> 
+  <note> 
+   <p>If not familiar with AEM, view the documentation on <a href="../../sites/authoring/using/basic-handling.md">basic handling</a> and a <a href="../../sites/authoring/using/qg-page-authoring.md">quick guide to authoring pages</a>.</p> 
+  </note> 
+  <h2>Modifying Site Properties</h2> 
+  <img imageRotate="0" src="assets/chlimage_1-462.png" /> 
+  <p>The properties of an exisitng site, specified during the site creation process, can be modified by selecting the <span class="code">Edit Site </span>icon that appears on hovering the site with mouse.</p> 
+  <p><span>Details of the following properties match the descriptions provided in the </span><a href="#sitecreation">Site Creation</a> section.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-463.png" /> 
+  <h3>Modify Basic</h3> 
+  <p>The BASIC panel allows the modification of</p> 
+  <ul> 
+   <li>Community Site Title</li> 
+   <li>Community Site Description</li> 
+  </ul> 
+  <p>The Community Site Name may not be modified. </p> 
+  <p>Choosing a different community site template would have no affect on an existing community site as no connection remains between templates and sites.</p> 
+  <p>Instead, the <a href="#modifystructure">STRUCTURE</a> of the community site may be modified.</p> 
+  <h3>Modify Structure</h3> 
+  <p>The STRUCTURE panel allows the modification of the structure initially created from the selected community site template. From the panel, it is possible to</p> 
+  <ul> 
+   <li>drag-and-drop additional <a href="../../communities/using/functions.md">community functions</a> into the site structure</li> 
+   <li>on an instance of a community function in the site structure : 
+    <ul> 
+     <li><strong><span class="code">gear icon</span></strong><br /> edit settings, including the display title and URL name*<br /> as well as <a href="../../communities/using/users.md#privilegedmembersgroups" target="_blank">privileged members groups</a></li> 
+     <li><strong><span class="code">trashcan icon</span></strong><br /> remove (delete) functions from the site structure</li> 
+     <li><strong><span class="code">grid icon</span></strong><br /> modifiy the order of functions as displayed in the site's top level navigation bar</li> 
+    </ul> </li> 
+  </ul> 
+  <note> 
+   <p>You can change the order of all the functions in the Site Structure except for the function at the top. Therefore, the home page of communities site cannot be changed.</p> 
+  </note> 
+  <note> 
+   <p>* While the display title may be changed without side-effects, it is not recommended to edit the URL name of a community function belonging to a community site.</p> 
+   <p>For example, renaming the URL will not move existing UGC, thus having the effect of 'losing' UGC. </p> 
+  </note> 
+  <note> 
+   <p>The groups function must <i>not </i>be the <i>first nor the only</i> function in the site structure.</p> 
+   <p>Any other function, such as the <a href="../../communities/using/functions.md#pagefunction">page function</a>, must be included and listed first.</p> 
+  </note> 
+  <h4>Example : Adding a Catalog Function to a Community Site Structure</h4> 
+  <img imageRotate="0" src="assets/chlimage_1-464.png" /> 
+  <h3>Modify Design</h3> 
+  <p>The DESIGN panel allows a new theme to be applied :</p> 
+  <ul> 
+   <li><a href="#communitysitetheme">Community Site Theme</a></li> 
+   <li><a href="#communitysitebranding">Community Site Branding</a> 
+    <ul> 
+     <li>scroll to the bottom of the panel to change the brand image</li> 
+    </ul> </li> 
+  </ul> 
+  <h3>Modify Settings</h3> 
+  <p>The SETTINGS panel allows access to most of the settings under the sub-panels of for Step 3 of community site creation :</p> 
+  <ul> 
+   <li><a href="#usermanagement">User Management</a></li> 
+   <li><a href="#tagging">Tags</a></li> 
+   <li><a href="#moderation">Moderation</a></li> 
+   <li><a href="#roles">Member Roles</a></li> 
+   <li><a href="#analytics">Analytics</a></li> 
+   <li><a href="#translation">Translation</a></li> 
+  </ul> 
+  <h3>Modify Thumbnail</h3> 
+  <p>The THUMBNAIL panel allows for an image to be uploaded to represent the site in the Communities Sites console.</p> 
+  <h3>Modify Enablement</h3> 
+  <p>The ENABLEMENT panel allows access to the settings provided during community site creation. </p> 
+  <p>See the <a href="#enablement">ENABLEMENT</a> description.</p> 
+  <h2>Publishing the Site</h2> 
+  <p>After a community site has been newly created or modified, it is possible to publish (activate) the site by selecting the <span class="code">Publish Site</span> icon, that appears on mouse hover over the site.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-465.png" /> 
+  <p>There will be an indication after site is successfully published.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-466.png" /> 
+  <h3>Publishing with Nested Groups</h3> 
+  <p>After publishing a community site, it is necessary to individually publish each sub-community (nested group) created using the <a href="../../communities/using/groups.md">Groups console</a>.</p> 
+  <h2>Exporting the Site</h2> 
+  <img imageRotate="0" src="assets/chlimage_1-467.png" /> 
+  <p>Select the export icon, on mouse hover over the site, to create a package of the community site that is both stored in <a href="../../sites/administering/using/package-manager.md">package manager</a> and downloaded.<br /> Note that UGC is not included in the site package.</p> 
+  <h2>Deleting the Site</h2>   
+  <img imageRotate="0" src="assets/deleteicon-1.png" /> 
+  <p>To delete the community site, select the Delete Site icon that appears on hovering the mouse over the site in Communities Site Console. This action removes all the items associated with the site, such as UGC, user groups, assets and database records.</p> 
+  <h2>Created Community User Groups</h2> 
+  <p>Once the new community site is published, new member groups (user groups are created in the publish environment) which have the appropriate permissions set for various administrative and member roles.</p> 
+  <p>The name created for the member groups includes the <i>site-name</i> given the site in <a href="#step13asitetemplate">Step 1</a> (the name which appears in the URL) as well as an unique ID to avoid conflicts with community sites and groups having the same site-name for different community site roots.</p> 
+  <p>For example, if the name were "engage" for a site titled "Getting Started Tutorial", then the user group for moderators would be :</p> 
+  <ul> 
+   <li>title : Community Engage Moderators</li> 
+   <li>name : community-<i>engage-uid</i>-moderators</li> 
+  </ul> 
+  <p>Notice that any members assigned roles as moderators or group administrators while creating the site, will be assigned to the appropriate group as well as assigned to the members group. These groups and member assignments are created on publish when the new site is published.</p> 
+  <p>For details, see <a href="../../communities/using/users.md">Managing Users and User Groups</a>.</p> 
+  <note> 
+   <p>If <a href="#usermanagement">Allow Social Login: Facebook</a> is enabled, once the user group</p> 
+   <ul> 
+    <li>community-<i>&amp;lt;site-name&amp;gt;</i>-<i>&amp;lt;uid&amp;gt;</i>-members</li> 
+   </ul> 
+   <p>is created, the applied <a href="../../communities/using/social-login.md#createafacebookcloudservice">Facebook cloud service</a> should be configured to add users to this group.</p> 
+  </note> 
+  <h2>Configure for Authentication Error</h2> 
+  <p>By default, a community site will redirect to a sample login page when the user enters the wrong credentials and fails to login. This sample login will not be present on a <a href="../../sites/administering/using/production-ready.md">production server</a>.</p> 
+  <p>To correctly redirect, once a site has been configured and pushed to publish, complete these steps to get authentication failure to redirect to the community site :</p> 
+  <ul> 
+   <li>on each AEM publish instance</li> 
+   <li>first sign in with administrator privileges</li> 
+   <li>access the <a href="../../sites/deploying/using/configuring-osgi.md">Web Console</a> 
+    <ul> 
+     <li>for example, <a href="http://localhost:4503/system/console/configMgr">http://localhost:4503/system/console/configMgr</a></li> 
+    </ul> </li> 
+   <li>locate <span class="code">Adobe Granite Login Selector Authentication Handler</span></li> 
+   <li>select the <span class="code">pencil </span>icon to open the configuration for edit</li> 
+   <li>enter a<strong> Login Page Mappings</strong> as follows :<br /> /content/sites/<i>&amp;lt;site-name&amp;gt;</i>/path/to/login/page<strong>:</strong>/content/sites/<i>&amp;lt;site-name&amp;gt;</i><br /> for example:<br /> /content/sites/<i>engage</i>/en/signin:/content/sites/<i>engage</i>/en</li> 
+   <li>select <strong>Save</strong></li> 
+  </ul> 
+  <img imageRotate="0" src="assets/chlimage_1-468.png" /> 
+  <h4>Test Authentication Redirection</h4> 
+  <p>On the same AEM publish instance configured with a login page mapping for the community site :</p> 
+  <ul> 
+   <li>browse to the community site home page 
+    <ul> 
+     <li>for example, <a href="http://localhost:4503/content/sites/engage/en.html">http://localhost:4503/content/sites/engage/en.html</a></li> 
+    </ul> </li> 
+   <li>select Log Out</li> 
+   <li>select Log In</li> 
+   <li>enter obviously incorrect credentials, such as username "x" and password "x"</li> 
+   <li>the login page should be displayed with an "invalid login" error</li> 
+  </ul> 
+  <img imageRotate="0" src="assets/chlimage_1-469.png" /> 
+  <h2>Accessing Community Sites from Main Sites Console</h2> 
+  <p>From the global navigation Sites console, community sites are located in the <span class="code">Community Sites</span> folder.</p> 
+  <p>While it is possible to access a community site in this manner, for administrative tasks, the community site should be accessed from the Communities Sites console.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-470.png" /> 
+ </body> 
+</html>

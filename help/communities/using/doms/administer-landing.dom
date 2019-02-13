@@ -1,0 +1,125 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES;topic_tags:administering;content_type:reference" name="cq:tags" />
+  <meta content="/content/help/en/experience-manager/6-4/communities/morehelp/administering;/content/help/en/experience-manager/6-4/communities/morehelp/administering" name="moreHelpPaths" />
+  <meta content="Janice Kendall" name="contentOwner" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="2018-05-17T05:51:12.142-0400" name="locHandOffDate" />
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2018-04-03T07:30:04.667-0400" name="lastPublishExternalDate" />
+  <meta content="2017-10-31T16:34:01.847-0400" name="firstPublishExternalDate" />
+  <meta content="2018-05-17T05:51:12.142-0400" name="cq:lastModified" />
+  <meta content="2017-12-01T19:01:01.048-0500" name="jcr:created" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="4e0f6f1d-e0f6-430a-b4d8-fa72474bf81e" name="jcr:predecessors" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="Overview of the AEM Communities documentation" name="seoDescription" />
+  <meta content="/content/docs/en/aem/6-3/administer/communities" name="qaNotes" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-04-03T07:30:05.621-0400" name="cq:lastReplicated" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Communities Sites" name="navTitle" />
+  <meta content="2018-04-03T07:30:04.667-0400" name="publishExternalDate" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="adc8003a-ae77-45e1-98d9-1a098dca943c" name="jcr:uuid" />
+  <meta content="Communities Sites" name="seoTitle" />
+  <meta content="Communities Sites" name="jcr:title" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/communities/using/administer-landing.html" name="publishExternalURL" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES" name="primaryProductTag" />
+  <meta content="2018-04-03T07:30:04.667-0400" name="topicBrowsingSortDate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+ </head>
+ <body>
+  <p>This section is for those who administer AEM Communities and assumes familiarity with AEM Communities features.</p> 
+  <h2>Overview</h2>
+  <p>For an overview and getting started tutorials, visit :</p> 
+  <ul> 
+   <li><a href="../../communities/using/overview.md">AEM Communities Overview</a></li> 
+   <li><a href="../../communities/using/getting-started.md">Getting Started with AEM Communities</a></li> 
+   <li><a href="../../communities/using/getting-started-enablement.md">Getting Started with AEM Communities for Enablement</a></li> 
+  </ul> 
+  <h2>Administration and Configuration Topics</h2>
+  <h3>Communities Site Creation and Management</h3>
+  <ul> 
+   <li>Communities <a href="../../communities/using/consoles.md">consoles</a>
+    <ul> 
+     <li><i><a href="../../communities/using/sites-console.md">Sites</a></i>
+      <ul> 
+       <li><i><a href="../../communities/using/groups.md">Groups (sub-communities)</a></i></li> 
+      </ul> </li> 
+     <li><i><a href="../../communities/using/moderation.md">Moderation</a></i></li> 
+     <li><i><a href="../../communities/using/members.md">Members and Groups Management</a></i></li> 
+     <li><i><a href="../../communities/using/resources.md">Enablement Resources</a></i></li> 
+     <li><i><a href="../../communities/using/reports.md">Reports</a></i></li> 
+    </ul> </li> 
+   <li>Communities <a href="../../communities/using/tools.md"><i>tools</i></a> :
+    <ul> 
+     <li><i><a href="../../communities/using/sites.md">Site Templates</a></i></li> 
+     <li><i><a href="../../communities/using/tools-groups.md">Group Templates</a></i></li> 
+     <li><i><a href="../../communities/using/functions.md">Community Functions</a></i></li> 
+     <li><i><a href="../../communities/using/srp-config.md">Storage Configuration</a></i></li> 
+     <li><i><a href="../../communities/using/components-guide.md">Component Guide</a></i></li> 
+     <li><i><a href="../../communities/using/badges.md">Badges</a></i></li> 
+    </ul> </li> 
+  </ul> 
+  <h3>User Generated Content</h3>
+  <p>A major feature of AEM Communities is the generation of user generated content (UGC) by signed in site visitors (members). To learn more about working with UGC visit :</p> 
+  <ul> 
+   <li><a href="../../communities/using/working-with-srp.md">Common UGC Store</a> : choice of SRP for shared storage of UGC</li> 
+   <li><a href="../../communities/using/moderate-ugc.md">Moderating UGC</a> : trusted members may moderate UGC in bulk or in-context</li> 
+   <li><a href="../../communities/using/tag-ugc.md">Tagging UGC</a> : features may be configured to allow members to tag content</li> 
+   <li><a href="../../communities/using/translate-ugc.md">Translating UGC</a> : features may be configured to translate all UGC or allow members to translate selected posts</li> 
+   <li><a href="../../communities/using/analytics.md">Analytics Configuration</a> : enabling Adobe Analytics to report on various metrics regarding member activity</li> 
+  </ul> 
+  <h3>Community Members</h3>
+  <ul> 
+   <li><a href="../../communities/using/users.md">Managing Users and User Groups</a> : details of community members and member groups, including privileged members</li> 
+   <li><a href="../../communities/using/limits.md">Contribution Limits</a> : ability to constrain posting by new members</li> 
+   <li><a href="../../communities/using/deploy-communities.md#tunnelserviceonauthor">Tunnel Service</a> : allows publish-side members and member groups to be accessed from the author environment</li> 
+   <li><a href="../../communities/using/members.md">Members and Groups consoles</a> : allows publish-side members and member groups to be created and managed from the author environment</li> 
+   <li><a href="../../communities/using/sync.md">User Synchronization</a> : for synchronizing members and member groups across multiple publish instances</li> 
+   <li><a href="../../communities/using/social-login.md">Social Login with Facebook and Twitter</a> : ability for site visitors to become a community member using their Facebook or Twitter credentials</li> 
+   <li><a href="../../communities/using/implementing-scoring.md">Scoring and Badges</a> : ability for badges to be assigned to identify role(s) of a member and for members to earn badges through their participation in the community</li> 
+   <li><a href="../../communities/using/notifications.md">Notifications</a> : ability for members to be notified of activity they follow</li> 
+   <li><a href="../../communities/using/subscriptions.md">Subscriptions</a> : ability for members to interact with the community using external email</li> 
+   <li><a href="../../communities/using/messaging.md">Messaging</a> : ability for members to interact with the community using internal messages</li> 
+  </ul> 
+  <h3>Enablement Features</h3>
+  <ul> 
+   <li><a href="../../communities/using/enablement.md">Configuring Enablement</a> : necessary information to correctly setup the enablement features</li> 
+   <li><a href="../../communities/using/analytics.md">Analytics Configuration</a> : necessary information for enabling Adobe Analytics for Communities features</li> 
+   <li><a href="../../communities/using/tag-resources.md">Tagging Enablement Resources</a> : necessary for creating enablement catalogs</li> 
+  </ul> 
+  <h3>Deployment</h3>
+  <p>The deployment section contains information specific to AEM Communities.</p> 
+  <p>The nature of working with community content influences the structure of the deployment :</p> 
+  <ul> 
+   <li><a href="../../communities/using/topologies.md">Recommended Topologies for Communities</a></li> 
+  </ul> 
+  <p>It is important to install the most recent Communities release on the AEM platform :</p> 
+  <ul> 
+   <li><a href="../../communities/using/deploy-communities.md#latestfeaturepack">Latest Communities Feature Pack</a></li> 
+  </ul> 
+  <p>See the deployment page for other Communities specific information, such as for <a href="../../communities/using/upgrade.md">Upgrading</a>, <a href="../../communities/using/dispatcher.md">Dispatcher</a> and <a href="../../communities/using/deploy-communities.md#replicationagentsonauthor">Replication</a>.</p> 
+  <h2>Related Communities Documentation</h2>
+  <ul> 
+   <li>Visit <a href="../../communities/using/deploy-communities.md">Deploying Communities</a> to learn about recommended deployments.</li> 
+  </ul> 
+  <ul> 
+   <li>Visit <a href="../../communities/using/communities.md">Developing Communities</a> to learn about the social component framework (SCF) and customizing Communities components and features.</li> 
+  </ul> 
+  <ul> 
+   <li>Visit <a href="../../communities/using/author-communities.md">Authoring Communities Components</a> to learn how to author with and configure Communities components.</li> 
+  </ul> 
+ </body>
+</html>

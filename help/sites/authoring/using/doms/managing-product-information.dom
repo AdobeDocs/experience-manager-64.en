@@ -1,0 +1,265 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="Creative Project and PIM Integration" name="navTitle" /> 
+  <meta content="Guillaume Carlino" name="contentOwner" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="f52f7fb5-0036-4924-832e-a26fe8bc0c8d" name="jcr:uuid" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/managing-product-information.html" name="publishExternalURL" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="/etc/scaffolding" name="cq:scaffolding" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2017-10-31T16:20:09.828-0400" name="firstPublishExternalDate" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2018-10-28T00:30:44.216-0400" name="cq:lastModified" /> 
+  <meta content="/content/docs/en/aem/6-3/author/projects/managing-product-information" name="qaNotes" /> 
+  <meta content="Creative Project and PIM Integration" name="seoTitle" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="jsyal@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2018-04-19T10:33:23.759-0400" name="locHandOffDate" /> 
+  <meta content="jsyal" name="cq:lastReplicatedBy" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="2018-10-28T00:30:44.210-0400" name="topicBrowsingSortDate" /> 
+  <meta content="audience:authoring" name="primaryAudienceTag" /> 
+  <meta content="2018-10-28T00:30:44.252-0400" name="cq:lastReplicated" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:projects;content_type:reference" name="cq:tags" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="msm-service" name="cq:lastModifiedBy" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="2018-02-03T08:01:36.627-0500" name="jcr:created" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="Creative Project and PIM Integration" name="jcr:title" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="e269811e-f0f3-4715-907f-422ddb4c0686" name="jcr:predecessors" /> 
+  <meta content="2018-10-28T00:30:44.210-0400" name="publishExternalDate" /> 
+  <meta content="2018-10-28T00:30:44.210-0400" name="lastPublishExternalDate" /> 
+  <meta content="Creative Project streamlines the entire photo shoot workflow that including generating a photo shoot request, uploading a photo shoot, collaborating on a photo shoot, and packaging approved assets" name="seoDescription" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/authoring/morehelp/projects;/content/help/en/experience-manager/6-4/sites/authoring/morehelp/projects" name="moreHelpPaths" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+ </head> 
+ <body> 
+  <p>If you are a marketer or creative professional, you can use Creative Project tools in Adobe Experience Manager (AEM) to manage eCommerce-related product photography and associated creative processes within your organization.</p> 
+  <p>In particular, you can use Creative Project to streamline the following tasks in your photo shoot workflow:</p> 
+  <ul> 
+   <li>Generating a photo shoot request</li> 
+   <li>Uploading a photo shoot</li> 
+   <li>Collaborating on a photo shoot</li> 
+   <li>Packaging approved assets</li> 
+  </ul> 
+  <note> 
+   <p>See <a href="../../../sites/authoring/using/projects.md#userrolesinaproject">Project User Roles for information</a> on assigning user roles and workflows to certain types of users.</p> 
+  </note>  
+  <h3>Exploring Product Photo Shoot workflows </h3> 
+  <p>Creative Project provides various project templates to meet diverse project requirements. The <strong>Product Photo Shoot Project </strong>template is available out of the box. This template includes photo shoot workflows that let you initiate and manage product photo shoot requests. It also includes a series of tasks that enable you to obtain digital images for products through appropriate review and approval processes.</p> 
+  <p>The template includes the following workflows:</p> 
+  <ul> 
+   <li><strong>Product Photo Shoot (commerce integration) workflow</strong>: This workflow leverages commerce integration with the product information management (PIM) system to automatically generate a shot list for the selected products (hierarchy). You can view the product data as part of the asset metadata after the workflow is complete.</li> 
+   <li><strong>Product Photo Shoot workflow</strong>: This workflow lets you provide a shot list instead of depending on commerce integration. It maps the uploaded images to a CSV file in the project assets folder.</li> 
+  </ul> 
+  <note> 
+   <p>The CSV file that is uploaded in the Upload Shot list task of the Product Photo Shoot workflow should have the filename shotlist.csv.</p> 
+  </note> 
+  <h3>Create a Product Photo Shoot project</h3> 
+  <ol> 
+   <li><p>In the <strong>Projects</strong> console, tap/click <strong>Create</strong> and then choose <strong>Create Project</strong> from the list.</p> <img imageRotate="0" src="assets/chlimage_1-173.png" /></li> 
+   <li><p>In the <strong>Create Project</strong> page, select the photoshoot project template and tap/click <strong>Next</strong>.</p> <img imageRotate="0" src="assets/chlimage_1-174.png" /></li> 
+   <li><p>Enter project details, including title, description, and due date. Add users and assign various roles to them. You can also add a thumbnail for the project.</p> <img imageRotate="0" src="assets/chlimage_1-175.png" /></li> 
+   <li><p>Tap/click <strong>Create</strong>. A confirmation message notifies that the project is created.</p> </li> 
+   <li><p>Tap/click <strong>Done</strong> to return to the <strong>Projects</strong> console. Alternatively, tap/click <strong>Open</strong> to view the assets within the photoshoot project.</p> </li> 
+  </ol> 
+  <h3>Starting Work in a Product Photo Shoot Project</h3> 
+  <p>To initiate a photo shoot request, tap or click a project and then tap/click <strong>Add Work</strong> within the project details page to start a workflow.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-176.png" /> 
+  <p>A Product Photo Shoot project includes the following out-of-the-box workflows:</p> 
+  <ul> 
+   <li>Product Photo Shoot (Commerce Integration) Workflow</li> 
+   <li>Product Photo Shoot Workflow</li> 
+  </ul> 
+  <p>Use the Product Photo Shoot (Commerce Integration) workflow<strong> </strong>to map image assets with the products in AEM. This workflow leverages Commerce Integration to link the approved images to the existing product data at the location <i>/etc/commerce</i>.</p> 
+  <p>The Product Photo Shoot (Commerce Integration) workflow includes the following tasks:</p> 
+  <ul> 
+   <li>Create Shot list</li> 
+   <li>Upload Photo Shoot</li> 
+   <li>Retouch Photo Shoot</li> 
+   <li>Review and Approve</li> 
+   <li>Move to Production Task</li> 
+  </ul> 
+  <p>If product information isn’t available in AEM, use the Product Photo Shoot workflow<strong> </strong>to map image assets with the products based on the details you upload in a CSV file. The CSV file must contain basic product information, such as product ID, category, and description. The workflow fetches approved assets for the products.</p> 
+  <p>This workflow includes the following tasks:</p> 
+  <ul> 
+   <li>Upload Shot list</li> 
+   <li>Upload Photo Shoot</li> 
+   <li>Retouch Photo Shoot</li> 
+   <li>Review and Approve</li> 
+   <li>Move to Production Task</li> 
+  </ul> 
+  <p>You can customize this workflow using the workflow configurations option.</p> 
+  <p>Both workflows include steps to link products with their approved assets. Each workflow includes the following steps:</p> 
+  <ul> 
+   <li>Workflow Configuration: Describes the options to customize the workflow</li> 
+   <li>Starting a project workflow: Explains how to start a Product Photo Shoot</li> 
+   <li>Workflow Tasks Details: Provides details of tasks available in the workflow</li> 
+  </ul> 
+  <h3>Tracking Project Progress</h3> 
+  <p>You can track the progress of a project by monitoring the active/completed tasks within a project.</p> 
+  <p>Use the following to monitor the progress of a project:</p> 
+  <ul> 
+   <li><strong>Task card</strong><br /> </li> 
+   <li><strong>Task list</strong></li> 
+  </ul> 
+  <p>The Task card depicts the overall progress of the project. It appears on the Project Details page only if the project has any related tasks. The Task card displays the current completion status of the project based on the number of tasks completed. It does not include future tasks.</p> 
+  <p>The Task card provides the following details:</p> 
+  <ul> 
+   <li>Percentage of active tasks</li> 
+   <li>Percentage of completed tasks</li> 
+  </ul> 
+  <img imageRotate="0" src="assets/chlimage_1-177.png" /> 
+  <p>The Task list provides detailed information around the currently active workflow task for the project. To display the list, tap/click the Task card. The Task list also displays metadata such as start date, due date, assignee, priority, and status of the task.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-178.png" /> 
+  <h3>Workflow Configuration</h3>  
+  <p>This task involves assigning workflow steps to users based on their roles.</p> 
+  <p>To configure the <strong>Product Photo Shoot</strong> workflow:</p> 
+  <ol> 
+   <li><p>Navigate to <strong>Tools</strong> &amp;gt; <strong>Workflows</strong>, and then tap the <strong>Models</strong> tile to open the <strong>Workflow Models</strong> page.</p> </li> 
+   <li><p>Select the <strong>Product Photo Shoot</strong> workflow, and the tap the <strong>Edit</strong> icon from the toolbar to open it in edit mode.</p> <img imageRotate="0" src="assets/chlimage_1-179.png" /></li> 
+   <li><p>In the <strong>Product Photo Shoot Workflow</strong> page, open a project task. For example, open the <strong>Upload Shot List</strong> task.</p> <img imageRotate="0" src="assets/chlimage_1-180.png" /></li> 
+   <li><p>Click the <strong>Task</strong> tab to configure the following:</p> 
+    <ul> 
+     <li>Name of the task</li> 
+     <li>Default user (role) that receives the task</li> 
+     <li>Default priority of the task, which is displayed in the task list of the user</li> 
+     <li>Task description to be displayed when the assignee opens the task</li> 
+     <li>Due date for a task, which is calculated based on the time the task started</li> 
+    </ul> </li> 
+   <li><p>Click <strong>OK</strong> to save the configuration settings.</p> <p>Similarly, you can configure the following tasks for the <strong>Product Photo Shoot</strong> workflow:</p> 
+    <ul> 
+     <li>Upload Photo Shoot</li> 
+     <li>Retouch Product Photo Shoot</li> 
+     <li>Photo Shoot Review</li> 
+     <li>Move to Production</li> 
+    </ul> <p>Perform a similar procedure to configure the tasks in the <strong>Product Photo Shoot (Commerce Integration) workflow</strong>.<strong></strong></p> </li> 
+  </ol> 
+  <h2></h2> 
+  <p>This section describes how to integrate product information management with your creative project.</p> 
+  <h3>Starting a Project Workflow</h3> 
+  <ol> 
+   <li><p>Navigate to a Product Photo Shoot project, and tap/click the <strong>Add Work</strong> icon on the <strong>Workflows</strong> card.</p> </li> 
+   <li><p>Select the <strong>Product Photo Shoot (Commerce Integration)</strong> workflow card to start the Product Photo Shoot (Commerce Integration) workflow. If the product information isn't available under /etc/commerce, select the <strong>Product Photo Shoot</strong> workflow and start the Product Photo Shoot workflow.</p> <img imageRotate="0" src="assets/chlimage_1-181.png" /></li> 
+   <li><p>Tap/click <strong>Next</strong> to initiate the workflow in the project.</p> </li> 
+   <li><p>Enter workflow details on the next page.</p> <img imageRotate="0" src="assets/chlimage_1-182.png" /><p>Click <strong>Submit</strong> to start the photo shoot workflow. The project details page for the photo shoot project is displayed.</p> <img imageRotate="0" src="assets/chlimage_1-183.png" /></li> 
+  </ol> 
+  <h3>Workflow Tasks Details</h3> 
+  <p>The photo shoot workflow includes several tasks. Each task is assigned to a user group based on the configuration defined for the task.</p> 
+  <h4>Create Shot List Task</h4> 
+  <p>The <strong>Create Shot List </strong>task enables the project owner to select products for which images are required. Based on the option selected by the user, a CSV file is generated that contains basic product information.</p> 
+  <ol> 
+   <li><p>In the project folder, tap/click the ellipses in the <a href="#tracktheprogress">Tasks Card</a> to view the task item in the workflow.</p> <img imageRotate="0" src="assets/chlimage_1-184.png" /></li> 
+   <li><p>Select the <strong>Create Shot List</strong> task, and then tap/click the <strong>Open</strong> icon from the toolbar.</p> <img imageRotate="0" src="assets/chlimage_1-185.png" /></li> 
+   <li><p>Review the task details and then tap/click the <strong>Create Shot List</strong> button.</p> <img imageRotate="0" src="assets/chlimage_1-186.png" /></li> 
+   <li><p>Select products for which product data exists without associated images.</p> <img imageRotate="0" src="assets/chlimage_1-187.png" /></li> 
+   <li><p>Tap/click the <strong>Add To Shotlist</strong> icon to create a CSV file that contains a list of all such products. A message confirms that the shot list is created for the selected products. Click <strong>Close</strong> to complete the workflow.</p> </li> 
+   <li><p>After you create a shot list, the <strong>View Shot List</strong> link appears. To add more products to the shot list, tap/click <strong>Add to Shot List</strong>. In this case, the data gets appended to the initially created shot list.<br /> </p> <img imageRotate="0" src="assets/chlimage_1-188.png" /></li> 
+   <li><p>Tap/click <strong>View Shot List</strong> to view the new shot list.</p> <img imageRotate="0" src="assets/chlimage_1-189.png" /> <p>To edit the existing data or add new data, tap/click <strong>Edit</strong> from the toolbar. Only the <strong>Product </strong>and <strong>Description</strong> fields<strong> </strong>are editable.</p> <img imageRotate="0" src="assets/chlimage_1-190.png" /><p>After you update the file, tap/click <strong>Save</strong> on toolbar to save the file.</p> </li> 
+   <li><p>After adding the products, tap/click the <strong>Complete</strong> icon on the <strong>Create Shot List </strong>task details page to mark the task as completed. You can add an optional comment.</p> <p>The completion of the task introduces the following changes within the project:</p> 
+    <ul> 
+     <li>Assets corresponding to the product hierarchy are created in a folder with the same name as the workflow title.</li> 
+     <li>The metadata for the assets becomes editable using the Assets console, even before the photographer provides the images.</li> 
+     <li>A Photo Shoot folder is created that stores the images the photographer provides. The Photo Shoot folder contains subfolders for each product entry in the Shot List.</li> 
+    </ul> <p>For the Product Photo Shoot (without commerce integration) workflow, Upload Shot List is the first task. Tap/click <strong>Upload Shot List </strong>to upload a <strong>shotlist.csv </strong>file. The CSV file should contain the product ID. The other fields are optional. You can use them to map assets to products.</p> </li> 
+  </ol> 
+  <h4>Upload Shot List Task</h4> 
+  <p>This task is part of the Product Photo Shoot workflow. You perform this task if product information isn’t available in AEM. In this case, you upload a list of products in a CSV file for which image assets are required. Based on the details in the CSV file, you map image assets with the products. </p> 
+  <p>Use the <strong>View Shot List</strong> link under the project card in the previous procedure to download a sample CSV file. Review the sample file to know the usual contents of a CSV file.</p> 
+  <p>The product list or the CSV file can contain fields, such as <strong>Category, Product, Id, Description</strong>, and <strong>Path</strong>. The <strong>Id</strong> field is mandatory and contains the product ID<strong>. </strong>The other fields are optional.</p> 
+  <p>A product can belong to a particular category. The product category can be listed in the CSV below the <strong>Category </strong>column. The <strong>Product </strong>field contains the name of the product. In the <strong>Description </strong>field, enter the product description or instructions for the photographer.</p>  
+  <note> 
+   <p>The name of images to be uploaded should start with "<strong>&amp;lt;ProductId&amp;gt;_"</strong> where Product ID is referenced from the <strong>Id</strong> field in the <i>shotlist.csv</i> file. For example, for a product in the shot list with <strong>Id</strong> <strong>397122</strong>, you can upload files with names<strong> 397122_highcontrast.jpg</strong>, <strong>397122_lowlight.png</strong>, and so on.</p> 
+  </note> 
+  <ol> 
+   <li><p>In the project folder, tap/click the ellipses in the <a href="#tracktheprogress">Tasks Card</a> to view the list of tasks in the workflow.</p> </li> 
+   <li><p>Select the <strong>Upload Shot List</strong> task, and then tap/click the <strong>Open</strong> icon from the toolbar.</p> <img imageRotate="0" src="assets/chlimage_1-191.png" /></li> 
+   <li><p>Review the task details and then tap/click the <strong>Upload Shot List</strong> button.</p> <img imageRotate="0" src="assets/chlimage_1-192.png" /></li> 
+   <li><p>Tap/click the <strong>Upload Shot List</strong> button to upload the CSV file with filename shotlist.csv. The workflow recognizes this file as a source to be used to extract product data for the next task.</p> </li> 
+   <li><p>Upload a CSV file containing product information in the appropriate format. The <strong>View Uploaded Assets </strong>link appears under the card after the CSV file is uploaded.</p> <img imageRotate="0" src="assets/chlimage_1-193.png" /><p>Click the <strong>Complete</strong> icon to complete the task.</p> </li> 
+   <li><p>Tap/click the <strong>Complete</strong> icon to complete the task.</p> </li> 
+  </ol> 
+  <h4>Upload Photo Shoot Task</h4> 
+  <p>If you are an Editor, you can upload shots for the products listed in the <strong>shotlist.csv </strong>file that is created or uploaded in the previous task.</p> 
+  <p>The name of images to be uploaded should begin with "<strong>&amp;lt;productId&amp;gt;_" </strong>where Product ID is referenced from the <strong>Id </strong>field in the <i>shotlist.csv</i> file. For example, for a product with <strong>ID 397122 </strong>in the shot list, you can upload files with names <strong>397122_highcontrast.jpg</strong>,<strong> 397122_lowlight.png</strong>, and so on.</p> 
+  <p>You can either upload the images directly or upload a ZIP file that contains the images. Based on their names, the images are placed inside respective product folders within the <strong>Photo Shoot </strong>folder.</p> 
+  <ol> 
+   <li><p>Under the project folder, tap/click the ellipses in the <a href="#trackingprojectprogress">Task Card</a> to view the task item in the workflow.</p> </li> 
+   <li><p>Select the <strong>Upload Photo Shoot</strong> task, and then tap/click the <strong>Open</strong> icon from the toolbar.</p> <img imageRotate="0" src="assets/chlimage_1-194.png" /></li> 
+   <li><p>Tap/click <strong>Upload Photo Shoot </strong>and upload the photo shoot images.</p> </li> 
+   <li><p>Tap/click the <strong>Complete</strong> icon from the toolbar to complete the task.</p> </li> 
+  </ol> 
+  <h4>Retouch Photo Shoot Task</h4> 
+  <p>If you have editing rights, perform the Retouch Photo Shoot task to edit the images uploaded to the Photo Shoot folder.</p> 
+  <ol> 
+   <li><p>Under the project folder, tap/click the ellipses in the <a href="#trackingprojectprogress">Task Card</a> to view the task item in the workflow.</p> </li> 
+   <li><p>Select the <strong>Retouch Photo Shoot</strong> task, and then tap/click the <strong>Open</strong> icon from the toolbar.</p> <img imageRotate="0" src="assets/chlimage_1-195.png" /></li> 
+   <li><p>Tap/click the <strong>View Uploaded Assets</strong> link in the <strong>Retouch Photo Shoot</strong> page to browse the uploaded images.<br /> </p> <img imageRotate="0" src="assets/chlimage_1-196.png" /><p>If necessary, edit the images using an Adobe Creative Cloud application.</p> <img imageRotate="0" src="assets/chlimage_1-197.png" /></li> 
+   <li><p>Tap/click the <strong>Complete</strong> icon from the toolbar to complete the task.</p> </li> 
+  </ol> 
+  <h4>Review and Approve Task</h4> 
+  <p>In this task, you review the photo shoot images uploaded by a photographer and mark images as approved for use.</p> 
+  <ol> 
+   <li><p>Under the project folder, tap/click the ellipses in the <a href="#trackingprojectprogress">Task Card</a> to view the task item in the workflow.</p> </li> 
+   <li><p>Select the <strong>Review &amp; Approve</strong> task, and then tap/click the <strong>Open</strong> icon from the toolbar.</p> <img imageRotate="0" src="assets/chlimage_1-198.png" /></li> 
+   <li><p>In the <strong>Review &amp; Approve</strong> page, assign the review task to role, for example Reviewers, and then tap/click <strong>Review </strong>to start reviewing the uploaded product images.</p> <img imageRotate="0" src="assets/chlimage_1-199.png" /></li> 
+   <li><p>Select a product image, and tap/click the Approve icon from the toolbar to mark it as approved.</p> <img imageRotate="0" src="assets/chlimage_1-200.png" /><p>Once you approve an image, an approved banner displays over it.</p> 
+    <note> 
+     <p>You may leave out some products without any image. Later, you can revisit the task and mark it complete once done.</p> 
+    </note></li> 
+   <li><p>Tap/click <strong>Complete</strong>. The approved images are linked with the empty assets that were created.</p> </li> 
+  </ol> 
+  <p>You can navigate to project assets using the Assets UI and verify the approved images.</p> 
+  <p>Tap/click the next level to view products as per your product data hierarchy.</p> 
+  <p>Creative Project associates approved assets with the referenced product. The asset metadata is updated with the product reference and basic information in the <strong>Product Data </strong>tab under asset properties they appear in the AEM Asset Metadata section.</p> 
+  <note> 
+   <p>In the Product Photo Shoot workflow (without commerce integration), the approved images have no association with products.</p> 
+  </note> 
+  <h4>Move to Production Task</h4> 
+  <p>This task moves the approved assets to the production-ready folder to make them available for use. </p> 
+  <ol> 
+   <li><p>Under the project folder, tap/click the ellipses in the <a href="#trackingprojectprogress">Task Card</a> to view the task item in the workflow.</p> </li> 
+   <li><p>Select the <strong>Move to Production</strong> task, and then tap/click the <strong>Open</strong> icon from the toolbar.</p> <img imageRotate="0" src="assets/chlimage_1-201.png" /></li> 
+   <li><p>To view the approved assets for the photo shoot prior to moving them to production ready folder, click the <strong>View Approved Assets </strong>link below the project thumbnail on the <strong>Move to Production</strong> task page.</p> <img imageRotate="0" src="assets/chlimage_1-202.png" /></li> 
+   <li><p>Enter the path of the production-ready folder in the <strong>Move To</strong> field.</p> <img imageRotate="0" src="assets/chlimage_1-203.png" /><p>Tap/click <strong>Move to Production</strong>.<strong> </strong>Close the confirmation message. The assets are moved to the mentioned path and a spin set is authomatically created for the approved assets for each product based on the folder hierarchy.</p> </li> 
+   <li><p>Tap/click the <strong>Complete</strong> icon from the toolbar. The workflow completes as the last step is marked complete.</p> </li> 
+  </ol> 
+  <h3>Viewing DAM Asset Metadata</h3> 
+  <p>After you approve, the assets are linked to the corresponding products. The <a href="../../../assets/using/managing-assets-touch-ui.md#editingproperties">Properties Page</a> of the approved assets now has an additional <strong>Product Data </strong>(linked product information) tab. This tab displays the product details, SKU number, and other product-related details linking the asset. Tap/click the <strong>Edit</strong> icon to update an asset property. The product-related information remains read-only.</p> 
+  <p>Tap/click the link that appears to navigate to the respective product detail page in the product console with which asset is associated.</p> 
+  <h3>Customizing the Project Photo Shoot Workflows</h3> 
+  <p>You can customize the Project Photo Shoot workflows based on requirements. This is an optional, role-based task that you perform to set the value of a variable within the project. Later, you can then use the configured value to arrive at a decision.</p> 
+  <ol> 
+   <li><p>Click/tap the AEM logo, and then navigate to <strong>Tools</strong> &amp;gt; <strong>Workflow</strong> &amp;gt; <strong>Models</strong> to open the Workflow Models page.</p> </li> 
+   <li><p>Select the <strong>Product Photo Shoot (Commerce Integration) </strong>workflow or the <strong>Product Photo Shoot </strong>workflow and the click/tap <strong>Edit</strong> from the toolbar to open the workflow in edit mode.</p> </li> 
+   <li><p>Open the <strong>Projects</strong> tasks in the side kick, and drag the <strong>Create Role Based Project Task</strong> step to the workflow.</p> <img imageRotate="0" src="assets/chlimage_1-204.png" /></li> 
+   <li><p>Open the <strong>Role Based Task</strong> step.</p> </li> 
+   <li><p>In the <strong>Task </strong>tab, provide a name<strong> </strong>for the Task that will display in the <strong>Task</strong> List. You may also assign the task to a role, set the default priority, provide a description, and specify a time when the task is due. </p> <img imageRotate="0" src="assets/chlimage_1-205.png" /></li> 
+   <li><p>In the <strong>Routing</strong> tab, specify the actions for the task. To add multiple actions, tap/click the <strong>Add Item </strong>link.</p> <img imageRotate="0" src="assets/chlimage_1-206.png" /></li> 
+   <li><p>After adding the options click <strong>OK</strong> to add the changes to the step.</p> 
+    <note> 
+     <p>Tapping/clicking <strong>OK</strong> does not save the changes in the workflow. To save changes in the workflow, tap/click <strong>Save</strong>. </p> 
+    </note></li> 
+   <li><p>Open the <strong>Workflow</strong> tasks from side kick, and add a <strong>Goto</strong> task. </p> </li> 
+   <li><p>Open the <strong>Goto</strong> task and tap/click the <strong>Process</strong> tab.</p> </li> 
+   <li><p>Specify the following code in the <strong>Script</strong> box:</p>  <p> if (workflowData.getMetaDataMap().get("lastTaskAction","") == "Reject All") {</p>   <p> // set copywriter user in metadata</p>   <p> return false;</p>  
+    <note> 
+     <p>For details around scripting in workflow steps, see <a href="../../../sites/developing/using/workflows-models.md#definingaruleforanorsplit">Defining a Rule for an OR Split</a>. </p> 
+    </note><img imageRotate="0" src="assets/chlimage_1-207.png" /></li> 
+   <li><p>Tap/click <strong>OK</strong>.<br /> </p> </li> 
+   <li><p>Tap/click <strong>Save</strong> to save the workflow.</p> <img imageRotate="0" src="assets/chlimage_1-208.png" /></li> 
+   <li><p>A new Project owner acceptance task now comes up after the <a href="#movetoproductiontask">Move to Production task</a> is completed and is assigned to the owner. </p> <p>The user in the Owner role can complete the task and select an action (from the list of actions added in the workflow step configurations) from the list in the comments popup.</p> <img imageRotate="0" src="assets/chlimage_1-209.png" /><p>Select the appropriate option and click <strong>Complete</strong> to run the <strong>Goto Step</strong> in the workflow.</p> </li> 
+  </ol> 
+  <note> 
+   <p>When you start a server, the Project task list servlet caches the mappings between task types and URLs defined under <span class="code">/libs/cq/core/content/projects/tasktypes</span>. You can then perform the usual overlay and add custom task types by placing them under <span class="code">/apps/cq/core/content/projects/tasktypes</span>.</p> 
+  </note> 
+ </body> 
+</html>

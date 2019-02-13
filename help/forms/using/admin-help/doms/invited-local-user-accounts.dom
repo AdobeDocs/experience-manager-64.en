@@ -1,0 +1,154 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="1185" name="acrolinxWords" /> 
+  <meta content="2016-04-20T10:05:38.707-0400" name="firstPublishExternalDate" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/invited_local_user_accounts_admin_5e12de0b318c6865_2333_report.xml" name="acrolinxReportURL" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="admin" name="contentOwner" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="topicBrowsingSortDate" /> 
+  <meta content="73" name="acrolinxSentences" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2018-04-03T09:10:13.557-0400" name="cq:lastReplicated" /> 
+  <meta content="2016-02-05T03:27:25.976-0500" name="lr_lastModified" /> 
+  <meta content="Using document security, you can search for, view, edit, lock, unlock, and delete invited and local user accounts." name="seoDescription" /> 
+  <meta content="394dd35f-8362-44c2-af46-56b1fe5ef162" name="jcr:uuid" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="sortDate" /> 
+  <meta content="2016-05-31T07:01:49.208-0400" name="acrolinxDate" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="2018-04-26T04:23:21.414-0400" name="cq:lastModified" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2018-04-26T04:23:21.414-0400" name="locHandOffDate" /> 
+  <meta content="263b6fd0-212f-4d26-b4bc-c778f7587718" name="jcr:predecessors" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/forms/using/admin-help/invited-local-user-accounts.html" name="publishExternalURL" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="admin" name="lr_lastModifiedBy" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="admin" name="lr_creator" /> 
+  <meta content="AEMForms/6.1/AdminHelp/WSa7dd8288c271d6622f7cc9421298ea6e9b5-8000.2,AEMForms/6.1/AdminHelp/WSa7dd8288c271d6622f7cc9421298ea6e9b5-7ffe.2,AEMForms/6.1/AdminHelp/WSa7dd8288c271d6622f7cc9421298ea6e9b5-7ffd.2,AEMForms/6.1/AdminHelp/WSa7dd8288c271d6622f7cc9421298ea6e9b5-7ffc.2,AEMForms/6.1/AdminHelp/WSa7dd8288c271d6622f7cc9421298ea6e9b5-7ffb.2,AEMForms/6.1/AdminHelp/WSa7dd8288c271d6622f7cc9421298ea6e9b5-7ffa.2,AEMForms/6.1/AdminHelp/WSa7dd8288c271d6622f7cc9421298ea6e9b5-7ff9.2,AEMForms/6.1/AdminHelp/WSa7dd8288c271d6622f7cc9421298ea6e9b5-7ff8.2,AEMForms/6.1/AdminHelp/WSa7dd8288c271d6622f7cc9421298ea6e9b5-7ff7.2,AEMForms/6.1/AdminHelp/WSa7dd8288c271d6622f7cc9421298ea6e9b5-7ff6.2,AEMForms/6.1/AdminHelp/WSa7dd8288c271d6622f7cc9421298ea6e9b5-7ff5.2" name="cq:gepId" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="Managing invited and local user&amp;#xA;accounts" name="navTitle" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="2017-12-01T19:06:02.062-0500" name="jcr:created" /> 
+  <meta content="2017-10-31T16:32:11.693-0400" name="publishExternalDate" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2017-10-31T16:32:11.693-0400" name="lastPublishExternalDate" /> 
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/working_with_document_security;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="Managing invited and local user accounts" name="jcr:title" /> 
+ </head> 
+ <body> 
+  <p>Use the Invited and Local Users page to manage your invited and local users. This page is displayed only if the following requirements are met:</p> 
+  <ul> 
+   <li><p>You are an administrator who is assigned the document security Manage Invited and Local Users role and the administration console User role. (See <a href="../../../forms/using/admin-help/creating-configuring-roles.md#creating-and-configuring-roles">Creating and configuring roles</a>.)</p></li> 
+   <li><p>Invited user registration is enabled. (See <a href="../../../forms/using/admin-help/configuring-client-server-options.md#configuring-invited-user-registration">Configuring invited user registration</a>.)</p></li> 
+  </ul> 
+  <p>The Invited and Local Users page contains two tabs that you can use to search for, view, edit, lock, unlock, and delete invited and local user accounts.</p> 
+  <p>You can also manually send registration emails to your invited users. You may want to do this, for example, if the registration period that the email authorized ends and the user cannot use the URL to register. In this case, you can resend a registration email to the invited user. When the invited user registers and activates the account, the user becomes a local user.</p> 
+  <note> 
+   <p>Invited users can also be added directly through the LDAP directory that document security references, or when a user or administrator invites a new user when creating or editing a policy, therefore initiating a registration invitation email. Users can add new invited users to policies if you enable the Enable Invited User Registration option on the Invited User Registration page. </p> 
+  </note> 
+  <h2 id="add_an_invited_user">Add an invited user</h2> 
+  <p></p> 
+  <p>You can add one or more invited user accounts to document security at a time. To add an invited user account, you need the email address of the user. When you add a user, document security sends a registration email inviting the user to register. </p> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; Document Security &amp;gt; Invited and Local Users, and then click Invite New User.</p></li> 
+   <li><p>Type the email addresses of the users you want to invite. Enter multiple addresses on a line, separated by a comma.</p><p>The message that you created when enabling invited user registration is sent to the users. (See <a href="../../../forms/using/admin-help/configuring-client-server-options.md#configuring-invited-user-registration">Configuring invited user registration</a>.)</p></li> 
+   <li><p>Click OK. </p></li> 
+  </ol> 
+  <h2 id="view_information_about_a_local_user">View information about a local user</h2> 
+  <p></p> 
+  <p>You can view information about local users, including the name, email address, organization, registration status, and domain. </p> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; Document Security &amp;gt; Invited and Local Users, and then click Invite New User.</p></li> 
+   <li><p>Click the Local Users tab and, on the Manage Local Users page, click the email address for the user you want to view.</p><p>The user details are displayed, and you can reset the user’s password and deactivate the account.</p></li> 
+  </ol> 
+  <h2 id="send_an_email_to_an_unregistered_external_user">Send an email to an unregistered external user</h2> 
+  <p></p> 
+  <p>When you add an invited user, document security automatically sends the user a registration email request. You can also manually generate a registration email to send to an invited user who has not yet registered. You may want to do this, for example, to send a new invitation if an invited user's registration email expires.</p> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; Document Security &amp;gt; Invited and Local Users.</p></li> 
+   <li><p>In the user list, select the check box for each user to send a registration email to and then click Resend Invitation Email.</p></li> 
+   <li><p>Review the list of selected users and click OK.</p></li> 
+  </ol> 
+  <h2 id="reset_a_local_user_password">Reset a local user password</h2> 
+  <p></p> 
+  <p>You can reset passwords for activated invited users who registered with document security but forgot their password. When you reset a password, an email is generated that contains a new, temporary password for the user.</p> 
+  <p>When you enabled the invited user registration process, you created an email message that will be sent to users prompting them to reset their passwords. (See <a href="../../../forms/using/admin-help/configuring-client-server-options.md#configuring-invited-user-registration">Configuring invited user registration</a>.)</p> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; Document Security &amp;gt; Invited and Local Users and click the Local Users tab.</p></li> 
+   <li><p>In the user list, select the appropriate user.</p></li> 
+   <li><p>On the Manage Local User page, click Reset Password and click OK. A reset password email containing the new password is sent to the user.</p></li> 
+  </ol> 
+  <h2 id="enable_or_disable_a_user_account">Enable or disable a user account</h2> 
+  <p></p> 
+  <p>You can disable local user accounts to temporarily restrict a user from logging in to document security. When you disable the account, the user cannot use policy-protected documents or create or apply policies.</p> 
+  <p>You can enable a local user account that is currently disabled. You cannot enable an invited user account that is listed as registered. The registered status indicates that the invited user is registered but has not yet activated the account using the link in the activation email.</p> 
+  <p><strong>Restrict a user account</strong></p> 
+  <ol> 
+   <li><p>In Administration Console, click Services &amp;gt; document security &amp;gt; Invited and Local Users and click the Local Users tab.</p></li> 
+   <li><p>In the user list, select the appropriate user.</p></li> 
+   <li><p>On the Local User Detail page, click Account Disable.</p></li> 
+  </ol> 
+  <p><strong>Reinstate a user account</strong></p> 
+  <ol> 
+   <li><p>Click Invited and Local Users and click the Local Users tab.</p></li> 
+   <li><p>In the user list, select the appropriate user.</p></li> 
+   <li><p>On the Local User Detail page, click Account Enable.</p></li> 
+  </ol> 
+  <h2 id="remove_an_invited_user_account">Remove an invited user account</h2> 
+  <p></p> 
+  <p>You can delete invited user accounts from document security. You may want to delete an account, for example, when a user changes their personal email account information.</p> 
+  <p>If you delete a user account, only you or another administrator can reinstate the account by selecting the Add Invited User option on the Invited Users page. Users cannot add the deleted user account to a policy, and no invitation process can be initiated by that method.</p> 
+  <note> 
+   <p>Invited users who were deleted through the AEM forms User Management interface cannot be reinvited until they have been deleted again using the following procedure. </p> 
+  </note> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; Document Security &amp;gt; Invited and Local Users and click the Invited Users tab.</p></li> 
+   <li><p>Select the check box beside one or more users, click Delete, and then click OK.</p></li> 
+  </ol> 
+  <h2 id="search_for_an_invited_user_account">Search for an invited user account</h2> 
+  <p></p> 
+  <p>You can search for invited user accounts by using an email address.</p> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; Document Security &amp;gt; Invited and Local Users.</p></li> 
+   <li><p>In the Find Email box, type the user’s email address, and then click Find.</p></li> 
+  </ol> 
+  <h2 id="search_for_a_local_user_account">Search for a local user account</h2> 
+  <p></p> 
+  <p>You can search for a local user by using the user’s email address or name and domain.</p> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; Document Security &amp;gt; Invited and Local Users and click the Local Users tab.</p></li> 
+   <li><p>Type the search criteria in the Find box, select Name or Email, and then click Find.</p></li> 
+  </ol> 
+  <h2 id="remove_a_local_user_account">Remove a local user account</h2> 
+  <p></p> 
+  <p>You can delete local user accounts from document security. You may want to delete accounts, for example, when users change their personal email account information.</p> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; Document Security &amp;gt; Invited and Local Users and click the Local Users tab.</p></li> 
+   <li><p>Select the check box beside one or more users, click Delete, and then click OK.</p></li> 
+  </ol> 
+  <h2 id="sort_the_user_list">Sort the user list</h2> 
+  <p></p> 
+  <p>You can find users more easily by sorting the user list by column heading. Triangle icons beside the column heading indicate which column is currently used to sort:</p> 
+  <ul> 
+   <li><p>An upward-pointing triangle indicates ascending order.</p></li> 
+   <li><p>A downward-pointing triangle indicates descending order.</p> 
+    <ol> 
+     <li><p>In administration console, click Services &amp;gt; Document Security &amp;gt; Invited and Local Users.</p></li> 
+     <li><p>To sort invited users, click the Invited Users tab and click the appropriate column heading.</p></li> 
+     <li><p>To sort local users, click the Local Users tab and click the appropriate column heading.</p></li> 
+    </ol></li> 
+  </ul> 
+ </body> 
+</html>

@@ -1,0 +1,143 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2018-04-03T09:10:13.557-0400" name="cq:lastReplicated" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="6055176f-1a98-4f0f-bdd0-27e2661c373e" name="jcr:uuid" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2017-10-31T16:32:12.892-0400" name="publishExternalDate" /> 
+  <meta content="admin" name="lr_lastModifiedBy" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2018-04-26T04:23:29.975-0400" name="cq:lastModified" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="admin" name="contentOwner" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="Import and manage applications" name="jcr:title" /> 
+  <meta content="2018-04-26T04:23:29.974-0400" name="locHandOffDate" /> 
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2017-12-01T19:06:45.204-0500" name="jcr:created" /> 
+  <meta content="59" name="acrolinxSentences" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="Learn how to import and manage applications." name="seoDescription" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="admin" name="lr_creator" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="2016-05-31T07:01:30.722-0400" name="acrolinxDate" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="sortDate" /> 
+  <meta content="Import and manage applications" name="navTitle" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/forms/using/admin-help/import-applications.html" name="publishExternalURL" /> 
+  <meta content="2016-02-05T03:27:25.385-0500" name="lr_lastModified" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="topicBrowsingSortDate" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/importing_and_managing_applications_and_archives;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2017-10-31T16:32:12.892-0400" name="lastPublishExternalDate" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7eff.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb2f936dcc12905cdf0a6-7ffc.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb2f936dcc12905cdf0a6-7ffe.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb2f936dcc12905cdf0a6-7ffa.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb2f936dcc12905cdf0a6-7ffd.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb2f936dcc12905cdf0a6-7ff9.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb2f936dcc12905cdf0a6-7ff8.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb2f936dcc12905cdf0a6-7ff7.2" name="cq:gepId" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="33201d9f-9802-470b-82cf-eeb9190ea7c1" name="jcr:predecessors" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/import_applications_admin_5e12de0b318c6865_2329_report.xml" name="acrolinxReportURL" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="813" name="acrolinxWords" /> 
+  <meta content="2016-04-20T10:05:33.505-0400" name="firstPublishExternalDate" /> 
+  <meta content="" name="jcr:primaryType" /> 
+ </head> 
+ <body> 
+  <p>In AEM forms, an <i>application</i> is a container for storing assets that are required for implementing a AEM forms solution. Examples of assets are form designs, form fragments, images, processes, DDX files, form Guides, HTML pages, and SWF files. During the development phase of a project, Workbench users can deploy applications directly from the Applications view in Workbench. Once deployed, these applications appear in administration console, on the Applications tab on the Application Management page. </p> 
+  <p>When an application is complete and ready for deployment to a production server, the Workbench user packages the application into a <i>AEM forms application file</i> (.lca). Then an administrator uses administration console to import and deploy the application file, using the Applications tab on the Application Management page. </p> 
+  <p>You can also use thearchives tab on the Application Management page to import LCAs that were created using workbench 8.x.</p> 
+  <note> 
+   <p>There is a known issue that LCA files from a future release are not necessarily backward compatible. While it may be possible to view and import LCA files from a future release of AEM forms (for example, a preview release), doing so is not supported and may result in aberrant behavior.</p> 
+  </note> 
+  <p>Use the Applications tab to import and manage applications that were created in Workbench. Application administrators can also export the runtime configuration for an application. Exporting the runtime configuration eliminates the need to manually reconfigure settings in the production environment before starting deployed applications. The runtime configuration file contains:</p> 
+  <ul> 
+   <li><p>service configuration settings</p></li> 
+   <li><p>pool configuration settings</p></li> 
+   <li><p>endpoint configuration settings</p></li> 
+   <li><p>security profiles</p></li> 
+  </ul> 
+  <h2 id="import_an_application_or_archive">Import an application or archive</h2> 
+  <p></p> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; Applications and Services &amp;gt; Application Management.</p></li> 
+   <li><p>Click Import.</p></li> 
+   <li><p>Click Browse and select the .lca file to import and click Preview. The Preview Application page displays information about the application. </p></li> 
+   <li><p>(Optional) To see a list of the assets contained in the application, click View Assets.</p></li> 
+   <li><p>(Optional) To deploy the assets to the runtime, select Deploy Assets To Runtime When Import Is Complete. If you do not select this option, you can deploy the assets later. </p></li> 
+   <li><p>Click Import. The application appears on the Applications tab. </p></li> 
+   <li><p>Log into the CRX repository with administrator credentials.</p></li> 
+   <li><p>Navigate to content/dam/lcapplications</p> 
+    <note> 
+     <p>The imported applications display in the lcapplications node.</p> 
+    </note></li> 
+   <li><p>Click on one of the imported applications.</p><p>The Properties tab on the right displays the properties of the selected CRX node.</p><p>The <strong>syncState</strong> property indicates the state of synchronization of data between the AEM forms server and the CRX repository. As soon as the import process begins this state is set to 0 (zero). This state indicates the data is currently not synchronized. When the data is synchronized, the state is set to 1.</p></li> 
+  </ol> 
+  <h2 id="deploy_an_application">Deploy an application</h2> 
+  <p></p> 
+  <p>You can deploy applications that you have imported, or that Workbench users imported from Workbench.</p> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; Applications and Services &amp;gt; Application Management. </p></li> 
+   <li><p>Select the checkbox next to the application that you want to deploy and click Deploy.</p></li> 
+   <li><p>Click OK in the confirmation dialog box that appears. </p></li> 
+  </ol> 
+  <h2 id="undeploy_an_application">Undeploy an application</h2> 
+  <p></p> 
+  <p>You can undeploy applications from the runtime. </p> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; Applications and Services &amp;gt; Application Management. </p></li> 
+   <li><p>Select the checkbox next to the application that you want to undeploy and click Undeploy.</p></li> 
+   <li><p>Click OK in the confirmation dialog box that appears. </p></li> 
+  </ol> 
+  <h2 id="remove_an_application_from_the_server">Remove an application from the server</h2> 
+  <p></p> 
+  <p>Undeploy the application before removing it from the server.</p> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; Applications and Services &amp;gt; Application Management. </p></li> 
+   <li><p>Select the checkbox next to the application that you want to remove and click Remove.</p></li> 
+   <li><p>Click OK in the confirmation dialog box that appears. </p></li> 
+  </ol> 
+  <h2 id="import_an_application_s_runtime_configuration">Import an application’s runtime configuration</h2> 
+  <p></p> 
+  <p>If an application administrator exported the runtime configuration for an application, you can import it into the deployed application. You can import it using either the administration console or via scripted LCA deployment.</p> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; Applications and Services &amp;gt; Application Management.</p></li> 
+   <li><p>Click the name of the application.</p></li> 
+   <li><p>Click Import Runtime Config.</p></li> 
+   <li><p>Click Browse and select the XML file that contains the runtime configuration.</p></li> 
+   <li><p>Click Import.</p></li> 
+  </ol> 
+  <h2 id="export_an_application_s_runtime_configuration">Export an application’s runtime configuration</h2> 
+  <p></p> 
+  <p>You can export the runtime configuration information for deployed applications.</p> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; Applications and Services &amp;gt; Application Management.</p></li> 
+   <li><p>Click the name of the application.</p></li> 
+   <li><p>Click Export Runtime Config and save the configuration file (XML) that is produced.</p></li> 
+  </ol> 
+  <h2 id="scripted_deployment_of_aem_forms_applications">Scripted deployment of AEM forms applications</h2> 
+  <p></p> 
+  <p>You can also use a scripted deployment tool to deploy application files, including a settings.xml file that specifies the following settings:</p> 
+  <ul> 
+   <li><p>service configuration settings</p></li> 
+   <li><p>pool configuration settings</p></li> 
+   <li><p>endpoint configuration settings</p></li> 
+   <li><p>security profiles</p></li> 
+  </ul> 
+  <p>Scripted deployment eliminates the need to manually reconfigure settings in the production environment before starting deployed applications. </p> 
+  <ol> 
+   <li><p>From a command prompt, navigate to <i>[aem-forms root]</i>/sdk/misc/Foundation/ArchiveManagement.</p></li> 
+   <li><p>Review the ReadMe.txt file for more detailed instructions.</p></li> 
+   <li><p>Manually modify the scriptedDeploy.bat and sample-files/sample.xml files as described in the readme.txt file.</p></li> 
+   <li><p>Run the scriptedDeploy.bat file. This action deploys the AEM forms archive file with the override settings.</p></li> 
+  </ol> 
+ </body> 
+</html>

@@ -1,0 +1,161 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2019-01-03T06:01:04.059-0500" name="lastPublishExternalDate" /> 
+  <meta content="later" name="locPublishOption" /> 
+  <meta content="Starting processes" name="navTitle" /> 
+  <meta content="khsingh@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="8176f088-932d-4a07-854a-882d7a4fd571" name="jcr:predecessors" /> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:forms-workspace" name="cq:tags" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="LiveCycle/10.5/HTMLWorkspace/WSbc2d9d23a54292497c9e7c0313cb9a927d9-8000,LiveCycle/10.5/HTMLWorkspace/WSbc2d9d23a54292497c9e7c0313cb9a927d9-7fff,LiveCycle/10.5/HTMLWorkspace/WSbc2d9d23a54292497c9e7c0313cb9a927d9-7ffe,LiveCycle/10.5/HTMLWorkspace/WSbc2d9d23a54292497c9e7c0313cb9a927d9-7ffc,LiveCycle/10.5/HTMLWorkspace/WSbc2d9d23a54292497c9e7c0313cb9a927d9-7ffb,LiveCycle/10.5/HTMLWorkspace/WSbc2d9d23a54292497c9e7c0313cb9a927d9-7ffa,LiveCycle/10.5/HTMLWorkspace/WSbc2d9d23a54292497c9e7c0313cb9a927d9-7ff9,LiveCycle/10.5/HTMLWorkspace/WSbc2d9d23a54292497c9e7c0313cb9a927d9-7ff8,LiveCycle/10.5/HTMLWorkspace/WSbc2d9d23a54292497c9e7c0313cb9a927d9-7ff7,LiveCycle/10.5/HTMLWorkspace/WSbc2d9d23a54292497c9e7c0313cb9a927d9-7ff6,LiveCycle/10.5/HTMLWorkspace/WSbc2d9d23a54292497c9e7c0313cb9a927d9-7ff5" name="cq:gepId" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="2013-02-13T03:00:00.000-0500" name="topicBrowsingSortDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2016-05-31T06:49:20.102-0400" name="acrolinxDate" /> 
+  <meta content="2013-03-22T13:19:06.686-0400" name="firstPublishExternalDate" /> 
+  <meta content="2013-03-14T14:14:54.928-0400" name="cq%3AlastModified" /> 
+  <meta content="robhagat" name="contentOwner" /> 
+  <meta content="2019-01-03T06:01:04.059-0500" name="publishExternalDate" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="" name="autotagsRejected" /> 
+  <meta content="2013-02-19T05:40:04.193-0500" name="firstPublishQADate" /> 
+  <meta content="robhagat" name="lr_creator" /> 
+  <meta content="1308" name="acrolinxWords" /> 
+  <meta content="80" name="acrolinxSentences" /> 
+  <meta content="2018-04-26T04:33:20.067-0400" name="locHandOffDate" /> 
+  <meta content="2013-02-13T03:00:00.000-0500" name="sortDate" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="asgupta" name="cq%3AlastModifiedBy" /> 
+  <meta content="2013-02-13T03:00:00.000-0500" name="lr_lastModified" /> 
+  <meta content="2017-12-01T19:03:29.595-0500" name="jcr:created" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/starting_processes_admin_5e12de0b318c6865_2145_report.xml" name="acrolinxReportURL" /> 
+  <meta content="How to use LiveCycle AEM Forms workspace--select processes, add notes and attachments, save draft copies, and add to favorites." name="seoDescription" /> 
+  <meta content="https://helpx.stage.adobe.com/aem-forms/6-1/html-workspace/starting-processes.html" name="publishQAURL" /> 
+  <meta content="yellow" name="acrolinxPageStatus" /> 
+  <meta content="robhagat" name="lr_lastModifiedBy" /> 
+  <meta content="2015-09-28T06:46:24.989-0400" name="lastPublishQADate" /> 
+  <meta content="2019-01-03T06:01:04.098-0500" name="cq:lastReplicated" /> 
+  <meta content="2019-01-03T06:01:04.064-0500" name="cq:lastModified" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="Starting processes" name="jcr:title" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/starting-processes.html" name="publishExternalURL" /> 
+  <meta content="" name="autotags" /> 
+  <meta content="ae12fca7-6620-48bd-a084-ffbbba951c9d" name="jcr:uuid" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="khsingh" name="cq:lastReplicatedBy" /> 
+  <meta content="mix:lockable;mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="khsingh" name="cq:lastModifiedBy" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/forms-workspace;/content/help/en/experience-manager/6-4/forms/morehelp/forms-workspace" name="moreHelpPaths" /> 
+  <meta content="09/06/13" name="locPublishDate" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2015-09-28T06:46:24.989-0400" name="publishQADate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+ </head> 
+ <body> 
+  <p>AEM Forms workspace organizes processes by the categories that the administrator or process designer sets up. You can also place processes that you use frequently into your Favorites category so that you can find them quickly.</p> 
+  <p>When you start a process, you may need to fill a form to start a business process that AEM Forms workflow controls. If a form uses Prepare Data Process, some information can be pre-populated in a blank form, when a new process is initiated.</p> 
+  <p>For example, you want to purchase a new computer monitor and therefore start a process called <em>Purchase Order</em>. When you start the process, a form opens and prompts you for details about the item to order. Your name, employee number, and manager’s name may already be prepopulated on the form. When you submit the request, a business process is initiated. Based on the process definition, the server automatically routes the request to your manager. The task starts appearing in your manager’s To-do list. When your manager approves the request, forms workflow routes the request to the purchasing department and sends you an email notification.</p> 
+  <h2 id="selecting_processes_to_start">Selecting processes to start</h2> 
+  <p></p> 
+  <p>You can select a process to start it or to view more information about it.</p> 
+  <p>When you select a process to start, you may need to fill a form that is associated with that process. Submitting the form starts the process.</p> 
+  <p>Forms in various types of file formats are supported, including Adobe PDF, HTML, and SWF file. A form may look like a traditional printable or web-based form or may guide you through a series of wizard-style panels to gather information.</p> 
+  <p>If the form and process allow it, you can also save the form offline, fill it, and then submit it to complete the task. When the form is submitted, your email client is started with the appropriate server email address, if email end point is configured. You can then send the completed form to the server by email.</p> 
+  <p>When you select a process, the Form tab and Details tab appear. If the process permits you to add notes or attachments, the Attachments tab and Notes tab also appears. If you have also configured the summary url with the process, then Summary tab also appears. The Forms tab displays the associated form, and the Details tab displays information about the current task and the process that it is part of.</p> 
+  <h3 id="start_a_business_process">Start a business process</h3> 
+  <p></p> 
+  <ol> 
+   <li><p>On the Start Process page, in the list on the left, select a category. All the processes that you have access to in the category appear on the right.</p> 
+    <note> 
+     <p>If the Categories pane is collapsed, click 'Open Categories', in the top-left area of the AEM Forms workspace, to open the pane.</p> 
+    </note></li> 
+   <li><p>Select a process by clicking a task. The form that is associated with the process opens on the Form tab.</p> <p>Every form in a process has a unique URL. You can use the unique URL to directly launch the HTML Workspace with the specific process and form. The format of the URL is http://&amp;lt;server&amp;gt;:&amp;lt;port&amp;gt;/lc/libs/ws/index.html#/startprocess/&amp;lt;ApplicationName&amp;gt;%2F&amp;lt;ProcessName&amp;gt;. The &amp;lt;ApplicationName&amp;gt;%2F&amp;lt;ProcessName&amp;gt; string is always URL encoded. An example URL is http://localhost:8080/lc/libs/ws/index.html#/startprocess/MyApplication%2FNewProcess. The ApplicationName%2FProcessName string in the example is URL encoded.</p> </li> 
+   <li><p>Fill the form according to the instructions provided with it. If necessary, click <strong>Maximize</strong> to increase the visible area of the form.</p> </li> 
+   <li><p>If the Attachments tab is available, add attachments as required.</p></li> 
+   <li><p>If the Notes tab is available, provide any notes as required. </p></li> 
+   <li><p>Perform one of these steps:</p> 
+    <ul> 
+     <li><p>Click the Submit button on the form, if the form has a Submit button.</p> </li> 
+     <li><p>Click Complete below the form, if the form does not have a Submit button.</p> </li> 
+    </ul> <p>Process Management starts the process and routes the form to the To-do lists of the appropriate people who need to complete the next task in the process.</p> <p>If you must close a form before submitting it and without losing data that you entered, save a draft and complete it later if the process allows it. If the form and process allow it, you can also click <strong>Offline</strong> and later submit it from Adobe® Reader® or Adobe® Acrobat® Professional or Acrobat Standard.</p> 
+    <note> 
+     <p>The offline option is available for PDF forms only.</p> 
+    </note></li> 
+  </ol> 
+  <h2 id="adding_notes_and_attachments">Adding notes and attachments</h2> 
+  <p></p> 
+  <p>You can add notes and file attachments to a process if the process allows it. You can provide permissions for other users, who participate in the process to view, update, and delete the notes or attachments.</p> 
+  <h3 id="add_a_note">Add a note</h3> 
+  <p></p> 
+  <p>You can add multiple notes, edit the written notes, and delete them. Each note has a title, a description, and an access permission associated with it. You can set one of the following access permissions on a note:</p> 
+  <ul> 
+   <li><p>Read Only (the default permission)</p> </li> 
+   <li><p>Read/Edit/Delete</p> </li> 
+   <li><p>Read/Edit</p> </li> 
+   <li><p>Read/Delete</p> </li> 
+   <li><p>No Access</p> </li> 
+  </ul> 
+  <ol> 
+   <li><p>Open a task and click the <strong>Notes </strong>tab, if the process allows it.</p> </li> 
+   <li><p>Type a title for the note in the <strong>Title</strong> box, and type the text of the note in the <strong>Note</strong> box.</p></li> 
+   <li><p>Select the <strong>Permissions</strong> level for the note for other users who participate in the process.</p></li> 
+   <li><p>Click <strong>OK</strong>. A text file that contains your note is attached to the form. You can update a note by clicking it and directly modifying the text. You can delete a note by clicking the <strong>Delete</strong> button <img alt="Image of a trash can" src="assets/icondelete.png" /> beside the note.</p></li> 
+  </ol> 
+  <h3 id="add_an_attachment">Add an attachment</h3> 
+  <p></p> 
+  <p>You can also add your comments about the attachment. You can set one of the following access permissions on an attachment:</p> 
+  <ul> 
+   <li><p>Read Only (the default permission)</p> </li> 
+   <li><p>Read/Edit/Delete</p> </li> 
+   <li><p>Read/Edit</p> </li> 
+   <li><p>Read/Delete</p> </li> 
+   <li><p>No Access</p> </li> 
+  </ul> 
+  <ol> 
+   <li><p>Click the <strong>Attachments </strong>tab and select <strong>Attachment</strong>.</p></li> 
+   <li><p>Click <strong>Browse</strong> to select the file to attach.</p></li> 
+   <li><p>Select the <strong>Permissions</strong> level for the attachment for other users who participate in the process. If you select <strong>Read</strong>, other users can save the file locally. If you select one of the edit permissions, other users can also upload a new file to replace your attachment.</p></li> 
+   <li><p>Click <strong>OK</strong>. The file is attached to the form. You can delete a file by clicking the <strong>Delete</strong> button <img alt="Image of a trash can" src="assets/icondelete.png" /> beside the attachment.</p></li> 
+  </ol> 
+  <h2 id="saving_draft_copies_of_forms">Saving draft copies of forms</h2> 
+  <p></p> 
+  <p>If you must complete and submit a form later, you can save a draft copy of a form so that you do not lose your existing work. Draft copies are added to the Drafts category on the To-do page.</p> 
+  <p>After you reopen and submit a draft form, the draft is removed from the Drafts category.</p> 
+  <p>Also, you can configure workspace to auto-save the information entered by a user as a draft. For more information, see <a href="../../forms/using/getting-started-livecycle-html-workspace.md">Managing Preferences</a>.</p> 
+  <note> 
+   <p>The Save button is unavailable for some forms, depending on the process it is associated with.</p> 
+  </note> 
+  <h3 id="save_a_draft_copy">Save a draft copy</h3> 
+  <p></p> 
+  <ol> 
+   <li><p>Click <strong>Save </strong>in the lower-left corner of any tab. The form is added to the Drafts category on your To-do page. All changes that you made to the form are saved.</p> </li> 
+  </ol> 
+  <h3 id="reopen_a_draft_copy">Reopen a draft copy</h3> 
+  <p></p> 
+  <ol> 
+   <li><p>On the To-do page, select the <strong>Drafts</strong> queue and click the draft copy of the form.</p> <p>If the form contains a series of panels, you may need to go to the panel where you ended your last session.</p> </li> 
+  </ol> 
+  <h2 id="adding_processes_to_the_favorites_category">Adding processes to the Favorites category</h2> 
+  <p></p> 
+  <p>You can add any process to your Favorites category. By setting favorites, you can group all the processes that you frequently start into a single category so that you can find them quickly. </p> 
+  <note> 
+   <p>If you usually start processes when you use AEM Forms workspace, you can set the Start Location preference to automatically display the Favorites category when you start AEM Forms workspace. For more details, see Managing Preferences in <a href="../../forms/using/getting-started-livecycle-html-workspace.md">Getting started with AEM Forms workspace</a>.</p> 
+  </note> 
+  <p>To mark a process as favorite, select the task in its category, and click the hollow star. The star turns golden. To unmark a process as a favorite, click the golden star again.</p> 
+  <p><a href="https://www.adobe.com/account/sign-in.supportportal.html" target="_blank"><strong>Contact Support</strong></a></p> 
+  <related-links> 
+   <a href="../../forms/using/getting-started-livecycle-html-workspace.md" target="_blank">Getting started with AEM Forms workspace</a> 
+   <a href="../../forms/using/starting-processes.md" target="_blank">Starting processes</a> 
+   <a href="../../forms/using/tracking-processes.md" target="_blank">Tracking processes</a> 
+   <a href="../../forms/using/todo-lists.md" target="_blank">Working with To-do lists</a> 
+   <a href="../../forms/using/troubleshooting-guidelines-html-workspace.md">Troubleshooting guidelines for AEM Forms workspace</a> 
+  </related-links> 
+ </body> 
+</html>

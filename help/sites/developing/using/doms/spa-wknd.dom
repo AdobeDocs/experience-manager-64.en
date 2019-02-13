@@ -1,0 +1,49 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2018-12-11T04:52:39.097-0500" name="lastPublishExternalDate" />
+  <meta content="video" name="pageLayout" />
+  <meta content="en" name="pageCreatedAt" />
+  <meta content="not_checked" name="acrolinxStatus" />
+  <meta content="452508d3-f28c-4426-b7dc-fb550b92ca3c" name="jcr:uuid" />
+  <meta content="Immerse yourself in SPA development with this multi-part tutorial leading you through project setup, component mapping, front-end development tools, and application routing to implement your own SPA." name="seoDescription" />
+  <meta content="2018-12-11T04:52:39.097-0500" name="topicBrowsingSortDate" />
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/morehelp/spa;/content/help/en/experience-manager/6-4/sites/developing/morehelp/spa" name="moreHelpPaths" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="left" name="sideColumn" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/spa-wknd.html" name="publishExternalURL" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-12-11T04:52:39.467-0500" name="cq:lastReplicated" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="light" name="heroGradient" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="bohnert" name="cq:lastReplicatedBy" />
+  <meta content="bohnert" name="cq:lastModifiedBy" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="8c051b29-0464-4edc-97cb-402eaff7f521" name="jcr:predecessors" />
+  <meta content="SPA WKND Tutorial" name="jcr:title" />
+  <meta content="2018-12-11T04:52:39.108-0500" name="cq:lastModified" />
+  <meta content="2018-12-10T04:12:27.034-0500" name="firstPublishExternalDate" />
+  <meta content="SPA WKND Tutorial" name="seoTitle" />
+  <meta content="audience:developing" name="primaryAudienceTag" />
+  <meta content="2018-12-11T04:52:39.097-0500" name="publishExternalDate" />
+  <meta content="false" name="doNotLocalize" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:spa;content_type:reference" name="cq:tags" />
+  <meta content="bohnert" name="contentOwner" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" />
+  <meta content="bohnert@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2019-01-15T15:39:01.352-0500" name="jcr:created" />
+ </head>
+ <body>
+  <p>Immerse yourself in SPA development with this multi-part tutorial leading you through project setup, component mapping, front-end development tools, and application routing to implement your own SPA.</p> 
+  <h2>Tutorials</h2>
+  <p>For an end-to-end example of building your own single-page application that is editable with AEM starting with project setup through application routing, see the <a href="/content/help/en/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop">Getting Started with the AEM SPA Editor - WKND Events Tutorial</a>. There are versions of the tutorial for the React and Angular frameworks.<br /> </p> 
+  <p>Before you begin your own SPA project for AEM however, be sure to also review the <a href="../../../sites/developing/using/spa-architecture.md">Developing SPAs for AEM</a> document.<br /> </p> 
+ </body>
+</html>

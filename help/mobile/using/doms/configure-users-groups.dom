@@ -1,0 +1,118 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="/content/docs/en/aem/6-3/administer/mobile-apps/phonegap/configure-your-users-and-user-groups" name="qaNotes" />
+  <meta content="2018-05-04T05:12:37.870-0400" name="topicBrowsingSortDate" />
+  <meta content="Configure Your Users and User Groups" name="jcr:title" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2017-12-13T19:01:30.808-0500" name="jcr:created" />
+  <meta content="2018-05-04T05:12:37.870-0400" name="publishExternalDate" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="2018-05-11T10:01:22.328-0400" name="cq:lastModified" />
+  <meta content="bohnert" name="cq:lastReplicatedBy" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="Configure Your Users and User Groups" name="seoTitle" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="564c0fe1-74b2-4dd8-9be4-32e93853fadf" name="jcr:uuid" />
+  <meta content="2018-05-04T05:12:38.609-0400" name="cq:lastReplicated" />
+  <meta content="User" name="contentOwner" />
+  <meta content="2018-05-04T05:12:37.870-0400" name="lastPublishExternalDate" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="Configure Your Users and User Groups" name="navTitle" />
+  <meta content="2017-10-31T16:26:32.124-0400" name="firstPublishExternalDate" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/mobile/using/configure-users-groups.html" name="publishExternalURL" />
+  <meta content="2018-05-11T10:01:22.328-0400" name="locHandOffDate" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/MOBILE" name="primaryProductTag" />
+  <meta content="Follow this page to understand the user roles and how to configure your users and groups to support the authoring and mangement of your mobile apps." name="seoDescription" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="13c56f25-77a6-478d-8bc6-152d1c1aee42" name="jcr:predecessors" />
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/MOBILE;topic_tags:administering-adobe-phonegap-enterprise" name="cq:tags" />
+  <meta content="/content/help/en/experience-manager/6-4/mobile/morehelp/administering-adobe-phonegap-enterprise;/content/help/en/experience-manager/6-4/mobile/morehelp/administering-adobe-phonegap-enterprise" name="moreHelpPaths" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="msm-service" name="cq:lastModifiedBy" />
+  <meta content="bohnert@adobe.com" name="lr_lastReplicatedBy" />
+ </head>
+ <body>
+  <note>
+   <p>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). <a href="../../sites/developing/using/spa-overview.md">Learn more</a>.</p>
+  </note>
+  <p>This chapter describes the user roles and how to configure your users and groups to support the authoring and mangement of your mobile apps.</p> 
+  <h2>AEM Mobile Application Users and Group Administration</h2>
+  <p>To help organize and manage the permission model for AEM Apps, the following two groups are available:</p> 
+  <ul> 
+   <li>app-admins for App Admins</li> 
+   <li>app-authors for App Authors</li> 
+  </ul> 
+  <h3>AEM Mobile Application Content Authors (app-author group)</h3>
+  <p>Members of the app-author group are responsible for authoring AEM mobile application content including, pages, text, images and videos.</p> 
+  <h4>Group configuration - app-authors</h4>
+  <ol>
+   <li><p>Create a new user group called, 'app-authors':</p> <p>Navigate to the User Admin Console: <a href="http://localhost:4502/libs/granite/security/content/groupadmin.html">http://localhost:4502/libs/granite/security/content/groupadmin.html</a></p> <p>From within the user group console, select the '+' button to create a the group.</p> <p>Set the ID of this group to 'app-authors' to denote that it is a specific type of author user group specific to authoring mobile applications within AEM.</p> </li>
+   <li><p>Add member to group: Authors</p> <img captionBottom="Add app-authors to the Authors group" imageRotate="0" src="assets/chlimage_1-22.png" /></li>
+   <li><p>Now that you have created the app-authors User Group, you can add individual team members to this new group through the <a href="/libs/granite/security/content/useradmin">User Admin console</a>.</p> <img captionBottom="Edit user groups" imageRotate="0" src="assets/chlimage_1-23.png" /></li>
+   <li><p>Navigate to the <a href="http://localhost:4502/useradmin">Permissions console</a> and add permissions to administer cloudservices</p> 
+    <ul> 
+     <li>(Read) on /etc/cloudservices</li> 
+    </ul> 
+    <note>
+     <p>App Authors extends the default content-authors (Authors) group from AEM thereby inheriting the ability to create content under /content/phonegap</p> 
+    </note></li>
+  </ol>
+  <h3>AEM Mobile Application Administrators Group (app-admins group)</h3>
+  <p>Members of the app-admins group can author application content with the same permissions included with app-authors <strong>AND </strong>in addition are also responsible for:</p> 
+  <ul> 
+   <li>Configuring PhoneGap Build and Adobe Mobile Services cloud services in AEM</li> 
+   <li>Staging, publishing and clearing application Content Sync OTA updates</li> 
+  </ul> 
+  <p> </p> 
+  <note>
+   <p>Permissions determine availability of some user actions in the AEM App Command Center.</p> 
+   <p>You'll notice some options are not available for app-authors that are available for app-admins.</p> 
+  </note>
+  <h4>Group configuration - app-admins</h4>
+  <ol>
+   <li><p>Create a new group called app-admins.</p> </li>
+   <li><p>Add the following groups to your new app-admins group:</p> 
+    <ul> 
+     <li>content-authors</li> 
+     <li>workflow-users</li> 
+    </ul> <img imageRotate="0" src="assets/chlimage_1-24.png" /></li>
+   <li><p>Navigate to the <a href="http://localhost:4502/useradmin">Permissions console</a> and add permissions to administer cloudservices</p> 
+    <ul> 
+     <li>(Read, Modify, Create, Delete, Replicate) on /etc/cloudservices/mobileservices</li> 
+     <li>(Read, Modify, Create, Delete, Replicate) on /etc/cloudservices/phonegap-build</li> 
+    </ul> </li>
+   <li><p>On the same Permissions console, add permissions to stage, publish and clear app content updates</p> 
+    <ul> 
+     <li>(Read, Modify, Create, Delete, Replicate) on /etc/packages/mobileapp</li> 
+     <li>(Read) on /var/contentsync</li> 
+    </ul> 
+    <note>
+     <p>Package replication is used to publish app updates from author instance to publish instance</p> 
+    </note>
+    <note>
+     <p>/var/contentsync access is denied OOTB. </p> 
+     <p>Omitting the READ permission can result in empty update packages being built and replicated.</p> 
+    </note></li>
+   <li><p>Add members to this group as needed</p> </li>
+  </ol>
+  <h2>Dashboard Tile Permissions</h2>
+  <p>Dashboard tiles may expose different actions based on the permissions that the user has. The following describes what actions are available for each tile.</p> 
+  <p>In addition to these permissions, an action can also be shown/hidden based on how the current app is configured. For example, there is no point exposing the 'Remote Build' action, if a PhoneGap cloud configuration has not been assigned to the app. These will be listed below under '<strong>Configuration Condition</strong>' sections.</p> 
+  <h3>Manage App Tile</h3>
+  <p>The tile currently has no actions that require permissions, however the details page for the application has the following actions:</p> 
+  <ul> 
+   <li><i>Edit</i> for app-author and app-admin (UI Trigger - jcr:write - on /content/phonegap/{suffix})</li> 
+   <li><i>Download</i> for app-author and app-admin (UI Trigger - on /content/phonegap/{suffix})</li> 
+  </ul> 
+  <p>The image below shows the Download and Edit options for an app:</p> 
+  <img imageRotate="0" src="assets/chlimage_1-25.png" />
+ </body>
+</html>

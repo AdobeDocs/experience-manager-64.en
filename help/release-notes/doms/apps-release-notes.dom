@@ -1,0 +1,40 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="Release notes specific to Adobe Experience Manager 6.3 Mobile." name="seoDescription" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="/content/help/en/experience-manager/6-4/morehelp/release-notes;/content/help/en/experience-manager/6-4/morehelp/release-notes" name="moreHelpPaths" />
+  <meta content="53ab7227-d62e-4509-a07f-eff8e671deb7" name="jcr:predecessors" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="AEM Mobile" name="jcr:title" />
+  <meta content="2017-11-22T19:02:35.942-0500" name="jcr:created" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="Deactivate" name="cq:lastReplicationAction" />
+  <meta content="2017-11-21T07:11:21.900-0500" name="cq:lastModified" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="AEM Mobile" name="seoTitle" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="AEM Mobile" name="navTitle" />
+  <meta content="2018-01-18T10:01:52.170-0500" name="cq:lastReplicated" />
+  <meta content="b571b080-ae40-477c-b0dd-e3a44f08c090" name="jcr:uuid" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4;topic_tags:release-notes;content_type:reference" name="cq:tags" />
+  <meta content="/content/docs/en/aem/6-3/release-notes/apps" name="qaNotes" />
+  <meta content="Guillaume Carlino" name="contentOwner" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4" name="primaryProductTag" />
+ </head>
+ <body>
+  <h2>Product Changes</h2> 
+  <p>todo</p> 
+  <h2>New Features Details</h2> 
+  <p>todo</p> 
+ </body>
+</html>

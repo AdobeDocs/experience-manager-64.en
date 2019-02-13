@@ -1,0 +1,64 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/initiating-new-process-existing-process.html" name="publishExternalURL" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:forms-workspace" name="cq:tags" />
+  <meta content="2015-09-28T10:53:57.014-0400" name="publishQADate" />
+  <meta content="c0ce5c86-eb21-4331-ac96-8eec0f8ee5b3" name="jcr:uuid" />
+  <meta content="2018-04-26T04:37:46.234-0400" name="locHandOffDate" />
+  <meta content="2015-05-28T12:20:44.737-0400" name="firstPublishQADate" />
+  <meta content="12" name="acrolinxSentences" />
+  <meta content="2018-04-26T04:37:46.235-0400" name="cq:lastModified" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-04-03T08:42:06.715-0400" name="topicBrowsingSortDate" />
+  <meta content="2018-04-03T08:42:06.715-0400" name="lastPublishExternalDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2016-05-31T06:48:41.679-0400" name="acrolinxDate" />
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2015-05-28T12:20:44.737-0400" name="firstPublishExternalDate" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="red" name="acrolinxPageStatus" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" />
+  <meta content="video" name="pageLayout" />
+  <meta content="left" name="sideColumn" />
+  <meta content="light" name="heroGradient" />
+  <meta content="2015-09-28T10:53:57.014-0400" name="lastPublishQADate" />
+  <meta content="2018-04-03T08:42:07.442-0400" name="cq:lastReplicated" />
+  <meta content="Initiating a new process with existing process data in AEM Forms workspace" name="jcr:title" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2018-04-03T08:42:06.715-0400" name="publishExternalDate" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="not_checked" name="acrolinxStatus" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="e53a9b36-ae05-4ecf-ba75-d547632ba8e3" name="jcr:predecessors" />
+  <meta content="https://helpx.stage.adobe.com/aem-forms/6-1/html-workspace/initiating-new-process-existing-process.html" name="publishQAURL" />
+  <meta content="See how you can initiate a new process with existing process data in AEM Forms workspace." name="seoDescription" />
+  <meta content="214" name="acrolinxWords" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="false" name="doNotLocalize" />
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/initiating_new_process_existing_process_admin_5e12de0b318c6865_2135_report.xml" name="acrolinxReportURL" />
+  <meta content="2017-12-01T19:05:05.535-0500" name="jcr:created" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+ </head>
+ <body>
+  <p>You can initiate a new process using the data of an existing process data. The need to initiate a new process from existing process data arises when we have to use the same form frequently with few changes in content like that of paid-time-off forms. This feature saves time and effort of users especially when the process has long form to fill. </p> 
+  <p>Following are the steps to initiate a new process from existing process data:-</p> 
+  <ol>
+   <li><p>Do one of the following actions:</p> 
+    <ul> 
+     <li>In Tracking, click the process instance whose data you want to use. From the Process History view in the right pane, click the task row that corresponds to the start point.</li> 
+     <li>In Tracking, select a search template to display a list of process instances. Select the instance whose data you want to use.</li> 
+     <li>In the <span class="uicontrol">To-Do</span> tab, select the task. Click the <span class="uicontrol">History</span> tab, and select the task that initiated the process instance.</li> 
+    </ul> <img imageRotate="0" src="assets/start3.png" /><img imageRotate="0" src="assets/start1.png" /></li>
+   <li><p>In the Task action toolbar, click <span class="uicontrol">Start</span>. An Adaptive Form for the new process instance is displayed with prefilled data.<br /> </p> </li>
+   <li><p>Update the data as necessary, and click either <span class="uicontrol">Complete</span> or an appropriate button on the form.</p> </li>
+  </ol>
+ </body>
+</html>

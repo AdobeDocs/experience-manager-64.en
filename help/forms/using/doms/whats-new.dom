@@ -1,0 +1,276 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="a4712665-9e46-4262-9790-a18a8aae3186" name="jcr:predecessors" /> 
+  <meta content="2018-04-26T04:30:18.054-0400" name="cq:lastModified" /> 
+  <meta content="khsingh" name="cq:lastModifiedBy" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2018-04-26T04:30:18.054-0400" name="locHandOffDate" /> 
+  <meta content="2018-04-25T11:15:33.756-0400" name="publishExternalDate" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/whats_new_krs_workflow_c77e08fb6f309c49_23_report.xml" name="acrolinxReportURL" /> 
+  <meta content="2018-04-25T11:15:33.756-0400" name="topicBrowsingSortDate" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="Summary of new features and enhancements in AEM 6.4 Forms." name="jcr:description" /> 
+  <meta content="vishgupt" name="contentOwner" /> 
+  <meta content="4621" name="acrolinxWords" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2016-12-22T04:58:26.810-0500" name="acrolinxDate" /> 
+  <meta content="New features summary | AEM 6.4 Forms" name="jcr:title" /> 
+  <meta content="vishgupt@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/introduction;/content/help/en/experience-manager/6-4/forms/morehelp/introduction" name="moreHelpPaths" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:introduction" name="cq:tags" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="7b9f9cbc-e999-4a5c-a06d-49f36f1b78a1" name="jcr:uuid" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2018-03-12T09:02:27.553-0400" name="jcr:created" /> 
+  <meta content="362" name="acrolinxSentences" /> 
+  <meta content="yellow" name="acrolinxPageStatus" /> 
+  <meta content="vishgupt" name="cq:lastReplicatedBy" /> 
+  <meta content="2016-12-23T01:40:22.763-0500" name="firstPublishExternalDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2018-04-25T11:15:33.756-0400" name="lastPublishExternalDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/whats-new.html" name="publishExternalURL" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="en" name="pageCreatedAt" /> 
+  <meta content="2018-04-25T11:15:33.804-0400" name="cq:lastReplicated" /> 
+ </head> 
+ <body> 
+  <p>AEM Forms includes several new features and enhancements that further streamline creation, management, and user experiences with adaptive forms and interactive communications.</p>  
+  <p>Read on for quick introduction to new features and enhancements. Visit documentation for resources offering details. Also, see AEM 6.4 Forms <a href="../../release-notes/forms.md" target="_blank">release notes</a>. For complete AEM 6.4 Forms documentation, visit <a href="/forms/user-guide" target="_blank">AEM 6.4 Forms User Guide</a>.</p> 
+  <h2>Interactive Communications</h2>  
+  <img imageRotate="0" src="assets/correspondence-management.png" /> 
+  <p>Interactive Communications centralizes and manages the creation, assembly, and delivery of secure, personalized, and interactive correspondences such as business correspondence, letters, documents, statements, benefit notices, wealth management prospectus, marketing mails, bills, and welcome kits.</p> 
+  <p>Interactive Communications uses the same underlying technology, processes, and components as that of adaptive forms, to create responsive multi-channel communications, much like responsive adaptive forms.</p> 
+  <p>Interactive communication offers significant advantages: </p> 
+  <ul> 
+   <li>Provides OOTB integration with Form Data Model to enable easy and streamlined access to back end databases and other CRM systems such as MS Dynamics</li> 
+   <li>Provides an integrated authoring interface for print and web channels<br /> </li> 
+   <li>Provides drag-and-drop based authoring interface, similar to Adaptive Forms authoring, for both print and web channels.</li> 
+  </ul> 
+  <p>Interactive communication is the default and recommended approach to create customer communications. To continue using the letters in AEM 6.3 Forms and AEM 6.2 Forms, you need to install a compatibility package.</p> 
+  <h3>Multi-channel interactive communication authoring</h3> 
+  <p>Using interactive communication, you can author and edit both print and web documents from a single document editor. By utilizing the same document fragments to build renditions of both the channels, you can eliminate effort duplication. </p> 
+  <a href="assets/printweb_2-1.png"><img captionBottom="Click to enlarge" imageRotate="0" src="assets/printweb_2.png" /></a> 
+  <p>For more information, see <a href="../../forms/using/interactive-communications-overview.md" target="_blank">Interactive Communications Overview</a>. </p> 
+  <h3>WYSIWYG Document Editor</h3> 
+  <p>The WYSIWYG drag-and-drop document editor is business friendly. The intuitive interface, drag-and-drop functionality, standard components, data models, and integrated repository for assets facilitate quick and easy authoring of interactive communication.</p> 
+  <p>To create an Interactive communication or edit an existing one, business users can use the following building blocks: Channels, Content, Properties, Assets, Components, and Data Sources.</p> 
+  <img imageRotate="0" src="assets/drag-n-drop-lf.png" /> 
+  <p>For more information, see <a href="../../forms/using/introduction-interactive-communication-authoring.md" target="_blank">Introduction to authoring Interactive Communication</a>.</p> 
+  <h3>Auto generate web version from print content in interactive communication</h3> 
+  <p>Authors can auto generate web document content from print documents to author, preview, and edit both print and web documents in the same editor. Interactive communication authors can create once and publish to all channels. Interactive communication authors can use the same document fragments in the print and web channel to prevent duplication of effort. </p> 
+  <p>For more information, see <a href="../../forms/using/web-channel-print-channel.md" target="_blank">Print channel and web channel</a>.</p> 
+  <h3>Use themes to style web channel of interactive communication</h3> 
+  <p>Interactive communication supports themes. You can create themes and apply them to your interactive communication. A theme contains styling details for components and panels. You can reuse a theme on different interactive communications to give them common and consistent appearance and branding. </p> 
+  <p>AEM Forms includes an out of the box theme for Interactive Communications. Using a theme, you can also customize how an interactive communication looks on a device. </p> 
+  <p>For more information, see <a href="../../forms/using/themes.md" target="_blank">Themes in AEM Forms</a>.</p> 
+  <h3>Enhanced Agent interface</h3> 
+  <p>The Agent user interface now supports print and web preview of the interactive communication. From the same Agent user interface, you can choose to edit print channel and preview web channel of your multi-channel interactive communication. Fields, variables, FDM elements, and document fragments in the print channel can be configured to be modified by the agent in the Agent user interface. Form data model support allows you to generate previews with prefilled sample data.</p> 
+  <p>For more information, see <a href="../../forms/using/prepare-send-interactive-communication.md" target="_blank">Prepare and send Interactive Communication using the Agent UI</a>.</p> 
+  <h3>Present information in charts</h3> 
+  <p>Interactive communication supports charts in web and the print channel for richer communications. Using charts such as pie, donut, bar, and column, you can condense and visually present large amounts of information for easy interpretation and analysis. </p> 
+  <img imageRotate="0" src="assets/chart-2.png" /> 
+  <img imageRotate="0" src="assets/chart.png" /> 
+  <p>For more information, see <a href="../../forms/using/chart-component-interactive-communications.md" target="_blank">Using charts in Interactive Communications</a>.</p> 
+  <h3>Out-of-the-box data connectors to prefill documents</h3> 
+  <p>Interactive communication provides data integration with business tools to connect with multiple business systems including CRM Systems and personalize data into documents. </p> 
+  <img imageRotate="0" src="assets/fdm_ad.png" /> 
+  <p>For more information, see <a href="../../forms/using/using-form-data-model.md" target="_blank">Use form data model</a>.</p> 
+  <h3>Enhanced document fragment editor</h3> 
+  <p>You can now use FDM elements and rules within document fragments of interactive communication.</p> 
+  <ul> 
+   <li>Support for form data model elements </li> 
+   <li>Show or hide an asset/text fragment using rules</li> 
+   <li>Validate value of an element/variable</li> 
+   <li>Execute functions to compute value of a mathematical expression</li> 
+  </ul> 
+  <p>For more information, see:</p> 
+  <ul> 
+   <li><a href="../../forms/using/texts-interactive-communications.md" target="_blank">Texts in Interactive Communications</a></li> 
+   <li><a href="../../forms/using/conditions-interactive-communications.md" target="_blank">Conditions in Interactive Communications</a></li> 
+  </ul> 
+  <h3>Compatibility package for existing assets</h3> 
+  <p>By default, letter assets from the previous versions of AEM Forms are not supported in this release. If you intend to continue using the letters from AEM 6.3 Forms and AEM 6.2 Forms, you need to install Compatibility package.</p>  
+  <h2 id="data-integration">Data Integration</h2> 
+  <img imageRotate="0" src="assets/data-integeration-1.png" /> 
+  <p><a href="../../forms/using/data-integration.md" target="_blank">AEM Forms data integration</a> lets you configure disparate data sources; such as databases, RESTful or SOAP-based web services, and OData services; to create a form data model that you can use to bind data, prefill, and invoke services in adaptive forms and documents.</p> 
+  <p>There are several new features and enhancements in data integration in this release.<br /> </p> 
+  <h3>Create form data model without data source</h3> 
+  <p>Business users and form authors can now create a form data model including its entities and properties without configuring a data source, and can be used to author adaptive forms and documents. You can bind the form data model to data sources later. It eliminates dependencies on data sources to author forms and documents using form data model. </p> 
+  <p>Similarly, you can create entities and child properties in an existing form data model and bind them to corresponding entities and properties in a data source later.</p> 
+  <p>For more information, see <a href="../../forms/using/create-form-data-models.md" target="_blank">Create form data model</a>.</p> 
+  <h3>Create computed properties</h3> 
+  <p>Forms authors and developers can create computed properties in form data model. They enable you to compute a value for the property by creating rules or logic on data available in configured data sources. A rule is an expression that is evaluated when the data loads in the form data model or the values of the properties in the expression change. For example, a computed property called Installments computes the monthly amount to be paid for a loan based on the interest rate specified in the data source and the loan amount and tenure specified by the user in the form.</p> 
+  <p>A computed property resides locally in a form data model and does not exist in a data source. You can use computed properties in adaptive forms and interactive communications.</p> 
+  <p>For more information, see <a href="../../forms/using/work-with-form-data-model.md" target="_blank">Work with form data model</a>.</p> 
+  <h3>Preview forms and documents with sample data</h3> 
+  <p>Form data model lets you generate sample data for properties of all entities in a form data model. The generated data corresponds to the data types configured for the properties. When you preview an adaptive form or document associated with the form data model, it renders with prefilled sample data.</p> 
+  <p>The sample data is a set of random values that change every time you generate it. However, you can edit and save the sample data that persists even if you regenerate it. For example, if you edit and save the sample data for First Name and Last Name properties and later add another property or entity in the form data model and regenerate the sample data, the First Name and Last Name properties will show the saved values while the values for other properties are regenerated.</p> 
+  <p>For details, see <a href="../../forms/using/using-form-data-model.md" target="_blank">Use form data model</a>.</p> 
+  <h3>Refresh data source definitions</h3> 
+  <p>Any update in data source entities or properties does not automatically reflect in associated form data models. Form data model editor now features <img src="assets/refresh_forms_di.png" /> (Refresh Data Source Definitions) that invalidates the server cache and fetches updated schema from the data source to immediately reflect in the form data model.</p> 
+  <h3>Configure data sources using Touch user interface</h3> 
+  <p>With this release, the cloud services configuration for data sources is available in Touch user interface. Also, the location to configure cloud services has changed to <span class="uicontrol">Tools &amp;gt; Cloud Services &amp;gt; Data Sources</span>. See <a href="../../forms/using/configure-data-sources.md" target="_blank">Configure data sources</a>.</p> 
+  <h2>Adaptive Forms</h2> 
+  <img imageRotate="0" src="assets/simplification-of-authoring-forms-and-documents_hero-image_2.png" /> 
+  <h3>Improve performance of adaptive forms with enhanced lazy loading</h3> 
+  <p>The lazy loading functionality in adaptive forms defers initialization of form fragments until they are needed. It improves the performance of large forms by minimizing the time required to render a form resulting in better user experience.</p> 
+  <p>There are several enhancements to the lazy loading feature in this release:</p> 
+  <ul> 
+   <li>File attachment and Terms and conditions components are supported in form fragments with lazy loading enabled.</li> 
+   <li>Adaptive form fragments with lazy loading enabled are supported in repeatable panels.</li> 
+   <li>Adaptive forms with lazy loading enabled fragments are supported in AEM Forms app.</li> 
+  </ul> 
+  <h2>Forms-Centric AEM Workflows</h2> 
+  <img imageRotate="0" src="assets/aem-forms-workflow-on-osgi-.png" /> 
+  <p>With Forms-Centric AEM Workflows capability, you can rapidly build and deploy workflows for various tasks on the OSGi stack. You are no longer required to install the Process Management capability available on JEE stack, simplifying deployment and eliminating application server and infrastructure costs. For more information, see <a href="../../forms/using/aem-forms-workflow.md" target="_blank">Forms-centric workflows on OSGi</a>.</p> 
+  <p>Following are the enhancements in Forms-Centric AEM Workflows:· </p> 
+  <ul> 
+   <li>Workflow model editor is available in Touch user interface. It helps you reduce the time required to create form-centric AEM Workflows.</li> 
+   <li>Workflow step to send emails. For example, you can use the email step to send a document of record on completion of a workflow.</li> 
+   <li>Workflow step to use form data model services in a workflow model. This step allows you to invoke data integration services without writing any custom code. For example, you can invoke a GET service to obtain employee details from a database archives without writing any custom code.<br /> </li> 
+  </ul> 
+  <h2>AEM Forms App</h2> 
+  <img imageRotate="0" src="assets/aem-forms-app.png" /> 
+  <p>AEM Forms app allows field workers to synchronize their mobile devices with an AEM Forms server and work on their forms. The application works seamlessly when the device is offline by saving data locally on the device and synchronizing the data with the server when the device is back online. For more information, see <a href="../../forms/using/aem-forms-app.md" target="_blank">AEM Forms app</a>. </p> 
+  <p>Following are the improvements in AEM Forms app:</p> 
+  <ul> 
+   <li>Adaptive forms with lazy loading enabled fragments are supported in AEM Forms app.</li> 
+   <li>Adaptive forms with form data model are supported in AEM Forms app.</li> 
+  </ul> 
+  <h2>Document Security</h2> 
+  <img imageRotate="0" src="assets/aem-forms-document-security-.png" title="Document Security" /> 
+  <p>Using document security, you can safely distribute any information that you have saved in a supported format. Document security ensures that only authorized users can use your documents. The following are the major changes in document security: </p> 
+  <ul> 
+   <li>Document security provides a <a href="../../forms/using/document-security-offerings.md">Portable Protection Library (PPL)</a> to protect a document locally, without sending the document to AEM Forms server. Only security credentials and policy details travel over the network to AEM Forms server. AEM 6.4 Forms has introduced Portable Protection Library (PPL) in an OSGi bundle format. Now, you can directly install the PPL library on an AEM Forms server and use the capabilities of AEM and PPL in conjunction with each other.</li> 
+   <li>Document security C++ SDK and C++ PPL library can be compiled with Microsoft Visual Studio 2013. The previously supported version was Microsoft Visual Studio 2010.</li> 
+  </ul> 
+  <h2>Supported Platforms</h2> 
+  <p>AEM Forms can be set up using any combination of supported operating systems, application servers, databases, database drivers, JDK, LDAP servers, and email servers. The following are the major changes in supported platforms: </p> 
+  <p> </p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td>Component</td> 
+     <td>Support Added</td> 
+     <td>Support Removed</td> 
+    </tr> 
+    <tr> 
+     <td>Operating systems</td> 
+     <td> 
+      <ul> 
+       <li>Microsoft Windows Server 2016</li> 
+       <li>Oracle Linux 7 Update 3</li> 
+      </ul> </td> 
+     <td> 
+      <ul> 
+       <li>IBM AIX 7.2 <sup>[1]</sup><br /> </li> 
+       <li>Solaris 11 <sup>[1]</sup></li> 
+      </ul> </td> 
+    </tr> 
+    <tr> 
+     <td>Application servers<br /> </td> 
+     <td> 
+      <ul> 
+       <li>Red Hat JBoss EAP 7</li> 
+      </ul> </td> 
+     <td> 
+      <ul> 
+       <li>IBM Weblogic 12.1.3</li> 
+       <li>IBM WebSphere 8.5.5</li> 
+       <li>Red Hat JBoss EAP 6</li> 
+      </ul> </td> 
+    </tr> 
+    <tr> 
+     <td>Databases</td> 
+     <td> 
+      <ul> 
+       <li>Microsoft SQL Server 2016</li> 
+       <li>MySQL 5.7.19 and later</li> 
+       <li>IBM DB2 11.1</li> 
+       <li>Oracle Multitenant architecture</li> 
+      </ul> </td> 
+     <td> 
+      <ul> 
+       <li>Microsoft SQL Server 2012<br /> </li> 
+       <li>Microsoft SQL Server 2014</li> 
+       <li>MySQL 5.5</li> 
+       <li>IBM DB2 10.5<br /> </li> 
+      </ul> </td> 
+    </tr> 
+    <tr> 
+     <td>LDAP servers</td> 
+     <td> 
+      <ul> 
+       <li>Microsoft Active Directory 2016</li> 
+       <li>IBM Tivoli Directory Server 6.4</li> 
+      </ul> </td> 
+     <td> 
+      <ul> 
+       <li>Microsoft Active Directory 2008</li> 
+       <li>IBM Tivoli Directory Server 6.3</li> 
+       <li>Oracle Directory Server Enterprise Edition 7.0</li> 
+      </ul> </td> 
+    </tr> 
+    <tr> 
+     <td>Email servers</td> 
+     <td> 
+      <ul> 
+       <li>Microsoft Office 365</li> 
+      </ul> </td> 
+     <td> 
+      <ul> 
+       <li>Novell Groupwise 7</li> 
+      </ul> </td> 
+    </tr> 
+    <tr> 
+     <td>Connectors</td> 
+     <td> 
+      <ul> 
+       <li>Connector for Microsoft Sharepoint 2016</li> 
+       <li>Connector for EMC Documentum 7.3</li> 
+      </ul> </td> 
+     <td> 
+      <ul> 
+       <li>Connector for Microsoft Sharepoint 2007</li> 
+       <li>Connector for Microsoft Sharepoint 2010</li> 
+       <li>Connector for IBM Filenet 5.0</li> 
+       <li>Connector for EMC Documentum 6.7</li> 
+      </ul> </td> 
+    </tr> 
+    <tr> 
+     <td>Browsers</td> 
+     <td> 
+      <ul> 
+       <li>Apple Safari 11.x on macOS</li> 
+       <li>Apple Safari 11.x on iOS</li> 
+      </ul> </td> 
+     <td> 
+      <ul> 
+       <li>Blackberry browser for Blackberry Z30 and Q10 devices</li> 
+      </ul> </td> 
+    </tr> 
+    <tr> 
+     <td>AEM Forms app<br /> </td> 
+     <td> 
+      <ul> 
+       <li>Android 4.4 or higher</li> 
+       <li>Apple iOS 10 or higher</li> 
+      </ul> </td> 
+     <td> </td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <ol> 
+   <li>AIX and Solaris operating systems are available only for upgrade customers.</li> 
+  </ol>   
+ </body> 
+</html>

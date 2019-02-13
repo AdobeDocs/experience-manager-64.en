@@ -1,0 +1,142 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="jsyal" name="cq:lastModifiedBy" /> 
+  <meta content="2019-01-15T15:39:11.356-0500" name="jcr:created" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2018-11-27T19:51:29.203-0500" name="lastPublishExternalDate" /> 
+  <meta content="f6c3841a-0dc6-4cce-b158-9022e04bd2ea" name="jcr:uuid" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="Channel Level Activation - Single Event Playback" name="jcr:title" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SCREENS;topic_tags:authoring;content_type:reference" name="cq:tags" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="jsyal" name="contentOwner" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="true" name="noIndex" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/screens/using/channel-level-activation.html" name="publishExternalURL" /> 
+  <meta content="2018-11-27T19:45:48.957-0500" name="firstPublishExternalDate" /> 
+  <meta content="jsyal@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="en" name="pageCreatedAt" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2018-11-27T19:51:29.256-0500" name="cq:lastReplicated" /> 
+  <meta content="/content/help/en/experience-manager/6-4/screens/morehelp/authoring;/content/help/en/experience-manager/6-4/screens/morehelp/authoring" name="moreHelpPaths" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SCREENS" name="primaryProductTag" /> 
+  <meta content="4de17f41-81b1-4a78-966c-5806037b3c7e" name="jcr:predecessors" /> 
+  <meta content="2019-01-18T14:33:24.648-0500" name="cq:lastModified" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="jsyal" name="cq:lastReplicatedBy" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2018-11-27T19:51:29.203-0500" name="publishExternalDate" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="Follow this guide to understand channel level activation using single event playback." name="seoDescription" /> 
+  <meta content="2018-11-27T19:51:29.203-0500" name="topicBrowsingSortDate" /> 
+ </head> 
+ <body> 
+  <p>Using Channel Level Activation covers the following topics:</p> 
+  <ul> 
+   <li><strong><a href="/screens/using/channel-level-activation.html?cq_ck=1543343331251#Overview">Overview</a></strong></li> 
+   <li><strong><a href="/screens/using/channel-level-activation.html?cq_ck=1543343331251#UsingChannelLevelActivation">Using Channel Level Activation as a Single Event Playback</a></strong> 
+    <ul> 
+     <li><strong><a href="/screens/using/channel-level-activation.html?cq_ck=1543343331251#Prerequisites">Prerequisites</a></strong></li> 
+     <li><strong><a href="/screens/using/channel-level-activation.html?cq_ck=1543343331251#Implementation">Implementation</a><br /> </strong></li> 
+    </ul> </li> 
+   <li><strong><a href="/screens/using/channel-level-activation.html?cq_ck=1543343331251#ViewingtheResults">Viewing the Results</a></strong></li> 
+  </ul> 
+  <h2>Overview</h2> 
+  <p><strong><em>Channel Level Activation</em></strong> allows the channels to switch after a particluar set schedule. The single event channel replaces the main channel after a set schedule and plays for a particular time, until the main channel plays its content again.</p> 
+  <p>The following example provides a solution by focusing on the following key terms:</p> 
+  <ul> 
+   <li>a <strong><em>main sequence channel </em></strong>for the global sequence</li> 
+   <li>a<strong><em> single event channel </em></strong>that runs only once at a set time </li> 
+   <li>a<strong><em> set schedule and priority </em></strong>for the single playback event that occurs inside the main sequence channel</li> 
+  </ul> 
+  <h2>Using Channel Level Activation</h2> 
+  <p>The following section explains the creation of a single event playback inside a channel for an AEM Screens project.</p> 
+  <h3>Prerequisites</h3> 
+  <p>Before you start implementing this functionality, please make sure you have the following prerequisites ready to start implementing channel level activation:</p> 
+  <ul> 
+   <li>Create an AEM Screens project (in this example, <strong>Channel Level Activation</strong>)<br /> </li> 
+   <li>Create a channel as <strong>MainAdChannel</strong> under <strong>Channels</strong> folder</li> 
+   <li>Create another channel as <strong>TargetedSinglePlay</strong> under <strong>Channels</strong> folder<br /> </li> 
+   <li>Add relevant assets to both the channels</li> 
+  </ul> 
+  <p>The following image shows the <strong>Channel Level Activation</strong> project with <strong>MainAdChannel </strong>and<strong> </strong> <strong>TargetedSinglePlay </strong>channels in <strong>Channels</strong> folder.</p> 
+  <img imageRotate="0" src="assets/screen_shot_2018-11-27at104500am.png" /> 
+  <note> 
+   <p>For additional information on how to create a project and how to create a sequence channel, please refer to resources below:</p> 
+   <ul> 
+    <li><strong><a href="../../screens/using/creating-a-screens-project.md">Creating and Managing Projects</a><br /> </strong></li> 
+    <li><strong><a href="../../screens/using/managing-channels.md">Managing a Channel</a></strong></li> 
+   </ul> 
+  </note> 
+  <h3>Implementation</h3> 
+  <p>Implementing Channel Level Activation in an AEM Screens project involves three major tasks:</p> 
+  <ol> 
+   <li><strong>Setting up Project taxonomy including Channels, Locations, and Displays</strong></li> 
+   <li><strong>Assigning Channels to Display<br /> </strong></li> 
+   <li><strong>Setting up a Schedule and Priority <br /> </strong></li> 
+  </ol> 
+  <p>Follow the steps below to implement the functionality:</p> 
+  <ol> 
+   <li> <p>Navigate to your <strong>Locations</strong> folder in your AEM Screens project and create a location as <strong>Region</strong>.</p> <img imageRotate="0" src="assets/screen_shot_2018-11-27at112112am.png" /> 
+    <note> 
+     <p>To learn how to create a location, please refer to <strong><a href="../../screens/using/managing-locations.md">Creating and Managing Locations</a></strong>.</p> 
+    </note></li> 
+   <li> 
+    <ol> 
+     <li>Navigate to <strong>Channel Level Activation</strong> --&amp;gt; <strong>Locations</strong> --&amp;gt; <strong>Region</strong>.<br /> </li> 
+     <li>Select <strong>Region </strong>and click <strong>+ Create</strong> from the action bar.</li> 
+     <li>Select <strong>Display</strong> from the wizard and create a display titled as<strong> RegionDisplay.</strong></li> 
+    </ol> <img imageRotate="0" src="assets/screen_shot_2018-11-27at112216am.png" /></li> 
+   <li> <p>For <strong>MainAdChannel:</strong></p> 
+    <ol> 
+     <li>Navigate to <strong>Channel Level Activation</strong> --&amp;gt; <strong>Locations</strong> --&amp;gt; <strong>Region</strong> --&amp;gt; <strong>RegionDisplay</strong> and click <strong>Assign Channel</strong> from the action bar.</li> 
+     <li><strong>Channel Assignment</strong> dialog box opens.<br /> </li> 
+     <li>Select <strong>Reference Channel</strong>.. by path.</li> 
+     <li>Select the <strong>Channel Path</strong> as <strong>Channel Level Activation</strong><em> --&amp;gt; </em><strong>Channels</strong><em> --&amp;gt; </em><strong>MainAdChannel</strong><em>.</em><br /> </li> 
+     <li>The <strong>Channel Role</strong> is populated as <strong>mainadchannel</strong>.</li> 
+     <li>Select the <strong>Priority</strong> as <strong>1</strong>.<br /> </li> 
+     <li>Select the <strong>Supported Events</strong> as <strong>Initial Load</strong> and <strong>Idle Screen</strong>.<em><br /> </em></li> 
+     <li>Click <strong>Save</strong>.</li> 
+    </ol> <img imageRotate="0" src="assets/screen_shot_2018-11-27at124626pm.png" /> 
+    <note> 
+     <p>You can also assign channel from the display dashboard by navigating to <strong>Channel Level Activation</strong> --&amp;gt; <strong>Locations</strong> --&amp;gt; <strong>Region</strong> --&amp;gt; <strong>RegionDisplay </strong>and clicking <strong>Dashboard </strong>from the action bar. Click <strong>+ Assign Channel</strong> from the <strong>ASSIGNED CHANNELS &amp; SCHEDULES</strong> panel.</p> 
+    </note><p>Similarly, assign channel <strong>TargetedSinglePlay </strong>for display<strong>:</strong></p> 
+    <ol> 
+     <li>Navigate to <strong>Channel Level Activation</strong> --&amp;gt; <strong>Locations</strong> --&amp;gt; <strong>Region</strong> --&amp;gt; <strong>RegionDisplay</strong> and click <strong>Assign Channel</strong> from the action bar.</li> 
+     <li><strong>Channel Assignment</strong> dialog box opens.<br /> </li> 
+     <li>Select <strong>Reference Channel</strong>.. by path.</li> 
+     <li>Select the <strong>Channel Path</strong> as <strong>Channel Level Activation</strong><em> --&amp;gt; </em><strong>Channels</strong><em> --&amp;gt; </em><strong>TargetedSinglePlay</strong><em>.</em><br /> </li> 
+     <li>The <strong>Channel Role</strong> is populated as <strong>targetedsingleplay</strong>.</li> 
+     <li>Set the <strong>Priority</strong> as <strong>2</strong>.<br /> </li> 
+     <li>Select the <strong>Supported Events</strong> as <strong>Initial Load</strong>, <strong>Idle Screen </strong>and<strong> Timer</strong><em>, </em>as shown in the figure below.</li> 
+     <li>Choose the date in <strong>active from</strong> as November 27, 2018 11:59 pm and in <strong>active until</strong> as November 28, 2018 12:05 am.<em><br /> </em></li> 
+     <li>Click <strong>Save</strong>.<em><br /> </em></li> 
+    </ol> 
+    <note> 
+     <p>You must set the priority for <strong>TargetedSinglePlay</strong> channel higher than the <strong>MainAdSegment</strong> channel.</p> 
+    </note><img imageRotate="0" src="assets/screen_shot_2018-11-27at31206pm.png" /> 
+    <note> 
+     <p>To choose the same day, you have to select the next day and the manually edit the date to the same day but for a later time. This restricts the user from selecting a past date. Please refer to the example below:<br /> </p> 
+    </note><img imageRotate="0" src="assets/new1.gif" /></li> 
+  </ol> 
+  <h2>Viewing the Results</h2> 
+  <p>Once you have the set up for channels and display complete, please launch the AEM Screens player to view the content.</p> 
+  <p>The player displays the content of <strong>MainAdChannel</strong> and exactly at 11:59 pm (as set in the schedule), the <strong>TargetedSinglePlay</strong> channel will display its content until 12:05 am and then the <strong>MainAdChannel</strong> will resume playing its content again.</p> 
+  <note> 
+   <p>To learn about AEM Screen Player, please refer to the following resources:</p> 
+   <ul> 
+    <li><a href="https://download.macromedia.com/screens/"><strong>AEM Screens Player downloads</strong></a></li> 
+    <li><a href="../../sites/authoring/using/working-with-screens-player.md"><strong>Working with AEM Screens Player</strong></a></li> 
+   </ul> 
+  </note> 
+ </body> 
+</html>

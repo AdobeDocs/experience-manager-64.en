@@ -1,0 +1,433 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2017-12-01T19:07:30.340-0500" name="jcr:created" /> 
+  <meta content="2018-04-26T04:24:28.824-0400" name="locHandOffDate" /> 
+  <meta content="Learn how to configure Adobe PDF settings." name="seoDescription" /> 
+  <meta content="2018-04-03T09:09:45.023-0400" name="cq:lastReplicated" /> 
+  <meta content="2018-04-26T04:24:28.825-0400" name="cq:lastModified" /> 
+  <meta content="yellow" name="acrolinxPageStatus" /> 
+  <meta content="2017-10-31T16:32:23.241-0400" name="lastPublishExternalDate" /> 
+  <meta content="Configuring Adobe PDF settings" name="navTitle" /> 
+  <meta content="7289" name="acrolinxWords" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="topicBrowsingSortDate" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="fdbc2f2e-9121-4690-b49e-0208f7221228" name="jcr:uuid" /> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/working_with_pdf_generator;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="sortDate" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/forms/using/admin-help/configuring-pdf-settings.html" name="publishExternalURL" /> 
+  <meta content="admin" name="lr_creator" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/using/morehelp/working_with_pdf_generator;/content/help/en/experience-manager/6-4/forms/using/morehelp/working_with_pdf_generator" name="moreHelpPaths" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7e86.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7e78.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7e77.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7e75.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7e74.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7e71.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-71590aba12905cdf53a-7feb.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-71590aba12905cdf53a-7fea.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7e70.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7e6f.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-71590aba12905cdf53a-7fe7.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7e6e.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-71590aba12905cdf53a-7fe5.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-71590aba12905cdf53a-7fe4.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-71590aba12905cdf53a-7fe3.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-71590aba12905cdf53a-7fe2.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7e6d.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7e6c.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-71590aba12905cdf53a-7fdf.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-71590aba12905cdf53a-7fde.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7e6b.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-71590aba12905cdf53a-7fdc.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-71590aba12905cdf53a-7fdb.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-71590aba12905cdf53a-7fda.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7e73.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-71590aba12905cdf53a-7fd8.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-71590aba12905cdf53a-7fd7.2" name="cq:gepId" /> 
+  <meta content="419" name="acrolinxSentences" /> 
+  <meta content="Configuring Adobe PDF settings" name="jcr:title" /> 
+  <meta content="2017-10-31T16:32:23.241-0400" name="publishExternalDate" /> 
+  <meta content="2016-05-31T06:57:17.687-0400" name="acrolinxDate" /> 
+  <meta content="admin" name="lr_lastModifiedBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="2016-04-20T10:02:20.653-0400" name="firstPublishExternalDate" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="admin" name="contentOwner" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2016-02-05T03:27:18.185-0500" name="lr_lastModified" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="07b778fd-103d-438f-9ea8-18a8f187836f" name="jcr:predecessors" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/configuring_pdf_settings_admin_5e12de0b318c6865_2294_report.xml" name="acrolinxReportURL" /> 
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="en_us" name="jcr:language" /> 
+ </head> 
+ <body> 
+  <p>The Adobe PDF Settings page shows the conversion settings that you can specify for your sources to use. You can use any of the predefined PDF settings or create your own. The PDF settings determine precisely how files are converted and their resultant PDF structure and features. Adobe PDF settings were previously known as Distiller® parameters or job options. </p> 
+  <p>On the Adobe PDF Settings page, you can do the following tasks: </p> 
+  <ul> 
+   <li><p>View the predefined PDF settings. (See <a href="configuring-pdf-settings#about_the_predefined_pdf_settings">About the predefined PDF settings</a>.)</p> </li> 
+   <li><p>Create a PDF setting or edit one that you created previously. (See <a href="configuring-pdf-settings#add_or_edit_pdf_settings">Add or edit PDF settings</a>.)</p> </li> 
+   <li><p>Specify default PDF settings. (See <a href="../../../forms/using/admin-help/configuring-file-type-settings.md#main-pars-header-1872905633" target="_blank">Change the default settings</a>)</p> </li> 
+   <li><p>Upload a PDF settings file to the server. (See <a href="configuring-pdf-settings#upload_pdf_settings">Upload PDF settings</a>.)</p> </li> 
+   <li><p>Delete customized PDF settings. (See <a href="configuring-pdf-settings#delete_pdf_settings">Delete PDF settings</a>.)</p> </li> 
+   <li><p>Upload and download prologue and epilogue files. (See <a href="configuring-pdf-settings#uploading_and_downloading_prologue_and_epilogue_files">Uploading and downloading prologue and epilogue files</a>.)</p> </li> 
+  </ul> 
+  <p>Adobe PDF settings are applicable only to the PDFMaker based conversions. These include the following conversions: </p> 
+  <ul> 
+   <li><p>Microsoft Word document (DOC, DOCX, RTF, TXT) </p></li> 
+   <li><p>Microsoft Excel document (XLS, XLSX)</p></li> 
+   <li><p>Microsoft PowerPoint document (PPT, PPTX)</p></li> 
+   <li><p>Microsoft Project document (MPP)</p></li> 
+   <li><p>Microsoft Visio document (VSD) </p></li> 
+  </ul> 
+  <note> 
+   <p>On using OpenOffice to convert above formats, Adobe PDF settings are not applied. </p> 
+  </note> 
+  <h2 id="about_the_predefined_pdf_settings">About the predefined PDF settings</h2> 
+  <p></p> 
+  <p>PDF Generator provides several predefined PDF settings for your use. You cannot modify these predefined settings; however, you can create a setting based on an existing one by editing the setting and saving it under a new name. </p> 
+  <p><strong>High Quality Print:</strong> Creates PDF files for high-quality output. This setting:</p> 
+  <ul> 
+   <li><p>downsamples color and grayscale images at 300 dpi </p></li> 
+   <li><p>downsamples monochrome images at 1200 dpi</p></li> 
+   <li><p>prints to a higher image resolution</p></li> 
+   <li><p>uses other settings to preserve the maximum amount of information about the original document. </p></li> 
+  </ul> 
+  <p>These PDF files can be opened in Adobe Acrobat 5 and Adobe Acrobat Reader® 5 or later. </p> 
+  <p><strong>Oversized Pages:</strong> Creates PDF documents that are suitable for reliable viewing and printing of engineering drawings that are larger than 200 x 200 inches. Created PDF documents can be opened in Adobe Acrobat Professional and Acrobat Standard, version 7 or later, and Adobe Reader 7 or later.</p> 
+  <p><strong>PDF/A-1B 2005 CMYK / PDF/A-1B 2005 RGB:</strong> Checks incoming jobs for compliance to the ISO standard for long-term preservation (archival) of electronic documents and creates PDF/A files only if compliant. These files are primarily used for archiving. Compliant files can contain only text, raster images, and vector objects; they cannot contain encryption and scripts. In addition, all fonts must be embedded so that the documents can be opened and viewed as created. PDF/A-1b uses PDF 1.4 and converts all colors to either CMYK or RGB, depending on which standard you choose. PDF files that are created with this settings file can be opened in Acrobat 5 and Acrobat Reader 5 and later. For more information about PDF/A, see Adobe and industry standards.</p> 
+  <p><strong>PDF/X-1a 2001:</strong> Checks incoming jobs for PDF/X-1a compliance, and creates PDF files only if compliant. PDF/X-1a is an ISO standard for graphic content exchange. PDF/X-1a requires all fonts to be embedded, the appropriate PDF boxes to be specified, and color to appear as either CMYK or spot colors. PDF files that meet PDF/X-1a requirements are targeted to a specific output condition, such as web offset printing according to Specifications Web Offset Publications. For more information about PDF/X, see Adobe and industry standards.</p> 
+  <p><strong>PDF/X-3 2002:</strong> Checks incoming jobs for PDF/X-3 compliance and creates PDF files only if compliant. Like PDF/X-1a, PDF/X-3 is an ISO standard for graphic content exchange. The main difference is that PDF/X-3 supports device-independent color.</p> 
+  <p><strong>Press Quality:</strong> Creates PDF files for high-quality print production (for example, on an imagesetter or platesetter). In this case, file size is not a consideration. The objective is to maintain all the information in a PDF file that a commercial printer or prepress service provider needs to print the document correctly. This set of options:</p> 
+  <ul> 
+   <li><p>downsamples color and grayscale images at 300 dpi </p></li> 
+   <li><p>downsamples monochrome images at 1200 dpi</p></li> 
+   <li><p>embeds subsets of all fonts used in the document</p></li> 
+   <li><p>prints to a higher image resolution,</p></li> 
+   <li><p>does not automatically rotate pages based on the orientation of the text or document structuring conventions (DSC) comments</p></li> 
+   <li><p>uses other settings to preserve the maximum amount of information about the original document. </p></li> 
+  </ul> 
+  <p>Print jobs fail if they have fonts that cannot be embedded. These PDF files can be opened in Acrobat 5 and Acrobat Reader 5 and later. </p> 
+  <p><i><strong>Note</strong>: Before you create a PDF file to send to a commercial printer or prepress service provider, determine the output resolution and other settings, or request a .joboptions file with the recommended settings. You may need to customize the Adobe PDF settings for a particular provider and then provide a .joboptions file of your own. </i></p> 
+  <p><strong>Smallest File Size:</strong> Creates PDF files for displaying on the web or an intranet, or for distribution through an email system for onscreen viewing. This set of options uses compression, downsampling, and a relatively low image resolution. It converts all colors to sRGB and does not embed fonts unless necessary. It also optimizes files for byte serving. These PDF files can be opened in Acrobat 5 and Acrobat Reader 5.0 and later.</p> 
+  <p><strong>Standard:</strong> Creates PDF files to print to desktop printers or digital copiers, publish on a CD, or send to a client as a publishing proof. This set of options uses compression and downsampling to reduce the file size. It also embeds subsets of all fonts that are used in the file, converts all colors to sRGB, and prints to a medium resolution to create a reasonably accurate rendition of the original document. Notice that Microsoft Windows font subsets are not embedded by default. These PDF files can be opened in Acrobat 5 and Acrobat Reader 5.0 and later.</p> 
+  <h2 id="add_or_edit_pdf_settings">Add or edit PDF settings</h2> 
+  <p></p> 
+  <p>PDF settings determine precisely how files are converted and their resultant PDF structure and features. Define a new PDF setting or edit one that you created previously. You cannot modify predefined settings, but you can create a setting based on an existing one by editing the setting and saving it under a new name.</p> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; PDF Generator &amp;gt; Adobe PDF Settings. </p></li> 
+   <li><p>Either click New or click the name of an existing setting.</p></li> 
+   <li><p>On the New/Edit Adobe PDF Setting page, complete the required information in these sections:</p><p>To go to another section, click its link on the web page or use the Next and Previous buttons. </p></li> 
+   <li><p>After you complete the information in all sections, click Save or Save As and provide a name for the setting.</p></li> 
+  </ol> 
+  <h2 id="upload_pdf_settings">Upload PDF settings</h2> 
+  <p></p> 
+  <p>You can have PDF settings available on the PDF Generator server by uploading them from a local computer or a network location. </p> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; PDF Generator &amp;gt; Adobe PDF Settings, and click Upload.</p></li> 
+   <li><p>On the Upload Adobe PDF Setting page, click Browse, locate the PDF settings file, and click Open.</p></li> 
+   <li><p>Click OK and then click OK again.</p></li> 
+  </ol> 
+  <h2 id="delete_pdf_settings">Delete PDF settings</h2> 
+  <p></p> 
+  <p>You can permanently delete PDF settings if they are no longer required.</p> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; PDF Generator &amp;gt; Adobe PDF Settings.</p></li> 
+   <li><p>Select the check box beside the setting to delete. You can select multiple settings.</p></li> 
+   <li><p>Click Delete and, on the Delete Confirmation page, click Delete again.</p></li> 
+  </ol> 
+  <h2 id="general_options">General options</h2> 
+  <p></p> 
+  <p>Use the general options to specify the version of Acrobat to use for file compatibility and other file and device options. For instructions about accessing the General options, see <a href="configuring-pdf-settings#add_or_edit_pdf_settings">Add or edit PDF settings</a>.</p> 
+  <h3 id="file_options">File Options</h3> 
+  <p></p> 
+  <p><strong>Compatibility:</strong> The compatibility level of the PDF file. For documents that will be widely distributed, consider selecting Acrobat 4 (PDF 1.3) or Acrobat 5 (PDF 1.4) to ensure that all users can view and print the document. If you create files by using Acrobat 5 compatibility or later, they may not be compatible with earlier versions of Acrobat. The following subsections show some of the differences between PDF files that are created using different levels of Acrobat compatibility.</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <th><p>Acrobat 4 (PDF 1.3)</p> </th> 
+     <th><p>Acrobat 5 (PDF 1.4)</p> </th> 
+     <th><p>Acrobat 6 (PDF 1.5)</p> </th> 
+     <th><p>Acrobat 7 (PDF 1.6) and Acrobat 8 (PDF 1.7)</p> </th> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="NaN%"><p>Can be opened with Acrobat 3.0 and Acrobat Reader 3.0 and later.</p> </td> 
+     <td valign="top" width="NaN%"><p>Can be opened with Acrobat 3.0 and Acrobat Reader 3.0 and later. Features specific to later versions may be lost or not viewable.</p> </td> 
+     <td valign="top" width="NaN%"><p>Most can be opened with Acrobat 4 and Acrobat Reader 4.0 and later. Features specific to later versions may be lost or not viewable.</p> </td> 
+     <td valign="top" width="NaN%"><p>Most can be opened with Acrobat 4 and Acrobat Reader 4.0 and later. Features specific to later versions may be lost or not viewable.</p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="NaN%"><p>Cannot contain artwork that uses live transparency effects. Any transparency must be flattened before converting to PDF 1.3.</p> </td> 
+     <td valign="top" width="NaN%"><p>Supports the use of live transparency in artwork. (Acrobat Distiller feature flattens transparency.)</p> </td> 
+     <td valign="top" width="NaN%"><p>Supports the use of live transparency in artwork. (Acrobat Distiller feature flattens transparency.)</p> </td> 
+     <td valign="top" width="NaN%"><p>Supports the use of live transparency in artwork. (Acrobat Distiller feature flattens transparency.)</p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="NaN%"><p>Layers are not supported.</p> </td> 
+     <td valign="top" width="NaN%"><p>Layers are not supported.</p> </td> 
+     <td valign="top" width="NaN%"><p>Preserves layers when you create PDF files from applications that support the generation of layered PDF documents, such as Adobe Illustrator® CS or Adobe InDesign® CS and later.</p> </td> 
+     <td valign="top" width="NaN%"><p>Preserves layers when you create PDF files from applications that support the generation of layered PDF documents, such as Illustrator CS or InDesign CS and later.</p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="NaN%"><p>DeviceN color space with 8 colorants is supported.</p> </td> 
+     <td valign="top" width="NaN%"><p>DeviceN color space with 8 colorants is supported.</p> </td> 
+     <td valign="top" width="NaN%"><p>DeviceN color space with up to 31 colorants is supported.</p> </td> 
+     <td valign="top" width="NaN%"><p>DeviceN color space with up to 31 colorants is supported.</p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="NaN%"><p>Multibyte fonts can be embedded. (Distiller converts the fonts when embedding.)</p> </td> 
+     <td valign="top" width="NaN%"><p>Multibyte fonts can be embedded.</p> </td> 
+     <td valign="top" width="NaN%"><p>Multibyte fonts can be embedded.</p> </td> 
+     <td valign="top" width="NaN%"><p>Multibyte fonts can be embedded.</p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="NaN%"><p>40-bit RC4 security is supported.</p> </td> 
+     <td valign="top" width="NaN%"><p>128-bit RC4 security is supported.</p> </td> 
+     <td valign="top" width="NaN%"><p>128-bit RC4 security is supported.</p> </td> 
+     <td valign="top" width="NaN%"><p>128-bit RC4 and 128-bit AES (Advanced Encryption Standard) security supported.</p> </td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <p><strong>Object Level Compression:</strong> Consolidates small objects (each of which are not compressible itself) into streams that can then be efficiently compressed.</p> 
+  <p><strong>Off:</strong> Does not compress any structural information in the PDF document. Select this option if you want users to view, navigate, and interact with bookmarks and other structural information by using Acrobat 5 and later.</p> 
+  <p><strong>Tags Only:</strong> Compresses structural information in the PDF document. Using this option results in a PDF file that can be opened and printed by using Acrobat 5. Users cannot view any accessibility, structure, or tagged PDF information in Acrobat 5 or Acrobat Reader 5.0, but they can view this information in Acrobat 6 and Adobe Reader 6.0.</p> 
+  <p><strong>Auto-Rotate Pages:</strong> Sets the automatic rotation of pages based on the orientation of the text or DSC comments. For example, some pages (such as pages that contain tables) may require the user to turn them sideways to read them. Select Individually to rotate each page based on the direction of the text on that page. Select Collectively By File to rotate all pages in the document based on the orientation of most text.</p> 
+  <p><i><strong>Note</strong>: If Process DSC Comments is selected in the Advanced settings and if %%Viewing Orientation comments are included, these comments take precedence in determining page orientation.</i></p> 
+  <p><strong>Binding:</strong> Specifies whether to display a PDF file with left-side or right-side binding. This setting affects the display of pages in the Facing Page - Continuous layout and the display of thumbnails side by side.</p> 
+  <p><strong>Resolution:</strong> Sets the emulation for the resolution of a printer for input files that adjust their behavior according to the resolution of the printer they are printing to. For most input files, a higher resolution setting results in larger but higher-quality PDF files, and a lower setting results in smaller but lower-quality PDF files. Most commonly, resolution determines the number of steps in a gradient or blend. You can enter a value from 72 to 4000. Keep this setting as the default unless you plan to print the PDF file to a specific printer and you want to emulate the resolution defined in the original input file.</p> 
+  <p><i><strong>Note</strong>: Increasing the resolution setting increases file size and may slightly increase the time required to process some files.</i></p> 
+  <p><strong>All Pages or Pages From:</strong> Specifies which pages to convert. Leave the To box empty to create a range from the page number you enter in the From box to the end of the file.</p> 
+  <p><strong>Optimize For Fast Web View:</strong> Restructures the file for page-at-a-time downloading (byte serving) from web servers. This option compresses text and line art, regardless of what you selected as compression settings on the Images tab. Compression results in faster access and viewing when downloading the file from the web or a network. By default, this option is not enabled.</p> 
+  <h3 id="default_page_size">Default Page Size</h3> 
+  <p></p> 
+  <p>The Default Page Size options specify the page size to use when one is not specified in the original file. Typically, Adobe PostScript files include this information, except for Encapsulated PostScript (EPS) files, which give a bounding box size but not a page size. The maximum page size allowed is 15,000,000 inches (31,800,000 cm) in either direction. These options configure the default page size: </p> 
+  <p><strong>Width:</strong> Width of the page</p> 
+  <p><strong>Height:</strong> Height of the page</p> 
+  <p><strong>Units:</strong> Units to use for the width and height settings</p> 
+  <h2 id="images_options">Images options</h2> 
+  <p></p> 
+  <p>The Images options specify compression and resampling for images. You can experiment with these options to find an appropriate balance between file size and image quality. For instructions about accessing the Images settings, see <a href="configuring-pdf-settings#add_or_edit_pdf_settings">Add or edit PDF settings</a>. </p> 
+  <p>These options configure color, grayscale, and monochrome images: </p> 
+  <p><strong>Downsample:</strong> Set a value for each type of image. To downsample color, grayscale, or monochrome images, PDF Generator combines pixels in a sample area to make one larger pixel. Provide the resolution of your output device in dots per inch (dpi) and enter a resolution in dpi in the For Images Above box. For images with a resolution above this threshold, PDF Generator combines pixels, as needed, to reduce the resolution of the image (pixels per inch) to the specified dpi setting. To turn off downsampling, select Off. Here are the options:</p> 
+  <p><strong>Average Downsampling To:</strong> Averages the pixels in a sample area and replaces the entire area with the average pixel color at the specified resolution.</p> 
+  <p><strong>Bicubic Downsampling To:</strong> Uses a weighted average to determine pixel color and usually yields better results than the simple averaging method of downsampling. Bicubic is the slowest but most precise method and results in the smoothest tonal gradations.</p> 
+  <p><strong>Subsampling To:</strong> Selects a pixel in the center of the sample area and replaces the entire area with that pixel at the specified resolution. Subsampling significantly reduces the conversion time compared to downsampling, but it results in images that are less smooth and continuous.</p> 
+  <p>The resolution setting for color and grayscale should be 1.5 to 2 times the line screen ruling that the file will be printed at. (Providing you do not go below this recommended resolution setting, images that contain no straight lines, or geometric or repeating patterns, are not affected by a lower resolution.) The resolution for monochrome images should be the same as the output device. However, be aware that saving a monochrome image at a resolution higher than 1500 dpi increases the file size without noticeably improving image quality.</p> 
+  <p>Also consider whether users need to magnify a page. For example, if you are creating a PDF document of a map, consider using a higher image resolution so that users can zoom in on the map.</p> 
+  <p><em><strong>Note</strong>: Resampling monochrome images can have unexpected viewing results, such as no image display. If this problem occurs, turn off resampling and convert the file again. This problem is most likely to occur with subsampling and least likely to occur with bicubic downsampling.</em></p> 
+  <p>This table shows contains types of printers and their resolution measured in dpi, their default screen ruling measured in lines per inch (lpi), and a resampling resolution for images that are measured in pixels per inch (ppi). For example, to print to a 600-dpi laser printer, enter 170 for the resolution to resample images at.</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <th><p>Printer resolution</p> </th> 
+     <th><p>Default line screen</p> </th> 
+     <th><p>Image resolution</p> </th> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="NaN%"><p>300 dpi (laser printer)</p> </td> 
+     <td valign="top" width="NaN%"><p>60 lpi</p> </td> 
+     <td valign="top" width="NaN%"><p>120 ppi</p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="NaN%"><p>600 dpi (laser printer)</p> </td> 
+     <td valign="top" width="NaN%"><p>85 lpi</p> </td> 
+     <td valign="top" width="NaN%"><p>170 ppi</p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="NaN%"><p>1200 dpi (imagesetter)</p> </td> 
+     <td valign="top" width="NaN%"><p>120 lpi</p> </td> 
+     <td valign="top" width="NaN%"><p>240 ppi</p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="NaN%"><p>2400 dpi (imagesetter)</p> </td> 
+     <td valign="top" width="NaN%"><p>150 lpi</p> </td> 
+     <td valign="top" width="NaN%"><p>300 ppi</p> </td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <p><strong>Compression:</strong> Set a value to apply to color, grayscale, and monochrome images. For color and grayscale images, also set the image quality:</p> 
+  <ul> 
+   <li><p>For color or grayscale images, select ZIP to apply compression that works well on images that have large areas of single colors or repeating patterns. Examples are screen shots, simple images created with paint programs, and monochrome images that contain repeating patterns. Select JPEG, quality minimum to maximum, to apply compression that is suitable for grayscale or color images, such as continuous-tone photographs that contain more detail than can be reproduced on the screen or in print. Select Automatic (JPEG) to automatically determine the best quality for color and grayscale images. </p></li> 
+   <li><p>For monochrome images, select CCITT Group 4, CCITT Group 3, ZIP, JPEG200, Automatic (JPEG2000), or Run Length compression.</p></li> 
+  </ul> 
+  <p>Make sure that monochrome images are scanned as monochrome and not as grayscale. Scanned text is sometimes saved as grayscale images by default. Grayscale text that is compressed with the JPEG compression method is not clear and may be unreadable. </p> 
+  <p><strong>Image Quality:</strong> Configures the image quality for color and grayscale images. The options are minimum, low, medium, high, and maximum.</p> 
+  <p><strong>Anti-alias To Gray:</strong> Smooths jagged edges in monochrome images. Select 2 bit, 4 bit, or 8 bit to specify 4, 16, or 256 levels of gray. (Anti-aliasing may blur small type or thin lines.)</p> 
+  <p><i><strong>Note</strong>: Compression of text and line art is always on.</i></p> 
+  <p><strong>Image Policy:</strong> Set a policy for color, grayscale, and monochrome images. If the image resolution falls below the specified resolution, you can still select to proceed (Ignore), provide a warning message, or cancel the job.</p> 
+  <h2 id="fonts_options">Fonts options</h2> 
+  <p></p> 
+  <p>The Fonts options specify which fonts to embed in a PDF file and whether to embed a subset of characters that are used in the PDF file. For instructions about accessing the Fonts options, see <a href="configuring-pdf-settings#add_or_edit_pdf_settings">Add or edit PDF settings</a>.</p> 
+  <note> 
+   <p>When you combine PDF files with the same font subset, PDF Generator attempts to combine the font subsets.</p> 
+  </note> 
+  <p><strong>Embed All Fonts:</strong> Embeds all fonts that are used in the file. Font embedding is required for PDF/X compliance.</p> 
+  <p><strong>Subset Embedded Fonts When Percent Of Characters Used&amp;#xA;Is Less Than:</strong> If you select this option, specify a threshold percentage to embed only a subset of the fonts. For example, if the threshold is 35 and less than 35% of the characters are used, PDF Generator embeds only those characters. Only fonts with appropriate permission bits are embedded.</p> 
+  <p><strong>When Embedding Fails:</strong> Specifies how PDF Generator responds if it cannot find a font to embed when processing a file. You can have PDF Generator ignore the request and substitute the font, warn you and substitute the font, or cancel processing of the current job.</p> 
+  <p><strong>Font Source:</strong> The location of the fonts that PDF Generator uses.</p> 
+  <h3 id="specify_which_fonts_to_embed">Specify which fonts to embed</h3> 
+  <p></p> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; PDF Generator &amp;gt; Adobe PDF Settings.</p></li> 
+   <li><p>Click New or click the name of a setting.</p></li> 
+   <li><p>Click Fonts and deselect Embed all fonts. </p></li> 
+   <li><p>From the Font source list, select a font source and click Go to refresh the list of fonts in the box on the left. </p></li> 
+   <li><p>Click a font in the box on the left. Then click Add beside the appropriate box to move it to the Always Embed list or Never Embed list. Repeat for each font. Use Ctrl-click to select multiple fonts to move. </p></li> 
+   <li><p>To remove a font from the Always Embed or Never Embed list, select it and click Remove beside the appropriate box. This action does not remove the font from your system; it just removes the reference to it in the list.</p></li> 
+   <li><p>If the font you want to specify does not appear, type its name in the Add Font box, and then click Always Embed or Never Embed. Font names cannot contain alphanumeric characters.</p></li> 
+  </ol> 
+  <note> 
+   <p>A TrueType font can contain a setting that the font designer added that prevents the font from being embedded in PDF files.</p> 
+  </note> 
+  <note> 
+   <p>Fonts are picked from the Windows system font cache and a system restart is required to update the cache. After specifying the Customer font directory, ensure that you restart the system on which AEM forms is installed.</p> 
+  </note> 
+  <h2 id="color_options">Color options</h2> 
+  <p></p> 
+  <p>The Color options set all color management information for PDF Generator. For instructions about accessing the Color options, see <a href="configuring-pdf-settings#add_or_edit_pdf_settings">Add or edit PDF settings</a>.</p> 
+  <h3 id="adobe_color_settings">Adobe Color Settings</h3> 
+  <p></p> 
+  <p><strong>Settings File:</strong> This list contains a list of color settings that are also used in major graphics applications, such as Adobe Photoshop and Adobe Illustrator. The color setting you select determines the other Adobe color settings on this page. For example, if you select a setting other than None, all options other than those for Device-Dependent Data are predefined and dimmed. You can edit the Color Management Policies and Working Spaces settings only if you select None for Settings File.</p> 
+  <h3 id="color_management_policies">Color Management Policies</h3> 
+  <p></p> 
+  <p>If you selected None for the Settings File, the Color Management Policies area specifies how PDF Generator converts unmanaged color in a PostScript file. </p> 
+  <p><strong>Leave Color Unchanged:</strong> Leaves device-dependent colors unchanged and preserves device-independent colors as the nearest possible equivalent in PDF. This option is useful to print shops that have calibrated all their devices, used that information to specify color in the file, and output only to those devices.</p> 
+  <p><strong>Tag Everything for Color Management:</strong> Embeds an International Color Consortium profile when distilling files and calibrates color in the images, which makes colors in the resultant PDF files device-independent if you selected Acrobat 4 (PDF 1.3) or later compatibility. However, device-dependent color spaces in files (RGB, Grayscale, and CMYK) are converted to device-independent color spaces (CalRGB, CalGray, and LAB).</p> 
+  <p><strong>Tag Only Images for Color Management:</strong> Embeds ICC profiles only in images, not text or graphics, when distilling files if you selected Acrobat 4 (PDF 1.3) compatibility. This option prevents black text from undergoing any color shift. However, device-dependent color spaces in images (RGB, Grayscale, and CMYK) are converted to device-independent color spaces (CalRGB, CalGray, and LAB). Text and graphics are not converted.</p> 
+  <p><strong>Convert All Colors to sRGB or Convert All Colors to&amp;#xA;CMYK:</strong> Calibrates color in the file, making the color device-independent, similar to Tag Everything for Color Management. If you selected Acrobat 4 (PDF 1.3) or later compatibility and convert to sRGB, the CMYK and RGB images are converted to sRGB.</p> 
+  <p>Regardless of the compatibility option you select, grayscale images are left unchanged. This usually reduces the size and increases the display speed of PDF files because less information is needed to describe RGB images than to describe CMYK images. Because RGB is the native color space that is used on monitors, no color conversion is necessary during display, which contributes to fast online viewing. This option is recommended if the PDF file is for use online or with low-resolution printers.</p> 
+  <p><strong>Document Rendering Intent:</strong> The method to map colors between color spaces. The result of any particular method depends on the profiles of the color spaces. For example, some profiles produce identical results with different methods. These options are available:</p> 
+  <p><i><strong>Note</strong>: In all cases, intents may be ignored or overridden by color management operations that occur after the creation of the PDF file.</i></p> 
+  <p><strong>Preserve:</strong> Means that the intent is specified in the output device rather than in the PDF file. In many output devices, Relative Colorimetric is the default intent.</p> 
+  <p><strong>Perceptual:</strong> Maintains the relative color values among the original pixels as they are mapped to the destination gamut. This method preserves the visual relationship between colors, although the color values themselves may change.</p> 
+  <p><strong>Saturation:</strong> Maintains the relative saturation values of the original pixels. This method is suitable for business graphics, where the exact relationship between colors is not as important as having bright saturated colors.</p> 
+  <p><strong>Relative Colorimetric:</strong> Remaps the white point of the source space to the white point of the destination space.</p> 
+  <p><strong>Absolute Colorimetric:</strong> Disables the matching of white and black points when converting colors. This method is not recommended unless you must preserve signature colors, such as those used in trademarks or logos.</p> 
+  <h3 id="working_spaces">Working Spaces</h3> 
+  <p></p> 
+  <p>For all values in the list under Color Management Policies, other than Leave Color Unchanged, select from the lists in the Working Space area to specify which ICC profiles are used for defining and calibrating the grayscale, RGB, and CMYK color spaces in distilled PDF files. These options are available:</p> 
+  <p><strong>Gray:</strong> Defines the color space of all grayscale images in files. This option is available only if you chose Tag Everything for Color Management or Tag Only Images for Color Management. The default ICC profile for gray images is Gray Gamma 2.2. You can also select None to prevent grayscale images from being converted.</p> 
+  <p><strong>RGB:</strong> Defines the color space of all RGB images in files. The default, sRGB IEC61966-2.1, is generally a good choice because it is becoming an industry standard and many output devices recognize it. You can also select None to prevent RGB images from being converted.</p> 
+  <p><strong>CMYK:</strong> Defines the color space of all CMYK images in files. The default is U.S. Web Coated (SWOP) v2. You can also select None to prevent CMYK images from being converted.</p> 
+  <p><i><strong>Note</strong>: Selecting None for all three of the working spaces has the same effect as selecting Leave Color Unchanged.</i></p> 
+  <p><strong>Preserve CMYK Values For Calibrated CMYK Color Spaces:</strong> When selected, device-independent CMYK values are treated as device-dependent (DeviceCMYK) values, device-independent color spaces are discarded, and PDF/X-1a files use the Convert All Colors To CMYK value. When deselected, device-independent color spaces convert to CMYK if the color management policy is set to Convert All Colors To CMYK.</p> 
+  <h3 id="device_dependent_data">Device-Dependent Data</h3> 
+  <p></p> 
+  <p>These options apply if you work with documents that are created with high-end documentation and graphics applications, such as Adobe Illustrator and Adobe InDesign. For more information, see the documentation that came with the application. </p> 
+  <p>Transfer functions are used for artistic effect and to adjust for the specifications of a specific output device. For example, a file that is intended for output on a particular imagesetter may contain transfer functions that compensate for the dot gain that is inherent with that printer.</p> 
+  <p><strong>Preserve Under Color Removal And Black Generation:</strong> Retains these settings if they exist in the PostScript file. Black generation calculates the amount of black to be used when you are trying to reproduce a particular color. Undercolor removal (UCR) reduces the amount of cyan, magenta, and yellow components to compensate for the amount of black that the black generation added. Because it uses less ink, UCR is generally used for newsprint and uncoated stock.</p> 
+  <p><strong>When Transfer Functions Are Found:</strong> Determines what to do when transfer functions are found:</p> 
+  <p><strong>Preserve:</strong> Retains the transfer functions that are traditionally used to compensate for dot gain or dot loss that may occur when an image is transferred to film. Dot gain occurs when the ink dots that make up a printed image are larger (for example, due to spreading on paper) than in the halftone screen; dot loss occurs when the dots print smaller. With this option, the transfer functions are kept as part of the file and are applied to the file when the file is output.</p> 
+  <p><strong>Apply:</strong> Does not keep the transfer function but applies it to the file, which changes the colors in the file. This option is useful for creating color effects in a file. By default, this option is selected for new settings.</p> 
+  <p><strong>Remove:</strong> Removes any applied transfer functions. Remove applied transfer functions unless the PDF file will be output to the same device that the source PostScript file was created for.</p> 
+  <p><strong>Preserve Halftone Information:</strong> Retains any halftone information in files. Halftone information consists of dots that control how much ink halftone devices deposit at a specific location on the paper. Varying the dot size and density creates the illusion of variations of gray or continuous color. For a CMYK image, four halftone screens are used, one for each ink that is used in the printing process.</p> 
+  <p>In traditional print production, a halftone is produced by placing a halftone screen between a piece of film and the image, and then exposing the film. Electronic equivalents, such as in Adobe Photoshop, let users specify the halftone screen attributes before they produce the film or paper output. Halftone information is intended for use with a particular output device.</p> 
+  <h2 id="advanced_options">Advanced options</h2> 
+  <p></p> 
+  <p>The Advanced options specify which Document Structuring Conventions (DSC) comments to keep in the PDF file and how to set other options that affect the conversion from PostScript. In a PostScript file, DSC comments contain information about the file (such as the originating application, creation date, and page orientation). They also provide structure for page descriptions in the file (such as beginning and ending statements for a prologue section). DSC comments can be useful when your document is going to print or press. For instructions about accessing the Advanced options, see <a href="configuring-pdf-settings#add_or_edit_pdf_settings">Add or edit PDF settings</a>. </p> 
+  <p>When working with the Advanced options, it is helpful to have an understanding of the PostScript language and how it is translated to PDF. (See <a href="http://www.adobe.com/products/postscript/main.html">Adobe PostScript 3</a>.)</p> 
+  <p><strong>Allow PostScript File to Override Adobe PDF Settings:</strong> Uses settings that are stored in a PostScript file instead of the current Adobe PDF settings file. Before processing a PostScript file, you can place parameters in the file to control the following aspects:</p> 
+  <ul> 
+   <li><p>compression of text and graphics</p></li> 
+   <li><p>downsampling and encoding of sampled images</p></li> 
+   <li><p>embedding of Type 1 fonts and instances of Type 1 Multiple Master fonts</p></li> 
+  </ul> 
+  <p><strong>Allow PostScript XObjects:</strong> PostScript XObjects store information that appears on many pages of the same file, such as a background image or header and footer information. Using PostScript XObjects can result in faster printing but requires more printer memory. To prevent PostScript XObjects from being created, deselect this option if you create PDF files with Acrobat 5 (PDF 1.4) or later compatibility.</p> 
+  <p><strong>Convert Gradients to Smooth Shades:</strong> Converts blends to smooth shades for Acrobat 4 and later, making PDF files smaller and potentially improving the quality of final output. PDF Generator converts gradients from Adobe Illustrator, Adobe InDesign, Adobe FreeHand MX, CorelDraw, Quark Xpress, and Microsoft PowerPoint.</p> 
+  <p><strong>Convert Smooth Lines to Curves:</strong> Reduces the amount of control points used to build curves in CAD drawings, which results in smaller PDFs and faster onscreen rendering.</p> 
+  <p><strong>Preserve Level 2 Copypage Semantics:</strong> Uses the copypage operator that is defined in LanguageLevel 2 PostScript instead of in LanguageLevel 3 PostScript. If you have a PostScript file and select this option, a copypage operator copies the page. If this option is not selected, the equivalent of a showpage operation is executed, but the graphics state is not reinitialized.</p> 
+  <p><strong>Preserve Overprint Settings:</strong> Retains any overprint settings in files being converted to PDF. Overprinted colors are two or more inks printed on top of each other. For example, when a cyan ink prints over a yellow ink, the resultant overprint is a green color. Without overprinting, the underlying yellow would not be printed, resulting in a cyan color.</p> 
+  <p><strong>Overprinting Default Is Nonzero Overprinting:</strong> Prevents overprinted objects with zero CMYK values from knocking out CMYK objects that are underneath them. This effect is accomplished by inserting the OPM 1 graphics state parameter into the PDF file wherever the Setoverprint operator is present.</p> 
+  <p><strong>Save Adobe PDF Settings Inside PDF File:</strong> Embeds the settings file that is used to create the PDF file. You can open and view the settings file (which has a .joboptions filename extension) in the File Attachments dialog box in Acrobat. The Adobe PDF settings file becomes an item in the EmbeddedFiles tree inside the PDF file.</p> 
+  <p><strong>Save Original JPEG Images In PDF If Possible:</strong> Processes any compressed JPEG images (images that are already compressed using DCT encoding) without recompressing them. If this option is selected, PDF Generator decompresses JPEG images to ensure that they are not corrupt. However, it does not recompress valid images, therefore processing the original image untouched. With this option is selected, performance improves because only decompression (not recompression) occurs, and image data and metadata are preserved.</p> 
+  <p><strong>Save Portable Job Ticket Inside PDF File:</strong> Preserves a PostScript job ticket in a PDF file. The job ticket contains information about the PostScript file, such as the page size, resolution, and trapping information, instead of information about content. This information can be used later in a workflow or for printing the PDF.</p> 
+  <p><strong>Use Prologue.ps and Epilogue.ps:</strong> Sends a prologue and epilogue file with each job. These files have many purposes. For example, prologue files can be edited to specify cover pages. Epilogue files can be edited to resolve a series of procedures in a PostScript file. You can upload or download the files. (See Uploading and downloading prologue and epilogue files.)</p> 
+  <p><strong>Process DSC Comments:</strong> Maintains DSC information from a PostScript file. These suboptions are available:</p> 
+  <p><strong>Log DSC Warnings:</strong> Displays warning messages about problematic DSC comments during processing and adds them to a log file.</p> 
+  <p><strong>Preserve EPS Information From DSC:</strong> Retains information, such as the originating application and creation date for an EPS file. If this option is deselected, the page is sized and centered based on the upper-left corner of the upper-left object and lower-right corner of the lower-right object on the page.</p> 
+  <p><strong>Preserve OPI Comments:</strong> Retains information required to replace a For Placement Only (FPO) image or comment with the high-resolution image located on servers that support Open Prepress Interface (OPI) versions 1.3 and 2.0.</p> 
+  <p><strong>Preserve Document Information From DSC:</strong> Retains information such as the title, creation date, and time. When you open a PDF file in Acrobat, this information appears in the Document Properties Description panel.</p> 
+  <p><strong>Resize Page and Center Artwork For EPS Files:</strong> Centers an EPS image and resizes the page to fit closely around the image. This option applies only to jobs that consist of a single EPS file.</p> 
+  <h2 id="standards_reporting_and_compliance_options">Standards reporting and compliance options</h2> 
+  <p></p> 
+  <p>PDF Generator can check document contents in a PostScript file to ensure that they meet the standard PDF/X-1a, PDF/X-3, or PDF/A criteria before creating the PDF file. For PDF/X-compliant files, you can also require that the PostScript file meets additional criteria by selecting other options under “Standards reporting and compliance”. The availability of options depends on the standard you select.</p> 
+  <p>PDF/X-compliant files are primarily used as a standardized format for the exchange of PDF files that are intended for high-resolution print production. Unless you are creating a PDF document for print production, you can ignore the PDF/X compliance standards. </p> 
+  <p>PDF/A-compliant files are primarily used for archiving. Because long-term preservation is the goal, the document must contain only what is needed for opening and viewing throughout the intended life of the document. For example, PDF/A-compliant files can contain only text, raster images, and vector objects; they cannot contain encryption and scripts. In addition, all fonts must be embedded so that the documents can be opened and viewed as created. In other words, PDF/A-compliant documents are <i>thinner</i> than their PDF/X counterparts, which are intended for high-end production. </p> 
+  <note> 
+   <p>If you set up a watched folder for creating PDF/A-compliant files, make sure that you do not add security to the folder; the PDF/A standard does not allow encryption.</p> 
+  </note> 
+  <p>For instructions about accessing the Standards reporting and compliance options, see <a href="configuring-pdf-settings#add_or_edit_pdf_settings">Add or edit PDF settings</a>.</p> 
+  <p><strong>Compliance Standard:</strong> Select a standard to produce a report that indicates whether the file complies with the requirements and, if not, what problems were encountered. When Compatibility on the General Settings page is set to Acrobat 4.0, the following options are enabled. When Compatibility is set to Acrobat 5.0, only the Acrobat 5.0 options are available to select. When Compatibility is set to an alternative option, the following options are dimmed:</p> 
+  <ul> 
+   <li><p>PDF/X-1a (Acrobat 4.0 compatible)</p></li> 
+   <li><p>PDF/X-3 (Acrobat 4.0 compatible)</p></li> 
+   <li><p>PDF/X-1a (Acrobat 5.0 compatible)</p></li> 
+   <li><p>PDF/X-3 (Acrobat 5.0 compatible)</p></li> 
+   <li><p>PDF/A-1b (Acrobat 5.0 compatible)</p></li> 
+  </ul> 
+  <h3 id="options_for_pdf_x_standards">Options for PDF/X standards</h3> 
+  <p></p> 
+  <p><strong>When Not Compliant:</strong> Specifies whether to create the PDF file if the PostScript file does not comply with PDF/X requirements. This option is available when Compliance Standard on the Standards Reporting and Compliance page is set to an option other than None.</p> 
+  <p><strong>Continue:</strong> Creates a PDF file.</p> 
+  <p><strong>Cancel Job:</strong> Creates a PDF file only if the PostScript file meets the PDF/X requirements of the selected report options and is otherwise valid. If both PDF/X report options are selected and the PostScript file meets only one set of the PDF/X criteria (for example, PDF/X-3), PDF Generator creates the compliant file.</p> 
+  <p><strong>If Neither TrimBox Nor ArtBox Are Specified:</strong> Available when Compliance Standard on the Standards Reporting and Compliance page is set to an option other than None.</p> 
+  <p><strong>Report As Error:</strong> Flags the PostScript file as noncompliant if one of the reporting options is selected and a trim box or art box is missing from any page.</p> 
+  <p><strong>Set TrimBox To MediaBox With Offsets:</strong> Computes values in points for the trim box based on the offsets for the media box of respective pages if neither the trim box nor art box is specified. The trim box is always as small or smaller than the enclosing media box.</p> 
+  <p><strong>If BleedBox Is Not Specified:</strong> Available when Compliance Standard on the Standards Reporting and Compliance page is set to an option other than None.</p> 
+  <p><strong>Set BleedBox To MediaBox:</strong> Uses the media box values for the bleed box if the bleed box is not specified.</p> 
+  <p><strong>Set BleedBox To TrimBox With Offsets:</strong> Computes values in points for the bleed box based on the offsets for the trim box of respective pages if the bleed box is not specified. The bleed box is always as large or larger than the enclosed trim box.</p> 
+  <p><strong>Default Values If Not Specified In The Document:</strong> This option is available when Compliance Standard on the Standards Reporting and Compliance page is set to an option other than None.</p> 
+  <p><strong>Output Intent Profile Name:</strong> Indicates the characterized printing condition that the document is prepared for. If a document does not specify an OutputIntent name, PDF Generator uses the selected value from this menu. You can select one of the names that are supplied or enter a name in the space provided. If your workflow requires that the document specify the output intent, select None. Any document that does not meet the requirement fails compliance checking.</p> 
+  <p><strong>Output Condition Identifier:</strong> Indicates the reference name specified by the registry of the output intent profile name.</p> 
+  <p><strong>Output Condition:</strong> Describes the intended printing condition. This entry can be useful for the intended receiver of the PDF document.</p> 
+  <p><strong>Registry Name (URL):</strong> Indicates the web address for more information about the registry. The URL is automatically entered for ICC registry names.</p> 
+  <p><strong>Trapped:</strong> Indicates the state of trapping in the document. PDF/X compliance requires a value of True or False. If the document does not specify the trapped state, the value provided here is used. If your workflow requires that the document specifies the trapped state, select Leave Undefined. Any document that does not meet the requirement fails compliance checking.</p> 
+  <h3 id="options_for_pdf_a_standard">Options for PDF/A standard</h3> 
+  <p></p> 
+  <p>These options are enabled when Compatibility (in the General area) is set to Acrobat 4 (PDF 1.3) or Acrobat 5 (PDF 1.4). </p> 
+  <p><strong>When Not Compliant:</strong> Specifies whether to create the PDF file if the PostScript file does not comply with PDF/A requirements.</p> 
+  <p><strong>Continue:</strong> Creates a PDF file even if the PostScript file does not meet the requirements of the standard.</p> 
+  <p><strong>Cancel Job:</strong> Creates a PDF file only if the PostScript file meets PDF/A requirements and is otherwise valid.</p> 
+  <p><strong>Output Intent Profile Name:</strong> Indicates the characterized printing condition for which the document has been prepared and is required for PDF/A compliance. If your workflow requires that the document specifies Output Intent information, select “None”. The document will fail compliance checking if this information is not provided.</p> 
+  <p><strong>Output Condition:</strong> Describes the intended printing condition. This entry is not required, but can be used to provide useful information to the intended receiver of the PDF document.</p> 
+  <h2 id="initial_view_options">Initial view options</h2> 
+  <p></p> 
+  <p>These options are organized into three areas: Document Options, Window Options, and User Interface Options. For instructions about accessing the Initial view options, see <a href="configuring-pdf-settings#add_or_edit_pdf_settings">Add or edit PDF settings</a>.</p> 
+  <p>To use any options, select Set Initial View Settings.</p> 
+  <h3 id="document_options">Document Options</h3> 
+  <p></p> 
+  <p>The document options control the appearance of the document within the document window, such as the magnification level and how it scrolls. </p> 
+  <p><strong>Show:</strong> Determines which panes and tabs are displayed in the application window by default. Bookmarks Panel and Page opens the document pane and displays the Bookmarks tab.</p> 
+  <p><strong>Page Layout:</strong> Determines whether the document is viewed in single-page, facing-page, continuous page, or continuous facing-page mode.</p> 
+  <p><strong>Magnification:</strong> Sets the zoom level used to display the document when opened. The default uses the user-configured magnification value in the Acrobat or Adobe Reader preferences.</p> 
+  <p><strong>Open To Page Number:</strong> Sets the page that the document opens at, which is usually page 1.</p> 
+  <p><i><strong>Note</strong>: Setting Default for the magnification and page layout options uses the individual user settings in the Page Display preferences within Acrobat or Adobe Reader.</i></p> 
+  <h3 id="window_options">Window options</h3> 
+  <p></p> 
+  <p>The window options determine how the window adjusts in the screen area when a user opens the document. However, the options have no effect when a PDF document is viewed inside a web browser. </p> 
+  <p><strong>Resize Window To Initial Page:</strong> Adjusts the document window to fit snugly around the opening page, according to the options that you selected under Document Options.</p> 
+  <p><strong>Center Window On Screen:</strong> Positions the window in the center of the screen area.</p> 
+  <p><strong>Open In Full Screen Mode:</strong> Maximizes the document window and displays the document without the menu bar, toolbar, or window controls.</p> 
+  <p><strong>Show:</strong> Filename shows the filename in the title bar of the window. Document title shows the document title in the title bar of the window.</p> 
+  <h3 id="user_interface_options">User interface options</h3> 
+  <p></p> 
+  <p>The user interface options determine which controls are displayed or hidden when the user opens the document. </p> 
+  <p><strong>Hide Menu Bar:</strong> If selected, hides the menu bar</p> 
+  <p><strong>Hide Toolbars:</strong> If selected, hides the toolbars</p> 
+  <p><strong>Hide Window Controls:</strong> If selected, hides the window controls</p> 
+  <p><i><strong>Note</strong>: If you hide the menu bar and toolbar, users cannot apply commands and select tools unless they know the keyboard shortcuts when they open the file in Acrobat.</i></p> 
+  <h2 id="uploading_and_downloading_prologue_and_epilogue_files">Uploading and downloading prologue and epilogue files</h2> 
+  <p></p> 
+  <p>Prologue files are used to add custom PostScript code that execute at the beginning of every PostScript job being distilled. Epilogue files are used to add custom PostScript code that execute at the end of every PostScript job. You can download prologue and epilogue files from the server to save them locally. You may want to download the files to configure them independently or to upload them to another location or to another computer. </p> 
+  <p>These files have many purposes. For example, prologue files can be edited to specify cover pages; epilogue files can be edited to resolve a series of procedures in a PostScript file. You can also select and upload the prologue and epilogue files to send with each job. </p> 
+  <h3 id="download_a_prologue_or_epilogue_file">Download a prologue or epilogue file</h3> 
+  <p></p> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; PDF Generator &amp;gt; Adobe PDF Settings.</p></li> 
+   <li><p>Click New or click the name of a setting.</p></li> 
+   <li><p>Click Advanced and then, beside the Use Prologue.ps and Epilogue.ps option, click Download. </p></li> 
+   <li><p>On the Download Prologue and Epilogue Files page, click Prologue.ps or Epilogue.ps and click Save.</p></li> 
+  </ol> 
+  <h3 id="upload_a_prologue_or_epilogue_file">Upload a prologue or epilogue file</h3> 
+  <p></p> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; PDF Generator &amp;gt; Adobe PDF Settings.</p></li> 
+   <li><p>Click New or click the name of a setting.</p></li> 
+   <li><p>Click Advanced and then, beside the Use Prologue.ps And Epilogue.ps option, click Upload. </p></li> 
+   <li><p>On the Upload Prologue and Epilogue Files page, click Browse to select a prologue or an epilogue file.</p></li> 
+   <li><p>Locate the file and click Open.</p></li> 
+   <li><p>To use the file, ensure that Use Prologue.ps And Epilogue.ps is selected in the Advanced area of the New/Edit Adobe PDF Setting page.</p></li> 
+   <li><p>Click Save</p></li> 
+  </ol> 
+  <note> 
+   <p>PDF Generator supports prologue and epilogue files only for conversion of PostScript and Encapsulated PostScript files to PDF.</p> 
+  </note> 
+ </body> 
+</html>

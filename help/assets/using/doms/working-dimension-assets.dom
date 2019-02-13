@@ -1,0 +1,69 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2019-01-15T15:35:20.831-0500" name="jcr:created" /> 
+  <meta content="448" name="acrolinxWords" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="Working with Adobe Dimension assets" name="jcr:title" /> 
+  <meta content="asgupta" name="acrolinxLastCheckedBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS" name="primaryProductTag" /> 
+  <meta content="860d3700-1d60-4d93-9766-4fe1d1a76ce0" name="jcr:uuid" /> 
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/working_dimension_assets_krs_workflow_f3c2f2ccebf6138e_223_report.xml" name="acrolinxReportURL" /> 
+  <meta content="10b3c007-82f1-4500-9e9a-95ff22bb47c1" name="jcr:predecessors" /> 
+  <meta content="Working with Adobe Dimension assets in AEM 3D." name="seoDescription" /> 
+  <meta content="rbrough" name="contentOwner" /> 
+  <meta content="topic_tags:3D;products:SG_EXPERIENCEMANAGER/6.4/ASSETS;content_type:reference" name="cq:tags" /> 
+  <meta content="2018-11-16T21:58:15.212-0500" name="firstPublishExternalDate" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2018-11-16T21:58:15.212-0500" name="topicBrowsingSortDate" /> 
+  <meta content="2018-11-16T21:58:15.212-0500" name="publishExternalDate" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/assets/using/working-dimension-assets.html" name="publishExternalURL" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="/content/help/en/experience-manager/6-4/assets/morehelp/3d;/content/help/en/experience-manager/6-4/assets/morehelp/3d" name="moreHelpPaths" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="en" name="pageCreatedAt" /> 
+  <meta content="yellow" name="acrolinxPageStatus" /> 
+  <meta content="32" name="acrolinxSentences" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="Working with Adobe Dimension assets" name="seoTitle" /> 
+  <meta content="checked_not_improved" name="acrolinxStatus" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2018-11-16T21:58:15.212-0500" name="lastPublishExternalDate" /> 
+  <meta content="2018-11-16T21:58:16.281-0500" name="cq:lastReplicated" /> 
+  <meta content="2018-11-16T21:58:15.248-0500" name="cq:lastModified" /> 
+  <meta content="rbrough" name="cq:lastModifiedBy" /> 
+  <meta content="rbrough" name="cq:lastReplicatedBy" /> 
+  <meta content="2019-01-12T17:37:35.176-0500" name="acrolinxDate" /> 
+  <meta content="rbrough@adobe.com" name="lr_lastReplicatedBy" /> 
+ </head> 
+ <body> 
+  <p>The AEM 3D feature pack provides support for Adobe Dimension assets (.dn files) in AEM Assets , AEM Sites, and AEM Screens.</p> 
+  <p>A new 3D viewer based on the glTF open standard provides preview and Sites and Screens viewing capabilities for Adobe Dimension assets.</p> 
+  <h2>About the cloud-based conversion service</h2> 
+  <p>When a Dimension asset is uploaded to AEM, a copy of the file is forwarded to an Adobe-managed cloud-based service hosted in Amazon AWS. This service converts from the Adobe-proprietary Dimension file format to the open standard glTF format. The converted 3D model is packaged as a binary glTF (.glb). AEM stores the converted model with the primary Dimension asset as a rendition.</p> 
+  <p>You can configure the .glb conversion format using one of two ways (see <a href="../../assets/using/install-config-3d.md" target="_blank">Installing and configuring AEM 3D</a> for instructions):</p> 
+  <ul> 
+   <li>Include Adobe-specific extensions to maximize the visual quality when using the Adobe glTF viewer to view Dimension assets in AEM Assets, AEM Sites, or AEM Screens. This makes the .glb renditions incompatible with most third-party applications.</li> 
+   <li>Exclude Adobe-specific extensions to achieve compatibility of the .glb rendition with third-party applications. This limits the visual quality when viewing in AEM Assets, AEM Sites, or AEM Screens (for example, no IBL lighting) to simulate the quality of typical third-party applications.</li> 
+  </ul> 
+  <p>Transfer of the Dimension/glTF files to or from Amazon AWS and their temporary storage in AWS are fully secured. These files persist in Amazon AWS a minimal amount of time; typically, no more than a few minutes during normal operations.</p> 
+  <p>To enable support for Dimension assets, you must obtain credentials from Adobe for accessing the conversion service. See <a href="../../assets/using/install-config-3d.md">Installing and configuring AEM 3D</a>.</p> 
+  <note> 
+   <p>If you install and use the provided credentials, you understand and agree that your Adobe Dimension 3D assets will be transferred to--and processed by--the Adobe-managed, cloud-based conversion service hosted in Amazon AWS.</p> 
+  </note> 
+  <h3>Viewing on AEM Assets</h3> 
+  <p>The AEM 3D feature pack includes a new viewer based on the glTF open standard which is used to view Adobe Dimension assets. This viewer is selected automatically when opening a Dimension file or a zipped glTF into the Detail view in AEM Assets or with the 3D component in AEM Sites.</p> 
+  <p>Note that the glTF viewer's user interface is somewhat different from the standard 3D viewer that is used for all other 3D asset types.</p> 
+  <h4>See also the following:</h4> 
+  <ul> 
+   <li><a href="../../release-notes/aem3d-release-notes.md">AEM 3D release notes</a> for restrictions and limitations applicable to Dn assets and the glTF viewer.</li> 
+   <li><a href="../../assets/using/using-the-3d-sites-component.md">Working with the 3D Sites component</a> for component properties specific to Adobe Dimension assets.</li> 
+   <li><a href="../../assets/using/install-config-3d.md">Installing and configuring AEM 3D</a> to configure the cloud-based conversion service.</li> 
+  </ul> 
+ </body> 
+</html>

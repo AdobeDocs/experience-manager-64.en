@@ -1,0 +1,121 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="2018-05-11T10:01:32.079-0400" name="cq:lastModified" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/mobile/using/develop-mobile-apps-testing.html" name="publishExternalURL" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="msm-service" name="cq:lastModifiedBy" /> 
+  <meta content="2018-05-04T05:12:43.386-0400" name="topicBrowsingSortDate" /> 
+  <meta content="Guillaume Carlino" name="contentOwner" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/MOBILE;topic_tags:developing;content_type:reference" name="cq:tags" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="7827c0ee-b22d-4bd4-aec3-ab58973db91d" name="jcr:uuid" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/MOBILE" name="primaryProductTag" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="bohnert" name="cq:lastReplicatedBy" /> 
+  <meta content="/content/docs/en/aem/6-3/develop/mobile-apps/testingapps" name="qaNotes" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="31e71989-e2b4-4b8f-9d3c-995a234a5515" name="jcr:predecessors" /> 
+  <meta content="2017-12-13T19:01:22.096-0500" name="jcr:created" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="bohnert@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2018-05-04T05:12:43.650-0400" name="cq:lastReplicated" /> 
+  <meta content="2017-10-31T16:26:30.614-0400" name="firstPublishExternalDate" /> 
+  <meta content="2018-05-11T10:01:32.079-0400" name="locHandOffDate" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2018-05-04T05:12:43.386-0400" name="lastPublishExternalDate" /> 
+  <meta content="/content/help/en/experience-manager/6-4/mobile/morehelp/developing;/content/help/en/experience-manager/6-4/mobile/morehelp/developing" name="moreHelpPaths" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="Testing Mobile Apps" name="jcr:title" /> 
+  <meta content="Testing Mobile Apps" name="seoTitle" /> 
+  <meta content="Testing Mobile Apps" name="navTitle" /> 
+  <meta content="2018-05-04T05:12:43.386-0400" name="publishExternalDate" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+ </head> 
+ <body> 
+  <note> 
+   <p>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). <a href="../../sites/developing/using/spa-overview.md">Learn more</a>.</p> 
+  </note> 
+  <p>Given the wide range of devices on the market and devices being released, testing your Apps has become extremely important. This is an area where functionality and usability may garner low reviews on an app store, but a single defect can result in your app being uninstalled. Careful attention has to be made in your testing plans and quality assurance. The following link covers many of the topics that need to be addressed in general, such as, identify your environment, define test cases, types of testing, assumptions, customer involvement, etc. Also discussed are tools to help in the testing effort. Internal tools, like <a href="../../sites/developing/using/hobbes.md">Hobbes</a>, can help with web-based UI testing. <a href="../../sites/developing/using/tough-day.md">Tough Day</a> can stress your instances with a simulated load. If your testing environment already has experience with 3rd-party tools, like Selenium, these too can be used. Additional tools are listed <a href="/sites/developing/using/test">here</a> that can assist with issues specific to mobile testing.</p> 
+  <p>When developing a mobile app, there are many new concerns specific to devices that have to be addressed along with those of traditional testing.</p> 
+  <ul> 
+   <li>Functional - Are all requirements met by your app?</li> 
+   <li>Usability - Is the app easy to use and understand by your customer?</li> 
+   <li>Performance - What happens during a spike in usage? Are the app elements, like swipes and carousels, quick and don’t detract away from the experience?</li> 
+   <li>Failure or Interrupts - What happens when there is an incoming call or notification while your app is running? What happens if there is a network outage or power off?</li> 
+   <li>Installation and Updates - How is the install experience? How are updates pushed out?</li> 
+   <li>Technical - Is your app consuming too much power from a device?</li> 
+   <li>Localization - Are all areas in your app translated?</li> 
+   <li>Certification - Has your app been certified? Can customers trust that it follows all data privacy legal requirements?</li> 
+  </ul> 
+  <p>These questions should be answered during your automated and manual testing.</p> 
+  <h4>Automated testing</h4> 
+  <p>Some degree of automated testing should be performed to cover the variety of screen sizes, memory constraints, input methods, and operating systems. Not only does it cover much of the test cases, but it can speed up regression testing when new features or devices are introduced. Ideally, your automation tools should reduce or limit duplication of effort. Use tools or frameworks so that your testing effort is applicable across all platforms. The following chart shows a simplified structure of a testing environment for both web-based UI testing and mobile app testing. The left side of the chart shows a series of Selenium nodes with browsers. SeleniumGrid can farm out common, web-based UI tests to any of these nodes. The Selenium hub can also connect to Appium for cross-platform app testing. Only shown are simulators, but you can incorporate adb, for Android, and Xcode utilities for iOS devices. Links are provided later in this document where you can find specific details for the tools mentioned.</p> 
+  <img imageRotate="0" src="assets/chlimage_1.jpeg" /> 
+  <h4>Manual testing</h4> 
+  <p>In addition to automated testing, your app should go through a cycle of manual testing. Customers running the app on a real device cannot be duplicated by a script. Here too, you have many options. You can use a platform, such as HockeyApp, to define who has access and gather feedback. Or, you can outsource the whole process to a service like UTest, ElusiveStars, or Testin. If you have a group of internal testers, but lack variation of devices, there are cloud services where you can perform manual testing on their pool of devices. One such service that provides this is SauceLabs. You can also build apps remotely to PhoneGap Enterprise and install on local devices as a level of acceptance testing or demoing. See the <a href="http://phonegap.com/">PhoneGap</a> website for their latest features and documentation. Whatever the approach, manual testing should;</p> 
+  <ul> 
+   <li>hit a large target of testers,</li> 
+   <li>test against a large pool of devices (ideally real devices, but simulators/emulators if real devices are not available),</li> 
+   <li>provide informative feedback:<br /> 
+    <ul> 
+     <li>crash reports, </li> 
+     <li>analytics/tracking, </li> 
+     <li>usability, </li> 
+     <li>areas of attention, </li> 
+     <li>performance, </li> 
+     <li>data/power consumption, etc.</li> 
+    </ul> </li> 
+  </ul> 
+  <h4>Tools</h4> 
+  <p>There is a wide range of tools available for testing mobile apps. The choice of ones to use will be based on your specific situation: features, price, support, coverage, etc. The following is just a small description of some of the tools and services available.</p> 
+  <p><strong>Selenium</strong></p> 
+  <ul> 
+   <li>Framework that includes an API for test scripts to feed WebDriver and control various browsers.</li> 
+   <li>You can use this in conjunction with Appium for testing on real devices.</li> 
+   <li>SeleniumGrid directs tests across nodes for parallel testing.</li> 
+   <li>Selenium IDE help reduce test case writing.</li> 
+  </ul> 
+  <p>For more information see <a href="http://www.seleniumhq.org/">http://www.seleniumhq.org/</a>.</p> 
+  <p><br /> <strong>Testdroid</strong></p> 
+  <ul> 
+   <li>A cloud-based testing service with continuous integration hooks and real device testing.</li> 
+   <li>Includes an App Crawler that checks device compatibility, analyzes logs, traverses views, takes screenshots, and monitors performance.</li> 
+  </ul> 
+  <p>For more information see <a href="http://testdroid.com/">http://testdroid.com/</a>.</p> 
+  <p><br /> <strong>Appium</strong></p> 
+  <ul> 
+   <li>Appium is a popular cross platform framework for automating mobile tests.</li> 
+   <li>Additionally, an inspector is included with record abilities to help code test cases. </li> 
+  </ul> 
+  <p>For more information see <a href="http://appium.io/">http://appium.io/</a>.</p> 
+  <p><br /> <strong>SauceLabs</strong></p> 
+  <ul> 
+   <li>SauceLabs provides cloud-based testing and integrates with continuous integration.</li> 
+   <li>Tests run in their cloud environment automatically or you can start a particular device or platform and perform manual testing to help debug issues.</li> 
+  </ul> 
+  <p>For more information see <a href="https://saucelabs.com/">https://saucelabs.com/</a>.</p> 
+  <p><br /> <strong>AppTestNow</strong></p> 
+  <ul> 
+   <li>An outsourcing service that will test your mobile apps.</li> 
+   <li>Includes a large pool of devices and offer a wide range of types of testing: performance, quality, functional, certification, localization, data consumption, etc.</li> 
+  </ul> 
+  <p>For more information see <a href="https://www.apptestnow.com/">https://www.apptestnow.com</a>.</p> 
+  <p><br /> <strong>HockeyApp</strong></p> 
+  <ul> 
+   <li>HockeyApp falls under the manual testing where the mobile app is pushed out to a personal app store where testers can download and try it out.</li> 
+  </ul> 
+  <p>For more information see <a href="http://hockeyapp.net/features/">http://hockeyapp.net/features/</a>.</p> 
+  <p><strong>Jenkins</strong></p> 
+  <ul> 
+   <li>Although not a testing tool, Jenkins is a continuous integration framework providing the backbone for automated tests. Numerous 3rd-party plugins are available to extend functionality. One example, the SeleniumGrid plugin provides an UI to help manage the Selenium hub and nodes.</li> 
+  </ul> 
+  <p>For more information see <a href="https://jenkins-ci.org/">https://jenkins-ci.org/</a> and <a href="https://wiki.jenkins-ci.org/display/JENKINS/Plugins">https://wiki.jenkins-ci.org/display/JENKINS/Plugins</a>.</p> 
+ </body> 
+</html>

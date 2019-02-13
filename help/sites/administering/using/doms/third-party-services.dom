@@ -1,0 +1,79 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2017-12-01T19:02:06.270-0500" name="jcr:created" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2018-04-26T10:11:25.977-0400" name="locHandOffDate" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="e8385033-b913-4a85-b4a3-4154dc75bc99" name="jcr:uuid" />
+  <meta content="2018-04-26T10:11:25.978-0400" name="cq:lastModified" />
+  <meta content="Integrating with Third-Party Services" name="seoTitle" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="2018-04-03T07:11:03.752-0400" name="publishExternalDate" />
+  <meta content="2018-04-03T07:11:03.752-0400" name="topicBrowsingSortDate" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" />
+  <meta content="2fd11a9e-9745-44a7-b824-024e32d87d89" name="jcr:predecessors" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="Integrating with Third-Party Services" name="jcr:title" />
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:integration;content_type:reference" name="cq:tags" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-04-03T07:11:03.752-0400" name="lastPublishExternalDate" />
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" />
+  <meta content="Learn how to integrate AEM with third party services." name="seoDescription" />
+  <meta content="/content/help/en/experience-manager/6-4/sites/administering/morehelp/integration;/content/help/en/experience-manager/6-4/sites/administering/morehelp/integration" name="moreHelpPaths" />
+  <meta content="Integrating with Third-Party Services" name="navTitle" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/third-party-services.html" name="publishExternalURL" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2017-10-31T16:21:34.095-0400" name="firstPublishExternalDate" />
+  <meta content="2018-04-03T07:11:04.248-0400" name="cq:lastReplicated" />
+  <meta content="audience:administering" name="primaryAudienceTag" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="Guillaume Carlino" name="contentOwner" />
+  <meta content="/content/docs/en/aem/6-3/administer/integration/third-party-services" name="qaNotes" />
+ </head>
+ <body>
+  <p>With AEM, you can integrate with the following non-Adobe products out of the box:</p> 
+  <ul> 
+   <li>Amazon SNS connection - Amazon web services</li> 
+   <li>BrightEdge Content Optimizer - content optimized for search</li> 
+   <li>ExactTarget - email marketing</li> 
+   <li>Facebook Connect - social networking</li> 
+   <li>Generic Analytics Snippet - analytics</li> 
+   <li>Microsoft Translator or other machine translation providers</li> 
+   <li>Pushwoosh Connection - Apps - push notifications</li> 
+   <li>Salesforce - sales and CRM software </li> 
+   <li>Silverpop Engage - marketing automation, email, mobile, and social</li> 
+   <li>Twitter - social networking</li> 
+   <li>YouTube - video sharing</li> 
+  </ul> 
+  <p> </p> 
+  <p>In addition, you can integrate AEM with the <a href="../../../sites/administering/using/marketing-cloud.md">marketing cloud</a> and with the <a href="../../../sites/administering/using/creative-cloud.md">creative cloud</a>.</p> 
+  <h2>Integrating with Salesforce</h2>
+  <p>Salesforce.com is the enterprise cloud computing company that is leading the shift to the Social Enterprise.</p> 
+  <p>For information about integrating your AEM site and Salesforce, see <a href="../../../sites/administering/using/salesforce.md">Integrating with Salesforce</a>.</p> 
+  <h2>Integrating with Silverpop Engage</h2>
+  <note>
+   <p>Silverpop Engage integration is not available out of the box. To integrate AEM with Silverpop Engage, <a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/aem620/product/cq-mcm-integrations-silverpop-content">download the package</a> from Package Share.</p> 
+  </note>
+  <p>Silverpop Engage provides marketing automation, email, mobile, and social.</p> 
+  <p>For information about integrating your AEM site and ExactTarget, see <a href="../../../sites/administering/using/silverpop.md">Integrating with Silverpop Engage</a>.</p> 
+  <h2>Integrating with ExactTarget</h2>
+  <p>ExactTarget's email marketing solutions enable organizations of all sizes to design and deliver highly-targeted, mission-critical, and fully-integrated email campaigns.</p> 
+  <p>For information about integrating your AEM site and ExactTarget, see <a href="../../../sites/administering/using/exacttarget.md">Configuring ExactTarget</a>.</p> 
+  <h2>Integrating with Facebook and Twitter</h2>
+  <p>Facebook and Twitter are popular social networking services. AEM's integration with Facebook and Twitter enables organizations to provide a Facebook or Twitter login option on owned digital properties, and then personalize the user experience based on profile information. Marketers can also combine profile information with data from additional sources, such as a customer relationship management system or a website profile, to create a unified view of the customer.</p> 
+  <p>See <a href="../../../communities/using/social-login.md">Social Login</a> for more information.</p> 
+  <h2>Integrating with Other Providers</h2>
+  <p>AEM lets you connect to other external providers with a <a href="../../../sites/administering/using/external-providers.md">Generic Analytics Snippet.</a></p> 
+ </body>
+</html>

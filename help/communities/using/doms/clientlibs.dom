@@ -1,0 +1,98 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="6aed9939-b106-4625-9da0-d87fbf5abf48" name="jcr:predecessors" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2018-04-03T07:33:31.563-0400" name="publishExternalDate" /> 
+  <meta content="/content/docs/en/aem/6-3/develop/communities/essentials/clientlibs" name="qaNotes" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2018-04-03T07:33:31.563-0400" name="topicBrowsingSortDate" /> 
+  <meta content="2018-04-03T07:33:33.934-0400" name="cq:lastReplicated" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES;topic_tags:developing;content_type:reference" name="cq:tags" /> 
+  <meta content="Clientlibs for Communities Components" name="jcr:title" /> 
+  <meta content="msm-service" name="contentOwner" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2017-10-31T16:33:56.428-0400" name="firstPublishExternalDate" /> 
+  <meta content="2018-04-03T07:33:31.563-0400" name="lastPublishExternalDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES" name="primaryProductTag" /> 
+  <meta content="Clientlibs for Communities Components" name="navTitle" /> 
+  <meta content="2017-12-01T19:02:01.700-0500" name="jcr:created" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="b3ce458b-3793-43c1-aed6-781ded7c28c0" name="jcr:uuid" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/communities/using/clientlibs.html" name="publishExternalURL" /> 
+  <meta content="2018-05-17T05:50:23.335-0400" name="cq:lastModified" /> 
+  <meta content="2018-05-17T05:50:23.334-0400" name="locHandOffDate" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="Client-side libraries for Communities" name="seoDescription" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="Clientlibs for Communities Components" name="seoTitle" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+ </head> 
+ <body> 
+  <h2>Introduction</h2> 
+  <p>This section of the documentation describes how to add client-side libraries (clientlibs) to a page for Communities components.</p> 
+  <p>For basic information, visit :</p> 
+  <ul> 
+   <li><a href="../../sites/developing/using/clientlibs.md">Using Client-Side Libraries</a> which provides usage details as well as debugging tools</li> 
+   <li><a href="../../communities/using/client-customize.md#clientlibs">Clientlibs for SCF</a> which provides useful information when customizing SCF components</li> 
+   <li><a href="http://blogs.adobe.com/experiencedelivers/experience-management/clientlibs-explained-example/">Blog : AEM Client Libraries explained by example</a></li> 
+  </ul> 
+  <h2>Why Clientlibs are Required</h2> 
+  <p>Clientlibs are required for the proper functioning (JavaScript) and styling (CSS) of a component.</p> 
+  <p>When there exists a <a href="../../communities/using/functions.md">community function</a> for a feature, all necessary components and configurations, including the required clientlibs, will be present in the community site. Only if additional components are to be available to authors would additonal clientlibs need to be added.</p> 
+  <p>When the required clientlibs are missing, <a href="../../communities/using/author-communities.md">adding a Communities component to a page</a> could result in javascript errors as well as an unexpected appearance.</p> 
+  <h3>Example : Placed Reviews without Clientlibs</h3> 
+  <img imageRotate="0" src="assets/chlimage_1-244.png" /> 
+  <h3>Example : Placed Reviews with Clientlibs</h3> 
+  <img imageRotate="0" src="assets/chlimage_1-245.png" /> 
+  <h2>Identifying Required Clientlibs</h2> 
+  <p>The essential feature information for developers identifies the required clientlibs.</p> 
+  <p>In addition, from an AEM instance, browsing to the <a href="../../communities/using/components-guide.md">Community Components Guide</a> provides access to a listing of clientlib categories required for a component.</p> 
+  <p>For example, at the very top of the <a href="http://localhost:4502/content/community-components/en/reviews.html">Reviews page</a> the required clientlibs listed are</p> 
+  <ul> 
+   <li>cq.ckeditor</li> 
+   <li>cq.social.hbs.reviews</li> 
+  </ul> 
+  <img imageRotate="0" src="assets/chlimage_1-246.png" /> 
+  <h2>Adding Required Clientlibs</h2> 
+  <p>When it is desired to add a Communities component to a page, it will be necessary to add the required clientlibs for the component if not already present.</p> 
+  <p>Use <a href="#usingcrxdelite">CRXDE|Lite</a> to modify an existing clientlibslist for a community site page.</p>     
+  <p>To add a clientlib for a community site using <a href="../../sites/developing/using/developing-with-crxde-lite.md">CRXDE Lite</a> :</p> 
+  <ul> 
+   <li>browse to <a href="http://localhost:4502/crx/de">http://&amp;lt;server&amp;gt;:&amp;lt;port&amp;gt;/crx/de</a></li> 
+   <li>locate the <span class="code">clientlibslist</span> node for the page on which you wish to add the component 
+    <ul> 
+     <li><span class="code">/content/sites/sample/en/page/jcr:content/clientlibslist</span></li> 
+    </ul> </li> 
+   <li>with <span class="code">clientlibslist</span> node selected 
+    <ul> 
+     <li>locate the String[] property <span class="code">scg:requiredClientLibs</span></li> 
+     <li>select its <span class="code">Value</span> to access the String array dialog<br /> 
+      <ul> 
+       <li>scroll down if necessary</li> 
+       <li>select + to enter a new client library 
+        <ul> 
+         <li>repeat to add more client libraries</li> 
+        </ul> </li> 
+       <li>select<strong> OK</strong></li> 
+      </ul> </li> 
+     <li>select <strong>Save All</strong></li> 
+    </ul> </li> 
+  </ul> 
+  <note> 
+   <p>If the site is not a community site, the existance or location of the client libraries in use for the site would need to be discovered.</p> 
+  </note> 
+  <p>Using the <a href="../../communities/using/getting-started.md">Getting Started with AEM Communities</a> example, where <span class="code">site-name</span> is <i>engage</i>, this is how the clientliblist would appear if adding the reviews component :</p> 
+  <img imageRotate="0" src="assets/chlimage_1-247.png" /> 
+ </body> 
+</html>

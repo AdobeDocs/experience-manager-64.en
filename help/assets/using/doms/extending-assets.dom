@@ -1,0 +1,73 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2018-04-24T11:58:10.691-0400" name="cq:lastModified" />
+  <meta content="Customizing and Extending Assets" name="jcr:title" />
+  <meta content="2017-11-14T10:38:19.121-0500" name="publishExternalDate" />
+  <meta content="Guillaume Carlino" name="contentOwner" />
+  <meta content="mix:lockable;mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS;topic_tags:extending-assets;content_type:reference" name="cq:tags" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/assets/using/extending-assets.html" name="publishExternalURL" />
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/extending_assets_krs_workflow_f3c2f2ccebf6138e_133_report.xml" name="acrolinxReportURL" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-04-03T08:08:21.605-0400" name="cq:lastReplicated" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS" name="primaryProductTag" />
+  <meta content="2017-10-31T16:34:53.634-0400" name="firstPublishExternalDate" />
+  <meta content="17" name="acrolinxSentences" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2017-12-01T19:01:26.504-0500" name="jcr:created" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="Learn ways by which you can customize and extend Asset Share and Asset Editor, which presents users with a specifically tailored interface and set of functionality." name="seoDescription" />
+  <meta content="2017-11-14T10:38:19.121-0500" name="topicBrowsingSortDate" />
+  <meta content="470dc4a7-9cb4-4ff3-9e32-e0322742432e" name="jcr:predecessors" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="/content/docs/en/aem/6-3/develop/extending/assets" name="qaNotes" />
+  <meta content="Customizing and Extending Assets" name="navTitle" />
+  <meta content="266" name="acrolinxWords" />
+  <meta content="/content/help/en/experience-manager/6-4/assets/morehelp/extending-assets;/content/help/en/experience-manager/6-4/assets/morehelp/extending-assets" name="moreHelpPaths" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="76a1b969-6e39-460c-b404-914676ce48e4" name="jcr:uuid" />
+  <meta content="2018-04-24T11:58:10.691-0400" name="locHandOffDate" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" />
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" />
+  <meta content="Customizing and Extending Assets" name="seoTitle" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="cmajumda@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="yellow" name="acrolinxPageStatus" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2017-11-14T10:38:19.121-0500" name="lastPublishExternalDate" />
+  <meta content="checked_not_improved" name="acrolinxStatus" />
+  <meta content="asgupta" name="acrolinxLastCheckedBy" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2019-01-12T17:28:46.923-0500" name="acrolinxDate" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+ </head>
+ <body>
+  <p>The Asset Editor is the primary point of access that users of a Adobe Enterprise Manager (AEM) website will use to find, view, and manipulate the digital assets in your repository.</p> 
+  <p>As an AEM developer, you can customize and extend the Asset Editor in a number of ways, presenting users with a specifically tailored interface and set of functionality.</p> 
+  <p>The following aspects of the functionality can be customized or enhanced:</p> 
+  <ul> 
+   <li><a href="../../assets/using/asseteditorx.md">Extending Asset Editor</a></li> 
+   <li><a href="../../assets/using/searchx.md">Extending Assets Search</a></li> 
+   <li><a href="../../assets/using/media-handlers.md">Processing Assets Using Media Handlers and Workflows</a></li> 
+   <li><a href="../../assets/using/extending-activity-stream.md">Integrating Assets with Activity Stream</a></li> 
+   <li><a href="../../assets/using/proxy.md">Assets Proxy Development</a></li> 
+   <li><a href="../../assets/using/best-practices-for-imagemagick.md">Best Practices for Configuring ImageMagick</a></li> 
+  </ul> 
+  <h2>Customizing the Look and Feel</h2>
+  <p> The following aspects of the look and feel of the Asset Editor are customizable:</p> 
+  <ul> 
+   <li>Logo: You can add your own organization's logo to the interface.</li> 
+   <li>Colors and Fonts: You can change the colors and fonts used in the interface.</li> 
+   <li>HTML Code: For more thorough customization you can change the underlying HTML code that defines the interfaces.</li> 
+  </ul> 
+  <h2>Customizing Renditions</h2>
+  <p>In AEM Assets terminology a rendition is the form in which an asset is presented. In general, a particular asset may have multiple renditions. For example, full-color image may have one rendition in its original size, another at a scaled-down size and another that is both scaled down and converted to grayscale.</p> 
+  <p>The renditions that a particular asset is available in can be customized and new renditions created.</p> 
+ </body>
+</html>

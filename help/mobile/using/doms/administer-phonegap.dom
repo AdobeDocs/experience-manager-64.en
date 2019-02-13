@@ -1,0 +1,67 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2018-05-11T10:01:14.306-0400" name="locHandOffDate" />
+  <meta content="/content/docs/en/aem/6-3/administer/mobile-apps/phonegap" name="qaNotes" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/MOBILE;topic_tags:administering-adobe-phonegap-enterprise" name="cq:tags" />
+  <meta content="2018-05-11T10:01:14.307-0400" name="cq:lastModified" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="bohnert" name="cq:lastReplicatedBy" />
+  <meta content="Administering Content for Adobe PhoneGap Enterprise with AEM" name="seoTitle" />
+  <meta content="2018-05-04T05:12:29.963-0400" name="cq:lastReplicated" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2017-12-13T19:01:05.419-0500" name="jcr:created" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/mobile/using/administer-phonegap.html" name="publishExternalURL" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/MOBILE" name="primaryProductTag" />
+  <meta content="This page serves as landing page for administering Adobe PhoneGap Enterprise." name="seoDescription" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2018-05-04T05:12:29.876-0400" name="publishExternalDate" />
+  <meta content="Administering Content for Adobe PhoneGap Enterprise with AEM" name="jcr:title" />
+  <meta content="2018-05-04T05:12:29.876-0400" name="lastPublishExternalDate" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="bohnert@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="msm-service" name="contentOwner" />
+  <meta content="171ddc2a-fde6-455d-b54b-67112615374c" name="jcr:uuid" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2017-10-31T16:26:45.047-0400" name="firstPublishExternalDate" />
+  <meta content="8eea6f08-78b5-4bd6-ac9d-a54154127bb9" name="jcr:predecessors" />
+  <meta content="2018-05-04T05:12:29.876-0400" name="topicBrowsingSortDate" />
+  <meta content="bohnert" name="cq:lastModifiedBy" />
+  <meta content="/content/help/en/experience-manager/6-4/mobile/morehelp/administering-adobe-phonegap-enterprise;/content/help/en/experience-manager/6-4/mobile/morehelp/administering-adobe-phonegap-enterprise" name="moreHelpPaths" />
+ </head>
+ <body>
+  <note>
+   <p>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). <a href="../../sites/developing/using/spa-overview.md">Learn more</a>.</p>
+  </note>
+  <p>An <i><strong>AEM administrator</strong></i> is responsible for adding a new application to the AEM Mobile catalog, either by creating a new app using the creation wizard, or by importing an existing application. AEM administrators who create a new app using AEM Mobile's <i>creation wizard</i> typically select one of the desired app templates either from our out-of-the-box reference samples or (in most cases) a custom app template created by <i>AEM developers.</i></p> 
+  <p>Once you've built your mobile application using HTML5 and PhoneGap you can manage it within the Command Center. Of course you can also manage the HTML5 content for a native app in the Command Center as well, using Cordova webviews (to allow for PhoneGap plug-ins to access native features).</p> 
+  <p>The AEM Apps Control Center allows you to build and deploy your mobile application, create and edit application metadata before publishing your mobile application, collaborately curate and frequently publish fresh and relavent content without the need to revisit the application store submission processes and, analyze application life cycle and usage metrics to improve customer conversion and brand loyalty. </p> 
+  <p>To build your AEM Mobile Application, see the <a href="../../mobile/using/building-app-mobile-phonegap.md">Building Mobile Applications</a> page, in Developers section.</p> 
+  <p>To setup your environment and get started with the Control Center,</p> 
+  <ol> 
+   <li><a href="../../mobile/using/configure-users-groups.md">Configure your users and groups</a></li> 
+   <li><a href="../../mobile/using/setting-referrer-filter-empty.md">Set your referrer filter to allow empty</a></li> 
+   <li><a href="../../mobile/using/configure-phonegap-build-cloud.md">Configure your Adobe PhoneGap Build Cloud Service</a></li> 
+   <li><a href="../../mobile/using/configure-adobe-mobile-cloud-service.md">Configure your Adobe Analytics Cloud Service</a></li> 
+  </ol> 
+  <p>For learn about content services Content Services, see <a href="/mobile/using/content-services">Administering Content Services</a>.</p> 
+  <note>
+   <p>The <i>AEM Verify</i> is a quick and an easy way to run your AEM mobile applications on any iOS or Android mobile device. The<i> AEM Verify</i> is a mobile app, on your device and you connect it to the server running the quickstart to get a list of apps to view. Click <a href="../../mobile/using/phonegap-mobile-quickstart.md">here</a> to view the details.</p> 
+  </note>
+  <h3>Additional Resources</h3>
+  <p>To learn about the roles and responsibilities of an Author and Developer, see the resources below:</p> 
+  <ul> 
+   <li><a href="../../mobile/using/developing-in-phonegap.md">Developing for Adobe PhoneGap Enterprise with AEM</a></li> 
+   <li><a href="../../mobile/using/phonegap.md">Authoring for Adobe PhoneGap Enterprise in AEM</a></li> 
+  </ul> 
+ </body>
+</html>

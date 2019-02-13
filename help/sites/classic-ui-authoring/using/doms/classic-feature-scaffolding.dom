@@ -1,0 +1,147 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2018-04-03T06:43:38.205-0400" name="topicBrowsingSortDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;content_type:reference;topic_tags:site-features" name="cq:tags" /> 
+  <meta content="Chris Bohnert" name="contentOwner" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/classic-ui-authoring/morehelp/site-features;/content/help/en/experience-manager/6-4/sites/classic-ui-authoring/morehelp/site-features" name="moreHelpPaths" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="jsyal" name="cq:lastReplicatedBy" /> 
+  <meta content="2017-12-01T19:05:49.897-0500" name="jcr:created" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="/content/docs/en/aem/6-3/author/classicui/site-page-features/scaffolding" name="qaNotes" /> 
+  <meta content="Scaffolding" name="seoTitle" /> 
+  <meta content="2018-04-19T10:23:27.890-0400" name="locHandOffDate" /> 
+  <meta content="2018-04-03T06:43:38.205-0400" name="lastPublishExternalDate" /> 
+  <meta content="audience:classic-ui-authoring" name="primaryAudienceTag" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2018-04-19T10:23:27.891-0400" name="cq:lastModified" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2017-10-31T16:19:22.233-0400" name="firstPublishExternalDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="Sometimes you may need to create a large set of pages that share the same structure but have differing content. With scaffolding you can create a form (a scaffold) with fields that reflect the structure you want for your pages and then use this form to easily create pages based on this structure." name="seoDescription" /> 
+  <meta content="2018-10-27T23:46:15.497-0400" name="cq:lastReplicated" /> 
+  <meta content="5dadf973-4ee6-440f-b6eb-d0ee28c1e4fb" name="jcr:uuid" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="2018-04-03T06:43:38.205-0400" name="publishExternalDate" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/classic-ui-authoring/using/classic-feature-scaffolding.html" name="publishExternalURL" /> 
+  <meta content="Scaffolding" name="navTitle" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="58422e4e-04e9-4773-b1b8-71e1f640cae1" name="jcr:predecessors" /> 
+  <meta content="Scaffolding" name="jcr:title" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+ </head> 
+ <body> 
+  <p>Sometimes you may need to create a large set of pages that share the same structure but have differing content. Through the standard AEM interface, you would need to create each page, drag the appropriate components onto the page and fill each of them in individually.</p> 
+  <p>With scaffolding you can create a form (a scaffold) with fields that reflect the structure you want for your pages and then use this form to easily create pages based on this structure.</p> 
+  <note> 
+   <p>Scaffolding (in the classic UI) <a href="#scaffoldingwithmsminheritance">respects MSM inheritance</a>.<br /> </p> 
+  </note> 
+  <h3>How Scaffolding Works</h3> 
+  <p><a name="How Scaffolding Works"></a>Scaffolds are stored in the <strong>Tools</strong> console of the site admin. </p> 
+  <ul> 
+   <li>Open the <strong>Tools</strong> console and click on <strong>Default Page Scaffolding</strong>.</li> 
+   <li>Under this click on <strong>geometrixx</strong>.</li> 
+   <li>Under <strong>geometrixx</strong> you will find a <i>scaffold page</i> called <strong>News</strong>. Double click to open this page.</li> 
+  </ul> 
+  <img imageRotate="0" src="assets/howscaffolds_work.png" /> 
+  <p>The scaffold consists of a form with a field for each piece of content that will make up the page to be created and four important parameters which are accessed through the <strong>Page Properties</strong> of the scaffold page.</p> 
+  <img imageRotate="0" src="assets/pageprops.png" /> 
+  <p>The scaffolding page properties are:</p> 
+  <ul> 
+   <li><strong>Title Text</strong>: This is the name of this scaffolding page itself. In this example it is called "News".</li> 
+   <li><strong>Description</strong>: This appears below the title on the scaffolding page.</li> 
+   <li><strong>Target Template</strong>: This is the template that this scaffold will use when it creates a new page. In this example it is a <i>Geometrrixx Content Page</i> template.</li> 
+   <li><strong>Target Path</strong>: This is the path of the parent page below which this scaffold will create new pages. In this example the path is <i>/content/geometrixx/en/news</i>.</li> 
+  </ul> 
+  <p>The body of the scaffold is the form. When a user wishes to create a page using the scaffold he fills out the form and clicks <i>Create</i>, at the bottom. In the <strong>News</strong> example above the form has the following fields:</p> 
+  <ul> 
+   <li><strong>Title</strong>: This is the name of the page to be created. This field is always present on every scaffold.</li> 
+   <li><strong>Text</strong>: This field corresponds to a Text Component on the resulting page.</li> 
+   <li>Image: This field corresponds to an Image Component on the resulting page.</li> 
+   <li><strong>Image/Advanced</strong>: <strong>Title</strong>: The title of the image.</li> 
+   <li><strong>Image/Advanced</strong>: <strong>Alt Text</strong>: The alt text for the image.</li> 
+   <li><strong>I</strong><strong>mage/Advanced</strong>: <strong>Description</strong>: The description of the image.</li> 
+   <li><strong>Image/Advanced</strong>: <strong>Size</strong>: The size of the image.</li> 
+   <li><strong>Tags/Keywords</strong>: Metadata to be assigned to this page. This field is always present on every scaffold.</li> 
+  </ul> 
+  <h3>Creating a Scaffold</h3> 
+  <p>To create a new scaffold go to the <strong>Tools</strong> console, then <strong>Default Page Scaffolding</strong> and create a new page. A single page template type will be available, the <i>Scaffolding Template.</i></p> 
+  <p><i>Go to the <strong>Page Properties</strong> of the new page and set the <i>Title Text</i>, <i>Description</i>, <i>Target Template</i> and <i>Target Path</i>, as described above.</i></p> 
+  <p><i>Next, you have to define the structure of the page that this scaffold will create. To do this go into <i><a href="../../../sites/authoring/using/page-authoring.md#sidekick">design mode</a></i> on the scaffold page. A link will appear allowing you to edit the scaffold in the<strong> dialog editor</strong>.</i></p> 
+  <img imageRotate="0" src="assets/cq5_dialog_editor.png" /> 
+  <p>Using the dialog editor you specifiy the properties that will be created each time a new page is created using this scaffold.</p> 
+  <p>The dialog definition for a scaffold works similarly to that of a component (see <a href="../../../sites/developing/using/components.md">Components</a>). However a few important differences apply:</p> 
+  <ul> 
+   <li>Component dialog definitions are rendered as normal dialog boxes (as shown in the middle pane of the dialog editor, for example) while scaffold dialog definitions, though they appear as normal dialog boxes in the dialog editor, are rendered on the scaffold page as a scaffold form (as shown in the <strong>News</strong> scaffold above).</li> 
+   <li>Component dialogs provide fields for only those values needed to define the content of a single specific component. A scaffold dialog must provide fields for every property in every paragraph of the page to be created.</li> 
+   <li>In the case of component dialogs, the component used to render the specified content is implicit and therefore the <span class="code">sling:resourceType</span> property of the paragraph is filled in automatically when the paragraph is created. With a scaffold all the information defining both the content and the assigned component for a given paragraph must be provided by the dialog itself. In scaffold dialogs this information must be provided by using <i>Hidden</i> fields to submit this information on page creation.</li> 
+  </ul> 
+  <p>A look at the example <strong>News</strong> scaffold dialog in the dialog editor helps to explain how this works. Go into design mode on the scaffold page and click the dialog editor link.</p> 
+  <p>Now, click on the dialog field <strong>Dialog &amp;gt; Tab Panel &amp;gt; Text &amp;gt; Tex</strong><strong>t</strong>, like this:</p> 
+  <img imageRotate="0" src="assets/textedit.png" /> 
+  <p> The property list for this field will appear on the right side of the dialog editor, like this:</p> 
+  <img imageRotate="0" src="assets/list_of_properties.png" /> 
+  <p>Notice the name property for this field. It has the value</p> 
+  <p> ./jcr:content/par/text/text</p> 
+  <p>This is the name of the property to which the content of this field will be written when the scaffold is used to create a page. The property is stated as a relative path from the node representing the page to be created. It specifies the property text, below the node text, which is below the node par, which is itself a child of the jcr:content node below the page node.</p> 
+  <p>This defines the location of the content storage for the text that will be inputted into this field. However, we also need to specify two more characteristics for this content:</p> 
+  <ul> 
+   <li>The fact that the string being stored here must be interpreted as <i>rich text</i>, and</li> 
+   <li>which component should be used to render this content to the resulting page.</li> 
+  </ul> 
+  <p>Note that in a normal component dialog you would not have to specify this information because it is implicit in the fact that the dialog is already bound to a specific component.</p> 
+  <p>To specify these two pieces of information you use hidden fields. Click on the first hidden field <strong>Dialog &amp;gt; Tab Panel &amp;gt; Text &amp;gt; Hidden</strong>, like this:</p> 
+  <img imageRotate="0" src="assets/hidden.png" /> 
+  <p> The properties of this hidden field are as follows:</p> 
+  <img imageRotate="0" src="assets/hidden_list_props.png" /> 
+  <p>The name property of this hidden field is</p> 
+  <p><span class="code"> ./jcr:content/par/text/textIsRich</span></p> 
+  <p>This is a boolean property used to interpret the text string stored at <span class="code">./jcr:content/par/text/text. </span></p> 
+  <p>Because we know that the text should be interpreted as a rich text we specify the <span class="code">value</span> property of this field as <span class="code">true</span>.</p> 
+  <note> 
+   <p>The dialog editor allows the user to change the values of <i>existing</i> properties in the dialog definition. To add a new property, the user must use <a href="../../../sites/developing/using/developing-with-crxde-lite.md">CRXDE Lite</a>. For example, when a new hidden field is added to a dialog definition with the dialog editor it does not have a <i>value</i> property (i.e., a property with the name "value"). If the hidden field in question requires a default <i>value</i> property to be set then this property must be added manually with one of the CRX tools. The value cannot be added with the dialog editor itself. However, once the property is present, its value can be edited with the dialog editor.</p> 
+  </note> 
+  <p>The second hidden field can be seen by clicking on it like this:</p> 
+  <img imageRotate="0" src="assets/hidden2.png" /> 
+  <p>The properties of this hidden field are as follows:</p> 
+  <img imageRotate="0" src="assets/hidden_list_props2.png" /> 
+  <p>The name property of this hidden field is</p> 
+  <p><span class="code"> ./jcr:content/par/text/sling:resourceType</span></p> 
+  <p>and the fixed value specified for this property is</p> 
+  <p><span class="code"> foundation/components/textimage</span></p> 
+  <p><span class="code"></span>This specifies that component to be used to render the text content of this paragraph is the <i>Text Image</i> component. Using with the <span class="code">isRichText</span> boolean specified in the other hidden field, the component can render the actual text string stored at <span class="code">./jcr:content/par/text/text</span> in the desired way.</p> 
+  <h3>Scaffolding with MSM Inheritance</h3> 
+  <p>In the classic UI, scaffolding is fully integrated with MSM inheritance (when applicable).<br /> </p> 
+  <p>When you open a page in <strong>Scaffolding</strong> mode (using the icon at the bottom of sidekick) any components that are subject to inheritance will be indicated by:</p> 
+  <ul> 
+   <li>a lock symbol (for most components; e.g. Text and Title)<br /> </li> 
+   <li>a mask with the text <strong>Click to cancel inheritance</strong> (for Image components)</li> 
+  </ul> 
+  <p>These show that the component cannot be edited - until inheritance is cancelled.<br /> </p> 
+  <img imageRotate="0" src="assets/chlimage_1.jpeg" /> 
+  <note> 
+   <p>This is comparable to <a href="../../../sites/authoring/using/editing-content.md#inheritedcomponentsclassicui">inherited components when editing page content</a>.</p> 
+  </note> 
+  <p>Clicking on either the lock symbol or the image icon allows you to break inheritance:</p> 
+  <ul> 
+   <li>the symbol will change to an open padlock.<br /> </li> 
+   <li>once unlocked, you can edit the content.</li> 
+  </ul> 
+  <img imageRotate="0" src="assets/chlimage_1-1.jpeg" /> 
+  <p>After unlocking you can restore inheritance by clicking on the unlocked padlock symbol - this will lose any edits you have made.</p> 
+  <note> 
+   <p>If the inheritance is cancelled at the page level (from the Livecopy tab of Page Properties) then all components will be editable in <strong>Scaffolding</strong> mode (they will be shown in unlocked state).</p> 
+  </note> 
+ </body> 
+</html>

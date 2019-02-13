@@ -1,0 +1,53 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="en_us" name="jcr:language" />
+  <meta content="Managing Audiences" name="jcr:title" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2018-10-27T23:46:35.211-0400" name="cq:lastReplicated" />
+  <meta content="2017-10-31T16:18:30.678-0400" name="firstPublishExternalDate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-04-03T06:46:52.716-0400" name="topicBrowsingSortDate" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2018-04-19T10:27:07.781-0400" name="locHandOffDate" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:personalization;content_type:reference" name="cq:tags" />
+  <meta content="audience:classic-ui-authoring" name="primaryAudienceTag" />
+  <meta content="The Audiences console enables you to create, organize, and manage audiences for your Adobe Target account or manage segments for ContextHub or Client Context." name="seoDescription" />
+  <meta content="jsyal" name="cq:lastReplicatedBy" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="/content/help/en/experience-manager/6-4/sites/classic-ui-authoring/morehelp/personalization;/content/help/en/experience-manager/6-4/sites/classic-ui-authoring/morehelp/personalization" name="moreHelpPaths" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/classic-ui-authoring/using/classic-personalization-manage-audience.html" name="publishExternalURL" />
+  <meta content="/content/docs/en/aem/6-3/author/classicui/personalization/managing-audiences" name="qaNotes" />
+  <meta content="6500045d-1c0d-4711-81f1-c97a2b8bc3a2" name="jcr:predecessors" />
+  <meta content="2018-04-03T06:46:52.716-0400" name="lastPublishExternalDate" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2017-12-01T19:01:57.675-0500" name="jcr:created" />
+  <meta content="Chris Bohnert" name="contentOwner" />
+  <meta content="Managing Audiences" name="seoTitle" />
+  <meta content="Managing Audiences" name="navTitle" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="1859a4ba-b91a-44cb-9055-db9341574524" name="jcr:uuid" />
+  <meta content="2018-04-19T10:27:07.782-0400" name="cq:lastModified" />
+  <meta content="2018-04-03T06:46:52.716-0400" name="publishExternalDate" />
+ </head>
+ <body>
+  <p>The Audiences console enables you to create, organize, and manage audiences for your Adobe Target account or manage segments for ContextHub or Client Context:</p> 
+  <ul> 
+   <li>Add Audiences - either Adobe Target audiences or ContextHub segments.</li> 
+   <li>Manage audiences.</li> 
+  </ul> 
+  <note>
+   <p>The audiences console is not available in classic UI. See <a href="../../../sites/authoring/using/managing-audiences.md">Managing Audiences</a> in the standard authoring documentation for details.</p> 
+  </note>
+ </body>
+</html>

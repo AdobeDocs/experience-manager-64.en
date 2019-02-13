@@ -1,0 +1,195 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2013-02-13T03:00:00.000-0500" name="topicBrowsingSortDate" /> 
+  <meta content="2013-02-13T03:00:00.000-0500" name="sortDate" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="HTML5 forms is deployed as a package within the embedded AEM instance and exposes the functionality as REST end point over HTTP/S using RESTful Apache Sling architecture." name="seoDescription" /> 
+  <meta content="2016-05-31T06:46:09.203-0400" name="acrolinxDate" /> 
+  <meta content="2018-04-13T05:50:37.709-0400" name="cq:lastReplicated" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="khsingh" name="cq:lastModifiedBy" /> 
+  <meta content="HTML5 forms Architecture" name="navTitle" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2018-03-13T09:01:55.082-0400" name="jcr:created" /> 
+  <meta content="khsingh" name="cq:lastReplicatedBy" /> 
+  <meta content="2015-06-12T04:29:37.840-0400" name="publishQADate" /> 
+  <meta content="mix:lockable;mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="2018-04-13T05:50:37.567-0400" name="lastPublishExternalDate" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="2013-02-13T03:00:00.000-0500" name="lr_lastModified" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="robhagat" name="lr_lastModifiedBy" /> 
+  <meta content="eb421c1d-49e6-409a-94ca-e1d66be2612c" name="jcr:predecessors" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="" name="autotags" /> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/html5_forms;/content/help/en/experience-manager/6-4/forms/morehelp/html5_forms" name="moreHelpPaths" /> 
+  <meta content="2018-04-26T04:37:55.923-0400" name="cq:lastModified" /> 
+  <meta content="LiveCycle/10.5/MobileForms/WSf49552907c5bbe1e30a4d9f013cd215bda3-7ffe" name="cq:gepId" /> 
+  <meta content="khsingh@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2013-02-20T08:58:40.823-0500" name="firstPublishQADate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2073e8d4-2c29-41f5-b81a-053fbdab0c1e" name="jcr:uuid" /> 
+  <meta content="108" name="acrolinxSentences" /> 
+  <meta content="2018-04-26T04:37:55.923-0400" name="locHandOffDate" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="robhagat" name="contentOwner" /> 
+  <meta content="Architecture of HTML5 forms" name="jcr:title" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2013-03-22T13:10:49.579-0400" name="firstPublishExternalDate" /> 
+  <meta content="2018-04-13T05:50:37.567-0400" name="publishExternalDate" /> 
+  <meta content="1964" name="acrolinxWords" /> 
+  <meta content="https://helpx-preview.corp.adobe.com/content/help/en/aem-forms/6-1/html5-forms/architecture.html" name="publishQAURL" /> 
+  <meta content="2015-06-12T04:29:37.840-0400" name="lastPublishQADate" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/architecture_admin_5e12de0b318c6865_2088_report.xml" name="acrolinxReportURL" /> 
+  <meta content="" name="autotagsRejected" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/html5-forms-architecture.html" name="publishExternalURL" /> 
+  <meta content="robhagat" name="lr_creator" /> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:hTML5_forms" name="cq:tags" /> 
+ </head> 
+ <body> 
+  <h2>Architecture</h2> 
+  <p>HTML5 forms functionality is deployed as a package within the embedded AEM instance and is exposesd as a REST end point over HTTP/S using RESTful <a href="http://sling.apache.org/" target="_blank">Apache Sling Architecture</a>.</p> 
+  <p> </p> 
+  <style> .background{ display: none; position: absolute; top: 0%; left: 0%; width: 100%; height: 100%; background-color: black; z-index:1001; -moz-opacity: 0.8; opacity:.80; filter: alpha(opacity=80); } .content { display: none; position: fixed; top: 50%; left: 50%; width: 1200px; height: 756px; margin-left: -600px; margin-top: -378px; border:10px solid orange; background-color: white; z-index:1002; overflow: visible; } </style> 
+  <p style="text-align:center;font-size:9pt"><a href="javascript:void(0)" onclick="document.getElementById('popup').style.display='block';document.getElementById('fade').style.display='block'"><img src="assets/01-aem-forms-architecture.jpg" /><br /><em>View Full Size</em></a></p> 
+  <div class="content" id="popup"> 
+   <a href="javascript:void(0)" onclick="document.getElementById('popup').style.display='none';document.getElementById('fade').style.display='none'"><img src="assets/02-aem-forms-architecture_large.jpg" /></a> 
+  </div> 
+  <div class="background" id="fade"></div> 
+  <h4>Using Sling Framework</h4> 
+  <p><a href="http://sling.apache.org/" target="_blank">Apache Sling</a> is resource-centric. It uses a request URL to first resolve the resource. Each resource has a <strong>sling:resourceType</strong> (or <strong>sling:resourceSuperType</strong>) property. Based on this property, the request method, and properties of the request URL, a sling script is then selected to handle the request. This sling script can be a JSP or a servlet. For HTML5 forms, <strong>Profile </strong>nodes act as sling resources and <strong>Profile Renderer</strong> acts as the sling script that handles the request to render the mobile form with a particular profile. A <strong>Profile Renderer</strong> is a JSP that reads parameters from a request and calls the Forms OSGi Service.</p> 
+  <p>For details on REST endpoint and supported request parameters, see <a href="../../forms/using/rendering-form-template.md" target="_blank">Rendering Form Template</a>.</p> 
+  <p>When a user makes a request from a client device such as an iOS or Android browser, Sling first resolves the Profile Node based on the request URL. From this Profile Node, it reads <strong>sling:resourceSuperType</strong> and <strong>sling:resourceType</strong> to determine all available scripts that can handle this Form Render request. It then uses Sling request selectors along with request method to identify the script best suited for handling this request. Once the request reaches a Profile Renderer JSP, the JSP calls the Forms OSGi service.</p> 
+  <p>For more details on sling script resolution, see <a href="http://docs.adobe.com/content/docs/en/cq/current/developing/sling_cheatsheet.html" target="_blank">AEM Sling Cheat Sheet</a> or <a href="http://sling.apache.org/site/url-decomposition.html">Apache Sling Url decomposition</a>.</p> 
+  <h4>Typical form processing call flow</h4> 
+  <p>HTML5 forms cache all the intermediate objects required to process (rendition or submission) a form on the first request. It does not cache the objects dependent on the data as such objects are likely to change.</p> 
+  <p>Mobile Form maintains two different levels of cache, PreRender cache and Render Cache. The preRender cache contains all the fragments and images of a resolved template and Render cache contains rendered content such as HTML. </p> 
+  <img alt="HTML5 forms workflow" captionBottom="HTML5 forms workflow" imageRotate="0" src="assets/cacheworkflow.png" title="HTML5 forms workflow" /> 
+  <p>HTML5 forms do not cache templates that have missing references of fragments and images. If HTML5 forms take more than normal amount of time, then check the server logs for missing references and warnings. Also ensure that the maximum size of the object is not reached. </p> 
+  <p>Forms OSGi service processes a request in two steps:</p> 
+  <ul> 
+   <li><strong>Layout and Initial Form State generation</strong>: Forms OSGi render service calls the Forms Cache component to determine if the form has already been cached and has not been invalidated. If the form is cached and valid, it serves the generated HTML from the cache. If the form is invalidated, the Forms OSGi render service generates Initial Form Layout and Form State in XML format. This XML is transformed into HTML layout and Initial JSON Form State by the Forms OSGi service and then cached for subsequent requests.</li> 
+   <li><strong>Prepopulated Forms</strong>: While rendering, If a user requests forms with prepopulated data, the Forms OSGi render service calls the Forms service container and generates a new Form state with merged data. However, since the layout is already generated in the above step, this call is faster than the first call. This call only performs the data merge and runs the scripts on the data.<br /> </li> 
+  </ul> 
+  <p>If there is any update in form or any of assets used inside form, the form cache component detects it and the cache for that particular form is invalidated. Once the Forms OSGi service completes processing, the Profile Renderer jsp adds JavaScript library references and styling to this form and returns the response to client. A typical web server like <a href="http://httpd.apache.org/" target="_blank">Apache</a> can be used here with HTML compression on. A web server would reduce the response size, network traffic, and time required to stream the data between server and client machine significantly.</p> 
+  <p>When a user submits the form, the browser sends state of form in JSON format to the <a href="../../forms/using/service-proxy.md" target="_blank">submit service proxy</a>; then the submit service proxy generates a data XML using JSON data and submits that data XML to submit endpoint. </p> 
+  <h2>Components</h2> 
+  <p>You require AEM Forms add-on package to enable HTML5 forms. For information about installing AEM Forms add-on package, see <a href="../../forms/using/installing-configuring-aem-forms-osgi.md" target="_blank">Installing and configuring AEM Forms</a>.</p> 
+  <h3>OSGi Components (adobe-lc-forms-core.jar)</h3> 
+  <p><strong>Adobe XFA Forms Renderer (com.adobe.livecycle.adobe-lc-forms-core)</strong> is the display name of the HTML5 forms OSGi bundle when viewed from Bundle View of Felix admin console (http://[host]:[port]/system/console/bundles).</p> 
+  <p>This component contains OSGi components for render, cache management, and configuration settings.</p> 
+  <h4>Forms OSGi Service</h4> 
+  <p>This OSGi Service contains the logic to render an XDP as HTML and handles the submission of a form to generate data XML. This service uses Forms service container. The Forms service container internally calls native component <span class="code">XMLFormService.exe</span> that performs the processing.</p> 
+  <p>If a render request is received, this component calls Forms service container to generate layout and state information that is further processed to generate HTML and JSON form DOM states.</p> 
+  <p>This component is also responsible for generating data XML from submitted form state JSON.</p> 
+  <h4>Cache Component</h4> 
+  <p>HTML5 forms uses caching to optimize throughput and response time. You can configure the level of the cache service to fine-tune the trade-off between performance and space utilization.</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <th>Cache Strategy</th> 
+     <th>Description</th> 
+    </tr> 
+    <tr> 
+     <td>None</td> 
+     <td>Do not cache artifacts<br /> </td> 
+    </tr> 
+    <tr> 
+     <td>Conservative</td> 
+     <td>Cache only intermediate artifacts that are generated before the render of the form like template containing inline fragments and images</td> 
+    </tr> 
+    <tr> 
+     <td>Aggressive</td> 
+     <td>Cache Rendered HTML content<br /> Cache all the artifacts cached in the Conservative level.<br /> <strong>Note</strong>: This strategy results in best performance but consumes more memory for storing the cached artifacts.</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <p>HTML5 forms perform in-memory caching using LRU strategy. If cache strategy is set to None cache will not be created and existing cache data, if any, would be cleared. Besides the caching strategy, you can also configure the total in-memory cache size which can help in having the maximum bound on cache size and if it goes beyond that it will use LRU mode to free up cache resources.<br /> </p> 
+  <note> 
+   <p>In-memory cache is not shared between cluster nodes.</p> 
+  </note> 
+  <h4>Configuration Service</h4> 
+  <p>Configuration Service enables tuning the configuration parameters and cache settings for HTML5 forms.</p> 
+  <p>To update these settings, go to the CQ Felix Admin Console (available at http://&amp;lt;[server]:[port]/system/console/configMgr), search for and select Mobile Forms Configuration.</p> 
+  <p>You can configure the cache size or disable the cache using configuration service. You can also enable debugging using Debug Options parameter. More information about debugging forms can be found at <a href="../../forms/using/debug.md" target="_blank">Debugging HTML5 forms</a>.</p> 
+  <h3>Runtime Components (adobe-lc-forms-runtime-pkg.zip)</h3> 
+  <p>The Runtime Package contains the client-side libraries used to render HTML forms.</p> 
+  <p><strong>Important components available as part of Runtime package:</strong></p> 
+  <h4>Scripting Engine</h4> 
+  <p>Adobe XFA implementation supports two kinds of scripting languages to enable user-defined logic execution in forms: JavaScript and FormCalc.</p> 
+  <p>The scripting engine of HTML Forms is written in JavaScript to support the XFA scripting API in both these languages.</p> 
+  <p>At render time, the FormCalc script is translated (and cached) into JavaScript on the server transparent to the user or designer.</p> 
+  <p>This scripting engine uses some of the feature of ECMAScript5 like Object.defineProperty. The engine / library is delivered as CQ Client Lib with the category name <strong>xfaforms.profile</strong>. It also provides <strong>FormBridge API </strong>to enable external portals or apps to interact with form. Using FormBridge, an external app can programmatically hide certain elements, get or set their values, or change their attributes.</p> 
+  <p>For more details, see the <a href="../../forms/using/form-bridge-apis.md" target="_blank">Form Bridge</a> article.</p> 
+  <h4>Layout Engine</h4> 
+  <p>The layout and visual aspect of the HTML5 forms is based on SVG 1.1, jQuery, BackBone, and CSS3 features. The initial appearance of a form is generated and cached at server. The tweaking of that initial layout and any further incremental changes to the form layout are managed on the client. To achieve this, the Runtime package contains a layout engine written in JavaScript and based on jQuery/Backbone. This engine handles all dynamic behavior, like Add/Remove repeatable instances, Growable object layout. This layout engine renders a form one page at a time. Initially a user views only one page and the horizontal scroll bar accounts for only first page. However, when a user scrolls down, the next page starts rendering. This page-by-page rendition reduces the amount of time required to render the first page in a browser and enhances the perceived performance of the form. This engine/library is part of CQ Client Lib with the category name <strong>xfaforms.profile</strong>.</p> 
+  <p>Layout Engine also contains a set of widgets used to capture the value of form fields from a user. These widgets are modeled as <a href="http://api.jqueryui.com/jQuery.widget/">jQuery UI Widgets</a> that implement certain additional contract to work seamlessly with Layout engine.</p> 
+  <p>For more details on widgets and the corresponding contracts, see <a href="../../forms/using/introduction-widgets.md" target="_blank">Custom Widgets for HTML5 forms</a>.</p> 
+  <h4>Styling</h4> 
+  <p>The style associated with the HTML elements is added either inline or based on embedded CSS block. Some common styles which are not dependent on form are part of CQ Client Lib with category name xfaforms.profile.</p> 
+  <p>In addition to default styling properties, each form element also contains certain CSS classes based on element type, name, and other properties. Using these classes, one can restyle elements by specifying their own CSS.</p> 
+  <p>For more details on default styling and classes, see <a href="../../forms/using/css-styles.md" target="_blank">Introduction to styles</a>.</p> 
+  <h4>Server-Side script and Web Services</h4> 
+  <p>Any scripts that are marked to run-at-server or marked to call a Web Service (regardless of where it is marked to execute) always executes on server.</p> 
+  <p>The client script engine:</p> 
+  <ol> 
+   <li>Makes a synchronous call to the server passing the current Form state in the form of JSON</li> 
+   <li>Executes the script or Web Service on the server</li> 
+   <li>Generates a new JSON state</li> 
+   <li>Merges the new JSON state on the client when the response is returned.</li> 
+  </ol> 
+  <h4>Localization Resource Bundles</h4> 
+  <p>HTML5 forms support Italian (it), Spanish (es), Brazilian Portuguese (pt_BR), Simplified Chinese (zh_CN), Traditional Chinese (limited support only) (zh_TW), Korean (ko_KR), English (en_US), French (fr_FR), German (de_DE), and Japanese (ja) language. Based on the locale received in the request header, corresponding Resource Bundle is sent to the client. This resource bundle is added to Profile JSP as a CQ Client Lib with category name <strong>xfaforms.I18N</strong>. You can override the logic of picking up the locale package in the profile.</p> 
+  <h3>Sling Components (adobe-lc-forms-content-pkg.zip)</h3> 
+  <p>Sling package contains content related to Profiles and Profile Renderer.</p> 
+  <h4>Profiles</h4> 
+  <p>Profiles are the Resource nodes in sling that represent a form or Family of Forms. At the CQ Level, these profiles are JCR nodes. The nodes reside under the <strong>/content</strong> folder in JCR repository and can be inside any sub folder under the <strong>/content</strong> folder.</p> 
+  <h4>Profile Renderers</h4> 
+  <p>The Profile node has a property <strong>sling:resourceSuperType</strong> with value <strong>xfaforms/profile</strong>. This property internally sends forward requests to the sling script for Profile nodes located in the <strong>/libs/xfaforms/profile</strong> folder. These scripts are JSP pages, that are containers for putting together the HTML forms and required JS/CSS artifacts. The pages include references to:</p> 
+  <ul> 
+   <li><strong>xfaforms.I18N.&amp;lt;locale&amp;gt;</strong>: This library contains localized data.</li> 
+   <li><strong>xfaforms.profile</strong>: This library contains implementation for XFA Scripting and Layout engine.</li> 
+  </ul> 
+  <div>
+    These libraries are modeled as CQ Client Libraries which takes advantages of automatic concatenation, minification, and compression capabilities of the CQ framework JavaScript libraries. 
+  </div> 
+  <div>
+    For more information on CQ Client Libs, see 
+   <a href="http://docs.adobe.com/docs/en/cq/current/developing/components/clientlibs.html">CQ Clientlib Documentation</a>. 
+  </div> 
+  <div> 
+  </div> 
+  <div>
+    As described above, the profile renderer JSP calls Forms Service via a sling include. This JSP also sets various debug options based on admin configuration or request parameters. 
+  </div> 
+  <div> 
+  </div> 
+  <div>
+    HTML5 forms allow developers to create Profile and Profile Renderer to customize the appearance of the forms. For example, HTML forms allow developers to integrate forms in a panel or &amp;lt;div&amp;gt; section of an existing HTML portal. 
+  </div> 
+  <div>
+    For more details on creating custom profiles, see 
+   <a href="../../forms/using/custom-profile.md" target="_blank">Creating a Custom Profile</a>. 
+   <br /> 
+  </div> 
+  <p><a href="https://www.adobe.com/account/sign-in.supportportal.html" target="_blank"><strong>Contact Support</strong></a></p> 
+  <related-links> 
+   <a href="../../forms/using/html5-forms-architecture.md">Architecture of HTML5 forms</a> 
+   <a href="../../forms/using/feature-differentiation-html5-forms-pdf-forms.md">Feature differentiation between HTML5 forms and PDF Forms</a> 
+   <a href="../../forms/using/introduction.md">Introduction to HTML5 forms</a> 
+   <a href="../../forms/using/Best-practices-for-HTML5-forms.md" target="_blank">Best practices for HTML5 forms</a> 
+  </related-links> 
+ </body> 
+</html>

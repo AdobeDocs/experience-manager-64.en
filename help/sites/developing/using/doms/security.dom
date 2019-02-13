@@ -1,0 +1,70 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2017-10-31T16:16:19.116-0400" name="publishExternalDate" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="33dab5a3-3396-440b-adaa-01d1ac700365" name="jcr:uuid" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="audience:developing" name="primaryAudienceTag" />
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="Guillaume Carlino" name="contentOwner" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="Security" name="seoTitle" />
+  <meta content="Security" name="jcr:title" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Application Security starts during the development phase" name="seoDescription" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" />
+  <meta content="e0ec744c-dabb-4b7f-b184-67e8cec70321" name="jcr:predecessors" />
+  <meta content="2017-10-31T16:16:19.116-0400" name="topicBrowsingSortDate" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="/content/docs/en/aem/6-3/develop/security" name="qaNotes" />
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/morehelp/introduction;/content/help/en/experience-manager/6-4/sites/developing/morehelp/introduction" name="moreHelpPaths" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="Security" name="navTitle" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:introduction;content_type:reference" name="cq:tags" />
+  <meta content="2017-10-31T16:16:19.116-0400" name="firstPublishExternalDate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2017-12-01T19:02:24.515-0500" name="jcr:created" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2017-10-31T16:16:19.116-0400" name="lastPublishExternalDate" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2018-04-03T09:01:10.140-0400" name="cq:lastReplicated" />
+  <meta content="2018-05-08T12:45:08.581-0400" name="cq:lastModified" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/security.html" name="publishExternalURL" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2018-05-08T12:45:08.580-0400" name="locHandOffDate" />
+ </head>
+ <body>
+  <p>Application Security starts during the development phase. Adobe recommends to apply the following security best practices.</p> 
+  <h3>Use Request Session</h3>
+  <p>Following the principle of leas privilegies, Adobe recommends that every repository access is done by using the session bound to the user request and proper access control.</p> 
+  <h3>Protect against Cross-Site Scripting (XSS)</h3>
+  <p>Cross-site scripting (XSS) allows attackers to inject code into web pages viewed by other users. This security vulnerability can be exploited by malicious web users to bypass access controls.</p> 
+  <p>AEM applies the principle of filtering all user-supplied content upon output. Preventing XSS is given the highest priority during both development and testing.</p> 
+  <p>The XSS protection mechanism provided by AEM is based on the <a href="https://www.owasp.org/index.php/Category:OWASP_AntiSamy_Project">AntiSamy Java Library</a> provided by <a href="https://www.owasp.org/">OWASP (The Open Web Application Security Project)</a>. The default AntiSamy configuration can be found at<br /> <br /> <span class="code">/libs/cq/xssprotection/config.xml</span><br /> <br /> It is important that you adapt this configuration to your own security needs by overlaying the configuration file. The official <a href="https://www.owasp.org/index.php/Category:OWASP_AntiSamy_Project">AntiSamy documentation</a> will provide you with all the information you need in order to implement your security requirements.<br /> </p> 
+  <note>
+   <p>We strongly recommend you always access to the XSS protection API by using the <a href="/sites/developing/using/reference-materials/javadoc/com/adobe/granite/xss/XSSAPI">XSSAPI provided by AEM</a>.</p> 
+  </note>
+  <p>Additionally, a web application firewall, such as <a href="https://www.modsecurity.org">mod_security for Apache</a>, can provide reliable, central control over the security of the deployment environment and protect against previously undetected cross-site scripting attacks.</p> 
+  <h3>Access to Cloud Service Information</h3>
+  <note>
+   <p>ACLs for the Cloud Service Information as well as the OSGi settings required to secure your instance are automated as part of the <a href="../../../sites/administering/using/production-ready.md">Production Ready Mode</a>. While this means that you do not need to make the configuration changes manually, it is still recommended that you review them before you go live with your deployment.<br /> </p> 
+  </note>
+  <p>When you <a href="../../../sites/administering/using/marketing-cloud.md">integrate your AEM instance with the Adobe Marketing Cloud</a> you use <a href="../../../sites/developing/using/extending-cloud-config.md">Cloud Service configurations</a>. Information about these configurations, together with any statistics collected are stored in the repository. We recommend that, if you are using this functionality, you review whether the default security on this information matches your requirements.</p> 
+  <p>The webservicesupport module writes statistics and configuration information under:</p> 
+  <p style="margin-left: 40px;"><span class="code">/etc/cloudservices</span><br /> </p> 
+  <p>With the default permissions:</p> 
+  <ul> 
+   <li>Author environment: <span class="code">read</span> for <span class="code">contributors</span></li> 
+   <li>Publish environment: <span class="code">read</span> for <span class="code">everyone</span></li> 
+  </ul> 
+  <h3>Protect against Cross-Site Request Forgery Attacks</h3>
+  <p>For more information on the security mechanisms AEM employs to mitigate CSRF attacks, see the <a href="../../../sites/administering/using/security-checklist.md#main-pars-title-1046104842">Sling Referrer Filter</a> section of the Security Checklist and the <a href="../../../sites/developing/using/csrf-protection.md">CSRF Protection Framwork documentation</a>.<br /> </p> 
+ </body>
+</html>

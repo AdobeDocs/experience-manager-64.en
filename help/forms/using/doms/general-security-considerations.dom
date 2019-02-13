@@ -1,0 +1,261 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/general_security_considerations_krs_workflow_e29eb5a2271e4a76_7_report.xml" name="acrolinxReportURL" /> 
+  <meta content="2018-05-21T07:08:33.682-0400" name="acrolinxDate" /> 
+  <meta content="Learn how to prepare for hardening your AEM Forms on JEE environment." name="jcr:description" /> 
+  <meta content="995" name="acrolinxWords" /> 
+  <meta content="General Security Considerations for AEM Forms on JEE" name="jcr:title" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="General Security Considerations" name="navTitle" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2018-08-13T06:05:20.441-0400" name="cq:lastModified" /> 
+  <meta content="2018-05-21T07:17:49.735-0400" name="firstPublishExternalDate" /> 
+  <meta content="khsingh" name="acrolinxLastCheckedBy" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="2018-05-21T07:17:49.735-0400" name="lastPublishExternalDate" /> 
+  <meta content="khsingh@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="admin" name="lr_creator" /> 
+  <meta content="2018-05-21T07:17:49.735-0400" name="topicBrowsingSortDate" /> 
+  <meta content="khsingh" name="cq:lastReplicatedBy" /> 
+  <meta content="2018-03-29T07:29:24.988-0400" name="jcr:created" /> 
+  <meta content="Learn how to prepare for hardening your AEM Forms on JEE environment." name="seoDescription" /> 
+  <meta content="khsingh" name="cq:lastModifiedBy" /> 
+  <meta content="1f655060-60e5-4fc6-84ae-bd7f494ed8be" name="jcr:uuid" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2018-05-21T07:17:49.735-0400" name="publishExternalDate" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/security;/content/help/en/experience-manager/6-4/morehelp/security" name="moreHelpPaths" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="yellow" name="acrolinxPageStatus" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="admin" name="lr_lastModifiedBy" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="2018-05-21T07:17:49.901-0400" name="cq:lastReplicated" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/general-security-considerations.html" name="publishExternalURL" /> 
+  <meta content="885906ae-5646-481f-96f6-51bc2c3f31e2" name="jcr:predecessors" /> 
+  <meta content="content_type:reference;topic_tags:Security;products:SG_EXPERIENCEMANAGER/6.4" name="cq:tags" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2017-10-27T06:21:13.832-0400" name="lr_lastModified" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="115" name="acrolinxSentences" /> 
+  <meta content="AEMForms/6.1/HardeningSecurity/WS06d79948d9f4e5e816e1e3871506bf0a0ff-8000,AEMForms/6.1/HardeningSecurity/WS624e3cba99b79e1212923aa712f08246341-7ffb.2,AEMForms/6.1/HardeningSecurity/WS624e3cba99b79e124312284e12f082467a6-8000.2,AEMForms/6.1/HardeningSecurity/WS624e3cba99b79e1212923aa712f08246341-7ff7.2,AEMForms/6.1/HardeningSecurity/WS624e3cba99b79e124312284e12f082467a6-7ffc.2,AEMForms/6.1/HardeningSecurity/WS624e3cba99b79e1212923aa712f08246341-7ffa.2,AEMForms/6.1/HardeningSecurity/WS624e3cba99b79e1212923aa712f08246341-7ffe.2,AEMForms/6.1/HardeningSecurity/WS624e3cba99b79e1212923aa712f08246341-7ffd.2,AEMForms/6.1/HardeningSecurity/WS624e3cba99b79e1212923aa712f08246341-7ffc.2,AEMForms/6.1/HardeningSecurity/WS624e3cba99b79e1212923aa712f08246341-7ff9.2,AEMForms/6.1/HardeningSecurity/WS0b373c8e7f652f14-369a789b142bd408660-8000" name="cq:gepId" /> 
+ </head> 
+ <body> 
+  <p>This article provides introductory information that helps you prepare for hardening your AEM Forms environment. It includes prerequisite information about AEM Forms on JEE, operating system, application server, and database security. Review this information before you continue to lock down your environment.</p> 
+  <h2 id="vendor_specific_security_information">Vendor-specific security information</h2> 
+  <p></p> 
+  <p>This section contains security-related information about operating systems, application servers, and databases that are incorporated into your AEM Forms on JEE solution.</p> 
+  <p>Use the links in this section to find vendor-specific security information for your operating system, database, and application server.</p> 
+  <h3 id="operating_system_security_information">Operating system security information</h3> 
+  <p></p> 
+  <p>When securing your operating system, carefully consider implementing the measures described by your operating system vendor, including the following:</p> 
+  <ul> 
+   <li><p>Defining and controlling users, roles, and privileges</p></li> 
+   <li><p>Monitoring logs and audit trails</p></li> 
+   <li><p>Removing unnecessary services and applications</p></li> 
+   <li><p>Backing up files</p></li> 
+  </ul> 
+  <p>For security information about operating systems that AEM Forms on JEE supports, see the resources in the table:</p> 
+  <table cellpadding="4" cellspacing="0"> 
+   <thead align="left"> 
+    <tr> 
+     <th class="cellrowborder" id="d19e209" valign="top" width="NaN%"><p>Operating System</p> </th> 
+     <th class="cellrowborder" id="d19e212" valign="top" width="NaN%"><p>Security Resource</p> </th> 
+    </tr> 
+   </thead> 
+   <tbody> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e209 " valign="top" width="NaN%"><p>IBM® AIX® 7.2</p> </td> 
+     <td class="cellrowborder" headers="d19e212 " valign="top" width="NaN%"><p><a href="https://www.ibm.com/support/knowledgecenter/ssw_aix_72/com.ibm.aix.security/security-kickoff.htm" target="_blank">IBM AIX Security Benefits</a></p> </td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e209 " valign="top" width="NaN%"><p>Microsoft Windows Server® 2012 </p> </td> 
+     <td valign="top" width="NaN%"><p><a href="http://blogs.technet.com/b/secguide/archive/2014/08/13/security-baselines-for-windows-8-1-windows-server-2012-r2-and-internet-explorer-11-final.aspx" target="_blank">Windows Server 2012 Security Guide</a></p> </td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e209 " valign="top" width="NaN%"><p>Microsoft Windows Server® 2016 </p> </td> 
+     <td class="cellrowborder" headers="d19e212 " valign="top" width="NaN%"><p><a href="https://cloudblogs.microsoft.com/windowsserver/2017/08/22/now-available-windows-server-2016-security-guide/">Windows Server 2016 Security Guide</a></p> </td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e209 " valign="top" width="NaN%"><p>Red Hat® Linux® AP or ES</p> </td> 
+     <td class="cellrowborder" headers="d19e212 " valign="top" width="NaN%"><p><a href="https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/pdf/security_guide/Red_Hat_Enterprise_Linux-7-Security_Guide-en-US.pdf" target="_blank">Red Hat Enterprise Linux Security Guide</a></p> </td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e209 " valign="top" width="NaN%"><p>Sun Solaris 11</p> </td> 
+     <td class="cellrowborder" headers="d19e212 " valign="top" width="NaN%"><p><a href="https://docs.oracle.com/cd/E53394_01/html/E54807/index.html" target="_blank">Security and Hardening Guidelines</a></p> </td> 
+    </tr> 
+    <tr> 
+     <td>Oracle Linux® 7 Update 3</td> 
+     <td><a href="https://docs.oracle.com/cd/E52668_01/E54670/E54670.pdf" target="_blank">Security Guide for Release 7</a><br /> </td> 
+    </tr> 
+    <tr> 
+     <td>CentOS 7<sup> </sup></td> 
+     <td><a href="https://wiki.centos.org/HowTos/OS_Protection" target="_blank">Protection documentation</a></td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h3 id="application_server_security_information">Application server security information</h3> 
+  <p></p> 
+  <p>When securing your application server, carefully consider implementing the measures described by your server vendor, including the following:</p> 
+  <ul> 
+   <li><p>Using non-obvious administrator user name</p></li> 
+   <li><p>Disabling unnecessary services</p></li> 
+   <li><p>Securing the console manager</p></li> 
+   <li><p>Enabling secure cookies</p></li> 
+   <li><p>Closing unneeded ports</p></li> 
+   <li><p>Limiting clients by IP addresses or domains</p></li> 
+   <li><p>Using the Java™ Security Manager to programmatically restrict privileges </p></li> 
+  </ul> 
+  <p>For security information about application servers that AEM Forms on JEE supports, see the resources in this table.</p> 
+  <table cellpadding="4" cellspacing="0"> 
+   <thead align="left"> 
+    <tr> 
+     <th class="cellrowborder" id="d19e351" valign="top" width="NaN%"><p>Application Server</p> </th> 
+     <th class="cellrowborder" id="d19e354" valign="top" width="NaN%"><p>Security Resource</p> </th> 
+    </tr> 
+   </thead> 
+   <tbody> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e351 " valign="top" width="NaN%"><p>Oracle WebLogic®</p> </td> 
+     <td class="cellrowborder" headers="d19e354 " valign="top" width="NaN%"><p>Search for Understanding WebLogic Security at <a href="http://download.oracle.com/docs/">http://download.oracle.com/docs/</a>.</p> </td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e351 " valign="top" width="NaN%"><p>IBM WebSphere®</p> </td> 
+     <td class="cellrowborder" headers="d19e354 " valign="top" width="NaN%"><p><a href="https://www.ibm.com/developerworks/websphere/zones/was/security/" target="_blank">Securing applications and their environment</a></p> </td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e351 " valign="top" width="NaN%"><p>Red Hat® JBoss®</p> </td> 
+     <td class="cellrowborder" headers="d19e354 " valign="top" width="NaN%"><p><a href="https://docs.jboss.org/author/display/AS7/Security+subsystem+configuration">Security subsystem configuration</a></p> </td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h3 id="database_security_information">Database security information</h3> 
+  <p></p> 
+  <p>When securing your database, consider implementing the measures described by your database vendor, including the following:</p> 
+  <ul> 
+   <li><p>Restricting operations with access control lists (ACLs)</p></li> 
+   <li><p>Using non-standard ports</p></li> 
+   <li><p>Hiding the database behind a firewall</p></li> 
+   <li><p>Encrypting sensitive data before writing it to the database (see the database manufacturer’s documentation)</p></li> 
+  </ul> 
+  <p>For security information about databases that AEM Forms on JEE supports, see the resources in this table.</p> 
+  <table cellpadding="4" cellspacing="0"> 
+   <thead align="left"> 
+    <tr> 
+     <th class="cellrowborder" id="d19e422" valign="top" width="NaN%"><p>Database</p> </th> 
+     <th class="cellrowborder" id="d19e425" valign="top" width="NaN%"><p>Security Resource</p> </th> 
+    </tr> 
+   </thead> 
+   <tbody> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e422 " valign="top" width="NaN%"><p>IBM DB2® 11.1</p> </td> 
+     <td class="cellrowborder" headers="d19e425 " valign="top" width="NaN%"><p><a href="http://www-01.ibm.com/software/data/db2/library/">DB2 Product Family Library</a></p> </td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e422 " valign="top" width="NaN%"><p>Microsoft SQL Server 2016</p> </td> 
+     <td class="cellrowborder" headers="d19e425 " valign="top" width="NaN%">Search the Web for “SQL Server 2016: Security”</td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e422 " valign="top" width="NaN%"><p>MySQL 5</p> </td> 
+     <td class="cellrowborder" headers="d19e425 " valign="top" width="NaN%"><p><a href="http://dev.mysql.com/doc/refman/5.0/en/security.html">MySQL 5.0 General Security Issues</a></p> <p><a href="http://dev.mysql.com/doc/refman/5.1/en/security.html">MySQL 5.1 General Security Issues</a></p> </td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e422 " valign="top" width="NaN%"><p>Oracle® 12c</p> </td> 
+     <td class="cellrowborder" headers="d19e425 " valign="top" width="NaN%"><p>See the Security chapter in the <a href="https://docs.oracle.com/database/121/TDPSG/GUID-6E2F4E53-5D87-4FCD-9C9C-6792217D7014.htm#TDPSG94426" target="_blank">Oracle 12g documentation</a></p> </td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <p>This table describes the default ports that are required to be open during your AEM Forms on JEE configuration process. If you are connecting over https, adjust your port information and IP addresses accordingly. For more information about configuring ports, see the <em>Installing and Deploying AEM Forms on JEE</em> document for your application server.</p> 
+  <table cellpadding="4" cellspacing="0"> 
+   <thead align="left"> 
+    <tr> 
+     <th class="cellrowborder" id="d19e484" valign="top" width="NaN%"><p>Product or service</p> </th> 
+     <th class="cellrowborder" id="d19e487" valign="top" width="NaN%"><p>Port number</p> </th> 
+    </tr> 
+   </thead> 
+   <tbody> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e484 " valign="top" width="NaN%"><p>JBoss</p> </td> 
+     <td class="cellrowborder" headers="d19e487 " valign="top" width="NaN%"><p>8080</p> </td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e484 " valign="top" width="NaN%"><p>WebLogic</p> </td> 
+     <td class="cellrowborder" headers="d19e487 " valign="top" width="NaN%"><p>7001</p> </td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e484 " valign="top" width="NaN%"><p>WebLogic Managed Server</p> </td> 
+     <td class="cellrowborder" headers="d19e487 " valign="top" width="NaN%"><p>Set by administrator during configuration</p> </td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e484 " valign="top" width="NaN%"><p>WebSphere</p> </td> 
+     <td class="cellrowborder" headers="d19e487 " valign="top" width="NaN%"><p>9060, if Global Security is enabled the default SSL port value is 9043.</p> <p>9080</p> </td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e484 " valign="top" width="NaN%"><p>BAM Server</p> </td> 
+     <td class="cellrowborder" headers="d19e487 " valign="top" width="NaN%"><p>7001</p> </td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e484 " valign="top" width="NaN%"><p>SOAP</p> </td> 
+     <td class="cellrowborder" headers="d19e487 " valign="top" width="NaN%"><p>8880</p> </td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e484 " valign="top" width="NaN%"><p>MySQL</p> </td> 
+     <td class="cellrowborder" headers="d19e487 " valign="top" width="NaN%"><p>3306</p> </td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e484 " valign="top" width="NaN%"><p>Oracle</p> </td> 
+     <td class="cellrowborder" headers="d19e487 " valign="top" width="NaN%"><p>1521</p> </td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e484 " valign="top" width="NaN%"><p>DB2</p> </td> 
+     <td class="cellrowborder" headers="d19e487 " valign="top" width="NaN%"><p>50000</p> </td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e484 " valign="top" width="NaN%"><p>SQL Server</p> </td> 
+     <td class="cellrowborder" headers="d19e487 " valign="top" width="NaN%"><p>1433</p> </td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e484 " valign="top" width="NaN%"><p>LDAP</p> </td> 
+     <td class="cellrowborder" headers="d19e487 " valign="top" width="NaN%"><p>The port on which the LDAP server is running. The default port is typically 389. However, if you select the SSL option, the default port is typically 636. Confirm with your LDAP administrator which port to specify.</p> </td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h3 id="configuring_jboss_to_use_a_non_default_http_port">Configuring JBoss to use a non-default HTTP port</h3> 
+  <p></p> 
+  <p>JBoss Application Server uses 8080 as the default HTTP port. JBoss also has pre-configured ports 8180, 8280, and 8380, which are commented out in the jboss-service.xml file. If you have an application on your computer that already uses this port, change the port that AEM Forms on JEE uses by following these steps:</p> 
+  <ol> 
+   <li><p>Open the following file for editing:</p> <p>Single Server installation: [JBoss root]/standalone/configuration/standalone.xml</p> <p>Cluster installtions: [JBoss root]/domain/configuration/domain.xml</p> </li> 
+   <li><p>Chnage the value of <strong>port</strong> attribute in the<strong> &amp;lt;socket-binding&amp;gt;</strong> tag to a custom port number. For example, the following uses port 8090:</p> <p>&amp;lt;socket-binding name="http" port="8090"/&amp;gt;</p> </li> 
+   <li><p>Save and close the file.</p></li> 
+   <li><p>Restart the JBoss application server.</p> </li> 
+  </ol> 
+  <h2 id="aem_forms_on_jee_security_considerations">AEM Forms on JEE security considerations</h2> 
+  <p>This section describes some AEM Forms on JEE-specific security issues that you should know about.</p> 
+  <h3 id="email_credentials_not_encrypted_in_database">Email credentials not encrypted in database</h3> 
+  <p></p> 
+  <p>The email credentials stored by applications are not encrypted before they are stored in the AEM Forms on JEE database. When you configure a service endpoint to use email, any password information used as part of that endpoint configuration is not encrypted when it is stored in the database.</p> 
+  <h3 id="sensitive_content_for_rights_management_in_the_database">Sensitive content for Rights Management in the database</h3> 
+  <p></p> 
+  <p>AEM Forms on JEE uses the AEM Forms on JEE database to store sensitive document key information and other cryptographic material that is used for policy documents. Securing the database against intrusion helps to protect this sensitive information.</p> 
+  <h3 id="password_in_clear_text_format_in_adobe_ds_xml">Password in clear text form</h3> 
+  <p>The application server that is used to run AEM Forms on JEE requires its own configuration for access to your database through a data source that is configured on the application server. Ensure that your application server does not expose your database password in clear text in its data source configuration file.</p> 
+  <p>The lc_[database].xml file should not contain password in clear text format. Consult your application server vendor about how to encrypt these passwords for your application server.</p> 
+  <note> 
+   <p>The AEM Forms on JEE JBoss turnkey installer encrypts the database password.</p> 
+  </note> 
+  <p>IBM WebSphere Application Server and Oracle WebLogic Server may encrypt data source passwords by default. However, confirm with your application server documentation to ensure that this is happening.</p> 
+  <p> </p> 
+  <h3 id="protecting_the_private_key_stored_in_trust_store">Protecting the private key stored in Trust Store</h3> 
+  <p></p> 
+  <p>The private keys or credentials imported in Trust Store are stored in AEM Forms on JEE database. Take appropriate precautions to secure the database and restrict the access only to designated administrators.</p> 
+ </body> 
+</html>

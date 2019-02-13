@@ -1,0 +1,55 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="vishgupt@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="AEMForms/6.1/ProgramLC/WS624e3cba99b79e128d15e451336a3519b9-8000.2" name="cq:gepId" />
+  <meta content="Invoking AEM Forms using APIs" name="jcr:title" />
+  <meta content="admin" name="lr_lastModifiedBy" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" />
+  <meta content="2017-11-01T04:29:31.584-0400" name="unpublishExternalDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-04-03T08:22:23.020-0400" name="cq:lastReplicated" />
+  <meta content="admin" name="lr_creator" />
+  <meta content="28b48db5-1478-4753-8001-02c01432263e" name="jcr:predecessors" />
+  <meta content="2017-07-12T07:03:00.000-0400" name="sortDate" />
+  <meta content="2017-10-31T16:33:04.269-0400" name="lastPublishExternalDate" />
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:coding;topic_tags:development-tools" name="cq:tags" />
+  <meta content="938a1d99-93aa-4170-b25d-564b3c16cd9f" name="jcr:uuid" />
+  <meta content="" name="publishExternalURL" />
+  <meta content="video" name="pageLayout" />
+  <meta content="false" name="doNotLocalize" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2017-11-21T06:58:13.409-0500" name="cq:lastModified" />
+  <meta content="audience:developing" name="primaryAudienceTag" />
+  <meta content="not_checked" name="acrolinxStatus" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="2017-11-22T19:04:11.454-0500" name="jcr:created" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="light" name="heroGradient" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="admin" name="contentOwner" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2017-07-12T07:03:38.611-0400" name="lr_lastModified" />
+  <meta content="/content/help/en/experience-manager/6-4/forms/developing/morehelp/coding;/content/help/en/experience-manager/6-4/forms/developing/morehelp/development-tools;/content/help/en/experience-manager/6-4/forms/developing/morehelp/coding;/content/help/en/experience-manager/6-4/forms/developing/morehelp/development-tools" name="moreHelpPaths" />
+  <meta content="head1_20111213" name="gep_conversion_script_version" />
+  <meta content="Invoking AEM Forms using APIs" name="navTitle" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="left" name="sideColumn" />
+  <meta content="2017-10-03T06:48:35.193-0400" name="firstPublishExternalDate" />
+ </head>
+ <body>
+  <p>Adobe Experience Manager Forms is J2EE-based enterprise software that consists of services that operate within a shared infrastructure. Service operations typically consume or produce documents. By using AEM Forms, you can combine forms workflow with electronic forms, document security, and document generation in an integrated and cohesive set of services. These services can be accessed from inside and outside the firewall.</p>
+  <p>Client applications can programmatically invoke AEM Forms services using a Java API, web services, Remoting, and REST. Using administration console, you can configure a service to expose an endpoint that lets AEM Forms services by programmatically invoked. By default, most services are pre-configured to expose Remoting, Java, and web service endpoints.</p>
+  <p>Your business requirements determine which invocation method to use. For example, using the Java API, you can integrate AEM Forms functionality into your Java enterprise applications, such as Java Entity and Message beans. Likewise, you can integrate AEM Forms functionality into .NET projects (or other projects developed with development environments that support web service standards) using web services.</p>
+  <p>Services require a service container to run, similar to how Enterprise JavaBeans™ (EJBs) require a J2EE container. AEM Forms includes only one implementation of a service container. The service container is responsible for managing the lifetime of a service, including deploying it and ensuring that all requests are sent to the correct service. It also manages documents that a service consumes or produces.</p>
+  <note>
+   <p>Programming with AEM forms does not include information on how to invoke AEM Forms using Watched Folders or e-mail. </p>
+  </note>
+ </body>
+</html>

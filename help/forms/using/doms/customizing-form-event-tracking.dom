@@ -1,0 +1,117 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:customization" name="cq:tags" /> 
+  <meta content="2018-04-13T05:53:01.189-0400" name="topicBrowsingSortDate" /> 
+  <meta content="2018-04-13T05:53:01.189-0400" name="publishExternalDate" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/customization;/content/help/en/experience-manager/6-4/forms/morehelp/customization" name="moreHelpPaths" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="khsingh" name="cq:lastReplicatedBy" /> 
+  <meta content="2018-04-26T04:39:23.159-0400" name="locHandOffDate" /> 
+  <meta content="2018-04-13T05:53:01.189-0400" name="lastPublishExternalDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2016-05-31T06:29:48.185-0400" name="acrolinxDate" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="2018-04-26T04:39:23.159-0400" name="cq:lastModified" /> 
+  <meta content="399" name="acrolinxWords" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="21" name="acrolinxSentences" /> 
+  <meta content="2015-12-09T07:31:35.464-0500" name="lastPublishQADate" /> 
+  <meta content="055c9057-2f9a-4d18-8a66-9754ad6d8b57" name="jcr:uuid" /> 
+  <meta content="2018-04-13T05:53:01.429-0400" name="cq:lastReplicated" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="Customizing form event tracking" name="navTitle" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="Customizing form event tracking" name="jcr:title" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/customizing-form-event-tracking.html" name="publishExternalURL" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/customizing_form_event_tracking_admin_5e12de0b318c6865_1937_report.xml" name="acrolinxReportURL" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="If a user spends more than 60 seconds on a field, a fieldvisit event is triggered and the details of the field are sent to Adobe SiteCatalyst." name="seoDescription" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="khsingh@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2017-12-01T19:04:32.051-0500" name="jcr:created" /> 
+  <meta content="2016-04-20T09:45:03.479-0400" name="firstPublishExternalDate" /> 
+  <meta content="4b04da91-7991-4118-9d74-833d91c22126" name="jcr:predecessors" /> 
+  <meta content="khsingh" name="cq:lastModifiedBy" /> 
+ </head> 
+ <body> 
+  <p>Out of the box, the following events are tracked in an analytics enabled Adaptive Form:</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <th>Event</th> 
+     <th>Available variables</th> 
+    </tr> 
+    <tr> 
+     <td>render</td> 
+     <td>formName, formTitle, formInstance, source</td> 
+    </tr> 
+    <tr> 
+     <td>abandon</td> 
+     <td>formName, formTitle, formInstance, panelName, panelTitle</td> 
+    </tr> 
+    <tr> 
+     <td>save</td> 
+     <td>formName, formTitle, formInstance, panelName, source</td> 
+    </tr> 
+    <tr> 
+     <td>submit</td> 
+     <td>formName, formTitle, formInstance, source</td> 
+    </tr> 
+    <tr> 
+     <td>error</td> 
+     <td>formName, formTitle, fieldName, fieldTitle, panelTitle</td> 
+    </tr> 
+    <tr> 
+     <td>help</td> 
+     <td>formName, formTitle, fieldName, fieldTitle, panelTitle</td> 
+    </tr> 
+    <tr> 
+     <td>fieldVisit</td> 
+     <td>formName, formTitle, fieldName, fieldTitle, panelTitle<br /> </td> 
+    </tr> 
+    <tr> 
+     <td>panelVisit</td> 
+     <td>formName, formTitle, panelName, panelTitle</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h2>Customizing the field visit event timeout</h2> 
+  <p>On the default AEM form setup, if a user spends more than 60 seconds on a field, a <span class="code">fieldvisit</span> event is triggered and the details of the field are sent to Adobe Analytics. You can customize the Field time tracking baseline under AEM Forms Analytics Configuration at AEM Configuration console (/system/console/configMgr) to increase or decrease the timeout limit. </p> 
+  <h2>Customizing the tracking events</h2> 
+  <p> You can modify the <span class="code">trackEvent </span>function available in<span class="code"> /libs/afanalytics/js/custom.js</span> file to customize the event tracking. Whenever an event that is being tracked occurs in an adaptive form, the <span class="code">trackEvent </span>function is called. The <span class="code">trackEvent</span> function accepts two parameters: <span class="code">eventName </span>and <span class="code">variableValueMap</span>.</p>  
+  <p>You can evaluate value of <em>eventName </em>and <em>variableValueMap</em> arguments to change the tracking behavior of events. For example, you can choose to send the information to analytics server after a certain number of error events occur. You can also choose to perform any of the following customizations:</p> 
+  <ul> 
+   <li>You can set a threshold time before sending the event.<br /> </li> 
+   <li>You can maintain a state to decide action, for example, <em>fieldVisit</em> pushes a dummy event based on the timestamp of the last event.</li> 
+   <li>You can use the <span class="code">pushEvent</span> function to send the event to analytics server <em>.</em></li> 
+   <li>You can choose to not push the event to analytics server at all.<br /> </li> 
+  </ul> 
+  <h3>Sample</h3> 
+  <p>In the following example, state for the <em>error</em> event of each <em>fieldName </em>attribute is maintained<em>. </em>The event is sent to the analytics server only if an error occurs again.</p> 
+  <codeblock gutter="true" class="syntax js">
+    case&amp;nbsp;'error':!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if(errorOccurred[variableValueMap.fieldName]&amp;nbsp;==&amp;nbsp;true)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;pushEvent(eventName,&amp;nbsp;variableValueMap)!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;errorOccurred[variableValueMap.fieldName]&amp;nbsp;=&amp;nbsp;true;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;break; 
+  </codeblock> 
+  <h2>Customizing the panelvisit event</h2> 
+  <p>On the default AEM Forms setup, after every 60 seconds, it is checked if the window containing the adaptive form is active. If the window is active, a <span class="code">panelVisit </span>event is triggered to Adobe Analytics. It helps in ascertaining that the document or the form is active and calculating time spent on the corresponding form or document.</p> 
+  <note> 
+   <p>The event name used to acertain activity and calculating time spent is "panelVisit". This event is different from the panel visit event listed in the table listed above.</p> 
+  </note> 
+  <p>You can modify the scheduleHeartBeatCheck function available in the <span class="code">/libs/afanalytics/js/custom.js</span> file to change or stop this event sent to Adobe Analytics at a regular interval.</p> 
+  <related-links> 
+   <a href="../../forms/using/view-understand-aem-forms-analytics-reports.md">Viewing and understanding AEM Forms analytics reports</a> 
+  </related-links> 
+ </body> 
+</html>

@@ -1,0 +1,86 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="An effective newsletter landing page helps you get as many people as possible to sign up for your newsletter (or other email marketing campaign). You can use the information you gather from your newsletter sign ups to get leads." name="seoDescription" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/classic-ui-authoring/morehelp/personalization;/content/help/en/experience-manager/6-4/sites/classic-ui-authoring/morehelp/personalization" name="moreHelpPaths" /> 
+  <meta content="2017-12-01T19:03:07.113-0500" name="jcr:created" /> 
+  <meta content="Creating an Effective Newsletter Landing Page" name="jcr:title" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/classic-ui-authoring/using/classic-personalization-campaigns-email-landingpage.html" name="publishExternalURL" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="ecbf7d55-10e0-4272-aa44-6689648ba097" name="jcr:uuid" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="2018-04-19T10:25:45.769-0400" name="cq:lastModified" /> 
+  <meta content="2018-04-03T06:45:39.694-0400" name="topicBrowsingSortDate" /> 
+  <meta content="audience:classic-ui-authoring" name="primaryAudienceTag" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="89cac7a6-54ac-478d-b0d0-534fe563e666" name="jcr:predecessors" /> 
+  <meta content="2017-10-31T16:18:48.179-0400" name="firstPublishExternalDate" /> 
+  <meta content="2018-04-03T06:45:39.694-0400" name="lastPublishExternalDate" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="User" name="contentOwner" /> 
+  <meta content="/content/docs/en/aem/6-3/author/classicui/personalization/campaigns/email-marketing/newsletter-landing-pages" name="qaNotes" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:personalization;content_type:reference" name="cq:tags" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="Creating an Effective Newsletter Landing Page" name="navTitle" /> 
+  <meta content="Creating an Effective Newsletter Landing Page" name="seoTitle" /> 
+  <meta content="2018-10-27T23:46:30.784-0400" name="cq:lastReplicated" /> 
+  <meta content="2018-04-19T10:25:45.767-0400" name="locHandOffDate" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2018-04-03T06:45:39.694-0400" name="publishExternalDate" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" /> 
+  <meta content="jsyal" name="cq:lastReplicatedBy" /> 
+ </head> 
+ <body>  
+  <p>An effective newsletter landing page helps you get as many people as possible to sign up for your newsletter (or other email marketing campaign). You can use the information you gather from your newsletter sign ups to get leads.</p> 
+  <p>To create an effective newsletter landing page, you need to do the following:</p> 
+  <ol> 
+   <li>Create a list for the newsletter so people can subscribe to the newsletter.</li> 
+   <li>Create the Sign-Up form. When doing this, add a workflow step that automatically adds the person who signs up for the newsletter to your list of leads.</li> 
+   <li>Create a Confirmation page that thanks users for signing up and possibly provides them with a promotion.</li> 
+   <li>Add teasers.</li> 
+  </ol> 
+  <note> 
+   <p>Adobe is not planning to further enhance this capability (Managing Leads and Lists).<br /> Recommendation is to leverage <a href="../../../sites/administering/using/campaign.md">Adobe Campaign and the integration to AEM</a>.</p> 
+  </note> 
+  <h3>Creating a List for the Newsletter</h3> 
+  <p>Create a list, for example, <strong>Geometrixx Newsletter</strong>, in MCM for the newsletter that people should subscribe to. Creating lists is described in <a href="../../../sites/classic-ui-authoring/using/classic-personalization-campaigns.md#creatingnewlists">Creating lists</a>.<br /> </p> 
+  <p>The following shows an example of a list:<br /> </p> 
+  <img imageRotate="0" src="assets/mcm_listcreate.png" /> 
+  <h3>Create a Sign Up Form</h3> 
+  <p>Create a newsletter registration form that allows users to subscribe to tags. The sample Geometrixx web site provides a newsletter page in the Geometrixx toolbar where you can create your form.</p> 
+  <p>To create your own newsletter form, see information about creating forms in the <a href="../../../sites/authoring/using/default-components.md#form">Forms documentation</a>. The newsletter uses the tags from the Tag library. To add additional tags, see <a href="../../../sites/authoring/using/tags.md#tagadministration">Tag Administration</a>.</p> 
+  <p>The hidden fields in the following example provide the bare minimum amount of information (e-mail); in addition, you can add more fields later but this will impact the conversion rate.</p> 
+  <p>The following example is a form created at http://localhost:4502/cf#/content/geometrixx/en/toolbar/newsletter.html.</p> 
+  <ol> 
+   <li><p>Create the form.<br /> </p> <img imageRotate="0" src="assets/mcm_newsletterpage.png" /></li> 
+   <li><p>Click <strong>Edit</strong> in the Form component to configure the form to go to a Thank you page (see <a href="#creatingathankyoupage">Creating Thank You Pages</a>).<br /> </p> <img imageRotate="0" src="assets/dc_formstart_thankyou.png" /></li> 
+   <li><p>Set the Form action (that is what will happen when you submit the form) and configure the group to assign registered users to the list you previously created (for example, geometrixx-newsletter).<br /> </p> <img imageRotate="0" src="assets/dc_formstart_thankyouadvanced.png" /></li> 
+  </ol> 
+  <h3>Creating a Thank You Page</h3> 
+  <p>When users click <strong>Subscribe Now</strong>, you want a Thank You page to automatically open. Create the Thank You page in the Geometrixx Newsletter page. After creating the Newsletter Form, edit the Form component and add the path to the thank you page.<br /> </p> 
+  <p>Submitting the request takes the user to a <strong>Thank You</strong> page after which they will receive an email. This Thank You page was created at /content/geometrixx/en/toolbar/newsletter/thank_you.<br /> </p> 
+  <img imageRotate="0" src="assets/mcm_newsletter_thankyoupage.png" /> 
+  <h3>Adding Teasers</h3> 
+  <p>Add <a href="../../../sites/classic-ui-authoring/using/classic-personalization-campaigns.md#teasers">teasers</a> to target specific audiences. For example, you can add teasers to the Thank You page and Newsletter sign up page.<br /> </p> 
+  <p>To add teasers to make an effective newsletter landing page:<br /> </p> 
+  <ol> 
+   <li><p>Create a teaser paragraph for a sign-up gift. Select <strong>First</strong> as the strategy and include text that informs them what gift they will receive.<br /> </p> <img imageRotate="0" src="assets/dc_teaser_thankyou.png" /></li> 
+   <li><p>Create a teaser paragraph for the Thank You page. Select <strong>First</strong> as the strategy and include text that indicates that the gift is on its way.<br /> </p> <img imageRotate="0" src="assets/chlimage_1-154.png" /></li> 
+   <li><p>Create a campaign with the two teasers -- tag one with business and one untagged.<br /> </p> </li> 
+  </ol> 
+  <h3>Pushing Content to Subscribers</h3> 
+  <p>Push any changes to pages through the Newsletter functionality in the MCM. You then push updated content to subscribers.</p> 
+  <p>See <a href="../../../sites/classic-ui-authoring/using/classic-personalization-campaigns.md#newsletters">Sending Newsletters</a>.</p> 
+ </body> 
+</html>

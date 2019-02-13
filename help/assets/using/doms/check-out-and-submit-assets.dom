@@ -1,0 +1,70 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="/content/help/en/experience-manager/6-4/assets/morehelp/managing-assets;/content/help/en/experience-manager/6-4/assets/morehelp/managing-assets" name="moreHelpPaths" />
+  <meta content="2017-11-24T06:59:39.613-0500" name="lastPublishExternalDate" />
+  <meta content="/content/docs/en/aem/6-3/author/assets/managing-assets-touch-ui/check-out-and-submit-assets" name="qaNotes" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="32" name="acrolinxSentences" />
+  <meta content="2019-01-12T17:26:40.099-0500" name="acrolinxDate" />
+  <meta content="dist5" name="distType" />
+  <meta content="2018-04-03T08:06:09.120-0400" name="cq:lastReplicated" />
+  <meta content="2017-11-24T06:59:39.613-0500" name="topicBrowsingSortDate" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS" name="primaryProductTag" />
+  <meta content="Learn how to check out assets for editing and check them back in after the changes are complete." name="seoDescription" />
+  <meta content="2018-04-24T11:59:00.858-0400" name="locHandOffDate" />
+  <meta content="393" name="acrolinxWords" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="2017-12-01T19:06:10.970-0500" name="jcr:created" />
+  <meta content="Check In and Check Out Files in Assets" name="jcr:title" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-04-24T11:59:00.858-0400" name="cq:lastModified" />
+  <meta content="checked_not_improved" name="acrolinxStatus" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS;topic_tags:managing-assets;content_type:reference" name="cq:tags" />
+  <meta content="Check In and Check Out Files in Assets" name="seoTitle" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="light" name="gnavTheme" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="asgupta" name="acrolinxLastCheckedBy" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/assets/using/check-out-and-submit-assets.html" name="publishExternalURL" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="yellow" name="acrolinxPageStatus" />
+  <meta content="e1eae677-b859-48ff-9d3b-7517c1190af2" name="jcr:uuid" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="cmajumda@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2017-11-24T06:59:39.613-0500" name="publishExternalDate" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="06daca5d-c792-4c60-918e-7a7a0d5ff2d8" name="jcr:predecessors" />
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/check_out_and_submit_assets_krs_workflow_f3c2f2ccebf6138e_110_report.xml" name="acrolinxReportURL" />
+  <meta content="User" name="contentOwner" />
+  <meta content="2017-10-31T16:35:07.990-0400" name="firstPublishExternalDate" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+ </head>
+ <body>
+  <p>Adobe Experience Manager (AEM) Assets lets you check out assets for editing and check them back in after you complete making the changes. After you check out an asset, only you can edit, annotate, publish, move, or delete the asset. Checking out an asset locks the asset. Other users cannot perform any of these operations on the asset untill you check the asset back in to AEM Assets. However, they can still change the metadata for the locked asset. </p> 
+  <p>To be able to check out/in assets, you require Write access on them.</p> 
+  <p>This feature helps prevent other users from overriding the changes made by an author where multiple users collaborate on editing workflows across teams.</p> 
+  <h2>Checking Out Assets</h2>
+  <ol>
+   <li><p>From the Assets UI, select the asset you want to check out. You can also select multiple assets to check out.</p> <img imageRotate="0" src="assets/chlimage_1-474.png" /></li>
+   <li><p>From the toolbar, click/tap the <strong>Checkout</strong> icon.</p> <img imageRotate="0" src="assets/chlimage_1-475.png" /><p>Observe that the <strong>Checkout</strong> icon toggles to the <strong>Checkin</strong> icon with the lock open.</p> <img imageRotate="0" src="assets/chlimage_1-476.png" /><p>To verify whether other users can edit the asset you checked out, log in as a different user. A lock icon appears on the thumbnail of the asset that you checked out.</p> <img imageRotate="0" src="assets/chlimage_1-477.png" /><p>Select the asset. Notice that the toolbar does not display any options that let you edit, annotate, publish, or delete the asset.</p> <img imageRotate="0" src="assets/chlimage_1-478.png" /><p>You can, however, click/tap the <strong>View Properties</strong> icon to edit the metadata for the locked asset.</p> </li>
+   <li><p>Click/tap the Edit icon to open the asset in edit mode.</p> <img imageRotate="0" src="assets/chlimage_1-479.png" /></li>
+   <li><p>Edit the asset and save the changes. For example, crop the image and save. </p> <img imageRotate="0" src="assets/chlimage_1-480.png" /><p>You can also choose to annotate or publish the asset.</p> </li>
+   <li><p>Select the edited asset from the Assets UI, and click/tap the <strong>Checkin</strong> icon from the toolbar.</p> <img imageRotate="0" src="assets/chlimage_1-481.png" /><p>The modified asset is checked in to AEM Assets and is available to other users for editing. </p> </li>
+  </ol>
+  <h2>Forced Check In</h2>
+  <p> Administrators can check in assets that are checked out by other users.</p> 
+  <ol>
+   <li><p>Log in to AEM Assets as an administrator.</p> </li>
+   <li><p>From the Assets UI select one or more assets that have been checked out by other users.</p> <img imageRotate="0" src="assets/chlimage_1-482.png" /></li>
+   <li><p>From the toolbar, click/tap the <strong>Release Lock</strong> icon. The asset is checked back in and available for edit to other users.</p> <img imageRotate="0" src="assets/chlimage_1-483.png" /></li>
+  </ol>
+ </body>
+</html>

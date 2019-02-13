@@ -1,0 +1,86 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2018-12-04T02:28:39.207-0500" name="lastPublishInternalDate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-12-04T02:28:39.207-0500" name="publishInternalDate" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="not_checked" name="acrolinxStatus" />
+  <meta content="yellow" name="acrolinxPageStatus" />
+  <meta content="2018-12-04T02:28:39.273-0500" name="cq:lastReplicated" />
+  <meta content="872846d0-ee15-4f7e-81af-d2ac1ca513c5" name="jcr:predecessors" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="https://helpx-internal.corp.adobe.com/content/help/en/experience-manager/6-4/forms/using/wip/introduction-to-automated-form-conversion-service.html" name="publishInternalURL" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="khsingh@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="en" name="pageCreatedAt" />
+  <meta content="khsingh" name="contentOwner" />
+  <meta content="Speed up the conversion of print forms to adaptive forms" name="seoDescription" />
+  <meta content="d12198c4-143f-4e71-a90b-31eafde80f44" name="jcr:uuid" />
+  <meta content="false" name="doNotLocalize" />
+  <meta content="left" name="sideColumn" />
+  <meta content="khsingh" name="cq:lastReplicatedBy" />
+  <meta content="video" name="pageLayout" />
+  <meta content="Automated Forms Conversion service" name="jcr:title" />
+  <meta content="khsingh" name="cq:lastModifiedBy" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="light" name="heroGradient" />
+  <meta content="2019-01-15T15:36:10.849-0500" name="jcr:created" />
+  <meta content="2018-12-04T02:28:39.220-0500" name="cq:lastModified" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="809" name="acrolinxWords" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2018-11-29T01:53:27.442-0500" name="firstPublishInternalDate" />
+  <meta content="Speed up the conversion of print forms to adaptive forms" name="jcr:description" />
+  <meta content="55" name="acrolinxSentences" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2018-11-21T09:37:14.735-0500" name="acrolinxDate" />
+  <meta content="true" name="preview" />
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/introduction_to_automated_form_conversion_service_krs_workflow_27a21c3e5e538b90_48_report.xml" name="acrolinxReportURL" />
+  <meta content="khsingh" name="acrolinxLastCheckedBy" />
+ </head>
+ <body>
+  <p>Automated Forms Conversion service helps accelerate digitization and modernization of data capture experience through automated conversion of legacy print forms to adaptive forms. The service, powered by Adobe Sensei, automatically converts your PDF forms to device-friendly and responsive adaptive forms. While leveraging the existing investments in PDF Forms, the service also applies appropriate validations to adaptive form fields during conversion. The service helps:</p> 
+  <ul> 
+   <li>Save manual effort required to convert legacy forms to adaptive forms</li> 
+   <li>Generate reusable adaptive form fragments</li> 
+   <li>Generate Document of Record during conversion</li> 
+   <li>Apply patterns and appropriate validations during conversion</li> 
+   <li>Enables Adobe Analytics during conversion</li> 
+  </ul> 
+  <p>The service supports PDF forms created with any version of AEM Forms or Adobe LiveCycle, going all the way back to AEM 6.0 Forms and Adobe LiveCycle ES3. The service also supports forms created with Adobe Acrobat.</p> 
+  <h2>Supported languages and PDF forms</h2>
+  <p>Automated Forms Conversion service converts only English-languag forms to adaptive forms. You can translate converted adaptive forms to another language using <a href="../../../forms/using/using-aem-translation-workflow-to-localize-adaptive-forms.md" target="_blank">AEM translation workflow</a>.</p> 
+  <p>Conversion service supports non-interactive PDF forms, Acroforms, and XFA-based forms. Acroforms, and XFA-based forms has a limited support. </p> 
+  <h2>Conversion workflow </h2>
+  <p>Automated Forms Conversion service runs on Adobe Cloud. You connect your AEM instance to the service, upload legacy forms to your AEM instance, specify configurations, and start the conversion. The complete conversion process is as listed below:</p> 
+  <img imageRotate="0" src="assets/workflow.png" />
+  <ol>
+   <li><p><strong>Set up the environment</strong>: Before starting the conversion, connect your AEM Forms instance to the conversion service running on Adobe I/O, prepare templates, prepare themes, customize meta-model, and configure email service:</p> 
+    <ol> 
+     <li>Install <a href="../../../forms/using/installing-configuring-aem-forms-osgi.md" target="_blank">AEM Forms add-on package</a> and <a href="../../../forms/using/wip/configure-the-automated-forms-conversion-service.md#main-pars-header-1968409873" target="_blank">Conversion Manager package</a>: Install AEM Forms add-on package to avail AEM Forms capabilities and Conversion Manager package to avail conversion service capabilities.<br /> </li> 
+     <li>Create an adaptive form theme: A theme provides a unique appearance and style to an adaptive form. You can apply out of the box themes provided with adaptive forms or <a href="../../../forms/using/themes.md" target="_blank">create custom themes</a> of your own.</li> 
+     <li>Create an adaptive form template: A template contains a set of adaptive form components common for a set of forms. For example, identical header, footer, and logo for the forms of an organization. You can use the <a href="../../../forms/using/template-editor.md" target="_blank">template editor</a> to create a template. <br /> </li> 
+     <li>Customize meta-model: Meta-model defines mapping for all the adaptive form components. For example, a legacy form field with keywords phone, telephone, mobile phone, work phone, home phone, telephone number, telephone no, and phone number are all mapped to the adaptive form’s telephone component. It also allows the service to pre-configure validations, rules, data patterns, help text, and accessibility properties of adaptive form components. <a href="../../../forms/using/wip/extending-the-default-meta-model.md" target="_blank">Extend the default meta-model</a> to add organization-specific mapping and validations.</li> 
+     <li>Configure email notifications: <a href="../../../forms/using/wip/configure-the-automated-forms-conversion-service.md#main-pars-header-393337952" target="_blank">Configure email-service</a> to receive the status of conversion.<br /> </li> 
+     <li>Configure cloud services: Create a <a href="../../../forms/using/wip/configure-the-automated-forms-conversion-service.md#main-pars-header-402337891" target="_blank">cloud service configuration</a> to connect your AEM instance to the conversion service. It also allows you to specify a template, theme, and form fragments for conversion.</li> 
+    </ol> </li>
+   <li><p><strong>Use the conversion service</strong>: Use the conversion service to convert legacy PDF forms available on your AEM Forms instance to adaptive forms. To convert the forms:</p> 
+    <ol> 
+     <li><a href="../../../forms/using/wip/convert-existing-forms-to-adaptive-forms.md" target="_blank">Upload legacy forms</a>: Upload the forms to be converted to a folder on your AEM Forms instance. The conversion is run on all the legacy forms available in the folder.<br /> </li> 
+     <li><a href="../../../forms/using/wip/convert-existing-forms-to-adaptive-forms.md#main-pars-header-1734028641" target="_blank">Start the conversion</a>: Select the folder containing the legacy forms and start the conversion. On the dialog box, select a cloud service configuration, specify output location, and click start conversion. Legacy forms are uploaded to Adobe Cloud for conversion.</li> 
+    </ol> <p>On successful conversion, an adaptive form and its schema are generated and downloaded to your AEM Forms instance. Adaptive forms fragments its schemas are also generated, if applicable.</p> </li>
+   <li><p><strong>Review converted forms</strong>: Your forms can have complex data capture requirements. Once automated conversion is complete, you can use the <a href="../../../forms/using/wip/review-correct-ui-edited.md" target="_blank">Review and Correct editor</a> to review converted form and make necessary updates and generate an enhanced output closer to desired experience. After making required changes, resend the forms to the conversion service. </p> <p>Conversion of a PDF form to an adaptive form might take some time based on the load on the Adobe I/O servers. When the conversion is complete, an email notification is sent to configured email address.</p>  </li>
+  </ol>
+  <h2>Previous</h2>
+  <ul> 
+   <li><a href="../../../forms/using/wip/aem-forms-automated-forms-conversion-service-beta.md" target="_blank">Prerelease Program</a></li> 
+  </ul> 
+  <p> </p> 
+  <h2>Next</h2>
+  <p><a href="../../../forms/using/wip/configure-the-automated-forms-conversion-service.md" target="_blank">Configure the Automated Forms Conversion service</a></p> 
+ </body>
+</html>

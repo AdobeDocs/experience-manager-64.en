@@ -1,0 +1,161 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="2018-11-02T16:57:57.339-0400" name="topicBrowsingSortDate" /> 
+  <meta content="2018-11-02T16:57:57.339-0400" name="lastPublishExternalDate" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="/content/help/en/experience-manager/6-4/screens/morehelp/authoring;/content/help/en/experience-manager/6-4/screens/morehelp/authoring" name="moreHelpPaths" /> 
+  <meta content="jsyal" name="cq:lastModifiedBy" /> 
+  <meta content="2018-11-02T16:57:57.420-0400" name="cq:lastReplicated" /> 
+  <meta content="da583a29-8de2-4eb3-9267-2320727c8597" name="jcr:uuid" /> 
+  <meta content="jsyal" name="cq:lastReplicatedBy" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="e794c524-b13c-4394-894b-8e4b7d731ba7" name="jcr:predecessors" /> 
+  <meta content="jsyal" name="contentOwner" /> 
+  <meta content="Using Experience Fragments" name="jcr:title" /> 
+  <meta content="jsyal@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2018-11-02T16:57:57.342-0400" name="cq:lastModified" /> 
+  <meta content="Follow this page to learn about using Experience Fragments in AEM Screens. " name="seoDescription" /> 
+  <meta content="2018-11-02T16:57:57.339-0400" name="publishExternalDate" /> 
+  <meta content="2018-06-11T10:19:32.751-0400" name="firstPublishExternalDate" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="" name="primaryAudienceTag" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/screens/using/experience-fragments-in-screens.html" name="publishExternalURL" /> 
+  <meta content="2019-01-15T15:39:10.789-0500" name="jcr:created" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="en" name="pageCreatedAt" /> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/SCREENS;topic_tags:authoring" name="cq:tags" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SCREENS" name="primaryProductTag" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+ </head> 
+ <body> 
+  <p>Using Experience Fragments covers the following topics:</p> 
+  <ul> 
+   <li><strong>Overview</strong></li> 
+   <li><strong>Using Experience Fragments in AEM Screens</strong></li> 
+   <li><strong>Propagating Changes from the Master Page<br /> </strong></li> 
+  </ul> 
+  <h2>Overview</h2> 
+  <p>An <strong><em>Experience Fragment</em></strong> is a group of one or more components including content and layout that can be referenced within pages. Experience fragments can contain any component, such as, one or multiple components that can contain anything within a paragraph system, that will be referenced into the complete experience or requested by a third endpoint.</p> 
+  <p>To learn more about Experience Fragments, click <a href="/content/help/en/experience-manager/6-3/sites/authoring/using/experience-fragments">here</a>.</p> 
+  <h2>Using Experience Fragments in AEM Screens</h2> 
+  <note> 
+   <p>The following example uses <strong>We.Retail</strong> as a demo project from where the Experience Fragment is leveraged from a <strong>Sites</strong> page to an AEM Screens project.</p> 
+  </note> 
+  <p>As an example, the following workflow demonstrates the use of experience fragments from We.Retail in Sites. You can choose a web page and leverage that content in your AEM Screens channel on one of your projects.</p> 
+  <h3>Pre-requisites</h3> 
+  <p><strong>Creating a demo project with a Channel</strong></p> 
+  <p><strong><em>Creating a Project</em></strong></p> 
+  <ol> 
+   <li>Click Screens and select <strong>Create</strong> --&amp;gt; <strong>Create Project </strong>to create a new project. </li> 
+   <li>Select <strong>Screens </strong>from the <strong>Create Screens Project </strong>wizard.</li> 
+   <li>Enter the Title as <strong>DemoProject</strong>.</li> 
+   <li>Click <strong>Create</strong>.</li> 
+  </ol> 
+  <div>
+    A 
+   <strong>DemoProject</strong> will be added to your AEM Screens. 
+  </div> 
+  <p><strong><em>Creating a Channel</em></strong></p> 
+  <ol> 
+   <li>Navigate to the <strong>DemoProject</strong> you created and select the <strong>Channels</strong> folder.</li> 
+   <li>Click <strong>Create</strong> from the action bar (see the figure below). A wizard will open.</li> 
+   <li>Choose the <strong>Sequence Channel</strong> and click <strong>Next</strong>.</li> 
+   <li>Enter the <strong>Title</strong> as <strong>TestChannel</strong> and click <strong>Create</strong>.</li> 
+  </ol> 
+  <div>
+    A 
+   <strong>TestChannel</strong> will be added to your 
+   <strong>DemoProject</strong>. 
+   <br /> 
+  </div> 
+  <img imageRotate="0" src="assets/screen_shot_2018-05-24at22228pm.png" /> 
+  <note> 
+   <p>To learn in detail about creating a project and creating a channel, see <a href="https://chl-author.corp./content/help/en/experience-manager/6-4/sites/authoring/using/creating-a-screens-project.html">Creating a Project</a> and <a href="https://chl-/content/help/en/experience-manager/6-4/sites/authoring/using/managing-channels.html">Managing Channels</a> respectively.</p> 
+  </note> 
+  <h3>Creating an Experience Fragment</h3> 
+  <p>Follow the steps below to leverage the content from <strong>We.Retail</strong> to your <strong>TestChannel</strong> in <strong>DemoProject</strong>.</p> 
+  <ol> 
+   <li> 
+    <ol> 
+     <li>Navigate to Sites and select <strong>We.Retail </strong>-&amp;gt;<strong> United States </strong>-&amp;gt;<strong>English </strong>and select <strong>Equipment</strong> page to use this as an experience fragment for your Screens channel. </li> 
+     <li>Click <strong>Edit</strong> from the action bar to open the page you want to use as an experience fragment for your Screens channel.<br /> </li> 
+    </ol> <img imageRotate="0" src="assets/screen_shot_2018-06-06at105309am.png" /></li> 
+   <li> 
+    <ol> 
+     <li>Select the fragment you want to include in your channel.</li> 
+     <li>Click the last icon from the right to open the <strong>Convert to experience fragment</strong> dialog box.</li> 
+    </ol> <img imageRotate="0" src="assets/screen_shot_2018-06-06at115741am.png" /></li> 
+   <li> 
+    <ol> 
+     <li>Choose the <strong>Action</strong> as <strong>Create a new Experience Fragment</strong>.</li> 
+     <li>Select the <strong>Parent path</strong>.</li> 
+     <li>Select the <strong>Template</strong>. Choose the <strong>We.Retail </strong>template here.<br /> </li> 
+     <li>Enter the <strong>Fragment Title </strong>as <strong>ScreensFragment</strong>.</li> 
+     <li>Click the check mark to complete the creation of a new experience fragment.</li> 
+    </ol> <img imageRotate="0" src="assets/screen_shot_2018-06-06at115009am.png" /></li> 
+   <li> 
+    <ol> 
+     <li>Navigate to the AEM home page.</li> 
+     <li>Select <strong>Experience Fragments</strong> and highlight the <strong>ScreensFragment</strong> and click <strong>Variation as live- Copy</strong>, as shown in the figure below:</li> 
+    </ol> <img imageRotate="0" src="assets/screen_shot_2018-06-06at100729pm.png" /><p> c. Select the<strong> ScreensFragment </strong>from<strong> Create Live Copy</strong> wizard and click <strong>Next</strong>.</p> <p> d. Enter the <strong>Title</strong> and <strong>Name</strong> as <strong>Screens</strong>.</p> <p> e. Click <strong>Create</strong> to create the Live Copy.</p> <img imageRotate="0" src="assets/screen_shot_2018-06-06at101031pm.png" /></li> 
+   <li> 
+    <ol> 
+     <li>Navigate to the Screens channel where you want to use the <strong>Screens</strong> fragment.</li> 
+     <li>Select the <strong>TestChannel</strong> and click <strong>Edit</strong> from the bar.</li> 
+     <li>Click the components icon from the side tab.</li> 
+     <li>Drag and drop the <strong>Embedded Page</strong> to your channel.</li> 
+    </ol> <img imageRotate="0" src="assets/screen_shot_2018-06-03at100512pm.png" /><p> e. Select the <strong>Embedded Page</strong> component and select the top left (wrench) icon to open the <strong>Page</strong> dialog box.<br /> </p> <p> f. Select the <strong>Screens</strong> live copy of the fragment you created in <em>Step 3</em> in the <strong>Path </strong>field.</p> <img imageRotate="0" src="assets/screen_shot_2018-06-06at101421pm.png" /><p> h. Enter the seconds in the<strong> Duration</strong> field.</p> <p> i. Click the check mark to complete the process.</p> <img imageRotate="0" src="assets/screen_shot_2018-06-08at120448pm.png" /></li> 
+  </ol> 
+  <h3>Validating the Result</h3> 
+  <p>After completion of precceeding steps, you can validate your experience fragment in the <strong>TestChannel</strong> by:</p> 
+  <ol> 
+   <li>Navigating to the <strong>TestChannel</strong>.</li> 
+   <li>Selecting the <strong>Preview</strong> from the action bar.</li> 
+  </ol> 
+  <div>
+    You will view the content from the 
+   <strong>Sites</strong> page (live-copy of the experience fragment) in your channel, as shown in the figure below: 
+   <br /> 
+  </div> 
+  <img imageRotate="0" src="assets/screen_shot_2018-06-08at120739pm.png" /> 
+  <h2>Propagating Changes from the Master Page</h2> 
+  <p><strong><em>Live Copy</em></strong> refers to the copy (of the source), maintained by synchronization actions as defined by the rollout configurations.</p> 
+  <p>Since the Experience Fragment, we created is a live copy from the <strong>Sites</strong> pages, so if you make changes to that particluar fragment from the master page, you will view the changes in your channel or the destination where you have used the Experience Fragment.<br /> </p> 
+  <note> 
+   <p>For more information on Live Copy, see <a href="https://content/help/en/experience-manager/6-4/sites/administering/using/msm.html">Reusing Content: Multi Site Manager and Live Copy</a>.</p> 
+  </note> 
+  <p>Follow the steps below to propagate changes from the Master channel to your destination channel:</p> 
+  <ol> 
+   <li><p>Select the Experience Fragment from the <strong>Sites</strong> (Master) page and click the pencil icon to edit the items in the Experience Fragment.<br /> </p>  <img imageRotate="0" src="assets/screen_shot_2018-06-08at122655pm.png" /></li> 
+   <li><p>Select the Experience Fragment and click the wrench icon to open the dialog box to edit the images.<br /> </p> <img imageRotate="0" src="assets/screen_shot_2018-06-08at25031pm.png" /></li> 
+   <li><p>The <strong>Product Grid</strong> dialog box opens.<br /> </p> <img imageRotate="0" src="assets/screen_shot_2018-06-08at25306pm.png" /></li> 
+   <li><p>You can edit any of the images. For example, here the first image is replaced in this fragment.</p> <img imageRotate="0" src="assets/screen_shot_2018-06-08at25608pm.png" /></li> 
+   <li><p>Select the Experience Fragment and click the Rollout icon to propagate changes to the fragment that is used in your channel.</p> <img imageRotate="0" src="assets/screen_shot_2018-06-08at31352pm.png" /></li> 
+   <li><p>Click Rollout to confirm the changes.</p> <p>You will see that the changes are rolled out.</p> <img imageRotate="0" src="assets/screen_shot_2018-06-08at32148pm.png" /></li> 
+  </ol> 
+  <h3>Validating the Changes</h3> 
+  <p>Follow the steps below to confirm the changes in your channel:</p> 
+  <ol> 
+   <li>Navigate to the <strong>Screens</strong> -&amp;gt; <strong>Channels</strong> -&amp;gt; <strong>TestChannel</strong>.</li> 
+   <li>Click <strong>Preview</strong> from the action bar to confirm the changes.</li> 
+  </ol> 
+  <div>
+    The following image illustrates the changes in your 
+   <strong>TestChannel</strong>: 
+   <br /> 
+  </div> 
+  <img imageRotate="0" src="assets/screen_shot_2018-06-08at33351pm.png" /> 
+ </body> 
+</html>

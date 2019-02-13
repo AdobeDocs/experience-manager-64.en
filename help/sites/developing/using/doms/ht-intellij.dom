@@ -1,0 +1,138 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/ht-intellij.html" name="publishExternalURL" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="b061e64f-7738-4299-b87a-1e6a0d79fe92" name="jcr:uuid" /> 
+  <meta content="Guillaume Carlino" name="contentOwner" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2018-05-08T12:43:45.736-0400" name="cq:lastModified" /> 
+  <meta content="How to Develop AEM Projects using IntelliJ IDEA" name="seoTitle" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2018-05-08T12:43:45.734-0400" name="locHandOffDate" /> 
+  <meta content="2017-10-31T16:16:36.814-0400" name="firstPublishExternalDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2018-04-03T09:00:50.643-0400" name="cq:lastReplicated" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="How to Develop AEM Projects using IntelliJ IDEA" name="navTitle" /> 
+  <meta content="/content/docs/en/aem/6-3/develop/dev-tools/ht-intellij" name="qaNotes" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="audience:developing" name="primaryAudienceTag" /> 
+  <meta content="How to Develop AEM Projects using IntelliJ IDEA" name="jcr:title" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2017-10-31T16:16:36.814-0400" name="topicBrowsingSortDate" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:development-tools;content_type:reference" name="cq:tags" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="2017-10-31T16:16:36.814-0400" name="publishExternalDate" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/morehelp/development-tools;/content/help/en/experience-manager/6-4/sites/developing/morehelp/development-tools" name="moreHelpPaths" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2017-10-31T16:16:36.814-0400" name="lastPublishExternalDate" /> 
+  <meta content="Using IntelliJ IDEA to develop AEM projects" name="seoDescription" /> 
+  <meta content="5b8b4457-e5fc-4382-9e71-5938fe7cd37b" name="jcr:predecessors" /> 
+  <meta content="2017-12-01T19:05:23.745-0500" name="jcr:created" /> 
+ </head> 
+ <body> 
+  <h3>Overview</h3> 
+  <p>To get started with AEM development on IntelliJ, the following steps are required.</p> 
+  <p>Each of them is explained in more detail in the remainder of this How-To.</p> 
+  <ul> 
+   <li>Install IntelliJ</li> 
+   <li>Set up your AEM project based on Maven</li> 
+   <li>Prepare JSP support for IntelliJ in the Maven POM</li> 
+   <li>Import the Maven Project into IntelliJ</li> 
+  </ul> 
+  <note> 
+   <p>This guide is based on IntelliJ IDEA Ultimate Edition 12.1.4 and AEM 5.6.1.</p> 
+  </note> 
+  <h3>Install IntelliJ IDEA</h3> 
+  <p>Download IntelliJ IDEA from <a href="http://www.jetbrains.com/idea/download/index.html">the Downloads page at JetBrains</a>.</p> 
+  <p>Then, follow the installation instructions on that page.</p> 
+  <h3>Set up your AEM project based on Maven</h3> 
+  <p>Next, set up your project using Maven as described in <a href="../../../sites/developing/using/ht-projects-maven.md">How-To Build AEM Projects using Apache Maven</a>.</p> 
+  <p>To start working with AEM projects in IntelliJ IDEA, the basic setup in <a href="https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html">Getting Started in 5 Minutes</a> is sufficient.</p> 
+  <h3>Prepare JSP Support for IntelliJ IDEA</h3> 
+  <p>IntelliJ IDEA can also provide support in working with JSP, e.g.</p> 
+  <ul> 
+   <li>auto-completion of tag libraries</li> 
+   <li>awareness of objects defined by &amp;lt;cq:defineObjects /&amp;gt; and &amp;lt;sling:defineObjects /&amp;gt;</li> 
+  </ul> 
+  <p>For that to work, follow the instructions on <a href="../../../sites/developing/using/ht-projects-maven.md#howtoworkwithjsps">How-To Work with JSPs</a> in <a href="../../../sites/developing/using/ht-projects-maven.md">How-To Build AEM Projects using Apache Maven</a>.</p> 
+  <h3>Import the Maven Project</h3> 
+  <ol> 
+   <li><p>Open the "Import" dialog in IntelliJ IDEA by</p> 
+    <ul> 
+     <li>selecting "Import Project" on the welcome screen if you have no project open yet</li> 
+     <li>selecting "File" -&amp;gt; "Import Project" from the main menu</li> 
+    </ul> </li> 
+   <li><p>In the Import dialog, select the POM file of your project.</p> <img imageRotate="0" src="assets/chlimage_1-54.png" /></li> 
+   <li><p>Continue with the default settings as shown in the dialog below.</p> <img imageRotate="0" src="assets/chlimage_1-55.png" /></li> 
+   <li><p>Continue through the following dialogs by clicking "Next" and "Finish".</p> </li> 
+   <li><p>You are now set up for AEM Development using IntelliJ IDEA</p> <img imageRotate="0" src="assets/chlimage_1-56.png" /></li> 
+  </ol> 
+  <h3>Debugging JSPs with IntelliJ IDEA</h3> 
+  <p>The following steps are necessary for debugging JSPs with IntelliJ IDEA</p> 
+  <ul> 
+   <li>Set up a Web Facet in the Project</li> 
+   <li>Install the JSR45 support plugin </li> 
+   <li>Configure a Debug Profile</li> 
+   <li>Configure AEM for Debug Mode</li> 
+  </ul> 
+  <h4>Set up a Web Facet in the Project</h4> 
+  <p>IntelliJ IDEA needs to understand where to find the JSPs for debugging. As IDEA cannot interpret the <span class="code">content-package-maven-plugin</span> settings, this needs to be configured manually.</p> 
+  <ol> 
+   <li>Go to File -&amp;gt; Project Structure</li> 
+   <li>Select the "content" module</li> 
+   <li>Click "+" above the list of modules and select "Web"</li> 
+   <li>As the Web Resource Directory, select the <span class="code">content/src/main/content/jcr_root subdirectory</span> of your project as shown in the screen shot below.</li> 
+  </ol> 
+  <img imageRotate="0" src="assets/chlimage_1-57.png" /> 
+  <h4>Install the JSR45 support plugin</h4> 
+  <ol> 
+   <li>Go to the "Plugins" pane in the IntelliJ IDEA settings</li> 
+   <li>Navigate to the "JSR45 Integration" Plugin and select the check box next to it</li> 
+   <li>Click "Apply"</li> 
+   <li>Restart IntelliJ IDEA when requested to</li> 
+  </ol> 
+  <img imageRotate="0" src="assets/chlimage_1-58.png" /> 
+  <h4>Configure a Debug Profile</h4> 
+  <ol> 
+   <li>Go to "Run" -&amp;gt; "Edit Configurations"</li> 
+   <li>Hit the "+" and select "JSR45 Remote"</li> 
+   <li>In the configuration dialog, select "Configure" next to "Application Server" and configure a Generic server</li> 
+   <li>Set the start page to an appropriate URL if you want to open a browser when you start debugging</li> 
+   <li>Remove all "Before launch" tasks if you use vlt autosync, or configure appropriate Maven tasks if you don't</li> 
+   <li>On the "Startup/Connection" pane, adjust the port if required</li> 
+   <li>Copy the command line arguments that IntelliJ IDEA proposes</li> 
+  </ol> 
+  <img imageRotate="0" src="assets/chlimage_1-59.png" /> 
+  <img imageRotate="0" src="assets/chlimage_1-60.png" /> 
+  <h4>Configure AEM for Debug Mode</h4> 
+  <p>The last step required is to start AEM with the JVM options proposed by IntelliJ IDEA.</p> 
+  <p>You can do this by starting the AEM jar file directly and adding these options, for example with the following command line:</p> 
+  <p><span class="code">java -Xdebug -Xrunjdwp:transport=dt_socket,address=58242,suspend=n,server=y -Xmx1024m -XX:MaxPermSize=256M -jar cq-quickstart-5.6.1.jar</span></p> 
+  <p>You can also add these options to your start script in <span class="code">crx-quickstart/bin/start</span> as shown below.</p> 
+  <codeblock class="syntax shell">
+    #&amp;nbsp;...!!discoiqbr!!!!discoiqbr!!#&amp;nbsp;default&amp;nbsp;JVM&amp;nbsp;options!!discoiqbr!!if&amp;nbsp;[&amp;nbsp;-z&amp;nbsp;"$CQ_JVM_OPTS"&amp;nbsp;];&amp;nbsp;then!!discoiqbr!!&amp;nbsp;CQ_JVM_OPTS='-server&amp;nbsp;-Xmx1024m&amp;nbsp;-XX:MaxPermSize=256M&amp;nbsp;-Djava.awt.headless=true'!!discoiqbr!!fi!!discoiqbr!!!!discoiqbr!!CQ_JVM_OPTS="$CQ_JVM_OPTS&amp;nbsp;-Xdebug&amp;nbsp;-Xrunjdwp:transport=dt_socket,address=58242,suspend=n,server=y"!!discoiqbr!!!!discoiqbr!!#&amp;nbsp;... 
+  </codeblock> 
+  <h4>Start Debugging</h4> 
+  <p>You are now all set up for debugging your JSPs in AEM.</p> 
+  <ol> 
+   <li>Select "Run" -&amp;gt; "Debug" -&amp;gt; Your Debug Profile</li> 
+   <li>Set breakpoints in your component code</li> 
+   <li>Access a page in your browser</li> 
+  </ol> 
+  <p> </p> 
+  <img imageRotate="0" src="assets/chlimage_1-61.png" /> 
+  <h3>Debugging Bundles with IntelliJ IDEA</h3> 
+  <p>Code in bundles can be debugged using a standard generic remote debug connection. You can follow the <a href="http://www.jetbrains.com/idea/webhelp/run-debug-configuration-remote.html">Jetbrain documentation on remote debugging</a>.</p> 
+ </body> 
+</html>

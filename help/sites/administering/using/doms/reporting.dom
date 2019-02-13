@@ -1,0 +1,389 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="a99923e3-5800-46b4-944c-76ed8f7a6771" name="jcr:predecessors" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="Reporting" name="seoTitle" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2018-04-03T07:06:33.524-0400" name="lastPublishExternalDate" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="/content/docs/en/aem/6-3/administer/operations/reporting" name="qaNotes" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="59ac745d-5b61-4caf-8c09-8268c634987c" name="jcr:uuid" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2017-12-01T19:06:29.905-0500" name="jcr:created" /> 
+  <meta content="audience:administering" name="primaryAudienceTag" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/administering/morehelp/operations;/content/help/en/experience-manager/6-4/sites/administering/morehelp/operations" name="moreHelpPaths" /> 
+  <meta content="2018-04-03T07:06:33.524-0400" name="topicBrowsingSortDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:operations;content_type:reference" name="cq:tags" /> 
+  <meta content="2018-04-26T10:12:14.998-0400" name="cq:lastModified" /> 
+  <meta content="mix:lockable;mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2017-10-31T16:24:26.436-0400" name="firstPublishExternalDate" /> 
+  <meta content="Reporting" name="jcr:title" /> 
+  <meta content="Reporting" name="navTitle" /> 
+  <meta content="2018-04-03T07:06:33.983-0400" name="cq:lastReplicated" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/reporting.html" name="publishExternalURL" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="Learn how to work with Reporting in AEM." name="seoDescription" /> 
+  <meta content="2018-04-03T07:06:33.524-0400" name="publishExternalDate" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="2018-04-26T10:12:14.998-0400" name="locHandOffDate" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="Guillaume Carlino" name="contentOwner" /> 
+ </head> 
+ <body>  
+  <p>To help you monitor and analyze the state of your instance, AEM provides a selection of default reports, which can be configured for your individual requirements:</p> 
+  <ul> 
+   <li><a href="#componentreport">Component Report</a></li> 
+   <li><a href="#diskusage">Disk Usage</a></li> 
+   <li><a href="#healthcheck">Health Check</a></li> 
+   <li><a href="#pageactivityreport">Page Activity Report</a></li> 
+   <li><a href="#usergeneratedcontentreport">User Generated Content Report</a></li> 
+   <li><a href="#userreport">User Report</a></li> 
+   <li><a href="#workflowinstancereport">Workflow Instance Report</a></li> 
+   <li><a href="#workflowreport">Workflow Report</a></li> 
+  </ul> 
+  <p>All reports can be accessed from the <strong>Tools</strong> console. Select <strong>Reports</strong> in the left-hand pane, then double-click the required report in the right-hand pane to open it for viewing and/or configuration.<br /> </p> 
+  <p>New instances of a report can also be created from the <strong>Tools</strong> console. Select <strong>Reports</strong> in the left-hand pane, then <strong>New...</strong> from the toolbar. Define a <strong>Title</strong> and <strong>Name</strong>, select the report type you require, then click <strong>Create</strong>. Your new report instance will appear in the list. Double-click this to open, then drag a component from the sidekick to create the first column and start the report definition.<br /> </p> 
+  <note> 
+   <p>In addition to the standard AEM reports that are available out of the box, you can <a href="../../../sites/developing/using/dev-reports.md">develop your own (completely new) reports</a>.</p> 
+  </note> 
+  <h2>The Basics of Report Customization</h2> 
+  <p>There are various formats of reports available. The following reports all use columns that can be customized as detailed in the following sections:<br /> </p> 
+  <ul> 
+   <li><a href="#componentreport">Component Report</a></li> 
+   <li><a href="#pageactivityreport">Page Activity Report</a></li> 
+   <li><a href="#usergeneratedcontentreport">User Generated Content Report</a></li> 
+   <li><a href="#userreport">User Report</a></li> 
+   <li><a href="#workflowinstancereport">Workflow Instance Report</a></li> 
+  </ul> 
+  <note> 
+   <p>The following reports each have their own format and customization:<br /> </p> 
+   <ul> 
+    <li><a href="#healthcheck">Health Check</a> uses selection fields to specify the data you want to report on.<br /> </li> 
+    <li><a href="#diskusage">Disk Usage</a> uses links to drill down through the repository structure.</li> 
+    <li><a href="../../../sites/administering/using/reporting.md#workflowreport">Workflow report</a> gives an overview of the workflows running on your instance.</li> 
+   </ul> 
+   <p>So the following procedures for column configuration are not appropriate. See the descriptions of the individual reports for their details.</p> 
+  </note> 
+  <h3>Selecting and Positioning the Data Columns</h3> 
+  <p>Columns can be added to, repositioned on, or removed from any of the reports, either standard or customized.</p> 
+  <p>The <strong>Components</strong> tab of the sidekick (available on the report page) lists all categories of data that can be selected as columns.</p> 
+  <p>To change the data selection:</p> 
+  <ul> 
+   <li>to add a new column, drag the required component from the sidekick and drop in the position you want<br /> 
+    <ul> 
+     <li>a green tick will indicate when the position is valid and a pair of arrows will indicate exactly where it will be placed</li> 
+     <li>a red no-go symbol will indicate when the position is invalid</li> 
+    </ul> </li> 
+   <li>to move a column, click on the header, hold and drag to the new position</li> 
+   <li>to remove a column, click on the column title, hold and drag up into the report header area (a red minus symbol will indicate that the position is not valid); release the mouse button and the Delete Component(s) dialog will request confirmation that you do really want to delete the column.</li> 
+  </ul> 
+  <h3>Column Drop-Down Menu</h3> 
+  <p>Each column in the report has a drop-down menu. This becomes visible when your mouse cursor moves over the column title cell.<br /> </p> 
+  <p>An arrow head will appear at the far right of the title cell (not to be confused with the arrow head immediately to the right of the title text that indicates the <a href="#sortingthedata">current sort mechanism</a>).<br /> </p> 
+  <img imageRotate="0" src="assets/reportcolumnsort.png" /> 
+  <p>The options available on the menu will depend on the configuration of the column (as made during project development), any invalid options will be greyed out.<br /> </p> 
+  <h3>Sorting the Data</h3> 
+  <p>The data can be sorted according to a specific column by either:</p> 
+  <ul> 
+   <li>clicking on the appropriate column header; the sort will toggle between ascending and descending, indicated by an arrow head immediately next to the title text<br /> </li> 
+   <li>use the <a href="#columndropdownmenu">column's drop-down menu</a> to specifically select either <strong>Sort Ascending</strong> or <strong>Sort Descending</strong>; again this will be indicated by an arrow head immediately next to the title text</li> 
+  </ul> 
+  <h3>Groups and the Current data Chart</h3> 
+  <p>On appropriate columns you can select <strong>Group by this column</strong> from the <a href="#columndropdownmenu">column's drop-down menu</a>. This will group the data according to each distinct value within that column. You can select more than one column to be grouped. The option will be greyed out when the data in the column is inappropriate; i.e. every entry is distinct and unique so no groups can be formed, for example the User ID column of the user report.<br /> </p> 
+  <p>After at least one column has been grouped a pie-chart of <strong>Current data</strong> will be generated, based on this grouping. If multiple columns are grouped then this will also be indicated on the chart.<br /> </p> 
+  <img imageRotate="0" src="assets/reportuser.png" /> 
+  <p>Moving your cursor over the pie-chart will show the aggregated value for the appropriate segment. This uses the aggregate currently defined for the column; for example, count, minimum, average, amongst others.<br /> </p> 
+  <h3>Filters and Aggregates</h3> 
+  <p>On appropriate columns you can also configure <strong>Filter Settings</strong> and/or <strong>Aggregates</strong> from the <a href="#columndropdownmenu">column's drop-down menu</a>.</p> 
+  <h4>Filters</h4> 
+  <p>Filter Settings allow you to specify the criteria for entries to be displayed. The operators available are:</p> 
+  <ul> 
+   <li><span class="code">contains </span><br /> </li> 
+   <li><span class="code">equals</span><br /> </li> 
+  </ul> 
+  <img imageRotate="0" src="assets/reportfilter.png" /> 
+  <p>To set a filter:</p> 
+  <ol> 
+   <li>Select the operator that you want from the drop-down list.<br /> </li> 
+   <li>Enter the text to be filtered on.</li> 
+   <li>Click <strong>Apply</strong>.</li> 
+  </ol> 
+  <p>To deactivate the filter:</p> 
+  <ol> 
+   <li>Remove the filter text.</li> 
+   <li>Click <strong>Apply</strong>.</li> 
+  </ol> 
+  <h4>Aggregates</h4> 
+  <p>You can also select an aggregation method (these may vary depending on the column selected):<br /> </p> 
+  <img imageRotate="0" src="assets/reportaggregate.png" /> 
+  <h3>Column Properties</h3> 
+  <p>This option is only available when the <a href="#genericcolumn">Generic column</a> has been used in the <a href="#userreport">User Report</a>.<br /> </p> 
+  <h3>Historic data</h3> 
+  <p>A chart of the change in your data over time can be seen under <strong>Historic data</strong>. This is derived from snapshots taken at regular intervals.</p> 
+  <p>Data is:</p> 
+  <ul> 
+   <li>Collected by, if available, the first sorted column, otherwise the first (non-grouped) column</li> 
+   <li>Grouped by the appropriate column</li> 
+  </ul> 
+  <p>The report can be generated:<br /> </p> 
+  <ol> 
+   <li>Set <strong>Grouping</strong> on the required column.</li> 
+   <li><strong>Edit</strong> the configuration to define how often the snapshots should be made; hourly or daily.</li> 
+   <li><strong>Finish...</strong> the definition to start the collection of snapshots.<br /> The red/green slider button at top left indicates when snapshots are being collected.</li> 
+  </ol> 
+  <p>The resulting chart is shown at the bottom right:<br /> </p> 
+  <img imageRotate="0" src="assets/reporttrends.png" /> 
+  <p>Once data collection has started you can select:</p> 
+  <ul> 
+   <li><strong>Period</strong><br /> You can select from and to dates for the report data to be shown.</li> 
+   <li><strong>Interval</strong><br /> Month, Week, Day, Hour can be selected for the scale and aggregation of the report.<br /> For example, if daily snapshots are available for February 2011: 
+    <ul> 
+     <li>If the interval is set to <span class="code">Day</span>, each snapshot is shown as a single value in the chart.</li> 
+     <li>If the interval is set to <span class="code">Month</span>, all snapshots for February are aggregated into a single value (displayed as a single "dot" in the chart).</li> 
+    </ul> </li> 
+  </ul> 
+  <p>Select your requirements, then click <strong>Go</strong> to apply them to the report. To update the display after further snapshots have been made, click <strong>Go</strong> again.<br /> </p> 
+  <img imageRotate="0" src="assets/chlimage_1-63.png" /> 
+  <p>When snapshots are being collected you can:</p> 
+  <ul> 
+   <li>Use <strong>Finish...</strong> again to reinitialize the collection.<br /> <strong>Finish</strong> "freezes" the report's structure (i.e. the columns assigned to the report and which are grouped, sorted, filtered, etc.) and starts taking snapshots. </li> 
+   <li>Open the <strong>Edit</strong> dialog to select <strong>No data snapshots</strong> to terminate collection until required.<br /> <strong>Edit</strong> only switches the taking of snapshots on or off. If taking snapshots is switched on again, it uses the state of the report when it was last finished for taking further snapshots. </li> 
+  </ul> 
+  <note> 
+   <p>Snapshots are stored under <span class="code">/var/reports/...</span> where the remainder of the path mirrors the path of the respective report and ID created when the report was finished.<br /> </p> 
+   <p>Old snapshots can be manually purged, if you are completely sure that you no longer require those instances.<br /> </p> 
+  </note> 
+  <note> 
+   <p>The preconfigured reports are not perfomance intensive, but it is still recommended to use daily snapshots on a production environment. If possible run these daily snapshots at a time of day when there is not much activity on your website; this can be defined with the <span class="code">Daily snapshots (repconf.hourofday)</span> parameter for <strong>Day CQ Reporting Configuration</strong>; see <a href="../../../sites/deploying/using/configuring-osgi.md">OSGI Configuration</a> for more details on how to configure this.<br /> </p> 
+  </note> 
+  <h4>Display Limits</h4> 
+  <p>The historical data report can also change slightly in appearance due to limits that can be set, according to the number of results for the period selected.</p> 
+  <p>Each horizontal line is known as a series (and corresponds to an entry in the chart legend), each vertical column of dots represents the aggregated snapshots.<br /> </p> 
+  <img imageRotate="0" src="assets/chlimage_1-64.png" /> 
+  <p>To keep the chart clean over longer periods of time there are limits which can be set. For the standard reports these are:</p> 
+  <ul> 
+   <li>horizontal series - both default and system maximum is <span class="code">9</span><br /> </li> 
+   <li>vertical aggregated snapshots - default is <span class="code">35</span> (per horizontal series)<br /> </li> 
+  </ul> 
+  <p>So when the (appropriate) limits are exceeded the:</p> 
+  <ul> 
+   <li>the dots will not be displayed</li> 
+   <li>the legend for the historical data chart might show a different number of entries to that of the current data chart</li> 
+  </ul> 
+  <img imageRotate="0" src="assets/chlimage_1-65.png" /> 
+  <p>Customized reports can also show the <strong>Total</strong> value for all series. This is shown as a series (horizontal line and entry in the legend).<br /> </p> 
+  <note> 
+   <p>For customized reports the limits can be set differently.<br /> </p> 
+  </note> 
+  <h3>Edit (Report)</h3> 
+  <p>The <strong>Edit</strong> button opens the <strong>Edit Report</strong> Dialog.</p> 
+  <p>This is one location where the period for collecting snapshots for <a href="#historicdata">Historic data</a> is defined, but various other settings can also be defined:<br /> </p> 
+  <img imageRotate="0" src="assets/reportedit.png" /> 
+  <ul> 
+   <li><strong>Title</strong><br /> You can define your own title.</li> 
+   <li><strong>Description</strong><br /> You can define your own description.</li> 
+   <li><strong>Root path</strong> (<i>only active for certain reports</i>)<br /> Use this to limit the report to a (sub-) section of the repository. </li> 
+   <li><strong>Report Processing</strong> 
+    <ul> 
+     <li><strong>automatically refresh data</strong><br /> The report data will be refreshed every time you update the report definition.</li> 
+     <li><strong>manually refresh data</strong><br /> This option can be used to prevent delays caused by automatic refresh operations when there is a large volume of data.<br /> Selecting this indicates that the report data must be manually refreshed when any aspect of the report configuration has changed. It also means that as soon as you change any aspect of the configuration the report table will be blanked out.<br /> When this is selected the <strong><a href="#loaddata">Load data</a></strong> button will be displayed (next to <strong>Edit</strong> on the report). <strong>Load data</strong> will load the data and refresh the report data shown.<br /> </li> 
+    </ul> </li> 
+   <li><strong>Snapshots</strong><br /> You can define how often snapshots are to be made; daily, hourly or not at all.</li> 
+  </ul> 
+  <h3>Load data</h3> 
+  <p>The <strong>Load data</strong> button is only visible when <strong>manually refresh data</strong> has been selected from <strong><a href="#editreport">Edit</a></strong>.<br /> </p> 
+  <img imageRotate="0" src="assets/chlimage_1-66.png" /> 
+  <p>Clicking on <strong>Load data</strong> will reload the data and update the report being shown.<br /> </p> 
+  <p>Selecting to manually refresh data means that:</p> 
+  <ol> 
+   <li>As soon as you change the the report configuration, the table of report data will be blanked out.<br /> For example, if you change the sort mechanism for a column, the data will not be shown.</li> 
+   <li>If you want the report data to be shown again you will need to click on <strong>Load data</strong> to reload the data.</li> 
+  </ol> 
+  <h3>Finish (report)</h3> 
+  <p>When you <strong>Finish</strong> the report:</p> 
+  <ul> 
+   <li>The report definition <i>as of that point in time</i> will be used for taking the snapshots (afterwards you can continue working on a report definition as it is then separate from the snaphots).<br /> </li> 
+   <li>Any existing snapshots will be removed.</li> 
+   <li>New snapshots are collected for the <a href="#historicdata">Historic data</a>.</li> 
+  </ul> 
+  <p>With this dialog you can define, or update, your own title and description for the resulting report.<br /> </p> 
+  <img imageRotate="0" src="assets/reportfinish.png" /> 
+  <h2>Report Types</h2> 
+  <h3>Component Report</h3> 
+  <p>The component report delivers information about how your website uses the components.<br /> </p> 
+  <p><a href="#selectingandpositioningthedatacolumns">Columns of information</a> about:<br /> </p> 
+  <ul> 
+   <li>Author</li> 
+   <li>Component Path</li> 
+   <li>Component Type</li> 
+   <li>Last Modified</li> 
+   <li>Page</li> 
+  </ul> 
+  <p>Mean that you can see, for example:</p> 
+  <ul> 
+   <li>Which components are used where.<br /> Useful, for example, when testing.</li> 
+   <li>How instances of a specific component are distributed.<br /> This can be interesting if specific pages (i.e. "heavy pages") are experiencing performance issues.</li> 
+   <li>Identify parts of the site with frequent/less frequent changes.</li> 
+   <li>See how page content develops over time.</li> 
+  </ul> 
+  <p>All components are included, product-standard and project-specific. Using the <strong>Edit</strong> dialog the user can also set a <strong>Root path</strong> that defines the startpoint of the report - all components under that root are considered for the report.<br /> </p> 
+  <img imageRotate="0" src="assets/reportcomponent.png" /> 
+  <img imageRotate="0" src="assets/reportcompentall.png" /> 
+  <h3>Disk Usage</h3>  
+  <p>The disk usage report shows information about the data stored within your repository.</p> 
+  <p>The report starts in the root ( / ) of the repository; by clicking on a particular branch you can drill down inside the repository (the current path will be reflected in the report title).<br /> </p> 
+  <img imageRotate="0" src="assets/reportdiskusage.png" /> 
+  <h3>Health Check</h3>  
+  <p>This report analyzes the current request log:<br /> <span class="code">&amp;lt;<i>cq-installation-dir</i>&amp;gt;/crx-quickstart/logs/request.log</span><br /> to help you identify the most expensive request(s) within a given period.</p> 
+  <p>To generate the report you can specify:</p> 
+  <ul> 
+   <li><strong>Period (hours)</strong><br /> The number of hours (past) to be analysed.<br /> Default: <span class="code">24 </span><br /> </li> 
+   <li><strong>max. Results</strong><br /> Maximum number of output lines.<br /> Default: <span class="code">50 </span><br /> </li> 
+   <li><strong>max. Requests</strong><br /> Maximum number of requests to be analysed.<br /> Default: <span class="code">-1</span> (all)<br /> </li> 
+   <li><strong>Email address</strong><br /> Send results to an email address.<br /> Optional; Default: blank<br /> </li> 
+   <li><strong>Run daily at (hh:mm)</strong><br /> Specify a time for the report to be automatically run on a daily basis.<br /> Optional; Default: blank<br /> </li> 
+  </ul> 
+  <img imageRotate="0" src="assets/reporthealth.png" /> 
+  <h3>Page Activity Report</h3> 
+  <p>The page activity report lists pages and the actions made on them.<br /> </p> 
+  <p><a href="#selectingandpositioningthedatacolumns">Columns of information</a> about:</p> 
+  <ul> 
+   <li>Page</li> 
+   <li>Time</li> 
+   <li>Type</li> 
+   <li>User</li> 
+  </ul> 
+  <p>Mean that you can monitor:</p> 
+  <ul> 
+   <li>The latest modifications.</li> 
+   <li>Authors working on specific pages.</li> 
+   <li>Pages that have not been modified recently, so might be in need of action.</li> 
+   <li>Pages that are most / least frequently changed.</li> 
+   <li>Most / least active users.</li> 
+  </ul> 
+  <p>The page activity report takes all its information from the audit log. By default the root path is configured to the audit log at <span class="code">/var/audit/com.day.cq.wcm.core.page</span>.</p> 
+  <img imageRotate="0" src="assets/reportpageactivity.png" /> 
+  <h3>User Generated Content Report</h3> 
+  <p>This report provides information about user generated content; be that comments, ratings or forums.<br /> </p> 
+  <p><a href="#selectingandpositioningthedatacolumns">Columns of information</a> on:</p> 
+  <ul> 
+   <li>Date</li> 
+   <li>IP Address</li> 
+   <li>Page</li> 
+   <li>Referrer</li> 
+   <li>Type</li> 
+   <li>User Identifier</li> 
+  </ul> 
+  <p>Allow you to:</p> 
+  <ul> 
+   <li>See which pages are receiving the most comments.</li> 
+   <li>Get an overview of all comments that specific site visitors are leaving, maybe the issues are related.<br /> </li> 
+   <li>Judge whether new content is provoking comments by monitoring when comments are being made on a page.</li> 
+  </ul> 
+  <img imageRotate="0" src="assets/reportusercontent.png" />   
+  <h3>User Report</h3> 
+  <p>This report gives information about all users that have registered an account and/or profile; this can include both authors within your organization and external visitors.<br /> </p> 
+  <p><a href="#selectingandpositioningthedatacolumns">Columns of information</a> (where available) about:</p> 
+  <ul> 
+   <li>Age</li> 
+   <li>Country</li> 
+   <li>Domain</li> 
+   <li>E-Mail</li> 
+   <li>Family Name</li> 
+   <li>Gender</li> 
+   <li><a href="#genericcolumn">Generic</a></li> 
+   <li>Given Name</li> 
+   <li>Info</li> 
+   <li>Interest</li> 
+   <li>Language</li> 
+   <li>NTLM Hashcode</li> 
+   <li>User ID</li> 
+  </ul> 
+  <p>Allow you to:</p> 
+  <ul> 
+   <li>See the demographic spread of your users.</li> 
+   <li>Report on customized fields you have added to the profiles. </li> 
+  </ul>  
+  <img imageRotate="0" src="assets/reportusercanned.png" /> 
+  <h4>Generic Column</h4> 
+  <p>The <strong>Generic</strong> column is available in the User Report so that you can access customized information, usually from the <a href="../../../sites/administering/using/identity-management.md#profilesanduseraccounts">user profiles</a>; for example, <a href="../../../sites/administering/using/identity-management.md#addingfieldstotheprofiledefinition">Favorite Color as detailed under Adding Fields to the Profile Definition</a>.</p> 
+  <p>The Generic column dialog will open when you either:</p> 
+  <ul> 
+   <li>Drag the Generic component from the sidekick to the report.</li> 
+   <li>Select the Column Properties for an existing Generic column.</li> 
+  </ul> 
+  <img imageRotate="0" src="assets/reportusrgenericcolm.png" /> 
+  <p>From the <strong>Definitions</strong> tab you can define:</p> 
+  <ul> 
+   <li><strong>Title</strong><br /> Your own title for the generic column.</li> 
+   <li><strong>Property</strong><br /> The property name as stored in the repository, usually within the user's profile.</li> 
+   <li><strong>Path</strong><br /> Usually the property is taken from the <span class="code">profile</span>.</li> 
+   <li><strong>Type</strong><br /> Select the field type from <span class="code">String</span>, <span class="code">Number</span>, <span class="code">Integer</span>, <span class="code">Date</span>.</li> 
+   <li><strong>Default Aggregate</strong><br /> This defines the aggregate used by default if the column is ungrouped in a report with at least one grouped column. Select the required aggregate from <span class="code">Count</span>, <span class="code">Minimum</span>, <span class="code">Average</span>, <span class="code">Maximum</span>, <span class="code">Sum</span>. <br /> For example, <i>Count</i> for a <span class="code">String</span> field means that the number of distinct <span class="code">String</span> values is displayed for the column in the aggregated state.<br /> </li> 
+  </ul> 
+  <p>In the <strong>Extended</strong> tab you can also define the aggregates and filters available:<br /> </p> 
+  <img imageRotate="0" src="assets/reportusrgenericcolmextented.png" /> 
+  <h3>Workflow Instance Report</h3> 
+  <p>This gives you a concise overview, providing information about the individual instances of workflows, both running and completed.</p> 
+  <p><a href="#selectingandpositioningthedatacolumns">Columns of information</a> about:</p> 
+  <ul> 
+   <li>Completed</li> 
+   <li>Duration</li> 
+   <li>Initiator</li> 
+   <li>Model</li> 
+   <li>Payload</li> 
+   <li>Started</li> 
+   <li>Status</li> 
+  </ul> 
+  <p>Mean you can:</p> 
+  <ul> 
+   <li>Monitor the mean duration of workflows; if this happens regularly it can highlight issues with the workflow.</li> 
+  </ul>  
+  <img imageRotate="0" src="assets/reportworkflowintance.png" /> 
+  <h3>Workflow Report</h3> 
+  <p>This provides key statistics about the workflows running on your instance.<br /> </p> 
+  <img imageRotate="0" src="assets/reportworkflow.png" /> 
+  <h2>Using Reports in a Publish Environment</h2> 
+  <p>Once you have configured the reports to your specific requirements you can activate it to transfer the configuration to the publish environment.<br /> </p> 
+  <note> 
+   <p>If you want <strong>Historic data</strong> for the publish environment, then <strong>Finish</strong> the report on the author environment before activating the page.</p> 
+  </note> 
+  <p>The appropriate report will then be accessible under</p> 
+  <p style="margin-left: 40px;"><span class="code">/etc/reports</span><span class="code"></span></p> 
+  <p>For example, the User Generated Content report can be found under:<br /> </p> 
+  <p style="margin-left: 40px;"><span class="code">http://localhost:4503/etc/reports/ugcreport.html</span></p> 
+  <p>This will now report on data collected from the publish environment.<br /> </p> 
+  <p>As no report configuration is allowed in the publish environment, the <strong>Edit</strong> and <strong>Finish</strong> buttons are not available. However, you can select the <strong>Period</strong> and <strong>Interval</strong> for the <strong>Historic data</strong> reports if snapshots are being collected.<br /> </p> 
+  <img imageRotate="0" src="assets/reportsucgpublish.png" /> 
+  <note> 
+   <p>Access to these reports may be a security issue; therefore we recommend you configure the Dispatcher so that <span class="code">/etc/reports</span> is not available to external visitors. See the <a href="/content/docs/en/aem/6-3/deploy/security_checklist#Restrict Access via the Dispatcher">Security Checklist</a> for more details.<br /> </p> 
+  </note> 
+  <h2>Permissions Needed for Running Reports</h2> 
+  <p>The permissions needed depend on the action:</p> 
+  <ul> 
+   <li>Report data is basically collected using the privileges of the current user.</li> 
+   <li>Historic data is collected using the privileges of the user that finished the report.</li> 
+  </ul> 
+  <p>In a standard AEM installation the following permissions are preset for the reports:</p> 
+  <ul> 
+   <li><strong>User Report</strong><br /> <span class="code">user administrators</span> - read and write<br /> </li> 
+   <li><strong>Page Activity Report</strong><br /> <span class="code">contributors</span> - read and write<br /> </li> 
+   <li><strong>Component Report</strong><br /> <span class="code">contributors</span> - read and write<br /> </li> 
+   <li><strong>User Generated Content Report</strong><br /> <span class="code">contributors</span> - read and write<br /> </li> 
+   <li><strong>Workflow Instance Report</strong><br /> <span class="code">workflow-users</span> - read and write</li> 
+  </ul> 
+  <p>All members of the <span class="code">administrators</span> group have the necessary rights to create new reports.</p> 
+ </body> 
+</html>

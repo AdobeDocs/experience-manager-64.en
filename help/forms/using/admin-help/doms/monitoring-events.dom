@@ -1,0 +1,112 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2017-12-01T19:04:45.723-0500" name="jcr:created" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="sortDate" /> 
+  <meta content="admin" name="lr_creator" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2016-05-31T07:02:13.546-0400" name="acrolinxDate" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="933" name="acrolinxWords" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/working_with_document_security;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/monitoring_events_admin_5e12de0b318c6865_2341_report.xml" name="acrolinxReportURL" /> 
+  <meta content="2018-04-03T09:10:19.691-0400" name="cq:lastReplicated" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="2017-10-31T16:32:04.613-0400" name="lastPublishExternalDate" /> 
+  <meta content="2016-04-20T10:07:31.728-0400" name="firstPublishExternalDate" /> 
+  <meta content="2018-04-26T04:23:12.925-0400" name="cq:lastModified" /> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2017-10-31T16:32:04.613-0400" name="publishExternalDate" /> 
+  <meta content="f76ab2ec-afeb-4c1f-8b3f-28e0b9b5c555" name="jcr:uuid" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="Monitoring events" name="jcr:title" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="When the auditing capability is enabled, document security enables you to monitor certain types of events. You can easily search and sort the events list using the document security." name="seoDescription" /> 
+  <meta content="8d04ab99-1c6e-4d17-941f-2390d4091f22" name="jcr:predecessors" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="topicBrowsingSortDate" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/forms/using/admin-help/monitoring-events.html" name="publishExternalURL" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="admin" name="lr_lastModifiedBy" /> 
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2016-02-05T03:27:27.062-0500" name="lr_lastModified" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="52" name="acrolinxSentences" /> 
+  <meta content="Monitoring events" name="navTitle" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="admin" name="contentOwner" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="2018-04-26T04:23:12.925-0400" name="locHandOffDate" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="AEMForms/6.1/AdminHelp/WSa7dd8288c271d662-4e0ebd7f1298eae3f70-8000.2,AEMForms/6.1/AdminHelp/WSa7dd8288c271d662639c4b0a1298eaf611c-8000.2,AEMForms/6.1/AdminHelp/WSa7dd8288c271d662639c4b0a1298eaf611c-7fff.2,AEMForms/6.1/AdminHelp/WSa7dd8288c271d662639c4b0a1298eaf611c-7ffe.2" name="cq:gepId" /> 
+ </head> 
+ <body> 
+  <p>When the auditing capability is enabled, document security enables you to monitor certain types of events. The events that you can see depend on your role:</p> 
+  <p><strong>Users:</strong> Can view audited events for their policy-protected documents and for any protected documents that they receive and use.</p> 
+  <p><strong>Policy set coordinators:</strong> Can view audited events, including document and policy events, for documents that are protected by policies from their policy sets.</p> 
+  <p><strong>Administrators:</strong> Can view audited events that are related to all policy-protected documents and users. Administrators can also track other types of events, including user, document, policy, and system events.</p> 
+  <p><em><strong>Note</strong>: Events that are performed on a copy of a policy-protected document are also tracked as events on the original protected document.</em></p> 
+  <p>(See <a href="../../../forms/using/admin-help/configuring-client-server-options.md#event-auditing-options">Event auditing options</a>.)</p> 
+  <p>A failed event is recorded if an unauthorized user attempts to view a document or attempts to log in using an incorrect user name or password.</p> 
+  <p><em><strong>Note</strong>: Failed anonymous access events for documents may be logged if a policy is edited to remove anonymous access. When an authorized recipient attempts to access a document that the edited policy protects, anonymous access is still attempted but will fail. </em></p> 
+  <p>If a policy allows anonymous user access but the administrator later turns off anonymous access for document security, anonymous access will fail for documents protected with the policy and the event will not be logged.</p> 
+  <h2 id="enable_event_auditing">Enable event auditing</h2> 
+  <p></p> 
+  <p>These setup requirements must be met for event auditing to take place:</p>  
+  <ul> 
+   <li><p>The system or administrator must enable the auditing capability for the server.</p><p> (See <a href="../../../forms/using/admin-help/configuring-client-server-options.md#configuring-event-auditing-and-privacy-settings">Configuring event auditing and privacy settings</a>.)</p></li> 
+   <li><p>The policy you use to protect the document must have auditing enabled. (See <a href="../../../forms/using/admin-help/creating-policies.md#creating-and-editing-policies">Creating and editing policies</a>.)</p></li> 
+  </ul> 
+  <h2 id="search_for_an_event">Search for an event</h2> 
+  <p></p> 
+  <p>You can search the events list and view more detailed descriptions about events. The detailed descriptions include information such as the event ID, description, IP address, organization, user affected, date and time the event occurred, denied activities, and offline events (when users attempt to use a document when not connected to document security).</p> 
+  <p>You can search for events on the Events page by using a combination of event search criteria and the dates the events occurred. The events that you can search for depend on your role:</p> 
+  <p><strong>Users:</strong> Can view audited events for their policy-protected documents and for any protected documents that they receive and use. These search options are available:</p> 
+  <p><strong>Events related&amp;#xA;to me:</strong> Users can find events for any policy-protected document that they created or received. For example, if a user opens, views, or prints a document that another person protected, the user sees only these events for that document.</p> 
+  <p><strong>Events related to my documents:</strong> Users can find all events that are related to their own policy-protected documents. The users see the events that are generated by every person who handled their documents.</p> 
+  <p><strong>Policy set coordinators:</strong> Can view audited events, including document and policy events, for documents that are protected by policies from their policy sets. These options are available:</p> 
+  <p><strong>Document events where&amp;#xA;I am a policy set coordinator:</strong> Policy set coordinators who have the view event permission can find events that are related to documents that policies from their policy sets protect.</p> 
+  <p><strong>Policy events where I am a policy set coordinator:</strong> Policy set coordinators who have the view events permission can find events that are related to policies from their policy sets.</p> 
+  <p><strong>Administrators:</strong> Can view audited events that are related to all policy-protected documents and users. Administrators can also track other types. Also, administrators can further subdivide event searches according to the type of user:</p> 
+  <p><strong>Known users:</strong> Users are in the source directories or are registered as external users.</p> 
+  <p><strong>Anonymous users:</strong> Unknown users who access a document that is protected with a policy that permits anonymous access.</p> 
+  <p><strong>System users:</strong> Server-initiated events, such as a directory synchronization.</p> 
+  <ol> 
+   <li><p>On the document security page, click Events.</p></li> 
+   <li><p>In the Find list, select the search criteria you want to use. Depending on your selection in the Find list, a second list is displayed that provides additional search criteria. If applicable, in the text box, type the search criteria. </p><p>For more details about the specific event types, see <a href="../../../forms/using/admin-help/configuring-client-server-options.md#event-auditing-options">Event auditing options</a>. </p></li> 
+   <li><p>In the User list, select the user type who performed the event:</p> 
+    <ul> 
+     <li><p>If you select Known User, a second search box is displayed, where you must type the user name or email address of the user.</p></li> 
+     <li><p>If you do not know these values, click the Address book search icon to search for the user by either the user name or the email address. </p></li> 
+    </ul></li> 
+   <li><p>In the Date list, select a date range option. If you select Custom Dates, boxes appear, where you type the date in the format yyyy/mm/dd, or you can use the Date Picker to specify the date range:</p> 
+    <ul> 
+     <li><p>Click the calendar to open the Date Picker.</p></li> 
+     <li><p>Use the arrows to find a year and month.</p></li> 
+     <li><p>Click a day of the month on the calendar. </p></li> 
+     <li><p>Click OK to close the Date Picker.</p></li> 
+    </ul></li> 
+   <li><p>In the Display list, select the number of search results to display per page.</p></li> 
+   <li><p>Click Find.</p><p>Any failed events are highlighted in the list with a denied icon. </p></li> 
+   <li><p>To view details about an event, click the description of the event in the list. </p></li> 
+  </ol> 
+  <h2 id="sort_the_event_list">Sort the event list</h2> 
+  <p></p> 
+  <p>You can sort the events list by column heading to find events more easily. Triangle icons next to the column heading indicate which column is currently used to sort. An upward-pointing triangle indicates ascending order, while a downward-pointing triangle indicates descending order.</p> 
+  <ol> 
+   <li><p>Click the appropriate column heading. </p></li> 
+   <li><p>To change the sort order, click the column heading again. </p></li> 
+  </ol> 
+ </body> 
+</html>

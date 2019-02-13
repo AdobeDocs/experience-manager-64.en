@@ -1,0 +1,86 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2018-05-17T05:52:22.210-0400" name="locHandOffDate" />
+  <meta content="2018-05-18T02:53:50.946-0400" name="publishExternalDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES;topic_tags:administering;content_type:reference" name="cq:tags" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2018-05-18T02:53:50.946-0400" name="topicBrowsingSortDate" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="mgulati" name="cq:lastModifiedBy" />
+  <meta content="2018-10-27T23:43:21.208-0400" name="cq:lastReplicated" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="7aea56a3-2db3-4a8e-8174-be3c4989999d" name="jcr:uuid" />
+  <meta content="2018-05-18T02:53:50.946-0400" name="lastPublishExternalDate" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="Configure enablement features in Communities" name="seoDescription" />
+  <meta content="2017-12-01T19:01:11.041-0500" name="jcr:created" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/communities/using/enablement.html" name="publishExternalURL" />
+  <meta content="jsyal" name="cq:lastReplicatedBy" />
+  <meta content="2017-10-31T16:33:45.519-0400" name="firstPublishExternalDate" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="Janice Kendall" name="contentOwner" />
+  <meta content="2018-05-18T02:53:50.948-0400" name="cq:lastModified" />
+  <meta content="mgulati@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="e84dfb79-d55d-429e-82db-119a03e2619f" name="jcr:predecessors" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" />
+  <meta content="Configuring Enablement Features" name="navTitle" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES" name="primaryProductTag" />
+  <meta content="Configuring Enablement Features" name="jcr:title" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="/content/help/en/experience-manager/6-4/communities/morehelp/administering;/content/help/en/experience-manager/6-4/communities/morehelp/administering" name="moreHelpPaths" />
+  <meta content="Configuring Enablement Features" name="seoTitle" />
+  <meta content="/content/docs/en/aem/6-3/administer/communities/enablement" name="qaNotes" />
+ </head>
+ <body>
+  <h2>Overview</h2>
+  <p>The enablement features provide the ability to create <a href="../../communities/using/overview.md#enablementcommunity" target="_blank">enablement communities</a>.</p> 
+  <p><em> This feature requires additional licensing for use in a production environment.</em></p> 
+  <p>Use of the enablement features requires the following:</p> 
+  <p>Installation of :</p> 
+  <ul> 
+   <li><strong>SCORM</strong><br /> Sharable Content Object Reference Model (SCORM) is a collection of standards and specifications for e-learning. SCORM also defines how content may be packaged into a transferable ZIP file.</li> 
+   <li><strong>MySQL</strong><br /> MySQL is a relational database primarily used for SCORM tracking and reporting data for Enablement, as well as tables for tracking video progress. The SCORM for enablement feature pack requires the MySQL JDBC driver.</li> 
+   <li><strong>FFmpeg</strong><br /> FFmpeg is a solution for converting and streaming audio and video and, when installed, is used for proper transcoding of <a href="../../sites/authoring/using/default-components-foundation.md#video">Video Assets</a>. For enablement communities, it is used in the author environment to obtain metadata for uploaded resources as well as generate a thumbnail to display when listing the resource.</li> 
+  </ul> 
+  <p>Setup of :</p> 
+  <ul> 
+   <li><strong>Community Managers</strong><br /> For enablement communities, only members of the <span class="code">Community Enablement Managers</span> user group may be assigned the role of <span class="code"><em>Community Site</em> Enablement Manager</span>, whose permissions may include content creation, assignments, and member management in the publish environment.</li> 
+  </ul> 
+  <p>Optional configuration of :</p> 
+  <ul> 
+   <li><strong>Adobe Analytics</strong><br /> Integration with Adobe Analytics adds comprehensive reporting features and supports the Video Heartbeat addtion to Analytics.</li> 
+   <li><strong>Dispatcher</strong></li> 
+  </ul> 
+  <h2>Configuration Steps</h2>
+  <p>Following are the steps necessary for enablement communities.</p> 
+  <p>Each step links to documentation which provides the necessary details.</p> 
+  <p><strong>On all author/publish instances :</strong></p> 
+  <p>1. <strong><a href="../../communities/using/deploy-communities.md#jdbcdriverformysql">install JDBC driver for MySQL</a></strong><br /> use Web Console (bundles) : <em>http://localhost:4502/system/console/bundles</em><br /> install <em>before</em> installing SCORM package</p> 
+  <p>2. <strong><a href="../../communities/using/deploy-communities.md#scormpackage">install SCORM package</a></strong><br /> use Package Manager : <em>http://localhost:4502/crx/packmgr/</em></p> 
+  <p><strong>On any server:</strong></p> 
+  <p>3. <strong><a href="../../communities/using/mysql.md">install MySQL, MySQL Workbench</a></strong></p> 
+  <p>4. <strong><a href="../../communities/using/mysql.md#databasesetup">install MySQL databases</a></strong><br /> execute SQL scripts downloaded from author instance<br /> use MySQL Workbench</p> 
+  <p><strong>On same server hosting author instance:</strong></p> 
+  <p>5. <strong><a href="../../communities/using/ffmpeg.md">install FFmpeg</a></strong></p> 
+  <p><strong>On all author/publish instances :</strong></p> 
+  <p>6. <strong><a href="../../communities/using/mysql.md#configurejdbcconnections">configure JDBC Connections pool</a></strong><br /> use Web Console (configMgr) : <em>http://localhost:4502/system/console/configMgr</em></p> 
+  <p>7. <strong><a href="../../communities/using/mysql.md#aemcommunitiesscormengineservice">configure SCORM engine service</a></strong><br /> use Web Console (configMgr) : <em>http://localhost:4502/system/console/configMgr</em></p> 
+  <p>8. <strong><a href="../../communities/using/mysql.md#adobegranitecsrffilter">configure CSRF filters</a></strong><br /> use Web Console (configMgr) : <em>http://localhost:4502/system/console/configMgr</em></p> 
+  <p> </p> 
+  <p><strong>On author instance :</strong></p> 
+  <p>9. (<em>optional</em>) <strong><a href="../../communities/using/analytics.md">configure Analytics service</a></strong><br /> use Tools, Deployment, Cloud Services console : <em>http://localhost:4502/etc/cloudservices/sitecatalyst.html</em></p> 
+  <p>10. <strong><a href="../../communities/using/ffmpeg.md#configureffmpegtranscodingservice">configure FFmpeg</a></strong><br /> use Workflow/Models console</p> 
+  <p>11. <strong><a href="../../communities/using/deploy-communities.md#tunnelserviceonauthor">enable Tunnel Service</a></strong><br /> use Web Console (configMgr) : <em>http://localhost:4502/system/console/configMgr</em></p> 
+  <p>12. <strong><a href="../../communities/using/users.md#creatingcommunitymembers">create Community administrators</a> </strong>for author environment<br /> use classic-UI Security console: <em>http://localhost:4502/useradmin</em><br /> - create user(s) with path = /home/users/community<br /> - add members(s) to the following groups :<br /> Community Enablement Managers<br /> Communities Administrators</p> 
+  <h2>Dispatcher</h2>
+  <p>When the deployment includes <a href="/content/help/en/experience-manager/dispatcher/using/dispatcher">AEM's Dispatcher</a>, in order for the enablement features to work properly, the <span class="code">clientheader </span>and <span class="code">filter </span>sections need modification. See <a href="../../communities/using/dispatcher.md#enablement">Configuring Dispatcher for Communities</a>.</p> 
+ </body>
+</html>

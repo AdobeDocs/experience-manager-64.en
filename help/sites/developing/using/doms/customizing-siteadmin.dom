@@ -1,0 +1,138 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="The Websites Administration console can be extended to display custom columns" name="seoDescription" /> 
+  <meta content="2018-05-08T12:41:51.822-0400" name="cq:lastModified" /> 
+  <meta content="5221d816-ad29-460a-a538-45cef22977ad" name="jcr:uuid" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="Customizing the Websites Console (Classic UI)" name="jcr:title" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2018-01-19T19:06:23.578-0500" name="jcr:created" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="2018-04-03T09:00:25.185-0400" name="cq:lastReplicated" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2018-05-08T12:41:51.820-0400" name="locHandOffDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:extending-aem;content_type:reference" name="cq:tags" /> 
+  <meta content="/content/docs/en/aem/6-3/develop/extending/customizing-siteadmin" name="qaNotes" /> 
+  <meta content="2018-01-18T11:19:19.459-0500" name="lastPublishExternalDate" /> 
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" /> 
+  <meta content="59cdb633-9d2e-4635-90fb-3edacb0c9109" name="jcr:predecessors" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/customizing-siteadmin.html" name="publishExternalURL" /> 
+  <meta content="2018-01-18T11:19:19.459-0500" name="topicBrowsingSortDate" /> 
+  <meta content="msm-service" name="cq:lastModifiedBy" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="Customizing the Websites Console (Classic UI)" name="navTitle" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="audience:developing" name="primaryAudienceTag" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/morehelp/extending-aem;/content/help/en/experience-manager/6-4/sites/developing/morehelp/extending-aem" name="moreHelpPaths" /> 
+  <meta content="User" name="contentOwner" /> 
+  <meta content="Customizing the Websites Console (Classic UI)" name="seoTitle" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="2018-01-18T11:19:19.459-0500" name="publishExternalDate" /> 
+  <meta content="2017-10-31T16:17:07.214-0400" name="firstPublishExternalDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+ </head> 
+ <body> 
+  <h2>Adding a Custom Column to the Websites (siteadmin) Console</h2> 
+  <p>The Websites Administration console can be extended to display custom columns. The console is built based on a JSON object that can be extended by creating an OSGI service implementing the <span class="code">ListInfoProvider</span> interface. Such a service modifies the JSON object that is sent to the client to build the console.<br /> </p> 
+  <p>This step-by-step tutorial explains how to display a new column in the Websites Administration console by implementing the <span class="code">ListInfoProvider</span> interface. It consists of the following steps:</p> 
+  <ol> 
+   <li><a href="#creatingtheosgiservice">Creating the OSGI service</a> and deploying the bundle containing it to the AEM server.</li> 
+   <li>(optional) <a href="#testingthenewservice">Testing the new service</a> by issuing a JSON call to request the JSON object that is used to build the console.</li> 
+   <li><a href="#displayingthenewcolumn">Displaying the new column</a> by extending the nodes structure of the console in the repository.<br /> </li> 
+  </ol> 
+  <note> 
+   <p>This tutorial can also be used to extend the following administration consoles:</p> 
+   <ul> 
+    <li>the Digital Assets console</li> 
+    <li>the Community console<br /> </li> 
+   </ul> 
+  </note> 
+  <h3>Creating the OSGI Service</h3> 
+  <p>The <span class="code">ListInfoProvider</span> interface defines two methods:</p> 
+  <ul> 
+   <li><span class="code">updateListGlobalInfo</span>, to update global properties of the list,</li> 
+   <li><span class="code">updateListItemInfo</span>, to update single list item.</li> 
+  </ul> 
+  <p>The arguments for both methods are:</p> 
+  <ul> 
+   <li><span class="code">request</span>, the associated Sling HTTP request object,</li> 
+   <li><span class="code">info</span>, the JSON object to update, which is respectively the global list or the current list item,</li> 
+   <li><span class="code">resource</span>, a Sling resource.</li> 
+  </ul> 
+  <p>The sample implementation below:</p> 
+  <ul> 
+   <li>Adds a <i>starred</i> property for each item, which is <span class="code">true</span> if the page name starts with an <i>e</i>, and <span class="code">false</span> otherwise.</li> 
+   <li>Adds a <i>starredCount</i> property, which is global for the list and contains the number of starred list items.</li> 
+  </ul> 
+  <p>To create the OSGI service: </p> 
+  <ol> 
+   <li>In CRXDE Lite, <a href="../../../sites/developing/using/developing-with-crxde-lite.md#managingabundle">create a bundle</a>.</li> 
+   <li>Add the sample code below.</li> 
+   <li>Build the bundle.</li> 
+  </ol> 
+  <p>The new service is up and running.<br /> </p> 
+  <codeblock gutter="true" class="syntax java">
+    package&amp;nbsp;com.test;!!discoiqbr!!!!discoiqbr!!import&amp;nbsp;com.day.cq.commons.ListInfoProvider;!!discoiqbr!!import&amp;nbsp;com.day.cq.i18n.I18n;!!discoiqbr!!import&amp;nbsp;com.day.cq.wcm.api.Page;!!discoiqbr!!import&amp;nbsp;org.apache.felix.scr.annotations.Component;!!discoiqbr!!import&amp;nbsp;org.apache.felix.scr.annotations.Service;!!discoiqbr!!import&amp;nbsp;org.apache.sling.api.SlingHttpServletRequest;!!discoiqbr!!import&amp;nbsp;org.apache.sling.api.resource.Resource;!!discoiqbr!!import&amp;nbsp;org.apache.sling.commons.json.JSONException;!!discoiqbr!!import&amp;nbsp;org.apache.sling.commons.json.JSONObject;!!discoiqbr!!!!discoiqbr!!@Component(metatype&amp;nbsp;=&amp;nbsp;false)!!discoiqbr!!@Service(value&amp;nbsp;=&amp;nbsp;ListInfoProvider.class)!!discoiqbr!!public&amp;nbsp;class&amp;nbsp;StarredListInfoProvider&amp;nbsp;implements&amp;nbsp;ListInfoProvider&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;private&amp;nbsp;int&amp;nbsp;count&amp;nbsp;=&amp;nbsp;0;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;void&amp;nbsp;updateListGlobalInfo(SlingHttpServletRequest&amp;nbsp;request,&amp;nbsp;JSONObject&amp;nbsp;info,&amp;nbsp;Resource&amp;nbsp;resource)&amp;nbsp;throws&amp;nbsp;JSONException&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;info.put("starredCount",&amp;nbsp;count);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;count&amp;nbsp;=&amp;nbsp;0;&amp;nbsp;//&amp;nbsp;reset&amp;nbsp;for&amp;nbsp;next&amp;nbsp;execution!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;public&amp;nbsp;void&amp;nbsp;updateListItemInfo(SlingHttpServletRequest&amp;nbsp;request,&amp;nbsp;JSONObject&amp;nbsp;info,&amp;nbsp;Resource&amp;nbsp;resource)&amp;nbsp;throws&amp;nbsp;JSONException&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Page&amp;nbsp;page&amp;nbsp;=&amp;nbsp;resource.adaptTo(Page.class);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if&amp;nbsp;(page&amp;nbsp;!=&amp;nbsp;null)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;Consider&amp;nbsp;starred&amp;nbsp;if&amp;nbsp;page&amp;nbsp;name&amp;nbsp;starts&amp;nbsp;with&amp;nbsp;'e'!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;boolean&amp;nbsp;starred&amp;nbsp;=&amp;nbsp;page.getName().startsWith("e");!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if&amp;nbsp;(starred)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;count++;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;I18n&amp;nbsp;i18n&amp;nbsp;=&amp;nbsp;new&amp;nbsp;I18n(request);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;info.put("starred",&amp;nbsp;starred&amp;nbsp;?&amp;nbsp;i18n.get("Yes")&amp;nbsp;:&amp;nbsp;i18n.get("No"));!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!!!discoiqbr!!} 
+  </codeblock> 
+  <note> 
+   <ul> 
+    <li>Your implementation should decide, based on the provided request and/or resource, whether it should add the information to the JSON object or not. </li> 
+    <li>If your <span class="code">ListInfoProvider</span> implementation defines a property that already exists in the response object, its value will be overwritten by the one you provide.<br /> You can use <a href="http://www.osgi.org/javadoc/r2/org/osgi/framework/Constants.html#SERVICE_RANKING">service ranking</a> to manage the execution order of multiple <span class="code">ListInfoProvider</span> implementations.</li> 
+   </ul> 
+  </note> 
+  <h3>Testing the New Service</h3> 
+  <p>When you open the Websites Administration console and browse through your site, the browser is issuing an ajax call to get the JSON object that is used to build the console. For example, when you browse to the <span class="code">/content/geometrixx</span> folder, the following request is sent to the AEM server to build the console:</p> 
+  <p><a href="http://localhost:4502/content/geometrixx.pages.json?start=0&amp;limit=30&amp;predicate=siteadmin">http://localhost:4502/content/geometrixx.pages.json?start=0&amp;limit=30&amp;predicate=siteadmin</a></p> 
+  <p>To make sure that the new service is running after having deployed the bundle containing it:</p> 
+  <ol> 
+   <li>Point your browser to the following URL:<br /> <a href="http://localhost:4502/content/geometrixx.pages.json?start=0&amp;limit=30&amp;predicate=siteadmin">http://localhost:4502/content/geometrixx.pages.json?start=0&amp;limit=30&amp;predicate=siteadmin</a></li> 
+   <li>The response should display the new properties as follows:<br /> </li> 
+  </ol> 
+  <img imageRotate="0" src="assets/screen_shot_2012-02-13at163046.png" /> 
+  <h3>Displaying the New Column</h3> 
+  <p>The last step consists in adapting the nodes structure of the Websites Administration console to display the new property for all the Geometrixx pages by overlaying <span class="code">/libs/wcm/core/content/siteadmin</span>. Proceed as follows:<br /> </p> 
+  <ol> 
+   <li>In CRXDE Lite, create the nodes structure <span class="code">/apps/wcm/core/content</span> with nodes of type <span class="code">sling:Folder</span> to reflect the structure <span class="code">/libs/wcm/core/content</span>.<br /> </li> 
+   <li>Copy the node <span class="code">/libs/wcm/core/content/siteadmin</span> and paste it below <span class="code">/apps/wcm/core/content</span>.</li> 
+   <li>Copy the node <span class="code">/apps/wcm/core/content/siteadmin/grid/assets</span> to <span class="code">/apps/wcm/core/content/siteadmin/grid/geometrixx</span> and changes its properties: 
+    <ul> 
+     <li>Remove <strong>pageText</strong><br /> </li> 
+     <li>Set <strong>pathRegex</strong> <span class="code"></span> to <span class="code">/content/geometrixx(/.*)?</span><br /> This will make the grid configuration active for all geometrixx websites.</li> 
+     <li>Set <strong>storeProxySuffix</strong> to <span class="code">.pages.json</span></li> 
+     <li>Edit the <strong>storeReaderFields</strong> multivalued property and add the <span class="code">starred</span> value.</li> 
+     <li>To activate MSM functionality add the following MSM parameters to the multi-String property <strong>storeReaderFields</strong>: 
+      <ul> 
+       <li><strong>msm:isSource</strong></li> 
+       <li><strong>msm:isInBlueprint</strong></li> 
+       <li><strong>msm:isLiveCopy</strong></li> 
+      </ul> </li> 
+    </ul> </li> 
+   <li>Add a <span class="code">starred</span> node (of type <strong>nt:unstructured</strong>) below <span class="code">/apps/wcm/core/content/siteadmin/grid/geometrixx/columns</span> with the following properties: 
+    <ul> 
+     <li><strong>dataIndex</strong>: <span class="code">starred</span> of type String<br /> </li> 
+     <li><strong>header</strong>: <span class="code">Starred</span> of type String</li> 
+     <li><strong>xtype</strong>: <span class="code">gridcolumn</span> of type String<br /> </li> 
+    </ul> </li> 
+   <li>(optional) Drop the columns you do not want to display at <span class="code">/apps/wcm/core/content/siteadmin/grid/geometrixx/columns</span><br /> </li> 
+   <li><span class="code">/siteadmin</span> is a vanity path that, as default, points to <span class="code">/libs/wcm/core/content/siteadmin</span>.<br /> To redirect this to your version of siteadmin on <span class="code">/apps/wcm/core/content/siteadmin</span> define the property <span class="code">sling:vanityOrder</span> to have a value higher than that defined on <span class="code">/libs/wcm/core/content/siteadmin</span>. The default value is 300, so anything higher is suitable.<br /> </li> 
+   <li>Go to the Websites Administration console and navigate to the Geometrixx site:<br /> <a href="http://localhost:4502/siteadmin#/content/geometrixx">http://localhost:4502/siteadmin#/content/geometrixx</a>.</li> 
+   <li>The new column called <strong>Starred</strong> is available, displaying custom information as follows:</li> 
+  </ol> 
+  <img imageRotate="0" src="assets/screen_shot_2012-02-14at104602.png" /> 
+  <note> 
+   <p>If multiple grid configurations match the requested path defined by the <strong>pathRegex</strong> property, the first one will be used, and not the most specific one, which means that the order of the configurations is important.</p> 
+  </note> 
+  <h3>Sample package</h3> 
+  <p>The outcome of this tutorial is available in the <a href="http://localhost:4502/crx/packageshare/index.html/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/helper/customizing-siteadmin">Customizing the Websites Administration Console</a> package on Package Share.</p> 
+ </body> 
+</html>

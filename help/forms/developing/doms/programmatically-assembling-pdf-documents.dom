@@ -1,0 +1,262 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="2017-11-21T06:59:40.468-0500" name="cq:lastModified" /> 
+  <meta content="2017-10-03T06:52:19.779-0400" name="publishExternalDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="https://helpx.adobe.com/aem-forms/6-3/developing/programmatically-assembling-pdf-documents.html" name="publishExternalURL" /> 
+  <meta content="2018-04-03T08:32:20.478-0400" name="cq:lastReplicated" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="khsingh@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2017-08-09T03:29:00.000-0400" name="sortDate" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="Programmatically Assembling PDF Documents Programmatically Assembling PDF Documents" name="navTitle" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="audience:developing" name="primaryAudienceTag" /> 
+  <meta content="Programmatically Assembling PDF Documents" name="jcr:title" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="0aa5b4f9-abff-4a9d-b423-a351ced43c7d" name="jcr:uuid" /> 
+  <meta content="2017-11-22T19:06:47.975-0500" name="jcr:created" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/assembling_pdf_documents;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:operations" name="cq:tags" /> 
+  <meta content="2017-08-09T03:29:44.058-0400" name="lr_lastModified" /> 
+  <meta content="2017-10-03T06:52:19.779-0400" name="firstPublishExternalDate" /> 
+  <meta content="admin" name="contentOwner" /> 
+  <meta content="AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7fba.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12-12e90f611336a356b92-7ff4.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12-12e90f611336a356b92-7ffe.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-743a.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7439.2" name="cq:gepId" /> 
+  <meta content="admin" name="lr_creator" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2017-10-03T06:52:19.779-0400" name="lastPublishExternalDate" /> 
+  <meta content="2017-08-09T03:29:00.000-0400" name="topicBrowsingSortDate" /> 
+  <meta content="admin" name="lr_lastModifiedBy" /> 
+  <meta content="7f322128-b55f-4f1d-b980-1c9a2b3d12d1" name="jcr:predecessors" /> 
+ </head> 
+ <body> 
+  <p>You can use the Assembler Service API to assemble multiple PDF documents into a single PDF document. The following illustration shows three PDF documents being merged into a single PDF document. </p> 
+  <img alt="" src="assets/pa_pa_document_assembly.png" /> 
+  <p>To assemble two or more PDF documents into a single PDF document, you need a DDX document. A DDX document describes the PDF document that the Assembler service produces. That is, the DDX document instructs the Assembler service what actions to perform.</p> 
+  <p>For the purpose of this discussion, assume that the following DDX document is used.</p> 
+  <codeblock gutter="true" class="syntax as3">
+     &lt;?xml&amp;nbsp;version="1.0"&amp;nbsp;encoding="UTF-8"?&gt;&amp;nbsp;!!discoiqbr!! &lt;DDX&amp;nbsp;xmlns="http://ns.adobe.com/DDX/1.0/"&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;PDF&amp;nbsp;result="out.pdf"&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;PDF&amp;nbsp;source="map.pdf"&amp;nbsp;/&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;PDF&amp;nbsp;source="directions.pdf"&amp;nbsp;/&gt;&amp;nbsp;!!discoiqbr!! &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/PDF&gt;&amp;nbsp;!!discoiqbr!! &lt;/DDX&gt; 
+  </codeblock> 
+  <p>This DDX document merges two PDF documents named <i>map.pdf</i> and <i>directions.pdf</i> into a single PDF document.</p> 
+  <note> 
+   <p>To see a DDX document that disassembles a PDF document, see <a href="/programming-with-aem-forms/programmatically-disassembling-pdf-documents-programmatically#programmatically_disassembling_pdf_documents">Programmatically Disassembling PDF Documents</a>.</p> 
+  </note> 
+  <note> 
+   <p>For more information about the Assembler service, see <a href="http://www.adobe.com/go/learn_aemforms_services_63">Services Reference for AEM Forms</a>.</p> 
+  </note> 
+  <note> 
+   <p>For more information about a DDX document, see<a href="http://www.adobe.com/go/learn_aemforms_ddx_63">Assembler Service and DDX Reference</a>. </p> 
+  </note> 
+  <h2 id="considerations_when_invoking_assembler_service_using_web_services">Considerations when invoking Assembler service using web services</h2> 
+  <p></p> 
+  <p>When you add headers and footers during the assembling of large documents, you may encounter an <span class="code">OutOfMemory</span> error and the files will not be assembled. To reduce the chance of this problem occurring, add a <span class="code">DDXProcessorSetting</span> element to your DDX document, as shown in the following example. </p> 
+  <p><span class="code">&amp;lt;DDXProcessorSetting name="checkpoint" value="2000" /&amp;gt;</span></p> 
+  <p>You can add this element as a child of the <span class="code">DDX</span> element or as a child of a <span class="code">PDF result</span> element. The default value for this setting is 0 (zero), which turns checkpointing off and the DDX behaves as if the <span class="code">DDXProcessorSetting</span> element is not present. If you have encountered an <span class="code">OutOfMemory</span> error, you may need to set the value to an integer, typically between 500 and 5000. A small checkpoint value results in more frequent checkpointing.</p> 
+  <h2 id="summary_of_steps">Summary of steps</h2> 
+  <p></p> 
+  <p>To assemble a single PDF document from multiple PDF documents, perform the following tasks:</p> 
+  <ol> 
+   <li><p>Include project files.</p></li> 
+   <li><p>Create a PDF Assembler client.</p></li> 
+   <li><p>Reference an existing DDX document.</p></li> 
+   <li><p>Reference input PDF documents.</p></li> 
+   <li><p>Set run-time options.</p></li> 
+   <li><p>Assemble the input PDF documents.</p></li> 
+   <li><p>Extract the results.</p></li> 
+  </ol> 
+  <p><strong>Include project files</strong></p> 
+  <p>Include the necessary files in your development project. If you are creating a client application by using Java, include the necessary JAR files. If you are using web services, ensure that you include the proxy files.</p> 
+  <p>The following JAR files must be added to your project’s class path:</p> 
+  <ul> 
+   <li><p>adobe-livecycle-client.jar</p></li> 
+   <li><p>adobe-usermanager-client.jar</p></li> 
+   <li><p>adobe-assembler-client.jar</p></li> 
+   <li><p>adobe-utilities.jar (required if AEM Forms is deployed on JBoss) </p></li> 
+   <li><p>jbossall-client.jar (required if AEM Forms is deployed on JBoss)</p></li> 
+  </ul> 
+  <p>if AEM Forms is deployed on a supported J2EE application server other than JBoss, you must replace the adobe-utilities.jar and jbossall-client.jar files with JAR files that are specific to the J2EE application server on which AEM Forms is deployed. </p> 
+  <p><strong>Create a PDF Assembler client</strong></p> 
+  <p>Before you can programmatically perform an Assembler operation, you must create an Assembler client.</p> 
+  <p><strong>Reference an existing DDX document</strong></p> 
+  <p>A DDX document must be referenced to assemble a PDF document. For example, consider the DDX document that was introduced in this section. This DDX document instructs the Assembler service to merge two PDF documents into a single PDF document. </p> 
+  <p><strong>Reference input PDF documents</strong></p> 
+  <p>Reference input PDF documents that you want to pass to the Assembler service. For example, if you want to pass two input PDF documents named Map and Directions, you must pass the corresponding PDF files.</p> 
+  <p>Both the map.pdf file and the directions.pdf file must be placed in a collection object. The name of the key must match the value of the PDF source attribute in the DDX document. It does not matter what the name of the PDF file is if the key and the source attribute in the DDX document match. </p> 
+  <note> 
+   <p>An <span class="code"><i>AssemblerResult</i></span> object, which contains a collection object, is returned if you invoke the <span class="code"><i>invokeDDX</i></span> operation. This operation is used when you pass two or more input PDF documents to the Assembler service. However, if you pass only one input PDF to the Assembler service and expect only one return document, invoke the <span class="code"><i>invokeOneDocument</i></span> operation. When invoking this operation, a single document is returned. For information about using this operation, see <a href="/programming-with-aem-forms/assembling-encrypted-pdf-documents-assembling assembling-encrypted-pdf-documents-assembling#assembling_encrypted_pdf_documents">Assembling Encrypted PDF Documents</a>.</p> 
+  </note> 
+  <p><strong>Set run-time options</strong></p> 
+  <p>You can set run-time options that control the behaviour of the Assembler service while it performs a job. For example, you can set an option that instructs the Assembler service to continue processing a job if an error is encountered. For information about the run-time options that you can set, see the <span class="code">AssemblerOptionSpec</span> class reference in <a href="http://www.adobe.com/go/learn_aemforms_javadocs_63_en">AEM Forms API Reference</a>.</p> 
+  <p><strong>Assemble the input PDF documents</strong></p> 
+  <p>After you create the service client, reference a DDX file, create a collection object that stores input PDF documents, and set run-time options, you can invoke the DDX operation. When using the DDX document specified in this section, the map.pdf and direction.pdf files are merged into one PDF document.</p> 
+  <p><strong>Extract the results</strong></p> 
+  <p>The Assembler service returns a <span class="code">java.util.Map</span> object, which can be obtained from the <span class="code">AssemblerResult</span> object, and that contains operation results. The returned <span class="code">java.util.Map</span> object contains the resultant documents and any exceptions.</p> 
+  <p>The following table summarizes some of the key values and object types that can be located in the returned <span class="code">java.util.Map</span> object. </p> 
+  <table cellpadding="4" cellspacing="0"> 
+   <thead align="left"> 
+    <tr> 
+     <th class="cellrowborder" id="d19e105266" valign="top" width="NaN%"><p>Key value</p></th> 
+     <th class="cellrowborder" id="d19e105269" valign="top" width="NaN%"><p>Object type</p></th> 
+     <th class="cellrowborder" id="d19e105272" valign="top" width="NaN%"><p>Description</p></th> 
+    </tr> 
+   </thead> 
+   <tbody> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e105266 " valign="top" width="NaN%"><p><span class="code"><i>documentName</i></span></p></td> 
+     <td class="cellrowborder" headers="d19e105269 " valign="top" width="NaN%"><p><span class="code">com.adobe.idp.Document</span></p></td> 
+     <td class="cellrowborder" headers="d19e105272 " valign="top" width="NaN%"><p>Contains the resultant documents that are specified in a DDX resultant element</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e105266 " valign="top" width="NaN%"><p><span class="code"><i>documentName</i></span></p></td> 
+     <td class="cellrowborder" headers="d19e105269 " valign="top" width="NaN%"><p><span class="code">Exception</span></p></td> 
+     <td class="cellrowborder" headers="d19e105272 " valign="top" width="NaN%"><p>Contains any exception for the document</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e105266 " valign="top" width="NaN%"><p><span class="code">OutputMapConstants.LOG_NAME</span></p></td> 
+     <td class="cellrowborder" headers="d19e105269 " valign="top" width="NaN%"><p><span class="code">com.adobe.idp.Documen</span></p></td> 
+     <td class="cellrowborder" headers="d19e105272 " valign="top" width="NaN%"><p>Contains the job log</p></td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <p><strong>See also</strong></p> 
+  <p><a href="/programming-with-aem-forms/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically#assemble_pdf_documents_using_the_java_api">Assemble PDF documents using the Java API</a></p> 
+  <p><a href="/programming-with-aem-forms/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically#assemble_pdf_documents_using_the_web_service_api">Assemble PDF documents using the web service API</a></p> 
+  <p><a href="#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2">Including AEM Forms Java library files</a></p> 
+  <p><a href="#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2">Setting connection properties</a></p> 
+  <p><a href="/programming-with-aem-forms/programmatically-disassembling-pdf-documents-programmatically#programmatically_disassembling_pdf_documents">Programmatically Disassembling PDF Documents</a></p> 
+  <h2 id="assemble_pdf_documents_using_the_java_api">Assemble PDF documents using the Java API</h2> 
+  <p></p> 
+  <p>Assemble a PDF document by using the Assembler Service API (Java):</p> 
+  <ol> 
+   <li><p>Include project files. </p><p>Include client JAR files, such as adobe-assembler-client.jar, in your Java project’s class path. </p></li> 
+   <li><p>Create a PDF Assembler client. </p> 
+    <ul> 
+     <li><p>Create a <span class="code">ServiceClientFactory</span> object that contains connection properties. </p></li> 
+     <li><p>Create an <span class="code">AssemblerServiceClient</span> object by using its constructor and passing the <span class="code">ServiceClientFactory</span> object. </p></li> 
+    </ul></li> 
+   <li><p>Reference an existing DDX document. </p> 
+    <ul> 
+     <li><p>Create a <span class="code">java.io.FileInputStream</span> object that represents the DDX document by using its constructor and passing a string value that specifies the location of the DDX file.</p></li> 
+     <li><p>Create a <span class="code">com.adobe.idp.Document</span> object by using its constructor and passing the <span class="code">java.io.FileInputStream</span> object.</p></li> 
+    </ul></li> 
+   <li><p>Reference input PDF documents. </p> 
+    <ul> 
+     <li><p>Create a <span class="code">java.util.Map</span> object that is used to store input PDF documents by using a <span class="code">HashMap</span> constructor.</p></li> 
+     <li><p>For each input PDF document, create a <span class="code">java.io.FileInputStream</span> object by using its constructor and passing the location of the input PDF document. </p></li> 
+     <li><p>For each input PDF document, create a <span class="code">com.adobe.idp.Document</span> object and pass the <span class="code">java.io.FileInputStream</span> object that contains the PDF document. </p></li> 
+     <li><p>For each input document, add an entry to the <span class="code">java.util.Map</span> object by invoking its <span class="code">put</span> method and passing the following arguments:</p> 
+      <ul> 
+       <li><p>A string value that represents the key name. This value must match the value of the PDF source element specified in the DDX document.</p></li> 
+       <li><p>A <span class="code">com.adobe.idp.Document</span> object (or <span class="code">java.util.List</span> object that specifies multiple documents) that contains the source PDF document. </p></li> 
+      </ul></li> 
+    </ul></li> 
+   <li><p>Set run-time options. </p> 
+    <ul> 
+     <li><p>Create an <span class="code">AssemblerOptionSpec</span> object that stores run-time options by using its constructor.</p></li> 
+     <li><p>Set run-time options to meet your business requirements by invoking a method that belongs to the <span class="code">AssemblerOptionSpec</span> object. For example, to instruct the Assembler service to continue processing a job when an error occurs, invoke the <span class="code">AssemblerOptionSpec</span> object’s <span class="code">setFailOnError</span> method and pass <span class="code">false</span>. </p></li> 
+    </ul></li> 
+   <li><p>Assemble the input PDF documents. </p><p>Invoke the <span class="code">AssemblerServiceClient</span> object’s <span class="code">invokeDDX</span> method and pass the following required values:</p> 
+    <ul> 
+     <li><p>A <span class="code">com.adobe.idp.Document</span> object that represents the DDX document to be used</p></li> 
+     <li><p>A <span class="code">java.util.Map</span> object that contains the input PDF files to be assembled</p></li> 
+     <li><p>A <span class="code">com.adobe.livecycle.assembler.client.AssemblerOptionSpec</span> object that specifies the run-time options, including default font and job log level</p></li> 
+    </ul><p>The <span class="code">invokeDDX</span> method returns a <span class="code">com.adobe.livecycle.assembler.client.AssemblerResult</span> object that contains the results of the job and any exceptions that occurred.</p></li> 
+   <li><p>Extract the results. </p><p>To obtain the newly created PDF document, perform the following actions:</p> 
+    <ul> 
+     <li><p>Invoke the <span class="code">AssemblerResult</span> object’s <span class="code">getDocuments</span> method. This returns a <span class="code">java.util.Map</span> object.</p></li> 
+     <li><p>Iterate through the <span class="code">java.util.Map</span> object until you find the resultant <span class="code">com.adobe.idp.Document</span> object. (You can use the PDF result element specified in the DDX document to get the document.) </p></li> 
+     <li><p>Invoke the <span class="code">com.adobe.idp.Document</span> object’s <span class="code">copyToFile</span> method to extract the PDF document. </p></li> 
+    </ul> 
+    <note> 
+     <p>If <span class="code"><i>LOG_LEVEL</i></span> was set to produce a log, you can extract the log by using the <span class="code"><i>AssemblerResult</i></span> object's <span class="code"><i>getJobLog</i></span> method.</p> 
+    </note></li> 
+  </ol> 
+  <p><strong>See also</strong></p> 
+  <p><a href="/programming-with-aem-forms/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically#programmatically_assembling_pdf_documents">Programmatically Assembling PDF Documents</a></p> 
+  <p><a href="#unresolvedlink-lc-qs-assembler-as.xml#ws624e3cba99b79e12e69a9941333732bac8-7fb7.2">Quick Start (SOAP mode): Assembling a PDF document using the Java API</a></p> 
+  <p><a href="#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2">Including AEM Forms Java library files</a></p> 
+  <p><a href="#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2">Setting connection properties</a></p> 
+  <h2 id="assemble_pdf_documents_using_the_web_service_api">Assemble PDF documents using the web service API</h2> 
+  <p></p> 
+  <p>Assemble PDF documents by using the Assembler Service API (web service):</p> 
+  <ol> 
+   <li><p>Include project files. </p><p>Create a Microsoft .NET project that uses MTOM. Ensure that you use the following WSDL definition: <span class="code">http://localhost:8080/soap/services/AssemblerService?WSDL&amp;lc_version=9.0.1</span>. </p> 
+    <note> 
+     <p>Replace <span class="code">localhost</span> with the IP address of the server hosting AEM Forms. </p> 
+    </note></li> 
+   <li><p>Create a PDF Assembler client. </p> 
+    <ul> 
+     <li><p>Create an <span class="code">AssemblerServiceClient</span> object by using its default constructor. </p></li> 
+     <li><p>Create an <span class="code">AssemblerServiceClient.Endpoint.Address</span> object by using the <span class="code">System.ServiceModel.EndpointAddress</span> constructor. Pass a string value that specifies the WSDL to the AEM Forms service (for example, <span class="code">http://localhost:8080/soap/services/AssemblerService?blob=mtom</span>). You do not need to use the <span class="code">lc_version</span> attribute. This attribute is used when you create a service reference. </p></li> 
+     <li><p>Create a <span class="code">System.ServiceModel.BasicHttpBinding</span> object by getting the value of the <span class="code">AssemblerServiceClient.Endpoint.Binding</span> field. Cast the return value to <span class="code">BasicHttpBinding</span>. </p></li> 
+     <li><p>Set the <span class="code">System.ServiceModel.BasicHttpBinding</span> object’s <span class="code">MessageEncoding</span> field to <span class="code">WSMessageEncoding.Mtom</span>. This value ensures that MTOM is used. </p></li> 
+     <li><p>Enable basic HTTP authentication by performing the following tasks:</p> 
+      <ul> 
+       <li><p>Assign the AEM forms user name to the field <span class="code">AssemblerServiceClient.ClientCredentials.UserName.UserName</span>.</p></li> 
+       <li><p>Assign the corresponding password value to the field <span class="code">AssemblerServiceClient.ClientCredentials.UserName.Password</span>.</p></li> 
+       <li><p>Assign the constant value <span class="code">HttpClientCredentialType.Basic</span> to the field <span class="code">BasicHttpBindingSecurity.Transport.ClientCredentialType</span>. </p></li> 
+       <li><p>Assign the constant value <span class="code">BasicHttpSecurityMode.TransportCredentialOnly</span> to the field <span class="code">BasicHttpBindingSecurity.Security.Mode</span>. </p></li> 
+      </ul></li> 
+    </ul></li> 
+   <li><p>Reference an existing DDX document. </p> 
+    <ul> 
+     <li><p>Create a <span class="code">BLOB</span> object by using its constructor. The <span class="code">BLOB</span> object is used to store the DDX document.</p></li> 
+     <li><p>Create a <span class="code">System.IO.FileStream</span> object by invoking its constructor and passing a string value that represents the file location of the DDX document and the mode in which to open the file.</p></li> 
+     <li><p>Create a byte array that stores the content of the <span class="code">System.IO.FileStream</span> object. You can determine the size of the byte array by getting the <span class="code">System.IO.FileStream</span> object’s <span class="code">Length</span> property. </p></li> 
+     <li><p>Populate the byte array with stream data by invoking the <span class="code">System.IO.FileStream</span> object’s <span class="code">Read</span> method and passing the byte array, the starting position, and the stream length to read.</p></li> 
+     <li><p>Populate the <span class="code">BLOB</span> object by assigning its <span class="code">MTOM</span> property with the contents of the byte array.</p></li> 
+    </ul></li> 
+   <li><p>Reference input PDF documents. </p> 
+    <ul> 
+     <li><p>For each input PDF document, create a <span class="code">BLOB</span> object by using its constructor. The <span class="code">BLOB</span> object is used to store the input PDF document. </p></li> 
+     <li><p>Create a <span class="code">System.IO.FileStream</span> object by invoking its constructor and passing a string value that represents the file location of the input PDF document and the mode in which to open the file.</p></li> 
+     <li><p>Create a byte array that stores the content of the <span class="code">System.IO.FileStream</span> object. You can determine the size of the byte array by getting the <span class="code">System.IO.FileStream</span> object’s <span class="code">Length</span> property. </p></li> 
+     <li><p>Populate the byte array with stream data by invoking the <span class="code">System.IO.FileStream</span> object’s <span class="code">Read</span> method. Pass the byte array, the starting position, and the stream length to read.</p></li> 
+     <li><p>Populate the <span class="code">BLOB</span> object by assigning its <span class="code">MTOM</span> field with the contents of the byte array.</p></li> 
+     <li><p>Create a <span class="code">MyMapOf_xsd_string_To_xsd_anyType</span> object. This collection object is used to store input PDF documents. </p></li> 
+     <li><p>For each input PDF document, create a <span class="code">MyMapOf_xsd_string_To_xsd_anyType_Item</span> object. For example, if two input PDF documents are used, create two <span class="code">MyMapOf_xsd_string_To_xsd_anyType_Item</span> objects. </p></li> 
+     <li><p>Assign a string value that represents the key name to the <span class="code">MyMapOf_xsd_string_To_xsd_anyType_Item</span> object's <span class="code">key</span> field. This value must match the value of the PDF source element specified in the DDX document. (Perform this task for each input PDF document.)</p></li> 
+     <li><p>Assign the <span class="code">BLOB</span> object that stores the PDF document to the <span class="code">MyMapOf_xsd_string_To_xsd_anyType_Item</span> object's <span class="code">value</span> field. (Perform this task for each input PDF document.)</p></li> 
+     <li><p>Add the <span class="code">MyMapOf_xsd_string_To_xsd_anyType_Item</span> object to the <span class="code">MyMapOf_xsd_string_To_xsd_anyType</span> object. Invoke the <span class="code">MyMapOf_xsd_string_To_xsd_anyType</span> object's <span class="code">Add</span> method and pass the <span class="code">MyMapOf_xsd_string_To_xsd_anyType</span> object. (Perform this task for each input PDF document.)</p></li> 
+    </ul></li> 
+   <li><p>Set run-time options. </p> 
+    <ul> 
+     <li><p>Create an <span class="code">AssemblerOptionSpec</span> object that stores run-time options by using its constructor.</p></li> 
+     <li><p>Set run-time options to meet your business requirements by assigning a value to a data member that belongs to the <span class="code">AssemblerOptionSpec</span> object. For example, to instruct the Assembler service to continue processing a job when an error occurs, assign <span class="code">false</span> to the <span class="code">AssemblerOptionSpec</span> object’s <span class="code">failOnError</span> data member. </p></li> 
+    </ul></li> 
+   <li><p>Assemble the input PDF documents. </p><p>Invoke the <span class="code">AssemblerServiceClient</span> object’s <span class="code">invoke</span> method and pass the following values:</p> 
+    <ul> 
+     <li><p>A <span class="code">BLOB</span> object that represents the DDX document. </p></li> 
+     <li><p>The <span class="code">mapItem</span> array that contains the input PDF documents. Its keys must match the names of the PDF source files, and its values must be the <span class="code">BLOB</span> objects that correspond to those files.</p></li> 
+     <li><p>An <span class="code">AssemblerOptionSpec</span> object that specifies run-time options.</p></li> 
+    </ul><p>The <span class="code">invoke</span> method returns an <span class="code">AssemblerResult</span> object that contains the results of the job and any exceptions that may have occurred. </p></li> 
+   <li><p>Extract the results. </p><p>To obtain the newly created PDF document, perform the following actions:</p> 
+    <ul> 
+     <li><p>Access the <span class="code">AssemblerResult</span> object’s <span class="code">documents</span> field, which is a <span class="code">Map</span> object that contains the result PDF documents.</p></li> 
+     <li><p>Iterate through the <span class="code">Map</span> object until you find the key that matches the name of the resultant document. Then cast that array member’s <span class="code">value</span> to a <span class="code">BLOB</span>.</p></li> 
+     <li><p>Extract the binary data that represents the PDF document by accessing its <span class="code">BLOB</span> object’s <span class="code">MTOM</span> property. This returns an array of bytes that you can write out to a PDF file.</p></li> 
+    </ul> 
+    <note> 
+     <p>If <span class="code">LOG_LEVEL</span> was set to produce a log, you can extract the log by getting the value of the <span class="code">AssemblerResult</span> object's <span class="code">jobLog</span> data member.</p> 
+    </note></li> 
+  </ol> 
+  <p><strong>See also</strong></p> 
+  <p><a href="/programming-with-aem-forms/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically#programmatically_assembling_pdf_documents">Programmatically Assembling PDF Documents</a></p> 
+  <p><a href="#unresolvedlink-lc-qs-assembler-as.xml#ws624e3cba99b79e12e69a9941333732bac8-7fb6.2">Quick Start (MTOM): Assembling a PDF document using the web service API</a></p> 
+  <p><a href="#unresolvedlink-lc-in-invoke-using-web-services-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fe7.2">Invoking AEM Forms using MTOM</a></p> 
+ </body> 
+</html>

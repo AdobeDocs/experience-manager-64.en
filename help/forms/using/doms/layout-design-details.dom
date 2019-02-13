@@ -1,0 +1,155 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="Layout Design" name="navTitle" /> 
+  <meta content="2019-02-08T05:56:19.662-0500" name="lastPublishExternalDate" /> 
+  <meta content="anujkapo" name="cq:lastModifiedBy" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/layout_design_details_admin_5e12de0b318c6865_2038_report.xml" name="acrolinxReportURL" /> 
+  <meta content="2016-05-31T06:41:22.312-0400" name="acrolinxDate" /> 
+  <meta content="2019-02-08T05:56:19.662-0500" name="publishExternalDate" /> 
+  <meta content="2016-04-20T09:47:39.633-0400" name="firstPublishExternalDate" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="anujkapo" name="cq:lastReplicatedBy" /> 
+  <meta content="checked_not_improved" name="acrolinxStatus" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="26ca7588-252d-41a2-9137-46915b1c7a1e" name="jcr:predecessors" /> 
+  <meta content="2018-04-26T04:36:49.746-0400" name="locHandOffDate" /> 
+  <meta content="72" name="acrolinxSentences" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2015-11-20T09:04:56.594-0500" name="lastPublishQADate" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="1395" name="acrolinxWords" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="Layout Design Details explains how you can create layouts to be used for your letters or Interactive Communications." name="seoDescription" /> 
+  <meta content="2019-02-08T05:56:19.665-0500" name="cq:lastModified" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="true" name="isReadyForLocalization" /> 
+  <meta content="2019-02-08T05:56:19.683-0500" name="cq:lastReplicated" /> 
+  <meta content="2019-02-08T05:56:19.662-0500" name="topicBrowsingSortDate" /> 
+  <meta content="anujkapo@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2017-12-01T19:02:48.497-0500" name="jcr:created" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="Layout Design" name="seoTitle" /> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:correspondence-management;topic_tags:interactive-communications" name="cq:tags" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/correspondence-management;/content/help/en/experience-manager/6-4/forms/morehelp/interactive-communications;/content/help/en/experience-manager/6-4/forms/morehelp/correspondence-management;/content/help/en/experience-manager/6-4/forms/morehelp/interactive-communications" name="moreHelpPaths" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="Layout Design" name="jcr:title" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="0f89b154-b75b-48cd-a133-48867c373800" name="jcr:uuid" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/layout-design-details.html" name="publishExternalURL" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+ </head> 
+ <body> 
+  <p>XFA form templates or XDPs are the templates for:</p> 
+  <ul> 
+   <li><a href="../../forms/using/create-letter.md" target="_blank">Letters</a></li> 
+   <li><a href="../../forms/using/web-channel-print-channel.md#printchannel" target="_blank">Print channel</a> of <a href="../../forms/using/interactive-communications-overview.md" target="_blank">Interactive Communications</a></li> 
+   <li>Layout Fragments</li> 
+  </ul> 
+  <p>An XDP is designed in Adobe Forms Designer. This article provides details about how to design your XDPs for creating effective correspondences/Interactive Communications such as where to use form fields or target areas and when to use layout fragments. </p> 
+  <h2>Creating a layout for letters or for Interactive Communications' print channel</h2> 
+  <p>A layout defines the graphical layout of a letter/print channel of an Interactive Communication. The layout can contain typical form fields such as “Address” and "Reference Number". It also contains empty subforms that denote target areas. Create the layout in form designer and when completed the Application Specialist uploads it to AEM server. From there, you can select the layout when creating a correspondence template or print channel of an Interactive Communication. </p> 
+  <img alt="Designer: create a layout" imageRotate="0" src="assets/claimsubrogationlayout.png" title="Designer: create a layout" /> 
+  <p> </p> 
+  <p>Follow these steps to create layouts for letters/print channel of Interactive Communications:</p> 
+  <ol> 
+   <li>Analyze the layout and determine the content that is being repeated across all pages; usually page header and footer fit into this category. This content is placed on master pages of layout. The remaining content goes to body pages of the layout. In a policy jacket, the logo and company address can be added to master page header and footer. For example, Notice of Cancelation uses the same layout. </li> 
+   <li>When designing body pages, divide page content into sections. Each section is designed as a subform embedded in layout itself or as a fragment layout. If section contains table, model the section as a layout fragment.</li> 
+   <li>A Layout can be designed as follows: 
+    <ol> 
+     <li>Make each section as a separate subform containing all elements of the section.</li> 
+     <li>Make each section subform child of same parent subform. Parent subform's layout are set to flow to allow the sections to shift below in case of large data is merged in previous sections.</li> 
+     <li>Section Primary residence can be reused across other layouts as well. Create it as a fragment layout.</li> 
+     <li>Section Additional interest details contains only two elements placed one below another, can contain large data, and is designed as flowed.</li> 
+     <li>Other sections contain elements at specific positions so they are designed as positioned layout.</li> 
+     <li>Break a section into subforms if the section contains elements at specific positions, and these elements contain large amounts of data. Then arrange the subforms to achieve the desired behavior.</li> 
+     <li>For Primary residence section, add a placeholder target area. This placeholder is bound to fragment Primary residence at the time of letter/Interactive Communication designing.</li> 
+     <li>Upload the layout (and the fragment, if any, that uses the layout) into the AEM Forms server. </li> 
+    </ol> </li> 
+  </ol> 
+  <h2>Using schema</h2> 
+  <p>You can use a schema in a layout or layout fragment , but it is not required. If you use a schema, ensure the following:</p> 
+  <ol> 
+   <li>Layout and all the fragment layouts used in a letter/Interactive Communication use same schema as the letter/Interactive Communication.</li> 
+   <li>All fields required to be populated with data are bound to the schema.</li> 
+  </ol> 
+  <h2>Creating relatable fields</h2> 
+  <p>By default, all fields are considered relatable to various other data sources. If your layout contains any fields that are not relatable to a data source, name the field with an "_int" (internal) suffix; for example, pageCount_int.</p> 
+  <p>A relatable field must:</p> 
+  <ul> 
+   <li>be an XFA &amp;lt;field&amp;gt; or &amp;lt;exclGroup&amp;gt;</li> 
+   <li>have an XFA binding reference</li> 
+   <li>if it is an &amp;lt;exclGroup&amp;gt;, it must have at least one child radio button field; otherwise, its value type cannot be determined</li> 
+  </ul> 
+  <p>A relatable field must:</p> 
+  <ul> 
+   <li>have a name</li> 
+  </ul> 
+  <p>A relatable field must not:</p> 
+  <ul> 
+   <li>Include an "_int" suffix in its name</li> 
+   <li>have binding set as "none"</li> 
+   <li>be a child of an &amp;lt;exclGroup&amp;gt; element</li> 
+  </ul> 
+  <p>As long as a relatable field meets the criteria described above, it can be in any location and at any nesting depth in the layout. You can use relatable fields within master pages.</p> 
+  <p>Fields are more flexible in their layout configuration than target area subforms; however they are tied to a single value type. You can make a field large, or set it to a fixed width and height, and so on. The resolved module or rule result is pushed into the field.</p> 
+  <h2>Deciding when to use subforms and text&amp;nbsp;fields</h2> 
+  <p>Use a subform if you want to capture multiple module content in a top-down vertical-flow layout (multiple paragraphs or images). Your layout must handle the fact that the subform grows in height to accommodate its contents. If you cannot be certain that the length of the content associated to the subform/target never exceeds the space reserved for the subform in the layout, create the subform as a child within a flowed subform container. This process ensures that layout objects below the subform flows downward as the subform grows.</p> 
+  <p>Use a field if you want to capture module data or data dictionary element data into your layout's schema (because fields are bound to data) or to display module content on a master page. Remember that content in a master page cannot flow with body page content, so you must ensure that the image field is used as a header logo. This table provides more criteria for deciding when to use a subform or a field in a layout.</p> 
+  <table cellpadding="0" cellspacing="0"> 
+   <tbody> 
+    <tr> 
+     <td valign="top"><p><strong>Use a subform when</strong></p> </td> 
+     <td valign="top"><p><strong>Use a text field when</strong></p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top"><p>It contains a combination of elements, such as a Last Name and First Name</p> </td> 
+     <td valign="top"><p>It contains a single element, such as a Policy Number.</p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top"><p>It includes multiple paragraphs</p> </td> 
+     <td valign="top"><p>Text is wrapped and justified</p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top"><p>Repeating, optional, and conditional data groups are bound to subforms, to reduce the risk of design errors that could occur if scripts are used to achieve the same results</p> </td> 
+     <td valign="top"><p>Elements such as your organization’s logo and address appear on all pages of a letter/Interactive Communication. In this case, create form fields for those elements and place them on the master page. If you set the field binding to "No Data Binding", the no fields appear as relatable fields in the Letter/Interactive Communication Editor. If you want to relate some type of content to these fields, they must have binding.</p> <p>If your company address contains more than one line of data, use text field with the "Allow Multiple Lines" option to represent the address on the layout.</p> <p>If a text field's data type is set to plain text, the plain text version of the module output is used instead of the rich text version (all formatting is discarded). To preserve the formatting, set the text field’s data type to rich text.</p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top"><p>Text is flowed</p> </td> 
+     <td valign="top"><p>Text fields and image fields are used on master pages. Master pages cannot use subforms as target areas.</p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top"><p>Objects are grouped and organized without binding the subform to a data element</p> </td> 
+     <td valign="top"><p> </p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top"><p>There is a text field inside the subform. The subform can grow and not overwrite other objects below it on the layout.</p> </td> 
+     <td valign="top"><p>You need easy access to its data in the post process.</p> </td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h2>Setting up repetitive elements</h2> 
+  <p>When elements such as your organization’s logo and address appear on all pages of a letter/Interactive Communication, create form fields for those elements and place them on the master page. Use Name (Field Name) binding for these fields.</p> 
+  <h2>Specify the server&amp;nbsp;render format</h2> 
+  <p>Use the layout’s server render format to Dynamic XML Form; otherwise, any letters/Interactive Communications based on this layout cannot render correctly. By default, the server render format in Forms Designer is set to Dynamic XML Form. To ensure that you are using the correct format:</p> 
+  <ul> 
+   <li>In Designer, click <strong>File </strong>&amp;gt; <strong>Form Properties </strong>&amp;gt; <strong>Defaults</strong>, and ensure that the PDF Render/Format setting is set to Dynamic XML Form.</li> 
+  </ul> 
+  <related-links> 
+   <a href="../../forms/using/create-letter.md" target="_blank">Create letter</a> 
+   <a href="../../forms/using/create-correspondence.md" target="_blank">Create correspondence</a> 
+   <a href="../../forms/using/manage-agent-signature-images.md" target="_blank">Manage agent signature images</a> 
+   <a href="../../forms/using/expression-builder.md" target="_blank">Expression builder</a> 
+   <a href="../../forms/using/cm-configuration-properties.md" target="_blank">Correspondence Management configuration properties</a> 
+   <a href="../../forms/using/submit-letter-topostprocess.md" target="_blank">Post processing of letters</a> 
+   <a href="../../forms/using/add-custom-action-asset-listing-view.md" target="_blank">Add custom action to Asset Listing view</a> 
+   <a href="../../forms/using/add-custom-properties-cm-assets.md" target="_blank">Add custom properties to Correspondence Management assets</a> 
+   <a href="../../forms/using/add-action-button-in-create-correspondence-ui.md" target="_blank">Add custom action/button in Create Correspondence UI</a> 
+   <a href="../../forms/using/customize-create-correspondence-ui.md" target="_blank">Customize Create Correspondence UI logo</a> 
+  </related-links> 
+ </body> 
+</html>

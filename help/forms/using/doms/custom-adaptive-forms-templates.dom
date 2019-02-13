@@ -1,0 +1,147 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/custom-adaptive-forms-templates.html" name="publishExternalURL" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="reference-adjustment-service" name="cq:lastModifiedBy" /> 
+  <meta content="2019-02-08T05:33:12.224-0500" name="cq:lastModified" /> 
+  <meta content="98" name="acrolinxSentences" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/customization;/content/help/en/experience-manager/6-4/forms/morehelp/customization" name="moreHelpPaths" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2018-04-26T04:39:35.969-0400" name="locHandOffDate" /> 
+  <meta content="jsyal" name="cq:lastReplicatedBy" /> 
+  <meta content="1dadf5af-c457-4466-ab5a-7815b026d088" name="jcr:uuid" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2017-12-01T19:04:25.030-0500" name="jcr:created" /> 
+  <meta content="Custom Adaptive Forms templates" name="navTitle" /> 
+  <meta content="2015-06-12T04:28:31.610-0400" name="lastPublishQADate" /> 
+  <meta content="This article describes how to create custom adaptive form templates." name="seoDescription" /> 
+  <meta content="8098c3e3-9a33-4190-ac78-5676a3f36581" name="jcr:predecessors" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:customization" name="cq:tags" /> 
+  <meta content="2018-04-03T08:23:56.195-0400" name="topicBrowsingSortDate" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="1486" name="acrolinxWords" /> 
+  <meta content="2018-04-03T08:23:56.195-0400" name="lastPublishExternalDate" /> 
+  <meta content="Creating a custom adaptive form template" name="jcr:title" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2018-04-03T08:23:56.195-0400" name="publishExternalDate" /> 
+  <meta content="2016-05-31T06:36:35.568-0400" name="acrolinxDate" /> 
+  <meta content="2016-04-20T09:28:43.828-0400" name="firstPublishExternalDate" /> 
+  <meta content="2018-10-27T23:43:41.462-0400" name="cq:lastReplicated" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/custom_adaptive_forms_templates_admin_5e12de0b318c6865_1993_report.xml" name="acrolinxReportURL" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+ </head> 
+ <body>  
+  <h2>Prerequisites</h2> 
+  <ul> 
+   <li>Understanding of AEM <a href="../../sites/authoring/using/templates.md" target="_blank">Page Template</a> and <a href="http://helpx.adobe.com/aem-forms/6-1/introduction-forms-authoring.html" target="_blank">Adaptive Form Authoring</a></li> 
+   <li>Understanding of AEM <a href="../../sites/developing/using/clientlibs.md" target="_blank">Client Side Libraries</a></li> 
+  </ul> 
+  <h2>Adaptive form template</h2>  
+  <p>An Adaptive Form template is specialized AEM Page Template, with certain properties and content structure that is used to create Adaptive Form. The template has preconfigured layouts, styles, and basic initial content structure.</p> 
+  <p>Once you create a form, any changes to the original template content structure are not reflected in the form.</p> 
+  <h2>Default adaptive form templates</h2>  
+  <p>AEM QuickStart provides the following adaptive form templates:</p> 
+  <ul> 
+   <li>Survey template: Lets you create a single page adaptive form using the Responsive layout that has multiple columns configured. The layout automatically adjusts based on the dimensions of the various screens on which you want to display the form.</li> 
+   <li>Simple Enrollment template: Lets you create a multi-step adaptive form using a wizard layout. In this layout, you can specify a step completion expression for each step, which is validated before the wizard proceeds to the next step.</li> 
+   <li>Tabbed Enrollment template: Lets you create a multi-tab adaptive form using a tabs-on-left layout, where you can visit tabs in any random order.</li> 
+   <li>Advanced Enrollment template: Lets you create a form with mulitple tabs and wizard. It uses a tabs-on-left layout that lets you visit tabs in any order. It uses Adobe Document Cloud esign services for signing and verification.<br /> </li> 
+   <li>Blank Template: Lets you create a form without any header, footer, and initial content. You can add components such as text boxes, buttons, and images. The blank template lets you create a form that you can <a href="../../forms/using/embed-adaptive-form-aem-sites.md" target="_blank">embed in AEM Site pages</a>.<br /> </li> 
+  </ul> 
+  <p>These templates have the <span class="code">sling:resourceType</span> property set to the corresponding page component. The page component renders the CQ page, containing adaptive form container, which in turn renders adaptive form.</p> 
+  <p>The following table enumerates the association between templates and page component:</p> 
+  <table border="1" cellpadding="0" cellspacing="0"> 
+   <tbody> 
+    <tr> 
+     <td valign="top" width="75"><p><strong>Template</strong></p> </td> 
+     <td valign="top" width="150"><p><strong>Page Component</strong></p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="75"><p>/libs/fd/af/templates/surveyTemplate</p> </td> 
+     <td valign="top" width="150"><p>/libs/fd/af/components/page/survey</p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="75"><p>/libs/fd/af/templates/simpleEnrollmentTemplate</p> </td> 
+     <td valign="top" width="150"><p>/libs/fd/af/components/page/base</p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="75"><p>/libs/fd/af/templates/tabbedEnrollmentTemplate</p> </td> 
+     <td valign="top" width="100"><p>/libs/fd/af/components/page/tabbedenrollment</p> </td> 
+    </tr> 
+    <tr> 
+     <td valign="top" width="75"><p>/libs/fd/afaddon/templates/advancedEnrollmentTemplate</p> </td> 
+     <td valign="top" width="100"><p>/libs/fd/afaddon/components/page/advancedenrollment</p> </td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h2>Creating an adaptive form template using template editor</h2> 
+  <p>You can specify the structure and initial content of an adaptive form using Template Editor. For example, you want all form authors to have few text boxes, navigation buttons, and a submit button in an enrollment form. You can create a template that authors can use to create a form that is consistent with other enrollment forms. AEM Template Editor lets you:</p> 
+  <ul> 
+   <li>Add header and footer components of a form in the structure layer</li> 
+   <li>Provide the initial content for the form.<br /> </li> 
+   <li>Specify a theme.</li> 
+   <li>Specify actions such as submit, reset, and navigate. </li> 
+  </ul> 
+  <p>For more informtion, see <a href="../../forms/using/template-editor.md" target="_blank">Template Editor</a>. </p> 
+  <h2>Creating an adaptive form template from CRXDE</h2> 
+  <p>Instead of using the available templates, you can create a template and use it to create adaptive forms. Custom templates are based on various page components that reference adaptive form containers and page elements, such as header and footer.</p> 
+  <p>You can create these components using the base page component for your website. Alternatively, you can extend the page component of the adaptive form that out of the box templates use.</p> 
+  <p>Perform the following steps to create a custom template, such as simpleEnrollmentTemplate.</p> 
+  <ol> 
+   <li><p>Navigate to CRXDE Lite on your authoring instance.<br /> </p> </li> 
+   <li><p>Under the /apps directory, create the folder structure for your application. For example, if the application name is mycompany, create a folder with this name. Typically, the application folder contains components, configuration, templates, src, and installation directories. For this example, create the components, configuration, and templates folders.<br /> </p> </li> 
+   <li><p>Navigate to the folder /libs/fd/af/templates.</p> </li> 
+   <li><p>Copy the <span class="code">simpleEnrollmentTemplate</span> node.</p> </li> 
+   <li><p> Navigate to the folder /apps/mycompany/templates. Right-click it and select <span class="uicontrol">Paste</span>.</p> </li> 
+   <li><p>If necessary, rename the template node you copied. For example, rename it as enrollment-template.<br /> </p> </li> 
+   <li><p>Navigate to the location /apps/mycompany/templates/enrollment-template.<br /> </p> </li> 
+   <li><p>Modify the <span class="code">jcr:title</span> and <span class="code">jcr:description</span> properties for the <span class="code">jcr:content</span> node to distinguish the template from the template you copied.<br /> </p> </li> 
+   <li><p>The <span class="code">jcr:content</span> node of the modified template contains the <span class="code">guideContainer</span> and <span class="code">guideformtitle</span> components. <span class="code">guideContainer</span> is the container that holds the adaptive form. The <span class="code">guideformtitle</span> component displays the application name, description, and so on.</p> <p>Instead of <span class="code">guideformtitle</span>, you can include a custom component or the <span class="code">parsys</span> component. For example, remove <span class="code">guideformtitle</span>, and add a custom component or the <span class="code">parsys</span> component node. Ensure that the <span class="code">sling:resourceType</span> property of the component references the component and the same is defined in the page <span class="code">component.jsp</span> file.<br /> </p> </li> 
+   <li><p>Navigate to the location /apps/mycompany/templates/enrollment-template/jcr:content.<br /> </p> </li> 
+   <li><p>Open the <span class="uicontrol">Properties</span> tab and change the value of the <span class="code">cq:designPath</span> property to /etc/designs/mycompany.<br /> </p> </li> 
+   <li><p>Now create a /etc/designs/mycompany node for the <span class="code">cq:Page</span> type.<br /> </p> </li> 
+  </ol> 
+  <h2>Create an adaptive form page component</h2> 
+  <p>The custom template has the same styling as the default template because the template references the page component /libs/fd/af/components/page/base. You can find the component reference as the property <span class="code">sling:resourceType</span> defined at the node /apps/mycompany/templates/enrollment-template/jcr:content. Because base is a core product component, do not modify this component.</p> 
+  <ol> 
+   <li><p>Navigate to the node /apps/mycompany/templates/enrollment-template/jcr:content and modify the value of the property<span class="code"> sling:resourceType</span> to /apps/mycompany/components/page/enrollmentpage </p> </li> 
+   <li><p>Copy the node /libs/fd/af/components/page/base to the folder /apps/mycompany/components/page.<br /> </p> </li> 
+   <li><p>Rename the copied component to <span class="code">enrollmentpage</span>.<br /> </p> </li> 
+   <li><p><strong>(Only if you already have a contentpage)</strong> Perform the following steps (a-d), if you have an existing <span class="code">contentpage </span>component for your website. If you do not have an existing <span class="code">contentpage </span>component for your website, you can leave the <span class="code">resourceSuperType </span>property to point to the OOTB base page.</p> 
+    <ol> 
+     <li><p>For the <span class="code">enrollmentpage</span> node, set value of the property <span class="code">sling:resourceSuperType</span> to mycompany/components/page/contentpage. The <span class="code">contentpage</span> component is the base page component for your site. Other page components can extend it. Remove script files under <span class="code">enrollmentpage</span>, except <span class="code">head.jsp</span>, <span class="code">content.jsp</span>, and<span class="code"> library.jsp</span>. The <span class="code">sling:resourceSuperType</span> component, which is <span class="code">contentpage</span> in this case, includes all such scripts. Headers, including navigation bar and footer are inherited from the <span class="code">contentpage</span> component.<br /> </p> </li> 
+     <li><p>Open the file <span class="code">head.jsp</span>.</p> <p>The JSP file contains the line <span class="code">&amp;lt;cq.include script="library.jsp"/&amp;gt;</span>.</p> <p>The <span class="code">library.jsp</span> file contains the <span class="code">guide.theme.simpleEnrollment</span> client library, which contains the styling for the adaptive form.</p> <p><br /> The page component <span class="code">enrollmentpage</span> has an exclusive <span class="code">head.jsp</span> file that overrides the<span class="code"> head.jsp</span> file of the <span class="code">contentpage</span> component.<br /> </p> </li> 
+     <li><p>Include all scripts in the <span class="code">head.jsp</span> file for the <span class="code">contentpage</span> component to the <span class="code">head.jsp</span> file for the <span class="code">enrollmentpage</span> component.</p> </li> 
+     <li><p>In the <span class="code">content.jsp</span> script, you can add additional page content or references to other components that are included when a page renders. For example, if you add the custom component <span class="code">applicationformheader</span>, ensure that you add the following reference to the component in the JSP file:</p>  <p>Similarly, if you add a <span class="code">parsys</span> component in the template node structure, also include the custom component.</p> </li> 
+    </ol></li> 
+  </ol> 
+  <h2>Creating an adaptive form client library</h2> 
+  <p>The <span class="code">head.jsp</span> file of the <span class="code">enrollmentpage</span> component for the new template includes a client library <span class="code">guide.theme.simpleEnrollment</span>. The default template also uses this client library. Change the style in the new template using on of these methods:</p> 
+  <ul> 
+   <li>Define a custom theme and replace the default theme <span class="code">guide.theme.simpleEnrollment</span> with the custom theme.</li> 
+   <li>Define a new client library under /etc/designs/mycompany. Include the client library after the default theme entry in the jsp page. Include all overridden styles and additional Java Script files in this client library.</li> 
+  </ul>  
+  <note> 
+   <p>Theme refers to a client library that is included in the page component used to render an adaptive form. The client library mainly governs the appearance of an adaptive form.</p> 
+  </note> 
+  <related-links> 
+   <a href="../../forms/using/custom-layout-components-forms.md" target="_blank">Creating custom layout components for adaptive forms</a> 
+   <a href="../../forms/using/creating-adaptive-form.md" target="_blank">Creating an adaptive form</a> 
+   <a href="../../forms/using/layout-capabilities-adaptive-forms.md" target="_blank"> Layout capabilities of adaptive forms</a> 
+   <a href="../../forms/using/import-export-forms-templates.md" target="_blank">Importing and exporting adaptive forms and templates</a> 
+   <a href="../../forms/using/wip/change-applied-template-adaptive-form.md" target="_blank">Changing the template applied to an adaptive form</a> 
+  </related-links> 
+ </body> 
+</html>

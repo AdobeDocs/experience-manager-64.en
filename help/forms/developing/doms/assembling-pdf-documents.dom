@@ -1,0 +1,55 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2017-10-03T06:52:08.619-0400" name="lastPublishExternalDate" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="2017-11-22T19:03:13.475-0500" name="jcr:created" />
+  <meta content="2017-10-03T06:52:08.619-0400" name="firstPublishExternalDate" />
+  <meta content="/content/help/en/experience-manager/6-4/forms/developing/morehelp/operations;/content/help/en/experience-manager/6-4/forms/developing/morehelp/operations" name="moreHelpPaths" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="admin" name="contentOwner" />
+  <meta content="head1_20111213" name="gep_conversion_script_version" />
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/performing_service_operations_using_apis;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:operations" name="cq:tags" />
+  <meta content="2017-10-03T06:52:08.619-0400" name="publishExternalDate" />
+  <meta content="AEMForms/6.1/ProgramLC/WS624e3cba99b79e122e83957d1336a356a78-8000.2" name="cq:gepId" />
+  <meta content="admin" name="lr_lastModifiedBy" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2017-11-21T06:59:23.166-0500" name="cq:lastModified" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2017-08-09T03:29:00.000-0400" name="sortDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="false" name="doNotLocalize" />
+  <meta content="https://helpx.adobe.com/aem-forms/6-3/developing/assembling-pdf-documents.html" name="publishExternalURL" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="not_checked" name="acrolinxStatus" />
+  <meta content="2017-08-09T03:29:39.959-0400" name="lr_lastModified" />
+  <meta content="light" name="heroGradient" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="1c2a96b2-6119-4246-b90f-08a0ae430af3" name="jcr:uuid" />
+  <meta content="video" name="pageLayout" />
+  <meta content="admin" name="lr_creator" />
+  <meta content="left" name="sideColumn" />
+  <meta content="7f307519-35f0-482e-a128-7292d7abd8a1" name="jcr:predecessors" />
+  <meta content="audience:developing" name="primaryAudienceTag" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="Assembling PDF Documents Assembling PDF Documents" name="navTitle" />
+  <meta content="2017-08-09T03:29:00.000-0400" name="topicBrowsingSortDate" />
+  <meta content="khsingh@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2018-04-03T08:31:32.866-0400" name="cq:lastReplicated" />
+  <meta content="Assembling PDF Documents" name="jcr:title" />
+ </head>
+ <body>
+  <p><strong>About the Assembler Service</strong></p>
+  <p>The Assembler service can assemble multiple PDF documents into one PDF document or disassemble one PDF document into multiple PDF documents. The Assembler service can manipulate documents in various ways, such as changing page size and rotating contents. It can insert additional content, such as headers, footers, and a table of contents, and can preserve, import, or export existing content, such as annotations, file attachments, and bookmarks.</p>
+  <p>Starting with LiveCycle ES 8.0 and later, support for PDF packages is available in the Assembler service. </p>
+  <note>
+   <p>For more information about the Assembler service, see <a href="http://www.adobe.com/go/learn_aemforms_services_63">Services Reference for AEM Forms</a>.</p>
+  </note>
+ </body>
+</html>

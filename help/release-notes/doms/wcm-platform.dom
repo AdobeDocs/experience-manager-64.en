@@ -1,0 +1,150 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2018-04-09T17:56:43.806-0400" name="cq:lastReplicated" /> 
+  <meta content="AEM Foundation &amp; Repository" name="navTitle" /> 
+  <meta content="light" name="gnavTheme" /> 
+  <meta content="/content/docs/en/aem/6-4/release-notes/wcm-platform" name="qaNotes" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="Guillaume Carlino" name="contentOwner" /> 
+  <meta content="2018-04-09T17:56:43.664-0400" name="lastPublishExternalDate" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="b0387535-d09b-46f1-af6c-406bcd81c824" name="jcr:uuid" /> 
+  <meta content="dist5" name="distType" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4" name="primaryProductTag" /> 
+  <meta content="2018-04-09T17:56:43.664-0400" name="topicBrowsingSortDate" /> 
+  <meta content="2018-04-09T17:56:43.692-0400" name="cq:lastModified" /> 
+  <meta content="chuesler@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4;topic_tags:release-notes;content_type:reference" name="cq:tags" /> 
+  <meta content="mix:versionable;cq:ReplicationStatus" name="jcr:mixinTypes" /> 
+  <meta content="a7f0bd0e-31bb-42d1-802a-b6339279caeb" name="jcr:predecessors" /> 
+  <meta content="pklassen" name="cq:lastModifiedBy" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2018-04-09T11:10:26.016-0400" name="locHandOffDate" /> 
+  <meta content="2013-02-01T08:38:07.866-0500" name="jcr:created" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/release-notes/wcm-platform.html" name="publishExternalURL" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="2017-10-31T16:37:51.531-0400" name="firstPublishExternalDate" /> 
+  <meta content="2018-04-09T17:56:43.664-0400" name="publishExternalDate" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="AEM Foundation &amp; Repository" name="jcr:title" /> 
+  <meta content="AEM Foundation &amp; Repository" name="seoTitle" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="chuesler" name="cq:lastReplicatedBy" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="/content/help/en/experience-manager/6-4/morehelp/release-notes;/content/help/en/experience-manager/6-4/morehelp/release-notes" name="moreHelpPaths" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="Release notes specific to Adobe Experience Manager 6.3 AEM Platform and Repository." name="seoDescription" /> 
+  <meta content="pklassen@adobe.com" name="jcr:createdBy" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+ </head> 
+ <body> 
+  <h2>List of changes</h2> 
+  <h3>Repository</h3> 
+  <ul> 
+   <li>Oak Segment Tar MicroKernel 
+    <ul> 
+     <li>Fast compaction mode (tail compaction) for Online Revision Cleanup </li> 
+     <li>Improved write rates</li> 
+     <li>Segment operations stats exposed via JMXBean</li> 
+     <li>Duration estimate for Offline Revision Cleanup</li> 
+    </ul> </li> 
+   <li>Oak Mongo Microkernel 
+    <ul> 
+     <li>Continuous Revision Cleanup for MongoMK replaces scheduled cleanup maintenance <br /> </li> 
+    </ul> </li> 
+   <li>Improved efficiency for Revision Cleanup on Document Nodestores</li> 
+   <li>Please see <a href="http://archive.apache.org/dist/jackrabbit/oak/1.8.0/RELEASE-NOTES.txt" target="_blank">Apache Jackrabbit Oak Jira v. 1.8.0</a>, <a href="http://archive.apache.org/dist/jackrabbit/oak/1.8.1/RELEASE-NOTES.txt" target="_blank">Apache Jackrabbit Oak Jira v. 1.8.1</a> and <a href="http://archive.apache.org/dist/jackrabbit/oak/1.8.2/RELEASE-NOTES.txt" target="_blank">Apache Jackrabbit Oak Jira v. 1.8.2</a> for a full overview of fixed issues.</li> 
+  </ul> 
+  <note> 
+   <ul> 
+    <li>The new version of the Oak Segment Tar present since AEM 6.3 requires a repository migration. This step is mandatory if you are upgrading from an older version of TarMK or want to switch the new Segment Tar from another type of persistence. For more information on what the benefits of the new Segment Tar are, see the <a href="../sites/deploying/using/revision-cleanup.md#migratingtooaksegmenttar">Migrating to Oak Segment Tar FAQ</a>.</li> 
+   </ul> 
+  </note> 
+  <h3>Search &amp;amp; Indexing</h3> 
+  <ul> 
+   <li>Enhanced support for Indexing Oerations via oak-run (CLI): 
+    <ul> 
+     <li>Index consistency check</li> 
+     <li>Indexing statistics</li> 
+     <li>Index configuration Im/Export</li> 
+     <li>Reindexing</li> 
+    </ul> </li> 
+   <li>Reduced Lucene related repository growth for an overall improved system performance</li> 
+   <li>Synchronous Lucene Property Indexes <a href="https://wiki.apache.org/jackrabbit/Synchronous%20Lucene%20Property%20Indexes">(More infos)</a></li> 
+   <li>Explain Query in Index Manager supports now AEM QueryBuilder syntax</li> 
+   <li>Index Manager is now exposing index metrics: size, last updated &amp; consistency check<br /> </li> 
+  </ul> 
+  <h3>User Interface</h3> 
+  <ul> 
+   <li>Various enhancements have been made to the UI to make it more productive an easier to use.</li> 
+   <li>New Content Tree rail to quickly navigate a hierarchy. In combination with the list view, this restores the Classic UI interaction model.</li> 
+   <li>Improved scrolling in card and list view of large folders. </li> 
+   <li>Improved interaction with the search results - the back button restores the prior search result.</li> 
+   <li>Additional keyboard shortcuts, for most common actions, such as to open a particular rail, to edit, move and delete item, or to open properties.</li> 
+   <li>Ability to disable keyboard shortcuts (enable/disable in Preferences). </li> 
+   <li>Stop showing time stamps across all UI relative after 7 days (set default in Preferences).</li> 
+  </ul> 
+  <note> 
+   <ul> 
+    <li>Adobe does not plan to make further enhancements to the Classic UI. AEM 6.4 has the Classic UI included, and customers upgrading from earlier releases can keep using it as is. Note that Classic UI remains fully supported while being deprecated <a href="../sites/deploying/using/ui-recommendations.md">Read more</a>.</li> 
+   </ul> 
+  </note> 
+  <h3>Content Distribution</h3> 
+  <ul> 
+   <li>Improved replication performance to support large volume asset publishes</li> 
+   <li>Support OAuth 2.0 authentication in Distribution transport</li> 
+   <li>Improved performance for VLT packages</li> 
+  </ul> 
+  <h3>Monitoring</h3> 
+  <ul> 
+   <li>A new System Overview provides a snapshot view on all performance-related system status &amp; activities </li> 
+   <li>New Health Checks: 
+    <ul> 
+     <li>Detect large Lucene indexes</li> 
+     <li>Async indexing health<br /> </li> 
+     <li>Large Lucene Indexes</li> 
+     <li>Query Performance</li> 
+     <li>Query Traversal Limits</li> 
+     <li>Synchronized Clocks</li> 
+     <li>System Maintenance - Revision Cleanup</li> 
+     <li>System Maintenance - DataStore GC</li> 
+     <li>System Maintenance - Continuous Revision GC</li> 
+    </ul> </li> 
+   <li>User can now define the scope of the status.zip download</li> 
+  </ul> 
+  <h3>Maintenance</h3> 
+  <ul> 
+   <li>Active deletion of Lucene binaries using a maintenance task</li> 
+   <li>RevisionGC maintenance task for MongoDB is now disabled in favor of Continuous Revision Cleanup, please see the Repository section above.<br /> </li> 
+   <li>Version Purge configuration allows retaining a minimum number of versions<br /> </li> 
+   <li>Version Purge stops at the end of a maintenance window. It can also be started and stopped manually and it will continue incrementally with the next start.</li> 
+  </ul> 
+  <h3>Upgrade</h3> 
+  <ul> 
+   <li>Backward Compatibility: Backward compatible features in 6.4, helps your custom code remain compatible in most cases and reduces upgrade effort.</li> 
+   <li>Upgrade Complexity Assessment: New Pattern detector tool to assess the complexity of your upgrades.</li> 
+   <li>Sustainable Upgrades: API surface and Content Classification introduced to help you easily follow best practices for an efficient and seamless upgrade to the next version throughout your development cycle.</li> 
+   <li>Repository Restructuring: Significant restructuring (primarily /etc) to facilitate easier upgrades and promote implementation best practices. <a href="../sites/deploying/using/repository-restructuring-in-aem64.md">Read more.</a></li> 
+   <li>Please see the <a href="../sites/deploying/using/upgrade.md">Upgrade documentation</a> for more details on these features.</li> 
+  </ul> 
+  <h3>Cloud Services</h3> 
+  <ul> 
+   <li>Many Cloud Services are now configurable via Touch UI; the remaining can be configured under the Legacy Cloud Services card.</li> 
+   <li>Sites and Assets folders can be configured with Cloud Services that are loaded in a context aware manner.</li> 
+  </ul> 
+  <h3>Security</h3> 
+  <ul> 
+   <li>Enhanced and simplified user creation UI with support for multiple user profiles.</li> 
+   <li>Improved performance for large group memberships for users.</li> 
+  </ul> 
+  <h3>Projects and Workflows</h3> 
+  <ul> 
+   <li>Touch UI based Workflow Editor to manage workflow models in a more streamlined manner.</li> 
+   <li>Support for project task purge in maintenance tasks.</li> 
+  </ul> 
+ </body> 
+</html>

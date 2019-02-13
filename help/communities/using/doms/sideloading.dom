@@ -1,0 +1,88 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2017-12-01T19:03:46.194-0500" name="jcr:created" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES;topic_tags:developing;content_type:reference" name="cq:tags" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="c39f1381-ff3f-4103-9fa0-0620cba47b09" name="jcr:uuid" /> 
+  <meta content="2018-04-03T07:56:09.332-0400" name="publishExternalDate" /> 
+  <meta content="Communities component sideloading is useful when a web page is designed as a simple, single page app that dynamically alters what is displayed depending on what is selected by the site visitor" name="seoDescription" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES" name="primaryProductTag" /> 
+  <meta content="msm-service" name="contentOwner" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="light" name="gnavTheme" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="Component Sideloading" name="jcr:title" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="dist5" name="distType" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="/content/docs/en/aem/6-3/develop/communities/essentials/sideloading" name="qaNotes" /> 
+  <meta content="2018-04-03T07:56:09.332-0400" name="lastPublishExternalDate" /> 
+  <meta content="2018-04-03T07:56:09.332-0400" name="topicBrowsingSortDate" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/communities/using/sideloading.html" name="publishExternalURL" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2018-04-03T07:56:10.688-0400" name="cq:lastReplicated" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2018-05-17T05:51:53.804-0400" name="cq:lastModified" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="2017-10-31T16:33:19.204-0400" name="firstPublishExternalDate" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2018-05-17T05:51:53.803-0400" name="locHandOffDate" /> 
+  <meta content="/content/help/en/experience-manager/6-4/communities/morehelp/developing;/content/help/en/experience-manager/6-4/communities/morehelp/developing" name="moreHelpPaths" /> 
+  <meta content="Component Sideloading" name="seoTitle" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="43496160-a1ba-43a3-984a-1ebf42b4595a" name="jcr:predecessors" /> 
+ </head> 
+ <body> 
+  <h2>Overview</h2> 
+  <p>Communities component sideloading is useful when a web page is designed as a simple, single page app that dynamically alters what is displayed depending on what is selected by the site visitor. </p> 
+  <p>This is accomplished when Communities components do not exist in the page template, but instead are dynamically added following a site visitor's selection.</p> 
+  <p>Since the social component framework (SCF) has a lightweight presence, only SCF components that exist at the time of initial page load are registered. For a dynamically added SCF component to be registered after page load, SCF must be invoked to "sideload" the component.</p> 
+  <p>When a page is designed to sideload Communities components, it is possible to cache the entire page.</p> 
+  <p>The steps to dynamically add SCF components are :</p> 
+  <p>1) <a href="#dynamicallyaddcomponenttodom">add the component to the DOM</a></p> 
+  <p>2) <a href="#sideloadbyinvokingscf">sideload the component</a> using one of two methods :</p> 
+  <ul> 
+   <li><a href="#dynamicinclusion">dynamic inclusion</a> 
+    <ul> 
+     <li>boostrap all dynamically added components</li> 
+    </ul> </li> 
+   <li><a href="#dynamicloading">dynamic loading</a> 
+    <ul> 
+     <li>add one specific component on-demand</li> 
+    </ul> </li> 
+  </ul> 
+  <note> 
+   <p>Sideloading of <a href="../../communities/using/scf.md#addorincludeacommunitiescomponent">non-existing resources</a> is not supported.</p> 
+  </note> 
+  <h2>Dynamically Add Component to DOM</h2> 
+  <p>Whether the component is dynamically included or dynamically loaded, it must first be added to the DOM.</p> 
+  <p>When adding the SCF component, the most common tag to use is the DIV tag, but other tags may be used as well. Because SCF only examines the DOM when the page initially loads, this addition to the DOM will go unnoticed until SCF is explicitly invoked.</p> 
+  <p>Whatever tag is used, at a minimum, the element must conform to the normal SCF root element pattern by containing these two attributes :</p> 
+  <ul> 
+   <li><strong>data-component-id</strong><br /> the effective path to the added component</li> 
+   <li><strong>data-scf-component</strong><br /> the resourceType of the component</li> 
+  </ul> 
+  <p>Following is one example of an added comments component :</p> 
+  <codeblock class="syntax xml">
+    &lt;div!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;class="scf-commentsystem&amp;nbsp;scf&amp;nbsp;translation-commentsystem"&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;data-component-id="&lt;%=&amp;nbsp;currentPage.getPath()%&gt;/jcr:content/content-left/comments"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;data-scf-component="social/commons/components/hbs/comments"!!discoiqbr!!&gt;!!discoiqbr!!&lt;/div&gt; 
+  </codeblock> 
+  <h2>Sideload by Invoking SCF</h2> 
+  <h3>Dynamic Inclusion</h3> 
+  <p>Dynamic inclusion uses a boostrap request that results in SCF examining the DOM and bootsrapping all SCF components found on the page.</p> 
+  <p>To initialize SCF components anytime after page load, simply fire a JQuery event like this:</p> 
+  <p style="margin-left: 40px;">$(document).trigger(SCF.events.BOOTSTRAP_REQUEST);</p> 
+  <h3>Dynamic Loading</h3> 
+  <p>Dynamic loading provides control over loading SCF components.</p> 
+  <p>Instead of bootstrapping all SCF components found in the DOM, it is possible to specify a specific SCF component to load using this JavaScript method :</p> 
+  <p style="margin-left: 40px;">SCF.addComponent(document.getElementById(<i>someId</i>));</p> 
+  <p>Where <i>someId</i> is the value of the <strong>data-component-id</strong> attribute.</p> 
+ </body> 
+</html>

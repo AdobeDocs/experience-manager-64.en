@@ -1,0 +1,80 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SCREENS;content_type:reference;topic_tags:authoring" name="cq:tags" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2019-01-11T14:04:31.125-0500" name="cq:lastReplicated" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="jsyal@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="9940b1fb-8a47-471c-b9c9-484c266d168f" name="jcr:uuid" /> 
+  <meta content="2019-01-11T14:04:31.071-0500" name="firstPublishExternalDate" /> 
+  <meta content="Text Overlay" name="jcr:title" /> 
+  <meta content="en" name="pageCreatedAt" /> 
+  <meta content="2019-01-11T14:04:31.071-0500" name="publishExternalDate" /> 
+  <meta content="d2bc302e-c173-4f47-a305-21ce1089b9c2" name="jcr:predecessors" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/screens/using/text-overlay.html" name="publishExternalURL" /> 
+  <meta content="jsyal" name="cq:lastModifiedBy" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2019-01-11T14:04:31.071-0500" name="topicBrowsingSortDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="true" name="noIndex" /> 
+  <meta content="2019-01-15T15:39:10.279-0500" name="jcr:created" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2019-01-18T14:29:57.932-0500" name="cq:lastModified" /> 
+  <meta content="jsyal" name="cq:lastReplicatedBy" /> 
+  <meta content="/content/help/en/experience-manager/6-4/screens/morehelp/authoring;/content/help/en/experience-manager/6-4/screens/morehelp/authoring" name="moreHelpPaths" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="jsyal" name="contentOwner" /> 
+  <meta content="2019-01-11T14:04:31.071-0500" name="lastPublishExternalDate" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SCREENS" name="primaryProductTag" /> 
+  <meta content="Text Overlay is a feature available in AEM Screens that allows you to create a compelling experience in a Sequence Channel by providing a title or a description overlaid on top of an image. Follow this page to learn more." name="seoDescription" /> 
+ </head> 
+ <body> 
+  <p>This section covers the following topics:</p> 
+  <ul> 
+   <li><strong><a href="../../screens/using/text-overlay.md#overview">Overview</a></strong></li> 
+   <li><strong><a href="../../screens/using/text-overlay.md#usingtextoverlay">Using Text Overlay</a><br /> </strong> 
+    <ul> 
+     <li><strong><a href="../../screens/using/text-overlay.md#prerequisites">Prerequisites</a></strong></li> 
+     <li><strong><a href="../../screens/using/text-overlay.md#understandingtextoverlayproperties">Understanding Text Overlay Properties</a><br /> </strong></li> 
+    </ul> </li> 
+  </ul> 
+  <note> 
+   <p>The <strong>Text Overlay</strong> feature is only available, if you have installed AEM 6.3 Feature Pack 5 or AEM 6.4 Feature Pack 3.<br /> </p> 
+  </note> 
+  <h2>Overview</h2> 
+  <p>Text Overlay is a feature available in AEM Screens that allows you to create a compelling experience in a Sequence Channel by providing a title or a description overlaid on top of an image.</p> 
+  <p>To learn how to create your own custom component, please refer to <a href="../../screens/using/extending-component-tutorial-develop.md"><strong>Extending an AEM Screens Component</strong></a> for more information.</p> 
+  <p>This section only showcases how to use and leverage the poster component in an AEM Screens project and use it as text overlay in one of your sequence channels.</p> 
+  <h2>Using Text Overlay</h2> 
+  <p>The following section describes the use of text overlay in an AEM Screens project.<br /> </p> 
+  <h3>Prerequisites</h3> 
+  <p>Before you start implementing this functionality, please make sure you have set up a project as a prerequisite to start implementing text overlay. For example,</p> 
+  <ul> 
+   <li>Create an AEM Screens project (in this example, <strong>TextOverlayDemo</strong>)<br /> </li> 
+   <li>Create a channel as <strong>TextSample</strong> under <strong>Channels</strong> folder</li> 
+   <li>Add content to your <strong>TextSample</strong> Channel<br /> </li> 
+  </ul> 
+  <p>The following image shows the <strong>TextOverlayDemo</strong> project with <strong>TextSample</strong> channel in <strong>Channels</strong> folder.</p> 
+  <img imageRotate="0" src="assets/screen_shot_2018-12-16at75908pm.png" /> 
+  <ol> 
+   <li><p>Navigate to <strong>TextOverlayDemo</strong> --&amp;gt; <strong>Channels</strong> --&amp;gt; <strong>TextSample</strong> and click <strong>Edit</strong> from the action bar to open the editor.</p> <img imageRotate="0" src="assets/screen_shot_2018-12-16at80017pm.png" /></li> 
+   <li><p>Select the image and click <strong>Configure</strong> (wrench icon) to open the properties dialog box.</p> <img imageRotate="0" src="assets/screen_shot_2018-12-16at80221pm.png" /></li> 
+   <li><p>Select the <strong>Text Overlay</strong> option from the navigation bar of the dialog box, as shown in the figure below.</p> <img imageRotate="0" src="assets/screen_shot_2018-12-16at80424pm.png" /></li> 
+  </ol> 
+  <h3>Understanding Text Overlay Properties</h3> 
+  <p>Using the Text Overlay properties, you can add text to any of the component in your Screens project. The following section provides an overview of the properties that are available in Text Overlay:<br /> </p> 
+  <img imageRotate="0" src="assets/text.gif" /> 
+  <p>You can add a text to the text box and add typographical emphasis such as bold, italics, underline, and so on.</p> 
+  <p><strong>Color Variant</strong> This option allows the text to be either Dark (text in black color) or Light (text in white color).</p> 
+  <p><strong>Sizing &amp; positioning</strong> This option allows the user to align the text horizontally or vertically or additionally use fine-grained tools for text alignment.</p> 
+  <note> 
+   <p>To properly use fine-grained tools, be sure to identify the correct position in pixels using (px) as a suffix, for example 200px. The result of this expression will be 200 pixels from start point.</p> 
+  </note> 
+ </body> 
+</html>

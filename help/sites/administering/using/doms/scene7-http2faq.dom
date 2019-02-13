@@ -1,0 +1,93 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2018-04-26T10:12:05.508-0400" name="cq:lastModified" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="audience:administering" name="primaryAudienceTag" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="2018-04-26T10:12:05.508-0400" name="locHandOffDate" /> 
+  <meta content="Learn about HTTP2 content delivery." name="seoDescription" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2018-03-14T09:01:19.927-0400" name="jcr:created" /> 
+  <meta content="2017-10-31T16:22:05.609-0400" name="firstPublishExternalDate" /> 
+  <meta content="2018-04-03T07:06:43.008-0400" name="lastPublishExternalDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="/content/docs/en/aem/6-3/administer/integration/marketing-cloud/scene7/http2faq" name="qaNotes" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/administering/morehelp/integration;/content/help/en/experience-manager/6-4/sites/administering/morehelp/integration" name="moreHelpPaths" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="Rick Brough" name="contentOwner" /> 
+  <meta content="HTTP2 Delivery of Content FAQ" name="seoTitle" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="HTTP2 Delivery of Content FAQ" name="jcr:title" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:integration;content_type:reference" name="cq:tags" /> 
+  <meta content="2018-04-03T07:06:43.008-0400" name="topicBrowsingSortDate" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2d8da2f1-da81-414f-a31b-d9cecb36918e" name="jcr:uuid" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2018-04-03T07:06:43.008-0400" name="publishExternalDate" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="3407e82f-4c78-48fc-a8d1-7e316c4b3d35" name="jcr:predecessors" /> 
+  <meta content="2018-04-03T07:06:43.499-0400" name="cq:lastReplicated" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/scene7-http2faq.html" name="publishExternalURL" /> 
+  <meta content="rbrough" name="cq:lastModifiedBy" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+ </head> 
+ <body> 
+  <p>Adobe is excited to announce the availability of HTTP/2 delivery of content. When using HTTP/2 you will notice an overall performance increase.<br /> </p> 
+  <h2>What is HTTP/2?</h2> 
+  <p>HTTP/2 improves the way browsers and servers communicate, allowing for faster transfer of information while reducing the amount of processing power that is needed.</p> 
+  <p>The following website describes HTTP/2 and its benefits in a brief and simple manner:</p> 
+  <p><a href="https://www.engadget.com/2015/02/24/what-you-need-to-know-about-http-2/" target="_blank">https://www.engadget.com/2015/02/24/what-you-need-to-know-about-http-2/</a><br /> </p> 
+  <h2>What are the key benefits of moving to HTTP/2 for content delivery?</h2> 
+  <p>Performance improvement varies widely based on factors such as your website's code, how you are using Scene7, the consumer's device, screen and location, and so on.</p> 
+  <p>Adobe's own testing yielded the following results:</p> 
+  <ul> 
+   <li>For images, response time improved 7%-28% depending on device and browser. The most notable performance gains were on iOS devices.</li> 
+   <li>For viewers, load time performance improved up 15%.</li> 
+  </ul> 
+  <p>The following demonstration illustrates the difference between HTTP/1 versus HTTP/2 loading:</p> 
+  <p><a href="https://http2.akamai.com/demo" target="_blank">https://http2.akamai.com/demo</a></p> 
+  <h2>Am I eligible to switch over to HTTP/2?</h2> 
+  <p>To use HTTP/2, you must meet the following requirements:</p> 
+  <ul> 
+   <li>Use secure HTTPS for your rich media requests.</li> 
+   <li>Use the Adobe-bundled CDN (content delivery network) as part of your Scene7 license.</li> 
+   <li>Use a dedicated domain (that is, images.company.com or mycompany.scene7.com), not a generic Scene7 domain (that is, s7d1.scene7.com, s7d2.scene7.com, or s7d13.scene7.com).<br /> To find your domains, <a href="http://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html">log into your instance of Scene7 Publishing System</a> for each company account.<br /> Click <strong>Setup</strong> &amp;gt; <strong>Application Setup</strong> &amp;gt; <strong>General Settings</strong>. Look for the field labelled "Published Server Name". If you are currently using a generic Scene7 domain, you can request moving over to your own custom domain as part of this transition. </li> 
+  </ul> 
+  <h2>What is the process for enabling HTTP/2 for my Scene7 account?</h2> 
+  <p>You must initiate the request to switch over to HTTP/2; it is not automatically done for you.</p> 
+  <ol> 
+   <li>Initiate a Technical Support request to switch over to HTTP2 (email: s7support@adobe.com) 
+    <ol> 
+     <li>Provide the following information in your support request: 
+      <ol> 
+       <li>Primary contact name, email, and phone number.</li> 
+       <li>All domains to be transitioned over to HTTP2 (that is, images.company.com or mycompany.scene7.com).<br /> To find your domains, <a href="http://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html">log into your instance of Scene7 Publishing System</a> for each company account.<br /> Click <strong>Setup</strong> &amp;gt; <strong>Application Setup</strong> &amp;gt; <strong>General Settings</strong>. Look for the field labelled "Published Server Name".</li> 
+       <li>Verify that you use secure HTTPS for rich media requests.</li> 
+       <li>Verify you are using the CDN through Adobe and not managed with a direct relationship.</li> 
+       <li>Verify you are using a dedicated domain (that is, images.company.com or mycompany.scene7.com), not a generic Scene7 domain (such as s7d1.scene7.com, s7d2.scene7.com, s7d13.scene7.com).<br /> To find your domains, <a href="http://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html">log into your instance of Scene7 Publishing System</a> for each company account.<br /> Click <strong>Setup</strong> &amp;gt; <strong>Application Setup</strong> &amp;gt; <strong>General Settings</strong>. Look for the field labelled "Published Server Name". If you are currently using a generic Scene7 domain, you can request moving over to your own custom domain as part of this transition.</li> 
+      </ol> </li> 
+     <li>Technical Support will add you to the HTTP/2 customer waitlist based on the order in which requests were submitted.</li> 
+     <li>When Adobe is ready to handle your request, Support will contact you to coordinate the transition and set a target date.</li> 
+     <li>You will be notified after completion and can verify a successful transition over to HTTP2.<br /> You will need to download an extension to use with your Web browser. For Firefox and Chrome use an extension called "HTTP/2 and SPDY Indicator." Browsers only support HTTP/2 securely, so it is necessary to call a URL with HTTPS to verify. If HTTP/2 is supported, this is indicated by the extension in the form of a blue Flash symbol, and a header "X-Firefox-Spdy" : "h2"<br /> </li> 
+    </ol> </li> 
+  </ol> 
+  <h2>When can I expect to be transitioned over to HTTP/2?</h2> 
+  <p>Requests will be processed in the order in which they are received by Technical Support.</p> 
+  <note> 
+   <p>There may be a long lead time because the transition to HTTP/2 involves clearing the cache. Therefore, only a few customer transitions can be handled at a time.</p> 
+  </note> 
+  <h2>What are the risks with moving to HTTP/2?</h2> 
+  <p>The transition to HTTP/2 clears out your cache at the CDN because it involves moving to a new CDN configuration.</p> 
+  <p>The non-cached content directly hits Adobe's origin servers until the cache is rebuilt again. Because of this, Adobe plans to handle a few customer transitions at a time so that acceptable performance is maintained when pulling requests from our origin.</p> 
+  <h2>How can you verify whether a URL or website is activated with HTTP/2?</h2> 
+  <p>You need to download an externsion to use with your Web browser. For Firefox and Chrome there is an extension called "HTTP/2 and SPDY Indicator." Browsers only support HTTP/2 securely, so it is necessary to call a URL with HTTPS to verify. If HTTP/2 is supported, this is indicated by the extension in the form of a blue Flash symbol, and a header "X-Firefox-Spdy" : "h2".</p> 
+ </body> 
+</html>

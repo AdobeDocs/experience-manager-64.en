@@ -1,0 +1,49 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="jsyal" name="cq:lastModifiedBy" />
+  <meta content="2019-01-15T15:39:02.515-0500" name="jcr:created" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="AEM 6.4.2.0 Release Notes" name="jcr:title" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="rbrough" name="contentOwner" />
+  <meta content="true" name="preview" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-10-15T17:43:29.413-0400" name="cq:lastModified" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="en" name="pageCreatedAt" />
+  <meta content="en_us" name="jcr:language" />
+ </head>
+ <body>
+  <h2>Release Information</h2>
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody>
+    <tr>
+     <td>Product</td> 
+     <td><strong>Adobe Experience Manager (AEM) 6.4</strong></td> 
+    </tr>
+    <tr>
+     <td>Version</td> 
+     <td>6.4.2.0</td> 
+    </tr>
+    <tr>
+     <td>Type</td> 
+     <td>Service Pack 2</td> 
+    </tr>
+    <tr>
+     <td>Date</td> 
+     <td>September 27, 2018</td> 
+    </tr>
+    <tr>
+     <td>Download URL</td> 
+     <td>AEM 6.4.2.0 on Adobe Package Share</td> 
+    </tr>
+   </tbody>
+  </table> 
+  <h2>What is included in AEM 6.4.2.0</h2>
+  <h2>List of changes</h2>
+  <h2>Installing AEM 6.4.2.0</h2>
+  <h2>Known issues</h2>
+ </body>
+</html>

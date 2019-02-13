@@ -1,0 +1,57 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" />
+  <meta content="AEMForms/6.1/AdminHelp/WS196e8398323ca8ae-70d54707130f6049408-8000.2" name="cq:gepId" />
+  <meta content="admin" name="lr_lastModifiedBy" />
+  <meta content="4" name="acrolinxSentences" />
+  <meta content="2018-04-26T04:23:09.772-0400" name="locHandOffDate" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/forms/using/admin-help/oracle-database-maximum-open-cursors.html" name="publishExternalURL" />
+  <meta content="2017-10-31T16:32:04.435-0400" name="publishExternalDate" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="false" name="doNotLocalize" />
+  <meta content="2018-04-03T09:10:19.691-0400" name="cq:lastReplicated" />
+  <meta content="2016-04-20T10:07:33.244-0400" name="firstPublishExternalDate" />
+  <meta content="0a5ffd79-2a14-40b4-9d3f-746c65eca47e" name="jcr:predecessors" />
+  <meta content="2016-05-31T07:02:14.294-0400" name="acrolinxDate" />
+  <meta content="2017-10-31T16:32:04.435-0400" name="lastPublishExternalDate" />
+  <meta content="not_checked" name="acrolinxStatus" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="light" name="heroGradient" />
+  <meta content="head1_20111213" name="gep_conversion_script_version" />
+  <meta content="2016-02-05T03:27:27.187-0500" name="lr_lastModified" />
+  <meta content="2018-04-26T04:23:09.772-0400" name="cq:lastModified" />
+  <meta content="red" name="acrolinxPageStatus" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="admin" name="lr_creator" />
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/maintaining_the_aem_forms_database;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2016-02-05T03:27:00.000-0500" name="topicBrowsingSortDate" />
+  <meta content="Oracle database maximum open cursors threshold" name="jcr:title" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="video" name="pageLayout" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="76" name="acrolinxWords" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2017-12-01T19:03:05.430-0500" name="jcr:created" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2016-02-05T03:27:00.000-0500" name="sortDate" />
+  <meta content="Oracle database maximum open cursors threshold" name="navTitle" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="admin" name="contentOwner" />
+  <meta content="Learn about configuring a maximum value for open cursors in Oracle." name="seoDescription" />
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/oracle_database_maximum_open_cursors_admin_5e12de0b318c6865_2342_report.xml" name="acrolinxReportURL" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="left" name="sideColumn" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="9261577d-abaf-4157-823e-f4c4b551e72c" name="jcr:uuid" />
+  <meta content="" name="jcr:baseVersion" />
+ </head>
+ <body>
+  <p>To configure a maximum value for open cursors in Oracle, you may have to tune this value to a number that is appropriate to your application. It is evident that under a moderate load, the average cursors open was 2700. It is recommended that you start with an upper limit of 3000. For more information, go to <a href="http://www.orafaq.com/node/758">http://www.orafaq.com/node/758</a>.</p>
+ </body>
+</html>

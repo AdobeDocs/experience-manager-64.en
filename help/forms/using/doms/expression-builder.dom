@@ -1,0 +1,160 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="anujkapo@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="checked_improved" name="acrolinxStatus" /> 
+  <meta content="2019-01-03T04:48:46.232-0500" name="acrolinxDate" /> 
+  <meta content="Expression Builder" name="navTitle" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="821" name="acrolinxWords" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="Expression Builder" name="seoTitle" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="anujkapo" name="acrolinxLastCheckedBy" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/expression-builder.html" name="publishExternalURL" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="Expression Builder in Correspondence Management lets you create expressions and remote functions." name="seoDescription" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="Remote functions in Expression Builder" name="jcr:title" /> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/correspondence-management;/content/help/en/experience-manager/6-4/forms/morehelp/correspondence-management" name="moreHelpPaths" /> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:correspondence-management" name="cq:tags" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="ee903a6e-c014-460a-93ba-786068b35954" name="jcr:uuid" /> 
+  <meta content="2016-04-20T09:31:04.731-0400" name="firstPublishExternalDate" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="65" name="acrolinxSentences" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2017-12-01T19:03:02.594-0500" name="jcr:created" /> 
+  <meta content="2019-01-07T06:42:43.688-0500" name="locHandOffDate" /> 
+  <meta content="anujkapo" name="cq:lastModifiedBy" /> 
+  <meta content="2019-01-03T04:49:40.236-0500" name="topicBrowsingSortDate" /> 
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/expression_builder_krs_workflow_f3c2f2ccebf6138e_20_report.xml" name="acrolinxReportURL" /> 
+  <meta content="2019-01-03T04:49:40.236-0500" name="lastPublishExternalDate" /> 
+  <meta content="green" name="acrolinxPageStatus" /> 
+  <meta content="2019-01-03T04:49:40.236-0500" name="publishExternalDate" /> 
+  <meta content="2019-01-03T04:49:40.279-0500" name="cq:lastReplicated" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="96b7107e-c3fb-4868-bc03-30f92712083d" name="jcr:predecessors" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2015-11-27T06:48:42.765-0500" name="lastPublishQADate" /> 
+  <meta content="anujkapo" name="cq:lastReplicatedBy" /> 
+  <meta content="2019-01-07T06:42:43.688-0500" name="cq:lastModified" /> 
+ </head> 
+ <body> 
+  <p>Using the Expression Builder, you can create expressions or conditions that perform computations on data values provided by the Data Dictionary or by end users. Correspondence Management uses the result of the expression evaluation to select assets such as text, images, lists, and conditions and insert them in the correspondence as required.<br /> </p> 
+  <h2>Creating expressions and remote functions with expression builder</h2> 
+  <p>The Expression Builder internally uses JSP EL libraries, so the expression adhere to JSPEL syntax. For more information, see <a href="#exampleexpressions">Example expressions</a>.</p> 
+  <img alt="Expression Builder" imageRotate="0" src="assets/expressionbuilder.png" title="Expression Builder" /> 
+  <h3>Operators</h3> 
+  <p>The operators that are available for use in expressions are available in the top bar of the expression builder.</p> 
+  <h3 id="ExampleExpressions">Example expressions</h3> 
+  <p>Here are a few commonly used JSP EL examples that you can use in your Correspondence Management solution:</p> 
+  <ul> 
+   <li>To add two numbers: ${number1 + number2}</li> 
+   <li>To concatenate two strings: ${str1} ${str2}</li> 
+   <li>To compare two numbers: ${age &amp;lt; 18}</li> 
+  </ul> 
+  <p>You can find more information in the <a href="http://download.oracle.com/otn-pub/jcp/jsp-2.1-fr-spec-oth-JSpec/jsp-2_1-fr-spec-el.pdf" target="_blank">JSP EL specification</a>. The client-side expression manager does not support certain variables and functions in the JSP EL specification, specifically:</p> 
+  <ul> 
+   <li>Collection indexes and map keys (using the [] notation) are not supported in variable names for expressions evaluated on the client-side.</li> 
+   <li>The following are the parameter types or return types of functions used in expressions: 
+    <ul> 
+     <li>java.lang.String<br /> </li> 
+     <li>java.lang.Character<br /> </li> 
+     <li>Char<br /> </li> 
+     <li>java.lang.Boolean<br /> </li> 
+     <li>Boolean<br /> </li> 
+     <li>java.lang.Integer<br /> </li> 
+     <li>Int<br /> </li> 
+     <li>java.util.list</li> 
+     <li>java.lang.Short<br /> </li> 
+     <li>Short<br /> </li> 
+     <li>java.lang.Byte<br /> </li> 
+     <li>byte<br /> </li> 
+     <li>java.lang.Double<br /> </li> 
+     <li>Double<br /> </li> 
+     <li>java.lang.Long<br /> </li> 
+     <li>Long<br /> </li> 
+     <li>java.lang.Float<br /> </li> 
+     <li>Float<br /> </li> 
+     <li>java.util.Calendar<br /> </li> 
+     <li>java.util.Date<br /> </li> 
+     <li>java.util.List<br /> </li> 
+    </ul> </li> 
+  </ul> 
+  <h3>Remote function</h3> 
+  <p>Remote functions provide the capability to use custom logic in expressions. You can write custom logic to be used in expression as a method in Java and same function can be used inside expressions. Available remote functions are listed under the “Remote Functions” tab on the left side of Expression Editor.</p> 
+  <img imageRotate="0" src="assets/remotefunction.png" /> 
+  <h4>Adding custom remote functions</h4> 
+  <p>You can create a custom bundle to export your own remote functions for use inside expressions. To create a custom bundle to export your own remote functions, perform the following tasks. It demonstrates how to write a custom function that capitalizes its input string.</p> 
+  <ol> 
+   <li><p>Define an interface for the OSGi service containing methods which are being exported for use by Expression Manager.</p> </li> 
+   <li><p>Declare methods on the interface A and annotate them with the @ServiceMethod annotation (com.adobe.exm.expeval.ServiceMethod). Expression Manager ignores any unannotated methods. The ServiceMethod annotation has the following optional attributes which can also be specified:</p> 
+    <ol> 
+     <li><p><strong>Enabled</strong>: Determines if this method is enabled. Expression Manager ignores disabled methods.</p> </li> 
+     <li><p><strong>familyId</strong>: Specifies the method’s family (group). If empty, Expression Manager assumes that the method belongs to the default family. There is no registry of families (except for the default one) from which functions are chosen. Expression Manager dynamically creates the registry by taking a union of all family IDs specified by all the functions exported by the various bundles. Ensure that the ID they specify here is reasonably readable, since it displays in the expression authoring user interface as well.</p> </li> 
+     <li><p><strong>displayName</strong>: A human-readable name for the function. This name is used for display purposes in the authoring user interface. If empty, Expression Manager constructs a default name using the function's prefix and local-name.</p> </li> 
+     <li><p><strong>Description</strong>: A verbose description for the function. This description is used for display purposes in the authoring user interface. If empty, Expression Manager constructs a default description using the function's prefix and local-name.</p> </li> 
+    </ol> 
+    <codeblock gutter="true" class="syntax java">
+      package&amp;nbsp;mergeandfuse.com;!!discoiqbr!!import&amp;nbsp;com.adobe.exm.expeval.ServiceMethod;!!discoiqbr!!!!discoiqbr!!public&amp;nbsp;interface&amp;nbsp;RemoteFunction&amp;nbsp;{!!discoiqbr!!&amp;nbsp;@ServiceMethod(enabled=true,displayName="Returns_all_caps",description="Function&amp;nbsp;to&amp;nbsp;convert&amp;nbsp;to&amp;nbsp;all&amp;nbsp;CAPS",&amp;nbsp;familyId="remote")!!discoiqbr!!&amp;nbsp;public&amp;nbsp;String&amp;nbsp;toAllCaps(String&amp;nbsp;name);!!discoiqbr!!&amp;nbsp;!!discoiqbr!!}!!discoiqbr!! 
+    </codeblock><p>The parameters of the methods can also be optionally annotated using the @ServiceMethodParameter annotation (com.adobe.exm.expeval.ServiceMethodParameter). This annotation is only used for specifying human-readable names and descriptions of method parameters for use in the authoring user interface. Ensure that the parameters and return-values of the interface methods belong to one of the following types:</p> 
+    <ul> 
+     <li>java.lang.String</li> 
+     <li>java.lang.Character</li> 
+     <li>Char</li> 
+     <li>java.lang.Boolean</li> 
+     <li>Boolean</li> 
+     <li>java.lang.Integer</li> 
+     <li>Int</li> 
+     <li>java.lang.Short</li> 
+     <li>Short</li> 
+     <li>java.lang.Byte</li> 
+     <li>byte</li> 
+     <li>java.lang.Double</li> 
+     <li>Double</li> 
+     <li>java.lang.Long</li> 
+     <li>Long</li> 
+     <li>java.lang.Float</li> 
+     <li>Float</li> 
+     <li>java.util.Calendar</li> 
+     <li>java.util.Date</li> 
+     <li>java.util.List</li> 
+    </ul> </li> 
+   <li><p>Define the implementation of the interface, configure it as an OSGI service and define the following service properties:</p> </li> 
+  </ol> 
+  <codeblock gutter="true" class="syntax plain">
+    @org.apache.felix.scr.annotations.Properties({!!discoiqbr!!&amp;nbsp;&amp;nbsp;@org.apache.felix.scr.annotations.Property(name&amp;nbsp;=&amp;nbsp;"connectors.jsoninvoker",&amp;nbsp;boolValue&amp;nbsp;=&amp;nbsp;true),!!discoiqbr!!&amp;nbsp;&amp;nbsp;@org.apache.felix.scr.annotations.Property(name&amp;nbsp;=&amp;nbsp;"connectors.jsoninvoker.alias",&amp;nbsp;value&amp;nbsp;=&amp;nbsp;"&lt;service_id&gt;"),!!discoiqbr!!&amp;nbsp;&amp;nbsp;@org.apache.felix.scr.annotations.Property(name&amp;nbsp;=&amp;nbsp;"exm.service",&amp;nbsp;boolValue&amp;nbsp;=&amp;nbsp;true)})!!discoiqbr!! 
+  </codeblock> 
+  <p>The exm.service=true entry instructs Expression manager, that the service contains remote functions suitable for use in expressions. The &amp;lt;service_id&amp;gt; value must be a valid Java identifier (alphanumeric,$, _ with no other special characters). This value, prefixed with the REMOTE_ keyword, forms the prefix which is used inside expressions. For example, an interface with an annotated method bar() and the service ID foo in the service properties, can be referenced inside expressions using REMOTE_foo:bar().</p> 
+  <codeblock gutter="true" class="syntax plain">
+    package&amp;nbsp;mergeandfuse.com;!!discoiqbr!!!!discoiqbr!!import&amp;nbsp;org.apache.felix.scr.annotations.Component;!!discoiqbr!!import&amp;nbsp;org.apache.felix.scr.annotations.Service;!!discoiqbr!!!!discoiqbr!!@Component(metatype&amp;nbsp;=&amp;nbsp;true,&amp;nbsp;immediate&amp;nbsp;=&amp;nbsp;true,&amp;nbsp;label&amp;nbsp;=&amp;nbsp;"RemoteFunctionImpl")!!discoiqbr!!@Service(value&amp;nbsp;=&amp;nbsp;RemoteFunction.class)!!discoiqbr!!@org.apache.felix.scr.annotations.Properties({!!discoiqbr!!&amp;nbsp;&amp;nbsp;@org.apache.felix.scr.annotations.Property(name&amp;nbsp;=&amp;nbsp;"connectors.jsoninvoker",&amp;nbsp;boolValue&amp;nbsp;=&amp;nbsp;true),!!discoiqbr!!&amp;nbsp;&amp;nbsp;@org.apache.felix.scr.annotations.Property(name&amp;nbsp;=&amp;nbsp;"connectors.jsoninvoker.alias",&amp;nbsp;value&amp;nbsp;=&amp;nbsp;"test1"),!!discoiqbr!!&amp;nbsp;&amp;nbsp;@org.apache.felix.scr.annotations.Property(name&amp;nbsp;=&amp;nbsp;"exm.service",&amp;nbsp;boolValue&amp;nbsp;=&amp;nbsp;true)})!!discoiqbr!!public&amp;nbsp;class&amp;nbsp;RemoteFuntionImpl&amp;nbsp;implements&amp;nbsp;RemoteFunction&amp;nbsp;{!!discoiqbr!!!!discoiqbr!!&amp;nbsp;@Override!!discoiqbr!!&amp;nbsp;public&amp;nbsp;String&amp;nbsp;toAllCaps(String&amp;nbsp;name)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;System.out.println("######Got######"+name);!!discoiqbr!!&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;return&amp;nbsp;name.toUpperCase();!!discoiqbr!!&amp;nbsp;}!!discoiqbr!!&amp;nbsp;!!discoiqbr!!}!!discoiqbr!!!!discoiqbr!!&amp;nbsp;!!discoiqbr!! 
+  </codeblock> 
+  <p>Below are sample archives to use:</p> 
+  <ul> 
+   <li><strong>GoodFunctions.jar.zip</strong> is the jar file with bundle containing a sample remote function definition. Download the GoodFunctions.jar.zip file and unzip it to get the jar file.</li> 
+   <li><strong>GoodFunctions.zip </strong>is the package of source code for defining a custom remote function and creating a bundle for it.</li> 
+  </ul> 
+  <div> 
+   <p>GoodFunctions.jar.zip</p> 
+   <p><a alt="GoodFunctions.jar.zip" href="assets/goodfunctions.jar.zip">Get File</a></p> 
+   <p>GoodFunctions.zip</p> 
+   <p><a alt="GoodFunctions.zip" href="assets/goodfunctions.zip">Get File</a></p> 
+  </div> 
+  <related-links> 
+   <a href="../../forms/using/create-correspondence.md" target="_blank">Create correspondence</a> 
+   <a href="../../forms/using/manage-agent-signature-images.md" target="_blank">Manage agent signature images</a> 
+   <a href="../../forms/using/layout-design-details.md" target="_blank">Layout design details</a> 
+   <a href="../../forms/using/document-fragments.md" target="_blank">Document fragments</a> 
+   <a href="../../forms/using/cm-configuration-properties.md" target="_blank">Correspondence Management configuration properties</a> 
+   <a href="../../forms/using/add-custom-action-asset-listing-view.md" target="_blank">Add custom action to Asset Listing view</a> 
+   <a href="../../forms/using/add-custom-properties-cm-assets.md" target="_blank">Add custom properties to Correspondence Management assets</a> 
+   <a href="../../forms/using/add-action-button-in-create-correspondence-ui.md" target="_blank">Add custom action/button in Create Correspondence UI</a> 
+   <a href="../../forms/using/customize-create-correspondence-ui.md" target="_blank">Customize Create Correspondence UI logo</a> 
+  </related-links> 
+ </body> 
+</html>

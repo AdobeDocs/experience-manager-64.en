@@ -1,0 +1,416 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="Extending the Multi Site Manager" name="navTitle" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="Extending the Multi Site Manager" name="jcr:title" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2017-12-04T12:01:52.696-0500" name="publishExternalDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2018-05-08T12:43:26.894-0400" name="locHandOffDate" /> 
+  <meta content="2017-12-05T19:02:19.395-0500" name="jcr:created" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2018-04-03T09:00:43.659-0400" name="cq:lastReplicated" /> 
+  <meta content="bohnert@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="This page helps you extend the functionalities of the Multi Site Manager" name="seoDescription" /> 
+  <meta content="bohnert" name="cq:lastModifiedBy" /> 
+  <meta content="/content/docs/en/aem/6-3/develop/extending/msm" name="qaNotes" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:extending-aem;content_type:reference" name="cq:tags" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="2017-10-31T16:16:43.252-0400" name="firstPublishExternalDate" /> 
+  <meta content="e479db52-98c5-444e-a7ad-cf41b898e6fe" name="jcr:predecessors" /> 
+  <meta content="2018-05-08T12:43:26.896-0400" name="cq:lastModified" /> 
+  <meta content="2017-12-04T12:01:52.696-0500" name="lastPublishExternalDate" /> 
+  <meta content="a56977d7-8ab4-474d-910c-8021b87c3679" name="jcr:uuid" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="User" name="contentOwner" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/extending-msm.html" name="publishExternalURL" /> 
+  <meta content="2017-12-04T12:01:52.696-0500" name="topicBrowsingSortDate" /> 
+  <meta content="audience:developing" name="primaryAudienceTag" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/morehelp/extending-aem;/content/help/en/experience-manager/6-4/sites/developing/morehelp/extending-aem" name="moreHelpPaths" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="Extending the Multi Site Manager" name="seoTitle" /> 
+ </head> 
+ <body> 
+  <p>This page helps you extend the functionalities of the Multi Site Manager:</p> 
+  <ul> 
+   <li>Learn about the main members of the MSM Java API. </li> 
+   <li>Create a new synchronization action that can be used in a rollout configuration.</li> 
+   <li>Remove the "Chapters" step in the Create Site wizard.</li> 
+   <li>Modify the default language and country codes.</li> 
+  </ul> 
+  <note> 
+   <p>This page should be read in conjunction with <a href="../../../sites/administering/using/msm.md">Reusing Content: Multi Site Manager</a>.</p> 
+  </note> 
+  <note> 
+   <p>The Multi Site Manager and its API are used when authoring a website, so are only intended for use on an author environment.</p> 
+  </note> 
+  <h3>Overview of the Java API</h3> 
+  <p>Multi Site Management consists of the following packages:</p> 
+  <ul> 
+   <li><a href="/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/msm/api/package-frame">com.day.cq.wcm.msm.api</a></li> 
+   <li><a href="/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/msm/commons/package-frame">com.day.cq.wcm.msm.commons</a></li> 
+  </ul> 
+  <p>The main MSM API objects interact as follows (see also <a href="../../../sites/administering/using/msm.md#termsused">Terms Used</a>):</p> 
+  <img imageRotate="0" src="assets/chlimage_1-44.png" /> 
+  <ul> 
+   <li><p><strong><span class="code">Blueprint</span></strong><br /> A <span class="code">Blueprint</span> (as in <a href="../../../sites/administering/using/msm.md#sourceblueprintsandblueprintconfigurations">blueprint configuration</a>) specifies the pages from which a live copy can inherit content. </p> <img imageRotate="0" src="assets/chlimage_1-45.png" /> 
+    <ul> 
+     <li>The use of a blueprint configuration (<span class="code">Blueprint</span>) is optional, but: 
+      <ul> 
+       <li>Allows the author to use the <strong>Rollout</strong> option on the source (to (explicitly) push modifications to live copies that inherit from this source). </li> 
+       <li>Allows the author to use <strong>Create Site</strong>; this allows the user to easily select languages and configure the structure of the live copy.</li> 
+       <li>Defines the default rollout configuration for any resultant live copies.</li> 
+      </ul> </li> 
+    </ul> </li> 
+   <li>  
+    <div> 
+     <strong><span class="code">LiveRelationship</span></strong> 
+    </div> <p>The <span class="code">LiveRelationship</span> specifies the connection (relationship) between a resource in the live copy branch and its equivalent source/blueprint resource. </p> 
+    <ul> 
+     <li>The relationships are used when realizing inheritance and rollout.</li> 
+     <li><span class="code">LiveRelationship</span> objects provide access (references) to the rollout configurations (<span class="code">RolloutConfig</span>), <span class="code">LiveCopy</span>, and <span class="code">LiveStatus</span> objects related to the relationship. </li> 
+     <li>For example, a live copy is created in <span class="code">/content/copy/us</span> from the source/blueprint at <span class="code">/content/we-retail/language-masters</span>. The resources <span class="code">/content/we.retail/language-masters/en/jcr:content</span> and <span class="code">/content/copy/us/en/jcr:content</span> form a relationship.</li> 
+    </ul> </li> 
+   <li> 
+    <div> 
+     <strong><span class="code">LiveCopy</span></strong> 
+    </div> <p><span class="code">LiveCopy</span> holds the configuration details for the relationships (<span class="code">LiveRelationship</span>) between the live copy resources and their source/blueprint resources.</p> 
+    <ul> 
+     <li>Use the <span class="code">LiveCopy</span> class to access to the path of the page, the path of the source/blueprint page, the rollout configurations and whether child pages are also included in the <span class="code">LiveCopy</span>.<br /> </li> 
+     <li> A <span class="code">LiveCopy</span> node is created each time <strong>Create Site</strong> or <strong>Create Live Copy</strong> is used.</li> 
+    </ul> </li> 
+   <li> <p><span class="code">LiveStatus</span> objects provide access to the runtime status of a <span class="code">LiveRelationship</span>. Use to query the synchronization status of a live copy.</p> </li> 
+   <li> <p>A <span class="code">LiveAction</span> is an action that is executed on each resource that is involved in the rollout.<br /> </p> 
+    <ul> 
+     <li>LiveActions are only generated by RolloutConfigs.</li> 
+    </ul> </li> 
+   <li> <p>Creates <span class="code">LiveAction</span> objects given a <span class="code">LiveAction</span> configuration. Configurations are stored as resources in the repository.</p> </li> 
+   <li> 
+    <div> 
+     <strong><span class="code">RolloutConfig</span></strong> 
+    </div> <p>The <span class="code">RolloutConfig</span> holds a list of <span class="code">LiveActions</span>, to be used when triggered. The <span class="code">LiveCopy</span> inherits the <span class="code">RolloutConfig</span> and the result is present in the <span class="code">LiveRelationship</span>.</p> 
+    <ul> 
+     <li>Setting up a live copy for the very first time also uses a RolloutConfig (which triggers the LiveActions).</li> 
+    </ul> </li> 
+  </ul> 
+  <h3>Creating a New Synchronization Action</h3> 
+  <p>Create custom synchronization actions to use with your rollout configurations. Create a synchronization action when the <a href="../../../sites/administering/using/msm-sync.md#installedsynchronizationactions">installed actions</a> do not meet your specific application requirements. To do so, create two classes:</p> 
+  <ul> 
+   <li>An implementation of the <a href="/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/msm/api/LiveAction"><span class="code">com.day.cq.wcm.msm.api.LiveAction</span></a> interface that performs the action. </li> 
+   <li>An OSGI component that implements the <a href="/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/msm/api/LiveActionFactory"><span class="code">com.day.cq.wcm.msm.api.LiveActionFactory</span></a> interface and creates instances of your <span class="code">LiveAction</span> class.</li> 
+  </ul> 
+  <p>The <span class="code">LiveActionFactory</span> creates instances of the <span class="code">LiveAction</span> class for a given configuration:</p> 
+  <ul> 
+   <li><span class="code">LiveAction</span> classes include the following methods: 
+    <ul> 
+     <li><span class="code">getName</span>: Returns the name of the action The name is used to refer to the action, for example in rollout configurations.</li> 
+     <li><span class="code">execute</span>: Performs the tasks of the action.</li> 
+    </ul> </li> 
+   <li><span class="code">LiveActionFactory</span> classes include the following members: 
+    <ul> 
+     <li><span class="code">LIVE_ACTION_NAME</span>: A field that contains the name of the associated <span class="code">LiveAction</span>. This name must coincide with the value that is returned by the <span class="code">getName</span> method of the <span class="code">LiveAction</span> class.</li> 
+     <li><span class="code">createAction</span>: Creates an instance of the <span class="code">LiveAction</span>. The optional <span class="code">Resource</span> parameter can be used to provide configuration information.</li> 
+     <li><span class="code">createsAction</span>: Returns the name of the associated <span class="code">LiveAction</span>.</li> 
+    </ul> </li> 
+  </ul>  
+  <h4>Accessing the LiveAction Configuration Node</h4> 
+  <p>Use the <span class="code">LiveAction</span> configuration node in the repository to store information that affects the runtime behaviour of the <span class="code">LiveAction</span> instance. The node in the repository that stores the <span class="code">LiveAction</span> configuration is available to the <span class="code">LiveActionFactory</span> object at runtime. Therefore, you can add properties to the configuration node to and use them in your <span class="code">LiveActionFactory</span> implementation as needed.</p> 
+  <p>For example, a <span class="code">LiveAction</span> needs to store the name of the blueprint author. A property of the configuration node includes the property name of the blueprint page that stores the information. At runtime, the <span class="code">LiveAction</span> retrieves the property name from the configuration, then obtains the property value.</p> 
+  <p>The parameter of the <span class="code"><a href="/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/msm/api/LiveActionFactory">LiveActionFactory</a>.createAction</span> method is a <span class="code">Resource</span> object. This <span class="code">Resource</span> object represents the <span class="code">cq:LiveSyncAction</span> node for this live action in the rollout configuration; see <a href="../../../sites/administering/using/msm-sync.md#creatingarolloutconfiguration">Creating a Rollout Configuration</a>. As usual when using a configuration node, you should adapt it to a <span class="code">ValueMap</span> object:</p> 
+  <codeblock gutter="true" class="syntax java">
+    public&amp;nbsp;LiveAction&amp;nbsp;createAction(Resource&amp;nbsp;resource)&amp;nbsp;throws&amp;nbsp;WCMException&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;ValueMap&amp;nbsp;config;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if&amp;nbsp;(resource&amp;nbsp;==&amp;nbsp;null&amp;nbsp;||&amp;nbsp;resource.adaptTo(ValueMap.class)&amp;nbsp;==&amp;nbsp;null)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;config&amp;nbsp;=&amp;nbsp;new&amp;nbsp;ValueMapDecorator(Collections.&lt;String,&amp;nbsp;Object&gt;emptyMap());!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&amp;nbsp;else&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;config&amp;nbsp;=&amp;nbsp;resource.adaptTo(ValueMap.class);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;return&amp;nbsp;new&amp;nbsp;MyLiveAction(config,&amp;nbsp;this);!!discoiqbr!!} 
+  </codeblock> 
+  <h4>Accessing Target Nodes, Source Nodes, and the LiveRelationship</h4> 
+  <p>The following objects are provided as parameters of the <span class="code">execute</span> method of the <span class="code">LiveAction</span> object:</p> 
+  <ul> 
+   <li>A <a href="/sites/developing/using/reference-materials/javadoc/org/apache/sling/api/resource/Resource"><span class="code">Resource</span></a> object that represents the source of the Live Copy.</li> 
+   <li>A <span class="code">Resource</span> object that represents the target of the Live Copy.</li> 
+   <li>The <a href="/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/msm/api/LiveRelationship"><span class="code">LiveRelationship</span></a> object for the live copy.</li> 
+   <li>The <span class="code">autoSave</span> value indicates whether your <span class="code">LiveAction</span> should save changes that are made to the repository.</li> 
+   <li>The reset value indicates the rollout reset mode.</li> 
+  </ul> 
+  <p>From these objects you can obtain all of the information about the <span class="code">LiveCopy</span>. You can also use the <span class="code">Resource</span> objects to obtain <span class="code">ResourceResolver</span>, <span class="code">Session</span>, and <span class="code">Node</span> objects. These objects are useful for manipulating repository content:</p> 
+  <p>In the first line of the following code, source is the <span class="code">Resource</span> object of the source page:</p> 
+  <codeblock gutter="true" class="syntax java">
+    ResourceResolver&amp;nbsp;resolver&amp;nbsp;=&amp;nbsp;source.getResourceResolver();!!discoiqbr!!Session&amp;nbsp;session&amp;nbsp;=&amp;nbsp;resolver.adaptTo(javax.jcr.Session.class);!!discoiqbr!!Node&amp;nbsp;sourcenode&amp;nbsp;=&amp;nbsp;source.adaptTo(javax.jcr.Node.class); 
+  </codeblock> 
+  <note> 
+   <p>The <span class="code">Resource</span> arguments may be <span class="code">null</span> or <span class="code">Resources</span> objects that do not adapt to <span class="code">Node</span> objects, such as <a href="/sites/developing/using/reference-materials/javadoc/org/apache/sling/api/resource/NonExistingResource"><span class="code">NonExistingResource</span></a> objects.</p> 
+  </note> 
+  <h3>Creating a New Rollout Configuration</h3> 
+  <p>Create a rollout configuration when the installed rollout configurations do not meet your application requirements:</p> 
+  <ul> 
+   <li><a href="#createtherolloutconfiguration">Create the rollout configuration</a>.</li> 
+   <li><a href="#addsynchronizationactionstotherolloutconfiguration">Add synchronization actions to the rollout configuration</a>.</li> 
+  </ul> 
+  <p>The new rollout configuration is then available to you when setting rollout configurations on a blueprint or live copy page.</p> 
+  <note> 
+   <p>See also the <a href="../../../sites/administering/using/msm-best-practices.md#customizingrollouts">best practices for customizing rollouts</a>.</p> 
+  </note> 
+  <h4>Create the Rollout Configuration</h4> 
+  <ol> 
+   <li><p>Open the <strong>Tools</strong> console in the classic UI; for example, <a href="http://localhost:4502/miscadmin#/etc">http://localhost:4502/miscadmin#/etc</a></p> 
+    <note> 
+     <p>In the standard, touch-enabled UI you can navigate to the classic UI Tools console using the rail entries <strong>Tools</strong>, <strong>Operations</strong> and then <strong>Configuration</strong>.</p> 
+    </note></li> 
+   <li><p>In the folder tree, select the <strong>Tools</strong>, <strong>MSM</strong>, <strong>Rollout Configurations</strong> folder.</p> </li> 
+   <li><p>Click <strong>New</strong>, then <strong>New Page</strong> to define the Rollout Configuration properties:</p> 
+    <ul> 
+     <li><strong>Title</strong>: The title of the Rollout Configuration, such as My Rollout Configuration</li> 
+     <li><strong>Name</strong>: The name of the node that stores the property values, such as myrolloutconfig</li> 
+     <li>Select <strong>RolloutConfig Template</strong>.</li> 
+    </ul> </li> 
+   <li><p>Click <strong>Create</strong>.</p> </li> 
+   <li><p>Double-click on the rollout configuration that you created to open it for further configuration.</p> </li> 
+   <li><p>Click <strong>Edit</strong>.</p> </li> 
+   <li><p>In the <strong>Rollout Config</strong> dialog, select the <strong><a href="../../../sites/administering/using/msm-sync.md#rollouttriggers">Sync Trigger</a></strong> to define the action that causes the rollout to occur.</p> </li> 
+   <li><p>Click <strong>OK</strong> to save the changes.</p> </li> 
+  </ol> 
+  <h4>Add Synchronization Actions to the Rollout Configuration</h4> 
+  <p>Rollout configurations are stored below the <span class="code">/etc/msm/rolloutconfigs</span> node. Add child nodes of type <span class="code">cq:LiveSyncAction</span> to add synchronization actions to the rollout configuration. The order of the synchronization action nodes determines the order in which the actions occur.</p> 
+  <ol> 
+   <li><p>Open CRXDE Lite; for example <a href="http://localhost:4502/crx/de">http://localhost:4502/crx/de</a></p> </li> 
+   <li><p>Select the <span class="code">jcr:content</span> node below your rollout configuration node. </p> <p>For example, for the rollout configuration with the <strong>Name</strong> property of <span class="code">myrolloutconfig</span>, select the node:</p>  </li> 
+   <li><p>Click <strong>Create</strong> then <strong>Create Node</strong>. Then configure the following node properties and click <strong>OK</strong>:</p> 
+    <ul> 
+     <li><strong>Name</strong>: The node name of the synchronization action. The name must be the same as the <strong>Action Name</strong> in the table under <a href="../../../sites/administering/using/msm-sync.md#installedsynchronizationactions">Synchronization Actions</a>, for example <span class="code">contentCopy</span> or <span class="code">workflow</span>.</li> 
+     <li><strong>Type</strong>: <span class="code">cq:LiveSyncAction</span></li> 
+    </ul> </li> 
+   <li><p>Select the action node just created and add the following property to the node:</p> 
+    <ul> 
+     <li><strong>Name</strong>: The property name of the action. The name must be the same as the <strong>Property Name</strong> in the table under <a href="../../../sites/administering/using/msm-sync.md#installedsynchronizationactions">Synchronization Actions</a>, for example <span class="code">enabled</span>.<br /> </li> 
+     <li><strong>Type</strong>: String<br /> </li> 
+     <li><strong>Value</strong>: the property value of the action. For valid values, see the <strong>Properties</strong> column in <a href="../../../sites/administering/using/msm-sync.md#installedsynchronizationactions">Synchronization Actions</a>, for example <span class="code">true</span>.</li> 
+    </ul> </li> 
+   <li><p>Add and configure as many synchronization action nodes as you require. Rearrange the action nodes so that their order matches the order in which you want them to occur. The topmost action node occurs first.</p> </li> 
+   <li><p>Click <strong>Save All</strong>.</p> </li> 
+  </ol> 
+  <h3>Creating and Using a Simple LiveActionFactory Class</h3> 
+  <p>Follow the procedures in this section to develop a <span class="code">LiveActionFactory</span> and use it in a rollout configuration. The procedures use Maven and Eclipse to develop and deploy the <span class="code">LiveActionFactory</span>:</p> 
+  <ol> 
+   <li><a href="#createthemavenproject">Create the maven project</a> and import it into Eclipse.</li> 
+   <li><a href="#adddependenciestothepomfile">Add dependencies</a> to the POM file.</li> 
+   <li><a href="#implementliveactionfactory">Implement the <span class="code">LiveActionFactory</span> inteface</a> and deploy the OSGi bundle.</li> 
+   <li><a href="#createtheexamplerolloutconfiguration">Create the rollout configuration</a>.</li> 
+   <li><a href="#createthelivecopy">Create the live copy</a>.</li> 
+  </ol> 
+  <p>The Maven project and the source code of the Java class is available in the public Git repository.</p> 
+  <p>CODE ON GITHUB</p> 
+  <p>You can find the code of this page on GitHub</p> 
+  <ul> 
+   <li><a href="https://github.com/Adobe-Marketing-Cloud/experiencemanager-java-msmrollout">Open experiencemanager-java-msmrollout project on GitHub</a></li> 
+   <li>Download the project as <a href="https://github.com/Adobe-Marketing-Cloud/experiencemanager-java-msmrollout/archive/master.zip">a ZIP file</a></li> 
+  </ul> 
+  <h4>Create the Maven Project</h4> 
+  <p>The following procedure requires that you have added the adobe-public profile to your Maven settings file.</p> 
+  <ul> 
+   <li>For information about the adobe-public profile, see <a href="../../../sites/developing/using/vlt-mavenplugin.md#obtainingthecontentpackagemavenplugin">Obtaining the Content Package Maven Plugin</a></li> 
+   <li>For information about the Maven settings file, see the Maven <a href="http://maven.apache.org/settings.html">Settings Reference</a>.</li> 
+  </ul> 
+  <ol> 
+   <li><p>Open a terminal or command-line session and change the directory to point to the location of where to create the project.</p> </li> 
+   <li><p>Enter the following command:</p> 
+    <codeblock gutter="true" class="syntax xml">
+      mvn&amp;nbsp;archetype:generate&amp;nbsp;-DarchetypeGroupId=com.day.jcr.vault&amp;nbsp;-DarchetypeArtifactId=multimodule-content-package-archetype&amp;nbsp;-DarchetypeVersion=1.0.0&amp;nbsp;-DarchetypeRepository=adobe-public-releases 
+    </codeblock></li> 
+   <li><p>Specify the following values at interactive prompt:</p> 
+    <ul> 
+     <li><span class="code">groupId</span>: <span class="code">com.adobe.example.msm</span></li> 
+     <li><span class="code">artifactId</span>: <span class="code">MyLiveActionFactory</span></li> 
+     <li><span class="code">version</span>: <span class="code">1.0-SNAPSHOT</span></li> 
+     <li><span class="code">package</span>: <span class="code">MyPackage</span></li> 
+     <li><span class="code">appsFolderName</span>: <span class="code">myapp</span></li> 
+     <li><span class="code">artifactName</span>: <span class="code">MyLiveActionFactory package</span></li> 
+     <li><span class="code">packageGroup</span>: <span class="code">myPackages</span></li> 
+    </ul> </li> 
+   <li><p>Start Eclipse and <a href="../../../sites/developing/using/howto-projects-eclipse.md#importthemavenprojectintoeclipse">import the Maven project</a>.</p> </li> 
+  </ol> 
+  <h4>Add Dependencies to the POM File</h4> 
+  <p>Add dependencies so that the Eclipse compiler can reference the classes that are used in the <span class="code">LiveActionFactory</span> code.</p> 
+  <ol> 
+   <li><p>From the Eclipse Project Explorer, open the file:</p>  </li> 
+   <li><p>In the editor, click the <span class="code">pom.xml</span> tab and locate the <span class="code">project/dependencyManagement/dependencies</span> section.</p> </li> 
+   <li><p>Add the following XML inside the <span class="code">dependencyManagement</span> element and then save the file.</p> 
+    <codeblock gutter="true" class="syntax xml">
+      &amp;nbsp;&lt;dependency&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;groupId&gt;com.day.cq.wcm&lt;/groupId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;artifactId&gt;cq-msm-api&lt;/artifactId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;version&gt;5.6.2&lt;/version&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;scope&gt;provided&lt;/scope&gt;!!discoiqbr!!&amp;nbsp;&lt;/dependency&gt;!!discoiqbr!!&amp;nbsp;&lt;dependency&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;groupId&gt;org.apache.sling&lt;/groupId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;artifactId&gt;org.apache.sling.api&lt;/artifactId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;version&gt;2.4.3-R1488084&lt;/version&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;scope&gt;provided&lt;/scope&gt;!!discoiqbr!!&amp;nbsp;&lt;/dependency&gt;!!discoiqbr!!&amp;nbsp;&lt;dependency&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;groupId&gt;com.day.cq.wcm&lt;/groupId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;artifactId&gt;cq-wcm-api&lt;/artifactId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;version&gt;5.6.6&lt;/version&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;scope&gt;provided&lt;/scope&gt;!!discoiqbr!!&amp;nbsp;&lt;/dependency&gt;!!discoiqbr!!&amp;nbsp;&lt;dependency&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;groupId&gt;org.apache.sling&lt;/groupId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;artifactId&gt;org.apache.sling.commons.json&lt;/artifactId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;version&gt;2.0.6&lt;/version&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;scope&gt;provided&lt;/scope&gt;!!discoiqbr!!&amp;nbsp;&lt;/dependency&gt;!!discoiqbr!!&amp;nbsp;&lt;dependency&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;groupId&gt;com.day.cq&lt;/groupId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;artifactId&gt;cq-commons&lt;/artifactId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;version&gt;5.6.4&lt;/version&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;scope&gt;provided&lt;/scope&gt;!!discoiqbr!!&amp;nbsp;&lt;/dependency&gt;!!discoiqbr!!&amp;nbsp;&lt;dependency&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;groupId&gt;org.apache.sling&lt;/groupId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;artifactId&gt;org.apache.sling.jcr.jcr-wrapper&lt;/artifactId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;version&gt;2.0.0&lt;/version&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;scope&gt;provided&lt;/scope&gt;!!discoiqbr!!&amp;nbsp;&lt;/dependency&gt;!!discoiqbr!!&amp;nbsp;&lt;dependency&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;groupId&gt;com.day.cq&lt;/groupId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;artifactId&gt;cq-commons&lt;/artifactId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;version&gt;5.6.4&lt;/version&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;scope&gt;provided&lt;/scope&gt;!!discoiqbr!!&amp;nbsp;&lt;/dependency&gt; 
+    </codeblock></li> 
+   <li><p>Open the POM file for the bundle from <strong>Project Explorer</strong> at <span class="code">MyLiveActionFactory-bundle/pom.xml</span>.</p> </li> 
+   <li><p>In the editor, click the <span class="code">pom.xml</span> tab and locate the project/dependencies section. Add the following XML inside the dependencies element and then save the file:</p> 
+    <codeblock gutter="true" class="syntax xml">
+      &amp;nbsp;&lt;dependency&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;groupId&gt;com.day.cq.wcm&lt;/groupId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;artifactId&gt;cq-msm-api&lt;/artifactId&gt;!!discoiqbr!!&amp;nbsp;&lt;/dependency&gt;!!discoiqbr!!&amp;nbsp;&lt;dependency&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;groupId&gt;org.apache.sling&lt;/groupId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;artifactId&gt;org.apache.sling.api&lt;/artifactId&gt;!!discoiqbr!!&amp;nbsp;&lt;/dependency&gt;!!discoiqbr!!&amp;nbsp;&lt;dependency&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;groupId&gt;com.day.cq.wcm&lt;/groupId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;artifactId&gt;cq-wcm-api&lt;/artifactId&gt;!!discoiqbr!!&amp;nbsp;&lt;/dependency&gt;!!discoiqbr!!&amp;nbsp;&lt;dependency&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;groupId&gt;org.apache.sling&lt;/groupId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;artifactId&gt;org.apache.sling.commons.json&lt;/artifactId&gt;!!discoiqbr!!&amp;nbsp;&lt;/dependency&gt;!!discoiqbr!!&amp;nbsp;&lt;dependency&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;groupId&gt;com.day.cq&lt;/groupId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;artifactId&gt;cq-commons&lt;/artifactId&gt;!!discoiqbr!!&amp;nbsp;&lt;/dependency&gt;!!discoiqbr!!&amp;nbsp;&lt;dependency&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;groupId&gt;org.apache.sling&lt;/groupId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;artifactId&gt;org.apache.sling.jcr.jcr-wrapper&lt;/artifactId&gt;!!discoiqbr!!&amp;nbsp;&lt;/dependency&gt;!!discoiqbr!!&amp;nbsp;&lt;dependency&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;groupId&gt;com.day.cq&lt;/groupId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;artifactId&gt;cq-commons&lt;/artifactId&gt;!!discoiqbr!!&amp;nbsp;&lt;/dependency&gt; 
+    </codeblock></li> 
+  </ol> 
+  <h4>Implement LiveActionFactory</h4> 
+  <p>The following <span class="code">LiveActionFactory</span> class implements a <span class="code">LiveAction</span> that logs messages about the source and target pages, and copies the <span class="code">cq:lastModifiedBy</span> property from the source node to the target node. The name of the live action is <span class="code">exampleLiveAction</span>.</p> 
+  <ol> 
+   <li><p>In the Eclipse Project Explorer, right-click the <span class="code">MyLiveActionFactory-bundle/src/main/java/com.adobe.example.msm</span> package and click <strong>New</strong> &amp;gt; <strong>Class</strong>. For the <strong>Name</strong>, enter <span class="code">ExampleLiveActionFactory</span> and then click <strong>Finish</strong>.</p> </li> 
+   <li><p>Open the <span class="code">ExampleLiveActionFactory.java</span> file, replace the content with the following code, and save the file.</p> 
+    <codeblock gutter="true" class="syntax java">
+      package&amp;nbsp;com.adobe.example.msm;!!discoiqbr!!!!discoiqbr!!import&amp;nbsp;java.util.Collections;!!discoiqbr!!!!discoiqbr!!import&amp;nbsp;org.apache.felix.scr.annotations.Component;!!discoiqbr!!import&amp;nbsp;org.apache.felix.scr.annotations.Property;!!discoiqbr!!import&amp;nbsp;org.apache.felix.scr.annotations.Service;!!discoiqbr!!import&amp;nbsp;org.apache.sling.api.resource.Resource;!!discoiqbr!!import&amp;nbsp;org.apache.sling.api.resource.ResourceResolver;!!discoiqbr!!import&amp;nbsp;org.apache.sling.api.resource.ValueMap;!!discoiqbr!!import&amp;nbsp;org.apache.sling.api.wrappers.ValueMapDecorator;!!discoiqbr!!import&amp;nbsp;org.apache.sling.commons.json.io.JSONWriter;!!discoiqbr!!import&amp;nbsp;org.apache.sling.commons.json.JSONException;!!discoiqbr!!!!discoiqbr!!import&amp;nbsp;org.slf4j.Logger;!!discoiqbr!!import&amp;nbsp;org.slf4j.LoggerFactory;!!discoiqbr!!!!discoiqbr!!import&amp;nbsp;javax.jcr.Node;!!discoiqbr!!import&amp;nbsp;javax.jcr.RepositoryException;!!discoiqbr!!import&amp;nbsp;javax.jcr.Session;!!discoiqbr!!!!discoiqbr!!import&amp;nbsp;com.day.cq.wcm.msm.api.ActionConfig;!!discoiqbr!!import&amp;nbsp;com.day.cq.wcm.msm.api.LiveAction;!!discoiqbr!!import&amp;nbsp;com.day.cq.wcm.msm.api.LiveActionFactory;!!discoiqbr!!import&amp;nbsp;com.day.cq.wcm.msm.api.LiveRelationship;!!discoiqbr!!import&amp;nbsp;com.day.cq.wcm.api.WCMException;!!discoiqbr!!!!discoiqbr!!@Component(metatype&amp;nbsp;=&amp;nbsp;false)!!discoiqbr!!@Service!!discoiqbr!!public&amp;nbsp;class&amp;nbsp;ExampleLiveActionFactory&amp;nbsp;implements&amp;nbsp;LiveActionFactory&lt;LiveAction&gt;&amp;nbsp;{!!discoiqbr!!&amp;nbsp;@Property(value="exampleLiveAction")!!discoiqbr!!&amp;nbsp;static&amp;nbsp;final&amp;nbsp;String&amp;nbsp;actionname&amp;nbsp;=&amp;nbsp;LiveActionFactory.LIVE_ACTION_NAME;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;public&amp;nbsp;LiveAction&amp;nbsp;createAction(Resource&amp;nbsp;config)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;ValueMap&amp;nbsp;configs;!!discoiqbr!!&amp;nbsp;&amp;nbsp;/*&amp;nbsp;Adapt&amp;nbsp;the&amp;nbsp;config&amp;nbsp;resource&amp;nbsp;to&amp;nbsp;a&amp;nbsp;ValueMap&amp;nbsp;*/!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if&amp;nbsp;(config&amp;nbsp;==&amp;nbsp;null&amp;nbsp;||&amp;nbsp;config.adaptTo(ValueMap.class)&amp;nbsp;==&amp;nbsp;null)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;configs&amp;nbsp;=&amp;nbsp;new&amp;nbsp;ValueMapDecorator(Collections.&lt;String,&amp;nbsp;Object&gt;emptyMap());!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&amp;nbsp;else&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;configs&amp;nbsp;=&amp;nbsp;config.adaptTo(ValueMap.class);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;return&amp;nbsp;new&amp;nbsp;ExampleLiveAction(actionname,&amp;nbsp;configs);!!discoiqbr!!&amp;nbsp;}!!discoiqbr!!&amp;nbsp;public&amp;nbsp;String&amp;nbsp;createsAction()&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;return&amp;nbsp;actionname;!!discoiqbr!!&amp;nbsp;}!!discoiqbr!!&amp;nbsp;/*************&amp;nbsp;&amp;nbsp;LiveAction&amp;nbsp;****************/!!discoiqbr!!&amp;nbsp;private&amp;nbsp;static&amp;nbsp;class&amp;nbsp;ExampleLiveAction&amp;nbsp;implements&amp;nbsp;LiveAction&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;private&amp;nbsp;String&amp;nbsp;name;!!discoiqbr!!&amp;nbsp;&amp;nbsp;private&amp;nbsp;ValueMap&amp;nbsp;configs;!!discoiqbr!!&amp;nbsp;&amp;nbsp;private&amp;nbsp;static&amp;nbsp;final&amp;nbsp;Logger&amp;nbsp;log&amp;nbsp;=&amp;nbsp;LoggerFactory.getLogger(ExampleLiveAction.class);!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;public&amp;nbsp;ExampleLiveAction(String&amp;nbsp;nm,&amp;nbsp;ValueMap&amp;nbsp;config){!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;name&amp;nbsp;=&amp;nbsp;nm;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;configs&amp;nbsp;=&amp;nbsp;config;!!discoiqbr!!&amp;nbsp;&amp;nbsp;}!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;public&amp;nbsp;void&amp;nbsp;execute(Resource&amp;nbsp;source,&amp;nbsp;Resource&amp;nbsp;target,!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;LiveRelationship&amp;nbsp;liverel,&amp;nbsp;boolean&amp;nbsp;autoSave,&amp;nbsp;boolean&amp;nbsp;isResetRollout)!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;throws&amp;nbsp;WCMException&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;String&amp;nbsp;lastMod&amp;nbsp;=&amp;nbsp;null;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;log.info("&amp;nbsp;***&amp;nbsp;Executing&amp;nbsp;ExampleLiveAction&amp;nbsp;***&amp;nbsp;");!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;/*&amp;nbsp;Determine&amp;nbsp;if&amp;nbsp;the&amp;nbsp;LiveAction&amp;nbsp;is&amp;nbsp;configured&amp;nbsp;to&amp;nbsp;copy&amp;nbsp;the&amp;nbsp;cq:lastModifiedBy&amp;nbsp;property&amp;nbsp;*/!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;if&amp;nbsp;((Boolean)&amp;nbsp;configs.get("repLastModBy")){!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/*&amp;nbsp;get&amp;nbsp;the&amp;nbsp;source's&amp;nbsp;cq:lastModifiedBy&amp;nbsp;property&amp;nbsp;*/!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if&amp;nbsp;(source&amp;nbsp;!=&amp;nbsp;null&amp;nbsp;&amp;&amp;&amp;nbsp;source.adaptTo(Node.class)&amp;nbsp;!=&amp;nbsp;&amp;nbsp;null){!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;ValueMap&amp;nbsp;sourcevm&amp;nbsp;=&amp;nbsp;source.adaptTo(ValueMap.class);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;lastMod&amp;nbsp;=&amp;nbsp;sourcevm.get(com.day.cq.wcm.api.NameConstants.PN_PAGE_LAST_MOD_BY,&amp;nbsp;String.class);&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/*&amp;nbsp;set&amp;nbsp;the&amp;nbsp;target&amp;nbsp;node's&amp;nbsp;la-lastModifiedBy&amp;nbsp;property&amp;nbsp;*/!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Session&amp;nbsp;session&amp;nbsp;=&amp;nbsp;null;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if&amp;nbsp;(target&amp;nbsp;!=&amp;nbsp;null&amp;nbsp;&amp;&amp;&amp;nbsp;target.adaptTo(Node.class)&amp;nbsp;!=&amp;nbsp;&amp;nbsp;null){!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;ResourceResolver&amp;nbsp;resolver&amp;nbsp;=&amp;nbsp;target.getResourceResolver();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;session&amp;nbsp;=&amp;nbsp;resolver.adaptTo(javax.jcr.Session.class);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Node&amp;nbsp;targetNode;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;try{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;targetNode=target.adaptTo(javax.jcr.Node.class);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;targetNode.setProperty("la-lastModifiedBy",&amp;nbsp;lastMod);&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;log.info("&amp;nbsp;***&amp;nbsp;Target&amp;nbsp;node&amp;nbsp;lastModifiedBy&amp;nbsp;property&amp;nbsp;updated:&amp;nbsp;{}&amp;nbsp;***",lastMod);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}catch(Exception&amp;nbsp;e){!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;log.error(e.getMessage());!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if(autoSave){!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;try&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;session.save();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&amp;nbsp;catch&amp;nbsp;(Exception&amp;nbsp;e)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;try&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;session.refresh(true);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&amp;nbsp;catch&amp;nbsp;(RepositoryException&amp;nbsp;e1)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;e1.printStackTrace();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;e.printStackTrace();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;public&amp;nbsp;String&amp;nbsp;getName()&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;return&amp;nbsp;name;!!discoiqbr!!&amp;nbsp;&amp;nbsp;}!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;/*************&amp;nbsp;Deprecated&amp;nbsp;*************/!!discoiqbr!!&amp;nbsp;&amp;nbsp;@Deprecated!!discoiqbr!!&amp;nbsp;&amp;nbsp;public&amp;nbsp;void&amp;nbsp;execute(ResourceResolver&amp;nbsp;arg0,&amp;nbsp;LiveRelationship&amp;nbsp;arg1,!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;ActionConfig&amp;nbsp;arg2,&amp;nbsp;boolean&amp;nbsp;arg3)&amp;nbsp;throws&amp;nbsp;WCMException&amp;nbsp;{&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;@Deprecated!!discoiqbr!!&amp;nbsp;&amp;nbsp;public&amp;nbsp;void&amp;nbsp;execute(ResourceResolver&amp;nbsp;arg0,&amp;nbsp;LiveRelationship&amp;nbsp;arg1,!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;ActionConfig&amp;nbsp;arg2,&amp;nbsp;boolean&amp;nbsp;arg3,&amp;nbsp;boolean&amp;nbsp;arg4)!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;throws&amp;nbsp;WCMException&amp;nbsp;{&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;@Deprecated!!discoiqbr!!&amp;nbsp;&amp;nbsp;public&amp;nbsp;String&amp;nbsp;getParameterName()&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;return&amp;nbsp;null;!!discoiqbr!!&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;@Deprecated!!discoiqbr!!&amp;nbsp;&amp;nbsp;public&amp;nbsp;String[]&amp;nbsp;getPropertiesNames()&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;return&amp;nbsp;null;!!discoiqbr!!&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;@Deprecated!!discoiqbr!!&amp;nbsp;&amp;nbsp;public&amp;nbsp;int&amp;nbsp;getRank()&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;return&amp;nbsp;0;!!discoiqbr!!&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;@Deprecated!!discoiqbr!!&amp;nbsp;&amp;nbsp;public&amp;nbsp;String&amp;nbsp;getTitle()&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;return&amp;nbsp;null;!!discoiqbr!!&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;@Deprecated!!discoiqbr!!&amp;nbsp;&amp;nbsp;public&amp;nbsp;void&amp;nbsp;write(JSONWriter&amp;nbsp;arg0)&amp;nbsp;throws&amp;nbsp;JSONException&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;}!!discoiqbr!!}!!discoiqbr!! 
+    </codeblock></li> 
+   <li><p>Using the terminal or command session, change the directory to the <span class="code">MyLiveActionFactory</span> directory (the Maven project directory). Then, enter the following command:</p> 
+    <codeblock gutter="true" class="syntax shell">
+      mvn&amp;nbsp;-PautoInstallPackage&amp;nbsp;clean&amp;nbsp;install 
+    </codeblock><p>The AEM <span class="code">error.log</span> file should indicate that the bundle is started. </p> <p>For example, <a href="http://localhost:4502/system/console/status-slinglogs">http://localhost:4502/system/console/status-slinglogs</a>.</p> 
+    <codeblock gutter="true" class="syntax xml">
+      13.08.2013&amp;nbsp;14:34:55.450&amp;nbsp;*INFO*&amp;nbsp;[OsgiInstallerImpl]&amp;nbsp;com.adobe.example.msm.MyLiveActionFactory-bundle&amp;nbsp;BundleEvent&amp;nbsp;RESOLVED!!discoiqbr!!13.08.2013&amp;nbsp;14:34:55.451&amp;nbsp;*INFO*&amp;nbsp;[OsgiInstallerImpl]&amp;nbsp;com.adobe.example.msm.MyLiveActionFactory-bundle&amp;nbsp;BundleEvent&amp;nbsp;STARTING!!discoiqbr!!13.08.2013&amp;nbsp;14:34:55.451&amp;nbsp;*INFO*&amp;nbsp;[OsgiInstallerImpl]&amp;nbsp;com.adobe.example.msm.MyLiveActionFactory-bundle&amp;nbsp;BundleEvent&amp;nbsp;STARTED!!discoiqbr!!13.08.2013&amp;nbsp;14:34:55.453&amp;nbsp;*INFO*&amp;nbsp;[OsgiInstallerImpl]&amp;nbsp;com.adobe.example.msm.MyLiveActionFactory-bundle&amp;nbsp;Service&amp;nbsp;[com.adobe.example.msm.ExampleLiveActionFactory,2188]&amp;nbsp;ServiceEvent&amp;nbsp;REGISTERED!!discoiqbr!!13.08.2013&amp;nbsp;14:34:55.454&amp;nbsp;*INFO*&amp;nbsp;[OsgiInstallerImpl]&amp;nbsp;org.apache.sling.audit.osgi.installer&amp;nbsp;Started&amp;nbsp;bundle&amp;nbsp;com.adobe.example.msm.MyLiveActionFactory-bundle&amp;nbsp;[316]!!discoiqbr!! 
+    </codeblock></li> 
+  </ol> 
+  <h4>Create the Example Rollout Configuration</h4> 
+  <p>Create the MSM rollout configuration that uses the <span class="code">LiveActionFactory</span> that you created:</p> 
+  <ol> 
+   <li>Create and configuration a <a href="../../../sites/administering/using/msm-sync.md#creatingarolloutconfiguration">Rollout Configuration with the standard procedure</a> - and using the properties: 
+    <ol> 
+     <li>Create: 
+      <ol> 
+       <li><strong>Title</strong>: Example Rollout Configuration</li> 
+       <li><strong>Name</strong>: examplerolloutconfig</li> 
+       <li>Using the <strong>RolloutConfig Template</strong>.</li> 
+      </ol> </li> 
+     <li>Edit: 
+      <ol> 
+       <li><strong>Sync Trigger</strong>: On Activation</li> 
+      </ol> </li> 
+    </ol> </li> 
+  </ol> 
+  <h4>Add the Live Action to the Example Rollout Configuration</h4> 
+  <p>Configure the rollout configuration that you created in the previous procedure so that it uses the <span class="code">ExampleLiveActionFactory</span> class. </p> 
+  <ol> 
+   <li><p>Open CRXDE Lite; for example, <a href="http://localhost:4502/crx/de">http://localhost:4502/crx/de</a>.</p> </li> 
+   <li><p>Create the following node under <span class="code">/etc/msm/rolloutconfigs/examplerolloutconfig/jcr:content</span>:</p> 
+    <ul> 
+     <li><strong>Name</strong>: <span class="code">exampleLiveAction</span><br /> </li> 
+     <li><strong>Type</strong>: <span class="code">cq:LiveSyncAction</span></li> 
+    </ul> <img imageRotate="0" src="assets/chlimage_1-46.png" /></li> 
+   <li><p>Click <strong>Save All</strong>.</p> </li> 
+   <li><p>Select the <span class="code">exampleLiveAction</span> node and add the following property:</p> 
+    <ul> 
+     <li><strong>Name</strong>: <span class="code">repLastModBy</span></li> 
+     <li><strong>Type</strong>: <span class="code">Boolean</span></li> 
+     <li><strong>Value</strong>: <span class="code">true</span></li> 
+    </ul> <p>This property indicates to the <span class="code">ExampleLiveAction</span> class that the <span class="code">cq:LastModifiedBy</span> property should be replicated from the source to the target node.</p> </li> 
+   <li><p>Click <strong>Save All</strong>.</p> </li> 
+  </ol> 
+  <h4>Create the Live Copy</h4>  
+  <p><a href="../../../sites/administering/using/msm-livecopy.md#creatingalivecopyofapage">Create a live copy</a> of the English/Products branch of the We.Retail Reference Site using your rollout configuration:</p> 
+  <ul> 
+   <li><strong>Source</strong>: <span class="code">/content/we-retail/language-masters/en/products</span></li> 
+   <li><strong>Rollout Configuration</strong>: Example Rollout Configuration</li> 
+  </ul> 
+  <p>Activate the <strong>Products</strong> (english) page of the source branch and observe the log messages that the <span class="code">LiveAction</span> class generates:</p> 
+  <codeblock gutter="true" class="syntax xml">
+    16.08.2013&amp;nbsp;10:53:33.055&amp;nbsp;*INFO*&amp;nbsp;[Thread-444535]&amp;nbsp;com.adobe.example.msm.ExampleLiveActionFactory$ExampleLiveAction&amp;nbsp;&amp;nbsp;***&amp;nbsp;ExampleLiveAction&amp;nbsp;has&amp;nbsp;been&amp;nbsp;executed.***&amp;nbsp;!!discoiqbr!!16.08.2013&amp;nbsp;10:53:33.055&amp;nbsp;*INFO*&amp;nbsp;[Thread-444535]&amp;nbsp;com.adobe.example.msm.ExampleLiveActionFactory$ExampleLiveAction&amp;nbsp;&amp;nbsp;***&amp;nbsp;Target&amp;nbsp;node&amp;nbsp;lastModifiedBy&amp;nbsp;property&amp;nbsp;updated:&amp;nbsp;admin&amp;nbsp;*** 
+  </codeblock> 
+  <h3>Removing the Chapters Step in the Create Site Wizard</h3>  
+  <p>In some cases, the <strong>Chapters</strong> selection is not required in the create site wizard (only the <strong>Languages</strong> selection is required). To remove this step in the default We.Retail English blueprint:</p> 
+  <ol> 
+   <li>In CRX Explorer, remove the node:<br /> <span class="code">/etc/blueprints/weretail-english/jcr:content/dialog/items/tabs/items/tab_chap</span>.</li> 
+   <li>Navigate to <span class="code">/libs/wcm/msm/templates/blueprint/defaults/livecopy_tab/items</span> and create a new node: 
+    <ol> 
+     <li><strong>Name</strong> = <span class="code">chapters</span>; <strong>Type</strong> = <span class="code">cq:Widget</span>.</li> 
+    </ol> </li> 
+   <li>Add following properties to the new node: 
+    <ol> 
+     <li><strong>Name</strong> = <span class="code">name</span>; <strong>Type</strong> = <span class="code">String</span>; <strong>Value</strong> = <span class="code">msm:chapterPages</span></li> 
+     <li><strong>Name</strong> = <span class="code">value</span>; <strong>Type</strong> = <span class="code">String</span>; <strong>Value</strong> = <span class="code">all</span></li> 
+     <li><strong>Name</strong> = <span class="code">xtype</span>; <strong>Type</strong> = <span class="code">String</span>; <strong>Value</strong> = <span class="code">hidden</span></li> 
+    </ol> </li> 
+  </ol> 
+  <h3>Changing language names and default countries</h3> 
+  <p>AEM uses a default set of language and country codes. </p> 
+  <ul> 
+   <li>The default language code is the lower-case, two-letter code as defined by ISO-639-1.</li> 
+   <li>The default country code is the lower-case or upper-case, two-letter code as defined by ISO 3166.</li> 
+  </ul> 
+  <p>MSM uses a stored list of language and country codes to determine the name of the country that is associated with the name of the language version of your page. You can change the following aspects of the list if required:</p> 
+  <ul> 
+   <li>Language titles</li> 
+   <li>Country names</li> 
+   <li>Default countries for languges (for codes such as <span class="code">en</span>, <span class="code">de</span>, amongst others)</li> 
+  </ul> 
+  <p>The language list is stored below the <span class="code">/libs/wcm/core/resources/languages</span> node. Each child node represents a language or a language-country:</p> 
+  <ul> 
+   <li>The name of the node is the languge code (such as <span class="code">en</span> or <span class="code">de</span>), or the language_country code (such as <span class="code">en_us</span> or <span class="code">de_ch</span>).</li> 
+   <li>The <span class="code">language</span> property of the node stores the full name of the language for the code.</li> 
+   <li>The <span class="code">country</span> property of the node stores the full name of the country for the code.</li> 
+   <li>When the node name consists only of a language code (such as <span class="code">en</span>), the country property is <span class="code">*</span>, and an additional <span class="code">defaultCountry</span> property stores the code of the language-country to indicate the country to use.</li> 
+  </ul> 
+  <img imageRotate="0" src="assets/chlimage_1-47.png" /> 
+  <p>To modify the languages:<br /> </p> 
+  <ol> 
+   <li><p>Open CRXDE Lite in your web browser; for example, <a href="http://localhost:4502/crx/de">http://localhost:4502/crx/de</a></p> </li> 
+   <li><p>Select the <span class="code">/apps</span> folder and click <strong>Create</strong>, then <strong>Create Folder.</strong> </p> <p>Name the new folder <span class="code">wcm</span>.</p> </li> 
+   <li><p>Repeat the previous step to create the <span class="code">/apps/wcm/core</span> folder tree. Create a node of type <span class="code">sling:Folder</span><strong> </strong>in core called <span class="code">resources</span>.</p> <img imageRotate="0" src="assets/chlimage_1-48.png" /></li> 
+   <li><p>Right-click the <span class="code">/libs/wcm/core/resources/languages</span> node and click <strong>Copy</strong>.</p> </li> 
+   <li><p>Right-click the <span class="code">/apps/wcm/core/resources</span> folder and click <strong>Paste</strong>. Modify the child nodes as required.</p> </li> 
+   <li><p>Click <strong>Save All</strong>.</p> </li> 
+   <li><p>Click <strong>Tools</strong>, <strong>Operations</strong> then <strong>Web Console</strong>. From this console click <strong>OSGi</strong>, then <strong>Configuration</strong>.</p> </li> 
+   <li><p>Locate and click <strong>Day CQ WCM Language Manager</strong>, and change the value of <strong>Language List</strong> to <span class="code">/apps/wcm/core/resources/languages</span>, then click <strong>Save</strong>.</p> <img imageRotate="0" src="assets/chlimage_1-49.png" /></li> 
+  </ol> 
+  <h3>Configuring MSM Locks on Page Properties (Touch-Enabled UI)</h3> 
+  <p>When creating a custom page property you may need to consider whether the new property should be eligible for roll out to any live copies.</p> 
+  <p>For example, if two new page properties are being added:</p> 
+  <ul> 
+   <li>Contact Email: 
+    <ul> 
+     <li>This property is not required to be rolled out, as it will be different in each country (or brand, etc).</li> 
+    </ul> </li> 
+   <li>Key Visual Style: 
+    <ul> 
+     <li>The project requirement is that this property is to be rolled out as it is (usually) common to all countries (or brands, etc).</li> 
+    </ul> </li> 
+  </ul> 
+  <p>Then you need to ensure that:</p> 
+  <ul> 
+   <li>Contact Email: 
+    <ul> 
+     <li>Is excluded from the rolled out properties; see <a href="../../../sites/administering/using/msm-sync.md#main-pars-title-490730743">Excluding Properties and Node Types from Synchronization</a>.<br /> </li> 
+    </ul> </li> 
+   <li>Key Visual Style: 
+    <ul> 
+     <li>Make sure you are not allowed to edit this property in the touch-enabled UI unless inheritance is cancelled, also that you can then reinstate inheritance; this is controlled by clicking the chain/broken-chain links that toggle to indicate the status of the connection.</li> 
+    </ul> </li> 
+  </ul> 
+  <p>Whether a page property is subject to roll out and therefore, subject to cancelling/reinstating inheritance when editing, is controlled by the dialog property:</p> 
+  <ul> 
+   <li><span class="code">cq-msm-lockable</span><br /> 
+    <ul> 
+     <li>is applicable to items in a touch-enabled UI dialog<br /> </li> 
+     <li>will create the chain-link symbol in the dialog<br /> </li> 
+     <li>only allows editing if inheritance is cancelled (the chain-link is broken)</li> 
+     <li><strong>Type</strong>: <span class="code">String</span></li> 
+     <li><strong>Value</strong>: holds the name of the property under consideration (and is comparable to the value of the property <span class="code">name</span>; for example, see<br /> <span class="code">/libs/foundation/components/page/cq:dialog/content/items/tabs/items/basic/items/column/items/title/items/title</span></li> 
+    </ul> </li> 
+  </ul> 
+  <p>When <span class="code">cq-msm-lockable</span> has been defined, breaking/closing the chain will interact with MSM in the following way:</p> 
+  <ul> 
+   <li>if the value of <span class="code">cq-msm-lockable</span> is:<br /> 
+    <ul> 
+     <li><strong>Relative</strong> (e.g. <span class="code">myProperty</span> or <span class="code">./myProperty</span>) 
+      <ul> 
+       <li>it will add and remove the property from <span class="code">cq:propertyInheritanceCancelled</span>.</li> 
+       <li>MSM does not operate with deep properties (e.g. <span class="code">./image/fileReference</span>), even though the dialog’s logic does. If the chain is opened a rollout of the page will overwrite <span class="code">./image/fileReference</span>, as the rollout of the <span class="code">image</span> node will not "walk" up to the parent node to check <span class="code">cq:propertyInheritanceCancelled</span>.</li> 
+      </ul> </li> 
+     <li><strong>Absolute</strong> (e.g. <span class="code">/image</span>) 
+      <ul> 
+       <li>breaking the chain will cancel inheritance by adding the <span class="code">cq:LiveSyncCancelled</span> mixin to <span class="code">./image</span> and setting <span class="code">cq:isCancelledForChildren</span> to <span class="code">true</span>.</li> 
+       <li>closing the chain will revert inheritance.</li> 
+      </ul> </li> 
+    </ul> </li> 
+  </ul> 
+  <note> 
+   <p>When you re-enable inheritance, the live copy page property is not automatically synchronized with the source property. You can manually request a synchronization if this is required.</p> 
+  </note> 
+ </body> 
+</html>

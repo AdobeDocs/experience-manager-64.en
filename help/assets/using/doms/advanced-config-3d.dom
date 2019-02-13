@@ -1,0 +1,292 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="Advanced configuration settings" name="seoTitle" /> 
+  <meta content="Rick Brough" name="contentOwner" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2017-12-13T19:01:36.819-0500" name="jcr:created" /> 
+  <meta content="2018-11-16T21:58:16.984-0500" name="cq:lastModified" /> 
+  <meta content="151" name="acrolinxSentences" /> 
+  <meta content="2017-10-31T16:35:25.985-0400" name="firstPublishExternalDate" /> 
+  <meta content="/content/docs/en/aem/6-3/administer/content/install-config-3d/advance-config-3d" name="qaNotes" /> 
+  <meta content="2018-11-16T21:58:16.943-0500" name="publishExternalDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS" name="primaryProductTag" /> 
+  <meta content="/content/help/en/experience-manager/6-4/assets/morehelp/3d;/content/help/en/experience-manager/6-4/assets/morehelp/3d" name="moreHelpPaths" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="1365" name="acrolinxWords" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/assets/using/advanced-config-3d.html" name="publishExternalURL" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="topic_tags:3D;content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/ASSETS" name="cq:tags" /> 
+  <meta content="light" name="gnavTheme" /> 
+  <meta content="rbrough" name="cq:lastReplicatedBy" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="rbrough@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2018-04-24T12:00:17.934-0400" name="locHandOffDate" /> 
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/advanced_config_3d_krs_workflow_f3c2f2ccebf6138e_80_report.xml" name="acrolinxReportURL" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="Advanced configuration settings" name="jcr:title" /> 
+  <meta content="asgupta" name="acrolinxLastCheckedBy" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2018-11-16T21:58:16.943-0500" name="lastPublishExternalDate" /> 
+  <meta content="green" name="acrolinxPageStatus" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2019-01-12T17:11:03.791-0500" name="acrolinxDate" /> 
+  <meta content="2018-11-16T21:58:17.513-0500" name="cq:lastReplicated" /> 
+  <meta content="dist5" name="distType" /> 
+  <meta content="checked_not_improved" name="acrolinxStatus" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2018-11-16T21:58:16.943-0500" name="topicBrowsingSortDate" /> 
+  <meta content="Learn about advanced configuration settings that apply to the integration of AEM 3D for both Maya and non-Maya deployments." name="seoDescription" /> 
+  <meta content="f48e4877-c919-4da7-a39b-4ab5b602d9fa" name="jcr:predecessors" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="f86abac2-5321-4bf5-8905-83940c7daff0" name="jcr:uuid" /> 
+  <meta content="rbrough" name="cq:lastModifiedBy" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+ </head> 
+ <body> 
+  <p>While the default configuration settings are appropriate for typical use cases, some situations may require you to make changes. </p> 
+  <p>The following advanced configuration settings apply to the integration of AEM 3D for both Maya and non-Maya deployments.</p> 
+  <p>All settings are accessed using CRXDE Lite in AEM (<strong>Tools </strong>&amp;gt; <strong>General </strong>&amp;gt; <strong>CRXDE Lite</strong>).</p> 
+  <note> 
+   <p>If you re-install the package, it resets all settings to their default values.</p> 
+  </note> 
+  <note> 
+   <p>Editing any settings that are not listed in the table below may result in unexpected or undesired program behavior.</p> 
+  </note> 
+  <h2>Asset Types Configuration</h2> 
+  <p>In CRXDE Lite in AEM (<strong>Tools </strong>&amp;gt; <strong>General </strong>&amp;gt; <strong>CRXDE Lite</strong>), access the following configurations:</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td>Path</td> 
+     <td>Description</td> 
+    </tr> 
+    <tr> 
+     <td>/libs/settings/dam/v3D/assetTypes/*/Conversion</td> 
+     <td>Specifies the file type for the intermediate 3D format created during ingestion. Must be empty for 'fbx' and 'obj' file formats or 'fbx' for formats enabled by Maya.</td> 
+    </tr> 
+    <tr> 
+     <td>/libs/settings/dam/v3D/assetTypes/*/Enabled</td> 
+     <td>Set to true or false to enable or disable this entry in the <strong>assetTypes</strong> list.</td> 
+    </tr> 
+    <tr> 
+     <td>/libs/settings/dam/v3D/assetTypes/*/Extension</td> 
+     <td>Specify one or more comma-separated file suffixes or file extensions which are to be associated with this asset type.</td> 
+    </tr> 
+    <tr> 
+     <td>/libs/settings/dam/v3D/assetTypes/*/IngestRegime</td> 
+     <td>Must be '<span class="code">native</span>' for FBX and OBJ file formats and '<span class="code">maya</span>' for formats enabled by Maya.</td> 
+    </tr> 
+    <tr> 
+     <td>/libs/settings/dam/v3D/assetTypes/*/MimeType</td> 
+     <td>Specifies the mime type for this asset type. For formats enabled by Maya it is recommended to use 'application/x-ext', where ext is the string specified as the <span class="code">Extension</span> value.</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h2>Ingestion Configuration</h2> 
+  <p>In CRXDE Lite in AEM (<strong>Tools </strong>&amp;gt; <strong>General </strong>&amp;gt; <strong>CRXDE Lite</strong>), access the following configurations:</p> 
+  <h2></h2> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td><strong>Path</strong></td> 
+     <td><strong>Description</strong></td> 
+    </tr> 
+    <tr> 
+     <td>/libs/settings/dam/v3D/settings/addGroundPlaneImageOnIngest</td> 
+     <td>Enables generation of an ambient occlusion drop shadow when viewing or rendering with an IBL stage. Applies to Preview and Rendering with RapidRefine</td> 
+    </tr> 
+    <tr> 
+     <td><p>/libs/settings/dam/v3D/settings/cleanupRenderWorkDir</p> </td> 
+     <td>Set to <strong>false</strong> to keep temporary files in the MayaWork folder after conversion and rendering. May be useful when debugging issues with Maya conversion and rendering.</td> 
+    </tr> 
+    <tr> 
+     <td>/libs/settings/dam/v3D/settings/invokeAnimationOnIngest</td> 
+     <td><p>When enabled, ImageMagick is installed on the server and magickPath is configured. Rapid Refine is used to create a simple animation for 3D objects that are used as a thumbnail in Card View and other views.</p> <p>Creating animations consumes significant CPU resources during the ingestion process.</p> </td> 
+    </tr> 
+    <tr> 
+     <td>/libs/settings/dam/v3D/settings/invokeLightMapsOnIngest</td> 
+     <td>Enables the automatic creation of light maps on ingestion. Set to <strong>false</strong> to disable automatic light map creation; this can significantly reduce CPU consumption at the cost of reduced quality for preview and rendering with Rapid Refine. Does not affect rendering with Maya.</td> 
+    </tr> 
+    <tr> 
+     <td>/libs/settings/dam/v3D/settings/gPlaneZero</td> 
+     <td><p>When set to <strong>true</strong> (default), objects are moved vertically, if necessary, to ensure that all parts of the object are above the ground plane (y=0).</p> <p>When set to <strong>false</strong> (default), objects are not repositioned and may be partially hidden by a stage's ground plane. (Applies only to preview and rendering with Rapid Refine.) However, it does not affect rendering with Maya. When set to <strong>true</strong>, the vertical position of objects in Maya may be different than in preview or when rendering with Rapid Refine.</p> </td> 
+    </tr> 
+    <tr> 
+     <td>/libs/settings/dam/v3D/Paths/magickPath</td> 
+     <td>The path and name to the ImageMagick convert utility. An absolute path is required if animated thumbnails creation is enabled.</td> 
+    </tr> 
+    <tr> 
+     <td>/libs/settings/dam/v3D/settings/MaxCpuPercentage</td> 
+     <td><p>Specifies how many CPUs are used at most for ingestion processing of 3D assets.</p> <p>Higher values speed up ingestions but may cause AEM to become less-responsive overall. This setting is approximate. That is, accuracy increases with the number of available CPU cores.</p> </td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h2>Cloud Services Configuration Settings</h2> 
+  <p>Values for the following settings are provided by your Adobe account manager, provisioning expert, or support representative.<strong><strong><br /> </strong></strong></p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td><strong>Path</strong></td> 
+     <td><strong>Description</strong></td> 
+    </tr> 
+    <tr> 
+     <td>/libs/settings/dam/v3D/services/aws/accountId</td> 
+     <td>The account id of the Adobe AWS account.</td> 
+    </tr> 
+    <tr> 
+     <td>/libs/settings/dam/v3D/services/aws/bucketName</td> 
+     <td>The name of the S3 transfer bucket; normally <span class="code">aem3d</span>.</td> 
+    </tr> 
+    <tr> 
+     <td>/libs/settings/dam/v3D/services/aws/customerId</td> 
+     <td>The unique id assigned by Adobe to your organization. Used as AWS Cognito user ID.</td> 
+    </tr> 
+    <tr> 
+     <td>/libs/settings/dam/v3D/services/aws/encryptedPassword</td> 
+     <td>The password associated with this customerId. Used as AWS Cognito password.</td> 
+    </tr> 
+    <tr> 
+     <td>/libs/settings/dam/v3D/services/aws/region</td> 
+     <td>The AWS region where the cloud services are deployed.</td> 
+    </tr> 
+    <tr> 
+     <td>/libs/settings/dam/v3D/services/aws/userPoolId</td> 
+     <td>The applicable AWS Cognito user pool ID.</td> 
+    </tr> 
+    <tr> 
+     <td>/libs/settings/dam/v3D/services/dncr/clientId</td> 
+     <td>The AWS Cognito client id for the dncr conversion service.</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h2>Common Processing Settings</h2> 
+  <p>In CRXDE Lite in AEM (<strong>Tools </strong>&amp;gt; <strong>General </strong>&amp;gt; <strong>CRXDE Lite</strong>), access the following configurations:</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td><strong>Path</strong></td> 
+     <td><strong>Description</strong></td> 
+    </tr> 
+    <tr> 
+     <td>/libs/settings/dam/v3D/Paths/mayaWorkPath</td> 
+     <td>The name and location of the working folder for Maya conversion and rendering. The folder is created automatically if it does not exist.</td> 
+    </tr> 
+    <tr> 
+     <td>/libs/settings/dam/v3D/Paths/maxWorkPath</td> 
+     <td>Name and location of the working folder for 3ds Max conversion. The folder is created automatically if it does not exist.</td> 
+    </tr> 
+    <tr> 
+     <td>/libs/settings/dam/v3D/settings/debugNative</td> 
+     <td>Set to <strong>true</strong> to enable creation of debug information during format conversion and rendering with the RapidRefine renderer.</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h2>Renderer Configuration</h2> 
+  <p>In CRXDE Lite in AEM (<strong>Tools </strong>&amp;gt; <strong>General </strong>&amp;gt; <strong>CRXDE Lite</strong>), access the following configurations:</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td><strong>Path</strong></td> 
+     <td><strong>Description</strong></td> 
+    </tr> 
+    <tr> 
+     <td>/libs/settings/dam/v3D/settings/dynamicIBL</td> 
+     <td>When set to <strong>true</strong> and pre-generated light maps are not available (that is invokeLightMapsOnIngest=false), the Rapid Refine renderer creates light maps during rendering to improve render quality. This setting can substantially increase render time. Setting to <strong>false</strong> minimizes CPU usage in such situations but may result in a lower render quality. </td> 
+    </tr> 
+    <tr> 
+     <td>/libs/settings/dam/v3D/renderers/*/Enabled</td> 
+     <td>Set to <strong>true</strong> or <strong>false</strong> to enable or disable a renderer, respectively.</td> 
+    </tr> 
+    <tr> 
+     <td>/libs/settings/dam/v3D/renderers/*/Display</td> 
+     <td>Lets you change the string that is displayed for an enabled renderer in the Renderer selector in the Render panel.</td> 
+    </tr> 
+    <tr> 
+     <td>/libs/settings/dam/v3D/renderers/*/MaxCpuPercentage</td> 
+     <td>Specifies how many CPUs are used at most for rendering 3D scenes. Higher values speed up rendering but may cause AEM to become less-responsive overall. This setting is approximate. That is, accuracy increases with the number of available CPU cores.</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h2>3D Asset Preview Settings</h2> 
+  <p>In CRXDE Lite in AEM (<strong>Tools </strong>&amp;gt; <strong>General </strong>&amp;gt; <strong>CRXDE Lite</strong>), access the following configurations:</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td>Path</td> 
+     <td>Description</td> 
+    </tr> 
+    <tr> 
+     <td>/libs/settings/dam/v3D/WebGLSites/autoSpin</td> 
+     <td>Set to <span class="code">true</span> or <span class="code">false</span> to enable or disable auto-spin (automatic camera orbit) on page load.</td> 
+    </tr> 
+    <tr> 
+     <td>/libs/settings/dam/v3D/WebGLSites/autoSpinAfterReset</td> 
+     <td>Set to <span class="code">true</span> to restart auto-spin after <strong>Reset</strong> is pressed. Ignored when auto-spin is disabled.</td> 
+    </tr> 
+    <tr> 
+     <td>/libs/settings/dam/v3D/WebGLSites/autoSpinSpeed</td> 
+     <td>Specifies the speed (revolutions per minute) and direction of auto-spin, with negative values for right-to-left and positive values for left-to-right rotation.</td> 
+    </tr> 
+    <tr> 
+     <td>/libs/settings/dam/v3D/WebGL/continueRotate</td> 
+     <td>Set to false to disable continuation with gradual fadeout of viewer responses to touch and mouse gestures.</td> 
+    </tr> 
+    <tr> 
+     <td>/libs/settings/dam/v3D/WebGL/curtainColor</td> 
+     <td>Specifies the color of the load curtain that can optionally cover the viewport of the 3D asset preview during load and initialization. R,G,B value, with each color component in the range 0 to 255.</td> 
+    </tr> 
+    <tr> 
+     <td>/libs/settings/dam/v3D/WebGL/fadeCurtains</td> 
+     <td>When set to <span class="code">true</span>, the load curtain will gradually fade out during the latter parts of viewer initialization. When set to false, the curtain remains opaque until loading and initialization has completed.</td> 
+    </tr> 
+    <tr> 
+     <td>/libs/settings/dam/v3D/WebGL/showCurtains</td> 
+     <td>Set to <span class="code">true</span> or <span class="code">false</span> to enable or disable the load curtain for 3D asset preview.</td> 
+    </tr> 
+    <tr> 
+     <td>/libs/settings/dam/v3D/WebGL/spinHeight</td> 
+     <td>When auto-spin is enabled and active, the vertical position of the camera is automatically adjusted relative to the height of the 3D object. When set to 0.5, the camera will positioned vertically at 1/2 the height of the object, which results in the horizon to be centered vertically in the viewport. Larger values result in the camera looking down onto the object and raising the height of the rendered horizon, smaller values result in the camera looking up at the object and lowering the horizon.</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h2>3D Sites Component Settings</h2> 
+  <p>In CRXDE Lite in AEM (<strong>Tools </strong>&amp;gt; <strong>General </strong>&amp;gt; <strong>CRXDE Lite</strong>), access the following configurations:</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td>Path</td> 
+     <td>Description</td> 
+    </tr> 
+    <tr> 
+     <td>/libs/settings/dam/v3D/WebGLSites/autoSpinAfterReset</td> 
+     <td>Set to <span class="code">true</span> to reactivate auto-spin (automatic camera orbit) after home is pressed. Ignored when auto-spin is disabled.</td> 
+    </tr> 
+    <tr> 
+     <td>/libs/settings/dam/v3D/WebGLSites/continueRotate</td> 
+     <td>Set to <span class="code">false</span> to disable continuation with gradual fadeout of viewer responses to touch and mouse gestures.</td> 
+    </tr> 
+    <tr> 
+     <td>/libs/settings/dam/v3D/WebGLSites/curtainColor</td> 
+     <td>Specifies the color of the load curtain that can optionally cover the viewport of the 3D Sites component during load. R,G,B value, with each color component in the range 0 to 255.</td> 
+    </tr> 
+    <tr> 
+     <td>/libs/settings/dam/v3D/WebGLSites/fadeCurtains</td> 
+     <td>When set to <span class="code">true</span>, the load curtain will gradually fade out during the latter parts of loading and initialization. When set to <span class="code">false</span>, the curtain remains opaque until loading and initialization has completed.</td> 
+    </tr> 
+    <tr> 
+     <td>/libs/settings/dam/v3D/WebGLSites/showCurtains</td> 
+     <td>Set to <span class="code">true</span> or <span class="code">false</span> to enable or disable the load curtain for the 3D Sites component.</td> 
+    </tr> 
+    <tr> 
+     <td>/libs/settings/dam/v3D/WebGLSites/spinHeight</td> 
+     <td>When auto-spin is enabled and active, the vertical position of the camera is automatically adjusted relative to the height of the 3D object. When set to 0.5, the camera will positioned vertically at 1/2 the height of the object, which results in the horizon to be centered vertically in the viewport. Larger values result in the camera looking down onto the object and raising the height of the rendered horizon, smaller values result in the camera looking up at the object and lowering the horizon.</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+ </body> 
+</html>

@@ -1,0 +1,173 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2018-04-03T07:02:04.585-0400" name="publishExternalDate" /> 
+  <meta content="jsyal" name="cq:lastReplicatedBy" /> 
+  <meta content="Integrating with Adobe Campaign Standard" name="jcr:title" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="2018-04-03T07:02:04.585-0400" name="topicBrowsingSortDate" /> 
+  <meta content="ca42d323-4b29-4773-bc84-597fefe9c8e6" name="jcr:uuid" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/campaignstandard.html" name="publishExternalURL" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="2018-04-26T10:13:48.659-0400" name="locHandOffDate" /> 
+  <meta content="2018-10-27T23:44:50.197-0400" name="cq:lastReplicated" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/administering/morehelp/integration;/content/help/en/experience-manager/6-4/sites/administering/morehelp/integration" name="moreHelpPaths" /> 
+  <meta content="2017-10-31T16:25:37.632-0400" name="firstPublishExternalDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="/content/docs/en/aem/6-3/administer/integration/marketing-cloud/campaign/campaignstandard" name="qaNotes" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2018-04-03T07:02:04.585-0400" name="lastPublishExternalDate" /> 
+  <meta content="2017-12-01T19:04:49.716-0500" name="jcr:created" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="Integrating with Adobe Campaign Standard." name="seoDescription" /> 
+  <meta content="Integrating with Adobe Campaign Standard" name="navTitle" /> 
+  <meta content="c2c47cf8-aba2-471d-b563-8c94a9f6446d" name="jcr:predecessors" /> 
+  <meta content="Integrating with Adobe Campaign Standard" name="seoTitle" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="raiman" name="cq:lastModifiedBy" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="User" name="contentOwner" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="audience:administering" name="primaryAudienceTag" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:integration;content_type:reference" name="cq:tags" /> 
+  <meta content="2018-11-28T10:19:34.316-0500" name="cq:lastModified" /> 
+ </head> 
+ <body> 
+  <note> 
+   <p>This documentation describes how to integrate AEM with Adobe Campaign Standard, the subscription-based solution. If you are using Adobe Campaign 6.1, see <a href="../../../sites/administering/using/campaignonpremise.md">Integrating with Adobe Campaign 6.1</a> for those instructions.</p> 
+  </note> 
+  <p>Adobe Campaign lets you manage email delivery content and forms directly in Adobe Experience Manager.</p> 
+  <p>To use both solutions together at the same, you must first configure them to connect to one another. This involves configuration steps in both Adobe Campaign and Adobe Experience Manager. These steps are described in detail in this document.</p> 
+  <p>Working with Adobe Campaign in AEM includes the ability to send email and forms via Adobe Campaign and is described at <a href="../../../sites/authoring/using/campaign.md">Working with Adobe Campaign</a>.</p> 
+  <p>In addition, the following topics may be of interest when integrating AEM with <a href="https://docs.campaign.adobe.com/doc/standard/en/home.html">Adobe Campaign</a>:</p> 
+  <ul> 
+   <li><a href="../../../sites/administering/using/best-practices-for-email-templates.md">Best practices for email templates</a></li> 
+   <li><a href="../../../sites/administering/using/troubleshooting-campaignintegration.md">Troubleshooting your Adobe Campaign integration</a></li> 
+  </ul> 
+  <p>If you are extending your integration with Adobe Campaign, you may want to see the following pages:</p> 
+  <ul> 
+   <li><a href="../../../sites/developing/using/extending-campaign-extensions.md">Creating Custom Extensions</a></li> 
+   <li><a href="../../../sites/developing/using/extending-campaign-form-mapping.md">Creating Custom Form Mappings</a></li> 
+  </ul> 
+  <h2>Configuring Adobe Campaign</h2> 
+  <p>Configuring Adobe Campaign involves the following:</p> 
+  <ol> 
+   <li>Configuring the <strong>aemserver</strong> user.</li> 
+   <li>Creating a dedicated external account.</li> 
+   <li>Verifying the AEMResourceTypeFilter option.</li> 
+   <li>Creating a dedicated delivery template.</li> 
+  </ol> 
+  <note> 
+   <p>To perform these operations, you must have the <strong>administration</strong> role in Adobe Campaign.</p> 
+  </note> 
+  <h3>Prerequisites</h3> 
+  <p>Make sure you have the following elements beforehand:</p> 
+  <ul> 
+   <li><a href="../../../sites/deploying/using/deploy.md#gettingstarted">An AEM authoring instance</a></li> 
+   <li><a href="../../../sites/deploying/using/deploy.md#authorandpublishinstalls">An AEM publishing instance</a></li> 
+   <li><a href="https://docs.adobe.com/content/docs/en/campaign/ACS.html">An Adobe Campaign instance</a></li> 
+  </ul>  
+  <note> 
+   <p>Operations detailed in the <a href="#configuringadobecampaign">Configuring Adobe Campaign</a> and <a href="#configuringadobeexperiencemanager">Configuring Adobe Experience Manager</a> sections are necessary for the integration functionalities between AEM and Adobe Campaign to work correctly.</p> 
+  </note> 
+  <h3>Configuring the aemserver user</h3> 
+  <p>The <strong>aemserver</strong> user must be configured in Adobe Campaign. The <strong>aemserver</strong> is a technical user that will be used to connect the AEM server to Adobe Campaign.</p> 
+  <p>Go to <strong>Administration </strong>&amp;gt; <strong>Users &amp; Security </strong>&amp;gt; <strong>Users</strong>, and select the <strong>aemserver</strong> user. Click it to open the user settings.</p> 
+  <ul> 
+   <li>You have to set a password for this user. This cannot be done through the UI. This configuration must be done in REST by a technical administrator.</li> 
+   <li>You can assign specific roles to this user, such as <strong>deliveryPrepare</strong>, which allows the user to create and edit deliveries.</li> 
+  </ul> 
+  <p> </p> 
+  <h3>Configuring an Adobe Experience Manager external account</h3> 
+  <p>You must configure an external account that allows you to connect Adobe Campaign to your AEM instance.</p> 
+  <note> 
+   <p>In AEM, be sure that you set the password for the campaign-remote user. You need to set this password to connect Adobe Campaign with AEM. Log in as administrator and in the user administration console, search for the campaign-remote user and click <strong>Set Password</strong>.</p> 
+  </note> 
+  <p>To configure an AEM external account:</p> 
+  <ol> 
+   <li><p>Go to <strong>Administration</strong> &amp;gt; <strong>Application settings</strong> &amp;gt; <strong>External accounts</strong>.</p> <img imageRotate="0" src="assets/chlimage_1-144.png" /></li> 
+   <li><p>Select the default <strong>aemInstance</strong> external account or create a new one by clicking the <strong>Create </strong>button.</p> </li> 
+   <li><p>Select <strong>Adobe Experience Manager </strong>in the <strong>Type </strong>field and enter the access parameters used for your AEM authoring instance: server address, account name and password.</p> 
+    <note> 
+     <p>Be sure that you do not add an ending <strong>/</strong> slash at the end of the URL or the connection will not work.</p> 
+    </note></li> 
+   <li><p>Make sure that the <strong>Enabled</strong> checkbox is selected, then click <strong>Save</strong> to save your modifications.</p> </li> 
+  </ol> 
+  <h3>Verifying the AEMResourceTypeFilter option</h3> 
+  <p>The <strong>AEMResourceTypeFilter </strong>option is used to filter types of AEM resources that can be used in Adobe Campaign. This allows Adobe Campaign to retrieve AEM contents that are specifically designed to be used in Adobe Campaign only.</p> 
+  <p>This option comes pre-configured; however, if you change this option, it may lead to a non-functioning integration.</p> 
+  <p>To verify the <strong>AEMResourceTypeFilter </strong>option is configured:</p> 
+  <ol> 
+   <li><p>Go to <strong>Administration</strong> &amp;gt; <strong>Application settings</strong> &amp;gt; <strong>Options</strong>.</p> </li> 
+   <li><p>In the list, you can ensure that the <strong>AEMResourceTypeFilter</strong> option is listed and that the paths are correct.</p> </li> 
+  </ol> 
+  <h3>Creating an AEM-specific email delivery template</h3> 
+  <p>By default, the AEM feature is not enabled in Adobe Campaign's email templates. You can configure a new email delivery template that will be used to create emails with AEM content.</p> 
+  <p>To create an AEM-specific email delivery template:</p> 
+  <ol> 
+   <li><p>Go to <strong>Resources</strong> &amp;gt; <strong>Templates</strong> &amp;gt; <strong>Delivery templates</strong>.</p> </li> 
+   <li><p><strong>Enable selection</strong> by clicking the checkmark in the action bar and selecting the existing <strong>Standard email (mail)</strong> default template, then duplicate<strong> </strong>it by clicking the <strong>Copy</strong> icon and clicking <strong>Confirm</strong>.<strong></strong></p> </li> 
+   <li><p>Disable the selection mode by clicking the <strong>x </strong>and open the newly created <strong>Copy of Standard email</strong> <strong>(mail)</strong> template, then select <strong>Edit properties</strong> from the action bar of the template dashboard.</p> <p>You can modify the<strong> </strong>template's<strong> Label</strong>.<strong></strong></p> </li> 
+   <li><p>In the properties <strong>Content</strong> section, change the <strong>Content source</strong> to <strong>Adobe Experience Manager</strong>. Then select the external account that was previously created and click <strong>Confirm</strong>.</p> <p>Save your modifications by clicking <strong>Confirm </strong>and clicking <strong>Save.</strong></p> <p>Email deliveries created from this template will have the AEM content feature enabled.</p> <img imageRotate="0" src="assets/chlimage_1-145.png" /></li> 
+  </ol> 
+  <h2>Configuring Adobe Experience Manager</h2> 
+  <p>To configure AEM, you must do the following:</p> 
+  <ul> 
+   <li>Configure replication between instances.</li> 
+   <li>Connect AEM to Adobe Campaign.</li> 
+   <li>Configure the externalizer.</li> 
+  </ul> 
+  <h3>Configuring replication between AEM instances</h3> 
+  <p>Content created from the AEM authoring instance is first sent to the publishing instance. This publishing instance then transfers the content to Adobe Campaign. The replication agent must therefore be configured to replicate from the AEM authoring instance to the AEM publishing instance.</p> 
+  <note> 
+   <p>If you do not want to use the replication URL but instead use the public-facing URL, you can set the <strong>Public URL</strong> in the following configuration setting in the OSGi (<strong>Tools</strong> &amp;gt; <strong>Web Console</strong> &amp;gt; <strong>OSGi Configuration &amp;gt; AEM Campaign Integration - Configuration</strong>):</p> 
+   <p><strong>Public URL:</strong> com.day.cq.mcm.campaign.impl.IntegrationConfigImpl#aem.mcm.campaign.publicUrl</p> 
+  </note> 
+  <p>This step is also necessary to replicate certain authoring instance configurations into the publishing instance.</p> 
+  <p>To configure replication between AEM instances:</p> 
+  <ol> 
+   <li><p>From the authoring instance, select <strong>AEM logo</strong>&amp;gt; <strong>Tools </strong>icon &amp;gt; <strong>Deployment</strong> &amp;gt; <strong>Replication</strong> &amp;gt; <strong>Agents on author</strong>, then click <strong>Default Agent</strong>.</p> <img imageRotate="0" src="assets/chlimage_1-146.png" /> 
+    <note> 
+     <p>Avoid using localhost (that is a local copy of AEM) when configuring your integration with Adobe Campaign unless the publish and author instance are both on the same computer.</p> 
+    </note></li> 
+   <li><p>Click <strong>Edit</strong> then select the <strong>Transport</strong> tab.</p>  </li> 
+   <li><p>Configure the URI by replacing <strong>localhost</strong> with the IP address or the address of the AEM publishing instance.</p> <img imageRotate="0" src="assets/chlimage_1-147.png" /></li> 
+  </ol> 
+  <h3>Connecting AEM to Adobe Campaign</h3> 
+  <p>Before you can use AEM and Adobe Campaign together, you must establish the link between both solutions so that they can communicate.</p> 
+  <ol> 
+   <li><p>Connect to your AEM authoring instance.</p>  </li> 
+   <li><p>Select <strong>Tools</strong> &amp;gt; <strong>Operations</strong> &amp;gt; <strong>Cloud</strong> &amp;gt; <strong>Cloud Services</strong>, then <strong>Configure now</strong> in the Adobe Campaign section.</p> <img imageRotate="0" src="assets/chlimage_1-148.png" /></li> 
+   <li><p>Create a new configuration by entering a <strong>Title</strong> and click <strong>Create</strong>, or choose the existing configuration that you want to link with your Adobe Campaign instance.</p> </li> 
+   <li><p>Edit the configuration so that it matches the parameters of your Adobe Campaign instance.</p> 
+    <ul> 
+     <li><strong>Username</strong>: <strong>aemserver</strong>, the Adobe Campaign AEM Integration package operator used to establish the link between the two solutions.</li> 
+     <li><strong>Password</strong>: Adobe Campaign aemserver operator password. You may have to re-specify the password for this operator directly in Adobe Campaign.</li> 
+     <li><strong>API End Point</strong>: Adobe Campaign instance URL.</li> 
+    </ul> </li> 
+   <li><p>Select <strong>Connect to Adobe Campaign </strong>and click <strong>OK</strong>.</p> <img imageRotate="0" src="assets/chlimage_1-149.png" /> 
+    <note> 
+     <p>After you <a href="../../../sites/authoring/using/campaign.md">create your email and publish it</a>, you need to re-publish the configuration onto your publish instance.</p> 
+    </note><img imageRotate="0" src="assets/chlimage_1-150.png" /></li> 
+  </ol> 
+  <note> 
+   <p>If the connection fails, make sure you check the following:</p> 
+   <ul> 
+    <li>You may encounter a certificate problem when using a secure connection to an Adobe Campaign instance (https). You will have to add the Adobe Campaign instance certificate to the <strong>cacerts </strong>file of your JDK.</li> 
+    <li>In addition, see <a href="../../../sites/administering/using/troubleshooting-campaignintegration.md">Troubleshooting your AEM/Adobe Campaign Integration</a>.</li> 
+   </ul> 
+  </note> 
+  <h3>Configuring the externalizer</h3> 
+  <p>You need to <a href="../../../sites/developing/using/externalizer.md">configure the externalizer</a> in AEM on your author instance. The Externalizer is an OSGi service that lets you transform a resource path into an external and absolute URL. This service provides a central place to configure those external URLs and build them.</p> 
+  <p>See <a href="../../../sites/developing/using/externalizer.md">Configure the externalizer</a> for general instructions. For the Adobe Campaign integration, make sure you configure the publish server at <span class="code">http://<i>&amp;lt;host&amp;gt;:&amp;lt;port&amp;gt;</i>/system/console/configMgr/com.day.cq.commons.impl.ExternalizerImpl</span> not point to <span class="code">localhost:4503</span> but to a server that is reachable by the Adobe Campaign console.</p> 
+  <p>If it points to <span class="code">localhost:4503</span> or another server that Adobe Campaign cannot reach, your images will not appear on the Adobe Campaign console.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-151.png" />                          
+ </body> 
+</html>

@@ -1,0 +1,101 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/saving_html5_form_draft_admin_5e12de0b318c6865_2111_report.xml" name="acrolinxReportURL" /> 
+  <meta content="2015-06-12T04:29:47.273-0400" name="lastPublishQADate" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="2016-05-31T06:47:27.602-0400" name="acrolinxDate" /> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:hTML5_forms" name="cq:tags" /> 
+  <meta content="2018-04-03T08:52:08.620-0400" name="topicBrowsingSortDate" /> 
+  <meta content="c354fd8b-2f38-4d15-a9ae-06e94f0c2b31" name="jcr:predecessors" /> 
+  <meta content="Saving an HTML5 form as a draft" name="navTitle" /> 
+  <meta content="2018-04-03T08:52:08.620-0400" name="publishExternalDate" /> 
+  <meta content="2018-04-03T08:52:08.751-0400" name="cq:lastReplicated" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="324" name="acrolinxWords" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/saving-html5-form-draft.html" name="publishExternalURL" /> 
+  <meta content="2018-04-26T04:34:15.863-0400" name="locHandOffDate" /> 
+  <meta content="2018-04-26T04:34:15.864-0400" name="cq:lastModified" /> 
+  <meta content="2016-04-20T09:25:26.926-0400" name="firstPublishExternalDate" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="Saving an HTML5 form as a draft" name="jcr:title" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2018-04-03T08:52:08.620-0400" name="lastPublishExternalDate" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="ff872d79-71aa-4b67-981e-df732e7db80a" name="jcr:uuid" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="14" name="acrolinxSentences" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="2017-12-01T19:01:19.288-0500" name="jcr:created" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="Save an HTML5 form as a draft and resume filling the form at a later stage." name="seoDescription" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+ </head> 
+ <body> 
+  <p>You can save an HTML5 form as a draft and resume filling the form at a later stage. Forms Portal allows any user to save and restore an HTML5 form. To enable the Save as Draft functionality, add the following configurations to the profile node: </p> 
+  <h3>Custom Profile to allow Save as Draft feature</h3> 
+  <p>Out of the box, AEM Forms provide a <strong>Save as Draft </strong>profile. You can render a form with the Save as Draft profile to enable draft functionality for an HTML5 form. You can specify HTML render profile for a form in <a href="../../forms/using/introduction-managing-forms.md" target="_blank">Forms Manager</a>.</p> 
+  <p>To enable Save as Draft functionality for your existing <a href="../../forms/using/custom-profile.md" target="_blank">custom profile</a>, add the following properties to your custom profile node: </p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td><strong>Property Name</strong></td> 
+     <td><strong>Type</strong></td> 
+     <td><strong>Value</strong></td> 
+     <td><strong>Description</strong></td> 
+    </tr> 
+    <tr> 
+     <td>mfAllowFPDraft</td> 
+     <td>String</td> 
+     <td>true</td> 
+     <td><p>Enables save as draft feature</p> <p>for this profile.</p> </td> 
+    </tr> 
+    <tr> 
+     <td>mfAllowAttachments</td> 
+     <td>String</td> 
+     <td>true</td> 
+     <td><p>Allows uploading of attachments</p> <p>with this profile.</p> </td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h3>Drafts storage and listing</h3> 
+  <p>After enabling Save as Draft functionality for a form; when the form is saved, it is listed in the <a href="../../forms/using/draft-submission-component.md" target="_blank">Drafts and Submission component</a>. You can retrieve and start filling the saved form form the Draft and Submission component.</p> 
+  <p>To enable forms listing for the Draft and Submission component, add the following property to the profile node: </p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td><strong>Property Name</strong></td> 
+     <td><strong>Type</strong></td> 
+     <td><strong>Value</strong></td> 
+     <td><strong>Description</strong></td> 
+    </tr> 
+    <tr> 
+     <td>fp.enablePortalSubmit</td> 
+     <td>String</td> 
+     <td>true</td> 
+     <td>To enable drafts and forms to get listed in<br /> Forms Portal Drafts &amp; Submissions component after submission</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <p>By default, AEM Forms stores the user data associated with the draft and submission of a form in the /content/forms/fp node on the Publish instance. You can add your custom storage provider, for details see <a href="../../forms/using/adding-custom-storage-provider-forms.md" target="_blank">Custom storage for Drafts and Submissions component</a>.</p> 
+  <related-links> 
+   <a href="../../forms/using/draft-submission-component.md" target="_blank">Drafts and Submissions components</a> 
+   <a href="../../forms/using/creating-form-portal-page.md" target="_blank">Creating a forms portal page</a> 
+   <a href="../../forms/using/adding-custom-storage-provider-forms.md" target="_blank">Custom storage for drafts and submissions component</a> 
+  </related-links> 
+ </body> 
+</html>

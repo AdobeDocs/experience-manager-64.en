@@ -1,0 +1,89 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="checked_not_improved" name="acrolinxStatus" /> 
+  <meta content="99a06da8-d9ed-44e4-84a3-7d15cc4c61d5" name="jcr:uuid" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="yellow" name="acrolinxPageStatus" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="Learn how to work with panoramic images in Dynamic Media." name="seoDescription" /> 
+  <meta content="Panoramic Images" name="jcr:title" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/panoramic_images_krs_workflow_f3c2f2ccebf6138e_217_report.xml" name="acrolinxReportURL" /> 
+  <meta content="Panoramic Images" name="seoTitle" /> 
+  <meta content="44" name="acrolinxSentences" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="/content/help/en/experience-manager/6-4/assets/morehelp/dynamic-media;/content/help/en/experience-manager/6-4/assets/morehelp/dynamic-media" name="moreHelpPaths" /> 
+  <meta content="2019-01-12T17:37:13.321-0500" name="acrolinxDate" /> 
+  <meta content="b64d9680-753c-453d-8ccd-ba105e0624dc" name="jcr:predecessors" /> 
+  <meta content="asgupta" name="acrolinxLastCheckedBy" /> 
+  <meta content="2018-04-24T11:56:39.068-0400" name="cq:lastModified" /> 
+  <meta content="2018-10-27T23:43:06.910-0400" name="cq:lastReplicated" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2018-03-15T09:01:34.278-0400" name="jcr:created" /> 
+  <meta content="topic_tags:dynamic-media;products:SG_EXPERIENCEMANAGER/6.4/ASSETS;content_type:reference" name="cq:tags" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS" name="primaryProductTag" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="jsyal" name="cq:lastReplicatedBy" /> 
+  <meta content="2018-04-24T11:56:39.068-0400" name="locHandOffDate" /> 
+  <meta content="rbrough" name="contentOwner" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="rbrough" name="cq:lastModifiedBy" /> 
+  <meta content="en" name="pageCreatedAt" /> 
+  <meta content="Panoramic Images" name="navTitle" /> 
+  <meta content="603" name="acrolinxWords" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+ </head> 
+ <body> 
+  <p>This section describes working with the Panoramic Image viewer to render spherical panoramic images for an immersive 360° viewing experience of a room, property, location, or landscape.</p> 
+  <p>See also <a href="../../assets/using/managing-viewer-presets.md" target="_blank">Managing Viewer Presets</a>.</p> 
+  <img imageRotate="0" src="assets/panoramic-image2.png" /> 
+  <h2>Uploading assets for use with the Panoramic Image viewer</h2> 
+  <p>For an uploaded asset to qualify as a spherical panorama image that you intend to use with the Panoramic Image viewer, the asset must have either one or both of the following:</p> 
+  <ul> 
+   <li>An aspect ratio of 2.<br /> You can override the default aspect ratio setting of 2 in CRXDE Lite at the following:<br /> <span class="kbd">/conf/global/settings/cloudconfigs/dmscene7/jcr:content</span></li> 
+   <li>Tagged with the keywords <span class="kbd">equirectangular</span>, or <span class="kbd">spherical </span>and <span class="kbd">panorama</span>, or <span class="kbd">spherical</span> and <span class="kbd">panoramic</span>. See <a href="../../sites/authoring/using/tags.md">Using Tags</a>.</li> 
+  </ul> 
+  <p>Both the aspect ratio and keyword criteria apply to panoramic assets for the asset details page and the "Panoramic Media" WCM component.</p> 
+  <p>To upload assets for use with the Panoramic Image viewer, see <a href="../../assets/using/managing-assets-touch-ui.md#uploadingassets" target="_blank">Uploading Assets</a>.</p> 
+  <h2>Configuring Dynamic Media Classic (Scene7)</h2>  
+  <p>For the Panoramic Image viewer to work properly within AEM, you must synchronize the Panoramic Image viewer presets with Dynamic Media Classic (Scene7) and Dynamic Media Classic (Scene7)-specific metadata so the viewer presets get updated in the JCR. To accomplish this, configure Dynamic Media Classic (Scene7) in the following manner:</p> 
+  <ol> 
+   <li><p><a href="http://www.adobe.com/marketing-cloud/experience-manager/scene7-login.html" target="_blank">Log into your instance of Dynamic Media Classic (Scene7)</a> for each company account.<br /> </p> </li> 
+   <li><p>Near the upper-right corner of the page, click <strong>Setup</strong> &amp;gt; <strong>Application Setup</strong> &amp;gt; <strong>Publish Setup</strong> &amp;gt; <strong>Image Server</strong>.</p> </li> 
+   <li><p>On the Image Server Publish page, from the <strong>Publish Context</strong> drop-down menu near the top, select <strong>Image Serving</strong>.<br /> </p> </li> 
+   <li><p>On the same Image Server Publish page, locate the heading <strong>Request Attributes</strong>.</p> </li> 
+   <li><p>Under the Request Attributes heading, locate <strong>Reply Image Size Limit</strong>. Then, in the associated Width and Height fields, increase the maximum allowable image size for panoramic images. </p> <p>Dynamic Media Classic (Scene7) has a limit of 25,000,000 pixels. The maximum allowable size for images with a 2:1 aspect ratio is 7000 x 3500. However, for typical desktop screens, 4096 x 2048 pixels is sufficient.<br /> </p> 
+    <note> 
+     <p>Only images that fall within the maximum allowable image size are supported. Requests for images that are above the size limit will result in a 403 response.</p> 
+    </note></li> 
+   <li><p>Under the Request Attributes heading, do the following:</p> 
+    <ul> 
+     <li>Set Request Obfuscation Mode to <strong>Disabled</strong>.</li> 
+     <li>Set Request Locking Mode to <strong>Disabled</strong>.</li> 
+    </ul> <p>These settings are necessary for using the Panoramic Media WCM component in AEM.<br /> </p> </li> 
+   <li><p>At the bottom of the Image Server Publish page, on the left side, click <strong>Save</strong>.<br /> </p> </li> 
+   <li><p>In the lower-right corner, click <strong>Close</strong>.</p> </li> 
+  </ol> 
+  <h3>Troubleshooting the Panoramic Media WCM component</h3> 
+  <p>If you dropped an image into the Panoramic Media component in your WCM and the component placeholder collapsed, you may want to troubleshoot the following:</p> 
+  <ul> 
+   <li>If you experience a 403 Forbidden error, it may have been caused by the requested image size being too large. Review the <strong>Reply Image Size Limit</strong> settings in <a href="../../assets/using/panoramic-images.md#configuring%20dynamic%20media%20classic%20(scene7)">Configuring Dynamic Media Classic (Scene7)</a>.</li> 
+   <li>For an "Invalid lock" on the asset or "Parsing error" displayed on the page, check Request Obfuscation Mode and Request Locking Mode to ensure they are disabled.</li> 
+   <li>For a tainted canvas error, setup a Rule Set Definition File Path and Invalidate CTN for the previous requests for the image asset.</li> 
+   <li>If image quality becomes very low after an image request with sizing above the supported limit, check that the <strong>JPEG Encoding Attributes</strong> &amp;gt; <strong>Quality</strong> setting is not empty. A typical setting for the <strong>Quality </strong>field is 95. You can find the setting on the Image Server Publish page. To access the page, see <a href="../../assets/using/panoramic-images.md#configuring%20dynamic%20media%20classic%20(scene7)">Configuring Dynamic Media Classic (Scene7)</a>. </li> 
+  </ul> 
+  <h2>Previewing Panoramic Images</h2> 
+  <p>See <a href="../../assets/using/previewing-assets.md" target="_blank">Previewing Assets</a>.</p> 
+  <h2>Publishing Panoramic Images</h2> 
+  <p>See <a href="../../assets/using/publishing-dynamicmedia-assets.md" target="_blank">Publishing Assets</a>.</p> 
+ </body> 
+</html>

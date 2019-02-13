@@ -1,0 +1,88 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="Janice Kendall" name="contentOwner" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/communities/using/tools-groups.html" name="publishExternalURL" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="/content/docs/en/aem/6-3/administer/communities/consoles/tools/groups" name="qaNotes" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="Group Templates" name="navTitle" />
+  <meta content="2018-05-17T05:55:19.536-0400" name="locHandOffDate" />
+  <meta content="mgulati" name="cq:lastModifiedBy" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="Group Templates" name="jcr:title" />
+  <meta content="2018-04-03T08:03:56.424-0400" name="topicBrowsingSortDate" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="How to access the Group Templates console" name="seoDescription" />
+  <meta content="602dc67f-774f-4dd0-b1fb-eb0b94ea6b82" name="jcr:uuid" />
+  <meta content="2017-12-01T19:01:51.007-0500" name="jcr:created" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES;topic_tags:administering;content_type:reference" name="cq:tags" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" />
+  <meta content="2018-04-03T08:03:57.555-0400" name="cq:lastReplicated" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES" name="primaryProductTag" />
+  <meta content="/content/help/en/experience-manager/6-4/communities/morehelp/administering;/content/help/en/experience-manager/6-4/communities/morehelp/administering" name="moreHelpPaths" />
+  <meta content="2018-04-03T08:03:56.424-0400" name="lastPublishExternalDate" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="2018-05-17T05:55:19.537-0400" name="cq:lastModified" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2018-04-03T08:03:56.424-0400" name="publishExternalDate" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2017-10-31T16:33:15.094-0400" name="firstPublishExternalDate" />
+  <meta content="Group Templates" name="seoTitle" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="85725152-8e44-4a0f-8ed9-4640e3209a97" name="jcr:predecessors" />
+ </head>
+ <body>
+  <p>The Group Templates console is very similar to the <a href="../../communities/using/sites.md">Site Templates</a> console. Both are blueprints for a set of pre-wired pages and features which form a community site. The difference is that a site template is for the main community and a group template is for a community group, a sub-community nested within the main community. </p> 
+  <p>A community group is incorporated into a site template by including the <a href="../../communities/using/functions.md#groupsfunction">Groups function</a> (which may not be the first nor only function in the template).</p> 
+  <p>As of Communities <a href="../../communities/using/deploy-communities.md#latestfeaturepack">feature pack 1</a>, it is possible to nest groups by including the Groups function within a group template.</p> 
+  <p>At the moment the action is taken to create a new community group, the group's template (structure) is selected. The selection depends on how the Groups function was configured when added to the site or group template.</p> 
+  <note>
+   <p>The consoles for the creation of <a href="../../communities/using/sites-console.md">community sites</a>, <a href="../../communities/using/sites.md">community site templates</a>, <a href="../../communities/using/tools-groups.md">community group templates</a> and <a href="../../communities/using/functions.md">community functions</a> are for use only in the author environment.</p> 
+  </note>
+  <h2>Group Templates Console</h2>
+  <p>In the author environment, to reach the groups templates console</p> 
+  <ul> 
+   <li>from global navigation : <strong>Tools, Communities, Group Templates</strong></li> 
+  </ul> 
+  <p>This console displays the templates from which a <a href="../../communities/using/sites-console.md">community site</a> can be created and allows new group templates to be created.</p> 
+  <img imageRotate="0" src="assets/groupstemplate.png" />
+  <h2>Create Goup Template</h2>
+  <p>To get started creating a new group template, select <span class="code">Create</span></p> 
+  <p>This will bring up the Site Editor panel which contains 3 sub-panels :</p> 
+  <h4>Basic Info</h4>
+  <img imageRotate="0" src="assets/chlimage_1-96.png" />
+  <p>On the Basic Info panel, a name, description and whether the template is enabled or disabled are configured :</p> 
+  <ul> 
+   <li><strong>New Group Template Name </strong><br /> the template name id</li> 
+   <li><strong>Description</strong><br /> the template description</li> 
+   <li><strong>Disabled/Enabled</strong><br /> a toggle switch controlling whether the template is referenceable</li> 
+  </ul> 
+  <h4>Thumbnail</h4>
+  <img imageRotate="0" src="assets/chlimage_1-97.png" />
+  <p>(Optional) Select the Upload Image icon in order to display a Thumbnail along with the Name and Description to creators of community sites.</p> 
+  <h4>Structure</h4>
+  <note>
+   <p>If working with AEM 6.1 Communities FP4 or earlier, do not add a groups function to a group template.</p> 
+   <p>The nested groups feature is available as of Communities <a href="../../communities/using/communities.md#latestfeaturepack">FP1</a>.</p> 
+   <p>It is still not allowed to add a Groups function as the first or only function in a template.</p> 
+  </note>
+  <img imageRotate="0" src="assets/grptemplateeditor.png" />
+  <p>To add community functions, drag from the right side to the left in the order the site menu links should appear. Styles will be applied to the template during creation of the site.</p> 
+  <p>For example, if you want a forum, drag the forum function from the library and drop under the template builder. This will result in the forum configuration dialog opening. See the <a href="../../communities/using/functions.md">functions console</a> for information about the configuration dialogs.</p> 
+  <p>Continue dragging and dropping any other community functions desired for a sub-community site (group) based on this template.</p> 
+  <img imageRotate="0" src="assets/dragfunctions.png" />
+  <p>Once all desired functions have been dropped into the template builder area and configured, select <strong>Save </strong>in the upper right hand corner.</p> 
+  <h2>Edit Group Template</h2>
+  <p>When viewing community groups in the main <a href="#grouptemplatesconsole">Group Templates console</a>, it is possible to select an existing group template for edit.</p> 
+  <p>Editing a group template will not affect community sites already created from the template. It is possible to directly <a href="../../communities/using/sites-console.md#modifystructure">edit a community site</a>'s structure instead.</p> 
+  <p>This process provides the same panels as <a href="#creategrouptemplate">creating a group template</a>.</p> 
+ </body>
+</html>

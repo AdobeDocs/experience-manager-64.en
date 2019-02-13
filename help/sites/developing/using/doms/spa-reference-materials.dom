@@ -1,0 +1,53 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="Javascript API References" name="navTitle" />
+  <meta content="not_checked" name="acrolinxStatus" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/spa-reference-materials.html" name="publishExternalURL" />
+  <meta content="video" name="pageLayout" />
+  <meta content="2018-09-07T12:31:18.682-0400" name="firstPublishExternalDate" />
+  <meta content="false" name="doNotLocalize" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="left" name="sideColumn" />
+  <meta content="2018-12-11T04:52:30.509-0500" name="cq:lastReplicated" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="bohnert" name="cq:lastModifiedBy" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:spa;content_type:reference" name="cq:tags" />
+  <meta content="2018-05-07T07:28:54.257-0400" name="jcr:created" />
+  <meta content="An overview of the single page application API references" name="seoDescription" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-12-11T04:52:29.737-0500" name="lastPublishExternalDate" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="bohnert" name="cq:lastReplicatedBy" />
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/morehelp/spa;/content/help/en/experience-manager/6-4/sites/developing/morehelp/spa" name="moreHelpPaths" />
+  <meta content="en" name="pageCreatedAt" />
+  <meta content="2018-12-11T04:52:29.737-0500" name="publishExternalDate" />
+  <meta content="SPA Javascript API References" name="jcr:title" />
+  <meta content="2018-12-11T04:52:29.753-0500" name="cq:lastModified" />
+  <meta content="2018-05-08T12:45:18.989-0400" name="locHandOffDate" />
+  <meta content="light" name="heroGradient" />
+  <meta content="1755c386-38d0-4646-b5c4-bcddfb45e3f1" name="jcr:uuid" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2018-12-11T04:52:29.737-0500" name="topicBrowsingSortDate" />
+  <meta content="bohnert" name="contentOwner" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="bohnert@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="7c6d4035-5349-421d-a63d-382fc07d2e28" name="jcr:predecessors" />
+  <meta content="audience:developing" name="primaryAudienceTag" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+ </head>
+ <body>
+  <p>The following are the available JavaScript API references of the NPM modules for the AEM SPA Editor SDK framework.</p> 
+  <ul> 
+   <li><a href="https://www.npmjs.com/package/@adobe/cq-spa-component-mapping">Component Mapping</a></li> 
+   <li><a href="https://www.npmjs.com/package/@adobe/cq-spa-page-model-manager">Page Model Manager</a></li> 
+   <li><a href="https://www.npmjs.com/package/@adobe/cq-react-editable-components">React Editable Components</a></li> 
+   <li><a href="https://www.npmjs.com/package/@adobe/cq-angular-editable-components">Angular Editable Components</a><br /> </li> 
+  </ul> 
+ </body>
+</html>

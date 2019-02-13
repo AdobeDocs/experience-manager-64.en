@@ -1,0 +1,85 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" />
+  <meta content="2018-04-03T08:10:25.806-0400" name="topicBrowsingSortDate" />
+  <meta content="2016-04-20T09:33:32.088-0400" name="firstPublishExternalDate" />
+  <meta content="AEM Forms allows you to add in-context help to adaptive form fields and panels, as text or rich media, including videos. " name="seoDescription" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="false" name="doNotLocalize" />
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:author" name="cq:tags" />
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/authoring_in_field_help_admin_5e12de0b318c6865_1963_report.xml" name="acrolinxReportURL" />
+  <meta content="2018-04-03T08:10:26.287-0400" name="cq:lastReplicated" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/authoring-in-field-help.html" name="publishExternalURL" />
+  <meta content="2017-12-01T19:03:08.410-0500" name="jcr:created" />
+  <meta content="98bf591f-c9dc-44b2-b7f2-97e64871cb2b" name="jcr:uuid" />
+  <meta content="2016-05-31T06:34:07.976-0400" name="acrolinxDate" />
+  <meta content="2018-04-26T04:21:25.986-0400" name="locHandOffDate" />
+  <meta content="Authoring in-context help for form fields" name="jcr:title" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="430" name="acrolinxWords" />
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" />
+  <meta content="video" name="pageLayout" />
+  <meta content="eb54f492-47e8-4c0a-b5e5-f4c39adbde4e" name="jcr:predecessors" />
+  <meta content="21" name="acrolinxSentences" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="not_checked" name="acrolinxStatus" />
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/author;/content/help/en/experience-manager/6-4/forms/morehelp/author" name="moreHelpPaths" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="red" name="acrolinxPageStatus" />
+  <meta content="2018-04-03T08:10:25.806-0400" name="lastPublishExternalDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="light" name="heroGradient" />
+  <meta content="2015-06-12T04:24:46.698-0400" name="lastPublishQADate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-04-26T04:21:25.987-0400" name="cq:lastModified" />
+  <meta content="2018-04-03T08:10:25.806-0400" name="publishExternalDate" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="Authoring in-field help" name="navTitle" />
+  <meta content="left" name="sideColumn" />
+ </head>
+ <body>
+  <h2>Introduction</h2>
+  <p>There are situations when end users filling a form are not sure how to fill details in a particular form field. To address such issues, adaptive forms provides support to add text or rich in-context help to a form field. It helps improve the form filling experience and avoids any ambiguity for end users.</p> 
+  <p>This article discusses how form authors can add in-context help while authoring Adaptive Forms.</p> 
+  <h2>Add in-context help</h2>
+  <p>You can specify in-context help using the following options in the Help Content section of the properties tab in the sidebar. </p> 
+  <ul> 
+   <li><a href="../../forms/using/authoring-in-field-help.md#main-pars-header-1">Short description</a></li> 
+   <li><a href="../../forms/using/authoring-in-field-help.md#main-pars-header-2">Long description</a></li> 
+  </ul> 
+  <img alt="In-context help for form fields" imageRotate="0" src="assets/descriptions.png" title="In-context help for form fields" />
+  <note>
+   <p> Long description overrides the Short description. If you have specified both, only Long description will appear.</p> 
+  </note>
+  <h3>Short description</h3>
+  <p>The Short description field is to provide quick and short hints about filling a form field. The text specified in the Short description field is displayed as a tooltip on hovering mouse over the field.</p> 
+  <img alt="Short description for adding in-context help for form fields" imageRotate="0" src="assets/tooltip.png" title="Short description for adding in-context help for form fields" />
+  <note>
+   <p>Select <strong>Always show short description</strong> to permanently display the help text below the field.</p> 
+  </note>
+  <img alt="Permanent short in-context help below the field" imageRotate="0" src="assets/short1.png" title="Permanent short in-context help below the field" />
+  <h3>Long description</h3>
+  <p>You can use the Long description field to specify long text or embed rich media content, including videos, as in-context help. For example, the following image shows how you can embed a video as in-context help.<br /> </p> 
+  <img alt="Adding rich media as in-context help for form fields" imageRotate="0" src="assets/long-descriptions.png" title="Adding rich media as in-context help for form fields" />
+  <p>Adding Long description displays a <strong>?</strong> icon next to the field. Clicking the icon displays the content added in the long description section.</p> 
+  <img alt="Example of rich media in-context help" imageRotate="0" src="assets/photoshop.png" title="Example of rich media in-context help" />
+  <h3>Panel-level help</h3>
+  <p>In addition to the in-context help for form fields, you can specify help at a panel level in the Help content tab of the panel edit dialog.</p> 
+  <img alt="Adding in-context help for a form panel" imageRotate="0" src="assets/panel-level-help.png" title="Adding in-context help for a form panel" />
+  <p>Adding help for panel displays a <strong>?</strong> icon next to the panel description. Clicking the icon displays the content added in the Help Content section of the panel edit dialog.</p> 
+  <img alt="Example of in-context help at form panel level" imageRotate="0" src="assets/photoshop-1.png" title="Example of in-context help at form panel level" />
+  <related-links>
+   <a href="../../forms/using/introduction-forms-authoring.md" target="_blank">Introduction to forms authoring</a>
+   <a href="../../forms/using/creating-adaptive-form.md" target="_blank">Creating an Adaptive Form</a>
+  </related-links>
+ </body>
+</html>

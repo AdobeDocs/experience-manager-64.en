@@ -1,0 +1,126 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="User" name="contentOwner" /> 
+  <meta content="2018-04-03T08:40:14.509-0400" name="firstPublishExternalDate" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="audience:deploying" name="primaryAudienceTag" /> 
+  <meta content="alvawb" name="cq:lastReplicatedBy" /> 
+  <meta content="98cb7de9-33ff-4f4c-b731-2564c52e4237" name="jcr:predecessors" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="/content/docs/en/aem/6-3/deploy/configuring/web-console" name="qaNotes" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2018-04-25T11:15:46.559-0400" name="lastPublishExternalDate" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2018-04-30T03:29:32.601-0400" name="locHandOffDate" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2018-04-25T11:15:46.592-0400" name="cq:lastReplicated" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/configuring-web-console.html" name="publishExternalURL" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="alvawb" name="cq:lastModifiedBy" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="Web Console" name="seoTitle" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="alvawb@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="a7d8c7b3-0ab0-44d1-878d-e50190e05c9c" name="jcr:uuid" /> 
+  <meta content="Web Console" name="jcr:title" /> 
+  <meta content="2018-04-25T11:15:46.559-0400" name="publishExternalDate" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/deploying/morehelp/configuring;/content/help/en/experience-manager/6-4/sites/deploying/morehelp/configuring" name="moreHelpPaths" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2018-04-25T11:15:46.559-0400" name="topicBrowsingSortDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;content_type:reference" name="cq:tags" /> 
+  <meta content="Web Console" name="navTitle" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="Learn how to use the web console in AEM." name="seoDescription" /> 
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" /> 
+  <meta content="2018-04-30T03:29:32.602-0400" name="cq:lastModified" /> 
+  <meta content="2017-12-01T19:05:52.970-0500" name="jcr:created" /> 
+ </head> 
+ <body> 
+  <p>The Web console in AEM is based on the <a href="http://felix.apache.org/documentation/subprojects/apache-felix-web-console.html">Apache Felix Web Management Console</a>. Apache Felix is a community effort to implement the OSGi R4 Service Platform, which includes the OSGi framework and standard services.</p> 
+  <note> 
+   <p>On the Web console any descriptions that mention default settings relate to Sling defaults.</p> 
+   <p>AEM has its own defaults and so the defaults set might differ from those documented on the console.<br /> </p> 
+  </note> 
+  <p>The Web console offers a selection of tabs for maintaining the OSGi bundles, including:</p> 
+  <ul> 
+   <li><a href="#configuration">Configuration</a>: used for configuring the OSGi bundles, and is therefore the underlying mechanism for configuring AEM system parameters</li> 
+   <li><a href="#bundles">Bundles</a>: used for installing bundles</li> 
+   <li><a href="#components">Components</a>: used for controlling the status of components required for AEM</li> 
+  </ul> 
+  <p>Any changes made are immediately applied to the running system. No restart is required.</p> 
+  <p>The console can be accessed from <span class="code">../system/console</span>; for example:</p> 
+  <p><span class="code"> http://localhost:4502/system/console/components</span></p> 
+  <h2>Configuration</h2> 
+  <p>The <strong>Configuration</strong> tab is used for configuring the OSGi bundles, and is therefore the underlying mechanism for configuring AEM system parameters.</p> 
+  <note> 
+   <p>See <a href="../../../sites/deploying/using/configuring-osgi.md#osgiconfigurationwiththewebconsole">OSGi Configuration with the Web Console</a> for further details.</p> 
+  </note> 
+  <p>The <strong>Configuration</strong> tab can be accessed by either:</p> 
+  <ul> 
+   <li>The drop-down menu:<br /> <strong>OSGi &amp;gt;</strong></li> 
+   <li>The URL; for example:<br /> <span class="code">http://localhost:4502/system/console/configMgr</span></li> 
+  </ul> 
+  <p>A list of configurations will be shown:</p> 
+  <img imageRotate="0" src="assets/screen_shot_2012-02-15at52308pm-1.png" /> 
+  <p>There are two types of configurations available from the drop down lists on this screen:</p> 
+  <ul> 
+   <li><strong>Configurations</strong><br /> Allows you to update the existing configurations. These have a Persistent Identity (PID) and can be either: 
+    <ul> 
+     <li>standard and integral to AEM; these are required, if deleted the values return to the default settings.</li> 
+     <li>instances created from Factory Configurations; these instances are created by the user, deletion removes the instance.</li> 
+    </ul> </li> 
+   <li><strong>Factory Configurations</strong><br /> Allows you to create an instance of the required functionality object.<br /> This will be allocated a Persistent Identity and then listed in the Configurations drop down list.</li> 
+  </ul> 
+  <p>Selecting any entry from the lists will display the parameters related to that configuration:</p> 
+  <img imageRotate="0" src="assets/chlimage_1-61.png" /> 
+  <p>You can then update the parameters as required and:</p> 
+  <ul> 
+   <li><strong>Save</strong><br /> Save the changes made.<br /> For a Factory Configuration this will create a new instance with a Persistent Identity. The new instance will then be listed under Configurations.</li> 
+   <li><strong>Reset</strong><br /> Reset the parameters shown on screen to those saved last.</li> 
+   <li><strong>Delete</strong><br /> Delete the current configuration. If standard, the parameters are returned to the default settings. If created from a Factory Configuration, then the specific instance is deleted.</li> 
+   <li><strong>Unbind</strong><br /> Unbind the current configuration from the bundle. </li> 
+   <li><strong>Cancel</strong><br /> Cancel any current changes. </li> 
+  </ul> 
+  <h2>Bundles</h2> 
+  <p>The <strong>Bundles</strong> tab is the mechanism for installing the OSGi bundles required for AEM. The tab can be accessed by either of the following methods:</p> 
+  <ul> 
+   <li>The drop-down menu:<br /> <strong>OSGi &amp;gt;</strong></li> 
+   <li>The URL; for example:<br /> <span class="code">http://localhost:4502/system/console/bundles</span></li> 
+  </ul> 
+  <p>A list of bundles will be shown:</p> 
+  <img imageRotate="0" src="assets/screen_shot_2012-02-15at44740pm-1.png" /> 
+  <p>Using this tab you can:</p> 
+  <ul> 
+   <li><strong>Install or Update</strong><br /> You can <strong>Browse</strong> to find the file containing your bundle and specify whether it should <strong>Start</strong> immediately and at which <strong>Start Level</strong>.</li> 
+   <li><strong>Reload</strong><br /> Refreshes the list displayed.</li> 
+   <li><strong>Refresh Packages</strong><br /> This will check the references of all packages and refresh as necessary.<br /> For example, after an update both the old and new version may still be running due to prior references. This option will check and move all references to the new version, allowing the old version to stop.</li> 
+   <li><strong>Start</strong><br /> Starts a bundle according to the start level specified.</li> 
+   <li><strong>Stop</strong><br /> Stops the bundle.</li> 
+   <li><strong>Uninstall</strong><br /> Uninstalls the bundle from the system.</li> 
+   <li><strong>see the status</strong><br /> The list specifies the current status of the bundle; clicking on the name of a specific bundle with show further information.</li> 
+  </ul> 
+  <note> 
+   <p>After <strong>Update</strong> it is recommended to perform a <strong>Refresh Packages</strong>.</p> 
+  </note> 
+  <h2>Components</h2> 
+  <p>The <strong>Components</strong> tab allows you to Enable and/or Disable the various components. It can be accessed by either:</p> 
+  <ul> 
+   <li>The drop-down menu:<br /> <strong>Main &amp;gt;</strong></li> 
+   <li>The URL; for example:<br /> <span class="code">http://localhost:4502/system/console/components</span></li> 
+  </ul> 
+  <p>A list of components will be shown. Various icons are available to enable you to enable, disable or (where appropriate) open configuration details for a specific component.<br /> </p> 
+  <img imageRotate="0" src="assets/screen_shot_2012-02-15at52144pm-1.png" /> 
+  <p>Clicking on the name of a particular component will display further information on its status. Here you can also enable, disable or reload the component.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-62.png" /> 
+  <note> 
+   <p>Enabling, or disabling, a component will only apply until AEM/CRX is restarted. </p> 
+   <p>The start state is defined within the component descriptor, which is generated during development and stored in the bundle at bundle creation time.</p> 
+  </note> 
+ </body> 
+</html>

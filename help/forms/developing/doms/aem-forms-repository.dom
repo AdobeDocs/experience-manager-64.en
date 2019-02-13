@@ -1,0 +1,796 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="AEMForms/6.1/ProgramLC/WS624e3cba99b79e12-2bff7c1e1336a3585ff-8000.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7ced.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12-4e0e48f41336a3586e9-7fff.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-720d.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-720c.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7ceb.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12-52d98a3a1336a3587e3-7fff.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-71fb.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-71f2.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7ce9.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12-4384c8d01336a3588ce-7fff.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-71e5.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-71e4.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7d41.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12106d80341336a3589c8-7ffc.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-71d3.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-71d2.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7ce5.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e1254d772981336a358ab2-7fff.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-71bf.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-71be.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7ce3.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12-6d18d5e51336a358bac-7ffe.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-71ab.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7cf0.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12-234f9de61336a358ca6-7fff.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-719c.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-718a.2,AEMForms/6.1/ProgramLC/dummy-343420579.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7cef.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12-ea839e61336a358e9a-7fff.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-716f.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-716e.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7cde.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e126f6537421336a358f94-7fff.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7159.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7148.2" name="cq:gepId" /> 
+  <meta content="admin" name="lr_creator" /> 
+  <meta content="admin" name="lr_lastModifiedBy" /> 
+  <meta content="2017-10-03T06:46:53.291-0400" name="firstPublishExternalDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="audience:developing" name="primaryAudienceTag" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2018-04-03T08:15:52.154-0400" name="cq:lastReplicated" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="Working with AEM Forms Repository" name="jcr:title" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="admin" name="contentOwner" /> 
+  <meta content="6078834b-a1a5-4ddd-a8ce-dec36ee3c297" name="jcr:uuid" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="c1488c18-6463-4b52-8171-6f755bcb09b8" name="jcr:predecessors" /> 
+  <meta content="2017-07-12T07:03:36.112-0400" name="lr_lastModified" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2017-07-12T07:03:00.000-0400" name="sortDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="2017-10-03T06:46:53.291-0400" name="lastPublishExternalDate" /> 
+  <meta content="https://helpx.adobe.com/aem-forms/6-3/developing/aem-forms-repository.html" name="publishExternalURL" /> 
+  <meta content="Working with AEM Forms Repository" name="navTitle" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="2017-11-21T06:57:05.508-0500" name="cq:lastModified" /> 
+  <meta content="khsingh@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:operations" name="cq:tags" /> 
+  <meta content="2017-10-03T06:46:53.291-0400" name="publishExternalDate" /> 
+  <meta content="2017-07-12T07:03:00.000-0400" name="topicBrowsingSortDate" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="2017-11-22T19:05:35.461-0500" name="jcr:created" /> 
+ </head> 
+ <body> 
+  <p><strong>About the Repository Service</strong></p> 
+  <p>The Repository service provides resource storage and management services to AEM Forms. When developers create an <i>AEM Forms</i> application, they can deploy the assets in the repository instead of the file system. The assets can include any type of collateral, including XML forms, PDF forms (including Acrobat forms), form fragments, images, profiles, policies, SWF files, DDX files, XML schemas, WSDL files, and test data.</p> 
+  <p>For example, consider the following Forms application named <i>Applications/FormsApplication</i>:</p> 
+  <img alt="" src="assets/ww_ww_formrepository.png" /> 
+  <p>Notice that there is a file named Loan.xdp located in the FormsFolder. To access this form design, you specify the complete path (including version): <span class="code">Applications/FormsApplication/1.0/FormsFolder/Loan.xdp</span>.</p> 
+  <note> 
+   <p>For information about creating a Forms application using Workbench, see <a href="http://www.adobe.com/go/learn_aemforms_workbench_63">Workbench Help</a>.</p> 
+  </note> 
+  <p>The path to a resource located in the AEM Forms repository is:</p> 
+  <p><span class="code">Applications/Application-name/Application-version/Folder.../Filename </span></p> 
+  <p>The following values show some examples of URI values:</p> 
+  <ul> 
+   <li><p>Applications/AppraisalReport/1.0/Forms/FullForm.xdp </p></li> 
+   <li><p>Applications/AnotherApp/1.1/Assets/picture.jpg </p></li> 
+   <li><p>Applications/SomeApp/2.0/Resources/Data/XSDs/MyData.xsd </p></li> 
+  </ul> 
+  <note> 
+   <p>You can browse the AEM Forms Repository by using a web browser. To browse the repository, enter the following URL into a web browser http://[server name]:[server port]/repository. You can verify quick start results that are associated with the Working with AEM Forms Repository section by using a web browser. For example, if you add content to the AEM Forms Repository, you can see the content in a web browser. (See <a href="/programming-with-aem-forms/repository-service-api-quick-starts#quick_start_soap_mode_writing_a_resource_using_the_java_api">Quick Start (SOAP mode): Writing a resource using the Java API</a>.)</p> 
+  </note> 
+  <p>The repository API provides a number of operations that you can use to store and retrieve information from the repository. For example, you can obtain a list of resources or retrieve specific resources that are stored in the repository when a resource is needed as part of processing an application. </p> 
+  <note> 
+   <p>The repository API cannot be used to interact with Content Services (deprecated). To interact with Content Services (deprecated), you use the Document Management API. (See <a href="#unresolvedlink-lc-cs-api-perform-doc-mgmt-operations-pd.xml#ws624e3cba99b79e12e69a9941333732bac8-720f.2">Performing Document Management Operations Using APIs</a>)</p> 
+  </note> 
+  <p>Using the Repository service API, you can accomplish the following tasks:</p> 
+  <ul> 
+   <li><p>Create folders. See <a href="aem-forms-repository#creating_folders">Creating Folders</a>.</p></li> 
+   <li><p>Write resources and their properties. See <a href="aem-forms-repository#writing_resources">Writing Resources</a>. </p></li> 
+   <li><p>List resources in a given collection or related to other resources. See <a href="aem-forms-repository#listing_resources">Listing Resources</a>.</p></li> 
+   <li><p>Read resources and their properties. See <a href="aem-forms-repository#reading_resources">Reading Resources</a>.</p></li> 
+   <li><p>Update resources and their properties. See <a href="aem-forms-repository#updating_resources">Updating Resources</a>.</p></li> 
+   <li><p>Search for resources, including their history, related resources, and properties. See <a href="aem-forms-repository#searching_for_resources">Searching for Resources</a>.</p></li> 
+   <li><p>Specify relationships between resources. See <a href="aem-forms-repository#creating_resource_relationships">Creating Resource Relationships</a>.</p></li> 
+   <li><p>Manage resource access control, including locking and unlocking resources, and reading and writing access control lists (ACLs). See <a href="#unresolvedlink-lc-rp-control-access-resources-ca.xml#ws624e3cba99b79e12e69a9941333732bac8-7cce.2">Controlling Access to Resources</a> and <a href="aem-forms-repository#locking_resources">Locking Resources</a>. </p></li> 
+   <li><p>Delete resources and their properties. See <a href="aem-forms-repository#deleting_resources">Deleting Resources</a>.</p></li> 
+  </ul> 
+  <note> 
+   <p>Using the repository API, you cannot manage resource access control, search for resources, or specify resource relationships by using an ECM repository. </p> 
+  </note> 
+  <note> 
+   <p>When an encrypted PDF is written to the repository, the automated relationship extraction feature cannot be used. Otherwise, an encrypted PDF can be stored in the repository and later retrieved. The retriever can choose to decrypt the PDF after it is retrieved from the repository.</p> 
+  </note> 
+  <note> 
+   <p>For more information about the Repository service, see <a href="http://www.adobe.com/go/learn_aemforms_services_63">Services Reference for AEM Forms</a>.</p> 
+  </note> 
+  <h2 id="creating_folders">Creating Folders</h2> 
+  <p></p> 
+  <p>Folders (resource collections) are used to store objects (files or resources) in organized groupings. Folders can contain resources and other folders, also known as subfolders. Resources can only be stored in one folder at a time.</p> 
+  <p>Files inherit access control lists (ACLs) from folders, and subfolders inherit ACLs from their parent folders. Therefore, the parent folders must exist before you can create child folders. The IDE lets you interact only on a folder-by-folder basis, not on a file-by-file basis. You cannot version folders and there is no need to do so; a folder does not contain data itself. Rather, it is only a container for resources that contain data. The default ACL is system-level permission, which means that users must have system-level permissions (read, write, traverse, managing ACLs) until someone gives them permissions for a particular folder. ACLs only work in the IDE.</p> 
+  <note> 
+   <p>For more information about the Repository service, see <a href="http://www.adobe.com/go/learn_aemforms_services_63">Services Reference for AEM Forms</a>.</p> 
+  </note> 
+  <h3 id="summary_of_steps">Summary of steps</h3> 
+  <p></p> 
+  <p>To create a folder, follow these steps:</p> 
+  <ol> 
+   <li><p>Include project files.</p></li> 
+   <li><p>Create the service client.</p></li> 
+   <li><p>Create the folder.</p></li> 
+   <li><p>Write the folder to the repository.</p></li> 
+  </ol> 
+  <p><strong>Include project files</strong></p> 
+  <p>Include the necessary files in your development project. If you are creating a client application using Java, include the necessary JAR files. If you are using web services, include the proxy files. </p> 
+  <p><strong>Create the service client</strong></p> 
+  <p>Before you can programmatically create a resource collection, you must establish a connection and provide credentials. This is accomplished by creating a service client.</p> 
+  <p><strong>Create the folder</strong></p> 
+  <p>Invoke the Repository service method to create the resource collection and populate the resource collection with identifying information, including its UUID, folder name, and description.</p> 
+  <p><strong>Write the folder to the repository</strong></p> 
+  <p>Invoke the Repository service method to write the resource collection, specifying the target folder’s URI.</p> 
+  <p><strong>See also</strong></p> 
+  <p><a href="aem-forms-repository#create_folders_using_the_java_api">Create folders using the Java API</a></p> 
+  <p><a href="aem-forms-repository#create_folders_using_the_web_service_api">Create folders using the web service API</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p> 
+  <p><a href="/programming-with-aem-forms/repository-service-api-quick-starts#repository_service_api_quick_starts">Repository Service API Quick Starts</a></p> 
+  <h3 id="create_folders_using_the_java_api">Create folders using the Java API</h3> 
+  <p></p> 
+  <p>Create a folder by using the Repository service API (Java):</p> 
+  <ol> 
+   <li><p>Include project files </p><p>Include project files in your Java project’s class path. </p></li> 
+   <li><p>Create the service client</p><p>Create a <span class="code">ResourceRepositoryClient</span> object by using its constructor and passing a <span class="code">ServiceClientFactory</span> object that contains connection properties. </p></li> 
+   <li><p>Create the folder</p><p>To create a resource collection, you must first create a <span class="code">com.adobe.repository.infomodel.bean.RepositoryInfomodelFactoryBean</span> object.</p><p>Invoke the <span class="code">repositoryInfomodelFactoryBean</span> object’s <span class="code">newResourceCollection</span> method, and pass in the following parameters:</p> 
+    <ul> 
+     <li><p>A <span class="code">com.adobe.repository.infomodel.Id</span> UUID identifier to be assigned to the resource.</p></li> 
+     <li><p>A <span class="code">com.adobe.repository.infomodel.Lid</span> UUID identifier to be assigned to the resource.</p></li> 
+     <li><p>A <span class="code">java.lang.String</span> containing the name of the resource collection. For example, <span class="code">FormsFolder</span>.</p></li> 
+    </ul><p>The method returns a <span class="code">com.adobe.repository.infomodel.bean.ResourceCollection</span> object representing the new folder. </p><p>Set the folder’s description by using the <span class="code">setDescription</span> method and pass in the following parameter:</p> 
+    <ul> 
+     <li><p>A <span class="code">String</span> that describes the resource collection. In this example, <span class="code">"test Folder"</span> is used<span class="code">.</span></p></li> 
+    </ul></li> 
+   <li><p>Write the folder to the repository</p><p>Invoke the <span class="code">ResourceRepositoryClient</span> object’s <span class="code">writeResource</span> method and pass in the URI of the folder and the <span class="code">ResourceCollection</span> object. For example, the URI to the folder can be the following value <span class="code">/Applications/FormsApplication/1.0/</span>.</p><p>The method returns an instance of the newly created <span class="code">com.adobe.repository.infomodel.bean.Resource</span> object. You can, for example, retrieve the identifier value of the new resource by invoking the <span class="code">com.adobe.repository.infomodel.bean.Resource</span> object’s <span class="code">getId</span> method. </p></li> 
+  </ol> 
+  <p><strong>See also</strong></p> 
+  <p><a href="aem-forms-repository#creating_folders">Creating Folders</a></p> 
+  <p><a href="/programming-with-aem-forms/repository-service-api-quick-starts#quick_start_soap_mode_creating_a_folder_using_the_java_api">Quick Start (SOAP mode): Creating a folder using the Java API</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p> 
+  <h3 id="create_folders_using_the_web_service_api">Create folders using the web service API</h3> 
+  <p></p> 
+  <p>Create a folder by using the Repository service API (web service):</p> 
+  <ol> 
+   <li><p>Include project files </p> 
+    <ul> 
+     <li><p>Create a Microsoft .NET client assembly that consumes the Repository WSDL using base64. </p></li> 
+     <li><p>Reference the Microsoft .NET client assembly. </p></li> 
+    </ul></li> 
+   <li><p>Create the service client</p><p>Using the Microsoft .NET client assembly, create a <span class="code">RepositoryServiceService</span> object by invoking its default constructor. Set its <span class="code">Credentials</span> property using a <span class="code">System.Net.NetworkCredential</span> object that contains the user name and password.</p></li> 
+   <li><p>Create the folder</p><p>Create the folder by using the default constructor for the <span class="code">ResourceCollection</span> class and pass in the following parameters:</p> 
+    <ul> 
+     <li><p>An <span class="code">Id</span> object, which is created by invoking the default constructor for the <span class="code">Id</span> class and assigned to the <span class="code">Resource</span> object’s <span class="code">id</span> field.</p></li> 
+     <li><p>An <span class="code">Lid</span> object, which is created by invoking the default constructor for the <span class="code">Lid</span> class and assigned to the <span class="code">Resource</span> object’s <span class="code">lid</span> field.</p></li> 
+     <li><p>A string containing the name of the resource collection, which is assigned to the <span class="code">Resource</span> object’s <span class="code">name</span> field. The name used in this example is <span class="code">"testfolder"</span>.</p></li> 
+     <li><p>A string containing the description of the resource collection, which is assigned to the <span class="code">Resource</span> object’s <span class="code">description</span> field. The description used in this example is <span class="code">"test folder"</span>.</p></li> 
+    </ul></li> 
+   <li><p>Write the folder to the repository</p><p>Invoke the <span class="code">RepositoryServiceService</span> object’s <span class="code">writeResource</span> method and pass in the following parameters:</p> 
+    <ul> 
+     <li><p>The path where the folder is to be created.</p></li> 
+     <li><p>The <span class="code">ResourceCollection</span> object representing the folder.</p></li> 
+     <li><p>Pass <span class="code">null</span> for the other two parameters.</p></li> 
+    </ul></li> 
+  </ol> 
+  <p><strong>See also</strong></p> 
+  <p><a href="aem-forms-repository#creating_folders">Creating Folders</a></p> 
+  <p><a href="#unresolvedlink-lc-qs-repository-re.xml#ws624e3cba99b79e12e69a9941333732bac8-7cc6.2">Quick Start (Base64): Creating a folder using the web service API</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_base64_encoding">Invoking AEM Forms using Base64 encoding</a></p> 
+  <p></p> 
+  <h2 id="writing_resources">Writing Resources</h2> 
+  <p></p> 
+  <p>You can create resources in a given location in the repository. The natural file size is subject to database limitations and session time-out. For the default configuration, files are limited to 25 MB. To raise or lower the maximum file size, you must change the database configuration. </p> 
+  <p>Writing resources is equivalent to storing data in the repository. Once you write a resource to the repository, it becomes accessible to all clients in the repository ecosystem. When you write resources, such as XML schemas, XDP files, and XSD files, to the repository, the contents are parsed based on the MIME type. If the MIME type is supported, the parser determines whether there is an implied relationship to other content. For example, if a cascading style sheet (CSS) has a relative URL that references a common CSS, it is expected that you will submit the common CSS into the repository as well. The relationship between the two resources is stored as a pending relationship for a non-adjustable period of 30 days. When you submit the common CSS to the repository within the 30-day period, the relationship is formed.</p> 
+  <p>When you create a resource, the access control list (ACL) is inherited from the parent folder. The root folder has system-level permissions until an initial resource or folder is created, at which point the resource or folder is given default ACL permissions.</p> 
+  <p>You can programmatically write resources by using the Repository service Java API or web service API. </p> 
+  <note> 
+   <p>For more information about the Repository service, see <a href="http://www.adobe.com/go/learn_aemforms_services_63">Services Reference for AEM Forms</a>.</p> 
+  </note> 
+  <h3 id="summary_of_steps">Summary of steps</h3> 
+  <p></p> 
+  <p>To write a resource, follow these steps:</p> 
+  <ol> 
+   <li><p>Include project files.</p></li> 
+   <li><p>Create a Repository service client.</p></li> 
+   <li><p>Specify the URI of the resource to be read.</p></li> 
+   <li><p>Read the resource.</p></li> 
+  </ol> 
+  <p><strong>Include project files</strong></p> 
+  <p>Include the necessary files in your development project. If you are creating a client application using Java, include the necessary JAR files. If you are using web services, include the proxy files.</p> 
+  <p><strong>Create the service client</strong></p> 
+  <p>Before you can programmatically read a resource, you must establish a connection and provide credentials. This is accomplished by creating a service client.</p> 
+  <p><strong>Specify the URI of the target folder for the resource</strong></p> 
+  <p>Create a string containing the URI of the resource to be read. The syntax includes forward slashes, as in this example: "/<i>path</i>/<i>folder</i>".</p> 
+  <p><strong>Create the resource</strong></p> 
+  <p>Invoke the Repository service method to create the resource, and populate the resource with identifying information, including its UUID, resource name, and description.</p> 
+  <p><strong>Specify the resource content</strong></p> 
+  <p>Invoke the Repository service method to create resource content, and store that content in the resource.</p> 
+  <p><strong>Write the resource to the target folder</strong></p> 
+  <p>Invoke the Repository service method to write the resource, specifying the target folder’s URI.</p> 
+  <p><strong>See also</strong></p> 
+  <p><a href="aem-forms-repository#write_resources_using_the_java_api">Write resources using the Java API</a></p> 
+  <p><a href="aem-forms-repository#write_resources_using_the_web_service_api">Write resources using the web service API</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p> 
+  <p><a href="/programming-with-aem-forms/repository-service-api-quick-starts#repository_service_api_quick_starts">Repository Service API Quick Starts</a></p> 
+  <h3 id="write_resources_using_the_java_api">Write resources using the Java API</h3> 
+  <p></p> 
+  <p>Write a resource by using the Repository service API (Java):</p> 
+  <ol> 
+   <li><p>Include project files </p><p>Include client JAR files in your Java project’s class path. </p></li> 
+   <li><p>Create the service client </p><p>Create a <span class="code">ResourceRepositoryClient</span> object by using its constructor and passing a <span class="code">ServiceClientFactory</span> object that contains connection properties. </p></li> 
+   <li><p>Specify the URI of the target folder for the resource </p><p>Specify the URI of the target folder for the resource. In this case, because the resource named <span class="code">testResource</span> will be stored in the folder named <span class="code">testFolder</span>, the folder’s URI is <span class="code">"/testFolder"</span>. The URI is stored as a <span class="code">java.lang.String</span> object.</p></li> 
+   <li><p>Create the resource </p><p>To create a resource, you must first create a <span class="code">com.adobe.repository.infomodel.bean.RepositoryInfomodelFactoryBean</span> object.</p><p>Invoke the <span class="code">RepositoryInfomodelFactoryBean</span> object’s <span class="code">newResource</span> method, which creates a <span class="code">com.adobe.repository.infomodel.bean.Resource</span> object. In this example, the following parameters are provided:</p> 
+    <ul> 
+     <li><p>A <span class="code">com.adobe.repository.infomodel.Id</span> object, which is created by invoking the default constructor for the <span class="code">Id</span> class.</p></li> 
+     <li><p>A <span class="code">com.adobe.repository.infomodel.Lid</span> object, which is created by invoking the default constructor for the <span class="code">Lid</span> class.</p></li> 
+     <li><p>A<span class="code"> java.lang.String</span> containing the file name of the resource.</p></li> 
+    </ul><p>To specify the resource’s description, invoke the <span class="code">Resource</span> object’s <span class="code">setDescription</span> method and pass a string containing the description. In this example, the description is <span class="code">"test resource"</span>.</p></li> 
+   <li><p>Specify the resource content </p><p>To create content for the resource, invoke the <span class="code">RepositoryInfomodelFactoryBean</span> object’s <span class="code">newResourceContent</span> method, which returns a <span class="code">com.adobe.repository.infomodel.bean.ResourceContent</span> object. Add content to the <span class="code">ResourceContent</span> object. In this example, this is accomplished by doing the following tasks:</p> 
+    <ul> 
+     <li><p>Invoking the <span class="code">ResourceContent</span> object’s <span class="code">setDataDocument</span> method and passing in a <span class="code">com.adobe.idp.Document</span> object</p></li> 
+     <li><p>Invoking the <span class="code">ResourceContent</span> object’s <span class="code">setSize</span> method and passing in the size in bytes of the <span class="code">Document</span> object</p></li> 
+    </ul><p>Add the content to the resource by invoking the <span class="code">Resource</span> object’s <span class="code">setContent</span> method and passing in the <span class="code">ResourceContent</span> object. For more information, see <a href="http://www.adobe.com/go/learn_aemforms_javadocs_63_en">AEM Forms API Reference</a>.</p></li> 
+   <li><p>Write the resource to the target folder </p><p>Invoke the <span class="code">ResourceRepositoryClient</span> object’s <span class="code">writeResource</span> method and pass in the URI of the folder, as well as the <span class="code">Resource</span> object. </p></li> 
+  </ol> 
+  <p><strong>See also</strong></p> 
+  <p><a href="aem-forms-repository#writing_resources">Writing Resources</a></p> 
+  <p><a href="/programming-with-aem-forms/repository-service-api-quick-starts#quick_start_soap_mode_writing_a_resource_using_the_java_api">Quick Start (SOAP mode): Writing a resource using the Java API</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p> 
+  <h3 id="write_resources_using_the_web_service_api">Write resources using the web service API</h3> 
+  <p></p> 
+  <p>Write a resource by using the Repository service API (web service):</p> 
+  <ol> 
+   <li><p>Include project files </p> 
+    <ul> 
+     <li><p>Create a Microsoft .NET client assembly that consumes the Repository WSDL using base64.</p></li> 
+     <li><p>Reference the Microsoft .NET client assembly. </p></li> 
+    </ul></li> 
+   <li><p>Create the service client </p><p>Using the Microsoft .NET client assembly, create a <span class="code">RepositoryServiceService</span> object by invoking its default constructor. Set its <span class="code">Credentials</span> property using a <span class="code">System.Net.NetworkCredential</span> object containing the user name and password.</p></li> 
+   <li><p>Specify the URI of the target folder for the resource </p><p>Specify the URI of the target folder for the resource. In this case, because the resource named <span class="code">testResource</span> will be stored in the folder named <span class="code">testFolder</span>, the folder’s URI is <span class="code">"/testFolder"</span>. When using a language compliant with the Microsoft .NET Framework (for example, C#), store the URI in a <span class="code">System.String</span> object.</p></li> 
+   <li><p>Create the resource </p><p>To create a resource, invoke the default constructor for the <span class="code">Resource</span> class. In this example, the following information is stored in the <span class="code">Resource</span> object:</p> 
+    <ul> 
+     <li><p>A <span class="code">com.adobe.repository.infomodel.Id</span> object, which is created by invoking the default constructor for the <span class="code">Id</span> class and assigned to the <span class="code">Resource</span> object’s <span class="code">id</span> field.</p></li> 
+     <li><p>A <span class="code">com.adobe.repository.infomodel.Lid</span> object, which is created by invoking the default constructor for the <span class="code">Lid</span> class and assigned to the <span class="code">Resource</span> object’s <span class="code">lid</span> field.</p></li> 
+     <li><p>A string containing the file name of the resource, which is assigned to the <span class="code">Resource</span> object’s <span class="code">name</span> field. The name used in this example is <span class="code">"testResource"</span>.</p></li> 
+     <li><p>A string containing the description of the resource, which is assigned to the <span class="code">Resource</span> object’s <span class="code">description</span> field. The description used in this example is <span class="code">"test resource"</span>.</p></li> 
+    </ul></li> 
+   <li><p>Specify the resource content </p><p>To create content for the resource, invoke the default constructor for the <span class="code">ResourceContent</span> class. Then add content to the <span class="code">ResourceContent</span> object. In this example, this is accomplished by doing the following tasks:</p> 
+    <ul> 
+     <li><p>Assigning a <span class="code">BLOB</span> object containing a document to the <span class="code">ResourceContent</span> object’s <span class="code">dataDocument</span> field.</p></li> 
+     <li><p>Assigning the size in bytes of the <span class="code">BLOB</span> object to the <span class="code">ResourceContent</span> object’s <span class="code">size</span> field.</p></li> 
+    </ul><p>Add the content to the resource by assigning the <span class="code">ResourceContent</span> object to the <span class="code">Resource</span> object’s <span class="code">content</span> field.</p></li> 
+   <li><p>Write the resource to the target folder </p><p>Invoke the <span class="code">RepositoryServiceService</span> object’s <span class="code">writeResource</span> method and pass in the URI of the folder, as well as the <span class="code">Resource</span> object. Pass <span class="code">null</span> for the other two parameters.</p></li> 
+  </ol> 
+  <p><strong>See also</strong></p> 
+  <p><a href="aem-forms-repository#writing_resources">Writing Resources</a></p> 
+  <p><a href="#unresolvedlink-lc-qs-repository-re.xml#ws624e3cba99b79e12e69a9941333732bac8-7cdc.2">Quick Start (Base64): Writing a resource using the web service API</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_base64_encoding">Invoking AEM Forms using Base64 encoding</a></p>  
+  <h2 id="listing_resources">Listing Resources</h2> 
+  <p></p> 
+  <p>You can discover resources by listing resources. A query is performed against the repository to find all the resources that are related to a given resource collection.</p> 
+  <p>Once you organize your resources, you can inspect the structure you created by seeing a particular branch of the structure, much like you would do in an operating system. </p> 
+  <p>Listing resources operates by relationship: resources are members of folders. Membership is represented by a relationship of type "member of". When you list resources in a given folder, you are querying for resources that are related to a given folder by the relationship "member of". Relationships are directional: a member of a relationship has a source that is a member of the target. The source is the resource; the target is the parent folder.</p> 
+  <note> 
+   <p>For more information about the Repository service, see <a href="http://www.adobe.com/go/learn_aemforms_services_63">Services Reference for AEM Forms</a>.</p> 
+  </note> 
+  <h3 id="summary_of_steps">Summary of steps</h3> 
+  <p></p> 
+  <p>To list resources, follow these steps:</p> 
+  <ol> 
+   <li><p>Include project files.</p></li> 
+   <li><p>Create the service client.</p></li> 
+   <li><p>Specify the folder path.</p></li> 
+   <li><p>Retrieve the list of resources.</p></li> 
+  </ol> 
+  <p><strong>Include project files</strong></p> 
+  <p>Include the necessary files in your development project. If you are creating a client application using Java, include the necessary JAR files. If you are using web services, include the proxy files.</p> 
+  <p><strong>Create the service client</strong></p> 
+  <p>Before you can programmatically create a resource collection, you must establish a connection and provide credentials. This is accomplished by creating a service client.</p> 
+  <p><strong>Specify the folder path</strong></p> 
+  <p>Create a string containing the path of the folder containing the resources. The syntax includes forward slashes, as in this example: "/<i>path</i>/<i>folder</i>".</p> 
+  <p><strong>Retrieve the list of resources</strong></p> 
+  <p>Invoke the Repository service method to retrieve the list of resources, specifying the target folder’s path.</p> 
+  <p><strong>See also</strong></p> 
+  <p><a href="aem-forms-repository#list_resources_using_the_java_api">List resources using the Java API</a></p> 
+  <p><a href="aem-forms-repository#list_resources_using_the_web_service_api">List resources using the web service API</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p> 
+  <p><a href="/programming-with-aem-forms/repository-service-api-quick-starts#repository_service_api_quick_starts">Repository Service API Quick Starts</a></p> 
+  <h3 id="list_resources_using_the_java_api">List resources using the Java API</h3> 
+  <p></p> 
+  <p>List resources by using the Repository service API (Java):</p> 
+  <ol> 
+   <li><p>Include project files </p><p>Include client JAR files in your Java project’s class path. </p></li> 
+   <li><p>Create the service client</p><p>Create a <span class="code">ResourceRepositoryClient</span> object by using its constructor and passing a <span class="code">ServiceClientFactory</span> object that contains connection properties. </p></li> 
+   <li><p>Specify the folder path</p><p>Specify the URI of the resource collection to be queried. In this case, its URI is <span class="code">"/testFolder"</span>. The URI is stored as a <span class="code">java.lang.String</span> object.</p></li> 
+   <li><p>Retrieve the list of resources</p><p>Invoke the <span class="code">ResourceRepositoryClient</span> object’s <span class="code">listMembers</span> method and pass in the URI of the folder.</p><p>The method returns a <span class="code">java.util.List</span> of <span class="code">com.adobe.repository.infomodel.bean.Resource</span> objects that are the source of a <span class="code">com.adobe.repository.infomodel.bean.Relation</span> of type <span class="code">Relation.TYPE_MEMBER_OF</span> and have the resource collection URI as the target. You can iterate through this <span class="code">List</span> to retrieve each of the resources. In this example, the name and description of each resource is displayed.</p></li> 
+  </ol> 
+  <p><strong>See also</strong></p> 
+  <p><a href="aem-forms-repository#listing_resources">Listing Resources</a>.</p> 
+  <p><a href="/programming-with-aem-forms/repository-service-api-quick-starts#quick_start_soap_mode_listing_resources_using_the_java_api">Quick Start (SOAP mode): Listing resources using the Java API</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p> 
+  <h3 id="list_resources_using_the_web_service_api">List resources using the web service API</h3> 
+  <p></p> 
+  <p>List resources by using the Repository service API (web service):</p> 
+  <ol> 
+   <li><p>Include project files </p> 
+    <ul> 
+     <li><p>Create a Microsoft .NET client assembly that consumes the Repository WSDL. </p></li> 
+     <li><p>Reference the Microsoft .NET client assembly. </p></li> 
+    </ul></li> 
+   <li><p>Create the service client </p><p>Using the Microsoft .NET client assembly, create a <span class="code">RepositoryServiceService</span> object by invoking its default constructor. Set its <span class="code">Credentials</span> property using a <span class="code">System.Net.NetworkCredential</span> object containing the user name and password.</p></li> 
+   <li><p>Specify the folder path</p><p>Specify a string containing the URI of the folder to be queried. In this case, its URI is <span class="code">"/testFolder"</span>. When using a language that is compliant with the Microsoft .NET Framework (for example, C#), store the URI in a <span class="code">System.String</span> object.</p></li> 
+   <li><p>Retrieve the list of resources</p><p>Invoke the <span class="code">RepositoryServiceService</span> object’s <span class="code">listMembers</span> method and pass in the URI of the folder as the first parameter. Pass <span class="code">null</span> for the other two parameters.</p><p>The method returns an array of objects that can be cast to <span class="code">Resource</span> objects. You can iterate through the object array to retrieve each of the related resources. In this example, the name and description of each resource is displayed.</p></li> 
+  </ol> 
+  <p><strong>See also</strong></p> 
+  <p><a href="aem-forms-repository#listing_resources">Listing Resources</a>.</p> 
+  <p><a href="#unresolvedlink-lc-qs-repository-re.xml#ws624e3cba99b79e12e69a9941333732bac8-7cd9.2">Quick Start (Base64): Listing resources using the web service API</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_base64_encoding">Invoking AEM Forms using Base64 encoding</a></p> 
+  <h2 id="reading_resources">Reading Resources</h2> 
+  <p></p> 
+  <p>You can retrieve resources from a given location in the repository in order to read their content and metadata. The workflow is front-ended by an initialization form. The process has all the permissions it needs to read the form. The system retrieves the data form and reads the content from the repository. The repository grants access to the content and the metadata (the ability to even know the resource exists). </p> 
+  <p>The repository has the following four permission types:</p> 
+  <ul> 
+   <li><p><strong>traverse</strong>: allows you to list resources; that is, to read resource metadata, but not resource content</p></li> 
+   <li><p><strong>read</strong>: allows you to read resource content</p></li> 
+   <li><p><strong>write</strong>: allows you to write resource content</p></li> 
+   <li><p><strong>managing access control lists (ACLs)</strong>: allows you to manipulate ACLs on resources</p></li> 
+  </ul> 
+  <p>Users can only run processes when they have permission to run the process. IDE users need traverse and read permissions to synchronize with the repository. ACLs apply only at design time because runtime occurs within the system context.</p> 
+  <p>You can programmatically read resources by using the Repository service Java API or web service API. </p> 
+  <note> 
+   <p>For more information about the Repository service, see <a href="http://www.adobe.com/go/learn_aemforms_services_63">Services Reference for AEM Forms</a>.</p> 
+  </note> 
+  <h3 id="summary_of_steps">Summary of steps</h3> 
+  <p></p> 
+  <p>To read a resource, follow these steps:</p> 
+  <ol> 
+   <li><p>Include project files.</p></li> 
+   <li><p>Create a Repository service client.</p></li> 
+   <li><p>Specify the URI of the resource to be read.</p></li> 
+   <li><p>Read the resource.</p></li> 
+  </ol> 
+  <p><strong>Include project files</strong></p> 
+  <p>Include the necessary files in your development project. If you are creating a client application using Java, include the necessary JAR files. If you are using web services, include the proxy files.</p> 
+  <p><strong>Create the service client</strong></p> 
+  <p>Before you can programmatically read a resource, you must establish a connection and provide credentials. This is accomplished by creating a service client.</p> 
+  <p><strong>Specify the URI of the resource to be read</strong></p> 
+  <p>Create a string containing the URI of the resource to be read. The syntax includes forward slashes, as in this example: "/<i>path</i>/<i>resource</i>".</p> 
+  <p><strong>Read the resource</strong></p> 
+  <p>Invoke the Repository service method to read the resource, specifying the URI.</p> 
+  <p><strong>See also</strong></p> 
+  <p><a href="aem-forms-repository#read_resources_using_the_java_api">Read resources using the Java API</a></p> 
+  <p><a href="aem-forms-repository#reading_resources_using_the_web_service_api">Reading resources using the web service API</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p> 
+  <p><a href="/programming-with-aem-forms/repository-service-api-quick-starts#repository_service_api_quick_starts">Repository Service API Quick Starts</a></p> 
+  <h3 id="read_resources_using_the_java_api">Read resources using the Java API</h3> 
+  <p></p> 
+  <p>Read a resource by using the Repository service API (Java):</p> 
+  <ol> 
+   <li><p>Include project files </p><p>Include client JAR files in your Java project’s class path.</p></li> 
+   <li><p>Create the service client </p><p>Create a <span class="code">ResourceRepositoryClient</span> object by using its constructor and passing a <span class="code">ServiceClientFactory</span> object that contains connection properties. </p></li> 
+   <li><p>Specify the URI of the resource to be read </p><p>Specify a string value that represents the URI of the resource to retrieve. For example, assuming the resource is named <i>testResource</i> which is located in a folder named <i>testFolder</i>, specify <span class="code">/testFolder/testResource</span>.</p></li> 
+   <li><p>Read the resource </p><p>Invoke the <span class="code">ResourceRepositoryClient</span> object’s <span class="code">readResource</span> method and pass the URI of the resource as a parameter. This method returns a <span class="code">Resource</span> instance that represents the resource. </p></li> 
+  </ol> 
+  <p><strong>See also</strong></p> 
+  <p><a href="aem-forms-repository#reading_resources">Reading Resources</a></p> 
+  <p><a href="/programming-with-aem-forms/repository-service-api-quick-starts#quick_start_soap_mode_reading_a_resource_using_the_java_api">Quick Start (SOAP mode): Reading a resource using the Java API</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p> 
+  <h3 id="reading_resources_using_the_web_service_api">Reading resources using the web service API</h3> 
+  <p></p> 
+  <p>Read a resource by using the Repository service API (web service):</p> 
+  <ol> 
+   <li><p>Include project files </p> 
+    <ul> 
+     <li><p>Create a Microsoft .NET client assembly that consumes the Repository WSDL. (See <a href="/programming-with-aem-forms/invoking-aem-forms-using-web#creating_a_net_client_assembly_that_uses_base64_encoding">Creating a .NET client assembly that uses Base64 encoding</a>.)</p></li> 
+     <li><p>Reference the Microsoft .NET client assembly. (See <a href="/programming-with-aem-forms/invoking-aem-forms-using-web#creating_a_net_client_assembly_that_uses_base64_encoding">Creating a .NET client assembly that uses Base64 encoding</a>.)</p></li> 
+    </ul></li> 
+   <li><p>Create the service client </p><p>Using the Microsoft .NET client assembly, create a <span class="code">RepositoryServiceService</span> object by invoking its default constructor. Set its <span class="code">Credentials</span> property using a <span class="code">System.Net.NetworkCredential</span> object containing the user name and password.</p></li> 
+   <li><p>Specify the URI of the resource to be read </p><p>Specify a string containing the URI of the resource to be retrieved. In this case, because the resource named <span class="code">testResource</span> is in the folder named <span class="code">testFolder</span>, its URI is <span class="code">"/testFolder/testResource"</span>. When using a language compliant with the Microsoft .NET Framework (for example, C#), store the URI in a <span class="code">System.String</span> object. </p></li> 
+   <li><p>Read the resource </p><p>Invoke the <span class="code">RepositoryServiceService</span> object’s <span class="code">readResource</span> method and pass the URI of the resource as the first parameter. Pass <span class="code">null</span> for the other two parameters.</p></li> 
+  </ol> 
+  <p><strong>See also</strong></p> 
+  <p><a href="aem-forms-repository#reading_resources">Reading Resources</a></p> 
+  <p><a href="#unresolvedlink-lc-qs-repository-re.xml#ws624e3cba99b79e12e69a9941333732bac8-7cd6.2">Quick Start (Base64): Reading a resource using the web service API</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_base64_encoding">Invoking AEM Forms using Base64 encoding</a></p> 
+  <h2 id="updating_resources">Updating Resources</h2> 
+  <p></p> 
+  <p>You can retrieve and update the content of resources in the repository. When you update resources, access control to those resources remains unchanged between versions. When performing an update, you have the option of incrementing the major version. If you do not choose to increment the major version, the minor version is automatically updated. </p> 
+  <p>When you update a resource, the new version is created based on the specified resource attributes. When you update a resource you specify two important parameters: the target URI and a resource instance containing all the updated metadata. It is important to note that if you are not changing a given attribute (for example, the name), the attribute is still required in the instance you pass in. The relationships that are created when parsing the content are added to the specific version and are not brought forward unless specified. </p> 
+  <p>For example, if you update an XDP file and it contains references to other resources, those additional references will also be recorded. Suppose that form.xdp version 1.0 has two external references: a logo and a style sheet, and you subsequently update form.xdp so that it now has three references: a logo, a style sheet, and a schema file. During the update, the repository will add the third relationship (to the schema file) to its pending relation table. Once the schema file is present in the repository, the relationship will automatically be formed. However, if form.xdp version 2.0 no longer uses the logo, form.xdp version 2.0 will not have a relationship to the logo.</p> 
+  <p>All update operations are atomic and transactional. For example, if two users read the same resource and both decide to update version 1.0 to version 2.0, one of them will succeed and one of them will fail, the integrity of the repository will be maintained, and both will get a message confirming success or failure. If the transaction does not commit, it will roll back in the case of database failure and will time out or roll back depending on the application server. </p> 
+  <p>You can programmatically update resources by using the Repository service Java API or web service API. </p> 
+  <note> 
+   <p>For more information about the Repository service, see <a href="http://www.adobe.com/go/learn_aemforms_services_63">Services Reference for AEM Forms</a>.</p> 
+  </note> 
+  <h3 id="summary_of_steps">Summary of steps</h3> 
+  <p></p> 
+  <p>To update a resource, follow these steps:</p> 
+  <ol> 
+   <li><p>Include project files.</p></li> 
+   <li><p>Create a Repository service client.</p></li> 
+   <li><p>Retrieve the resource to be updated.</p></li> 
+   <li><p>Update the resource.</p></li> 
+  </ol> 
+  <p><strong>Include project files</strong></p> 
+  <p>Include the necessary files in your development project. If you are creating a client application using Java, include the necessary JAR files. If you are using web services, include the proxy files.</p> 
+  <p><strong>Create the service client</strong></p> 
+  <p>Before you can programmatically read a resource, you must establish a connection and provide credentials. This is accomplished by creating a service client.</p> 
+  <p><strong>Retrieve the resource to be updated</strong></p> 
+  <p>Read the resource. For more information, see <a href="aem-forms-repository#reading_resources">Reading Resources</a>.</p> 
+  <p><strong>Update the resource</strong></p> 
+  <p>Set the new information in the resource and invoke the Repository service method to update the resource, specifying the URI, the updated resource, and how the version information should be updated.</p> 
+  <p><strong>See also</strong></p> 
+  <p><a href="aem-forms-repository#update_resources_using_the_java_api">Update resources using the Java API</a></p> 
+  <p><a href="aem-forms-repository#update_resources_using_the_web_service_api">Update resources using the web service API</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p> 
+  <p><a href="/programming-with-aem-forms/repository-service-api-quick-starts#repository_service_api_quick_starts">Repository Service API Quick Starts</a></p> 
+  <h3 id="update_resources_using_the_java_api">Update resources using the Java API</h3> 
+  <p></p> 
+  <p>Update a resource by using the Repository service API (Java):</p> 
+  <ol> 
+   <li><p>Include project files </p><p>Include client JAR files in your Java project’s class path.</p></li> 
+   <li><p>Create the service client </p><p>Create a <span class="code">ResourceRepositoryClient</span> object by using its constructor and passing a <span class="code">ServiceClientFactory</span> object that contains connection properties. </p></li> 
+   <li><p>Retrieve the resource to be updated </p><p>Specify the URI of the resource to retrieve and read the resource. In this example, the URI of the resource is <span class="code">"/testFolder/testResource"</span>.</p></li> 
+   <li><p>Update the resource </p><p>Update the <span class="code">Resource</span> object’s information. In this example, to update the description, invoke the <span class="code">Resource</span> object’s <span class="code">setDescription</span> method and pass the new description string as a parameter. </p><p>Then invoke the <span class="code">ServiceClientFactory</span> object’s <span class="code">updateResource</span> method, and pass in the following parameters:</p> 
+    <ul> 
+     <li><p>A<span class="code"> java.lang.String</span> object containing the resource’s URI.</p></li> 
+     <li><p>The <span class="code">Resource</span> object containing the updated resource information.</p></li> 
+     <li><p>A <span class="code">boolean</span> value indicating whether to update the major or minor version. In this example, a value of <span class="code">true</span> is passed in to indicate that the major version is to be incremented.</p></li> 
+    </ul></li> 
+  </ol> 
+  <p><strong>See also</strong></p> 
+  <p><a href="aem-forms-repository#updating_resources">Updating Resources</a></p> 
+  <p><a href="/programming-with-aem-forms/repository-service-api-quick-starts#quick_start_soap_mode_updating_a_resource_using_the_java_api">Quick Start (SOAP mode): Updating a resource using the Java API</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p> 
+  <h3 id="update_resources_using_the_web_service_api">Update resources using the web service API</h3> 
+  <p></p> 
+  <p>Update a resource by using the Repository API (web service):</p> 
+  <ol> 
+   <li><p>Include project files </p> 
+    <ul> 
+     <li><p>Create a Microsoft .NET client assembly that consumes the Repository WSDL. </p></li> 
+     <li><p>Reference the Microsoft .NET client assembly. </p></li> 
+    </ul></li> 
+   <li><p>Create the service client </p><p>Using the Microsoft .NET client assembly, create a <span class="code">RepositoryServiceService</span> object by invoking its default constructor. Set its <span class="code">Credentials</span> property using a <span class="code">System.Net.NetworkCredential</span> object containing the user name and password.</p></li> 
+   <li><p>Retrieve the resource to be updated </p><p>Specify the URI of the resource to be retrieved and read the resource. In this example, the URI of the resource is <span class="code">"/testFolder/testResource"</span>. For more information, see <a href="aem-forms-repository#reading_resources">Reading Resources</a>.</p></li> 
+   <li><p>Update the resource </p><p>Update the <span class="code">Resource</span> object’s information. In this example, to update the description, assign a new value to the <span class="code">Resource</span> object’s <span class="code">description</span> field. </p></li> 
+   <li><p>Invoke the <span class="code">RepositoryServiceService</span> object’s <span class="code">updateResource</span> method, and pass in the following parameters:</p> 
+    <ul> 
+     <li><p>A <span class="code">System.String</span> object containing the resource’s URI.</p></li> 
+     <li><p>The <span class="code">Resource</span> object containing the updated resource information.</p></li> 
+     <li><p>A <span class="code">boolean</span> value indicating whether to update the major or minor version. In this example, a value of <span class="code">true</span> is passed in to indicate that the major version is to be incremented.</p></li> 
+     <li><p>Pass <span class="code">null</span> for the remaining two parameters.</p></li> 
+    </ul></li> 
+  </ol> 
+  <p><strong>See also</strong></p> 
+  <p><a href="aem-forms-repository#updating_resources">Updating Resources</a></p> 
+  <p><a href="#unresolvedlink-lc-qs-repository-re.xml#ws624e3cba99b79e12e69a9941333732bac8-7cd3.2">Quick Start (Base64): Updating a resource using the web service API</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_base64_encoding">Invoking AEM Forms using Base64 encoding</a></p> 
+  <h2 id="searching_for_resources">Searching for Resources</h2> 
+  <p></p> 
+  <p>You can construct queries used to search for resources in the repository, including history, related resources, and properties. </p> 
+  <p>You can retrieve related resources to determine dependencies between a form and its fragments. For example, if you have a form you can determine what fragments or external resources it uses. If you have an image, you can also find out what forms use the image. You can also search for related resources using filtering based on properties. For example, you can search for all forms that use an image with a specified name, or find any image used by a form with a specified name. You can also search using resource properties. For example, you can conduct a query to find all forms or resources whose name starts with a given string that may include ’%’ and ’_’ wildcards. Remember that searches based on properties are not based on relationships; such searches are based on the assumption that you have specific knowledge about a given resource.</p> 
+  <p><strong>Query statements</strong></p> 
+  <p>A <i>query</i> contains one or more statements that are logically joined with conditions. A <i>statement</i> consists of a left operand, an operator, and a right operand. In addition, you can specify the sort order to be used for the search results. The <i>sort order</i> contains information equivalent to an SQL <span class="code">ORDER BY</span> clause and is comprised of elements that contain the attributes on which the search was based as well as a value indicating whether ascending or descending order is to be used.</p> 
+  <p>You can programmatically search for resources by using the Repository service Java API. At this time, it is not possible to use the web service API to search for resources.</p> 
+  <p><strong>Sort behaviour</strong></p> 
+  <p>Sort order is not respected when invoking the <span class="code">ResourceRepositoryClient</span> object’s <span class="code">searchProperties</span> method and specifying a sort order. For example, assume that you create a resource with three custom properties, where attribute names are <span class="code">name</span>, <span class="code">secondName</span>, and <span class="code">asecondName</span>. Next you create a sort order element on the attribute name and set the <span class="code">ascending</span> value to <span class="code">true</span>. </p> 
+  <p>Then you invoke the <span class="code">ResourceRepositoryClient</span> object’s <span class="code">searchProperties</span> method and pass in the sort order. The search returns the right resource, with the three properties. However, the properties are not sorted by attribute name. They are returned in the order they were added: <span class="code">name</span>, <span class="code">secondName</span>, and <span class="code">asecondName</span>. </p> 
+  <note> 
+   <p>For more information about the Repository service, see <a href="http://www.adobe.com/go/learn_aemforms_services_63">Services Reference for AEM Forms</a>.</p> 
+  </note> 
+  <h3 id="summary_of_steps">Summary of steps</h3> 
+  <p></p> 
+  <p>To search for resources, follow these steps:</p> 
+  <ol> 
+   <li><p>Include project files.</p></li> 
+   <li><p>Create a Repository service client.</p></li> 
+   <li><p>Specify the target folder for the search.</p></li> 
+   <li><p>Specify the attributes used in the search.</p></li> 
+   <li><p>Create the query used in the search.</p></li> 
+   <li><p>Create the sort order for the search results.</p></li> 
+   <li><p>Search for the resources.</p></li> 
+   <li><p>Retrieve the resources from the search result.</p></li> 
+  </ol> 
+  <p><strong>Include project files</strong></p> 
+  <p>Include the necessary files in your development project. If you are creating a client application using Java, include the necessary JAR files. If you are using web services, include the proxy files.</p> 
+  <p><strong>Create the service client</strong></p> 
+  <p>Before you can programmatically read a resource, you must establish a connection and provide credentials. This is accomplished by creating a service client.</p> 
+  <p><strong>Specify the target folder for the search</strong></p> 
+  <p>Create a string containing the base path from which to conduct the search. The syntax includes forward slashes, as in this example: "/<i>path</i>/<i>folder</i>".</p> 
+  <p><strong>Specify the attributes used in the search</strong></p> 
+  <p>You can base your search on the attributes contained within resources. Specify the values of the attributes on which to conduct the search. </p> 
+  <p><strong>Create the query used in the search</strong></p> 
+  <p>Construct a query by using statements and conditions. Each statement will specify the attribute on which to base the search, the condition to be used, and the attribute value to be used in the search.</p> 
+  <p><strong>Create the sort order for the search results</strong></p> 
+  <p>The sort order is comprised of elements, each of which contains one of the attributes used in the search and a value indicating whether ascending or descending order is to be used.</p> 
+  <p><strong>Search for the resources</strong></p> 
+  <p>Search for the resources using the folder, query, and sort order. In addition, indicate the depth of the search and an upper limit on the number of results to be returned.</p> 
+  <p><strong>Retrieve the resources from the search result</strong></p> 
+  <p>Iterate through the returned list of resources and extract the information for further processing.</p> 
+  <p><strong>See also</strong></p> 
+  <p><a href="aem-forms-repository#search_for_resources_using_the_java_api">Search for resources using the Java API</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p> 
+  <p><a href="/programming-with-aem-forms/repository-service-api-quick-starts#repository_service_api_quick_starts">Repository Service API Quick Starts</a></p> 
+  <h3 id="search_for_resources_using_the_java_api">Search for resources using the Java API</h3> 
+  <p></p> 
+  <p>Search for a resource by using the Repository service API (Java):</p> 
+  <ol> 
+   <li><p>Include project files </p><p>Include client JAR files in your Java project’s class path.</p></li> 
+   <li><p>Create the service client </p><p>Create a <span class="code">ResourceRepositoryClient</span> object by using its constructor and passing a <span class="code">ServiceClientFactory</span> object that contains connection properties. </p></li> 
+   <li><p>Specify the target folder for the search </p><p>Specify the URI of the base path from which to execute the search. In this example, the URI of the resource is <span class="code">/testFolder</span>.</p></li> 
+   <li><p>Specify the attributes used in the search </p><p>Specify the values for the attributes on which to conduct the search. The attributes exist within a <span class="code">com.adobe.repository.infomodel.bean.Resource</span> object. In this example, the search will be conducted on the name attribute; therefore, a <span class="code">java.lang.String</span> containing the <span class="code">Resource</span> object’s name is used, which is <span class="code">testResource</span> in this case.</p></li> 
+   <li><p>Create the query used in the search </p><p>To create a query, create a <span class="code">com.adobe.repository.query.Query</span> object by invoking the default constructor for the <span class="code">Query</span> class and add statements to the query.</p><p>To create a statement, invoke the constructor for the <span class="code">com.adobe.repository.query.Query.Statement</span> class and pass in the following parameters:</p> 
+    <ul> 
+     <li><p>A left operand containing the resource attribute constant. In this example, because the resource’s name is used as the basis for the search, the static value <span class="code">Resource.ATTRIBUTE_NAME</span> is used.</p></li> 
+     <li><p>An operator containing the condition used in the search for the attribute. The operator must be one of the static constants in the <span class="code">Query.Statement</span> class. In this example, the static value <span class="code">Query.Statement.OPERATOR_BEGINS_WITH</span> is used.</p></li> 
+     <li><p>A right operand containing the attribute value on which to conduct the search. In this example, the name attribute, a <span class="code">String</span> containing the value <span class="code">"testResource"</span>, is used.</p></li> 
+    </ul><p>Specify the namespace of the left operand by invoking the <span class="code">Query.Statement</span> object’s <span class="code">setNamespace</span> method and passing in one of the static values contained in the <span class="code">com.adobe.repository.infomodel.bean.ResourceProperty</span> class. In this example, <span class="code">ResourceProperty.RESERVED_NAMESPACE_REPOSITORY</span> is used.</p><p>Add each statement to the query by invoking the <span class="code">Query</span> object’s <span class="code">addStatement</span> method and passing in the <span class="code">Query.Statement</span> object.</p></li> 
+   <li><p>Create the sort order for the search results </p><p>To specify the sort order used in the search results, create a <span class="code">com.adobe.repository.query.sort.SortOrder</span> object by invoking the default constructor for the <span class="code">SortOrder</span> class, and add elements to the sort order.</p><p>To create an element for the sort order, invoke one of the constructors for the <span class="code">com.adobe.repository.query.sort.SortOrder.Element</span> class. In this example, because the resource’s name is used as the basis for the search, the static value <span class="code">Resource.ATTRIBUTE_NAME</span> is used as the first parameter, and ascending order (a <span class="code">boolean</span> value of <span class="code">true</span>) is specified as the second parameter.</p><p>Add each element to the sort order by invoking the <span class="code">SortOrder</span> object’s <span class="code">addSortElement</span> method and passing in the <span class="code">SortOrder.Element</span> object.</p></li> 
+   <li><p>Search for the resources </p><p>To search for <span class="code">resources</span> based on attribute properties, invoke the <span class="code">ResourceRepositoryClient</span> object’s <span class="code">searchProperties</span> method and pass in the following parameters:</p> 
+    <ul> 
+     <li><p>A <span class="code">String</span> containing the base path from which to execute the search. In this case, <span class="code">"/testFolder"</span> is used.</p></li> 
+     <li><p>The query used in the search.</p></li> 
+     <li><p>The depth of the search. In this case, <span class="code">com.adobe.repository.infomodel.bean.ResourceCollection.DEPTH_INFINITE</span> is used to indicate that the base path and all its folders are to be used.</p></li> 
+     <li><p>An <span class="code">int</span> value indicating the first row from which to select the unpaged result set. In this example, <span class="code">0</span> is specified.</p></li> 
+     <li><p>An <span class="code">int</span> value indicating the maximum number of results to be returned. In this example, <span class="code">10</span> is specified.</p></li> 
+     <li><p>The sort order used in the search.</p></li> 
+    </ul><p>The method returns a <span class="code">java.util.List</span> of <span class="code">Resource</span> objects in the specified sort order.</p></li> 
+   <li><p>Retrieve the resources from the search result </p><p>To retrieve the resources contained in the search result, iterate through the <span class="code">List</span> and cast each object to a <span class="code">Resource</span> in order to extract its information. In this example, the name of each resource is displayed.</p></li> 
+  </ol> 
+  <p><strong>See also</strong></p> 
+  <p><a href="aem-forms-repository#searching_for_resources">Searching for Resources</a></p> 
+  <p><a href="/programming-with-aem-forms/repository-service-api-quick-starts#quick_start_soap_mode_searching_for_resources_using_the_java_api">Quick Start (SOAP mode): Searching for resources using the Java API</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p> 
+  <h2 id="creating_resource_relationships">Creating Resource Relationships</h2> 
+  <p></p> 
+  <p>You can specify relationships between resources in the repository. There are three kinds of relationships:</p> 
+  <ul> 
+   <li><p><strong>Dependence</strong>: a relationship in which a resource depends on other resources, meaning that all related resources are needed in the repository.</p></li> 
+   <li><p><strong>Membership (file system)</strong>: a relationship in which a resource is located within a given folder.</p></li> 
+   <li><p><strong>Custom</strong>: a relationship you specify between resources. For example, if one resource has been deprecated and another resource introduced into the repository, you could specify your own replacement relationship.</p></li> 
+  </ul> 
+  <p>You can create your own custom relationships. For example, if you store an HTML file in the repository and it uses an image, you could specify a custom relationship to relate the HTML file with the image (since normally only XML files are associated with images using a repository-defined dependence relationship). Another example of a custom relationship would be if you wanted to build a different view of the repository with a cyclical graph structure instead of a tree structure. You could define a circular graph along with a viewer to traverse those relationships. Finally, you could indicate that a resource replaces another resource even though the two resources are completely different. In that case you could define a relationship type outside of the reserved range and create a relationship between those two resources. Your application would be the only client that could detect and process the relationship, and it could be used to conduct searches on that relationship.</p> 
+  <p>You can programmatically specify relationships between resources by using the Repository service Java API or web service API. </p> 
+  <note> 
+   <p>For more information about the Repository service, see <a href="http://www.adobe.com/go/learn_aemforms_services_63">Services Reference for AEM Forms</a>.</p> 
+  </note> 
+  <h3 id="summary_of_steps">Summary of steps</h3> 
+  <p></p> 
+  <p>To specify a relationship between two resources, follow these steps:</p> 
+  <ol> 
+   <li><p>Include project files.</p></li> 
+   <li><p>Create a Repository service client.</p></li> 
+   <li><p>Specify the URIs of the resources to be related.</p></li> 
+   <li><p>Create the relationship.</p></li> 
+  </ol> 
+  <p><strong>Include project files</strong></p> 
+  <p>Include the necessary files in your development project. If you are creating a client application using Java, include the necessary JAR files. If you are using web services, include the proxy files.</p> 
+  <p><strong>Create the service client</strong></p> 
+  <p>Before you can programmatically read a resource, you must establish a connection and provide credentials. This is accomplished by creating a service client.</p> 
+  <p><strong>Specify the URIs of the resources to be related</strong></p> 
+  <p>Create strings containing the URIs of the resource to be related. The syntax includes forward slashes, as in this example: "/<i>path</i>/<i>resource</i>".</p> 
+  <p><strong>Create the relationship</strong></p> 
+  <p>Invoke the Repository service method to create and specify the type of relationship.</p> 
+  <p><strong>See also</strong></p> 
+  <p><a href="aem-forms-repository#create_relationship_resources_using_the_java_api">Create relationship resources using the Java API</a></p> 
+  <p><a href="aem-forms-repository#create_relationship_resources_using_the_web_service_api">Create relationship resources using the web service API</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p> 
+  <p><a href="/programming-with-aem-forms/repository-service-api-quick-starts#repository_service_api_quick_starts">Repository Service API Quick Starts</a></p> 
+  <h3 id="create_relationship_resources_using_the_java_api">Create relationship resources using the Java API</h3> 
+  <p></p> 
+  <p>Create relationship resources by using the Repository service Java API, perform the following tasks:</p> 
+  <ol> 
+   <li><p>Include project files </p><p>Include client JAR files in your Java project’s class path.</p></li> 
+   <li><p>Create the service client </p><p>Create a <span class="code">ResourceRepositoryClient</span> object by using its constructor and passing a <span class="code">ServiceClientFactory</span> object that contains connection properties. </p></li> 
+   <li><p>Specify the URIs of the resources to be related </p><p>Specify the URIs of the resources to be related. In this case, because the resources are named <span class="code">testResource1</span> and <span class="code">testResource2</span> and are located in the folder named <span class="code">testFolder</span>, their URIs are <span class="code">"/testFolder/testResource1"</span> and <span class="code">"/testFolder/testResource2"</span>. The URIs are stored as a <span class="code">java.lang.String</span> objects. In this example, the resources are first written to the repository, and their URIs are retrieved. For more information about writing a resource, see <a href="aem-forms-repository#writing_resources">Writing Resources</a>.</p></li> 
+   <li><p>Create the relationship </p><p>Invoke the <span class="code">ResourceRepositoryClient</span> object’s <span class="code">createRelationship</span> method and pass in the following parameters:</p> 
+    <ul> 
+     <li><p>The URI of the source resource.</p></li> 
+     <li><p>The URI of the target resource.</p></li> 
+     <li><p>The type of relationship, which is one of the static constants in the <span class="code">com.adobe.repository.infomodel.bean.Relation</span> class. In this example, a dependence relationship is established by specifying the value <span class="code">Relation.TYPE_DEPENDANT_OF</span>.</p></li> 
+     <li><p>A <span class="code">boolean</span> value indicating whether the target resource is automatically updated to the <span class="code">com.adobe.repository.infomodel.Id</span>-based identifier of the new head resource. In this example, because of the dependence relationship, the value <span class="code">true</span> is specified.</p></li> 
+    </ul><p>You can also retrieve a list of related resources for a given resource by invoking the <span class="code">ResourceRepositoryClient</span> object’s <span class="code">getRelated</span> method and passing in the following parameters:</p> 
+    <ul> 
+     <li><p>The URI of the resource for which to retrieve related resources. In this example, the source resource (<span class="code">"/testFolder/testResource1"</span>) is specified.</p></li> 
+     <li><p>A <span class="code">boolean</span> value indicating whether the specified resource is the source resource in the relationship. In this example, the value <span class="code">true</span> is specified because this is the case.</p></li> 
+     <li><p>The relationship type, which is one of the static constants in the <span class="code">Relation</span> class. In this example, a dependence relationship is specified by using the same value used earlier: <span class="code">Relation.TYPE_DEPENDANT_OF</span>.</p></li> 
+    </ul><p>The <span class="code">getRelated</span> method returns a <span class="code">java.util.List</span> of <span class="code">Resource</span> objects through which you can iterate to retrieve each of the related resources, casting the objects contained in the <span class="code">List</span> to <span class="code">Resource</span> as you do so. In this example, <span class="code">testResource2</span> is expected to be in the list of returned resources.</p></li> 
+  </ol> 
+  <p><strong>See also</strong></p> 
+  <p><a href="aem-forms-repository#creating_resource_relationships">Creating Resource Relationships</a></p> 
+  <p><a href="/programming-with-aem-forms/repository-service-api-quick-starts#quick_start_soap_mode_creating_relationships_between_resources_using_the_java_api">Quick Start (SOAP mode): Creating relationships between resources using the Java API</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p> 
+  <h3 id="create_relationship_resources_using_the_web_service_api">Create relationship resources using the web service API</h3> 
+  <p></p> 
+  <p>Create relationship resources by using the Repository API (web service):</p> 
+  <ol> 
+   <li><p>Include project files </p> 
+    <ul> 
+     <li><p>Create a Microsoft .NET client assembly that consumes the Repository WSDL. </p></li> 
+     <li><p>Reference the Microsoft .NET client assembly. </p></li> 
+    </ul></li> 
+   <li><p>Create the service client </p><p>Using the Microsoft .NET client assembly, create a <span class="code">RepositoryServiceService</span> object by invoking its default constructor. Set its <span class="code">Credentials</span> property using a <span class="code">System.Net.NetworkCredential</span> object containing the user name and password.</p></li> 
+   <li><p>Specify the URIs of the resources to be related </p><p>Specify the URIs of the resources to be related. In this case, because the resources are named <span class="code">testResource1</span> and <span class="code">testResource2</span> and are located in the folder named <span class="code">testFolder</span>, their URIs are <span class="code">"/testFolder/testResource1"</span> and <span class="code">"/testFolder/testResource2"</span>. When using a language compliant with the Microsoft .NET Framework (for example, C#), the URIs are stored as a <span class="code">System.String</span> objects. In this example, the resources are first written to the repository, and their URIs are retrieved. For more information about writing a resource, see <a href="aem-forms-repository#writing_resources">Writing Resources</a>. </p></li> 
+   <li><p>Create the relationship </p><p>Invoke the <span class="code">RepositoryServiceService</span> object’s <span class="code">createRelationship</span> method and pass in the following parameters:</p> 
+    <ul> 
+     <li><p>The URI of the source resource. </p></li> 
+     <li><p>The URI of the target resource. </p></li> 
+     <li><p>The type of relationship. In this example, a dependence relationship is established by specifying the value <span class="code">3</span>.</p></li> 
+     <li><p>A <span class="code">boolean</span> value indicating whether the relationship type was specified. In this example, the value <span class="code">true</span> is specified.</p></li> 
+     <li><p>A <span class="code">boolean</span> value indicating whether the target resource is automatically updated to the <span class="code">Id</span>-based identifier of the new head resource. In this example, because of the dependence relationship, the value <span class="code">true</span> is specified.</p></li> 
+     <li><p>A <span class="code">boolean</span> value indicating whether the target head was specified. In this example, the value <span class="code">true</span> is specified.</p></li> 
+     <li><p>Pass <span class="code">null</span> for the last parameter.</p></li> 
+    </ul><p>You can also retrieve a list of related resources for a given resource by invoking the <span class="code">RepositoryServiceService</span> object’s <span class="code">getRelated</span> method and passing in the following parameters:</p> 
+    <ul> 
+     <li><p>The URI of the resource for which to retrieve related resources. In this example, the source resource (<span class="code">"/testFolder/testResource1"</span>) is specified.</p></li> 
+     <li><p>A <span class="code">boolean</span> value indicating whether the specified resource is the source resource in the relationship. In this example, the value <span class="code">true</span> is specified because this is the case.</p></li> 
+     <li><p>A <span class="code">boolean</span> value indicating whether the source resource was specified. In this example, the value <span class="code">true</span> is provided.</p></li> 
+     <li><p>An array of integers containing the relationship types. In this example, a dependence relationship is specified by using the same value in the array as was used earlier: <span class="code">3</span>.</p></li> 
+     <li><p>Pass <span class="code">null</span> for the remaining two parameters.</p></li> 
+    </ul><p>The <span class="code">getRelated</span> method returns an array of objects that can be cast to <span class="code">Resource</span> objects through which you can iterate to retrieve each of the related resources. In this example, <span class="code">testResource2</span> is expected to be in the list of returned resources.</p></li> 
+  </ol> 
+  <p><strong>See also</strong></p> 
+  <p><a href="aem-forms-repository#creating_resource_relationships">Creating Resource Relationships</a></p> 
+  <p><a href="#unresolvedlink-lc-qs-repository-re.xml#ws624e3cba99b79e12e69a9941333732bac8-7cc5.2">Quick Start (Base64): Creating relationships between resources using the web service API</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_base64_encoding">Invoking AEM Forms using Base64 encoding</a></p> 
+  <h2 id="locking_resources">Locking Resources</h2> 
+  <p></p> 
+  <p>You can lock a resource or set of resources for exclusive use by a particular user or shared use among more than one user. A shared lock is an indication that something will happen with the resource, but it does not prevent anyone else from taking actions with that resource. A shared lock should be considered a signaling mechanism. An exclusive lock means that the user who locked the resource is going to change the resource, and the lock ensures that nobody else can do so until the user no longer needs access to the resource and has released the lock. If a repository administrator unlocks a resource, all exclusive and shared locks on that resource will automatically be removed. This type of action is meant for situations in which a user is no longer available and has not unlocked the resource.</p> 
+  <p>When a resource is locked, a lock icon appears when you view the Resources tab located in Workbench, as shown in the following illustration. </p> 
+  <img alt="" src="assets/lr_lr_lockrepository.png" /> 
+  <p>You can programmatically control access to resources by using the Repository service Java API or web service API. </p> 
+  <note> 
+   <p>For more information about the Repository service, see <a href="http://www.adobe.com/go/learn_aemforms_services_63">Services Reference for AEM Forms</a>.</p> 
+  </note> 
+  <h3 id="summary_of_steps">Summary of steps</h3> 
+  <p></p> 
+  <p>To lock and unlock resources, follow these steps:</p> 
+  <ol> 
+   <li><p>Include project files.</p></li> 
+   <li><p>Create a Repository service client.</p></li> 
+   <li><p>Specify the URI of the resource to be locked.</p></li> 
+   <li><p>Lock the resource.</p></li> 
+   <li><p>Retrieve the locks for the resource.</p></li> 
+   <li><p>Unlock the resource</p></li> 
+  </ol> 
+  <p><strong>Include project files</strong></p> 
+  <p>Include the necessary files in your development project. If you are creating a client application using Java, include the necessary JAR files. If you are using web services, include the proxy files.</p> 
+  <p><strong>Create the service client</strong></p> 
+  <p>Before you can programmatically read a resource, you must establish a connection and provide credentials. This is accomplished by creating a service client.</p> 
+  <p><strong>Specify the URI of the resource to be locked</strong></p> 
+  <p>Create a string containing the URI of the resource to be locked. The syntax includes forward slashes, as in this example: "/<i>path</i>/<i>resource</i>".</p> 
+  <p><strong>Lock the resource</strong></p> 
+  <p>Invoke the Repository service method to lock the resource, specifying the URI, the type of lock, and the locking depth.</p> 
+  <p><strong>Retrieve the locks for the resource</strong></p> 
+  <p>Invoke the Repository service method to retrieve the locks for the resource, specifying the URI.</p> 
+  <p><strong>Unlock the resource</strong></p> 
+  <p>Invoke the Repository service method to unlock the resource, specifying the URI.</p> 
+  <p><strong>See also</strong></p> 
+  <p><a href="aem-forms-repository#lock_resources_using_the_java_api">Lock resources using the Java API</a></p> 
+  <p><a href="aem-forms-repository#lock_resources_using_the_web_service_api">Lock resources using the web service API</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p> 
+  <p><a href="/programming-with-aem-forms/repository-service-api-quick-starts#repository_service_api_quick_starts">Repository Service API Quick Starts</a></p> 
+  <h3 id="lock_resources_using_the_java_api">Lock resources using the Java API</h3> 
+  <p></p> 
+  <p>Lock resources by using the Repository service API (Java):</p> 
+  <ol> 
+   <li><p>Include project files </p><p>Include client JAR files in your Java project’s class path.</p></li> 
+   <li><p>Create the service client </p><p>Create a <span class="code">ResourceRepositoryClient</span> object by using its constructor and passing a <span class="code">ServiceClientFactory</span> object that contains connection properties. </p></li> 
+   <li><p>Specify the URI of the resource to be locked </p><p>Specify the URI of the resource to be locked. In this case, because the resource named <span class="code">testResource</span> is in the folder named <span class="code">testFolder</span>, its URI is <span class="code">"/testFolder/testResource"</span>. The URI is stored as a <span class="code">java.lang.String</span> object.</p></li> 
+   <li><p>Lock the resource </p><p>Invoke the <span class="code">ResourceRepositoryClient</span> object’s <span class="code">lockResource</span> method and pass in the following parameters:</p> 
+    <ul> 
+     <li><p>The URI of the resource.</p></li> 
+     <li><p>The lock scope. In this example, because the resource will be locked for exclusive use, the lock scope is specified as <span class="code">com.adobe.repository.infomodel.bean.Lock.SCOPE_EXCLUSIVE</span>.</p></li> 
+     <li><p>The lock depth. In this example, because the locking will apply only to the particular resource and none of its members or children, the lock depth is specified as <span class="code">Lock.DEPTH_ZERO</span>.</p></li> 
+    </ul> 
+    <note> 
+     <p>The overloaded version of the <span class="code">lockResource</span> method that requires four parameters throws an exception. Ensure to use the <span class="code">lockResource</span> method that requires three parameters as shown in this walkthrough. </p> 
+    </note></li> 
+   <li><p>Retrieve the locks for the resource </p><p>Invoke the <span class="code">ResourceRepositoryClient</span> object’s <span class="code">getLocks</span> method and pass the URI of the resource as a parameter. The method returns a List of Lock objects through which you can iterate. In this example, the lock owner, depth, and scope are printed for each object by invoking each Lock object’s <span class="code">getOwnerUserId</span>, <span class="code">getDepth</span>, and <span class="code">getType</span> methods, respectively. </p></li> 
+   <li><p>Unlock the resource </p><p>Invoke the <span class="code">ResourceRepositoryClient</span> object’s <span class="code">unlockResource</span> method and pass the URI of the resource as a parameter. For more information, see the <a href="http://www.adobe.com/go/learn_aemforms_javadocs_63_en">AEM Forms API Reference</a>.</p></li> 
+  </ol> 
+  <p><strong>See also</strong></p> 
+  <p><a href="aem-forms-repository#locking_resources">Locking Resources</a></p> 
+  <p><a href="/programming-with-aem-forms/repository-service-api-quick-starts#quick_start_soap_mode_locking_a_resource_using_the_java_api">Quick Start (SOAP mode): Locking a resource using the Java API</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p> 
+  <h3 id="lock_resources_using_the_web_service_api">Lock resources using the web service API</h3> 
+  <p></p> 
+  <p>Lock resources by using the Repository service API (web service):</p> 
+  <ol> 
+   <li><p>Include project files </p> 
+    <ul> 
+     <li><p>Create a Microsoft .NET client assembly that consumes the Repository WSDL using Base64. </p></li> 
+     <li><p>Reference the Microsoft .NET client assembly. </p></li> 
+    </ul></li> 
+   <li><p>Create the service client </p><p>Using the Microsoft .NET client assembly, create a <span class="code">RepositoryServiceService</span> object by invoking its default constructor. Set its <span class="code">Credentials</span> property using a <span class="code">System.Net.NetworkCredential</span> object containing the user name and password.</p></li> 
+   <li><p>Specify the URI of the resource to be locked </p><p>Specify a string containing the URI of the resource to be locked. In this case, because the resource named <span class="code">testResource</span> is in the folder <span class="code">testFolder</span>, its URI is <span class="code">"/testFolder/testResource"</span>. When using a language compliant with the Microsoft .NET Framework (for example, C#), store the URI in a <span class="code">System.String</span> object.</p></li> 
+   <li><p>Lock the resource </p><p>Invoke the <span class="code">RepositoryServiceService</span> object’s <span class="code">lockResource</span> method and pass in the following parameters:</p> 
+    <ul> 
+     <li><p>The URI of the resource. </p></li> 
+     <li><p>The lock scope. In this example, because the resource will be locked for exclusive use, the lock scope is specified as <span class="code">11</span>.</p></li> 
+     <li><p>The lock depth. In this example, because the locking will apply only to the particular resource and none of its members or children, the lock depth is specified as <span class="code">2</span>.</p></li> 
+     <li><p>An <span class="code">int</span> value indicating the number of seconds until the lock expires. In this example, the value of <span class="code">1000</span> is used.</p></li> 
+     <li><p>Pass <span class="code">null</span> for the last parameter.</p></li> 
+    </ul></li> 
+   <li><p>Retrieve the locks for the resource </p><p>Invoke the <span class="code">RepositoryServiceService</span> object’s <span class="code">getLocks</span> method and pass the URI of the resource as the first parameter and <span class="code">null</span> for the second parameter. The method returns an <span class="code">object</span> array containing <span class="code">Lock</span> objects through which you can iterate. In this example, the lock owner, depth, and scope are printed for each object by accessing each <span class="code">Lock</span> object’s <span class="code">ownerUserId</span>, <span class="code">depth</span>, and <span class="code">type</span> fields, respectively.</p></li> 
+   <li><p>Unlock the resource </p><p>Invoke the <span class="code">RepositoryServiceService</span> object’s <span class="code">unlockResource</span> method and pass the URI of the resource as the first parameter and <span class="code">null</span> for the second parameter.</p></li> 
+  </ol> 
+  <p><strong>See also</strong></p> 
+  <p><a href="aem-forms-repository#locking_resources">Locking Resources</a></p> 
+  <p><a href="#unresolvedlink-lc-qs-repository-re.xml#ws624e3cba99b79e12e69a9941333732bac8-7cc4.2">Quick Start (Base64): Locking a resource using the web service API</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_base64_encoding">Invoking AEM Forms using Base64 encoding</a></p> 
+  <h2 id="deleting_resources">Deleting Resources</h2> 
+  <p></p> 
+  <p>You can programmatically delete resources from a given location in the repository by using the Repository service Java API(SOAP). </p> 
+  <p>When you delete a resource, the deletion is normally permanent, though in some cases ECM repositories may store the versions of the resource according to their history mechanisms. Therefore, when deleting a resource, it is important to be sure that you will never need that resource again. The common reasons for deleting a resource include the need to increase the available space in the database. You can delete a version of a resource, but if you do so you must specify the resource identifier, and not its logical identifier (LID) or path. If you delete a folder, everything in that folder, including subfolders and resources, will be automatically deleted. </p> 
+  <p>Related resources are not deleted. For example, if you have a form that uses the logo.gif file, and you delete logo.gif, a relationship will be stored in the pending relationship table. As an alternative, for version deprecation, set the object status of the latest version to deprecated. </p> 
+  <p>A deletion operation is not transaction-safe in ECM systems. For example, if you attempt to delete 100 resources and the operation fails on the 50th resource, the first 49 instances will be deleted but the rest will not be. Otherwise, the default behavior is rollback (non-commitment).</p> 
+  <note> 
+   <p>When using the <span class="code">com.adobe.repository.bindings.dsc.client.ResourceRepositoryClient.deleteResources()</span> method with ECM repository (EMC Documentum Content Server and IBM FileNet P8 Content Manager), the transaction will not be rolled back if the deletion fails for one of the specified resources, which means that those files that have been deleted cannot be undeleted.</p> 
+  </note> 
+  <note> 
+   <p>For more information about the Repository service, see <a href="http://www.adobe.com/go/learn_aemforms_services_63">Services Reference for AEM Forms</a>.</p> 
+  </note> 
+  <h3 id="summary_of_steps">Summary of steps</h3> 
+  <p></p> 
+  <p>To delete a resource, follow these steps:</p> 
+  <ol> 
+   <li><p>Include project files.</p></li> 
+   <li><p>Create a Repository service client.</p></li> 
+   <li><p>Specify the URI of the resource to be deleted.</p></li> 
+   <li><p>Delete the resource.</p></li> 
+  </ol> 
+  <p><strong>Include project files</strong></p> 
+  <p>Include the necessary files in your development project. If you are creating a client application using Java, include the necessary JAR files. If you are using web services, include the proxy files.</p> 
+  <p><strong>Create the service client</strong></p> 
+  <p>Before you can programmatically read a resource, you must establish a connection and provide credentials. This is accomplished by creating a service client.</p> 
+  <p><strong>Specify the URI of the resource to be deleted</strong></p> 
+  <p>Create a string containing the URI of the resource to be deleted. The syntax includes forward slashes, as in this example: "/<i>path</i>/<i>resource</i>". If the resource to be deleted is a folder, the deletion will be recursive.</p> 
+  <p><strong>Delete the resource</strong></p> 
+  <p>Invoke the Repository service method to delete the resource, specifying the URI.</p> 
+  <p><strong>See also</strong></p> 
+  <p><a href="aem-forms-repository#delete_resources_using_the_java_api_soap">Delete resources using the Java API</a></p> 
+  <p><a href="aem-forms-repository#delete_resources_using_the_web_service_api">Delete resources using the web service API</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p> 
+  <p><a href="/programming-with-aem-forms/repository-service-api-quick-starts#repository_service_api_quick_starts">Repository Service API Quick Starts</a></p> 
+  <h3 id="delete_resources_using_the_java_api_soap">Delete resources using the Java API(SOAP)</h3> 
+  <p></p> 
+  <p>Delete a resource by using the Repository API (Java):</p> 
+  <ol> 
+   <li><p>Include project files </p><p>Include client JAR files in your Java project’s class path. </p></li> 
+   <li><p>Create the service client </p><p>Create a <span class="code">ResourceRepositoryClient</span> object by using its constructor and passing a <span class="code">ServiceClientFactory</span> object that contains connection properties. </p></li> 
+   <li><p>Specify the URI of the resource to be deleted </p><p>Specify the URI of the resource to be retrieved. In this case, because the resource named testResourceToBeDeleted is in the folder named testFolder, its URI is <span class="code">/testFolder/testResourceToBeDeleted</span>. The URI is stored as a <span class="code">java.lang.String</span> object. In this example, the resource is first written to the repository, and its URI is retrieved. For more information about writing a resource, see <a href="aem-forms-repository#writing_resources">Writing Resources</a>.</p></li> 
+   <li><p>Delete the resource </p><p>Invoke the <span class="code">ResourceRepositoryClient</span> object’s <span class="code">deleteResource</span> method and pass the URI of the resource as a parameter.</p></li> 
+  </ol> 
+  <p><strong>See also</strong></p> 
+  <p><a href="aem-forms-repository#deleting_resources">Deleting Resources</a></p> 
+  <p><a href="/programming-with-aem-forms/repository-service-api-quick-starts#quick_start_soap_mode_searching_for_resources_using_the_java_api">Quick Start (SOAP mode): Searching for resources using the Java API</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files">Including AEM Forms Java library files</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties">Setting connection properties</a></p> 
+  <h3 id="delete_resources_using_the_web_service_api">Delete resources using the web service API</h3> 
+  <p></p> 
+  <p>Delete a resource by using the Repository API (web service):</p> 
+  <ol> 
+   <li><p>Include project files </p> 
+    <ul> 
+     <li><p>Create a Microsoft .NET client assembly that consumes the Repository WSDL using Base64.</p></li> 
+     <li><p>Reference the Microsoft .NET client assembly. </p></li> 
+    </ul></li> 
+   <li><p>Create the service client </p><p>Using the Microsoft .NET client assembly, create a <span class="code">RepositoryServiceService</span> object by invoking its default constructor. Set its <span class="code">Credentials</span> property using a <span class="code">System.Net.NetworkCredential</span> object containing the user name and password.</p></li> 
+   <li><p>Specify the URI of the resource to be deleted </p><p>Specify the URI of the resource to be retrieved. In this case, because the resource named <span class="code">testResourceToBeDeleted</span> is in the folder named <span class="code">testFolder</span>, its URI is <span class="code">"/testFolder/testResourceToBeDeleted"</span>. In this example, the resource is first written to the repository, and its URI is retrieved. For more information about writing a resource, see <a href="aem-forms-repository#writing_resources">Writing Resources</a>. </p></li> 
+   <li><p>Delete the resource </p><p>Invoke the <span class="code">RepositoryServiceService</span> object’s <span class="code">deleteResources</span> method and pass a <span class="code">System.String</span> array containing the URI of the resource as the first parameter. Pass <span class="code">null</span> for the second parameter.</p></li> 
+  </ol> 
+  <p><strong>See also</strong></p> 
+  <p><a href="aem-forms-repository#deleting_resources">Deleting Resources</a></p> 
+  <p><a href="#unresolvedlink-lc-qs-repository-re.xml#ws624e3cba99b79e12e69a9941333732bac8-7cc2.2">Quick Start (Base64): Deleting a resource using the web service API</a></p> 
+  <p><a href="/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_base64_encoding">Invoking AEM Forms using Base64 encoding</a></p> 
+ </body> 
+</html>

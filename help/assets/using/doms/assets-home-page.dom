@@ -1,0 +1,97 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="Personalize the AEM Assets Home page for a rich welcome screen experience, including a snapshot of recent activities around assets." name="seoDescription" /> 
+  <meta content="Personalize the AEM Assets Home page for a rich welcome screen experience, including a snapshot of recent activities around assets." name="jcr:description" /> 
+  <meta content="2017-10-31T16:35:22.348-0400" name="firstPublishExternalDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS" name="primaryProductTag" /> 
+  <meta content="Guillaume Carlino" name="contentOwner" /> 
+  <meta content="2018-04-23T10:47:58.958-0400" name="lastPublishExternalDate" /> 
+  <meta content="36" name="acrolinxSentences" /> 
+  <meta content="/content/help/en/experience-manager/6-4/assets/morehelp/authoring;/content/help/en/experience-manager/6-4/assets/morehelp/authoring" name="moreHelpPaths" /> 
+  <meta content="ec6d41b4-23c3-45d0-8756-dc1cdaeeee31" name="jcr:uuid" /> 
+  <meta content="2018-04-23T10:47:58.958-0400" name="publishExternalDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2018-04-23T10:47:59.169-0400" name="cq:lastReplicated" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="360a5b0f-5428-467f-9993-2c564f64ce01" name="jcr:predecessors" /> 
+  <meta content="AEM Assets Home Page Experience" name="seoTitle" /> 
+  <meta content="AEM Assets Home Page Experience" name="jcr:title" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/assets/using/assets-home-page.html" name="publishExternalURL" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS;content_type:reference;topic_tags:authoring" name="cq:tags" /> 
+  <meta content="2018-04-23T10:47:58.958-0400" name="topicBrowsingSortDate" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/assets_home_page_krs_workflow_f3c2f2ccebf6138e_93_report.xml" name="acrolinxReportURL" /> 
+  <meta content="asgupta" name="acrolinxLastCheckedBy" /> 
+  <meta content="2017-12-01T19:06:15.007-0500" name="jcr:created" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2018-04-24T11:59:37.744-0400" name="locHandOffDate" /> 
+  <meta content="2019-01-12T17:12:17.322-0500" name="acrolinxDate" /> 
+  <meta content="cmajumda" name="cq:lastReplicatedBy" /> 
+  <meta content="AEM Assets Home Page Experience" name="navTitle" /> 
+  <meta content="checked_not_improved" name="acrolinxStatus" /> 
+  <meta content="/content/docs/en/aem/6-3/author/assets/managing-assets-touch-ui/assets-home-page" name="qaNotes" /> 
+  <meta content="cmajumda@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="589" name="acrolinxWords" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="cmajumda" name="cq:lastModifiedBy" /> 
+  <meta content="2018-04-24T11:59:37.745-0400" name="cq:lastModified" /> 
+ </head> 
+ <body> 
+  <p>The Adobe Experience Manager (AEM) Assets Home page provides a rich and personalized welcome screen experience, which includes a snapshot of recent activites, such as assets that were recently viewed or uploaded.</p> 
+  <p>The Assets Home page is disabled by default. To enable it, perform the following steps:</p> 
+  <ol> 
+   <li><p>Go to Configuration Manager <em>http://&amp;lt;AEM Server&amp;gt;:&amp;lt;Port&amp;gt;/system/console/configMgr</em>.</p> </li> 
+   <li><p>Open the <strong>Day CQ DAM Event</strong> <strong>Recorder</strong> service.</p> </li> 
+   <li><p>Select the <strong>Enable this service</strong> to enable activity recording.</p> <img imageRotate="0" src="assets/chlimage_1-251.png" /></li> 
+   <li><p>From the <strong>Event Types</strong> list, select the events to be recorded and save the changes.</p> 
+    <note> 
+     <p>Enabling the Asset viewed, Projects viewed, and Collections viewed options, significantly increases the number of recorded events.</p> 
+    </note></li> 
+   <li><p>Open the <strong>DAM Asset Home Page Feature Flag</strong> service from Configuration Manager <i>http://&amp;lt;AEM Server&amp;gt;:&amp;lt;Port&amp;gt;/system/console/configMgr</i>.</p> </li> 
+   <li><p>Select the <strong>isEnabled.name</strong> option to enable the Assets Home page feature. Save the changes.</p> <img imageRotate="0" src="assets/chlimage_1-252.png" /></li> 
+   <li><p>Open the <strong>User Preferences</strong> dialog, and select <strong>Enable Assets Home Page</strong>. Save the changes.</p> <img imageRotate="0" src="assets/user_preferences.png" /></li> 
+  </ol> 
+  <p>After enabling the Assets Home page, navigate to the Assets user interface either from the Navigation page or access it directly from the URL <em>http://&amp;lt;Server Name&amp;gt;:&amp;lt;Port&amp;gt;/aem/assetshome.html/content/dam</em>.</p> 
+  <img imageRotate="0" src="assets/home_page.png" /> 
+  <p>Tap/click the <strong>Click here to configure your experience</strong> link to add your username, background image, and profile image.</p> 
+  <p>The Assets Home page includes the following sections:</p> 
+  <ul> 
+   <li>Welcome Section</li> 
+   <li>Widget Section</li> 
+  </ul> 
+  <p><strong>Welcome Section</strong></p> 
+  <p>If your profile exists, the Welcome section displays a welcome message addressed to you. In addition, it displays your profile picture and a welcome image (if configured already).</p> 
+  <p>If your profile is incomplete, the Welcome section displays a generic welcome message and a placeholder for your profile picture.</p> 
+  <p><strong>Widget Section</strong></p> 
+  <p>This section appears below the Welcome section and displays out-of-the-box widgets under the following sections:</p> 
+  <ul> 
+   <li>Activity</li> 
+   <li>Recent</li> 
+   <li>Discover</li> 
+  </ul> 
+  <p><strong>Activity</strong>: Under this section, the <strong>My Activity </strong>widget displays recent activities performed by the logged-in user with assets (including assets without renditions), for example asset uploads, downloads, asset creation, edits, comments, annotations, and shares. </p> 
+  <p><strong>Recent</strong>: The <strong>Recently Viewed </strong>widget under this section displays recently accessed entities by the logged-in user, including folders, collections, and projects.</p> 
+  <p><strong>Discover</strong>: The <strong>New </strong>widget under this section displays the assets and renditions recently uploaded to the AEM Assets instance.</p> 
+  <p>To enable purging of user activity data, enable the <strong>DAM Event Purge Service</strong> from Configuration Manager. After you enable this service, activities of the logged-in user that exceed a specified number are deleted by the system.</p> 
+  <p>The Welcome screen provides easy navigational aids, for example icons on the toolbar to access folders, collections, and catalogs.</p> 
+  <note> 
+   <p>Enabling the Day CQ DAM Event Recorder and DAM Event Purge services increases write operations to JCR and search indexing, which significantly increases the load on the AEM server. The additional load on the AEM server can impact its performance.</p> 
+  </note> 
+  <note> 
+   <p>Capturing, filtering, and purging user activities required for Asset Home Page impose an overhead on performance. Therefore, administrators should configure Home Page effectively for target users.</p> 
+   <p>Adobe recommends that administrators and users who perform bulk operations avoid using the Asset Home Page feature to prevent increase in user activities. In addition, administrators can exclude recording activities for specific users by configuring <strong>Day CQ DAM Event Recorder</strong> from Configuration Manager.</p> 
+   <p>If you use the feature, Adobe recommends that you schedule purge frequency based on the server load.</p> 
+  </note> 
+ </body> 
+</html>

@@ -1,0 +1,308 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2017-11-21T06:59:35.313-0500" name="cq:lastModified" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="admin" name="contentOwner" /> 
+  <meta content="2017-10-03T06:52:16.223-0400" name="publishExternalDate" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="2017-08-09T03:29:00.000-0400" name="sortDate" /> 
+  <meta content="https://helpx.adobe.com/aem-forms/6-3/developing/handling-submitted-forms.html" name="publishExternalURL" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-7e2e.2,AEMForms/6.1/ProgramLC/WS96d105cd477d957c5ed5a6ce15a1c735e2d-8000,AEMForms/6.1/ProgramLC/WS624e3cba99b79e1244035b301336a352c27-7ffe.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e1244035b301336a352c27-7ffd.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e1244035b301336a352c27-7ffc.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e1244035b301336a352c27-7ffb.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e1244035b301336a352c27-7ffa.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-79d5.2,AEMForms/6.1/ProgramLC/WS624e3cba99b79e12e69a9941333732bac8-79d4.2" name="cq:gepId" /> 
+  <meta content="admin" name="lr_lastModifiedBy" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="Handling Submitted Forms Handling Submitted Forms Handling Submitted Forms" name="navTitle" /> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="2017-11-22T19:06:35.368-0500" name="jcr:created" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2018-04-03T08:32:20.478-0400" name="cq:lastReplicated" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="audience:developing" name="primaryAudienceTag" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2445162e-1909-4894-a0d4-5bba14bed256" name="jcr:uuid" /> 
+  <meta content="Handling Submitted Forms" name="jcr:title" /> 
+  <meta content="2017-10-03T06:52:16.223-0400" name="firstPublishExternalDate" /> 
+  <meta content="2017-10-03T06:52:16.223-0400" name="lastPublishExternalDate" /> 
+  <meta content="2017-08-09T03:29:42.931-0400" name="lr_lastModified" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="2017-08-09T03:29:00.000-0400" name="topicBrowsingSortDate" /> 
+  <meta content="bee63598-8950-42d5-95cc-88c3e409bae3" name="jcr:predecessors" /> 
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/rendering_forms;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:operations" name="cq:tags" /> 
+  <meta content="khsingh@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="admin" name="lr_creator" /> 
+ </head> 
+ <body> 
+  <h2 id="handling_submitted_forms">Handling Submitted Forms</h2> 
+  <p></p> 
+  <p>Web-based applications that enable a user to fill in interactive forms require the data to be submitted back to the server. Using the Forms service, you can retrieve the data that the user entered into an interactive form. After you retrieve the data, you can process the data to meet your business requirements. For example, you can store the data in a database, send the data to another application, send the data to another service, merge the data in a form design, display the data in a web browser, and so on.</p> 
+  <p>Form data is submitted to the Forms service as either XML or PDF data, which is an option that is set in Designer. A form that is submitted as XML enables you to extract individual field data values. That is, you can extract the value of each form field that the user entered into the form. A form that is submitted as PDF data is binary data, not XML data. You can save the form as a PDF file, or send the form to another service. If you want to extract data from a form submitted as XML and then use the form data to create a PDF document, invoke another AEM Forms operation. (See <a href="/programming-with-aem-forms/rendering-forms-rendering-forms creating-pdf-documents-submitted-xml#creating_pdf_documents_with_submitted_xml_data">Creating PDF Documents with Submitted XML Data</a>)</p> 
+  <p>The following diagram shows data being submitted to a Java Servlet named <span class="code">HandleData</span> from an interactive form displayed in a web browser.</p> 
+  <img alt="" src="assets/hs_hs_handlesubmit.png" /> 
+  <p>The following table explains the steps in the diagram.</p> 
+  <table cellpadding="4" cellspacing="0"> 
+   <thead align="left"> 
+    <tr> 
+     <th class="cellrowborder" id="d19e67713" valign="top" width="NaN%"><p>Step</p></th> 
+     <th class="cellrowborder" id="d19e67716" valign="top" width="NaN%"><p>Description</p></th> 
+    </tr> 
+   </thead> 
+   <tbody> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e67713 " valign="top" width="NaN%"><p>1</p></td> 
+     <td class="cellrowborder" headers="d19e67716 " valign="top" width="NaN%"><p>A user fills in an interactive form and clicks the form’s Submit button.</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e67713 " valign="top" width="NaN%"><p>2</p></td> 
+     <td class="cellrowborder" headers="d19e67716 " valign="top" width="NaN%"><p>Data is submitted to the <span class="code">HandleData</span> Java Servlet as XML data.</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e67713 " valign="top" width="NaN%"><p>3</p></td> 
+     <td class="cellrowborder" headers="d19e67716 " valign="top" width="NaN%"><p>The <span class="code">HandleData</span> Java Servlet contains application logic to retrieve the data.</p></td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h3 id="handling_submitted_xml_data">Handling submitted XML data</h3> 
+  <p></p> 
+  <p>When form data is submitted as XML, you can retrieve XML data that represents the submitted data. All form fields appear as nodes in an XML schema. The node values correspond to the values that the user filled in. Consider a loan form where each field in the form appears as a node within the XML data. The value of each node corresponds to the value that a user fills in. Assume a user fills the loan form with data shown in the following form.</p> 
+  <img alt="" src="assets/hs_hs_loanformdata.png" /> 
+  <p>The following illustration shows corresponding XML data that is retrieved by using the Forms service Client API.</p> 
+  <img alt="" captionBottom="The fields in the loan form. These values can be retrieved
+using Java XML classes." src="assets/hs_hs_loandata.png" /> 
+  <note> 
+   <p>The form design must be configured correctly in Designer for data to be submitted as XML data. To properly configure the form design to submit XML data, ensure that the Submit button that is located on the form design is set to submit XML data. For information about setting the Submit button to submit XML data, see<a href="http://www.adobe.com/go/learn_aemforms_designer_63">AEM Forms Designer</a>.</p> 
+  </note> 
+  <h3 id="handling_submitted_pdf_data">Handling submitted PDF data</h3> 
+  <p></p> 
+  <p>Consider a web application that invokes the Forms service. After the Forms service renders an interactive PDF form to a client web browser, the user fills in the form and submits it back as PDF data. When the Forms service receives the PDF data, it can send the PDF data to another service or save it as a PDF file. The following diagram shows the application’s logic flow.</p> 
+  <img alt="" src="assets/hs_hs_savingforms.png" /> 
+  <p>The following table describes the steps in this diagram.</p> 
+  <table cellpadding="4" cellspacing="0"> 
+   <thead align="left"> 
+    <tr> 
+     <th class="cellrowborder" id="d19e67796" valign="top" width="NaN%"><p>Step</p></th> 
+     <th class="cellrowborder" id="d19e67799" valign="top" width="NaN%"><p>Description</p></th> 
+    </tr> 
+   </thead> 
+   <tbody> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e67796 " valign="top" width="NaN%"><p>1</p></td> 
+     <td class="cellrowborder" headers="d19e67799 " valign="top" width="NaN%"><p>A web page contains a link that accesses a Java Servlet that invokes the Forms service.</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e67796 " valign="top" width="NaN%"><p>2</p></td> 
+     <td class="cellrowborder" headers="d19e67799 " valign="top" width="NaN%"><p>The Forms service renders an interactive PDF form to the client web browser.</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e67796 " valign="top" width="NaN%"><p>3</p></td> 
+     <td class="cellrowborder" headers="d19e67799 " valign="top" width="NaN%"><p>The user fills in an interactive form and clicks a submit button. The form is submitted back to the Forms service as PDF data. This option is set in Designer.</p></td> 
+    </tr> 
+    <tr> 
+     <td class="cellrowborder" headers="d19e67796 " valign="top" width="NaN%"><p>4</p></td> 
+     <td class="cellrowborder" headers="d19e67799 " valign="top" width="NaN%"><p>The Forms service saves the PDF data as a PDF file. </p></td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h3 id="handling_submitted_url_utf_16_data">Handling submitted URL UTF-16 data</h3> 
+  <p></p> 
+  <p>If form data is submitted as URL UTF-16 data, the client computer requires Adobe Reader or Acrobat 8.1 or later. Also if the form design contains a submit button that has URL-encoded Data (HTTP Post) and the data encoding option is UTF-16, the form design must be modified in a text editor such as Notepad. You can set the encoding option to either <span class="code">UTF-16LE</span> or <span class="code">UTF-16BE</span> for the submit button. Designer does not provide this functionality.</p> 
+  <note> 
+   <p>For more information about the Forms service, see <a href="http://www.adobe.com/go/learn_aemforms_services_63"> Services Reference for AEM Forms</a>.</p> 
+  </note> 
+  <h3 id="summary_of_steps">Summary of steps</h3> 
+  <p></p> 
+  <p>To handle submitted forms, perform the following tasks:</p> 
+  <ol> 
+   <li><p>Include project files.</p></li> 
+   <li><p>Create a Forms Client API object. </p></li> 
+   <li><p>Retrieve form data.</p></li> 
+   <li><p>Determine if the form submission contains file attachments.</p></li> 
+   <li><p>Process the submitted data.</p></li> 
+  </ol> 
+  <p><strong>Include project files</strong></p> 
+  <p>Include necessary files into your development project. If you are creating a client application using Java, include the necessary JAR files. If you are using web services, ensure that you include the proxy files.</p> 
+  <p><strong>Create a Forms Client API object </strong></p> 
+  <p>Before you can programmatically perform a Forms service Client API operation, you must create a Forms service client. If you are using the Java API, create a <span class="code">FormsServiceClient</span> object. If you are using the Forms web service API, create a <span class="code">FormsService</span> object.</p> 
+  <p><strong>Retrieve form data</strong></p> 
+  <p>To retrieve submitted form data, you invoke the <span class="code">FormsServiceClient</span> object’s <span class="code">processFormSubmission</span> method. When invoking this method, you have to specify the submitted form’s content type. When data is submitted from a client web browser to the Forms service, it can be submitted as either XML or PDF data. To retrieve the data that is entered into form fields, the data can be submitted as XML data.</p> 
+  <p>You can also retrieve form fields from a form submitted as PDF data by setting the following run-time options:</p> 
+  <ul> 
+   <li><p>Pass the following value to the <span class="code">processFormSubmission</span> method as the content type parameter: <span class="code">CONTENT_TYPE=application/pdf</span>. </p></li> 
+   <li><p>Set the <span class="code">RenderOptionsSpec</span> object’s <span class="code">PDFToXDP</span> value to <span class="code">true</span></p></li> 
+   <li><p>Set the <span class="code">RenderOptionsSpec</span> object’s <span class="code">ExportDataFormat</span> value to <span class="code">XMLData</span></p></li> 
+  </ul> 
+  <p>You specify the content type of the submitted form when you invoke the <span class="code">processFormSubmission</span> method. The following list specifies applicable content type values:</p> 
+  <ul> 
+   <li><p><strong>text/xml</strong>: Represents the content type to use when a PDF form submits form data as XML.</p></li> 
+   <li><p><strong>application/x-www-form-urlencoded</strong>: Represents the content type to use when an HTML form submits data as XML.</p></li> 
+   <li><p><strong>application/pdf</strong>: Represents the content type to use when a PDF form submits data as PDF. </p></li> 
+  </ul> 
+  <note> 
+   <p>You will notice that there are three corresponding quick starts associated with the Handling Submitted Forms section. The Handling PDF forms submitted as PDF using the Java API quick start demonstrates how to handle submitted PDF data. The content type specified in this quick start is <span class="code">application/pdf</span>. The Handling PDF forms submitted as XML using the Java API quick start demonstrates how to handle submitted XML data that is submitted from a PDF form. The content type specified in this quick start is <span class="code">text/xml</span>. Likewise, the Handling HTML forms submitted as XML using the Java API quick start demonstrates how to handle submitted XML data that is submitted from an HTML form. The content type specified in this quick start is application/x-www-form-urlencoded.</p> 
+  </note> 
+  <p>You retrieve form data that was posted to the Forms service and determine its processing state. That is, when data is submitted to the Forms service, it does not necessarily mean that the Forms service is finished processing the data and the data is ready to be processed. For example, data can be submitted to the Forms service so that a calculation can be performed. When the calculation is complete, the form is rendered back to the user with the calculation results displayed. Before you process submitted data, it is recommended that you determine whether the Forms service has finished processing the data.</p> 
+  <p>The Forms service returns the following values to indicate whether it has finished processing the data:</p> 
+  <ul> 
+   <li><p><strong>0 (Submit):</strong> Submitted data is ready to be processed.</p></li> 
+   <li><p><strong>1 (Calculate): </strong>The Forms service performed a calculation operation on the data and the results must be rendered back to the user. </p></li> 
+   <li><p><strong>2 (Validate):</strong> The Forms service validated form data and the results must be rendered back to the user. </p></li> 
+   <li><p><strong>3 (Next):</strong> The current page has changed with results that must be written to the client application. </p></li> 
+   <li><p><strong>4 (Previous</strong>): The current page has changed with results that must be written to the client application.</p></li> 
+  </ul> 
+  <note> 
+   <p>Calculations and validations must be rendered back to the user. (See <a href="/programming-with-aem-forms/rendering-forms-rendering-forms calculating-form-data-calculating-form calculating-form-data-calculating-form#calculating_form_data">Calculating Form Data</a><i>.)</i></p> 
+  </note> 
+  <p><strong>Determine if the form submission contains file attachments</strong></p> 
+  <p>Forms submitted to the Forms service can contain file attachments. For example, using Acrobat’s built-in attachment pane, a user can select file attachments to submit along with the form. As well, a user can also select file attachments using an HTML toolbar that is rendered with an HTML file. </p> 
+  <p>After you determine if a form contains file attachments, you can process the data. For example, you can save the file attachment to the local file system. </p> 
+  <note> 
+   <p>The form must be submitted as PDF data in order to retrieve file attachments. If the form is submitted as XML data, file attachments are not submitted.</p> 
+  </note> 
+  <p><strong>Process the submitted data</strong></p> 
+  <p>Depending on the content type of the submitted data, you can extract individual form field values from the submitted XML data or save the submitted PDF data as a PDF file (or send it to another service). To extract individual form fields, convert submitted XML data to an XML data source and then retrieve XML data source values by using <span class="code">org.w3c.dom</span> classes. </p> 
+  <p><strong>See also</strong></p> 
+  <p><a href="/programming-with-aem-forms/rendering-forms-rendering-forms handling-submitted-forms-handling-submitted handling-submitted-forms-handling-submitted#handle_submitted_forms_using_the_java_api">Handle submitted forms using the Java API</a></p> 
+  <p><a href="/programming-with-aem-forms/rendering-forms-rendering-forms handling-submitted-forms-handling-submitted handling-submitted-forms-handling-submitted#handle_submitted_pdf_data_using_the_web_service_api">Handle submitted PDF data using the web service API</a></p> 
+  <p><a href="#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2">Including AEM Forms Java library files</a></p> 
+  <p><a href="#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2">Setting connection properties</a></p> 
+  <p><a href="#unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7af6.2">Forms Service API Quick Starts</a></p> 
+  <p><a href="/programming-with-aem-forms/rendering-forms-rendering-forms passing-documents-forms-service-passing#passing_documents_to_the_forms_service">Passing Documents to the Forms Service</a></p> 
+  <p><a href="/programming-with-aem-forms/rendering-forms-rendering-forms creating-web-applications-renders-forms#creating_web_applications_that_renders_forms">Creating Web Applications that Renders Forms</a></p> 
+  <h3 id="handle_submitted_forms_using_the_java_api">Handle submitted forms using the Java API</h3> 
+  <p></p> 
+  <p>Handle a submitted form by using the Forms API (Java):</p> 
+  <ol> 
+   <li><p>Include project files </p><p>Include client JAR files, such as adobe-forms-client.jar, in your Java project’s class path.</p></li> 
+   <li><p>Create a Forms Client API object </p> 
+    <ul> 
+     <li><p>Create a <span class="code">ServiceClientFactory</span> object that contains connection properties.</p></li> 
+     <li><p>Create an <span class="code">FormsServiceClient</span> object by using its constructor and passing the <span class="code">ServiceClientFactory</span> object. </p></li> 
+    </ul></li> 
+   <li><p>Retrieve form data </p> 
+    <ul> 
+     <li><p>To retrieve form data that was posted to a Java Servlet, create a <span class="code">com.adobe.idp.Document</span> object by using its constructor and invoking the <span class="code">javax.servlet.http.HttpServletResponse</span> object’s <span class="code">getInputStream</span> method from within the constructor.</p></li> 
+     <li><p>Create a <span class="code">RenderOptionsSpec</span> object by using its constructor. Set the locale value by invoking the <span class="code">RenderOptionsSpec</span> object’s <span class="code">setLocale</span> method and passing a string value that specifies the locale value.</p></li> 
+    </ul> 
+    <note> 
+     <p>You can instruct the Forms service to create XDP or XML data from submitted PDF content by invoking the <span class="code">RenderOptionsSpec</span> object’s <span class="code">setPDF2XDP</span> method and passing <span class="code">true</span> and also calling <span class="code">setXMLData</span> and passing <span class="code">true</span>. You can then invoke the <span class="code">FormsResult</span> object’s <span class="code">getOutputXML</span> method to retrieve the XML data that corresponds to the XDP/XML data. (The <span class="code">FormsResult</span> object is returned by the <span class="code">processFormSubmission</span><i> method, which is explained in the next sub-step.)</i></p> 
+    </note> 
+    <ul> 
+     <li><p>Invoke the <span class="code">FormsServiceClient</span> object’s <span class="code">processFormSubmission</span> method and pass the following values:</p> 
+      <ul> 
+       <li><p>The <span class="code">com.adobe.idp.Document</span> object that contains the form data. </p></li> 
+       <li><p>A string value that specifies environment variables including all relevant HTTP headers. Specify the content type to handle. To handle XML data, specify the following string value for this parameter: <span class="code">CONTENT_TYPE=text/xml</span>. To handle PDF data, specify the following string value for this parameter: <span class="code">CONTENT_TYPE=application/pdf</span>.</p></li> 
+       <li><p>A string value that specifies the <span class="code">HTTP_USER_AGENT</span> header value, for example, .<span class="code">Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322)</span>. This parameter value is optional.</p></li> 
+       <li><p>A <span class="code">RenderOptionsSpec</span> object that stores run-time options.</p></li> 
+      </ul><p>The <span class="code">processFormSubmission</span> method returns a <span class="code">FormsResult</span> object containing the results of the form submission.</p></li> 
+     <li><p>Determine whether the Forms service is finished processing the form data by invoking the <span class="code">FormsResult</span> object’s <span class="code">getAction</span> method. If this method returns the value <span class="code">0</span>, the data is ready to be processed.</p></li> 
+    </ul></li> 
+   <li><p>Determine if the form submission contains file attachments </p> 
+    <ul> 
+     <li><p>Invoke the <span class="code">FormsResult</span> object’s <span class="code">getAttachments</span> method. This method returns a <span class="code">java.util.List</span> object that contains files that were submitted with the form. </p></li> 
+     <li><p>Iterate through the<span class="code"> java.util.List</span> object to determine if there are file attachments. If there are file attachments, each element is a <span class="code">com.adobe.idp.Document</span> instance. You can save the file attachments by invoking the <span class="code">com.adobe.idp.Document</span> object’s <span class="code">copyToFile</span> method and passing a<span class="code"> java.io.File</span> object.</p></li> 
+    </ul> 
+    <note> 
+     <p>This step is only applicable if the form is submitted as PDF.</p> 
+    </note></li> 
+   <li><p>Process the submitted data </p> 
+    <ul> 
+     <li><p>If the data content type is <span class="code">application/vnd.adobe.xdp+xml</span> or <span class="code">text/xml</span>, create application logic to retrieve XML data values.</p> 
+      <ul> 
+       <li><p>Create a <span class="code">com.adobe.idp.Document</span> object by invoking the <span class="code">FormsResult</span> object’s <span class="code">getOutputContent</span> method.</p></li> 
+       <li><p>Create a <span class="code">java.io.InputStream</span> object by invoking the <span class="code">java.io.DataInputStream</span> constructor and passing the <span class="code">com.adobe.idp.Document</span> object.</p></li> 
+       <li><p>Create an <span class="code">org.w3c.dom.DocumentBuilderFactory</span> object by calling the static <span class="code">org.w3c.dom.DocumentBuilderFactory</span> object’s <span class="code">newInstance</span> method.</p></li> 
+       <li><p>Create an <span class="code">org.w3c.dom.DocumentBuilder</span> object by invoking the <span class="code">org.w3c.dom.DocumentBuilderFactory</span> object’s <span class="code">newDocumentBuilder</span> method.</p></li> 
+       <li><p>Create an <span class="code">org.w3c.dom.Document</span> object by invoking the <span class="code">org.w3c.dom.DocumentBuilder</span> object’s <span class="code">parse</span> method and passing the <span class="code">java.io.InputStream</span> object.</p></li> 
+       <li><p>Retrieve the value of each node within the XML document. One way to accomplish this task is to create a custom method that accepts two parameters: the <span class="code">org.w3c.dom.Document</span> object and the name of the node whose value you want to retrieve. This method returns a string value representing the value of the node. In the code example that follows this process, this custom method is called <span class="code">getNodeText</span>. The body of this method is shown. </p></li> 
+      </ul></li> 
+     <li><p>If the data content type is <span class="code">application/pdf</span>, create application logic to save the submitted PDF data as a PDF file.</p> 
+      <ul> 
+       <li><p>Create a <span class="code">com.adobe.idp.Document</span> object by invoking the <span class="code">FormsResult</span> object’s <span class="code">getOutputContent</span> method.</p></li> 
+       <li><p>Create a <span class="code">java.io.File</span> object by using its public constructor. Be sure to specify PDF as the file name extension.</p></li> 
+       <li><p>Populate the PDF file by invoking the <span class="code">com.adobe.idp.Document</span> object’s <span class="code">copyToFile</span> method and passing the <span class="code">java.io.File</span> object.</p></li> 
+      </ul></li> 
+    </ul></li> 
+  </ol> 
+  <p><strong>See also</strong></p> 
+  <p><a href="/programming-with-aem-forms/rendering-forms-rendering-forms handling-submitted-forms-handling-submitted#handling_submitted_forms">Handling Submitted Forms</a></p> 
+  <p><a href="#unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7e2d.2">Quick Start (SOAP mode): Handling PDF forms submitted as XML using the Java API</a></p> 
+  <p><a href="#unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7e28.2">Quick Start (SOAP mode): Handling HTML forms submitted as XML using the Java API</a></p> 
+  <p><a href="#unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7e2a.2">Quick Start (SOAP mode): Handling PDF forms submitted as PDF using the Java API</a></p> 
+  <p><a href="#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2">Including AEM Forms Java library files</a></p> 
+  <p><a href="#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2">Setting connection properties</a></p> 
+  <h3 id="handle_submitted_pdf_data_using_the_web_service_api">Handle submitted PDF data using the web service API</h3> 
+  <p></p> 
+  <p>Handle a submitted form by using the Forms API (web service):</p> 
+  <ol> 
+   <li><p>Include project files </p> 
+    <ul> 
+     <li><p>Create Java proxy classes that consume the Forms service WSDL. </p></li> 
+     <li><p>Include the Java proxy classes into your class path. </p></li> 
+    </ul></li> 
+   <li><p>Create a Forms Client API object </p><p>Create a <span class="code">FormsService</span> object and set authentication values. </p></li> 
+   <li><p>Retrieve form data </p> 
+    <ul> 
+     <li><p>To retrieve form data that was posted to a Java Servlet, create a <span class="code">BLOB</span> object by using its constructor. </p></li> 
+     <li><p>Create a <span class="code">java.io.InputStream</span> object by invoking the <span class="code">javax.servlet.http.HttpServletResponse</span> object’s <span class="code">getInputStream</span> method.</p></li> 
+     <li><p>Create a <span class="code">java.io.ByteArrayOutputStream</span> object by using its constructor and passing the length of the <span class="code">java.io.InputStream</span> object.</p></li> 
+     <li><p>Copy the contents of the <span class="code">java.io.InputStream</span> object into the <span class="code">java.io.ByteArrayOutputStream</span> object.</p></li> 
+     <li><p>Create a byte array by invoking the <span class="code">java.io.ByteArrayOutputStream</span> object’s <span class="code">toByteArray</span> method.</p></li> 
+     <li><p>Populate the <span class="code">BLOB</span> object by invoking its <span class="code">setBinaryData</span> method and passing the byte array as an argument. </p></li> 
+     <li><p>Create a <span class="code">RenderOptionsSpec</span> object by using its constructor. Set the locale value by invoking the <span class="code">RenderOptionsSpec</span> object’s <span class="code">setLocale</span> method and passing a string value that specifies the locale value.</p></li> 
+     <li><p>Invoke the <span class="code">FormsService</span> object’s <span class="code">processFormSubmission</span> method and pass the following values:</p> 
+      <ul> 
+       <li><p>The <span class="code">BLOB</span> object that contains the form data. </p></li> 
+       <li><p>A string value that specifies environment variables including all relevant HTTP headers. Specify the content type to handle. To handle XML data, specify the following string value for this parameter: <span class="code">CONTENT_TYPE=text/xml</span>. To handle PDF data, specify the following string value for this parameter: <span class="code">CONTENT_TYPE=application/pdf</span>.</p></li> 
+       <li><p>A string value that specifies the <span class="code">HTTP_USER_AGENT</span> header value; for example, <span class="code">Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322)</span>.</p></li> 
+       <li><p>A <span class="code">RenderOptionsSpec</span> object that stores run-time options. </p></li> 
+       <li><p>An empty <span class="code">BLOBHolder</span> object that is populated by the method.</p></li> 
+       <li><p>An empty <span class="code">javax.xml.rpc.holders.StringHolder</span> object that is populated by the method.</p></li> 
+       <li><p>An empty <span class="code">BLOBHolder</span> object that is populated by the method.</p></li> 
+       <li><p>An empty <span class="code">BLOBHolder</span> object that is populated by the method.</p></li> 
+       <li><p>An empty <span class="code">javax.xml.rpc.holders.ShortHolder</span> object that is populated by the method.</p></li> 
+       <li><p>An empty <span class="code">MyArrayOf_xsd_anyTypeHolder</span> object that is populated by the method. This parameter is used to store file attachments that are submitted along with the form. </p></li> 
+       <li><p>An empty <span class="code">FormsResultHolder</span> object that is populated by the method with the form that is submitted.</p></li> 
+      </ul><p>The <span class="code">processFormSubmission</span> method populates the <span class="code">FormsResultHolder</span> parameter with the results of the form submission.</p></li> 
+     <li><p>Determine whether the Forms service is finished processing the form data by invoking the <span class="code">FormsResult</span> object’s <span class="code">getAction</span> method. If this method returns the value <span class="code">0</span>, the form data is ready to be processed. You can get a <span class="code">FormsResult</span> object by getting the value of the <span class="code">FormsResultHolder</span> object’s <span class="code">value</span> data member. </p></li> 
+    </ul></li> 
+   <li><p>Determine if the form submission contains file attachments </p><p>Get the value of the <span class="code">MyArrayOf_xsd_anyTypeHolder</span> object’s <span class="code">value</span> data member (the <span class="code">MyArrayOf_xsd_anyTypeHolder</span> object was passed to the <span class="code">processFormSubmission</span> method). This data member returns an array of <span class="code">Objects</span>. Each element within the <span class="code">Object</span> array is an <span class="code">Object </span>that corresponds to the files that were submitted along with the form. You can get each element within the array and cast it to a <span class="code">BLOB</span> object. </p></li> 
+   <li><p>Process the submitted data </p> 
+    <ul> 
+     <li><p>If the data content type is <span class="code">application/vnd.adobe.xdp+xml</span> or <span class="code">text/xml</span>, create application logic to retrieve XML data values.</p> 
+      <ul> 
+       <li><p>Create a <span class="code">BLOB</span> object by invoking the <span class="code">FormsResult</span> object’s <span class="code">getOutputContent</span> method.</p></li> 
+       <li><p>Create a byte array by invoking the <span class="code">BLOB</span> object’s <span class="code">getBinaryData</span> method. </p></li> 
+       <li><p>Create a <span class="code">java.io.InputStream</span> object by invoking the <span class="code">java.io.ByteArrayInputStream</span> constructor and passing the byte array.</p></li> 
+       <li><p>Create an <span class="code">org.w3c.dom.DocumentBuilderFactory</span> object by calling the static <span class="code">org.w3c.dom.DocumentBuilderFactory</span> object’s <span class="code">newInstance</span> method.</p></li> 
+       <li><p>Create an <span class="code">org.w3c.dom.DocumentBuilder</span> object by invoking the <span class="code">org.w3c.dom.DocumentBuilderFactory</span> object’s <span class="code">newDocumentBuilder</span> method.</p></li> 
+       <li><p>Create an <span class="code">org.w3c.dom.Document</span> object by invoking the <span class="code">org.w3c.dom.DocumentBuilder</span> object’s <span class="code">parse</span> method and passing the <span class="code">java.io.InputStream</span> object.</p></li> 
+       <li><p>Retrieve the value of each node within the XML document. One way to accomplish this task is to create a custom method that accepts two parameters: the <span class="code">org.w3c.dom.Document</span> object and the name of the node whose value you want to retrieve. This method returns a string value representing the value of the node. In the code example that follows this process, this custom method is called <span class="code">getNodeText</span>. The body of this method is shown. </p></li> 
+      </ul></li> 
+     <li><p>If the data content type is <span class="code">application/pdf</span>, create application logic to save the submitted PDF data as a PDF file.</p> 
+      <ul> 
+       <li><p>Create a <span class="code">BLOB</span> object by invoking the <span class="code">FormsResult</span> object’s <span class="code">getOutputContent</span> method.</p></li> 
+       <li><p>Create a byte array by invoking the <span class="code">BLOB</span> object’s <span class="code">getBinaryData</span> method.</p></li> 
+       <li><p>Create a <span class="code">java.io.File</span> object by using its public constructor. Be sure to specify PDF as the file name extension.</p></li> 
+       <li><p>Create a <span class="code">java.io.FileOutputStream</span> object by using its constructor and passing the <span class="code">java.io.File</span> object.</p></li> 
+       <li><p>Populate the PDF file by invoking the <span class="code">java.io.FileOutputStream</span> object’s <span class="code">write</span> method and passing the byte array.</p></li> 
+      </ul></li> 
+    </ul></li> 
+  </ol> 
+  <p><strong>See also</strong></p> 
+  <p><a href="/programming-with-aem-forms/rendering-forms-rendering-forms handling-submitted-forms-handling-submitted#handling_submitted_forms">Handling Submitted Forms</a></p> 
+  <p><a href="#unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7e2c.2">Quick Start (Base64): Handling submitted forms using the web service API</a></p> 
+  <p><a href="#unresolvedlink-lc-in-invoke-using-web-services-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fca.2">Invoking AEM Forms using Base64 encoding</a></p> 
+  <p></p> 
+ </body> 
+</html>

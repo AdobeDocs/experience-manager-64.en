@@ -1,0 +1,96 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2017-10-31T16:17:04.639-0400" name="firstPublishExternalDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/dev-offloading.html" name="publishExternalURL" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2018-04-03T09:00:25.185-0400" name="cq:lastReplicated" /> 
+  <meta content="Creating and Consuming Jobs for Offloading" name="jcr:title" /> 
+  <meta content="2018-01-19T19:06:24.151-0500" name="jcr:created" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/morehelp/platform;/content/help/en/experience-manager/6-4/sites/developing/morehelp/platform" name="moreHelpPaths" /> 
+  <meta content="2018-05-08T12:42:55.874-0400" name="locHandOffDate" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="Guillaume Carlino" name="contentOwner" /> 
+  <meta content="Creating and Consuming Jobs for Offloading" name="navTitle" /> 
+  <meta content="/content/docs/en/aem/6-3/develop/platform/dev-offloading" name="qaNotes" /> 
+  <meta content="msm-service" name="cq:lastModifiedBy" /> 
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" /> 
+  <meta content="2018-05-08T12:42:55.876-0400" name="cq:lastModified" /> 
+  <meta content="The Apache Sling Discovery feature provides a Java API that enables you to create JobManager jobs and JobConsumer services that consume them" name="seoDescription" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2018-01-18T11:18:59.033-0500" name="topicBrowsingSortDate" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2018-01-18T11:18:59.033-0500" name="publishExternalDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="Creating and Consuming Jobs for Offloading" name="seoTitle" /> 
+  <meta content="7ce60dbe-33f2-465d-acfb-f60717159f60" name="jcr:predecessors" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2018-01-18T11:18:59.033-0500" name="lastPublishExternalDate" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="47c16f42-a44a-4ed2-99c0-0c4efcc9d625" name="jcr:uuid" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:platform;content_type:reference" name="cq:tags" /> 
+  <meta content="audience:developing" name="primaryAudienceTag" /> 
+ </head> 
+ <body> 
+  <p>The Apache Sling Discovery feature provides a Java API that enables you to create JobManager jobs and JobConsumer services that consume them.</p> 
+  <p>For information about creating offloading topologies and configuring topic consumption, see <a href="../../../sites/deploying/using/offloading.md">Offloading Jobs</a>.</p> 
+  <h3>Handling Job Payloads</h3> 
+  <p>The offloading framework defines two job properties that you use to identify the job payload. The offloading replication agents use these properties to identify the resources to replicate to the instances in the topology:</p> 
+  <ul> 
+   <li><span class="code">offloading.job.input.payload</span>: A comma-separated list of content paths. The content is replicated to the instance that executes the job.</li> 
+   <li><span class="code">offloading.job.output.payload</span>: A comma-separated list of content paths. When job execution is complete, the job payload is replicated to these paths on the instance that created the job.</li> 
+  </ul> 
+  <p>Use the <span class="code">OffloadingJobProperties</span> enum to refer to the property names:</p> 
+  <ul> 
+   <li><span class="code">OffloadingJobProperties.INPUT_PAYLOAD.propertyName()</span></li> 
+   <li><span class="code">OffloadingJobProperties.OUTPUT_PAYLOAD.propetyName()</span></li> 
+  </ul> 
+  <p>Jobs do not require payloads. However, the payload is necessary if the job requires the manipulation of a resource and the job is offloaded to a computer that did not create the job.</p> 
+  <h3>Creating Jobs for Offloading</h3> 
+  <p>Create a client that calls the JobManager.addJob method to create a job that an automatically-selected JobConsumer executes. Provide the following information to create the job:</p> 
+  <ul> 
+   <li>Topic: The job topic. </li> 
+   <li>Name: (Optional)</li> 
+   <li>Properties Map: A <span class="code">Map&amp;lt;String, Object&amp;gt;</span> object that contains any number of properties, such as the input payload paths and output Payload paths. This Map object is available to the JobConsumer object that executes the job.</li> 
+  </ul> 
+  <p>The following example service creates a job for a given topic and input payload path.</p> 
+  <codeblock class="syntax java">
+    package&amp;nbsp;com.adobe.example.offloading;!!discoiqbr!!!!discoiqbr!!import&amp;nbsp;org.apache.felix.scr.annotations.Component;!!discoiqbr!!import&amp;nbsp;org.apache.felix.scr.annotations.Service;!!discoiqbr!!import&amp;nbsp;org.apache.felix.scr.annotations.Reference;!!discoiqbr!!!!discoiqbr!!import&amp;nbsp;java.util.HashMap;!!discoiqbr!!!!discoiqbr!!import&amp;nbsp;org.apache.sling.event.jobs.Job;!!discoiqbr!!import&amp;nbsp;org.apache.sling.event.jobs.JobManager;!!discoiqbr!!!!discoiqbr!!import&amp;nbsp;org.apache.sling.api.resource.ResourceResolverFactory;!!discoiqbr!!import&amp;nbsp;org.apache.sling.api.resource.ResourceResolver;!!discoiqbr!!!!discoiqbr!!import&amp;nbsp;com.adobe.granite.offloading.api.OffloadingJobProperties;!!discoiqbr!!!!discoiqbr!!@Component!!discoiqbr!!@Service!!discoiqbr!!public&amp;nbsp;class&amp;nbsp;JobGeneratorImpl&amp;nbsp;implements&amp;nbsp;JobGenerator&amp;nbsp;&amp;nbsp;{!!discoiqbr!!!!discoiqbr!!&amp;nbsp;@Reference!!discoiqbr!!&amp;nbsp;private&amp;nbsp;JobManager&amp;nbsp;jobManager;!!discoiqbr!!&amp;nbsp;@Reference&amp;nbsp;ResourceResolverFactory&amp;nbsp;resolverFactory;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;public&amp;nbsp;String&amp;nbsp;createJob(String&amp;nbsp;topic,&amp;nbsp;String&amp;nbsp;payload)&amp;nbsp;throws&amp;nbsp;Exception&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;Job&amp;nbsp;offloadingJob;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;ResourceResolver&amp;nbsp;resolver&amp;nbsp;=&amp;nbsp;resolverFactory.getResourceResolver(null);!!discoiqbr!!&amp;nbsp;&amp;nbsp;if(resolver.getResource(payload)!=null){!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;HashMap&lt;String,&amp;nbsp;Object&gt;&amp;nbsp;jobprops&amp;nbsp;=&amp;nbsp;new&amp;nbsp;HashMap&lt;String,&amp;nbsp;Object&gt;();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;jobprops.put(OffloadingJobProperties.INPUT_PAYLOAD.propertyName(),&amp;nbsp;payload);!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;offloadingJob&amp;nbsp;=&amp;nbsp;jobManager.addJob(topic,&amp;nbsp;null,&amp;nbsp;jobprops);!!discoiqbr!!&amp;nbsp;&amp;nbsp;}&amp;nbsp;else&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;throw&amp;nbsp;new&amp;nbsp;Exception("Payload&amp;nbsp;for&amp;nbsp;job&amp;nbsp;cannot&amp;nbsp;be&amp;nbsp;found");!!discoiqbr!!&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;if&amp;nbsp;(offloadingJob&amp;nbsp;==&amp;nbsp;null){!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;throw&amp;nbsp;new&amp;nbsp;Exception&amp;nbsp;("Offloading&amp;nbsp;job&amp;nbsp;could&amp;nbsp;not&amp;nbsp;be&amp;nbsp;created");!!discoiqbr!!&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;return&amp;nbsp;offloadingJob.getId();!!discoiqbr!!&amp;nbsp;}!!discoiqbr!!}!!discoiqbr!! 
+  </codeblock> 
+  <p>The log contains the following message when JobGeneratorImpl.createJob is called for the <span class="code">com/adobe/example/offloading</span> topic and the <span class="code">/content/geometrixx/de/services</span> payload:</p> 
+  <codeblock class="syntax shell">
+    10.06.2013&amp;nbsp;15:43:33.868&amp;nbsp;*INFO*&amp;nbsp;[JobHandler:&amp;nbsp;/etc/workflow/instances/2013-06-10/model_1554418768647484:/content/geometrixx/en/company]&amp;nbsp;com.adobe.example.offloading.JobGeneratorImpl&amp;nbsp;Received&amp;nbsp;request&amp;nbsp;to&amp;nbsp;make&amp;nbsp;job&amp;nbsp;for&amp;nbsp;topic&amp;nbsp;com/adobe/example/offloading&amp;nbsp;and&amp;nbsp;payload&amp;nbsp;/content/geometrixx/de/services!!discoiqbr!! 
+  </codeblock> 
+  <h3>Developing a Job Consumer</h3> 
+  <p>To consume jobs, develop an OSGi service that implements the <span class="code">org.apache.sling.event.jobs.consumer.JobConsumer</span> interface. Identify with the topic to consume using the <span class="code">JobConsumer.PROPERTY_TOPICS</span> property.</p> 
+  <p>The following example JobConsumer implementation registers with the <span class="code">com/adobe/example/offloading</span> topic. The consumer simply sets the Consumed property of the payload content node to true. </p> 
+  <codeblock class="syntax java">
+    package&amp;nbsp;com.adobe.example.offloading;!!discoiqbr!!!!discoiqbr!!import&amp;nbsp;org.apache.felix.scr.annotations.Component;!!discoiqbr!!import&amp;nbsp;org.apache.felix.scr.annotations.Property;!!discoiqbr!!import&amp;nbsp;org.apache.felix.scr.annotations.Reference;!!discoiqbr!!import&amp;nbsp;org.apache.felix.scr.annotations.Service;!!discoiqbr!!import&amp;nbsp;org.apache.sling.api.resource.ResourceResolver;!!discoiqbr!!import&amp;nbsp;org.apache.sling.api.resource.ResourceResolverFactory;!!discoiqbr!!import&amp;nbsp;org.apache.sling.event.jobs.Job;!!discoiqbr!!import&amp;nbsp;org.apache.sling.event.jobs.JobManager;!!discoiqbr!!import&amp;nbsp;org.apache.sling.event.jobs.consumer.JobConsumer;!!discoiqbr!!import&amp;nbsp;org.slf4j.Logger;!!discoiqbr!!import&amp;nbsp;org.slf4j.LoggerFactory;!!discoiqbr!!!!discoiqbr!!import&amp;nbsp;javax.jcr.Session;!!discoiqbr!!import&amp;nbsp;javax.jcr.Node;!!discoiqbr!!!!discoiqbr!!import&amp;nbsp;com.adobe.granite.offloading.api.OffloadingJobProperties;!!discoiqbr!!!!discoiqbr!!@Component!!discoiqbr!!@Service!!discoiqbr!!public&amp;nbsp;class&amp;nbsp;MyJobConsumer&amp;nbsp;implements&amp;nbsp;JobConsumer&amp;nbsp;{!!discoiqbr!!!!discoiqbr!!&amp;nbsp;public&amp;nbsp;static&amp;nbsp;final&amp;nbsp;String&amp;nbsp;TOPIC&amp;nbsp;=&amp;nbsp;"com/adobe/example/offloading";!!discoiqbr!!!!discoiqbr!!&amp;nbsp;@Property(value&amp;nbsp;=&amp;nbsp;TOPIC)!!discoiqbr!!&amp;nbsp;static&amp;nbsp;final&amp;nbsp;String&amp;nbsp;myTopic&amp;nbsp;=&amp;nbsp;JobConsumer.PROPERTY_TOPICS;&amp;nbsp;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;@Reference!!discoiqbr!!&amp;nbsp;private&amp;nbsp;ResourceResolverFactory&amp;nbsp;resolverFactory;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;@Reference!!discoiqbr!!&amp;nbsp;private&amp;nbsp;JobManager&amp;nbsp;jobManager;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;private&amp;nbsp;final&amp;nbsp;Logger&amp;nbsp;log&amp;nbsp;=&amp;nbsp;LoggerFactory.getLogger(getClass());!!discoiqbr!!!!discoiqbr!!&amp;nbsp;public&amp;nbsp;JobResult&amp;nbsp;process(Job&amp;nbsp;job)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;JobResult&amp;nbsp;result&amp;nbsp;=&amp;nbsp;JobResult.FAILED;!!discoiqbr!!&amp;nbsp;&amp;nbsp;String&amp;nbsp;topic&amp;nbsp;=&amp;nbsp;job.getTopic();!!discoiqbr!!&amp;nbsp;&amp;nbsp;log.info("Consuming&amp;nbsp;job&amp;nbsp;of&amp;nbsp;topic:&amp;nbsp;{}",&amp;nbsp;topic);!!discoiqbr!!&amp;nbsp;&amp;nbsp;String&amp;nbsp;payloadIn&amp;nbsp;=&amp;nbsp;&amp;nbsp;(String)&amp;nbsp;job.getProperty(OffloadingJobProperties.INPUT_PAYLOAD.propertyName());!!discoiqbr!!&amp;nbsp;&amp;nbsp;String&amp;nbsp;payloadOut&amp;nbsp;=&amp;nbsp;&amp;nbsp;(String)&amp;nbsp;job.getProperty(OffloadingJobProperties.OUTPUT_PAYLOAD.propertyName());!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;log.info("Job&amp;nbsp;has&amp;nbsp;Input&amp;nbsp;Payload&amp;nbsp;{}&amp;nbsp;and&amp;nbsp;Output&amp;nbsp;Payload&amp;nbsp;{}",payloadIn,&amp;nbsp;payloadOut);!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;ResourceResolver&amp;nbsp;resolver&amp;nbsp;=&amp;nbsp;null;!!discoiqbr!!&amp;nbsp;&amp;nbsp;try&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;resolver&amp;nbsp;=&amp;nbsp;resolverFactory.getAdministrativeResourceResolver(null);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;Session&amp;nbsp;session&amp;nbsp;=&amp;nbsp;resolver.adaptTo(Session.class);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;Node&amp;nbsp;inNode&amp;nbsp;=&amp;nbsp;session.getNode(payloadIn);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;inNode.getNode(Node.JCR_CONTENT).setProperty("consumed",true);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;result&amp;nbsp;=&amp;nbsp;JobResult.OK;!!discoiqbr!!&amp;nbsp;&amp;nbsp;}catch&amp;nbsp;(Exception&amp;nbsp;e){!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;log.info("ERROR&amp;nbsp;--&amp;nbsp;JOB&amp;nbsp;RESULT&amp;nbsp;IS&amp;nbsp;FAILURE&amp;nbsp;"&amp;nbsp;+&amp;nbsp;e.getMessage());!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;result&amp;nbsp;=&amp;nbsp;JobResult.FAILED;!!discoiqbr!!&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;log.info("Job&amp;nbsp;OK&amp;nbsp;for&amp;nbsp;payload&amp;nbsp;{}",payloadIn);!!discoiqbr!!&amp;nbsp;&amp;nbsp;return&amp;nbsp;result;!!discoiqbr!!&amp;nbsp;}!!discoiqbr!!} 
+  </codeblock> 
+  <p>The MyJobConsumer class generates the following log messages for an input payload of /content/geometrixx/de/services:</p> 
+  <codeblock class="syntax shell">
+    10.06.2013&amp;nbsp;16:02:40.803&amp;nbsp;*INFO*&amp;nbsp;[pool-7-thread-17-&lt;main&amp;nbsp;queue&gt;(com/adobe/example/offloading)]&amp;nbsp;com.adobe.example.offloading.MyJobConsumer&amp;nbsp;Consuming&amp;nbsp;job&amp;nbsp;of&amp;nbsp;topic:&amp;nbsp;com/adobe/example/offloading!!discoiqbr!!10.06.2013&amp;nbsp;16:02:40.803&amp;nbsp;*INFO*&amp;nbsp;[pool-7-thread-17-&lt;main&amp;nbsp;queue&gt;(com/adobe/example/offloading)]&amp;nbsp;com.adobe.example.offloading.MyJobConsumer&amp;nbsp;Job&amp;nbsp;has&amp;nbsp;Input&amp;nbsp;Payload&amp;nbsp;/content/geometrixx/de/services&amp;nbsp;and&amp;nbsp;Output&amp;nbsp;Payload&amp;nbsp;/content/geometrixx/de/services!!discoiqbr!!10.06.2013&amp;nbsp;16:02:40.884&amp;nbsp;*INFO*&amp;nbsp;[pool-7-thread-17-&lt;main&amp;nbsp;queue&gt;(com/adobe/example/offloading)]&amp;nbsp;com.adobe.example.offloading.MyJobConsumer&amp;nbsp;Job&amp;nbsp;OK&amp;nbsp;for&amp;nbsp;payload&amp;nbsp;/content/geometrixx/de/services 
+  </codeblock> 
+  <p>The Consumed property can be observed using CRXDE Lite:</p> 
+  <img imageRotate="0" src="assets/chlimage_1-30.png" /> 
+  <h3>Maven Dependencies</h3> 
+  <p>Add the following dependency defenitions to your pom.xml file so that Maven can resolve the Offloading-related classes.</p> 
+  <codeblock class="syntax xml">
+    &lt;dependency&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;groupId&gt;org.apache.sling&lt;/groupId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;artifactId&gt;org.apache.sling.event&lt;/artifactId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;version&gt;3.1.5-R1485539&lt;/version&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;scope&gt;provided&lt;/scope&gt;&amp;nbsp;!!discoiqbr!!&lt;/dependency&gt;!!discoiqbr!!&lt;dependency&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;groupId&gt;com.adobe.granite&lt;/groupId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;artifactId&gt;com.adobe.granite.offloading.core&lt;/artifactId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;version&gt;1.0.4&lt;/version&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;scope&gt;provided&lt;/scope&gt;!!discoiqbr!!&lt;/dependency&gt; 
+  </codeblock> 
+  <p>The previous examples also required the following dependency definitions:</p> 
+  <codeblock class="syntax xml">
+    &lt;dependency&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;groupId&gt;org.apache.sling&lt;/groupId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;artifactId&gt;org.apache.sling.api&lt;/artifactId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;version&gt;2.4.3-R1488084&lt;/version&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;scope&gt;provided&lt;/scope&gt;!!discoiqbr!!&lt;/dependency&gt;!!discoiqbr!!!!discoiqbr!!&lt;dependency&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;groupId&gt;org.apache.sling&lt;/groupId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;artifactId&gt;org.apache.sling.jcr.jcr-wrapper&lt;/artifactId&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;version&gt;2.0.0&lt;/version&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;scope&gt;provided&lt;/scope&gt;!!discoiqbr!!&lt;/dependency&gt;!!discoiqbr!! 
+  </codeblock> 
+ </body> 
+</html>

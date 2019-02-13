@@ -1,0 +1,65 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="Reference Materials" name="seoTitle" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2018-05-04T03:49:34.220-0400" name="lastPublishExternalDate" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2017-06-19T11:41:03.497-0400" name="mwpw_migration_script_version" />
+  <meta content="Reference Materials" name="jcr:title" />
+  <meta content="Guillaume Carlino" name="contentOwner" />
+  <meta content="bohnert" name="cq:lastModifiedBy" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" />
+  <meta content="Reference Materials" name="navTitle" />
+  <meta content="2017-12-01T19:01:17.582-0500" name="jcr:created" />
+  <meta content="topic_tags:introduction;audience:developing;content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/SITES" name="cq:tags" />
+  <meta content="bohnert" name="cq:lastReplicatedBy" />
+  <meta content="3c2c263f-5d57-42c6-87f8-774b1804fb7c" name="jcr:predecessors" />
+  <meta content="/content/docs/en/aem/6-2/develop/ref" name="qaNotes" />
+  <meta content="2018-05-08T12:44:59.208-0400" name="locHandOffDate" />
+  <meta content="2018-09-28T09:19:54.806-0400" name="cq:lastReplicated" />
+  <meta content="2017-06-19T11:41:00.000-0400" name="qaDate" />
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/morehelp/introduction;/content/help/en/experience-manager/6-4/sites/developing/morehelp/introduction" name="moreHelpPaths" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="67d0ea88-a1bb-4df7-8682-a98231faddea" name="jcr:uuid" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="2018-05-04T03:49:34.220-0400" name="topicBrowsingSortDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="Documentation for the APIs that AEM provides for developing applications" name="seoDescription" />
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-05-04T03:49:34.220-0400" name="publishExternalDate" />
+  <meta content="audience:developing" name="primaryAudienceTag" />
+  <meta content="2018-09-28T09:19:39.508-0400" name="cq:lastModified" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/reference-materials.html" name="publishExternalURL" />
+  <meta content="2017-06-19T15:34:15.409-0400" name="firstPublishExternalDate" />
+ </head>
+ <body>
+  <p>AEM provides several APIs for developing applications. The following list provides the documentation for APIs supported by AEM:</p> 
+  <ul> 
+   <li><a href="/sites/developing/using/reference-materials/javadoc/index">Adobe AEM 6.4.0 API</a><br /> </li> 
+   <li><a href="/sites/developing/using/reference-materials/diff-previous/changes">API Differences</a><br /> </li> 
+   <li><a href="/sites/developing/using/reference-materials/granite-ui/api/index">Granite UI (Touch-Enabled) API Documentation</a><br /> </li> 
+   <li><a href="/sites/developing/using/reference-materials/coral-ui/coralui3/index">Coral UI Guide</a><br /> </li> 
+   <li><a href="/sites/developing/using/reference-materials/widgets-api/index">Widgets API (Classic UI) Documentation</a><br /> </li> 
+   <li><a href="/sites/developing/using/reference-materials/test-api/index">UI Test Framework Javascript API Reference</a><br /> </li> 
+   <li><a href="/sites/developing/using/reference-materials/jsdoc/ui-touch/editor-core/index">Editor Core Javascript API Reference</a></li> 
+  </ul> 
+  <p>AEM Single-Page Application (SPA) Editor SDK framework JavaScript API references:</p> 
+  <p>The following external resources are for reference only:</p> 
+  <ul> 
+   <li><a href="https://sling.apache.org/apidocs/sling10/">Apache Sling 10 API</a></li> 
+   <li><a href="http://jackrabbit.apache.org/oak/docs/oak_api/overview.html">Jackrabbit Oak API</a></li> 
+   <li><a href="http://www.day.com/maven/javax.jcr/javadocs/jcr-2.0/">Java Content Repository API</a></li> 
+   <li><a href="http://jackrabbit.apache.org/api">Apache Jackrabbit API</a></li> 
+  </ul> 
+  <p><object data-extension-version="0.5.0.161" data-install-updates-user-configuration="true" data-supports-flavor-configuration="true" id="__symantecPKIClientMessenger" style="display: none;"> </object></p> 
+  <p><object data-extension-version="0.5.0.161" data-install-updates-user-configuration="true" data-supports-flavor-configuration="true" id="__symantecPKIClientMessenger" style="display: none;"> </object></p> 
+ </body>
+</html>

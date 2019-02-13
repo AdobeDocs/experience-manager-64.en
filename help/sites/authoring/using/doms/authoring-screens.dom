@@ -1,0 +1,40 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="a09f9bf8-3eb7-48ab-9f39-9832081fc969" name="jcr:uuid" />
+  <meta content="2018-11-01T13:28:08.322-0400" name="firstPublishExternalDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/authoring-screens.html" name="publishExternalURL" />
+  <meta content="REDIRECT Authoring Screens" name="jcr:title" />
+  <meta content="2018-11-01T13:28:08.322-0400" name="topicBrowsingSortDate" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2017-12-20T19:01:07.878-0500" name="jcr:created" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="ff0309f7-0fb0-4908-b3a6-6e2b9717568e" name="jcr:predecessors" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="video" name="pageLayout" />
+  <meta content="true" name="noIndex" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-11-01T13:28:08.322-0400" name="publishExternalDate" />
+  <meta content="false" name="doNotLocalize" />
+  <meta content="not_checked" name="acrolinxStatus" />
+  <meta content="jsyal" name="contentOwner" />
+  <meta content="jsyal" name="cq:lastReplicatedBy" />
+  <meta content="2018-11-01T13:28:08.322-0400" name="lastPublishExternalDate" />
+  <meta content="en" name="pageCreatedAt" />
+  <meta content="jsyal@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="jsyal" name="cq:lastModifiedBy" />
+  <meta content="2018-11-01T13:28:08.325-0400" name="cq:lastModified" />
+  <meta content="light" name="heroGradient" />
+  <meta content="left" name="sideColumn" />
+  <meta content="/content/help/en/experience-manager/6-4/screens/using/authoring-screens" name="redirectTarget" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2018-11-01T13:28:08.341-0400" name="cq:lastReplicated" />
+ </head>
+ <body></body>
+</html>

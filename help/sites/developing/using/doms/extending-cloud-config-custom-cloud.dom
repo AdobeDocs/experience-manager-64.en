@@ -1,0 +1,213 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2018-04-03T09:00:43.659-0400" name="cq:lastReplicated" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" /> 
+  <meta content="User" name="contentOwner" /> 
+  <meta content="/content/docs/en/aem/6-3/develop/extending/cloud-service-configurations/creating-a-custom-cloud-service" name="qaNotes" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2017-12-01T19:06:15.320-0500" name="jcr:created" /> 
+  <meta content="Creating a Custom Cloud Service" name="navTitle" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2017-10-31T16:16:44.482-0400" name="firstPublishExternalDate" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/morehelp/extending-aem;/content/help/en/experience-manager/6-4/sites/developing/morehelp/extending-aem" name="moreHelpPaths" /> 
+  <meta content="1a81e0fe-98f2-4647-93fd-b4795bdb3a2f" name="jcr:uuid" /> 
+  <meta content="2018-05-08T12:43:21.907-0400" name="cq:lastModified" /> 
+  <meta content="Creating a Custom Cloud Service" name="jcr:title" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/extending-cloud-config-custom-cloud.html" name="publishExternalURL" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="2f21b179-9afa-49c6-9de8-d0969ed3d082" name="jcr:predecessors" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="audience:developing" name="primaryAudienceTag" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2017-10-31T16:16:44.482-0400" name="publishExternalDate" /> 
+  <meta content="2018-05-08T12:43:21.906-0400" name="locHandOffDate" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:extending-aem;content_type:reference" name="cq:tags" /> 
+  <meta content="2017-10-31T16:16:44.482-0400" name="lastPublishExternalDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="Creating a Custom Cloud Service" name="seoTitle" /> 
+  <meta content="2017-10-31T16:16:44.482-0400" name="topicBrowsingSortDate" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="The default set of Cloud Services can be extended with custom Cloud Service types" name="seoDescription" /> 
+ </head> 
+ <body> 
+  <p>The default set of Cloud Services can be extended with custom Cloud Service types. This allows you to inject custom markup into the page in a structured fashion. This will be primarily of use for 3rd party analytics providers, for example Google Analytics, Chartbeat, etc.<br /> Cloud Services are inherited from parent pages to child pages with the ability to break the inheritance at any level.</p> 
+  <note> 
+   <p>This step-by-step guide for creating a new Cloud Service is an example using Google Analytics. Everything might not apply to your use case.</p> 
+  </note> 
+  <ol> 
+   <li><p style="font-family: tahoma, arial, helvetica, sans-serif;">In CRXDE Lite, ceate a new node under <span class="code">/apps</span>:</p> 
+    <ul> 
+     <li><strong>Name</strong>: <span class="code">acs</span></li> 
+     <li><strong>Type</strong>: <span class="code">nt:folder</span></li> 
+    </ul> </li> 
+   <li><p>Create a new node under <span class="code">/apps/acs</span>:</p> 
+    <ul> 
+     <li><strong>Name</strong>:<span class="code"> analytics</span></li> 
+     <li><strong>Type</strong>: <span class="code">sling:Folder</span></li> 
+    </ul> </li> 
+   <li><p style="font-family: tahoma, arial, helvetica, sans-serif;">Create 2 new nodes under <span class="code">/apps/acs/analytics</span>:</p> 
+    <ul> 
+     <li><strong style="font-family: tahoma, arial, helvetica, sans-serif;">Name</strong>: components</li> 
+     <li style="font-family: tahoma, arial, helvetica, sans-serif;"><strong>Type</strong>: <span class="code">sling:Folder</span></li> 
+    </ul> 
+    <div>
+      and 
+    </div> 
+    <div> 
+     <ul> 
+      <li><strong style="font-family: tahoma, arial, helvetica, sans-serif;">Name</strong>: templates</li> 
+      <li style="font-family: tahoma, arial, helvetica, sans-serif;"><strong>Type</strong>: <span class="code">sling:Folder</span></li> 
+     </ul> 
+    </div>  </li> 
+   <li><p>Right click on<span class="code">/apps/acs/analytics/components</span>. Select <strong>Create...</strong> followed by <strong>Create Component...</strong> The dialog that opens allows you to specify:</p> 
+    <ul> 
+     <li><strong>Label</strong>:<span class="code"> googleanalyticspage</span></li> 
+     <li><strong>Title</strong>: <span class="code">Google Analytics Page</span></li> 
+     <li><strong>Super Type</strong>: <span class="code">cq/cloudserviceconfigs/components/configpage</span></li> 
+     <li><strong>Group</strong>: <span class="code">.hidden</span></li> 
+    </ul> </li> 
+   <li><p>Click <strong>Next </strong>twice and specifiy:</p> 
+    <ul> 
+     <li><strong>Allowed Parents:</strong> <span class="code">acs/analytics/templates/googleanalytics</span></li> 
+    </ul> <p>Click <strong>Next</strong> twice and click <strong>OK</strong>.<br /> </p> </li> 
+   <li><p>Add a property to <span class="code">googleanalyticspage</span>:</p> 
+    <ul> 
+     <li><strong>Name:</strong> <span class="code">cq:defaultView</span></li> 
+     <li><strong>Value:</strong> <span class="code">html</span> </li> 
+    </ul> </li> 
+   <li><p>Create a new file named <span class="code">content.jsp</span> under <span class="code">/apps/acs/analytics/components/googleanalyticspage</span>, with the following content:</p> 
+    <codeblock gutter="true" class="syntax xml">
+      &lt;%@page&amp;nbsp;contentType="text/html"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;pageEncoding="utf-8"%&gt;&lt;%!!discoiqbr!!%&gt;&lt;%@include&amp;nbsp;file="/libs/foundation/global.jsp"%&gt;&lt;div&gt;!!discoiqbr!!!!discoiqbr!!&lt;div&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;h3&gt;Google&amp;nbsp;Analytics&amp;nbsp;Settings&lt;/h3&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;ul&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;li&gt;&lt;div&amp;nbsp;class="li-bullet"&gt;&lt;strong&gt;accountID:&amp;nbsp;&lt;/strong&gt;&lt;br&gt;&lt;%=&amp;nbsp;xssAPI.encodeForHTML(properties.get("accountID",&amp;nbsp;""))&amp;nbsp;%&gt;&lt;/div&gt;&lt;/li&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/ul&gt;!!discoiqbr!!&lt;/div&gt; 
+    </codeblock></li> 
+   <li><p>Create a new node under<span class="code">/apps/acs/analytics/components/googleanalyticspage/</span>:</p> 
+    <ul> 
+     <li><strong>Name</strong>: <span class="code">dialog</span></li> 
+     <li><strong>Type</strong>: <span class="code">cq:Dialog</span></li> 
+     <li><strong>Properties</strong>: 
+      <ul> 
+       <li><strong>Name</strong>: <span class="code">title</span></li> 
+       <li><strong>Type</strong>: <span class="code">String</span></li> 
+       <li><strong>Value</strong>: <span class="code">Google Analytics Config</span></li> 
+      </ul>  
+      <ul> 
+       <li><strong>Name</strong>: <span class="code">xtype</span></li> 
+       <li><strong>Type</strong>: <span class="code">String</span></li> 
+       <li><strong>Value</strong>: <span class="code">dialog</span></li> 
+      </ul> </li> 
+    </ul> </li> 
+   <li><p>Create a new node under<span class="code">/apps/acs/analytics/components/googleanalyticspage/dialog</span>:</p> 
+    <ul> 
+     <li><strong>Name</strong>: <span class="code">items</span></li> 
+     <li><strong>Type</strong>: <span class="code">cq:Widget</span></li> 
+     <li><strong>Properties</strong>: 
+      <ul> 
+       <li><strong>Name</strong>: <span class="code">xtype</span></li> 
+       <li><strong>Type</strong>: <span class="code">String</span></li> 
+       <li><strong>Value</strong>: <span class="code">tabpanel</span></li> 
+      </ul> </li> 
+    </ul> </li> 
+   <li><p>Create a new node under<span class="code">/apps/acs/analytics/components/googleanalyticspage/dialog/items</span>:</p> 
+    <ul> 
+     <li><strong>Name</strong>: <span class="code">items</span></li> 
+     <li><strong>Type</strong>: <span class="code">cq:WidgetCollection</span></li> 
+    </ul> </li> 
+   <li><p>Create a new node under<span class="code">/apps/acs/analytics/components/googleanalyticspage/dialog/items/items</span>:</p> 
+    <ul> 
+     <li><strong>Name</strong>: tab1</li> 
+     <li><strong>Type</strong>: <span class="code">cq:Panel</span></li> 
+     <li><strong>Properties</strong>: 
+      <ul> 
+       <li><strong>Name</strong>: <span class="code">title</span></li> 
+       <li><strong>Type</strong>: <span class="code">String</span></li> 
+       <li><strong>Value</strong>:<span class="code">Config</span></li> 
+      </ul> </li> 
+    </ul> </li> 
+   <li><p>Create a new node under<span class="code">/apps/acs/analytics/components/googleanalyticspage/dialog/items/items/tab1</span>:</p> 
+    <ul> 
+     <li><strong>Name</strong>: items</li> 
+     <li><strong>Type</strong>: <span class="code">nt:unstructured</span></li> 
+     <li><strong>Properties</strong>: 
+      <ul> 
+       <li><strong>Name</strong>:<span class="code">fieldLabel</span></li> 
+       <li><strong>Type</strong>: String</li> 
+       <li><strong>Value</strong>: Account ID</li> 
+      </ul>  
+      <ul> 
+       <li><strong>Name</strong>: <span class="code">fieldDescription</span></li> 
+       <li><strong>Type</strong>: <span class="code">String</span></li> 
+       <li><strong>Value</strong>: <span class="code">The account ID assigned by Google. Usually in the form UA-NNNNNN-N</span></li> 
+      </ul>  
+      <ul> 
+       <li><strong>Name</strong>: <span class="code">name</span></li> 
+       <li><strong>Type</strong>: <span class="code">String</span></li> 
+       <li><strong>Value</strong>: <span class="code">./accountID</span></li> 
+      </ul>  
+      <ul> 
+       <li><strong>Name</strong>: <span class="code">validateOnBlur</span></li> 
+       <li><strong>Type</strong>: <span class="code">String</span></li> 
+       <li><strong>Value</strong>: <span class="code">true</span></li> 
+      </ul>  
+      <ul> 
+       <li><strong>Name</strong>: <span class="code">xtype</span></li> 
+       <li><strong>Type</strong>: <span class="code">String</span></li> 
+       <li><strong>Value</strong>: <span class="code">textfield</span></li> 
+      </ul> </li> 
+    </ul> </li> 
+   <li><p>Copy <span class="code">/libs/cq/cloudserviceconfigs/components/configpage/body.jsp</span> to <span class="code">/apps/acs/analytics/components/googleanalyticspage/body.jsp</span> and change <span class="code">libs</span> to <span class="code">apps</span> on line 34 and make the script reference on line 79 a fully qualified path.</p> </li> 
+   <li><p>Create a new template under <span class="code">/apps/acs/analytics/templates/</span>:</p> 
+    <ul> 
+     <li>with <strong>Resource Type</strong> = <span class="code">acs/analytics/components/googleanalyticspage</span></li> 
+     <li>with<strong> Label</strong> =<span class="code">googleanalytics</span></li> 
+     <li>with <strong>Title </strong>= <span class="code">Google Analytics Configuration</span></li> 
+     <li>with <strong>allowedPath</strong> = <span class="code">/etc/cloudservices/googleanalytics(/.*)?</span></li> 
+     <li>with <strong>allowedChildren</strong> = <span class="code">/apps/acs/analytics/templates/googleanalytics</span></li> 
+     <li>with <strong>sling:resourceSuperType</strong> = <span class="code">cq/cloudserviceconfigs/templates/configpage</span> (on template node, not the jcr:content node)</li> 
+     <li>with <strong>cq:designPath</strong> = <span class="code">/etc/designs/cloudservices/googleanalytics</span> (on jcr:content)</li> 
+    </ul> </li> 
+   <li><p>Create new component: <span class="code">/apps/acs/analytics/components/googleanalytics</span>.</p> <p>Add the following content to <span class="code">googleanalytics.jsp</span>:</p> 
+    <codeblock gutter="true" class="syntax xml">
+      &lt;%@page&amp;nbsp;import="org.apache.sling.api.resource.Resource,!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;org.apache.sling.api.resource.ValueMap,!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;org.apache.sling.api.resource.ResourceUtil,!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;com.day.cq.wcm.webservicesupport.Configuration,!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;com.day.cq.wcm.webservicesupport.ConfigurationManager"&amp;nbsp;%&gt;!!discoiqbr!!&lt;%@include&amp;nbsp;file="/libs/foundation/global.jsp"&amp;nbsp;%&gt;&lt;%!!discoiqbr!!!!discoiqbr!!String[]&amp;nbsp;services&amp;nbsp;=&amp;nbsp;pageProperties.getInherited("cq:cloudserviceconfigs",&amp;nbsp;new&amp;nbsp;String[]{});!!discoiqbr!!ConfigurationManager&amp;nbsp;cfgMgr&amp;nbsp;=&amp;nbsp;resource.getResourceResolver().adaptTo(ConfigurationManager.class);!!discoiqbr!!if(cfgMgr&amp;nbsp;!=&amp;nbsp;null)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;String&amp;nbsp;accountID&amp;nbsp;=&amp;nbsp;null;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Configuration&amp;nbsp;cfg&amp;nbsp;=&amp;nbsp;cfgMgr.getConfiguration("googleanalytics",&amp;nbsp;services);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if(cfg&amp;nbsp;!=&amp;nbsp;null)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;accountID&amp;nbsp;=&amp;nbsp;cfg.get("accountID",&amp;nbsp;null);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if(accountID&amp;nbsp;!=&amp;nbsp;null)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;%&gt;!!discoiqbr!!&lt;script&amp;nbsp;type="text/javascript"&gt;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;var&amp;nbsp;_gaq&amp;nbsp;=&amp;nbsp;_gaq&amp;nbsp;||&amp;nbsp;[];!!discoiqbr!!&amp;nbsp;&amp;nbsp;_gaq.push(['_setAccount',&amp;nbsp;'&lt;%=&amp;nbsp;accountID&amp;nbsp;%&gt;']);!!discoiqbr!!&amp;nbsp;&amp;nbsp;_gaq.push(['_trackPageview']);!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;(function()&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;var&amp;nbsp;ga&amp;nbsp;=&amp;nbsp;document.createElement('script');&amp;nbsp;ga.type&amp;nbsp;=&amp;nbsp;'text/javascript';&amp;nbsp;ga.async&amp;nbsp;=&amp;nbsp;true;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;ga.src&amp;nbsp;=&amp;nbsp;('https:'&amp;nbsp;==&amp;nbsp;document.location.protocol&amp;nbsp;?&amp;nbsp;'https://ssl'&amp;nbsp;:&amp;nbsp;'http://www')&amp;nbsp;+&amp;nbsp;'.google-analytics.com/ga.js';!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;var&amp;nbsp;s&amp;nbsp;=&amp;nbsp;document.getElementsByTagName('script')[0];&amp;nbsp;s.parentNode.insertBefore(ga,&amp;nbsp;s);!!discoiqbr!!&amp;nbsp;&amp;nbsp;})();!!discoiqbr!!!!discoiqbr!!&lt;/script&gt;&lt;%!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!}!!discoiqbr!!%&gt; 
+    </codeblock><p>This should output the custom markup based on the configuration properties.</p> </li> 
+   <li><p>Navigate to <span class="code">http://localhost:4502/miscadmin#/etc/cloudservices</span> and create a new page:</p> 
+    <ul> 
+     <li><strong>Title</strong>: <span class="code">Google Analytics</span></li> 
+     <li><strong>Name</strong>: <span class="code">googleanalytics</span></li> 
+    </ul> 
+    <div>
+      Go back in CRXDE Lite, and under 
+     <span class="code">/etc/cloudservices/googleanalytics</span>, add the following property to 
+     <span class="code">jcr:content</span>: 
+    </div> 
+    <ul> 
+     <li><strong>Name</strong>: <span class="code">componentReference</span></li> 
+     <li><strong>Type</strong>: <span class="code">String</span></li> 
+     <li><strong>Value</strong>: <span class="code">acs/analytics/components/googleanalytics</span></li> 
+    </ul> </li> 
+   <li><p>Navigate to the newly created Service page (<span class="code">http://localhost:4502/etc/cloudservices/googleanalytics.html</span>) and click the <strong>+</strong> to create a new config:</p> 
+    <ul> 
+     <li><strong>Parent Configuration</strong>: <span class="code">/etc/cloudservices/googleanalytics</span></li> 
+     <li><strong>Title: </strong><span class="code">My First GA Config </span></li> 
+    </ul> 
+    <div>
+      Choose 
+     <strong>Google Analytics Configuration</strong> and click 
+     <strong>Create</strong>. 
+    </div> </li> 
+   <li><p>Enter a <strong>Account ID</strong>, for example <span class="code">AA-11111111-1</span>. Click <strong>OK</strong>.</p> </li> 
+   <li><p>Navigate to a page and add the newly created configuration in the page properties, under the <strong>Cloud Services</strong> tab.</p> </li> 
+   <li><p>The page will have the custom markup added to it.</p> </li> 
+  </ol> 
+ </body> 
+</html>

@@ -1,0 +1,63 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="5124cf8c-2d48-48e6-b10d-4b215b07f256" name="jcr:predecessors" /> 
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/configuring_forms;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="topicBrowsingSortDate" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7d6e.2" name="cq:gepId" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="sortDate" /> 
+  <meta content="Specifying security settings" name="navTitle" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="admin" name="lr_creator" /> 
+  <meta content="2018-04-26T04:22:35.678-0400" name="locHandOffDate" /> 
+  <meta content="2016-04-20T10:09:57.391-0400" name="firstPublishExternalDate" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="5" name="acrolinxSentences" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="admin" name="contentOwner" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2017-12-01T19:03:03.986-0500" name="jcr:created" /> 
+  <meta content="2018-04-03T09:10:35.793-0400" name="cq:lastReplicated" /> 
+  <meta content="70" name="acrolinxWords" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="c12ba0a3-adca-47f3-ae7f-04a0912da054" name="jcr:uuid" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/forms/using/admin-help/specifying-security-settings.html" name="publishExternalURL" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="2016-05-31T07:03:09.174-0400" name="acrolinxDate" /> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="admin" name="lr_lastModifiedBy" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="Learn how to specify security settings." name="seoDescription" /> 
+  <meta content="2018-04-26T04:22:35.679-0400" name="cq:lastModified" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="2017-10-31T16:31:57.809-0400" name="lastPublishExternalDate" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/specifying_security_settings_admin_5e12de0b318c6865_2372_report.xml" name="acrolinxReportURL" /> 
+  <meta content="Specifying security settings" name="jcr:title" /> 
+  <meta content="2017-10-31T16:31:57.809-0400" name="publishExternalDate" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2016-02-05T03:27:31.873-0500" name="lr_lastModified" /> 
+ </head> 
+ <body> 
+  <p>Forms enables you to control whether external entities in XML inputs are resolved. By default, they are resolved, but you can change this behavior to increase the security of your AEM forms system. </p> 
+  <p><strong>Prevent the processing of XML data files that contain references to external entities</strong></p> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; Forms.</p></li> 
+   <li><p>Clear the Resolve External Entities check box.</p></li> 
+   <li><p>Click Save.</p></li> 
+  </ol> 
+ </body> 
+</html>

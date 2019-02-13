@@ -1,0 +1,123 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="" name="jcr:primaryType" />
+  <meta content="2018-11-02T13:40:23.925-0400" name="publishExternalDate" />
+  <meta content="/content/help/en/experience-manager/6-4/screens/morehelp/authoring;/content/help/en/experience-manager/6-4/screens/morehelp/authoring" name="moreHelpPaths" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SCREENS" name="primaryProductTag" />
+  <meta content="/content/docs/en/aem/6-3/author/authoring-screens/managing-displays" name="qaNotes" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="" name="primaryAudienceTag" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="Jyotika syal" name="contentOwner" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2018-11-02T13:40:24.021-0400" name="cq:lastModified" />
+  <meta content="2018-04-19T10:32:54.710-0400" name="locHandOffDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2017-10-31T16:20:20.762-0400" name="firstPublishExternalDate" />
+  <meta content="Managing Displays" name="seoTitle" />
+  <meta content="2019-01-15T15:39:04.092-0500" name="jcr:created" />
+  <meta content="jsyal" name="cq:lastReplicatedBy" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/SCREENS;topic_tags:authoring" name="cq:tags" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="a8c995e6-bc58-450f-9244-7fa812c7f892" name="jcr:predecessors" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="Creating and Managing Displays" name="jcr:title" />
+  <meta content="2018-11-02T13:40:26.311-0400" name="cq:lastReplicated" />
+  <meta content="2018-11-02T13:40:23.925-0400" name="lastPublishExternalDate" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/screens/using/managing-displays.html" name="publishExternalURL" />
+  <meta content="jsyal" name="cq:lastModifiedBy" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="Follow this page to learn about creating a new display and device config. Additionally, learn about the display dashboard." name="seoDescription" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="fdb824a6-7b14-4be2-93b8-21427df2c965" name="jcr:uuid" />
+  <meta content="jsyal@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="2018-11-02T13:40:23.925-0400" name="topicBrowsingSortDate" />
+ </head>
+ <body>
+  <p>A display is a virtual grouping of screens that are usually positioned next to each other. The display is usually permanent in respect to an installation. This will be the object content authors will work with and always reference to as logical display rather than their physical counter part(s).</p> 
+  <p>Once you create a location, you have to create a new display for your location.</p> 
+  <p>This page shows creating and managing displays for Screens.</p> 
+  <p><strong>Pre-requisites</strong>:</p> 
+  <ul> 
+   <li><a href="../../sites/deploying/using/configuring-screens-introduction.md">Configuring and Deploying Screens</a></li> 
+   <li><a href="../../screens/using/creating-a-screens-project.md">Create and Manage Screens Project</a></li> 
+   <li><a href="../../screens/using/managing-channels.md">Create and Manage Channels</a></li> 
+   <li><a href="../../screens/using/managing-locations.md">Create and Manage Locations</a></li> 
+  </ul> 
+  <h2>Creating a New Display</h2>
+  <note>
+   <p>You need to create a location before creating a display. To see how to create a location, see <a href="../../screens/using/managing-locations.md">Create and Manage Locations</a> for more information.</p> 
+  </note>
+  <p>To create a new display in your location, follow the steps below:</p> 
+  <ol> 
+   <li>Navigate to the appropriate location, for example (http://localhost:4502/screens.html/content/screens/TestProject).</li> 
+   <li>Select your location folder and tap/click <strong>Create</strong> next to the plus icon in the action bar. A wizard will open.</li> 
+   <li>Select <strong>Display</strong> from the <strong>Create</strong> wizard and click <strong>Next</strong>.</li> 
+   <li>Enter <strong>Name</strong> and <strong>Title</strong> for your display location.</li> 
+   <li>Under the <strong>Display</strong> tab, choose the details of the Layout. Choose the desired <strong>Resolution</strong> (example as, as <strong>Full HD</strong>). Furthermore, you can choose the number of devices horizontally and vertically.</li> 
+   <li>Click <strong>Create</strong>.<br /> </li> 
+  </ol> 
+  <p>The display (<em>StoreDisplay</em>) is created and added to the location (<em>SanJose</em>).</p> 
+  <img imageRotate="0" src="assets/display.gif" />
+  <p>Once you have display in position, the next step will be to create a device config for that particular display. Follow the section below to create a new device config.</p> 
+  <note>
+   <p><strong>The Next Step</strong>:</p> 
+   <p>Once you create a display for your location, you need to assign a channel to your display to leverage the content.</p> 
+   <p>See <a href="../../screens/using/channel-assignment.md">Assign Channels</a><strong></strong> section to learn how to assign a channel to the display.</p> 
+  </note>
+  <h2>Creating a New Device Config</h2>
+  <p>A device config acts as a placeholder for an actual digital signage device that is not yet installed.</p> 
+  <p>Follow the steps below to create a new device config:<br /> </p> 
+  <ol> 
+   <li>Navigate to the appropriate display, for example, http://localhost:4502/screens.html/content/screens/TestProject/locations/newlocation</li> 
+   <li>Select your display folder and tap/click <strong>View Dashboard</strong> in the action bar.</li> 
+   <li>Tap/click the <strong>+ Add Device Config</strong> on the top right of the <strong>Devices</strong> panel.</li> 
+   <li>Select the <strong>Device Config</strong> as the required template as and tap/click <strong>Next</strong>.</li> 
+   <li>Enter the properties as required and tap/click <strong>Create</strong>.</li> 
+  </ol> 
+  <p>The device config is created and added to the current display (in the following demonstration, the new device config is <em>DeviceConfig</em>).</p> 
+  <img imageRotate="0" src="assets/deviceconfig.gif" />
+  <p>Once a device config is set to your display in the location, the next step will be to assign a channel to your display. </p> 
+  <note>
+   <p>Once a device config is set to your display in the location, the next step will be to assign a channel to your display. </p> 
+   <p>As shown in the figure below, if the device config is displayed as unassigned in the <strong>DEVICES</strong> pannel, if no channel is assigned to that particular device config.</p> 
+   <p>You should have prior understanding of creating and managing channels. See <a href="../../screens/using/managing-channels.md">Create and Manage Channels</a> for more details.</p> 
+  </note>
+  <img imageRotate="0" src="assets/chlimage_1-42.png" />
+  <h2>Display Dashboard</h2>
+  <p>The display dashboard provides you with different panels for managing display devices and device configurations for your device.</p> 
+  <img imageRotate="0" src="assets/screen_shot_2018-08-23at42810pm.png" />
+  <note>
+   <p>You can select the dashboard lists and trigger bulk actions on items, instead of going through each item individually.</p> 
+   <p>For example, the following image shows how you can select multiple channels from the display dashboard.</p> 
+  </note>
+  <img imageRotate="0" src="assets/cqdoc9456.gif" />
+  <h3>Display Information Panel</h3>
+  <p>The <strong>DISPLAY INFORMATION</strong> Panel provides the display properties.</p> 
+  <p>Click on the (<strong>...</strong>) in the top right corner in the <strong>DISPLAY INFORMATION </strong>panel to view the properties and preview the display.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-43.png" />
+  <h4>Viewing Properties</h4>
+  <p>Click <strong>Properties</strong> to view or change the properties of your display.</p> 
+  <p>Additionally, you can adjust the event timer value for your interactive channel in <strong>Idle timeout </strong>property under <strong>Display</strong> tab. The default value is set to <i>300 seconds</i>.</p> 
+  <p>Use <strong>CRXDE Lite</strong>, to access the <a href="http://localhost:4502/crx/de/index.jsp#/content/screens/we-retail/locations/demo/flagship/single/jcr%3Acontent/channels"><i><strong>idleTimeout</strong></i></a> property.</p> 
+  <p> </p> 
+  <img imageRotate="0" src="assets/chlimage_1-1.gif" />
+  <h3>Assigned Channels Panel</h3>
+  <p>The <strong>ASSIGNED CHANNELS</strong> panel displays the assigned channels to this device.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-44.png" />
+  <h3>Devices Panel</h3>
+  <p>The <strong>DEVICES</strong> Panel provides information on the device configs.</p> 
+  <p>Click on the (<strong>...</strong>) in the top right corner in the <strong>DEVICES </strong>panel to add device configs and update devices.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-45.png" />
+  <p>Additionally, click on the device config to view properties, assign a device, or delete it completely.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-46.png" />
+  <h4>The Next Steps</h4>
+  <p>Once you complete creating a display for your location, you need to assign a channel for your display.</p> 
+  <p>See <a href="../../screens/using/channel-assignment.md">Assign Channels</a> for more details.</p> 
+ </body>
+</html>

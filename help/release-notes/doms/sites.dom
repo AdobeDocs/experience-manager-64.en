@@ -1,0 +1,164 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2018-07-31T14:22:08.368-0400" name="cq:lastModified" /> 
+  <meta content="2013-02-01T08:38:07.866-0500" name="jcr:created" /> 
+  <meta content="2018-04-09T11:10:22.624-0400" name="locHandOffDate" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="AEM Sites" name="navTitle" /> 
+  <meta content="2018-07-31T14:22:08.363-0400" name="publishExternalDate" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="msm-service" name="contentOwner" /> 
+  <meta content="chuesler" name="cq:lastModifiedBy" /> 
+  <meta content="mix:versionable;cq:ReplicationStatus" name="jcr:mixinTypes" /> 
+  <meta content="AEM Sites Release Notes" name="jcr:title" /> 
+  <meta content="2018-07-31T14:22:08.363-0400" name="topicBrowsingSortDate" /> 
+  <meta content="AEM Sites" name="seoTitle" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="/content/help/en/experience-manager/6-4/morehelp/release-notes;/content/help/en/experience-manager/6-4/morehelp/release-notes" name="moreHelpPaths" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/release-notes/sites.html" name="publishExternalURL" /> 
+  <meta content="2017-10-31T16:37:52.223-0400" name="firstPublishExternalDate" /> 
+  <meta content="2018-07-31T14:22:08.363-0400" name="lastPublishExternalDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4;topic_tags:release-notes;content_type:reference" name="cq:tags" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4" name="primaryProductTag" /> 
+  <meta content="Release notes specific to Adobe Experience Manager 6.4 Sites." name="seoDescription" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="e3f06a94-325d-4b5d-8a52-e85a2c46b397" name="jcr:uuid" /> 
+  <meta content="/content/docs/en/aem/6-3/release-notes/sites" name="qaNotes" /> 
+  <meta content="2018-07-31T14:22:08.394-0400" name="cq:lastReplicated" /> 
+  <meta content="a5e54905-a78a-44ad-a0b5-bd8e06e7a30a" name="jcr:predecessors" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="chuesler@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="pklassen@adobe.com" name="jcr:createdBy" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="chuesler" name="cq:lastReplicatedBy" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+ </head> 
+ <body> 
+  <h2>Sites</h2> 
+  <p>See the following for AEM Sites 6.4 enhancements in detail:</p> 
+  <h3>Site Administration</h3> 
+  <ul> 
+   <li>New Content Tree rail to quickly navigate a site hierarchy. In combination with the list view, this restores the Classic UI interaction model to browse a site.</li> 
+   <li>Improved scrolling in card and list view of large folders. </li> 
+   <li>Improved interaction with the search results - the back button restores the prior search result.</li> 
+   <li>Additional keyboard shortcuts, for most common actions, such as to open a particular rail, to edit, move and delete pages, or to open properties.</li> 
+   <li>Ability to disable keyboard shortcuts (enable/disable in Preferences). </li> 
+   <li>Stop showing time stamps across all UI relative after 7 days (set default in Preferences).</li> 
+  </ul> 
+  <h3>Page Editor</h3> 
+  <ul> 
+   <li>Updated device list for responsive site preview, now including Apple iPhone 8, 8 Plus and X, and Samsung S7</li> 
+   <li>Moved default location for template design information away from /etc/design to support sites specific settings in /conf. Customers that upgrade from prior AEM releases can remain using /etc/design.</li> 
+  </ul> 
+  <h3>Component &amp;amp; Template Development</h3> 
+  <ul> 
+   <li>Project Archetype 13+, see <a href="https://github.com/Adobe-Marketing-Cloud/aem-project-archetype/releases">Github for release notes</a>.</li> 
+   <li>HTL version 1.3.1, see <a href="https://github.com/Adobe-Marketing-Cloud/htl-spec/releases/tag/1.3.1">Github for release notes</a>.</li> 
+   <li>Core Components 2.0.4+, see <a href="https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/releases">Github for release notes</a>.</li> 
+   <li>Style System 
+    <ul> 
+     <li>Added an all-new concept to assign CSS classes to components and allow users in Page Editor to select from a subset of styles via UI</li> 
+     <li>Added ability to define the HTML element name rendered around the component e.g. &amp;lt;main&amp;gt;, &amp;lt;aside&amp;gt;</li> 
+    </ul> </li> 
+   <li>Grid System for Layout Container, see <a href="https://github.com/Adobe-Marketing-Cloud/aem-responsivegrid">Github</a>.</li> 
+   <li>Template Editor and Policies 
+    <ul> 
+     <li>Policies now support Style System configurations per component, per container, per template.<br /> </li> 
+     <li>Improved support for defining layout in templates on editable components</li> 
+    </ul> </li> 
+   <li>Reference Site We.Retail 3.0, see <a href="https://github.com/Adobe-Marketing-Cloud/aem-sample-we-retail/releases">Github for release notes</a>.</li> 
+  </ul> 
+  <note> 
+   <p>AEM includes version 1.12.4 of the jQuery library to provide maximum compatibility with existing custom code. Modifications have been done by Adobe to address known security issues.</p> 
+  </note> 
+  <h3>Content Fragments &amp;amp; Editor</h3> 
+  <ul> 
+   <li>Introduced Structured Content Models as foundation for content fragments 
+    <ul> 
+     <li>Model editor UI</li> 
+     <li>Pre-configured data elements for content fragment models (single-line text, multi-line text, number, boolean, date&amp;time, enumeration, content reference, tags)</li> 
+    </ul> </li> 
+   <li>Improved the usability of the AEM Content Fragment editor 
+    <ul> 
+     <li>View-all-elements overview</li> 
+     <li>Full-screen editing for single elements</li> 
+     <li>Enhanced rich text editing capabilities (bulleted lists, numbered lists, indendentation, hyperlinks, tables, find&amp;replace, spell check)</li> 
+    </ul> </li> 
+   <li>Added enhanced output options for AEM Content Fragments 
+    <ul> 
+     <li>New Content Fragment component, as part of Core Components. <a href="https://github.com/Adobe-Marketing-Cloud/aem-core-wcm-components/tree/master/extension/contentfragment/content/src/content/jcr_root/apps/core/wcm/extension/components/contentfragment/v1/contentfragment">See code on GitHub.</a></li> 
+     <li>Content Services support with JSON output via Sling Model Exporter </li> 
+    </ul> </li> 
+  </ul> 
+  <h3>Experience Fragments</h3> 
+  <ul> 
+   <li>Introduced Experience Fragment Building Blocks, to facilitate re-using content between Experience Fragments variations by grouping components and by allowing easy reference within variations.</li> 
+   <li>Added the ability to add Experience Fragments to translation projects via the reference rail</li> 
+   <li>Addrf the ability to start workflows with Experience Fragments via the timeline rail</li> 
+   <li>Reference rail now shows where an Experience Fragment is being used in AEM <br /> </li> 
+   <li>Configuration of template locations now allows authors to define on a global or folder level what Experience Fragment templates are allowed to use</li> 
+   <li>Faceted search now supports advanced filtering, such as published / non-published, exported to social media and Adobe Target</li> 
+   <li>Added single social media login when exporting Experience Fragments to Pinterest or Facebook</li> 
+   <li>Integrated AEM Experience Fragments with Adobe Target. Synchronizing Experience Fragments to Target will create offers in Adobe Target that can be used with Target's Visual Experience Composer to embed it in any Target enabled experience.</li> 
+  </ul> 
+  <h3>Translation</h3> 
+  <ul> 
+   <li>Enhanced the usability of AEM Translation projects: 
+    <ul> 
+     <li>Support for multiple target languages in one project</li> 
+     <li>Option to automatically promote and delete translation launches</li> 
+     <li>Option to schedule recurring execution of translation projects (daily, weekly, monthly, yearly)</li> 
+     <li>Enhanced translation project tiles with more detailed status information</li> 
+    </ul> </li> 
+   <li>Introduced Reverse Translation Memory Update, to update translation memory in 3rd-party translation management system after local content edits in AEM</li> 
+   <li>Translation workflows now support grouped language roots</li> 
+   <li>Added ability to assign arbitrary names to language roots, and use JCR property for mapping to ISO code</li> 
+   <li>Smart translation updates now recognize new pages that were added to a language master branch </li> 
+   <li>Introduced translation status reporting in Sites Admin list view</li> 
+  </ul> 
+  <h3>Multi-Site Management (MSM)</h3> 
+  <ul> 
+   <li>Improved MSM scalability by using an Oak-based index vs in-memory (LiveCopyIndex)</li> 
+  </ul> 
+  <h3>Launches</h3> 
+  <ul> 
+   <li>Improved performance of launches that contain large site tree and if there are many Launches active</li> 
+   <li>Improved auto-promotion and publish of launches with multiple root pages.</li> 
+   <li>Fixed an issue that prevented the responsive device preview to work with pages edited in context of a launch.</li> 
+  </ul> 
+  <h3>Content Targeting &amp; Simulation</h3> 
+  <ul> 
+   <li>Support folders to organize segments based on site/context (CQ-94620)</li> 
+   <li>Moved default location for segments into /conf to have site/context specific Segment lists.</li> 
+  </ul>  
+  <h3>AEM &amp;amp; Adobe Target&amp;nbsp;</h3> 
+  <ul> 
+   <li>Integrated AEM Experience Fragments with Adobe Target. Synchronizing Experience Fragments to Target will create offers in Adobe Target that can be used with Target's Visual Experience Composer to embed it in any Target enabled experience.</li> 
+   <li>Adobe Target mbox.js version 63 now included. Adobe recommends to switch implementation to at.js.</li> 
+   <li>at.js version 1.2.2 now included. Adobe recommends to use either Dynamic Tag Management (DTM) or <a href="https://www.adobe.com/enterprise/cloud-platform/launch.html">Launch by Adobe</a> to provision at.js into the site.</li> 
+  </ul> 
+  <h3>AEM &amp;amp; Adobe Analytics</h3> 
+  <ul> 
+   <li>s_code.js H.27.5 now included. Adobe recommends to switch implementation to AppMeasurement.js</li> 
+   <li>AppMeasurement.js 1.8.0 now included. Adobe recommends to use either Dynamic Tag Management (DTM) or <a href="https://www.adobe.com/enterprise/cloud-platform/launch.html">Launch by Adobe</a> to provision AppMeasurement.js into the site.</li> 
+  </ul> 
+  <h2>Communities Add-On</h2> 
+  <p>See <a href="../release-notes/communities-release-notes.md">Communities Release Notes page</a></p> 
+  <h2>Screens Add-On</h2> 
+  <ul> 
+   <li>Added support for Screens Players to be connecting to AEM publish servers for command &amp; control and channel downloads (instead of directly to AEM author).</li> 
+   <li>Added ability to group channel assignments in Schedules</li> 
+   <li>Channel assignments now have start and end date</li> 
+   <li>Device Dashboard now shows player shell and firmware version</li> 
+   <li>Device Dashboard list shows connection status of player</li> 
+   <li>Added Google Chrome OS support for AEM Screens Player </li> 
+   <li>Added Microsoft Windows 10 for AEM Screens Player </li> 
+  </ul> 
+ </body> 
+</html>

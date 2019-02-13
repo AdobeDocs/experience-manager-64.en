@@ -1,0 +1,163 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="2017-10-31T16:32:02.231-0400" name="publishExternalDate" /> 
+  <meta content="109" name="acrolinxSentences" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="admin" name="lr_lastModifiedBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7d44.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7d39.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7cfb.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-1c6f57cb12905cdfecf-7fda.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-1c6f57cb12905cdfecf-7fd8.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7d38.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-1c6f57cb12905cdfecf-7fd6.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-1c6f57cb12905cdfecf-7fd5.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-1c6f57cb12905cdfecf-7fd4.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7d36.2" name="cq:gepId" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2016-05-31T07:02:38.597-0400" name="acrolinxDate" /> 
+  <meta content="The Process List page shows the processes that a user has initiated or that were started automatically. Learn more about managing the processes." name="seoDescription" /> 
+  <meta content="2016-02-05T03:27:29.368-0500" name="lr_lastModified" /> 
+  <meta content="2017-12-01T19:07:21.683-0500" name="jcr:created" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="2016-04-20T10:07:42.457-0400" name="firstPublishExternalDate" /> 
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/configuring_forms_workflow;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/processes_admin_5e12de0b318c6865_2353_report.xml" name="acrolinxReportURL" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="topicBrowsingSortDate" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="261e7006-83f0-430c-bc94-2e8de9d2cd0a" name="jcr:predecessors" /> 
+  <meta content="2018-04-26T04:22:58.124-0400" name="locHandOffDate" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="Managing Processes" name="navTitle" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2017-10-31T16:32:02.231-0400" name="lastPublishExternalDate" /> 
+  <meta content="Managing Processes" name="jcr:title" /> 
+  <meta content="bf384c8d-d7e2-4ae8-b562-29406acd373d" name="jcr:uuid" /> 
+  <meta content="2018-04-03T09:10:25.272-0400" name="cq:lastReplicated" /> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/configuring_forms_workflow;/content/help/en/experience-manager/6-4/forms/morehelp/configuring_forms_workflow" name="moreHelpPaths" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="sortDate" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/forms/using/admin-help/processes.html" name="publishExternalURL" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="1611" name="acrolinxWords" /> 
+  <meta content="admin" name="lr_creator" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="admin" name="contentOwner" /> 
+  <meta content="2018-04-26T04:22:58.125-0400" name="cq:lastModified" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+ </head> 
+ <body> 
+  <p>The Process List page shows the processes that a user has initiated or that were started automatically. </p> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; Forms workflow &amp;gt; Forms workflow. The Process List shows the following information:</p><p><strong>Process Name - Version:</strong> The name of the process, as defined in Workbench.</p><p><strong>Application:</strong> The application that the process belongs to, as defined in Workbench.</p><p><strong>Status:</strong> Active means that the process is the one activated for the process version. Inactive means that the process is an old version that still has process instances.</p><p><strong>Creation Date:</strong> The date and time the process was deployed.</p></li> 
+   <li><p>Click a process name to view its process instances on the Process Instance page. </p></li> 
+  </ol> 
+  <h2 id="working_with_process_instances">Working with process instances</h2> 
+  <p></p> 
+  <p>If you access the Process Instance page from the Process List page, all the process instances of the process you selected are listed. If you access the Process Instance page after performing a search, only the found process instances are listed.</p> 
+  <p>For each process instance, the list shows the following information:</p> 
+  <p><strong>Process ID:</strong> The identifier that forms workflow assigns when the process is instantiated (that is, when a user or an automated step initiates a process). You can use this identifier to track the process instance through its life cycle.</p> 
+  <p><strong>Process Name - Version:</strong> The name of the process, as defined in Workbench.</p> 
+  <p><strong>Status:</strong> Indicates whether the process instance is running normally, changing state, or has stopped. (See About process instance statuses.)</p> 
+  <p><strong>Creation Date:</strong> The date and time the process instance was created.</p> 
+  <p><strong>Update Date:</strong> The date and time the status of the process instance was last changed.</p> 
+  <p>You can do the following tasks on the Process Instance page:</p> 
+  <ul> 
+   <li><p>Select a process instance to view details about it, such as its operations and subprocesses. When you select a process instance, the Process Instance Details page appears. </p></li> 
+   <li><p>Suspend, unsuspend, or terminate process instances. </p></li> 
+   <li><p>Search for a process instance. To begin a search, click Search.</p></li> 
+  </ul> 
+  <h3 id="about_process_instance_statuses">About process instance statuses</h3> 
+  <p></p> 
+  <p>A process instance, including subprocesses, can have the following statuses:</p> 
+  <p><strong>COMPLETE:</strong> All the branches and operations in the process instance have completed. COMPLETE is the final status of a process instance.</p> 
+  <p><strong>COMPLETING:</strong> The status of the process instance is about to change to COMPLETE.</p> 
+  <p><strong>INITIATED:</strong> The process instance has been created but is not yet running. INITIATED is the first status of a process instance.</p> 
+  <p><strong>RUNNING:</strong> The process instance is running normally. An automated step may be underway, or the process instance may be receiving user input or waiting for user interaction.</p> 
+  <p><strong>SUSPENDED:</strong> The process instance has been suspended by an administrator or by a step in the process. No further operations will occur until the status is changed.</p> 
+  <p><strong>SUSPENDING:</strong> The status is about to change to SUSPENDED. If an operation has been designed to ignore suspend requests and has not yet completed, that operation must complete before the process instance is suspended.</p> 
+  <p><strong>TERMINATED:</strong> The process instance has been terminated by an administrator.</p> 
+  <p><strong>TERMINATING:</strong> The status is about to change to TERMINATED. If an operation has been designed to ignore terminate requests and has not yet completed, that operation must complete before the process instance is terminated.</p> 
+  <p><strong>UNSUSPENDING:</strong> The status is about to change to RUNNING after having been SUSPENDED.</p> 
+  <p><i><strong>Note</strong>: When a request is made to change the status of a process instance (such as to suspend or terminate), the request enters the command queue for forms workflow. Depending on the size of the queue and overall processing speed, the displayed status may not change until the page is reloaded one or more times.</i></p> 
+  <h3 id="suspend_or_unsuspend_process_instances">Suspend or unsuspend process instances</h3> 
+  <p></p> 
+  <p>If you need to troubleshoot a problem or if you know that a process instance will encounter a problem at a later step due to some external condition, you can suspend the process instance temporarily.</p> 
+  <p>You can suspend process instances that have a status of RUNNING. </p> 
+  <p>After you suspend a process instance, its status changes to SUSPENDING, then SUSPENDED, and the process pauses at its current operation. The process instance remains in this status until the status is changed to UNSUSPENDED.</p> 
+  <p>Only process instances that have a status of SUSPENDED can be changed to UNSUSPENDED.</p> 
+  <p>When you unsuspend a process instance, its status changes to RUNNING, and it continues with the operation where it had been suspended.</p> 
+  <p>When you suspend a process instance that has invoked other processes (child processes) using their invoke operation, the child processes are also suspended.</p> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; Forms workflow &amp;gt; Forms workflow.</p></li> 
+   <li><p>On the Process Instance page, select the process and click Suspend or Unsuspend.</p></li> 
+  </ol> 
+  <h3 id="terminate_a_process_instances">Terminate a process instances</h3> 
+  <p></p> 
+  <p>If an operation of a process instance has stalled or encountered some other error condition, or if you need to force a process instance to stop running, you can terminate the process instance.</p> 
+  <p>You can terminate process instances that have any status. </p> 
+  <p>When you terminate a process instance, its status changes to TERMINATING, then TERMINATED, and the process stops at its current operation. No further operations are run, and all associated operations and tasks are terminated. </p> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; Forms workflow &amp;gt; Forms workflow.</p></li> 
+   <li><p>On the Process Instance page, select the process and click Terminate.</p></li> 
+  </ol> 
+  <h2 id="working_with_process_instance_details">Working with process instance details</h2> 
+  <p></p> 
+  <p>The Process Instance Detail page shows the history of a process instance. </p> 
+  <p>The Summary area shows basic information about the process instance.</p> 
+  <p>On the Operations tab, each operation for the process instance is shown in order of completion from first to last with the following information:</p> 
+  <p><strong>Operation Name:</strong> The name of the operation, as defined in Workbench.</p> 
+  <p><strong>Status:</strong> Indicates whether the operation is running normally or has stopped. (See About process instance statuses.)</p> 
+  <p><strong>Branch Name:</strong> The name of the branch, as defined in Workbench.</p> 
+  <p><strong>Start Date:</strong> The date and time the operation started.</p> 
+  <p><strong>Completed Date:</strong> The date and time the operation completed.</p> 
+  <p>A subprocess is a process instance that is started by another process and runs independently of that other process. Subprocesses are displayed only if they were designed as part of the process in Workbench. On the Subprocesses tab, each subprocess is shown with the following information: </p> 
+  <p><strong>Process ID:</strong> This positive integer that forms workflow assigns when the process is instantiated (that is, when a user or an automated step initiates the process). You can use this identifier to track the process instance through its lifecycle.</p> 
+  <p><strong>Process Name - Version:</strong> The name of the process, as defined in Designer.</p> 
+  <p><strong>Status:</strong> Indicates whether the process instance is running normally, changing state, or stopped. (See About process instance statuses.)</p> 
+  <p><strong>Creation Date:</strong> The date and time the subprocess was created.</p> 
+  <p><strong>Update Date:</strong> The date and time the status of the subprocess was last changed.</p> 
+  <p>You can do the following tasks on the Process Instance Detail page:</p> 
+  <ul> 
+   <li><p>Select an operation to view details about it. When you select an operation, the Operation Detail page appears.</p></li> 
+   <li><p>Select a subprocess to view details about it. When you select a subprocess, the Process Instance Detail page appears.</p></li> 
+   <li><p>Terminate or retry operations or subprocesses, depending on their status. </p></li> 
+  </ul> 
+  <h3 id="about_operation_statuses">About operation statuses</h3> 
+  <p></p> 
+  <p>An operation (a step in a process) can have the following statuses:</p> 
+  <p><strong>COMPLETE:</strong> The operation completed.</p> 
+  <p><strong>RUNNING:</strong> The operation is running normally. It may be receiving user input or waiting for user interaction, or an automated step may be underway.</p> 
+  <p><strong>STALLED:</strong> A problem occurred while the operation was being processed. Check for the error or exception in the Stalled Operations page.</p> 
+  <p><strong>TERMINATED:</strong> The operation was terminated by an administrator.</p> 
+  <h3 id="terminate_operations_or_subprocesses">Terminate operations or subprocesses</h3> 
+  <p></p> 
+  <p>If an operation or subprocess has stalled or encountered some other error condition, or if you need to force an operation or subprocess to stop running, you can terminate it.</p> 
+  <p>You can terminate an operation that is RUNNING. </p> 
+  <p>When you terminate an operation, its status changes to TERMINATED. The operation does not complete and the process instance stops running.</p> 
+  <p>You can terminate a subprocess that has any status. </p> 
+  <p>When you terminate a subprocess, its status changes to TERMINATING, then TERMINATED, and the process instance stops at its current operations. No further operations are run in the subprocess, although the parent process instance continues to run.</p> 
+  <p>You cannot terminate processes that have gateway elements in the process diagram. If you attempt to terminate these types of processes, the operations within the gateway elements are not affected. To terminate operations that are within a gateway element, you must terminate the operations directly. </p> 
+  <ol> 
+   <li><p>On the Process Instance Details page, click the Operations tab or the Subprocesses tab. </p></li> 
+   <li><p>Select the operation or subprocess and click Terminate.</p></li> 
+  </ol> 
+  <h3 id="retry_an_operation">Retry an operation</h3> 
+  <p></p> 
+  <p>You can retry operation that has a status of STALLED. </p> 
+  <p>When you retry an operation, Forms workflow is sent a request to restart the operation. If the request is successful, the status changes to RUNNING. If the operation cannot be restarted, it remains STALLED, and you may need to terminate it.</p> 
+  <ol> 
+   <li><p>On the Process Instance Details page, click the Operations tab.</p></li> 
+   <li><p>Select the operation and click Retry.</p></li> 
+  </ol> 
+  <h2 id="working_with_operations">Working with operations</h2> 
+  <p></p> 
+  <p>The Operation Details page shows a summary of one operation in a process and its current user assignments. </p> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; Forms workflow &amp;gt; Forms workflow. </p></li> 
+   <li><p>Click a process name to display its process instances. Click a process instance to display the Process Instance Details page, then select an operation to display the Operation Detail page.</p><p>For each task, the list shows the following information:</p><p><strong>Process Name - Version:</strong> The name of the process, as defined in Workbench.</p><p><strong>Application:</strong> The application that the process belongs to, as defined in Workbench.</p><p><strong>Status:</strong> Active means that the process is the one activated for the process version. Inactive means that the process is an old version that still has process instances.</p><p><strong>Creation Date:</strong> The date and time the process was deployed.</p></li> 
+  </ol> 
+ </body> 
+</html>

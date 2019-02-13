@@ -1,0 +1,407 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="Deploying Communities" name="seoTitle" /> 
+  <meta content="2018-12-05T01:48:43.622-0500" name="cq:lastReplicated" /> 
+  <meta content="/content/help/en/experience-manager/6-4/communities/morehelp/deploying;/content/help/en/experience-manager/6-4/communities/morehelp/deploying" name="moreHelpPaths" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/communities/using/deploy-communities.html" name="publishExternalURL" /> 
+  <meta content="How to deploy AEM Communities" name="seoDescription" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES" name="primaryProductTag" /> 
+  <meta content="2017-10-31T16:33:52.185-0400" name="firstPublishExternalDate" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2018-12-17T06:04:24.973-0500" name="cq:lastModified" /> 
+  <meta content="msm-service" name="contentOwner" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2018-12-17T06:04:24.972-0500" name="locHandOffDate" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="55d4f380-6f0e-4293-a670-6f758417de1d" name="jcr:uuid" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="2017-12-07T19:01:03.012-0500" name="jcr:created" /> 
+  <meta content="Deploying Communities" name="navTitle" /> 
+  <meta content="mgulati@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
+  <meta content="5b6ff481-aae5-4c73-bae3-61533795dcf0" name="jcr:predecessors" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/COMMUNITIES;content_type:reference;topic_tags:deploying" name="cq:tags" /> 
+  <meta content="Deploying Communities" name="jcr:title" /> 
+  <meta content="2018-12-05T01:48:43.538-0500" name="lastPublishExternalDate" /> 
+  <meta content="2018-12-05T01:48:43.538-0500" name="topicBrowsingSortDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="mgulati" name="cq:lastModifiedBy" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="/content/docs/en/aem/6-3/deploy/communities" name="qaNotes" /> 
+  <meta content="2018-12-05T01:48:43.538-0500" name="publishExternalDate" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="mgulati" name="cq:lastReplicatedBy" /> 
+ </head> 
+ <body> 
+  <h2>Prerequisites</h2> 
+  <ul> 
+   <li><a href="../../sites/deploying/using/deploy.md">AEM 6.4 Platform</a><br /> </li> 
+  </ul> 
+  <ul> 
+   <li>AEM Communities license</li> 
+  </ul> 
+  <ul> 
+   <li> Optional licenses for : 
+    <ul> 
+     <li><a href="../../communities/using/analytics.md" target="_blank">Adobe Analytics for Communities features</a></li> 
+     <li><a href="../../communities/using/msrp.md" target="_blank">MongoDB for MSRP</a></li> 
+     <li><a href="../../communities/using/asrp.md" target="_blank">Adobe Cloud for ASRP</a></li> 
+    </ul> </li> 
+  </ul> 
+  <h2>Installation Checklist</h2> 
+  <p><strong>For the <a href="../../sites/deploying/using/deploy.md#whatisaem">AEM platform</a></strong></p> 
+  <ul> 
+   <li>install latest <a href="#aem64updates">AEM 6.4 Updates</a><br /><br /> </li> 
+   <li>if not using the default ports (4502, 4503), then <a href="#replicationagentsonauthor">configure replication agents</a></li> 
+   <li><a href="#replicatethecryptokey">replicate the crypto key</a></li> 
+   <li>if supporting globalization, <a href="../../sites/administering/using/translation.md">setup automated translation</a><br /><br /> (sample setup is provided for development)</li> 
+  </ul> 
+  <p><strong>For the <a href="../../communities/using/overview.md">Communities capability</a></strong></p> 
+  <ul> 
+   <li>if deploying a <a href="../../sites/deploying/using/recommended-deploys.md#tarmkfarm">publish farm</a>, <a href="#primarypublisher">identify the primary publisher</a></li> 
+   <li><a href="#tunnelserviceonauthor">enable the tunnel service</a></li> 
+   <li><a href="../../communities/using/social-login.md#adobegraniteoauthauthenticationhandler">enable social login</a></li> 
+   <li><a href="../../communities/using/analytics.md">configure Adobe Analytics</a></li> 
+   <li>setup a <a href="../../communities/using/email.md">default email service</a></li> 
+   <li>identify the choice for <a href="../../communities/using/working-with-srp.md">shared UGC storage</a> (<strong>SRP</strong>) 
+    <ul> 
+     <li>if MongoDB SRP <a href="../../communities/using/msrp.md">(MSRP)</a> 
+      <ul> 
+       <li><a href="../../communities/using/msrp.md#mongodbconfiguration">install and configure MongoDB</a></li> 
+       <li><a href="../../communities/using/solr.md">configure Solr</a></li> 
+       <li><a href="../../communities/using/srp-config.md">select MSRP</a></li> 
+      </ul> </li> 
+     <li>if relational database SRP <a href="../../communities/using/dsrp.md">(DSRP)</a> 
+      <ul> 
+       <li><a href="#jdbcdriverformysql">install the JDBC driver for MySQL</a></li> 
+       <li><a href="../../communities/using/dsrp-mysql.md">install and configure MySQL for DSRP</a></li> 
+       <li><a href="../../communities/using/solr.md">configure Solr</a></li> 
+       <li><a href="../../communities/using/srp-config.md">select DSRP</a></li> 
+      </ul> </li> 
+     <li>if Adobe SRP <a href="../../communities/using/asrp.md">(ASRP)</a> 
+      <ul> 
+       <li>work with your account representative for provisioning</li> 
+       <li><a href="../../communities/using/srp-config.md">select ASRP</a></li> 
+      </ul> </li> 
+     <li>if JCR SRP <a href="../../communities/using/jsrp.md">(JSRP)</a> 
+      <ul> 
+       <li>not a shared UGC store : 
+        <ul> 
+         <li>UGC is never replicated</li> 
+         <li>UGC only visible on AEM instance or cluster in which it was entered</li> 
+        </ul> </li> 
+       <li>default is JSRP</li> 
+      </ul> </li> 
+    </ul>  
+    <ul> 
+     <li><a href="../../communities/using/ffmpeg.md">install and configure FFmpeg</a></li> 
+     <li><a href="#jdbcdriverformysql">install the JDBC driver for MySQL</a></li> 
+     <li><a href="#scormpackage">install AEM Communities SCORM-Engine</a></li> 
+     <li><a href="../../communities/using/mysql.md">install and configure MySQL for enablement</a></li> 
+    </ul> </li> 
+  </ul> 
+  <h2>Latest Releases</h2> 
+  <p>AEM 6.4 Communities GA ships with Communities package. To know about updates to AEM 6.4 <a href="../../release-notes.md#experiencemanagercommunities" target="_blank">Communities</a>, refer <a href="../../release-notes.md#releaseinformation" target="_blank">AEM 6.4 Release Notes</a>.</p> 
+  <h3>AEM 6.4 Updates</h3> 
+  <p>Starting in AEM 6.3, updates to Communities are delivered as part of AEM Cumulative Fix Packs and Service Packs. </p> 
+  <p>For the latest updates to AEM 6.4, be sure to check <a href="/content/help/en/experience-manager/aem-releases-updates" target="_blank">Adobe Experience Manager 6.4 Cumulative Fix Packs and Service Packs</a>.</p> 
+  <h3>Version History</h3> 
+  <p>As on AEM 6.4 and beyond, AEM Communities features and hotfixes are part of AEM Communities cumulative fix packs and service packs. There are, therefore, no separate feature packs. </p> 
+  <h3>JDBC driver for MySQL</h3> 
+  <p>Two Communities features use a MySQL database :</p> 
+  <ul> 
+   <li>for <a href="../../communities/using/enablement.md" target="_blank">enablement</a> : recording SCORM activities and learners</li> 
+   <li>for <a href="../../communities/using/dsrp.md" target="_blank">DSRP</a> : storing user generated content (UGC)</li> 
+  </ul> 
+  <p>The MySQL connector must be obtained and installed separately.</p> 
+  <p>The necessary steps are :</p> 
+  <ol> 
+   <li>download the ZIP archive from <a href="https://dev.mysql.com/downloads/connector/j/" target="_blank">https://dev.mysql.com/downloads/connector/j/</a> 
+    <ul> 
+     <li>version must be &amp;gt;= 5.1.38</li> 
+    </ul> </li> 
+   <li>extract mysql-connector-java-&amp;lt;version&amp;gt;-bin.jar (bundle) from the archive</li> 
+   <li>use the web console to install and start the bundle : 
+    <ul> 
+     <li>for example, http://localhost:4502/system/console/bundles</li> 
+     <li>select <strong><span class="code">Install/Update</span></strong></li> 
+     <li>Browse... to select the bundle extracted from the downloaded ZIP archive</li> 
+     <li>check that<em> Oracle Corporation's JDBC Driver for MySQLcom.mysql.jdbc</em> is active, and start it if not (or check the logs)</li> 
+    </ul> </li> 
+   <li>if installing on an existing deployment after JDBC has been configured, then rebind JDBC to the new connector by resaving the JDBC configuration from the web console : 
+    <ul> 
+     <li>for example, http://localhost:4502/system/console/configMgr</li> 
+     <li>locate <span class="code">Day Commons JDBC Connections Pool</span> configuration</li> 
+     <li>select to open</li> 
+     <li>select <span class="code">Save</span></li> 
+    </ul> </li> 
+   <li>repeat steps 3 and 4 on all author and publish instances</li> 
+  </ol> 
+  <p>Further information on installing bundles is found on the <a href="../../sites/deploying/using/configuring-web-console.md#bundles" target="_blank">Web Console</a> page.</p> 
+  <h4>Example : Installed MySQL Connector Bundle</h4> 
+  <img imageRotate="0" src="assets/chlimage_1-410.png" /> 
+  <h3>SCORM Package</h3>  
+  <p>Shareable Content Object Reference Model (SCORM) is a collection of standards and specifications for e-learning. SCORM also defines how content may be packaged into a transferable ZIP file.</p> 
+  <p>The AEM Communities SCORM engine is required for the <a href="../../communities/using/overview.md#enablementcommunity" target="_blank">enablement</a> feature. Scorm packages supported on AEM Communities 6.4 version are:</p> 
+  <ul> 
+   <li><strong><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/social/scorm/cq-social-scorm-pkg" target="_blank"> 
+      <g class="gr_ gr_9 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling" data-gr-id="9" id="9">
+        cq 
+      </g>-social- 
+      <g class="gr_ gr_10 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling" data-gr-id="10" id="10">
+        scorm 
+      </g>-package, version 1.2.11</a></strong>. This SCORM package is supported by all AEM 6.4 Communities versions.</li> 
+  </ul> 
+  <ul> 
+   <li><strong><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/social/scorm/cq-social-scorm-2017-pkg" target="_blank"> 
+      <g class="gr_ gr_8 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling" data-gr-id="8" id="8">
+        cq 
+      </g>-social- 
+      <g class="gr_ gr_9 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling" data-gr-id="9" id="9">
+        scorm 
+      </g>-package, version 2.2.2</a> </strong>includes<strong> </strong><a href="https://rusticisoftware.com/blog/scorm-engine-2017-released/" target="_blank">SCORM 2017.1</a><strong> </strong>engine. This SCORM package is supported AEM 6.4.2.x Communities onwards.</li> 
+  </ul> 
+  <p>For a new installation of SCORM engine, the package containing <a href="https://rusticisoftware.com/blog/scorm-engine-2017-released/" target="_blank">SCORM 2017.1</a> (which is <a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/social/scorm/cq-social-scorm-2017-pkg" style="font-weight: bold;" target="_blank"> 
+    <g class="gr_ gr_10 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling" data-gr-id="10" id="10">
+      cq 
+    </g>-social- 
+    <g class="gr_ gr_11 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling" data-gr-id="11" id="11">
+      scorm 
+    </g>-package, version 2.2.2</a>) should be used. So that you are able to play learning resources supported by SCORM 2017.</p> 
+  <details> 
+   <summary>To install a SCORM package for the first time</summary> 
+   <ol> 
+    <li><p>Install the <strong><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/social/scorm/cq-social-scorm-2017-pkg" target="_blank">cq-social-scorm-package, version 2.2.2</a>.</strong></p> </li> 
+    <li><p>Download <strong><span class="code">/libs/social/config/scorm/database_scormengine_data.sql</span></strong> from cq instance and execute it in mysql server to create an upgraded scormEngineDB schema.</p> </li> 
+    <li><p>Add <span class="code">/content/communities/scorm/RecordResults</span> in Excluded Paths property in CSRF filter from <strong>http://&amp;lt;hostname&amp;gt;:&amp;lt;port&amp;gt;/system/console/configMgr</strong> on publishers.</p> </li> 
+   </ol> 
+  </details> 
+  <p>Existing SCORM installations can be upgraded to <a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/social/scorm/cq-social-scorm-2017-pkg" target="_blank"><strong>cq-social-scorm-package, version 2.2.2</strong></a> (which uses <a href="https://rusticisoftware.com/blog/scorm-engine-2017-released/" target="_blank">SCORM 2017.1</a>), if the authored course content requires SCORM 2017.1.</p> 
+  <note> 
+   <p>Upgrading to SCORM 2017.1 package requires migration of the existing database (as explained further).</p> 
+  </note> 
+  <details> 
+   <summary>To upgrade version of your SCORM engine</summary> 
+   <ol> 
+    <li><p>Take a back up of ScormEngineDB schema.</p> </li> 
+    <li><p>Install the <strong><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq640/social/scorm/cq-social-scorm-2017-pkg" target="_blank">cq-social-scorm-package, version 2.2.2</a>.</strong></p> </li> 
+    <li><p>Download the package from <span class="code">/libs/social/config/scorm/ScormEngine.zip </span>and extract the same.</p> </li> 
+    <li><p>Go to <strong>Installer</strong> folder of the extracted directory.</p> </li> 
+    <li><p>Update <strong>SystemDatabaseConnectionString</strong> with your 
+      <g class="gr_ gr_3 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="3" id="3">
+        scorm 
+      </g> 
+      <g class="gr_ gr_4 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="4" id="4">
+        db 
+      </g> connection 
+      <g class="gr_ gr_5 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="5" id="5">
+        url 
+      </g> in file <strong>EngineInstall.xml</strong>.<br /> </p> </li> 
+    <li><p>Run mysql schema upgrade tool in Installer folder with the command:</p>  </li> 
+    <li><p>Monitor <span class="code">engine_upgrade.log</span> file for any kind of error and schema upgrade status.</p> </li> 
+    <li><p>Add <span class="code">/content/communities/scorm/RecordResults</span> in<strong> Excluded Paths</strong> property in CSRF filter from <span class="code">http://&amp;lt;hostname&amp;gt;:&amp;lt;port&amp;gt;/system/console/configMgr</span> on publishers.</p> </li> 
+   </ol> 
+  </details> 
+  <h4>SCORM Logging</h4> 
+  <p>As installed, all enablement activity is verbosely logged to the system console.</p> 
+  <p>If desired, the log level can be set to WARN for the <span class="code">RusticiSoftware.*</span> package.</p> 
+  <p>For working with logs, see <a href="../../sites/deploying/using/monitoring-and-maintaining.md#workingwithauditrecordsandlogfiles" target="_blank">Working with Audit Records and Log Files</a>.<br /> </p> 
+  <h3>AEM Advanced MLS</h3> 
+  <p>For the SRP collection (MSRP or DSRP) to support advanced multilingual search (MLS), new Solr plug-ins are required in addition to a custom schema and Solr configuration. All required items are packaged into a downloadable zip file.</p> 
+  <p>The advanced MLS download (also known as 'phasetwo') is available from the Adobe repository :</p> 
+  <ul> 
+   <li><a href="https://repo.adobe.com/nexus/content/repositories/releases/com/adobe/tat/AEM-SOLR-MLS-phasetwo/1.2.40/" target="_blank">AEM-SOLR-MLS-phasetwo</a> 
+    <ul> 
+     <li>version 1.2.40, April 6, 2016</li> 
+     <li>download AEM-SOLR-MLS-phasetwo-1.2.40.zip</li> 
+    </ul> </li> 
+  </ul> 
+  <p>For details and installation information, visit <a href="../../communities/using/solr.md" target="_blank">Solr Configuration</a> for SRP.</p> 
+  <h3>About Links to Package Share</h3> 
+  <p><strong>Packages Visible in Adobe AEM Cloud</strong></p> 
+  <p>The links to packages on this page require no running instance of AEM as they are to package share on <span class="code">adobeaemcloud.com</span>. While the packages are viewable, the <span class="code">Install </span>button is for installing the packages into an Adobe hosted site. If intending to install on a local AEM instance, selecting <span class="code">Install </span>will result in an error.</p> 
+  <p><strong>How to Install on Local AEM Instance</strong></p> 
+  <p>To install the packages visible in <span class="code">adobeaemcloud.com</span> on a local AEM instance, the package must first be downloaded to a local disk :</p> 
+  <ul> 
+   <li>select the <strong>Assets</strong> tab</li> 
+   <li>select <strong>download to disk</strong></li> 
+  </ul> 
+  <p>On the local AEM instance, use package manager (for example <a href="http://localhost:4502/crx/packmgr/">http://localhost:4502/crx/packmgr/</a>), to upload to the local AEM's package repository.</p> 
+  <p>Alternatively, accessing the package using package share from the local AEM instance (for example,<a href="http://localhost:4502/crx/packageshare/">http://localhost:4502/crx/packageshare/</a>), the <span class="code">Download </span>button will download to the local AEM instance's package repository.</p> 
+  <p>Once in the local AEM instance's package repository, use package manager to install the package.</p> 
+  <p>For more information, visit <a href="../../sites/administering/using/package-manager.md#packageshare">How to Work With Packages</a>.</p> 
+  <h2>Recommended Deployments</h2> 
+  <p>In AEM Communities, a common store is used to store user generated content (UGC) and is often referred to as the <a href="../../communities/using/working-with-srp.md">storage resource provider (SRP)</a>. The recommended deployment centers on choosing an SRP option for the common store. </p> 
+  <p>The common store supports moderation of, and analytics on, UGC in the publish environment while eliminating the need for <a href="../../communities/using/sync.md">replication</a> of UGC.</p> 
+  <ul> 
+   <li><a href="../../communities/using/working-with-srp.md">Community Content Store</a> : discusses the SRP storage options for AEM communities</li> 
+  </ul> 
+  <ul> 
+   <li><a href="../../communities/using/topologies.md">Recommended Topologies</a> : discusses the topology to use depending on use case and SRP choice</li> 
+  </ul> 
+  <h2>Upgrading</h2> 
+  <p>When upgrading to the AEM 6.4 platform from previous versions of AEM, it is important to read Upgrading to AEM 6.4.</p> 
+  <p>In addition to upgrading the platform, read <a href="../../communities/using/upgrade.md" target="_blank">Upgrading to AEM Communities 6.4</a> to learn about Communities changes.</p> 
+  <h2>Configurations</h2> 
+  <h3>Primary Publisher</h3> 
+  <p>When the deployment chosen is a <a href="../../communities/using/topologies.md#tarmkpublishfarm">publish farm</a>, then one AEM publish instance must be identified as the <strong><span class="code">primary publisher</span></strong> for activities which should not occur on all instances, such as features that rely on <strong>notifications </strong>or <strong>Adobe Analytics</strong>.</p> 
+  <p>By default, the <span class="code">AEM Communities Publisher Configuration</span> OSGi configuration is configured with the <strong><span class="code">Primary Publisher</span></strong> checkbox checked, such that all publish instances in a publish farm would self-identify as the primary. </p> 
+  <p>Therefore, it is necessary to <strong>edit the configuration on all secondary publish instances</strong> to <u>uncheck </u>the <strong><span class="code">Primary Publisher</span></strong> checkbox.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-411.png" /> 
+  <p>For all other (secondary) publish instances in a publish farm :</p> 
+  <ul> 
+   <li>sign in with administrator privileges</li> 
+   <li>access the <a href="../../sites/deploying/using/configuring-osgi.md">web console</a> 
+    <ul> 
+     <li>for example, <a href="http://localhost:4503/system/console/configMgr">http://localhost:4503/system/console/configMgr</a></li> 
+    </ul> </li> 
+   <li>locate the <span class="code">AEM Communities Publisher Configuration</span></li> 
+   <li>select the edit icon</li> 
+   <li>uncheck the <strong>Primary Publisher</strong> box</li> 
+   <li>select <strong>Save</strong></li> 
+  </ul> 
+  <h3>Replication Agents on Author</h3> 
+  <p>Replication is used for site content created in the publish environment, such as community groups, as well as managing members and member groups from the author environment using the <a href="#tunnelserviceonauthor">tunnel service</a>.</p> 
+  <p>For the primary publisher, ensure the <a href="../../sites/deploying/using/replication.md">Replication Agent Config</a> correctly identifies the publish server and authorized user. The default authorized user, <span class="code">admin,</span> already has the appropriate permissions (is a member of <span class="code">Communities Administrators</span>).</p> 
+  <p>In order for some other user to have the appropriate permissions, they must be added as a member to the <span class="code">administrators</span> user group (also a member of <span class="code">Communities Administrators</span>).</p> 
+  <p>There are two replication agents in the author environment that need the transport configuration to be correctly configured. </p> 
+  <ul> 
+   <li>access the Replication console on author 
+    <ul> 
+     <li>from global navigation : <strong>Tools, Deployment, Replication, <u>Agents on author</u></strong></li> 
+    </ul> </li> 
+   <li>follow the same procecure for both agents : 
+    <ul> 
+     <li><strong>Default Agent (publish) </strong></li> 
+     <li><strong>Reverse Replication Agent (publish reverse)</strong> 
+      <ol> 
+       <li>select the agent</li> 
+       <li>select <strong>edit</strong></li> 
+       <li>select the <strong>Transport</strong> tab</li> 
+       <li>if not port <span class="code">4503</span>, edit the <strong>URI</strong> to specify the correct port</li> 
+       <li>if not user <span class="code">admin</span>, edit the <strong>User</strong> and <strong>Password</strong> to specify a member of the <span class="code">administrators</span> user group</li> 
+      </ol> </li> 
+    </ul> </li> 
+  </ul> 
+  <p>The following images show the results of changing the port from 4503 to 6103 by :</p> 
+  <h4>Default Agent (publish)</h4> 
+  <img imageRotate="0" src="assets/chlimage_1-412.png" /> 
+  <h4>Reverse Replication Agent (publish reverse)</h4> 
+  <img imageRotate="0" src="assets/chlimage_1-413.png" /> 
+  <h3>Tunnel Service on Author</h3> 
+  <p>When using the author environment to <a href="../../communities/using/sites-console.md">create sites</a>, <a href="../../communities/using/sites-console.md#modifyingsiteproperties">modify site properties</a> or <a href="../../communities/using/members.md">manage community members</a>, it is necessary to access members (users) registered in the publish environment, not users registered on author.</p> 
+  <p>The tunnel service provides this access using the replication agent on author.</p> 
+  <p>To enable the tunnel service :</p> 
+  <ul> 
+   <li>on <strong>author</strong></li> 
+   <li>sign in with administrative privileges</li> 
+   <li>if publisher is not localhost:4503 or transport user is not <span class="code">admin</span>,<br /> then <a href="#replicationagentsonauthor">configure the replication agent</a></li> 
+   <li>access the <a href="../../sites/deploying/using/configuring-osgi.md">Web Console</a> 
+    <ul> 
+     <li>for example, <a href="http://localhost:4502/system/console/configMgr">http://localhost:4502/system/console/configMgr</a></li> 
+    </ul> </li> 
+   <li>locate the <span class="code">AEM Communities Publish Tunnel Service</span></li> 
+   <li>select the edit icon</li> 
+   <li>check the <strong>enable </strong>box</li> 
+   <li>select <strong>Save</strong></li> 
+  </ul> 
+  <img imageRotate="0" src="assets/chlimage_1-414.png" /> 
+  <h3>Replicate the Crypto Key</h3> 
+  <p>There are two features of AEM Communities that require all AEM server instances to use the same encryption keys. These are <a href="../../communities/using/analytics.md">Analytics</a> and <a href="../../communities/using/asrp.md">ASRP</a>.</p> 
+  <p>As of AEM 6.3, the key material is stored in the file system and no longer in the repository.</p> 
+  <p>In order to copy the key material from author to all other instances, it is necessary to :</p> 
+  <ul> 
+   <li>access the AEM instance, typically an author instance, that contains the key material to copy 
+    <ul> 
+     <li>locate the <span class="code">com.adobe.granite.crypto.file</span> bundle in the local file system<br /> for example, 
+      <ul> 
+       <li><span class="code">&amp;lt;author-aem-install-dir&amp;gt;/crx-quickstart/launchpad/felix/bundle21</span></li> 
+       <li>the <span class="code">bundle.info</span> file will identify the bundle</li> 
+      </ul> </li> 
+     <li>navigate into the data folder<br /> for example, 
+      <ul> 
+       <li><span class="code">&amp;lt;author-aem-install-dir&amp;gt;/crx-quickstart/launchpad/felix/bundle21/data</span></li> 
+      </ul> </li> 
+     <li>copy the hmac and master files</li> 
+    </ul> </li> 
+   <li>for each target AEM instance 
+    <ul> 
+     <li>navigate into the data folder<br /> for example, 
+      <ul> 
+       <li><span class="code">&amp;lt;publish-aem-install-dir&amp;gt;/crx-quickstart/launchpad/felix/bundle21/data</span></li> 
+      </ul> </li> 
+     <li>paste the 2 files previously copied</li> 
+     <li>it is necessary to <a href="#refreshthegranitecryptobundle">refresh the Granite Crypto bundle</a> if the target AEM instance is currently running</li> 
+    </ul> </li> 
+  </ul> 
+  <note> 
+   <p>If another security feature has already been configured that is based on the crypto keys, then replicating the crypto keys could damage the configuration. For assistance, <a href="https://helpx.adobe.com/marketing-cloud/contact-support.html">contact customer care</a>.</p> 
+  </note> 
+  <h4>Repository Replication</h4> 
+  <p>Having the key material stored in the repository, as was the case for AEM 6.2 and earlier, can be preserved by specifying the following system property on <u>first</u> startup of each AEM instance (which creates the initial repository) :</p> 
+  <ul> 
+   <li><span class="code">-Dcom.adobe.granite.crypto.file.disable=true</span></li> 
+  </ul> 
+  <note> 
+   <p>It is important to verify that the <a href="#replicationagentsonauthor">replication agent on author</a> is correctly configured.</p> 
+  </note> 
+  <p>With the key material stored in the repository, the manner for replicating the crypto key from author to other instances is as follows :</p> 
+  <p> Using <a href="../../sites/developing/using/developing-with-crxde-lite.md">CRXDE Lite</a> :</p> 
+  <ul> 
+   <li>browse to <a href="http://localhost:4502/crx/de">http://&amp;lt;server&amp;gt;:&amp;lt;port&amp;gt;/crx/de</a></li> 
+   <li>select <span class="code">/etc/key</span></li> 
+   <li>open <span class="code">Replication</span> tab</li> 
+   <li>select <span class="code">Replicate</span></li> 
+  </ul> 
+  <ul> 
+   <li><a href="#refreshthegranitecryptobundle">refresh the Granite Crypto bundle</a></li> 
+  </ul> 
+  <img imageRotate="0" src="assets/chlimage_1-415.png" /> 
+  <h4>Refresh the Granite Crypto Bundle</h4> 
+  <ul> 
+   <li>on each publish instance, access the <a href="../../sites/deploying/using/configuring-osgi.md">Web Console</a> 
+    <ul> 
+     <li>for example, <a href="http://localhost:4503/system/console/bundles">http://&amp;lt;server&amp;gt;:&amp;lt;port&amp;gt;/system/console/bundles</a></li> 
+    </ul> </li> 
+   <li>locate <span class="code">Adobe Granite Crypto Support</span> bundle (com.adobe.granite.crypto)</li> 
+   <li>select <strong>Refresh</strong></li> 
+  </ul> 
+  <img imageRotate="0" src="assets/chlimage_1-416.png" /> 
+  <ul> 
+   <li>after a moment, a <strong>Success </strong>dialog should appear :<br /> <span class="code">Operation completed successfully.</span></li> 
+  </ul> 
+  <h3>Apache HTTP Server</h3> 
+  <p>If using the Apache HTTP server, ensure that you use the correct server name for all relevant entries.</p> 
+  <p>In particular, be careful to use the correct server name, not <span class="code">localhost</span>, in the <span class="code">RedirectMatch</span>. </p> 
+  <h4>httpd.conf sample</h4> 
+  <codeblock gutter="true" class="syntax shell">
+    &lt;IfModule&amp;nbsp;alias_module&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;#&amp;nbsp;XAMPP&amp;nbsp;does&amp;nbsp;not&amp;nbsp;have&amp;nbsp;a&amp;nbsp;favicon;&amp;nbsp;this&amp;nbsp;prevents&amp;nbsp;any&amp;nbsp;404&amp;nbsp;errors&amp;nbsp;which&amp;nbsp;may&amp;nbsp;arise.!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Redirect&amp;nbsp;404&amp;nbsp;/favicon.ico!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;Location&amp;nbsp;/favicon.ico&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;ErrorDocument&amp;nbsp;404&amp;nbsp;"No&amp;nbsp;favicon"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/Location&gt;!!discoiqbr!!!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;#&amp;nbsp;Return&amp;nbsp;from&amp;nbsp;"Sign&amp;nbsp;Out"&amp;nbsp;generates&amp;nbsp;response&amp;nbsp;header&amp;nbsp;directing&amp;nbsp;you&amp;nbsp;to&amp;nbsp;"/",&amp;nbsp;generating&amp;nbsp;a&amp;nbsp;404&amp;nbsp;error!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;#&amp;nbsp;The&amp;nbsp;RedirectMatch&amp;nbsp;resolves&amp;nbsp;it&amp;nbsp;correctly&amp;nbsp;when&amp;nbsp;modified&amp;nbsp;for&amp;nbsp;the&amp;nbsp;target&amp;nbsp;Community&amp;nbsp;Site&amp;nbsp;:!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;RedirectMatch&amp;nbsp;^/$&amp;nbsp;http://[server&amp;nbsp;name]/content/sites/engage/en.html!!discoiqbr!!&amp;nbsp;...!!discoiqbr!!&amp;nbsp;&lt;/IfModule&gt; 
+  </codeblock> 
+  <h3>Dispatcher</h3> 
+  <p>If using a Dispatcher, see :</p> 
+  <ul> 
+   <li>AEM's <a href="/content/help/en/experience-manager/dispatcher/using/dispatcher">Dispatcher</a> documentation</li> 
+   <li><a href="/content/help/en/experience-manager/dispatcher/using/dispatcher-install">Installing Dispatcher</a></li> 
+   <li><a href="../../communities/using/dispatcher.md">Configuring Dispatcher for Communities</a></li> 
+   <li><a href="../../communities/using/troubleshooting.md#dispatcherrefetchfails">Known Issues</a></li> 
+  </ul>  
+  <h2>Related Communities Documentation</h2> 
+  <ul> 
+   <li>Visit <a href="../../communities/using/administer-landing.md">Administering Communities Sites</a> to learn about creating a community site, configuring community site templates, moderating community content, managing members, and configuring messaging.</li> 
+  </ul> 
+  <ul> 
+   <li>Visit <a href="../../communities/using/communities.md">Developing Communities</a> to learn about the social component framework (SCF) and customizing Communities components and features.</li> 
+  </ul> 
+  <ul> 
+   <li>Visit <a href="../../communities/using/author-communities.md">Authoring Communities Components</a> to learn how to author with and configure Communities components.</li> 
+  </ul> 
+ </body> 
+</html>

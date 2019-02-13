@@ -1,0 +1,195 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="/apps/docsdaycom/templates/standarddocpage" name="Template" /> 
+  <meta content="2018-04-26T10:13:27.628-0400" name="locHandOffDate" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/administering/morehelp/operations;/content/help/en/experience-manager/6-4/sites/administering/morehelp/operations" name="moreHelpPaths" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/data-store-garbage-collection.html" name="publishExternalURL" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="msm-service" name="contentOwner" /> 
+  <meta content="2018-05-22T08:57:28.163-0400" name="cq:lastReplicated" /> 
+  <meta content="utf-8" name="Encoding" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="14.01.2009 16:51:20 [alvawb]" name="CmgrLastModified" /> 
+  <meta content="audience:administering" name="primaryAudienceTag" /> 
+  <meta content="mix:lockable;mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="raiman@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2018-05-22T08:57:28.022-0400" name="topicBrowsingSortDate" /> 
+  <meta content="raiman" name="cq:lastReplicatedBy" /> 
+  <meta content="raiman" name="cq:lastModifiedBy" /> 
+  <meta content="2018-05-22T08:57:28.049-0400" name="cq:lastModified" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="Data Store Garbage Collection" name="navTitle" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="/content/docs/en/aem/6-3/administer/operations/data-store-garbage-collection" name="qaNotes" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2017-10-31T16:25:20.503-0400" name="firstPublishExternalDate" /> 
+  <meta content="Data Store Garbage Collection" name="seoTitle" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="63fca8a7-a735-45e9-9c28-f073fea95254" name="jcr:predecessors" /> 
+  <meta content="0" name="PageVersionID" /> 
+  <meta content="2018-05-22T08:57:28.022-0400" name="lastPublishExternalDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="cf7a23bd-6c21-42d4-aabc-da247f9866c9" name="jcr:uuid" /> 
+  <meta content="Data Store Garbage Collection" name="jcr:title" /> 
+  <meta content="2017-12-01T19:05:41.870-0500" name="jcr:created" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:operations;content_type:reference" name="cq:tags" /> 
+  <meta content="2018-05-22T08:57:28.022-0400" name="publishExternalDate" /> 
+  <meta content="Learn how to configure Data Store Garbage Collection to free up disk space." name="seoDescription" /> 
+ </head> 
+ <body>  
+  <p>When a conventional WCM asset is removed, the reference to the underlying data store record may be removed from the node hierarchy, but the data store record itself remains. This unreferenced data store record then becomes "garbage" that need not be retained. In instances where a number of garbage assets exist, it is beneficial to get rid of them to preserve space and to optimize backup and filesystem maintenance performance.</p> 
+  <p>For the most part, a WCM application tends to collect information but not delete information nearly as often. Although new images are added, even superseding old versions, the version control system still retains the old one and supports reverting to it if needed. Thus the majority of the content we think of as adding to the system is effectively permanently stored. So what is the typical source of "garbage" in the repository that we might want to clean up?</p> 
+  <p>AEM uses the repository as the storage for a number of internal and housekeeping activities:</p> 
+  <ul> 
+   <li>Packages built and downloaded</li> 
+   <li>Temporary files created for publish replication</li> 
+   <li>Workflow payloads</li> 
+   <li>Assets created temporarily during DAM rendering</li> 
+  </ul> 
+  <p>When any of these temporary objects is large enough to require storage in the data store, and when the object eventually passes out of use, the data store record itself remains as "garbage". In a typical WCM author/publish application, the largest source of garbage of this type is commonly the process of publish activation. When data is being replicated to Publish, it if first gathered in collections in an efficient data format called "Durbo" and stored in the repository under <span class="code">/var/replication/data</span>. The data bundles are often larger than the critical size threshold for the data store and therefore wind up stored as data store records. When the replication is complete, the node in <span class="code">/var/replication/data</span> is deleted, but the data store record remains as "garbage".</p> 
+  <p>Another source of recoverable garbage is packages. Package data, like everything else, is stored in the repository and thus for packages which are larger than 4KB, in the data store. In the course of a development project or over time while maintaining a system, packages may be built and rebuilt many times, each build resulting in a new data store record, orphaning the previous build's record.</p> 
+  <h2>How does data store garbage collection work?</h2> 
+  <p>If the repository has been configured with an external data store, <a href="../../../sites/administering/using/data-store-garbage-collection.md#main-pars-title-1">data store garbage collection will run automatically</a> as part of the Weekly Maintenance Window. The system administrator can also <a href="#main-pars-table">run data store garbage collection manually</a> on as as-needed basis. In general, it is recommended that data store garbage collection be performed periodically, but that the following factors be taken into account in planning data store garbage collections:</p> 
+  <ul> 
+   <li>Data store garbage collections take time and may impact performance, so they should be planned accordingly.</li> 
+   <li>Removal of data store garbage records does not affect normal performance, so this is not a performance optimization.</li> 
+   <li>If storage utilization and related factors like backup times are not a concern, then data store garbage collection might be safely deferred.</li> 
+  </ul> 
+  <p>The data store garbage collector first makes a note of the current timestamp when the process begins. The collection is then carried out using a multi-pass mark/sweep pattern algorithm.</p> 
+  <p>In the first phase, the data store garbage collector performs a comprehensive traversal of all of the repository content. For each content object that has a reference to a data store record, it located the file in the filesystem, performing a metadata update -- modifying the "last modified" or MTIME attribute. At this point files that are accessed by this phase become newer than the initial baseline timestamp.</p> 
+  <p>In the second phase, the data store garbage collector traverses the physical directory structure of the data store in much the same way as a "find". It examined the "last modified" or MTIME attribute of the file and makes the following determination:</p> 
+  <ul> 
+   <li>If the MTIME is newer than the initial baseline timestamp, then either the file was found in the first phase, or it is an entirely new file that was added to the repository while the collection process was ongoing. In either of these cases the record is taken to be active and the file shall not be deleted.</li> 
+   <li>If the MTIME is prior to the initial baseline timestamp, then the file is not an actively referenced file and it is considered removable garbage.</li> 
+  </ul> 
+  <p>This approach works well for a single node with a private data store. However the data store may be shared, and if it is this means that potentially active live references to data store records from other repositories are not checked, and active referenced files may be mistakenly removed. It is imperative that the system admin understand the shared nature of the data store before planning any garbage collections, and only use the simple built-in data store garbage collection process when it is known that the data store is not shared.</p> 
+  <note> 
+   <p>When performing garbage collection in a clustered or shared data store setup (with Mongo or Segment Tar) the log might display warnings about the inability to delete certain blob IDs. This happens because blob IDs deleted in a previous garbage collection are incorrectly referenced again by other cluster or shared nodes which do not have information about the ID deletions. As a result, when garbage collection is performed it logs a warning when it tries to delete an ID that has already been deleted in the last run. This behaviour does not affect performance or functionality. </p> 
+  </note> 
+  <h2>Running Data Store Garbage Collection</h2> 
+  <p>There are three ways of running data store garbage collection, depending on the data store setup on which AEM is running:</p> 
+  <ol> 
+   <li>Via <a href="../../../sites/deploying/using/revision-cleanup.md" target="_blank">Revision Cleanup</a> - a garbage collection mechanism usually used for node store cleanup.<br /> </li> 
+   <li>Via <a href="../../../sites/administering/using/data-store-garbage-collection.md#main-pars-title-1737551823">Data Store Garbage Collection</a> - a garbage collection mechanism specific for external data stores, available on the Operations Dashboard.</li> 
+   <li>Via the <a href="../../../sites/administering/using/jmx-console.md" target="_blank">JMX Console</a>.</li> 
+  </ol> 
+  <p>If TarMK is being used as both the node store and data store, then Revision Cleanup can be used for garbage collection of both node store and data store. However if an external data store is configured such as File System Data Store, then data store garbage collection must be explicitly triggered separate from Revision Cleanup. Data store garbage collection can be triggered either via the Operations Dashboard or the JMX Console.</p> 
+  <p>The below table shows the data store garbage collection type that needs to be used for all the supported data store deployments in AEM 6:</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td><strong>Node Store</strong><br /> </td> 
+     <td><strong>Data Store</strong></td> 
+     <td><strong>Garbage Collection Mechanism</strong><br /> </td> 
+    </tr> 
+    <tr> 
+     <td>TarMK</td> 
+     <td>TarMK</td> 
+     <td>Revision Cleanup (binaries are in-lined with Segment Store)</td> 
+    </tr> 
+    <tr> 
+     <td>TarMK</td> 
+     <td>External Filesystem</td> 
+     <td><p>Data Store Garbage Collection task via Operations Dashboard</p> <p>JMX Console</p> </td> 
+    </tr> 
+    <tr> 
+     <td>MongoDB</td> 
+     <td>MongoDB</td> 
+     <td><p>Data Store Garbage Collection task via Operations Dashboard</p> <p>JMX Console</p> </td> 
+    </tr> 
+    <tr> 
+     <td>MongoDB</td> 
+     <td>External Filesystem</td> 
+     <td><p>Data Store Garbage Collection task via Operations Dashboard</p> <p>JMX Console</p> </td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h3>Running Data Store Garbage Collection via the Operations Dashboard</h3> 
+  <p>The built-in Weekly Maintenance Window, available via the <a href="../../../sites/administering/using/operations-dashboard.md">Operations Dashboard</a>, contains a built-in task to trigger the Data Store Garbage Collection at 1 am on Sundays. </p> 
+  <p>If you need to run data store garbage collection outside of this time, it can be triggered manually via the Operations Dashboard.</p> 
+  <p>Before running data store garbage collection you should check that no backups are running at the time.</p> 
+  <ol> 
+   <li><p>Open the Operations Dashboard by <strong>Navigation</strong> -&amp;gt; <strong>Tools</strong> -&amp;gt; <strong>Operations</strong> -&amp;gt; <strong>Maintenance</strong>.</p> </li> 
+   <li><p>Click or tap the <strong>Weekly Maintenance Window</strong>.</p> <img imageRotate="0" src="assets/chlimage_1-128.png" /></li> 
+   <li><p>Select the <strong>Data Store Garbage Collection</strong> task and then click or tap the <strong>Run</strong> icon.</p> <img imageRotate="0" src="assets/chlimage_1-129.png" /></li> 
+   <li><p>Data store garbage collection runs and its status is displayed in the dashboard.</p> <img imageRotate="0" src="assets/chlimage_1-130.png" /></li> 
+  </ol> 
+  <note> 
+   <p>The Data Store Garbage Collection task will only be visible if you have configured an external file data store. See <a href="../../../sites/deploying/using/data-store-config.md#main-pars-title-6">Configuring node stores and data stores in AEM 6</a> for information on how to set up a file data store.</p> 
+  </note> 
+  <h3>Running Data Store Garbage Collection via the JMX Console</h3> 
+  <p>This section is about manually running data store garbage collection via the JMX Console. If your installation is set up without an external data store, then this does not apply to your installation. Instead see the instructions on how to run Revision cleanup under <a href="../../../sites/deploying/using/storage-elements-in-aem-6.md#main-pars-title-4">Maintaining the Repository</a>.</p> 
+  <note> 
+   <p>If you are running TarMK with an external data store, it is required you run Revision Cleanup first in order for garbage collection to be effective.<br /> </p> 
+  </note> 
+  <p>To run garbage collection:</p> 
+  <ol> 
+   <li><p>In the Apache Felix OSGi Management Console, highlight the <strong>Main</strong> tab and select <strong>JMX</strong> from the following menu.</p> </li> 
+   <li><p>Next, search for and click the <strong>Repository Manager</strong> MBean (or go to http://host:port/system/console/jmx/org.apache.jackrabbit.oak%3Aname%3Drepository+manager%2Ctype%3DRepositoryManagement).</p> </li> 
+   <li><p>Click<strong> startDataStoreGC(boolean markOnly)</strong>.</p> </li> 
+   <li><p>enter "<span class="code">true</span>" for the <span class="code">markOnly</span> parameter if required:</p> 
+    <table> 
+     <colgroup> 
+      <col width="75" /> 
+      <col width="525" /> 
+     </colgroup> 
+     <tbody> 
+      <tr> 
+       <td><strong>Option</strong></td> 
+       <td><strong>Description</strong></td> 
+      </tr> 
+      <tr> 
+       <td>boolean markOnly</td> 
+       <td>Set to true to only mark references and not sweep in the mark and sweep operation. This mode is to be used when the underlying BlobStore is shared between multiple different repositories. For all other cases set it to false to perform full garbage collection.</td> 
+      </tr> 
+     </tbody> 
+    </table> </li> 
+   <li><p>Click <strong>Invoke</strong>. CRX runs the garbage collection and indicates when it has completed.<br /> </p> </li> 
+  </ol> 
+  <note> 
+   <p>The data store garbage collection will not collect files that have been deleted in the last 24 hours.</p> 
+  </note> 
+  <note> 
+   <p>The data store garbage colleciton task will only start if you have configured an external file data store. If an external file data store has not been configured, the task will return the message <span class="code">Cannot perform operation: no service of type BlobGCMBean found</span> after invoking. See <a href="../../../sites/deploying/using/data-store-config.md#main-pars-title-6">Configuring node stores and data stores in AEM 6</a> for information on how to set up a file data store.</p> 
+  </note>  
+  <h2>Automating Data Store Garbage Collection</h2> 
+  <p>If possible, data store garbage collection should be run when there is little load on the system, for example in the morning.</p> 
+  <p>The built-in Weekly Maintenance Window, available via the <a href="../../../sites/administering/using/operations-dashboard.md">Operations Dashboard</a>, contains a built-in task to trigger the Data Store Garbage Collection at 1 am on Sundays. You should also check that no backups are running at this time. The start of the maintenance window can be customized via the dashboard as necessary.</p> 
+  <note> 
+   <p>The reason not to run it concurrently is so that old (and unused) data store files are also backed up, so that if it is required to roll back to an old revision, the binaries are still there in the backup.</p> 
+  </note> 
+  <p>If you don't wish to run data store garbage collection with the Weekly Maintenance Window in the Operations Dashboard, it can also be automated using the wget or curl HTTP clients. The following is an example of how to automate backup by using curl:</p> 
+  <note> 
+   <p>In the following example <span class="code">curl</span> commands various parameters might need to be configured for your instance; for example, the hostname (<span class="code">localhost</span>), port (<span class="code">4502</span>), admin password (<span class="code">xyz</span>) and various parameters for the actual data store garbage collection.<br /> </p> 
+  </note> 
+  <p>Here is an example curl command to invoke data store garbage colleciton via the command line:</p> 
+  <codeblock gutter="true" class="syntax shell">
+    curl&amp;nbsp;-u&amp;nbsp;admin:admin&amp;nbsp;-X&amp;nbsp;POST&amp;nbsp;--data&amp;nbsp;markOnly=true&amp;nbsp;&amp;nbsp;http://localhost:4503/system/console/jmx/org.apache.jackrabbit.oak"%"3Aname"%"3Drepository+manager"%"2Ctype"%"3DRepositoryManagement/op/startDataStoreGC/boolean!!discoiqbr!! 
+  </codeblock> 
+  <p>The curl command returns immediately.</p> 
+  <p> </p>    
+  <h2>Checking Data Store Consistency</h2>  
+  <p>The data store consistency check will report any data store binaries that are missing but are still referenced. To start a consistency check, follow these steps:</p> 
+  <ol> 
+   <li><p>Go to the JMX console. For information on how to use the JMX console, see <a href="../../../sites/administering/using/jmx-console.md#usingthejmxconsole">this article</a>.</p> </li> 
+   <li><p>Search for the <strong>BlobGarbageCollection </strong>Mbean and click it.</p> </li> 
+   <li><p>Click the <span class="code">checkConsistency()</span> link.</p> </li> 
+  </ol> 
+  <p>After the consistency check is complete, a message will show the number of binaries reported as missing. If the number is greater than 0, check the <span class="code">error.log</span> for more details on the missing binaries. </p> 
+  <p>Below you will find an example of how the missing binaries are reported in the logs:</p> 
+  <codeblock gutter="true" class="syntax xml">
+    11:32:39.673&amp;nbsp;INFO&amp;nbsp;[main]&amp;nbsp;MarkSweepGarbageCollector.java:600&amp;nbsp;Consistency&amp;nbsp;check&amp;nbsp;found&amp;nbsp;[1]&amp;nbsp;missing&amp;nbsp;blobs 
+  </codeblock> 
+  <codeblock gutter="true" class="syntax xml">
+    11:32:39.673&amp;nbsp;WARN&amp;nbsp;[main]&amp;nbsp;MarkSweepGarbageCollector.java:602&amp;nbsp;Consistency&amp;nbsp;check&amp;nbsp;failure&amp;nbsp;in&amp;nbsp;the&amp;nbsp;the&amp;nbsp;blob&amp;nbsp;store&amp;nbsp;:&amp;nbsp;DataStore&amp;nbsp;backed&amp;nbsp;BlobStore&amp;nbsp;[org.apache.jackrabbit.oak.plugins.blob.datastore.OakFileDataStore],&amp;nbsp;check&amp;nbsp;missing&amp;nbsp;candidates&amp;nbsp;in&amp;nbsp;file&amp;nbsp;/tmp/gcworkdir-1467352959243/gccand-1467352959243 
+  </codeblock> 
+ </body> 
+</html>

@@ -1,0 +1,253 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="/content/docs/en/aem/6-3/develop/mobile-apps/aem-mobile-on-demand/app-templates-and-components1/apps-arch" name="qaNotes" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="User" name="contentOwner" /> 
+  <meta content="Page Templates for Mobile Apps" name="jcr:title" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="Follow this page to learn more about page templates. Page components that you create for your app are based on the /libs/mobileapps/components/angular/ng-page component." name="seoDescription" /> 
+  <meta content="6aabc7dd-2db8-4c9d-824d-1cbaa3a07992" name="jcr:uuid" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2017-10-31T16:26:36.382-0400" name="firstPublishExternalDate" /> 
+  <meta content="2f4ba78c-d568-42ed-8a90-c27f1576fc33" name="jcr:predecessors" /> 
+  <meta content="bohnert@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2018-05-04T05:12:35.002-0400" name="topicBrowsingSortDate" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2018-05-04T05:12:35.002-0400" name="publishExternalDate" /> 
+  <meta content="The Anatomy of an App" name="navTitle" /> 
+  <meta content="2018-05-11T10:01:18.165-0400" name="locHandOffDate" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/MOBILE;topic_tags:developing-on-demand-services-app" name="cq:tags" /> 
+  <meta content="2017-12-13T19:01:41.540-0500" name="jcr:created" /> 
+  <meta content="bohnert" name="cq:lastReplicatedBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/MOBILE" name="primaryProductTag" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/mobile/using/apps-architecture.html" name="publishExternalURL" /> 
+  <meta content="/content/help/en/experience-manager/6-4/mobile/morehelp/developing-on-demand-services-app;/content/help/en/experience-manager/6-4/mobile/morehelp/developing-on-demand-services-app" name="moreHelpPaths" /> 
+  <meta content="2018-05-11T10:01:18.166-0400" name="cq:lastModified" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2018-05-04T05:12:35.002-0400" name="lastPublishExternalDate" /> 
+  <meta content="bohnert" name="cq:lastModifiedBy" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2018-05-04T05:12:35.179-0400" name="cq:lastReplicated" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="Page Templates for Mobile Apps" name="seoTitle" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+ </head> 
+ <body> 
+  <note> 
+   <p>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). <a href="../../sites/developing/using/spa-overview.md">Learn more</a>.</p> 
+  </note> 
+  <h2>Page Templates for Mobile Apps</h2> 
+  <p>Page components that you create for your app are based on the /libs/mobileapps/components/angular/ng-page component (<a href="http://localhost:4502/crx/de/index.jsp#/libs/mobileapps/components/angular/ng-page">open in CRXDE Lite on a local server</a>). This component contains the following JSP scripts that your component either inherits or overrides:</p> 
+  <ul> 
+   <li>ng-page.jsp</li> 
+   <li>head.jsp</li> 
+   <li>body.jsp</li> 
+   <li>angular-app-module.js.jsp</li> 
+   <li>angular-route-fragment.js.jsp</li> 
+   <li>angular-app-controllers.js.jsp</li> 
+   <li>controller.js.jsp</li> 
+   <li>template.jsp</li> 
+   <li>angular-module-list.js.jsp</li> 
+   <li>header.jsp</li> 
+   <li>footer.jsp</li> 
+   <li>js_clientlibs.jsp</li> 
+   <li>css_clientlibs.jsp</li> 
+  </ul> 
+  <h4>ng-page.jsp</h4> 
+  <p>Determines the name of the application using the <span class="code">applicationName</span> property, and exposes it via the pageContext.</p> 
+  <p>Includes head.jsp and body.jsp.</p> 
+  <h4>head.jsp</h4> 
+  <p>Writes out the <span class="code">&amp;lt;head&amp;gt;</span> element of the app page.</p> 
+  <p>If you want to override the viewport meta property of the app, this is the file that you override.</p> 
+  <p>Following best practices, the app includes the css portion of the client libraries in the head, while the JS is included at the closing &amp;lt;<span class="code">body&amp;gt;</span> element.</p> 
+  <h4>body.jsp</h4> 
+  <p>The body of an Angular page is rendered differently depending on whether wcmMode is detected (!= WCMMode.DISABLED) to determine whether the page is opened for authoring or as a published page.</p> 
+  <p><strong>Author Mode</strong></p> 
+  <p>In author mode, each individual page is rendered separately. Angular does not handle routing between pages, nor is an ng-view used to load a partial template that contains the page's components. Instead, the content of the page template (template.jsp) is included on the server side via the <span class="code">cq:include</span> tag.</p> 
+  <p>This strategy enables the author features (such as adding and editing components in the paragraph system, Sidekick, design mode, etc.) to function without modification. Pages that rely on client side rendering, such as those for apps, do not perform well in AEM author mode.</p> 
+  <p>Note that the template.jsp include is wrapped in a <span class="code">div</span> element that contains the <span class="code">ng-controller</span> directive. This structure enables the linking of the DOM contents with the controller. Therefore, although pages that render themselves on the client side fail, individual components which do so work fine (see section on Components below).</p> 
+  <codeblock class="syntax xml">
+    &lt;div&amp;nbsp;ng-controller="&lt;c:out&amp;nbsp;value="${controllerNameStripped}"/&gt;"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;cq:include&amp;nbsp;script="template.jsp"/&gt;!!discoiqbr!!&lt;/div&gt; 
+  </codeblock> 
+  <p><strong>Publish Mode</strong></p> 
+  <p>In publish mode (such as when the app is exported using Content Sync), all pages become a single page app (SPA). (To learn about SPAs, use the Angular tutorial, specifically <a href="http://docs.angularjs.org/tutorial/step_07">http://docs.angularjs.org/tutorial/step_07</a>.)</p> 
+  <p>There is only one HTML page in a SPA (a page that contains the <span class="code">&amp;lt;html&amp;gt;</span> element). This page is known as the "layout template". In Angular terminology, it is "...a template that is common for all views in our application." Consider this page as the 'top-level app page'. By convention the top-level app page is the <span class="code">cq:Page</span> node of your application that is closest to the root (and is not a redirect).</p> 
+  <p>Since the actual URI of your app does not change in publish mode, references to external assets from this page must use relative paths. Therefore, a special image component is provided that takes this top level page into account when rendering images for exporting.</p> 
+  <p>As an SPA, this layout template page simply generates a div element with an ng-view directive.</p> 
+  <codeblock class="syntax xml">
+    &amp;nbsp;&lt;div&amp;nbsp;ng-view&amp;nbsp;ng-class="transition"&gt;&lt;/div&gt; 
+  </codeblock> 
+  <p>The Angular route service uses this element to display the contents of every page in the app, including the authorable contents of the current page (contained in template.jsp).</p> 
+  <p>The body.jsp file includes header.jsp and footer.jsp which are empty. If you want to provide static content on every page, you can override these scrips in your app.</p> 
+  <p>Finally, javascript clientlibs are included at the bottom of the &amp;lt;body&amp;gt; element including two special JS files that are generated on the server: <i>&amp;lt;page name&amp;gt;</i>.angular-app-module.js and <i>&amp;lt;page name&amp;gt;</i>.angular-app-controllers.js.</p> 
+  <h4>angular-app-module.js.jsp</h4> 
+  <p>This script defines the Angular module of the application. The output of this script is linked to the markup that the rest of the template's component generates via the <span class="code">html</span> element in ng-page.jsp, which contains the following attribute:</p> 
+  <codeblock class="syntax xml">
+    ng-app="&lt;c:out&amp;nbsp;value='${applicationName}'/&gt;" 
+  </codeblock> 
+  <p>This attribute indicates to Angular that the contents of this DOM element should be linked to the following module. This module links the views (in AEM these would be cq:Page resources) with corresponding controllers.</p> 
+  <p>This module also defines a top-level controller named <span class="code">AppController</span> which exposes the <span class="code">wcmMode</span> variable to the scope, and configures the URI from which to fetch Content Sync update payloads.</p> 
+  <p>Lastly, this module iterates through each descendant page (including itself) and renders the content of the route fragement of each page (via the angular-route-fragment.js selector &amp; extension), including it as a config entry to Angular's $routeProvider. In other words, the $routeProvider tells the app which content to render when a given path is requested.</p> 
+  <h4>angular-route-fragment.js.jsp</h4> 
+  <p>This script generates a JavaScript fragment that must take the following form:</p> 
+  <codeblock class="syntax js">
+    .when('/&lt;path&gt;',&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;templateUrl:&amp;nbsp;'&lt;path&amp;nbsp;to&amp;nbsp;template&gt;',!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;controller:&amp;nbsp;'&lt;controller&amp;nbsp;name&gt;'!!discoiqbr!!}) 
+  </codeblock> 
+  <p>This code indicates to $routeProvider (defined in angular-app-module.js.jsp) that '/&amp;lt;path&amp;gt;' is to be handled by the resource at `templateUrl`, and wired up by `controller` (which we'll get to next).</p> 
+  <p>If necessary, you can override this script to handle more complex paths, including those with variables. An example of this can be seen in the /apps/geometrixx-outdoors-app/components/angular/ng-template-page/angular-route-fragment.js.jsp script that is installed with AEM:</p> 
+  <codeblock class="syntax xml">
+    //&amp;nbsp;note&amp;nbsp;the&amp;nbsp;:id&amp;nbsp;suffix&amp;nbsp;on&amp;nbsp;the&amp;nbsp;path!!discoiqbr!!.when('&lt;c:out&amp;nbsp;value="${resource.path}"/&gt;/:id',&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;templateUrl:&amp;nbsp;'&lt;c:out&amp;nbsp;value="${relativeResourcePath}"/&gt;.template.html',!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;controller:&amp;nbsp;'&lt;c:out&amp;nbsp;value="${controllerNameStripped}"/&gt;'!!discoiqbr!!}) 
+  </codeblock> 
+  <h4>angular-app-controllers.js.jsp</h4> 
+  <p>In Angular, Controllers wire up variables in the $scope, exposing them to the view. The angular-app-controllers.js.jsp script follows the pattern illustrated by angular-app-module.js.jsp in that it iterates through each descendant page (including itself) and outputs the controller fragment that each page defines (via controller.js.jsp). The module it defines is called <span class="code">cqAppControllers</span> and must be listed as a dependency of the top level app module so that the page controllers are made available.</p> 
+  <h4>controller.js.jsp</h4> 
+  <p>The controller.js.jsp script generates the controller fragment for each page. This controller fragment takes the following form:</p> 
+  <codeblock class="syntax js">
+    .controller('&lt;c:out&amp;nbsp;value="${controllerNameStripped}"/&gt;',&amp;nbsp;['$scope',&amp;nbsp;'$http',!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;function($scope,&amp;nbsp;$http)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;var&amp;nbsp;data&amp;nbsp;=&amp;nbsp;$http.get('&lt;c:out&amp;nbsp;value="${relativeResourcePath}"/&gt;.angular.json'&amp;nbsp;+&amp;nbsp;cacheKiller);!!discoiqbr!!&amp;nbsp;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;//&amp;nbsp;component&amp;nbsp;fragments&amp;nbsp;which&amp;nbsp;consume&amp;nbsp;the&amp;nbsp;contents&amp;nbsp;of&amp;nbsp;`data`&amp;nbsp;go&amp;nbsp;here!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!]) 
+  </codeblock> 
+  <p>Note that the `data` variable is assigned the promise returned by the Angular <span class="code">$http.get</span> method. Each component included in this page can, if desired, make some .json content available (via its angular.json.jsp script) and act on the contents of this request when it resolves. The request is very fast on mobile devices because it simply accesses the file system.</p> 
+  <p>In order for a component to be part of the controller in this way, it should extend the /libs/mobileapps/components/angular/ng-component component and include the <span class="code">frameworkType: angular</span> property.</p> 
+  <h4>template.jsp</h4> 
+  <p>First introduced in the body.jsp section, template.jsp simply contains the page's parsys. In publish mode, this content is referenced directly (at &amp;lt;page-path&amp;gt;.template.html) and loaded into the SPA via the templateUrl configured on the $routeProvider.</p> 
+  <p>The parsys in this script can be configured to accept any type of component. However, care must be given when dealing with components that are built for a traditional website (as opposed to an SPA). For example, the foundation image component functions correctly only on the top-level app page since it is not designed to reference assets that are inside an app.</p> 
+  <h4>angular-module-list.js.jsp</h4> 
+  <p>This script simply outputs the Angular dependencies of the top-level Angular app module. It is referenced by angular-app-module.js.jsp.</p> 
+  <h4>header.jsp</h4> 
+  <p>A script to place static content at the top of the app. This content is included by the top level page, outside the scope of ng-view.</p> 
+  <h4>footer.jsp</h4> 
+  <p>A script to place static content at the bottom of the app. This content is included by the top level page, outside the scope of ng-view.</p> 
+  <h4>js_clientlibs.jsp</h4> 
+  <p>Override this script to include your JavaScript clientlibs.</p> 
+  <h4>css_clientlibs.jsp</h4> 
+  <p>Override this script to include your CSS clientlibs.</p> 
+  <h2>App Components</h2> 
+  <p>App components must not only work on an AEM instance (publish or author), but also when the application content is exported to the filesystem via Content Sync. The component must therefore include the following characteristics:</p> 
+  <ul> 
+   <li>All assets, templates, and scripts in a PhoneGap application must be referenced relatively.</li> 
+   <li>The handling of links differs if the AEM instance is operating in author or publish mode.</li> 
+  </ul> 
+  <h3>Relative Assets</h3> 
+  <p>The URI of any given asset in a PhoneGap application differs not only on a per-platform basis, but is unique on each installation of the app. For example, note the following URI of an app running in the iOS Simulator:</p> 
+  <p><span class="code">file:///Users/userId/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/24BA22ED-7D06-4330-B7EB-F6FC73251CA3/Library/files/www/content/phonegap/geometrixx/apps/ng-geometrixx-outdoors/en/home.html</span></p> 
+  <p>Note the GUID '24BA22ED-7D06-4330-B7EB-F6FC73251CA3' in the path.</p> 
+  <p>As a PhoneGap developer, the content that you are concerned with is located below the www directory. To access the app assets, use relative paths. </p> 
+  <p>To compound the issue, your PhoneGap application uses the single page app (SPA) pattern so that the base URI (excluding the hash) never changes. Therefore, every asset, template, or script that you reference <strong>must be relative to your top-level page. </strong>The top level page initializes the Angular routing and controllers by virtue of <span class="code"><i>&amp;lt;name&amp;gt;</i>.angular-app-module.js</span> and <span class="code"><i>&amp;lt;name&amp;gt;</i>.angular-app-controllers.js</span>. This page should be the closest page to the root of the repository that <i>does not </i>extend a sling:redirect.</p> 
+  <p>Several helper methods are available for dealing with relative paths:</p> 
+  <ul> 
+   <li>FrameworkContentExporterUtils.getTopLevelAppResource</li> 
+   <li>FrameworkContentExporterUtils.getRelativePathToRootLevel</li> 
+   <li>FrameworkContentExporterUtils.getPathToAsset</li> 
+  </ul> 
+  <p>To see examples of their usage, open the mobileapps source located at /libs/mobileapps/components/angular.</p> 
+  <h3>Links</h3> 
+  <p>Links must use the <span class="code">ng-click="go('/path')"</span> function to support all WCM modes. This function depends on the value of a scope variable to correctly determine the link action:</p> 
+  <codeblock class="syntax xml">
+    &lt;c:choose&gt;&lt;c:when&amp;nbsp;test="${wcmMode}"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;%--&amp;nbsp;WCMMode&amp;nbsp;is&amp;nbsp;enabled&amp;nbsp;-&amp;nbsp;page&amp;nbsp;is&amp;nbsp;being&amp;nbsp;rendered&amp;nbsp;in&amp;nbsp;AEM&amp;nbsp;--%&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;$scope.wcmMode&amp;nbsp;=&amp;nbsp;true;!!discoiqbr!!&lt;/c:when&gt;&lt;c:otherwise&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;%--&amp;nbsp;WCMMode&amp;nbsp;is&amp;nbsp;disabled&amp;nbsp;--%&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;$scope.wcmMode&amp;nbsp;=&amp;nbsp;false;!!discoiqbr!!&lt;/c:otherwise&gt;&lt;/c:choose&gt; 
+  </codeblock> 
+  <p>When <span class="code">$scope.wcmMode == true</span> we handle each navigation event in the usual way, such that the result is a change to the path and/or page portion of the URL. </p> 
+  <p>Alternatively, if <span class="code">$scope.wcmMode == false</span>, each navigation event results in a change to the hash portion of the URL which is resolved internally by Angular's ngRoute module.</p> 
+  <h3>Component Script Details</h3> 
+  <img imageRotate="0" src="assets/chlimage_1-40.png" /> 
+  <h4>ng-component.jsp</h4> 
+  <p>This script displays either the component contents or a suitable placeholder when Edit mode is detected. </p> 
+  <h4>template.jsp</h4> 
+  <p>The template.jsp script renders the markup of the component. If the component in question is driven by JSON data extracted from AEM (such as 'ng-text': /libs/mobileapps/components/angular/ng-text/template.jsp), then this script will be responsible for wiring up the markup with data exposed by the page's controller scope. </p> 
+  <p>However, performance requirements sometimes dictate that no client side templating (aka data binding) be performed. In this case, simply render the component's markup on the server side and it is included in the page template content.</p> 
+  <h4>overhead.jsp</h4> 
+  <p>In components driven by JSON data (such as 'ng-text': /libs/mobileapps/components/angular/ng-text), overhead.jsp can be used to remove all Java code from template.jsp. It is then referenced from template.jsp and any variables that it exposes on the request are available for use. This strategy encourages separation of logic from presentation, and limits the amount of code that must be copied and pasted when a new component is derived from an existing one.</p> 
+  <h4>controller.js.jsp</h4> 
+  <p>As described in AEM Page Templates, each component can output a JavaScript fragment to consume the JSON content exposed by the `data` promise. Following Angular conventions, a controller should only be used for assigning variables to the scope.</p> 
+  <h4>angular.json.jsp</h4> 
+  <p>This script is included as a fragment in the page-wide '&amp;lt;page-name&amp;gt;.angular.json' file that gets exported for each page that extends ng-page. In this file, the component developer can expose any JSON structure that the component requires. In the 'ng-text' example, this structure simply includes the text content of the component, and a flag indicating whether or not the component includes rich text. </p> 
+  <p>The Geometrixx outdoors app product component is a more complex example (/apps/geometrixx-outdoors-app/components/angular/ng-product):</p> 
+  <codeblock class="syntax xml">
+    {!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"content-par/ng-product":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"items":&amp;nbsp;[{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"name":&amp;nbsp;"Cajamara",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"description":&amp;nbsp;"Bike",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"summaryHTML":&amp;nbsp;"",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"price":&amp;nbsp;"$610.00",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"SKU":&amp;nbsp;"eqsmcj",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"numberOfLikes":&amp;nbsp;"0",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"numberOfComments":&amp;nbsp;"0"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;},!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"content-par/ng-product/ng-image":&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"items":&amp;nbsp;[{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"hasContent":&amp;nbsp;true,!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"imgSrc":&amp;nbsp;"home/products/eq/eqsm/eqsmcj/jcr_content/content-par/ng-product/ng-image.img.jpg/1377771306985.jpg",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"description":&amp;nbsp;"",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"alt":&amp;nbsp;"Cajamara",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"title":&amp;nbsp;"Cajamara",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"hasLink":&amp;nbsp;false,!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"linkPath":&amp;nbsp;"",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"attributes":&amp;nbsp;[{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"attributeName":&amp;nbsp;"class",!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"attributeValue":&amp;nbsp;"cq-dd-image"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}]!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!} 
+  </codeblock> 
+  <h2>Contents of the CLI Assets Download</h2> 
+  <p>Download CLI assets from the Apps console to optimize them for a specific platform and then build the app using the PhoneGap command line integration (CLI) API. The contents of the ZIP file that you save to the local file system has the following structure:</p> 
+  <codeblock class="syntax xml">
+    .cordova/!!discoiqbr!!&amp;nbsp;&amp;nbsp;|-&amp;nbsp;hooks/!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;after_prepare/!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;before_platform_add/!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;|-&amp;nbsp;Other&amp;nbsp;Hooks!!discoiqbr!!plugins/!!discoiqbr!!www/!!discoiqbr!!&amp;nbsp;&amp;nbsp;|-&amp;nbsp;config.xml!!discoiqbr!!&amp;nbsp;&amp;nbsp;|-&amp;nbsp;index.html!!discoiqbr!!&amp;nbsp;&amp;nbsp;|-&amp;nbsp;res/!!discoiqbr!!&amp;nbsp;&amp;nbsp;|-&amp;nbsp;etc/!!discoiqbr!!&amp;nbsp;&amp;nbsp;|-&amp;nbsp;apps/!!discoiqbr!!&amp;nbsp;&amp;nbsp;|-&amp;nbsp;content/!!discoiqbr!!&amp;nbsp;&amp;nbsp;|-&amp;nbsp;package.json!!discoiqbr!!&amp;nbsp;&amp;nbsp;|-&amp;nbsp;package-update.json 
+  </codeblock> 
+  <h4>.cordova</h4> 
+  <p>This is a hidden directory which you may not see depending on your current OS settings. You should configure your OS so that this directory is visible if you plan on modifying the app hooks that it contains.</p> 
+  <h4>.cordova/hooks/</h4> 
+  <p>This directory contains the <a href="http://devgirl.org/2013/11/12/three-hooks-your-cordovaphonegap-project-needs/">CLI hooks</a>. The folders in the hooks directory contain node.js scripts that are executed at exact points during the build.</p> 
+  <h4>.cordova/hooks/after-platform_add/</h4> 
+  <p>The after-platform_add directory contains the <span class="code">copy_AMS_Conifg.js</span> file. This script copies a configuration file to support the collection of Adobe Mobile Services analytics.</p> 
+  <h4>.cordova/hooks/after-prepare/</h4> 
+  <p>The after-prepare directory contains the <span class="code">copy_resource_files.js</span> file. This script copies a number of icon and splash screen images into platform-specific locations.</p> 
+  <h4>.cordova/hooks/before_platform_add/</h4> 
+  <p>The before_platform_add directory contains the <span class="code">install_plugins.js</span> file. This script iterates through a list of Cordova plugin identifiers, installing those which it detects are not already available.</p> 
+  <p>This strategy does not require that you bundle and install the plugins to AEM each time the Maven <span class="code">content-package:install</span> command is executed. The alternative strategy of checking the files into your SCM system requires repetitive bundling and installing activities.</p> 
+  <h4>.cordova/hooks/Other Hooks</h4> 
+  <p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;">Include other hooks as required. The following hooks are available (as provided by the Phonegap sample hello world app):</p> 
+  <ul> 
+   <li>after_build </li> 
+   <li>before_build</li> 
+   <li>after_compile </li> 
+   <li>before_compile</li> 
+   <li>after_docs </li> 
+   <li>before_docs</li> 
+   <li>after_emulate </li> 
+   <li>before_emulate</li> 
+   <li>after_platform_add </li> 
+   <li>before_platform_add</li> 
+   <li>after_platform_ls </li> 
+   <li>before_platform_ls</li> 
+   <li>after_platform_rm </li> 
+   <li>before_platform_rm</li> 
+   <li>after_plugin_add </li> 
+   <li>before_plugin_add</li> 
+   <li>after_plugin_ls </li> 
+   <li>before_plugin_ls</li> 
+   <li>after_plugin_rm </li> 
+   <li>before_plugin_rm</li> 
+   <li>after_prepare </li> 
+   <li>before_prepare</li> 
+   <li>after_run </li> 
+   <li>before_run</li> 
+  </ul> 
+  <h4>platforms/</h4> 
+  <p>This directory is empty until you execute the <span class="code">phonegap run <i>&amp;lt;platform&amp;gt;</i></span> command on the project. Currently, <span class="code"><i>&amp;lt;platform&amp;gt;</i></span> can be either <span class="code">ios</span> or <span class="code">android</span>.</p> 
+  <p>After you build the app for a specific platform, the corresponding directory is created and it contains the platform-specific app code.</p> 
+  <h4>plugins/</h4> 
+  <p>The plugins directory is populated by each plugin listed in the <span class="code">.cordova/hooks/before_platform_add/install_plugins.js</span> file after you execute the <span class="code">phonegap run <i>&amp;lt;platform&amp;gt;</i></span> command. The directory is initially empty.</p> 
+  <h4>www/</h4> 
+  <p>The www directory contains all of the web content (HTML, JS, and CSS files) that implements the appearance and behaviour of the app. Except for the exceptions described below, this content originates from AEM and is exported into its static form via Content Sync.</p> 
+  <h4>www/config.xml</h4> 
+  <p>The <a href="http://docs.phonegap.com">PhoneGap documentation</a> refers to this file as a 'global configuration file'. The config.xml contains many app properties, such as the name of the app, the app 'preferences' (for example whether or not an iOS webview allows overscroll), and plugin dependencies that are <i>only</i> consumed by PhoneGap build.</p> 
+  <p>The config.xml file is a static file in AEM and is exported as-is via Content Sync.</p> 
+  <h4>www/index.html</h4> 
+  <p>The index.html file redirects to the starting page of the app.</p> 
+  <p>The config.xml file contains the <span class="code">content</span> element:</p> 
+  <p><span class="code">&amp;lt;content src="content/phonegap/geometrixx/apps/ng-geometrixx-outdoors/en.html" /&amp;gt;</span></p> 
+  <p>In <a href="http://docs.phonegap.com">the PhoneGap documentation</a>, this element is described as "The optional &amp;lt;content&amp;gt; element defines the app's starting page in the top-level web assets directory. The default value is index.html, which customarily appears in a project's top-level www directory."</p> 
+  <p>PhoneGap build fails if an index.html file is not present. Therefore, this file is included.</p> 
+  <h4>www/res</h4> 
+  <p>The res directory contains splash screen images and icons. The <span class="code">copy_resource_files.js</span> script copies the files to their platform-specific locations during the <span class="code">after_prepare</span> build phase.</p> 
+  <h4>www/etc</h4> 
+  <p>By convention, in AEM the /etc node contains static clientlib content. The etc directory contains the Topcoat, AngularJS, and Geometrixx ng-clientlibsall libraries.</p> 
+  <h4>www/apps</h4> 
+  <p>The apps directory contains code that is related to the splash page. The unique characteristic of the splash page of an AEM app is that it initializes the app with no user interaction. The clientlib content (both CSS and JS) of the app is therefore minimal to maximize performance. </p> 
+  <h4>www/content</h4> 
+  <p>The content directory contains the rest of the web content of the app. The content can include, but is not limited to, the following files:</p> 
+  <ul> 
+   <li>HTML page content, which is authored directly in AEM</li> 
+   <li>Image assets associated with AEM components</li> 
+   <li>JavaScript content that server-side scripts generate</li> 
+   <li>JSON files that describe page or component content</li> 
+  </ul> 
+  <h4>www/package.json</h4> 
+  <p>The package.json file is a manifest file that lists the files that a <strong>full</strong> Content Sync download includes. This file also contains the timestamp at which the Content Sync payload was generated (<span class="code">lastModified</span>). This property is used when requesting partial updates of the app from AEM.</p> 
+  <h4>www/package-update.json</h4> 
+  <p>If this payload is a download of the entire app, this manifest contains the exact listing of files as <span class="code">package.json</span>. </p> 
+  <p>However, if this payload is a partial update, <span class="code">package-update.json</span> contains only the files that are included in this particular payload.</p> 
+ </body> 
+</html>

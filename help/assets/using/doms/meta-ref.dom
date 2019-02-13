@@ -1,0 +1,141 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2018-04-24T11:56:55.848-0400" name="locHandOffDate" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="598" name="acrolinxWords" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS" name="primaryProductTag" />
+  <meta content="Chiradeep Majumdar" name="contentOwner" />
+  <meta content="Learn about standard conventions for describing asset metadata, including Dublin Core, IPTC, and other metadata schema. " name="seoDescription" />
+  <meta content="red" name="acrolinxPageStatus" />
+  <meta content="2018-01-05T16:19:23.894-0500" name="publishExternalDate" />
+  <meta content="2018-01-05T16:19:23.894-0500" name="topicBrowsingSortDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="5040ce4b-4874-4d59-a22b-f81e28daef67" name="jcr:uuid" />
+  <meta content="Metadata Schemata Reference" name="navTitle" />
+  <meta content="2018-01-05T16:19:23.894-0500" name="lastPublishExternalDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-04-24T11:56:55.848-0400" name="cq:lastModified" />
+  <meta content="121" name="acrolinxSentences" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS;topic_tags:administering;content_type:reference" name="cq:tags" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="/content/help/en/experience-manager/6-4/assets/morehelp/administering;/content/help/en/experience-manager/6-4/assets/morehelp/administering" name="moreHelpPaths" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="checked_not_improved" name="acrolinxStatus" />
+  <meta content="asgupta" name="acrolinxLastCheckedBy" />
+  <meta content="2017-10-31T16:34:24.157-0400" name="firstPublishExternalDate" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="msm-service" name="cq:lastModifiedBy" />
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="25f7504d-0f07-4927-91b2-3b254bda8d53" name="jcr:predecessors" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="Metadata Schemata Reference" name="jcr:title" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="alvawb@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="Metadata Schemata Reference" name="seoTitle" />
+  <meta content="/content/docs/en/aem/6-3/administer/content/assets/metadata/meta-ref" name="qaNotes" />
+  <meta content="2018-01-06T19:01:53.680-0500" name="jcr:created" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/assets/using/meta-ref.html" name="publishExternalURL" />
+  <meta content="2019-01-12T17:33:15.117-0500" name="acrolinxDate" />
+  <meta content="2018-04-03T08:10:11.883-0400" name="cq:lastReplicated" />
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/meta_ref_krs_workflow_f3c2f2ccebf6138e_163_report.xml" name="acrolinxReportURL" />
+ </head>
+ <body>
+  <p>The following reference includes information about a particular metadata schemata (in alphabetical order) as well as a list of properties and their definitions.</p> 
+  <h3>CC</h3>
+  <table border="1" cellpadding="1" cellspacing="0" width="400">
+   <tbody> 
+    <tr> 
+     <td><strong>Property</strong></td> 
+     <td><strong>Description</strong></td> 
+    </tr> 
+    <tr> 
+     <td>License</td> 
+     <td> </td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h3>Dublin Core</h3>
+  <p>Dublin Core metadata provides a standardized set of conventions for describing assets to make them easier to find. In AEM Assets, the Dublin Core describes digital assets including video, sound, images, and documents.</p> 
+  <p>The simple Dublin Core Metadata Element Set (DCMES) contains 15 metadata elements as listed in the following table. Each Dublin Core element is optional and can be repeated. You can add or delete Dublin Core metadata information as you would for media type-specific metadata.<br /> </p> 
+  <p>In addition to the DCMES, there are other metadata elements created by the Dublin Core Initiative. See the <a href="http://dublincore.org/">Dublin Core Initiative</a> for more information.<br /> </p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="400"> 
+   <tbody>
+    <tr>
+     <td><strong>Property</strong></td> 
+     <td><strong>Description</strong></td> 
+    </tr>
+    <tr>
+     <td>contributor</td> 
+     <td>The person or company responsible for making contributions to the content.</td> 
+    </tr>
+    <tr>
+     <td>coverage</td> 
+     <td>The geographic location or time period that the asset covers.<br /> </td> 
+    </tr>
+    <tr>
+     <td>creator</td> 
+     <td>The person or company responsible for creating the content.</td> 
+    </tr>
+    <tr>
+     <td>date</td> 
+     <td>Date or period of time associated with the asset.<br /> </td> 
+    </tr>
+    <tr>
+     <td>description</td> 
+     <td>More information about the asset.</td> 
+    </tr>
+    <tr>
+     <td>format</td> 
+     <td>The file format, physical medium, or dimensions of the asset. AEM uses <span class="code">dc:format</span> to denote the mime-type of the asset.<br /> </td> 
+    </tr>
+    <tr>
+     <td>identifier</td> 
+     <td>A unique reference to the asset.</td> 
+    </tr>
+    <tr>
+     <td>language</td> 
+     <td>The language of the asset (for example, en for English).</td> 
+    </tr>
+    <tr>
+     <td>publisher</td> 
+     <td>The person or company responsible for making the asset available.</td> 
+    </tr>
+    <tr>
+     <td>relation</td> 
+     <td>A related asset.</td> 
+    </tr>
+    <tr>
+     <td>rights</td> 
+     <td>Information about who has the rights to this asset.</td> 
+    </tr>
+    <tr>
+     <td>source</td> 
+     <td>A related asset from which the asset is derived.</td> 
+    </tr>
+    <tr>
+     <td>subject</td> 
+     <td>The topic of the asset.<br /> </td> 
+    </tr>
+    <tr>
+     <td>title</td> 
+     <td>A name for the asset.</td> 
+    </tr>
+    <tr>
+     <td>type</td> 
+     <td>The nature or genre of the asset.</td> 
+    </tr>
+   </tbody>
+  </table> 
+  <h3>IPTC</h3>
+  <p>The International Press Telecommunications Council (IPTC) is a consortium of news agencies around the world - one of its goals is to develop and maintain technical standards. The IPTC defined a set of photo metadata standards for images that is almost universally accepted among photographers. These metadata standards were part of the broader standard known as the IPTC Information Interchange Model (IIM) created in the 1990s. </p> 
+  <p>Although the IPTC header information has been mostly superseded by XMP, an IPTC core schema and an extension schema are available for XMP. In image programs, both XMP and IPTC properties are synchronized.</p> 
+ </body>
+</html>

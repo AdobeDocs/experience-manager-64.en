@@ -1,0 +1,105 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7f73.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-2abf068212905cdef8d-7ff6.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-2abf068212905cdef8d-7fea.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-2abf068212905cdef8d-7fe9.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-2abf068212905cdef8d-7ffa.2" name="cq:gepId" /> 
+  <meta content="622" name="acrolinxWords" /> 
+  <meta content="d99e8234-821a-4263-91c1-7dad6fb3863c" name="jcr:uuid" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2016-02-05T03:27:12.482-0500" name="lr_lastModified" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/using/morehelp/managing_certificates_and_credentials;/content/help/en/experience-manager/6-4/forms/using/morehelp/managing_certificates_and_credentials" name="moreHelpPaths" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/forms/using/admin-help/certificates.html" name="publishExternalURL" /> 
+  <meta content="yellow" name="acrolinxPageStatus" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="sortDate" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2017-10-31T16:32:37.905-0400" name="lastPublishExternalDate" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="admin" name="lr_lastModifiedBy" /> 
+  <meta content="40" name="acrolinxSentences" /> 
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/managing_certificates_and_credentials;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="9d4dc435-d1a6-460e-9da2-f4dd658eb050" name="jcr:predecessors" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="admin" name="lr_creator" /> 
+  <meta content="2018-04-03T09:09:24.042-0400" name="cq:lastReplicated" /> 
+  <meta content="Managing certificates" name="jcr:title" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2017-10-31T16:32:37.905-0400" name="publishExternalDate" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="topicBrowsingSortDate" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="2017-12-01T19:06:11.442-0500" name="jcr:created" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2018-04-26T04:25:27.975-0400" name="locHandOffDate" /> 
+  <meta content="2018-04-26T04:25:27.975-0400" name="cq:lastModified" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/certificates_admin_5e12de0b318c6865_2264_report.xml" name="acrolinxReportURL" /> 
+  <meta content="Learn how to import and export a certificate and edit its trust settings." name="seoDescription" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="2016-05-31T06:53:14.390-0400" name="acrolinxDate" /> 
+  <meta content="2016-04-20T09:59:20.859-0400" name="firstPublishExternalDate" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="Managing certificates" name="navTitle" /> 
+  <meta content="admin" name="contentOwner" /> 
+ </head> 
+ <body> 
+  <p>Using the Trust Store Management, you can import, edit, and delete certificates that you trust on the server for validation of digital signatures and certificate authentication. You can import and export any number of certificates. After a certificate is imported, you can edit the trust settings and trust store type. Consider the following options when combining trust store types:</p> 
+  <ul> 
+   <li><p><strong>Trust for Certificate Authentication with CA: </strong>For CRL validation, also select Trust for Identity.</p></li> 
+   <li><p><strong>Trust for Certificate Authentication with ICA: </strong>Select only Trust for Identity<strong>. </strong>An ICA should not be trusted for Certificate Authentication. If you trust the ICA for Certificate Authentication, the ICA becomes a CA for path building. If the ICA is trusted for both Certificate Authentication and Identity, the CA vendor certificate is ignored because the ICA becomes the CA.</p></li> 
+   <li><p><strong>Trust for OCSP Server with HTTPs: </strong>If the OSCP respondent server resides at an HTTPs location, you must also select Trust for SSL Connections. If the OSCP respondent requires CRL validation, ensure that you also select Trust for Identity.</p></li> 
+   <li><p><strong>Adobe Root: </strong>Do not select SSL Connections or OCSP Server Trust Store Types. Adobe Root is not trusted for SSL Connections and OCSP Server. Adobe does not issue OCSP and SSL certificates. Adobe Root is implicitly trusted with an alias name="ADOBEROOT". </p></li> 
+  </ul> 
+  <p>Only X509v3 certificates are supported. This certificate type can be supplied in a binary DER-encoded file (.cer file) or a text file that contains a Base64-encoded version of the same DER-encoded certificate (including X509 certificates in Privacy Enhanced Mail (PEM) format).</p> 
+  <p>Certificates required to complete a signature verification must be in the same store (HSM or database).</p> 
+  <p>You can also import and delete certificates using the Trust Manager API. For details, see “Importing certificates using the Trust Manager API” and “Deleting certificates using the Trust Manager API” in <a href="http://www.adobe.com/go/learn_aemforms_programming_63" target="_blank">Programming with AEM forms</a>.</p> 
+  <h2 id="import_a_certificate">Import a certificate</h2> 
+  <p></p> 
+  <ol> 
+   <li><p>In administration console, click Settings &amp;gt;Trust Store Management &amp;gt; Certificates.</p></li> 
+   <li><p>Click Import and, under Trust Store Type, select one of these options:</p> 
+    <ul> 
+     <li><p><strong>Trust for SSL Connections: </strong>Specifies that AEM forms can use certificates to connect to external systems over SSL. </p></li> 
+     <li><p><strong>Trust for Certify Signature: </strong>Specifies that certificates are trusted in document signing operations for certifying author digital signatures. </p></li> 
+     <li><p><strong>Trust for Signature: </strong>Specifies that certificates are trusted in document signing operations for non-author digital signatures. </p></li> 
+     <li><p><strong>Trust for Certificate Authentication: </strong>Specifies AEM forms uses certificates for authenticating users using certificate or smart card authentication.</p></li> 
+     <li><p><strong>Trust for OCSP Server: </strong>Specifies that AEM forms can use certificates to connect to external OCSP responders</p></li> 
+     <li><p><strong>Trust for Identity: </strong>Specifies that certificates can be used to trust information other than types specified above. </p></li> 
+    </ul> 
+    <note> 
+     <p>The trust store implicitly trusts an Adobe Root Certificate for certificate authentication, signature, certify signature, and identity.</p> 
+    </note></li> 
+   <li><p>In the Alias box, type the identifier for the certificate.</p></li> 
+   <li><p>Click Browse to locate the certificate and then click OK.</p></li> 
+  </ol> 
+  <h2 id="export_a_certificate">Export a certificate</h2> 
+  <p></p> 
+  <ol> 
+   <li><p>In administration console, click Settings &amp;gt;Trust Store Management &amp;gt; Certificates. </p></li> 
+   <li><p>Click the alias name of the certificate to export. The Certificate Details page is displayed.</p></li> 
+   <li><p>Click Export, follow the directions to export the certificate, and then click OK.</p></li> 
+  </ol> 
+  <h2 id="edit_a_certificate_s_trust_settings_and_trust_store_type">Edit a certificate’s trust settings and trust store type</h2> 
+  <p></p> 
+  <ol> 
+   <li><p>In administration console, click Settings &amp;gt;Trust Store Management &amp;gt; Certificates. </p></li> 
+   <li><p>Click the alias name of the certificate to edit.</p></li> 
+   <li><p>Click Update Certificate.</p></li> 
+   <li><p>To change the Alias name of the certificate, type a new name in the Alias box.</p></li> 
+   <li><p>To update the trust store type for the certificate, select the appropriate trust store type.</p></li> 
+   <li><p>To update the policy restrictions, in the Certificate Policies box, type the policy information, and then click OK. </p></li> 
+  </ol> 
+  <h2 id="delete_a_certificate">Delete a certificate</h2> 
+  <p></p> 
+  <ol> 
+   <li><p>In administration console, click Settings &amp;gt;Trust Store Management &amp;gt; Certificates.</p></li> 
+   <li><p>Select the check boxes for the certificates to delete, click Delete, and then click OK.</p></li> 
+  </ol> 
+ </body> 
+</html>

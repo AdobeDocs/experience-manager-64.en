@@ -1,0 +1,100 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="39e2adaf-e54c-4dad-9916-4f838bd03c46" name="jcr:predecessors" /> 
+  <meta content="2018-02-01T09:10:01.912-0500" name="lastPublishExternalDate" /> 
+  <meta content="Document Fragments, such as Text, lists, conditions, and layout fragments, in Correspondence Management let you form the static, dynamic, and repeatable components of customer correspondence." name="seoDescription" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" /> 
+  <meta content="500" name="acrolinxSentences" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="Conditions" name="navTitle" /> 
+  <meta content="6625" name="acrolinxWords" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="Conditions" name="seoTitle" /> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/correspondence-management;/content/help/en/experience-manager/6-4/forms/morehelp/correspondence-management" name="moreHelpPaths" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="true" name="preview" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="[DO NOT PUBLISH] Conditions" name="jcr:title" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="15a2bd39-1336-482a-8149-f92d6897e332" name="jcr:uuid" /> 
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/document_fragments_krs_workflow_c77e08fb6f309c49_21_report.xml" name="acrolinxReportURL" /> 
+  <meta content="2015-11-23T06:15:48.611-0500" name="lastPublishQADate" /> 
+  <meta content="2019-02-11T20:42:46.921-0500" name="jcr:created" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2016-12-22T04:57:59.986-0500" name="acrolinxDate" /> 
+  <meta content="green" name="acrolinxPageStatus" /> 
+  <meta content="2019-02-08T05:49:06.033-0500" name="cq:lastModified" /> 
+  <meta content="anujkapo" name="cq:lastModifiedBy" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="en_us" name="jcr:language" /> 
+ </head> 
+ <body> 
+  <h2>Conditions</h2> 
+  <p>Conditions enable you to define what content gets included at correspondence/ letter creation time, based on the supplied data. The condition is described in terms of control variables. When you add a condition, you can choose to include an asset based on the value that the control variable has.</p> 
+  <p>Based on the options you choose, either only the first expression that is found to be true, based on current condition variable is evaluated or all the condition. When filling the letter in Create Correspondence (CCR), conditions behave as "white boxes". If a condition results in a list, all the list's mandatory and pre-selected items are output. If any of those items are conditions or lists themselves, their resulting content is output as well, in top-down, depth-first order as a flat list of text and image content. Condition results can be of any type (text, list, condition, or image).</p> 
+  <h3>Implementing conditions</h3> 
+  <p>The Condition Editor comes with an <a href="../../../forms/using/expression-builder.md" target="_blank">Expression Builder</a> user interface that supports creating expressions using both multiple placeholders and Data Dictionary elements. You can use common operands and local / global functions in such expressions. Each expression can be associated with some content and optionally there could be a default section if none of the expressions evaluates to true. All expressions are evaluated in the sequence in which they are defined and the first expressions returning true is selected and its associated content is returned by that conditional module.</p> 
+  <p>For example, if the terms and conditions text in a letter differs depending which state the customer is in, and the data dictionary contains an element called “state”, then you could add the condition as follows:<br /> • state = NY, select T&amp;C_NY text paragraph<br /> • state = NC, select T&amp;C_NC text paragraph</p> 
+  <p>The Condition editor enables you to specify a default condition. If the value of the control variables does not match any of the conditions, then the content associated with the default condition is used. Following the previous example, you could add this condition row:<br /> • Default, select T&amp;C_Rest</p> 
+  <h3>Create a condition</h3> 
+  <ol> 
+   <li><p>Select <strong>Forms</strong> &amp;gt; <strong>Document Fragments</strong>.</p> </li> 
+   <li><p>Select <strong>Create &amp;gt; Condition</strong>.</p> </li> 
+   <li><p>Specify the following information for the list:</p> 
+    <ul> 
+     <li><strong>Title (Optional): </strong>Enter the title for the condition. Title needs not be unique and can have special characters and non-english characters. Conditions are referred by their titles (when available) such as in thumbnails and asset properties. </li> 
+     <li><strong>Name: </strong>The unique name for the condition. No two assets (text, condition, or list) in any state can exist with the same name. In the Name field, you can enter only English language characters, numbers, and hyphens. The Name field is automatically populated based on the Title field. The special characters, spaces, numbers, and non-English characters entered in the Title field are replaced with hyphens in the Name field. Although the value in the Title field is automatically copied to the Name, you can edit the value.</li> 
+     <li><strong>Description (Optional)</strong> Type a description of the condition.</li> 
+     <li><strong>Data Dictionary (Optional)</strong>: Optionally, select the data dictionary to which to connect. Only assets that use the same data dictionary as the condition, or assets that have no data dictionary assigned, can be added to the list. Assigning a data dictionary to a list makes it easier for the person creating a letter template to find the appropriate condition.</li> 
+     <li><strong>Tags (Optional)</strong>: Optionally, select the tags to apply. You can also type in a new tag’s name and create it. (The new tag is created when you tap <strong>Save</strong>.)</li> 
+    </ul> </li> 
+   <li><p>Tap <strong>Next</strong>.</p> </li> 
+   <li><p>Tap <strong>Add Asset</strong>.</p> </li> 
+   <li><p>To add an asset to the Condition, select it in the Select Assets page and tap <strong>Done</strong>. The assets are added to the Expression pane.</p>  </li> 
+   <li><p>You can select the following options to specify how the condition behaves at runtime:</p> 
+    <ul> 
+     <li><strong>Disable Multiple Results Evaluation\Enable Multiple Results Evaluation</strong>: When this option is enabled (appears as “Enable Multiple…”), all the conditions are evaluated and the result is the sum of all the true conditions. If this option is disabled (appears as "Disable Multiple...") then only the first condition that is found to be true is evaluated and becomes the output of the condition.</li> 
+     <li><strong>Page Break</strong>: Select this option (<img src="assets/break.png" />) to add a page break between the modules of the conditions. When this option is not selected (<img src="assets/nobreak.png" />), if a condition is overflowing to the next page, the whole condition is shifted to the next page instead of breaking in the page between the condition.</li> 
+    </ul> </li> 
+   <li><p>To change the order of the assets within the condition, tap and hold the arrows icon (<img src="assets/dragndrop.png" /> ) and drag-and-drop. When the user opens a letter template in the Create Correspondence user interface, the content is assembled in the order you defined here.</p> </li> 
+   <li><p>Tap <strong>Delete</strong> to delete the row. If you tap Delete for the default row, only clears the asset information.</p> </li> 
+   <li><p>Tap <strong>Copy</strong> to duplicate a row.</p> </li> 
+   <li><p>Tap <strong>Edit</strong> to change the asset or edit the expression.</p> <p>Further:</p> 
+    <ul> 
+     <li>To update the asset, tap the folder icon under Asset column.</li> 
+     <li>To open the Expression Builder to insert an expression, tap the folder icon under the Expression column. For more information on Expression Builder, see <a href="../../../forms/using/expression-builder.md">Expression Builder</a>.</li> 
+    </ul> </li> 
+  </ol> 
+  <h3>Best practices/tips and tricks</h3> 
+  <ul> 
+   <li>Use a consistent naming convention for easy search and to avoid duplication. </li> 
+   <li>Conditions behave like case statements, so order of condition is important. The first match is returned.</li> 
+   <li>Use appropriate data dictionary binding</li> 
+   <li>The following rules apply when using the Condition Editor to edit a condition: 
+    <ul> 
+     <li><strong>Addition of variable: </strong>Allowed</li> 
+     <li><strong>Removal of variable: </strong>Allowed</li> 
+     <li><strong>Update of properties: </strong>Allowed</li> 
+     <li><strong>Change of data dictionary: </strong>Allowed until data dictionary element is not used. </li> 
+    </ul> </li> 
+  </ul> 
+  <related-links> 
+   <a href="../../../forms/using/create-correspondence.md">Create correspondence</a> 
+   <a href="../../../forms/using/manage-agent-signature-images.md">Manage agent signature images</a> 
+   <a href="../../../forms/using/layout-design-details.md">Layout design details</a> 
+   <a href="../../../forms/using/expression-builder.md">Expression builder</a> 
+   <a href="../../../forms/using/cm-configuration-properties.md">Correspondence Management configuration properties</a> 
+   <a href="../../../forms/using/submit-letter-topostprocess.md">Post processing of letters</a> 
+   <a href="../../../forms/using/add-custom-action-asset-listing-view.md">Add custom action to Asset Listing view</a> 
+   <a href="../../../forms/using/add-custom-properties-cm-assets.md">Add custom properties to Correspondence Management assets</a> 
+   <a href="../../../forms/using/add-action-button-in-create-correspondence-ui.md">Add custom action/button in Create Correspondence UI</a> 
+   <a href="../../../forms/using/customize-create-correspondence-ui.md">Customize Create Correspondence UI logo</a> 
+  </related-links> 
+ </body> 
+</html>

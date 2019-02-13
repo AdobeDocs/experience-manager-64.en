@@ -1,0 +1,123 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="21020a2f-b75f-443e-bc52-aba3b50390dd" name="jcr:predecessors" /> 
+  <meta content="Components for Content Fragments" name="jcr:title" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/components-content-fragments.html" name="publishExternalURL" /> 
+  <meta content="aheimoz" name="cq:lastReplicatedBy" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="/content/docs/en/aem/6-3/develop/components/components-content-fragments" name="qaNotes" /> 
+  <meta content="2017-10-31T16:17:12.205-0400" name="firstPublishExternalDate" /> 
+  <meta content="2018-03-15T09:01:44.135-0400" name="jcr:created" /> 
+  <meta content="aheimoz" name="cq:lastModifiedBy" /> 
+  <meta content="2018-11-21T06:51:34.414-0500" name="topicBrowsingSortDate" /> 
+  <meta content="89ad67b4-6e3f-46ea-850a-f9fe36536495" name="jcr:uuid" /> 
+  <meta content="2018-05-08T12:40:57.607-0400" name="locHandOffDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:components;content_type:reference" name="cq:tags" /> 
+  <meta content="2018-11-21T06:51:34.414-0500" name="publishExternalDate" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="2018-11-21T06:51:34.414-0500" name="lastPublishExternalDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="AEM content fragments are created and managed as page-independent assets" name="seoDescription" /> 
+  <meta content="Components for Content Fragments" name="navTitle" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2018-11-21T06:51:34.452-0500" name="cq:lastReplicated" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="Components for Content Fragments" name="seoTitle" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/morehelp/components;/content/help/en/experience-manager/6-4/sites/developing/morehelp/components" name="moreHelpPaths" /> 
+  <meta content="Components for Content Fragments" name="pageTitle" /> 
+  <meta content="audience:developing" name="primaryAudienceTag" /> 
+  <meta content="2018-11-21T06:51:34.419-0500" name="cq:lastModified" /> 
+  <meta content="Alison Heimoz" name="contentOwner" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="aheimoz@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+ </head> 
+ <body> 
+  <note> 
+   <p>Some Content Fragment functionality requires the application of <a href="../../../release-notes/sp-release-notes.md">AEM 6.4 Service Pack 2 (6.4.2.0)</a>.</p> 
+  </note>  
+  <h2>Components for Fragment Authoring</h2> 
+  <note> 
+   <p>It is not recommended to extend or change the actual components used in the Fragment Editor as they are still subject to change.</p> 
+  </note> 
+  <p>See the <a href="../../../sites/developing/using/customizing-content-fragments.md#thecontentfragmentmanagementapiclientside">Content Fragment Management API - Client-Side</a>.</p> 
+  <h2>Components for Page Authoring</h2> 
+  <note> 
+   <p>The <a href="/content/help/en/experience-manager/core-components/using/content-fragment-component">Content Fragment Core Component</a> is now recommended. See <a href="/content/help/en/experience-manager/core-components/using/developing">Developing Core Components</a> for more details.</p> 
+   <p>This section details the original component delivered for use with content fragments (<strong>Content Fragment</strong> in the <strong>General</strong> group).</p> 
+  </note> 
+  <p>Adobe Experience Manager (AEM) content fragments are <a href="../../../assets/using/content-fragments.md">created and managed as page-independent assets</a>. They allow you to create channel-neutral content, together with (possibly channel-specific) variations. <a href="../../../sites/authoring/using/content-fragments.md">You can then use these fragments, and their variations, when authoring your content pages</a>. You can also use an existing content fragment asset by <a href="../../../sites/authoring/using/content-fragments.md#addingacontentfragmenttoyourpage">dragging it from the asset browser to the page</a> (as for other asset based components, such as the foundation component Image). The out-of-the-box content fragment component displays only one <a href="../../../assets/using/content-fragments.md#constituentpartsofacontentfragment">element</a> of the referenced content fragment. Using the component dialog you can define the <a href="../../../assets/using/content-fragments.md#constituentpartsofacontentfragment">element, variation and range of fragment paragraphs</a> that you want to display on the page. </p> 
+  <note> 
+   <p>This Content Fragment component was introduced in AEM 6.2 as an enhanced version of the Article component, which has been deprecated.</p> 
+  </note> 
+  <note> 
+   <p>Content Fragments are not supported in the classic UI.</p> 
+  </note> 
+  <h3>Definition</h3> 
+  <p>The <strong>Content Fragment</strong> component is used to hold a reference to a content fragment asset (effectively enhanced text assets). The resource type for the content fragment is:</p> 
+  <p style="margin-left: 40px;"><span class="code">dam/cfm/components/contentfragment/contentfragment</span></p> 
+  <p>The reference is defined in the property:</p> 
+  <p style="margin-left: 40px;"><span class="code">fileReference</span></p> 
+  <p>Only the editor of the touch-enabled UI fully supports content fragment components, which includes the client library:</p> 
+  <p style="margin-left: 40px;"><span class="code">cq.authoring.editor.plugin.cfm</span></p> 
+  <p>This library adds features, specific to content fragments, to the editor. For example, support for the ability to add and configure content fragments on the page, ability to search for content fragment assets in the asset browser, and for associated content in the side panel are available.</p> 
+  <h3>In-Between Content</h3> 
+  <p>The <strong>Content Fragmen</strong>t component allows you to drop additional components in-between the different paragraphs of the displayed <a href="../../../assets/using/content-fragments.md#constituentpartsofacontentfragment">element</a>. Basically, the element displayed is composed of different paragraphs (each paragraph is marked by a carriage return). Between each of those paragraphs, you can insert content using other components.</p> 
+  <p>From a technical viewpoint, each paragraph of the displayed element<i> </i>lives in its own parsys, and each component that you add in-between the paragraphs will be (under the hood) inserted into the parsys. </p> 
+  <p>In other words, if the instance of the content fragment component is composed of three paragraphs, then the component will have three different parsys in the repository. All of the in-between content that is added to the content fragment will actually be located inside these parsys.</p> 
+  <p>In the repository the in-between content is stored relative to its position inside the overall paragraph structure, i.e. it is not attached to the actual paragraph content.</p> 
+  <p>To illustrate this, let us consider that we have:</p> 
+  <ul> 
+   <li>An instance of a content fragment composed of three paragraphs<br /> </li> 
+   <li>And that some content has already been inserted after the second paragraph 
+    <ul> 
+     <li>This means that the content will be stored in the second parsys.</li> 
+    </ul> </li> 
+  </ul> 
+  <p>Basically, if the paragraph structure of this instance changes (by changing the variation, element, or range of paragraphs displayed), it could affect the in-between content displayed when the content fragment content:<br /> </p> 
+  <ul> 
+   <li>Is edited and another paragraph is added before the second paragraph:<br /> 
+    <ul> 
+     <li>The in-between content will be displayed after the newly created paragraph (the second parsys now holds the newly created paragraph).</li> 
+    </ul> </li> 
+   <li>Is edited and the second paragraph is removed:<br /> 
+    <ul> 
+     <li>The in-between content will be displayed after the paragraph that was previously the third (the second parsys now holds the previous third paragraph).</li> 
+    </ul> </li> 
+   <li>Is configured so that only the first paragraph is shown:<br /> 
+    <ul> 
+     <li>The in-between content will not be displayed (the second parsys is not rendered anymore due to the new configuration).</li> 
+    </ul> </li> 
+  </ul> 
+  <h3>Customizing the Content Fragment Component</h3> 
+  <p>To use the out-of-the-box content fragment component as a blueprint for extension you should respect the following contract:</p> 
+  <ul> 
+   <li>Reuse the HTL rendering script and its associated POJO to see how the in-between content feature is implemented.</li> 
+   <li>Reuse the content fragment node: <span class="code">cq:editConfig</span> 
+    <ul> 
+     <li>The <span class="code">afterinsert</span>/<span class="code">afteredit</span>/<span class="code">afterdelete</span> listeners are used to trigger JS events. These events will be handled in the <span class="code">cq.authoring.editor.plugin.cfm</span> client library to display the associated content in the side panel.</li> 
+     <li>The <span class="code">cq:dropTargets</span> are configured to support dragging content fragment assets.</li> 
+     <li><span class="code">cq:inplaceEditing</span> is configured to support authoring of a content fragment in the page editor. The fragment in-place editor is defined in the <span class="code">cq.authoring.editor.plugin.cfm</span> client library and allows a quick link to open the current <a href="../../../assets/using/content-fragments.md#constituentpartsofacontentfragment">element/variation</a> in the <a href="/assets/using/content-fragments-editor">fragment editor</a>.</li> 
+    </ul> </li> 
+  </ul> 
+  <h3>Asset Rewriting Before Rendering</h3> 
+  <p>Content Fragment Management uses an internal rendering process to generate the final HTML output for a page. This is used internally by the Content Fragment component, but also by the background process that updates referenced fragments on referencing pages.</p> 
+  <p>Internally, the Sling Rewriter is used for that rendering. The respective configuration is found at <span class="code">/libs/dam/config/rewriter/cfm</span> and can be adjusted if required. See the <a href="https://sling.apache.org/documentation/bundles/output-rewriting-pipelines-org-apache-sling-rewriter.html">Apache Sling Rewriter</a> for more information.</p> 
+  <p>The out-of-the-box configuration uses the following transformers:</p> 
+  <ul> 
+   <li><span class="code">transformer-cfm-payloadfilter</span> - for retrieving the <span class="code">body</span> part (<span class="code">&amp;lt;body&amp;gt;...&amp;lt;/body&amp;gt;</span>) of the fragment's HTML only</li> 
+   <li><span class="code">transformer-cfm-parfilter</span> - filters out unwanted paragraphs if a paragraph range is specified (as can be done with the Content Fragment component)</li> 
+   <li><span class="code">transformer-cfm-assetprocessor</span> - is used internally for retrieving a list of the assets that are embedded in the fragment</li> 
+  </ul> 
+  <p>The rendering process is exposed through <span class="code"><a href="/sites/developing/using/reference-materials/javadoc/com/adobe/cq/dam/cfm/ContentFragment">com.adobe.cq.dam.cfm.content.FragmentRenderService</a></span> and can be leveraged (for example) by custom components if required.</p> 
+ </body> 
+</html>

@@ -1,0 +1,212 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2018-04-26T04:30:07.504-0400" name="cq:lastModified" /> 
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/work_with_form_data_model_krs_workflow_15d6c9caeb3c0c6a_177_report.xml" name="acrolinxReportURL" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/work-with-form-data-model.html" name="publishExternalURL" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:integration" name="cq:tags" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2018-04-03T08:55:52.115-0400" name="cq:lastReplicated" /> 
+  <meta content="624aff0c-f110-493d-b1c0-228fd41587a1" name="jcr:predecessors" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="Work with form data model" name="jcr:title" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="yellow" name="acrolinxPageStatus" /> 
+  <meta content="" name="jcr:description" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/integration;/content/help/en/experience-manager/6-4/forms/morehelp/integration" name="moreHelpPaths" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="2018-03-14T08:56:07.449-0400" name="firstPublishExternalDate" /> 
+  <meta content="3117" name="acrolinxWords" /> 
+  <meta content="2018-04-26T04:30:07.504-0400" name="locHandOffDate" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="2018-04-03T08:55:51.977-0400" name="publishExternalDate" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="en" name="pageCreatedAt" /> 
+  <meta content="118fabd2-2ac0-49ef-aa49-6e6bb454c8dd" name="jcr:uuid" /> 
+  <meta content="2018-04-03T08:55:51.977-0400" name="topicBrowsingSortDate" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="2018-03-14T09:01:20.185-0400" name="jcr:created" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="Data Integration provides form data model editor to configure and work with form data models." name="seoDescription" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="210" name="acrolinxSentences" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="vishgupt" name="cq:lastModifiedBy" /> 
+  <meta content="2018-03-14T10:10:21.154-0400" name="acrolinxDate" /> 
+  <meta content="2018-04-03T08:55:51.977-0400" name="lastPublishExternalDate" /> 
+ </head> 
+ <body> 
+  <img imageRotate="0" src="assets/data-integeration.png" /> 
+  <p>Form data model editor provides an intuitive user interface and tools for editing and configuring a form data model. Using the editor, you can add and configure data model objects, properties, and services from associated data sources in the form data model. In addition, it allows you to create data model objects and properties without data sources and bind them with respective data model objects and properties later. You can also generate and edit sample data for data model object properties that you can use to prefill adaptive forms and interactive communications while previewing. You can test data model objects and services configured in a form data model to ensure it is properly integrated with data sources.</p> 
+  <p>If you are new to Forms data integration and have not configured a data source or created a form data model, see the following topics:</p> 
+  <ul> 
+   <li><a href="../../forms/using/data-integration.md">AEM Forms Data Integration</a></li> 
+   <li><a href="../../forms/using/configure-data-sources.md">Configure data sources</a></li> 
+   <li><a href="../../forms/using/create-form-data-models.md">Create form data model</a></li> 
+  </ul> 
+  <p>Read on for details about various tasks and configurations you can perform using the form data model editor.</p> 
+  <note> 
+   <p>You must be a member of both <strong>fdm-author</strong> and <strong>forms-user</strong> groups to be able to create and work with form data model. Contact your AEM administrator to become a member of the groups.</p> 
+  </note> 
+  <h2>Add data model objects and services</h2> 
+  <p>If you created a form data model with data sources, you can use the form data model editor to add data model objects and services, configure their properties, build associations between data model objects, and test the form data model and services.</p> 
+  <p>You can add data model objects and services from available data sources in the form data model. While added data model objects appear in the Model tab, added services appear in the Services tab.</p> 
+  <p>To add data model objects and services:</p> 
+  <ol> 
+   <li><p>Log into the AEM author instance, navigate to <span class="uicontrol">Forms &amp;gt; Data Integrations</span>, and open the form data model in which you want to add data model objects.</p> </li> 
+   <li><p>In the Data Sources pane, expand data sources to view available data model objects and services.</p> </li> 
+   <li><p>Select data model objects and services you want to add to the form data model and tap <span class="uicontrol">Add Selected</span>.</p> <img captionBottom="Selected data model objects and services" imageRotate="0" src="assets/selected-objects.png" /><p>The Model tab displays a graphical representation of all data model objects and their properties added to the form data model. Each data model object is represented by a box in the form data model.</p> <img captionBottom="Model tab displays added data model objects" imageRotate="0" src="assets/model-tab.png" /> 
+    <note grayBox="true"> 
+     <p>You can hold and drag data model object boxes around to organize them in the content area. All data model objects added in the form data model are grayed out in the Data Sources pane.</p> 
+    </note><p>The Services tab lists added services.</p> <img captionBottom="Services tab displays data model services" imageRotate="0" src="assets/services-tab.png" /> 
+    <note> 
+     <p>In addition to data model objects and services, OData service metadata document includes navigation properties that define association between two data model objects. For more information, see <a href="#navigation-properties-odata">Working with navigation properties of OData services</a>.</p> 
+    </note></li> 
+   <li><p>Tap <span class="uicontrol">Save</span> to save the form model object.</p> 
+    <note grayBox="true"> 
+     <p>You can invoke services that you configured in the Services tab of a form data model using the adaptive form rules. The configured services are available in the Invoke services action of the rule editor For more information about using these services in adaptive form rules, see Invoke Services and Set Value Of rules in <a href="../../forms/using/rule-editor.md" target="_blank">rule editor</a>.</p> 
+    </note></li> 
+  </ol> 
+  <h2>Create data model objects and child properties</h2> 
+  <h3>Create data model objects</h3> 
+  <p>While you can add data model objects from configured data sources, you can also create data model objects or entities without data sources. It is helpful especially if you have not configured data sources in the form data model.</p> 
+  <p>To create a data model object without data sources:</p> 
+  <ol> 
+   <li><p>Log into the AEM author instance, navigate to <span class="uicontrol">Forms &amp;gt; Data Integrations</span>, and open the form data model in which you want to create a data model object or entity.</p> </li> 
+   <li><p>Tap <span class="uicontrol">Create Entity</span>.</p> </li> 
+   <li><p>In the Create data Model dialog, specify a name for the data model object and tap <span class="uicontrol">Add</span>. A data model object is added to the form data model. Note that the newly added data model object is not bound to a data source and does not have any properties as shown in the following image. </p> <img imageRotate="0" src="assets/new-entity.png" /></li> 
+  </ol> 
+  <p>Next, you can add child properties in unbound data model objects.</p> 
+  <h3 id="child-properties">Add child properties</h3> 
+  <p>Form data model editor allows you to create child properties in a data model object. The property when created is not bound to any property in a data source. You can later bind the child property with another property in the containing data model object. </p> 
+  <p>To create a child property:</p> 
+  <ol> 
+   <li><p>In a form data model, select a data model object and tap <span class="uicontrol">Create Child Property</span>. </p> </li> 
+   <li><p>In the <span class="uicontrol">Create Child Property</span> dialog, specify a name and data type for the property in the <span class="uicontrol">Name</span> and <span class="uicontrol">Type</span> fields, respectively. You can optionally specify a title and description for the property.</p> </li> 
+   <li><p>Enable Computed if the property is a computed property. The value of a computed property is evaluated based on a rule or an expression. For more information, see <a href="#edit-properties">Edit properties</a>.</p> </li> 
+   <li><p>If the data model object is bound to a data source, the added child property is automatically bound to the property of the parent data model object with the same name and data type. </p> <p>To manually bind a child property with a data model object property, tap the browse icon next to the <span class="uicontrol">Bind Reference</span> field. The <span class="uicontrol">Select Object</span> dialog lists all properties from the parent data model object. Select a property to bind with and tap the tick icon. Note that you can only select a property of the same data type as the child property.</p> </li> 
+   <li><p>Tap <span class="uicontrol">Done</span> to save the child property and tap <span class="uicontrol">Save</span> to save the form data model.. The child property is now added to the data model object.</p> </li> 
+  </ol> 
+  <p>After you have created data model objects and properties, you can continue to create adaptive forms and interactive communications based on the form data model. Later, when you have data sources available and configured, you can bind the form data model with data sources. The binding will automatically get updated in associated adaptive forms and interactive communications. For more information about creating adaptive forms and interactive communications using form data model, see <a href="../../forms/using/using-form-data-model.md">Use form data model</a>.</p> 
+  <h3>Bind data model objects and properties</h3> 
+  <p>When the data sources you want to integrate with the form data model are available, you can add them to the form data model as described in <a href="../../forms/using/create-form-data-models.md#update" target="_blank">Update data sources</a>. Then, do the following to bind the unbound data model objects and properties:</p> 
+  <ol> 
+   <li><p>In the form data model, select the unbound data source that you want to bind with a data source.</p> </li> 
+   <li><p>Tap <span class="uicontrol">Edit Properties</span>. </p> </li> 
+   <li><p>In the <span class="uicontrol">Edit Properties</span> pane, tap the browse icon next to the <span class="uicontrol">Binding</span> field. It opens the <span class="uicontrol">Select Object</span> dialog that lists data sources added in the form data model.</p> <img imageRotate="0" src="assets/select-object.png" /></li> 
+   <li><p>Expand the data sources tree and select a data model object to bind with and tap the tick icon.</p> </li> 
+   <li><p>Tap <span class="uicontrol">Done</span> to save the properties and then tap <span class="uicontrol">Save</span> to save the form data model. The data model object is now bound with a data source. Notice the data model object is no longer marked Unbound. </p> <img imageRotate="0" src="assets/bound-model-object.png" /></li> 
+  </ol> 
+  <h2>Configure services</h2> 
+  <p>To read and write data for a data model object, do the following to configure read and write services:</p> 
+  <ol> 
+   <li><p>Select the check box at the top of a data model object to select it and tap <span class="uicontrol">Edit Properties</span>.</p> <img captionBottom="Edit properties to configure read and write services for a data model object" imageRotate="0" src="assets/edit-properties.png" /><p>The Edit Properties dialog opens.</p> <img captionBottom="Edit Properties dialog" imageRotate="0" src="assets/edit-properties-2.png" /> 
+    <note> 
+     <p>In addition to data model objects and services, OData service metadata document includes navigation properties that define association between two data model objects. When you add an OData service datasource to a Form Data Model, there is a service available in Form Data Model for all navigation properties in a data model object. You can use this service to read the navigation properties of the corresponding data model object. </p> 
+     <p>For more information using the service, see <a href="#navigation-properties-odata">Working with navigation properties of OData services</a>.</p> 
+    </note></li> 
+   <li><p>Toggle <span class="uicontrol">Top Level Object</span> to specify if the data model object is a top-level model object.</p> <p>Data model objects configured in a form data model are available for use in the Data Model Objects tab in the Content browser of an adaptive form based on the form data model. When you add association between two data model objects, the data model object you are associating with is nested under the data model object you are associating from in the Data Model Objects tab. If the nested data model is a top-level object, it will also appear separately in the Data Model Objects tab. Therefore, you will see two entries of it, one inside and another outside the nested hierarchy, which might confuse form authors. To make the associated data model object appear only in the nested hierarchy, disable the Top Level Object property. </p> </li> 
+   <li><p>Select Read and Write services for the selected data model objects. The arguments for the services appear.</p> <img captionBottom="Read and write services configured for employee data source" imageRotate="0" src="assets/read-write-services.png" /></li> 
+   <li><p>Tap <img src="assets/aem_6_3_edit.png" /> for the read service argument to bind the argument to a User Profile Attribute, Request Attribute, or Literal value and specify the binding value. It binds the service argument to the specified binding attribute or literal value, which is passed to the service as an argument to fetch details associated with the specified value from the data source.</p> <p>In this example, the <span class="code">id</span> argument will take the value of the <span class="code">empid</span> attribute of the user profile and pass it as an argument to the read service. It will read and return values of associated properties from the <span class="code">employee</span> data model object for the specified <span class="code">empid</span>. So, if you specify 00250 in the <span class="code">empid</span> field in the form, the read service will read details of the employee with 00250 employee id. </p> <p>In addition, you can make an argument mandatory or optional.</p> <img captionBottom="Binding the id argument to empid attribute of AEM User Profile" imageRotate="0" src="assets/edit-argument.png" /></li> 
+   <li><p>Tap <span class="uicontrol">Done</span> to save the argument, <span class="uicontrol">Done</span> to save the properties, and then <span class="uicontrol">Save</span> to save the form data model.</p> </li> 
+  </ol> 
+  <h2>Add associations</h2> 
+  <p>Typically, there are associations built between data model objects in a data source. The association can be one-to-one or one-to-many. For example, there can be multiple dependents associated with an employee. It is referred to as one-to-many association and depicted by <span class="code">1:n</span> on the line connecting associated data model objects. However, if an association returns a unique employee name for a given employee ID, it is referred to as one-to-one association.</p> 
+  <p>When you add associated data model objects in a data source to a form data model, their associations are retained and displayed as connected by arrow lines. You can add associations between data model objects across disparate data sources in a form data model.</p> 
+  <note grayBox="true"> 
+   <p>Predefined associations in a JDBC data source are not retained in the form data model. You must create them manually.</p> 
+  </note> 
+  <p>To add an association:</p> 
+  <ol> 
+   <li><p>Select the check box at the top of a data model object to select it and tap <span class="uicontrol">Add Association</span>. The Add Association dialog opens.</p> <img imageRotate="0" src="assets/add-association.png" /> 
+    <note> 
+     <p>In addition to data model objects and services, OData service metadata document includes navigation properties that define association between two data model objects. You can use these navigation properties when adding associations in Form Data Model. For more information, see <a href="#navigation-properties-odata">Working with navigation properties of OData services</a>.</p> 
+    </note><p>The Add Association dialog opens.</p> <img captionBottom="Add Association dialog" imageRotate="0" src="assets/add-association-2.png" /></li> 
+   <li><p>In the Add Association pane:</p> 
+    <ul> 
+     <li>Specify a title for the association.</li> 
+     <li>Select the association type — One to One or One to Many.</li> 
+     <li>Select the data model object to associate with.</li> 
+     <li>Select the read service to read data from the selected model object. The read service argument appears. Edit to change the argument, if necessary, and bind it to the property of the data model object to associate.</li> 
+    </ul> <p>In the following example, the default argument for the read service of the Dependents data model object is <span class="code">dependentid</span>.</p> <img captionBottom="Default argument for Dependents read service is dependentid" imageRotate="0" src="assets/add-association-example.png" /><p>However, the argument must be a common property between the associating data model object, which in this example is <span class="code">Employeeid</span>. Therefore, the <span class="code">Employeeid</span> argument must be bound to the <span class="code">id</span> property of the Employee data model object to fetch the associated dependents details from the Dependents data model object.</p> <img captionBottom="Updated argument and binding" imageRotate="0" src="assets/add-association-example-2.png" /><p>Tap <span class="uicontrol">Done</span> to save the argument.</p> </li> 
+   <li><p>Tap <span class="uicontrol">Done</span> to save the association and then <span class="uicontrol">Save</span> to save the form data model.</p> </li> 
+   <li><p>Repeat the steps to create more associations as required.</p> </li> 
+  </ol> 
+  <note grayBox="true"> 
+   <p>The added association appears in the data model object box with the specified title and a line connecting the associated data model objects.</p> 
+   <p>You can edit an association by selecting the checkbox against it and tap <span class="uicontrol">Edit Association</span>.</p> 
+  </note> 
+  <img imageRotate="0" src="assets/added-association.png" title="Edit data model objects association" /> 
+  <h2 id="properties">Edit properties</h2> 
+  <p>You can edit properties of data model objects, their properties, and services added in the form data model. </p> 
+  <p>To edit properties:</p> 
+  <ol> 
+   <li><p>Select the check box next to a data model object, a property, or a service in the form data model.</p> </li> 
+   <li><p>Tap <span class="uicontrol">Edit Properties</span>. The <span class="uicontrol">Edit Properties</span> pane for the selected model object, property, or service opens.</p> 
+    <ul> 
+     <li><strong>Data model object</strong>: Specify the read and write services and edit arguments.</li> 
+     <li><strong>Property</strong>: Specify the type, sub-type, and format for the property. You can also specify if the selected property is the primary key for the data model object.</li> 
+     <li><strong>Service</strong>: Specify the input model object, output type, and arguments for the service. For a Get service, you can specify if it is expected to return an array.</li> 
+    </ul>  <img captionBottom="Edit Properties dialog for a get service" imageRotate="0" src="assets/edit-properties-service.png" /></li> 
+   <li><p>Tap <span class="uicontrol">Done</span> to save properties and then <span class="uicontrol">Save</span> to save the form data model.</p> </li> 
+  </ol> 
+  <h3 id="computed">Create computed properties</h3> 
+  <p>A computed property is the one whose value is computed based on a rule or an expression. Using a rule, you can set the value of a computed property to a literal string, a number, result of a mathematical expression, or the value of another property in the form data model.</p> 
+  <p>For example, you can create a computed property <strong>FullName</strong> whose value is a result of concatenation the existing <strong>FirstName</strong> and <strong>LastName</strong> properties. To do so: </p> 
+  <ol> 
+   <li><p>Create a new property with the name <span class="kbd">FullName</span> whose data type is String.</p> </li> 
+   <li><p>Enable <span class="uicontrol">Computed </span>and tap <span class="uicontrol">Done </span>to create the property.</p> <img imageRotate="0" src="assets/computed.png" /><p>The FullName computed property gets created. Notice the icon next to the property to depict a computed property.</p> <img imageRotate="0" src="assets/computed-prop.png" /></li> 
+   <li><p>Select the FullName property and tap <span class="uicontrol">Edit Rule</span>. A rule editor window opens.</p> </li> 
+   <li><p>In the rule editor window, tap <span class="uicontrol">Create</span>. A <span class="uicontrol">Set Value</span> rule window opens.</p> <p>From the Select Option drop-down, select <span class="uicontrol">Mathematical Expression</span>. Other available options are <span class="uicontrol">Form Data Model Object</span> and <span class="uicontrol">String</span>.</p> </li> 
+   <li><p>In the mathematical expression, Select <span class="uicontrol">FirstName</span> and <span class="uicontrol">LastName</span> in first and second objects, respectively. Select <span class="uicontrol">plus</span> as the operator.</p> <p>Tap <span class="uicontrol">Done</span> and then tap <span class="uicontrol">Close</span> to close the rule editor window. The rule looks similar to the following.</p> <img imageRotate="0" src="assets/rule.png" /></li> 
+   <li><p>On the form data model, tap <span class="uicontrol">Save</span>. The computed property is configured.</p> </li> 
+  </ol> 
+  <h2>Work with navigation properties of OData services</h2> 
+  <p>In OData services, navigation properties are used to define associations between two data model objects. These properties are defined on an entity type or a complex type. For example, in the following extract from the metadata file of the sample <a href="http://www.odata.org/blog/trippin-new-odata-v4-sample-service/">TripPin</a> OData sample services, the person entity contains three navigation properties - Friends, BestFriend, and Trips.</p> 
+  <p>For more information about navigation properties, see <a href="http://docs.oasis-open.org/odata/odata/v4.0/errata03/os/complete/part3-csdl/odata-v4.0-errata03-os-part3-csdl-complete.html#_Toc453752536">OData documentation</a>.</p> 
+  <codeblock gutter="true" class="syntax xml">
+    &lt;edmx:Edmx&amp;nbsp;xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx"&amp;nbsp;Version="4.0"&gt;!!discoiqbr!!&lt;script/&gt;!!discoiqbr!!&lt;edmx:DataServices&gt;!!discoiqbr!!&lt;Schema&amp;nbsp;xmlns="http://docs.oasis-open.org/odata/ns/edm"&amp;nbsp;Namespace="Microsoft.OData.Service.Sample.TrippinInMemory.Models"&gt;!!discoiqbr!!&lt;EntityType&amp;nbsp;Name="Person"&gt;!!discoiqbr!!&lt;Key&gt;!!discoiqbr!!&lt;PropertyRef&amp;nbsp;Name="UserName"/&gt;!!discoiqbr!!&lt;/Key&gt;!!discoiqbr!!&lt;Property&amp;nbsp;Name="UserName"&amp;nbsp;Type="Edm.String"&amp;nbsp;Nullable="false"/&gt;!!discoiqbr!!&lt;Property&amp;nbsp;Name="FirstName"&amp;nbsp;Type="Edm.String"&amp;nbsp;Nullable="false"/&gt;!!discoiqbr!!&lt;Property&amp;nbsp;Name="LastName"&amp;nbsp;Type="Edm.String"/&gt;!!discoiqbr!!&lt;Property&amp;nbsp;Name="MiddleName"&amp;nbsp;Type="Edm.String"/&gt;!!discoiqbr!!&lt;Property&amp;nbsp;Name="Gender"&amp;nbsp;Type="Microsoft.OData.Service.Sample.TrippinInMemory.Models.PersonGender"&amp;nbsp;Nullable="false"/&gt;!!discoiqbr!!&lt;Property&amp;nbsp;Name="Age"&amp;nbsp;Type="Edm.Int64"/&gt;!!discoiqbr!!&lt;Property&amp;nbsp;Name="Emails"&amp;nbsp;Type="Collection(Edm.String)"/&gt;!!discoiqbr!!&lt;Property&amp;nbsp;Name="AddressInfo"&amp;nbsp;Type="Collection(Microsoft.OData.Service.Sample.TrippinInMemory.Models.Location)"/&gt;!!discoiqbr!!&lt;Property&amp;nbsp;Name="HomeAddress"&amp;nbsp;Type="Microsoft.OData.Service.Sample.TrippinInMemory.Models.Location"/&gt;!!discoiqbr!!&lt;Property&amp;nbsp;Name="FavoriteFeature"&amp;nbsp;Type="Microsoft.OData.Service.Sample.TrippinInMemory.Models.Feature"&amp;nbsp;Nullable="false"/&gt;!!discoiqbr!!&lt;Property&amp;nbsp;Name="Features"&amp;nbsp;Type="Collection(Microsoft.OData.Service.Sample.TrippinInMemory.Models.Feature)"&amp;nbsp;Nullable="false"/&gt;!!discoiqbr!!&lt;NavigationProperty&amp;nbsp;Name="Friends"&amp;nbsp;Type="Collection(Microsoft.OData.Service.Sample.TrippinInMemory.Models.Person)"/&gt;!!discoiqbr!!&lt;NavigationProperty&amp;nbsp;Name="BestFriend"&amp;nbsp;Type="Microsoft.OData.Service.Sample.TrippinInMemory.Models.Person"/&gt;!!discoiqbr!!&lt;NavigationProperty&amp;nbsp;Name="Trips"&amp;nbsp;Type="Collection(Microsoft.OData.Service.Sample.TrippinInMemory.Models.Trip)"/&gt;!!discoiqbr!!&lt;/EntityType&gt; 
+  </codeblock> 
+  <p>When you configure an OData service in a Form Data Model, all navigation properties in an entity container are made available through a service in the Form Data Model. In this example of TripPin OData service, the three navigation properties in the <span class="code">Person</span> entity container can be read using one <span class="code">GET LINK</span> service in the Form Data Model. </p> 
+  <p>The following highlights the <span class="code">GET LINK of Person /People</span> service in the Form Data Model, which is a combined service for the three navigation properties in the <span class="code">Person</span> entity of the TripPin OData service. </p> 
+  <img imageRotate="0" src="assets/nav-prop-service.png" /> 
+  <p>Once you add the <span class="code">GET LINK</span> service to the Services tab in the Form Data Model, you can edit the properties to choose the output model object and the navigation property to use in the service. For example, the following <span class="code">GET LINK of Person /People</span> service in the following example uses Trip as the output model object and the navigation property as Trips.</p> 
+  <img imageRotate="0" src="assets/edit-prop-nav-prop.png" /> 
+  <note> 
+   <p>The values available in the <strong>Default Value</strong> field of the <strong>NavigationPropertyName</strong> argument depend on the state of the <strong>Return array?</strong> toggle button. When it is enabled, it shows navigation properties of Collection type.</p> 
+  </note> 
+  <p>In this example, you can also choose the output model object as Person and navigation property argument as Friends or BestFriend (depending on whether <strong>Return array?</strong> is enabled or disabled).</p> 
+  <img imageRotate="0" src="assets/edit-prop-nav-prop2.png" /> 
+  <p>Similarly, you can choose a <span class="code">GET LINK</span> service and configure its navigation properties when adding associations in the Form Data Model. However, to be able to select a navigation property, ensure that the <span class="uicontrol">Binding To field</span> is set to <strong>Literal</strong>.</p> 
+  <img imageRotate="0" src="assets/add-association-nav-prop.png" /> 
+  <h2 id="sample">Generate and edit sample data</h2> 
+  <p>Form data model editor allows you to generate sample data for all data model object properties, including computed properties, in a form data model. It is a set of random values that comply with the data type configured for each property. You can also edit and save data, which is retained even if you regenerate the sample data.</p> 
+  <p>Do the following to generate and edit sample data:</p> 
+  <ol> 
+   <li><p>Open a form data model and tap <span class="uicontrol">Edit Sample Data</span>. It generates and displays the sample data in Edit Sample Data window.</p> <img imageRotate="0" src="assets/sample-data.png" /></li> 
+   <li><p>In <span class="uicontrol">Edit Sample Data</span> window, edit data, as required, and tap <span class="uicontrol">Save</span>.</p> </li> 
+  </ol> 
+  <p>Next, you can use the sample data to prefill and test interactive communications based on the form data model. For more information, see <a href="../../forms/using/using-form-data-model.md">Use form data model</a>.</p> 
+  <h2>Test data model objects and services</h2> 
+  <p>Your form data model is configured but before putting it in use, you may want to test if the configured data model objects and services are working as expected. To test data model objects and services:</p> 
+  <ol> 
+   <li><p>Select a data model object or a service in the form data model and tap <span class="uicontrol">Test Model Object</span> or <span class="uicontrol">Test Service</span>, respectively.</p> <p>The Test Form Data Model window opens.</p> <img imageRotate="0" src="assets/test-data-model.png" /></li> 
+   <li><p>In the Test Form Data Model window, select the data model object or service to test from the Input pane.<br /> </p> </li> 
+   <li><p>Specify an argument value in the test code and tap <span class="uicontrol">Test</span>. A successful test returns the output in the Output pane.<br /> </p> <img imageRotate="0" src="assets/test-data-model-2.png" /></li> 
+  </ol> 
+  <p>Similarly, you can test other data model objects and services in the form data model.</p> 
+  <h2>Next steps</h2> 
+  <p>You have a working form data model that is now ready for use in adaptive forms and interactive communications workflows. For more information, see <a href="../../forms/using/using-form-data-model.md" target="_blank">Use form data model</a>.</p> 
+ </body> 
+</html>

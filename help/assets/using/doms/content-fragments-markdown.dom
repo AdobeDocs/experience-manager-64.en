@@ -1,0 +1,145 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="Markdown" name="seoTitle" /> 
+  <meta content="2019-01-12T17:28:07.182-0500" name="acrolinxDate" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2019-01-02T02:53:39.084-0500" name="lastPublishExternalDate" /> 
+  <meta content="asgupta" name="acrolinxLastCheckedBy" /> 
+  <meta content="/content/docs/en/aem/6-3/author/assets/content-fragments/markdown" name="qaNotes" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS" name="primaryProductTag" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/assets/using/content-fragments-markdown.html" name="publishExternalURL" /> 
+  <meta content="2019-01-02T02:53:39.092-0500" name="cq:lastModified" /> 
+  <meta content="725" name="acrolinxWords" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS;topic_tags:content-fragments;content_type:reference" name="cq:tags" /> 
+  <meta content="35e6b774-faad-4a57-a24a-85306c198da8" name="jcr:predecessors" /> 
+  <meta content="aheimoz@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="aheimoz" name="cq:lastModifiedBy" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="Alison Heimoz" name="contentOwner" /> 
+  <meta content="/content/help/en/experience-manager/6-4/assets/morehelp/content-fragments;/content/help/en/experience-manager/6-4/assets/morehelp/content-fragments" name="moreHelpPaths" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2019-01-02T02:53:39.084-0500" name="topicBrowsingSortDate" /> 
+  <meta content="27295e8f-fcd2-4176-9d26-2342c0855a88" name="jcr:uuid" /> 
+  <meta content="Markdown" name="jcr:title" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="65" name="acrolinxSentences" /> 
+  <meta content="2019-01-02T02:53:39.084-0500" name="publishExternalDate" /> 
+  <meta content="Markdown" name="navTitle" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="checked_not_improved" name="acrolinxStatus" /> 
+  <meta content="aheimoz" name="cq:lastReplicatedBy" /> 
+  <meta content="2019-01-02T02:53:39.628-0500" name="cq:lastReplicated" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2017-10-31T16:35:02.760-0400" name="firstPublishExternalDate" /> 
+  <meta content="2018-01-11T19:02:31.711-0500" name="jcr:created" /> 
+  <meta content="2018-04-24T11:58:37.790-0400" name="locHandOffDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/content_fragments_markdown_krs_workflow_f3c2f2ccebf6138e_119_report.xml" name="acrolinxReportURL" /> 
+  <meta content="When you are authoring, the content fragment editor uses markdown syntax to allow you to easily write content." name="seoDescription" /> 
+ </head> 
+ <body> 
+  <note> 
+   <p>Some Content Fragment functionality requires the application of <a href="../../release-notes/sp-release-notes.md">AEM 6.4 Service Pack 2 (6.4.2.0) or later</a>.</p> 
+  </note> 
+  <p>When you are <a href="../../assets/using/content-fragments-variations.md#authoringyourcontent">authoring</a>, the content fragment editor uses <em>markdown</em> syntax to allow you to easily write content: <br /> </p> 
+  <img imageRotate="0" src="assets/cfm-6420-08.png" /> 
+  <p>You can define:</p> 
+  <ul> 
+   <li><a href="#headingnotation">Heading Notation</a></li> 
+   <li><a href="#paragraphsandlinebreaks">Paragraphs and Line Breaks</a></li> 
+   <li><a href="#links">Links</a></li> 
+   <li><a href="#images">Images</a></li> 
+   <li><a href="#blockquotes">Block Quotes</a></li> 
+   <li><a href="#lists">Lists</a></li> 
+   <li><a href="#emphasis">Emphasis</a></li> 
+   <li><a href="#codeblocks">Code Blocks</a></li> 
+   <li><a href="#backslashescapes">Backslash Escapes</a></li> 
+  </ul> 
+  <h3>Heading Notation</h3> 
+  <p>To create a header by placing a hash tag (#) in front of the heading. One hash tag (#) is used for an H1, two hash tags (##) for a H2 etc. You can use up to 6 hash tags. For example:</p> 
+  <p style="margin-left: 40px;"><i>#This is an H1</i></p> 
+  <p style="margin-left: 40px;"><i>##This is an H2</i></p> 
+  <p style="margin-left: 40px;"><i>###### This is a H6</i></p> 
+  <p>Optionally, you can create a H1 by underlining the text in equal signs and create a H2 by underlining the text in minus signs. For example:</p> 
+  <p style="margin-left: 40px;"><i>This is an H1<br /> ==========</i></p> 
+  <p style="margin-left: 40px;"><i>This is an H2<br /> --------------</i><br /> </p> 
+  <h3>Paragraphs and Line Breaks</h3> 
+  <p>A paragraph is simply one or more consecutive lines of text, separated by one or more blank lines. A blank line is a line containing nothing but spaces or tabs. Normal paragraphs should not be indented with spaces or tabs.</p> 
+  <p>A line break is created by ending a line with two or more spaces then a return.</p> 
+  <h3>Links</h3> 
+  <p>You can create inline and reference links.</p> 
+  <p>In both styles, the link text is delimited by square brackets [].</p> 
+  <p>These are examples of inline links:</p> 
+  <p style="margin-left: 40px;"> <i>This is [an example](http://example.com/ "Title") inline link.</i></p> 
+  <p style="margin-left: 40px;"> <i>This is [an example of an email link](emailto:myaddress@mydomain.info)</i></p> 
+  <p style="margin-left: 40px;"><i> [This link](http://example.net/) has no title attribute.</i></p> 
+  <p>A reference link has the following syntax:</p> 
+  <p style="margin-left: 40px;"><i> Hey you should [checkout][0] this [cool thing][wiki] that I [made][]. <br /> <br /> [0]: http://www.google.ca<br /> [wiki]: http://www.wikipedia.org<br /> [made]: http://www.stackoverflow.com<br /> </i></p> 
+  <h3>Images</h3> 
+  <p>The syntax for images is similar to the links. You can create inline and reference links.</p> 
+  <p>For example, an inline image has the following syntax:</p> 
+  <p style="margin-left: 40px;"><i>![Alt text](/path/to/img.jpg)<br /> <br /> ![Alt text](/path/to/img.jpg "Optional title")</i></p> 
+  <p>The syntax includes:</p> 
+  <ul> 
+   <li>An exclamation mark: !;</li> 
+   <li>followed by a set of square brackets, containing the alt attribute text for the image;</li> 
+   <li>followed by a set of parentheses, containing the URL or path to the image, and an optional title attribute enclosed in double or single quotes.</li> 
+  </ul> 
+  <p>A Reference-style image has the following syntax:</p> 
+  <p style="margin-left: 40px;"><i>![Alt text][id]</i></p> 
+  <p>Where “i<i>d”</i> is the name of a defined image reference. Image references are defined using syntax identical to link references:</p> 
+  <p style="margin-left: 40px;"><i>[id]: url/to/image "Optional title attribute"</i></p> 
+  <h3>Block Quotes</h3> 
+  <p>You can quote text by adding the &amp;gt; symbol before the text. For example:</p> 
+  <p style="margin-left: 40px;"> <i>&amp;gt;This is block quotes<br /> &amp;gt;asdhfjlkasdhlf<br /> &amp;gt;asdfahsdlfasdfj</i></p> 
+  <p>You can have nested block quotes. For example:</p> 
+  <p style="margin-left: 40px;"> <i> &amp;gt; This is the first level of quoting.<br /> &amp;gt;<br /> &amp;gt; &amp;gt; This is nested blockquote.<br /> &amp;gt;<br /> &amp;gt; Back to the first level.</i></p> 
+  <h3>Lists</h3> 
+  <p>You can create both ordered and unordered lists.</p> 
+  <p>To create an unordered list, use the * symbol before the items in the list. For example<i>:</i></p> 
+  <p style="margin-left: 40px;"><i>* item in list<br /> * item in list<br /> * item in list</i></p> 
+  <p>To create an ordered list, add the numbers, followed by a period, before each item in the list. For example:</p> 
+  <p style="margin-left: 40px;"><i>1. First item in list.<br /> 2. Second item in list.<br /> 3. Third item in list.</i></p> 
+  <h3>Emphasis</h3> 
+  <p>You can add italic or bold styling to your text. </p> 
+  <p>To can add italics as follows:</p> 
+  <p style="margin-left: 40px;"><i>*single asterisks*</i></p> 
+  <p style="margin-left: 40px;"><i>_single underscores_</i></p> 
+  <p style="margin-left: 40px;">Keyboard shortcut: Ctrl-I (Cmd-I)</p> 
+  <p>You can bold text as follows:</p> 
+  <p style="margin-left: 40px;"><i>**double asterisks**</i></p> 
+  <p style="margin-left: 40px;"><i>__double underscores__</i></p> 
+  <p style="margin-left: 40px;">Keyboard shortcut: Ctrl-B (Cmd-B)</p> 
+  <p>To indicate a span of code, wrap it with backtick quotes (`). Unlike a pre-formatted code block, a code span indicates code within a normal paragraph. </p> 
+  <p>For example:</p> 
+  <p style="margin-left: 40px;"><i>Use the `printf()` function.</i></p> 
+  <h3>Code Blocks</h3> 
+  <p>Code blocks are typically used to illustrate source code. You can create code blocks by indenting the code using a tab or a minimum of 4 spaces. For example:</p> 
+  <p style="margin-left: 40px;"><i>This is a normal paragragh.</i></p> 
+  <p style="margin-left: 40px;"><i> This is a code block.</i></p> 
+  <h3>Backslash escapes</h3> 
+  <p>You can use backslash escapes to generate literal characters which have special meaning in formatting syntax. For example, if you wanted to surround a word with literal asterisks (instead of an HTML &amp;lt;em&amp;gt; tag), you can use backslashes before the asterisks, like this:</p> 
+  <p style="margin-left: 40px;">\*literal asterisks\*</p> 
+  <p>Backslash escapes are available for the following characters:</p> 
+  <p style="margin-left: 40px;"><i>\ backslash</i></p> 
+  <p style="margin-left: 40px;"><i>` backtick</i></p> 
+  <p style="margin-left: 40px;"><i>* asterisk</i></p> 
+  <p style="margin-left: 40px;"><i>_ underscore</i></p> 
+  <p style="margin-left: 40px;"><i>{} curly braces</i></p> 
+  <p style="margin-left: 40px;"><i>[] square brackets</i></p> 
+  <p style="margin-left: 40px;"><i>() parentheses</i></p> 
+  <p style="margin-left: 40px;"><i># hash mark</i></p> 
+  <p style="margin-left: 40px;"><i>+ plus sign</i></p> 
+  <p style="margin-left: 40px;"><i>- minus sign (hyphen)</i></p> 
+  <p style="margin-left: 40px;"><i>. dot</i></p> 
+ </body> 
+</html>

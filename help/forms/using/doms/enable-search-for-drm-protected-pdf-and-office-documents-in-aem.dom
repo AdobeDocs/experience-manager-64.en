@@ -1,0 +1,128 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2018-04-26T04:38:36.866-0400" name="locHandOffDate" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="b520936f-b5db-4230-86f3-c76dbc652b0e" name="jcr:uuid" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/enable-search-for-drm-protected-pdf-and-office-documents-in-aem.html" name="publishExternalURL" /> 
+  <meta content="true" name="noIndex" /> 
+  <meta content="2015-12-14T08:57:42.602-0500" name="lastPublishQADate" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2018-04-03T08:29:23.999-0400" name="cq:lastReplicated" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="Learn how to enable native AEM search to perform full-text search on DRM protected PDF documents.  " name="seoDescription" /> 
+  <meta content="2018-04-03T08:29:22.399-0400" name="topicBrowsingSortDate" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="2018-04-26T04:38:36.866-0400" name="cq:lastModified" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="604" name="acrolinxWords" /> 
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/working_with_document_security;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="Enable AEM to search document security protected PDF and Microsoft Office documents" name="jcr:title" /> 
+  <meta content="50" name="acrolinxSentences" /> 
+  <meta content="2018-04-03T08:29:22.399-0400" name="publishExternalDate" /> 
+  <meta content="yellow" name="acrolinxPageStatus" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2017-12-01T19:06:12.311-0500" name="jcr:created" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="" name="privateBeta" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="2016-12-22T04:59:04.666-0500" name="acrolinxDate" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="f34b8a69-18f6-461f-a930-01ab7edb03b5" name="jcr:predecessors" /> 
+  <meta content="2016-12-23T01:40:03.841-0500" name="firstPublishExternalDate" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/using/morehelp/working_with_document_security;/content/help/en/experience-manager/6-4/forms/using/morehelp/working_with_document_security" name="moreHelpPaths" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2018-04-03T08:29:22.399-0400" name="lastPublishExternalDate" /> 
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/_for_drm_protected_pdf_and_office_documents_in_aem_krs_workflow_c77e08fb6f309c49_29_report.xml" name="acrolinxReportURL" /> 
+ </head> 
+ <body> 
+  <p>Adobe Experience Manager provides a user interface to search and locate various assets stored in AEM. The native search is capable of searching and locating AEM assets and performing 
+   <g class="gr_ gr_9 gr-alert gr_gramm gr_run_anim Grammar only-ins doubleReplace replaceWithoutSep" data-gr-id="9">
+     text 
+   </g> search on various commonly used document formats such as plain-text files, Microsoft Office documents, and PDF documents. You can also extend and enable the native search to perform 
+   <g class="gr_ gr_11 gr-alert gr_gramm gr_run_anim Grammar only-ins doubleReplace replaceWithoutSep" data-gr-id="11">
+     full-text 
+   </g> search on DRM protected PDF and Microsoft Office documents. </p> 
+  <p>Perform the following steps to enable AEM to search document security protected PDF and Microsoft Office documents:</p> 
+  <h3>Before you start</h3> 
+  <ul> 
+   <li>Install and configure AEM Forms document security.</li> 
+   <li>Add package sun.util.calendar to the whitelist of the <strong>Deserialization Firewall Configuration.</strong> The configuration is listed at http://[server]:[port]/system/console/configMgr.</li> 
+   <li>Ensure that all AEM bundles are up and running. The bundles are listed at http://[server]:[port]/system/console/bundles. If all the bundles are not active, wait, and check the status of the bundles after for a few minutes.<br /> </li> 
+  </ul> 
+  <h3>Establish a secure connection within AEM Forms workflow (AEM Forms on JEE)</h3> 
+  <p>A secure connection enables 
+   <g class="gr_ gr_6 gr-alert gr_gramm gr_run_anim Grammar only-ins doubleReplace replaceWithoutSep" data-gr-id="6">
+     seamless 
+   </g> flow of information between AEM Forms on JEE and the OSGi services running on the same server. Use one of the following 
+   <g class="gr_ gr_7 gr-alert gr_gramm gr_run_anim Grammar multiReplace" data-gr-id="7" />method to establish a secure connection:</p> 
+  <ul> 
+   <li>Configure AEM Forms Client SDK Bundle with AEM Forms on JEE admin credentials</li> 
+   <li>Configure AEM Forms Client SDK Bundle using mutual authentication </li> 
+  </ul> 
+  <h4>Configure AEM Forms Client SDK Bundle with AEM Forms on JEE admin credentials</h4> 
+  <ol> 
+   <li><p>Open AEM configuration manager and login as an administrator. The default URL is http://&amp;lt;serverName&amp;gt;:&amp;lt;port&amp;gt;/lc/system/console/configMgr.</p> </li> 
+   <li><p>Search and open the AEM Forms Client SDK Bundle. Specify value for the following properties:</p> 
+    <ul> 
+     <li><strong>Server URL: </strong>Specify HTTP URL of AEM Forms on JEE server. To enable communication over https, restart the AEM Forms on JEE server with the -Djavax.net.ssl.trustStore=&amp;lt;path of AEM Forms on JEE 
+      <g class="gr_ gr_16 gr-alert gr_spell gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="16">
+        keystore 
+      </g> file&amp;gt; parameter.</li> 
+     <li><strong>Service Name</strong>: Add the RightsManagementService to the list of specified services.</li> 
+     <li><strong>Username: </strong>Specify username of the AEM Forms on JEE account to use to initiate calls from AEM Forms on JEE server. The account specified must have permissions to invoke Document services on the AEM Forms on JEE server.</li> 
+     <li><strong>Password</strong>: Specify password of the AEM Forms on JEE account mentioned in the Username field.</li> 
+    </ul> <p>Click <strong>Save</strong>. AEM is enabled to search document security protected PDF and Microsoft Office documents.</p> </li> 
+  </ol> 
+  <h4>Configure AEM Forms Client SDK Bundle using mutual authentication</h4> 
+  <ol> 
+   <li><p>Enable mutual authentication for AEM Forms on JEE. For detailed information, see <a href="https://helpx.adobe.com/livecycle/kb/cac-mutual-authentication.html" target="_blank">CAC and Mutual Authentication</a>.</p> </li> 
+   <li><p>Open AEM configuration manager and login as an administrator. The default URL is http://&amp;lt;serverName&amp;gt;:&amp;lt;port&amp;gt;/lc/system/console/configMgr.</p> </li> 
+   <li><p>Search and open the AEM Forms Client SDK Bundle. Specify value for the following properties:</p> 
+    <ul> 
+     <li><strong>Server URL: </strong>Specify HTTPS URL of AEM Forms on JEE server. To enable communication over https, restart the AEM Forms on JEE server with the -Djavax.net.ssl.trustStore=&amp;lt;path of AEM Forms on JEE 
+      <g class="gr_ gr_26 gr-alert gr_spell gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="26">
+        keystore 
+      </g> file&amp;gt; parameter.</li> 
+     <li><strong>Enable 2-way SSL</strong>: Enable the Enable 2-way SSL option.</li> 
+     <li><strong>KeyStore File URL</strong>: Specify the URL of the 
+      <g class="gr_ gr_21 gr-alert gr_spell gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="21">
+        keystore 
+      </g> file.</li> 
+     <li><strong>TrustStore 
+       <g class="gr_ gr_24 gr-alert gr_spell gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="24">
+         FIle 
+       </g> URL</strong>: Specify the URL of the 
+      <g class="gr_ gr_25 gr-alert gr_spell gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="25">
+        truststore 
+      </g> file.<br /> </li> 
+     <li><strong>KeyStore Password</strong>: Specify the password for the 
+      <g class="gr_ gr_23 gr-alert gr_spell gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="23">
+        keystore 
+      </g> file.<br /> </li> 
+     <li><strong>TrustStorePassword</strong>: Specify the password for the 
+      <g class="gr_ gr_22 gr-alert gr_spell gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="22">
+        truststore 
+      </g> file.<br /> </li> 
+     <li><strong>Service Name</strong>: Add the RightsManagementService to the list of specified services.</li> 
+    </ul> <p>Click <strong>Save</strong>. AEM is enabled to search document security protected PDF and Microsoft Office documents</p> </li> 
+  </ol> 
+  <h3>Index a sample policy-protected PDF or Microsoft Office document</h3> 
+  <ol> 
+   <li><p>Log in to AEM Assets as an administrator.</p> </li> 
+   <li><p>Create a folder in AEM Digital Asset Manager and upload a policy-protected PDF or Microsoft Office document to the newly created folder. Now, search contents of the policy-protected documents using AEM search. It must return the document containing searched text. </p> </li> 
+  </ol> 
+ </body> 
+</html>

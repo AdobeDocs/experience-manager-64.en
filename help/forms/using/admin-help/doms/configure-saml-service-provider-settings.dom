@@ -1,0 +1,84 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2017-12-01T19:05:33.158-0500" name="jcr:created" /> 
+  <meta content="admin" name="lr_lastModifiedBy" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2018-04-26T04:25:17.847-0400" name="cq:lastModified" /> 
+  <meta content="31" name="acrolinxSentences" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/configuring_user_management;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="2016-05-31T06:53:34.791-0400" name="acrolinxDate" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="2017-10-31T16:32:35.905-0400" name="lastPublishExternalDate" /> 
+  <meta content="2018-04-26T04:25:17.847-0400" name="locHandOffDate" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/configure_saml_service_provider_settings_admin_5e12de0b318c6865_2273_report.xml" name="acrolinxReportURL" /> 
+  <meta content="2016-04-20T09:59:34.254-0400" name="firstPublishExternalDate" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="sortDate" /> 
+  <meta content="Configure SAML service provider settings" name="jcr:title" /> 
+  <meta content="2016-02-05T03:27:14.145-0500" name="lr_lastModified" /> 
+  <meta content="2018-04-03T09:09:29.676-0400" name="cq:lastReplicated" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="2017-10-31T16:32:35.905-0400" name="publishExternalDate" /> 
+  <meta content="admin" name="contentOwner" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7fbb.2" name="cq:gepId" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="5386eca4-d731-4e44-b138-66f67b021bb7" name="jcr:uuid" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="admin" name="lr_creator" /> 
+  <meta content="Configure SAML service provider&amp;#xA;settings" name="navTitle" /> 
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="589" name="acrolinxWords" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/using/morehelp/configuring_user_management;/content/help/en/experience-manager/6-4/forms/using/morehelp/configuring_user_management" name="moreHelpPaths" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="topicBrowsingSortDate" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="a4090da4-fd6a-4bec-9c48-d7a9cbe5f175" name="jcr:predecessors" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/forms/using/admin-help/configure-saml-service-provider-settings.html" name="publishExternalURL" /> 
+  <meta content="You can configure SAML service provider settings to allow users to login and authenticate to AEM forms via a specified third-party identity provider (IDP)." name="seoDescription" /> 
+ </head> 
+ <body> 
+  <p>Security Assertion Markup Language (SAML) is one of the options that you can select when configuring authorization for an enterprise or hybrid domain. SAML is primarily used to support SSO across multiple domains. When SAML is configured as your authentication provider, users log in and authenticate to AEM forms via a specified third-party identity provider (IDP).</p> 
+  <p>For an explanation of SAML, see <a href="http://www.oasis-open.org/committees/download.php/20645/sstc-saml-tech-overview-2%200-draft-10.pdf">Security Assertion Markup Language (SAML) V2.0 Technical Overview</a>.</p> 
+  <ol> 
+   <li><p>In administration console, click Settings &amp;gt; User Management &amp;gt; Configuration &amp;gt; SAML Service Provider Settings.</p></li> 
+   <li><p>In the Service Provider Entity ID box, type a unique ID to use as an identifier for the AEM forms service provider implementation. You also specify this unique ID when configuring your IDP (for example, <span class="code">um.lc.com</span>.) You can also use the URL that is used to access AEM forms (for example, <span class="code">http://AEMformsserver</span>).</p></li> 
+   <li><p>In the Service Provider Base URL box, type the base URL for your forms server (for example, <span class="code">http://AEMformsserver:8080</span>).</p></li> 
+   <li><p>(Optional) To enable AEM forms to send signed authentication requests to the IDP, perform the following tasks: </p> 
+    <ul> 
+     <li><p>Use Trust Manager to import a credential in PKCS #12 format with Document Signing Credential selected as the Trust Store Type. (See <a href="../../../forms/using/admin-help/local-credentials.md#managing-local-credentials">Managing local credentials</a>.)</p></li> 
+     <li><p>In the Service Provider Credential Key Alias list, select the alias you assigned to the credential in Trust Store.</p></li> 
+     <li><p>Click Export to save the URL contents to a file and then import that file into your IDP.</p></li> 
+    </ul></li> 
+   <li><p>(Optional) In the Service Provider Name ID Policy list, select the name format that the IDP uses to identify the user in a SAML assertion. The options are Unspecified, Email, and Windows Domain Qualified Name.</p> 
+    <note> 
+     <p>Name formats are not case-sensitive.</p> 
+    </note></li> 
+   <li><p>(Optional) Select Enable Authentication Prompt For Local Users. When this option is selected, users will see two links:</p> 
+    <ul> 
+     <li><p>a link to the login page of the third-party SAML identity provider, where users who belong to an Enterprise domain can authenticate.</p></li> 
+     <li><p>a link to the AEM forms login page, where users who belong to a Local domain can authenticate.</p></li> 
+    </ul><p>When this option is not selected, users will be taken directly to the login page of the third-party SAML identity provider, where users who belong to an Enterprise domain can authenticate.</p></li> 
+   <li><p>(Optional) Select Enable Artifact Binding to enable artifact binding support. By default, POST binding is used with SAML. But if you have configured Artifact Binding, select this option. When this option is selected, the actual user assertion is not passed through the Browser request. Instead, a pointer to the assertion is passed and the assertion is retrieved using a backend web service call.</p></li> 
+   <li><p>(Optional) Select Enable Re-Direct Binding to support SAML bindings that use redirects. </p></li> 
+   <li><p>(Optional) In Custom Properties, specify additional properties. The additional properties are name=value pairs separated by new lines.</p> 
+    <ul> 
+     <li><p>You can configure AEM forms to issue a SAML assertion for a validity period that matches the validity period of a third-party assertion. To honor the third-party SAML assertion timeout, add the following line in Custom Properties:</p><span class="code">saml.sp.honour.idp.assertion.expiry=true</span></li> 
+     <li><p>Add the following custom property for using RelayState to determine the URL where the user will be redirected after successful authentication.</p><span class="code">saml.sp.use.relaystate=true</span></li> 
+     <li><p>Add the following custom property to configure the URL for the custom Java Server Pages (JSP), which will be used to render the registered list of identity providers. If you have not deployed a custom web application, it will use the default User Management page to render the list.<span class="code">saml.sp.discovery.url=/custom/custom.jsp</span></p></li> 
+    </ul></li> 
+   <li><p>Click Save.</p></li> 
+  </ol> 
+ </body> 
+</html>

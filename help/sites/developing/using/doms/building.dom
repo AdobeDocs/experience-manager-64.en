@@ -1,0 +1,169 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="Building Tagging into an AEM Application" name="navTitle" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:platform;content_type:reference" name="cq:tags" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="audience:developing" name="primaryAudienceTag" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2018-01-18T11:18:09.077-0500" name="topicBrowsingSortDate" /> 
+  <meta content="2018-01-19T19:03:40.896-0500" name="jcr:created" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="8bc6392f-dc04-49ef-aab2-fbd6694b952b" name="jcr:uuid" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="/content/docs/en/aem/6-3/develop/tags/building" name="qaNotes" /> 
+  <meta content="2018-01-18T11:18:09.077-0500" name="publishExternalDate" /> 
+  <meta content="jsyal" name="cq:lastReplicatedBy" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2017-10-31T16:17:19.647-0400" name="firstPublishExternalDate" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="2018-05-08T12:40:24.930-0400" name="locHandOffDate" /> 
+  <meta content="msm-service" name="cq:lastModifiedBy" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="Guillaume Carlino" name="contentOwner" /> 
+  <meta content="2018-05-08T12:40:24.932-0400" name="cq:lastModified" /> 
+  <meta content="Building Tagging into an AEM Application" name="jcr:title" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="Building Tagging into an AEM Application" name="seoTitle" /> 
+  <meta content="c11edbb9-23c3-4df4-9dcc-eae3c385beb2" name="jcr:predecessors" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="2018-01-18T11:18:09.077-0500" name="lastPublishExternalDate" /> 
+  <meta content="2018-10-27T23:47:11.652-0400" name="cq:lastReplicated" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/morehelp/platform;/content/help/en/experience-manager/6-4/sites/developing/morehelp/platform" name="moreHelpPaths" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/building.html" name="publishExternalURL" /> 
+  <meta content="Programmatically work with tags or extending tags within a custom AEM application" name="seoDescription" /> 
+ </head> 
+ <body> 
+  <p>For the purpose of programmatically working with tags or extending tags within a custom AEM application, this page describes use of the</p> 
+  <ul> 
+   <li><a href="/sites/developing/using/reference-materials/javadoc/com/day/cq/tagging/package-summary">Tagging API</a></li> 
+  </ul> 
+  <p>that interacts with the </p> 
+  <ul> 
+   <li><a href="../../../sites/developing/using/framework.md">Tagging framework</a></li> 
+  </ul> 
+  <p>For related information regarding tagging, see :</p> 
+  <ul> 
+   <li><a href="../../../sites/administering/using/tags.md">Administering Tags</a> for information about creating and managing tags, as well as to which content tags have been applied.</li> 
+   <li><a href="../../../sites/authoring/using/tags.md">Using Tags</a> for information about tagging content.</li> 
+  </ul> 
+  <h2>Overview of the Tagging API</h2> 
+  <p>The implementation of the <a href="../../../sites/developing/using/framework.md">tagging framework</a> in AEM allows management of tags and tag content using the JCR API . The TagManager ensures that tags entered as values on the <span class="code">cq:tags</span> string array property are not duplicated, it removes TagIDs pointing to non-existing tags and updates TagIDs for moved or merged tags. TagManager uses a JCR observation listener that reverts any incorrect changes. The main classes are in the <a href="/sites/developing/using/reference-materials/javadoc/index.html?com/day/cq/tagging/package-summary">com.day.cq.tagging</a> package:<br /> </p> 
+  <ul> 
+   <li>JcrTagManagerFactory - returns a JCR-based implementation of a <span class="code">TagManager</span>. It is the reference implementation of the Tagging API.</li> 
+   <li><span class="code">TagManager</span> - allows for resolving and creating tags by paths and names.</li> 
+   <li><span class="code">Tag</span> - defines the tag object.</li> 
+  </ul> 
+  <h3>Getting a JCR-based TagManager</h3> 
+  <p>To retrieve a TagManager instance, you need to have a JCR <span class="code">Session</span> and to call <span class="code">getTagManager(Session)</span>:</p> 
+  <codeblock gutter="true" class="syntax java">
+    @Reference!!discoiqbr!!JcrTagManagerFactory&amp;nbsp;jcrTagManagerFactory;!!discoiqbr!!!!discoiqbr!!TagManager&amp;nbsp;tagManager&amp;nbsp;=&amp;nbsp;jcrTagManagerFactory.getTagManager(session); 
+  </codeblock> 
+  <p>In the typical Sling context you can also adapt to a <span class="code">TagManager</span> from the <span class="code">ResourceResolver</span>:<br /> </p> 
+  <codeblock gutter="true" class="syntax java">
+    TagManager&amp;nbsp;tagManager&amp;nbsp;=&amp;nbsp;resourceResolver.adaptTo(TagManager.class); 
+  </codeblock> 
+  <h3>Retrieving a Tag object</h3> 
+  <p>A <span class="code">Tag</span> can be retrieved through the <span class="code">TagManager</span>, by either resolving an existing tag or creating a new one:<br /> </p> 
+  <codeblock gutter="true" class="syntax java">
+    Tag&amp;nbsp;tag&amp;nbsp;=&amp;nbsp;tagManager.resolve("my/tag");&amp;nbsp;//&amp;nbsp;for&amp;nbsp;existing&amp;nbsp;tags!!discoiqbr!!!!discoiqbr!!Tag&amp;nbsp;tag&amp;nbsp;=&amp;nbsp;tagManager.createTag("my/tag");&amp;nbsp;//&amp;nbsp;for&amp;nbsp;new&amp;nbsp;tags 
+  </codeblock> 
+  <p>For the JCR-based implementation, which maps <span class="code">Tags</span> onto JCR <span class="code">Nodes</span>, you can directly use Sling's <span class="code">adaptTo</span> mechanism if you have the resource (e.g. such as <span class="code">/etc/tags/default/my/tag</span>):<br /> </p> 
+  <codeblock gutter="true" class="syntax java">
+    Tag&amp;nbsp;tag&amp;nbsp;=&amp;nbsp;resource.adaptTo(Tag.class); 
+  </codeblock> 
+  <p>While a tag may only be converted <i>from </i>a resource (not a node), a tag can be converted <i>to </i>both a node and a resource :<br /> </p> 
+  <codeblock gutter="true" class="syntax java">
+    Node&amp;nbsp;node&amp;nbsp;=&amp;nbsp;tag.adaptTo(Node.class);!!discoiqbr!!Resource&amp;nbsp;node&amp;nbsp;=&amp;nbsp;tag.adaptTo(Resource.class); 
+  </codeblock> 
+  <note> 
+   <p>Directly adapting from <span class="code">Node</span> to <span class="code">Tag</span> is not possible, because <span class="code">Node</span> does not implement the Sling <span class="code">Adaptable.adaptTo(Class)</span> method.<br /> </p> 
+  </note> 
+  <h3>Getting and Setting Tags</h3> 
+  <codeblock gutter="true" class="syntax java">
+    //&amp;nbsp;Getting&amp;nbsp;the&amp;nbsp;tags&amp;nbsp;of&amp;nbsp;a&amp;nbsp;Resource:!!discoiqbr!!Tag[]&amp;nbsp;tags&amp;nbsp;=&amp;nbsp;tagManager.getTags(resource);&amp;nbsp;!!discoiqbr!!!!discoiqbr!!//&amp;nbsp;Setting&amp;nbsp;tags&amp;nbsp;to&amp;nbsp;a&amp;nbsp;Resource:!!discoiqbr!!tagManager.setTags(resource,&amp;nbsp;tags); 
+  </codeblock> 
+  <h3>Searching for Tags</h3> 
+  <codeblock gutter="true" class="syntax java">
+    //&amp;nbsp;Searching&amp;nbsp;for&amp;nbsp;the&amp;nbsp;Resource&amp;nbsp;objects&amp;nbsp;that&amp;nbsp;are&amp;nbsp;tagged&amp;nbsp;with&amp;nbsp;the&amp;nbsp;tag&amp;nbsp;object:!!discoiqbr!!Iterator&lt;Resource&gt;&amp;nbsp;it&amp;nbsp;=&amp;nbsp;tag.find();!!discoiqbr!!!!discoiqbr!!//&amp;nbsp;Retrieving&amp;nbsp;the&amp;nbsp;usage&amp;nbsp;count&amp;nbsp;of&amp;nbsp;the&amp;nbsp;tag&amp;nbsp;object:!!discoiqbr!!long&amp;nbsp;count&amp;nbsp;=&amp;nbsp;tag.getCount();!!discoiqbr!!!!discoiqbr!!//&amp;nbsp;Searching&amp;nbsp;for&amp;nbsp;the&amp;nbsp;Resource&amp;nbsp;objects&amp;nbsp;that&amp;nbsp;are&amp;nbsp;tagged&amp;nbsp;with&amp;nbsp;the&amp;nbsp;tagID&amp;nbsp;String:!!discoiqbr!!&amp;nbsp;RangeIterator&lt;Resource&gt;&amp;nbsp;it&amp;nbsp;=&amp;nbsp;tagManager.find(tagID); 
+  </codeblock> 
+  <note> 
+   <p>The valid <span class="code">RangeIterator</span> to use is:</p> 
+   <p><span class="code"> com.day.cq.commons.RangeIterator</span></p> 
+  </note> 
+  <h3>Deleting Tags</h3> 
+  <codeblock gutter="true" class="syntax java">
+    tagManager.deleteTag(tag); 
+  </codeblock> 
+  <h3>Replicating Tags</h3> 
+  <p>It is possible to use the replication service (<span class="code">Replicator</span>) with tags because tags are of type <span class="code">nt:hierarchyNode</span>:<br /> </p> 
+  <codeblock gutter="true" class="syntax java">
+    replicator.replicate(session,&amp;nbsp;replicationActionType,&amp;nbsp;tagPath); 
+  </codeblock> 
+  <h2>Tagging on the Client Side</h2> 
+  <p><span class="code"><a href="/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.tagging.TagInputField">CQ.tagging.TagInputField</a></span> is a form widget for entering tags. It has a popup menu for selecting from existing tags, includes auto-completion and many other features. Its xtype is <span class="code">tags</span>.</p> 
+  <h2>The Tag Garbage Collector</h2> 
+  <p>The tag garbage collector is a background service that cleans up the tags that are hidden and unused. Hidden and unused tags are tags below <span class="code">/etc/tags</span> that have a <span class="code">cq:movedTo</span> property and are not used on a content node - they have a count of zero. By using this lazy deletion process, the content node (i.e. the <span class="code">cq:tags</span> property) does not have to be updated as part of the move or the merge operation. The references in the <span class="code">cq:tags</span> property are automatically updated when the <span class="code">cq:tags</span> property is updated, e.g. through the page properties dialog.<br /> </p> 
+  <p>The tag garbage collector runs by default once a day. This can be configured at:<br /> </p> 
+  <codeblock class="syntax xml">
+    http://localhost:4502/system/console/configMgr/com.day.cq.tagging.impl.TagGarbageCollector 
+  </codeblock> 
+  <h2>Tag Search and Tag Listing</h2> 
+  <p>The search for tags and the tag listing work as follows:</p> 
+  <ul> 
+   <li>The search for TagID searches for the tags that have the property <span class="code">cq:movedTo</span> set to TagID and follows through the <span class="code">cq:movedTo</span> TagIDs.</li> 
+   <li>The search for tag Title only searches the tags that do not have a <span class="code">cq:movedTo</span> property.</li> 
+  </ul> 
+  <h2>Tags in Different Languages</h2> 
+  <p>As described in the documentation for administering tags, in the section <a href="../../../sites/administering/using/tags.md#managingtagsindifferentlanguages">Managing Tags in Different Languages</a>, a tag <span class="code">title </span>can be defined in different languages. A language sensitive property is then added to the tag node. This property has the format <span class="code">jcr:title.&amp;lt;locale&amp;gt;</span>, e.g.<span class="code"> jcr:title.fr</span> for the French translation. <span class="code">&amp;lt;locale&amp;gt;</span> must be a lower case ISO locale string and use "_" instead of "-", for example: <span class="code">de_ch</span>.<br /> </p> 
+  <p>When the <strong>Animals</strong> tag is added to the <strong>Products</strong> page, the value <span class="code">stockphotography:animals</span> is added to the property <span class="code">cq:tags</span> of the node /content/geometrixx/en/products/jcr:content. The translation is referenced from the tag node.<br /> </p> 
+  <p>The server-side API has localized <span class="code">title</span>-related methods:</p> 
+  <ul> 
+   <li><a href="/sites/developing/using/reference-materials/javadoc/index.html?com/day/cq/tagging/Tag">com.day.cq.tagging.Tag</a> 
+    <ul> 
+     <li>getLocalizedTitle(Locale locale)<br /> </li> 
+     <li>getLocalizedTitlePaths()<br /> </li> 
+     <li>getLocalizedTitles()<br /> </li> 
+     <li>getTitle(Locale locale)<br /> </li> 
+     <li>getTitlePath(Locale locale)<br /> </li> 
+    </ul> </li> 
+   <li><a href="/sites/developing/using/reference-materials/javadoc/index.html?com/day/cq/tagging/TagManager">com.day.cq.tagging.TagManager</a> 
+    <ul> 
+     <li>canCreateTagByTitle(String tagTitlePath, Locale locale)<br /> </li> 
+     <li>createTagByTitle(String tagTitlePath, Locale locale)<br /> </li> 
+     <li>resolveByTitle(String tagTitlePath, Locale locale)</li> 
+    </ul> </li> 
+  </ul> 
+  <p>In AEM, the language can be obtained either from the page language or from the user language:<br /> </p> 
+  <ul> 
+   <li>to retrieve the page language in a JSP: 
+    <ul> 
+     <li><span class="code">currentPage.getLanguage(false)</span></li> 
+    </ul> </li> 
+   <li>to retrieve the user language in a JSP: 
+    <ul> 
+     <li><span class="code">slingRequest.getLocale()</span></li> 
+    </ul> </li> 
+  </ul> 
+  <p><span class="code">currentPage</span> and <span class="code">slingRequest</span> are available in a JSP through the <a href="../../../sites/developing/using/taglib.md">&amp;lt;cq:definedObjects&amp;gt;</a> tag.<br /> </p> 
+  <p>For tagging, localization depends on the context as tag <span class="code">titles </span>can be displayed in the page language, in the user language or in any other language.</p> 
+  <h3>Adding a New Language to the Edit Tag Dialog</h3> 
+  <p>The following procedure describes how to add a new language (Finnish) to the <strong>Tag Edit</strong> dialog:</p> 
+  <ol> 
+   <li>In <strong>CRXDE</strong>, edit the multi-value property <span class="code">languages</span> of the node <span class="code">/etc/tags</span>.</li> 
+   <li>Add <span class="code">fi_fi</span> - which represents the Finnish locale - and save the changes.</li> 
+  </ol> 
+  <p>The new language (Finnish) is now available in the tag dialog of the page properties and in the <strong>Edit Tag</strong> dialog when editing a tag in the <strong>Tagging</strong> console.</p> 
+  <note> 
+   <p>The new language needs to be one of the AEM recognized languages, i.e. it needs to be available as a node below <span class="code">/libs/wcm/core/resources/languages</span>.<br /> </p> 
+  </note> 
+ </body> 
+</html>

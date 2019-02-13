@@ -1,0 +1,27 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="true" name="preview" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2018-05-17T05:51:35.691-0400" name="cq:lastModified" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Test page" name="jcr:title" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="alvawb" name="contentOwner" />
+  <meta content="2018-03-20T07:28:26.526-0400" name="jcr:created" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="alvawb" name="cq:lastModifiedBy" />
+  <meta content="en" name="pageCreatedAt" />
+  <meta content="2018-05-17T05:51:35.690-0400" name="locHandOffDate" />
+  <meta content="" name="jcr:primaryType" />
+ </head>
+ <body>
+  <img imageRotate="0" src="assets/screen_shot_2018-03-21at084300.png" />
+  <img imageRotate="0" src="assets/screen_shot_2018-03-21at084428.png" />
+  <img imageRotate="0" src="assets/screen_shot_2018-03-21at084727.png" />
+  <img imageRotate="0" src="assets/screen_shot_2018-03-21at084508.png" />
+  <img imageRotate="0" src="assets/screen_shot_2018-03-21at084830.png" />
+ </body>
+</html>

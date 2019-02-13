@@ -1,0 +1,288 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="anujkapo" name="cq:lastModifiedBy" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="Create form data model for Interactive Communication" name="jcr:description" /> 
+  <meta content="Create form data model for Interactive Communication" name="seoDescription" /> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/introduction;/content/help/en/experience-manager/6-4/forms/morehelp/interactive-communications;/content/help/en/experience-manager/6-4/forms/morehelp/introduction;/content/help/en/experience-manager/6-4/forms/morehelp/interactive-communications" name="moreHelpPaths" /> 
+  <meta content="2018-12-03T08:06:49.350-0500" name="cq:lastModified" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="anujkapo" name="cq:lastReplicatedBy" /> 
+  <meta content="yellow" name="acrolinxPageStatus" /> 
+  <meta content="2018-11-22T09:10:56.386-0500" name="firstPublishExternalDate" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="2018-11-22T09:25:54.448-0500" name="cq:lastReplicated" /> 
+  <meta content="2546" name="acrolinxWords" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="d0736f1a-c535-42e6-9c29-3ab0948eb905" name="jcr:predecessors" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" /> 
+  <meta content="214" name="acrolinxSentences" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2018-12-03T08:06:49.349-0500" name="locHandOffDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/create_form_data_model0_krs_workflow_27a21c3e5e538b90_63_report.xml" name="acrolinxReportURL" /> 
+  <meta content="2018-11-22T09:25:54.297-0500" name="lastPublishExternalDate" /> 
+  <meta content="en" name="pageCreatedAt" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2018-11-22T05:17:46.563-0500" name="acrolinxDate" /> 
+  <meta content="Tutorial: Create form data model" name="jcr:title" /> 
+  <meta content="locales:fr;locales:de;locales:ja" name="locLangTag" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="anujkapo" name="contentOwner" /> 
+  <meta content="2018-11-22T09:25:54.297-0500" name="topicBrowsingSortDate" /> 
+  <meta content="5c27ee84-bbac-44dd-b2eb-e2090cc32612" name="jcr:uuid" /> 
+  <meta content="checked_improved" name="acrolinxStatus" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/create-form-data-model0.html" name="publishExternalURL" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="anujkapo@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2018-11-22T09:25:54.297-0500" name="publishExternalDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="Create form data model for Interactive Communication" name="seoTitle" /> 
+  <meta content="anujkapo" name="acrolinxLastCheckedBy" /> 
+  <meta content="2019-01-15T15:36:11.952-0500" name="jcr:created" /> 
+ </head> 
+ <body> 
+  <p><img src="assets/04-create-form-data-model-main.png" /></p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td>This tutorial is a step in the <a href="../../forms/using/create-your-first-interactive-communication.md">Create your first Interactive Communication</a> series. It is recommended to follow the series in chronological sequence to understand, perform, and demonstrate the complete tutorial use case.</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h2>About the tutorial</h2> 
+  <p>AEM Forms data integration module allows you to create a form data model from disparate backend data sources such as AEM user profile, RESTful web services, SOAP-based web services, OData services, and relational databases. You can configure data model objects and services in a form data model and associate it with an adaptive form. Adaptive form fields are bound to data model object properties. The services enable you to prefill the adaptive form and write submitted form data back to the data model object. </p> 
+  <p>For more information about form data integration and form data model, see <a href="/content/help/en/experience-manager/6-3/forms/using/data-integration">AEM Forms Data Integration</a>.</p> 
+  <p>This tutorial walks you through the steps to prepare, create, configure, and associate a form data model with an interactive communication. At the end of this tutorial, you will be able to:</p> 
+  <ul> 
+   <li><a href="../../forms/using/create-form-data-model0.md#main-pars-header-2085333714">Set up the database</a></li> 
+   <li><a href="../../forms/using/create-form-data-model0.md#main-pars-header-1068027362">Configure MySQL database as data source</a></li> 
+   <li><a href="../../forms/using/create-form-data-model0.md#main-pars-header-381370327">Create form data model</a></li> 
+   <li><a href="../../forms/using/create-form-data-model0.md#main-pars-header-569047395">Configure form data model</a></li> 
+   <li><a href="../../forms/using/create-form-data-model0.md#main-pars-header-997127944">Test form data model</a></li> 
+  </ul> 
+  <p>The form data model looks similar to the following:</p> 
+  <img imageRotate="0" src="assets/form_data_model_callouts.png" /> 
+  <p><strong>A.</strong> Configured data sources <strong>B.</strong> Data source schemas <strong>C.</strong> Available services <strong>D.</strong> Data model objects <strong>E.</strong> Configured services</p> 
+  <h2>Prerequisites</h2> 
+  <p>Before you begin, ensure that you have the following:</p> 
+  <ul> 
+   <li>MySQL database with sample data as stated in the <a href="../../forms/using/create-form-data-model0.md#main-pars-header-2085333714">Set up the database</a> section.</li> 
+   <li>OSGi bundle for MySQL JDBC driver as explained in <a href="/content/help/en/experience-manager/6-3/sites/developing/using/jdbc#BundlingtheJDBCDatabaseDriver">Bundling the JDBC Database Driver</a></li> 
+  </ul> 
+  <h2>Step 1: Set up the database</h2> 
+  <p>A database is essential to create an Interactive Communication. This tutorial uses a database to display Form Data Model and persistence capabilities of Interactive Communications. Set up a database containing customer, bills, and calls tables.<br /> The following image illustrates sample data for the customer table:</p> 
+  <img imageRotate="0" src="assets/sample_data_cust.png" /> 
+  <p>The calls table includes the call details such as call date, call time, call number, call duration, and call charges. The customer table is linked to the calls table using the Mobile Number (mobilenum) field. For each mobile number listed in the customer table, there are multiple records in the calls table. For example, you can retrieve the call details for the <strong>1457892541</strong> mobile number by referring to the calls table. </p> 
+  <p>The bills table includes the bill details such as bill date, bill period, monthly charges, and call charges. The customer table is linked to the bills table using the Bill Plan field. There is a plan associated to each customer in the customer table. The bills table includes the pricing details for all the existing plans. For example, you can retrieve the plan details for <strong>Sarah</strong> from the customer table and use those details to retrieve pricing details from the bills table.</p> 
+  <h2>Step 2: Configure MySQL database as data source</h2> 
+  <p>You can configure different types of data sources to create a form data model. For this tutorial, you will configure the MySQL database that is configured and populated with sample data. For information about other supported data sources and how to configure them, see <a href="/content/help/en/experience-manager/6-3/forms/using/data-integration">AEM Forms Data Integration</a>.</p> 
+  <p>Do the following to configure your MySQL database:</p> 
+  <ol> 
+   <li><p>Install JDBC driver for MySQL database as an OSGi bundle:</p> 
+    <ol> 
+     <li>Log in to AEM Forms Author Instance as an administrator and go to AEM web console bundles. The default URL is <a href="http://localhost:4502/system/console/bundles">http://localhost:4502/system/console/bundles</a>.</li> 
+     <li>Tap <strong>Install/Update</strong>. An <strong>Upload / Install Bundles</strong> dialog appears.</li> 
+     <li>Tap <strong>Choose File</strong> to browse and select the MySQL JDBC driver OSGi bundle. Select <strong>Start Bundle</strong> and <strong>Refresh Packages</strong>, and tap <strong>Install </strong>or <strong>Update</strong>. Ensure that the Oracle Corporation's JDBC Driver for MySQL is active. The driver is installed.</li> 
+    </ol> </li> 
+   <li><p>Configure MySQL database as a data source:</p> 
+    <ol> 
+     <li>Go to AEM web console at <a href="http://localhost:4502/system/console/configMgr">http://localhost:4502/system/console/configMgr</a>.</li> 
+     <li>Locate <strong>Apache Sling Connection Pooled DataSource</strong> configuration. Tap to open the configuration in edit mode.</li> 
+     <li>In the configuration dialog, specify the following details: 
+      <ul> 
+       <li><strong>Datasource name:</strong> You can specify any name. For example, specify <strong>MySQL</strong>.</li> 
+       <li><strong>DataSource service property name</strong>: Specify name of the service property containing the DataSource name. It is specified while registering the data source instance as OSGi service. For example, <strong>datasource.name</strong>.</li> 
+       <li><strong>JDBC driver class</strong>: Specify Java class name of the JDBC driver. For MySQL database, specify <strong>com.mysql.jdbc.Driver</strong>. </li> 
+       <li><strong>JDBC connection URI</strong>: Specify connection URL of the database. For MySQL database running on port 3306 and schema teleca, the URL is: jdbc:mysql://[server]:3306/teleca?autoReconnect=true&amp;useUnicode=true&amp;characterEncoding=utf-8</li> 
+       <li><strong>Username: </strong>Username of the database. It is required to enable JDBC driver to establish a connection with the database.</li> 
+       <li><strong>Password: </strong>Password of the database. It is required to enable JDBC driver to establish a connection with the database.</li> 
+       <li><strong>Test on Borrow:</strong> Enable the <strong>Test on Borrow</strong> option.</li> 
+       <li><strong>Test on Return:</strong> Enable the <strong>Test on Return</strong> option.</li> 
+       <li><strong>Validation Query:</strong> Specify a SQL SELECT query to validate connections from the pool. The query must return at least one row. For example, <strong>select * from customer</strong>.</li> 
+       <li><strong>Transaction Isolation</strong>: Set the value to <strong>READ_COMMITTED</strong>.</li> 
+      </ul> </li> 
+    </ol> <p>Leave other properties with default <a href="http://tomcat.apache.org/tomcat-7.0-doc/jdbc-pool.html">values</a> and tap <strong>Save</strong>.</p> <p>A configuration similar to the following is created.</p> <img imageRotate="0" src="assets/apache_configuration.png" /></li> 
+  </ol> 
+  <h2>Step 3: Create form data model</h2> 
+  <p>AEM Forms provide an intuitive user interface to <a href="/content/help/en/experience-manager/6-3/forms/using/data-integration#main-pars_header_1524967585">create a form data mode</a>l from configured data sources. You can use multiple data sources in a form data model. For the use case in this tutorial, you will use MySQL as the data source.</p> 
+  <p>Do the following to create form data model:</p> 
+  <ol> 
+   <li><p>In AEM author instance, navigate to <strong>Forms </strong>&amp;gt; <strong>Data Integrations</strong>.</p> </li> 
+   <li><p>Tap <strong>Create </strong>&amp;gt; <strong>Form Data Model</strong>.</p> </li> 
+   <li><p>In the Create Form Data Model wizard, specify a <strong>name </strong>for the form data model. For example, <strong>FDM_Create_First_IC</strong>. Tap <strong>Next</strong>.</p> </li> 
+   <li><p>The select datasource screen lists all configured data sources. Select <strong>MySQL</strong> data source and tap <strong>Create</strong>.</p> <img imageRotate="0" src="assets/fdm_mysql_data_source.png" /></li> 
+   <li><p>Click <strong>Done</strong>. The <strong>FDM_Create_First_IC</strong> form data model is created.</p> </li> 
+  </ol> 
+  <h2>Step 4: Configure form data model</h2> 
+  <p>Configuring form data model includes:</p> 
+  <ul> 
+   <li><a href="../../forms/using/create-form-data-model0.md#main-pars-header-1410818273">adding data model objects and services</a></li> 
+   <li><a href="/content#main-pars_header_72155927">creating computed child properties for data model object</a></li> 
+   <li><a href="/content#main-pars_header_1093081045">adding associations between data model objects</a></li> 
+   <li><a href="/content#main-pars_header_1673827991">editing data model object properties</a></li> 
+   <li><a href="/content#main-pars_header_599411965">configuring services for data model objects</a></li> 
+  </ul> 
+  <p> </p> 
+  <h3>Add data model objects and services</h3> 
+  <ol> 
+   <li><p>On AEM author instance, navigate to <strong>Forms</strong> &amp;gt; <strong>Data Integrations</strong>. The default URL is <a href="http://localhost:4502/aem/forms.html/content/dam/formsanddocuments-fdm">http://localhost:4502/aem/forms.html/content/dam/formsanddocuments-fdm</a>.</p> </li> 
+   <li><p>The <strong>FDM_Create_First_IC</strong> form data model you created earlier is listed here. Select it and tap <strong>Edit</strong>.</p> <p>The selected data source <strong>MySQL</strong> is displayed in the <strong>Data Sources</strong> pane.</p> <img imageRotate="0" src="assets/mysql_fdm.png" /></li> 
+   <li><p>Expand the <strong>MySQL</strong> data source tree. Select the following data model objects and services from <strong>teleca</strong> schema:</p> 
+    <ul> 
+     <li><strong>Data model objects</strong>: 
+      <ul> 
+       <li>bills</li> 
+       <li>calls</li> 
+       <li>customer</li> 
+      </ul> </li> 
+     <li><strong>Services:</strong> 
+      <ul> 
+       <li>get</li> 
+       <li>update</li> 
+      </ul> </li> 
+    </ul> <p>Tap <strong>Add Selected</strong> to add selected data model objects and services to the form data model.</p> <img imageRotate="0" src="assets/select_data_model_objs_services.png" /><p>The bills, calls, and customer data model objects are displayed in the right pane in the <strong>Model</strong> tab. The get and update services are displayed in the <strong>Services</strong> tab.</p> <img imageRotate="0" src="assets/data_model_objects.png" /></li> 
+  </ol> 
+  <h3>Create computed child properties for data model object</h3> 
+  <p>A computed property is the one whose value is computed based on a rule or an expression. Using a rule, you can set the value of a computed property to a literal string, a number, result of a mathematical expression, or the value of another property in the form data model.</p> 
+  <p>Based on the use case, create the <strong>usagecharges</strong> child computed property in the <strong>bills</strong> data model object using the following mathematical expression:</p> 
+  <ul> 
+   <li>usage charges = call charges + conference call charges + SMS charges + mobile internet charges + roaming national + roaming international + VAS (all these properties exist in the bills data model object)<br /> For more information on the <strong>usagecharges</strong> child computed property, see <a href="../../forms/using/planning-interactive-communications.md" target="_blank">Plan the Interactive Communication</a>.</li> 
+  </ul> 
+  <p>Execute the following steps to create computed child properties for bills data model object:</p> 
+  <ol> 
+   <li><p>Select the check box at the top of the <strong>bills</strong> data model object to select it and tap <strong>Create Child Property</strong>.</p> </li> 
+   <li><p>In the <strong>Create Child Property</strong> pane:</p> 
+    <ol> 
+     <li>Enter <strong>usagecharges</strong> as the name of the child property.</li> 
+     <li>Enable <strong>Computed</strong>.</li> 
+     <li>Select <strong>Float</strong> as the type and tap <strong>Done</strong> to add the child property to the <strong>bills</strong> data model object.</li> 
+    </ol> <img imageRotate="0" src="assets/create_child_property_float.png" /></li> 
+   <li><p>Tap <strong>Edit Rule</strong> to open the Rule Editor.</p> </li> 
+   <li><p>Tap <strong>Create</strong>. The <strong>Set Value</strong> rule window opens.</p> </li> 
+   <li><p>From the Select Option drop-down, select <strong>Mathematical Expression</strong>.</p> <img imageRotate="0" src="assets/usage_charges_rule_editor.png" /></li> 
+   <li><p>In the mathematical expression, select <strong>callcharges</strong> and <strong>confcallcharges</strong> as first and second objects, respectively. Select <strong>plus</strong> as the operator. Tap within the mathematical expression and tap <strong>Extend Expression</strong> to add <strong>smscharges</strong>, <strong>internetcharges</strong>, <strong>roamingnational</strong>, <strong>roamingintnl</strong>, and <strong>vas</strong> objects to the expression.</p> <p>The following image depicts the mathematical expression in the rule editor:</p> <img imageRotate="0" src="assets/usage_charges_rule_all.png" /></li> 
+   <li><p>Tap <strong>Done</strong>. The rule gets created in the Rule Editor.</p> </li> 
+   <li><p>Tap <strong>Close</strong> to close the Rule Editor window.</p> </li> 
+  </ol> 
+  <h3>Add associations between data model objects</h3> 
+  <p>Once the data model objects have been defined, you can build associations between them. The association can be one-to-one or one-to-many. For example, there can be multiple dependents associated with an employee. It is referred to as one-to-many association and depicted by 1:n on the line connecting associated data model objects. However, if an association returns a unique employee name for a given employee ID, it is referred to as one-to-one association.</p> 
+  <p>When you add associated data model objects in a data source to a form data model, their associations are retained and displayed as connected by arrow lines.</p> 
+  <p>Based on the use case, create the following associations between the data model objects:</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td>Association</td> 
+     <td>Data model objects</td> 
+    </tr> 
+    <tr> 
+     <td>1:n</td> 
+     <td>customer:calls (Multiple calls can be associated with a customer in a monthly bill)</td> 
+    </tr> 
+    <tr> 
+     <td>1:1</td> 
+     <td>customer:bills (One bill is associated with a customer for a particular month)</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <p>Perform the following steps to create associations between data model objects:</p> 
+  <ol> 
+   <li><p>Select the check box at the top of the <strong>customer</strong> data model object to select it and tap <strong>Add Association</strong>. The <strong>Add Association</strong> property pane opens.</p> </li> 
+   <li><p>In the <strong>Add Association</strong> pane:</p> 
+    <ul> 
+     <li>Specify a title for the association. It is an optional field.</li> 
+     <li>Select <strong>One to Many</strong> from the <strong>Type</strong> drop-down list.</li> 
+     <li>Select <strong>calls</strong> from the <strong>Model Object</strong> drop-down list.</li> 
+     <li>Select <strong>get</strong> from the <strong>Service</strong> drop-down list.</li> 
+     <li>Tap <strong>Add</strong> to link the <strong>customer</strong> data model object to <strong>calls</strong> data model object using a property. Based on the use case, the calls data model object must be linked to the mobile number property in the customer data model object. The <strong>Add Argument</strong> dialog box opens.</li> 
+    </ul> <img imageRotate="0" src="assets/add_association.png" /></li> 
+   <li><p>In the <strong>Add Argument</strong> dialog box:</p> 
+    <ul> 
+     <li>Select <strong>mobilenum </strong>from the <strong>Name</strong> drop-down list. The mobile number property is a common property that is available in customer and calls data model objects. As a result, it is used to create an association between customer and calls data model objects.<br /> For each mobile number available in the customer data model object, there are multiple call records available in the calls table.</li> 
+     <li>Specify an optional title and description for the argument.</li> 
+     <li>Select <strong>customer</strong> from the <strong>Binding To</strong> drop-down list.</li> 
+     <li>Select <strong>mobilenum</strong> from the <strong>Binding Value</strong> drop-down list.</li> 
+     <li>Tap <strong>Add</strong>.</li> 
+    </ul> <img imageRotate="0" src="assets/add_association_argument.png" /><p>The mobilenum property displays in the <strong>Arguments</strong> section.</p> <img imageRotate="0" src="assets/add_argument_association.png" /></li> 
+   <li><p>Tap <strong>Done</strong> to create a 1:n association between customer and calls data model objects.</p> <p>Once you have created an association between customer and calls data model objects, create a 1:1 association between the customer and bills data model objects.</p> </li> 
+   <li><p>Select the check box at the top of the <strong>customer</strong> data model object to select it and tap <strong>Add Association</strong>. The <strong>Add Association</strong> property pane opens.</p> </li> 
+   <li><p>In the <strong>Add Association</strong> pane:</p> 
+    <ul> 
+     <li>Specify a title for the association. It is an optional field.</li> 
+     <li>Select <strong>One to One</strong> from the <strong>Type</strong> drop-down list.</li> 
+     <li>Select <strong>bills</strong> from the <strong>Model Object</strong> drop-down list.</li> 
+     <li>Select <strong>get</strong> from the <strong>Service</strong> drop-down list. The <strong>billplan</strong> property, which is the primary key for the bills table, is already available in the <strong>Arguments</strong> section.<br /> The bills and customer data model objects are linked using the billplan (bills) and customerplan (customer) properties respectively. Create a binding between these properties to retrieve the plan details for any customer available in the MySQL database.</li> 
+     <li>Select <strong>customer</strong> from the <strong>Binding To</strong> drop-down list.</li> 
+     <li>Select <strong>customerplan</strong> from the <strong>Binding Value</strong> drop-down list.</li> 
+     <li>Tap <strong>Done</strong> to create a binding between the billplan and customerplan properties.</li> 
+    </ul> <img imageRotate="0" src="assets/add_association_customer_bills.png" /><p>The following image depicts the associations between the data model objects and the properties used to create associations between them:</p> <img imageRotate="0" src="assets/fdm_associations.gif" /></li> 
+  </ol> 
+  <h3>Edit data model object properties</h3> 
+  <p>After creating associations between the customer and other data model objects, edit the customer properties to define the property based on which the data is retrieved from the data model object. Based on the use case, mobile number is used as the property to retrieve data from the customer data model object.</p> 
+  <ol> 
+   <li><p>Select the check box at the top of the <strong>customer</strong> data model object to select it and tap <strong>Edit Properties</strong>. The <strong>Edit Properties</strong> pane opens.</p> </li> 
+   <li><p>Specify <strong>customer</strong> as the <strong>Top Level Model object</strong>.</p> </li> 
+   <li><p>Select <strong>get</strong> from the <strong>Read Service</strong> drop-down list.</p> </li> 
+   <li><p>In the <strong>Arguments</strong> section:</p> 
+    <ul> 
+     <li>Select <strong>Request Attribute</strong> from the <strong>Binding To</strong> drop-down list.</li> 
+     <li>Specify <strong>mobilenum</strong> as the Binding Value.</li> 
+    </ul> </li> 
+   <li><p>Select <strong>update</strong> from the <strong>Write</strong> Service drop-down list.</p> </li> 
+   <li><p>In the<strong> Arguments</strong> section:</p> 
+    <ul> 
+     <li>For <strong>mobilenum</strong> property, select <strong>customer </strong>from the <strong>Binding To</strong> drop-down list.</li> 
+     <li>Select <strong>mobilenum</strong> from the <strong>Binding Value</strong> drop-down list. </li> 
+    </ul> </li> 
+   <li><p>Tap <strong>Done</strong> to save the properties.</p> <img imageRotate="0" src="assets/configure_services_customer.png" /></li> 
+   <li><p>Select the check box at the top of the <strong>calls</strong> data model object to select it and tap <strong>Edit Properties</strong>. The <strong>Edit Properties</strong> pane opens.</p> </li> 
+   <li><p>Disable the <strong>Top Level Model object</strong> for <strong>calls</strong> data model object.</p> </li> 
+   <li><p>Tap <strong>Done</strong>.</p> <p>Repeat steps 8 - 10 to configure the properties for <strong>bills</strong> data model object.</p> </li> 
+  </ol> 
+  <h3>Configure services</h3> 
+  <ol> 
+   <li><p>Go to the <strong>Services</strong> tab.</p> </li> 
+   <li><p>Select the <strong>get</strong> service and tap <strong>Edit Properties</strong>. The <strong>Edit Properties</strong> pane opens.</p> </li> 
+   <li><p>In the <strong>Edit Properties</strong> pane:</p> 
+    <ul> 
+     <li>Enter an optional title and description.</li> 
+     <li>Select <strong>customer</strong> from the <strong>Output Model Object</strong> drop-down list.</li> 
+     <li>Tap <strong>Done</strong> to save the properties.</li> 
+    </ul> <img imageRotate="0" src="assets/edit_properties_get_details.png" /></li> 
+   <li><p>Select the <strong>update</strong> service and tap <strong>Edit Properties</strong>. The <strong>Edit Properties</strong> pane opens.</p> </li> 
+   <li><p>In the <strong>Edit Properties</strong> pane:</p> 
+    <ul> 
+     <li>Enter an optional title and description.</li> 
+     <li>Select <strong>customer</strong> from the <strong>Input Model Object</strong> drop-down list.</li> 
+     <li>Tap <strong>Done</strong>.</li> 
+     <li>Tap <strong>Save</strong> to save the form data model.</li> 
+    </ul> <img imageRotate="0" src="assets/update_service_properties.png" /></li> 
+  </ol> 
+  <h2>Step 5: Test form data model and services</h2> 
+  <p>You can test the data model object and services to verify that the form data model is configured properly.</p> 
+  <p>Do the following to run the test:</p> 
+  <ol> 
+   <li><p>Go to the <strong>Model</strong> tab, select the <strong>customer</strong> data model object, and tap <strong>Test Model Object</strong>.</p> </li> 
+   <li><p>In the <strong>Test Form Data Model</strong> window, select <strong>Read model object</strong> from the <strong>Select Model/Service</strong> drop-down list.</p> </li> 
+   <li><p>In the <strong>Input </strong>section, specify a value for the <strong>mobilenum</strong> property that exists in the configured MySQL database and tap <strong>Test</strong>.</p> <p>The customer details associated with the specified mobilenum property are fetched and displayed in the Output section as shown below. Close the dialog box.</p> <img imageRotate="0" src="assets/test_data_model.png" /></li> 
+   <li><p>Go to the <strong>Services</strong> tab.</p> </li> 
+   <li><p>Select the <strong>get</strong> service and tap <strong>Test Service.</strong></p> </li> 
+   <li><p>In the <strong>Input </strong>section, specify a value for the <strong>mobilenum</strong> property that exists in the configured MySQL database and tap <strong>Test</strong>.</p> <p>The customer details associated with the specified mobilenum property are fetched and displayed in the Output section as shown below. Close the dialog box.</p> <img imageRotate="0" src="assets/test_service.png" /></li> 
+  </ol> 
+  <h3>Edit and save sample data</h3> 
+  <p>Form data model editor allows you to generate sample data for all data model object properties, including computed properties, in a form data model. It is a set of random values that comply with the data type configured for each property. You can also edit and save data, which is retained even if you regenerate the sample data.</p> 
+  <p>Do the following to generate, edit, and save sample data:</p> 
+  <ol> 
+   <li><p>On the form data model page, tap <strong>Edit Sample Data</strong>. It generates and displays the sample data in Edit Sample Data window.</p> <img imageRotate="0" src="assets/edit_sample_data.png" /></li> 
+   <li><p>In <strong>Edit Sample Data</strong> window, edit data, as required, and tap <strong>Save</strong>. Close the window.</p> </li> 
+  </ol> 
+ </body> 
+</html>

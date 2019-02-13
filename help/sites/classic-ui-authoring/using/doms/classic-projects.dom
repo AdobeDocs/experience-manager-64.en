@@ -1,0 +1,49 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2017-12-01T19:02:00.398-0500" name="jcr:created" />
+  <meta content="Projects" name="seoTitle" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="2018-04-19T10:27:22.582-0400" name="cq:lastModified" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" />
+  <meta content="e6eeccdc-5777-413b-aa31-1ebbb8d9d68b" name="jcr:predecessors" />
+  <meta content="jsyal" name="cq:lastReplicatedBy" />
+  <meta content="Chris Bohnert" name="contentOwner" />
+  <meta content="2018-04-19T10:27:22.581-0400" name="locHandOffDate" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="2018-04-03T06:47:01.605-0400" name="lastPublishExternalDate" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="/content/docs/en/aem/6-3/author/classicui/projects" name="qaNotes" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="Projects" name="jcr:title" />
+  <meta content="147dfd13-78d2-4a84-8c30-b0d96c6aec99" name="jcr:uuid" />
+  <meta content="Projects let you group resources into one entity. A common, shared environment makes it easy to manage your projects." name="seoDescription" />
+  <meta content="2018-04-03T06:47:01.605-0400" name="publishExternalDate" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="2018-04-03T06:47:01.605-0400" name="topicBrowsingSortDate" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="2018-10-27T23:46:41.667-0400" name="cq:lastReplicated" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:projects;content_type:reference" name="cq:tags" />
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="Projects" name="navTitle" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="2017-10-31T16:18:29.877-0400" name="firstPublishExternalDate" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/classic-ui-authoring/using/classic-projects.html" name="publishExternalURL" />
+  <meta content="audience:classic-ui-authoring" name="primaryAudienceTag" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="/content/help/en/experience-manager/6-4/sites/classic-ui-authoring/morehelp/projects;/content/help/en/experience-manager/6-4/sites/classic-ui-authoring/morehelp/projects" name="moreHelpPaths" />
+ </head>
+ <body>
+  <p>Projects let you group resources into one entity. A common, shared environment makes it easy to manage your projects. The types of resources you can associate with a project are referred to in AEM as Tiles. Tiles may include project and team information, assets, workflows, and other types of information, as described in detail in <a href="#projecttiles">Project Tiles.</a></p> 
+  <note>
+   <p>Projects are not available in classic UI. See <a href="../../../sites/authoring/using/projects.md">Projects</a> in the standard authoring documentation for details.</p> 
+  </note>
+ </body>
+</html>

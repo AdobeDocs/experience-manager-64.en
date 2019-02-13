@@ -1,0 +1,115 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="/content/docs/en/aem/6-0/develop/mobile/emulators" name="legacyPath" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/morehelp/mobile-web;/content/help/en/experience-manager/6-4/sites/developing/morehelp/mobile-web" name="moreHelpPaths" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/emulators.html" name="publishExternalURL" /> 
+  <meta content="2018-05-08T12:43:02.065-0400" name="cq:lastModified" /> 
+  <meta content="22b8b2a0-8fb7-4cd0-90f2-e95e16178173" name="jcr:predecessors" /> 
+  <meta content="Emulators" name="jcr:title" /> 
+  <meta content="2017-12-01T19:06:14.035-0500" name="jcr:created" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="Emulators" name="seoTitle" /> 
+  <meta content="Emulators" name="navTitle" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:mobile-web;content_type:reference" name="cq:tags" /> 
+  <meta content="2017-10-31T16:16:49.738-0400" name="firstPublishExternalDate" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="audience:developing" name="primaryAudienceTag" /> 
+  <meta content="4d99d1b6-9c87-47c0-a299-cf1422170173" name="jcr:uuid" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="AEM enables authors to view a page in an emulator that simulates the environment in which an end-user will view the page" name="seoDescription" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="Guillaume Carlino" name="contentOwner" /> 
+  <meta content="/content/docs/en/aem/6-3/develop/mobile-web/emulators" name="qaNotes" /> 
+  <meta content="2018-05-04T05:20:20.588-0400" name="cq:lastReplicated" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="2017-10-31T16:16:49.738-0400" name="publishExternalDate" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="bohnert" name="cq:lastReplicatedBy" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="bohnert" name="cq:lastModifiedBy" /> 
+  <meta content="2017-10-31T16:16:49.738-0400" name="lastPublishExternalDate" /> 
+  <meta content="2017-10-31T16:16:49.738-0400" name="topicBrowsingSortDate" /> 
+  <meta content="2018-05-08T12:43:02.063-0400" name="locHandOffDate" /> 
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" /> 
+ </head> 
+ <body> 
+  <note> 
+   <p>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). <a href="../../../sites/developing/using/spa-overview.md">Learn more</a>.</p> 
+  </note> 
+  <p>Adobe Experience Manager (AEM) enables authors to view a page in an emulator that simulates the environment in which an end-user will view the page, as for example on a mobile device or in an email client.</p> 
+  <p>The AEM emulator framework:<br /> </p> 
+  <ul> 
+   <li>Provides content authoring within a simulated User Interface (UI), e.g. a mobile device or an email client (used to author newsletters).<br /> </li> 
+   <li>Adapts the page content according to the simulated UI.</li> 
+   <li>Allows the creation of custom emulators.<br /> </li> 
+  </ul> 
+  <note> 
+   <p>This feature is supported only in Classic UI.</p> 
+  </note> 
+  <h3>Emulators Characteristics</h3> 
+  <p>An emulator:</p> 
+  <ul> 
+   <li>Is based on ExtJS.</li> 
+   <li>Operates on the page DOM.</li> 
+   <li>Its appearance is regulated via CSS.</li> 
+   <li>Supports plugins (e.g. the mobile device rotation plugin).</li> 
+   <li>Is only active on author.</li> 
+   <li>Its base component is at <span class="code">/libs/wcm/emulator/components/base</span>.</li> 
+  </ul> 
+  <h4>How the Emulator Transforms the Content</h4> 
+  <p>The emulator works by wrapping the HTML body contents into emulator DIVs. For example, the following html code:<br /> </p> 
+  <codeblock gutter="true" class="syntax xml">
+    &lt;body&gt;!!discoiqbr!!&lt;div&amp;nbsp;id="wrapper"&amp;nbsp;class="page&amp;nbsp;mobilecontentpage&amp;nbsp;"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;div&amp;nbsp;class="topnav&amp;nbsp;mobiletopnav"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;...!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/div&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;...!!discoiqbr!!&lt;/div&gt;!!discoiqbr!!&lt;/body&gt; 
+  </codeblock> 
+  <p>is transformed into the following html code after the start of the emulator:<br /> </p> 
+  <codeblock gutter="true" class="syntax xml">
+    &lt;body&gt;!!discoiqbr!!&amp;nbsp;&lt;div&amp;nbsp;id="cq-emulator-toolbar"&gt;!!discoiqbr!!&amp;nbsp;...!!discoiqbr!!&amp;nbsp;&lt;/div&gt;!!discoiqbr!!&amp;nbsp;&lt;div&amp;nbsp;id="cq-emulator-wrapper"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;div&amp;nbsp;id="cq-emulator-device"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;div&amp;nbsp;class="&amp;nbsp;android&amp;nbsp;vertical"&amp;nbsp;id="cq-emulator"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;...!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;div&amp;nbsp;class="&amp;nbsp;android&amp;nbsp;vertical"&amp;nbsp;id="cq-emulator-content"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;...!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;div&amp;nbsp;id="wrapper"&amp;nbsp;class="page&amp;nbsp;mobilecontentpage"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;...!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/div&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;...!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/div&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/div&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&lt;/div&gt;!!discoiqbr!!&amp;nbsp;&lt;/div&gt;!!discoiqbr!!&amp;nbsp;...!!discoiqbr!!&lt;/body&gt; 
+  </codeblock> 
+  <p>Two div tags have been added:</p> 
+  <ul> 
+   <li> the div with id <span class="code">cq-emulator</span> holding the emulator as a whole and <br /> </li> 
+   <li>the div with id <span class="code">cq-emulator-content</span> representing the device's viewport/screen/content area where the page content resides.</li> 
+  </ul> 
+  <p>New CSS classes are also assigned to the new emulator divs: they represent the name of the current emulator. </p> 
+  <p>Plugins of an emulator may further extend the list of assigned CSS classes, as in the example of the rotation plugin, inserting a "vertical" or "horizontal" class depending on the current device rotation.<br /> </p> 
+  <p>This way, the complete appearance of the emulator can be controlled by having CSS classes corresponding to the IDs and CSS classes of the emulator divs.<br /> </p> 
+  <note> 
+   <p>It is recommended that the project HTML wraps the body content in a single div, just like in the example above. If the body content contains multiple tags there may be unpredictable results.</p> 
+  </note> 
+  <h3>Mobile Emulators</h3> 
+  <p>The existing mobile emulators:</p> 
+  <ul> 
+   <li>Are below /libs/wcm/mobile/components/emulators.</li> 
+   <li>Are available via the JSON servlet at:<br /> http://localhost:4502/bin/wcm/mobile/emulators.json</li> 
+  </ul> 
+  <p>When the page component relies on the mobile page component (<span class="code">/libs/wcm/mobile/components/page</span>), the emulator functionality is automatically integrated in the page through the following mechanism:</p> 
+  <ul> 
+   <li>The mobile page component <span class="code">head.jsp</span> includes the device group's associated emulator init component (only in author mode) and the device group's rendering CSS through:<br /> <span class="code">deviceGroup.drawHead(pageContext);</span></li> 
+   <li>The method <span class="code">DeviceGroup.drawHead(pageContext)</span> includes the emulator's init component, i.e. calls the <span class="code">init.html.jsp</span> of the emulator component. If the emulator component does not have its own <span class="code">init.html.jsp</span> and relies on the mobile base emulator (<span class="code">wcm/mobile/components/emulators/base)</span>, the init script of the mobile base emulator is called (<span class="code">/libs/wcm/mobile/components/emulators/base/init.html.jsp</span>).</li> 
+   <li>The init script of the mobile base emulator defines through Javascript: 
+    <ul> 
+     <li>The configuration for all the emulators that are defined for the page (emulatorConfigs)</li> 
+     <li>The emulator manager which integrates the emulator's functionality in the page through:<br /> <span class="code">emulatorMgr.launch(config)</span>;<br /> The emulator manager is defined by:<br /> <span class="code">/libs/wcm/emulator/widgets/source/EmulatorManager.js</span></li> 
+    </ul> </li> 
+  </ul> 
+  <h4>Creating a Custom Mobile Emulator</h4> 
+  <p>To create a custom mobile emulator:</p> 
+  <ol> 
+   <li>Below <span class="code">/apps/myapp/components/emulators</span> create the component <span class="code">myemulator</span> (node type: <span class="code">cq:Component</span>).</li> 
+   <li>Set the <span class="code">sling:resourceSuperType</span> property to <span class="code">/libs/wcm/mobile/components/emulators/base</span></li> 
+   <li>Define a CSS client library with category <span class="code">cq.wcm.mobile.emulator</span> for the emulator appearance: name = <span class="code">css</span>, node type = <span class="code">cq:ClientLibrary</span><br /> As an example, you can refer to the node <span class="code">/libs/wcm/mobile/components/emulators/iPhone/css</span></li> 
+   <li>If needed, define a JS client library, for example to define a specific plugin: name = js, node type = cq:ClientLibrary<br /> As an example, you can refer to the node <span class="code">/libs/wcm/mobile/components/emulators/base/js </span><br /> </li> 
+   <li>If the emulator supports specific functionalities defined by plugins (like touch scrolling), create a configuration node below the emulator: name = <span class="code">cq:emulatorConfig</span>, node type = <span class="code">nt:unstructured</span> and add the property that defines the plugin:<br /> - Name = <span class="code">canRotate</span>, Type = <span class="code">Boolean</span>, Value = <span class="code">true</span>: to include the rotation functionality.<br /> - Name = <span class="code">touchScrolling</span>, Type = <span class="code">Boolean</span>, Value = <span class="code">true</span>: to include the touch scrolling functionality.<br /> More functionalities can be added by defining your own plugins.</li> 
+  </ol> 
+ </body> 
+</html>

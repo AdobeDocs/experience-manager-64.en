@@ -1,0 +1,413 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="bohnert" name="cq:lastModifiedBy" /> 
+  <meta content="bohnert" name="cq:lastReplicatedBy" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/mobile.html" name="publishExternalURL" /> 
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="f85424d2-8d9e-48d9-9348-b40865c652d7" name="jcr:predecessors" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="/content/docs/en/aem/6-0/develop/mobile/mobile" name="legacyPath" /> 
+  <meta content="2017-12-01T19:05:00.322-0500" name="jcr:created" /> 
+  <meta content="2018-05-04T05:19:47.858-0400" name="cq:lastReplicated" /> 
+  <meta content="/content/docs/en/aem/6-3/develop/mobile-web/mobile" name="qaNotes" /> 
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2017-10-31T16:16:29.840-0400" name="publishExternalDate" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2017-10-31T16:16:29.840-0400" name="firstPublishExternalDate" /> 
+  <meta content="f4bc613e-7fda-4888-896f-65e98fb94432" name="jcr:uuid" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="Creating Sites for Mobile Devices" name="navTitle" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2018-05-08T12:44:20.029-0400" name="cq:lastModified" /> 
+  <meta content="2017-10-31T16:16:29.840-0400" name="topicBrowsingSortDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="audience:developing" name="primaryAudienceTag" /> 
+  <meta content="Creating Sites for Mobile Devices" name="seoTitle" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:mobile-web;content_type:reference" name="cq:tags" /> 
+  <meta content="2017-10-31T16:16:29.840-0400" name="lastPublishExternalDate" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="Guillaume Carlino" name="contentOwner" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2018-05-08T12:44:20.028-0400" name="locHandOffDate" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/morehelp/mobile-web;/content/help/en/experience-manager/6-4/sites/developing/morehelp/mobile-web" name="moreHelpPaths" /> 
+  <meta content="Creating Sites for Mobile Devices" name="jcr:title" /> 
+  <meta content="Creating a mobile site is similar to creating a standard site as it also involves creating templates and components" name="seoDescription" /> 
+ </head> 
+ <body> 
+  <note> 
+   <p>Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). <a href="../../../sites/developing/using/spa-overview.md">Learn more</a>.</p> 
+  </note> 
+  <p>Creating a mobile site is similar to creating a standard site as it also involves creating templates and components. For more details on creating templates and components, please refer to the following pages: <a href="../../../sites/developing/using/templates.md">Templates</a>, <a href="../../../sites/developing/using/components.md">Components</a> and <a href="../../../sites/developing/using/getting-started.md">Getting Started Developing AEM Sites</a>. The main difference consists in enabling the AEM built-in mobile functionalities within the site. It is achieved by creating a template that relies on the mobile page component.</p> 
+  <p>You should also consider using <a href="../../../sites/developing/using/responsive.md">responsive design</a>, creating a single site that accommodates multiple screen sizes.</p> 
+  <p>To get started you can have a look at the <strong>We.Retail Mobile Demo Site</strong> that is available in AEM.</p> 
+  <p>To create a mobile site, proceed as follows:</p> 
+  <ol> 
+   <li>Create the page component: 
+    <ul> 
+     <li>Set the <span class="code">sling:resourceSuperType</span> property to <span class="code">wcm/mobile/components/page</span><br /> This way the component relies on the mobile page component.</li> 
+     <li>Create the <span class="code">body.jsp</span> with the project specific logic.<br /> </li> 
+    </ul> </li> 
+   <li>Create the page template:<br /> 
+    <ul> 
+     <li>Set the <span class="code">sling:resourceType</span> property to the newly created page component.<br /> </li> 
+     <li>Set the <span class="code">allowedPaths</span> property.<br /> </li> 
+    </ul> </li> 
+   <li>Create the design page for the site.</li> 
+   <li>Create the site root page below the <span class="code">/content</span> node: 
+    <ul> 
+     <li>Set the <span class="code">cq:allowedTemplates</span> property.<br /> </li> 
+     <li>Set the <span class="code">cq:designPath</span> property.<br /> </li> 
+    </ul> </li> 
+   <li>In the page properties of the site root page, set the device groups in the <strong>Mobile</strong> tab.</li> 
+   <li>Create the site pages by using the new template.<br /> </li> 
+  </ol> 
+  <p>The mobile page component (<span class="code">/libs/wcm/mobile/components/page</span>):</p> 
+  <ul> 
+   <li>Adds the <strong>Mobile</strong> tab to the page properties dialog.</li> 
+   <li>Through its <span class="code">head.jsp</span>, it retrieves the current mobile device group from the request and if a device group is found, uses the group's <span class="code">drawHead()</span> method to include the device group's associated emulator init component (only in author mode) and the device group's rendering CSS.</li> 
+  </ul> 
+  <note> 
+   <p>The root page of the mobile site needs to be at the level 1 of the node hierarchy, and is recommended to be below the /content node.<br /> </p> 
+  </note> 
+  <h4>Creating a Mobile Site with the Multi Site Manager</h4> 
+  <p>Use Multi Site Manager (MSM) to create a mobile live copy from a standard site. The standard site is automatically transformed into a mobile site: the mobile site has all the features of the mobile sites (e.g. edition within an emulator) and can be managed in sync with the standard site. Refer to the section <a href="../../../sites/administering/using/msm.md">Creating a Live Copy for different Channels</a> in the Multi Site Manager page.<br /> </p> 
+  <h4>Server-Side Mobile API</h4> 
+  <p>The Java packages containing the mobile classes are:</p> 
+  <ul> 
+   <li><a href="/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/mobile/api/device/capability/package-summary">com.day.cq.wcm.mobile.api</a> - defines MobileConstants.<br /> </li> 
+   <li><a href="/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/mobile/api/device/package-summary">com.day.cq.wcm.mobile.api.device</a> - defines Device, DeviceGroup and DeviceGroupList.<br /> </li> 
+   <li><a href="/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/mobile/api/device/capability/package-summary">com.day.cq.wcm.mobile.api.device.capability</a> - defines DeviceCapability.<br /> </li> 
+   <li><a href="/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/workflow/api/package-summary">com.day.cq.wcm.mobile.api.wurfl</a> - defines WurflQueryEngine.<br /> </li> 
+   <li><a href="/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/mobile/core/package-summary">com.day.cq.wcm.mobile.core</a> - defines MobileUtil, which provides various utility methods revolving around WCM Mobile.</li> 
+  </ul> 
+  <h3>Mobile Components</h3> 
+  <p>The <strong>We.Retail Mobile Demo Site</strong> uses the following mobile components which are located below <span class="code">/libs/foundation/components</span>:</p> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td>Name</td> 
+     <td>Group</td> 
+     <td>Characteristics</td> 
+    </tr> 
+    <tr> 
+     <td>mobilefooter</td> 
+     <td>hidden</td> 
+     <td>- footer</td> 
+    </tr> 
+    <tr> 
+     <td>mobileimage</td> 
+     <td>Mobile</td> 
+     <td>- based on the image foundation component<br /> - renders an image if the device is capable<br /> </td> 
+    </tr> 
+    <tr> 
+     <td>mobilelist</td> 
+     <td>Mobile</td> 
+     <td>- based on the list foundation component<br /> - listitem_teaser.jsp renders an image if the device is capable<br /> </td> 
+    </tr> 
+    <tr> 
+     <td>mobilelogo</td> 
+     <td>hidden</td> 
+     <td>- based on the logo foundation component<br /> - renders an image if the device is capable<br /> </td> 
+    </tr> 
+    <tr> 
+     <td>mobilereference</td> 
+     <td>Mobile</td> 
+     <td><p>- similar to the reference foundation component</p> <p>- maps a textimage component to a mobiletextimage one and an image component to a mobileimage one</p> </td> 
+    </tr> 
+    <tr> 
+     <td>mobiletextimage</td> 
+     <td>Mobile</td> 
+     <td>- based on the textimage foundation component<br /> - renders an image if the device is capable</td> 
+    </tr> 
+    <tr> 
+     <td>mobiletopnav</td> 
+     <td>hidden</td> 
+     <td><p>- based on the topnav foundation component</p> <p>- only renders text</p> </td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <h4>Creating a Mobile Component</h4> 
+  <p>The AEM mobile framework allows to develop components that are sensitive to the device issuing the request. The following code samples show how to use the AEM mobile API in a component jsp and particularly how to:<br /> </p> 
+  <ul> 
+   <li>Get the device from the request:<br /> <span class="code">Device device = slingRequest.adaptTo(Device.class);</span></li> 
+   <li>Get the device group:<br /> <span class="code">DeviceGroup deviceGroup = device.getDeviceGroup();</span></li> 
+   <li>Get the device group capabilities:<br /> <span class="code">Collection&amp;lt;DeviceCapability&amp;gt; capabilities = deviceGroup.getCapabilities();</span></li> 
+   <li>Get the device attributes (raw capability key/values from the WURFL database):<br /> <span class="code">Map&amp;lt;String,String&amp;gt; deviceAttributes = device.getAttributes();</span></li> 
+   <li>Get the device user-agent:<br /> <span class="code">String userAgent = device.getUserAgent();</span></li> 
+   <li>Get the device group list (device groups assigned to the site by the author) from the current page:<br /> <span class="code">DeviceGroupList deviceGroupList = currentPage.adaptTo(DeviceGroupList.class);</span></li> 
+   <li>Check if the device group supports images<br /> <span class="code">if (deviceGroup.hasCapability(DeviceCapability.CAPABILITY_IMAGES)) {</span><br /> ...<br /> OR<br /> <span class="code">if MobileUtil.hasCapability(request, DeviceCapability.CAPABILITY_IMAGES) {</span><br /> ...</li> 
+  </ul> 
+  <note> 
+   <p>In a jsp, <span class="code">slingRequest</span> is available through the <span class="code">&amp;lt;sling:defineObjects&amp;gt;</span> tag and <span class="code">currentPage</span> through the <span class="code">&amp;lt;cq:defineObjects&amp;gt;</span> tag.</p> 
+  </note> 
+  <h3>Emulators</h3> 
+  <p>Emulator-based authoring provides authors the means to create content pages intended for mobile clients. Mobile content authoring follows the same principle of in-place WYSIWYG editing. In order for authors to perceive the page appearance on a mobile device, a mobile content page is edited by using a device emulator.<br /> </p> 
+  <p>Mobile devices emulators are based on the generic emulator framework. For more details please refer to the <a href="../../../sites/developing/using/emulators.md">Emulators</a> page.<br /> </p> 
+  <p>The device emulator displays the mobile device on the page whereas the usual editing (parsys, components) occurs within the device's screen. The device emulator depends on the device groups that are configured for the site. Several emulators can be assigned to a device group. All the emulators are then available on the content page. By default the first emulator assigned to the first device group assigned to the site, is displayed. Emulators can be switched either via the emulator carousel at the top of the page or via the Sidekick's edit button.<br /> </p> 
+  <p><strong>Creating an emulator</strong></p> 
+  <p>To create an emulator, please refer to the <a href="../../../sites/developing/using/emulators.md">Creating a Custom Mobile Emulator</a> section in the generic Emulators page.<br /> </p> 
+  <p> </p> 
+  <p><strong>Main characteristics of mobile emulators</strong></p> 
+  <ul> 
+   <li>A device group is composed of one of more emulators: the device group configuration page, e.g. /etc/mobile/groups/touch, contains the <span class="code">emulators</span> property below the <span class="code">jcr:content</span> node.<br /> Note: although it's possible that the same emulator belongs to several device groups, it does not make much sense.</li> 
+   <li>Via the device group's configuration dialog, the <span class="code">emulators</span> property is set with the path of the desired emulator(s). For example:<span class="code"> /libs/wcm/mobile/components/emulators/iPhone4</span>.</li> 
+   <li>The emulator components (e.g. <span class="code">/libs/wcm/mobile/components/emulators/iPhone4</span>) extend the base mobile emulator component (<span class="code">/libs/wcm/mobile/components/emulators/base</span>).</li> 
+   <li>Every component extending the base mobile emulator is available for selection when configuring a device group. Custom emulators can thus be easily created or extended.</li> 
+   <li>At request time in edit mode, the emulator implementation is used to render the page.</li> 
+   <li>When the template of the page relies on the mobile page component, the emulator functionalities are automatically integrated in the page (through the <span class="code">head.jsp</span> of the mobile page component).</li> 
+  </ul>  
+  <h3>Device Groups</h3> 
+  <p>Mobile device groups provide segmentation of mobile devices based on the device capabilities. A device group provides the information required for emulator-based authoring on the author instance and for correct content rendering on the publish instance: once authors have added content to the mobile page and have published it, the page can be requested on the publish instance. There, instead of the emulator editing view, the content page is rendered using one of the configured device groups. The selection of the device group occurs based on <a href="#devicedetection">mobile device detection</a>. The matching device group then provides the necessary styling information.</p> 
+  <p>Device groups are defined as content pages below <span class="code">/etc/mobile/devices</span> and use the <strong>Mobile Device Group</strong> template. The device group template serves as a configuration template for device group definitions in the form of content pages. Its main characteristics are:<br /> </p> 
+  <ul> 
+   <li>Location: <span class="code">/libs/wcm/mobile/templates/devicegroup</span></li> 
+   <li>Allowed Path: <span class="code">/etc/mobile/groups/*</span></li> 
+   <li>Page Component: <span class="code">wcm/mobile/components/devicegroup</span></li> 
+  </ul> 
+  <h4>Assigning Device Groups to your Site</h4> 
+  <p>When you create a mobile site, you need to assign device groups to your site. AEM provides three device groups depending on the device's HTML and JavaScript rendering abilities:</p> 
+  <ul> 
+   <li><strong>Feature</strong> phones, for feature devices like the Sony Ericsson W800 with support for basic HTML but no support for images and JavaScript.</li> 
+   <li><strong>Smart</strong> phones, for devices like the Blackberry with support for basic HTML and images, but no support for JavaScript.<br /> </li> 
+   <li><strong>Touch</strong> phones, for devices like the iPad with full support for HTML, images, JavaScript and device rotation.<br /> </li> 
+  </ul> 
+  <p>As emulators can be associated with a device group (see the section <a href="#creatingadevicegroup">Creating a Device Group</a>), assigning a device group to a site enables authors to select between the emulators that are associated with the device group to edit the page.</p> 
+  <p>To assign a device group to your site:</p> 
+  <ol> 
+   <li>In your browser, go to the <strong>Siteadmin</strong> console.</li> 
+   <li>Open the root page of your mobile site below <strong>Websites</strong>.</li> 
+   <li>Open the page properties.</li> 
+   <li>Select the <strong>Mobile</strong> tab: 
+    <ul> 
+     <li>Define the device groups.</li> 
+     <li>Click <strong>OK</strong>.</li> 
+    </ul> </li> 
+  </ol> 
+  <note> 
+   <p>When the device groups have been defined for a site, they are inherited by all the pages of the site.</p> 
+  </note> 
+  <h4>Device Group Filters</h4> 
+  <p>Device group filters define capability-based criteria for determining whether a device belongs in the group. When you create a device group, you can select the filters to use for evaluating devices.<br /> </p> 
+  <p>At run time when AEM receives an HTTP request from a device, each filter that is associated with a group compares the device capabilities with specific criteria. The device is considered to belong to the group when it has all the capabilities that the filters require. Capabilities are retrieved from the WURFL™ database.<br /> </p> 
+  <p>Device groups can use zero or more filters for capability detection. Also, a filter can be used with multiple device groups. AEM provides a default filter that determines whether the device has the capabilities that are selected for a group:</p> 
+  <ul> 
+   <li>CSS<br /> </li> 
+   <li>JPG and PNG images<br /> </li> 
+   <li>JavaScript</li> 
+   <li>Device rotation</li> 
+  </ul> 
+  <p>If the device group does not use a filter, the selected capabilities that are configured for the group are the only capabilities that a device requires.<br /> </p> 
+  <p>For more information, see <a href="../../../sites/developing/using/groupfilters.md">Creating Device Group Filters</a>.<br /> </p> 
+  <h4>Creating a Device Group</h4> 
+  <p>Create a device group when the groups that AEM installs do not meet your requirements.</p> 
+  <ol> 
+   <li>In your browser, go to the <strong>Tools</strong> console.</li> 
+   <li>Create a new page below <strong>Tools</strong> &amp;gt; <strong>Mobile</strong> &amp;gt; <strong>Device Groups</strong>. In the <strong>Create Page</strong> dialog:<br /> 
+    <ul> 
+     <li>As <strong>Title</strong> enter <span class="code">Special Phones</span>.</li> 
+     <li>As <strong>Name</strong> enter <span class="code">special</span>.</li> 
+     <li>Select the <strong>Mobile Device Group Template</strong>.</li> 
+     <li>Click <strong>Create</strong>.</li> 
+    </ul> </li> 
+   <li>In CRXDE, add a <strong>static.css</strong> file containing the styles for the device group below the <span class="code">/etc/mobile/groups/special</span> node.</li> 
+   <li>Open the <strong>Special Phones</strong> page.</li> 
+   <li>To configure the device group, click the <strong>Edit</strong> button beside <strong>Settings</strong>.<br /> On the <strong>General</strong> tab: 
+    <ul> 
+     <li><strong>Title</strong>: the name of the mobile device group.<br /> </li> 
+     <li><strong>Description</strong>: description of the group.</li> 
+     <li><strong>User-Agent</strong>: user-agent string which the devices are matched against. It is optional and can be a regex. Example: <span class="code">BlackBerryZ10</span><br /> </li> 
+     <li><strong>Capabilities</strong>: defines if the group can handle images, CSS, JavaScript or device rotation.</li> 
+     <li><strong>Minimum Screen Width </strong>and<strong> Height</strong></li> 
+     <li><strong>Disable Emulator</strong>: to able/disable the emulator during content editing.</li> 
+    </ul> On the <strong>Emulators</strong> tab: 
+    <ul> 
+     <li><strong>Emulators</strong>: select the emulators assigned to this device group.<br /> </li> 
+    </ul> On the <strong>Filters</strong> tab: 
+    <ul> 
+     <li>To add a filter, click Add Item and select a filter from the drop-down list.</li> 
+     <li>Filters are evaluated in the order that they appear. When a device does not meet a filter's criteria, subsequent filters on the list are not evaluated.</li> 
+    </ul> </li> 
+   <li>Click OK.</li> 
+  </ol> 
+  <p>The mobile device group configuration dialog looks as follows:</p> 
+  <img imageRotate="0" src="assets/screen_shot_2012-02-01at22043pm.png" /> 
+  <h4>Custom CSS per Device Group</h4> 
+  <p>As described before, it is possible to associate a custom CSS with a device group page, much like the CSS of a design page.This CSS is used to influence the device group specific rendering of the page content on author and on publish.This CSS is then automatically included:</p> 
+  <ul> 
+   <li>In the page on the author instance for every emulator used by this device group.</li> 
+   <li>In the page on the publish instance if the request's user agent matches a mobile device in this particular device group.<br /> </li> 
+  </ul> 
+  <h2>Server-Side Device Detection</h2> 
+  <p>Use filters and a library of device specifications to determine the capabilities of the device that performs the HTTP request.</p> 
+  <p></p> 
+  <h3>Develop Device Group Filters</h3> 
+  <p>Create a device group filter to define a set of device capability requirements. Create as many filters as you require to target the needed groups of device capabilities.</p> 
+  <p>Design your filters so that you can use combinations of them to define the groups of capabilities. Typically, there is overlap of the capabilities of different device groups. Therefore, you might use some filters with multiple device group definitions.</p> 
+  <p>After you create a filter, you can use it in the group configuration.</p> 
+  <p>For information, go to <a href="../../../sites/developing/using/groupfilters.md">Creating Device Group Filters</a>.</p> 
+  <h3>Using the WURFL™ Database</h3> 
+  <p>AEM uses a truncated version of the <a href="http://wurfl.sourceforge.net/">WURFL</a>™ database to query device capabilities, such as screen resolution or javascript support, based on the device's User-Agent.</p> 
+  <p>The XML code of the WURFL™ database is represented as nodes below <span class="code">/var/mobile/devicespecs</span> by parsing the <span class="code">wurfl.xml </span>file at <span class="code">/libs/wcm/mobile/devicespecs/wurfl.xml.</span> The expansion to nodes occurs the first time that the <span class="code">cq-mobile-core</span> bundle is started.</p> 
+  <p>Device capabilities are stored as node properties, and nodes represent device models. You can use queries to retrieve the capabilities of a device or user agent.</p> 
+  <p>As the WURFL™ database is evolving, you may need to customize or replace it. To update the mobile devices database you have the following options:</p> 
+  <ul> 
+   <li>Replace the file with the latest version, if you have a license that allows this usage. See Installing a Different WURFL Database.</li> 
+   <li>Use the version that is available in AEM and configure a regexp that matches your User-Agent strings and points to an existing WURFL™ device. See <a href="#addingaregexpbaseduseragentmatching">Adding a regexp-based User-Agent Matching</a>.</li> 
+  </ul> 
+  <h4>Testing the Mapping of a User-Agent to WURFL™ Capabilities</h4> 
+  <p>When a device accesses your mobile site, AEM detects the device, maps it to a device group according to its capabilities and sends a view of the page that corresponds to the device group. The matching device group provides the necessary styling information. The mappings can be tested on the Mobile User-Agent Test Page:<br /> </p> 
+  <p><span class="code">http://localhost:4502/etc/mobile/useragent-test.html</span><br /> </p> 
+  <h4>Installing a Different WURFL™ Database</h4> 
+  <p>The truncated WURFL™ database that is installed with AEM is a release that pre-dates<br /> August 30th 2011. If your version of the WURFL was released after August 30, 2011, make sure your usage complies with your license.</p> 
+  <p>To install a WURFL™ database:<br /> </p> 
+  <ol> 
+   <li>In CRXDE Lite, create the following folder: <span class="code">/apps/wcm/mobile/devicespecs</span></li> 
+   <li>Copy the WURFL™ file to the folder.</li> 
+   <li>Rename the file as <span class="code">wurfl.xml</span>.</li> 
+  </ol> 
+  <p>AEM automatically parses the <span class="code">wurfl.xml</span> file and updates the nodes below<span class="code">/var/mobile/devicespecs</span>.</p> 
+  <note> 
+   <p>When the full WURFL™ database is enabled, parsing and activation might take a few minutes. You can watch the logs for progress information.</p> 
+  </note> 
+  <h4>Adding a regexp-based User-Agent Matching</h4> 
+  <p>Add a user-agent as a regular expression below /apps/wcm/mobile/devicespecs/wurfl/regexp to point to an existing WURFL™ device type. <br /> </p> 
+  <ol> 
+   <li>In <strong>CRXDE Lite</strong>, create a node below /apps/wcm/mobile/devicespecs/regexp, e.g. apple_ipad_ver1.</li> 
+   <li>Add the following properties to the node: 
+    <ul> 
+     <li><strong>regexp</strong>: regular expression defining user-agents, e.g.: .*Mozilla.*iPad.*AppleWebKit.*Safari.*</li> 
+     <li><strong>deviceId</strong>: the device ID as defined in the wurfl.xml, e.g.: apple_ipad_ver1</li> 
+    </ul> </li> 
+  </ol> 
+  <p>The above configuration causes devices for which the User-Agent matches the supplied regular expression to be mapped to the apple_ipad_ver1 WURFL™ device ID, if it exists.</p> 
+  <h2>Client-Side Device Detection</h2>  
+  <p>This section describes how to use the device client-side detection of AEM in order to optimize page rendering or to provide the client with alternate website versions.<br /> <br /> AEM supports device client-side detection based on <span class="code">BrowserMap</span>. <span class="code">BrowserMap</span> is shipped in AEM as a client library under <span class="code">/etc/clientlibs/browsermap</span>.<br /> <br /> <span class="code">BrowserMap</span> provides you with three strategies you can use to provide an alternate website to a client, which are employed in the following order:</p> 
+  <ol> 
+   <li><a href="#providingalternatelinks">Alternate links</a><br /> </li> 
+   <li><a href="#definingdevicegroupspecificurl">Device Group Specific URL</a></li> 
+   <li><a href="#definingselectorbasedurls">Selector-based URL</a></li> 
+  </ol> 
+  <note> 
+   <p>For more information about Client Library integration, please read the <a href="../../../sites/developing/using/clientlibs.md">Using Client-Side HTML Libraries</a> section.<br /> </p> 
+  </note> 
+  <h3>Providing Alternate Links</h3> 
+  <p>The <span class="code">PageVariantsProvider</span> OSGi service is capable of generating alternate links for sites belonging to the same family. In order to configure sites to be taken into consideration by the service, a <span class="code">cq:siteVariant</span> node has to be added to the <span class="code">jcr:content</span> node from the root of the site.</p> 
+  <p>The <span class="code">cq:siteVariant</span> node needs to have the following properties:</p> 
+  <ul> 
+   <li><span class="code">cq:childNodesMapTo</span> - determines to which attribute of the link element the child nodes will be mapped; it is recommended to organize the content of your website in such a way so that the children of the root node represent the root for a language variant of your global website (e.g. <span class="code">/content/mysite/en</span>, <span class="code">/content/mysite/de</span>), in which case the value of the <span class="code">cq:childNodesMapTo</span> should be <span class="code">hreflang</span>;</li> 
+   <li><span class="code">cq:variantDomain</span> - indicates what <span class="code">Externalizer</span> domain will be used to generate the page variants absolute URLs; if this value is not set then the page variants will be generated using relative links;</li> 
+   <li><span class="code">cq:variantFamily</span> - indicates to which family of websites this site belongs; multiple device-specific representations of the same website should belong to the same family;</li> 
+   <li><span class="code">media</span> - stores the values of the media attribute of the link element; it is recommended to use the name of the <span class="code">BrowserMap</span> registered <span class="code">DeviceGroups</span>, so that the <span class="code">BrowserMap</span> library can automatically forward the clients to the correct variant of the website.</li> 
+  </ul> 
+  <h4>PageVariantsProvider and Externalizer</h4> 
+  <p>When the value of the <span class="code">cq:variantDomain</span> property of a <span class="code">cq:siteVariant</span> node is not empty, the <span class="code">PageVariantsProvider</span> service will generate absolute links using this value as a configured domain for the <span class="code">Externalizer</span> service. Make sure to configure the <span class="code">Externalizer</span> service to reflect your setup.</p> 
+  <note> 
+   <p>When working with AEM there are several methods of managing the configuration settings for such services; see <a href="../../../sites/deploying/using/configuring-osgi.md">Configuring OSGi</a> for more details and the recommended practices.</p> 
+  </note> 
+  <h3>Defining a Device Group Specific URL</h3> 
+  <p>If you don't want to use alternate links, you can configure a global URL for each <span class="code">DeviceGroup</span>. We recommend creating your own client library that embeds the <span class="code">browsermap.standard</span> client library but redefines the device groups.<br /> <br /> BrowserMap is designed in such a way that Device Groups definitions can be overriden by creating and adding a new Device Group with the same name to the <span class="code">BrowserMap</span> object from your customised client library.</p> 
+  <note> 
+   <p>For more details please read the <a href="#creatingacustomisedbrowsermap">Customised BrowserMap</a> section.</p> 
+  </note> 
+  <h3>Defining Selector-based URLs</h3> 
+  <p>If none of the previous mechanisms have been employed in order to indicate an alternate site for <span class="code">BrowserMap</span>, then selectors that will use the names of the <span class="code">DeviceGroups</span> will be added to the <span class="code">URL</span>s, in which case you should provide your own servlets that will handle the requests.</p> 
+  <p>For example a device browsing <span class="code">www.example.com/index.html</span> identified as <span class="code">smartphone</span> by BrowserMap is forwarded to <span class="code">www.example.com/index.smartphone.html.</span></p> 
+  <h3>Using BrowserMap On Your Pages</h3> 
+  <p>In order to use the standard BrowserMap client library in a page, you have to include the <span class="code">/libs/wcm/core/browsermap/browsermap.jsp</span> file using a <span class="code">cq:include </span>tag in your page's <span class="code">head</span> section.</p> 
+  <codeblock gutter="true" class="syntax xml">
+    &lt;cq:include&amp;nbsp;script="/libs/wcm/core/browsermap/browsermap.jsp"&amp;nbsp;/&gt; 
+  </codeblock> 
+  <p>Besides adding the <span class="code">BrowserMap</span> client library in your <span class="code">JSP</span> files, you also have to add a <span class="code">cq:deviceIdentificationMode</span> String property set to <span class="code">client-side</span> to the <span class="code">jcr:content</span> node below the root of your web site.</p> 
+  <h3>Overriding BrowserMap's default behaviour</h3> 
+  <p>If you would like to customise <span class="code">BrowserMap</span> - by overriding the <span class="code">DeviceGroups</span> or adding more probes - then you should create your own client-side library in which you embed the <span class="code">browsermap.standard </span>client-side library.</p> 
+  <p>Furthermore, you have to manually call the <span class="code">BrowserMap.forwardRequest()</span> method in your <span class="code">JavaScript</span> code.</p> 
+  <note> 
+   <p>For more information about Client Library integration, please read the <a href="../../../sites/developing/using/clientlibs.md">Using Client-Side HTML Libraries</a> section.<br /> </p> 
+  </note> 
+  <p>Once you've created your customised <span class="code">BrowserMap</span> client library, we suggest the following approach:</p> 
+  <ol> 
+   <li><p>Create a <span class="code">browsermap.jsp</span> file in your application</p> 
+    <codeblock gutter="true" class="syntax xml">
+      &lt;%@include&amp;nbsp;file="/libs/foundation/global.jsp"&amp;nbsp;%&gt;!!discoiqbr!!&lt;%@&amp;nbsp;taglib&amp;nbsp;prefix="c"&amp;nbsp;uri="http://java.sun.com/jsp/jstl/core"&amp;nbsp;%&gt;!!discoiqbr!!&lt;%@&amp;nbsp;page&amp;nbsp;import="!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;com.day.cq.wcm.api.variants.PageVariant,!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;com.day.cq.wcm.api.variants.PageVariantsProvider,!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;com.day.cq.wcm.api.devicedetection.DeviceIdentificationMode,!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;com.day.cq.wcm.api.WCMMode"!!discoiqbr!!%&gt;!!discoiqbr!!&lt;%!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;final&amp;nbsp;PageVariantsProvider&amp;nbsp;p&amp;nbsp;=&amp;nbsp;sling.getService(PageVariantsProvider.class);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if(p&amp;nbsp;==&amp;nbsp;null)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;throw&amp;nbsp;new&amp;nbsp;IllegalStateException("Missing&amp;nbsp;PageVariantsProvider&amp;nbsp;service");!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;for(PageVariant&amp;nbsp;v&amp;nbsp;:&amp;nbsp;p.getVariants(currentPage,&amp;nbsp;slingRequest))&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;final&amp;nbsp;String&amp;nbsp;curVar&amp;nbsp;=&amp;nbsp;v.getAttributes().get("data-current-variant");!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;String&amp;nbsp;media&amp;nbsp;=&amp;nbsp;v.getAttributes().get("media");!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if&amp;nbsp;(media&amp;nbsp;!=&amp;nbsp;null)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;media&amp;nbsp;=&amp;nbsp;media.replaceAll("&amp;nbsp;",&amp;nbsp;"");!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!%&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;link!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;rel="alternate"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;data-cq-role="site.variant"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;title="&lt;%=&amp;nbsp;xssAPI.encodeForHTMLAttr(v.getTitle())&amp;nbsp;%&gt;"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;hreflang="&lt;%=&amp;nbsp;xssAPI.encodeForHTMLAttr(v.getAttributes().get("hreflang"))&amp;nbsp;%&gt;"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;media="&lt;%=&amp;nbsp;xssAPI.encodeForHTMLAttr(media)&amp;nbsp;%&gt;"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;href="&lt;%=&amp;nbsp;xssAPI.getValidHref(v.getURL())&amp;nbsp;%&gt;"!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;%&amp;nbsp;if(curVar&amp;nbsp;!=&amp;nbsp;null)&amp;nbsp;{&amp;nbsp;%&gt;&amp;nbsp;data-current-variant="&lt;%=&amp;nbsp;curVar&amp;nbsp;%&gt;"&lt;%&amp;nbsp;}&amp;nbsp;%&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;/&gt;!!discoiqbr!!&lt;%!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Boolean&amp;nbsp;browserMapEnabled&amp;nbsp;=&amp;nbsp;true;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;final&amp;nbsp;DeviceIdentificationMode&amp;nbsp;dim&amp;nbsp;=&amp;nbsp;sling.getService(DeviceIdentificationMode.class);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;String[]&amp;nbsp;selectors&amp;nbsp;&amp;nbsp;=&amp;nbsp;slingRequest.getRequestPathInfo().getSelectors();!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;boolean&amp;nbsp;isPortletRequest&amp;nbsp;=&amp;nbsp;false;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;for&amp;nbsp;(int&amp;nbsp;i&amp;nbsp;=&amp;nbsp;0;&amp;nbsp;i&amp;nbsp;&lt;&amp;nbsp;selectors.length;&amp;nbsp;i++)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if&amp;nbsp;("portlet".equals(selectors[i]))&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;isPortletRequest&amp;nbsp;=&amp;nbsp;true;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;break;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if&amp;nbsp;(isPortletRequest)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;log.debug("Request&amp;nbsp;was&amp;nbsp;made&amp;nbsp;by&amp;nbsp;a&amp;nbsp;portlet&amp;nbsp;container&amp;nbsp;-&amp;nbsp;BrowserMap&amp;nbsp;will&amp;nbsp;not&amp;nbsp;be&amp;nbsp;embedded");!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}&amp;nbsp;else&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;final&amp;nbsp;WCMMode&amp;nbsp;wcmMode&amp;nbsp;=&amp;nbsp;WCMMode.fromRequest(slingRequest);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;boolean&amp;nbsp;shouldIncludeClientLib&amp;nbsp;=&amp;nbsp;false;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if&amp;nbsp;(WCMMode.EDIT&amp;nbsp;!=&amp;nbsp;wcmMode&amp;nbsp;&amp;&amp;&amp;nbsp;WCMMode.PREVIEW&amp;nbsp;!=&amp;nbsp;wcmMode&amp;nbsp;&amp;&amp;&amp;nbsp;WCMMode.DESIGN&amp;nbsp;!=&amp;nbsp;wcmMode)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if&amp;nbsp;(dim&amp;nbsp;!=&amp;nbsp;null)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;final&amp;nbsp;String&amp;nbsp;mode&amp;nbsp;=&amp;nbsp;dim.getDeviceIdentificationModeForPage(currentPage);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;shouldIncludeClientLib&amp;nbsp;=&amp;nbsp;DeviceIdentificationMode.CLIENT_SIDE.equals(mode);!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if&amp;nbsp;(shouldIncludeClientLib)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;browserMapEnabled&amp;nbsp;=&amp;nbsp;(Boolean)&amp;nbsp;request.getAttribute("browsermap.enabled");!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;if&amp;nbsp;(browserMapEnabled&amp;nbsp;==&amp;nbsp;null)&amp;nbsp;{!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;browserMapEnabled&amp;nbsp;=&amp;nbsp;true;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!%&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;c:if&amp;nbsp;test="&lt;%=&amp;nbsp;!browserMapEnabled&amp;nbsp;%&gt;"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;meta&amp;nbsp;name="browsermap.enabled"&amp;nbsp;content="false"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/c:if&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;c:if&amp;nbsp;test="&lt;%=&amp;nbsp;shouldIncludeClientLib&amp;nbsp;%&gt;"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;meta&amp;nbsp;name="viewport"&amp;nbsp;content="width=device-width,&amp;nbsp;initial-scale=1.0"&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;cq:includeClientLib&amp;nbsp;categories="browsermap.custom"/&gt;!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/c:if&gt;!!discoiqbr!!&lt;%!!discoiqbr!!&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;}!!discoiqbr!!%&gt;!!discoiqbr!! 
+    </codeblock></li> 
+   <li><p>Include the <span class="code">broswermap.jsp</span> file in your head section.</p> 
+    <codeblock gutter="true" class="syntax xml">
+      &lt;cq:include&amp;nbsp;script="browsermap.jsp"&amp;nbsp;/&gt; 
+    </codeblock></li> 
+  </ol> 
+  <h3>Excluding BrowserMap From Certain Pages</h3> 
+  <p>If you would like to exclude the BrowserMap library from some of your pages where you don't need client-detection you can add a request attribute:</p> 
+  <codeblock gutter="true" class="syntax xml">
+    &lt;%!!discoiqbr!!request.setAttribute("browsermap.enabled",&amp;nbsp;false);!!discoiqbr!!%&gt; 
+  </codeblock> 
+  <p>This will make the <span class="code">/libs/wcm/core/browsermap/browsermap.jsp</span> script to add a meta tag to the page that will make <span class="code">BrowserMap</span> to not perform any detection:</p> 
+  <codeblock gutter="true" class="syntax xml">
+    &lt;meta&amp;nbsp;name="browsermap.enabled"&amp;nbsp;content="false"&gt; 
+  </codeblock> 
+  <h3>Testing a Specific Version of a Web Site</h3> 
+  <p>Normally, the BrowserMap script always redirects visitors to the best suited version of the web site, typically redirecting visitors to the desktop or to the mobile site when needed.</p> 
+  <p>You can force the device of any request in order to test a specific version of a web site by adding the <span class="code">device</span> parameter to your URL. The folllowing URL will render the mobile version of the Geometrixx Outdoors web site.</p> 
+  <p><span class="code">http://localhost:4502/content/geometrixx-outdoors/en.html?wcmmode=disabled&amp;device=smartphone</span></p> 
+  <note> 
+   <p>The <span class="code">wcmmode</span> paratemer is set to <span class="code">disabled</span> in order to simulate the behavior of a publish instance.</p> 
+  </note> 
+  <p>The overriden device value is stored in a cookie so you can browse your web site without adding the <span class="code">device</span> parameter to each <span class="code">URL</span>.</p> 
+  <p>As a consequence you need to call the same <span class="code">URL</span> with the <span class="code">device</span> set to <span class="code">browser</span> in order to get back to the desktop version of the web site.<br /> </p> 
+  <note> 
+   <p>BrowserMap stores the overriden device value in a cookie called <span class="code">BMAP_device</span>. Deleting this cookie will ensure that CQ will serve the appropriate version of the web site according to your current device (e.g. desktop or mobile).</p> 
+  </note> 
+  <h2>Mobile Request Processing</h2> 
+  <p>AEM processes a request issued by a mobile device that belongs to the touch device group as follows:<br /> </p> 
+  <ol> 
+   <li>An iPad sends a request to the AEM publish instance, e.g. <span class="code">http://localhost:4503/content/geometrixx_mobile/en/products.html</span></li> 
+   <li>AEM determines whether the site of the requested page is a mobile site (by checking whether the first level page <span class="code">/content/geometrixx_mobile</span> extends the mobile page component). If yes:</li> 
+   <li>AEM looks up the device capabilities based on the User-Agent in the request header.</li> 
+   <li>AEM maps the device capabilities to the device group and sets <span class="code">touch</span> as the device group selector.<br /> </li> 
+   <li>AEM redirects the request to <span class="code">http://localhost:4503/content/geometrixx_mobile/en/products.touch.html.</span></li> 
+   <li>AEM sends the response to the iPad:<br /> 
+    <ul> 
+     <li><span class="code">products.touch.html</span> is rendered in the usual way and is cachable.</li> 
+     <li>The rendering components use selectors to adapt the presentation.</li> 
+     <li>AEM automatically adds the mobile selector to all the internal links in the page.</li> 
+    </ul> </li> 
+  </ol> 
+  <h3>Statistics</h3> 
+  <p>You can get some statistics about the number of requests that were made to the AEM server by mobile devices. The number of requests can be broken down:</p> 
+  <ul> 
+   <li>per device group and device</li> 
+   <li>per year, month and day</li> 
+  </ul> 
+  <p>To view the statistics:</p> 
+  <ol> 
+   <li>Go to the <strong>Tools</strong> console.</li> 
+   <li>Open the <strong>Device Statistics</strong> page below <strong>Tools</strong> &amp;gt; <strong>Mobile</strong>.</li> 
+   <li>Click the link to view the statistics for a specific year, month or day.</li> 
+  </ol> 
+  <p>The <strong>Statistics</strong> page looks as follows:</p> 
+  <img imageRotate="0" src="assets/screen_shot_2012-02-01at24353pm.png" /> 
+  <note> 
+   <p>The <strong>Statistics</strong> page is created the first time a mobile device accesses AEM and is detected. Before that, it is not available.</p> 
+  </note> 
+  <p>If you need to generate an entry in the statistics, you can proceed as follows:</p> 
+  <ol> 
+   <li>Use a mobile device or an emulator (as for example http://chrispederick.com/work/user-agent-switcher/ on Firefox).<br /> </li> 
+   <li>Request a mobile page on the author instance by disabling the authoring mode, e.g.:<br /> <span class="code">http://localhost:4502/content/geometrixx_mobile/en/products.html?wcmmode=disabled</span></li> 
+  </ol> 
+  <p>The <strong>Statistics</strong> page is now available.<br /> </p> 
+  <h3>Supporting Page Caching for "send link to a friend" Links</h3> 
+  <p>Mobile pages are generally cachable on Dispatcher, because pages that are rendered for a device group are distinguished in the page URL by the device group selector, for example <span class="code">/content/mobilepage.touch.html</span>. A request to a mobile page without a selector is never cached, as in this case, the device detection operates and finally redirects to the matching device group (or "nomatch" for that matter). A mobile page rendered with a device group selector is processed by the link rewriter, which rewrites all links within the page to also contain the device group selector, preventing from re-performing device detection for every click on an already qualified page.</p> 
+  <p>Therefore you might encounter the following scenario:</p> 
+  <p>User Alice gets redirected to <span class="code">coolpage.feature.html</span>, and sends that URL to a friend Bob who accesses it with a different client which falls in the <span class="code">touch</span> device group.<br /> </p> 
+  <p>If <span class="code">coolpage.feature.html</span> is served from a front-end cache, AEM does not get a chance to analyze the request to find out that the mobile selector does not match the new User-Agent, and Bob gets the wrong representation.<br /> </p> 
+  <p>To solve it, you can include a simple selection UI on the pages, where end users can override the device group that was selected by AEM. In the above example, a link (or an icon) on the page allows the end user to switch to <span class="code">coolpage.touch.html</span> if he thinks that his device is good enough for that.<br /> </p> 
+ </body> 
+</html>

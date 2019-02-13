@@ -1,0 +1,202 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="AEM Sites - GDPR Readiness" name="navTitle" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2018-03-07T08:01:25.934-0500" name="jcr:created" /> 
+  <meta content="2018-08-20T02:30:37.845-0400" name="topicBrowsingSortDate" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="audience:administering" name="primaryAudienceTag" /> 
+  <meta content="2018-05-25T11:33:52.734-0400" name="locHandOffDate" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/administering/morehelp/best-practices;/content/help/en/experience-manager/6-4/sites/administering/morehelp/best-practices" name="moreHelpPaths" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2018-08-20T02:30:37.845-0400" name="publishExternalDate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="c135da5d-50aa-4771-a356-fa5fbacae197" name="jcr:uuid" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/gdpr-compliance-sites.html" name="publishExternalURL" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2018-08-20T02:30:37.845-0400" name="lastPublishExternalDate" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="en" name="pageCreatedAt" /> 
+  <meta content="2018-08-20T02:30:37.876-0400" name="cq:lastReplicated" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="aheimoz" name="cq:lastModifiedBy" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="3f66fe03-c8a9-449f-99ce-c277507bdeff" name="jcr:predecessors" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;content_type:reference;topic_tags:best-practices" name="cq:tags" /> 
+  <meta content="Learn about the details of GDPR Readiness for AEM Sites." name="seoDescription" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="AEM Sites - GDPR Readiness" name="seoTitle" /> 
+  <meta content="2018-04-03T08:19:30.503-0400" name="firstPublishExternalDate" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2018-08-20T02:30:37.850-0400" name="cq:lastModified" /> 
+  <meta content="aheimoz" name="cq:lastReplicatedBy" /> 
+  <meta content="AEM Sites - GDPR Readiness" name="jcr:title" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="aheimoz" name="contentOwner" /> 
+  <meta content="aheimoz@adobe.com" name="lr_lastReplicatedBy" /> 
+ </head> 
+ <body> 
+  <p>The European Union's General Data Protection Regulation on data privacy rights takes effect as of May 2018.</p> 
+  <p>AEM Sites is ready to help customers with their GDPR compliance obligations. This page guides customers through the procedures to handle GDPR requests in AEM Sites. It describes the location of private data stored, and how to remove them manually or with code.<br /> </p> 
+  <p>For further information see the <a href="https://www.adobe.com/privacy/general-data-protection-regulation.html">GDPR page at the Adobe Privacy Center</a>.</p> 
+  <note> 
+   <p>See <a href="../../../managing/using/gdpr-compliance.md">AEM GDPR Readiness</a> for further details.</p> 
+  </note> 
+  <h2>Author Server</h2> 
+  <p>User accounts and UGC content on the author server are covered in the <a href="../../../managing/using/gdpr-compliance.md#aemplatform">Platform GDPR documentation</a>.</p> 
+  <h2>Publish Server</h2> 
+  <p>User accounts used to authenticate visitors on the site, and UGC content on the publish server are covered in the <a href="../../../managing/using/gdpr-compliance.md#aemplatform">Platform GDPR documentation</a>.</p> 
+  <p>By default AEM Sites components do not store form-data entered by visitors on the 
+   <g class="gr_ gr_4 gr-alert gr_gramm gr_inline_cards gr_run_anim Grammar multiReplace" data-gr-id="4" id="4">
+     publish 
+   </g> server. It is recommended to forward the data to a third party system, or Adobe Campaign for further processing.</p> 
+  <h2>Opt-In/Opt-Out</h2> 
+  <p>AEM has a <a href="/sites/developing/using/cookie-optout.html ">cookie opt-out service</a> that can be used for managing the opt-in/opt-out for users.</p> 
+  <h2>Enhanced Insights by Analytics</h2> 
+  <p>AEM Sites includes an optional integration with Enhanced Insights by Analytics which uses functionality within the Adobe Analytics On-demand Service.</p> 
+  <p>For further information on managing GDPR data subject requests related to Adobe Analytics see <a href="https://marketing.adobe.com/resources/help/en_US/analytics/gdpr/">Adobe Analytics and GDPR</a>.</p> 
+  <h2>Enhanced Personalization by Target</h2> 
+  <p>AEM Sites includes an optional integration with Enhanced Personalization by Target which uses functionality within the Adobe Target On-demand Service.</p> 
+  <p>For further information on managing GDPR data subject requests related to Adobe Target see <a href="https://marketing.adobe.com/resources/help/en_US/target/target/privacy-and-general-data-protection-regulation.html">Adobe Target - Privacy and General Data Protection Regulation</a>.</p> 
+  <h2>ContextHub</h2> 
+  <p>AEM provides an optional data layer with <a href="../../../sites/developing/using/contexthub.md">ContextHub</a>. This keeps visitor-specific data in the browser, to be used for rules-based personalization.</p> 
+  <p>By default, this visitor-data is not stored in AEM; AEM sends rules to the data layer to make personalization decisions in the browser.</p> 
+  <note> 
+   <p>Prior to Adobe CQ 5.6, the ClientContext (an earlier version of ContextHub) did send the data to the server, but did not store them.</p> 
+   <p>Adobe CQ 5.5 and earlier are now EOL and not covered by this documentation.</p> 
+  </note> 
+  <h3>Implementing Opt-in/Opt-Out</h3> 
+  <p>The site owner needs to implement an opt-out component according to the following guidelines.</p> 
+  <p>These guidelines implement opt-in as the default. Thus, a website visitor must clearly agree, before any Personal Data is stored in the browser's (client-side) persistence.</p> 
+  <ul> 
+   <li><p>The opt-out component should be included every time the ContextHub component is included.</p> </li> 
+   <li><p>The terms and conditions that relate to GDPR for the website, must be displayed to the website visitor, allowing them to:</p> 
+    <ul> 
+     <li>accept</li> 
+     <li>reject</li> 
+     <li>change their previous choice</li> 
+    </ul> </li> 
+   <li><p>If a site visitor accepts the site's terms and conditions, the ContextHub opt-out cookie should be removed:</p> 
+    <codeblock gutter="true" class="syntax js">
+      ContextHub.Utils.Cookie.removeItem('cq-opt-out'); 
+    </codeblock></li> 
+   <li><p>If a site visitor does not accept the site's terms and conditions, the ContextHub opt-out cookie should be set:</p> 
+    <codeblock gutter="true" class="syntax js">
+      ContextHub.Utils.Cookie.setItem('cq-opt-out',&amp;nbsp;1); 
+    </codeblock></li> 
+   <li><p>To check whether ContextHub is running in opt-out mode, the following call should be made in the browser's console:</p> 
+    <codeblock gutter="true" class="syntax js">
+      var&amp;nbsp;isOptedOut&amp;nbsp;=&amp;nbsp;ContextHub.isOptedOut(true)&amp;nbsp;===&amp;nbsp;true;!!discoiqbr!!//&amp;nbsp;if&amp;nbsp;isOptedOut&amp;nbsp;is&amp;nbsp;true,&amp;nbsp;ContextHub&amp;nbsp;is&amp;nbsp;running&amp;nbsp;in&amp;nbsp;opt-out&amp;nbsp;mode 
+    </codeblock></li> 
+  </ul> 
+  <h3>Previewing Persistence of ContextHub</h3> 
+  <p>To preview persistance used ContextHub, a user can:</p> 
+  <ul> 
+   <li>Use the browser's console; for example: 
+    <ul> 
+     <li>Chrome: 
+      <ul> 
+       <li>Open Developer Tools &amp;gt; Application &amp;gt; Storage: 
+        <ul> 
+         <li>Local Storage &amp;gt; (website) &amp;gt; ContextHubPersistence</li> 
+         <li>Session Storage &amp;gt; (website) &amp;gt; ContextHubPersistence</li> 
+         <li>Cookies &amp;gt; (website) &amp;gt; SessionPersistence</li> 
+        </ul> </li> 
+      </ul> </li> 
+     <li>Firefox: 
+      <ul> 
+       <li>Open Developer Tools &amp;gt; Storage: 
+        <ul> 
+         <li>Local Storage &amp;gt; (website) &amp;gt; ContextHubPersistence</li> 
+         <li>Session Storage &amp;gt; (website) &amp;gt; ContextHubPersistence</li> 
+         <li>Cookies &amp;gt; (website) &amp;gt; SessionPersistence</li> 
+        </ul> </li> 
+      </ul> </li> 
+     <li>Safari: 
+      <ul> 
+       <li>Open Preferences &amp;gt; Advanced &amp;gt; Show Develop menu in menu bar</li> 
+       <li>Open Develop &amp;gt; Show JavaScript Console 
+        <ul> 
+         <li>Console &amp;gt; Storage &amp;gt; Local Storage &amp;gt; (website) &amp;gt; ContextHubPersistence</li> 
+         <li>Console &amp;gt; Storage &amp;gt; Session Storage &amp;gt; (website) &amp;gt; ContextHubPersistence</li> 
+         <li>Console &amp;gt; Storage &amp;gt; Cookies &amp;gt; (website) &amp;gt; ContextHubPersistence</li> 
+        </ul> </li> 
+      </ul> </li> 
+     <li>Internet Explorer:<br /> 
+      <ul> 
+       <li>Open Developer Tools &amp;gt; Console 
+        <ul> 
+         <li>localStorage.getItem('ContextHubPersistence')</li> 
+         <li>sessionStorage.getItem('ContextHubPersistence')</li> 
+         <li>document.cookie</li> 
+        </ul> </li> 
+      </ul> </li> 
+    </ul> </li> 
+   <li>Use the ContextHub API, in the browser's console: 
+    <ul> 
+     <li>ContextHub provides following data persistence layers: 
+      <ul> 
+       <li>ContextHub.Utils.Persistence.Modes.LOCAL (default)</li> 
+       <li>ContextHub.Utils.Persistence.Modes.SESSION</li> 
+       <li>ContextHub.Utils.Persistence.Modes.COOKIE</li> 
+       <li>ContextHub.Utils.Persistence.Modes.WINDOW</li> 
+      </ul> <p>The ContextHub store defines which persistence layer will be used, thus to view the current state of the persistence all layers should be checked.</p> </li> 
+    </ul> </li> 
+  </ul> 
+  <p>For example, to view data stored in localStorage:</p> 
+  <p>To preview persistance used ContextHub, a user can:</p> 
+  <ul> 
+   <li>Use the browser's console: 
+    <ul> 
+     <li>Chrome - open Developer Tools &amp;gt; Application &amp;gt; Storage: 
+      <ul> 
+       <li>Local Storage &amp;gt; (website) &amp;gt; ContextHubPersistence</li> 
+       <li>Session Storage &amp;gt; (website) &amp;gt; ContextHubPersistence</li> 
+       <li>Cookies &amp;gt; (website) &amp;gt; SessionPersistence</li> 
+      </ul> </li> 
+     <li>Firefox - open Developer Tools &amp;gt; Storage: 
+      <ul> 
+       <li>Local Storage &amp;gt; (website) &amp;gt; ContextHubPersistence</li> 
+       <li>Session Storage &amp;gt; (website) &amp;gt; ContextHubPersistence</li> 
+       <li>Cookies &amp;gt; (website) &amp;gt; SessionPersistence</li> 
+      </ul> </li> 
+    </ul> </li> 
+   <li>Use the ContextHub API, in the browser's console: 
+    <ul> 
+     <li>ContextHub provides following data persistence layers: 
+      <ul> 
+       <li>ContextHub.Utils.Persistence.Modes.LOCAL (default)</li> 
+       <li>ContextHub.Utils.Persistence.Modes.SESSION</li> 
+       <li>ContextHub.Utils.Persistence.Modes.COOKIE</li> 
+       <li>ContextHub.Utils.Persistence.Modes.WINDOW</li> 
+      </ul> <p>The ContextHub store defines which persistence layer will be used, thus to view the current state of the persistence all layers should be checked.</p> </li> 
+    </ul> </li> 
+  </ul> 
+  <p>For example, to view data stored in localStorage:</p> 
+  <codeblock gutter="true" class="syntax js">
+    var&amp;nbsp;storage&amp;nbsp;=&amp;nbsp;new&amp;nbsp;ContextHub.Utils.Persistence({&amp;nbsp;mode:&amp;nbsp;ContextHub.Utils.Persistence.Modes.LOCAL&amp;nbsp;});!!discoiqbr!!console.log(storage.getTree()); 
+  </codeblock> 
+  <h3>Clearing Persistence of ContextHub</h3> 
+  <p>To clear the ContextHub persistence:</p> 
+  <ul> 
+   <li><p>To clear persistence of currently loaded stores:</p> 
+    <codeblock gutter="true" class="syntax js">
+      //&amp;nbsp;in&amp;nbsp;order&amp;nbsp;to&amp;nbsp;be&amp;nbsp;able&amp;nbsp;to&amp;nbsp;fully&amp;nbsp;access&amp;nbsp;persistence&amp;nbsp;layer,&amp;nbsp;Opt-Out&amp;nbsp;must&amp;nbsp;be&amp;nbsp;turned&amp;nbsp;off!!discoiqbr!!ContextHub.Utils.Cookie.removeItem('cq-opt-out');!!discoiqbr!!&amp;nbsp;!!discoiqbr!!//&amp;nbsp;following&amp;nbsp;call&amp;nbsp;asks&amp;nbsp;all&amp;nbsp;currently&amp;nbsp;loaded&amp;nbsp;stores&amp;nbsp;to&amp;nbsp;clear&amp;nbsp;their&amp;nbsp;data!!discoiqbr!!ContextHub.cleanAllStores();!!discoiqbr!!&amp;nbsp;!!discoiqbr!!//&amp;nbsp;following&amp;nbsp;call&amp;nbsp;asks&amp;nbsp;all&amp;nbsp;currently&amp;nbsp;loaded&amp;nbsp;stores&amp;nbsp;to&amp;nbsp;set&amp;nbsp;back&amp;nbsp;default&amp;nbsp;values&amp;nbsp;(provided&amp;nbsp;in&amp;nbsp;their&amp;nbsp;configs)!!discoiqbr!!ContextHub.resetAllStores();!!discoiqbr!! 
+    </codeblock></li> 
+   <li><p>To clear a specific persistence layer; for example, sessionStorage:</p> 
+    <codeblock gutter="true" class="syntax js">
+      var&amp;nbsp;storage&amp;nbsp;=&amp;nbsp;new&amp;nbsp;ContextHub.Utils.Persistence({&amp;nbsp;mode:&amp;nbsp;ContextHub.Utils.Persistence.Modes.SESSION&amp;nbsp;});!!discoiqbr!!storage.setItem('/store',&amp;nbsp;null);!!discoiqbr!!storage.setItem('/_',&amp;nbsp;null);!!discoiqbr!!&amp;nbsp;!!discoiqbr!!//&amp;nbsp;to&amp;nbsp;confirm&amp;nbsp;that&amp;nbsp;nothing&amp;nbsp;is&amp;nbsp;stored:!!discoiqbr!!console.log(storage.getTree()); 
+    </codeblock></li> 
+   <li><p>To clear all ContextHub persistence layers, the appropriate code must be called for all layers:</p> 
+    <ul> 
+     <li>ContextHub.Utils.Persistence.Modes.LOCAL (default)</li> 
+     <li>ContextHub.Utils.Persistence.Modes.SESSION</li> 
+     <li>ContextHub.Utils.Persistence.Modes.COOKIE</li> 
+     <li>ContextHub.Utils.Persistence.Modes.WINDOW</li> 
+    </ul> </li> 
+  </ul> 
+ </body> 
+</html>

@@ -1,0 +1,154 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2018-07-17T17:21:45.274-0400" name="topicBrowsingSortDate" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="Rick Brough" name="contentOwner" /> 
+  <meta content="d200e8a1-c3d5-482f-8bce-e36816e83feb" name="jcr:uuid" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS;topic_tags:introduction;content_type:reference" name="cq:tags" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="checked_not_improved" name="acrolinxStatus" /> 
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/3d_assets_krs_workflow_f3c2f2ccebf6138e_75_report.xml" name="acrolinxReportURL" /> 
+  <meta content="2018-03-14T09:01:11.875-0400" name="jcr:created" /> 
+  <meta content="asgupta" name="acrolinxLastCheckedBy" /> 
+  <meta content="2018-07-17T17:21:45.274-0400" name="publishExternalDate" /> 
+  <meta content="/content/docs/en/aem/6-3/author/assets/3d-assets" name="qaNotes" /> 
+  <meta content="2019-01-12T17:10:45.121-0500" name="acrolinxDate" /> 
+  <meta content="2018-04-24T12:00:22.672-0400" name="locHandOffDate" /> 
+  <meta content="rbrough" name="cq:lastReplicatedBy" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="103" name="acrolinxSentences" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS" name="primaryProductTag" /> 
+  <meta content="Learn how to work with 3D assets in AEM 3D" name="seoDescription" /> 
+  <meta content="Working with 3D assets" name="jcr:title" /> 
+  <meta content="Working with 3D assets" name="seoTitle" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="/content/help/en/experience-manager/6-4/assets/morehelp/introduction;/content/help/en/experience-manager/6-4/assets/morehelp/introduction" name="moreHelpPaths" /> 
+  <meta content="2018-07-17T17:21:45.438-0400" name="cq:lastReplicated" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="rbrough@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="2018-07-17T17:21:45.274-0400" name="lastPublishExternalDate" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/assets/using/3d-assets.html" name="publishExternalURL" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="1141" name="acrolinxWords" /> 
+  <meta content="2017-10-31T16:35:27.079-0400" name="firstPublishExternalDate" /> 
+  <meta content="eccd5992-8f6c-4b17-b21e-b06623c0be6a" name="jcr:predecessors" /> 
+  <meta content="2018-07-17T17:21:45.283-0400" name="cq:lastModified" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="rbrough" name="cq:lastModifiedBy" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="yellow" name="acrolinxPageStatus" /> 
+ </head> 
+ <body> 
+  <p>AEM 3D (Adobe Experience Manager 3D) lets you upload, manage, view, and render 3D content. Support for viewing and rendering is optimized for individual objects.</p> 
+  <p>See also <a href="../../release-notes/aem3d-release-notes.md">AEM 3D Release Notes</a>.</p> 
+  <p>See also <a href="../../assets/using/install-config-3d.md">Installing and configuring AEM 3D</a>.</p> 
+  <h2>About models and stages in AEM 3D</h2> 
+  <p>AEM 3D lets you view and render high-quality static, stand-alone 3D models in pre-defined environments called Stages. Basically, a stage provides "lighting" for the 3D scene and the settings for rendering in a native application such as Autodesk® Maya® or Autodesk 3ds Max®. In addition, the stage can optionally include pre-defined cameras, backgrounds, and ground plane geometry.</p> 
+  <p>Uploaded 3D files that contain lights are assumed to be a stage. You can revert such assets to be simple 3D objects by opening the asset in the asset details page. Tap <strong>View Properties</strong>, then tap the <strong>Basic</strong> tab. Under the Metadata heading, from the Asset Class drop-down list, select <strong>3D object</strong>.<br /> </p> 
+  <p>When you create 3D models for use in AEM 3D, be aware of the following:</p> 
+  <ul> 
+   <li>Your 3D model files should contain only one object, with no backgrounds, ground planes, scene lighting, or cameras.</li> 
+   <li>Place the model above the ground plane. This positioning is especially important when you view or render with stages that provide a ground plane. A configuration setting is available (and enabled by default) that causes the object to be moved above the ground plane when previewing or rendering with Rapid Refine. This setting does not affect rendering with third-party renderers (for example, by way of Maya), and thus objects that are not located above the ground plane may be partially hidden.<br /> </li> 
+   <li>Position the model so that it is reasonably centered laterally around the coordinate system origin (0,0,0). Doing so ensures a good interactive viewing experience for you.</li> 
+   <li>Other than texture maps, external file references are supported. Therefore, you must embed any referenced content in the primary model file before you upload it into AEM.<br /> See <a href="../../assets/using/upload-processing-3d-assets.md">About the uploading and processing of 3D assets in AEM</a>.</li> 
+   <li>The general scene lighting is provided by the stage. As such, Adobe does not recommend that you include lights with 3D model files. You can include lights in the model. However, they must be specific to the model only. For example, it may be necessary to include additional lighting to brighten a part of the object that is obscured by other parts. Therefore, it would not be sufficiently visible with just the stage lights.<br /> <strong><i><u><br /> </u></i></strong></li> 
+  </ul> 
+  <h2>Supported files in AEM 3D</h2> 
+  <p>A typical 3D asset has a primary model file and none or more referenced files. Referenced files include such things as texture maps or IBL (Image-Based Lighting) images<strong>.</strong></p> 
+  <h3>About the primary 3D model file</h3> 
+  <p>The primary 3D model file contains the actual 3D model geometry and definitions for the (default) materials that are applied to the model surfaces. AEM 3D supports the following primary 3D model file formats:</p> 
+  <ul> 
+   <li>Wavefront OBJ file format (.obj)<br /> The OBJ format requires one or more separate, external MTL files (Material Template Library) (.mtl).</li> 
+   <li>Autodesk FBX (Filmbox) file format (.fbx)<br /> The Autodesk 3D file interchange format; both binary and ASCII formats.<br /> When you create FBX files in third-party applications, Adobe recommends the following configuration settings (see table below). These settings can help you achieve the best results for 3D files that you intend to use in AEM. The option names are taken from the Autodesk Maya FBX Export Options dialog box.</li> 
+  </ul> 
+  <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+   <tbody> 
+    <tr> 
+     <td><strong>Option in Autodesk Maya FBX Export dialog box</strong></td> 
+     <td><strong>Description</strong></td> 
+    </tr> 
+    <tr> 
+     <td>Preserve References<br /> </td> 
+     <td><p>Deselect.</p> <p>AEM 3D currently does not support external references.</p> </td> 
+    </tr> 
+    <tr> 
+     <td>Smooth Mesh<br /> </td> 
+     <td>Select.</td> 
+    </tr> 
+    <tr> 
+     <td>Convert NURBS surfaces to</td> 
+     <td><strong>Software Render Mesh</strong></td> 
+    </tr> 
+    <tr> 
+     <td>Animation</td> 
+     <td><p>Select or deselect.</p> <p>If you choose to select this option, AEM 3D ignores the animation information in the file.</p> </td> 
+    </tr> 
+    <tr> 
+     <td>Cameras</td> 
+     <td><p>Select for <strong>3D stages</strong>.</p> <p>Deselect for 3D models.</p> </td> 
+    </tr> 
+    <tr> 
+     <td>Lights</td> 
+     <td><p>Select for <strong>3D stages</strong>.</p> <p>Deselect for <strong>3D models</strong>.</p> </td> 
+    </tr> 
+    <tr> 
+     <td>Units - Automatic</td> 
+     <td>Select. AEM 3D converts on import.</td> 
+    </tr> 
+    <tr> 
+     <td>Axis Conversion - Up Axis</td> 
+     <td><p><strong>Y-up</strong></p> <p>Y-up gives consistent results when you export from Maya and is the preferred coordinate system for FBX files in this AEM 3D release.</p> </td> 
+    </tr> 
+    <tr> 
+     <td>Embed Media</td> 
+     <td>Both options are supported. If embedded is selected, AEM 3D extracts the embedded media to an adjacent folder that has the same name as the model file with <span class="code">.fbm</span> appended to it.</td> 
+    </tr> 
+    <tr> 
+     <td>FBX File Format - Type</td> 
+     <td>Both <strong>Binary </strong>or <strong>ASCII </strong>are supported.</td> 
+    </tr> 
+    <tr> 
+     <td>FBX File Format - Version</td> 
+     <td>FBX 2014/2015 is recommended. Other versions may also work fine.</td> 
+    </tr> 
+   </tbody> 
+  </table> 
+  <p>The following additional file formats are supported if Autodesk Maya is installed and configured on AEM authoring servers:</p> 
+  <ul> 
+   <li>Autodesk Maya<br /> Both ASCII <span class="code">.ma</span> and binary <span class="code">.mb</span> formats.</li> 
+   <li><span class="code"></span>Jupiter Tesselation (ISO 14306-1) <span class="code">.jt</span>.<br /> An industry-standard CAD data exchange, collaboration, and product visualization format.</li> 
+  </ul> 
+  <h3>Support for texture map files</h3> 
+  <p>Material definitions in 3D model files can include references to external image files that provide texture maps. AEM 3D supports the following types of texture map files:</p> 
+  <ul> 
+   <li>Diffuse color textures</li> 
+   <li>Specular color textures</li> 
+   <li>Ambient color textures</li> 
+   <li>Displacement paps (also called Bump maps)</li> 
+   <li>Normal maps</li> 
+   <li>Opacity maps</li> 
+   <li>Roughness maps (also called Gloss, Reflectivity, or Cosine Power maps)</li> 
+  </ul> 
+  <p>Materials in the primary 3D model file can reference other types of maps which are ignored by AEM 3D. <br /> </p> 
+  <h3>IBL (Image-Based Lighting) Images</h3> 
+  <p>A 3D model file that defines a stage can reference a single IBL environment image. Currently, AEM 3D supports only 32-bit TIFF images in latitude/longitude format for diffuse IBL and for reflections. For the spherical scene background, 8-bit RGB images are also supported.</p> 
+  <p>See <a href="../../assets/using/working-with-ibl-stages.md">About working with IBL stages</a>.<br /> <br /> </p> 
+  <note> 
+   <p>File references-other than those described above-that are present in the primary 3D model file are currently ignored. AEM 3D does not support references to secondary 3D model files.</p> 
+   <p>Y-up is the preferred coordinate system for FBX files this release.<br /> <br /> </p> 
+  </note> 
+  <h2>Material shading in a primary 3D model file</h2> 
+  <p>The original native model file can contain material definitions that are used with shaders such as Blinn, Lambert, or with procedural shaders. These potentially complex materials are supported only when you render using the corresponding native application (such as Autodesk Maya).</p> 
+  <p>For viewing purposes or when you render using the default Rapid Refine™ renderer, all materials are either simplified, substituted, or both so they can be used with a Phong-like shader. This shader supports a limited set of attributes. Other attributes in the material definition are ignored.</p> 
+  <p>See <a href="../../assets/using/viewing-3d-assets.md">Viewing 3D assets</a>.</p> 
+  <p>See <a href="../../assets/using/rendering-3d-assets.md">Rendering 3D assets</a>.<br /> </p> 
+  <h2>Naming materials in a primary 3D model file</h2> 
+  <p>A <i>surface</i> is defined as the surface area of a 3D model covered by the same material. This material also provides the name for the surface. As such, Adobe recommends that you name the materials included in primary 3D model files accordingly. For example, the use of specific names such as "Body", "Windows", "Tires", or "Rims" is preferred to the use of vague names such as "Red", "Glass", "Rubber", "Aluminum".<br /> <br /> </p> 
+ </body> 
+</html>

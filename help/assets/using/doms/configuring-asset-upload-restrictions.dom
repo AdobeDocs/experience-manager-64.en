@@ -1,0 +1,57 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="Chiradeep Majumdar" name="contentOwner" /> 
+  <meta content="2018-04-24T11:58:42.232-0400" name="cq:lastModified" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS" name="primaryProductTag" /> 
+  <meta content="/content/docs/en/aem/6-3/administer/content/assets/configuring-asset-upload-restrictions" name="qaNotes" /> 
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/configuring_asset_upload_restrictions_krs_workflow_f3c2f2ccebf6138e_114_report.xml" name="acrolinxReportURL" /> 
+  <meta content="227" name="acrolinxWords" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="Learn how to configure Adobe Experience Manager (AEM) Assets to restrict the type of assets (files) that users can upload." name="seoDescription" /> 
+  <meta content="2017-10-31T16:35:04.667-0400" name="firstPublishExternalDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="/content/help/en/experience-manager/6-4/assets/morehelp/administering;/content/help/en/experience-manager/6-4/assets/morehelp/administering" name="moreHelpPaths" /> 
+  <meta content="yellow" name="acrolinxPageStatus" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="2018-04-03T08:06:54.048-0400" name="cq:lastReplicated" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS;topic_tags:administering;content_type:reference" name="cq:tags" /> 
+  <meta content="2017-11-24T07:18:13.216-0500" name="publishExternalDate" /> 
+  <meta content="cmajumda@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="asgupta" name="acrolinxLastCheckedBy" /> 
+  <meta content="69654683-2258-4cd8-9ae8-6a32680655a5" name="jcr:uuid" /> 
+  <meta content="2017-11-24T07:18:13.216-0500" name="topicBrowsingSortDate" /> 
+  <meta content="9d83d022-9022-4da5-affc-5cdbde49639f" name="jcr:predecessors" /> 
+  <meta content="2017-12-01T19:05:08.742-0500" name="jcr:created" /> 
+  <meta content="Configuring Asset Upload Restrictions" name="jcr:title" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/assets/using/configuring-asset-upload-restrictions.html" name="publishExternalURL" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="checked_not_improved" name="acrolinxStatus" /> 
+  <meta content="2018-04-24T11:58:42.231-0400" name="locHandOffDate" /> 
+  <meta content="14" name="acrolinxSentences" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="Configuring Asset Upload Restrictions" name="seoTitle" /> 
+  <meta content="2019-01-12T17:27:44.166-0500" name="acrolinxDate" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="2017-11-24T07:18:13.216-0500" name="lastPublishExternalDate" /> 
+ </head> 
+ <body> 
+  <p>You can configure Adobe Experience Manager (AEM) Assets to restrict the type of assets (files) that users can upload. This feature helps you eliminate the possibility of users uploading assets in an undesired format or uploading any malicious files. The <span class="code">Day CQ DAM Asset Upload Restriction</span> service enables you to control the type of files that users can upload. By default, AEM Assets allows users to upload assets of all MIME types. However, you can configure the service to restrict users to upload files of specific MIME types only.</p> 
+  <ol> 
+   <li><p>Go to <i>http://&amp;lt;server&amp;gt;:&amp;lt;port&amp;gt;/system/console/configMgr</i> to open the Configuration Manager web console.</p> </li> 
+   <li><p>Open the <strong>Day CQ DAM Asset Upload Restriction</strong> service in Edit mode. By default, the <strong>Allow all MIME</strong> option is selected, which allows users to upload files of all MIME types.</p> <img imageRotate="0" src="assets/chlimage_1-379.png" /></li> 
+   <li><p>To restrict users to upload files of certain MIME types only, unselect the <strong>Allow all MIME</strong> option and specify allowed MIME types in the <strong>Allowed Asset MIMEs (regex)</strong> fields using regular expressions.</p> <img imageRotate="0" src="assets/chlimage_1-380.png" /></li> 
+   <li><p>Click/tap <strong>Save</strong> to save the changes. If you specify MIME-strings for allowed MIME types, the upload operation fails for any asset with MIME type that doesn’t match the configured MIME strings in these fields. </p> </li> 
+  </ol> 
+ </body> 
+</html>

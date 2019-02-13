@@ -1,0 +1,66 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS;topic_tags:managing-assets;content_type:reference" name="cq:tags" /> 
+  <meta content="dist5" name="distType" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2018-04-03T08:12:34.080-0400" name="cq:lastReplicated" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS" name="primaryProductTag" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2018-04-24T11:55:49.889-0400" name="cq:lastModified" /> 
+  <meta content="2019-01-12T17:36:50.829-0500" name="acrolinxDate" /> 
+  <meta content="2017-12-01T19:04:35.189-0500" name="jcr:created" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="52d23f4b-4136-43b3-b6a7-b8fc32996d07" name="jcr:predecessors" /> 
+  <meta content="27" name="acrolinxSentences" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/transition_cloud_services_krs_workflow_f3c2f2ccebf6138e_211_report.xml" name="acrolinxReportURL" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="Applying translation cloud services to folders " name="seoTitle" /> 
+  <meta content="User" name="contentOwner" /> 
+  <meta content="2018-04-24T11:55:49.889-0400" name="locHandOffDate" /> 
+  <meta content="25cfea73-7ed1-4942-891d-0779d88ee2fa" name="jcr:uuid" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="asgupta" name="acrolinxLastCheckedBy" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="yellow" name="acrolinxPageStatus" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="checked_not_improved" name="acrolinxStatus" /> 
+  <meta content="light" name="gnavTheme" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="Applying translation cloud services to folders " name="jcr:title" /> 
+  <meta content="381" name="acrolinxWords" /> 
+  <meta content="/content/docs/en/aem/6-3/author/assets/managing-assets-touch-ui/transition-cloud-services" name="qaNotes" /> 
+ </head> 
+ <body> 
+  <p>Adobe Experience Manager (AEM) lets you avail cloud-based translation services from the translation provider of your choice to ensure your assets are translated based on your requirements.</p> 
+  <p>You can apply the translation cloud service directly to your asset folder so they can be utilized during translation workflows.</p> 
+  <h2>Applying the translation services</h2> 
+  <p>Applying translation cloud services directly to your asset folder eliminates the need to configure translation services when you create or update translation workflows.</p> 
+  <ol> 
+   <li><p>From the Assets UI, select the folder to which you want to apply translation services.</p> </li> 
+   <li><p>From the toolbar, click/tap the <strong>Properties</strong> icon to display the <strong>Folder Properties</strong> page.</p> <img imageRotate="0" src="assets/chlimage_1-215.png" /></li> 
+   <li><p>Navigate to the <strong>Cloud Services</strong> tab.</p> </li> 
+   <li><p>From the Cloud Service Configurations list, choose the desired translation provider. For example, if you want to avail translation services from Microsoft, choose <strong>Microsoft Translator</strong>.</p> <img imageRotate="0" src="assets/chlimage_1-216.png" /></li> 
+   <li><p>Choose the connector for the translation provider.</p> <img imageRotate="0" src="assets/chlimage_1-217.png" /></li> 
+   <li><p>From the toolbar, click/tap <strong>Save</strong>, and then click <strong>OK</strong> to close the dialog.The translation service is applied to the folder.</p> </li> 
+  </ol> 
+  <h2>Applying custom translation connector </h2> 
+  <p>If you want to apply a custom connector for the translation services you want to use in translation workflows. To apply a custom connector, first install the connector from Package Manager. Then, configure the connector from the Cloud Services console. After you configure the connector, it is available in the list of connectors in the Cloud Services tab described in <a href="../../assets/using/transition-cloud-services.md#main-pars-title-1392200838">Applying the translation services</a>. After you apply the custom connector and run translation workflows, the <strong>Translation Summary</strong> tile of the translation project displays the connector details under the heads <strong>Provider</strong> and <strong>Method</strong>.</p> 
+  <ol> 
+   <li><p>Install the connector from Package Manager.</p> </li> 
+   <li><p>Click/tap the AEM logo, and navigate to <strong>Tools</strong> &amp;gt; <strong>Deployment</strong> &amp;gt; <strong>Cloud Services</strong>.</p> </li> 
+   <li><p>Locate the connector you installed under <strong>Third Party Services</strong> in the <strong>Cloud Services</strong> page.</p> <img imageRotate="0" src="assets/chlimage_1-218.png" /></li> 
+   <li><p>Click/tap the <strong>Configure now</strong> link to open the <strong>Create Configuration</strong> dialog.</p> <img imageRotate="0" src="assets/chlimage_1-219.png" /></li> 
+   <li><p>Specify a title and a name for the connector, and then click/tap <strong>Create</strong>. The custom connector is available in the list of connectors in the <strong>Cloud Services</strong> tab described in step 5 of <a href="#main-pars-title-1392200838">Applying the translation services</a>. </p> </li> 
+   <li><p>Run any translation workflow described in <a href="../../assets/using/translation-projects.md">Creating Translation Projects</a> after you apply the custom connector. Verify the details of the connector in the <strong>Translation Summary</strong> tile of the translation project in the <strong>Projects</strong> console.</p> <img imageRotate="0" src="assets/chlimage_1-220.png" /></li> 
+  </ol> 
+ </body> 
+</html>

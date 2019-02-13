@@ -1,0 +1,66 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="2014-11-25T09:53:15.749-0500" name="publishQADate" />
+  <meta content="khsingh" name="cq:lastModifiedBy" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="ddc01438-b74a-4c41-81c8-3980a1f41e6e" name="jcr:uuid" />
+  <meta content="a28f5700-8b6b-4aa4-8d6c-4f72c9511a85" name="jcr:predecessors" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2017-10-31T16:27:52.679-0400" name="lastPublishExternalDate" />
+  <meta content="2013-06-14T10:19:38.607-0400" name="firstPublishQADate" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="" name="publishExternalURL" />
+  <meta content="Troubleshoot issues in AEM Forms on JEE Process Reporting" name="seoDescription" />
+  <meta content="2014-11-25T09:53:15.749-0500" name="lastPublishQADate" />
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" />
+  <meta content="khsingh@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="Troubleshooting Process Reporting" name="jcr:title" />
+  <meta content="2017-11-01T04:37:07.845-0400" name="unpublishExternalDate" />
+  <meta content="09/06/13" name="locPublishDate" />
+  <meta content="true" name="preview" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="later" name="locPublishOption" />
+  <meta content="2017-12-15T11:20:49.746-0500" name="cq:lastReplicated" />
+  <meta content="Deactivate" name="cq:lastReplicationAction" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="Troubleshoot AEM Forms on JEE Process Reporting" name="navTitle" />
+  <meta content="http://helpx.stage.adobe.com/livecycle/help/process-reporting/troubleshooting-process-management.html" name="publishQAURL" />
+  <meta content="2013-09-18T09:35:51.843-0400" name="firstPublishExternalDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/process-reporting;/content/help/en/experience-manager/6-4/forms/morehelp/process-reporting" name="moreHelpPaths" />
+  <meta content="2018-10-24T10:04:35.780-0400" name="cq:lastModified" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="mix:versionable;cq:ReplicationStatus" name="jcr:mixinTypes" />
+  <meta content="2013-06-01T00:26:31.203-0400" name="jcr:created" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2013-09-02T09:37:51.015-0400" name="locHandOffDate" />
+ </head>
+ <body>
+  <h3>Issues faced in creating filters on Internet Explorer 9 on Microsoft Windows 7</h3>
+  <p>If you create filters for pre-defined reports, the following issues intermittently occur on the <strong>Internet Explorer 9</strong> for <strong>Microsoft Windows 7</strong> environment<strong>:</strong></p> 
+  <ul> 
+   <li>The drop-down list in the Value field displays unique identifiers instead of the values.<br /> </li> 
+   <li>The Calendar control in the Value field displays Japanese characters.</li> 
+   <li>The Condition field does not display.</li> 
+   <li>The Calendar control in the Value field does not display.</li> 
+  </ul> 
+  <h4>Resolution</h4>
+  <p>While you are still logged in to Process Reporting:</p> 
+  <ol> 
+   <li>Clear the browser cache.</li> 
+   <li>Refresh the browser screen.<br /> </li> 
+  </ol> 
+  <p><a href="https://www.adobe.com/account/sign-in.supportportal.html" target="_blank"><strong>Contact Support</strong></a></p> 
+  <related-links>
+   <a href="../../../forms/using/process-reporting/process_reporting_architecture.md" target="_blank">How Process Reporting Works</a>
+   <a href="../../../forms/using/process-reporting/introduction-process-reporting.md" target="_blank">Introduction to Process Reporting</a>
+   <a href="../../../forms/using/process-reporting/install-start-process-reporting.md" target="_blank">Getting Started with Process Reporting</a>
+   <a href="../../../forms/using/process-reporting/troubleshooting-process-management.md" target="_blank">Troubleshooting Process Reporting</a>
+   <a href="../../../forms/using/process-reporting/process-reporting-custom-reports.md" target="_blank">Custom Reports in Process Reporting</a>
+  </related-links>
+ </body>
+</html>

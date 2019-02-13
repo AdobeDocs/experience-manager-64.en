@@ -1,0 +1,93 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="Sending a form submission acknowledgement via email" name="jcr:title" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="AEM Forms allows you to configure the email submit action that sends an acknowledgement to a user on submitting the form." name="seoDescription" /> 
+  <meta content="2018-04-03T08:38:33.152-0400" name="publishExternalDate" /> 
+  <meta content="2016-05-31T06:38:50.167-0400" name="acrolinxDate" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2017-12-01T19:02:44.831-0500" name="jcr:created" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:publish" name="cq:tags" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="2018-04-03T08:38:33.152-0400" name="topicBrowsingSortDate" /> 
+  <meta content="2018-04-26T04:38:20.226-0400" name="locHandOffDate" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="618" name="acrolinxWords" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="33" name="acrolinxSentences" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2018-04-03T08:38:34.464-0400" name="cq:lastReplicated" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="Form submission acknowledgement via email" name="navTitle" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="2016-04-20T09:36:40.390-0400" name="firstPublishExternalDate" /> 
+  <meta content="9c0d7c34-f75d-4f80-a9f6-9c4548c17fd4" name="jcr:predecessors" /> 
+  <meta content="eb651f1c-3c7b-469f-b9ed-1b9d08ac501d" name="jcr:uuid" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/form-submission-receipt-via-email.html" name="publishExternalURL" /> 
+  <meta content="2018-04-03T08:38:33.152-0400" name="lastPublishExternalDate" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/form_submission_receipt_via_email_admin_5e12de0b318c6865_2016_report.xml" name="acrolinxReportURL" /> 
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/publish;/content/help/en/experience-manager/6-4/forms/morehelp/publish" name="moreHelpPaths" /> 
+  <meta content="2018-04-26T04:38:20.226-0400" name="cq:lastModified" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="2015-06-12T04:26:51.018-0400" name="lastPublishQADate" /> 
+ </head> 
+ <body> 
+  <h2>Adaptive form data submission</h2> 
+  <p>Adaptive forms provides several out-of-the-box <a href="../../forms/using/configuring-submit-actions.md" target="_blank">submit actions</a> workflows for submitting the form data to different endpoints.</p> 
+  <p>For example, the <strong>Email action </strong>submit action sends an email on successful submission of an adaptive form. It can also be configured to send the form data and the PDF in the email.</p> 
+  <p>This article details the steps to enable the Email action on an adaptive form and different configurations it provides.</p> 
+  <note> 
+   <p>You can also use the <strong>Email PDF action </strong>to send the completed form by email as a PDF attachment. The configuration options available for this action are the same as the options available for the Email action. The Email PDF action is available only for XFA-based adaptive forms</p> 
+  </note> 
+  <h2>Email action</h2> 
+  <p>The Email action enables an author to send email automatically to one or more recipients on the successful submission of an adaptive form.</p> 
+  <note> 
+   <p>To use the Email action, you need to configure the AEM mail service as described in <a href="../../sites/administering/using/notification.md#configuring-the-mail-service" target="_blank">Configuring the mail service</a>.</p> 
+  </note> 
+  <h3>Enabling Email action on an adaptive form</h3> 
+  <ol> 
+   <li><p>Open an adaptive form in edit mode.<br /> </p> </li> 
+   <li><p>Click <strong>Edit</strong> next to the <strong>Start of an Adaptive Form </strong>toolbar.</p> <p>The Edit Component dialog opens.</p> <img alt="Edit component dialog for an adaptive form" imageRotate="0" src="assets/start_of_adp_form.png" title="Edit component dialog for an adaptive form" /></li> 
+   <li><p>Select the <strong>Submit actions</strong> tab and choose <strong>Email action</strong> from the Submit action drop-down list.</p> <p>The tab displays the options to configure the Email action for the current form.<br /> </p> <img alt="Submit actions tab" imageRotate="0" src="assets/dialog.png" title="Submit actions tab" /></li> 
+   <li><p>Specify valid email IDs in the Mailto, CC, and BCC fields. </p> <p>Specify the subject and the body of the email in the Subject and Email template fields, respectively.</p> <p>You can also specify variable placeholders in the fields, in which case, the values of the fields are processed when the form is successfully submitted by an end user. For more information, see <a href="../../forms/using/form-submission-receipt-via-email.md#main-pars-header-2">Using adaptive form field names to dynamically create email content</a>.</p> <p>Select Include attachments if the form includes file attachments and you want to attach these files in the email.</p> 
+    <note> 
+     <p>If you choose the <strong>Email PDF action</strong>, you must select the Include attachments option.</p> 
+    </note></li> 
+   <li><p>Click <strong>OK </strong>to save the changes.</p> </li> 
+  </ol> 
+  <h3>Using adaptive form field names to dynamically create email content</h3> 
+  <p>The field names in an adaptive form are called placeholders that are replaced with the value of that field after a user submits the form.</p> 
+  <p>In the Email action tab, you can use placeholders that are processed when the action is performed. It implies that the headers of the email (such as Mailto, CC, BCC, subject) are generated when the user submits the form.</p> 
+  <p>To define a placeholder, specify <span class="code">${&amp;lt;field name&amp;gt;}</span> in a field in the Submit actions tab.</p> 
+  <p>For example, if the form contains the <strong>Email address</strong> field, named <span class="code">email_addr</span>, for capturing the email ID of a user, you can specify the following in the Mailto, CC, or BCC fields.</p> 
+  <p><span class="code">${email_addr}</span></p> 
+  <p>When a user submits the form, an email is sent to the email ID entered in the <span class="code">email_addr</span> field of the form.</p> 
+  <note> 
+   <p>You can find the name of a field in the <strong>Edit</strong> dialog for the field.</p> 
+  </note> 
+  <p>Variable placeholders can also be used in the <strong>Subject</strong> and <strong>Email template</strong> fields.</p> 
+  <p>For example:</p> 
+  <p style="margin-left: 40px;"><span class="code">Hi ${first_name} ${last_name},</span></p> 
+  <p style="margin-left: 40px;"><span class="code">Your form has been received by our department. It usually takes ten business days to process the request.</span></p> 
+  <p style="margin-left: 40px;"><span class="code">Regards</span></p> 
+  <p style="margin-left: 40px;"><span class="code">Administrator</span></p> 
+  <note> 
+   <p>Fields in repeatable panels cannot be used as variable placeholders.</p> 
+  </note> 
+  <related-links> 
+   <a href="/forms/using/submit-store-data-crx-repository" target="_blank">Submitting and storing content in JCR repository</a> 
+   <a href="../../forms/using/configuring-submit-actions.md" target="_blank">Configuring the Submit action</a> 
+  </related-links> 
+ </body> 
+</html>

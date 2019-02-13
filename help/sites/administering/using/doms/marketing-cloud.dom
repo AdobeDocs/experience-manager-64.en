@@ -1,0 +1,112 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:integration;content_type:reference" name="cq:tags" />
+  <meta content="Guillaume Carlino" name="contentOwner" />
+  <meta content="2018-02-20T08:01:17.326-0500" name="jcr:created" />
+  <meta content="2018-04-03T07:04:35.578-0400" name="topicBrowsingSortDate" />
+  <meta content="2018-04-03T07:04:36.223-0400" name="cq:lastReplicated" />
+  <meta content="2017-10-31T16:24:49.060-0400" name="firstPublishExternalDate" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" />
+  <meta content="Learn how to integrate AEM with Adobe Marketing Cloud." name="seoDescription" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" />
+  <meta content="5bd5ecfb-d7b7-4801-a263-40e5cc262254" name="jcr:predecessors" />
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="/content/help/en/experience-manager/6-4/sites/administering/morehelp/integration;/content/help/en/experience-manager/6-4/sites/administering/morehelp/integration" name="moreHelpPaths" />
+  <meta content="Integrating with the Adobe Marketing Cloud" name="jcr:title" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="ddf19fd2-bfa3-4de1-8dce-ff2e5b9ebd46" name="jcr:uuid" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="2018-04-26T10:12:41.850-0400" name="cq:lastModified" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2018-04-26T10:12:41.850-0400" name="locHandOffDate" />
+  <meta content="msm-service" name="cq:lastModifiedBy" />
+  <meta content="Integrating with the Adobe Marketing Cloud" name="navTitle" />
+  <meta content="audience:administering" name="primaryAudienceTag" />
+  <meta content="2018-04-03T07:04:35.578-0400" name="lastPublishExternalDate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/marketing-cloud.html" name="publishExternalURL" />
+  <meta content="Integrating with the Adobe Marketing Cloud" name="seoTitle" />
+  <meta content="/content/docs/en/aem/6-3/administer/integration/marketing-cloud" name="qaNotes" />
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" />
+  <meta content="2018-04-03T07:04:35.578-0400" name="publishExternalDate" />
+ </head>
+ <body>
+  <p>The <a href="http://www.adobe.com/solutions/digital-marketing.html">Adobe Marketing Cloud</a>, includes powerful web analytics and website optimization products that deliver actionable, real-time data and insights to drive successful online initiatives. It offers an integrated and open platform for online business optimization. The Cloud consists of integrated applications to collect and unleash the power of customer insight to optimize customer acquisition, conversion and retention efforts as well as the creation and distribution of content.</p> 
+  <p>With Adobe Experience Manager (AEM), you can seamlessly integrate with the following products of the Adobe Marketing Cloud:</p> 
+  <ul> 
+   <li>Adobe Analytics provides marketers with actionable, real-time intelligence about online strategies and marketing initiatives.<br /> </li> 
+   <li>Adobe Target gives marketers the ability to continually make their online content more relevant to their customers — yielding greater conversion.</li> 
+   <li>Adobe Scene7 automates media management, streamlines web publishing, and enhances web experiences, all in a hosted environment.</li> 
+   <li>Adobe Dynamic Tag Management gives marketers intuitive tools to quickly and easily manage an unlimited number of Adobe and third-party tags.</li> 
+   <li>Adobe Search&amp;Promote gives marketers the ability to control and optimize the search results on their sites.<br /> </li> 
+   <li>Adobe Campaign lets you manage email delivery content directly in Adobe Experience Manager.</li> 
+  </ul> 
+  <p>In addition, you can integrate AEM with the <a href="../../../sites/administering/using/creative-cloud.md">creative cloud</a> and with <a href="../../../sites/administering/using/third-party-services.md">third-party services</a>.</p> 
+  <h2>Integrating with Adobe Analytics</h2>
+  <p><a href="http://www.omniture.com/en/products/analytics/sitecatalyst">Adobe Analytics</a> is the industry-leading solution that provides digital marketers with one place to measure, analyze, and optimize integrated data from all online initiatives across multiple marketing channels. It provides marketers with actionable, real-time web analytics intelligence about digital strategies and marketing initiatives. Adobe Analytics helps marketers quickly identify the most profitable paths through a website, segment traffic to spot high-value web visitors, determine where visitors are navigating away from the site, and identify critical success metrics for online marketing campaigns.</p> 
+  <p>You can use Adobe Analytics to analyze data from your sites.</p> 
+  <p>Integrating with Adobe Analytics allows you to do the following:<br /> </p> 
+  <ul> 
+   <li>Enable Analytics user tracking.</li> 
+   <li>Map your run modes (for example author, publish) to different report suites.</li> 
+   <li>Submit Client Context variables as conversion variables or traffic properties.</li> 
+   <li>Use predefined variable mappings.</li> 
+   <li>Configure complete site sections at once.</li> 
+   <li>Track custom-defined events.</li> 
+  </ul> 
+  <p>For information about integrating AEM with Analytics, see <a href="../../../sites/administering/using/adobeanalytics.md">Integrating with Adobe Analytics</a>.</p> 
+  <p>You can also use the <a href="../../../sites/administering/using/opt-in.md">Opt-in wizard</a> to easily perform the integration.</p> 
+  <h2>Integrating with Adobe Target</h2>
+  <p><a href="http://www.omniture.com/en/products/conversion/test-and-target">Adobe Target</a> is used by marketers to design and execute online tests, create on-the-fly audience segments (based on behavior) and automate the targeting of content and online experiences.</p> 
+  <p>Online consumers today have constantly evolving needs and expect relevant, even personalized content from the wide variety of sites and content sources they can choose from. To engage an online audience, it is critical that online marketers quickly identify which offers and content are relevant and compelling to their audiences. Armed with this knowledge, marketers need the capability to continually evolve their sites and to target the appropriate content to different audiences.</p> 
+  <p><a href="../../../sites/administering/using/target.md">Integrating with Adobe Target</a> explains how to integrate your site with Target.</p> 
+  <p>You can also use the <a href="../../../sites/administering/using/opt-in.md">Opt-in wizard</a> to easily perform the integration.</p> 
+  <h2>Opting In to Analytics and Target</h2>
+  <p>AEM provides a simple opt-in procedure to integrate with Adobe Analytics and Adobe Target. When you log in as an administrator and visit the Projects console you are presented with an opt-in wizard.</p> 
+  <img imageRotate="0" src="assets/chlimage_1-114.png" />
+  <p>Opt into the integration with Analytics and/or Target to enable the use of their page tracking and analysis capabilities, and personalization capabilities. When you opt in you need to provide your user account information and specify the pages that are tracked.</p> 
+  <p>For more information, see <a href="../../../sites/administering/using/opt-in.md">Opting Into Adobe Analytics and Adobe Target.</a></p> 
+  <h2>Integrating with Scene7</h2>
+  <p><a href="http://www.adobe.com/products/scene7.html">Adobe Scene7</a> is a hosted solution for publishing, managing, enhancing, and delivering dynamic marketing assets and rich visual merchandising to web, mobile, email, social media, Internet-connected displays and print.</p> 
+  <p>In AEM, you can publish digital assets directly from AEM to Scene7 and you can publish digital assets from Scene7 to AEM. </p> 
+  <p>In addition, you can view AEM assets published in Scene7 in various viewers:</p> 
+  <ul> 
+   <li>Basic Zoom</li> 
+   <li>DHTML Flyout Zoom</li> 
+   <li>Flash Flyout Zoom</li> 
+   <li>Video</li> 
+   <li>Flash Template</li> 
+   <li>Image Template</li> 
+  </ul> 
+  <p>For more information on how AEM integrates with Scene7, see the <a href="../../../sites/administering/using/scene7.md">Integrating with Scene7 documentation</a>.</p> 
+  <h2>Integrating with Adobe Dynamic Tag Management</h2>
+  <p><a href="http://www.adobe.com/solutions/digital-marketing/dynamic-tag-management.html">Adobe Dynamic Tag Management</a> gives marketers intuitive tools to quickly and easily manage an unlimited number of Adobe and third-party tags. You'll have more control and flexibility to optimize virtually anything online, all while reducing the dependence on IT resources.</p> 
+  <p><a href="../../../sites/administering/using/dtm.md">Integrate Adobe Dynamic Tag Management</a> with AEM so that you can use your Dynamic Tag Management web properties to track AEM sites. </p> 
+  <h2>Integrating with Adobe Audience Manager</h2>
+  <p>The Audience Manager integration has been removed in AEM 6.3.</p> 
+  <h2>Integrating with Search&amp;Promote</h2>
+  <p><a href="http://www.omniture.com/en/products/conversion/search-and-promote">Adobe Search&amp;Promote</a> enables marketers to optimize how visitors browse, find, compare, and select relevant products and content on web and mobile sites. Businesses can easily promote priority items based on business objectives and visitor intent, as well as automate merchandising and promotions activity via KPI-based triggers or metrics.</p> 
+  <p>Adobe Search&amp;Promote is a reliable and scalable hosted site search application, capable of scaling to millions of pages or products, for heavily visited online businesses ranging from retail to news sites. It offers unprecedented levels of marketer control and metrics-based relevance.</p> 
+  <p>For information about integrating AEM and Search&amp;Promote, see <a href="../../../sites/administering/using/search-and-promote.md">Integrating with Adobe Search&amp;Promote</a>.</p> 
+  <h2>Integrating with Adobe Campaign</h2>
+  <p><a href="http://www.adobe.com/solutions/campaign-management.html">Adobe Campaign</a> lets you manage email delivery content directly in Adobe Experience Manager.</p> 
+  <p>For information on how AEM integrates with Adobe Campaign, see <a href="../../../sites/administering/using/campaignstandard.md">Integrating with Adobe Campaign</a>.</p> 
+  <h2>Integrating with Livefyre</h2>
+  <p>Learn about AEM and Livefyre:</p> 
+  <ul> 
+   <li><a href="http://answers.livefyre.com/developers/getting-started">Getting Started with Livefyre</a><br /> </li> 
+   <li><a href="https://answers.livefyre.com/product/livefyre-for-adobe-experience-manager-aem/livefyre-for-adobe-experience-manager/">Livefyre and AEM</a></li> 
+  </ul> 
+ </body>
+</html>

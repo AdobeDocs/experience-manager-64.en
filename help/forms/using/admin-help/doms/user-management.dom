@@ -1,0 +1,85 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="3b621b14-65d0-40a9-8e45-fa9ade8ef1f1" name="jcr:predecessors" /> 
+  <meta content="admin" name="lr_lastModifiedBy" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="User Management allows you to enable SSO between AEM forms modules and Netegrity SiteMinder-protected applications by using SAML. This document provides more information about User Management." name="seoDescription" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/maintaining_aem_forms;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="topicBrowsingSortDate" /> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="2016-04-20T10:10:10.327-0400" name="firstPublishExternalDate" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="559d183b-d90a-42a3-8ac9-2b957f704846" name="jcr:uuid" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/user_management_admin_5e12de0b318c6865_2385_report.xml" name="acrolinxReportURL" /> 
+  <meta content="admin" name="lr_creator" /> 
+  <meta content="450" name="acrolinxWords" /> 
+  <meta content="2018-04-26T04:21:57.718-0400" name="cq:lastModified" /> 
+  <meta content="AEMForms/6.1/AdminHelp/WS0b373c8e7f652f143e6aab37136630d8315-8000,AEMForms/6.1/AdminHelp/WS0b373c8e7f652f143e6aab37136630d8315-7fff,AEMForms/6.1/AdminHelp/WS0b373c8e7f652f143e6aab37136630d8315-7ffe,AEMForms/6.1/AdminHelp/WS0b373c8e7f652f143e6aab37136630d8315-7ffd,AEMForms/6.1/AdminHelp/WS0b373c8e7f652f143e6aab37136630d8315-7ffc" name="cq:gepId" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="2018-04-26T04:21:57.718-0400" name="locHandOffDate" /> 
+  <meta content="admin" name="contentOwner" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="sortDate" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="24" name="acrolinxSentences" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="2016-02-05T03:27:33.761-0500" name="lr_lastModified" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/forms/using/admin-help/user-management.html" name="publishExternalURL" /> 
+  <meta content="User Management" name="navTitle" /> 
+  <meta content="User Management" name="jcr:title" /> 
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2016-05-31T07:03:46.024-0400" name="acrolinxDate" /> 
+  <meta content="2017-10-31T16:30:03.234-0400" name="lastPublishExternalDate" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="2017-10-31T16:30:03.234-0400" name="publishExternalDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2018-04-03T09:10:40.865-0400" name="cq:lastReplicated" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2017-12-01T19:03:31.795-0500" name="jcr:created" /> 
+ </head> 
+ <body> 
+  <p>User Management allows you to enable single sign-on (SSO) between AEM forms modules and Netegrity SiteMinder-protected applications by using Security Assertion Markup Language (SAML). When SSO is implemented, the AEM forms user login pages are not required and are not displayed if the user is already authenticated through the company portal. </p> 
+  <p>For information about improving the database and directory sync performance for DB2, see <a href="../../../forms/using/admin-help/ibm-db2-database-running-commands.md#ibm-db2-database-running-commands-for-regular-maintenance">IBM DB2 database: Running commands for regular maintenance</a>.</p> 
+  <h2 id="configuring_user_management_for_an_ssl_enabled_ldap_server">Configuring User Management for an SSL-enabled LDAP server</h2> 
+  <p></p> 
+  <p>If you have an SSL-enabled LDAP server, configure User Management to work with it. (See <a href="../../../forms/using/admin-help/configure-user-management-ssl-enabled.md#configure-user-management-for-an-ssl-enabled-ldap-server">Configure User Management for an SSL-enabled LDAP server</a>.)</p> 
+  <h2 id="setting_user_privileges_for_use_with_document_security">Setting user privileges for use with Document Security</h2> 
+  <p></p> 
+  <p>Create an administrator user who has the appropriate privileges for creating users and groups. If your AEM forms environment includes Document Security, grant the privilege to manage invited and local users to a user who will be the administrator for these users. Also assign the administration console User role to provide the user with access to administration console. (See <a href="../../../forms/using/admin-help/creating-configuring-roles.md#creating-and-configuring-roles">Creating and configuring roles</a>.)</p> 
+  <p>To view users and groups in selected domains during policy user searches, a super administrator or policy set administrator must select and add domains (created in User Management) to the visible user and group list for each policy set created. </p> 
+  <p>The visible user and group list is visible to the policy set coordinator and is used to restrict which domains the end user can browse when choosing users or groups to add to policies. If this task is not performed, the policy set coordinator will not find any users or groups to add to the policy. There can be more than one policy set coordinator for any given policy set.</p> 
+  <note> 
+   <p>Creating domains must be done before any policies can be created. </p> 
+  </note> 
+  <h3 id="set_visible_users_and_groups">Set visible users and groups</h3> 
+  <p></p> 
+  <p>After you install and configure your AEM forms environment with Document Security, set up all appropriate domains in User Management.</p> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; Document Security&amp;gt; Policies and then click Policy Sets tab.</p></li> 
+   <li><p>Select Global Policy Set and then click Visible Users And Groups tab.</p></li> 
+   <li><p>Click Add Domain(s) and add existing domains as required.</p></li> 
+   <li><p>Navigate to Services &amp;gt; document security &amp;gt; Configuration &amp;gt; My Policies and click Visible Users And Groups tab. </p></li> 
+   <li><p>Click Add Domain(s) and add existing domains as required.</p></li> 
+  </ol> 
+  <h2 id="administrator_user_restrictions">Administrator user restrictions</h2> 
+  <p></p>  
+  <p>Users with certain types of administrator privileges cannot access the Workspace end-user web pages for security reasons. Because these web pages can exist outside a firewall, permitting administration-level tasks could pose a security risk. Only users who have the Workspace Administrator or Workspace User privileges can access the end-user web pages.</p> 
+  <note> 
+   <p>The Flex Worksapce is deprecated for AEM forms release.</p> 
+  </note> 
+ </body> 
+</html>

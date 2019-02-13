@@ -1,0 +1,66 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="2018-04-26T04:21:23.008-0400" name="cq:lastModified" /> 
+  <meta content="2018-04-03T08:10:28.899-0400" name="topicBrowsingSortDate" /> 
+  <meta content="85593afc-5ce4-4163-bdf1-550be29c8d95" name="jcr:uuid" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="yellow" name="acrolinxPageStatus" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="2016-04-21T04:44:00.330-0400" name="firstPublishExternalDate" /> 
+  <meta content="Using autosave in AEM Forms app" name="jcr:title" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2018-04-03T08:10:28.899-0400" name="publishExternalDate" /> 
+  <meta content="sashanka" name="contentOwner" /> 
+  <meta content="2018-04-03T08:10:28.899-0400" name="lastPublishExternalDate" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/autosave_data_app_admin_5e12de0b318c6865_1931_report.xml" name="acrolinxReportURL" /> 
+  <meta content="2018-04-26T04:21:23.007-0400" name="locHandOffDate" /> 
+  <meta content="2015-12-10T05:09:52.418-0500" name="publishQADate" /> 
+  <meta content="c5da62a0-7de9-4bd9-a380-66405083265b" name="jcr:predecessors" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2017-12-01T19:05:07.982-0500" name="jcr:created" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="14" name="acrolinxSentences" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2016-05-31T06:29:05.112-0400" name="acrolinxDate" /> 
+  <meta content="2018-04-03T08:10:29.569-0400" name="cq:lastReplicated" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/autosave-data-app.html" name="publishExternalURL" /> 
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:forms-app" name="cq:tags" /> 
+  <meta content="2015-12-10T05:09:52.418-0500" name="lastPublishQADate" /> 
+  <meta content="Learn how to use autosave feature in AEM Forms app that lets you avoid data loss. " name="seoDescription" /> 
+  <meta content="293" name="acrolinxWords" /> 
+  <meta content="2015-12-07T04:27:10.718-0500" name="firstPublishQADate" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="https://helpx.stage.adobe.com/aem-forms/6-2/autosave-data-app.html" name="publishQAURL" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+ </head> 
+ <body> 
+  <p>When a user enters data in the Adobe Experience Manager Forms app, the autosave feature saves it at regular intervals. The autosave feature in the AEM Forms app helps you avoid data loss if the app is accidentally closed. </p> 
+  <p>Your app can accidentally close:</p> 
+  <ul> 
+   <li>If your device shuts down due to low battery</li> 
+   <li>If the user kills the app<br /> </li> 
+   <li>If an unexpected crash occurs</li> 
+  </ul> 
+  <p>You can specify the intervals after which the app saves the entered data. </p> 
+  <note> 
+   <p>Select autosave frequency judiciously. Frequent autosave operations can have a noticeable impact on the performance of your device.<br /> </p> 
+  </note> 
+  <p>Perform the following steps to use the autosave feature in AEM Forms app:</p> 
+  <ol> 
+   <li><p>Log in to the app, and navigate to <strong>Settings &amp;gt; General</strong>.</p> </li> 
+   <li><p>In the General screen, use the <strong>Autosave Frequency</strong> option to select the intervals at which you want the app to save the entered data. </p> <a href="assets/using-autosave-freq-07-1.png"><img alt="Setting autosave frequency" imageRotate="0" src="assets/using-autosave-freq-07.png" title="Setting autosave frequency" /></a></li> 
+   <li><p>When you restart the app and log in with the same user, you are prompted to restore your task with Recover Unsaved Task dialog. Click <strong>OK</strong> in the Recover Unsaved Task dialog to resume working with the saved task. You can click <strong>Cancel </strong>to delete the saved data corresponding to the last triggered autosave and start working with a new task.</p> <p>When you click <strong>OK</strong>, the task is restored with the data corresponding to the latest autosave triggered before the app crashed. It includes the form data and all the attachments associated with the task.</p> <a href="assets/using-autosave-freq-06.png"><img alt="Getting a task recovered" imageRotate="0" src="assets/autosave-flow.png" /></a><p><strong>A.</strong> A work-in-progress form <strong>B.</strong> App closed forcefully <strong>C.</strong> App restarted with Recover Unsaved Task dialog <strong>D.</strong> Form restored with original data</p></li> 
+  </ol> 
+ </body> 
+</html>

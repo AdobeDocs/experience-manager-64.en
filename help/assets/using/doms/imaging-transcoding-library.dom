@@ -1,0 +1,164 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="Imaging Transcoding Library" name="seoTitle" /> 
+  <meta content="asgupta" name="acrolinxLastCheckedBy" /> 
+  <meta content="/content/docs/en/aem/6-3/administer/content/assets/imaging-transcoding-library" name="qaNotes" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2018-09-18T07:15:28.457-0400" name="cq:lastReplicated" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="asgupta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/assets/using/imaging-transcoding-library.html" name="publishExternalURL" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS;topic_tags:administering;content_type:reference" name="cq:tags" /> 
+  <meta content="checked_not_improved" name="acrolinxStatus" /> 
+  <meta content="2019-01-12T17:29:51.755-0500" name="acrolinxDate" /> 
+  <meta content="Learn how to configure and use Adobe's Imaging Transcoding Library, an image processing solution that can perform core image-handling functions, including encoding, transcoding, image resampling, and image resizing." name="seoDescription" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="Imaging Transcoding Library" name="jcr:title" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="light" name="gnavTheme" /> 
+  <meta content="2017-10-31T16:34:45.665-0400" name="firstPublishExternalDate" /> 
+  <meta content="asgupta" name="cq:lastReplicatedBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/ASSETS" name="primaryProductTag" /> 
+  <meta content="2018-01-12T19:02:44.822-0500" name="jcr:created" /> 
+  <meta content="2018-09-18T07:15:28.244-0400" name="topicBrowsingSortDate" /> 
+  <meta content="/content/help/en/experience-manager/6-4/assets/morehelp/administering;/content/help/en/experience-manager/6-4/assets/morehelp/administering" name="moreHelpPaths" /> 
+  <meta content="7127f515-81b3-4241-ae2a-39d5b5808096" name="jcr:uuid" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="yellow" name="acrolinxPageStatus" /> 
+  <meta content="2018-09-18T07:15:28.244-0400" name="lastPublishExternalDate" /> 
+  <meta content="2018-09-18T07:15:28.244-0400" name="publishExternalDate" /> 
+  <meta content="User" name="contentOwner" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="3d66bbfa-cbdf-4a63-abc0-d5e6ecd4b47e" name="jcr:predecessors" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2018-04-24T11:57:55.414-0400" name="locHandOffDate" /> 
+  <meta content="dist5" name="distType" /> 
+  <meta content="asgupta" name="cq:lastModifiedBy" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="946" name="acrolinxWords" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="59" name="acrolinxSentences" /> 
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/imaging_transcoding_library_krs_workflow_f3c2f2ccebf6138e_141_report.xml" name="acrolinxReportURL" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2018-09-18T07:15:28.252-0400" name="cq:lastModified" /> 
+ </head> 
+ <body> 
+  <p>Adobe's Imaging Transcoding Library is a proprietary image processing solution that can perform core image-handling functions, including:</p> 
+  <ul> 
+   <li>Encoding</li> 
+   <li>Transcoding (converting supported formats)</li> 
+   <li>Image resampling, using PS and Intel IPP algorithms</li> 
+   <li>Bit depth and color profile preservation</li> 
+   <li>JPEG quality compression</li> 
+   <li>Image resizing</li> 
+  </ul> 
+  <p>Imaging Transcoding Library provides the following capabilities:</p> 
+  <ul> 
+   <li>CMYK support</li> 
+   <li>Full alpha support (except CMYK -Alpha)</li> 
+  </ul> 
+  <p>In addition to supporting a wide range of file formats and profiles, Imaging Transcoding Library has significant advantages over other third-party solutions around performance, scalability, and quality. Here are some of the key benefits that Imaging Transcoding Library provides:</p> 
+  <ul> 
+   <li><strong>Scales with increasing file size or resolution</strong>: Scaling is primarily achieved by the patented ability of Imaging Transcoding Library to re-size while decoding files. This ability ensures that runtime memory usage is always optimum and is not a quadratic function of increasing file size or resolution megapixels. Imaging Transcoding Library can process larger and high-resolution (containing higher megapixels) files. Third-party tools, such as ImageMagick is unable to handle large files and crashes while processing such files.</li> 
+   <li><strong>Photoshop quality compression and resizing algorithms</strong>: Consistency with industry standard in terms of quality of down sampling (smooth, sharp and automatic bicubic) and compression quality. Imaging Transcoding Library further assesses the quality factor of input image, and intelligently uses optimum tables and quality settings for output image. This ability produces files of optimal size without compromising on visual quality.</li> 
+   <li><strong>High throughput:</strong> The response time is lower and throughput is consistently higher than ImageMagick. Therefore, Imaging Transcoding Library should decrease the wait time for users and the cost of hosting.</li> 
+   <li><strong>Scale better with concurrent load:</strong> Imaging Transcoding Library performs optimally under concurrent load conditions. It provides high throughput with optimum CPU performance, memory usage, and low response time, which helps reduce the cost of hosting.</li> 
+  </ul> 
+  <h2>Supported MIME types</h2> 
+  <p>Imaging Transcoding Library supports the following MIME types:</p> 
+  <ul> 
+   <li>JPG/JPEG</li> 
+   <li>PNG (8 and 16 Bit)</li> 
+   <li>GIF</li> 
+   <li>BMP</li> 
+   <li>TIFF/Compressed TIFF (apart from 32 Bit Tiffs and PTiffs)</li> 
+   <li>ICO</li> 
+   <li>ICN</li> 
+  </ul> 
+  <h2>Supported Platforms</h2> 
+  <p>Imaging Transcoding Library is currently available for the following operating systems:</p> 
+  <ul> 
+   <li>RHEL 7</li> 
+   <li>CentOS 7</li> 
+  </ul> 
+  <note> 
+   <p>Currently, only RHEL 7 and CentOS 7 are supported for Linux distros. Mac OS and other *nix distributions (for example, Debian and Ubuntu) are not supported.</p> 
+  </note> 
+  <h2>Usage</h2> 
+  <p>The command line arguments for Imaging Transcoding Library can include the following:</p> 
+  <p><code class="code">-destMime PNG/JPEG: Mime type of output rendition
+    <discoiqbr /> -BitDepth 8/16: Preserves Bit Depth. Bitdepth ‘4’ is automatically converted to ‘8’
+    <discoiqbr /> -preserveBitDepth: Downscales Bit Depth (No upscaling)
+    <discoiqbr /> -preserveCMYK: Preserves CMYK color space
+    <discoiqbr /> -jpegQuality: Provides jpeg quality parameter (0-12 , corresponding to Photoshop qualities)
+    <discoiqbr /> -ResamplingMethod BiCubic/Lanczos/PSBicubic: Provides resampling methods. PSBicubic is a Photoshop quality resampling method.
+    <discoiqbr /> -resize</code>: <span class="code">You can configure the following options for the</span> <span class="code">-resize</span> <span class="code">parameter:</span></p> 
+  <ul> 
+   <li><span class="code">X</span>: <span class="code">Works similar to AEM. For example -resize 319.</span></li> 
+   <li><span class="code">WxH</span>: <span class="code">Aspect Ratio will not be maintained, For example -resize 319X319.</span></li> 
+   <li><span class="code">Wx</span>: <span class="code">Fixes the width and calculates the height maintaining the aspect ratio. For example -resize 319x.</span></li> 
+   <li><span class="code">xH</span>: <span class="code">Fixes the height and calculates the width maintaining the aspect ratio. For example -resize x319. </span><br /> </li> 
+  </ul> 
+  <p><code class="code">-AllowUpsampling (Resizes smaller images)
+    <discoiqbr /> -input &amp;lt;fileName&amp;gt;
+    <discoiqbr /> -output &amp;lt;fileName&amp;gt;</code></p> 
+  <h2>Configuring Imaging Transcoding Library</h2> 
+  <ol> 
+   <li><p>Configure<span class="code"> LD_LIBRARY_PATH</span>: </p> 
+    <ul> 
+     <li><span class="code">vi ~/.bash_profile</span></li> 
+     <li>Add "<span class="code">export LD_LIBRARY_PATH</span>=<strong>.</strong>"</li> 
+     <li>Save and exit.</li> 
+    </ul> </li> 
+   <li><p>Fetch the value of <span class="code">LD_LIBRARY_PATH</span> using the following command:</p>  <p>Verify whether the value of <span class="code">LD_LIBRARY_PATH</span> is set to "<strong>.</strong>"</p> <p>If the value is not set to "." restart the session.</p> </li> 
+   <li><p>Download the Imaging Transcoding Library package and install it using Crx Package Manager.</p> 
+    <table border="1" cellpadding="0" cellspacing="0"> 
+     <tbody> 
+      <tr> 
+       <td valign="top" width="126"><p><strong>Package Version</strong></p> </td> 
+       <td valign="top" width="168"><p><strong>Package Share Link</strong></p> </td> 
+       <td valign="top" width="330"><p><strong>Supported Platforms</strong></p> </td> 
+      </tr> 
+      <tr> 
+       <td valign="top" width="126"><p>1.4<br /> </p> </td> 
+       <td valign="top" width="168"><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/aem630/product/assets/aem-assets-imaging-transcoding-library-pkg">Imaging transcoding library package</a></td> 
+       <td valign="top" width="330"><p>RHEL 7, CentOS7</p> </td> 
+      </tr> 
+     </tbody> 
+    </table> 
+    <div style="position: absolute; left: -10000px; width: 9000px; top: 0px;"> 
+     <table border="1" cellpadding="0" cellspacing="0" style="font-family: tahoma, arial, helvetica, sans-serif;"> 
+      <tbody> 
+       <tr> 
+        <td valign="top" width="168"><p>TBD</p> </td> 
+       </tr> 
+      </tbody> 
+     </table> 
+    </div> </li> 
+   <li><p>Tap/click the AEM logo, and go to <strong>Tools</strong> &amp;gt; <strong>Workflow</strong> &amp;gt; <strong>Models</strong>.</p> </li> 
+   <li><p>From the <strong>Workflow Models</strong> page, open the<strong> DAM Update Asset</strong> workflow model in edit mode.</p> </li> 
+   <li><p>Open the <strong>Process Thumbnails</strong> workflow process step. In the <strong>Thumbnails</strong> tab, add the MIME types for which you want to skip the default thumbnail generation process in the <strong>Skip Mime Types </strong>list. For example, if you want to create thumbnails for a JPEG image using Imaging Transcoding Library, specify <span class="code">skip:image/jpeg</span> in the Skip Mime Types field.</p> <img imageRotate="0" src="assets/skip_mime_types-1.png" /></li> 
+   <li><p>In the <strong>Web Enabled Image</strong> tab, add the MIME types for which you want to skip the default web rendition generation process in <strong>Skip List</strong>. For example, if you skipped MIME type <span class="code">image/jpeg</span> in step 6, add <span class="code">image/jpeg</span> to the skip list.</p> <img imageRotate="0" src="assets/skip_web_renditions.png" /></li> 
+   <li><p>Open the <strong>EPS thumbnails (powered by ImageMagick)</strong> step navigate to the <strong>Arguments</strong> tab. In the <strong>Mime Types</strong> list, add the MIME types you want Imaging Transcoding Library to process. For example, if you skipped the MIME type <span class="code">image/jpeg</span> in step 6, add image/jpeg to the <strong>Mime Types</strong> list.</p> <img imageRotate="0" src="assets/process_arguments.jpg" /></li> 
+   <li><p>Add commands to SwitchEngine Handler using one of the following ways:</p> 
+    <ul> 
+     <li>Based on custom requirements, tune the parameters of commands that you specify. For example, if you want to preserve the color profile of your JPEG image, add the following commands to the <strong>Commands</strong> list:</li> 
+    </ul> 
+    <ol> 
+     <li><span class="code">SWitchEngine -input ${file} -destMime PNG -resize 48 -output ${directory}cq5dam.thumbnail.48.48.png</span></li> 
+     <li><span class="code">SWitchEngine -input ${file} -destMime PNG -resize 140x100 -output ${directory}cq5dam.thumbnail.140.100.png</span></li> 
+     <li><span class="code">SWitchEngine -input ${file} -destMime PNG -resize 319 -output ${directory}cq5dam.thumbnail.319.319.png</span></li> 
+     <li><span class="code">SWitchEngine -input ${file} -destMime JPEG -resize 1280 -preserveCMYK -output ${directory}cq5dam.thumbnail.1280.1280.jpg</span></li> 
+    </ol> <img imageRotate="0" src="assets/chlimage_1-199.png" /> 
+    <ul> 
+     <li>Generate thumbnails from an intermediate rendition using a single command. The intermediate rendition acts as source to generate static and web renditions. This method is faster than the earlier method. However, you cannot apply custom parameters to thumbnails using this method.</li> 
+    </ul> <img imageRotate="0" src="assets/chlimage_1-200.png" /><p>To generate web renditions, configure parameters in the<strong> Web-Enabled Image</strong> tab as depicted in the following image.</p> <img imageRotate="0" src="assets/web_enabled_imagetab.png" /></li> 
+   <li><p>Save the workflow.</p> </li> 
+  </ol> 
+ </body> 
+</html>

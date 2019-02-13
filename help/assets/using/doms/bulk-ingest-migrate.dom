@@ -1,0 +1,60 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="85286f92-03b5-4e7f-920e-f26900f550dd" name="jcr:uuid" /> 
+  <meta content="rbrough" name="contentOwner" /> 
+  <meta content="/content/help/en/experience-manager/6-4/assets/morehelp/dynamic-media;/content/help/en/experience-manager/6-4/assets/morehelp/dynamic-media" name="moreHelpPaths" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="yellow" name="acrolinxPageStatus" /> 
+  <meta content="2018-03-13T09:01:20.325-0400" name="jcr:created" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="http://acrolinx.corp.adobe.com:8031/output/en/bulk_ingest_migrate_krs_workflow_f3c2f2ccebf6138e_218_report.xml" name="acrolinxReportURL" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="asgupta" name="acrolinxLastCheckedBy" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="2019-01-12T17:37:14.371-0500" name="acrolinxDate" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="2018-04-24T11:59:09.926-0400" name="cq:lastModified" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="en" name="pageCreatedAt" /> 
+  <meta content="Installing Feature Pack 18912" name="navTitle" /> 
+  <meta content="21" name="acrolinxSentences" /> 
+  <meta content="268" name="acrolinxWords" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2018-04-03T08:12:54.782-0400" name="cq:lastReplicated" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="rbrough" name="cq:lastModifiedBy" /> 
+  <meta content="Installing Feature Pack 18912" name="jcr:title" /> 
+  <meta content="Installing Feature Pack 18912" name="seoTitle" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="2018-04-24T11:59:09.926-0400" name="locHandOffDate" /> 
+  <meta content="Feature Pack 18912 lets you bulk ingest assets by way of FTP, or migrate assets from Dynamic Media Classic (Scene7), or both. This optional feature pack is available from Adobe support." name="seoDescription" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="checked_not_improved" name="acrolinxStatus" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="true" name="preview" /> 
+  <meta content="a15c1591-4321-4795-b27c-a05c8f4f65e9" name="jcr:predecessors" /> 
+ </head> 
+ <body> 
+  <p>The installation of Feature Pack 18912 is optional. Feature Pack 18912 lets you bulk ingest assets by way of FTP, or migrate assets from Dynamic Media Classic (Scene7), or both. The optional feature pack is available from Adobe support.</p> 
+  <p>When installing this feature pack, you must also create a service user and provide that information to Adobe support.</p> 
+  <p>See also <a href="/assets/using/config-dynamic-fp-14410" target="_blank">Configuring Dynamic Media - Scene7 mode</a>.</p> 
+  <p><strong>To install feature pack 18912</strong>,</p> 
+  <ol> 
+   <li><p>In your AEM instance, navigate to <strong>Tools</strong> &amp;gt; <strong>Security</strong> &amp;gt; <strong>Users</strong> and select <strong>Create User</strong>. This service user must have <strong>read/write</strong> permissions to /<strong>content/dam</strong>.</p> </li> 
+   <li><p>In the <strong>ID</strong> and <strong>Password</strong> fields, enter a user name and password; for example, <strong>FTP User</strong>. This name appears in the timeline as the user who created the asset. When an asset is uploaded from FTP, an asset is considered created when it is uploaded to the FTP server and is pushed to AEM.</p> </li> 
+   <li><p>Contact Adobe support by filing a customer support ticket to access Feature Pack 18912 for downloading. In the customer support ticket, provide the following information:</p> 
+    <ul> 
+     <li>Server IP address for the author instance, including the port number (by default, the port number is 4502.) </li> 
+     <li>AEM service user username/password from the previous step</li> 
+    </ul> </li> 
+   <li><p>When you receive Feature Pack 18912 from Adobe support, install it.</p> <p>See <a href="../../sites/administering/using/package-manager.md" target="_blank">How to Work with Packages</a> for more information on using Package Share and packages in AEM.</p> </li> 
+  </ol> 
+ </body> 
+</html>

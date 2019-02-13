@@ -1,0 +1,76 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="red" name="acrolinxPageStatus" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="2018-04-26T04:23:46.375-0400" name="cq:lastModified" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="2017-12-01T19:04:01.498-0500" name="jcr:created" /> 
+  <meta content="On the Backup Settings page, you can operate AEM forms in safe backup mode so that you can reliably back up your database and Global Document Storage (GDS) (GDS) directory. Learn how to enable and disable safe backup mode." name="seoDescription" /> 
+  <meta content="649bd034-99ec-4791-9b8b-5a3e4f74fac1" name="jcr:uuid" /> 
+  <meta content="AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7fe7.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-1b40940a12905ce0596-7fd7.2,AEMForms/6.1/AdminHelp/WS92d06802c76abadb-1b40940a12905ce0596-7fd4.2" name="cq:gepId" /> 
+  <meta content="2016-04-20T10:05:18.540-0400" name="firstPublishExternalDate" /> 
+  <meta content="8" name="acrolinxSentences" /> 
+  <meta content="2017-10-31T16:32:15.699-0400" name="publishExternalDate" /> 
+  <meta content="admin" name="contentOwner" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="admin" name="lr_creator" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/enabling_disabling_safe_backup_mode_admin_5e12de0b318c6865_2317_report.xml" name="acrolinxReportURL" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="topicBrowsingSortDate" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/forms/using/admin-help/enabling-disabling-safe-backup-mode.html" name="publishExternalURL" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="Enabling and disabling safe backup mode" name="jcr:title" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="9978baca-483e-40be-851c-c45f23de8329" name="jcr:predecessors" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="Enabling and disabling safe backup mode" name="navTitle" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="2016-02-05T03:27:23.563-0500" name="lr_lastModified" /> 
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2016-05-31T06:59:41.926-0400" name="acrolinxDate" /> 
+  <meta content="163" name="acrolinxWords" /> 
+  <meta content="admin" name="lr_lastModifiedBy" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="2018-04-03T09:10:06.957-0400" name="cq:lastReplicated" /> 
+  <meta content="2018-04-26T04:23:46.375-0400" name="locHandOffDate" /> 
+  <meta content="2017-10-31T16:32:15.699-0400" name="lastPublishExternalDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="sortDate" /> 
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/aem_forms_backup_and_recovery;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+ </head> 
+ <body> 
+  <p>On the Backup Settings page, you can operate AEM forms in safe backup mode so that you can reliably back up your database and Global Document Storage (GDS) (GDS) directory.</p> 
+  <p>While AEM forms is in safe backup mode, it operates normally, except that it does not actively remove files from the GDS directory. </p> 
+  <note> 
+   <p>Setting this option does not back up your system; it prepares your system for backup. </p> 
+  </note> 
+  <h2 id="enable_safe_backup_mode">Enable safe backup mode</h2> 
+  <p></p> 
+  <ol> 
+   <li><p>In administration console, click Settings &amp;gt; Core Systems Settings &amp;gt; Backup Settings.</p></li> 
+   <li><p>On the Backup Settings page, select Operate In Safe Backup Mode and click OK.</p></li> 
+  </ol> 
+  <note> 
+   <p>If the system is already running in safe backup mode, a new reservation will not be created when you click OK.</p> 
+  </note> 
+  <h2 id="disable_safe_backup_mode">Disable safe backup mode</h2> 
+  <p></p> 
+  <ol> 
+   <li><p>In administration console, click Settings &amp;gt; Core Systems Settings &amp;gt; Backup Settings.</p></li> 
+   <li><p>On the Backup Settings page, deselect Operate In Safe Backup Mode and click OK.</p></li> 
+  </ol> 
+ </body> 
+</html>

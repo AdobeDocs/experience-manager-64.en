@@ -1,0 +1,68 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="2017-10-31T16:16:17.608-0400" name="publishExternalDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="User" name="contentOwner" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/software-architecture.html" name="publishExternalURL" /> 
+  <meta content="Software Architecture" name="jcr:title" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="2017-10-31T16:16:17.608-0400" name="firstPublishExternalDate" /> 
+  <meta content="2018-04-03T09:01:15.861-0400" name="cq:lastReplicated" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2018-05-08T12:45:13.230-0400" name="cq:lastModified" /> 
+  <meta content="2017-10-12T21:46:00.000-0400" name="qaDate" /> 
+  <meta content="audience:developing" name="primaryAudienceTag" /> 
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="2018-05-08T12:45:13.229-0400" name="locHandOffDate" /> 
+  <meta content="75441777-6f9a-4b4e-9ba7-1cb0468c49e1" name="jcr:predecessors" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/morehelp/best-practices;/content/help/en/experience-manager/6-4/sites/developing/morehelp/best-practices" name="moreHelpPaths" /> 
+  <meta content="Best practices for architecting your software" name="seoDescription" /> 
+  <meta content="2017-10-31T16:16:17.608-0400" name="lastPublishExternalDate" /> 
+  <meta content="2017-12-01T19:06:14.494-0500" name="jcr:created" /> 
+  <meta content="2017-10-31T16:16:17.608-0400" name="topicBrowsingSortDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;content_type:reference;topic_tags:best-practices" name="cq:tags" /> 
+  <meta content="d464e71f-099d-455e-9e3d-fd6cb02ac47e" name="jcr:uuid" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="Software Architecture" name="seoTitle" /> 
+  <meta content="/content/docs/en/aem/6-3/develop/best-practices/software-architecture" name="qaNotes" /> 
+ </head> 
+ <body> 
+  <h3>Design for upgrades</h3> 
+  <p>When extending OOTB behaviors, it is important to keep upgrades in mind. Always apply customizations in the /apps directory and either overlay on top of the corresponding nodes in the /libs directory or use sling:resourceSuperType to extend the out of the box behavior. While some modifications may be needed to support a new AEM version, the new version should not overwrite your customizations if this practice is followed.</p> 
+  <h3>Reuse template and components when possible</h3> 
+  <p>This will allow for the site to maintain a more consistent look and feel and simplify code maintenance. When a new template is needed, make sure to extend from a shared base template so that global requirements such as clientlib inclusion can be coded in one place. When a new component is needed, look for opportunities to extend from an existing component.</p> 
+  <h3>Design template designs</h3> 
+  <p>By defining which components can be included in each parsys on the page, the consistency of the look/feel of the site can be controlled. By restricting access to the design on pages, “super authors” can be allowed to modify the allowed components per page without developer intervention while ensuring that the other authors follow the corporate standards.</p> 
+  <h3>Develop a SOLID architecture</h3> 
+  <p>SOLID is an acronym describing five architectural principles that should be adhered to:</p> 
+  <ul> 
+   <li><strong>S</strong>ingle Responsibility Principle - each module, class, method, etc, should do only one thing.</li> 
+   <li><strong>O</strong>pen/Closed Principle - modules should be open for extension and closed for modification.</li> 
+   <li><strong>L</strong>iskov Substitution Principle - types should be replaceable by their subtypes.</li> 
+   <li><strong>I</strong>nterface Segregration Principle - no client should be forced to depend on methods that it does not use.</li> 
+   <li><strong>D</strong>ependency Inversion Principle - High-level modules should not depend on low-level modules. Both should depend on abstractions. Abstractions should not depend on details. Details should depend on abstractions.</li> 
+  </ul> 
+  <p>Striving for compliance with these five principles should result in a system that has a strict separation of concerns.</p> 
+  <h3>Follow the Robustness Principle</h3> 
+  <p>The Robustness Principle states that we should be conservative in what we send, but be liberal in what we accept. In other words, when sending messages to a third party, we should completely conform to specifications, but when receiving messages from a third-party, we should accept non-conformant messages as long as the meaning of the message is clear.</p> 
+  <h3>Implement spikes in their own modules</h3> 
+  <p>Spikes and test code are an integral part of any Agile software implementation, but we want to make sure that they don’t make their way into our production code base without the appropriate level of oversight. As a result, it is recommended to create spikes in their own module.</p> 
+  <h3>Implement data migration scripts in their own module</h3> 
+  <p>Data migration scripts, while production code, are usually only run once at the initial launch of a site. Therefore, as soon as the site is live, this becomes dead code. In order to ensure that we don’t build implementation code that depends on the migration scripts, they should be implemented in their own module. This also allows us to remove and retire this code immediately after launch, eliminating dead code from the system.</p> 
+  <h3>Follow published Maven conventions in POM files</h3> 
+  <p>Apache has published style conventions at <a href="http://maven.apache.org/developers/conventions/code.html">http://maven.apache.org/developers/conventions/code.html</a>. It is best to follow these conventions, as it will make it easier for new resources to come up to speed quickly.</p> 
+ </body> 
+</html>

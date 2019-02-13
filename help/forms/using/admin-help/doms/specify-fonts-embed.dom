@@ -1,0 +1,66 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="admin" name="lr_lastModifiedBy" /> 
+  <meta content="not_checked" name="acrolinxStatus" /> 
+  <meta content="2016-04-20T10:07:55.786-0400" name="firstPublishExternalDate" /> 
+  <meta content="2018-04-03T09:10:35.793-0400" name="cq:lastReplicated" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="topicBrowsingSortDate" /> 
+  <meta content="Specify fonts to embed" name="navTitle" /> 
+  <meta content="admin" name="lr_creator" /> 
+  <meta content="248" name="acrolinxWords" /> 
+  <meta content="Specify fonts to embed" name="jcr:title" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/forms/using/admin-help/specify-fonts-embed.html" name="publishExternalURL" /> 
+  <meta content="4b39b809-d529-4ac3-965b-cc69c3ca08e9" name="jcr:uuid" /> 
+  <meta content="admin" name="contentOwner" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="light" name="heroGradient" /> 
+  <meta content="false" name="doNotLocalize" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" /> 
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/specify_fonts_embed_admin_5e12de0b318c6865_2368_report.xml" name="acrolinxReportURL" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="yellow" name="acrolinxPageStatus" /> 
+  <meta content="content_type:reference;geptopics:SG_AEMFORMS/categories/configuring_output;products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="cq:tags" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2016-02-05T03:27:31.356-0500" name="lr_lastModified" /> 
+  <meta content="video" name="pageLayout" /> 
+  <meta content="2017-12-01T19:03:42.795-0500" name="jcr:created" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="2018-04-26T04:22:41.220-0400" name="cq:lastModified" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2018-04-26T04:22:41.220-0400" name="locHandOffDate" /> 
+  <meta content="2016-02-05T03:27:00.000-0500" name="sortDate" /> 
+  <meta content="2017-10-31T16:31:58.556-0400" name="publishExternalDate" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="AEMForms/6.1/AdminHelp/WS92d06802c76abadb-5145d5d12905ce07e7-7d63.2" name="cq:gepId" /> 
+  <meta content="15" name="acrolinxSentences" /> 
+  <meta content="left" name="sideColumn" /> 
+  <meta content="Learn how to specify fonts to embed." name="seoDescription" /> 
+  <meta content="c3d1fde1-3ebc-41be-b809-f16a7321caa2" name="jcr:predecessors" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="2016-05-31T07:03:05.048-0400" name="acrolinxDate" /> 
+  <meta content="head1_20111213" name="gep_conversion_script_version" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="2017-10-31T16:31:58.556-0400" name="lastPublishExternalDate" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+ </head> 
+ <body> 
+  <p>You can specify which fonts are always embedded or never embedded with the forms used by Output. Embedding fonts increases the file size of the forms. Embed unusual fonts that users are not likely to have on their systems, and do not embed common fonts that they will have installed. </p> 
+  <note> 
+   <p>If you have specified a custom XCI file for Output, the embed font option in the XCI file overrides these settings. (See <a href="../../../forms/using/admin-help/specify-file-locations-output.md#specify-file-locations-for-output">Specify file locations for Output</a>.) </p> 
+  </note> 
+  <ol> 
+   <li><p>In administration console, click Services &amp;gt; output.</p></li> 
+   <li><p>Under Font Embedding Settings, in the Always Embed Fonts box, type the names of the fonts to embed with the forms, separated by commas. The fonts that you specify are only embedded in the generated form if they are used in the form. This setting is ignored if the embed font option has been turned on in the XCI file passed to the service. In that case, all fonts used in the PDF are always embedded.</p></li> 
+   <li><p>In the Never Embed Fonts box, type the names of the fonts not to embed with the forms, separated by commas. The fonts that you specify are not embedded in the PDF, even if they are used in the generated PDF. This setting is ignored if the embed font option has been turned off in the XCI file passed to the service. In that case, none of the fonts used in the PDF are embedded.</p></li> 
+   <li><p>Click Save.</p></li> 
+  </ol> 
+ </body> 
+</html>

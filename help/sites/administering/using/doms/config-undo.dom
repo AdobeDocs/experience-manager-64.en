@@ -1,0 +1,151 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="Configuring Undo for Page Editing" name="jcr:title" /> 
+  <meta content="Learn how to configure Undo support for page editing in AEM." name="seoDescription" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:operations;content_type:reference" name="cq:tags" /> 
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="/content/docs/en/aem/6-3/administer/operations/page-authoring/config-undo" name="qaNotes" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="Guillaume Carlino" name="contentOwner" /> 
+  <meta content="Configuring Undo for Page Editing" name="navTitle" /> 
+  <meta content="2018-04-03T07:02:19.875-0400" name="publishExternalDate" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="2017-12-01T19:04:30.982-0500" name="jcr:created" /> 
+  <meta content="remove-legacypath-6-1" name="jcr:lastModifiedBy" /> 
+  <meta content="2018-04-03T07:02:19.875-0400" name="lastPublishExternalDate" /> 
+  <meta content="audience:administering" name="primaryAudienceTag" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="2018-04-26T10:13:44.317-0400" name="cq:lastModified" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/config-undo.html" name="publishExternalURL" /> 
+  <meta content="2018-04-03T07:02:21.069-0400" name="cq:lastReplicated" /> 
+  <meta content="2018-04-26T10:13:44.316-0400" name="locHandOffDate" /> 
+  <meta content="Configuring Undo for Page Editing" name="seoTitle" /> 
+  <meta content="2018-04-03T07:02:19.875-0400" name="topicBrowsingSortDate" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="carlino" name="cq:lastModifiedBy" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/administering/morehelp/operations;/content/help/en/experience-manager/6-4/sites/administering/morehelp/operations" name="moreHelpPaths" /> 
+  <meta content="a37bfae7-d09f-4c59-af10-ef2002d79e27" name="jcr:uuid" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="92435d8b-7276-4b15-aa45-107424a2d784" name="jcr:predecessors" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="2017-10-31T16:25:28.527-0400" name="firstPublishExternalDate" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="carlino" name="cq:lastReplicatedBy" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+ </head> 
+ <body> 
+  <p>The <a href="../../../sites/deploying/using/configuring-osgi.md">OSGi service</a> <strong>Day CQ WCM Undo Configuration</strong> (<span class="code">com.day.cq.wcm.undo.UndoConfigService</span>) exposes several properties that control the behavior of the undo and redo commands for editing pages.</p> 
+  <h2>Default Configuration</h2> 
+  <p>In a standard installation the default settings are defined as properties on the <span class="code">sling:OsgiConfig </span>node:</p> 
+  <p style="margin-left: 40px;"><span class="code">/libs/wcm/core/config.author/com.day.cq.wcm.undo.UndoConfig</span></p> 
+  <p>This node contains <span class="code">cq.wcm.undo.whitelist</span> and <span class="code">cq.wcm.undo.blacklist</span> properties, for the other properties the defaults are taken.</p> 
+  <note> 
+   <p>You <i><strong>must</strong></i> not change anything in the <span class="code">/libs</span> path.</p> 
+   <p>This is because the content of <span class="code">/libs</span> is overwritten the next time you upgrade your instance (and may well be overwritten when you apply either a hotfix or feature pack).</p> 
+  </note> 
+  <h2>Configuring Undo and Redo</h2> 
+  <p>You can configure these OSGi service properties for your own instance.</p> 
+  <note> 
+   <p>When working with AEM there are several methods of managing the configuration settings for such services; see <a href="../../../sites/deploying/using/configuring-osgi.md">Configuring OSGi</a> for more details and the recommended practices.</p> 
+  </note> 
+  <p>The following lists the properties<strong> </strong>as displayed in the Web console, followed by the name of the corresponding OSGi parameter, together with a description and the default value (where appropriate):</p> 
+  <ul> 
+   <li><p><strong>Enable</strong><br /> (<span class="code">cq.wcm.undo.enabled</span>)<br /> </p> 
+    <ul> 
+     <li><strong>Description</strong>: Determines whether page authors can undo and redo changes.</li> 
+     <li><strong>Default</strong>: <span class="code">Selected</span></li> 
+     <li><strong>Type</strong>: <span class="code">Boolean</span></li> 
+    </ul> </li> 
+   <li><p><strong>Path</strong><br /> (<span class="code">cq.wcm.undo.path</span>)<br /> </p> 
+    <ul> 
+     <li><strong>Description</strong>: The repository path for persisting binary undo data. When authors change binary data such as images, the original version of the data is persisted here. When changes to binary data is undone, this binary undo data is restored to the page.</li> 
+     <li><strong>Default</strong>: <span class="code">/var/undo</span></li> 
+     <li><strong>Type</strong>: <span class="code">String</span></li> 
+    </ul> 
+    <note> 
+     <p>By default, only administrators can access the <span class="code">/var/undo</span> node. Authors can perform undo and redo operations on binary content only after they are given permissions to access the binary undo data.</p> 
+    </note></li> 
+   <li><p><strong>Min. validity</strong><br /> (<span class="code">cq.wcm.undo.validity</span>)<br /> </p> 
+    <ul> 
+     <li><strong>Description</strong>: The minimum amount of time that binary undo data is stored, in hours. After this time period, the binary data is available for deletion, to conserve disk space.<br /> </li> 
+     <li><strong>Default</strong>: <span class="code">10</span></li> 
+     <li><strong>Type</strong>: <span class="code">Integer</span></li> 
+    </ul> </li> 
+   <li><p><strong>Steps</strong><br /> (<span class="code">cq.wcm.undo.steps</span>)<br /> </p> 
+    <ul> 
+     <li><strong>Description</strong>: The maximum number of page actions that are stored in the undo history.</li> 
+     <li><strong>Default</strong>: <span class="code">20</span></li> 
+     <li><strong>Type</strong>: <span class="code">Integer</span></li> 
+    </ul> </li> 
+   <li><p><strong>Persistence</strong><br /> (<span class="code">cq.wcm.undo.persistence</span>)<br /> </p> 
+    <ul> 
+     <li><strong>Description</strong>: The class that persists undo history. Two persistence classes are provided: 
+      <ul> 
+       <li><span class="code">CQ.undo.persistence.WindowNamePersistence</span>: Persists history using the window.name property.</li> 
+       <li><span class="code">CQ.undo.persistence.CookiePersistance</span>: Persists history using cookies.<br /> </li> 
+      </ul> </li> 
+     <li><strong>Default</strong>: <span class="code">CQ.undo.persistence.WindowNamePersistence</span></li> 
+     <li><strong>Type</strong>: <span class="code">String</span></li> 
+    </ul> </li> 
+   <li><p><strong>Persistence mode</strong><br /> (<span class="code">cq.wcm.undo.persistence.mode</span>)<br /> </p> 
+    <ul> 
+     <li><strong>Description</strong>: Determines when undo history is persisted. Select this option to persist undo history after each page edit. Clear this option to persist only when a page reload occurs (for example, the user navigates to a different page).<br /> <br /> Persisting undo history uses web browser resources. If your users' browser reacts slowly to page edits, try persisting the undo history on page reloads.</li> 
+     <li><strong>Default</strong>: <span class="code">Selected</span></li> 
+     <li><strong>Type</strong>: <span class="code">Boolean</span></li> 
+    </ul> </li> 
+   <li><p><strong>Marker mode</strong><br /> (<span class="code">cq.wcm.undo.markermode</span>)<br /> </p> 
+    <ul> 
+     <li><strong>Description</strong>: Specifies the visual cue to use for indicating which paragraphs are affected when an undo or redo occurs. The following values are valid: 
+      <ul> 
+       <li>flash: The selection indicator of the paragraphs flash temporarily.</li> 
+       <li>select: The paragraph is selected.</li> 
+      </ul> </li> 
+     <li><strong>Default</strong>: <span class="code">flash</span></li> 
+     <li><strong>Type</strong>: <span class="code">String</span></li> 
+    </ul> </li> 
+   <li><p><strong>Good components</strong><br /> (<span class="code">cq.wcm.undo.whitelist</span>)</p> 
+    <ul> 
+     <li><strong>Description</strong>: A list of components that you want to be affected by undo and redo commands. Add component paths to this list when they function correctly with undo/redo. Append an asterisk (*) to specify a group of components: 
+      <ul> 
+       <li>The following value specifies the foundation text component:<br /> <span class="code">foundation/components/text</span></li> 
+       <li>The following value specifies all foundation components:<br /> <span class="code">foundation/components/*</span></li> 
+      </ul> </li> 
+     <p>When undo or redo is issued to a component that is not in this list, a message appears that indicates that the command can be unreliable.</p> 
+    </ul> 
+    <ul> 
+     <li><strong>Default</strong>: The property is populated with many components that AEM provides.</li> 
+     <li><strong>Type</strong>: <span class="code">String[]</span></li> 
+    </ul> </li> 
+   <li><p><strong>Bad components</strong><br /> (<span class="code">cq.wcm.undo.blacklist</span>)<br /> </p> 
+    <ul> 
+     <li><strong>Description</strong>: A list of components and/or component operations that you do not want to be affected by the undo command. Add components and component operations that do not behave correctly with the undo command:<br /> 
+      <ul> 
+       <li>Add a component path when you want none of the component's operations in the undo history, for example <span class="code">collab/forum/components/post</span></li> 
+       <li>Append a colon (:) and an operation to the path when you want that specific operation to be omitted from the undo history (other operations function correctly), for example <span class="code">collab/forum/components/post:insertParagraph.</span></li> 
+      </ul> </li> 
+    </ul> 
+    <note> 
+     <p>When an operation is on this list, it is still added to the undo history. Users cannot undo operations that exist earlier than a <strong>Bad Component</strong> operation in the undo history.</p> 
+    </note> 
+    <ul> 
+     <li>Typical operation names are as follows: 
+      <ul> 
+       <li><span class="code">insertParagraph</span>: The component is added to the page.</li> 
+       <li><span class="code">removeParagraph</span>: The component is deleted.</li> 
+       <li><span class="code">moveParagraph</span>: The paragraph is moved to a different location.</li> 
+       <li><span class="code">updateParagraph</span>: The paragraph properties are changed.</li> 
+      </ul> </li> 
+     <li><strong>Default</strong>: The property is populated with several component operations.</li> 
+     <li><strong>Type</strong>: <span class="code">String[]</span></li> 
+    </ul> </li> 
+  </ul> 
+ </body> 
+</html>

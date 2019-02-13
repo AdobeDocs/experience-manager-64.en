@@ -1,0 +1,78 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?> 
+<html> 
+ <head> 
+  <meta content="27e0ff29-1f3b-4b7f-b6b5-489317a40e24" name="jcr:uuid" /> 
+  <meta content="2017-12-01T19:03:45.250-0500" name="jcr:created" /> 
+  <meta content="Developing and Page Diff" name="jcr:title" /> 
+  <meta content="2017-10-31T16:16:22.094-0400" name="lastPublishExternalDate" /> 
+  <meta content="2017-10-31T16:16:22.094-0400" name="firstPublishExternalDate" /> 
+  <meta content="bohnert" name="cq:lastModifiedBy" /> 
+  <meta content="8e018f9a-1064-47ee-8769-1beb04635e8c" name="jcr:predecessors" /> 
+  <meta content="https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/pagediff.html" name="publishExternalURL" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="qaDate" /> 
+  <meta content="Activate" name="cq:lastReplicationAction" /> 
+  <meta content="/etc/designs/help" name="cq:designPath" /> 
+  <meta content="true" name="jcr:isCheckedOut" /> 
+  <meta content="jsyal" name="cq:lastReplicatedBy" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES" name="primaryProductTag" /> 
+  <meta content="false" name="isReadyForLocalization" /> 
+  <meta content="2017-10-31T16:16:22.094-0400" name="publishExternalDate" /> 
+  <meta content="2018-08-23T02:57:04.542-0400" name="cq:lastModified" /> 
+  <meta content="" name="jcr:primaryType" /> 
+  <meta content="audience:developing" name="primaryAudienceTag" /> 
+  <meta content="" name="jcr:versionHistory" /> 
+  <meta content="Developing and Page Diff" name="seoTitle" /> 
+  <meta content="wmyersta@adobe.com" name="lr_lastReplicatedBy" /> 
+  <meta content="2017-10-31T16:16:22.094-0400" name="topicBrowsingSortDate" /> 
+  <meta content="/content/help/en/experience-manager/6-4/sites/developing/morehelp/introduction;/content/help/en/experience-manager/6-4/sites/developing/morehelp/introduction" name="moreHelpPaths" /> 
+  <meta content="2018-10-27T23:47:38.443-0400" name="cq:lastReplicated" /> 
+  <meta content="en_us" name="jcr:language" /> 
+  <meta content="/apps/help/templates/article-3" name="cq:template" /> 
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/SITES;topic_tags:introduction;content_type:reference" name="cq:tags" /> 
+  <meta content="" name="jcr:baseVersion" /> 
+  <meta content="mix:versionable" name="jcr:mixinTypes" /> 
+  <meta content="admin" name="jcr:createdBy" /> 
+  <meta content="2018-05-08T12:44:34.748-0400" name="locHandOffDate" /> 
+  <meta content="/content/docs/en/aem/6-3/develop/the-basics/pagediff" name="qaNotes" /> 
+  <meta content="2017-10-12T21:46:58.665-0400" name="mwpw_migration_script_version" /> 
+  <meta content="User" name="contentOwner" /> 
+  <meta content="help/components/pages/article-3" name="sling:resourceType" /> 
+ </head> 
+ <body> 
+  <h2>Feature Overview</h2> 
+  <p>Content creation is an iterative process. Authoring with efficiency requires being able to see what has changed from one iteration to another. Viewing one page version and then the other is inefficient and prone to error. An author wants to be able to compare the current page to a previous version side-by-side with the differences highlighted.</p> 
+  <p>The page diff allows a user to compare the current page to launches, previous versions, etc. For details of this user feature, see <a href="../../../sites/authoring/using/page-diff.md">Page Diff</a>.</p> 
+  <h2>Operation Details</h2> 
+  <p>When comparing versions of a page, the previous version(s) that the user wishes to compare is/are recreated by AEM in the background in order to facilitate the diff. This is needed to be able to render the content for side-by-side comparison.</p> 
+  <p>When content is compared, the whole tree up to the page to compare is recreated in the following location:</p> 
+  <p style="margin-left: 40px;"><span class="code">/content/versionhistory/&amp;lt;userId&amp;gt;/&amp;lt;site structure&amp;gt;</span></p> 
+  <p>This recreation operation is done by AEM internally and is transparent to the user and requires no intervention. However an administrator viewing the repository for example in CRX DE Lite would see these recreated versions within the content structure.</p> 
+  <h2>Permissions</h2> 
+  <p>Because when using the page diff mechanism, <a href="../../../sites/developing/using/pagediff.md#main-pars-header">AEM recreates the previous version of the page,</a> in order to use the feature the user must have certain JCR permissions.</p> 
+  <note> 
+   <p>In order to use the page diff feature, the user needs to have the<strong> Modify/Create/Delete</strong> permission on the node <span class="code">/content/versionhistory</span>. <br /> </p> 
+  </note> 
+  <h2>Developer Limitations</h2> 
+  <p>Previously, in Classic UI, special development consideration had to be made to facilitate AEM diffing (such as using <span class="code">cq:text</span> tag lib, or custom integrating the <span class="code">DiffService</span> OSGi service into components). This is no longer needed for the new diff feature, since the diff occurs client-side via DOM comparison.</p> 
+  <p>However there are a number of limitations that need to be considered by the developer.</p> 
+  <ul> 
+   <li>This feature uses CSS classes that are not name spaced to the AEM Product. If other custom CSS classes or 3rd party CSS classes with the same names are included on the page, the display of the diff may be affected. 
+    <ul> 
+     <li><span class="code">html-added</span></li> 
+     <li><span class="code">html-removed</span></li> 
+     <li><span class="code">cq-component-added</span></li> 
+     <li><span class="code">cq-component-removed</span></li> 
+     <li><span class="code">cq-component-moved</span></li> 
+     <li><span class="code">cq-component-changed</span></li> 
+    </ul> </li> 
+  </ul> 
+  <ul> 
+   <li>Because the diff is client-side and executes on page load, any adjustments to the DOM after the client-side diff service has run will not be accounted for. This may affect 
+    <ul> 
+     <li>Components that use AJAX to inlcude content</li> 
+     <li>Single Page Applications</li> 
+     <li>Javascript based components that manipulate the DOM upon user interaction.</li> 
+    </ul> </li> 
+  </ul> 
+ </body> 
+</html>

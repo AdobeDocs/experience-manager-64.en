@@ -1,0 +1,102 @@
+<?xml version="1.1" encoding="UTF-8" standalone="yes"?>
+<html>
+ <head>
+  <meta content="not_checked" name="acrolinxStatus" />
+  <meta content="carlino" name="cq:lastReplicatedBy" />
+  <meta content="true" name="jcr:isCheckedOut" />
+  <meta content="1178" name="acrolinxWords" />
+  <meta content="2018-04-03T07:59:51.907-0400" name="topicBrowsingSortDate" />
+  <meta content="/content/help/en/experience-manager/6-4/forms/morehelp/publish;/content/help/en/experience-manager/6-4/forms/morehelp/publish" name="moreHelpPaths" />
+  <meta content="Activate" name="cq:lastReplicationAction" />
+  <meta content="help/components/pages/article-3" name="sling:resourceType" />
+  <meta content="68" name="acrolinxSentences" />
+  <meta content="content_type:reference;products:SG_EXPERIENCEMANAGER/6.4/FORMS;topic_tags:publish" name="cq:tags" />
+  <meta content="light" name="heroGradient" />
+  <meta content="Accessing published forms on portal" name="navTitle" />
+  <meta content="video" name="pageLayout" />
+  <meta content="2018-04-03T07:59:51.907-0400" name="lastPublishExternalDate" />
+  <meta content="mix:versionable" name="jcr:mixinTypes" />
+  <meta content="db608f29-f78a-4afb-b96f-efef745663f8" name="jcr:predecessors" />
+  <meta content="carlino" name="cq:lastModifiedBy" />
+  <meta content="" name="jcr:baseVersion" />
+  <meta content="" name="jcr:versionHistory" />
+  <meta content="false" name="doNotLocalize" />
+  <meta content="carlino@adobe.com" name="lr_lastReplicatedBy" />
+  <meta content="Forms Portal equips Web Developers with components to create and customize a forms portal on websites authored using Adobe Experience Manager (AEM)." name="seoDescription" />
+  <meta content="https://helpx.adobe.com/experience-manager/6-4/forms/using/accessing-filling-published-forms.html" name="publishExternalURL" />
+  <meta content="http://checkstyle.corp.adobe.com:8031/output/en/accessing_filling_published_forms_admin_5e12de0b318c6865_1942_report.xml" name="acrolinxReportURL" />
+  <meta content="admin" name="jcr:createdBy" />
+  <meta content="left" name="sideColumn" />
+  <meta content="2018-04-26T04:26:11.087-0400" name="locHandOffDate" />
+  <meta content="2018-04-03T07:59:53.356-0400" name="cq:lastReplicated" />
+  <meta content="/apps/help/templates/article-3" name="cq:template" />
+  <meta content="2018-04-03T07:59:51.907-0400" name="publishExternalDate" />
+  <meta content="products:SG_EXPERIENCEMANAGER/6.4/FORMS" name="primaryProductTag" />
+  <meta content="2017-12-01T19:03:17.217-0500" name="jcr:created" />
+  <meta content="2016-04-20T09:36:40.419-0400" name="firstPublishExternalDate" />
+  <meta content="2015-06-12T04:24:37.351-0400" name="lastPublishQADate" />
+  <meta content="/etc/designs/help" name="cq:designPath" />
+  <meta content="Accessing and filling published forms" name="jcr:title" />
+  <meta content="" name="jcr:primaryType" />
+  <meta content="en_us" name="jcr:language" />
+  <meta content="2016-05-31T06:30:18.905-0400" name="acrolinxDate" />
+  <meta content="false" name="isReadyForLocalization" />
+  <meta content="vishgupt" name="acrolinxLastCheckedBy" />
+  <meta content="2018-04-26T04:26:11.088-0400" name="cq:lastModified" />
+  <meta content="feb4cb99-fe78-4802-bebf-f94582dc2325" name="jcr:uuid" />
+  <meta content="red" name="acrolinxPageStatus" />
+ </head>
+ <body>
+  <p>In a forms-centric portal deployment setup, forms development and portal development are two distinct activities. While form designers design and store forms in a repository, Web Developers create a web application to that list forms and handle submissions. Forms are then copied over to the web tier as there is no communication between the forms repository and the web application.</p> 
+  <p>This often results in issues with managing the setup and production delays. For example, if a newer version of a form is available in the repository, the form designer, replaces the form on the web tier, modifies the web application, and redeploys the form on the public site. Redeploying the web application can cause some server downtime. Since the server downtime is a planned activity, the changes cannot be pushed to the public site immediately.</p> 
+  <p>Forms Portal reduces management overheads and production delays. It equips Web Developers with components to create and customize a forms portal on websites authored using Adobe Experience Manager (AEM).</p> 
+  <p>For more information about forms portal and its features, see <a href="../../forms/using/introduction-publishing-forms.md" target="_blank">Introduction to publishing forms on a portal</a>.<br /> </p> 
+  <h2>Getting started with forms portal</h2>
+  <p>Navigate to the published forms portal page. For more information about creating a forms portal page, see <a href="../../forms/using/creating-form-portal-page.md" target="_blank">Creating a forms portal page</a>. </p> 
+  <p>The Search and Lister component of roms portal displays the forms available on the Publish instance of the AEM server. This list includes all forms or the forms defined in the filter at the time of authoring the forms portal page. A forms portal page looks similar to as shown in the following image:</p> 
+  <img alt="A sample forms portal page " captionBottom="A sample forms portal page " imageRotate="0" src="assets/forms-portal-page.png" title="A sample forms portal page " />
+  <h3>Search and Lister</h3>
+  <p>The Search and Lister component allow you to add the following functionality to your forms portal:</p> 
+  <ul> 
+   <li>List forms in panel, card, or grid view that are available out of the box. It also supports custom templatesList forms from specific folders in Forms Manager.</li> 
+   <li>Specify how forms are rendered - HTML5, PDF, or both.</li> 
+   <li>Specify how PDF and XFA-forms are rendered - HTML5, PDF, or both. Non-XFA forms as HTML5.<br /> </li> 
+   <li>Enable searching of forms based on criteria, such as form properties, metadata, and tags.</li> 
+   <li>Submit form data to a servlet.</li> 
+   <li>Use custom style sheets (CSS) to customize the look and feel of the portal.<br /> </li> 
+   <li>Create links to forms.</li> 
+  </ul> 
+  <p>You can search for forms in the Forms Portal page by using the following options:</p> 
+  <ul> 
+   <li>Full Text Search</li> 
+   <li>Advanced Search</li> 
+  </ul> 
+  <p>Full text search allows you to find and list forms based on the specified keywords.</p> 
+  <img alt="An advanced search dialog" captionBottom="An advanced search dialog" imageRotate="0" src="assets/search-panel.png" title="An advanced search dialog" />
+  <p>Advance Search allows you to search forms based on specified form properties. This provides a more specific results than full-text search. Advance search includes search based on tags, properties (such as Author, Description, and Title), modification date, and full text. </p> 
+  <p>Lister displays forms based on the search parameters. Each form in the search result is displayed with an icon, which is hyperlinked to the associated form. You can click the icon to open and work with the associated form.</p> 
+  <h3>Filling a form</h3>
+  <img alt="A sample adaptive form" captionBottom="A sample adaptive form" imageRotate="0" src="assets/filling_a_form.png" title="A sample adaptive form" />
+  <p>The forms can be accessed from the link provided along with the form in the Search and Lister component of the page.</p> 
+  <p>Each form contains help information that enables a user to fill the form.</p> 
+  <h4>Drafts and Submission</h4>
+  <p>A user has the option to save a draft of a form by clicking the Save button. This allows the user to work on a form over a period of time before submitting the form.</p> 
+  <p>The data filled in the form (including attachments) is saved as a draft on the server. The draft of a form can be saved any number of times. The saved form appears in the Drafts tab of Draft &amp; Submission component of the page. </p> 
+  <p>On completion of form filling, the user submits the forms by clicking the Submit button on the form. The submitted forms appear in the Submissions tab of the Draft &amp; Submission component of the Page.</p> 
+  <note>
+   <p>Submitted forms appear in the Submitted Forms tab only if the submit action for the adaptive form is configured as Forms Portal Submit Action. For more information about submit actions, see <a href="../../forms/using/configuring-submit-actions.md" target="_blank">Configuring the Submit action</a>.</p> 
+  </note>
+  <img alt="Drafts &amp; submissions component" captionBottom="Drafts &amp; submissions component" imageRotate="0" src="assets/draft-submission.png" title="Drafts &amp; submissions component" />
+  <h2>Start a new form using submitted form data</h2>
+  <p>There are certain forms that you need to fill and submit quite often. For example, the form for filing individual tax return is submitted every year. In such cases, while some bit of the information changes every time you fill the form, most of it like the personal and family details do not change. However, you are still required to fill the entire form again, from scratch.</p> 
+  <p>AEM Forms can help optimize the form filling experience and significantly reduce the time to fill and submit a form again. End-users can start a new form using data from a submitted form. This functionality is built-in in the <a href="../../forms/using/draft-submission-component.md" target="_blank">Drafts and Submissions component</a>. When you add Drafts and Submission component to your forms portal page and publish it, end-users will find an option in Submitted Forms and Draft Forms tabs to start a new form using data from a submitted form. The following image highlights that option.</p> 
+  <img imageRotate="0" src="assets/start-a-new-form.png" />
+  <p>When you click the button to initiate a new form, it opens a new form with data from the corresponding submitted form. You can now review and update the information, as required, and submit the form.</p> 
+  <related-links>
+   <a href="../../forms/using/introduction-publishing-forms.md">Introduction to publishing forms on a portal</a>
+   <a href="../../forms/using/enabling-forms-portal-components.md">Enabling forms portal components</a>
+   <a href="../../forms/using/creating-form-portal-page.md">Creating a forms portal page</a>
+   <a href="../../forms/using/listing-forms-webpage-using-apis.md">Listing forms on a web page using APIs</a>
+  </related-links>
+ </body>
+</html>
