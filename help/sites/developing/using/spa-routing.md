@@ -1,0 +1,72 @@
+---
+title: SPA Model Routing
+seo-title: SPA Model Routing
+description: For single page applications in AEM, the app is responsible for the routing. This document describes the routing mechanism, the contract, and options available.
+seo-description: For single page applications in AEM, the app is responsible for the routing. This document describes the routing mechanism, the contract, and options available.
+uuid: 8b3959b0-7cad-4c53-a42f-f0705e2446ea
+contentOwner: bohnert
+products: SG_EXPERIENCEMANAGER/6.4/SITES
+topic-tags: spa
+content-type: reference
+discoiquuid: 498ac8d4-484a-4f42-8188-f1dcbfde86f6
+index: y
+internal: n
+snippet: y
+---
+
+# SPA Model Routing{#spa-model-routing}
+
+For single page applications in AEM, the app is responsible for the routing. This document describes the routing mechanism, the contract, and options available.
+
+## Project Routing {#project-routing}
+
+The App owns the routing and is then implemented by the project front end developers. This document describes the routing specific to the model returned by the AEM server. The page model data structure exposes the URL of the underlying resource. The front end project can use any custom or third-party library providing routing functionalities. Once a route expects a fragment of model, a call to the `PageModelManager.getData()` function can be made. When a model route has changed an event must be triggered to warn listening libraries such as the Page Editor.
+
+## Architecture {#architecture}
+
+For a detailed description, please refer to the [PageModelManager](../../../sites/developing/using/spa-blueprint.md#main-pars-header-249430796) section of the SPA Blueprint document.
+
+## ModelRouter {#modelrouter}
+
+The `ModelRouter` - when enabled - encapsulates the HTML5 History API functions `pushState` and `replaceState` to guarantee a given fragment of model is pre-fetched and accessible. It then notifies the registered front end component that the model has been modified.
+
+## Manual vs Automatic Model Routing {#manual-vs-automatic-model-routing}
+
+The `ModelRouter` automates the fetching of fragments of the model. But as any automated tooling it comes with limitations. When needed the `ModelRouter` can be disabled or configured to ignore paths using meta properties (See the Meta Properties section of the [SPA Page Component](../../../sites/developing/using/spa-page-component.md) document). Front end developers can then implement their own model routing layer by requesting the `PageModelManager` to load any given fragment of model using the `getData()` function.
+
+>[!NOTE]
+>
+>Currently the We.Retail Journal sample React project illustrates the automated approach while the Angular project illustrates the manual one. A semi-automated approach would also be valid use-case.
+
+>[!CAUTION]
+>
+>The current version of the `ModelRouter` only support the use of URLs that points to the actual resource path of Sling Model entry points. It doesn't support the use of Vanity URLs or aliases.
+
+## Routing Contract {#routing-contract}
+
+The current implementation is based on the assumption that the SPA project uses the HTML5 History API for routing to the different application pages.
+
+### Configuration {#configuration}
+
+The `ModelRouter` supports the concept of model routing as it listens for `pushState` and `replaceState` calls to prefetch model fragments. Internally it triggers the `PageModelManager` to load the model that corresponds to a given URL and fires a `cq-pagemodel-route-changed` event that other modules can listen to.
+
+By default, this behavior is automatically enabled. To disable it, the SPA should render the following meta property:
+
+```
+<meta property="cq:pagemodel_router" content="disable"\>
+```
+
+Note that every route of the SPA should correspond to an accessible resource in AEM (e.g., " `/content/mysite/mypage"`) since the `PageModelManager` will automatically try to load the corresponding page model once the route is selected. Though, if needed, the SPA can also define a "black list" of routes that should be ignored by the `PageModelManager`:
+
+```
+<meta property="cq:pagemodel_route_filters" content="route/not/found,^(.*)(?:exclude/path)(.*)"/>
+```
+
+>[!MORE_LIKE_THIS]
+>
+>* [Using the SPA Editor framework with AEM Sites](/content/help/en/experience-manager/kt/sites/using/spa-editor-framework-feature-video-use)
+>* [Overview of Single Page Applications (SPA)](/content/help/en/experience-manager/kt/sites/using/spa-overview-feature-video)
+>* [Getting Started with the AEM SPA Editor - Hello World Tutorial](/content/help/en/experience-manager/kt/sites/using/spa-editor-helloworld-tutorial-use)
+>* [Understanding SPA components in AEM SPA Editor](/content/help/en/experience-manager/kt/sites/using/spa-editor-components-technical-video-understand)
+>* [do not publish](/content/help/en/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop/react/chapter-0-project-setup)
+>* [Template DO NOT PUBLISH](/content/help/en/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop/react/template)
