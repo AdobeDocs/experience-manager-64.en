@@ -152,3 +152,7 @@ user-guide: null
 + [Reviews Essentials](communities/using/reviews-basics.md)
 + [Using Ratings](communities/using/rating.md)
 + [Rich Text Editor Essentials](communities/using/rte.md)
++ [Deploying Communities](communities/wip/deploy-communities.md)
++ [AEM Communities](communities/wip/communities-release-notes.md)
++ [Moderation Console](communities/wip/moderation.md)
++ [Blog Feature](communities/wip/blog-feature.md)
