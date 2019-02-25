@@ -64,7 +64,7 @@ When the form is published, the app syncs with the server and fetches the form. 
 
 ## Mobile device support {#mobile-device-support}
 
-See [AEM Forms app (previously known as Mobile Workspace)](../../forms/using/AEM-forms-JEE-supported-platforms.md#aem-forms-workspace-app)
+See [AEM Forms app (previously known as Mobile Workspace)](../../forms/using/aem-forms-jee-supported-platforms.md#aem-forms-workspace-app)
 
 ## Key features of AEM Forms app {#key-features-of-aem-forms-app}
 
