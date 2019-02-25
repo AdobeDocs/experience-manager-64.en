@@ -36,19 +36,17 @@ In CRXDE Lite in AEM (**Tools **&gt; **General **&gt; **CRXDE Lite**), access th
 
 | Path |Description |
 |---|---|
-| /libs/settings/dam/v3D/assetTypes/&#42;/Conversion |Specifies the file type for the intermediate 3D format created during ingestion. Must be empty for 'fbx' and 'obj' file formats or 'fbx' for formats enabled by Maya. |
-| /libs/settings/dam/v3D/assetTypes/&#42;/Enabled |Set to true or false to enable or disable this entry in the **assetTypes** list. |
-| /libs/settings/dam/v3D/assetTypes/&#42;/Extension |Specify one or more comma-separated file suffixes or file extensions which are to be associated with this asset type. |
-| /libs/settings/dam/v3D/assetTypes/&#42;/IngestRegime |Must be ' `native`' for FBX and OBJ file formats and ' `maya`' for formats enabled by Maya. |
-| /libs/settings/dam/v3D/assetTypes/&#42;/MimeType |Specifies the mime type for this asset type. For formats enabled by Maya it is recommended to use 'application/x-ext', where ext is the string specified as the `Extension` value. |
+| /libs/settings/dam/v3D/assetTypes/*/Conversion |Specifies the file type for the intermediate 3D format created during ingestion. Must be empty for 'fbx' and 'obj' file formats or 'fbx' for formats enabled by Maya. |
+| /libs/settings/dam/v3D/assetTypes/*/Enabled |Set to true or false to enable or disable this entry in the **assetTypes** list. |
+| /libs/settings/dam/v3D/assetTypes/*/Extension |Specify one or more comma-separated file suffixes or file extensions which are to be associated with this asset type. |
+| /libs/settings/dam/v3D/assetTypes/*/IngestRegime |Must be ' `native`' for FBX and OBJ file formats and ' `maya`' for formats enabled by Maya. |
+| /libs/settings/dam/v3D/assetTypes/*/MimeType |Specifies the mime type for this asset type. For formats enabled by Maya it is recommended to use 'application/x-ext', where ext is the string specified as the `Extension` value. |
 
 ## Ingestion Configuration {#ingestion-configuration}
 
 In CRXDE Lite in AEM (**Tools **&gt; **General **&gt; **CRXDE Lite**), access the following configurations:
 
-##
-
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table cellpadding="1" cellspacing="0" width="100%"> 
  <tbody> 
   <tr> 
    <td><strong>Path</strong></td> 
@@ -87,8 +85,7 @@ In CRXDE Lite in AEM (**Tools **&gt; **General **&gt; **CRXDE Lite**), access th
 
 ## Cloud Services Configuration Settings {#cloud-services-configuration-settings}
 
-Values for the following settings are provided by your Adobe account manager, provisioning expert, or support representative.**** 
-****
+Values for the following settings are provided by your Adobe account manager, provisioning expert, or support representative.
 
 | **Path** |**Description** |
 |---|---|
@@ -117,9 +114,9 @@ In CRXDE Lite in AEM (**Tools **&gt; **General **&gt; **CRXDE Lite**), access th
 | **Path** |**Description** |
 |---|---|
 | /libs/settings/dam/v3D/settings/dynamicIBL |When set to **true** and pre-generated light maps are not available (that is invokeLightMapsOnIngest=false), the Rapid Refine renderer creates light maps during rendering to improve render quality. This setting can substantially increase render time. Setting to **false** minimizes CPU usage in such situations but may result in a lower render quality.  |
-| /libs/settings/dam/v3D/renderers/&#42;/Enabled |Set to **true** or **false** to enable or disable a renderer, respectively. |
-| /libs/settings/dam/v3D/renderers/&#42;/Display |Lets you change the string that is displayed for an enabled renderer in the Renderer selector in the Render panel. |
-| /libs/settings/dam/v3D/renderers/&#42;/MaxCpuPercentage |Specifies how many CPUs are used at most for rendering 3D scenes. Higher values speed up rendering but may cause AEM to become less-responsive overall. This setting is approximate. That is, accuracy increases with the number of available CPU cores. |
+| /libs/settings/dam/v3D/renderers/*/Enabled |Set to **true** or **false** to enable or disable a renderer, respectively. |
+| /libs/settings/dam/v3D/renderers/*/Display |Lets you change the string that is displayed for an enabled renderer in the Renderer selector in the Render panel. |
+| /libs/settings/dam/v3D/renderers/*/MaxCpuPercentage |Specifies how many CPUs are used at most for rendering 3D scenes. Higher values speed up rendering but may cause AEM to become less-responsive overall. This setting is approximate. That is, accuracy increases with the number of available CPU cores. |
 
 ## 3D Asset Preview Settings {#d-asset-preview-settings}
 

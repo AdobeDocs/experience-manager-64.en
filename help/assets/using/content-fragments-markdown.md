@@ -36,31 +36,33 @@ You can define:
 * [Code Blocks](#codeblocks)
 * [Backslash Escapes](#backslashescapes)
 
-### Heading Notation {#heading-notation}
+## Heading Notation {#heading-notation}
 
 To create a header by placing a hash tag (#) in front of the heading. One hash tag (#) is used for an H1, two hash tags (##) for a H2 etc. You can use up to 6 hash tags. For example:
 
-*#This is an H1*
+*# This is an H1*
 
-*##This is an H2*
+*## This is an H2*
 
 *###### This is a H6*
 
 Optionally, you can create a H1 by underlining the text in equal signs and create a H2 by underlining the text in minus signs. For example:
 
-*This is an H1  
-==========*
+```markdown
+* This is an H1  
+==============*
 
-*This is an H2  
+* This is an H2  
 --------------*
+```
 
-### Paragraphs and Line Breaks {#paragraphs-and-line-breaks}
+## Paragraphs and Line Breaks {#paragraphs-and-line-breaks}
 
 A paragraph is simply one or more consecutive lines of text, separated by one or more blank lines. A blank line is a line containing nothing but spaces or tabs. Normal paragraphs should not be indented with spaces or tabs.
 
 A line break is created by ending a line with two or more spaces then a return.
 
-### Links {#links}
+## Links {#links}
 
 You can create inline and reference links.
 
@@ -68,20 +70,24 @@ In both styles, the link text is delimited by square brackets [].
 
 These are examples of inline links:
 
+```
 *This is [an example](http://example.com/ "Title") inline link.*
 
 *This is [an example of an email link](emailto:myaddress@mydomain.info)*
 
 * [This link](http://example.net/) has no title attribute.*
+```
 
 A reference link has the following syntax:
 
+```
 * Hey you should [checkout][0] this [cool thing][wiki] that I [made][].   
   
 [0]: http://www.google.ca  
 [wiki]: http://www.wikipedia.org  
 [made]: http://www.stackoverflow.com  
 *
+```
 
 ### Images {#images}
 
@@ -89,13 +95,15 @@ The syntax for images is similar to the links. You can create inline and referen
 
 For example, an inline image has the following syntax:
 
+```
 *![Alt text](/path/to/img.jpg)  
   
 ![Alt text](/path/to/img.jpg "Optional title")*
+```
 
 The syntax includes:
 
-* An exclamation mark: !;
+* An exclamation mark: `!`;
 * followed by a set of square brackets, containing the alt attribute text for the image;
 * followed by a set of parentheses, containing the URL or path to the image, and an optional title attribute enclosed in double or single quotes.
 
@@ -123,39 +131,46 @@ You can have nested block quotes. For example:
 &gt;  
 &gt; Back to the first level.*
 
-### Lists {#lists}
+## Lists {#lists}
 
 You can create both ordered and unordered lists.
 
-To create an unordered list, use the &#42; symbol before the items in the list. For example*:*
+To create an unordered list, use the * symbol before the items in the list. For example:
 
-*&#42; item in list  
-&#42; item in list  
-&#42; item in list*
+```
+* item in list  
+* item in list  
+* item in list
+```
 
 To create an ordered list, add the numbers, followed by a period, before each item in the list. For example:
 
-*1. First item in list.  
+```
+1. First item in list.  
 2. Second item in list.  
-3. Third item in list.*
+3. Third item in list.
+```
 
-### Emphasis {#emphasis}
+## Emphasis {#emphasis}
 
 You can add italic or bold styling to your text.
 
 To can add italics as follows:
 
-*&#42;single asterisks&#42;*
+```
+*single asterisks*
 
-*_single underscores_*
+_single underscores_
+```
 
 Keyboard shortcut: Ctrl-I (Cmd-I)
 
 You can bold text as follows:
 
-*&#42;&#42;double asterisks&#42;&#42;*
-
-*__double underscores__*
+```
+**double asterisks**
+__double underscores__
+```
 
 Keyboard shortcut: Ctrl-B (Cmd-B)
 
@@ -163,42 +178,48 @@ To indicate a span of code, wrap it with backtick quotes (`). Unlike a pre-forma
 
 For example:
 
-*Use the `printf()` function.*
+```
+Use the `printf()` function.
+```
 
-### Code Blocks {#code-blocks}
+## Code Blocks {#code-blocks}
 
 Code blocks are typically used to illustrate source code. You can create code blocks by indenting the code using a tab or a minimum of 4 spaces. For example:
 
-*This is a normal paragragh.*
+```
+This is a normal paragragh.
 
-* This is a code block.*
+    This is a code block.
+```
 
-### Backslash escapes {#backslash-escapes}
+## Backslash escapes {#backslash-escapes}
 
 You can use backslash escapes to generate literal characters which have special meaning in formatting syntax. For example, if you wanted to surround a word with literal asterisks (instead of an HTML &lt;em&gt; tag), you can use backslashes before the asterisks, like this:
 
-\&#42;literal asterisks\&#42;
+```
+\*literal asterisks\*
+```
 
 Backslash escapes are available for the following characters:
 
-*\ backslash*
+`\` backslash
 
-*` backtick*
+\` backtick
 
-*&#42; asterisk*
+`*` asterisk
 
-*_ underscore*
+`_` underscore
 
-*{} curly braces*
+`{ }` curly braces
 
-*[] square brackets*
+`[ ]` square brackets
 
-*() parentheses*
+`( )` parentheses
 
-*# hash mark*
+`#` hash mark
 
-*+ plus sign*
+`+` plus sign
 
-*- minus sign (hyphen)*
+`-` minus sign (hyphen)
 
-*. dot*
+`.` dot

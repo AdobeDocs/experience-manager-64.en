@@ -34,7 +34,7 @@ In this example, a user has tapped or clicked an image map and accessed the quic
 
 ![](assets/chlimage_1-446.png) 
 
-### Watch how carousel banners are created {#watch-how-carousel-banners-are-created}
+## Watch how carousel banners are created {#watch-how-carousel-banners-are-created}
 
 Watch a 10 minute and 33 second walkthrough on [how carousel banners are created](http://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=http://s7d5.scene7.com/is/content/&emailurl=http://s7d5.scene7.com/s7/emailFriend&serverUrl=http://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video_social&contenturl=http://s7d5.scene7.com/skins/&asset=S7tutorials/InteractiveCarouselBanner). You will also learn how to preview, edit, and deliver carousel banners.
 
@@ -132,7 +132,7 @@ However, in complex cases, the quick view URL has different varying elements in 
 
 Consider the following examples of quick view URLs and their resulting hotspot or image map variables:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table cellpadding="1" cellspacing="0" width="100%"> 
  <tbody> 
   <tr> 
    <td>Single SKU, found in the query string.</td> 
@@ -216,18 +216,13 @@ To upload image banners, see [Uploading assets](../../assets/using/managing-asse
    >
    >For carousel banners, the following may be things you want to adjust:
    >
-   >    
-   >    
-   >    * Duration that an image displays. By default, each image displays for 9 seconds.
-   >    * Animation. By default, each slide transition is a fade. You can change that to a slide transition.
-   >    * Style of the buttons. Users can rotate through the banners by tapping each dot or number. You can change where the set indicator buttons appear (and if they are numeric or a dotted style) and how large they are.
-   >    * Change the highlight style of an image map or the icon used for hotspots.
-   >    * Before you edit a viewer preset, choose the style you want to base the preset off of. If you do not do this, when you start to edit the viewer preset, you will lose all of your changes if you decide change to a different preset
-   >    
-   >    
+   >  * Duration that an image displays. By default, each image displays for 9 seconds.
+   >  * Animation. By default, each slide transition is a fade. You can change that to a slide transition.
+   >  * Style of the buttons. Users can rotate through the banners by tapping each dot or number. You can change where the set indicator buttons appear (and if they are numeric or a dotted style) and how large they are.
+   >  * Change the highlight style of an image map or the icon used for hotspots.
+   >  * Before you edit a viewer preset, choose the style you want to base the preset off of. If you do not do this, when you start to edit the viewer preset, you will lose all of your changes if you decide change to a different preset
+   >
    >See [Special Considerations for Carousel Banners](../../assets/using/viewer-presets.md#specialconsiderationsforcreatingacarouselbannerviewerpreset) for detailed instructions and more information on the viewer editor.
-   >
-   >
 
    You can also preview what the carousel banner will look like. See [(Optional) Previewing Carousel Banners](#optionalpreviewingcarouselbanners).
 
@@ -250,7 +245,7 @@ See [(Optional) Previewing Carousel Banners.](#optionalpreviewingcarouselbanners
 >[!NOTE]
 >
 >When you add hotspots to an image in an [Interactive Image](../../assets/using/interactive-images.md) or a Carousel Banner, the hotspot information is stored in the same metadata location - relative to the image's location--regardless of whether it is an Interactive Image or a Carousel Banner. This functionality means that you can easily re-use the same image - along with its defined hotspot data - in either viewer.  
-  
+>
 >Be aware, however, that Carousel Banners support image maps on images that can also contain hotspots; an Interactive Image does not. Keep this in mind if you intend to create an Interactive Image or Carousel Banner that uses the same image. You may want to create Interactive Images and Carousel Banners using separate copies of the same image instead.
 
 >[!NOTE]
