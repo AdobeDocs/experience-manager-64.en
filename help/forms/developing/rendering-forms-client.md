@@ -10,9 +10,6 @@ geptopics: SG_AEMFORMS/categories/rendering_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: a3e075fe-6244-4809-8154-6e194399e994
-index: y
-internal: n
-snippet: y
 ---
 
 # Rendering Forms at the Client{#rendering-forms-at-the-client}

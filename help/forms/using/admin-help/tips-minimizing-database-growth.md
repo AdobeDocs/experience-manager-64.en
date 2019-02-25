@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/maintaining_the_aem_forms_database
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 784bbeb4-65af-440f-a9d3-1d1722f05402
-index: y
-internal: n
-snippet: y
 ---
 
 # Tips for minimizing database growth{#tips-for-minimizing-database-growth}

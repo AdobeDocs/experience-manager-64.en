@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
 discoiquuid: c2172f05-e7fd-4f14-9929-59189f785f8d
-index: y
-internal: n
-snippet: y
 ---
 
 # Campaign Management{#campaign-management}

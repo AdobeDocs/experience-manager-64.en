@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: c8f75b9f-4360-4fee-b259-a2cf07f67f5b
-index: y
-internal: n
-snippet: y
 ---
 
 # Performing Service Operations Using APIs{#performing-service-operations-using-apis}

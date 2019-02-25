@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: testing
 content-type: reference
 discoiquuid: 0023a24a-97fc-478f-8217-0c571a1f033b
-index: y
-internal: n
-snippet: y
 ---
 
 # The next release...{#the-next-release}

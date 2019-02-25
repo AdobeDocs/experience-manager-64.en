@@ -9,9 +9,6 @@ topic-tags: 3D
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
 discoiquuid: c816e6b2-e885-4cb7-8a16-e83a296710bf
-index: y
-internal: n
-snippet: y
 ---
 
 # Working with Adobe Dimension assets{#working-with-adobe-dimension-assets}

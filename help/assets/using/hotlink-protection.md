@@ -9,9 +9,6 @@ topic-tags: dynamic-media
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
 discoiquuid: a7916b0e-61ac-4a30-9192-0b74a7172c14
-index: y
-internal: n
-snippet: y
 ---
 
 # Activating hotlink protection in Dynamic Media{#activating-hotlink-protection-in-dynamic-media}

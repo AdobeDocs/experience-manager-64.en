@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
 discoiquuid: 32aed687-ca20-4750-9372-cd6642665edd
-index: y
-internal: n
-snippet: y
 ---
 
 # Trying out Editable Templates in We.Retail{#trying-out-editable-templates-in-we-retail}

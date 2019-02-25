@@ -7,9 +7,6 @@ page-status-flag: never-activated
 uuid: 53fc207b-b0bf-43d0-a841-14cca3cd3f17
 topic-tags: developer-reference
 discoiquuid: 7a2cb837-ed99-4fcc-8bfe-7d9a196dc1ec
-index: y
-internal: n
-snippet: y
 ---
 
 # [DO NOT PUBLISH] AEM Forms Error Code Reference (JEE Only){#do-not-publish-aem-forms-error-code-reference-jee-only}

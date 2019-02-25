@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
 discoiquuid: 407b22e9-12c5-400d-8215-038c7b84d8c9
-index: y
-internal: n
-snippet: y
 ---
 
 # Troubleshooting{#troubleshooting}

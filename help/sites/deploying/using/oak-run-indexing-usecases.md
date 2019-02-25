@@ -9,9 +9,6 @@ content-type: reference
 topic-tags: deploying
 discoiquuid: b7f81282-239b-4011-a972-32045a646d3e
 noindex: true
-index: y
-internal: n
-snippet: y
 ---
 
 # Oak-run.jar Indexing Use Cases{#oak-run-jar-indexing-use-cases}

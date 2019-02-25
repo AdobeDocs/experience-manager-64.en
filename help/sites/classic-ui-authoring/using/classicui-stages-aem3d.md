@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: authoring
 content-type: reference
 discoiquuid: 2b1be9ce-d2b5-4fb7-9f08-fc916ce187ef
-index: y
-internal: n
-snippet: y
 ---
 
 # About the use of stages in AEM 3D{#about-the-use-of-stages-in-aem-d}

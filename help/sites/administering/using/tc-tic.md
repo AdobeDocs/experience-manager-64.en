@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features
 content-type: reference
 discoiquuid: 7ffc2556-a50a-4b54-a92b-7612345ceabb
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring the Translation Integration Framework{#configuring-the-translation-integration-framework}

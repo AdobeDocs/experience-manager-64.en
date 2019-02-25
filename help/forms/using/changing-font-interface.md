@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: c0fb565a-5999-4107-83e7-0d06af3c6c4a
-index: y
-internal: n
-snippet: y
 ---
 
 # Changing the font on the interface{#changing-the-font-on-the-interface}

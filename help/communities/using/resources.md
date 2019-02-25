@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: 89b3bbb7-f6e5-4a17-a812-6130afe67d69
-index: y
-internal: n
-snippet: y
 ---
 
 # Enablement Resources Console{#enablement-resources-console}

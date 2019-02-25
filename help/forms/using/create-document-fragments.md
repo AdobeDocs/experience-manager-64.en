@@ -7,9 +7,6 @@ uuid: 2581adfa-2537-4eea-b34d-6fa9de243666
 contentOwner: anujkapo
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 114f90f3-7365-4bcb-8441-878de87d4c92
-index: y
-internal: n
-snippet: y
 ---
 
 # Tutorial: Create document fragments{#tutorial-create-document-fragments}

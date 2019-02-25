@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: df9c6d24-16f9-46a0-bbc5-ce421fc639ec
-index: y
-internal: n
-snippet: y
 ---
 
 # Tally Essentials{#tally-essentials}

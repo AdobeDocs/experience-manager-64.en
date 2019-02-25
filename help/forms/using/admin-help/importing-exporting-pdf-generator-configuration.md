@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_pdf_generator
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: af6bb0b8-a0eb-49c6-8a0f-bd0fb1dabb9c
-index: y
-internal: n
-snippet: y
 ---
 
 # Importing and exporting PDF Generator configuration files{#importing-and-exporting-pdf-generator-configuration-files}

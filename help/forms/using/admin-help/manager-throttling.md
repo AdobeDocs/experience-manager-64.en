@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/maintaining_aem_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: a99627ed-30cf-411d-b4e2-66afa2dc00d4
-index: y
-internal: n
-snippet: y
 ---
 
 # Work Manager and throttling{#work-manager-and-throttling}

@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-manager
 discoiquuid: 4cb8e14a-9c4a-4440-ad4a-602d3ef455fc
-index: y
-internal: n
-snippet: y
 ---
 
 # Searching for forms and assets{#searching-for-forms-and-assets}

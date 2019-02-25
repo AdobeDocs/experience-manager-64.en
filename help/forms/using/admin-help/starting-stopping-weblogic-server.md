@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/maintaining_the_application_server
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 8bd3ac4a-e926-4fbe-a501-802fa0981ec8
-index: y
-internal: n
-snippet: y
 ---
 
 # Starting and stopping WebLogic Server{#starting-and-stopping-weblogic-server}

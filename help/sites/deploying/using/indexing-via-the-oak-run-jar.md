@@ -8,9 +8,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
 discoiquuid: 4f8b94f3-1b42-420d-82b2-174327b11504
-index: y
-internal: n
-snippet: y
 ---
 
 # Indexing via the Oak-run Jar{#indexing-via-the-oak-run-jar}

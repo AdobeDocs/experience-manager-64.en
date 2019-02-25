@@ -10,9 +10,6 @@ topic-tags: components
 content-type: reference
 discoiquuid: 7cf3fef0-3bf6-453c-af8a-6fbf707a0241
 legacypath: /content/docs/en/aem/6-0/develop/components/components-develop
-index: y
-internal: n
-snippet: y
 ---
 
 # AEM Components - The Basics{#aem-components-the-basics}

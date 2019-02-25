@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-manager
 discoiquuid: 0627fec4-9614-4203-88e8-752f7ca8daae
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating and managing reviews for assets in forms{#creating-and-managing-reviews-for-assets-in-forms}

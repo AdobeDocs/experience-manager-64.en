@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: 6fc3476b-d42c-48c4-ad96-287fcec98ad3
-index: y
-internal: n
-snippet: y
 ---
 
 # Communities Consoles{#communities-consoles}

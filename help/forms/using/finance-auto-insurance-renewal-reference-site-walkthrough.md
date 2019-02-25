@@ -7,9 +7,6 @@ uuid: 619caeef-2b2b-4051-a465-89b59eea5379
 contentOwner: dekalra
 topic-tags: introduction
 discoiquuid: 96e8c52d-6351-4870-a97c-3be3eb599d9d
-index: y
-internal: n
-snippet: y
 ---
 
 # We.Finance Auto Insurance Renewal reference site walkthrough{#we-finance-auto-insurance-renewal-reference-site-walkthrough}

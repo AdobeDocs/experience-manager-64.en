@@ -7,9 +7,6 @@ page-status-flag: de-activated
 uuid: 377d3fbe-04a3-4e96-acbb-1efc5e71dc91
 contentOwner: alvawb
 discoiquuid: a4b29fe3-d8a8-4480-813c-4fbcd7e36c6f
-index: y
-internal: n
-snippet: y
 ---
 
 # Getting Started with AEM Assets{#getting-started-with-aem-assets}

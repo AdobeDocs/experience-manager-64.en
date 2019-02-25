@@ -8,9 +8,6 @@ uuid: 28110ba1-6646-4b0a-9b64-35fe4811cd7a
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: a6e66ecb-26a0-46f7-b1be-ac22bfbe44d2
-index: y
-internal: n
-snippet: y
 ---
 
 # [DO NOT PUBLISH] Themes in AEM Forms{#do-not-publish-themes-in-aem-forms}

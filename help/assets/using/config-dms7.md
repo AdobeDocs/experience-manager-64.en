@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
 discoiquuid: 3158302b-c8c5-4e23-b0a6-57d1942d3e59
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring Dynamic Media - Scene7 mode{#configuring-dynamic-media-scene-mode}

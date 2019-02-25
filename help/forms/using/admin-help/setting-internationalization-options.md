@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 7e6f21e5-bd92-4048-9b11-5c3c5c2936f5
-index: y
-internal: n
-snippet: y
 ---
 
 # Setting internationalization options{#setting-internationalization-options}

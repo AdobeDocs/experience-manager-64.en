@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: development-tools
 content-type: reference
 discoiquuid: 6155834b-49e8-47b4-a596-787cfd33f182
-index: y
-internal: n
-snippet: y
 ---
 
 # How to use the VLT Tool{#how-to-use-the-vlt-tool}

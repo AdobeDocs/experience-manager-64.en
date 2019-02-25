@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: introduction
 content-type: reference
 discoiquuid: 83975e4c-11c8-49dd-9a37-6aca76cd8dcf
-index: y
-internal: n
-snippet: y
 ---
 
 # Naming conventions for assets{#naming-conventions-for-assets}

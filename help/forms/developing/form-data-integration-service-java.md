@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: 01b51fe8-9fd2-46e6-878e-4e2560ad5248
-index: y
-internal: n
-snippet: y
 ---
 
 # Form Data Integration Service JavaAPI Quick Start(SOAP){#form-data-integration-service-javaapi-quick-start-soap}

@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/aem_forms_backup_and_recovery
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 942e79fa-1818-4b42-be4f-e82f43130f97
-index: y
-internal: n
-snippet: y
 ---
 
 # Backup strategies for watched folders{#backup-strategies-for-watched-folders}

@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: authoring-on-demand-services-app
 discoiquuid: 11f45fba-beb5-4ba0-97de-cd43ddc8593e
-index: y
-internal: n
-snippet: y
 ---
 
 # Managing Collections{#managing-collections}

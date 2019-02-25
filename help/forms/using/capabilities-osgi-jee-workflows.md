@@ -7,9 +7,6 @@ uuid: 03e49741-559a-4009-ba6c-19e2bc61f678
 contentOwner: khsingh
 topic-tags: publish
 discoiquuid: 4ab67326-3e5b-4810-bd63-2875fc61f407
-index: y
-internal: n
-snippet: y
 ---
 
 # Actions and capabilities of Form-centric AEM Workflows on OSGi and AEM Forms JEE workflows {#actions-and-capabilities-of-form-centric-aem-workflows-on-osgi-and-aem-forms-jee-workflows}

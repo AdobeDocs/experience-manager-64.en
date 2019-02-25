@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: development-tools
 content-type: reference
 discoiquuid: f479094e-e4f6-4bdc-8a9f-e61c31d7c55d
-index: y
-internal: n
-snippet: y
 ---
 
 # Dialog Conversion Tool{#dialog-conversion-tool}

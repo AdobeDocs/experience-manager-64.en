@@ -7,9 +7,6 @@ page-status-flag: never-activated
 uuid: c2ba7287-d0ee-41ee-9cc5-f8f59cf69ec5
 contentOwner: alvawb
 discoiquuid: 4798421a-dc33-4e76-9397-c18cef116a8f
-index: y
-internal: n
-snippet: y
 ---
 
 # Test page{#test-page}

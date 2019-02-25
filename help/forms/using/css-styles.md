@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
 discoiquuid: a6e40fe5-ce34-4207-9088-2176f4b050e0
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating CSS styles for HTML5 forms{#creating-css-styles-for-html-forms}

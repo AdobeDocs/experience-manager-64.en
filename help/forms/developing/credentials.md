@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: 106c9339-8c7c-43f0-b65e-7e6a1496eef8
-index: y
-internal: n
-snippet: y
 ---
 
 # Working with Credentials{#working-with-credentials}

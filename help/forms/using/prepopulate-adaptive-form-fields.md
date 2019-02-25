@@ -7,9 +7,6 @@ uuid: e73b64db-ee8b-4759-a88b-84c1fc829926
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: e59bffe5-fdf6-47e9-b7d3-0a2716c9a70d
-index: y
-internal: n
-snippet: y
 ---
 
 # Prefill adaptive form fields{#prefill-adaptive-form-fields}

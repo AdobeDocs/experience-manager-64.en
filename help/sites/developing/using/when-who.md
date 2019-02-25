@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: testing
 content-type: reference
 discoiquuid: ab20778c-9725-4235-9166-235183e35cd1
-index: y
-internal: n
-snippet: y
 ---
 
 # Testing - when and with whom?{#testing-when-and-with-whom}

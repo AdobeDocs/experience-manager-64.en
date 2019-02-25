@@ -7,9 +7,6 @@ uuid: 47f9eebe-6d51-4125-9011-31b7e13acb0e
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: 2739a26e-d360-44a3-9f32-da0b80a0c1d5
-index: y
-internal: n
-snippet: y
 ---
 
 # XFA support in XDP-based adaptive forms{#xfa-support-in-xdp-based-adaptive-forms}

@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: integrations
 discoiquuid: c2f1f067-8508-41e8-b696-9d7902add454
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring analytics and reports{#configuring-analytics-and-reports}

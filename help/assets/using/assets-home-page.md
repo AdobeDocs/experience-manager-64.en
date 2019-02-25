@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
 topic-tags: authoring
 discoiquuid: 83093998-033a-46b2-8ed5-ce1c8f04415c
-index: y
-internal: n
-snippet: y
 ---
 
 # AEM Assets Home Page Experience{#aem-assets-home-page-experience}

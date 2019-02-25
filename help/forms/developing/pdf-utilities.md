@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: 94169ef6-13ee-4aba-a10d-0f9bf8744ac5
-index: y
-internal: n
-snippet: y
 ---
 
 # Working with PDF Utilities{#working-with-pdf-utilities}

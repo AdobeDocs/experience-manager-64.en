@@ -8,9 +8,6 @@ contentOwner: jsyal
 discoiquuid: 5475c1fb-a67c-456d-ad6a-3b9a9fc7df20
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/screens/using/bulk-offline-update
-index: y
-internal: n
-snippet: y
 ---
 
 # REDIRECT Bulk Offline Update{#redirect-bulk-offline-update}

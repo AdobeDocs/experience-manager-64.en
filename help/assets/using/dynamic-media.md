@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: introduction
 content-type: reference
 discoiquuid: c222fd5b-7b92-4c94-aa83-1661753863b8
-index: y
-internal: n
-snippet: y
 ---
 
 # Working with Dynamic Media{#working-with-dynamic-media}

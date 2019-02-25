@@ -10,9 +10,6 @@ audience: developing
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 discoiquuid: d0298112-528c-4db9-992d-f3ed33326869
-index: y
-internal: n
-snippet: y
 ---
 
 # Reference Materials{#reference-materials}

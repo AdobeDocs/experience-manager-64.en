@@ -7,9 +7,6 @@ uuid: c6dc59a3-5eee-47e2-a2cc-373eead24541
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
 discoiquuid: 6e30492b-1ac3-4006-88b0-236ce713a2f4
-index: y
-internal: n
-snippet: y
 ---
 
 # Create Correspondence{#create-correspondence}

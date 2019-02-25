@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
 discoiquuid: 9b5aae89-d1fb-4adf-8ce8-78fe59e3f0e5
-index: y
-internal: n
-snippet: y
 ---
 
 # Feature differentiation between HTML5 forms and PDF forms {#feature-differentiation-between-html-forms-and-pdf-forms}

@@ -11,9 +11,6 @@ content-type: reference
 discoiquuid: 9e91bf2f-bb29-4810-8b81-b405b3130376
 legacypath: /content/docs/en/aem/6-2/author/page-authoring/default-components/editmode
 pagetitle: Foundation Components
-index: y
-internal: n
-snippet: y
 ---
 
 # Foundation Components{#foundation-components}

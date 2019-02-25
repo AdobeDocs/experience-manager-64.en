@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: document_services
 discoiquuid: 7e08bcad-b0f3-472d-bf67-faa5ae879996
-index: y
-internal: n
-snippet: y
 ---
 
 # Using AEM Document Services Programmatically{#using-aem-document-services-programmatically}

@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 111c8934-adda-464d-80cb-c52687c9f6eb
 draft: true
-index: y
-internal: n
-snippet: y
 ---
 
 # DO NOT PUBLISH Customize components to create unique data capturing experiences{#do-not-publish-customize-components-to-create-unique-data-capturing-experiences}

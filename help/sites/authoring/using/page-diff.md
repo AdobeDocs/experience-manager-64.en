@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
 discoiquuid: 93ade321-d8ad-45d4-8afd-b6e5e129d340
-index: y
-internal: n
-snippet: y
 ---
 
 # Page Diff{#page-diff}

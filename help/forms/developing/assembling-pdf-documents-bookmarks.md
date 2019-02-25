@@ -10,9 +10,6 @@ geptopics: SG_AEMFORMS/categories/assembling_pdf_documents
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: f4de8dfc-89c4-4dda-b641-abcc56b81e0a
-index: y
-internal: n
-snippet: y
 ---
 
 # Assembling PDF Documents with Bookmarks{#assembling-pdf-documents-with-bookmarks}

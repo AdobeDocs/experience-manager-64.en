@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: document_services
 discoiquuid: 50a95c68-50a5-4b50-b550-02a9f035b9cf
-index: y
-internal: n
-snippet: y
 ---
 
 # Overview of AEM Document Services{#overview-of-aem-document-services}

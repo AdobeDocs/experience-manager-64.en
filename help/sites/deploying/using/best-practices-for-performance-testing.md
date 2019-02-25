@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
 discoiquuid: 6959dc48-e14b-4928-ae5e-07109ce8fffc
-index: y
-internal: n
-snippet: y
 ---
 
 # Best Practices for Performance Testing{#best-practices-for-performance-testing}

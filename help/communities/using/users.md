@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: b4e0fe74-cc5c-4259-bc2b-669fafb6cb6e
-index: y
-internal: n
-snippet: y
 ---
 
 # Managing Users and User Groups{#managing-users-and-user-groups}

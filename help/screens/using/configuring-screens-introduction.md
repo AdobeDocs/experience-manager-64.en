@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: administering
 discoiquuid: 081ba899-d579-4770-a2a7-1794c9fc0d7d
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring and Deploying AEM Screens{#configuring-and-deploying-aem-screens}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: 47ade60b-f075-48fc-acd4-c6bb68839052
-index: y
-internal: n
-snippet: y
 ---
 
 # Integrating with Adobe Analytics{#integrating-with-adobe-analytics}

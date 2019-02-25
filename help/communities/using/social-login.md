@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: 471393bb-47e3-48bb-8a97-910f8d81e235
-index: y
-internal: n
-snippet: y
 ---
 
 # Social Login with Facebook and Twitter{#social-login-with-facebook-and-twitter}

@@ -6,9 +6,6 @@ seo-description: Run the Automated Forms Conversion service to convert PDF forms
 uuid: ae146017-2fc0-4d46-8fd8-a2a43ad7be82
 contentOwner: khsingh
 discoiquuid: 58c5d106-17a2-46e1-826d-5f68386e3fab
-index: y
-internal: n
-snippet: y
 ---
 
 # Use Automated Forms Conversion service{#use-automated-forms-conversion-service}

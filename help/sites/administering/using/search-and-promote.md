@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: ba5e0580-271c-4e2b-8709-f78ffc92d971
-index: y
-internal: n
-snippet: y
 ---
 
 # Integrating with Adobe Search&Promote{#integrating-with-adobe-search-promote}

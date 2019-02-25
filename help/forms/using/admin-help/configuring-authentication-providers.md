@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/setting_up_and_managing_domains
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: b11e83e6-63e2-4ca9-a79e-16cda6b40171
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring authentication providers{#configuring-authentication-providers}

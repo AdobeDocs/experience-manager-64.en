@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: ab1330d5-546a-4d51-85e6-b46e6be082ba
-index: y
-internal: n
-snippet: y
 ---
 
 # Specifying security settings{#specifying-security-settings}

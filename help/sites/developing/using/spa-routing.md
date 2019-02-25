@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: spa
 content-type: reference
 discoiquuid: 498ac8d4-484a-4f42-8188-f1dcbfde86f6
-index: y
-internal: n
-snippet: y
 ---
 
 # SPA Model Routing{#spa-model-routing}

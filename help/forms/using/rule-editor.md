@@ -9,9 +9,6 @@ topic-tags: adaptive_forms
 topic-tags: develop
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 02315d64-471d-4081-a0bc-e497f9705223
-index: y
-internal: n
-snippet: y
 ---
 
 # Adaptive forms rule editor{#adaptive-forms-rule-editor}

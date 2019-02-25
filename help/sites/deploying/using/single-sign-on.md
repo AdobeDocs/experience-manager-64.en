@@ -10,9 +10,6 @@ topic-tags: configuring
 content-type: reference
 topic-tags: Security
 discoiquuid: cffec621-cdf6-4153-81f0-af00af905d32
-index: y
-internal: n
-snippet: y
 ---
 
 # Single Sign On{#single-sign-on}

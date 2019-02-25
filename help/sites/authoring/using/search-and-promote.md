@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
 discoiquuid: 359bc4d0-7b93-48ed-ae29-5a8a18912ee1
-index: y
-internal: n
-snippet: y
 ---
 
 # Adding Search&Promote Features To Your Page{#adding-search-promote-features-to-your-page}

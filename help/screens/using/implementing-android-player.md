@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: administering
 discoiquuid: e253a11f-d1aa-4a97-a3e1-18ea90ab7cd7
-index: y
-internal: n
-snippet: y
 ---
 
 # Implementing Android Player{#implementing-android-player}

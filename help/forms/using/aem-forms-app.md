@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
 discoiquuid: 9ea5c74b-766c-45d2-bfe0-27d35dc541d3
-index: y
-internal: n
-snippet: y
 ---
 
 # AEM Forms app{#aem-forms-app}

@@ -8,9 +8,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: repo_restructuring
 discoiquuid: 0e576e82-35cc-42dc-90fc-8ec877f75f61
-index: y
-internal: n
-snippet: y
 ---
 
 # Sites Repository Restructuring in AEM 6.4{#sites-repository-restructuring-in-aem}

@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
 discoiquuid: 546f46b9-ac40-4eb4-87f8-48b4b97c9b94
-index: y
-internal: n
-snippet: y
 ---
 
 # Working with Startpoints{#working-with-startpoints}

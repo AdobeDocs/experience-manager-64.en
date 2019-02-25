@@ -8,9 +8,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: spa
 content-type: reference
 discoiquuid: 2c346b31-68d5-4dc8-8040-9301ca9fa52f
-index: y
-internal: n
-snippet: y
 ---
 
 # Getting Started with SPAs in AEM - Angular{#getting-started-with-spas-in-aem-angular}

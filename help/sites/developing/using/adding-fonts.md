@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
 discoiquuid: 2b1c06ab-9d13-4eab-9d35-ceb9708d44b6
-index: y
-internal: n
-snippet: y
 ---
 
 # Adding Fonts for Graphic-Rendering{#adding-fonts-for-graphic-rendering}

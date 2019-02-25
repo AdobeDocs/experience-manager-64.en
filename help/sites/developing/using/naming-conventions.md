@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
 discoiquuid: b66d1b8a-14dd-4531-a8ef-c4c3fe140bfe
-index: y
-internal: n
-snippet: y
 ---
 
 # Naming Conventions{#naming-conventions}

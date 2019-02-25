@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: platform
 discoiquuid: 12a15814-e4bf-49c8-a9ae-36d840e910b3
-index: y
-internal: n
-snippet: y
 ---
 
 # Developing (generic){#developing-generic}

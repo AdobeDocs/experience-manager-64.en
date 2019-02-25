@@ -8,9 +8,6 @@ contentOwner: khsingh
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-manager
 discoiquuid: df9d61ff-9f82-4c0c-9833-2fb9e75d85e0
-index: y
-internal: n
-snippet: y
 ---
 
 # Viewing and Understanding Transaction Reports{#viewing-and-understanding-transaction-reports}

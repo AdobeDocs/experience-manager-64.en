@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: e800bf38-e742-4019-b324-617c02f02882
-index: y
-internal: n
-snippet: y
 ---
 
 # FFmpeg for Communities{#ffmpeg-for-communities}

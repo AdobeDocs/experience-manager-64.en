@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
 discoiquuid: 0695f3ba-d8c1-4ed2-bc5b-c2017b63becd
-index: y
-internal: n
-snippet: y
 ---
 
 # Using Sling Adapters{#using-sling-adapters}

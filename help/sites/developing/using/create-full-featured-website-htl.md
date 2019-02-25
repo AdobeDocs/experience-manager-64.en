@@ -10,9 +10,6 @@ content-type: reference
 discoiquuid: e6c5535e-8529-4000-a9a3-cc2d7b095e9e
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/sites/developing/using/getting-started
-index: y
-internal: n
-snippet: y
 ---
 
 # Quickly Create a Fully-Featured Website{#quickly-create-a-fully-featured-website}

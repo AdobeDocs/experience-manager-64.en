@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: introduction
 content-type: reference
 discoiquuid: 52aa4493-86ca-4224-b486-440d15330f10
-index: y
-internal: n
-snippet: y
 ---
 
 # AEM Adobe PhoneGap{#aem-adobe-phonegap}

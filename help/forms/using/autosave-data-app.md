@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
 discoiquuid: ff6d67fb-5364-4fc4-93a0-2c8c4414bdc3
-index: y
-internal: n
-snippet: y
 ---
 
 # Using autosave in AEM Forms app{#using-autosave-in-aem-forms-app}

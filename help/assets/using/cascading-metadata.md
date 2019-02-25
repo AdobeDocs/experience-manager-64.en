@@ -8,9 +8,6 @@ contentOwner: cmajumda
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: authoring
 discoiquuid: 0b06357f-bb85-4e1e-96cd-9df39eb037e9
-index: y
-internal: n
-snippet: y
 ---
 
 # Cascading Metadata{#cascading-metadata}

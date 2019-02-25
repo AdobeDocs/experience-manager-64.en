@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 geptopics: SG_AEMFORMS/categories/jee
 discoiquuid: 9bc59293-cd7b-4e5b-a7f8-6f0c246cb2f1
-index: y
-internal: n
-snippet: y
 ---
 
 # Supported Platforms for AEM Forms on JEE{#supported-platforms-for-aem-forms-on-jee}

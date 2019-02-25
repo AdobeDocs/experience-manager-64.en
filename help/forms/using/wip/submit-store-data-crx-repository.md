@@ -8,9 +8,6 @@ uuid: 56bcc237-0dca-467a-ad43-d415c601811f
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 86c6a3c3-edef-4046-b50a-dd2b2fc79083
-index: y
-internal: n
-snippet: y
 ---
 
 # DO NOT PUBLISH - Submitting and storing content in JCR repository{#do-not-publish-submitting-and-storing-content-in-jcr-repository}

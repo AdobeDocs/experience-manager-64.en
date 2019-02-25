@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
 discoiquuid: beddfe56-7190-47ba-b856-24433eef794d
-index: y
-internal: n
-snippet: y
 ---
 
 # Annotations when Editing a Page{#annotations-when-editing-a-page}

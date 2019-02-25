@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: 6ac476a7-40ae-429d-a974-dbf307f80909
-index: y
-internal: n
-snippet: y
 ---
 
 # Activity Stream Essentials{#activity-stream-essentials}

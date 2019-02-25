@@ -6,9 +6,6 @@ seo-description: null
 uuid: 25bdeeb6-01e4-4cf8-a68a-e8d6b61f1f6c
 contentOwner: cmajumda
 discoiquuid: 45048077-3db5-4230-accd-ae2d07f3d432
-index: y
-internal: n
-snippet: y
 ---
 
 # Smart Content Service Training Guidelines{#smart-content-service-training-guidelines}

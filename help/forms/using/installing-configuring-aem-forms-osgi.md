@@ -7,9 +7,6 @@ uuid: 73cfe2da-af79-41fd-86e6-f404edd97fca
 contentOwner: khsingh
 topic-tags: installing
 discoiquuid: b3705a65-bf6d-493d-ae95-7f40aca45a1f
-index: y
-internal: n
-snippet: y
 ---
 
 # Install and configure data capture capabilities{#install-and-configure-data-capture-capabilities}

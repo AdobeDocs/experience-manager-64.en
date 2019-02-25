@@ -7,9 +7,6 @@ uuid: f50cd6c3-f945-4bc1-96aa-9f73a6b7d480
 topic-tags: interactive-communications
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 56da1a6a-d217-4cd0-ac8d-b8debc297210
-index: y
-internal: n
-snippet: y
 ---
 
 # Print channel and web channel{#print-channel-and-web-channel}

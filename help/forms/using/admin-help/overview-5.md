@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_pdf_generator
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: d9bfacc2-8b5c-46f4-9bc2-8915e5746b0c
-index: y
-internal: n
-snippet: y
 ---
 
 # Introduction to working with PDF Generator{#introduction-to-working-with-pdf-generator}

@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_user_management
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 55e52f34-d947-4600-b141-5a367f87ae40
-index: y
-internal: n
-snippet: y
 ---
 
 # Importing and exporting the configuration file{#importing-and-exporting-the-configuration-file}

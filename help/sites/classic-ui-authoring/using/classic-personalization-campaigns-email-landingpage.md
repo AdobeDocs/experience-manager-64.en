@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
 discoiquuid: 41d143b8-8b2d-4492-b28c-5a25f3c9feea
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating an Effective Newsletter Landing Page{#creating-an-effective-newsletter-landing-page}

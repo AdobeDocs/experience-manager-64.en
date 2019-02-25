@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: publish
 discoiquuid: eb958603-ea6b-4b8b-9cb4-60e36783d894
-index: y
-internal: n
-snippet: y
 ---
 
 # Introduction to publishing forms on a portal{#introduction-to-publishing-forms-on-a-portal}

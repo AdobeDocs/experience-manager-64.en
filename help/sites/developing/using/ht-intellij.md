@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: development-tools
 content-type: reference
 discoiquuid: e08a07e9-9d58-4a3e-b96e-6a6ccb31134d
-index: y
-internal: n
-snippet: y
 ---
 
 # How to Develop AEM Projects using IntelliJ IDEA{#how-to-develop-aem-projects-using-intellij-idea}

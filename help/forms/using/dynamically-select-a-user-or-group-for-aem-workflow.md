@@ -7,9 +7,6 @@ uuid: e178c377-f02f-412f-8fa1-3fae7185cfbe
 content-type: troubleshooting
 topic-tags: publish
 discoiquuid: c726fad1-fc2b-4b67-b8bf-04d8fdab5567
-index: y
-internal: n
-snippet: y
 ---
 
 # Dynamically select a user or group for AEM Forms-centric workflow steps{#dynamically-select-a-user-or-group-for-aem-forms-centric-workflow-steps}

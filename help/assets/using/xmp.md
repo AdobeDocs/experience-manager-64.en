@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
 discoiquuid: a2b38842-b02d-4924-b61b-06c90aa82ca5
-index: y
-internal: n
-snippet: y
 ---
 
 # XMP Metadata{#xmp-metadata}

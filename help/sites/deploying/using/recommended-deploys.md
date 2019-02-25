@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
 discoiquuid: 6cfd6e20-9e72-4552-9e5b-94b23be7e340
-index: y
-internal: n
-snippet: y
 ---
 
 # Recommended Deployments{#recommended-deployments}

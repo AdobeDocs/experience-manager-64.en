@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
 discoiquuid: 4b82cd7f-50e0-449c-a1fd-049b15246de9
-index: y
-internal: n
-snippet: y
 ---
 
 # AEM with MongoDB{#aem-with-mongodb}

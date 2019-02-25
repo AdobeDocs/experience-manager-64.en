@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: 1e451f1f-ddc1-4833-a329-af8f740e970f
-index: y
-internal: n
-snippet: y
 ---
 
 # Moderation Console{#moderation-console}

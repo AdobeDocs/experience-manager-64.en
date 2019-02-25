@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: interactive-communications
 discoiquuid: 36ce7c51-8e3e-41d9-98af-9850139b2c10
-index: y
-internal: n
-snippet: y
 ---
 
 # Using charts in Interactive Communications{#using-charts-in-interactive-communications}

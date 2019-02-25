@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/managing_endpoints
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 314d7e7a-57a9-408b-8c68-44f3df05d87c
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring email endpoints{#configuring-email-endpoints}

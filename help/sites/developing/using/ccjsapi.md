@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
 discoiquuid: 51fa75dd-349e-440a-a146-9866ebe958ca
-index: y
-internal: n
-snippet: y
 ---
 
 # Client Context Javascript API{#client-context-javascript-api}

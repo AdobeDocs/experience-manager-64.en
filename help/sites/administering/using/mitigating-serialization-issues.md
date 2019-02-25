@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
 discoiquuid: 040d6953-0e6f-4321-885f-d1ea5a7cc56c
-index: y
-internal: n
-snippet: y
 ---
 
 # Mitigating serialization issues in AEM{#mitigating-serialization-issues-in-aem}

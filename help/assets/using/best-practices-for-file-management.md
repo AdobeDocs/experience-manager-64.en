@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
 discoiquuid: b0fa11e2-f8ea-4e4d-b96b-1c0f7e207167
-index: y
-internal: n
-snippet: y
 ---
 
 # Best Practices for Organizing Your Digital Assets for Using Profiles{#best-practices-for-organizing-your-digital-assets-for-using-profiles}

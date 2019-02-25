@@ -10,9 +10,6 @@ topic-tags: platform
 content-type: reference
 discoiquuid: 95508f49-b7d5-4a97-b991-7e07efccc74b
 legacypath: /content/docs/en/aem/6-0/deploy/upgrade/introduction-to-oak
-index: y
-internal: n
-snippet: y
 ---
 
 # Introduction to the AEM Platform{#introduction-to-the-aem-platform}

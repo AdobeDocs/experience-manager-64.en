@@ -9,9 +9,6 @@ content-type: reference
 topic-tags: introduction
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 discoiquuid: b4bd391f-148b-41d2-aa95-745803e80ec5
-index: y
-internal: n
-snippet: y
 ---
 
 # Glossary{#glossary}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
 discoiquuid: 7beab1a1-6e72-461b-b528-36f75cd0d2ef
-index: y
-internal: n
-snippet: y
 ---
 
 # Configure the Rich Text Editor{#configure-the-rich-text-editor}

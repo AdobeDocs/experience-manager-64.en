@@ -10,9 +10,6 @@ geptopics: SG_AEMFORMS/categories/rendering_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: 14f3f2ca-ebba-45a7-be28-5c38f6dc3ca0
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating Web Applications thatRenders Forms{#creating-web-applications-thatrenders-forms}

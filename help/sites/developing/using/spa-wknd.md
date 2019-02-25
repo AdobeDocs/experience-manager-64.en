@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: spa
 content-type: reference
 discoiquuid: 9a87fdab-fb12-4abc-a33f-001c731a17f7
-index: y
-internal: n
-snippet: y
 ---
 
 # SPA WKND Tutorial{#spa-wknd-tutorial}

@@ -8,9 +8,6 @@ contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 discoiquuid: a2217ce7-f989-4f97-8bb7-08220993ef61
-index: y
-internal: n
-snippet: y
 ---
 
 # Rendering and Delivery{#rendering-and-delivery}

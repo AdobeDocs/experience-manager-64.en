@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: configuring
 content-type: reference
 discoiquuid: e7c0b596-0364-4e34-b378-a12da51c450f
-index: y
-internal: n
-snippet: y
 ---
 
 # Monitoring and Maintaining Your AEM instance{#monitoring-and-maintaining-your-aem-instance}

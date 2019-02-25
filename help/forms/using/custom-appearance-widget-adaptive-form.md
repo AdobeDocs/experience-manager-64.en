@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: customization
 discoiquuid: 850c1952-2389-41ad-a23b-27c09eb07ee1
-index: y
-internal: n
-snippet: y
 ---
 
 # Create custom appearances for adaptive form fields{#create-custom-appearances-for-adaptive-form-fields}

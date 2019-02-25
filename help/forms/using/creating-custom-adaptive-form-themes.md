@@ -8,9 +8,6 @@ content-type: reference
 topic-tags: customization
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: f01b4c3a-a7e0-4aea-8a4f-2d78c14e3e27
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating custom adaptive form themes{#creating-custom-adaptive-form-themes}

@@ -10,9 +10,6 @@ content-type: reference
 topic-tags: release-notes
 discoiquuid: 4c1055e6-8ff8-4d27-869a-669bba6eeeb6
 noindex: true
-index: y
-internal: n
-snippet: y
 ---
 
 # Release Notes for Feature Pack 201812{#release-notes-for-feature-pack}

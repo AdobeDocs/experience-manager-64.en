@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: authoring-on-demand-services-app
 discoiquuid: bc3b22e9-c2ed-4ac1-8f98-ab61d0fcf0ae
-index: y
-internal: n
-snippet: y
 ---
 
 # Mobile On-Demand{#mobile-on-demand}

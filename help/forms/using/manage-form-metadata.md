@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-manager
 discoiquuid: 4f627592-a69a-440e-b10a-d3119ed656db
-index: y
-internal: n
-snippet: y
 ---
 
 # Manage form metadata{#manage-form-metadata}

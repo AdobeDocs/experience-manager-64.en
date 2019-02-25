@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: components
 content-type: reference
 discoiquuid: 17f1ed70-95f2-4f6f-b062-d7364e2e02c8
-index: y
-internal: n
-snippet: y
 ---
 
 # Using and Extending Widgets (Classic UI){#using-and-extending-widgets-classic-ui}

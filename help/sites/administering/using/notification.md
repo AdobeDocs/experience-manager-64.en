@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
 discoiquuid: 5ae33ac9-b256-4257-adf8-6bcd5e46563c
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring Email Notification{#configuring-email-notification}

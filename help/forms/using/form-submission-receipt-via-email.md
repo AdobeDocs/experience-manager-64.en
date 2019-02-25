@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: publish
 discoiquuid: 6f004a7d-ec0f-4622-9c35-6f472af03d7a
-index: y
-internal: n
-snippet: y
 ---
 
 # Sending a form submission acknowledgement via email{#sending-a-form-submission-acknowledgement-via-email}

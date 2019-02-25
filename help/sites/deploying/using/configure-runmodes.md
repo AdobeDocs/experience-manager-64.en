@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: configuring
 content-type: reference
 discoiquuid: 5f12f1a0-1271-463b-a2a3-d1b0f356f551
-index: y
-internal: n
-snippet: y
 ---
 
 # Run Modes{#run-modes}

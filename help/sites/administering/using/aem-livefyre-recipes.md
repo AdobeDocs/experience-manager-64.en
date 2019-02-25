@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: 7105091d-e5d8-4da6-917a-a5dbd56cd97a
-index: y
-internal: n
-snippet: y
 ---
 
 # AEM Livefyre Recipes{#aem-livefyre-recipes}

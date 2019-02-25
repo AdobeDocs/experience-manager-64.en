@@ -10,9 +10,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: content
 content-type: reference
 discoiquuid: c3e15234-c23d-4c2b-b517-95fee049f0b2
-index: y
-internal: n
-snippet: y
 ---
 
 # Track Content Changes Using Task Management{#track-content-changes-using-task-management}

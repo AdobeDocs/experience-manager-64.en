@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: components
 content-type: reference
 discoiquuid: f586d7e0-ac92-4460-839a-63aa1f9c6bce
-index: y
-internal: n
-snippet: y
 ---
 
 # Developer Mode{#developer-mode}

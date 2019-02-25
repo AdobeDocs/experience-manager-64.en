@@ -8,9 +8,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
 discoiquuid: 9e57b537-525e-4626-a968-91d3543e438b
-index: y
-internal: n
-snippet: y
 ---
 
 # Search Facets{#search-facets}

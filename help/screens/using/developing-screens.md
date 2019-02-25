@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: developing
 discoiquuid: 693ba172-3df5-4fb9-8a81-bb0006911e1b
-index: y
-internal: n
-snippet: y
 ---
 
 # Developing Screens{#developing-screens}

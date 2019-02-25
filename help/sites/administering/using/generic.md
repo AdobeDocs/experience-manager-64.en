@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: e-commerce
 content-type: reference
 discoiquuid: a7e263b5-cd5d-459a-af8c-4c482371aae8
-index: y
-internal: n
-snippet: y
 ---
 
 # Administering generic eCommerce{#administering-generic-ecommerce}

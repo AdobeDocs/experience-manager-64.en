@@ -7,9 +7,6 @@ uuid: 43be4497-7ec3-40c3-bb4c-e6c5823c96a8
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
 discoiquuid: c6d3295f-c860-4420-99e7-fcd529cef80a
-index: y
-internal: n
-snippet: y
 ---
 
 # Placeholder text in AEM Forms {#placeholder-text-in-aem-forms}

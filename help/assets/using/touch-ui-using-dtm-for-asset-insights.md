@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference
 discoiquuid: 49639254-1702-4e5c-b1d7-90cc3d09dba4
-index: y
-internal: n
-snippet: y
 ---
 
 # Enabling Asset Insights through DTM{#enabling-asset-insights-through-dtm}

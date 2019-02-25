@@ -8,9 +8,6 @@ contentOwner: carlino
 discoiquuid: 84861123-56f8-4d70-9250-501634b84d27
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/sites/developing/using/reference-materials
-index: y
-internal: n
-snippet: y
 ---
 
 # index{#index}

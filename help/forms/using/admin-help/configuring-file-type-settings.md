@@ -8,9 +8,6 @@ geptopics: SG_AEMFORMS/categories/working_with_pdf_generator
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 content-type: reference
 discoiquuid: bf77096d-277f-4fd9-b9ac-42bf0869144e
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring file type settings{#configuring-file-type-settings}

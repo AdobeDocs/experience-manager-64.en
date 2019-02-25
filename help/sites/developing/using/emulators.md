@@ -10,9 +10,6 @@ topic-tags: mobile-web
 content-type: reference
 discoiquuid: 1209656d-1286-466b-b1d1-f105852d6d31
 legacypath: /content/docs/en/aem/6-0/develop/mobile/emulators
-index: y
-internal: n
-snippet: y
 ---
 
 # Emulators{#emulators}

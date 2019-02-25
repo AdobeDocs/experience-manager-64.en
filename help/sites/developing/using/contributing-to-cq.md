@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
 discoiquuid: c9e14116-1a34-46c9-9927-a3c5a98fc187
-index: y
-internal: n
-snippet: y
 ---
 
 # Contributing to AEM{#contributing-to-aem}

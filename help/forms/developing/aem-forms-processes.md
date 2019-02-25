@@ -10,9 +10,6 @@ topic-tags: coding
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: development-tools
 discoiquuid: 3be0bdf9-5a17-490c-a238-7e41d6e5293b
-index: y
-internal: n
-snippet: y
 ---
 
 # Understanding AEM Forms Processes{#understanding-aem-forms-processes}

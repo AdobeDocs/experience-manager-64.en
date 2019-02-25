@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
 discoiquuid: 81a35bcb-ea27-4200-83b6-926a3b9be094
-index: y
-internal: n
-snippet: y
 ---
 
 # Starting Workflows{#starting-workflows}

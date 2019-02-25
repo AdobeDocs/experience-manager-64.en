@@ -8,9 +8,6 @@ contentOwner: sashanka
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: 9591db1e-c596-4ed6-be28-902a24906304
-index: y
-internal: n
-snippet: y
 ---
 
 # Integrate Adobe Sign with AEM Forms{#integrate-adobe-sign-with-aem-forms}

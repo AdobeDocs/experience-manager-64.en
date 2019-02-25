@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_document_security
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 42714002-6900-481f-a823-45d93bc28c91
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating and managing policies{#creating-and-managing-policies}

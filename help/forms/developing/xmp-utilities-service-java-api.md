@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: 609a02b1-5ef8-4d6d-94a2-52498f03f241
-index: y
-internal: n
-snippet: y
 ---
 
 # XMP Utilities Service Java APIQuick Start(SOAP){#xmp-utilities-service-java-apiquick-start-soap}

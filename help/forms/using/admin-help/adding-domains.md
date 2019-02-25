@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/setting_up_and_managing_domains
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 5f9cbcb5-7b53-4b97-b9db-21c78e30e0eb
-index: y
-internal: n
-snippet: y
 ---
 
 # Adding domains {#adding-domains}

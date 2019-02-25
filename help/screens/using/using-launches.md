@@ -7,9 +7,6 @@ page-status-flag: never-activated
 uuid: 3ab46280-3ffc-4e4c-a0f2-7bc74cc330c2
 contentOwner: jsyal
 discoiquuid: f895ec8c-6423-45b6-a33d-678622ef1b82
-index: y
-internal: n
-snippet: y
 ---
 
 # Launches{#launches}

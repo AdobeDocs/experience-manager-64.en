@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 content-type: reference
 topic-tags: deploying
 discoiquuid: fc2b6d95-dbf8-46c8-9d6f-0a6d7fb7c2f9
-index: y
-internal: n
-snippet: y
 ---
 
 # Recommended Topologies for Communities{#recommended-topologies-for-communities}

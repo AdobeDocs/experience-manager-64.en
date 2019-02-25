@@ -11,9 +11,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: authoring
 discoiquuid: e5b050a4-98dc-4d4d-a186-30b9c574ba4b
 noindex: true
-index: y
-internal: n
-snippet: y
 ---
 
 # Bulk Offline Update{#bulk-offline-update}

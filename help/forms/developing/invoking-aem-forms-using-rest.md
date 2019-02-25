@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: coding
 discoiquuid: 98229780-2a26-4b9f-ada7-183e8751368c
-index: y
-internal: n
-snippet: y
 ---
 
 # Invoking AEM Forms using REST Requests{#invoking-aem-forms-using-rest-requests}

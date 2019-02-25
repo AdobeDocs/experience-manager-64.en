@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
 discoiquuid: 7db03980-b9fb-41ac-ae51-2d01c9c3d0ff
-index: y
-internal: n
-snippet: y
 ---
 
 # Multi-tenancy for Collections, Snippets, and Snippet Templates{#multi-tenancy-for-collections-snippets-and-snippet-templates}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: components
 discoiquuid: e652654e-92a0-4f6a-9927-337eaaea92eb
-index: y
-internal: n
-snippet: y
 ---
 
 # Internationalizing UI Strings {#internationalizing-ui-strings}

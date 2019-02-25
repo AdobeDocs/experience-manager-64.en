@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 geptopics: SG_AEMFORMS/categories/working_with_document_security
 discoiquuid: 15e91989-c9f1-428b-a2b8-629a2721a015
-index: y
-internal: n
-snippet: y
 ---
 
 # Enable AEM to search document security protected PDF documents{#enable-aem-to-search-document-security-protected-pdf-documents}

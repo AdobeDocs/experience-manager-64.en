@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: content-fragments
 content-type: reference
 discoiquuid: 29cca43b-0c67-4777-8790-a41da5799237
-index: y
-internal: n
-snippet: y
 ---
 
 # Metadata - Fragment Properties{#metadata-fragment-properties}

@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
 discoiquuid: 95ae702b-0297-4848-ad74-3b29366ee9d9
-index: y
-internal: n
-snippet: y
 ---
 
 # Working with a Form{#working-with-a-form}

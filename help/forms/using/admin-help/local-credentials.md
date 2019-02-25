@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/managing_certificates_and_credentials
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: e87d2363-1872-4403-babe-601d4c9c1464
-index: y
-internal: n
-snippet: y
 ---
 
 # Managing local credentials{#managing-local-credentials}

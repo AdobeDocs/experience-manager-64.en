@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: 352fd2a5-9313-45d1-ac30-526970da429d
-index: y
-internal: n
-snippet: y
 ---
 
 # MySQL Configuration for DSRP{#mysql-configuration-for-dsrp}

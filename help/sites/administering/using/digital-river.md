@@ -10,9 +10,6 @@ topic-tags: e-commerce
 content-type: reference
 discoiquuid: 11feb4f0-5a75-4eb3-9628-a02e5132a18e
 pagetitle: Administering Digital River
-index: y
-internal: n
-snippet: y
 ---
 
 # Digital River{#digital-river}

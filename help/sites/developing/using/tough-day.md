@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: testing
 content-type: reference
 discoiquuid: 13f3ded4-3c3f-476c-80d5-206bd6e5c751
-index: y
-internal: n
-snippet: y
 ---
 
 # Tough Day{#tough-day}

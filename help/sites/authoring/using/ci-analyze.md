@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
 discoiquuid: 2dbbbeaf-0f52-4214-b633-53560501777b
-index: y
-internal: n
-snippet: y
 ---
 
 # Analyzing Page Performance{#analyzing-page-performance}

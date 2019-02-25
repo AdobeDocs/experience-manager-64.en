@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: d3495bd1-570c-4ef4-becb-53ff8fec6de4
-index: y
-internal: n
-snippet: y
 ---
 
 # Displaying additional data in ToDo list{#displaying-additional-data-in-todo-list}

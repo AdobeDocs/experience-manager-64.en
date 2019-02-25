@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: administering-on-demand-services-app
 discoiquuid: 72c6beb5-0301-405d-8806-57a4a209e870
-index: y
-internal: n
-snippet: y
 ---
 
 # Configure Your Users and User Groups{#configure-your-users-and-user-groups}

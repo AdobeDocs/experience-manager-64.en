@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
 discoiquuid: 5a405bc2-9fcc-48d8-be12-0ae3d283d826
-index: y
-internal: n
-snippet: y
 ---
 
 # Manage agent signature images{#manage-agent-signature-images}

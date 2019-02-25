@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: personalization
 discoiquuid: c1c96922-71b0-483d-8db9-25631ce7dba0
-index: y
-internal: n
-snippet: y
 ---
 
 # Landing Pages{#landing-pages}

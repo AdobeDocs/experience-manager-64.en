@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: developer-reference
 discoiquuid: ed8ea11e-cc7b-492c-bd51-f8554760b2c7
-index: y
-internal: n
-snippet: y
 ---
 
 # Form Bridge APIs for HTML5 forms{#form-bridge-apis-for-html-forms}

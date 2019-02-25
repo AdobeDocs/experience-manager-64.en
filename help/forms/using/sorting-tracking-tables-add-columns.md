@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: c5802435-e012-47c1-a996-2c6453b641a9
-index: y
-internal: n
-snippet: y
 ---
 
 # Customize tracking tables{#customize-tracking-tables}

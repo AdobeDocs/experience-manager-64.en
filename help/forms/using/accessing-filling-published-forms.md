@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: publish
 discoiquuid: 969ca466-8f50-4c6b-8f25-295cdcbac4af
-index: y
-internal: n
-snippet: y
 ---
 
 # Accessing and filling published forms{#accessing-and-filling-published-forms}

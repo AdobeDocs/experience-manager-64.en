@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
 discoiquuid: 842e5c40-49b9-427c-9dd2-7f5de882562f
-index: y
-internal: n
-snippet: y
 ---
 
 # Coding Tips{#coding-tips}

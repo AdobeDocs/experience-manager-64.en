@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: ebc870a3-0bc1-40b5-ae58-97a74b99b0e3
-index: y
-internal: n
-snippet: y
 ---
 
 # Catalog Producer{#catalog-producer}

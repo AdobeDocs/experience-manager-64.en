@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features
 content-type: reference
 discoiquuid: c9247ad8-9f5a-4f05-a552-84bff6e15f0c
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating a Language Root Using the Classic UI{#creating-a-language-root-using-the-classic-ui}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: introduction
 content-type: reference
 discoiquuid: 1ec7a9d1-7656-4213-80b0-3cb477a27a16
-index: y
-internal: n
-snippet: y
 ---
 
 # Getting Started with AEM Communities for Enablement{#getting-started-with-aem-communities-for-enablement}

@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: developing-on-demand-services-app
 discoiquuid: 80aa0d59-13a1-4c45-b94a-5e99a4f82d87
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating Shared Resources Export Configuration{#creating-shared-resources-export-configuration}

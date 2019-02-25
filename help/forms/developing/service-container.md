@@ -10,9 +10,6 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: coding
 topic-tags: development-tools
 discoiquuid: 0ed7f66c-fc19-49e2-9a3c-3e291b3e8181
-index: y
-internal: n
-snippet: y
 ---
 
 # Service container{#service-container}

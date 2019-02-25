@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
 discoiquuid: 256b3f42-ed94-4b29-8c92-04889f743b6b
-index: y
-internal: n
-snippet: y
 ---
 
 # Introduction to multi-step form sequence{#introduction-to-multi-step-form-sequence}

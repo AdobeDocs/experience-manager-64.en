@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features
 content-type: reference
 discoiquuid: 42e32e77-ca7e-438f-b6f7-27100996824c
-index: y
-internal: n
-snippet: y
 ---
 
 # Managing Translation Projects{#managing-translation-projects}

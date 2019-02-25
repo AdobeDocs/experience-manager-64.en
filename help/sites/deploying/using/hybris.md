@@ -10,9 +10,6 @@ topic-tags: e-commerce
 content-type: reference
 discoiquuid: fd39c16b-eceb-4fab-a5e1-0992faa1ef36
 pagetitle: Deploying eCommerce with hybris
-index: y
-internal: n
-snippet: y
 ---
 
 # hybris{#hybris}

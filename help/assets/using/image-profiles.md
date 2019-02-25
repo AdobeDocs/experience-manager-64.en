@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
 discoiquuid: c709f958-0443-48f4-be07-c1d53a3d3afb
-index: y
-internal: n
-snippet: y
 ---
 
 # Image Profiles{#image-profiles}

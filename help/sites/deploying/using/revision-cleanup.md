@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
 discoiquuid: f402b44c-3ef4-4cb8-814a-3591f798e6ce
-index: y
-internal: n
-snippet: y
 ---
 
 # Revision Cleanup{#revision-cleanup}

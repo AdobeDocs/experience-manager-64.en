@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
 discoiquuid: 66c3a50c-f6ca-42da-aa29-432bdc45f73b
-index: y
-internal: n
-snippet: y
 ---
 
 # Use Rich Text Editor to author content{#use-rich-text-editor-to-author-content}

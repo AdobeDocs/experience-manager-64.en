@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: publish
 discoiquuid: f0eda6f5-e431-4b63-8241-b8b91ccb02bd
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating a forms portal page{#creating-a-forms-portal-page}

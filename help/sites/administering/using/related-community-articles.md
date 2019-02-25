@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: d4820d74-a852-4020-8247-551ddd2ceb34
-index: y
-internal: n
-snippet: y
 ---
 
 # Related Community Articles{#related-community-articles}

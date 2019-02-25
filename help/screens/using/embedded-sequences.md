@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: authoring
 discoiquuid: 7918610e-7548-4a00-8517-f612021f38c0
-index: y
-internal: n
-snippet: y
 ---
 
 # Embedded Sequences{#embedded-sequences}

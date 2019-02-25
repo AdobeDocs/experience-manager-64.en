@@ -10,9 +10,6 @@ topic-tags: release-notes
 content-type: reference
 topic-tags: 3D
 discoiquuid: c85291ca-f77e-43d8-b6d0-24d5ae975e49
-index: y
-internal: n
-snippet: y
 ---
 
 # AEM 3D Release Notes{#aem-d-release-notes}

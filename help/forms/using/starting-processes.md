@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: 3119d221-33f8-4a94-8d7c-ac7abd415bd1
-index: y
-internal: n
-snippet: y
 ---
 
 # Starting processes{#starting-processes}

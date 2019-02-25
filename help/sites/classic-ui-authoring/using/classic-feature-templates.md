@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
 discoiquuid: 55c578bd-61f6-4e9e-b857-f1c295bf0060
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating Page Templates{#creating-page-templates}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: 2d903466-60f6-4bc4-a9a1-4dd0bbbaeec6
-index: y
-internal: n
-snippet: y
 ---
 
 # SharePoint Connector Licenses, Copyright Notices, and Disclaimers{#sharepoint-connector-licenses-copyright-notices-and-disclaimers}

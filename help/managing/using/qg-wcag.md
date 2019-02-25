@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/MANAGING
 topic-tags: managing-accessibility
 content-type: reference
 discoiquuid: f1f04215-7ad4-47a3-8cbf-4fd94c76be7d
-index: y
-internal: n
-snippet: y
 ---
 
 # Quick Guide to WCAG 2.0{#quick-guide-to-wcag}

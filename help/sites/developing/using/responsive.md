@@ -10,9 +10,6 @@ topic-tags: mobile-web
 content-type: reference
 discoiquuid: 307123ac-b96f-4b3e-853e-13ab4b154cf2
 legacypath: /content/docs/en/aem/6-0/develop/mobile/responsive
-index: y
-internal: n
-snippet: y
 ---
 
 # Responsive Design for Web Pages{#responsive-design-for-web-pages}

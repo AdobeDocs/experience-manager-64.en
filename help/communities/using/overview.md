@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: d7a74057-e6e7-456b-bdc0-8ac60c13e652
-index: y
-internal: n
-snippet: y
 ---
 
 # AEM Communities Overview{#aem-communities-overview}

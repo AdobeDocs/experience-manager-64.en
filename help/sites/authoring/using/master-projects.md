@@ -10,9 +10,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: projects
 content-type: reference
 discoiquuid: c4b32209-dff6-48b0-abf2-36a75d6ff4f3
-index: y
-internal: n
-snippet: y
 ---
 
 # Master Projects{#master-projects}

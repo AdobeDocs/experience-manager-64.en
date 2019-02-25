@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: developing-on-demand-services-app
 discoiquuid: eb9dd8ef-2182-4230-ad70-36303ca16688
-index: y
-internal: n
-snippet: y
 ---
 
 # Content Properties and Nodes{#content-properties-and-nodes}

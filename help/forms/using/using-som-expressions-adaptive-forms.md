@@ -7,9 +7,6 @@ uuid: 2c09e124-3899-4c31-ae0d-d77242f28879
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: 2659173e-d37d-430a-97e4-fa417d519990
-index: y
-internal: n
-snippet: y
 ---
 
 # Using SOM expressions in adaptive forms{#using-som-expressions-in-adaptive-forms}

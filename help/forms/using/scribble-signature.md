@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: designer
 discoiquuid: fbc0674a-421a-40f1-8987-54627d0c197c
-index: y
-internal: n
-snippet: y
 ---
 
 # Using Scribble Signature in HTML5 forms{#using-scribble-signature-in-html-forms}

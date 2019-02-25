@@ -7,9 +7,6 @@ uuid: a7cafcda-eefa-4b6b-808a-882276abbaad
 topic-tags: grdp
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 28c6c4de-d45b-4795-8285-bba1b9ab881c
-index: y
-internal: n
-snippet: y
 ---
 
 # Document Security | Handling user data{#document-security-handling-user-data}

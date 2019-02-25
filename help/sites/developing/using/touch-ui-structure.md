@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
 discoiquuid: 7608bf7d-c23d-480c-826f-52d5de9a928e
-index: y
-internal: n
-snippet: y
 ---
 
 # Structure of the AEM Touch-Enabled UI{#structure-of-the-aem-touch-enabled-ui}

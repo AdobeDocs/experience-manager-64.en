@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: developing-adobe-phonegap-enterprise
 discoiquuid: 81a230fb-512f-46e1-8673-ce0a6606d6df
-index: y
-internal: n
-snippet: y
 ---
 
 # Push Notifications{#push-notifications}

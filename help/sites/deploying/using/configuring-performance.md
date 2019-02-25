@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: configuring
 discoiquuid: b83b39ab-6728-4bac-9f45-82014b325b48
-index: y
-internal: n
-snippet: y
 ---
 
 # Performance Optimization{#performance-optimization}

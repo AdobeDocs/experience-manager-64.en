@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: customization
 discoiquuid: 3f96b3db-aed9-4769-809e-b0900a391761
-index: y
-internal: n
-snippet: y
 ---
 
 # Writing custom Submit action for adaptive forms{#writing-custom-submit-action-for-adaptive-forms}

@@ -10,9 +10,6 @@ topic-tags: administering
 content-type: reference
 discoiquuid: 2dd21096-f46e-4043-9deb-837384631065
 draft: true
-index: y
-internal: n
-snippet: y
 ---
 
 # Connecting Assets to Desktop Applications with Adobe Drive{#connecting-assets-to-desktop-applications-with-adobe-drive}

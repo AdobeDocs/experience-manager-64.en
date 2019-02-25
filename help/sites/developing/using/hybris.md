@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: platform
 discoiquuid: d2ef0d5b-049d-4c06-9510-902daa958e7d
-index: y
-internal: n
-snippet: y
 ---
 
 # Developing with hybris{#developing-with-hybris}

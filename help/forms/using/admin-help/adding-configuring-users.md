@@ -8,9 +8,6 @@ contentOwner: admin
 geptopics: SG_AEMFORMS/categories
 geptopics: SG_AEMFORMS/categories/setting_up_and_organizing_users
 discoiquuid: efaccb0f-dac9-40a5-bf5f-6c8c41f04e17
-index: y
-internal: n
-snippet: y
 ---
 
 # Adding and configuring users {#adding-and-configuring-users}

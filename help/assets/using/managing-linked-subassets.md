@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference
 discoiquuid: 67a561f1-4bc3-4476-aef3-d19df2ee53c8
-index: y
-internal: n
-snippet: y
 ---
 
 # Managing Compound Assets{#managing-compound-assets}

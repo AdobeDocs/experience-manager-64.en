@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: Configuration
 discoiquuid: 4220ce62-8831-483b-96a9-3a082db48f99
-index: y
-internal: n
-snippet: y
 ---
 
 # Configure adaptive forms cache{#configure-adaptive-forms-cache}

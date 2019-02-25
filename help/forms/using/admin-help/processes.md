@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_forms_workflow
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: b292841a-8aac-4e8a-bd84-46bf5e7685b9
-index: y
-internal: n
-snippet: y
 ---
 
 # Managing Processes{#managing-processes}

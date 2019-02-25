@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/maintaining_the_aem_forms_database
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 69c1253f-d8f6-4ab0-8286-6d96d596baa7
-index: y
-internal: n
-snippet: y
 ---
 
 # Oracle database maximum open cursors threshold{#oracle-database-maximum-open-cursors-threshold}

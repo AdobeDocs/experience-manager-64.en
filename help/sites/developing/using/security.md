@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
 discoiquuid: a421e624-be07-4b72-8264-8362aa43a7ab
-index: y
-internal: n
-snippet: y
 ---
 
 # Security{#security}

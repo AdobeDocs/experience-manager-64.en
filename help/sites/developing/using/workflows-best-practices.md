@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
 discoiquuid: 522b6078-938d-4b46-9904-dfba1c72a8cc
-index: y
-internal: n
-snippet: y
 ---
 
 # Workflow Best Practices{#workflow-best-practices}

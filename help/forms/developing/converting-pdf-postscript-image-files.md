@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: c0a585fb-31d4-4837-ab80-71665e1ffa12
-index: y
-internal: n
-snippet: y
 ---
 
 # Converting PDF to Postscript andImage Files{#converting-pdf-to-postscript-andimage-files}

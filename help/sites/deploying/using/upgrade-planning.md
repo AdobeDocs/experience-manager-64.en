@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: upgrading
 discoiquuid: 221c9456-96f4-4e98-819f-81ea8a0ac6c9
-index: y
-internal: n
-snippet: y
 ---
 
 # Planning Your Upgrade{#planning-your-upgrade}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference
 discoiquuid: 22599969-2a36-40f6-97b2-d23b3c86690b
-index: y
-internal: n
-snippet: y
 ---
 
 # Video renditions{#video-renditions}

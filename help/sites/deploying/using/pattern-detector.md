@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: upgrading
 content-type: reference
 discoiquuid: 20bf3bcf-da92-4926-ba48-2b8d0d48cb71
-index: y
-internal: n
-snippet: y
 ---
 
 # Assessing the Upgrade Complexity with the Pattern Detector{#assessing-the-upgrade-complexity-with-the-pattern-detector}

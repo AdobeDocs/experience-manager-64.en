@@ -9,9 +9,6 @@ topic-tags: author
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: introduction
 discoiquuid: 7f2e9e33-2363-4c0f-b624-d133bf43a0af
-index: y
-internal: n
-snippet: y
 ---
 
 # Introduction to authoring adaptive forms {#introduction-to-authoring-adaptive-forms}

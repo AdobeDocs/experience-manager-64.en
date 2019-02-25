@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
 discoiquuid: ef9ecd1c-1a36-40f0-a067-68ca6819480c
-index: y
-internal: n
-snippet: y
 ---
 
 # Screens Authoring Capabilites{#screens-authoring-capabilites}

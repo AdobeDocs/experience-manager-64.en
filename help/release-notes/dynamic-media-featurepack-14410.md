@@ -10,9 +10,6 @@ products: SG_EXPERIENCEMANAGER/6.4
 topic-tags: release-notes
 content-type: reference
 discoiquuid: 348efaf6-5953-423b-92ae-4b61c85cb645
-index: y
-internal: n
-snippet: y
 ---
 
 # Dynamic Media Feature Pack 18912 Release Notes{#dynamic-media-feature-pack-release-notes}

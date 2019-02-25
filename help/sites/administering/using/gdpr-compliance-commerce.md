@@ -6,9 +6,6 @@ seo-description: null
 uuid: 8f870c44-5575-4f89-8e07-962da01463d8
 contentOwner: carlino
 discoiquuid: 592556fe-5e68-40fb-af9f-90a1ef4573f5
-index: y
-internal: n
-snippet: y
 ---
 
 # AEM Commerce - GDPR Readiness{#aem-commerce-gdpr-readiness}

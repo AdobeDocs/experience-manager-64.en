@@ -10,9 +10,6 @@ products: SG_AEMFORMS
 geptopics: SG_AEMFORMS/categories/maintaining_the_aem_forms_database
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 606f7b77-2e7a-49c5-b13f-6c1e3dee77f9
-index: y
-internal: n
-snippet: y
 ---
 
 # Microsoft SQL Server database: Fine-tuning the configuration{#microsoft-sql-server-database-fine-tuning-the-configuration}

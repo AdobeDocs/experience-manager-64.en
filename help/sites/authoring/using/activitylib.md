@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: personalization
 discoiquuid: e16603d2-8bf4-4772-8e95-b5af98519594
-index: y
-internal: n
-snippet: y
 ---
 
 # Managing Activities{#managing-activities}

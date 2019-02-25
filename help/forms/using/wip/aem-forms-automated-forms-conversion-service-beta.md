@@ -6,9 +6,6 @@ seo-description: null
 uuid: e9075c5d-505e-4ba7-9c68-17d95bc214de
 contentOwner: vishgupt
 discoiquuid: 5a2ecde5-e8ee-4fb1-8feb-8ea622ca7b9f
-index: y
-internal: n
-snippet: y
 ---
 
 # AEM Forms Automated Forms Conversion service prerelease notes{#aem-forms-automated-forms-conversion-service-prerelease-notes}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/MANAGING
 topic-tags: managing-checklist
 content-type: reference
 discoiquuid: 11ae2d11-2a05-41c6-b712-f9d36f270872
-index: y
-internal: n
-snippet: y
 ---
 
 # The Checklist{#the-checklist}

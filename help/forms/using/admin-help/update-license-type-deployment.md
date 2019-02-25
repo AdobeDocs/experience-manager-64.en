@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/get_started_with_administering_aem_forms_on_jee
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: c84b2f73-5421-47bf-8bbc-eea99c7b69bd
-index: y
-internal: n
-snippet: y
 ---
 
 # Update the license type for the deployment{#update-the-license-type-for-the-deployment}

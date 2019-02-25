@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: authoring
 content-type: reference
 discoiquuid: f8bc5fe3-8d08-4a85-861f-d61fcaae1599
-index: y
-internal: n
-snippet: y
 ---
 
 # About working with IBL stages{#about-working-with-ibl-stages}

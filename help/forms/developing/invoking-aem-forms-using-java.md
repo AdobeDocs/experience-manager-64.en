@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: coding
 discoiquuid: 8ba666bc-9b36-4fbd-93d4-069cc1fb8ea5
-index: y
-internal: n
-snippet: y
 ---
 
 # Invoking AEM Forms using the JavaAPI{#invoking-aem-forms-using-the-javaapi}

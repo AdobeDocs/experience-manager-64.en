@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/setting_up_and_managing_domains
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 6a73915c-c31a-4679-9d9a-0882ad5e8790
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring directories{#configuring-directories}

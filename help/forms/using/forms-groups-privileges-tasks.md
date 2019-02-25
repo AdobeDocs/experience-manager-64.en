@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 content-type: reference
 topic-tags: Configuration
 discoiquuid: cf81977b-7bd7-4bd5-b97a-dd2e50fce703
-index: y
-internal: n
-snippet: y
 ---
 
 # AEM Forms on OSGi Groups and Privileges{#aem-forms-on-osgi-groups-and-privileges}

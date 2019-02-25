@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-manager
 discoiquuid: b66998dd-1dd0-4d28-855a-6ce0f48e4872
-index: y
-internal: n
-snippet: y
 ---
 
 # Create new folders to categorize forms{#create-new-folders-to-categorize-forms}

@@ -6,9 +6,6 @@ seo-description: null
 uuid: 25ffb1dd-ab31-420a-9edd-a9cbbab5dd3e
 contentOwner: trushton
 discoiquuid: 59bf917a-940f-431a-9801-6135ac8babe1
-index: y
-internal: n
-snippet: y
 ---
 
 # AEM Mobile - GDPR Readiness{#aem-mobile-gdpr-readiness}

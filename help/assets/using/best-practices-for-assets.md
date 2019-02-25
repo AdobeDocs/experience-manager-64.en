@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
 discoiquuid: 726abb42-ff6d-4e7e-b22e-83b381034342
-index: y
-internal: n
-snippet: y
 ---
 
 # Best Practices for Assets{#best-practices-for-assets}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: a89f9304-35e0-4fa4-88e0-bc219db6cce8
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring Link Tracking for Adobe Analytics{#configuring-link-tracking-for-adobe-analytics}

@@ -7,9 +7,6 @@ uuid: d65f2eda-28b7-4336-94ce-ef4acd892355
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
 discoiquuid: 955fb6ee-dfcf-4890-9abd-07e15d6ed275
-index: y
-internal: n
-snippet: y
 ---
 
 # Separator component in adaptive forms{#separator-component-in-adaptive-forms}

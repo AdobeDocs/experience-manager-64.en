@@ -8,9 +8,6 @@ content-type: reference
 topic-tags: develop
 discoiquuid: 736bcc6d-cc2b-4652-ac62-2666c5413ad2
 noindex: true
-index: y
-internal: n
-snippet: y
 ---
 
 # Using AEM translation workflow to localize adaptive forms and document of record{#using-aem-translation-workflow-to-localize-adaptive-forms-and-document-of-record}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
 discoiquuid: b14afa92-a1a3-4fe1-a456-c4491d198001
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating a Closed User Group{#creating-a-closed-user-group}
