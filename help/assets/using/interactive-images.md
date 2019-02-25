@@ -20,10 +20,9 @@ The following is a shoppable banner with a Quickview pop-up. A user activates th
 ![](assets/chlimage_1-374.png)
 
 See interactive images in action on the web page above by going to the following:
-
 [https://marketing.adobe.com/resources/help/en_US/dm/shoppable-banner/we-fashion-QVzoom/index2-shoppable.html](https://marketing.adobe.com/resources/help/en_US/dm/shoppable-banner/we-fashion-QVzoom/index2-shoppable.html)
 
-### Watch how interactive image banners are created {#watch-how-interactive-image-banners-are-created}
+## Watch how interactive image banners are created {#watch-how-interactive-image-banners-are-created}
 
 Watch a 10 minute and 33 second walkthrough on [how interactive image banners are created](http://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=http://s7d5.scene7.com/is/content/&emailurl=http://s7d5.scene7.com/s7/emailFriend&serverUrl=http://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video_social&contenturl=http://s7d5.scene7.com/skins/&asset=S7tutorials/InteractiveCarouselBanner). You will also learn how to preview, edit, and deliver interactive image banners.
 
@@ -241,7 +240,7 @@ See [(Optional) Previewing interactive images](#optionalpreviewinginteractiveima
 >[!NOTE]
 >
 >When you add hotspots to an image in an Interactive Image or a Carousel Banner, the hotspot information is stored in the same metadata location--relative to the image's location--regardless of whether it is an Interactive Image or a Carousel Banner. This functionality means that you can easily re-use the same image--along with its defined hotspot data--in either viewer.  
-  
+>
 >Be aware, however, that Carousel Banners support image maps on images that can also contain hotspots; an Interactive Image does not. Keep this in mind if you intend to create an Interactive Image or Carousel Banner that uses the same image. You may want to create Interactive Images and Carousel Banners using separate copies of the same image instead.
 >
 >See also [Carousel Banners](../../assets/using/carousel-banners.md).
@@ -255,16 +254,12 @@ To add hotspots to an image banner:
 1. In the Assets view, navigate to the image banner that you want to make interactive.
 1. Do one of the following:
 
-    * Hover on the image, then tap **Selec**t (checkmark icon). On the toolbar, tap **Edit**.  
-    
+    * Hover on the image, then tap **Selec**t (checkmark icon). On the toolbar, tap **Edit**.
     * Hover on the image, then tap **More actions** (three dots icon) &gt; **Edit**.
-    
     * Tap the image to open it in the Detail View page. On the toolbar, tap **Edit**.
 
 1. Near the upper-left corner of the page, tap **Add Hotspot** (finger tap icon) to open the Hotspot management page.
 1. Near the upper-left corner of the page, tap **Hotspot**.
-1.
-
     1. Near the upper-left corner of the Hotspot Management page, tap **Hotspot**.
     1. On the image, tap a location where you want the hotspot to appear. If necessary, drag the hotspot to adjust its location.
     1. Add additional hotspots as necessary by repeating steps a and b.
@@ -348,7 +343,6 @@ If you are a standalone AEM Assets customer, you can manually add the interactiv
 **Example**
 
 Using the demo website as an example:
-
 [https://marketing.adobe.com/resources/help/en_US/dm/shoppable-banner/we-fashion/landing-0.html](https://marketing.adobe.com/resources/help/en_US/dm/shoppable-banner/we-fashion/landing-0.html)
 
 Notice that the picture of the three men is a static `IMG` tag:

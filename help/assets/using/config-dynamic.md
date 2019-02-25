@@ -43,11 +43,11 @@ Other content, such as Dynamic Media viewers, Site pages, and static content wil
 
 If you are a customer of Dynamic Media, you are required to use hybrid delivery as the delivery mechanism for all Dynamic Media content.
 
-#### Hybrid publishing architecture for videos {#hybrid-publishing-architecture-for-videos}
+## Hybrid publishing architecture for videos {#hybrid-publishing-architecture-for-videos}
 
 ![](assets/chlimage_1-520.png) 
 
-#### Hybrid publishing architecture for images {#hybrid-publishing-architecture-for-images}
+## Hybrid publishing architecture for images {#hybrid-publishing-architecture-for-images}
 
 ![](assets/chlimage_1-521.png) 
 
@@ -157,11 +157,10 @@ To enable dynamic media:
 
 1. On the command line, when launching the quickstart, do the following:
 
-    * Add **-r dynamicmedia** to the end of the command line when starting the jar file.
+   * Add **-r dynamicmedia** to the end of the command line when starting the jar file.
 
    ```shell
    java -Xmx4096m -Doak.queryLimitInMemory=500000 -Doak.queryLimitReads=500000 -jar cq-quickstart-6.4.0.jar -r dynamicmedia
-
    ```
 
    If you are publishing to s7delivery, then you also need to include the following trustStore arguments:
@@ -215,11 +214,10 @@ To disable Dynamic Media after it has been enabled:
 
 1. On the command line, when launching the quickstart, you can do either of the following:
 
-    * Do not add **-r dynamicmedia** to the command line when starting the jar file.
+   * Do not add **-r dynamicmedia** to the command line when starting the jar file.
 
    ```shell
    java -Xmx4096m -Doak.queryLimitInMemory=500000 -Doak.queryLimitReads=500000 -jar cq-quickstart-6.4.0.jar
-
    ```
 
 1. Request `http://localhost:4502/is/image`. You receive a message that Dynamic Media is disabled.
@@ -245,10 +243,6 @@ For all upgrades, either with or without the compatibility package, you can copy
 
 `curl -u admin:admin http://localhost:4502/libs/settings/dam/dm/presets/viewer.pushviewerpresets`
 
-```
-
-```
-
 ## Configuring Image Replication {#configuring-image-replication}
 
 Dynamic Media image delivery works by publishing image assets, including video thumbnails, from AEM Author and replicating them to Adobe's on-demand replication service (the Replication Service URL). Assets are then delivered by way of the on-demand image delivery service (the Image Service URL).
@@ -270,7 +264,7 @@ After you have configured the replication agent, you need to [validate and test 
 >
 >An image that requires more than the maximum memory limit will be rejected.
 >
->To change the memory limit for PTIFF creation, navigate to **Tools** &gt; **Operations** &gt; **Web Console **&gt; **Adobe CQ Scene7 PTiffManager** and change the **maxMemory** value.
+>To change the memory limit for PTIFF creation, navigate to **Tools** > **Operations** > **Web Console** > **Adobe CQ Scene7 PTiffManager** and change the **maxMemory** value.
 
 ### Setting up Authentication {#setting-up-authentication}
 
@@ -298,15 +292,15 @@ To set up authentication:
 
 1. On the **Edit User Settings For dynamic-media-replication** page, expand the **Add Private Key from KeyStore file **area and add the following (see the images that follow):
 
-    * In the** New Alias** field, enter** **the name of an alias that you will later use in the replication configuration; for example, **replication**.
+    * In the **New Alias** field, enter **the name of an alias that you will later use in the replication configuration**; for example, **replication**.
     
     * Tap **KeyStore File**. Navigate to the KeyStore file provided to you by Adobe, select it, then tap **Open**.  
     
-    * In the** KeyStore File Password** field, enter the KeyStore File password. This is **not** the KeyStore password that you created in Step 5 but is the KeyStore File password Adobe provides in the Welcome email sent to you during provisioning. Contact Adobe Customer Care if you did not receive a KeyStore File password.
+    * In the **KeyStore File Password** field, enter the KeyStore File password. This is **not** the KeyStore password that you created in Step 5 but is the KeyStore File password Adobe provides in the Welcome email sent to you during provisioning. Contact Adobe Customer Care if you did not receive a KeyStore File password.
     
     * In the **Private Key Password** field, enter the private key password (may be the same private key password provided in the previous step). Adobe provides the private key password in the Welcome email sent to you during provisioning. Contact Adobe Customer Care if you did not receive a private key password.  
     
-    * In the** Private Key Alias** field, enter the private key alias. For example, `*companyname*-alias`. Adobe provides the private key alias in the Welcome email sent to you during provisioning. Contact Adobe Customer Care if you did not receive a private key alias.
+    * In the **Private Key Alias** field, enter the private key alias. For example, `*companyname*-alias`. Adobe provides the private key alias in the Welcome email sent to you during provisioning. Contact Adobe Customer Care if you did not receive a private key alias.
 
    ![](assets/edit_settings_fordynamic-media-replication2.png)
 
@@ -323,8 +317,8 @@ To configure the replication agent:
 1. Tap **Edit**.
 1. Tap the **Settings** tab, then enter the following:
 
-    * **Enabled **- Select this check box to enable the replication agent.
-    * **Region **- Set to the appropriate region: North America, Europe, or Asia
+    * **Enabled** - Select this check box to enable the replication agent.
+    * **Region** - Set to the appropriate region: North America, Europe, or Asia
     * **Tenant ID** - This value is the name of your company/tenant that is publishing to the Replication Service. This value is the Tenant ID that Adobe provides in the Welcome email sent to you during provisioning. Contact Adobe Customer Care if you did not receive this.
 
     * **Key Store Alias** - This value is the same as the** New Alias** value set when generating the key in [Setting Up Authentication](#settingupauthentication); for example, `replication`. (See step 7 in [Setting Up Authentication](#settingupauthentication).)
@@ -363,7 +357,6 @@ Replication test succeeded
 >
 >* Check the replication logs to make sure the asset is replicated. 
 >* Publish an image. Tap or click the image and select **Viewers** in drop-down menu. Then select a viewer preset, then click URL, and copy/paste the URL in the browser to verify that you can see the image.
->
 
 ### Troubleshooting Authentication {#troubleshooting-authentication}
 
@@ -474,7 +467,6 @@ Replicate log example:
 01.08.2016 18:42:59 - Publishing: POST[https://replicate-eu.assetsadobe2.com:443/is-publish/publish-receiver?Cmd=Test&RootId=altayerstaging]
 01.08.2016 18:42:59 - Transfer failed for ReplicationAction{type=TEST, path[0]='/content/dam', time=1470073379634, userId='admin', revision='null'}. java.io.IOException: Failed to execute request 'https://replicate-eu.assetsadobe2.com:443/is-publish/publish-receiver?Cmd=Test&RootId=rbroughstaging': Server returned status code 401 with message: Authorization required.
 01.08.2016 18:42:59 - Error while replicating: com.day.cq.replication.ReplicationException: Transfer failed for ReplicationAction{type=TEST, path[0]='/content/dam', time=1470073379634, userId='admin', revision='null'}. java.io.IOException: Failed to execute request 'https://replicate-eu.assetsadobe2.com:443/is-publish/publish-receiver?Cmd=Test&RootId=rbroughstaging': Server returned status code 401 with message: Authorization required.
-
 ```
 
 **Solution:**

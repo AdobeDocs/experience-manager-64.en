@@ -15,13 +15,15 @@ discoiquuid: 2214290f-62c0-4d33-b8a6-fb64050d1589
 
 The following reference includes information about a particular metadata schemata (in alphabetical order) as well as a list of properties and their definitions.
 
-### CC {#cc}
+## CC {#cc}
+
+<!--This table seems incomplete-->
 
 | **Property** |**Description** |
 |---|---|
 | License |  |
 
-### Dublin Core {#dublin-core}
+## Dublin Core {#dublin-core}
 
 Dublin Core metadata provides a standardized set of conventions for describing assets to make them easier to find. In AEM Assets, the Dublin Core describes digital assets including video, sound, images, and documents.
 

@@ -33,7 +33,7 @@ To fully upload files to AEM Assets that you have created with Adobe InDesign a 
 >  The scripts are written in extendscript, which is similar to javascript. For information about Indesign scripts see [http://www.adobe.com/devnet/indesign/documentation.html#idscripting](http://www.adobe.com/devnet/indesign/documentation.html#idscripting).
 >
 
-### How the Extraction Works {#how-the-extraction-works}
+## How the Extraction Works {#how-the-extraction-works}
 
 The InDesign Server can be integrated with AEM Assets so that files created with InDesign ( `.indd`) can be uploaded, renditions generated, *all* media extracted (for example, video) and stored as assets:
 
@@ -215,14 +215,13 @@ First you need to determine the maximum number of parallel jobs ( `x`) an InDesi
 
 To configure the number of parallel IDS jobs:
 
+<!-- Please compare these steps to original. Scrambled?-->
+
 1. Open the **Configurations** tab of the Felix Console; for example:
 1. Select the IDS processing queue under:
-1. Set:** 
-   **
+1. Set:
 
-    * **Type** - `Parallel`** 
-      **
-    
+    * **Type** - **`Parallel`** 
     * **Maximum Parallel Jobs** - `<*x*>` (as calculated above)
 
 1. Save these changes.

@@ -26,7 +26,7 @@ This section describes how to create, modify, and generally manage image presets
 >
 >Smart imaging works with your existing image presets and uses intelligence at the last millisecond of delivery to further reduce image file size based on browser or network connection speed. See [Smart Imaging](../../assets/using/imaging-faq.md) for more information.
 
-### Understanding Image Presets {#understanding-image-presets}
+## Understanding Image Presets {#understanding-image-presets}
 
 Like a macro, an Image Preset is a predefined collection of sizing and formatting commands saved under a name. To understand how Image Presets work, suppose your web site requires each product image to appear in different sizes, different formats, and compression rates for desktop and mobile delivery.
 
@@ -36,7 +36,7 @@ Images that are reduced in size when they are delivered dynamically can lose sha
 
 Administrators can create Image Presets. To create an image preset, you can start from scratch or you can start from an existing one and save it under a new name.
 
-### Managing Image Presets {#managing-image-presets}
+## Managing Image Presets {#managing-image-presets}
 
 You manage your image presets in AEM by tapping or clicking the AEM logo to access the global navigation console and then tapping or clicking the Tools icon and navigating to **Assets **&gt;** Image Presets**.
 
@@ -56,7 +56,7 @@ You manage your image presets in AEM by tapping or clicking the AEM logo to acce
 >
 >The system shows a variety of renditions when you select **Renditions** in an asset's Detail View. You can increase or decrease the number of image presets that display. See [Increasing the number of image presets that display](#increasingthenumberofimagepresetsthatdisplay).
 
-### Adobe Illustrator (AI), Postscript (EPS), and PDF file formats {#adobe-illustrator-ai-postscript-eps-and-pdf-file-formats}
+## Adobe Illustrator (AI), Postscript (EPS), and PDF file formats {#adobe-illustrator-ai-postscript-eps-and-pdf-file-formats}
 
 If you intend to support the ingestion of AI, EPS, and PDF files so that you can generate dynamic renditions of these file formats, you may want to review the following information before you create image presets.
 
@@ -81,7 +81,7 @@ To use Dynamic Media to preview and generate dynamic renditions for AI, EPS or P
 >
 >In the DAM Update Asset workflow, the **EPS thumbnails** step generates thumbnails for EPS files.
 
-#### PDF/AI/EPS asset metadata properties {#pdf-ai-eps-asset-metadata-properties}
+### PDF/AI/EPS asset metadata properties {#pdf-ai-eps-asset-metadata-properties}
 
 | **Metadata property** |**Description** |
 |---|---|
@@ -92,7 +92,7 @@ You access `Rasterize PDF/AI Image Preview Rendition` process component options 
 
 Tap on Adobe Experience Manager in the upper left, navigate to **Tools **> **Workflow** > **Models**. On the Workflow Models page, select **DAM Update Asset**, then on the toolbar tap **Edit**. On the DAM Update Asset workflow page, double-tap the `Rasterize PDF/AI Image Preview Rendition` process component to open its Step Properties dialog box.
 
-#### Rasterize PDF/AI Image Preview Rendition options {#rasterize-pdf-ai-image-preview-rendition-options}
+### Rasterize PDF/AI Image Preview Rendition options {#rasterize-pdf-ai-image-preview-rendition-options}
 
 ![Arguments to rasterize PDF or AI workflow](assets/rasterize_pdf_ai_image_preview.png)
 

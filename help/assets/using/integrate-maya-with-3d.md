@@ -42,7 +42,7 @@ To integrate AEM 3D with Autodesk Maya:
 
 1. Add the path to the Maya executable folder to the Windows PATH environment variable.
 
-   For example, on Windows Server 2012, tap or click **Start **> **Control Panel** > **System and Security** > **System **> **Advanced System Settings** > **Environment Variables**. Append the full path to the `Maya2016\bin` folder to the `Path`system variable.
+   For example, on Windows Server 2012, tap or click **Start** > **Control Panel** > **System and Security** > **System** > **Advanced System Settings** > **Environment Variables**. Append the full path to the `Maya2016\bin` folder to the `Path`system variable.
 
    ![](assets/chlimage_1-58.png)
 
@@ -64,9 +64,9 @@ To integrate AEM 3D with Autodesk Maya:
 
    Maya is now enabled as a renderer.
 
-### Testing the integration of AEM 3D with Autodesk Maya {#testing-the-integration-of-aem-d-with-autodesk-maya}
+## Testing the integration of AEM 3D with Autodesk Maya {#testing-the-integration-of-aem-d-with-autodesk-maya}
 
-1. Open AEM Assets, then upload the `.MA` files located in `sample-3D-content/models`** **to the `test3d` folder.
+1. Open AEM Assets, then upload the `.MA` files located in **`sample-3D-content/models`** to the `test3d` folder.
 
    Note that `sample-3D-content.zip` was previously downloaded for validating the basic 3D functionality.
 
@@ -107,10 +107,11 @@ To enable additional formats supported by AEM:
 
 1. Using **CRXDE Lite**, navigate to **`/libs/settings/dam/v3D/assetTypes`.**
 1. Make a copy of the **jt** node. Right-click on the **jt** node and select **Copy**, then right-click the **assetTypes** folder and select **Paste**. This should produce a new node **/apps/cq-scene7-v3D/config/assetTypes/Copy of jt**.
-1. Rename the new node to give it a unique name which represents the file type to be added. The file suffix might be used or any other unique identifier.  
+1. Rename the new node to give it a unique name which represents the file type to be added. 
 
-1. Set the **Enabled** property of the new node to `true`.  
+The file suffix might be used or any other unique identifier.  
 
+1. Set the **Enabled** property of the new node to `true`.
 1. Set the **Extension** property of the new note to the file suffix/extension of the format being added.
 1. Set the **MimeType** property to an appropriate value. **`application/x-`** followed by the value of the **Extension **property should work for most file types.
 1. Make certain that the **Conversion** property is set to **`fbx`** and **IngestRegime** to **`Maya`**.

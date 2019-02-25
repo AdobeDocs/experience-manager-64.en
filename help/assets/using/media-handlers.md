@@ -532,7 +532,7 @@ The `CommandLineProcess` process performs the following operations in the order 
 * Deletes the temporary directory.  
 * Creates thumbnails based on those renditions, if specified. The number and the dimensions of the thumbnails are defined by the arguments of the step.
 
-#### An Example Using ImageMagick {#an-example-using-imagemagick}
+### An Example Using ImageMagick {#an-example-using-imagemagick}
 
 The following example shows you how to set up the command line process step so that every time an asset with the mime-type gif or tiff is added to /content/dam on the AEM server, a flipped image of the original is created together with three additional thumbnails (140x100, 48x48 and 10x250).
 
@@ -567,7 +567,7 @@ Finally, test the modified workflow by adding a new asset to **/content/dam**:
 1. Go to the **CQ5 DAM** console, for example `http://localhost:4502/libs/wcm/core/content/damadmin.html`.
 1. Open the asset **myImage.tiff** and verify that the flipped image and the three thumbnails have been created.
 
-#### Configuring the CommandLineProcess Process Step {#configuring-the-commandlineprocess-process-step}
+### Configuring the CommandLineProcess Process Step {#configuring-the-commandlineprocess-process-step}
 
 This section describes how to set the **Process Arguments** of the **CommandLineProcess**.
 

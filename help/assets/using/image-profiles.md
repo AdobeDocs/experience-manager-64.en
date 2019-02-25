@@ -19,7 +19,7 @@ When uploading images, you can automatically crop the image upon upload by apply
 >
 >Smart Crop is available only in Dynamic Media - Scene7 mode.
 
-### Crop Options {#crop-options}
+## Crop Options {#crop-options}
 
 You have two image cropping options to choose from and an option for automating the creation of color and image swatches.
 
@@ -60,7 +60,7 @@ You have two image cropping options to choose from and an option for automating 
  </tbody> 
 </table>
 
-### Unsharp Mask {#unsharp-mask}
+## Unsharp Mask {#unsharp-mask}
 
 You use** Unsharp mask** to fine-tune a sharpening filter effect on the final downsampled image. You can control intensity of effect, radius of the effect (measured in pixels), and a threshold of contrast that will be ignored. This effect uses the same options as Adobe Photoshop’s “Unsharp Mask” filter.
 
@@ -250,7 +250,7 @@ When you remove an image profile from a folder, any subfolders automatically inh
 
 You can remove an image profile from a folder from within the **Tools** menu or if you are in the folder, from **Properties**. This section describes how to remove image profiles from folders both ways.
 
-#### Removing image profiles from folders via Profiles user interface {#removing-image-profiles-from-folders-via-profiles-user-interface}
+### Removing image profiles from folders via Profiles user interface {#removing-image-profiles-from-folders-via-profiles-user-interface}
 
 1. Tap or click the AEM logo and navigate to **Tools **&gt; **Assets **&gt; **Image Profiles.**
 1. Select the image profile that you want to remove from a folder or multiple folders.
@@ -258,7 +258,7 @@ You can remove an image profile from a folder from within the **Tools** menu or 
 
    You can confirm that the image profile is no longer applied to a folder because the name no longer appears below the folder name.
 
-#### Removing image profiles from folders via Properties {#removing-image-profiles-from-folders-via-properties}
+### Removing image profiles from folders via Properties {#removing-image-profiles-from-folders-via-properties}
 
 1. Tap or click the AEM logo and navigate **Assets **and then to the folder that you want to remove an image profile from.
 1. On the folder, tap or click the check mark to select it and then tap or click **Properties**.

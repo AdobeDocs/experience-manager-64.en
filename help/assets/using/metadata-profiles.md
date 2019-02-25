@@ -198,7 +198,7 @@ When you remove a metadata profile from a folder, any subfolders automatically i
 
 You can remove a metadata profile from a folder from within the **Tools** menu or if you are in the folder, from the **Properties**. This section describes how to remove metadata profiles from folders both ways.
 
-#### Removing metadata profiles from folders via Profiles user interface {#removing-metadata-profiles-from-folders-via-profiles-user-interface}
+### Removing metadata profiles from folders via Profiles user interface {#removing-metadata-profiles-from-folders-via-profiles-user-interface}
 
 To remove a metadata profile from folders via Profiles user interface:
 
@@ -208,7 +208,7 @@ To remove a metadata profile from folders via Profiles user interface:
 
    You can confirm that the metadata profile is no longer applied to a folder because the name no longer appears below the folder name.
 
-#### Removing metadata profiles from folders via Properties {#removing-metadata-profiles-from-folders-via-properties}
+### Removing metadata profiles from folders via Properties {#removing-metadata-profiles-from-folders-via-properties}
 
 To remove a metadata profile from folders via properties:
 

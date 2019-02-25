@@ -17,7 +17,7 @@ Optimizing image quality can be a time consuming process as many factors contrib
 
 AEM includes more than 100 dynamic media image delivery commands for tuning and optimizing images and rendering results. The following guidelines can help you streamline the process and achieve good results quickly using some essential commands and best practices.
 
-### Best practices for image format (&fmt=) {#best-practices-for-image-format-fmt}
+## Best practices for image format (&fmt=) {#best-practices-for-image-format-fmt}
 
 * JPG or PNG are the best choices to deliver images in good quality and with manageable size and weight.
 * If no format command is supplied in the URL, Dynamic Media Image Delivery defaults to JPG for delivery.
@@ -28,7 +28,7 @@ AEM includes more than 100 dynamic media image delivery commands for tuning and 
 
 As a best practice for image format, start with the most common setting `&fmt=JPG`.
 
-### Best practices for image size {#best-practices-for-image-size}
+## Best practices for image size {#best-practices-for-image-size}
 
 Dynamically reducing image size is one of the most common tasks. It involves specifying the size and, optionally, which downsampling mode is used to downscale the image.
 
@@ -37,7 +37,7 @@ Dynamically reducing image size is one of the most common tasks. It involves spe
 
 As a best practice for image sizing, use `&wid=<value>&hei=<value>&resMode=sharp2` or `&hei=<value>&resMode=sharp2`
 
-### Best practices for image sharpening {#best-practices-for-image-sharpening}
+## Best practices for image sharpening {#best-practices-for-image-sharpening}
 
 Image sharpening is the most complex aspect of controlling images on your website, and where many mistakes are made. Take the time to learn more about how sharpening and unsharp masking works in AEM by referring to the following helpful resources:
 
@@ -82,7 +82,7 @@ Gradually increase the amount from 1.75 to 4. If sharpening is still not the way
 
 Leave the monochrome parameter setting at 0.
 
-### Best practices for JPEF compression (&qlt=) {#best-practices-for-jpef-compression-qlt}
+## Best practices for JPEF compression (&qlt=) {#best-practices-for-jpef-compression-qlt}
 
 * This parameter controls JPG encoding quality. A higher value means a higher-quality image but a large file size; alternatively, a lower value means a lower quality image but a smaller file size. The range for this parameter is 0-100.
 * To optimize for quality, do not set the parameter value to 100. The difference between a setting of 90 or 95 and 100 is almost imperceptible, yet 100 unnecessarily increases the size of the image file. Therefore, to optimize for quality but avoid image files becoming too large, set the qlt= value to 90 or 95.
@@ -95,7 +95,7 @@ Leave the monochrome parameter setting at 0.
 
 As a best practice for JPG compression use &qlt=85,0.
 
-### Best practices for JPEG sizing (&jpegSize=) {#best-practices-for-jpeg-sizing-jpegsize}
+## Best practices for JPEG sizing (&jpegSize=) {#best-practices-for-jpeg-sizing-jpegsize}
 
 jpegSize is a useful parameter if you want to guarantee that an image does not exceed a certain size for delivery to devices that have limited memory.
 
@@ -104,7 +104,7 @@ jpegSize is a useful parameter if you want to guarantee that an image does not e
 
 As a best practice, set &jpegSize= and add the parameter &qlt= if you are delivering JPG images to devices with limited memory.
 
-### Best practices summary {#best-practices-summary}
+## Best practices summary {#best-practices-summary}
 
 As a best practice, to achieve a high image quality and small file size, start with the following combination of parameters:
 

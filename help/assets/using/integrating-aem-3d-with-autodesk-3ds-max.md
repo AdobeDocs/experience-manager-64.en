@@ -33,7 +33,7 @@ To integrate AEM 3D with Autodesk 3ds Max:
    >
    >To avoid access denied issues, install 3ds Max using the same admin user account as AEM.
 
-1. In 3ds Max, click **Customize **&gt; **Plug-in Manager**.
+1. In 3ds Max, click **Customize** > **Plug-in Manager**.
 
    Locate **`FBXMAX.DLU`** and verify that its **Status** is "loaded".
 
@@ -56,7 +56,6 @@ To integrate AEM 3D with Autodesk 3ds Max:
 1. Remove the working folder (only necessary if a previous attempt was made to ingest a .MAX file).
 
     1. In CRXDE Lite, navigate to `/libs/settings/dam/v3D/Paths/maxWorkPath`. By default, the value of this setting is `./MaxWork`, which is relative to the AEM install root folder.
-    
     1. Log onto the server itself and use **File Explorer** to navigate to the AEM install root folder.
     1. Delete the **MaxWork** folder--including its entire contents--if it exists.  
        The folder is re-created automatically the next time a .MAX file is ingested.
@@ -69,7 +68,7 @@ To integrate AEM 3D with Autodesk 3ds Max:
 
 1. Near the upper-left corner of the CRXDE Lite page, tap or click **Save All**.
 
-### Testing the integration of AEM 3D with Autodesk 3ds Max {#testing-the-integration-of-aem-d-with-autodesk-ds-max}
+## Testing the integration of AEM 3D with Autodesk 3ds Max {#testing-the-integration-of-aem-d-with-autodesk-ds-max}
 
 1. Open AEM Assets, then upload the .MAX file located in `sample-3D-content/models`** **to the **test3d** folder.
 

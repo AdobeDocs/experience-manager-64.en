@@ -19,7 +19,7 @@ A proxy is a specific (and sometimes separate) AEM instance that uses proxy work
 
 When the proxy is a separate AEM instance this helps reduce the load on the AEM authoring instance(s). By default, AEM Assets executes the asset processing tasks in the same JVM (externalized via Proxy) to reduce the load on the AEM authoring instance.
 
-### Proxy (HTTP Access) {#proxy-http-access}
+## Proxy (HTTP Access) {#proxy-http-access}
 
 A proxy is available via the HTTP Servlet when it is configured to accept processing jobs at:
 
@@ -27,7 +27,7 @@ A proxy is available via the HTTP Servlet when it is configured to accept proces
 
 This servlet creates a sling job from the posted parameters. This is then added to the proxy job queue and connected to the appropriate proxy worker.
 
-#### Supported Operations {#supported-operations}
+### Supported Operations {#supported-operations}
 
 * `job`  
   **Requirements**: the parameter `jobevent` must be set as a serialized value map. This is used to create an `Event` for a job processor.  
@@ -65,7 +65,7 @@ curl -u admin:admin -F":operation=remove" -F"jobid=xxxxxxxxxxxx"
     http://localhost:4502/libs/dam/cloud/proxy
 ```
 
-### Proxy Worker {#proxy-worker}
+## Proxy Worker {#proxy-worker}
 
 A proxy worker is a processor responsible for handling a job and creating a result. Workers reside on the proxy instance and must implement [sling JobProcessor](http://sling.apache.org/site/eventing-and-jobs.html) to be recognized as a proxy worker.
 
@@ -73,7 +73,7 @@ A proxy worker is a processor responsible for handling a job and creating a resu
 >
 >The worker must implement [sling JobProcessor](http://sling.apache.org/site/eventing-and-jobs.html) to be recognized as a proxy worker.
 
-### Client API {#client-api}
+## Client API {#client-api}
 
 >[!NOTE]
 >
@@ -104,7 +104,7 @@ The following is an example of API usage:
 
 ```
 
-### Cloud Service Configurations {#cloud-service-configurations}
+## Cloud Service Configurations {#cloud-service-configurations}
 
 >[!NOTE]
 >
@@ -139,7 +139,7 @@ The following is an example of API usage:
  final String value = cloudConfig.get("someProperty", "defaultValue");
 ```
 
-### Developing a Customized Proxy Worker {#developing-a-customized-proxy-worker}
+## Developing a Customized Proxy Worker {#developing-a-customized-proxy-worker}
 
 The [IDS proxy worker](../../assets/using/indesign.md) is an example of a AEM Assets proxy worker that is already provided out-of-the-box to outsource the processing of Indesign assets.
 

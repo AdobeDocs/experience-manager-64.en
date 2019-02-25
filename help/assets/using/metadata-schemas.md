@@ -91,7 +91,7 @@ You can add new tabs or form items to the metadata schema form. The tabs and for
 
 1. To configure a component, select it and modify its properties in the** Settings **tab.
 
-#### Components within the Build Form tab {#components-within-the-build-form-tab}
+### Components within the Build Form tab {#components-within-the-build-form-tab}
 
 The **Build Form **tab lists form items that you use in your schema form. The **Settings **tab provides the attributes of each item that you select in the **Build Form **tab. The following table lists the form items available in the **Build Form **tab: 
 
@@ -160,7 +160,7 @@ The **Build Form **tab lists form items that you use in your schema form. The **
  </tbody> 
 </table>
 
-#### Editing the metadata component {#editing-the-metadata-component}
+### Editing the metadata component {#editing-the-metadata-component}
 
 To edit the properties of a metadata component on the form, click the component and edit all or a subset of the following properties in the **Settings** tab.
 
@@ -212,13 +212,11 @@ To include any tab in the properties page in addition to the tab where the Conte
 
 ![](assets/chlimage_1-185.png) 
 
-##
-
-#### Specifying properties in JSON file {#specifying-properties-in-json-file}
+### Specifying properties in JSON file {#specifying-properties-in-json-file}
 
 Instead of specifying properties for the options in the **Settings** tab, you can define the options in a JSON file by specifying corresponding key-value pairs. Specify the path of the JSON file in the **JSON Path** field.
 
-#### Adding/deleting a tab in the schema form {#adding-deleting-a-tab-in-the-schema-form}
+### Adding/deleting a tab in the schema form {#adding-deleting-a-tab-in-the-schema-form}
 
 The schema editor lets you add or delete a tab. The **default **schema form includes the **Basic**, **Advanced** , **IPTC**, and **IPTC Extension** tabs, by default.
 
@@ -250,11 +248,11 @@ To delete a form, select a form and click the **Delete** icon.
 
 AEM Assets provides default forms for various MIME types out of the box. However, you can add custom forms for assets of various MIME types.
 
-#### Adding new forms for MIME types {#adding-new-forms-for-mime-types}
+### Adding new forms for MIME types {#adding-new-forms-for-mime-types}
 
 Create a new form under the appropriate form type. For example, to add a new template for the **image/png** subtype, create the form under the "image" forms. The title for the schema form is the subtype name. In this case, the title is "png.**"**
 
-#### Using an existing schema template for various MIME types {#using-an-existing-schema-template-for-various-mime-types}
+### Using an existing schema template for various MIME types {#using-an-existing-schema-template-for-various-mime-types}
 
 You can use an existing template for a different MIME type. For example, use the **image/jpeg **form for assets of MIME type** image/png**.
 
@@ -263,7 +261,7 @@ In this case, create a new node at */etc/dam/metadataeditor/mimetypemappings* in
 | **Name** |**Description** |**Type** |**Value** |
 |---|---|---|---|
 | exposedmimetype |Name of the existing form to be mapped  |String |image/jpeg |
-| mimetypes |List of MIME types that use the form defined in the **exposedmimetype **attribute |String[] |image/png |
+| mimetypes |List of MIME types that use the form defined in the **exposedmimetype** attribute |String[] |image/png |
 
 AEM Assets maps the following MIME types and schema forms:
 

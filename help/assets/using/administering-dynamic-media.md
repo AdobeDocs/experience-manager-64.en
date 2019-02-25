@@ -40,5 +40,3 @@ See also the following topics:
 >**If upgrading:**
 >
 >* After you have AEM up and running, any asset you upload has dynamic media automatically enabled (unless it was explicitly disabled by your system administrator). If you are on an upgraded instance of AEM and new to Dynamic Media, you may need to re-process your assets to make them dynamic media-enabled.
->
-
