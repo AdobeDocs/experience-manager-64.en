@@ -8,9 +8,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
 discoiquuid: 863c2e46-3ee8-461d-a0a3-a3847abde25e
-index: y
-internal: n
-snippet: y
 ---
 
 # User, Group and Access Rights Administration{#user-group-and-access-rights-administration}

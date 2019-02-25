@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_document_security
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 7cff9541-00d2-43de-989b-f2496fb7ea75
-index: y
-internal: n
-snippet: y
 ---
 
 # Using the document security webpages{#using-the-document-security-webpages}

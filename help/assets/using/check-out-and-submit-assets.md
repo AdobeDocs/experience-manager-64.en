@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference
 discoiquuid: 345124f8-c6a8-44b3-9076-0c5159bcd47a
-index: y
-internal: n
-snippet: y
 ---
 
 # Check In and Check Out Files in Assets{#check-in-and-check-out-files-in-assets}

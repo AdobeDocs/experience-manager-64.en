@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
 discoiquuid: 7804989d-9934-4402-827d-3adaadde1c89
-index: y
-internal: n
-snippet: y
 ---
 
 # Managing Metadata for Digital Assets{#managing-metadata-for-digital-assets}

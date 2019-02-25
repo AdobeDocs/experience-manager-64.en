@@ -7,9 +7,6 @@ page-status-flag: never-activated
 uuid: fd38f290-841c-48e3-a878-853c0e8ffe8d
 contentOwner: khsingh
 discoiquuid: 33c7c8cc-0813-403a-9dea-78c9f7aa76e8
-index: y
-internal: n
-snippet: y
 ---
 
 # [DO NOT PUBLISH] Extending the default meta-model{#do-not-publish-extending-the-default-meta-model}

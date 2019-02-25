@@ -9,9 +9,6 @@ topic-tags: content-fragments
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
 discoiquuid: 9599a4f9-4244-4497-a0f4-7b711c6e2995
-index: y
-internal: n
-snippet: y
 ---
 
 # Working with Content Fragments{#working-with-content-fragments}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: testing
 content-type: reference
 discoiquuid: 0688ea80-2571-4bf3-8f38-ac9f680839d2
-index: y
-internal: n
-snippet: y
 ---
 
 # Compiling your Test Plan{#compiling-your-test-plan}

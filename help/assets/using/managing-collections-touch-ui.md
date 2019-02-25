@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
 topic-tags: authoring
 discoiquuid: 976449a6-2a53-45ed-97b3-a0ede6abf824
-index: y
-internal: n
-snippet: y
 ---
 
 # Managing Collections{#managing-collections}

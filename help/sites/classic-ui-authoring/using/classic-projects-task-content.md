@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: projects
 content-type: reference
 discoiquuid: 57edda1e-e5f6-454c-8279-558d18768fbb
-index: y
-internal: n
-snippet: y
 ---
 
 # Working with Tasks{#working-with-tasks}

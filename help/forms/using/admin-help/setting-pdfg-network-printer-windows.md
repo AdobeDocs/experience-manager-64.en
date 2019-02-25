@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_pdf_generator
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: bed0fac5-996d-4840-b789-fe7cf6f59680
-index: y
-internal: n
-snippet: y
 ---
 
 # Setting up a PDFG Network Printer (Windows only){#setting-up-a-pdfg-network-printer-windows-only}

@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
 discoiquuid: 63fbbf2d-fb47-40a3-a403-c9f5f9c29a48
-index: y
-internal: n
-snippet: y
 ---
 
 # Remote functions in Expression Builder{#remote-functions-in-expression-builder}

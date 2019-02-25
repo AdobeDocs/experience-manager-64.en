@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
 discoiquuid: e46e347f-2a30-4ae9-8adc-e748b1799e7a
-index: y
-internal: n
-snippet: y
 ---
 
 # Screen readers for HTML5 forms{#screen-readers-for-html-forms}

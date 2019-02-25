@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
 discoiquuid: 58bc4a76-02aa-4be9-92cb-5ef475d95076
-index: y
-internal: n
-snippet: y
 ---
 
 # Cloud Service Configurations{#cloud-service-configurations}

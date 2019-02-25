@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/maintaining_aem_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 8d2bcf68-147f-4cbb-83a8-9e8064920aad
-index: y
-internal: n
-snippet: y
 ---
 
 # Monitoring AEM forms deployments{#monitoring-aem-forms-deployments}

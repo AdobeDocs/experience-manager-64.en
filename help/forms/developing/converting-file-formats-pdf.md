@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: b330deb9-8f13-464d-805d-19a36fb3ae93
-index: y
-internal: n
-snippet: y
 ---
 
 # Converting Between File Formatsand PDF{#converting-between-file-formatsand-pdf}

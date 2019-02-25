@@ -5,9 +5,6 @@ description: Review and correct the adaptive forms converted by the Automated Fo
 seo-description: Review and correct the adaptive forms converted by the Automated Forms Conversion service
 uuid: 0bf8ce5f-ec26-46ff-ad62-0514ebf03f96
 discoiquuid: 53f82763-0c35-47b2-96c6-b2a1333f6a69
-index: y
-internal: n
-snippet: y
 ---
 
 # Review and correct converted forms{#review-and-correct-converted-forms}

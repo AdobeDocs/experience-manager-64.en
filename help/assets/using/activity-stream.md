@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
 topic-tags: authoring
 discoiquuid: ca73f293-1f24-4bf6-a6fb-00b91c280d10
-index: y
-internal: n
-snippet: y
 ---
 
 # Activity stream in timeline{#activity-stream-in-timeline}

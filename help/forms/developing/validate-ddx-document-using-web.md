@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/validating_ddx_documents
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 195c8450-19ed-4dd7-8a8f-75f631d43e57
-index: y
-internal: n
-snippet: y
 ---
 
 # Validate a DDX document using theweb service API{#validate-a-ddx-document-using-theweb-service-api}

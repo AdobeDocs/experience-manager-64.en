@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: 1b2ad990-d976-4ba2-b9ef-b615f58a33f4
-index: y
-internal: n
-snippet: y
 ---
 
 # Develop Sandbox Content{#develop-sandbox-content}

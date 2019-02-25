@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: 93480edc-fb6e-4fd3-8b94-28acb7007001
-index: y
-internal: n
-snippet: y
 ---
 
 # Naming Conventions{#naming-conventions}

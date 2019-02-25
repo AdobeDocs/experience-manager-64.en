@@ -9,9 +9,6 @@ topic-tags: develop
 topic-tags: interactive-communications
 content-strategy: max-2018
 discoiquuid: e8e46937-384d-4405-bb25-47429b4fd65d
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating and using themes{#creating-and-using-themes}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
 discoiquuid: a77e70e7-e1e5-4c9e-8c51-59085409c264
-index: y
-internal: n
-snippet: y
 ---
 
 # Community Groups{#community-groups}

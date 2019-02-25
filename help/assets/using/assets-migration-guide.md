@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
 discoiquuid: df0b01c9-c8f3-40bf-b6f7-d402e9ee0dc6
-index: y
-internal: n
-snippet: y
 ---
 
 # Assets Migration Guide{#assets-migration-guide}

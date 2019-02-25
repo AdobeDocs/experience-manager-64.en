@@ -6,9 +6,6 @@ seo-description: Ready your AEM instance to use Automated Forms Conversion servi
 uuid: 50bf0209-a4d0-496d-8f71-663a77761e03
 contentOwner: khsingh
 discoiquuid: 3b4d16d8-05c3-4a81-8f95-87b441885d6d
-index: y
-internal: n
-snippet: y
 ---
 
 # Configure the Automated Forms Conversion service{#configure-the-automated-forms-conversion-service}

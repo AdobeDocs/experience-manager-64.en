@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/importing_and_managing_applications_and_archives
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 6b0fedbe-3115-431e-b655-d2606792c7fc
-index: y
-internal: n
-snippet: y
 ---
 
 # Change the number of items displayed on the Applications and Services pages{#change-the-number-of-items-displayed-on-the-applications-and-services-pages}

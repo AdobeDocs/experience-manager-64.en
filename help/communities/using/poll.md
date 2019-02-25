@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
 discoiquuid: 8f19eb57-6eb7-4f5b-b49a-bd3f8126ec81
-index: y
-internal: n
-snippet: y
 ---
 
 # Using Polls{#using-polls}

@@ -10,9 +10,6 @@ geptopics: SG_AEMFORMS/categories/rendering_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: 5194ab99-7077-4a30-a64c-ca517180c6d8
-index: y
-internal: n
-snippet: y
 ---
 
 # Rendering Forms By Value{#rendering-forms-by-value}

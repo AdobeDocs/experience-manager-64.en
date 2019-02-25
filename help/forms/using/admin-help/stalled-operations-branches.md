@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_forms_workflow
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: cb8c2d69-0f7f-4a93-a0fb-8fe465f8f9a7
-index: y
-internal: n
-snippet: y
 ---
 
 # Working with stalled operations and branches{#working-with-stalled-operations-and-branches}

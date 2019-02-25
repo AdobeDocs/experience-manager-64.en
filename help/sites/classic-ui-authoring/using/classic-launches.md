@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
 discoiquuid: d41704c6-214e-49d3-8e4a-6cd745b4f243
-index: y
-internal: n
-snippet: y
 ---
 
 # Launches{#launches}

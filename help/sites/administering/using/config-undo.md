@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
 discoiquuid: 3ce2dc61-a242-42db-9b88-a59a73996b0f
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring Undo for Page Editing{#configuring-undo-for-page-editing}

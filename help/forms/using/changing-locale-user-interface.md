@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: 982449ad-fd79-4898-a7bd-94046f4b3135
-index: y
-internal: n
-snippet: y
 ---
 
 # Changing the locale of AEM Forms workspace user interface{#changing-the-locale-of-aem-forms-workspace-user-interface}

@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: b2061e6c-7f00-4189-a6ec-17d253b76046
-index: y
-internal: n
-snippet: y
 ---
 
 # Troubleshooting guidelines for AEM Forms workspace{#troubleshooting-guidelines-for-aem-forms-workspace}

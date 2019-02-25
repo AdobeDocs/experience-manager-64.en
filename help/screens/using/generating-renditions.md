@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: authoring
 discoiquuid: 54787438-e853-46bd-92b0-7ef883d38b6b
-index: y
-internal: n
-snippet: y
 ---
 
 # Video Renditions{#video-renditions}

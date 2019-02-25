@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 content-type: reference
 topic-tags: interactive-communications
 discoiquuid: c07d54be-9f73-4711-9ee4-8484a02a5e9e
-index: y
-internal: n
-snippet: y
 ---
 
 # Interactive Communications configuration properties{#interactive-communications-configuration-properties}

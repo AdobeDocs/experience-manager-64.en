@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: 1051ed36-0569-461f-968e-4eeab43ba09b
-index: y
-internal: n
-snippet: y
 ---
 
 # Distiller Service Java API QuickStart(SOAP){#distiller-service-java-api-quickstart-soap}

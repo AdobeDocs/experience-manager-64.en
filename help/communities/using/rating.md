@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
 discoiquuid: ba4f0811-a32a-42c8-9a5b-df8f75e81e53
-index: y
-internal: n
-snippet: y
 ---
 
 # Using Ratings{#using-ratings}

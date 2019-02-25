@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: customization
 discoiquuid: 9f06c768-9e80-45c2-8084-ef95861245bb
-index: y
-internal: n
-snippet: y
 ---
 
 # Customizing Draft and Submission data services{#customizing-draft-and-submission-data-services}

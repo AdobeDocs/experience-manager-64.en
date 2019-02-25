@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: upgrading
 content-type: reference
 discoiquuid: 0dfe9e89-29ed-4a7c-8300-45642371e366
-index: y
-internal: n
-snippet: y
 ---
 
 # Upgrading Custom Search Forms{#upgrading-custom-search-forms}

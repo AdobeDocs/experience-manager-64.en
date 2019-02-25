@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
 discoiquuid: 3a647b5b-1a05-4d0a-888b-2344bfa8b600
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating and Configuring Asset Editor pages{#creating-and-configuring-asset-editor-pages}

@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 51fb2d54-d2e3-482a-af58-595b3e62e28a
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring form output{#configuring-form-output}

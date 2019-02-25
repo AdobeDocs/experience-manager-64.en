@@ -8,9 +8,6 @@ contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: authoring
 discoiquuid: a32b35e7-6f84-4406-8168-b1ddd34906ab
-index: y
-internal: n
-snippet: y
 ---
 
 # Use Adobe Stock assets in AEM Assets{#use-adobe-stock-assets-in-aem-assets}

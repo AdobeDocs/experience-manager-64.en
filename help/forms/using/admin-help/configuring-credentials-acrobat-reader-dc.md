@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_acrobat_reader_dc_extensions
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 54a38caf-b0b5-4c16-941f-00d9bbfa3757
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring credentials for use with Acrobat Reader DC extensions{#configuring-credentials-for-use-with-acrobat-reader-dc-extensions}

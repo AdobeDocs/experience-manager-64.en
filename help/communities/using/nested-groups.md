@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: introduction
 content-type: reference
 discoiquuid: e7de3b9a-e0fb-49e2-ae9a-9a560f918acb
-index: y
-internal: n
-snippet: y
 ---
 
 # Authoring Nested Groups{#authoring-nested-groups}

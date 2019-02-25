@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: coding
 discoiquuid: 46a63a8b-efbb-4844-a4d5-efef89c4c1ff
-index: y
-internal: n
-snippet: y
 ---
 
 # Invoking AEM Forms using Remoting{#invoking-aem-forms-using-remoting}

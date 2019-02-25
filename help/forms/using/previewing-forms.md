@@ -7,9 +7,6 @@ uuid: fd7551e1-93c9-44f5-9475-c51245e8f6e9
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
 discoiquuid: fcc77092-da05-4d11-b1e9-5fe3e15eaecf
-index: y
-internal: n
-snippet: y
 ---
 
 # Previewing a form{#previewing-a-form}

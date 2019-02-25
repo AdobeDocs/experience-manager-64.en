@@ -10,9 +10,6 @@ topic-tags: components
 content-type: reference
 discoiquuid: 0c183501-2114-4014-8442-ae5169343e5b
 redirecttarget: /content/help/en/experience-manager/core-components/user-guide
-index: y
-internal: n
-snippet: y
 ---
 
 # Core Components{#core-components}

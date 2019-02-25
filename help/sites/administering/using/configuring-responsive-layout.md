@@ -10,9 +10,6 @@ topic-tags: operations
 content-type: reference
 discoiquuid: a35abff7-e66e-4763-a083-39daa72b0725
 legacypath: /content/docs/en/aem/6-2/administer/operations/page-authoring/configuring-responsive-layouting
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring Layout Container and Layout Mode{#configuring-layout-container-and-layout-mode}

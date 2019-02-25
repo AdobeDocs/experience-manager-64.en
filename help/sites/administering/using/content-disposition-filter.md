@@ -6,9 +6,6 @@ seo-description: null
 uuid: 8da88003-2b00-49fb-8876-bfb6f765871d
 contentOwner: trushton
 discoiquuid: 33700b47-e93e-4182-bd92-ccee0116b22b
-index: y
-internal: n
-snippet: y
 ---
 
 # Content Disposition Filter{#content-disposition-filter}

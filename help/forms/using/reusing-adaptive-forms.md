@@ -7,9 +7,6 @@ uuid: e24e16f4-1dd8-46e7-a816-3b9827eb8910
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
 discoiquuid: 9c35574e-ddb9-4760-8643-01c467814551
-index: y
-internal: n
-snippet: y
 ---
 
 # Reusing adaptive forms{#reusing-adaptive-forms}

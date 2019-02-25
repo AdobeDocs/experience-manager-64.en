@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: upgrading
 discoiquuid: 573927a7-835c-4b1e-94b6-c010b2636737
-index: y
-internal: n
-snippet: y
 ---
 
 # Lazy Content Migration{#lazy-content-migration}

@@ -10,9 +10,6 @@ content-type: reference
 topic-tags: components
 discoiquuid: dab0f819-15c0-430c-a636-ab8304aae7e5
 redirecttarget: /content/help/en/experience-manager/6-4/sites/authoring/using/style-system.html
-index: y
-internal: n
-snippet: y
 ---
 
 # Style System{#style-system}

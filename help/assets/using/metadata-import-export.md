@@ -8,9 +8,6 @@ contentOwner: cmajumda
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 discoiquuid: 696bf96d-69b2-453f-8053-fcc28a5fa92e
-index: y
-internal: n
-snippet: y
 ---
 
 # Bulk Metadata Import and Export{#bulk-metadata-import-and-export}

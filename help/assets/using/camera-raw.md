@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
 discoiquuid: b87d9b46-cf8f-414f-831d-52b38a5a0114
-index: y
-internal: n
-snippet: y
 ---
 
 # Camera Raw Support{#camera-raw-support}

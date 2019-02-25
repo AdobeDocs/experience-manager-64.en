@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 content-type: reference
 topic-tags: administering
 discoiquuid: 1ae5b050-48d4-4eaf-8f78-59520acff5bc
-index: y
-internal: n
-snippet: y
 ---
 
 # Device Registration{#device-registration}

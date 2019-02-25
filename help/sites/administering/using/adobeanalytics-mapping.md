@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: 657f8cec-0de3-4758-b83d-4f2523864a3d
-index: y
-internal: n
-snippet: y
 ---
 
 # Mapping Component Data with Adobe Analytics Properties{#mapping-component-data-with-adobe-analytics-properties}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference
 discoiquuid: 19e8b244-3f4a-4fbf-b3b9-edc130a85abd
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating Translation Projects for Content Fragments{#creating-translation-projects-for-content-fragments}

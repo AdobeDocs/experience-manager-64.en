@@ -7,9 +7,6 @@ page-status-flag: de-activated
 uuid: 78358794-c2e7-45d4-9cd3-0c6adb964eef
 products: SG_EXPERIENCEMANAGER/6.3/FORMS
 discoiquuid: 982422ae-f565-4278-9b27-2004e53154c5
-index: y
-internal: n
-snippet: y
 ---
 
 # [DO NOT PUBLISH] Tutorial: Apply rules to adaptive form fields{#do-not-publish-tutorial-apply-rules-to-adaptive-form-fields}

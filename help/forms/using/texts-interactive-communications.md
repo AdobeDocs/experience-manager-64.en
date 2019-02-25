@@ -7,9 +7,6 @@ uuid: ea8c0769-57c9-4fcd-8d8a-0e4f53c4eef4
 topic-tags: interactive-communications
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: f9747389-01c6-464a-9367-a46794105e83
-index: y
-internal: n
-snippet: y
 ---
 
 # Texts in Interactive Communications{#texts-in-interactive-communications}

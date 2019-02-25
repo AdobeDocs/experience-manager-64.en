@@ -10,9 +10,6 @@ content-type: reference
 discoiquuid: 5c6296ff-2ce9-454a-b567-77793889d1cb
 noindex: true
 redirecttarget: /content/help/en/experience-manager/cloud-manager/user-guide
-index: y
-internal: n
-snippet: y
 ---
 
 # REDIRECT Core Components{#redirect-core-components}

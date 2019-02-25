@@ -8,9 +8,6 @@ contentOwner: jsyal
 discoiquuid: 42a63838-6873-4b75-96a6-554541889d8b
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/screens/using/adobe-analytics-integration-aem-screens
-index: y
-internal: n
-snippet: y
 ---
 
 # REDIRECT Adobe Analytics Integration with AEM Screens{#redirect-adobe-analytics-integration-with-aem-screens}

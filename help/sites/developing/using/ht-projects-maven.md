@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: development-tools
 content-type: reference
 discoiquuid: 1d387462-1c2b-4b0e-b9ee-667ab95e4afa
-index: y
-internal: n
-snippet: y
 ---
 
 # How to Build AEM Projects using Apache Maven{#how-to-build-aem-projects-using-apache-maven}

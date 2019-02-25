@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
 discoiquuid: 858489be-9b2e-4c3e-aaea-5cbef08b7030
-index: y
-internal: n
-snippet: y
 ---
 
 # Selecting your UI{#selecting-your-ui}

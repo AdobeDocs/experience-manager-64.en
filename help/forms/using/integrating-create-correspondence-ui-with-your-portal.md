@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
 discoiquuid: 968594a3-6a74-4ae5-b12b-b8abde98dc54
-index: y
-internal: n
-snippet: y
 ---
 
 # Integrating Create Correspondence UI with your custom portal{#integrating-create-correspondence-ui-with-your-custom-portal}

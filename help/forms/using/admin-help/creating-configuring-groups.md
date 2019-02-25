@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/setting_up_and_organizing_users
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 5c36991d-f18d-489a-ac49-0628e5e5410c
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating and configuring groups{#creating-and-configuring-groups}

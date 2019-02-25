@@ -6,9 +6,6 @@ seo-description: Install and configure AEM Forms Interactive Communications to c
 uuid: 3f8e711b-13c8-4cdb-8a73-fb67a0bdd7ae
 topic-tags: installing
 discoiquuid: 24235df9-b2b7-460e-bf86-121426e7acc5
-index: y
-internal: n
-snippet: y
 ---
 
 # Installing and Configuring Forms-centric workflow on OSGi{#installing-and-configuring-forms-centric-workflow-on-osgi}

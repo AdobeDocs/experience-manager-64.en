@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_forms_workflow
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 4a4b0006-7518-42c6-af7d-6c03a2e91f97
-index: y
-internal: n
-snippet: y
 ---
 
 # Searching for process instances{#searching-for-process-instances}

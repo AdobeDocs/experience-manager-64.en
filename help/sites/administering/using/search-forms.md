@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
 discoiquuid: 09e9f15d-6108-4249-b47c-64abc9901391
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring Search Forms{#configuring-search-forms}

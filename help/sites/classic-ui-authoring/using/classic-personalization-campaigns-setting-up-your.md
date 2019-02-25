@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
 discoiquuid: ec6e34c2-82c8-4f28-961d-049deaa8788f
-index: y
-internal: n
-snippet: y
 ---
 
 # Setting up your campaign{#setting-up-your-campaign}

@@ -8,9 +8,6 @@ contentOwner: jsyal
 discoiquuid: 7f208962-c914-4964-9278-c82658f3e506
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/screens/using/implementing-windows-player
-index: y
-internal: n
-snippet: y
 ---
 
 # REDIRECT Implementing Windows 10 Player{#redirect-implementing-windows-player}

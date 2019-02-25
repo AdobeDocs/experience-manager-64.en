@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: 771a7aa5-83e2-47e1-b7b8-f48f46e5c43b
-index: y
-internal: n
-snippet: y
 ---
 
 # Alter the Appearance (HBS){#alter-the-appearance-hbs}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
 discoiquuid: 0787493b-5b6e-4205-a11c-06bf9f45ef2a
-index: y
-internal: n
-snippet: y
 ---
 
 # Best Practices for Queries and Indexing{#best-practices-for-queries-and-indexing}

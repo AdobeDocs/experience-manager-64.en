@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: f13f30f4-e847-42a1-970c-9f3de1a13c8d
-index: y
-internal: n
-snippet: y
 ---
 
 # Group Templates{#group-templates}

@@ -5,9 +5,6 @@ description: null
 seo-description: null
 uuid: d33c9d1a-8424-4377-9939-6d801ccc0d84
 discoiquuid: 9784b5b4-92b9-43b9-99fb-9c21f7047449
-index: y
-internal: n
-snippet: y
 ---
 
 # Automated Forms Conversion service: frequently asked questions{#automated-forms-conversion-service-frequently-asked-questions}

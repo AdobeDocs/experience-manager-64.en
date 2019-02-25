@@ -7,9 +7,6 @@ page-status-flag: never-activated
 uuid: f90e8950-bc54-4c98-8c44-440338ab717a
 contentOwner: jsyal
 discoiquuid: 2ab82dee-bc1e-499b-8939-d8261d3cfa73
-index: y
-internal: n
-snippet: y
 ---
 
 # Using Dynamic Embedded Sequence{#using-dynamic-embedded-sequence}

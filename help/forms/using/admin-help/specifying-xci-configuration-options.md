@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 729b3dcf-9958-4327-a096-681283400d5c
-index: y
-internal: n
-snippet: y
 ---
 
 # Specifying XCI configuration options{#specifying-xci-configuration-options}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
 discoiquuid: 7d32dcf8-728c-422d-ba18-54eac3ad2e1f
-index: y
-internal: n
-snippet: y
 ---
 
 # Activity Trends{#activity-trends}

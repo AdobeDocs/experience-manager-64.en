@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: e6188617-a60d-4096-9e26-d0a78f17c807
-index: y
-internal: n
-snippet: y
 ---
 
 # Storage Resource Provider Overview{#storage-resource-provider-overview}

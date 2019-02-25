@@ -10,9 +10,6 @@ topic-tags: managing
 content-type: reference
 topic-tags: introduction
 discoiquuid: 277e099c-7180-4648-b4e1-90bdb75d6cf3
-index: y
-internal: n
-snippet: y
 ---
 
 # Managing AEM Projects - Further Reference{#managing-aem-projects-further-reference}

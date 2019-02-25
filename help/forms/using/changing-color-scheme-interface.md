@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: a24fdb7a-eeb3-41c9-8c50-54a576ac3b3c
-index: y
-internal: n
-snippet: y
 ---
 
 # Changing the color scheme of the interface{#changing-the-color-scheme-of-the-interface}

@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: 1cf4cf3c-8c3e-4990-9bea-3c41635a385c
-index: y
-internal: n
-snippet: y
 ---
 
 # Digitally Signing and Certifying Documents{#digitally-signing-and-certifying-documents}

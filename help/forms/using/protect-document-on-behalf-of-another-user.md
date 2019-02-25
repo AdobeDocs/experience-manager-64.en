@@ -6,9 +6,6 @@ seo-description: null
 uuid: 4ebefd49-6887-4bf2-aca3-f02b981b682d
 geptopics: SG_AEMFORMS/categories/working_with_document_security
 discoiquuid: 71ec8b1f-6a46-4d99-8c8e-ba3267ab50dc
-index: y
-internal: n
-snippet: y
 ---
 
 # Protect a document on behalf of another user{#protect-a-document-on-behalf-of-another-user}

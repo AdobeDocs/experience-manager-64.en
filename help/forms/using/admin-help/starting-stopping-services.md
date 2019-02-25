@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/managing_services
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 399b7fca-46d1-4127-a2ce-1a0377c9a4fb
-index: y
-internal: n
-snippet: y
 ---
 
 # Starting and stopping services{#starting-and-stopping-services}

@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: document_services
 discoiquuid: 43e81e1f-072b-4f3d-b7e0-9cae8239bf90
-index: y
-internal: n
-snippet: y
 ---
 
 # Reader extending policy-protected PDF documents using Portable Protection Library{#reader-extending-policy-protected-pdf-documents-using-portable-protection-library}

@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_forms_workflow
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 5c4bf2f1-86a3-4b5b-a1e4-b21386a567b3
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring Server Settings{#configuring-server-settings}

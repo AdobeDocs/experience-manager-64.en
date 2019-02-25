@@ -9,9 +9,6 @@ topic-tags: 3D
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: 35bd4aab-ef68-4ff8-ab4e-3611974a7b55
-index: y
-internal: n
-snippet: y
 ---
 
 # About the uploading and processing of 3D assets in AEM{#about-the-uploading-and-processing-of-d-assets-in-aem}

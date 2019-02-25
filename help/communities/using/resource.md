@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: introduction
 content-type: reference
 discoiquuid: 03e3fdf4-b301-4935-b99b-9ec5a9c4370d
-index: y
-internal: n
-snippet: y
 ---
 
 # Create and Assign Enablement Resources{#create-and-assign-enablement-resources}

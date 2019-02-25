@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-manager
 discoiquuid: 9046acd1-1ded-4e90-9874-c99dfbac37b5
-index: y
-internal: n
-snippet: y
 ---
 
 # Getting XDP and PDF documents in AEM Forms{#getting-xdp-and-pdf-documents-in-aem-forms}

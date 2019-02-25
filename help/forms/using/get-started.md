@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
 discoiquuid: ac05e30c-c9a3-4cd0-879f-b0664cfc3217
-index: y
-internal: n
-snippet: y
 ---
 
 # Getting started with HTML5 forms{#getting-started-with-html-forms}

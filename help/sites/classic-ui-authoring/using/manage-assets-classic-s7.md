@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: authoring
 content-type: reference
 discoiquuid: cf121053-8db8-4c83-a33b-8613df210060
-index: y
-internal: n
-snippet: y
 ---
 
 # Adding Scene7 Features to your Page{#adding-scene-features-to-your-page}

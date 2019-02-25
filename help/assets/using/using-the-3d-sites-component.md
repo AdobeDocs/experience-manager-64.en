@@ -9,9 +9,6 @@ topic-tags: 3D
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
 discoiquuid: 39d5b3c9-4d24-40d5-88af-e3201b02fd7f
-index: y
-internal: n
-snippet: y
 ---
 
 # Working with the 3D Sites component{#working-with-the-d-sites-component}

@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_user_management
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 5829b908-a909-40d4-9324-62648b1f182b
-index: y
-internal: n
-snippet: y
 ---
 
 # Configure AEM forms to prefetchdomain information{#configure-aem-forms-to-prefetchdomain-information}

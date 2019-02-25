@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
 discoiquuid: ab023ba5-178a-4235-9fa2-c0029a1fb1e0
-index: y
-internal: n
-snippet: y
 ---
 
 # Performance Tree{#performance-tree}

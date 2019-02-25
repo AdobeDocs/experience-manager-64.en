@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: fd425c4d-f40b-435a-ad15-687391c50f1a
-index: y
-internal: n
-snippet: y
 ---
 
 # Assembler Service Java API QuickStart(SOAP){#assembler-service-java-api-quickstart-soap}

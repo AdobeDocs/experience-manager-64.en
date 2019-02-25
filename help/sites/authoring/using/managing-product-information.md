@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: projects
 content-type: reference
 discoiquuid: 1158b2d1-2e49-4749-b6cb-a9bda7d7a168
-index: y
-internal: n
-snippet: y
 ---
 
 # Creative Project and PIM Integration{#creative-project-and-pim-integration}

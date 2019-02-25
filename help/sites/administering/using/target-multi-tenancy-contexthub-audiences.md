@@ -10,9 +10,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: 120468f6-80e9-4aa8-a5ac-519befd13fef
-index: y
-internal: n
-snippet: y
 ---
 
 # Multi-tenancy for ContextHub Audiences{#multi-tenancy-for-contexthub-audiences}

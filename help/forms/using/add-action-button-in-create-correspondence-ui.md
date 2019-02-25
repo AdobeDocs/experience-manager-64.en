@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
 discoiquuid: 11a0a49c-235c-4cc4-a077-b55d750df86e
-index: y
-internal: n
-snippet: y
 ---
 
 # Add custom action/button in Create Correspondence UI{#add-custom-action-button-in-create-correspondence-ui}

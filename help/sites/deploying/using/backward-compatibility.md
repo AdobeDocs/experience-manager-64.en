@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: upgrading
 content-type: reference
 discoiquuid: 210d7539-70d0-4b2f-beb0-a7042a687283
-index: y
-internal: n
-snippet: y
 ---
 
 # Backward Compatibility in AEM 6.4{#backward-compatibility-in-aem}

@@ -8,9 +8,6 @@ contentOwner: jsyal
 discoiquuid: c8d46862-c8d3-488a-b21c-d9431fe992b9
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/screens/using/generating-renditions
-index: y
-internal: n
-snippet: y
 ---
 
 # REDIRECT Video Renditions{#redirect-video-renditions}

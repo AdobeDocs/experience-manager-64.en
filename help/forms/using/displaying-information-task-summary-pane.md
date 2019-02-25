@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: 87feaaf9-c553-452a-bb0b-71f0065751f7
-index: y
-internal: n
-snippet: y
 ---
 
 # Displaying information in the Task Summary pane{#displaying-information-in-the-task-summary-pane}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference
 discoiquuid: 96f70b5f-7540-4818-83ae-aa8b7a0309ee
-index: y
-internal: n
-snippet: y
 ---
 
 # Asset Insights{#asset-insights}

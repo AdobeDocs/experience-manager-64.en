@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_forms_workflow
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 28bf6ada-969f-42d6-bed2-035069f2d21b
-index: y
-internal: n
-snippet: y
 ---
 
 # About administration and process terminology{#about-administration-and-process-terminology}

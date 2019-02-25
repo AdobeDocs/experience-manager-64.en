@@ -8,9 +8,6 @@ contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 discoiquuid: 19ea9a10-d108-4cda-9b3c-4f0e7fc13443
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating and Adding Templates and Components{#creating-and-adding-templates-and-components}

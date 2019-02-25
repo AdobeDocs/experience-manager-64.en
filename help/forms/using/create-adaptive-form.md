@@ -6,9 +6,6 @@ seo-description: Learn to create, layout, and preview an adaptive form. Also, le
 page-status-flag: de-activated
 uuid: 33a7f90b-2327-4ab2-9205-2e5a91661347
 discoiquuid: ded38f7e-a5c2-4f59-8dbd-48ee5f2078d4
-index: y
-internal: n
-snippet: y
 ---
 
 # [DO NOT PUBLISH] Tutorial: Create an adaptive form{#do-not-publish-tutorial-create-an-adaptive-form}

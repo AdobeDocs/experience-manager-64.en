@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: 2fd57a4e-c176-469b-8b89-ba36fc3eabdf
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating Document Output Streams {#creating-document-output-streams}

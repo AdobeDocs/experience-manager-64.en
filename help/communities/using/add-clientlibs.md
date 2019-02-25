@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: 265299be-963c-4d53-8cb3-4dc67f8f3bec
-index: y
-internal: n
-snippet: y
 ---
 
 # Add Clientlibs{#add-clientlibs}

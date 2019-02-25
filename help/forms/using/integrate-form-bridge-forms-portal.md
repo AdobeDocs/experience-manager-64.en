@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
 discoiquuid: ca5edf7f-feb1-45c4-9155-c43da2397460
-index: y
-internal: n
-snippet: y
 ---
 
 # Integrating Form Bridge with custom portal for HTML5 forms{#integrating-form-bridge-with-custom-portal-for-html-forms}

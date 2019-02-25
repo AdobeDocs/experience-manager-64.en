@@ -7,9 +7,6 @@ uuid: b3b25f52-0d64-49b4-863b-62cb00a37b31
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
 discoiquuid: 67916999-8d82-4a52-89ff-280dc1d55e1e
-index: y
-internal: n
-snippet: y
 ---
 
 # Data Dictionary{#data-dictionary}

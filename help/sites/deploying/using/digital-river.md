@@ -10,9 +10,6 @@ topic-tags: e-commerce
 content-type: reference
 discoiquuid: d6af3f8f-5801-4c27-87af-c99dfd81cc41
 pagetitle: Deploying eCommerce with Digital River
-index: y
-internal: n
-snippet: y
 ---
 
 # Digital River{#digital-river}

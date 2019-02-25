@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: d4da8b4c-11e9-4a4e-9c28-40177fac14ec
-index: y
-internal: n
-snippet: y
 ---
 
 # Integrating with Adobe Dynamic Tag Management{#integrating-with-adobe-dynamic-tag-management}

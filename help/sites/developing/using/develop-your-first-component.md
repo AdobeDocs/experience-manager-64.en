@@ -10,9 +10,6 @@ content-type: reference
 discoiquuid: 7aaa0e95-7a11-4d35-80b1-9af84128207a
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/sites/developing/using/components-basics
-index: y
-internal: n
-snippet: y
 ---
 
 # Developing Experience Manager Components{#developing-experience-manager-components}

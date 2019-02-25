@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
 discoiquuid: ed8b6ae4-2335-4dd0-8040-11825ba55277
-index: y
-internal: n
-snippet: y
 ---
 
 # Sample ContextHub UI Module Types{#sample-contexthub-ui-module-types}

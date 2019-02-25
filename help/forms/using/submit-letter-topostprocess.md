@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
 discoiquuid: 90a742f9-0381-4c9a-ad53-902353d764e9
-index: y
-internal: n
-snippet: y
 ---
 
 # Post processing of letters and interactive communications{#post-processing-of-letters-and-interactive-communications}

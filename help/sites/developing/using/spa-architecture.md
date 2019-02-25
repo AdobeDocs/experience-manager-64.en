@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: spa
 content-type: reference
 discoiquuid: e4131e29-bffe-4a2f-9a8e-96ed216ebbbf
-index: y
-internal: n
-snippet: y
 ---
 
 # Developing SPAs for AEM{#developing-spas-for-aem}

@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
 discoiquuid: 8a48b21e-168a-48a4-8eec-3a3c92f2707d
-index: y
-internal: n
-snippet: y
 ---
 
 # Add custom action to the Asset Listing view{#add-custom-action-to-the-asset-listing-view}

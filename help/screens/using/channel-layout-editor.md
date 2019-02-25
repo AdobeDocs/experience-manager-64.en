@@ -7,9 +7,6 @@ page-status-flag: never-activated
 uuid: 3cf7daa7-d52a-4426-a210-34bcf2466994
 contentOwner: jsyal
 discoiquuid: ca7feb5b-4ce4-4d2e-b255-9bf35ddb86cd
-index: y
-internal: n
-snippet: y
 ---
 
 # Channel Layout Editor{#channel-layout-editor}

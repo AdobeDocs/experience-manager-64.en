@@ -7,9 +7,6 @@ uuid: ebcb32d8-e63f-4e4c-947d-26a9fb0ab68e
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
 discoiquuid: 53a8e935-d494-443e-b05a-446335b4fe5b
-index: y
-internal: n
-snippet: y
 ---
 
 # Adaptive forms keywords{#adaptive-forms-keywords}

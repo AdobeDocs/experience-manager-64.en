@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_forms_workflow
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: be86811f-514a-481b-9be3-a5f7acc91085
-index: y
-internal: n
-snippet: y
 ---
 
 # Working with tasks{#working-with-tasks}

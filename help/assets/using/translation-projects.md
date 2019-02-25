@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference
 discoiquuid: 869ae1ee-a58c-4c89-87b9-b6fd6051b23e
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating Translation Projects{#creating-translation-projects}

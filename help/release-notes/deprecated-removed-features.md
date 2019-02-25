@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4
 topic-tags: release-notes
 content-type: reference
 discoiquuid: 5025b258-475e-481d-ac9d-2415be6d1342
-index: y
-internal: n
-snippet: y
 ---
 
 # Deprecated and Removed Features{#deprecated-and-removed-features}

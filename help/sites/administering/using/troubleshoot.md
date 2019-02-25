@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
 discoiquuid: c0ad062e-fa87-4202-a92d-e01a5d9884f9
-index: y
-internal: n
-snippet: y
 ---
 
 # Troubleshooting AEM{#troubleshooting-aem}

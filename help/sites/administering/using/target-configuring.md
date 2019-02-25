@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: 6a7dbd53-207f-49ee-8793-01c0101745c0
-index: y
-internal: n
-snippet: y
 ---
 
 # Manually Configuring the Integration with Adobe Target {#manually-configuring-the-integration-with-adobe-target}

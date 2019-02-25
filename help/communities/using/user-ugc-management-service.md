@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 discoiquuid: 99451bf8-0aa9-41f9-8ffe-7fc80d6cc67c
-index: y
-internal: n
-snippet: y
 ---
 
 # User and UGC Management Service in AEM Communities{#user-and-ugc-management-service-in-aem-communities}

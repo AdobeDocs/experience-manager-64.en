@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
 discoiquuid: aef54d49-9175-4e97-a752-70830c7d864b
-index: y
-internal: n
-snippet: y
 ---
 
 # Metadata Profiles{#metadata-profiles}

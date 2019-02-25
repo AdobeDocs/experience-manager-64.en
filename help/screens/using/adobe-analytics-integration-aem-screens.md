@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: administering
 discoiquuid: 7326b59a-03f2-49a8-a7aa-7bbb457cfe92
-index: y
-internal: n
-snippet: y
 ---
 
 # Adobe Analytics Integration with AEM Screens{#adobe-analytics-integration-with-aem-screens}

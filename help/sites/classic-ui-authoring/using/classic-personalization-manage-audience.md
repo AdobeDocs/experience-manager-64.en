@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
 discoiquuid: 3839e260-0f4c-45f8-8315-de4a8d2d4839
-index: y
-internal: n
-snippet: y
 ---
 
 # Managing Audiences{#managing-audiences}

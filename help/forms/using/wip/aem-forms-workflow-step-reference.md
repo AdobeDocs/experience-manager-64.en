@@ -6,9 +6,6 @@ seo-description: Forms-centric workflow on OSGi steps allow you rapidly build ad
 page-status-flag: never-activated
 uuid: abd0a7e9-0e1c-479a-8072-f987ea77bdaf
 discoiquuid: e34ea180-62ec-478a-aa26-8cf50280ad92
-index: y
-internal: n
-snippet: y
 ---
 
 # Forms-centric workflow on OSGi - Step Reference{#forms-centric-workflow-on-osgi-step-reference}

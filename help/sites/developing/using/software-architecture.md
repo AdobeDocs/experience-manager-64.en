@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
 discoiquuid: 2949d4ec-ba6b-4cbe-90ca-e1e747628122
-index: y
-internal: n
-snippet: y
 ---
 
 # Software Architecture{#software-architecture}

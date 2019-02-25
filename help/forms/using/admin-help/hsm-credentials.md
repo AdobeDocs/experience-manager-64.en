@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/managing_certificates_and_credentials
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: ce2775d7-171f-4def-80d6-0ca54a60a706
-index: y
-internal: n
-snippet: y
 ---
 
 # Managing HSM credentials{#managing-hsm-credentials}

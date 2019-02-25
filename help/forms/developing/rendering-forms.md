@@ -10,9 +10,6 @@ geptopics: SG_AEMFORMS/categories/performing_service_operations_using_apis
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: 2b2b8bdc-8503-483d-a033-3550dd8e4305
-index: y
-internal: n
-snippet: y
 ---
 
 # Rendering Forms{#rendering-forms}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
 discoiquuid: 5627baa7-4969-4c52-b403-3ad4d46323b9
-index: y
-internal: n
-snippet: y
 ---
 
 # Trying out Core Components in We.Retail{#trying-out-core-components-in-we-retail}

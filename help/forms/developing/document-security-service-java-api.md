@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: 94d43c77-0abe-4b80-826d-fc21a209f64a
-index: y
-internal: n
-snippet: y
 ---
 
 # Document Security Service JavaAPI Quick Start(SOAP){#document-security-service-javaapi-quick-start-soap}

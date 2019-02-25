@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: 24ff124d-ca2f-4dec-a3e3-3686c8a2ea40
-index: y
-internal: n
-snippet: y
 ---
 
 # Scoring and Badges Essentials{#scoring-and-badges-essentials}

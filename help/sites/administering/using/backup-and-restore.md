@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
 discoiquuid: e33e1e91-26a3-45d6-a9fe-a7f31fbd534e
-index: y
-internal: n
-snippet: y
 ---
 
 # Backup and Restore{#backup-and-restore}

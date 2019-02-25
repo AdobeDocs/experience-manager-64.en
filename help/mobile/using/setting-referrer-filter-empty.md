@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: administering-adobe-phonegap-enterprise
 discoiquuid: 8807f987-e6fd-4265-abc8-cca250861ba6
-index: y
-internal: n
-snippet: y
 ---
 
 # Setting Your Referrer Filter to Allow Empty{#setting-your-referrer-filter-to-allow-empty}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
 discoiquuid: 2933e16a-3d7d-4f2e-9f1b-0f99cbb487ac
-index: y
-internal: n
-snippet: y
 ---
 
 # Working with Adobe Campaign 6.1 and Adobe Campaign Standard{#working-with-adobe-campaign-and-adobe-campaign-standard}

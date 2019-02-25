@@ -7,9 +7,6 @@ uuid: 5a84686f-89cb-406f-b641-61ec741f9814
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
 discoiquuid: 41358df9-16a5-47a5-afb7-684f275c8ef7
-index: y
-internal: n
-snippet: y
 ---
 
 # Associating submission reviewers with a form{#associating-submission-reviewers-with-a-form}

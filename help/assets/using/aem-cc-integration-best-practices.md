@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
 discoiquuid: 2d181978-9990-4882-b236-c6401cff8eeb
-index: y
-internal: n
-snippet: y
 ---
 
 # AEM and Creative Cloud Integration Best Practices{#aem-and-creative-cloud-integration-best-practices}

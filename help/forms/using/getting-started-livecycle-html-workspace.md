@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: 5caec902-2b45-473f-83df-dc27790f6d9a
-index: y
-internal: n
-snippet: y
 ---
 
 # Getting started with AEM Forms workspace{#getting-started-with-aem-forms-workspace}

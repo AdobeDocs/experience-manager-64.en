@@ -9,9 +9,6 @@ topic-tags: publish
 topic-tags: document_services
 discoiquuid: 817ab8ba-2268-4a68-bfbd-e47d86cadb4d
 noindex: true
-index: y
-internal: n
-snippet: y
 ---
 
 # Forms-centric workflow on OSGi{#forms-centric-workflow-on-osgi}

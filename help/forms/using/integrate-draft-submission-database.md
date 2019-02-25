@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: publish
 discoiquuid: 3db9582b-0e2a-4b56-998b-99843b70bc93
-index: y
-internal: n
-snippet: y
 ---
 
 # Sample for integrating drafts & submissions component with database{#sample-for-integrating-drafts-submissions-component-with-database}

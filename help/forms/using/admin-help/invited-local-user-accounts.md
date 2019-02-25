@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_document_security
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: ada70f21-2a78-40eb-a55d-c4e5d068fcb5
-index: y
-internal: n
-snippet: y
 ---
 
 # Managing invited and local user accounts{#managing-invited-and-local-user-accounts}

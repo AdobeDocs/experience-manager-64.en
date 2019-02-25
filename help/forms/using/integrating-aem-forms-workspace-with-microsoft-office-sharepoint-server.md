@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: Configuration
 discoiquuid: 84c3986b-614a-49fc-9f88-5c0c9d49b3ed
-index: y
-internal: n
-snippet: y
 ---
 
 # Integrating AEM forms workspace with Microsoft Office SharePoint Server{#integrating-aem-forms-workspace-with-microsoft-office-sharepoint-server}

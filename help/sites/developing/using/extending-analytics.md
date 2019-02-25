@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
 discoiquuid: 69742ef8-218f-4918-9444-e4a2968920ea
-index: y
-internal: n
-snippet: y
 ---
 
 # Extending Event Tracking{#extending-event-tracking}

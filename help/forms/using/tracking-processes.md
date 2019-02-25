@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: 96f2f069-97b5-4bf5-8c94-08cf71690357
-index: y
-internal: n
-snippet: y
 ---
 
 # Tracking processes{#tracking-processes}

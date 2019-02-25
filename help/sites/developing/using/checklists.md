@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: testing
 content-type: reference
 discoiquuid: a5d99499-8af5-4476-a275-60f19f55aa87
-index: y
-internal: n
-snippet: y
 ---
 
 # Checklists{#checklists}

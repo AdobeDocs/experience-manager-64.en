@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: authoring
 content-type: reference
 discoiquuid: 8cace50a-9eb4-473d-a081-6e0868826f72
-index: y
-internal: n
-snippet: y
 ---
 
 # Video{#video}

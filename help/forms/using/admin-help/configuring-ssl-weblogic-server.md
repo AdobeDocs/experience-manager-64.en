@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_ssl
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 1383b92b-07cd-459f-a261-c64fb0854346
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring SSL for WebLogic Server{#configuring-ssl-for-weblogic-server}

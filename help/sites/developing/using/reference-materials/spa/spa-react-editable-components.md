@@ -8,9 +8,6 @@ contentOwner: carlino
 discoiquuid: 109a7a34-b1a1-459f-a644-e3be4e942533
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/sites/developing/using/reference-materials
-index: y
-internal: n
-snippet: y
 ---
 
 # spa-react-editable-components{#spa-react-editable-components}

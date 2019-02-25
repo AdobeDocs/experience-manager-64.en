@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: authoring
 content-type: reference
 discoiquuid: 7337a218-b27f-4cf5-9728-f8ddef97b08d
-index: y
-internal: n
-snippet: y
 ---
 
 # Setting up an IBL stage with Autodesk Maya and Mental Ray{#setting-up-an-ibl-stage-with-autodesk-maya-and-mental-ray}

@@ -6,9 +6,6 @@ seo-description: Forms-centric workflow on OSGi steps allow you rapidly build ad
 uuid: d5302897-09a9-4d81-bc81-46fdd8eaaeb4
 contentOwner: aheimoz
 discoiquuid: ff81d9e7-7999-491f-9831-32c06892d3f6
-index: y
-internal: n
-snippet: y
 ---
 
 # Forms-centric workflow on OSGi - Step Reference{#forms-centric-workflow-on-osgi-step-reference}

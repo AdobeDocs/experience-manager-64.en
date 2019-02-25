@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: 89ba9c71-516b-4fff-af6b-5b1c2361617e
-index: y
-internal: n
-snippet: y
 ---
 
 # Tutorials{#tutorials}

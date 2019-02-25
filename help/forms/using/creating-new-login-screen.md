@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: b25c8aad-12d7-45c5-be1e-ac8bc3fa9e6a
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating a new login screen{#creating-a-new-login-screen}

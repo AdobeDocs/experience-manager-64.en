@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
 discoiquuid: e9da99c8-70d5-4add-9783-ec2d433d6ce4
-index: y
-internal: n
-snippet: y
 ---
 
 # How to edit or add metadata{#how-to-edit-or-add-metadata}

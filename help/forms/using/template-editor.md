@@ -8,9 +8,6 @@ contentOwner: sashanka
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: 91bae74a-682b-401e-b7ea-8bd809a1d12a
-index: y
-internal: n
-snippet: y
 ---
 
 # Adaptive Form Templates{#adaptive-form-templates}

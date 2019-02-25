@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/health_monitor
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 34105f00-622b-49e6-b76d-29141cf4c410
-index: y
-internal: n
-snippet: y
 ---
 
 # Fine-tuning Health Monitor performance{#fine-tuning-health-monitor-performance}

@@ -10,9 +10,6 @@ geptopics: SG_AEMFORMS/categories/rendering_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: 123962af-26f3-4d22-8e4a-63ed31c1bade
-index: y
-internal: n
-snippet: y
 ---
 
 # Rendering HTML Forms with CustomToolbars{#rendering-html-forms-with-customtoolbars}

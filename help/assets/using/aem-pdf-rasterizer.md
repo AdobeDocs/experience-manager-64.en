@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
 discoiquuid: 8974a1a4-87f4-48e2-8b82-f0fe0fc4124e
-index: y
-internal: n
-snippet: y
 ---
 
 # Using PDF Rasterizer{#using-pdf-rasterizer}

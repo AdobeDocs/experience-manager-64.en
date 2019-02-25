@@ -9,9 +9,6 @@ topic-tags: adaptive_forms
 topic-tags: develop
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 69282a99-0166-4d60-b975-70203491974d
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating adaptive forms using XML Schema{#creating-adaptive-forms-using-xml-schema}

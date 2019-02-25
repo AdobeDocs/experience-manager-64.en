@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: development-tools
 content-type: reference
 discoiquuid: 8f9f5ed9-d1fa-4110-a0a1-eae7b67b38fe
-index: y
-internal: n
-snippet: y
 ---
 
 # AEM Developer Tools for Eclipse{#aem-developer-tools-for-eclipse}

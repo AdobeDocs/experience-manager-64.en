@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
 discoiquuid: 7325d1ed-d0db-4a37-95f7-0a78a14f76d8
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring ContextHub{#configuring-contexthub}

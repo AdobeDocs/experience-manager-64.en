@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features
 content-type: reference
 discoiquuid: 5833d9c0-8797-4280-bb37-192ee1d651ec
-index: y
-internal: n
-snippet: y
 ---
 
 # Website Administration{#website-administration}

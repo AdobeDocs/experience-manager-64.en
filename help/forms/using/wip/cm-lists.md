@@ -7,9 +7,6 @@ page-status-flag: never-activated
 uuid: 866657ec-a079-4115-9128-be471a714fff
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 7a3e54b4-79e9-4bd3-8f19-37662d0ab591
-index: y
-internal: n
-snippet: y
 ---
 
 # [DO NOT PUBLISH] Lists{#do-not-publish-lists}

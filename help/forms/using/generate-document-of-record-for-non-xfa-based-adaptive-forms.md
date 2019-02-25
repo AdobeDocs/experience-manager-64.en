@@ -10,9 +10,6 @@ topic-tags: develop
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 120b0115-572e-4afe-9482-d9b6e161eddb
 noindex: true
-index: y
-internal: n
-snippet: y
 ---
 
 # Generate Document of Record for adaptive forms{#generate-document-of-record-for-adaptive-forms}

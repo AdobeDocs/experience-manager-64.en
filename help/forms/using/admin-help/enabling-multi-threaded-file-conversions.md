@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_pdf_generator
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: ad552ada-6b34-427d-ad9b-fd49cb485e0d
-index: y
-internal: n
-snippet: y
 ---
 
 # Enabling multi-threaded file conversions{#enabling-multi-threaded-file-conversions}

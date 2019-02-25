@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: bed75523-e7b7-44c5-bdf1-24e3a9c2b366
-index: y
-internal: n
-snippet: y
 ---
 
 # Understanding the folder structure{#understanding-the-folder-structure}

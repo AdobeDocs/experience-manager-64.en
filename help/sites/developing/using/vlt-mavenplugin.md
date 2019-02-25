@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: development-tools
 content-type: reference
 discoiquuid: 61d099ab-71ce-4877-bafe-9497c1bd38bf
-index: y
-internal: n
-snippet: y
 ---
 
 # Managing Packages Using Maven{#managing-packages-using-maven}

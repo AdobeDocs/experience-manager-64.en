@@ -8,9 +8,6 @@ uuid: e7c84b2d-ad98-4cbc-a0fa-254245e64021
 contentOwner: khsingh
 products: SG_EXPERIENCEMANAGER/6.3/FORMS
 discoiquuid: 3dcc7612-6815-4ae4-971e-df2a8ca4847c
-index: y
-internal: n
-snippet: y
 ---
 
 # [DO NOT PUBLISH] Tutorial: Create form data model {#do-not-publish-tutorial-create-form-data-model}

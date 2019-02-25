@@ -7,9 +7,6 @@ page-status-flag: de-activated
 uuid: 33c5010c-f70d-481d-a2ac-6e68f7933bb9
 contentOwner: bohnert
 discoiquuid: d272fdd7-3d21-436f-8508-39d8f3b546d4
-index: y
-internal: n
-snippet: y
 ---
 
 # Style System{#style-system}

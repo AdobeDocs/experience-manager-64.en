@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
 discoiquuid: 9237ec6d-9544-4d36-9dee-bfd0ece9de64
 noindex: true
-index: y
-internal: n
-snippet: y
 ---
 
 # Images{#images}

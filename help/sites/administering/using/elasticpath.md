@@ -10,9 +10,6 @@ topic-tags: e-commerce
 content-type: reference
 discoiquuid: d9bba490-14ef-4cca-8a2e-8a2abb07fca6
 pagetitle: Administering Elastic Path
-index: y
-internal: n
-snippet: y
 ---
 
 # Elastic Path{#elastic-path}

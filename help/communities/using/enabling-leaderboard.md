@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
 discoiquuid: 542c5934-972a-416f-a60f-7661828a63ef
-index: y
-internal: n
-snippet: y
 ---
 
 # Leaderboard Feature{#leaderboard-feature}

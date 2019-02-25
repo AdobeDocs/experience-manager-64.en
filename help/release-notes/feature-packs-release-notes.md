@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4
 topic-tags: release-notes
 content-type: reference
 discoiquuid: 84362b05-38b0-47d5-81d6-00f630fcdd63
-index: y
-internal: n
-snippet: y
 ---
 
 # Feature Packs{#feature-packs}

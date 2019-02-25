@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4
 topic-tags: interactive-communications
 discoiquuid: 9f98b399-3717-4d8a-84c1-1fb25e5165a0
-index: y
-internal: n
-snippet: y
 ---
 
 # Inline condition and repeat in Interactive Communications and letters{#inline-condition-and-repeat-in-interactive-communications-and-letters}

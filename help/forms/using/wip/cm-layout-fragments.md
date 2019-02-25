@@ -7,9 +7,6 @@ page-status-flag: never-activated
 uuid: b17b49fb-a763-4544-bd72-04b2528955d6
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 90eb8144-a45b-42af-a9f1-15544c08d7cc
-index: y
-internal: n
-snippet: y
 ---
 
 # [DO NOT PUBLISH] Layout Fragments{#do-not-publish-layout-fragments}

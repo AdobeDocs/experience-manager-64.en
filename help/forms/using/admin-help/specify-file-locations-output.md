@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_output
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: d745b290-47bf-4790-8c82-6fad6579fdb7
-index: y
-internal: n
-snippet: y
 ---
 
 # Specify file locations for Output {#specify-file-locations-for-output}

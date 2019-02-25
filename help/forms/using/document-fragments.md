@@ -7,9 +7,6 @@ uuid: e62f7b83-353b-4d8a-a017-f0853f9ce93c
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
 discoiquuid: 3a6f8b86-60a1-43b8-8d11-67e0d4d58643
-index: y
-internal: n
-snippet: y
 ---
 
 # Document Fragments{#document-fragments}

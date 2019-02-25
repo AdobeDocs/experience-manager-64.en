@@ -8,9 +8,6 @@ contentOwner: jsyal
 discoiquuid: efa33a26-3a1b-4f7d-8799-318562ec6b87
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/screens/using/screens-notifications-service
-index: y
-internal: n
-snippet: y
 ---
 
 # REDIRECT AEM Screens Notifications Service{#redirect-aem-screens-notifications-service}

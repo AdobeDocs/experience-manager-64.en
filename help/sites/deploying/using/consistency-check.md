@@ -8,9 +8,6 @@ contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 discoiquuid: f148f860-7e3b-4045-bccb-9c35634ac3d4
-index: y
-internal: n
-snippet: y
 ---
 
 # Consistency and Traversal Checks{#consistency-and-traversal-checks}

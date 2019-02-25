@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: configuring
 content-type: reference
 discoiquuid: f3019e8c-a107-48e3-b425-721d2a526669
-index: y
-internal: n
-snippet: y
 ---
 
 # Basic Configuration Concepts{#basic-configuration-concepts}

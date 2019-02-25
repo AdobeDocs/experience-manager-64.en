@@ -10,9 +10,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 discoiquuid: 6be9132e-20e6-418a-a5c2-1a87b062e955
 redirecttarget: /content/help/en/experience-manager/6-4/sites/deploying/using/recommended-deploys.html
-index: y
-internal: n
-snippet: y
 ---
 
 # Scaling{#scaling}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: 196e2600-7e0c-4f60-8925-d45fb261a6ef
-index: y
-internal: n
-snippet: y
 ---
 
 # Translating User Generated Content{#translating-user-generated-content}

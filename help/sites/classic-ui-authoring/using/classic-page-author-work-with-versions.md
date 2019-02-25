@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
 discoiquuid: 2208a44f-32ef-4b80-89c8-703cd4c5729d
-index: y
-internal: n
-snippet: y
 ---
 
 # Working with Page Versions{#working-with-page-versions}

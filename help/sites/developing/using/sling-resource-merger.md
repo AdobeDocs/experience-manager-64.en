@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
 discoiquuid: 535fdbad-6ba4-40db-af47-fa34efe4309c
-index: y
-internal: n
-snippet: y
 ---
 
 # Using the Sling Resource Merger in AEM{#using-the-sling-resource-merger-in-aem}

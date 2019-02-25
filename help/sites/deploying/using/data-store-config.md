@@ -10,9 +10,6 @@ content-type: reference
 topic-tags: deploying
 discoiquuid: 260e2c03-e895-4741-9496-3aab33f882b2
 legacypath: /deploy/platform/data-store-config
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring node stores and data stores in AEM 6{#configuring-node-stores-and-data-stores-in-aem}

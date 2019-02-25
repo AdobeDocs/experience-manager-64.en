@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4
 topic-tags: licenses
 content-type: reference
 discoiquuid: 1e05fa7b-2c11-4052-afd6-50e432c0f5a4
-index: y
-internal: n
-snippet: y
 ---
 
 # Copyright, Licenses and Disclaimers{#copyright-licenses-and-disclaimers}

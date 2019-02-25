@@ -10,9 +10,6 @@ products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: authoring-adobe-phonegap-enterprise
 discoiquuid: 3f8c9456-5173-4a1e-a3de-7bb812b0b74d
 redirecttarget: /content/help/en/experience-manager/6-4/mobile/using/phonegap-adding-content-to-imported-app
-index: y
-internal: n
-snippet: y
 ---
 
 # Import an existing hybrid app{#import-an-existing-hybrid-app}

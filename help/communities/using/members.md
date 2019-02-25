@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: dd2e781e-ca29-45ed-a631-71bff2c12615
-index: y
-internal: n
-snippet: y
 ---
 
 # Members & Groups Management Consoles{#members-groups-management-consoles}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: components
 content-type: reference
 discoiquuid: c1d9fbcc-ea1d-440e-8a35-9a9d8d53340b
-index: y
-internal: n
-snippet: y
 ---
 
 # Components Overview{#components-overview}

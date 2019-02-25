@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: configuring
 content-type: reference
 discoiquuid: c02caa8c-22f0-4329-b263-a36469186e20
-index: y
-internal: n
-snippet: y
 ---
 
 # Offloading Jobs{#offloading-jobs}

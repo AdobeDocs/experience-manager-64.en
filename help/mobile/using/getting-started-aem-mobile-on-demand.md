@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: introduction
 content-type: reference
 discoiquuid: a5875a9f-2bfa-4f17-bc7f-03238dadf6b1
-index: y
-internal: n
-snippet: y
 ---
 
 # AEM Mobile On-Demand{#aem-mobile-on-demand}

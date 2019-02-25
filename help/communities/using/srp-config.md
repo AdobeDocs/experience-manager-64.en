@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: 4df3e400-ac95-4cd2-9bbf-2b003724c071
-index: y
-internal: n
-snippet: y
 ---
 
 # Storage Configuration{#storage-configuration}

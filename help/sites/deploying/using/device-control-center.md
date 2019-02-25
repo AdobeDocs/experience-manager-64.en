@@ -8,9 +8,6 @@ contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 discoiquuid: 7065cf31-c6bd-421f-a566-c986127ee4fc
-index: y
-internal: n
-snippet: y
 ---
 
 # Device Control Center{#device-control-center}

@@ -10,9 +10,6 @@ topic-tags: administering
 content-type: reference
 discoiquuid: 2cb41c5b-0541-4a99-92c5-499c0c629917
 pagetitle: Communities Tools
-index: y
-internal: n
-snippet: y
 ---
 
 # Communities Tools{#communities-tools}

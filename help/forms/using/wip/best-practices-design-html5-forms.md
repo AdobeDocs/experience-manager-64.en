@@ -7,9 +7,6 @@ page-status-flag: never-activated
 uuid: 9c643b24-3ab7-4a09-a543-564bef953baf
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 397f56b5-bde7-4cb4-a991-e050e4f79391
-index: y
-internal: n
-snippet: y
 ---
 
 # DO NOT PUBLISH - Best practices for designing HTML5 forms{#do-not-publish-best-practices-for-designing-html-forms}

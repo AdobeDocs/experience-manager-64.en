@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: bcd0501d-0c3c-408f-ab4e-be3eb079e24c
-index: y
-internal: n
-snippet: y
 ---
 
 # HTTP2 Delivery of Content FAQ{#http-delivery-of-content-faq}

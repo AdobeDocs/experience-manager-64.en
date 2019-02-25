@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
 discoiquuid: adc5d089-bc24-45ae-a883-65124ee9941b
-index: y
-internal: n
-snippet: y
 ---
 
 # Teasers and Strategies{#teasers-and-strategies}

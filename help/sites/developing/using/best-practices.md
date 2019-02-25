@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
 discoiquuid: f1d94e0a-330e-4582-a88f-df89057c9c73
-index: y
-internal: n
-snippet: y
 ---
 
 # Best Practices{#best-practices}

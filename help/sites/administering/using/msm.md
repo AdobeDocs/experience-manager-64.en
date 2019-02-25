@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features
 content-type: reference
 discoiquuid: f72ec036-4b4e-4c25-bf21-6999e477d9f4
-index: y
-internal: n
-snippet: y
 ---
 
 # Reusing Content: Multi Site Manager and Live Copy{#reusing-content-multi-site-manager-and-live-copy}

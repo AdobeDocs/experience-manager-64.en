@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
 discoiquuid: 05d6a1cf-2c24-4170-9e0d-17011eb44180
-index: y
-internal: n
-snippet: y
 ---
 
 # Development Practices{#development-practices}

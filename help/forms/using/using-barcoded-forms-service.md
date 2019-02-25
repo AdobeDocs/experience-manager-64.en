@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: document_services
 discoiquuid: 8385f2f8-245b-4f5f-b938-abd4ff82a52b
-index: y
-internal: n
-snippet: y
 ---
 
 # Barcoded Forms Service{#barcoded-forms-service}

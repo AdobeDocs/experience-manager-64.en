@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: components
 content-type: reference
 discoiquuid: 81c5fbba-b710-4f95-9954-c09edf338cc5
-index: y
-internal: n
-snippet: y
 ---
 
 # Developing Forms (Classic UI){#developing-forms-classic-ui}

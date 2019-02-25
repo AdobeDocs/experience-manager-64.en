@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: d47adc78-4cfa-48d8-98ca-26b9c4b492ae
-index: y
-internal: n
-snippet: y
 ---
 
 # In-Context Moderation{#in-context-moderation}

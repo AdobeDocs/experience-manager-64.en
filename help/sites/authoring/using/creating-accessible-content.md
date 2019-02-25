@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
 discoiquuid: 946323c3-80f7-4703-a0cc-b24acf3592f2
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating Accessible Content (WCAG 2.0 Conformance){#creating-accessible-content-wcag-conformance}

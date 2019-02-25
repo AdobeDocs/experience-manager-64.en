@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: components
 content-type: reference
 discoiquuid: fe802c6b-d2bf-4619-b9b3-dd748e04c2b2
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring Multiple In-Place Editors{#configuring-multiple-in-place-editors}

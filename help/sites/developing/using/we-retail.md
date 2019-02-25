@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
 discoiquuid: 9b3b29fd-735b-4507-82fd-17f1391c47de
-index: y
-internal: n
-snippet: y
 ---
 
 # We.Retail Reference Implementation{#we-retail-reference-implementation}

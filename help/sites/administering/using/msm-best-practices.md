@@ -10,9 +10,6 @@ topic-tags: site-features
 content-type: reference
 topic-tags: best-practices
 discoiquuid: 6b7655c5-40a0-45d6-8be6-14731f88619b
-index: y
-internal: n
-snippet: y
 ---
 
 # MSM Best Practices{#msm-best-practices}

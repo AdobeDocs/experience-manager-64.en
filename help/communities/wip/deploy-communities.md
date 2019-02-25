@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 content-type: reference
 topic-tags: deploying
 discoiquuid: 3b85fcaf-d0e6-4c68-89d0-ec45ab8e51a2
-index: y
-internal: n
-snippet: y
 ---
 
 # Deploying Communities{#deploying-communities}

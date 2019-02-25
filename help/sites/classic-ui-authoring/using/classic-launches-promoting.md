@@ -10,9 +10,6 @@ content-type: reference
 topic-tags: site-features
 discoiquuid: edbb30ba-2927-4a39-a05c-d774c5aaf852
 legacypath: /content/docs/en/aem/6-0/author/site-page-features/launches
-index: y
-internal: n
-snippet: y
 ---
 
 # Promoting Launches{#promoting-launches}

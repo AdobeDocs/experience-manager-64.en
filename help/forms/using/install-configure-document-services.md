@@ -6,9 +6,6 @@ seo-description: Install AEM Forms document services to create, assemble, distri
 uuid: 59c56c0d-4969-48f3-9e78-7749d2696a81
 topic-tags: installing
 discoiquuid: faff5e72-b507-43ea-9254-23232021c075
-index: y
-internal: n
-snippet: y
 ---
 
 # Installing and configuring document services{#installing-and-configuring-document-services}

@@ -9,9 +9,6 @@ geptopics: SG_AEMFORMS/categories/working_with_document_security
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: a857d38a-e731-47bc-8263-767613cb5180
 noindex: true
-index: y
-internal: n
-snippet: y
 ---
 
 # Enable AEM to search document security protected PDF and Microsoft Office documents{#enable-aem-to-search-document-security-protected-pdf-and-microsoft-office-documents}

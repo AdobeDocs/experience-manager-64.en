@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: 0aadc9cb-94d2-4858-9224-72546463e93a
-index: y
-internal: n
-snippet: y
 ---
 
 # Customizing the listing of process instances{#customizing-the-listing-of-process-instances}

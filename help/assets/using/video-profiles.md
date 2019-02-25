@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
 discoiquuid: 993c6422-652a-4715-bcd7-d897b83321b9
-index: y
-internal: n
-snippet: y
 ---
 
 # Video Profiles{#video-profiles}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
 discoiquuid: d18cb89d-34b9-4fe0-b37d-a8840cf0c9fa
-index: y
-internal: n
-snippet: y
 ---
 
 # Spin Sets{#spin-sets}

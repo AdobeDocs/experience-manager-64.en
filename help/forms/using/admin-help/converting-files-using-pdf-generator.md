@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_pdf_generator
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: b88eeb61-5193-4680-9552-55dd921ca799
-index: y
-internal: n
-snippet: y
 ---
 
 # Converting files using PDF Generator{#converting-files-using-pdf-generator}

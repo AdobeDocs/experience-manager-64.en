@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
 discoiquuid: f051ab15-665e-41a0-a3e5-07bb0e0ecbdf
-index: y
-internal: n
-snippet: y
 ---
 
 # Implementing a Custom Predicate Evaluator for the Query Builder{#implementing-a-custom-predicate-evaluator-for-the-query-builder}

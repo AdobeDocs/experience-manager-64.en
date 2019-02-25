@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: content
 content-type: reference
 discoiquuid: f416b26a-cc04-463a-9e5e-a64cee1f970a
-index: y
-internal: n
-snippet: y
 ---
 
 # How to Work With Packages{#how-to-work-with-packages}

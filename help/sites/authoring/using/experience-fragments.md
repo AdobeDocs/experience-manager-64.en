@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
 discoiquuid: b337e39b-3430-47a4-880a-a2f04d835bb6
-index: y
-internal: n
-snippet: y
 ---
 
 # Experience Fragments{#experience-fragments}

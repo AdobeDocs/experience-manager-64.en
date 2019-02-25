@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
 discoiquuid: 627affe4-7f3f-4753-a982-d248f29fa81c
-index: y
-internal: n
-snippet: y
 ---
 
 # Reporting{#reporting}

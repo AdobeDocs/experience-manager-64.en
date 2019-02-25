@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: fa426061-ce43-462a-8ee2-6c6bfb3614cb
-index: y
-internal: n
-snippet: y
 ---
 
 # Initial Sandbox Application{#initial-sandbox-application}

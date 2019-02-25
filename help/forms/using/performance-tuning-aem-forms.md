@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: Configuration
 discoiquuid: 43b545cf-99d0-430b-97d2-79e51b348f47
-index: y
-internal: n
-snippet: y
 ---
 
 # Performance tuning of AEM Forms server{#performance-tuning-of-aem-forms-server}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: 7f59db62-05b1-497e-9ab8-cfc0b3f59fb0
 noindex: true
-index: y
-internal: n
-snippet: y
 ---
 
 # Using Adobe Sign in an adaptive form{#using-adobe-sign-in-an-adaptive-form}

@@ -7,9 +7,6 @@ uuid: 0508d44f-0351-42dd-993e-47bbc221b866
 contentOwner: anujkapo
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 19bff402-c679-4b4d-9af7-14e5f8645bc2
-index: y
-internal: n
-snippet: y
 ---
 
 # Tutorial: Create form data model{#tutorial-create-form-data-model}

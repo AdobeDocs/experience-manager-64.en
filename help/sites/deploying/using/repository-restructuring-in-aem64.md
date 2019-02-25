@@ -11,9 +11,6 @@ topic-tags: upgrading
 discoiquuid: b5c3dbb3-972c-4abc-9730-3fd33f20caf0
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/sites/deploying/using/repository-restructuring.html
-index: y
-internal: n
-snippet: y
 ---
 
 # Repository Restructuring in AEM 6.4{#repository-restructuring-in-aem}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
 discoiquuid: 794b8bb3-e687-49d8-b03e-0af035ad0af5
-index: y
-internal: n
-snippet: y
 ---
 
 # Encapsulated Token Support{#encapsulated-token-support}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: introduction
 content-type: reference
 discoiquuid: 42f32162-b577-47a2-be76-e50f3b9b4cbc
-index: y
-internal: n
-snippet: y
 ---
 
 # Getting Started with AEM Communities{#getting-started-with-aem-communities}

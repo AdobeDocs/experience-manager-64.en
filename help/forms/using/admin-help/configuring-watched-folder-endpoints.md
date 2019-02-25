@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/managing_endpoints
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 810cf400-f4d0-47ff-9b84-1f40f8c9c93b
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring watched folder endpoints{#configuring-watched-folder-endpoints}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
 discoiquuid: ea830e82-cbbc-4ac0-ac3f-c5d44c6df9f5
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring Segmentation with ContextHub{#configuring-segmentation-with-contexthub}

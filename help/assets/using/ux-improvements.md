@@ -6,9 +6,6 @@ seo-description: User experience improvements in AEM 6.4 Assets
 uuid: 80c6d520-ccf0-4238-98fe-e8947f53cd2a
 contentOwner: asgupta
 discoiquuid: a0adb3f0-f264-4fc0-8e94-c3118677a4da
-index: y
-internal: n
-snippet: y
 ---
 
 # DO NOT PUBLISH | User Experience Improvements{#do-not-publish-user-experience-improvements}

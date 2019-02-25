@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/system_information_service
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 253d5a8f-7f28-4ee1-82ff-e1dff2f2b4b4
-index: y
-internal: n
-snippet: y
 ---
 
 # System information Service APIs{#system-information-service-apis}

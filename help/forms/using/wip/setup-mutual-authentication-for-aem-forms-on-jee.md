@@ -7,9 +7,6 @@ page-status-flag: never-activated
 uuid: 2bc5491d-a2a8-4a6f-bd7d-e69f705c7266
 contentOwner: khsingh
 discoiquuid: bec0de4b-1d92-4fea-8d6a-575bfd1a03b2
-index: y
-internal: n
-snippet: y
 ---
 
 # [DO NOT PUBLISH] Set up Mutual Authentication for AEM Forms on JEE{#do-not-publish-set-up-mutual-authentication-for-aem-forms-on-jee}

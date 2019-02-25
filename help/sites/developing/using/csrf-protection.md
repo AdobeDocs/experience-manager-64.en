@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
 discoiquuid: 248ce516-2b2c-4c9f-9b64-49ac9852a7e2
-index: y
-internal: n
-snippet: y
 ---
 
 # The CSRF Protection Framework{#the-csrf-protection-framework}

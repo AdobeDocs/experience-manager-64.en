@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
 discoiquuid: 8e356d70-6e42-4657-afd1-7a8870b7e90a
-index: y
-internal: n
-snippet: y
 ---
 
 # Keyboard Shortcuts for Consoles{#keyboard-shortcuts-for-consoles}

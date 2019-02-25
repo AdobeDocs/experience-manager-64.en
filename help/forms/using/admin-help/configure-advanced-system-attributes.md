@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_user_management
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 65797fc8-7f2d-40bf-861c-aa085bf3f92a
-index: y
-internal: n
-snippet: y
 ---
 
 # Configure advanced system attributes{#configure-advanced-system-attributes}

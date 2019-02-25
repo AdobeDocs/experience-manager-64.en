@@ -8,9 +8,6 @@ topic-tags: publish
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: db5e2daf-78ef-45b5-be5a-fe556a377e40
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring storage services for drafts and submissions{#configuring-storage-services-for-drafts-and-submissions}

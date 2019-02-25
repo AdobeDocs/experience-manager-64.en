@@ -8,9 +8,6 @@ contentOwner: JYOTIKA SYAL
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 discoiquuid: 123ae85c-0e1d-4d3e-92bc-d474f532d635
-index: y
-internal: n
-snippet: y
 ---
 
 # AEM Mobile On-Demand{#aem-mobile-on-demand}

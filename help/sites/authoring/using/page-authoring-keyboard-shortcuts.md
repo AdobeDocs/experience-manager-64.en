@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
 discoiquuid: 0221e372-4f7f-41d3-b667-86a5ec41b506
-index: y
-internal: n
-snippet: y
 ---
 
 # Keyboard Shortcuts when Editing Pages{#keyboard-shortcuts-when-editing-pages}

@@ -10,9 +10,6 @@ topic-tags: managing-accessibility
 content-type: reference
 topic-tags: introduction
 discoiquuid: 0354cffe-0cc0-42f9-827b-d762c4714bef
-index: y
-internal: n
-snippet: y
 ---
 
 # AEM and the Web Accessibility Guidelines{#aem-and-the-web-accessibility-guidelines}

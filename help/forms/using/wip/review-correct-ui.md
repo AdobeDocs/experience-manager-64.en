@@ -7,9 +7,6 @@ page-status-flag: never-activated
 uuid: 0c3465c1-b135-460e-a94d-314c2ff4be47
 contentOwner: vishabgu
 discoiquuid: f18219b9-84b7-49c0-ae7d-ee3308ce40f8
-index: y
-internal: n
-snippet: y
 ---
 
 # Review and Correct Converted Adaptive Forms{#review-and-correct-converted-adaptive-forms}

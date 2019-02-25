@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
 discoiquuid: 1532bb75-8d8e-403e-8779-199256f73319
-index: y
-internal: n
-snippet: y
 ---
 
 # Targeting your Adobe Campaign{#targeting-your-adobe-campaign}

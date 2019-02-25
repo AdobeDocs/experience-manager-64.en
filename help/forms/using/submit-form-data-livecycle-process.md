@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: Configuration
 discoiquuid: 987b82de-d75e-4610-8026-fcbacbda715b
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring AEM Forms to submit form data to an AEM Forms on JEE process{#configuring-aem-forms-to-submit-form-data-to-an-aem-forms-on-jee-process}

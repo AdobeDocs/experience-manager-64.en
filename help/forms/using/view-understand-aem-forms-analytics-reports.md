@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: integrations
 discoiquuid: 59a6a476-d2d7-4806-83da-17187382d474
-index: y
-internal: n
-snippet: y
 ---
 
 # View and understand AEM Forms analytics reports{#view-and-understand-aem-forms-analytics-reports}

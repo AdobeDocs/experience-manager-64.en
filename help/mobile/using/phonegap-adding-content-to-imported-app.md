@@ -10,9 +10,6 @@ products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: developing-adobe-phonegap-enterprise
 discoiquuid: 86c44194-7cec-490a-b071-6590aa3168f9
 pagetitle: Is your hybrid app ready for AEM Mobile?
-index: y
-internal: n
-snippet: y
 ---
 
 # Is your hybrid app ready for AEM Mobile?{#is-your-hybrid-app-ready-for-aem-mobile}

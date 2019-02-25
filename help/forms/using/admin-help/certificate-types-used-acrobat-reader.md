@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_acrobat_reader_dc_extensions
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: b6541073-8847-4011-afc4-b35e2eaaed89
-index: y
-internal: n
-snippet: y
 ---
 
 # Certificate types used by Acrobat Reader DC extensions {#certificate-types-used-by-acrobat-reader-dc-extensions}

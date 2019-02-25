@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_forms_workflow
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 30dd3bdd-9a52-479b-9404-90f3cad05db9
-index: y
-internal: n
-snippet: y
 ---
 
 # Overview of Forms workflow{#overview-of-forms-workflow}

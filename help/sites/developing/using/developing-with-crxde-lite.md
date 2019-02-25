@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: development-tools
 content-type: reference
 discoiquuid: df0823bc-5e01-4a16-815b-6b6635869225
-index: y
-internal: n
-snippet: y
 ---
 
 # Developing with CRXDE Lite{#developing-with-crxde-lite}

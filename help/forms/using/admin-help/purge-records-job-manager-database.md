@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/health_monitor
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 3cd618c1-2fc5-416d-8100-76628dbaaea2
-index: y
-internal: n
-snippet: y
 ---
 
 # Purge records from the Job Manager database{#purge-records-from-the-job-manager-database}

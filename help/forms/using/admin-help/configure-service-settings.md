@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/managing_services
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: de9a7efc-b13b-48c2-9f80-49d48d2068b6
-index: y
-internal: n
-snippet: y
 ---
 
 # Configure service settings{#configure-service-settings}

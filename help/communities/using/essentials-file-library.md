@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: 67424fa0-5f8f-4735-9108-db8da3dbf8f9
-index: y
-internal: n
-snippet: y
 ---
 
 # File Library Essentials{#file-library-essentials}

@@ -7,9 +7,6 @@ uuid: 6c72b20f-c68f-4fbf-8f79-372728566fa2
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
 discoiquuid: 27e7121f-98c7-4f4b-a89b-ef3dbc909332
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating forms with repeatable sections{#creating-forms-with-repeatable-sections}

@@ -10,9 +10,6 @@ topic-tags: introduction
 content-type: reference
 discoiquuid: 746957cb-b84a-46c8-9085-838a7f95142b
 targetaudience: target-audience new
-index: y
-internal: n
-snippet: y
 ---
 
 # AEM Screens Overview Video{#aem-screens-overview-video}

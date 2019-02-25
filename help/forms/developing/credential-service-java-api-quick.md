@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: 43616ddc-8a8a-4a42-899b-65294eb37c69
-index: y
-internal: n
-snippet: y
 ---
 
 # Credential Service Java API QuickStart(SOAP){#credential-service-java-api-quickstart-soap}

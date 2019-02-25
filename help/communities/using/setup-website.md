@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: c5a94a93-89f6-4f5c-9190-042fdb63b245
-index: y
-internal: n
-snippet: y
 ---
 
 # Setup Website Structure{#setup-website-structure}
