@@ -37,8 +37,6 @@ When you create 3D models for use in AEM 3D, be aware of the following:
   See [About the uploading and processing of 3D assets in AEM](../../assets/using/upload-processing-3d-assets.md).
 
 * The general scene lighting is provided by the stage. As such, Adobe does not recommend that you include lights with 3D model files. You can include lights in the model. However, they must be specific to the model only. For example, it may be necessary to include additional lighting to brighten a part of the object that is obscured by other parts. Therefore, it would not be sufficiently visible with just the stage lights.  
-  *** 
-  ***
 
 ## Supported files in AEM 3D {#supported-files-in-aem-d}
 
@@ -54,7 +52,7 @@ The primary 3D model file contains the actual 3D model geometry and definitions 
   The Autodesk 3D file interchange format; both binary and ASCII formats.  
   When you create FBX files in third-party applications, Adobe recommends the following configuration settings (see table below). These settings can help you achieve the best results for 3D files that you intend to use in AEM. The option names are taken from the Autodesk Maya FBX Export Options dialog box.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table cellpadding="1" cellspacing="0" width="100%"> 
  <tbody> 
   <tr> 
    <td><strong>Option in Autodesk Maya FBX Export dialog box</strong></td> 

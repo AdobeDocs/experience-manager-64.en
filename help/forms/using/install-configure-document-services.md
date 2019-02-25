@@ -74,10 +74,10 @@ Before you begin to install and configure AEM Forms document services, ensure th
 
 * Client software required for PDF generator to perform conversion on Microsoft Windows and Linux are installed:
 
-    * **Microsoft Windows**: Install [Microsoft Office](../../forms/using/AEM-forms-JEE-supported-platforms.md#main-pars-header-8)or [Apache OpenOffice   
-      ](../../forms/using/AEM-forms-JEE-supported-platforms.md#main-pars-header-8)
+    * **Microsoft Windows**: Install [Microsoft Office](../../forms/using/aem-forms-jee-supported-platforms.md#main-pars-header-8)or [Apache OpenOffice   
+      ](../../forms/using/aem-forms-jee-supported-platforms.md#main-pars-header-8)
     
-    * **Linux**: Install [Apache OpenOffice](../../forms/using/AEM-forms-JEE-supported-platforms.md#main-pars-header-8)
+    * **Linux**: Install [Apache OpenOffice](../../forms/using/aem-forms-jee-supported-platforms.md#main-pars-header-8)
 
 >[!NOTE]
 >

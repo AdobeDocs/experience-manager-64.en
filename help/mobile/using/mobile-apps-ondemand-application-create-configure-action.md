@@ -62,7 +62,7 @@ You must have an existing mobile app template (or an app installed that has an a
 
 Once you create an On-Demand app from the application dashboard, the next step is to associate your app to the cloud configuration.
 
-See [Associating your app to the Cloud Configuration](../../mobile/using/mobile-on-demand-associating-an-On-Demand-app-to-cloud-configuration.md) for more details.
+See [Associating your app to the Cloud Configuration](../../mobile/using/mobile-on-demand-associating-an-on-demand-app-to-cloud-configuration.md) for more details.
 
 ### Getting Ahead {#getting-ahead}
 

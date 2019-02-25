@@ -22,7 +22,7 @@ snippet: y
 
 Associated content provides the connection so that assets (i.e.) can be (optionally) used with the fragment when it is added to a content page. This provides flexibility by [providing a range of assets to access when using the content fragment on a page](../../sites/authoring/using/content-fragments.md#usingassociatedcontent), while also helping to reduce the time required to search for the appropriate asset.
 
-### Adding Associated Content {#adding-associated-content}
+## Adding Associated Content {#adding-associated-content}
 
 >[!NOTE]
 >
@@ -53,4 +53,3 @@ Once you have associated a collection you can:
 * **Add Assets** to the collection.
 * Select an asset for further action.
 * Edit the asset.
-

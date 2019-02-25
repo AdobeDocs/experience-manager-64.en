@@ -62,7 +62,7 @@ Content fragments allow you to:
 
 These content fragments can then be assembled to provide experiences over a variety of channels.
 
-### Content Fragments and Content Services {#content-fragments-and-content-services}
+## Content Fragments and Content Services {#content-fragments-and-content-services}
 
 AEM Content Services are designed to generalize the description and delivery of content in/from AEM beyond a focus on web pages.
 
@@ -301,6 +301,9 @@ A sample fragment can be seen at:
 
 ` [http://localhost:4502/assets.html/content/dam/we-retail/en/experiences/arctic-surfing-in-lofoten](http://localhost:4502/assets.html/content/dam/we-retail/en/experiences/arctic-surfing-in-lofoten)`
 
+<!-- Alva, not sure what to do about a More Like This with 500 entries. Commenting out for now. Bob -->
+
+<!--
 >[!MORE_LIKE_THIS]
 >
 >* [kt](/content/help/en/experience-manager/kt)
@@ -1155,3 +1158,4 @@ A sample fragment can be seen at:
 >* [REDIRECT Developing a Custom Component for AEM Screens](/content/help/en/experience-manager/kt/screens/using/developing-custom-component-tutorial-develop)
 >* [Index](/content/help/en/experience-manager/kt/screens/index)
 >* [AEM 6.4 Screens Videos](/content/help/en/experience-manager/kt/screens/index/aem-6-4-screens)
+-->

@@ -78,6 +78,6 @@ The following table specifies the feature support provided for HTML5 forms and P
  </tbody>
 </table>
 
-Follow the best practices to enable a form template for HTML5 renditions and ensure that the behavior and appearance of HTML5 forms and XFA-based PDF is consistent. For detailed list of best practices, see [Best practices to design an HTML5 form.](../../forms/using/Best-practices-for-HTML5-forms.md)
+Follow the best practices to enable a form template for HTML5 renditions and ensure that the behavior and appearance of HTML5 forms and XFA-based PDF is consistent. For detailed list of best practices, see [Best practices to design an HTML5 form.](../../forms/using/best-practices-for-html5-forms.md)
 
 [**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)

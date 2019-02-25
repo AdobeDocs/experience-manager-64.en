@@ -66,7 +66,7 @@ The configuration tasks that follow reference the following terms:
 
 You may choose to implement Dynamic Media only for imaging, only for video, or for both imaging and video. To determine the steps for configuring Dynamic Media for your specific scenario, please reference the following table. 
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table cellpadding="1" cellspacing="0" width="100%"> 
  <tbody> 
   <tr> 
    <td width="20%"><strong>Scenario</strong></td> 
@@ -181,20 +181,11 @@ To enable dynamic media:
    >
    >To troubleshoot issues with Dynamic Media, see the following logs in the** crx-quickstart/logs/** directory:
    >
-   >    
-   >    
    >    * ImageServer-&lt;PortId&gt;-&lt;yyyy&gt;&lt;mm&gt;&lt;dd&gt;.log - The ImageServer log provides statistics and analytical information used for analyzing the behavior of the internal ImageServer process.  
    >      Example of an Image Server log file name: `ImageServer-57346-2019-07-25.log`
-   >    
-   >    
-   >    
    >
-   >    
-   >    
    >    * s7access-&lt;yyyy&gt;&lt;mm&gt;&lt;dd&gt;.log - The s7access log records each request made to Dynamic Media through **/is/image** and **/is/content**.
-   >    
-   >    
-   >    
+   >
    >These logs are only used when Dynamic Media is enabled. They are not included in the **Download Full** package that is generated from the **system/console/status-Bundlelis**t page; when calling Customer Support if you have a Dynamic Media issue, please append both these logs to the issue.
 
 ### If you installed AEM to a different port or context path ... {#if-you-installed-aem-to-a-different-port-or-context-path}
@@ -536,15 +527,12 @@ As part of the configuration, you need to enter a registration ID, video service
 
 To configure dynamic media cloud services:
 
-##
-
 1. In AEM, tap or click the AEM logo to access the global navigation console and tap **Tools **&gt; **Cloud Services** &gt; **Dynamic Media Configuration (Pre-6.3)**.
 1. On the Dynamic Media Configuration Browser page, in the left pane, select **global**, then click **Create**.
 1. In the **Create Dynamic Media Configuration** dialog box, in the Title field, type a title.
 1. If you are configuring Dynamic Media for video,
 
     * In the **Registration** **ID** field, type your registration ID.
-    
     * In the **Video Service URL** field, enter the video service URL for the Dynamic Media Gateway.
 
 1. If you are configuring Dynamic Media for imaging, in the **Image Service URL** field, enter the image service URL for the Dynamic Media Gateway.
@@ -608,10 +596,8 @@ Make sure that the Video Analytics preset package from the first Author node is 
   
       `http://localhost:4502/is/image/conf/global/settings/dam/dm/presets/analytics?req=userdata`  
   
-      To validate the preset on Publish servers, you can make a similar direct request to the Publish server. The responses are the same on Author and Publish nodes. The response looks similar to the following:** 
-  
-      ** 
-    
+      To validate the preset on Publish servers, you can make a similar direct request to the Publish server. The responses are the same on Author and Publish nodes. The response looks similar to the following: 
+      
       ```    
       marketingCloudOrgId=0FC4E86B573F99CC7F000101
        reportSuite=aemaem6397618-2018-05-23
@@ -619,10 +605,8 @@ Make sure that the Video Analytics preset package from the first Author node is 
        trackingServer=aemvideodal.d2.sc.omtrdc.net
       ```
 
-    * **Check the Video Analytics preset through the Video Reporting tool in AEM  
-      **Click **Tools** &gt; **Assets** &gt; **Video Reporting  
-  
-      ** `http://localhost:4502/mnt/overlay/dam/gui/content/s7dam/videoreports/videoreport.html`  
+    * **Check the Video Analytics preset through the Video Reporting tool in AEM**
+      **Click **Tools** &gt; **Assets** &gt; **Video Reporting** `http://localhost:4502/mnt/overlay/dam/gui/content/s7dam/videoreports/videoreport.html`  
   
       If you see the following error message, the report suite is available, but unpopulated. This error is correct--and desired--in a new installation before the system collects any data.
 
@@ -923,7 +907,7 @@ To configure Dynamic Media Image Server settings:
    | Cache Max Size |200000000 |Maximum size of response cache in bytes. |
    | Cache Max Entries |100000 |Maximum number of entries allowed in the cache. |
 
-#### Default Manifest settings {#default-manifest-settings}
+### Default Manifest settings {#default-manifest-settings}
 
 The default manifest lets you configure the defaults that are used to generate the Dynamic Media Delivery responses. You can fine tune quality (JPEG quality, resolution, resampling mode), caching (expiration), and prevent the rendering of images that are too large (defaultpix, defaultthumbpix, maxpix).
 

@@ -94,7 +94,7 @@ For information about creating and using data dictionaries, see creating [data d
 
 AEM tools panel contains tools for various components. To navigate to AEM Forms-specific tools, click the Experience Manager logo ![](assets/adobeexperiencemanager.png) &gt; tools ![](assets/hammer.png) &gt; Forms. Tools to perform the following functions are displayed:
 
-* **Configure Watched Folder:** An administrator can configure a network folder, known as a watched folder, so that when a user places a file (such as a PDF file) in the watched folder, a pre-configured operation is started and manipulates the file. For detailed information, see [Create and Configure a watched folder](../../forms/using/Creating-Configure-watched-folder.md).  
+* **Configure Watched Folder:** An administrator can configure a network folder, known as a watched folder, so that when a user places a file (such as a PDF file) in the watched folder, a pre-configured operation is started and manipulates the file. For detailed information, see [Create and Configure a watched folder](../../forms/using/creating-configure-watched-folder.md).  
 
 * **Configure Forms App Offline Service: **The AEM Forms app offline service caches the paths or URLs of the resources used in a form. Caching paths or URLs of the resources used in a form improves server-side performance. To configure the server-side offline component of AEM Forms app, see [Working in the offline mode](../../forms/using/work-offline-mode.md).
 

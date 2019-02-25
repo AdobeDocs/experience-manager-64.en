@@ -167,7 +167,7 @@ Following is an overview of the procedure to upgrade an existing LiveCycle ES4 S
 
        Create a backup of LiveCycle ES4 SP1 database, Global Data Storage (GDS), and crx-repository (not required for document security). If you're upgrading to MongoMK or RDBMK persistence, export LiveCycle ES4 SP1 correspondence management assets in a .cmp file and forms assets as an AEM package.
     
-    1. Ensure your existing platform (that is, application server, database, operating system, Adobe Acrobat, third-party applications, and hardware) is supported for AEM 6.4 Forms on JEE. For information about supported hardware and software, refer to the [Supported Platform Combinations](../../forms/using/AEM-forms-JEE-supported-platforms.md) document.
+    1. Ensure your existing platform (that is, application server, database, operating system, Adobe Acrobat, third-party applications, and hardware) is supported for AEM 6.4 Forms on JEE. For information about supported hardware and software, refer to the [Supported Platform Combinations](../../forms/using/aem-forms-jee-supported-platforms.md) document.
 
        If you create a fresh instance of the database, import the data backed up in step 3 to the database. For information about how to import data to a database, see documentation of corresponding database vendor.
 
@@ -226,7 +226,7 @@ Following is an overview of the procedure to upgrade an existing LiveCycle ES4 S
       <li>You do not require Content Repository for AEM Forms Document Security.</li> 
      </ul> <p>Moreover, repository type of LiveCycle and AEM Forms are different. For available repository types and related information, see <a href="../../forms/using/choosing-persistence-type-for-aem-forms.md">Choosing a persistence type for an AEM Forms installation</a>. </p> </li> 
     <li><p>Create a backup of LiveCycle ES3 database, Global Data Storage (GDS), and Content Repository (not required for document security). If you're upgrading to MongoMK or RDBMK persistence, export LiveCycle ES3 correspondence management assets as an archive.</p> </li> 
-    <li><p>Ensure your existing platform (that is, application server, database, operating system, Adobe Acrobat, third-party applications, and hardware) is supported for AEM 6.4 Forms on JEE. For information about supported hardware and software, refer to the <a href="../../forms/using/AEM-forms-JEE-supported-platforms.md" target="_blank">Supported Platform Combinations</a> document.</p> <p>If you create a fresh instance of the database, import the data backed up in step 3 to the database. For information about how to import data to a database, see documentation of corresponding database vendor.<br /> </p> 
+    <li><p>Ensure your existing platform (that is, application server, database, operating system, Adobe Acrobat, third-party applications, and hardware) is supported for AEM 6.4 Forms on JEE. For information about supported hardware and software, refer to the <a href="../../forms/using/aem-forms-jee-supported-platforms.md" target="_blank">Supported Platform Combinations</a> document.</p> <p>If you create a fresh instance of the database, import the data backed up in step 3 to the database. For information about how to import data to a database, see documentation of corresponding database vendor.<br /> </p> 
      <note type="note"> 
       <p>If you are using RDBMK persistence format, use single database for both repository persistence and document services running on AEM Forms on JEE.</p> 
      </note></li> 

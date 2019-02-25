@@ -50,7 +50,7 @@ The terms used in this document may have a different meaning in other contexts. 
 * **Major asset  update/change :** A change to a digital asset that requires considerable work, and sometimes must be done over a longer period of time. It typically includes multiple changes. The asset must be saved multiple times while being updated. Major asset updates typically cause the asset to enter a WIP stage.
 * **DAM:** Digital asset management. In this document, it is synonymous with AEM Experience Manager Assets, unless specifically mentioned otherwise.
 * **Creative user:** A creative professional, who creates digital assets using Creative Cloud apps and services. In some cases, a creative user may be a member of a creative team who may use Creative Cloud, but does not create digital assets (like a creative director or creative team manager).
-* ** DAM user: **A typical user of a DAM system. Depending on the organization, a DAM user can be a marketing or a non-marketing user, for example a Line-of-Business (LOB) user, librarian, sales person, and so on.
+* **DAM user:** A typical user of a DAM system. Depending on the organization, a DAM user can be a marketing or a non-marketing user, for example a Line-of-Business (LOB) user, librarian, sales person, and so on.
 
 ## Summary of best practices {#summary-of-best-practices}
 
@@ -74,7 +74,7 @@ The following table provides a concise summary of when to use which solution or 
 * **AEM / CC Folder Sharing:** When users don't have direct access to AEM or only require access to a smaller number of files.
 * Alternative solutions (for example, [AEM Assets Brand Portal](/content/help/en/experience-manager/brand-portal/user-guide), solutions that can be built based on [Asset Share](../../assets/using/assets-finder-editor.md) components, [Link Share](../../assets/using/link-sharing.md), using [AEM Assets web UI](../../assets/using/managing-assets-touch-ui.md)): Support similar use cases and should be reviewed based on specific requirement.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table cellpadding="1" cellspacing="0" width="100%"> 
  <tbody> 
   <tr> 
    <th>Use Case </th> 
@@ -158,8 +158,8 @@ This is a brief summary of best practices for AEM & Creative Cloud Integration. 
 * **Understand why and when to store assets in DAM:** Which updates should be available to the broader team in your organization
 * **Mind the access to DAM:** Use the right tools for users in-/outside your enterprise network with or without access to DAM
 * **Mind the volume of assets shared:** Use the right tool depending on the volume of assets in collaboration
-* **Understand asset lifecycle: **Know how assets are handled in your organization by different teams
-* **Handle frequent saves to assets with care: **Don't carry out work in progress tasks in mapped/shared folder unless you need all the changes in DAM
+* **Understand asset lifecycle**: Know how assets are handled in your organization by different teams
+* **Handle frequent saves to assets with care**: Don't carry out work in progress tasks in mapped/shared folder unless you need all the changes in DAM
 * **Separate mapped/shared folders for clarity**: Use separate folders mapped/shared from DAM for different classes of assets - final assets from DAM and new / updated assets meant for storing in DAM
 
 ### Best Practices for AEM Desktop App {#best-practices-for-aem-desktop-app}
@@ -167,7 +167,6 @@ This is a brief summary of best practices for AEM & Creative Cloud Integration. 
 This is a brief summary of best practices for AEM Desktop App. Refer to [AEM Desktop App best practices](/assets/using/aem-desktop-app-best-practices) document for more information.
 
 * **Understand how Desktop App works:** Linking between Web UI and desktop, repository mapping, asset caching, saving locally and uploading in background  
-
 * **Quick access to assets on desktop:** Find your asset in Web UI and open or reveal on desktop
 * **Minor updates - save directly to DAM:** Save to the file mapped by AEM desktop app for minor asset updates
 * **Major updates - use a separate WIP folder:** copy asset to a separate WIP folder outside of the mapped areas, work there, save back to the mapped location when ready
@@ -176,7 +175,7 @@ This is a brief summary of best practices for AEM Desktop App. Refer to [AEM Des
 
 * **Mind the network: **network performance is key to AEM Desktop App performance, turn off features that might cause lots of network traffic (like thumbnails in Finder for the mapped network share).
 * **Mind the server performance:** AEM Desktop App will work better for the users if your AEM server is optimized for uploads
-* **Know how NOT to use AEM Desktop App: **examples include
+* **Know how NOT to use AEM Desktop App:** examples include
 
     * **Asset migration**: Needs planning and other tools
     * **Replacement for network file share**: Heavy-duty DAM operations like moving large folders, large uploads, finding files are better done from the Web UI
@@ -186,9 +185,7 @@ This is a brief summary of best practices for AEM Desktop App. Refer to [AEM Des
 
 This is a brief summary of best practices for AEM to CC folder sharing. Refer to [AEM to Creative Cloud folder sharing best practices](../../assets/using/aem-cc-folder-sharing-best-practices.md) for more information.
 
-** **
-
-* **One-direction flow of assets: **folder sharing can be used to share assets to CC, or get new assets from CC to DAM - it won't work for modifying existing assets in DAM
+* **One-direction flow of assets:** folder sharing can be used to share assets to CC, or get new assets from CC to DAM - it won't work for modifying existing assets in DAM
 * **Volume considerations:** Share smaller number/sizes of files
 * **Avoid sharing deep hierarchies:** Sharing works recursively - you have better control over what is shared by sharing flat or shallow folders
 * **Separate folders for one-way sharing:** Use separate folders for final assets (AEM-&gt;CC Files) and new/updated assets (CC Files-&gt;AEM)

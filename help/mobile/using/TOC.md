@@ -40,7 +40,7 @@ user-guide: null
 + [Testing Mobile Apps](develop-mobile-apps-testing.md)
 + [AEM Mobile Application Dashboard](mobile-apps-ondemand-application-dashboard.md)
 + [Configure your Adobe PhoneGap Build Cloud Service](configure-phonegap-build-cloud.md)
-+ [Cloud Configuration](mobile-on-demand-associating-an-On-Demand-app-to-cloud-configuration.md)
++ [Cloud Configuration](mobile-on-demand-associating-an-on-demand-app-to-cloud-configuration.md)
 + [Single Page Applications](phonegap-single-page-applications.md)
 + [Creating and Adding Templates and Components](mobile-ondemand-app-templates.md)
 + [Starting AEM PhoneGap](starting-aem-phonegap-app.md)
