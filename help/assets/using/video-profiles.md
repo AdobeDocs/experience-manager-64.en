@@ -342,7 +342,7 @@ When you remove a video profile from a folder, any subfolders automatically inhe
 
 You can remove a video profile from a folder from within the **Tools** menu or if you are in the folder, from the **Folder Settings**. This section describes how to remove video profiles from folders both ways.
 
-#### Removing Video Profiles from Folders via Profiles user interface {#removing-video-profiles-from-folders-via-profiles-user-interface}
+### Removing Video Profiles from Folders via Profiles user interface {#removing-video-profiles-from-folders-via-profiles-user-interface}
 
 1. Tap or click the AEM logo and navigate to **Tools **&gt; **Assets **&gt; **Video Profiles.**
 1. Select the video profile that you want to remove from a folder or multiple folders.
@@ -350,7 +350,7 @@ You can remove a video profile from a folder from within the **Tools** menu or i
 
    You can confirm that the video profile is no longer applied to a folder because the name no longer appears below the folder name.
 
-#### Removing Video Profiles from Folders via Properties {#removing-video-profiles-from-folders-via-properties}
+### Removing Video Profiles from Folders via Properties {#removing-video-profiles-from-folders-via-properties}
 
 1. Tap or click the AEM logo and navigate to **Assets **and then to the folder that you want to remove a video profile from.
 1. On the folder, tap or click the check mark to select it and then tap or click **Properties**.

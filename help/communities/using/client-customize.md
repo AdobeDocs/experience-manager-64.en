@@ -13,9 +13,10 @@ discoiquuid: 575b2a59-1343-4a05-bbf0-15875e10f0ed
 
 # Client-side Customization{#client-side-customization}
 
-| ** [⇐ Feature Essentials](../../communities/using/essentials.md)** |** [Server-side Customization ⇒](../../communities/using/server-customize.md)** |
+|Previous|Next|
 |---|---|
-|   |** [SCF Handlebars Helpers ⇒](../../communities/using/handlebars-helpers.md)** |
+| [⇐ Feature Essentials](../../communities/using/essentials.md) |[Server-side Customization ⇒](../../communities/using/server-customize.md) |
+|   |[SCF Handlebars Helpers ⇒](../../communities/using/handlebars-helpers.md) |
 
 To customize the appearance and/or behavior of an AEM Communities component on the client-side, there are several approaches.
 
@@ -25,7 +26,7 @@ Two major approaches are to overlay or extend a component.
 
 [Extending](#extensions) a component, being uniquely named, limits the scope of changes. The term 'extend' is used interchangeably with 'override'.
 
-### Overlays {#overlays}
+## Overlays {#overlays}
 
 Overlaying a component is a method of making modifications to a default component and affecting all instances which use the default.
 
@@ -39,7 +40,7 @@ This is different from [extending](#extensions) a default component where the de
 
 For a quick example of overlaying the comments component, try the [Overlay Comments Component tutorial](../../communities/using/overlay-comments.md).
 
-### Extensions {#extensions}
+## Extensions {#extensions}
 
 Extending (overriding) a component is a method of making modifications for a specific use without affecting all instances which use the default. The extended component is uniquely named in the /apps folder and references the default component in the /libs folder, thus a component's default design and behavior are not modified.
 
@@ -47,7 +48,7 @@ This is different from [overlaying](#overlays) the default component where the n
 
 For a quick example of extending the comments component, try the [Extend Comments Component tutorial](../../communities/using/extend-comments.md).
 
-### Javascript Binding {#javascript-binding}
+## Javascript Binding {#javascript-binding}
 
 The HBS script for the component must be bound to the JavaScript objects, models and views, which implement this feature.
 
@@ -70,7 +71,7 @@ For example, from `/apps/weretail/components/hbs/rating/rating.hbs` :
 </div>
 ```
 
-### Custom Properties {#custom-properties}
+## Custom Properties {#custom-properties}
 
 When extending or overlaying a component, it is possible to add properties to a modified dialog.
 
@@ -78,7 +79,7 @@ All properties set on a component/resource can be accessed by referencing the pr
 
 `{{properties.<property_name>}}`
 
-### Skinning CSS {#skinning-css}
+## Skinning CSS {#skinning-css}
 
 Customizing components to match the overall theme of the website can be achieved by 'skinning' - changing colors, fonts, images, buttons, links, spacing and even positioning to a certain extent.
 
@@ -101,7 +102,7 @@ The custom styles will now override the default framework styles and the compone
 >
 >While the scf-js-&#42; classes do not affect styles, the class names may be used in stylesheets with the caveat that, as they control the states of elements, there may be side effects.
 
-### Extending Javascript {#extending-javascript}
+## Extending Javascript {#extending-javascript}
 
 To extend a components Javascript implementation, you need only
 
@@ -111,7 +112,7 @@ To extend a components Javascript implementation, you need only
 1. extend the method  
 1. use SCF.registerComponent() to register all methods with either the defaults or the customized objects and views.
 
-#### forum.js : Sample Extension of Forum - HBS  {#forum-js-sample-extension-of-forum-hbs}
+### forum.js : Sample Extension of Forum - HBS  {#forum-js-sample-extension-of-forum-hbs}
 
 ```xml
 (function($CQ, _, Backbone, SCF) {
@@ -136,13 +137,13 @@ To extend a components Javascript implementation, you need only
 })($CQ, _, Backbone, SCF);
 ```
 
-### Script Tags {#script-tags}
+## Script Tags {#script-tags}
 
 Script tags are an inherent part of the client side framework. They are the glue that helps bind the markup generated on the server side with the models and views on the client side.
 
 Script tags in SCF scripts should not be removed when overlaying or overriding components. SCF script tags auto created for injecting JSON in the HTML are identified with the attribute `data-scf-json=`true.
 
-### Clientlibs for SCF {#clientlibs-for-scf}
+## Clientlibs for SCF {#clientlibs-for-scf}
 
 The use of [client-side libraries](../../sites/developing/using/clientlibs.md) (clientlibs), provides a means of organizing and optimizing the Javascript and CSS used to render content on the client.
 
@@ -168,7 +169,7 @@ The clientlibs for SCF follow a very specific naming pattern for two variants, w
  </tbody> 
 </table>
 
-#### Complete Clientlibs {#complete-clientlibs}
+### Complete Clientlibs {#complete-clientlibs}
 
 The complete (non-author) clientlibs include dependencies and are convenient for including with ui:includeClientLib.
 
@@ -185,7 +186,7 @@ The [Community Components guide](../../communities/using/components-guide.md) li
 
 [Clientlibs for Communities Components](../../communities/using/clientlibs.md) describes how to add clientlibs to a page.
 
-#### Author Clientlibs {#author-clientlibs}
+### Author Clientlibs {#author-clientlibs}
 
 The author version clientlibs are stripped down to the minimal Javascript necessary to implement the component.
 
@@ -204,7 +205,7 @@ Note: while author clientlibs never embed other libraries, they do list their de
 
 The required author clientlibs can be identified by inserting "author" into the clientlibs listed for each SCF component in the [Community Components guide](../../communities/using/components-guide.md).
 
-#### Usage Considerations {#usage-considerations}
+### Usage Considerations {#usage-considerations}
 
 Every site is different in how they manage client libraries. Various factors include:
 
@@ -212,7 +213,9 @@ Every site is different in how they manage client libraries. Various factors inc
 * Short Time to First Page : Maybe the desire is for the first page to load quickly. In this case, the Javascript is in multiple small files to be referenced only where needed.
 * A balance between first page load and subsequent downloads.
 
-| ** [⇐ Feature Essentials](../../communities/using/essentials.md)** |** [Server-side Customization ⇒](../../communities/using/server-customize.md)** |
+
+|Previous|Next|
 |---|---|
-|   |** [SCF Handlebars Helpers ⇒](../../communities/using/handlebars-helpers.md)** |
+| [⇐ Feature Essentials](../../communities/using/essentials.md) |[Server-side Customization ⇒](../../communities/using/server-customize.md) |
+|   |[SCF Handlebars Helpers ⇒](../../communities/using/handlebars-helpers.md) |
 

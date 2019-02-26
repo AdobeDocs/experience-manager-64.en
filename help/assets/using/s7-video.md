@@ -20,7 +20,7 @@ Scene7 video integration extends the reach of optimized video to all screens (au
 * The **Scene7 video** component automatically performs device and bandwidth detection to play the right format and right quality video across desktop, tablets and mobile.
 * Assets - You can include adaptive video sets rather than only single video assets. An adaptive video set is a container for all video renditions required to playback video seamlessly across multiple screens. An Adaptive Video Set groups versions of the same video that are encoded at different bit rates and formats such as 400 kbps, 800 kbps, and 1000 kbps. You use an Adaptive Video Set, along with S7 video component, for adaptive video streaming across multiple screens including desktop, iOS, Android, Blackberry, and Windows mobile devices. See [Scene7 documentation about adaptive video sets for more information](http://help.adobe.com/en_US/scene7/using/WS53492AE1-6029-45d8-BF80-F4B5CF33EB08.html).
 
-### About FFMPEG and Scene7 {#about-ffmpeg-and-scene}
+## About FFMPEG and Scene7 {#about-ffmpeg-and-scene}
 
 The default video encoding process is based on using the FFMPEG-based integration with video profiles. Therefore, the out-of-the-box DAM ingestion workflow contains the following two ffmpeg-based workflow steps:
 
@@ -31,14 +31,14 @@ Be aware that enabling and configuring the Scene7 integration does not automatic
 
 If you have the FFMPEG-based video encoding in AEM configured and FFMPEG installed, Adobe recommends that you remove the two FFMPEG workflows from your DAM ingestion workflows.
 
-### Supported Formats {#supported-formats}
+## Supported Formats {#supported-formats}
 
 The following formats are supported for the Scene7 Video component:
 
 * F4V H.264
 * MP4 H.264
 
-### Deciding where to upload your video {#deciding-where-to-upload-your-video}
+## Deciding where to upload your video {#deciding-where-to-upload-your-video}
 
 Deciding where to upload your video assets depends on the following:
 
@@ -47,7 +47,7 @@ Deciding where to upload your video assets depends on the following:
 
 If the answer is "yes" to either or both of these questions, then upload your video directly to Adobe DAM. If the answer is "no" to both questions, then upload your video directly to Scene7. The workflow for each scenario is described in the following section.
 
-#### If you are uploading your video directly to Adobe DAM {#if-you-are-uploading-your-video-directly-to-adobe-dam}
+### If you are uploading your video directly to Adobe DAM {#if-you-are-uploading-your-video-directly-to-adobe-dam}
 
 If you need a workflow or versioning for your assets, you should upload to Adobe DAM first. The following is the recommended workflow:
 
@@ -55,7 +55,7 @@ If you need a workflow or versioning for your assets, you should upload to Adobe
 1. In AEM, access video assets in WCM in the **Movies** tab of the Content Finder.
 1. Author with Scene7 video or foundation video component.
 
-#### If you are uploading your video to Scene7 {#if-you-are-uploading-your-video-to-scene}
+### If you are uploading your video to Scene7 {#if-you-are-uploading-your-video-to-scene}
 
 If you do not need a workflow or versioning for your assets, you should upload your assets to Scene7. The following is the recommended workflow:
 
@@ -63,7 +63,7 @@ If you do not need a workflow or versioning for your assets, you should upload y
 1. In AEM, access video assets in WCM in the **Scene7 **tab of the Content Finder.
 1. Author with the Scene7 video component.
 
-### Configuring Integration with Scene7 Video {#configuring-integration-with-scene-video}
+## Configuring Integration with Scene7 Video {#configuring-integration-with-scene-video}
 
 To configure universal presets:
 
@@ -87,13 +87,13 @@ To configure universal presets:
 
 1. The selected encoding profiles are automatically applied to all videos uploaded to the CQ DAM target folder you set up for this Scene7 cloud configuration. You can set up multiple Scene7 cloud configurations with different target folders to apply different encoding profiles as needed.
 
-### Updating viewer and encoding presets {#updating-viewer-and-encoding-presets}
+## Updating viewer and encoding presets {#updating-viewer-and-encoding-presets}
 
 If you need to update the viewer and encoding presets for video in AEM because the presets have been updated in Scene7, navigate to the Scene7 configuration in the cloud configuration and click **Update the viewer and encoding presets**.
 
 ![](assets/chlimage_1-370.png) 
 
-### Uploading your master video {#uploading-your-master-video}
+## Uploading your master video {#uploading-your-master-video}
 
 To upload your master video to Scene7 from Adobe DAM:
 
@@ -106,7 +106,7 @@ To upload your master video to Scene7 from Adobe DAM:
 
    Dragging the DAM master video on to the video component accesses **all** of the Scene7 encoded proxy renditions for delivery.
 
-### Foundation Video Component versus Scene7 Video Component {#foundation-video-component-versus-scene-video-component}
+## Foundation Video Component versus Scene7 Video Component {#foundation-video-component-versus-scene-video-component}
 
 When using AEM, you have access to both the Video component available in Sites and the Scene7 video component. These components are not interchangeable.
 

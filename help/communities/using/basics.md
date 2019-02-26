@@ -51,11 +51,11 @@ The selected components are now available in the components browser :
 
 When adding a Communities component to a page, if the result is an error or an unexpected appearance, the first thing to try is adding the required clientlibs for the Communities component. For details, see [Clientlibs for Communities Components](../../communities/using/clientlibs.md).
 
-#### Example : initially placed reviews without client libraries ... {#example-initially-placed-reviews-without-client-libraries}
+### Example : initially placed reviews without client libraries ... {#example-initially-placed-reviews-without-client-libraries}
 
 ![](assets/chlimage_1-426.png)
 
-#### ... and with client libraries {#and-with-client-libraries}
+### ... and with client libraries {#and-with-client-libraries}
 
 ![](assets/chlimage_1-427.png)
 
