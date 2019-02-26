@@ -121,13 +121,13 @@ In **Table** you must explicitly set or remove the attribute to/from the DOM ele
    to:  
    `/apps/cq/ui/widgets/source/widgets/form/rte/plugins/TablePropertiesDialog.js`.
 1. Open the following file for editing (open with double-click):
-1. In the `constructor` method, before the line reading:****
+1. In the `constructor` method, before the line reading:
 
    ```
    var dialogRef = this;
    ```
 
-   Add the following code:****
+   Add the following code:
 
    ```
    editItems.push({

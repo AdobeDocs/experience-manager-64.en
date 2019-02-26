@@ -50,7 +50,7 @@ AEM provides an intuitive user interface to create a workflow model using the pr
 >
 >You must be a member of the workflow-editor group to create or edit a workflow model.
 
-#### Create a model for an approval and review workflow {#create-a-model-for-an-approval-and-review-workflow}
+### Create a model for an approval and review workflow {#create-a-model-for-an-approval-and-review-workflow}
 
 Approval and review workflow are for the tasks which require human intervention to make decisions. The following example creates a workflow model for a mortgage loan application to be filled by a front-office banking agent. Once the application is filled, it is sent for approval. Later on, the approved application is sent to the applicant for electronic signatures using Adobe Sign.
 
@@ -76,7 +76,7 @@ The example creates a workflow model a mortgage application to be filled by a fr
 
 1. Create workflow stages. A workflow can have multiple stages. These stages are displayed in the AEM Inbox and report progress of the workflow.
 
-   To define a stage, tap the ![](assets/info-circle.png) icon to open workflow model properties, open the **Stages **tab, add stages for the workflow model, and tap **Save & Close**. For the example mortgage application, create stages: loan request, loan request status, to be signed documents, and signed loan document.
+   To define a stage, tap the ![](assets/info-circle.png) icon to open workflow model properties, open the **Stages** tab, add stages for the workflow model, and tap **Save & Close**. For the example mortgage application, create stages: loan request, loan request status, to be signed documents, and signed loan document.
 
 1. Drag-and-drop the **Assign Task** steps browser to the workflow model. Make it the first step of the model.
 
@@ -86,7 +86,7 @@ The example creates a workflow model a mortgage application to be filled by a fr
 
    ![](assets/workflow-editor.png)
 
-   For the mortgage application example**,** configure the assign task step to use a Read-only adaptive form and display PDF Document once the task is complete. Also, select to user group allowed to approve the loan request. On the **Actions **tab, disable the **Submit **option. Specify a **Route Variable**. For example, actionTaken. Also, add the Approve and Reject routes. The routes are displayed as separate actions (buttons) in AEM Inbox. The workflow selects a branch based on the action (button) a user taps.
+   For the mortgage application example**,** configure the assign task step to use a Read-only adaptive form and display PDF Document once the task is complete. Also, select to user group allowed to approve the loan request. On the **Actions** tab, disable the **Submit** option. Specify a **Route Variable**. For example, actionTaken. Also, add the Approve and Reject routes. The routes are displayed as separate actions (buttons) in AEM Inbox. The workflow selects a branch based on the action (button) a user taps.
 
    You can import the example package, available for download in the starting of the section, for the complete set of values of all the fields of the assign task step configured for example mortgage application.
 
@@ -94,7 +94,7 @@ The example creates a workflow model a mortgage application to be filled by a fr
 
    Open properties of the OR Split and add the following code snippets to Branch1 and Branch2. These code snippets help choose a branch based on the user action in AEM Inbox.
 
-   When a user taps **Approve **in AEM Inbox, Branch 1 is activated.
+   When a user taps **Approve** in AEM Inbox, Branch 1 is activated.
 
    ```
    function check(){

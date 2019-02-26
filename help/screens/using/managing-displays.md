@@ -56,7 +56,7 @@ Once you have display in position, the next step will be to create a device conf
 >
 >Once you create a display for your location, you need to assign a channel to your display to leverage the content.
 >
->See [Assign Channels](../../screens/using/channel-assignment.md)**** section to learn how to assign a channel to the display.
+>See [Assign Channels](../../screens/using/channel-assignment.md) section to learn how to assign a channel to the display.
 
 ## Creating a New Device Config {#creating-a-new-device-config}
 

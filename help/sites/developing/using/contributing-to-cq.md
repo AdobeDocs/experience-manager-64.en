@@ -111,8 +111,6 @@ While existing APIs can and should be marked as deprecated when newer, better fu
 
 Backwards compatibility should also be kept in mind in regards to the general consistency of content structure and user experience.
 
-****
-
 ## Core Concepts {#core-concepts}
 
 **Author instance** Typically, for security, governance, and other reasons, a production site will divide instances of AEM into Author and Publish instances. For more information on deployment architecture (including Author/Publish instances), see documentation about AEM Instances.

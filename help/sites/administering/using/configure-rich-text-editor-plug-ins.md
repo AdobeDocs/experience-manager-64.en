@@ -804,7 +804,7 @@ To configure how links are added in AEM from another program, define the HTML ru
 
 1. Under the `links` node define the properties as required:
 
-    * ****CSS style for internal links:
+    * CSS style for internal links:
 
         * **Name** `cssInternal`  
         
@@ -812,7 +812,7 @@ To configure how links are added in AEM from another program, define the HTML ru
         
         * **Value **the name of the CSS class (without a preceding '.'; for example, `cssClass` instead of `.cssClass`)
 
-    * **** CSS style for external links
+    * CSS style for external links
 
         * **Name** `cssExternal`  
         
@@ -858,7 +858,7 @@ To configure how links are added in AEM from another program, define the HTML ru
                 * `manual`: not applicable in this context
                 * `blank`: not applicable in this context
 
-        * ****The target for internal links:
+        * The target for internal links:
 
             * **Name** `targetInternal`  
             
@@ -866,7 +866,7 @@ To configure how links are added in AEM from another program, define the HTML ru
             
             * **Value **the target for internal links (only use when the `` mode is `auto`)
 
-        * ****The target for external links:
+        * The target for external links:
 
             * **Name** `targetExternal`
             

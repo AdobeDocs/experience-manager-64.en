@@ -29,36 +29,28 @@ The DocAssurance service includes the following services:
 You can perform the following operations using the DocAssurance service:
 
 * [Add Invisible Signature](../../forms/using/aem-document-services-programmatically.md#main-pars-header-26)  
-
 * [Add Signature Field](../../forms/using/aem-document-services-programmatically.md#main-pars-header-28)
 * [Apply Document TimeStamp](../../forms/using/aem-document-services-programmatically.md#main-pars-header-79751480)  
-
 * [Get Signature](../../forms/using/aem-document-services-programmatically.md#main-pars-header-41)
 * [Get Signature Field List](../../forms/using/aem-document-services-programmatically.md#main-pars-header-29)
 * [Modify Signature Fields](../../forms/using/aem-document-services-programmatically.md#main-pars-header-30)  
-
 * [Secure Document](../../forms/using/aem-document-services-programmatically.md#main-pars-header-43)  
-
 * [Get Credential Usage Rights](../../forms/using/aem-document-services-programmatically.md#main-pars-header-31)  
-
 * [Get Document Usage Rights](../../forms/using/aem-document-services-programmatically.md#main-pars-header-44)  
-
 * [Remove Usage Rights](../../forms/using/aem-document-services-programmatically.md#main-pars-header-45)
 * [Verify Digital Signatures](../../forms/using/aem-document-services-programmatically.md#main-pars-header-33)
 * [Verify Multiple Digital Signatures](../../forms/using/aem-document-services-programmatically.md#main-pars-header-34)
 * [Remove Digital Signatures](../../forms/using/aem-document-services-programmatically.md#main-pars-header-35)  
-
 * [Get Certifying Signature Field](../../forms/using/aem-document-services-programmatically.md#main-pars-header-40)
 * [Get PDF Encryption Type](../../forms/using/aem-document-services-programmatically.md#main-pars-header-42)
 * [Remove Password Encryption](../../forms/using/aem-document-services-programmatically.md#main-pars-header-38)  
-
 * [Remove Certificate Encryption](../../forms/using/aem-document-services-programmatically.md#main-pars-header-39)
 
 >[!NOTE]
 >
 >All these services use Document object as  input  parameter for which the Javadoc can be found at the URL [https://helpx.adobe.com/experience-manager/6-3/forms/javadocs/index.html](https://helpx.adobe.com/experience-manager/6-3/forms/javadocs/index.html)
 
-#### Adding an invisible signature field {#adding-an-invisible-signature-field}
+### Adding an invisible signature field {#adding-an-invisible-signature-field}
 
 Digital signatures appear in signature fields, which are form fields that contain a graphical representation of the signature. Signature fields can be visible or invisible. Signers can use a pre-existing signature field, or a signature field can be programmatically added. In either case, the signature field must exist before a PDF document can be signed. You can programmatically add a signature field by using the Signature service Java API or Signature web service API. You can add more than one signature field to a PDF document. However, each signature field name must be unique.
 
@@ -230,7 +222,7 @@ sigAppearence.setSigningFormat(signingFormat);
 signOptions.setSigAppearence(sigAppearence);
 ```
 
-#### Adding a signature field&nbsp; {#adding-a-signature-field-nbsp}
+### Adding a signature field&nbsp; {#adding-a-signature-field-nbsp}
 
 You can programmatically add a signature field by using the Signature service Java API or Signature web service API. You can add multiple signature fields to a PDF document. However, each signature field name must be unique.
 
@@ -410,7 +402,7 @@ public class AddSignatureField {
 }
 ```
 
-#### Apply Document TimeStamp {#apply-document-timestamp}
+### Apply Document TimeStamp {#apply-document-timestamp}
 
 You can programmatically timestamp a document as per [PAdES 4](https://en.wikipedia.org/wiki/PAdES) specifications. You can also use [CAdES](https://en.wikipedia.org/wiki/CAdES_%28computing%29) specification for transaction related documents.
 
@@ -617,7 +609,7 @@ import com.adobe.fd.signatures.pki.client.types.prefs.TSPPreferencesImpl;
 }
 ```
 
-#### Getting signature {#getting-signature}
+### Getting signature {#getting-signature}
 
 You can retrieve the names of all signature fields that are located in a PDF document that you want to sign or certify. If you are not sure of the signature field names located in a PDF document or to verify the names, then retrieve the names programmatically. The Signature service returns the fully qualified name of the signature field, such as `form1[0].grantApplication[0].page1[0].SignatureField1[0]`.
 
@@ -742,7 +734,7 @@ public class GetSignature {
 
 ```
 
-#### Getting signature field list&nbsp; {#getting-signature-field-list-nbsp}
+### Getting signature field list&nbsp; {#getting-signature-field-list-nbsp}
 
 You can retrieve the names of all signature fields that are located in a PDF document that you want to sign or certify. If you are unsure of the signature field names in a PDF document, you can programmatically retrieve and verify them. The Signature service returns the fully qualified name of the signature field, such as `form1[0].grantApplication[0].page1[0].SignatureField1[0]`.
 
@@ -857,7 +849,7 @@ public class GetSignatureFields {
 }
 ```
 
-#### Modifying signature fields&nbsp; {#modifying-signature-fields-nbsp}
+### Modifying signature fields&nbsp; {#modifying-signature-fields-nbsp}
 
 You can modify signature fields that are located in a PDF document. Modifying a signature field involves manipulating its signature field lock dictionary values or seed value dictionary values.
 
@@ -1024,7 +1016,7 @@ public class ModifySignatureField {
 }
 ```
 
-#### Certifying PDF documents&nbsp; {#certifying-pdf-documents-nbsp}
+### Certifying PDF documents&nbsp; {#certifying-pdf-documents-nbsp}
 
 You can secure a PDF document by certifying it with a particular type of signature called a certified signature. A certified signature is distinguished from a digital signature in these ways:
 
@@ -1329,7 +1321,7 @@ public class Certify {
 }
 ```
 
-#### Securing documents {#securing-documents}
+### Securing documents {#securing-documents}
 
 secureDocument enables you to encrypt, sign/certify, and reader extend a PDF Document either individually or in any combination in a particular order. To access any of this functionality, pass the corresponding argument. If null, it would be assumed that the particular processing is not required.
 
@@ -2064,7 +2056,7 @@ public class PassEncryptSignExtend {
 }
 ```
 
-#### Getting credential usage rights {#getting-credential-usage-rights}
+### Getting credential usage rights {#getting-credential-usage-rights}
 
 To fetch usage rights information of the credential specified by the given `credentialAlias`, call this API from within the `SecureDocument` API.
 
@@ -2155,7 +2147,7 @@ public void getCredentialUsageRights() {
 }
 ```
 
-#### Getting document usage rights {#getting-document-usage-rights}
+### Getting document usage rights {#getting-document-usage-rights}
 
 To fetch usage rights information for a given document, call this API from within the `docAssuranceService`API.
 
@@ -2275,7 +2267,7 @@ public void getDocumentUsageRights() {
 }
 ```
 
-#### Removing usage rights {#removing-usage-rights}
+### Removing usage rights {#removing-usage-rights}
 
 You can remove the usage rights for a document by calling the `removeUsageRights`API from within the `docAssuranceService`API.
 
@@ -2400,7 +2392,7 @@ public void removeDocumentUsageRights() {
 }
 ```
 
-#### Verifying digital signatures {#verifying-digital-signatures}
+### Verifying digital signatures {#verifying-digital-signatures}
 
 Digital signatures can be verified to ensure that a signed PDF document was not modified and that the digital signature is valid. When verifying a digital signature, you can check the signature's status and the signature's properties, such as the signer's identity. Before trusting a digital signature, it is recommended that you verify it. When verifying a digital signature, reference a PDF document that contains a digital signature.
 
@@ -2718,7 +2710,7 @@ public class VerifyFieldEncryptedPDF {
 }
 ```
 
-#### Verifying multiple digital signatures {#verifying-multiple-digital-signatures}
+### Verifying multiple digital signatures {#verifying-multiple-digital-signatures}
 
 AEM lets you verify digital signatures in PDF documents. A PDF document can contain multiple digital signatures if it is subjected to a business process that requires signatures from multiple signers. For example, a financial transaction requires signatures of both the loan officer and the manager. You can use the Signature service API to verify all signatures within the PDF document. When verifying multiple digital signatures, you can check the status and properties of each signature. Before you trust a digital signature, Adobe recommends that you verify it.
 
@@ -3016,7 +3008,7 @@ public class VerifyEncryptedPDFDoc {
 }
 ```
 
-#### Removing digital signatures {#removing-digital-signatures}
+### Removing digital signatures {#removing-digital-signatures}
 
 You can apply a new digital signature to a signature field only after you remove the previous digital signature. You cannot overwrite a digital signature. If you attempt to apply a digital signature to a signature field that contains a signature already, an exception occurs.
 
@@ -3137,7 +3129,7 @@ public class ClearSignatureField {
 }
 ```
 
-#### Getting certifying signature field {#getting-certifying-signature-field}
+### Getting certifying signature field {#getting-certifying-signature-field}
 
 You can retrieve the names of all signature fields that are located in a PDF document that you want to sign or certify. If you are unsure of the signature field names that are located in a PDF document or you want to verify the names, you can programmatically retrieve them. The Signature service returns the fully qualified name of the signature field, such as `form1[0].grantApplication[0].page1[0].SignatureField1[0]`.
 
@@ -3257,7 +3249,7 @@ public class GetCertifyingSignatureField {
 
 ```
 
-#### Getting PDF encryption type {#getting-pdf-encryption-type}
+### Getting PDF encryption type {#getting-pdf-encryption-type}
 
 You can retrieve the names of all signature fields that are located in a PDF document that you want to sign or certify. If you are unsure of the signature field names that are located in a PDF document or you want to verify the names, you can programmatically retrieve them. The Signature service returns the fully qualified name of the signature field, such `asform1[0].grantApplication[0].page1[0].SignatureField1[0]`.
 
@@ -3374,7 +3366,7 @@ public class GetPDFEncryption {
 
 ```
 
-#### Removing password encryption from PDF {#removing-password-encryption-from-pdf}
+### Removing password encryption from PDF {#removing-password-encryption-from-pdf}
 
 Remove password-based encryption from a PDF document to let users open the PDF document in Adobe Reader or Acrobat without having to specify a password. After you remove password-based encryption from a PDF document, the document is no longer secure.
 
@@ -3473,7 +3465,7 @@ public class RemovePasswordEncryption {
 }
 ```
 
-#### Removing certificate encryption {#removing-certificate-encryption}
+### Removing certificate encryption {#removing-certificate-encryption}
 
 You can remove certificate-based encryption from a PDF document so that users can open the PDF document in Adobe Reader or Acrobat. To remove encryption from a PDF document that is encrypted with a certificate, reference a private key. After you remove the encryption from a PDF document, it is no longer secure.
 
@@ -3607,13 +3599,13 @@ The Output service provides APIs to render an XDP file in .pdf, .pcl, .zpl, and 
 
 * ** [generatePrintedOutput](../../forms/using/aem-document-services-programmatically.md#main-pars-header-13):** Generates a PCL, PostScript, and ZPL output from a form design and data file that are stored in an application.
 
-### generatePDFOutput {#generatepdfoutput}
+## generatePDFOutput {#generatepdfoutput}
 
 The generatePDFOutput API generates a PDF document by merging a form design with data. Optionally, generates a metadata file for each record or saves the output to a PDF file. Use the generatePDFOutput API for the form designs or data that are stored on a network location, local file system, or HTTP location as literal values. If the form design and XML data are stored in an application, use the [generatePDFOutput](../../forms/using/aem-document-services-programmatically.md#main-pars-header-4) API.
 
 **Syntax:** `Document generatePDFOutput(String uriOrFileName, Document data, PDFOutputOptions options);`
 
-#### Input Parameters {#input-parameters}
+### Input Parameters {#input-parameters}
 
 <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
  <tbody> 
@@ -3714,13 +3706,13 @@ try {
 }
 ```
 
-### generatePDFOutput {#generatepdfoutput-1}
+## generatePDFOutput {#generatepdfoutput-1}
 
 The generatePDFOutput API generates a PDF document by merging a form design with data. Optionally, generate a metadata file for each record or save the output to a PDF file. Use the generatePrintedOutput API for the form designs or data that are stored in an application. If the form design and XML data are stored in on a network location, locally, or an HTTP location as literal values, use the [generatePDFOutput](../../forms/using/aem-document-services-programmatically.md#main-pars-header-1) API.
 
 **Syntax:** `Document generatePDFOutput(Document inputdocument, Document data, PDFOutputOptions options)`
 
-#### Input Parameter {#input-parameter}
+### Input Parameter {#input-parameter}
 
 <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
  <tbody> 
@@ -3824,13 +3816,13 @@ Document doc=null;
 }
 ```
 
-### generatePDFOutputBatch {#generatepdfoutputbatch}
+## generatePDFOutputBatch {#generatepdfoutputbatch}
 
 Merges a form design with data to create a PDF document. Optionally, generates a metadata file for each record or saves the output to a PDF file. Use the generatePDFOutputBatch API for form designs or data that are stored on a network location, local file system, or HTTP location as literal values.
 
 **Syntax:** `BatchResult generatePDFOutputBatch(Map templates, Map data, PDFOutputOptions options, BatchOptions batchOptions);`
 
-#### Input Parameters {#input-parameters-1}
+### Input Parameters {#input-parameters-1}
 
 <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
  <tbody> 
@@ -3941,13 +3933,13 @@ String outputFolder="C:/Output";
 }
 ```
 
-### generatePrintedOutput {#generateprintedoutput}
+## generatePrintedOutput {#generateprintedoutput}
 
 Generates a PCL, PostScript, and ZPL output from a form design and data file. The data file is merged with the form design and formatted for printing. You can send the output directly to a printer or save as a file. Use the generatePrintedOutput API for the form designs or data that are stored in an application.
 
 **Syntax:** `Document generatePrintedOutput(String uriOrFileName, Document data, PrintedOutputOptions);`
 
-#### Input Parameters {#input-parameters-2}
+### Input Parameters {#input-parameters-2}
 
 <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
  <tbody> 
@@ -4032,13 +4024,13 @@ Document doc=null;
 }
 ```
 
-### generatePrintedOutput {#generateprintedoutput-1}
+## generatePrintedOutput {#generateprintedoutput-1}
 
 Generates a PCL, PostScript, and ZPL output given a form design and data file. The data file is merged with the form design and formatted for printing. The output can be sent directly to a printer or saved as file. Use the generatePrintedOutput API for the form designs or data stored in an application.
 
 **Syntax:** `Document generatePrintedOutput(Document inputdocument, Document data, PrintedOutputOptions);`
 
-#### Input Parameters {#input-parameters-3}
+### Input Parameters {#input-parameters-3}
 
 <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
  <tbody> 
@@ -4117,13 +4109,13 @@ Document doc=null;
 }
 ```
 
-### generatePrintedOutputBatch {#generateprintedoutputbatch}
+## generatePrintedOutputBatch {#generateprintedoutputbatch}
 
 Generates a document of PS, PCL, and ZPL format by merging a form design with data. Optionally, generate a metadata file for each record or save the output to a PDF file. Use the generatePrintedOutputBatch API for the form designs or data that are stored on a network location, local file system, or HTTP location as literal values.
 
 **Syntax`:`** `BatchResult generatePrintedOutputBatch(Map templates, Map data, PrintedOutputOptions options, BatchOptions batchOptions);`
 
-#### Input Parameters {#input-parameters-4}
+### Input Parameters {#input-parameters-4}
 
 <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
  <tbody> 
@@ -4261,13 +4253,13 @@ The Forms service provides APIs to import and export data to and from an interac
 * ** [exportData](../../forms/using/aem-document-services-programmatically.md#main-pars-header-18): **exports data from a PDF form.
 * ** [importData](../../forms/using/aem-document-services-programmatically.md#main-pars-header-22):** imports data into an interactive PDF Form.
 
-### exportData {#exportdata}
+## exportData {#exportdata}
 
 Exports form data from an interactive PDF form in XML and XDP formats.
 
 **Syntax:** `Document exportData(Document xdpOrPdf, DataFormat dataFormat)`
 
-#### Input Parameters {#input-parameters-5}
+### Input Parameters {#input-parameters-5}
 
 <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
  <tbody> 
@@ -4288,7 +4280,7 @@ Exports form data from an interactive PDF form in XML and XDP formats.
 
 The following Java code sample exports form data from an interactive PDF form in XML and XDP formats.
 
-#### Sample {#sample}
+### Sample {#sample}
 
 ```java
 @Reference private FormsService formsService;
@@ -4346,13 +4338,13 @@ try {
 
 ```
 
-### importData {#importdata}
+## importData {#importdata}
 
 Imports form data into an interactive PDF form.
 
 **Syntax:** `Document importData(Document PDF, Document data)`
 
-#### Input Parameters {#input-parameters-6}
+### Input Parameters {#input-parameters-6}
 
 <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
  <tbody> 
@@ -4373,7 +4365,7 @@ Imports form data into an interactive PDF form.
 
 The following Java code sample imports form data into an interactive PDF form.
 
-#### Sample {#sample-1}
+### Sample {#sample-1}
 
 ```java
 @Reference private FormsService formsService
@@ -4425,7 +4417,7 @@ private File importData(File inDoc, File inXML)
 
 The PDF Generator service provides APIs to converts native file formats to PDF. It also converts PDF to other file formats and optimizes the size of PDF documents.
 
-### GeneratePDFService {#generatepdfservice}
+## GeneratePDFService {#generatepdfservice}
 
 The GeneratePDFService provides APIs to convert various file formats such as .doc, .docx, .ppt, .pptx, .xls, .xlsx, .odp, .odt, .ods, (Deprecated).swf, .jpg, .bmp, .tif, .png, .html, and many other file formats to PDF. It also provides APIs to export PDF to various file formats and optimize PDFs. The service supports the following APIs:
 
@@ -4439,7 +4431,7 @@ The GeneratePDFService provides APIs to convert various file formats such as .do
 >
 >The HTMLtoPDF API is deprecated for AEM Forms server running on AIX operating system.
 
-#### PDF Generator API available on Microsoft Windows and Linux {#pdf-generator-api-available-on-microsoft-windows-and-linux}
+### PDF Generator API available on Microsoft Windows and Linux {#pdf-generator-api-available-on-microsoft-windows-and-linux}
 
 <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
  <tbody> 
@@ -4476,7 +4468,7 @@ The GeneratePDFService provides APIs to convert various file formats such as .do
  </tbody> 
 </table>
 
-#### createPDF {#createpdf}
+### createPDF {#createpdf}
 
 The createPDF API converts a supported file type to a PDF document. It supports various file formats such as Microsoft Word, Microsoft PowerPoint, Microsoft Excel, and Microsoft Project. In addition to these applications, any third party generic PDF generating application type can also be plugged into the API.
 
@@ -4495,7 +4487,7 @@ The createPDF service throws the following exceptions:
 
 **Syntax:** `Map createPDF(Document inputDoc, String inputFilename, String fileTypeSettings, String pdfSettings, String securitySettings, Document settingsDoc, Document xmpDoc) throws InvalidParameterException, ConversionException, FileFormatNotSupportedException;`
 
-#### Input Parameters {#input-parameters-7}
+### Input Parameters {#input-parameters-7}
 
 <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
  <tbody> 
@@ -4611,7 +4603,7 @@ File createPDF(File inputFile, String inputFilename, String fileTypeSettings, St
 }
 ```
 
-#### exportPDF {#exportpdf}
+### exportPDF {#exportpdf}
 
 Converts a PDF document to a supported file type. The method accepts a PDF as input and exports the content of the PDF in specified file type format.
 
@@ -4632,7 +4624,7 @@ Map exportPDF(Document inputDoc, String inputFileName, String formatType, Docume
 
 ```
 
-#### Input Parameters {#input-parameters-8}
+### Input Parameters {#input-parameters-8}
 
 <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
  <tbody> 
@@ -4709,7 +4701,7 @@ finally {
 }
 ```
 
-#### optimizePDF {#optimizepdf}
+### optimizePDF {#optimizepdf}
 
 The OptimizePDF API optimizes PDF files by reducing their size. The result of this conversion is PDF files that might be smaller than their original versions. This operation also converts PDF documents to the PDF version specified in the optimization parameters. It returns OptimizePDFResult object containing optimized PDF.
 
@@ -4726,7 +4718,7 @@ OptimizePDFResult optimizePDF(Document inputDoc, String fileTypeSettings, Docume
 
 ```
 
-#### Input Parameters {#input-parameters-9}
+### Input Parameters {#input-parameters-9}
 
 <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
  <tbody> 
@@ -4798,7 +4790,7 @@ File optimizePDF(File inputFile, String fileTypeSettings, File settingsFile) thr
 }
 ```
 
-#### htmlToPdf2 {#htmltopdf}
+### htmlToPdf2 {#htmltopdf}
 
 Converts an HTML page to a PDF document. It accepts URL of the HTML page as input.
 
@@ -4817,7 +4809,7 @@ HtmlToPdfResult htmlToPdf2(String inputUrl, String fileTypeSettingsName, String 
 
 ```
 
-#### Input Parameters {#input-parameters-10}
+### Input Parameters {#input-parameters-10}
 
 <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
  <tbody> 
@@ -4890,7 +4882,7 @@ File htmlToPdf(String inputUrl, String fileTypeSettingsName, String securitySett
 }
 ```
 
-### DistillerService {#distillerservice}
+## DistillerService {#distillerservice}
 
 The Distiller service converts PostScript, Encapsulated PostScript (EPS), and printer text files (PRN) to PDF files. The Distiller service is frequently used to convert large volumes of print documents to electronic documents, such as invoices and statements. Converting documents to PDF also allows enterprises to send their customers a paper version and an electronic version of a document. The supported file formats are .ps, .eps, and .prn. The service supports the following API:
 
@@ -4905,7 +4897,7 @@ The createPDF service throws the following exceptions:
 * InvalidParameterException  
 * FileFormatNotSupportedException
 
-#### createPDF {#createpdf-1}
+### createPDF {#createpdf-1}
 
 Converts the supported formats to PDF documents. The method accepts files formats .ps, .eps, and .prn as an input. You can apply specific security permissions, output settings, and Metadata information to the output PDF document.
 
@@ -4916,7 +4908,7 @@ Map createPDF(Document inputDoc, String inputFileName, String pdfSettings, Strin
 
 ```
 
-#### Input Parameters {#input-parameters-11}
+### Input Parameters {#input-parameters-11}
 
 <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
  <tbody> 

@@ -150,9 +150,11 @@ To configure the **Product Photo Shoot** workflow:
     * Photo Shoot Review
     * Move to Production
 
-   Perform a similar procedure to configure the tasks in the **Product Photo Shoot (Commerce Integration) workflow**.****
+   Perform a similar procedure to configure the tasks in the **Product Photo Shoot (Commerce Integration) workflow**.
 
-##
+<!-- No heading below-->
+
+`##`
 
 This section describes how to integrate product information management with your creative project.
 
