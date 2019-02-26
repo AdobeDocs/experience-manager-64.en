@@ -13,7 +13,7 @@ discoiquuid: 6b730234-09e5-4f51-941b-602b928c1f4d
 
 # Featured Content Feature{#featured-content-feature}
 
-### Introduction {#introduction}
+## Introduction {#introduction}
 
 The featured content feature provides an area for signed-in site visitors (community members) in the publish environment to highlight content for
 
@@ -32,7 +32,7 @@ This section of the documentation describes
 * adding featured content to a community site
 * configuration settings for the `Featured Content`component
 
-### Adding Featured Content to a Page {#adding-featured-content-to-a-page}
+## Adding Featured Content to a Page {#adding-featured-content-to-a-page}
 
 To add a `Featured Content` component to a page in author mode, use the component browser to locate
 
@@ -46,13 +46,13 @@ When the [required client-side libraries](../../communities/using/essentials-fea
 
 ![](assets/chlimage_1-13.png)
 
-### Configuring Featured Content {#configuring-featured-content}
+## Configuring Featured Content {#configuring-featured-content}
 
 Select the placed `Featured Content` component to access and select the `Configure` icon which opens the edit dialog.
 
 ![](assets/chlimage_1-14.png) ![](assets/chlimage_1-15.png)
 
-#### Settings tab {#settings-tab}
+### Settings tab {#settings-tab}
 
 Under the **Settings **tab, identify the content to feature :
 
@@ -65,7 +65,7 @@ Under the **Settings **tab, identify the content to feature :
 * **Display Limit** 
   The maximum number of featured content to display. Default is 5.
 
-### Site Visitor Experience {#site-visitor-experience}
+## Site Visitor Experience {#site-visitor-experience}
 
 The ability to flag content as featured content requires moderator privileges.
 
@@ -81,7 +81,7 @@ The page containing the `Featured Content` component, will now include this post
 
 `Read More` is a link to the actual post.
 
-### Additional Information {#additional-information}
+## Additional Information {#additional-information}
 
 More information may be found on the [Featured Content](../../communities/using/essentials-featured.md) page for developers.
 

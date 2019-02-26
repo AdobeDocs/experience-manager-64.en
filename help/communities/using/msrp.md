@@ -174,7 +174,7 @@ A reasonable default is 5000 :
 * if memory is an issue, specify a a smaller number 
 * if speed is an issue, specify a larger number to increase speed
 
-#### Running MSRP Reindex Tool Using cURL Command {#running-msrp-reindex-tool-using-curl-command}
+### Running MSRP Reindex Tool Using cURL Command {#running-msrp-reindex-tool-using-curl-command}
 
 The following cURL command shows what is necessary for an HTTP request to reindex UGC stored in MSRP.
 
@@ -191,9 +191,10 @@ for example: admin:admin
 `/content/usergenerated/asi/mongo/`
 
 *path* = the root location of the tree of UGC to reindex  
-- to reindex all UGC, specify the value of the `asipath`property of  
+
+* () to reindex all UGC, specify the value of the `asipath`property of  
 `/etc/socialconfig/srpc/defaultconfiguration`  
-- to limit the index to some UGC, specify a subtree of `asipath`
+* to limit the index to some UGC, specify a subtree of `asipath`
 
 *reindex-url* = the endpoint for reindexing of SRP  
 `http://localhost:4503/services/social/datastore/mongo/reindex`
@@ -202,7 +203,7 @@ for example: admin:admin
 >
 >If you are [reindexing DSRP Solr](../../communities/using/dsrp.md), the URL is **/services/social/datastore/rdb/reindex**
 
-#### MSRP Reindex Example {#msrp-reindex-example}
+### MSRP Reindex Example {#msrp-reindex-example}
 
 ```shell
 curl -s -u admin:admin -d 'batchSize=10000&path=/content/usergenerated/asi/mongo/' http://localhost:4503/services/social/datastore/mongo/reindex

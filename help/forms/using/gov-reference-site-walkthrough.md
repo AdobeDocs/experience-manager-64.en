@@ -206,7 +206,7 @@ When Sarah fills and submits the child support application, a PDF or Document of
 
 ### See it yourself {#see-it-yourself-2}
 
-Open page `http://<***hostname***>:<*PublishP****ort***>/content/we-gov/en.html.`On the page, tap **Sign In**, select the** Login as representative** checkbox, log in to the AEM inbox using grios/password as the username/password for Gloria Rios. The child support application appears. For information about using AEM Inbox for forms-centric workflow tasks, see [Manage Forms applications and tasks in AEM Inbox](../../forms/using/manage-applications-inbox.md).
+Open page `http://<hostname>:<PublishPort>/content/we-gov/en.html.`On the page, tap **Sign In**, select the **Login as representative** checkbox, log in to the AEM inbox using grios/password as the username/password for Gloria Rios. The child support application appears. For information about using AEM Inbox for forms-centric workflow tasks, see [Manage Forms applications and tasks in AEM Inbox](../../forms/using/manage-applications-inbox.md).
 
 ![Gloria's inbox in We.Gov refsite](assets/gloria-inbox.png)
 
@@ -227,7 +227,7 @@ Sarah's application is a startpoint in the AEM workflow. It initiates the AEM wo
 
 If the configuration is complete, the AEM workflow starts immediately after the form is submitted. Log in to the inbox using Gloria's credentials.
 
-Access inbox at http://&lt;***hostname***&gt;:&lt;***PublishP******ort***&gt;/content/we-gov/en.html. On the page, tap **Sign In**, select the** Login as representative** checkbox use Gloria's default credentials:
+Access inbox at `http://<hostname>:<PublishPort>/content/we-gov/en.html`. On the page, tap **Sign In**, select the **Login as representative** checkbox use Gloria's default credentials:
 
 * Username: grios
 * Password: password

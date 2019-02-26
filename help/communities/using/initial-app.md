@@ -13,15 +13,16 @@ discoiquuid: fa426061-ce43-462a-8ee2-6c6bfb3614cb
 
 # Initial Sandbox Application{#initial-sandbox-application}
 
-| ** [⇐ Setup Website Structure](../../communities/using/setup-website.md)** |** [Initial Sandbox Content ⇒](../../communities/using/initial-content.md)** |
+|⇐ Previous|Next ⇒|
 |---|---|
+|[⇐ Setup Website Structure](../../communities/using/setup-website.md) |[Initial Sandbox Content ⇒](../../communities/using/initial-content.md) |
 
 In this section, you will create the following:
 
 * The ** [template](#createthepagetemplate) **that will be used to create content pages in the example website
 * The [**component** and **script**](#createthetemplatesrenderingcomponent) that will be used to render the website pages
 
-### Create the Content Template {#create-the-content-template}
+## Create the Content Template {#create-the-content-template}
 
 A template defines the default content of a new page. Complex websites may use several templates for creating the different types of pages in the site. Further, the set of templates may become a blueprint used to rollout changes to a cluster of servers.
 
@@ -80,7 +81,7 @@ In this exercise, all pages are based on one simple template.
 
    ![](assets/chlimage_1-77.png)
 
-### Create the Template's Rendering Component {#create-the-template-s-rendering-component}
+## Create the Template's Rendering Component {#create-the-template-s-rendering-component}
 
 Create the *component* that defines the content and renders any pages created based on the [playpage template](#createthepagetemplate).
 
@@ -100,8 +101,6 @@ Create the *component* that defines the content and renders any pages created ba
 
    ![](assets/chlimage_1-78.png)
 
-1.
-
     * click **Next **untill the** Allowed Children** panel of the dialog appears
     
     * click **OK**
@@ -115,6 +114,6 @@ Create the *component* that defines the content and renders any pages created ba
 
    ![](assets/chlimage_1-79.png)
 
-| ** [⇐ Setup Website Structure](../../communities/using/setup-website.md)** |** [Initial Sandbox Content ⇒](../../communities/using/initial-content.md)** |
+|⇐ Previous|Next ⇒|
 |---|---|
-
+|[⇐ Setup Website Structure](../../communities/using/setup-website.md) |[Initial Sandbox Content ⇒](../../communities/using/initial-content.md) |

@@ -21,7 +21,7 @@ Anonymous posting of a review is not supported. Site visitors must register and 
 
 ## Essentials for Client-Side {#essentials-for-client-side}
 
-#### Reviews {#reviews}
+### Reviews {#reviews}
 
 <table border="1" cellpadding="4" cellspacing="4" width="100%"> 
  <tbody>
@@ -52,7 +52,7 @@ Anonymous posting of a review is not supported. Site visitors must register and 
  </tbody>
 </table>
 
-#### Review Summary {#review-summary}
+### Review Summary {#review-summary}
 
 |  **resourceType** |social/reviews/components/hbs/summary |
 |---|---|

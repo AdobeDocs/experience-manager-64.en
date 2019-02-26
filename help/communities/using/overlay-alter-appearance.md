@@ -13,10 +13,11 @@ discoiquuid: 86755397-ab03-4472-8704-ce1aebdcfb13
 
 # Alter the Appearance{#alter-the-appearance}
 
-| ** [⇐ Create Nodes](../../communities/using/overlay-create-nodes.md)** |  |
+|Previous|Next|
 |---|---|
+|[⇐ Create Nodes](../../communities/using/overlay-create-nodes.md) |  |
 
-### Modify the Script {#modify-the-script}
+## Modify the Script {#modify-the-script}
 
 The comment.hbs script is responsible for creating the overall HTML for each comment.
 
@@ -52,7 +53,7 @@ Either delete the lines, or surround them with '&lt;!--' and '--&gt;' to comment
 
 ```
 
-### Replicate the Overlay {#replicate-the-overlay}
+## Replicate the Overlay {#replicate-the-overlay}
 
 Push the overlaid comments component to the publish instance using the Replication Tool.
 
@@ -66,7 +67,7 @@ For the Start Path enter `/apps/social/commons`** **and select **Activate**.
 
 ![](assets/chlimage_1-42.png) 
 
-### View Results {#view-results}
+## View Results {#view-results}
 
 If you login to the publish instance as an administrator, e.g., http://localhost:4503/crx/de as admin/admin, you can verify the overlaid components are there.
 
@@ -74,6 +75,6 @@ If you logout and re-login as `aaron.mcdonald@mailinator.com/password` and refre
 
 ![](assets/chlimage_1-43.png) 
 
-| ** [⇐ Create Nodes](../../communities/using/overlay-create-nodes.md)** |  |
+|Previous|Next|
 |---|---|
-
+|[⇐ Create Nodes](../../communities/using/overlay-create-nodes.md) |  |

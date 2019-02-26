@@ -90,15 +90,15 @@ Returns the version number of the Scripting library
           *formBridge.registerConfig("widgetConfig":{/&#42;configuration&#42;/})*
         
         * ***pagingConfig: **Allows the user to override the default behavior of rendering only the first page. The configuration is overridden as follows:  
-          **window.formBridge.registerConfig("pagingConfig":{pagingDisabled: <true | false>, shrinkPageDisabled: <true | false> }). *
+          **window.formBridge.registerConfig("pagingConfig":{pagingDisabled: `<true | false>`, shrinkPageDisabled: `<true | false>` }). 
         
-        * ****LoggingConfig: **Allows the user to override the level of logging, disable logging for a category, or whether to display the logs console or send to server. The configuration can be overridden as follows:**
+        * **LoggingConfig: **Allows the user to override the level of logging, disable logging for a category, or whether to display the logs console or send to server. The configuration can be overridden as follows:**
         * *formBridge.registerConfig{  
           **"LoggerConfig" : {  
         * *{  
-        * *"on":<true *| *false>,  
-        * *"category":<array of categories>,  
-        * *"level":<level of categories>, "  
+        * *"on":`<true *| *false>`,  
+        * *"category":`<array of categories>`,  
+        * *"level":`<level of categories>`, "  
         * *type":<"console"/"server"/"both">  
         * *}  
           **}*
@@ -106,9 +106,9 @@ Returns the version number of the Scripting library
         * ***SubmitServiceProxyConfig: **Allow the users to register submission and logger proxy services.  
           *window.formBridge.registerConfig("submitServiceProxyConfig",  
           {  
-          "submitServiceProxy" : "<submitServiceProxy>",  
-          "logServiceProxy": "<logServiceProxy>",  
-          "submitUrl" : "<submitUrl>"  
+          "submitServiceProxy" : "`<submitServiceProxy>`",  
+          "logServiceProxy": "`<logServiceProxy>`",  
+          "submitUrl" : "`<submitUrl>`"  
           });
 
     * **config:** Value of the configuration

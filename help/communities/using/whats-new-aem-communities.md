@@ -68,7 +68,7 @@ AEM Communities provides the ability to [bookmark the pre-defined moderation fil
 
 Users simply need to select the desired filters from the Filter Rail in moderation console, to view the filtered UGC and bookmark the filters on their browsers. These filters are appended toward the end of the URL string, and therefore can be shared, reused and revisited later.
 
-##  Managing Community Sites {#managing-community-sites}
+## Managing Community Sites {#managing-community-sites}
 
 AEM 6.4 Communities provides site management enhancements, which ensure that numerous community sites in different language are easily created, managed, and deleted by site administrators.
 

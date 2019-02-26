@@ -13,8 +13,9 @@ discoiquuid: 771a7aa5-83e2-47e1-b7b8-f48f46e5c43b
 
 # Alter the Appearance (HBS){#alter-the-appearance-hbs}
 
-| ** [⇐ Add Comment to Sample Page](../../communities/using/extend-sample-page.md)** |  |
+|Previous|Next|
 |---|---|
+| [⇐ Add Comment to Sample Page](../../communities/using/extend-sample-page.md) |  |
 
 Now that the components for the custom comment system in the application directory (/apps) are in place, with a resourceSuperType referencing the default comment system and the custom Model/View registered, it is possible to modify the implementation.
 
@@ -24,7 +25,7 @@ For a simple demonstration, a visual feature, the avatar shown of the signed-in 
 >
 >To make use of the extension, the instance of the comment system in a website to be affected (/content) must set its resourceType to be the custom comment system.
 
-### Modify the HBS Scripts {#modify-the-hbs-scripts}
+## Modify the HBS Scripts {#modify-the-hbs-scripts}
 
 Using [CRXDE Lite](../../sites/developing/using/developing-with-crxde-lite.md) :
 
@@ -65,18 +66,18 @@ One way to do so is
     * uncheck `Only Modified`
     * select `Activate`button
 
-### View Modified Comment on Published Sample Page {#view-modified-comment-on-published-sample-page}
+## View Modified Comment on Published Sample Page {#view-modified-comment-on-published-sample-page}
 
 [Continuing the experience](../../communities/using/extend-sample-page.md#publishsamplepage) on the publish instance, still signed in as the same user, it is now possible to refresh the page in the publish environment to view the modification to remove the avatar :
 
 ![](assets/chlimage_1-81.png) 
 
-### Sample Comment Extension Package {#sample-comment-extension-package}
+## Sample Comment Extension Package {#sample-comment-extension-package}
 
 Attached is a package of the custom comments application created in this tutorial.
 
 [Get File](assets/sample-comment-extension-6-1-fp3.zip)
 
-| ** [⇐ Add Comment to Sample Page](../../communities/using/extend-sample-page.md)** |  |
+|Previous|Next|
 |---|---|
-
+| [⇐ Add Comment to Sample Page](../../communities/using/extend-sample-page.md) |  |

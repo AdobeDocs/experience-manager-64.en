@@ -13,7 +13,7 @@ discoiquuid: 7b6ddec7-ef6f-44b5-87f1-5bf67be96f73
 
 # File Library Feature{#file-library-feature}
 
-### Introduction {#introduction}
+## Introduction {#introduction}
 
 The file library feature provides a place for signed-in site visitors (community members) to upload, manage and download files within the community site.
 
@@ -22,7 +22,7 @@ This section of the documentation describes
 * adding the file library feature to an AEM site
 * configuration settings for the `File Library` component
 
-### Adding a File Library to a Page {#adding-a-file-library-to-a-page}
+## Adding a File Library to a Page {#adding-a-file-library-to-a-page}
 
 To add a `File Library` component to a page in author mode, locate the component
 
@@ -36,13 +36,13 @@ When the [required client-side libraries](../../communities/using/essentials-fil
 
 ![](assets/chlimage_1-430.png)
 
-### Configuring File Library {#configuring-file-library}
+## Configuring File Library {#configuring-file-library}
 
 Select the placed `File Library` component to access and select the `Configure` icon which opens the edit dialog.
 
 ![](assets/chlimage_1-431.png) ![](assets/chlimage_1-432.png)
 
-#### Comments tab {#comments-tab}
+### Comments tab {#comments-tab}
 
 Under the **Comments **tab, specify if and how comments for uploaded files appear :
 
@@ -85,7 +85,7 @@ Under the **Comments **tab, specify if and how comments for uploaded files appea
 * **Allow Threaded Replies** 
   If checked, allow replies to posted comments. Default is unchecked.
 
-#### User Moderation tab {#user-moderation-tab}
+### User Moderation tab {#user-moderation-tab}
 
 Under the **User Moderation** tab, configure moderation of comments, if comments are allowed :
 
@@ -116,7 +116,7 @@ Under the **User Moderation** tab, configure moderation of comments, if comments
 * **Flagging Limit** 
   Enter the number of times a comment has to be flagged before it is hidden from public view. This number must be greater than or equal to the **Moderation Threshold**. Default is 5.
 
-### Additional Information {#additional-information}
+## Additional Information {#additional-information}
 
 More information may be found on the [File Library Essentials](../../communities/using/essentials-file-library.md) page for developers.
 

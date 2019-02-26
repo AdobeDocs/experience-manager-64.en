@@ -19,7 +19,7 @@ A community site will support members creating community groups when the [commun
 
 Following are links to essential information for Communities components, functions and features.
 
-### Base Components {#base-components}
+## Base Components {#base-components}
 
 * [Comments](../../communities/using/essentials-comments.md)
 * [Reviews](../../communities/using/reviews-basics.md)
@@ -30,7 +30,7 @@ Following are links to essential information for Communities components, functio
     * [Voting](../../communities/using/essentials-voting.md)
     * *Poll (not currently available)*
 
-### Components with Functions {#components-with-functions}
+## Components with Functions {#components-with-functions}
 
 * [Activity Streams](../../communities/using/essentials-activities.md)
 * [Assignments](../../communities/using/essentials-assignments.md)
@@ -46,7 +46,7 @@ Following are links to essential information for Communities components, functio
 * [Leaderboard](../../communities/using/leaderboard.md)
 * [Questions and Answers](../../communities/using/qna-essentials.md) `(QnA)`
 
-### Features {#features}
+## Features {#features}
 
 * [Client Libraries](../../communities/using/clientlibs.md)
 * [Community Sites](../../communities/using/sites-for-developers.md)
@@ -61,14 +61,14 @@ Following are links to essential information for Communities components, functio
 
 * [Tagging](../../communities/using/tag.md)
 
-### Javadocs {#javadocs}
+## Javadocs {#javadocs}
 
 The [online javadocs](../../sites/developing/using/reference-materials.md) reflect the APIs available in the AEM 6.3 release.  
 Communities APIs are in `com.adobe.cq.social.*` packages.
 
 For each [feature pack](../../communities/using/deploy-communities.md#latestfeaturepack), a javadoc jar is made available. For more information, visit [Using Maven for Communities](../../communities/using/maven.md#javadocs).
 
-### Additional Information {#additional-information}
+## Additional Information {#additional-information}
 
 * [Social Component Framework (SCF)](../../communities/using/scf.md)
 

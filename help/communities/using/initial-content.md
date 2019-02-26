@@ -13,8 +13,9 @@ discoiquuid: 873974f4-62ce-47fc-9016-dd13384a03e8
 
 # Initial Sandbox Content{#initial-sandbox-content}
 
-| ** [⇐ Initial Sandbox Application](../../communities/using/initial-app.md)** |** [Develop Sandbox Application ⇒](../../communities/using/develop-app.md)** |
+|⇐ Previous|Next ⇒|
 |---|---|
+| [⇐ Initial Sandbox Application](../../communities/using/initial-app.md) |[Develop Sandbox Application ⇒](../../communities/using/develop-app.md) |
 
 In this section, you create the following pages which all use the [page template](../../communities/using/initial-app.md#createthepagetemplate):
 
@@ -26,7 +27,7 @@ In this section, you create the following pages which all use the [page template
 
 Although this tutorial does not delve into [language copies](../../sites/administering/using/tc-prep.md), it is designed so the root page may implement detection of the preferred language for the user through the HTML header, and redirect to the appropriate main page for the language. The convention is to use the two-letter country code for the node name of the page, e.g., "en" for English, "fr" for French, and so on.
 
-### Create First Pages {#create-first-pages}
+## Create First Pages {#create-first-pages}
 
 Now that there is a [page template](../../communities/using/initial-app.md#createthepagetemplate), we can establish the root page of the website in the /content directory.
 
@@ -77,7 +78,7 @@ Now that there is a [page template](../../communities/using/initial-app.md#creat
 
    ![](assets/chlimage_1-40.png)
 
-### Add the Design Path {#add-the-design-path}
+## Add the Design Path {#add-the-design-path}
 
 When ` [/etc/designs/an-scf-sandbox](../../communities/using/setup-website.md#setupthedesigntreeetcdesigns)` was created using the designs section of the Tools console, the property ``
 
@@ -108,6 +109,6 @@ The respository should appear as follows:
 >
 >The use of cq:designPath is optional and is unrelated to the [use of clientlibs](../../communities/using/develop-app.md#includeclientlibsintemplate), which are essentially required as the SCF components use [clientlibs](../../communities/using/client-customize.md#clientlibsforscf) to manage their JS and CSS.
 
-| ** [⇐ Initial Sandbox Application](../../communities/using/initial-app.md)** |** [Develop Sandbox Application ⇒](../../communities/using/develop-app.md)** |
+|⇐ Previous|Next ⇒|
 |---|---|
-
+| [⇐ Initial Sandbox Application](../../communities/using/initial-app.md) |[Develop Sandbox Application ⇒](../../communities/using/develop-app.md) |

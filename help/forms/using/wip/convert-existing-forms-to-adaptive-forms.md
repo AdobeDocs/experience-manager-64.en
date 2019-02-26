@@ -45,15 +45,15 @@ The conversion service converts PDF forms available on your AEM Forms instance t
 After you have uploaded the forms and configured the service, perform the following steps to start the conversion:
 
 1. On your AEM Forms instance, tap **[!UICONTROL Adobe Experience Manager]** ![](assets/adobeexperiencemanager.png) > **[!UICONTROL Navigation]** ![](assets/compass.png) **[!UICONTROL]**> **[!UICONTROL Forms]** > **[!UICONTROL Forms & Documents]**.
-1. Select the folder containing PDF forms (forms to be converted) and tap **[!UICONTROL  **Start Automated Forms Conversion**]**. The ****[!UICONTROL Conversion Settings]**** dialog appears.
+1. Select the folder containing PDF forms (forms to be converted) and tap **[!UICONTROL  **Start Automated Forms Conversion**]**. The **[!UICONTROL Conversion Settings]** dialog appears.
 
    ![](assets/start-conversion-dialog.png)
 
 1. In the **[!UICONTROL **General**]**tab of the Conversion Settings dialog:
 
-    * Select a** **[!UICONTROL Cloud Configuration]****. Template and Theme options are automatically filled on selecting the configuration. You can specify a different template or a theme, if required.
-    * Select the ****[!UICONTROL Extract Fragment]**** option to allow the conversion service to identify, extract, and download form fragments for converted forms.
-    * Specify the location of ****[!UICONTROL Existing Fragments]****, if required. Conversion service uses the Form Fragments available at the specified location in converted forms, wherever applicable.
+    * Select a** **[!UICONTROL Cloud Configuration]**. Template and Theme options are automatically filled on selecting the configuration. You can specify a different template or a theme, if required.
+    * Select the **[!UICONTROL Extract Fragment]** option to allow the conversion service to identify, extract, and download form fragments for converted forms.
+    * Specify the location of **[!UICONTROL Existing Fragments]**, if required. Conversion service uses the Form Fragments available at the specified location in converted forms, wherever applicable.
 
    >[!NOTE]
    >

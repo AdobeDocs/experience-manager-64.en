@@ -13,12 +13,13 @@ discoiquuid: 7ca55e10-f032-4934-b74e-014d5e2546e2
 
 # Add Comment to Sample Page{#add-comment-to-sample-page}
 
-| ** [⇐ Create the Components](../../communities/using/extend-create-components.md)** |** [Alter the Appearance ⇒](../../communities/using/extend-alter-appearance.md)** |
+|Previous|Next|
 |---|---|
+| [⇐ Create the Components](../../communities/using/extend-create-components.md) | [Alter the Appearance ⇒](../../communities/using/extend-alter-appearance.md) |
 
 Now that the components for the custom comment system are in place in the application directory (/apps), it is possible to make use of the extended component. The instance of the comment system in a website to be affected must set its resourceType to be the custom comment system and include all necessary client libraries.
 
-### Identify Required Clientlibs {#identify-required-clientlibs}
+## Identify Required Clientlibs {#identify-required-clientlibs}
 
 The client libraries necessary for the style and functioning of the default Comments are also necessary for extended Comments.
 
@@ -30,7 +31,7 @@ Note the three client libraries required for Comments to render and function pro
 
 ![](assets/chlimage_1-47.png)
 
-### Add Custom Comments to a Page {#add-custom-comments-to-a-page}
+## Add Custom Comments to a Page {#add-custom-comments-to-a-page}
 
 As there can be only one Comment system per page, it is simpler to create a sample page as described in the short [Create a Sample Page](../../communities/using/create-sample-page.md) tutorial.
 
@@ -38,25 +39,25 @@ Once created, enter Design mode and make available the Custom component group to
 
 In order for the Comment to appear and function properly, the client libraries for Comments must be added to the clientlibslist for the page (see [Clientlibs for Communities Components](../../communities/using/clientlibs.md)).
 
-#### Comments Clientlibs on Sample Page {#comments-clientlibs-on-sample-page}
+### Comments Clientlibs on Sample Page {#comments-clientlibs-on-sample-page}
 
 ![Comments Clientlibs on Sample Page](assets/chlimage_1-48.png)
 
-#### Author : Alt Comment on Sample Page {#author-alt-comment-on-sample-page}
+### Author : Alt Comment on Sample Page {#author-alt-comment-on-sample-page}
 
 ![Alt Comment on Sample Page](assets/chlimage_1-49.png)
 
-#### Author : Sample Page Comments Node {#author-sample-page-comments-node}
+### Author : Sample Page Comments Node {#author-sample-page-comments-node}
 
 You can verify the resourceType in CRXDE by viewing the properties of the comments node for the sample page at `/content/sites/sample/en/jcr:content/content/primary/comments`.
 
 ![](assets/chlimage_1-50.png)
 
-#### Publish Sample Page {#publish-sample-page}
+### Publish Sample Page {#publish-sample-page}
 
 After the custom component is added to the page, it is also necessary to (re) [publish the page](../../communities/using/sites-console.md#publishingthesite).
 
-#### Publish : Alt Comment on Sample Page {#publish-alt-comment-on-sample-page}
+### Publish : Alt Comment on Sample Page {#publish-alt-comment-on-sample-page}
 
 After publishing both the custom application and the sample page, it should be possible to enter a comment. When signed in, either with a [demo user](../../communities/using/tutorials.md#demousers) or admin, it should be possible to post a comment.
 
@@ -66,6 +67,6 @@ Here is aaron.mcdonald@mailinator.com posting a comment :
 
 Now that it appears the extended component is working correctly with the default appearance, it is time to modify the appearance.
 
-| ** [⇐ Create the Components](../../communities/using/extend-create-components.md)** |** [Alter the Appearance ⇒](../../communities/using/extend-alter-appearance.md)** |
+|Previous|Next|
 |---|---|
-
+| [⇐ Create the Components](../../communities/using/extend-create-components.md) | [Alter the Appearance ⇒](../../communities/using/extend-alter-appearance.md) |

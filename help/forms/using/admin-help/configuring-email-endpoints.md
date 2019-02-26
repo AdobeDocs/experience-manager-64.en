@@ -228,11 +228,13 @@ The default value is asynchronous.
 
 **Output Parameter Mappings:** Used to configure the output of the service and operation. The following characters in the output parameter mapping values are expanded in the attachment filename:
 
-**%F** Represents the source file’s filename (not including an extension).
+<!--Check accuracy of next three lines-->
 
-**%E** Represents the source file’s extension.
+`**%F**` Represents the source file’s filename (not including an extension).
 
-**** Any occurrence of the backslash (\) is replaced with %%.
+`**%E**` Represents the source file’s extension.
+
+`****` Any occurrence of the backslash (\) is replaced with %%.
 
 ***note**: If the service request message includes multiple file attachments, you cannot use the %F and %E parameters for the Output Parameter Mappints property of the endpoint. If the services response returns multiple file attachments, you cannot specify the same file name for more than one attachment. If you do not follow these recommendations, the invoked service create the names for the returned files, and the names are not predictable.*
 

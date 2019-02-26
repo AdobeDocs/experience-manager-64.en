@@ -35,7 +35,7 @@ To get started creating a new site template, select `Create`.
 
 This will bring up the Site Editor panel which contains 3 sub-panels :
 
-#### BASIC INFO {#basic-info}
+### BASIC INFO {#basic-info}
 
 ![](assets/chlimage_1-19.png)
 
@@ -50,13 +50,13 @@ On the Basic Info panel, a name, description and whether the template is enabled
 * **Disabled/Enabled** 
   a toggle switch controlling whether the template is referenceable
 
-#### THUMBNAIL {#thumbnail}
+### THUMBNAIL {#thumbnail}
 
 ![](assets/chlimage_1-20.png)
 
 (Optional) Select the Upload Image icon in order to display a thumbnail along with the name and description to creators of community sites.
 
-#### STRUCTURE {#structure}
+### STRUCTURE {#structure}
 
 ![](assets/chlimage_1-21.png)
 

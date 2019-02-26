@@ -514,7 +514,7 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
  </tbody>
 </table>
 
-***** The ZIP archives created using Deflate64 algorithm have limited support in AEM. Archive and unarchive operations are not supported. However, operations like uploading, browsing, and downloading are supported.
+The ZIP archives created using Deflate64 algorithm have limited support in AEM. Archive and unarchive operations are not supported. However, operations like uploading, browsing, and downloading are supported.
 
 ## Other Supported Formats {#other-supported-formats}
 

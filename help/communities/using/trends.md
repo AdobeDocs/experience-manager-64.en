@@ -13,7 +13,7 @@ discoiquuid: 7d32dcf8-728c-422d-ba18-54eac3ad2e1f
 
 # Activity Trends{#activity-trends}
 
-### Introduction {#introduction}
+## Introduction {#introduction}
 
 The `Community Activity List` component provides the ability to add trending information regarding posts and views by members as well as posts and views of content.
 
@@ -23,13 +23,13 @@ This section of the documentation describes
 
 * configuration settings for the `Community Activity List` component
 
-### Requirement {#requirement}
+## Requirement {#requirement}
 
 Data for the `Community Activity List` is only available when Adobe Analytics is licensed and configured for the community site.
 
 See [Analytics Configuration for Communities Features](../../communities/using/analytics.md).
 
-### Adding a Community Activity List to a Page {#adding-a-community-activity-list-to-a-page}
+## Adding a Community Activity List to a Page {#adding-a-community-activity-list-to-a-page}
 
 To add a `Community Activity List` component to a page in author mode, locate the component
 
@@ -43,7 +43,7 @@ When first placed on a page of a community site, this is how the component appea
 
 ![](assets/chlimage_1-227.png)
 
-### Configuring Community Activity List  {#configuring-community-activity-list}
+## Configuring Community Activity List  {#configuring-community-activity-list}
 
 Select the placed `Community Activity List` component to access and select the `Configure` icon which opens the edit dialog.
 
@@ -100,7 +100,7 @@ Under the **Comments **tab, specify if and how comments for uploaded files appea
   When unchecked (turned off), only top-level posts are counted. For example, if the context is the root page (the default), then an `Activity Type`of `Posts`will never show any activity as there is no ability to post content to the root page. When checked, the counts on all descendant pages are included.  
   Default is checked.
 
-### Example Page with 4 Components {#example-page-with-components}
+## Example Page with 4 Components {#example-page-with-components}
 
 **Top Visitors** config : Type = Members, Activity type = Views
 

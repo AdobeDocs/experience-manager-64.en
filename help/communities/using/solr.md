@@ -50,17 +50,17 @@ The recommendation is to follow the SolrCloud instructions to install :
 
 It is also recommended to configure JVM to tune memory usage and garbage collection.
 
-#### JVM Configuration Example {#jvm-configuration-example}
+### JVM Configuration Example {#jvm-configuration-example}
 
 ```shell
 JVM_OPTS="-server -Xmx2048m -XX:MaxPermSize=768M -XX:+UseConcMarkSweepGC -XX:+CMSClassUnloadingEnabled -Xloggc:../logs/gc.log -XX:+PrintGCDetails -XX:+PrintGCDateStamps -Djava.awt.headless=true"  
 ```
 
-### SolrCloud Setup Commands {#solrcloud-setup-commands}
+## SolrCloud Setup Commands {#solrcloud-setup-commands}
 
 When running in SolrCloud mode, prior to MLS installation, use and knowledge of the following SolrCloud set-up commands is necessary.
 
-#### 1. Upload a configuration to ZooKeeper {#upload-a-configuration-to-zookeeper}
+### 1. Upload a configuration to ZooKeeper {#upload-a-configuration-to-zookeeper}
 
 Reference :  
 [https://cwiki.apache.org/confluence/display/solr/Command+Line+Utilities](https://cwiki.apache.org/confluence/display/solr/Command+Line+Utilities)
@@ -73,7 +73,7 @@ sh ./scripts/cloud-scripts/zkcli.sh \
 -solrhome *solr-home-path* \  
 -confdir *config-dir*
 
-#### 2. Create a collection {#create-a-collection}
+### 2. Create a collection {#create-a-collection}
 
 Reference :  
 [https://cwiki.apache.org/confluence/display/solr/Solr+Start+Script+Reference#SolrStartScriptReference-Create  
@@ -88,7 +88,7 @@ Usage :
 -s *number-of-shards* \  
 -rf *number-of-replicas*
 
-#### 3. Link a collection to a configuration set {#link-a-collection-to-a-configuration-set}
+### 3. Link a collection to a configuration set {#link-a-collection-to-a-configuration-set}
 
 Link a collection to a configuration already uploaded to ZooKeeper.
 
@@ -136,13 +136,13 @@ In all, the following 33 languages are supported in Advanced MLS.
 | Finnish |Latvian |Thai |
 | French |Lithuanian |Turkish |
 
-#### Comparison of AEM 6.1 Solr search, Standard MLS and Advanced MLS {#comparison-of-aem-solr-search-standard-mls-and-advanced-mls}
+### Comparison of AEM 6.1 Solr search, Standard MLS and Advanced MLS {#comparison-of-aem-solr-search-standard-mls-and-advanced-mls}
 
 **Note **: AEM 6.1 refers to AEM 6.1 Communities FP3 and earlier.
 
 ![](assets/chlimage_1-283.png) 
 
-### Installing Standard MLS {#installing-standard-mls}
+## Installing Standard MLS {#installing-standard-mls}
 
 For the SRP collection (either MSRP or DSRP), to support Standard Multilingual Search (MLS) it is necessary to modify two of Solr's configuration files :
 
@@ -175,7 +175,7 @@ The Standard MLS files are stored in the AEM repository.
 
 1. follow the installation instructions for either standalone or SolrCloud mode
 
-#### SolrCloud Mode - Standard MLS {#solrcloud-mode-standard-mls}
+### SolrCloud Mode - Standard MLS {#solrcloud-mode-standard-mls}
 
 1. Install and configure Solr in SolrCloud mode
 1. Prepare a new configuration :
@@ -196,7 +196,7 @@ The Standard MLS files are stored in the AEM repository.
 
 1. For MSRP, run [MSRP Reindex Tool](../../communities/using/msrp.md#msrpreindextool), unless this is a new installation
 
-#### Standalone Mode - Standard MLS {#standalone-mode-standard-mls}
+### Standalone Mode - Standard MLS {#standalone-mode-standard-mls}
 
 1. Install Solr in standalone mode
 1. If running Solr5, create a collection1 (similar to Solr4) :
@@ -214,7 +214,7 @@ The Standard MLS files are stored in the AEM repository.
 1. Restart Solr
 1. For MSRP, run [MSRP Reindex Tool](#msrpreindextool), unless this is a new installation
 
-### Installing Advanced MLS {#installing-advanced-mls}
+## Installing Advanced MLS {#installing-advanced-mls}
 
 For the SRP collection (MSRP or DSRP) to support advanced MLS, new Solr plug-ins are required in addition to a custom schema and Solr configuration. All required items are packaged into a downloadable zip file. In addition, an install script is included for use when Solr is deployed in standalone mode.
 
@@ -225,7 +225,7 @@ To get started with the install for either SolrCloud or standalone mode:
 * download AEM-SOLR-MLS zip archive to server hosting Solr
 * unpack the archive
 
-#### SolrCloud Mode - Advanced MLS {#solrcloud-mode-advanced-mls}
+### SolrCloud Mode - Advanced MLS {#solrcloud-mode-advanced-mls}
 
 Installation instructions - note the few differences for Solr4 and Solr5 :
 
@@ -283,7 +283,7 @@ Installation instructions - note the few differences for Solr4 and Solr5 :
 
 1. For MSRP, run [MSRP Reindex Tool](#msrpreindextool), unless this is a new installation
 
-#### Standalone Mode - Advanced MLS {#standalone-mode-advanced-mls}
+### Standalone Mode - Advanced MLS {#standalone-mode-advanced-mls}
 
 An install script is included in the Advanced MLS package.
 
@@ -319,7 +319,7 @@ After the contents of the package have been extracted to the server hosting the 
 
 * the install script will back-up schema.xml and solrconfig.xml before installing new versions by appending ".orig"
 
-### About solrconfig.xml {#about-solrconfig-xml}
+## About solrconfig.xml {#about-solrconfig-xml}
 
 The **solrconfig.xml** file controls the auto commit interval and search visibility and will requiring testing and tuning.
 

@@ -104,7 +104,7 @@ You can also enable SSO by using HTTP headers. (See [Enable SSO using HTTP heade
    **REALM:** The Active Directory realm for the domain controller. In this example, it is set to UM.LC.COM. Ensure that you enter the realm in uppercase characters. To determine the realm for Windows 2003, complete the following steps:
 
     * Right-click My Computer and select Properties 
-    * Click the Computer Name tab. The**** Domain Name value is the realm name.
+    * Click the Computer Name tab. The **Domain Name** value is the realm name.
 
    **user:** The login name of the user account you created in the previous task. In this example, it is set to spnegodemo.
 

@@ -13,7 +13,7 @@ discoiquuid: 3b576fa7-e3ff-494d-b034-ae28baca4ac0
 
 # Using Social Graph{#using-social-graph}
 
-### Introduction {#introduction}
+## Introduction {#introduction}
 
 The ability for a community member to follow [activities](../../communities/using/activities.md) as well as be followed is established through two components : `Follow`and `Following`.
 
@@ -21,7 +21,7 @@ The `Follow`component must be associated with another resource, and this associa
 
 The `Following`component simply lists the members that are either following the current member or are being followed by the current member. This social graph of the relationships between members is included in the user profile established for a [community site](../../communities/using/overview.md#communitiessites).
 
-### Adding Following to a Page {#adding-following-to-a-page}
+## Adding Following to a Page {#adding-following-to-a-page}
 
 If it is desired to add a `Following`component to a page in author mode, locate the component
 
@@ -35,10 +35,10 @@ When the [required client-side libraries](../../communities/using/essentials-soc
 
 ![](assets/chlimage_1-447.png)
 
-### Configuring Following {#configuring-following}
+## Configuring Following {#configuring-following}
 
 Currently, it is necessary to set the property to determine whether the component displays the `follows`relationship, or the `following`relationship.
 
-### Additional Information {#additional-information}
+## Additional Information {#additional-information}
 
 More information may be found on the [Social Graph Essentials](../../communities/using/essentials-socialgraph.md) page for developers.

@@ -40,6 +40,6 @@ Use the Configure Advanced System Attributes page to modify certain settings in 
 
    **User Manager Event Auditing: **Select this option to enable auditing of directory synchronization events and of authentication events such as success, failure, and lockout. By default, this option is not selected unless you installed a component that requires auditing, such as Rights Management. This setting updates the `APSAuditService` entry key in the configuration file.
 
-   **Auto Creation of Dynamic Group: **Enables the automatic creation of dynamic groups based on email domains. (See **** [Create a dynamic group](../../../forms/using/admin-help/creating-configuring-groups.md#create-a-dynamic-group).)
+   **Auto Creation of Dynamic Group:** Enables the automatic creation of dynamic groups based on email domains. (See [Create a dynamic group](../../../forms/using/admin-help/creating-configuring-groups.md#create-a-dynamic-group).)
 
 You can also revert to the original User Management settings by clicking Reload.

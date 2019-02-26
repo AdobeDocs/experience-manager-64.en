@@ -13,7 +13,7 @@ discoiquuid: 3f53c082-d3d3-437b-8bff-2c974646fac0
 
 # Forum Feature{#forum-feature}
 
-### Introduction {#introduction}
+## Introduction {#introduction}
 
 The forum feature provides an area for signed-in site visitors (community members) in the publish environment to :
 
@@ -29,7 +29,7 @@ This section of the documentation describes
 * adding the forum feature to an AEM site
 * configuration settings for the `Forum`component
 
-### Adding a Forum to a Page {#adding-a-forum-to-a-page}
+## Adding a Forum to a Page {#adding-a-forum-to-a-page}
 
 To add a `Forum` component to a page in author mode, use the component browser to locate
 
@@ -43,13 +43,13 @@ When the [required client-side libraries](../../communities/using/essentials-for
 
 ![](assets/chlimage_1-60.png)
 
-### Configuring a Forum {#configuring-a-forum}
+## Configuring a Forum {#configuring-a-forum}
 
 Select the placed `Forum` component to access and select the `Configure` icon which opens the edit dialog.
 
 ![](assets/chlimage_1-61.png) ![](assets/chlimage_1-62.png)
 
-#### Settings tab {#settings-tab}
+### Settings tab {#settings-tab}
 
 Under the **Settings **tab, specify settings for topics and replies :
 
@@ -111,7 +111,7 @@ Under the **Settings **tab, specify settings for topics and replies :
 >
 >It may be necessary to check both `AllowThreaded Replies` and `Allow users to Delete Comments and Topics` to enable comments on a topic.
 
-#### User Moderation tab {#user-moderation-tab}
+### User Moderation tab {#user-moderation-tab}
 
 Under the **User Moderation **tab, specify how the posted topics and replies (user generated content) are managed. For more information, see [Moderating User Generated Content](../../communities/using/moderate-ugc.md).
 
@@ -149,14 +149,14 @@ Under the **Tag field** tab, the tags which may be applied, if allowed under the
 * **Suggestion Limit** 
   Enter the number of tags to be displayed as a suggestion to the member posting to the forum. Default is **-**1 (no limits).
 
-#### Translation tab {#translation-tab}
+### Translation tab {#translation-tab}
 
 Under the **Translation **tab, if translation is enabled for the community site, translation may be set to translate the entire topic or selected posts.
 
 * **Translate All** 
   If checked, the forum thread is translated into the user's preferred language. Default is unchecked.
 
-#### Sort Settings tab {#sort-settings-tab}
+### Sort Settings tab {#sort-settings-tab}
 
 Under the **Sort Settings **tab, specify how the posted comments are sorted when displayed.
 
@@ -169,7 +169,7 @@ Under the **Sort Settings **tab, specify how the posted comments are sorted when
 * **Select Time Options for Analytics Sorting** 
   Pull down to select one of `All, Last 24 Hours, Last 7 Days, Last 30 Days`. Default is `All`.
 
-### Additional Information {#additional-information}
+## Additional Information {#additional-information}
 
 More information may be found on the [Forum Essentials](../../communities/using/essentials-forum.md) page for developers.
 
