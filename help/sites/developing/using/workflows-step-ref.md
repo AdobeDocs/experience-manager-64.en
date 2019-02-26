@@ -97,7 +97,7 @@ This container can allow you to reuse workflow models to implement common sequen
 
 ![](assets/wf-28.png) 
 
-#### Container Step - Configuration {#container-step-configuration}
+### Container Step - Configuration {#container-step-configuration}
 
 To configure the step, edit and use the following tabs:
 
@@ -535,7 +535,7 @@ A **Process Step** executes an ECMAScript or calls an OSGi service to perform au
 
 ![](assets/wf-32.png) 
 
-#### Process Step - Configuration {#process-step-configuration}
+### Process Step - Configuration {#process-step-configuration}
 
 To configure the step, edit and use the following tabs:
 
