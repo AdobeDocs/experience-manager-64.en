@@ -31,7 +31,7 @@ In the author environment, after signing in with administrator privileges, the `
 >
 >In the publish environment, a [community site](../../communities/using/sites-console.md) will display an `Administration`menu item when the signed in member has appropriate privileges.
 
-### Global navigation panel {#global-navigation-panel}
+## Global navigation panel {#global-navigation-panel}
 
 ![](assets/chlimage_1-91.png)
 
@@ -40,7 +40,7 @@ Select the `Adobe Experience Manager` icon in the upper left corner to open the 
 * [navigation console](#navigationconsole)
 * [tools console](../../communities/using/tools.md)
 
-### Navigation console {#navigation-console}
+## Navigation console {#navigation-console}
 
 To access the various Communities consoles, from global navigation select **navigation, Communities**.
 
@@ -61,6 +61,6 @@ To access the various Communities consoles, from global navigation select **navi
 * [Resources](../../communities/using/resources.md)  
   The Resources console is where [enablement managers](../../communities/using/enablement.md#communitymanagers) create, manage and assign resources to members of an [enablement community site](../../communities/using/overview.md#enablementcommunity). The console is only available in the author environment.
 
-### Tools Console {#tools-console}
+## Tools Console {#tools-console}
 
 To access [Communities Tools](../../communities/using/tools.md) (formerly the administration console), from global navigation : **Tools, Communities**

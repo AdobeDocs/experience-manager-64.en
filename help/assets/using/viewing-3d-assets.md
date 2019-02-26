@@ -29,7 +29,7 @@ See [About the use of stages in AEM 3D](../../assets/using/about-the-use-of-stag
 >
 >To view a 3D asset, your device or desktop browser must be WebGL-enabled. Also, the underlying graphics hardware must have sufficient capabilities and memory to render models of the desired size and complexity. Certain preview features, such as cast shadow, are not available on all browsers.
 
-#### Performance considerations when you view 3D assets {#performance-considerations-when-you-view-d-assets}
+### Performance considerations when you view 3D assets {#performance-considerations-when-you-view-d-assets}
 
 The time it takes to open a 3D asset in the asset details page view depends on several factors. These factors include such things as the following:
 

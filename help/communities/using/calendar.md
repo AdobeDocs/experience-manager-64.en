@@ -151,13 +151,13 @@ When a calendar event is selected, the calendar event details, description and c
 
 Other abilities depend on whether the site visitor is a moderator, administrator, community member, privileged member or anonymous.
 
-#### Moderators and Administrators {#moderators-and-administrators}
+### Moderators and Administrators {#moderators-and-administrators}
 
 When the signed in user has moderator or administrator privileges, they are able to perform [moderation tasks](../../communities/using/moderate-ugc.md) (as permitted by the configuration of the component) on all calendar events and comments posted to an event.
 
 ![](assets/chlimage_1-115.png)
 
-#### Members {#members}
+### Members {#members}
 
 When the signed in user is a community member or [privileged member](../../communities/using/users.md#privilegedmembersgroup) (depending on configuration), they are able to select `New Event` to create and post a new calendar event.
 
@@ -171,7 +171,7 @@ Specifically, they may
 
 ![](assets/chlimage_1-116.png) ![](assets/chlimage_1-117.png)
 
-#### Anonymous {#anonymous}
+### Anonymous {#anonymous}
 
 Site visitors who are not signed in may only read posted calendar events, translate them if supported, but may not add an event or comment nor flag others' events or comments.
 

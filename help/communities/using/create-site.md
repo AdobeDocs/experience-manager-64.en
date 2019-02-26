@@ -13,8 +13,10 @@ discoiquuid: 0909e0cd-c695-4a6d-919c-8be96725864d
 
 # Author a New Community Site{#author-a-new-community-site}
 
-| ** [⇐ Initial Setup](../../communities/using/setup.md)** |** [Experience the Published Site ⇒](../../communities/using/published-site.md)** |
+|Previous|Next|
 |---|---|
+| [⇐ Initial Setup](../../communities/using/setup.md) | [Experience the Published Site ⇒](../../communities/using/published-site.md) |
+
 
 ## Create a New Community Site {#create-a-new-community-site}
 
@@ -221,7 +223,7 @@ From left to right they are :
 >1. (optional) select 'Clear' or 'Force Retry' to reset the replication queue
 >
 
-#### Select Publish {#select-publish}
+### Select Publish {#select-publish}
 
 After ensuring the publish server is running, select the world icon to publish the community site.
 
@@ -335,6 +337,6 @@ After any modification, remember to **Save** and re-**Publish** the site.
 >
 >If not familiar with AEM, view the documentation on [basic handling](../../sites/authoring/using/basic-handling.md) and a [quick guide to authoring pages](../../sites/authoring/using/qg-page-authoring.md).
 
-| ** [⇐ Initial Setup](../../communities/using/setup.md)** |** [Experience the Published Site ⇒](../../communities/using/published-site.md)** |
+|Previous|Next|
 |---|---|
-
+| [⇐ Initial Setup](../../communities/using/setup.md) | [Experience the Published Site ⇒](../../communities/using/published-site.md) |

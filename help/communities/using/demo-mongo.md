@@ -21,7 +21,7 @@ With this setup, the community content is accessible from both author and publis
 
 This configuration is suitable for* non-production* environments such as for development and/or demonstration.
 
-**A *production *environment should :**
+**A *production* environment should :**
 
 * run MongoDB with a replica set
 * use SolrCloud
@@ -174,9 +174,9 @@ To test and verify the MongoDB common store, post a comment on the publish insta
 
 ### No UGC Appears {#no-ugc-appears}
 
-1) Make sure MongoDB is installed and running properly.
+1 - Make sure MongoDB is installed and running properly.
 
-2) Make sure MSRP has been configured to be the default provider :
+2 - Make sure MSRP has been configured to be the default provider :
 
 * On all author and publish AEM instances, revisit the [Storage Configuration console](../../communities/using/srp-config.md)  
   or check the AEM repository :
@@ -186,4 +186,4 @@ To test and verify the MongoDB common store, post a comment on the publish insta
         * does not contain an [srpc](http://localhost:4502/crx/de/index.jsp#/etc/socialconfig/srpc) node, it means the storage provider is JSRP
         * if the srpc node exists and contains node [defaultconfiguration](http://localhost:4502/crx/de/index.jsp#/etc/socialconfig/srpc/defaultconfiguration), the defaultconfiguration's properties should define MSRP to be the default provider
 
-3) Make sure AEM was restarted after MSRP selected.
+3 - Make sure AEM was restarted after MSRP selected.

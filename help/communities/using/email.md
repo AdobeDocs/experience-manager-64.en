@@ -104,31 +104,24 @@ For Communities subscriptions, it is possible to enable or disable the ability f
 
 ![](assets/chlimage_1-101.png)
 
-* **Name **: *(required)* `subscriptions-email`. Do Not Edit.
+* **Name**: *(required)* `subscriptions-email`. Do Not Edit.
 
 * **Create post from reply email** : If checked, recipient of subscription email may post content by sending a reply. Default is checked.
 * **Add tracked id to header** : Default is `Reply-To`.
-
 * **Maximum length of Subject** : If tracker id is added to subject line, this is the maximum length of subject, excluding tracked id, after which it will be trimmed. Note that this should be as small as possible to avoid tracked id information from being lost. Default is 200.
 * **Email "From" address** : *(required)* Address that notification email would be delivered from. Likely the same **SMTP user** specified for the [default mail service](#configuredefaultmailservice). Default is `no-reply@example.com`.
-
 * **Reply-to-Delimiter** : If tracker id is added to Reply-to header, this delimiter will be used. Default is `+` (plus sign).
-
 * **Tracker Id prefix in subject** : If tracker id is added to subject line, this prefix will be used. Default is `post#`.
-
 * **Tracker id prefix in message body** : If tracker id is added to message body, this prefix will be used. Default is `Please do not remove this:`.
-
 * **Email as HTML** : If checked, Content-Type of email will be set as `"text/html;charset=utf-8"`. Default is checked.
-
 * **Default user name** : This name will be used for no name users. Default is `no-reply@example.com`.
-
 * **Templates root path** : The email is built using template stored at this root path. Default is `/etc/community/templates/subscriptions-email`.
 
 ## Configure Polling Importer {#configure-polling-importer}
 
 In order for the email to be brought into the repository, it is necessary to configure a polling importer and configure its properties in the repository manually.
 
-#### Add New Polling Importer {#add-new-polling-importer}
+### Add New Polling Importer {#add-new-polling-importer}
 
 * on the primary publisher
 * signed in with administrator privileges
@@ -156,7 +149,7 @@ In order for the email to be brought into the repository, it is necessary to con
 
 * Select **OK**
 
-#### Adjust Protocol for New Polling Importer {#adjust-protocol-for-new-polling-importer}
+### Adjust Protocol for New Polling Importer {#adjust-protocol-for-new-polling-importer}
 
 Once the new polling configuration is saved, it is necessary to further modify properties of the subscription email importer in order to change the protocol from `POP3` to `emailreply`
 
@@ -168,9 +161,8 @@ Using [CRXDE Lite](../../sites/developing/using/developing-with-crxde-lite.md) :
 * select the newly created configuration
 * modify the following properties
 
-    * **feedType **: replace `pop3s` with **`emailreply`**
-    
-    * **source**: replace source's protocol `pop3s://` with **`emailreply://`**
+  * **feedType **: replace `pop3s` with **`emailreply`**    
+  * **source**: replace source's protocol `pop3s://` with **`emailreply://`**
 
 ![](assets/chlimage_1-103.png)
 

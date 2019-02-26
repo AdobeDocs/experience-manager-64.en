@@ -25,7 +25,7 @@ If you are an administrator and need to manage, create, sort, and delete viewer 
 >
 >Any problems with viewer presets, see [Troubleshooting Dynamic Media - Scene7](../../assets/using/troubleshoot-dms7.md#viewers).
 
-### Applying a viewer preset to an asset {#applying-a-viewer-preset-to-an-asset}
+## Applying a viewer preset to an asset {#applying-a-viewer-preset-to-an-asset}
 
 To apply any applicable viewer preset to an asset:
 
@@ -46,6 +46,6 @@ To apply any applicable viewer preset to an asset:
 
 1. Select a viewer** **from the left pane to apply it to the asset as seen in the right pane. You can also [copy the URL to share](../../assets/using/linking-urls-to-yourwebapplication.md) with others users.
 
-### Obtaining Viewer Preset URLs {#obtaining-viewer-preset-urls}
+## Obtaining Viewer Preset URLs {#obtaining-viewer-preset-urls}
 
 To get the URLs for Viewer Presets, see [Linking URLs to your Web application](../../assets/using/linking-urls-to-yourwebapplication.md).

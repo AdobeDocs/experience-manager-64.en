@@ -13,8 +13,9 @@ discoiquuid: 7eb2e17c-b620-4cf2-ac07-cfcc9ed16eb0
 
 # Experience the Published Site{#experience-the-published-site}
 
-| ** [⇐ Create and Assign Enablement Resources](../../communities/using/resource.md)** |  |
+|Previous|Next|
 |---|---|
+| [⇐ Create and Assign Enablement Resources](../../communities/using/resource.md)|  |
 
 ## Browse to New Site on Publish {#browse-to-new-site-on-publish}
 
@@ -29,7 +30,7 @@ If the [default home page was set](../../communities/using/enablement-create-sit
 
 When first arriving at the published site, the site visitor would typically not already be signed in and would be anonymous.
 
-#### http://localhost:4503/content/sites/enable/en.html {#http-localhost-content-sites-enable-en-html}
+### http://localhost:4503/content/sites/enable/en.html {#http-localhost-content-sites-enable-en-html}
 
 ![](assets/chlimage_1-433.png) 
 
@@ -255,6 +256,6 @@ For reports on views :
 
 ![](assets/chlimage_1-446.png)
 
-| ** [⇐ Create and Assign Enablement Resources](../../communities/using/resource.md)** |  |
+|Previous|Next|
 |---|---|
-
+| [⇐ Create and Assign Enablement Resources](../../communities/using/resource.md)|  |

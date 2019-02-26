@@ -19,7 +19,7 @@ The `Enablement Catalog` component allows community members to access a catalog 
 
 From the [Getting Started with AEM Communities for Enablement](../../communities/using/getting-started-enablement.md) tutorial, see a member's view of assignments and catalogs in the [Experience the Published Site](../../communities/using/enablement-published-site.md) section.
 
-### Additional Information {#additional-information}
+## Additional Information {#additional-information}
 
 More information may be found on the [Catalog Essentials](../../communities/using/catalog-developer-essentials.md) page for developers.
 

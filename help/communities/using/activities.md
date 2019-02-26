@@ -13,7 +13,7 @@ discoiquuid: c5cae042-faa6-47b7-9f0d-8f4616cdf219
 
 # Activity Streams Feature{#activity-streams-feature}
 
-### Introduction {#introduction}
+## Introduction {#introduction}
 
 The activities of a signed in community member, such as posting to a forum or blog, are collected into a stream which may be filtered and displayed in various ways through configuration of the `Activity Streams` component.
 
@@ -24,7 +24,7 @@ This section of the documentation describes
 * adding the Activity Streams component to an AEM site
 * configuration settings for Activity Streams component
 
-### Adding Activity Streams to a Page {#adding-activity-streams-to-a-page}
+## Adding Activity Streams to a Page {#adding-activity-streams-to-a-page}
 
 If it is desired to add an `Activity Streams` component to a page in author mode, use the component browser to locate
 
@@ -38,7 +38,7 @@ When the [required client-side libraries](../../communities/using/essentials-act
 
 ![](assets/chlimage_1-195.png)
 
-### Configuring Activity Streams {#configuring-activity-streams}
+## Configuring Activity Streams {#configuring-activity-streams}
 
 Select the placed `Activity Streams` component to access and select the `Configure` icon which opens the edit dialog.
 
@@ -84,6 +84,6 @@ The **Follow **button will appear
 
     * follows all activity for that specific entry
 
-### Additional Information {#additional-information}
+## Additional Information {#additional-information}
 
 More information may be found on the [Activity Streams Essentials](../../communities/using/essentials-activities.md) page for developers.

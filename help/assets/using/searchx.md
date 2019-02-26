@@ -24,7 +24,7 @@ You can also add additional tabs to the AEM Assets admin panel.
 >
 >As of AEM 6.4, Classic UI is deprecated. For announcement, see [Deprecated and Removed Features](../../release-notes/deprecated-removed-features.md). You are encouraged to use Touch-enabled UI. For customizations, see [Search Facets](../../assets/using/search-facets.md).
 
-### Overlaying {#overlaying}
+## Overlaying {#overlaying}
 
 To overlay the preconfigured predicates, copy the `facets` node from `/libs/dam/content/search/searchpanel` to `/apps/dam/content/search/searchpanel/` or specify another `facetURL` property in the searchpanel configuration (the default is to `/libs/dam/content/search/searchpanel/facets.overlay.infinity.json`). 
 
@@ -35,7 +35,7 @@ To overlay the preconfigured predicates, copy the `facets` node from `/libs/dam/
 >By default, the directory structure under / `apps` does not exist and needs to be created. Ensure that the node types match those under / `libs`.
 >
 
-### Adding tabs {#adding-tabs}
+## Adding tabs {#adding-tabs}
 
 You can add additional Search tabs by configuring them in the AEM Assets Admin. To create additional tabs:
 
@@ -46,7 +46,7 @@ You can add additional Search tabs by configuring them in the AEM Assets Admin. 
    >
    >When you create a second siteadminsearchpanel, be sure to set an `id` property in order to prevent form conflicts.
 
-### Creating Custom Predicates {#creating-custom-predicates}
+## Creating Custom Predicates {#creating-custom-predicates}
 
 AEM Assets comes with a set of predefined predicates that can be used to customize an Asset Share page. Customizing an Asset Share in this way is covered in [Creating and Configuring an Asset Share Page](../../assets/using/assets-finder-editor.md#main-pars-title).
 
@@ -56,7 +56,7 @@ Creating custom predicates requires basic knowledge about the [Widgets framework
 
 The best practice is to copy an existing predicate and adjust it. Sample predicates are located in **/libs/cq/search/components/predicates**.
 
-#### Example: Build a simple property predicate {#example-build-a-simple-property-predicate}
+### Example: Build a simple property predicate {#example-build-a-simple-property-predicate}
 
 To build a property predicate:
 
@@ -153,7 +153,7 @@ To build a property predicate:
    >
    >When searching, be sure to type in the term exactly, including the correct case.
 
-#### Example: Build a simple group predicate {#example-build-a-simple-group-predicate}
+### Example: Build a simple group predicate {#example-build-a-simple-group-predicate}
 
 To build a group predicate:
 
@@ -255,11 +255,11 @@ To build a group predicate:
 1. Navigate to your browser, and on your sample page (for example, **press.html**) switch to design mode and enable your new component for the predicate paragraph system (for example, **left**).
 1. In **Edit** mode, the new component is now available in the sidekick (found in the **Search **group). Insert the component in the **Predicates** column.
 
-### Installed Predicate Widgets {#installed-predicate-widgets}
+## Installed Predicate Widgets {#installed-predicate-widgets}
 
 The following predicates are available as preconfigured ExtJS widgets.
 
-#### FulltextPredicate {#fulltextpredicate}
+### FulltextPredicate {#fulltextpredicate}
 
 <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
  <tbody> 
@@ -281,7 +281,7 @@ The following predicates are available as preconfigured ExtJS widgets.
  </tbody> 
 </table>
 
-#### PropertyPredicate {#propertypredicate}
+### PropertyPredicate {#propertypredicate}
 
 <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
  <tbody> 
@@ -308,7 +308,7 @@ The following predicates are available as preconfigured ExtJS widgets.
  </tbody> 
 </table>
 
-#### PathPredicate {#pathpredicate}
+### PathPredicate {#pathpredicate}
 
 <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
  <tbody> 
@@ -340,7 +340,7 @@ The following predicates are available as preconfigured ExtJS widgets.
  </tbody> 
 </table>
 
-#### DatePredicate {#datepredicate}
+### DatePredicate {#datepredicate}
 
 <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
  <tbody> 
@@ -367,7 +367,7 @@ The following predicates are available as preconfigured ExtJS widgets.
  </tbody> 
 </table>
 
-#### OptionsPredicate {#optionspredicate}
+### OptionsPredicate {#optionspredicate}
 
 <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
  <tbody> 
@@ -414,7 +414,7 @@ The following predicates are available as preconfigured ExtJS widgets.
  </tbody> 
 </table>
 
-### Customizing Search Results {#customizing-search-results}
+## Customizing Search Results {#customizing-search-results}
 
 The presentation of search results on an Asset Share page is governed by the selected lens. AEM Assets comes with a set of predefined lenses that can be used to customize an Asset Share page. Customizing an Asset Share in this way is covered in [Creating and Configuring an Asset Share Page](../../assets/using/assets-finder-editor.md#main-pars-title).
 

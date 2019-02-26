@@ -38,7 +38,7 @@ The steps in this tutorial are:
 >
 >If a simple community site is preferred, follow the [Create a Sample Page](../../communities/using/create-sample-page.md) tutorial.
 
-### Prerequisites {#prerequisites}
+## Prerequisites {#prerequisites}
 
 This tutorial assumes you have one AEM author and one AEM publish instance installed that has the [latest release](../../communities/using/deploy-communities.md#latestreleases) of Communities.
 
@@ -49,7 +49,7 @@ Following are some helpful links for developers new to the AEM platform :
     * [The Basics](../../sites/developing/using/the-basics.md) - for developers of websites and features
     * [First Steps for Authors](../../sites/authoring/using/first-steps.md) - for authoring page content
 
-### Using CRXDE Lite Development Environment {#using-crxde-lite-development-environment}
+## Using CRXDE Lite Development Environment {#using-crxde-lite-development-environment}
 
 AEM developers spend much of their time in the [CRXDE Lite](../../sites/developing/using/developing-with-crxde-lite.md) development environment on an author instance. CRXDE Lite provides a less restricted access to the CRX repository. Classic UI tools and touch-enabled UI consoles provide more structured access to specific portions of the CRX repository.
 
@@ -80,6 +80,4 @@ If not logged in, you will be unable to navigate the JCR repository or perform a
 
 ![](assets/chlimage_1-352.png) 
 
-|   |** [Setup Website Structure ⇒](../../communities/using/setup-website.md)** |
-|---|---|
-
+[Setup Website Structure](../../communities/using/setup-website.md)

@@ -19,7 +19,7 @@ Lightbox is a special type of collection that provides easy access to assets. Yo
 
 If you are an Adobe Experience Manager (AEM) Assets user, Lightbox is automatically created when you first log in to the application. It is exclusive to your login. Other users cannot access your Lightbox.
 
-### Adding assets to lightbox {#adding-assets-to-lightbox}
+## Adding assets to lightbox {#adding-assets-to-lightbox}
 
 1. From the Assets user interface, select the assets that you want to add to Lightbox.
 1. Drag the assets to the **Drop in Lightbox** zone. Release when the Dropzone becomes active, and its label changes to **Drop to Add**.

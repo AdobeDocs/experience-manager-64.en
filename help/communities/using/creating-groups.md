@@ -21,7 +21,7 @@ A [community group template](../../communities/using/tools-groups.md) provides t
 
 One or more group templates are selected for the groups function when the function is added to a community site's structure or to a community site template. This list of group templates is presented to the member or author who dynamically creates a new group from within the community site.
 
-### Creating a New Group {#creating-a-new-group}
+## Creating a New Group {#creating-a-new-group}
 
 The ability to create a new community group relies on the existance of a community site which includes the groups function, such as one created from the ` [Reference Site Template](../../communities/using/sites.md)`.
 
@@ -73,11 +73,11 @@ Selecting the `Focus Group` link will open the Focus Group page in the browser, 
 
 ![](assets/chlimage_1-241.png)
 
-### Community Group Member List Component {#community-group-member-list-component}
+## Community Group Member List Component {#community-group-member-list-component}
 
 The `Community Group Member List` component is intended for use by developers of group templates.
 
-### Additional Information {#additional-information}
+## Additional Information {#additional-information}
 
 More information may be found on the [Community Group Essentials](../../communities/using/essentials-groups.md) page for developers.
 

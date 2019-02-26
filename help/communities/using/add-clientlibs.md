@@ -13,10 +13,11 @@ discoiquuid: 265299be-963c-4d53-8cb3-4dc67f8f3bec
 
 # Add Clientlibs{#add-clientlibs}
 
-| ** [⇐ Develop Sandbox Application](../../communities/using/develop-app.md)** |** [Develop Sandbox Content ⇒](../../communities/using/develop-content.md)** |
+|Previous|Next|
 |---|---|
+| [⇐ Develop Sandbox Application](../../communities/using/develop-app.md)) | [Develop Sandbox Content ⇒](../../communities/using/develop-content.md) |
 
-### Add a ClientLibraryFolder (clientlibs) {#add-a-clientlibraryfolder-clientlibs}
+## Add a ClientLibraryFolder (clientlibs) {#add-a-clientlibraryfolder-clientlibs}
 
 Create a ClientLibraryFolder named `clientlibs`which will contain the JS and CSS used to render the pages of your site.
 
@@ -166,7 +167,7 @@ To create a package:
 
 * click **Edit**
 
-    * select **Filters **tab
+    * select **Filters** tab
 
         * click **Add filter**
         * Root Path: &lt;browse to** /apps/an-scf-sandbox**&gt;
@@ -184,6 +185,6 @@ To create a package:
 
 Now you can select **Download **to save it to disk and **Upload Package** elsewhere, as well as select **More &gt; Replicate** in order to push the sandbox to a localhost publish instance to expand the realm of your sandbox.  
 
-| ** [⇐ Develop Sandbox Application](../../communities/using/develop-app.md)** |** [Develop Sandbox Content ⇒](../../communities/using/develop-content.md)** |
+|Previous|Next|
 |---|---|
-
+| [⇐ Develop Sandbox Application](../../communities/using/develop-app.md)) | [Develop Sandbox Content ⇒](../../communities/using/develop-content.md) |

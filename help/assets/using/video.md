@@ -25,7 +25,6 @@ The following step-by-step workflow description is designed to help you get up a
 >
 >* See [Configuring Dynamic Media Cloud Services in Configuring Dynamic Media - Hybrid mode.](/assets/using/config-dynamic.html ) 
 >* See [Configuring Dynamic Media - Scene7 mode](../../assets/using/config-dms7.md) and [Troubleshooting Dynamic Media - Scene7 mode](../../assets/using/troubleshoot-dms7.md)
->
 
 1. **Upload your Dynamic Media videos** by doing the following:
 
@@ -128,8 +127,8 @@ For managing single video and Adaptive Video Sets, the following is supported:
 
 * Uploading video from numerous supported video formats and audio formats and encoding video to MP4 H.264 format for playback across multiple screens. You can use predefined adaptive video presets, single video encoding presets, or customize your own encoding to control the quality and size of the video.
 
-    * When an adaptive video set is generated, it includes MP4 videos.
-    * **Note**: Master/source videos are not added to an Adaptive Video Set.
+  * When an adaptive video set is generated, it includes MP4 videos.
+  * **Note**: Master/source videos are not added to an Adaptive Video Set.
 
 * Video captioning in all HTML5 video viewers.
 * Organize, browse, and search video with full metadata support for efficient management of video assets.
@@ -143,8 +142,8 @@ You can find Windows devices that support this video format at the following: [S
 
 * Play back the video using Dynamic Media Video Viewer Presets, including the following:
 
-    * Single video viewers.
-    * Mixed Media viewers that combine both video and image content.
+  * Single video viewers.
+  * Mixed Media viewers that combine both video and image content.
 
 * Configure video players to meet your branding needs.
 * Integrate video to your website, mobile site, or mobile application with a simple URL or embed code.
@@ -851,7 +850,7 @@ To unpublish videos to remove them from YouTube:
 
 When you upload a new video to a folder that has video encoding applied or you publish your video to youtube, you can monitor how your video encoding/youtube publishing is progressing (or failing) in a number of ways. Actual YouTube publishing progress is only available via the logs but whether it fails or succeeds is listed in additional ways described in the following procedure. In addition, you may receive email notifications when a YouTube publish workflow or video encoding completes or is aborted.
 
-#### Monitoring progress {#monitoring-progress}
+### Monitoring progress {#monitoring-progress}
 
 To monitor progress (including failed encoding/YouTube publish):
 
@@ -914,13 +913,10 @@ To monitor progress (including failed encoding/YouTube publish):
    >
    >It may take a long time for the error message to finally be recorded due to multiple workflow configurations on **retries**, **retry delay**, and **timeout** from [http://localhost:4502/system/console/configMgr](http://localhost:4502/system/console/configMgr), for example:
    >
-   >    
-   >    
-   >    * Apache Sling Job Queue Configuration
-   >    * Adobe Granite Workflow External Process Job Handler
-   >    * Granite Workflow Timeout Queue
-   >    
-   >    
+   >  * Apache Sling Job Queue Configuration
+   >  * Adobe Granite Workflow External Process Job Handler
+   >  * Granite Workflow Timeout Queue
+   >
    >You may adjust the **retries**, **retry delay**, and **timeout** properties in these configurations.
 
 1. For completed workflows, see Workflow Archive available from **Tools** &gt; **Workflow** &gt; **Archive**. The **Workflow Archive** lists all completed workflow activities.
@@ -933,7 +929,7 @@ To monitor progress (including failed encoding/YouTube publish):
 
 1. You may receive email notifications about aborted or failed workflow jobs. These email notifications are configurable by an administrator. See [Configuring email notifications](#configuringemailnotifications).
 
-#### Configuring e-mail notifications {#configuring-e-mail-notifications}
+### Configuring e-mail notifications {#configuring-e-mail-notifications}
 
 >[!NOTE]
 >
@@ -1138,7 +1134,7 @@ You create a chapter list for your video in much the same way that you create ca
   
 You can use the following sample as an example of the format you use to create a WebVTT file with chapter navigation:
 
-#### WebVTT file with video chapter navigation {#webvtt-file-with-video-chapter-navigation}
+### WebVTT file with video chapter navigation {#webvtt-file-with-video-chapter-navigation}
 
 ```xml
 WEBVTT 
