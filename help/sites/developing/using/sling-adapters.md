@@ -21,7 +21,7 @@ For example to translate a Resource object to the corresponding Node object, you
 Node node = resource.adaptTo(Node.class);
 ```
 
-### Use Cases {#use-cases}
+## Use Cases {#use-cases}
 
 There are the following use cases:
 

@@ -19,13 +19,13 @@ This chapter describes how to configure and maintain user authorization and also
 
 This section deals with the various entities and related concepts in more detail to help you configure an easy to maintain user management concept.
 
-#### Users {#users}
+### Users {#users}
 
 Users will log in to AEM with their account. Each user account is unique and holds the basic account details, together with the privileges assigned.
 
 Users are often members of Groups, which simplify the allocation of these permissions and/or privileges.
 
-#### Groups {#groups}
+### Groups {#groups}
 
 Groups are collections of users and/or other groups; these are all called Members of a group.
 
@@ -38,99 +38,33 @@ Therefore groups tend to remain stable, whereas users come and go more frequentl
 
 With planning and a clean structure, the use of groups can reflect your structure, giving you a clear overview and an efficient mechanism for updates.
 
-#### Built-in Users and Groups {#built-in-users-and-groups}
+### Built-in Users and Groups {#built-in-users-and-groups}
 
 AEM WCM installs a number of users and groups. These can be seen when you first access the Security Console after installation.
 
 The following tables list each item together with:
-
 * a short description  
 * any recommendations about necessary changes
 
-*Please change all default passwords* (if you do not delete the account itself in certain circumstances).
+>[!NOTE]
+>
+>*Please change all default passwords* (if you do not delete the account itself in certain circumstances).
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
- <tbody> 
-  <tr> 
-   <td>User ID</td> 
-   <td>Type</td> 
-   <td>Description</td> 
-   <td>Recommendation</td> 
-  </tr> 
-  <tr> 
-   <td><p>admin</p> <p>Default password: admin</p> </td> 
-   <td>User</td> 
-   <td><p>System administration account and member of the administrator group, with full access rights.</p> <p>This account is used for the connection between AEM WCM and CRX.</p> <p>If you accidentally delete this account, it will be re-created upon repository restart (in the default setup).</p> <p>The admin account is a requirement of the AEM platform. As a consequence, this account cannot be deleted.<br /> </p> </td> 
-   <td><p>Adobe strongly recommends that the password for this user account be changed from the default.</p> <p>Preferably upon installation, though it can be done afterwards.</p> <p>Note: This account is not to be confused with the admin account of the CQ Servlet Engine.</p> </td> 
-  </tr> 
-  <tr> 
-   <td><p>anonymous</p> <p> </p> </td> 
-   <td>User</td> 
-   <td><p>Holds the default rights for unauthenticated access to an instance. Per default this holds the minimum access rights.</p> <p>If you accidentally delete this account, it will be re-created upon startup. It cannot be permanently deleted, but it can be disabled.</p> </td> 
-   <td>Please avoid deleting or disabling this account, as it will negatively impact the functioning of author instances. If there are security requirements that mandate you to delete it, make sure you properly test the effects it has on your systems first.</td> 
-  </tr> 
-  <tr> 
-   <td><p>author</p> <p>Default password: author</p> </td> 
-   <td>User</td> 
-   <td><p>A author account allowed to write to /content. Encompasses contributor and surfer privileges.</p> <p>Can be used as a webmaster as it has access to the entire /content tree.</p> <p>This is not a built-in user, but another geometrixx demo user</p> </td> 
-   <td><p>Adobe recommends that either the account is deleted completely, or the password changed from the default.<br /> </p> <p>Preferably upon installation, though it can be done afterwards.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>administrators</td> 
-   <td>Group</td> 
-   <td><p>Group that gives administrator rights to all its members. Only admin is allowed to edit this group.</p> <p>Has full access rights.</p> </td> 
-   <td>If you set a 'deny-everyone' on a node, the administrators will<br /> only have access if it is enabled again for that group.</td> 
-  </tr> 
-  <tr> 
-   <td>content-authors</td> 
-   <td>Group</td> 
-   <td><p>Group responsible for content editing. Requires read, modify, create and delete permissions.</p> </td> 
-   <td>You can create your own content-author group(s) with project specific access rights, provided you add read, modify, create and delete permissions.</td> 
-  </tr> 
-  <tr> 
-   <td>contributor</td> 
-   <td>Group</td> 
-   <td><p>Basic privileges which allow the user to write content (as in functionality only).</p> <p>Does not allocate any privileges to the /content tree - these must be specifically allocated for the individual groups or users.</p> </td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>dam-users</td> 
-   <td>Group</td> 
-   <td>Out-of-the-box reference group for a typical AEM Assets user. Members of this group have appropriate privileges to enable uploading/sharing of assets and collections.</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>everyone</td> 
-   <td>Group</td> 
-   <td><p>Every user in AEM is a member of the group everyone, even though you may not see the group or the membership relation in all tools.</p> <p>This group can be thought of as the default rights as it can be used to apply permissions for everyone, even users that will be created in the future.</p> </td> 
-   <td><p>Do not modify or delete this group.</p> <p>Modifying this account has additional security implications.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>tag-administrators</td> 
-   <td>Group</td> 
-   <td>Group that is allowed to edit tags.</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>user-administrators</td> 
-   <td>Group</td> 
-   <td>Authorizes user administration, that is, the right to create users and groups.<br /> </td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>workflow-editors</td> 
-   <td>Group</td> 
-   <td>Group that is allowed to create and modify workflow models.</td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td>workflow-users</td> 
-   <td>Group</td> 
-   <td><p>A user participating in a workflow must be member of group workflow-users. This gives him or her full access to: /etc/workflow/instances so that he or she can update the workflow instance.</p> <p>The group is included in the standard installation, but you must manually add your users to the group.</p> </td> 
-   <td> </td> 
-  </tr> 
- </tbody> 
-</table>
+|||||
+|--- |--- |--- |--- |
+|User ID|Type|Description|Recommendation|
+|admin Default password: admin|User|System administration account and member of the administrator group, with full access rights. This account is used for the connection between AEM WCM and CRX. If you accidentally delete this account, it will be re-created upon repository restart (in the default setup). The admin account is a requirement of the AEM platform. As a consequence, this account cannot be deleted.|Adobe strongly recommends that the password for this user account be changed from the default. Preferably upon installation, though it can be done afterwards. Note: This account is not to be confused with the admin account of the CQ Servlet Engine.|
+|anonymous|User|Holds the default rights for unauthenticated access to an instance. Per default this holds the minimum access rights. If you accidentally delete this account, it will be re-created upon startup. It cannot be permanently deleted, but it can be disabled.|Please avoid deleting or disabling this account, as it will negatively impact the functioning of author instances. If there are security requirements that mandate you to delete it, make sure you properly test the effects it has on your systems first.|
+|author Default password: author|User|A author account allowed to write to /content. Encompasses contributor and surfer privileges. Can be used as a webmaster as it has access to the entire /content tree. This is not a built-in user, but another geometrixx demo user|Adobe recommends that either the account is deleted completely, or the password changed from the default.  Preferably upon installation, though it can be done afterwards.|
+|administrators|Group|Group that gives administrator rights to all its members. Only admin is allowed to edit this group. Has full access rights.|If you set a 'deny-everyone' on a node, the administrators will only have access if it is enabled again for that group.|
+|content-authors|Group|Group responsible for content editing. Requires read, modify, create and delete permissions.|You can create your own content-author group(s) with project specific access rights, provided you add read, modify, create and delete permissions.|
+|contributor|Group|Basic privileges which allow the user to write content (as in functionality only). Does not allocate any privileges to the /content tree - these must be specifically allocated for the individual groups or users.||
+|dam-users|Group|Out-of-the-box reference group for a typical AEM Assets user. Members of this group have appropriate privileges to enable uploading/sharing of assets and collections.||
+|everyone|Group|Every user in AEM is a member of the group everyone, even though you may not see the group or the membership relation in all tools. This group can be thought of as the default rights as it can be used to apply permissions for everyone, even users that will be created in the future.|Do not modify or delete this group. Modifying this account has additional security implications.|
+|tag-administrators|Group|Group that is allowed to edit tags.||
+|user-administrators|Group|Authorizes user administration, that is, the right to create users and groups.||
+|workflow-editors|Group|Group that is allowed to create and modify workflow models.||
+|workflow-users|Group|A user participating in a workflow must be member of group workflow-users. This gives him or her full access to: /etc/workflow/instances so that he or she can update the workflow instance. The group is included in the standard installation, but you must manually add your users to the group.||
 
 ## Permissions in AEM {#permissions-in-aem}
 
@@ -211,14 +145,11 @@ Access Control Lists are made up of the individual permissions and are used to d
 >There are ACLs that are included with the samples. It is recommended that you review and determine what is appropriate for your applications. To review the ACLs that are included, go to **CRXDE **and select the **Access Control** tab for the following nodes:
 >
 >`/etc/cloudservices/facebookconnect/geometrixx-outdoorsfacebookapp`: Allows everyone read access.  
-  
 >`/etc/cloudservices/twitterconnect/geometrixx-outdoors-twitter-app`: Allows everyone read access.  
-  
 >`/home/users/geometrixx-outdoors`: Allows everyone read access for `*/profile*` and  
 >`*/social/relationships/following/*`.
 >
->Your custom application may set access for other relationships, such as `*/social/relationships/friend/*` or `*/social/relationships/pending-following/*`.  
-  
+>Your custom application may set access for other relationships, such as `*/social/relationships/friend/*` or `*/social/relationships/pending-following/*`.
 >When you create ACLs specific to communities, members joining those communities may be granted additional permissions. For example, this could be the case when users join the communities at `/content/geometrixx-outdoors/en/community/hiking` or `/content/geometrixx-outdoors/en/community/winter-sports`.
 
 ### Permission States {#permission-states}
@@ -231,7 +162,7 @@ Access Control Lists are made up of the individual permissions and are used to d
 >
 >For backwards compatibility reasons, the tests for actions does not take the special treatment of nodes defining **jcr:content** into account.
 
-| **Action ** |**Description ** |
+| **Action** |**Description** |
 |---|---|
 | Allow (Check mark) |AEM WCM allows the user to perform the action on this page or on any child pages. |
 | Deny (No checkmark) |AEM WCM does not allow the user to perform the action on this page nor on any child pages. |
@@ -242,33 +173,17 @@ If a permission is not inherited from the parent node but has at least one local
 
 For an action at a given path:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
- <tbody> 
-  <tr> 
-   <td>* (asterisk)</td> 
-   <td>There is at least one local entry (either effective or ineffective). These wildcard ACLs are defined in CRX.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td>! (exclamation mark)</td> 
-   <td>There is at least one entry that currently has no effect.</td> 
-  </tr> 
- </tbody> 
-</table>
+|**Symbol**|**Description**|
+|--- |--- |
+|* (asterisk)|There is at least one local entry (either effective or ineffective). These wildcard ACLs are defined in CRX.|
+|! (exclamation mark)|There is at least one entry that currently has no effect.|
 
 When you hover over the asterisk or exclamation mark, a tooltip provides more details about the declared entries. The tooltip is split into two parts:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
- <tbody> 
-  <tr> 
-   <td>Upper part</td> 
-   <td><p>Lists the effective entries.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>Lower part</td> 
-   <td>Lists the noneffective entries that may have an effect somewhere else in the tree (as indicated by a special attribute present with the corresponding ACE limiting the scope of the entry). Alternatively, this is an entry whose effect has been revoked by another entry defined at the given path or at an ancestor node.</td> 
-  </tr> 
- </tbody> 
-</table>
+|**Looptip**|**Description**|
+|--- |--- |
+|Upper part|Lists the effective entries.|
+|Lower part|Lists the noneffective entries that may have an effect somewhere else in the tree (as indicated by a special attribute present with the corresponding ACE limiting the scope of the entry). Alternatively, this is an entry whose effect has been revoked by another entry defined at the given path or at an ancestor node.|
 
 ![](assets/chlimage_1-419.png)
 
