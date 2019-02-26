@@ -31,29 +31,38 @@ The global also declares the [Sling library](../../../sites/developing/using/tag
 <%@taglib prefix="sling" uri="http://sling.apache.org/taglibs/sling" %>
 ```
 
-### &amp;lt;ui:includeClientLib> {#amp-lt-ui-includeclientlib}
+### includeClientLib {#amp-lt-ui-includeclientlib}
 
 The `<ui:includeClientLib>` tag Includes a AEM html client library, which can be a js, a css, or a theme library. For multiple inclusions of different types, for example js and css, this tag needs to be used multiple times in the jsp. This tag is a convenience wrapper around the ` [com.adobe.granite.ui.clientlibs.HtmlLibraryManager](/sites/developing/using/reference-materials/javadoc/com/adobe/granite/ui/clientlibs/HtmlLibraryManager)` service interface.
 
 It has the following attributes:
 
-**categories** A list of comma-separated client lib categories. This will include all Javascript and CSS libraries for the given categories. The theme name is extracted from the request.
+### Categories
+
+A list of comma-separated client lib categories. This will include all Javascript and CSS libraries for the given categories. The theme name is extracted from the request.
 
 Equivalent to: `com.adobe.granite.ui.clientlibs.HtmlLibraryManager#writeIncludes`
 
-**theme** A list of comma-separated client lib categories. This will include all theme related libraries (both CSS and JS) for the given categories. The theme name is extracted from the request.
+#### Theme
+
+A list of comma-separated client lib categories. This will include all theme related libraries (both CSS and JS) for the given categories. The theme name is extracted from the request.
 
 Equivalent to: `com.adobe.granite.ui.clientlibs.HtmlLibraryManager#writeThemeInclude`
 
-**js** A list of comma-separated client lib categories. This will include all Javascript libraries for the given categories.
+#### JS
+
+A list of comma-separated client lib categories. This will include all Javascript libraries for the given categories.
 
 Equivalent to: `com.adobe.granite.ui.clientlibs.HtmlLibraryManager#writeJsInclude`
 
-**css** A list of comma-separated client lib categories. This will include all CSS libraries for the given categories.
+#### CSS 
+A list of comma-separated client lib categories. This will include all CSS libraries for the given categories.
 
 Equivalent to: `com.adobe.granite.ui.clientlibs.HtmlLibraryManager#writeCssInclude`
 
-**themed** A flag that indicates of only themed or non themed libraries should be included. If omitted, both sets are included. Only applies to pure JS or CSS includes (not for categories or theme includes).
+#### Themed
+
+A flag that indicates of only themed or non themed libraries should be included. If omitted, both sets are included. Only applies to pure JS or CSS includes (not for categories or theme includes).
 
 The `<ui:includeClientLib>` tag can be used as follows in a jsp:
 

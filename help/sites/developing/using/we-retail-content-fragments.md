@@ -17,11 +17,11 @@ Content Fragments allow you to create channel-neutral content, together with (po
 
 * Adobe Experience Manager (AEM) content fragments are [created and managed as page-independent assets](../../../assets/using/content-fragments.md). They allow you to create channel-neutral content, together with (possibly channel-specific) variations.
 
-    * See [Where to Find Content Fragment assets in We.Retail](#wheretofindcontentfragmentsinweretail)
+  * See [Where to Find Content Fragment assets in We.Retail](#wheretofindcontentfragmentsinweretail)
 
 * You can then [use these fragments, and their variations, when authoring](../../../sites/authoring/using/content-fragments.md) your content pages.
 
-    * See [Where Content Fragments are Used in We.Retail](#wherecontentfragmentsareusedinweretail)
+  * See [Where Content Fragments are Used in We.Retail](#wherecontentfragmentsareusedinweretail)
 
 For the full documentation on creating, managing, using and developing content fragments:
 
@@ -36,7 +36,7 @@ For the full documentation on creating, managing, using and developing content f
 >
 >Experience Fragments can contain content in the form of Content Fragments, but not the other way around. [](../../../sites/authoring/using/experience-fragments.md)
 
-### Where to Find Content Fragments in We.Retail {#where-to-find-content-fragments-in-we-retail}
+## Where to Find Content Fragments in We.Retail {#where-to-find-content-fragments-in-we-retail}
 
 There are several sample content fragments in We.Retail; navigate via **Assets**, **Files**, **We.Retail**, **English**, **Experiences**.
 
@@ -44,7 +44,7 @@ These include **Arctic Surfing in Lofoten**, a fragment together with related vi
 
 * Navigate via **Assets**, **Files**, **We.Retail**, **English**, **Experiences**, **Artic Surfing in Lofoten**:
 
-    * [http://localhost:4502/assets.html/content/dam/we-retail/en/experiences/arctic-surfing-in-lofoten](http://localhost:4502/assets.html/content/dam/we-retail/en/experiences/arctic-surfing-in-lofoten)
+  * [http://localhost:4502/assets.html/content/dam/we-retail/en/experiences/arctic-surfing-in-lofoten](http://localhost:4502/assets.html/content/dam/we-retail/en/experiences/arctic-surfing-in-lofoten)
 
 ![](assets/cf-44.png)
 
@@ -63,7 +63,7 @@ Here you can [edit and manage](../../../assets/using/content-fragments.md) your 
 
 ![](assets/cf-46.png) 
 
-### Where Content Fragments are Used in We.Retail {#where-content-fragments-are-used-in-we-retail}
+## Where Content Fragments are Used in We.Retail {#where-content-fragments-are-used-in-we-retail}
 
 To illustrate [page authoring with a content fragment](../../../sites/authoring/using/content-fragments.md) there are several example pages provided under, for example:
 
@@ -73,27 +73,26 @@ For example, the **Arctic Surfing in Lofoten** content fragment is referenced in
 
 * Navigate via **Sites**, **We.Retail**, **Language Masters**, **English**, **Experience**. Then open **Arctic Surfing in Lofoten** for editing:
 
-    * [http://localhost:4502/editor.html/content/we-retail/language-masters/en/experience/arctic-surfing-in-lofoten.html](http://localhost:4502/editor.html/content/we-retail/language-masters/en/experience/arctic-surfing-in-lofoten.html)
+  * [http://localhost:4502/editor.html/content/we-retail/language-masters/en/experience/arctic-surfing-in-lofoten.html](http://localhost:4502/editor.html/content/we-retail/language-masters/en/experience/arctic-surfing-in-lofoten.html)
 
 ![](assets/cf-53.png) 
 
-### Further Information {#further-information}
+## Further Information {#further-information}
 
 For more details see:
 
 * [Working with Content Fragments](../../../assets/using/content-fragments.md)
 
-    * Learn how to create, edit and manage your Content Fragment assets.
+  * Learn how to create, edit and manage your Content Fragment assets.
 
 * [Page Authoring with Content Fragments](../../../sites/authoring/using/content-fragments.md)
 
-    * Use your Content Fragment when authoring a page.
+  * Use your Content Fragment when authoring a page.
 
 * [Developing AEM - Components for Content Fragments](../../../sites/developing/using/components-content-fragments.md)
 
-    * An overview of the components for Content Fragments.
+  * An overview of the components for Content Fragments.
 
 * [Developing and Extending Content Fragments](../../../sites/developing/using/customizing-content-fragments.md)
 
-    * Information to help you develop and extend Content Fragments.
-
+  * Information to help you develop and extend Content Fragments.

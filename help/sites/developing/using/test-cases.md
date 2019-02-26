@@ -15,12 +15,12 @@ discoiquuid: 92158050-f621-45c0-8e5e-a7b992bbfe9c
 
 Your test cases should be based upon the:
 
-**Use Cases**
+## Use Cases
 
 * These define required functionality in terms of the interaction between Actors (roles which initiate certain actions) and the system.
 * The Use Cases should be defined by the customer.
 
-**Detailed Requirements Specification**
+## Detailed Requirements Specification
 
 * All functional and performance requirements should be tested.
 
@@ -33,7 +33,7 @@ The tests should clearly define:
 
 The prospect of automating test cases is obviously attractive as it can eliminate repetitive tasks.
 
-#### Manual versus Automated Tests {#manual-versus-automated-tests}
+### Manual versus Automated Tests {#manual-versus-automated-tests}
 
 However, automating test cases is a significant investment, so certain aspects should be considered:
 
@@ -42,7 +42,7 @@ However, automating test cases is a significant investment, so certain aspects s
 * Only really feasible for big projects.
 * Good when multiple releases are being generated either for testing or in the long term release plan.
 
-#### Testing specific aspects of CQ5 {#testing-specific-aspects-of-cq}
+### Testing specific aspects of CQ5 {#testing-specific-aspects-of-cq}
 
 When testing CQ5 a few specific details are of particular interest:
 
@@ -74,7 +74,7 @@ Although the same software as such, they:
 
 In other words they must be tested separately and with different test cases.
 
-**Personalization**
+## Personalization
 
 When testing personalization each individual use case should be repeated using multiple user accounts to prove behavior.
 
@@ -90,14 +90,15 @@ Testing is difficult (caching occurs at various levels and in various locations)
 * Continuity; ensure that the website is still available when one server is shut down.
 
 * **Clusters** Clusters are used to provide:
-* **Failover**If one server fails, then other servers in the cluster will take over processing.
-  **Performance**
+* **Failover** If one server fails, then other servers in the cluster will take over processing.
+
+## Performance
 
 * Load balancing with full failover increases the performance of a cluster.
 
 When used for a customer project the cluster must be tested to confirm correct operation of the configuration.
 
-#### Testing third-party software {#testing-third-party-software}
+### Testing third-party software {#testing-third-party-software}
 
 Any third-party software interfaced to CQ5 will be referenced in the Detailed Requirement Specifications.
 
