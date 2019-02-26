@@ -30,7 +30,7 @@ You can associate several XDPs or Form Templates, created using Designer, into a
 
 Use [AEM Forms user interface](../../forms/using/introduction-managing-forms.md) to manage all your forms, form sets, and related assets.
 
-#### Create a form set {#create-a-form-set}
+### Create a form set {#create-a-form-set}
 
 To create a form set, do the following:
 
@@ -72,7 +72,7 @@ To create a form set, do the following:
    >
    >All the forms that are used in form set are managed by AEM Forms user interface.
 
-#### Managing a form set {#managing-a-form-set}
+### Managing a form set {#managing-a-form-set}
 
 Once a form set is created, you can perform following actions on that form set:
 
@@ -88,7 +88,7 @@ Once a form set is created, you can perform following actions on that form set:
 
 ![](assets/createformset3.png) 
 
-#### Edit a form set {#edit-a-form-set}
+### Edit a form set {#edit-a-form-set}
 
 To edit a form set, do the following:
 
@@ -107,7 +107,7 @@ To edit a form set, do the following:
 
 Once you have created a form set using AEM Forms Management user interface, you can use the form set in a Start Point or Assign Task activity using Workbench.
 
-#### Using Form set in Task or Start point {#using-form-set-in-task-or-start-point}
+### Using Form set in Task or Start point {#using-form-set-in-task-or-start-point}
 
 1. When designing a process, under the Presentation & Data section of Assign Task/Start Point, select **use a CRX asset**. CRX Asset browser appears.
 
@@ -138,7 +138,7 @@ In addition to the standard JavaScript functions, form set also exposes the fs.v
 >
 >Both formUid and fieldSOM parameters must be string literal.
 
-#### Examples {#examples}
+### Examples {#examples}
 
 Valid usage of the API:
 
@@ -239,7 +239,7 @@ In a form set, the XML defined an XML schema with the following syntax:
 >
 >If there are two forms with overlapping data roots, or the element hierarchy of one form overlaps with the data root hierarchy of another form, in the prefill xml, the overlapped elements' values are merged. The submit XML has similar structure as the prefill XML, but submit XML has more wrapper tags and some form set context data tags appended at the end.
 
-### Prefill XML elements description {#prefill-xml-elements-description}
+## Prefill XML elements description {#prefill-xml-elements-description}
 
 Syntax rules for creating a prefill XML file:
 
@@ -249,7 +249,7 @@ Syntax rules for creating a prefill XML file:
 * prefillXML: indicates whether the element is required(R) or optional(O) in prefill XML.
 * children: indicates which elements can be its children.
 
-### FORMSET {#formset}
+## FORMSET {#formset}
 
 `parent elements:`
 
@@ -265,7 +265,7 @@ Syntax rules for creating a prefill XML file:
 
 The root element of the form set XML. It is advised to not use this word as the name of the rootSubform of any form in the form set.
 
-### FS_DATA {#fs-data}
+## FS_DATA {#fs-data}
 
 `parent elements:`
 
@@ -281,7 +281,7 @@ prefillXML: O
 
 The subtree indicates the data of the forms in the form set. The element is optional in prefill XML only if the form set element is not present
 
-### XDP:XDP {#xdp-xdp}
+## XDP:XDP {#xdp-xdp}
 
 `parent elements: fs_data/null`
 
@@ -295,7 +295,7 @@ The subtree indicates the data of the forms in the form set. The element is opti
 
 This tag indicates the start of HTML5 Form XML. This is added in the submit XML if it is present in the prefill XML or there is no prefill XML. This tag can be removed from the prefill XML.
 
-### XFA:DATASETS {#xfa-datasets}
+## XFA:DATASETS {#xfa-datasets}
 
 `parent elements: xdp:xdp`
 
@@ -307,7 +307,7 @@ This tag indicates the start of HTML5 Form XML. This is added in the submit XML 
 
 `children: xfa:data`
 
-### XFA:DATA {#xfa-data}
+## XFA:DATA {#xfa-data}
 
 `parent elements: xfa:datasets`
 
@@ -319,7 +319,7 @@ This tag indicates the start of HTML5 Form XML. This is added in the submit XML 
 
 `children: rootElement`
 
-### ROOTELEMENT {#rootelement}
+## ROOTELEMENT {#rootelement}
 
 `parent elements: xfa:datasets/fs_data/null`
 

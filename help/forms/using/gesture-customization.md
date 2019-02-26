@@ -15,7 +15,7 @@ discoiquuid: a9aade13-528e-4a4c-a4bd-9ca2277bff2e
 
 You can customize the gestures of AEM Forms app to provide a distinct method of interacting with the app. For example, you can add new gestures to open or close a task or Startpoint.
 
-### To customize gestures in AEM Forms app {#to-customize-gestures-in-aem-forms-app}
+## To customize gestures in AEM Forms app {#to-customize-gestures-in-aem-forms-app}
 
 In the AEM Forms app, the left swipe opens up a new task or Startpoint while right swipe does nothing. The following example provides steps to open up a new task or Startpoint on performing the right-swipe gestures in the AEM Forms app.
 

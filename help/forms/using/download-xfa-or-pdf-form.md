@@ -24,7 +24,7 @@ AEM Forms supports download of these form types individually or in a folder cont
 
 Aside from these assets, you can download the `Resource` type of asset if it is present in a folder. This functionality is provided to enable you to download the resource referred to by an XFA form along with the form.
 
-### Download one or more forms {#download-one-or-more-forms}
+## Download one or more forms {#download-one-or-more-forms}
 
 1. Log in to the AEM Forms user interface at `http://<server>:<port>/aem/forms.html`.  
 
@@ -44,7 +44,7 @@ Aside from these assets, you can download the `Resource` type of asset if it is 
 
    The ZIP file is saved to the `Downloads` folder on your system.
 
-### Related considerations for the upload operation {#related-considerations-for-the-upload-operation}
+## Related considerations for the upload operation {#related-considerations-for-the-upload-operation}
 
 * You can upload the ZIP file to any other location in the same repository or another repository
 * The hierarchy of the assets in a folder is retained during the upload operation
