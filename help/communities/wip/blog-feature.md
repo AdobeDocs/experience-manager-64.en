@@ -69,20 +69,19 @@ Select the placed `Blog` component to access and select the `Configure` icon whi
 
 Under the **Settings** tab, specify the basic features of the blog :
 
-* **Allow Attachment Thumbnail  
-  **If checked, a thumbnail of the attached image is created.
-* **Max Attach Thumbnail Size  
-  **Maximum size (in pixels) of the attachment thumbnail image. The default value is 800 x 800.** **
-
-* **Max Thumbnail Size  
-  **Maximum size (in pixels) of the thumbnail image for inline image. The default value is 800 x 800.
-* **Allow Privileged Members  
-  **If checked, only Privileged members are allowed to create content.
-* **Allowed Privileged Members** 
+* **Allow Attachment Thumbnail**
+  If checked, a thumbnail of the attached image is created.
+* **Max Attach Thumbnail Size**
+  Maximum size (in pixels) of the attachment thumbnail image. The default value is 800 x 800.
+* **Max Thumbnail Size**
+  Maximum size (in pixels) of the thumbnail image for inline image. The default value is 800 x 800.
+* **Allow Privileged Members**
+  If checked, only Privileged members are allowed to create content.
+* **Allowed Privileged Members**
   Add the privileged members allowed to create content.
 
-* **Block UGC in Author Edit Mode  
-  **Block User Generated Content while editing in Author Mode.
+* **Block UGC in Author Edit Mode**
+  Block User Generated Content while editing in Author Mode.
 * **Journal Title** 
   The blog title to display on the page.
 
@@ -169,7 +168,7 @@ Under the **User Moderation** tab, specify the moderation settings :
 
 #### Tag field tab {#tag-field-tab}
 
-Under the **Tag field** tab, specify the which tags may be applied if **Allow Tagging** is check on the **Settings** tab :
+Under the **Tag field** tab, specify the which tags may be applied if **Allow Tagging** is check on the **Settings** tab:
 
 * **Allowed Namespaces** 
   Relevant if `Allow Tagging` is checked under the **Settings **tab. The tags which may be applied are limited to those within the namespace categories checked. The list of namespaces includes "Standard Tags" (the default namespace) as well as "Include All Tags". Default is none checked, which means all namespaces are allowed.
@@ -197,6 +196,7 @@ Under the **Journal Sidebar Settings** tab, specify the date format for archives
   Default is "yyyy MMMMM" which would display, for example, "2015 June"
 
 * **View Type** 
+
   The Title and type of blog entries to display in the sidebar. The choice is between
 
     * Authors
@@ -204,6 +204,7 @@ Under the **Journal Sidebar Settings** tab, specify the date format for archives
     * Archives
 
 * **Journal Component Path** 
+
   *(Optional)* The location of the blog resource from which blog articles are to be listed. If left blank, will use the component of resourceType `social/journal/components/hbs/journal` that appears on the same page.
 
     * for example, `/content/sites/engage/en/blog/jcr:content/content/primary/blog`

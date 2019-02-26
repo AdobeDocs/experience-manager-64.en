@@ -13,8 +13,9 @@ discoiquuid: 86fa8bfd-6436-4d13-9372-e8b8f6902692
 
 # Develop Sandbox Application{#develop-sandbox-application}
 
-| ** [⇐ Initial Sandbox Content](../../communities/using/initial-content.md)** |** [Add Clientlibs ⇒](../../communities/using/add-clientlibs.md)** |
+|Previous|Next|
 |---|---|
+| [⇐ Initial Sandbox Content](../../communities/using/initial-content.md) | [Add Clientlibs ⇒](../../communities/using/add-clientlibs.md) |
 
 In this section, now that the template has been setup in the [initial application](../../communities/using/initial-app.md) section, and the initial pages established in the [initial content](../../communities/using/initial-content.md) section, the application can be developed using foundation scripts including the ability to enable authoring with Communities components. At the end of this section, the website will be functional.
 
@@ -44,7 +45,7 @@ Using CRXDE Lite:
 
 1. In **CRXDE Lite** explorer pane, navigate to `/apps/an-scf-sandbox/components/playpage` and double-click the file `playpage.jsp` to open it in the edit pane.
 
-   #### /apps/an-scf-sandbox/components/playpage/playpage.jsp {#apps-an-scf-sandbox-components-playpage-playpage-jsp}
+   <!-- RESOLVE #### /apps/an-scf-sandbox/components/playpage/playpage.jsp {#apps-an-scf-sandbox-components-playpage-playpage-jsp} -->
 
    ```xml
    <%--
@@ -65,7 +66,7 @@ Using CRXDE Lite:
 
    With a super type of `foundation/components/page`, any script not defined in this same folder will resolve to a script in `/apps/foundation/components/page` folder (if it exists), else to a script in `/libs/foundation/components/page` folder.
 
-   #### /apps/an-scf-sandbox/components/playpage/playpage.jsp {#apps-an-scf-sandbox-components-playpage-playpage-jsp-1}
+   <!-- RESOLVE #### /apps/an-scf-sandbox/components/playpage/playpage.jsp {#apps-an-scf-sandbox-components-playpage-playpage-jsp-1}-->
 
    ```xml
    <%--
@@ -177,9 +178,9 @@ Change the browser URL to the root page : [http://localhost:4502/editor.html/con
 
 Once the site is published, browsing to the root page on a publish instance will redirect to the english page.  
 
-| The last step before playing with the communities SCF components is to add a Client Library Folder (clientlibs) .... ** [⇒](../../communities/using/add-clientlibs.md)** |
-|---|
+The last step before playing with the communities SCF components is to add a Client Library Folder (clientlibs) ... [⇒](../../communities/using/add-clientlibs.md)
 
-| ** [⇐ Initial Sandbox Content](../../communities/using/initial-content.md)** |** [Add Clientlibs ⇒](../../communities/using/add-clientlibs.md)** |
+|Previous|Next|
 |---|---|
+| [⇐ Initial Sandbox Content](../../communities/using/initial-content.md) | [Add Clientlibs ⇒](../../communities/using/add-clientlibs.md) |
 

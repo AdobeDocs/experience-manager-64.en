@@ -52,48 +52,47 @@ Each step links to documentation which provides the necessary details.
 
 **On all author/publish instances :**
 
-1. ** [install JDBC driver for MySQL](../../communities/using/deploy-communities.md#jdbcdriverformysql)** 
+1 - [install JDBC driver for MySQL](../../communities/using/deploy-communities.md#jdbcdriverformysql)
 use Web Console (bundles) : *http://localhost:4502/system/console/bundles* 
 install *before* installing SCORM package
 
-2. ** [install SCORM package](../../communities/using/deploy-communities.md#scormpackage)** 
+1 - [install SCORM package](../../communities/using/deploy-communities.md#scormpackage) 
 use Package Manager : *http://localhost:4502/crx/packmgr/*
 
 **On any server:**
 
-3. ** [install MySQL, MySQL Workbench](../../communities/using/mysql.md)**
-
-4. ** [install MySQL databases](../../communities/using/mysql.md#databasesetup)** 
+1 - [install MySQL, MySQL Workbench](../../communities/using/mysql.md)
+1 - [install MySQL databases](../../communities/using/mysql.md#databasesetup) 
 execute SQL scripts downloaded from author instance  
 use MySQL Workbench
 
 **On same server hosting author instance:**
 
-5. ** [install FFmpeg](../../communities/using/ffmpeg.md)**
+1 - [install FFmpeg](../../communities/using/ffmpeg.md)
 
 **On all author/publish instances :**
 
-6. ** [configure JDBC Connections pool](../../communities/using/mysql.md#configurejdbcconnections)** 
+1 - [configure JDBC Connections pool](../../communities/using/mysql.md#configurejdbcconnections) 
 use Web Console (configMgr) : *http://localhost:4502/system/console/configMgr*
 
-7. ** [configure SCORM engine service](../../communities/using/mysql.md#aemcommunitiesscormengineservice)** 
+1 - [configure SCORM engine service](../../communities/using/mysql.md#aemcommunitiesscormengineservice) 
 use Web Console (configMgr) : *http://localhost:4502/system/console/configMgr*
 
-8. ** [configure CSRF filters](../../communities/using/mysql.md#adobegranitecsrffilter)** 
+1 - [configure CSRF filters](../../communities/using/mysql.md#adobegranitecsrffilter) 
 use Web Console (configMgr) : *http://localhost:4502/system/console/configMgr*
 
 **On author instance :**
 
-9. (*optional*) ** [configure Analytics service](../../communities/using/analytics.md)** 
+1 - (*optional*) [configure Analytics service](../../communities/using/analytics.md) 
 use Tools, Deployment, Cloud Services console : *http://localhost:4502/etc/cloudservices/sitecatalyst.html*
 
-10. ** [configure FFmpeg](../../communities/using/ffmpeg.md#configureffmpegtranscodingservice)** 
+1 - [configure FFmpeg](../../communities/using/ffmpeg.md#configureffmpegtranscodingservice) 
 use Workflow/Models console
 
-11. ** [enable Tunnel Service](../../communities/using/deploy-communities.md#tunnelserviceonauthor)** 
+1 - [enable Tunnel Service](../../communities/using/deploy-communities.md#tunnelserviceonauthor) 
 use Web Console (configMgr) : *http://localhost:4502/system/console/configMgr*
 
-12. ** [create Community administrators](../../communities/using/users.md#creatingcommunitymembers) **for author environment  
+1 - [create Community administrators](../../communities/using/users.md#creatingcommunitymembers) **for author environment  
 use classic-UI Security console: *http://localhost:4502/useradmin* 
 - create user(s) with path = /home/users/community  
 - add members(s) to the following groups :  

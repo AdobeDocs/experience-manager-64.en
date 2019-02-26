@@ -13,8 +13,9 @@ discoiquuid: 858a83a0-f301-4c35-bc5a-b8ef81b112d5
 
 # Author a New Community Site for Enablement{#author-a-new-community-site-for-enablement}
 
-| ** [⇐ Initial Setup](../../communities/using/enablement-setup.md)** |** [Create and Assign Enablement Resources ⇒](../../communities/using/resource.md)** |
+|Previous|Next|
 |---|---|
+| [⇐ Initial Setup](../../communities/using/enablement-setup.md) | [Create and Assign Enablement Resources ⇒](../../communities/using/resource.md) |
 
 ## Create Community Site {#create-community-site}
 
@@ -245,11 +246,11 @@ In this example, the group `Community Ski Class` is added as a member of the gro
 
 ## Configurations on Publish {#configurations-on-publish}
 
-#### http://localhost:4503/content/sites/enable/en.html {#http-localhost-content-sites-enable-en-html}
+### http://localhost:4503/content/sites/enable/en.html {#http-localhost-content-sites-enable-en-html}
 
 ![](assets/chlimage_1-296.png)
 
-### Configure for Authentication Error {#configure-for-authentication-error}
+## Configure for Authentication Error {#configure-for-authentication-error}
 
 Once a site has been configured and pushed to publish, [configure login mapping](../../communities/using/sites-console.md#configureforauthenticationerror) ( `Adobe Granite Login Selector Authentication Handler`) on the publish instance. The benefit is that when login credientials are not entered correctly, the authentication error will redisplay the community site's login page with an error message.
 
@@ -357,6 +358,6 @@ Select **Save** in the upper right corner to save the changes to the community s
 
 Then re-**Publish** the site.
 
-| ** [⇐ Initial Setup](../../communities/using/enablement-setup.md)** |** [Create and Assign Enablement Resources ⇒](../../communities/using/resource.md)** |
+|Previous|Next|
 |---|---|
-
+| [⇐ Initial Setup](../../communities/using/enablement-setup.md) | [Create and Assign Enablement Resources ⇒](../../communities/using/resource.md) |
