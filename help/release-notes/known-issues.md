@@ -60,8 +60,8 @@ If you are using Edge as browser:
 * **UI:** Info tooltip gets hidden when using fixed columns layout with 2 side-by-side columns (GRANITE-16869)
 * **UI:** Unhandled error when impersonating as a user that does not exist (GRANITE-23228). Workaround by [implementing an error handler](../sites/developing/using/customizing-errorhandler-pages.md) to customize error message.  
 
-* ****Omnisearch: ****Searches with backslash cause exception (GRANITE-11769)
-* **Omnisearch: **Open "View Settings" in list view cause search filter to change (GRANITE-16524)
+* **Omnisearch:** Searches with backslash cause exception (GRANITE-11769)
+* **Omnisearch:** Open "View Settings" in list view cause search filter to change (GRANITE-16524)
 * **Omnisearch:** Wrong list of columnn configs shown when doing Assets search from Sites (GRANITE-16527)  
 
 * **Omnisearch: **Left rail predicates are getting along with the Omnisearch server request (GRANITE-20524)

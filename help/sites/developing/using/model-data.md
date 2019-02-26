@@ -31,7 +31,7 @@ I would like to start filling this void by expressing my personal opinions on ho
 
 >[!NOTE]
 >
->*****Disclaimer*: These guidelines express my personal, sometimes controversial views. I am looking forward to debate these guidelines and refine them.****
+>**Disclaimer**: These guidelines express my personal, sometimes controversial views. I am looking forward to debate these guidelines and refine them.
 
 ### Seven Simple Rules {#seven-simple-rules}
 

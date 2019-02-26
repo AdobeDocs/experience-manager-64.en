@@ -256,7 +256,7 @@ The log levels are as follows:
 In certain circumstances you may want to create a custom log file with a different log level. You can do this in the repository by:
 
 1. If not already existing, create a new configuration folder ( `sling:Folder`) for your project `/apps/<*project-name*>/config`.
-1. Under `/apps/<*project-name*>/config`, create a node for the new [Apache Sling Logging Logger Configuration](../../../sites/deploying/using/osgi-configuration-settings.md#apacheslingloggingloggerconfigurationfactoryconfiguration):****
+1. Under `/apps/<*project-name*>/config`, create a node for the new [Apache Sling Logging Logger Configuration](../../../sites/deploying/using/osgi-configuration-settings.md#apacheslingloggingloggerconfigurationfactoryconfiguration):
 
     * Name: `org.apache.sling.commons.log.LogManager.factory.config-<*identifier*>` (as this is a Logger)  
       Where `<*identifier*>` is replaced by free text that you (must) enter to identify the instance (you cannot omit this information). For example, `org.apache.sling.commons.log.LogManager.factory.config-MINE`  
@@ -359,7 +359,7 @@ In certain circumstances you may want to create a custom log file with a differe
    >
    >If no explicit Writer is configured the system will automatically generate an implicit Writer based on the default.
 
-   Under `/apps/<*project-name*>/config`, create a node for the new [Apache Sling Logging Writer Configuration](../../../sites/deploying/using/osgi-configuration-settings.md#apacheslingloggingwriterconfigurationfactoryconfiguration):****
+   Under `/apps/<*project-name*>/config`, create a node for the new [Apache Sling Logging Writer Configuration](../../../sites/deploying/using/osgi-configuration-settings.md#apacheslingloggingwriterconfigurationfactoryconfiguration):
 
     * Name: `org.apache.sling.commons.log.LogManager.factory.writer-<*identifier*>` (as this is a Writer)  
       As with the Logger, `<*identifier*>` is replaced by free text that you (must) enter to identify the instance (you cannot omit this information). For example, `org.apache.sling.commons.log.LogManager.factory.writer-MINE`

@@ -87,7 +87,7 @@ A session to store information related to the customer's shopping cart.
 
 The **CommerceSession**:
 
-* Owns the **s****hopping ****c****art**
+* Owns the **shopping cart**
 
     * performs add/remove/etc
     * performs the various calculations on the cart;  

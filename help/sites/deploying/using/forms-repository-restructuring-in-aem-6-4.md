@@ -103,7 +103,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 
 ### Typekit Cloud Service Configurations {#typekit-cloud-service-configurations}
 
-| ****Previous location** | `/etc/cloudservices/typekit` |
+| **Previous location** | `/etc/cloudservices/typekit` |
 |---|---|
 | **New location(s)** | `/conf/<tenant>/settings/cloudconfigs/typekit` |
 | **Restructuring guidance** |The [Lazy Content Migration](../../../sites/deploying/using/lazy-content-migration.md) utility to be triggered from Forms Migration UI. |

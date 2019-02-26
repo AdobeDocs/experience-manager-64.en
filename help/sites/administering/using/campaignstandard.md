@@ -108,10 +108,10 @@ By default, the AEM feature is not enabled in Adobe Campaign's email templates. 
 To create an AEM-specific email delivery template:
 
 1. Go to **Resources** &gt; **Templates** &gt; **Delivery templates**.
-1. **Enable selection** by clicking the checkmark in the action bar and selecting the existing **Standard email (mail)** default template, then duplicate** **it by clicking the **Copy** icon and clicking **Confirm**.****
-1. Disable the selection mode by clicking the **x **and open the newly created **Copy of Standard email** **(mail)** template, then select **Edit properties** from the action bar of the template dashboard.
+1. **Enable selection** by clicking the checkmark in the action bar and selecting the existing **Standard email (mail)** default template, then **duplicate** it by clicking the **Copy** icon and clicking **Confirm**.**
+1. Disable the selection mode by clicking the **x** and open the newly created **Copy of Standard email (mail)** template, then select **Edit properties** from the action bar of the template dashboard.
 
-   You can modify the** **template's** Label**.****
+   You can modify the** **template's** Label.
 
 1. In the properties **Content** section, change the **Content source** to **Adobe Experience Manager**. Then select the external account that was previously created and click **Confirm**.
 

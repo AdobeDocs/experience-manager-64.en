@@ -641,7 +641,7 @@ In the demo site (Geometrixx Outdoors - English) you can see the voucher form on
 
    ![](assets/chlimage_1-407.png)
 
-1. The wizard will open. Use the **Basic**, **Content**, **Payment** and **Fulfilment** tabs**** to enter the [information about the new order](../../../sites/administering/using/concepts.md#orderinformation).  
+1. The wizard will open. Use the **Basic**, **Content**, **Payment** and **Fulfilment** tabs to enter the [information about the new order](../../../sites/administering/using/concepts.md#orderinformation).  
 
 1. Select **Create** to save the information.
 
