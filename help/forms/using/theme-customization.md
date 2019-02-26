@@ -19,7 +19,7 @@ You can customize the HTML code and CSS file to provide a distinct organization-
 * number of display routes  
 * background gradient color
 
-### Steps {#steps}
+## Steps {#steps}
 
 1. Open your project.
 

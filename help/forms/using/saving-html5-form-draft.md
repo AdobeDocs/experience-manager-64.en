@@ -14,7 +14,7 @@ discoiquuid: 098e244c-61cc-46ad-98fb-65929268e25d
 
 You can save an HTML5 form as a draft and resume filling the form at a later stage. Forms Portal allows any user to save and restore an HTML5 form. To enable the Save as Draft functionality, add the following configurations to the profile node:
 
-### Custom Profile to allow Save as Draft feature {#custom-profile-to-allow-save-as-draft-feature}
+## Custom Profile to allow Save as Draft feature {#custom-profile-to-allow-save-as-draft-feature}
 
 Out of the box, AEM Forms provide a **Save as Draft **profile. You can render a form with the Save as Draft profile to enable draft functionality for an HTML5 form. You can specify HTML render profile for a form in [Forms Manager](../../forms/using/introduction-managing-forms.md).
 
@@ -43,7 +43,7 @@ To enable Save as Draft functionality for your existing [custom profile](../../f
  </tbody> 
 </table>
 
-### Drafts storage and listing {#drafts-storage-and-listing}
+## Drafts storage and listing {#drafts-storage-and-listing}
 
 After enabling Save as Draft functionality for a form; when the form is saved, it is listed in the [Drafts and Submission component](../../forms/using/draft-submission-component.md). You can retrieve and start filling the saved form form the Draft and Submission component.
 
