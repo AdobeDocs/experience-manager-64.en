@@ -21,7 +21,7 @@ Use the Content Package Maven plugin to integrate package management tasks into 
 * Obtain a list of packages that are installed on the server.
 * Remove a package from the server.
 
-### Adding the Content Package Maven Plugin to the POM File {#adding-the-content-package-maven-plugin-to-the-pom-file}
+## Adding the Content Package Maven Plugin to the POM File {#adding-the-content-package-maven-plugin-to-the-pom-file}
 
 To use the Content Package Maven Plugin, add the following plugin element inside the build element of your POM file:
 
@@ -42,7 +42,7 @@ To enable Maven to download the plugin, use the profile provided in the [Obtaini
 
 The goals and goal parameters that the Content Package plugin provides are described in the sections that follow. Parameters that are described in the Common Parameters section can be used for most of the goals. Parameters that apply to one goal are described in the section for that goal.
 
-**Plugin Prefix**
+### Plugin Prefix
 
 The plugin prefix is content-package. Use this prefix to execute a goal from the command line, as in the following example:
 
@@ -50,7 +50,7 @@ The plugin prefix is content-package. Use this prefix to execute a goal from the
 mvn content-package:build 
 ```
 
-**Parameter Prefix**
+### Parameter Prefix
 
 Unless otherwise noted, the plugin goals and parameters use the vault prefix, as in the following example:
 
@@ -58,98 +58,25 @@ Unless otherwise noted, the plugin goals and parameters use the vault prefix, as
 mvn content-package:install -Dvault.targetURL="http://192.168.1.100:4502/crx/packmgr/service.jsp"
 ```
 
-**Proxies**
+### Proxies
 
 Goals that use proxies for the CRX or CQ server use the first valid proxy configuration found in the Maven settings. If no proxy configuration is found, no proxy is used. See the useProxy parameter in the Common Settings section.
 
-### Common Parameters {#common-parameters}
+## Common Parameters {#common-parameters}
 
 The parameters in the following table are common to all goals except when noted in the Goals column.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
- <tbody> 
-  <tr> 
-   <th>Name</th> 
-   <th>Type</th> 
-   <th>Required</th> 
-   <th>Default Value</th> 
-   <th>Description</th> 
-   <th>Goals</th> 
-  </tr> 
-  <tr> 
-   <td style="text-align: left;">failOnError</td> 
-   <td style="text-align: left;">boolean</td> 
-   <td style="text-align: left;">No</td> 
-   <td style="text-align: left;">false</td> 
-   <td style="text-align: left;">A value of <code>true</code> causes the build to fail when an error occurs. A value of <code>false</code> causes the build to ignore the error.</td> 
-   <td style="text-align: left;">All goals except package.</td> 
-  </tr> 
-  <tr> 
-   <td>name</td> 
-   <td width="5">String</td> 
-   <td>build: Yes<br /> install: No<br /> rm: Yes</td> 
-   <td>Build: No default.<br /> install: The value of the artifactId property of the Maven project.</td> 
-   <td>The name of the package to act on.</td> 
-   <td>All goals except ls.</td> 
-  </tr> 
-  <tr> 
-   <td>password</td> 
-   <td width="5">String</td> 
-   <td>Yes</td> 
-   <td>admin</td> 
-   <td>The password used for authentication with the CRX server.</td> 
-   <td>All goals except package.</td> 
-  </tr> 
-  <tr> 
-   <td>serverId</td> 
-   <td width="5">String</td> 
-   <td>No</td> 
-   <td></td> 
-   <td>The server ID from which to retrieve the user name and password for authentication.</td> 
-   <td>All goals except package.</td> 
-  </tr> 
-  <tr> 
-   <td>targetURL</td> 
-   <td width="5">String</td> 
-   <td>Yes</td> 
-   <td>http://localhost:4502/<br /> crx/packmgr/<br /> service.jsp</td> 
-   <td>The URL of the HTTP service API of the CRX package manager.</td> 
-   <td>All goals except package.</td> 
-  </tr> 
-  <tr> 
-   <td>timeout</td> 
-   <td width="5">int</td> 
-   <td>No</td> 
-   <td>5</td> 
-   <td>The connection timeout for communicating with the package manager service, in seconds.</td> 
-   <td>All goals except package.</td> 
-  </tr> 
-  <tr> 
-   <td>useProxy</td> 
-   <td width="5">boolean</td> 
-   <td>No</td> 
-   <td>true</td> 
-   <td>Determines whether to use proxy configurations from the Maven settings file. A value of <code>true</code> causes the use of the first active proxy configuration found to proxy requests to the package manager. A value of false causes no proxy to be used.</td> 
-   <td>All goals except package.</td> 
-  </tr> 
-  <tr> 
-   <td>userId</td> 
-   <td width="5">String</td> 
-   <td>Yes</td> 
-   <td>admin</td> 
-   <td>The user name to authenticate with the CRX server.</td> 
-   <td>All goals except package.</td> 
-  </tr> 
-  <tr> 
-   <td>verbose</td> 
-   <td width="5">boolean</td> 
-   <td>No</td> 
-   <td>false</td> 
-   <td>Enables or disables verbose logging. A value of <code>true</code> enables verbose logging.</td> 
-   <td>All goals except package.</td> 
-  </tr> 
- </tbody> 
-</table>
+|Name|Type|Required|Default Value|Description|Goals|
+|--- |--- |--- |--- |--- |--- |
+|failOnError|boolean|No|false|A value of true causes the build to fail when an error occurs. A value of false causes the build to ignore the error.|All goals except package.|
+|name|String|build: Yes install: No rm: Yes|Build: No default. install: The value of the artifactId property of the Maven project.|The name of the package to act on.|All goals except ls.|
+|password|String|Yes|admin|The password used for authentication with the CRX server.|All goals except package.|
+|serverId|String|No||The server ID from which to retrieve the user name and password for authentication.|All goals except package.|
+|targetURL|String|Yes|http://localhost:4502/ crx/packmgr/ service.jsp|The URL of the HTTP service API of the CRX package manager.|All goals except package.|
+|timeout|int|No|5|The connection timeout for communicating with the package manager service, in seconds.|All goals except package.|
+|useProxy|boolean|No|true|Determines whether to use proxy configurations from the Maven settings file. A value of true causes the use of the first active proxy configuration found to proxy requests to the package manager. A value of false causes no proxy to be used.|All goals except package.|
+|userId|String|Yes|admin|The user name to authenticate with the CRX server.|All goals except package.|
+|verbose|boolean|No|false|Enables or disables verbose logging. A value of true enables verbose logging.|All goals except package.|
 
 ### build {#build}
 
@@ -206,101 +133,20 @@ Installs a package in the CRX respository. Execution of this goal does not requi
 
 In addition to the following parameters, see the descriptions in the [Common Parameters](#commonparameters) section.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
- <tbody> 
-  <tr> 
-   <th>Name</th> 
-   <th>Type</th> 
-   <th>Required</th> 
-   <th>Default Value</th> 
-   <th>Description</th> 
-  </tr> 
-  <tr> 
-   <td>artifact</td> 
-   <td>String</td> 
-   <td>No</td> 
-   <td>The value of the artifactId property of the Maven project.</td> 
-   <td>A string of the form groupId:artifactId:version[:packaging].</td> 
-  </tr> 
-  <tr> 
-   <td>artifactId</td> 
-   <td>String</td> 
-   <td>No</td> 
-   <td></td> 
-   <td>The ID of the artifact to install</td> 
-  </tr> 
-  <tr> 
-   <td>groupId</td> 
-   <td>String</td> 
-   <td>No</td> 
-   <td></td> 
-   <td>The groupId of the artifact to install</td> 
-  </tr> 
-  <tr> 
-   <td>install</td> 
-   <td>boolean</td> 
-   <td>No</td> 
-   <td>true</td> 
-   <td>Determines whether to unpack the package automatically when it is uploaded. A value of true unpacks the package, and false does not unpack the package.</td> 
-  </tr> 
-  <tr> 
-   <td>localRepository</td> 
-   <td>org.apache.maven.<br /> artifact. repository.<br /> ArtifactRepository</td> 
-   <td>No</td> 
-   <td>The value of the localRepository system variable.</td> 
-   <td>The local Maven repository. You cannot configure this paramter using the plugin configuration. The system property is always used.</td> 
-  </tr> 
-  <tr> 
-   <td>packageFile</td> 
-   <td>java.io.File</td> 
-   <td>No</td> 
-   <td>The primary artifact that is defined for the Maven project.</td> 
-   <td>The name of the package file to install.</td> 
-  </tr> 
-  <tr> 
-   <td>packaging</td> 
-   <td>String</td> 
-   <td>No</td> 
-   <td>zip</td> 
-   <td>The type of packaging of the artifact to install</td> 
-  </tr> 
-  <tr> 
-   <td>pomRemoteRepositories</td> 
-   <td>java.util.List</td> 
-   <td>Yes</td> 
-   <td>The value of the remoteAtifactRepositories property that is defined for the Maven project.</td> 
-   <td>This value cannot be configured using the plugin configuration. The value must be specified in the project. </td> 
-  </tr> 
-  <tr> 
-   <td>project</td> 
-   <td>org.apache.maven.<br /> project.MavenProject</td> 
-   <td>Yes</td> 
-   <td>The project for which the plugin is configured.</td> 
-   <td>The Maven project. The project is implicit because the project contains the plugin configuration.</td> 
-  </tr> 
-  <tr> 
-   <td>repositoryId <i>(POM)</i><br /> repoID <i>(command line)</i></td> 
-   <td>String</td> 
-   <td>No</td> 
-   <td>temp</td> 
-   <td>The ID of the repository from which the artifact is retrieved. In a POM, use repositoryID. In a command line, use repoID.</td> 
-  </tr> 
-  <tr> 
-   <td>repositoryUrl <i>(POM)</i><br /> repoURL <i>(command line)</i></td> 
-   <td>String</td> 
-   <td>No</td> 
-   <td></td> 
-   <td>The URL of the repository from which the artifact is retrieved. In a POM, use repositoryURL. In a command line, use repoURL.</td> 
-  </tr> 
-  <tr> 
-   <td>version</td> 
-   <td>String</td> 
-   <td>No</td> 
-   <td></td> 
-   <td>The version of the artifact to install.</td> 
-  </tr> 
- </tbody> 
-</table>
+|Name|Type|Required|Default Value|Description|
+|--- |--- |--- |--- |--- |
+|artifact|String|No|The value of the artifactId property of the Maven project.|A string of the form groupId:artifactId:version[:packaging].|
+|artifactId|String|No||The ID of the artifact to install|
+|groupId|String|No||The groupId of the artifact to install|
+|install|boolean|No|true|Determines whether to unpack the package automatically when it is uploaded. A value of true unpacks the package, and false does not unpack the package.|
+|localRepository|org.apache.maven. artifact. repository. ArtifactRepository|No|The value of the localRepository system variable.|The local Maven repository. You cannot configure this paramter using the plugin configuration. The system property is always used.|
+|packageFile|java.io.File|No|The primary artifact that is defined for the Maven project.|The name of the package file to install.|
+|packaging|String|No|zip|The type of packaging of the artifact to install|
+|pomRemoteRepositories|java.util.List|Yes|The value of the remoteAtifactRepositories property that is defined for the Maven project.|This value cannot be configured using the plugin configuration. The value must be specified in the project.|
+|project|org.apache.maven. project.MavenProject|Yes|The project for which the plugin is configured.|The Maven project. The project is implicit because the project contains the plugin configuration.|
+|repositoryId (POM) repoID (command line)|String|No|temp|The ID of the repository from which the artifact is retrieved. In a POM, use repositoryID. In a command line, use repoID.|
+|repositoryUrl (POM) repoURL (command line)|String|No||The URL of the repository from which the artifact is retrieved. In a POM, use repositoryURL. In a command line, use repoURL.|
+|version|String|No||The version of the artifact to install.|
 
 #### Example {#example-1}
 
@@ -477,156 +323,27 @@ Creates a content package. The default configuration of the package goal include
 
 In addition to the following parameters, see the description of the `name` parameter in the [Common Parameters](#commonparameters) section.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
- <tbody> 
-  <tr> 
-   <th>Name</th> 
-   <th>Type</th> 
-   <th>Required</th> 
-   <th>Default Value</th> 
-   <th>Description</th> 
-  </tr> 
-  <tr> 
-   <td>archive</td> 
-   <td>org.apache.maven.<br /> archiver.<br /> MavenArchiveConfiguration</td> 
-   <td>No</td> 
-   <td></td> 
-   <td>The archive configuration to use. See <a href="http://maven.apache.org/shared/maven-archiver/index.html">the documentation for Maven Archiver</a>.</td> 
-  </tr> 
-  <tr> 
-   <td>builtContentDirectory</td> 
-   <td>java.io.File</td> 
-   <td>Yes</td> 
-   <td>The value of the output directory of the Maven build.</td> 
-   <td>The directory that contains the content to include in package.</td> 
-  </tr> 
-  <tr> 
-   <td>dependencies</td> 
-   <td>java.util.List</td> 
-   <td>No</td> 
-   <td></td> 
-   <td></td> 
-  </tr> 
-  <tr> 
-   <td>embeddedTarget</td> 
-   <td>java.lang.String</td> 
-   <td>No</td> 
-   <td></td> 
-   <td></td> 
-  </tr> 
-  <tr> 
-   <td>embeddeds</td> 
-   <td>java.util.List</td> 
-   <td>No</td> 
-   <td></td> 
-   <td></td> 
-  </tr> 
-  <tr> 
-   <td>failOnMissingEmbed</td> 
-   <td>boolean</td> 
-   <td>Yes</td> 
-   <td>false</td> 
-   <td>A value of true causes the build to fail when an embedded artifact is not found in the project dependencies. A value offalse causes the build to ignore the error.</td> 
-  </tr> 
-  <tr> 
-   <td>filterSource</td> 
-   <td>java.io.File</td> 
-   <td>No</td> 
-   <td></td> 
-   <td>A file that specifies the source of the workspace filter. The filters specified in the configuration and injected via emebeds or subpackages are merged with the file content.</td> 
-  </tr> 
-  <tr> 
-   <td>filters</td> 
-   <td>com.day.jcr.<br /> vault.maven.pack.impl.<br /> DefaultWorkspaceFilter</td> 
-   <td>No</td> 
-   <td></td> 
-   <td>Contains filter elements that define the package content. When executed, the filters are included in the filter.xml file. See the Using Filters section below.</td> 
-  </tr> 
-  <tr> 
-   <td>finalName</td> 
-   <td>java.lang.String</td> 
-   <td>Yes</td> 
-   <td>The finalName defined in the Maven project (build phase).</td> 
-   <td>The name of the generated package ZIP file, without the .zip file extension.</td> 
-  </tr> 
-  <tr> 
-   <td>group</td> 
-   <td>java.lang.String</td> 
-   <td>Yes</td> 
-   <td>The groupID defined in the Maven project.</td> 
-   <td>The groupId of the generated content package. This value is part of the target installation path for the content package.</td> 
-  </tr> 
-  <tr> 
-   <td>outputDirectory</td> 
-   <td>java.io.File</td> 
-   <td>Yes</td> 
-   <td>The build directory defined in the Maven project.</td> 
-   <td>The local directory where the content package is saved.</td> 
-  </tr> 
-  <tr> 
-   <td>prefix</td> 
-   <td>java.lang.String</td> 
-   <td>No</td> 
-   <td></td> 
-   <td></td> 
-  </tr> 
-  <tr> 
-   <td>project</td> 
-   <td>org.apache.maven.<br /> project.MavenProject</td> 
-   <td>Yes</td> 
-   <td></td> 
-   <td>The Maven project.</td> 
-  </tr> 
-  <tr> 
-   <td>properties</td> 
-   <td>java.util.Map</td> 
-   <td>No</td> 
-   <td></td> 
-   <td>Additional properties that you can set in the properties.xml file. These properties cannot overwrite the following predefined properties: 
-    <ul> 
-     <li>group: Use group parameter to set</li> 
-     <li>name: Use name parameter to set</li> 
-     <li>version: Use version parameter to set</li> 
-     <li>description: Set from the project description</li> 
-     <li>groupId: groupId of the Maven project descriptor</li> 
-     <li>artifactId: artifactId of the Maven project descriptor</li> 
-     <li>dependencies: Use dependencies parameter to set</li> 
-     <li>createdBy: The value of the user.name system property</li> 
-     <li>created: The current system time</li> 
-     <li>requiresRoot: Use requiresRoot parameter to set</li> 
-     <li>packagePath: Automatically generated from the group and package name</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>requiresRoot</td> 
-   <td>boolean</td> 
-   <td>Yes</td> 
-   <td>false</td> 
-   <td>Defines whether the package requires root. This will become the &lt;code&gt;requiresRoot&lt;/code&gt; property of the properties.xml file.</td> 
-  </tr> 
-  <tr> 
-   <td>subPackages</td> 
-   <td>java.util.List</td> 
-   <td>No</td> 
-   <td></td> 
-   <td></td> 
-  </tr> 
-  <tr> 
-   <td>version</td> 
-   <td>java.lang.String</td> 
-   <td>Yes</td> 
-   <td>The version defined in the Maven project</td> 
-   <td>The version of the content package.</td> 
-  </tr> 
-  <tr> 
-   <td>workDirectory</td> 
-   <td>java.io.File</td> 
-   <td>Yes</td> 
-   <td>The directory defined in the Maven project (build phase).</td> 
-   <td>The directory that contains the content to include in the package.</td> 
-  </tr> 
- </tbody> 
-</table>
+|Name|Type|Required|Default Value|Description|
+|--- |--- |--- |--- |--- |
+|archive|org.apache.maven. archiver. MavenArchiveConfiguration|No||[The archive configuration to use](http://maven.apache.org/shared/maven-archiver/index.html). See the documentation for Maven Archiver.|
+|builtContentDirectory|java.io.File|Yes|The value of the output directory of the Maven build.|The directory that contains the content to include in package.|
+|dependencies|java.util.List|No|||
+|embeddedTarget|java.lang.String|No|||
+|embeddeds|java.util.List|No|||
+|failOnMissingEmbed|boolean|Yes|false|A value of true causes the build to fail when an embedded artifact is not found in the project dependencies. A value offalse causes the build to ignore the error.|
+|filterSource|java.io.File|No||A file that specifies the source of the workspace filter. The filters specified in the configuration and injected via emebeds or subpackages are merged with the file content.|
+|filters|com.day.jcr. vault.maven.pack.impl. DefaultWorkspaceFilter|No||Contains filter elements that define the package content. When executed, the filters are included in the filter.xml file. See the Using Filters section below.|
+|finalName|java.lang.String|Yes|The finalName defined in the Maven project (build phase).|The name of the generated package ZIP file, without the .zip file extension.|
+|group|java.lang.String|Yes|The groupID defined in the Maven project.|The groupId of the generated content package. This value is part of the target installation path for the content package.|
+|outputDirectory|java.io.File|Yes|The build directory defined in the Maven project.|The local directory where the content package is saved.|
+|prefix|java.lang.String|No|||
+|project|org.apache.maven. project.MavenProject|Yes||The Maven project.|
+|properties|java.util.Map|No||Additional properties that you can set in the properties.xml file. These properties cannot overwrite the following predefined properties: </br><ul><li>group: Use group parameter to set</li><li>name: Use name parameter to set</li><li>version: Use version parameter to set</li><li>description: Set from the project description</li><li>groupId: groupId of the Maven project descriptor</li><li>artifactId: artifactId of the Maven project descriptor</li><li>dependencies: Use dependencies parameter to set</li><li>createdBy: The value of the user.name system property</li><li>created: The current system time</li><li>requiresRoot: Use requiresRoot parameter to set</li><li>packagePath: Automatically generated from the group and package name</li></ul>|
+|requiresRoot|boolean|Yes|false|Defines whether the package requires root. This will become the <code>requiresRoot</code> property of the properties.xml file.|
+|subPackages|java.util.List|No|||
+|version|java.lang.String|Yes|The version defined in the Maven project|The version of the content package.|
+|workDirectory|java.io.File|Yes|The directory defined in the Maven project (build phase).|The directory that contains the content to include in the package.|
+
 
 #### Using filters {#using-filters}
 
@@ -1121,4 +838,3 @@ ${artifactId}
                          |- definition
                             |- .content.xml
 ```
-
