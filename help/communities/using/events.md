@@ -23,7 +23,7 @@ For the Communities components delivered in the release, the following tables de
 
 ## Topics and Verbs {#topics-and-verbs}
 
-** [Calendar Component](../../communities/using/calendar-basics-for-developers.md)** 
+[Calendar Component](../../communities/using/calendar-basics-for-developers.md) 
 SocialEvent `topic`= com/adobe/cq/social/calendar
 
 | **Verb** |**Description** |
@@ -33,7 +33,7 @@ SocialEvent `topic`= com/adobe/cq/social/calendar
 | UPDATE |member's calendar event or comment is edited |
 | DELETE |member's calendar event or comment is deleted |
 
-** [Comments Component](../../communities/using/essentials-comments.md)** 
+[Comments Component](../../communities/using/essentials-comments.md) 
 SocialEvent `topic`= com/adobe/cq/social/comment
 
 | **Verb** |**Description** |
@@ -43,7 +43,7 @@ SocialEvent `topic`= com/adobe/cq/social/comment
 | UPDATE |member's comment is edited |
 | DELETE |member's comment is deleted |
 
-** [File Library Component](../../communities/using/essentials-file-library.md)** 
+[File Library Component](../../communities/using/essentials-file-library.md) 
 SocialEvent `topic`= com/adobe/cq/social/fileLibrary
 
 | **Verb** |**Description** |
@@ -53,7 +53,7 @@ SocialEvent `topic`= com/adobe/cq/social/fileLibrary
 | UPDATE |member updates a folder or file |
 | DELETE |member deletes a folder or file |
 
-** [Forum Component](../../communities/using/essentials-forum.md)** 
+[Forum Component](../../communities/using/essentials-forum.md) 
 SocialEvent `topic`= com/adobe/cq/social/forum
 
 | **Verb** |**Description** |
@@ -63,7 +63,7 @@ SocialEvent `topic`= com/adobe/cq/social/forum
 | UPDATE |member's forum topic or reply is edited |
 | DELETE |member's forum topic or reply is deleted |
 
-** [Journal Component](../../communities/using/blog-developer-basics.md)** 
+[Journal Component](../../communities/using/blog-developer-basics.md) 
 SocialEvent `topic`= com/adobe/cq/social/journal
 
 | **Verb** |**Description** |
@@ -73,7 +73,7 @@ SocialEvent `topic`= com/adobe/cq/social/journal
 | UPDATE |member's blog article or comment is edited |
 | DELETE |member's blog article or comment is deleted |
 
-** [QnA Component](../../communities/using/qna-essentials.md)** 
+[QnA Component](../../communities/using/qna-essentials.md) 
 SocialEvent `topic` = com/adobe/cq/social/qna
 
 | **Verb** |**Description** |
@@ -85,7 +85,7 @@ SocialEvent `topic` = com/adobe/cq/social/qna
 | UNSELECT |member's answer is de-selected |
 | DELETE |member's QnA question or answer is deleted |
 
-** [Reviews Component](../../communities/using/reviews-basics.md)** 
+[Reviews Component](../../communities/using/reviews-basics.md) 
 SocialEvent `topic`= com/adobe/cq/social/review
 
 | **Verb** |**Description** |
@@ -94,7 +94,7 @@ SocialEvent `topic`= com/adobe/cq/social/review
 | UPDATE |member's review is edited |
 | DELETE |member's review is deleted |
 
-** [Rating Component](../../communities/using/rating-basics.md)** 
+[Rating Component](../../communities/using/rating-basics.md) 
 SocialEvent `topic`= com/adobe/cq/social/tally
 
 | **Verb** |**Description** |
@@ -102,7 +102,7 @@ SocialEvent `topic`= com/adobe/cq/social/tally
 | ADD RATING |member's content has been up rated |
 | REMOVE RATING |member's content has been down rated |
 
-** [Voting Component](../../communities/using/essentials-voting.md)** 
+[Voting Component](../../communities/using/essentials-voting.md) 
 SocialEvent `topic`= com/adobe/cq/social/tally
 
 | **Verb** |**Description** |
@@ -132,7 +132,7 @@ The custom event would override the method `getVerb()` so that an appropriate `v
 >
 >Ensure a custom extension is registered with a ranking lower than any existing implementation in the product.
 
-#### Pseudo-Code for Custom Component Event {#pseudo-code-for-custom-component-event}
+### Pseudo-Code for Custom Component Event {#pseudo-code-for-custom-component-event}
 
 [org.osgi.service.event.Event](https://osgi.org/javadoc/r4v41/org/osgi/service/event/Event.html);  
 [com.adobe.cq.social.scf.core.SocialEvent](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/scf/core/SocialEvent);  
@@ -239,7 +239,7 @@ It is possible to listen to events for the purpose of modifying what appears in 
 
 The following pseudo-code sample will remove DELETE events for Comments component from the activity stream.
 
-#### Pseudo-code for EventListener {#pseudo-code-for-eventlistener}
+### Pseudo-code for EventListener {#pseudo-code-for-eventlistener}
 
 Requires [latest feature pack](../../communities/using/deploy-communities.md#latestfeaturepack).
 

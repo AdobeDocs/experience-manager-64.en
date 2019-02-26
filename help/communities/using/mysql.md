@@ -88,7 +88,7 @@ When the MySQL Workbench is first launched, unless already in use for other purp
 
 1. select `Test Connection` to verify the connection to the running MySQL service
 
-**Notes **:
+**Notes**:
 
 * the default port is 3306
 * the `Connection Name` chosen is entered as the `datasource` name in [JDBC OSGi configuration](#configurejdbcconnections)
@@ -116,15 +116,15 @@ The SQL scripts are obtained using CRXDE Lite on the author instance. The [SCORM
     * for example, [http://localhost:4502/crx/de](http://localhost:4502/crx/de)
 
 1. expand the `/libs/social/config/scorm/` folder
-1. download&#42; `database_scormengine.sql`
-1. download&#42; `database_scorm_integration.sql`
+1. download* `database_scormengine.sql`
+1. download* `database_scorm_integration.sql`
 
 ![](assets/chlimage_1-331.png)
 
-&#42; One method for downloading the schema is to
+* One method for downloading the schema is to
 
-* select the `jcr:content`node for the sql file
-* notice the value for the `jcr:data`property is a view link
+    * select the `jcr:content`node for the sql file
+    * notice the value for the `jcr:data`property is a view link
 
 * select the view link to save the data to a local file
 
@@ -148,7 +148,7 @@ Be sure to install the schema before installing the data.
 >
 >* [JDBC config](#configurejdbcconnections)
 >* [SCORM config](#configurescorm)
->
+
 
 #### Step 1 : open SQL file {#step-open-sql-file}
 
@@ -177,7 +177,7 @@ Once the scripts are executed, it is necessary to refresh the `SCHEMAS`section o
 
 ![](assets/chlimage_1-334.png) 
 
-####  Result : scormenginedb {#result-scormenginedb}
+#### Result: scormenginedb {#result-scormenginedb}
 
 After installing and refreshing SCHEMAS, the **`scormenginedb`**will be visible.
 

@@ -13,8 +13,9 @@ discoiquuid: 4e52b5bf-094e-4076-adb9-7fe11ed89de4
 
 # Experience the Published Site{#experience-the-published-site}
 
-| ** [⇐ Author a New Community Site](../../communities/using/create-site.md)** |** [Authoring Nested Groups ⇒](../../communities/using/nested-groups.md)** |
+|⇐ Previous|Next ⇒|
 |---|---|
+| [⇐ Author a New Community Site](../../communities/using/create-site.md)| [Authoring Nested Groups ⇒](../../communities/using/nested-groups.md) |
 
 ## Browse to New Site on Publish {#browse-to-new-site-on-publish}
 
@@ -27,7 +28,7 @@ To minimize confusion as to which member is signed in on author and publish, it 
 
 When first arriving at the published site, the site visitor would typically not already be signed in and would be anonymous.
 
-#### http://localhost:4503/content/sites/engage/en.html {#http-localhost-content-sites-engage-en-html}
+### http://localhost:4503/content/sites/engage/en.html {#http-localhost-content-sites-engage-en-html}
 
 ![](assets/chlimage_1-311.png) 
 
@@ -216,6 +217,6 @@ If the member forgets their login id, it is possible to recover is using their e
 
 ![](assets/chlimage_1-326.png)
 
-| ** [⇐ Author a New Community Site](../../communities/using/create-site.md)** |** [Authoring Nested Groups ⇒](../../communities/using/nested-groups.md)** |
+|⇐ Previous|Next ⇒|
 |---|---|
-
+| [⇐ Author a New Community Site](../../communities/using/create-site.md)| [Authoring Nested Groups ⇒](../../communities/using/nested-groups.md) |

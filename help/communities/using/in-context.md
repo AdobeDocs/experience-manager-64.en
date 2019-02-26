@@ -25,11 +25,11 @@ Visit the moderation overview for a description of [moderation actions](../../co
 
 The UI presented to the moderator on the publish instance is contained within the dialog for posting and managing user generated content (UGC). The elements of the UI are determined by the status of the site visitor - whether they are...
 
-#1 - the member who posted the content  
-#2 - a trusted member moderator  
-#3 - an administrator  
-#4 - signed in, but neither an administrator, moderator, nor author of the content  
-#5 - not signed in
+1 - the member who posted the content  
+2 - a trusted member moderator  
+3 - an administrator  
+4 - signed in, but neither an administrator, moderator, nor author of the content  
+5 - not signed in
 
 ## Example {#example}
 

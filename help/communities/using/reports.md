@@ -89,8 +89,9 @@ Select the criteria for the report :
   select an enablement community site
 
 * **User or Group** 
-  - select User to generate a report for one learner  
-  - select Group to generate a report for a group of learners  
+
+  * select User to generate a report for one learner  
+  * select Group to generate a report for a group of learners  
   The tunnel service will access members and member groups from the publish environment
 
 * **Assignment** 

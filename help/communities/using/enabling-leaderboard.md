@@ -13,7 +13,7 @@ discoiquuid: 542c5934-972a-416f-a60f-7661828a63ef
 
 # Leaderboard Feature{#leaderboard-feature}
 
-### Introduction {#introduction}
+## Introduction {#introduction}
 
 The `Leaderboard` component provides the ability to obtain a sense of how members are interacting within the community by ranking members according to points earned (basic scoring) or their expertise (advanced scoring).
 
@@ -25,7 +25,7 @@ This section of the documentation describes
 
 * configuration settings for the `Leaderboard` component
 
-### Adding a Leaderboard to a Page {#adding-a-leaderboard-to-a-page}
+## Adding a Leaderboard to a Page {#adding-a-leaderboard-to-a-page}
 
 To add a `Leaderboard` component to a page in author mode, locate the component
 
@@ -39,13 +39,13 @@ When first placed on a page of a community site, this is how the component appea
 
 ![](assets/chlimage_1-8.png)
 
-### Configuring Leaderboard {#configuring-leaderboard}
+## Configuring Leaderboard {#configuring-leaderboard}
 
 Select the placed `Leaderboard` component to access and select the `Configure` icon which opens the edit dialog.
 
 ![](assets/chlimage_1-9.png) ![](assets/chlimage_1-10.png)
 
-#### Settings tab {#settings-tab}
+### Settings tab {#settings-tab}
 
 Under the **Settings **tab, specify what information related to the member is displayed :
 
@@ -65,7 +65,7 @@ Under the **Settings **tab, specify what information related to the member is di
   If checked, the member's avatar image is included in the leaderboard, next to their name link to their member profile.  
   Default is unchecked.
 
-#### Rules tab {#rules-tab}
+### Rules tab {#rules-tab}
 
 Under the **Rules **tab, the community site, and its scoring and badging rules
 
@@ -81,7 +81,7 @@ Under the **Rules **tab, the community site, and its scoring and badging rules
 * **Display Limit**Number of members to display per page.  
   Default is 10.
 
-### Example : Participants Leaderboard {#example-participants-leaderboard}
+## Example : Participants Leaderboard {#example-participants-leaderboard}
 
 This leaderboard reports results from applying basic scoring rules.
 
@@ -105,7 +105,7 @@ Leaderboard component configuration :
 
 ![](assets/chlimage_1-11.png)
 
-### Example : Experts Leaderboard {#example-experts-leaderboard}
+## Example 2: Experts Leaderboard {#example-experts-leaderboard}
 
 This leaderboard reports results from applying advanced scoring rules.
 
@@ -128,7 +128,7 @@ Leaderboard component configuration :
 
 ![](assets/chlimage_1-12.png)
 
-### Additional Information {#additional-information}
+## Additional Information {#additional-information}
 
 More information may be found on the [Leaderboard Essentials](../../communities/using/leaderboard.md) page for developers.
 

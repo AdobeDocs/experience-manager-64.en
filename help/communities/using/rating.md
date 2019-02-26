@@ -15,7 +15,7 @@ discoiquuid: ba4f0811-a32a-42c8-9a5b-df8f75e81e53
 
 The `Rating`component is used standalone or in conjunction with other Communities features. This component allows signed-in community members to express their opinions by rating content.
 
-### Adding a Rating to a Page {#adding-a-rating-to-a-page}
+## Adding a Rating to a Page {#adding-a-rating-to-a-page}
 
 To add a `Rating`component to a page in author mode, locate the component
 
@@ -29,7 +29,7 @@ When the [required client-side libraries](../../communities/using/rating-basics.
 
 ![](assets/chlimage_1-493.png)
 
-### Configuring Rating {#configuring-rating}
+## Configuring Rating {#configuring-rating}
 
 Select the placed `Rating` component to access and select the `Configure` icon which opens the edit dialog.
 
@@ -42,16 +42,16 @@ Under the **Texts & Labels** tab you specify the internal identifier for the Rat
 * **Tally Name** 
   (*Required*) A simple name for the `Rating`which uniquely identifies this instance. Must be a valid node name for the repository.
 
-### Site Visitor Experience {#site-visitor-experience}
+## Site Visitor Experience {#site-visitor-experience}
 
-#### Members {#members}
+### Members {#members}
 
 Only one rating per member is allowed. The member may change their rating at any time.
 
-#### Anonymous {#anonymous}
+### Anonymous {#anonymous}
 
 Anonymous posting of a rating is not supported. Site visitors must register (become a member) and sign in to participate.
 
-### Additional Information {#additional-information}
+## Additional Information {#additional-information}
 
 More information may be found on the [Rating Essentials](../../communities/using/rating-basics.md) page for developers.

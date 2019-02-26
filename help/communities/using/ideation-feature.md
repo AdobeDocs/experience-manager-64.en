@@ -13,7 +13,7 @@ discoiquuid: 5b654620-7345-47d4-b7a8-e67e39a8bf40
 
 # Ideation Feature{#ideation-feature}
 
-### Introduction {#introduction}
+## Introduction {#introduction}
 
 The ideation feature provides an area for signed-in site visitors (community members) in the publish environment to :
 
@@ -27,7 +27,7 @@ This section of the documentation describes
 * adding the ideation feature to an AEM site
 * configuration settings for the Ideation component
 
-### Adding a Ideation to a Page {#adding-a-ideation-to-a-page}
+## Adding a Ideation to a Page {#adding-a-ideation-to-a-page}
 
 To add a `Ideation` component to a page in author mode, use the component browser to locate
 
@@ -41,13 +41,13 @@ When the [required client-side libraries](../../communities/using/ideation.md#es
 
 ![](assets/chlimage_1-29.png)
 
-### Configuring an Ideation {#configuring-an-ideation}
+## Configuring an Ideation {#configuring-an-ideation}
 
 Select the placed `Ideation` component to access and select the `Configure` icon which opens the edit dialog.
 
 ![](assets/chlimage_1-30.png) ![](assets/chlimage_1-31.png)
 
-#### Settings tab {#settings-tab}
+### Settings tab {#settings-tab}
 
 Under the **Settings **tab, specify settings for ideas and comments :
 
@@ -105,7 +105,7 @@ Under the **Settings **tab, specify settings for ideas and comments :
 * **Allow Featured Content** 
   if checked, the idea is able to be identified as [featured content](../../communities/using/featured.md). Default is unchecked.
 
-#### User Moderation tab {#user-moderation-tab}
+### User Moderation tab {#user-moderation-tab}
 
 Under the **User Moderation **tab, specify how the posted ideas and comments (user generated content) are managed. For more information, see [Moderating User Generated Content](../../communities/using/moderate-ugc.md).
 
@@ -130,9 +130,9 @@ Under the **User Moderation **tab, specify how the posted ideas and comments (us
 * **Flagging Limit** 
   Enter the number of times a topic or comment has to be flagged before it is hidden from public view. If set to -1, the flagged topic or comment is never hidden from public view. Else, this number must be greater than or equal to the Moderation Threshold. Default is 5.
 
-#### Tag field tab {#tag-field-tab}
+### Tag field tab {#tag-field-tab}
 
-Under the **Tag field** tab, the tags which may be applied, if allowed under the **Settings **tab, are limited according to namespaces chosen.
+Under the **Tag field** tab, the tags which may be applied, if allowed under the **Settings** tab, are limited according to namespaces chosen.
 
 * **Allowed Namespaces** 
   Relevant if `Allow Tagging` is checked under the **Settings **tab. The tags which may be applied are limited to those within the namespace categories checked. The list of namespaces includes "Standard Tags" (the default namespace) as well as "Include All Tags". Default is none checked, which means all namespaces are allowed.
@@ -140,7 +140,7 @@ Under the **Tag field** tab, the tags which may be applied, if allowed under the
 * **Suggestion Limit** 
   Enter the number of tags to be displayed as a suggestion to the member posting to the forum. A value of **-**1 means no limit. Default is 0.
 
-#### Sort Settings tab {#sort-settings-tab}
+### Sort Settings tab {#sort-settings-tab}
 
 Under the **Sort Settings **tab, specify how the posted comments are sorted when displayed.
 

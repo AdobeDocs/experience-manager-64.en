@@ -17,11 +17,11 @@ discoiquuid: dd2e781e-ca29-45ed-a631-71bff2c12615
 
 AEM Communities features often require site visitors to be registered and signed-in before participating in a community in the publish environment. Their user registration need only exist in the publish environment and they are commonly referred to as *members* to distinguish them from *users* registered in the author environment.
 
-#### Members (Users) on Publish {#members-users-on-publish}
+### Members (Users) on Publish {#members-users-on-publish}
 
 Using the Communities Members and Groups consoles, members and member groups registered in the *publish* environment may be created and managed from the *author* environment. This is only possible when the [tunnel service](../../communities/using/deploy-communities.md#tunnelserviceonauthor) is enabled.
 
-#### Users on Author {#users-on-author}
+### Users on Author {#users-on-author}
 
 For managing users and groups registered in the *author* environment, is is necessary to use the platform's security console :
 
@@ -44,7 +44,7 @@ In the author environment, to reach the Members console for managing members reg
 
 ![](assets/chlimage_1-119.png)
 
-#### Search {#search}
+### Search {#search}
 
 Select the side panel icon on the left side of the `Members` header to toggle open the search side panel.
 
@@ -52,11 +52,11 @@ Select the side panel icon on the left side of the `Members` header to toggle op
 
 Select the search icon on the left side of the `Members` header to toggle the search side panel closed.
 
-#### Member Statistics {#member-statistics}
+### Member Statistics {#member-statistics}
 
 The columns displaying `Views`, `Posts`, `Follows`and `Likes` are updated when the user is a member of one or more community sites with Adobe Analytics [enabled](../../communities/using/sites-console.md#analytics).
 
-#### Export CSV {#export-csv}
+### Export CSV {#export-csv}
 
 Selecting the `Export CSV` link results in downloading all members as a list of comma-separated values, suitable for importing into a spreadsheet.
 
@@ -65,13 +65,13 @@ The column headers are
 | Screen Name |Last Name |First Name |Status |Views |Posts |Follows |Likes |
 |---|---|---|---|---|---|---|---|
 
-### Create New Member {#create-new-member}
+## Create New Member {#create-new-member}
 
 Select `Create Member` in order to create a user in the publish environment.
 
 ![](assets/chlimage_1-122.png)
 
-#### GENERAL - Member Details {#general-member-details}
+### GENERAL - Member Details {#general-member-details}
 
 Most fields are optional fields the member can later fill-in on their profile.
 
@@ -99,7 +99,7 @@ Most fields are optional fields the member can later fill-in on their profile.
 
 * select **Save**
 
-#### GENERAL - Account settings {#general-account-settings}
+### GENERAL - Account settings {#general-account-settings}
 
 Under Account settings it is possible for a community administrator to
 
@@ -120,19 +120,19 @@ Under Account settings it is possible for a community administrator to
 * **Change Password** 
   A link that is present when modifying an existing member. Povides the ability for a community administrator to reset a password for a member.
 
-#### GENERAL - Photo {#general-photo}
+### GENERAL - Photo {#general-photo}
 
 To provide an avatar for the member, begin by selecting **Upload Image** and choose an image of type .jpg, .png, .tif, or .gif. The preferred size for an image is 240 x 240 pixels at 72 dpi.
 
-#### GENERAL - Add Member to Sites {#general-add-member-to-sites}
+### GENERAL - Add Member to Sites {#general-add-member-to-sites}
 
 The member may be added to one or more community sites' members groups. Begin by entering text in the text box.
 
-#### GENERAL - Add Member to Groups {#general-add-member-to-groups}
+### GENERAL - Add Member to Groups {#general-add-member-to-groups}
 
 The member may be added to one or more members groups. Begin by entering text in the text box.
 
-#### BADGES tab {#badges-tab}
+### BADGES tab {#badges-tab}
 
 The `BADGES` panel provides the ability to manually assign badges as well as revoke them. The badges may be for assigned roles as well as badges typically earned.
 

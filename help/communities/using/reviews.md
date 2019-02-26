@@ -21,7 +21,7 @@ The `Reviews Summary (Display)` component provides a summary of an active or clo
 >
 >Anonymous posting of a review is not supported. Site visitors must register (become a member) and sign in to participate. The signed in visitor may update their review at any time.
 
-### Adding a Review to a Page {#adding-a-review-to-a-page}
+## Adding a Review to a Page {#adding-a-review-to-a-page}
 
 To add a `Reviews` component to a page in author mode, use the component browser to locate
 
@@ -35,7 +35,7 @@ When the [required client-side libraries](../../communities/using/reviews-basics
 
 ![](assets/chlimage_1-340.png)
 
-### Configuring Reviews {#configuring-reviews}
+## Configuring Reviews {#configuring-reviews}
 
 Select the placed `Reviews` component to access and select the `Configure` icon which opens the edit dialog.
 
@@ -124,7 +124,7 @@ Under the **User Moderation **tab, specify how the posted reviews are managed. F
 * **Flagging Limit** 
   Enter the number of times a review has to be flagged before it is hidden from public view. This number must be greater than or equal to the **Moderation Threshold**. Default is 5.
 
-### Adding a Review Summary (Display) to a Page {#adding-a-review-summary-display-to-a-page}
+## Adding a Review Summary (Display) to a Page {#adding-a-review-summary-display-to-a-page}
 
 To add a `Reviews Summary (Display)` component to a page in author mode, locate the component
 
@@ -142,7 +142,7 @@ When the [required client-side libraries](../../communities/using/reviews-basics
 >
 >The "Average" reflects the votes for the first item listed on the Allowed Ratings tabs of the review being summarized.
 
-### Configuring Reviews Summary (Display) {#configuring-reviews-summary-display}
+## Configuring Reviews Summary (Display) {#configuring-reviews-summary-display}
 
 Select the placed `Reviews Summary (Display)` component to access and select the `Configure` icon which opens the edit dialog.
 
@@ -159,7 +159,7 @@ Under the **Review Summary** tab
 * `Include histogram`  
   If checked, include the display of a bar graph indicating how many of each star rating there are in the reviews being summarized. Default is unchecked.
 
-### Changing to a Custom Review Type {#changing-to-a-custom-review-type}
+## Changing to a Custom Review Type {#changing-to-a-custom-review-type}
 
 The Reviews component uses the Comment System.
 
@@ -182,13 +182,13 @@ Under the **Resource Types **tab, specify the custom resourceType for new instan
 * **Comment System Resource Type** 
   Navigate to the resourceType of an extended `comments`component (Comment System) in /apps. Leave blank unless the page template [dynamically includes](../../communities/using/scf.md#addorincludeacommunitiescomponent) the Comment System in the underlying script instead of being added to the page as a resource (comments node). Learn more by reading about the [{{include}} helper](../../communities/using/handlebars-helpers.md#include)
 
-### Site Visitor Experience {#site-visitor-experience}
+## Site Visitor Experience {#site-visitor-experience}
 
-#### Moderators and Administrators {#moderators-and-administrators}
+### Moderators and Administrators {#moderators-and-administrators}
 
 When the signed in user has moderator or administrator privileges, they are able to perform the moderation tasks permitted by the configuration of the component, regardless of who authored the review.
 
-#### Members {#members}
+### Members {#members}
 
 When the site visitor is signed in, depending on the configuration, they may
 
@@ -199,11 +199,11 @@ When the site visitor is signed in, depending on the configuration, they may
 
 Only one rating per member is allowed. The member may change their rating at any time.
 
-#### Anonymous {#anonymous}
+### Anonymous {#anonymous}
 
 Site visitors who are not signed in may only read posted reviews, translate them if supported, but may not add a rating or a review, nor flag others' review comments.
 
-### Additional Information {#additional-information}
+## Additional Information {#additional-information}
 
 More information may be found on the [Review Essentials](../../communities/using/reviews-basics.md) page for developers.
 

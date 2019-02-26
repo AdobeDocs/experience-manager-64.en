@@ -411,15 +411,15 @@ for example : http://&lt;server&gt;:&lt;port&gt;/home/users/community/riley/prof
 >* may be an obscure, random name - see [Security Checklist](../../sites/administering/using/security-checklist.md#verifythatyouarenotdisclosingpersonallyidentifiableinformationintheusershomepath) regarding authorizable ID
 >
 
-#### Examples : {#examples}
+### Examples : {#examples}
 
-#### Assign a moderator badge {#assign-a-moderator-badge}
+### Assign a moderator badge {#assign-a-moderator-badge}
 
 ```shell
 curl -i -X POST -H "Accept:application/json" -u admin:admin -F ":operation=social:assignBadge" -F "badgeContentPath=/etc/community/badging/images/moderator/jcr:content/moderator.png" /home/users/community/updcs9DndLEI74DB9zsB/profile.social.json
 ```
 
-#### Revoke an assigned silver badge {#revoke-an-assigned-silver-badge}
+### Revoke an assigned silver badge {#revoke-an-assigned-silver-badge}
 
 ```shell
 curl -i -X POST -H "Accept:application/json" -u admin:admin -F ":operation=social:deleteBadge" -F "badgeContentPath=/etc/community/badging/images/silver/jcr:content/silver.png" /home/users/community/updcs9DndLEI74DB9zsB/profile.social.json
@@ -445,7 +445,7 @@ For the communities components delivered, the following tables describe the `ver
 >
 >A new boolean property, `allowBadges`, enables/disables the display of badges for a component instance. It will be configurable in updated [component edit dialogs](../../communities/using/author-communities.md) through a checkbox labeled **Display Badges**.
 
-** [Calendar Component](../../communities/using/calendar.md)** 
+[Calendar Component](../../communities/using/calendar.md) 
 SocialEvent `topic`= com/adobe/cq/social/calendar
 
 | **Verb** |**Description** |
@@ -455,7 +455,7 @@ SocialEvent `topic`= com/adobe/cq/social/calendar
 | UPDATE |member's calendar event or comment is edited |
 | DELETE |member's calendar event or comment is deleted |
 
-** [Comments Component](../../communities/using/comments.md)** 
+[Comments Component](../../communities/using/comments.md) 
 SocialEvent `topic`= com/adobe/cq/social/comment
 
 | **Verb** |**Description** |
@@ -465,7 +465,7 @@ SocialEvent `topic`= com/adobe/cq/social/comment
 | UPDATE |member's comment is edited |
 | DELETE |member's comment is deleted |
 
-** [File Library Component](../../communities/using/file-library.md)** 
+[File Library Component](../../communities/using/file-library.md) 
 SocialEvent `topic`= com/adobe/cq/social/fileLibrary
 
 | **Verb** |**Description** |
@@ -475,7 +475,7 @@ SocialEvent `topic`= com/adobe/cq/social/fileLibrary
 | UPDATE |member updates a folder or file |
 | DELETE |member deletes a folder or file |
 
-** [Forum Component](../../communities/using/forum.md)** 
+[Forum Component](../../communities/using/forum.md) 
 SocialEvent `topic`= com/adobe/cq/social/forum
 
 | **Verb** |**Description** |
@@ -485,7 +485,7 @@ SocialEvent `topic`= com/adobe/cq/social/forum
 | UPDATE |member's forum topic or reply is edited |
 | DELETE |member's forum topic or reply is deleted |
 
-** [Journal Component](../../communities/using/blog-feature.md)** 
+[Journal Component](../../communities/using/blog-feature.md) 
 SocialEvent `topic`= com/adobe/cq/social/journal
 
 | **Verb** |**Description** |
@@ -495,7 +495,7 @@ SocialEvent `topic`= com/adobe/cq/social/journal
 | UPDATE |member's blog article or comment is edited |
 | DELETE |member's blog article or comment is deleted |
 
-** [QnA Component](../../communities/using/working-with-qna.md)** 
+[QnA Component](../../communities/using/working-with-qna.md) 
 SocialEvent `topic` = com/adobe/cq/social/qna
 
 | **Verb** |**Description** |
@@ -507,7 +507,7 @@ SocialEvent `topic` = com/adobe/cq/social/qna
 | UNSELECT |member's answer is de-selected |
 | DELETE |member's QnA question or answer is deleted |
 
-** [Reviews Component](../../communities/using/reviews.md)** 
+[Reviews Component](../../communities/using/reviews.md) 
 SocialEvent `topic`= com/adobe/cq/social/review
 
 | **Verb** |**Description** |
@@ -516,7 +516,7 @@ SocialEvent `topic`= com/adobe/cq/social/review
 | UPDATE |member's review is edited |
 | DELETE |member's review is deleted |
 
-** [Rating Component](../../communities/using/rating.md)** 
+[Rating Component](../../communities/using/rating.md)
 SocialEvent `topic`= com/adobe/cq/social/tally/rating
 
 | **Verb** |**Description** |
@@ -524,7 +524,7 @@ SocialEvent `topic`= com/adobe/cq/social/tally/rating
 | ADD RATING |member's content has been up rated |
 | REMOVE RATING |member's content has been down rated |
 
-** [Voting Component](../../communities/using/voting.md)** 
+[Voting Component](../../communities/using/voting.md)
 SocialEvent `topic`= com/adobe/cq/social/tally/voting
 
 | **Verb** |**Description** |

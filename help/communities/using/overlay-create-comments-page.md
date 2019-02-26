@@ -13,10 +13,11 @@ discoiquuid: b29089f9-5cf8-41f3-b66f-def0daef4c1d
 
 # Create Comments Page{#create-comments-page}
 
-| ** [⇐ Overlay Comments Component](../../communities/using/overlay-comments.md)** |** [Create Nodes ⇒](../../communities/using/overlay-create-nodes.md)** |
+|⇐ Previous|Next ⇒|
 |---|---|
+| [⇐ Overlay Comments Component](../../communities/using/overlay-comments.md) |[Create Nodes ⇒](../../communities/using/overlay-create-nodes.md) |
 
-### Comments Page {#comments-page}
+## Comments Page {#comments-page}
 
 The [Community Components guide](../../communities/using/components-guide.md) provides the ability to easily experience overlaying the comments component.
 
@@ -26,6 +27,6 @@ View the page on the author instance :
 
 ![](assets/chlimage_1-125.png)
 
-| ** [⇐ Overlay Comments Component](../../communities/using/overlay-comments.md)** |** [Create Nodes ⇒](../../communities/using/overlay-create-nodes.md)** |
+|⇐ Previous|Next ⇒|
 |---|---|
-
+| [⇐ Overlay Comments Component](../../communities/using/overlay-comments.md) |[Create Nodes ⇒](../../communities/using/overlay-create-nodes.md) |
