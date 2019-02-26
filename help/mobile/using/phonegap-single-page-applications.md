@@ -23,11 +23,11 @@ Generally speaking, SPAs appear more performant than traditional page-based web 
 
 AEM 6.1 supports the building and management of SPAs via AEM Apps. This article will provide an introduction to the concepts behind the SPA and how they leverage [AngularJS](https://angularjs.org/) to bring your brand to the App Store and Google Play.
 
-### SPA in AEM Apps {#spa-in-aem-apps}
+## SPA in AEM Apps {#spa-in-aem-apps}
 
 The Single-Page Application framework in AEM Apps enables the high performance of an AngularJS app, while empowering authors (or other non-technical personnel) to create and manage the app's content via the touch-optimized, drag-and-drop editor environment that has traditionally been reserved for managing web sites. Already have a site built with AEM? You'll find that reusing your content, components, workflows, assets, and permissions is easy with AEM Apps.
 
-### AngularJS Application Module {#angularjs-application-module}
+## AngularJS Application Module {#angularjs-application-module}
 
 AEM Apps handles much of the AngularJS configuration for you, including putting together your app's top-level module. By default this module is named 'AEMAngularApp' and the script responsible for it's generation can be found (and overlaid) at /libs/mobileapps/components/angular/ng-page/angular-app-module.js.jsp.
 
@@ -49,7 +49,7 @@ The above sample in particular illustrates an example of passing a parameter as 
 
 The template to load when this route is requested is specified by the templateUrl property. This template will contain the HTML from AEM components that have been included on the page, as well as any AngularJS directives necessary for wiring up the client side of the application. For an example of a AngularJS directive in a Geometrixx component, take a look at line 45 of the swipe-carousel's template.jsp (/apps/geometrixx-outdoors-app/components/swipe-carousel/template.jsp).
 
-### Page Controllers {#page-controllers}
+## Page Controllers {#page-controllers}
 
 In Angular's own words, "a Controller is a JavaScript constructor function that is used to augment the Angular Scope." ([source](https://docs.angularjs.org/guide/controller)) Each page in an AEM App is automatically wired up to a controller that can be augmented by any controller which specifies a `frameworkType` of `angular`. Take a look at the ng-text component as an example (/libs/mobileapps/components/angular/ng-text), including the cq:template node which makes sure each time this component is added to a page it includes this important property.
 
@@ -80,6 +80,6 @@ In the above example, you will note that we are taking a parameter from the `$ro
 
 There are also two components at work here: ng-product augments the scope with the data it extracts from the above `$http` call. There is also an ng-image on this page which in turn also augments the scope with the value it retrieves from the response. By virtue of Angular's `$http` service, each component will wait patiently until the request is finished and the promise it created is fulfilled.
 
-### The Next Steps {#the-next-steps}
+## The Next Steps {#the-next-steps}
 
 Once you have learnt about the Single Page Applications, see [Developing Apps with PhoneGap CLI](../../mobile/using/phonegap-apps-pg-cli.md).

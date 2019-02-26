@@ -26,7 +26,7 @@ discoiquuid: 123ae85c-0e1d-4d3e-92bc-d474f532d635
 >
 >To Set up your environment for AEM Mobile On-Demand Services, see [AEM Mobile Application Dashboard or the Control Center](../../mobile/using/mobile-apps-ondemand-application-dashboard.md).
 
-An **AEM developer** extends and creates custom web templates and components to enable the *AEM Author *to create beautiful and engaging mobile experiences. These templates and components are not only optimized for the mobile app world; but communicate both to the device and to the AEM server (any remote server) to omni-channel service end-points. AEM's built-in content editor is used by *AEM Authors* to create rich and relevent experiences within the app, including integration with the rest of the Adobe Marketing Cloud.
+An **AEM developer** extends and creates custom web templates and components to enable the *AEM Author* to create beautiful and engaging mobile experiences. These templates and components are not only optimized for the mobile app world; but communicate both to the device and to the AEM server (any remote server) to omni-channel service end-points. AEM's built-in content editor is used by *AEM Authors* to create rich and relevent experiences within the app, including integration with the rest of the Adobe Marketing Cloud.
 
 An AEM developer is responsible for the following tasks while creating an app using AEM Mobile On-Demand Services:
 
@@ -40,7 +40,7 @@ See [Developing AEM Mobile Content Services](../../mobile/using/developing-conte
 >
 >An *AEM developer's* role does not start and end with the development of templates and components. An *AEM developer* can create an entirely new app rather than simply extend the out-of-the-box reference implementation sample.
 
-### Additional Resources {#additional-resources}
+## Additional Resources {#additional-resources}
 
 To learn about the roles and responsibilities of an Administrator and an Author, see the resources below:
 

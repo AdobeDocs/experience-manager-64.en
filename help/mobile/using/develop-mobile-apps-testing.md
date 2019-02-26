@@ -32,13 +32,13 @@ When developing a mobile app, there are many new concerns specific to devices th
 
 These questions should be answered during your automated and manual testing.
 
-#### Automated testing {#automated-testing}
+## Automated testing {#automated-testing}
 
 Some degree of automated testing should be performed to cover the variety of screen sizes, memory constraints, input methods, and operating systems. Not only does it cover much of the test cases, but it can speed up regression testing when new features or devices are introduced. Ideally, your automation tools should reduce or limit duplication of effort. Use tools or frameworks so that your testing effort is applicable across all platforms. The following chart shows a simplified structure of a testing environment for both web-based UI testing and mobile app testing. The left side of the chart shows a series of Selenium nodes with browsers. SeleniumGrid can farm out common, web-based UI tests to any of these nodes. The Selenium hub can also connect to Appium for cross-platform app testing. Only shown are simulators, but you can incorporate adb, for Android, and Xcode utilities for iOS devices. Links are provided later in this document where you can find specific details for the tools mentioned.
 
 ![](assets/chlimage_1.jpeg) 
 
-#### Manual testing {#manual-testing}
+## Manual testing {#manual-testing}
 
 In addition to automated testing, your app should go through a cycle of manual testing. Customers running the app on a real device cannot be duplicated by a script. Here too, you have many options. You can use a platform, such as HockeyApp, to define who has access and gather feedback. Or, you can outsource the whole process to a service like UTest, ElusiveStars, or Testin. If you have a group of internal testers, but lack variation of devices, there are cloud services where you can perform manual testing on their pool of devices. One such service that provides this is SauceLabs. You can also build apps remotely to PhoneGap Enterprise and install on local devices as a level of acceptance testing or demoing. See the [PhoneGap](http://phonegap.com/) website for their latest features and documentation. Whatever the approach, manual testing should;
 
@@ -53,7 +53,7 @@ In addition to automated testing, your app should go through a cycle of manual t
     * performance, 
     * data/power consumption, etc.
 
-#### Tools {#tools}
+## Tools {#tools}
 
 There is a wide range of tools available for testing mobile apps. The choice of ones to use will be based on your specific situation: features, price, support, coverage, etc. The following is just a small description of some of the tools and services available.
 

@@ -14,7 +14,7 @@ discoiquuid: bbb28559-6ab4-4ad8-bb79-0c73e34981df
 
 HTML5 forms Service Proxy is a configuration to register a proxy for the submission service. To configure Service Proxy, specify the URL of submission service through request parameter *submissionServiceProxy*.
 
-### Benefits of Service Proxy <br> {#benefits-of-service-proxy-br}
+## Benefits of Service Proxy <br> {#benefits-of-service-proxy-br}
 
 The service proxy eliminates following:
 
@@ -23,7 +23,7 @@ The service proxy eliminates following:
 * The submission is two-step process. To submit the form data, submission requires at least two journeys to server. Thus, increases load on the server.  
 * HTML5 forms send data in the POST request instead of PDF request. For workflow involving both PDF and HTML5 forms, two different methods of processing the submissions are required.
 
-### Topologies <br> {#topologies-br}
+## Topologies <br> {#topologies-br}
 
 HTML5 forms can use following topologies to connect to the AEM servers.
 
@@ -36,7 +36,7 @@ HTML5 forms service proxy topologies
 
 HTML5 forms connect to the AEM servers to run server-sided scripts, web-services, and submissions. The XFA runtime of the HTML5 forms uses Ajax calls on "/bin/xfaforms/submitaction" end point with various parameters to connect to the AEM servers. HTML5 forms connect AEM servers to perform following operations:
 
-#### Execute Server-sided scripts and Web Services {#execute-server-sided-scripts-and-web-services}
+### Execute Server-sided scripts and Web Services {#execute-server-sided-scripts-and-web-services}
 
 The scripts marked to run on the server are known as server-sided scripts. The following table lists all the parameters used in Server-sided scripts and Web Services.
 
@@ -81,7 +81,7 @@ The scripts marked to run on the server are known as server-sided scripts. The f
  </tbody> 
 </table>
 
-#### Submit data {#submit-data}
+### Submit data {#submit-data}
 
 On clicking the submit button, HTML5 forms send data to the server. The following table lists all the parameters that HTML5 forms send to server.
 
@@ -118,7 +118,7 @@ On clicking the submit button, HTML5 forms send data to the server. The followin
  </tbody> 
 </table>
 
-#### How&nbsp;the&nbsp;submit proxy works? {#how-nbsp-the-nbsp-submit-proxy-works}
+### How&nbsp;the&nbsp;submit proxy works? {#how-nbsp-the-nbsp-submit-proxy-works}
 
 The submit service proxy acts as a pass through if the submiturl is not present in the request parameter. It acts as a pass-through. It sends the request to the /bin/xfaforms/submitaction end point and sends the response to the XFA runtime.
 

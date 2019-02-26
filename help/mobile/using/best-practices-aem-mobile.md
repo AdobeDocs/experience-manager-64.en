@@ -27,13 +27,12 @@ Building an AEM Mobile On-Demand Services App is different than building an app 
 >
 >* [Using Cordova plug-ins in AEM Mobile](https://helpx.adobe.com/digital-publishing-solution/help/cordova-api.html)
 >* [Using AEM Mobile specific Cordova-enabled plug-ins](https://helpx.adobe.com/digital-publishing-solution/help/app-runtime-api.html)
->
 
 * Templates which use plugin functionality should be written in such a way that they are still authorable in the browser, without the plugin bridge being present.
 
 For example, make sure to wait for the *deviceready* function before attempting to access a plugin's API.
 
-### Guidelines for AEM Developers {#guidelines-for-aem-developers}
+## Guidelines for AEM Developers {#guidelines-for-aem-developers}
 
 The following guidelines will help experienced AEM developers for sites, who want to build mobile app templates and components:
 
@@ -79,7 +78,7 @@ The following guidelines will help experienced AEM developers for sites, who wan
 * Use the smallest assets possible that can effectively cover the largest viewport you will be supporting, at a reasonable resolution
 * Use a tool like* ImageOptim* on your images to remove any excess metadata
 
-### Getting Ahead {#getting-ahead}
+## Getting Ahead {#getting-ahead}
 
 To understand more on the other two roles and responsibilities, see the resources below:
 

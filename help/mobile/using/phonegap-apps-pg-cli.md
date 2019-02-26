@@ -21,7 +21,7 @@ At any given time, as a developer you can run your app on a device or within a e
 
 In order to run the following examples you will need a system that runs OSx (Mac) with Xcode, or a Mac/Win/Linux system with the Android SDK installed.
 
-#### Bootstrap your development environment {#bootstrap-your-development-environment}
+## Bootstrap your development environment {#bootstrap-your-development-environment}
 
 [Setup PhoneGap CLI](http://docs.phonegap.com/en/4.0.0/guide_cli_index.md.html#The%20Command-Line%20Interface)
 
@@ -35,7 +35,7 @@ For Android: To develop for iPhones and iPads, you need Google's Android Stuido 
 * Download it for free [here](https://developer.android.com/sdk/index.html).
 * [PhoneGap Android platform guide](http://docs.phonegap.com/en/4.0.0/guide_platforms_android_index.md.html#Android%20Platform%20Guide)
 
-#### Download the Source {#download-the-source}
+## Download the Source {#download-the-source}
 
 Once you've successfully boostrapped your development environment, download the source from the AEM App Build Tile:
 
@@ -57,7 +57,7 @@ Once you've successfully boostrapped your development environment, download the 
 * Click Download and save save the ZIP to your machine.
 * Extract the downloaded zip file to your workspace.
 
-#### Build and load the App (from source) {#build-and-load-the-app-from-source}
+## Build and load the App (from source) {#build-and-load-the-app-from-source}
 
 PhoneGap CLI can create a platform project, compile the source, and deploy the app in a single command.
 
@@ -90,11 +90,11 @@ phonegap run ios
 >
 >This will verify that you're PhoneGap CLI development environment is up and running correctly.
 
-#### Debug Javascripts with Safari and IOS debug {#debug-javascripts-with-safari-and-ios-debug}
+## Debug Javascripts with Safari and IOS debug {#debug-javascripts-with-safari-and-ios-debug}
 
 You can debug your app's JavaScripts using Safari's developer tools, the same way you would with a web application.
 
-#### Enable Safari Developer Tools {#enable-safari-developer-tools}
+## Enable Safari Developer Tools {#enable-safari-developer-tools}
 
 To enable the developer tools:
 
@@ -110,7 +110,7 @@ To enable the developer tools:
 * Check "Show Develop menu in menu bar"
 * Close the Preference window
 
-#### Connect Safari to iOS {#connect-safari-to-ios}
+## Connect Safari to iOS {#connect-safari-to-ios}
 
 You can connect Safari to either an iOS device or emulator.
 
@@ -132,7 +132,7 @@ phonegap run <platform> --emulator
 
 ![](assets/chlimage_1-52.png) 
 
-#### Debug JavaScript with Safari's Web Inspector {#debug-javascript-with-safari-s-web-inspector}
+## Debug JavaScript with Safari's Web Inspector {#debug-javascript-with-safari-s-web-inspector}
 
 You can set breakpoints anywhere in your source. When you interact with your emulator or device, the execution of your app will stop at those breakpoints. You can step trough the execution and inspect the values in variables.
 
@@ -151,6 +151,6 @@ You can set breakpoints anywhere in your source. When you interact with your emu
 >
 >To see the values of variables, in the current method, hover your mouse.
 
-### The Next Steps {#the-next-steps}
+## The Next Steps {#the-next-steps}
 
 Once you have learnt about Developing Apps with PhoneGap CLI, see [Accessing Device Features](../../mobile/using/phonegap-access-device-features.md).

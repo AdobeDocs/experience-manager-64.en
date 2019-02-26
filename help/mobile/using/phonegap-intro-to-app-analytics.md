@@ -40,7 +40,7 @@ Adobe Mobile Analytics SDK provides the following:
 
 This section describes how [AEM Developers](#developers) can then learn how to instrument AEM Mobile apps with analytics tracking.
 
-Finally, [AEM Administrators](#administrators)* *learn to:
+Finally, [AEM Administrators](#administrators) learn to:
 
 * create a cloud service to Adobe Mobile Services
 * create a mobile service config and associate a report suite
@@ -108,9 +108,5 @@ Now that the mobile app has access to the ADBMobileConfig.json file it has the k
 1. [Manage my app's content](/content/docs/en/aem/6-3/develop/mobile-apps/manage-my-apps-content)
 1. [Build my application](/content/docs/en/aem/6-3/author/authoring-mobile-apps/build-app-through-adobe-phonegap-build-cloud-service)
 1. [Track my app's performance with Adobe Mobile Analytics](../../mobile/using/phonegap-intro-to-app-analytics.md)
-1. 
-
-   ##### [Deliver a personalized app experience with Adobe Target](/content/docs/en/aem/6-3/develop/mobile-apps/apps/aem-mobile-content-personalization) {#deliver-a-personalized-app-experience-with-adobe-target}
-
+1. [Deliver a personalized app experience with Adobe Target](/content/docs/en/aem/6-3/develop/mobile-apps/apps/aem-mobile-content-personalization)
 1. [Send important messages to my users](/content/docs/en/aem/6-3/develop/mobile-apps/apps/push-notifications)
-

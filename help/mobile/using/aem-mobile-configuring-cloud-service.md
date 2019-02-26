@@ -57,7 +57,7 @@ After completion of the wizard the Manage Cloud Service tile will contain the Ta
 
 It is necessary to link a Adobe Mobile Services (AMS) account to the application as well, the AMS service provides the required ADBMobileConfig.json file which contains the Target client code information. Before creating an association with the AMS account, the AMS account needs to be modified by a user that has permissions to AMS.
 
-#### Client Code {#client-code}
+### Client Code {#client-code}
 
 To login to the AMS services visit [https://mobilemarketing.adobe.com](https://mobilemarketing.adobe.com/), select the mobile application and click the settings. Locate the SDK Target Options field and place the client code into the field and click Save. 
 
@@ -65,7 +65,7 @@ To login to the AMS services visit [https://mobilemarketing.adobe.com](https://m
 
 Now that the client code has been associated with the mobile application, when the AMS cloud service is configured via the Adobe Mobile Dashboard the settings for the service settings will be delivered via the ADBMobileConfig.json file.
 
-#### Adobe Mobile Service Could Service {#adobe-mobile-service-could-service}
+### Adobe Mobile Service Could Service {#adobe-mobile-service-could-service}
 
 Now that AMS has been configured, it's time to associate the mobile application in the Adobe Mobile Dashboard. From the AEM Mobile Dashboard locate the Manage Cloud Services and click the + button. 
 
@@ -91,7 +91,7 @@ For the Hybrid Reference Application there are two mobileappoffers handlers one 
 
 Once the activities path has been set in the mobileappoffers handler's path property save the handler. The handler will now be ready to start rendering offers for our mobile devices.
 
-### Render Mode {#render-mode}
+## Render Mode {#render-mode}
 
 The mobileappoffers handler is configured differently for publish and dev setups. For publish setups there is a property called *renderMode* with a value of *publish* set on the cq:ContentSyncConfig node. The mobileappoffers handler references the renderMode and, if set to publish, will modify the mbox id that gets created. By default, mboxes that are created by AEM have an --author value appended to the mbox id. This identifies that the activity has not been published and should use the unpublished campaign for offer resolutions.
 

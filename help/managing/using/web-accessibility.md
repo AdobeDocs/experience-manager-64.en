@@ -23,7 +23,7 @@ Creating accessible websites and content with AEM impact:
   Creating accessible content is a process. AEM provides the capabilities, but content authors need to ensure that they follow the techniques required to create accessible content.
 * Template developers should also be aware of such issues when implementing the website design.
 
-### Further Information {#further-information}
+## Further Information {#further-information}
 
 The following pages and section provide information and guidelines:
 
@@ -39,7 +39,7 @@ The following pages and section provide information and guidelines:
 * [Creating Accessible Adaptive Forms](../../forms/using/creating-accessible-adaptive-forms.md)  
   Adobe Experience Manager (AEM) includes a number of features and capabilities that enhance the usability of adaptive forms for users with different abilities. The solution also assists form authors in creating accessible adaptive forms.
 
-### World Wide Web Consortium and WCAG 2.0 {#world-wide-web-consortium-and-wcag}
+## World Wide Web Consortium and WCAG 2.0 {#world-wide-web-consortium-and-wcag}
 
 The [World Wide Web Consortium (W3C)](http://www.w3.org/) is an international community dedicated to developing web standards. To help web designers and developers produce accessible web sites the [Web Accessibility Initiative (WAI)](http://www.w3.org/WAI/) published the [Web Content Accessibility Guidelines (WCAG) 2.0](http://www.w3.org/TR/WCAG20/) in December 2008 (updating the original version published in 1999).
 
@@ -51,7 +51,7 @@ Using Adobe Experience Manager, content authors and/or website owners can create
 
 Specific aspects of WCAG 2.0 are highlighted in our [quick guide to WCAG 2.0](../../managing/using/qg-wcag.md).
 
-#### WCAG 2.0 Accessibility Conformance Levels {#wcag-accessibility-conformance-levels}
+### WCAG 2.0 Accessibility Conformance Levels {#wcag-accessibility-conformance-levels}
 
 WCAG 2.0 provides [guidelines (with related success criteria) covering the accessibility levels](http://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance.html).
 
@@ -61,6 +61,6 @@ These, as they relate to AEM, are covered under [Level A and AA Conformance](../
 >
 >As it is not possible to satisfy all Level AAA Success Criteria for certain types of content, it is not recommended as a required level of conformance.
 
-### Accessibility at Adobe {#accessibility-at-adobe}
+## Accessibility at Adobe {#accessibility-at-adobe}
 
 For additional information, please visit the [Adobe Accessibility Resource Center](http://www.adobe.com/accessibility/).

@@ -37,7 +37,7 @@ To download **AEM Screens Player**, visit the [**AEM 6.4 Player Downloads**](htt
 >1. Click on the **Registration** link from the left action menu and the steps below to complete the device registation process.
 >
 
-#### Additional Resources {#additional-resources}
+### Additional Resources {#additional-resources}
 
 Refer to the following topics for an in-depth information:
 
@@ -213,6 +213,5 @@ Once you have installed and configured Screens player, follow the topics below t
 1. [Assign Devices](../../screens/using/managing-devices.md)
 1. [Create and Manage Schedules](https://chl-author.corp./content/help/en/experience-manager/6-4/sites/authoring/using/managing-schedules.html)
 1. [AEM Screens Player](https://chl-author.corp.ad/content/help/en/experience-manager/6-4/sites/authoring/using/working-with-screens-player.html)  
-
 1. [Troubleshoot Device Control Center](../../screens/using/monitoring-screens.md)
 

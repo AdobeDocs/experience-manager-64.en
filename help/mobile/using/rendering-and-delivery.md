@@ -129,7 +129,7 @@ The following table shows the properties of Export Configs:
  </tbody> 
 </table>
 
-#### Resource type export overrides {#resource-type-export-overrides}
+### Resource type export overrides {#resource-type-export-overrides}
 
 Create a configuration node under */apps/mobileapps/caas/exportConfigs.*
 
@@ -158,14 +158,14 @@ The following table show the properties:
  </tbody> 
 </table>
 
-### Existing Content Services Export Configs {#existing-content-services-export-configs}
+## Existing Content Services Export Configs {#existing-content-services-export-configs}
 
 Content Services include two export configurations:
 
 * default (no config specified) 
 * page (to render site pages)
 
-#### Default Export Configuration {#default-export-configuration}
+### Default Export Configuration {#default-export-configuration}
 
 Content Services default export configuration will be applied if a config is specified in the requested URI.
 
@@ -212,13 +212,13 @@ Content Services default export configuration will be applied if a config is spe
  </tbody> 
 </table>
 
-#### Page Export Configuration {#page-export-configuration}
+### Page Export Configuration {#page-export-configuration}
 
 This configuration extend the default to include grouping children under a child node.
 
 **&lt;SITE_PAGE&gt;.caas.page[.&lt;DEPTH-INT&gt;].json**
 
-### Additional Resources {#additional-resources}
+## Additional Resources {#additional-resources}
 
 See the resources below to learn about additional topics in Content Services:
 

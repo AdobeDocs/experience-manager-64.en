@@ -18,11 +18,11 @@ redirecttarget: /content/help/en/experience-manager/6-4/mobile/using/phonegap-ad
 >
 >Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](../../sites/developing/using/spa-overview.md).
 
-### The Hybrid App Sample {#the-hybrid-app-sample}
+## The Hybrid App Sample {#the-hybrid-app-sample}
 
 A [sample app](https://github.com/Adobe-Marketing-Cloud-Apps/aem-mobile-hybrid-reference) has been created that demonstrates all of the new features in AEM Mobile to support migrating an existing PhoneGap app into AEM as well as valid app structure.
 
-### Importing a Hybrid App {#importing-a-hybrid-app}
+## Importing a Hybrid App {#importing-a-hybrid-app}
 
 This feature is great for bootstrapping an app in AEM and for demos. Proper AEM package management techniques should still be used before moving an app to production. Any existing PhoneGap app that has been zipped up can be imported into AEM Mobile.
 
@@ -32,7 +32,7 @@ Dragging the zipped app onto the AEM Mobile apps catalog will automatically star
 
 ![](assets/chlimage_1-41.png)
 
-### The Next Steps {#the-next-steps}
+## The Next Steps {#the-next-steps}
 
 See the following resources to learn more about other authoring roles:
 
@@ -42,7 +42,7 @@ See the following resources to learn more about other authoring roles:
 * [Creating a New App using Create App Wizard](../../mobile/using/phonegap-create-new-app.md)
 * [Content Services](/mobile/using/content-as-a-service) [](/mobile/using/content-as-a-service)
 
-### Additional Resources {#additional-resources}
+## Additional Resources {#additional-resources}
 
 To learn about the roles and responsibilities of an Adminstrator and Developer, see the resources below:
 

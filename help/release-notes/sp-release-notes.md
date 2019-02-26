@@ -123,7 +123,7 @@ Some of the key highlights of AEM 6.4.3.0 are:
 
 * ACP API mishandles paging with only subdirectory children. NPR-27617: Hotfix for CQ-4258639
 
-### OAK  {#oak}
+### OAK {#oak}
 
 * Unable to login to the repository after installing AEM 6.4 Service Pack 2. NPR-27171: Hotfix for Granite-23317
 
@@ -275,7 +275,7 @@ The key highlights for AEM 6.4.3.0 forms are:
 >
 >For AEM Forms customers, it is essential to install AEM Forms add-on package after installing any AEM Service Pack, Cumulative Fix Pack, or Feature Pack.
 
-#### Backend Integration {#backend-integration-1}
+### Backend Integration {#backend-integration-1}
 
 * Enabled support for an array/list of objects with Dynamic Entity Substitution. NPR-26590: Hotfix for CQ-4254655
 
@@ -1264,11 +1264,11 @@ The following errors & warning may occur during installation of AEM 6.4.3.0 and 
 * Errors as create component instance and Service factory returned null occurs due to repository restart:
 
     * com.day.cq.cq-personalization [com.day.cq.personalization.impl.DefaultProfileProvider(938)] Cannot create component instance due to failure to bind reference profileManager
-    * org.apache.sling.commons.scheduler FrameworkEvent ERROR (org.osgi.framework.ServiceException: Service factory returned null. (Component: com.day.cq.tagging.impl.TagGarbageCollector (1687)))
+    * `org.apache.sling.commons.scheduler` FrameworkEvent ERROR (`org.osgi.framework.ServiceException: Service factory returned null`. (Component: `com.day.cq.tagging.impl.TagGarbageCollector` (1687)))
 
-* com.adobe.cq.social.cq-social-jcr-provider bundle com.adobe.cq.social.cq-social-jcr-provider:1.3.5 (395)[com.adobe.cq.social.provider.jcr.impl.SpiSocialJcrResourceProviderImpl(2302)] : Timeout waiting for reg change to complete unregistered
-* com.adobe.granite.maintenance.impl.TaskScheduler No maintenance windows found at granite/operations/maintenance
-* com.adobe.cq.com.adobe.cq.ui.commons bundle com.adobe.cq.com.adobe.cq.ui.commons:1.2.28 (204)[com.adobe.cq.ui.wcm.commons.internal.servlets.rte.RTEFilterServletFactory(573)] : The unbindAmendment method has thrown an exception (java.lang.IllegalStateException: Service already unregistered).
+* `com.adobe.cq.social.cq-social-jcr-provider` bundle `com.adobe.cq.social.cq-social-jcr-provider:1.3.5` (395)[com.adobe.cq.social.provider.jcr.impl.SpiSocialJcrResourceProviderImpl(2302)] : Timeout waiting for reg change to complete unregistered
+* `com.adobe.granite.maintenance.impl.TaskScheduler` No maintenance windows found at granite/operations/maintenance
+* `com.adobe.cq.com.adobe.cq.ui.commons` bundle `com.adobe.cq.com.adobe.cq.ui.commons:1.2.28` (204)[com.adobe.cq.ui.wcm.commons.internal.servlets.rte.RTEFilterServletFactory(573)] : The unbindAmendment method has thrown an exception (java.lang.IllegalStateException: Service already unregistered).
 
 ## OSGi bundles and Content Packages included {#osgi-bundles-and-content-packages-included}
 
