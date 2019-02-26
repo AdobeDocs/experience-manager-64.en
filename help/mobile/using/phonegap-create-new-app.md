@@ -21,7 +21,6 @@ AEM Mobile apps are based on a blueprint that defines a page structure and prope
 
 * **Title:** The application title.
 * **Destination Path:** The location in the repository where the application is stored. Leave the default to create a path based on the app name.  
-
 * **Name:** The default value is the value of the Title property with space characters removed. The name is used within AEM to refer to the application, for example for the repository node that represents the application.
 * **Description:** A description of the application.
 * **Server URL:** The URL that provides Over-the-Air (OTA) content updates to the application. The default value is the publish server URL of the instance that is used to create an application (taken from the externalizer service). Note, this must be a publish server instance rather than an author, which requires authentication.
@@ -33,7 +32,7 @@ Additional (and optional) tabs exist for build cloud service and integrating the
 * Build: Click manage configurations and set up your build.phonegap.com build service here. Then from the drop-down you will be able to select the newly created PhoneGap build cloud service.
 * Analytics: Click manage configurations and set up your [Adobe Mobile Services SDK](https://marketing.adobe.com/developer/en_US/get-started/mobile/c-measuring-mobile-applications) cloud service. Then from the drop-down you will be able to select the newly created Mobile Service to integrate into your mobile app.
 
-### Using App Templates {#using-app-templates}
+## Using App Templates {#using-app-templates}
 
 App templates provide an easy way to leverage existing designs created by devlopers, used for the creation of new apps within AEM.
 
@@ -59,7 +58,7 @@ Fill out your new app's details as needed including optionally changing its thum
 
 ![](assets/chlimage_1-175.png) 
 
-### The Next Steps {#the-next-steps}
+## The Next Steps {#the-next-steps}
 
 See the following resources to learn more about other authoring roles:
 
@@ -69,7 +68,7 @@ See the following resources to learn more about other authoring roles:
 * [Import an Existing Hybrid App](../../mobile/using/phonegap-import-hybrid-app.md)
 * [Content Services](/mobile/using/content-as-a-service)
 
-### Additional Resources {#additional-resources}
+## Additional Resources {#additional-resources}
 
 To learn about the roles and responsibilities of an Administrator and Developer, see the resources below:
 

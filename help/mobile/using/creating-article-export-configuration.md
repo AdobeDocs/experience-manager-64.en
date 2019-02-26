@@ -29,8 +29,6 @@ The property ***dps-exportTemplate*** mentioned in table above, defines the path
 
 The following resources describes exporting content from Adobe Experience Manager (AEM) for upload to AEM Mobile.
 
-##
-
 Articles have content that needs to be exported and uploaded. Some of this content can be shared between Articles.
 
 Use [ContentSync](../../mobile/using/mobile-ondemand-contentsync.md) to gather the content together and create a ***Shared Resources*** package.
@@ -58,4 +56,3 @@ To view sample shared resource, see the steps below:
 >[!NOTE]
 >
 >Articles should be uploaded or exported to AEM Mobile On-Demand Services when an articles content changes.
-

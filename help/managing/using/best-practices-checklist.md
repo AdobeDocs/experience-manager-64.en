@@ -17,22 +17,22 @@ The Project Checklists are intended as a set of best practices for project deliv
 
 There are checklists for each persona (role) involved in your project. These detail the deliverables, broken down by phase and milestone. They also show the documents required for generating the deliverables. By tracking the status and quality of your documents you can monitor the status of the project as a whole, providing transparency and accountability.
 
-### Download {#download}
+## Download {#download}
 
 AEM Project Best Practices Checklist v2
 
 [Get File](assets/aem_project_bp_checklistv2.xlsx)
 
-### Worksheets {#worksheets}
+## Worksheets {#worksheets}
 
 The spreadsheet provides you with the following worksheets:
 
 * **Instructions**
 
-    * Provides instructions on how to use the spreadsheet, together with explanations of the mechanisms used.
+  Provides instructions on how to use the spreadsheet, together with explanations of the mechanisms used.
 
-* ** [Project Heartbeat](../../managing/using/best-practices.md#projectheartbeat)**
-* ** [Status by Role](../../managing/using/best-practices.md#statusbyrole)**
+* **[Project Heartbeat](../../managing/using/best-practices.md#projectheartbeat)**
+* **[Status by Role](../../managing/using/best-practices.md#statusbyrole)**
 * A series of checklists, according to [Persona](../../managing/using/best-practices.md#persona), [Phase and Milestone](../../managing/using/best-practices.md#phasesandmilestones)
 
 * **Glossary**
@@ -40,9 +40,9 @@ The spreadsheet provides you with the following worksheets:
     * The Glossary lists details of all Deliverable documents from the Project Checklist. 
     * The [Glossary](../../managing/using/best-practices-glossary.md) is also available as part of the documentation.
 
-* ** [Persona Definitions](../../managing/using/best-practices.md#persona)**
+* **[Persona Definitions](../../managing/using/best-practices.md#persona)**
 
-### Using the Checklists {#using-the-checklists}
+## Using the Checklists {#using-the-checklists}
 
 To successfully deliver a high quality project, you need to complete all items in the checklists, preferably in order:
 
@@ -54,4 +54,3 @@ To successfully deliver a high quality project, you need to complete all items i
    >There is not a direct 1:1 relationship between the individual required documents and deliverables.
 
 1. Based on the statuses of the ** [Required Documents](../../managing/using/best-practices.md#requireddocuments)** and ** [Deliverables](../../managing/using/best-practices.md#deliverables)**, the worksheets ** [Project Heartbeat](../../managing/using/best-practices.md#projectheartbeat)** and ** [Status by Role](../../managing/using/best-practices.md#statusbyrole)** are automatically updated to give you an up-to-date indication of the progress and health of your project.
-

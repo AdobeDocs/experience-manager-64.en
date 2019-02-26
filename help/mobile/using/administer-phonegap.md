@@ -17,7 +17,7 @@ discoiquuid: d8042f3c-a3a9-481a-bff3-017ab48f42ee
 >
 >Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](../../sites/developing/using/spa-overview.md).
 
-An ***AEM administrator*** is responsible for adding a new application to the AEM Mobile catalog, either by creating a new app using the creation wizard, or by importing an existing application. AEM administrators who create a new app using AEM Mobile's *creation wizard* typically select one of the desired app templates either from our out-of-the-box reference samples or (in most cases) a custom app template created by *AEM developers.*
+An *AEM administrator* is responsible for adding a new application to the AEM Mobile catalog, either by creating a new app using the creation wizard, or by importing an existing application. AEM administrators who create a new app using AEM Mobile's *creation wizard* typically select one of the desired app templates either from our out-of-the-box reference samples or (in most cases) a custom app template created by *AEM developers.*
 
 Once you've built your mobile application using HTML5 and PhoneGap you can manage it within the Command Center. Of course you can also manage the HTML5 content for a native app in the Command Center as well, using Cordova webviews (to allow for PhoneGap plug-ins to access native features).
 
@@ -38,10 +38,9 @@ For learn about content services Content Services, see [Administering Content Se
 >
 >The *AEM Verify* is a quick and an easy way to run your AEM mobile applications on any iOS or Android mobile device. The* AEM Verify* is a mobile app, on your device and you connect it to the server running the quickstart to get a list of apps to view. Click [here](../../mobile/using/phonegap-mobile-quickstart.md) to view the details.
 
-### Additional Resources {#additional-resources}
+## Additional Resources {#additional-resources}
 
 To learn about the roles and responsibilities of an Author and Developer, see the resources below:
 
 * [Developing for Adobe PhoneGap Enterprise with AEM](../../mobile/using/developing-in-phonegap.md)
 * [Authoring for Adobe PhoneGap Enterprise in AEM](../../mobile/using/phonegap.md)
-

@@ -23,9 +23,7 @@ They share the same common properties found in any cq:Page in addition to severa
 
 The following tables describe the content properties and nodes.
 
-##
-
-### Common Integration Properties {#common-integration-properties}
+## Common Integration Properties {#common-integration-properties}
 
 | **Property Name** |**Type** |**Defaults or Expected Values** |**Description** |
 |---|---|---|---|
@@ -36,9 +34,7 @@ The following tables describe the content properties and nodes.
 | dps-lastUploaded |Date |  |date of last upload from AEM to AEM Mobile |
 | dps-lastUploadedBy |String:userid |  |id user that performed the last upload request from AEM to AEM Mobile |
 
-##
-
-### Core Metadata Properties {#core-metadata-properties}
+## Core Metadata Properties {#core-metadata-properties}
 
 <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
  <tbody>
@@ -95,7 +91,7 @@ The following tables describe the content properties and nodes.
  </tbody>
 </table>
 
-### Articles {#articles}
+## Articles {#articles}
 
 | **Property Name** |**Type** |**Defaults or Expected Values** |
 |---|---|---|
@@ -108,14 +104,14 @@ The following tables describe the content properties and nodes.
 | dps-articleText |String |  |
 | dps-url |String |  |
 
-### Banners {#banners}
+## Banners {#banners}
 
 | **Property Name** |**Type** |**Defaults or Expected Values** |
 |---|---|---|
 | dps-tapAction |  |TapAction from {webLink} |
 | dps-tapActinUrl |  |  |
 
-### Collections {#collections}
+## Collections {#collections}
 
 <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
  <tbody>

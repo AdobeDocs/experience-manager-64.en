@@ -51,11 +51,11 @@ Starting a new AEM Mobile app experience requires a cohesion of roles before it 
 >
 >Before working with AEM Mobile and following the steps within this getting started guide, users should be familiar with AEM. Learn the basics of AEM [here](../../sites/deploying/using/deploy.md).
 
-#### Understanding the AEM Mobile Application Dashboard {#understanding-the-aem-mobile-application-dashboard}
+### Understanding the AEM Mobile Application Dashboard {#understanding-the-aem-mobile-application-dashboard}
 
 Before understanding the roles and responsibilities, the user should have throrough knowledge of **AEM Mobile Control Center** or the **Application** **Dashboard**. Click [here](../../mobile/using/mobile-apps-ondemand-application-dashboard.md) for an in-depth understanding.
 
-### AEM Administrator {#aem-administrator}
+## AEM Administrator {#aem-administrator}
 
 An ***AEM administrator*** is responsible for adding a new application to the AEM Mobile catalog, either by creating a new app using the creation wizard, or by importing an existing application. AEM administrators who create a new app using AEM Mobile's *creation wizard* typically select one of the desired app templates either from our out-of-the-box reference samples or (in most cases) a custom app template created by *AEM developers.*
 
@@ -68,7 +68,7 @@ An AEM administrator is responsible for the following tasks while creating an ap
 
 To get started with an Administrator's roles and responsibilities, See [Administering Content to Use AEM Mobile On-Demand Services](../../mobile/using/aem-mobile.md).
 
-### AEM Developer {#aem-developer}
+## AEM Developer {#aem-developer}
 
 An **AEM developer** extends and creates custom web templates and components to enable the *AEM Author *to create beautiful and engaging mobile experiences. These templates and components are not only optimized for the mobile app world; but communicate both to the device and to the AEM server (any remote server) to omni-channel service end-points. AEM's built-in content editor is used by *AEM Authors* to create rich and relevent experiences within the app, including integration with the rest of the Adobe Marketing Cloud.
 
@@ -85,7 +85,7 @@ To get started with Developer's roles and responsibilities, See [Developing AEM 
 >
 >An *AEM developer's* role does not start and end with the development of templates and components. An *AEM developer* can create an entirely new app rather than simply extend the out-of-the-box reference implementation sample.
 
-### AEM Author {#aem-author}
+## AEM Author {#aem-author}
 
 An ***AEM Author* (or *Marketer*)** uses the custom developed or out-of-the-box templates and components to add and edit pages, drag and drop components and add media of all types from the DAM including images, videos and text fragments (content fragments). AEM's built-in content editor is then used by *AEM Authors* to create rich and relevent experiences within the app, including integration with the rest of the Adobe Marketing Cloud.
 

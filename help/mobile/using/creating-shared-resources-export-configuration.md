@@ -29,8 +29,6 @@ The property ***dps-exportTemplate*** mentioned in table above, defines the path
 
 The following resources describes exporting shared resources from Adobe Experience Manager (AEM) for upload to AEM Mobile.
 
-##
-
 Shared HTML Resources allows articles to share HTML resources that would otherwise need to be duplicated for all articles and can include icons, fonts, javascript, and css.
 
 The Content Sync configuration found at **&lt;dps-exportTemplate&gt;/dps-HTMLResources&gt;** should be configured to export all the content an article required for property static rendering on device.
@@ -42,7 +40,6 @@ The Content Sync configuration found at **&lt;dps-exportTemplate&gt;/dps-HTMLRes
 >* installed the sample content
 >* running AEM instance
 >* no configured custom context or a different port
->
 
 To view sample shared resource, see the steps below:
 
@@ -56,4 +53,3 @@ To view sample shared resource, see the steps below:
 >[!NOTE]
 >
 >Shared resources should be uploaded or exported to AEM Mobile On-Demand Services when any of the shared resources change.
-

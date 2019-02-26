@@ -26,7 +26,6 @@ This tutorial is intended for developers who are new to AEM Screens. In this tut
 To complete this tutorial the following is needed:
 
 1. [AEM 6.4](https://helpx.adobe.com/experience-manager/6-4/release-notes.html) or [AEM 6.3](https://helpx.adobe.com/experience-manager/6-3/release-notes.html) + Latest Screens Feature Pack
-
 1. [AEM Screens Player](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/configuring-screens-introduction.html)
 1. Local Development Environment
 
@@ -38,7 +37,6 @@ The tutorial steps and screen shots are performed using [CRXDE-Lite](http://loca
 >
 >1. [Understanding AEM Screens](https://helpx.adobe.com/experience-manager/kt/screens/using/screens-concepts-feature-video-understand.html)
 >1. [Screens Kickstart Guide](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/kickstart-for-aem-screens.html)
->
 
 ## Project Setup {#project-setup}
 
@@ -402,19 +400,18 @@ Below a We.Retail Run Design page is created that will store all configurations 
 
 The Hello World component is intended to be used on a Sequence Channel. To test the component, a new Sequence Channel is created.
 
+<!--check these steps. migration mangle?-->
+
 1. From the AEM Start Menu navigate to **Screens** &gt; **We.Retail Ru**n &gt; and select **Channels**.
 
 1. Click the **Create** button
-
-   2. Choose **Create Entity**
+1. Choose **Create Entity**
 
    ![](assets/2018-04-30_at_5_18pm.png)
 
 1. In the Create wizard:
-
 1. Template Step - choose** Sequence Channel**
-
-   2. Properties Step
+1. Properties Step
 
     * Basic Tab &gt; Title = **Idle Channel**
     * Channel Tab &gt; check** Make channel online **
@@ -428,12 +425,9 @@ The Hello World component is intended to be used on a Sequence Channel. To test 
    Design config pointing to /apps/settings/wcm/designs/we-retail-run
 
 1. Edit the newly created Idle Channel to open it.
-
 1. Switch the page mode to **Design** Mode
-
-   2. Click the **wrench** Icon in the Parsys to configure the allowed components
-
-   3. Select the **Screens** group and the **We.Retail Run - Content** group.
+1. Click the **wrench** Icon in the Parsys to configure the allowed components
+1. Select the **Screens** group and the **We.Retail Run - Content** group.
 
    ![](assets/2018-04-30_at_5_43pm.png)
 

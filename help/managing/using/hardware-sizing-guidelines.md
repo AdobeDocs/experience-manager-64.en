@@ -44,7 +44,7 @@ Basic factors to consider are (in this order):
     * Size of website (number of content-object, pages, and users)
     * Number of users/sessions that are active at the same time
 
-### Architecture {#architecture}
+## Architecture {#architecture}
 
 A typical AEM setup consists of an author and a publish environment. These environments have different requirements regarding the underlying hardware size and system configuration. Detailed considerations for both environments are described in the [author environment](../../managing/using/hardware-sizing-guidelines.md#authorenvironmentspecificcalculations) and [publish environment](../../managing/using/hardware-sizing-guidelines.md#publishenvironmentspecificcalculations) sections.
 
@@ -79,7 +79,7 @@ Hardware sizing requirements for advanced use cases need to be based on a detail
 * extensive use of customized code, custom workflows or 3rd party software libraries
 * integration with unsupported external systems
 
-#### Disk Space/ Hard Drive {#disk-space-hard-drive}
+### Disk Space/ Hard Drive {#disk-space-hard-drive}
 
 The disk space required depends heavily on both the volume and type of your web application. The calculations should take into account:
 
@@ -96,13 +96,13 @@ Consider a setup of redundant arrays of independent disks (RAID, e.g. RAID10) fo
 >
 >The temporary directory of a production instance should have at least 6 GB of available space.
 
-#### Virtualization {#virtualization}
+### Virtualization {#virtualization}
 
 AEM runs well in virtualized environments, but there can be factors such as CPU or I/O that cannot be directly equated to physical hardware. A recommendation is to choose a higher I/O speed (in general) as this is a critical factor in most cases. Benchmarking your environment is necessary to get a precise understanding of what resources will be required.
 
-#### Parallelization of AEM Instances {#parallelization-of-aem-instances}
+### Parallelization of AEM Instances {#parallelization-of-aem-instances}
 
-**Fail Safeness **
+**Fail Safeness**
 
 A fail-safe website is deployed on at least two separate systems. If one system breaks down, an other system can take over and thus compensate the system failure.
 
@@ -119,21 +119,19 @@ The estimation of how many cluster nodes are necessary is based on the basic req
 
 For benchmarking purposes, Adobe has developed some benchmark tests for standalone author instances.
 
-* **Benchmark test 1  
+* **Benchmark test 1**
   
-  **Calculate maximum throughput of a load profile where users perform a simple create page exercise on top of a base load of 300 existing pages all of a similar nature. The steps involved were logging in to the site, creating a page with a SWF and Image/Text, adding a tag cloud, then activating the page.
+  Calculate maximum throughput of a load profile where users perform a simple create page exercise on top of a base load of 300 existing pages all of a similar nature. The steps involved were logging in to the site, creating a page with a SWF and Image/Text, adding a tag cloud, then activating the page.
 
-    * **Result  
-  
-      **Maximum throughput for a simple page creation exercise such as above (considered as one transaction) was found to be 1730 transactions/hour.
+    * **Result** Maximum throughput for a simple page creation exercise such as above (considered as one transaction) was found to be 1730 transactions/hour.
 
-* **Benchmark test 2  
-  
-  **Calculate maximum throughput when load profile has a mix of fresh page creation (10%), modification of an existing page (80%) and creation then modification of a page in succession (10%). The complexity of the pages remains the same as in the profile of benchmark test 1. Basic modification of the page is done by adding an image and modifying the text content. Again, the exercise was performed on top of a base load of 300 pages of the same complexity as defined in benchmark test 1.
+* **Benchmark test 2**
 
-    * **Result** 
+  Calculate maximum throughput when load profile has a mix of fresh page creation (10%), modification of an existing page (80%) and creation then modification of a page in succession (10%). The complexity of the pages remains the same as in the profile of benchmark test 1. Basic modification of the page is done by adding an image and modifying the text content. Again, the exercise was performed on top of a base load of 300 pages of the same complexity as defined in benchmark test 1.
+
+  * **Result** 
   
-      Maximum throughput for such a mix operation scenario was found to be 3252 transactions per hour.
+  Maximum throughput for such a mix operation scenario was found to be 3252 transactions per hour.
 
 >[!NOTE]
 >
@@ -141,11 +139,11 @@ For benchmarking purposes, Adobe has developed some benchmark tests for standalo
 
 The above two tests clearly highlight that the throughput varies according to the type of operation. Use the activities on your environment as a base for sizing your system. You will get better throughput with less intensive actions such as modify (which is also more common).
 
-### Caching {#caching}
+## Caching {#caching}
 
 In the author environment the caching efficiency is typically much lower, because changes to the website are more frequent and also the content is highly interactive and personalized. Using the dispatcher, you can cache AEM libraries, JavaScripts, CSS files and layout images. This speeds up some aspects of the authoring process. Configuring the webserver to additionally set headers for browser caching on these resources, will reduce the number of HTTP requests and so improve the system responsiveness as experienced by the authors.
 
-### Authors Working in Parallel {#authors-working-in-parallel}
+## Authors Working in Parallel {#authors-working-in-parallel}
 
 In the author environment the number of authors that work in parallel and the load their interactions add to the system are the main limiting factors. Therefore we recommend that you scale your system based on the shared throughput of data.
 
@@ -179,7 +177,7 @@ This formula can serve as a general guideline for scaling CPUs when authors are 
 
 Please also see the additional comments on [Parallelization](../../managing/using/hardware-sizing-guidelines.md#parallelizationofaeminstances) and [Performance Optimization](../../sites/deploying/using/configuring-performance.md).
 
-### Hardware Recommendations {#hardware-recommendations}
+## Hardware Recommendations {#hardware-recommendations}
 
 Usually you can use the same hardware for your author environment as is recommended for your publishing environment. Typically, website traffic is much lower on authoring systems, but cache efficiency is lower too. However, the fundamental factor here is the number of authors working in parallel, together with the type of actions being made to the system. In general AEM clustering (of the author environment) is most effective at scaling read operations; in other words, a AEM cluster scales well with authors who are performing basic edit operations.
 
@@ -327,4 +325,3 @@ See
 
 * [Community Content Storage](../../communities/using/working-with-srp.md)
 * [Recommended Topologies for Communities](../../communities/using/topologies.md)
-

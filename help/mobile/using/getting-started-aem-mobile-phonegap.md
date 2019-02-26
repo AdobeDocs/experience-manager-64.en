@@ -29,7 +29,7 @@ The real power of AEM Mobile is that a* *savvy* **AEM Developer*** can extend an
 >
 >When the *AEM Author* believes the app is ready, they can first have their stakeholders download the app with ** [Adobe Verify](../../mobile/using/phonegap-mobile-quickstart.md)**(available in both the AppStore and PlayStore) for review and approval. Once they've received the green light, they are able to release this new or updated content directly to their users through the AEM Mobile ContentSync content release management dashboard. One person can take on any number of roles, that's up to you and your governance policies.
 
-### Prerequisites {#prerequisites}
+## Prerequisites {#prerequisites}
 
 AEM Mobile is just one pillar that makes up the complete AEM platform.
 

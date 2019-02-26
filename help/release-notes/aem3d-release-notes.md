@@ -146,8 +146,6 @@ Version 3.1
 * A new 3D viewer for glTF assets.
 * A new interface to a cloud-based, Adobe-managed conversion service hosted in Amazon AWS. Initially, this service only converts from Dn to glTF formats.
 
-###
-
 ## Restrictions and known issues {#restrictions-and-known-issues}
 
 ### Adobe Dimension support {#adobe-dimension-support}
@@ -213,5 +211,5 @@ Version 3.1
 
 * **3D Component configuration** - You must install the 3D Feature Pack on all active Publish nodes and each node must be configured with **CRXDE Lite** to the same configuration options at `/libs/settings/dam/v3D/WebGLSites`.
 
-* **Missing textures, background, or lighting after publishing - **The **Publish** mechanism in AEM Sites automatically publishes the page's primary dependencies, including the 3D model and the 3D stage referenced by the 3D component. 3D stages and 3D models typically depend on secondary assets for IBL images and texture maps, which the Sites Publish mechanism does not publish automatically. Workaround: publish all 3D assets from Assets prior to publishing the web page from Sites. Doing so ensures that all dependencies for 3D assets are available on the Publish nodes.
+* **Missing textures, background, or lighting after publishing** - The **Publish** mechanism in AEM Sites automatically publishes the page's primary dependencies, including the 3D model and the 3D stage referenced by the 3D component. 3D stages and 3D models typically depend on secondary assets for IBL images and texture maps, which the Sites Publish mechanism does not publish automatically. Workaround: publish all 3D assets from Assets prior to publishing the web page from Sites. Doing so ensures that all dependencies for 3D assets are available on the Publish nodes.
 
