@@ -22,7 +22,7 @@ Creating a custom workflow step involves the following activities:
 
 You can also [interact with your workflows from your programs and scripts](../../../sites/developing/using/workflows-program-interaction.md).
 
-### Workflow Step Components - The Basics {#workflow-step-components-the-basics}
+## Workflow Step Components - The Basics {#workflow-step-components-the-basics}
 
 A workflow step component defines the appearance and behavior of the step when creating workflow models:
 
@@ -43,11 +43,8 @@ As with [all components](../../../sites/developing/using/components.md), workflo
 >
 >The recommended method for configuration and other changes is:
 >
->1. Recreate the required item (i.e. as it exists in `/libs`) under >
->```>
->/apps
+>1. Recreate the required item (i.e. as it exists in `/libs`) under `/apps`
 >
->```>
 >2. Make any changes within `/apps`
 
 The `/libs/cq/workflow/components/model/step` component is the nearest common ancestor of the **Process Step**, **Participant Step**, and **Dynamic Participant Step**, which all inherit the following items:
@@ -58,8 +55,8 @@ The `/libs/cq/workflow/components/model/step` component is the nearest common an
 
 * A dialog with the following tabs:
 
-    * **Common**: for editing the title and description.
-    * **Advanced**: for editing email notification properties.
+  * **Common**: for editing the title and description.
+  * **Advanced**: for editing email notification properties.
 
   ![](assets/wf-44.png) ![](assets/wf-45.png)
 
@@ -67,7 +64,7 @@ The `/libs/cq/workflow/components/model/step` component is the nearest common an
   >
   >When the tabs of the edit dialog of a step component do not match this default appearance, the step component has defined scripts, node properties, or dialog tabs that override these inherited tabs.
 
-### ECMA Scripts {#ecma-scripts}
+## ECMA Scripts {#ecma-scripts}
 
 The following objects are available (dependent on step type) within ECMA scripts:
 
@@ -79,7 +76,7 @@ The following objects are available (dependent on step type) within ECMA scripts
 * `sling`: to access other osgi services.
 * `jcrSession`
 
-### MetaDataMaps {#metadatamaps}
+## MetaDataMaps {#metadatamaps}
 
 You can use workflow metadata to persist information that is required during the lifetime of the workflow. A common requirement of workflow steps is to persist data for future use in the workflow, or to retrieve the persisted data.
 
@@ -99,11 +96,11 @@ To inherit from one of the (existing) base step components, add the following pr
 * Type: `String`
 * Value: One of the following paths that resolves to a base component:
 
-    * `cq/workflow/components/model/process`
-    * `cq/workflow/components/model/participant`
-    * `cq/workflow/components/model/dynamic_participant`
+  * `cq/workflow/components/model/process`
+  * `cq/workflow/components/model/participant`
+  * `cq/workflow/components/model/dynamic_participant`
 
-### Specifying the Default Title and Description for Step Instances {#specifying-the-default-title-and-description-for-step-instances}
+## Specifying the Default Title and Description for Step Instances {#specifying-the-default-title-and-description-for-step-instances}
 
 Use the following procedure to specify default values for the **Title** and **Description** fields on the **Common** tab.
 
@@ -111,19 +108,18 @@ Use the following procedure to specify default values for the **Title** and **De
 >
 >The field values appear on the step instance when both of the following requirements are satisfied:
 >
->* The edit dialog of the step stores the title and description in the following locations: >
->    * `./jcr:title`
->    * `./jcr:description` locations
+>* The edit dialog of the step stores the title and description in the following locations:
+>  * `./jcr:title`
+>  * `./jcr:description` locations
 >
->  This requirement is satisfied when the edit dialog uses the Common tab that the `/libs/cq/flow/components/step/step` component implements.
+>This requirement is satisfied when the edit dialog uses the Common tab that the `/libs/cq/flow/components/step/step` component implements.
 >
 >* The step component or an ancestor of the component does not override the `step.jsp` script that the `/libs/cq/flow/components/step/step` component implements.
->
 
 1. Below the `cq:Component` node, add the following node:
 
-    * Name: `cq:editConfig`
-    * Type: `cq:EditConfig`
+   * Name: `cq:editConfig`
+   * Type: `cq:EditConfig`
 
    >[!NOTE]
    >
@@ -131,16 +127,15 @@ Use the following procedure to specify default values for the **Title** and **De
 
 1. Below the `cq:EditConfig` node, add the following node:
 
-    * Name: `cq:formParameters`
-    * Type: `nt:unstructured`
+   * Name: `cq:formParameters`
+   * Type: `nt:unstructured`
 
 1. Add `String` properties of the following names to the `cq:formParameters` node:
 
-    * `jcr:title`: The value fills the **Title** field of the **Common** tab.
-    
-    * `jcr:description`: The value fills the **Description** field of the **Common** tab.
+   * `jcr:title`: The value fills the **Title** field of the **Common** tab.
+   * `jcr:description`: The value fills the **Description** field of the **Common** tab.
 
-### Saving Property Values in Workflow Metadata {#saving-property-values-in-workflow-metadata}
+## Saving Property Values in Workflow Metadata {#saving-property-values-in-workflow-metadata}
 
 >[!NOTE]
 >
@@ -162,7 +157,7 @@ The value that is specified in this text field is added to the workflow instance
 >
 >When the key is `PROCESS_ARGS`, the value is readily available in ECMA script implementations via the `args` variable. In this case, the value of the name property is `./metaData/PROCESS_ARGS.`
 
-### Overriding the Step Implementation {#overriding-the-step-implementation}
+## Overriding the Step Implementation {#overriding-the-step-implementation}
 
 Each base step component enable workflow model developers to configure the following key features at design time:
 
@@ -174,27 +169,27 @@ To focus the component for use in a specific workflow scenario, configure the ke
 
 1. Below the cq:component node, add the following node:
 
-    * Name: `cq:editConfig`
-    * Type: `cq:EditConfig`
+   * Name: `cq:editConfig`
+   * Type: `cq:EditConfig`
 
    For more information about the cq:editConfig node, see [Configuring the Edit Behaviour of a Component](../../../sites/developing/using/components.md#configuringtheeditbehaviourofacomponent).
 
 1. Below the cq:EditConfig node, add the following node:
 
-    * Name: `cq:formParameters`
-    * Type: `nt:unstructured`
+   * Name: `cq:formParameters`
+   * Type: `nt:unstructured`
 
 1. Add a `String` property to the `cq:formParameters` node. The component super type determines the name of the property:
 
-    * Process Step: `PROCESS`
-    * Participant Step: `PARTICIPANT`
-    * Dynamic Participant Step: `DYNAMIC_PARTICIPANT`
+   * Process Step: `PROCESS`
+   * Participant Step: `PARTICIPANT`
+   * Dynamic Participant Step: `DYNAMIC_PARTICIPANT`
 
 1. Specify the value of the property:
 
-    * `PROCESS`: The path to the ECMA script or the PID of the service that implements the step behavior.
-    * `PARTICIPANT`: The ID of the user who is assigned the work item.
-    * `DYNAMIC_PARTICIPANT`: The path to the ECMA script or the PID of the service that selects the user to assign the work item.
+   * `PROCESS`: The path to the ECMA script or the PID of the service that implements the step behavior.
+   * `PARTICIPANT`: The ID of the user who is assigned the work item.
+   * `DYNAMIC_PARTICIPANT`: The path to the ECMA script or the PID of the service that selects the user to assign the work item.
 
 1. To remove the ability of model developers to change your property values, override the dialog of the component super type.
 
@@ -202,34 +197,34 @@ To focus the component for use in a specific workflow scenario, configure the ke
 
 Customize your participant step component to provide features that are found in the [Form Participant Step](../../../sites/developing/using/workflows-step-ref.md#main-pars-title-0) and [Dialog Participant Step](../../../sites/developing/using/workflows-step-ref.md#main-pars-title-0) components:
 
-* Present a form to the user when they open the generated work item. 
+* Present a form to the user when they open the generated work item.
 * Present a custom dialog to the user when they complete the generated work item.
 
 Peform the following procedure on your new component (see [Creating Custom Workflow Step Components](#creatingcustomworkflowstepcomponents)):
 
 1. Below the `cq:Component` node, add the following node:
 
-    * Name: `cq:editConfig`
-    * Type: `cq:EditConfig`
+   * Name: `cq:editConfig`
+   * Type: `cq:EditConfig`
 
    For more information about the cq:editConfig node, see [Configuring the Edit Behaviour of a Component](../../../sites/developing/using/components.md#configuringtheeditbehaviourofacomponent).
 
 1. Below the cq:EditConfig node, add the following node:
 
-    * Name: `cq:formParameters`
-    * Type: `nt:unstructured`
+   * Name: `cq:formParameters`
+   * Type: `nt:unstructured`
 
 1. To present a form when the user opens the work item, add the following property to the `cq:formParameters` node:
 
-    * Name: `FORM_PATH`
-    * Type: `String`
-    * Value: The path that resolves to the form
+   * Name: `FORM_PATH`
+   * Type: `String`
+   * Value: The path that resolves to the form
 
 1. To present a custom dialog when the user completes the work item, add the following property to the `cq:formParameters` node
 
-    * Name: `DIALOG_PATH`
-    * Type: `String`
-    * Value: The path that resolves to the dialog
+   * Name: `DIALOG_PATH`
+   * Type: `String`
+   * Value: The path that resolves to the dialog
 
 ### Configuring the Workflow Step Runtime Behavior {#configuring-the-workflow-step-runtime-behavior}
 
@@ -237,16 +232,16 @@ Below the `cq:Component` node, add a `cq:EditConfig` node. Below that add an `nt
 
 * Name: `PROCESS_AUTO_ADVANCE`
 
-    * Type: `Boolean`
-    * Value:
+  * Type: `Boolean`
+  * Value:
 
-        * when set to `true` the workflow will run that step and continue - this is default and also recommended
-        * when `false`, the workflow will run and stop; this needs extra handling, so `true` is recommended
+    * when set to `true` the workflow will run that step and continue - this is default and also recommended
+    * when `false`, the workflow will run and stop; this needs extra handling, so `true` is recommended
 
 * Name: `DO_NOTIFY`
 
-    * Type: `Boolean`
-    * Value: indicates whether email notifications should be sent for user participation steps (and assumes that the mail server is correctly configured)
+  * Type: `Boolean`
+  * Value: indicates whether email notifications should be sent for user participation steps (and assumes that the mail server is correctly configured)
 
 ## Persisting and Accessing Data {#persisting-and-accessing-data}
 
@@ -256,7 +251,7 @@ You can use workflow metadata to persist information that is required during the
 
 Workflow metadata is stored in a ` [MetaDataMap](#metadatamaps)` object. The Java API provides the ` [Workflow.getWorkflowData](/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/exec/Workflow)` method to return a ` [WorkflowData](/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/exec/WorkflowData)` object that provides the appropriate `MetaDataMap` object. This `WorkflowData` `MetaDataMap` object is available to the OSGi service or ECMA script of a step component.
 
-#### Java {#java}
+### Java {#java}
 
 The execute method of the `WorkflowProcess` implementation is passed the `WorkItem` object. Use this object to obtain the `WorkflowData` object for the current workflow instance. The following example adds an item to the workflow `MetaDataMap` object and then logs each item. The ("mykey", "My Step Value") item is available to subsequent steps in the workflow.
 
@@ -276,7 +271,7 @@ public void execute(WorkItem item, WorkflowSession session, MetaDataMap args) th
 }
 ```
 
-#### ECMA Script {#ecma-script}
+### ECMA Script {#ecma-script}
 
 The `graniteWorkItem` variable is the ECMA script representation of the current `WorkItem` Java object. Therefore, you can use the `graniteWorkItem` variable to obtain the workflow metadata. The following ECMA script can be used to implement a **Process Step** to add an item to the workflow `MetaDataMap` object and then log each item. These items are then available to subsequent steps in the workflow.
 
@@ -320,7 +315,7 @@ In the following diagram, the value of the **Arguments** property is `argument1,
 
 ![](assets/wf-24.png) 
 
-#### Java {#java-1}
+### Java {#java-1}
 
 The following Java code is the `execute` method for a `WorkflowProcess` implementation. The method logs the value in the `args` `MetaDataMap` that is associated with the `PROCESS_ARGS` key.
 
@@ -338,7 +333,7 @@ When a process step that uses this Java implementation executes, the log contain
 16.02.2018 12:07:39.566 *INFO* [JobHandler: /var/workflow/instances/server0/2018-02-16/model_855140139900189:/content/we-retail/de] com.adobe.example.workflow.impl.process.LogArguments workflow metadata for key PROCESS_ARGS and value argument1, argument2
 ```
 
-#### ECMA Script {#ecma-script-1}
+### ECMA Script {#ecma-script-1}
 
 The following ECMA script is used as the process for the **Process Step**. It logs the number of arguments and the argument values:
 
@@ -782,7 +777,7 @@ An easy way to start creating your own custom step is to copy an existing step f
 
 `/libs/cq/workflow/components/model`
 
-#### Creating the Basic Step {#creating-the-basic-step}
+### Creating the Basic Step {#creating-the-basic-step}
 
 1. Recreate the path under /apps; for example:
 
@@ -846,7 +841,7 @@ An easy way to start creating your own custom step is to copy an existing step f
 
    ![](assets/wf-38.png)
 
-#### Defining the Step Configure Dialog {#defining-the-step-configure-dialog}
+### Defining the Step Configure Dialog {#defining-the-step-configure-dialog}
 
 After [Creating the Basic Step](#creatingthebasicstep-), define the step **Configure** dialog as follows:
 
@@ -908,7 +903,7 @@ After [Creating the Basic Step](#creatingthebasicstep-), define the step **Confi
 
    ![](assets/wf-42.png) ![](assets/wf-43.png)
 
-#### Sample Markup used in this Example {#sample-markup-used-in-this-example}
+### Sample Markup used in this Example {#sample-markup-used-in-this-example}
 
 Markup for a custom step is be represented in the `.content.xml` of the component root node. The sample `.content.xml` used for this example:
 
@@ -1039,4 +1034,3 @@ The `_cq_dialog/.content.xml` sample used in this example:
 >
 >  You must not modify anything in `/libs`, simply use them as examples. If you want to leverage any of the existing steps, copy them to `/apps` and modify them there.
 >
-

@@ -22,23 +22,23 @@ Please [contact support](/content/help/en/support/experience-manager) if you nee
 Hybrid Devices are not supported. Various issues can be encountered when using such devices. However, these procedures will solve most of the issues:
 
 If you are using Chrome as browser:  
-- Type chrome://flags/ in the address bar and press Enter.  
-- Click on Enable touch events &gt; Disabled.  
-- Restart the browser (all tabs and windows).  
+* Type chrome://flags/ in the address bar and press Enter.  
+* Click on Enable touch events &gt; Disabled.  
+* Restart the browser (all tabs and windows).  
   
 If you are using Firefox as browser:  
-- Type about:config in the address bar and press Enter.  
-- Filter the settings to dom.w3c.  
-- Make sure that the settings are 0 and false.  
-- Restart Browser.
+* Type about:config in the address bar and press Enter.  
+* Filter the settings to dom.w3c.  
+* Make sure that the settings are 0 and false.  
+* Restart Browser.
 
 If you are using Edge as browser:
 
-- Type about:flags in the address bar and press Enter.  
-- Scroll down to Experimental features then Touch.  
-- Click on option called "Enable touch events".  
-- Select Always Off.  
-- Restart Browser.
+* Type about:flags in the address bar and press Enter.  
+* Scroll down to Experimental features then Touch.  
+* Click on option called "Enable touch events".  
+* Select Always Off.  
+* Restart Browser.
 
 >[!VIDEO](https://vimeo.com/)
 
@@ -90,27 +90,27 @@ If you are using Edge as browser:
 
 ## Forms {#forms}
 
-**Installation and deployment**
+### Installation and deployment
 
 * (AEM Forms JEE only) When boostrapping JBoss application server while running Configuration Manager returns EJB invocation and bootstrap failure errors. However, you can ignore them. (Ref# CQ-4229793)
 
-**Interactive Communications**
+### Interactive Communications
 
 * The Agent UI takes a while to load Interactive Communications that include chart or image elements. (Ref# CQ-4236630)
 * The data display format in print preview is dd-mm-yyyy while in the web preview is dd-mmm-yy (Ref# CQ-4237045)  
 * The Interactive Communication Web channel supports only ordered and unordered lists. In list document fragments, compound listing and indentation are not supported for Web channel of the Interactive Communication. (Ref# CQ-4233672)
 * The following issues are observed when web channel syncs with print channel:
 
-    * Web channel take a while to sync when switching from print channel for the first time.
-    * Web channel does not sync if the print channel includes an unconfigured chart component. To resolve the issue, delete the chart component and sync again.
-    * Sync sometimes fails with the "An error occurred while synchronizing the Live Copy" error. To resolve the issue, refresh the page.
-    * The static text in a layout fragment is replaced with table cell name when the first column in the table is a header column in the print channel template.
-    * Cannot add components or assets at any location other than at the bottom of a web channel communication. To place it at another location, add a panel at the bottom of web channel and reorder using the content tree.
-    * Can move content into inherited target area of web channel without removing the live copy inheritance.
+  * Web channel take a while to sync when switching from print channel for the first time.
+  * Web channel does not sync if the print channel includes an unconfigured chart component. To resolve the issue, delete the chart component and sync again.
+  * Sync sometimes fails with the "An error occurred while synchronizing the Live Copy" error. To resolve the issue, refresh the page.
+  * The static text in a layout fragment is replaced with table cell name when the first column in the table is a header column in the print channel template.
+  * Cannot add components or assets at any location other than at the bottom of a web channel communication. To place it at another location, add a panel at the bottom of web channel and reorder using the content tree.
+  * Can move content into inherited target area of web channel without removing the live copy inheritance.
 
 (Ref# CQ-4239780)
 
-**Data integration**
+### Data integration
 
 * Authentication configurations for SOAP-based web services are not visible and thus cannot be configured in cloud services. To resolve the issue:
 
@@ -123,11 +123,11 @@ selectAuthentication/items/custom.
 
 (Ref# CQ-4238462)
 
-**Adobe Sign integration**
+### Adobe Sign integration
 
 * Adobe Sign scheduler stops working intermittently and therefore forms pending sign do not move to submission. To resolve the issue, restart the **Apache Sling Scheduler Support **bundle from AEM web console at http://[*server*]:[*port*]/system/console/bundles.
 
-**Adaptive Forms authoring**
+### Adaptive Forms authoring
 
 * The Chart component in adaptive forms takes more space than it normally does.
 * An exception is returned when saving properties for adaptive forms, adaptive form fragments, or interactive communications in Forms Manager UI.
