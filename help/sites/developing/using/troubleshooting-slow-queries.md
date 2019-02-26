@@ -364,7 +364,7 @@ The following example uses Query Builder as it's the most common query language 
 
 1. Provide the XPath (or JCR-SQL2) to [Oak Index Definition Generator](http://oakutils.appspot.com/generate/index) to generate the optimized Lucene Property Index definition.
 
-   #### Generated Lucene Property Index definition {#generated-lucene-property-index-definition}
+### Generated Lucene Property Index definition {#generated-lucene-property-index-definition}
 
    ```xml
    - evaluatePathRestrictions = true
@@ -410,7 +410,7 @@ The following example uses Query Builder as it's the most common query language 
 
 1. Provide the XPath (or JCR-SQL2) to [Oak Index Definition Generator](http://oakutils.appspot.com/generate/index) to generate the optimized Lucene Property Index definition.
 
-   #### Generated Lucene Property Index definition {#generated-lucene-property-index-definition-1}
+### Generated Lucene Property Index definition {#generated-lucene-property-index-definition-1}
 
    ```xml
    - compatVersion = 2

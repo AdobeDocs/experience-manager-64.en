@@ -13,7 +13,7 @@ discoiquuid: cfb6a003-0fc8-4638-a03f-04f0bf21af95
 
 # Testing and Tracking Tools{#testing-and-tracking-tools}
 
-#### Testing {#testing}
+## Testing {#testing}
 
 AEM provides:
 
@@ -22,18 +22,18 @@ AEM provides:
 
 The following are two Open Source Testing tools:
 
-**Selenium**
+### Selenium
 
-**JMeter**
+### JMeter
 
 There are also many proprietary tools for automating tests and managing test plans.
 
-#### Tracking {#tracking}
+## Tracking {#tracking}
 
 The following tools are easily available. However a key issue in all cases is the availability of the data to all members of the project team - partner and customer.
 
-**Bugzilla**
+### Bugzilla
 
-**Spreadsheets**
+### Spreadsheets
 
 Again there are many proprietary tools for tracking bugs and feature requirements.
