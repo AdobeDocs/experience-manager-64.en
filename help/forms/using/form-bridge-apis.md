@@ -34,7 +34,7 @@ window.addEventListener("FormBridgeInitialized",
 >
 >Ensure that you create a connection before including the formRuntime.jsp file.
 
-### Available Form Bridge API&nbsp; {#available-form-bridge-api-nbsp}
+## Available Form Bridge API&nbsp; {#available-form-bridge-api-nbsp}
 
 **getBridgeVersion()**
 

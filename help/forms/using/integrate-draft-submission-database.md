@@ -75,91 +75,84 @@ Perform the following steps, on all the author and publish instances, to install
     * In the Web Console Configuration, find and click Forms Portal Data Service Sample Implementation. You can change the values of data source and data table name.
 
 1. Leave other configurations as is and click **Save**.  
-
 1. The database connection can be done via Apache Sling Connection Pooled Data Source.
 1. For Apache Sling connection, find and click to open **[!UICONTROL Apache Sling Connection Pooled DataSource]** in edit mode in the Web Console Configuration. Specify the values for properties as described in the following table:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
- <tbody> 
-  <tr> 
-   <td><strong>Property</strong></td> 
-   <td><strong>Value</strong></td> 
-  </tr> 
-  <tr> 
-   <td>Datasource name</td> 
-   <td><p>A datasource name for filtering drivers from the data source pool</p> <p><strong>Note: </strong><em>The sample implementation uses FormsPortal as the datasource name.</em></p> </td> 
-  </tr> 
-  <tr> 
-   <td>JDBC driver class</td> 
-   <td>com.mysql.jdbc.Driver</td> 
-  </tr> 
-  <tr> 
-   <td>JDBC connection URI<br /> </td> 
-   <td>jdbc:mysql://[<em>host</em>]:[<em>port</em>]/[<em>schema_name</em>]</td> 
-  </tr> 
-  <tr> 
-   <td>Username</td> 
-   <td>A username to authenticate and perform actions on database tables</td> 
-  </tr> 
-  <tr> 
-   <td>Password</td> 
-   <td>Password associated with the username</td> 
-  </tr> 
-  <tr> 
-   <td>Transaction Isolation</td> 
-   <td>READ_COMMITTED</td> 
-  </tr> 
-  <tr> 
-   <td>Max Active Connections</td> 
-   <td>1000</td> 
-  </tr> 
-  <tr> 
-   <td>Max Idle Connections</td> 
-   <td>100</td> 
-  </tr> 
-  <tr> 
-   <td>Min Idle Connections</td> 
-   <td>10</td> 
-  </tr> 
-  <tr> 
-   <td>Initial Size</td> 
-   <td>10</td> 
-  </tr> 
-  <tr> 
-   <td>Max Wait</td> 
-   <td>100000</td> 
-  </tr> 
-  <tr> 
-   <td>Test on Borrow</td> 
-   <td>Checked</td> 
-  </tr> 
-  <tr> 
-   <td>Test while Idle</td> 
-   <td>Checked</td> 
-  </tr> 
-  <tr> 
-   <td>Validation Query</td> 
-   <td>Example values are SELECT 1(mysql), select 1 from dual(oracle), SELECT 1(MS Sql Server) (validationQuery)</td> 
-  </tr> 
-  <tr> 
-   <td>Validation Query timeout</td> 
-   <td>10000</td> 
-  </tr> 
- </tbody> 
-</table>
+   <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+    <tbody> 
+    <tr> 
+    <td><strong>Property</strong></td> 
+    <td><strong>Value</strong></td> 
+    </tr> 
+    <tr> 
+    <td>Datasource name</td> 
+    <td><p>A datasource name for filtering drivers from the data source pool</p> <p><strong>Note: </strong><em>The sample implementation uses FormsPortal as the datasource name.</em></p> </td> 
+    </tr> 
+    <tr> 
+    <td>JDBC driver class</td> 
+    <td>com.mysql.jdbc.Driver</td> 
+    </tr> 
+    <tr> 
+    <td>JDBC connection URI<br /> </td> 
+    <td>jdbc:mysql://[<em>host</em>]:[<em>port</em>]/[<em>schema_name</em>]</td> 
+    </tr> 
+    <tr> 
+    <td>Username</td> 
+    <td>A username to authenticate and perform actions on database tables</td> 
+    </tr> 
+    <tr> 
+    <td>Password</td> 
+    <td>Password associated with the username</td> 
+    </tr> 
+    <tr> 
+    <td>Transaction Isolation</td> 
+    <td>READ_COMMITTED</td> 
+    </tr> 
+    <tr> 
+    <td>Max Active Connections</td> 
+    <td>1000</td> 
+    </tr> 
+    <tr> 
+    <td>Max Idle Connections</td> 
+    <td>100</td> 
+    </tr> 
+    <tr> 
+    <td>Min Idle Connections</td> 
+    <td>10</td> 
+    </tr> 
+    <tr> 
+    <td>Initial Size</td> 
+    <td>10</td> 
+    </tr> 
+    <tr> 
+    <td>Max Wait</td> 
+    <td>100000</td> 
+    </tr> 
+    <tr> 
+    <td>Test on Borrow</td> 
+    <td>Checked</td> 
+    </tr> 
+    <tr> 
+    <td>Test while Idle</td> 
+    <td>Checked</td> 
+    </tr> 
+    <tr> 
+    <td>Validation Query</td> 
+    <td>Example values are SELECT 1(mysql), select 1 from dual(oracle), SELECT 1(MS Sql Server) (validationQuery)</td> 
+    </tr> 
+    <tr> 
+    <td>Validation Query timeout</td> 
+    <td>10000</td> 
+    </tr> 
+    </tbody> 
+   </table>
 
    >[!NOTE]
    >
-   >
-   >    
-   >    
-   >    * The JDBC driver for MySQL is not provided with the sample. Ensure that you have provisioned for it and provide the required information to configure the JDBC connection pool.
-   >    * Point your author and publish instances to use same database. Value of the JDBC connection URI field must be same for all the author and publish instances.
-   >    
-   >
+   >* The JDBC driver for MySQL is not provided with the sample. Ensure that you have provisioned for it and provide the required information to configure the JDBC connection pool.
+   >* Point your author and publish instances to use same database. Value of the JDBC connection URI field must be same for all the author and publish instances.
 
 1. Leave other configurations as is and click **Save**.  
-
 1. If you already have a table in the database schema, skip to the next step.
 
    Otherwise, if you do not already have a table in the database schema, execute the following SQL statements to create separate tables for data, metadata, and additional metadata in the database schema:
@@ -214,7 +207,6 @@ Perform the following steps, on all the author and publish instances, to install
    PRIMARY KEY (`id`),
    UNIQUE KEY `ID_UNIQUE` (`id`)
    ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-   
    ```
 
    ```sql
@@ -259,7 +251,6 @@ Perform the following steps, on all the author and publish instances, to install
    add enablePortalSubmit varchar(45) DEFAULT NULL,
    add submitType varchar(45) DEFAULT NULL,
    add dataType varchar(45) DEFAULT NULL;
-   
    ```
 
    ```sql
@@ -380,11 +371,8 @@ Perform the following steps to create [a client library](../../sites/developing/
 1. Add the following property to the folder created in step 2 and click **Save All**.
 
     * **Name:** categories
-
     * **Type:** String
-
     * **Value:** fp.validation
-
     * **multi option:** Enabled
 
 1. Navigate to `/libs/fd/af/runtime/clientlibs/guideRuntime`and append the `fp.validation` value to the **embed **property.  
@@ -396,4 +384,3 @@ Perform the following steps to create [a client library](../../sites/developing/
    >If you are using custom client libraries instead of of the guideRuntime and guideRuntimeWithXfa client libraries, use the category name to embed the client library created in this procedure to your custom libraries loaded at runtime.
 
 1. Click **Save All.** Now, when the filename is larger than 150 (including extension) characters a message is displayed.
-

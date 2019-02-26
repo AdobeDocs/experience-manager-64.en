@@ -77,14 +77,14 @@ The rule editor provides the following logical operators and events using which 
 
 * **Is Equal To**
 * **Is Not Equal To**
-* **Starts With **
+* **Starts With**
 * **Ends With** 
-* **Contains **
-* **Is Empty **
+* **Contains**
+* **Is Empty**
 * **Is Not Empty**
-* **Has Selected: ** Returns true when the user selects a particular option for a checkbox, drop-down, radio button.
-* **Is Initialized (event): **Returns true when a form object renders in the browser. 
-* **Is Changed (event): **Returns true when the user changes the entered value or selected option for a form object.
+* **Has Selected:** Returns true when the user selects a particular option for a checkbox, drop-down, radio button.
+* **Is Initialized (event):** Returns true when a form object renders in the browser. 
+* **Is Changed (event):** Returns true when the user changes the entered value or selected option for a form object.
 
 ## Available rule types in rule editor {#available-rule-types-in-rule-editor}
 
@@ -98,19 +98,19 @@ Using the When rule type, you can evaluate a condition on a form object and perf
 
 In plain words, a typical When rule is structured as follows:
 
-____________________________________________
+```
+When on Object A:
 
-`When on Object A:`
+(Condition 1 AND Condition 2 OR Condition 3) is TRUE;
+```
 
-`(Condition 1 AND Condition 2 OR Condition 3) is TRUE;`
+Then, do the following:
 
-`Then, do the following:`
-
+```
 Action 2 on Object B;  
 AND  
 Action 3 on Object C;
-
-_____________________________________________
+```
 
 When you have a multi-value component, such as radio buttons or list, while creating a rule for that component the options are automatically retrieved and made available to the rule creator. You need not type the option values again.
 
@@ -164,8 +164,6 @@ The **[!UICONTROL Set Value of]** rule type allows you to set the value of a for
 
 Note that the Set Value Of rule type is not available for all form objects, such as panels and toolbar buttons. A standard Set Value Of rule has the following structure:
 
-____________________________________________
-
 Set value of Object A to:
 
 (string ABC) OR   
@@ -177,8 +175,6 @@ Set value of Object A to:
 When (optional):
 
 (Condition 1 AND Condition 2 AND Condition 3) is TRUE;
-
-____________________________________________
 
 The following example takes the value in `dependentid` field as input and sets the value of the `Relation` field to the output of the `Relation` argument of the `getDependent` form data model service.
 
@@ -196,19 +192,17 @@ Using the **Show** rule type, you can write a rule to show or hide a form object
 
 A typical Show rule is structured as follows:
 
-____________________________________________
+```
+Show Object A;
 
-`Show Object A;`
+When:
 
-`When:`
+(Condition 1 OR Condition 2 OR Condition 3) is TRUE;
 
-`(Condition 1 OR Condition 2 OR Condition 3) is TRUE;`
+Else:
 
-`Else:`
-
-`Hide Object A;`
-
-____________________________________________
+Hide Object A;
+```
 
 ### Hide {#hide}
 
@@ -216,19 +210,17 @@ Similar to the Show rule type, you can use the **Hide** rule type to show or hid
 
 A typical Hide rule is structured as follows:
 
-____________________________________________
+```
+Hide Object A;
 
-`Hide Object A;`
+When:
 
-`When:`
+(Condition 1 AND Condition 2 AND Condition 3) is TRUE;
 
-`(Condition 1 AND Condition 2 AND Condition 3) is TRUE;`
+Else:
 
-`Else:`
-
-`Show Object A;`
-
-____________________________________________
+Show Object A;
+```
 
 ### Enable {#enable}
 
@@ -236,19 +228,17 @@ The **Enable** rule type lets you enable or disable a form object based on wheth
 
 A typical Enable rule is structured as follows:
 
-____________________________________________
+```
+Enable Object A;
 
-`Enable Object A;`
+When:
 
-`When:`
+(Condition 1 AND Condition 2 AND Condition 3) is TRUE;
 
-`(Condition 1 AND Condition 2 AND Condition 3) is TRUE;`
+Else:
 
-`Else:`
-
-`Disable Object A;`
-
-____________________________________________
+Disable Object A;
+```
 
 ### Disable {#disable}
 
@@ -256,19 +246,17 @@ Similar to the Enable rule type, the **Disable** rule type allows you to enable 
 
 A typical Disable rule is structured as follows:
 
-____________________________________________
+```
+Disable Object A;
 
-`Disable Object A;`
+When:
 
-`When:`
+(Condition 1 OR Condition 2 OR Condition 3) is TRUE;
 
-`(Condition 1 OR Condition 2 OR Condition 3) is TRUE;`
+Else:
 
-`Else:`
-
-`Enable Object A;`
-
-____________________________________________
+Enable Object A;
+```
 
 ### Validate {#validate}
 
@@ -276,15 +264,13 @@ The **Validate** rule type validates the value in a field using an expression. F
 
 A typical Validate rule is structured as follows:
 
-____________________________________________
+```
+Validate Object A;
 
-`Validate Object A;`
+Using:
 
-`Using:`
-
-`(Expression 1 AND Expression 2 AND Expression 3) is TRUE;`
-
-____________________________________________
+(Expression 1 AND Expression 2 AND Expression 3) is TRUE;
+```
 
 >[!NOTE]
 >
@@ -306,11 +292,14 @@ To launch the rule editor user interface:
    Any existing rules on the selected form objects are listed in this view. For information about managing existing rules, see [Manage rules](../../forms/using/rule-editor.md#main-pars-header-15).
 
 1. Tap **[!UICONTROL Create]** to write a new rule. The visual editor of the rule editor user interface opens by default when you launch the rule editor the first time.
-   [ ![Rule Editor UI](assets/rule-editor-ui.png)
 
-   Click to view enlarged image
+<!--enlarge images?-->
 
-   ](assets/rule-editor-ui-1.png)Let's look at each component of the rule editor UI in detail.
+   ![Rule Editor UI](assets/rule-editor-ui.png)
+
+   ![Click to view enlarged image](assets/rule-editor-ui-1.png)
+   
+   Let's look at each component of the rule editor UI in detail.
 
 ### A. Component-rule display {#a-component-rule-display}
 

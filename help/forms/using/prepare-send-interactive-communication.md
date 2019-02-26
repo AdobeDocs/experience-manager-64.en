@@ -132,9 +132,7 @@ To highlight\emphasize parts of text in an editable fragment, select the text an
 
 The Agent UI has built in support for 210 special characters. The admin can [add support for more/custom special characters by customization](../../forms/using/custom-special-characters.md).
 
-##
-
-#### Attachment delivery {#attachmentdelivery}
+### Attachment delivery {#attachmentdelivery}
 
 * When the Interactive Communication is rendered using Server-side APIs as an interactive or non-interactive PDF, the rendered PDF contains attachments as PDF attachments.
 * When a post process associated with an Interactive Communication is loaded as part of the Submit using Agent UI, attachments are passed as the List&lt;com.adobe.idp.Document&gt; inAttachmentDocs parameter.

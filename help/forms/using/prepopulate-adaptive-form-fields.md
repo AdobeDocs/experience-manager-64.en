@@ -29,7 +29,7 @@ You can prefill both bound and unbound fields of an adaptive form. The prefill d
 * For adaptive forms using FDM schema, use the prefill JSON compliant with FDM schema.
 * For adaptive forms with [no form model](../../forms/using/prepopulate-adaptive-form-fields.md#main-pars-header-9), there is no bound data. Every field is an unbound field and is prefilled using the unbound XML.
 
-#### Sample Prefill XML structure {#sample-prefill-xml-structure}
+### Sample Prefill XML structure {#sample-prefill-xml-structure}
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -53,7 +53,7 @@ You can prefill both bound and unbound fields of an adaptive form. The prefill d
 </afData>
 ```
 
-#### Sample Prefill JSON structure {#sample-prefill-json-structure}
+### Sample Prefill JSON structure {#sample-prefill-json-structure}
 
 ```
 {
@@ -76,7 +76,7 @@ For bound fields with same bindref or unbound fields with same name, data specif
 1. Search and open **Adaptive Form and Interactive Communication Web Channel Configuration**. 
 1. In the Adaptive Form and Interactive Communication Web Channel Configuration dialog, enable **Prevent Sync of Same Mapped Fields**. When you prevent sync of same mapped fields, at the runtime, you can fill different values in the fields. But in the submitted data, only one value is retained. For example, you fill "A" and "B" in the two fields in the above example. In the submitted data, you see "B" in the **`textbox`** tag of the xml (object in JSON).
 
-### Adaptive form using XFA form template {#xfa-based-af}
+## Adaptive form using XFA form template {#xfa-based-af}
 
 The structure of prefill XML and the submitted XML for XFA-based adaptive forms is as follows:
 
@@ -89,7 +89,7 @@ Prefill-Submit-Data-ContentPackage.zip
 [Get File](assets/prefill-submit-data-contentpackage.zip)
 Sample containing prefill data and submitted data
 
-### XML schema-based adaptive forms&nbsp; {#xml-schema-af}
+## XML schema-based adaptive forms {#xml-schema-af}
 
 The structure of prefill XML and submitted XML for adaptive forms based on XML schema is as follows:
 
@@ -134,7 +134,7 @@ For fields whose model is XML schema, the data is prefilled in the `afBoundData`
 >
 >It is recommended not to use unbound fields in bound panels (panels with non-empty `bindRef` that has been created by dragging components from Sidekick or Data Sources tab). It may cause loss of data of these unbound fields. Also, it is recommended that the names of the fields are unique across the form, specially for unbound fields.
 
-#### An example without afData and afBoundData wrapper {#an-example-without-afdata-and-afbounddata-wrapper}
+### An example without afData and afBoundData wrapper {#an-example-without-afdata-and-afbounddata-wrapper}
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?><config>
@@ -144,7 +144,7 @@ For fields whose model is XML schema, the data is prefilled in the `afBoundData`
 
 ```
 
-### JSON schema-based adaptive forms {#json-schema-based-adaptive-forms}
+## JSON schema-based adaptive forms {#json-schema-based-adaptive-forms}
 
 For adaptive forms based on JSON schema, the structure of prefill JSON and submitted JSON is described below. For more information, see [Creating adaptive forms using JSON schema](../../forms/using/adaptive-form-json-schema-form-model.md).
 
@@ -200,7 +200,7 @@ Below is an example without `afData/afBoundData` wrapper:
 >
 >Using unbound fields in bound panels (panels with non-empty bindRef that have been created by dragging components from the Sidekick or Data Sources tab) is **not** recommended as it might cause loss of data of the unbound fields. It is recommended to have unique field names across the form, especially for unbound fields.
 
-### Adaptive Form with no form model {#adaptive-form-with-no-form-model}
+## Adaptive Form with no form model {#adaptive-form-with-no-form-model}
 
 For adaptive forms with no form model, the data for all the fields is under the `<data>` tag of `<afUnboundData> tag`.
 

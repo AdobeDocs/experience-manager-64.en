@@ -167,7 +167,7 @@ If you are using the UNIX-based operating system, install the following packages
     * /usr/lib/libcrypto.so
     * /usr/lib/libssl.so
 
-* **(PDF Generator only) **PDF Generator service supports WebKit and PhantomJS routes to convert HTML files to PDF documents. To enable conversion for PhantomJS route, install the below listed 64-bit libraries. Generally, these libraries are already installed. If any library is missing, install it manually:
+* **(PDF Generator only)** PDF Generator service supports WebKit and PhantomJS routes to convert HTML files to PDF documents. To enable conversion for PhantomJS route, install the below listed 64-bit libraries. Generally, these libraries are already installed. If any library is missing, install it manually:
 
     * linux-gate.so.1
     * libz.so.1
@@ -244,7 +244,6 @@ Set environment variables for 32-bit and 64-bit Java Development Kit, third-part
 >* On UNIX-based platforms, install OpenOffice as /root. If OpenOffice is not installed as root, the PDF Generator service fails to convert OpenOffice documents to PDF documents. If you are required to install and run OpenOffice as a non-root user, then provide sudo rights to the non-root user.  
 >* If you are using OpenOffice on a UNIX-based platform, run the following command to set the path variable:  
 >  `export OpenOffice_PATH=/opt/openoffice.org4`
->
 
 ### (Only for IBM WebSphere) Configure IBM SSL socket provider {#only-for-ibm-websphere-configure-ibm-ssl-socket-provider}
 
@@ -375,7 +374,7 @@ AEM Forms add-on package is an application deployed onto AEM. The package contai
 
 ## Post-installation configurations {#post-installation-configurations}
 
-#### Configure Boot Delegation for RSA/BouncyCastle libraries  {#configure-boot-delegation-for-rsa-bouncycastle-libraries}
+### Configure Boot Delegation for RSA/BouncyCastle libraries  {#configure-boot-delegation-for-rsa-bouncycastle-libraries}
 
 1. Stop the AEM instance. Navigate to the [AEM installation directory]\crx-quickstart\conf\ folder. Open the sling.properties file for editing.
 
@@ -390,7 +389,7 @@ AEM Forms add-on package is an application deployed onto AEM. The package contai
 
 1. Save and close the file.
 
-#### Configuring the font manager service  {#configuring-the-font-manager-service}
+### Configuring the font manager service  {#configuring-the-font-manager-service}
 
 1. Log in to [AEM Configuration Manager](http://localhost:4502/system/console/configMgr) as an administrator. 
 1. Locate and open the **CQ-DAM-Handler-Gibson Font Managers** service. Specify the path of the System Fonts, Adobe Server Fonts, and Customer Fonts directories. Click **Save**.
@@ -399,7 +398,7 @@ AEM Forms add-on package is an application deployed onto AEM. The package contai
    >
    >Your right to use fonts provided by parties other than Adobe is governed by the license agreements provided to you by such parties with those fonts, and is not covered under your license to use Adobe software. Adobe recommends that you review and ensure that you are in compliance with all applicable non-Adobe license agreements before using non-Adobe fonts with Adobe software, particularly with respect to use of fonts in a server environment.
 
-#### Configure a local user account to run the PDF Generator service  {#configure-a-local-user-account-to-run-the-pdf-generator-service}
+### Configure a local user account to run the PDF Generator service  {#configure-a-local-user-account-to-run-the-pdf-generator-service}
 
 A local user account is required to run the PDF Generator service. For steps to create a local user, see [Create a user account in Windows](https://support.microsoft.com/en-us/help/13951/windows-create-user-account) or [create a user account in UNIX-based platforms](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/4/html/Step_by_Step_Guide/s1-starting-create-account.html).
 
@@ -442,7 +441,7 @@ A local user account is required to run the PDF Generator service. For steps to 
  </tbody> 
 </table>
 
-#### Configure Acrobat for the PDF Generator service {#configure-acrobat-for-the-pdf-generator-service}
+### Configure Acrobat for the PDF Generator service {#configure-acrobat-for-the-pdf-generator-service}
 
 On Microsoft Windows, the PDF Generator service uses Adobe Acrobat to convert supported file formats to a PDF document. Perform the following steps to configure Adobe Acrobat for the PDF Generator service:
 
@@ -466,7 +465,7 @@ On Microsoft Windows, the PDF Generator service uses Adobe Acrobat to convert su
 
     1. Navigate to [Path_of_reports_folder]. Open the SystemReadinessTool.html file. Verify the report and fix the mentioned issues.
 
-#### Configure primary route for HTML to PDF conversion (Windows only) {#configure-primary-route-for-html-to-pdf-conversion-windows-only}
+### Configure primary route for HTML to PDF conversion (Windows only) {#configure-primary-route-for-html-to-pdf-conversion-windows-only}
 
 The PDF Generator service provides multiple routes to convert HTML files to PDF documents: Webkit, Acrobat WebCapture (Windows only), and PhantomJS. Adobe recommends using PhantomJS route because it has the capability to handle dynamic content and has no dependencies on 32-bit libraries, 32-bit JDK, or requires no extra fonts. Also, PhantomJS route does not require sudo or root access to run the conversion.
 
@@ -476,7 +475,7 @@ The default primary route for HTML to PDF conversion is Webkit. To change the co
 
 1. In the **[!UICONTROL General Configuration]** tab, select the preferred conversion route from the **[!UICONTROL Primary Route for HTML to PDF conversions]** drop-down.
 
-#### Set up certificates for Reader extension and encryption service {#set-up-certificates-for-reader-extension-and-encryption-service}
+### Set up certificates for Reader extension and encryption service {#set-up-certificates-for-reader-extension-and-encryption-service}
 
 The DocAssurance service can apply usage rights to PDF documents. To apply usage rights to PDF documents, configure the certificates:
 
@@ -489,17 +488,11 @@ The DocAssurance service can apply usage rights to PDF documents. To apply usage
 
    >[!NOTE]
    >
-   >
-   >    
-   >    
-   >    * To determine the **Private Key Alias** of a certificate, you can use the Java keytool command: keytool -list -v -keystore [keystore-file] -storetype pkcs12
-   >    * In the **Key Store Password** and **Private Key Password** fields, specify the password provided with the certificate file.
-   >    
-   >    * In the production environment, replace your evaluation credentials with production credentials. Ensure that you delete your old Reader Extensions credentials, before updating an expired or evaluations credential. 
-   >    
-   >
+   >  * To determine the **Private Key Alias** of a certificate, you can use the Java keytool command: keytool -list -v -keystore [keystore-file] -storetype pkcs12
+   >  * In the **Key Store Password** and **Private Key Password** fields, specify the password provided with the certificate file.
+   >  * In the production environment, replace your evaluation credentials with production credentials. Ensure that you delete your old Reader Extensions credentials, before updating an expired or evaluations credential. 
 
-#### Enable AES-256 {#enable-aes}
+### Enable AES-256 {#enable-aes}
 
 To use AES 256 encryption for PDF files, obtain and install the Java Cryptography Extension (JCE) Unlimited Strength Jurisdiction Policy files. Replace the local_policy.jar and US_export_policy.jar files in the jre/lib/security folder. For example, if you are using Sun JDK, copy the downloaded files to the [JAVA_HOME]/jre/lib/security folder.
 
@@ -536,7 +529,6 @@ The Assembler service depends on the Reader Extensions service, Signature servic
 ## Known issues and troubleshooting {#known-issues-and-troubleshooting}
 
 * The HTML to PDF conversion fails if a zipped input file contains HTML files with double-byte characters in filenames. To avoid this problem, do not use double-byte characters when naming HTML files.
-
 * On UNIX-based operating systems, do the following to find any missing libraries:
 
 1. Navigate to [crx-repository]/bedrock/svcnative/HtmlToPdfSvc/bin/.  
@@ -554,4 +546,3 @@ You have a working AEM Forms document services environment. You can use document
 * [Form centric workflows on OSGi](../../forms/using/aem-forms-workflow.md)
 * [Watched Folders](../../forms/using/watched-folder-in-aem-forms.md)
 * [Document services APIs](../../forms/using/aem-document-services-programmatically.md)
-

@@ -25,7 +25,7 @@ If you update the corresponding form afterwards, the changes are reflected immed
 
 As you continue to work on multiple tasks and start points and save them, the drafts are saved. Each time your app is synchronized with the AEM Forms server, the draft is saved to the server. It ensures that at any time you can recover the drafts based on the last saved date and time. For example, if you reinstall the app or change your mobile device, you can download the draft from the server.
 
-### Delete a draft {#delete-a-draft}
+## Delete a draft {#delete-a-draft}
 
 The drafts folder lists all the drafts. You can use the Delete Draft option to permanently delete the drafts from the mobile device and server.
 

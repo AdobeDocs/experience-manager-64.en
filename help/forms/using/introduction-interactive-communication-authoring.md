@@ -33,24 +33,23 @@ When you [create a new or edit an existing Interactive Communication](../../form
 
 ## Sidebar {##sidebar}
 
-[ ![Sidebar](assets/sidebar-comps.png)
+<!--check images-->
 
-Click to enlarge
+![Sidebar](assets/sidebar-comps.png)
 
-](assets/sidebar-comps-1.png) **A.** Channel browser **B.** Content browser **C.** Properties browser **D.** Asset browser **E.** Components browser **F.** Data Sources browser - Data Model **G.** Data Sources browser - Master Content
+![](assets/sidebar-comps-1.png) **A.** Channel browser **B.** Content browser **C.** Properties browser **D.** Asset browser **E.** Components browser **F.** Data Sources browser - Data Model **G.** Data Sources browser - Master Content
 
 The sidebar includes the following:
 
-* **Channel browser  
-  **
+* **Channel browser**
 
 The Channel browser helps you switch between the print and web channels of the Interactive Communication. Based on the channel you have selected in the channel browser, the browsers, such as Content and Components display the options.
 
 * **Content** **browser** 
   In the content browser, you can see object hierarchy of the document for the selected channel. Author can navigate to specific component by tapping that element in Document Object Tree. Author can search objects in the web channel and rearrange them from this tree.
 
-* **Properties browser  
-  **Lets you edit the properties of a component. Properties change according to the component. For example, to see properties of the document container:  
+* **Properties browser**
+  Lets you edit the properties of a component. Properties change according to the component. For example, to see properties of the document container:  
   Select a component, then tap ![](assets/field-level.png) &gt; **Document Container**, and then tap ![](assets/cmppr.png).
 
 * **Assets** **browser** 
@@ -69,14 +68,14 @@ The Channel browser helps you switch between the print and web channels of the I
 | Target Area |&#42;&#42; |✓ |Inserts a target area in a web channel to organize the web-channel-specific components. |
 | Text  |- |✓ |Adds text to the web channel of an Interactive Communication. Text can make use of form data model objects to make the content dynamic. |
 
-&#42; Use Layout Fragments in the Print channel to add tables.
+`*` Use Layout Fragments in the Print channel to add tables.
 
-&#42;&#42; In the Print channel, target areas are predefined in the XDP/print template. You cannot add new target areas using the Interactive Communication authoring UI.
+`**` In the Print channel, target areas are predefined in the XDP/print template. You cannot add new target areas using the Interactive Communication authoring UI.
 
 * **Data Sources Browser** 
   Data Sources Browser displays the available data sources in the form data model you selected while creating the Interactive Communication.
 
-#### Key points for working with components {#key-points-for-working-with-components}
+### Key points for working with components {#key-points-for-working-with-components}
 
 Key points when working with interactive communication components are as follows:
 

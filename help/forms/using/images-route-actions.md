@@ -39,11 +39,11 @@ To customize the images used in route actions, perform the steps described in [G
 
 ## Task List task action popup {#task-list-task-action-popup}
 
-1. Create a task list action popup, see [Building AEM Forms workspace code](../../forms/using/introduction-customizing-html-workspace.md#main-pars-heading-3). It requires to use the dev package.
+1 - Create a task list action popup, see [Building AEM Forms workspace code](../../forms/using/introduction-customizing-html-workspace.md#main-pars-heading-3). It requires to use the dev package.
 
-2. Copy `/libs/ws/js/runtime/templates/task.html` to `/apps/ws/js/runtime/templates/task.html`.
+2 - Copy `/libs/ws/js/runtime/templates/task.html` to `/apps/ws/js/runtime/templates/task.html`.
 
-3. If the name of the CSS style is same as the route action name coming from the server, modify the following code in `/apps/ws/js/runtime/templates/task.html`:
+3 - If the name of the CSS style is same as the route action name coming from the server, modify the following code in `/apps/ws/js/runtime/templates/task.html`:
 
 ```
 <%if(routeList == null){%>
@@ -73,7 +73,7 @@ To
             <%}%>
 ```
 
-4. If the name of the CSS style is different from the route action name coming from the server, modify the following code in `/apps/ws/js/runtime/templates/task.html`. It adds a stack of the `if-else` servlet conditions to map the style with the route action name.
+4 - If the name of the CSS style is different from the route action name coming from the server, modify the following code in `/apps/ws/js/runtime/templates/task.html`. It adds a stack of the `if-else` servlet conditions to map the style with the route action name.
 
 ```
 <%if(routeList == null){%>
@@ -111,9 +111,9 @@ To
 
 ## Task Details task action popup {#task-details-task-action-popup}
 
-1. Copy `/libs/ws/js/runtime/templates/taskdetails.html` to `/apps/ws/js/runtime/templates/taskdetails.html`.
+1 - Copy `/libs/ws/js/runtime/templates/taskdetails.html` to `/apps/ws/js/runtime/templates/taskdetails.html`.
 
-2. If the name of the CSS style is same as the route action name coming from the server, modify the following code in `/apps/ws/js/runtime/templates/taskdetails.html`:
+2 - If the name of the CSS style is same as the route action name coming from the server, modify the following code in `/apps/ws/js/runtime/templates/taskdetails.html`:
 
 ```
 
@@ -134,7 +134,7 @@ To
                     <%}%>
 ```
 
-3. If the name of the CSS style is different from the route action name coming from the server, modify the following code in `/apps/ws/js/runtime/templates/taskdetails.html`. It adds a stack of `if-else` servlet conditions to map the style with the route action name.
+3 - If the name of the CSS style is different from the route action name coming from the server, modify the following code in `/apps/ws/js/runtime/templates/taskdetails.html`. It adds a stack of `if-else` servlet conditions to map the style with the route action name.
 
 ```
 
@@ -163,10 +163,12 @@ To
             <%}%>
 ```
 
-4. Open `/apps/ws/js/registry.js` for editing and look for the following text :  
+4 - Open `/apps/ws/js/registry.js` for editing and look for the following text: 
+ 
 `"text!/lc/libs/ws/js/runtime/templates/taskdetails.html"`
 
-5. Replace the text with the following:  
+5 - Replace the text with the following:  
+
 `"text!/lc/apps/ws/js/runtime/templates/taskdetails.html"`
 
 [**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)

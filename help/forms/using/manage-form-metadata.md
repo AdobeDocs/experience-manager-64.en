@@ -24,7 +24,7 @@ If you're a developer or a site owner, you can customize Forms Portal, the end-u
 
 In AEM Forms, the list of metadata properties associated with an asset depends on its type. Also, if you add any custom metadata property, it is added across all the assets of the type on which the custom metadata was added.
 
-#### Asset types&nbsp; {#asset-types-nbsp}
+### Asset types&nbsp; {#asset-types-nbsp}
 
 The following asset types are supported in AEM Forms:
 
@@ -35,7 +35,7 @@ The following asset types are supported in AEM Forms:
 * Resources
 * XFS
 
-#### Extensive list of metadata&nbsp; {#extensive-list-of-metadata-nbsp}
+### Extensive list of metadata&nbsp; {#extensive-list-of-metadata-nbsp}
 
 The following is an extensive list of metadata properties supported in AEM Forms:
 
