@@ -19,7 +19,7 @@ HTML5 rendition of a XFA-based form template consists of several HTML elements. 
 >
 >In the CSS classes, do not change value of the width, height, border-thickness, top, left, right, bottom, padding, margin, and other position and size attributes. Any change in the position and size attributes brings changes to the layout of the form.
 
-### CSS classes&nbsp; for elements&nbsp; {#css-classes-nbsp-for-elements-nbsp}
+## CSS classes&nbsp; for elements&nbsp; {#css-classes-nbsp-for-elements-nbsp}
 
 Every element contains well-defined CSS classes. You can modify these classes to change the appearance of an element. Every element, except the field and draw elements, has two CSS classes - Type class and Name class.
 
@@ -33,7 +33,7 @@ Every element contains well-defined CSS classes. You can modify these classes to
 
 For the pages not named in the AEM Forms Designer, pages in an HTML5 form are named in the increasing order of their number. For example, for an HTML5 form with two pages the pages are named Page1, Page2.
 
-### Field element {#field-element}
+## Field element {#field-element}
 
 The field element contains two nested elements: widget and caption.
 

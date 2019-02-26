@@ -15,7 +15,7 @@ discoiquuid: 2780cbc3-eb85-429b-8154-d4a103ad1104
 
 There are some frequently asked questions (FAQ) about layout, scripting support, and scope of HTML5 forms.
 
-### Layout {#layout}
+## Layout {#layout}
 
 1. Why do barcodes and signature field in not appear in my form?
 
@@ -156,7 +156,7 @@ There are some frequently asked questions (FAQ) about layout, scripting support,
                </border> -->
    ```
 
-### Scripting {#scripting}
+## Scripting {#scripting}
 
 1. Are there any limitations in JavaScript implementation for HTML Forms?
 
@@ -195,7 +195,7 @@ There are some frequently asked questions (FAQ) about layout, scripting support,
 
    Yes, the initialization scripts and form ready events are executed multiple times, at least once on the server and once on the client side. It is suggested to write scripts like initialize or form:ready events based on some business logic (form or field data) so that the action is performed based on the state of data and idempotent (if data is same).
 
-### Designing XDP {#designing-xdp}
+## Designing XDP {#designing-xdp}
 
 1. Are there any reserved keywords in HTML5 forms?
 
