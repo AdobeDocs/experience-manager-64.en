@@ -43,16 +43,18 @@ Once the adaptive form is generated, you can review the conversion quality and m
 Automated Forms Conversion service supports the following components and field types:
 
 * **Text** - It refers to plain text in the PDF.
-* **Field** - It refers to a combination of text associated with a value depending upon the field type. For example, **first name** is a field of **text** field type.  
-  The following predefined data types (regex) are supported for a field:  
-  - Text  
-  - Numeric  
-  - Date  
-  - Email  
-  - Telephone Number  
-  - Signature  
-  - Currency  
-  - Password  
+* **Field** - It refers to a combination of text associated with a value depending upon the field type. For example, **first name** is a field of **text** field type.
+
+The following predefined data types (regex) are supported for a field:  
+
+* Text  
+* Numeric  
+* Date  
+* Email  
+* Telephone Number  
+* Signature  
+* Currency  
+* Password  
 
 * **Panel** - It refers to an aggregation of related content and components.
 * **Choice Group** - It refers to a combination of text associated with multiple choice options (check box, dropdown, and radio button). For example, gender or marital status.
@@ -203,9 +205,11 @@ The conversion service updates the adaptive form, schema, and data fragments bas
 
 ## Launch adaptive form editor from Review and Correct UI {#launch-adaptive-form-editor-from-review-and-correct-ui}
 
-###### Application UI not working properly, loading blank tab with no data when trigger **open adaptive form editor**. {#application-ui-not-working-properly-loading-blank-tab-with-no-data-when-trigger-open-adaptive-form-editor}
+<!--check accuracy of next two paragraphs. Odd in migration-->
 
-###### Link to existing article - **Introduction to authoring adaptive form** {#link-to-existing-article-introduction-to-authoring-adaptive-form}
+Application UI not working properly, loading blank tab with no data when trigger **open adaptive form editor**. 
+
+Link to existing article - **Introduction to authoring adaptive form** 
 
 ## Limitations {#limitations}
 

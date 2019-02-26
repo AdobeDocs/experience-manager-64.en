@@ -28,19 +28,19 @@ This article explores all such AEM Forms configurations available out of the box
 
 The correspondence management module has the following configurations:
 
-#### Asset Composer Configurations {#asset-composer-configurations}
+### Asset Composer Configurations {#asset-composer-configurations}
 
 The Asset Composer configuration provides options to configure core correspondence management capabilities such as asset (text, image, list, condition, and letter template) creation and document rendering. To configure available capabilities, navigate to AEM Web Console Configuration and open the **Asset Composer Configurations** option. The [Correspondence Management Configuration Properties](../../../forms/using/cm-configuration-properties.md) article also lists all the properties of the configuration.
 
 For detailed steps to edit a configuration, see configuration section in [Web Console](../../../sites/deploying/using/web-console.md) documentation.
 
-#### AEM Forms Analytics Configuration {#aem-forms-analytics-configuration}
+### AEM Forms Analytics Configuration {#aem-forms-analytics-configuration}
 
 AEM Forms integrates with Adobe Analytics that allows you to capture and track performance metrics for your published forms and documents. The objective  behind  analyzing these metrics is to make informed decisions based on data about the changes required to make forms or document more usable. AEM Forms Analytics Configuration provides options to select framework, configure  cron  expression, and report time-out. To configure available options, navigate to AEM Web Console Configuration and open the AEM Forms Analytics Configuration option.
 
 The configuration service has only a subset of options required to configure Adobe Analytics and AEM Forms reports. For detailed information about configuring Adobe Analytics and AEM Forms reports, see the [Configuring analytics and reports](../../../forms/using/configure-analytics-forms-documents.md) article.
 
-#### AEM Forms Analytics Configuration {#aem-forms-analytics-configuration-1}
+### AEM Forms Analytics Configuration {#aem-forms-analytics-configuration-1}
 
 ## AEM Forms on OSGI - Document Services configurations  {#aem-forms-on-osgi-document-service-configurations}
 
@@ -92,3 +92,4 @@ AEM Forms can also use credentials stored on an HSM or etoken to eSign or apply 
 
 ## AEM Forms on JEE - Document Services configurations  {#aem-forms-on-jee-document-services-configurations}
 
+<!--delete? -->

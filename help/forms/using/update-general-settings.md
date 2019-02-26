@@ -41,8 +41,6 @@ You can make the following changes to the settings of your app.
 
 * **Fetch task attachments**: To specify whether or not to download the associated attachments when each task is downloaded to your app.
 
-** **
-
 * **Offline mode**: To enable or disable the offline service for AEM Forms app. See [Working in the offline mode](../../forms/using/work-offline-mode.md) for details.
 
 * **Landing screen**: To set the start location ([Home screen](../../forms/using/home-screen.md)) for the app.  

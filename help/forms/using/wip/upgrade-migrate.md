@@ -26,7 +26,7 @@ You can upgrade your existing AEM Forms server to obtain new capabilities and en
 
 **Migration** refers to the process of replaying actions from one system into another fresh installation of AEM Forms. One of the key differences as compared to an upgrade is that a migration involves moving only assets (PDF, XDP, images, adaptive forms, adaptive documents, correspondence management assets) from one server to another - processes (LCA), settings, configurations, and a few other pieces of metadata are not migrated. Migration can be performed with the minimum amount of downtime. Depending on the modules, processes, and assets used, migration can also require a lot of rework.
 
-#### Migrate when {#migratewhen}
+### Migrate when {#migratewhen}
 
 * You do not require existing workflows and processes. Migration does not move existing processes (LCAs) to AEM 6.3 Forms.  
 * You are using AEM Forms on JEE only for document services (PDF Generator, Output, and more) or forms (adaptive forms, HTML5 forms, PDF Forms), then [Migrate to AEM 6.3 Forms on OSGi](#main-pars-accordion-container-1460251140).
@@ -40,7 +40,7 @@ You can upgrade your existing AEM Forms server to obtain new capabilities and en
     
     * Set up a fresh AEM 6.3 Forms on JEE environment and [migrate existing processes (LCA) or other assets to fresh environment](#main-pars-accordion-container-1460251140). Migrate to AEM Forms on OSGi at a later stage.
 
-#### Upgrade when {#upgrade-when}
+### Upgrade when {#upgrade-when}
 
 * You are looking to use latest features of AEM 6.3 Forms while keeping everything (processes and assets) available on the previous version intact.  
 * You are running long lived processes on AEM Forms on JEE.
@@ -127,13 +127,9 @@ You can perform a direct upgrade from AEM 6.1 Forms and AEM 6.2 Forms to AEM 6.3
        >
        >After the package is installed, you are prompted to restart the AEM instance. **Do not immediately stop the server.** Before stopping the AEM Forms server, wait until the ServiceEvent REGISTERED and ServiceEvent UNREGISTERED messages stop appearing in the &lt;crx-repository&gt;/error.log file and the log is stable. Also note, the following three packages can remain in the installed state. You can safely ignore the state of these packages:
        >
-       >    
-       >    
-       >    * Adobe Correspondence Management Migration
-       >    * Adobe LiveCycle FormsManager Core
-       >    * Forms Common Service
-       >    
-       >
+       >* Adobe Correspondence Management Migration
+       >* Adobe LiveCycle FormsManager Core
+       >* Forms Common Service
 
     1. Stop the AEM instance and delete the following files:
 

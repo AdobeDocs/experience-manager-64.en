@@ -16,24 +16,24 @@ HTML5 forms components render XFA form template to a HTML5 format. All standard 
 
 HTML5 forms use standard HTML constructs allowing regular accessibility tools for HTML to be used with these forms. If a form is designed according to the best practices for accessible forms, it works with any supported screen reader. Additionally, such forms are enabled for keyboard navigation.
 
-### Accessibility standards {#accessibility-standards}
+## Accessibility standards {#accessibility-standards}
 
 HTML5 forms comply to section 508 for accessibility with known exceptions. See [VPAT for HTML5 forms](http://www.adobe.com/mena_en/accessibility/compliance/livecycle-mobile-forms-es4-section-508-vpat.html) for details.
 
-### Certified screen readers for HTML5 forms {#certified-screen-readers-for-html-forms}
+## Certified screen readers for HTML5 forms {#certified-screen-readers-for-html-forms}
 
 * JAWS 14.0 on Microsoft Windows
 * VoiceOver on Mac OS X and iPad
 
-#### JAWS {#jaws}
+### JAWS {#jaws}
 
 All default keystrokes and shortcuts work for HTML5 forms. For more information on using JAWS, visit [http://www.freedomscientific.com/jaws-hq.asp](http://www.freedomscientific.com/jaws-hq.asp).
 
-#### VoiceOver {#voiceover}
+### VoiceOver {#voiceover}
 
 HTML5 forms support all the default keystrokes and gestures of Voice over. For more information on setting up and using VoiceOver, see [http://www.apple.com/accessibility/voiceover/](http://www.apple.com/accessibility/voiceover/).
 
-### Known issues {#known-issues}
+## Known issues {#known-issues}
 
 * **(Internal Explorer 9 only)** In HTML5 forms, the pages are loaded on demand (dynamically). On-demand page load causes issues with the functioning of screen readers. When focus of the screen reader is on the last field of the page and the user presses tab, instead of setting the focus on the first field of the next page, the screen reader returns focus to the first field of first page of the form. 
 * **(Internal Explorer 9 only)** The Date Picker control in HTML5 forms is not fully accessible with keyboard. In the Date Picker control, if you press Up/Down keys multiple times, the Date Picker control closes and focus moves to next/last field.  
