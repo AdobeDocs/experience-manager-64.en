@@ -51,7 +51,7 @@ Website content package
 
 [Get File](assets/website-1_0.zip)
 
-### Installing Adobe Experience Manager {#installing-adobe-experience-manager}
+## Installing Adobe Experience Manager {#installing-adobe-experience-manager}
 
 To install an AEM instance for developing your website, follow the instructions for setting up a [deployment environment with author and publish instances](../../../sites/deploying/using/deploy.md#main-pars-title-11), or perform a [generic installation](../../../sites/deploying/using/deploy.md#main-pars-title-1). The generic installation involves downloading the AEM Quickstart JAR file, placing the license.properties file in the same directory as the JAR file, and double-clicking the JAR file.
 
@@ -63,7 +63,7 @@ After you have installed AEM, access the CRXDE Lite development environment by c
 >
 >The URL of CRXDE Lite for an AEM authoring instance that is installed locally using the default port is [http://localhost:4502/crx/de/](http://localhost:4502/crx/de/).
 
-### Setting up the project structure in CRXDE Lite {#setting-up-the-project-structure-in-crxde-lite}
+## Setting up the project structure in CRXDE Lite {#setting-up-the-project-structure-in-crxde-lite}
 
 Use CRXDE Lite to create the mywebsite application structure in the repository:
 
@@ -77,7 +77,7 @@ Use CRXDE Lite to create the mywebsite application structure in the repository:
 
 1. Click **Save All**.
 
-### Setting up the Design {#setting-up-the-design}
+## Setting up the Design {#setting-up-the-design}
 
 In this section, you create the design for your application using the Designer tool. The design provides CSS and image resources for your web site.
 
@@ -101,7 +101,7 @@ Sample static.css file and images
 
    ![](assets/chlimage_1-113.png)
 
-### Creating the Contentpage Template, Component and Script {#creating-the-contentpage-template-component-and-script}
+## Creating the Contentpage Template, Component and Script {#creating-the-contentpage-template-component-and-script}
 
 In this section, you create the following:
 
@@ -109,7 +109,7 @@ In this section, you create the following:
 * The contentpage component that will be used to render pages of content
 * The contentpage script
 
-#### Creating the Contentpage Template {#creating-the-contentpage-template}
+### Creating the Contentpage Template {#creating-the-contentpage-template}
 
 Create a template to use as the basis of the web pages of your site.
 
@@ -142,7 +142,7 @@ A template defines the default content of a new page. Complex websites may use s
 
    ![](assets/chlimage_1-116.png)
 
-#### Creating the Contentpage Component {#creating-the-contentpage-component}
+### Creating the Contentpage Component {#creating-the-contentpage-component}
 
 Create the *component* that defines the content and renders the pages that use the contentpage template. The location of the component must correspond with the value of the Resource Type property of the contentpage template.
 
@@ -165,7 +165,7 @@ Create the *component* that defines the content and renders the pages that use t
 
    ![](assets/chlimage_1-118.png)
 
-#### Developing the Contentpage Component Script {#developing-the-contentpage-component-script}
+### Developing the Contentpage Component Script {#developing-the-contentpage-component-script}
 
 Add code to the contentpage.jsp script to define the page content.
 
@@ -206,7 +206,7 @@ Add code to the contentpage.jsp script to define the page content.
 
 1. Click** Save All** to save your changes.
 
-### Creating your Website Page and Content Pages {#creating-your-website-page-and-content-pages}
+## Creating your Website Page and Content Pages {#creating-your-website-page-and-content-pages}
 
 In this section, you create the following pages which all use the contentpage template: My Website, English, Products, Services, and Customers.
 
@@ -272,7 +272,7 @@ The **Products** page will look as follows:
 
 ![](assets/chlimage_1-4.jpeg) 
 
-#### Using the Foundation Page Scripts {#using-the-foundation-page-scripts}
+### Using the Foundation Page Scripts {#using-the-foundation-page-scripts}
 
 In this exercise, you configure your pagecontent component so that its supertype is the AEM Page component. Because components inherit the features of their supertype, your pagecontent inherits the scripts and properties of the Page component.
 
@@ -315,7 +315,7 @@ For example, in your component JSP code, you can reference the scripts that the 
                 }); 
    ```
 
-#### Using your own scripts {#using-your-own-scripts}
+### Using your own scripts {#using-your-own-scripts}
 
 In this section you create several scripts that each generate a part of the page body. You then create the body.jsp file in the pagecontent component to override the body.jsp of the AEM Page component. In your body.jsp file, you include your scripts that generate the different parts of the page body.
 
@@ -408,7 +408,7 @@ Your top navigation will look as follows:
 
 ![](assets/chlimage_1-124.png) 
 
-#### Creating the Top Navigation Component {#creating-the-top-navigation-component-1}
+### Creating the Top Navigation Component {#creating-the-top-navigation-component-1}
 
 1. In CRXDE Lite, right-click `/apps/mywebsite/components`, select **Create**, then **Create Component**.
 1. In the **Create Component** window, enter the following:
@@ -421,7 +421,7 @@ Your top navigation will look as follows:
 
 1. Click **Next** until you come to the last window where you click **OK**. Save your changes.
 
-#### Creating the Top Navigation Script with Textual Links {#creating-the-top-navigation-script-with-textual-links}
+### Creating the Top Navigation Script with Textual Links {#creating-the-top-navigation-script-with-textual-links}
 
 Add the rendering script to topnav to generate text links to child pages:
 
@@ -448,7 +448,7 @@ Add the rendering script to topnav to generate text links to child pages:
    %> 
    ```
 
-#### Including Top Navigation in the Contentpage Component {#including-top-navigation-in-the-contentpage-component}
+### Including Top Navigation in the Contentpage Component {#including-top-navigation-in-the-contentpage-component}
 
 To include topnav in your contentpage component:
 
@@ -469,7 +469,7 @@ To include topnav in your contentpage component:
 
    ![](assets/chlimage_1-125.png)
 
-#### Enhancing Pages with Subtitles {#enhancing-pages-with-subtitles}
+### Enhancing Pages with Subtitles {#enhancing-pages-with-subtitles}
 
 The Page component defines properties that enable you to provide subtitles for pages. Add subtitles that provide information about the page content.
 
@@ -481,7 +481,7 @@ The Page component defines properties that enable you to provide subtitles for p
 
    **Tip:** In CRXDE Lite, select the /content/mywebsite/en/products/jcr:content node to see that the subtitle property is added.
 
-#### Enhance Top Navigation by Using Image Links {#enhance-top-navigation-by-using-image-links}
+### Enhance Top Navigation by Using Image Links {#enhance-top-navigation-by-using-image-links}
 
 Enhance the rendering script of the topnav component to use image links instead of hypertext for the navigation controls. The image includes the title and subtitle of the link target.
 

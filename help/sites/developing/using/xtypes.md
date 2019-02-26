@@ -28,7 +28,7 @@ To find out in which components a given xtype is used in AEM, you can use the fo
 >
 >Adobe recommends that you leverage the stndard, modern, [touch-enabled UI](../../../sites/developing/using/touch-ui-concepts.md) based on [Coral UI](../../../sites/developing/using/touch-ui-concepts.md#main-pars-title-0) and [Granite UI](../../../sites/developing/using/touch-ui-concepts.md#main-pars-title-3).
 
-### xtypes {#xtypes}
+## xtypes {#xtypes}
 
 Please find below a list of the available xtypes in Adobe Experience Manager:
 
@@ -460,7 +460,7 @@ The Password is like a [CQ.Ext.form.TextField](/sites/developing/using/reference
 
 pathcompletion  
 [CQ.form.PathCompletion](/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.PathCompletion)  
-**Deprecated: Use [CQ.form.PathField](/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.PathField) instead** 
+**Deprecated: Use [CQ.form.PathField](/sites/developing/using/reference-materials/widgets-api/index.html?class=CQ.form.PathField) instead**
   
 &#42;
 

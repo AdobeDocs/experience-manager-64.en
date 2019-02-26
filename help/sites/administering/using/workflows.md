@@ -17,7 +17,7 @@ Workflows enable you to automate Adobe Experience Manager (AEM) activities. Work
 
 * Consist of a series of steps that are executed in a specific order.
 
-    * Each step performs a distinct activity; such as waiting for user input, activating a page or sending an email message.
+  * Each step performs a distinct activity; such as waiting for user input, activating a page or sending an email message.
 
 * Can interact with assets in the repository, user accounts, and AEM services. 
 * Can coordinate complicated activities that involve any aspect of AEM.
@@ -41,9 +41,9 @@ The business processes that your organization has established can be represented
 
 [Workflow models](../../../sites/developing/using/workflows.md#model) in AEM are the representation and implementation of business processes:
 
-* Typically they act on pages or assets to achieve a specific result. 
+* Typically they act on pages or assets to achieve a specific result.
 * These pages and/or assets are called the workflow payload. 
-* Workflow models consist of a series of steps that perform a specific task. 
+* Workflow models consist of a series of steps that perform a specific task.
 * The payload is passed from step to step as the workflow progresses.
 
 When a workflow model is started (executed), a workflow instance is created. A workflow model can be started multiple times, each time generating a distinct workflow instance. For each instance, the steps that the workflow model defines are executed.
@@ -56,9 +56,9 @@ Workflow instances progress through the following lifecycle:
 
 1. The workflow model is started and a workflow instance is created and running.
 
-    1. The payload of the workflow instance is identified when the model is started. 
-    1. The instance is effectively a copy of the model (as at the time of creation).
-    1. AEM authors, administrators, or services can start workflow models.
+   1. The payload of the workflow instance is identified when the model is started. 
+   1. The instance is effectively a copy of the model (as at the time of creation).
+   1. AEM authors, administrators, or services can start workflow models.
 
 1. The first step of the workflow model is executed. 
 1. The step is completed and the workflow engine uses the model to determine the next step to execute.

@@ -39,7 +39,7 @@ The package includes examples of:
 >
 >This page describes the usage of widgets within the classic UI. Adobe recommends that you leverage the modern, [touch-enabled UI](../../../sites/developing/using/touch-ui-concepts.md) based on [Coral UI](../../../sites/developing/using/touch-ui-concepts.md#main-pars-title-0) and [Granite UI](../../../sites/developing/using/touch-ui-concepts.md#main-pars-title-3).
 
-### Including the Client-Sided Code in a Page {#including-the-client-sided-code-in-a-page}
+## Including the Client-Sided Code in a Page {#including-the-client-sided-code-in-a-page}
 
 Client sided javascript and stylesheet code should be placed in a client library.
 
@@ -47,12 +47,12 @@ To create a client library:
 
 1. Create a node below `/apps/<project>` with the following properties:
 
-    * name="clientlib"
-    * jcr:mixinTypes="[mix:lockable]"
-    * jcr:primaryType="cq:ClientLibraryFolder"  
-    * sling:resourceType="widgets/clientlib"  
-    * categories="[&lt;category-name&gt;]"  
-    * dependencies="[cq.widgets]"
+   * name="clientlib"
+   * jcr:mixinTypes="[mix:lockable]"
+   * jcr:primaryType="cq:ClientLibraryFolder"  
+   * sling:resourceType="widgets/clientlib"  
+   * categories="[&lt;category-name&gt;]"  
+   * dependencies="[cq.widgets]"
 
    `Note: <category-name> is the name of the custom library (e.g. "cq.extjstraining") and is used to include the library on the page.`
 

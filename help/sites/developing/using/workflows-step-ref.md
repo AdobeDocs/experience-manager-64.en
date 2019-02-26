@@ -29,46 +29,45 @@ Workflow models consist of a series of steps of various types. According to the 
 
 Each step component has a **Step Properties** dialog that allows you to define and edit the required properties.
 
-#### Step Properties - Common tab {#step-properties-common-tab}
+### Step Properties - Common tab {#step-properties-common-tab}
 
 A combination of the following properties are available for most workflow step components, on the **Common** tab of the properties dialog:
 
-* **Title** 
+* **Title**
   The title for the step.
 
-* **Description** 
+* **Description**
   A description of the step.
 
 * **Workflow Stage  
   **A drop down selector to apply a [Stage](../../../sites/developing/using/workflows.md#workflowstages) to the step.  
 
-* **Timeout** 
+* **Timeout**
   The period after which the step will be "timed out".  
   You can select between: **Off**, **Immediate**, **1h**, **6h**, **12h**, **24h**.
 
-* **Timeout Handler** 
+* **Timeout Handler**
   The handler which will control the workflow when the step times out; for example:  
   `Auto Advancer`
 
-* **Handler Advance** 
+* **Handler Advance**
   Select this option to automatically advance the workflow to the next step after execution. If not selected, the implementation script must handle workflow advancement.
 
-#### Step Properties - User/Group tab {#step-properties-user-group-tab}
+### Step Properties - User/Group tab {#step-properties-user-group-tab}
 
 The following properties are available for many workflow step components, on the **User/Group** tab of the properties dialog:
 
 * **Notify user via email**
 
-    * You can notify participant(s) by sending them an email when the workflow reaches the step.
-    * If enabled, an email will be sent to the user defined by the property **User/Group** or to each member of the group if a group is defined.
+  * You can notify participant(s) by sending them an email when the workflow reaches the step.
+  * If enabled, an email will be sent to the user defined by the property **User/Group** or to each member of the group if a group is defined.
 
 * **User/Group**
 
-    * A drop down selection box will allow you to navigate and select a user or group.  
-    * If you assign the step to a specific user, then only this user can take action on the step.  
-    * If you assign the step to an entire group, then when the workflow reaches this step all users in this group will have the action in their **Workflow Inbox**.  
-    
-    * See [Participating in Workflows](../../../sites/authoring/using/workflows-participating.md) for more information.
+  * A drop down selection box will allow you to navigate and select a user or group.  
+  * If you assign the step to a specific user, then only this user can take action on the step.  
+  * If you assign the step to an entire group, then when the workflow reaches this step all users in this group will have the action in their **Workflow Inbox**.  
+  * See [Participating in Workflows](../../../sites/authoring/using/workflows-participating.md) for more information.
 
 ## AND Split {#and-split}
 
@@ -76,7 +75,7 @@ The **AND Split **creates a split in the workflow, after which both branches wil
 
 ![](assets/wf-26.png) 
 
-#### AND Split - Configuration {#and-split-configuration}
+### AND Split - Configuration {#and-split-configuration}
 
 To configure the split:
 
@@ -105,7 +104,7 @@ To configure the step, edit and use the following tabs:
 * [Common](#steppropertiescommontab)
 * **Container**
 
-    * **Sub Workflow**: Select the workflow to start.
+  * **Sub Workflow**: Select the workflow to start.
 
 ## Goto Step {#goto-step}
 
@@ -117,23 +116,22 @@ The **Goto Step** allows you to specify the next step in the workflow model to e
 
 The **Goto Step** enables you to implement advanced routing structures in your workflow models. For example, to implement a loop, the **Goto Step** can be defined to execute a prior step in the workflow, with the script evaluating a loop condition.
 
-#### Goto Step - Configuration {#goto-step-configuration}
+### Goto Step - Configuration {#goto-step-configuration}
 
 To configure the step, edit and use the following tabs:
 
 * [Common](#steppropertiescommontab)
 * **Process**
 
-    * **The step to go to.**: Select the step to execute.
-    * **Script Path**: The path to the ECMAScript that determines whether to execute the **Goto Step**.
-    
-    * **Script**: The ECMAScript that determines whether to execute the **Goto Step**.
+  * **The step to go to.**: Select the step to execute.
+  * **Script Path**: The path to the ECMAScript that determines whether to execute the **Goto Step**.
+  * **Script**: The ECMAScript that determines whether to execute the **Goto Step**.
 
 >[!CAUTION]
 >
 >Specify either the **Script Path** or **Script**. Both options cannot be used at the same time. If you specify values for both properties, the step uses the **Script Path**.
 
-#### Simulating a for Loop {#simulating-a-for-loop}
+### Simulating a for Loop {#simulating-a-for-loop}
 
 Simulating a for loop requires that you maintain a count of the number of loop iterations that have occurred:
 
@@ -176,42 +174,29 @@ The **OR Split **creates a split in the workflow, after which only one branch wi
 
 ![](assets/wf-29.png) 
 
-#### OR Split - Configuration {#or-split-configuration}
+### OR Split - Configuration {#or-split-configuration}
 
 To configure the split:
 
 * Edit the **OR Split Properties**:
 
-    * **Common**
+  * **Common**
 
-        * Select the number of branches required; 2, 3, 4 or 5.
-
+    * Select the number of branches required; 2, 3, 4 or 5.
     * **Branch &lt;*x*&gt;**
-
-        * **Script Path**: The path to a file that contains the script.
-        * **Script**: Add the script in the box.
-        * **Default Route**: The default branch is followed when multiple branches evaluate to true. You can specify only one branch as the default.
+      * **Script Path**: The path to a file that contains the script.
+      * **Script**: Add the script in the box.
+      * **Default Route**: The default branch is followed when multiple branches evaluate to true. You can specify only one branch as the default.
 
   >[!NOTE]
   >
   >There is a separate tab for each branch:
   >
-  >    
-  >    
-  >    * The script of each branch is evaluated one at a time.   >    
-  >        
-  >        
-  >        * The branches are evaluated left to right.
-  >        
-  >        
-  >    * The first script that evaluates to true is executed.   >    
-  >        
-  >        
-  >        * If no branch evaluates to true, then the workflow does not advance.
-  >        
-  >        
-  >    
+  >* The script of each branch is evaluated one at a time.
   >
+  >* The branches are evaluated left to right.
+  >* The first script that evaluates to true is executed.
+  >* If no branch evaluates to true, then the workflow does not advance.
 
   >[!CAUTION]
   >
@@ -281,18 +266,18 @@ You can store widget data in the workflow payload or in the work item metadata. 
 
 * **Store Data with the Payload**
 
-    * To store widget data as a property of the workflow payload, use the following format for the value of the name property of the widget node:  
+  * To store widget data as a property of the workflow payload, use the following format for the value of the name property of the widget node:  
       `./jcr:content/nodename`
     
-    * The data is stored in the `nodename` property of the payload node. If the node does not contain that property, the property is created.
-    * When stored with the payload, subsequent uses of the dialog with the same payload overwrites the value of the property.
+  * The data is stored in the `nodename` property of the payload node. If the node does not contain that property, the property is created.
+  * When stored with the payload, subsequent uses of the dialog with the same payload overwrites the value of the property.
 
 * **Store Data with the Work Item**
 
-    * To store widget data as a property of the work item metadata, use the following format for the value of the name property:  
+  * To store widget data as a property of the work item metadata, use the following format for the value of the name property:  
       `nodename`
     
-    * The data is stored in the `nodename` property of the work item `metadata`. The data is preserved if the dialog subsequently used with the same payload.
+  * The data is stored in the `nodename` property of the work item `metadata`. The data is preserved if the dialog subsequently used with the same payload.
 
 #### Dialog Participant Step - Dialog Definition {#dialog-participant-step-dialog-definition}
 
@@ -370,14 +355,14 @@ To configure the step, edit and use the following tabs:
 * [Common](#steppropertiescommontab)
 * **Participant Chooser**
 
-    * **Participant Chooser**: The name of the [participant chooser that you create](#developingtheparticipantchooser).
+  * **Participant Chooser**: The name of the [participant chooser that you create](#developingtheparticipantchooser).
     
     * **Arguments**: Any required arguments.
     * **Email**: Whether an email notification should be sent to the user.
 
 * **Dialog**
 
-    * **Dialog Path**: The path to the dialog node of the [dialog you create (as with the **Dialog Participant Step**)](#dialogparticipantstepcreatingadialog).
+  * **Dialog Path**: The path to the dialog node of the [dialog you create (as with the **Dialog Participant Step**)](#dialogparticipantstepcreatingadialog).
 
 #### Dynamic Participant Step - Developing the participant chooser {#dynamic-participant-step-developing-the-participant-chooser}
 
@@ -410,9 +395,9 @@ Create an OSGi service or an ECMAScript that selects a user to assign the work i
 
 * Services must implement the [com.day.cq.workflow.exec.ParticipantStepChooser](/sites/developing/using/reference-materials/javadoc/com/day/cq/workflow/exec/ParticipantStepChooser) interface. The interface defines the following members:
 
-    * `SERVICE_PROPERTY_LABEL` field: Use this field to specify the name of the participant chooser. The name appears in a list of available participant choosers in the **Dynamic Participant Step** properties.
+  * `SERVICE_PROPERTY_LABEL` field: Use this field to specify the name of the participant chooser. The name appears in a list of available participant choosers in the **Dynamic Participant Step** properties.
     
-    * `getParticipant` method: Returns the the dynamically resolved Principal id as a `String` value.
+  * `getParticipant` method: Returns the the dynamically resolved Principal id as a `String` value.
 
   >[!CAUTION]
   >
