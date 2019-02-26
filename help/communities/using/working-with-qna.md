@@ -161,7 +161,7 @@ Under the **Sort Settings **tab, specify how the posted comments are sorted when
 
 ## Site Visitor Experience {#site-visitor-experience}
 
-#### Identifying Answers {#identifying-answers}
+### Identifying Answers {#identifying-answers}
 
 One answer can be marked as a correct or useful answer using the `Select Answer` button. Once a Question is marked as Answered, another answer cannot be selected until the first one has been unselected using the `Unmark Chosen Answer`button.
 
@@ -169,13 +169,13 @@ Once selected as a viable answer, it may be unselected using the `Unmark Chosen 
 
 Once an answer is selected as the viable answer, an indication that the question has been `Answered`is displayed next to the question topic on the main QnA page.
 
-#### Moderators and Administrators {#moderators-and-administrators}
+### Moderators and Administrators {#moderators-and-administrators}
 
 When the signed in user has moderator or administrator privileges, they are able to perform the moderation tasks permitted by the configuration of the component, regardless of who authored the question or answer.
 
 They also have the ability to identify answers.
 
-#### Members {#members}
+### Members {#members}
 
 When the site visitor is signed in, depending on the configuration, they may
 
@@ -184,7 +184,7 @@ When the site visitor is signed in, depending on the configuration, they may
 * may also flag others' questions or answers
 * may identify answers for questions they authored
 
-#### Anonymous {#anonymous}
+### Anonymous {#anonymous}
 
 Site visitors who are not signed in may only read posted questions and answers, translate them if supported, but may not add neither a question nor answer, nor flag others' posts.
 

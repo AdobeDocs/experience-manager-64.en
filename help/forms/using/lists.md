@@ -158,11 +158,11 @@ The Find and Replace feature allows you to search for (and replace) any string o
 
 #### Search Options {#search-options}
 
-**Match Case: **The search returns results with the same case only.
+**Match Case:** The search returns results with the same case only.
 
-**Whole word: **Search returns only whole words.
+**Whole word:** Search returns only whole words.
 
-***Note: ****If you enter any special characters in the Find text box, the Whole Word option is disabled.*
+**Note:** If you enter any special characters in the Find text box, the Whole Word option is disabled.
 
 **Reg ex: **Search using regular expressions. For example, the following regular expression searches for email addresses in a text module:
 

@@ -75,7 +75,7 @@ Perform the following steps to change the publishing schedule:
 
     * `-Dreporting.publisher.cron = 0_0_0/5_*_*_?`
 
-1. Click **Apply**, click OK, and**** then click **Save directly to the master configuration**.  
+1. Click **Apply**, click OK, and then click **Save directly to the master configuration**.  
 
 1. Restart the AEM Forms server instance.
 

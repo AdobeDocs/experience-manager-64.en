@@ -19,7 +19,7 @@ You can use one of the following methods to create repeatable panels:
 
 ## Using Instance Manager via scripts&nbsp; {#using-instance-manager-via-scripts-nbsp}
 
-1. In the edit mode, select a panel, then tap ![](assets/cmppr.png-). In the sidebar, under Properties, enable **Make Panel Repeatable**. Specify values for the ****[!UICONTROL Maximum]**** and **[!UICONTROL **Minimum**]** fields.
+1. In the edit mode, select a panel, then tap ![](assets/cmppr.png-). In the sidebar, under Properties, enable **Make Panel Repeatable**. Specify values for the **[!UICONTROL Maximum]** and **[!UICONTROL **Minimum**]** fields.
 
    The Maximum field specifies the maximum number of times a panel can appear on the page. You can specify -1 in the Maximum Count field to allow the panel to appear for infinite number of times.
 

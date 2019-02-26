@@ -13,8 +13,9 @@ discoiquuid: 0a7d7331-d09c-4bc8-8980-3b64022e31ca
 
 # Initial Setup{#initial-setup}
 
-|   |** [Author a New Community Site ⇒](../../communities/using/create-site.md)** |
+|Previous|Next|
 |---|---|
+|   |[Author a New Community Site ⇒](../../communities/using/create-site.md)|
 
 ## Start Author and Publish Instances {#start-author-and-publish-instances}
 
@@ -77,7 +78,7 @@ For simple instructions to enable the tunnel service on an **author** instance, 
 
 Members of the Community Administrators group are able to create community sites, manage sites, manage members (they can ban members from the community), and moderate content.
 
-#### Create User {#create-user}
+### Create User {#create-user}
 
 Create a user on *author*, who is assigned the role of Community Administrator:
 
@@ -101,7 +102,7 @@ Create a user on *author*, who is assigned the role of Community Administrator:
     * **First Name**: Sirius
     * **Last Name&#42;**: Nilson
 
-#### Assign Sirius to Community Administrators Group {#assign-sirius-to-community-administrators-group}
+### Assign Sirius to Community Administrators Group {#assign-sirius-to-community-administrators-group}
 
 Scroll down to `Add User to Groups` :
 
@@ -157,6 +158,6 @@ For instructions visit [How to Setup MongoDB for Demo](../../communities/using/d
 
 By default, the installation of the author and publish AEM instances result in user generated content (UGC) being stored in [JCR Tar storage](../../sites/deploying/using/platform.md) which is accessed using [JSRP](../../communities/using/jsrp.md). JSRP is not a common store, which means UGC is visible only on the instance on which it was entered. Typically, UGC is entered on a publish instance and would not be visible in the author environment, resulting in all moderation tasks needing to use the publish instance.
 
-|   |** [Author a New Community Site⇒](../../communities/using/create-site.md)** |
+|Previous|Next|
 |---|---|
-
+|   |[Author a New Community Site ⇒](../../communities/using/create-site.md)|

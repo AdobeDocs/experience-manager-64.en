@@ -13,8 +13,9 @@ discoiquuid: c5a94a93-89f6-4f5c-9190-042fdb63b245
 
 # Setup Website Structure{#setup-website-structure}
 
-| [**⇐ Create An SCF Sandbox**](../../communities/using/an-scf-sandbox.md) |** [Initial Sandbox Application ⇒](../../communities/using/initial-app.md)** |
+|⇐ Previous|Next ⇒|
 |---|---|
+| [⇐ Create An SCF Sandbox](../../communities/using/an-scf-sandbox.md) |[Initial Sandbox Application ⇒](../../communities/using/initial-app.md) |
 
 To setup your website, the instructions below describe the folders to create in the following locations :
 
@@ -40,7 +41,7 @@ The code in this tutorial will rely on the main folder name being the same for t
 >    * underscore becomes '_005f'
 >
 
-### Setup the Application Directory (/apps) {#setup-the-application-directory-apps}
+## Setup the Application Directory (/apps) {#setup-the-application-directory-apps}
 
 The /apps directory in the repository contains the code with implements the behavior and rendering of the pages served from the /content directory.
 
@@ -64,19 +65,15 @@ The /apps directory is protected and not publicly accessible as are the /content
 
     1. select the **/apps/an-scf-sandbox** folder
     1. click **Create** &gt; **Create Folder**
-    
     1. in the **Create Folder** dialog, enter **components**
-    
     1. click **OK**
 
-1. Create **templates **subfolder.
+1. Create **templates** subfolder.
 
     1. select the **/apps/an-scf-sandbox **folder
     1. click **Create** &gt; **Create Folder**
-    
     1. in the **Create Folder** dialog, enter **templates**
-    
-    1. ****click **OK**
+    1. click **OK**
 
 1.
 
@@ -89,7 +86,7 @@ The /apps directory is protected and not publicly accessible as are the /content
 
    ![](assets/chlimage_1-44.png)
 
-### Setup the Design Directory (/etc/designs) {#setup-the-design-directory-etc-designs}
+## Setup the Design Directory (/etc/designs) {#setup-the-design-directory-etc-designs}
 
 The /etc/designs directory contains the images, scripts, and stylesheets to be downloaded along with the page content.
 
@@ -117,12 +114,12 @@ The /etc/designs directory contains the images, scripts, and stylesheets to be d
 
    ![](assets/chlimage_1-46.png)
 
-### Setup the Content Directory (/content) {#setup-the-content-directory-content}
+## Setup the Content Directory (/content) {#setup-the-content-directory-content}
 
 The /content directory in the respository is where the website content resides. The paths under /content comprise the paths of the URL for browser requests.
 
-*After *the [page template](../../communities/using/initial-app.md#createthepagetemplate) is created as part of the initial application, the initial page content can be created based on the template.... [**⇒**](../../communities/using/initial-app.md)
+*After* the [page template](../../communities/using/initial-app.md#createthepagetemplate) is created as part of the initial application, the initial page content can be created based on the template.... [**⇒**](../../communities/using/initial-app.md)
 
-| [**⇐ Create An SCF Sandbox**](../../communities/using/an-scf-sandbox.md) |** [Initial Sandbox Application ⇒](../../communities/using/initial-app.md)** |
+|⇐ Previous|Next ⇒|
 |---|---|
-
+| [⇐ Create An SCF Sandbox](../../communities/using/an-scf-sandbox.md) |[Initial Sandbox Application ⇒](../../communities/using/initial-app.md) |

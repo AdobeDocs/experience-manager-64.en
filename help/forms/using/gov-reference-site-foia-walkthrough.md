@@ -72,7 +72,7 @@ When Sarah fills and submits the FOIA application, a record of the application i
 
 ### See it yourself {#see-it-yourself-1}
 
-You can access the AEM inbox at http://&lt;***hostname***&gt;:&lt;***PublishP******ort***&gt;/content/we-finance/global/en/login.html?resource=/aem/inbox.html. Log in to the AEM inbox, using jjacobs/password as the username/password for John Jacobs, and see the FOIA application. For information about using AEM Inbox for forms-centric workflow tasks, see [Manage Forms applications and tasks in AEM Inbox](../../forms/using/manage-applications-inbox.md).
+You can access the AEM inbox at `http://<hostname>:<PublishPort>/content/we-finance/global/en/login.html?resource=/aem/inbox.html`. Log in to the AEM inbox, using jjacobs/password as the username/password for John Jacobs, and see the FOIA application. For information about using AEM Inbox for forms-centric workflow tasks, see [Manage Forms applications and tasks in AEM Inbox](../../forms/using/manage-applications-inbox.md).
 
 ![](assets/johnjacobs.png)
 
@@ -98,7 +98,7 @@ When John Jacobs approves the FOIA request, a PDF or Document of Record of the a
 
 ### See for yourself {#see-for-yourself}
 
-You can access the AEM inbox at http://&lt;***hostname***&gt;:&lt;***PublishP******ort***&gt;/content/we-finance/global/en/login.html?resource=/aem/inbox.html. Log in to the AEM inbox using grios/password as the username/password for Gloria Rios, and see the FOIS request.
+You can access the AEM inbox at `http://<hostname>:<PublishPort>/content/we-finance/global/en/login.html?resource=/aem/inbox.html`. Log in to the AEM inbox using grios/password as the username/password for Gloria Rios, and see the FOIS request.
 
 Gloria opens the request and examines the details of the FOIA request. After reviewing the details of the request and checking the feasibility of furnishing the required documents, Gloria approves the request. 
 

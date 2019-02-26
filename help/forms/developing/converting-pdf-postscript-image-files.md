@@ -200,8 +200,6 @@ Convert a PDF document to PostScript by using the Convert PDF Service API (web s
 
 [Invoking AEM Forms using SwaRef](/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_swaref)
 
-****
-
 ## Converting PDF Documents to Image Formats {#converting-pdf-documents-to-image-formats}
 
 You can use the Convert PDF service to programmatically convert PDF documents to image formats, which include JPEG, JPEG 2000, TIFF, and PNG. By converting a PDF document to an image file, you can use the PDF document as an image file. For example, you can place the image in an enterprise content management system for storage.

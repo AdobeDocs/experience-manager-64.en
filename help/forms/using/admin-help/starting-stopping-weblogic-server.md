@@ -74,7 +74,7 @@ The WebLogic Server administration console is no longer available, and the comma
     * (Windows) `startWebLogic.cmd`
     * (Linux, UNIX) ./ `startWebLogic.sh`
 
-1. Access WebLogic Server administration console by typing `http://*[host name]*:`*[Port]* `/console` in the URL line of a web browser, where *****[Port]* is the non-secure listening port. By default, this port value is 7001.
+1. Access WebLogic Server administration console by typing `http://*[host name]*:`*[Port]* `/console` in the URL line of a web browser, where ***[Port]* is the non-secure listening port. By default, this port value is 7001.
 1. On the login screen, type your administrator user name and password, and click Log In.
 
 ## Start Node Manager {#start-node-manager}

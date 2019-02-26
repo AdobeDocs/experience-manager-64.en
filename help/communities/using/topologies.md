@@ -39,7 +39,7 @@ Requiring a common store results in the following recommended topologies.
 >
 >For more information on the AEM platform, see [Recommended Deployments](../../sites/deploying/using/recommended-deploys.md) and [Introduction to the AEM Platform](../../sites/deploying/using/data-store-config.md).
 
-### For Production {#for-production}
+## For Production {#for-production}
 
 Establishing a common store for UGC is essential, and thus the underlying deployment is contingent on its ability to support a common store.
 
@@ -55,14 +55,14 @@ To choose the appropriate common store, carefully consider the unique [character
 
 For more details on Oak microkernals, visit [Recommended Deployments](../../sites/deploying/using/recommended-deploys.md).
 
-#### TarMK Publish Farm {#tarmk-publish-farm}
+### TarMK Publish Farm {#tarmk-publish-farm}
 
 When the topology is a publish farm, relevant topics of importance are
 
 * [User Synchronization](../../communities/using/sync.md)
 * [Managing Users and User Groups](../../communities/using/users.md)
 
-#### Recommended : DSRP, MSRP or ASRP {#recommended-dsrp-msrp-or-asrp}
+### Recommended : DSRP, MSRP or ASRP {#recommended-dsrp-msrp-or-asrp}
 
 <table border="1" cellpadding="2" cellspacing="2" width="100%"> 
  <tbody>
@@ -125,13 +125,13 @@ When the topology is a publish farm, relevant topics of importance are
  </tbody>
 </table>
 
-### For Development {#for-development}
+## For Development {#for-development}
 
 For non-production environments, [JSRP](../../communities/using/jsrp.md) provides simplicity in setting up a development environment with one author instance and one publish instance.
 
 If choosing [ASRP](../../communities/using/asrp.md), [DSRP](../../communities/using/dsrp.md) or [MSRP](../../communities/using/msrp.md) for production, it is also possible to setup a similar development environment using Adobe on-demand storage or MongoDB. For an example, see [HowTo Setup MongoDB for Demo](../../communities/using/demo-mongo.md).
 
-### References {#references}
+## References {#references}
 
 * [User Synchronization](../../communities/using/sync.md)  
   Discusses scynchronization of user data among publish farm instances.

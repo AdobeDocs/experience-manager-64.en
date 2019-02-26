@@ -190,7 +190,7 @@ To configure the default color properties to enable color correction when reques
     * CMYK Default Color Space - Name of the default CMYK color profile
     * Gray-Scale Default Color Space - Name of the default Gray color profile
     * RGB Default Color Space - Name of the default RGB color profile
-    * Color Conversion Rendering Intent - Specifies the render intent. Acceptable values are: **perceptual, relative colometric, saturation, absolute colometric. ****Adobe recommends **relative ****as the default.
+    * Color Conversion Rendering Intent - Specifies the render intent. Acceptable values are: **perceptual, relative colometric, saturation, absolute colometric. **Adobe recommends **relative** as the default.
 
 1. Tap or click **Save**.
 

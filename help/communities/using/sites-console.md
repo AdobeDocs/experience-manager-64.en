@@ -395,7 +395,7 @@ The STRUCTURE panel allows the modification of the structure initially created f
 
 >[!CAUTION]
 >
->&#42; While the display title may be changed without side-effects, it is not recommended to edit the URL name of a community function belonging to a community site.
+>While the display title may be changed without side-effects, it is not recommended to edit the URL name of a community function belonging to a community site.
 >
 >For example, renaming the URL will not move existing UGC, thus having the effect of 'losing' UGC.
 
@@ -512,7 +512,7 @@ To correctly redirect, once a site has been configured and pushed to publish, co
 
 ![](assets/chlimage_1-468.png) 
 
-#### Test Authentication Redirection {#test-authentication-redirection}
+### Test Authentication Redirection {#test-authentication-redirection}
 
 On the same AEM publish instance configured with a login page mapping for the community site :
 

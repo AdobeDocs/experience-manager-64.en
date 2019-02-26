@@ -13,7 +13,7 @@ discoiquuid: a4d779e1-f760-43e1-a77b-17fb0af890a8
 
 # Using Social Tag Cloud{#using-social-tag-cloud}
 
-### Introduction {#introduction}
+## Introduction {#introduction}
 
 The `Social Tag Cloud` component highlights tags applied by community members when posting content. It is a means of identifying trending topics and allowing site visitors to quickly locate tagged content.
 
@@ -25,7 +25,7 @@ For detailed information for developers see [Tag Essentials](../../communities/u
 
 See [Administering Tags](../../sites/administering/using/tags.md) for information about creating and managing tags, as well as to which content tags have been applied.
 
-### Adding a Social Tag Cloud {#adding-a-social-tag-cloud}
+## Adding a Social Tag Cloud {#adding-a-social-tag-cloud}
 
 To add a `Social Tag Cloud` component to a page in author mode, use the component browser to locate
 
@@ -39,7 +39,7 @@ When the [required client-side libraries](../../communities/using/tag.md#essenti
 
 ![](assets/chlimage_1-303.png)
 
-### Configuring Social Tag Cloud {#configuring-social-tag-cloud}
+## Configuring Social Tag Cloud {#configuring-social-tag-cloud}
 
 Select the placed `Social Tag Cloud` component to access and select the `Configure` icon which opens the edit dialog.
 
@@ -66,7 +66,7 @@ Under the **Social Tag Cloud** tab, specify which tags to display and, if the ta
 * **Search Result Path** 
   The path to a page on which a `Search Result` component has been placed, configured to reference UGC which includes the UGC path specified by the **Page **setting.
 
-### Change Display of Social Tag Cloud {#change-display-of-social-tag-cloud}
+## Change Display of Social Tag Cloud {#change-display-of-social-tag-cloud}
 
 To edit the display of the **Social Tag Cloud**, enter [Design Mode](../../sites/authoring/using/default-components-designmode.md) and double click on the placed `Social Tag Cloud` component to open a dialog with an additional tab.
 
@@ -102,7 +102,7 @@ Using the **Social Tag Cloud (Design)** tab, specify how tags are displayed. A t
 * **Same size for all tags** 
   If checked, all words in the tag cloud are styled the same. If unchecked, words are styled differently according to their usage. Default is unchecked.
 
-### Additional Information {#additional-information}
+## Additional Information {#additional-information}
 
 More information may be found on the [Tag Essentials](../../communities/using/tag.md) page for developers.
 

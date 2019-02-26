@@ -41,7 +41,7 @@ To get started creating a new group template, select `Create`
 
 This will bring up the Site Editor panel which contains 3 sub-panels :
 
-#### Basic Info {#basic-info}
+### Basic Info {#basic-info}
 
 ![](assets/chlimage_1-96.png)
 
@@ -56,13 +56,13 @@ On the Basic Info panel, a name, description and whether the template is enabled
 * **Disabled/Enabled** 
   a toggle switch controlling whether the template is referenceable
 
-#### Thumbnail {#thumbnail}
+### Thumbnail {#thumbnail}
 
 ![](assets/chlimage_1-97.png)
 
 (Optional) Select the Upload Image icon in order to display a Thumbnail along with the Name and Description to creators of community sites.
 
-#### Structure {#structure}
+### Structure {#structure}
 
 >[!CAUTION]
 >

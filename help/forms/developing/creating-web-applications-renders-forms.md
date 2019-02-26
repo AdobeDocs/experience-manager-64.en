@@ -90,7 +90,7 @@ For the location of these JAR files, see [Including AEM Forms Java library files
 
 **To create a web project:**
 
-1. Start Eclipse and click **File **&gt; **New****Project**.
+1. Start Eclipse and click **File** &gt; **New Project**.
 1. In the **New Project** dialog box, select **Web **&gt;** Dynamic Web Project**.
 1. Type `FragmentsWebApplication` for the name of your project and then click **Finish**.
 
@@ -104,13 +104,13 @@ For the location of these JAR files, see [Including AEM Forms Java library files
 
 1. From the Project Explorer window, right-click the `FragmentsWebApplication` project and select **New **&gt; **Other**. 
 1. Expand the **Web** folder, select **Servlet**, and then click **Next**. 
-1. In the Create Servlet dialog box, type `RenderFormFragment`****for the name of the servlet and then click **Finish**.
+1. In the Create Servlet dialog box, type `RenderFormFragment` for the name of the servlet and then click **Finish**.
 
 **To add an HTML page to your project:**
 
 1. From the Project Explorer window, right-click the `FragmentsWebApplication` project and select **New** &gt; **Other**. 
 1. Expand the **Web** folder, select **HTML**, and click **Next**. 
-1. In the New HTML****dialog box, type `index.html` for the file name and then click **Finish**.
+1. In the **New HTML** dialog box, type `index.html` for the file name and then click **Finish**.
 
 >[!NOTE]
 >
