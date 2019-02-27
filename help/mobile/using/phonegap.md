@@ -24,7 +24,7 @@ Starting a new AEM Mobile app experience requires a cohesion of roles before it 
 * **Developer**
 * **Author**
 
-### Authoring PhoneGap Applications {#authoring-phonegap-applications}
+## Authoring PhoneGap Applications {#authoring-phonegap-applications}
 
 An ***AEM Author* (or *Marketer*)** is able to use the out-of-the-box templates and components to add and edit pages, drag and drop components and add media of all types from the DAM including images, videos and text fragments (content fragments).
 
@@ -40,7 +40,7 @@ See the following resources to get started:
 
 To learn about **Content Services**, see [Content Services Overview](/mobile/using/content-as-a-service) to get started.
 
-### Additional Resources {#additional-resources}
+## Additional Resources {#additional-resources}
 
 To learn about the roles and responsibilities of an Adminstrator and Developer, see the resources below:
 

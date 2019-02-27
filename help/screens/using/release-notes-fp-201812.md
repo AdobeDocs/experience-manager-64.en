@@ -16,11 +16,11 @@ noindex: true
 
 The AEM Screens released AEM 6.3 Feature Pack 5 and AEM 6.4 Feature Pack 3 with the following details.
 
-### Release Date {#release-date}
+## Release Date {#release-date}
 
 The Release Date for AEM Screens Feature Pack 201812 is January 16, 2019.
 
-### What's New {#what-s-new}
+## What's New {#what-s-new}
 
 * **Text Overlay on Assets in Channel**:  
   Text Overlay is a feature available in AEM Screens that allows you to create a compelling experience in a Sequence Channel by providing a title or a description overlaid on top of an image. Please refer to [**Text Overlay**](../../screens/using/text-overlay.md) to learn more.
@@ -34,7 +34,7 @@ The Release Date for AEM Screens Feature Pack 201812 is January 16, 2019.
 * **Smart Syncing of Assets to Players**
 * **Author / Publish deployment (Hardening)**
 
-### Released AEM Screens Players {#released-aem-screens-players}
+## Released AEM Screens Players {#released-aem-screens-players}
 
 The following AEM Screens Players are released for AEM 6.3 Feature Pack 5 and AEM 6.4 Feature Pack 3:
 
@@ -43,6 +43,6 @@ The following AEM Screens Players are released for AEM 6.3 Feature Pack 5 and AE
 * Android
 * iOS
 
-#### AEM Screens Player Downloads {#aem-screens-player-downloads}
+### AEM Screens Player Downloads {#aem-screens-player-downloads}
 
 To download the latest AEM Screens player and learn more about the bug fixes, please refer to [**AEM Screens Player Downloads**](https://download.macromedia.com/screens/).

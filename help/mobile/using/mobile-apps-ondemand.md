@@ -27,13 +27,13 @@ discoiquuid: bc3b22e9-c2ed-4ac1-8f98-ab61d0fcf0ae
 >
 >Before working with AEM Mobile On-Demand Services and following the steps within this getting started guide, users should be familiar with [AEM](../../sites/deploying/using/deploy.md).
 
-### AEM Mobile Author {#aem-mobile-author}
+## AEM Mobile Author {#aem-mobile-author}
 
 An ***AEM Author* (or *Marketer*)** uses custom-developed or out-of-the-box templates and components to add and edit pages, drag and drop components and add media of all types from the DAM including images, videos and text fragments (content fragments). AEM's built-in content editor is then used by *AEM Authors* to create rich and relevent experiences within the app, including integration with the rest of the Adobe Marketing Cloud.
 
 An AEM author is responsible for the following tasks while creating an app using AEM Mobile On Demand Services.
 
-**Authoring AEM Content for AEM Mobile On-Demand Services App **involves following actions:
+**Authoring AEM Content for AEM Mobile On-Demand Services App** involves following actions:
 
 * [AEM Mobile Application Dashboard](../../mobile/using/mobile-apps-ondemand-application-dashboard.md)
 * [Application Create and Configuration Actions](../../mobile/using/mobile-apps-ondemand-application-create-configure-action.md)
@@ -48,12 +48,10 @@ To learn about **Content Services**, see [Content Services Overview](/mobile/usi
 >
 >* [Templates](../../sites/developing/using/templates.md)
 >* [Components](../../sites/developing/using/components.md)
->
 
-### Additional Resources {#additional-resources}
+## Additional Resources {#additional-resources}
 
 To understand more on the other two roles and responsibilities for creating an AEM Mobile On-Demand Services App, see the following resources:
 
 * [Developing AEM Content for AEM Mobile On-Demand Services](../../mobile/using/aem-mobile-on-demand.md)
 * [Administering Content to Use AEM Mobile On-Demand Services](../../mobile/using/aem-mobile.md)
-

@@ -15,11 +15,11 @@ discoiquuid: ffa6ad86-3ae4-4540-9344-460224901e1a
 
 The AEM Screens released AEM 6.4.2 Feature Pack 2 and AEM 6.3.3 Feature Pack 4 with the following details.
 
-### Release Date {#release-date}
+## Release Date {#release-date}
 
 The Release Date for AEM Screens Feature Pack 201809 is October 01, 2018.
 
-### What's New {#what-s-new}
+## What's New {#what-s-new}
 
 * **Adobe Analytics Proof of Play Reporting**: Please refer to [Adobe Analytics Integration with AEM Screens](../../screens/using/adobe-analytics-integration-aem-screens.md) to learn more.  
 
@@ -32,7 +32,7 @@ The Release Date for AEM Screens Feature Pack 201809 is October 01, 2018.
 
 * **Author / Publish deployment (Hardening)**
 
-### Released AEM Screens Players {#released-aem-screens-players}
+## Released AEM Screens Players {#released-aem-screens-players}
 
 The following AEM Screens Players are released for AEM 6.4.2 Feature Pack 2 and AEM 6.3.3 Feature Pack 4:
 
@@ -41,6 +41,6 @@ The following AEM Screens Players are released for AEM 6.4.2 Feature Pack 2 and 
 * Android
 * iOS
 
-#### AEM Screens Player Downloads {#aem-screens-player-downloads}
+### AEM Screens Player Downloads {#aem-screens-player-downloads}
 
 To download the latest AEM Screens player and learn more about the bug fixes, please refer to [**AEM Screens Player Downloads**](https://download.macromedia.com/screens/).

@@ -56,17 +56,12 @@ Use the following procedure to map CQ component variables with Adobe Analytics r
    >
    >It is highly recommended that:
    >
-   >    
-   >    
-   >    * `eVars` and `props` are mapped to CQ variables beginning with either** ** `pagedata.X`** **or `eventdata.X`   
-   >    
-   >    * whereas events should be mapped to variables starting with `eventdata.events.X`
-   >    
-   >
+   >* `eVars` and `props` are mapped to CQ variables beginning with either** ** `pagedata.X`** **or `eventdata.X`
+   >* whereas events should be mapped to variables starting with `eventdata.events.X`
 
 1. To make the framework available on the publish instance of your site, open the **Page **tab of sidekick, and click **Activate Framework.**
 
-### Mapping Product-Related Variables {#mapping-product-related-variables}
+## Mapping Product-Related Variables {#mapping-product-related-variables}
 
 AEM uses a convention for naming product-related variables and events that are meant to be mapped to Adobe Analytics product-related properties:
 
@@ -85,7 +80,7 @@ Several AEM Commerce components use these variable names.
 >
 >Do not map the Adobe Analytics Products property to a CQ variable. Configuring product-related mappings as described in the table is effectively equivalent to mapping the Products variable.
 
-### Checking reports on Adobe Analytics {#checking-reports-on-adobe-analytics}
+## Checking reports on Adobe Analytics {#checking-reports-on-adobe-analytics}
 
 1. Login to the Adobe Analytics website using the same credentials provided to AEM.
 1. Make sure the RSID selected is the one used in the previous steps.
@@ -213,4 +208,3 @@ Taking the above image as an example, the **AEM view** has the following propert
 >[!CAUTION]
 >
 >Only one CQ variable can be mapped to a Adobe Analytics variable at any given time.
-

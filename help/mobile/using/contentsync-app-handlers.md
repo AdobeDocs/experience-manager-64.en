@@ -24,7 +24,7 @@ See the following guidelines for developing Content Sync Handlers:
 * Handler must only report true if they updated the ContentSync cache. Falsely reporting true will allow AEM create an update.
 * Handler should only update the cache if the content actually changed. Do not write to the cache if a white is not necessary and avoid an unnecessary update creation.
 
-### Out of the Box Handlers {#out-of-the-box-handlers}
+## Out of the Box Handlers {#out-of-the-box-handlers}
 
 The following lists out-of-the-box app handlers:
 
@@ -33,24 +33,19 @@ The following lists out-of-the-box app handlers:
 * ***type - String*** - mobileapppages
 * ***path - String*** - path to a page
 * ***extension - String*** - Extension that should be used in the request. For pages this is almost always *html*, but others are still possible.
-
 * ***selector - String*** - Optional selectors separated by dot. Common examples are *touch* for rendering mobile versions of a page.
-
 * ***deep - Boolean*** - Optional boolean property determining if child pages should be included, as well. The default value is *true.*
+* ***includeImages - Boolean***Optional boolean property determining if images should be included. The default value is *true*.
 
-* ***includeImages - Boolean* - **Optional boolean property determining if images should be included. The default value is *true*.
-
-    * By default, only image components with a resource type of foundation/components/image are considered for inclusion.
+  * By default, only image components with a resource type of foundation/components/image are considered for inclusion.
 
 * ***includeVideos - Boolean*** - Optional boolean property determine if videos should be include. The default value is *true*.
-
 * ***includeModifiedPagesOnly - Boolean* -** If false or omitted render all pages and check updates in rendering. If true, base diffs on changes to a pages lastModified.
-* ***+* *rewrite (node)*** 
-  ** *- relativeParentPath - String* **- the path to write all other paths relative to.
+* ***rewrite (node) - relativeParentPath - String*** - the path to write all other paths relative to.
 
 >[!NOTE]
 >
->The resource type of the image and video components that are affected by this handler is set by configuring the properties of the *com.adobe.cq.mobile.platform.impl.contentsync.handler*.*MobilePagesUpdateHandler OSGi service*.
+>The resource type of the image and video components that are affected by this handler is set by configuring the properties of the `com.adobe.cq.mobile.platform.impl.contentsync.handler*.*MobilePagesUpdateHandler OSGi service`.
 
 **mobilepageassets** Collects app page assets.
 
@@ -146,23 +141,23 @@ AEM properties are those that are name-spaced with "cq", "sling" or "jcr". Other
 
 **contentsyncconfigcontent** Collects content from an existing ContentSync config.
 
-* ***type - String* - **contentsyncconfigcontent
-* ***path** - **String** *- Path to one of:
+* ***type - String*** - contentsyncconfigcontent
+* ***path - String*** - Path to one of:
 
-    * another ContentSync config
-    * to a Content Package (will be use its phonegap-exportTemplate property to find its ContentSync config)
-    * to a Mobile Resource (app-content's will be found under that resource and, if those content packages have a pge-includeInBuild property which is true, the phonegap-exportTemplate will be used to find its ContentSync config)
+  * another ContentSync config
+  * to a Content Package (will be use its phonegap-exportTemplate property to find its ContentSync config)
+  * to a Mobile Resource (app-content's will be found under that resource and, if those content packages have a pge-includeInBuild property which is true, the phonegap-exportTemplate will be used to find its ContentSync config)
 
 * ***autoCreateFirstUpdateBeforeImport - Boolean*** - if true, create an initial **update** in the target config before importing if once does not exist already
 
 * ***autoFillBeforeImport - Boolean*** - if true, update/fill the target config before importing
-* ***configSuffix - String* - **a string to append to the path indicated on the "phonegap-exportTemplate" property of app-content. This can be used to distinguish different export templates. For example, this property can be set to **"-dev"** to indicate that *"/../../../appconfig-dev"* should be used (as opposed to *"/../../../appconfig"*).
+* ***configSuffix - String*** a string to append to the path indicated on the "phonegap-exportTemplate" property of app-content. This can be used to distinguish different export templates. For example, this property can be set to **"-dev"** to indicate that `"/../../../appconfig-dev"` should be used (as opposed to `"/../../../appconfig"`).
 
 **app-assets** Includes all assets associated with an app instance. This handler will include any assets found under the specified path along with any assets referenced by an app instance's appAssetPath property.
 
 * ***type - String*** - app-assets  
 
-* ***path** - **String*** - path to a location under an app instance where app assets are stored
+* ***path - String*** - path to a location under an app instance where app assets are stored
 
 **mobileappoffers** A new content sync handler has been introduced for the Personalization use case to render targeted content. The 'mobileappoffers' handler knows how to render the associated target offers that have been created by the content author. The mobileappoffers handler extends the abstract pages update handler therefore many of the properties are similar. The details of the mobileappoffers handler has the following properties.
 
@@ -208,4 +203,3 @@ To learn about the roles and responsibilities of an Administrator and Developer,
 >[!NOTE]
 >
 >To get started with AEM Mobile app development, click [here](../../mobile/using/getting-started-aem-mobile.md).
-

@@ -45,6 +45,8 @@ This use case allows you to create an AEM Screens project with a channel that le
 
 Follow the steps below to create an AEM Screens project that shows how to achieve zone mapping for your AEM Screens project:
 
+<!--resolve funky steps-->
+
 1.
 
     1. Select the Adobe Experience Manager link (top left) and then Screens. Alternatively, you can ﻿go directly to: [http://localhost:4502/screens.html/content/screens](http://localhost:4502/screens.html/content/screens).
@@ -127,7 +129,7 @@ Follow the steps below to create an AEM Screens project that shows how to achiev
     
     1. Select **Dual Zone Display **and tap/click **Assign Channel** from the action bar, Or,
     
-    1. Click **Dashboard** and select **+Assign Channel** at the top right from **ASSIGNED CHANNELS & SCHEDULES** panel, as shown in the figure below. **Channel Assignment **dialog box opens.
+    1. Click **Dashboard** and select **+Assign Channel** at the top right from **ASSIGNED CHANNELS & SCHEDULES** panel, as shown in the figure below. **Channel Assignment** dialog box opens.
     
     1. Enter the **Channel Role** as **Zone**.
     
@@ -174,12 +176,8 @@ Follow the steps below to create an AEM Screens project that shows how to achiev
    >
    >***Understanding Mapping and Template in device config:***
    >
-   >    
-   >    
-   >    * identifiers "a1" and "a2" correspond to the zones defined in the template, that is, "screens-zone-a1" and "screens-zone-a2".
-   >    * ${display.channel}/left" points to the channel to embed in the zone, where "display.channel" points to the current channel path in the display. This effectively embeds the "left" and "right" children of the channel.
-   >    
-   >
+   >* identifiers "a1" and "a2" correspond to the zones defined in the template, that is, "screens-zone-a1" and "screens-zone-a2".
+   >* ${display.channel}/left" points to the channel to embed in the zone, where "display.channel" points to the current channel path in the display. This effectively embeds the "left" and "right" children of the channel.
 
    ![](assets/screen_shot_2018-01-22at114708am.png)
 

@@ -31,7 +31,7 @@ The workflow for the process is as follows:
 
 The ***ContentSync*** uses update handlers to parse and collect all necessary pages and assets for a specific project. AEM Screens uses the following update handlers:
 
-#### Common Options {#common-options}
+### Common Options {#common-options}
 
 * *type*: the update handler type to use
 * *path*: path to the resource
@@ -67,7 +67,7 @@ The ***ContentSync*** uses update handlers to parse and collect all necessary pa
  </tbody>
 </table>
 
-### Testing ContentSync Configuration {#testing-contentsync-configuration}
+## Testing ContentSync Configuration {#testing-contentsync-configuration}
 
 Follow the steps below to test the ContentSync configuration:
 
