@@ -173,7 +173,7 @@ You can now use your Experience Fragment when authoring your pages:
 
 You can select one or more components to create a building block for recycling within your fragment:
 
-#### Creating a Building Block {#creating-a-building-block}
+### Creating a Building Block {#creating-a-building-block}
 
 To create a new Building Block:
 
@@ -197,7 +197,7 @@ To create a new Building Block:
 
    ![](assets/xf-authoring-15.png)
 
-#### Managing a Building Block {#managing-a-building-block}
+### Managing a Building Block {#managing-a-building-block}
 
 Your building block is visible in the **Building Blocks** tab. For each block, the following actions are available:
 
@@ -207,7 +207,7 @@ Your building block is visible in the **Building Blocks** tab. For each block, t
 
 ![](assets/xf-authoring-16.png) 
 
-#### Using a Building Block {#using-a-building-block}
+### Using a Building Block {#using-a-building-block}
 
 You can drag your building block to the paragraph system of any fragment, as with any component.
 

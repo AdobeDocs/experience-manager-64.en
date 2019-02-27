@@ -18,8 +18,8 @@ The project workflows available out of the box include the following:
 * **Project Approval Workflow** - This workflow allows you to assign content to a user, review, then approve.
 * **Request Launch** - A workflow the requests a launch.
 * **Request Landing Page** - This workflow requests a landing page.
-* **Request Email **- Workflow for requesting an email.
-* **Product Photo Shoot and Product Photo Shoot (Commerce) **- Maps assets with products
+* **Request Email** - Workflow for requesting an email.
+* **Product Photo Shoot and Product Photo Shoot (Commerce)** - Maps assets with products
 * **DAM Create and Translate Copy and DAM Create Language Copy** - Creates translated binaries, metadata, and tags for assets and folders.
 
 Depending on which Project template you select, you have certain workflows available:
@@ -52,7 +52,7 @@ For more information on working with workflows in AEM, see the folllowing:
 
 This section describes the workflows available for Projects. 
 
-### Request Copy workflow {#request-copy-workflow}
+## Request Copy workflow {#request-copy-workflow}
 
 This workflow lets you request a manuscript from a user and then approve it. To start the request copy workflow:
 
@@ -65,11 +65,11 @@ This workflow lets you request a manuscript from a user and then approve it. To 
 
    ![](assets/chlimage_1-418.png)
 
-### Product Photo Shoot workflow {#product-photo-shoot-workflow}
+## Product Photo Shoot workflow {#product-photo-shoot-workflow}
 
 The Product Photo Shoot workflows (both commerce and without commerce) are covered in detail in [Creative Project](../../../sites/authoring/using/managing-product-information.md#productphotoshootprojectworkflows).
 
-### Project Approval workflow {#project-approval-workflow}
+## Project Approval workflow {#project-approval-workflow}
 
 In the Project Approval workflow, you assign content to a user, review, and then approve the content.
 
@@ -82,7 +82,7 @@ In the Project Approval workflow, you assign content to a user, review, and then
 
    ![](assets/chlimage_1-420.png)
 
-### Request Launch workflow {#request-launch-workflow}
+## Request Launch workflow {#request-launch-workflow}
 
 This workflow lets you request a launch.
 
@@ -93,7 +93,7 @@ This workflow lets you request a launch.
 
 1. Click **Create**. The workflow starts. The workflow appears in the **Workflows** list (click ellipses** ... **on the **Workflows **tile** **to access this list).
 
-### Request Landing Page workflow {#request-landing-page-workflow}
+## Request Landing Page workflow {#request-landing-page-workflow}
 
 This workflow lets you request a landing page.
 
@@ -104,7 +104,7 @@ This workflow lets you request a landing page.
 
 1. Click **Create**. The workflow starts. The task appears in the **Tasks** tile.
 
-### Request Email workflow {#request-email-workflow}
+## Request Email workflow {#request-email-workflow}
 
 This workflow lets you request an email. It is the same workflow that appears in the **Emails** tile.
 
@@ -117,6 +117,6 @@ This workflow lets you request an email. It is the same workflow that appears in
 
    ![](assets/chlimage_1-424.png)
 
-### Create (and Translate) Language Copy Workflow for Assets {#create-and-translate-language-copy-workflow-for-assets}
+## Create (and Translate) Language Copy Workflow for Assets {#create-and-translate-language-copy-workflow-for-assets}
 
 The **Create Language Copy** and the **Create and Translate Language Copy** workflows are covered in detail in [Creating Language Copies for Assets.](../../../assets/using/translation-projects.md)

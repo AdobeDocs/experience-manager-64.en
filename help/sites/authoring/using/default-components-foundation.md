@@ -38,8 +38,7 @@ The components are available on the **Components** tab of the side panel of the 
 You can select a component and drag it to the required location on your page. You can then edit it using:
 
 * [Configure Properties](../../../sites/authoring/using/editing-page-properties.md)
-* [Edit Content](../../../sites/authoring/using/editing-content.md)  
-
+* [Edit Content](../../../sites/authoring/using/editing-content.md)
 * [Edit Content - Full Screen Mode](../../../sites/authoring/using/editing-content.md#main-pars-title-31)
 
 Components are sorted according to various categories called component groups including:
@@ -162,7 +161,7 @@ These are available in two tabs:
     * Controls Style  
       Various options are available from a pulldown menu; for example, Prev / Next Buttons, Top-Right Switches.
 
-* **List ** 
+* **List** 
   Here you specify how pages are included in your Carousel:
 
     * **Build list using** 
@@ -935,25 +934,16 @@ This component is needed to define the start of a new form on a page. You can co
         * **E-Mail Service: Create Subscriber and add to list**
         * **E-Mail Service: Send auto-responder email**
         * **E-Mail Service: Unsubscribe user from list**
-        * **Edit Community  
-          **
+        * **Edit Community**
         * **Edit Resource(s)** 
-          ** **
-        
         * **Edit Workflow Controlled Resource(s)** 
-        
         * **Mail**
-        * **Placed Order Details  
-          **
+        * **Placed Order Details**
         * **Profile Update** 
-        
         * **Reset Password** 
-        
         * **Set Password** 
-        
         * **Store Content** 
           This is the default action type.  
-        
         * **Store Content with Uploads**
         * **Submit Order**
         * **Unsubscribe Subscriber**

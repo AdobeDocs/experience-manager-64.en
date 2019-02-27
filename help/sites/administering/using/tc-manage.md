@@ -72,7 +72,7 @@ After translating, you can [review the translation](#reviewingandpromotingupdate
 
 ![](assets/chlimage_1-288.png) 
 
-#### Create Translation Projects for a New Language Copy {#create-translation-projects-for-a-new-language-copy}
+### Create Translation Projects for a New Language Copy {#create-translation-projects-for-a-new-language-copy}
 
 1. Use the Sites console to select the page that you are adding to translation projects.
 
@@ -94,7 +94,7 @@ After translating, you can [review the translation](#reviewingandpromotingupdate
 
 1. Click or tap Create.
 
-#### Create Translation Projects for an Existing Language Copy {#create-translation-projects-for-an-existing-language-copy}
+### Create Translation Projects for an Existing Language Copy {#create-translation-projects-for-an-existing-language-copy}
 
 1. Use the Sites console to select the page that you are adding to the translation projects.
 

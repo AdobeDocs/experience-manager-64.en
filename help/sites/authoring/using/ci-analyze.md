@@ -15,7 +15,7 @@ discoiquuid: 2dbbbeaf-0f52-4214-b633-53560501777b
 
 Open the [Content Insight](../../../sites/authoring/using/content-insights.md) page to analyze the performance of the page that you are authoring. Configure the reporting period to focus your analysis.
 
-### Opening Analytics and Recommendations for a Page {#opening-analytics-and-recommendations-for-a-page}
+## Opening Analytics and Recommendations for a Page {#opening-analytics-and-recommendations-for-a-page}
 
 Use the following procedure to see the Analytics and Recommendations for a page:
 
@@ -28,7 +28,7 @@ Use the following procedure to see the Analytics and Recommendations for a page:
 
    ![](assets/screen_shot_2017-11-29at135651.png)
 
-### Changing the Reporting Period {#changing-the-reporting-period}
+## Changing the Reporting Period {#changing-the-reporting-period}
 
 Change the following time-related aspects of the analytics reports:
 
@@ -37,7 +37,7 @@ Change the following time-related aspects of the analytics reports:
 
 The tools for changing the time-related aspects of the reports appear at the top of the Content Insight page. ![](assets/chlimage_1-308.png)
 
-#### Changing the Reporting Period {#changing-the-reporting-period-1}
+### Changing the Reporting Period {#changing-the-reporting-period-1}
 
 Change the reporting period of the Content Insight page to focus your analysis of page activity to a specific period of time. When you change the reporting period, the reports automatically refresh. The shaded area on the timeframe represents the reporting period. The dates on the timeframe increase from left to right.
 
@@ -55,7 +55,7 @@ To change the reporting period of a Content Insight page:
 
 1. To change the end date of the reporting period, drag the circle that appears at the right side of the shaded area to the desired end date.
 
-#### Changing the Granularity of the Reporting Period {#changing-the-granularity-of-the-reporting-period}
+### Changing the Granularity of the Reporting Period {#changing-the-granularity-of-the-reporting-period}
 
 Change the amount of time that each data point spans in a report. For example, when the Week granularity is selected, each data point on the Views report represents the number of views for one week.
 
@@ -69,7 +69,7 @@ The granularity affects the reports that plot data against time, such as the Vie
 
 1. Click or tap the desired granularity. Once selected, the report automatically updates to reflect the granularity.
 
-### Assigning Tasks for SEO Recommendations {#assigning-tasks-for-seo-recommendations}
+## Assigning Tasks for SEO Recommendations {#assigning-tasks-for-seo-recommendations}
 
 Use the SEO Recommendations report to create tasks for improving page visibility to search engines. For each recommendation in the report that does not have a checkmark, you can create a task that you assign to a user to perform the required work. 
 
@@ -100,7 +100,7 @@ Use the following procedure to create a task for an SEO recommendation.
     * Task Priority: The priority of the task.
     * Due Date: The date by which the task should be completed.
 
-   **Note: **The task that is created also includes the path to the page to which the SEO recommendation applies. 
+   **Note:** The task that is created also includes the path to the page to which the SEO recommendation applies. 
 
 1. Click or tap Done to close the Task Created message.
 

@@ -35,9 +35,7 @@ When user synchronization is enabled, user data is automatically synchronized ac
 
 ### User Sync Setup Instructions {#user-sync-setup-instructions}
 
-For detailed, step-by-step instructions, on how to enable synchronization across a publish farm, see
-
-* [User Synchronization](../../sites/administering/using/sync.md)
+For detailed, step-by-step instructions, on how to enable synchronization across a publish farm, see [User Synchronization](../../sites/administering/using/sync.md)
 
 ## What Happens When ... {#what-happens-when}
 
@@ -91,6 +89,8 @@ This configuration fetches the content to be synced across the publishers. The c
 
 The default values in the configuration are for a single publish instance. As user sync is useful to synchronize multiple publish instances, such as for a publish farm, additional publish instances need to be added to the configuration.
 
+<!-- Collapsible section. Resolve. -->
+
 <details> 
  <summary>Item Title</summary> 
  <p>On AEM Author instance:</p> 
@@ -118,6 +118,8 @@ It enables the author to identify the authorized user, as having permission to s
 The [authorized user created](../../sites/administering/using/sync.md#createauthuser) on all the publish instances helps the publishers to connect with  author  and configure Sling distribution on the author. This authorized user has all the requisite [ACLs](../../sites/administering/using/sync.md#howtoaddacl).
 
 Whenever data is to be installed on or fetched from publishers, then the author connects with the publishers using the credentials (user name and password) set in this configuration.
+
+<!-- Collapsible section. Resolve. -->
 
 <details> 
  <summary>Item Title</summary> 
@@ -148,6 +150,8 @@ Whenever data is to be installed on or fetched from publishers, then the author 
 
 This configuration is used to configure the data you want to sync across publishers. When data is created/ updated in paths specified in **Allowed Roots**, "var/community/distribution/diff" gets activated and the created replicator fetches the data from a publisher and installs it on other publishers.
 
+<!-- Collapsible section. Resolve. -->
+
 <details> 
  <summary>Item Title</summary> 
  <p>On AEM Publish instance:</p> 
@@ -170,6 +174,8 @@ This configuration is used to configure the data you want to sync across publish
 
 This configuration syncs group membership across publishers.   
 If changing the membership of a group in one publisher does not update its membership on other publishers, then ensure that **ref  :members ** is  added to **looked properties names**.
+
+<!-- Collapsible section. Resolve. -->
 
 <details> 
  <summary>Item Title</summary> 
@@ -197,6 +203,8 @@ If changing the membership of a group in one publisher does not update its membe
 ### Apache Sling Distribution Trigger - Scheduled Triggers Factory {#apache-sling-distribution-trigger-scheduled-triggers-factory}
 
 The author polls publishers every 30 seconds (default). If any packages are present at the folder /var/sling/distribution/packages/  socialpubsync -  vlt /shared, then it will fetch those packages and install them on other publishers.
+
+<!-- Collapsible section. Resolve. -->
 
 <details> 
  <summary>To alter polling interval</summary> 
@@ -227,6 +235,8 @@ This configuration fetches the content to be synced across the publishers.
 
 The default values in the configuration are for a single publish instance. As user sync is useful to synchronize multiple publish instances, such as for a publish farm, additional publish instances need to be added to the configuration.
 
+<!-- Collapsible section. Resolve. -->
+
 <details> 
  <summary>Item Title</summary> 
  <p>On AEM Author instance:</p> 
@@ -250,6 +260,8 @@ The default values in the configuration are for a single publish instance. As us
 ### AEM Communities User Sync Listener {#aem-communities-user-sync-listener}
 
 For issues in Sling distribution where there is a discrepancy in subscriptions and follows, check whether the following properties in **AEM Communities User Sync Listener** configurations are set.
+
+<!-- Collapsible section. Resolve. -->
 
 <details> 
  <summary>Item Title</summary> 
@@ -393,6 +405,4 @@ If Sling distribution fails, try the following debugging steps:
     1. Go to the first publisher, and create a user on the publisher. As a result, events are created. 
     1. Check the order of logs, created on user creation.
     1. Check whether a ** vlt  **package is created on **/var/sling/distribution/packages/socialpubsync-vlt/data**.
-    
-    1.
 

@@ -42,23 +42,23 @@ The ContextHub toolbar is available in Preview mode. The toolbar is available on
 
 Each UI module provides is different set of features, but the following types of features are common. Because UI modules are extendable, your developer can implement other features as required.
 
-#### Toolbar Content {#toolbar-content}
+### Toolbar Content {#toolbar-content}
 
 UI modules can display data from one or more ContextHub stores in the toolbar. UI modules use an icon and a title to identify themselves.
 
 ![](assets/screen_shot_2018-03-23at093936.png)
 
-#### Popup Content {#popup-content}
+### Popup Content {#popup-content}
 
 Some UI modules display a popup overaly when clicked or tapped. Typically, the popup contains additional information than what appears on the toolbar.
 
 ![](assets/screen_shot_2018-03-23at094003.png)
 
-#### Popup Forms {#popup-forms}
+### Popup Forms {#popup-forms}
 
 The popup overlay of a module can include form elements that enable you to change the data in the ContextHub store. If page content is determined by the store data, you can use the form and observe changes to page content.
 
-#### Fullscreen Mode {#fullscreen-mode}
+### Fullscreen Mode {#fullscreen-mode}
 
 Popup overlays can include an icon that you click or tap to expand the popup content to cover the entire browser window or screen.
 

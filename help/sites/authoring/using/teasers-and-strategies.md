@@ -33,7 +33,7 @@ Teasers within AEM are comprised of several parts:
 * **Teaser paragraphs** are actual instances of your teaser within a content page. These entice a segment of visitors through to content focused on their interests.
 * Pages that hold the campaign content focused on a specific visitor segment. Usually the teaser paragraphs will lead the visitor to such pages.
 
-### Strategies {#strategies}
+## Strategies {#strategies}
 
 When adding a teaser paragraph to a page you need to define the **Strategy**.
 
@@ -230,7 +230,7 @@ Typically a teaser page is a temporary action that will last for a specific peri
 
 After creating your brand and campaign you can create and set up your teaser experience.
 
-### Creating a Teaser Experience {#creating-a-teaser-experience}
+## Creating a Teaser Experience {#creating-a-teaser-experience}
 
 1. Select your new campaign in the left pane, or double-click it in the right pane.  
 
@@ -244,8 +244,7 @@ After creating your brand and campaign you can create and set up your teaser exp
 
    ![](assets/chlimage_1-256.png)
 
-1. Click **Create**.  
-
+1. Click **Create**. 
 1. A new dialog will open immediately. Here you can use the various tabs to enter properties for the teaser.
 
    ![](assets/chlimage_1-257.png)
@@ -279,8 +278,7 @@ After creating your brand and campaign you can create and set up your teaser exp
 
 To add content to your teaser:
 
-1. Select your campaign, then from the list view, select your teaser experience and click **Edit**. The teaser page will open.  
-
+1. Select your campaign, then from the list view, select your teaser experience and click **Edit**. The teaser page will open.
 1. Use the sidekick to add components, then add your content to the teaser page:
 
    ![](assets/chlimage_1-258.png)
@@ -292,7 +290,7 @@ To add content to your teaser:
    >
    >Targeting is enabled on a teaser (or indeed any component) **on the page where it is displayed to visitors**, not here in the page used for editing.
 
-### Creating a Touchpoint for your Teaser {#creating-a-touchpoint-for-your-teaser}
+## Creating a Touchpoint for your Teaser {#creating-a-touchpoint-for-your-teaser}
 
 >[!NOTE]
 >
@@ -325,7 +323,7 @@ You do this by strategically placing the teaser paragraph within your content:
 
    ![](assets/chlimage_1-262.png)
 
-### Teaser Overview {#teaser-overview}
+## Teaser Overview {#teaser-overview}
 
 As well as the campaign view in the MCM, the campaign page also gives information about the teasers connected to it:
 

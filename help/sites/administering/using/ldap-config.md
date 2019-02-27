@@ -230,7 +230,7 @@ AEM 6 can be configured to authenticate with LDAP over SSL by following the belo
 1. Install the SSL certificates in your Java VM if needed. This can be done by using keytool:
 1. Test the connection to the LDAP server.
 
-#### Creating SSL certificates {#creating-ssl-certificates}
+### Creating SSL certificates {#creating-ssl-certificates}
 
 Self signed certificates can be used when configuring AEM to authenticate with LDAP via SSL. Below is an example of a working procedure for generating certificates for use with AEM.
 

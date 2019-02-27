@@ -36,7 +36,7 @@ A number of out-of-the-box AEM components are provided to use the integration la
 
 For search an integration hook is provided that allows you to use the AEM search, the search of the eCommerce system, a third party search (like Search&Promote) or a combination thereof.
 
-### eCommerce Engine Selection {#ecommerce-engine-selection}
+## eCommerce Engine Selection {#ecommerce-engine-selection}
 
 The eCommerce framework can be used with any eCommerce solution, the engine being used needs to be identifiable by AEM:
 
@@ -65,7 +65,7 @@ See the following examples below:
 |---|---|
 | `cq:commerceProvider = hybris` |hybris implementation |
 
-#### Example {#example}
+### Example {#example}
 
 ```shell
 /content/store 
@@ -93,7 +93,7 @@ See the following examples below:
 >
 >`/apps/geometrixx-outdoors/components/hybris/product/product.jsp`
 
-### Developing for hybris 4 {#developing-for-hybris}
+## Developing for hybris 4 {#developing-for-hybris}
 
 The hybris extension of the eCommerce Integration Framework has been updated to support Hybris 5, while maintaining backward compatibility with Hybris 4.
 
@@ -115,7 +115,7 @@ To develop for Hybris 4 the following is required:
     * Disable Hybris 5 support for the Default Response Parser service.  
     * Ensure that Hybris Basic Authentication Handler service has a lower service ranking than Hybris OAuth Handler service.
 
-### Session Handling {#session-handling}
+## Session Handling {#session-handling}
 
 hybris uses a user session to store information such as the customer's shopping cart. The session id is returned from hybris in a `JSESSIONID` cookie that needs to be sent on subsequent requests to hybris. To avoid storing the session id in the repository it is encoded in another cookie that is stored in the shopper's browser. The following steps are performed:
 
@@ -127,7 +127,7 @@ hybris uses a user session to store information such as the customer's shopping 
 >
 >A new, anonymous session is created when the original session is no longer valid.
 
-#### CommerceSession {#commercesession}
+### CommerceSession {#commercesession}
 
 * This session "owns" the **shopping cart**
 
@@ -141,7 +141,7 @@ hybris uses a user session to store information such as the customer's shopping 
 * Also owns the **payment** processing connection
 * Also owns the **fulfillment** connection
 
-### Product Synchronization and Publishing {#product-synchronization-and-publishing}
+## Product Synchronization and Publishing {#product-synchronization-and-publishing}
 
 Product data that is maintained in hybris needs to be available in AEM. The following mechanism has been implemented:
 
@@ -191,9 +191,9 @@ Product data that is maintained in hybris needs to be available in AEM. The foll
 
 * The AEM publish instance requires access to hybris for the retrieval of product and personalized data (d).
 
-### Architecture {#architecture}
+## Architecture {#architecture}
 
-#### Architecture of Product and Variants {#architecture-of-product-and-variants}
+### Architecture of Product and Variants {#architecture-of-product-and-variants}
 
 A single product can have multiple variations; for instance, it might vary by color and/or size. A product must define which properties drive variation; we term these *variant axes*.
 
@@ -219,7 +219,7 @@ Any product resource can be represented by a `Product API`. Most calls in the pr
 >   This additional variant is selected via the `variationAxis` property of the product reference (usually `color` for Geometrixx Outdoors).
 >
 
-#### Product References and Product Data {#product-references-and-product-data}
+### Product References and Product Data {#product-references-and-product-data}
 
 In general:
 
@@ -254,7 +254,7 @@ Finally, there is no requirement to use product data. You can place all product 
 
 **API**
 
-#### com.adobe.cq.commerce.api.Product interface {#com-adobe-cq-commerce-api-product-interface}
+### com.adobe.cq.commerce.api.Product interface {#com-adobe-cq-commerce-api-product-interface}
 
 ```java
 public interface Product extends Adaptable {
@@ -276,7 +276,7 @@ public interface Product extends Adaptable {
 }
 ```
 
-#### com.adobe.cq.commerce.api.VariantFilter  {#com-adobe-cq-commerce-api-variantfilter}
+### com.adobe.cq.commerce.api.VariantFilter  {#com-adobe-cq-commerce-api-variantfilter}
 
 ```java
 /**
@@ -348,7 +348,7 @@ public class AxisFilter implements VariantFilter {
     * The product interface represents both products and variants, but the related repository node is specific about which it is.
     * The product node describes the product attributes and variant axes.
 
-#### Example {#example-1}
+### Example {#example-1}
 
 ```shell
 + banyan_shirt
@@ -391,7 +391,7 @@ public class AxisFilter implements VariantFilter {
         - price = 18.00
 ```
 
-#### Architecture of the Shopping Cart {#architecture-of-the-shopping-cart}
+### Architecture of the Shopping Cart {#architecture-of-the-shopping-cart}
 
 **Components**
 
@@ -433,7 +433,7 @@ public class AxisFilter implements VariantFilter {
 
 ![](assets/chlimage_1-17.png) 
 
-#### Architecture of Checkout {#architecture-of-checkout}
+### Architecture of Checkout {#architecture-of-checkout}
 
 **Cart and Order Data**
 
@@ -519,7 +519,7 @@ The eCommerce project contains a default search component, located in:
 
 This makes use of the search API to query the selected commerce engine (see [eCommerce Engine Selection](#ecommerceengineselection)):
 
-#### Search API {#search-api}
+### Search API {#search-api}
 
 There are several generic / helper classes provided by the core project:
 
@@ -531,7 +531,7 @@ There are several generic / helper classes provided by the core project:
 
 The entry point for the search API is the `CommerceService#search` method which returns a `CommerceResult` object. See the [API Documentation](../../../sites/developing/using/ecommerce.md#apidocumentation) for more information on this topic.
 
-### User Integration {#user-integration}
+## User Integration {#user-integration}
 
 Integration is provided between AEM and various eCommerce systems. This requires a strategy for synchronizing shoppers between the various systems so that AEM-specific code only has to know about AEM and vice-versa:
 
@@ -541,7 +541,7 @@ Integration is provided between AEM and various eCommerce systems. This requires
 * Slave Accounts  
   AEM creates a slave account in hybris for each shopper. The username of the slave account is the same as the AEM username. A cryptographically-random password is auto-generated and stored (encrypted) in AEM.
 
-#### Pre-existing Users {#pre-existing-users}
+### Pre-existing Users {#pre-existing-users}
 
 A AEM front-end can be positioned in front of an existing hybris implementation. Also a hybris engine can be added to an existing AEM installation. To do this, the systems must be able to gracefully handle existing users in either system:
 
@@ -565,7 +565,7 @@ A AEM front-end can be positioned in front of an existing hybris implementation.
 
         * See: `com.adobe.cq.commerce.hybris.impl.user.LazyUserImporter.java`
 
-### Customizing the Import Process {#customizing-the-import-process}
+## Customizing the Import Process {#customizing-the-import-process}
 
 To build upon existing functionality your custom import handler:
 

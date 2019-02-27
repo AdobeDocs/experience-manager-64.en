@@ -12,7 +12,7 @@ discoiquuid: cfb325bf-d79b-47b8-933a-3a636d184d24
 
 # Encryption Support for Configuration Properties{#encryption-support-for-configuration-properties}
 
-### Overview {#overview}
+## Overview {#overview}
 
 This feature allows all OSGi configuration properties to be stored in a protected encrypted form instead of clear text. The form in the the Web Console UI is used to create encrypted text from clear text using the system wide encryption master key.
 
@@ -22,7 +22,7 @@ OSGi Configuration Plugin support was added in order to decrypt the property bef
 >
 >Services that expect an encrypted value need to use the IsProtected check to see if the value is encrypted before trying to decrypt it, as it may already have been decrypted.
 
-### Enabling Encryption Support {#enabling-encryption-support}
+## Enabling Encryption Support {#enabling-encryption-support}
 
 These steps show how to encrypt the SMTP password for the Mail service. You can complete these steps for an OSGI property you want encrypted.
 
@@ -46,6 +46,6 @@ These steps show how to encrypt the SMTP password for the Mail service. You can 
 
 1. Save the Day CQ Mail Service properties. The SMTP password will now be sent as an encrypted value.
 
-### Decryption Support {#decryption-support}
+## Decryption Support {#decryption-support}
 
 AEM now provides a Configuration Plugin to decrypt configuration properties. This AEM Plugin will automatically decrypt and retrieve the clear text properties. 

@@ -70,7 +70,7 @@ Create a heirarchy of tasks to represent task dependencies. Add a task as the ch
 
 Select the parent folder of the task to see the details in the right-hand panel.
 
-#### Manually Creating Tasks {#manually-creating-tasks}
+### Manually Creating Tasks {#manually-creating-tasks}
 
 Use the Task Management console to create tasks for a project.
 
@@ -90,7 +90,7 @@ Use the Task Management console to create tasks for a project.
 
 1. Click OK.
 
-### Automatically Creating Tasks Using Workflows {#automatically-creating-tasks-using-workflows}
+## Automatically Creating Tasks Using Workflows {#automatically-creating-tasks-using-workflows}
 
 Use the Create Task step in a workflow to automatically create a task. The following workflow-specific properties can be configured for the task:
 
@@ -100,7 +100,7 @@ Use the Create Task step in a workflow to automatically create a task. The follo
 
 For more information, see [Create Task](../../../sites/developing/using/workflows-step-ref.md#main-pars-title-0).
 
-### Modifying Tasks {#modifying-tasks}
+## Modifying Tasks {#modifying-tasks}
 
 When a task is in the Created state, you can change all but the Name property. When a task is completed, you cannot change property values. In either state, you cannot delete a task.
 

@@ -77,7 +77,7 @@ Together with the JSON export capabilities of AEM core components, this structur
 
 >[!NOTE]
 >
->**Content Fragments** and ** [Experience Fragments](../../sites/authoring/using/experience-fragments.md)** are different features within AEM:
+>**Content Fragments** and **[Experience Fragments](../../sites/authoring/using/experience-fragments.md)** are different features within AEM:
 >
 >* **Content Fragments** are editorial content, primarily text and related images. They are pure content, without design and layout.
 >* **Experience Fragments** are fully laid out content; a fragment of a web page.  

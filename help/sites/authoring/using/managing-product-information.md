@@ -26,7 +26,7 @@ In particular, you can use Creative Project to streamline the following tasks in
 >
 >See [Project User Roles for information](../../../sites/authoring/using/projects.md#userrolesinaproject) on assigning user roles and workflows to certain types of users.
 
-### Exploring Product Photo Shoot workflows  {#exploring-product-photo-shoot-workflows}
+## Exploring Product Photo Shoot workflows  {#exploring-product-photo-shoot-workflows}
 
 Creative Project provides various project templates to meet diverse project requirements. The **Product Photo Shoot Project **template is available out of the box. This template includes photo shoot workflows that let you initiate and manage product photo shoot requests. It also includes a series of tasks that enable you to obtain digital images for products through appropriate review and approval processes.
 
@@ -39,7 +39,7 @@ The template includes the following workflows:
 >
 >The CSV file that is uploaded in the Upload Shot list task of the Product Photo Shoot workflow should have the filename shotlist.csv.
 
-### Create a Product Photo Shoot project {#create-a-product-photo-shoot-project}
+## Create a Product Photo Shoot project {#create-a-product-photo-shoot-project}
 
 1. In the **Projects** console, tap/click **Create** and then choose **Create Project** from the list.
 
@@ -56,7 +56,7 @@ The template includes the following workflows:
 1. Tap/click **Create**. A confirmation message notifies that the project is created.
 1. Tap/click **Done** to return to the **Projects** console. Alternatively, tap/click **Open** to view the assets within the photoshoot project.
 
-### Starting Work in a Product Photo Shoot Project {#starting-work-in-a-product-photo-shoot-project}
+## Starting Work in a Product Photo Shoot Project {#starting-work-in-a-product-photo-shoot-project}
 
 To initiate a photo shoot request, tap or click a project and then tap/click **Add Work** within the project details page to start a workflow.
 
@@ -95,7 +95,7 @@ Both workflows include steps to link products with their approved assets. Each w
 * Starting a project workflow: Explains how to start a Product Photo Shoot
 * Workflow Tasks Details: Provides details of tasks available in the workflow
 
-### Tracking Project Progress {#tracking-project-progress}
+## Tracking Project Progress {#tracking-project-progress}
 
 You can track the progress of a project by monitoring the active/completed tasks within a project.
 
@@ -118,7 +118,7 @@ The Task list provides detailed information around the currently active workflow
 
 ![](assets/chlimage_1-178.png) 
 
-### Workflow Configuration {#workflow-configuration}
+## Workflow Configuration {#workflow-configuration}
 
 This task involves assigning workflow steps to users based on their roles.
 
@@ -213,7 +213,7 @@ The **Create Shot List **task enables the project owner to select products for w
 
    After you update the file, tap/click **Save** on toolbar to save the file.
 
-1. After adding the products, tap/click the **Complete** icon on the **Create Shot List **task details page to mark the task as completed. You can add an optional comment.
+1. After adding the products, tap/click the **Complete** icon on the **Create Shot List** task details page to mark the task as completed. You can add an optional comment.
 
    The completion of the task introduces the following changes within the project:
 

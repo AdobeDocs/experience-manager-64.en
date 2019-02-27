@@ -33,7 +33,7 @@ In Projects, you can create a project, associate resources with your project, an
 >
 >For users in projects to see other users/groups while using Projects functionality like creating projects, creating tasks/workflows, seeing and managing the team, those users need to have read access on **/home/users** and **/home/groups**. The easiest way to implement this is to give the **projects-users** group read access to **/home/users** and **/home/groups**.
 
-### Creating a Project {#creating-a-project}
+## Creating a Project {#creating-a-project}
 
 Out of the box, AEM provides these templates to choose from when you create a project:
 
@@ -55,7 +55,7 @@ The procedure of creating a project is the same from project to project. The dif
 
 1. Tap/click **Create**. The confirmation asks whether you want to open your new project or to return to the console.
 
-### Associating Resources with your Project {#associating-resources-with-your-project}
+## Associating Resources with your Project {#associating-resources-with-your-project}
 
 As projects enable you to group resources into one entity, you want to associate resources to your project. These resources are called **Tiles**. The types of resources you can add are described in [Project Tiles](../../../sites/authoring/using/projects.md#projecttiles).
 
@@ -72,7 +72,7 @@ To associate resources with your project:
 
 1. Tap/click **Create**. Your resource is linked to your project and from now on you can access it from your project.
 
-### Deleting a Project or Resource Link {#deleting-a-project-or-resource-link}
+## Deleting a Project or Resource Link {#deleting-a-project-or-resource-link}
 
 The same method is used to delete a project from the console or a linked resource from your project:
 
@@ -90,7 +90,7 @@ The same method is used to delete a project from the console or a linked resourc
 >
 >When you create the project and add users to the various roles, groups associated with the project are automatically created to manage associated permissions. For example, a project called Myproject would have three groups **Myproject Owners**, **Myproject Editors**, **Myproject Observers**. However, if the project is deleted, those groups are not automatically deleted. An administrator needs to manually delete the groups in **Tools** &gt; **Security** &gt; **Groups**.
 
-### Adding Items to a Tile {#adding-items-to-a-tile}
+## Adding Items to a Tile {#adding-items-to-a-tile}
 
 In some tiles, you may want to add more than one item. For example, you may have more than one workflow running at once or more than one experience.
 
@@ -104,7 +104,7 @@ To add items to a Tile:
 
    ![](assets/chlimage_1-321.png)
 
-### Opening a Tile {#opening-a-tile}
+## Opening a Tile {#opening-a-tile}
 
 You may want to see what items are included in a current tile, or modify or delete items in the tile.
 
@@ -118,19 +118,19 @@ To open a tile so that you can view or modify items:
 
    ![](assets/chlimage_1-323.png)
 
-### Viewing Project Statistics {#viewing-project-statistics}
+## Viewing Project Statistics {#viewing-project-statistics}
 
 To view project statistics, in the **Projects** console, click **Show Statistics View**. The level of completion for each project displays. Click **Show Statistics View** again to go to the **Projects** console.
 
 ![](assets/chlimage_1-324.png) 
 
-### Viewing a Project Timeline {#viewing-a-project-timeline}
+## Viewing a Project Timeline {#viewing-a-project-timeline}
 
 The project timeline provides information on when assets in the project were last used. To view the project timeline, click/tap **Timeline**, then enter selection mode and select the project. Assets are displayed in the left pane. Click/tap **Timeline** to return to the **Projects** console.
 
 ![](assets/chlimage_1-325.png) 
 
-### Viewing Active/Inactive Projects {#viewing-active-inactive-projects}
+## Viewing Active/Inactive Projects {#viewing-active-inactive-projects}
 
 To toggle between your active and inactive projects, in the **Projects** console, click **Toggle Active Projects**. If the icon has a checkmark next to it, it is displaying the active projects.
 
@@ -140,7 +140,7 @@ If the icon has an x next to, it is displaying the inactive projects.
 
 ![](assets/chlimage_1-327.png) 
 
-### Making Projects Inactive or Active {#making-projects-inactive-or-active}
+## Making Projects Inactive or Active {#making-projects-inactive-or-active}
 
 You may want to make a project inactive if you've completed it but you still want to keep the information on the project.
 

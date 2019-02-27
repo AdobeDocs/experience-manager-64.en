@@ -24,7 +24,7 @@ Use these best practices when creating your own newsletter.
 >
 >When creating a mail template for Adobe Campaign, you must include the property **acMapping** with the value **mapRecipient** in the **jcr:content** node of the template, or you will not be able to select the Adobe Campaign template in **Page Properties** of AEM (field is disabled).
 
-### Template/page component {#template-page-component}
+## Template/page component {#template-page-component}
 
 ***/libs/mcm/campaign/components/campaign_newsletterpage***
 
@@ -69,7 +69,7 @@ Use these best practices when creating your own newsletter.
  </tbody> 
 </table>
 
-### Images {#images}
+## Images {#images}
 
 /libs/mcm/campaign/components/image
 
@@ -77,10 +77,10 @@ Use these best practices when creating your own newsletter.
 |---|---|
 | Add *alt* attributes to images |The *alt* attribute has been defined as mandatory for the image component. |
 | Use *jpg* instead of *png* format for images |Images will always be served as JPG by the image component. |
-| Use <img> element instead of background images in a table. |No background image data is used in the templates. |
+| Use `<img>` element instead of background images in a table. |No background image data is used in the templates. |
 | Add attribute style="display block" on pictures. Allows to display well on Gmail. |All images contain per default the *style="display block"* attribute. |
 
-### Text and Links {#text-and-links}
+## Text and Links {#text-and-links}
 
 /libs/mcm/campaign/components/heading, /libs/mcm/campaign/components/textimage
 
@@ -101,11 +101,11 @@ Use these best practices when creating your own newsletter.
  </tbody> 
 </table>
 
-### Generic {#generic}
+## Generic {#generic}
 
 | **Best Practice** |**Implementation** |
 |---|---|
-| Use W3C validator to correct the HTML code. Make sure all open tags are properly closed. |Code was validated. For XHTML transitional Doctype only the missing xmlns attribute for the <html> element is missing. |
+| Use W3C validator to correct the HTML code. Make sure all open tags are properly closed. |Code was validated. For XHTML transitional Doctype only the missing xmlns attribute for the `<html>` element is missing. |
 | Don’t bother with JavaScript or Flash - those technologies are largely unsupported by email clients. |Neither JavaScript nor Flash is used in the newsletter template. |
 | Add a plain text version for multipart sending. |A new widget was build into the page properties to easily extract a plaintext version from the page content. This can be used as a starting point for the final plaintext version. |
 

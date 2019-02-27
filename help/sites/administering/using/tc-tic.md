@@ -42,11 +42,9 @@ The following translation vendors provide an implementation of the new API for t
 >[!NOTE]
 >
 >To find the latest list of human and machine translation providers, have a look at these pages:  
-
 >
 >* [AEM Human Translation](http://www.adobe.com/go/aem-human-translation-connectors)
 >* [AEM Machine Translation](http://www.adobe.com/go/aem-machine-translation-connectors)
->
 
 After you install a connector package, you can create a cloud configuration for the connector. Typically, you need to provide your credentials for authenticating with the translation service. For information about adding a cloud configuration for the Microsoft Translator connector, see [Integrating with Microsoft Translator](../../../sites/administering/using/tc-msconf.md).
 
@@ -73,7 +71,7 @@ After you configure a translation integration framework, you can [associate it w
 A single configuration of the framework controls how to translate page content, community content, and assets.
 ![](assets/chlimage_1-459.png) 
 
-#### Sites Configuration Properties {#sites-configuration-properties}
+### Sites Configuration Properties {#sites-configuration-properties}
 
 The Sites properties control how the translation of page content is performed.
 
@@ -120,7 +118,7 @@ The Sites properties control how the translation of page content is performed.
  </tbody> 
 </table>
 
-#### Communities Configuration Properties {#communities-configuration-properties}
+### Communities Configuration Properties {#communities-configuration-properties}
 
 Communities properties control how the translation of user-generated content is performed. The translation of user-generated content always uses machine translation. For more information, see [Translating User Generated Content](../../../communities/using/translate-ugc.md).
 
@@ -130,7 +128,7 @@ Communities properties control how the translation of user-generated content is 
 | Content Category |A category that describes the content that you are translating. The category can affect the choice of terminology and phrasing when translating content. |
 | Choose A Locale To Use As The Global Share Store |(Optional) By selecting a locale for storing UGC, posts from all language copies will appear in one global conversation. By convention, choose the locale for the [base language](../../../communities/using/sites-console.md#translation) for the website. Choosing No Common Store will disable global translation. By default, global translation is disabled. |
 
-#### Assets Configuration Properties {#assets-configuration-properties}
+### Assets Configuration Properties {#assets-configuration-properties}
 
 Assets properties control how to configure assets. For more information about translating assets, see [Creating Language Copies for Assets](/sites/authoring/using/language-copy).
 

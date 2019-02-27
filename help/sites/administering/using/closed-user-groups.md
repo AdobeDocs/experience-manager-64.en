@@ -95,10 +95,10 @@ The following best practices should be taken into account for defining restricte
 * Create a threat model for the data or content that needs to be protected in order to identify threat boundaries and get a clear picture about the sensitivity of the data and the roles associated with authorized access
 * Model the repository content and CUGs keeping general authorization related aspects and best practices in mind:
 
-    * Remember that read permission will only be granted if a given CUG and the evaluation of other modules deployed in the setup grant allow a given subject to read a given repository item
-    * Avoid creating redundant CUGs where read access is already restricted by other authorization modules
-    * Excessive need for nested CUGs may potentially highlight issues in the content design
-    * Very excessive need for CUGs (for example, on every single page) may indicate the need for a custom authorization model potentially better suited to match the specific security needs of the application and content at hand.
+   * Remember that read permission will only be granted if a given CUG and the evaluation of other modules deployed in the setup grant allow a given subject to read a given repository item
+   * Avoid creating redundant CUGs where read access is already restricted by other authorization modules
+   * Excessive need for nested CUGs may potentially highlight issues in the content design
+   * Very excessive need for CUGs (for example, on every single page) may indicate the need for a custom authorization model potentially better suited to match the specific security needs of the application and content at hand.
 
 * Limit the paths supported for CUG policies to a few trees in the repository to allow for optimized performance. For example only allow CUGs below the /content node as shipped as the default value since AEM 6.3.
 * CUG policies are designed to grant read access to a small set of principals. The need for a huge number of principals may highlight issues in the content or application design and should be reconsidered.
@@ -645,7 +645,7 @@ The following 2 OSGi components have been introduced to defne authentication req
 
 | Label |Adobe Granite Authentication Requirement and Login Path Handler |
 |---|---|
-| Description | `RequirementHandler` implementation that updates the Apache Sling authentication requirements and the corresponding exclusion for the associated login paths.  |
+| Description | `RequirementHandler` implementation that updates the Apache Sling authentication requirements and the corresponding exclusion for the associated login paths.|
 | Confguration Properties | `supportedPaths` |
 | Confguration Policy | `ConfgurationPolicy.REQUIRE` |
 | References |NA |
@@ -679,6 +679,8 @@ New installations of AEM will by default use the new implementations both for th
 
 ### Author Instances {#author-instances}
 
+<!-- This table is scrambled. I couldn't find the source, so I commented it out. Please resolve...
+
 | **“Apache Jackrabbit Oak CUG Configuration”** |**Explanation** |
 |---|---|
 |  
@@ -703,11 +705,15 @@ New installations of AEM will by default use the new implementations both for th
 |See Oak documentation. |
 | Ranking |200 |
 
+-->
+
 >[!NOTE]
 >
 >No configuration for **Apache Jackrabbit Oak CUG Exclude List** and **Adobe Granite Authentication Requirement and Login Path Handler** is present on default authoring instances.
 
 ### Publish Instances {#publish-instances}
+
+<!-- This table is scrambled. I couldn't find the source, so I commented it out. Please resolve...
 
 | **“Apache Jackrabbit Oak CUG Confguration”** |**Explanation** |
 |---|---|
@@ -752,6 +758,8 @@ New installations of AEM will by default use the new implementations both for th
 
 |Authentication requirements as defined in the repository by means of the `granite:AuthenticationRequired` mixin type take efect below `/content` upon `Session.save()`. Sling Authenticator gets updated. Adding the mixin type outside of the supported paths is ignored. |
 | Supported Paths | |
+
+-->
 
 ## Disabling CUG Authorization and Authentication Requirement {#disabling-cug-authorization-and-authentication-requirement}
 

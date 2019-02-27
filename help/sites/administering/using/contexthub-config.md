@@ -26,7 +26,6 @@ By default, ContextHub is enabled in an AEM installation. ContextHub can be disa
     1. In the rail click or tap **Tools &gt; Sites &gt; ContextHub**
     1. Click or tap the default **Configuration Container**
     1. Select the **ContextHub Configuration** and click or tap **Edit Selected Element**
-    
     1. Click or tap **Disable ContextHub** and click or tap **Save**
 
 or
@@ -118,13 +117,13 @@ The UI module properties include a detail configuration where you can provide va
 
 Create a Context Hub store to persist user data and access the data as needed. ContextHub stores are based on registered store candidates. When you create the store, you need the value of the storeType with which the store candidate was registered. (See [Creating Custom Store Candidates](../../../sites/developing/using/ch-extend.md#main-pars-title).)
 
-#### Detailed Store Configuration {#detailed-store-configuration}
+### Detailed Store Configuration {#detailed-store-configuration}
 
 When you configure a store, the Detail Configuration property enables you to provide values for store-specific properties. The value is based on the `config` parameter of the store's `init` function. Therefore, whether you need to provide this value, and the format of the value, depends on the store.
 
 The value of the Detail Configuration property is a `config` object in JSON format.
 
-#### Sample Store Candidates {#sample-store-candidates}
+### Sample Store Candidates {#sample-store-candidates}
 
 AEM provides the following sample store candidates upon which you can base a store.
 
