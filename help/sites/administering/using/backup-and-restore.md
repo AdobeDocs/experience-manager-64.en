@@ -18,7 +18,7 @@ There are two ways to back up and restore repository content in AEM:
 * You can create an external backup of the repository and store it in a safe location. If the repository breaks down, you can restore it to the previous state.
 * You can create internal versions of the repository content. These versions are stored in the repository along with the content, so you can quickly restore nodes and trees you have changed or deleted.
 
-### General {#general}
+## General {#general}
 
 The approach described here applies for system backup and recovery.
 
@@ -29,7 +29,7 @@ If you need to backup and/or recover a small amount of content, which is lost, a
 
 For details, see [Package Backup](../../../sites/administering/using/backup-and-restore.md#packagebackup) below.
 
-### Timing {#timing}
+## Timing {#timing}
 
 Do not run backup in parallel with the datastore garbage collection, as it might harm the results of both processes.
 
@@ -68,7 +68,7 @@ In any case, the backup creates an image (or snapshot) of the repository. Then t
 >
 >The online backup only backs up the file system. If you store the repository content and/or the repository files in a database, that database needs to backed up separately. If you are using AEM with MongoDB, see documentation on how to use the [MongoDB native backup tools](http://docs.mongodb.org/manual/tutorial/backup-with-mongodump/).
 
-### AEM Online Backup {#aem-online-backup}
+## AEM Online Backup {#aem-online-backup}
 
 An online backup of your repository lets you create, download, and delete backup files. It is a "hot" or "online" backup feature, so can be executed while the repository is being used normally in the read-write mode.
 
@@ -111,23 +111,20 @@ A delay of 1 millisecond typically results in 10% CPU usage, and a delay of 10 m
 To create a backup:
 
 1. Log in to AEM as the administrator.  
-
 1. Go to **Tools - Operations - Backup.**
 1. Click **Create**. The backup console will open.
 
    ![](assets/chlimage_1-2.png)
 
-1. On the backup console, specify the ** [Target Path](#targetpath)** and ** [Delay](#path)**.
+1. On the backup console, specify the **[Target Path](#targetpath)** and **[Delay](#path)**.
 
    ![](assets/chlimage_1-3.png)
 
    >[!NOTE]
    >
-   >The backup console is also available using:  
-
+   >The backup console is also available using:
    >
-   >
-   >` http://<*hostname*>:<*port-number*>/libs/granite/backup/content/admin.html`
+   >`http://<*hostname*>:<*port-number*>/libs/granite/backup/content/admin.html`
 
 1. Click **Save**, a progress bar will indicate the progress of the backup.
 
@@ -221,7 +218,7 @@ The online backup uses the following algorithm:
 
 1. If the backup is being made to a pre-existing directory, then "old" files in the target directory are deleted. Old files are files that do not exist in the source directory.
 
-The files are copied to the target directory in four stages:
+   The files are copied to the target directory in four stages:
 
 1. In the first copy stage (progress indicator 0% - 63% when creating a zip file or 0% - 90% if no zip file is created), all files are copied while the repository is running normally. The process has two phases:
 

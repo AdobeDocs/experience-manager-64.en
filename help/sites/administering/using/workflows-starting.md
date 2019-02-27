@@ -32,13 +32,12 @@ When administering workflows you can start them using a variety of methods:
 >* [How to apply workflows to DAM assets](../../../assets/using/assets-workflow.md)
 >* [AEM Forms](https://helpx.adobe.com/aem-forms/6-2/aem-workflows-submit-process-form.html)
 >* [Translation Projects](../../../sites/administering/using/tc-manage.md)
->
 
-### Workflow Models {#workflow-models}
+## Workflow Models {#workflow-models}
 
 You can start a workflow [based on one of the models](../../../sites/administering/using/workflows.md#workflowmodelsandinstances) listed on the Workflow Models console. The only mandatory information is the payload, though a title and/or comment can be added as well.
 
-### Workflows Launchers {#workflows-launchers}
+## Workflows Launchers {#workflows-launchers}
 
 The Workflow Launcher monitors changes in the content repository to launch workflows dependent on the location and resource type of the changed node.
 
@@ -66,7 +65,7 @@ Various definitions are included with the standard installation. These are used 
 
 ![](assets/wf-100.png) 
 
-### Workflow Packages for Batch Processing {#workflow-packages-for-batch-processing}
+## Workflow Packages for Batch Processing {#workflow-packages-for-batch-processing}
 
 Workflow packages are packages that can be passed to a workflow as payload for processing, allowing multiple resources to be processed.
 
@@ -78,7 +77,7 @@ A workflow package:
 * can be used multiple times.
 * can be changed by the user (add or remove resources) while the workflow instance is actually running.
 
-### Starting a Workflow from the Models Console {#starting-a-workflow-from-the-models-console}
+## Starting a Workflow from the Models Console {#starting-a-workflow-from-the-models-console}
 
 1. Navigate to the **Models** console using **Tools**, **Workflow**, then **Models**.
 1. Select the workflow (according to the console view); you can also use Search (top left) if required:
@@ -103,7 +102,7 @@ A workflow package:
 
    ![](assets/wf-104.png)
 
-### Creating a Launcher Configuration {#creating-a-launcher-configuration}
+## Creating a Launcher Configuration {#creating-a-launcher-configuration}
 
 1. Navigate to the **Workflow Launchers** console using **Tools**, **Workflow**, then **Launchers**.
 1. Select **Create**, then **Add Launcher** to open the dialog:
@@ -133,13 +132,15 @@ A workflow package:
     * **Features** 
       A list of features to be enabled. Select the required feature(s) using the drop down selector.
     
-    * **Disabled Features  
-      **A list of features to be disabled. Select the required feature(s) using the drop down selector.
+    * **Disabled Features**
+      A list of features to be disabled. Select the required feature(s) using the drop down selector.
+
     * **Workflow Model** 
       The workflow to launch when the Event Type occurs on the Nodetype and/or Path under the defined Condition.
     
-    * **Description  
-      **Your own text to describe and identify the launcher configuration.
+    * **Description**
+      Your own text to describe and identify the launcher configuration.
+
     * **Activate** 
       Controls whether the workflow launcher is activated:
 
@@ -150,8 +151,7 @@ A workflow package:
       This specifies any JCR events to exclude (i.e. ignore) when determining whether a workflow should be triggered.  
       This launcher property is a comma separated list of items: ``
 
-        * `property-name` ignore any `jcr` event which triggered on the specified property name. ``
-        
+        * `property-name` ignore any `jcr` event which triggered on the specified property name.
         * `event-user-data:<*someValue*>` ignores any event that contains the `*<someValue*`> `user-data` set through the [ `ObservationManager` API](https://docs.adobe.com/content/docs/en/spec/jsr170/javadocs/jcr-2.0/javax/jcr/observation/ObservationManager.html#setUserData(java.lang.String).
 
       For example:  
@@ -163,6 +163,6 @@ A workflow package:
 
    Once the appropriate event occurs the launcher will be triggered and the workflow started.
 
-### Managing a Launcher Configuration {#managing-a-launcher-configuration}
+## Managing a Launcher Configuration {#managing-a-launcher-configuration}
 
 After you have created your launcher configuration you can use the same console to select the instance, then **View Properties** (and edit them) or **Delete**.

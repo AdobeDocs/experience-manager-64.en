@@ -19,7 +19,7 @@ Effective January 31, 2014, Scene7's DHTML viewer platform will officially end-o
 
 Effective January 31, 2014, Scene7 will officially end-of-life support for the DHTML viewer platform.
 
-**What does end-of-life mean? **
+**What does end-of-life mean?**
 
 End-of-life means that Scene7 will (1) no longer add any feature enhancements to the DHTML viewer platform (2) no longer address or release any bug fixes on the DHTML viewer platform and (3) customer care will no longer be troubleshooting or providing support for any DHTML-related viewer issues or questions.
 
@@ -42,31 +42,31 @@ Driven by these limitations on DHTML and rapid industry traction with HTML5 as a
 
 To determine if the viewer your company is using is DHTML and hence affected by this change, please check if:
 
-1) Your company is using an out-of-box Scene7 viewer listed in this table where the "Viewer Technology" is designated as "DHTML":
+1 - Your company is using an out-of-box Scene7 viewer listed in this table where the "Viewer Technology" is designated as "DHTML":
 
 [http://help.adobe.com/en_US/scene7/using/WS6E593DEA-7D81-4cd6-84B0-85E8BB274176.html#WS1c46793299cf21d77e926d1613177f0a020-8000](http://help.adobe.com/en_US/scene7/using/WS6E593DEA-7D81-4cd6-84B0-85E8BB274176.html#WS1c46793299cf21d77e926d1613177f0a020-8000)
 
-2) Your company is using a viewer that was created as a new preset based off an out-of-box Scene7 viewer in this table where the "Viewer Technology" is designated as "DHTML":
+2 - Your company is using a viewer that was created as a new preset based off an out-of-box Scene7 viewer in this table where the "Viewer Technology" is designated as "DHTML":
 
 [http://help.adobe.com/en_US/scene7/using/WS6E593DEA-7D81-4cd6-84B0-85E8BB274176.html#WS1c46793299cf21d77e926d1613177f0a020-8000](http://help.adobe.com/en_US/scene7/using/WS6E593DEA-7D81-4cd6-84B0-85E8BB274176.html#WS1c46793299cf21d77e926d1613177f0a020-8000)
 
-3) Your company is using a custom viewer created from the JSP-based DHTML solution:
+3 - Your company is using a custom viewer created from the JSP-based DHTML solution:
 
 [http://microsite.omniture.com/t2/help/en_US/s7/viewers_ref/index.html#JSP_Reference](http://microsite.omniture.com/t2/help/en_US/s7/viewers_ref/index.html#JSP_Reference)
 
-4) Your company is using a custom viewer created from the Javascript API:
+4 - Your company is using a custom viewer created from the Javascript API:
 
 [http://microsite.omniture.com/t2/help/en_US/s7/viewers_ref/index.html#API_Reference](http://microsite.omniture.com/t2/help/en_US/s7/viewers_ref/index.html#API_Reference)
 
-5) Your company is using a custom viewer created with the DHTML multi-screen flyout API:
+5 - Your company is using a custom viewer created with the DHTML multi-screen flyout API:
 
 [http://microsite.omniture.com/t2/help/en_US/s7/viewers_ref/index.html#Multi-screen_Flyout_Viewer](http://microsite.omniture.com/t2/help/en_US/s7/viewers_ref/index.html#Multi-screen_Flyout_Viewer)
 
-6) Your company is using a custom viewer created with the DHTML desktop flyout API:
+6 - Your company is using a custom viewer created with the DHTML desktop flyout API:
 
 [http://microsite.omniture.com/t2/help/en_US/s7/viewers_ref/index.html#Desktop_Flyout_Viewer](http://microsite.omniture.com/t2/help/en_US/s7/viewers_ref/index.html#Desktop_Flyout_Viewer)
 
-7) Your company is using a device detection library that is part of the DHTML viewers package:
+7 - Your company is using a device detection library that is part of the DHTML viewers package:
 
 Look for JS include of "sj_deviceDetect.js" in your code.
 

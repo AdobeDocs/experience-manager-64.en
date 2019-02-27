@@ -24,7 +24,7 @@ For some commerce platforms, we store profile information ( `/home/users`) and c
 
 ![](assets/screen_shot_2018-03-22at111621.jpg)
 
-### Handling GDPR Requests for AEM Commerce {#handling-gdpr-requests-for-aem-commerce}
+## Handling GDPR Requests for AEM Commerce {#handling-gdpr-requests-for-aem-commerce}
 
 For the Salesforces Commerce Cloud integration, AEM Commerce does not store any GDPR relevant information. You should forward the request to the [Salesforce Cloud](https://documentation.demandware.com/).
 

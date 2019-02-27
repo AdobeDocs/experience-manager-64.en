@@ -27,7 +27,7 @@ A range of consoles are available for administering your workflows. Use the [glo
 * **Archive**: View history of workflows that completed successfully
 * **Failures**: View history of workflows that completed with errors
 
-### Monitoring the Status of Workflow Instances {#monitoring-the-status-of-workflow-instances}
+## Monitoring the Status of Workflow Instances {#monitoring-the-status-of-workflow-instances}
 
 1. Using Navigation select **Tools**, then **Workflow**. 
 1. Select **Instances** to display the list of workflow instances currently in progress.
@@ -38,7 +38,7 @@ A range of consoles are available for administering your workflows. Use the [glo
 
    ![](assets/wf-97.png)
 
-### Suspending, Resuming, and Terminating a Workflow Instance {#suspending-resuming-and-terminating-a-workflow-instance}
+## Suspending, Resuming, and Terminating a Workflow Instance {#suspending-resuming-and-terminating-a-workflow-instance}
 
 1. Using Navigation select **Tools**, then **Workflow**. 
 1. Select **Instances** to display the list of workflow instances currently in progress.
@@ -49,7 +49,7 @@ A range of consoles are available for administering your workflows. Use the [glo
 
    ![](assets/wf-97-1.png)
 
-### Viewing Archived Workflows {#viewing-archived-workflows}
+## Viewing Archived Workflows {#viewing-archived-workflows}
 
 1. Using Navigation select **Tools**, then **Workflow**. 
 1. Select **Archive** to display the list of workflow instances that completed successfully.
@@ -60,18 +60,14 @@ A range of consoles are available for administering your workflows. Use the [glo
    >
    >The abort status is considered as a successful termination as it occurs as a result of user action; for example:
    >
-   >    
-   >    
-   >    * use of the **Terminate** action
-   >    * when a page, that is subject to a workflow, is (force) deleted, then the workflow will be terminated
-   >    
-   >
+   >* use of the **Terminate** action
+   >* when a page, that is subject to a workflow, is (force) deleted, then the workflow will be terminated
 
 1. Select a specific item, then **Open History** to see more details:
 
    ![](assets/wf-99.png)
 
-### Fixing Workflow Instance Failures {#fixing-workflow-instance-failures}
+## Fixing Workflow Instance Failures {#fixing-workflow-instance-failures}
 
 When a workflow fails, AEM provides the **Failures** console to allow you to investigate and take appropriate action once the original cause has been handled:
 
@@ -96,7 +92,7 @@ To investigate failures, then resume or terminate the workflow afterwards, use t
 
    ![](assets/wf-47.png)
 
-### Regular Purging of Workflow Instances {#regular-purging-of-workflow-instances}
+## Regular Purging of Workflow Instances {#regular-purging-of-workflow-instances}
 
 Minimizing the number of workflow instances increases the performance of the workflow engine, so you can regularly purge completed or running workflow instances from the repository.
 
@@ -150,7 +146,7 @@ To configure the service, you can use the [Web Console](../../../sites/deploying
  </tbody> 
 </table>
 
-### Setting the Maximum Size of the Inbox {#setting-the-maximum-size-of-the-inbox}
+## Setting the Maximum Size of the Inbox {#setting-the-maximum-size-of-the-inbox}
 
 You can set the maximum size of the inbox by configuring the **Adobe Granite Workflow Service**, using the [Web Console](../../../sites/deploying/using/configuring-osgi.md#main-pars-title-104) or [add an OSGi configuration to the repository](../../../sites/deploying/using/configuring-osgi.md#main-pars-par11). The following table describes the property that you configure for either method.
 
@@ -163,4 +159,3 @@ You can set the maximum size of the inbox by configuring the **Adobe Granite Wor
 | Property Name (Web Console) |OSGi Property Name |
 |---|---|
 | Max Inbox Query Size |granite.workflow.inboxQuerySize |
-

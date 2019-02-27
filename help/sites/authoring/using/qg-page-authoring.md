@@ -27,11 +27,11 @@ For full details about authoring with AEM see:
 * [Working with the Author Environment](../../../sites/authoring/using/author-environment.md)
 * [Authoring Pages](../../../sites/authoring/using/page-authoring.md)
 
-### A Few Quick Hints {#a-few-quick-hints}
+## A Few Quick Hints {#a-few-quick-hints}
 
 Before giving the overview of specifics, here is a small collection of general tips and hints that are worth bearing in mind, especially if you are used to the [classic UI authoring environment](../../../sites/classic-ui-authoring/using/classicui.md).
 
-#### Sites Console {#sites-console}
+### Sites Console {#sites-console}
 
 * **Create**
 
@@ -45,7 +45,7 @@ Before giving the overview of specifics, here is a small collection of general t
 
     * This can be done from various locations. See [Selecting your UI](../../../sites/authoring/using/select-ui.md).
 
-#### Page Authoring {#page-authoring}
+### Page Authoring {#page-authoring}
 
 * Navigating Links
 
@@ -64,7 +64,7 @@ Before giving the overview of specifics, here is a small collection of general t
 >* [Keyboard Shortcuts for Consoles](../../../sites/authoring/using/keyboard-shortcuts.md)  
 >
 
-### Finding Your Page {#finding-your-page}
+## Finding Your Page {#finding-your-page}
 
 1. Open the **Sites** console (using the **Sites** option in the [Global Navigation](../../../sites/authoring/using/basic-handling.md#globalnavigation) - this is triggered (drop down) when you select the Adobe Experience Manager link (top left).  
 
@@ -76,7 +76,7 @@ Before giving the overview of specifics, here is a small collection of general t
 
    ![](assets/chlimage_1-132.png)
 
-### Creating a New Page {#creating-a-new-page}
+## Creating a New Page {#creating-a-new-page}
 
 1. [Navigate to the location](#findingyourpage) where you want to create the new page.
 1. Use the **Create** icon and then select **Page** from the list:
@@ -85,7 +85,7 @@ Before giving the overview of specifics, here is a small collection of general t
 
 1. This opens the wizard that will guide you through collecting the information needed when [creating your new page](../../../sites/authoring/using/managing-pages.md#main-pars-title-0). Follow the on screen instructions.
 
-### Selecting Your Page for Further Action {#selecting-your-page-for-further-action}
+## Selecting Your Page for Further Action {#selecting-your-page-for-further-action}
 
 You can select a page so that you can take action on it. Selecting a page will automatically update the toolbar so that the actions relevant to that resource are shown.
 
@@ -114,14 +114,14 @@ How to select a page depends on which view you are using in the console:
 
     * Tap/click on the thumbnail for the required resource - the thumbnail will be overlaid with a tick to show that it has been selected.
 
-### Quick Actions (Card View/Desktop Only) {#quick-actions-card-view-desktop-only}
+## Quick Actions (Card View/Desktop Only) {#quick-actions-card-view-desktop-only}
 
 1. [Navigate to the page](#findingyourpage) you want to take action on.
 1. Hover your mouse pointer over the card that represents your required resource; the quick actions will be shown:
 
    ![](assets/screen_shot_2018-03-21at160503-1.png)
 
-### Editing Your Page Content {#editing-your-page-content}
+## Editing Your Page Content {#editing-your-page-content}
 
 1. [Navigate to the page](#findingyourpage) you want to edit.
 1. [Open your page for editing](../../../sites/authoring/using/managing-pages.md#main-pars-title-6) using the Edit (pencil) icon:
@@ -190,7 +190,7 @@ How to select a page depends on which view you are using in the console:
    >
    >To navigate using links in the content you must use [Preview mode](../../../sites/authoring/using/editing-content.md#main-pars-title-196884421).
 
-### Editing the Page Properties {#editing-the-page-properties}
+## Editing the Page Properties {#editing-the-page-properties}
 
 There are two (main) methods of [editing page properties](../../../sites/authoring/using/editing-page-properties.md):
 
@@ -202,9 +202,9 @@ There are two (main) methods of [editing page properties](../../../sites/authori
         * [Quick Actions (Card View/Desktop Only)](#quickactionscardviewdesktoponly) for the approprate resource.
         * The toolbar when your [page has been selected](#selectiingyourpageforfurtheraction).
 
-  ![](assets/screen_shot_2018-03-21at160850.png)
+    ![](assets/screen_shot_2018-03-21at160850.png)
 
-  3. The page properties will be shown. You can make updates as required, then use Save to persist these
+    1. The page properties will be shown. You can make updates as required, then use Save to persist these
 
 * When [editing your page](#editingyourpagecontent):
 
@@ -213,7 +213,7 @@ There are two (main) methods of [editing page properties](../../../sites/authori
 
   ![](assets/screen_shot_2018-03-21at160920.png)
 
-### Publishing Your Page (or Unpublishing) {#publishing-your-page-or-unpublishing}
+## Publishing Your Page (or Unpublishing) {#publishing-your-page-or-unpublishing}
 
 There are two main methods of [publishing your page](../../../sites/authoring/using/publishing-pages.md) (and also of unpublishing):
 
@@ -242,7 +242,7 @@ There are two main methods of [publishing your page](../../../sites/authoring/us
 
   See [Publishing Pages](../../../sites/authoring/using/publishing-pages.md#main-pars-title-9d71) for more information.
 
-### Move, Copy and Paste, or Delete Your Page {#move-copy-and-paste-or-delete-your-page}
+## Move, Copy and Paste, or Delete Your Page {#move-copy-and-paste-or-delete-your-page}
 
 1. [Navigate to the page](#findingyourpage) you want to move, copy and paste, or delete.
 1. Select the copy (and then paste), move or delete icon as required using either:
@@ -266,7 +266,7 @@ There are two main methods of [publishing your page](../../../sites/authoring/us
    >
    >Delete is not available as a Quick Action.
 
-### Locking Your Page (then Unlocking) {#locking-your-page-then-unlocking}
+## Locking Your Page (then Unlocking) {#locking-your-page-then-unlocking}
 
 [Locking a page](../../../sites/authoring/using/editing-content.md#main-pars-title-13) prevents other authors from working on it while you are. The Lock (and Unlock) icon/button can be found:
 
@@ -278,7 +278,7 @@ For example, the lock icon looks like this:
 
 ![](assets/screen_shot_2018-03-21at161124.png) 
 
-### Accessing Page References {#accessing-page-references}
+## Accessing Page References {#accessing-page-references}
 
 [Quick access to references](../../../sites/authoring/using/author-environment-tools.md#main-pars-title-11) to/from a page are available in the References Rail.
 
@@ -292,7 +292,7 @@ For example, the lock icon looks like this:
 
 1. Tap/click on the required type of reference to show more details and (when appropriate) take further actions.
 
-### Creating a Version of Your Page {#creating-a-version-of-your-page}
+## Creating a Version of Your Page {#creating-a-version-of-your-page}
 
 1. To open the Timeline rail, select ** [Timeline](../../../sites/authoring/using/basic-handling.md#main-pars-title-281465694)** using the toolbar icon (either before or after [selecting your page](#selectingyourpageforfurtheraction)):
 
@@ -304,7 +304,7 @@ For example, the lock icon looks like this:
 
 1. Select **Save as Version**, then **Create**.
 
-### Restoring/Comparing a Version of Your Page {#restoring-comparing-a-version-of-your-page}
+## Restoring/Comparing a Version of Your Page {#restoring-comparing-a-version-of-your-page}
 
 The same basic mechanism is used when restoring and/or comparing versions of your page:
 

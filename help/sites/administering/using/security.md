@@ -50,9 +50,8 @@ The following tables list each item together with:
 >
 >*Please change all default passwords* (if you do not delete the account itself in certain circumstances).
 
-|||||
-|--- |--- |--- |--- |
 |User ID|Type|Description|Recommendation|
+|--- |--- |--- |--- |
 |admin Default password: admin|User|System administration account and member of the administrator group, with full access rights. This account is used for the connection between AEM WCM and CRX. If you accidentally delete this account, it will be re-created upon repository restart (in the default setup). The admin account is a requirement of the AEM platform. As a consequence, this account cannot be deleted.|Adobe strongly recommends that the password for this user account be changed from the default. Preferably upon installation, though it can be done afterwards. Note: This account is not to be confused with the admin account of the CQ Servlet Engine.|
 |anonymous|User|Holds the default rights for unauthenticated access to an instance. Per default this holds the minimum access rights. If you accidentally delete this account, it will be re-created upon startup. It cannot be permanently deleted, but it can be disabled.|Please avoid deleting or disabling this account, as it will negatively impact the functioning of author instances. If there are security requirements that mandate you to delete it, make sure you properly test the effects it has on your systems first.|
 |author Default password: author|User|A author account allowed to write to /content. Encompasses contributor and surfer privileges. Can be used as a webmaster as it has access to the entire /content tree. This is not a built-in user, but another geometrixx demo user|Adobe recommends that either the account is deleted completely, or the password changed from the default.  Preferably upon installation, though it can be done afterwards.|
@@ -175,8 +174,8 @@ For an action at a given path:
 
 |**Symbol**|**Description**|
 |--- |--- |
-|* (asterisk)|There is at least one local entry (either effective or ineffective). These wildcard ACLs are defined in CRX.|
-|! (exclamation mark)|There is at least one entry that currently has no effect.|
+|`*` (asterisk)|There is at least one local entry (either effective or ineffective). These wildcard ACLs are defined in CRX.|
+|`!` (exclamation mark)|There is at least one entry that currently has no effect.|
 
 When you hover over the asterisk or exclamation mark, a tooltip provides more details about the declared entries. The tooltip is split into two parts:
 
@@ -466,11 +465,9 @@ Use the following procedure to modify a user's password.
 >[!NOTE]
 >
 >You cannot use the Security console to change the admin password. To change the password for the admin account, use the [Users console](../../../sites/administering/using/granite-user-group-admin.md#main-pars-title-9) that Granite Operations provides. 
->
 
 1. In the **Security** console, double-click the user name you want to change the password for.
-1. Click the **Properties** tab (if not already active).  
-
+1. Click the **Properties** tab (if not already active). 
 1. Click **Set Password**. The Set Password window opens where you can change your password.
 
    ![](assets/cqsecurityuserpassword.png)
@@ -582,7 +579,7 @@ To learn about user sync and how to enable it, see [User Sychronization](../../.
 
 This section describes how to set permissions, including replication privileges.
 
-#### Setting Permissions {#setting-permissions}
+### Setting Permissions {#setting-permissions}
 
 Permissions allow users to perform certain actions on resources at certain paths. It also includes the ability to create or delete pages.
 
@@ -598,7 +595,7 @@ To add, modify, or delete permissions:
 
 1. When finished, click **Save**.
 
-#### Setting Replication Privileges {#setting-replication-privileges}
+### Setting Replication Privileges {#setting-replication-privileges}
 
 Replication privilege is the right to publish content, and it can be set for groups and users.
 

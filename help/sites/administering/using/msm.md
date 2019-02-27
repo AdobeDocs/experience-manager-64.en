@@ -33,7 +33,7 @@ This and the following pages cover the related issues:
 * [MSM Rollout Conflicts](../../../sites/administering/using/msm-rollout-conflicts.md)
 * [MSM Best Practices](../../../sites/administering/using/msm-best-practices.md)
 
-### Possible Scenarios {#possible-scenarios}
+## Possible Scenarios {#possible-scenarios}
 
 There are many use-cases for MSM and live copies, some scenerios include:
 
@@ -116,7 +116,7 @@ There are many use-cases for MSM and live copies, some scenerios include:
   >    
   >
 
-### MSM from the UI {#msm-from-the-ui}
+## MSM from the UI {#msm-from-the-ui}
 
 MSM is directly accessible in the UI using various options from the appropriate console. To provide an introduction the following lists the main locations:
 
@@ -154,7 +154,7 @@ MSM is directly accessible in the UI using various options from the appropriate 
 >
 >Aspects of MSM functionality are used in several other AEM features (for example, Launches, Catalog); in these cases the live copy is managed by that feature.
 
-### Terms Used {#terms-used}
+## Terms Used {#terms-used}
 
 As an introduction the following table provides an overview of the main terms used with MSM; these will be covered in more details in the subsequent sections and pages:
 

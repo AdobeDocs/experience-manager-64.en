@@ -76,7 +76,7 @@ To make parts of the HTML that gets imported editable within AEM, you can map co
 
 In addition, it is possible to extend this and support custom components. This section describes the components in detail.
 
-#### Text {#text}
+### Text {#text}
 
 The Text component lets you enter a text block using a WYSIWYG editor. See [Text component](../../../sites/authoring/using/default-components.md#text) for more information.
 
@@ -84,7 +84,7 @@ The following is an example of a text component on a landing page:
 
 ![](assets/chlimage_1-60.png) 
 
-#### Title {#title}
+### Title {#title}
 
 The title component lets you display a title and configure the size (h1-6). See [Title component](../../../sites/authoring/using/default-components.md#title) for more information.
 
@@ -92,7 +92,7 @@ The following is an example of a title component on a landing page:
 
 ![](assets/chlimage_1-61.png) 
 
-#### Image {#image}
+### Image {#image}
 
 The image component displays an image that you can either drag and drop from the Content Finder or click to upload. See [image component](../../../sites/authoring/using/default-components.md) for more information.
 
@@ -100,7 +100,7 @@ The following is an example of an image component on a landing page:
 
 ![](assets/chlimage_1-62.png) 
 
-#### Call to Action (CTA) {#call-to-action-cta}
+### Call to Action (CTA) {#call-to-action-cta}
 
 A landing page design may have several links - some of these may be intended as "Calls to action."
 
@@ -111,7 +111,7 @@ Call to action (CTA) is used to get the visitor take immediate action on the lan
 
 Both CTA components have similar options. The Click Through Link has additional rich text options. The components are described in detail in the following paragraphs.
 
-#### Click Through Link {#click-through-link}
+### Click Through Link {#click-through-link}
 
 This CTA component can be used to add a text link on the landing page. That link can be clicked to take the user to the target URL specified in the component properties. It is a part of "Call to Action" group.
 
@@ -136,7 +136,7 @@ The following is an example of a click through link:
 
 ![](assets/chlimage_1-64.png) 
 
-#### Graphical Link {#graphical-link}
+### Graphical Link {#graphical-link}
 
 This CTA component can be used to add any graphical image with link on the landing page. The image can be a simple button or any graphical image as background. When the image is clicked, the user is taken to the target URL specified in the component properties. It is a part of the **Call to Action** group.
 
@@ -169,7 +169,7 @@ The following is an example graphical link:
 
 ![](assets/chlimage_1-66.png) 
 
-### Call to Action (CTA) Lead Form {#call-to-action-cta-lead-form}
+## Call to Action (CTA) Lead Form {#call-to-action-cta-lead-form}
 
 A lead form is a form that is used to collect a visitor/lead's profile information. This information can be stored and used later to do an effective marketing based on the information. This information generally includes title, name, email, date of birth, address, interest, and so on. It is a part of the **CTA Lead form** group.
 
@@ -194,7 +194,7 @@ From the sidekick, the following components are avaiable for the CTA Lead Form:
 
 ![](assets/chlimage_1-68.png) 
 
-#### Settings common to many lead form components {#settings-common-to-many-lead-form-components}
+### Settings common to many lead form components {#settings-common-to-many-lead-form-components}
 
 Although each of the lead form components has a different purpose, many are composed of similar options and parameters.
 
@@ -218,7 +218,7 @@ When configuring any of the form components the following tabs are available in 
 >
 >Not all options are available to all lead form components. See Forms for more information on these [common settings](../../../sites/authoring/using/default-components.md#formsgroup).
 
-#### Lead Form Components {#lead-form-components}
+### Lead Form Components {#lead-form-components}
 
 The following section describes the components available to Call-to-Action lead forms.
 

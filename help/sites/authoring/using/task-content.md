@@ -27,7 +27,7 @@ You can track project progress by looking at the active/completed tasks inside a
 
 Both list workflow tasks as well as tasks you create directly in the **Tasks** tile. 
 
-#### Task Tile {#task-tile}
+### Task Tile {#task-tile}
 
 If a project has any related tasks, a Task Tile is displayed inside the project. The Task Tile shows the current status of the project. This is based on existing tasks inside the workflow and does not include any tasks that will generated in future as the workflow proceeds. The following information is visible in the task tile:
 

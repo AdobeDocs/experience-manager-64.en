@@ -39,7 +39,6 @@ If disabled, you can turn CRXDE Lite on by following the below procedure:
 1. Create the following configuration:
 
     * **Root path:** `/crx/server`
-    
     * Tick the box under **Use absolute URIs**.
 
 1. When finished using CRXDE Lite, make sure you disable WebDAV again.
@@ -50,7 +49,7 @@ You can also enable CRXDE Lite via cURL, by running this command:
 curl -u admin:admin -F "jcr:primaryType=sling:OsgiConfig" -F "alias=/crx/server" -F "dav.create-absolute-uri=true" -F "dav.create-absolute-uri@TypeHint=Boolean" http://localhost:4502/apps/system/config/org.apache.sling.jcr.davex.impl.servlets.SlingDavExServlet
 ```
 
-#### Other Resources {#other-resources}
+## Other Resources {#other-resources}
 
 For more information on AEM 6 security features, see the following pages:
 

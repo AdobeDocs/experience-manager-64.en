@@ -48,7 +48,7 @@ The AEM content portlet enables you to display AEM content in a portal. The port
 
 Some of the configurations can be changed through portlet preferences and others through OSGi service configurations. You change these configurations using **config** files or the OSGi web console.
 
-#### Portlet Preferences {#portlet-preferences}
+### Portlet Preferences {#portlet-preferences}
 
 Porlet preferences can be configured at deployment time in the portal server or by editing the **WEB-INF/portlet.xml** file before deploying the portlet web application. The portlet.xml file appears as follows by default:
 
@@ -133,7 +133,7 @@ The portlet can be configured with the following preferences:
  </tbody> 
 </table>
 
-#### OSGi Web Console {#osgi-web-console}
+### OSGi Web Console {#osgi-web-console}
 
 Assuming the portal server runs on host localhost, port 8080 and the AEM portlet web application is mounted in the web application context *cqportlet*, the url to for the web console is `http://localhost:8080/cqportlet/cqbridge/system/console`. The default user and password is **admin**.
 
@@ -143,7 +143,7 @@ Open the **Configurations** tab and select **Portal Directory CQ Server Configur
 >
 >The OSGi web console is only meant for changing configurations during development (or testing). Make sure to block requests to the console for production systems.
 
-### Providing Configurations {#providing-configurations}
+## Providing Configurations {#providing-configurations}
 
 To support automated deployments and configuration provisioning, the AEM content portlet has built-in configuration support that tries to read configurations from the classpath provided to the portlet application.
 
@@ -155,7 +155,7 @@ This means, for each environment, a corresponding config file needs to be added.
 
 It is possible to use a different system property to detect the environment. Specify the system property **com.day.cq.portet.configproperty** containing the name of the system property to use instead of **com.day.cq.portet.config**.
 
-#### Caching and Caching Invalidation {#caching-and-caching-invalidation}
+### Caching and Caching Invalidation {#caching-and-caching-invalidation}
 
 The portlet, in its default configuration, caches the responses it receives from AEM WCM in a user-specific cache. The caches need to be invalidated when changes occur in the content of the publish instance. For this purpose, in AEM WCM a replication agent must be configured on the author instance. The cache can also be flushed manually. This section describes both of those procedures.
 
@@ -169,7 +169,7 @@ After the cache is deployed, the portlet caches contents from the publish instan
 1. Assuming that the portal server runs on host **localhost**, **port 8080 **and the AEM portlet web application is mounted in the context **cqportlet**, the url to flush the cache is `http://localhost:8080/cqportlet/cqbridge/cqpcache?Path=$(path)`. Use GET as the method.  
    **Note:** Instead of using a request parameter, you can send an http header named **Path**.
 
-#### Flushing the Cache via Replication Agent {#flushing-the-cache-via-replication-agent}
+### Flushing the Cache via Replication Agent {#flushing-the-cache-via-replication-agent}
 
 Just like the normal dispatcher invalidation, a replication agent can be configured to target the portal's AEM portlet cache. After you configure the replication agent, every regular page activation flushes the portal cache.
 
@@ -217,7 +217,7 @@ To configure a replication agent for the portal:
 
    ![](assets/screen_shot_2012-02-15at42639pm.png)
 
-#### Manually Flushing the Portlet Cache {#manually-flushing-the-portlet-cache}
+### Manually Flushing the Portlet Cache {#manually-flushing-the-portlet-cache}
 
 You can manually flush the portlet cache by accessing the same URL configured for the replication agent. See [Flushing the Cache](#flushingthecacheviareplicationagent) for the form of the URL. In addition, the URL needs to be extended with a URL parameter Path=&lt;path&gt; to indicate what to flush.
 
@@ -225,17 +225,17 @@ For example:
 
 `http://10.0.20.99:10040/wps/PA_CQ5_Portlet/cqbridge/cqpcache?Path=*` flushes the complete cache. `http://10.0.20.99:10040/wps/PA_CQ5_Portlet/cqbridge/cqpcache?Path=/content/mypage/xyz` flushes `/content/mypage/xyz` from the cache.
 
-### Portal Security {#portal-security}
+## Portal Security {#portal-security}
 
 The portal is the driving authentication mechanism. You can log into AEM either with a technical user, the portal user, a group, and so on. The portlet has no access to the password for the user in the portal, so if the portlet does not know all the credentials to successfully log in a user, an SSO solution must be used. In this case, the AEM portlet forwards all required information to AEM, which in turn forwards this information to the underlying AEM repository. This behavior is pluggable and can be customized.
 
-### Authentication on Publish {#authentication-on-publish}
+## Authentication on Publish {#authentication-on-publish}
 
 This section describes the available authentication modes the portlet can use in communicating with the underlying AEM WCM instances.
 
 By default no user information is sent to the publish instance of AEM; the content is always displayed as the anonymous user. If user specific information should be delivered from AEM or if user authentication for publish is required, this has to be turned on.
 
-#### Accessing the Portlet's Authentication Configuration {#accessing-the-portlet-s-authentication-configuration}
+### Accessing the Portlet's Authentication Configuration {#accessing-the-portlet-s-authentication-configuration}
 
 Authentication configuration options that the portlet uses in AEM WCM instances are available in the Web console (OSGi configuration).
 
@@ -266,13 +266,13 @@ To access the portlet's authentication configuration:
 
 1. In addition, you can configure the Web console and the logging service. For example, you can change the admin credentials for the Web console by clicking the Apache Felix OSGi Management Console link.
 
-#### Technical User Mode {#technical-user-mode}
+### Technical User Mode {#technical-user-mode}
 
 In default mode, all requests issued by the portlet for the AEM WCM author instance are authenticated using the same technical user, regardless of the current portal user. Technical User mode is enabled by default. You enable/disable this mode in the respective configuration screen in the OSGi management console:
 
 The technical user specified must exist on the AEM WCM author instance and on the publish instance if **Authenticate on Publish **is enabled. Be sure to give the user access privileges sufficient for authoring work.
 
-#### SSO {#sso}
+### SSO {#sso}
 
 The portlet supports SSO with AEM out of the box. The authenticator service can be configured to use SSO and transmit the current portal user with format **Basic** as a cookie named `cqpsso` to AEM. AEM should be configured to use the SSO authentication handler for path /. The cookie name needs to be configured here as well.
 
@@ -286,7 +286,7 @@ The `crx-quickstart/repository/repository.xml` for AEM repository needs to be co
 </LoginModule>
 ```
 
-#### SSO Authentication Mode {#sso-authentication-mode}
+### SSO Authentication Mode {#sso-authentication-mode}
 
 The portlet can authenticate for AEM WCM using the Single Sign On (SSO) scheme. In this mode, the user currently logged in to the portal is forwarded to AEM WCM in the form of an SSO cookie. If SSO mode is used, all portal users with access to the AEM portlet must be known to the underlying AEM WCM instances, most commonly in the form of AEM WCM being connected to LDAP, or by having manually created the users beforehand. Also, before enabling SSO in the portlet, the underlying AEM WCM author instance (and the publish instance, if **Authenticate on Publish** is enabled) needs to be configured to accept SSO-based requests.
 
@@ -296,7 +296,7 @@ To configure the portlet to use SSO authentication mode, complete the following 
 * Enable SSO authentication in the AEM WCM.
 * Enable SSO Authentication in the AEM portlet.
 
-#### Enabling AEM WCM's repository to accept trusted credentials {#enabling-aem-wcm-s-repository-to-accept-trusted-credentials}
+### Enabling AEM WCM's repository to accept trusted credentials {#enabling-aem-wcm-s-repository-to-accept-trusted-credentials}
 
 Before SSO can be enabled for AEM WCM, the underlying repository needs to be configured to accept the trusted credentials provided by AEM WCM. To do this, you configure AEM's repository.xml.
 
@@ -313,7 +313,7 @@ Before SSO can be enabled for AEM WCM, the underlying repository needs to be con
 
 1. Restart AEM WCM for the changes to take effect.
 
-#### Enabling SSO authentication in the AEM WCM {#enabling-sso-authentication-in-the-aem-wcm}
+### Enabling SSO authentication in the AEM WCM {#enabling-sso-authentication-in-the-aem-wcm}
 
 To enable SSO in AEM WCM, access the relevant configuration entry in the AEM WCM's Apache Felix Web Management Console (OSGi):
 
@@ -328,7 +328,7 @@ To enable SSO in AEM WCM, access the relevant configuration entry in the AEM WCM
 
 For every request AEM WCM receives, first the SSO-based authentication is attempted. Upon failure, a fallback to the usual basic authentication scheme is performed. As such, normal connections to AEM WCM without SSO remain possible.
 
-#### Enabling SSO Authentication in a AEM Portlet {#enabling-sso-authentication-in-a-aem-portlet}
+### Enabling SSO Authentication in a AEM Portlet {#enabling-sso-authentication-in-a-aem-portlet}
 
 In order for the underlying AEM WCM instance to accept SSO requests, the portlet’s authentication mode has to be switched from **Technical** to **SSO**.
 
@@ -362,7 +362,7 @@ C-12-#002238 -> [Cookie: $Version=0; cqpsso=Basic+d3BhZG1pbg%3D%3D ]
 C-12-#002289 -> [ ]
 ```
 
-### Enabling PIN authentication {#enabling-pin-authentication}
+## Enabling PIN authentication {#enabling-pin-authentication}
 
 If you are not using the default inline editing features of the AEM content portlet, but want the authoring and administration part of the portlet outside the portal directly in the AEM author instance, you should enable PIN authentication. You also need to change the configuration of the management buttons.
 
@@ -380,7 +380,7 @@ To open the website administration page or to edit a page from the portlet, the 
 1. In the OSGi configuration console, by default located at http://localhost:4502/system/console/configMgr, select **CQ PIN Authentication Handler** from the drop-down menu.
 1. Edit the **URL Root Path** parameter to just contain the single value **/**.
 
-### Privileges {#privileges}
+## Privileges {#privileges}
 
 Some functions of the portlet are protected by privileges. The current user needs to have this privilege in order to be able to access this function. There are the following privileges pre-defined:
 
@@ -394,7 +394,7 @@ The best approach to manage the privileges is to use portal roles and assign rol
 
 In addition it is possible to define this role based access on a per portlet instance base. The preferences dialog of the portlet contains an input field for each of the above privileges. For each privilege a comma-separated list of portlet roles can be configured. If a value is configured, this overrides the global configuration from the "Day Portal Director Privilege Manager" service and it might be required to add the same roles from this global setting as the roles are not merged! If no value is specified, the global configuration is used.
 
-### Customizing the AEM portlet application {#customizing-the-aem-portlet-application}
+## Customizing the AEM portlet application {#customizing-the-aem-portlet-application}
 
 The provided AEM portlet application starts an OSGi container inside the web application just as AEM does. This architecture lets you make use of all of the benefits of OSGi:
 
@@ -402,7 +402,7 @@ The provided AEM portlet application starts an OSGi container inside the web app
 * Provides hot updates of the portlet without any interaction of the portal server  
 * Easy to customize the portlet
 
-### Toolbar Buttons {#toolbar-buttons}
+## Toolbar Buttons {#toolbar-buttons}
 
 The toolbar and its buttons are configurable and can be customized. You can add your own buttons to the toolbar or define which buttons are displayed in which mode. Each button is an OSGi service configurable through an OSGi configuration.
 
@@ -412,7 +412,7 @@ By default, the AEM content portlet uses the inline editing functionality. Howev
 
 The portlet's toolbar layout can be customized by installing a bundle through the portlet's Felix Web Console, which contains custom CSS/HTML at a predefined location.
 
-#### Bundle Structure {#bundle-structure}
+### Bundle Structure {#bundle-structure}
 
 The following is an example bundle structure:
 
@@ -455,48 +455,48 @@ The fact that the HTML/CSS/images are within the /com/day/cq/portlet/toolbar/lay
 
 You can build it using a tool such as maven or manually create such a jar file with the relevant header set as shown in this section.
 
-#### Portlet Toolbar Views {#portlet-toolbar-views}
+### Portlet Toolbar Views {#portlet-toolbar-views}
 
 The portlet's toolbar basically has two view states. Each view and associated buttons can be customized with a respective HTML file.
 
-#### Publish View {#publish-view}
+### Publish View {#publish-view}
 
 The publish view only has one button that switches the toolbar to the Manage view. The publish view is represented by the publish.html file in [previous bundle](../../../sites/deploying/using/configuring-osgi.md#bundles). In the HTML, you can use the following placeholders, which are replaced by the portlet with the respective contents when rendered:
 
-#### Publish View Placeholders {#publish-view-placeholders}
+### Publish View Placeholders {#publish-view-placeholders}
 
 | Placeholder String |Description  |
 |---|---|
-| {buttonManage} |Placeholder is replaced by the **Manage **button, which switches the portlet state into the management state. |
+| `{buttonManage}` |Placeholder is replaced by the **Manage** button, which switches the portlet state into the management state. |
 
-#### Manage View {#manage-view}
+### Manage View {#manage-view}
 
 The manage view has four buttons: Edit, Websites tab, Refresh and Back. The manage view is represented by the manage.html file in the [previous bundle](../../../sites/deploying/using/configuring-osgi.md#bundles). In the HTML, you can use the following placeholders, which are replaced by the portlet with the respective contents when rendered:
 
-#### Manage View Placeholders {#manage-view-placeholders}
+### Manage View Placeholders {#manage-view-placeholders}
 
 | Placeholder String  |Description  |
 |---|---|
-| {buttonEdit} |Placeholder is replaced by the** Edit** button, which opens a new window with the current page in AEM's edit mode. |
-| {buttonWebsites tab} |Placeholder, replaced by a button which opens the Websites tab of AEM WCM. |
-| {buttonRefresh} |Refreshes the current view. |
-| {buttonBack} |Switches the portlet back into the publish view. |
+| `{buttonEdit}` |Placeholder is replaced by the** Edit** button, which opens a new window with the current page in AEM's edit mode. |
+| `{buttonWebsites tab}` |Placeholder, replaced by a button which opens the Websites tab of AEM WCM. |
+| `{buttonRefresh}` |Refreshes the current view. |
+| `{buttonBack}` |Switches the portlet back into the publish view. |
 
-#### Buttons {#buttons}
+### Buttons {#buttons}
 
 Buttons, on whichever view they appear, use the same common HTML, defined in button.html.
 
 In the HTML, you can use the following placeholders, which are replaced by the portlet with the respective contents when rendered:
 
-#### Manage and Publish View Buttons {#manage-and-publish-view-buttons}
+### Manage and Publish View Buttons {#manage-and-publish-view-buttons}
 
 | Placeholder String  |Description  |
 |---|---|
-| {name} |Name of the button, for example,** author, back, refresh**, and so on. |
-| {id} |CSS id of the button. |
-| {url} |URL for the button's target. |
-| {text} |Label of the button. |
-| {onclick} |Javascript **onclick** function (contains {url}). |
+| `{name}` |Name of the button, for example, **author, back, refresh**, and so on. |
+| `{id}` |CSS id of the button. |
+| `{url}` |URL for the button's target. |
+| `{text}` |Label of the button. |
+| `{onclick}` |Javascript **onclick** function (contains `{url}`). |
 
 Example of a button.html file:
 
@@ -512,15 +512,15 @@ title="{text}"/>
 </div>
 ```
 
-#### Installing a Custom Layout {#installing-a-custom-layout}
+### Installing a Custom Layout {#installing-a-custom-layout}
 
 To install a custom layout, access the portlet’s OSGI Web console **Bundles **section and upload the bundle.
 
-#### Packages {#packages}
+### Packages {#packages}
 
 If you need to upload, or create, packages for your installation, then see Package Manager in the AEM documentation for detailed instructions.
 
-### Link Handling {#link-handling}
+## Link Handling {#link-handling}
 
 All links are rewritten to work within the portal context. By default links with render parameters are used. The Portal Director HTML Rewriter can be configured to use action links instead.
 
@@ -528,7 +528,7 @@ You can also define additional request parameters to be queried for the content 
 
 In addition, the Portal Director HTML Rewriter can be configured with a list of regular expressions defined excludes for link rewriting. For example, if you have relative links to external systems, you should add them to this exclude list.
 
-### Localization {#localization}
+## Localization {#localization}
 
 The AEM content portlet has a built-in localization feature, which ensures that the content from AEM is in the correct language.
 
@@ -541,7 +541,7 @@ The Portal Director Locale Handler can be configured with the paths to check for
 
 If your site has no strict rule for handling the locale information within the path, it is possible to replace the locale handler with your own implementation.
 
-### Optional OSGi Services {#optional-osgi-services}
+## Optional OSGi Services {#optional-osgi-services}
 
 Optional OSGi services can be implemented to customize various parts of the portlet. Each service corresponds to a Java interface. This interface can be implemented and deployed through a bundle into the portlet.
 
@@ -594,7 +594,7 @@ Optional OSGi services can be implemented to customize various parts of the port
  </tbody> 
 </table>
 
-#### Replacing Default Services {#replacing-default-services}
+### Replacing Default Services {#replacing-default-services}
 
 The following services have a default implementation in the content portlet (with a corresponding Java interface). To customize, a bundle containing the new service implementation needs to be deployed into the portlet application.
 
@@ -610,7 +610,7 @@ When implementing such a service, make sure to set the **service.ranking** prope
 | PrivilegeManager |Checks user rights |Checks access to author instance if user is allowed to edit contents |
 | ToolbarRenderer |Renders the toolbar |Adds a toolbar functionality |
 
-### Portlet Events {#portlet-events}
+## Portlet Events {#portlet-events}
 
 The portlet API (JSR-286) specifies portlet events. The AEM content portlet has an integrated bridge, distributing portlet events for the AEM portlet as OSGi events - this makes handling of portlet events pluggable.
 
@@ -720,7 +720,7 @@ To access content provided by AEM WCM, the portal server needs to be fitted with
 
 By default, the portlet connects to the publish instance at localhost:4503 and to the author instance at localhost:4502. These values can be changed during deployment of the portlet. The portal director is available as content in the repository under /libs/portal/directory. You will need to download the application war file before using it.
 
-#### Downloading the war file {#downloading-the-war-file}
+### Downloading the war file {#downloading-the-war-file}
 
 1. Using either Webdav or CRXDE Lite, navigate to /libs/portal/director.  
 
@@ -730,7 +730,7 @@ By default, the portlet connects to the publish instance at localhost:4503 and t
 >
 >These procedures use the Websphere portal as an example although they are as generic as possible; please be aware that procedures vary for other web portals. Although the steps are essentially identical for all web portals, you need to repurpose the steps for your particular web portal.
 
-#### Installing the portlet {#installing-the-portlet}
+### Installing the portlet {#installing-the-portlet}
 
 To install the portlet:
 
@@ -742,7 +742,7 @@ To install the portlet:
 
 1. Ensure that the portlet application automatically starts by selecting that option or check box and save your changes. You see a message that your installation was successful.
 
-#### Configuring the Portlet {#configuring-the-portlet}
+### Configuring the Portlet {#configuring-the-portlet}
 
 After you install the portlet, you need to configure it so that it knows the URLs of the underlying AEM instances (author and publish). You also can configure other options.
 
@@ -756,9 +756,7 @@ To configure the portlet:
    >If the portlet is configured to connect to AEM author and publish instances that are running on a context path different than** /**, you need to enable the force **CQUrlInfo** in the Html Library Manager configuration of these AEM instances (e.g. via Felix Webconsole) or editing will not work and the preferences dialog will not appear.
 
 1. Save the configuration changes in the app server.  
-
 1. Navigate to the OSGI admin console for the portlet. The default location is `http://<wps-host>:<port>/wps/PA_CQ5_Portlet/cqbridge/system/console/configMgr`. The default username/password is **admin/admin**.  
-
 1. Select the **Day Portal Director CQ Server Configuration** configuration and edit the following values:
 
     * **Author Base URL**: The base URL for the AEM author instance.
@@ -788,7 +786,6 @@ To add the portlet to the portal page:
 
 1. Be sure you are in the administration window of your app server and navigate to the location where you manage pages. (for example, in WebSphere 6.1, click **Manage Pages**).
 1. Select the name of the portlet and then select an existing page or create a new page.  
-
 1. Edit the page layout.
 1. Select the portlet and add it to a container. 
 1. Save your changes.

@@ -15,7 +15,7 @@ discoiquuid: f51fc2ac-dbc2-4b91-9504-832e5485e5dc
 
 Adobe Experience Manager Apps provides the ability to update the content of your application over the air (OTA). The updated content is stored on the publish instance. To allow the App on your device to connect to the publish instance and check for updates the publish instance needs to be configured to allow an empty referrer header.
 
-### Configuring Empty Referrer Header {#configuring-empty-referrer-header}
+## Configuring Empty Referrer Header {#configuring-empty-referrer-header}
 
 To configure the referrer filter service:
 

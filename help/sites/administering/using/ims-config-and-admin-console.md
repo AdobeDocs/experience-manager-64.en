@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: ef8b53e0-bf63-4eab-8203-e1df3c096216
 ---
 
-#  Adobe IMS Authentication and Admin Console Support for AEM Managed Services {#adobe-ims-authentication-and-admin-console-support-for-aem-managed-services}
+# Adobe IMS Authentication and Admin Console Support for AEM Managed Services {#adobe-ims-authentication-and-admin-console-support-for-aem-managed-services}
 
 >[!NOTE]
 >
@@ -199,7 +199,7 @@ In the example below, we are adding synced groups to the local *Dam_Users* group
 
 Here, a user has also been assigned to a few groups in the Admin Console. ( Please note that the users and groups can be synced from LDAP using the user sync tool or created locally, please see the section **Onboarding Users to the Admin Console **above).
 
-&#42;Note that user groups only get synced when the users log in to the instance, for customers that have a large number of users and groups, a Group Sync utility can be run by AMS to pre-fetch groups for access control and permissions management described above.
+* Note that user groups only get synced when the users log in to the instance, for customers that have a large number of users and groups, a Group Sync utility can be run by AMS to pre-fetch groups for access control and permissions management described above.
 
 ![](assets/screen_shot_2018-09-17at94207pm.png)
 

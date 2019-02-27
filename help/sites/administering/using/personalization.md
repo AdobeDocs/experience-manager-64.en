@@ -72,7 +72,7 @@ Personalization can be used in many cases, for example:
 
 * Many of the major search engine websites have very powerful analytical tools which record user behavior, the search terms they use and the websites they actually visit. This is then used to customize the content provided - particularly with regard to displaying advertisements.
 
-#### Strengths of Personalization and Points to Consider {#strengths-of-personalization-and-points-to-consider}
+### Strengths of Personalization and Points to Consider {#strengths-of-personalization-and-points-to-consider}
 
 The following are reasons why personalization should be used:
 
@@ -136,7 +136,7 @@ Various components are provided with AEM for personalization. Some allow users t
 | Forms Checkbox Group |Multiple items organized into a list and preceded by check boxes. Users can select multiple check boxes. |
 | Forms Dropdown List |Multiple items organized into a drop-down list. The Multi Selectable switch specifies if several elements can be selected from the list. |
 | Forms End |Terminates the form definition. |
-| Forms File Upload |An upload element that allows the user to upload a file to the server. |
+| Forms File Upload |An upload element that allows the user to upload a file to the server.|
 | Forms Hidden Field |This field is not displayed to the user. It can be used to transport a value to the client and back to the server. This field should have no constraints. |
 | Forms Image Button |An additional submit button for the form that is rendered as an image. |
 | Forms Password Field |Same as text field but only a single line is allowed and the text input from the user is not visible in the field. |

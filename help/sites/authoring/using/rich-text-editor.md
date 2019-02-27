@@ -43,8 +43,7 @@ This toolbar provides the following options:
 
 * **Hyperlink**
 * **Unlink**
-* **Fullscreen** 
-
+* **Fullscreen**
 * **Close**
 * **Save**
 

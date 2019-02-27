@@ -45,7 +45,7 @@ Then depending on the type of experience(s) you are creating, you will need to [
 >
 >See [Segmentation](../../../sites/administering/using/campaign-segmentation.md) for detailed instructions on defining your segments.
 
-### Creating a New Brand {#creating-a-new-brand}
+## Creating a New Brand {#creating-a-new-brand}
 
 To create a new brand:
 
@@ -57,7 +57,7 @@ To create a new brand:
 
 1. Click **Create**. Your new brand will be shown in the MCM (with a default icon).
 
-### Defining the Properties for Your New Brand {#defining-the-properties-for-your-new-brand}
+## Defining the Properties for Your New Brand {#defining-the-properties-for-your-new-brand}
 
 1. From **Campaigns** in the left pane, select your new brand icon in the right pane and click **Properties...**
 
@@ -67,7 +67,7 @@ To create a new brand:
 
 1. Click **OK** to save.
 
-### Creating a New Campaign {#creating-a-new-campaign}
+## Creating a New Campaign {#creating-a-new-campaign}
 
 To create a new campaign:
 
@@ -81,7 +81,7 @@ To create a new campaign:
 
 1. Click **Create**. Your new campaign will be shown in the MCM.
 
-### Defining the Properties for Your New Campaign {#defining-the-properties-for-your-new-campaign}
+## Defining the Properties for Your New Campaign {#defining-the-properties-for-your-new-campaign}
 
 Configure campaign properties that control the behavior:
 
@@ -100,7 +100,7 @@ Configure campaign properties that control the behavior:
 
 1. Click **OK** to save.
 
-### Creating a New Experience {#creating-a-new-experience}
+## Creating a New Experience {#creating-a-new-experience}
 
 The procedure for creating a new experience is dependent on the type of experience:
 
@@ -114,7 +114,7 @@ The procedure for creating a new experience is dependent on the type of experien
 >
 >The recommended practice is now to use the MCM for creating experiences.
 
-### Configuring Your New Experience {#configuring-your-new-experience}
+## Configuring Your New Experience {#configuring-your-new-experience}
 
 Now that you have created the basic skeleton for your experience you need to continue with the following actions, dependent on the type of experience:
 
@@ -134,7 +134,7 @@ Now that you have created the basic skeleton for your experience you need to con
 
     * [Integrate with Adobe Target](../../../sites/administering/using/target.md).
 
-### Adding a New Touchpoint {#adding-a-new-touchpoint}
+## Adding a New Touchpoint {#adding-a-new-touchpoint}
 
 If you have existing experiences you can add a touchpoint directly from the Calendar view of MCM:
 
@@ -214,14 +214,8 @@ To import leads from a comma-separated list:
    >
    >Alternatively, you can import leads by doing one of the following:
    >
-   >    
-   >    
-   >    * In the Dashboard, click **Import Leads** in the **Lists** pane  
-   >    
-   >    * Click **Lists** and in the **Tools** menu, select **Import Leads**.  
-   >    
-   >    
-   >
+   >* In the Dashboard, click **Import Leads** in the **Lists** pane  
+   >* Click **Lists** and in the **Tools** menu, select **Import Leads**.  
 
 1. In the **Tools** menu, select **Import** **Leads**.  
 
@@ -233,12 +227,10 @@ To import leads from a comma-separated list:
    >
    >
    >`email,givenName,familyName` - if written as `givenname`, for example, the system will not recognize it.
-   >
-   >
 
    ![](assets/screen_shot_2012-02-21at123055pm.png)
 
-1. Click** Next**. Here, you preview the leads to ensure they are accurate.
+1. Click **Next**. Here, you preview the leads to ensure they are accurate.
 
    ![](assets/screen_shot_2012-02-21at123104pm.png)
 
@@ -248,7 +240,7 @@ To import leads from a comma-separated list:
 
    The new lead appears in the Leads pane. If you click on the entry, all entered information appears in the right pane. After creating a lead, you can add it to a list.
 
-### Adding Leads to Lists {#adding-leads-to-lists}
+## Adding Leads to Lists {#adding-leads-to-lists}
 
 To add leads to pre-existing lists:
 
@@ -264,13 +256,13 @@ To add leads to pre-existing lists:
 
 1. Select which list you want to add the leads to and click **OK**. The leads are added to the appropriate lists.
 
-### Viewing lead information {#viewing-lead-information}
+## Viewing lead information {#viewing-lead-information}
 
 To view lead information, in the MCM, click the check box next to the lead and a right pane opens with all the lead's information displayed, including list affiliation.
 
 ![](assets/screen_shot_2012-02-21at124228pm.png) 
 
-### Modifying existing leads {#modifying-existing-leads}
+## Modifying existing leads {#modifying-existing-leads}
 
 To modify existing lead information:
 
@@ -292,7 +284,7 @@ To modify existing lead information:
    >
    >To change the lead avatar, go to the users profile. You can load the profile in the clickstream cloud by pressing CTRL+ALT+c, clicking **Load**, and then selecting the profile.
 
-### Deleting existing leads {#deleting-existing-leads}
+## Deleting existing leads {#deleting-existing-leads}
 
 To delete existing leads in the MCM, select the check box next to the lead and click **Delete**. The lead is removed from the lead list and all associated lists.
 
@@ -359,10 +351,8 @@ You might merge lists if you have the same conference in two different locations
 
 To merge existing lists:
 
-1. In the MCM, click **Lists**.  
-
-1. Select the list you want to merge another list with by selecting the check box next to it.  
-
+1. In the MCM, click **Lists**.
+1. Select the list you want to merge another list with by selecting the check box next to it.
 1. In the **Tools** menu, select **Merge List**.
 
    >[!NOTE]
