@@ -65,7 +65,7 @@ Facets are configured on the Search&Promote server, as is the information that e
  </tbody> 
 </table>
 
-### Creating the search results page {#creating-the-search-results-page}
+## Creating the search results page {#creating-the-search-results-page}
 
 Use the WCM Websites console to create a page for showing search results. The results of a search from any Search component can appear on this page if it uses the same Search&Promote service.
 
@@ -84,11 +84,11 @@ You can configure the following component properties in Edit mode to control run
 * Hide Previous/Next: Determines whether users can navigate results pages relative to the current page.  
 * Hide view all: Determines whether the user can consolidate all search results on a single page. Typically, providing paged data makes more efficient use of server resources. Select this option to prevent the transfer of large data sets in one response message.
 
-### Enabling the filtering of results by facets {#enabling-the-filtering-of-results-by-facets}
+## Enabling the filtering of results by facets {#enabling-the-filtering-of-results-by-facets}
 
-You can enable users to filter search results by facets. The **Checkbox List Facet, Dropdown Facet,** and **Link List Facet **components enable users to select one or more facets for filtering. When using these components, you should also include the **Breadcrumbs** component. Breadcrumbs indicate the current filters that are used.
+You can enable users to filter search results by facets. The **Checkbox List Facet, Dropdown Facet,** and **Link List Facet** components enable users to select one or more facets for filtering. When using these components, you should also include the **Breadcrumbs** component. Breadcrumbs indicate the current filters that are used.
 
-The **Checkbox List Facet, Dropdown Facet,** and** Link List Facet** components each have the following properties that you configure in **Edit** mode:
+The **Checkbox List Facet, Dropdown Facet,** and **Link List Facet** components each have the following properties that you configure in **Edit** mode:
 
 * **Facet Name**: The name of the facet that is used for filters.
 

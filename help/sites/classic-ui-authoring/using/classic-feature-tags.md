@@ -18,7 +18,7 @@ Tags are a quick and easy method of classifying content within a website. Tags m
 * See [Administering Tags](../../../sites/administering/using/tags.md) for information about creating and managing tags, as well as to which content tags have been applied.
 * See [Tagging for Developers](../../../sites/developing/using/tags.md) for information about the tagging framework as well as including and extending tags in custom applications.
 
-### Ten Reasons to Use Tagging {#ten-reasons-to-use-tagging}
+## Ten Reasons to Use Tagging {#ten-reasons-to-use-tagging}
 
 1. Organizing Content : tagging makes life easier for authors as they can quickly organize content with little effort.
 1. 
@@ -50,7 +50,7 @@ To apply [pre-defined tags](../../../sites/administering/using/tags.md), in the 
 
 ![](assets/chlimage_1-2.png) 
 
-### Publishing Tags {#publishing-tags}
+## Publishing Tags {#publishing-tags}
 
 As with pages you can perform the following on tags and namespaces:
 
@@ -78,7 +78,7 @@ The [Tag Cloud](../../../sites/classic-ui-authoring/using/classic-page-author-ed
 
 You can search for tags in both the author and publish environments.
 
-### Using Search Component {#using-search-component}
+## Using Search Component {#using-search-component}
 
 Adding a [Search component](../../../sites/classic-ui-authoring/using/classic-page-author-edit-mode.md#search) to a page provides a search capability which includes tags and can be used in both the author and publish environments.
 

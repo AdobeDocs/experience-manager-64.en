@@ -63,11 +63,11 @@ Following are the steps necessary to enable user synchronization, followed by a 
 
 ### Prerequisites {#prerequisites}
 
-1) If users and user groups have already been created on one publisher, it is recommended to [manually sync](#manuallysyncingusersandusergroups) the user data to all publishers prior to configuring and enabling user sync.
+1 - If users and user groups have already been created on one publisher, it is recommended to [manually sync](#manuallysyncingusersandusergroups) the user data to all publishers prior to configuring and enabling user sync.
 
 Once user sync is enabled, only newly created users and groups are syncrhonized.
 
-2) Ensure the latest code has been installed :
+2 - Ensure the latest code has been installed :
 
 * [AEM platform updates](https://helpx.adobe.com/experience-manager/kb/aem62-available-hotfixes.html)
 * [AEM Communities updates](../../../communities/using/deploy-communities.md#latestfeaturepack)
@@ -90,8 +90,6 @@ Once user sync is enabled, only newly created users and groups are syncrhonized.
         
         * select the `Enabled` checkbox
         * select `Save`
-
-** **
 
 ![](assets/chlimage_1-154.png)
 
@@ -145,7 +143,6 @@ This authorized user will be used in step 3 to configure Sling distribution on a
     * select **OK**
 
 * select **Save All**
-*
 
 ![](assets/chlimage_1-155.png)
 

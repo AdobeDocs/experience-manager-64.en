@@ -22,7 +22,7 @@ Workflows typically include steps that require a person to perform an activity o
 * [Open a Workflow Item to View Details (and Take Actions)](#openingaworkflowitemtoviewdetailsandtakeactions)
 * [View the Workflow Payload (Multiple Resources)](#viewingtheworkflowpayloadmultipleresources)
 
-### Notifications of Available Workflow Actions {#notifications-of-available-workflow-actions}
+## Notifications of Available Workflow Actions {#notifications-of-available-workflow-actions}
 
 When you are assigned a work item (for example, **Approve Content**) various alerts and/or notifications appear:
 
@@ -56,7 +56,7 @@ When you are assigned a work item (for example, **Approve Content**) various ale
 
   ![](assets/wf-64.png)
 
-### Completing a Participant Step {#completing-a-participant-step}
+## Completing a Participant Step {#completing-a-participant-step}
 
 You can complete an item to allow the workflow to progress to the next step.
 
@@ -72,7 +72,7 @@ You can complete a participant step from either:
 * [Timeline](#completingaparticipantsteptimeline)
 * when [opening a workflow item to view details](#openingaworkflowitemtoviewdetailsandtakeactions).
 
-#### Completing a Participant Step - Inbox {#completing-a-participant-step-inbox}
+### Completing a Participant Step - Inbox {#completing-a-participant-step-inbox}
 
 Use the following procedure to complete the work item:
 
@@ -82,7 +82,7 @@ Use the following procedure to complete the work item:
 1. The **Complete Work Item** dialog will open. Select the **Next Step** from the drop down selector and add a **Comment** if required. 
 1. Use **OK** to complete the step (or the **Cancel** to abort the action).
 
-#### Completing a Participant Step - Page Editor {#completing-a-participant-step-page-editor}
+### Completing a Participant Step - Page Editor {#completing-a-participant-step-page-editor}
 
 Use the following procedure to complete the work item:
 
@@ -91,7 +91,7 @@ Use the following procedure to complete the work item:
 1. The **Complete Work Item** dialog will open. Select the **Next Step** from the drop down selector and add a **Comment** if required. 
 1. Use **OK** to complete the step (or the **Cancel** to abort the action).
 
-#### Completing a Participant Step - Timeline {#completing-a-participant-step-timeline}
+### Completing a Participant Step - Timeline {#completing-a-participant-step-timeline}
 
 You can also use timeline to complete and advance a step:
 
@@ -109,7 +109,7 @@ You can also use timeline to complete and advance a step:
 
 1. Select **Advance** to confirm the action.
 
-### Delegating a Participant Step {#delegating-a-participant-step}
+## Delegating a Participant Step {#delegating-a-participant-step}
 
 If a step has been assigned to you, but for any reason you are unable to take action, you can delegate the step to another user or group.
 
@@ -131,7 +131,7 @@ You can delegate a participant step from either:
 * [Timeline](#delegatingaparticipantsteptimeline)
 * when [opening a workflow item to view details](#openingaworkflowitemtoviewdetailsandtakeactions).
 
-#### Delegating a Participant Step - Inbox {#delegating-a-participant-step-inbox}
+### Delegating a Participant Step - Inbox {#delegating-a-participant-step-inbox}
 
 Use the following procedure to delegate a work item:
 
@@ -141,7 +141,7 @@ Use the following procedure to delegate a work item:
 1. The dialog will open. Specify the **User** from the drop down selector (this can also be a group) and add a **Comment** if required. 
 1. Use **OK** to complete the step (or the **Cancel** to abort the action).
 
-#### Delegating a Participant Step - Page Editor {#delegating-a-participant-step-page-editor}
+### Delegating a Participant Step - Page Editor {#delegating-a-participant-step-page-editor}
 
 Use the following procedure to delegate a work item:
 
@@ -150,7 +150,7 @@ Use the following procedure to delegate a work item:
 1. The dialog will open. Specify the **User** from the drop down selector (this can also be a group) and add a **Comment** if required. 
 1. Use **OK** to complete the step (or the **Cancel** to abort the action).
 
-#### Delegating a Participant Step - Timeline {#delegating-a-participant-step-timeline}
+### Delegating a Participant Step - Timeline {#delegating-a-participant-step-timeline}
 
 You can also use timeline to delegate and/or assign a step:
 
@@ -165,7 +165,7 @@ You can also use timeline to delegate and/or assign a step:
 
 1. Select **Assign** to confirm the action.
 
-### Performing Step Back on a Participant Step {#performing-step-back-on-a-participant-step}
+## Performing Step Back on a Participant Step {#performing-step-back-on-a-participant-step}
 
 If you discover that a step, or series of steps, needs to be repeated you can step back. This allows you to select a step, that occurred earlier in the workflow, for reprocessing. The workflow returns to the step you specify, then proceeds from there.
 
@@ -181,7 +181,7 @@ You can perform step back on a participant step from either:
 * [Timeline](#performingstepbackonaparticipantsteptimeline)
 * when [opening a workflow item to view details](#openingaworkflowitemtoviewdetailsandtakeactions).
 
-#### Performing Step Back on a Participant Step - Inbox {#performing-step-back-on-a-participant-step-inbox}
+### Performing Step Back on a Participant Step - Inbox {#performing-step-back-on-a-participant-step-inbox}
 
 Use the following procedure to step back:
 
@@ -192,7 +192,7 @@ Use the following procedure to step back:
 1. Specify the **Previous Step** and add a **Comment** if required. 
 1. Use **OK** to complete the step (or the **Cancel** to abort the action).
 
-#### Performing Step Back on a Participant Step - Page Editor {#performing-step-back-on-a-participant-step-page-editor}
+### Performing Step Back on a Participant Step - Page Editor {#performing-step-back-on-a-participant-step-page-editor}
 
 Use the following procedure to step back:
 
@@ -201,7 +201,7 @@ Use the following procedure to step back:
 1. Specify the **Previous Step** and add a **Comment** if required. 
 1. Use **OK** to complete the step (or the **Cancel** to abort the action).
 
-#### Performing Step Back on a Participant Step - Timeline {#performing-step-back-on-a-participant-step-timeline}
+### Performing Step Back on a Participant Step - Timeline {#performing-step-back-on-a-participant-step-timeline}
 
 You can also use timeline to roll (step) back to a previous step:
 
@@ -216,7 +216,7 @@ You can also use timeline to roll (step) back to a previous step:
 
 1. Select **Roll back** to confirm the action.
 
-### Opening a Workflow Item to View Details (and Take Actions) {#opening-a-workflow-item-to-view-details-and-take-actions}
+## Opening a Workflow Item to View Details (and Take Actions) {#opening-a-workflow-item-to-view-details-and-take-actions}
 
 View details of the workflow work item and take appropriate actions.
 
@@ -239,7 +239,7 @@ You can open the work item details from either:
 * [the Inbox](#performingstepbackonaparticipantstepinbox)
 * [the Page Editor](#performingstepbackonaparticipantsteppageeditor)
 
-#### Opening Workflow Details - Inbox {#opening-workflow-details-inbox}
+### Opening Workflow Details - Inbox {#opening-workflow-details-inbox}
 
 To open a workflow item and view the details:
 
@@ -250,7 +250,7 @@ To open a workflow item and view the details:
 1. If required, select the appropriate action, supply any details and confirm with **OK** (or **Cancel**).
 1. Use **Save** or **Cancel** to exit.
 
-#### Opening Workflow Details - Page Editor {#opening-workflow-details-page-editor}
+### Opening Workflow Details - Page Editor {#opening-workflow-details-page-editor}
 
 To open a workflow item and view the details:
 
@@ -260,7 +260,7 @@ To open a workflow item and view the details:
 1. If required, select the appropriate action, supply any details and confirm with **OK** (or **Cancel**).
 1. Use **Save** or **Cancel** to exit.
 
-### Viewing the Workflow Payload (Multiple Resources) {#viewing-the-workflow-payload-multiple-resources}
+## Viewing the Workflow Payload (Multiple Resources) {#viewing-the-workflow-payload-multiple-resources}
 
 You can view details of the payload associated with the workflow instance. Initially the resources in the package are shown, then you can drill down to show the individual pages.
 

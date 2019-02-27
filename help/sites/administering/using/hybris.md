@@ -198,7 +198,7 @@ The following properties indicate the link with hybris:
 >
 >The hybris server is referenced every time information about a product is requested.
 
-#### Full Import {#full-import}
+### Full Import {#full-import}
 
 1. If required, delete all existing product data using CRXDE Lite.
 

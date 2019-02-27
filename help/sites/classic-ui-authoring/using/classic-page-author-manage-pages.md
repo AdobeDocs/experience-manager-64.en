@@ -69,12 +69,12 @@ This structure can be viewed from the Websites console, which you can use to [na
 
 When creating a new page there are two keys fields:
 
-* ** [Title](#title)**:
+* **[Title](#title)**:
 
     * This is displayed to the user in the console and shown at the top of the page content when editing.  
     * This field is mandatory.
 
-* ** [Name](#name)**:
+* **[Name](#name)**:
 
     * This is used to generate the URI.  
     * User input for this field is optional. If not specified, the name is derived from the title.
@@ -86,8 +86,8 @@ Implementation and the list of characters allowed differs slightly according to 
 * 'a' through to 'z'
 * 'A' through to 'Z'
 * '0' through to '9'
-* _ (underscore)
-* - (hyphen/minus)
+* `_` (underscore)
+* `-` (hyphen/minus)
 
 Use just these characters if you want to be sure of them being accepted/used (if you need full details of all characters allowed, see [the naming conventions](../../../sites/developing/using/naming-conventions.md)).
 

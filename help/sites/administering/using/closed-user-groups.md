@@ -679,33 +679,25 @@ New installations of AEM will by default use the new implementations both for th
 
 ### Author Instances {#author-instances}
 
-<!-- This table is scrambled. I couldn't find the source, so I commented it out. Please resolve...
+<!-- This was a scrambled. Please resolve-->
 
-| **“Apache Jackrabbit Oak CUG Configuration”** |**Explanation** |
-|---|---|
-|  
+**“Apache Jackrabbit Oak CUG Configuration”** and **Explanation** 
 
-| Supported Paths | `/content` |
-|---|---|
+Supported Paths: `/content` 
 
-|Access control management for CUGpolicies is enabled. |
-| Supported Paths | |
-|  
+Access control management for CUGpolicies is enabled. 
 
-| CUG Evaluation Enabled |FALSE |
-|---|---|
+Supported Paths
 
-|Permission evaluation is disabled. CUG policies take no effect.  |
-| CUG Evaluation Enabled |FALSE |
-|  
+CUG Evaluation Enabled: FALSE 
 
-| Ranking |200 |
-|---|---|
+Permission evaluation is disabled. CUG policies take no effect.
 
-|See Oak documentation. |
-| Ranking |200 |
+CUG Evaluation Enabled: FALSE
 
--->
+Ranking: 200 
+
+See Oak documentation.
 
 >[!NOTE]
 >
@@ -713,53 +705,37 @@ New installations of AEM will by default use the new implementations both for th
 
 ### Publish Instances {#publish-instances}
 
-<!-- This table is scrambled. I couldn't find the source, so I commented it out. Please resolve...
+<!-- The following was a scrambled table. Please resolve...-->
 
-| **“Apache Jackrabbit Oak CUG Confguration”** |**Explanation** |
-|---|---|
-|  
+**“Apache Jackrabbit Oak CUG Configuration”** and **Explanation** 
 
-| Supported Paths | `/content` |
-|---|---|
+Supported Paths: `/content` 
 
-|Access control management for CUG policies is enabled below the configured paths.  |
-| Supported Paths | |
-|  
+Access control management for CUGpolicies is enabled. 
 
-| CUG Evaluation Enabled |TRUE |
-|---|---|
+Supported Paths
 
-|Permission evaluation is enabled below the configured paths. CUG policies take efectupon `Session.save()`.  |
-| CUG Evaluation Enabled |TRUE |
-|  
+CUG Evaluation Enabled: FALSE 
 
-| Ranking |200 |
-|---|---|
+Permission evaluation is disabled. CUG policies take no effect.
 
-|See Oak documentation. |
-| Ranking |200 |
+CUG Evaluation Enabled: FALSE
 
-| **“Apache Jackrabbit Oak CUG Exclude List”** |**Explanation** |
-|---|---|
-|  
+Ranking: 200 
 
-| Principal Names |administrators |
-|---|---|
+See Oak documentation.
 
-|Excludes administrators principal from CUG evaluation. |
-| Principal Names |administrators |
+Principal Names: administrators
 
-| **“Adobe Granite Authentication Requirement and Login Path Handler”** |**Explanation** |
-|---|---|
-|  
+Excludes administrators principal from CUG evaluation.
 
-| Supported Paths | `/content` |
-|---|---|
+Principal Names |administrators
 
-|Authentication requirements as defined in the repository by means of the `granite:AuthenticationRequired` mixin type take efect below `/content` upon `Session.save()`. Sling Authenticator gets updated. Adding the mixin type outside of the supported paths is ignored. |
-| Supported Paths | |
+**“Adobe Granite Authentication Requirement and Login Path Handler”** and **Explanation**
 
--->
+Authentication requirements as defined in the repository by means of the `granite:AuthenticationRequired` mixin type take efect below `/content` upon `Session.save()`. Sling Authenticator gets updated. Adding the mixin type outside of the supported paths is ignored. 
+
+Supported Paths
 
 ## Disabling CUG Authorization and Authentication Requirement {#disabling-cug-authorization-and-authentication-requirement}
 

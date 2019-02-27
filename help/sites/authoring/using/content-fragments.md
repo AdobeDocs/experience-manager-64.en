@@ -62,7 +62,7 @@ The content fragments enable:
     * Can rely on associated media content being curated for relevancy.
     * Can create ad-hoc content variations on the fly while still ensuring those variations remain centrally managed in the fragment.
 
-### Adding a Content Fragment to Your Page {#adding-a-content-fragment-to-your-page}
+## Adding a Content Fragment to Your Page {#adding-a-content-fragment-to-your-page}
 
 1. Open your page for editing.  
 
@@ -86,12 +86,8 @@ The content fragments enable:
    >
    >For more information about further editing functionality see also:
    >
-   >    
-   >    
-   >    * [Responsive Layout](../../../sites/authoring/using/responsive-layout.md)
-   >    * [Editing Page Content](../../../sites/authoring/using/editing-content.md)
-   >    
-   >
+   >* [Responsive Layout](../../../sites/authoring/using/responsive-layout.md)
+   >* [Editing Page Content](../../../sites/authoring/using/editing-content.md)
 
 ### Selecting the Element or Variation {#selecting-the-element-or-variation}
 

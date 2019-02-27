@@ -15,7 +15,7 @@ discoiquuid: 989988cc-0c00-44a4-beee-c4151b6b17fb
 
 Nodes in the repository are subject to naming conventions of the [Java Content Repository](../../../sites/developing/using/the-basics.md#javacontentrepository). However, Adobe Experience Manager imposes further conventions for the name of asset nodes.
 
-### CLASSIC UI {#classic-ui}
+## CLASSIC UI {#classic-ui}
 
 The classic UI imposes tighter restrictions:
 
@@ -29,6 +29,6 @@ The classic UI imposes tighter restrictions:
     * 'a' to 'z'
     * 'A' to 'Z'
     * '0' to '9'
-    * _ (underscore)
-    * - (dash/minus)
+    `* _` (underscore)
+    `* -` (dash/minus)
 

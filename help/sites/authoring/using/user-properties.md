@@ -19,7 +19,7 @@ Using the [User](../../../sites/authoring/using/user-properties.md#main-pars-tit
 
 Begin by acessing the [User](../../../sites/authoring/using/user-properties.md#main-pars-title-3) option in the header.
 
-### User Settings {#user-settings}
+## User Settings {#user-settings}
 
 The **User** settings dialog gives you access to:
 
@@ -37,7 +37,7 @@ The **User** settings dialog gives you access to:
 
 ![](assets/screen_shot_2018-03-20at103808.png)
 
-### My Preferences {#my-preferences}
+## My Preferences {#my-preferences}
 
 The **My Preferences** dialog is access via the [User](../../../sites/authoring/using/user-properties.md#main-pars-title-3) option in the header.
 

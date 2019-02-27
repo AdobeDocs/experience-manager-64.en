@@ -68,6 +68,6 @@ The classic UI imposes tighter restrictions:
     * 'a' to 'z'
     * 'A' to 'Z'
     * '0' to '9'
-    * _ (underscore)
-    * - (dash/minus)
+    `* _` (underscore)
+    `* -` (dash/minus)
 
