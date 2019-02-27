@@ -31,7 +31,7 @@ Teasers within AEM are comprised of several parts:
 * **Teaser paragraphs** are actual instances of your teaser within a content page. These entice a segment of visitors through to content focused on their interests.
 * Pages that hold the campaign content focused on a specific visitor segment. Usually the teaser paragraphs will lead the visitor to such pages.
 
-### Strategies {#strategies}
+## Strategies {#strategies}
 
 When adding a teaser paragraph to a page you need to define the **Strategy**.
 
@@ -228,7 +228,7 @@ Typically a teaser page is a temporary action that will last for a specific peri
 
 After creating your brand and campaign you can create and set up your teaser experience.
 
-### Creating a Touchpoint for your Teaser {#creating-a-touchpoint-for-your-teaser}
+## Creating a Touchpoint for your Teaser {#creating-a-touchpoint-for-your-teaser}
 
 >[!NOTE]
 >
@@ -244,7 +244,7 @@ After creating your brand and campaign you can create and set up your teaser exp
     * **Campaign Path** 
       Path to the campaign page that holds the individual teaser page; segments determine exactly which teaser is shown.
     
-    * ** [Strategy](../../../sites/classic-ui-authoring/using/classic-personalization-campaigns.md#strategies)** 
+    * **[Strategy](../../../sites/classic-ui-authoring/using/classic-personalization-campaigns.md#strategies)** 
       Method used for selection when multiple segments resolve successfully.
 
    ![](assets/chlimage_1-5.png)
@@ -257,7 +257,7 @@ After creating your brand and campaign you can create and set up your teaser exp
 
    ![](assets/chlimage_1-7.png)
 
-### Teaser Overview {#teaser-overview}
+## Teaser Overview {#teaser-overview}
 
 As well as the campaign view in the MCM, the campaign page also gives information about the teasers connected to it:
 

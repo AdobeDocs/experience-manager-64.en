@@ -64,13 +64,13 @@ Those two versions support a list of environement variables that could be used t
 >
 >Note that some run modes, among them author and publish, need to be set before first starting AEM and can not be changed afterwards. Before setting up an AEM instance that is supposed to be used in production, please see the [run modes documentation](../../../sites/deploying/using/configure-runmodes.md) for details.
 
-#### Windows platform start.bat script example {#windows-platform-start-bat-script-example}
+### Windows platform start.bat script example {#windows-platform-start-bat-script-example}
 
 ```shell
 SET CQ_PORT=1234 & ./start.bat
 ```
 
-#### Unix platform start script example {#unix-platform-start-script-example}
+### Unix platform start script example {#unix-platform-start-script-example}
 
 ```shell
 CQ_PORT=1234 ./start
@@ -97,13 +97,13 @@ To stop AEM, do one of the following:
 
 The `stop` script is available under *the &lt;cq-installation&gt;/bin* directory. Both Unix and Windows versions are provided. The script stops the running instance installed in *&lt;cq-installation&gt;* directory.
 
-#### Unix platform stop script example {#unix-platform-stop-script-example}
+### Unix platform stop script example {#unix-platform-stop-script-example}
 
 ```shell
 ./stop
 ```
 
-#### Windows platform stop.bat script example {#windows-platform-stop-bat-script-example}
+### Windows platform stop.bat script example {#windows-platform-stop-bat-script-example}
 
 ```shell
 ./stop.bat

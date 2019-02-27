@@ -27,7 +27,7 @@ For example:
 
 From the MCM you can access:
 
-* ** [Dashboard](#dashboard)** 
+* **[Dashboard](#dashboard)** 
   This is divided into four panes:
 
     * [Lists](#lists)  
@@ -45,24 +45,24 @@ From the MCM you can access:
     * [Campaigns](#campaigns)  
       This pane lists your campaign experiences such as [newsletters](../../../sites/classic-ui-authoring/using/classic-personalization-campaigns.md#newsletters) and [teasers](../../../sites/classic-ui-authoring/using/classic-personalization-campaigns.md#teasers).
 
-* ** [Leads](#leads)** 
+* **[Leads](#leads)** 
   Here you can manage your leads. You can create or import leads, edit specific details for individual leads or delete when no longer needed. You can also put leads in different groups, called Lists. **Note:** Adobe is not planning to further enhance this capability.  
   Recommendation is to [leverage Adobe Campaign and the integration to AEM](../../../sites/administering/using/campaign.md).  
 
-* ** [Lists](#lists)** 
+* **[Lists](#lists)** 
   Here you can manage your lists (of leads).**Note:** Adobe is not planning to further enhance this capability.  
   Recommendation is to [leverage Adobe Campaign and the integration to AEM](../../../sites/administering/using/campaign.md).
 
-* ** [Campaigns](#campaigns)** 
+* **[Campaigns](#campaigns)** 
   Here you can manage your Brands, Campaigns and Experiences.
 
-### Dashboard {#dashboard}
+## Dashboard {#dashboard}
 
 The dashboard shows four panes that provide you with an overview of your lists (of leads), segments, reports and campaigns. Access to basic functionality for these is also available here.
 
 ![](assets/mcm_dashboard.png) 
 
-### Leads {#leads}
+## Leads {#leads}
 
 >[!NOTE]
 >
@@ -79,7 +79,7 @@ Under **Leads** in the left pane you can create, import, edit and delete your le
 
 ![](assets/screen_shot_2012-02-21at114748am-1.png) 
 
-### Lists {#lists}
+## Lists {#lists}
 
 >[!NOTE]
 >
@@ -96,7 +96,7 @@ Under **Lists**, you can manage your lists by creating, importing, editing, merg
 
 ![](assets/screen_shot_2012-02-21at124828pm-1.png) 
 
-### Campaigns {#campaigns}
+## Campaigns {#campaigns}
 
 >[!NOTE]
 >
@@ -135,7 +135,7 @@ From here you can:
 
 * Open the campaign overview (double-click a campaign in the right pane, or single click in the left pane).
 
-#### Campaign Overview {#campaign-overview}
+### Campaign Overview {#campaign-overview}
 
 For the individual campaigns there are two views available:
 
@@ -177,7 +177,7 @@ For the individual campaigns there are two views available:
     * **Search **for your text (the Title field of the experience will be searched).
     * Use **Advanced** search to apply filters to the search.
 
-### Simulating your Campaign Experiences {#simulating-your-campaign-experiences}
+## Simulating your Campaign Experiences {#simulating-your-campaign-experiences}
 
 In the MCM, click **Campaigns**. Ensure that the list view is active, then select the required campaign experience and click **Simulate**. The touchpoint (teaser or newsletter page) will be opened to show the experience that you have selected - as the visitor will see it.
 
@@ -185,7 +185,7 @@ In the MCM, click **Campaigns**. Ensure that the list view is active, then selec
 
 From here you can also open the sidekick (click the small down arrow) to change to edit mode for updating the page.
 
-### Analyzing your Campaign Experiences {#analyzing-your-campaign-experiences}
+## Analyzing your Campaign Experiences {#analyzing-your-campaign-experiences}
 
 In the MCM, click **Campaigns**. Ensure that the list view is active, then select the required campaign experience and select **Analyze...**. A chart of the page impressions over time will be shown.
 

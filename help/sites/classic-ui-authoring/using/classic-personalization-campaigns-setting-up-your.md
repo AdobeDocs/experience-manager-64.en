@@ -45,7 +45,7 @@ Then depending on the type of experience(s) you are creating, you will need to [
 >
 >See [Segmentation](../../../sites/administering/using/campaign-segmentation.md) for detailed instructions on defining your segments.
 
-### Creating a New Brand {#creating-a-new-brand}
+## Creating a New Brand {#creating-a-new-brand}
 
 To create a new brand:
 
@@ -57,7 +57,7 @@ To create a new brand:
 
 1. Click **Create**. Your new brand will be shown in the MCM (with a default icon).
 
-### Defining the Properties for Your New Brand {#defining-the-properties-for-your-new-brand}
+## Defining the Properties for Your New Brand {#defining-the-properties-for-your-new-brand}
 
 1. From **Campaigns** in the left pane, select your new brand icon in the right pane and click **Properties...**
 
@@ -67,7 +67,7 @@ To create a new brand:
 
 1. Click **OK** to save.
 
-### Creating a New Campaign {#creating-a-new-campaign}
+## Creating a New Campaign {#creating-a-new-campaign}
 
 To create a new campaign:
 
@@ -81,7 +81,7 @@ To create a new campaign:
 
 1. Click **Create**. Your new campaign will be shown in the MCM.
 
-### Defining the Properties for Your New Campaign {#defining-the-properties-for-your-new-campaign}
+## Defining the Properties for Your New Campaign {#defining-the-properties-for-your-new-campaign}
 
 Configure campaign properties that control the behavior:
 
@@ -100,7 +100,7 @@ Configure campaign properties that control the behavior:
 
 1. Click **OK** to save.
 
-### Creating a New Experience {#creating-a-new-experience}
+## Creating a New Experience {#creating-a-new-experience}
 
 The procedure for creating a new experience is dependent on the type of experience:
 
@@ -114,7 +114,7 @@ The procedure for creating a new experience is dependent on the type of experien
 >
 >The recommended practice is now to use the MCM for creating experiences.
 
-### Configuring Your New Experience {#configuring-your-new-experience}
+## Configuring Your New Experience {#configuring-your-new-experience}
 
 Now that you have created the basic skeleton for your experience you need to continue with the following actions, dependent on the type of experience:
 
@@ -134,7 +134,7 @@ Now that you have created the basic skeleton for your experience you need to con
 
     * [Integrate with Adobe Target](../../../sites/administering/using/target.md)
 
-### Adding a New Touchpoint {#adding-a-new-touchpoint}
+## Adding a New Touchpoint {#adding-a-new-touchpoint}
 
 If you have existing experiences you can add a touchpoint directly from the Calendar view of MCM:
 

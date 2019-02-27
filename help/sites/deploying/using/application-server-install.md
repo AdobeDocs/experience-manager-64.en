@@ -35,7 +35,7 @@ Consult the appropriate application server documentation for more information on
 
 ## General Description {#general-description}
 
-#### Default behaviour when installing AEM in an Application Server {#default-behaviour-when-installing-aem-in-an-application-server}
+### Default behaviour when installing AEM in an Application Server {#default-behaviour-when-installing-aem-in-an-application-server}
 
 AEM comes as a single war file to deploy.
 
@@ -47,7 +47,7 @@ If deployed the following will happen by default:
 * the context root is the war file name e.g : `aem-6` **[!UICONTROL   
   ]**
 
-#### Configuration {#configuration}
+### Configuration {#configuration}
 
 You can change the default behaviour in the following way:
 
@@ -57,7 +57,7 @@ You can change the default behaviour in the following way:
 
 * context root: rename the AEM war file
 
-#### Publish installation {#publish-installation}
+### Publish installation {#publish-installation}
 
 To get a publish instance deployed you need to set the run mode to publish:
 
@@ -66,14 +66,14 @@ To get a publish instance deployed you need to set the run mode to publish:
 * Repack web.xml file into AEM war file
 * Deploy AEM war file
 
-#### Installation check {#installation-check}
+### Installation check {#installation-check}
 
 To check if all is installed you can:
 
 * tail the `error.log`file to see that all content is installed
 * look in `/system/console` that all bundles are installed
 
-#### Two Instances on the same Application Server {#two-instances-on-the-same-application-server}
+### Two Instances on the same Application Server {#two-instances-on-the-same-application-server}
 
 For demonstration purposes it can be appropriate to install author and publish instance in one application server. For that do the following:
 
@@ -91,7 +91,7 @@ For demonstration purposes it can be appropriate to install author and publish i
 
 ## Application Servers Installation Procedures {#application-servers-installation-procedures}
 
-#### WebSphere 8.5 {#websphere}
+### WebSphere 8.5 {#websphere}
 
 Before a deployment read the [General Description](#generaldescription) above.
 
@@ -120,7 +120,7 @@ Before a deployment read the [General Description](#generaldescription) above.
 
 * Start AEM web application
 
-#### JBoss EAP 6.3.0/6.4.0 {#jboss-eap}
+### JBoss EAP 6.3.0/6.4.0 {#jboss-eap}
 
 Before a deployment read the [General Description](#generaldescription) above.
 
@@ -140,11 +140,10 @@ if you use the deployment-scanner for to install the AEM web application it migh
 
 **Deploy AEM web application**
 
-- Upload the AEM web application in your JBoss Administration Console.
+* Upload the AEM web application in your JBoss Administration Console.
+* Enable the AEM web application.
 
-- Enable the AEM web application.
-
-#### Oracle WebLogic 12.1.3/12.2 {#oracle-weblogic}
+### Oracle WebLogic 12.1.3/12.2 {#oracle-weblogic}
 
 Before a deployment read the [General Description](#generaldescription) above.
 
@@ -180,7 +179,7 @@ This uses a simple Server Layout with only an Admin Server.
 * Check that the installation has finished as mentioned above in the General Description (e.g. tailing the error.log)
 * You can change the context root in the Configuration tab of the web application in the WebLogic `/console`
 
-#### Tomcat 8/8.5 {#tomcat}
+### Tomcat 8/8.5 {#tomcat}
 
 Before a deployment read the [General Description](#generaldescription) above.
 

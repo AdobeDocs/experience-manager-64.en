@@ -17,7 +17,7 @@ This article aims to improve knowledge on tasks and considerations needed to suc
 
 For more deployment related information, consult the [Deploying and Maintaining](../../../sites/deploying/using/deploy.md) section of the documentation.
 
-### When to use MongoDB with AEM {#when-to-use-mongodb-with-aem}
+## When to use MongoDB with AEM {#when-to-use-mongodb-with-aem}
 
 MongoDB will typically be used for supporting AEM author deployments where one of the following criteria is met:
 
@@ -34,7 +34,7 @@ If the criteria are not met, then a TarMK active/standby deployment is recommend
 >
 >Additional information on the sizing of author instances and the definition of concurrent users can be found in the [Hardware Sizing Guidelines](../../../managing/using/hardware-sizing-guidelines.md#main-pars-title-mznfbi-refd).
 
-### Minimal MongoDB Deployment for AEM {#minimal-mongodb-deployment-for-aem}
+## Minimal MongoDB Deployment for AEM {#minimal-mongodb-deployment-for-aem}
 
 Below is a minimal deployment for AEM on MongoDB. For simplicity, SSL termination and HTTP Proxy components have been generalised. It consists of a single MongoBD replica set, with one primary and two secondaries. 
 
@@ -46,11 +46,11 @@ The AEM authors are connected to the `mongod` instances, with each AEM author co
 
 In this deployment, all the components are required for a successful implementation. Any missing component will leave the implementation non functional.
 
-### Operating Systems {#operating-systems}
+## Operating Systems {#operating-systems}
 
 For a list of supported operating systems for AEM 6, see the [Technical Requirements page](../../../sites/deploying/using/technical-requirements.md).
 
-### Environments {#environments}
+## Environments {#environments}
 
 Virtualized environments are supported provided there is good communication between the different technical teams running the project. This includes the team that is running AEM, the team owning the operating system and the team managing the virtualized infrastructure.
 
@@ -226,8 +226,6 @@ If the query hint is not disabled, any performance tuning of indexes will have n
 #### Enable Persistent Cache for MongoMK {#enable-persistent-cache-for-mongomk}
 
 It is recommended that a persistent cache configuration is enabled for MongoDB deployments, in order to maximize speed for environments with high I/O read performance. For more details, see the [Jackrabbit Oak documentation](http://jackrabbit.apache.org/oak/docs/nodestore/persistent-cache.html).
-
-##
 
 ## MongoDB Operating System Optimizations {#mongodb-operating-system-optimizations}
 

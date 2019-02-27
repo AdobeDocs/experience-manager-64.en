@@ -20,7 +20,7 @@ discoiquuid: 9dd617e7-5fd9-4237-b0ed-627ce788e1d6
 
 Users can be asked to subscribe to **Email Service Provider's** mailing lists with the help of the** Form **component used on an AEM web page. To prepare an AEM page with a sign-up form for subscription to your e-mail service mailing lists, you must apply the corresponding service configuration to the AEM page that the potential subscriber will visit.
 
-### Applying Email Service configuration to a page {#applying-email-service-configuration-to-a-page}
+## Applying Email Service configuration to a page {#applying-email-service-configuration-to-a-page}
 
 To configure an AEM page:
 
@@ -33,7 +33,7 @@ To configure an AEM page:
 
 1. Click **OK**.
 
-### Creating a Sign-up form on an AEM page for subscribing/unsubscribing to lists {#creating-a-sign-up-form-on-an-aem-page-for-subscribing-unsubscribing-to-lists}
+## Creating a Sign-up form on an AEM page for subscribing/unsubscribing to lists {#creating-a-sign-up-form-on-an-aem-page-for-subscribing-unsubscribing-to-lists}
 
 To create a sign-up form and configure it for subscriptions to Email Service Provider's mailing lists:
 
@@ -61,7 +61,7 @@ To create a sign-up form and configure it for subscriptions to Email Service Pro
    >
    >To make the form subscription fucntion correctly, [encryption keys from author need to be exported and imported on the publish instance](#exportingkeysfromauthorandimportingonpublish).
 
-### Exporting keys from author and importing on publish {#exporting-keys-from-author-and-importing-on-publish}
+## Exporting keys from author and importing on publish {#exporting-keys-from-author-and-importing-on-publish}
 
 In order for e-mail service subscribing and unsubscribing to work via the sign-up form on the publish instance, you need to follow these steps:
 
@@ -71,7 +71,7 @@ In order for e-mail service subscribing and unsubscribing to work via the sign-u
 1. Navigate to the Package Manager on the publish instance and upload this package.
 1. Navigate to the Publish osgi console and restart the bundle named **Adobe Granite Crypto Support**.
 
-### Unsubscribing users from lists {#unsubscribing-users-from-lists}
+## Unsubscribing users from lists {#unsubscribing-users-from-lists}
 
 To unsubscribe users from lists:
 
@@ -85,7 +85,7 @@ To unsubscribe users from lists:
 
 1. Export the keys from author to publish.
 
-### Configuring auto-responder emails for Email Service {#configuring-auto-responder-emails-for-email-service}
+## Configuring auto-responder emails for Email Service {#configuring-auto-responder-emails-for-email-service}
 
 To configure an auto-responder email for a subscriber:
 
