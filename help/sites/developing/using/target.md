@@ -320,7 +320,7 @@ The target.jsp script accesses the page properties to determine the targeting en
 * [Adobe Campaign](../../../sites/authoring/using/target-adobe-campaign.md): /libs/cq/personalization/components/target/engine_cq_campaign.jsp
 * Client-side Rules/ContextHub: /libs/cq/personalization/components/target/engine_cq.jsp
 
-#### The Creation of Mboxes {#the-creation-of-mboxes}
+### The Creation of Mboxes {#the-creation-of-mboxes}
 
 >[!NOTE]
 >
@@ -338,7 +338,7 @@ Following the `mboxDefault` div element, the javascript that creates the mbox is
 * The script obtains Client Context parameter names and values.
 * Calls are made to the functions that mbox.js and other client libraries define to create mboxes.
 
-#### Client Libraries for Content Targeting {#client-libraries-for-content-targeting}
+### Client Libraries for Content Targeting {#client-libraries-for-content-targeting}
 
 The following are the available clientlib categories:
 

@@ -25,7 +25,7 @@ some existing installations. This list is provided to cover such changes:
 >
 >It is intended as a supporting resource in the case of questions related to an upgrade to CQ 5.3 / CRX 2.0 in the area of Security.
 
-### Access Control Evaluation {#access-control-evaluation}
+## Access Control Evaluation {#access-control-evaluation}
 
 The Access Control Evaluation (ACE) changed from CRX 1.4.x to CRX 2.0. The major changes are as follows:
 

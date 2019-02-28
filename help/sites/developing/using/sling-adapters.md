@@ -70,7 +70,7 @@ For the first case, the javadocs can state what `adaptTo-targets` are possible. 
 
 ## Reference {#reference}
 
-#### Sling {#sling}
+### Sling {#sling}
 
 [**Resource**](/sites/developing/using/reference-materials/javadoc/org/apache/sling/api/resource/Resource) adapts to:
 
