@@ -22,7 +22,7 @@ Java and Javascript APIs enable you to internationalize strings in the following
 
 For an overview of the internationalization and localization process, see [Internationalizing Components](../../../sites/developing/using/i18n.md).  
 
-### Internationalizing Strings in Java and JSP Code {#internationalizing-strings-in-java-and-jsp-code}
+## Internationalizing Strings in Java and JSP Code {#internationalizing-strings-in-java-and-jsp-code}
 
 The `com.day.cq.i18n` Java package enables you to display localized strings in your UI. The `I18n` class provides the `get` method that retrieves localized strings from the AEM dictionary. The only required parameter of the `get` method is the string literal in the English language. English is the default langauge for the UI. The following example localizes the word `Search`:
 
@@ -33,7 +33,7 @@ Identifying the string in the English language differs from typical internationa
 * Code is easy to understand.
 * The string in the default language is always available.
 
-#### Determining the User's Language {#determining-the-user-s-language}
+### Determining the User's Language {#determining-the-user-s-language}
 
 There are two ways to determine the language that the user prefers:
 
@@ -42,7 +42,7 @@ There are two ways to determine the language that the user prefers:
 
 The language property of the user account is the preferred method because it is more reliable. However, the user must be logged in to use this method.  
 
-#### Creating the I18n Java object {#creating-the-i-n-java-object}
+### Creating the I18n Java object {#creating-the-i-n-java-object}
 
 The I18n class provides two constructors. How you determine the user's preferred language determines the constructor to use.
 
@@ -62,7 +62,7 @@ ResourceBundle resourceBundle = slingRequest.getResourceBundle(pageLang);
 I18n i18n = new I18n(resourceBundle); 
 ```
 
-#### Internationalizing a String {#internationalizing-a-string}
+### Internationalizing a String {#internationalizing-a-string}
 
 Use the `get` method of the `I18n` object to internationalize a string. The only required parameter of the `get` method is the string to internationalize. The string corresponds with a string in a Translator dictionary. The get method looks up the string in the dictionary and returns the translation for the current language.
 

@@ -229,7 +229,7 @@ Doing this creates a new export root **geo** with a **META-INF** and **jcr_root*
 If you have an existing workspace filter and you want to use it for checkout, you can either first create the **META-INF/vault** directory and place the filter there, or specify it on the command line as follows:
 
 ```shell
-$ vlt co --filter filter.xml http://localhost:4502/crx/-/jcr:root geo
+ $ vlt co --filter filter.xml http://localhost:4502/crx/-/jcr:root geo
 ```
 
 An example filter:
@@ -251,31 +251,31 @@ To import and export content without using .vlt control:
 1. Initially set up the repository:
 
    ```shell
-   $ cd /projects
-   $ svn mkdir http://svn.server.com/repos/myproject
-   $ svn co http://svn.server.com/repos/myproject
-   $ vlt export -v http://localhost:4502/crx /apps/geometrixx geometrixx
-   $ cd geometrixx/
-   $ svn add META-INF/ jcr_root/
-   $ svn ci
-   ```
+    $ cd /projects
+    $ svn mkdir http://svn.server.com/repos/myproject
+    $ svn co http://svn.server.com/repos/myproject
+    $ vlt export -v http://localhost:4502/crx /apps/geometrixx geometrixx
+    $ cd geometrixx/
+    $ svn add META-INF/ jcr_root/
+    $ svn ci
+    ```
 
 1. Change the remote copy and update JCR:
 
    ```shell
-   $ cd /projects/geometrixx
-   $ vlt -v import http://localhost:4502/crx . /
+    $ cd /projects/geometrixx
+    $ vlt -v import http://localhost:4502/crx . /
    ```
 
 1. Change the remote copy and update the file server:
 
    ```shell
-   $ cd /projects/geometrixx
-   $ vlt export -v http://localhost:4502/crx /apps/geometrixx .
-   $ svn st
-   M      META-INF/vault/properties.xml
-   M      jcr_root/apps/geometrixx/components/contentpage/.content.xml
-   $ svn ci
+    $ cd /projects/geometrixx
+    $ vlt export -v http://localhost:4502/crx /apps/geometrixx .
+    $ svn st
+    M      META-INF/vault/properties.xml
+    M      jcr_root/apps/geometrixx/components/contentpage/.content.xml
+    $ svn ci
    ```
 
 ## Using VLT {#using-vlt}

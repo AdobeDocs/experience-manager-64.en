@@ -19,7 +19,7 @@ Use xgettext-maven-plugin to extract strings from your source code that need tra
 * Javascript source files
 * XML representations of SVN resources (JCR Nodes)
 
-### Configuring String Extraction {#configuring-string-extraction}
+## Configuring String Extraction {#configuring-string-extraction}
 
 Configure how the xgettext-maven-plugin tool extracts strings for your project.
 
@@ -47,7 +47,7 @@ Configure how the xgettext-maven-plugin tool extracts strings for your project.
 | /parsers/regexp |Configures the parsing of Java, JSP, and ExtJS Template files. You do not need to change this section. |
 | /potentials |The formula for detecting strings to internationalize. |
 
-#### Identifying the Files to Parse {#identifying-the-files-to-parse}
+### Identifying the Files to Parse {#identifying-the-files-to-parse}
 
 The /filter section of the i18n.any file identifies the files that the xgettext-maven-plugin tool parses. Add several include and exclude rules that identify files that are parsed and ignored, respectively. You should include all files and then exclude the files that you do not want to parse. Typically, you exclude file types that do not contribute to the UI, or files that define UI but are not being translated. The include and exclude rules have the following format:
 

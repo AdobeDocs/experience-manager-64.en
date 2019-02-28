@@ -13,7 +13,7 @@ discoiquuid: e08a07e9-9d58-4a3e-b96e-6a6ccb31134d
 
 # How to Develop AEM Projects using IntelliJ IDEA{#how-to-develop-aem-projects-using-intellij-idea}
 
-### Overview {#overview}
+## Overview {#overview}
 
 To get started with AEM development on IntelliJ, the following steps are required.
 
@@ -28,7 +28,7 @@ Each of them is explained in more detail in the remainder of this How-To.
 >
 >This guide is based on IntelliJ IDEA Ultimate Edition 12.1.4 and AEM 5.6.1.
 
-### Install IntelliJ IDEA {#install-intellij-idea}
+## Install IntelliJ IDEA {#install-intellij-idea}
 
 Download IntelliJ IDEA from [the Downloads page at JetBrains](http://www.jetbrains.com/idea/download/index.html).
 

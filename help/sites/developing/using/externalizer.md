@@ -19,7 +19,7 @@ Because an instance can not know its externally visible URL if it is running beh
 
 This page explains how to configure the **Externalizer** service and how to use it. For more details, please refer to the [Javadocs](/sites/developing/using/reference-materials/javadoc/com/day/cq/commons/Externalizer).
 
-### Configuring the Externalizer service {#configuring-the-externalizer-service}
+## Configuring the Externalizer service {#configuring-the-externalizer-service}
 
 The **Externalizer** service allows you to centrally define multiple domains that can be used to programmatically prefix resource paths. Each domain is identified by a unique name that is used to programmatically reference the domain.
 
