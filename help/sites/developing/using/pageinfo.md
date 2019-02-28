@@ -31,7 +31,7 @@ http://localhost:4502/libs/wcm/core/content/pageinfo.json?path=/content/we-retai
 >
 >See the document [JSON Exporter for Content Services](../../../sites/developing/using/json-exporter.md).
 
-### Page Information Providers {#page-information-providers}
+## Page Information Providers {#page-information-providers}
 
 Page components can be associated with one or more `com.day.cq.wcm.api.PageInfoProvider` services that generate page metadata. The PageInfo servlet calls each PageInfoProvider service and aggregates the metadata:
 

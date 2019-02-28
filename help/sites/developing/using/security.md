@@ -15,7 +15,7 @@ discoiquuid: a421e624-be07-4b72-8264-8362aa43a7ab
 
 Application Security starts during the development phase. Adobe recommends to apply the following security best practices.
 
-### Use Request Session {#use-request-session}
+## Use Request Session {#use-request-session}
 
 Following the principle of leas privilegies, Adobe recommends that every repository access is done by using the session bound to the user request and proper access control.
 

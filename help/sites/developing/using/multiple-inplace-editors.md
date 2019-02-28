@@ -19,7 +19,7 @@ When configured you can select the appropriate content and open the appropriate 
 
 ![](assets/chlimage_1-12.png) 
 
-### Configuring Multiple Editors {#configuring-multiple-editors}
+## Configuring Multiple Editors {#configuring-multiple-editors}
 
 To enable multiple in-place editors the structure of a `cq:InplaceEditingConfig` node type has been enhanced with the definition of `cq:ChildEditorConfig` node type.
 

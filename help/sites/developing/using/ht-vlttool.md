@@ -229,7 +229,7 @@ Doing this creates a new export root **geo** with a **META-INF** and **jcr_root*
 If you have an existing workspace filter and you want to use it for checkout, you can either first create the **META-INF/vault** directory and place the filter there, or specify it on the command line as follows:
 
 ```shell
- $ vlt co --filter filter.xml http://localhost:4502/crx/-/jcr:root geo
+`$` vlt co --filter filter.xml http://localhost:4502/crx/-/jcr:root geo
 ```
 
 An example filter:
@@ -251,31 +251,31 @@ To import and export content without using .vlt control:
 1. Initially set up the repository:
 
    ```shell
-    $ cd /projects
-    $ svn mkdir http://svn.server.com/repos/myproject
-    $ svn co http://svn.server.com/repos/myproject
-    $ vlt export -v http://localhost:4502/crx /apps/geometrixx geometrixx
-    $ cd geometrixx/
-    $ svn add META-INF/ jcr_root/
-    $ svn ci
-    ```
+   `$` cd /projects
+   `$` svn mkdir http://svn.server.com/repos/myproject
+   `$` svn co http://svn.server.com/repos/myproject
+   `$` vlt export -v http://localhost:4502/crx /apps/geometrixx geometrixx
+   `$` cd geometrixx/
+   `$` svn add META-INF/ jcr_root/
+   `$` svn ci
+   ```
 
 1. Change the remote copy and update JCR:
 
    ```shell
-    $ cd /projects/geometrixx
-    $ vlt -v import http://localhost:4502/crx . /
+   `$` cd /projects/geometrixx
+   `$` vlt -v import http://localhost:4502/crx . /
    ```
 
 1. Change the remote copy and update the file server:
 
    ```shell
-    $ cd /projects/geometrixx
-    $ vlt export -v http://localhost:4502/crx /apps/geometrixx .
-    $ svn st
-    M      META-INF/vault/properties.xml
-    M      jcr_root/apps/geometrixx/components/contentpage/.content.xml
-    $ svn ci
+   `$` cd /projects/geometrixx
+   `$` vlt export -v http://localhost:4502/crx /apps/geometrixx .
+   `$` svn st
+   M      META-INF/vault/properties.xml
+   M      jcr_root/apps/geometrixx/components/contentpage/.content.xml
+   `$` svn ci
    ```
 
 ## Using VLT {#using-vlt}
@@ -1204,7 +1204,7 @@ The bundle is installed below `/libs/crx/vault/install` and the config node is c
 The following example installs the sync service to the CRX instance accessible by the given uri.
 
 ```shell
-$ vlt --credentials admin:admin sync --uri http://localhost:4502/crx install
+`$` vlt --credentials admin:admin sync --uri http://localhost:4502/crx install
 ```
 
 ### Displaying the service status {#displaying-the-service-status}
@@ -1212,7 +1212,7 @@ $ vlt --credentials admin:admin sync --uri http://localhost:4502/crx install
 The `status` command can be used to display information about the running sync service. ``
 
 ```shell
-$ vlt sync status --uri http://localhost:4502/crx
+`$` vlt sync status --uri http://localhost:4502/crx
 Connecting via JCR remoting to http://localhost:4502/crx/server
 Listing sync status for http://localhost:4502/crx/server/-/jcr:root
 - Sync service is enabled.
@@ -1228,7 +1228,7 @@ Listing sync status for http://localhost:4502/crx/server/-/jcr:root
 The `register` command is used to add a folder to synchronize to the configuration.
 
 ```shell
-$ vlt sync register
+`$` vlt sync register
 Connecting via JCR remoting to http://localhost:4502/crx/server
 Added new sync directory: /tmp/workspace/vltsync/jcr_root
 ```
@@ -1242,7 +1242,7 @@ Added new sync directory: /tmp/workspace/vltsync/jcr_root
 The `unregister` command is used to remove a folder to synchronize from the configuration.
 
 ```shell
-$  vlt sync unregister
+`$`  vlt sync unregister
 Connecting via JCR remoting to http://localhost:4502/crx/server
 Removed sync directory: /tmp/workspace/vltsync/jcr_root
 
@@ -1296,7 +1296,7 @@ To setup a development environment based on a sync folder proceed as follows:
 1. Checkout your repository with the vlt command line:
 
    ```shell
-   $ vlt --credentials admin:admin co --force http://localhost:4502/crx dev
+   `$` vlt --credentials admin:admin co --force http://localhost:4502/crx dev
    ```
 
    >[!NOTE]
@@ -1306,13 +1306,13 @@ To setup a development environment based on a sync folder proceed as follows:
 1. Go to the root folder of your working copy:
 
    ```shell
-   $ cd dev/jcr_root/
+   `$` cd dev/jcr_root/
    ```
 
 1. Install the sync service to your repository:
 
    ```xml
-   $ vlt sync install
+   `$` vlt sync install
    Connecting via JCR remoting to http://localhost:4502/crx/server
    Preparing to install vault-sync-2.4.24.jar...
    Updated bundle: vault-sync-2.4.24.jar
@@ -1322,7 +1322,7 @@ To setup a development environment based on a sync folder proceed as follows:
 1. Initialize the sync service:
 
    ```shell
-   $ vlt sync
+   `$` vlt sync
    Connecting via JCR remoting to http://localhost:4502/crx/server
    Starting initialization of sync service in existing vlt checkout /Users/colligno/Applications/cq5/vltsync/sandbox/dev/jcr_root for http://localhost:4502/crx/server/-/jcr:root
    Added new sync directory: /Users/trushton/Applications/aem/vltsync/sandbox/dev/jcr_root

@@ -13,7 +13,7 @@ discoiquuid: d3a1828f-b065-4018-b06c-e039f23e8f1d
 
 # OSGI Bundles{#osgi-bundles}
 
-### Use semantic versioning {#use-semantic-versioning}
+## Use semantic versioning {#use-semantic-versioning}
 
 Agreed upon best practices for semantic version numbering can be found at [http://semver.org/](http://semver.org/).
 

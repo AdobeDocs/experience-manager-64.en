@@ -43,7 +43,7 @@ For example, see the settings for fields grouped under the **More Titles and Des
 /libs/foundation/components/page/cq:dialog/content/items/tabs/items/basic/items/column/items/moretitles   
 ```
 
-### Configuring your Page Properties {#configuring-your-page-properties}
+## Configuring your Page Properties {#configuring-your-page-properties}
 
 You can also configure the fields available by configuring the dialog of your page component and applying the appropriate node properties.
 

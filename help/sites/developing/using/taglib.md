@@ -55,7 +55,8 @@ A list of comma-separated client lib categories. This will include all Javascrip
 
 Equivalent to: `com.adobe.granite.ui.clientlibs.HtmlLibraryManager#writeJsInclude`
 
-#### CSS 
+#### CSS
+
 A list of comma-separated client lib categories. This will include all CSS libraries for the given categories.
 
 Equivalent to: `com.adobe.granite.ui.clientlibs.HtmlLibraryManager#writeCssInclude`
@@ -639,7 +640,7 @@ l**ogName resourceResolverName**
 
 The [JavaServer Pages Standard Tag Library](http://www.oracle.com/technetwork/java/index-jsp-135995.html) contains a lot of useful and standard tags. The core, formatting and functions taglibs are defined by the `/libs/foundation/global.jsp` as shown in the following snippet.
 
-#### Extract of /libs/foundation/global.jsp {#extract-of-libs-foundation-global-jsp}
+### Extract of /libs/foundation/global.jsp {#extract-of-libs-foundation-global-jsp}
 
 ```xml
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
