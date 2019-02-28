@@ -13,7 +13,7 @@ discoiquuid: 97ad0a6d-3fd7-44b3-ab39-b059b2bc6f98
 
 # JCR Integration{#jcr-integration}
 
-### Prefer the Sling Resource API to JCR API {#prefer-the-sling-resource-api-to-jcr-api}
+## Prefer the Sling Resource API to JCR API {#prefer-the-sling-resource-api-to-jcr-api}
 
 The Sling API works at a higher, more abstract level than the JCR API. This allows your code to be more reusable and independent of the underlying storage. This makes it easier to include external virtual data via the ResourceProvider mechanism if needed.
 

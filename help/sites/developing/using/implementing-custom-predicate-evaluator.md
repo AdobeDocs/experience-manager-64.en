@@ -15,7 +15,7 @@ discoiquuid: f051ab15-665e-41a0-a3e5-07bb0e0ecbdf
 
 This section describes how to extend the [Query Builder](../../../sites/developing/using/querybuilder-api.md) by implementing a custom predicate evaluator.
 
-### Overview {#overview}
+## Overview {#overview}
 
 The [Query Builder](../../../sites/developing/using/querybuilder-api.md) offers an easy way of querying the content repository. CQ ships with a set of predicate evaluators that helps you deal with your data.
 

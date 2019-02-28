@@ -19,7 +19,7 @@ Access an external SQL database to so that your CQ applications can interact wit
 1. [Configure a JDBC data source pool provider](#configuringthejdbcconnectionpoolservice).
 1. [Obtain a data source object and create the connection in your code](#connectingtothedatabase).
 
-### Bundling the JDBC Database Driver {#bundling-the-jdbc-database-driver}
+## Bundling the JDBC Database Driver {#bundling-the-jdbc-database-driver}
 
 Some database vendors provide JDBC drivers in an OSGi bundle, for example [MySQL](http://www.mysql.com/downloads/connector/j/). If the JDBC driver for your database is not available as an OSGi bundle, obtain the driver JAR and wrap it in an OSGi bundle. The bundle must export the packages that are required for interacting with the database server. The bundle must also import the packages that it references.
 
@@ -32,7 +32,7 @@ The plugin automatically determines which packages to import and lists them in t
 
 Knowledge of the source code enables you to decide which solution to use. You can also try either solution and perform testing to validate the solution.
 
-#### POM that bundles hsqldb.jar {#pom-that-bundles-hsqldb-jar}
+### POM that bundles hsqldb.jar {#pom-that-bundles-hsqldb-jar}
 
 ```xml
 <project xmlns="http://maven.apache.org/POM/4.0.0" 

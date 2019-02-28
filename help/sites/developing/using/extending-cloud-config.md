@@ -17,7 +17,7 @@ Configurations are designed to provide the logic and structure for storing servi
 
 You can extend the existing instances to create your own configurations.
 
-### Concepts {#concepts}
+## Concepts {#concepts}
 
 The principles used in developing the configurations have been based on the following concepts:
 

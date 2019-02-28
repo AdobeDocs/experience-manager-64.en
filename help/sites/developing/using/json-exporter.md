@@ -27,7 +27,7 @@ With content fragments that use structured content, you can provide content serv
 >
 >The functionality described here is available for all components since [release 1.1 of the Core Components](https://docs.adobe.com/content/docs/en/core-components/v1.html).
 
-### JSON Exporter with Content Fragment Core Components {#json-exporter-with-content-fragment-core-components}
+## JSON Exporter with Content Fragment Core Components {#json-exporter-with-content-fragment-core-components}
 
 Using the AEM JSON exporter you can deliver the contents of an(y) AEM page in JSON data model format. This can then be consumed by your own applications.
 

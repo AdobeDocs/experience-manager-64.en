@@ -15,7 +15,7 @@ discoiquuid: 3e730906-b639-4d1a-85a1-89fac332b09c
 
 Components can be adapted to generate JSON export of their content based on a modeler framework.
 
-### Overview {#overview}
+## Overview {#overview}
 
 The JSON Export is based on [Sling Models](https://sling.apache.org/documentation/bundles/models.html), and on the [Sling Model Exporter](https://sling.apache.org/documentation/bundles/models.html#exporter-framework-since-130) framework (which itself relies on [Jackson annotations](https://github.com/FasterXML/jackson-annotations/wiki/Jackson-Annotations)).
 

@@ -19,7 +19,7 @@ This guide describes how to use Eclipse for developing AEM based projects.
 >
 >Adobe now provides the [AEM Development Tools for Eclipse](../../../sites/developing/using/aem-eclipse.md) which helps you to develop AEM solutions with Eclipse.
 
-### Overview {#overview}
+## Overview {#overview}
 
 To get started with AEM development on Eclipse, the following steps are required.
 
@@ -60,7 +60,7 @@ For that to work:
 
    This is not a problem: as noted in [How-To Work with JSPs](../../../sites/developing/using/ht-projects-maven.md#main-pars-title-10), the maven-jspc-plugin in this setup is only used to validate that JSPs compile as part of the build process. Eclipse already reports any problems in JSPs and does not rely on this Maven plugin to be able to do so.
 
-   #### myproject/content/pom.xml {#myproject-content-pom-xml}
+   myproject/content/pom.xml {#myproject-content-pom-xml}
 
    ```xml
    <build>
