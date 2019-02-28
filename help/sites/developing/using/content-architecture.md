@@ -13,7 +13,7 @@ discoiquuid: e82d6bff-4622-4286-9e39-d070dd22abe8
 
 # Content Architecture{#content-architecture}
 
-### Follow David's Model {#follow-david-s-model}
+## Follow David's Model {#follow-david-s-model}
 
 David’s Model was written by David Nuescheler years ago, but the ideas hold true today. The main tenets of David’s Model are as follows:
 
@@ -27,23 +27,23 @@ David’s Model was written by David Nuescheler years ago, but the ideas hold tr
 
 David’s Model can be found on the Jackrabbit wiki at [http://wiki.apache.org/jackrabbit/DavidsModel](http://wiki.apache.org/jackrabbit/DavidsModel).
 
-### Everything is content {#everything-is-content}
+## Everything is content {#everything-is-content}
 
 Everything should be stored in the repository rather than relying on separate third party data sources such as databases. This applies to authored content, binary data like images, code, configurations, etc. This allows us to use one set of APIs to manage all content and to manage the promotion of this content through replication. We also gain a single source of backup, logging, etc.
 
-### Use the "content model first" design principle {#use-the-content-model-first-design-principle}
+## Use the "content model first" design principle {#use-the-content-model-first-design-principle}
 
 When building a new feature, always start by designing the JCR content structure first, and then look into reading and writing your content using the default Sling servlets. This will allow you to ensure that your implementation works well with out of the box access control mechanisms and allow you to avoid generating unnecessary CRUD-style servlets.
 
-### Be RESTful {#be-restful}
+## Be RESTful {#be-restful}
 
 Servlets should be defined based on resourceTypes instead of paths. This makes it possible to use JCR access controls, adhere to REST principles, and use the resource and resource resolver that are provided to us in the request. This also allows us to change the scripts that render URLs on the server side without needing to change any URLs from the client side, while hiding server-side implementation details from the client for added security.
 
-### Avoid defining new node types {#avoid-defining-new-node-types}
+## Avoid defining new node types {#avoid-defining-new-node-types}
 
 Node types work at a low level in the infrastructure layer and most requirements can be met by using a sling:resourceType assigned to an nt:unstructured, oak:Unstructured, sling:Folder or cq:Page node type. Node types equate to schema in the repository and changing node types can be very expensive down the road.
 
-### Adhere to naming conventions in the JCR {#adhere-to-naming-conventions-in-the-jcr}
+## Adhere to naming conventions in the JCR {#adhere-to-naming-conventions-in-the-jcr}
 
 Adhering to naming conventions will add consistency to your code base, lowering the incidence rate of defects and increasing the velocity of developers working in the system. The following conventions are used by Adobe in developing AEM:
 

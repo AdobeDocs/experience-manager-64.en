@@ -20,7 +20,7 @@ CQ provides a service that enables you to configure and control how cookies are 
 
 Use this feature to make sure that your pages comply with your users' consent regarding cookie usage.
 
-### Configuring Allowed Cookies {#configuring-allowed-cookies}
+## Configuring Allowed Cookies {#configuring-allowed-cookies}
 
 Configure the Adobe Granite Opt-Out Service to specify how cookies are used on your web pages. The following table describes the properties that you can configure.
 
