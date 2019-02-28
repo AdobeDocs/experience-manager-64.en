@@ -24,7 +24,7 @@ You can:
 
 All settings and definitions are stored in the one repository and activated by setting the **Run Mode**.
 
-### Installation Run Modes {#installation-run-modes}
+## Installation Run Modes {#installation-run-modes}
 
 Installation (or fixed) run modes are used at installation time and then fixed for the entire lifetime of the instance, they cannot be changed.
 

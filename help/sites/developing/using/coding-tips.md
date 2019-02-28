@@ -13,7 +13,7 @@ discoiquuid: 842e5c40-49b9-427c-9dd2-7f5de882562f
 
 # Coding Tips{#coding-tips}
 
-### Use taglibs or HTL as much as possible {#use-taglibs-or-htl-as-much-as-possible}
+## Use taglibs or HTL as much as possible {#use-taglibs-or-htl-as-much-as-possible}
 
 Including scriptlets in JSPs makes it difficult to debug issues in the code. Additionally, by including scriptlets in JSPs, it is difficult to separate business logic from the view layer, which is a violation of the Single Responsibility Principle and the MVC design pattern.
 

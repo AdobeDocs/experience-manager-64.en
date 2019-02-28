@@ -37,7 +37,7 @@ Terms of interest:
 * **ContextHub** 
   Capabilities to aggregate information about the visitor and use it for various purposes. Provides an user interface to simulate persons visiting the site. Starting AEM 6.2, ContextHub replaced the previous technology, Client Context.
 
-### General {#general}
+## General {#general}
 
 Over the last few years Adobe has updated all the Adobe Experience Cloud solutions with an unified user interface. Users across the Experience Cloud solutions enjoy a consistant experience with common patterns on how to use and operate the applications. With every release, Adobe has refined it's user interface based on feedback from customers working across the various solutions.
 
@@ -47,7 +47,7 @@ Adobe recommends customers to plan to switch to the new UI in 2018/19. This can 
 
 Adobe does not plan to make further enhancements to the Classic UI starting AEM 6.4. Note that Classic UI remains fully supported while being deprecated.
 
-### Rules and Recommendations {#rules-and-recommendations}
+## Rules and Recommendations {#rules-and-recommendations}
 
 The following is a list of recommendations from Product Management for Adobe Experience Manager 6.4:
 

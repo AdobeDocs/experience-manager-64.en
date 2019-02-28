@@ -15,7 +15,7 @@ discoiquuid: 407b22e9-12c5-400d-8215-038c7b84d8c9
 
 This section includes detailed information on logs available to help you troubleshoot and also includes information on some of the problems you might encounter with AEM.
 
-### Troubleshoot Author Performance {#troubleshoot-author-performance}
+## Troubleshoot Author Performance {#troubleshoot-author-performance}
 
 Analyzing slow performance on Authoring instance can become quite complex. As first step it is required to figure out on which level of the technology stack the performance is decreasing.
 
@@ -23,7 +23,7 @@ The following decision tree provides guidenance to narrow down the bottleneck.
 
 ![](assets/chlimage_1-75.png) 
 
-#### Basic Optimization {#basic-optimization}
+### Basic Optimization {#basic-optimization}
 
 ![](assets/chlimage_1-76.png) 
 

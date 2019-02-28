@@ -289,7 +289,7 @@ Once AEM WCM has been started, you can also access:
 * [CRXDE Lite](#accessingcrxdelite) - used to access and manage the repository
 * [Web Console](#accessingthewebconsole) - used to manage or configure the OSGi bundles (also known as the OSGi Console)
 
-#### Accessing CRXDE Lite {#accessing-crxde-lite}
+### Accessing CRXDE Lite {#accessing-crxde-lite}
 
 To open CRXDE Lite you can select **CRXDE Lite** from the welcome screen or use your browser to navigate to
 
@@ -302,7 +302,7 @@ For example:
 
 ![](assets/installcq_crxdelite.png) 
 
-#### Accessing the Web Console {#accessing-the-web-console}
+### Accessing the Web Console {#accessing-the-web-console}
 
 To access the Adobe CQ Web console you can select **OSGi Console** from the welcome screen or use your browser to navigate to
 

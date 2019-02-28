@@ -13,7 +13,7 @@ discoiquuid: f1d94e0a-330e-4582-a88f-df89057c9c73
 
 # Best Practices{#best-practices}
 
-### Best Practices for Developers - Getting Started {#best-practices-for-developers-getting-started}
+## Best Practices for Developers - Getting Started {#best-practices-for-developers-getting-started}
 
 Adobe Engineering and Consulting teams have developed a comprehensive set of best practices for AEM developers. Adobe developer's adhere to these best practices as they develop core AEM product updates and customer code for customer implementations.
 
@@ -27,7 +27,7 @@ Before you start your AEM development project, first review these best practices
 * [JCR Interaction](../../../sites/developing/using/jcr-integration.md)
 * [OSGi Bundles](../../../sites/developing/using/osgi-bundles.md)
 
-### Additional Best Practices Information {#additional-best-practices-information}
+## Additional Best Practices Information {#additional-best-practices-information}
 
 The following areas have documentation available specific to developing best practices:
 

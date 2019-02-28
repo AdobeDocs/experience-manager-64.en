@@ -88,7 +88,7 @@ The following configuration options are available:
 
 * `password:` The database password.
 
-#### URL String Formats {#url-string-formats}
+### URL String Formats {#url-string-formats}
 
 A different URL string format is used in the data source configuration depending on the database type that needs to be used. Below is a list of formats for the databases that AEM currently supports:
 

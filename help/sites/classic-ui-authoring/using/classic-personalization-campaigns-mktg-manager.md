@@ -117,7 +117,7 @@ To access existing campaigns, in the MCM click **Campaigns**.
   Icons are shown for each brand (historical campaigns will not be shown).  
   You can double-click on these to open the brand overview.
 
-#### Brand Overview {#brand-overview}
+### Brand Overview {#brand-overview}
 
 ![](assets/mcm_brandoverview.png)
 

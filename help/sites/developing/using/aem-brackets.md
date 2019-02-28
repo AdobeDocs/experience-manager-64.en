@@ -13,13 +13,13 @@ discoiquuid: bccf2812-a36c-43c2-9933-70d5b1510586
 
 # AEM Brackets Extension{#aem-brackets-extension}
 
-### Overview {#overview}
+## Overview {#overview}
 
 The AEM Brackets Extension provides a smooth workflow to edit AEM components and client libraries, and leverages the power of the [Brackets](http://brackets.io/) code editor, which gives access from within the code editor to Photoshop files and layers. The easy synchronization provided by the extension (no Maven or File Vault required) increases developer efficiency and also helps front-end developers with limited AEM knowledge to participate on projects. This extension also provides some support for the [HTML Template Language (HTL)](/content/help/en/experience-manager/htl/user-guide), which takes away the complexity of JSP to make component development easier and more secure.
 
 ![](assets/chlimage_1-62.png) 
 
-#### Features {#features}
+### Features {#features}
 
 The main features of the AEM Brackets Extension are:
 

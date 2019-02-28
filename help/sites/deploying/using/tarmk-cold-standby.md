@@ -46,17 +46,17 @@ A typical TarMK Cold Standby deployment:
 
 ## Other characteristics {#other-characteristics}
 
-#### Robustness {#robustness}
+### Robustness {#robustness}
 
 The data flow is designed to detect and handle connection and network related problems automatically. All packets are bundled with checksums and as soon as problems with the connection or damaged packets occur retry mechanisms are triggered.
 
-#### Performance {#performance}
+### Performance {#performance}
 
 Enabling TarMK Cold Standby on the primary instance has almost no measurable impact on the performance. The additional CPU consumption is very low and the extra hard disk and network IO should not produce and performance issues.
 
 On the standby you can expect high CPU consumption during the sync process. Due to the fact that the procedure is not multithreaded it cannot be sped up by using multiple cores. If no data is changed or transferred there will be no measurable activity. The connection speed will vary depending on the hardware and network environment but it does not depend on the size of the repository or SSL use. You should keep this in mind when estimating the time needed for an initial sync or when much data was changed in the meantime on the primary node.
 
-#### Security {#security}
+### Security {#security}
 
 Assuming that all the instances run in the same intranet security zone the risk of a security breach is greatly reduced. Nevertheless, you can add extra security layer by enabling SSL connections between the slaves and the master. Doing so reduces the possibility that the data is compromised by a man-in-the-middle.
 
@@ -264,11 +264,8 @@ The following OSGi settings are available for the Cold Standby service:
 
 * **Allowed IP-Ranges (`primary.allowed-client-ip-ranges`):** - the IP ranges that the primary will allow connections from.
 * **Secure (`secure`):** Enable SSL encryption. In order to make use of this setting, it must be enabled on all instances.
-* **Standby Read Timeout (`standby.readtimeout`):** Timeout for requests issued from the standby instance in milliseconds. **The recommended timeout setting is 43200000. It is generally advised you set the timeout to a value of at least 12 hours.  
-  **
-
-* **Standby Automatic Cleanup (`standby.autoclean`): **Call the cleanup method if the size of the store increases on a sync cycle**.  
-  **
+* **Standby Read Timeout (`standby.readtimeout`):** Timeout for requests issued from the standby instance in milliseconds. The recommended timeout setting is 43200000. It is generally advised you set the timeout to a value of at least 12 hours.
+* **Standby Automatic Cleanup (`standby.autoclean`):** Call the cleanup method if the size of the store increases on a sync cycle.  
 
 >[!NOTE]
 >
@@ -354,8 +351,6 @@ Furthermore information for up to 10 clients (standby instances) that are connec
 * `TransferredSegments:` the total number of segments transferred to this client.
 * `TransferredSegmentBytes:`the total number of bytes transferred to this client.
 
-#####
-
 ## Cold Standby Repository Maintenance {#cold-standby-repository-maintenance}
 
 >[!NOTE]
@@ -381,7 +376,7 @@ It may take longer than usual for the standby instance to complete synchronizati
 
 As an alternative, the primary repository can be copied over to the standby manually after running compaction on the primary, essentially rebuilding the standby each time compaction runs.
 
-#### Data Store Garbage Collection {#data-store-garbage-collection}
+### Data Store Garbage Collection {#data-store-garbage-collection}
 
 It is important to run garbage collection on file datastore instances from time to time as otherwise, deleted binaries will remain on the filesystem, eventually filling up the drive. To run garbage collection, follow the below procedure:
 

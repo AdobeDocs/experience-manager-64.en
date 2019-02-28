@@ -161,7 +161,7 @@ In the next example:
 
 Auditing records and log files relating to Adobe Experience Manager (AEM) can be found at various locations. The following is provided to give you an overview of what you can find where.
 
-#### Working with Logs {#working-with-logs}
+### Working with Logs {#working-with-logs}
 
 AEM WCM records detailed logs. After you unpack and start Quickstart, you can find logs in:
 
@@ -169,7 +169,7 @@ AEM WCM records detailed logs. After you unpack and start Quickstart, you can fi
 
 * `<*cq-installation-dir*>/crx-quickstart/repository/`
 
-#### Log file rotation {#log-file-rotation}
+### Log file rotation {#log-file-rotation}
 
 Log file rotation refers to the process that limits the growth of file by creating new file periodically. In AEM, a log file called `error.log` will be rotated once a day according to the given rules:
 
@@ -420,7 +420,7 @@ In certain circumstances you may want to create a custom log file with a differe
    >      Note: When specifying a time/date:  
    >    1. You should "escape" literal text within a pair of single quotes (' ');   
    >      this is to avoid certain characters being interpreted as pattern letters.  
-   >      2. Only use characters allowed for a valid file name anywhere in the option.
+   >    1. Only use characters allowed for a valid file name anywhere in the option.
    >    
    >    
    >

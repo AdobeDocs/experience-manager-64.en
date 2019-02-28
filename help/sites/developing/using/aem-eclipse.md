@@ -15,7 +15,7 @@ discoiquuid: 8f9f5ed9-d1fa-4110-a0a1-eae7b67b38fe
 
  ![](assets/chlimage_1-78.png) 
 
-### Overview {#overview}
+## Overview {#overview}
 
 The AEM Developer Tools for Eclipse is a Eclipse plugin based on the [Eclipse plugin for Apache Sling](https://sling.apache.org/documentation/development/ide-tooling.html) released under the Apache License 2.
 
@@ -27,7 +27,7 @@ It offers several features that make AEM development easier:
 * Simple bootstrap of AEM projects via a specific Project Creation Wizard.
 * Easy JCR properties edition.
 
-### Requirements {#requirements}
+## Requirements {#requirements}
 
 Before using the AEM Developper Tools, you need to:
 

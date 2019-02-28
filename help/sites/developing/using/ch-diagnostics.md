@@ -21,7 +21,7 @@ The ContextHub Diagnostics page provides information about the stores and UI mod
 >
 >In order for diagnostic information to be returned, debug mode must be enabled, otherwise the diagnostics page will be blank. Please see [this document](../../../sites/administering/using/contexthub-config.md#main-pars-title-480046972) for details on how to enable debug mode.
 
-### Stores {#stores}
+## Stores {#stores}
 
 The Stores section lists all the ContextHub stores that have been configured. Each item in the list consists of the following information:
 
