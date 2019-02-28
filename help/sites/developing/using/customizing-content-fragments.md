@@ -398,7 +398,7 @@ See the following:
 
 An editing session is started when the user opens a content fragment in one of the editor pages. The editing session is finished when the user leaves the editor by selecting either **Save** or **Cancel**.
 
-#### Requirements {#requirements}
+### Requirements {#requirements}
 
 Requirements for controlling an editing session are:
 
@@ -408,7 +408,7 @@ Requirements for controlling an editing session are:
 * A periodic auto save (every x minutes) should be available to prevent data loss.
 * If a content fragment is edited by two users concurrently, they should not overwrite each other's changes.
 
-#### Processes {#processes}
+### Processes {#processes}
 
 The processes involved are:
 
@@ -436,7 +436,7 @@ The processes involved are:
     * All changes (auto save included) are done on the active content fragment - not in a separated, protected area.
     * Therefore, those changes are reflected immediately on AEM pages that reference the respective content fragment
 
-#### Actions {#actions}
+### Actions {#actions}
 
 The possible actions are:
 

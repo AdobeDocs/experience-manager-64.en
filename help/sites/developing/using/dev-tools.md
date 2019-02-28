@@ -21,7 +21,7 @@ To develop your JCR, Apache Sling or AEM applications, the following tool sets a
 * one set consisting of an Integrated Development Environment (for example: [Eclipse](../../../sites/developing/using/howto-projects-eclipse.md) or [IntelliJ](../../../sites/developing/using/ht-intellij.md)), a build tool (for example: [Apache Maven](../../../sites/developing/using/ht-projects-maven.md)), FileVault which has been developed by Adobe to map a repository to a file system, a version control system (for example: Subversion), a bug tracker system (for example: Jira), a central dependency management system (for example: Apache Archiva) and a build automation system (for example: Apache Continuum).  
   This setup allows you to fully integrate your application (content, code, configuration) into any development environment and process.The link between the different elements is the file system representation of the repository through FileVault, as all of the aforementioned development tools can work with files.
 
-### Extensions for Integrated Development Environments {#extensions-for-integrated-development-environments}
+## Extensions for Integrated Development Environments {#extensions-for-integrated-development-environments}
 
 Adobe released the following extensions:
 
@@ -29,7 +29,7 @@ Adobe released the following extensions:
 * [AEM Brackets Extension](../../../sites/developing/using/aem-brackets.md)
 * [AEM IntelliJ Extension](https://github.com/headwirecom/aem-ide-tooling-4-intellij/blob/master/documenation/AEM%20Tooling%20Plugin%20for%20IntelliJ%20IDEA.pdf) (from Headwire)
 
-### Other Tools {#other-tools}
+## Other Tools {#other-tools}
 
 AEM ships with other tools that facilitate development:
 

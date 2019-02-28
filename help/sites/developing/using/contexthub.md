@@ -25,7 +25,7 @@ ContextHub is a framework for storing, manipulating, and presenting context data
 >
 >It should not be used in a project as your own ContextHub configuration.
 
-### Persistence {#persistence}
+## Persistence {#persistence}
 
 ContextHub stores persist context data on the client. The ContextHub Javascript API enables you to access stores to create, update, and delete data as necessary. As such, ContextHub represents a data layer on your pages.
 

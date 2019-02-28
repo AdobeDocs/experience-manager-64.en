@@ -62,7 +62,7 @@ These can be used in many ways to extend the page authoring functionality in you
 
 When you are editing a page, there are various [modes](../../../sites/authoring/using/author-environment-tools.md#modestouchoptimizedui) available. These modes are implemented using [layers](../../../sites/developing/using/touch-ui-structure.md#layer). These allow access to differing types of functionality for the same page content. The standard layers are: edit, preview, annotate, developer, and targeting.
 
-#### Layer Example: Live Copy Status {#layer-example-live-copy-status}
+### Layer Example: Live Copy Status {#layer-example-live-copy-status}
 
 A standard AEM instance provides the MSM layer. This accesses data related to [multi site management](../../../sites/administering/using/msm.md) and highlights it in the layer.
 
@@ -87,7 +87,7 @@ You can find the code of this page on GitHub
 
 The asset browser shows assets of various types/categories (e.g. image, documents, etc). The assets can also be filtered by these asset categories.
 
-#### Code Sample {#code-sample-1}
+### Code Sample {#code-sample-1}
 
 `aem-authoring-extension-assetfinder-flickr` is a sample package showing how to add a new group to the asset finder. This example connects to [Flickr](http://www.flickr.com/)'s public stream and shows them in the sidepanel.
 
@@ -119,7 +119,7 @@ For further detail on creating a custom predicate, see [this article](../../../s
 
 Each components (usually) has a toolbar that provides access to a range of actions that can be taken on that component.
 
-#### Code Sample {#code-sample-2}
+### Code Sample {#code-sample-2}
 
 `aem-authoring-extension-toolbar-screenshot` is a sample package showing how to create a custom toolbar action to render components.
 
@@ -132,7 +132,7 @@ You can find the code of this page on GitHub
 
 ## Add New In-Place Editor {#add-new-in-place-editor}
 
-#### Standard In-Place Editor {#standard-in-place-editor}
+### Standard In-Place Editor {#standard-in-place-editor}
 
 In a standard AEM installation:
 
@@ -176,7 +176,7 @@ In a standard AEM installation:
    >
    >Note that in AEM crop ratios, as set by the `ratio` property, are defined as **height/width**. This differs from the conventional definition of width/height and is done for legacy compatability reasons. The authoring users will not be aware of any difference provided you define the `name` property clearly since this is what is displayed in the UI.
 
-#### Creating a New In-Place Editor {#creating-a-new-in-place-editor}
+### Creating a New In-Place Editor {#creating-a-new-in-place-editor}
 
 To implement a new in-place editor (within your clientlib):
 
@@ -196,7 +196,7 @@ To implement a new in-place editor (within your clientlib):
 
 1. Provide the connection between the editor and every resource type (as in component) that can use it.
 
-#### Code Sample for Creating a New In-Place Editor {#code-sample-for-creating-a-new-in-place-editor}
+### Code Sample for Creating a New In-Place Editor {#code-sample-for-creating-a-new-in-place-editor}
 
 `aem-authoring-extension-inplace-editor` is a sample package showing how to create new in-place editor in AEM.
 
@@ -215,7 +215,7 @@ It is possible to configure a component so that it has multiple in-place editors
 
 To add a new page action to the page toolbar, for example a **Back to Sites** (console) action.
 
-#### Code Sample {#code-sample-3}
+### Code Sample {#code-sample-3}
 
 `aem-authoring-extension-header-backtosites` is a sample package showing how to create a custom header bar action to jump back to the Sites console.
 

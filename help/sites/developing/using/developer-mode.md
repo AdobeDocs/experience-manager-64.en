@@ -58,7 +58,7 @@ These help a developer to:
 >* AEM Gems session about [AEM 6.0 Developer Mode](http://docs.adobe.com/content/ddc/en/gems/aem-6-0-developer-mode.html).
 >
 
-### Opening Developer Mode {#opening-developer-mode}
+## Opening Developer Mode {#opening-developer-mode}
 
 Developer mode is implemented as a side panel to the page editor. To open the panel, select **Developer** from the mode selector in the toolbar of the page editor:
 

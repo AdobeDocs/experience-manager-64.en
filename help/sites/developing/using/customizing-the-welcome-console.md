@@ -28,13 +28,13 @@ It is possible to configure the links that are visible. This can be defined for 
 * [Main Consoles](#linksinmainconsoleleftpane) - Links in the main console (left pane)
 * [Resources, Documentation and Reference, Features](#linksinsidebarrightpane) - Links in the sidebar (right pane)
 
-### Links in Main Console (Left Pane) {#links-in-main-console-left-pane}
+## Links in Main Console (Left Pane) {#links-in-main-console-left-pane}
 
 This lists the main consoles of AEM.
 
 ![](assets/cq_welcomescreenmainconsole.png) 
 
-#### Configuring whether Main Console Links are Visible {#configuring-whether-main-console-links-are-visible}
+### Configuring whether Main Console Links are Visible {#configuring-whether-main-console-links-are-visible}
 
 Node level permissions determine whether the link can be seen or not. The nodes in question are:
 

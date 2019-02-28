@@ -32,7 +32,7 @@ For developers, AEM offers clear and simple logic controlling the decoration tag
 * The component themselves can configure their decoration tag with a set of properties.
 * The scripts that include components (HTL, JSP, dispatcher, etc) can define the aspects of the decoration tag with include parameters.
 
-### Recommendations {#recommendations}
+## Recommendations {#recommendations}
 
 Here are some general recommendations of when to include the wrapper element that should help in avoiding running into unexpected issues:
 
