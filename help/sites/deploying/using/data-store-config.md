@@ -49,7 +49,7 @@ To configure both the node store and the data store, perform these steps:
 >
 >In case you are reading this article in preparation for an upgrade from an **AEM 5.x** installation, ensure that you consult the [upgrade](https://docs.adobe.com/content/docs/en/aem/6-0/deploy/upgrade.html) documentation first.
 
-#### Segment Node Store {#segment-node-store}
+### Segment Node Store {#segment-node-store}
 
 The segment node store is the basis of Adobe's TarMK implementation in AEM6. It uses the `org.apache.jackrabbit.oak.segment.SegmentNodeStoreService` PID for configuration.
 
@@ -118,7 +118,7 @@ Details on the different data stores and configurations are described below.
 >
 >In order to enable custom Data Stores, you need to make sure that `customBlobStore` is set to `true` in the respective Node Store configuration file ([segment node store](../../../sites/deploying/using/data-store-config.md#main-pars-title-1) or [document node store](../../../sites/deploying/using/data-store-config.md#main-pars-title-4)).
 
-#### File Data Store {#file-data-store}
+### File Data Store {#file-data-store}
 
 This is the implementation of [FileDataStore](http://jackrabbit.apache.org/api/2.8/org/apache/jackrabbit/core/data/FileDataStore.html) present in Jackrabbit 2. It provides a way to store the binary data as normal files on the file system. It uses the `org.apache.jackrabbit.oak.plugins.blob.datastore.FileDataStore` PID.
 
@@ -182,7 +182,7 @@ Once downloaded, you can install and configure the S3 Connector as follows:
 1. Edit the file and add the configuration options required by your setup.
 1. Start AEM.
 
-#### Upgrading to a new version of the 1.8.x S3 Connector {#upgrading-to-a-new-version-of-the-x-s-connector}
+### Upgrading to a new version of the 1.8.x S3 Connector {#upgrading-to-a-new-version-of-the-x-s-connector}
 
 If you need to upgrade to a new version of the 1.8.x S3 connector (for example, from 1.8.0 to 1.8.1) follow these steps:
 
@@ -287,7 +287,7 @@ The files are moved to the main download cache after the uploads are complete. W
 
 Failed uploads (for example, because of a network disruption) are put on a retry queue and retried periodically. The retry interval is configured by using the `stagingRetryInterval parameter`.
 
-#### Configuring binaryless replication with Amazon S3 {#configuring-binaryless-replication-with-amazon-s}
+### Configuring binaryless replication with Amazon S3 {#configuring-binaryless-replication-with-amazon-s}
 
 In order to configure binaryless replication with S3, the following steps are required:
 
@@ -299,7 +299,7 @@ In order to configure binaryless replication with S3, the following steps are re
 1. Add the parameter " `binaryless`= `true`" in the transport uri. After the change, the uri should look similar to the following:
 1. Restart all author and publish instances to let the changes take effect.
 
-#### Creating a cluster using S3 and MongoDB {#creating-a-cluster-using-s-and-mongodb}
+### Creating a cluster using S3 and MongoDB {#creating-a-cluster-using-s-and-mongodb}
 
 1. Unpack CQ quickstart using the following command:
 1. After AEM has been unpacked, create a folder inside the installation directory *crx-quickstart*/*install*.  
@@ -318,7 +318,7 @@ In order to configure binaryless replication with S3, the following steps are re
 1. Repeat steps 1 through 4 for the second AEM instance.
 1. Start the second AEM instance.
 
-#### Configuring a Shared Data Store {#configuring-a-shared-data-store}
+### Configuring a Shared Data Store {#configuring-a-shared-data-store}
 
 1. First, create the data store configuration file on each instances that is required to share the data store:
 

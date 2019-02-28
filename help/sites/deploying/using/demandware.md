@@ -16,7 +16,7 @@ pagetitle: Deploying eCommerce with Demandware
 
 Deploying the necessary eCommerce packages will provide the full functionality of the eCommerce framework, together with a reference implementation of eCommerce functionality as provided with a Salesforce Commerce Cloud / Demandware implementation (including a demonstration catalog).
 
-### Packages Needed for eCommerce with Salesforce Commerce Cloud {#packages-needed-for-ecommerce-with-salesforce-commerce-cloud}
+## Packages Needed for eCommerce with Salesforce Commerce Cloud {#packages-needed-for-ecommerce-with-salesforce-commerce-cloud}
 
 To install eCommerce functionality you need:
 
@@ -32,7 +32,7 @@ To install eCommerce functionality you need:
 >
 >This integration supports Salesforce Commerce Cloud / Demandware instances configured to use OCAPI version 17.6 or later.
 
-### Installation of eCommerce with Salesforce Commerce Cloud {#installation-of-ecommerce-with-salesforce-commerce-cloud}
+## Installation of eCommerce with Salesforce Commerce Cloud {#installation-of-ecommerce-with-salesforce-commerce-cloud}
 
 To install AEM with a Demandware Commerce integration configuration (using the demonstration catalog, Geometrixx Outdoors), the basic steps are:
 
@@ -60,7 +60,7 @@ The server connection between AEM and the Demandware Sandbox needs to be configu
 
 1. Click **Save**.
 
-#### Replication {#replication}
+### Replication {#replication}
 
 The replication should be enabled after the package installation, you can verify that here: [http://localhost:4502/etc/replication/agents.author/demandware.html](http://localhost:4502/etc/replication/agents.author/demandware.html)
 
@@ -68,7 +68,7 @@ The replication should be enabled after the package installation, you can verify
 >
 >The replication agent is configured to info log level by default. If you want to have more information, you can switch the log level to debug.
 
-#### OAuth {#oauth}
+### OAuth {#oauth}
 
 The OAuth client is configured to work with a Demandware sandbox instance. For testing purposes, no change is needed.
 

@@ -34,7 +34,7 @@ Due to the possibility of different values, page properties are not enabled for 
 >
 >Bulk editing is also available for Assets. It is very similar, but differs in a few points. See [Editing Properties of Multiple Assets](../../../assets/using/managing-multiple-assets.md) for full information. You can customize the fields in the Bulk Metadata editor for Assets using the [Schema editor](../../../assets/using/metadata-schemas.md).
 
-### Enabling a Field {#enabling-a-field}
+## Enabling a Field {#enabling-a-field}
 
 >[!NOTE]
 >

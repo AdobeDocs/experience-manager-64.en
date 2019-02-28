@@ -17,7 +17,7 @@ The AEM Repo Tool is a simple solution to transfer JCR content between your loca
 
 This tool simplifies the transfer of files for the developer and also can be integrated into IntelliJ and Eclipse to make development even more efficient.
 
-### Overview {#overview}
+## Overview {#overview}
 
 For a given path inside a `jcr_root` filevault structure on the filesystem, AEM Repo Tool creates a package with a single filter for the entire subtree and pushes that to the server (similar to FTP `put`), fetches it from the server ( `get`) or compares the differences ( `status` and `diff`).
 
@@ -27,7 +27,7 @@ The tool does not support multiple filter paths or FileVault's `filter.xml`.
 >
 >Please note that the AEM Repo Tool will always overwrite the entire file or directory specified.
 
-### Download and Documentation {#download-and-documentation}
+## Download and Documentation {#download-and-documentation}
 
 The [AEM Repo Tool is available on GitHub via this link](https://github.com/Adobe-Marketing-Cloud/tools/tree/master/repo) along with detailed installation and usage instructions.
 

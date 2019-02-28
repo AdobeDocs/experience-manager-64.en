@@ -50,7 +50,7 @@ It can also be run separately in case it requires more customization. However, n
 
 Another thing to note is that with the default settings in standalone mode, only the Node Store will be migrated and the new repository will re-use the old binary storage.
 
-#### Automated Quickstart Mode {#automated-quickstart-mode}
+### Automated Quickstart Mode {#automated-quickstart-mode}
 
 Since AEM 6.3, CRX2Oak is able to handle user defined migration profiles that can be configured with all the migration options already available. This allows for both higher flexibility, and the ability to automate configuration of AEM, features that are not available if you are using the tool in standalone mode.
 
@@ -122,7 +122,7 @@ See the [Apache Documentation](https://jackrabbit.apache.org/oak/docs/migration.
 
 ## Parameters {#parameters}
 
-#### Node Store Options {#node-store-options}
+### Node Store Options {#node-store-options}
 
 * `--cache`: Cache size in MB (default is `256`)
 

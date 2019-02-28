@@ -25,11 +25,11 @@ A key issue is the time your website takes to respond to visitor requests. Altho
 
 The response times you will be aiming for will be different on the author and publish environments, reflecting the different characteristics of the target audience:
 
-#### Author Environment {#author-environment}
+## Author Environment {#author-environment}
 
 This environment is used by authors entering, and updating content. It must cater for a small number of users who each generate a high number of performance intensive requests when updating content pages and the individual elements on those pages.
 
-#### Publish Environment {#publish-environment}
+## Publish Environment {#publish-environment}
 
 This environment contains content which you make available to your users. Here the number of requests is even greater and the speed is just as vital, but since the nature of the requests is less dynamic, additional performance enhancing mechanisms can be applied; such as caching the content or load-balancing.
 
@@ -497,7 +497,7 @@ The Dispatcher offers a number of built-in mechanisms that you can use to optimi
 >With Dispatcher version 4.1.11 you can also cache response headers, see [Caching HTTP Response Headers](/content/help/en/experience-manager/dispatcher/using/dispatcher-configuration#ConfiguringtheDispatcherCachecache).
 >
 
-#### Calculating the Dispatcher Cache Ratio {#calculating-the-dispatcher-cache-ratio}
+### Calculating the Dispatcher Cache Ratio {#calculating-the-dispatcher-cache-ratio}
 
 The cache ratio formula estimates the percentage of requests handled by the cache out of the total number of requests coming into the system. To calculate the cache ratio you need the following :
 
@@ -517,7 +517,7 @@ If you don't have a one to one publisher/dispatcher pairing, you will need to ad
 >
 >For best performance, Adobe recommends a cache ratio of 90% to 95%.
 
-#### Using Consistent Page Encoding {#using-consistent-page-encoding}
+### Using Consistent Page Encoding {#using-consistent-page-encoding}
 
 With Dispatcher version 4.1.11 you can cache response headers. If you are not caching response headers on Dispatcher then problems can occur if you store page encoding information in the header. In this situation, when Dispatcher serves a page from the cache the default encoding of the web server is used for the page. There are two ways to avoid this problem:
 
@@ -528,7 +528,7 @@ With Dispatcher version 4.1.11 you can cache response headers. If you are not ca
         <META http-equiv="Content-Type" content="text/html; charset=EUC-JP">
 ```
 
-#### Avoid URL Parameters {#avoid-url-parameters}
+### Avoid URL Parameters {#avoid-url-parameters}
 
 If possible, avoid URL parameters for pages that you want to cache. For example, if you have a picture gallery, the following URL is never cached (unless Dispatcher is [configured accordingly](/content/help/en/experience-manager/dispatcher/using/dispatcher-configuration#ConfiguringtheDispatcherCachecache)):
 
@@ -547,7 +547,7 @@ www.myCompany.com/pictures/gallery.christmas.1.html
 >
 >This URL calls the same page and the same template as gallery.html. In the template definition, you can specify which script renders the page, or you can use the same script for all pages.
 
-#### Customize by URL {#customize-by-url}
+### Customize by URL {#customize-by-url}
 
 If you allow users to change the font size (or any other layout customization), make sure that the different customizations are reflected in the URL.
 
@@ -569,7 +569,7 @@ www.myCompany.com/news/main.large.html
 >
 >Using the script globbing of the template definition, you can specify a separate script that renders the print pages.
 
-#### Invalidating Image Files Used As Titles {#invalidating-image-files-used-as-titles}
+### Invalidating Image Files Used As Titles {#invalidating-image-files-used-as-titles}
 
 If you render page titles, or other text, as pictures, then it is recommended to store the files so that they are deleted upon a content update on the page:
 
@@ -584,7 +584,7 @@ For example, you can store the title of the page myPage.html in the file myPage.
 >
 >The image file does not necessarily physically exist on the AEM instance. You can use a script that dynamically creates the image file. Dispatcher then stores the file on the web server.
 
-#### Invalidating Image Files Used For Navigation {#invalidating-image-files-used-for-navigation}
+### Invalidating Image Files Used For Navigation {#invalidating-image-files-used-for-navigation}
 
 If you use pictures for the navigation entries, the method is basically the same as with titles, just slightly more complex. Store all the navigation images with the target pages. If you use two pictures for normal and active, you can use the following scripts:
 
@@ -596,7 +596,7 @@ It is important that you create these pictures with the same naming handle as th
 
 For pages that are not modified, the pictures still remain in the cache, although the pages themselves are usually auto-invalidated.
 
-#### Personalization {#personalization}
+### Personalization {#personalization}
 
 The Dispatcher cannot cache personalized data, so it is recommended that you limit personalization to where it is necessary. To illustrate why:
 
@@ -613,11 +613,11 @@ The Dispatcher cannot cache personalized data, so it is recommended that you lim
 >* use client-side JavaScript to display personalized information. However, you have to make sure that the page still displays correctly if a user turns JavaScript off.
 >
 
-#### Sticky Connections {#sticky-connections}
+### Sticky Connections {#sticky-connections}
 
 [Sticky connections](/content/help/en/experience-manager/dispatcher/using/dispatcher#TheBenefitsofLoadBalancing) ensure that the documents for one user are all composed on the same server. If a user leaves this folder and later returns to it, the connection still sticks. Define one folder to hold all documents that require sticky connections for the website. Try not to have other documents in it. This impacts load-balancing if you use personalized pages and session data.
 
-#### MIME Types {#mime-types}
+### MIME Types {#mime-types}
 
 There are two ways in which a browser can determine the type of a file:
 

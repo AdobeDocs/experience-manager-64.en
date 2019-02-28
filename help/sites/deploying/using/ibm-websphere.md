@@ -22,7 +22,7 @@ This is available under the English (US) branch ( `/content/geometrixx-outdoors/
 >
 >To run the Geometrixx Outdoors store with WebSphere Commerce, [the Geometrixx Outdoors products and catalog data must be loaded into WebSphere Commerce](../../../sites/deploying/using/setup.md).
 
-### Technical Requirements {#technical-requirements}
+## Technical Requirements {#technical-requirements}
 
 The IBM Websphere extension of the eCommerce Integration Framework has been made to support Websphere Commerce version 7 Feature Pack 8.
 

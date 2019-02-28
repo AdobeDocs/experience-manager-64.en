@@ -25,7 +25,7 @@ The Geometrixx Outdoors product data .csv file was used as base data. It contain
 >
 >Names and identifiers used on this page (for example **GeometrixxCAS) **should not be changed, otherwise it will require further changes in the configuration files.
 
-### Open Administration Console {#open-administration-console}
+## Open Administration Console {#open-administration-console}
 
 1. Select Store Archives &gt; Publish.
 1. Filter by Extended sites.

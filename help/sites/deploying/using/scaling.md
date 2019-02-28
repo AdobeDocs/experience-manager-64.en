@@ -220,7 +220,7 @@ Note that it, in general, it is important that you understand the dependencies b
 
 It may also be useful separate the replication queues so that the main queue is used for normal editorial changes while an special newsfeed queue is used for the highly dynamic content.
 
-####  Import Feed Directly to Publish {#import-feed-directly-to-publish}
+#### Import Feed Directly to Publish {#import-feed-directly-to-publish}
 
 In some case it might be possible to import and continually update the newsfeed directly to the publish instance, bypassing the need for author-to-publish replication. Of course this would only be feasible if human filtering or processing of the feed content was not needed. If human filtering is not required, then importing directly to the publishers is the best course. You should ensure the import starts at the same time on each publisher to achieve consistent results accross publishers.
 
