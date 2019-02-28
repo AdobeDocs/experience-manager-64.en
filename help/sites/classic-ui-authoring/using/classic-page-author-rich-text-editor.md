@@ -319,6 +319,7 @@ The basic properties of the table can be configured, before clicking **OK** to s
 >[!NOTE]
 >
 >**Width**, **Height** and certain cell properties can be defined in either:  
+>
 >* pixels  
 >* percentages
 
