@@ -4,11 +4,14 @@ seo-title: Moderation Console
 description: How to access the Moderation console
 seo-description: How to access the Moderation console
 page-status-flag: never-activated
-uuid: a16eed88-78a6-4365-880f-44ab70682b9c
+uuid: 73abd3ae-1da2-4b0e-857f-4985c4a802bc
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 1e451f1f-ddc1-4833-a329-af8f740e970f
+discoiquuid: 13825a76-27a3-4bde-80cc-b4994a48cb13
+index: y
+internal: n
+snippet: y
 ---
 
 # Moderation Console{#moderation-console}

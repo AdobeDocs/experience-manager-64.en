@@ -4,11 +4,14 @@ seo-title: Moderation Console
 description: How to access the Moderation console
 seo-description: How to access the Moderation console
 page-status-flag: never-activated
-uuid: a16eed88-78a6-4365-880f-44ab70682b9c
+uuid: 864ae6db-cef5-4663-bcd0-b0fc50e85d59
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 1e451f1f-ddc1-4833-a329-af8f740e970f
+discoiquuid: 586b12fc-17cf-47d5-bb5d-1b6ba29c4b7a
+index: y
+internal: n
+snippet: y
 ---
 
 # Moderation Console{#moderation-console}
@@ -104,7 +107,7 @@ The content area contains information for posted UGC :
 
 ### Filter Rail {#filter-rail}
 
-![](assets/chlimage_1-472.png)
+![](assets/chlimage_1-485.png)
 
 The side-panel icon opens the filter rail. The filter rail, which appears to the left of the content area, provides different filters, each having an immediate effect on the referenced UGC that appears in the content area.
 
@@ -122,6 +125,13 @@ However if you check **Question** and **Pending**, you will only see content tha
 
 When the filter rail is open, the Search icon toggles the side-panel closed. However to close the filter rail and only view the user generated content, click the Search icon and select the Content Only option.
 
+<!--
+Comment Type: annotation
+Last Modified By: mgulati
+Last Modified Date: 2018-02-19T06:56:46.224-0500
+Added a sentence to tell about the Content Only option. (6.4)
+-->
+
 #### Content Path {#content-path}
 
 Content Path limits the reference UGC displayed to the posts placed in specified content repository.
@@ -132,13 +142,13 @@ Content Path limits the reference UGC displayed to the posts placed in specified
 
 Text search limits the referenced UGC displayed to posts to which contain the text entered.
 
-![](assets/chlimage_1-473.png)
+![](assets/chlimage_1-486.png)
 
 #### Site {#site}
 
 Site limits the referenced UGC displayed to posts to selected community sites. If no sites are checked, then all references to UGC are displayed.
 
-![](assets/chlimage_1-474.png)
+![](assets/chlimage_1-487.png)
 
 >[!NOTE]
 >
@@ -180,7 +190,7 @@ To add additional resources on which to filter :
     * for example, to filter on included Voting components, enter:  
       `Voting=social/tally/components/hbs/voting`
 
-![](assets/chlimage_1-475.png)
+![](assets/chlimage_1-488.png)
 
 * select Save
 * refresh the Communities - Moderation console
@@ -205,25 +215,25 @@ Flagging limits the referenced UGC displayed to posts which are flagged or hidde
 
 Once a piece of content is flagged, it remains flagged until you unflag that single piece of content by selecting the **Flag **button once again. Note that there are no flagging levels, such as important or followup.
 
-![](assets/chlimage_1-476.png)
+![](assets/chlimage_1-489.png)
 
 #### Members {#members}
 
 Members limits the referenced UGC displayed to UGC posted by the member name entered.
 
-![](assets/chlimage_1-477.png)
+![](assets/chlimage_1-490.png)
 
 #### Posted in the last {#posted-in-the-last}
 
 Posted In The Last limits the referenced UGC displayed to posts made in the last hour, day, week, month, or year.
 
-![](assets/chlimage_1-478.png)
+![](assets/chlimage_1-491.png)
 
 #### Sentiment {#sentiment}
 
 [Sentiment](../../communities/using/moderate-ugc.md#sentiment) limits the referenced UGC displayed to posts with a sentiment value that is either positive, negative or neutral.
 
-![](assets/chlimage_1-479.png)
+![](assets/chlimage_1-492.png)
 
 ## Moderation Actions {#moderation-actions}
 
@@ -276,19 +286,19 @@ Present on the card view above the moderation action icons is the text of the po
 
 #### Reply {#reply}
 
-![](assets/chlimage_1-480.png)
+![](assets/chlimage_1-493.png)
 
 When working with a single post, a Reply icon will appear if the UGC type supports replies and is configured to allow replies.
 
 #### Allow {#allow}
 
-![](assets/chlimage_1-481.png)
+![](assets/chlimage_1-494.png)
 
 When working with a single post, the Allow icon will appear when the post has been either flagged or denied. If flagged, selecting Allow will clear all flags.
 
 #### Deny {#deny}
 
-![](assets/chlimage_1-482.png)
+![](assets/chlimage_1-495.png)
 
 The **Deny **moderation action is only available for content that is moderated, and does not appear on unmoderated content except in multi-selection mode.
 
@@ -300,7 +310,7 @@ Content that leaves the pending state can never return to a pending state. Conte
 
 #### Delete {#delete}
 
-![](assets/chlimage_1-483.png)
+![](assets/chlimage_1-496.png)
 
 In single selection or bulk mode, you can select items and delete them. The delete action results in a confirmation dialog.
 
@@ -310,13 +320,13 @@ Once you confirm the deletion, the selected items are removed from the content a
 
 #### Close {#close}
 
-![](assets/chlimage_1-484.png)
+![](assets/chlimage_1-497.png)
 
 When working with a single post, a Close icon will appear if the UGC type supports the ability to prevent further posts for that resource.
 
 #### Moderation History {#moderation-history}
 
-![](assets/chlimage_1-485.png)
+![](assets/chlimage_1-498.png)
 
 When working with a single post, a Moderation History icon will appear when hovering over it. Selecting the icon will display a pane containing a history of actions taken regarding the UGC post.
 
@@ -324,11 +334,11 @@ To return to the content area display of multiple UGC posts, select the X in the
 
 For example :
 
-![](assets/chlimage_1-486.png)
+![](assets/chlimage_1-499.png)
 
 #### View Detail {#view-detail}
 
-![](assets/chlimage_1-487.png)
+![](assets/chlimage_1-500.png)
 
 When working wtih a single post, more details can be viewed by opening up the UGC in detail mode.
 
@@ -338,5 +348,5 @@ To return to the content area display of multiple UGC posts, select the X in the
 
 For example :
 
-![](assets/chlimage_1-488.png)
+![](assets/chlimage_1-501.png)
 

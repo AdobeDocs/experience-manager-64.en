@@ -1,0 +1,41 @@
+---
+title: Changing the organization logo for branding
+seo-title: Changing the organization logo for branding
+description: To brand AEM Forms workspace provide the logo of your organization by customizing the default logo.
+seo-description: To brand AEM Forms workspace provide the logo of your organization by customizing the default logo.
+uuid: ac21ef37-9986-472e-bd3c-2da9ac1d8d43
+contentOwner: robhagat
+content-type: reference
+products: SG_EXPERIENCEMANAGER/6.4/FORMS
+topic-tags: forms-workspace
+discoiquuid: 9d12d1f8-36e2-4436-b981-b50196055016
+index: y
+internal: n
+snippet: y
+---
+
+# Changing the organization logo for branding{#changing-the-organization-logo-for-branding}
+
+The organization logo is displayed at the upper-left corner of AEM Forms workspace. To update the logo, follow the [Generic steps of AEM Forms workspace customization](../../forms/using/generic-steps-html-workspace-customization.md#generic-steps-for-html-workspace-customization) and then the following steps.
+
+1. Create a logo and name the file as `NewWorkspace.png`. Place the image file in /apps/ws/images folder using a WebDAV client.
+
+   >[!NOTE]
+   >
+   >The recommended size of the logo image is 218 px × 20 px.
+
+   >[!NOTE]
+   >
+   >For more information about WebDAV access, see [http://dev.day.com/docs/en/crx/current/how_to/webdav_access.html](http://docs.adobe.com/docs/en/crx/current/how_to/webdav_access.html).
+
+1. Reference the new logo image in style sheet at /apps/ws/css/newStyle.css by adding following style.
+
+   ```css
+   #logo {
+   
+          background: url(../images/NewWorkspace.png) no-repeat 14px 11px;
+   
+   }
+   ```
+
+[**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)

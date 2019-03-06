@@ -4,11 +4,14 @@ seo-title: Deploying Communities
 description: How to deploy AEM Communities
 seo-description: How to deploy AEM Communities
 page-status-flag: never-activated
-uuid: ff82ef46-cdb2-4b36-82a5-16ba47d05a87
+uuid: c965eefa-42d3-42db-9711-8194854c86b6
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 content-type: reference
 topic-tags: deploying
-discoiquuid: 3b85fcaf-d0e6-4c68-89d0-ec45ab8e51a2
+discoiquuid: 39eb28ab-ce96-48f7-a249-4f4af7528b9c
+index: y
+internal: n
+snippet: y
 ---
 
 # Deploying Communities{#deploying-communities}
@@ -74,6 +77,8 @@ discoiquuid: 3b85fcaf-d0e6-4c68-89d0-ec45ab8e51a2
 
         * default is JSRP
 
+  **For the ** [**enablement feature**](../../communities/using/overview.md#enablementcommunity)
+
     * [install and configure FFmpeg](../../communities/using/ffmpeg.md)
     * [install the JDBC driver for MySQL](#jdbcdriverformysql)
     * [install AEM Communities SCORM-Engine](#scormpackage)
@@ -87,7 +92,7 @@ AEM 6.4 Communities GA ships with Communities package. To know about updates to 
 
 Starting in AEM 6.3, updates to Communities are delivered as part of AEM Cumulative Fix Packs and Service Packs.
 
-For the latest updates to AEM 6.4, be sure to check [Adobe Experience Manager 6.4 Cumulative Fix Packs and Service Packs](/content/help/en/experience-manager/aem-releases-updates).
+For the latest updates to AEM 6.4, be sure to check [Adobe Experience Manager 6.4 Cumulative Fix Packs and Service Packs](https://helpx.adobe.com/experience-manager/aem-releases-updates.html).
 
 ### Version History {#version-history}
 
@@ -384,8 +389,8 @@ In particular, be careful to use the correct server name, not `localhost`, in th
 
 If using a Dispatcher, see :
 
-* AEM's [Dispatcher](/content/help/en/experience-manager/dispatcher/using/dispatcher) documentation
-* [Installing Dispatcher](/content/help/en/experience-manager/dispatcher/using/dispatcher-install)
+* AEM's [Dispatcher](https://helpx.adobe.com/experience-manager/dispatcher/using/dispatcher.html) documentation
+* [Installing Dispatcher](https://helpx.adobe.com/experience-manager/dispatcher/using/dispatcher-install.html)
 * [Configuring Dispatcher for Communities](../../communities/using/dispatcher.md)
 * [Known Issues](../../communities/using/troubleshooting.md#dispatcherrefetchfails)
 

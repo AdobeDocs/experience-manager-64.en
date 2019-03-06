@@ -3,11 +3,14 @@ title: Blog Feature
 seo-title: Blog Feature
 description: Community information in a journaling format
 seo-description: Community information in a journaling format
-uuid: b68a69e8-e461-4547-9c6e-524314871c70
+uuid: ee937f03-c8f1-45a4-a207-44bb55312613
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
-discoiquuid: eb18ac06-1056-438d-93d3-61288b514e05
+discoiquuid: afcca0f2-a2be-476b-80a7-adb7b80f5a02
+index: y
+internal: n
+snippet: y
 ---
 
 # Blog Feature{#blog-feature}
@@ -69,19 +72,20 @@ Select the placed `Blog` component to access and select the `Configure` icon whi
 
 Under the **Settings** tab, specify the basic features of the blog :
 
-* **Allow Attachment Thumbnail**
-  If checked, a thumbnail of the attached image is created.
-* **Max Attach Thumbnail Size**
-  Maximum size (in pixels) of the attachment thumbnail image. The default value is 800 x 800.
-* **Max Thumbnail Size**
-  Maximum size (in pixels) of the thumbnail image for inline image. The default value is 800 x 800.
-* **Allow Privileged Members**
-  If checked, only Privileged members are allowed to create content.
-* **Allowed Privileged Members**
+* **Allow Attachment Thumbnail  
+  **If checked, a thumbnail of the attached image is created.
+* **Max Attach Thumbnail Size  
+  **Maximum size (in pixels) of the attachment thumbnail image. The default value is 800 x 800.** **
+
+* **Max Thumbnail Size  
+  **Maximum size (in pixels) of the thumbnail image for inline image. The default value is 800 x 800.
+* **Allow Privileged Members  
+  **If checked, only Privileged members are allowed to create content.
+* **Allowed Privileged Members** 
   Add the privileged members allowed to create content.
 
-* **Block UGC in Author Edit Mode**
-  Block User Generated Content while editing in Author Mode.
+* **Block UGC in Author Edit Mode  
+  **Block User Generated Content while editing in Author Mode.
 * **Journal Title** 
   The blog title to display on the page.
 
@@ -168,7 +172,7 @@ Under the **User Moderation** tab, specify the moderation settings :
 
 #### Tag field tab {#tag-field-tab}
 
-Under the **Tag field** tab, specify the which tags may be applied if **Allow Tagging** is check on the **Settings** tab:
+Under the **Tag field** tab, specify the which tags may be applied if **Allow Tagging** is check on the **Settings** tab :
 
 * **Allowed Namespaces** 
   Relevant if `Allow Tagging` is checked under the **Settings **tab. The tags which may be applied are limited to those within the namespace categories checked. The list of namespaces includes "Standard Tags" (the default namespace) as well as "Include All Tags". Default is none checked, which means all namespaces are allowed.
@@ -196,7 +200,6 @@ Under the **Journal Sidebar Settings** tab, specify the date format for archives
   Default is "yyyy MMMMM" which would display, for example, "2015 June"
 
 * **View Type** 
-
   The Title and type of blog entries to display in the sidebar. The choice is between
 
     * Authors
@@ -204,7 +207,6 @@ Under the **Journal Sidebar Settings** tab, specify the date format for archives
     * Archives
 
 * **Journal Component Path** 
-
   *(Optional)* The location of the blog resource from which blog articles are to be listed. If left blank, will use the component of resourceType `social/journal/components/hbs/journal` that appears on the same page.
 
     * for example, `/content/sites/engage/en/blog/jcr:content/content/primary/blog`
@@ -222,7 +224,7 @@ When a blog article is selected, the blog article and comments are displayed (if
 
 Other abilities depend on whether the site visitor is a moderator, administrator, community member, privileged member or anonymous.
 
-### Working with Articles {#working-with-articles}
+#### Working with Articles {#working-with-articles}
 
 When creating a new blog article, there is the choice to
 
@@ -232,13 +234,13 @@ When creating a new blog article, there is the choice to
 
 The blog articles will appear under the appropriate tab (Published, Drafts or Scheduled) to members able to author on publish.
 
-### Moderators and Administrators {#moderators-and-administrators}
+#### Moderators and Administrators {#moderators-and-administrators}
 
 When the signed in user has moderator or administrator privileges, they are able to perform [moderation tasks](../../communities/using/moderate-ugc.md) (as permitted by the configuration of the component) on all blog articles and comments posted to a blog.
 
 ![](assets/chlimage_1-152.png)
 
-### Members {#members}
+#### Members {#members}
 
 When the signed in user is a community member or [privileged member](../../communities/using/users.md#privilegedmembersgroup) (depending on configuration), they are able to select `New Article` to create and post a new blog article.
 
@@ -253,7 +255,7 @@ Specifically, they may
 
 ![](assets/chlimage_1-153.png) ![](assets/chlimage_1-154.png)
 
-### Anonymous {#anonymous}
+#### Anonymous {#anonymous}
 
 Site visitors who are not signed in may only read posted blog articles and comments, translate them if supported, but may not add a blog article or comment nor flag others' articles or comments.
 

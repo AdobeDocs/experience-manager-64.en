@@ -4,11 +4,14 @@ seo-title: Deploying Communities
 description: How to deploy AEM Communities
 seo-description: How to deploy AEM Communities
 page-status-flag: never-activated
-uuid: ff82ef46-cdb2-4b36-82a5-16ba47d05a87
+uuid: 9dbe388d-b936-4dfe-a5ed-a35233adc77b
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 content-type: reference
 topic-tags: deploying
-discoiquuid: 3b85fcaf-d0e6-4c68-89d0-ec45ab8e51a2
+discoiquuid: ab2b2915-aff9-4248-9960-140d8612c9a5
+index: y
+internal: n
+snippet: y
 ---
 
 # Deploying Communities{#deploying-communities}
@@ -74,6 +77,8 @@ discoiquuid: 3b85fcaf-d0e6-4c68-89d0-ec45ab8e51a2
 
         * default is JSRP
 
+  **For the ** [**enablement feature**](../../communities/using/overview.md#enablementcommunity)
+
     * [install and configure FFmpeg](../../communities/using/ffmpeg.md)
     * [install the JDBC driver for MySQL](#jdbcdriverformysql)
     * [install AEM Communities SCORM-Engine](#scormpackage)
@@ -87,7 +92,7 @@ AEM 6.4 Communities GA ships with Communities package. To know about updates to 
 
 Starting in AEM 6.3, updates to Communities are delivered as part of AEM Cumulative Fix Packs and Service Packs.
 
-For the latest updates to AEM 6.4, be sure to check [Adobe Experience Manager 6.4 Cumulative Fix Packs and Service Packs](/content/help/en/experience-manager/aem-releases-updates).
+For the latest updates to AEM 6.4, be sure to check [Adobe Experience Manager 6.4 Cumulative Fix Packs and Service Packs](https://helpx.adobe.com/experience-manager/aem-releases-updates.html).
 
 ### Version History {#version-history}
 
@@ -133,12 +138,42 @@ Further information on installing bundles is found on the [Web Console](../../si
 
 ### SCORM Package {#scorm-package}
 
+<!--
+Comment Type: annotation
+Last Modified By: mgulati
+Last Modified Date: 2018-10-29T07:19:36.581-0400
+Updated the topic as per engineering suggestions.
+-->
+
 Shareable Content Object Reference Model (SCORM) is a collection of standards and specifications for e-learning. SCORM also defines how content may be packaged into a transferable ZIP file.
 
 The AEM Communities SCORM engine is required for the [enablement](../../communities/using/overview.md#enablementcommunity) feature. Scorm packages supported on AEM Communities 6.5 version:
 
+<!--
+Comment Type: draft
+
+<ul>
+<li><strong><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/social/scorm/cq-social-scorm-pkg" target="_blank">cq-social-scorm-package, version 2.3.2</a> </strong>which<strong> </strong>includes the <strong><a href="https://rusticisoftware.com/blog/scorm-engine-2017-released/" target="_blank">SCORM 2017.1</a> </strong>engine.</li>
+</ul>
+-->
+
 <details> 
- <summary>To install a SCORM package</summary>  
+ <summary>To install a SCORM package</summary> 
+ <draft-comment type="draft"> 
+  <ol> 
+   <li><p>Install the <strong><a href="https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/social/scorm/cq-social-scorm-pkg" target="_blank">cq-social-scorm-package, version 2.3.2</a> </strong>from the Package Share<strong>.</strong></p> </li> 
+   <li><p>Download <strong>/libs/social/config/scorm/database_scormengine_data.sql</strong> from 
+     <g class="gr_ gr_3 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="3" id="3"> 
+      <g class="gr_ gr_5 gr-alert gr_gramm gr_inline_cards gr_run_anim Grammar only-ins doubleReplace replaceWithoutSep" data-gr-id="5" id="5">
+        cq 
+      </g> 
+     </g> instance and execute it in 
+     <g class="gr_ gr_4 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="4" id="4">
+       mysql 
+     </g> server to create an upgraded scormEngineDB schema.</p> </li> 
+   <li><p>Add <strong>/content/communities/scorm/RecordResults</strong> in Excluded Paths property in CSRF filter from <strong>http://&amp;lt;hostname&amp;gt;:&amp;lt;port&amp;gt;/system/console/configMgr</strong> on publishers.</p> </li> 
+  </ol> 
+ </draft-comment> 
 </details>
 
 #### SCORM Logging {#scorm-logging}
@@ -209,7 +244,7 @@ By default, the `AEM Communities Publisher Configuration` OSGi configuration is 
 
 Therefore, it is necessary to **edit the configuration on all secondary publish instances** to uncheck the **`Primary Publisher`** checkbox.
 
-![](assets/chlimage_1-411.png)
+![](assets/chlimage_1-424.png)
 
 For all other (secondary) publish instances in a publish farm :
 
@@ -253,11 +288,11 @@ The following images show the results of changing the port from 4503 to 6103 by 
 
 #### Default Agent (publish) {#default-agent-publish}
 
-![](assets/chlimage_1-412.png) 
+![](assets/chlimage_1-425.png) 
 
 #### Reverse Replication Agent (publish reverse) {#reverse-replication-agent-publish-reverse}
 
-![](assets/chlimage_1-413.png) 
+![](assets/chlimage_1-426.png) 
 
 ### Tunnel Service on Author {#tunnel-service-on-author}
 
@@ -281,7 +316,7 @@ To enable the tunnel service :
 * check the **enable **box
 * select **Save**
 
-![](assets/chlimage_1-414.png) 
+![](assets/chlimage_1-427.png) 
 
 ### Replicate the Crypto Key {#replicate-the-crypto-key}
 
@@ -341,7 +376,7 @@ Using [CRXDE Lite](../../sites/developing/using/developing-with-crxde-lite.md) :
 
 * [refresh the Granite Crypto bundle](#refreshthegranitecryptobundle)
 
-![](assets/chlimage_1-415.png) 
+![](assets/chlimage_1-428.png) 
 
 #### Refresh the Granite Crypto Bundle {#refresh-the-granite-crypto-bundle}
 
@@ -352,7 +387,7 @@ Using [CRXDE Lite](../../sites/developing/using/developing-with-crxde-lite.md) :
 * locate `Adobe Granite Crypto Support` bundle (com.adobe.granite.crypto)
 * select **Refresh**
 
-![](assets/chlimage_1-416.png)
+![](assets/chlimage_1-429.png)
 
 * after a moment, a **Success **dialog should appear :  
   `Operation completed successfully.`
@@ -384,10 +419,17 @@ In particular, be careful to use the correct server name, not `localhost`, in th
 
 If using a Dispatcher, see :
 
-* AEM's [Dispatcher](/content/help/en/experience-manager/dispatcher/using/dispatcher) documentation
-* [Installing Dispatcher](/content/help/en/experience-manager/dispatcher/using/dispatcher-install)
+* AEM's [Dispatcher](https://helpx.adobe.com/experience-manager/dispatcher/using/dispatcher.html) documentation
+* [Installing Dispatcher](https://helpx.adobe.com/experience-manager/dispatcher/using/dispatcher-install.html)
 * [Configuring Dispatcher for Communities](../../communities/using/dispatcher.md)
 * [Known Issues](../../communities/using/troubleshooting.md#dispatcherrefetchfails)
+
+<!--
+Comment Type: remark
+Last Modified By: Silviu Raiman (raiman)
+Last Modified Date: 2018-10-23T11:35:00.488-0400
+<p>Changed the Dispatcher download link due to CQDOC-13423.</p>
+-->
 
 ## Related Communities Documentation {#related-communities-documentation}
 

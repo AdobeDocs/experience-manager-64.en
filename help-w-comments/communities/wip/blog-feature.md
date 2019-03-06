@@ -3,11 +3,14 @@ title: Blog Feature
 seo-title: Blog Feature
 description: Community information in a journaling format
 seo-description: Community information in a journaling format
-uuid: b68a69e8-e461-4547-9c6e-524314871c70
+uuid: c576d613-aef1-41be-82e9-021a585e8641
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
-discoiquuid: eb18ac06-1056-438d-93d3-61288b514e05
+discoiquuid: b290ab41-4efd-43a6-8860-2884a95ab6e3
+index: y
+internal: n
+snippet: y
 ---
 
 # Blog Feature{#blog-feature}
@@ -53,35 +56,36 @@ For necessary information, visit [Communities Components Basics](../../communiti
 
 When the [required client-side libraries](../../communities/using/blog-developer-basics.md#essentialsforclientside) are included, this is how the `Blog`component will appear :
 
-![](assets/chlimage_1-147.png)
+![](assets/chlimage_1-154.png)
 
 And how the `Blog Sidebar` will appear :
 
-![](assets/chlimage_1-148.png)
+![](assets/chlimage_1-155.png)
 
 ### Configuring Blog {#configuring-blog}
 
 Select the placed `Blog` component to access and select the `Configure` icon which opens the edit dialog.
 
-![](assets/chlimage_1-149.png) ![](assets/blog-settings.png)
+![](assets/chlimage_1-156.png) ![](assets/blog-settings.png)
 
 #### Settings tab {#settings-tab}
 
 Under the **Settings** tab, specify the basic features of the blog :
 
-* **Allow Attachment Thumbnail**
-  If checked, a thumbnail of the attached image is created.
-* **Max Attach Thumbnail Size**
-  Maximum size (in pixels) of the attachment thumbnail image. The default value is 800 x 800.
-* **Max Thumbnail Size**
-  Maximum size (in pixels) of the thumbnail image for inline image. The default value is 800 x 800.
-* **Allow Privileged Members**
-  If checked, only Privileged members are allowed to create content.
-* **Allowed Privileged Members**
+* **Allow Attachment Thumbnail  
+  **If checked, a thumbnail of the attached image is created.
+* **Max Attach Thumbnail Size  
+  **Maximum size (in pixels) of the attachment thumbnail image. The default value is 800 x 800.** **
+
+* **Max Thumbnail Size  
+  **Maximum size (in pixels) of the thumbnail image for inline image. The default value is 800 x 800.
+* **Allow Privileged Members  
+  **If checked, only Privileged members are allowed to create content.
+* **Allowed Privileged Members** 
   Add the privileged members allowed to create content.
 
-* **Block UGC in Author Edit Mode**
-  Block User Generated Content while editing in Author Mode.
+* **Block UGC in Author Edit Mode  
+  **Block User Generated Content while editing in Author Mode.
 * **Journal Title** 
   The blog title to display on the page.
 
@@ -168,7 +172,7 @@ Under the **User Moderation** tab, specify the moderation settings :
 
 #### Tag field tab {#tag-field-tab}
 
-Under the **Tag field** tab, specify the which tags may be applied if **Allow Tagging** is check on the **Settings** tab:
+Under the **Tag field** tab, specify the which tags may be applied if **Allow Tagging** is check on the **Settings** tab :
 
 * **Allowed Namespaces** 
   Relevant if `Allow Tagging` is checked under the **Settings **tab. The tags which may be applied are limited to those within the namespace categories checked. The list of namespaces includes "Standard Tags" (the default namespace) as well as "Include All Tags". Default is none checked, which means all namespaces are allowed.
@@ -182,7 +186,7 @@ When you double-click the `Blog Sidebar` component, an edit dialog opens up.
 
 Under the **Journal Sidebar Settings** tab, specify the date format for archives and what type of entries to display in the sidebar :
 
-![](assets/chlimage_1-151.png)
+![](assets/chlimage_1-158.png)
 
 * **Date format** 
   The format used to display for archives of blog entries. The format uses placeholders following the Java convention.
@@ -196,7 +200,6 @@ Under the **Journal Sidebar Settings** tab, specify the date format for archives
   Default is "yyyy MMMMM" which would display, for example, "2015 June"
 
 * **View Type** 
-
   The Title and type of blog entries to display in the sidebar. The choice is between
 
     * Authors
@@ -204,7 +207,6 @@ Under the **Journal Sidebar Settings** tab, specify the date format for archives
     * Archives
 
 * **Journal Component Path** 
-
   *(Optional)* The location of the blog resource from which blog articles are to be listed. If left blank, will use the component of resourceType `social/journal/components/hbs/journal` that appears on the same page.
 
     * for example, `/content/sites/engage/en/blog/jcr:content/content/primary/blog`
@@ -222,7 +224,7 @@ When a blog article is selected, the blog article and comments are displayed (if
 
 Other abilities depend on whether the site visitor is a moderator, administrator, community member, privileged member or anonymous.
 
-### Working with Articles {#working-with-articles}
+#### Working with Articles {#working-with-articles}
 
 When creating a new blog article, there is the choice to
 
@@ -232,13 +234,13 @@ When creating a new blog article, there is the choice to
 
 The blog articles will appear under the appropriate tab (Published, Drafts or Scheduled) to members able to author on publish.
 
-### Moderators and Administrators {#moderators-and-administrators}
+#### Moderators and Administrators {#moderators-and-administrators}
 
 When the signed in user has moderator or administrator privileges, they are able to perform [moderation tasks](../../communities/using/moderate-ugc.md) (as permitted by the configuration of the component) on all blog articles and comments posted to a blog.
 
-![](assets/chlimage_1-152.png)
+![](assets/chlimage_1-159.png)
 
-### Members {#members}
+#### Members {#members}
 
 When the signed in user is a community member or [privileged member](../../communities/using/users.md#privilegedmembersgroup) (depending on configuration), they are able to select `New Article` to create and post a new blog article.
 
@@ -251,13 +253,13 @@ Specifically, they may
 * delete their own blog article or comment
 * flag others' blog articles or comments
 
-![](assets/chlimage_1-153.png) ![](assets/chlimage_1-154.png)
+![](assets/chlimage_1-160.png) ![](assets/chlimage_1-161.png)
 
-### Anonymous {#anonymous}
+#### Anonymous {#anonymous}
 
 Site visitors who are not signed in may only read posted blog articles and comments, translate them if supported, but may not add a blog article or comment nor flag others' articles or comments.
 
-![](assets/chlimage_1-155.png)
+![](assets/chlimage_1-162.png)
 
 ## Additional Information {#additional-information}
 
