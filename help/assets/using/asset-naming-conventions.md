@@ -15,7 +15,7 @@ discoiquuid: 97745cb6-ea3f-4860-8e8f-d7dacb47aae5
 
 Nodes in the repository are subject to naming conventions of the [Java Content Repository](../../sites/developing/using/the-basics.md#javacontentrepository). However, Adobe Experience Manager imposes further conventions for the name of asset nodes.
 
-### TOUCH-OPTIMIZED UI {#touch-optimized-ui}
+## TOUCH-OPTIMIZED UI {#touch-optimized-ui}
 
 The touch-optimized UI:
 
