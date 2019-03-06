@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: troubleshoot
 discoiquuid: 0b9153a1-593d-49a5-bc4a-bad3437cd012
-index: y
-internal: n
-snippet: y
 ---
 
 # Video Playback Configuration and Troubleshooting{#video-playback-configuration-and-troubleshooting}

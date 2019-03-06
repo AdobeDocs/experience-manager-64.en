@@ -10,9 +10,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
 discoiquuid: 0fccb5d3-bea4-4f2e-b46b-f2545ac12dea
-index: y
-internal: n
-snippet: y
 ---
 
 # Export to CSV{#export-to-csv}

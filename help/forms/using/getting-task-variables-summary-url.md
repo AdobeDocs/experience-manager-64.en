@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: 430c3fac-34e3-49e3-8d05-f1ef897ca5f5
-index: y
-internal: n
-snippet: y
 ---
 
 # Getting Task Variables in Summary URL{#getting-task-variables-in-summary-url}

@@ -8,9 +8,6 @@ contentOwner: jsyal
 discoiquuid: 912fc08c-7c77-42d3-9d59-9cbf6da2222b
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/screens/using/configuring-screens-introduction
-index: y
-internal: n
-snippet: y
 ---
 
 # (Redirect)Configuring and Deploying AEM Screens{#redirect-configuring-and-deploying-aem-screens}

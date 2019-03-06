@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: introduction
 discoiquuid: 6b1927f3-4d8b-40db-8d56-3ac4bac1310b
-index: y
-internal: n
-snippet: y
 ---
 
 # Editor Limitations{#editor-limitations}

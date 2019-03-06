@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
 discoiquuid: 07b77092-e1cb-4459-8d70-4d345be856fc
-index: y
-internal: n
-snippet: y
 ---
 
 # Performance & Scalability{#performance-scalability}

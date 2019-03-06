@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: ca601dab-e02d-4ef4-9d4b-c9273d0d5864
-index: y
-internal: n
-snippet: y
 ---
 
 # Develop Sandbox Application{#develop-sandbox-application}
@@ -34,9 +31,9 @@ Using CRXDE Lite:
 1. 
 1.
 
-    * Name: ** `sling:resourceSuperType`**
-    * Type: **`String`**
-    * Value: **`foundation/components/page`**
+    * Name:**  `sling:resourceSuperType`**
+    * Type:** `String`**
+    * Value:** `foundation/components/page`**
 
 1. Click the green** [+] Add**
 1. click **Save All**
@@ -94,7 +91,7 @@ Using CRXDE Lite:
     1. select the `playpage`node
     1. right click and select `Create > Create File...`
 
-        * Name: **body.jsp**
+        * Name:** body.jsp**
 
     1. click** Save All**
 

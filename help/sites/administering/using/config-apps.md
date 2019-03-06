@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
 discoiquuid: 91799ac3-9915-483e-b66f-1a86eb935ca7
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring for AEM Apps{#configuring-for-aem-apps}

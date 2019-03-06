@@ -10,9 +10,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
 discoiquuid: 942421ba-8b8e-4911-9795-f887840556f8
-index: y
-internal: n
-snippet: y
 ---
 
 # Page Authoring with Content Fragments{#page-authoring-with-content-fragments}

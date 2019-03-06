@@ -8,9 +8,6 @@ uuid: 395c35be-3d20-4637-a763-fd43509ec842
 contentOwner: raiman
 discoiquuid: db8d5a75-a568-42bb-b257-977cdda3f392
 noindex: true
-index: y
-internal: n
-snippet: y
 ---
 
 # Cloud Services{#cloud-services}

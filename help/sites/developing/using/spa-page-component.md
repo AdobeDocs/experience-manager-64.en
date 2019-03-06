@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: spa
 content-type: reference
 discoiquuid: ee19298e-090e-486c-ad5b-74a1f655dcf5
-index: y
-internal: n
-snippet: y
 ---
 
 # SPA Page Component{#spa-page-component}

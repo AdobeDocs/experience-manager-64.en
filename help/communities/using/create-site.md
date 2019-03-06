@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: introduction
 content-type: reference
 discoiquuid: e0ec783c-b6f7-425f-8c75-7be74f3d0ae0
-index: y
-internal: n
-snippet: y
 ---
 
 # Author a New Community Site{#author-a-new-community-site}
@@ -24,7 +21,7 @@ snippet: y
 Use the author instance to create a new community site
 
 * sign in with administrator privileges
-* from global navigation : **Navigation, Communities, Sites**
+* from global navigation :** Navigation, Communities, Sites**
 
 The Communities Sites console provides a wizard to guide one through the steps of creating a community site. It is possible to move forward to the `Next`step or `Back`to the previous step before committing the site in the final step.
 

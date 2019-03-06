@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
 discoiquuid: e1457262-9883-4647-9995-94ba774c0e31
-index: y
-internal: n
-snippet: y
 ---
 
 # Customizing and Extending Content Fragments{#customizing-and-extending-content-fragments}

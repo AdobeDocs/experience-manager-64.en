@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: d9cc8716-ba3e-453e-9674-e3c6393663ab
-index: y
-internal: n
-snippet: y
 ---
 
 # Convert PDF Service Java API QuickStart(SOAP){#convert-pdf-service-java-api-quickstart-soap}

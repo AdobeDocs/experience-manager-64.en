@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
 discoiquuid: 0e6d0c44-fa36-4acf-89dd-6581e4723af3
-index: y
-internal: n
-snippet: y
 ---
 
 # Building Tagging into an AEM Application{#building-tagging-into-an-aem-application}

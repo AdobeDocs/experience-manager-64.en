@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: 975dfa39-678b-4ff0-99b7-7c2b0f578f0a
-index: y
-internal: n
-snippet: y
 ---
 
 # Client-side Customization{#client-side-customization}

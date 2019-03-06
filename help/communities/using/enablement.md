@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: 712a6e7a-235f-4665-999f-e475823d15e9
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring Enablement Features{#configuring-enablement-features}

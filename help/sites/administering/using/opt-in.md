@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: 91d07334-6b57-42fd-92d3-b71e3fa41e02
-index: y
-internal: n
-snippet: y
 ---
 
 # Opting Into Adobe Analytics and Adobe Target{#opting-into-adobe-analytics-and-adobe-target}

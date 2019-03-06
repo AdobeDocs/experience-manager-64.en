@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_workspace
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 6a5620a4-36c9-4b2e-8246-8e3a0f865893
-index: y
-internal: n
-snippet: y
 ---
 
 # Managing the categories displayed in Workspace {#managing-the-categories-displayed-in-workspace}

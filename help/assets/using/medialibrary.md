@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
 discoiquuid: e8ec4276-1cbb-46e4-8952-6f2c5c15821d
-index: y
-internal: n
-snippet: y
 ---
 
 # AEM Assets vs. AEM MediaLibrary{#aem-assets-vs-aem-medialibrary}

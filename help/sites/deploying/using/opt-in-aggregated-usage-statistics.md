@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
 discoiquuid: a1f16d2b-8f61-46af-bad5-8fad4d9aa343
-index: y
-internal: n
-snippet: y
 ---
 
 # Opting Into Aggregated Usage Statistics Collection{#opting-into-aggregated-usage-statistics-collection}

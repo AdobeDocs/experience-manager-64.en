@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
 discoiquuid: 79f57482-bd36-4903-a30e-3356a2971f61
-index: y
-internal: n
-snippet: y
 ---
 
 # Sling Cheatsheet{#sling-cheatsheet}

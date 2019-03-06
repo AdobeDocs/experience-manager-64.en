@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: fb576ffc-d1f9-4a87-a19b-f1f580dc5b28
-index: y
-internal: n
-snippet: y
 ---
 
 # Create An SCF Sandbox{#create-an-scf-sandbox}
@@ -75,7 +72,7 @@ To work with CRXDE Lite, you must sign in with developer or administrator privel
 * username : admin
 * password : admin
 
-***Be aware** *that this login will timeout and you will need to re-login periodically using the pull down on the right end of the CRXDe Lite tool bar.
+***Be aware*** that this login will timeout and you will need to re-login periodically using the pull down on the right end of the CRXDe Lite tool bar.
 
 If not logged in, you will be unable to navigate the JCR repository or perform any edit/save operations.
 

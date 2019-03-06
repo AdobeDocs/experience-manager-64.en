@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
 discoiquuid: ee4f70eb-5d17-4f6a-aadb-568d86c74708
-index: y
-internal: n
-snippet: y
 ---
 
 # Applying Workflows to Pages{#applying-workflows-to-pages}

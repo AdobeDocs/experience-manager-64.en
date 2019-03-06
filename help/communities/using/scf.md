@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: d8091489-50ca-40d4-b423-f0b2ef008c9b
-index: y
-internal: n
-snippet: y
 ---
 
 # Social Component Framework{#social-component-framework}

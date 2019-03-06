@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: developing
 content-type: reference
 discoiquuid: 09b56358-94b1-4d1a-ae87-cb52a2e573c4
-index: y
-internal: n
-snippet: y
 ---
 
 # Testing Mobile Apps{#testing-mobile-apps}

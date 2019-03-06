@@ -7,9 +7,6 @@ uuid: 5a5fe86a-140c-460b-92ad-dda03bc0546b
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: 79c9adc4-3f96-4896-931e-31bf4d0b9ade
-index: y
-internal: n
-snippet: y
 ---
 
 # Improve performance of large forms with lazy loading{#improve-performance-of-large-forms-with-lazy-loading}

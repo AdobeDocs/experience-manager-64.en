@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
 discoiquuid: 0cf003d5-80bd-4b2c-aecc-1fced9e11b72
-index: y
-internal: n
-snippet: y
 ---
 
 # Troubleshoot AEM Forms app{#troubleshoot-aem-forms-app}
@@ -82,7 +79,7 @@ Modify the path of the form and its resources to reduce the number of characters
 
 The error message is displayed when you build AEM Forms app in Android Studio. The issue occurs due to unsupported version of Gradle supported on the system.
 
-**Resolution: **Click **Fix Gradle wrapper and re-import project **to resolve the issue.
+**Resolution:** Click **Fix Gradle wrapper and re-import project **to resolve the issue.
 
 ![](assets/gradle_unsupported_version.png) 
 
@@ -94,7 +91,7 @@ The error message is displayed when you select **Build APK** option from the **B
 
 ![](assets/gradle_plugin_compatibility.png)
 
-**Resolution: **Open **Gradle Scripts** &gt; **gradle-wrapper.properties** file and edit the **distributionUrl **property.
+**Resolution:** Open **Gradle Scripts** &gt; **gradle-wrapper.properties** file and edit the **distributionUrl **property.
 
 For example, the Android Studio console recommends downgrading the Gradle version to 3.5. Edit the version in **distributionUrl **of** gradle-wrapper.properties** file.
 

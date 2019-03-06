@@ -10,9 +10,6 @@ products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: administering-adobe-phonegap-enterprise
 discoiquuid: e63cfc9c-e2d9-49e8-9df6-dd01561de527
 legacypath: /content/docs/en/aem/6-1/develop/mobile-apps/apps/managing-aem-mobile-apps/configure-your-adobe-phonegap-build-cloud-service1
-index: y
-internal: n
-snippet: y
 ---
 
 # Configure your Adobe Mobile Services Cloud Service{#configure-your-adobe-mobile-services-cloud-service}

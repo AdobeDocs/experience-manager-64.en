@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
 discoiquuid: 403f3c76-7c31-482e-8560-f31f86849daf
-index: y
-internal: n
-snippet: y
 ---
 
 # Asset link sharing{#asset-link-sharing}

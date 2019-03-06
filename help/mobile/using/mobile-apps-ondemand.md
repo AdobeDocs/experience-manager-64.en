@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: authoring-on-demand-services-app
 discoiquuid: 62701881-46f2-4ab4-8fd6-1442bc13e07c
-index: y
-internal: n
-snippet: y
 ---
 
 # Mobile On-Demand{#mobile-on-demand}
@@ -40,7 +37,7 @@ An AEM author is responsible for the following tasks while creating an app using
 
 * [AEM Mobile Application Dashboard](../../mobile/using/mobile-apps-ondemand-application-dashboard.md)
 * [Application Create and Configuration Actions](../../mobile/using/mobile-apps-ondemand-application-create-configure-action.md)
-* [Cloud Configuration](../../mobile/using/mobile-on-demand-associating-an-On-Demand-app-to-cloud-configuration.md)
+* [Cloud Configuration](../../mobile/using/mobile-on-demand-associating-an-on-demand-app-to-cloud-configuration.md)
 * [Managing Content](../../mobile/using/mobile-apps-ondemand-manage-content-ondemand.md)
 
 To learn about **Content Services**, see [Content Services Overview](/mobile/using/content-as-a-service) to get started.

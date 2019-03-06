@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: e5a7eb38-0e1e-4d0b-aed6-e6b57565e8e7
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring locations for Forms{#configuring-locations-for-forms}

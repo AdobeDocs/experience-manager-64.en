@@ -10,9 +10,6 @@ topic-tags: e-commerce
 content-type: reference
 discoiquuid: 4c6a362e-dab7-45b4-88dc-90dd474bfeb9
 pagetitle: Administering Demandware
-index: y
-internal: n
-snippet: y
 ---
 
 # Demandware{#demandware}

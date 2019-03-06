@@ -6,9 +6,6 @@ seo-description: null
 page-status-flag: de-activated
 uuid: 11cf90ab-b902-42a1-a53b-5f67382c58c0
 discoiquuid: 1f58eb75-3ec9-4a49-b274-37b92b1760e6
-index: y
-internal: n
-snippet: y
 ---
 
 # [DO NOT PUBLISH] Create your first adaptive document{#do-not-publish-create-your-first-adaptive-document}

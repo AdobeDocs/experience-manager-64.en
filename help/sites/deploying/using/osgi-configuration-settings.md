@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: configuring
 content-type: reference
 discoiquuid: 2eddcda7-8056-4ceb-9fc6-5bc11be0d0be
-index: y
-internal: n
-snippet: y
 ---
 
 # OSGi Configuration Settings{#osgi-configuration-settings}
@@ -249,7 +246,7 @@ Various parameters can be set, including:
 
 **Apache HTTP Components Proxy Configuration** Proxy configuration for all code using the Apache HTTP client, used when a HTTP is made; for example upon replication.
 
-When creating a new configuration, do not make changes to the factory configuration but instead create a new factory configuration for this component using the configuration manager available here: **http://localhost:4502/system/console/configMgr/**. The proxy configuration is available in **org.apache.http.proxyconfigurator.**
+When creating a new configuration, do not make changes to the factory configuration but instead create a new factory configuration for this component using the configuration manager available here:** http://localhost:4502/system/console/configMgr/**. The proxy configuration is available in **org.apache.http.proxyconfigurator.**
 
 >[!NOTE]
 >

@@ -10,9 +10,6 @@ topic-tags: configuring
 content-type: reference
 topic-tags: Security
 discoiquuid: 3616d14e-5825-4878-8203-5c1e385cd77d
-index: y
-internal: n
-snippet: y
 ---
 
 # Single Sign On{#single-sign-on}
@@ -61,7 +58,7 @@ To configure SSO for a AEM instance, you need to configure the [SSO Authenticati
 
     * **Path:** as required; for example, `/`
     
-    * **Header Names: **SM_USER
+    * **Header Names:** SM_USER
     * **ID Format**: AsIs
 
 1. Confirm that Single Sign On is working as required; including authorization.

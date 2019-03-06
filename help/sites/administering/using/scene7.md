@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: 081c4b13-ebd3-4b4c-bbbb-8fa08be624ff
-index: y
-internal: n
-snippet: y
 ---
 
 # Integrating with Dynamic Media Classic (Scene7){#integrating-with-dynamic-media-classic-scene}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
 discoiquuid: e781f518-a86b-42e2-93da-3e0c6447995e
-index: y
-internal: n
-snippet: y
 ---
 
 # Best Practices{#best-practices}
@@ -73,5 +70,5 @@ Managing and authoring your website content has some best practices outlined as 
 
 | Adaptive forms | [Best practices for working with adaptive forms](../../../forms/using/adaptive-forms-best-practices.md) |Describes best practices for setting up, authoring, and customizing adaptive forms. |
 |---|---|---|
-| HTML5 forms | [Best practices for designing HTML5 forms](../../../forms/using/Best-practices-for-HTML5-forms.md) |Describes best practices for working on layout and design of HTML5 forms. |
+| HTML5 forms | [Best practices for designing HTML5 forms](../../../forms/using/best-practices-for-html5-forms.md) |Describes best practices for working on layout and design of HTML5 forms. |
 

@@ -6,9 +6,6 @@ seo-description: Ready your AEM instance to use Automated Forms Conversion servi
 uuid: dd3025ec-d664-4f20-8680-441a27a9c70c
 contentOwner: khsingh
 discoiquuid: 6584bcb8-3e32-4952-bd86-3a80b7842074
-index: y
-internal: n
-snippet: y
 ---
 
 # Configure the Automated Forms Conversion service{#configure-the-automated-forms-conversion-service}
@@ -55,7 +52,7 @@ Configure the ** [Day CQ Mail Service](https://helpx.adobe.com/experience-manage
 Create a cloud service configuration to connect your AEM Instance to the conversion service. It also allows you to specify a template, theme, and form fragments for a conversion. You can create multiple cloud service configurations separate for each set of forms. For example, you can have a separate configuration for sales department forms and a separate one for customer support forms. Perform the following steps to create a cloud service configuration:
 
 1. On your AEM Forms instance, tap **[!UICONTROL Adobe Experience Manager]** > **[!UICONTROL Tools]**> **[!UICONTROL Cloud Services]** > **[!UICONTROL Automate Forms Conversion Configuration]**.
-1. Tap the **[!UICONTROL **Global**]**folder and tap ****[!UICONTROL Create]****. The page to create Automated Forms Conversion configuration appears. The configuration is created in the Global folder. You can also create the configuration in a different folder that already exists or create a new folder for your configurations.   
+1. Tap the **[!UICONTROL **Global**]**folder and tap **[!UICONTROL Create]**. The page to create Automated Forms Conversion configuration appears. The configuration is created in the Global folder. You can also create the configuration in a different folder that already exists or create a new folder for your configurations.   
 
 1. In the **[!UICONTROL Basic]**tab of the **[!UICONTROL Create Automated Forms Conversion Configuration]** page, specify a value for the following fields:
 
@@ -107,7 +104,7 @@ Create a cloud service configuration to connect your AEM Instance to the convers
 
    ![](assets/service-configuration-advanced.png)
 
-1. Tap** **[!UICONTROL Save & Close]****. The cloud configuration is created. Your AEM Forms instance is ready to start converting legacy forms to adaptive forms.
+1. Tap** **[!UICONTROL Save & Close]**. The cloud configuration is created. Your AEM Forms instance is ready to start converting legacy forms to adaptive forms.
 
 ## Previous {#previous}
 

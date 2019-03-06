@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: 13825a76-27a3-4bde-80cc-b4994a48cb13
-index: y
-internal: n
-snippet: y
 ---
 
 # Moderation Console{#moderation-console}
@@ -49,7 +46,7 @@ By selecting the Administration link, the Moderation console appears :
 
 In the author environment, to reach the Moderation console
 
-* from global navigation : **Navigation, Communities, Moderation**
+* from global navigation :** Navigation, Communities, Moderation**
 
 Only when signed in as an administrator, or as a member with ` [moderator permissions](../../communities/using/in-context.md#identifyingtrustedmembers)`, may moderation tasks be performed. The only community content displayed is that which the signed in member is permitted to moderate.
 

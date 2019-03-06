@@ -9,9 +9,6 @@ content-type: reference
 topic-tags: introduction
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 discoiquuid: f88ffa6f-3d84-4d43-a53c-48ea06e98131
-index: y
-internal: n
-snippet: y
 ---
 
 # What is AEM Screens?{#what-is-aem-screens}

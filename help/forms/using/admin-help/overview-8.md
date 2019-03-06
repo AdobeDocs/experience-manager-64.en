@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_output
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: e0b10391-fbc8-4bae-9785-2a0e502b2756
-index: y
-internal: n
-snippet: y
 ---
 
 # Overview of output service{#overview-of-output-service}

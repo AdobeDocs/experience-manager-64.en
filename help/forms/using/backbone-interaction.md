@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: e19e27c4-d8cb-41ed-a628-edb1b0011245
-index: y
-internal: n
-snippet: y
 ---
 
 # Backbone interaction{#backbone-interaction}

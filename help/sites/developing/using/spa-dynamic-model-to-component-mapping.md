@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: spa
 content-type: reference
 discoiquuid: 3cf07489-d01f-42cd-a9bd-619892a88f84
-index: y
-internal: n
-snippet: y
 ---
 
 # Dynamic Model to Component Mapping for SPAs{#dynamic-model-to-component-mapping-for-spas}

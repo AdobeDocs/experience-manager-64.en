@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: f6650308-46a9-463d-920f-e9c4bd43e6b1
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring caching for Forms{#configuring-caching-for-forms}
@@ -22,9 +19,9 @@ The Forms page in administration console contains settings that control the way 
 
 The Forms service caches the following items:
 
-* **form designs: **The Forms service caches form designs that it retrieves from the repository or from HTTP sources. This caching improves performance because for subsequent render requests, the Forms service retrieves the form design from the cache instead of from the repository. 
-* **fragments and images: **The Forms service can cache fragments and images used in form designs. When the Forms service caches these objects, it improves performance because the fragments and images are only read from the repository on the first request. 
-* **forms: **The Forms service caches the forms that it renders. This type of caching improves performance because the Forms service does not need to resolve and render the same form in subsequent requests.
+* **form designs:** The Forms service caches form designs that it retrieves from the repository or from HTTP sources. This caching improves performance because for subsequent render requests, the Forms service retrieves the form design from the cache instead of from the repository. 
+* **fragments and images:** The Forms service can cache fragments and images used in form designs. When the Forms service caches these objects, it improves performance because the fragments and images are only read from the repository on the first request. 
+* **forms:** The Forms service caches the forms that it renders. This type of caching improves performance because the Forms service does not need to resolve and render the same form in subsequent requests.
 
 Forms stores the cache in two locations:
 

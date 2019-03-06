@@ -8,9 +8,6 @@ contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 discoiquuid: 9b82c725-d4f6-468e-a11e-121073d27614
-index: y
-internal: n
-snippet: y
 ---
 
 # PhoneGap{#phonegap}

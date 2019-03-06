@@ -8,9 +8,6 @@ contentOwner: msm-service
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 discoiquuid: be2eccdc-700a-43a0-99ed-22dff65608af
-index: y
-internal: n
-snippet: y
 ---
 
 # PhoneGap{#phonegap}

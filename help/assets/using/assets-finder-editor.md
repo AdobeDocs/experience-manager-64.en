@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
 discoiquuid: 60222edd-8206-4f76-acaf-f1f2de66be26
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating and Configuring Asset Editor pages{#creating-and-configuring-asset-editor-pages}
@@ -231,7 +228,7 @@ To create an Asset Editor page:
 
 1. In the **Websites** tab, navigate to the place where you want to create an asset editor page and click **New**.
 
-1. Select **Geometrixx**** Asset Editor** and click **Create**. The new page is created and the page is listed in the **Websites** tab.
+1. Select **Geometrixx Asset Editor** and click **Create**. The new page is created and the page is listed in the **Websites** tab.
 
 ![](assets/screen_shot_2012-04-23at15858pm.png)
 
@@ -377,7 +374,7 @@ The Title component displays the title of the asset and a description.
 
 ![](assets/chlimage_1-396.png)
 
-By default, it is in read-only mode so users cannot edit it. To make it editable, double-click the component and clear the **Hide**** edit button** checkbox. In addition, enter a title for multiple assets.
+By default, it is in read-only mode so users cannot edit it. To make it editable, double-click the component and clear the **Hide edit button** checkbox. In addition, enter a title for multiple assets.
 
 ![](assets/screen_shot_2012-04-23at35100pm.png)
 

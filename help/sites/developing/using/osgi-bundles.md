@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
 discoiquuid: d158f39b-eb06-48b6-9f81-06499fe22bef
-index: y
-internal: n
-snippet: y
 ---
 
 # OSGI Bundles{#osgi-bundles}

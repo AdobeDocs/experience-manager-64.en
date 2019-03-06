@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
 discoiquuid: 8555f115-a00e-4f97-894a-0785f7c16520
-index: y
-internal: n
-snippet: y
 ---
 
 # Enabling attachments for an HTML5 form{#enabling-attachments-for-an-html-form}

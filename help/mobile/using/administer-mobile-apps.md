@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: introduction
 content-type: reference
 discoiquuid: 70341231-df28-45d3-9310-c4508192d43b
-index: y
-internal: n
-snippet: y
 ---
 
 # Mobile Apps{#mobile-apps}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
 discoiquuid: 81fc8fa2-9f5b-420a-8144-efeeb9aec4e3
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring Components in Design Mode{#configuring-components-in-design-mode}

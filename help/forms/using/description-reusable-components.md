@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: 95f2dc1a-858b-49a6-bc2b-2ffeb6a1d9d7
-index: y
-internal: n
-snippet: y
 ---
 
 # Description of reusable components{#description-of-reusable-components}

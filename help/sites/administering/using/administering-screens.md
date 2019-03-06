@@ -8,9 +8,6 @@ contentOwner: jsyal
 discoiquuid: eabe4d4b-ff8c-4ed4-9c3c-bab88467d666
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/screens/using/administering-screens
-index: y
-internal: n
-snippet: y
 ---
 
 # REDIRECT Administering Screens{#redirect-administering-screens}

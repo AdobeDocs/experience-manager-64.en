@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: installing
 geptopics: SG_AEMFORMS/categories/jee
 discoiquuid: cb948a8c-5b81-49c5-8dd7-c2734cbb0062
-index: y
-internal: n
-snippet: y
 ---
 
 # Architecture and deployment topologies for AEM Forms{#architecture-and-deployment-topologies-for-aem-forms}
@@ -32,9 +29,9 @@ The architecture for AEM Forms includes the following components:
     * **Form rendition and submission frontend**: An end user facing interface for use by the end users of the AEM Forms (for example, citizens accessing a government website). This provides form rendition (display form in a web browser) and submission functionalities.
     * **REST APIs**: JSPs and servlets export a subset of forms services for remote consumption by HTTP-based clients, such as the forms mobile SDK.
 
-**AEM Forms on OSGi: **An AEM Forms on OSGi environment is standard AEM Author or AEM Publish with AEM Forms package deployed on it. You can run AEM Forms on OSGi in a [single server environment, Farm, and clustered setups](../../sites/deploying/using/recommended-deploys.md). Cluster setup is available only for AEM Author instances.
+**AEM Forms on OSGi:** An AEM Forms on OSGi environment is standard AEM Author or AEM Publish with AEM Forms package deployed on it. You can run AEM Forms on OSGi in a [single server environment, Farm, and clustered setups](../../sites/deploying/using/recommended-deploys.md). Cluster setup is available only for AEM Author instances.
 
-**AEM Forms on JEE: **AEM Forms on JEE is AEM Forms server running on JEE stack. It has AEM Author with AEM Forms add-on packages and additional AEM Forms JEE capabilities co-deployed on a single JEE stack running on an application server. You can run AEM Forms on JEE in single-server and clustered setups. AEM Forms on JEE is required only to run document security, process management, and for LiveCycle customers upgrading to AEM Forms. Here are a few additional scenarios to use AEM Forms on JEE:
+**AEM Forms on JEE:** AEM Forms on JEE is AEM Forms server running on JEE stack. It has AEM Author with AEM Forms add-on packages and additional AEM Forms JEE capabilities co-deployed on a single JEE stack running on an application server. You can run AEM Forms on JEE in single-server and clustered setups. AEM Forms on JEE is required only to run document security, process management, and for LiveCycle customers upgrading to AEM Forms. Here are a few additional scenarios to use AEM Forms on JEE:
 
 * **HTML workspace support (for customers using HTML workspace):** AEM Forms on JEE enables single sign-on with Processing instances, serves certain assets rendered on Processing instances, and handles submission of forms rendered within the HTML workspace.
 * **Advanced additional form/interactive communication data processing**: AEM Forms on JEE can be utilized for additionally processing form/interactive communication data (and saving the results to a suitable data store) in complex use-cases where advanced process-management capabilities are required.
@@ -69,7 +66,7 @@ The following image displays various AEM Form server configurations and their co
 
 * **Processing of raw form data arriving from a Publish instance:** This is achieved primarily on a Processing instance via AEM workflows which trigger when the data arrives. The workflows can use the Form Data Model step provided out-of-the-box to archive the data or document to a suitable data store.
 * **Secure storage of form data**: Processing provides a behind-the-firewall repository for raw form data which is isolated from users. Neither form designers on the Author instance nor end users on the Publish instance can access this repository. It also serves as a secure repository for the final processed data, if the customer chooses not to use a separate third-party data store.
-* **Storage and post-processing of correspondence data arriving from a Publish instance: **AEM workflows perform the optional post-processing of the corresponding letter definitions. These workflows can save the final processed data into a suitable external data stores.  
+* **Storage and post-processing of correspondence data arriving from a Publish instance:** AEM workflows perform the optional post-processing of the corresponding letter definitions. These workflows can save the final processed data into a suitable external data stores.  
 
 * **HTML Workspace hosting**: A processing instance hosts the frontend for HTML Workspace. HTML workspace provides the UI for associated task/group assignment for review and approval processes.
 

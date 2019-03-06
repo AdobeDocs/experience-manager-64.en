@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference
 discoiquuid: 8545ead4-d945-44da-b4d5-0ecb5e8cef8e
-index: y
-internal: n
-snippet: y
 ---
 
 # Lightbox{#lightbox}

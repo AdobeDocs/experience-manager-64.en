@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: 1b244559-7a15-4d78-95fa-a3744adb75e6
-index: y
-internal: n
-snippet: y
 ---
 
 # Component, Function and Feature Essentials{#component-function-and-feature-essentials}

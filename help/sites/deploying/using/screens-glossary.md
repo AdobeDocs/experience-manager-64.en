@@ -8,9 +8,6 @@ contentOwner: jsyal
 discoiquuid: 88ffc998-8cb8-4496-98f0-596a873c26a1
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/screens/using/screens-glossary
-index: y
-internal: n
-snippet: y
 ---
 
 # (Redirect)Glossary{#redirect-glossary}

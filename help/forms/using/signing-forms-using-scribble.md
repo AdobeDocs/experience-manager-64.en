@@ -7,9 +7,6 @@ uuid: 373c6fac-677a-45dd-b4fb-c0834dc9f143
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
 discoiquuid: 9615e1cb-b5d4-4c19-9af7-c06d409a3ce7
-index: y
-internal: n
-snippet: y
 ---
 
 # Apply electronic signatures to a form using scribble signatures{#apply-electronic-signatures-to-a-form-using-scribble-signatures}

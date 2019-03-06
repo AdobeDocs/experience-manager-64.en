@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
 discoiquuid: d4eb05da-e08a-46d6-b412-d500163693a9
-index: y
-internal: n
-snippet: y
 ---
 
 # Image Profiles{#image-profiles}
@@ -168,7 +165,7 @@ To apply a profile globally, do one of the following:
 
   ![](assets/chlimage_1-262.png)
 
-* Navigate to CRXDE Lite to the following node: **/content/dam/jcr:content.**
+* Navigate to CRXDE Lite to the following node:** /content/dam/jcr:content.**
 
   Add the property** imageProfile:/conf/global/settings/dam/adminui-extension/imageprofile/&lt;name of image profile&gt; **and tap **Save All**. 
 

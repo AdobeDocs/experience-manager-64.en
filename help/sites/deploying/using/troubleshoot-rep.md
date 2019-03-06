@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: configuring
 discoiquuid: 5031d810-4ab4-4b98-851b-38d51ec708e7
-index: y
-internal: n
-snippet: y
 ---
 
 # Troubleshooting Replication{#troubleshooting-replication}

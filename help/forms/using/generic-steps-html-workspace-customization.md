@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: a9ee9f98-ea02-4286-b642-5c7e0ba4dc77
-index: y
-internal: n
-snippet: y
 ---
 
 # Generic steps for AEM Forms workspace customization{#generic-steps-for-aem-forms-workspace-customization}

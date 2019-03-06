@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/managing_certificates_and_credentials
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: af542c80-4334-42d9-a195-44f0b3458c94
-index: y
-internal: n
-snippet: y
 ---
 
 # Managing HSM credentials{#managing-hsm-credentials}
@@ -34,9 +31,9 @@ AEM forms Digital Signatures can use credentials stored on an HSM to apply serve
 1. Click Test HSM Connectivity. If AEM forms is able to connect to the HSM device, a message displays, stating that the HSM is available. Click Next.
 1. Use either the Token Name, Slot ID, or Slot List Index to identify where the credentials are stored on the HSM.
 
-    * **Token Name: **Corresponds to the name of the HSM partition to be used (for example, HSMPART1).
-    * **Slot Id: **The Slot ID is a slot identifier of type data type long. 
-    * **Slot List Index: **If you select Slot List Index, set the Slot Info to an integer that corresponds to the slot. This is a 0-based index, which means that if the client is registered with the HSMPART1 partition first, HSMPART1 will be referred to using SlotListIndex value 0.
+    * **Token Name:** Corresponds to the name of the HSM partition to be used (for example, HSMPART1).
+    * **Slot Id:** The Slot ID is a slot identifier of type data type long. 
+    * **Slot List Index:** If you select Slot List Index, set the Slot Info to an integer that corresponds to the slot. This is a 0-based index, which means that if the client is registered with the HSMPART1 partition first, HSMPART1 will be referred to using SlotListIndex value 0.
 
 1. In the Token Pin box, type the password required to access the HSM key and click Next.
 1. In the Credentials box, select a credential. Click Save.
@@ -50,16 +47,16 @@ AEM forms Digital Signatures can use credentials stored on an HSM to apply serve
 1. In the HSM Device list, select the manufacturer of the HSM device where the credential is stored.
 1. In the Slot Type list, select Slot Id, Slot Index, or Token Name and specify a value in the Slot Info box. AEM forms uses these settings to determine where the credentials are stored on the HSM.
 
-    * **Token Name: **Corresponds to a partition name (for example, HSMPART1).
-    * **Slot Id: **The Slot ID is an integer that corresponds to the slot, which in turn corresponds to a partition. For example, the client (forms server) registered with the HSMPART1 partition first. This maps slot 1 to the HSMPART1 partition, for this client. Because HSMPART1 is the first partition registered, the Slot ID is 1 and you would set Slot Info to 1.
+    * **Token Name:** Corresponds to a partition name (for example, HSMPART1).
+    * **Slot Id:** The Slot ID is an integer that corresponds to the slot, which in turn corresponds to a partition. For example, the client (forms server) registered with the HSMPART1 partition first. This maps slot 1 to the HSMPART1 partition, for this client. Because HSMPART1 is the first partition registered, the Slot ID is 1 and you would set Slot Info to 1.
 
       The slot ID is set on a client-by-client basis. If you registered a second machine to a different partition (for example, HSMPART2 on the same HSM device), then slot 1 would be associated with the HSMPART2 partition for that client.
     
-    * **Slot Index: **If you select Slot Index, set the Slot Info to an integer that corresponds to the slot. This is a 0-based index, which means that if the client is registered with the HSMPART1 partition first, slot 1 is mapped to the HSMPART1 for this client. Because HSMPART1 is the first partition registered, the Slot Index is 0.
+    * **Slot Index:** If you select Slot Index, set the Slot Info to an integer that corresponds to the slot. This is a 0-based index, which means that if the client is registered with the HSMPART1 partition first, slot 1 is mapped to the HSMPART1 for this client. Because HSMPART1 is the first partition registered, the Slot Index is 0.
 
 1. Select one of these options and provide the path:
 
-    * **Certificate**: (Not required if using SHA1) Click Browse and**** locate the path to the public key for the credential you are using.
+    * **Certificate**: (Not required if using SHA1) Click Browse and locate the path to the public key for the credential you are using.
     * **Certificate SHA1:** (Not required if using a physical certificate) Type SHA1 value (thumbprint) of the public key (.cer) file for the credential you are using. Ensure that there are no spaces used in the SHA1 value.
 
 1. In the Password box, type the password required to access the HSM key for the given slot information, and then click Save.

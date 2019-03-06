@@ -9,9 +9,6 @@ topic-tags: publish
 topic-tags: document_services
 discoiquuid: c3c96897-0cdb-4c66-b769-8c26950826d9
 noindex: true
-index: y
-internal: n
-snippet: y
 ---
 
 # Forms-centric workflow on OSGi{#forms-centric-workflow-on-osgi}
@@ -74,12 +71,12 @@ The example creates a workflow model a mortgage application to be filled by a fr
 1. Enable email notifications. You can configure Forms-centric workflow on OSGi to send email notifications to the users or assignees. Perform the following configurations to enable email notifications:
 
     1. Go to AEM configuration manager at http://[server]:[port]/system/console/configMgr.
-    1. Open the **[!UICONTROL Day CQ Mail Service]** configuration. Specify a value for the ****[!UICONTROL SMTP server host name]****, ****[!UICONTROL SMTP server port,]**** and ****[!UICONTROL "From" address]** **fields. Click **[!UICONTROL Save]**.
-    1. Open the **[!UICONTROL Day CQ Link Externalizer]** configuration. In the **[!UICONTROL Domains]**field, specify the actual hostname/IP address and port number for local, author, and publish instances. Click **[!UICONTROL Save]**.
+    1. Open the **[!UICONTROL Day CQ Mail Service]** configuration. Specify a value for the **[!UICONTROL SMTP server host name]**, **[!UICONTROL SMTP server port,]** and **[!UICONTROL "From" address]** fields. Click **[!UICONTROL Save]**.
+    1. Open the **[!UICONTROL Day CQ Link Externalizer]** configuration. In the **[!UICONTROL Domains]** field, specify the actual hostname/IP address and port number for local, author, and publish instances. Click **[!UICONTROL Save]**.
 
 1. Create workflow stages. A workflow can have multiple stages. These stages are displayed in the AEM Inbox and report progress of the workflow.
 
-   To define a stage, tap the ![](assets/info-circle.png) icon to open workflow model properties, open the **Stages **tab, add stages for the workflow model, and tap **Save & Close**. For the example mortgage application, create stages: loan request, loan request status, to be signed documents, and signed loan document.
+   To define a stage, tap the ![](assets/info-circle.png) icon to open workflow model properties, open the **Stages** tab, add stages for the workflow model, and tap **Save & Close**. For the example mortgage application, create stages: loan request, loan request status, to be signed documents, and signed loan document.
 
 1. Drag-and-drop the **Assign Task** steps browser to the workflow model. Make it the first step of the model.
 
@@ -139,7 +136,7 @@ The application is the adaptive form associated with the workflow. When an appli
 >
 >You must be a member of the fd-administrator group to be able to create and manage workflow applications.
 
-1. On your AEM author instance, go to ![](assets/tools.png) **> **[!UICONTROL Forms]**> **[!UICONTROL Manage Workflow Application]**** and taps ****[!UICONTROL Create]****.
+1. On your AEM author instance, go to ![](assets/tools.png) > **[!UICONTROL Forms]** > **[!UICONTROL Manage Workflow Application]** and taps **[!UICONTROL Create]**.
 1. In the Create Workflow Application window, provide inputs for the following fields, and taps **Create**. A new application is created and is listed in the Workflow Applications screen.
 
 <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
@@ -259,7 +256,7 @@ An administrator (a member of fd-administrators group) can configure a network f
    |---|---|
    | Payload Mapper Filter |When you create a watched folder, it creates a folder structure in the crx-repository. The folder structure can serve as a payload to the workflow. You can write a script to map an AEM Workflow to accept inputs from the watched folder structure. An out of the box implementation is available and listed in the Payload Mapper Filter. If you do not have a custom implementation, select the default implementation. |
 
-   The Advanced tab contains more fields. Most of these fields contain a default value. To learn about all the fields, see the [Create or Configure a watched folder](../../forms/using/Creating-Configure-watched-folder.md) article.
+   The Advanced tab contains more fields. Most of these fields contain a default value. To learn about all the fields, see the [Create or Configure a watched folder](../../forms/using/creating-configure-watched-folder.md) article.
 
 ### Submitting an interactive communication or a letter {#letter}
 
@@ -272,7 +269,7 @@ You can associate and execute a Forms-centric workflow on OSGi on submission of 
 You can use the Assign Task and Send Email steps of AEM Workflows to send an email. Perform the following steps to specify email servers and other configurations required to send email:
 
 1. Go to AEM configuration manager at http://[server]:[port]/system/console/configMgr.
-1. Open the **[!UICONTROL Day CQ Mail Service]** configuration. Specify a value for the ****[!UICONTROL SMTP server host name]****, ****[!UICONTROL SMTP server port,]**** and ****[!UICONTROL "From" address]** **fields. Click **[!UICONTROL Save]**.
+1. Open the **[!UICONTROL Day CQ Mail Service]** configuration. Specify a value for the **[!UICONTROL SMTP server host name]**, **[!UICONTROL SMTP server port,]** and **[!UICONTROL "From" address]** fields. Click **[!UICONTROL Save]**.
 1. Open the **[!UICONTROL Day CQ Link Externalizer]** configuration. In the **[!UICONTROL Domains]**field, specify the actual hostname/IP address and port number for local, author, and publish instances. Click **[!UICONTROL Save]**.
 
 ### Purge workflow instances {#purge-workflow-instances}

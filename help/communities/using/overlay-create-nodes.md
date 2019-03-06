@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: a1f3effb-9c88-4ad9-a747-8ba636c14dfb
-index: y
-internal: n
-snippet: y
 ---
 
 # Create Nodes{#create-nodes}

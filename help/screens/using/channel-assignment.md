@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: authoring
 discoiquuid: 0b6629b8-33f3-414c-9d57-9c0e2c8b46c0
-index: y
-internal: n
-snippet: y
 ---
 
 # Channel Assignment{#channel-assignment}

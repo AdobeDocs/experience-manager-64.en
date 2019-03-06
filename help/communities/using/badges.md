@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: fd311d84-0ec0-463a-9f6c-c54a0f1ceb1a
-index: y
-internal: n
-snippet: y
 ---
 
 # Badges Console{#badges-console}
@@ -34,7 +31,7 @@ Currently, badges a community member earns or is assigned will appear along with
 
 In the author environment, to reach the Badges console
 
-* from global navigation : **Tools, Communities, Badges**
+* from global navigation :** Tools, Communities, Badges**
 
 This console displays the badges currently available and from which new badges can be added.
 

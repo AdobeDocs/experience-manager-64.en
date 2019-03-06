@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: 1cd19215-69ac-4146-8291-ef5bfccdbee9
-index: y
-internal: n
-snippet: y
 ---
 
 # Working with AEM Forms Repository{#working-with-aem-forms-repository}

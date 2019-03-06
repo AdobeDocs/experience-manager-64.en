@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
 discoiquuid: 454b4227-ef3a-4791-a41f-4423a64ba3f9
-index: y
-internal: n
-snippet: y
 ---
 
 # Working with Logs{#working-with-logs}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: a1b60082-c662-45ca-82f2-1c26ddf03b81
-index: y
-internal: n
-snippet: y
 ---
 
 # Social Graph Essentials{#social-graph-essentials}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: content
 content-type: reference
 discoiquuid: 56e41d81-c064-41f2-ab28-a45ab761804f
-index: y
-internal: n
-snippet: y
 ---
 
 # WebDAV Access{#webdav-access}

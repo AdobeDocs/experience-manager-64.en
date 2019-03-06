@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/connecting_to_a_content_management_system
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: ca2decd8-6fdd-4af2-8951-cae2e762d9c0
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring Connector for Microsoft SharePoint{#configuring-connector-for-microsoft-sharepoint}

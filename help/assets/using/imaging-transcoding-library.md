@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
 discoiquuid: eff5c7fe-8bbf-49bb-9249-40f3f2988d11
-index: y
-internal: n
-snippet: y
 ---
 
 # Imaging Transcoding Library{#imaging-transcoding-library}

@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: ee5e50e8-ee63-49c3-8013-27815fa33b13
-index: y
-internal: n
-snippet: y
 ---
 
 # Programmatically managing the PreferencesNodes{#programmatically-managing-the-preferencesnodes}

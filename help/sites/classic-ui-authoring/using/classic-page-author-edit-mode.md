@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
 discoiquuid: 65e2d6d1-ed6c-417f-a6b5-bae0268a7600
-index: y
-internal: n
-snippet: y
 ---
 
 # Components for Page Authoring{#components-for-page-authoring}
@@ -285,7 +282,7 @@ The external application is integrated into the paragraph system of the AEM page
 
 The Flash component lets you load a Flash movie. You can drag a flash asset from the content finder onto the component, or you can use the dialog:
 
-* **Fla****sh**
+* **Flash**
 
     * **Flash movie** 
       The flash movie file. Either drag an asset from the content finder, or click to open a browse window.
@@ -958,7 +955,7 @@ This component is needed to define the start of a new form on a page. You can co
               `/forms/feedback/`
             
             * **Type** 
-              Select the required type.**** 
+              Select the required type. 
             
             * **Form** 
               Specify the form.  

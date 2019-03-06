@@ -7,9 +7,6 @@ uuid: 4f18e248-b482-4140-911d-296cc6c1ad5a
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
 discoiquuid: 46126b43-05d4-4092-b0f8-d242330ab971
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating forms with repeatable sections{#creating-forms-with-repeatable-sections}
@@ -22,7 +19,7 @@ You can use one of the following methods to create repeatable panels:
 
 ## Using Instance Manager via scripts&nbsp; {#using-instance-manager-via-scripts-nbsp}
 
-1. In the edit mode, select a panel, then tap ![](assets/cmppr.png-). In the sidebar, under Properties, enable **Make Panel Repeatable**. Specify values for the ****[!UICONTROL Maximum]**** and **[!UICONTROL **Minimum**]** fields.
+1. In the edit mode, select a panel, then tap ![](assets/cmppr.png-). In the sidebar, under Properties, enable **Make Panel Repeatable**. Specify values for the **[!UICONTROL Maximum]** and **[!UICONTROL **Minimum**]** fields.
 
    The Maximum field specifies the maximum number of times a panel can appear on the page. You can specify -1 in the Maximum Count field to allow the panel to appear for infinite number of times.
 

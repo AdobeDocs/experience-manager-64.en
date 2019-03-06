@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: configuring
 content-type: reference
 discoiquuid: 239e344a-4c62-4790-ab0f-1514247843b8
-index: y
-internal: n
-snippet: y
 ---
 
 # Logging{#logging}

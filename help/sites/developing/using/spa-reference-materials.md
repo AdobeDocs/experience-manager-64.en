@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: spa
 content-type: reference
 discoiquuid: 1b43ec1b-ac97-4696-a681-74536b7ec92b
-index: y
-internal: n
-snippet: y
 ---
 
 # SPA Javascript API References{#spa-javascript-api-references}

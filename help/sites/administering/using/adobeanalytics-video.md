@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: dc973be8-7d46-41a2-94b9-3d1bcf3f91c0
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring Video Tracking for Adobe Analytics{#configuring-video-tracking-for-adobe-analytics}

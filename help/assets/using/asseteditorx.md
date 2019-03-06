@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: extending-assets
 content-type: reference
 discoiquuid: 709590a5-d80c-4bad-9de8-60d134489826
-index: y
-internal: n
-snippet: y
 ---
 
 # Extending Asset Editor{#extending-asset-editor}
@@ -26,8 +23,8 @@ In addition to using pre-existing editor components, Adobe Experience Manager (A
 
 The following sample pages are included in geometrixx:
 
-* Geometrixx Sample Page: **/content/geometrixx/en/press/asseteditor.html**
-* Sample Template: **/apps/geometrixx/templates/asseteditor**
+* Geometrixx Sample Page:** /content/geometrixx/en/press/asseteditor.html**
+* Sample Template:** /apps/geometrixx/templates/asseteditor**
 * Sample Page Component:** /apps/geometrixx/components/asseteditor**
 
 #### Configuring Clientlib {#configuring-clientlib}

@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: 2f3e5869-f28c-4464-b35d-33bf199b32b8
-index: y
-internal: n
-snippet: y
 ---
 
 # Assigning Usage Rights{#assigning-usage-rights}

@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.3/FORMS
 topic-tags: forms-app
 discoiquuid: b6e1aac4-752b-4b32-8f11-e28d8165315f
-index: y
-internal: n
-snippet: y
 ---
 
 # Set up the Android studio project and build the Android app{#set-up-the-android-studio-project-and-build-the-android-app}
@@ -88,13 +85,11 @@ The following image displays the directory structure of the `android`folder in t
 
    ![](assets/dontremindmeagainforthisproject.png)
 
-1. After successful gradle build, the following screen appears. Connect the appropriate device or emulator with the system and click **[!UICONTROL Run Android™]**.  
-   ****
+1. After successful gradle build, the following screen appears. Connect the appropriate device or emulator with the system and click **[!UICONTROL Run Android™]**.
 
    ![](assets/gradleconsole.png)
 
-1. Android™ Studio displays the connected devices and available emulators. Select the device on which you want to run the application and then click **OK**.  
-   ****
+1. Android™ Studio displays the connected devices and available emulators. Select the device on which you want to run the application and then click **OK**.
 
    ![](assets/connecteddevice.png)
 

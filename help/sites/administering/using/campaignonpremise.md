@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: db8b96f3-0bb3-4f7e-8c5e-e4b15e96cb27
-index: y
-internal: n
-snippet: y
 ---
 
 # Integrating with Adobe Campaign Classic{#integrating-with-adobe-campaign-classic}
@@ -236,7 +233,7 @@ Before you can use AEM and Adobe Campaign together, you must establish the link 
 1. Create a new configuration by entering a **Title** and click **Create**, or choose the existing configuration that you want to link with your Adobe Campaign instance.
 1. Edit the configuration so that it matches the parameters of your Adobe Campaign instance.
 
-    * **Username**: **aemserver**, the Adobe Campaign AEM Integration package operator used to establish the link between the two solutions.
+    * **Username**:** aemserver**, the Adobe Campaign AEM Integration package operator used to establish the link between the two solutions.
     
     * **Password**: Adobe Campaign aemserver operator password. You may have to re-specify the password for this operator directly in Adobe Campaign.
     * **API End Point**: Adobe Campaign instance URL.

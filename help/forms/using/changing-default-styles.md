@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
 discoiquuid: e1e95281-037a-4a72-902c-1e78cebe1b29
-index: y
-internal: n
-snippet: y
 ---
 
 # Changing default styles of HTML5 forms{#changing-default-styles-of-html-forms}
@@ -27,7 +24,7 @@ The following two images show the difference between the default and customized 
 
 1. **Choose a profile to add custom styles**
 
-   Access the CRX DE interface at the URL: **http://&lt;server&gt;:&lt;port&gt;/crx/de** and create a profile or choose an existing profile. To know how to create a profile, see [Creating a new Profile](../../forms/using/custom-profile.md)
+   Access the CRX DE interface at the URL:** http://&lt;server&gt;:&lt;port&gt;/crx/de** and create a profile or choose an existing profile. To know how to create a profile, see [Creating a new Profile](../../forms/using/custom-profile.md)
 
 1. **Create a CSS style sheet for styling the HTML5 forms**
 

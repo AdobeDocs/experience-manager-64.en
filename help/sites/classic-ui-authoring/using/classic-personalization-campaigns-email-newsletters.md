@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
 discoiquuid: cc648587-fdbd-45d5-9be1-70ac3f8987ec
-index: y
-internal: n
-snippet: y
 ---
 
 # Publishing an Email to Email Service Providers{#publishing-an-email-to-email-service-providers}
@@ -106,7 +103,7 @@ The **Email Tools** component for ExactTarget can add more email functionality t
 >
 >* The URLs within the email tools are replaced (in the received email) by their actual values only when an email is sent using **Simple Send** or **Guided Send** but not **Test Send**.
 >
->* Two of the email tools are required: **Physical Mailing Address (Required)** and **Profile Center (Required)**. When the email is published to ExactTarget, these two email-tools are added to the bottom of every mail by default.
+>* Two of the email tools are required:** Physical Mailing Address (Required)** and **Profile Center (Required)**. When the email is published to ExactTarget, these two email-tools are added to the bottom of every mail by default.
 >
 
 ### Adding Text and Personalization tool to your e-mail {#adding-text-and-personalization-tool-to-your-e-mail}

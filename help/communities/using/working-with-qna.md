@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
 discoiquuid: 571a738b-4fc4-4200-add7-ad08dc2091f9
-index: y
-internal: n
-snippet: y
 ---
 
 # Q&A Forum Feature{#q-a-forum-feature}

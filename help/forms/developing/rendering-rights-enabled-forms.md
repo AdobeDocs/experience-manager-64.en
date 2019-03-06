@@ -10,9 +10,6 @@ geptopics: SG_AEMFORMS/categories/rendering_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: 175b3649-8e1b-4c49-b3c6-34ad55bb8761
-index: y
-internal: n
-snippet: y
 ---
 
 # Rendering Rights-Enabled Forms{#rendering-rights-enabled-forms}

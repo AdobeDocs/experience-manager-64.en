@@ -7,9 +7,6 @@ uuid: 699db9eb-d1cc-41a5-b1b4-e783fd047d74
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
 discoiquuid: 0b844404-ca62-4cd1-abb4-03be43a2a5be
-index: y
-internal: n
-snippet: y
 ---
 
 # Separator component in adaptive forms{#separator-component-in-adaptive-forms}
@@ -21,7 +18,7 @@ You can use the separator component to visually segregate panels of a form. You 
 
 * **Colspan:** Specifies the number of columns a separator component spans to.
 * **CSS Class:** Specifies the custom CSS class for the separator component
-* **Inline styles: **With AEM Forms, you can now apply inline CSS styles to individual adaptive form components and preview the changes in real-time.
+* **Inline styles:** With AEM Forms, you can now apply inline CSS styles to individual adaptive form components and preview the changes in real-time.
 
 To specify properties of a separator component:
 

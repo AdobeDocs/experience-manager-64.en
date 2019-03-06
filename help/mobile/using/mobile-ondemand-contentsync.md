@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: developing-on-demand-services-app
 discoiquuid: b5e4899c-cdc7-4ea6-8437-2de92bb3757d
-index: y
-internal: n
-snippet: y
 ---
 
 # Mobile with Content Sync{#mobile-with-content-sync}

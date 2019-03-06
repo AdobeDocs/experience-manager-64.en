@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: authoring
 discoiquuid: 233dfaa9-860f-459e-a0e1-80ce2ab461e1
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating and Managing a Live Copy{#creating-and-managing-a-live-copy}

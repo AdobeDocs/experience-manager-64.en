@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-manager
 discoiquuid: 9d8a8d68-2ba4-44ac-a3a8-14e25f303635
-index: y
-internal: n
-snippet: y
 ---
 
 # Deleting forms and related resources{#deleting-forms-and-related-resources}

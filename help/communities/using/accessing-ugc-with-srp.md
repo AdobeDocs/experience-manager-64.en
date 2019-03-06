@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: 8177d122-8829-4565-892f-956043262af4
-index: y
-internal: n
-snippet: y
 ---
 
 # Accessing UGC with SRP{#accessing-ugc-with-srp}

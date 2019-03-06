@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: publish
 discoiquuid: ff64cf58-c12f-4840-9385-a6ca11aac47c
-index: y
-internal: n
-snippet: y
 ---
 
 # Sample for integrating drafts & submissions component with database{#sample-for-integrating-drafts-submissions-component-with-database}
@@ -77,7 +74,7 @@ Perform the following steps, on all the author and publish instances, to install
 
     * In the Web Console Configuration, find and click Forms Portal Data Service Sample Implementation. You can change the values of data source and data table name.
 
-   ***Note: **If you change the table names, provide them in the Form Portal configuration.*
+   ***Note:** If you change the table names, provide them in the Form Portal configuration.*
 
 1. Leave other configurations as is and click **Save**.  
 

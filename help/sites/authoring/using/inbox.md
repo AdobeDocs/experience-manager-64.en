@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
 discoiquuid: 5ae8272e-d7b6-4530-8800-23f382a66482
-index: y
-internal: n
-snippet: y
 ---
 
 # Your Inbox{#your-inbox}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
 discoiquuid: 4695ffae-2113-48dd-b268-5e64ea420f5e
-index: y
-internal: n
-snippet: y
 ---
 
 # Participating in Workflows{#participating-in-workflows}

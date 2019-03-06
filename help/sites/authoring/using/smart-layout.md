@@ -7,9 +7,6 @@ page-status-flag: never-activated
 uuid: a73c1cc4-b194-4a42-a7a6-52380eed3ec0
 contentOwner: aheimoz
 discoiquuid: 0c398e98-8ba6-476e-9f36-d5cbd9c27ab3
-index: y
-internal: n
-snippet: y
 ---
 
 # DO NOT PUBLISH Smart Layout{#do-not-publish-smart-layout}

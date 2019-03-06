@@ -10,9 +10,6 @@ topic-tags: release-notes
 content-type: reference
 discoiquuid: e135d7b1-b889-45da-bfb7-c75f27b451e2
 legacypath: /content/docs/en/aem/6-1/release-notes-sp1
-index: y
-internal: n
-snippet: y
 ---
 
 # AEM 6.4 Service Pack Release Notes{#aem-service-pack-release-notes}

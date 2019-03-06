@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: 3740fe37-edf3-46f4-b2b8-e27c8f669ef9
-index: y
-internal: n
-snippet: y
 ---
 
 # Converting PDF to Postscript andImage Files{#converting-pdf-to-postscript-andimage-files}
@@ -204,8 +201,6 @@ Convert a PDF document to PostScript by using the Convert PDF Service API (web s
 [Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_mtom)
 
 [Invoking AEM Forms using SwaRef](/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_swaref)
-
-****
 
 ## Converting PDF Documents to Image Formats {#converting-pdf-documents-to-image-formats}
 

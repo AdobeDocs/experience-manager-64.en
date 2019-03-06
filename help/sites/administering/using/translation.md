@@ -10,9 +10,6 @@ topic-tags: site-features
 content-type: reference
 discoiquuid: 4fef6fbb-aa32-42df-bff7-8927b7c474f4
 legacypath: /content/docs/en/aem/6-0/administer/integration/third-party-services/machine-translation
-index: y
-internal: n
-snippet: y
 ---
 
 # Translating Content for Multilingual Sites{#translating-content-for-multilingual-sites}

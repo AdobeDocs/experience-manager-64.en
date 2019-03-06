@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: spa
 content-type: reference
 discoiquuid: 2a803cdb-ae5f-4006-9f12-59cc0869c546
-index: y
-internal: n
-snippet: y
 ---
 
 # SPA and Server-Side Rendering{#spa-and-server-side-rendering}

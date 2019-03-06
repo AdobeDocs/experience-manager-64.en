@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
 discoiquuid: 427f34f2-6081-4a19-a5cf-e00df76de580
-index: y
-internal: n
-snippet: y
 ---
 
 # APIs to access letter instances{#apis-to-access-letter-instances}

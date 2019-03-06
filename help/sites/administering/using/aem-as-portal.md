@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: b86e3950-7009-4123-b0e7-c47f74ef3987
-index: y
-internal: n
-snippet: y
 ---
 
 # AEM Portals and Portlets{#aem-portals-and-portlets}

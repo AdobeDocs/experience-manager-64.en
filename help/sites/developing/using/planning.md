@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: testing
 content-type: reference
 discoiquuid: 24daf976-3c07-478e-9ce7-83daef6521aa
-index: y
-internal: n
-snippet: y
 ---
 
 # Planning{#planning}

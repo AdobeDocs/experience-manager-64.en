@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
 discoiquuid: dc71991e-74d2-4b49-b611-906fa5aaf35a
-index: y
-internal: n
-snippet: y
 ---
 
 # Content Architecture{#content-architecture}

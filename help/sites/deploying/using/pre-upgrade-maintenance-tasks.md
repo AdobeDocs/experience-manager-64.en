@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: upgrading
 discoiquuid: abb807df-3f0c-47fb-9df7-9a4802b0b4ee
-index: y
-internal: n
-snippet: y
 ---
 
 # Pre-Upgrade Maintenance Tasks{#pre-upgrade-maintenance-tasks}

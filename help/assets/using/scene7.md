@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
 topic-tags: managing-assets
 discoiquuid: dfdb9d49-f018-458e-a0a0-703fdcd72819
-index: y
-internal: n
-snippet: y
 ---
 
 # Adding Scene7 Features to your Page{#adding-scene-features-to-your-page}

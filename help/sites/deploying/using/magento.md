@@ -10,9 +10,6 @@ topic-tags: e-commerce
 content-type: reference
 discoiquuid: c01389f1-6bfa-4dc2-83a7-81b34b99a7c5
 pagetitle: Deploying eCommerce with Magento
-index: y
-internal: n
-snippet: y
 ---
 
 # Magento{#magento}

@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
 discoiquuid: c050a58a-8a6e-417a-be1f-9b96a294a791
-index: y
-internal: n
-snippet: y
 ---
 
 # Enable logging for HTML5 forms{#enable-logging-for-html-forms}

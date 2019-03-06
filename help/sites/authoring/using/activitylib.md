@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: personalization
 discoiquuid: f831bd47-3a62-490a-8b30-36eca3ddaf30
-index: y
-internal: n
-snippet: y
 ---
 
 # Managing Activities{#managing-activities}
@@ -78,7 +75,7 @@ Add an activity or edit an existing activity to focus your marketing efforts on 
 * **Targeting Engine:** Either [AEM](../../../sites/authoring/using/personalization.md#aem) or [Adobe Target](../../../sites/authoring/using/personalization.md#adobe-target) as the engine for targeted content.
 
 * **Select a Target Configuration:** (Adobe Target only) The cloud configuration that this activity should use to connect to Adobe Target. This option appears only when Adobe Target is selected for Targeting Engine.
-* **Activity Type: **The activity type - A/B Test or Experience targeting
+* **Activity Type:** The activity type - A/B Test or Experience targeting
 * **Objective:** (Optional) A description of the activity.
 * **Experiences:** Mappings between audience names and the marketing segments that you are targeting.
 * **Traffic Percentages:** If A/B test is selected, you can change how much traffic (in percent) goes to each experience.

@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
 discoiquuid: a8b08e4e-2dcc-49b8-ba81-82efce79b731
-index: y
-internal: n
-snippet: y
 ---
 
 # Gesture customization{#gesture-customization}

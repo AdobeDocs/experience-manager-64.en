@@ -10,9 +10,6 @@ topic-tags: site-features
 content-type: reference
 topic-tags: best-practices
 discoiquuid: 079c75ea-18ee-4614-a2ec-351fe7cb49df
-index: y
-internal: n
-snippet: y
 ---
 
 # Translation Best Practices{#translation-best-practices}

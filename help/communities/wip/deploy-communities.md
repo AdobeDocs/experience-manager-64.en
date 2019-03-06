@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 content-type: reference
 topic-tags: deploying
 discoiquuid: 39eb28ab-ce96-48f7-a249-4f4af7528b9c
-index: y
-internal: n
-snippet: y
 ---
 
 # Deploying Communities{#deploying-communities}
@@ -240,7 +237,7 @@ There are two replication agents in the author environment that need the transpo
 
 * access the Replication console on author
 
-    * from global navigation : **Tools, Deployment, Replication, Agents on author**
+    * from global navigation :** Tools, Deployment, Replication, Agents on author**
 
 * follow the same procecure for both agents :
 

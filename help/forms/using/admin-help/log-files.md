@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/maintaining_aem_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 1e9221bb-5107-4630-8cf8-0de2b0411548
-index: y
-internal: n
-snippet: y
 ---
 
 # Log files{#log-files}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
 discoiquuid: 1b4232ff-16b8-49fc-a5d2-06925a4d8859
-index: y
-internal: n
-snippet: y
 ---
 
 # Video Profiles{#video-profiles}
@@ -125,7 +122,7 @@ When you are done creating the video profile, you apply it to a folder or multip
 1. Tap **Add Video Encoding Preset**.
 1. On the **Basic** tab, set the video and audio options.  
    Tap the information icon next to each option for additional descriptions or recommended settings based on the selected video format codec.
-1. Under the Video Size heading, ensure that **Keep aspect ratio** is checked****.
+1. Under the Video Size heading, ensure that **Keep aspect ratio** is checked.
 1. Set the video frame size resolution in pixels. Use the **Auto** value to automatically scale to match the source aspect ratio (width to height ratio). For example, Auto x 480 or 640 x Auto.
 
    Do one of the following:
@@ -338,7 +335,7 @@ In addition to applying a profile to a folder, you can also apply one globally s
 
 To apply a video profile globally,
 
-* Navigate to CRXDE Lite to the following node: **/content/dam/jcr:content. **Add the property** videoProfile:/etc/dam/video/dynamicmedia/&lt;name of video encoding profile&gt; **and tap or click **Save All**. 
+* Navigate to CRXDE Lite to the following node:** /content/dam/jcr:content. **Add the property** videoProfile:/etc/dam/video/dynamicmedia/&lt;name of video encoding profile&gt; **and tap or click **Save All**. 
 
   ![](assets/chlimage_1-532.png)
 

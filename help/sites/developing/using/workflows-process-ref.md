@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
 discoiquuid: 01e627f7-b085-428f-aeb6-ca48c30fada1
-index: y
-internal: n
-snippet: y
 ---
 
 # Workflow Process Reference{#workflow-process-reference}

@@ -8,9 +8,6 @@ contentOwner: khsingh
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-manager
 discoiquuid: 910e56a7-39c6-4f90-9c5c-7eac5c68067b
-index: y
-internal: n
-snippet: y
 ---
 
 # Record a transaction for custom implementations{#record-a-transaction-for-custom-implementations}

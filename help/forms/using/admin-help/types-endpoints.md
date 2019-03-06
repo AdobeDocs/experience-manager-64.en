@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/managing_endpoints
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: ce56405c-2214-4a63-80a1-39474a347e34
-index: y
-internal: n
-snippet: y
 ---
 
 # Types of endpoints{#types-of-endpoints}

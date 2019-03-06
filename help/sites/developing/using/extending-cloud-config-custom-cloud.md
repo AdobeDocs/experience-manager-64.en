@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
 discoiquuid: 88e21c9b-a3e2-4388-9898-e9b66a95dcc3
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating a Custom Cloud Service{#creating-a-custom-cloud-service}
@@ -249,7 +246,7 @@ Cloud Services are inherited from parent pages to child pages with the ability t
 
     * **Parent Configuration**: `/etc/cloudservices/googleanalytics`
     
-    * **Title: ** `My First GA Config`
+    * **Title:**  `My First GA Config`
 
    Choose **Google Analytics Configuration** and click **Create**.  
 

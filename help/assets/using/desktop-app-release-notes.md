@@ -9,9 +9,6 @@ topic-tags: release-notes
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4
 discoiquuid: 699d15c6-3cf5-4997-8cda-910c69221a23
-index: y
-internal: n
-snippet: y
 ---
 
 # AEM Desktop App Release Notes{#aem-desktop-app-release-notes}

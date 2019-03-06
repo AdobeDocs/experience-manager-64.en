@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: development-tools
 content-type: reference
 discoiquuid: 1d9e6659-e8c3-4779-9413-8da252a5d84d
-index: y
-internal: n
-snippet: y
 ---
 
 # Development Tools{#development-tools}

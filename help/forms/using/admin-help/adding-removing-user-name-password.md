@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/managing_certificates_and_credentials
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 6ce2e6ca-50bc-4bac-adb1-f628be0e722b
-index: y
-internal: n
-snippet: y
 ---
 
 # Adding and removing user name and password credentials{#adding-and-removing-user-name-and-password-credentials}

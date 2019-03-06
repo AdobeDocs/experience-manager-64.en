@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: spa
 content-type: reference
 discoiquuid: 93360656-b0b5-4791-879d-b06448974a2f
-index: y
-internal: n
-snippet: y
 ---
 
 # SPA Editor Overview{#spa-editor-overview}

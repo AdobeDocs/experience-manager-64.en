@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: extending-assets
 content-type: reference
 discoiquuid: 58107578-0969-4aaf-ab0d-46d21f797899
-index: y
-internal: n
-snippet: y
 ---
 
 # Assets HTTP API{#assets-http-api}

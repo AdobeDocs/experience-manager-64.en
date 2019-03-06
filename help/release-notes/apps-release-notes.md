@@ -10,9 +10,6 @@ products: SG_EXPERIENCEMANAGER/6.4
 topic-tags: release-notes
 content-type: reference
 discoiquuid: 96dc6c68-705b-425f-b2a8-8307f39190f3
-index: y
-internal: n
-snippet: y
 ---
 
 # AEM Mobile{#aem-mobile}

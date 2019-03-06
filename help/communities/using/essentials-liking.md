@@ -10,9 +10,6 @@ topic-tags: developing
 content-type: reference
 discoiquuid: b777b591-1252-432a-a9e9-a303c4462472
 pagetitle: Liking Essentials
-index: y
-internal: n
-snippet: y
 ---
 
 # Liking Essentials{#liking-essentials}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: 261a8958-ff45-4c00-ac92-c942fa37e1bf
-index: y
-internal: n
-snippet: y
 ---
 
 # Integrating with Adobe Target{#integrating-with-adobe-target}

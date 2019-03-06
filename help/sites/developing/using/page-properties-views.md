@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
 discoiquuid: 66d07ff7-5b35-4fac-a132-855b013e5f3e
-index: y
-internal: n
-snippet: y
 ---
 
 # Customizing Views of Page Properties{#customizing-views-of-page-properties}

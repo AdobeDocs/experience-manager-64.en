@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
 discoiquuid: b175af5c-ee20-45f4-9176-096c2844dc37
-index: y
-internal: n
-snippet: y
 ---
 
 # Operations Dashboard{#operations-dashboard}
@@ -50,7 +47,7 @@ The Health Reports interface can be accessed through the **Tools** - **Operation
 
 ![](assets/chlimage_1-124.png)
 
-The card system exposes three possible states: **OK**, **WARN **and **CRITICAL**. The states are a result of rules and thresholds, which can be configured by hovering the mouse over the card and then clicking the gear icon in the action bar:
+The card system exposes three possible states:** OK**, **WARN **and **CRITICAL**. The states are a result of rules and thresholds, which can be configured by hovering the mouse over the card and then clicking the gear icon in the action bar:
 
 ![](assets/chlimage_1-125.png) 
 
@@ -436,9 +433,9 @@ You can configure what gets logged by providing logger configurations from the u
 Examples:
 
 * If you plan on capturing all the **ERROR** messages - no configuration is required. All the ERROR messages are captured by default.
-* If you plan on capturing all the **ERROR**, **WARN** and **INFO** messages - the logger name should be set to: "**root**", and the logger level to: **INFO**.
+* If you plan on capturing all the **ERROR**, **WARN** and **INFO** messages - the logger name should be set to: "**root**", and the logger level to:** INFO**.
 
-* If you plan on capturing all the messages coming from a certain package (for example com.adobe.granite) - the logger name should be set to: "com.adobe.granite", and the logger level to: **DEBUG** (this will capture all the **ERROR**, **WARN**, **INFO** and **DEBUG** messages), as shown in the image below.
+* If you plan on capturing all the messages coming from a certain package (for example com.adobe.granite) - the logger name should be set to: "com.adobe.granite", and the logger level to:** DEBUG** (this will capture all the **ERROR**, **WARN**, **INFO** and **DEBUG** messages), as shown in the image below.
 
 ![](assets/chlimage_1-129.png)
 
@@ -546,7 +543,7 @@ The UI can be used to filter indexes in the table by typing in the filter criter
 
 ### Download Status ZIP {#download-status-zip}
 
-This will trigger the download of a zip containing useful information about the system status and configuration. The archive contains contains instance configurations, a list of bundles, OSGI, Sling metrics and statistics and this can result in a large file. You can reduce the impact of large status files by using the **Download Status ZIP **window. The window can be accessed from: **AEM &gt; Tools &gt; Operations &gt; Diagnosis &gt; Download Status ZIP.**
+This will trigger the download of a zip containing useful information about the system status and configuration. The archive contains contains instance configurations, a list of bundles, OSGI, Sling metrics and statistics and this can result in a large file. You can reduce the impact of large status files by using the **Download Status ZIP **window. The window can be accessed from:** AEM &gt; Tools &gt; Operations &gt; Diagnosis &gt; Download Status ZIP.**
 
 From this window you can select what to export (log files and or thread dumps) and the number of days of logs included in the download relative to the current date.
 
@@ -605,7 +602,7 @@ Though the maintenance task was developed to reduce Lucene related revision garb
 * The weekly execution of the data store garbage collection task will complete more quickly
 * It may also slightly improve the overall AEM performance
 
-You can access the Lucene Binaries Cleanup task from: **AEM &gt; Tools &gt; Operations &gt; Maintenance &gt; Daily Maintenance Window &gt; Lucene Binaries Cleanup**.
+You can access the Lucene Binaries Cleanup task from:** AEM &gt; Tools &gt; Operations &gt; Maintenance &gt; Daily Maintenance Window &gt; Lucene Binaries Cleanup**.
 
 ### Data Store Garbage Collection {#data-store-garbage-collection}
 

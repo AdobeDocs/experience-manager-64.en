@@ -8,9 +8,6 @@ uuid: 96b8c1e1-8610-4fda-8ff3-1c8fc4d815b2
 contentOwner: gtalwar
 products: SG_EXPERIENCEMANAGER/6.3/FORMS
 discoiquuid: 96a2b48b-f06c-4501-b491-7f1bbd7d8743
-index: y
-internal: n
-snippet: y
 ---
 
 # [DO NOT PUBLISH] Role based user interface in Correspondence Management{#do-not-publish-role-based-user-interface-in-correspondence-management}

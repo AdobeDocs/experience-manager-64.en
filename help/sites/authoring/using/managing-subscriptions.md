@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: personalization
 discoiquuid: 7a83bb16-98c0-46e4-bc5f-410db3f44ecc
-index: y
-internal: n
-snippet: y
 ---
 
 # Managing Subscriptions{#managing-subscriptions}

@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_ssl
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 30d6eba3-b757-40da-8828-80f4eb83fb72
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring SSL on Windows Vista{#configuring-ssl-on-windows-vista}
@@ -28,7 +25,7 @@ You can run keytool by using a single command that includes all the information 
 
 1. In a command prompt, navigate to *[JAVA HOME]*/bin and type the following command to create the certificate and keystore:
 
-   `keytool -genkey -keyalg RSA -dname "CN=`*Host Name* `, OU=`*Group Name* `, O=`*Company Name* `,L=`*City******Name* `, S=`*State* `, C=`*Country Code* `" -alias`*"LC Cert"* `-keypass` `*key*`*_**password* `-keystore`*keystorename* `.keystore`
+   `keytool -genkey -keyalg RSA -dname "CN=`*Host Name* `, OU=`*Group Name* `, O=`*Company Name* `,L=`*City Name* `, S=`*State* `, C=`*Country Code* `" -alias`*"LC Cert"* `-keypass` `*key*`*_**password* `-keystore`*keystorename* `.keystore`
 
    >[!NOTE]
    >

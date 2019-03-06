@@ -10,9 +10,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
 discoiquuid: 57c3e3c9-d696-4f71-943f-fba4749059a2
-index: y
-internal: n
-snippet: y
 ---
 
 # Security Changes in CQ 5.3 and CRX 2.0{#security-changes-in-cq-and-crx}

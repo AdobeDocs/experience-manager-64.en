@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference
 discoiquuid: 88916d66-2a56-4dcc-bd65-ef507fc91f27
-index: y
-internal: n
-snippet: y
 ---
 
 # Enabling Duplicate Detection{#enabling-duplicate-detection}

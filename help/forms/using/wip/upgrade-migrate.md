@@ -10,9 +10,6 @@ products: SG_EXPERIENCEMANAGER/6.3/FORMS
 topic-tags: installing
 geptopics: SG_AEMFORMS/categories/jee
 discoiquuid: f66cd25b-e75b-4a83-80ed-f6573bfbfa21
-index: y
-internal: n
-snippet: y
 ---
 
 # [DO NOT PUBLISH] Upgrade or migrate to AEM 6.3 Forms{#do-not-publish-upgrade-or-migrate-to-aem-forms}
@@ -169,7 +166,7 @@ You can perform a direct upgrade from AEM 6.1 Forms and AEM 6.2 Forms to AEM 6.3
 
 1. Verify that the server is upgraded successfully, all the data is also migrated successfully, and it can operate normally.
 
-    * **Verify the status of the bundles: **Ensure that all the bundles are in active state.  
+    * **Verify the status of the bundles:** Ensure that all the bundles are in active state.  
     
     * **Verify replication and reverse replication:** Publish, fill, and submit a few migrated forms. Verify the submitted data also.
     * **Verify access to admin and developer user interfaces:** Log in to AEM instance from an admin account and verify that you have access to the following URLs:

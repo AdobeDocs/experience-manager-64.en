@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: administering-adobe-phonegap-enterprise
 discoiquuid: 1a3f4c5c-a8a4-48ac-ad86-590910239ef1
-index: y
-internal: n
-snippet: y
 ---
 
 # Configure Your Users and User Groups{#configure-your-users-and-user-groups}

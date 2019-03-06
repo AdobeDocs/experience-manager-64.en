@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
 discoiquuid: 04de4da2-8c47-414d-b5b7-6e4dfced1c3a
-index: y
-internal: n
-snippet: y
 ---
 
 # Troubleshooting AEM when Authoring{#troubleshooting-aem-when-authoring}

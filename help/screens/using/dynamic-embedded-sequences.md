@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: authoring
 discoiquuid: 7cc89817-eb80-479a-9ae7-e6339d8fa071
-index: y
-internal: n
-snippet: y
 ---
 
 # Using Dynamic Embedded Sequence{#using-dynamic-embedded-sequence}

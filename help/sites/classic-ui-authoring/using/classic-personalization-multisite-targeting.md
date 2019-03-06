@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
 discoiquuid: 86c4dabc-fadb-44e4-a0a9-dfc164b008ec
-index: y
-internal: n
-snippet: y
 ---
 
 # Working with Targeted Content in Multisites{#working-with-targeted-content-in-multisites}

@@ -8,9 +8,6 @@ content-type: reference
 topic-tags: Security
 products: SG_EXPERIENCEMANAGER/6.4
 discoiquuid: cf2ac2c4-e789-41bd-ade1-8738c37d91f6
-index: y
-internal: n
-snippet: y
 ---
 
 # Hardening Your AEM Forms on JEE Environment{#hardening-your-aem-forms-on-jee-environment}
@@ -351,8 +348,8 @@ On Oracle, the database account that you use needs only the CONNECT, RESOURCE, a
    ```
 
 1. Under Change Center, click **Lock & Edit**.
-1. Under Domain Structure, click *[base_domain]*****&gt;** Services **&gt;** JDBC **&gt;** Data Sources** and, in the right pane, click **IDP_DS**.
-1. On the next screen, on the **Configuration** tab, click the **Connection****Pool** tab and, in the **Properties** box, type `integratedSecurity=true`.
+1. Under Domain Structure, click ***[base_domain]*** &gt; **Services** **&gt; **JDBC** &gt; ** Data Sources** and, in the right pane, click **IDP_DS**.
+1. On the next screen, on the **Configuration** tab, click the **Connection Pool** tab and, in the **Properties** box, type `integratedSecurity=true`.
 1. Under Domain Structure, click **[base_domain] **&gt;** Services **&gt;** JDBC **&gt;** Data Sources** and, in the right pane, click **RM_DS**.
 1. On the next screen, on the **Configuration** tab, click the **Connection Pool** tab and, in the **Properties** box, type `integratedSecurity=true`.
 1. Add the sqljdbc_auth.dll file to the Windows systems path on the computer that is running the application server. The sqljdbc_auth.dll file is located with the Microsoft SQL JDBC 6.2.1.0 driver installation.

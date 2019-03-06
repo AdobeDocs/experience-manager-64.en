@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
 discoiquuid: d7266019-2849-49a7-8ac5-cc8448886489
-index: y
-internal: n
-snippet: y
 ---
 
 # Data Modeling - David Nuescheler's Model{#data-modeling-david-nuescheler-s-model}
@@ -34,7 +31,7 @@ I would like to start filling this void by expressing my personal opinions on ho
 
 >[!NOTE]
 >
->*****Disclaimer*: These guidelines express my personal, sometimes controversial views. I am looking forward to debate these guidelines and refine them.****
+>***Disclaimer*: These guidelines express my personal, sometimes controversial views. I am looking forward to debate these guidelines and refine them.**
 
 ### Seven Simple Rules {#seven-simple-rules}
 

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4
 topic-tags: release-notes
 content-type: reference
 discoiquuid: b55ad160-1993-423f-b178-a36f5ec49044
-index: y
-internal: n
-snippet: y
 ---
 
 # Touch UI Feature Status{#touch-ui-feature-status}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
 discoiquuid: df001d74-bee9-416b-a38b-1a6d8581eeb7
-index: y
-internal: n
-snippet: y
 ---
 
 # Content Fragment Templates{#content-fragment-templates}

@@ -10,9 +10,6 @@ geptopics: SG_AEMFORMS/categories/rendering_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: c4735c02-c09e-423b-b71c-f4a52af92394
-index: y
-internal: n
-snippet: y
 ---
 
 # Optimizing the Performance of theForms Service{#optimizing-the-performance-of-theforms-service}

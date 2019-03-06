@@ -10,9 +10,6 @@ topic-tags: integration
 content-type: reference
 topic-tags: best-practices
 discoiquuid: ea9828c2-e1e8-40db-b5e6-29fe5ddaa133
-index: y
-internal: n
-snippet: y
 ---
 
 # Best Practices for Email Templates{#best-practices-for-email-templates}

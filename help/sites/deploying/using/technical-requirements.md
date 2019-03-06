@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: platform
 discoiquuid: 4a826384-f330-4ecd-bbf6-221d7d33013b
-index: y
-internal: n
-snippet: y
 ---
 
 # Technical Requirements{#technical-requirements}

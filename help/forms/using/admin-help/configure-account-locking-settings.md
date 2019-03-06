@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/setting_up_and_managing_domains
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: e0cbddca-68d4-4487-b7aa-d5923ef20f57
-index: y
-internal: n
-snippet: y
 ---
 
 # Configure account-locking settings{#configure-account-locking-settings}

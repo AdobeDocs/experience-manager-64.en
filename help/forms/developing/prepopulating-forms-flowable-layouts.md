@@ -9,9 +9,6 @@ geptopics: SG_AEMFORMS/categories/rendering_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: b4abd901-4010-49b9-a5d2-24a114d3569f
-index: y
-internal: n
-snippet: y
 ---
 
 # Prepopulating Forms with Flowable Layouts{#prepopulating-forms-with-flowable-layouts}

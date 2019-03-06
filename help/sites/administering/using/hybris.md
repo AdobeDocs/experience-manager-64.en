@@ -10,9 +10,6 @@ topic-tags: e-commerce
 content-type: reference
 discoiquuid: 2e132121-5aa1-4ace-81da-f7ab32c25efc
 pagetitle: Administering hybris
-index: y
-internal: n
-snippet: y
 ---
 
 # hybris{#hybris}

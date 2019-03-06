@@ -10,9 +10,6 @@ topic-tags: operations
 content-type: reference
 discoiquuid: 4dba3330-2ab0-4e60-8457-8502f9cd6124
 legacypath: /content/docs/en/aem/6-2/administer/operations/page-authoring/configuring-responsive-layouting
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring Layout Container and Layout Mode{#configuring-layout-container-and-layout-mode}
@@ -41,7 +38,8 @@ AEM realizes responsive layout for your pages using a combination of mechanisms:
 * ** [Layout Mode](../../../sites/authoring/using/responsive-layout.md#defining-layouts-layout-mode)** 
   Once the layout container is positioned on your page you can use the **Layout** mode to position content within the responsive grid.
 
-* [**Emulator**](../../../sites/authoring/using/responsive-layout.md#selectingadevicetoemulate)**** 
+* [**Emulator**](../../../sites/authoring/using/responsive-layout.md#selectingadevicetoemulate)
+
   This allows you to create and edit responsive websites that rearrange the layout according to device/window size by resizing components interactively. The user can then see how the content will be rendered using the Emulator.
 
 >[!CAUTION]

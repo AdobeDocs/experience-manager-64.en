@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: f2f7c20c-1ed7-407a-b374-1ca6e35358bd
-index: y
-internal: n
-snippet: y
 ---
 
 # DocConverter Service Java API QuickStart(SOAP){#docconverter-service-java-api-quickstart-soap}

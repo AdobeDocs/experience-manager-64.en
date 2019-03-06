@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/managing_certificates_and_credentials
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 303210ac-bcbd-4f8e-a242-d636d011b087
-index: y
-internal: n
-snippet: y
 ---
 
 # Basics of managing certificates and credentials{#basics-of-managing-certificates-and-credentials}

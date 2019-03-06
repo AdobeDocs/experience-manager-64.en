@@ -10,9 +10,6 @@ topic-tags: platform
 content-type: reference
 discoiquuid: 0458ebbd-99c7-47bf-8521-8880216531a1
 legacypath: /content/docs/en/aem/6-1/develop/the-basics/templates
-index: y
-internal: n
-snippet: y
 ---
 
 # Templates{#templates}

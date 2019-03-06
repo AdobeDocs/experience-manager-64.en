@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: authoring-on-demand-services-app
 discoiquuid: d781eca3-ad3b-4727-a101-89b369a86ace
-index: y
-internal: n
-snippet: y
 ---
 
 # Application Create and Configuration Actions{#application-create-and-configuration-actions}
@@ -62,7 +59,7 @@ You must have an existing mobile app template (or an app installed that has an a
 
 Once you create an On-Demand app from the application dashboard, the next step is to associate your app to the cloud configuration.
 
-See [Associating your app to the Cloud Configuration](../../mobile/using/mobile-on-demand-associating-an-On-Demand-app-to-cloud-configuration.md) for more details.
+See [Associating your app to the Cloud Configuration](../../mobile/using/mobile-on-demand-associating-an-on-demand-app-to-cloud-configuration.md) for more details.
 
 ### Getting Ahead {#getting-ahead}
 

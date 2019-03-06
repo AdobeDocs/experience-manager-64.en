@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: authoring
 discoiquuid: 2d579802-9a65-48a9-8aaa-0589e8351cbd
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating and Managing Locations{#creating-and-managing-locations}

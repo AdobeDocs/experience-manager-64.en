@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: 67a3d698-9bff-4baf-8a20-7a93d91ecb5d
-index: y
-internal: n
-snippet: y
 ---
 
 # Task Manager Service Java API QuickStart(SOAP){#task-manager-service-java-api-quickstart-soap}

@@ -9,9 +9,6 @@ content-type: reference
 discoiquuid: a4dfda4e-4bb3-4250-9c64-72df3647e8f8
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/mobile/using/administer-mobile-apps
-index: y
-internal: n
-snippet: y
 ---
 
 # Working with Models{#working-with-models}
@@ -45,7 +42,7 @@ Once you have defined the configurations in the Configuration Browser, you can c
    ![](assets/chlimage_1.png)
 
 1. Click **Create** to create a new model.
-1. Choose the type of template: **Entity Group** or **Primitives Types Model**. Click **Next**.
+1. Choose the type of template:** Entity Group** or **Primitives Types Model**. Click **Next**.
 
    ![](assets/chlimage_1-1.png)
 

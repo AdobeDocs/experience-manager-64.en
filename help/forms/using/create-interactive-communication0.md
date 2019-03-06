@@ -7,9 +7,6 @@ uuid: 5a9df65c-b63d-4005-99d9-08e5c9ab2046
 contentOwner: anujkapo
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 5c455cf1-05f6-47b8-84b5-24e49ca2a6b3
-index: y
-internal: n
-snippet: y
 ---
 
 # Tutorial: Create Interactive Communication {#tutorial-create-interactive-communication}

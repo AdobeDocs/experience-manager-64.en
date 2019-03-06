@@ -10,9 +10,6 @@ topic-tags: administering
 content-type: reference
 discoiquuid: bc639a72-bd03-4064-891a-7887945c9c73
 pagetitle: Community Groups Console
-index: y
-internal: n
-snippet: y
 ---
 
 # Community Groups Console{#community-groups-console}
@@ -46,7 +43,7 @@ Several facets of community groups are :
 To access the Groups console :
 
 * on author, sign in with administrator privileges
-* from global navigation : **Communities, Sites**
+* from global navigation :** Communities, Sites**
 * select an existing community site folder to open it
 * select an instance of a community site within the folder
 

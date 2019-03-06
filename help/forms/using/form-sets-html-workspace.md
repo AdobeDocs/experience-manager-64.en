@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: 8cd2a93a-3797-46f2-9b47-c9dc570394f3
-index: y
-internal: n
-snippet: y
 ---
 
 # Working with Formsets in AEM Forms workspace{#working-with-formsets-in-aem-forms-workspace}

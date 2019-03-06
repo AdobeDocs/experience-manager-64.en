@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
 discoiquuid: b71f43e7-ada3-42f9-86cf-8312ec22375c
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring your Page for Bulk Editing of Page Properties{#configuring-your-page-for-bulk-editing-of-page-properties}

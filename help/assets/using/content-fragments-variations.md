@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: content-fragments
 content-type: reference
 discoiquuid: d5f9dafc-5534-42a6-acb9-c07f884477db
-index: y
-internal: n
-snippet: y
 ---
 
 # Variations - Authoring Fragment Content{#variations-authoring-fragment-content}
@@ -186,7 +183,7 @@ Summarizing text is designed to help users reduce the length of their text to a 
 >
 >For example, `en/` as in the following path:
 >
->`/content/dam/my-brand/`****[!UICONTROL en]**** `/path-down/my-content-fragment`
+>`/content/dam/my-brand/`**[!UICONTROL en]** `/path-down/my-content-fragment`
 
 >[!CAUTION]
 >

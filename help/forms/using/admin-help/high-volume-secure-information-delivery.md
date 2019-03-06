@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_document_security
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: fe3504be-ec5b-4970-899c-7ec6a507e4bc
-index: y
-internal: n
-snippet: y
 ---
 
 # High-volume secure information delivery{#high-volume-secure-information-delivery}

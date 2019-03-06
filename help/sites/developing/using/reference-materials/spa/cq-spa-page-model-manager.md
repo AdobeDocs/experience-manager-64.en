@@ -8,9 +8,6 @@ contentOwner: carlino
 discoiquuid: 243cd657-fcdf-4947-90cb-49fd04fedda9
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/sites/developing/using/reference-materials
-index: y
-internal: n
-snippet: y
 ---
 
 # cq-spa-page-model-manager{#cq-spa-page-model-manager}

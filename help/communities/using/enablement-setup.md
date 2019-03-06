@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: introduction
 content-type: reference
 discoiquuid: ec421ba6-763e-4400-9d40-f47abe241bd1
-index: y
-internal: n
-snippet: y
 ---
 
 # Initial Setup for Enablement{#initial-setup-for-enablement}

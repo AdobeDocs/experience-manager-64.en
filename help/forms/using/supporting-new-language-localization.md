@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: Configuration
 discoiquuid: 019a2aae-30c6-4735-9c63-82dddf3a6fa0
-index: y
-internal: n
-snippet: y
 ---
 
 # Supporting new locales for adaptive forms localization{#supporting-new-locales-for-adaptive-forms-localization}

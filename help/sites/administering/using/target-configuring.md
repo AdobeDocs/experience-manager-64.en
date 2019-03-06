@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: 8909e926-9b7a-4a22-b56b-35ecc45744b6
-index: y
-internal: n
-snippet: y
 ---
 
 # Manually Configuring the Integration with Adobe Target {#manually-configuring-the-integration-with-adobe-target}
@@ -41,7 +38,7 @@ The following property values are used in the Provisioned Target Configuration c
 * **Use DTM to deliver client library:** Not selected. Select this option if you [use DTM](../../../sites/administering/using/dtm.md) or another tag management system to host the mbox.js or AT.js file. Adobe recommends that you use DTM rather than AEM to deliver the library.
 
 * **Custom mbox.js:** None specified so that the default mbox.js file is used. Specify a custom mbox.js file to use as necessary. Only appears if you have selected mbox.js.
-* **Custom AT.js: **None specified so that the default AT.js file is used. Specify a custom AT.js file to use as needed. Only appears if you have selected AT.js.
+* **Custom AT.js:** None specified so that the default AT.js file is used. Specify a custom AT.js file to use as needed. Only appears if you have selected AT.js.
 
 >[!NOTE]
 >
@@ -164,7 +161,7 @@ Use the following procedure to create a Target cloud configuration in AEM:
     * **API Type**: either REST or XML
     * **A4T Analytics Cloud Configuration**: Select the Analytics cloud configuration that is used for target activity goals and metrics. You need this if you are using Adobe Analytics as the reporting source when targeting content. If you do not see your cloud configuration, see note in [Configuring A4T Analytics Cloud Configuration](#configuringa4tanalyticscloudconfiguration).
     
-    * **Use accurate targeting: **By default this check box is selected. If selected, the cloud service configuration will wait for the context to load before loading content. See note that follows.
+    * **Use accurate targeting:** By default this check box is selected. If selected, the cloud service configuration will wait for the context to load before loading content. See note that follows.
     * **Synchronize Segments from Adobe Target:** Select this option to download segments that are defined in Target to use them in AEM. You must select this option when the API Type property is REST, because inline segments are not supported and you always need to use segments from Target. (Note that the AEM term of 'segment' is equivalent to the Target 'audience'.)
     * **Client library:** Select whether you want the mbox.js or AT.js client library. 
     * **Use DTM to deliver client library** - Select this option to use either AT.js or mbox.js from DTM or another tag managment system. You must [configure the DTM integration](../../../sites/administering/using/dtm.md) to use this option. Adobe recommends that you use DTM rather than AEM to deliver the library.

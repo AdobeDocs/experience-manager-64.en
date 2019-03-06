@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: platform
 discoiquuid: fd5a6d00-9973-46f7-be80-92c9bee9131f
-index: y
-internal: n
-snippet: y
 ---
 
 # Developing (generic){#developing-generic}
@@ -90,7 +87,7 @@ A session to store information related to the customer's shopping cart.
 
 The **CommerceSession**:
 
-* Owns the **s****hopping ****c****art**
+* Owns the **shopping cart**
 
     * performs add/remove/etc
     * performs the various calculations on the cart;  

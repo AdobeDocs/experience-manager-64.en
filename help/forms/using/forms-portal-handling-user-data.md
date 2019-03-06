@@ -8,9 +8,6 @@ contentOwner: vishgupt
 topic-tags: grdp
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 1369f18b-a801-4696-bf7f-536ec4c5b15a
-index: y
-internal: n
-snippet: y
 ---
 
 # Forms Portal | Handling user data{#forms-portal-handling-user-data}

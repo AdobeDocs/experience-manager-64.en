@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_pdf_generator
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: dd446f1d-326f-43c4-b0c3-1e8974a0a49c
-index: y
-internal: n
-snippet: y
 ---
 
 # Enable PDF/A support{#enable-pdf-a-support}

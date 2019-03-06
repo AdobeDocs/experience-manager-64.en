@@ -8,9 +8,6 @@ contentOwner: sashanka
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: a38b2927-16d3-4639-9450-7382965e83c4
-index: y
-internal: n
-snippet: y
 ---
 
 # Adaptive Form Templates{#adaptive-form-templates}
@@ -56,8 +53,8 @@ When you open a template for editing, you can see the following AEM Editor compo
     
     * **Preview:** Lets you preview how the template looks when you publish it. You can use Layer Selector and Preview to toggle editing and preview modes.
 
-* **Sidebar: **Provides the Content, Properties, Assets, and Components browsers. 
-* **Component toolbar: **When you select a component, you see a toolbar that lets you customize the component. 
+* **Sidebar:** Provides the Content, Properties, Assets, and Components browsers. 
+* **Component toolbar:** When you select a component, you see a toolbar that lets you customize the component. 
 * **Page**: The area where you add content to create the template.
 
 See [Introduction to authoring adaptive forms](../../forms/using/introduction-forms-authoring.md) to understand the Touch UI editor.

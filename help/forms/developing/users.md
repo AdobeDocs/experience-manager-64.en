@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: f2ce7f79-42d1-4a79-bb6b-bed4a0a2ed34
-index: y
-internal: n
-snippet: y
 ---
 
 # Managing Users{#managing-users}

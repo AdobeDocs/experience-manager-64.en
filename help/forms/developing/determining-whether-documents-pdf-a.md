@@ -10,9 +10,6 @@ geptopics: SG_AEMFORMS/categories/assembling_pdf_documents
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: 1328d711-443c-45aa-8703-e550ad37506e
-index: y
-internal: n
-snippet: y
 ---
 
 # Determining Whether Documents Are PDF/A-Compliant{#determining-whether-documents-are-pdf-a-compliant}

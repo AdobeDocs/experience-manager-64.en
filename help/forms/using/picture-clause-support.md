@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
 discoiquuid: 0074e56f-78f1-4457-8bc6-aa714d18ebc2
-index: y
-internal: n
-snippet: y
 ---
 
 # Picture clause support for HTML5 forms{#picture-clause-support-for-html-forms}

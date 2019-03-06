@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
 discoiquuid: 8aa25ca3-ef6f-4330-994b-6f1b815f0766
-index: y
-internal: n
-snippet: y
 ---
 
 # Tagging{#tagging}

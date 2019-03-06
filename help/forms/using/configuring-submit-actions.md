@@ -7,9 +7,6 @@ uuid: 4c9394d8-8a82-4c7b-9bc9-2ab3cef1a717
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
 discoiquuid: 1c60e509-2d36-4002-83bc-67297a46b21a
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring the Submit action{#configuring-the-submit-action}

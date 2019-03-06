@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
 discoiquuid: c9cff258-13e5-42f9-9707-037f7c80d8f1
-index: y
-internal: n
-snippet: y
 ---
 
 # Landing Pages{#landing-pages}
@@ -40,7 +37,7 @@ In AEM, you create landing pages by performing the following steps:
 1. [Prepare the HTML and assets.](../../../sites/administering/using/extending-the-design-importer-for-landingpages.md)
 1. Package the resources into a ZIP file referred to here as the Design Package.  
 1. Import the design package on the importer page.  
-1. Modify and publish the page.****
+1. Modify and publish the page.
 
 ### Desktop Landing Pages {#desktop-landing-pages}
 

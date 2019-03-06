@@ -10,9 +10,6 @@ topic-tags: introduction
 content-type: reference
 topic-tags: page-authoring
 discoiquuid: aaaea744-ad2e-4e44-be6d-1966634580eb
-index: y
-internal: n
-snippet: y
 ---
 
 # First Steps for Authors{#first-steps-for-authors}

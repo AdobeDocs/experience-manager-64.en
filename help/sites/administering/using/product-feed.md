@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: 887c7474-a9ef-450b-b8d0-67ec298ed9ae
-index: y
-internal: n
-snippet: y
 ---
 
 # Product Feed{#product-feed}

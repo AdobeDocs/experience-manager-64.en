@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: developing-adobe-phonegap-enterprise
 discoiquuid: e2d650e4-f5fb-49d9-a7ef-8844d5c22e32
-index: y
-internal: n
-snippet: y
 ---
 
 # Add Adobe Analytics to your Mobile Application{#add-adobe-analytics-to-your-mobile-application}

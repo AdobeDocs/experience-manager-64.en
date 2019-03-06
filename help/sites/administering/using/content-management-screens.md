@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: content
 content-type: reference
 discoiquuid: 2eeddf30-156a-496c-b103-65260a125d6e
-index: y
-internal: n
-snippet: y
 ---
 
 # Content Management for Screens{#content-management-for-screens}

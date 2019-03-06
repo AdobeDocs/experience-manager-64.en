@@ -9,9 +9,6 @@ content-type: reference
 topic-tags: components
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 discoiquuid: aafd0fa2-ab4f-4116-9947-e94c84863250
-index: y
-internal: n
-snippet: y
 ---
 
 # Enabling JSON Export for a Component{#enabling-json-export-for-a-component}

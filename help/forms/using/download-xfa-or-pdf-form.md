@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-manager
 discoiquuid: d80acb50-8ec9-4604-a04a-d84f27782205
-index: y
-internal: n
-snippet: y
 ---
 
 # Download an XFA or a PDF form template{#download-an-xfa-or-a-pdf-form-template}

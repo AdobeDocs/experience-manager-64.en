@@ -8,9 +8,6 @@ uuid: 76ba484d-0c3d-4598-969a-95f8d0a3de5c
 contentOwner: aheimoz
 discoiquuid: d327bb26-25fd-4a65-94a0-5d12ec090755
 noindex: true
-index: y
-internal: n
-snippet: y
 ---
 
 # DO NOT PUBLISH, BUT DO NOT DELETE Customizing Data Types for Content Fragment Models{#do-not-publish-but-do-not-delete-customizing-data-types-for-content-fragment-models}

@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_pdf_generator
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: ae7a456f-783e-4cfb-8f25-9a7ab7167f42
-index: y
-internal: n
-snippet: y
 ---
 
 # Modifying the PDF Export conversion settings{#modifying-the-pdf-export-conversion-settings}

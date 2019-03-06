@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: administering
 content-type: reference
 discoiquuid: 4a19d421-344f-4116-8078-c3b29bd5a83f
-index: y
-internal: n
-snippet: y
 ---
 
 # Implementing Windows 10 Player{#implementing-windows-player}

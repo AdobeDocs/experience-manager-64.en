@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/managing_certificates_and_credentials
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: f4e4e41e-0cde-4f11-a1c0-b80c930396d5
-index: y
-internal: n
-snippet: y
 ---
 
 # Managing local credentials{#managing-local-credentials}
@@ -29,9 +26,9 @@ For information and instructions related to Acrobat Reader DC extensions, see [C
 1. In administration console, click Settings &gt;Trust Store Management &gt; Local Credentials.
 1. Click Import. Under Trust Store Type, select one of these options:
 
-    * **Document Signing Credential: **A credential used to issue a digital signature on a document.
-    * **Acrobat Reader DC extensions Credential: **A digital certificate specific to Acrobat Reader DC extensions that enables Adobe Reader usage rights to be activated in the PDF documents produced.
-    * **Default: **Indicates that this is the default credential to use with Acrobat Reader DC extensions.
+    * **Document Signing Credential:** A credential used to issue a digital signature on a document.
+    * **Acrobat Reader DC extensions Credential:** A digital certificate specific to Acrobat Reader DC extensions that enables Adobe Reader usage rights to be activated in the PDF documents produced.
+    * **Default:** Indicates that this is the default credential to use with Acrobat Reader DC extensions.
 
    For information about obtaining a credential, see [Preparing to Install AEM forms](http://www.adobe.com/go/learn_aemforms_prepareInstallsingle_63).
 

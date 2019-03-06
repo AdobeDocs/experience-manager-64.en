@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/aem_forms_backup_and_recovery
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: b29e7e3f-93c1-40b2-a39e-3d222c4ab056
-index: y
-internal: n
-snippet: y
 ---
 
 # Files to back up and recover{#files-to-back-up-and-recover}

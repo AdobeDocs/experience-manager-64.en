@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
 content-type: reference
 discoiquuid: 7d72af33-0e48-495b-aef4-e10d5bfc6f0a
-index: y
-internal: n
-snippet: y
 ---
 
 # Best practices for HTML5 forms{#best-practices-for-html-forms}

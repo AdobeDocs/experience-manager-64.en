@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
 discoiquuid: bae6326e-ff39-4606-a77f-f6bccf51814f
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating and Consuming Jobs for Offloading{#creating-and-consuming-jobs-for-offloading}

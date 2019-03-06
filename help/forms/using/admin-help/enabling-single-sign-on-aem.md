@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_user_management
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: c0c8eec7-63c7-4eee-a65e-5990f43c8d95
-index: y
-internal: n
-snippet: y
 ---
 
 # Enabling single sign-on in AEM forms{#enabling-single-sign-on-in-aem-forms}
@@ -32,11 +29,11 @@ You can also enable SSO by using SPNEGO. (See [Enable SSO using SPNEGO](enabling
 1. Select Yes to enable SSO. If you select No, the remaining settings on the page are unavailable.
 1. Set the remaining options on the page as required and click OK:
 
-    * **SSO type: **(Mandatory) Select HTTP Header to enable SSO using HTTP headers.
-    * **HTTP header for user’s identifier: **(Mandatory) Name of the header whose value contains the logged-in user’s unique identifier. User Management uses this value to find the user in the User Management database. The value obtained from this header should match the unique identifier of the user who is synchronized from the LDAP directory. (See [User settings](../../../forms/using/admin-help/adding-configuring-users.md#user-settings).) 
-    * **Identifier value maps to user’s User ID instead of user’s unique identifier: **Maps the user’s unique identifier value to the User ID. Select this option if the user’s unique identifier is a binary value that cannot be easily propagated through HTTP headers (for example, objectGUID if you are synchronizing users from Active Directory).
-    * **HTTP header for domain: **(Not mandatory) Name of the header whose value contains the domain name. Use this setting only if no single HTTP header uniquely identifies the user. Use this setting for cases where multiple domains exist and the unique identifier is unique only within a domain. In this case, specify the header name in this text box and specify domain mapping for the multiple domains in the Domain mapping box. (See [Editing and converting existing domains](../../../forms/using/admin-help/editing-converting-existing-domains.md#editing-and-converting-existing-domains).)
-    * **Domain mapping: **(Mandatory) Specifies mapping for multiple domains in the format *header value=domain name*.
+    * **SSO type:** (Mandatory) Select HTTP Header to enable SSO using HTTP headers.
+    * **HTTP header for user’s identifier:** (Mandatory) Name of the header whose value contains the logged-in user’s unique identifier. User Management uses this value to find the user in the User Management database. The value obtained from this header should match the unique identifier of the user who is synchronized from the LDAP directory. (See [User settings](../../../forms/using/admin-help/adding-configuring-users.md#user-settings).) 
+    * **Identifier value maps to user’s User ID instead of user’s unique identifier:** Maps the user’s unique identifier value to the User ID. Select this option if the user’s unique identifier is a binary value that cannot be easily propagated through HTTP headers (for example, objectGUID if you are synchronizing users from Active Directory).
+    * **HTTP header for domain:** (Not mandatory) Name of the header whose value contains the domain name. Use this setting only if no single HTTP header uniquely identifies the user. Use this setting for cases where multiple domains exist and the unique identifier is unique only within a domain. In this case, specify the header name in this text box and specify domain mapping for the multiple domains in the Domain mapping box. (See [Editing and converting existing domains](../../../forms/using/admin-help/editing-converting-existing-domains.md#editing-and-converting-existing-domains).)
+    * **Domain mapping:** (Mandatory) Specifies mapping for multiple domains in the format *header value=domain name*.
 
       For example, consider a situation where the HTTP header for a domain is domainName, and it can have values of domain1, domain2, or domain3. In this case, use domain mapping to map the domainName values to User Management domain names. Each mapping must be on a different line:
 
@@ -73,10 +70,10 @@ You can also enable SSO by using HTTP headers. (See [Enable SSO using HTTP heade
         * **Authentication Provider:** Kerberos
         * **DNS IP:** The DNS IP address of the server where AEM forms is running. You can determine this IP address by running `ipconfig/all` on the command line.
         * **KDC Host:** Fully qualified host name or IP address of the Active Directory server used for authentication
-        * **Service User: **The service principal name (SPN) passed to the KtPass tool. In the example used earlier, the service user is `HTTP/lcserver.um.lc.com`.
+        * **Service User:** The service principal name (SPN) passed to the KtPass tool. In the example used earlier, the service user is `HTTP/lcserver.um.lc.com`.
         * **Service Realm:** Domain name for Active Directory. In the example used earlier, the Domain name is `UM.LC.COM.`
         * **Service Password:** Service user’s password. In the example used earlier, the service password is `password`.
-        * **Enable SPNEGO: **Enables the use of SPNEGO for single sign-on (SSO). Select this option.
+        * **Enable SPNEGO:** Enables the use of SPNEGO for single sign-on (SSO). Select this option.
 
 1. Configure SPNEGO client browser settings. (See [Configuring SPNEGO client browser settings](enabling-single-sign-on-aem#configuring_spnego_client_browser_settings).)
 
@@ -111,7 +108,7 @@ You can also enable SSO by using HTTP headers. (See [Enable SSO using HTTP heade
    **REALM:** The Active Directory realm for the domain controller. In this example, it is set to UM.LC.COM. Ensure that you enter the realm in uppercase characters. To determine the realm for Windows 2003, complete the following steps:
 
     * Right-click My Computer and select Properties 
-    * Click the Computer Name tab. The**** Domain Name value is the realm name.
+    * Click the Computer Name tab. The **Domain Name** value is the realm name.
 
    **user:** The login name of the user account you created in the previous task. In this example, it is set to spnegodemo.
 

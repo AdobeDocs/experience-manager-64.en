@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
 discoiquuid: 7730ecd5-0c09-4002-9528-a2d776e1d0c8
-index: y
-internal: n
-snippet: y
 ---
 
 # Integrating AEM Assets with InDesign Server{#integrating-aem-assets-with-indesign-server}

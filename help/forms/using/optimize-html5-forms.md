@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
 discoiquuid: c64e81a2-9d71-447e-bbf5-9f47156fefeb
-index: y
-internal: n
-snippet: y
 ---
 
 # Optimizing HTML5 forms{#optimizing-html-forms}
