@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: 044e13b4-0165-4f77-baed-609b897b73fe
-index: y
-internal: n
-snippet: y
 ---
 
 # Community Functions{#community-functions}
@@ -30,7 +27,7 @@ A number of community functions are immediately available as seen in the communi
 
 In the author environment, to reach the community functions console
 
-* from global navigation : **Tools, Communities, Community Functions**
+* from global navigation :** Tools, Communities, Community Functions**
 
 ![](assets/chlimage_1-379.png)
 

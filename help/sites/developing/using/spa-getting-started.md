@@ -8,9 +8,6 @@ contentOwner: bohnert
 discoiquuid: a066ea57-d249-433c-bd9f-8d0f43f9bbac
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/sites/developing/using/spa-getting-started-angular
-index: y
-internal: n
-snippet: y
 ---
 
 # REDIRECT Getting Started with SPAs in AEM{#redirect-getting-started-with-spas-in-aem}

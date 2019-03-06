@@ -8,9 +8,6 @@ products: SG_EXPERIENCEMANAGER/6.3/FORMS
 content-type: reference
 topic-tags: correspondence-management
 discoiquuid: d1c1b772-8855-4cc7-8b5d-e310a04559f4
-index: y
-internal: n
-snippet: y
 ---
 
 # Reference letter templates{#reference-letter-templates}

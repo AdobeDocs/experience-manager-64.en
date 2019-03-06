@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: introduction
 discoiquuid: 0dfc3c4b-fccd-4bcb-9802-a1b157ceda96
-index: y
-internal: n
-snippet: y
 ---
 
 # Set up and configure AEM Forms reference sites{#set-up-and-configure-aem-forms-reference-sites}

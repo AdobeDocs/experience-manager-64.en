@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: authoring-adobe-phonegap-enterprise
 discoiquuid: 696fb32b-fe11-4d99-a702-40c998c4e7c2
-index: y
-internal: n
-snippet: y
 ---
 
 # Editing App Metadata{#editing-app-metadata}

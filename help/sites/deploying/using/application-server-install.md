@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
 discoiquuid: b4bb73d6-caa5-4d09-af64-5071a2ebd179
-index: y
-internal: n
-snippet: y
 ---
 
 # Application Server Install{#application-server-install}

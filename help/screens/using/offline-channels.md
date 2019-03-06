@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: developing
 discoiquuid: 3b0e34b9-dabf-45eb-90ce-6558fa1616b7
-index: y
-internal: n
-snippet: y
 ---
 
 # Offline Channels{#offline-channels}

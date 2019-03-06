@@ -6,9 +6,6 @@ seo-description: Use metadata to populate information in a forms workflow email 
 uuid: 3261d6e9-da44-487e-990d-8d7c67517d95
 topic-tags: publish
 discoiquuid: 7d9bb2cd-8230-43c0-87f9-204069e59721
-index: y
-internal: n
-snippet: y
 ---
 
 # Use metadata in an email notification {#use-metadata-in-an-email-notification}

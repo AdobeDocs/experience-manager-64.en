@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: customization
 discoiquuid: 2c7b41ce-f182-4f8a-bc20-46e954e7d06a
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating a custom adaptive form template{#creating-a-custom-adaptive-form-template}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: f17d3dfe-f965-4509-85a6-9aef2cbb5809
-index: y
-internal: n
-snippet: y
 ---
 
 # QnA Essentials{#qna-essentials}

@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/setting_up_and_organizing_users
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 4652ab00-490f-4c5f-bed7-66d59b42057f
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating and configuring roles{#creating-and-configuring-roles}

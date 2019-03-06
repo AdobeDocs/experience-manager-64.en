@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/maintaining_the_application_server
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: be2a9da2-925a-43b4-bceb-aaa591d7cfff
-index: y
-internal: n
-snippet: y
 ---
 
 # Starting and stopping WebSphere Application Server{#starting-and-stopping-websphere-application-server}

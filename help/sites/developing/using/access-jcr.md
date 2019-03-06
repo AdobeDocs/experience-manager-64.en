@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
 discoiquuid: ae68413f-8e71-4926-bed1-408242984ad7
-index: y
-internal: n
-snippet: y
 ---
 
 # How to programmatically access the AEM JCR{#how-to-programmatically-access-the-aem-jcr}

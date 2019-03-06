@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
 discoiquuid: 1fef6687-fdb2-4073-9506-1251efaa917f
-index: y
-internal: n
-snippet: y
 ---
 
 # Saving a task or form as a draft{#saving-a-task-or-form-as-a-draft}

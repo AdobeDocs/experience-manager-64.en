@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: upgrading
 discoiquuid: bb004fd5-1ab9-44dc-891e-e5b5dc0a2908
-index: y
-internal: n
-snippet: y
 ---
 
 # Sustainable Upgrades{#sustainable-upgrades}

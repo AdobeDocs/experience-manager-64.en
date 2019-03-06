@@ -10,9 +10,6 @@ topic-tags: dynamic-media
 content-type: reference
 discoiquuid: 4c1fa5c5-d215-489f-82cd-7008d12c7156
 legacypath: /content/docs/en/aem/6-0/administer/integration/dynamic-media
-index: y
-internal: n
-snippet: y
 ---
 
 # Setting Up Dynamic Media{#setting-up-dynamic-media}

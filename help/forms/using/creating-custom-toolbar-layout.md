@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: customization
 discoiquuid: 679b5524-3c70-421a-bd17-c9a684b180d6
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating custom toolbar layout{#creating-custom-toolbar-layout}

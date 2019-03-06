@@ -8,9 +8,6 @@ products: SG_EXPERIENCEMANAGER/6.3/FORMS
 topic-tags: develop
 topic-tags: Configuration
 discoiquuid: 9b0433e7-7e6e-4faf-974f-9493160fb665
-index: y
-internal: n
-snippet: y
 ---
 
 # Configure Microsoft Dynamics 365 for the home mortgage workflow of the We.Finance reference site{#configure-microsoft-dynamics-for-the-home-mortgage-workflow-of-the-we-finance-reference-site}

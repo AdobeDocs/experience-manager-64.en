@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
 discoiquuid: 43d646b9-f40b-4df9-88e6-fc6b0255b55a
-index: y
-internal: n
-snippet: y
 ---
 
 # Customizing the Welcome Console (Classic UI){#customizing-the-welcome-console-classic-ui}

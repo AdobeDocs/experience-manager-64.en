@@ -8,9 +8,6 @@ contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 discoiquuid: a6f68b3a-f2c2-4456-9228-bcbe84bac584
-index: y
-internal: n
-snippet: y
 ---
 
 # Web Console{#web-console}

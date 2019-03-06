@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: configuring
 content-type: reference
 discoiquuid: 436bcbff-5549-4bca-bb1a-32160504fccf
-index: y
-internal: n
-snippet: y
 ---
 
 # Version Purging{#version-purging}

@@ -7,9 +7,6 @@ uuid: 133a239d-d79d-497f-a7bd-f34a789a4128
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: a5e4ee33-535d-400e-91e5-eb3fa11be5c4
-index: y
-internal: n
-snippet: y
 ---
 
 # Styling constructs for adaptive forms{#styling-constructs-for-adaptive-forms}

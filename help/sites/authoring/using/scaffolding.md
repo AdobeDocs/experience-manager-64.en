@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
 discoiquuid: d95d85d2-31fa-4181-b9ac-b9824c8a80f1
-index: y
-internal: n
-snippet: y
 ---
 
 # Scaffolding{#scaffolding}

@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
 discoiquuid: b5e44024-c079-4e27-a839-c0e41591eb8d
-index: y
-internal: n
-snippet: y
 ---
 
 # Form set in AEM Forms{#form-set-in-aem-forms}

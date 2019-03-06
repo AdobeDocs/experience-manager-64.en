@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: 12221bcd-d547-4adf-b495-c0b5bfb59f42
-index: y
-internal: n
-snippet: y
 ---
 
 # Minification of the JavaScript files{#minification-of-the-javascript-files}

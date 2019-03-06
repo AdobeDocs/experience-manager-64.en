@@ -10,9 +10,6 @@ topic-tags: e-commerce
 content-type: reference
 discoiquuid: 9ba1c9c1-46a8-4cd5-a922-0d6034e81ad6
 pagetitle: Deploying eCommerce with Intershop
-index: y
-internal: n
-snippet: y
 ---
 
 # Intershop{#intershop}

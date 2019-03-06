@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: authoring
 discoiquuid: 1219b1e8-f8ee-4dcc-88fa-99743e8703c2
-index: y
-internal: n
-snippet: y
 ---
 
 # Video Renditions{#video-renditions}
@@ -42,7 +39,7 @@ Follow the steps below to automatically generate full HD renditions:
 
    ![](assets/screen_shot_2018-02-01at124454pm.png)
 
-1. Select the **Process** tab to edit the process arguments. Enter the full HD profiles to the list in **Arguments** as: ***,profile:fullhd-bp,profile:fullhd-hp*** and click **OK**.
+1. Select the **Process** tab to edit the process arguments. Enter the full HD profiles to the list in **Arguments** as:** *,profile:fullhd-bp,profile:fullhd-hp*** and click **OK**.
 
    ![](assets/screen_shot_2018-02-02at103340am.png)
 

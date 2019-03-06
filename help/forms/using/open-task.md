@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
 discoiquuid: 7a307d20-4b8f-4fa5-92cc-a0f434507e8b
-index: y
-internal: n
-snippet: y
 ---
 
 # Opening a task{#opening-a-task}

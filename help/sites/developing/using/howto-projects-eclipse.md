@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: development-tools
 content-type: reference
 discoiquuid: 0b43423a-c96d-429a-ae19-affe70079fcb
-index: y
-internal: n
-snippet: y
 ---
 
 # How to Develop AEM Projects Using Eclipse{#how-to-develop-aem-projects-using-eclipse}

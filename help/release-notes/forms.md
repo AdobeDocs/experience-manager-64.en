@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4
 topic-tags: release-notes
 content-type: reference
 discoiquuid: a9d98786-c079-4194-97ca-50da159b98a5
-index: y
-internal: n
-snippet: y
 ---
 
 # AEM Forms{#aem-forms}

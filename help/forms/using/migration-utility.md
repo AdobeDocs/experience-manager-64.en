@@ -11,9 +11,6 @@ geptopics: SG_AEMFORMS/categories/jee
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 content-strategy: max-2018
 discoiquuid: 86e86b43-34d9-4033-803c-136aac3ad286
-index: y
-internal: n
-snippet: y
 ---
 
 # Migrate AEM Forms assets and documents{#migrate-aem-forms-assets-and-documents}
@@ -49,7 +46,7 @@ Then you need to import your asset package (zip or cmp) on the new setup and the
 
 For Correspondence Management assets:
 
-* For the assets that are imported from the previous platform, a property gets added: **fd:version=1.0**. 
+* For the assets that are imported from the previous platform, a property gets added:** fd:version=1.0**. 
 * Since AEM 6.1 Forms, comments are not available out of the box. The comments that were added previously are available in the assets but are not visible on the interface automatically. You need to customize the extendedProperties property in the AEM Forms user interface to make the comments visible. 
 * In some of the previous versions such as LiveCycle ES4, text was edited using Flex RichTextEditor, but since AEM 6.1 Forms, HTML editor is used. Due to this rendering and appearance of the fonts, font sizes, and font margins may be different from the previous versions in the Author user interface. However, the letters look the same when rendered. 
 * Lists in text modules are improved and now render differently. There may be visual differences. We recommend that you render and see the letters where you are using lists in text modules.

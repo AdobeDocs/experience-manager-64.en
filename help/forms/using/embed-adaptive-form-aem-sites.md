@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
 topic-tags: interactive-communications
 discoiquuid: d3a54b70-b288-4695-8990-f9bcfa1af4ec
-index: y
-internal: n
-snippet: y
 ---
 
 # Embed an adaptive form or interactive communication in AEM sites page{#embed-an-adaptive-form-or-interactive-communication-in-aem-sites-page}

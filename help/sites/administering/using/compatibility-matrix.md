@@ -7,9 +7,6 @@ page-status-flag: never-activated
 uuid: 0498c1da-e85b-4a44-89dc-003598978096
 contentOwner: jsyal
 discoiquuid: 42a2640e-a667-4c70-8abb-29bf89d808d9
-index: y
-internal: n
-snippet: y
 ---
 
 # Compatibility Matrix for AEM Screens Player{#compatibility-matrix-for-aem-screens-player}
@@ -87,7 +84,7 @@ aem-screens-player-windows-1.0.48-signed.exe.zip
 | **AEM Server Version** |**Android Player** |
 |---|---|
 | **AEM 6.3+SP1+Screens FP1(1.0.64_B002)** |**3.2.68 -** (Available on Macromedia Site) & Google Play Store |
-| ****AEM 6.3+SP1+Screens FP2(1.0.298)**** |**3.3.0 ** |
+| **AEM 6.3+SP1+Screens FP2(1.0.298)** |**3.3.0 ** |
 | **AEM 6.4** |**3.3.0 ** |
 
 ### Download Link {#download-link-2}

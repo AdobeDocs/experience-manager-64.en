@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
 topic-tags: authoring
 discoiquuid: 712bf32b-7f2b-4480-adae-23f4d45a43e6
-index: y
-internal: n
-snippet: y
 ---
 
 # GQL Full-text Search{#gql-full-text-search}

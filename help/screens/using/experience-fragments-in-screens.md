@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: authoring
 discoiquuid: f6e374bb-6019-400d-b852-65ea4fed7dc4
-index: y
-internal: n
-snippet: y
 ---
 
 # Using Experience Fragments{#using-experience-fragments}

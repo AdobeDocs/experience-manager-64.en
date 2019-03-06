@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: authoring-adobe-phonegap-enterprise
 discoiquuid: 726d2074-5e0f-4687-8518-c93e26b246da
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating a new AEM Mobile app using create wizard{#creating-a-new-aem-mobile-app-using-create-wizard}

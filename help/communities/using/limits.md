@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: 3124a7b9-fc74-4a88-a41c-80d0007c702f
-index: y
-internal: n
-snippet: y
 ---
 
 # Member Contribution Limits{#member-contribution-limits}

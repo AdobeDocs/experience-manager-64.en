@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: introduction
 content-type: reference
 discoiquuid: 6a8751b3-a004-44f2-b9ef-c5f116a63869
-index: y
-internal: n
-snippet: y
 ---
 
 # AEM Mobile On-Demand{#aem-mobile-on-demand}
@@ -96,7 +93,7 @@ An AEM author must understand the following topics, while creating an app using 
 
 * [AEM Mobile Application Dashboard](../../mobile/using/mobile-apps-ondemand-application-dashboard.md)
 * [Application Create and Configuration Actions](../../mobile/using/mobile-apps-ondemand-application-create-configure-action.md)
-* [Cloud Configuration](../../mobile/using/mobile-on-demand-associating-an-On-Demand-app-to-cloud-configuration.md)
+* [Cloud Configuration](../../mobile/using/mobile-on-demand-associating-an-on-demand-app-to-cloud-configuration.md)
 * [Managing Content](../../mobile/using/mobile-apps-ondemand-manage-content-ondemand.md)
 * [Content Services Overview](/mobile/using/content-as-a-service)
 

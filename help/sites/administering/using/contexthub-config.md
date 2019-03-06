@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
 discoiquuid: 6280f282-00fe-405e-9141-6b0da0c36661
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring ContextHub{#configuring-contexthub}
@@ -154,7 +151,7 @@ AEM provides the following sample store candidates upon which you can base a sto
 
     * **Configuration Title:** The title that identifies the store
     * **Store Type:** The value of the storeType property of the store candidate upon which to base the store
-    * **Required: **Select
+    * **Required:** Select
     * **Enabled:** Select to enable the store
 
 1. (Optional) To override the default store configuration, enter a JSON object in the Detail Configuration (JSON) box.
@@ -183,7 +180,7 @@ To save data from the MD5 service of the jsontest.com site, use the procedure in
 
 * **Configuration Title:** md5
 * **Store Type:** contexthub.generic-jsonp
-* **Required: **Select
+* **Required:** Select
 * **Enabled:** Select
 * **Detail Configuration (JSON):**
 

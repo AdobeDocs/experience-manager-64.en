@@ -10,9 +10,6 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 topic-tags: development-tools
 discoiquuid: c703e3d5-9935-4772-8600-62af87cf67ec
-index: y
-internal: n
-snippet: y
 ---
 
 # Introducing Java API QuickStart{#introducing-java-api-quickstart}

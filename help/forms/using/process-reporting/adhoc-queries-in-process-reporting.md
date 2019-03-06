@@ -8,9 +8,6 @@ content-type: reference
 topic-tags: process-reporting
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 1bd70deb-7aef-41ca-8288-928a3b16d105
-index: y
-internal: n
-snippet: y
 ---
 
 # Ad-hoc Queries in Process Reporting{#ad-hoc-queries-in-process-reporting}

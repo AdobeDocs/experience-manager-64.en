@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: a9b84c8b-cacb-4026-8224-c7d529e213a5
-index: y
-internal: n
-snippet: y
 ---
 
 # Signature Service Java API QuickStart(SOAP){#signature-service-java-api-quickstart-soap}

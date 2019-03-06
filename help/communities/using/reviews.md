@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
 discoiquuid: 6658165b-85a5-4e1c-b4fb-7ab26436c5f6
-index: y
-internal: n
-snippet: y
 ---
 
 # Using Reviews and Reviews Summary (Display){#using-reviews-and-reviews-summary-display}

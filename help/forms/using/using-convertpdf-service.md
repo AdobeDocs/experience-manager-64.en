@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: document_services
 discoiquuid: 30bf10d3-f32e-4507-aa04-76abd5f989b1
-index: y
-internal: n
-snippet: y
 ---
 
 # ConvertPDF Service{#convertpdf-service}

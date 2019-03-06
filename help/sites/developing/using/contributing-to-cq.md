@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
 discoiquuid: 8befd7c8-905c-489d-ac74-6cb6f5e1ffea
-index: y
-internal: n
-snippet: y
 ---
 
 # Contributing to AEM{#contributing-to-aem}
@@ -113,8 +110,6 @@ Designing for backwards compatibility also ensures that the upgrade experince ma
 While existing APIs can and should be marked as deprecated when newer, better functionality replaces them, all APIs that were made public in a previous 5.x release need to remain functional, since they may be in use in custom application code. No such APIs should be removed.
 
 Backwards compatibility should also be kept in mind in regards to the general consistency of content structure and user experience.
-
-****
 
 ## Core Concepts {#core-concepts}
 

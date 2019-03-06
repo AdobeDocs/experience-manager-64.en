@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
 discoiquuid: 9ab2e9a0-9f5e-4b46-ab0b-950b7cf246cf
-index: y
-internal: n
-snippet: y
 ---
 
 # Troubleshooting Oak Indexes{#troubleshooting-oak-indexes}

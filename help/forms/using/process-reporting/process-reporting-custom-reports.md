@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: process-reporting
 discoiquuid: 9231a556-765d-4df4-b8e3-584746632030
-index: y
-internal: n
-snippet: y
 ---
 
 # Custom Reports in Process Reporting{#custom-reports-in-process-reporting}

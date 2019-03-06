@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: 7ede3cfb-a65a-4dd3-a1c9-da553e696806
-index: y
-internal: n
-snippet: y
 ---
 
 # Working with XMP Utilities{#working-with-xmp-utilities}

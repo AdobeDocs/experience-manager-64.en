@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
 topic-tags: 3D
 discoiquuid: 01d96ddf-c78b-4993-956d-3d8b39b27112
-index: y
-internal: n
-snippet: y
 ---
 
 # Integrating AEM 3D with Autodesk 3ds Max{#integrating-aem-d-with-autodesk-ds-max}

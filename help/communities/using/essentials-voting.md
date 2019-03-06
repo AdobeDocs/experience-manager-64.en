@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: 53ab1ccb-8692-43e0-94b6-4a724e040dfe
-index: y
-internal: n
-snippet: y
 ---
 
 # Voting Essentials{#voting-essentials}

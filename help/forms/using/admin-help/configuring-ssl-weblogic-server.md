@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_ssl
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: dc557b65-f76c-4cd8-b511-f394534d2c3e
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring SSL for WebLogic Server{#configuring-ssl-for-weblogic-server}
@@ -126,7 +123,7 @@ For more information about using the keytool command, see the keytool.html file 
 
    `-file "ads-ca.cer" -keystore "ads-credentials.jks"`
 
-   `-storepass` `*store*`*_**password*****
+   `-storepass` `*store*`*_**password**
 
    >[!NOTE]
    >
@@ -143,7 +140,7 @@ For more information about using the keytool command, see the keytool.html file 
 1. Copy the ads-ca.cer file to any host computers that need secure communication with the application server.
 1. Insert the certificate into a new keystore file (the Custom Trust keystore) by entering the following command:
 
-   *[JAVA_HOME]* `/bin/keytool -import -v -noprompt -alias bedrock -file "ads-ca.cer" -keystore "ads-ca.jks" -storepass *store_password* -keypass *key_password*`****
+   *[JAVA_HOME]* `/bin/keytool -import -v -noprompt -alias bedrock -file "ads-ca.cer" -keystore "ads-ca.jks" -storepass *store_password* -keypass *key_password*`
 
    >[!NOTE]
    >

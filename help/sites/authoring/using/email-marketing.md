@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: personalization
 discoiquuid: e0567f2f-8480-4a4c-98d9-ad722e0637f5
-index: y
-internal: n
-snippet: y
 ---
 
 # E-mail Marketing{#e-mail-marketing}

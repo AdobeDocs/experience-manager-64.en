@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: authoring
 content-type: reference
 discoiquuid: a6eb19a7-b441-4920-9fb7-04d17eff89e6
-index: y
-internal: n
-snippet: y
 ---
 
 # Delivering Dynamic Media Assets{#delivering-dynamic-media-assets}

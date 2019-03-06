@@ -10,9 +10,6 @@ topic-tags: e-commerce
 content-type: reference
 discoiquuid: ccac5f8a-0648-47b3-80ba-4292453ea71a
 pagetitle: Administering Magento
-index: y
-internal: n
-snippet: y
 ---
 
 # Magento{#magento}

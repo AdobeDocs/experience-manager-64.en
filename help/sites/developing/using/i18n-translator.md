@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: components
 discoiquuid: c6016f29-2af6-438c-95e7-5cef0d873358
-index: y
-internal: n
-snippet: y
 ---
 
 # Using Translator to Manage Dictionaries{#using-translator-to-manage-dictionaries}
@@ -179,7 +176,7 @@ Use the following procedure to remove a string from a dictionary.
 The search bar at the bottom of the Translator tool provides string selection options:
 
 * **Filter by text:** A pattern to match with the English string, comment, or translations. Only items that match all or part of the pattern appear in the table.
-* **Changes: Any, Modified, New, Deleted: **Show items that have been changed and not saved.
+* **Changes: Any, Modified, New, Deleted:** Show items that have been changed and not saved.
 
     * Any: Show items that have been modified, added, or removed.
     * Modified: Show items that are changed.
@@ -188,7 +185,7 @@ The search bar at the bottom of the Translator tool provides string selection op
     * Multiple Selections: Show items that have all of the selected properties.
 
 * **Has Comment**: Show items that have comments for translators.
-* **Missing Translations: **Show items where at least one language does not have a translation.
+* **Missing Translations:** Show items where at least one language does not have a translation.
 
 ![](assets/chlimage_1-215.png)
 

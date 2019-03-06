@@ -7,9 +7,6 @@ uuid: e52ce231-9214-417d-80af-ba10a6035808
 topic-tags: introduction
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 5870260a-819b-428c-b9ef-3c1753d96cfc
-index: y
-internal: n
-snippet: y
 ---
 
 # Employee self-service reference site walkthrough{#employee-self-service-reference-site-walkthrough}

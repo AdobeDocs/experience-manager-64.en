@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
 discoiquuid: c1d919ac-6d78-48a7-b3e3-aa607d4d972c
-index: y
-internal: n
-snippet: y
 ---
 
 # Customize create correspondence UI{#customize-create-correspondence-ui}

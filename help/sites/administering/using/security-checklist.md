@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
 discoiquuid: 5e44d183-4d1a-4627-bad5-da014105ed8d
-index: y
-internal: n
-snippet: y
 ---
 
 # Security Checklist{#security-checklist}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
 discoiquuid: ca129d70-3abb-4c36-b4a9-791c2e9eae7d
-index: y
-internal: n
-snippet: y
 ---
 
 # Assets Network Considerations{#assets-network-considerations}

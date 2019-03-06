@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: testing
 content-type: reference
 discoiquuid: 6d211f13-e1ab-4543-b0c0-a3cdf009600d
-index: y
-internal: n
-snippet: y
 ---
 
 # Defining your Test Cases{#defining-your-test-cases}

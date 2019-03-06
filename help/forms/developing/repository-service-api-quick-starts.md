@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: 2bb79666-97f1-4b90-acf2-07963e5aa7ea
-index: y
-internal: n
-snippet: y
 ---
 
 # Repository Service API Quick Starts{#repository-service-api-quick-starts}

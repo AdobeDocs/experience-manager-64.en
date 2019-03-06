@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
 discoiquuid: 6de83a6a-6a88-494c-a361-eba0cd1772e1
-index: y
-internal: n
-snippet: y
 ---
 
 # Using Comments{#using-comments}

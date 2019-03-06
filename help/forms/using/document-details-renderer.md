@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: 0c9ea167-7929-48e9-b2f3-fac450e2ea8b
-index: y
-internal: n
-snippet: y
 ---
 
 # Document details for renderer{#document-details-for-renderer}

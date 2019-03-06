@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
 discoiquuid: e7f39bdb-d5ec-4a5d-85e9-4e31cbf12c9c
-index: y
-internal: n
-snippet: y
 ---
 
 # Running AEM in Production Ready Mode{#running-aem-in-production-ready-mode}

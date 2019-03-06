@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
 discoiquuid: bd3d2254-066b-4ad1-a8ff-52eeca35428b
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring Search Forms{#configuring-search-forms}
@@ -44,10 +41,10 @@ The default configurations available are:
 * **Page Editor (Manuscript search):** 
   This configuration defines the options available when searching for manuscripts in the assets browser (when editing a page).
 
-* **Page Editor (Page search): ** 
+* **Page Editor (Page search):**  
   This configuration defines the options available when searching for pages in the assets browser (when editing a page).
 
-* **Page Editor (Paragraphs search): ** 
+* **Page Editor (Paragraphs search):**  
   This configuration defines the options available when searching for paragraphs in the assets browser (when editing a page).
 
 * **Page Editor (Product search):  
@@ -62,19 +59,19 @@ The default configurations available are:
   **This configuration defines the options available when searching for videos in the assets browser (when editing a page).
 * **Assets Admin Search Rail:  
   **This configuration defines the search options available to the user when using the Assets console.
-* **Catalogs Admin Search Rail: ** 
+* **Catalogs Admin Search Rail:**  
   This configuration defines the search options available to the user when searching a commerce catalog.
 
-* **Orders Admin Search Rail: ** 
+* **Orders Admin Search Rail:**  
   This configuration defines the search options available to the user when searching commerce orders.
 
-* **Product Collections Admin Search Rail: ** 
+* **Product Collections Admin Search Rail:**  
   This configuration defines the search options available to the user when searching commerce product collections.
 
-* **Products Admin Search Rail: ** 
+* **Products Admin Search Rail:**  
   This configuration defines the search options available to the user when searching commerce products.
 
-* **Project Admin Search Rail: ** 
+* **Project Admin Search Rail:**  
   This configuration defines the search options available to the user when searching projects.
 
 ## Predicates and Their Settings {#predicates-and-their-settings}

@@ -7,9 +7,6 @@ page-status-flag: never-activated
 uuid: 5164b520-76aa-4ab5-a16a-853410a32c1c
 contentOwner: khsingh
 discoiquuid: 9da48c08-da8e-489a-b604-1a620bbd5a3b
-index: y
-internal: n
-snippet: y
 ---
 
 # [DO NOT PUBLISH] Set up Mutual Authentication for AEM Forms on JEE{#do-not-publish-set-up-mutual-authentication-for-aem-forms-on-jee}
@@ -49,7 +46,7 @@ Before you start,
 
 ### Configure application server {#configure-application-server}
 
-Each application server has a separate set of instructions to enable mutual authentication. See application server documentation to enable **2-way Mutual Authentication. **For AEM 6.4 Forms running on JBoss 7.0.6 application server perform the following steps: ****
+Each application server has a separate set of instructions to enable mutual authentication. See application server documentation to enable **2-way Mutual Authentication. **For AEM 6.4 Forms running on JBoss 7.0.6 application server perform the following steps:** **
 
 1. Create the server.truststore file:
 

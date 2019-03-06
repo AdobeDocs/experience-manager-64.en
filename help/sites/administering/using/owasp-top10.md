@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
 discoiquuid: 51795590-4325-4cc2-98ff-ee8b0819223a
-index: y
-internal: n
-snippet: y
 ---
 
 # OWASP Top 10{#owasp-top}

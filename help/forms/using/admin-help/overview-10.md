@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_workspace
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: c1bf0835-f58b-4082-a3c4-8027afbaadce
-index: y
-internal: n
-snippet: y
 ---
 
 # Overview of Workspace{#overview-of-workspace}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: personalization
 discoiquuid: 19c6647b-9bc7-404b-807c-961c74cda676
-index: y
-internal: n
-snippet: y
 ---
 
 # Working with the Marketing Campaign Manager{#working-with-the-marketing-campaign-manager}

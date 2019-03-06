@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: 413909a5-bf4a-48e1-b6e9-92c70c46135a
-index: y
-internal: n
-snippet: y
 ---
 
 # LiveCycleProcess Java API(SOAP)Quick Start{#livecycleprocess-java-api-soap-quick-start}

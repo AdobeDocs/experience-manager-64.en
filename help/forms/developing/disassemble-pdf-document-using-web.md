@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/programmatically_disassembling_pdf_documents
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 1d401bf9-e638-48f0-80f1-6ed587851c66
-index: y
-internal: n
-snippet: y
 ---
 
 # Disassemble a PDF document usingthe web service API{#disassemble-a-pdf-document-usingthe-web-service-api}

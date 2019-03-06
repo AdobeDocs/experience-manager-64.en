@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: 5180cabd-f71f-4c08-9f6c-bfaefb25f3df
-index: y
-internal: n
-snippet: y
 ---
 
 # Analytics Configuration for Communities Features{#analytics-configuration-for-communities-features}
@@ -149,7 +146,7 @@ If not enabled, the video heartbeat code is never instantiated and only the vide
 
 To create a new Analytics Integration, which integrates Adobe Analytics with the AEM community site, using the standard UI on the author instance :
 
-* from global navigation : **Tools, Deployment, Cloud Services**
+* from global navigation :** Tools, Deployment, Cloud Services**
 * scroll down to **Adobe Analytics**
 * select either **Configure Now** or **Show Configurations**
 

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: configuring
 discoiquuid: f49da990-8096-4268-a673-8867a6ed2601
-index: y
-internal: n
-snippet: y
 ---
 
 # Replicating Using Mutual SSL{#replicating-using-mutual-ssl}

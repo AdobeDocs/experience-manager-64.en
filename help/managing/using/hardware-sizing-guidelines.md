@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/MANAGING
 topic-tags: managing
 content-type: reference
 discoiquuid: f993e0dd-b5df-4a56-9877-90f6f24dcf0b
-index: y
-internal: n
-snippet: y
 ---
 
 # Hardware Sizing Guidelines{#hardware-sizing-guidelines}

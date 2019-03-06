@@ -8,9 +8,6 @@ uuid: 20dab256-e115-4525-bcd4-c81ad5751f26
 contentOwner: khsingh
 geptopics: SG_AEMFORMS/categories/working_with_document_security
 discoiquuid: c18a32a3-57d8-40aa-8fa3-b750d90fa46d
-index: y
-internal: n
-snippet: y
 ---
 
 # [Do not publish] Use CAC cards with AEM Forms Document Security{#do-not-publish-use-cac-cards-with-aem-forms-document-security}

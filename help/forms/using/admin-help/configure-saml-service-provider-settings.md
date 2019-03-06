@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_user_management
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 76d96100-b5d9-4ebf-8af3-96399814f0e4
-index: y
-internal: n
-snippet: y
 ---
 
 # Configure SAML service provider settings{#configure-saml-service-provider-settings}

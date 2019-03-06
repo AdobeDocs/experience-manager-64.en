@@ -8,9 +8,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: repo_restructuring
 discoiquuid: 02e7260c-0681-410a-8c8d-80f3f88b6d46
-index: y
-internal: n
-snippet: y
 ---
 
 # Dynamic Media Repository Restructuring in AEM 6.4{#dynamic-media-repository-restructuring-in-aem}

@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: publish
 discoiquuid: 46bba930-7a56-41d6-a712-b0c551d73f4a
-index: y
-internal: n
-snippet: y
 ---
 
 # Enabling forms portal components{#enabling-forms-portal-components}

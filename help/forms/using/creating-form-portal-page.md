@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: publish
 discoiquuid: 97158e1e-b175-4939-8c72-36202d5705e9
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating a forms portal page{#creating-a-forms-portal-page}
@@ -170,13 +167,13 @@ To configure the Date Predicate component:
 1. Tap the component and then tap ![](assets/settings_icon.png). The Edit dialog opens.
 1. Specify the following:
 
-    * **Type: **The only option available is **Last Modified Date**
+    * **Type:** The only option available is **Last Modified Date**
     
-    * **Text: **Label or caption for the Date Predicate Component. The default value is **Last Modified Date.**
+    * **Text:** Label or caption for the Date Predicate Component. The default value is **Last Modified Date.**
     
-    * **Start Date Label: **Label or caption of start date field
-    * **End Date Label: **Label or caption for end date field
-    * **Hide: **To enforce default date filter to list forms
+    * **Start Date Label:** Label or caption of start date field
+    * **End Date Label:** Label or caption for end date field
+    * **Hide:** To enforce default date filter to list forms
 
 1. Tap **OK**
 
@@ -221,7 +218,7 @@ The selected tags appear in the Search pane along with the check boxes for selec
 
 ## List forms on a page <br> {#list-forms-on-a-page-br}
 
-To list forms on a page, add the ****[!UICONTROL Search & Lister]****Component to the page and configure the ****[!UICONTROL List Pane]****. To enable the end users to search forms with date, text, and tags, add a ****[!UICONTROL Search Pane]**** component.
+To list forms on a page, add the **[!UICONTROL Search & Lister]** Component to the page and configure the **[!UICONTROL List Pane]**. To enable the end users to search forms with date, text, and tags, add a **[!UICONTROL Search Pane]** component.
 
 To link a form from anywhere on the page, use the Link component. For more information about link component, see [Embedding link component in a page](../../forms/using/embedding-link-component-page.md).
 

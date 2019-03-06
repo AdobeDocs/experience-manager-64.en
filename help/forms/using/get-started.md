@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
 discoiquuid: 8f3f46c2-d17c-40f4-8b34-115395de4c28
-index: y
-internal: n
-snippet: y
 ---
 
 # Getting started with HTML5 forms{#getting-started-with-html-forms}
@@ -27,6 +24,6 @@ After installing AEM, perform the following steps to import Mobile Forms to AEM:
 
 * **Set up and deploy AEM Forms add-on package:** Install AEM Forms add-on package to enable Mobile Forms. For information about installing AEM Forms add-on package, see [Installing and configuring AEM Forms](../../forms/using/installing-configuring-aem-forms-osgi.md).
 
-* **Import Mobile Forms: **Import your forms from your local file system to the CRX repository. For detailed information, see [Getting XDP and PDF documents in AEM Forms](../../forms/using/get-xdp-pdf-documents-aem.md).
+* **Import Mobile Forms:** Import your forms from your local file system to the CRX repository. For detailed information, see [Getting XDP and PDF documents in AEM Forms](../../forms/using/get-xdp-pdf-documents-aem.md).
 
 [**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
 discoiquuid: ae38d576-f874-4589-a4ae-61342e1e024a
-index: y
-internal: n
-snippet: y
 ---
 
 # Using cURL with AEM{#using-curl-with-aem}

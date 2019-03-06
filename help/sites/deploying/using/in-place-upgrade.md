@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: upgrading
 discoiquuid: 74cae213-66e0-48d4-b2f0-0927acf2252e
-index: y
-internal: n
-snippet: y
 ---
 
 # Performing an In-Place Upgrade{#performing-an-in-place-upgrade}

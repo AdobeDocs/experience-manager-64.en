@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
 discoiquuid: 4c90baf9-fb6b-48ce-9767-f2777dc627f6
-index: y
-internal: n
-snippet: y
 ---
 
 # Architecture of HTML5 forms{#architecture-of-html-forms}

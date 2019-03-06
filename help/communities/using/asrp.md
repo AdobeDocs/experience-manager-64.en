@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: a6ff888a-0765-4f87-9e38-99cafeaee484
-index: y
-internal: n
-snippet: y
 ---
 
 # ASRP - Adobe Storage Resource Provider{#asrp-adobe-storage-resource-provider}
@@ -43,7 +40,7 @@ The [Storage Configuration console](../../communities/using/srp-config.md) allow
 
 **On author**,
 
-* from global navigation : **Tools, Communities, Storage Configuration**
+* from global navigation :** Tools, Communities, Storage Configuration**
 
 ![](assets/chlimage_1-310.png)
 

@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/managing_endpoints
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: a69d9e13-346d-4f12-8d19-94447c17510e
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring Remoting endpoints{#configuring-remoting-endpoints}

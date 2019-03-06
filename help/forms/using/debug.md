@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
 discoiquuid: 2e19d751-bf5d-4888-9239-382ab58c306f
-index: y
-internal: n
-snippet: y
 ---
 
 # Debugging HTML5 forms{#debugging-html-forms}

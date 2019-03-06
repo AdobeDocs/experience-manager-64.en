@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
 discoiquuid: cbee4214-d6a4-4aa5-9640-322a5b5c538f
-index: y
-internal: n
-snippet: y
 ---
 
 # Publishing Dynamic Media Assets{#publishing-dynamic-media-assets}

@@ -6,9 +6,6 @@ seo-description: null
 uuid: 557fffc3-c7b2-4ed4-943a-75965acdafe6
 contentOwner: khsingh
 discoiquuid: b40f2965-6cd8-4eed-af8f-ba5d8a4ebe03
-index: y
-internal: n
-snippet: y
 ---
 
 # Best practices and considerations {#best-practices-and-considerations}

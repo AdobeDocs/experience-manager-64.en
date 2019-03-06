@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: 6c232b1e-7624-4fb1-886e-c728454618f2
-index: y
-internal: n
-snippet: y
 ---
 
 # DSRP - Relational Database Storage Resource Provider{#dsrp-relational-database-storage-resource-provider}
@@ -114,7 +111,7 @@ For information regarding *users*, *user profiles* and *user groups*, often ente
 
 ## Reindexing Solr for DSRP {#reindexing-solr-for-dsrp}
 
-To reindex DSRP Solr, follow the documentation for [reindexing MSRP](../../communities/using/msrp.md#msrpreindextool), however when reindexing for DSRP, use this URL instead: **/services/social/datastore/rdb/reindex**
+To reindex DSRP Solr, follow the documentation for [reindexing MSRP](../../communities/using/msrp.md#msrpreindextool), however when reindexing for DSRP, use this URL instead:** /services/social/datastore/rdb/reindex**
 
 For example, a curl command to re-index DSRP would look like this:
 

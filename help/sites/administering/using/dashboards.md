@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
 discoiquuid: 2b0dee69-8c71-440c-b2f4-f39e1324aeeb
-index: y
-internal: n
-snippet: y
 ---
 
 # Dashboards{#dashboards}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
 discoiquuid: 67b1853b-b692-4316-8c21-5c981cbf35eb
-index: y
-internal: n
-snippet: y
 ---
 
 # The Bulk Editor{#the-bulk-editor}

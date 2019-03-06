@@ -10,9 +10,6 @@ content-type: reference
 discoiquuid: b1c6f29b-5152-42b3-893e-f4b0a3fa3b30
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/assets/user-guide
-index: y
-internal: n
-snippet: y
 ---
 
 # [Redirect] Authoring Adobe Flash Content{#redirect-authoring-adobe-flash-content}

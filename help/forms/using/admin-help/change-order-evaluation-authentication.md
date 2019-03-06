@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_user_management
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 753762be-2e5c-4f5c-89d9-70665aba39aa
-index: y
-internal: n
-snippet: y
 ---
 
 # Change the order of evaluation for authentication{#change-the-order-of-evaluation-for-authentication}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
 discoiquuid: aa63950b-f764-4014-8f64-5383d6cce29c
-index: y
-internal: n
-snippet: y
 ---
 
 # Metadata Profiles{#metadata-profiles}
@@ -191,7 +188,7 @@ To apply a profile globally, do one of the following:
 
   ![](assets/chlimage_1-497.png)
 
-* Navigate to CRXDE Lite to the following node: **/content/dam/jcr:content. **Add the property** metadataProfile:/etc/dam/metadata/dynamicmedia/&lt;name of metadata profile&gt; **and tap or click **Save All**. 
+* Navigate to CRXDE Lite to the following node:** /content/dam/jcr:content. **Add the property** metadataProfile:/etc/dam/metadata/dynamicmedia/&lt;name of metadata profile&gt; **and tap or click **Save All**. 
 
   ![](assets/chlimage_1-498.png)
 

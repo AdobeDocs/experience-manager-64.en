@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/aem_forms_backup_and_recovery
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: d06fdbc1-e9e1-4e71-b041-c6e9125e0559
-index: y
-internal: n
-snippet: y
 ---
 
 # Backing up and recovering the EMC Documentum repository{#backing-up-and-recovering-the-emc-documentum-repository}

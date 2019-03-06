@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: dd212278-49fa-4531-b5a0-bc7c594ca750
-index: y
-internal: n
-snippet: y
 ---
 
 # Enablement Resources Console{#enablement-resources-console}
@@ -73,7 +70,7 @@ For [enablement communities](../../communities/using/overview.md#enablementcommu
 
 In the author environment, to reach the Resources console
 
-* from global navigation : **Navigation, Communities, Resources**
+* from global navigation :** Navigation, Communities, Resources**
 
 ![](assets/chlimage_1-163.png) 
 

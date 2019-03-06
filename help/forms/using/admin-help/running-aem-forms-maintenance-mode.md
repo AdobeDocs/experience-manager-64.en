@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/maintaining_aem_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: d9235acd-da1e-406f-8acb-2b88998edf89
-index: y
-internal: n
-snippet: y
 ---
 
 # Running AEM forms in maintenance mode{#running-aem-forms-in-maintenance-mode}

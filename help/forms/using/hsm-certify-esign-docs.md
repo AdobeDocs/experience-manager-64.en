@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: document_services
 discoiquuid: 5c0e1fbe-c1ff-4ef0-b060-a406406edf5d
-index: y
-internal: n
-snippet: y
 ---
 
 # Use HSM to digitally sign or certify documents{#use-hsm-to-digitally-sign-or-certify-documents}

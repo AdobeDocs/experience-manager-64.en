@@ -9,9 +9,6 @@ topic-tags: adaptive_forms
 topic-tags: develop
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 0d90a238-fe3a-4b5d-8135-40961277279e
-index: y
-internal: n
-snippet: y
 ---
 
 # Adaptive forms rule editor{#adaptive-forms-rule-editor}
@@ -85,9 +82,9 @@ The rule editor provides the following logical operators and events using which 
 * **Contains **
 * **Is Empty **
 * **Is Not Empty**
-* **Has Selected: ** Returns true when the user selects a particular option for a checkbox, drop-down, radio button.
-* **Is Initialized (event): **Returns true when a form object renders in the browser. 
-* **Is Changed (event): **Returns true when the user changes the entered value or selected option for a form object.
+* **Has Selected:**  Returns true when the user selects a particular option for a checkbox, drop-down, radio button.
+* **Is Initialized (event):** Returns true when a form object renders in the browser. 
+* **Is Changed (event):** Returns true when the user changes the entered value or selected option for a form object.
 
 ## Available rule types in rule editor {#available-rule-types-in-rule-editor}
 

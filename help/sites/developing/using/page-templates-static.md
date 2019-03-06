@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
 discoiquuid: 0e3e0dd1-1e97-4767-b040-17fae8310d46
-index: y
-internal: n
-snippet: y
 ---
 
 # Page Templates - Static{#page-templates-static}
@@ -163,7 +160,7 @@ To see a list of all templates in the repository, proceed as follows:
 
 In most cases, you will take an existing template and develop a new one for your own use. See [Developing Page Templates](#developingpagetemplates) for more information.
 
-To enable an existing template for your website and you want it to be displayed in the **Create Page** dialog when creating a page right under **Websites** from the **Websites** console, set the allowedPaths property of the template node to: **/content(/.&#42;)?**
+To enable an existing template for your website and you want it to be displayed in the **Create Page** dialog when creating a page right under **Websites** from the **Websites** console, set the allowedPaths property of the template node to:** /content(/.&#42;)?**
 
 ## How Template Designs are Applied {#how-template-designs-are-applied}
 

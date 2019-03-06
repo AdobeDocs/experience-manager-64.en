@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
 discoiquuid: aef0d05b-06ae-4b86-961b-a9fa7926ced2
-index: y
-internal: n
-snippet: y
 ---
 
 # Troubleshooting Dynamic Media - Scene7 mode{#troubleshooting-dynamic-media-scene-mode}
@@ -46,11 +43,11 @@ The following asset properties can be reviewed in CRXDE Lite to confirm the succ
 | `<object_node>/jcr:content/metadata/dam:scene7ID` |**a|364266** |General indicator that node is linked to Dynamic Media. |
 | `<object_node>/jcr:content/metadata/dam:scene7FileStatus` |**PublishComplete** or error text |Status of upload of asset to Dynamic Media. |
 | `<object_node>/jcr:content/metadata/dam:scene7File`  |**myCompany/myAssetID** |Must be populated in order to generate URLs to remote asset of Dynamic Media. |
-| `<object_node>/jcr:content/dam:lastSyncStatus` |**success **or **failed: <error text>** |Synchronization status of sets (spin sets, image sets, and so on), image presets, viewer presets, image map updates for an asset, or images that were edited. |
+| `<object_node>/jcr:content/dam:lastSyncStatus` |**success** or **failed: `<error text>`** |Synchronization status of sets (spin sets, image sets, and so on), image presets, viewer presets, image map updates for an asset, or images that were edited. |
 
 ### Synchronization Logging {#synchronization-logging}
 
-Synchronization errors and issues are logged in **error.log** (AEM server directory** /crx-quickstart/logs/**). Sufficient logging is available to determine the root cause of most issues, however you can increase the logging to DEBUG on the ***com.adobe.cq.dam.ips ***package through the Sling Console ([http://localhost:4502/system/console/slinglog](http://localhost:4502/system/console/slinglog)) to gather more information.
+Synchronization errors and issues are logged in **error.log** (`AEM server directory**` /`crx-quickstart/logs/**`). Sufficient logging is available to determine the root cause of most issues, however you can increase the logging to DEBUG on the ***com.adobe.cq.dam.ips*** package through the Sling Console ([http://localhost:4502/system/console/slinglog](http://localhost:4502/system/console/slinglog)) to gather more information.
 
 ### Move, Copy, Delete {#move-copy-delete}
 

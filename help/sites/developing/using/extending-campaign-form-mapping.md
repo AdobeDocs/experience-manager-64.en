@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
 discoiquuid: 55297792-57cc-46aa-8b2c-8c50ac6bb3d9
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating Custom Form Mappings{#creating-custom-form-mappings}

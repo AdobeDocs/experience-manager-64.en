@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
 discoiquuid: 307aee1c-ead8-4370-8fee-268eca1dace4
-index: y
-internal: n
-snippet: y
 ---
 
 # Closed User Groups in AEM{#closed-user-groups-in-aem}

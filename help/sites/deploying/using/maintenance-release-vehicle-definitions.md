@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
 discoiquuid: 0463d31d-9aad-4719-a185-5d2d5886beb1
-index: y
-internal: n
-snippet: y
 ---
 
 # Maintenance Release Vehicle Definitions{#maintenance-release-vehicle-definitions}

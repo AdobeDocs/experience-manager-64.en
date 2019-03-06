@@ -7,9 +7,6 @@ uuid: 41b5d01c-8f7a-4f4d-8ca3-15bdf0b02bc4
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: fb4dc219-4100-4916-86b1-b7d495bf8915
-index: y
-internal: n
-snippet: y
 ---
 
 # Adding information from user data to form submission metadata{#adding-information-from-user-data-to-form-submission-metadata}

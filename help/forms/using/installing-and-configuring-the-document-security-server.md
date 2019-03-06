@@ -6,9 +6,6 @@ seo-description: Use document security to safely distribute any information that
 uuid: b20b4e95-ea52-4254-8ff0-b4aa3f12d604
 contentOwner: khsingh
 discoiquuid: 8ef1fda8-3e32-4106-a4a7-62b7a192686a
-index: y
-internal: n
-snippet: y
 ---
 
 # Installing and configuring the document security server{#installing-and-configuring-the-document-security-server}
@@ -38,7 +35,7 @@ The following diagram shows the typical architecture for AEM Forms Document Secu
 Perform the following steps to install and configure AEM Forms on JEE:
 
 1. Download the AEM 6.4 Forms on JEE installer from the [Adobe Licensing Website (LWS)](http://licensing.adobe.com/). You require a valid Maintenance & Support contract to download the installer.
-1. Read the [AEM Forms on JEE Supported Platforms document](../../forms/using/AEM-forms-JEE-supported-platforms.md) and ensure that have the software, hardware, operating systems, application server, databases, JDKs, and other infrastructure ready to install AEM Forms on JEE.
+1. Read the [AEM Forms on JEE Supported Platforms document](../../forms/using/aem-forms-jee-supported-platforms.md) and ensure that have the software, hardware, operating systems, application server, databases, JDKs, and other infrastructure ready to install AEM Forms on JEE.
 1. (Non-Turnkey installs only) Read the [Preparing to install AEM Forms single server](http://www.adobe.com/go/learn_aemforms_prepareInstallsingle_64) or [Preparing to install AEM Forms server cluster](http://www.adobe.com/go/learn_aemforms_prepareInstallcluster_64) and ready your environment to install and configure AEM Forms on JEE.
 1. Depending on your environment and application server, choose one of the following documents and follow the instructions to complete the installation
 

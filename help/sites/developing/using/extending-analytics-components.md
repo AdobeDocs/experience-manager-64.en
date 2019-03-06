@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
 discoiquuid: b28b1e42-a964-4151-9e36-b1c99ed8b5a2
-index: y
-internal: n
-snippet: y
 ---
 
 # Adding Adobe Analytics Tracking to Components{#adding-adobe-analytics-tracking-to-components}

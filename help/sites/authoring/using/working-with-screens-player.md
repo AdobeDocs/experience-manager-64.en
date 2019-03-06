@@ -8,9 +8,6 @@ contentOwner: jsyal
 discoiquuid: f06f093d-0ebe-455e-a693-32dc6e16524f
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/screens/using/working-with-screens-player
-index: y
-internal: n
-snippet: y
 ---
 
 # REDIRECT Working with an AEM Screens Player{#redirect-working-with-an-aem-screens-player}

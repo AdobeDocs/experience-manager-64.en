@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: development-tools
 content-type: reference
 discoiquuid: 4bc6683f-3a59-4ce7-860f-97a70d193622
-index: y
-internal: n
-snippet: y
 ---
 
 # Site Importer{#site-importer}

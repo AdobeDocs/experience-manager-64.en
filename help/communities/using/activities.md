@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
 discoiquuid: 7513b671-aa27-4f13-9c3b-5bfb07d12317
-index: y
-internal: n
-snippet: y
 ---
 
 # Activity Streams Feature{#activity-streams-feature}

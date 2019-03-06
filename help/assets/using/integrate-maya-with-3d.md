@@ -9,9 +9,6 @@ topic-tags: 3D
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: b7e79d7e-eeb1-47b5-9ab2-570f455c195c
-index: y
-internal: n
-snippet: y
 ---
 
 # Integrating AEM 3D with Autodesk Maya{#integrating-aem-d-with-autodesk-maya}

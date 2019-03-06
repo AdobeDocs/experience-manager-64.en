@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
 discoiquuid: b0c4747c-8c4f-4f3d-9eba-4c923d54a1d9
-index: y
-internal: n
-snippet: y
 ---
 
 # Custom watermark in letter PDF preview{#custom-watermark-in-letter-pdf-preview}

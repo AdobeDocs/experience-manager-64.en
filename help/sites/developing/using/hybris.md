@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: platform
 discoiquuid: 77eb1caa-9042-4459-b78e-c1c8fc1f5ad4
-index: y
-internal: n
-snippet: y
 ---
 
 # Developing with hybris{#developing-with-hybris}
@@ -132,7 +129,7 @@ hybris uses a user session to store information such as the customer's shopping 
 
 #### CommerceSession {#commercesession}
 
-* This session "owns" the **s****hopping ****c****art**
+* This session "owns" the **shopping cart**
 
     * performs add/remove/etc
     * performs the various calculations on the cart;  

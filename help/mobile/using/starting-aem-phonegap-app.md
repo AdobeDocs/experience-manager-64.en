@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: developing-adobe-phonegap-enterprise
 discoiquuid: 27dc9b2c-daf2-418a-ac4a-d3e544f546a1
-index: y
-internal: n
-snippet: y
 ---
 
 # Starting AEM PhoneGap{#starting-aem-phonegap}

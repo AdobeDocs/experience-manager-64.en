@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: upgrading
 content-type: reference
 discoiquuid: b0514c3f-0c79-4454-9656-18abd93eec02
-index: y
-internal: n
-snippet: y
 ---
 
 # Backward Compatibility in AEM 6.4{#backward-compatibility-in-aem}
@@ -36,7 +33,7 @@ The Compatibility Package allows you to run AEM in compatibility mode and defer 
 
 ![](assets/screen_shot_2018-04-05at43339pm.png)
 
-The Compatibility Package has two modes: **Routing Enabled** and **Routing Disabled**.
+The Compatibility Package has two modes:** Routing Enabled** and **Routing Disabled**.
 
 This allows AEM 6.4 to be run in three modes:
 

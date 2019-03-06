@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: b91cffeb-9b42-4ebf-b3e2-bf503769b4ee
-index: y
-internal: n
-snippet: y
 ---
 
 # Tag Essentials{#tag-essentials}

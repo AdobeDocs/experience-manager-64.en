@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: developing-adobe-phonegap-enterprise
 discoiquuid: 6dc8df14-67e0-491d-980f-d7dc3265d025
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating and Editing Apps Using the Apps Console{#creating-and-editing-apps-using-the-apps-console}

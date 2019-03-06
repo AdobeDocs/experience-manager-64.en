@@ -8,9 +8,6 @@ contentOwner: sashanka
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: 5bf9e83a-9d46-4afe-b690-48098afb8c3d
-index: y
-internal: n
-snippet: y
 ---
 
 # Integrate Adobe Sign with AEM Forms{#integrate-adobe-sign-with-aem-forms}
@@ -67,7 +64,7 @@ After prerequisites are in place, perform the following steps to configure Adobe
    For step-by-step information to configure OAuth settings for an Adobe Sign application and obtain the keys, see [Configure oAuth settings for the application](https://www.adobe.io/apis/documentcloud/sign/docs.html#!adobeio/adobeio-documentation/master/sign/gstarted/configure_oauth.md) developer documentation.
    [ ![OAuth Config](assets/oauth_config.png)](OAuth Config)
 
-1. Go back to the **Create Adobe Sign Configuration** page. In the ****[!UICONTROL Settings]**** tab, the ****[!UICONTROL OAuth URL]**** field mentions the following default URL:
+1. Go back to the **Create Adobe Sign Configuration** page. In the **[!UICONTROL Settings]** tab, the **[!UICONTROL OAuth URL]** field mentions the following default URL:
 
    https://secure.na1.echosign.com/public/oauth
 

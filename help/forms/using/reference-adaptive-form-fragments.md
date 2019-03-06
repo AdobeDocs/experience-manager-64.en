@@ -7,9 +7,6 @@ uuid: 6a1a02fc-9e6b-48d0-b3e6-cddf0f4f90e4
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
 discoiquuid: fb5fc046-bb02-45f1-9380-ac730da459f1
-index: y
-internal: n
-snippet: y
 ---
 
 # Reference adaptive form fragments{#reference-adaptive-form-fragments}

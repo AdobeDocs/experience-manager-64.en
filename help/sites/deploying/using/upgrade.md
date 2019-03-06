@@ -10,9 +10,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 discoiquuid: e1de0db2-a7ed-4bed-91bd-2ea08b27ec0d
 targetaudience: target-audience upgrader
-index: y
-internal: n
-snippet: y
 ---
 
 # Upgrading to AEM 6.4{#upgrading-to-aem}

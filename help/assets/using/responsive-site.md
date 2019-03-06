@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
 discoiquuid: 1c49f95c-194c-48d8-9792-63780ad2c550
-index: y
-internal: n
-snippet: y
 ---
 
 # Delivering Optimized Images for a Responsive Site{#delivering-optimized-images-for-a-responsive-site}

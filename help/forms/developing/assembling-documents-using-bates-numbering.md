@@ -10,9 +10,6 @@ geptopics: SG_AEMFORMS/categories/assembling_pdf_documents
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: 83d81aa5-c0f1-4496-bca2-d748b8ffe7b1
-index: y
-internal: n
-snippet: y
 ---
 
 # Assembling Documents Using Bates Numbering{#assembling-documents-using-bates-numbering}

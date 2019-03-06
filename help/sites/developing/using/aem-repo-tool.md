@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: development-tools
 content-type: reference
 discoiquuid: 826e4dc5-19a5-4957-901d-f0685f650a40
-index: y
-internal: n
-snippet: y
 ---
 
 # AEM Repo Tool{#aem-repo-tool}

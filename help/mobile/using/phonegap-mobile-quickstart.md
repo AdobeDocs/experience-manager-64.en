@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: administering-adobe-phonegap-enterprise
 discoiquuid: 9845b19f-6cd9-425f-b246-e043112b6b1d
-index: y
-internal: n
-snippet: y
 ---
 
 # Mobile Quickstart{#mobile-quickstart}

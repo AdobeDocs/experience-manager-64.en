@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: content-fragments
 content-type: reference
 discoiquuid: 72ce49d0-581b-4d1b-99e4-dcbd1695530c
-index: y
-internal: n
-snippet: y
 ---
 
 # Markdown{#markdown}

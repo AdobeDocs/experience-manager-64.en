@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: spa
 content-type: reference
 discoiquuid: 172e00a6-23c8-4f86-8c81-d0db236f25ed
-index: y
-internal: n
-snippet: y
 ---
 
 # SPA Introduction and Walkthrough{#spa-introduction-and-walkthrough}

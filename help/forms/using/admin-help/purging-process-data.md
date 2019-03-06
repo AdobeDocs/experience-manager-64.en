@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/maintaining_the_aem_forms_database
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 55897a6a-ad55-4026-bc49-ac5deef7a481
-index: y
-internal: n
-snippet: y
 ---
 
 # Purging process data{#purging-process-data}

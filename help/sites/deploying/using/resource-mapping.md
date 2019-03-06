@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: configuring
 content-type: reference
 discoiquuid: c197304c-9234-4fad-a3ee-dc8ff09ff558
-index: y
-internal: n
-snippet: y
 ---
 
 # Resource Mapping{#resource-mapping}

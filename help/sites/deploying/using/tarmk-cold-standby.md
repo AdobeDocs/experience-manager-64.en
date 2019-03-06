@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
 discoiquuid: baa4908f-edb9-4215-ae4a-dc9a32fe73ea
-index: y
-internal: n
-snippet: y
 ---
 
 # How to Run AEM with TarMK Cold Standby{#how-to-run-aem-with-tarmk-cold-standby}
@@ -282,7 +279,7 @@ The following OSGi settings are available for the Cold Standby service:
 * **Standby Read Timeout (`standby.readtimeout`):** Timeout for requests issued from the standby instance in milliseconds. **The recommended timeout setting is 43200000. It is generally advised you set the timeout to a value of at least 12 hours.  
   **
 
-* **Standby Automatic Cleanup (`standby.autoclean`): **Call the cleanup method if the size of the store increases on a sync cycle**.  
+* **Standby Automatic Cleanup (`standby.autoclean`):** Call the cleanup method if the size of the store increases on a sync cycle**.  
   **
 
 >[!NOTE]

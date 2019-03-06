@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/maintaining_the_application_server
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: ad2b99e4-e895-4a28-a1e3-793db62a29be
-index: y
-internal: n
-snippet: y
 ---
 
 # Enhancing application server performance{#enhancing-application-server-performance}

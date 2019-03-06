@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: authoring
 discoiquuid: 51b36dde-c900-48fe-8b9a-7611d0728cfa
-index: y
-internal: n
-snippet: y
 ---
 
 # Supporting Author and Publish in AEM Screens{#supporting-author-and-publish-in-aem-screens}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: extending-assets
 content-type: reference
 discoiquuid: 8c878b5f-722b-4c40-9eca-bbd305e5d323
-index: y
-internal: n
-snippet: y
 ---
 
 # Processing Assets Using Media Handlers and Workflows{#processing-assets-using-media-handlers-and-workflows}
@@ -132,7 +129,7 @@ The media handlers can be disabled or enabled through the Apache Felix Web Manag
 To enable/disable a media handler:
 
 1. In your browser, navigate to http://&lt;host&gt;:&lt;port&gt;/system/console/components.
-1. Click the** Disable** button right beside the name of the media handler. For example: **com.day.cq.dam.handler.standard.mp3.Mp3Handler.**
+1. Click the** Disable** button right beside the name of the media handler. For example:** com.day.cq.dam.handler.standard.mp3.Mp3Handler.**
 1. Refresh the page: a** Disabled **icon is displayed beside the media handler.
 1. To enable the media handler, click the **Enable **button beside the name of the media handler.
 

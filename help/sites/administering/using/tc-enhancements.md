@@ -8,9 +8,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features
 content-type: reference
 discoiquuid: a58151ca-07b0-449e-87db-7b447644ff83
-index: y
-internal: n
-snippet: y
 ---
 
 # Translation Enhancements{#translation-enhancements}

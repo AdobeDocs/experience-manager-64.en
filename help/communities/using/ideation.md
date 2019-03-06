@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: 2018d53f-ee49-48de-8220-6c88f4ff398b
-index: y
-internal: n
-snippet: y
 ---
 
 # Ideation Essentials{#ideation-essentials}

@@ -10,9 +10,6 @@ topic-tags: dynamic-media
 content-type: reference
 discoiquuid: afa1a8f5-8744-4c10-a467-adb87d8dba7f
 legacypath: /content/docs/en/aem/6-0/administer/integration/dynamic-media/config-dynamic
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring Dynamic Media - Hybrid mode{#configuring-dynamic-media-hybrid-mode}
@@ -694,9 +691,9 @@ However, in Dynamic Media deployments, because assets are delivered by way of th
 
 Besides replicating the assets, the following non-assets are also replicated:
 
-* Dynamic Media Delivery configuration: **/conf/global/settings/dam/dm/imageserver/configuration/jcr:content/settings**
-* Image Presets: **/conf/global/settings/dam/dm/presets/macros**
-* Viewer Presets: **/conf/global/settings/dam/dm/presets/viewer**
+* Dynamic Media Delivery configuration:** /conf/global/settings/dam/dm/imageserver/configuration/jcr:content/settings**
+* Image Presets:** /conf/global/settings/dam/dm/presets/macros**
+* Viewer Presets:** /conf/global/settings/dam/dm/presets/viewer**
 
 The filters provide a way for you to *exclude* assets from being replicated to the AEM publish node.
 
@@ -1307,7 +1304,7 @@ To configure the default color profiles:
 
 1. Tap or click **Save All**.
 
-For example, you could set the **iccprofilergb** to *sRGB*, and **iccprofilecmyk*** *to *WebCoated. *
+For example, you could set the **iccprofilergb** to *sRGB*, and **iccprofilecmyk** to *WebCoated*.
 
 Doing so would do the following:
 

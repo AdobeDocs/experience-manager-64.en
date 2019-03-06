@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
 discoiquuid: 3f68d0d5-e0a1-45e3-a218-05c8a42a393d
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating CSS styles for HTML5 forms{#creating-css-styles-for-html-forms}
@@ -44,9 +41,9 @@ The field element contains two nested elements: widget and caption.
 
 The widget element contains the user interface element for interaction with users. It has three CSS classes:
 
-* Widget**: **Every widget has this class.
-* name**: **All the widgets shipped with AEM contain the widget name class. For custom widgets, the widget developer provides the Widget name class.
-* type**: **Every widget has a user interface element. This class defines the type of the user interface element.
+* Widget**:** Every widget has this class.
+* name**:** All the widgets shipped with AEM contain the widget name class. For custom widgets, the widget developer provides the Widget name class.
+* type**:** Every widget has a user interface element. This class defines the type of the user interface element.
 
 ```xml
 <!--field with caption-->

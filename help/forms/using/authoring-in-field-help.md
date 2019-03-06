@@ -7,9 +7,6 @@ uuid: a3e868a6-1852-4205-a9b9-31374fcf9232
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
 discoiquuid: 67b536a3-2fb7-4be6-9526-1c78e7a8fa70
-index: y
-internal: n
-snippet: y
 ---
 
 # Authoring in-context help for form fields{#authoring-in-context-help-for-form-fields}

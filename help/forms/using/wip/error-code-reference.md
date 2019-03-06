@@ -6,9 +6,6 @@ seo-description: null
 page-status-flag: never-activated
 uuid: 70b7e931-4b7c-4213-8f90-76330b60265c
 discoiquuid: f2b4b53b-eeaf-47c9-a041-b03a88c9d265
-index: y
-internal: n
-snippet: y
 ---
 
 # [DO NOT PUBLISH] AEM Forms Error Code Reference{#do-not-publish-aem-forms-error-code-reference}

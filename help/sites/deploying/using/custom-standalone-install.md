@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
 discoiquuid: c9b4fb0f-ce38-4503-9979-330e12cb8b17
-index: y
-internal: n
-snippet: y
 ---
 
 # Custom Standalone Install{#custom-standalone-install}

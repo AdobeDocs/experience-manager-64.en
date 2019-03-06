@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
 discoiquuid: daf78524-4a0d-4af8-9202-7f1962ec29ef
-index: y
-internal: n
-snippet: y
 ---
 
 # Developing Reports{#developing-reports}

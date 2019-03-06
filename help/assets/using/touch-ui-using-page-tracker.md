@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference
 discoiquuid: 66b35bef-333c-42ee-8662-d4a552e31c26
-index: y
-internal: n
-snippet: y
 ---
 
 # Using Page Tracker and Embed code in web pages{#using-page-tracker-and-embed-code-in-web-pages}

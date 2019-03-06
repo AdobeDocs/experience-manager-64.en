@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: developing-adobe-phonegap-enterprise
 discoiquuid: 06064825-ed98-4e18-8e61-fcca18aeb18c
-index: y
-internal: n
-snippet: y
 ---
 
 # AEM Mobile content personalization{#aem-mobile-content-personalization}

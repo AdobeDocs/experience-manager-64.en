@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_ssl
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 0dc59408-581a-4d70-9706-32c93e7a0cb3
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring SSL for JBoss Application Server{#configuring-ssl-for-jboss-application-server}

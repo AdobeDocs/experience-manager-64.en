@@ -6,9 +6,6 @@ seo-description: null
 uuid: 994bb236-658b-4ff4-aff1-3b439b8609bd
 contentOwner: sarchiz
 discoiquuid: 649285c0-e149-4a68-85d1-c80531a18986
-index: y
-internal: n
-snippet: y
 ---
 
 # Handling GDPR Requests for the AEM Foundation{#handling-gdpr-requests-for-the-aem-foundation}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
 discoiquuid: 002bee62-a95c-4983-aafd-f27f5b9ebc8f
-index: y
-internal: n
-snippet: y
 ---
 
 # Client Context{#client-context}

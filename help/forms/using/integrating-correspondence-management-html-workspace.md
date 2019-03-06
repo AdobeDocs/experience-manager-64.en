@@ -7,9 +7,6 @@ uuid: aae277a2-c40c-4a82-a12e-8e471cafb7b9
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: 66dc445b-c319-43a9-bfc7-fe1c6e5b18e0
-index: y
-internal: n
-snippet: y
 ---
 
 # Integrating third-party applications in AEM Forms workspace{#integrating-third-party-applications-in-aem-forms-workspace}

@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: release-notes
 discoiquuid: dd639262-6250-4af6-bd6c-4d21afefee2a
-index: y
-internal: n
-snippet: y
 ---
 
 # Release Notes for Feature Pack 201809{#release-notes-for-feature-pack}

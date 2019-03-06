@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: authoring
 content-type: reference
 discoiquuid: 296fee38-edb7-478b-8478-4bcb59586404
-index: y
-internal: n
-snippet: y
 ---
 
 # Resolving file dependencies{#resolving-file-dependencies}

@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
 discoiquuid: 2bac047d-9b65-4a38-a6d9-128bff34528e
-index: y
-internal: n
-snippet: y
 ---
 
 # Correspondence Management: Troubleshooting{#correspondence-management-troubleshooting}

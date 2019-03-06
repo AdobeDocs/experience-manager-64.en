@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: customization
 discoiquuid: b36dac98-63df-428a-98bb-f2631c58dd50
-index: y
-internal: n
-snippet: y
 ---
 
 # Appearance framework for adaptive and HTML5 forms{#appearance-framework-for-adaptive-and-html-forms}

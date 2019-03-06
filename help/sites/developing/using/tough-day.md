@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: testing
 content-type: reference
 discoiquuid: 964f692c-2643-4ea2-aa9e-3e10942bc057
-index: y
-internal: n
-snippet: y
 ---
 
 # Tough Day{#tough-day}
@@ -279,7 +276,7 @@ tests:
 
 ### Run Modes {#run-modes}
 
-Tough Day 2 can run in one of the following modes: **normal** and **constant load**.
+Tough Day 2 can run in one of the following modes:** normal** and **constant load**.
 
 The **normal** run mode has two parameters:
 

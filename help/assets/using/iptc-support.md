@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
 discoiquuid: a0c3a188-d67b-4ea9-b33a-b330cbebb5df
-index: y
-internal: n
-snippet: y
 ---
 
 # Support for IPTC Metadata{#support-for-iptc-metadata}

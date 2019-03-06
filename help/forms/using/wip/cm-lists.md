@@ -7,9 +7,6 @@ page-status-flag: never-activated
 uuid: 023c736c-c124-45cf-afa1-a986a4739fdc
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: de6569b2-91ea-49e3-9755-d6edfe007408
-index: y
-internal: n
-snippet: y
 ---
 
 # [DO NOT PUBLISH] Lists{#do-not-publish-lists}
@@ -45,7 +42,7 @@ A list is a group of related content that can be used in a letter template as a 
 1. Specify the following information for the list:
 
     * **Title (Optional): Enter** the title for the list. Title needs not be unique and can have special characters and non-english characters. Lists are referred by their titles (when available) such as in thumbnails and asset properties.
-    * **Name: **The unique name for the list. No two assets (text, condition, or list) in any state can exist with the same name. In the Name field, you can enter only English language characters, numbers, and hyphens. The Name field is automatically populated with the value in the Title field. The special characters, spaces, numbers, and non-English characters entered in the Title field are replaced with hyphens in the Name field. Although the value in the Title field is automatically copied to the Name, you can edit the value.
+    * **Name:** The unique name for the list. No two assets (text, condition, or list) in any state can exist with the same name. In the Name field, you can enter only English language characters, numbers, and hyphens. The Name field is automatically populated with the value in the Title field. The special characters, spaces, numbers, and non-English characters entered in the Title field are replaced with hyphens in the Name field. Although the value in the Title field is automatically copied to the Name, you can edit the value.
     * **Description (Optional)**: Type a description of the asset.
     * **Data Dictionary (Optional)**: Optionally, select the data dictionary to which to connect. Only assets that use the same data dictionary as the list, or assets that have no data dictionary assigned, can be added to the list. Assigning a data dictionary to a list makes it easier for the person creating a letter template to find the appropriate list.
     * **Tags (Optional)**: Select the tags to apply. You can also type in a new tag’s name and create it. (The new tag is created when you tap **Save**.)
@@ -80,5 +77,5 @@ A list is a group of related content that can be used in a letter template as a 
 * The following rules apply when using the List Editor to change a list:
 
     * Update of properties: Allowed
-    * **Change of data dictionary: **Allowed until no item that uses the data dictionary is associated with it. You cannot change the data dictionary on update.
+    * **Change of data dictionary:** Allowed until no item that uses the data dictionary is associated with it. You cannot change the data dictionary on update.
 

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
 discoiquuid: 61e522c1-857d-4216-a3aa-1adacb1e2588
-index: y
-internal: n
-snippet: y
 ---
 
 # Basic Handling{#basic-handling}

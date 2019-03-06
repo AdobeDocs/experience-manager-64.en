@@ -10,9 +10,6 @@ topic-tags: components
 content-type: reference
 discoiquuid: b3cb9caa-46bd-4ab3-8f0d-508745bc2cb7
 legacypath: /content/docs/en/aem/6-2/develop/components/components-develop
-index: y
-internal: n
-snippet: y
 ---
 
 # Developing AEM Components - Code Samples{#developing-aem-components-code-samples}

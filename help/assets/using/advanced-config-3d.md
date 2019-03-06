@@ -9,9 +9,6 @@ topic-tags: 3D
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: 23790287-c23c-477d-93ab-1f573276110b
-index: y
-internal: n
-snippet: y
 ---
 
 # Advanced configuration settings{#advanced-configuration-settings}
@@ -87,8 +84,7 @@ In CRXDE Lite in AEM (**Tools **&gt; **General **&gt; **CRXDE Lite**), access th
 
 ## Cloud Services Configuration Settings {#cloud-services-configuration-settings}
 
-Values for the following settings are provided by your Adobe account manager, provisioning expert, or support representative.**** 
-****
+Values for the following settings are provided by your Adobe account manager, provisioning expert, or support representative.
 
 | **Path** |**Description** |
 |---|---|

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
 discoiquuid: 99a97942-6b49-4649-87f0-9327548b9090
-index: y
-internal: n
-snippet: y
 ---
 
 # Designs and the Designer{#designs-and-the-designer}
@@ -24,7 +21,7 @@ You will need to create a design for your website and in AEM, you do so by using
 
 ### Using the Designer {#using-the-designer}
 
-Your design can be defined in the ******designs** section of the **Tools** tab:
+Your design can be defined in the **designs** section of the **Tools** tab:
 
 ![](assets/screen_shot_2012-02-01at30237pm.png)
 

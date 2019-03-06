@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: authoring
 discoiquuid: 8964acb5-e22b-4763-b41a-abfce173c2cf
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating and Managing Channels{#creating-and-managing-channels}

@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/aem_forms_backup_and_recovery
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 3dc2ab07-cdbc-4869-88be-82c3aa417ec0
-index: y
-internal: n
-snippet: y
 ---
 
 # Backup strategies for watched folders{#backup-strategies-for-watched-folders}
@@ -119,9 +116,9 @@ The following text describes file manipulation for each time:
 
 **T5:**The service operation places file4 in the stage folder for manipulation. The manipulation of file3 fails, and the service operation places it in the failure folder.
 
-**T6: **The service operation places file5 in the input folder. It places the results of file4 in the output folder, places file4 in the preserve folder.
+**T6:** The service operation places file5 in the input folder. It places the results of file4 in the output folder, places file4 in the preserve folder.
 
-**T7: **The service operation places file5 in the stage folder for manipulation.
+**T7:** The service operation places file5 in the stage folder for manipulation.
 
 ## Backing up watched folders {#backing-up-watched-folders}
 
@@ -137,7 +134,7 @@ If a more recent backup was taken, you can restore the files. When restoring the
 
 **Stage:** Files in this folder are processed again after the watched folder is restored.
 
-**Input: **Files in this folder are processed again after the watched folder is restored.
+**Input:** Files in this folder are processed again after the watched folder is restored.
 
 **Result:** Files in this folder are not processed.
 

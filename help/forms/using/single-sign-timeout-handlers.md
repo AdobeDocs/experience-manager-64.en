@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: d8faad97-c28a-433b-ad1d-1e42086f7165
-index: y
-internal: n
-snippet: y
 ---
 
 # Single Sign On and timeout handlers{#single-sign-on-and-timeout-handlers}

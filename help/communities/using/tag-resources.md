@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: 0f34d413-bc66-4808-a1e4-c4b9a75808bc
-index: y
-internal: n
-snippet: y
 ---
 
 # Tagging Enablement Resources{#tagging-enablement-resources}

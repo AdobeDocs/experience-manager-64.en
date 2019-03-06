@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_workspace
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: f09eb8db-641f-43d5-80f3-6e7a446edd16
-index: y
-internal: n
-snippet: y
 ---
 
 # Setting the message of the day{#setting-the-message-of-the-day}

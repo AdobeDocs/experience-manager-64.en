@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
 topic-tags: authoring
 discoiquuid: 9e11a13e-8b10-4fe8-8c70-78ad2b12ad68
-index: y
-internal: n
-snippet: y
 ---
 
 # Managing Assets with the Touch-Optimized UI{#managing-assets-with-the-touch-optimized-ui}

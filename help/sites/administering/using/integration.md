@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: 08f8b63c-2f6c-45c7-900f-1bd7b2a6b6d6
-index: y
-internal: n
-snippet: y
 ---
 
 # Solutions Integration{#solutions-integration}

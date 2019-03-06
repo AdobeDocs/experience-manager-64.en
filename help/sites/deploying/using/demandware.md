@@ -10,9 +10,6 @@ topic-tags: e-commerce
 content-type: reference
 discoiquuid: fa75942c-58e0-43d8-9d5a-47ac2b913ec2
 pagetitle: Deploying eCommerce with Demandware
-index: y
-internal: n
-snippet: y
 ---
 
 # Salesforce Commerce Cloud{#salesforce-commerce-cloud}

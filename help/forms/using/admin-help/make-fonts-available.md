@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_output
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: e83d34bc-9ece-4812-809d-869067a93068
-index: y
-internal: n
-snippet: y
 ---
 
 # Make fonts available{#make-fonts-available}

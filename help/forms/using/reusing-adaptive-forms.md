@@ -7,9 +7,6 @@ uuid: fbe9cf6f-1f34-4dd5-b640-1910c7138b23
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
 discoiquuid: eccf67b7-1c88-4abe-8148-1431d814a068
-index: y
-internal: n
-snippet: y
 ---
 
 # Reusing adaptive forms{#reusing-adaptive-forms}
@@ -56,7 +53,7 @@ After clicking the paste ![](assets/aem6forms_paste.png) icon, it will again bec
 
 The content of a pasted adaptive forms can be changed using the following approaches to make it different from the copied form:
 
-1. **Change metadata properties: **
+1. **Change metadata properties:** 
 
    You can change the metadata properties of the adaptive form for example, title and description. For more details about metadata properties and how they can be changed, see [Managing Form Metadata](../../forms/using/manage-form-metadata.md)
 
@@ -64,7 +61,7 @@ The content of a pasted adaptive forms can be changed using the following approa
 
    You can change the XFA/XSD used in adaptive forms. To know how these adaptive forms can be changed, see [Managing form metadata](../../forms/using/manage-form-metadata.md)
 
-1. **Republish: **
+1. **Republish:** 
 
    The pasted asset is different from the copied one. You can publish it as a new asset to make it available for end users. To know how to publish an asset, see [Publishing and unpublishing forms](../../forms/using/publishing-unpublishing-forms.md)
 

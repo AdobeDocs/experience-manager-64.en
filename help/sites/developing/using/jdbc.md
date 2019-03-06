@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
 discoiquuid: d10b91a4-7a4d-43c4-9dac-30ad75f51eea
-index: y
-internal: n
-snippet: y
 ---
 
 # Connecting to SQL Databases{#connecting-to-sql-databases}

@@ -9,9 +9,6 @@ contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 discoiquuid: f40c88ba-fde7-4ecb-9620-fbb00894a81f
-index: y
-internal: n
-snippet: y
 ---
 
 # DO NOT PUBLISH | Enable Amazon Cloudfront to serve content{#do-not-publish-enable-amazon-cloudfront-to-serve-content}

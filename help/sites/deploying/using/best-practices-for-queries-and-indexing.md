@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
 discoiquuid: ea5b1d2b-3eb4-4f53-9837-918584539679
-index: y
-internal: n
-snippet: y
 ---
 
 # Best Practices for Queries and Indexing{#best-practices-for-queries-and-indexing}
@@ -34,7 +31,7 @@ Additionally, when designing a taxonomy, it is important to consider whether ord
 
 ### Queries in Components {#queries-in-components}
 
-Since queries can be one of the more taxing operations done on an AEM system, it is a good idea to avoid them in your components. Having several queries execute each time a page is rendered can often degrade the performance of the system. There are two strategies that can be used to avoid executing queries when rendering components: **traversing nodes** and **prefetching results**.
+Since queries can be one of the more taxing operations done on an AEM system, it is a good idea to avoid them in your components. Having several queries execute each time a page is rendered can often degrade the performance of the system. There are two strategies that can be used to avoid executing queries when rendering components:** traversing nodes** and **prefetching results**.
 
 #### Traversing Nodes {#traversing-nodes}
 

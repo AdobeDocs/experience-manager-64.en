@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
 discoiquuid: 680c4738-b239-4fa1-a6d2-e4e87c180315
-index: y
-internal: n
-snippet: y
 ---
 
 # Personalization{#personalization}
@@ -65,7 +62,7 @@ Personalization can be used in many cases, for example:
 * Users require a login for authorization; this will be linked to a profile providing information required for personalization; possibly details such as their location, relationship to the product, usage history, budgeting responsibilities, etc.
 * Such instances can range over sites such as:
 * Companies which provide websites to a highly specialized section of their market e.g. a pharmaceutical company providing a specialized website for physicians.
-* Companies which provide websites allowing their customer to view current account and billing information; for example telephone providers.****
+* Companies which provide websites allowing their customer to view current account and billing information; for example telephone providers.
 
 **Sales and Distribution website**
 

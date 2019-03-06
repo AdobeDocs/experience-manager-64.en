@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: customization
 discoiquuid: 2c47e1d6-cf4c-4f30-9811-52940ebb11eb
-index: y
-internal: n
-snippet: y
 ---
 
 # Customizing form event tracking{#customizing-form-event-tracking}

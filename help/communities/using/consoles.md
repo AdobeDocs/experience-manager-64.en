@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: f7b2442f-e2a0-4a44-a5aa-785fe40d90ba
-index: y
-internal: n
-snippet: y
 ---
 
 # Communities Consoles{#communities-consoles}
@@ -66,4 +63,4 @@ To access the various Communities consoles, from global navigation select **navi
 
 ### Tools Console {#tools-console}
 
-To access [Communities Tools](../../communities/using/tools.md) (formerly the administration console), from global navigation : **Tools, Communities**
+To access [Communities Tools](../../communities/using/tools.md) (formerly the administration console), from global navigation :** Tools, Communities**

@@ -10,9 +10,6 @@ topic-tags: components
 content-type: reference
 discoiquuid: 2779f134-2107-4a16-9ac0-2bb79a01189e
 legacypath: /content/docs/en/aem/6-2/develop/components/components-classic
-index: y
-internal: n
-snippet: y
 ---
 
 # Developing AEM Components (Classic UI){#developing-aem-components-classic-ui}

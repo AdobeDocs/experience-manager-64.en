@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: a4978bfe-757c-4f5e-9bb8-bcef5b3164ac
-index: y
-internal: n
-snippet: y
 ---
 
 # Components and Services Java APIQuick Start(SOAP){#components-and-services-java-apiquick-start-soap}

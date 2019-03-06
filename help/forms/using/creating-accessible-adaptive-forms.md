@@ -7,9 +7,6 @@ uuid: eb864587-f0ee-43a7-80ed-785a4a21270e
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
 discoiquuid: e22204ad-f787-40b9-b537-d881f09e905f
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating accessible adaptive forms{#creating-accessible-adaptive-forms}

@@ -10,9 +10,6 @@ geptopics: SG_AEMFORMS/categories/performing_service_operations_using_apis
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: fbba346a-3345-4db3-b1af-f4fcdaf50740
-index: y
-internal: n
-snippet: y
 ---
 
 # Assembling PDF Documents{#assembling-pdf-documents}

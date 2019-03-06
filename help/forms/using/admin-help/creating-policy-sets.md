@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_document_security
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 8454f08d-5d8b-48d1-bf35-db547afc85fc
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating and managing policy sets{#creating-and-managing-policy-sets}

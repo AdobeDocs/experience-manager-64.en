@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/health_monitor
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 8f48914a-91b3-49f7-9909-44e910b28b9e
-index: y
-internal: n
-snippet: y
 ---
 
 # Overview of Health Monitor{#overview-of-health-monitor}

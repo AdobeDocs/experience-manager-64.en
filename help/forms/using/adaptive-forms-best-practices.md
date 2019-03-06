@@ -7,9 +7,6 @@ uuid: fbadab78-906b-40e9-b377-4359398e16ce
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
 discoiquuid: c67fdb4f-4a25-4bf4-a4c1-4b4ca7263d89
-index: y
-internal: n
-snippet: y
 ---
 
 # Best practices for working with adaptive forms{#best-practices-for-working-with-adaptive-forms}

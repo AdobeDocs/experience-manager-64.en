@@ -11,9 +11,6 @@ content-type: reference
 discoiquuid: 7cbafba5-751e-4424-a748-64dcaa6a5f3d
 pagetitle: Query Builder API
 tagskeywords: querybuilder
-index: y
-internal: n
-snippet: y
 ---
 
 # Query Builder API{#query-builder-api}

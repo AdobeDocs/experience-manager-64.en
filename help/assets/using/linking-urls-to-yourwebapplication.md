@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
 discoiquuid: 2ff64d66-fafd-438d-bcfd-987ae58e8b7f
-index: y
-internal: n
-snippet: y
 ---
 
 # Linking URLs to your Web Application{#linking-urls-to-your-web-application}

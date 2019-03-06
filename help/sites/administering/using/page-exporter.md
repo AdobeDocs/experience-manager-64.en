@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: content
 content-type: reference
 discoiquuid: 12188010-a264-42ba-9982-c1be866b6339
-index: y
-internal: n
-snippet: y
 ---
 
 # The Page Exporter{#the-page-exporter}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
 discoiquuid: 3cbe8351-9160-4bb6-8df0-8de5a18704f9
-index: y
-internal: n
-snippet: y
 ---
 
 # Calendar Feature{#calendar-feature}

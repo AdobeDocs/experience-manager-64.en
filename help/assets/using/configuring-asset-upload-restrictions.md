@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
 discoiquuid: ff478613-82e0-4cac-a78f-bb15e336f3a3
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring Asset Upload Restrictions{#configuring-asset-upload-restrictions}

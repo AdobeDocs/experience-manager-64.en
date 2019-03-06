@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: 49305dd5-54cc-41fc-ba60-ffecb873a410
-index: y
-internal: n
-snippet: y
 ---
 
 # User Manager Java API Quick Start(SOAP){#user-manager-java-api-quick-start-soap}

@@ -8,9 +8,6 @@ content-type: reference
 topic-tags: correspondence-management
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 642eab0c-0aca-489d-aa53-671796be6d30
-index: y
-internal: n
-snippet: y
 ---
 
 # Add custom properties to Correspondence Management assets{#add-custom-properties-to-correspondence-management-assets}

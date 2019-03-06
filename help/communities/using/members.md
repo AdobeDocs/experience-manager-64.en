@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: edc8d3a5-0196-4671-81b3-c2885ead4255
-index: y
-internal: n
-snippet: y
 ---
 
 # Members & Groups Management Consoles{#members-groups-management-consoles}
@@ -39,7 +36,7 @@ For managing users and groups registered in the *author* environment, is is nece
 
 In the author environment, to reach the Members console for managing members registered in the publish environment :
 
-* from global navigation : **Navigation, Communities, Members**
+* from global navigation :** Navigation, Communities, Members**
 
 >[!CAUTION]
 >
@@ -161,7 +158,7 @@ The Groups console, available from the author environment, allows for the creati
 
 To access the Groups console :
 
-* from global navigation : **Navigation, Communities, Groups**
+* from global navigation :** Navigation, Communities, Groups**
 
 >[!CAUTION]
 >

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
 discoiquuid: 3eebec11-b1a7-4820-9906-3ff9aeb6300a
-index: y
-internal: n
-snippet: y
 ---
 
 # Authoring{#authoring}

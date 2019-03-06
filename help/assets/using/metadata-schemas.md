@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
 discoiquuid: 3a4b10b2-8957-4b7b-aa0f-f68d21ffca89
-index: y
-internal: n
-snippet: y
 ---
 
 # Metadata Schemas{#metadata-schemas}
@@ -54,7 +51,7 @@ You can use the Metadata Schema Forms editor to modify existing schemas or add c
    iii. ** video**: Schema form for assets with MIME type "video", such as *video*/ *avi*, *video*/ *mp4* and so on.
 
     * **collection**: Schema form for collections
-    * **contentfragment: **Schema form for content fragments
+    * **contentfragment:** Schema form for content fragments
     * **forms**: This schema form relates to [Adobe Experience Manager Forms](http://helpx.adobe.com/aem-forms/6/getting-started.html)
 
 >[!NOTE]

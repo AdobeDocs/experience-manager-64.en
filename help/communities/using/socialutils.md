@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: 7c70f0b9-3b4b-498a-8a3c-46717343f2c5
-index: y
-internal: n
-snippet: y
 ---
 
 # SocialUtils Refactoring{#socialutils-refactoring}

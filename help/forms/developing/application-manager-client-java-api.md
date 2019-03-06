@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: ddb53bf7-9b6f-4bae-bae2-ee68a38e5105
-index: y
-internal: n
-snippet: y
 ---
 
 # Application Manager Client JavaAPI Quick Start(SOAP){#application-manager-client-javaapi-quick-start-soap}

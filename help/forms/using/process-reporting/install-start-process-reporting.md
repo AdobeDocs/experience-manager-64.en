@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: process-reporting
 discoiquuid: c16453cc-0624-46d8-8be6-4d589b5280bb
-index: y
-internal: n
-snippet: y
 ---
 
 # Getting Started with Process Reporting{#getting-started-with-process-reporting}
@@ -78,7 +75,7 @@ Perform the following steps to change the publishing schedule:
 
     * `-Dreporting.publisher.cron = 0_0_0/5_*_*_?`
 
-1. Click **Apply**, click OK, and**** then click **Save directly to the master configuration**.  
+1. Click **Apply**, click OK, and then click **Save directly to the master configuration**.  
 
 1. Restart the AEM Forms server instance.
 

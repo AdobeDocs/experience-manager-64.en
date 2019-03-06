@@ -9,9 +9,6 @@ content-type: reference
 topic-tags: developing
 discoiquuid: 26b72038-ba74-4fa1-88f0-172dd1870abb
 targetaudience: target-audience new
-index: y
-internal: n
-snippet: y
 ---
 
 # Developing a Custom Component for AEM Screens{#developing-a-custom-component-for-aem-screens}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
 discoiquuid: c620d399-0963-4817-a16c-744840a7baf2
-index: y
-internal: n
-snippet: y
 ---
 
 # Administering Workflow Instances{#administering-workflow-instances}

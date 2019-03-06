@@ -7,9 +7,6 @@ uuid: 0b7978b5-b9e6-414b-ba47-819795066146
 topic-tags: integration
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 2e2183d0-172b-4f0c-873d-5b2c571d1450
-index: y
-internal: n
-snippet: y
 ---
 
 # Microsoft Dynamics OData configuration{#microsoft-dynamics-odata-configuration}

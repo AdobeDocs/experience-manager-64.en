@@ -8,9 +8,6 @@ uuid: f085ff89-3619-4d8d-be31-d10a03faf345
 contentOwner: khsingh
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: cdfaa8bb-19fe-4e15-af9e-25bd50015bc6
-index: y
-internal: n
-snippet: y
 ---
 
 # DO NOT PUBLISH: AEM Forms Apache Felix and Apache Sling configurations {#do-not-publish-aem-forms-apache-felix-and-apache-sling-configurations}

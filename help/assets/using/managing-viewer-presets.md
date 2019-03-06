@@ -10,9 +10,6 @@ topic-tags: dynamic-media
 content-type: reference
 discoiquuid: e9104f7a-7c9f-455b-abe3-84a54dc8b598
 legacypath: /content/docs/en/aem/6-0/administer/integration/dynamic-media/viewer-presets
-index: y
-internal: n
-snippet: y
 ---
 
 # Managing Viewer Presets{#managing-viewer-presets}

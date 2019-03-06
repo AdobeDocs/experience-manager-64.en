@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: 5cfa851a-6507-4fc8-bb48-7846c62a75af
-index: y
-internal: n
-snippet: y
 ---
 
 # Encrypting and Decrypting PDF Documents{#encrypting-and-decrypting-pdf-documents}
