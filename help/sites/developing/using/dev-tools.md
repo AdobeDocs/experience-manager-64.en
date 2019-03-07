@@ -3,12 +3,12 @@ title: Development Tools
 seo-title: Development Tools
 description: To develop your JCR, Apache Sling or AEM applications, a number of tool sets are available
 seo-description: To develop your JCR, Apache Sling or AEM applications, a number of tool sets are available
-uuid: f4b48b17-3983-4bca-991e-2f60aa3653dc
+uuid: 37b3a870-b64d-4999-8db4-46462991d459
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: development-tools
 content-type: reference
-discoiquuid: 77a6759d-8edd-4e55-82bb-c0e9357f4641
+discoiquuid: d30aefec-532b-40c0-8f0d-a662a830975a
 index: y
 internal: n
 snippet: y

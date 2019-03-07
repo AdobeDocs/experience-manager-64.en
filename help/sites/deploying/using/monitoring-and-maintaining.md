@@ -3,12 +3,12 @@ title: Monitoring and Maintaining Your AEM instance
 seo-title: Monitoring and Maintaining Your AEM instance
 description: Learn how to monitor AEM.
 seo-description: Learn how to monitor AEM.
-uuid: 022ccbe1-0884-4c8d-a44e-bbdff4b81efa
+uuid: 89a0b181-c4ab-40a3-bbb9-44f96e2d0528
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: configuring
 content-type: reference
-discoiquuid: 820ac220-0fe3-479a-8508-cb0bfd0bb3b8
+discoiquuid: f47f82d2-ea7d-43cb-baba-e91a378d9f54
 index: y
 internal: n
 snippet: y
@@ -480,7 +480,7 @@ To monitor a replication agent:
 
 1. Click the appropriate agent name (which is a link) to show detailed information on that agent:
 
-   ![](assets/chlimage_1-11.jpeg)
+   ![](assets/chlimage_1-8.jpeg)
 
    Here you can:
 

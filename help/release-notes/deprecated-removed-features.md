@@ -3,12 +3,12 @@ title: Deprecated and Removed Features
 seo-title: Deprecated and Removed Features
 description: Release notes specific to deprecated and removed features in Adobe Experience Manager 6.4.
 seo-description: Release notes specific to deprecated and removed features in Adobe Experience Manager 6.4.
-uuid: 98596d83-a89a-469a-9580-4fb93b91cc46
+uuid: 3ebe5cb5-f797-4c25-8606-c8ba5aeb018e
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4
 topic-tags: release-notes
 content-type: reference
-discoiquuid: a40dbd99-e1e2-4df9-8041-0229a938c717
+discoiquuid: 437af6a7-1527-418e-8ddb-c50963bde74a
 index: y
 internal: n
 snippet: y

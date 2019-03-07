@@ -3,12 +3,12 @@ title: Prerequisites for Integrating with Adobe Target
 seo-title: Prerequisites for Integrating with Adobe Target
 description: Find out about the prerequisites for integrating with Adobe Target.
 seo-description: Find out about the prerequisites for integrating with Adobe Target.
-uuid: 00863292-f2be-438d-9913-fa40422cbfb4
+uuid: dec31bce-ec6e-41c8-8bb6-cc051baf832f
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: 12bf366d-097b-4e69-8bda-1391db9a13f3
+discoiquuid: 3a8b83cc-7e71-4412-9545-64b4532d4e11
 index: y
 internal: n
 snippet: y

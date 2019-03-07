@@ -3,12 +3,12 @@ title: Assets Performance Tuning Guide
 seo-title: Assets Performance Tuning Guide
 description: Key focus areas around AEM configuration, changes to hardware, software, and network components to remove bottlenecks and optimize the performance of AEM Assets.
 seo-description: Key focus areas around AEM configuration, changes to hardware, software, and network components to remove bottlenecks and optimize the performance of AEM Assets.
-uuid: f768c939-404f-4f89-98b4-8c6097add973
+uuid: 625b5e83-91e0-45a9-9f91-e69156c7b925
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: e6ab2ae5-b0cc-47ec-8d46-314d41ab6c5e
+discoiquuid: 8ba96240-748b-494d-b35b-b08687361862
 tagskeywords: performance tuning, AEM Assets, software optimization, hardware optimization
 index: y
 internal: n
@@ -35,7 +35,7 @@ While AEM is supported on a number of platforms, Adobe has found the greatest su
 
 To improve asset upload times, use high performance storage for the Java temp directory. On Linux and Windows, a RAM drive or SSD could be used. In cloud-based environments, an equivalent high speed storage type could be used. For example in Amazon EC2, an ["ephemeral drive"](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/InstanceStorage.html) drive can be used for the temp folder.
 
-Assuming the server has ample memory, configure a RAM drive. On Linux, run these commands to create an 8GB RAM drive:
+Assuming the server has ample memory, configure a RAM drive. On Linux, run these commands to create an 8 GB RAM drive:
 
 ```
 mkfs -q /dev/ram1 800000
@@ -130,11 +130,12 @@ Wherever possible, set the DAM Update Asset workflow to Transient. The setting s
 >
 >By default, the DAM Update Asset workflow is set to Transient in AEM 6.3. In this case, you can skip the following procedure.
 
-1. Navigate to */miscadmin* in the AEM instance to be configured (i.e. [http://localhost:4502/miscadmin)](http://localhost:4502/miscadmin)).
-1. From the navigation tree, expand **Tools** &gt; **Workflow** &gt; **Models** &gt; **dam**.
-1. Double-click **DAM Update Asset**.
-1. From the floating tool panel, switch to the **Page** tab, and then click **Page Properties...**
-1. Select **Transient Workflow**, and then click **OK**.
+1. Open [http://localhost:4502/miscadmin](/miscadmin) on the AEM instance you want to configure.  
+
+1. From the navigation tree, expand **[!UICONTROL Tools]** > **[!UICONTROL Workflow]** > **[!UICONTROL Models]** > **[!UICONTROL dam]**.
+1. Double-click **[!UICONTROL DAM Update Asset]**.
+1. From the floating tool panel, switch to the **[!UICONTROL Page]** tab, and then click **[!UICONTROL Page Properties]****.**
+1. Select **[!UICONTROL Transient Workflow]** Click **[!UICONTROL OK]**.
 
    >[!NOTE]
    >

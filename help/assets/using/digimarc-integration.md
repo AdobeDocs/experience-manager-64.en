@@ -4,12 +4,12 @@ seo-title: Integrating digital non-visible watermarking (Digimarc) with Dynamic 
 description: Learn how to integrate Digimarc digital watermarking to weave a unique, imperceptible, and traceable identifier into image assets.
 seo-description: Learn how to integrate Digimarc digital watermarking to weave a unique, imperceptible, and traceable identifier into image assets.
 page-status-flag: never-activated
-uuid: 7caf57a8-6ad8-4880-85d0-99adcfa15f74
+uuid: 2f006ba0-bfe7-40cd-ac03-1ebe5c5927ab
 contentOwner: rbrough
 topic-tags: dynamic-media
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
-discoiquuid: 9696668e-66d5-495e-8c46-eb594ba0a07d
+discoiquuid: e29e6c17-dbb2-4b5c-ad9d-1d33de6aa771
 index: y
 internal: n
 snippet: y

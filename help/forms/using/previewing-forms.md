@@ -3,10 +3,10 @@ title: Previewing a form
 seo-title: Previewing a form
 description: You can preview your forms before publishing or activating to ensure it meets the expectations. Preview options may vary across the supported form types.
 seo-description: You can preview your forms before publishing or activating to ensure it meets the expectations. Preview options may vary across the supported form types.
-uuid: 69eedb41-1aa3-4993-ac48-784f7e9744ba
+uuid: 4cc278a8-62d3-4379-8f72-96d6a8d1423c
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
-discoiquuid: 02fd48d6-d4b2-4f2d-99ea-ec86fd29254d
+discoiquuid: 258938e8-346e-4080-bd39-c26946c316ef
 index: y
 internal: n
 snippet: y

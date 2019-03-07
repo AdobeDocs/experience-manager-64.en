@@ -3,11 +3,11 @@ title: Custom storage for drafts and submissions component
 seo-title: Custom storage for drafts and submissions component
 description: See how to customize the storage of user data for drafts and submissions.
 seo-description: See how to customize the storage of user data for drafts and submissions.
-uuid: 4d864044-c181-4f7f-9cbc-092d43686cce
+uuid: f08e0d95-f46d-4ceb-992e-9be8682adcf9
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: Configuration
-discoiquuid: 1ca287ea-ba58-46ac-b756-29155fd3b910
+discoiquuid: 5fa89adc-6683-454d-af0a-b5929ce0d74a
 index: y
 internal: n
 snippet: y

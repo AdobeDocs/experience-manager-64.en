@@ -3,12 +3,12 @@ title: Scoring and Badges Essentials
 seo-title: Scoring and Badges Essentials
 description: Scoring and Badges feature overview
 seo-description: Scoring and Badges feature overview
-uuid: 350207d3-47bd-4278-93ad-9165033223df
+uuid: 29d2c31f-ce8d-4c9c-b02b-91fe861b26ad
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: ea348e33-1ba1-4cba-b723-d6a39603c2a7
+discoiquuid: 7a715e29-f6ce-4894-b0fe-e0ff4b394bb3
 index: y
 internal: n
 snippet: y

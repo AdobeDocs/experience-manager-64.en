@@ -3,12 +3,12 @@ title: Extend Comments Component
 seo-title: Extend Comments Component
 description: Extend the Comments component to alter its appearance or behavior for specific uses
 seo-description: Extend the Comments component to alter its appearance or behavior for specific uses
-uuid: 17100c4f-6da6-4a91-bffa-8006d665a78c
+uuid: 35918f1a-aaac-4bf0-9ef3-e73589997a11
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 36d24036-9573-4575-963a-11dc89eaf7a6
+discoiquuid: c2383512-cdfe-48f2-af66-2088ae9bf467
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Basics of configuring forms
 seo-title: Basics of configuring forms
 description: Learn about the various forms services that help you create interactive data capture applications.
 seo-description: Learn about the various forms services that help you create interactive data capture applications.
-uuid: 58ce0e4a-a641-4e61-89d2-91e2726a1f72
+uuid: 5d093e6f-8a5f-4e91-88f2-26d1f0b12230
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 2aeaf4cc-d7a5-4620-81cf-e23f7c1a9f0d
+discoiquuid: 7dbdd3f7-01b2-4dd4-bd4c-be8a5aaf5088
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Troubleshooting
 seo-title: Troubleshooting
 description: This article covers some of the installation issues you might encounter with AEM.
 seo-description: This article covers some of the installation issues you might encounter with AEM.
-uuid: b62b3514-0fe8-4e01-b52e-e647637119e6
+uuid: 3de1bedd-ebf7-45fa-923d-14acc13e2b62
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
-discoiquuid: 3526b62a-941e-4408-9b25-7ef766d2a2ec
+discoiquuid: 37a7e8ac-2301-4200-b1e1-d18e4fe8b9c9
 index: y
 internal: n
 snippet: y

@@ -3,11 +3,11 @@ title: Working with a Form
 seo-title: Working with a Form
 description: View and update the form associated with a task or Startpoint in the AEM Forms app
 seo-description: View and update the form associated with a task or Startpoint in the AEM Forms app
-uuid: e87cb816-2b22-41b8-9287-9452354c7eeb
+uuid: 3974cdc5-1989-4ed4-8950-e84ad15f5de8
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
-discoiquuid: 3e235259-3822-46e3-bf83-ac5396b1f521
+discoiquuid: 3c4af716-60b8-46c3-b6b7-644ceab1e975
 index: y
 internal: n
 snippet: y

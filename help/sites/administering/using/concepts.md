@@ -3,12 +3,12 @@ title: Concepts
 seo-title: Concepts
 description: General Concepts of eCommerce with AEM.
 seo-description: General Concepts of eCommerce with AEM.
-uuid: 121fd95a-bbd1-4ed5-806b-ccbf7071b77b
+uuid: 86dea58b-55bb-45d0-9767-c5fe306823a0
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: e-commerce
 content-type: reference
-discoiquuid: 6eb961cb-214c-4b3f-98db-b60153a87fd5
+discoiquuid: 25029541-0889-4d84-a3e0-b480d3445103
 index: y
 internal: n
 snippet: y
@@ -120,11 +120,11 @@ Various search options are also available.
 
 The integration framework provides the API, a range of components to illustrate functionality and several extensions to provide examples of connection methods:
 
-![](assets/chlimage_1-199.png)
+![](assets/chlimage_1-167.png)
 
 The framework gives you access to functionality such as:
 
-![](assets/chlimage_1-200.png) 
+![](assets/chlimage_1-168.png) 
 
 ### Implementations {#implementations}
 
@@ -205,7 +205,7 @@ The integrated system caters for the following roles to maintain the data:
 
 Though the actual location can depend on your implementation; for example, generic or with an eCommerce engine:
 
-![](assets/chlimage_1-201.png) 
+![](assets/chlimage_1-169.png) 
 
 ## Products {#products}
 
@@ -239,7 +239,7 @@ In either case, when the product data has been entered/imported into AEM it can 
 * the SKU code
 * when last modified
 
-![](assets/chlimage_1-202.png) 
+![](assets/chlimage_1-170.png) 
 
 ### Product Variants {#product-variants}
 
@@ -364,13 +364,13 @@ This scenario involves setting up two author instances:
 1. Dedicated DAM author instance  
    Imports and post-processes product assets from the PIM, then replicates these back to the master author instance for use.
 
-![Architecture diagram](assets/chlimage_1-203.png) 
+![Architecture diagram](assets/chlimage_1-171.png) 
 
 #### Only import product data {#only-import-product-data}
 
 For cases when products do not contain assets (images) to be imported, you can import the product data without being affected by asset post-processing.
 
-![Architecture diagram](assets/chlimage_1-204.png) 
+![Architecture diagram](assets/chlimage_1-172.png) 
 
 #### Import Throttling and Batch Saves {#import-throttling-and-batch-saves}
 
@@ -567,7 +567,7 @@ A promotion can be held either in an experience or directly in the campaign:
 
 When a shopper registers, the account details need to be synchronized between AEM and the eCommerce engine. Sensitive data is held independently, but profiles are shared:
 
-![](assets/chlimage_1-205.png)
+![](assets/chlimage_1-173.png)
 
 The exact mechanism can depend on the scenario:
 
@@ -596,7 +596,7 @@ When using an eCommerce engine, AEM only stores the account ID and password (opt
 
 Often sign-up is required for the shopper to have access to the shopping cart. This requires registration (Create Account) so that a customer-specific account can be created.
 
-![](assets/chlimage_1-206.png)
+![](assets/chlimage_1-174.png)
 
 >[!NOTE]
 >
@@ -606,7 +606,7 @@ Often sign-up is required for the shopper to have access to the shopping cart. T
 
 After sign-up the shopper can login with their account so that their actions can be tracked and their orders fulfilled.
 
-![](assets/chlimage_1-207.png) 
+![](assets/chlimage_1-175.png) 
 
 ### Single Sign-On {#single-sign-on}
 
@@ -618,7 +618,7 @@ Transaction data from the eCommerce engine is combined with personal information
 
 There is a page which allows you to easily manage your account informations. You can access it by clicking **My Account** at the top of a geometrixx page, or by navigating to `/content/geometrixx-outdoors/en/user/account.html`.
 
-![](assets/chlimage_1-208.png) 
+![](assets/chlimage_1-176.png) 
 
 ### Address Book {#address-book}
 
@@ -634,7 +634,7 @@ You can choose which address you want as default.
 
 The address book component is reachable from the **My Account** page by clicking **Address Book** or by navigating to `/content/geometrixx-outdoors/en/user/account/address-book.html`.
 
-![](assets/chlimage_1-209.png)
+![](assets/chlimage_1-177.png)
 
 You can click** Add new address...** to add a new address in your address book. It opens a form that you can fill out and then click **Add address**.
 
@@ -644,7 +644,7 @@ You can click** Add new address...** to add a new address in your address book. 
 
 The Address Book is used when you checkout your cart:
 
-![](assets/chlimage_1-210.png)
+![](assets/chlimage_1-178.png)
 
 Addresses are persisted below `user_home/profile/addresses`.  
 For example, for Alison Parker, it would be under /home/users/geometrixx/aparker@geometrixx.info/profile/addresses
@@ -788,7 +788,7 @@ When the order is held within AEM the Order console shows the following for each
 * when the order was placed
 * the status
 
-![](assets/chlimage_1-211.png) 
+![](assets/chlimage_1-179.png) 
 
 ### Order Tracking {#order-tracking}
 
@@ -802,7 +802,7 @@ After receiving the order delivery, shoppers may also want to view the history o
 
 Order fulfillment and tracking is usually managed by the eCommerce engine. Information can be displayed by AEM using the Order History component, which shows all relevant details, including the vouchers and promotions applied. For example:
 
-![](assets/chlimage_1-212.png) 
+![](assets/chlimage_1-180.png) 
 
 ## Checkout {#checkout}
 
@@ -822,7 +822,7 @@ The order is confirmed on screen and can be tracked with the [order tracking](#o
 
 ## Search {#search}
 
-![](assets/chlimage_1-213.png)
+![](assets/chlimage_1-181.png)
 
 Since AEM uses standard pages for products, you can use the [standard search component](/content/docs/en/aem/6-3/author/page-authoring/default-components/editmode#Search) to create a search page.
 

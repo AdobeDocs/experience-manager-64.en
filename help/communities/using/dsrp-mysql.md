@@ -3,12 +3,12 @@ title: MySQL Configuration for DSRP
 seo-title: MySQL Configuration for DSRP
 description: How to connect to the MySQL server and establish the UGC database
 seo-description: How to connect to the MySQL server and establish the UGC database
-uuid: 2f0c212f-be4e-4007-b2e4-94dd732bc380
+uuid: 5f7665e3-1cb9-4fbd-ab89-f37444268399
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 308107e0-0e69-4885-9952-a8a6fdbf7c3f
+discoiquuid: 95d6af29-ad16-43bb-9b13-8e082320e968
 index: y
 internal: n
 snippet: y

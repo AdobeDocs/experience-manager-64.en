@@ -3,12 +3,12 @@ title: Magento
 seo-title: Magento
 description: Learn how to use AEM with Magento.
 seo-description: Learn how to use AEM with Magento.
-uuid: 52136ff5-b16b-4212-a09b-14b25b45dc12
+uuid: 3d34288c-beb5-4539-acc3-88824ae64479
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: e-commerce
 content-type: reference
-discoiquuid: d5283470-2780-4d51-884c-b7a45dceba9e
+discoiquuid: e603e67a-8365-48de-ae69-50a2adec8d85
 pagetitle: Administering Magento
 index: y
 internal: n
@@ -27,7 +27,7 @@ Make sure you select **Magento Registration** as the action type. [](../../../si
 You can re-import catalog blueprint and products from your Magento server by using the [standard blueprint import procedure](../../../sites/administering/using/generic.md#importingproducts).  
 You just need to select the **Magento2** importer.
 
-![](assets/chlimage_1-43.jpeg) 
+![](assets/chlimage_1-42.jpeg) 
 
 ## Order-Service {#order-service}
 
@@ -36,7 +36,7 @@ You can add a new mapping to the Apache Sling Service User Mapper Service Amendm
 1. Navigate to [http://localhost:4502/system/console/configMgr](http://localhost:4502/system/console/configMgr).
 1. Click **Apache Sling Service User Mapper Service Amendment**.
 
-   ![](assets/chlimage_1-44.jpeg)
+   ![](assets/chlimage_1-43.jpeg)
 
 1. Enter the following information:
 

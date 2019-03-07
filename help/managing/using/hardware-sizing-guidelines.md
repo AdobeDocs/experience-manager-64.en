@@ -3,12 +3,12 @@ title: Hardware Sizing Guidelines
 seo-title: Hardware Sizing Guidelines
 description: These sizing guidelines offer an approximation of the hardware resources required to deploy an AEM project.
 seo-description: These sizing guidelines offer an approximation of the hardware resources required to deploy an AEM project.
-uuid: f74ee9b5-8f5b-4bac-877d-35e693ac4909
+uuid: 78fddec9-e590-4838-b628-0e0925de9371
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/MANAGING
 topic-tags: managing
 content-type: reference
-discoiquuid: 9af03eea-fa90-46e3-a31a-70e5127aae4f
+discoiquuid: fdbaeecd-6505-4269-b51c-eb5a0b49b121
 index: y
 internal: n
 snippet: y

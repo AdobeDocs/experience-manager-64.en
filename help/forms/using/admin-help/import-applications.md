@@ -3,12 +3,12 @@ title: Import and manage applications
 seo-title: Import and manage applications
 description: Learn how to import and manage applications.
 seo-description: Learn how to import and manage applications.
-uuid: af99a90d-074a-4cd9-93ea-c83f03b803e5
+uuid: 1cdc9555-2d33-401c-9e13-49237aab7185
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/importing_and_managing_applications_and_archives
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 58ffb71d-4d38-4ad6-aa0b-1680b82bbb02
+discoiquuid: 9b332dfb-881e-4e04-b942-42f61c2a7ad8
 index: y
 internal: n
 snippet: y

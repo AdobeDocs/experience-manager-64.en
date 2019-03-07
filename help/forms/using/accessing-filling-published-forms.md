@@ -3,11 +3,11 @@ title: Accessing and filling published forms
 seo-title: Accessing and filling published forms
 description: Forms Portal equips Web Developers with components to create and customize a forms portal on websites authored using Adobe Experience Manager (AEM).
 seo-description: Forms Portal equips Web Developers with components to create and customize a forms portal on websites authored using Adobe Experience Manager (AEM).
-uuid: e671b2db-f2b5-4f72-a3df-7e1a764f8bf9
+uuid: 6f760fac-69f4-4229-ba71-ce7fd74bd05d
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: publish
-discoiquuid: 8b8b8a04-aca6-4360-9e04-b1038d068562
+discoiquuid: 6c853044-50f4-4193-91a6-ec6be8f5beef
 index: y
 internal: n
 snippet: y

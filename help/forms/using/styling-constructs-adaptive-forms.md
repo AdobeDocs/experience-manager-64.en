@@ -3,10 +3,10 @@ title: Styling constructs for adaptive forms
 seo-title: Styling constructs for adaptive forms
 description: Use LESS framework to customize appearance of adaptive forms.
 seo-description: Use LESS framework to customize appearance of adaptive forms.
-uuid: 694e4622-a40f-41f0-ad7f-8f74023bacb7
+uuid: 56b27b32-017e-4856-abda-a2ebff27c951
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
-discoiquuid: e93e23aa-1835-4875-8684-fd6365ea3967
+discoiquuid: 92517518-7a30-49e7-9a5d-3184073a0529
 index: y
 internal: n
 snippet: y
@@ -1065,63 +1065,6 @@ These variables in the following table influence the mobile fixed toolbar layout
   <tr> 
    <td valign="top" width="308"><p><span class="code">mobilefixedtoolbarbgcolor</span></p> </td> 
    <td valign="top" width="308"><p>Background color of toolbar on mobile device</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-## Theme-specific variable {#theme-specific-variable}
-
-The **Simple enrollment** theme at /etc/clientlibs/fd/af/guidetheme/simpleEnrollment and the category `guide.theme.simpleEnrollment` also introduce a few variables. If you want to create a theme enhancing simple enrollment, you can use the following ``extra variables:
-
-<table border="1" cellpadding="0" cellspacing="0"> 
- <tbody> 
-  <tr> 
-   <td valign="top" width="308"><p><strong>Variables </strong></p> </td> 
-   <td valign="top" width="308"><p><strong>Description</strong></p> </td> 
-  </tr> 
-  <tr> 
-   <td valign="top" width="308"><p><span class="code">button-focus-bg-color</span></p> </td> 
-   <td valign="top" width="308"><p>Background color for button on focus</p> </td> 
-  </tr> 
-  <tr> 
-   <td valign="top" width="308"><p><span class="code">button-hover-bg-color</span></p> </td> 
-   <td valign="top" width="308"><p>Background color for button on hover</p> </td> 
-  </tr> 
-  <tr> 
-   <td valign="top" width="308"><p><span class="code">button-radius</span></p> </td> 
-   <td valign="top" width="308"><p>Radius of button</p> </td> 
-  </tr> 
-  <tr> 
-   <td valign="top" width="308"><p><span class="code">navigation-button-bg-color</span></p> </td> 
-   <td valign="top" width="308"><p>Background color for navigation buttons (back/next)</p> </td> 
-  </tr> 
-  <tr> 
-   <td valign="top" width="308"><p><span class="code">navigation-button-bg-hover-color</span></p> </td> 
-   <td valign="top" width="308"><p>Background color for navigation buttons (back/next) on hover</p> </td> 
-  </tr> 
-  <tr> 
-   <td valign="top" width="308"><p><span class="code">initial-nav-color</span></p> </td> 
-   <td valign="top" width="308"><p>Background color for wizard navigators and corresponding progress bar, when first rendered.</p> </td> 
-  </tr> 
-  <tr> 
-   <td valign="top" width="308"><p><span class="code">active-nav-color</span></p> </td> 
-   <td valign="top" width="308">Background color for current / active wizard navigator and corresponding progress bar </td> 
-  </tr> 
-  <tr> 
-   <td valign="top" width="308"><p><span class="code">visited-nav-color</span></p> </td> 
-   <td valign="top" width="308"><p>Background color for wizard navigators and corresponding progress bar, which have been visited.</p> </td> 
-  </tr> 
-  <tr> 
-   <td valign="top" width="308"><p><span class="code">tabs-bifercating-border-color</span></p> </td> 
-   <td valign="top" width="308"><p>Border color bifurcating container into navigators and panel</p> </td> 
-  </tr> 
-  <tr> 
-   <td valign="top" width="308"><p><span class="code">tabs-navigator-separator-color</span></p> </td> 
-   <td valign="top" width="308"><p>Bottom border color separating tabs for tabs on left (tab navigators).</p> </td> 
-  </tr> 
-  <tr> 
-   <td valign="top" width="308"><p><span class="code">tabs-child-nav-bg-color</span></p> </td> 
-   <td valign="top" width="308"><p>Background color for navigator' nested/child/sub navigators</p> </td> 
   </tr> 
  </tbody> 
 </table>

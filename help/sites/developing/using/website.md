@@ -3,12 +3,12 @@ title: Create a Fully-Featured Website (JSP)
 seo-title: Create a Fully-Featured Website (JSP)
 description: This tutorial enables you to create a fully featured website with AEM
 seo-description: This tutorial enables you to create a fully featured website with AEM
-uuid: 1fd06afe-49f2-47ff-bee0-30c4db499d18
+uuid: a820ca45-f8f6-43af-9dce-b95e6a25d010
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
-discoiquuid: 339b1508-3296-4af5-8256-d84e9ae7bc8c
+discoiquuid: 5866d294-7b84-489c-88eb-463650a103c4
 index: y
 internal: n
 snippet: y

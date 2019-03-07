@@ -3,12 +3,12 @@ title: Configuring Dynamic Media - Scene7 mode
 seo-title: Configuring Dynamic Media - Scene7 mode
 description: Information on how to configure Dynamic Media - Scene7 mode.
 seo-description: Information on how to configure Dynamic Media - Scene7 mode.
-uuid: 8a3310ff-6e70-42ac-b607-2d341f6b5d71
+uuid: f05549d6-e215-4532-a6ac-018200155585
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: 1c3dae82-3751-410c-b7a7-b5b394606867
+discoiquuid: 5f1ddf13-381a-4705-bb85-ca98fda554e0
 index: y
 internal: n
 snippet: y

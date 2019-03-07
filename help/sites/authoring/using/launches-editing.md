@@ -3,12 +3,12 @@ title: Editing Launches
 seo-title: Editing Launches
 description: After creating a launch for your page (or set of pages) you can edit the content in the launch copy of the page(s). 
 seo-description: After creating a launch for your page (or set of pages) you can edit the content in the launch copy of the page(s). 
-uuid: d6f4a789-d7c0-465a-b19a-976ab26ce222
+uuid: e62942eb-e90d-4a81-99e5-5962bd1a9da1
 contentOwner: Alison Heimoz
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
-discoiquuid: 95354fe8-175c-47fb-b499-1376c9e8bdca
+discoiquuid: c1b11533-3360-4f14-a635-9e2e08bc0e1c
 legacypath: /content/docs/en/aem/6-0/author/site-page-features/launches
 index: y
 internal: n
@@ -48,7 +48,7 @@ To track the changes you have made, you can view the launch in **References** an
 1. Open the ** [References](../../../sites/authoring/using/basic-handling.md#references)** panel and select **Launches**.
 1. Select your specific launch then **Compare to Source**:
 
-   ![](assets/chlimage_1-123.png)
+   ![](assets/chlimage_1-96.png)
 
 1. The two pages (launch and source) will be opened side-by-side.
 
@@ -100,5 +100,5 @@ At any time you can edit the properties for a launch:
 
 The status is shown when you select a specific launch from the references tab (see [Launches in References (Sites Console)](../../../sites/authoring/using/launches.md#launchesinreferencessitesconsole)).
 
-![](assets/chlimage_1-124.png)
+![](assets/chlimage_1-97.png)
 

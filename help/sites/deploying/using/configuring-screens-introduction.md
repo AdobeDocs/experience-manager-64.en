@@ -3,9 +3,9 @@ title: (Redirect)Configuring and Deploying AEM Screens
 seo-title: (Redirect)Configuring and Deploying AEM Screens
 description: null
 seo-description: null
-uuid: 0e9806bd-285f-4243-a664-94551baafc1f
+uuid: 50e36220-d23f-4ba3-923e-6e65b0137452
 contentOwner: jsyal
-discoiquuid: a0711be5-c5ef-46c4-9855-0cbca15d5ff4
+discoiquuid: cb2a604a-964b-4e53-9303-c0de644f2206
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/screens/using/configuring-screens-introduction
 index: y

@@ -3,12 +3,12 @@ title: Developing and Page Diff
 seo-title: Developing and Page Diff
 description: null
 seo-description: null
-uuid: 4be4fe88-2a32-4279-9e3d-e2d40f7c10d8
+uuid: 86b82d9a-53b3-401a-9d68-f40ef8cd58ec
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
-discoiquuid: 40b734d3-e06c-478b-96cb-4aff014c1dab
+discoiquuid: 3ff278a7-37c4-40d8-8022-dc673805ea79
 index: y
 internal: n
 snippet: y
@@ -24,21 +24,33 @@ The page diff allows a user to compare the current page to launches, previous ve
 
 ## Operation Details {#operation-details}
 
-When comparing versions of a page, the previous version(s) that the user wishes to compare is/are recreated by AEM in the background in order to facilitate the diff. This is needed to be able to render the content for side-by-side comparison.
+When comparing versions of a page, the previous version that the user wishes to compare is recreated by AEM in the background in order to facilitate the diff. This is needed to be able to render the content [for side-by-side comparison](../../../sites/developing/using/pagediff.md#operation-details).
+
+This recreation operation is done by AEM internally and is transparent to the user and requires no intervention. However an administrator viewing the repository for example in CRX DE Lite would see these recreated versions within the content structure.
+
+Depending on the AEM patch level, the behavior is different and may require certain permissions in order to work properly.
+
+### Prior to AEM 6.4.3 {#prior-to-aem}
 
 When content is compared, the whole tree up to the page to compare is recreated in the following location:
 
 `/content/versionhistory/<userId>/<site structure>`
 
-This recreation operation is done by AEM internally and is transparent to the user and requires no intervention. However an administrator viewing the repository for example in CRX DE Lite would see these recreated versions within the content structure.
-
-## Permissions {#permissions}
-
-Because when using the page diff mechanism, [AEM recreates the previous version of the page,](../../../sites/developing/using/pagediff.md#operation-details) in order to use the feature the user must have certain JCR permissions.
+Because when using the page diff mechanism, AEM recreates the previous version of the page, in order to use the feature the user must have certain JCR permissions.
 
 >[!CAUTION]
 >
 >In order to use the page diff feature, the user needs to have the** Modify/Create/Delete** permission on the node `/content/versionhistory`.
+
+### As of AEM 6.4.3 {#as-of-aem}
+
+When content is compared, the whole tree up to the page to compare is recreated in the following location:
+
+`/tmp/versionhistory/`
+
+This content is created by a service user with permissions limiting visibility to the current user. For this reason, no special permissions are required.
+
+A cleanup task runs automatically to clean up this temporary content.
 
 ## Developer Limitations {#developer-limitations}
 

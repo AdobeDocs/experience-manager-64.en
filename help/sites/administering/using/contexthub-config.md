@@ -3,12 +3,12 @@ title: Configuring ContextHub
 seo-title: Configuring ContextHub
 description: Learn how to configure Context Hub.
 seo-description: Learn how to configure Context Hub.
-uuid: bb8bff5e-eb6a-4fc6-ba2e-db6a7d70d2ca
+uuid: 6f9a9f50-ee1e-4522-a2b9-618dc608dfaf
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: 8666f47f-32a6-4795-a785-d7ba733246ac
+discoiquuid: 51d469df-6e0b-4644-ad6a-77d5f59a0bcc
 index: y
 internal: n
 snippet: y
@@ -56,7 +56,7 @@ Configure the UI modes and modules that appear in the ContextHub toolbar in Prev
 
 UI modes appear as a series of icons on the left side of the toolbar. When selected, the modules of a UI mode appear to the right.
 
-![](assets/chlimage_1-359.png)
+![](assets/chlimage_1-319.png)
 
 Icons are references from the [Coral UI icon library](/sites/developing/using/reference-materials/coral-ui/docs/2.17.0-granite-004/icon).
 
@@ -69,7 +69,7 @@ Add a UI mode to group related ContextHub modules. When you create the UI mode, 
 1. Click or tap the Context Hub Configuration.
 1. Click or tap the Create button, and then click or tap Context Hub UI Mode.
 
-   ![](assets/chlimage_1-360.png)
+   ![](assets/chlimage_1-320.png)
 
 1. Provide values for the following properties:
 
@@ -106,7 +106,7 @@ The UI module properties include a detail configuration where you can provide va
 1. Click or tap the UI mode to which you are adding the UI module.
 1. Click or tap the Create button, then click or tap ContextHub UI Module (generic).
 
-   ![](assets/chlimage_1-361.png)
+   ![](assets/chlimage_1-321.png)
 
 1. Provide values for the following properties:
 
@@ -148,7 +148,7 @@ AEM provides the following sample store candidates upon which you can base a sto
 1. Click or tap Contexthub Configuration
 1. To add a store, click or tap the Create icon and then click or tap ContexHub Store Configuration.
 
-   ![](assets/chlimage_1-362.png)
+   ![](assets/chlimage_1-322.png)
 
 1. Provide values for the basic configuration properties and then click or tap Next:
 
@@ -207,7 +207,7 @@ To save data from the MD5 service of the jsontest.com site, use the procedure in
 
 Add a UI module to the ContextHub toolbar to display the data that is stored in the example md5 store. In this example, the contexthub.base module is used to produce the following UI module:
 
-![](assets/chlimage_1-363.png)
+![](assets/chlimage_1-323.png)
 
 Use the procecure in [Adding a UI Module](../../../sites/administering/using/contexthub-config.md#adding-a-ui-module) to add the UI module to an existing UI Mode, such as the sample Perona UI Mode. For the UI Module, use the following property values:
 
@@ -261,6 +261,6 @@ When an [upgrade to AEM](../../../sites/deploying/using/upgrade.md) is performed
 
 ContextHub configurations are stored below the /etc/cloudsettings/default node, in a folder named contexthub. After an upgrade, the backup is stored below a node named /etc/cloudsettings/default-pre-upgrade_*yyyymmdd*_*xxxxxxx*, in a folder named contexthub. The yyyymmdd part of the node name is the date when the upgrade was performed.
 
-![](assets/chlimage_1-364.png)
+![](assets/chlimage_1-324.png)
 
 To recover your ContextHub configurations, use CRXDE Lite to copy the nodes that represent your stores, UI modes, and UI modules from below the default-pre-upgrade_*yyyymmdd_xxxxxx* node to below the /etc/cloudsettings/default node. 

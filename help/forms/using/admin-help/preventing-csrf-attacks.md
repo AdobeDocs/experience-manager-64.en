@@ -3,12 +3,12 @@ title: Preventing CSRF attacks
 seo-title: Preventing CSRF attacks
 description: Learn how to prevent Cross-site request forgery (CSRF) attacks and safeguard user data from being compromised.
 seo-description: Learn how to prevent Cross-site request forgery (CSRF) attacks and safeguard user data from being compromised.
-uuid: dc92e62a-7417-4391-8d8a-eeeb47b05537
+uuid: 58d57bfe-02f7-4590-8f74-d815610bd626
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_user_management
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: ce549c54-da55-4498-981f-bdeca6d0b17a
+discoiquuid: 5636c7d5-c4da-45f3-bce8-d7d7f82554fa
 index: y
 internal: n
 snippet: y

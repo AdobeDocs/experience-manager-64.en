@@ -3,12 +3,12 @@ title: DocConverter Service Java API QuickStart(SOAP)
 seo-title: DocConverter Service Java API QuickStart(SOAP)
 description: null
 seo-description: null
-uuid: 3edb033d-5c87-446d-aabf-0bd378f0b583
+uuid: e9f46a24-a7b8-4fb4-bed7-a12adbf2c2cb
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
-discoiquuid: d77f7f6e-a03a-4e86-bd55-0e043a92d250
+discoiquuid: e68f0663-2cdf-437f-80f0-3f230345fe9a
 index: y
 internal: n
 snippet: y

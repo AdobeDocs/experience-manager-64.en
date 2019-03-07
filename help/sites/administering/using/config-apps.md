@@ -3,12 +3,12 @@ title: Configuring for AEM Apps
 seo-title: Configuring for AEM Apps
 description: Learn how to configure AEM Apps.
 seo-description: Learn how to configure AEM Apps.
-uuid: 8c07cd0c-8746-481c-bd0a-1a24602d2df1
+uuid: a292ba88-04b2-452e-a1fe-89a066b89e87
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: 3b6e4494-600d-404a-a279-140c93b21d4e
+discoiquuid: f121f0cc-2c18-4ecc-9165-f4025269327f
 index: y
 internal: n
 snippet: y

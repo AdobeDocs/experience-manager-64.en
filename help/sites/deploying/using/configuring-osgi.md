@@ -3,12 +3,12 @@ title: Configuring OSGi
 seo-title: Configuring OSGi
 description: OSGi is a fundamental element in the technology stack of Adobe Experience Manager (AEM). It is used to control the composite bundles of AEM and their configuration. This article details how you can manage the configuration settings for such bundles.
 seo-description: OSGi is a fundamental element in the technology stack of Adobe Experience Manager (AEM). It is used to control the composite bundles of AEM and their configuration. This article details how you can manage the configuration settings for such bundles.
-uuid: a0c9c03a-4ecb-4f19-95d5-a1694e66901d
+uuid: e15ce819-8b02-4c1f-8248-751c7cb4e1b6
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: configuring
 content-type: reference
-discoiquuid: 996e7a33-9da5-4f44-940c-6413b81f7549
+discoiquuid: 04fc5650-2ada-426a-ba51-e363010637c5
 index: y
 internal: n
 snippet: y
@@ -95,7 +95,7 @@ To update a configuration with the web console:
 
 1. A dialog will open. Here you can edit as required; for example, set the **Log Level** to `INFO`:
 
-   ![](assets/chlimage_1-143.png)
+   ![](assets/chlimage_1-140.png)
 
    >[!NOTE]
    >
@@ -180,7 +180,7 @@ To add a new configuration to the repository you need to know the following:
    Reference the **Configurations** field in the Web console. The name is shown in brackets after the bundle name (or in the **Configuration Information** towards the bottom of the page).  
    For example, create a node `com.day.cq.wcm.core.impl.VersionManagerImpl.` to configure **AEM WCM Version Manager**. 
 
-   ![](assets/chlimage_1-144.png)
+   ![](assets/chlimage_1-141.png)
 
 1. Whether a specific [run mode](../../../sites/deploying/using/configure-runmodes.md) is required. Create the folder:
 
@@ -194,7 +194,7 @@ To add a new configuration to the repository you need to know the following:
    Reference the individual parameter field in the Web console. The name is shown in brackets for each parameter.  
    For example, create a property `versionmanager.createVersionOnActivation` to configure **Create Version on Activation**.
 
-   ![](assets/chlimage_1-145.png)
+   ![](assets/chlimage_1-142.png)
 
 1. Does a configuration already exist in `/libs`? To list all configurations in your instance, use the **Query** tool in CRXDE Lite to submit the following SQL query:  
    `select * from sling:OsgiConfig`  

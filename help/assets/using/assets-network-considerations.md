@@ -3,12 +3,12 @@ title: Assets Network Considerations
 seo-title: Assets Network Considerations
 description: Discusses network considerations when designing an AEM Assets deployment.
 seo-description: Discusses network considerations when designing an AEM Assets deployment.
-uuid: 3796f604-591f-4c82-b634-c93422695b38
+uuid: a9d6cc21-4af0-4382-a9af-3f948f33ff3a
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: 73bb0612-1ab2-4efc-936f-e410c0b922e8
+discoiquuid: 5ef02fb0-e0ba-487d-b4f7-319f86a0290e
 index: y
 internal: n
 snippet: y
@@ -31,7 +31,7 @@ Ensure that you include the following in your network diagram:
 
 Begin by diagramming the connectivity between the individual client devices and the corporate network. At this stage, identify shared resources, such as WiFi connections, where multiple users access the same point or ethernet switch to upload and download assets.
 
-![](assets/chlimage_1-358.png)
+![](assets/chlimage_1-353.png)
 
 Client devices connect to the corporate network in various ways, such as shared WiFi, ethernet to a shared switch, and VPN. Identifying and understanding chokepoints on this network is important for Assets planning and to modify the network.
 
@@ -45,13 +45,13 @@ The computer displayed at the right has a limited upstream to the corporate netw
 
 ## Topology of the corporate network {#topology-of-the-corporate-network}
 
-![](assets/chlimage_1-359.png)
+![](assets/chlimage_1-354.png)
 
 The diagram displays higher uplink speeds within the corporate network than what is generally used. These pipes are shared resources. If the shared switch is expected to handle 50 clients, it can potentially be a chokepoint. In the initial diagram, only two computers share the particular connection.
 
 ## Uplink to the internet from the corporate network and AEM environment {#uplink-to-the-internet-from-the-corporate-network-and-aem-environment}
 
-![](assets/chlimage_1-360.png)
+![](assets/chlimage_1-355.png)
 
 It is important to consider unknown factors on the Internet and the VPC connection because the bandwidth across the internet can be impaired due to peak load or large-scale provider outages. In general, internet connectivity is reliable. However, it can sometimes introduce chokepoints.
 
@@ -67,7 +67,7 @@ From the sample diagrams, you can conclude that six devices share a conceptual 1
 
 ## Topology of the AEM environment {#topology-of-the-aem-environment}
 
-![](assets/chlimage_1-361.png)
+![](assets/chlimage_1-356.png)
 
 Designing the topology of the AEM environment requires detailed knowledge of the system configuration and how the network is connected within the user environment.
 
@@ -101,5 +101,5 @@ Here are some items to consider:
 
 Here is a customer example for the definition of an asset workflow.
 
-![](assets/chlimage_1-362.png)
+![](assets/chlimage_1-357.png)
 

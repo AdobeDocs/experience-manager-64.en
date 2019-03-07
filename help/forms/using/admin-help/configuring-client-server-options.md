@@ -3,12 +3,12 @@ title: Configuring client and server options
 seo-title: Configuring client and server options
 description: Learn how you can configure the various client and server options, such as server configuration settings, document security roles, and event auditing.
 seo-description: Learn how you can configure the various client and server options, such as server configuration settings, document security roles, and event auditing.
-uuid: 79eb18b9-b5fe-48df-aee0-0c50ab3a6997
+uuid: c41230db-4f8f-45bb-b399-c47ca8e3121e
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_document_security
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 864c5602-840f-4edf-803d-cc8cff25e21f
+discoiquuid: 0656f165-adbe-4418-a619-bafec94256d9
 index: y
 internal: n
 snippet: y

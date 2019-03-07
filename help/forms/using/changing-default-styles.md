@@ -3,11 +3,11 @@ title: Changing default styles of HTML5 forms
 seo-title: Changing default styles of HTML5 forms
 description: HTML5 forms styling is based on CSS. You can change the default styles of the form.
 seo-description: HTML5 forms styling is based on CSS. You can change the default styles of the form.
-uuid: 0f4a1702-bbe9-4e66-a023-3302a428b0a4
+uuid: 755845ab-615d-45c2-b610-7166fdf8ffe3
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
-discoiquuid: edc2dc96-6387-4ca0-9216-7a5bb0f42e24
+discoiquuid: d6d9e274-3666-4847-873e-da8c60aed8a0
 index: y
 internal: n
 snippet: y

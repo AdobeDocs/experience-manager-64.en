@@ -3,12 +3,12 @@ title: Defining your Test Cases
 seo-title: Defining your Test Cases
 description: Your test cases should be based upon the use cases and the detailed requirements specification
 seo-description: Your test cases should be based upon the use cases and the detailed requirements specification
-uuid: be964989-d256-4ea3-9b25-edfa0c18e530
+uuid: 036b8c42-3478-441e-80e8-7f5f3cae3ddd
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: testing
 content-type: reference
-discoiquuid: 24ed7889-2d02-463f-9b60-3dd1d3b1bb0e
+discoiquuid: 5476dcb8-6f44-44fc-a4c3-4fe89b26d700
 index: y
 internal: n
 snippet: y

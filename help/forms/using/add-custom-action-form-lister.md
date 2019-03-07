@@ -3,11 +3,11 @@ title: Adding custom action on form lister items
 seo-title: Adding custom action on form lister items
 description: Form developers can add more actions to the listing of forms on the forms portal page. By default, the form listing allows you to access the form, fill it, and submit it.
 seo-description: Form developers can add more actions to the listing of forms on the forms portal page. By default, the form listing allows you to access the form, fill it, and submit it.
-uuid: 2444c910-4395-47e8-8aff-b974a47edc1a
+uuid: 45e92855-bade-4c21-94b0-5f105335f6bd
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: customization
-discoiquuid: 14cd383b-8773-4126-b9e8-ada457c817fd
+discoiquuid: 490ea18e-a910-4460-b110-2e5139064f3a
 index: y
 internal: n
 snippet: y

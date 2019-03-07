@@ -3,12 +3,12 @@ title: Application Create and Configuration Actions
 seo-title: Application Create and Configuration Actions
 description: Creating an app is often the first step towards creating and managing AEM Mobile On-Demand content. Follow this page to learn more.
 seo-description: Creating an app is often the first step towards creating and managing AEM Mobile On-Demand content. Follow this page to learn more.
-uuid: db88b7c7-8b16-4353-b1ca-4099b13f060f
+uuid: 1c2a7af0-7248-4b6e-8f58-1c2cfaa7cf36
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: authoring-on-demand-services-app
-discoiquuid: 3069f662-f526-4bf7-af10-07ef52c23311
+discoiquuid: f40c5b5a-1808-4646-a109-d4b0f187a15b
 index: y
 internal: n
 snippet: y

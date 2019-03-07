@@ -3,12 +3,12 @@ title: Publishing and unpublishing forms and documents
 seo-title: Publishing and unpublishing forms and documents
 description: You can schedule publishing and unpublishing of forms. Published forms are replicated on the publish instance.
 seo-description: You can schedule publishing and unpublishing of forms. Published forms are replicated on the publish instance.
-uuid: 3a8102b9-9442-44d5-989d-fd35561437d9
+uuid: 1384e3a9-b4ca-442a-afa2-12e91f513f05
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: publish
 content-strategy: max-2018
-discoiquuid: a3ba66b7-b6bc-46ea-b1c6-df930727534f
+discoiquuid: e897a6ed-d9c4-4de4-8ac2-a45663b81d28
 index: y
 internal: n
 snippet: y

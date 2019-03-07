@@ -3,12 +3,12 @@ title: Configuring Server Settings
 seo-title: Configuring Server Settings
 description: The Server Settings page provides access to email, task notification and administrator notification settings.
 seo-description: The Server Settings page provides access to email, task notification and administrator notification settings.
-uuid: 58196603-c49c-42c3-8ddb-2f0baa8397eb
+uuid: 1d09d2f4-2121-44a5-a5db-b6fe34be059e
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_forms_workflow
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 2f539079-9bad-4e5e-a8f5-76f61f2ad702
+discoiquuid: ad1c2ca4-70c1-4e41-9672-41cb1dd88557
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Quick Guide to WCAG 2.0
 seo-title: Quick Guide to WCAG 2.0
 description: Read a quick overview of the WCAG 2.0 accessibility guidelines.
 seo-description: Read a quick overview of the WCAG 2.0 accessibility guidelines.
-uuid: 5527bc23-bf3b-4e37-a458-bd9471884a06
+uuid: 591867de-e811-4693-a25e-0d8722d8cee7
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/MANAGING
 topic-tags: managing-accessibility
 content-type: reference
-discoiquuid: d851c496-3d51-48e0-a280-73b28d8ffd7f
+discoiquuid: 4a6c0e9e-8fb3-4402-991c-a4c9054eee65
 index: y
 internal: n
 snippet: y

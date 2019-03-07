@@ -3,12 +3,12 @@ title: About the uploading and processing of 3D assets in AEM
 seo-title: About the uploading and processing of 3D assets in AEM
 description: Best practices for uploading and processing 3D assets.
 seo-description: Best practices for uploading and processing 3D assets.
-uuid: fa106c86-78bd-4dc3-89db-252d0529c779
+uuid: 013e9b6f-058e-4d61-8c67-3837bb829420
 contentOwner: Rick Brough
 topic-tags: 3D
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-discoiquuid: 217a5a24-0d9b-4e8f-af56-322c2aac7bda
+discoiquuid: 94461e84-62ef-443d-800e-830815f1444f
 index: y
 internal: n
 snippet: y

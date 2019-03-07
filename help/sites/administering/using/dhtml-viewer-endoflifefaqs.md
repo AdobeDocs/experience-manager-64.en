@@ -3,12 +3,12 @@ title: DHTML Viewer End-of-Life FAQs
 seo-title: DHTML Viewer End-of-Life FAQs
 description: Effective January 31, 2014, Scene7's DHTML viewer platform will officially end-of-life. This notification provides you answers to frequently asked questions so you can prepare for this transition over to our new HTML5 viewer platform.
 seo-description: Effective January 31, 2014, Scene7's DHTML viewer platform will officially end-of-life. This notification provides you answers to frequently asked questions so you can prepare for this transition over to our new HTML5 viewer platform.
-uuid: 6a7a2b82-bea7-4754-91b9-d343720493f8
+uuid: e542c4cf-1962-4da6-b297-92bc9c37cca8
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: 42e013f8-fce0-47c4-9b7d-d4d5a648b2a9
+discoiquuid: 19a3d9d9-633a-4c7f-b482-a9d925dee236
 index: y
 internal: n
 snippet: y

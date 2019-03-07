@@ -3,12 +3,12 @@ title: eCommerce
 seo-title: eCommerce
 description: AEM eCommerce helps marketers deliver branded, personalized shopping experiences across web, mobile, and social touchpoints. 
 seo-description: AEM eCommerce helps marketers deliver branded, personalized shopping experiences across web, mobile, and social touchpoints. 
-uuid: d37de797-c450-438c-8e1a-fa9bd3bd0213
+uuid: 12116d61-501c-4e01-93f1-4a0728921c74
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: e-commerce
 content-type: reference
-discoiquuid: b9c7e8f8-48c9-4ed3-bd20-1e8502bb36e0
+discoiquuid: e83f68ae-38cb-4c9d-b2f9-6cce3f8d1da7
 index: y
 internal: n
 snippet: y
@@ -71,7 +71,7 @@ AEM eCommerce provides:
     * Vouchers
     * and others
 
-  ![](assets/chlimage_1-182.png)
+  ![](assets/chlimage_1-150.png)
 
   >[!NOTE]
   >
@@ -84,11 +84,11 @@ AEM eCommerce provides:
     * a third party search (such as Search&Promote)   
     * or a combination thereof.
 
-  ![](assets/chlimage_1-183.png)
+  ![](assets/chlimage_1-151.png)
 
 * Uses the AEM ability to **present your content on multiple channels**, be that full browser window or mobile device. This delivers your content in the format needed by your visitors.
 
-  ![](assets/chlimage_1-184.png)
+  ![](assets/chlimage_1-152.png)
 
 * The ability to **develop your own integration implementation based on the [AEM eCommerce framework](#theframework)**.
 
@@ -101,11 +101,11 @@ AEM eCommerce provides:
 
   In the example below one teaser is shown as the contents of the cart are less than $75:
 
-  ![](assets/chlimage_1-185.png)
+  ![](assets/chlimage_1-153.png)
 
   This can be changed when the contents of the cart exceed $75:
 
-  ![](assets/chlimage_1-186.png)
+  ![](assets/chlimage_1-154.png)
 
 * And other features including:
 

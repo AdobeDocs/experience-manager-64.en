@@ -3,12 +3,12 @@ title: Managing Articles
 seo-title: Managing Articles
 description: Follow this page to learn about creating and managing Articles.
 seo-description: Follow this page to learn about creating and managing Articles.
-uuid: 0f3d027c-9f63-4ad7-abc3-f0f952bdab5c
+uuid: 7dd857e6-f893-4327-a531-b666d5f90f53
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: authoring-on-demand-services-app
-discoiquuid: d57f038c-8f84-4f24-b2a2-e8dd03bc4a35
+discoiquuid: aab5f75d-1556-473d-82c5-eeb02d8c3d02
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Code pitfalls
 seo-title: Code pitfalls
 description: Common coding pitfalls to avoid when developing for AEM
 seo-description: Common coding pitfalls to avoid when developing for AEM
-uuid: 5e443553-07d3-4602-a5fe-d2c30dddb209
+uuid: a03ef241-36e9-4817-91bf-d36a48fe66fa
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
-discoiquuid: d695dd24-50d8-4e41-ad64-482f5e4f0549
+discoiquuid: 0d3f9b88-e390-4810-b850-6cad70eaf7b1
 index: y
 internal: n
 snippet: y

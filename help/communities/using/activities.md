@@ -3,12 +3,12 @@ title: Activity Streams Feature
 seo-title: Activity Streams Feature
 description: Activities of a signed-in community member
 seo-description: Activities of a signed-in community member
-uuid: a96945c6-2006-4d0b-a10e-1c263f307f85
+uuid: e1c7a5f1-7bc3-47ac-ae44-0dddef7db3e8
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
-discoiquuid: eb7988c6-f800-4e31-b5b5-c101f2cc2954
+discoiquuid: 9a1cde0a-87f6-47d0-9b25-b72d85e2babd
 index: y
 internal: n
 snippet: y

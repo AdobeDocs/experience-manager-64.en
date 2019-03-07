@@ -1,30 +1,26 @@
 ---
-title: Supporting Author and Publish in AEM Screens
-seo-title: Supporting Author and Publish in AEM Screens
-description: AEM Screens architecture resembles a traditional AEM Sites architecture. Content is authored on an AEM author instance and then forward-replicated to multiple publish instances. Follow this page to learn more.
-seo-description: AEM Screens architecture resembles a traditional AEM Sites architecture. Content is authored on an AEM author instance and then forward-replicated to multiple publish instances. Follow this page to learn more.
-uuid: 0f79d832-0956-4293-8357-96a38545fa3d
+title: Configuring Author and Publish in AEM Screens
+seo-title: Configuring Author and Publish in AEM Screens
+description: AEM Screens architecture resembles a traditional AEM Sites architecture. Content is authored on an AEM author instance and then forward-replicated to multiple publish instances. Follow this page to learn how to configure author and publish for AEM Screens.
+seo-description: AEM Screens architecture resembles a traditional AEM Sites architecture. Content is authored on an AEM author instance and then forward-replicated to multiple publish instances. Follow this page to learn how to configure author and publish for AEM Screens.
+uuid: 735dc554-b545-4c8e-85c3-8e64e9b6d37a
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: authoring
-discoiquuid: 2f34c1e6-9bd9-4a5f-83da-51653646bffc
+discoiquuid: 1b6d0c64-e455-4f94-b300-121d2480256c
 index: y
 internal: n
 snippet: y
 ---
 
-# Supporting Author and Publish in AEM Screens{#supporting-author-and-publish-in-aem-screens}
-
-## An Overview {#an-overview}
+# Configuring Author and Publish in AEM Screens{#configuring-author-and-publish-in-aem-screens}
 
 This page highlights the following topics:
 
-* **Introduction to Publish Servers**
-* **Architectural Overview**
-* **Setting Up Replication Agents on Author**
+* **Configuring Author and Publish Instances  
+  **
 * **Setting Up Publish Topology**
-* **Device Registration**
 * **Managing Publication: Delivering Content Updates from Author to Publish to Device**
 
 ### Prerequisites {#prerequisites}
@@ -37,87 +33,13 @@ Before getting started with author and publish servers, you should have prior kn
 
 >[!NOTE]
 >
->This AEM Screens functionality is only available, if you have installed AEM 6.3 Screens Feature Pack 2. To get access to this Feature Pack, you must contact Adobe Support and request access. Once you have permissions you can download it from Package Share.
+>This AEM Screens functionality is only available, if you have installed AEM 6.4 Screens Feature Pack 2. To get access to this Feature Pack, you must contact Adobe Support and request access. Once you have permissions you can download it from Package Share.
 
-## Introduction {#introduction}
-
-AEM Screens architecture resembles a traditional AEM Sites architecture. Content is authored on an AEM author instance and then forward-replicated to multiple publish instances. AEM Screens devices can now connect to an AEM publish farm via load balancer. Multiple AEM publish instances can be added to continue to scale the publish farm.
-
-*For example*, an AEM Screens content author issues a command on the authoring system for a particular device that is configured to interact with a publish farm or an AEM Screens content author that obtains information about devices that are configured to interact with publish farms.
-
-The following diagram illustrates the author and publish environments.
-
-![](assets/screens-highlevel.png) 
-
-## Architectural Design {#architectural-design}
-
-There are five architectural components, facilitating this solution:
-
-* ***Replicating ***content*** ***from author to publish for display by devices
-
-* ***Reverse ***replicating binary content from publish (received from devices) to author
-* ***Sending ***commands from author to publish via specific REST APIs
-* ***Messaging*** between publish instances to synchronize device information updates and commands
-* ***Polling*** by the author of publish instances to obtain device information via specific REST APIs
-
-### Replication (Forward) of Content and Configurations {#replication-forward-of-content-and-configurations}
-
-Standard replication agents are used to replicate screens channel content, location configurations and device configurations. This allows authors to update the content of a channel and optionally go through some sort of approval workflow before publishing channel updates. A replication agent needs to be created for each publish instance in the publish farm.
-
-The following diagram illustrates the replication process:
-
-![](assets/screens-forward-replication.png)
+## Configuring Author and Publish instances {#configuring-author-and-publish-instances}
 
 >[!NOTE]
 >
->A replication agent needs to be created for each publish instance in the publish farm.
-
-### Screens Replication Agents and Commands {#screens-replication-agents-and-commands}
-
-Custom Screens specific replication agents are created to send commands from the Author instance to the AEM Screens device. The AEM Publish instances serve as an intermediary to forward these commands to the device.
-
-This allows authors to continue to manage the device such  as,  send device updates and take  screenshot s from the  author  environment. The AEM Screens replication agents have a custom transport configuration, like standard replication agents.
-
-![](assets/screens-commands.png) 
-
-### Messaging between Publish Instances {#messaging-between-publish-instances}
-
-In many cases a command is only meant to be sent to a device a single time. However in a load-balanced publish architecture it is unknown which publish instance the device is connecting to.
-
-Therefore, the author instance sends the message to all Publish instances. However only a single message should then be relayed to the device. To ensure correct messaging some communication must take place between publish instances. This is achieved using *Apache ActiveMQ Artemis. *Each publish instance is placed in a loosely coupled Toplogy using Oak-based Sling discovery service and ActiveMQ is configured so that each publish instance can communicate and create a single message queue. The Screens device polls the publish farm via the load balancer and picks up the command from the top of the queue.
-
-![](assets/screens-pubinstancesactivemq.png) 
-
-### Reverse Replication {#reverse-replication}
-
-In many cases, following a command, some sort of response is expected from the Screens device to be forwarded to the Author instance. In order to achieve this AEM ***Reverse replication*** is used.
-
-* Create a reverse replication agent for each publish instance, akin to the standard replication agents and the screens replication agents.
-* A workflow launcher configuration listens for nodes modified on the publish intance and in turn triggers a workflow to place the Device's response in the Publish instance's outbox.
-* A reverse replication in this context is only used for binary data ( such as, log files and screenshots) provided by the devices. Non-binary data is retrieved by polling.
-* Reverse replication polled from the AEM author instance retrieves the response and saves it to the author instance.
-
-![](assets/screens-rev-replication.png) 
-
-### Polling of Publish Instances {#polling-of-publish-instances}
-
-The author instance needs to be able to poll the devices to get a heartbeat and know the health status of a connected device.
-
-Devices ping the load balancer and get routed to a publish instance. The status of the device is then exposed by the publish instance through a Publish API served @ **api/screens-dcc/devices/stati** for all active devices and **api/screens-dcc/devices/&lt;device_id&gt;/status.json** for a single device.
-
-The author instance polls all publish instances and merges the device status responses into a single status. The scheduled job that polls on author is *com.adobe.cq.screens.impl.jobs.DistributedDevicesStatiUpdateJob* and can be configured based on a cron expression.
-
-![](assets/screens-polling-author.png) 
-
-## Registration {#registration}
-
-Registration continues to originate on the AEM author instance. AEM Screens Device is pointed to the author instance and registration is completed.
-
-Once a device has been registered on the author environment the device configuration and channel/schedule assignments are replicated to the AEM publish instances. The AEM Screens Device configuration is then updated to point to the Load Balancer in front the AEM publish farm. This is intended to be a one-time setup, once the Screens Device is successfully connected to the publish environment it can continue to recieve commands originating from the author environment and there should be no need to ever connect the Screens device to the author environment directly.
-
-![](assets/screens-registration-flow.png) 
-
-## Setting Up Author and Publish instances {#setting-up-author-and-publish-instances}
+>To learn more about the author and publish architectural overview and how the content is authored on an AEM author instance and then forward-replicated to multiple publish instances, refer to [Author and Publish Architectural Overview](/screens/using/author-publish-architecture-overview.html?).
 
 The following section explains how to setup replication agents on author and publish topology.
 
@@ -125,26 +47,70 @@ You can set up a simple example, where you host an author and two publish instan
 
 * Author --&gt; localhost:4502 
 * Publish 1 (pub1) --&gt; localhost:4503   
-* Publish (pub2) --&gt; localhost:4505
+* Publish (pub2) --&gt; localhost:4504
 
 ### Setting up Replication Agents on Author {#setting-up-replication-agents-on-author}
 
-#### Create Standard Replication Agents {#create-standard-replication-agents}
+To create replication agents, you must learn how to create a standard replication agent.
 
-1. Create standard replication agent for pub1 (out-of-the-box default agent should already be configured).
-1. Create standard replication agent for pub2. You can copy rep agent for pub1 and update the transport to be used for pub2 by changing the port in the transport configuration.
+There are 3 replication agents are needed for Screens:
 
-#### Create Screens Replication Agents {#create-screens-replication-agents}
+1. **Default Replication Agent ***(specified as*** Standard Replication Agent**)
+
+1. **Screens Replication Agent**
+1. **Reverse Replication Agent**
+
+Follow the same steps to create a reverse replication agent.
+
+1. Navigate to your AEM instance --&gt; hammer icon --&gt; **Operations** --&gt; **Configuration**.
+
+   ![](assets/screen_shot_2019-02-25at24621pm.png)
+
+1. Select the **Replication** from the left navigation tree.
+
+   ![](assets/screen_shot_2019-02-25at24715pm.png)
+
+1. Select the **Agents on author** from the **Replication** folder and click **New** to create a new standard replication agent.
+
+   ![](assets/screen_shot_2019-02-25at25400pm.png)
+
+1. Enter the **Title** and **Name** to create the replication agent and click **Create**.
+
+   ![](assets/screen_shot_2019-02-25at25737pm.png)
+
+1. Right click the replication agent and click **Open** to edit the settings.
+
+   ![](assets/screen_shot_2019-02-25at30018pm.png)
+
+1. Click **Edit** to open the **Agent Settings** dialog box to enter the details.
+
+   ![](assets/screen_shot_2019-02-25at30134pm.png)
+
+1. Navigate to the **Transport** tab and enter the **URI**, **User** and **Password**.
+
+   ![](assets/screen_shot_2019-03-04at34955pm.png)
+
+   >[!NOTE]
+   >
+   >You can also copy and rename an existing default replication agent.
+
+#### Creating Standard Replication Agents  {#creating-standard-replication-agents}
+
+1. Create standard replication agent for pub1 (out-of-the-box default agent should already be configured) (for example, *http://&lt;hostname&gt;:4503/bin/receive?sling:authRequestLogin=1*)  
+
+1. Create standard replication agent for pub2. You can copy rep agent for pub1 and update the transport to be used for pub2 by changing the port in the transport configuration. (for example, *http://&lt;hostname&gt;:4504/bin/receive?sling:authRequestLogin=1*)
+
+#### Creating Screens Replication Agents {#creating-screens-replication-agents}
 
 1. Create AEM Screens replication agent for pub1. Out-of-the-box, there is a one named Screens Replication Agent that points to port 4503. This needs to be enabled.
-1. Create AEM Screens replication agent for pub2. Copy the Screens replication agent for pub1 and change the port to point to 4505 for pub2.
+1. Create AEM Screens replication agent for pub2. Copy the Screens replication agent for pub1 and change the port to point to 4504 for pub2.
 
-**Create Screens Reverse Replication Agents**
+#### Creating Screens Reverse Replication Agents {#creating-screens-reverse-replication-agents}
 
 1. Create standard reverse replication agent for pub1.
 1. Create standard reverse replication agent for pub2. You can copy reverse rep agent for pub1 and update the transport to be used for pub2 by changing the port in the transport configuration.
 
-### Setting up Publish Topology {#setting-up-publish-topology}
+## Setting up Publish Topology {#setting-up-publish-topology}
 
 #### Step 1: Configure Apache Sling Oak-Based Discovery {#step-configure-apache-sling-oak-based-discovery}
 
@@ -280,18 +246,36 @@ Follow the steps below to replicate the device user:
 >
 >Do not activate author-publish-screens-service as it is a system user, used by the Author Job.
 
-#### Publishing Check list {#publishing-check-list}
+You can also activate the device from the Device Management Console. Follow the steps below:
+
+1. Navigate to your Screens project --&gt; **Devices**.
+1. Click **Device Manager **from the action bar.
+1. Select the device and click **Activate** from the action bar, as in shown in the figure below.
+
+![](assets/screen_shot_2019-02-21at111036am.png)
+
+>[!NOTE]
+>
+>Alternatively, once you have activated the device you also can edit or update the server URL by clicking **Edit server URL **from the action bar, as shown in the figure below and your changes will be propagated to the AEM Screens player.
+
+![](assets/screen_shot_2019-02-21at105527am.png) 
+
+### Publishing Check list {#publishing-check-list}
 
 The following points summarizes the Publishing Check list:
 
-* *Screens Device User*: This is stored as an AEM user and be activated from Tools &gt; Security &gt; Users. The user will be prefixed with "screens" with a long serialized string.
-* *Location* : Location that device is connected to.
-* *Channel(s)*: one or more channels that are being displayed at the location
+* *Screens Device User* - This is stored as an AEM user and be activated from **Tools** &gt; **Security** &gt; **Users**. The user will be prefixed with "screens" with a long serialized string.
+
+* *Project* - The AEM Screens project.  
+
+* *Location* - Location that device is connected to.
+* *Channel(s)* - one or more channels that are being displayed at the location
 * *Schedule* - if using a schedule ensure this is published
+* *Location, Schedules, and Channel Folder* - if the corresponding resources are inside a folder.
 
 Once you verify the checklist, you need to verify the following changes/behavior in your channel:
 
-* After publishing the device config open the Screens player config and point it to the Publish instance.
+* After publishing the device config open the Screens player config and point it to the Publish instance. Also, you can also activate the device from the device management console.  
 * Update some channel content on Author and publish it and verify that the updated channel now displays on the AEM Screens player.
 * Connect the Screens player to a different publish instance and verify behavior above.
 
@@ -313,14 +297,74 @@ Alternatively, you can also update/edit the server URL from the device managemen
 
 ## Managing Publication: Delivering Content Updates from Author to Publish to Device {#managing-publication-delivering-content-updates-from-author-to-publish-to-device}
 
-Follow the steps below to deliver content updates from author to publish to device:
+You can publish and unpublish content from AEM Screens. The Manage Publication feature allows you to deliver content updates from author to publish to device. You can publish/unpublish content for your entire AEM Screens project or only for one of your channel, location, device, application, or a schedule.
 
-1. Navigate to your Screens project and select the channel.
-1. Click **Manage Publication** from the action bar to publish the channel to publish instance.
+### Managing Publication for an AEM Screens Project {#managing-publication-for-an-aem-screens-project}
+
+Follow the steps below to deliver content updates from author to publish to device for an AEM Screens Project:
+
+1. Navigate to your AEM Screens project.
+1. Click **Manage Publication** from the action bar to publish the project to publish instance.
+
+   ![](assets/screen_shot_2019-02-25at21420pm.png)
+
+1. The **Manage Publication** wizard opens. You can select the **Action** and also schedule the publishing time for now or later. Click **Next**.
+
+   ![](assets/screen_shot_2019-02-07at120304pm.png)
+
+1. Check the box to select the entire project from **Manage Publication** wizard.
+
+   ![](assets/screen_shot_2019-02-25at22712pm.png)
+
+1. Click **+ Include Children** from the action bar and un-check all the options to publish all the modules in your project and click **Add** to publish.
+
+   >[!NOTE]
+   >
+   >By default, all the boxes will be checked and you will have to manually un-check the boxes to publish all the modules in your project.
+
+   ![](assets/screen_shot_2019-02-25at23116pm.png)
+
+1. Click **Publish **from the** Manage **Publication wizard.** **
+
+   ![](assets/screen_shot_2019-02-25at23341pm.png)
 
    >[!NOTE]
    >
    >Wait for a few seconds/minutes so that the content reaches publish instance.
+   >
+   >
+   >The **Manage Publication** with update offline content is a two-step process and the steps must be in correct order.
+   >
+   >    
+   >    
+   >    1. The workflow will not work if **Update Offline Content** is triggered before publish using **Manage Publication**.
+   >    
+   >    1. The workflow will not work if there are no changes in the project and nothing for **Update Offline Content**.
+   >    1. The workflow will not work if author does not completes the replication process (contents are still uploading to publish instance) after clicking the **Publish** button in the managing publication workflow.  
+   >    
+   >    
+   >
+
+1. Once you have completed the manage publication workflow, you must trigger the update offline content in author, that will create the update offline on the author instance.
+
+   Navigate to the project and click **Update Offline Content** from the action bar. This action forwards the same command to publish instance, so that the offline zips are created on the publish instance as well.
+
+   ![](assets/screen_shot_2019-02-25at23451pm.png)
+
+   >[!CAUTION]
+   >
+   >You must first publish and then trigger the update offline content, as summarized in the preceding steps.
+
+### Managing Publication for a Channel {#managing-publication-for-a-channel}
+
+Follow the steps below to deliver content updates from author to publish to device for a Channel in an AEM Screens Project:
+
+>[!NOTE]
+>
+>Follow this section only if there are changes in a channel. If a channel does not have any changes after the previous update offline content, then the managing publication workflow for an individual channel will not work.
+
+1. Navigate to your Screens project and select the channel.
+1. Click **Manage Publication** from the action bar to publish the channel to publish instance.
 
    ![](assets/screen_shot_2019-02-07at115800am.png)
 
@@ -328,9 +372,14 @@ Follow the steps below to deliver content updates from author to publish to devi
 
    ![](assets/screen_shot_2019-02-07at120304pm.png)
 
-1. Click **Publish **from the** Manage **Publication wizard.** **
+1. Click **Publish **from the** Manage **Publication wizard.** 
+   **
 
    ![](assets/screen_shot_2019-02-07at120507pm.png)
+
+   >[!NOTE]
+   >
+   >Wait for a few seconds/minutes so that the content reaches publish instance.
 
 1. Once you have completed the manage publication workflow, you must trigger the update offline content in author, that will create the update offline on the author instance.
 
@@ -342,3 +391,8 @@ Follow the steps below to deliver content updates from author to publish to devi
    >
    >You must first publish and then trigger the update offline content, as summarized in the preceding steps.
 
+### Channel and Device Re-assignment: {#channel-and-device-re-assignment}
+
+If you have re-assigned a device, you must publish both the initial display and the new display, once the device has been re-assigned to the new display.
+
+Similarly, if you have re-assigned a channel, you must publish both the initial display and the new display, once the channel has been re-assigned to the new display.

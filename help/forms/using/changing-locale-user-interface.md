@@ -3,12 +3,12 @@ title: Changing the locale of AEM Forms workspace user interface
 seo-title: Changing the locale of AEM Forms workspace user interface
 description: How to modify the AEM Forms workspace to localize text, collapsed categories, queues, and processes, and the date picker on the interface.
 seo-description: How to modify the AEM Forms workspace to localize text, collapsed categories, queues, and processes, and the date picker on the interface.
-uuid: cdeb7a77-65be-45aa-be03-19b033b92df8
+uuid: 3e4d75a6-3c8c-4b53-b56b-2caa74ceb352
 contentOwner: robhagat
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
-discoiquuid: 58bff76f-98e2-433f-b243-ca52bfd6953e
+discoiquuid: 372a2a8d-cb77-4083-9d76-d34da9c2040d
 index: y
 internal: n
 snippet: y

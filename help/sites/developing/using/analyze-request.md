@@ -3,12 +3,12 @@ title: Request Analysis Script
 seo-title: Request Analysis Script
 description: The request analysis script is made to ease the analysis of the access.log files producing a readable report for later processing
 seo-description: The request analysis script is made to ease the analysis of the access.log files producing a readable report for later processing
-uuid: c6c99b6c-a9bc-4594-9c3d-47419ed0cec5
+uuid: bc0d640d-f5a3-4d5b-9698-43f2f0aa6a2c
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: testing
 content-type: reference
-discoiquuid: c6534386-8201-4e90-8138-fdca2530cd7d
+discoiquuid: 0f87298b-806c-4157-add1-b71831b42715
 index: y
 internal: n
 snippet: y

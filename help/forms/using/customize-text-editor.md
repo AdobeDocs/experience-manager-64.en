@@ -3,11 +3,11 @@ title: Customize text editor
 seo-title: Customize text editor
 description: Learn how to customize text editor.
 seo-description: Learn how to customize text editor.
-uuid: 0b9163ab-f0d3-4e25-bfd6-185b92ddd839
+uuid: c4730f9a-670a-4fba-bb3f-e47f985d1c36
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
-discoiquuid: b0db5053-22fc-4c86-b8ab-468884621322
+discoiquuid: b3234837-1df1-47d9-a499-cdd65ecbbfd4
 index: y
 internal: n
 snippet: y

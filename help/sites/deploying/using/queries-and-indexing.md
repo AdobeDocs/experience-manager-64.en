@@ -3,12 +3,12 @@ title: Oak Queries and Indexing
 seo-title: Oak Queries and Indexing
 description: Learn how to configure indexes in AEM.
 seo-description: Learn how to configure indexes in AEM.
-uuid: 06dbc373-430d-4f87-a42a-bb271d47c4ae
+uuid: 0ccb2592-75b5-4129-a5d2-2785a1c94848
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
-discoiquuid: ade5e45e-9da5-4805-a78f-e52ca216c8a0
+discoiquuid: 97c9bf83-1bce-40b3-82a0-a1696ebd5be0
 legacypath: /content/docs/en/aem/6-0/deploy/upgrade/queries-and-indexing
 index: y
 internal: n
@@ -52,7 +52,7 @@ The **Traversal Index** is used if no other indexer is available. This means tha
 
 If multiple indexers are available for a query, each available indexer estimates the cost of executing the query. Oak then chooses the indexer with the lowest estimated cost.
 
-![](assets/chlimage_1-151.png)
+![](assets/chlimage_1-148.png)
 
 The above diagram is a high level representation of the query execution mechanism of Apache Oak.
 
@@ -195,7 +195,7 @@ The analyzers can be configured via the `analyzers` node (of type `nt:unstructur
 
 The default analyzer for an index is configured in the `default` child of the analyzers node.
 
-![](assets/chlimage_1-152.png)
+![](assets/chlimage_1-149.png)
 
 >[!NOTE]
 >
@@ -424,7 +424,7 @@ The ACS Commons package also exposes OSGi configurations that can be used to cre
 
 You can access it from the Web Console by searching for "**Ensure Oak Property Index**".
 
-![](assets/chlimage_1-153.png) 
+![](assets/chlimage_1-150.png) 
 
 ### Troubleshooting indexing issues {#troubleshooting-indexing-issues}
 

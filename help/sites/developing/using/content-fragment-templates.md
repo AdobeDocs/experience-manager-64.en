@@ -3,12 +3,12 @@ title: Content Fragment Templates
 seo-title: Content Fragment Templates
 description: Templates are selected when creating a content fragmen and provide the new fragment with the basic structure, element, and variation
 seo-description: Templates are selected when creating a content fragmen and provide the new fragment with the basic structure, element, and variation
-uuid: 24d29f21-ba3d-49b8-b084-ba95c8ccdd52
+uuid: 10a2e2b4-98b7-42e7-98b3-dcdd64e03be8
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
-discoiquuid: dcae7f30-311b-4380-8117-556a7b01cfeb
+discoiquuid: d0c13c94-f57f-4b26-b9fc-d96cba1a47ef
 index: y
 internal: n
 snippet: y

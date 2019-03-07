@@ -3,11 +3,11 @@ title: Working with Startpoints
 seo-title: Working with Startpoints
 description: Steps to work with a AEM Forms process from your Mobile device defined in Workbench.
 seo-description: Steps to work with a AEM Forms process from your Mobile device defined in Workbench.
-uuid: 2004b555-0c18-4c14-9d89-1573c021529b
+uuid: 20c77876-9742-40d3-b0c2-b381fe47c8a7
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
-discoiquuid: b46ad577-e9d9-4e8b-bf02-b2c0306952f2
+discoiquuid: 35a7a51f-f5ec-4a6d-95df-af985eb9a4c2
 index: y
 internal: n
 snippet: y

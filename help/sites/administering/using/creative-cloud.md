@@ -3,12 +3,12 @@ title: Integrating with Adobe Creative Cloud
 seo-title: Integrating with Adobe Creative Cloud
 description: Learn about integrating AEM with Adobe Creating Cloud.
 seo-description: Learn about integrating AEM with Adobe Creating Cloud.
-uuid: 42c9aeda-79d9-409c-a645-962fb2447d98
+uuid: 91ab9261-7082-4fe5-9b46-56b723561aa7
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: a99563c4-aaf8-47b4-81fd-57827adb578d
+discoiquuid: 48698cf1-842e-46a4-ac3d-39675ffefd1c
 index: y
 internal: n
 snippet: y

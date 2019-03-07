@@ -3,12 +3,12 @@ title: Post Upgrade Checks and Troubleshooting
 seo-title: Post Upgrade Checks and Troubleshooting
 description: Learn how to troubleshoot issues that might appear after an upgrade.
 seo-description: Learn how to troubleshoot issues that might appear after an upgrade.
-uuid: 133eaabd-ee4d-4d05-ab8f-7e3696622c58
+uuid: c40480b9-2d72-4da9-b879-2927444128ed
 contentOwner: sarchiz
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: upgrading
 content-type: reference
-discoiquuid: edd23de3-ca7e-467e-84df-bbbb1f5a91a4
+discoiquuid: dfbbfcf9-6d17-48ae-92c5-c8d9f33a1710
 index: y
 internal: n
 snippet: y

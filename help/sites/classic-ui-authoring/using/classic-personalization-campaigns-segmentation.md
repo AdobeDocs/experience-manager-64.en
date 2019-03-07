@@ -3,12 +3,12 @@ title: Understanding Segmentation
 seo-title: Understanding Segmentation
 description: Segmentation is a key consideration when creating a campaign. In most cases, you will need to have segments already defined before starting your campaign.
 seo-description: Segmentation is a key consideration when creating a campaign. In most cases, you will need to have segments already defined before starting your campaign.
-uuid: bea04908-0ea5-4644-a3f6-d04ebd9d5c08
+uuid: 2b10c41f-1382-4142-92f8-b033c450be20
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: ec2957ef-7a95-4255-91fa-21ca0bdd6beb
+discoiquuid: 1177a248-66de-4f56-ae35-7085ae244c7c
 index: y
 internal: n
 snippet: y

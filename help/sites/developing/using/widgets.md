@@ -3,12 +3,12 @@ title: Using and Extending Widgets (Classic UI)
 seo-title: Using and Extending Widgets (Classic UI)
 description: AEM's web-based interface uses AJAX and other modern browser technologies to enable WYSIWYG editing and formatting of content by authors right on the web page
 seo-description: AEM's web-based interface uses AJAX and other modern browser technologies to enable WYSIWYG editing and formatting of content by authors right on the web page
-uuid: b135bd59-cdc2-4604-8fa2-57d7e000920c
+uuid: 5e17c226-4aab-40a4-bf6f-c918091afc90
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: components
 content-type: reference
-discoiquuid: 0c002135-53c2-46c9-a287-d13274bbb736
+discoiquuid: e3d57d9f-c7b7-4430-a8f9-636e3444a80f
 index: y
 internal: n
 snippet: y

@@ -3,13 +3,13 @@ title: Determining Whether Documents Are PDF/A-Compliant
 seo-title: Determining Whether Documents Are PDF/A-Compliant
 description: null
 seo-description: null
-uuid: c62de82f-b9d4-4a4c-a298-6a462328ed37
+uuid: ea2dc49d-6866-4938-a2ba-e3360e0e817d
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/assembling_pdf_documents
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: 0f796763-9615-4b23-b825-65fd4939b616
+discoiquuid: 2116daef-99ec-490d-9e2f-0b6c7fc9c4e9
 index: y
 internal: n
 snippet: y

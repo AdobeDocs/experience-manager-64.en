@@ -3,12 +3,12 @@ title: Configuring node stores and data stores in AEM 6
 seo-title: Configuring node stores and data stores in AEM 6
 description: Learn how to configure node stores and data stores and how to perform data store garbage collection.
 seo-description: Learn how to configure node stores and data stores and how to perform data store garbage collection.
-uuid: 79edcc5f-5ad2-46ce-8df3-ef623048914c
+uuid: cc28d2b0-8ae3-4cf6-8e22-24f6b402898c
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
-discoiquuid: bcc2cf3f-adc1-4a26-a143-61e80bdadb7b
+discoiquuid: 49184b1b-0ee8-4694-bd01-63cae3bdae3d
 legacypath: /deploy/platform/data-store-config
 index: y
 internal: n
@@ -458,7 +458,7 @@ You can run data store garbage collection by:
 1. Scroll to the end of the page, and click the **startDataStoreGC(boolean markOnly)** link.
 1. In the following dialogue, enter `false` for the `markOnly` parameter, then click **Invoke**:
 
-   ![](assets/chlimage_1-125.png)
+   ![](assets/chlimage_1-122.png)
 
    >[!NOTE]
    >
@@ -475,7 +475,7 @@ With newer versions of AEM, data store garbage collection can also be run on dat
 1. Make sure that any maintenance tasks configured for the data store garbage collection are disabled on all repository instances sharing the data store.
 1. Run the steps mentioned in [Binary Garbage Collection](../../../sites/deploying/using/data-store-config.md#data-store-garbage-collection) individually on **all** repository instances sharing the data store. However, make sure to enter `true` for the `markOnly` parameter before clicking the Invoke button:
 
-   ![](assets/chlimage_1-126.png)
+   ![](assets/chlimage_1-123.png)
 
 1. After completing the above procedure on all instances, run the data store garbage collect again from **any** of the instances:
 

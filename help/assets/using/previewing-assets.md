@@ -3,12 +3,12 @@ title: Previewing Assets
 seo-title: Previewing Assets
 description: Learn how to preview assets in dynamic media
 seo-description: Learn how to preview assets in dynamic media
-uuid: 06881bd8-6fcb-4e6f-8439-e7034b3a7bd7
+uuid: 14552239-8fdc-4434-bf84-4d13ee99c646
 contentOwner: Alva Ware-Bevacqui
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: 4ed76535-a6eb-4d87-8cf9-f1e4510756f1
+discoiquuid: 4c5800a4-a8bf-4c03-bf25-1c606f694f3e
 index: y
 internal: n
 snippet: y

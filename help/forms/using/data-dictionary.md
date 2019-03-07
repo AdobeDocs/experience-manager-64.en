@@ -3,10 +3,10 @@ title: Data Dictionary
 seo-title: Data Dictionary
 description: Data dictionary in Correspondence Management lets you integrate back-end data to letters as inputs for use in customer correspondence.
 seo-description: Data dictionary in Correspondence Management lets you integrate back-end data to letters as inputs for use in customer correspondence.
-uuid: 32ad83b3-49d9-47bc-afb3-09f3275135c3
+uuid: 9aea13c2-acfb-4769-98f3-253fc61b656f
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
-discoiquuid: 741a09d2-84cf-4938-87b3-73188f72b2a5
+discoiquuid: dd11ba8a-dd42-4ddd-90ce-0d9c072793b5
 index: y
 internal: n
 snippet: y

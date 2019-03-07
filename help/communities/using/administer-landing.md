@@ -3,12 +3,12 @@ title: Communities Sites
 seo-title: Communities Sites
 description: Overview of the AEM Communities documentation
 seo-description: Overview of the AEM Communities documentation
-uuid: 3e03d88a-eadd-4e29-9ec9-5df4a8cbff36
+uuid: 5e2a83e5-0e4b-465d-9ad8-39e4201b6bda
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: c1d5fefa-ab5f-4ecd-9e4e-20a87c5cf8ef
+discoiquuid: 2d6edada-898a-4d07-99de-b9dc66bd1341
 index: y
 internal: n
 snippet: y

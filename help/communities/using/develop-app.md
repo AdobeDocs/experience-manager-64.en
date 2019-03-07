@@ -3,12 +3,12 @@ title: Develop Sandbox Application
 seo-title: Develop Sandbox Application
 description: Develop application using foundation scripts
 seo-description: Develop application using foundation scripts
-uuid: 9da10229-671a-4733-bd97-caac5f6efc4f
+uuid: 558bc094-b30d-45ce-a286-2b0212bcebbd
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: efc5c18f-a1f3-4558-bebe-aea690af6078
+discoiquuid: c92f0d4b-45d4-45f7-ad79-6be0ab0c082a
 index: y
 internal: n
 snippet: y

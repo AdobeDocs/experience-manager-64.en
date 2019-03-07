@@ -3,12 +3,12 @@ title: Creating Launches
 seo-title: Creating Launches
 description: You can create a launch to enable the updating of a new version of existing web pages for future activation. 
 seo-description: You can create a launch to enable the updating of a new version of existing web pages for future activation. 
-uuid: 4c8122f6-8177-4156-8980-8c7b5d6f1299
+uuid: f73f792c-8fc1-4343-8a34-e1b7012ff83f
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
-discoiquuid: 2f978c2e-2103-4eaf-8297-6a716e53eff8
+discoiquuid: 97a08478-18ac-4ae4-983d-1bab6030e99e
 legacypath: /content/docs/en/aem/6-0/author/site-page-features/launches
 index: y
 internal: n
@@ -61,7 +61,7 @@ You can create a launch from either the Sites or Launches console:
 
    Repeat as required.
 
-   ![](assets/chlimage_1-254.png)
+   ![](assets/chlimage_1-225.png)
 
    >[!NOTE]
    >
@@ -79,7 +79,7 @@ You can create a launch from either the Sites or Launches console:
 
    Proceed with **Next**.
 
-   ![](assets/chlimage_1-255.png)
+   ![](assets/chlimage_1-226.png)
 
 1. In the **Properties** step of the wizard you can specify:
 
@@ -93,7 +93,7 @@ You can create a launch from either the Sites or Launches console:
     
     * **Launch Date**: The date and time when the launch copy is to be activated (dependent on the **Production Ready** flag; see [Launches - the Order of Events](../../../sites/authoring/using/launches.md#launches-the-order-of-events)).
 
-   ![](assets/chlimage_1-256.png)
+   ![](assets/chlimage_1-227.png)
 
 1. Use **Create** to complete the process and create your new launch. The confirmation dialog will ask whether you want to open the launch immediately.
 
@@ -112,14 +112,14 @@ When [creating a launch](../../../sites/authoring/using/launches-creating.md#cre
 >
 >This option is only available when creating a launch from the **Sites** console. It is not available when creating a launch from the **Launches** console.
 
-![](assets/chlimage_1-257.png)
+![](assets/chlimage_1-228.png)
 
 Selecting this will:
 
 * update the other options available,  
 * include a new step where you can select the required template.
 
-![](assets/chlimage_1-258.png)
+![](assets/chlimage_1-229.png)
 
 >[!CAUTION]
 >
@@ -142,11 +142,11 @@ Creating a nested launch from the **Launches** console is basically the same as 
 1. In the **Launches** console select **Create**.
 1. Select **Add Pages**, then navigate to the launches branch by specifying `/content/launches` in the filter. Select the required launch and confirm with **Select**:
 
-   ![](assets/chlimage_1-259.png)
+   ![](assets/chlimage_1-230.png)
 
 1. Proceed with **Next** and complete the **Properties** as with any other launch.
 
-   ![](assets/chlimage_1-260.png)
+   ![](assets/chlimage_1-231.png)
 
 #### Creating a Nested Launch - Sites Console {#creating-a-nested-launch-sites-console}
 

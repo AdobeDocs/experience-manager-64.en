@@ -3,9 +3,9 @@ title: Handling GDPR Requests for the AEM Foundation
 seo-title: Handling GDPR Requests for the AEM Foundation
 description: null
 seo-description: null
-uuid: 55e18019-79c4-485f-a1d2-21d8a8bdc26c
+uuid: c254358e-8013-482c-91e1-8d4e96bbb1a0
 contentOwner: sarchiz
-discoiquuid: 66710250-a4cc-4de4-8736-4386cc7dc9e8
+discoiquuid: 22857760-39c2-4235-9393-a0e7b0c0bb72
 index: y
 internal: n
 snippet: y

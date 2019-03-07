@@ -3,12 +3,12 @@ title: Creating an Effective Newsletter Landing Page
 seo-title: Creating an Effective Newsletter Landing Page
 description: An effective newsletter landing page helps you get as many people as possible to sign up for your newsletter
 seo-description: An effective newsletter landing page helps you get as many people as possible to sign up for your newsletter
-uuid: d4e8e12d-b2a9-4098-ab7f-e13dc074fce7
+uuid: e72129ae-f330-4bad-82d2-7ea9f815b810
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: personalization
-discoiquuid: d6d53d32-ad5f-4e76-a223-7e39edf19c6a
+discoiquuid: 0f2152b7-1498-4b56-958f-e393bc29fd7c
 index: y
 internal: n
 snippet: y

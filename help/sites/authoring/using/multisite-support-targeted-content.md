@@ -3,12 +3,12 @@ title: Working with Targeted Content in Multisites
 seo-title: Working with Targeted Content in Multisites
 description: If you need to manage targeted content, such as activities, experiences, and offers between your sites, you can take advantage of AEM's built-in multisite support for targeted content
 seo-description: If you need to manage targeted content, such as activities, experiences, and offers between your sites, you can take advantage of AEM's built-in multisite support for targeted content
-uuid: 0f994dbc-718d-4ec0-a8cf-cb2f6c57e5c7
+uuid: 754b8211-7522-4834-8ae4-9c1aa5248db9
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: personalization
-discoiquuid: 23807d48-8314-433d-be35-76f75f7117e0
+discoiquuid: 8446e981-6123-43c2-b814-ef19f7f70c58
 index: y
 internal: n
 snippet: y
@@ -80,7 +80,7 @@ With multisite support for targeted content, you can, for example, have two (or 
 
 You could also have **multiple** brands that are used in one site, which could be more complex than this example.
 
-![](assets/chlimage_1-305.png)
+![](assets/chlimage_1-270.png)
 
 >[!NOTE]
 >
@@ -95,7 +95,7 @@ There are four versions of the same site based on geography:
 * The **United States** site is in the upper left corner and is the master site. In this example, it is open in Targeting mode.
 * The three other versions of this site are **Canada**, **Great Britain**, and **Australia**, which are all live copies. These sites are open in Preview mode.
 
-![](assets/chlimage_1-306.png)
+![](assets/chlimage_1-271.png)
 
 Each site shares personalized content in geographic regions:
 
@@ -103,19 +103,19 @@ Each site shares personalized content in geographic regions:
 * Great Britian is linked to the European area and inherits from the master area.
 * Australia, because it is in the southern hemisphere and seasonal products would not apply, has its own personalized content.
 
-![](assets/chlimage_1-307.png)
+![](assets/chlimage_1-272.png)
 
 For the northern hemisphere, we have a winter activity created but in the male audience the marketer in North America would like a different image for winter, so he or she changes it in the United States site. 
 
-![](assets/chlimage_1-308.png)
+![](assets/chlimage_1-273.png)
 
 After refreshing the tab, the Canadian site changes to the new image without any action on our part. It does so because it shares the master area with the United States. In the Great Britan and Australia sites, the image does not change.
 
-![](assets/chlimage_1-309.png)
+![](assets/chlimage_1-274.png)
 
 The marketer would like to roll out these changes to the European region and [rolls out the live copy](../../../sites/administering/using/msm-livecopy.md) by tapping or clicking **Rollout Page**. After refreshing the tab, the Great Britain site has the new image as the Europe area inherits from the master area (after rollout).
 
-![](assets/chlimage_1-310.png)
+![](assets/chlimage_1-275.png)
 
 The image in the Australia site remains unchanged, which is the desired behavior, as it is summer in Australia and the marketer does not want to change that content. Australia's site does not change because it does not share an area with any other region nor is it a live copy of another region. The marketer never has to worry that the Australian site's targeted content will get overwritten.
 
@@ -139,7 +139,7 @@ If, however, you have inheritance set up via the MSM between the two sites, then
 
 For example, in the following diagram, there are four sites where two share the master area (and all the activities that are part of that area), one site that has an area that is a live copy of an area, so that it shares the activities upon rollout, and one side that is completely separate (and therefore requires an area for its activities).
 
-![](assets/chlimage_1-311.png)
+![](assets/chlimage_1-276.png)
 
 To achieve this in AEM, you would do the following:
 
@@ -161,7 +161,7 @@ To create a new area:
 1. Navigate to **Personalization** &gt; **Activities** or **Offers** or and then to your brand. 
 1. Tap or click **Create Area**.
 
-   ![](assets/chlimage_1-312.png)
+   ![](assets/chlimage_1-277.png)
 
 1. Click the **Area** icon and click **Next**.
 1. In the **Title** field, enter a name for the new area. Optionally select tags.
@@ -169,7 +169,7 @@ To create a new area:
 
    AEM redirects to the brand window, where it lists any areas created. If there is another area besides the Master Area, then you can create areas directly in the Brand console.
 
-   ![](assets/chlimage_1-313.png)
+   ![](assets/chlimage_1-278.png)
 
 ## Creating areas as live copies {#creating-areas-as-live-copies}
 
@@ -180,15 +180,15 @@ To create an area as a livecopy:
 1. Navigate to **Personalization** &gt; **Activities** or **Offers** and then to your brand.
 1. Tap or click **Create Area as Live Copy**.
 
-   ![](assets/chlimage_1-314.png)
+   ![](assets/chlimage_1-279.png)
 
 1. Select the area that you want to make a live copy of and click **Next**.
 
-   ![](assets/chlimage_1-315.png)
+   ![](assets/chlimage_1-280.png)
 
 1. In the **Name** field, enter a name for the live copy. By default, sub pages are included; exclude them by selecting the **Exclude sub pages** check box.
 
-   ![](assets/chlimage_1-316.png)
+   ![](assets/chlimage_1-281.png)
 
 1. In the **Rollout Configs** drop-down menu, select the appropriate configuration.
 
@@ -204,7 +204,7 @@ To create an area as a livecopy:
 
    AEM redirects to the brand window, where it lists any areas created. If there is another area besides the Master Area, then you can create areas directly from the brand window.
 
-   ![](assets/chlimage_1-317.png)
+   ![](assets/chlimage_1-282.png)
 
 ## Linking sites to an area {#linking-sites-to-an-area}
 
@@ -223,11 +223,11 @@ To link a site to an area:
 1. Tap or click the **Personalization** tab. 
 1. In the **Brand** menu, select the brand you want to link your area to. After you select the brand, available areas are available in the **Area Reference** menu.
 
-   ![](assets/chlimage_1-318.png)
+   ![](assets/chlimage_1-283.png)
 
 1. Select the area from the **Area Reference** drop-down menu and tap or click **Save**.
 
-   ![](assets/chlimage_1-319.png)
+   ![](assets/chlimage_1-284.png)
 
 ## Detaching live copy or suspending inheritance of targeted content {#detaching-live-copy-or-suspending-inheritance-of-targeted-content}
 
@@ -256,11 +256,11 @@ To suspend or detach inheritance of targeted content in an activity:
     1. Select an element of the activity, such as the audience. AEM automatically displays a Suspend Live Copy confirmation box. (You can suspend live copy by tapping or clicking on any element throughout the Targeting process.)
     1. Select **Suspend Live Copy** from the drop-down menu in the toolbar.
 
-   ![](assets/chlimage_1-320.png)
+   ![](assets/chlimage_1-285.png)
 
 1. Tap or click **Suspend** to suspend the activity. Suspended activities are marked in red.
 
-   ![](assets/chlimage_1-321.png)
+   ![](assets/chlimage_1-286.png)
 
 ### Breaking Inheritance {#breaking-inheritance}
 
@@ -271,7 +271,7 @@ To break inheritance of targeted content in an activity:
 1. Select** Detach Live Copy** from the drop-down menu in the toolbar. AEM confirms that you want to detach the live copy.
 1. Tap or click **Detach** to detach the live copy from the activity. After it is detached, the drop-down menu regarding inheritance no longer displays. The activity is now a local activity.
 
-   ![](assets/chlimage_1-322.png)
+   ![](assets/chlimage_1-287.png)
 
 ## Restoring inheritance of targeted content {#restoring-inheritance-of-targeted-content}
 
@@ -283,7 +283,7 @@ To restore inheritance of targeted content in an activity:
 1. Tap or click **Start Targeting**.
 1. Select **Resume Live Copy** from the drop-down menu in the toolbar.
 
-   ![](assets/chlimage_1-323.png)
+   ![](assets/chlimage_1-288.png)
 
 1. Tap or click **Resume** to confirm that you want to resume live copy inheritance. Any modifications made to the current activity are lost if you resume inheritance.
 

@@ -3,11 +3,11 @@ title: Getting Started with Process Reporting
 seo-title: Getting Started with Process Reporting
 description: The steps you need to follow to get started with AEM Forms on JEE Process Reporting
 seo-description: The steps you need to follow to get started with AEM Forms on JEE Process Reporting
-uuid: 7fda9183-dff5-41e9-869b-7f70b5855ecd
+uuid: 55a7b6d8-62e9-4245-a8b1-d470e20b8998
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: process-reporting
-discoiquuid: 3a8781b6-2a9f-42a3-8fb9-26f42c870c31
+discoiquuid: dff3684a-1379-4193-bc8d-c0302f2f517d
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Adding Scene7 Features to your Page
 seo-title: Adding Scene7 Features to your Page
 description: Adobe Scene7 is a hosted solution for managing, enhancing, publishing, and delivering rich media assets to Web, mobile, email, and Internet-connected displays and print.
 seo-description: Adobe Scene7 is a hosted solution for managing, enhancing, publishing, and delivering rich media assets to Web, mobile, email, and Internet-connected displays and print.
-uuid: b9fa6128-b4bf-4c65-9587-792a7d0589f5
+uuid: bca145c8-6edb-44f6-8d8b-f5f854a72be4
 contentOwner: Alva Ware-Bevacqui
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: authoring
 content-type: reference
-discoiquuid: 3adda899-96d3-47e7-87e1-cf7946ad8ac7
+discoiquuid: 2311ab40-0e11-4722-9661-70ad5dcc440a
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Using Content Properties to Export Content
 seo-title: Using Content Properties to Export Content
 description: The following page shows App Properties and Nodes.
 seo-description: The following page shows App Properties and Nodes.
-uuid: 0710ccb4-8d64-41b7-9ee1-8d0bb0db4a51
+uuid: 3e14b90c-6f0e-4d56-a43b-065b946dd81a
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: developing-on-demand-services-app
-discoiquuid: e3213c9e-862f-4cc9-aa29-8166e047f8d7
+discoiquuid: 05fe75c1-0d5a-4747-9c40-751a898e9e8c
 index: y
 internal: n
 snippet: y

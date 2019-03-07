@@ -3,12 +3,12 @@ title: Configuring Layout Container and Layout Mode
 seo-title: Configuring Layout Container and Layout Mode
 description: Lear how to configure Layout Container and Layout Mode.
 seo-description: Lear how to configure Layout Container and Layout Mode.
-uuid: 4da5ffa4-207b-4997-ba18-73299d3f7ac6
+uuid: 7b2b7c04-8c6f-4a7d-9832-00ab2838a5bb
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: 9a5a0ada-36d1-4df1-8167-8597c6c62672
+discoiquuid: f162b544-0fd8-4666-8d90-7ca202b053d8
 legacypath: /content/docs/en/aem/6-2/administer/operations/page-authoring/configuring-responsive-layouting
 index: y
 internal: n

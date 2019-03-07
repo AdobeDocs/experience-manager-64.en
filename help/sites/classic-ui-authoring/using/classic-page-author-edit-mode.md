@@ -3,12 +3,12 @@ title: Components for Page Authoring
 seo-title: Components for Page Authoring
 description: The components are available when editing a page from the Components tab of the sidekick and the Insert New Component selector (when you double-click in the Drag components or assets here area).
 seo-description: The components are available when editing a page from the Components tab of the sidekick and the Insert New Component selector (when you double-click in the Drag components or assets here area).
-uuid: 657392d2-0051-422d-bc34-103d91d1304e
+uuid: f49ff29d-8ba9-4dc0-8fcc-72663e07f571
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: 6b325d17-8dc9-41bf-94e6-7136efa12d64
+discoiquuid: 34de9d38-ac4d-4931-a7ff-6e0397dac25e
 index: y
 internal: n
 snippet: y

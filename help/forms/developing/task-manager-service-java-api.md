@@ -3,12 +3,12 @@ title: Task Manager Service Java API QuickStart(SOAP)
 seo-title: Task Manager Service Java API QuickStart(SOAP)
 description: null
 seo-description: null
-uuid: 8014c2c0-6529-4ca3-abaa-00c655e46c4c
+uuid: f0832af9-9eaf-4bc4-8d43-0589e9dbe4db
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
-discoiquuid: 0166da2c-c075-40af-ba5c-d1c2c0baf2ba
+discoiquuid: 9741ec0a-68cd-4dc9-8a30-b7bd6fd54b7f
 index: y
 internal: n
 snippet: y

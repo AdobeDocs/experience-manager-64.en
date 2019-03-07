@@ -3,12 +3,12 @@ title: SCF Handlebars Helpers
 seo-title: SCF Handlebars Helpers
 description: Handlebars Helper methods to facilitate work with SCF
 seo-description: Handlebars Helper methods to facilitate work with SCF
-uuid: 542ba729-ecfc-4cc0-ae63-5021ec9c12ff
+uuid: 7c80066f-c1ae-4e68-90e0-3e90db20d116
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: d3e9c922-9581-45cd-8532-400338dd17c9
+discoiquuid: 4bd2d2a2-99a7-46aa-b1a6-0ac007d2a36f
 index: y
 internal: n
 snippet: y

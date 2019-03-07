@@ -3,12 +3,12 @@ title: Assets Monitoring Best Practices
 seo-title: Assets Monitoring Best Practices
 description: Best practices for monitoring the environment and performance of your AEM instance after it is deployed.
 seo-description: Best practices for monitoring the environment and performance of your AEM instance after it is deployed.
-uuid: 1c1918a9-eb48-4892-a8f7-e0949c3e9734
+uuid: b1884ceb-5688-4fac-bb26-80429ebbd9f9
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: 6fbfc424-6cf3-459f-a7ab-2a5d3a14ecd3
+discoiquuid: df6789f2-2468-4f4b-984c-3b015f282032
 index: y
 internal: n
 snippet: y
@@ -53,7 +53,7 @@ Typically, you use these tools together to obtain a comprehensive idea about the
 >
 >These tools are standard tools and not directly supported by Adobe. They don’t require additional licenses.
 
-![](assets/chlimage_1-147.png) ![](assets/chlimage_1-148.png) 
+![](assets/chlimage_1-142.png) ![](assets/chlimage_1-143.png) 
 
 ## Long Term Monitoring {#long-term-monitoring}
 

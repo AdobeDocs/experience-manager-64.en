@@ -3,12 +3,12 @@ title: Scaffolding
 seo-title: Scaffolding
 description: Sometimes you may need to create a large set of pages that share the same structure but have differing content. With scaffolding you can create a form (a scaffold) with fields that reflect the structure you want for your pages and then use this form to easily create pages based on this structure.
 seo-description: Sometimes you may need to create a large set of pages that share the same structure but have differing content. With scaffolding you can create a form (a scaffold) with fields that reflect the structure you want for your pages and then use this form to easily create pages based on this structure.
-uuid: 2f1f762b-f5c5-4127-ae5e-e4e948cf7bae
+uuid: e6a2f2a9-1801-473b-a9aa-4c118cffc507
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
-discoiquuid: f31f12ad-f48b-40ca-ac5b-5fd7c94d0a01
+discoiquuid: 6ff003c0-e5e6-46f3-9a36-a946e9d1a7c8
 index: y
 internal: n
 snippet: y

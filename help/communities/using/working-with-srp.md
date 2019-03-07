@@ -3,12 +3,12 @@ title: SRP - Community Content Storage
 seo-title: SRP - Community Content Storage
 description: As of AEM Communities 6.1, user generated content (UGC) is stored in a single, common store provided by a storage resource provider (SRP)
 seo-description: As of AEM Communities 6.1, user generated content (UGC) is stored in a single, common store provided by a storage resource provider (SRP)
-uuid: e41bae92-3881-4ff7-946b-185f8d72e5da
+uuid: baba5096-ba6c-4df8-997d-3cd5ba4b820c
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 1b3823e4-5d03-4794-b83b-e2d9176cc6c0
+discoiquuid: 422c5baa-01f7-43aa-b288-78ec490e41c5
 index: y
 internal: n
 snippet: y

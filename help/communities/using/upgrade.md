@@ -3,12 +3,12 @@ title: Upgrading to AEM 6.4 Communities
 seo-title: Upgrading to AEM 6.4 Communities
 description: How to upgrade from an earlier version to AEM 6.4 Communities
 seo-description: How to upgrade from an earlier version to AEM 6.4 Communities
-uuid: b5b7e327-437f-4d86-b8b8-59014559781f
+uuid: 5ab945b5-1456-4b49-b986-4d8c22fe51cb
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 content-type: reference
 topic-tags: deploying
-discoiquuid: 31185593-fe5e-45cc-9cc6-eba2fd594b7a
+discoiquuid: fdbc3ff9-4829-4113-a2f6-3171d7f4a329
 index: y
 internal: n
 snippet: y

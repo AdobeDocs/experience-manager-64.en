@@ -3,12 +3,12 @@ title: Configuring locations for Forms
 seo-title: Configuring locations for Forms
 description: Learn how to configure location for Forms.
 seo-description: Learn how to configure location for Forms.
-uuid: ca4eaa57-5f40-439d-bb5c-06920fe3a5b5
+uuid: 8b845632-90d0-4946-b788-1fe38187b2d9
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: ef7856b0-4454-4012-bc1d-39b4fda5f70a
+discoiquuid: dddf3808-58dc-4722-a552-989fe5e12ea0
 index: y
 internal: n
 snippet: y

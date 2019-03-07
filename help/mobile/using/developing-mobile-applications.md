@@ -3,12 +3,12 @@ title: Developing Mobile Applications in AEM
 seo-title: Developing Mobile Applications in AEM
 description: Follow this page to start developing mobile application in AEM using Adobe PhoneGap Enterprise.
 seo-description: Follow this page to start developing mobile application in AEM using Adobe PhoneGap Enterprise.
-uuid: ff8a1c0d-6835-4558-851b-dd941aa01d3b
+uuid: 3a17a731-f2ed-4c7c-94fa-1dde6fa78f96
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: developing-adobe-phonegap-enterprise
-discoiquuid: 2f121270-c91c-4f42-879a-6906e7bd6e3a
+discoiquuid: 36a5e5b6-3cc6-428d-bc3b-1f01a370b586
 index: y
 internal: n
 snippet: y

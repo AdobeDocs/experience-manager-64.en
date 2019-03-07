@@ -3,9 +3,9 @@ title: redirect (SAINT Exporter)
 seo-title: redirect (SAINT Exporter)
 description: null
 seo-description: null
-uuid: 7efeb016-e1e6-4ced-9687-b41657f6e9fe
+uuid: 288ac500-ddac-4f0a-9aa1-d4c9c51e9a62
 contentOwner: aheimoz
-discoiquuid: c6fcb60e-bfb6-4a34-b4cd-723cad3dd5e5
+discoiquuid: 180800fd-d07e-469c-b13e-b12d37103dea
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/sites/administering/using/adobeanalytics-classifications
 index: y

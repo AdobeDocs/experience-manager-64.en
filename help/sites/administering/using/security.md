@@ -3,12 +3,12 @@ title: User Administration and Security
 seo-title: User Administration and Security
 description: Learn about User Administration and Security in AEM.
 seo-description: Learn about User Administration and Security in AEM.
-uuid: 118b689b-4bea-4cc2-a070-0d26c2fba8a2
+uuid: 2d72e0d1-c8b3-47fd-9642-0d49f665d181
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
-discoiquuid: a2f7c69e-06bc-4ea4-85a0-a1f7e9b5bfae
+discoiquuid: 35915632-7422-4ed3-83fc-87b8476ae657
 index: y
 internal: n
 snippet: y
@@ -273,7 +273,7 @@ When you hover over the asterisk or exclamation mark, a tooltip provides more de
  </tbody> 
 </table>
 
-![](assets/chlimage_1-388.png)
+![](assets/chlimage_1-348.png)
 
 >[!NOTE]
 >
@@ -608,7 +608,7 @@ To add members to a group at in a certain path:
 
 1. Navigate to the path you want to add permissions to and click **Details**. The lower part of the details window provides information about who has permissions for that page.
 
-   ![](assets/chlimage_1-389.png)
+   ![](assets/chlimage_1-349.png)
 
 1. Select the check box in the **Member** column for the members you want to have permissions to that path. Clear the check box for member you want to remove permissions for. A red triangle appears in the cell you made changes to.
 1. Click **OK** to save your changes.
@@ -655,7 +655,7 @@ To remove members from a group at a certain path:
 
 1. Navigate to the path you want to remove permissions to and click **Details**. The lower part of the details window provides information about who has permissions for that page.
 
-   ![](assets/chlimage_1-390.png)
+   ![](assets/chlimage_1-350.png)
 
 1. Select the check box in the **Member** column for the members you want to have permissions to that path. Clear the check box for member you want to remove permissions for. A red triangle appears in the cell you made changes to.
 1. Click **OK** to save your changes.
@@ -764,7 +764,7 @@ To impersonate an existing user:
 1. Click the **Impersonators** tab.
 1. Click the user you want to be able to impersonate the selected user. Drag the user (who will impersonate) from the list to the Impersonate pane. The name appears in the list.
 
-   ![](assets/chlimage_1-391.png)
+   ![](assets/chlimage_1-351.png)
 
 1. Click **Save**.
 

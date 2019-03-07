@@ -4,9 +4,9 @@ seo-title: Review and Correct Converted Adaptive Forms
 description: Review and correct the adaptive forms converted by the Automated Forms Conversion service.
 seo-description: Review and correct the adaptive forms converted by the Automated Forms Conversion service
 page-status-flag: never-activated
-uuid: 801dd9db-11d8-4354-9069-c04aac0d56ea
+uuid: 9037bb16-2e17-44a0-a29c-644187b0fd68
 contentOwner: vishabgu
-discoiquuid: f27b7cdd-31c3-49ce-98f1-775cd72986ef
+discoiquuid: 32471839-5b16-44ca-9b31-1a334a37655a
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Quick Guide to Authoring Pages
 seo-title: Quick Guide to Authoring Pages
 description: A quick, high-level guide to the key actions of authoring page content
 seo-description: A quick, high-level guide to the key actions of authoring page content
-uuid: eb9763bc-783f-4449-8cda-2a5bdd8a1be1
+uuid: afe49983-07eb-4dd9-9899-8c387eb9ffee
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: 29f9effc-72c7-4043-aca1-7bec9fe91392
+discoiquuid: bb69d938-bf9b-4b03-ad12-ec95ed1d865b
 index: y
 internal: n
 snippet: y
@@ -77,7 +77,7 @@ Before giving the overview of specifics, here is a small collection of general t
 
 1. Navigate up the tree using [the breadcrumb in the header](../../../sites/authoring/using/basic-handling.md#theheaderwithbreadcrumbs), which allows you to return to the selected location:
 
-   ![](assets/chlimage_1-122.png)
+   ![](assets/chlimage_1-95.png)
 
 ### Creating a New Page {#creating-a-new-page}
 

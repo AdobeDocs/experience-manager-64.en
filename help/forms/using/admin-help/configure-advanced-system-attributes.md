@@ -3,12 +3,12 @@ title: Configure advanced system attributes
 seo-title: Configure advanced system attributes
 description: Use the Configure Advanced System Attributes page to modify certain settings in the configuration file without the need to export, edit, and import the file.
 seo-description: Use the Configure Advanced System Attributes page to modify certain settings in the configuration file without the need to export, edit, and import the file.
-uuid: ee1daabe-fc1b-4fb6-8d9c-91300e584527
+uuid: 660453ea-e985-417c-8afb-4a6bdfa53dd7
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_user_management
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 5c1c2fd7-fac1-45db-9fb0-9c6cf6fe2686
+discoiquuid: 55074577-c5f6-4918-99ed-c62377dfd953
 index: y
 internal: n
 snippet: y

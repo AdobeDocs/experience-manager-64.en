@@ -3,12 +3,12 @@ title: Applying Workflows to Pages
 seo-title: Applying Workflows to Pages
 description: When authoring, you can invoke workflows to take action on your pages; it is also possible to apply more than one workflow..
 seo-description: When authoring, you can invoke workflows to take action on your pages; it is also possible to apply more than one workflow..
-uuid: b379fe2b-59d5-447f-a046-1b0ab877e5c2
+uuid: c2ad5fcd-61d9-4e19-b9e8-fc98168ed3d4
 contentOwner: Alison Heimoz
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
-discoiquuid: 2b901d96-6bd8-439f-825b-563a5ddc62dd
+discoiquuid: 6d2d004e-d301-476b-bbdd-9135fd9e0bfb
 index: y
 internal: n
 snippet: y
@@ -61,7 +61,7 @@ You can start a workflow from the toolbar of the **Sites** console:
 
 1. From the **Create** option in the toolbar you can now select **Workflow**.
 
-   ![](assets/wf-50.png)
+   ![](assets/screen_shot_2019-03-06at121237pm.png)
 
 1. The **Create Workflow** wizard will help you [specify the workflow details](#specifyingworkflowdetailsinthecreateworkflowwizard).
 

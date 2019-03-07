@@ -3,12 +3,12 @@ title: Configuring Email
 seo-title: Configuring Email
 description: Email configuration for Communities
 seo-description: Email configuration for Communities
-uuid: f0ecfd72-ca45-49bc-a6f3-ac3b0342e715
+uuid: 1d05198e-016c-4e9e-82d8-5135fa9db795
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 18cc4cbf-ef16-4ab0-9bc2-e427d6f2004f
+discoiquuid: c71df66c-c3fe-436e-a14d-3d3ae2ae40e8
 pagetitle: Configuring Email
 index: y
 internal: n

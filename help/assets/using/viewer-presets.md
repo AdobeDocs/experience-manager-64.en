@@ -3,12 +3,12 @@ title: Applying Viewer Presets
 seo-title: Applying Viewer Presets
 description: Learn how to apply viewer presets in dynamic media
 seo-description: Learn how to apply viewer presets in dynamic media
-uuid: ba4cd6d6-e6e6-410c-8b67-5425826a7f5a
+uuid: 836db443-41b1-4211-b990-5be194f03876
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: 9b91c5ae-83c1-47bc-9095-3895c9e64328
+discoiquuid: 01745007-1057-42a1-8de4-f4b852713cf8
 index: y
 internal: n
 snippet: y
@@ -34,7 +34,7 @@ To apply any applicable viewer preset to an asset:
 
 1. Open the asset and in the left rail, and click or tap **Viewers**.
 
-   ![](assets/chlimage_1-109.png)
+   ![](assets/chlimage_1-104.png)
 
    >[!NOTE]
    >

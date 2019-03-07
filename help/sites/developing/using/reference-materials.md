@@ -1,21 +1,21 @@
 ---
-title: Reference Materials
-seo-title: Reference Materials
+title: API Guides
+seo-title: API Guides
 description: Documentation for the APIs that AEM provides for developing applications
 seo-description: Documentation for the APIs that AEM provides for developing applications
-uuid: 09d43d53-0ce3-4805-bf18-605d225527d9
+uuid: bfe27631-86d5-40ff-9055-384e712bd54a
 contentOwner: Guillaume Carlino
 topic-tags: introduction
 audience: developing
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SITES
-discoiquuid: 2078ab1e-fd9f-4b7b-a5d2-e0da14304039
+discoiquuid: 5dd808cf-c7aa-4384-aa09-61a3d829cb7a
 index: y
 internal: n
 snippet: y
 ---
 
-# Reference Materials{#reference-materials}
+# API Guides{#api-guides}
 
 AEM provides several APIs for developing applications. The following list provides the documentation for APIs supported by AEM:
 
@@ -34,6 +34,16 @@ AEM provides several APIs for developing applications. The following list provid
 * [Editor Core Javascript API Reference](/sites/developing/using/reference-materials/jsdoc/ui-touch/editor-core/index)
 
 AEM Single-Page Application (SPA) Editor SDK framework JavaScript API references:
+
+AEM Delivery and Content Management APIs:
+
+* Core Components (JSON)
+
+    * [JSON Exporter](../../../sites/developing/using/json-exporter.md)
+    * [Enabling JSON Export for a Component](../../../sites/developing/using/json-exporter-components.md)
+    * See the [Components section in the Developing User Guide](https://helpx.adobe.com/experience-manager/6-4/sites/developing/user-guide.html?topic=/experience-manager/6-4/sites/developing/morehelp/components.ug.js) for more information
+
+* [AEM Assets HTTP API](../../../assets/using/mac-api-assets.md)
 
 The following external resources are for reference only:
 

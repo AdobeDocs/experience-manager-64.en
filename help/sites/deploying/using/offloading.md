@@ -3,12 +3,12 @@ title: Offloading Jobs
 seo-title: Offloading Jobs
 description: Learn how to configure and use AEM instances in a topology in order to perform specific types of processing.
 seo-description: Learn how to configure and use AEM instances in a topology in order to perform specific types of processing.
-uuid: 0ca92360-f4f8-4965-b9e3-b24a29e3e8ee
+uuid: a50703a5-d8ce-491a-9622-326ed349edf3
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: configuring
 content-type: reference
-discoiquuid: 254acacf-b6d9-4453-8afd-231eb2c4f32c
+discoiquuid: 83248cbb-a847-4603-8bfe-d2f08866ad49
 index: y
 internal: n
 snippet: y
@@ -38,7 +38,7 @@ When JobManager creates a job, the Offloading framework selects an Experience Ma
 
 See [Configuring Topic Consumption](../../../sites/deploying/using/offloading.md#configuring-topic-consumption) for information about refining job distribution.
 
-![](assets/chlimage_1-112.png)
+![](assets/chlimage_1-109.png)
 
 When the Offloading framework selects a cluster to execute a job, and the cluseter is comprised of multiple instances, Sling Distribution determines which instance in the cluster executes the job.
 
@@ -59,7 +59,7 @@ Each Experience Manager instance runs the following Offloading-related services:
 
 The Discovery Service of all members of the topology point to the Topology Connector on one of the members. In the sections that follow, this member is referred to as the root member.
 
-![](assets/chlimage_1-113.png)
+![](assets/chlimage_1-110.png)
 
 Each cluster in the topology contains an instance that is recognized as the leader. The cluster leader interacts with the topology on behalf of the other members of the cluster. When the leader leaves the cluster, a new leader for the cluster is automatically chosen.
 
@@ -82,7 +82,7 @@ For each instance in the cluster, you can see several topology-related propertie
 
    The clusters that are participating in the topology appear.
 
-   ![](assets/chlimage_1-114.png)
+   ![](assets/chlimage_1-111.png)
 
 1. Click a cluster to see a list of the instances in the cluster and their ID, Current status, and Leader status.
 1. Click an instance ID to see more detailed properties.
@@ -98,7 +98,7 @@ Use the following procedure to open the Topology Management page of the Web Cons
 1. Open the Web Console in your browser. ([http://localhost:4502/system/console](http://localhost:4502/system/console))
 1. Click Main &gt; Topology Management.
 
-   ![](assets/chlimage_1-115.png)
+   ![](assets/chlimage_1-112.png)
 
 #### Configuring Topology Membership {#configuring-topology-membership}
 
@@ -184,12 +184,12 @@ Jobs are distributed amoung instances that have the associated topic enabled usi
 
    The offloading topics and the server instances that that can consume the topics appear.
 
-   ![](assets/chlimage_1-116.png)
+   ![](assets/chlimage_1-113.png)
 
 1. To disable the consumption of a topic for an instance, below the topc name click Disable beside the instance.
 1. To configure all topic consumption for an instance, click the instance identifier below any topic. 
 
-   ![](assets/chlimage_1-117.png)
+   ![](assets/chlimage_1-114.png)
 
 1. Click one of the following buttons beside a topic to configure the consumption behavior for the instance, and then click Save:
 
@@ -234,7 +234,7 @@ The offloading framework uses replication to transport resources between author 
 
 Create the replication agents that transport job payloads between instances for offloading. The following illustration shows the agents that are required to offload from the author to a worker instance. The author has a Sling ID of 1 and the worker instance has a Sling ID of 2: 
 
-![](assets/chlimage_1-118.png)
+![](assets/chlimage_1-115.png)
 
 This setup requires the following three agents:
 
@@ -332,7 +332,7 @@ The following procedure assumes the following characteristics for the offloading
 1. Configure the root Topography Connector so that the connecting instances are on the whitelist. 
 1. Open Offloading Browser and disable the `com/adobe/granite/workflow/offloading` topic on the instances with which users interact to upload or change DAM assets.
 
-   ![](assets/chlimage_1-119.png)
+   ![](assets/chlimage_1-116.png)
 
 1. On each instance that users interact with to upload or change DAM assets, configure workflow launchers to use the DAM Update Asset Offloading workflow:
 

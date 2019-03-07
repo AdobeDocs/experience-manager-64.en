@@ -4,11 +4,11 @@ seo-title: Deploying Communities
 description: How to deploy AEM Communities
 seo-description: How to deploy AEM Communities
 page-status-flag: never-activated
-uuid: 3d6f996c-1596-448d-8510-6316ae803ed1
+uuid: f9fce3e0-e7b2-49cf-acd7-a78197bb5cf3
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 content-type: reference
 topic-tags: deploying
-discoiquuid: 202f167b-9e82-400a-9892-9f196922a267
+discoiquuid: 0b622570-dcdf-4e53-b093-ad6c1f01ecf7
 index: y
 internal: n
 snippet: y

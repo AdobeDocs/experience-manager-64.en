@@ -3,12 +3,12 @@ title: Adding Dynamic Media Assets to Pages
 seo-title: Adding Dynamic Media Assets to Pages
 description: How to add Dynamic Media components to a page in AEM
 seo-description: How to add Dynamic Media components to a page in AEM
-uuid: bd505de5-f87e-430f-b4d7-699328850237
+uuid: 3aab972e-9a4c-4f08-8a3d-593ef3e6f40b
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: 1f8db937-30fa-4a24-b403-cddd40d8dfa1
+discoiquuid: 0db61c2f-eda3-4c69-8bda-991139158a7d
 index: y
 internal: n
 snippet: y
@@ -28,10 +28,16 @@ You add dynamic media assets directly to the page if you are using AEM as your W
 
 Adding the Dynamic Media or Interactive Media component to a page is the same as adding a component to any page. The Dynamic Media and Interactive Media components are described in detail in the following sections.
 
+>[!NOTE]
+>
+>If there is a Dynamic Media component, an Interactive Media component, or both on a web page that is accessed by a user with read-only permissions, the page breaks and the components are not render correctly. The reason is because the page is reconstructed to ensure that the properties of the components are good and any referenced assets and configurations are accessible. The page is then rendered again causing the components to break; the respective component code on the page cannot be re-rendered due to the user’s read-only access.  
+  
+>To avoid this issue, ensure that AEM Sites users have the necessary permissions to access the assets.
+
 1. In AEM, open the page where you want to add the Dynamic Media or Interactive Media component.
 1. In the left pane, click the **Components icon **and filter for Dynamic Media.** **If no Dynamic Media component is available, you need to enable the Dynamic Media components. See [Editing Page Templates](../../sites/authoring/using/templates.md#editingtemplatestemplateauthors) for more information. 
 
-   ![](assets/chlimage_1-53.png)
+   ![](assets/chlimage_1-537.png)
 
 1. Drag the **Dynamic Media** or **Interactive Media** component onto the page in the desired location.
 1. Click** **the blue box around the component and click the** Configuration** (wrench)** **icon**.**
@@ -43,7 +49,7 @@ You can localize Dynamic Media components in one of two ways:
 
 * Within a web page in Sites, open **Properties** and select the **Advanced** tab. Select the desired language for localization.
 
-  ![](assets/chlimage_1-54.png)
+  ![](assets/chlimage_1-538.png)
 
 * From the site selector, select the desired page or page group. Tap or click **Properties** and select the **Advanced** tab. Select the desired language for localization.
 
@@ -59,11 +65,17 @@ Dynamic Media and Interactive Media are available under the **Dynamic Media** ta
 >
 >These components are not available by default and need to be made available via the template editor before using. [After they are made available i](../../sites/authoring/using/templates.md#editingtemplatestemplateauthors)n the template editor, you can add the components to your page as you would any other AEM component.
 
-![](assets/chlimage_1-55.png)
+![](assets/chlimage_1-539.png) 
 
 ### Dynamic Media component {#dynamic-media-component}
 
 The Dynamic Media component is smart - depending on whether you add an image or a video, you have various options. The component supports image presets, image-based viewers such as image sets, spin sets, mixed media sets, and video. In addition, the viewer is responsive - the size of the screen changes automatically based on screen size. All viewers are HTML5 viewers.
+
+>[!NOTE]
+>
+>If there is a Dynamic Media component, an Interactive Media component, or both on a web page that is accessed by a user with read-only permissions, the page breaks and the components are not render correctly. The reason is because the page is reconstructed to ensure that the properties of the components are good and any referenced assets and configurations are accessible. The page is then rendered again causing the components to break; the respective component code on the page cannot be re-rendered due to the user’s read-only access.  
+  
+>To avoid this issue, ensure that AEM Sites users have the necessary permissions to access the assets.
 
 >[!NOTE]
 >
@@ -123,7 +135,7 @@ This option is not available if you are viewing image sets, spin sets, or mixed 
 
 Use the Dynamic Media component to add dynamic video to your web pages. When you edit the component you can choose to use a predefined video viewer preset for playing the video on the page.
 
-![](assets/chlimage_1-56.png)
+![](assets/chlimage_1-540.png)
 
 You can edit the following Dynamic Media Settings by clicking **Edit** in the component.
 
@@ -184,7 +196,13 @@ Interactive Media component is for those assets that have interactivity on them 
 
 The Interactive Media component is smart - depending on whether you add an image or a video, you have various options. In addition, the viewer is responsive - the size of the screen changes automatically based on screen size. All viewers are HTML5 viewers.
 
-![](assets/chlimage_1-57.png)
+>[!NOTE]
+>
+>If there is a Dynamic Media component, an Interactive Media component, or both on a web page that is accessed by a user with read-only permissions, the page breaks and the components are not render correctly. The reason is because the page is reconstructed to ensure that the properties of the components are good and any referenced assets and configurations are accessible. The page is then rendered again causing the components to break; the respective component code on the page cannot be re-rendered due to the user’s read-only access.  
+  
+>To avoid this issue, ensure that AEM Sites users have the necessary permissions to access the assets.
+
+![](assets/chlimage_1-541.png)
 
 You can edit the following **General** settings by clicking **Edit** in the component.
 

@@ -3,11 +3,11 @@ title: User, Group and Access Rights Administration
 seo-title: User, Group and Access Rights Administration
 description: Learn about user, group and access rights administration in AEM.
 seo-description: Learn about user, group and access rights administration in AEM.
-uuid: 608f7a9e-0b39-48c5-9dab-1ea65b56dda5
+uuid: d0e5b181-beb9-476a-9b91-af5486362ced
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
-discoiquuid: 2197b7d1-f2c0-4d87-b54e-c235b35a48de
+discoiquuid: b0159b02-3cc6-421c-91ba-dcd9a6ad74fb
 index: y
 internal: n
 snippet: y
@@ -95,7 +95,7 @@ The list of access rights applicable for the subject is constructed from:
 * the rights that you assign directly to the user account  
 * plus all rights assigned to any of the groups that the user belongs to
 
-![](assets/chlimage_1-344.png)
+![](assets/chlimage_1-307.png)
 
 >[!NOTE]
 >
@@ -110,7 +110,7 @@ When CRX handles the request it compares the access request from the subject wit
 
 So if Linda requests to update the `/features` node in the following repository structure:
 
-![](assets/chlimage_1-345.png) 
+![](assets/chlimage_1-308.png) 
 
 ### Order of Precedence {#order-of-precedence}
 
@@ -211,7 +211,7 @@ You must be logged into the appropriate workspace, then you can access the dialo
 * the **User Administration** link on the Main Console of CRX
 * the **Security** menu of the CRX Explorer
 
-![](assets/chlimage_1-346.png)
+![](assets/chlimage_1-309.png)
 
 **Properties**
 
@@ -331,7 +331,7 @@ You must be logged into the appropriate workspace, then you can access the dialo
 * the **Group Administration** link on the Main Console of CRX
 * the **Security** menu of the CRX Explorer
 
-![](assets/chlimage_1-48.jpeg)
+![](assets/chlimage_1-47.jpeg)
 
 **Properties**
 

@@ -3,12 +3,12 @@ title: Managing Multiple Assets and Collections
 seo-title: Managing Multiple Assets and Collections
 description: Learn how to edit the metadata of multiple assets and collections simultaneously to quickly propagate common metadata changes.
 seo-description: Learn how to edit the metadata of multiple assets and collections in bulk.
-uuid: e949444e-1630-48af-ab4e-864320b91106
+uuid: 9dcbfdaa-8dec-4032-93bb-0a8d660b1148
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
 topic-tags: authoring
-discoiquuid: 00013762-558e-4e16-95f8-e1cadf12d4e3
+discoiquuid: 55e2b8dc-9fb7-4801-b626-b3b08b1a68e3
 index: y
 internal: n
 snippet: y
@@ -58,7 +58,7 @@ To customize the metadata properties page, including adding, modifying, deleting
    >
    >For single-value fields, the new metadata is not appended to the existing value in the field even if you select **Append mode**.
 
-   ![](assets/chlimage_1-407.png)
+   ![](assets/chlimage_1-402.png)
 
 ## Editing metadata properties of multiple collections {#editing-metadata-properties-of-multiple-collections}
 

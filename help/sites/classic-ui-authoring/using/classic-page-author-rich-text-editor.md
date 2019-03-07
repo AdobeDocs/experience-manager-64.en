@@ -3,12 +3,12 @@ title: Rich Text Editor
 seo-title: Rich Text Editor
 description: The Rich Text Editor is a basic building block for inputting textual content into AEM.
 seo-description: The Rich Text Editor is a basic building block for inputting textual content into AEM.
-uuid: 0eec65ad-302d-471e-ab20-93da550ccd56
+uuid: c5ed842c-56e5-42b2-aca2-2f6b95fd9345
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: 8409581d-168b-4062-93ed-0a9701bf1019
+discoiquuid: 8e11359a-0973-48c0-bc2b-186cf14cc004
 index: y
 internal: n
 snippet: y

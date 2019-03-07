@@ -3,12 +3,12 @@ title: Recommended Deployments
 seo-title: Recommended Deployments
 description: This article describes the recommended topologies for AEM.
 seo-description: This article describes the recommended topologies for AEM.
-uuid: db3f2ec9-8523-47c5-8520-af3a8dd541d9
+uuid: a694fec6-f926-4b14-8aee-3a2e12c47852
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
-discoiquuid: 32142263-191e-4273-bb29-027b0819a85d
+discoiquuid: 08e00440-99f8-4351-9d4e-1807a1f23380
 index: y
 internal: n
 snippet: y

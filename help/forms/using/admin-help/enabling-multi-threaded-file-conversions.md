@@ -3,12 +3,12 @@ title: Enabling multi-threaded file conversions
 seo-title: Enabling multi-threaded file conversions
 description: Learn how to enable multi-threaded file conversions.
 seo-description: Learn how to enable multi-threaded file conversions.
-uuid: 0959cd55-5c3d-4b53-b597-08492e2d889b
+uuid: 682e428b-f2c0-458f-bbb8-b5c84af1d178
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_pdf_generator
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 1ba81135-5855-4716-8e6a-382c6cadf12b
+discoiquuid: 3790e8a0-6f65-459e-8662-22f4db42419e
 index: y
 internal: n
 snippet: y

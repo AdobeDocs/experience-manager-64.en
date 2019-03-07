@@ -3,11 +3,11 @@ title: Content Services
 seo-title: Content Services
 description: null
 seo-description: null
-uuid: 651f050d-cec6-4ed1-97bd-836e2cbc8fcb
+uuid: 2f03e7d8-f439-48aa-ae3a-1b2f36942bc8
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
-discoiquuid: c4cb288c-1203-49a9-94cf-ef846eeace32
+discoiquuid: cee237fd-daaf-4444-8822-e9ddbfcd41e5
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Configuring credentials for use with Acrobat Reader DC extensions
 seo-title: Configuring credentials for use with Acrobat Reader DC extensions
 description: Learn how to configure credentials for use with Acrobat Reader DC extensions.
 seo-description: Learn how to configure credentials for use with Acrobat Reader DC extensions.
-uuid: 577aa8b8-5140-4211-a614-bbbd25845ece
+uuid: 6c4884b6-efdb-40db-9393-73f7a5e73779
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_acrobat_reader_dc_extensions
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 393e8708-33db-48b6-b13e-431512594ed0
+discoiquuid: 3d526a54-521e-48e2-93f8-3fdeda0bc6ec
 index: y
 internal: n
 snippet: y

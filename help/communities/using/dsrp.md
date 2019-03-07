@@ -3,12 +3,12 @@ title: DSRP - Relational Database Storage Resource Provider
 seo-title: DSRP - Relational Database Storage Resource Provider
 description: Set up AEM Communities to use a relational database as its common store
 seo-description: Set up AEM Communities to use a relational database as its common store
-uuid: 4b6d202b-5001-44f9-89aa-60912d8de86e
+uuid: e3e43257-a3ed-41b6-9d5d-ad3933dae54e
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 09139067-774a-441a-b6c0-6674eceb50b3
+discoiquuid: 97948432-1b86-490a-aa03-73b37bff4bfe
 index: y
 internal: n
 snippet: y

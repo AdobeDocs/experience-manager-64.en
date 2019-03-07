@@ -3,12 +3,12 @@ title: Configuring Acrobat Reader DC extensions for data capture
 seo-title: Configuring Acrobat Reader DC extensions for data capture
 description: Learn how to configure Acrobat Reader DC extensions for data capture.
 seo-description: Learn how to configure Acrobat Reader DC extensions for data capture.
-uuid: 44017f64-26be-4fe2-9ed1-83444cf7613c
+uuid: c9b42cb2-638c-402a-9b5b-16e98bb7d887
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_acrobat_reader_dc_extensions
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 661e2c24-4466-494e-b0f8-6f4c2b455e7b
+discoiquuid: 6ed9cb93-ba1a-4894-9b2e-097fb09b4e81
 index: y
 internal: n
 snippet: y

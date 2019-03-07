@@ -3,9 +3,9 @@ title: REDIRECT Creating Components
 seo-title: REDIRECT Creating Components
 description: null
 seo-description: null
-uuid: 1ed309eb-fff3-4857-b86e-c1fe14fe27ee
+uuid: 0daa2fbf-bf7b-4173-b311-aab10cc768d1
 contentOwner: jsyal
-discoiquuid: f5471869-7438-4e69-ac15-9aafbdb8633e
+discoiquuid: f77cd138-f4f9-448f-8f26-19c797409c33
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/screens/using/creating-components
 index: y

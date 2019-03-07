@@ -3,12 +3,12 @@ title: Assets Offloading Best Practices
 seo-title: Assets Offloading Best Practices
 description: Recommended use cases and best practices for offloading asset ingestion and replication workflows in AEM Assets.
 seo-description: Recommended use cases and best practices for offloading asset ingestion and replication workflows in AEM Assets.
-uuid: 8cce3e29-c9a1-41ee-be10-94a00ad51693
+uuid: cf6d53b3-90f5-4a42-92c4-38d50051e464
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: 3cab800f-0330-49f6-b182-996afcf6ef8a
+discoiquuid: 5b75e079-076d-40b4-9756-03f9d4942717
 index: y
 internal: n
 snippet: y
@@ -30,7 +30,7 @@ AEM Assets implements a native asset-specific workflow extension for offloading.
 
 The following diagram depicts the main components in Asset offloading process:
 
-![](assets/chlimage_1-60.png)
+![](assets/chlimage_1-55.png)
 
 ### DAM Update Asset Offloading workflow {#dam-update-asset-offloading-workflow}
 
@@ -91,7 +91,7 @@ If you conclude that Assets offloading is an appropriate approach for you, Adobe
 
 With AEM and Oak, there are several deployment scenarios possible. For Assets offloading, a TarMK based deployment with a shared datastore is recommended. The following diagram outlines the recommended deployment:
 
-![](assets/chlimage_1-61.png)
+![](assets/chlimage_1-56.png)
 
 For details around configuring a datastore, see [Configuring node stores and data stores in AEM](../../sites/deploying/using/data-store-config.md).
 

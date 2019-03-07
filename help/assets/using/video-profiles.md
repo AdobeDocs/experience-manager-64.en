@@ -3,12 +3,12 @@ title: Video Profiles
 seo-title: Video Profiles
 description: Dynamic Media already comes with a predefined Adaptive Video Encoding profile. The settings in this out-of-the-box profile are optimized to give your customers the best viewing experience possible. 
 seo-description: Dynamic Media already comes with a predefined Adaptive Video Encoding profile. The settings in this out-of-the-box profile are optimized to give your customers the best viewing experience possible. 
-uuid: d7dc8803-3ba4-4cac-8415-2902b8e745e0
+uuid: 8baf0538-e5f9-4ff7-9ff2-741eefdc748a
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: b99b4f0f-af91-4dc3-8593-e7cc98342bae
+discoiquuid: 3aa41a96-968f-4760-b11b-dd32f0f91d5c
 index: y
 internal: n
 snippet: y
@@ -244,7 +244,7 @@ You can edit an existing video encoding profile to take advantage of advanced vi
  </tbody> 
 </table>
 
-   ![](assets/chlimage_1-529.png)
+   ![](assets/chlimage_1-516.png)
 
 1. Near the lower-right corner of the page, click or tap **Add**.
 1. Do one of the following:
@@ -308,7 +308,7 @@ If you assigned a different video profile to a folder, the new profile overrides
 
 Folders that have a profile assigned to it are indicated in the user interface by the name of the profile appearing in the card name.
 
-![](assets/chlimage_1-530.png)
+![](assets/chlimage_1-517.png)
 
 You can apply video profiles to specific folders or globally to all assets.
 
@@ -330,7 +330,7 @@ Folders that have a profile already assigned to it are indicated by the display 
 1. On the folder, tap or click the check mark to select it and then tap or click **Properties**.
 1. Select the **Video Profiles** tab and select the profile from the drop-down menu and click **Save & Close**. Folders that have a profile already assigned to it are indicated by the display of the profile's name directly below the folder name.
 
-   ![](assets/chlimage_1-531.png)
+   ![](assets/chlimage_1-518.png)
 
 ### Applying a video profile globally {#applying-a-video-profile-globally}
 
@@ -340,7 +340,7 @@ To apply a video profile globally,
 
 * Navigate to CRXDE Lite to the following node: **/content/dam/jcr:content. **Add the property** videoProfile:/etc/dam/video/dynamicmedia/&lt;name of video encoding profile&gt; **and tap or click **Save All**. 
 
-  ![](assets/chlimage_1-532.png)
+  ![](assets/chlimage_1-519.png)
 
 ## Removing a Video Profile from Folders {#removing-a-video-profile-from-folders}
 

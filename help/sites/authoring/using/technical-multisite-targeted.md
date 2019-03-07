@@ -3,12 +3,12 @@ title: How Multisite Management for Targeted Content is Structured
 seo-title: How Multisite Management for Targeted Content is Structured
 description: A diagram shows how multisite support for targeted content is structured
 seo-description: A diagram shows how multisite support for targeted content is structured
-uuid: 84a42490-9447-4db2-8844-feecc4086f42
+uuid: ef2e7699-7e1d-4bc9-806b-e7e647c94f5a
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: personalization
-discoiquuid: 594949aa-545a-4fae-b6cb-a7e01a405af5
+discoiquuid: 84168350-09a3-4c53-a6a1-56386de6dab4
 index: y
 internal: n
 snippet: y
@@ -20,13 +20,13 @@ The following diagram shows how multisite support for targeted content is struct
 
 Areas appear underneath **/content/campaigns/&lt;brand&gt;** and by default each brand has a master area, which is created automatically. Each area contains its own set of activities, experiences, and offers.
 
-![](assets/chlimage_1-303.png)
+![](assets/chlimage_1-268.png)
 
 To look up targeted content, the pages or sites can map to an area. If there is no area configured, AEM falls back to the master area for this specific brand.
 
 The following diagram is an example of how the logic works for three sites, called site1, site2, and site3.
 
-![](assets/chlimage_1-304.png)
+![](assets/chlimage_1-269.png)
 
 * site1 looks up myarea1 for brand1 and otherarea2 for brand2 based on area mapping.
 * site2 looks up myarea1 for brand1 and master area for brand2 as only the area mapping for brand1 is defined.

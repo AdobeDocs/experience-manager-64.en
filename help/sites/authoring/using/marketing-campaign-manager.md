@@ -3,12 +3,12 @@ title: Working with the Marketing Campaign Manager
 seo-title: Working with the Marketing Campaign Manager
 description: The Marketing Campaign Manager (MCM) is a console that helps you manage multi-channel campaigns
 seo-description: The Marketing Campaign Manager (MCM) is a console that helps you manage multi-channel campaigns
-uuid: 0d54b0a9-311d-4883-96e5-9a57b88b44dd
+uuid: af956f89-db4b-42b3-8ab8-161c8ddea37b
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: personalization
-discoiquuid: 5a78a291-d757-42ce-9bb9-edce245f08e0
+discoiquuid: dd2ecb55-e943-43e6-afb1-7b01b6aae798
 index: y
 internal: n
 snippet: y

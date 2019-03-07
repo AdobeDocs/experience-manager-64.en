@@ -3,12 +3,12 @@ title: Converting files using PDF Generator
 seo-title: Converting files using PDF Generator
 description: Learn how to convert files using PDF Generator.
 seo-description: Learn how to convert files using PDF Generator.
-uuid: 3fd79fae-ed9b-4b3e-ab13-c7aff8430fcc
+uuid: 3d5bfff3-44c1-49b2-9269-898360f86da6
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_pdf_generator
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: d9145a0b-b3bf-42b4-be68-faff9d67b7da
+discoiquuid: 1c6c173f-e1da-419b-bdff-6efd4221082d
 index: y
 internal: n
 snippet: y

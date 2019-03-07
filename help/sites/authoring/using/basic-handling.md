@@ -3,12 +3,12 @@ title: Basic Handling
 seo-title: Basic Handling
 description: Get comfortable with navigating AEM and its basic usage
 seo-description: Get comfortable with navigating AEM and its basic usage
-uuid: a15993ae-373d-4ea2-9a86-cb0cc3322e48
+uuid: 61b553e6-f099-41a7-82c5-effc38d50851
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
-discoiquuid: 00b0f879-7aa5-4192-8d23-a0461490a689
+discoiquuid: 46ac2a1c-3d96-4bdd-aa1f-0a4892a3b402
 index: y
 internal: n
 snippet: y
@@ -44,7 +44,7 @@ Click or tap on **Sites** to get started.
 
 Whenever a user first accesses a console, a product navigation tutorial is started. Take a minute to click or tap through to get a good overview of the basic handling of AEM.
 
-![](assets/chlimage_1-271.png)
+![](assets/chlimage_1-357.png)
 
 Click or tap **Got it!** to advance to the next page of the overview. Click or tap **Close** or click or tap outside of the overview dialogue to close.
 
@@ -100,10 +100,6 @@ The options available on these panels are described below.
   <tr>
    <td>Forms</td> 
    <td>This console allows you to create, manage, and process your <a href="/forms/user-guide">forms and documents</a>.</td> 
-  </tr>
-  <tr>
-   <td>Content Services</td> 
-   <td>This console allows you to manage your <a href="../../../sites/developing/using/mobile-web.md">mobile applications</a>.</td> 
   </tr>
   <tr>
    <td>Personalization</td> 
@@ -178,13 +174,13 @@ The header is always present at the top of the screen. While most options in the
 
 * Breadcrumbs
 
-  ![](assets/chlimage_1-272.png)
+  ![](assets/chlimage_1-358.png)
 
   Situated in the middle of the rail, and always showing the description of the currently selected item, the breadcrumbs allow you to navigate within a specific console. In the Sites console, you can navigate through the levels of your website.
 
   Simply click on the breadcrumb text to display a drop-down listing the levels of the hierarchy of the currently selected item. Click on an entry to jump to that location. 
 
-  ![](assets/chlimage_1-273.png)
+  ![](assets/chlimage_1-359.png)
 
 * Analytics time period selection
 
@@ -224,7 +220,7 @@ There are various help resources available:
 
   The first time you edit a page a series of slides introduce the page editor.
 
-  ![](assets/chlimage_1-274.png)
+  ![](assets/chlimage_1-360.png)
 
   Navigate this overview as you would the [product navigation overview](../../../sites/authoring/using/basic-handling.md#product-navigation) when first accessing any console.
 
@@ -382,7 +378,7 @@ Selecting a resource in the leftmost column will display the child resources in 
 
     * The resource name and chevron will be highlighted when tapped or clicked.
 
-  ![](assets/chlimage_1-275.png)
+  ![](assets/chlimage_1-361.png)
 
     * The children of the clicked/tapped resource are displayed in the column to the right of the clicked/tapped resource.
     * If you tap or click on a resource name that has no children, its details will be displayed in the final column.
@@ -392,7 +388,7 @@ Selecting a resource in the leftmost column will display the child resources in 
     * When selected, a checkmark will be overlaid on the thumbnail and the resource name will be highlighted as well.
     * The details of the selected resource will be shown in the final column.
 
-  ![](assets/chlimage_1-276.png)
+  ![](assets/chlimage_1-362.png)
 
   When a page is selected in column view, the selected page is displayed in the final colum along with the following details:
 

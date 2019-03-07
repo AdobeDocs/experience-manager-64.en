@@ -3,12 +3,12 @@ title: Editing and converting existing domains
 seo-title: Editing and converting existing domains
 description: Learn how to change the settings for existing domains from the Domain Management page. Convert an existing enterprise domain to a hybrid domain or vice versa. 
 seo-description: Learn how to change the settings for existing domains from the Domain Management page. Convert an existing enterprise domain to a hybrid domain or vice versa. 
-uuid: 31366526-de05-4ee0-8fd5-1e392978e8fb
+uuid: 44c43abc-82f5-43c6-85d0-7bb18bb0e657
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/setting_up_and_managing_domains
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 35a7cb47-b4e2-4641-b7e7-cb57435f1ca4
+discoiquuid: b4694c9a-ba55-4961-acbe-1a68d39daa2b
 index: y
 internal: n
 snippet: y

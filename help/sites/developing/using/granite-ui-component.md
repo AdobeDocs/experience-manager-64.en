@@ -3,12 +3,12 @@ title: Creating a New Granite UI Field Component
 seo-title: Creating a New Granite UI Field Component
 description: Granite UI provides a range of components designed to be used in forms, called fields
 seo-description: Granite UI provides a range of components designed to be used in forms, called fields
-uuid: 38b8a5ac-e8ae-4a3c-ba23-f2d6e9afb038
+uuid: 2a2a5ccb-6717-4fa0-808c-43b9e54a2224
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
-discoiquuid: d46862cb-736e-4ac4-9787-db4ad4767693
+discoiquuid: 53e110d8-3d9c-4d9a-9159-04a3e4fde5b7
 index: y
 internal: n
 snippet: y

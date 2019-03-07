@@ -3,12 +3,12 @@ title: Ideation Essentials
 seo-title: Ideation Essentials
 description: Ideation feature overview
 seo-description: Ideation feature overview
-uuid: ae6612a3-cc82-489a-9c93-526d816586ab
+uuid: 837ea7c9-fd0f-4d2d-8a5a-914ed7faa8f3
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: eb92145a-78b1-4a16-ad0c-6a8860a899b2
+discoiquuid: 018e4335-223a-46d9-94a5-16246330214f
 index: y
 internal: n
 snippet: y

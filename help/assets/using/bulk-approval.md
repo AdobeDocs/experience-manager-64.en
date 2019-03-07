@@ -3,12 +3,12 @@ title: Review folder assets and collections
 seo-title: Review folder assets and collections
 description: Set up review workflows for assets within a folder or a collection and share it with reviewers or creative partners to seek feedback.
 seo-description: Set up review workflows for assets within a folder or a collection and share it with reviewers.
-uuid: bcc049fa-93c2-451a-8647-58b941957ce3
+uuid: 961f0f7c-f793-49ea-91d9-aefe5306d3ef
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
 topic-tags: authoring
-discoiquuid: 723d0e40-f567-4d26-b7c8-7b81a53ed3e0
+discoiquuid: 60b21190-e289-4d3c-9a75-1f3c9bfe8436
 index: y
 internal: n
 snippet: y
@@ -31,7 +31,7 @@ After the reviewer completes the review (approves or rejects assets), you receiv
 1. From the Assets user interface, select the folder for which you want to create a review task.
 1. From the toolbar, tap/click the **Create Review Task** icon to open the **Review Task** page. If you cannot see the icon in the toolbar, tap/click **More** and then select the icon.
 
-   ![](assets/chlimage_1-408.png)
+   ![](assets/chlimage_1-403.png)
 
 1. (Optional) From the **Project** list, select the project to which you want to associate the review task. By default, the **(None)** option is selected. If you do not want to associate any project with the review task, retain this selection.
 
@@ -68,7 +68,7 @@ After the reviewer completes the review (approves or rejects assets), you receiv
 
    **Card view**
 
-   ![](assets/chlimage_1-409.png)
+   ![](assets/chlimage_1-404.png)
 
    **List view**
 
@@ -79,7 +79,7 @@ After the reviewer completes the review (approves or rejects assets), you receiv
 1. From the Collections page, select the collection for which you want to create a review task.
 1. From the toolbar, tap/click the **Create Review Task** icon to open the **Review Task** page. If you cannot see the icon in the toolbar, tap/click **More** and then select the icon.
 
-   ![](assets/chlimage_1-410.png)
+   ![](assets/chlimage_1-405.png)
 
 1. (Optional) From the **Project** list, select the project to which you want to associate the review task. By default, the **(None)** option is selected. If you do not want to associate any project with the review task, retain this selection.
 

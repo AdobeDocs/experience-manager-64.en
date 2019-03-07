@@ -3,12 +3,12 @@ title: Integrating with ExactTarget
 seo-title: Integrating with ExactTarget
 description: Learn how to integrate AEM with ExactTarget.
 seo-description: Learn how to integrate AEM with ExactTarget.
-uuid: be24fc33-b1d0-4c16-958d-5f8d9fdc68b0
+uuid: 32ae72dc-2eb8-4d44-95c9-eb2d91ea9220
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: 99d7d454-7017-44b9-86a5-988fbf836f43
+discoiquuid: 7e8c3a4c-f2dd-4dc7-bffa-23e0146b6e96
 index: y
 internal: n
 snippet: y
@@ -36,16 +36,16 @@ To create an ExactTarget configuration in Cloud Services:
 1. On the welcome page, click **Cloud Services**. (Or directly access at `http://<hostname>:<port>/etc/cloudservices.html`.)
 1. Click **ExactTarget** and then **Configure**. The ExactTarget configuration window opens.
 
-   ![](assets/chlimage_1-214.png)
+   ![](assets/chlimage_1-182.png)
 
 1. Enter a title and optionally, a name and click **Create**. The** ExactTarget Settings** configuration window opens.
 
-   ![](assets/chlimage_1-32.jpeg)
+   ![](assets/chlimage_1-31.jpeg)
 
 1. Enter the username, password and select an API endpoint (for example, **https://webservice.exacttarget.com/Service.asmx**).
 1. Click **Connect to ExactTarget.** When you have successfully connected you see a success dialog. Click **OK** to exit the window.
 
-   ![](assets/chlimage_1-33.jpeg)
+   ![](assets/chlimage_1-32.jpeg)
 
 1. Select an account, if available. The account is for Enterprise 2.0 customers. Click **OK**.
 
@@ -55,7 +55,7 @@ To create an ExactTarget configuration in Cloud Services:
 
    Imported data extension columns can later be used through the **Text and Personalization** component.
 
-   ![](assets/chlimage_1-34.jpeg)
+   ![](assets/chlimage_1-33.jpeg)
 
 ### Configuring ExactTarget via Tools {#configuring-exacttarget-via-tools}
 
@@ -65,7 +65,7 @@ To create an ExactTarget configuration in Tools:
 1. Select **Tools**, then **Cloud Services Configurations,** then **ExactTarget**.
 1. Click **New** to open the **Create Page **window.
 
-   ![](assets/chlimage_1-35.jpeg)
+   ![](assets/chlimage_1-34.jpeg)
 
 1. Enter the **Title** and optionally the **Name**, and click **Create**.
 1. Enter the configuration information as outlined in step 4 in the previous procedure. Follow that procedure to finish configuring ExactTarget.

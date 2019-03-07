@@ -3,10 +3,10 @@ title: Generate HTML5 preview of an XDP form
 seo-title: Generate HTML5 preview of an XDP form
 description: Preview HTML tab in LiveCycle Designer can be used to preview forms as they appear in a browser.
 seo-description: Preview HTML tab in LiveCycle Designer can be used to preview forms as they appear in a browser.
-uuid: d0c62934-c389-474f-86b9-12feac4ca32f
+uuid: bc7f625a-ed9b-43e9-a7e5-ff350d3069d9
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
-discoiquuid: 7434806d-819a-40fe-be8c-77f1257631f0
+discoiquuid: 987c3913-a72f-412e-9c8a-f310f33615a5
 index: y
 internal: n
 snippet: y

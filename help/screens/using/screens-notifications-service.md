@@ -3,13 +3,13 @@ title: AEM Screens Notifications Service
 seo-title: AEM Screens Notifications Service
 description: Follow this page to learn more about how you can monitor device activity.
 seo-description: Follow this page to learn more about how you can monitor device activity.
-uuid: bbc79833-c51e-4dcc-90ba-7afd5770481e
+uuid: aaf1748a-3d7f-4727-9bb2-e7e0a6050efa
 admitteddomains: @adobe.com;@caesars.com
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: authoring
-discoiquuid: 04d763a9-1e72-4a5d-84db-5b634c578d27
+discoiquuid: 9e3d5e41-8d09-421c-820e-4157003a3cf0
 index: y
 internal: n
 snippet: y

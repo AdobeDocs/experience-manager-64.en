@@ -3,12 +3,12 @@ title: Configuring Search Forms
 seo-title: Configuring Search Forms
 description: Learn how to configure Search Forms.
 seo-description: Learn how to configure Search Forms.
-uuid: e5cbba70-92e8-41e7-bdae-4a1a480bb054
+uuid: e1974a36-ea75-4180-aee3-114fcef17889
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: 2f4c4c69-24e7-421c-afbc-549a2c3368e3
+discoiquuid: 0af0c78c-4241-4fcf-beb0-36a8239acac3
 index: y
 internal: n
 snippet: y
@@ -30,7 +30,7 @@ You can [configure the search forms](#configuringyoursearchforms) used within va
 
 When you first access this console you can see that all the configurations have a padlock symbol. This indicates that the appropriate configuration is the default (out-of-the-box) configuration - and cannot be deleted. Once you have customized the configuration the lock will disappear - unless you [delete your customized configuration](#deletingaconfiguration), in which case the default (and the padlock indicator) will be reinstated.
 
-![](assets/chlimage_1-414.png) 
+![](assets/chlimage_1-374.png) 
 
 ## Configurations {#configurations}
 
@@ -406,7 +406,7 @@ You can add or edit fields and define/update their settings:
 1. [Open the customized configuration](#creatingopeningacustomizedconfiguration) for updating.
 1. If you want to add a new field, open the **Select Predicate** tab and drag the required predicate to the required location. For example, the **Date Range Predicate**:
 
-   ![](assets/chlimage_1-415.png)
+   ![](assets/chlimage_1-375.png)
 
 1. Depending on whether:
 
@@ -418,7 +418,7 @@ You can add or edit fields and define/update their settings:
 
    For example, the settings for the **Date Range Predicate**:
 
-   ![](assets/chlimage_1-416.png)
+   ![](assets/chlimage_1-376.png)
 
 1. Make your changes as required and confirm with **Done**.
 
@@ -430,7 +430,7 @@ You can add or edit fields and define/update their settings:
 
 1. This will display the search forms as they will be shown (fully expanded) in the Search column of the appropriate console.
 
-   ![](assets/chlimage_1-417.png)
+   ![](assets/chlimage_1-377.png)
 
 1. **Close** the preview to return and finish the configuration.
 
@@ -457,7 +457,7 @@ Deleting a customized configuration is done from the console:
 
 1. Select the required configuration (for example, **Page Editor (Paragraphs search)**) and then the **Delete** icon in the toolbar:
 
-   ![](assets/chlimage_1-418.png)
+   ![](assets/chlimage_1-378.png)
 
 1. The customized configuration will be deleted and the default reinstated (this is indicated by the reappearance of the padlock symbol in the console).
 
@@ -476,7 +476,7 @@ The following example (to search according to the template used to create a page
     * `jcr:title` - the field label to be shown in the search rail
     * `value` - the property value to be searched on
 
-   ![](assets/chlimage_1-419.png)
+   ![](assets/chlimage_1-379.png)
 
    >[!NOTE]
    >
@@ -516,12 +516,12 @@ The following example (to search according to the template used to create a page
       Select the path to where your options are held. For example:  
       `/apps/cq/gui/content/common/options/predicates/templatetype`
 
-   ![](assets/chlimage_1-420.png)
+   ![](assets/chlimage_1-380.png)
 
 1. Select **Done** to save your configuration.
 1. Navigate to the appropriate console (in this example, **Sites**) and open the **Search** rail. The newly defined search forms, together with the various options will be visible. Select the required option to see the search results:
 
-   ![](assets/chlimage_1-421.png)
+   ![](assets/chlimage_1-381.png)
 
 ## User Permissions {#user-permissions}
 

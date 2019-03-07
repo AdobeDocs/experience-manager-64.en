@@ -3,12 +3,12 @@ title: Deploying Communities
 seo-title: Deploying Communities
 description: How to deploy AEM Communities
 seo-description: How to deploy AEM Communities
-uuid: b1754529-c13a-4303-ba6f-f4faf1ed1bda
+uuid: 3319d160-575c-4a64-b2c2-8563609e1999
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 content-type: reference
 topic-tags: deploying
-discoiquuid: b7e44ad8-fe57-498f-b41c-9a4e7c978ed4
+discoiquuid: 776e9870-c015-41fb-9ef1-0376e34a7e82
 index: y
 internal: n
 snippet: y

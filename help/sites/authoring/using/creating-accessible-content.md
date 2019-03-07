@@ -3,12 +3,12 @@ title: Creating Accessible Content (WCAG 2.0 Conformance)
 seo-title: Creating Accessible Content (WCAG 2.0 Conformance)
 description: Help make web content accessible to, and usable by, persons with disabilities
 seo-description: Help make web content accessible to, and usable by, persons with disabilities
-uuid: e12dd3dc-619e-44e4-8f8d-889ca575363c
+uuid: b7e49fc7-2de3-4dfe-8b33-870868ec9fd7
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: 3bdeabcb-db66-4dd6-8b38-9a7d1dab1a19
+discoiquuid: 250c5b5c-b06f-4bc1-8022-1b562af1b9a4
 index: y
 internal: n
 snippet: y
@@ -108,7 +108,7 @@ Specific types of non-text content that require text alternatives might include:
 * Charts and graphs:  
   These typically represent numerical data. So one option for providing a text alternative might be to include a brief summary of the main trends shown in the chart or graphic. If necessary, also provide a more detailed description in text using the **Description** field in the** Advanced **image properties tab. Additionally, you could provide the source data in tabular form elsewhere in the page or site.
 
-  ![Example of a graph. Below is the best approach to providing an alternative.](assets/chlimage_1-2.jpeg)
+  ![Example of a graph. Below is the best approach to providing an alternative.](assets/chlimage_1.jpeg)
 
   To provide an alternative for this example chart, add a concise `alt` text to the image itself and then follow the image with a full text alternative.
 
@@ -420,11 +420,11 @@ You can make sure your web pages are given the appropriate structure by:
     * an appropriate **Caption**.
     * Ideally remove any default values for **Width**, **Height**, **Border**, **Cell padding**, **Cell spacing**. as these properties can be set in a global style sheet.
 
-  ![Table properties dialog.](assets/chlimage_1-232.png)
+  ![Table properties dialog.](assets/chlimage_1-205.png)
 
   You can then use the **Cell propertires** to choose whether the cell is a data or header cell and, if a header cell, whether it relates to a row or column or both:
 
-  ![Call properties dialog; setting a row (usually the first one) as a header row.](assets/chlimage_1-233.png)
+  ![Call properties dialog; setting a row (usually the first one) as a header row.](assets/chlimage_1-206.png)
 
 * **Complex Data Tables:**
 
@@ -887,7 +887,7 @@ Providing instructions to help people complete forms is a fundamental part of go
 
 In AEM a default label is added when you add a form component, such as a **Text Field**, to the page. This default title is dependent on the component type, You can add your own title in the **Title and Text** tab of the edit dialog for that field. It is important to ensure that labels help users to understand the data associated with each form component.
 
-![Title and Text tab (edit dialog); the title ‘Description’ has been added.](assets/chlimage_1-234.png)
+![Title and Text tab (edit dialog); the title ‘Description’ has been added.](assets/chlimage_1-207.png)
 
 This **Title** field must be used for field elements as it provides a label that is available to assistive technology. Simply writing a label in text beside the field is not sufficient.
 
@@ -897,13 +897,13 @@ For some form components it is also possible to visually hide labels using the *
 
 Where image buttons are used (for example, the **Image Button** component) the **Title** field in the **Title and Text** tab of the edit dialog actually provides the alt text for the image, rather than the label. So, in the example below, the image with the text `Submit` has alt text of `Submit`, added using the **Title** field in the edit dialog.
 
-![Image button with the Alt Text set in the Title field (edit dialog).](assets/chlimage_1-235.png) 
+![Image button with the Alt Text set in the Title field (edit dialog).](assets/chlimage_1-208.png) 
 
 #### Groups of Form Fields {#groups-of-form-fields}
 
 Where there is a group of related controls, such as **Radio Group**, a title may be needed for the group, as well as individual controls. When adding a set of radio buttons in AEM, the **Title** field provides this group title, while individual titles are specified as the radio buttons (**Items**) are created.
 
-![Adding items to the radio group. The group title is 'Contact me by' - defined in the Title field.](assets/chlimage_1-236.png)
+![Adding items to the radio group. The group title is 'Contact me by' - defined in the Title field.](assets/chlimage_1-209.png)
 
 However, there is no programmatic association between the group title and the radio buttons themselves. Template editors would need to wrap the title in the necessary `fieldset` and `legend` tags to create this association and this can only be done by editing the page source code. Alternatively, a system administrator can add support for these elements so that they appear in the **Field Properties** dialog (see [Adding Support for Additional HTML Elements and Attributes](../../../sites/administering/using/rte-accessible-content.md#addingsupportforadditionalhtmlelementsandattributes)).
 
@@ -913,7 +913,7 @@ If data is to be entered in a specific format, make this clear in the label text
 
 If input for a form field is mandatory, make this clear by using the word required as part of the label. AEM adds an asterisk when a field is required, but it would be ideal to include the word `required`in the label itself (in the **Title** field in the edit dialog).
 
-![Adding additional information (the word required) for screen reader users in the ‘Title’ field.](assets/chlimage_1-237.png)
+![Adding additional information (the word required) for screen reader users in the ‘Title’ field.](assets/chlimage_1-210.png)
 
 The positioning of labels is also important as it helps them to locate appropriate fields. This is of particular importance when the user is faced with a complex form. Follow the convention below:
 

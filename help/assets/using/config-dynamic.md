@@ -3,12 +3,12 @@ title: Configuring Dynamic Media - Hybrid mode
 seo-title: Configuring Dynamic Media - Hybrid mode
 description: Learn how to configure Dynamic Media - Hybrid mode.
 seo-description: Learn how to configure Dynamic Media - Hybrid mode.
-uuid: d1563d2e-51da-4550-8264-56ecd2467245
+uuid: 3ffc46f9-c902-45df-90ad-fe0d2e5bff0a
 contentOwner: Alva Ware-Bevacqui
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: c9c4e3c6-66d4-41b4-8531-9a0f8b32bc9d
+discoiquuid: ba5245a4-cd5d-4dfa-836c-3362a8060ff2
 legacypath: /content/docs/en/aem/6-0/administer/integration/dynamic-media/config-dynamic
 index: y
 internal: n
@@ -48,11 +48,11 @@ If you are a customer of Dynamic Media, you are required to use hybrid delivery 
 
 #### Hybrid publishing architecture for videos {#hybrid-publishing-architecture-for-videos}
 
-![](assets/chlimage_1-519.png) 
+![](assets/chlimage_1-506.png) 
 
 #### Hybrid publishing architecture for images {#hybrid-publishing-architecture-for-images}
 
-![](assets/chlimage_1-520.png) 
+![](assets/chlimage_1-507.png) 
 
 ## Supported Dynamic Media Configurations {#supported-dynamic-media-configurations}
 
@@ -306,7 +306,7 @@ To set up authentication:
    >
    >Remember the password that you enter. You will need to enter it again when you configure the Replication Agent later.
 
-   ![](assets/chlimage_1-521.png)
+   ![](assets/chlimage_1-508.png)
 
 1. On the **Edit User Settings For dynamic-media-replication** page, expand the **Add Private Key from KeyStore file **area and add the following (see the images that follow):
 
@@ -345,7 +345,7 @@ To configure the replication agent:
 
    The following image shows the replication agent with sample data:
 
-   ![](assets/chlimage_1-522.png)
+   ![](assets/chlimage_1-509.png)
 
 1. Tap **OK**.
 
@@ -522,7 +522,7 @@ To test your configuration:
 1. Publish the image asset. (Select the asset and tap **Quick Publish**.)
 1. Navigate to the renditions for that image by opening the image, and tapping or clicking **Renditions**.
 
-   ![](assets/chlimage_1-523.png)
+   ![](assets/chlimage_1-510.png)
 
 1. Select any dynamic rendition.
 1. Click **URL** to obtain the URL for this asset.
@@ -802,7 +802,7 @@ To optionally customize asset filters for replication:
 1. In AEM, tap or click the AEM logo to access the global navigation console and tap **Tools** &gt; **General **&gt; **CRXDE Lite**.
 1. In the left folder tree, navigate to `/etc/replication/agents.author/dynamic_media_replication/jcr:content/damRenditionFilters` to review the filters.
 
-   ![](assets/chlimage_1-524.png)
+   ![](assets/chlimage_1-511.png)
 
 1. To define the Mime Type for the filter, you can locate the Mime Type as follows:
 
@@ -810,7 +810,7 @@ To optionally customize asset filters for replication:
 
    The following graphic is an example of an asset's path to dc:format.
 
-   ![](assets/chlimage_1-525.png)
+   ![](assets/chlimage_1-512.png)
 
    Notice that the `dc:format` for the asset `Fiji Red.jpg` is `image/jpeg`.
 
@@ -847,7 +847,7 @@ To optionally customize asset filters for replication:
 
    The following graphic is an example of an asset's renditions.
 
-   ![](assets/chlimage_1-526.png)
+   ![](assets/chlimage_1-513.png)
 
    Using the example above, if you only wanted to replicate the PTIFF (Pyramid TIFF), then you would enter `+cqdam,*` which includes all the renditions that start with `cqdam`. Inthe example, that rendition is `cqdam.pyramid.tiff`.
 
@@ -1050,7 +1050,7 @@ To configure the default color profiles:
 
 1. In **Tools** &gt; **General** &gt; **CRXDE Lite**, navigate to */conf/global/settings/dam/dm/imageserver/configuration/settings *which contains the default Adobe Color Profiles.
 
-   ![](assets/chlimage_1-527.png)
+   ![](assets/chlimage_1-514.png)
 
 1. Add* *a color correction property by scrolling to the bottom of the **Properties** tab and manually entering the property name, type, and value, which are described in the following tables. After you enter the values, click **Add** and then **Save All** to save your values.
 
@@ -1058,7 +1058,7 @@ To configure the default color profiles:
 
    For example, in **Name**, add `iccprofilecmyk`, select **Type** `String`, and add `WebCoated` as a **Value**. Then click **Add** and then **Save All **to save your values.
 
-   ![](assets/chlimage_1-528.png)
+   ![](assets/chlimage_1-515.png)
 
    **Color Correction Properties Table**
 

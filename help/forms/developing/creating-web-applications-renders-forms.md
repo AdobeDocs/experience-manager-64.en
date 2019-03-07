@@ -3,13 +3,13 @@ title: Creating Web Applications thatRenders Forms
 seo-title: Creating Web Applications thatRenders Forms
 description: null
 seo-description: null
-uuid: 7b925578-372e-405c-8b66-50b1b2cd87cf
+uuid: 562136d9-9307-4cc8-9ffd-5ecac1c5cf8e
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/rendering_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: 4e0a4342-e67e-4f43-a148-ac21a5456d33
+discoiquuid: f0f364be-ffff-4627-aa84-43221b5cae05
 index: y
 internal: n
 snippet: y

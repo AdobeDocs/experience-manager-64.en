@@ -3,11 +3,11 @@ title: Document details for renderer
 seo-title: Document details for renderer
 description: Conceptual information on how renders work in AEM Forms workspace to render the various supported form and file types.
 seo-description: Conceptual information on how renders work in AEM Forms workspace to render the various supported form and file types.
-uuid: 5ac530bb-be5a-489e-9510-b9e79a3da1f0
+uuid: cbfa06cc-275d-4abb-82de-04f093394f25
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
-discoiquuid: 17bd15ff-5dcd-49ff-acbe-14a35e3de33a
+discoiquuid: d3c5ec9d-6c58-4afe-b1fb-e029d270c4bb
 index: y
 internal: n
 snippet: y

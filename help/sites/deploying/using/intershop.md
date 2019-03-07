@@ -3,12 +3,12 @@ title: Intershop
 seo-title: Intershop
 description: Learn how to deploy eCommerce with Intershop.
 seo-description: Learn how to deploy eCommerce with Intershop.
-uuid: c3d10d52-66e6-417d-88ae-49e8c774262e
+uuid: 3aa4269b-0855-4839-8569-63e351a30946
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: e-commerce
 content-type: reference
-discoiquuid: f44fb8ee-cdb0-4207-8616-9a918bab30c9
+discoiquuid: 6ff0dbfa-10bb-493a-a414-6cdf79112f85
 pagetitle: Deploying eCommerce with Intershop
 index: y
 internal: n
@@ -85,7 +85,7 @@ Configure the Intershop REST Client:
 1. Open `Intershop REST Client`.
 1. Update the properties to point to the Intershop instance.
 
-   ![](assets/chlimage_1-146.png)
+   ![](assets/chlimage_1-143.png)
 
 >[!CAUTION]
 >

@@ -3,12 +3,12 @@ title: OSGI Bundles
 seo-title: OSGI Bundles
 description: Tips for managing your OSGi bundles
 seo-description: Tips for managing your OSGi bundles
-uuid: 1ab2462b-1990-4e0e-bebe-4a06738f2bb0
+uuid: 9f668910-67fb-4c5d-b90f-34b7d745b830
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
-discoiquuid: 954a3f5b-3204-4b3b-b108-92e19d70020a
+discoiquuid: 7dcc2ed4-303f-4487-9999-0a75f53ee7fc
 index: y
 internal: n
 snippet: y

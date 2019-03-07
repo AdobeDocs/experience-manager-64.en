@@ -3,12 +3,12 @@ title: Architecture and deployment topologies for AEM Forms
 seo-title: Architecture and deployment topologies for AEM Forms
 description: Architecture details for AEM Forms and recommended topologies for new and existing AEM customers and customers upgrading from LiveCycle ES4 to AEM Forms.
 seo-description: Architecture details for AEM Forms and recommended topologies for new and existing AEM customers and customers upgrading from LiveCycle ES4 to AEM Forms.
-uuid: c819832f-723e-47cf-8272-4da125f98a2e
+uuid: 63f050c1-3d61-4a9b-b545-b185d2e8647c
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: installing
 geptopics: SG_AEMFORMS/categories/jee
-discoiquuid: 70eba65c-b9d8-4942-8d45-4a38726a9ae1
+discoiquuid: ddfdaae2-dbe5-4d88-a964-1b1468c88a5b
 index: y
 internal: n
 snippet: y

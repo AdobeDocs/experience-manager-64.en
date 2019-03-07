@@ -3,10 +3,10 @@ title: We.Finance Auto Insurance Renewal reference site walkthrough
 seo-title: We.Finance Auto Insurance Renewal reference site walkthrough
 description: null
 seo-description: null
-uuid: f709a65b-ae0a-468d-b5ba-e7f8187c9288
+uuid: fe42b88f-78d7-4c11-870a-0ad98393969f
 contentOwner: dekalra
 topic-tags: introduction
-discoiquuid: 8ecd292e-1227-4436-9779-109b8a92890d
+discoiquuid: c6a0f42e-9d97-4bea-ae4a-6e80393d62e1
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Page Templates - Static
 seo-title: Page Templates - Static
 description: A Template is used to create a Page and defines which components can be used within the selected scope
 seo-description: A Template is used to create a Page and defines which components can be used within the selected scope
-uuid: d4d48fee-8a67-4b1e-94fc-2eadc3ad54a9
+uuid: 354a35e9-3ee9-4ac9-817b-415474e298df
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
-discoiquuid: e4353211-158b-4a91-8aa4-55f86f4a6b49
+discoiquuid: 56b6af19-962a-4548-a37f-69b404a88fe1
 index: y
 internal: n
 snippet: y

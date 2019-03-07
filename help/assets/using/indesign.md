@@ -3,12 +3,12 @@ title: Integrating AEM Assets with InDesign Server
 seo-title: Integrating AEM Assets with InDesign Server
 description: Learn how to integrate AEM Assets with InDesign Server.
 seo-description: Learn how to integrate AEM Assets with InDesign Server.
-uuid: 3b6823a4-a7f0-402d-a3eb-a7a4914aecfe
+uuid: 5cf9efc7-fc9e-4968-b7f2-0c4d9168ed98
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: 115f627e-4b19-4d16-a1ef-cff208e62483
+discoiquuid: 24912aac-40e6-444a-9958-9aa46098f188
 index: y
 internal: n
 snippet: y
@@ -155,7 +155,7 @@ This creates an AEM page from the extracted elements. An extraction handler is u
 
 To customize, you can edit the **Arguments** tab of the** Page Extraction** step.
 
-![](assets/chlimage_1-294.png)
+![](assets/chlimage_1-289.png)
 
 * **Page Extraction Handler** 
   From the drop down list, select the handler that you want to use. An extraction handler operates on a specific rendition, chosen by a related `RenditionPicker` (see the `ExtractionHandler` API).  
@@ -207,7 +207,7 @@ If the InDesign server and AEM run on different hosts or either or both these ap
 1. Locate the configuration **Day CQ Link Externalizer**, and click the **Edit** icon to open it.
 1. Specify the host name and context path for the Indesign server and click **Save**.
 
-   ![](assets/chlimage_1-295.png)
+   ![](assets/chlimage_1-290.png)
 
 ### Enabling Parallel Job Processing for InDesign Server(s) {#enabling-parallel-job-processing-for-indesign-server-s}
 

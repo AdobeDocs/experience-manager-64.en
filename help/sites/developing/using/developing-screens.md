@@ -3,9 +3,9 @@ title: REDIRECT Developing Screens
 seo-title: REDIRECT Developing Screens
 description: null
 seo-description: null
-uuid: 26f4e69b-8fbf-44e9-8673-bada39d2b442
+uuid: 8de67941-3a02-4ac9-a9c6-9efa9040ad8e
 contentOwner: jsyal
-discoiquuid: f7b1d329-a4e5-44e0-b256-6e889b7f6c22
+discoiquuid: 95856d3a-4cca-4829-b3d1-1d7922ce025c
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/screens/using/developing-screens
 index: y

@@ -3,12 +3,12 @@ title: OSGi Configuration Settings
 seo-title: OSGi Configuration Settings
 description: This article details the OSGi configuration settings (listed according to bundle) that are relevant to project implementation. The list acts as a guideline and it is not exhaustive. 
 seo-description: This article details the OSGi configuration settings (listed according to bundle) that are relevant to project implementation. The list acts as a guideline and it is not exhaustive. 
-uuid: 95ad69d0-d080-486c-8f92-5095eb993252
+uuid: 5dc925b0-f9a3-40d6-9bde-b456b5f66e53
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: configuring
 content-type: reference
-discoiquuid: 2ca6f220-06b8-411c-8faa-276796a68ba6
+discoiquuid: ded4468b-092a-47d4-971d-7cb9177db2e5
 index: y
 internal: n
 snippet: y
@@ -486,7 +486,7 @@ The overall flow is as follows:
 
 The flow between the user's browser, the CDN, and AEM can be visualized as follows.
 
-![](assets/chlimage_1-121.png)
+![](assets/chlimage_1-118.png)
 
 >[!NOTE]
 >

@@ -3,12 +3,12 @@ title: Invoking AEM Forms using REST Requests
 seo-title: Invoking AEM Forms using REST Requests
 description: null
 seo-description: null
-uuid: 19ae3586-3fc5-4889-b7a0-713dc02ffdd8
+uuid: ba2e9d6b-9521-476e-adb9-3a96b2bb86b0
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: coding
-discoiquuid: db20562d-6e5f-4343-a731-da06c7e3ae60
+discoiquuid: d06b1efc-19a8-44a4-84b1-4e974b3ea597
 index: y
 internal: n
 snippet: y

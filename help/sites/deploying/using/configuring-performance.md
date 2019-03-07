@@ -3,12 +3,12 @@ title: Performance Optimization
 seo-title: Performance Optimization
 description: Learn how to configure certain aspects of AEM to optimize performance.
 seo-description: Learn how to configure certain aspects of AEM to optimize performance.
-uuid: 6f6c45fb-7393-46ec-b14c-0336721262ea
+uuid: e5036ede-e538-42ab-bad6-c71ffd8fdf7e
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: configuring
-discoiquuid: 69885324-d085-4854-92f7-055c243af36d
+discoiquuid: 0444589c-55e5-47dd-9cc0-c9449e27c57a
 index: y
 internal: n
 snippet: y

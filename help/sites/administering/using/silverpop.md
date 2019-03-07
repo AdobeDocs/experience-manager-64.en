@@ -3,12 +3,12 @@ title: Integrating with Silverpop Engage
 seo-title: Integrating with Silverpop Engage
 description: Learn how to integrate AEM with Silverpop Engage
 seo-description: Learn how to integrate AEM with Silverpop Engage
-uuid: 6a0baf89-c9ba-4d50-9dec-1a6d9c1943b7
+uuid: 498d4afd-82e2-49ad-a5e4-e1d5844aefec
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: f7756dcb-7d1d-49f3-9024-8334ada44ec3
+discoiquuid: d917373b-515f-4f26-9153-de6aa49098ca
 index: y
 internal: n
 snippet: y
@@ -60,7 +60,7 @@ To create a Silverpop configuration in Tools:
 1. Select **Tools**, then **Cloud Services Configurations,** then **Silverpop Engage**.
 1. Click **New** to open the **Create Page **window.
 
-   ![](assets/chlimage_1-45.jpeg)
+   ![](assets/chlimage_1-44.jpeg)
 
 1. Enter the **Title** and optionally the **Name**, and click **Create**.
 1. Enter the configuration information as outlined in step 4 in the previous procedure. Follow that procedure to finish configuring Silverpop.
@@ -87,7 +87,7 @@ To configure the API end points :
     
     1. **Name**: `value`, **Type**: `String`, **Value**: `https://api0.silverpop.com`
 
-   ![](assets/chlimage_1-322.png)
+   ![](assets/chlimage_1-286.png)
 
    Click on "Save All" button.
 
@@ -112,5 +112,5 @@ To configure the API end points :
 
 1. Click **Save All**. AEM is now ready to connect to Silverpop over secured end points.
 
-   ![](assets/chlimage_1-46.jpeg)
+   ![](assets/chlimage_1-45.jpeg)
 

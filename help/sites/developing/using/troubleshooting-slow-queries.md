@@ -3,12 +3,12 @@ title: Troubleshooting Slow Queries
 seo-title: Troubleshooting Slow Queries
 description: null
 seo-description: null
-uuid: 208c712c-f91f-47e4-a955-d69574a33913
+uuid: ecbbc73d-8ac4-43ae-8076-79ed6603adf1
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
-discoiquuid: 135dbd15-0948-43f7-a14b-5e5bef5e7c31
+discoiquuid: d96c07bf-3520-419a-b64a-92c1975cbc15
 index: y
 internal: n
 snippet: y

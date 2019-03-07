@@ -3,13 +3,13 @@ title: Managing AEM Projects - Further Reference
 seo-title: Managing AEM Projects - Further Reference
 description: Read these guidelines and best practices, provided for further reference, when managing your project.
 seo-description: Read these guidelines and best practices, provided for further reference, when managing your project.
-uuid: c4ea9016-dc28-45fb-be0a-8110a0f9453f
+uuid: 43a92d75-0e6c-4d46-8279-065022fef9e2
 contentOwner: Alison Heimoz
 products: SG_EXPERIENCEMANAGER/6.4/MANAGING
 topic-tags: managing
 content-type: reference
 topic-tags: introduction
-discoiquuid: 72b58e69-119d-4351-9606-1a3de4021061
+discoiquuid: 1b89b861-5c95-40cb-bdc9-1a7860c1faab
 index: y
 internal: n
 snippet: y

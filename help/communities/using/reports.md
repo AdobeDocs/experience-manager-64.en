@@ -3,12 +3,12 @@ title: Reports Console
 seo-title: Reports Console
 description: Learn how to access reports
 seo-description: Learn how to access reports
-uuid: ad112fcb-e33c-4de4-8b1d-2ded67b69971
+uuid: 89507623-2345-47cf-b889-8ec4c3a2ba86
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: a8e5851f-6894-401a-a343-5e9081d442f5
+discoiquuid: 3cbecbba-3635-4d0c-bcc0-558a70a80880
 index: y
 internal: n
 snippet: y

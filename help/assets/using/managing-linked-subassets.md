@@ -3,12 +3,12 @@ title: Managing Compound Assets
 seo-title: Managing Compound Assets
 description: Learn how to create references to AEM assets from within Indesign, Adobe Illustrator, and Photoshop files. Also learn how to use the Page Viewer feature to view individual pages of multi-page files, including PDF, INDD, PPT, PPTX, and Ai files.
 seo-description: Learn how to create references to AEM assets from within Indesign, Adobe Illustrator, and Photoshop files. Also learn how to use the Page Viewer feature to view individual pages of multi-page files, including PDF, INDD, PPT, PPTX, and Ai files.
-uuid: d8a187ae-ee9d-47c8-8f12-28bee7dbe43f
+uuid: e1796dfe-7494-4711-9a4f-d8344582ac93
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference
-discoiquuid: b642d927-c3ab-40c7-bfef-db8a14de2891
+discoiquuid: dc69d939-b830-4778-8b59-c0f35f321604
 index: y
 internal: n
 snippet: y
@@ -33,15 +33,15 @@ You can reference existing AEM assets from within an Adobe Illustrator file.
 1. Save the Illustrator file to the mounted drive, or [upload](../../assets/using/managing-assets-touch-ui.md#uploadingassets) to the AEM repository.
 1. After the worflow completes, go to the asset details page for the asset. The references to existing AEM assets are listed under **Dependencies** in the **References** column.
 
-   ![](assets/chlimage_1-263.png)
+   ![](assets/chlimage_1-258.png)
 
 1. The referenced assets that appear under **Dependencies** can also be referenced by files other than the current one. To view a list of referencing files for an asset, click the asset in the under **Dependencies**.
 
-   ![](assets/chlimage_1-264.png)
+   ![](assets/chlimage_1-259.png)
 
 1. Click the **View Properties** icon from the toolbar. In the properties page, the list of files that reference the current asset appear under the **References** column in the **Basic** tab.
 
-   ![](assets/chlimage_1-265.png)
+   ![](assets/chlimage_1-260.png)
 
 ## Add AEM assets as references in Adobe InDesign {#add-aem-assets-as-references-in-adobe-indesign}
 
@@ -71,7 +71,7 @@ This procedure is similar to [Adding AEM assets as references in Adobe Illustrat
 1. Using a WebDav client, mount AEM Assets as a drive.
 1. To create references to AEM assets in a Photoshop file, navigate to the corresponding assets in the mounted drive using the Place linked functionality in Photoshop.
 
-   ![](assets/chlimage_1-266.png)
+   ![](assets/chlimage_1-261.png)
 
 1. Save in Photoshop file to the mounted drive or or [upload](../../assets/using/managing-assets-touch-ui.md#uploadingassets) to the AEM repository.
 1. After the worflow completes, the references to existing AEM assets are listed in the asset details page.
@@ -93,33 +93,33 @@ You can browse through individual pages of a file from the asset page. You can u
 1. Navigate to the folder in AEM Assets that contains the multi-page file.
 1. Click the asset to view its asset page.
 
-   ![](assets/chlimage_1-267.png)
+   ![](assets/chlimage_1-262.png)
 
 1. Click the Global Nav icon, and then choose **Pages** from the menu.
 
-   ![](assets/chlimage_1-268.png)
+   ![](assets/chlimage_1-263.png)
 
 1. Click the left or right arrows below the image to navigate to individual pages of the file.
 
-   ![](assets/chlimage_1-269.png)
+   ![](assets/chlimage_1-264.png)
 
 1. To annotate a page, click the **Annotate **icon from the toolbar and add a comment.
 
-   ![](assets/chlimage_1-270.png)
+   ![](assets/chlimage_1-265.png)
 
 1. To download the file, click the **Download **icon.
 
-   ![](assets/chlimage_1-271.png)
+   ![](assets/chlimage_1-266.png)
 
 1. To view all pages of the file simultaneously, click the **Page Overview** icon.
 
-   ![](assets/chlimage_1-272.png)
+   ![](assets/chlimage_1-267.png)
 
 1. To view the activity stream for the file, including annotations and downloads, click the Global Nav ico and then choose **Timeline** from the menu.
 
-   ![](assets/chlimage_1-273.png)
+   ![](assets/chlimage_1-268.png)
 
 1. To view and edit the metadata properties of the page, click the **View Properties **icon from the toolbar.
 
-   ![](assets/chlimage_1-274.png)
+   ![](assets/chlimage_1-269.png)
 

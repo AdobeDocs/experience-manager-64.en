@@ -3,12 +3,12 @@ title: Implementing Chrome OS Player
 seo-title: Implementing Chrome OS Player
 description: Follow  this page to learn about the implementation of the Chrome OS Player using the Chrome Management Console.  
 seo-description: Follow  this page to learn about the implementation of the Chrome OS Player using the Chrome Management Console.  
-uuid: 242ff554-1dfc-4962-bcae-f824ddf52736
+uuid: ab2fda9f-0ca2-4bb0-8aed-7ceaa053f4d1
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: administering
-discoiquuid: 8adf8adf-941d-4fe8-a5aa-a76700e3e00f
+discoiquuid: 0c196134-31d2-40b3-be90-7702e03b25b5
 index: y
 internal: n
 snippet: y

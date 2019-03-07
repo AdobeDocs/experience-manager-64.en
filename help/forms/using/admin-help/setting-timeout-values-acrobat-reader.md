@@ -3,12 +3,12 @@ title: Setting timeout values for use with Acrobat Reader DC extensions
 seo-title: Setting timeout values for use with Acrobat Reader DC extensions 
 description: Learn how to set timeout values for use with Acrobat Reader DC extensions.
 seo-description: Learn how to set timeout values for use with Acrobat Reader DC extensions.
-uuid: c573b3d3-550a-442b-9237-302572713d3f
+uuid: 7656ed08-bd38-4cea-a3e7-3c67ca409798
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_acrobat_reader_dc_extensions
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 68db168a-cd64-44da-8f89-fd4d0568595a
+discoiquuid: 6d7a12a3-9f34-4af5-b07e-7badc622c5bc
 index: y
 internal: n
 snippet: y

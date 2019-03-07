@@ -3,12 +3,12 @@ title: Deploying and Maintaining
 seo-title: Deploying and Maintaining
 description: Learn how to get started with the AEM installation.
 seo-description: Learn how to get started with the AEM installation.
-uuid: fc5cfd9c-4b07-4dee-84cb-77c322c3ac77
+uuid: 217fcb58-bd78-4184-a249-911159ba4eae
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
-discoiquuid: aa4b633c-1a39-414e-b3a8-1bc4dda90e25
+discoiquuid: e4b93683-ac8b-4cf1-8863-083787385eb4
 index: y
 internal: n
 snippet: y

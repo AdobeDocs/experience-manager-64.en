@@ -3,8 +3,8 @@ title: Review and correct converted forms
 seo-title: Review and correct converted forms
 description: Review and correct the adaptive forms converted by the Automated Forms Conversion service.
 seo-description: Review and correct the adaptive forms converted by the Automated Forms Conversion service
-uuid: 1b77556f-9d04-43b5-9c4a-7c36d479e002
-discoiquuid: f7611f65-f12f-4440-875d-eb97920f061b
+uuid: a971d4eb-adf6-4d0d-b7a1-5e980b0028eb
+discoiquuid: 36578957-9394-4034-b0b5-fcbef1e89b2b
 index: y
 internal: n
 snippet: y

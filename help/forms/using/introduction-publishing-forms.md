@@ -3,11 +3,11 @@ title: Introduction to publishing forms on a portal
 seo-title: Introduction to publishing forms on a portal
 description: AEM Forms provides with components that you can use to build your forms portal. This articles introduces you to the available forms portal components.
 seo-description: AEM Forms provides with components that you can use to build your forms portal. This articles introduces you to the available forms portal components.
-uuid: 3392a228-9901-4c4d-9b8b-47bb8330d451
+uuid: c15aa081-1589-48ca-9260-824ae5eb3fb1
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: publish
-discoiquuid: 2163a61c-70bc-4439-994f-5e857879ad95
+discoiquuid: d1b77a9c-276d-4181-86bb-ff195f705bce
 index: y
 internal: n
 snippet: y

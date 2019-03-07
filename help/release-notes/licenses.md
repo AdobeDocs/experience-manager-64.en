@@ -3,12 +3,12 @@ title: Copyright, Licenses and Disclaimers
 seo-title: Copyright, Licenses and Disclaimers
 description: Release notes specific to Copyright, Licenses and Disclaimers for Adobe Experience Manager 6.3.
 seo-description: Release notes specific to Copyright, Licenses and Disclaimers for Adobe Experience Manager 6.3.
-uuid: 2d4ddaff-0c0b-4dec-bdc3-cd84d70088ec
+uuid: de04c288-7965-4558-b019-6009bef26038
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4
 topic-tags: licenses
 content-type: reference
-discoiquuid: a83ee92b-05f8-4ed6-a9de-e744a86ad28a
+discoiquuid: 92802d34-5f15-4950-8c12-c0483da167b7
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: AEM with MongoDB
 seo-title: AEM with MongoDB
 description: Learn about the tasks and considerations needed for a successful AEM with MongoDB deployment. 
 seo-description: Learn about the tasks and considerations needed for a successful AEM with MongoDB deployment. 
-uuid: 56f58114-c560-47c8-b7ec-ebd344facbe3
+uuid: f8f9941f-a511-444b-b387-06653902894f
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
-discoiquuid: 263394a6-aa8f-40b8-a9cc-61ee4f46e309
+discoiquuid: ef4215a0-b032-424b-9a5b-ae2ce60b80c4
 index: y
 internal: n
 snippet: y

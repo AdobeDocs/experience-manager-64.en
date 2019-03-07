@@ -3,12 +3,12 @@ title: Create the Components
 seo-title: Create the Components
 description: Create the Comments component
 seo-description: Create the Comments component
-uuid: 031e216d-3a86-4af7-ba99-df6fef7b7b35
+uuid: ac2f56c8-552e-44e3-b6dd-3939073cad53
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: c849c23c-2b36-4e19-93fb-c0a256c324c7
+discoiquuid: d180cd65-2785-42a6-8440-d2438dd1eb0f
 index: y
 internal: n
 snippet: y

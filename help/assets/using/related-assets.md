@@ -3,12 +3,12 @@ title: Related Assets
 seo-title: Related Assets
 description: Learn how to relate assets that share certain common attributes. You can also use the feature to create source/derived relationships between assets.
 seo-description: Learn how to relate assets that share certain common attributes. You can also use the feature to create source/derived relationships between assets.
-uuid: 7070caf0-19b0-4caf-b9e7-70c33f0474e0
+uuid: 71dae67d-615a-432e-bf77-e7aae057c5e5
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference
-discoiquuid: bc585de0-deb4-41c0-83ce-ba9fca320b08
+discoiquuid: a7b3da57-380e-42fb-a7ad-bf11da948e3a
 index: y
 internal: n
 snippet: y
@@ -24,19 +24,19 @@ This way, you have the flexibility to share a low resolution file (for example P
 
 1. From the Assets interface, open the properties page for an asset you want to relate. 
 
-   ![](assets/chlimage_1-277.png)
+   ![](assets/chlimage_1-272.png)
 
    Alternatively, select the asset from the list view.
 
-   ![](assets/chlimage_1-278.png)
+   ![](assets/chlimage_1-273.png)
 
    You can also select the asset from a collection.
 
-   ![](assets/chlimage_1-279.png)
+   ![](assets/chlimage_1-274.png)
 
 1. To relate another asset with the asset you selected, click/tap the **Relate** icon from the toolbar.
 
-   ![](assets/chlimage_1-280.png)
+   ![](assets/chlimage_1-275.png)
 
 1. Do one of the following:
 
@@ -44,24 +44,24 @@ This way, you have the flexibility to share a low resolution file (for example P
     * To relate a derived file, select **Derived** from the list.
     * To create a two-way relationship between the assets, select **Others** from the list.
 
-   ![](assets/chlimage_1-281.png)
+   ![](assets/chlimage_1-276.png)
 
 1. From the **Select Asset** screen, navigate to the location of the asset you want to relate, and select it.
 
-   ![](assets/chlimage_1-282.png)
+   ![](assets/chlimage_1-277.png)
 
 1. Click/tap the **Confirm** icon.
 1. Click/tap **OK** to close the dialog. Depending on your choice of relationship in step 3, the related asset is listed under under an appropriate category in the **Related** section. For example, if the asset you related is the source file for the current asset, it is listed under **Source**.
 
-   ![](assets/chlimage_1-283.png)
+   ![](assets/chlimage_1-278.png)
 
 1. To unrelate an asset, click/tap the **Unrelate** icon from the toolbar.
 
-   ![](assets/chlimage_1-284.png)
+   ![](assets/chlimage_1-279.png)
 
 1. Select the asset(s) you want to unrelate from the **Remove Relations** dialog, and the click/tap **Unrelate**. 
 
-   ![](assets/chlimage_1-285.png)
+   ![](assets/chlimage_1-280.png)
 
 1. Click/Tap **OK** to close the dialog. The assets for which you removed relations are deleted from the list of related assets under the **Related** section.
 
@@ -69,34 +69,34 @@ This way, you have the flexibility to share a low resolution file (for example P
 
 Creating source/derived relationships between assets using the Related Assets feature is also helpful in translation workflows. When you run a translation workflow on a derived asset, AEM Assets automatically fetches any asset that the source file references and includes it for translation. This way, the asset referenced by the source asset is translated along with the source and derived assets. For example, consider a scenario where your English language copy includes a derived asset and its source file as shown.
 
-![](assets/chlimage_1-286.png)
+![](assets/chlimage_1-281.png)
 
 If the source file is related to another asset, AEM Assets fetches the refenced asset and includes it for translation.
 
-![](assets/chlimage_1-287.png)
+![](assets/chlimage_1-282.png)
 
 1. Translate the assets in the source folder to a target language by following the steps in [Create a new translation project](../../assets/using/translation-projects.md#create-a-new-translation-project). For example, in this case, translate your assets to French.
 1. From the Projects page, open the translation folder.
 
-   ![](assets/chlimage_1-288.png)
+   ![](assets/chlimage_1-283.png)
 
 1. Click/Tap the project tile to open the details page.
 
-   ![](assets/chlimage_1-289.png)
+   ![](assets/chlimage_1-284.png)
 
 1. Click/tap the ellipses below the Translation Job card to view the translation status. 
 
-   ![](assets/chlimage_1-290.png)
+   ![](assets/chlimage_1-285.png)
 
 1. Select the asset and then click/tap **Reveal in Assets** from the toolbar to view the translation status for the asset.
 
-   ![](assets/chlimage_1-291.png)
+   ![](assets/chlimage_1-286.png)
 
 1. To verify whether the assets related to the source have been translated, click/tap the source asset.
 
-   ![](assets/chlimage_1-292.png)
+   ![](assets/chlimage_1-287.png)
 
 1. Select the asset that is related to the source, and then click/tap **Reveal in Assets**. The translated related asset is displayed.
 
-   ![](assets/chlimage_1-293.png)
+   ![](assets/chlimage_1-288.png)
 

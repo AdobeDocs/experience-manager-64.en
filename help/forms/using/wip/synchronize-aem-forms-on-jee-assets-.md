@@ -4,10 +4,10 @@ seo-title: DO NOT PUBLISH - Synchronize AEM Forms on JEE assets
 description: Learn how to synchronize AEM Forms on JEE Assets.
 seo-description: Learn how to synchronize AEM Forms on JEE Assets.
 page-status-flag: never-activated
-uuid: 7e098636-fe72-4eb3-b51e-2082e7f11272
+uuid: f3f0b8e5-b2af-41e7-8f16-470a397ad025
 contentOwner: khsingh
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: e081b664-912b-4e5b-8158-6dcce373d722
+discoiquuid: df370069-ed9d-44ae-ad16-c14686952de1
 index: y
 internal: n
 snippet: y

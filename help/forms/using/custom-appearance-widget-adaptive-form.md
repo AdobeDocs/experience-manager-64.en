@@ -3,11 +3,11 @@ title: Create custom appearances for adaptive form fields
 seo-title: Create custom appearances for adaptive form fields
 description: Customize appearance of out-of-the-box components in Adaptive Forms. 
 seo-description: Customize appearance of out-of-the-box components in Adaptive Forms. 
-uuid: 072afdd9-cd93-470c-8f13-d2d651a6c6fa
+uuid: a7184716-e059-4f47-809e-dc5bed111f92
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: customization
-discoiquuid: 3d1f938c-ba4a-402a-b893-d29e12d200fe
+discoiquuid: 7a058e7c-eadb-4ec9-92f8-84b7553be4ae
 index: y
 internal: n
 snippet: y

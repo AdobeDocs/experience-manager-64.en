@@ -3,11 +3,11 @@ title: Dynamic Media Repository Restructuring in AEM 6.4
 seo-title: Dynamic Media Repository Restructuring in AEM 6.4
 description: Learn how to make the necessary changes in order to migrate to the new repository structure in AEM 6.4 for Dynamic Media.
 seo-description: Learn how to make the necessary changes in order to migrate to the new repository structure in AEM 6.4 for Dynamic Media.
-uuid: 7e7a7f82-c31f-4aa8-a136-ae70a960e481
+uuid: b2e317a5-4333-4aad-98c7-18ea46b261a7
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: repo_restructuring
-discoiquuid: 1809aa69-aeb6-44e5-93a1-f8f554c53349
+discoiquuid: 048d3f95-b48d-4da1-8bd2-c279476beb72
 index: y
 internal: n
 snippet: y

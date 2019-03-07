@@ -3,12 +3,12 @@ title: Managing Video Assets
 seo-title: Managing Video Assets
 description: Learn how to upload, preview, annotate, and publish video assets.
 seo-description: Learn how to upload, preview, annotate, and publish video assets.
-uuid: f74ae3b9-b886-4eb1-95c6-423f3c5e8904
+uuid: 9076e3ba-54f3-4a24-97c9-979cb2d0a2f6
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference
-discoiquuid: 5aa8c8d2-2ba9-4fde-8dbd-6f4b368bfd16
+discoiquuid: e4791e24-2cd6-47a2-aaaf-a4e7f2a1bfb3
 index: y
 internal: n
 snippet: y
@@ -32,7 +32,7 @@ Adobe Experience Manager Assets generates previews for video assets with the ext
 1. To upload the asset, click or tap **Create** from the toolbar and then choose **Files**. Alternatively, drop it directly in the assets area. See [Uploading assets](../../assets/using/managing-assets-touch-ui.md#uploadingassets) for details around the upload operation.
 1. To preview a video in the Card view, click the **Play** button on the video asset.
 
-   ![](assets/chlimage_1-206.png)
+   ![](assets/chlimage_1-201.png)
 
    You can pause or play video in the Card view only. The Play/Pause button is not available in the list view.
 
@@ -40,7 +40,7 @@ Adobe Experience Manager Assets generates previews for video assets with the ext
 
    The video plays in the native video player of the browser. You can play, pause, control the volume, and zoom the video to full screen.
 
-   ![](assets/chlimage_1-207.png)
+   ![](assets/chlimage_1-202.png)
 
 ## Configuration to upload video assets that are larger than 2 GB {#configuration-to-upload-video-assets-that-are-larger-than-gb}
 
@@ -60,7 +60,7 @@ Perform the following steps to configure a higher file size limit (for example 3
 1. From the toolbar, tap the **Overlay Node…** button. Alternatively, select **Overlay Node...** from the context menu.
 1. In the **Overlay Node** dialog, tap **OK**.
 
-   ![](assets/chlimage_1-208.png)
+   ![](assets/chlimage_1-203.png)
 
 1. Refresh the browser. The overlay node */jcr_root/apps/dam/gui/content/assets/jcr:content/actions/selection/create/items/fileupload* is already selected in the directory window on the left.
 1. In the **Properties** tab, enter the appropriate value in bytes to increase the size limit to the desired size. For example, enter the following value to increase the size limit to 30GB:
@@ -93,15 +93,15 @@ See [Publishing Assets](../../assets/using/publishing-dynamicmedia-assets.md).
 
    While annotating, you can draw on the canvas and include a comment with the drawing. Comments are automatically saved in Adobe Experience Manager Assets.
 
-   ![](assets/chlimage_1-209.png)
+   ![](assets/chlimage_1-204.png)
 
    To exit the annotation wizard, click **Close**.
 
 1. To jump to a specific point in the video, specify the time in seconds in the **text** field and click **Jump**. For example, to skip the first 10 seconds of video, enter **20** in the **text** field.
 
-   ![](assets/chlimage_1-210.png)
+   ![](assets/chlimage_1-205.png)
 
 1. Cick an annotation to view it in the timeline. Click **Delete** to delete the annotation from the timeline.
 
-   ![](assets/chlimage_1-211.png)
+   ![](assets/chlimage_1-206.png)
 

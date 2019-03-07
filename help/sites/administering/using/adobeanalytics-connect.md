@@ -3,12 +3,12 @@ title: Connecting to Adobe Analytics and Creating Frameworks
 seo-title: Connecting to Adobe Analytics and Creating Frameworks
 description: Learn about connecting AEM to SiteCatalyst and creating frameworks.
 seo-description: Learn about connecting AEM to SiteCatalyst and creating frameworks.
-uuid: 6676f4c7-29a0-4eb6-a149-3d765cf3ce97
+uuid: 81e2f4ab-e25c-4ff5-8de3-5dc49592a542
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: ca4888ec-8b05-4ff5-8d9c-3031173f03c4
+discoiquuid: 3426a1e0-12bf-4b4f-a033-69b8943420b5
 index: y
 internal: n
 snippet: y
@@ -38,7 +38,7 @@ The Adobe Analytics account needs to:
 >
 >Providing **Administrator** privileges (within Adobe Analytics) is not enough to allow a user to connect from AEM to Adobe Analytics. The account must also have **Web Service Access** privileges.
 
-![](assets/chlimage_1-356.png)
+![](assets/chlimage_1-316.png)
 
 Before proceeding, ensure your credentials allow you to log in to Adobe Analytics. Via either:
 

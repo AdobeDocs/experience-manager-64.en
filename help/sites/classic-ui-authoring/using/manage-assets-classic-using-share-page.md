@@ -3,12 +3,12 @@ title: Using Asset Share Pages
 seo-title: Using Asset Share Pages
 description: Asset Share is a web application that you use to search for assets using queries and predicates, browse and select assets using lenses, and perform actions on selected lenses. 
 seo-description: Asset Share is a web application that you use to search for assets using queries and predicates, browse and select assets using lenses, and perform actions on selected lenses. 
-uuid: c14bd8c7-376d-46eb-bf2e-1c30e30e2359
+uuid: b67f4e92-4b4f-4c36-9065-804204cb1da0
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: authoring
 content-type: reference
-discoiquuid: 75bd9260-c354-4d6b-bd31-301aab75b901
+discoiquuid: 9ec7827a-3341-41a0-a114-54252e956521
 legacypath: /content/docs/en/aem/6-2/author/assets/using-asset-share-pages
 index: y
 internal: n

@@ -3,12 +3,12 @@ title: Converting Between File Formatsand PDF
 seo-title: Converting Between File Formatsand PDF
 description: null
 seo-description: null
-uuid: b043a226-063c-4686-b543-aad154c8fe74
+uuid: 6e36cd05-8f23-472e-8e06-6fb60f6c3b46
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: 74fa74c5-b1ed-4b46-a844-e983c635a8ba
+discoiquuid: f183f617-79b3-4604-90c0-b56371f50571
 index: y
 internal: n
 snippet: y

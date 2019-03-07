@@ -3,12 +3,12 @@ title: Enabling JSON Export for a Component
 seo-title: Enabling JSON Export for a Component
 description: Components can be adapted to generate JSON export of their content based on a modeler framework.
 seo-description: Components can be adapted to generate JSON export of their content based on a modeler framework.
-uuid: 0110f498-ab1f-4e8a-bada-aff82294c3ef
+uuid: c8dd638b-8934-4fd3-a7dc-45b24d3f9567
 contentOwner: User
 content-type: reference
 topic-tags: components
 products: SG_EXPERIENCEMANAGER/6.4/SITES
-discoiquuid: 02afada3-2a60-4b7f-91be-8570a09ff2b2
+discoiquuid: 1f263600-e2ad-47d2-8df9-0fe0dde25558
 index: y
 internal: n
 snippet: y

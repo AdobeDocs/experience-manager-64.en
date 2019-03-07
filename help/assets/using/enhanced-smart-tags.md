@@ -3,11 +3,11 @@ title: Enhanced Smart Tags
 seo-title: Enhanced Smart Tags
 description: null
 seo-description: null
-uuid: f6d81fe6-8972-4ba1-9cdb-01cc10d8f3b9
+uuid: 14cc709f-08cc-427b-afbd-c407d26c25e9
 contentOwner: cmajumda
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: authoring
-discoiquuid: af3a9454-3035-40f0-a4d1-280542fe624e
+discoiquuid: f118d2c6-edb4-4992-bb75-66dde85dcad0
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Communities Consoles
 seo-title: Communities Consoles
 description: Community Consoles explained
 seo-description: Community Consoles explained
-uuid: c1bb1e51-1bca-4efa-9f7d-fff7bc823e5a
+uuid: 08075e0a-2f5a-43ba-89a9-d570ff146d54
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 1eee1ed4-5d9e-4b01-b9e7-db4f29b1ccd4
+discoiquuid: acadf6b6-5560-4a26-a162-49ef0bd3f72f
 index: y
 internal: n
 snippet: y

@@ -3,9 +3,9 @@ title: Use custom email templates in an Assign Task step
 seo-title: Use custom email templates in an Assign Task step
 description: Custom email templates for forms workflow email notifications 
 seo-description: Custom email templates for forms workflow email notifications 
-uuid: 13d5d934-589b-4d6c-89ca-eb76b5698d57
+uuid: e33965c8-7acf-4fad-bc71-17feef24ba3f
 topic-tags: publish
-discoiquuid: afff6b36-5f2a-49d6-b445-c12cdb8c90db
+discoiquuid: 3447d568-1647-4a3a-8913-727851a72267
 index: y
 internal: n
 snippet: y

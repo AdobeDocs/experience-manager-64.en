@@ -3,11 +3,11 @@ title: Supported Platforms for AEM Forms on JEE
 seo-title: Supported Platforms for AEM Forms on JEE
 description: List of infrastructure components required and supported for installing AEM Forms on JEE
 seo-description: List of infrastructure components required and supported for installing AEM Forms on JEE
-uuid: 4bd8a855-c939-4d7b-aa1f-c9ec60d9eac1
+uuid: 8af93141-a718-43f1-bae8-4a88e20d0e6c
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 geptopics: SG_AEMFORMS/categories/jee
-discoiquuid: 651cea6d-e37c-41d0-b745-17e549523eb2
+discoiquuid: 8da81a52-8ded-43ed-98d3-1136f3969cfa
 index: y
 internal: n
 snippet: y
@@ -148,8 +148,8 @@ Adobe Experience Manager Forms requires a Java Virtual Machine to run, which is 
   <tr> 
    <td><p><strong>Platform</strong></p> </td> 
    <td><p><strong> Description</strong></p> </td> 
-   <td><p><strong>Support Level AEM 6.3</strong></p> </td> 
-   <td><p><strong>Support Level AEM Forms 6.3 on JEE</strong></p> </td> 
+   <td><p><strong>Support Level AEM 6.4</strong></p> </td> 
+   <td><p><strong>Support Level AEM Forms 6.4 on JEE</strong></p> </td> 
   </tr> 
   <tr> 
    <td>IBM DB2 11.1</td> 
@@ -772,6 +772,10 @@ AEM Forms app is available on the following platforms:
   </tr> 
  </tbody> 
 </table>
+
+>[!NOTE]
+>
+>Adobe will [stop updating and distributing the Flash Player at the end of 2020](https://theblog.adobe.com/adobe-flash-update/).
 
 ### Adobe Document Security Extension for Microsoft Office {#adobe-rights-management-extension-for-microsoft-office}
 

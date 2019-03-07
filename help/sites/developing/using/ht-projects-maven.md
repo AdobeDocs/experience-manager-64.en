@@ -3,12 +3,12 @@ title: How to Build AEM Projects using Apache Maven
 seo-title: How to Build AEM Projects using Apache Maven
 description: This document describes how to set up an AEM project based on Apache Maven
 seo-description: This document describes how to set up an AEM project based on Apache Maven
-uuid: 13966a41-ac82-4f17-bd5d-ce940ff888df
+uuid: c88574b2-5f55-489a-b305-b9658858e1f1
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: development-tools
 content-type: reference
-discoiquuid: 74515780-92f8-4ae4-bc32-586aedcd9107
+discoiquuid: 1012e89d-79b5-4475-822f-1195cb7e1f77
 index: y
 internal: n
 snippet: y

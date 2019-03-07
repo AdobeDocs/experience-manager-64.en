@@ -3,12 +3,12 @@ title: Search
 seo-title: Search
 description: Find your content faster with comprehensive search
 seo-description: Find your content faster with comprehensive search
-uuid: 0814ad83-bcf2-4b6b-9e2f-8223247be8ef
+uuid: 7034f2ca-5c4a-4ca5-b0dd-da81ce5672c8
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
-discoiquuid: 547810f1-469a-401b-8305-23084ff2484f
+discoiquuid: f907f65e-fe1c-4064-8537-8f8c92f832fa
 index: y
 internal: n
 snippet: y

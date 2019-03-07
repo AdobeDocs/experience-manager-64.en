@@ -3,12 +3,12 @@ title: Managing Subscriptions
 seo-title: Managing Subscriptions
 description: Users can be asked to subscribe to Email Service Provider's mailing lists with the help of the Form component used on an AEM web page. To prepare an AEM page with a sign-up form for subscription to your e-mail service mailing lists, you must apply the corresponding service configuration to the AEM page that the potential subscriber will visit.
 seo-description: Users can be asked to subscribe to Email Service Provider's mailing lists with the help of the Form component used on an AEM web page. To prepare an AEM page with a sign-up form for subscription to your e-mail service mailing lists, you must apply the corresponding service configuration to the AEM page that the potential subscriber will visit.
-uuid: 0c6b3903-c4ec-46f8-9f53-39af942a306c
+uuid: f8507cf6-272b-491e-b6c7-17b5ff7ab3d7
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: f0722750-3dc2-4a97-89a1-97ed5a95321b
+discoiquuid: 6f96841c-0253-4268-8de9-a1f9857ee563
 index: y
 internal: n
 snippet: y

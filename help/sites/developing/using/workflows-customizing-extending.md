@@ -3,12 +3,12 @@ title: Extending Workflow Functionality
 seo-title: Extending Workflow Functionality
 description: null
 seo-description: null
-uuid: 0077e478-a700-422d-ac88-9193943076a6
+uuid: bcfef8f3-a579-4b76-9590-89de555c5924
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
-discoiquuid: 7638c2af-bae5-4658-9c10-bfb239899ebb
+discoiquuid: 9c40210b-f6c8-4db4-96cb-c89db7e5ec0c
 index: y
 internal: n
 snippet: y

@@ -3,9 +3,9 @@ title: Smart Content Service Training Guidelines
 seo-title: Smart Content Service Training Guidelines
 description: null
 seo-description: null
-uuid: 17790eed-89a0-4f0b-9928-88a98549430e
+uuid: 137ab4e6-a31b-4f8f-a324-b9f74cdc8e9f
 contentOwner: cmajumda
-discoiquuid: 52b13921-1d20-4eaf-a849-799204bbec51
+discoiquuid: 181881e0-9989-4238-8689-9161b0a480a4
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Best Practices for Performance Testing
 seo-title: Best Practices for Performance Testing
 description: This article outlines the overall strategies and methodologies used for performance testing as well as some of the tools that are available to assist in the process.
 seo-description: This article outlines the overall strategies and methodologies used for performance testing as well as some of the tools that are available to assist in the process.
-uuid: a3edccf6-729c-4765-95e3-5b018340fcf1
+uuid: f942f7e6-549b-4e15-97eb-58484e777f57
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
-discoiquuid: 19d617dd-494c-4f62-b9bd-07259c0c7811
+discoiquuid: 71577b5f-6894-4476-986c-2cc4a5c23506
 index: y
 internal: n
 snippet: y

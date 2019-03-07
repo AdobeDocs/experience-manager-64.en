@@ -3,12 +3,12 @@ title: "Reusing Content: Multi Site Manager and Live Copy"
 seo-title: "Reusing Content: Multi Site Manager and Live Copy"
 description: Learn about reusing content with Live Copies and the Multi Site Manager.
 seo-description: Learn about reusing content with Live Copies and the Multi Site Manager.
-uuid: ad28817c-087f-4021-8fa1-dc7a047c88d5
+uuid: 7b18b42f-f321-4066-a2b0-f268a0a0b690
 contentOwner: Alison Heimoz
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features
 content-type: reference
-discoiquuid: 3d3c5efd-88b8-4b5d-822d-bcb258abf8ff
+discoiquuid: bc032c13-6bda-434b-96b3-497cf762f4c6
 index: y
 internal: n
 snippet: y
@@ -309,7 +309,7 @@ The basic form of live copy has:
 
 * Changes can be [synchronized](../../../sites/administering/using/msm-livecopy.md#synchronizingyourlivecopy) according to requirements.
 
-![](assets/chlimage_1-407.png) 
+![](assets/chlimage_1-367.png) 
 
 #### Live Copy with non-Live-Copy pages {#live-copy-with-non-live-copy-pages}
 
@@ -318,7 +318,7 @@ When you create a live copy in AEM you can see and navigate through the live cop
 * Such resources have no live relationship to the source/blueprint pages and are not synchronized. 
 * Scenarios can occur that MSM handles as special cases. For example, when you (or a process) create a page with the same position and name in both the source/blueprint and live copy branches. For such situations see [MSM Rollout Conflicts](../../../sites/administering/using/msm-rollout-conflicts.md) for more information.
 
-![](assets/chlimage_1-408.png) 
+![](assets/chlimage_1-368.png) 
 
 #### Nested Live Copies {#nested-live-copies}
 
@@ -328,7 +328,7 @@ When you (or a process) create a [new page within an existing live copy](#liveco
 * Any links between the sources will be rewritten within the live copies.  
   For example, links from the second to the first blueprint will be rewritten as links from the nested/second live copy to the first live copy.
 
-![](assets/chlimage_1-409.png)
+![](assets/chlimage_1-369.png)
 
 >[!NOTE]
 >
@@ -368,13 +368,13 @@ A rollout is the central MSM action that synchronizes live copies with their sou
 
   **The Rollout** command is available on a blueprint page that is referenced by a blueprint configuration.
 
-  ![](assets/chlimage_1-410.png)
+  ![](assets/chlimage_1-370.png)
 
 * When authoring a live copy page you can use the [Synchronize](../../../sites/administering/using/msm-livecopy.md#synchronizingalivecopy) command to pull changes from the source to the live copy.
 
   The **Synchronize** command is always available on the live copy page (regardless of whether the source/blueprint page is encompassed by a blueprint configuration).
 
-  ![](assets/chlimage_1-411.png)
+  ![](assets/chlimage_1-371.png)
 
 ### Rollout Configurations {#rollout-configurations}
 

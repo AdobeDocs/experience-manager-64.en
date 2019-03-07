@@ -3,12 +3,12 @@ title: Developing the Bulk Editor
 seo-title: Developing the Bulk Editor
 description: Tagging allows content to be categorized and organized
 seo-description: Tagging allows content to be categorized and organized
-uuid: 296f5a17-1a33-4080-bb61-075a1e72c22e
+uuid: 86f41d0e-11e5-49e0-a298-c7877f82bdad
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
-discoiquuid: 47c44b97-5987-4cf6-b2e9-20f71e5bc701
+discoiquuid: 7ee91ad2-6b88-4746-84a3-b4fbe8edcaaa
 index: y
 internal: n
 snippet: y

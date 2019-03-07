@@ -3,11 +3,11 @@ title: Transaction Reports Billable APIs
 seo-title: Transaction Reports Billable APIs
 description: List of all the APIs that are accounted as transactions
 seo-description: List of all the APIs that are accounted as transactions
-uuid: 7808296b-9932-4344-b00b-222637566442
+uuid: 5276f86b-bbbb-462d-8f6a-0a04025bed9c
 contentOwner: khsingh
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-manager
-discoiquuid: d77321d7-b293-4986-892c-21c77645ef87
+discoiquuid: cd1417b2-f811-486f-948e-8b9c8e2d37d1
 index: y
 internal: n
 snippet: y
@@ -315,6 +315,25 @@ Billing APIs does not account for the number of pages, the length of a document 
    <td>Converts a PDF document into an XDP file. In order for a PDF document to be successfully converted to an XDP file, the PDF document must contain an XFA stream in the AcroForm dictionary.</td> 
    <td>Documents Processed</td> 
    <td> </td> 
+  </tr>
+ </tbody>
+</table>
+
+### Doc Assurance Service {#doc-assurance-service}
+
+<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+ <tbody>
+  <tr>
+   <td valign="top" width="121"><p>API</p> </td> 
+   <td>Description</td> 
+   <td>Transaction report category</td> 
+   <td>Additional Information</td> 
+  </tr>
+  <tr>
+   <td><a href="https://helpx.adobe.com/experience-manager/6-4/forms/javadocs/com/adobe/fd/docassurance/client/api/DocAssuranceService.html#secureDocument-com.adobe.aemfd.docmanager.Document-com.adobe.fd.docassurance.client.api.EncryptionOptions-com.adobe.fd.docassurance.client.api.SignatureOptions-com.adobe.fd.docassurance.client.api.ReaderExtensionOptions-com.adobe.fd.signatures.pdf.inputs.UnlockOptions-">secureDocument</a></td> 
+   <td>The API enables you to secure your document. You can use the API to sign, certify, reader extend, or encrypt a PDF document. </td> 
+   <td>Documents Processed</td> 
+   <td>Only sign and certify operation of the <a href="https://helpx.adobe.com/experience-manager/6-4/forms/javadocs/com/adobe/fd/docassurance/client/api/DocAssuranceService.html#secureDocument-com.adobe.aemfd.docmanager.Document-com.adobe.fd.docassurance.client.api.EncryptionOptions-com.adobe.fd.docassurance.client.api.SignatureOptions-com.adobe.fd.docassurance.client.api.ReaderExtensionOptions-com.adobe.fd.signatures.pdf.inputs.UnlockOptions-">secureDocument</a> are billed.</td> 
   </tr>
  </tbody>
 </table>

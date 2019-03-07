@@ -3,12 +3,12 @@ title: Designs and the Designer
 seo-title: Designs and the Designer
 description: You will need to create a design for your website and in AEM, you do so by using the Designer
 seo-description: You will need to create a design for your website and in AEM, you do so by using the Designer
-uuid: 9144da93-1ffc-4b47-b522-b2fb2b68371c
+uuid: 6ad30ee0-b26b-4809-afee-0ef349b645bd
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
-discoiquuid: 99171331-a69a-49ad-a47b-93e9c4c6a9b2
+discoiquuid: f2f05196-d46b-41a2-8ebd-202455531d90
 index: y
 internal: n
 snippet: y

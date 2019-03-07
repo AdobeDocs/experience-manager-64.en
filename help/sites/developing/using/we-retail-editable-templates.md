@@ -3,12 +3,12 @@ title: Trying out Editable Templates in We.Retail
 seo-title: Trying out Editable Templates in We.Retail
 description: null
 seo-description: null
-uuid: 53eead34-abd5-4b9f-ba3a-f485c536c10b
+uuid: cf12711f-81d6-4794-807f-b8925716fb8c
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
-discoiquuid: eb16601a-7b36-4d14-886c-a15f081c8e45
+discoiquuid: 064e6814-2179-4b7e-9a07-8cbd3a65e47b
 index: y
 internal: n
 snippet: y

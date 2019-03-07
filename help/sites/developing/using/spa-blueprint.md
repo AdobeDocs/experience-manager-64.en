@@ -3,11 +3,11 @@ title: SPA Blueprint
 seo-title: SPA Blueprint
 description: This document describes the general, framework-independent contract that any SPA framework should fulfill in order to implement editable SPA components within AEM.
 seo-description: This document describes the general, framework-independent contract that any SPA framework should fulfill in order to implement editable SPA components within AEM.
-uuid: 3f0dd9f2-32f0-48df-a440-41af751d6afa
+uuid: ac8858e1-a6ec-48c8-8cb8-249e40e96bbc
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: spa
 content-type: reference
-discoiquuid: 2bd62c40-6297-4a46-bdfb-4ab899e7d0e2
+discoiquuid: b95fc015-f46a-4dcf-9282-3d3cdfba9b72
 index: y
 internal: n
 snippet: y
@@ -29,7 +29,7 @@ This document describes the general contract that any SPA framework should fulfi
 
 >[!CAUTION]
 >
->Although the SPA capabilities of AEM are framework-independent, currently only the React and Angular frameworks are is supported.
+>Although the SPA capabilities of AEM are framework-independent, currently only the React and Angular frameworks are supported.
 
 To enable the author to use the AEM Page Editor to edit the data exposed by an Single Page Application framework, a project must be able to interpret the structure of the model representing the semantic of the data stored for an application within the AEM repository. To achieve this goal, two framework-agnostic libraries are provided: the `PageModelManager` and the `ComponentMapping`.
 

@@ -3,12 +3,12 @@ title: Purging process data
 seo-title: Purging process data
 description: Process data that is generated when a long-lived process is invoked can become too large, resulting in lower AEM forms performance and the use of unnecessary disk space. See how you can purge process data.
 seo-description: Process data that is generated when a long-lived process is invoked can become too large, resulting in lower AEM forms performance and the use of unnecessary disk space. See how you can purge process data.
-uuid: cc8449ac-4c89-4367-81f8-23c601596791
+uuid: e99297b8-daba-4089-9f78-69d2669c594d
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/maintaining_the_aem_forms_database
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 5f3fc0ae-66cc-4a04-9a11-c8a25cda7f82
+discoiquuid: 03e134c0-f9be-45c1-9c9f-10733ef2b43f
 index: y
 internal: n
 snippet: y

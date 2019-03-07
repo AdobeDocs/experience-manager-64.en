@@ -3,12 +3,12 @@ title: Publishing an Email to Email Service Providers
 seo-title: Publishing an Email to Email Service Providers
 description: You can publish newsletters to e-mail services such as ExactTarget and Silverpop Engage.
 seo-description: You can publish newsletters to e-mail services such as ExactTarget and Silverpop Engage.
-uuid: 00eb7c61-8d55-4d5a-9e84-00ff8e073e87
+uuid: 58207c3c-569c-4d6e-8f79-d56b3dad6fea
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: 077a512f-4eb4-4954-b5b8-25b764f691bb
+discoiquuid: 8a863813-9ec8-49a4-8519-684fdbd34d9e
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Communities Subscriptions
 seo-title: Communities Subscriptions
 description: Community members interact with other members through email 
 seo-description: Community members interact with other members through email 
-uuid: 69105193-c30f-4d19-a703-db9222afc920
+uuid: ee05f0a6-d197-4ba2-a21c-0cb98131cd27
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: e9a45bac-053b-4f0a-960c-1b22f3114761
+discoiquuid: 3515da21-f937-440d-9a73-12b8be7af53f
 index: y
 internal: n
 snippet: y

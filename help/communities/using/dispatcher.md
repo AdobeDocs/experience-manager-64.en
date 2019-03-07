@@ -3,12 +3,12 @@ title: Configuring Dispatcher for Communities
 seo-title: Configuring Dispatcher for Communities
 description: Configure the dispatcher for AEM Communities
 seo-description: Configure the dispatcher for AEM Communities
-uuid: e3a968b6-ca34-4805-8b53-4092f7864219
+uuid: 8a3f4957-ed42-48db-b65b-8e589e03cba4
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 content-type: reference
 topic-tags: deploying
-discoiquuid: 621278a9-5eb5-4606-8da7-13ac64e18178
+discoiquuid: 074bbe4d-6f17-412e-a997-e92ebf6cc01d
 index: y
 internal: n
 snippet: y

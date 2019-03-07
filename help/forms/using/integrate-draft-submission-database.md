@@ -3,11 +3,11 @@ title: Sample for integrating drafts & submissions component with database
 seo-title: Sample for integrating drafts & submissions component with database
 description: Reference implementation of customized data and metadata services to integrate drafts and submissions component with a database.
 seo-description: Reference implementation of customized data and metadata services to integrate drafts and submissions component with a database.
-uuid: 35de534c-657b-405c-a2cf-7aae5510dca1
+uuid: 4c2fe943-cebd-4716-875b-d1b7c7cfced4
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: publish
-discoiquuid: 9f5ef33b-63db-472d-a5e8-24685229694f
+discoiquuid: f894ee45-d2a8-4ad4-a623-123e3a14b435
 index: y
 internal: n
 snippet: y

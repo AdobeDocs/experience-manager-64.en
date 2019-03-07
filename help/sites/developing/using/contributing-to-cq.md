@@ -3,12 +3,12 @@ title: Contributing to AEM
 seo-title: Contributing to AEM
 description: AEM is developed following proven methodologies commonly practiced in large open source projects
 seo-description: AEM is developed following proven methodologies commonly practiced in large open source projects
-uuid: c83cfa12-d2a8-4935-b66f-f18b55f5a688
+uuid: e64fa2f7-d6e2-4d55-b014-8f87ddbcc036
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
-discoiquuid: 33948b5a-bb46-455b-b485-0eb551a8a49b
+discoiquuid: 8696d306-cbeb-4ac3-ad3b-aab30880c0a9
 index: y
 internal: n
 snippet: y

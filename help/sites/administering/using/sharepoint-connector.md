@@ -3,12 +3,12 @@ title: SharePoint Connector
 seo-title: SharePoint Connector
 description:  Day JCR Connector for Microsoft SharePoint 2010 and Microsoft SharePoint 2013, version 4.0.
 seo-description: Learn about the Sharepoint Connector in AEM.
-uuid: 2669b419-99f1-4989-800e-567f5a5e8912
+uuid: 914e2a85-7a8e-4ddb-82e0-dfc16fda183a
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: 048cc965-0c7d-48d3-8db7-c226630f288d
+discoiquuid: 5b6707a2-fbde-4e24-93c5-c070498f5126
 index: y
 internal: n
 snippet: y

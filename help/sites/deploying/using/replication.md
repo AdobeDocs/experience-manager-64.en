@@ -3,12 +3,12 @@ title: Replication
 seo-title: Replication
 description: Learn how to configure and monitor replication agents in AEM.
 seo-description: Learn how to configure and monitor replication agents in AEM.
-uuid: ce76fe1b-73b1-4512-8f04-8ed9311aaf62
+uuid: d8fc8206-10db-48a9-84f7-710e469b833e
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: configuring
-discoiquuid: f55d697a-824e-40aa-8b22-142b29b3d823
+discoiquuid: cec48c7f-a1b0-4cf7-8125-53bbb80d0e23
 index: y
 internal: n
 snippet: y
@@ -43,7 +43,7 @@ Replication, to a publish instance or dispatcher, takes place in several steps:
 
 * multiple author and publish environments can be configured.
 
-![](assets/chlimage_1-147.png) 
+![](assets/chlimage_1-144.png) 
 
 ### Replicating from Publish to Author {#replicating-from-publish-to-author}
 
@@ -362,7 +362,7 @@ From the Tools tab in the author environment you can configure replication agent
 1. Click the appropriate agent name (which is a link) to show detailed information on that agent.
 1. Click **Edit** to open the configuration dialog:
 
-   ![](assets/chlimage_1-148.png)
+   ![](assets/chlimage_1-145.png)
 
 1. The values provided should be sufficient for a default installation. If you make changes then click **OK** to save them (see [Replication Agents - Configuration Parameters](#replicationagentsconfigurationparameters) for more details of the individual parameters).
 
@@ -393,11 +393,11 @@ To do this you need:
 
 If you want to use reverse replication then ensure that this agent is activated.
 
-![](assets/chlimage_1-149.png)
+![](assets/chlimage_1-146.png)
 
 **A reverse replication agent in the publish environment (an outbox)** This is the passive element as it acts as an "outbox". User input is placed here, from where it is collected by the agent in the author environment.
 
-![](assets/chlimage_1-12.jpeg) 
+![](assets/chlimage_1-9.jpeg) 
 
 ### Configuring Replication for Multiple Publish Instances {#configuring-replication-for-multiple-publish-instances}
 
@@ -510,7 +510,7 @@ If you navigate to `/etc/replication` you can see the following three nodes:
 
 The two `agents` hold configuration information about the appropriate environment, and are only active when that environment is running. For example, `agents.publish` will only be used in the publish environment. The following screenshot shows the publish agent in the author environment, as included with AEM WCM:
 
-![](assets/chlimage_1-150.png) 
+![](assets/chlimage_1-147.png) 
 
 ## Monitoring your Replication Agents {#monitoring-your-replication-agents}
 
@@ -524,7 +524,7 @@ To monitor a replication agent:
 
 1. Click the appropriate agent name (which is a link) to show detailed information on that agent:
 
-   ![](assets/chlimage_1-13.jpeg)
+   ![](assets/chlimage_1-10.jpeg)
 
    Here you can:
 

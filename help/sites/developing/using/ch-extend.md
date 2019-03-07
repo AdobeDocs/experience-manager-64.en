@@ -3,12 +3,12 @@ title: Extending ContextHub
 seo-title: Extending ContextHub
 description: Define new types of ContextHub stores and modules when the ones provided do not meet your solution requirements
 seo-description: Define new types of ContextHub stores and modules when the ones provided do not meet your solution requirements
-uuid: 40c4d55a-ab44-4158-b726-751903b47b03
+uuid: ebce829f-5e41-4fb9-8a54-0704cefd6c8f
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: dd101247-91d8-4fdb-b559-62db3f551660
+discoiquuid: d66fb367-0305-4182-939b-97de3a9debc5
 index: y
 internal: n
 snippet: y

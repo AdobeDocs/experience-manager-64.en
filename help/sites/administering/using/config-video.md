@@ -3,12 +3,12 @@ title: Configure the Video component
 seo-title: Configure the Video component
 description: Learn how to configure the Video Component.
 seo-description: Learn how to configure the Video Component.
-uuid: 1e7d7c42-522a-4da4-812f-a65bd0fca8d2
+uuid: ee930972-c094-4f91-a41d-d643820b70af
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: 841ec7cc-99ea-48db-af54-2cc68d77ada3
+discoiquuid: 043a24c6-dc6a-4726-aaa8-9592e86ce324
 index: y
 internal: n
 snippet: y
@@ -24,7 +24,7 @@ For proper transcoding to occur, your administrator must [Install FFmpeg](#insta
 
 You may want to define video profiles to use for HTML5 elements. Those chosen here are used in order. To access, use [Design Mode](../../../sites/authoring/using/default-components-designmode.md) (Classic UI only) and select the **Profiles** tab:
 
-![](assets/chlimage_1-357.png)
+![](assets/chlimage_1-317.png)
 
 You can also configure the design of the video components and parameters for Playback, Flash, and Advanced.
 

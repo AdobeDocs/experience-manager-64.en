@@ -3,11 +3,11 @@ title: Removing the Geometrixx Sites
 seo-title: Removing the Geometrixx Sites
 description: Learn how to remove the sample Geometrixx content.
 seo-description: Learn how to remove the sample Geometrixx content.
-uuid: ae2415b8-a371-432a-842d-aeb476e1edcf
+uuid: 87f4e84a-9094-4136-856c-be99a0b5c68d
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
-discoiquuid: 7ca0381b-35f0-4354-bc73-a6d512e3731c
+discoiquuid: 8896640f-40d2-47b8-a7a2-41ac596c8514
 index: y
 internal: n
 snippet: y

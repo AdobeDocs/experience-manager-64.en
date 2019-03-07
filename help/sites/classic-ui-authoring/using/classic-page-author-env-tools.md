@@ -3,12 +3,12 @@ title: Authoring - the Environment and Tools
 seo-title: Authoring - the Environment and Tools
 description: The Websites console allows you to manage and navigate your website. Using two panes, the structure of your website can be expanded and actions taken on the required elements.
 seo-description: The Websites console allows you to manage and navigate your website. Using two panes, the structure of your website can be expanded and actions taken on the required elements.
-uuid: 6d61a99d-459a-491a-8ce0-fa7e0634d821
+uuid: cfed24b2-4224-45ee-85ba-f5ea1543415d
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: f357ddf9-83cd-4bef-ab02-2e06ca0707eb
+discoiquuid: 8357fd0a-5b8c-4af6-815a-d9516a3baa49
 index: y
 internal: n
 snippet: y

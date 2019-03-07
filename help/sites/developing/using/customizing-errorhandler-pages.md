@@ -3,12 +3,12 @@ title: Customizing Pages shown by the Error Handler
 seo-title: Customizing Pages shown by the Error Handler
 description: AEM comes with a standard error handler for handling HTTP errors
 seo-description: AEM comes with a standard error handler for handling HTTP errors
-uuid: caf8951f-f283-4093-a0b8-1d7b98862bf2
+uuid: 073a22ff-6044-44ee-8a23-c67a95b758d5
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
-discoiquuid: dcd98fbe-87e4-4299-89ab-d56db7ecc165
+discoiquuid: 6b744f9d-1c7c-4f10-879c-ecdf204e2765
 index: y
 internal: n
 snippet: y

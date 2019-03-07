@@ -3,12 +3,12 @@ title: Creating Launches
 seo-title: Creating Launches
 description: Create a launch to enable the updating of a new version of existing web pages for future activation. When you create a Launch, you specify a title and the source page.
 seo-description: Create a launch to enable the updating of a new version of existing web pages for future activation. When you create a Launch, you specify a title and the source page.
-uuid: 4529c6f4-956a-43b9-8db6-59fdcaa84a8b
+uuid: b324bf9a-6eca-4721-98c9-ba7c85325cb2
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
-discoiquuid: 25393ca8-4de9-4830-a65d-0d5e83146a18
+discoiquuid: e9189105-85ca-45c7-a66a-023364427830
 legacypath: /content/docs/en/aem/6-0/author/site-page-features/launches
 index: y
 internal: n

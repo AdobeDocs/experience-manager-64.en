@@ -3,12 +3,12 @@ title: Maintenance Release Vehicle Definitions
 seo-title: Maintenance Release Vehicle Definitions
 description: This article details the various types of AEM releases, including full releases, feature packs, and services packs.
 seo-description: This article details the various types of AEM releases, including full releases, feature packs, and services packs.
-uuid: 15191561-5f07-43cd-8a8f-52f0d63f223d
+uuid: 096cdd5c-a689-4e25-b0d6-23a7949eae4d
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
-discoiquuid: 4ccb7138-d028-4dde-a9a1-ae6b72503c31
+discoiquuid: 4ac0c71a-6ae4-4b2f-830f-c39b0ce76a3d
 index: y
 internal: n
 snippet: y

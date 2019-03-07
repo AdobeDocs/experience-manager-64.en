@@ -3,12 +3,12 @@ title: Integrating with Salesforce
 seo-title: Integrating with Salesforce
 description: Learn about integrating AEM with Salesforce.
 seo-description: Learn about integrating AEM with Salesforce.
-uuid: c7677efa-8393-473b-ae56-c421664749fe
+uuid: 0b8db4a9-d797-424e-9d64-adbd8a413c16
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: 7d7e1861-a96a-4107-9c48-a3e6f2598102
+discoiquuid: e755f633-894c-436b-8c50-144e4e648186
 index: y
 internal: n
 snippet: y

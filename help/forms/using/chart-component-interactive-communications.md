@@ -3,11 +3,11 @@ title: Using charts in Interactive Communications
 seo-title: Chart component in Interactive Communications
 description: Using charts in an Interactive Communication, you can condense large amounts of information into an easy to analyze and understand visual format  
 seo-description: AEM Forms provides a chart component that you can use to create charts in your Interactive Communication. This document explains basic and agent configurations of the chart component.
-uuid: 47292d2c-2bad-4815-8bbb-9077a1aaa1e3
+uuid: 8b9f00ae-fa5d-444f-b8eb-b07ba10fa284
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: interactive-communications
-discoiquuid: f5e9ba9c-e767-4932-93fa-f062648a8d85
+discoiquuid: 8fbf538c-67f7-4738-8cbc-35c00a865da0
 index: y
 internal: n
 snippet: y

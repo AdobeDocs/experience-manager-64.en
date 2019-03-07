@@ -3,12 +3,12 @@ title: Managing Users and User Groups
 seo-title: Managing Users and User Groups
 description: Users of AEM Communities can self-register and edit their profiles
 seo-description: Users of AEM Communities can self-register and edit their profiles
-uuid: 4717c1f4-37d5-4975-97d5-ffcdd98bd6ff
+uuid: 1f668f97-31b2-4fda-aa19-3f605690a7f0
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 84e2b6f0-791f-46e1-853d-ae52b56ce481
+discoiquuid: 3709e7f9-33ba-4d6d-bfa4-c2556f44e870
 index: y
 internal: n
 snippet: y

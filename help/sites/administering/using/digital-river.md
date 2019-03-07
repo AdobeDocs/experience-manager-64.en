@@ -3,12 +3,12 @@ title: Digital River
 seo-title: Digital River
 description: Learn about Digital River integration with AEM.
 seo-description: Learn about Digital River integration with AEM.
-uuid: 56da5c83-ee5f-49d4-b2fb-2eef41c617ce
+uuid: a58856b1-1444-47ba-ade0-0e8400f8172e
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: e-commerce
 content-type: reference
-discoiquuid: d8b4caff-812b-4ccd-a3b0-b5d69dae8ef3
+discoiquuid: fa82fcf4-56aa-4890-8324-61845a3d03f5
 pagetitle: Administering Digital River
 index: y
 internal: n

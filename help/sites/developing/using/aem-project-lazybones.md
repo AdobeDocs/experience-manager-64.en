@@ -3,11 +3,11 @@ title: Creating an AEM project using Lazybones
 seo-title: Creating an AEM project using Lazybones
 description: A community article is available which discusses how to build an Adobe Experience Manager 6.3 project using Lazybones.
 seo-description: A community article is available which discusses how to build an Adobe Experience Manager 6.3 project using Lazybones.
-uuid: ee6e963c-ebb9-41c7-8f35-cdec2a6d00ae
+uuid: b56c1e42-316d-407a-b976-e1dbca760cec
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
-discoiquuid: 9e11ebde-9e1a-49b0-a4e8-b81e3bb83d13
+discoiquuid: 16f1a84d-bb1f-434e-a69d-f911cef48c94
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/sites/developing/using/getting-started
 index: y

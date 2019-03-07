@@ -3,12 +3,12 @@ title: Client Context
 seo-title: Client Context
 description: Learn how to use the Client Context in AEM.
 seo-description: Learn how to use the Client Context in AEM.
-uuid: 98bfda9b-9e25-4d07-81cf-3cbf97d42773
+uuid: 48efb663-5311-400d-bd0c-9a5f0ef90094
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: 58ce4cc1-2a50-45e7-a366-7547058a4984
+discoiquuid: 62a6f335-48a5-4b7a-9418-5d58933376cf
 index: y
 internal: n
 snippet: y
@@ -233,7 +233,7 @@ Add the JSONP Store component to Client Context and use it to retrieve and store
 
 1. Drag the JSONP Store component to Client Context.
 
-   ![](assets/chlimage_1-41.jpeg)
+   ![](assets/chlimage_1-40.jpeg)
 
 1. Double-click the component to open the edit dialog. 
 1. In the JSONP Service URL box, enter the following URL, and then click Fetch Store:
@@ -242,12 +242,12 @@ Add the JSONP Store component to Client Context and use it to retrieve and store
 
    The component calls the JSONP service and lists all of the properties that the returned data contains. The properties that are in the list are those that will be available in Client Context.
 
-   ![](assets/chlimage_1-310.png)
+   ![](assets/chlimage_1-274.png)
 
 1. Click OK.
 1. Return to the Geometrixx Outdoors home page and refresh the page. Client Context now includes the information from the JSONP Store component.
 
-   ![](assets/chlimage_1-311.png)
+   ![](assets/chlimage_1-275.png)
 
 ### Create the Segment {#create-the-segment}
 
@@ -268,7 +268,7 @@ Use the data from the session store that you created using the JSONP store compo
 1. Right-click the Winter segment and click Open. 
 1. Drag the Generic Store Property to the default AND container.
 
-   ![](assets/chlimage_1-42.jpeg)
+   ![](assets/chlimage_1-41.jpeg)
 
 1. Double-click the component to open the edit dialog, specify the following property values, and then click OK:
 

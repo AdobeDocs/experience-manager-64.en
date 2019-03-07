@@ -3,12 +3,12 @@ title: Endpoint Registry Java API QuickStart(SOAP)
 seo-title: Endpoint Registry Java API QuickStart(SOAP)
 description: null
 seo-description: null
-uuid: ee62d009-6b74-4cce-9682-621a9baea231
+uuid: bd508d00-215d-4d9b-9619-b8e0732bf976
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
-discoiquuid: 747404ce-c7e6-4de9-85ef-b71732b6b841
+discoiquuid: 28ffbd8b-e32a-4a1c-941f-6fa66a5397a3
 index: y
 internal: n
 snippet: y

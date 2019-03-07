@@ -3,11 +3,11 @@ title: Extending an AEM Screens Component
 seo-title: Extending an AEM Screens Component
 description: The following tutorial walks through the steps and best practices for extending out of the box AEM Screens components. The Image component is extended to add an authorable text overlay.
 seo-description: The following tutorial walks through the steps and best practices for extending out of the box AEM Screens components. The Image component is extended to add an authorable text overlay.
-uuid: 9f623162-fa77-49f4-84b6-8bb586f937ad
+uuid: 347b3f72-511c-4e64-8ac1-3183b52b3ddb
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 content-type: reference
 topic-tags: developing
-discoiquuid: dd4c0509-5584-47ed-ba80-02e46fe4e416
+discoiquuid: 3fc7cfc1-46a8-47b8-866e-040d3ab87aab
 targetaudience: target-audience new
 index: y
 internal: n

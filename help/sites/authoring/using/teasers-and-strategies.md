@@ -3,12 +3,12 @@ title: Teasers and Strategies
 seo-title: Teasers and Strategies
 description: Campaigns often use teasers as a mechanism to entice a specific segment of the visitor population through to content focused on their interests
 seo-description: Campaigns often use teasers as a mechanism to entice a specific segment of the visitor population through to content focused on their interests
-uuid: 0646016b-cb3a-4940-a256-fe15de0ed3e3
+uuid: e8a7e721-951f-4331-b3b9-8436e0acdb9f
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: personalization
-discoiquuid: 6a65dbbb-d044-49c1-824b-392f43cfc238
+discoiquuid: 9493ef17-aaa4-4c14-8140-adbcdbc1173c
 index: y
 internal: n
 snippet: y
@@ -245,13 +245,13 @@ After creating your brand and campaign you can create and set up your teaser exp
 
    You can specify the **Title**, **Name** and type of experience to be created; in this case, **Teaser Page**.
 
-   ![](assets/chlimage_1-238.png)
+   ![](assets/chlimage_1-211.png)
 
 1. Click **Create**.  
 
 1. A new dialog will open immediately. Here you can use the various tabs to enter properties for the teaser.
 
-   ![](assets/chlimage_1-239.png)
+   ![](assets/chlimage_1-212.png)
 
     * **Title** 
       A title for the teaser.
@@ -286,7 +286,7 @@ To add content to your teaser:
 
 1. Use the sidekick to add components, then add your content to the teaser page:
 
-   ![](assets/chlimage_1-240.png)
+   ![](assets/chlimage_1-213.png)
 
    >[!CAUTION]
    >
@@ -308,7 +308,7 @@ You do this by strategically placing the teaser paragraph within your content:
 1. Navigate to the content page where you want to place the teaser paragraph that will lead to your campaign page.
 1. Add a **Teaser** component (available in the **Personalization** section of sidekick) in the required position. When first created it will show that the campaign path is not yet configured:
 
-   ![](assets/chlimage_1-241.png)
+   ![](assets/chlimage_1-214.png)
 
 1. Edit the teaser component to add the:
 
@@ -318,15 +318,15 @@ You do this by strategically placing the teaser paragraph within your content:
     * ** [Strategy](../../../sites/authoring/using/campaigns.md#strategies)** 
       Method used for selection when multiple segments resolve successfully.
 
-   ![](assets/chlimage_1-242.png)
+   ![](assets/chlimage_1-215.png)
 
 1. Click **OK** to save. Depending on the segments you have set on the teaser and the profile of the user you are currently logged in as, the appropriate content will be displayed:
 
-   ![](assets/chlimage_1-243.png)
+   ![](assets/chlimage_1-216.png)
 
 1. Mouse over the teaser paragraph to reveal the question mark icon (bottom right corner of the component). Click this to view the segments applied and whether they currently resolve.
 
-   ![](assets/chlimage_1-244.png)
+   ![](assets/chlimage_1-217.png)
 
 ### Teaser Overview {#teaser-overview}
 
@@ -338,5 +338,5 @@ As well as the campaign view in the MCM, the campaign page also gives informatio
 
    This shows an overview of the teaser definitions and viewing statistics:
 
-   ![](assets/chlimage_1-245.png)
+   ![](assets/chlimage_1-218.png)
 

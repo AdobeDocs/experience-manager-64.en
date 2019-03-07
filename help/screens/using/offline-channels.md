@@ -3,12 +3,12 @@ title: Offline Channels
 seo-title: Offline Channels
 description: The AEM Screens player provides offline support for channels by leveraging the ContentSync technology. Follow this page to learn more about update handlers and enabling offline configuration for a channel.  
 seo-description: The AEM Screens player provides offline support for channels by leveraging the ContentSync technology. Follow this page to learn more about update handlers and enabling offline configuration for a channel.  
-uuid: 1b4e5490-30cb-470c-90a1-a93489f06064
+uuid: 8dc22268-9fee-4030-b612-abd809afee5f
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: developing
-discoiquuid: 36224b0c-6806-4e9f-8697-36021b28db31
+discoiquuid: 217809aa-b7d2-4942-9574-5c46eeb9f572
 index: y
 internal: n
 snippet: y
@@ -89,11 +89,11 @@ Follow the steps below to enable offline config for a channel:
 
 1. Inspect the channel content and check if it is requested from an AEM Instance (Online).
 
-   ![](assets/chlimage_1-48.png)
+   ![](assets/chlimage_1-15.png)
 
 1. Navigate to the channel dashboard and click **... **in the** CHANNEL INFORMATION **Panel to change the properties.
 
-   ![](assets/chlimage_1-49.png)
+   ![](assets/chlimage_1-16.png)
 
 1. Navigate to the channel properties and make sure the checkbox is disabled under the **Channel** tab. Click **Save & Close**.
 
@@ -109,5 +109,5 @@ Follow the steps below to enable offline config for a channel:
 
 1. Inspect the channel content and check if it is requested from the local Player-Cache. 
 
-   ![](assets/chlimage_1-50.png)
+   ![](assets/chlimage_1-17.png)
 

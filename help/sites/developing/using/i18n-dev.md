@@ -3,12 +3,12 @@ title: Internationalizing UI Strings
 seo-title: Internationalizing UI Strings 
 description: Java and Javascript APIs enable you to internationalize strings
 seo-description: Java and Javascript APIs enable you to internationalize strings
-uuid: 9eef8a5d-2100-4ce2-984b-af120c55fb12
+uuid: cfb28d0c-691c-4373-a4d1-101b40eab50c
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: components
-discoiquuid: 8f34af73-cdfa-44f7-95b4-f411d91afd93
+discoiquuid: 1e642b7a-482b-43f5-b604-e9783ed1cba1
 index: y
 internal: n
 snippet: y

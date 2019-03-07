@@ -3,10 +3,10 @@ title: Prefill adaptive form fields
 seo-title: Prefill adaptive form fields
 description: Use existing data to prefill fields of an adaptive form.
 seo-description: With adaptive forms, you users can prefill basic information in a form by logging in with their social profiles. This article describes how you can accomplish this.
-uuid: 38baee4d-ba96-4a9a-bb1d-1d92d0716e14
+uuid: 5592004e-6922-4548-9799-2063ccf07873
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
-discoiquuid: b0fba935-b9ea-493f-8d08-23335fb5c1f4
+discoiquuid: 7e375a9d-5f0b-4093-935a-befa3f46cdc6
 index: y
 internal: n
 snippet: y
@@ -72,12 +72,7 @@ You can prefill both bound and unbound fields of an adaptive form. The prefill d
 }
 ```
 
-For bound fields with same bindref or unbound fields with same name, data specified in the XML tag or JSON object is filled in all the fields. For example, two fields in a form are mapped to the name `textbox` in the prefill data. During runtime, if the first text box field contains "A", then "A" is automatically filled in the second text box. This linking is called live linking of adaptive form fields. To prevent live linking:
-
-1. Open **[!UICONTROL Adobe Experience Manager Web Console Configuration]**.  
-   URL: `http://<server>:<port>/system/console/configMgr`
-1. Search and open **Adaptive Form and Interactive Communication Web Channel Configuration**. 
-1. In the Adaptive Form and Interactive Communication Web Channel Configuration dialog, enable **Prevent Sync of Same Mapped Fields**. When you prevent sync of same mapped fields, at the runtime, you can fill different values in the fields. But in the submitted data, only one value is retained. For example, you fill "A" and "B" in the two fields in the above example. In the submitted data, you see "B" in the **`textbox`** tag of the xml (object in JSON).
+For bound fields with same bindref or unbound fields with same name, data specified in the XML tag or JSON object is filled in all the fields. For example, two fields in a form are mapped to the name `textbox` in the prefill data. During runtime, if the first text box field contains "A", then "A" is automatically filled in the second text box. This linking is called live linking of adaptive form fields.
 
 ### Adaptive form using XFA form template {#xfa-based-af}
 

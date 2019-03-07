@@ -3,12 +3,12 @@ title: Configuring Segmentation
 seo-title: Configuring Segmentation
 description: Learn how to configure segmentation for AEM Campaign.
 seo-description: Learn how to configure segmentation for AEM Campaign.
-uuid: ca57f86f-1f0a-4c6f-8d7c-1e947067ff87
+uuid: 5bd189e2-369b-448d-ae68-309fa4793f21
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: 7c7abedb-8241-4df4-aa49-caa864b2a1ec
+discoiquuid: bc88b3a4-5b79-4ba5-a599-74880ad070b9
 index: y
 internal: n
 snippet: y
@@ -30,7 +30,7 @@ AEM allows you to easily create and update segments, teasers, and campaigns. It 
 
 The **Segment Editor** allows you to easily define a segment:
 
-![](assets/segmenteditor.png)
+![](assets/segmenteditor-1.png)
 
 You can **Edit** each segment to specify a **Title**, **Description** and **Boost** factor. Using the sidekick you can add **AND** and **OR** containers to define the **Segment Logic**, then add the required **Segment Traits** to define the selection criteria.
 
@@ -131,7 +131,7 @@ To define your new segment:
 1. Use either the sidekick or the context menu (usually right mouse button click, then select **New...** to open the Insert New Component window) to find the segment trait you need. Then drag it to the **Segment Editor** it will appear in the default **AND** container.
 1. Double-click on the new trait to edit the specific parameters; for example the mouse position:
 
-   ![](assets/screen_shot_2012-02-02at103135am.png)
+   ![](assets/screen_shot_2012-02-02at103135am-1.png)
 
 1. Click **OK** to save your definition:
 1. You can **Edit** the segment definition to give it a **Title**, **Description** and ** [Boost](../../../sites/administering/using/campaign-segmentation.md#boostfactor)** factor:
@@ -157,7 +157,7 @@ Female and between the ages of 16 and 62
 
 As the main operator is OR you need to start with an **OR Container**. Within this you have 2 AND statements, for each of these you need an **AND Container**, into which you can add the individual traits.
 
-![](assets/screen_shot_2012-02-02at105145am.png) 
+![](assets/screen_shot_2012-02-02at105145am-1.png) 
 
 ## Testing the Application of a Segment {#testing-the-application-of-a-segment}
 
@@ -170,11 +170,11 @@ Once the segment has been defined, potential results can be tested with the help
 
 For example, a simple segment definition can be based on the age and gender of the user. Loading a specific profile shows that the segment is successfully resolved:
 
-![](assets/screen_shot_2012-02-02at105926am.png)
+![](assets/screen_shot_2012-02-02at105926am-1.png)
 
 Or not:
 
-![](assets/screen_shot_2012-02-02at110019am.png)
+![](assets/screen_shot_2012-02-02at110019am-1.png)
 
 >[!NOTE]
 >
@@ -184,7 +184,7 @@ Such tests can also be performed on content pages and in combination with **Teas
 
 Mouseover on a teaser paragraph will show the segments applied, whether they currently resolve and therefore, why the current teaser instance has been selected:
 
-![](assets/chlimage_1-323.png) 
+![](assets/chlimage_1-408.png) 
 
 #### Using Your Segment {#using-your-segment}
 

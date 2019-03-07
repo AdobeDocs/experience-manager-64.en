@@ -3,12 +3,12 @@ title: Integrating with BrightEdge Content Optimizer
 seo-title: Integrating with BrightEdge Content Optimizer
 description: Learn about integrating AEM with BrightEdge Content Optimizer.
 seo-description: Learn about integrating AEM with BrightEdge Content Optimizer.
-uuid: af2e2f9d-ce7d-4256-bd03-b37ec509346d
+uuid: 6cfa58c3-4886-4a9b-9fe6-7862b6a113ab
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: 610e7685-fb12-474f-9555-b189d96990e5
+discoiquuid: 88035512-5c33-4de3-962d-c8a4c6374897
 index: y
 internal: n
 snippet: y

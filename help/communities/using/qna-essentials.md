@@ -3,12 +3,12 @@ title: QnA Essentials
 seo-title: QnA Essentials
 description: Questions and answers forum feature
 seo-description: Questions and answers forum feature
-uuid: 350f211c-c8c0-47c5-aee6-109be6037651
+uuid: 1710b87b-b5ab-4921-8c5a-8eecaa71b27e
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 019c18cb-6e23-4187-ada4-821d7e905053
+discoiquuid: a4116740-f5c9-4f9f-adfc-5a416545610b
 index: y
 internal: n
 snippet: y

@@ -3,9 +3,9 @@ title: REDIRECT Adobe Analytics Integration with AEM Screens
 seo-title: REDIRECT Adobe Analytics Integration with AEM Screens
 description: null
 seo-description: null
-uuid: 778bec65-e18d-4f68-a5e6-600c034ff0c1
+uuid: 26f48b9e-4a5c-4580-958e-45d98b55a37e
 contentOwner: jsyal
-discoiquuid: 7b6a35fc-2dbf-4e57-b8a1-c7a59fd7fca3
+discoiquuid: bc0b1127-5147-4fe8-84f5-f1408b3bed0e
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/screens/using/adobe-analytics-integration-aem-screens
 index: y

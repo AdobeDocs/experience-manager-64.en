@@ -3,12 +3,12 @@ title: Setup Website Structure
 seo-title: Setup Website Structure
 description: Set up directories
 seo-description: Set up directories
-uuid: 73b1584a-a55d-48b8-b5a9-7a3f38d276cf
+uuid: a322af3a-f0a7-4a96-8c09-5f86c9d77605
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 34863ce6-3606-4694-bfad-f1256137e7e1
+discoiquuid: ee579871-35a3-4cd9-8196-aa504c5050a7
 index: y
 internal: n
 snippet: y

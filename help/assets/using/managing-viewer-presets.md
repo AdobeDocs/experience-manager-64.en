@@ -3,12 +3,12 @@ title: Managing Viewer Presets
 seo-title: Managing Viewer Presets
 description: How to create and manage viewer presets
 seo-description: How to create and manage viewer presets
-uuid: 9d785ad6-109f-4200-ab53-45b184118f03
+uuid: 2d5a34f1-df88-4900-9a7b-112c2f575268
 contentOwner: Alva Ware-Bevacqui
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: c1c69a4c-fd7d-4850-a34c-752c0505c7e1
+discoiquuid: fc3dee08-b5a1-43f0-986e-b03c27b53dda
 legacypath: /content/docs/en/aem/6-0/administer/integration/dynamic-media/viewer-presets
 index: y
 internal: n
@@ -354,12 +354,12 @@ AEM shows a wide variety viewer presets when viewing an assets from **Detail Vie
 1. Navigate to CRXDE Lite ([http://localhost:4502/crx/de](http://localhost:4502/crx/de)).
 1. Navigate to the viewer preset listing node at **/libs/dam/gui/coral/content/commons/sidepanels/viewerpresets/viewerpresetslist**
 
-   ![](assets/chlimage_1-226.png)
+   ![](assets/chlimage_1-221.png)
 
 1. In the **limit** property, change the **Value**, which is set to 15 by default, to the desired number.
 1. Navigate to the viewer preset datasource at **/libs/dam/gui/coral/content/commons/sidepanels/viewerpresets/viewerpresetslist/datasource**
 
-   ![](assets/chlimage_1-227.png)
+   ![](assets/chlimage_1-222.png)
 
 1. In the limit property, change the number to the desired number, for example `{empty requestPathInfo.selectors[1] ? "20" : requestPathInfo.selectors[1]}`
 1. Tap or click **Save All**.

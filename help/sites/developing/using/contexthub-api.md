@@ -3,12 +3,12 @@ title: ContextHub Javascript API Reference
 seo-title: ContextHub Javascript API Reference
 description: The ContextHub Javascript API is available to your scripts when the ContextHub component has been added to the page
 seo-description: The ContextHub Javascript API is available to your scripts when the ContextHub component has been added to the page
-uuid: 56f56dc0-52ca-47c0-bfa9-7a2795ab7bc9
+uuid: 5e03c8af-8ebd-4aee-948d-7c1da1854a61
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: a51265b1-8426-4da6-b38d-233128647fc0
+discoiquuid: 344995d7-e10f-407f-9378-b7d85514fdab
 index: y
 internal: n
 snippet: y

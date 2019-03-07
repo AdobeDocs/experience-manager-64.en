@@ -3,12 +3,12 @@ title: Managing Processes
 seo-title: Managing Processes
 description: The Process List page shows the processes that a user has initiated or that were started automatically. Learn more about managing the processes.
 seo-description: The Process List page shows the processes that a user has initiated or that were started automatically. Learn more about managing the processes.
-uuid: 4b6a75ec-30ce-4be4-bdd0-040cece2cc8a
+uuid: 21fbb7e1-3ee0-4b47-a21a-8b25f0e87e2d
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_forms_workflow
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 2077b1d6-5988-4d87-b16d-5b76904318ba
+discoiquuid: 09a1c71a-55bd-4819-a244-bae782fbb46f
 index: y
 internal: n
 snippet: y

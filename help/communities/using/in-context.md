@@ -3,12 +3,12 @@ title: In-Context Moderation
 seo-title: In-Context Moderation
 description: How to perform moderator actions
 seo-description: How to perform moderator actions
-uuid: c00837db-3528-45c3-ab34-fcec78725687
+uuid: f2af8ae7-5be4-42f5-999a-412adefa2cb3
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 9426c233-15b5-4258-b344-a33db0a5b26c
+discoiquuid: efd8b15a-86c9-419a-865a-4718f7d13211
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Working with XMP Utilities
 seo-title: Working with XMP Utilities
 description: null
 seo-description: null
-uuid: 770180aa-c0b1-41c8-9c56-f538e0f0cf95
+uuid: f8021e3f-ef29-4533-aeab-7d009a47d369
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: c87c35d9-9c0b-44d0-b828-114a4bd85245
+discoiquuid: 07e18f56-58f5-45cb-9517-7953197cf005
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Using the CRX2Oak Migration Tool
 seo-title: Using the CRX2Oak Migration Tool
 description: Learn how to use the CRX2Oak migration tool.
 seo-description: Learn how to use the CRX2Oak migration tool.
-uuid: 3379fd1a-7380-4f33-9dd2-9acd2ed860c8
+uuid: f23fdc87-242b-4e95-bff1-7487c6c79a1b
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: upgrading
 content-type: reference
-discoiquuid: c192954c-0cf6-4c07-8e06-0f923bed677a
+discoiquuid: be974c1b-123c-4f8a-90f9-0274b7803872
 index: y
 internal: n
 snippet: y
@@ -43,7 +43,7 @@ Support for migrating repositories using external Blob Stores (commonly known as
 
 The below diagram illustrates all the possible migration combinations supported by CRX2Oak:
 
-![](assets/chlimage_1-154.png) 
+![](assets/chlimage_1-151.png) 
 
 ## Features {#features}
 
@@ -97,7 +97,7 @@ If there is any part of the content that is not required on the new instance, yo
 
 If data needs to be copied between two repositories and you have a content path that is different on both instances, you can define it in the `--merge-path` parameter. Once you do, CRX2Oak will copy only the new nodes to the destination repository and will keep the old ones in place.
 
-![](assets/chlimage_1-155.png) 
+![](assets/chlimage_1-152.png) 
 
 #### Version Support {#version-support}
 
@@ -111,7 +111,7 @@ You can also choose whether to copy orphaned versions by adding `--copy-orphaned
 
 Both parameters also support a `YYYY-MM-DD` date format, in case you want to copy versions no later than a specific date.
 
-![](assets/chlimage_1-156.png) 
+![](assets/chlimage_1-153.png) 
 
 #### Open Source Version {#open-source-version}
 

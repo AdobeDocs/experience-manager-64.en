@@ -3,12 +3,12 @@ title: Initial Setup
 seo-title: Initial Setup
 description: Setting up Communities
 seo-description: Setting up Communities
-uuid: ce64a4d3-f20f-4afe-8721-1569f264e011
+uuid: a2de1cda-2c3b-4432-ab2f-97d911a70482
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: introduction
 content-type: reference
-discoiquuid: f6c3708f-f872-4d30-8b4f-e4850b745208
+discoiquuid: d76f5bca-ae14-40cc-8019-565745f2a258
 index: y
 internal: n
 snippet: y

@@ -3,11 +3,11 @@ title: Transaction Reports Overview
 seo-title: Transaction Reports Overview
 description: Keep a count of all the forms submitted, interactive communication rendered, Documents converted to one format to another, and more
 seo-description: Keep a count of all the forms submitted, interactive communication rendered, Documents converted to one format to another, and more
-uuid: 68ca2861-f767-45a6-9566-cb600dbd8f82
+uuid: 166c9095-95e4-46f0-8e5c-14e27f06bfe5
 contentOwner: khsingh
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-manager
-discoiquuid: 3622ec93-bcab-4ee5-b5a3-35ed865cf943
+discoiquuid: 846d46fe-865a-4c87-90d2-4a7671495abe
 index: y
 internal: n
 snippet: y

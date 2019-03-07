@@ -3,13 +3,13 @@ title: Single Sign On
 seo-title: Single Sign On
 description: Learn how to configure Single Sign On (SSO) for an AEM instance.
 seo-description: Learn how to configure Single Sign On (SSO) for an AEM instance.
-uuid: 937e32ad-fe31-45de-851f-c81f9eb385aa
+uuid: 3a211c74-593a-445e-a4cb-cd6c1cc38c1d
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: configuring
 content-type: reference
 topic-tags: Security
-discoiquuid: 8eb63c35-301e-4505-866f-7a7397a8ba38
+discoiquuid: aca5025c-afb2-4384-8c27-e861422e374a
 index: y
 internal: n
 snippet: y

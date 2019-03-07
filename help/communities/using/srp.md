@@ -3,12 +3,12 @@ title: Storage Resource Provider Overview
 seo-title: Storage Resource Provider Overview
 description: Common storage for Communities
 seo-description: Common storage for Communities
-uuid: ea5595f7-c0a0-4c9b-8e17-ae6823ba72fd
+uuid: b409285f-5902-4716-be8a-9bae5afc3e81
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 71d6402d-fd2c-4904-a9ca-f97065b52e67
+discoiquuid: 7ad7e2e3-3834-4a6d-b13f-9f5abd817109
 index: y
 internal: n
 snippet: y

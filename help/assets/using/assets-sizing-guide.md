@@ -3,12 +3,12 @@ title: Assets Sizing Guide
 seo-title: Assets Sizing Guide
 description: Best practices to determine efficient metrics for estimating the infrastructure and resources required for deploying AEM Assets. 
 seo-description: Best practices to determine efficient metrics for estimating the infrastructure and resources required for deploying AEM Assets. 
-uuid: 4a210e25-d4a4-473d-8420-91c3c7d1d35a
+uuid: e947de2f-39be-4e44-b408-5390d2dbbe16
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: 87bdc476-0af3-4316-b737-50f0f57c4e4a
+discoiquuid: e4bc4d20-be9e-493b-9493-ff23828cbb87
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Configuring the Translation Integration Framework
 seo-title: Configuring the Translation Integration Framework
 description: Learn how to configure the Translation Integration Framework.
 seo-description: Learn how to configure the Translation Integration Framework.
-uuid: ae2ca012-1ff8-4a3f-b1c9-4ba1d8ed0264
+uuid: 1b1f45f0-b2e2-4e10-93c1-fa62d4600839
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features
 content-type: reference
-discoiquuid: 72f29323-4e2d-47ff-8408-1165a80d9ff3
+discoiquuid: 037a2fb0-9ed4-4e45-885f-a1ab15685696
 index: y
 internal: n
 snippet: y
@@ -74,7 +74,7 @@ After you configure a translation integration framework, you can [associate it w
 **Note:** For an overview of the content translation features in AEM, see [Translating Content for Multilingual Sites](../../../sites/administering/using/translation.md).
 
 A single configuration of the framework controls how to translate page content, community content, and assets.
-![](assets/chlimage_1-426.png) 
+![](assets/chlimage_1-386.png) 
 
 #### Sites Configuration Properties {#sites-configuration-properties}
 

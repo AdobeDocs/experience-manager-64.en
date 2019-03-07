@@ -3,12 +3,12 @@ title: Workflow Step Reference
 seo-title: Workflow Step Reference
 description: null
 seo-description: null
-uuid: 4b888fc8-d97d-420e-bbeb-66d86e7db71d
+uuid: 5b3ce535-f904-47d0-b240-ad885a90bc6e
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
-discoiquuid: b7febc6c-dd82-41f1-86af-0f41adef214c
+discoiquuid: 4f2c8117-b4e8-4799-8cbc-99cdadb2d8dc
 index: y
 internal: n
 snippet: y

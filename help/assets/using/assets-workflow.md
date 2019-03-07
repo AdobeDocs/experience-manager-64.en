@@ -3,12 +3,12 @@ title: Applying Workflows to Assets
 seo-title: Applying Workflows to Assets
 description: Learn how to apply workflows to assets, folders, and collections in AEM Assets.
 seo-description: Learn how to apply workflows to assets, folders, and collections in AEM Assets.
-uuid: 6079641d-7623-4142-9cb5-685b67b54f25
+uuid: 62853b5c-c27d-4979-9f82-4234007c0c13
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
 topic-tags: authoring
-discoiquuid: 9f628aae-8a31-4fc4-8e0c-3a5fb9408b26
+discoiquuid: 8e98f7ef-aa5d-4307-9488-9b1f94a83c8c
 index: y
 internal: n
 snippet: y
@@ -29,16 +29,16 @@ For details of applying a workflow to an AEM asset, see [Starting a Workflow on 
 1. From the Assets console, navigate to the location of the assets for which you want to start a workflow, and select the assets.
 1. Click the GlobalNav icon, and the choose **Timeline** from the menu to display the timeline.
 
-   ![](assets/chlimage_1-141.png)
+   ![](assets/chlimage_1-136.png)
 
 1. Click the **Actions** (arrow) icon at the bottom.
 
-   ![](assets/chlimage_1-142.png)
+   ![](assets/chlimage_1-137.png)
 
 1. Click **Start Workflow**.
 1. In the **Start Workflow** dialog, select a workflow model from the list.
 
-   ![](assets/chlimage_1-143.png)
+   ![](assets/chlimage_1-138.png)
 
 1. (Optional) Specify a title for the workflow, which can be used to reference the workflow instance.
 1. Click **Start **and then click **Confirm** in the dialog. The workflow runs on all the assets you selected.

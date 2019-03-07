@@ -3,12 +3,12 @@ title: Editing App Metadata
 seo-title: Editing App Metadata
 description: App metadata is required details for releasing an application to a vendor's store. Follow this page to learn about editing app data.
 seo-description: App metadata is required details for releasing an application to a vendor's store. Follow this page to learn about editing app data.
-uuid: 12f87543-a035-4e96-9234-cd53a597c2cf
+uuid: b1b97053-c97e-4fa3-a085-207f2bcd427e
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: authoring-adobe-phonegap-enterprise
-discoiquuid: 6d335c4f-8415-4cec-b493-4dece351ca2a
+discoiquuid: 3af85591-dffa-4846-adbc-16e0dfffbade
 index: y
 internal: n
 snippet: y

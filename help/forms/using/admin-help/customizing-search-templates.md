@@ -3,12 +3,12 @@ title: Customizing search templates
 seo-title: Customizing search templates
 description: You can create search templates to be used in Workspace to search for instances of processes from the To Do and Tracking pages. You can also edit or delete existing search templates.
 seo-description: You can create search templates to be used in Workspace to search for instances of processes from the To Do and Tracking pages. You can also edit or delete existing search templates.
-uuid: 7fe7b0ad-86f8-4610-a926-14993ea070cb
+uuid: 769757f9-afbb-4eff-9582-9f51c07af291
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_workspace
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 043e0299-7b6a-4cc8-b288-a83b923778ee
+discoiquuid: 0b08b6f1-8204-4edc-a453-cbb0e396f40e
 index: y
 internal: n
 snippet: y

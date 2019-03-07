@@ -3,12 +3,12 @@ title: Developing SPAs for AEM
 seo-title: Developing SPAs for AEM
 description: This article presents important questions to consider when engaging a front-end developer to develop a SPA for AEM as well as gives an overview of the architecture of AEM with respect to SPAs to keep in mind when deploying a developed SPA on AEM.
 seo-description: This article presents important questions to consider when engaging a front-end developer to develop a SPA for AEM as well as gives an overview of the architecture of AEM with respect to SPAs to keep in mind when deploying a developed SPA on AEM.
-uuid: 26d16544-39ef-40d4-8df3-74939352d9a3
+uuid: 6f604ed7-851a-43a7-8783-616d04ad375c
 contentOwner: bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: spa
 content-type: reference
-discoiquuid: 7c90ffbd-ebf9-4e27-bf81-151daf2e07c5
+discoiquuid: d7bbdf4f-ea6d-4361-bdd8-f95ab41dd231
 index: y
 internal: n
 snippet: y
@@ -19,6 +19,10 @@ snippet: y
 Single page applications (SPAs) can offer compelling experiences for website users. Developers want to be able to build sites using SPA frameworks and authors want to seamlessly edit content within AEM for a site built using such frameworks.
 
 This article presents important questions to consider when engaging a front-end developer to develop a SPA for AEM and gives an overview of the architecture of AEM with respect to deploying SPAs on AEM.
+
+## Maven Archetype for SPA Starter Kit {#maven-archetype-for-spa-starter-kit}
+
+Any SPA project on AEM should leverage the [Maven Archetype for SPA Starter Kit](https://github.com/adobe/aem-spa-project-archetype).
 
 ## SPA Development Principles for AEM {#spa-development-principles-for-aem}
 
@@ -58,10 +62,6 @@ Any explicit rendering that points to specific content is considered static rend
 As with rendering, all routing should also be dynamic. In AEM, [the SPA should always own the routing](../../../sites/developing/using/spa-routing.md) and AEM listens to it and fetches content based on it.
 
 Any static routing works against the [principle of portability](../../../sites/developing/using/spa-architecture.md#portability) and limits the author by not being compatible with content authoring features of AEM. For example, with static routing, if the content author would want to change a route or change a page, he or she would have to ask the front end developer to do it.
-
-## Maven Archetype for SPA Starter Kit {#maven-archetype-for-spa-starter-kit}
-
-Adobe recommends leveraging the [Maven Archetype for SPA Starter Kit](https://github.com/adobe/aem-spa-project-archetype) to help you start your own SPA project for AEM.
 
 ## SPA Design Models {#spa-design-models}
 

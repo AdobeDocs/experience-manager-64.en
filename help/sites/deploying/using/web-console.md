@@ -3,12 +3,12 @@ title: Web Console
 seo-title: Web Console
 description: Learn how to use the AEM web console.
 seo-description: Learn how to use the AEM web console.
-uuid: 5fb0ebd2-4e13-4b2e-a6c1-4a053b370bdd
+uuid: fc36c740-7716-4f0f-ac0e-60b5ee1f9503
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: configuring
-discoiquuid: 6f6229c0-1158-41d9-b9a1-10ac7ade21ae
+discoiquuid: 964ac5e5-2b4e-4b21-bad5-5cd914c20055
 index: y
 internal: n
 snippet: y

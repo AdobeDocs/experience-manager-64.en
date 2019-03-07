@@ -3,12 +3,12 @@ title: Best Practices for Queries and Indexing
 seo-title: Best Practices for Queries and Indexing
 description: This article provides guidelines on how to optimize your indexes and queries.
 seo-description: This article provides guidelines on how to optimize your indexes and queries.
-uuid: 6aeca48e-4f27-433a-8f49-139164135ed0
+uuid: 071da574-9e01-4e89-ba75-ffbde11ab323
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
-discoiquuid: 73a4ded5-8501-4579-b2dd-b20f64121d2c
+discoiquuid: 3f4d67a0-8b2c-4951-abfb-3f7af2807b8b
 index: y
 internal: n
 snippet: y
@@ -441,7 +441,7 @@ Under normal operation of AEM, for example uploading Assets via the Web UI or pr
 >
 >* *
 
-![Text pre-extraction process flow](assets/chlimage_1-142.png)
+![Text pre-extraction process flow](assets/chlimage_1-139.png)
 
 **Generate  list  of content to pre-extract**
 

@@ -3,12 +3,12 @@ title: Multilingual Assets
 seo-title: Multilingual Assets
 description: Learn how to automate workflows for translating assets, including binaries, metadata, and tags into multiple languages.
 seo-description: Learn how to automate workflows for translating assets, including binaries, metadata, and tags into multiple languages.
-uuid: 0f958d4f-cb6c-4b60-832c-70b9ccd1d206
+uuid: 6f666a0b-b126-4b7b-88dc-f35e336b5d7c
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
 topic-tags: authoring
-discoiquuid: 37ace49d-a7bf-4c4a-b3b0-7b7b1eb704b9
+discoiquuid: a1ae56eb-3d94-4161-b86a-c3cf507ef969
 index: y
 internal: n
 snippet: y

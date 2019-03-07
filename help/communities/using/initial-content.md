@@ -3,12 +3,12 @@ title: Initial Sandbox Content
 seo-title: Initial Sandbox Content
 description: Create content
 seo-description: Create content
-uuid: e8afaa3d-d8cc-4eda-97e2-a1cf4cbceab7
+uuid: 2de1111e-7039-4cd4-8122-d309f1d1cb37
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 4da3b76b-77e4-49fb-ba44-ffa2fc8b7893
+discoiquuid: 260b261b-13d1-4ded-b1ea-53146be8c4fc
 index: y
 internal: n
 snippet: y

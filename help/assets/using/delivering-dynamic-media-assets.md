@@ -3,12 +3,12 @@ title: Delivering Dynamic Media Assets
 seo-title: Delivering Dynamic Media Assets
 description: Learn how to deliver dynamic media assets
 seo-description: Learn how to deliver dynamic media assets
-uuid: 162f8521-3005-403d-ae07-0256df776e3f
+uuid: 00626c50-8fec-4360-90d4-58fb0b22df0f
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: 8098b3b1-21d3-4fc2-9352-65e01c70ec02
+discoiquuid: e8a51a3a-5fb0-40be-a14a-5f9461d1dc05
 index: y
 internal: n
 snippet: y

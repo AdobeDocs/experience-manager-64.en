@@ -3,12 +3,12 @@ title: Components and Services Java APIQuick Start(SOAP)
 seo-title: Components and Services Java APIQuick Start(SOAP)
 description: null
 seo-description: null
-uuid: 526b8b17-e01c-4412-9af3-34c7dd051ace
+uuid: e691bf79-476f-46b7-9740-2d74d0bce54c
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
-discoiquuid: 42b51a17-aff4-42fd-8f82-26dbcc8e0fc9
+discoiquuid: df146614-9b69-41c2-be59-7c091676b813
 index: y
 internal: n
 snippet: y

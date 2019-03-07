@@ -3,10 +3,10 @@ title: Create an Interactive Communication
 seo-title: Create an Interactive Communication
 description: Create an Interactive Communication using the Interactive Communication editor. Use drag-and-drop functionality to build the Interactive Communication, and preview both print and web outputs on different device types. 
 seo-description: Create an Interactive Communication using the Interactive Communication editor. Use drag-and-drop functionality to build the Interactive Communication, and preview both print and web outputs on different device types. 
-uuid: 23773994-ad12-4b83-8a5f-c33376d9f845
+uuid: d24491e5-c301-46dc-87da-5b74ce6affe0
 topic-tags: interactive-communications
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 065d4926-738c-412b-96e9-e48d0001665e
+discoiquuid: 48cf59c2-88bd-4fa1-914b-71b861f7e32f
 index: y
 internal: n
 snippet: y

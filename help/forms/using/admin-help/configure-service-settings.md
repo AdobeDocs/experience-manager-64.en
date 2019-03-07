@@ -3,12 +3,12 @@ title: Configure service settings
 seo-title: Configure service settings
 description: Learn how to configure service settings.
 seo-description: Learn how to configure service settings.
-uuid: 5b4c5297-97d3-4235-a033-e285ce6ba3ec
+uuid: e1d44bcb-d1a4-4b87-998b-a88db2e9d8af
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/managing_services
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 7ca4b00f-6bc0-4d4f-b606-4f8e749a3679
+discoiquuid: f4ed6de3-09ce-433a-9005-dfa82ea142cf
 index: y
 internal: n
 snippet: y

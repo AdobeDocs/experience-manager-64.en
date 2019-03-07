@@ -3,12 +3,12 @@ title: Mobile On-Demand
 seo-title: Mobile On-Demand
 description: Follow this page to learn about the roles and responsibilities for AEM mobile On-Demand services author.
 seo-description: Follow this page to learn about the roles and responsibilities for AEM mobile On-Demand services author.
-uuid: 2a6196b0-5d59-4401-a12e-166a1fb99275
+uuid: 7723094f-9408-4575-8667-7d16636e3c4c
 contentOwner: msm-service
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: authoring-on-demand-services-app
-discoiquuid: afc8af61-e9b2-4e4c-b870-ce69a97c79f0
+discoiquuid: d0b15387-397f-47b5-a5f9-1967fde32b38
 index: y
 internal: n
 snippet: y

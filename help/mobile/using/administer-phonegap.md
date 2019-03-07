@@ -3,12 +3,12 @@ title: Administering Content for Adobe PhoneGap Enterprise with AEM
 seo-title: Administering Content for Adobe PhoneGap Enterprise with AEM
 description: This page serves as landing page for administering Adobe PhoneGap Enterprise.
 seo-description: This page serves as landing page for administering Adobe PhoneGap Enterprise.
-uuid: 89c86407-1bff-49bc-a1a5-299f74dda9e7
+uuid: d377a494-3271-4e10-b381-2434a1be6bea
 contentOwner: msm-service
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: administering-adobe-phonegap-enterprise
-discoiquuid: d069f696-b206-461d-afa9-35d72e4079ee
+discoiquuid: b6e60ada-082e-476a-b8c5-d026d450a668
 index: y
 internal: n
 snippet: y

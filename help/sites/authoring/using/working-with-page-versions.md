@@ -3,12 +3,12 @@ title: Working with Page Versions
 seo-title: Working with Page Versions
 description: Create, compare, and restore versions of a page
 seo-description: Create, compare, and restore versions of a page
-uuid: 304d4d42-5207-4117-95ee-bc134008862c
+uuid: f1eccc18-14cd-45f2-8562-21ba214f899d
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: 3f277fb0-5200-4d4e-81a7-61f9602b6965
+discoiquuid: b33770e2-fd97-4026-99aa-989eb7a44e74
 index: y
 internal: n
 snippet: y
@@ -41,7 +41,7 @@ You can create a version of your resource from:
 1. Select **Save as Version**.
 1. Enter a **Label** and **Comment** if required.
 
-   ![](assets/chlimage_1-121.png)
+   ![](assets/chlimage_1-398.png)
 
 1. Confirm the new version with **Create**.
 
@@ -88,6 +88,29 @@ To revert to a previous version:
    ![](assets/screen_shot_2018-03-21at155246.png)
 
 1. Select **Revert to this Version**. The selected version will be restored and the information in timeline will be updated.
+
+## Previewing a Version {#previewing-a-version}
+
+You can preview a specific version:
+
+1. Navigate to show the page you want to compare.
+1. Select the page in [selection mode](../../../sites/authoring/using/basic-handling.md#viewing-and-selecting-resources).
+1. Open the **Timeline** column and select either **Show All** or **Versions**.
+1. The page versions will be listed. Select the version you want to preview:
+
+   ![](assets/screen_shot_2018-03-21at155330.png)
+
+1. Select **Preview**. The page will be shown in a new tab.
+
+   >[!CAUTION]
+   >
+   >If a page has been moved, you can no longer perform a preview on any versions made before the move.
+   >
+   >    
+   >    
+   >    * If you experience problems with a preview, check the [Timeline](../../../sites/authoring/using/basic-handling.md#timeline) for the page to see whether the page has been moved.
+   >    
+   >
 
 ## Comparing a Version with Current Page {#comparing-a-version-with-current-page}
 

@@ -3,10 +3,10 @@ title: Creating adaptive forms using JSON Schema
 seo-title: Creating adaptive forms using JSON Schema
 description: Adaptive forms can use JSON schema as form model, allowing you to leverage existing JSON schemas to create adaptive forms. 
 seo-description: Adaptive forms can use JSON schema as form model, allowing you to leverage existing JSON schemas to create adaptive forms. 
-uuid: eb271e47-0648-4fe3-93ac-0c0dd39e7742
+uuid: 51e94211-7447-46d4-83f9-bdf396e03d1a
 topic-tags: develop
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 6948ca97-9e7d-47b3-a5ed-d517d0e7729a
+discoiquuid: 23acdacf-cb6a-4b36-af30-2f0c145a3756
 index: y
 internal: n
 snippet: y
@@ -98,6 +98,7 @@ Adaptive Form uses information available in JSON Schema to map each generated fi
 * The readOnly property sets the readonly attribute of an adaptive form component.
 * The required property marks the adaptive form field as mandatory whereas in case of panel(where type is object), the final submitted JSON data has fields with empty value corresponding to that object.
 * The pattern property is set as the validation pattern (regular expression) in adaptive form.
+* The extension of JSON Schema file must be kept .schema.json. For example, &lt;filename&gt;.schema.json.
 
 ## Sample JSON Schema {#sample-json-schema}
 

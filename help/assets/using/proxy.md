@@ -3,12 +3,12 @@ title: Assets Proxy Development
 seo-title: Assets Proxy Development
 description: A proxy is an AEM instance that uses proxy workers to process jobs. Learn how to configure an AEM proxy, supported operations, proxy components, and how to develop a custom proxy worker. 
 seo-description: A proxy is an AEM instance that uses proxy workers to process jobs. Learn how to configure an AEM proxy, supported operations, proxy components, and how to develop a custom proxy worker. 
-uuid: 456dc6a9-8c9d-49b5-87c5-16c60b6492e5
+uuid: 2185aeed-9f8b-4271-9771-366248fed2e2
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: extending-assets
 content-type: reference
-discoiquuid: b5368c1e-8bc9-4911-b5c7-5a1ece748912
+discoiquuid: a469cf1f-5c68-4e79-b819-f7611903039a
 index: y
 internal: n
 snippet: y
@@ -164,7 +164,7 @@ Setting up your own custom proxy worker requires you to:
 
 The following diagram and steps detail how to proceed:
 
-![](assets/chlimage_1-254.png)
+![](assets/chlimage_1-249.png)
 
 >[!NOTE]
 >

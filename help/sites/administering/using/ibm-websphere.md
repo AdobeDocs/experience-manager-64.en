@@ -3,12 +3,12 @@ title: IBM Websphere Commerce
 seo-title: IBM Websphere Commerce
 description: Learn how to use AEM with IBM Websphere Commerce.
 seo-description: Learn how to use AEM with IBM Websphere Commerce.
-uuid: a2465fe8-223d-49b5-ac2d-45fd74843109
+uuid: 5828bd10-9d07-4c93-8ab3-2b3e7048c513
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: e-commerce
 content-type: reference
-discoiquuid: 3b372d2c-c538-4163-9869-c0919bd57438
+discoiquuid: 6e1d079a-efb2-4dcd-be20-0630a507b094
 pagetitle: Administering IBM Websphere Commerce
 index: y
 internal: n
@@ -111,7 +111,7 @@ To change the price of a product:
 1. Expand the left menu tree of the **Geometrixx Outdoors** catalog to find the required product, for example **Mens** and then **Mens Apparel**.
 1. Select the required product, for example Ashanti Nomad shirt, open the context menu and select **Show SKUs List**.
 
-   ![](assets/chlimage_1-343.png)
+   ![](assets/chlimage_1-306.png)
 
 1. Double click the first entry to open the **S** size variant of the shirt.
 1. Go to **Manage SKU** tab and scroll down to **Pricing**.
@@ -152,7 +152,7 @@ A product is now in your cart. To setup scale prices in WebSphere Commerce:
 1. Go to **Manage SKU** tab and scroll down to **Pricing**.
 1. Add two more price ranges.
 
-   ![](assets/chlimage_1-47.jpeg)
+   ![](assets/chlimage_1-46.jpeg)
 
 1. Click **Save and Preview**.
 

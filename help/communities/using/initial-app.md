@@ -3,12 +3,12 @@ title: Initial Sandbox Application
 seo-title: Initial Sandbox Application
 description: Create template, component, and script
 seo-description: Create template, component, and script
-uuid: f17a9238-13ea-4161-a4a2-8e771fb5cd8b
+uuid: c93d9b35-52fb-4f34-a460-53661b7d9a23
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: ae602a1d-e768-4edb-87e6-43b951c6684e
+discoiquuid: 966b17c9-b961-496f-95d2-10acf62bceaf
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: The CSRF Protection Framework
 seo-title: The CSRF Protection Framework
 description: The framework makes use of tokens to guarantee that the client request is legitimate
 seo-description: The framework makes use of tokens to guarantee that the client request is legitimate
-uuid: 550ec12c-3ce9-4e38-8347-b70735a5236d
+uuid: f5157f21-c646-4716-9a1e-652a43da7ffa
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
-discoiquuid: 4821048f-d1e0-491a-8ffc-93c527d7cde4
+discoiquuid: 098dc385-a782-480f-9d65-63d2f71a88ef
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: HTTP2 Delivery of Content
 seo-title: HTTP2 Delivery of Content
 description: HTTP/2 improves the way browsers and servers communicate, allowing for faster transfer of information while reducing the amount of needed processing power.
 seo-description: HTTP/2 improves the way browsers and servers communicate, allowing for faster transfer of information while reducing the amount of needed processing power.
-uuid: 1fa33110-f354-4c01-acdc-910e16cc9475
+uuid: 12fe1157-9af9-425a-832b-a498eee28bf0
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: dc918000-e4e9-438b-ae4b-cee8c36475c6
+discoiquuid: 9c4d7017-7e9b-407d-b7b6-80c68ee6a0d0
 index: y
 internal: n
 snippet: y

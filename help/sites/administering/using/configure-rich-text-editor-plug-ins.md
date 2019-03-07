@@ -3,12 +3,12 @@ title: Configure the Rich Text Editor plug-ins
 seo-title: Configure the Rich Text Editor plug-ins
 description: Learn to configure the AEM Rich Text Editor plug-ins to enable individual functionalities.
 seo-description: Learn to configure the AEM Rich Text Editor plug-ins to enable individual functionalities.
-uuid: a4fb61b9-affd-48bb-8509-5ce276374e12
+uuid: 3f9a0243-2d0d-4951-9130-ba8a45c98fd4
 contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: 9c537550-1537-4b3e-a105-e935d6ec8f46
+discoiquuid: 1173bba2-263a-45a1-98b8-2d4c79ef97b7
 noindex: true
 index: y
 internal: n
@@ -517,7 +517,7 @@ You can configure the RTE to make your own selection of characters available; ei
 
    In CRXDE, once the property is saved, the represented character is displayed. See below the example of half. Repeat the above steps to make more special characters available to authors.
 
-   ![In CRXDE, add a single character to be made available in the RTE toolbar](assets/chlimage_1-145.png)
+   ![In CRXDE, add a single character to be made available in the RTE toolbar](assets/chlimage_1-412.png)
 
    In CRXDE, add a single character to be made available in the RTE toolbar
 
@@ -544,7 +544,7 @@ You can configure the RTE to make your own selection of characters available; ei
 
    For example, define a range from 9998 - 10000 provides you with the following characters.
 
-   ![In CRXDE, define a range of characters to be made available in RTE](assets/chlimage_1-146.png)
+   ![In CRXDE, define a range of characters to be made available in RTE](assets/chlimage_1-413.png)
 
    In CRXDE, define a range of characters to be made available in RTE
 

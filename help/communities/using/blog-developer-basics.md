@@ -3,12 +3,12 @@ title: Blog Essentials
 seo-title: Blog Essentials
 description: Blog overview
 seo-description: Blog overview
-uuid: fa2af082-cdd9-4a07-bda4-668bb558129a
+uuid: 7f5e9575-e6fc-4739-af00-5a5ac9985c85
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 2dc8a848-4d34-4fa1-89a1-eaf7ff7a260f
+discoiquuid: 2c7a74a2-40bb-4fcc-8678-febd68f37a87
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Messaging Essentials
 seo-title: Messaging Essentials
 description: Messaging component overview
 seo-description: Messaging component overview
-uuid: 8d6698e7-2f39-4622-909c-0d0941ed2b4d
+uuid: 8eec55c8-de0d-4d1e-bbd9-e3d88743986e
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 543814f0-245e-4e86-8ee4-e6060d496afa
+discoiquuid: 0afa7404-c3aa-42fe-838c-8ff8613c4056
 index: y
 internal: n
 snippet: y

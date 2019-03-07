@@ -4,12 +4,12 @@ seo-title: Custom User Group Mapping in AEM 6.3
 description: Lear how Custom User Group Mapping works in AEM.
 seo-description: Lear how Custom User Group Mapping works in AEM.
 page-status-flag: de-activated
-uuid: 0ec0db20-8fb3-4faf-a8bd-8cda942fe64f
+uuid: b3691f1a-8a38-419d-891b-e1e4b03d448a
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
-discoiquuid: 7cf2a3f4-bc84-446c-9687-ea6e7c51431f
+discoiquuid: b7034552-3007-4657-b36d-bf7e42bacdf6
 index: y
 internal: n
 snippet: y

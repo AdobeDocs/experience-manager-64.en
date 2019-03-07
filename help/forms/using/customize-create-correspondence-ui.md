@@ -3,11 +3,11 @@ title: Customize create correspondence UI
 seo-title: Customize create correspondence UI
 description: Learn how to customize create correspondence UI.
 seo-description: Learn how to customize create correspondence UI.
-uuid: f3341ea3-2f22-4a20-b8b4-a6b92651c868
+uuid: c153593d-868e-4b7a-9f87-a7b1bed40c25
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
-discoiquuid: 8f2c3831-476c-4401-81cc-f582d8ab87c2
+discoiquuid: 43ed06f7-609d-4c0c-87bf-892669d2732e
 index: y
 internal: n
 snippet: y

@@ -3,9 +3,9 @@ title: REDIRECT AEM 6.4.1.0 Release Notes
 seo-title: REDIRECT AEM 6.4.1.0 Release Notes
 description: null
 seo-description: null
-uuid: 450d0ee7-b726-4f53-a246-b0315c60ece0
+uuid: d8bdb2f4-a15e-42cc-a1e1-0c024421e9aa
 contentOwner: bohnert
-discoiquuid: 7a3d7a09-7277-4211-8fd3-fffcf89b0989
+discoiquuid: ebc41118-ec84-4096-825b-f55123c57227
 redirecttarget: /content/help/en/experience-manager/6-4/release-notes/sp-release-notes
 index: y
 internal: n

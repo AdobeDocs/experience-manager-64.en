@@ -3,12 +3,12 @@ title: Monitoring events
 seo-title: Monitoring events
 description: When the auditing capability is enabled, document security enables you to monitor certain types of events. You can easily search and sort the events list using the document security.
 seo-description: When the auditing capability is enabled, document security enables you to monitor certain types of events. You can easily search and sort the events list using the document security.
-uuid: 289ce9ed-4cd2-487c-b17f-d4436626b1f2
+uuid: 276b38ca-cce4-4ead-9c16-b7f0464e6502
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_document_security
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 7ac45ff4-7905-4a7b-9940-2614da4c606a
+discoiquuid: 3fe8d68a-4b15-4c13-a449-b81e97ddcc17
 index: y
 internal: n
 snippet: y

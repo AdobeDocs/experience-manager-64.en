@@ -3,12 +3,12 @@ title: Developing Screens
 seo-title: Developing Screens
 description: Follow this page to learn about developer's roles for AEM Screens. An AEM Screens developer creates an application and content sequences and develops apps or sequences which may be utilized for multiple channels.
 seo-description: Follow this page to learn about developer's roles for AEM Screens. An AEM Screens developer creates an application and content sequences and develops apps or sequences which may be utilized for multiple channels.
-uuid: 1d81f817-db51-48f4-adc5-7cf5c5d14f8f
+uuid: 1bc9d0cc-1612-4330-a4f0-1c45cc4dc607
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: developing
-discoiquuid: f08b0c97-871a-4135-843d-2f0ebaf73212
+discoiquuid: fd31d85b-0524-446b-8384-6febd109b3de
 index: y
 internal: n
 snippet: y
@@ -24,7 +24,7 @@ A developer creates applications and components, works on API integrations and p
 
 The following diagram provides a detailed architecture of AEM Screens:
 
-![](assets/chlimage_1-79.png)
+![](assets/chlimage_1-42.png)
 
 To access the developer resources, see the links below:
 

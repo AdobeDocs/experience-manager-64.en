@@ -3,9 +3,9 @@ title: AEM Forms Automated Forms Conversion service prerelease notes
 seo-title: AEM Forms Automated Forms Conversion service prerelease notes
 description: null
 seo-description: null
-uuid: a539621c-3e79-40b2-b6ef-e5566c79e162
+uuid: 4bb59f31-a50d-4a05-82f3-060351ed752c
 contentOwner: vishgupt
-discoiquuid: 8c3db274-31c0-4f2c-977a-a43292cee885
+discoiquuid: 62039772-df9e-455b-8a49-cdd976d620e6
 index: y
 internal: n
 snippet: y
@@ -19,16 +19,27 @@ Automated Forms Conversion service by AEM Forms helps accelerate digitization an
 
 ## What's new and improved {#what-s-new-and-improved}
 
+**What's new and improved in February 2019 build:**
+
+* Added support to convert an XFA-based form to an adaptive form. For example, XFA-based PDF forms or XDP forms. Consider below before initiating the conversion:
+
+    * XDP files with spaces in filename are not supported. Remove space from the XDP file name before using the file for Document of Record.
+    * Extracting fragments from an XFA-based form is not supported.
+    * XFA scripts are not supported. For example, scripts for automatically generating values for a drop-down component. 
+    * When an XFA form is submitted, submit data of the form can be saved as an XML element or an attribute. For example, &lt;id order-number="13445"&gt;. All such attributes are treated as elements in a converted adaptive form.
+
+* Added support to Review and Correct editor to detect and edit tables.
+
+>[!NOTE]
+>
+>You can experience all of the above improvements and additions the service, except support for Adobe Analytics, without installing latest software builds on your local machine.
+
 **What's new and improved in Jan 19, 2019 build:**
 
 * Added support for dynamic XFA.
 * Added support to enable Adobe Analytics during conversion. 
 * Added support to identify and convert [hidden fields for XFA](assets/hidden-fields.gif).
 * Improved identification of tables, Acro Forms fields, and choice group fields.
-
->[!NOTE]
->
->You can experience all of the above improvements and additions the service, except support for Adobe Analytics, without installing latest software builds on your local machine.
 
 **What's new and improved in Jan 04, 2019 build:**
 
@@ -53,9 +64,9 @@ Download the following software packages for the prerelease program to set up Au
 | Software |Build location |
 |---|---|
 | AEM 6.5 Quickstart | [cq-quickstart-6.5.0-load18](https://artifactory.corp.adobe.com/artifactory/maven-aem-dev/com/day/cq/cq-quickstart/6.5.0-load19/) |
-| AEM 6.5 Forms add-on package  |
-Windows: [AEMFD-Win-6.0.52](https://artifactory.corp.adobe.com/artifactory/maven-aemforms-release-local/com/adobe/aemds/adobe-aemfd-win-pkg/6.0.52/) 
-Linux: [AEMFD-linux-6.0.52](https://artifactory.corp.adobe.com/artifactory/maven-aemforms-release-local/com/adobe/aemds/adobe-aemfd-linux-pkg/6.0.52/)  |
+| AEM 6.5 Forms add-on package  | 
+Windows: [AEMFD-Win-6.0.52](https://artifactory.corp.adobe.com/artifactory/maven-aemforms-release-local/com/adobe/aemds/adobe-aemfd-win-pkg/6.0.52/)  
+Linux: [AEMFD-linux-6.0.52](https://artifactory.corp.adobe.com/artifactory/maven-aemforms-release-local/com/adobe/aemds/adobe-aemfd-linux-pkg/6.0.52/)   |
 | AEM Forms Automated Forms Conversion service package | [Flamingo-connector-1.0.18](https://artifactory.corp.adobe.com/artifactory/maven-aemforms-release-local/com/flamingo/flamingo-connector-content/1.0.18/flamingo-connector-content-1.0.18.zip) |
 
 ## Documentation resources {#documentation-resources}
@@ -64,8 +75,8 @@ See the following documentation resources for detailed information about using A
 
 | Document |Coverage |
 |---|---|
-| [Automated Forms Conversion service](../../../forms/using/wip/introduction-to-automated-form-conversion-service.md) |
-Introduction to the Automated Forms Conversion service and conversion workflow  |
+| [Automated Forms Conversion service](../../../forms/using/wip/introduction-to-automated-form-conversion-service.md) | 
+Introduction to the Automated Forms Conversion service and conversion workflow   |
 | [Best practices and considerations](../../../forms/using/wip/styles-and-pattern--considerations-and-best-practices-.md) |Patterns and styles of form fields to consider before starting the conversion |
 | [Configure the Automated Forms Conversion service](../../../forms/using/wip/configure-the-automated-forms-conversion-service.md) |Prerequisites and steps to install and configure the Automated Forms Conversion service |
 | [Use Automated Forms Conversion service](../../../forms/using/wip/convert-existing-forms-to-adaptive-forms.md) |Steps to run the Automated Forms Conversion service  |
@@ -105,40 +116,40 @@ Your feedback is important as it helps us improve our offerings. To share your e
 ### Log JIRA issue {#log-jira-issue}
 
 <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
- <tbody>
-  <tr>
+ <tbody> 
+  <tr> 
    <td>JIRA field</td> 
    <td>Options description</td> 
-  </tr>
-  <tr>
+  </tr> 
+  <tr> 
    <td>Project</td> 
-   <td>
+   <td> 
     <ul> 
      <li>CQ: Use the CQ<strong> </strong>project to report bug or improvements in the conversion service.</li> 
      <li>CQDOC: Use the CQDOC<strong> </strong>project to report bug or improvements in the documentation.</li> 
     </ul> </td> 
-  </tr>
-  <tr>
+  </tr> 
+  <tr> 
    <td>Issue Type</td> 
-   <td>
+   <td> 
     <ul> 
      <li>Bug: Use the Bug issue type when the behavior is not as expected or documented instructions are incorrect.</li> 
      <li>Improvement: Use the Improvement issue type when a key aspect of the feature is missing and should be provided or documented instructions are insufficient to understand or use the feature. </li> 
     </ul> </td> 
-  </tr>
-  <tr>
+  </tr> 
+  <tr> 
    <td>Component<br /> </td> 
    <td>Forms - Sensei</td> 
-  </tr>
-  <tr>
+  </tr> 
+  <tr> 
    <td>FixVersion<br /> </td> 
    <td>AFF 1.0.0 L&lt;xx&gt;, where &lt;xx&gt; is the version number of the <a href="https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=lc&amp;title=Automated+Forms+Conversion+Service+Beta+-+Latest+Builds" target="_blank">release</a>. </td> 
-  </tr>
-  <tr>
+  </tr> 
+  <tr> 
    <td>Label<br /> </td> 
    <td>Flamingo-BETA</td> 
-  </tr>
-  <tr>
+  </tr> 
+  <tr> 
    <td>Description</td> 
    <td>Provide the following information in the description field:<br /> 
     <ul> 
@@ -148,8 +159,8 @@ Your feedback is important as it helps us improve our offerings. To share your e
      <li>Expected result of the conversion<br /> </li> 
      <li>Attach collaterals or provide links to download</li> 
     </ul> </td> 
-  </tr>
- </tbody>
+  </tr> 
+ </tbody> 
 </table>
 
 **Guidelines to use a label other than Flamingo-BETA**

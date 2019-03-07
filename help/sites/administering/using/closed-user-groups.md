@@ -3,12 +3,12 @@ title: Closed User Groups in AEM
 seo-title: Closed User Groups in AEM
 description: Learn about Closed User Groups in AEM.
 seo-description: Learn about Closed User Groups in AEM.
-uuid: c0b424d5-b9e9-4120-a9c8-914d48eed29e
+uuid: a92bd14d-66ea-4cc6-8bc7-d78f168d335a
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
-discoiquuid: 5cfe1524-3525-4fb0-9c68-9518902b5b08
+discoiquuid: c64c8469-08a4-4b3b-90e3-382823026f4f
 index: y
 internal: n
 snippet: y
@@ -428,7 +428,7 @@ The following image shows the authentication requirements of an AEM publish inst
 >
 >In this example the optional login path property was not set. Consequently, no second entry has been registered with the authenticator.
 
-![](assets/chlimage_1-63.jpeg) 
+![](assets/chlimage_1-62.jpeg) 
 
 #### Retrieve the Effective Login Path {#retrieve-the-effective-login-path}
 

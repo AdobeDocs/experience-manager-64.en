@@ -3,12 +3,12 @@ title: Starting Workflows
 seo-title: Starting Workflows
 description: Learn how to start Workflows in AEM.
 seo-description: Learn how to start Workflows in AEM.
-uuid: be1ebb35-fc79-4370-a022-41d92623d5b7
+uuid: cc1cb74b-adfc-4b0d-808f-449afa5fca35
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: 5515e94d-b44c-42b4-840a-ea32534e7c92
+discoiquuid: f8779d48-8f5e-4c04-8a59-40cca93bc0b6
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: View statistics related to Work Manager
 seo-title: View statistics related to Work Manager
 description: The Work Manager tab displays statistics that relate to Work Manager items. Learn how you can view and filter the work items.
 seo-description: The Work Manager tab displays statistics that relate to Work Manager items. Learn how you can view and filter the work items.
-uuid: 1943cfc0-e06d-430f-9da1-cec25a9892d7
+uuid: 47af4a5e-62ae-409d-90f7-ebc9b4c118ac
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/health_monitor
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: b791f4cf-5c82-4339-977c-8a22376bea4c
+discoiquuid: 0844de02-00c3-4d7f-ba8e-5059c13a993f
 index: y
 internal: n
 snippet: y

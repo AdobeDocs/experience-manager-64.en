@@ -3,12 +3,12 @@ title: AEM 6.4 Service Pack Release Notes
 seo-title: AEM 6.4 Service Pack Release Notes
 description: Release notes specific to Adobe Experience Manager 6.4 Service Pack 3.
 seo-description: Release notes specific to Adobe Experience Manager 6.4 Service Pack 3.
-uuid: 6b538025-0ef2-44b8-aa56-d2a45c1d842a
+uuid: 366febf5-9f44-4a6d-bbcf-6984dca59320
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4
 topic-tags: release-notes
 content-type: reference
-discoiquuid: 395ac4fe-74dd-4784-945e-f8ee3ce2b2e1
+discoiquuid: 82cfc02c-19bf-477d-b56b-9b22afa94889
 legacypath: /content/docs/en/aem/6-1/release-notes-sp1
 index: y
 internal: n
@@ -1255,12 +1255,14 @@ This section lists features and capabilities that have been removed or deprecate
 
 ## Known Issues {#known-issues}
 
+* No resource found error is observed on importing/exporting metadata. CQ-4253263
 * Unable to edit any image component and page properties after applying 6.4.3.0 on top of 6.4.2.0. CQ-4260316 & CQ-4260441  
   To workaround this issue:
 
     * Go to Package Manager 
-    * Reinstall package "cq-ui-wcm-admin-content-1.0.1004.zip"
-    * Recompile all JSPs (http://&lt;AEM HOST&gt;:&lt;AEM PORT/system/console/slingjsp) **OR** Restart the instance.
+    * Reinstall package "  cq -  ui -  wcm -admin-content-1.0.1004.zip"
+    
+    * Recompile all JSPs (  http ://&lt;AEM HOST&gt;:&lt;AEM PORT/system/console/  slingjsp ) **OR** Restart the instance.
 
 The following errors & warning may occur during installation of AEM 6.4.3.0 and can be safely ignored as they do not impact your AEM instance :
 

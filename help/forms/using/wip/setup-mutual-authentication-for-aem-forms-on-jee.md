@@ -4,9 +4,9 @@ seo-title: [DO NOT PUBLISH] Set up Mutual Authentication for AEM Forms on JEE
 description: null
 seo-description: null
 page-status-flag: never-activated
-uuid: faa4edf2-c41f-4b0d-9b48-6405df1a69af
+uuid: d4c550c4-2b3d-4bd6-b304-bc25af4c9148
 contentOwner: khsingh
-discoiquuid: 1f3228f1-fe38-47b5-b41c-32c5740f1cea
+discoiquuid: 9c841fad-bc7a-4b4d-84ad-cdd5b9ff6a0a
 index: y
 internal: n
 snippet: y

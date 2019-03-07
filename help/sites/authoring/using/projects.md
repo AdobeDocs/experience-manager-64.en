@@ -3,12 +3,12 @@ title: Projects
 seo-title: Projects
 description: Projects let you group resources into one entity whose common, shared environment makes it easy to manage your projects
 seo-description: Projects let you group resources into one entity whose common, shared environment makes it easy to manage your projects
-uuid: dcc4b661-b9fe-4001-98fb-9680f7acea3f
+uuid: a3337bfd-9123-480a-9435-0bf1d98b1211
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: projects
 content-type: reference
-discoiquuid: c8a34d5f-cf43-47d4-8afa-8465fd72a076
+discoiquuid: 138df0ac-14e8-48cd-b4d7-13d148bc0604
 index: y
 internal: n
 snippet: y
@@ -41,7 +41,7 @@ See the following additional topics:
 
 The projects console is where you access and manage your projects within AEM.
 
-![](assets/chlimage_1-196.png)
+![](assets/chlimage_1-169.png)
 
 * Select **Timeline** and then a project to view its timeline.
 * Click/tap **Select** to enter selection mode.
@@ -70,17 +70,17 @@ You can have the following tiles associated with your project. Each is described
 
 In the **Assets** tile, you can gather all assets that you use for a particular project.
 
-![](assets/chlimage_1-197.png)
+![](assets/chlimage_1-170.png)
 
 You upload assets directly in the tile. In addition you can create Image Sets, Spin Sets, or Mixed Media Sets if you have the Dynamic Media add-on.
 
-![](assets/chlimage_1-198.png) 
+![](assets/chlimage_1-171.png) 
 
 ### Asset Collections {#asset-collections}
 
 Similar to assets, you can add [asset collections](../../../assets/using/managing-collections-touch-ui.md) directly to your project. You define collections in Assets.
 
-![](assets/chlimage_1-199.png)
+![](assets/chlimage_1-172.png)
 
 Add a collection by clicking **Add Collection** and selecting the appropriate collection from the list.
 
@@ -88,11 +88,11 @@ Add a collection by clicking **Add Collection** and selecting the appropriate co
 
 The **Experiences** tile lets you add a Mobile app, web site, or publication to the project.
 
-![](assets/chlimage_1-200.png)
+![](assets/chlimage_1-173.png)
 
 The icons indicate which kind of experience is represented: web site, mobile application or a publication. Add experiences by clicking the + sign or clicking **Add Experience** and selecting the type of experience.
 
-![](assets/chlimage_1-201.png)
+![](assets/chlimage_1-174.png)
 
 Select the path for the thumbnails and if applicable, change the thumbnail for the experience. Experiences are grouped together in the **Experiences** tile.
 
@@ -100,47 +100,47 @@ Select the path for the thumbnails and if applicable, change the thumbnail for t
 
 The Links tile lets you associate external links with your project.
 
-![](assets/chlimage_1-202.png)
+![](assets/chlimage_1-175.png)
 
 You can name the link with an easy-to-recognize name as well as change the thumbnail.
 
-![](assets/chlimage_1-203.png) 
+![](assets/chlimage_1-176.png) 
 
 ### Project Info {#project-info}
 
 The Project Information tile provides general information on the project including a description, project status (inactive or active), a due date, and members. In addition, you can add a project thumbnail, which is displayed on the main Projects page.
 
-![](assets/chlimage_1-204.png)
+![](assets/chlimage_1-177.png)
 
 Team members can be assigned and deleted from this tile (or have their roles changed) as well as the Team tile.
 
-![](assets/chlimage_1-205.png) 
+![](assets/chlimage_1-178.png) 
 
 ### Translation Job {#translation-job}
 
 The Translation Job tile is where you start a translation and also where you see the status of your translations. To set up your translation, see [Creating Translation Projects](../../../assets/using/translation-projects.md).
 
-![](assets/chlimage_1-206.png)
+![](assets/chlimage_1-179.png)
 
 Click the ellipsis at the bottom of the **Translation Job** card to view the assets in the translation workflow. The translation job list also displays entries for asset metadata and tags. These entries indicate that the metadata and tags for the assets are also translated.
 
-![](assets/chlimage_1-207.png)  
+![](assets/chlimage_1-180.png)  
 
 ### Team {#team}
 
 In this tile, you can specify the members of the project team. When editing, you can enter the name of the team member and assign the user role.
 
-![](assets/chlimage_1-208.png)
+![](assets/chlimage_1-181.png)
 
 You can add and delete team members from the team. In addition, you can edit the [user role](#userroles) assigned to the team member. 
 
-![](assets/chlimage_1-209.png) 
+![](assets/chlimage_1-182.png) 
 
 ### Landing Pages {#landing-pages}
 
 The **Landing** Pages tile lets you request a new landing page.
 
-![](assets/chlimage_1-210.png)
+![](assets/chlimage_1-183.png)
 
 This workflow is described in [Create a Landing Page workflow](../../../sites/authoring/using/projects-with-workflows.md#requestlandingpageworkflow).
 
@@ -148,7 +148,7 @@ This workflow is described in [Create a Landing Page workflow](../../../sites/au
 
 The **Emails** tile helps you manage requests for email. It starts the Request for Email workflow.
 
-![](assets/chlimage_1-211.png)
+![](assets/chlimage_1-184.png)
 
 More information is described in the [Request Email workflow.](../../../sites/authoring/using/projects-with-workflows.md#requestemailworkflow)
 
@@ -156,7 +156,7 @@ More information is described in the [Request Email workflow.](../../../sites/au
 
 You can assign your project to follow certain workflows. If any workflows are running, their status displays in the **Workflows** tile in Projects.
 
-![](assets/chlimage_1-212.png)
+![](assets/chlimage_1-185.png)
 
 You can assign your project to follow certain workflows. Depending on which project you choose you have different workflows available.
 
@@ -166,13 +166,13 @@ These are described in [Working with Project Workflows.](../../../sites/authorin
 
 The Launches tile shows any launches that have been requested with a [Request Launch workflow.](../../../sites/authoring/using/projects-with-workflows.md)
 
-![](assets/chlimage_1-213.png) 
+![](assets/chlimage_1-186.png) 
 
 ### Tasks {#tasks}
 
 Tasks let you monitor the status of any project-related tasks, including workflows. Tasks are covered in detail at [Working with Tasks](../../../sites/authoring/using/task-content.md).
 
-![](assets/chlimage_1-214.png) 
+![](assets/chlimage_1-187.png) 
 
 ## Project Templates {#project-templates}
 

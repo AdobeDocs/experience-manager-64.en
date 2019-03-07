@@ -3,9 +3,9 @@ title: Installing and Configuring Forms-centric workflow on OSGi
 seo-title: Installing and Configuring Forms-centric workflow on OSGi
 description: Install and configure AEM Forms Interactive Communications to create business correspondences, documents, statements, benefit notices, marketing mails, bills, and welcome kits. 
 seo-description: Install and configure AEM Forms Interactive Communications to create business correspondences, documents, statements, benefit notices, marketing mails, bills, and welcome kits. 
-uuid: 99693194-dd41-4b9d-93da-3526992b66c0
+uuid: ddc2a1d0-31e6-46f5-bf67-85a1c395428a
 topic-tags: installing
-discoiquuid: 4b395b40-eaf9-48c7-ad07-4919d4609ec9
+discoiquuid: d1719ada-8678-4168-82a7-faff8ac1a541
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Community Functions
 seo-title: Community Functions
 description: Learn how to access the Community Functions console
 seo-description: Learn how to access the Community Functions console
-uuid: 8eb17f79-339a-4eb6-a9d1-b3ef4eb4b5bf
+uuid: b566a009-5025-469d-8be4-c8b95331941f
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 799564eb-acdd-42aa-9798-849750e9d9d1
+discoiquuid: e0aa6953-5c3a-44fd-a999-0fdb4f6d60d2
 index: y
 internal: n
 snippet: y

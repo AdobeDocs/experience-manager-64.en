@@ -3,12 +3,12 @@ title: Getting Started with AEM Communities for Enablement
 seo-title: Getting Started with AEM Communities for Enablement
 description: Tutorial on how to set up an enablement community
 seo-description: Tutorial on how to set up an enablement community
-uuid: 573c0703-7778-4237-8cb3-a98b5724fa4f
+uuid: bf57380b-cd47-44d7-8f3e-b8de7fe6cd15
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: introduction
 content-type: reference
-discoiquuid: 5dc3f25c-a468-489f-8c98-a588644a4d6a
+discoiquuid: 82097ad8-57a4-4753-a0d8-bbd3c48abe62
 index: y
 internal: n
 snippet: y

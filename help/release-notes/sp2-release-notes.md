@@ -4,9 +4,9 @@ seo-title: AEM 6.4.2.0 Release Notes
 description: null
 seo-description: null
 page-status-flag: never-activated
-uuid: ab7c0ccc-b40d-44e1-9ac8-630ac1a25289
+uuid: 6687fd6a-a375-4f81-b016-37df7e586a14
 contentOwner: rbrough
-discoiquuid: b2535458-f209-4211-a78c-07a68dc197ce
+discoiquuid: ab293934-61cd-4fad-86d1-e37a8fca8d14
 index: y
 internal: n
 snippet: y

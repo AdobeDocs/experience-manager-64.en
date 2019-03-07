@@ -3,12 +3,12 @@ title: Annotations when Editing a Page
 seo-title: Annotations when Editing a Page
 description: Many components directly related to content allow you to add an annotation
 seo-description: Many components directly related to content allow you to add an annotation
-uuid: 59d60489-5786-4981-bb54-fcd4d066ad37
+uuid: 781ee434-63e2-4f3a-ab95-8f0217775850
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: dfac934c-c7bb-4bf0-b58a-26200bf91e05
+discoiquuid: 9edb7c56-783c-48dc-8255-868cd406783d
 index: y
 internal: n
 snippet: y
@@ -87,7 +87,7 @@ The Annotate mode allows you to create, edit, move or delete annotations on your
 
     * Choose/change the color:
 
-   ![](do-not-localize/chlimage_1-21.png)
+   ![](do-not-localize/chlimage_1-19.png)
 
     * Delete the annotation.
 
@@ -115,5 +115,5 @@ The Annotate mode allows you to create, edit, move or delete annotations on your
 
 Annotations do not appear in Edit mode, but the badge at the top right of the toolbar shows how many annotations exist for the current page. The badge replaces the default Annotations icon, but still functions as a quick link that toggles to/from the Annotate mode:
 
-![](assets/chlimage_1-277.png)
+![](assets/chlimage_1-242.png)
 

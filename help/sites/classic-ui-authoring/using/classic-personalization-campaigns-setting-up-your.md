@@ -3,12 +3,12 @@ title: Setting up your campaign
 seo-title: Setting up your campaign
 description: Setting up a new campaign requires creating a brand to hold your campaigns, creating a campaign to hold experiences, and finally defining the properties for your new campaign.
 seo-description: Setting up a new campaign requires creating a brand to hold your campaigns, creating a campaign to hold experiences, and finally defining the properties for your new campaign.
-uuid: afdd249e-7f4b-4485-ba66-4df7a50b9ab4
+uuid: a2355295-c153-4118-8987-ff6b3497513d
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: cbd26fe2-04fe-497d-8c14-50528964a71e
+discoiquuid: bfade28b-4ef6-4200-a342-02a1ca3fd841
 index: y
 internal: n
 snippet: y

@@ -3,10 +3,10 @@ title: Create Correspondence
 seo-title: Create Correspondence
 description: After you have created a letter template, you can use it to create correspondence in AEM Forms by managing data, content, and attachments.
 seo-description: After you have created a letter template, you can use it to create correspondence in AEM Forms by managing data, content, and attachments.
-uuid: 707f1a7c-7920-4372-ad29-6476eebc9855
+uuid: fddd4f34-c4e8-40d8-9e70-4d09e211341e
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
-discoiquuid: 649c03ff-4de3-4a83-8aad-ff4a894be84a
+discoiquuid: 665ff0ac-11f3-4a97-8ed6-0166408ed92e
 index: y
 internal: n
 snippet: y

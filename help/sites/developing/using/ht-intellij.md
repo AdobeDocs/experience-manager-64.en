@@ -3,12 +3,12 @@ title: How to Develop AEM Projects using IntelliJ IDEA
 seo-title: How to Develop AEM Projects using IntelliJ IDEA
 description: Using IntelliJ IDEA to develop AEM projects
 seo-description: Using IntelliJ IDEA to develop AEM projects
-uuid: 2ffadbb0-ec85-40cb-896b-ab3bb72deecb
+uuid: cc147b97-2f9c-4334-869b-14ce5a439625
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: development-tools
 content-type: reference
-discoiquuid: aeb17a03-d897-4538-9424-34e45a109045
+discoiquuid: b18efc9f-ca4a-4f28-b28e-a6cb79867db8
 index: y
 internal: n
 snippet: y

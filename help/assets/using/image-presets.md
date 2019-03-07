@@ -3,12 +3,12 @@ title: Applying Image Presets
 seo-title: Applying Image Presets
 description: Learn how to apply image presets in dynamic media
 seo-description: Learn how to apply image presets in dynamic media
-uuid: 9fb3fd04-11f5-4500-a415-d10b2f9da0fa
+uuid: b225588b-9872-4be4-ad20-f66a8d3ffad6
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: 8c7be53e-bbc5-48a6-8ddf-2b40cf7428e0
+discoiquuid: 85ae4b6f-08a1-4066-a783-88a22f0eac7f
 index: y
 internal: n
 snippet: y
@@ -42,7 +42,7 @@ You can apply an image preset to an image anytime you preview it. To apply an im
    >    
    >
 
-   ![](assets/chlimage_1-213.png)
+   ![](assets/chlimage_1-208.png)
 
 1. Do any of the following:
 

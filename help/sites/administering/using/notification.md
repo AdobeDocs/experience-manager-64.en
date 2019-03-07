@@ -3,12 +3,12 @@ title: Configuring Email Notification
 seo-title: Configuring Email Notification
 description: Learn how to configure Email Notification in AEM.
 seo-description: Learn how to configure Email Notification in AEM.
-uuid: f488d2a3-90bf-45b0-abb8-cd3918625033
+uuid: 49310e48-12fc-408b-8dac-f6eddea63e2c
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: ee03a0c9-f190-47f7-8671-532a22565752
+discoiquuid: 21b7958e-c3d9-4217-b43f-f5d13363dfda
 index: y
 internal: n
 snippet: y
@@ -51,7 +51,7 @@ To help you debug an issue with the **Day CQ Mail Service**, you can watch the l
 
 The configuration looks as follows in the Web console:
 
-![](assets/chlimage_1-312.png) 
+![](assets/chlimage_1-276.png) 
 
 ## Configuring the Email Notification Channel {#configuring-the-email-notification-channel}
 
@@ -84,7 +84,7 @@ When you receive workflow email notifications, both the from-email address and t
 
 The default configuration looks as follows in the Web Console:
 
-![](assets/chlimage_1-313.png) 
+![](assets/chlimage_1-277.png) 
 
 ### Email Templates for Page Notification {#email-templates-for-page-notification}
 

@@ -3,12 +3,12 @@ title: SAML 2.0 Authentication Handler
 seo-title: SAML 2.0 Authentication Handler
 description: Learn about the SAML 2.0 Authentication Handler in AEM.
 seo-description: Learn about the SAML 2.0 Authentication Handler in AEM.
-uuid: 3ff71498-c921-4cf8-a165-09516f82e307
+uuid: 8724512d-d344-40fb-a197-290317af7d4b
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
-discoiquuid: 652e8383-8c43-4737-9cdd-c2fbf61837e5
+discoiquuid: 6b2a0bf6-5584-4a76-bda0-0de4e2e12d88
 index: y
 internal: n
 snippet: y
@@ -100,7 +100,7 @@ SAML assertions are signed and may optionally be encrypted. In order for this to
 1. Upload the IdP certificate.
 1. Take note of the certificate Alias. The alias is **admin#1436172864930** in the example below.
 
-   ![](assets/chlimage_1-412.png)
+   ![](assets/chlimage_1-372.png)
 
 ## Add the Service Provider key and certificate chain to the AEM keystore {#add-the-service-provider-key-and-certificate-chain-to-the-aem-keystore}
 
@@ -120,7 +120,7 @@ SAML assertions are signed and may optionally be encrypted. In order for this to
 1. Upload the certificate file by clicking **Select Certificate Chain Files**.
 1. Assign an Alias, as shown below:
 
-   ![](assets/chlimage_1-413.png)
+   ![](assets/chlimage_1-373.png)
 
 ## Configure a Logger for SAML {#configure-a-logger-for-saml}
 

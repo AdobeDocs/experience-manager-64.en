@@ -3,12 +3,12 @@ title: Creating and Editing Apps Using the Apps Console
 seo-title: Creating and Editing Apps Using the Apps Console
 description: Follow this page to learn about creating and editing apps using apps console.
 seo-description: Follow this page to learn about creating and editing apps using apps console.
-uuid: 06a100d5-0ad0-402c-87e7-d277010feb90
+uuid: 08b50cfe-acb2-4672-823c-1c32f21db2bb
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: developing-adobe-phonegap-enterprise
-discoiquuid: 5c4b9b83-7a2b-49db-8d44-72177e4dbc26
+discoiquuid: f3c278b3-3022-4ede-b858-243a3e98474c
 index: y
 internal: n
 snippet: y

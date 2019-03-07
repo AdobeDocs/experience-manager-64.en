@@ -3,12 +3,12 @@ title: Developing Forms (Classic UI)
 seo-title: Developing Forms (Classic UI)
 description: Learn how to develop forms
 seo-description: Learn how to develop forms
-uuid: 4c220396-0b02-47e3-913d-0e5cfd57462f
+uuid: 41f84213-3459-495b-921f-512ce923cbcf
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: components
 content-type: reference
-discoiquuid: 810e7caa-4ef0-4250-981f-a9c0c22b48a2
+discoiquuid: 9f26ae49-dde5-4be5-99a4-b5feb142702d
 index: y
 internal: n
 snippet: y

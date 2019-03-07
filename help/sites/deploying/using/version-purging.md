@@ -3,12 +3,12 @@ title: Version Purging
 seo-title: Version Purging
 description: This article describes the available options for version purging.
 seo-description: This article describes the available options for version purging.
-uuid: ba3165c8-6b73-47de-8e07-0749e3da67a9
+uuid: af1ff37e-96fb-474d-84b9-2e99ffdc3ecb
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: configuring
 content-type: reference
-discoiquuid: 7ad31940-7648-4156-9619-ef58b1e08eb6
+discoiquuid: 8d6894f9-68e9-4d4e-b840-6ea9fd534586
 index: y
 internal: n
 snippet: y
@@ -31,8 +31,8 @@ AEM is shipped with various mechanisms to help you manage your repository:
 * the [Version Manager](#versionmanager)  
   This can be configured to purge old versions when new versions are created.  
 
-* the ** [Purge Versions](#purgeversionstool) **tool  
-  This is used as part of [monitoring and maintaining](../../../sites/deploying/using/monitoring-and-maintaining.md) your repository.  
+* the [Purge Versions](../../../sites/deploying/using/monitoring-and-maintaining.md#purgeversionstool)** **tool  
+  This is used as part of monitoring and maintaining your repository.  
   It allows you to intervene to remove old versions of a node, or a hierarchy of nodes, according to these parameters:
 
     * The maximum number of versions to be kept in the repository.  
@@ -40,6 +40,12 @@ AEM is shipped with various mechanisms to help you manage your repository:
     
     * The maximum age of any version kept in the repository.  
       When the age of a version exceeds this value, it is purged from the repository.
+
+* the [Version Purge maintenance task](../../../sites/administering/using/operations-dashboard.md#automatedmaintenancetasks). You can schedule the Version Purge maintenance task to delete old versions automatically. As a result, this minimizes the need to manually use the Version Purge tools.
+
+>[!CAUTION]
+>
+>In order to optimize the repository size you should run the version purge task frequently. The task should be scheduled outside of business hours when there is a limited amount of traffic.
 
 ## Version Manager {#version-manager}
 
@@ -63,7 +69,7 @@ The following options are available:
   whether to enable purging when new versions are created
 
 * `versionmanager.purgePaths` (String[], default: {"/content"})  
-  on which paths to purge versions when new versions are created
+  on which paths to purge versions when new versions are created.
 
 * `versionmanager.maxAgeDays` (int, default: 30)  
   on purge, any version older than this value will be removed. If this value is less than 1, purging is not performed based on the age of the version  
@@ -73,6 +79,10 @@ The following options are available:
 
 * `versionmanager.minNumberVersions` (int, default 0)  
   The minimum number of versions to keep regardless of the age. If this value is set to a value less than 1 no minimum number of versions is retained.
+
+>[!NOTE]
+>
+>It is not recommended to keep a large number of versions in the repository. So, when configuring the version purge operation be mindful not exclude too many versions from the purge otherwise the repository size will not be properly optimized. If you keep a large number versions due to a business requierment please contact Adobe support to find alternative ways of optimizing the repository size.
 
 ### Combining Retention Options {#combining-retention-options}
 
@@ -113,4 +123,4 @@ For example, when defining the maximum AND minimum number of versions to retain 
 
 ## Purge Versions Tool {#purge-versions-tool}
 
-The **Purge Versions** tool is intended for purging the versions of a node or a hierarchy of nodes in your repository. Its primary purpose is to help you reduce the size of your repository by removing old versions of your nodes.
+The [Purge Versions](../../../sites/deploying/using/monitoring-and-maintaining.md#purgeversionstool) tool is intended for purging the versions of a node or a hierarchy of nodes in your repository. Its primary purpose is to help you reduce the size of your repository by removing old versions of your nodes.

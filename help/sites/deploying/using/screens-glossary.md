@@ -3,9 +3,9 @@ title: (Redirect)Glossary
 seo-title: (Redirect)Glossary
 description: null
 seo-description: null
-uuid: 0c6680e3-55cc-420f-9b0b-2449708833ce
+uuid: 6d80ee2a-6da3-4a0b-aafc-6a47ec4f069e
 contentOwner: jsyal
-discoiquuid: d92bd3da-31e0-4e78-98e3-a3fd9cc59af1
+discoiquuid: 82f86b9f-9607-47bd-a168-5a06af77972d
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/screens/using/screens-glossary
 index: y

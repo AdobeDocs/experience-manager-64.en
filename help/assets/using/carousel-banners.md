@@ -3,12 +3,12 @@ title: Carousel Banners
 seo-title: Carousel Banners
 description: Learn how to work with carousel banners in dynamic media
 seo-description: Learn how to work with carousel banners in dynamic media
-uuid: 3484c5cd-d295-401b-8795-315dbfd8d350
+uuid: b9609af2-ace1-481f-b277-7788cffec41e
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: a5327a53-4142-4ce6-97eb-c8b18f7ecf4a
+discoiquuid: 2838e98c-2676-4fbf-b103-c2e9ed03263a
 index: y
 internal: n
 snippet: y
@@ -22,17 +22,17 @@ Creating and modifying content featured in promotional banners can be time-consu
 
 Carousel Banners are designated by a banner with the word **CAROUSELSET**:
 
-![](assets/chlimage_1-443.png)
+![](assets/chlimage_1-438.png)
 
 On your website, a carousel banner can look as follows:
 
-![](assets/chlimage_1-444.png)
+![](assets/chlimage_1-439.png)
 
 Here you can navigate through the images (by clicking on the numbers). In addition, the slides automatically rotate based on a time interval you can customize. Images that you add in the carousel banner support both hotspots and image maps, where users can either tap or to go to a hyperlink or access a quick view window.
 
 In this example, a user has tapped or clicked an image map and accessed the quick view window for gloves:
 
-![](assets/chlimage_1-445.png) 
+![](assets/chlimage_1-440.png) 
 
 ### Watch how carousel banners are created {#watch-how-carousel-banners-are-created}
 

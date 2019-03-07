@@ -3,12 +3,12 @@ title: Using Tags
 seo-title: Using Tags
 description: Tags are a quick and easy method of classifying content within a website
 seo-description: Tags are a quick and easy method of classifying content within a website
-uuid: 925c77ca-677f-4005-9658-4d51294b05d6
+uuid: 8578c01e-3bd6-441b-9a1f-1a845cf7d428
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
-discoiquuid: 31b2656c-5395-4bab-a80c-8071991eaf90
+discoiquuid: bd760fcb-c098-478d-8a8c-ee7d2f78b230
 index: y
 internal: n
 snippet: y
@@ -51,7 +51,7 @@ In the author environment, authors may apply tags by accessing the page properti
 
 To apply [pre-defined tags](../../../sites/administering/using/tags.md), in the **Page Properties** window use the **Tags** field and the **Select Tags** window. The **Standard Tags** tab is the default namespace, which means there is no `*namespace-string:*` prefixed to the taxonomy.
 
-![](assets/chlimage_1-118.png) 
+![](assets/chlimage_1-92.png) 
 
 ### Publishing Tags {#publishing-tags}
 
@@ -85,5 +85,5 @@ You can search for tags in both the author and publish environments.
 
 Adding a [Search component](../../../sites/authoring/using/default-components-foundation.md#search) to a page provides a search capability which includes tags and can be used in both the author and publish environments.
 
-![](assets/chlimage_1-119.png)
+![](assets/chlimage_1-93.png)
 

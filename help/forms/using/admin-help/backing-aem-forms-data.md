@@ -3,12 +3,12 @@ title: Backing up the AEM forms data
 seo-title: Backing up the AEM forms data
 description: This document describes the steps that are required to complete a hot, or online, backup of the AEM forms database, the GDS, and Content Storage Root directories.
 seo-description: This document describes the steps that are required to complete a hot, or online, backup of the AEM forms database, the GDS, and Content Storage Root directories.
-uuid: 3ea2c7ee-8f4b-40ee-8671-db5f2ee6880f
+uuid: b5f574bb-e62a-45ba-9647-1e75085988b3
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/aem_forms_backup_and_recovery
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: a3699ed9-88f2-40ac-a77c-0b4624f0b211
+discoiquuid: c9129c62-bb6b-4a53-ace0-ec7479c7b1ab
 index: y
 internal: n
 snippet: y

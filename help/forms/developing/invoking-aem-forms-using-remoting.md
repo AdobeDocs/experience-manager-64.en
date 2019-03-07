@@ -3,12 +3,12 @@ title: Invoking AEM Forms using Remoting
 seo-title: Invoking AEM Forms using Remoting
 description: null
 seo-description: null
-uuid: 82d83ce4-b109-4e56-9989-65161de8740a
+uuid: 58f42bc4-070f-45d8-9c02-6e083de99a83
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: coding
-discoiquuid: 70096ece-a64a-41e4-87a3-debe7b55ce77
+discoiquuid: f5595d05-2fb2-4589-a3b5-50c41f651f60
 index: y
 internal: n
 snippet: y

@@ -3,11 +3,11 @@ title: Search Facets
 seo-title: Search Facets
 description: This article describes how to create, modify, and use search facets in AEM.
 seo-description: Learn how to create, modify, and use search facets in AEM.
-uuid: da069134-06a1-4551-977a-65e6e5a60f54
+uuid: 13744a5b-350f-472b-bed3-431184862fd8
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: 133341ad-400a-42cc-90ac-3d1c6d11c69d
+discoiquuid: 2cf4c2b9-00c4-4d8d-9ee3-fd6983ecdd13
 index: y
 internal: n
 snippet: y
@@ -98,7 +98,7 @@ When you select an option, the search is performed based on the `value` property
 
 For example, if you select "Images" for file types, the search query for the assets is built by combining the `value` property using an OR operation. For example, the search query for images is built by combining the results matched for *image/jpeg*, *image/gif*, *image/png*, *image/pjpeg*, and *image/tiff* for the property `jcr:content/metadata/dc:format` using an OR operation.
 
-![Value property of a file type, as seen in CRXDE, is used for search queries to work](assets/chlimage_1-423.png)
+![Value property of a file type, as seen in CRXDE, is used for search queries to work](assets/chlimage_1-418.png)
 
 Value property of a file type, as seen in CRXDE, is used for search queries to work
 
@@ -174,7 +174,7 @@ The Tag predicate allows you to perform tag-based searches for assets. By defaul
 1. Navigate to the Search panel. The **[!UICONTROL Tags]** predicate is added to the** **Search panel.
 1. Specify tags based on which you want to search assets or select from the list of suggestions.
 
-   ![AEM-provided suggestion when typing name of tag](assets/chlimage_1-424.png)
+   ![AEM-provided suggestion when typing name of tag](assets/chlimage_1-419.png)
 
    AEM-provided suggestion when typing name of tag
 

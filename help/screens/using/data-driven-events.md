@@ -4,9 +4,9 @@ seo-title: Data Driven Events
 description: null
 seo-description: null
 page-status-flag: never-activated
-uuid: 4cc14065-171a-4860-84fe-2c643a0909fe
+uuid: a0a76bd6-c56a-4d05-b75c-54a97e00c357
 contentOwner: jsyal
-discoiquuid: 7a61157b-9fee-4cdb-b2c4-7123910ebb42
+discoiquuid: ff3e96ce-8bce-4ea1-ab1f-180fccde299a
 index: y
 internal: n
 snippet: y

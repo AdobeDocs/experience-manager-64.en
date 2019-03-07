@@ -3,12 +3,12 @@ title: Revision Cleanup
 seo-title: Revision Cleanup
 description: Learn how to use the Revision Cleanup functionality in AEM 6.3.
 seo-description: Learn how to use the Revision Cleanup functionality in AEM 6.3.
-uuid: 438ae9ea-3591-46bd-96d3-99c733de9bc6
+uuid: 75bd69df-2af6-473d-8179-f47383e3c934
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
-discoiquuid: 7603f6c7-49fc-4ec6-83e0-5919a49c274d
+discoiquuid: 7f8b1b72-fd6b-403d-bb68-0d7fcef4b73a
 index: y
 internal: n
 snippet: y

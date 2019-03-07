@@ -3,12 +3,12 @@ title: Tracking Bounced Emails
 seo-title: Tracking Bounced Emails
 description: AEM is capable of managing email bounces and can stop sending newsletters to those adresses
 seo-description: AEM is capable of managing email bounces and can stop sending newsletters to those adresses
-uuid: fc8d3576-b0ef-4bf4-9b85-87c2236a3aff
+uuid: 523d60ba-b2a3-4d2f-b6d6-fba45302f57f
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: personalization
-discoiquuid: b16c2169-d225-4790-b198-85a89464ef8c
+discoiquuid: c8c38315-05c0-4c42-981e-0607f4cfb023
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Processing Assets Using Media Handlers and Workflows
 seo-title: Processing Assets Using Media Handlers and Workflows
 description: Learn about various media handlers and how to use them in workflows to perform tasks on assets.
 seo-description: Learn about various media handlers and how to use them in workflows to perform tasks on assets.
-uuid: 2e85d213-4641-4342-b4fc-c3ca0cb3778f
+uuid: 77559bb6-9a41-408e-8590-8a9bb180bdf5
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: extending-assets
 content-type: reference
-discoiquuid: df9ee779-2545-4723-a0f0-f4393443607f
+discoiquuid: f27b4f0c-dfd6-4178-90a8-22e3ed833929
 index: y
 internal: n
 snippet: y
@@ -111,7 +111,7 @@ It is possible to view the active media handlers:
 1. Click the link com.day.cq.dam.core.impl.store.AssetStoreImpl.
 1. A list with all the active media handlers is displayed. For example:
 
-![](assets/chlimage_1-442.png) 
+![](assets/chlimage_1-437.png) 
 
 ## Using Media Handlers in Workflows to perform tasks on Assets {#using-media-handlers-in-workflows-to-perform-tasks-on-assets}
 

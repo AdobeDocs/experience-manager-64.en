@@ -3,12 +3,12 @@ title: Creating and using themes
 seo-title: Creating and using themes
 description: You can use themes to stylize and provide a visual identity to an adaptive form or interactive communication. You can share a theme across any number of adaptive forms or interactive communications.
 seo-description: You can use themes to stylize and provide a visual identity to an adaptive form or interactive communication. You can share a theme across any number of adaptive forms or interactive communications.
-uuid: f3aace72-4145-473c-84cd-b8f4414d84b1
+uuid: 0f218973-afae-4704-bd04-ac7fb39fc0ca
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 topic-tags: interactive-communications
 content-strategy: max-2018
-discoiquuid: 2feb0ce9-fcd9-48b3-8f40-77d9ea99d0e5
+discoiquuid: 8a71d7de-00b3-4105-a979-6064a3562788
 index: y
 internal: n
 snippet: y

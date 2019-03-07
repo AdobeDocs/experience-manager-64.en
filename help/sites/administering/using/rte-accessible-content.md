@@ -3,12 +3,12 @@ title: Configuring RTE for Producing Accessible Sites
 seo-title: Configuring RTE for Producing Accessible Sites
 description: Learn how to configure the AEM Rich Text Editor to produce accessible sites.
 seo-description: Learn how to configure the AEM Rich Text Editor to produce accessible sites.
-uuid: 31323d06-d591-4162-a558-794107f930c3
+uuid: ed73d991-4da6-459d-bd14-b557a42a396f
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: 2da6c4c4-1200-4073-a536-a7e8a0e1c857
+discoiquuid: 0fd59fb0-90fb-401a-ae80-83b1edb55b86
 index: y
 internal: n
 snippet: y
@@ -39,11 +39,11 @@ The **Text** component in AEM is available for both the touch-optimized and the 
 
 * The **Text** component in the touch-optimized UI:
 
-  ![Text component (RTE) in full-screen-mode in the touch-optimized UI.](assets/chlimage_1-238.png)
+  ![Text component (RTE) in full-screen-mode in the touch-optimized UI.](assets/chlimage_1-206.png)
 
 * The **Text** component in the classic UI:
 
-  ![Edit dialog (RTE) of the text component in the classic UI.](assets/chlimage_1-239.png)
+  ![Edit dialog (RTE) of the text component in the classic UI.](assets/chlimage_1-207.png)
 
 >[!NOTE]
 >
@@ -64,7 +64,7 @@ Full instructions on configuring the RTE are available on the [Configuring the R
 
 By configuring a plugin within the appropriate `rtePlugins` sub-branch in CRXDE Lite (see the following image), you can activate either all or specific features for that plugin. 
 
-![CRXDE Lite showing an example rtePlugin.](assets/chlimage_1-240.png) 
+![CRXDE Lite showing an example rtePlugin.](assets/chlimage_1-208.png) 
 
 ### Example - Specifying Paragraph Formats Available in RTE Selection Field {#example-specifying-paragraph-formats-available-in-rte-selection-field}
 

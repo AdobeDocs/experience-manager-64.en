@@ -3,10 +3,10 @@ title: Employee recruitment reference site walkthrough
 seo-title: Employee recruitment
 description: AEM Forms reference site showcases how organizations can use AEM Forms features to implement employee recruitment workflow.
 seo-description: AEM Forms reference site showcases how organizations can use AEM Forms features to implement employee recruitment workflow.
-uuid: 8ae14c64-a3e0-4d63-ac6e-cc4d39882046
+uuid: 1f41adfe-b017-45b5-a826-710fabfcb94d
 topic-tags: introduction
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 887567c5-7dd1-427a-9262-899b81bba20b
+discoiquuid: 01aca8c1-5bc8-4a85-9c94-cb4ad4f3995f
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Planning
 seo-title: Planning
 description: What you need to know to plan for your test
 seo-description: What you need to know to plan for your test
-uuid: fa912bbc-2c1f-4d1b-bcf1-ee20170483ea
+uuid: fd661d92-41a5-47bb-a900-9629575e4b56
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: testing
 content-type: reference
-discoiquuid: 825e0c1c-76d9-4e56-9e2f-20ac994e94de
+discoiquuid: f251a819-b54a-4417-9a96-013bb55c4a29
 index: y
 internal: n
 snippet: y

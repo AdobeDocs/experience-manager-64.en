@@ -3,12 +3,12 @@ title: JSRP - JCR Storage Resource Provider
 seo-title: JSRP - JCR Storage Resource Provider
 description: JSRP is generally best suited for demonstration or development environments of one publish instance and one author instance
 seo-description: JSRP is generally best suited for demonstration or development environments of one publish instance and one author instance
-uuid: efffb4e7-76fd-4718-a7f1-263ae32ec494
+uuid: c817e060-05a8-4c9a-a8b6-944944a2700a
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: a720a5b8-1260-48eb-add5-1812b01a499a
+discoiquuid: f9e83dcb-9e5b-423e-ad29-40138dc5318d
 index: y
 internal: n
 snippet: y

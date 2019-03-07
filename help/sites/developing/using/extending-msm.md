@@ -3,12 +3,12 @@ title: Extending the Multi Site Manager
 seo-title: Extending the Multi Site Manager
 description: This page helps you extend the functionalities of the Multi Site Manager
 seo-description: This page helps you extend the functionalities of the Multi Site Manager
-uuid: 5aec5722-ce25-4b90-9203-8c4732ec8d93
+uuid: d6337043-1393-40b3-8031-7ed17f3da2d3
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
-discoiquuid: a0ed1e38-ca50-4605-bffb-a6ffe10e3a2e
+discoiquuid: edfda693-5acd-4027-b24e-3bf9c0a0cba3
 index: y
 internal: n
 snippet: y

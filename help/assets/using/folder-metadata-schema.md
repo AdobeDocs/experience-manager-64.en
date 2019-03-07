@@ -3,8 +3,8 @@ title: Folder Metadata Schema
 seo-title: Folder Metadata Schema
 description: This article describes how to create metadata schema for asset folders in AEM Assets.
 seo-description: How to create metadata schema for asset folders in AEM Assets.
-uuid: 03241c78-f183-446d-84df-14ebed136f2f
-discoiquuid: c002e0a1-5571-4289-a7e3-8c62470f036f
+uuid: ffd5810b-1c5a-44e0-92aa-7ad4436bcd4e
+discoiquuid: 819b7245-546f-4f2b-ae63-35b24f834c6e
 index: y
 internal: n
 snippet: y
@@ -15,6 +15,10 @@ snippet: y
 This article describes how to create metadata schema for asset folders in AEM Assets.
 
 Adobe Experience Manager (AEM) Assets lets you create metadata schemas for asset folders, which define the layout and metadata displayed in folder properties pages.
+
+>[!NOTE]
+>
+>This functionality requires AEM 6.4 with at least Service Pack 2 deployed. For AEM 6.4 service pack details, see these [release notes](https://helpx.adobe.com/in/experience-manager/6-4/release-notes/sp-release-notes.html).
 
 ## Add a folder metadata schema form {#add-a-folder-metadata-schema-form}
 

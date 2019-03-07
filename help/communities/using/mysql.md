@@ -3,12 +3,12 @@ title: MySQL Configuration for Enablement Features
 seo-title: MySQL Configuration for Enablement Features
 description: Connecting your MySQL server
 seo-description: Connecting your MySQL server
-uuid: dbcaaaae-089d-4b63-92b0-674ea7faf4cb
+uuid: 4733e996-60fb-43dd-a117-0f46997f1347
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 88eb4050-7100-4b72-a46f-3bbe970e0ba5
+discoiquuid: f28414a2-d28e-4182-b547-512645a93eb5
 index: y
 internal: n
 snippet: y

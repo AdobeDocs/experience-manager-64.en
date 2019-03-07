@@ -3,13 +3,14 @@ title: Magento
 seo-title: Magento
 description: Learn how to deploy eCommerce with Magento.
 seo-description: Learn how to deploy eCommerce with Magento.
-uuid: 8e38cdee-57f6-457c-a781-11e6921e4cf3
+uuid: ae8eea42-43f7-4307-bd5b-5b47fb7a0a20
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: e-commerce
 content-type: reference
-discoiquuid: 290e1322-63d4-4afd-8733-84669f95c7f7
+discoiquuid: 5034d52c-dbbd-459a-9b44-e6ec5ceac8d3
 pagetitle: Deploying eCommerce with Magento
+redirecttarget: https //github.com/adobe/commerce-cif-magento
 index: y
 internal: n
 snippet: y
@@ -51,7 +52,7 @@ To configure the Identity Provider:
 1. Navigate to [http://localhost:4502/system/console/configMgr](http://localhost:4502/system/console/configMgr).
 1. Click **Magento Identity Provider**.
 
-   ![](assets/chlimage_1-8.jpeg)
+   ![](assets/chlimage_1-11.jpeg)
 
 1. Enter the following information:
 
@@ -66,7 +67,7 @@ To configure the Sync Handler:
 1. Navigate to [http://localhost:4502/system/console/configMgr](http://localhost:4502/system/console/configMgr).
 1. Click **Apache Jackrabbit Oak Default Sync Handler.**
 
-   ![](assets/chlimage_1-9.jpeg)
+   ![](assets/chlimage_1-12.jpeg)
 
 1. Enter the following information:
 
@@ -97,7 +98,7 @@ The external login module is the bridge between the login, the idp and the sync 
 1. Navigate to [http://localhost:4502/system/console/configMgr](http://localhost:4502/system/console/configMgr).
 1. Click **Apache Jackrabbit External Login Module**.
 
-   ![](assets/chlimage_1-10.jpeg)
+   ![](assets/chlimage_1-13.jpeg)
 
 1. Enter the following information:
 

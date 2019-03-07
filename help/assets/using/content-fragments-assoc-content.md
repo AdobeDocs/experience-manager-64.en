@@ -3,12 +3,12 @@ title: Associated Content
 seo-title: Associated Content
 description: Associated content provides the connection so that assets can be (optionally) used with the fragment when it is added to a content page.
 seo-description: Associated content provides the connection so that assets can be (optionally) used with the fragment when it is added to a content page.
-uuid: 55258c7a-e15d-43ae-9dc7-21c7f3847b2c
+uuid: f8d77543-7ab0-4ebc-8394-99c21d326a15
 contentOwner: Alison Heimoz
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: content-fragments
 content-type: reference
-discoiquuid: 02db52ee-4e8a-434c-95a5-d7065032cc00
+discoiquuid: 6f8955ed-836d-4c2c-9acc-7036b6ac29e6
 index: y
 internal: n
 snippet: y
@@ -32,7 +32,7 @@ To make the association you first need to [add your media asset(s) to a collecti
 
 1. Open your fragment and select **Associated Content** from the side panel.
 
-   ![](assets/chlimage_1-212.png)
+   ![](assets/chlimage_1-207.png)
 
 1. Select **Associate Content** or **Associate Collection** (as appropriate, depending on whether any collections have already been associated or not).
 1. Select the required collection.

@@ -3,11 +3,11 @@ title: Configuring file type settings
 seo-title: Configuring file type settings
 description: Learn how to configure file type settings.
 seo-description: Learn how to configure file type settings.
-uuid: 7868f304-5d10-4e9d-bec4-eea7fe1fc07a
+uuid: 8b534212-dc81-4175-a0a7-b3ad2aaffd5a
 geptopics: SG_AEMFORMS/categories/working_with_pdf_generator
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 content-type: reference
-discoiquuid: 33e54fa5-1dc6-46c1-a56b-c1440c472ddf
+discoiquuid: a989f903-d06d-4ed5-9fc8-0091ee726599
 index: y
 internal: n
 snippet: y

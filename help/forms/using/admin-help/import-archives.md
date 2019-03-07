@@ -3,12 +3,12 @@ title: Import and manage archives
 seo-title: Import and manage archives
 description: Learn how to import and manage archives.
 seo-description: Learn how to import and manage archives.
-uuid: 03e9a30c-9909-40e2-8434-24b0b8f659be
+uuid: 3f643132-4517-4f6a-b226-79a796de11f8
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/importing_and_managing_applications_and_archives
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 107b1d00-e50f-4d8e-937e-1d9094cbb199
+discoiquuid: e382a5eb-8a77-4675-b8bc-7ad6665c892f
 index: y
 internal: n
 snippet: y

@@ -3,11 +3,11 @@ title: Content Fragment Models
 seo-title: Content Fragment Models
 description: Content Fragment Models are used to create content fragments with structured content.
 seo-description: Content Fragment Models are used to create content fragments with structured content.
-uuid: 36f28af2-4ce7-43cd-bb7c-dcdbbe8ade37
+uuid: 2d44df5d-20eb-4c96-adaa-6350e8ab232e
 content-type: reference
 topic-tags: content-fragments
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-discoiquuid: f27f5775-4b2c-465e-8116-361da74e231a
+discoiquuid: 7ef86d6d-3c1a-4fcc-bdb2-eaf8a3dabf08
 index: y
 internal: n
 snippet: y

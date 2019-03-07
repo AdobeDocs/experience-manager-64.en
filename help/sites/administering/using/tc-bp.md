@@ -3,13 +3,13 @@ title: Translation Best Practices
 seo-title: Translation Best Practices
 description: Find best practices compiled by Adobe engineering and consulting teams to help you get up and running with translation projects.
 seo-description: Find best practices compiled by Adobe engineering and consulting teams to help you get up and running with translation projects.
-uuid: df595266-36a0-45a4-bccd-191be4ccd158
+uuid: 2052180c-9136-4df0-aefa-e821c1da690a
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features
 content-type: reference
 topic-tags: best-practices
-discoiquuid: bed2b3f0-5207-4f7e-b3d2-0a883bfa67eb
+discoiquuid: 80c1f20d-c227-42e4-81ce-e572c73beb93
 index: y
 internal: n
 snippet: y

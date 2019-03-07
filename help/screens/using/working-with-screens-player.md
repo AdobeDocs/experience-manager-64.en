@@ -3,12 +3,12 @@ title: Working with AEM Screens Player
 seo-title: Working with Screens Player
 description: Follow this page to learn about Screens Player. It also explains the Admin UI and the Channel Switcher.
 seo-description: Follow this page to learn about Screens Player. It also explains the Admin UI and the Channel Switcher.
-uuid: 18ee5d70-9dcc-4b45-b025-67a44dda0cae
+uuid: c42a7bc2-d867-44c3-9188-82afcacb19c1
 contentOwner: jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: authoring
-discoiquuid: e3d69cf9-a8e0-4182-b007-e502edcc361f
+discoiquuid: 910d8292-42b5-405a-a650-4bb3537f08b1
 index: y
 internal: n
 snippet: y
@@ -32,15 +32,15 @@ You can configure preferences for your device from the Device Dashboard, accessi
 
    Select **Devices** and **Device Manager** from the action bar.
 
-   ![](assets/chlimage_1-51.png)
+   ![](assets/chlimage_1-66.png)
 
 1. Click on the device to open the device dashboard.
 
-   ![](assets/chlimage_1-52.png)
+   ![](assets/chlimage_1-67.png)
 
 1. Check the **PREFERENCES** panel. You can enable/disable the **Admin UI** and **Channel Switcher** for your player from these two options.
 
-   ![](assets/chlimage_1-53.png)
+   ![](assets/chlimage_1-68.png)
 
 ### The Admin UI {#the-admin-ui}
 
@@ -52,7 +52,7 @@ To view the admin UI from the Screens player, long press on the top left corner 
 >
 >Additionally, you can view the AEM Screens Player app uptime to check app health status.
 
-![](assets/chlimage_1-2.gif)
+![](assets/chlimage_1-3.gif)
 
 If you select the **Configuration** option from the side menu, you can also reset **Firmware**, **Preferences**, or **To Factory** from this dialog box.
 
@@ -80,7 +80,7 @@ You can switch and control settings for your channel from your Screens Player.
 
 To view the channel switcher from the player, long press on the lower left corner to open the channel switcher that allows switching channels and other features.
 
-![](assets/chlimage_1-54.png)
+![](assets/chlimage_1-69.png)
 
 >[!NOTE]
 >

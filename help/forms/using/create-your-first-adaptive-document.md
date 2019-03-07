@@ -4,8 +4,8 @@ seo-title: [DO NOT PUBLISH] Create your first adaptive document
 description: null
 seo-description: null
 page-status-flag: de-activated
-uuid: 790adbc5-12e6-46ce-90f2-a49cb38e7f07
-discoiquuid: 1106e931-71b4-47f3-ac9a-a1ea5c6f5f4a
+uuid: 84c6d4b3-b20f-461d-90c0-a4cdd4747579
+discoiquuid: 56535bfa-350d-4cdf-9ef6-4b63a4335ec9
 index: y
 internal: n
 snippet: y

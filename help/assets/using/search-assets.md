@@ -3,11 +3,11 @@ title: Search assets in AEM
 seo-title: Search assets in AEM
 description: Learn how to find the required assets in AEM by using Filters panel, and how to use the assets that show up in search.
 seo-description: Learn how to find the required assets in AEM by using Filters panel, and how to use the assets that show up in search.
-uuid: a413fc1f-1efc-4ac8-92a7-9ce34e2c1e2d
+uuid: 01da0ebc-3563-4e6b-9b15-eeb922c937e5
 contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: authoring
-discoiquuid: 19057936-b3f4-4554-92e9-951f0e87744b
+discoiquuid: 807af9f5-7197-4532-8287-a9c7592eb40d
 index: y
 internal: n
 snippet: y
@@ -35,7 +35,8 @@ You can search based on the following options (predicates):
 You can customize the Filters panel and add/remove search predicates using [search facets](../../assets/using/search-facets.md). To display the Filters panel, perform these steps:
 
 1. In the Assets user interface, tap/click ![](assets/search_icon.png) from the toolbar to display the OmniSearch box.
-1. Enter your search term and press Enter. Alternatively, simply press Enter without entering any search term. 
+1. Enter your search term and press Enter. Alternatively, simply press Enter without entering any search term. Do not enter any leading spaces else the search does not work.  
+
 1. Tap/click the GlobalNav icon. The Filters panel is displayed. 
 
    ![](assets/filters_panel-1.png)

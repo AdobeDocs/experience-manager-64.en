@@ -3,12 +3,12 @@ title: Organize Digital Assets
 seo-title: Organize Digital Assets
 description: null
 seo-description: null
-uuid: 437ae39a-616b-4dfa-86ba-7563be4808f8
+uuid: 97756fb0-238f-4c52-bcc9-662478900a20
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference
-discoiquuid: 5b738fd5-1f01-448d-9b3e-38354a623cf6
+discoiquuid: 108318e3-42a6-484b-b32c-1c04383d5b67
 index: y
 internal: n
 snippet: y
@@ -43,7 +43,7 @@ You can limit who can access certain folders in Assets by making the folder part
 
 1. Click the **CUG** tab.
 
-   ![](assets/chlimage_1-253.png)
+   ![](assets/chlimage_1-248.png)
 
 1. Select the **Enabled** check box to make the folder and its assets available only to a closed user group.  
 

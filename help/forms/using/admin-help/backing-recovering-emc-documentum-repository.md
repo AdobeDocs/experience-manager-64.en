@@ -3,12 +3,12 @@ title: Backing up and recovering the EMC Documentum repository
 seo-title: Backing up and recovering the EMC Documentum repository
 description: This document describes the tasks required to back up and recover the EMC Documentum repository configured for your AEM forms environment.
 seo-description: This document describes the tasks required to back up and recover the EMC Documentum repository configured for your AEM forms environment.
-uuid: 3dc36195-7bb9-43b2-95ef-8c365d790971
+uuid: 8eabaa64-ddc6-43f8-8269-4a07b73bcb88
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/aem_forms_backup_and_recovery
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 1ebca214-1e82-45ec-9743-f1e04a4bd7de
+discoiquuid: a3a24c36-2642-4a70-b118-77a1975419d3
 index: y
 internal: n
 snippet: y

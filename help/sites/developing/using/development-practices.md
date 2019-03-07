@@ -3,12 +3,12 @@ title: Development Practices
 seo-title: Development Practices
 description: Best practices for developing on AEM
 seo-description: Best practices for developing on AEM
-uuid: e16fb299-2d94-4044-af40-e992cf1561ad
+uuid: a1e84da3-a43b-4b19-8266-2297bd75f589
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
-discoiquuid: 93c2f7e1-3175-4271-ba4b-02eb0aebff57
+discoiquuid: 21a61c66-6579-4318-bc98-2520c3c1a157
 index: y
 internal: n
 snippet: y

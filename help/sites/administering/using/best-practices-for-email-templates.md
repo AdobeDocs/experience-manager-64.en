@@ -3,13 +3,13 @@ title: Best Practices for Email Templates
 seo-title: Best Practices for Email Templates
 description: Find best practices on creating email templates in AEM.
 seo-description: Find best practices on creating email templates in AEM.
-uuid: 362501df-40e2-4f85-9c97-eded3ba60cde
+uuid: bc338431-2847-4ab2-aa53-03648c82fa79
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 topic-tags: best-practices
-discoiquuid: 6daac2c3-77d6-4f53-a125-ff728a278cbc
+discoiquuid: 1c0fb13e-f549-400d-92d8-4ecee24782f7
 index: y
 internal: n
 snippet: y
@@ -122,7 +122,7 @@ To offer a solid base and to broaden the variety of content flow possibilities, 
 
 All have a **header**, a **footer** and a **body** section. Below the body section, each template differs in **column design** (1, 2 or 3 columns).
 
-![](assets/chlimage_1-358.png) 
+![](assets/chlimage_1-318.png) 
 
 ### Components {#components}
 

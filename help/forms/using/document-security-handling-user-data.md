@@ -3,10 +3,10 @@ title: Document Security | Handling user data
 seo-title: Document Security | Handling user data
 description: null
 seo-description: null
-uuid: dee933b9-6e57-4977-8343-6770060ae8ac
+uuid: b37a373f-4352-4d9a-84ee-28bdf92c6881
 topic-tags: grdp
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 816ce947-4c77-4a14-b4ce-8239b119bccd
+discoiquuid: e3a32d0e-c28d-417c-aa27-d0d2617bc000
 index: y
 internal: n
 snippet: y

@@ -3,10 +3,10 @@ title: "Tutorial: Create form data model"
 seo-title: Create form data model for Interactive Communication
 description: Create form data model for Interactive Communication
 seo-description: Create form data model for Interactive Communication
-uuid: 59fc342e-b115-4a88-a7bf-273480af39fb
+uuid: 36a5ac3c-aafa-4fda-bb1e-984e71dba061
 contentOwner: anujkapo
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 25625cb2-8a6e-41d6-bd3a-031b1599c225
+discoiquuid: 9feaf9ad-6fe3-4274-96fd-5b4a961e1aa4
 index: y
 internal: n
 snippet: y

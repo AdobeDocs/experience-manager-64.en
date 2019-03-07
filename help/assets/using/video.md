@@ -3,12 +3,12 @@ title: Video
 seo-title: Video
 description: Learn how to work with video in dynamic media
 seo-description: Learn how to work with video in dynamic media
-uuid: 5366049c-3212-4806-8911-ca988b9a04ac
+uuid: 0a37a45a-2fe8-45a9-93ac-0b51d9f10198
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: b86c7a37-81f0-45c8-a60d-8c7c3686bef2
+discoiquuid: 7a479b39-704c-43eb-a5cc-c5a3a05471b1
 index: y
 internal: n
 snippet: y
@@ -259,11 +259,11 @@ The following table describes the device, browser, and playback method of videos
 
 The following graphic shows the overall authoring workflow of videos that are uploaded and encoded by way of DMGateway and made available for public consumption.
 
-![](assets/chlimage_1-432.png) 
+![](assets/chlimage_1-427.png) 
 
 ## Hybrid publishing architecture for videos {#hybrid-publishing-architecture-for-videos}
 
-![](assets/chlimage_1-433.png) 
+![](assets/chlimage_1-428.png) 
 
 ## Best practices for encoding videos {#best-practices-for-encoding-videos}
 
@@ -862,19 +862,19 @@ To monitor progress (including failed encoding/YouTube publish):
 
     * In card view, video encoding progress displays on the asset by percent. If there is an error, this information also displays on the asset.
 
-   ![](assets/chlimage_1-434.png)
+   ![](assets/chlimage_1-429.png)
 
     * In list view, video encoding progress displays in the **Processing Status** column. If there is an error, this message displays in that same column.
 
-   ![](assets/chlimage_1-435.png)
+   ![](assets/chlimage_1-430.png)
 
    This column does not display by default. To enable the column, select **View Settings** from the views drop-down menu, and add the **Processing Status** column and tap or click **Update**.
 
-   ![](assets/chlimage_1-436.png)
+   ![](assets/chlimage_1-431.png)
 
 1. View progress in the asset details. When you tap or click an asset, open the drop-down menu and select **Timeline**. To narrow it down to workflow activities like encoding or YouTube publishing, select **Workflows**.
 
-   ![](assets/chlimage_1-437.png)
+   ![](assets/chlimage_1-432.png)
 
    Any workflow information such as encoding displays in the timeline. For YouTube publish, the Workflow timeline also includes the name of the YouTube channel and the YouTube video URL. In addition, you see any failure notifications in the Workflow timeline.
 
@@ -897,11 +897,11 @@ To monitor progress (including failed encoding/YouTube publish):
    >
    >You may need administrative rights to access the **Tools** menu.
 
-   ![](assets/chlimage_1-438.png)
+   ![](assets/chlimage_1-433.png)
 
    Select the instance and tap or click **Open History**.
 
-   ![](assets/chlimage_1-439.png)
+   ![](assets/chlimage_1-434.png)
 
    From the Workflow Instances area, you can also suspend, terminate, or rename workflows. See [Administering workflows](../../sites/administering/using/workflows-administering.md) for more information. 
 
@@ -911,7 +911,7 @@ To monitor progress (including failed encoding/YouTube publish):
    >
    >You may need administrative rights to access the **Tools** menu.
 
-   ![](assets/chlimage_1-440.png)
+   ![](assets/chlimage_1-435.png)
 
    >[!NOTE]
    >
@@ -932,7 +932,7 @@ To monitor progress (including failed encoding/YouTube publish):
    >
    >You may need administrative rights to access the **Tools** menu.
 
-   ![](assets/chlimage_1-441.png)
+   ![](assets/chlimage_1-436.png)
 
 1. You may receive email notifications about aborted or failed workflow jobs. These email notifications are configurable by an administrator. See [Configuring email notifications](#configuringemailnotifications).
 

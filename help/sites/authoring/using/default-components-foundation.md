@@ -3,12 +3,12 @@ title: Foundation Components
 seo-title: Foundation Components
 description: null
 seo-description: null
-uuid: 1f7950d8-b4f4-4f30-9ae2-1a0ef897cde2
+uuid: fa0d326b-8218-4203-9f40-73f77cf9d7cf
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: adf3e9e8-1b92-47f1-b543-331e69ace550
+discoiquuid: b2e577fd-5e4d-4fae-a007-69b305ab5e17
 legacypath: /content/docs/en/aem/6-2/author/page-authoring/default-components/editmode
 pagetitle: Foundation Components
 index: y
@@ -59,7 +59,7 @@ The General components are the basic components that you use to create content.
 
 You can define a link with title and description.
 
-![](assets/chlimage_1-218.png) 
+![](assets/chlimage_1-191.png) 
 
 ### Adaptive Image {#adaptive-image}
 
@@ -232,7 +232,7 @@ The Chart component lets you add a bar, line, or pie chart. AEM creates a chart 
 
 The following show an example of chart data followed by the resulting Bar chart:
 
-![](assets/chlimage_1-219.png) ![](assets/dc_chart_use.png)
+![](assets/chlimage_1-192.png) ![](assets/dc_chart_use.png)
 
 >[!NOTE]
 >
@@ -284,7 +284,7 @@ The external application integration component (**External**) enables you to emb
 
 The external application is integrated into the paragraph system of the AEM page; for example, when using a Target application of `http://en.wikipedia.org/wiki/Main_Page`:
 
-![](assets/chlimage_1-220.png)
+![](assets/chlimage_1-193.png)
 
 >[!NOTE]
 >
@@ -330,7 +330,7 @@ You can upload an image, then edit and manipulate it (e.g. crop, rotate, add lin
 
 You can either drag and drop an image from the [Assets Browser](../../../sites/authoring/using/author-environment-tools.md#assets-browser) directly onto the component or its [Configure dialog](../../../sites/authoring/using/editing-content.md#component-edit-dialog). You can also upload an image from the Configure dialog; this dialog also controls all definitions and manipulation of the image:
 
-![](assets/chlimage_1-221.png)
+![](assets/chlimage_1-194.png)
 
 Once the image is uploaded (and not before) you can use [inplace editing](../../../sites/authoring/using/editing-content.md#edit-content) to crop/rotate the image as required:
 
@@ -391,13 +391,13 @@ When an image is loaded, you can configure the following:
 
 The final image (with **Title** and **Description**) may be shown as:
 
-![](assets/chlimage_1-222.png) 
+![](assets/chlimage_1-195.png) 
 
 ### Layout Container {#layout-container}
 
 This component provides a grid-paragraph system to allow you to add and position components within a [responsive grid](../../../sites/authoring/using/responsive-layout.md). This allows you to define differing content layouts based on the width of target devices, including a range of phones, tablets and the desktop.
 
-![](assets/chlimage_1-223.png)
+![](assets/chlimage_1-196.png)
 
 >[!NOTE]
 >
@@ -463,7 +463,7 @@ The following example shows a **List** component the way it may display a list o
 
 These provides the Username and Password fields.
 
-![](assets/chlimage_1-224.png)
+![](assets/chlimage_1-197.png)
 
 You can configure:
 
@@ -502,7 +502,7 @@ You can configure:
     * **Type/Size** 
       Select from the selection provided.
 
-![](assets/chlimage_1-225.png) 
+![](assets/chlimage_1-198.png) 
 
 ### Reference {#reference}
 
@@ -531,7 +531,7 @@ For example:
 
 Once configured the content will appear exactly as on the source page. The fact that it is a reference is only seen when you open the component for editing:
 
-![](assets/chlimage_1-226.png) 
+![](assets/chlimage_1-199.png) 
 
 ### Search {#search}
 
@@ -641,7 +641,7 @@ You can make basic changes to the content using the in-line editor:
 
 In full screen mode you can configure the table layout:
 
-![](assets/chlimage_1-227.png)
+![](assets/chlimage_1-200.png)
 
 The following screenshot shows an example of the table component; the design is determined by the site-specific CSS:
 
@@ -676,7 +676,7 @@ For more information about applying tags, visit [Using Tags](../../../sites/auth
 
 The Text component lets you enter a text block using a WYSIWYG editor, with functionality provided by the [Rich Text editor](../../../sites/authoring/using/rich-text-editor.md). A selection of icons allow you to format your text, including font characteristics, alignment, links, lists and indentation.
 
-![](assets/chlimage_1-228.png)
+![](assets/chlimage_1-201.png)
 
 When you open the **Configure** dialog, you can also set:
 
@@ -697,7 +697,7 @@ In addition to the dialog based Rich Text editing mode, AEM also provides [Inpla
 
 The Text & Image component adds a text block and an image. You can also add and edit text and images separately. See the [Text](#text) and [Image](#image) components for details.
 
-![](assets/chlimage_1-229.png)
+![](assets/chlimage_1-202.png)
 
 You can configure:
 
@@ -1132,7 +1132,7 @@ You can specify various parameters including a title, description and element na
 
 This allows you to provide the fields needed for entering credit card details. You can configure it to specify the types of card accepted and the information required (for example, security code).
 
-![](assets/chlimage_1-230.png) 
+![](assets/chlimage_1-203.png) 
 
 ### Dropdown List {#dropdown-list}
 
@@ -1265,5 +1265,5 @@ The standard text field can be configured to your required size and with with yo
 
 This allows you to create a Submit button for use in a workflow.
 
-![](assets/chlimage_1-231.png)
+![](assets/chlimage_1-204.png)
 

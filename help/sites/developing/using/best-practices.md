@@ -3,12 +3,12 @@ title: Best Practices
 seo-title: Best Practices
 description: Adobe Engineering and Consulting teams have developed a comprehensive set of best practices for AEM developers
 seo-description: Adobe Engineering and Consulting teams have developed a comprehensive set of best practices for AEM developers
-uuid: 6b312887-e3db-4fc4-8c40-4e0c86268b0c
+uuid: 73b162b6-a56e-4bc1-b3b7-78f6415c0ef0
 contentOwner: Justin Edelson
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
-discoiquuid: f95a5aa0-41ae-43f4-a8ab-4cfb6699ce92
+discoiquuid: 53e1b75c-1fd8-4a05-88d4-f4a13fbd8c64
 index: y
 internal: n
 snippet: y

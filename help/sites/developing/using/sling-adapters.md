@@ -3,12 +3,12 @@ title: Using Sling Adapters
 seo-title: Using Sling Adapters
 description: Sling offers an Adapter pattern to conveniently translate objects that implement the Adaptable interface
 seo-description: Sling offers an Adapter pattern to conveniently translate objects that implement the Adaptable interface
-uuid: 735b713f-748e-4b06-bb34-dbf813d7d01a
+uuid: 3445fac7-a8d6-41b8-a79c-725c156a57e6
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
-discoiquuid: b65378dd-6490-4044-a072-2aeee0da1989
+discoiquuid: 905e9197-28e3-4519-be5e-b1fda8317952
 index: y
 internal: n
 snippet: y

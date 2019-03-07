@@ -3,11 +3,11 @@ title: Asynchronous submission of adaptive forms
 seo-title: Asynchronous submission of adaptive forms
 description: Learn to configure asynchronous submission for adaptive forms.
 seo-description: Learn to configure asynchronous submission for adaptive forms.
-uuid: 26943610-f19e-4b78-9d9d-935634404ee4
+uuid: e32574b5-fdfd-4684-802a-6cdceba61d8e
 contentOwner: vishgupt
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
-discoiquuid: dcea7f94-3a2b-4358-ae36-8b06bb518bd8
+discoiquuid: 56bbd407-2622-4b89-a106-06447f817c83
 index: y
 internal: n
 snippet: y

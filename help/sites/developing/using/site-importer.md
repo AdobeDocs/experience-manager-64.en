@@ -3,12 +3,12 @@ title: Site Importer
 seo-title: Site Importer
 description: AEM provides the site importer to help you take an existing website and set up the basis
 seo-description: AEM provides the site importer to help you take an existing website and set up the basis
-uuid: 89b95418-001e-4cd8-b76d-8ca0fe3ebe0d
+uuid: 43d1486a-3c58-406a-aa36-3c5eea129bda
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: development-tools
 content-type: reference
-discoiquuid: 35248760-3e00-40ed-93bf-8e195f16151f
+discoiquuid: 4d0cfde4-21ba-4803-a0bf-33b8db6a2d73
 index: y
 internal: n
 snippet: y

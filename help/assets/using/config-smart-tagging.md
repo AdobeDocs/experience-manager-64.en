@@ -3,12 +3,12 @@ title: Configure Asset tagging using the Smart Content Service
 seo-title: Configure Asset tagging using the Smart Content Service
 description: Learn how to configure smart tagging and enhanced smart tagging in AEM, using the Smart Content Service.
 seo-description: How to configure the Smart Tags Content Service from within AEM.
-uuid: 525e4372-14ab-427e-8750-d4186c46b9a3
+uuid: 931148f2-3ade-4e42-b4b1-cd2039945143
 contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference
-discoiquuid: 352aaa4e-26d8-4276-850d-053f277bb90e
+discoiquuid: b73ad33d-8d4e-41a8-9dc3-3198eb91d092
 legacypath: /content/docs/en/aem/6-2/author/assets/managing-assets-touch-ui/configuring-smart-content-services-integration
 index: y
 internal: n
@@ -107,19 +107,19 @@ After you've completed the configuration, you can use a JMX MBean to validate th
 1. Tap/click **[!UICONTROL Edit]** from the toolbar.
 1. Expand the Side Panel to display the steps. Drag **[!UICONTROL Smart Tag Asset]**** **step that is available in the DAM Workflow section and place it after the **[!UICONTROL Process Thumbnails]** step.
 
-   ![Add smart tag asset step after the process thumbnail  step in the DAM Update Asset workflow](assets/chlimage_1-110.png)
+   ![Add smart tag asset step after the process thumbnail  step in the DAM Update Asset workflow](assets/chlimage_1-105.png)
 
 1. Open the step in edit mode. Under **Advanced Settings**, ensure that the **Handler Advance** option is selected.
 
-   ![](assets/chlimage_1-111.png)
+   ![](assets/chlimage_1-106.png)
 
 1. In the **Arguments** tab, select **Ignore Errors** if you want the workflow to complete even if the automatic tagging step fails.
 
-   ![](assets/chlimage_1-112.png)
+   ![](assets/chlimage_1-107.png)
 
    To tag assets when they are uploaded irrespective of whether smart tagging is enabled on folders, select **Ignore Smart Tag Flag**.
 
-   ![](assets/chlimage_1-113.png)
+   ![](assets/chlimage_1-108.png)
 
 1. Tap/click **OK** to close the process step, and then save the workflow.
 

@@ -3,12 +3,12 @@ title: Troubleshooting AEM
 seo-title: Troubleshooting AEM
 description: Learn about troubleshooting issues with AEM.
 seo-description: Learn about troubleshooting issues with AEM.
-uuid: 56993def-a2d6-4f1a-b3d0-f1479b0619a3
+uuid: 2db421b5-ad21-4db1-90e9-6b42af8fcf8b
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: 4ed09472-d9b2-4166-823d-41f09e96a493
+discoiquuid: f57cc3ea-6d89-47b1-afe9-0edea1b5b7f1
 index: y
 internal: n
 snippet: y
@@ -61,7 +61,7 @@ The following table provides an overview of problems administrators may need to 
 
 ## Installation Issues {#installation-issues}
 
-See [Common Installation Issues](/content/docs/en/aem/6-3/deploy/installing#par_title_18) for information about the following troubleshooting scenarios:
+See [Common Installation Issues](../../../sites/deploying/using/troubleshooting.md#commoninstallationissues) for information about the following troubleshooting scenarios:
 
 * Double-clicking the Quickstart jar has no effect or the JAR file with another program (such as archive manager).
 * Applications running on CRX throw out-of-memory errors.

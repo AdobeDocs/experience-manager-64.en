@@ -3,12 +3,12 @@ title: Encapsulated Token Support
 seo-title: Encapsulated Token Support
 description: Learn about the Encapsulated Token support in AEM.
 seo-description: Learn about the Encapsulated Token support in AEM.
-uuid: b2bec92a-d9a3-4a5a-9b21-9dd8c4fd6e56
+uuid: d91585e0-22d0-41a9-8796-ef35fd03d935
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
-discoiquuid: e711f9fb-d255-4ccc-a472-cc3ca494ad90
+discoiquuid: 33f0641f-9685-4a5c-adbf-28fc7fbc9895
 index: y
 internal: n
 snippet: y

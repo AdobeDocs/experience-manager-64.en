@@ -3,12 +3,12 @@ title: Changing the color scheme of the interface
 seo-title: Changing the color scheme of the interface
 description: How to modify the color scheme of AEM Forms workspace user interface portions selectively.
 seo-description: How to modify the color scheme of AEM Forms workspace user interface portions selectively.
-uuid: de620c98-1d53-4313-9446-1ef08145b62c
+uuid: 38ec077f-472a-4f38-b937-e9446c55df74
 contentOwner: robhagat
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
-discoiquuid: 61695244-9bd9-4b36-8fbd-59fea111ee00
+discoiquuid: 88822f58-85ac-4bbd-b98a-f4970c8bfb0a
 index: y
 internal: n
 snippet: y

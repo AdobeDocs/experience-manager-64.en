@@ -3,13 +3,13 @@ title: Assembling Multiple XDP Fragments
 seo-title: Assembling Multiple XDP Fragments
 description: null
 seo-description: null
-uuid: 41df7c40-986d-45ee-9551-5557708c58f0
+uuid: 952928c6-dce9-4765-b7d9-ce8f639cf612
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/assembling_pdf_documents
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: 40b7b6c4-2b25-4bf5-ae29-e625bcc25385
+discoiquuid: 05444be8-7e02-4b23-8fef-54328bc9d541
 index: y
 internal: n
 snippet: y

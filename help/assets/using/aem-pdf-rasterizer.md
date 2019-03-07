@@ -3,12 +3,12 @@ title: Using PDF Rasterizer
 seo-title: Using PDF Rasterizer
 description: This article describes how to generate high-quality thumbnails and renditions using the Adobe PDF Rasterizer library.
 seo-description: Learn how to generate high-quality thumbnails and renditions using the Adobe PDF Rasterizer library.
-uuid: b161c48e-5b5c-4ec8-a6a2-3e5387ce9f82
+uuid: 21075736-4dd5-418b-9618-6908072904f6
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: 09de0f00-14df-49b8-85ae-1926c94bc0b4
+discoiquuid: ed938cc9-dbbc-415c-a037-52ccf4c352ba
 index: y
 internal: n
 snippet: y

@@ -3,10 +3,10 @@ title: Creating accessible adaptive forms
 seo-title: Creating accessible adaptive forms
 description: AEM Forms provides you tools and to create accessible adaptive forms and helps comply with accessibility standards.
 seo-description: AEM Forms provides you tools and to create accessible adaptive forms and helps comply with accessibility standards.
-uuid: 0a12ae15-3796-457f-b8e2-e26c9c9bc74e
+uuid: 836d1eb4-0c85-407f-b8b6-f3414a5a5a17
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
-discoiquuid: da793fe5-7620-4974-9c8d-094d49e0f884
+discoiquuid: 1e3ef219-aab5-4169-9187-30f02e4ea55a
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: How to Work With Packages
 seo-title: How to Work With Packages
 description: Learn the basics of working with packages in AEM.
 seo-description: Learn the basics of working with packages in AEM.
-uuid: 75c936fe-0d99-498a-b2ae-4ad00cafb00a
+uuid: 0dcdaef1-0312-410f-b459-e9c54b0f6e5c
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: content
 content-type: reference
-discoiquuid: 450c7609-f87a-4a3d-bafb-44c64223d1c0
+discoiquuid: d93c600c-9358-4332-8102-f4e69fad629d
 index: y
 internal: n
 snippet: y
@@ -82,7 +82,7 @@ The **Package Settings** dialog is available via the **Edit** button when [creat
 | Description |A brief description of the package. HTML markup can be used for formatting. |
 | Thumbnail |The icon that appears with the package listing. Click Browse to select a local file. |
 
-![](assets/chlimage_1-384.png)  
+![](assets/chlimage_1-344.png)  
 
 <table> 
  <tbody> 
@@ -157,7 +157,7 @@ Filters can include zero or more rules. When no rules are defined, the package c
 
 You can define one or more filter definitions for a package. Use more than one filter to include content from multiple root paths.
 
-![](assets/chlimage_1-385.png)
+![](assets/chlimage_1-345.png)
 
 The following table describes these rules and provides examples:
 
@@ -781,7 +781,7 @@ In Package Share packages are arranged in tree subtrees:
 * Shared packages that have been provided by others companies and have been made public by Adobe.  
 * Your company packages that are private.
 
-![](assets/chlimage_1-386.png) 
+![](assets/chlimage_1-346.png) 
 
 ### Searching and Filtering Packages {#searching-and-filtering-packages}
 
@@ -861,7 +861,7 @@ To upload packages your the company-internal Package Share:
 
    When you are logged in, AEM will display details about the package to be uploaded:
 
-   ![](assets/chlimage_1-387.png)
+   ![](assets/chlimage_1-347.png)
 
 1. Click **Share** to upload the package to your company's internal Package Share.
 

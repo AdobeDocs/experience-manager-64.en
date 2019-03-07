@@ -3,12 +3,12 @@ title: Tag Libraries
 seo-title: Tag Libraries
 description: The Granite, CQ, and Sling tag libraries give you access to specific functions for use in the JSP script of your templates and components
 seo-description: The Granite, CQ, and Sling tag libraries give you access to specific functions for use in the JSP script of your templates and components
-uuid: 5a3efe58-b69c-47e4-adcc-6022459b9cfa
+uuid: 0d63c627-7b8f-4209-a0e9-8e76eed97520
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
-discoiquuid: f10e72a5-9d1b-469e-9d0f-78475cf888c7
+discoiquuid: edd44656-3499-49bd-8a59-42229586b80a
 index: y
 internal: n
 snippet: y

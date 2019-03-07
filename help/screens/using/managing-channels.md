@@ -3,12 +3,12 @@ title: Creating and Managing Channels
 seo-title: Managing Channels
 description: Follow this page to learn about creating and managing channels. It also explains channel dashboard and editing content for a channel.
 seo-description: Follow this page to learn about creating and managing channels. It also explains channel dashboard and editing content for a channel.
-uuid: e12801cc-8389-4807-9448-7816fa2ded82
+uuid: bc338163-e1f1-422c-b36d-cb4e31725469
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: authoring
-discoiquuid: d3e751d9-b576-4446-a5af-46755bd16b1d
+discoiquuid: bab33e56-0a28-4c4b-874f-26291d7f5385
 index: y
 internal: n
 snippet: y
@@ -85,7 +85,7 @@ To add or edit content in a channel, follow the steps below:
 1. Click on the Channel you want to edit (as shown in the figure above).
 1. Click **Edit **from the top left corner of the action bar to edit the channel properties. The editor opens that allows you to add assets/components to your channel that you want to publish.
 
-![](assets/chlimage_1-81.png)
+![](assets/chlimage_1-44.png)
 
 **Uploading Videos to the Channel** Follow the steps below to upload videos to your channel:
 
@@ -139,15 +139,15 @@ Follow the steps below to make the channel online:
 
    Select the channel.
 
-   ![](assets/chlimage_1-82.png)
+   ![](assets/chlimage_1-45.png)
 
    Click **View Dashboard** from the action bar to view the status of the player. The **CHANNEL INFORMATION **panel provides information on whether the channel is online or offline.
 
-   ![](assets/chlimage_1-83.png)
+   ![](assets/chlimage_1-46.png)
 
 1. Click **Properties** from the action bar and navigate to the **Channel** tab as shown below:
 
-   ![](assets/chlimage_1-84.png)
+   ![](assets/chlimage_1-47.png)
 
 1. Check the **Make channel online** to make the channel as online.
 
@@ -157,7 +157,7 @@ Follow the steps below to make the channel online:
 
    The channel dashboard displays and the **CHANNEL INFORMATION** panel shows the online status of the player.
 
-   ![](assets/chlimage_1-85.png)
+   ![](assets/chlimage_1-48.png)
 
 #### Automatic versus Manual Updates from the Device Dashboard {#automatic-versus-manual-updates-from-the-device-dashboard}
 
@@ -205,7 +205,7 @@ The assigned displays panel shows the display associated to the channel. It prov
 
 The associated displays will list in the **Assigned Displays** panel, as shown below:
 
-![](assets/chlimage_1-86.png)
+![](assets/chlimage_1-49.png)
 
 >[!NOTE]
 >
@@ -217,7 +217,7 @@ The associated displays will list in the **Assigned Displays** panel, as shown b
 
 Additionally, click on the display in the **ASSIGNED DISPLAYS** panel, to view the display information, as shown below:
 
-![](assets/chlimage_1-87.png) 
+![](assets/chlimage_1-50.png) 
 
 ### The Next Steps {#the-next-steps}
 

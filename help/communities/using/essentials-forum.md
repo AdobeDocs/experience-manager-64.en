@@ -3,12 +3,12 @@ title: Forum Essentials
 seo-title: Forum Essentials
 description: Forum overview
 seo-description: Forum overview
-uuid: cf846dbf-b5b7-4638-94e7-f5fe8e5b77ef
+uuid: badf1db6-4ed6-4497-955a-d92e47e08db1
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 14a9d5c5-cbfa-454b-a0ab-26560d3e8b8c
+discoiquuid: 9b5f442c-9640-4340-8ee0-864fef676317
 index: y
 internal: n
 snippet: y

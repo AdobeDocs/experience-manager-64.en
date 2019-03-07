@@ -3,12 +3,12 @@ title: Synchronizing the app
 seo-title: Synchronizing the app
 description: Synchronize the AEM Forms app on your mobile device with the AEM Forms server.
 seo-description: Synchronize the AEM Forms app on your mobile device with the AEM Forms server.
-uuid: 7fdfc35d-4d0f-4723-88f6-e57f58c982a0
+uuid: 44e32664-a4c6-4a8d-a4a1-0920f5119132
 contentOwner: robhagat
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
-discoiquuid: 4d4beb41-5319-4611-855a-3bd97756ae75
+discoiquuid: baadff7d-a61b-48b9-8c6d-ea19e8b4c4ee
 index: y
 internal: n
 snippet: y

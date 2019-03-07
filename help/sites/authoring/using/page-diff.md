@@ -3,12 +3,12 @@ title: Page Diff
 seo-title: Page Diff
 description: The page diff feature allows for the convenient side-by-side comparison of two pages with their differences highlighted.
 seo-description: The page diff feature allows for the convenient side-by-side comparison of two pages with their differences highlighted.
-uuid: 1c2391c0-8e1c-4aec-8bc5-fd0104dcd85d
+uuid: cbc0b53c-4614-404e-9434-627eab448dc2
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
-discoiquuid: 39aaf5d5-7f6f-4963-bfa7-9983f3e5973f
+discoiquuid: 5bcf89ca-2568-4c76-a48a-001bbc458667
 index: y
 internal: n
 snippet: y
@@ -50,7 +50,7 @@ For example if comparing versions, the current version is displayed on the left 
 
 The source of both pages is clearly displayed in the header bar at the top of the browser window.
 
-![](assets/chlimage_1-252.png)
+![](assets/chlimage_1-355.png)
 
 The diff detects changes at the component and HTML level. Items that have been changed are highlighted with different colors.
 
@@ -76,15 +76,15 @@ Note the Changed and Moved colors are the same.
 
 In order to focus on particular content, you can click on the full screen icon for either "side" of the side-by-side diff to enlarge it to the full browser window.
 
-![](do-not-localize/chlimage_1-19.png)
+![](do-not-localize/chlimage_1-24.png)
 
 The selected side will fill the entire window, but the bar will remain at the top allowing you to switch between the two pages.
 
-![](assets/chlimage_1-253.png)
+![](assets/chlimage_1-356.png)
 
 You can also choose to close the full screen view by clicking the exit full screen icon.
 
-![](do-not-localize/chlimage_1-20.png)
+![](do-not-localize/chlimage_1-25.png)
 
 You can exit the side-by-side diff at any time by clicking the Close button in the header.
 
@@ -96,6 +96,9 @@ There are some situations in which the page diff may not detect a difference as 
 * For versions the diff does not recreate the access control policy and live copy relationships.
 * If any changes are made to an image such as modifying the alt, title, or src attributes, it will be highlighted in blue as changed. However in some cases the image has a Base64 representation of the src attribute and even if both images look the same they will be marked by the diff as different because of the differing src attributes.
 * The diff is unable to detect image rotation.
+* If a page is moved, you can no longer perform a diff with any versions made before the move.
+
+    * If you experience problems with a diff, check the [Timeline](../../../sites/authoring/using/basic-handling.md#timeline) for the page to see whether the page has been moved.
 
 >[!NOTE]
 >

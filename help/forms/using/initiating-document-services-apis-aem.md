@@ -3,11 +3,11 @@ title: Initiate Document Services APIs from AEM Workflow
 seo-title: Initiate Document Services APIs from AEM Workflow 
 description: Learn how to invoke AEM Document services on DDX or supplied inputs. Also see hwo to convert PDF to PDF/A
 seo-description: Learn how to invoke AEM Document services on DDX or supplied inputs. Also see hwo to convert PDF to PDF/A
-uuid: c8b35176-4d59-40a2-b8f4-27eee294ac3d
+uuid: 9f8f240a-16d8-4ae3-ae96-c5e6b53a444d
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: document_services
-discoiquuid: 7118dcf4-cfad-4258-92e2-eb7733ec3043
+discoiquuid: 0413933f-e4fb-4ec2-8c44-12668aecdc75
 index: y
 internal: n
 snippet: y

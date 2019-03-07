@@ -3,12 +3,12 @@ title: Target offers
 seo-title: Target offers
 description: Create target offers
 seo-description: Create target offers
-uuid: dc5b97ec-8c10-4e36-b859-4fec84c25538
+uuid: b81c12b4-091b-41dd-bb34-be9dc8376bea
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: c809f6ee-1ef9-4cde-a14a-56b1fc11129b
+discoiquuid: 2df66c63-8abf-4ca2-9696-8d0a1918369b
 index: y
 internal: n
 snippet: y

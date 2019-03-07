@@ -3,12 +3,12 @@ title: Audit Log Maintenance in AEM 6
 seo-title: Audit Log Maintenance in AEM 6
 description: Lear about Audit Log Maintenance in AEM.
 seo-description: Lear about Audit Log Maintenance in AEM.
-uuid: b053919d-36d1-4bf9-b008-a3425aa0fded
+uuid: 873d8f39-3559-47ce-95d3-ed69c1f8a1a7
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: b7060901-3f25-433f-8a8b-54b2c5858d56
+discoiquuid: f53eee8a-8114-42fe-8505-526e60a7d7f7
 index: y
 internal: n
 snippet: y
@@ -40,7 +40,7 @@ Follow these steps in order to configure Audit Log Purging:
 
 1. Search for an item called **Pages** **audit Log Purge rule** and click it.
 
-   ![](assets/chlimage_1-405.png)
+   ![](assets/chlimage_1-365.png)
 
 1. Next, configure the purge scheduler according to your requirements. The available options are:
 
@@ -61,7 +61,7 @@ Follow these steps in order to configure Audit Log Purging:
 
 1. You will find the maintenance task already present under the **AuditLog Maintenance Task** card.
 
-   ![](assets/chlimage_1-406.png)
+   ![](assets/chlimage_1-366.png)
 
 1. You can either inspect the date of the next execution, configure it, or manually executing it by pressing the play button.
 

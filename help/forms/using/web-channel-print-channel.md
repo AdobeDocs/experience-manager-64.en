@@ -3,10 +3,10 @@ title: Print channel and web channel
 seo-title: Print channel and web channel
 description: Importing print channel templates and creating and enabling web channel templates
 seo-description: Importing print channel templates and creating and enabling web channel templates
-uuid: 2c4d3089-cfca-4785-9f8e-707202a9199b
+uuid: 2efbb0c7-0357-4b51-a85d-ae9bad5c9a83
 topic-tags: interactive-communications
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: a3aa596b-4980-481f-8fa8-f736b2933554
+discoiquuid: 0eb62484-967d-43b4-84fe-ae09358e65af
 index: y
 internal: n
 snippet: y
@@ -81,10 +81,6 @@ To author a web channel template Complete the following steps:
 ### Print channel as master for web channel {#print-channel-as-master-for-web-channel}
 
 While authoring an Interactive Communication, authors can select this option to create the web channel in sync with the print channel. Using print channel as master for web channel ensures the content, inheritance, and data binding of the web channel is derived from the print channel and the changes made in the print channel could be reflected in the web channel. The Interactive Communication authors are, however, allowed to break the inheritance for specific components in the web channel, as required.
-[ ![](assets/printweb_2-2.png)
 
-(Click to enlarge) 
+![](assets/printweb_2-2.png)
 
-Print and web channels in the Interactive Communication editor 
-
-](assets/printweb_2-1.png) 

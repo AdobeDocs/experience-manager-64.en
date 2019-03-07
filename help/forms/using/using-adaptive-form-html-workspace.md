@@ -3,11 +3,11 @@ title: Using an adaptive form in HTML Workspace
 seo-title: Using an adaptive form in HTML Workspace
 description: Using an adaptive form in HTML Workspace
 seo-description: Using an adaptive form in HTML Workspace
-uuid: d2d0d314-c664-4e2e-b198-9aa51b7ea34d
+uuid: bc86b5ac-3e22-47f8-b752-086866db220c
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
-discoiquuid: 5c34e3b8-38d4-4d05-a84c-9a2c43406116
+discoiquuid: fbc3c142-14c5-46ae-b064-c8b060a42eb7
 index: y
 internal: n
 snippet: y

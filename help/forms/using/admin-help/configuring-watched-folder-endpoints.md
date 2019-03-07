@@ -3,12 +3,12 @@ title: Configuring watched folder endpoints
 seo-title: Configuring watched folder endpoints
 description: Learn how to configure watched folder endpoints.
 seo-description: Learn how to configure watched folder endpoints.
-uuid: 288ced70-6c08-4cdc-afeb-9a4ad681e8b9
+uuid: 3286494f-2025-42e4-a85b-41e7d3d54a4f
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/managing_endpoints
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 4934d823-9fb0-4f52-be1a-8508c65c4008
+discoiquuid: fe041456-3a9d-47cd-8367-3c3c933ee4fe
 index: y
 internal: n
 snippet: y

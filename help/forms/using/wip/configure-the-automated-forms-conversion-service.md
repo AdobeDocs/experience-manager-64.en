@@ -3,9 +3,9 @@ title: Configure the Automated Forms Conversion service
 seo-title: Configure the Automated Forms Conversion service
 description: Ready your AEM instance to use Automated Forms Conversion service
 seo-description: Ready your AEM instance to use Automated Forms Conversion service
-uuid: 92b2b489-679b-4c63-a5bb-9fce663422df
+uuid: cb32bd6f-2126-47d1-aca9-6dc3aaa43226
 contentOwner: khsingh
-discoiquuid: faae95ff-8ce8-4d88-a8ca-f4358c758f2b
+discoiquuid: 8e8e2183-68d4-4ef6-bc92-7889b277fd03
 index: y
 internal: n
 snippet: y

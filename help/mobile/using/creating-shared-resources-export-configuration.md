@@ -3,12 +3,12 @@ title: Creating Shared Resources Export Configuration
 seo-title: Creating Shared Resources Export Configuration
 description: Follow this page to learn about exporting shared resources from Adobe Experience Manager (AEM) for upload to AEM Mobile.
 seo-description: Follow this page to learn about exporting shared resources from Adobe Experience Manager (AEM) for upload to AEM Mobile.
-uuid: b1282736-ec73-4567-bd7c-5f3b5e35584b
+uuid: e6393e34-a7a2-4583-8984-d3fc5e3ca25d
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: developing-on-demand-services-app
-discoiquuid: 0865135d-1f8b-40e3-b89b-c4efb368273a
+discoiquuid: 6e4ae5e0-25c4-47c9-84a2-b2dcdde53666
 index: y
 internal: n
 snippet: y

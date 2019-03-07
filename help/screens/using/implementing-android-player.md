@@ -3,12 +3,12 @@ title: Implementing Android Player
 seo-title: Implementation of Android Player
 description: Follow this page to learn implementation of Android Watchdog, a solution to recover the player from crashes. 
 seo-description: Follow this page to learn implementation of Android Watchdog, a solution to recover the player from crashes. 
-uuid: 4a3e056e-5f6a-4fad-85e8-2e5985d253b4
+uuid: a8136996-cf32-4870-9fb8-2035cef606c8
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: administering
-discoiquuid: 8968daa9-5549-499c-bebe-90ff40eecb82
+discoiquuid: f658afd7-cd4b-4ae3-96ac-4783c62670d5
 index: y
 internal: n
 snippet: y
@@ -49,7 +49,7 @@ The cross-Android watchdog service is implemented as a cordova plugin using *Ala
 
 The following diagram shows the implementation of watchdog service:
 
-![](assets/chlimage_1-80.png)
+![](assets/chlimage_1-43.png)
 
 **1. Initialization** At the time of initialization of the cordova plugin, permissions are checked to see if we have system privileges and thus the Reboot permission. If these two criteria are met, a pending Intent for Reboot is created, otherwise a pending Intent to restart the application (based on its Launch Activity) is created.
 

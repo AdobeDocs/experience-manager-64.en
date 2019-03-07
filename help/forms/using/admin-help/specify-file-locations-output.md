@@ -3,12 +3,12 @@ title: Specify file locations for Output
 seo-title: Specify file locations for Output 
 description: Learn how to specify file locations for Output.
 seo-description: Learn how to specify file locations for Output.
-uuid: 105a8464-1a90-4f4d-98ae-93714715660a
+uuid: 8ac55dfc-7cf5-4440-8969-dd0acf3671b8
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_output
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 81d9bb85-e617-4a3f-8ba9-3dcc4a323fc8
+discoiquuid: 1e716100-ea73-4162-aa1f-ef69009fb5e2
 index: y
 internal: n
 snippet: y

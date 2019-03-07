@@ -3,12 +3,12 @@ title: Troubleshooting your Adobe Campaign Integration
 seo-title: Troubleshooting your Adobe Campaign Integration
 description: Learn how to troubleshoot issues with the Adobe Campaign Integration.
 seo-description: Learn how to troubleshoot issues with the Adobe Campaign Integration.
-uuid: 0fe92a58-e013-4da4-b38b-2802bad55f99
+uuid: 6d51922d-1079-452e-b2ed-868cc6736ddc
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: 2621d091-b914-43fc-a6b7-c63a04ac4ebe
+discoiquuid: bd685d62-0a65-4d27-896f-b7a61afe76bb
 index: y
 internal: n
 snippet: y
@@ -56,7 +56,7 @@ To fix this issue, change the following in **$CAMPAIGN_HOME/conf/config-&lt;inst
 
 In Adobe Campaign, ensure that you have no trailing slash (/) after the port number. See [Configuring an external AEM account](#configuringanexternalaemaccount).
 
-![](assets/chlimage_1-181.png) 
+![](assets/chlimage_1-149.png) 
 
 ## If you get a warning about your setlocale {#if-you-get-a-warning-about-your-setlocale}
 

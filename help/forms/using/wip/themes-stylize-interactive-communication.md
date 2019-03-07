@@ -4,10 +4,10 @@ seo-title: [DO NOT PUBLISH] Themes in AEM Forms
 description: Learn how to customize themes of your adaptive forms using AEM Forms theme editor. 
 seo-description: Learn how to customize themes of your adaptive forms using AEM Forms theme editor. 
 page-status-flag: never-activated
-uuid: 4da013bb-919d-470e-9527-068bce32de0f
+uuid: 2141ce39-3c9b-42df-9e27-017f0ed9e57b
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
-discoiquuid: ae6ab660-1fba-4fb5-ad5d-e7d860a587ea
+discoiquuid: 180c0bb4-58d5-4c1e-a3c3-75bbc54fbb10
 index: y
 internal: n
 snippet: y

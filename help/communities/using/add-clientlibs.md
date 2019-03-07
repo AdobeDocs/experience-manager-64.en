@@ -3,12 +3,12 @@ title: Add Clientlibs
 seo-title: Add Clientlibs
 description: Add a ClientLibraryFolder
 seo-description: Add a ClientLibraryFolder
-uuid: 8d62ec2c-ba93-49d8-899c-d0d0e46d963c
+uuid: 166a586a-c13a-4260-a320-5ca19654063e
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 61db3848-824e-4357-ba28-2601349a2ea6
+discoiquuid: a7c3997f-a89e-4aee-ac83-d3ccab06aa56
 index: y
 internal: n
 snippet: y

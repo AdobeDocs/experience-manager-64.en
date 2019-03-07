@@ -3,11 +3,11 @@ title: Creating custom adaptive form themes
 seo-title: Creating custom adaptive form themes
 description: An adaptive form theme is an AEM client library that you use to define the styles (look and feel) for an adaptive form. Learn how you can create custom adaptive form themes.
 seo-description: An adaptive form theme is an AEM client library that you use to define the styles (look and feel) for an adaptive form. Learn how you can create custom adaptive form themes.
-uuid: ae1c0c14-0e5b-4e71-980d-d9a1d44b65b1
+uuid: 3ded002c-b954-4dc8-85a8-12957d5ebf58
 content-type: reference
 topic-tags: customization
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 35ee3de9-ffc6-4bd9-b7bd-cfdaca8ac937
+discoiquuid: 14c51773-b26a-4082-a84d-352aac1ce60d
 index: y
 internal: n
 snippet: y
@@ -31,7 +31,7 @@ An **adaptive form theme** is an AEM client library that you use to define the s
 
 You create an **adaptive template** and apply the theme to the template. You then use this custom template to create an **adaptive form**.
 
-![Adaptive Form and Client Library](assets/hierarchy-1.png) 
+![Adaptive Form and Client Library](assets/hierarchy.png) 
 
 ## To create an adaptive form theme {#to-create-an-adaptive-form-theme}
 

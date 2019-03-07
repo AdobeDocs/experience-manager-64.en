@@ -3,12 +3,12 @@ title: Document Security Service JavaAPI Quick Start(SOAP)
 seo-title: Document Security Service JavaAPI Quick Start(SOAP)
 description: null
 seo-description: null
-uuid: 3cfaf878-c06d-41a9-86a4-fc881be9f2ba
+uuid: d01e94e3-f6f0-46f8-ab80-6af02bfc7f60
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
-discoiquuid: 6e32acfb-bfde-41ae-85b1-5a1d1a755b01
+discoiquuid: 747a6d53-6c0b-4f52-a11a-cbd94fdce639
 index: y
 internal: n
 snippet: y

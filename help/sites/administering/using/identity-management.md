@@ -3,12 +3,12 @@ title: Identity Management
 seo-title: Identity Management
 description: Learn about identity management in AEM.
 seo-description: Learn about identity management in AEM.
-uuid: a24247b8-5daf-47ab-8ce6-9e58ccdce277
+uuid: 50645a63-c84b-40c0-b5f4-5394bf814676
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
-discoiquuid: e4bc9588-a52d-4460-bbe3-e3ae15f76239
+discoiquuid: 3b5559a6-b8d3-4de7-83bb-0cbba419b2f5
 index: y
 internal: n
 snippet: y
@@ -184,7 +184,7 @@ Profiles are stored in the Content Repository as part of the the [user account](
 
 The profile can be found under `/home/users/geometrixx`:
 
-![](assets/chlimage_1-425.png)
+![](assets/chlimage_1-385.png)
 
 On a standard installation (author or publish) everyone has read access to the entire profile information of all users. everyone is a "*Built-in group automatically containing all existing users and groups. The list of members cannot be edited*".
 

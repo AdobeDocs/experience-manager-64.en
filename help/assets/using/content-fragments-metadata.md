@@ -3,12 +3,12 @@ title: Metadata - Fragment Properties
 seo-title: Metadata - Fragment Properties
 description: You can view and edit the metadata (properties) for content fragments.
 seo-description: You can view and edit the metadata (properties) for content fragments.
-uuid: 3189d7b2-26b2-40ee-baa8-56b70e6e5a42
+uuid: c5393e48-5d0e-4b13-b0d5-e7c69699c749
 contentOwner: Alison Heimoz
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: content-fragments
 content-type: reference
-discoiquuid: 99068b23-826b-43d4-82d3-d1b78a9dc512
+discoiquuid: 899b4782-bfa2-4052-8d1a-59a03f796209
 index: y
 internal: n
 snippet: y

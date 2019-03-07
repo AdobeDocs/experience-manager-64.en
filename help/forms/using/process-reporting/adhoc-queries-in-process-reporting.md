@@ -3,11 +3,11 @@ title: Ad-hoc Queries in Process Reporting
 seo-title: Ad-hoc Queries in Process Reporting
 description: Create custom queries to search for AEM Forms on JEE  process and task details in Process Reporting
 seo-description: Create custom queries to search for AEM Forms on JEE  process and task details in Process Reporting
-uuid: e5407849-42c1-48d8-8e44-cc347c660dc7
+uuid: 05b2a572-3d7c-412a-9d20-7964cec6d821
 content-type: reference
 topic-tags: process-reporting
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 5243d560-3d75-4f0d-a790-7f02eae50bb1
+discoiquuid: 8d4671ee-a77f-4f18-b349-b0ea318cc369
 index: y
 internal: n
 snippet: y

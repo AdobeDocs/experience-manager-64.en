@@ -3,12 +3,12 @@ title: Teasers and Strategies
 seo-title: Teasers and Strategies
 description: Campaigns often use teasers as a mechanism to entice a specific segment of the visitor population through to content focused on their interests. One or more teasers are defined for a specific campaign.
 seo-description: Campaigns often use teasers as a mechanism to entice a specific segment of the visitor population through to content focused on their interests. One or more teasers are defined for a specific campaign.
-uuid: f44ec2ba-9963-4e4c-b115-20b773fafa12
+uuid: 64df563d-173b-4c5d-b924-26a1e6ac5230
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: 2c244c34-59bc-4456-86fb-824b28fc91a7
+discoiquuid: f2458c95-989c-4450-90e1-fe0585ecc9b5
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Authoring - the Environment and Tools
 seo-title: Authoring - the Environment and Tools
 description: The authoring environment of AEM provides various mechanisms for organizing and editing your content
 seo-description: The authoring environment of AEM provides various mechanisms for organizing and editing your content
-uuid: f23fb8ce-4f70-4ddb-857e-9332138b24d7
+uuid: 127fb9b8-ec82-4fd6-bf20-23dcb0a019e8
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: 33637138-ac3a-48f8-bed9-55b2ca878e87
+discoiquuid: c79acbd9-52e3-4a63-8580-98d8a7486142
 index: y
 internal: n
 snippet: y
@@ -24,7 +24,7 @@ The **Sites** console allows you to navigate and manage your website, using the 
 
 For example, card view:
 
-![](assets/chlimage_1-360.png) 
+![](assets/chlimage_1-290.png) 
 
 ## Editing Page Content {#editing-page-content}
 
@@ -115,7 +115,7 @@ When you open the side panel it will slide open from the left side. Select the *
 
 When the assets browser is open you can browse through all the assets available for your page. Infinite scrolling is used to expand the list when required.
 
-![](assets/chlimage_1-361.png)
+![](assets/chlimage_1-291.png)
 
 To add an asset to your page, select and drag to the required location. This can be:
 
@@ -232,7 +232,7 @@ Select the appropriate reference type for more information. In certain situation
 
 For example, you can fix a broken reference within a Reference component:
 
-![](assets/chlimage_1-362.png) 
+![](assets/chlimage_1-292.png) 
 
 ## Events - Timeline {#events-timeline}
 
@@ -294,7 +294,7 @@ There are various modes when editing a page allowing for different actions:
 
 You can access these using the icons in the top right corner. The actual icon will change to reflect the mode you are currently using:
 
-![](assets/chlimage_1-363.png)
+![](assets/chlimage_1-293.png)
 
 >[!NOTE]
 >
@@ -330,21 +330,21 @@ Once a resource is selected, the **Select** button at the upper-right of the dia
 
 If the context allows for the selection of multiple resources, selecting a resource also activates the Select button, but also adds a count of the number of selected resources to the upper-right of the window. Click the X next to the number to deselect all.
 
-![](assets/chlimage_1-364.png)
+![](assets/chlimage_1-294.png)
 
 The breadcrumbs can be used to quickly jump within the resource hierarchy.
 
-![](assets/chlimage_1-365.png)
+![](assets/chlimage_1-295.png)
 
 At any time you can use the search field at the top of the dialogue.
 
-![](assets/chlimage_1-366.png)
+![](assets/chlimage_1-296.png)
 
 Click the X in the search field to clear the search.
 
 To narrow your search, you can reveal the filter options and filter your results based on a certain path.
 
-![](assets/chlimage_1-367.png) 
+![](assets/chlimage_1-297.png) 
 
 ## Keyboard Shortcuts {#keyboard-shortcuts}
 

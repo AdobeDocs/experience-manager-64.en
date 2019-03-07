@@ -3,12 +3,12 @@ title: SPA Introduction and Walkthrough
 seo-title: SPA Introduction and Walkthrough
 description: This article introduces the concepts of a SPA and walks through using a basic SPA application for authoring, showing how it relates to the underlying AEM SPA Editor.
 seo-description: This article introduces the concepts of a SPA and walks through using a basic SPA application for authoring, showing how it relates to the underlying AEM SPA Editor.
-uuid: 3eb2a076-2b53-495f-a433-62fe6bc091fc
+uuid: 1aaa2338-9467-4042-b683-bc053649be4a
 contentOwner: bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: spa
 content-type: reference
-discoiquuid: c0d7c0d1-a1bb-4a7a-9d64-e50ed53edcac
+discoiquuid: 02df9623-461a-49a8-81b2-698fd15a72a9
 index: y
 internal: n
 snippet: y
@@ -33,6 +33,12 @@ The walkthrough is based on standard AEM functionality and the sample We.Retail 
 * [AEM version 6.4 with service pack 2 or newer  
   ](../../../release-notes/sp-release-notes.md)
 * [Install the sample We.Retail Journal app available on GitHub here.](https://github.com/Adobe-Marketing-Cloud/aem-sample-we-retail-journal)
+
+>[!CAUTION]
+>
+>This document uses the [We.Retail Journal app](https://github.com/Adobe-Marketing-Cloud/aem-sample-we-retail-journal) for demonstration purposes only. It should not be used for any project work.
+>
+>All SPA projects on AEM should be based on the [Maven Archetype for SPA Starter Kit](https://github.com/adobe/aem-spa-project-archetype).
 
 ### What is a SPA? {#what-is-a-spa}
 

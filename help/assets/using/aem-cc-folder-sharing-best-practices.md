@@ -3,12 +3,12 @@ title: AEM to Creative Cloud Folder Sharing Best Practices
 seo-title: AEM to Creative Cloud Folder Sharing Best Practices
 description: Configure Adobe Experience Manager (AEM) to allow users in AEM Assets to exchange folders with Adobe Creative Cloud (CC) users.
 seo-description: Configure Adobe Experience Manager (AEM) to allow users in AEM Assets to exchange folders with Adobe Creative Cloud (CC) users.
-uuid: 2145b938-ae6a-4966-8376-aa4de65ca9e5
+uuid: d44e5b6e-b059-4e7a-a35e-a2cfe44285ca
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: 684c8a22-6d47-4ab3-b4a2-82da0d93758a
+discoiquuid: 5ce813b4-879a-4728-a96f-9aabd50c4bbc
 index: y
 internal: n
 snippet: y
@@ -33,7 +33,7 @@ AEM to CC folder sharing relies on the server-side sharing of folders and files 
 
 The following diagram provides an overview of the integration.
 
-![](assets/chlimage_1-411.png)
+![](assets/chlimage_1-406.png)
 
 The integration includes the following elements:
 
@@ -71,5 +71,5 @@ Best practices for leveraging the AEM to CC folder sharing include:
 
 The following diagram illustrates an example configuration for creating new designs based on existing final assets from AEM Assets.
 
-![](assets/chlimage_1-412.png)
+![](assets/chlimage_1-407.png)
 

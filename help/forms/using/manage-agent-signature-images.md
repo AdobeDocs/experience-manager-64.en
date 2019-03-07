@@ -3,11 +3,11 @@ title: Manage agent signature images
 seo-title: Manage agent signature images
 description: After you have created a letter template, you can use it to create correspondence in AEM Forms by managing data, content, and attachments.
 seo-description: After you have created a letter template, you can use it to create correspondence in AEM Forms by managing data, content, and attachments.
-uuid: da235d04-af91-4e0c-a521-3c2ce56a96f5
+uuid: a5368ae5-a67b-4cc7-b178-c43c5d9d48b6
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
-discoiquuid: 979e98b2-95f7-44c3-82b1-6d29a45dc651
+discoiquuid: f1d2c68d-a1de-4019-937f-e28d965a36f3
 index: y
 internal: n
 snippet: y

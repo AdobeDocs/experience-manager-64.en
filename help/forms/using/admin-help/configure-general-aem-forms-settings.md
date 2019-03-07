@@ -3,12 +3,12 @@ title: General AEM Forms settings
 seo-title: General AEM Forms settings
 description: Learn to configure the Core Configurations page settings in administration console that can help improve system performance.
 seo-description: Learn to configure the Core Configurations page settings in administration console that can help improve system performance.
-uuid: 07b21464-292f-4984-99b5-4bf1db078151
+uuid: c3fba354-3ae1-4118-9c6d-3909d94c70b7
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/get_started_with_administering_aem_forms_on_jee
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 783abcbc-4d8d-48fb-9090-e060098a8a3a
+discoiquuid: 454729bd-66e7-4884-9d9a-dd081ca1407b
 index: y
 internal: n
 snippet: y

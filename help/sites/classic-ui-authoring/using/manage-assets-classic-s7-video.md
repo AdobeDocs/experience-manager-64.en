@@ -3,12 +3,12 @@ title: Video
 seo-title: Video
 description: Assets provides for centralized video asset management where you can upload videos directly to Assets for auto-encoding to Scene7 and access Scene7 videos directly from Assets for page authoring.
 seo-description: Assets provides for centralized video asset management where you can upload videos directly to Assets for auto-encoding to Scene7 and access Scene7 videos directly from Assets for page authoring.
-uuid: a13496cf-3e9f-4d9d-9d12-0796c6449654
+uuid: f13e3ebf-d754-45d2-852b-33f99d82acfa
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: authoring
 content-type: reference
-discoiquuid: 1d33622d-fb7b-4496-bd78-3a71d85f6e65
+discoiquuid: 2cf1cc31-4e38-43c0-a0d2-6123da611f51
 index: y
 internal: n
 snippet: y

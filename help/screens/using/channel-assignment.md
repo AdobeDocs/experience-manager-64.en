@@ -3,12 +3,12 @@ title: Channel Assignment
 seo-title: Channel Assignment
 description: Follow this page to learn about Channel Assignment and Dayparting.
 seo-description: Follow this page to learn about Channel Assignment and Dayparting.
-uuid: 884dbc11-b168-4eb2-bb67-d212aa46b4be
+uuid: 90484eea-d5e6-463a-b4f5-54e5365293c8
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: authoring
-discoiquuid: 64cf6531-e2be-4d7b-a5ce-e78bb3dcf473
+discoiquuid: 11b7ef3b-7d67-40a5-9078-c566547f8311
 index: y
 internal: n
 snippet: y
@@ -89,7 +89,7 @@ Follow the steps below to assign a channel to a display:
 
 1. Click **Save** to assign the created channel to a display.
 
-### Dayparting {#dayparting}
+## Dayparting {#dayparting}
 
 Schedules when when combined with **Dayparting**, allows you to set a global schedule with multiple channels running at specific times of the day, and re-use that setup for all your displays at once.
 

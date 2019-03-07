@@ -3,12 +3,12 @@ title: AEM Mobile On-Demand
 seo-title: AEM Mobile On-Demand
 description: Starting a new AEM Mobile app experience requires a cohesion of roles before it is ready for content editing. Follow this page to get started with AEM mobile On-Demand services.
 seo-description: Starting a new AEM Mobile app experience requires a cohesion of roles before it is ready for content editing. Follow this page to get started with AEM mobile On-Demand services.
-uuid: 4e1efd0f-5ed1-41aa-87e5-1158024fb0d5
+uuid: cdc48f00-901c-4aba-a54f-65421e23ca4e
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: introduction
 content-type: reference
-discoiquuid: d5644680-7487-47a0-a1cd-483ac7a5ac1d
+discoiquuid: a0a8cdaf-6b55-4e73-97ef-71ff1b55e546
 index: y
 internal: n
 snippet: y

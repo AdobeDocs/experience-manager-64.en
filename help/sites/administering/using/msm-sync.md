@@ -3,12 +3,12 @@ title: Configuring Live Copy Synchronization
 seo-title: Configuring Live Copy Synchronization
 description: Learn about configuring Live Copy Synchronization.
 seo-description: Learn about configuring Live Copy Synchronization.
-uuid: e6016db6-f3d1-466d-bbc9-be6471c5c513
+uuid: 77f72963-1b17-4d8b-8a53-a294e5fbab58
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features
 content-type: reference
-discoiquuid: d3aee760-82ae-49ac-8a68-7b1b6223cadb
+discoiquuid: d05db8aa-e85f-43f8-a79f-47095882a671
 index: y
 internal: n
 snippet: y

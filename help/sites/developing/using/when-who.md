@@ -3,12 +3,12 @@ title: Testing - when and with whom?
 seo-title: Testing - when and with whom?
 description: Various roles can be involved in testing and at various stages of project development
 seo-description: Various roles can be involved in testing and at various stages of project development
-uuid: caf2a7da-cb83-471e-8882-3faf81f96e7b
+uuid: 08649947-1445-4792-991e-fabd21bbb5a3
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: testing
 content-type: reference
-discoiquuid: 08c922d4-3958-4868-a377-e7fdc16dd4e4
+discoiquuid: 8d49e2ac-c07a-490b-a72e-86dd7482a56a
 index: y
 internal: n
 snippet: y

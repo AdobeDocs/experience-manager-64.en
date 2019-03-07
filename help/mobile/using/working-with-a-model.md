@@ -3,10 +3,10 @@ title: Working with Models
 seo-title: Working with Models
 description: null
 seo-description: null
-uuid: dfc10a36-4013-448c-ac08-51b59fa415dc
+uuid: 9b65c3df-9e13-4953-9de6-705e968ec564
 contentOwner: Jyotika Syal
 content-type: reference
-discoiquuid: e5a36a3b-8927-4168-b846-581a67ac8c86
+discoiquuid: abbeafcb-be58-4a77-bd3b-d93b8fe45869
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/mobile/using/administer-mobile-apps
 index: y

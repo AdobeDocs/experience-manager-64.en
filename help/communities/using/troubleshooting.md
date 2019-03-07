@@ -3,12 +3,12 @@ title: Troubleshooting
 seo-title: Troubleshooting
 description: Troubleshooting Community including Known Issues
 seo-description: Troubleshooting Community including Known Issues
-uuid: 764884ae-a167-4c4d-a892-7684c246d7e4
+uuid: eded748b-395c-4bd6-bd45-9651ae1cb52a
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 693743d3-135f-4074-bc89-ae0345722e52
+discoiquuid: d89b33ab-f141-4108-ad08-4171d3583c2b
 index: y
 internal: n
 snippet: y

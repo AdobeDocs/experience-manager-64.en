@@ -3,10 +3,10 @@ title: Create Letter
 seo-title: Create Letter
 description: This topic gives you the steps to create a letter, add data modules and attachments to it, and preview it in Correspondence Management. 
 seo-description: This topic gives you the steps to create a letter, add data modules and attachments to it, and preview it in Correspondence Management. 
-uuid: d38d9716-5b07-4911-97a7-98545c4fbe4e
+uuid: 3b4c5ece-e41a-46b3-9648-c058bd4527b0
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
-discoiquuid: 63d78be0-cdae-4ca5-bd2b-514231713348
+discoiquuid: 9d058417-ca95-46c2-97b8-52a3d12c492b
 index: y
 internal: n
 snippet: y

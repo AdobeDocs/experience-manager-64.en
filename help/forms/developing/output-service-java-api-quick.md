@@ -3,12 +3,12 @@ title: Output Service Java API Quick Start(SOAP)
 seo-title: Output Service Java API Quick Start(SOAP)
 description: null
 seo-description: null
-uuid: 249ecd71-c1af-4211-88bf-4feef7419173
+uuid: 72bd4894-5324-48d3-80e0-b0fbc09e6042
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
-discoiquuid: e2cda72c-4959-47c6-b35e-b6767b06e86c
+discoiquuid: b4a46c61-35d8-46e6-9c28-44773d02cce6
 index: y
 internal: n
 snippet: y

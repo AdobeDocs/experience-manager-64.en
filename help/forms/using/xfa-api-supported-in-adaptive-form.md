@@ -3,10 +3,10 @@ title: XFA support in XDP-based adaptive forms
 seo-title: XFA support in XDP-based adaptive forms
 description: Lists supported XFA events, properties, scripts, and validation in adaptive forms.
 seo-description: Lists supported XFA events, properties, scripts, and validation in adaptive forms.
-uuid: 2418a705-13bf-445a-b6fc-d2587c71adb0
+uuid: 4e1ad81a-28a7-41f2-968e-d2490992c326
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
-discoiquuid: ef0bf880-f258-4149-a189-05a88f155e9b
+discoiquuid: 772277a9-930d-4dc5-8cfc-5d7434d69334
 index: y
 internal: n
 snippet: y

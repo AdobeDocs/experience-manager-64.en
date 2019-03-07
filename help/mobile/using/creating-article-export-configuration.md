@@ -3,12 +3,12 @@ title: Creating Article Export Configuration
 seo-title: Creating Article Export Configuration
 description: Follow this page to learn about exporting content from Adobe Experience Manager (AEM) for upload to AEM Mobile.
 seo-description: Follow this page to learn about exporting content from Adobe Experience Manager (AEM) for upload to AEM Mobile.
-uuid: 9d0db310-1b0e-43ea-8f72-64c76c5227a7
+uuid: 18a8ce78-cd8f-4e10-b3fc-92e5fceab1f3
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: developing-on-demand-services-app
-discoiquuid: 0ab6f7a5-f00f-4636-9590-0f41300bf13f
+discoiquuid: 78f469cd-483e-4ac9-96a3-07a09c03dc5f
 index: y
 internal: n
 snippet: y

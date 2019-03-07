@@ -3,12 +3,12 @@ title: Upgrade to AEM 6.4 Forms
 seo-title: Upgrade to AEM 6.4 Forms
 description: You can perform a direct upgrade from AEM 6.1 Forms, AEM 6.2 Forms, and LiveCycle ES4 SP1 to AEM 6.3 Forms. 
 seo-description: You can perform a direct upgrade from AEM 6.1 Forms, AEM 6.2 Forms, and LiveCycle ES4 SP1 to AEM 6.3 Forms. 
-uuid: 271db490-147c-444b-9a25-cd0519f7f6b5
+uuid: f75e910d-2f8a-4178-9839-5e2698bf00f2
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.3/FORMS
 topic-tags: installing
 geptopics: SG_AEMFORMS/categories/jee
-discoiquuid: b1938c21-d76f-41b4-9c86-463c046d2bbe
+discoiquuid: a15be27d-31a8-42f3-bd17-18b47e5df944
 index: y
 internal: n
 snippet: y

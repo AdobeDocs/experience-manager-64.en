@@ -3,12 +3,12 @@ title: Backup strategies for watched folders
 seo-title: Backup strategies for watched folders
 description: This document describes how watched folders are affected by different backup and recovery scenarios, the limitations and outcomes of these scenarios, and how to minimize data loss.
 seo-description: This document describes how watched folders are affected by different backup and recovery scenarios, the limitations and outcomes of these scenarios, and how to minimize data loss.
-uuid: 704119c9-31f7-4c4c-b49b-683449cae4e9
+uuid: 4d233203-53e5-44ae-9649-e8c00f7edd92
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/aem_forms_backup_and_recovery
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 2bc5bfe1-c5ae-4397-a982-7ae060ba474c
+discoiquuid: 2e1c9e7b-a3ac-4747-9c41-e7514517b513
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Group Templates
 seo-title: Group Templates
 description: How to access the Group Templates console
 seo-description: How to access the Group Templates console
-uuid: 1d1f0ad6-076d-4daa-8794-c97a876adda9
+uuid: 6b7bb195-7ffa-4932-b991-bc83b08d1605
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: e7ee0194-a860-4790-b79a-19f1523981f4
+discoiquuid: 4e6c87ea-0f99-4029-802f-c8f45e900e3b
 index: y
 internal: n
 snippet: y

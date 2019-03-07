@@ -3,12 +3,12 @@ title: Storage Configuration
 seo-title: Storage Configuration
 description: How to access the Storage Configuration Console
 seo-description: How to access the Storage Configuration Console
-uuid: bc3e791c-efa4-48b2-9a7e-28b38e103c1d
+uuid: 54e1d731-92bb-47a6-ba72-d454161001c2
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: f607b8e4-ecf3-4e7b-9915-ca38f567fc43
+discoiquuid: b846ee69-baa0-4a17-a032-3787c9ee89b5
 index: y
 internal: n
 snippet: y

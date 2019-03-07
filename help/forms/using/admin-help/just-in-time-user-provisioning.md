@@ -3,12 +3,12 @@ title: Just-in-time user provisioning
 seo-title: Just-in-time user provisioning
 description: Use just-in-time provisioning to add users to User Management after successfull authentication and dynamically assign relevant roles and groups to the new user.
 seo-description: Use just-in-time provisioning to add users to User Management after successfull authentication and dynamically assign relevant roles and groups to the new user.
-uuid: b5faea63-da57-4e6f-971f-8c734e429141
+uuid: 05114f37-3134-412b-b4ab-498c9437d3fc
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/setting_up_and_organizing_users
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: a4fe9929-1dd5-4f83-a873-71760e3ee16d
+discoiquuid: ddda693b-94b7-45ff-87ed-de33344bb8f5
 index: y
 internal: n
 snippet: y

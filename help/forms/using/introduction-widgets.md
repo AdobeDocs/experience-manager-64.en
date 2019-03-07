@@ -3,11 +3,11 @@ title: Appearance framework for adaptive and HTML5 forms
 seo-title: Appearance framework for adaptive and HTML5 forms
 description: Mobile Forms render Form Templates as HTML5 forms. These forms use jQuery, Backbone.js and Underscore.js files for the appearance and to enable scripting. 
 seo-description: Mobile Forms render Form Templates as HTML5 forms. These forms use jQuery, Backbone.js and Underscore.js files for the appearance and to enable scripting. 
-uuid: b170b5f3-8a82-4013-8943-36b0dfb1fa8b
+uuid: f27b0088-2f93-46e0-b0d9-d125b8c08655
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: customization
-discoiquuid: 39d324bf-e37d-4890-80d0-021775f6b93b
+discoiquuid: 7592fdf7-7a2d-4556-8eaf-b4dc2a1a9631
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Configuring and Deploying AEM Screens
 seo-title: Configuring and Deploying Screens
 description: The AEM Screens player is available for Android, Chrome OS, iOS, and Windows. This page describes the configuration and deployment of AEM Screens and also summarizes the h/w selection guidelines for player device.
 seo-description: The AEM Screens player is available for Android, Chrome OS, iOS, and Windows. This page describes the configuration and deployment of AEM Screens and also summarizes the h/w selection guidelines for player device.
-uuid: 663e0d3c-3231-4fb0-9fc2-5d0e23ec30c2
+uuid: 778dd682-03ae-4a24-b390-22f61d02ac53
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: administering
-discoiquuid: a069faab-7117-4b24-88ba-3178f487f65e
+discoiquuid: 82060c64-ff7f-4357-ad4e-b28482ad7496
 index: y
 internal: n
 snippet: y
@@ -106,11 +106,19 @@ This is required for the AEM Screens Player to play online channels.
 
 #### Password Restrictions {#password-restrictions}
 
-AEM Screens Player registration will fail, if the **password restrictions **are set.
+With latest changes to ***DeviceServiceImpl***, you do not have to remove the password restrictions.
 
-Remove the following config to set it correctly,
+You can configure ***DeviceServiceImpl*** from the link below to enable password restriction while creating the password for the screens device users:
 
-[http://localhost:4502/system/console/configMgr/org.apache.jackrabbit.oak.spi.security.user.action.DefaultAuthorizableActionProvider](http://localhost:4502/system/console/configMgr/org.apache.jackrabbit.oak.spi.security.user.action.DefaultAuthorizableActionProvider).
+[http://localhost:4502/system/console/configMgr/com.adobe.cq.screens.device.impl.DeviceService](http://localhost:4502/system/console/configMgr/com.adobe.cq.screens.device.impl.DeviceService)
+
+Follow the steps below to configure ***DeviceServiceImpl***:
+
+1. Navigate to **Adobe Experience Manager Web Console Configuration **via AEM instance --&gt; hammer icon --&gt; **Operations** --&gt; **Web Console**.
+
+1. **Adobe Experience Manager Web Console Configuration **opens. Search for deviceservice. For searching the property, press **Command+F** for **Mac** and **Control+F** for **Windows**.
+
+![](assets/screen_shot_2019-02-21at24951pm.png) 
 
 #### Dispatcher Configuration {#dispatcher-configuration}
 

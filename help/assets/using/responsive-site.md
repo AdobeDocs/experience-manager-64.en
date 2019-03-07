@@ -3,12 +3,12 @@ title: Delivering Optimized Images for a Responsive Site
 seo-title: Delivering Optimized Images for a Responsive Site
 description: How to use the responsive code feature to deliver optimized images
 seo-description: How to use the responsive code feature to deliver optimized images
-uuid: c06f1244-744b-4384-b2df-25a847f06a7b
+uuid: a0dca5f5-f118-4ff3-876a-0834c9813ca0
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: e351b265-5c6b-484f-bd7e-92f7144ba709
+discoiquuid: 730ba563-1783-4b5d-84c7-2753a18c54fb
 index: y
 internal: n
 snippet: y
@@ -28,11 +28,11 @@ To deliver optimized images for a responsive site:
 
 1. Navigate to the image you want supply responsive code for and in the drop-down menu, tap or click **Renditions**.
 
-   ![](assets/chlimage_1-413.png)
+   ![](assets/chlimage_1-408.png)
 
 1. Select a responsive image preset. The **URL** and **RESS** buttons appear. 
 
-   ![](assets/chlimage_1-414.png)
+   ![](assets/chlimage_1-409.png)
 
    >[!NOTE]
    >
@@ -43,7 +43,7 @@ To deliver optimized images for a responsive site:
 
 1. Tap or click **RESS**. The responsive code displays.
 
-   ![](assets/chlimage_1-415.png)
+   ![](assets/chlimage_1-410.png)
 
 1. Select and copy the text and paste it in your web site to access the responsive asset.
 1. Edit the default breakpoints in the embed code to match those of the responsive web site directly in the code. In addition, test the different image resolutions being served at different page breakpoints.

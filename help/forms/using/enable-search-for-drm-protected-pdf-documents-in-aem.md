@@ -3,12 +3,12 @@ title: Enable AEM to search document security protected PDF documents
 seo-title: Enable AEM to search document security protected PDF documents
 description: Learn how to enable native AEM search to perform full-text search on DRM protected PDF documents.  
 seo-description: Learn how to enable native AEM search to perform full-text search on DRM protected PDF documents.  
-uuid: a10ac76a-f31a-4f7a-88c1-80cec13e5758
+uuid: bb97d699-509c-4c7b-a1eb-77416f1fe26a
 contentOwner: khsingh
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 geptopics: SG_AEMFORMS/categories/working_with_document_security
-discoiquuid: 35122840-05cc-40a4-8d26-c00f1ca2c3e6
+discoiquuid: 64f9c09d-c1ef-4e3a-be84-771789217403
 index: y
 internal: n
 snippet: y

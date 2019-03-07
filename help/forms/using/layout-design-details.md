@@ -3,12 +3,12 @@ title: Layout Design
 seo-title: Layout Design
 description: Layout Design Details explains how you can create layouts to be used for your letters or Interactive Communications.
 seo-description: Layout Design Details explains how you can create layouts to be used for your letters or Interactive Communications.
-uuid: 3ffdd5ed-faee-4486-9a3c-c909bb7d81eb
+uuid: 252594b6-c80b-4008-8609-ce25e1839d5a
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
 topic-tags: interactive-communications
-discoiquuid: fd9aa265-3317-4c5d-b7c0-90d159f87879
+discoiquuid: 63d202a5-5d3c-4c5d-9469-16a5b3f2735a
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Distiller Service Java API QuickStart(SOAP)
 seo-title: Distiller Service Java API QuickStart(SOAP)
 description: null
 seo-description: null
-uuid: 20ccfef7-4ddf-465c-9879-9bb0c429f140
+uuid: c28781a6-9247-4205-b4b7-e469625c9736
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
-discoiquuid: 1a7fa948-4792-4fa3-b52f-66d9a90e08ee
+discoiquuid: f2d33d1a-5291-4ed0-9629-fa639b5adc10
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: View system information
 seo-title: View system information
 description: Learn how you can view resource monitoring charts and information about the server that is running AEM forms.
 seo-description: Learn how you can view resource monitoring charts and information about the server that is running AEM forms.
-uuid: fed709ff-4486-4000-ba73-b1ec1b76b6e4
+uuid: 0e208640-5ee9-4bd2-ac57-875493f26366
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/health_monitor
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: baea50f1-dec6-4eab-92ad-006fa53886d6
+discoiquuid: d501ccbd-90b5-459b-ab22-dcd3b823e7c3
 index: y
 internal: n
 snippet: y

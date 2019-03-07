@@ -3,12 +3,12 @@ title: Choosing a persistence type for an AEM Forms installation
 seo-title: Choosing a persistence type for an AEM Forms installation
 description: Choose a persistence type wisely. It helps you build an efficient and scalable AEM Forms environment. 
 seo-description: Choose a persistence type wisely. It helps you build an efficient and scale able AEM Forms environment. 
-uuid: 1e9c3e13-54d7-4aaa-9966-5e105f61f26f
+uuid: a9b13c71-5c9e-4f37-858c-95fea033e933
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: installing
 geptopics: SG_AEMFORMS/categories/jee
-discoiquuid: 81b0df11-0be8-4718-af62-dcde47bd1cae
+discoiquuid: 5cf5344c-6c1b-480d-8bcb-dac317934df0
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Selecting your UI
 seo-title: Selecting your UI
 description: For convenience to authoring users, the touch-enabled UI does allow for switching to the classic UI when necessary.
 seo-description: For convenience to authoring users, the touch-enabled UI does allow for switching to the classic UI when necessary.
-uuid: 190984a5-9fd7-4d98-af07-ce49aa9f49cf
+uuid: aa3ca90e-ebe1-446f-84d9-fa2a8d593cfc
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
-discoiquuid: a010acc7-2152-4fae-b8c3-d682671e10be
+discoiquuid: 82a3adfd-dc03-4c62-86e7-97040ebfa799
 index: y
 internal: n
 snippet: y

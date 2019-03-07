@@ -4,9 +4,9 @@ seo-title: Using Dynamic Embedded Sequence
 description: null
 seo-description: null
 page-status-flag: never-activated
-uuid: e92d047e-7f2d-4af2-9447-7725f920458b
+uuid: 3fceba87-d026-4321-9e1b-f049169cfca9
 contentOwner: jsyal
-discoiquuid: 911b82f8-b769-4212-a026-ccc557871fea
+discoiquuid: de4e352c-2140-49f6-a72c-f5843ba98931
 index: y
 internal: n
 snippet: y

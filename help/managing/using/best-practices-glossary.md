@@ -3,12 +3,12 @@ title: Glossary
 seo-title: Glossary
 description: This glossary lists (alphabetically) details of all Deliverable documents from the Project Checklist.
 seo-description: This glossary lists (alphabetically) details of all Deliverable documents from the Project Checklist.
-uuid: 5a2007cd-e269-46b3-9f4e-3e098fa99568
+uuid: 64c28988-da26-4e36-b435-917225f0d17e
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/MANAGING
 topic-tags: managing-checklist
 content-type: reference
-discoiquuid: a9b9534d-444c-4457-8621-d8abd36d610b
+discoiquuid: 600de3ce-7439-4a97-8979-7aeef99cba5c
 index: y
 internal: n
 snippet: y
@@ -900,7 +900,7 @@ Define the communication plan for both businesss stakeholders and the project te
 
 ### Project Efforts - Final Estimates {#project-efforts-final-estimates}
 
-The [initial estimates](#projecteffortsinitialefforts) were high level and made according to the high level requirements for the implementation.
+The [initial estimates](#projecteffortsinitialestimates) were high level and made according to the high level requirements for the implementation.
 
 These are now reviewed, refined and expanded to provide the final estimates. Estimates should be delivered by each appropriate project lead, including project management, consulting, architecture, testing and development.
 
@@ -965,7 +965,7 @@ It is used with the Runbook to execute pre- and post installation steps and chec
 
 >[!NOTE]
 >
->For an example, see the [AEM Rekease Notes](../../release-notes.md).
+>For an example, see the [AEM Release Notes](../../release-notes.md).
 
 ### Release Running on Production Environment {#release-running-on-production-environment}
 

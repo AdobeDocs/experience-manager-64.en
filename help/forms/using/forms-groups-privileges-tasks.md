@@ -3,12 +3,12 @@ title: AEM Forms on OSGi Groups and Privileges
 seo-title: AEM Forms on OSGi Groups and Privileges
 description: Assign users to the groups to manage AEM Forms on OSGi
 seo-description: Assign users to the groups to manage AEM Forms on OSGi
-uuid: a20cdd1b-9567-40e2-9aed-f74b23b2b150
+uuid: 1ab318b2-ecc9-4d57-b903-4b53c30986f2
 contentOwner: anujkapo
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 content-type: reference
 topic-tags: Configuration
-discoiquuid: 1c032e4c-304f-47d0-bcf8-c72e388b690f
+discoiquuid: 9c5ecaa3-8b7a-4a72-9e62-2dfb04db362d
 index: y
 internal: n
 snippet: y

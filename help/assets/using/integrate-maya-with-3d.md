@@ -3,12 +3,12 @@ title: Integrating AEM 3D with Autodesk Maya
 seo-title: Integrating AEM 3D with Autodesk Maya
 description: You can optionally integrate AEM 3D with Autodesk® Maya® software to enable support for native Maya files (.MA and .MB) and to let you render 3D assets in AEM with any available Maya renderer.
 seo-description: You can optionally integrate AEM 3D with Autodesk® Maya® software to enable support for native Maya files (.MA and .MB) and to let you render 3D assets in AEM with any available Maya renderer.
-uuid: 6fe819e2-91bd-4af0-9258-314ca7890080
+uuid: 1e54f86b-2e6a-4c40-9557-31e5e95640d1
 contentOwner: Rick Brough
 topic-tags: 3D
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-discoiquuid: 42d6095a-7f5d-4e89-88d6-aebd5fa7b0fa
+discoiquuid: f6cdef62-0972-4f26-bc6d-079eafeb05df
 index: y
 internal: n
 snippet: y
@@ -47,7 +47,7 @@ To integrate AEM 3D with Autodesk Maya:
 
    For example, on Windows Server 2012, tap or click **Start **> **Control Panel** > **System and Security** > **System **> **Advanced System Settings** > **Environment Variables**. Append the full path to the `Maya2016\bin` folder to the `Path`system variable.
 
-   ![](assets/chlimage_1-58.png)
+   ![](assets/chlimage_1-53.png)
 
 1. To enable Maya for ingestion and rendering, open CRXDE Lite and navigate to **`/libs/settings/dam/v3D/assetTypes/maya`** and set the **Enabled** property to `true`.
 
@@ -85,7 +85,7 @@ To integrate AEM 3D with Autodesk Maya:
 
 1. Near the upper-left corner of the page, tap or click the drop-down list and then select **Render**.
 
-   ![](assets/chlimage_1-59.png)
+   ![](assets/chlimage_1-54.png)
 
 1. In the **Renderer** drop-down list, select **Autodesk Maya**, then tap or click **Start Render**.
 1. Near the upper-right corner of the page, tap or click **Close** to return to the Card view.

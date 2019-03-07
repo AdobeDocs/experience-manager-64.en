@@ -3,12 +3,12 @@ title: Imaging Transcoding Library
 seo-title: Imaging Transcoding Library
 description: Learn how to configure and use Adobe's Imaging Transcoding Library, an image processing solution that can perform core image-handling functions, including encoding, transcoding, image resampling, and image resizing.
 seo-description: Learn how to configure and use Adobe's Imaging Transcoding Library, an image processing solution that can perform core image-handling functions, including encoding, transcoding, image resampling, and image resizing.
-uuid: 9ec5b4a8-f81a-4851-bef4-1e96baccd667
+uuid: 7aaee66e-d8b2-4271-be10-a5084178fba5
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: ddd55fab-0086-4f6d-94b5-20ca185dd0aa
+discoiquuid: f616a211-7d3f-43fb-95ed-edea00da0b87
 index: y
 internal: n
 snippet: y
@@ -155,11 +155,11 @@ The command line arguments for Imaging Transcoding Library can include the follo
     1. `SWitchEngine -input ${file} -destMime PNG -resize 319 -output ${directory}cq5dam.thumbnail.319.319.png`
     1. `SWitchEngine -input ${file} -destMime JPEG -resize 1280 -preserveCMYK -output ${directory}cq5dam.thumbnail.1280.1280.jpg`
 
-   ![](assets/chlimage_1-204.png)
+   ![](assets/chlimage_1-199.png)
 
     * Generate thumbnails from an intermediate rendition using a single command. The intermediate rendition acts as source to generate static and web renditions. This method is faster than the earlier method. However, you cannot apply custom parameters to thumbnails using this method.
 
-   ![](assets/chlimage_1-205.png)
+   ![](assets/chlimage_1-200.png)
 
    To generate web renditions, configure parameters in the** Web-Enabled Image** tab as depicted in the following image.
 

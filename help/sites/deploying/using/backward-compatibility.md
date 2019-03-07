@@ -3,12 +3,12 @@ title: Backward Compatibility in AEM 6.4
 seo-title: Backward Compatibility in AEM 6.4
 description: Learn how to keep your apps and configurations compatible with AEM 6.4
 seo-description: Learn how to keep your apps and configurations compatible with AEM 6.4
-uuid: 38c4b9d7-828a-4600-942f-081e35703a29
+uuid: a4004268-fc30-42c4-ab1f-469ab580d7c8
 contentOwner: sarchiz
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: upgrading
 content-type: reference
-discoiquuid: 51732ef0-c964-437a-b1a6-afba9068f423
+discoiquuid: 7bbdd575-0cc9-43b9-b36c-a25b644d1ec4
 index: y
 internal: n
 snippet: y

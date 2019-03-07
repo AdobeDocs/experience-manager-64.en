@@ -3,12 +3,12 @@ title: hybris
 seo-title: hybris
 description: Learn how to use AEM with hybris.
 seo-description: Learn how to use AEM with hybris.
-uuid: 5b70d6ce-6f28-4722-8509-7ef152c093a3
+uuid: 850262b2-59ac-4c5f-945d-8593f9c4ede7
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: e-commerce
 content-type: reference
-discoiquuid: d0ad201e-0eec-4ff7-b299-128656846238
+discoiquuid: f43d5bfb-9932-4e9a-b237-94b3257785ae
 pagetitle: Administering hybris
 index: y
 internal: n

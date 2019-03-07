@@ -3,12 +3,12 @@ title: Image Profiles
 seo-title: Image Profiles
 description: Create image profiles that contain settings for unsharp mask, and smart crop, or smart swatch, or both, then apply the profile to a folder of image assets.
 seo-description: Create image profiles that contain settings for unsharp mask, and smart crop, or smart swatch, or both, then apply the profile to a folder of image assets.
-uuid: 250c2fa4-4ae2-4368-89e0-13d4e5462675
+uuid: 81229c4b-0e85-4b51-a53c-494121e06521
 contentOwner: Alva Ware-Bevacqui
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: 80db308a-6c95-41aa-bcbf-4d88c9a9dd23
+discoiquuid: 09b3a0e6-5aa7-4095-9bd4-121e3784dc03
 index: y
 internal: n
 snippet: y
@@ -119,7 +119,7 @@ To define advanced processing parameters for other asset types, see [Configuring
 1. Tap or click the AEM logo and navigate to **Tools **&gt; **Assets **&gt; **Image Profiles.**
 1. Select the image profile you want to edit or remove. To edit it, select **Edit Image Processing Profile**. To remove it, select **Delete Image Processing Profile**.
 
-   ![](assets/chlimage_1-259.png)
+   ![](assets/chlimage_1-254.png)
 
 1. If editing, save the changes. If deleting, confirm that you want to remove the profile.
 
@@ -146,7 +146,7 @@ Folders that have a profile already assigned to it are indicated by the display 
 1. Tap or click the AEM logo and navigate to **Tools **&gt; **Assets **&gt; **Image Profiles.**
 1. Select the image profile that you want to apply to a folder or multiple folders.
 
-   ![](assets/chlimage_1-260.png)
+   ![](assets/chlimage_1-255.png)
 
 1. Tap/click **Apply Processing Profile to Folder(s) **and select the folder or multiple folders you want use to receive the newly uploaded assets and tap/click **Apply**. Folders that have a profile already assigned to it are indicated by the display of the profile's name directly below the folder name.
 
@@ -156,7 +156,7 @@ Folders that have a profile already assigned to it are indicated by the display 
 1. On the folder, tap or click the check mark to select it and then tap or click **Properties**.
 1. Tap the **Image Profiles** tab. From the Profile Name drop-down list, select the profile, then click **Save & Close**. Folders that have a profile already assigned to it are indicated by the display of the profile's name directly below the folder name.
 
-   ![](assets/chlimage_1-261.png)
+   ![](assets/chlimage_1-256.png)
 
 ### Applying an image profile globally {#applying-an-image-profile-globally}
 
@@ -166,7 +166,7 @@ To apply a profile globally, do one of the following:
 
 * Navigate to **http://&lt;AEM server&gt;/mnt/overlay/dam/gui/content/assets/foldersharewizard.html/content/dam** and apply the appropriate profile and tap or click **Save**.
 
-  ![](assets/chlimage_1-262.png)
+  ![](assets/chlimage_1-257.png)
 
 * Navigate to CRXDE Lite to the following node: **/content/dam/jcr:content.**
 

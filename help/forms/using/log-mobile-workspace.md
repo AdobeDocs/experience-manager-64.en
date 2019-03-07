@@ -3,11 +3,11 @@ title: Logging in to AEM Forms app
 seo-title: Logging in to AEM Forms app
 description: Steps to log into the AEM Forms app.
 seo-description: Steps to log into the AEM Forms app.
-uuid: c8709add-56bf-4cca-b5c8-ce4af235ab1c
+uuid: 69df41d7-7aa8-4543-b6dc-390b0b42126d
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
-discoiquuid: 88cdb41e-c249-4216-bf99-c22229d1c1dd
+discoiquuid: dc4424ab-e806-44f1-9046-3a58c758fc63
 index: y
 internal: n
 snippet: y

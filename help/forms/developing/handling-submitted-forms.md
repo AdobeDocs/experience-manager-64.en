@@ -3,13 +3,13 @@ title: Handling Submitted Forms
 seo-title: Handling Submitted Forms
 description: null
 seo-description: null
-uuid: fa988496-cdf8-49ea-b3ff-10721eec71dd
+uuid: 0e1f4192-a926-4fcf-b721-e6cf2716466f
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/rendering_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: b833a166-8032-4d80-bd7b-6250219a6e80
+discoiquuid: 5e93cf95-f443-46f6-8d82-cae6cc202680
 index: y
 internal: n
 snippet: y

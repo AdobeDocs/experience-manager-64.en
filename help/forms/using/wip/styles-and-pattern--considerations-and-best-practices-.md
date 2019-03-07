@@ -3,9 +3,9 @@ title: Best practices and considerations
 seo-title: Best practices and considerations 
 description: null
 seo-description: null
-uuid: 63854612-0b0f-4c8a-b2b7-40c68f2b8c9e
+uuid: 12074613-310d-4eff-8dd0-546cc8b03f8d
 contentOwner: khsingh
-discoiquuid: 56650ec7-67e7-47ba-a1a5-21b188d306ab
+discoiquuid: 0c6da62f-c8ad-43e8-97ce-47f719af4f79
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Developing with hybris
 seo-title: Developing with hybris
 description: The hybris integration framework includes an integration layer with an API
 seo-description: The hybris integration framework includes an integration layer with an API
-uuid: 49a3facc-7352-403e-a420-37d910559d4b
+uuid: 139879d8-f15a-4f1d-8195-1cbb033017e3
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: platform
-discoiquuid: 1b33dcbb-e6ce-4335-aa24-a90dad523894
+discoiquuid: efffa684-9caf-454d-bc30-fff2b1ffef3d
 index: y
 internal: n
 snippet: y

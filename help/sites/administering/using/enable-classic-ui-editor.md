@@ -3,12 +3,12 @@ title: Editor
 seo-title: Editor
 description: Learn how to switch back to the Classic UI Editor.
 seo-description: Learn how to switch back to the Classic UI Editor.
-uuid: edb191fd-17e1-437b-90fe-33d8912faede
+uuid: bc28d69f-76be-466b-87e4-e20324f51a49
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: b5e8a58d-ed8b-471a-bbaa-b9c9080af0b8
+discoiquuid: c164f617-76d0-4e99-bcd2-11de323559e0
 index: y
 internal: n
 snippet: y

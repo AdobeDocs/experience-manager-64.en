@@ -3,12 +3,12 @@ title: Setting the message of the day
 seo-title: Setting the message of the day
 description: The message of the day let you set a message to be displayed on the Welcome page in the Workspace user interface.
 seo-description: The message of the day let you set a message to be displayed on the Welcome page in the Workspace user interface.
-uuid: a0748b95-ed97-40ba-8284-12e4ef0d616c
+uuid: 7405173c-a1b5-4c8b-a35e-9e11668bfdd9
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_workspace
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 3513490b-7b68-4581-93fb-d310f15e107b
+discoiquuid: 13ae238b-fe4f-4bf8-84c3-e4e2f10333e8
 index: y
 internal: n
 snippet: y

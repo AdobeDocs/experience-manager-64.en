@@ -3,12 +3,12 @@ title: Search Essentials
 seo-title: Search Essentials
 description: Search in Communities
 seo-description: Search in Communities
-uuid: 31544805-dca1-41c9-8ef5-c2a7a8d0d417
+uuid: 0f019b1d-8f6b-4cae-abce-342bb78ba5e2
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 663d1a00-78be-4c02-a777-74fe1fe328e8
+discoiquuid: 3e02a227-c9fc-4538-a2b1-0f4bf571f6fb
 index: y
 internal: n
 snippet: y

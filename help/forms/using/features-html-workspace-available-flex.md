@@ -3,12 +3,12 @@ title: Features of AEM Forms workspace not available in Flex workspace
 seo-title: Features of AEM Forms workspace not available in Flex workspace
 description: AEM Forms workspace innovates beyond Flex-based Workspace. Read about differences in features and capabilities.
 seo-description: AEM Forms workspace innovates beyond Flex-based Workspace. Read about differences in features and capabilities.
-uuid: e2197fd2-22ac-441a-9f81-2a17c5fc67be
+uuid: f6fc5d83-0d27-439d-be82-7cf0ae9d0724
 contentOwner: robhagat
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
-discoiquuid: 8549b885-22a7-4a98-bbf5-284b860ff30e
+discoiquuid: 0eb1fe3f-db90-4a02-aad5-d0eb35654177
 index: y
 internal: n
 snippet: y

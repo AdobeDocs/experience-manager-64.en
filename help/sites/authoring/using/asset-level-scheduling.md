@@ -3,9 +3,9 @@ title: REDIRECT Asset Level Scheduling
 seo-title: REDIRECT Asset Level Scheduling
 description: null
 seo-description: null
-uuid: 35e125ea-2f98-4a37-95f6-22fb81bf53b7
+uuid: b2304809-db41-4cd6-b681-d8bcc9845993
 contentOwner: jsyal
-discoiquuid: d41effd7-baa2-4d6e-871a-856e032d8dd8
+discoiquuid: 488e77c5-a85f-447c-a863-1f9fb5cd00d7
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/screens/using/asset-level-scheduling
 index: y

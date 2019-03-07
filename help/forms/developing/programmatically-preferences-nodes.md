@@ -3,12 +3,12 @@ title: Programmatically managing the PreferencesNodes
 seo-title: Programmatically managing the PreferencesNodes
 description: null
 seo-description: null
-uuid: cfc17f10-9402-4530-a956-a7a5ee3713e9
+uuid: e9ca12e8-b034-4a1c-b5c6-61f1a6a5bb26
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: d1e05863-a969-48a3-a7be-b9777efea84f
+discoiquuid: 31355c4c-1878-4337-81a0-b631d0f7ef4a
 index: y
 internal: n
 snippet: y

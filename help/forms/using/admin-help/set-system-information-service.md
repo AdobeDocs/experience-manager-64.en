@@ -3,12 +3,12 @@ title: Set up the System information service
 seo-title: Set up the System information service
 description: Learn how to set up the System information service.
 seo-description: Learn how to set up the System information service.
-uuid: d0ce3c31-0778-4cad-975c-736974a7a577
+uuid: 58c14135-bf83-4724-be39-8fe89cd17c71
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/system_information_service
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: b64b7e22-0445-4cf5-9a87-3a742ee26f37
+discoiquuid: 096b9b02-fe98-4e47-9836-e2c65ccdee05
 index: y
 internal: n
 snippet: y

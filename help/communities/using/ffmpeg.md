@@ -3,12 +3,12 @@ title: FFmpeg for Communities
 seo-title: FFmpeg for Communities
 description: How to install and configure FFmpeg for Communities
 seo-description: How to install and configure FFmpeg for Communities
-uuid: cfc2b234-ae37-4456-98ec-4d384e34f4a3
+uuid: 447bca02-a450-4a34-81a9-b35c3e5c2e32
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 8a474707-6e5d-4b74-a857-34f21edae7b5
+discoiquuid: 93f24cbb-8661-4d1a-a124-bf2189fa4faa
 index: y
 internal: n
 snippet: y

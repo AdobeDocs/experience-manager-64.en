@@ -3,12 +3,12 @@ title: The Page Exporter
 seo-title: The Page Exporter
 description: Learn how to use the AEM Page Exporter.
 seo-description: Learn how to use the AEM Page Exporter.
-uuid: 9e482dca-33c1-40bc-9c5f-2268833beaba
+uuid: 3532d626-c1cb-4671-be61-57f6bd136055
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: content
 content-type: reference
-discoiquuid: 8b506478-5f57-41ae-843a-8aea55af43f2
+discoiquuid: 594fb691-f355-4eed-baf8-7d3f4795b673
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Elastic Path
 seo-title: Elastic Path
 description: Learn how to deploy eCommerce with Elastic Path.
 seo-description: Learn how to deploy eCommerce with Elastic Path.
-uuid: 455cf809-5929-44d5-a655-f966f0689f10
+uuid: 273f8a59-0e20-4763-91f5-d5cb2f77f631
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: e-commerce
 content-type: reference
-discoiquuid: 3ae4fb41-7efd-4bf2-a903-813eaaf11df4
+discoiquuid: 744ca5b7-ff5a-415a-9f88-cde90f7a1dcb
 pagetitle: Deploying eCommerce with Elastic Path
 index: y
 internal: n
@@ -50,7 +50,7 @@ If Elastic Path is running on any other machine or server (as recommended for Pr
 1. Open `com.elasticpath.web.config.EPConfigurationHandler`.
 1. Update the `cortex.url` to point to that machine in which Elastic Path is running.
 
-   ![](assets/chlimage_1-111.png)
+   ![](assets/chlimage_1-108.png)
 
 >[!CAUTION]
 >

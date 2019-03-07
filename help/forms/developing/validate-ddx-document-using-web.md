@@ -3,12 +3,12 @@ title: Validate a DDX document using theweb service API
 seo-title: Validate a DDX document using theweb service API
 description: null
 seo-description: null
-uuid: 4668c1a7-aec4-4144-91cc-cc62142a4325
+uuid: 6ec5b51c-a6ef-4f38-bb3c-56faa684e63d
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/validating_ddx_documents
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 46d2c0d6-178c-4da9-8254-dbd734fa8e65
+discoiquuid: 07fe8a31-4957-4a27-8466-b78403e99d24
 index: y
 internal: n
 snippet: y

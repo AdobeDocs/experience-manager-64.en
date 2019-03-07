@@ -3,12 +3,12 @@ title: Identifying Content to Translate
 seo-title: Identifying Content to Translate
 description: Learn how to identify content that needs translating.
 seo-description: Learn how to identify content that needs translating.
-uuid: 87332881-fbf1-4ada-af95-ff1e39d8c628
+uuid: ec810e16-6507-44e5-a874-06e4bb5f8b31
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features
 content-type: reference
-discoiquuid: acbcc540-9bdc-4e8c-8b86-8a2cf643b27e
+discoiquuid: a2c779d9-b69d-46df-8f02-7f3a2de34070
 index: y
 internal: n
 snippet: y
@@ -153,19 +153,19 @@ To access it:
 
 1. Navigate to **Tools** and then **General**.
 
-   ![](assets/chlimage_1-56.jpeg)
+   ![](assets/chlimage_1-55.jpeg)
 
 1. Select **Translation Configuration**.
 
-   ![](assets/chlimage_1-57.jpeg)
+   ![](assets/chlimage_1-56.jpeg)
 
 From here, you can **Add Context**. This allows you to add a path.
 
-![](assets/chlimage_1-58.jpeg)
+![](assets/chlimage_1-57.jpeg)
 
 Then you need to select your context and then click **Edit**. This will open the Translation Rules Editor.
 
-![](assets/chlimage_1-59.jpeg)
+![](assets/chlimage_1-58.jpeg)
 
 There are 4 attributes that you can change via the UI: `isDeep`, `inherit`, `translate` and `updateDestinationLanguage`.
 
@@ -175,7 +175,7 @@ For example, child nodes are getting added into a translation job even when the 
 
 In the Editor, you can check/uncheck **I`s Deep`** in the **Filters** tab.
 
-![](assets/chlimage_1-60.jpeg)
+![](assets/chlimage_1-59.jpeg)
 
 Here is an example of the resulting xml when **Is Deep** is unchecked in the UI:
 
@@ -189,7 +189,7 @@ Here is an example of the resulting xml when **Is Deep** is unchecked in the UI:
 
 In the UI, you can check/uncheck **Inherit** in the **Properties** tab.
 
-![](assets/chlimage_1-61.jpeg)
+![](assets/chlimage_1-60.jpeg)
 
 **translate** The translate attribute is used simply to specify whether or not to translate a property.
 
@@ -201,7 +201,7 @@ In the UI, you can check/uncheck **Translate** in the **Properties** tab, but fo
 
 To help clarify the difference between `updateDestinationLanguage` and `translate`, here is a simple example of a context with only two rules:
 
-![](assets/chlimage_1-62.jpeg)
+![](assets/chlimage_1-61.jpeg)
 
 The result in the xml will look like this:
 

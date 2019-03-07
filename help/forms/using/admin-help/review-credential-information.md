@@ -3,12 +3,12 @@ title: Review credential use information
 seo-title: Review credential use information
 description: Learn how to review credential use information.
 seo-description: Learn how to review credential use information.
-uuid: a7f885f8-edea-4ae2-9b0f-de780adddb71
+uuid: 355b236e-0fbd-4869-84f7-9389fb5d33a6
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_acrobat_reader_dc_extensions
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: c09dc569-f224-446d-854c-b5acd3920f9d
+discoiquuid: eace1e92-b364-4db0-a0b9-26bedfbb007b
 index: y
 internal: n
 snippet: y

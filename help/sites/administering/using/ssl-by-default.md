@@ -3,12 +3,12 @@ title: SSL By Default
 seo-title: SSL By Default
 description: Learn how to use SSL by Default in AEM.
 seo-description: Learn how to use SSL by Default in AEM.
-uuid: c68b63f7-021b-41ab-ad5c-90fc5caf9f03
+uuid: 4016cdff-aa99-4e70-ba60-79be01c49406
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
-discoiquuid: 0570d2ac-c2de-4e0b-b47c-b4c3b0f80ef5
+discoiquuid: 09cfc75f-25cf-42f1-aa1e-e8546f970022
 index: y
 internal: n
 snippet: y
@@ -24,17 +24,17 @@ You can start configuring SSL By Default by clicking the relevant Inbox message 
 
 In the list, select and open the **Configure HTTPS** alert:
 
-![](assets/chlimage_1-381.png)
+![](assets/chlimage_1-341.png)
 
 A service user called **ssl-service **has been created for this feature. Once you open the alert, you will be guided through the follwing configuration wizard:
 
 1. First, set up the Store Credentials. These are the credentials for the **ssl-service** system user's key store that will contain the private key and trust store for the HTTPS listener.
 
-   ![](assets/chlimage_1-382.png)
+   ![](assets/chlimage_1-342.png)
 
 1. Once you enter the credentials, click **Next** in the upper right corner of the page. Then, upload the associated private key and certificate for the SSL connection.
 
-   ![](assets/chlimage_1-383.png)
+   ![](assets/chlimage_1-343.png)
 
    >[!NOTE]
    >

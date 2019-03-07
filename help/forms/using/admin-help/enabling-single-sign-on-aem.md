@@ -3,12 +3,12 @@ title: Enabling single sign-on in AEM forms
 seo-title: Enabling single sign-on in AEM forms
 description: Learn how to enable single sign-on (SSO) using HTTP headers and SPNEGO.
 seo-description: Learn how to enable single sign-on (SSO) using HTTP headers and SPNEGO.
-uuid: e506fc7f-b00f-46fa-909f-a23d3967006d
+uuid: 6cff91c6-ee3c-4a74-bbf8-2407ef8074ae
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_user_management
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 7da0de2a-b91a-4f71-88e5-85cf97aad320
+discoiquuid: 98a01a40-9d68-45cd-a262-dfcadb37e361
 index: y
 internal: n
 snippet: y

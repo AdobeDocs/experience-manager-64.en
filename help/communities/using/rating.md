@@ -3,12 +3,12 @@ title: Using Ratings
 seo-title: Using Ratings
 description: Adding a Rating component to a page
 seo-description: Adding a Rating component to a page
-uuid: a1bdfc62-4dc9-4e17-81d2-5dde7002d34d
+uuid: fc2c51d3-868a-4809-ac93-be479f6236cd
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
-discoiquuid: 05b243ac-326b-4223-9d30-4034173651e4
+discoiquuid: 637a31d2-1dc7-4115-bd31-c834f60fa91f
 index: y
 internal: n
 snippet: y

@@ -3,11 +3,11 @@ title: REDIRECT Core Components
 seo-title: Core Components
 description: null
 seo-description: null
-uuid: f2791828-aa2c-43bd-b57a-5f5af345e0b1
+uuid: 42bc65ab-530c-45b5-ab1c-3c7d2253d444
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
-discoiquuid: 6fd52857-1911-4e94-9282-5bfc6e87ba3d
+discoiquuid: 99fe584c-949b-4844-9303-d4a9a3ee159f
 noindex: true
 redirecttarget: /content/help/en/experience-manager/cloud-manager/user-guide
 index: y

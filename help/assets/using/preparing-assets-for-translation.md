@@ -3,12 +3,12 @@ title: Preparing Assets for Translation
 seo-title: Preparing Assets for Translation
 description: Create language root folders to prepare for translating multilingual assets.
 seo-description: Create language root folders to prepare for translating multilingual assets.
-uuid: f2c8a013-1d9c-43ff-997b-f9bf6b527314
+uuid: 4d82cfe1-7e94-44f7-9212-fc9b8d17d752
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference
-discoiquuid: 41d44fdb-48b8-4725-80ae-c948c279c8cb
+discoiquuid: d6e5cba3-a802-4da2-8bf5-5986e0a2683c
 index: y
 internal: n
 snippet: y
@@ -53,11 +53,11 @@ For example, the root page of the Italian language copy of the sample hierarchy 
 
 1. From the Assets console, click/tap **Create** and choose **Folder** from the menu.
 
-   ![](assets/chlimage_1-125.png)
+   ![](assets/chlimage_1-120.png)
 
 1. In the Name field type the country code in the format of `<language-code>`.
 
-   ![](assets/chlimage_1-126.png)
+   ![](assets/chlimage_1-121.png)
 
 1. Click or tap** Create**. The language root is created in the Assets console.
 
@@ -68,9 +68,9 @@ The touch-optimized UI provides a References panel that shows a list of language
 1. In the Assets console, select the language master for which you want to create language copies.
 1. Click or tap the GlobalNav icon, and choose **References** to open the Reference pane.
 
-   ![](assets/chlimage_1-127.png)
+   ![](assets/chlimage_1-122.png)
 
 1. In the References pane, click or tap **Language Copies**. The Language Copies panel shows the language copies of the assets.
 
-   ![](assets/chlimage_1-128.png)
+   ![](assets/chlimage_1-123.png)
 

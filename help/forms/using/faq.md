@@ -3,12 +3,12 @@ title: Frequently asked questions (FAQ) for HTML5 forms
 seo-title: Frequently asked questions (FAQ) for HTML5 forms
 description: Frequently Asked Questions (FAQ) about layout, scripting support, and scope of HTML5 forms.
 seo-description: Frequently Asked Questions (FAQ) about layout, scripting support, and scope of HTML5 forms.
-uuid: f670d4d0-8bb9-4163-88f8-7345e562b864
+uuid: 2df6191a-bd3b-47dc-bdae-91f8070805c3
 contentOwner: robhagat
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
-discoiquuid: c0fa1288-5977-4f58-a058-6b91ef3ef79b
+discoiquuid: 03510d44-01b8-4466-b0e9-6f23333161de
 index: y
 internal: n
 snippet: y

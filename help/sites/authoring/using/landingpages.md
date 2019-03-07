@@ -3,12 +3,12 @@ title: Landing Pages
 seo-title: Landing Pages
 description: The landing pages feature allows quick and easy importing of a design and content right into an AEM page
 seo-description: The landing pages feature allows quick and easy importing of a design and content right into an AEM page
-uuid: 0746d80f-c6fc-4728-ad09-ee0d63c02597
+uuid: 37b6ac44-b6d3-4ba9-9061-5bac7605b0f6
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: personalization
-discoiquuid: 259620a0-e109-4ae6-a03f-729940ef5520
+discoiquuid: 4e14f5b5-00e6-41b0-ab94-cf21348ea78b
 index: y
 internal: n
 snippet: y
@@ -46,7 +46,7 @@ In AEM, you create landing pages by performing the following steps:
 
 A sample landing page in AEM looks as follows:
 
-![](assets/chlimage_1.jpeg) 
+![](assets/chlimage_1-1.jpeg) 
 
 ### Mobile Landing Pages {#mobile-landing-pages}
 
@@ -56,7 +56,7 @@ The landing page import procedure is same as that of a normal landing page, the 
 
 Mobile landing page is created as a child page of the desktop landing page. To open it, navigate to the landing page in Websites and open the child page.
 
-![](assets/chlimage_1-59.png)
+![](assets/chlimage_1-329.png)
 
 >[!NOTE]
 >
@@ -85,7 +85,7 @@ The Text component lets you enter a text block using a WYSIWYG editor. See [Text
 
 The following is an example of a text component on a landing page:
 
-![](assets/chlimage_1-60.png) 
+![](assets/chlimage_1-330.png) 
 
 #### Title {#title}
 
@@ -93,7 +93,7 @@ The title component lets you display a title and configure the size (h1-6). See 
 
 The following is an example of a title component on a landing page:
 
-![](assets/chlimage_1-61.png) 
+![](assets/chlimage_1-331.png) 
 
 #### Image {#image}
 
@@ -101,7 +101,7 @@ The image component displays an image that you can either drag and drop from the
 
 The following is an example of an image component on a landing page:
 
-![](assets/chlimage_1-62.png) 
+![](assets/chlimage_1-332.png) 
 
 #### Call to Action (CTA) {#call-to-action-cta}
 
@@ -118,7 +118,7 @@ Both CTA components have similar options. The Click Through Link has additional 
 
 This CTA component can be used to add a text link on the landing page. That link can be clicked to take the user to the target URL specified in the component properties. It is a part of "Call to Action" group.
 
-![](assets/chlimage_1-63.png)
+![](assets/chlimage_1-333.png)
 
 **Label** The text users see. You can modify formatting with the rich text editor.
 
@@ -137,13 +137,13 @@ This CTA component can be used to add a text link on the landing page. That link
 
 The following is an example of a click through link:
 
-![](assets/chlimage_1-64.png) 
+![](assets/chlimage_1-334.png) 
 
 #### Graphical Link {#graphical-link}
 
 This CTA component can be used to add any graphical image with link on the landing page. The image can be a simple button or any graphical image as background. When the image is clicked, the user is taken to the target URL specified in the component properties. It is a part of the **Call to Action** group.
 
-![](assets/chlimage_1-65.png)
+![](assets/chlimage_1-335.png)
 
 **Image** Drag or add an image that users click to go to the targeted URL.
 
@@ -170,7 +170,7 @@ This CTA component can be used to add any graphical image with link on the landi
 
 The following is an example graphical link:
 
-![](assets/chlimage_1-66.png) 
+![](assets/chlimage_1-336.png) 
 
 ### Call to Action (CTA) Lead Form {#call-to-action-cta-lead-form}
 
@@ -178,7 +178,7 @@ A lead form is a form that is used to collect a visitor/lead's profile informati
 
 An example CTA lead form looks like this:
 
-![](assets/chlimage_1-67.png)
+![](assets/chlimage_1-337.png)
 
 CTA lead forms are built up from several different components:
 
@@ -195,7 +195,7 @@ The preceding shows an example form; it is comprised of the **Lead Form** compon
 
 From the sidekick, the following components are avaiable for the CTA Lead Form:
 
-![](assets/chlimage_1-68.png) 
+![](assets/chlimage_1-338.png) 
 
 #### Settings common to many lead form components {#settings-common-to-many-lead-form-components}
 
@@ -227,35 +227,35 @@ The following section describes the components available to Call-to-Action lead 
 
 **About** Lets users add About information.
 
-![](assets/chlimage_1-69.png)
+![](assets/chlimage_1-339.png)
 
 **Address Field** Allows users to enter address information. When configuring this component, you must enter the Element Name in the dialog. The Element Name is the name of the form element. This indicates where in the repository the data is stored.
 
-![](assets/chlimage_1-70.png)
+![](assets/chlimage_1-340.png)
 
 **Date of Birth** Users can enter date of birth information.
 
-![](assets/chlimage_1-71.png)
+![](assets/chlimage_1-341.png)
 
 **Email Id** Allows users enter an email address (identification).
 
-![](assets/chlimage_1-72.png)
+![](assets/chlimage_1-342.png)
 
 **First Name** Provides a field for users to enter their first name.
 
-![](assets/chlimage_1-73.png)
+![](assets/chlimage_1-343.png)
 
 **Gender** Users can select their gender from a dropdown list.
 
-![](assets/chlimage_1-74.png)
+![](assets/chlimage_1-344.png)
 
 **Last Name** Users can enter Last Name information.
 
-![](assets/chlimage_1-75.png)
+![](assets/chlimage_1-345.png)
 
 **Lead Form** Add this component to add a lead form to your landing page. A lead form automatically contains a Start of Lead Form and End of Lead Form field. In between, you add the Lead Form components described in this section.
 
-![](assets/chlimage_1-76.png)
+![](assets/chlimage_1-346.png)
 
 The Lead Form component defines both the start and end of a form using the **Form Start** and **Form End** elements. These are always paired to ensure that the form is correctly defined.
 
@@ -265,13 +265,13 @@ After you have added the lead form, you can configure the start of form or end o
 
 Two tabs are available for configuration **Form** and **Advanced**:
 
-![](assets/chlimage_1-77.png)
+![](assets/chlimage_1-347.png)
 
 **Thank You Page** The page to be referenced to thank visitors for providing their input. If left blank, the form re-displays after submission.
 
 **Start Workflow** Determines which workflow is triggered once a lead form is submitted.
 
-![](assets/chlimage_1-78.png)
+![](assets/chlimage_1-348.png)
 
 **Post Options** The following post options are available:
 
@@ -301,7 +301,7 @@ If you are validating the complete form, also include one of the following:
 
 **Action Configuration** Depending on the selection in Post Options, the Action Configuration changes. For example, when you select Create Lead, you can configure what list the lead is added to.
 
-![](assets/chlimage_1-79.png)
+![](assets/chlimage_1-349.png)
 
 * **Show Submit Button** 
   Indicates whether a Submit button should be shown or not.
@@ -353,7 +353,7 @@ To create a new landing page:
 1. Click **Create** &gt;** Page**.
 1. Select the **Importer Page** template and click **Next**. Add a title and optionally, a name and tags, and click **Create**.
 
-   ![](assets/chlimage_1-80.png)
+   ![](assets/chlimage_1-350.png)
 
    Your new importer page is displayed.
 
@@ -371,11 +371,11 @@ To import the design package:
 
 1. Open the importer page you [created earlier](#creatingablankcanvaspage). 
 
-   ![](assets/chlimage_1-81.png)
+   ![](assets/chlimage_1-351.png)
 
 1. Drag and drop the design package onto the dropbox. You see your landing page in place of the importer page. Your page has been successfully imported.
 
-   ![](assets/chlimage_1-82.png)
+   ![](assets/chlimage_1-352.png)
 
 >[!NOTE]
 >
@@ -403,7 +403,7 @@ This section describes how to do the following:
 
 In the interface, **Clear Design** and **Download Imported Zip** are available in the settings menu:
 
-![](assets/chlimage_1-83.png) 
+![](assets/chlimage_1-353.png) 
 
 ### Downloading the imported design package {#downloading-the-imported-design-package}
 
@@ -415,11 +415,11 @@ To download the imported design package select **Download imported zip** from th
 
 At any time, you can view information about the last import by clicking the blue exclamation mark at the top of the landing page in the classic user interface.
 
-![](assets/chlimage_1-84.png)
+![](assets/chlimage_1-354.png)
 
 In case the imported design package has some issues, for example, if it refers to images/scripts that do not exist within the package, and so on, then the design importer displays such issues in the form of a list. To view the list of issues, in the classic user interface, click the issues link in the Landing Page toolbar. In the following image, clicking on **Issues** link opens the Import Issues window.
 
-![](assets/chlimage_1-1.jpeg) 
+![](assets/chlimage_1-2.jpeg) 
 
 ### Resetting a landing page {#resetting-a-landing-page}
 

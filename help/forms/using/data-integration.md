@@ -3,11 +3,11 @@ title: AEM Forms Data Integration
 seo-title: AEM Forms Data Integration
 description: Data Integration lets you integrate AEM Forms with disparate data sources and create form data model to create and work with adaptive forms and interactive communications.
 seo-description: Data Integration lets you integrate AEM Forms with disparate data sources and create form data model to create and work with adaptive forms and interactive communications.
-uuid: d4ccfca4-7aff-41c3-a45a-15938d734d8c
+uuid: f1a23c43-7abf-4fd0-b087-85aa94e70c4b
 contentOwner: vishgupt
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: integration
-discoiquuid: 3e798ef2-77f2-4db3-9eb7-c488f1493759
+discoiquuid: d5e6daf1-371a-4342-890c-09112bedbd73
 index: y
 internal: n
 snippet: y

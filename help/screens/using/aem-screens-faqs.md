@@ -3,12 +3,12 @@ title: AEM Screens FAQs
 seo-title: AEM Screens FAQs
 description: Follow this page to get answers to FAQs related to an AEM Screens project.
 seo-description: Follow this page to get answers to FAQs related to an AEM Screens project.
-uuid: 597c4a10-2f6f-4dd6-ba55-a1d5b55ad4b4
+uuid: a117dd6f-a874-4b7c-90b8-1f2d0a4f1020
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 content-type: reference
 topic-tags: troubleshoot
-discoiquuid: 7dce29f3-9df0-411c-bd31-1cd2fb78b7ff
+discoiquuid: 97eb7a59-8d82-4b02-bc90-4e2bed34d067
 index: y
 internal: n
 snippet: y
@@ -115,3 +115,11 @@ ChromeOS player can be installed as Chrome Browser plugin in developer mode with
 #### How to troubleshoot if Screens player is unable to authenticate through publish instance with custom error handler? {#how-to-troubleshoot-if-screens-player-is-unable-to-authenticate-through-publish-instance-with-custom-error-handler}
 
 When AEM Screens player starts, it makes a request to ***/content/screens/svc.ping.json***, when the player gets a 404 error. The player initiates an authentication request to authenticate against the publish instance. If there is a custom error handler in publish instance, please make sure that you return the 404 status code for anonymous user on ***/content/screens/svc.ping.json***.
+
+### Using Assets {#using-assets}
+
+#### How to use videos in an AEM Screens channel larger than 2GB? {#how-to-use-videos-in-an-aem-screens-channel-larger-than-gb}
+
+By default, the AEM Assets Touch UI does not let you upload any assets that are larger than 2 GB because of a file size limit in an AEM Screens channel. However, you can overwrite this limit by going into CRXDE Lite and creating a node under the /apps directory.
+
+To learn in detail on how to configure a higher file size limit (for example, 30GB ) in the */apps* directory, please refer to *Configuration to upload video assets that are larger than 2 GB* in [Managing Video Assets](../../assets/using/managing-video-assets.md).

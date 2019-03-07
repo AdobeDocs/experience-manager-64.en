@@ -3,9 +3,9 @@ title: Use Automated Forms Conversion service
 seo-title: Use Automated Forms Conversion service
 description: Run the Automated Forms Conversion service to convert PDF forms to adaptive forms
 seo-description: Run the Automated Forms Conversion service to convert PDF forms to adaptive forms
-uuid: 531697ff-68b6-4dfe-943f-74af4ba012f3
+uuid: 027858aa-cc53-48b6-8171-7720da710a03
 contentOwner: khsingh
-discoiquuid: aabe566c-276d-4781-9097-22c9df89f15e
+discoiquuid: 92f4498e-c48e-4fb8-b863-ceda89e3f9e4
 index: y
 internal: n
 snippet: y

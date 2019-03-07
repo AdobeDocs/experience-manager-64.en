@@ -3,12 +3,12 @@ title: Configuring Undo for Page Editing
 seo-title: Configuring Undo for Page Editing
 description: Learn how to configure Undo support for page editing in AEM.
 seo-description: Learn how to configure Undo support for page editing in AEM.
-uuid: 5b692460-62e9-4f1d-91df-74a2119344ae
+uuid: db5de164-9196-4164-ab6b-3520bbe0cae0
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: 5442f4f2-b36b-4286-b20d-076f9b96af4a
+discoiquuid: 210adc9f-ceaf-4ebc-befa-c580cbf4f1bc
 index: y
 internal: n
 snippet: y

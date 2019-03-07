@@ -3,13 +3,13 @@ title: AEM 3D Release Notes
 seo-title: AEM 3D Release Notes
 description: Release notes specific to 3D content in Adobe Experience Manager Assets.
 seo-description: Release notes specific to 3D content in Adobe Experience Manager Assets.
-uuid: 8fde2110-c691-4e17-94c2-0711ff420cd0
+uuid: fd1e6020-513f-4ec4-8c65-398991e4b211
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4
 topic-tags: release-notes
 content-type: reference
 topic-tags: 3D
-discoiquuid: d64a1f47-b0bd-4c4c-9880-a76b6c310a30
+discoiquuid: d490ef6f-649a-4a63-a346-fc3df10b48c8
 index: y
 internal: n
 snippet: y

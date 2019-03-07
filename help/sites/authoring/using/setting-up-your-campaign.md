@@ -3,12 +3,12 @@ title: Setting up your campaign
 seo-title: Setting up your campaign
 description: Set up a new campaign
 seo-description: Set up a new campaign
-uuid: 60180849-cbbc-44fe-8dad-bc939823cc12
+uuid: 273a1aa7-31f5-4d9b-ab5c-27170ae1b6f4
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: personalization
-discoiquuid: eff43ebd-a8b3-4601-910e-a57b04d94e60
+discoiquuid: bae921ed-ede4-463b-8904-d692b3d042f2
 index: y
 internal: n
 snippet: y
@@ -56,7 +56,7 @@ To create a new brand:
 
 1. Select **New...** to enter the **Title** and **Name** and template to be used for your new brand:
 
-   ![](assets/chlimage_1-247.png)
+   ![](assets/chlimage_1-220.png)
 
 1. Click **Create**. Your new brand will be shown in the MCM (with a default icon).
 
@@ -66,7 +66,7 @@ To create a new brand:
 
    You can enter a **Title**, **Description** and an image to be used as the icon.
 
-   ![](assets/chlimage_1-248.png)
+   ![](assets/chlimage_1-221.png)
 
 1. Click **OK** to save.
 
@@ -80,7 +80,7 @@ To create a new campaign:
 
 1. Click **New...** and specify the **Title**, **Name** and template to be used for your new campaign.
 
-   ![](assets/chlimage_1-249.png)
+   ![](assets/chlimage_1-222.png)
 
 1. Click **Create**. Your new campaign will be shown in the MCM.
 
@@ -99,7 +99,7 @@ Configure campaign properties that control the behavior:
 
    You can enter various properties, including a **Title**, **Description** and any **Cloud Services** you want.
 
-   ![](assets/chlimage_1-250.png)
+   ![](assets/chlimage_1-223.png)
 
 1. Click **OK** to save.
 
@@ -145,7 +145,7 @@ If you have existing experiences you can add a touchpoint directly from the Cale
 
 1. Click **Add Touchpoint...** to open the dialog. Specify the experience you want to add:
 
-   ![](assets/chlimage_1-251.png)
+   ![](assets/chlimage_1-224.png)
 
 1. Click **OK** to save.
 

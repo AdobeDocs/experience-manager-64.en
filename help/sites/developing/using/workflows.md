@@ -3,12 +3,12 @@ title: Developing and Extending Workflows
 seo-title: Developing and Extending Workflows
 description: AEM provides several tools and resources for creating worklfow models, developing workflow steps, and for programmatically interacting with workflows
 seo-description: AEM provides several tools and resources for creating worklfow models, developing workflow steps, and for programmatically interacting with workflows
-uuid: 42676f4e-acf2-403d-bab1-81dd457672f6
+uuid: 8f9a736f-3d47-4081-b91b-5f2310c6c5d1
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
-discoiquuid: 1f0902c9-d4e4-478b-9f0a-a3536c1f9c57
+discoiquuid: ed43afc0-0116-450e-9523-2910a2192563
 index: y
 internal: n
 snippet: y

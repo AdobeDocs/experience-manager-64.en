@@ -3,12 +3,12 @@ title: Programmatically Managing Endpoints
 seo-title: Programmatically Managing Endpoints
 description: null
 seo-description: null
-uuid: 9245c37e-755b-4ec1-960b-faa34f16f5b5
+uuid: ee9eaf4d-565d-4976-81a1-29c8fe2eadb2
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: a384e83f-5d6f-45be-8e01-5d9f6929d3c7
+discoiquuid: 9b18eb8b-be35-4fd6-84db-c33bcdccc621
 index: y
 internal: n
 snippet: y

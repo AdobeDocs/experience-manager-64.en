@@ -3,12 +3,12 @@ title: Linking URLs to your Web Application
 seo-title: Linking URLs to your Web Application
 description: How to link URLs to your web application in dynamic media
 seo-description: How to link URLs to your web application in dynamic media
-uuid: 4ba7a64e-cd7c-4c83-a077-833b422f8d10
+uuid: dc3e1b20-ff3c-45e8-a5d9-de51b10211e9
 contentOwner: Alva Ware-Bevacqui
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: 91c191f3-8a47-4fa5-bc53-e95e54a6a775
+discoiquuid: be660a08-a23e-40f3-bf4f-d0cbd0e3c5d0
 index: y
 internal: n
 snippet: y
@@ -70,7 +70,7 @@ There are several different ways you can obtain a URL string. However, the steps
 
    At the bottom of the left rail, tap **URL**.
 
-   ![](assets/chlimage_1-275.png)
+   ![](assets/chlimage_1-270.png)
 
     * If you selected a spin set, an image set, a carousel set, or a video, in the drop-down menu, click or tap **Viewers**.
 
@@ -78,7 +78,7 @@ There are several different ways you can obtain a URL string. However, the steps
 
    In the left rail, at the bottom, tap or click **URL**.
 
-   ![](assets/chlimage_1-276.png)
+   ![](assets/chlimage_1-271.png)
 
 1. Select and copy the text to your web browser to preview the asset or to add to your web content page.
 

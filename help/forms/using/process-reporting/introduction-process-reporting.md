@@ -3,11 +3,11 @@ title: Introduction to Process Reporting
 seo-title: Introduction to Process Reporting
 description: Introduction and key capabilities of AEM Forms on JEE Process Reporting
 seo-description: Introduction and key capabilities of AEM Forms on JEE Process Reporting
-uuid: fc2046e1-8e80-42fe-a9ec-8181a836474d
+uuid: 0191c1de-33a4-4b75-8447-634b069771bb
 content-type: reference
 topic-tags: process-reporting
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 84336fdd-e595-4f8e-8553-0c33a9d023a2
+discoiquuid: 0777ee46-7779-4a54-9d7a-e12321b446ea
 index: y
 internal: n
 snippet: y

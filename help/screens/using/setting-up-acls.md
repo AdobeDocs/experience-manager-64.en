@@ -3,12 +3,12 @@ title: Setting up ACLs
 seo-title: Setting up ACLs
 description: Follow this page to learn how to segregate projects using ACLs so that each individual or team handles their own project.
 seo-description: Follow this page to learn how to segregate projects using ACLs so that each individual or team handles their own project.
-uuid: 4b9d22de-023a-48b1-9e30-e9d4f7373d4c
+uuid: 17370f4e-8d82-40a8-b84e-116cb20ad414
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: administering
-discoiquuid: 4aa6c1b5-02fb-4a07-a75a-2d8a412d3bec
+discoiquuid: 693e071f-d228-4f72-95d9-8e503add59eb
 index: y
 internal: n
 snippet: y

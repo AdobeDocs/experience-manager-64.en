@@ -3,12 +3,12 @@ title: Creating and Configuring Asset Editor pages
 seo-title: Creating and Configuring Asset Share and Asset Editor pages
 description: Learn how to create custom Asset Editor pages and edit multiple assets simultaneously.
 seo-description: Learn how to create custom Asset Editor pages and edit multiple assets simultaneously.
-uuid: 5d0188e9-879e-468d-8043-c08fd27829a6
+uuid: 0dd4c417-c3bf-4694-8e0e-491b110083a5
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: 92203c99-a889-4dae-b977-d401645020ad
+discoiquuid: 2b3db254-a408-4c19-96ec-266e76399032
 index: y
 internal: n
 snippet: y
@@ -131,7 +131,7 @@ The following actions are available:
 
 2. Drag the appropriate action to the **Actions** area on the page. Doing so creates a button that is used to execute that action. 
 
-![](assets/chlimage_1-392.png)
+![](assets/chlimage_1-387.png)
 
 #### Determining how Search Results are Presented {#determining-how-search-results-are-presented}
 
@@ -154,11 +154,11 @@ The following lenses are available:
 
 #### Mosaic Lens {#mosaic-lens}
 
-![](assets/chlimage_1-393.png)
+![](assets/chlimage_1-388.png)
 
 #### List Lens {#list-lens}
 
-![](assets/chlimage_1-394.png)
+![](assets/chlimage_1-389.png)
 
 #### Customizing the Query Builder {#customizing-the-query-builder}
 
@@ -317,7 +317,7 @@ See [Customizing and Extending AEM Assets](../../assets/using/extending-assets.m
 
 The following is an example of a Metadata form with various fields:
 
-![](assets/chlimage_1-395.png)
+![](assets/chlimage_1-390.png)
 
 On the Asset Editor page, users can then enter values into the metadata fields (if they are editable) and perform the end action (for example, submitting the changes).
 
@@ -375,7 +375,7 @@ The following is an example of a populated Thumbnail component:
 
 The Title component displays the title of the asset and a description. 
 
-![](assets/chlimage_1-396.png)
+![](assets/chlimage_1-391.png)
 
 By default, it is in read-only mode so users cannot edit it. To make it editable, double-click the component and clear the **Hide**** edit button** checkbox. In addition, enter a title for multiple assets.
 
@@ -389,7 +389,7 @@ When users edit the Title by clicking the Pencil icon, they can change the **Tit
 
 The following is an example of a populated Title component:
 
-![](assets/chlimage_1-397.png)
+![](assets/chlimage_1-392.png)
 
 #### Adding Asset Editor Actions {#adding-asset-editor-actions}
 
@@ -414,7 +414,7 @@ The following actions are available:
 
 2. Drag the appropriate action to the **Actions** area on the page. Doing so creates a button that is used to execute that action. 
 
-![](assets/chlimage_1-398.png)
+![](assets/chlimage_1-393.png)
 
 ## Multi-Editing Assets with the Asset Editor page {#multi-editing-assets-with-the-asset-editor-page}
 

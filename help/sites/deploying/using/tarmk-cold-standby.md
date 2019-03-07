@@ -3,12 +3,12 @@ title: How to Run AEM with TarMK Cold Standby
 seo-title: How to Run AEM with TarMK Cold Standby
 description: Learn how to create, configure and maintain a TarMK Cold Standby setup.
 seo-description: Learn how to create, configure and maintain a TarMK Cold Standby setup.
-uuid: c988949f-0601-4359-b8bb-0661cb8c9c0e
+uuid: bf810bba-6225-43c6-a447-578d6760687c
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
-discoiquuid: 521eae71-f66d-402c-974f-6b88a2fc4d2a
+discoiquuid: 1d4277f2-8f1a-470d-abb6-bcee97aa6560
 index: y
 internal: n
 snippet: y

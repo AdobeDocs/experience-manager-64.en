@@ -3,12 +3,12 @@ title: Software Architecture
 seo-title: Software Architecture
 description: Best practices for architecting your software
 seo-description: Best practices for architecting your software
-uuid: f3277028-cc45-49ce-b90c-6cafbe6b429e
+uuid: 64e939bf-29b1-4a8d-bb52-abd3e44fbccf
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
-discoiquuid: 39254d63-8aef-4a18-b4dc-fe6ae0406c08
+discoiquuid: 326c442a-30f0-4cfc-be03-9a141fa6c132
 index: y
 internal: n
 snippet: y

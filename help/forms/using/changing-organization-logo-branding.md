@@ -3,12 +3,12 @@ title: Changing the organization logo for branding
 seo-title: Changing the organization logo for branding
 description: To brand AEM Forms workspace provide the logo of your organization by customizing the default logo.
 seo-description: To brand AEM Forms workspace provide the logo of your organization by customizing the default logo.
-uuid: 251917dd-4cf2-4d4a-912b-c234a74a9d34
+uuid: b79421be-8d03-4748-bcad-eea56730f0e7
 contentOwner: robhagat
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
-discoiquuid: e8dd02d6-d302-4d4e-b465-d1400f54f955
+discoiquuid: 33ef885b-4dc2-4918-b04e-38986de40f04
 index: y
 internal: n
 snippet: y

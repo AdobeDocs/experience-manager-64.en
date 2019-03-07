@@ -3,12 +3,12 @@ title: SPA Editor Overview
 seo-title: SPA Editor Overview
 description: This article gives a comprehensive overview of the SPA Editor and how it works included detailed workflows of interaction of the SPA Editor within AEM.
 seo-description: This article gives a comprehensive overview of the SPA Editor and how it works included detailed workflows of interaction of the SPA Editor within AEM.
-uuid: 8fb3be75-9dec-4fbc-af27-10720f8c2866
+uuid: bcbcb651-2bfe-4f03-a683-60c049e606a3
 contentOwner: bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: spa
 content-type: reference
-discoiquuid: 1504215c-80d0-4924-86bc-1753bbd193c3
+discoiquuid: 970b7dc8-66a0-410c-b433-09c4f7be4325
 index: y
 internal: n
 snippet: y

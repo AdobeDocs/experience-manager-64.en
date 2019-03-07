@@ -3,12 +3,12 @@ title: Components Overview
 seo-title: Components
 description: Components are modular units which realize specific functionality to present your content on your website
 seo-description: Components are modular units which realize specific functionality to present your content on your website
-uuid: 2140b421-d43d-4198-baef-cd0ac18e8bc9
+uuid: ba1682e5-b78c-4b8c-b7a1-0d94ddd7741f
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: components
 content-type: reference
-discoiquuid: 880ec09c-abe9-4b6d-ba2c-cd391693a7ae
+discoiquuid: 32e588ae-c78d-447e-8a3f-553341b3ece6
 index: y
 internal: n
 snippet: y

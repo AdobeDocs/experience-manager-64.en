@@ -3,12 +3,12 @@ title: Using Polls
 seo-title: Using Polls
 description: Adding the Poll component to a page
 seo-description: Adding the Poll component to a page
-uuid: 246f68ba-314d-41b5-a6de-f1faeb16fcf7
+uuid: 5643a4aa-60d7-49b6-8587-1da85cb6513a
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
-discoiquuid: 5162f532-b228-43c4-85b2-64d73a73dd38
+discoiquuid: 39293597-d342-4124-aeb9-c5522a239824
 index: y
 internal: n
 snippet: y

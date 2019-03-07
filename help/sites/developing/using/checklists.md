@@ -3,12 +3,12 @@ title: Checklists
 seo-title: Checklists
 description: The following checklist highlights some of the main testing issues
 seo-description: The following checklist highlights some of the main testing issues
-uuid: fb9fef9e-31f8-41f0-b0a9-8a50899f9d46
+uuid: 504b044e-f096-4112-842a-6b3e1c4784bb
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: testing
 content-type: reference
-discoiquuid: 46a488a2-080f-4acb-ba8d-b62213cb835f
+discoiquuid: 0f75fa06-488a-4abc-bef4-6b22dc6985cf
 index: y
 internal: n
 snippet: y

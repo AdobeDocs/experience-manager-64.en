@@ -3,12 +3,12 @@ title: Configuring Components in Design Mode
 seo-title: Configuring Components in Design Mode
 description: null
 seo-description: null
-uuid: b8357860-651b-4bd7-8fd0-171c9596062a
+uuid: b5c05d28-58aa-49b1-9702-bd5271da661b
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: 346dc281-2e57-4c7f-a912-167a1840a685
+discoiquuid: c7c6dccd-1b1b-4032-94ef-9432376fb5ea
 index: y
 internal: n
 snippet: y
@@ -149,7 +149,7 @@ To either enable or disable a component:
 
    Use the **Add **button to add additional entries to a multiple-entry dialogue list.
 
-   ![](assets/chlimage_1-120.png)
+   ![](assets/chlimage_1-94.png)
 
    Use the** Delete **icon to remove an entry from a multiple-entry dialogue list.
 

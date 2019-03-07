@@ -3,12 +3,12 @@ title: Use HSM to digitally sign or certify documents
 seo-title: Use HSM to certify eSigned documents
 description: Use HSM or etoken devices to certify eSigned documents
 seo-description: Use HSM or etoken devices to certify eSigned documents
-uuid: 2d690d8b-d3db-4acd-a962-400b80ae159b
+uuid: ae17b456-3ee1-4f04-985e-56baf1bbe468
 contentOwner: vishgupt
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: document_services
-discoiquuid: 9da2b62a-ea6b-4052-b19c-c1cbf3eae05e
+discoiquuid: 61d84b4b-0993-48dc-81b4-3ffdf4df88a8
 index: y
 internal: n
 snippet: y

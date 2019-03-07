@@ -3,12 +3,12 @@ title: Working with Dynamic Media
 seo-title: Working with Dynamic Media
 description: Learn how to use Dynamic Media to deliver assets for consumption on web, mobile, and social sites.
 seo-description: Learn how to use Dynamic Media to deliver assets for consumption on web, mobile, and social sites.
-uuid: c40f21f1-b253-4bc5-b98e-0d54d38f7e96
+uuid: 850021ac-ab91-4b01-a322-56bf438e92bc
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: introduction
 content-type: reference
-discoiquuid: 1e97dcc1-5ce6-472f-bb5b-8b93d61b20ce
+discoiquuid: 92fd80b5-6eb3-49cd-b110-1a9ba70704c1
 index: y
 internal: n
 snippet: y
@@ -63,27 +63,27 @@ When clicking on an image asset, the view of the asset is different with Dynamic
 
 Dynamic renditions such as image and viewer presets (under **Dynamic**) are available when Dynamic Media is enabled.
 
-![](assets/chlimage_1-363.png) 
+![](assets/chlimage_1-358.png) 
 
 #### Image sets, spins sets, mixed media sets {#image-sets-spins-sets-mixed-media-sets}
 
 Image sets, spin sets, and mixed media sets are available if Dynamic Media is enabled.
 
-![](assets/chlimage_1-364.png) 
+![](assets/chlimage_1-359.png) 
 
 #### Ptiff renditions {#ptiff-renditions}
 
 Dynamic media enabled assets include pyramid.tiffs.
 
-![](assets/chlimage_1-365.png) 
+![](assets/chlimage_1-360.png) 
 
 #### Asset views change {#asset-views-change}
 
 With Dynamic Media enabled, you can zoom in and out by clicking the + and - buttons. You can also click/tap to zoom into certain area. Revert brings you to the original version and you can make the image full screen by clicking the diagonal arrows. Dynamic Media enabled looks like this:
 
-![](assets/chlimage_1-366.png)
+![](assets/chlimage_1-361.png)
 
 With dynamic media disabled you can zoom in and out and revert to the original size:
 
-![](assets/chlimage_1-367.png)
+![](assets/chlimage_1-362.png)
 

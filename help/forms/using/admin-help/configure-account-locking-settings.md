@@ -3,12 +3,12 @@ title: Configure account-locking settings
 seo-title: Configure account-locking settings
 description: Use the Enable Account Locking option to lock user accounts after a specified number of consecutive authentication failures.
 seo-description: Use the Enable Account Locking option to lock user accounts after a specified number of consecutive authentication failures.
-uuid: 85ce450f-a01b-48c7-8bd6-f59778165303
+uuid: 399a0c27-727a-405d-a8c1-ca63043ae5c7
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/setting_up_and_managing_domains
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: d8b637ee-aba0-4bd8-b99d-eca084e34e33
+discoiquuid: bb0784aa-71aa-4be0-af73-e941cd460e4a
 index: y
 internal: n
 snippet: y

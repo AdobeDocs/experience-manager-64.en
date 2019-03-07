@@ -4,12 +4,12 @@ seo-title: [DO NOT PUBLISH] Upgrade or migrate to AEM 6.3 Forms
 description: You can perform a direct upgrade from AEM 6.1 Forms and AEM 6.2 Forms to AEM 6.3 Forms. You can also perform a multi-hop upgrade from a LiveCycle version to AEM 6.3 Forms. 
 seo-description: You can perform a direct upgrade from AEM 6.1 Forms and AEM 6.2 Forms to AEM 6.3 Forms. You can also perform a multi-hop upgrade from a LiveCycle version to AEM 6.3 Forms. 
 page-status-flag: never-activated
-uuid: d8066c24-213b-4d04-8b9a-2cc745a45f3d
+uuid: 6b0772f7-00f4-4779-9650-42e8caffc4ee
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.3/FORMS
 topic-tags: installing
 geptopics: SG_AEMFORMS/categories/jee
-discoiquuid: a37934fd-65bb-40fc-9088-902836e59de3
+discoiquuid: 2c5eb5af-929c-40fe-a2d7-066fb14d84b3
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Salesforce Commerce Cloud
 seo-title: Salesforce Commerce Cloud / Demandware
 description: Learn how to deploy eCommerce with Salesforce Commerce Cloud / Demandware.
 seo-description: Learn how to deploy eCommerce with Salesforce Commerce Cloud / Demandware.
-uuid: 64ff0d4c-fb10-4546-9ac7-8e4c84faed62
+uuid: 5f80d8f5-eb2c-4f28-92d4-dc49512361c4
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: e-commerce
 content-type: reference
-discoiquuid: 2dc00ecd-22b5-4387-b51d-8a377e657d85
+discoiquuid: 0960f77b-2740-49dd-9f77-31003eff4a7c
 pagetitle: Deploying eCommerce with Demandware
 index: y
 internal: n
@@ -53,13 +53,13 @@ The server connection between AEM and the Demandware Sandbox needs to be configu
 1. Click **Demandware Client**.
 1. Enter the **Instance endpoint ip or hostname** as required.
 
-   ![](assets/chlimage_1-95.png)
+   ![](assets/chlimage_1-154.png)
 
 1. Click **Save**.
 1. Click **Demandware TransportHandler Plugin for WebDAV**.
 1. Set the **WebDAV user** and the **WebDAV user password**.
 
-   ![](assets/chlimage_1-96.png)
+   ![](assets/chlimage_1-155.png)
 
 1. Click **Save**.
 
@@ -80,7 +80,7 @@ For staging and productions systems, the OAuth clients need to be configured wit
 1. Navigate to [http://localhost:4502/system/console/configMgr](http://localhost:4502/system/console/configMgr).
 1. Click **Demandware Access Token provider**.
 
-   ![](assets/chlimage_1-97.png)
+   ![](assets/chlimage_1-156.png)
 
 1. Modify the values as required and click **Save**.
 

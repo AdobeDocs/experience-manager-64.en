@@ -3,12 +3,12 @@ title: Interactive Images
 seo-title: Interactive Images
 description: Learn how to work with interactive images in dynamic media
 seo-description: Learn how to work with interactive images in dynamic media
-uuid: d3919435-3417-427f-9a81-f1bc73ba8b6d
+uuid: 3f96a049-481f-4a77-a945-655302826812
 contentOwner: Alva Ware-Bevacqui
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: 0fb715e5-4513-48ca-bc15-bffd44b68b85
+discoiquuid: 54fbe9f7-941d-41ad-86ab-f15402b36824
 index: y
 internal: n
 snippet: y
@@ -20,7 +20,7 @@ You can easily make static images rich, engaging experiences for customers by dr
 
 The following is a shoppable banner with a Quickview pop-up. A user activates the Quickview by tapping the circle or "hotspot" on the model.
 
-![](assets/chlimage_1-373.png)
+![](assets/chlimage_1-368.png)
 
 See interactive images in action on the web page above by going to the following:
 

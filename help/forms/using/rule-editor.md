@@ -3,12 +3,12 @@ title: Adaptive forms rule editor
 seo-title: Adaptive forms rule editor
 description: Adaptive forms rule editor allows you to add dynamic behavior and build complex logic into forms without coding or scripting.
 seo-description: Adaptive forms rule editor allows you to add dynamic behavior and build complex logic into forms without coding or scripting.
-uuid: 0d212ae7-37eb-469d-9faa-8adabf333af5
+uuid: f10d1f03-48a7-46a5-bde3-8910d73ba080
 content-type: reference
 topic-tags: adaptive_forms
 topic-tags: develop
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 8326a639-7680-45d0-9695-4d95d975c379
+discoiquuid: 949d4bac-4c54-484b-8107-7d14a4ac0435
 index: y
 internal: n
 snippet: y

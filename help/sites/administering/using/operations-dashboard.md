@@ -3,12 +3,12 @@ title: Operations Dashboard
 seo-title: Operations Dashboard
 description: Learn how to use the Operations Dashboard.
 seo-description: Learn how to use the Operations Dashboard.
-uuid: 09e8032a-6642-453d-a77b-e66914fe656f
+uuid: 10cae0f3-5111-4879-bed7-fd846d433486
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: 52c2666a-8c97-4df9-b14b-66a3140aa68f
+discoiquuid: 01f65d59-9025-4894-9c2f-67f1d84ec62c
 index: y
 internal: n
 snippet: y
@@ -48,11 +48,11 @@ The Health Reports interface can be accessed through the **Tools** - **Operation
 
 `http://<serveraddress>:port/libs/granite/operations/content/healthreports/healthreportlist.html`
 
-![](assets/chlimage_1-124.png)
+![](assets/chlimage_1-414.png)
 
 The card system exposes three possible states: **OK**, **WARN **and **CRITICAL**. The states are a result of rules and thresholds, which can be configured by hovering the mouse over the card and then clicking the gear icon in the action bar:
 
-![](assets/chlimage_1-125.png) 
+![](assets/chlimage_1-415.png) 
 
 ### Health Check Types {#health-check-types}
 
@@ -151,7 +151,7 @@ A Composite Health Check's role is to aggregate a number of individual Health Ch
 1. Search for the entry called **Apache Sling Composite Health Check**. After you find it, notice that there are two configurations already available: one for the System Checks and another one for the Security Checks.
 1. Create a new configuration by pressing the "+" button on the right hand side of the configuration. A new window will appear, as shown below:
 
-   ![](assets/chlimage_1-31.jpeg)
+   ![](assets/chlimage_1-63.jpeg)
 
 1. Create a configuration and save it. A Mbean will be created with the new configuration.
 
@@ -361,7 +361,7 @@ The Health Check Dashboard can integrate with Nagios via the Granite JMX Mbeans.
     
     1. Add the host definition:
 
-   ![](assets/chlimage_1-126.png)
+   ![](assets/chlimage_1-416.png)
 
    Below is an example of a host configuration file, in case you are using Nagios Core:
 
@@ -409,7 +409,7 @@ The Health Check Dashboard can integrate with Nagios via the Granite JMX Mbeans.
 
 1. Check your Nagios dashboard for the newly created service:
 
-   ![](assets/chlimage_1-127.png)
+   ![](assets/chlimage_1-417.png)
 
 ## Diagnosis tools {#diagnosis-tools}
 
@@ -423,7 +423,7 @@ Amongst its most important features are:
 
 You can reach the Diagnosis Tools screen by going to **Tools - Operations - Diagnosis** from the AEM Welcome screen. You can also access the screen by directly accessing the following URL: `http://serveraddress:port/libs/granite/operations/content/diagnosis.html`
 
-![](assets/chlimage_1-128.png) 
+![](assets/chlimage_1-418.png) 
 
 ### Log Messages {#log-messages}
 
@@ -440,7 +440,7 @@ Examples:
 
 * If you plan on capturing all the messages coming from a certain package (for example com.adobe.granite) - the logger name should be set to: "com.adobe.granite", and the logger level to: **DEBUG** (this will capture all the **ERROR**, **WARN**, **INFO** and **DEBUG** messages), as shown in the image below.
 
-![](assets/chlimage_1-129.png)
+![](assets/chlimage_1-419.png)
 
 >[!NOTE]
 >
@@ -474,7 +474,7 @@ The Request Performance page allows the analysis of the slowest page requests pr
 1. Requests accessing resources under `/etc/design`
 1. Requests having the `".html"` extension
 
-![](assets/chlimage_1-130.png)
+![](assets/chlimage_1-420.png)
 
 The page displays:
 
@@ -503,7 +503,7 @@ The page displays:
 * The statement of the query 
 * The duration in milliseconds
 
-![](assets/chlimage_1-131.png) 
+![](assets/chlimage_1-421.png) 
 
 ### Explain Query {#explain-query}
 
@@ -522,7 +522,7 @@ The Explain Query is a tool that explains how Oak is executing a query. It can b
 
 Once you are in the Explain Query UI, all you need to do in order to use it is enter the query and press the **Explain** button:
 
-![](assets/chlimage_1-132.png)
+![](assets/chlimage_1-422.png)
 
 The first entry in the Query Explanation section is the actual explanation. The explanation will show the type of index that was used to execute the query.
 
@@ -530,7 +530,7 @@ The second entry is the execution plan.
 
 Ticking the **Include execution time** box before running the query will also show the amount of time the query was executed in, allowing for more information that can be used for optimizing the indexes for your application or deployment.
 
-![](assets/chlimage_1-133.png) 
+![](assets/chlimage_1-423.png) 
 
 ### The Index Manager {#the-index-manager}
 
@@ -540,7 +540,7 @@ It can be accessed by going to **Tools - Operations - Diagnosis **from the Welco
 
 It can also be accessed directly at this URL: `http://serveraddress:port/libs/granite/operations/content/diagnosis/tool.html/_granite_oakindexmanager`
 
-![](assets/chlimage_1-134.png)
+![](assets/chlimage_1-424.png)
 
 The UI can be used to filter indexes in the table by typing in the filter criteria in the search box in the upper left corner of the screen.
 
@@ -586,7 +586,7 @@ The default timing for the daily maintenance window is 2 to 5 AM. The tasks conf
 
 You can also configure the timings by pressing the gear icon on any of the two maintenance cards:
 
-![](assets/chlimage_1-135.png)
+![](assets/chlimage_1-425.png)
 
 >[!NOTE]
 >
@@ -643,6 +643,10 @@ You can schedule the Version Purge maintenance task to delete old versions autom
 >[!NOTE]
 >
 >To stop the maintenance task means to suspend its execution without losing track of the job already in progress.
+
+>[!CAUTION]
+>
+>In order to optimize the repository size you should run the version purge task frequently. The task should be scheduled outside of business hours when there is a limited amount of traffic.
 
 ## Custom Maintenance Tasks {#custom-maintenance-tasks}
 
@@ -709,7 +713,7 @@ src/main/java/com/adobe/granite/samples/maintenance/impl/DeleteTempFilesTask.jav
 
 Once the service is deployed, it will be exposed to the Operations Dashboard UI and can be added to one of the available maintenance schedules:
 
-![](assets/chlimage_1-136.png)
+![](assets/chlimage_1-426.png)
 
 This will add a corresponding resource at /apps/granite/operations/config/maintenance/[schedule]/[taskname]. If the task is run mode dependent, the property granite.operations.conditions.runmode needs to be set on that node with the values of the runmodes which need to be active for this maintenance task.
 

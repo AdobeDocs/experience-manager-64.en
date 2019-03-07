@@ -3,12 +3,12 @@ title: Communities Sites Console
 seo-title: Communities Sites Console
 description: How to access the Communities Sites console
 seo-description: How to access the Communities Sites console
-uuid: 15042e59-c210-4ed7-8351-8af1546eaec6
+uuid: a04bf63f-845d-4b98-a457-fce71c9dfd65
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 835719ff-4210-4d16-8f4d-be9593cf75e2
+discoiquuid: 1fcf9e7a-3447-47e8-93a6-9a57a130eae0
 index: y
 internal: n
 snippet: y

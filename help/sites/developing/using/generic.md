@@ -3,12 +3,12 @@ title: Developing (generic)
 seo-title: Developing (generic)
 description: The integration framework includes an integration layer with an API, allowing you to build AEM components for eCommerce capabilities
 seo-description: The integration framework includes an integration layer with an API, allowing you to build AEM components for eCommerce capabilities
-uuid: fed4c114-815d-464f-9c7e-9f9c3cbaf074
+uuid: da2c64e6-2132-48b2-b0df-fd6e32ac3a39
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: platform
-discoiquuid: 8355309f-1c23-42c3-9e64-8bae9ea7a2b0
+discoiquuid: e8b93765-aa72-4ca4-b4e3-1e9af617026f
 index: y
 internal: n
 snippet: y

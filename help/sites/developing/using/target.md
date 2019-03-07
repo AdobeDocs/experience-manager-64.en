@@ -3,12 +3,12 @@ title: Developing for Targeted Content
 seo-title: Developing for Targeted Content
 description: Topics about developing components for use with content targeting
 seo-description: Topics about developing components for use with content targeting
-uuid: 3c628185-0992-43da-a295-a91b4a05b798
+uuid: aec4179d-f413-4a53-b2e8-b0ec541e5e8e
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: 97e1237c-6a12-4e79-bf6b-9ee33e3edc94
+discoiquuid: da8d1c86-99f5-46da-b03f-ed500ce11be5
 index: y
 internal: n
 snippet: y

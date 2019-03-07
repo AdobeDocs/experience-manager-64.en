@@ -3,12 +3,12 @@ title: Live Copy Overview Console
 seo-title: Live Copy Overview Console
 description: Learn about the basics of the Live Copy Overview Console.
 seo-description: Learn about the basics of the Live Copy Overview Console.
-uuid: 2f3dc6f3-62b3-4cb9-bdf0-6dc1f6c12658
+uuid: 3f00d485-480c-4d62-91ba-3a86a76adab8
 contentOwner: Alison Heimoz
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features
 content-type: reference
-discoiquuid: 8af80ac6-a8a7-4021-a9ea-62784402a805
+discoiquuid: 6fc6d726-aaaf-4371-978b-f42e9d819ec0
 index: y
 internal: n
 snippet: y
@@ -40,7 +40,7 @@ The **Live Copy Overview** can be opened from the **References** side panel of t
 1. In the **Sites** console, [navigate to your blueprint page and select it](../../../sites/authoring/using/basic-handling.md#viewingandselectingyourresources).
 1. Open the ** [References](../../../sites/authoring/using/basic-handling.md#references)** panel and select **Live Copies**.
 
-   ![](assets/chlimage_1-399.png)
+   ![](assets/chlimage_1-359.png)
 
    >[!NOTE]
    >
@@ -56,7 +56,7 @@ The **Live Copy Overview** can be opened when viewing properties of a blueprint 
 1. Open **Properties** for the appropriate blueprint page.
 1. Open the **Blueprint** tab - the **Live Copy Overview** option will be shown in the top toolbar:
 
-   ![](assets/chlimage_1-400.png)
+   ![](assets/chlimage_1-360.png)
 
 1. Select **Live Copy Overview** to show and use the overview of all live copies related to the current blueprint.
 
@@ -77,7 +77,7 @@ The **Live Copy Overview** can also be used to peform actions on the live copy:
 
 When you select a blueprint page, the following actions are available:
 
-![](assets/chlimage_1-401.png)
+![](assets/chlimage_1-361.png)
 
 * Edit
 
@@ -91,7 +91,7 @@ When you select a blueprint page, the following actions are available:
 
 When you select a live copy page, the following actions are available:
 
-![](assets/chlimage_1-402.png)
+![](assets/chlimage_1-362.png)
 
 * Edit
 
@@ -132,11 +132,11 @@ The **Relationship Status** console has two tabs providing a range of functional
 
 This tab provides detailed information about the status of the relationship between the blueprint and live copy:
 
-![](assets/chlimage_1-403.png) 
+![](assets/chlimage_1-363.png) 
 
 ### Live Copy Information {#live-copy-information}
 
 This tab allows you to view and edit the live copy configuration:
 
-![](assets/chlimage_1-404.png)
+![](assets/chlimage_1-364.png)
 

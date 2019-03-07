@@ -3,12 +3,12 @@ title: Getting Started with SPAs in AEM - React
 seo-title: Getting Started with SPAs in AEM - React
 description: This article presents a sample SPA application, explains how it is put together, and allows you to get up-and-running with your own SPA quickly using the React framework.
 seo-description: This article presents a sample SPA application, explains how it is put together, and allows you to get up-and-running with your own SPA quickly using the React framework.
-uuid: e92ab9f0-3b99-4338-b312-7c7de6266abb
+uuid: 9ce33dfb-b53b-4ab7-97a2-9007917b0624
 contentOwner: bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: spa
 content-type: reference
-discoiquuid: 6dd5be54-5a43-4c5f-96d2-a79254349146
+discoiquuid: ac2d0fc4-15e6-4af2-901f-112283923e98
 index: y
 internal: n
 snippet: y

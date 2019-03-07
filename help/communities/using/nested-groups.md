@@ -3,12 +3,12 @@ title: Authoring Nested Groups
 seo-title: Authoring Nested Groups
 description: Create nested groups
 seo-description: Create nested groups
-uuid: 9b5876ee-0f5c-4e46-b349-a4e6940d4d19
+uuid: d1941f83-66cd-4dc2-811f-94cb3131cbc2
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: introduction
 content-type: reference
-discoiquuid: 66f22e98-ab0b-40a6-84cf-ea456a91f8c2
+discoiquuid: d1f6712f-fd00-44e8-84e6-1bf559a21e47
 index: y
 internal: n
 snippet: y

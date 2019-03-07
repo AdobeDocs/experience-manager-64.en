@@ -3,12 +3,12 @@ title: Working with barcoded forms
 seo-title: Working with barcoded forms
 description: null
 seo-description: null
-uuid: 404071b3-9a4b-40b2-a807-7d2c385627cb
+uuid: 4b285010-26e1-4a83-83a7-5807779d78a7
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: c5093ba6-b6e0-4f13-9c6a-ad588bc738ce
+discoiquuid: 7397f349-4c5a-4e33-a36f-48c04d74b86e
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Using Client-Side Libraries
 seo-title: Using Client-Side Libraries
 description: AEM provides Client-side Library Folders, which allow you to store your client-side code in the repository, organize it into categories, and define when and how each category of code is to be served to the client
 seo-description: AEM provides Client-side Library Folders, which allow you to store your client-side code in the repository, organize it into categories, and define when and how each category of code is to be served to the client
-uuid: 1473827d-8a80-40f6-bf6a-6ee11c739f2a
+uuid: 10e82204-8e67-484c-b7dc-652971e2ad8a
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
-discoiquuid: 6e0f51d3-c31b-4d58-84ae-28a8ac403831
+discoiquuid: ac0ebfdc-c9da-411f-b58e-06e1b362cbad
 index: y
 internal: n
 snippet: y

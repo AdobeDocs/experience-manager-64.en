@@ -3,12 +3,12 @@ title: Naming conventions for assets
 seo-title: Naming conventions for assets
 description: Learn about the naming conventions for assets.
 seo-description: Learn about the naming conventions for assets.
-uuid: 74a09d16-67dc-4e4e-ad12-2791b5cb4e10
+uuid: 5ef87697-7a17-4840-b3b5-6da0c41fde38
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: introduction
 content-type: reference
-discoiquuid: 6a0282bc-b55e-4576-a93e-5850176bb9e1
+discoiquuid: a09a4d4e-9d66-4900-bb69-a2faf7efc519
 index: y
 internal: n
 snippet: y

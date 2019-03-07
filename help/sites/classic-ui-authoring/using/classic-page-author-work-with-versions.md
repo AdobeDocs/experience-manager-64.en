@@ -3,12 +3,12 @@ title: Working with Page Versions
 seo-title: Working with Page Versions
 description: Versioning creates a "snapshot" of a page at a specific point in time.
 seo-description: Versioning creates a "snapshot" of a page at a specific point in time.
-uuid: ea2dbadc-793e-43ba-8116-f1c8a5263d40
+uuid: 30d12638-35b0-460a-ad84-f96ac8ace751
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: 79d4ad2a-805e-4083-8e90-97de7a82ec64
+discoiquuid: 15b4b3ae-1c5d-450f-b440-f6bcc0e3a4fe
 index: y
 internal: n
 snippet: y

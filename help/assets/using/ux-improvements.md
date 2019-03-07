@@ -1,33 +1,31 @@
 ---
-title: DO NOT PUBLISH | User Experience Improvements
-seo-title: DO NOT PUBLISH | User Experience Improvements
+title: User experience enhancements in Assets
+seo-title: User experience enhancements in Assets
 description: This article describes the user experience improvements in AEM 6.4 Assets.
-seo-description: User experience improvements in AEM 6.4 Assets
-uuid: 223e5197-c3a1-4d3f-a9a4-c1d7b369fe32
+seo-description: Usability improvements in AEM 6.4 Assets.
+uuid: 8b1a4b62-cf04-4711-bed7-7130128c3374
 contentOwner: asgupta
-discoiquuid: 95549141-55c4-4365-8901-349a3153a379
+discoiquuid: 133c89e5-f481-4fd6-9ca2-2e5fe19f18fa
 index: y
 internal: n
 snippet: y
 ---
 
-# DO NOT PUBLISH | User Experience Improvements{#do-not-publish-user-experience-improvements}
+# User experience enhancements in Assets{#user-experience-enhancements-in-assets}
 
 This article describes the user experience improvements in AEM 6.4 Assets.
 
-Adobe Experience Manager (AEM) 6.4 Assets includes several UI improvements that provide a seamless user experience, improve productivity, and increase the speed with which you can create/manage your go-to-market content (content velocity).
+AEM 6.4 Assets includes several usability improvements that provide a seamless user experience and improves productivity. The increase in the speed with which you can create/manage your go-to-market content improves the content velocity of the business.
 
-The UI is more responsive, which helps you efficiently manage a large portfolio of assets. You can quickly search, display, sort, and smoothly scroll through a long list of items.
+The interface is more responsive, which helps you efficiently manage a large portfolio of assets. You can quickly search, display, sort, and smoothly scroll through a long list of items.
 
 You can personalize the various views - Card, List, and Column views. For example, you can configure the size of thumbnails you want displayed in the Card view. For the List view, you can configure the level of detail you want to display for assets in the list. AEM 6.4 Assets includes a new Tree view that lets you conveniently navigate through the Assets repository and find your assets.
 
-The following sections explain the UI enhancements in greater detail.
-
 ## Lazy loading {#lazy-loading}
 
-When you browse/search for assets in AEM 6.4 Assets, upto 200 assets are displayed in the UI at a time. You can scroll through the results faster, which is especially useful when browsing through a long list of results. Because a significant numer of assets are loaded at a time, the browsing experience is smooth.
+When you browse/search for assets in AEM 6.4 Assets, up to 200 assets are displayed at a time. You can scroll through the results faster, which is especially useful when browsing through a long list of results. Because a significant number of assets are loaded at a time, the browsing experience is smooth.
 
-If you tap/click an asset to review its details page, you can return to the results page simply by tapping/clicking the Back button on the toolbar.
+If you tap/click an asset to review its details page, you can return to the results page simply by tapping/clicking the Back button in the toolbar.
 
 ## Card view improvements {#card-view-improvements}
 
@@ -43,17 +41,17 @@ To resize thumbnails in the Card view, perform these steps:
 
    ![](assets/view_settings_dialog.png)
 
-1. Review the thumbnails in the UI. They are displayed in the chosen size.
+1. Review the thumbnails that are displayed in the chosen size.
 
    ![](assets/thumbnails_changed.png)
 
-The tile in the Card view now displays additional information, such as publication status, and so on.
+The tile in the Card view now displays additional information, such as publication status.
 
 ![](assets/publish_status.png)
 
 ## List view improvements {#list-view-improvements}
 
-In the List view, the first column now displays the file names of assets by default. Additional information, such as publication and processing status, locale, and so on are also displayed.
+In the List view, the first column now displays the filenames of assets by default. Additional information, such as publication and processing status and locale are also displayed.
 
 ![](assets/list_view.png)
 
@@ -63,15 +61,15 @@ You can choose to configure the amount of detail you want to display. Tap/click 
 
 ## Column view improvements {#column-view-improvements}
 
-In addition to Card and List views, you now navigate to the details page of an from the Column view. Select an asset from the Column view, and then tap/click **More Details** under the asset snapshot.
+In addition to Card and List views, you can now navigate to the details page of an asset from the Column view. Select an asset from the Column view, and then tap/click **More Details** under the asset snapshot.
 
 ![](assets/more_details.png)
 
 ## Tree view {#tree-view}
 
-AEM 6.4 Assets includes a Tree view that lets you to conveniently browse your asset hierarchy and navigate to the desired asset or folder.
+AEM 6.4 Assets includes a Tree view that lets you conveniently browse your asset hierarchy and navigate to the desired asset or folder.
 
-To open the Tree view, tap/click the GlobalNav icon in the Assets UI, and choose **Content tree** from the menu.
+To open the Tree view, tap/click the GlobalNav icon in the `Assets UI`, and choose **[!UICONTROL Content tree]** from the menu.
 
 ![](assets/content_tree.png)
 
@@ -81,7 +79,7 @@ From the content hierarchy, navigate to the desired asset.
 
 ## Navigating asset details {#navigating-asset-details}
 
-The asset details page now includes Previous and Next buttons on the toolbar so you can view all the images in a folder in succession.
+The asset details page now includes Previous and Next buttons in the toolbar so you can view all the images in a folder in succession.
 
 Depending on your device, you can also swipe or use the arrow keys on keyboard to move back and forth between images.
 
@@ -89,9 +87,9 @@ Depending upon the chose layout, you can open the details page for an asset in t
 
 | **View** |**How to open the asset details page** |
 |---|---|
-| Card view |Tap/click the asset tile in the UI |
-| List view |Tap/click on the row entry for the asset in the list |
-| Column view |Tap/click the **More Details** button from the asset snapshot |
+| Card view |Tap/click the asset til.  |
+| List view |Tap/click on the row entry for the asset in the list. |
+| Column view |Tap/click the **[!UICONTROL More Details]** button from the asset snapshot. |
 
 Use the Previous/Next buttons to move back and forth between the assets.
 

@@ -3,12 +3,12 @@ title: Managing Content Fragments
 seo-title: Managing Content Fragments
 description: Content Fragments are stored as Assets, so are primarily managed from the Assets console.
 seo-description: Content Fragments are stored as Assets, so are primarily managed from the Assets console.
-uuid: 4732e4ba-c058-4b9d-a1a5-97395e4d105f
+uuid: d1c91471-3535-4e59-8806-0f2eeca72954
 contentOwner: Alison Heimoz
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: content-fragments
 content-type: reference
-discoiquuid: fdaa26da-0fc6-4c42-9d88-595e071f4df5
+discoiquuid: 2a87df2b-4ff4-4fab-86dc-76ea5587ccb9
 index: y
 internal: n
 snippet: y

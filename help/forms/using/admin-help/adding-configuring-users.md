@@ -3,11 +3,11 @@ title: Adding and configuring users
 seo-title: Adding and configuring users 
 description: The User Management settings in the administration console allow you to create or delete users  and configure other user settings.
 seo-description: The User Management settings in the administration console allow you to create or delete users  and configure other user settings.
-uuid: 6f227de7-9815-4de1-97b2-f0695b1697e3
+uuid: 6df9014b-7891-4629-9a41-acb9f7e4814d
 contentOwner: admin
 geptopics: SG_AEMFORMS/categories
 geptopics: SG_AEMFORMS/categories/setting_up_and_organizing_users
-discoiquuid: a6ea5425-4e17-47c5-b903-c19b06869f72
+discoiquuid: 62444cf9-6b3e-465e-9758-4fdb14bb4ffe
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Workflow Best Practices
 seo-title: Workflow Best Practices
 description: null
 seo-description: null
-uuid: dfa30365-3136-495f-92b1-998afe1518b4
+uuid: 3232c631-a1ab-4a7a-b9cc-e75f8f427697
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
-discoiquuid: e66517c7-517f-487e-a43c-3827049f4f5a
+discoiquuid: 2534b670-f369-4102-a450-fa32a5933953
 index: y
 internal: n
 snippet: y

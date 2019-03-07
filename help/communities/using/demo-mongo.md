@@ -3,12 +3,12 @@ title: How to Setup MongoDB for Demo
 seo-title: How to Setup MongoDB for Demo
 description: How to setup MSRP for one author instance and one publish instance
 seo-description: How to setup MSRP for one author instance and one publish instance
-uuid: 15f72ed0-5a91-4418-821b-1cc9563ece49
+uuid: 0bf2f90b-8ac1-48de-8d33-51d0e61c178f
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 731e87f0-d12a-4f5b-8628-8bf1666aac12
+discoiquuid: 77c582f4-38f5-405f-b77c-e7f434a04367
 index: y
 internal: n
 snippet: y

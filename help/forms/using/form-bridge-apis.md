@@ -3,11 +3,11 @@ title: Form Bridge APIs for HTML5 forms
 seo-title: Form Bridge APIs for HTML5 forms
 description: External applications use the FormBridge API to connect to the XFA Mobile Form. The API dispatches a FormBridgeInitialized event on the parent window.
 seo-description: External applications use the FormBridge API to connect to the XFA Mobile Form. The API dispatches a FormBridgeInitialized event on the parent window.
-uuid: bbb0ea4f-29ab-43dc-9052-0ac09e1322b7
+uuid: a7b3af61-07fc-4b64-bfc4-a1976f954d63
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: developer-reference
-discoiquuid: 4f391db1-53e6-4658-92dc-2e9a1cbbf26b
+discoiquuid: 1e7f8800-32f1-4424-aad2-d70fbb57111d
 index: y
 internal: n
 snippet: y

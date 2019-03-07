@@ -3,12 +3,12 @@ title: Using Hide Conditions
 seo-title: Using Hide Conditions
 description: Hide conditions can be used to determine if a component resource is rendered or not.
 seo-description: Hide conditions can be used to determine if a component resource is rendered or not.
-uuid: 5e459170-6652-471d-983d-d3512289093b
+uuid: 90b0113a-05b1-4989-92ad-ac8a7e4778a6
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: components
 content-type: reference
-discoiquuid: d1c99bf6-0f73-4f3d-8641-6d0f20de4606
+discoiquuid: 96d81c68-ac67-4f10-acb9-ff2f907dd85b
 index: y
 internal: n
 snippet: y

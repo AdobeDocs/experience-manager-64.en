@@ -3,11 +3,11 @@ title: Set up the Android studio project and build the Android app
 seo-title: Set up the Android studio project and build the Android app
 description: Steps to set up the Android Studio project and build the installer for the AEM Forms app
 seo-description: Steps to set up the Android Studio project and build the installer for the AEM Forms app
-uuid: 5564fa7f-3c68-41ad-83aa-c3d19f4835db
+uuid: 5fff313d-8501-438b-bb0b-5783182504a8
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.3/FORMS
 topic-tags: forms-app
-discoiquuid: 6ecad039-7797-4102-b915-7568a4d7a79e
+discoiquuid: fd8efa34-6199-4cb3-9134-aa6638cdd132
 index: y
 internal: n
 snippet: y

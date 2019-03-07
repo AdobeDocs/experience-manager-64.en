@@ -3,12 +3,12 @@ title: Managing Image Presets
 seo-title: Managing Image Presets
 description: Understand image presets and learn how to create, modify, and manage image presets
 seo-description: Understand image presets and learn how to create, modify, and manage image presets
-uuid: b28778f5-a9c0-4b0a-9104-3fc76c5d90de
+uuid: bf2565e2-6a55-4ce9-8271-72b4369ce8fa
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: c483c94b-4c53-4189-8788-c4cf009b9f6a
+discoiquuid: fa33511d-85de-4f3f-9e01-bd7ed6d4b3b5
 legacypath: /content/docs/en/aem/6-0/administer/integration/dynamic-media/image-presets
 index: y
 internal: n
@@ -43,7 +43,7 @@ Administrators can create Image Presets. To create an image preset, you can star
 
 You manage your image presets in AEM by tapping or clicking the AEM logo to access the global navigation console and then tapping or clicking the Tools icon and navigating to **Assets **&gt;** Image Presets**.
 
-![](assets/chlimage_1-507.png)
+![](assets/chlimage_1-494.png)
 
 >[!NOTE]
 >
@@ -222,7 +222,7 @@ To increase or decrease the number of image presets displayed:
 1. In the **limit** property, change the **Value**, which is set to 15 by default, to the desired number.
 1. Navigate to the image preset datasource at **/libs/dam/gui/coral/content/commons/sidepanels/imagepresetsdetail/imgagepresetslist/datasource**
 
-   ![](assets/chlimage_1-508.png)
+   ![](assets/chlimage_1-495.png)
 
 1. In the limit property, change the number to the desired number, for example `{empty requestPathInfo.selectors[1] ? "20" : requestPathInfo.selectors[1]}`
 1. Tap or click **Save All**.
@@ -246,7 +246,7 @@ To create an image preset:
 1. In AEM, tap or click the AEM logo to access the global navigation console and tap or click the Tools icon and navigate to **Assets **&gt; **Image Presets**.
 1. Click **Create**. The **Edit Image Preset** window opens.
 
-   ![](assets/chlimage_1-509.png)
+   ![](assets/chlimage_1-496.png)
 
    >[!NOTE]
    >
@@ -254,7 +254,7 @@ To create an image preset:
 
 1. Enter values into the **Basic** and **Advanced** tabs as appropriate, including a name. The options are outlined in [Image Preset Options](#imagepresetoptions). Presets appear in the left pane and can be used on-the-fly with other assets.
 
-   ![](assets/chlimage_1-510.png)
+   ![](assets/chlimage_1-497.png)
 
 1. Click **Save**.
 
@@ -264,7 +264,7 @@ To create a responsive image preset, perform the steps in [Creating Image Preset
 
 Leaving them blank tells AEM that this image preset is responsive. You can adjust the other values as appropriate. 
 
-![](assets/chlimage_1-511.png)
+![](assets/chlimage_1-498.png)
 
 >[!NOTE]
 >
@@ -437,7 +437,7 @@ The following are some basic examples of what you can do with image modifiers.
   &op_invert=1
   ```
 
-  ![](assets/chlimage_1-512.png)
+  ![](assets/chlimage_1-499.png)
 
 * [op_blur](http://microsite.omniture.com/t2/help/en_US/s7/is_ir_api/is_api/http_ref/r_op_blur.html) - Applies a blur filter to the image.
 
@@ -445,7 +445,7 @@ The following are some basic examples of what you can do with image modifiers.
   &op_blur=25
   ```
 
-  ![](assets/chlimage_1-513.png)
+  ![](assets/chlimage_1-500.png)
 
 * Combined commands - op_blur and op-invert
 
@@ -453,7 +453,7 @@ The following are some basic examples of what you can do with image modifiers.
   &op_invert=1&op_blur=25
   ```
 
-  ![](assets/chlimage_1-514.png)
+  ![](assets/chlimage_1-501.png)
 
 * [op_brightness](http://microsite.omniture.com/t2/help/en_US/s7/is_ir_api/is_api/http_ref/r_op_brightness.html) - Decreases or increases the brightness.
 
@@ -461,7 +461,7 @@ The following are some basic examples of what you can do with image modifiers.
   &op_brightness=75
   ```
 
-  ![](assets/chlimage_1-515.png)
+  ![](assets/chlimage_1-502.png)
 
 * [opac](http://microsite.omniture.com/t2/help/en_US/s7/is_ir_api/is_api/http_ref/r_opac.html) - Adjusts image opacity. Lets you decrease the foreground opacity.
 
@@ -469,7 +469,7 @@ The following are some basic examples of what you can do with image modifiers.
   opac=50
   ```
 
-  ![](assets/chlimage_1-516.png)
+  ![](assets/chlimage_1-503.png)
 
 ### Modifying Image Presets {#modifying-image-presets}
 
@@ -477,7 +477,7 @@ To edit image presets:
 
 1. In AEM, tap or click the AEM logo to access the global navigation console and tap or click the Tools icon and navigate to **Assets **&gt; **Image Presets**.
 
-   ![](assets/chlimage_1-517.png)
+   ![](assets/chlimage_1-504.png)
 
 1. Select a preset and then click **Edit**. The **Edit Image Preset** window opens.
 1. Make changes and click **Save** to save your changes or **Cancel** to cancel your changes.
@@ -494,7 +494,7 @@ To manually publish image presets in Dynamic Media - Hybrid mode:
 1. Select the image preset or multiple image presets from the list of image presets and click or tap **Publish**.
 1. After the image preset is published, the status changes from unpublished to published.
 
-   ![](assets/chlimage_1-518.png)
+   ![](assets/chlimage_1-505.png)
 
 ### Deleting Image Presets {#deleting-image-presets}
 

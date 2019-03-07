@@ -4,9 +4,9 @@ seo-title: Display Layout Editor
 description: null
 seo-description: null
 page-status-flag: never-activated
-uuid: c659e7c4-4078-4172-b1c5-fa388eed1bb8
+uuid: 36117bcb-f1ae-422c-8214-356b9a87c228
 contentOwner: jsyal
-discoiquuid: 5b05ad59-759c-4ae5-b7f2-03318d5677f3
+discoiquuid: 3c742503-7f2d-41a9-a43b-a686dccabf6c
 index: y
 internal: n
 snippet: y

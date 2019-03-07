@@ -3,13 +3,13 @@ title: Service container
 seo-title: Service container
 description: null
 seo-description: null
-uuid: 2a5aa7f0-2169-4a28-825b-8193e720e049
+uuid: c16ca4bf-4745-47c4-bd63-61b48408e9c2
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: coding
 topic-tags: development-tools
-discoiquuid: f15c48a0-85b6-426f-be4d-51dde34a839f
+discoiquuid: 82b746be-e183-4a67-9337-73eb9a45396c
 index: y
 internal: n
 snippet: y

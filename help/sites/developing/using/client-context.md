@@ -3,12 +3,12 @@ title: Client Context in Detail
 seo-title: Client Context in Detail
 description: The Client Context represents a dynamically assembled collection of user data
 seo-description: The Client Context represents a dynamically assembled collection of user data
-uuid: 74213cda-612a-49d9-9d36-7a8d617a7d65
+uuid: b1bb9a7d-ce42-439e-9227-3414bbaeda38
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: ddb31bd5-53dd-4f79-a7b6-572bb8a65d80
+discoiquuid: 81cffa02-aaa8-4de4-afda-dade905f4d78
 index: y
 internal: n
 snippet: y

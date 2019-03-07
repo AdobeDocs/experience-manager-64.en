@@ -3,12 +3,12 @@ title: Backup and recovery strategy for AEM forms
 seo-title: Backup and recovery strategy for AEM forms
 description: Learn how to implement a strategy to back up data and ensuring that it remains in sync with the AEM forms data.
 seo-description: Learn how to implement a strategy to back up data and ensuring that it remains in sync with the AEM forms data.
-uuid: 796ceac7-d60a-4d63-9204-9cdd030bbb0b
+uuid: 44701d1a-16c7-40ad-b0ab-86ffc5c3daa5
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/aem_forms_backup_and_recovery
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: bdfaee80-4f8c-4406-8183-eda333cff0c2
+discoiquuid: cfdaa000-22bd-4bcb-aa21-6cf5aa50581a
 index: y
 internal: n
 snippet: y

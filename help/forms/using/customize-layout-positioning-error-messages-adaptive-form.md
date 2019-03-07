@@ -3,11 +3,11 @@ title: Customize layout and positioning of error messages of an adaptive form
 seo-title: Customize layout and positioning of error messages of an adaptive form
 description: You can customize layout and positioning of the error messages of an adaptive for. 
 seo-description: You can customize layout and positioning of the error messages of an adaptive for. 
-uuid: 8c9d2b31-8d94-438c-83e7-1171717fa36c
+uuid: f5acce90-ad33-407b-b51b-da6cde652a17
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: customization
-discoiquuid: 65136116-3453-490d-aee0-24b203466590
+discoiquuid: cce127cc-cecc-4b5d-9558-3cd8711f1b73
 index: y
 internal: n
 snippet: y

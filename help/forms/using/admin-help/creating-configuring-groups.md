@@ -3,12 +3,12 @@ title: Creating and configuring groups
 seo-title: Creating and configuring groups
 description: Learn how to create groups manually or dynamically, edit a group, view details about a group, or delete a group.
 seo-description: Learn how to create groups manually or dynamically, edit a group, view details about a group, or delete a group.
-uuid: 1da38465-e64b-49c2-981e-6598d8a460de
+uuid: a17d47ef-84e7-4b91-918d-a3cb2e2e58a2
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/setting_up_and_organizing_users
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 4a0f8216-d0eb-4465-9aef-8622be9812ff
+discoiquuid: 5916059e-60b8-4812-96dd-81436d619eb0
 index: y
 internal: n
 snippet: y

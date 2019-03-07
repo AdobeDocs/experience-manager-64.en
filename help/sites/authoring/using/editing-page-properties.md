@@ -3,12 +3,12 @@ title: Editing Page Properties
 seo-title: Editing Page Properties
 description: Define the required properties for a page
 seo-description: Define the required properties for a page
-uuid: 1929bf4d-f1c1-4308-b7cc-34fd35092ac5
+uuid: d6d18892-a57d-4752-bb8f-7808252b5d79
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: ae32941e-8c9e-4bf2-a441-b1dc0d9f743d
+discoiquuid: ec50b682-30bd-4c09-9391-589347b06385
 index: y
 internal: n
 snippet: y

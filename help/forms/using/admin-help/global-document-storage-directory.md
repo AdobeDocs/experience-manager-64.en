@@ -3,12 +3,12 @@ title: Global document storage directory
 seo-title: Global document storage directory
 description: The global document storage (GDS) directory is a directory used to store long-lived files that are used within a process.
 seo-description: The global document storage (GDS) directory is a directory used to store long-lived files that are used within a process.
-uuid: e2ceb4b9-8b6d-4cf4-a3d5-feda9a134352
+uuid: 41925518-d93c-4228-97ed-41d1176bc179
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/maintaining_the_application_server
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: a891da6d-3291-42a9-8f78-ade3dbeaa1c7
+discoiquuid: 0e58b931-1c75-4f64-9e4b-1ee1ec2de904
 index: y
 internal: n
 snippet: y

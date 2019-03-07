@@ -3,12 +3,12 @@ title: Demandware
 seo-title: Demandware
 description: Learn how to use AEM with Demandware.
 seo-description: Learn how to use AEM with Demandware.
-uuid: d1c02730-057c-4da9-b138-6eabf879c716
+uuid: cca504c1-4113-46b3-823d-40d674f958ce
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: e-commerce
 content-type: reference
-discoiquuid: 352bb799-fcf3-45ac-a342-ea162055e6d9
+discoiquuid: 5c1632e9-cca1-43f5-b71f-776d4b2dc7c5
 pagetitle: Administering Demandware
 index: y
 internal: n

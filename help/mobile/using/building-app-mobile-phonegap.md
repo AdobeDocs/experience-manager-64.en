@@ -3,12 +3,12 @@ title: Building Mobile Applications
 seo-title: Building Mobile Applications
 description: This page provides a complete step-by-step article on how to build a mobile application using code available from GitHub is available here.Build your application to install to a device or simulator for testing or for publishing to app stores. You can build applications locally using the PhoneGap Command Line Interface, or in the cloud using PhoneGap Build. 
 seo-description: This page provides a complete step-by-step article on how to build a mobile application using code available from GitHub is available here.Build your application to install to a device or simulator for testing or for publishing to app stores. You can build applications locally using the PhoneGap Command Line Interface, or in the cloud using PhoneGap Build. 
-uuid: dc7397b8-0008-473d-a1c3-a0c58de29ea0
+uuid: 7e066fd5-3641-40b6-919f-c46874078d51
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: developing-adobe-phonegap-enterprise
-discoiquuid: c328e33b-f806-4189-95a4-5f11918c59d3
+discoiquuid: 338f5cf3-5c7e-427c-852e-c874cac229c3
 index: y
 internal: n
 snippet: y

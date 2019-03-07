@@ -3,12 +3,12 @@ title: Activity stream in timeline
 seo-title: Activity stream in timeline
 description: This article describes how to display activity logs for assets on the timeline. 
 seo-description: Display activity logs for assets on the timeline.
-uuid: 7ae7ee53-a0ae-4c86-a7ab-1764be402124
+uuid: 2dec54b8-8297-47bb-81c4-f201acc27ff7
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
 topic-tags: authoring
-discoiquuid: 5eb32685-348f-4185-a880-4cac3ad49903
+discoiquuid: 94b447d0-fb2f-4829-bb2d-efe50ae10672
 index: y
 internal: n
 snippet: y

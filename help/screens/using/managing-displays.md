@@ -3,12 +3,12 @@ title: Creating and Managing Displays
 seo-title: Managing Displays
 description: Follow this page to learn about creating a new display and device config. Additionally, learn about the display dashboard.
 seo-description: Follow this page to learn about creating a new display and device config. Additionally, learn about the display dashboard.
-uuid: 4074a507-17fa-4c19-8e68-7469e99c00fd
+uuid: 4797478c-3dad-4f6b-892d-80f39eab7846
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: authoring
-discoiquuid: 6792a335-89d8-4467-858e-f23764465b21
+discoiquuid: 9340ea65-e403-4eb4-8413-9df602b47e7a
 index: y
 internal: n
 snippet: y
@@ -89,7 +89,7 @@ Once a device config is set to your display in the location, the next step will 
 >
 >You should have prior understanding of creating and managing channels. See [Create and Manage Channels](../../screens/using/managing-channels.md) for more details.
 
-![](assets/chlimage_1-42.png)
+![](assets/chlimage_1-9.png)
 
 ## Display Dashboard {#display-dashboard}
 
@@ -111,7 +111,7 @@ The **DISPLAY INFORMATION** Panel provides the display properties.
 
 Click on the (**...**) in the top right corner in the **DISPLAY INFORMATION **panel to view the properties and preview the display.
 
-![](assets/chlimage_1-43.png)
+![](assets/chlimage_1-10.png)
 
 #### Viewing Properties {#viewing-properties}
 
@@ -127,7 +127,7 @@ Use **CRXDE Lite**, to access the [***idleTimeout***](http://localhost:4502/crx/
 
 The **ASSIGNED CHANNELS** panel displays the assigned channels to this device.
 
-![](assets/chlimage_1-44.png)
+![](assets/chlimage_1-11.png)
 
 ### Devices Panel {#devices-panel}
 
@@ -135,11 +135,11 @@ The **DEVICES** Panel provides information on the device configs.
 
 Click on the (**...**) in the top right corner in the **DEVICES **panel to add device configs and update devices.
 
-![](assets/chlimage_1-45.png)
+![](assets/chlimage_1-12.png)
 
 Additionally, click on the device config to view properties, assign a device, or delete it completely.
 
-![](assets/chlimage_1-46.png)
+![](assets/chlimage_1-13.png)
 
 #### The Next Steps {#the-next-steps}
 

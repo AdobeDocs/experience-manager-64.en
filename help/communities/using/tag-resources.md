@@ -3,12 +3,12 @@ title: Tagging Enablement Resources
 seo-title: Tagging Enablement Resources
 description: Tagging of enablement resources allows for filtering of resources and learning paths as members browse catalogs
 seo-description: Tagging of enablement resources allows for filtering of resources and learning paths as members browse catalogs
-uuid: 9a72e2ed-5632-486a-9c65-73f6a740af96
+uuid: bfe68425-ea92-498c-9879-5a779f75592b
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 8cfed940-3840-4bec-8567-b45c6499a75a
+discoiquuid: b3c217ff-f959-4b76-9ae1-d56982e10b4f
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Configuring Video Tracking for Adobe Analytics
 seo-title: Configuring Video Tracking for Adobe Analytics
 description: Learn about configuring video tracking for SiteCatalyst.
 seo-description: Learn about configuring video tracking for SiteCatalyst.
-uuid: c777dfa7-d409-461e-b802-86a1f6b065a1
+uuid: ee611e4f-e7e4-4ed5-95c8-2463fa58603e
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: fc9f91a2-b818-4e5b-8ae7-7b83fa0eb05e
+discoiquuid: be7b57c5-da87-4f40-a5ab-927a6594a07f
 index: y
 internal: n
 snippet: y
@@ -222,7 +222,7 @@ For this example, the Video component appears as follows on the framework page:
 
 Calls to Adobe Analytics using the example provided should look like this when viewed with DigitalPulse Debugger:
 
-![](assets/chlimage_1-188.png)
+![](assets/chlimage_1-156.png)
 
 *This is the **first call** made to Adobe Analytics containing the following values:*
 
@@ -230,7 +230,7 @@ Calls to Adobe Analytics using the example provided should look like this when v
 * *props2-4, along with eVar2 and eVar3 containing contentType (video) and segment (1:O:1-4) *
 * *event3 which was mapped to eventdata.events.a.media.view.*
 
-![](assets/chlimage_1-189.png)
+![](assets/chlimage_1-157.png)
 
 *This is the **third call** made to Adobe Analytics:*
 

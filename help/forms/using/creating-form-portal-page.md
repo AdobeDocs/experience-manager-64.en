@@ -3,11 +3,11 @@ title: Creating a forms portal page
 seo-title: Creating a forms portal page
 description: Forms Portal equips Web Developers with components to create and customize a forms portal on websites authored using Adobe Experience Manager (AEM).
 seo-description: Forms Portal equips Web Developers with components to create and customize a forms portal on websites authored using Adobe Experience Manager (AEM).
-uuid: e44a52ae-e6ca-430a-859c-a935427d85be
+uuid: e1b57ed1-bdab-4d76-8e17-59a9a4be3560
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: publish
-discoiquuid: 3a7dad0b-45ff-4238-9ee3-c2a7f2eff8af
+discoiquuid: f3a25e52-fe8c-4796-a372-b9d8e0ad2e16
 index: y
 internal: n
 snippet: y

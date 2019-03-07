@@ -3,12 +3,12 @@ title: Recovering the AEM forms data
 seo-title: Recovering the AEM forms data
 description: This document describes the steps required to recover the AEM forms data.
 seo-description: This document describes the steps required to recover the AEM forms data.
-uuid: 8a5fc162-ff06-475d-b01f-b702cfe3a0e9
+uuid: 37ca4c4a-ef6e-4826-bea9-c832b4c897f4
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/aem_forms_backup_and_recovery
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 0fc538f7-088a-4b2c-954c-76112e6e54ca
+discoiquuid: 5d1d1695-2f02-4a40-a29d-3b74c8ce2f41
 index: y
 internal: n
 snippet: y

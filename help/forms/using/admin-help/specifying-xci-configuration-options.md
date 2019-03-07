@@ -3,12 +3,12 @@ title: Specifying XCI configuration options
 seo-title: Specifying XCI configuration options
 description: Learn how to specify XCI configuration options.
 seo-description: Learn how to specify XCI configuration options.
-uuid: f797b627-1d70-4fb2-ac1c-b370ff29bc62
+uuid: 23ce88db-3964-4816-bfa0-dbebf9e5db91
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: d5012a10-04ed-4193-9279-33eeae7a464b
+discoiquuid: f7155546-464d-4bdf-b4ee-23bd04b02078
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Moderation Console
 seo-title: Moderation Console
 description: How to access the Moderation console
 seo-description: How to access the Moderation console
-uuid: 7138b29c-8985-404b-b7c2-47a089d29b73
+uuid: 45ce6328-d688-49cb-949f-26a1092066e4
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 7fcd0a07-9d17-4962-9e28-b86ad98866af
+discoiquuid: 29a86b0d-a995-4a58-b66c-d8fa7373f7bb
 index: y
 internal: n
 snippet: y

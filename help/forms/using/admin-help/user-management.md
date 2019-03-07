@@ -3,12 +3,12 @@ title: User Management
 seo-title: User Management
 description: User Management allows you to enable SSO between AEM forms modules and Netegrity SiteMinder-protected applications by using SAML. This document provides more information about User Management.
 seo-description: User Management allows you to enable SSO between AEM forms modules and Netegrity SiteMinder-protected applications by using SAML. This document provides more information about User Management.
-uuid: 6900eabc-cd21-4b7b-b28c-32eb9b4b69ce
+uuid: 4a281a58-6497-497f-86bf-58ade724b714
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/maintaining_aem_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 7b1f89cb-ab8f-4985-9875-66d9c43934f4
+discoiquuid: 52af0cea-b209-4262-b6e0-d408297102f1
 index: y
 internal: n
 snippet: y

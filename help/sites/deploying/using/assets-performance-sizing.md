@@ -3,12 +3,12 @@ title: Assets Performance Guide
 seo-title: Assets Performance Guide
 description: Learn how to determine the optimal hardware sizing for a new Digital Asset Management (DAM) setup and how to troubleshoot performance issues
 seo-description: Learn how to determine the optimal hardware sizing for a new Digital Asset Management (DAM) setup and how to troubleshoot performance issues
-uuid: 38deaa37-0edd-40b9-95b6-fed57805ddb7
+uuid: fdcd5d75-51de-442b-8fe6-fa20e76c0417
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: configuring
-discoiquuid: 2bdee05c-2568-405d-9dcd-578fa06d849e
+discoiquuid: 34e4e863-1d96-4c79-b977-3702ce565cab
 index: y
 internal: n
 snippet: y

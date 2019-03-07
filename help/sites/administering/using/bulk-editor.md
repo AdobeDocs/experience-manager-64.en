@@ -3,12 +3,12 @@ title: The Bulk Editor
 seo-title: The Bulk Editor
 description: Learn how to use the Bulk Editor.
 seo-description: Learn how to use the Bulk Editor.
-uuid: 17c0d7e1-e17d-4f06-95bf-9fb6dca1a7e5
+uuid: 3b642530-fa9d-4077-aed2-f2a443789160
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: 8cbd89f4-0a67-491f-8390-5a8e7b1edf19
+discoiquuid: c28183c9-abe7-4b19-8482-46a7313d8488
 index: y
 internal: n
 snippet: y
@@ -101,7 +101,7 @@ To use the bulk editor to edit multiple items simultaneously:
 1. Click **Search**. The Bulk Editor displays the results.  
    For the example above, all the pages that meet your search criteria are returned and displayed with the requested columns.
 
-   ![](assets/chlimage_1-274.png)
+   ![](assets/chlimage_1-238.png)
 
 1. Make any changes you need by double-clicking in a cell.
 

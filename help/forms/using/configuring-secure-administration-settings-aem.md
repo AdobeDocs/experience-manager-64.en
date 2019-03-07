@@ -3,11 +3,11 @@ title: Configuring Secure Administration Settings for AEM Forms on JEE
 seo-title: Configuring Secure Administration Settings for AEM Forms on JEE
 description: Learn how to administer user accounts and services that, although required in a private development environment, are not required in a production environment of AEM Forms on JEE.
 seo-description: Learn how to administer user accounts and services that, although required in a private development environment, are not required in a production environment of AEM Forms on JEE.
-uuid: 86a3679e-98e0-48bf-a046-12e1a2d1d646
+uuid: 2fa479a7-eaba-4386-bce5-834fa6323315
 content-type: reference
 topic-tags: Security
 products: SG_EXPERIENCEMANAGER/6.4
-discoiquuid: e3516699-79ad-436a-944b-b630ce453ea6
+discoiquuid: fe0c965e-32dd-4072-adc1-005753c6217f
 index: y
 internal: n
 snippet: y

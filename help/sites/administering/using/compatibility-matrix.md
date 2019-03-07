@@ -4,9 +4,9 @@ seo-title: Compatibility Matrix for AEM Screens Player
 description: This page lists the AEM Screens Players with their respective AEM Screens version.
 seo-description: This page lists the AEM Screens Players with their respective AEM Screens version.
 page-status-flag: never-activated
-uuid: 9405f967-5f18-435a-8246-e55b0f22c353
+uuid: 109760c2-9917-4aba-bd55-8702873addb4
 contentOwner: jsyal
-discoiquuid: 30f9d968-23b4-497e-9182-0880e57086db
+discoiquuid: 8a0aa30d-7838-4fee-9cc1-c5d5e83f24ce
 index: y
 internal: n
 snippet: y

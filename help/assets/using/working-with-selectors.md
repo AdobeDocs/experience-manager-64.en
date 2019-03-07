@@ -3,12 +3,12 @@ title: Working with Selectors
 seo-title: Working with Selectors
 description: Selecting assets for interactive images, interactive video, and carousel banners
 seo-description: Selecting assets for interactive images, interactive video, and carousel banners
-uuid: f83298f6-b390-4659-af4d-3e4934d4f9c1
+uuid: ff23a719-1fee-4585-ad32-2cec5157e1b7
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: d86522ca-c6a9-4cef-89ef-7f55201bcd8b
+discoiquuid: b6648e92-5f4f-4d8f-acab-b8f9c84b41b4
 index: y
 internal: n
 snippet: y
@@ -24,7 +24,7 @@ You access the selectors while creating carousel sets, adding hotspots and image
 
 For example, in this carousel banner, you use the Product selector if you are linking a hotspot or image map to a Quickview page, you use the Site selector if you are linking a hotspot or image map to a Hyperlink, and you use the Asset selector when creating a new slide.
 
-![](assets/chlimage_1-533.png)
+![](assets/chlimage_1-520.png)
 
 When you select (rather than manually enter) where hotspots or image maps go to, you are using the selector. The Site selector only works if you are an AEM sites customer. The product selector also requires AEM Commerce.
 
@@ -36,35 +36,35 @@ Use the product selector to choose a product when you want a hotspot or image ma
 
    The Product selector is in the **Action Type** area.
 
-   ![](assets/chlimage_1-534.png)
+   ![](assets/chlimage_1-521.png)
 
 1. Tap or click the **Product Selector** icon (magnifying glass) and navigate to a product in the catalog.
 
-   ![](assets/chlimage_1-535.png)
+   ![](assets/chlimage_1-522.png)
 
    You can also filter by keyword or tag by tapping or clicking **Filter** and entering keywords and/or selecting tags.
 
-   ![](assets/chlimage_1-536.png)
+   ![](assets/chlimage_1-523.png)
 
    You can change where AEM browses for product data by tapping or clicking **Browse** and navigating to another folder.
 
-   ![](assets/chlimage_1-537.png)
+   ![](assets/chlimage_1-524.png)
 
    Tap or click **Sort** by to change whether AEM sorts by newest to oldest or oldest to newest.
 
-   ![](assets/chlimage_1-538.png)
+   ![](assets/chlimage_1-525.png)
 
    Tap or click **View as **to change how you view products - either list view or card view.
 
-   ![](assets/chlimage_1-539.png)
+   ![](assets/chlimage_1-526.png)
 
 1. After the product is selected, the field populates with the product thumbnail and name.
 
-   ![](assets/chlimage_1-540.png)
+   ![](assets/chlimage_1-527.png)
 
 1. When in Preview mode, you can tap or click the hotspot or image map, and see what the quick view looks like.
 
-   ![](assets/chlimage_1-541.png)
+   ![](assets/chlimage_1-528.png)
 
 ### Selecting Sites {#selecting-sites}
 
@@ -74,15 +74,15 @@ Use the site selector to choose a webpage when you want a hotspot or image map t
 
    The Site selector is in the **Action Type** area.
 
-   ![](assets/chlimage_1-542.png)
+   ![](assets/chlimage_1-529.png)
 
 1. Tap or click the **Site Selector** icon (folder with magnifying glass) and navigate to a page in your AEM sites that you want to link the hotspot or image map to.
 
-   ![](assets/chlimage_1-543.png)
+   ![](assets/chlimage_1-530.png)
 
 1. After the site is selected, the field populates with the path.
 
-   ![](assets/chlimage_1-544.png)
+   ![](assets/chlimage_1-531.png)
 
 1. When in Preview mode if you tap or click the hotspot or image map, you navigate to the AEM site page you specified.
 
@@ -95,23 +95,23 @@ See also [Asset Picker](../../assets/using/asset-selector.md) for more informati
 1. Navigate to the carousel set and create a new slide. Or navigate to the interactive video, go the Content tab and select assets. Or create a mixed media set, image set, or spin set.
 1. Tap or click the **Asset Selector** icon (folder with magnifying glass) and navigate to an asset.
 
-   ![](assets/chlimage_1-545.png)
+   ![](assets/chlimage_1-532.png)
 
    You can also filter by keyword or tag by tapping or clicking **Filter** and entering keywords and/or adding criteria.
 
-   ![](assets/chlimage_1-546.png)
+   ![](assets/chlimage_1-533.png)
 
    You can change where AEM browses for assets by navigating to another folder in the **Path** field.
 
    Tap or click **Collection** to only search for assets within collections.
 
-   ![](assets/chlimage_1-547.png)
+   ![](assets/chlimage_1-534.png)
 
    Tap or click **View as **to change how you view products - either list, column, or card view.
 
-   ![](assets/chlimage_1-548.png)
+   ![](assets/chlimage_1-535.png)
 
 1. Tap or click the check mark to select the asset. The asset is displayed.
 
-   ![](assets/chlimage_1-549.png)
+   ![](assets/chlimage_1-536.png)
 

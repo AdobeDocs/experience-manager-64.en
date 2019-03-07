@@ -4,12 +4,12 @@ seo-title: Configuring Components in Design Mode
 description: When AEM instance is installed out-of-the-box, a selection of components are immediately available in the sidekick. In addition to these, various other components are also available. You can use Design mode to Enable/disable such components. 
 seo-description: When AEM instance is installed out-of-the-box, a selection of components are immediately available in the sidekick. In addition to these, various other components are also available. You can use Design mode to Enable/disable such components. 
 page-status-flag: de-activated
-uuid: 55369c20-648b-4f35-8549-65e6c18bac00
+uuid: f7fccd59-ed0e-490e-9286-1b7524d91163
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: d08158c8-b9b1-47a9-8f2f-c11ea6f326de
+discoiquuid: 53c22af2-a96d-49e1-aad5-13070fab8016
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Catalog Producer
 seo-title: Catalog Producer
 description: Learn how to use Catalog Producer in AEM Assets to generate product catalogs using your digital assets.
 seo-description: Learn how to use Catalog Producer in AEM Assets to generate product catalogs using your digital assets.
-uuid: c93b6a51-77da-4eec-97e4-03f01406ef37
+uuid: e0146253-72ba-4b03-bd9c-ca63ae0ec4ee
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: e494b9a0-7fb4-4ef3-8f6f-0b47d0173ec9
+discoiquuid: c68952d4-1044-489c-8c65-4612216c41d2
 index: y
 internal: n
 snippet: y

@@ -3,9 +3,9 @@ title: REDIRECT Getting Started with SPAs in AEM
 seo-title: REDIRECT Getting Started with SPAs in AEM
 description: null
 seo-description: null
-uuid: 76b16e61-51d8-4a8c-b6ab-718fb0983c52
+uuid: 91531988-cd62-48d4-907f-653815ca543f
 contentOwner: bohnert
-discoiquuid: 5fecacd5-a711-4602-8db9-4459c53aad10
+discoiquuid: 9f65484d-78f8-4aa1-9269-cd267ffbe78b
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/sites/developing/using/spa-getting-started-angular
 index: y

@@ -3,12 +3,12 @@ title: Responsive Design for Web Pages
 seo-title: Responsive Design for Web Pages
 description: With responsive design, the same pages can be effectively displayed on multiple devices in multiple orientations
 seo-description: With responsive design, the same pages can be effectively displayed on multiple devices in multiple orientations
-uuid: 21acaa23-2b2a-42cf-beee-c1d13a7f5fee
+uuid: 40d91725-77d6-4455-8526-9edf2a3ad4ea
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: mobile-web
 content-type: reference
-discoiquuid: 33588cc5-c656-48d6-bb63-a46da8fcdabf
+discoiquuid: ef097039-e284-483d-8c73-c893730c59d4
 legacypath: /content/docs/en/aem/6-0/develop/mobile/responsive
 index: y
 internal: n

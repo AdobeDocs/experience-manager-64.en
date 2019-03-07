@@ -3,12 +3,12 @@ title: Configuration How-To Articles
 seo-title: Configuration How-To Articles
 description: A list of articles that describe how to accomplish specific deployment tasks in AEM.
 seo-description: A list of articles that describe how to accomplish specific deployment tasks in AEM.
-uuid: 8e2c1d5d-0408-43f3-9a73-45890214292c
+uuid: c11adc3e-c381-4573-bd0c-c52d5e304848
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: configuring
-discoiquuid: 529de634-bc96-48c2-9c6c-16e51ab1a031
+discoiquuid: a4c4a218-dd72-4e2d-889e-f753e9f6123d
 index: y
 internal: n
 snippet: y

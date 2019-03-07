@@ -3,12 +3,12 @@ title: Creating and Managing Projects
 seo-title: Creating a Project
 description: Follow this page to learn about creating a new Screens project.
 seo-description: Follow this page to learn about creating a new Screens project.
-uuid: 44a07394-06b4-4815-8f84-c6d0b4c41925
+uuid: 5660be87-aa74-4874-a909-7017c26dd2f6
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: authoring
-discoiquuid: 3b4fb036-f025-49a4-a415-4e077133f0d8
+discoiquuid: 8cc55bd7-af71-4f75-86f2-f1b1ff288cbd
 index: y
 internal: n
 snippet: y
@@ -20,7 +20,7 @@ The AEM Screens is available by selecting the Adobe Experience Manager link (top
 
 Alternatively, you can ﻿go directly to: [http://localhost:4502/screens.html/content/screens](http://localhost:4502/screens.html/content/screens)
 
-![](assets/chlimage_1-47.png)
+![](assets/chlimage_1-14.png)
 
 Different projects could be differents brands, deployments, customers, and so on.
 

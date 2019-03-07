@@ -3,10 +3,10 @@ title: Using SOM expressions in adaptive forms
 seo-title: Using SOM expressions in adaptive forms
 description: Learn how to extract SOM expressions of a panel of an adaptive form.
 seo-description: Learn how to extract SOM expressions of a panel of an adaptive form.
-uuid: d707c5ef-4646-4741-bc27-9eb6703bbaa0
+uuid: 4a8b96aa-dfb0-45a9-abae-75cf8f6a3f90
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
-discoiquuid: 7d8dea30-d7e0-4f8e-8a5b-dd613c4f873c
+discoiquuid: 45a6be17-aa80-43d0-89b2-3a46ba4df565
 index: y
 internal: n
 snippet: y
@@ -20,7 +20,7 @@ You can use a scripting object model (SOM) to reference values, properties, and 
 
 The following image depicts a node structure that an adaptive form translates to when you add components to a form. For example, you can add a panel to the root panel and a radio button in the panel that is transformed to DOM at runtime. The SOM Expression for the radio-button field in adaptive form is specified as `guide[0].guide1[0].guideRootPanel[0].panel1[0].radiobutton[0]`.
 
-![DOM tree](assets/hierarchy.png)
+![DOM tree](assets/hierarchy-1.png)
 
 DOM tree
 

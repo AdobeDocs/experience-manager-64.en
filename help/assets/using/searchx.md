@@ -3,12 +3,12 @@ title: Extending Assets Search
 seo-title: Extending Assets Search
 description: Extend the search capabilities of AEM Assets beyond out-of-the-box searches for assets by strings.
 seo-description: Extend the search capabilities of AEM Assets beyond out-of-the-box searches for assets by strings.
-uuid: 1a5d512b-87e3-4652-92f5-2dd0ff5410fd
+uuid: de0c8847-4ccc-4269-a923-b00b61a850cb
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: extending-assets
 content-type: reference
-discoiquuid: baa8c4e8-9559-48ba-be19-466ccc8f7879
+discoiquuid: 0d646051-8d5f-4e89-bc5a-4c2b2fff3a2b
 duration: 10 minutes
 index: y
 internal: n

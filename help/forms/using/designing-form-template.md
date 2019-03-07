@@ -3,11 +3,11 @@ title: Designing form templates for HTML5 forms
 seo-title: Designing form templates for HTML5 forms
 description: AEM Forms offers rendering XFA form template to HTML5 format. Form designers can design form templates using Designer and use the HTML5 rendition capability. 
 seo-description: AEM Forms offers rendering XFA form template to HTML5 format. Form designers can design form templates using Designer and use the HTML5 rendition capability. 
-uuid: f2f618ae-cf95-481b-8a87-4929550644d7
+uuid: fbdc4c2a-333b-4d9b-b0e8-6c4b326b9410
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
-discoiquuid: 43a612c1-58ef-47ad-89a5-a358f6023f39
+discoiquuid: e6cff058-c88d-4554-a97e-f59686f07edb
 index: y
 internal: n
 snippet: y

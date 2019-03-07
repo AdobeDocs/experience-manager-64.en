@@ -3,12 +3,12 @@ title: Updating the link to the documentation
 seo-title: Updating the link to the documentation
 description: How-to update the destination of Workspace Help link in AEM Forms workspace to point to your custom documentation link.
 seo-description: How-to update the destination of Workspace Help link in AEM Forms workspace to point to your custom documentation link.
-uuid: 66adeea7-7994-4c78-8f05-1afd4ba93e2d
+uuid: 02e03efb-02e1-41f1-aa50-9962d2f07fcc
 contentOwner: robhagat
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
-discoiquuid: 194a0575-cc5d-4c1e-a010-3cb87fd48814
+discoiquuid: deed4eca-c7d3-4221-83e4-e6f5cb5043db
 index: y
 internal: n
 snippet: y

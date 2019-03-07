@@ -3,12 +3,12 @@ title: Previewing Pages Using ContextHub Data
 seo-title: Previewing Pages Using ContextHub Data
 description: The ContextHub toolbar displays data from ContextHub stores and enables you to change store data and  is useful for previewing content
 seo-description: The ContextHub toolbar displays data from ContextHub stores and enables you to change store data and  is useful for previewing content
-uuid: 0c1fbca0-81d3-437e-b7a7-71f2ca2b98ac
+uuid: 1d7b2e5c-70b2-4d3f-950c-b3414397d842
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: personalization
-discoiquuid: fbf0de07-8a77-45cc-9c7f-b29cfd19a0f3
+discoiquuid: 019337a4-11a1-4d6f-b360-48ec398067d7
 index: y
 internal: n
 snippet: y
@@ -35,7 +35,7 @@ The ContextHub toolbar is available in Preview mode. The toolbar is available on
 
 1. With your page open for editing, on the toolbar click or tap Preview.
 
-   ![](assets/chlimage_1-246.png)
+   ![](assets/chlimage_1-219.png)
 
 1. To reveal the toolbar, click or tap the ContextHub icon.
 

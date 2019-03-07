@@ -3,12 +3,12 @@ title: Analytics Configuration for Communities Features
 seo-title: Analytics Configuration for Communities Features
 description: Configure analytics for Communities
 seo-description: Configure analytics for Communities
-uuid: 5f555e49-255b-4534-8521-e4e4d022e9d8
+uuid: fd994e0f-8b52-4fe2-aa05-5e0a214c136e
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 309b8df2-5c41-4910-a9a1-3e63350e6603
+discoiquuid: 35a7c2ea-bcd7-4b25-8c7d-275ad13e57f8
 index: y
 internal: n
 snippet: y

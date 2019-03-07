@@ -3,12 +3,12 @@ title: Implementing Server-Side Page Naming for Analytics
 seo-title: Implementing Server-Side Page Naming for Analytics
 description: Adobe Analytics uses the s.pageName property to uniquely identify pages and to associate the data that is collected for the pages
 seo-description: Adobe Analytics uses the s.pageName property to uniquely identify pages and to associate the data that is collected for the pages
-uuid: 451c7377-ae73-46f3-b27b-2fdf933b2d81
+uuid: 685abcc7-5efc-48bc-822e-164612a9948d
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
-discoiquuid: 62f17f0f-69c2-4ab5-9d1b-b5bc64a95008
+discoiquuid: bf6b6c4e-7ea4-44e8-aa03-05741ffe31c7
 index: y
 internal: n
 snippet: y

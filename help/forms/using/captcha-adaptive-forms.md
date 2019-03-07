@@ -3,12 +3,12 @@ title: Using CAPTCHA in adaptive forms
 seo-title: Using CAPTCHA in adaptive forms
 description: Learn how to configure AEM CAPTCHA or Google reCAPTCHA service in adaptive forms.
 seo-description: Learn how to configure AEM CAPTCHA or Google reCAPTCHA service in adaptive forms.
-uuid: c526a487-451e-46e2-8a44-05f3318a96d0
+uuid: c6e8b67b-baca-4ecc-8deb-1d5aae01bfc9
 contentOwner: vishgupt
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: adaptive_forms
 topic-tags: author
-discoiquuid: 45c2bb02-d960-4726-94e3-706b4944d1d6
+discoiquuid: cc56bf38-6e18-402a-a50b-f0fb49ab8877
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Managing local credentials
 seo-title: Managing local credentials
 description: Learn how to manage local credentials.
 seo-description: Learn how to manage local credentials.
-uuid: 546131eb-26a7-4b65-9dd0-3de729276541
+uuid: a3bf6bb5-3e38-4ffd-82ba-f71b2f79ebc6
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/managing_certificates_and_credentials
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 9c50d8a7-2af3-48e8-8f9d-8f51ec0c8f8b
+discoiquuid: e9c9a117-b1c0-426b-82a5-4b3e5fe1b844
 index: y
 internal: n
 snippet: y

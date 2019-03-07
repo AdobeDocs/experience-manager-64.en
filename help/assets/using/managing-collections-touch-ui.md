@@ -3,12 +3,12 @@ title: Managing Collections
 seo-title: Managing Collections
 description: Understand the concept of collection in AEM Assets. Learn how to collections, manage, edit, and collections with other users.
 seo-description: Understand the concept of collection in AEM Assets and learn how you can share collections with other users.
-uuid: eac2d91a-84d0-4ad8-9bfc-a8fbab53399b
+uuid: 0d590304-709d-4c0e-ac87-9f35de0a971c
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
 topic-tags: authoring
-discoiquuid: 377701cd-e8f8-477a-a546-e170114f7abd
+discoiquuid: 9e4ec6f9-774d-448a-bd83-7f010511a388
 index: y
 internal: n
 snippet: y
@@ -79,7 +79,7 @@ You can drag assets from the Assets UI to a collection. You can also create a co
 
    Alternatively, tap/click the **To Collection** icon from the toolbar.
 
-   ![](assets/chlimage_1-114.png)
+   ![](assets/chlimage_1-109.png)
 
 1. In the **Add To Collection** page, tap/click the **Create Collection** icon from the toolbar.
 
@@ -94,11 +94,11 @@ A smart collection uses a search criteria to dynamically populate assets. To cre
 
 1. Navigate to the** Assets **UI, and tap/click the** Search** icon.
 
-   ![](assets/chlimage_1-115.png)
+   ![](assets/chlimage_1-110.png)
 
 1. With the cursor in the Omni Search box, press the Return key. 
 
-   ![](assets/chlimage_1-116.png)
+   ![](assets/chlimage_1-111.png)
 
 1. Tap/click the GlobalNav icon to display the Filters panel.
 1. In the Omni Search box, enter the search keywords and then select a search criteria from the Search panel. For example, to search for assets that include "Surfing" in the title, enter "Surfing" in the Omni Search box and then press Enter.
@@ -127,7 +127,7 @@ A smart collection uses a search criteria to dynamically populate assets. To cre
 
    The label of the **Create Smart Selection** button changes to **Edit Smart Selection**. To edit the settings of the smart collection, select **Files** from the **Files & Folders** list. Then, tap/click the **Edit Smart Selection** button.
 
-   ![](assets/chlimage_1-117.png)
+   ![](assets/chlimage_1-112.png)
 
 >[!NOTE]
 >
@@ -144,7 +144,7 @@ You can add assets to a collection that contains a list of referenced assets or 
 1. In the Assets UI, navigate to the location of the asset that you want to add to a collection.
 1. Select the asset and tap/click the **To Collection** icon from the toolbar.
 
-   ![](assets/chlimage_1-118.png)
+   ![](assets/chlimage_1-113.png)
 
    Alternatively, you can drag the asset to the **Drop in Collection** zone. Release the mouse button when the drop zone becomes active and its label changes to **Drop to Add**.
 
@@ -157,7 +157,7 @@ Smart collections are built by saving a search so you can alter their content by
 
 1. In the** Assets **UI, tap/click the** Search** icon from the toolbar.
 
-   ![](assets/chlimage_1-119.png)
+   ![](assets/chlimage_1-114.png)
 
 1. With the cursor in the Omni Search box, press the Return key. 
 1. Tap/click the GlobalNav icon to display the Filters panel.
@@ -221,13 +221,13 @@ You can edit collection settings, such as title and description, or to add membe
 
 1. Tap/click **Save** to save the changes.
 
-   ![](assets/chlimage_1-120.png)
+   ![](assets/chlimage_1-115.png)
 
 ## Deleting a collection {#deleting-a-collection}
 
 1. From the Collections console, select one or more collections and tap/click the** Delete** icon in the toolbar.
 
-   ![](assets/chlimage_1-121.png)
+   ![](assets/chlimage_1-116.png)
 
 1. In the dialog, tap/click **Delete** to confirm the delete action.
 
@@ -251,7 +251,7 @@ You can add a collection to another collection, thereby creating a nested collec
 
 1. From the Collections console, select the desired collection or group of collections, and tap or click the **To Collection** icon in the toolbar.
 
-   ![](assets/chlimage_1-122.png)
+   ![](assets/chlimage_1-117.png)
 
 1. From the **Add To Collection** page, select the collection in which to add the collection.
 
@@ -287,7 +287,7 @@ Editing saved searches is the same as editing smart collections. For details, se
 
 1. Navigate to the **Assets** UI, and tap/click the** Search** icon on the toolbar.
 
-   ![](assets/chlimage_1-123.png)
+   ![](assets/chlimage_1-118.png)
 
 1. With the cursor in the Omni Search box, press the Return key.
 1. Click or tap the GlobalNav icon to display the Filters panel.  
@@ -306,7 +306,7 @@ You can run a workflow for the assets within a collection. If the collection con
 1. Tap/click the GlobalNav icon, and choose **Timeline** from the list.
 1. From the timeline, click or tap the Caret icon at the bottom, and then tap/click **Start Workflow**.
 
-   ![](assets/chlimage_1-124.png)
+   ![](assets/chlimage_1-119.png)
 
 1. In the **Start Workflow** section, select a workflow model from the list. For example, select the **DAM Update Asset** model.
 1. Enter a title for the workflow, and tap/click **Start**.

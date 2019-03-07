@@ -3,12 +3,12 @@ title: Introduction to authoring adaptive forms
 seo-title: Introduction to authoring adaptive forms 
 description: AEM Forms provide easy-to-use yet powerful interface for authoring adaptive forms. It provides a host of components and tools that you can use to build forms.
 seo-description: AEM Forms provide easy-to-use yet powerful interface for authoring adaptive forms. It provides a host of components and tools that you can use to build forms.
-uuid: 3e5e0204-2ea0-467b-a99a-a573554f5f03
+uuid: 719d9005-ed07-46ad-bc5d-35981a660827
 content-type: reference
 topic-tags: author
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: introduction
-discoiquuid: e300f23c-ab65-4a83-ad0c-f1779da0d4cb
+discoiquuid: 55bfebe8-5f6d-4370-a0a6-855077b2548f
 index: y
 internal: n
 snippet: y

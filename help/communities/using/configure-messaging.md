@@ -3,12 +3,12 @@ title: Messaging Feature
 seo-title: Messaging Feature
 description: Configuring Messaging components
 seo-description: Configuring Messaging components
-uuid: 51afead7-43e7-4b5a-a6cc-56fbcdddd1ee
+uuid: cfc262f3-0945-4fbe-9c1e-e827a07656d3
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
-discoiquuid: ca813169-01c1-4e86-ab91-4221fbdd06b3
+discoiquuid: d4001604-3695-4644-80d1-f9242ef58484
 index: y
 internal: n
 snippet: y

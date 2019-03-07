@@ -3,12 +3,12 @@ title: User Synchronization
 seo-title: User Synchronization
 description: Learn about user synchronization in AEM.
 seo-description: Learn about user synchronization in AEM.
-uuid: de66f95b-1762-438f-acbb-6bfb88aa7de7
+uuid: 1baf711a-aaf1-4441-8088-31e1fcfd3b41
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
-discoiquuid: edbe9479-bdc8-437f-9f25-25efaefda7d1
+discoiquuid: a4ed1b63-981d-4179-9f24-48de8f0c08b1
 index: y
 internal: n
 snippet: y
@@ -96,7 +96,7 @@ Once user sync is enabled, only newly created users and groups are syncrhonized.
 
 ** **
 
-![](assets/chlimage_1-147.png)
+![](assets/chlimage_1-387.png)
 
 ### 2. Create Authorized User {#createauthuser}
 
@@ -150,7 +150,7 @@ This authorized user will be used in step 3 to configure Sling distribution on a
 * select **Save All**
 *
 
-![](assets/chlimage_1-148.png)
+![](assets/chlimage_1-388.png)
 
 See also
 
@@ -178,7 +178,7 @@ Once an authorized user, a member of the **`administrators`**user group, has bee
 
         * for example, `usersync-admin`
 
-![](assets/chlimage_1-149.png)
+![](assets/chlimage_1-389.png)
 
 ### 4. Apache Sling Distribution Agent - Queue Agents Factory {#apache-sling-distribution-agent-queue-agents-factory}
 
@@ -201,7 +201,7 @@ Once an authorized user, a member of the **`administrators`**user group, has bee
 
     * **repeat **for each publish instance
 
-![](assets/chlimage_1-150.png)
+![](assets/chlimage_1-390.png)
 
 ### 5. Adobe Granite Distribution - Diff Observer Factory {#diffobserver}
 
@@ -222,7 +222,7 @@ Once an authorized user, a member of the **`administrators`**user group, has bee
         * select the `Enabled` checkbox
         * select `Save`
 
-![](assets/chlimage_1-151.png)
+![](assets/chlimage_1-391.png)
 
 ### 6. Apache Sling Distribution Trigger - Scheduled Triggers Factory {#apache-sling-distribution-trigger-scheduled-triggers-factory}
 
@@ -246,7 +246,7 @@ By default, author will poll for changes every 30 seconds. To alter this interva
         * set the `Interval in Seconds` to the desired interval
         * select `Save`
 
-![](assets/chlimage_1-152.png)
+![](assets/chlimage_1-392.png)
 
 ## Configure for Multiple Publish Instances {#configure-for-multiple-publish-instances}
 
@@ -268,7 +268,7 @@ The default configuration is for a single publish instance. As the reason for en
         * select the existing configuration to open for edit (pencil icon)  
           Verify `Name` : `socialpubsync`
 
-![](assets/chlimage_1-153.png)
+![](assets/chlimage_1-393.png)
 
 * **Exporter Endpoints** 
   There should be an exporter endpoint for each publisher. For example, if there are 2 publishers, localhost:4503 and 4504, there should be 2 entries:
@@ -301,7 +301,7 @@ If there is custom data that is desired to be synchronized across multiple publi
     * select the existing configuration to open for edit (pencil icon)  
       Verify `Name` : `socialpubsync-scheduled-trigger`
 
-![](assets/chlimage_1-154.png)
+![](assets/chlimage_1-394.png)
 
 * **Node Types** 
   This is the list of node types that will synchronize. Any node type other than sling:Folder needs to be listed here (sling:folder is handled separately).  
@@ -345,7 +345,7 @@ To validate that all Sling ID values differ, on each publish instance :
 1. browse to [http://*host:port*/system/console/status-slingsettings](http://localhost:4503/system/console/status-slingsettings)
 1. check the value of **Sling ID**
 
-![](assets/chlimage_1-155.png)
+![](assets/chlimage_1-395.png)
 
 If the Sling ID of a publish instance matches the Sling ID of any other publish instance, then :
 
@@ -397,7 +397,7 @@ In order for updates to sync properly, it is necessary to modify the vault packa
 
         * `Acl Handling :` `IGNORE`
 
-![](assets/chlimage_1-156.png)
+![](assets/chlimage_1-396.png)
 
 ## What Happens When ... {#what-happens-when}
 
@@ -458,7 +458,7 @@ Simply entering the User Sync Diagnostics console will display the results.
 
 This is what is displayed when User Synchronization has not been enabled :
 
-![](assets/chlimage_1-157.png)
+![](assets/chlimage_1-397.png)
 
 #### How To Run Diagnostics for Publishers {#how-to-run-diagnostics-for-publishers}
 
@@ -468,9 +468,9 @@ Included in the list is an URL for each publish instance that will run the diagn
 
 **Note** : before launching the URL, the *authorized sync user* must already be signed into that publish instance.
 
-![](assets/chlimage_1-158.png)
+![](assets/chlimage_1-398.png)
 
-### Configuration Improperly Added {#configuration-improperly-added}
+### Configuration Improperly Added {#improperconfig}
 
 When user sync fails to work, the most common problem is that additional configurations were *added*. Instead, the *existing *default configuration should have been *edited*.
 
@@ -478,23 +478,23 @@ Following are views of how the edited, default configurations should appear in t
 
 #### (author) One Apache Sling Distribution Agent - Sync Agents Factory {#author-one-apache-sling-distribution-agent-sync-agents-factory}
 
-![](assets/chlimage_1-159.png)
+![](assets/chlimage_1-399.png)
 
 #### (author) One Adobe Granite Distribution - Encrypted Password Transport Secret Provider {#author-one-adobe-granite-distribution-encrypted-password-transport-secret-provider}
 
-![](assets/chlimage_1-160.png)
+![](assets/chlimage_1-400.png)
 
 #### (publish) One Apache Sling Distribution Agent - Queue Agents Factory {#publish-one-apache-sling-distribution-agent-queue-agents-factory}
 
-![](assets/chlimage_1-161.png)
+![](assets/chlimage_1-401.png)
 
 #### (publish) One Adobe Granite Distribution - Diff Observer Factory {#publish-one-adobe-granite-distribution-diff-observer-factory}
 
-![](assets/chlimage_1-162.png)
+![](assets/chlimage_1-402.png)
 
 #### (author) One Apache Sling Distribution Trigger - Scheduled Triggers Factory {#author-one-apache-sling-distribution-trigger-scheduled-triggers-factory}
 
-![](assets/chlimage_1-163.png)
+![](assets/chlimage_1-403.png)
 
 ### Modify Operation Exception During Response Processing {#modify-operation-exception-during-response-processing}
 

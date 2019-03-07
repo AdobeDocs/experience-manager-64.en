@@ -3,12 +3,12 @@ title: Managing Activities
 seo-title: Managing Activities
 description: The Activities console enables you to create, organize, and manage the marketing activities of your brands
 seo-description: The Activities console enables you to create, organize, and manage the marketing activities of your brands
-uuid: a01c91ca-9964-4b1e-a8a9-f46445f27f1d
+uuid: 14e079d3-ea01-4470-90c4-c1e738738d15
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: personalization
-discoiquuid: ec889bd3-b838-4ded-b1fe-f0700e1aeeca
+discoiquuid: c6b7c33e-bbd2-4176-a1f7-811a390a36d5
 index: y
 internal: n
 snippet: y
@@ -36,7 +36,7 @@ Activities are displayed with a label describing what kind of activity is define
 * A/B - Adobe Target A/B testing
 * AEM - Adobe Experience Manager targeting (contexthub or clientcontext driven)
 
-![](assets/chlimage_1-267.png)
+![](assets/chlimage_1-238.png)
 
 >[!NOTE]
 >
@@ -171,7 +171,7 @@ To view activity performance and convert winning experiences:
 1. Click or tap the brand for which you want to see activities. 
 1. Select the activity and click or tap **View Properties **and click the **Reports** tab and select the activity that you want to view performance for/convert winning experiences for. Performance data is displayed.
 
-   ![](assets/chlimage_1-268.png)
+   ![](assets/chlimage_1-239.png)
 
 1. Click or tap the **Push winner **link** **to push that experience as the default experience.
 
@@ -180,7 +180,7 @@ To view activity performance and convert winning experiences:
     * It disables the current activity 
     * Modifies all pages and replaces the targeted content with the actual content of the winning experience. The content of the winning experience becomes part of the normal page **without** targeting.
 
-   ![](assets/chlimage_1-269.png)
+   ![](assets/chlimage_1-240.png)
 
    A winning experience is the experience that generates more Lift in the reports, which is based on the conversion rate.
 
@@ -201,7 +201,7 @@ When an activity is synchronized, a corresponding campaign is created in Adobe T
 * Activities on the publish instance have the same name as the corresponding Adobe Target campaign.
 * Activities on the author instance correspond with Target campaigns of the same name with the `_author` suffix.
 
-![](assets/chlimage_1-270.png)
+![](assets/chlimage_1-241.png)
 
 The _author activities are synchronized immediately when the activity is modified. Immediate synchronization enables the simulation of activities with Client Context or ContextHub.
 

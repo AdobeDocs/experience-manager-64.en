@@ -3,10 +3,10 @@ title: Reference Themes
 seo-title: Reference Themes
 description: AEM Forms provides adaptive forms themes that you can get from package share and use to style a form. 
 seo-description: AEM Forms provides adaptive forms themes that you can get from package share and use to style a form. 
-uuid: aad72693-4694-4443-93a3-426839885430
+uuid: af6ce149-bc19-4681-93e9-65716014fe47
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
-discoiquuid: 8c41e041-534e-457c-ac46-9bf8550e7571
+discoiquuid: c52f937c-2029-4a5d-82d6-2dc87902c8de
 index: y
 internal: n
 snippet: y

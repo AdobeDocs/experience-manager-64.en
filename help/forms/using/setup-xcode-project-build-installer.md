@@ -3,11 +3,11 @@ title: Set up the Xcode project and build the iOS app
 seo-title: Set up the Xcode project and build the iOS app
 description: Explains how to build standard AEM Forms app for iOS.
 seo-description: Explains how to build standard AEM Forms app for iOS.
-uuid: 3d83f99e-9932-4cdc-b730-66a3f479b513
+uuid: 4586820f-9ea0-488e-a248-ff0e77fc0570
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
-discoiquuid: 1ff67385-912e-44d4-9051-ac52a2a01d84
+discoiquuid: db415a9e-3180-41ee-8914-b62fc37f312c
 index: y
 internal: n
 snippet: y

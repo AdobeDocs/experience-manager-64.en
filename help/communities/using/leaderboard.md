@@ -3,12 +3,12 @@ title: Leaderboard Essentials
 seo-title: Leaderboard Essentials
 description: Leaderboard feature overview
 seo-description: Leaderboard feature overview
-uuid: 70e02c9d-1514-4cbc-9f4a-86f52d80a31e
+uuid: be139e24-7809-4035-ad5c-8506e3adbc1c
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: b5a4ed9c-3dc2-438f-a252-76d2e9856841
+discoiquuid: 6ded5b18-9b67-4ee0-b11d-808daa62e9c0
 index: y
 internal: n
 snippet: y

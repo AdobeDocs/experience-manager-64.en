@@ -3,11 +3,11 @@ title: Create and manage A/B test for adaptive forms
 seo-title: Create and manage A/B test for adaptive forms
 description: AEM Forms integrates with Adobe Target that allows running A/B tests for adaptive forms to enhance customer experience and improve conversion rates.
 seo-description: AEM Forms integrates with Adobe Target that allows running A/B tests for adaptive forms to enhance customer experience and improve conversion rates.
-uuid: 244309a5-840a-4321-ad2e-c8eecc18f4d3
+uuid: 9b10b65f-4ba0-463b-8b5e-5dbaa1f79454
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: integrations
-discoiquuid: e4c797bf-7c48-416d-8fd7-cbc4379e4973
+discoiquuid: db154caa-30e0-4cc7-afca-8a04afaffb1c
 index: y
 internal: n
 snippet: y

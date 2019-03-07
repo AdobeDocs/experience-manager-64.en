@@ -3,12 +3,12 @@ title: Publishing Pages
 seo-title: Publishing Pages
 description: Once you have created and reviewed your content on the author environment, the goal is to make it available on your public website.
 seo-description: Once you have created and reviewed your content on the author environment, the goal is to make it available on your public website.
-uuid: 2c4ba899-9812-43a0-ac6e-b4835f48db0c
+uuid: 493cf9ff-a5db-459b-a66e-1d74c77713a5
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: 48cf2f5a-348b-45a3-881d-683f8adb6b49
+discoiquuid: f8ffc1c2-e15a-48fa-b093-3b15e219a6b4
 index: y
 internal: n
 snippet: y

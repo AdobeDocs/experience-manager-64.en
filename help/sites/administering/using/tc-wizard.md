@@ -3,12 +3,12 @@ title: Language Copy Wizard
 seo-title: Language Copy Wizard
 description: Learn about using the Language Copy Wizard in AEM.
 seo-description: Learn about using the Language Copy Wizard in AEM.
-uuid: fc1f0d3b-cc49-48a9-a73c-864770fd06dd
+uuid: 99df14ad-3b9d-432e-8ca0-ab1d094834af
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features
 content-type: reference
-discoiquuid: d2df6d83-dbf6-4851-877c-5e140e32fd72
+discoiquuid: 1b9a5d7c-0dc4-4340-8b98-3c7ff44f50f8
 index: y
 internal: n
 snippet: y
@@ -26,19 +26,19 @@ To access this wizard:
 
 1. In Sites, select a page and tap/click Create.
 
-   ![](assets/chlimage_1-49.jpeg)
+   ![](assets/chlimage_1-48.jpeg)
 
 1. Select Language Copy and the wizard opens.
 
-   ![](assets/chlimage_1-50.jpeg)
+   ![](assets/chlimage_1-49.jpeg)
 
 1. The **Select Source** step of the wizard allows you to add/remove pages. You also have the option of including or excluding the subpages.
 
-   ![](assets/chlimage_1-51.jpeg)
+   ![](assets/chlimage_1-50.jpeg)
 
 1. The **Next **button brings you to the **Configure** step of the wizard. Here you can add/remove languages and select translation method.
 
-   ![](assets/chlimage_1-52.jpeg)
+   ![](assets/chlimage_1-51.jpeg)
 
    >[!NOTE]
    >
@@ -50,9 +50,9 @@ To access this wizard:
    >
    >If you selected multiple languages in the previous step, multiple translation projects will be created.
 
-   ![](assets/chlimage_1-53.jpeg)
+   ![](assets/chlimage_1-52.jpeg)
 
 1. The **Create** button ends the wizard.
 
-   ![](assets/chlimage_1-54.jpeg)
+   ![](assets/chlimage_1-53.jpeg)
 

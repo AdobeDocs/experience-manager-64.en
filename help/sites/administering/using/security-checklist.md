@@ -3,12 +3,12 @@ title: Security Checklist
 seo-title: Security Checklist
 description: Learn about the various security considerations when configuring and deploying AEM.
 seo-description: Learn about the various security considerations when configuring and deploying AEM.
-uuid: bee081e8-0283-4472-8c41-16cd699b2f3c
+uuid: 89fc49d5-d4e8-4846-911a-9863ad40a64a
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
-discoiquuid: 0955a1e2-94bc-4bfa-94c5-df4da29f4573
+discoiquuid: ae5db469-5c6f-4226-b875-69aab0e2d80b
 index: y
 internal: n
 snippet: y
@@ -89,7 +89,7 @@ To do this:
 1. Navigate to the web console at `<server>:<port>/system/console/configMgr`.
 1. Navigate to** Apache Felix OSGi Management Console** and change the **user name** and **password**.
 
-   ![](assets/chlimage_1-198.png)
+   ![](assets/chlimage_1-166.png)
 
 1. Click **Save**.
 

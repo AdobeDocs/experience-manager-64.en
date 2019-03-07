@@ -3,12 +3,12 @@ title: Content Insight
 seo-title: Content Insight
 description: Content Insight provides information about page performance using web analytics and SEO recommendations. Use Content Insight to make decisions about how to modify pages, or to learn how previous changes have changed performance. For every page that you author, you can open Content Insight to analyze the page.
 seo-description: Content Insight provides information about page performance using web analytics and SEO recommendations. Use Content Insight to make decisions about how to modify pages, or to learn how previous changes have changed performance. For every page that you author, you can open Content Insight to analyze the page.
-uuid: 964926fa-22f1-4aae-b62b-7a2bb6ee0ace
+uuid: 2804a69b-1cf1-4eab-9477-91b50a9a4a8c
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
-discoiquuid: 8643b717-3b03-485b-8f1b-2b6d54799571
+discoiquuid: bcf6328f-8afb-4add-9c6a-117835bfac3f
 index: y
 internal: n
 snippet: y

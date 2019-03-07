@@ -3,12 +3,12 @@ title: Understanding the folder structure
 seo-title: Understanding the folder structure
 description: How to understand the folder structure of AEM Forms workspace source code to customize.
 seo-description: How to understand the folder structure of AEM Forms workspace source code to customize.
-uuid: 5e1af0cf-b48f-44dc-9acc-1f1622a35b57
+uuid: 7cfd3eab-7b2f-4c99-8bba-9f89e4115e44
 contentOwner: robhagat
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
-discoiquuid: 711ef636-ee81-4298-bb27-2135ed5151da
+discoiquuid: 4d0f5064-a936-4545-b2c1-19f76d77e87d
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: AEM Livefyre Recipes
 seo-title: AEM Livefyre Recipes
 description: Step-by-step instructions on common use cases for Adobe Experience Manager Livefyre. 
 seo-description: Step-by-step instructions on common use cases for Adobe Experience Manager Livefyre. 
-uuid: 4bdcdf09-bb43-4aef-9afa-11f7c59ae06d
+uuid: 8745d5f2-32e3-43c8-8683-937c3dec48f0
 contentOwner: alba
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: 4ad62c94-d02b-4b7e-8958-454961b34d9e
+discoiquuid: 54ee9947-5e70-40b0-81fc-c9054daa61a9
 index: y
 internal: n
 snippet: y

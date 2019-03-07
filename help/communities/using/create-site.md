@@ -3,12 +3,12 @@ title: Author a New Community Site
 seo-title: Author a New Community Site
 description: How to author a new AEM Communities site
 seo-description: How to author a new AEM Communities site
-uuid: 7a1a1f62-ee24-44a4-8b30-4d18268e150c
+uuid: 8734938e-f0bc-4527-b870-ff56ee3b7436
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: introduction
 content-type: reference
-discoiquuid: 5a429375-d74f-47b1-9487-19dc09b8138d
+discoiquuid: 66cf6ae5-a1fa-4359-b242-407a37b15c65
 index: y
 internal: n
 snippet: y

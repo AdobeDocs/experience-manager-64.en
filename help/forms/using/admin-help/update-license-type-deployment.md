@@ -3,12 +3,12 @@ title: Update the license type for the deployment
 seo-title: Update the license type for the deployment
 description: Update the license type for the deployment by using the Change License page in administration console.
 seo-description: Update the license type for the deployment by using the Change License page in administration console.
-uuid: 72b1e812-38d1-4732-b15e-82844387c1a4
+uuid: c52721b2-94ae-4538-b2d4-5836a48448df
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/get_started_with_administering_aem_forms_on_jee
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 736836c7-af61-4f29-9781-5b4fab9fd0aa
+discoiquuid: c32035d5-a515-42de-bc46-0b49717e3f89
 index: y
 internal: n
 snippet: y

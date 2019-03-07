@@ -3,12 +3,12 @@ title: Displaying the user avatar
 seo-title: Displaying the user avatar
 description: How to customize the AEM Forms workspace to display the image of a logged-in user.
 seo-description: How to customize the AEM Forms workspace to display the image of a logged-in user.
-uuid: fb542921-cac2-451b-a44c-18d5feed60bb
+uuid: 31c06329-48a0-4005-b768-a05d971e66c1
 contentOwner: robhagat
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
-discoiquuid: 724c8175-dcea-49fb-9751-7ab849e0b6fb
+discoiquuid: 07554bb8-1d2c-46f4-9629-460300f0b748
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Using xtypes (Classic UI)
 seo-title: Using xtypes (Classic UI)
 description: Learn about all the xtypes that are available with AEM
 seo-description: Learn about all the xtypes that are available with AEM
-uuid: 024e05a2-1dc7-4277-ae45-00a3413a00c3
+uuid: 614d78e4-ade8-426e-8f3d-df7b17668e9f
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: components
 content-type: reference
-discoiquuid: 390be968-1f64-42d6-ba71-baa3180c4f6c
+discoiquuid: 29bf20c4-d3f4-4d8a-9340-c67277227649
 index: y
 internal: n
 snippet: y

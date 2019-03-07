@@ -3,12 +3,12 @@ title: Administering Assets
 seo-title: Administering Assets
 description: Learn about the activities typically performed by an AEM Assets administrator.
 seo-description: Learn about the activities typically performed by an AEM Assets administrator.
-uuid: 476798df-c6f2-490a-960f-845d867a3205
+uuid: 8c776155-47a5-43bf-a56b-94664aeb68e5
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: 9cf3baee-accb-408d-a426-0210e35bdc20
+discoiquuid: 7cf4a754-aff6-49c2-934c-ee243cd728a0
 index: y
 internal: n
 snippet: y

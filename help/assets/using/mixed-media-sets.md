@@ -3,12 +3,12 @@ title: Mixed Media Sets
 seo-title: Mixed Media Sets
 description: Learn how to work with mixed media sets in dynamic media
 seo-description: Learn how to work with mixed media sets in dynamic media
-uuid: cb9ea76d-a4ff-461f-8e52-f0634135ab6d
+uuid: 5a7ea273-a0ee-498d-9a5e-28342f36e51f
 contentOwner: Alva Ware-Bevacqui
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: 30dc41e7-d3f7-4c63-b116-4810da2d7420
+discoiquuid: 4329c2fd-e4d4-4dab-9529-32d9774201e9
 index: y
 internal: n
 snippet: y
@@ -20,7 +20,7 @@ Mixed Media Sets let you provide a mix of images, Image Sets, Spin Sets, and vid
 
 Mixed Media Sets are designated by a banner with the word **MixedMediaSet**. In addition, if the Mixed Media Set is published, then the publish date, indicated by the **World** icon is on the banner along with the last modification date, indicated by the **Pencil** icon displays. 
 
-![](assets/chlimage_1-353.png)
+![](assets/chlimage_1-348.png)
 
 >[!NOTE]
 >
@@ -86,11 +86,11 @@ To create a Mixed Media Set:
 
 1. In Assets, navigate to where you want to create a mixed media set, and click **Create**, and select** Mixed Media Set**. You can also create the set from inside a folder that contains your assets. The Mixed Media Set Editor displays.
 
-   ![](assets/chlimage_1-354.png)
+   ![](assets/chlimage_1-349.png)
 
 1. In the Mixed Media Set Editor, in **Title**, enter a name for the Mixed Media Set. The name appears in the banner across the Mixed Media Set. Optionally, enter a description.
 
-   ![](assets/chlimage_1-355.png)
+   ![](assets/chlimage_1-350.png)
 
    >[!NOTE]
    >
@@ -102,11 +102,11 @@ To create a Mixed Media Set:
 
    See [Working with Selectors](../../assets/using/working-with-selectors.md).
 
-   ![](assets/chlimage_1-356.png)
+   ![](assets/chlimage_1-351.png)
 
 1. Re-order the assets by dragging them up or down the list (must select the reorder icon), as necessary.
 
-   ![](assets/chlimage_1-357.png)
+   ![](assets/chlimage_1-352.png)
 
    If you want to add thumbnails, click the **+** **thumbnail** icon next to the image and navigate to the thumbnail you want. When done selecting all the thumbnail images click **Save.**
 

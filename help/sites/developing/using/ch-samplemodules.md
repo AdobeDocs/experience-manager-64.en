@@ -3,12 +3,12 @@ title: Sample ContextHub UI Module Types
 seo-title: Sample ContextHub UI Module Types
 description: ContextHub provides several sample UI modules that you can use in your solutions
 seo-description: ContextHub provides several sample UI modules that you can use in your solutions
-uuid: 844a43f8-9d4e-496c-9e45-1d20a5ab9e26
+uuid: 49317824-ceda-4748-926b-44de0ea0ac19
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: 7d4987a5-7a9d-4cd8-a2d1-3c380c21cefe
+discoiquuid: 9185c065-f643-4ebe-8398-1d839840f6b6
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Gesture customization
 seo-title: Gesture customization
 description: Customize the gestures on your AEM Forms app
 seo-description: Customize the gestures on your AEM Forms app
-uuid: ff1533b3-a206-4c40-ae36-7a4f60bc9e86
+uuid: d2ce74fd-d351-4849-bbab-1f045c1e4e78
 contentOwner: robhagat
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
-discoiquuid: f6dc425a-f524-4b37-a026-fdecfe153ff2
+discoiquuid: 9ac7ca37-453f-4e5a-b13c-e0a0779cdb41
 index: y
 internal: n
 snippet: y

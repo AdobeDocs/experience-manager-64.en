@@ -4,9 +4,9 @@ seo-title: Layout Fragments
 description: One or more layout fragments can form parts of a letter and define the graphical layout of those parts. A layout fragment can contain typical form fields, such as Address and Reference Number, and empty subforms that denote target areas. In addition, layout fragments allow you to create tables and insert them in letters.  
 seo-description: One or more layout fragments can form parts of a letter and define the graphical layout of those parts. A layout fragment can contain typical form fields, such as Address and Reference Number, and empty subforms that denote target areas. In addition, layout fragments allow you to create tables and insert them in letters.  
 page-status-flag: never-activated
-uuid: b8738eb1-d0c3-4bfb-9141-2a50ffcda7c3
+uuid: 5128b3e3-9f3f-4041-a4aa-ab7cc255613a
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 20f7e2b0-76ee-4c39-af0f-755b2a55a516
+discoiquuid: 9406d716-c1e3-4547-9f19-b11e9e7ed913
 index: y
 internal: n
 snippet: y

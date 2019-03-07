@@ -3,12 +3,12 @@ title: PDF Generator backup limitations
 seo-title: PDF Generator backup limitations
 description: Learn about PDF Generator backup limitations.
 seo-description: Learn about PDF Generator backup limitations.
-uuid: e21d2d03-5b56-40b3-a50b-5a1bb626d227
+uuid: 7b0776a3-3606-4442-8ee9-7214ed963b56
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/aem_forms_backup_and_recovery
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 99cc1019-1ced-4f86-a714-15af0cead3f1
+discoiquuid: c146867f-59bd-454e-9c6c-a397b76fbca4
 noindex: true
 index: y
 internal: n

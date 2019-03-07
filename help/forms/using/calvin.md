@@ -3,12 +3,12 @@ title: Automate testing of adaptive forms
 seo-title: Automate testing of adaptive forms
 description: Using Calvin you can create test cases in CRXDE and run UI tests directly in the web browser to thoroughly test your adaptive forms.
 seo-description: Using Calvin you can create test cases in CRXDE and run UI tests directly in the web browser to thoroughly test your adaptive forms.
-uuid: 64f76d0b-98a2-4ef3-a9b6-4659f8b8deef
+uuid: 753e44c1-a920-479b-8cad-38dc3ca31882
 contentOwner: gtalwar
 content-type: reference
 topic-tags: adaptive_forms
 topic-tags: develop
-discoiquuid: 0fcc3c08-d46c-4ee9-a502-c18d34c13bbc
+discoiquuid: 2251cc0c-da54-4b42-8500-52b061c6b36b
 index: y
 internal: n
 snippet: y

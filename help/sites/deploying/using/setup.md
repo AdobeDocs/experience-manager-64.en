@@ -3,12 +3,12 @@ title: IBM Websphere Setup
 seo-title: Geometrixx Outdoors Data Loading
 description: Setup the Geometrixx Store and load the Geometrixx Outdoors product data into WebSphere Commerce.
 seo-description: Setup the Geometrixx Store and load the Geometrixx Outdoors product data into WebSphere Commerce.
-uuid: e6e4e73a-ce60-492a-96a9-f1c7e7172b15
+uuid: 45be30aa-65ae-4e7c-b59c-1d12f3c27af2
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: e-commerce
 content-type: reference
-discoiquuid: 78157bed-8cb5-4b25-8104-b05cc3e9fafb
+discoiquuid: 4ce4650f-c54f-4546-8172-174d9ce3e403
 index: y
 internal: n
 snippet: y

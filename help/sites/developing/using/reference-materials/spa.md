@@ -3,9 +3,9 @@ title: spa (redirect)
 seo-title: spa (redirect)
 description: null
 seo-description: null
-uuid: d050c11b-47ab-4ad2-97ae-761344cecd90
+uuid: 790d388a-031e-427a-9ff8-4b95b6eae4e6
 contentOwner: carlino
-discoiquuid: 32b188e6-86aa-46be-aedb-1888700c286c
+discoiquuid: fdba6bdd-61ca-49f1-92d6-57f4995260f3
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/sites/developing/using/reference-materials
 index: y

@@ -3,12 +3,12 @@ title: Using the document security webpages
 seo-title: Using the document security webpages
 description: Learn how you can login, navigate and use the document security web pages.
 seo-description: Learn how you can login, navigate and use the document security web pages.
-uuid: 7d354c93-b32c-444d-9dce-2ec7984fb892
+uuid: c547bc23-71b8-48be-932c-c1f1c2477018
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_document_security
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 61662e34-6319-4a6e-90b1-d3bf4b94b4b3
+discoiquuid: 87dd6063-e077-4ad8-8fe8-c654f6efdc6e
 index: y
 internal: n
 snippet: y

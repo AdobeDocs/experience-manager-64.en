@@ -3,12 +3,12 @@ title: Editing Page Properties
 seo-title: Editing Page Properties
 description: Properties of a page can vary depending on the nature of the page. For example some pages might be connected to a live copy while others are not and the live copy information will be available as appropriate.
 seo-description: Properties of a page can vary depending on the nature of the page. For example some pages might be connected to a live copy while others are not and the live copy information will be available as appropriate.
-uuid: f23a95f1-15e2-4ad2-8325-1fc4beb9dee0
+uuid: 2c9eab41-b1d9-43a5-8dfa-90fd79ea5af6
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: ebcbb367-7221-4edd-b4aa-19a411e99151
+discoiquuid: 60c7e621-ff38-4909-9e2f-071a71a47322
 index: y
 internal: n
 snippet: y

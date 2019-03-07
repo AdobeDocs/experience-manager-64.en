@@ -3,12 +3,12 @@ title: Targeting your Adobe Campaign
 seo-title: Targeting your Adobe Campaign
 description: You can create targeted experiences for Adobe Campaign after setting up segmentation
 seo-description: You can create targeted experiences for Adobe Campaign after setting up segmentation
-uuid: eace6394-bff8-4a28-8b04-cd4f3d9d3fc4
+uuid: 6bad4d9a-2218-4140-8b8e-54bd02bcbc7c
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: personalization
-discoiquuid: 16e952e5-89cd-43f6-998c-253d15516fe3
+discoiquuid: 24f8720f-066b-474e-afbc-638be6668348
 index: y
 internal: n
 snippet: y
@@ -77,7 +77,7 @@ To create a newsletter with targeted content:
 
 1. Create a newsletter with targeted content: Below Email Campaigns in Geometrixx Outdoors, click or tap **Create** &gt; **Page**, and select one of the Adobe Campaign Mail templates.
 
-   ![](assets/chlimage_1-215.png)
+   ![](assets/chlimage_1-188.png)
 
 1. In the newsletter, add a Text and Personalization component. 
 1. Add text into the Text and Personalization component, such as "This is the default."
@@ -91,7 +91,7 @@ To create a newsletter with targeted content:
 
 1. Click **Default** and then the Text and Personalization component you added and you see the Bullseye with an arrow in it. Click the icon to target this component.
 
-   ![](assets/chlimage_1-216.png)
+   ![](assets/chlimage_1-189.png)
 
 1. Navigate to another segment (Male), and click **Add offer **and click the plus icon +. Then edit the offer. 
 1. Navigate to another segment (Female) and click **Add offer** and the plus icon +. Then edit this offer.
@@ -103,7 +103,7 @@ To create a newsletter with targeted content:
 
    In the HTML view, the different experiences of targeted components are enclosed in Adobe Campaign targeting code.
 
-   ![](assets/chlimage_1-217.png)
+   ![](assets/chlimage_1-190.png)
 
    >[!NOTE]
    >

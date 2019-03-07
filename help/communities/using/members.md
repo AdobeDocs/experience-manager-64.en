@@ -3,12 +3,12 @@ title: Members & Groups Management Consoles
 seo-title: Members & Groups Management Consoles
 description: How to access Members and Groups Management consoles
 seo-description: How to access Members and Groups Management consoles
-uuid: 11ddba1d-f46c-4a40-97f6-a5b053c7445c
+uuid: ce8dcef9-4346-46ac-ae05-6b6309eb4288
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 84fc20d0-216c-4cd8-8dcd-bfea8cc0032b
+discoiquuid: 96549b70-d08e-4472-8bee-8bdd9f2ec333
 index: y
 internal: n
 snippet: y

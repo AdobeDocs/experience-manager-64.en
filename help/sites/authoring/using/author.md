@@ -3,12 +3,12 @@ title: Authoring
 seo-title: Authoring
 description: Concepts of authoring in AEM
 seo-description: Concepts of authoring in AEM
-uuid: c79872ba-0ab7-4267-9c74-21e97f0fe964
+uuid: 580a2303-06eb-4e30-9e31-c75066bba452
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
-discoiquuid: 851ff699-0d9f-4ddc-8bd4-0d1fa1f4e74e
+discoiquuid: fdbe18a1-e1a4-48c9-8c1e-ce6c8168fe44
 index: y
 internal: n
 snippet: y
@@ -38,7 +38,7 @@ The author environment provides the mechanisms for creating, updating and review
 * An author creates and reviews the content (this can be of several types; for example, pages, assets, publications, etc)  
 * which will, at some point, be published to your website.
 
-![](assets/chlimage_1-324.png)
+![](assets/chlimage_1-289.png)
 
 On the author environment the functionality of AEM is made available through two UIs. For the publish environment you design the entire look-and-feel of the interface made available to your users.
 

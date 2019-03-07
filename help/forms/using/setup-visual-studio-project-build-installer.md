@@ -3,11 +3,11 @@ title: Set up the Visual Studio project and build the Windows app
 seo-title: Set up the Visual Studio project and build the Windows app
 description: Learn how to set up a Visual Studio project to build the AEM Forms Windows mobile device app.
 seo-description: Learn how to set up a Visual Studio project to build the AEM Forms Windows mobile device app.
-uuid: 5c7b8fa7-dc30-44aa-8c49-5f0f40e74d16
+uuid: b8ab9894-37ea-4841-b556-2f9815958e18
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
-discoiquuid: c5fc4330-4599-40c6-9abc-8d1d55ada172
+discoiquuid: c9c57cf8-8d9a-4850-8bdf-605e974488a6
 index: y
 internal: n
 snippet: y

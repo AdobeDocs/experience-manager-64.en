@@ -3,12 +3,12 @@ title: Communities User Synchronization
 seo-title: Communities User Synchronization
 description: How user synchronization works
 seo-description: How user synchronization works
-uuid: aa14bc52-b611-488e-9a90-b8e20da4697a
+uuid: da7c34bc-5284-4dfd-8810-c9ed01252c87
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: d3431031-7765-4958-8ff1-edc2944dcc7b
+discoiquuid: a0fe183c-00c6-401e-ad5d-a4d6201fadbd
 index: y
 internal: n
 snippet: y
@@ -41,6 +41,14 @@ When user synchronization is enabled, user data is automatically synchronized ac
 For detailed, step-by-step instructions, on how to enable synchronization across a publish farm, see
 
 * [User Synchronization](../../sites/administering/using/sync.md)
+
+## User sync in the background  {#user-sync-in-the-background}
+
+![](assets/sling-dist-workflow.png)
+
+&#42; ** vlt  package**: is a zip file of all the changes done on a publisher, which need to be distributed across publishers.** **Changes on a publisher generate events that are picked by the change event listener. This creates a vlt package that contains all the changes.
+
+&#42;&#42; **distribution package**: contains distribution information for Sling. That is information about where the content needs to be distributed, and when was it distributed last.
 
 ## What Happens When ... {#what-happens-when}
 
@@ -90,20 +98,24 @@ Following configurations are necessary to enable user synchronization on AEM Com
 
 ### Apache Sling Distribution Agent - Sync Agents Factory {#apache-sling-distribution-agent-sync-agents-factory}
 
-This configuration fetches the content to be synced across the publishers. The configuration is on Author instance.
+This configuration fetches the content to be synced across the publishers. The configuration is on Author instance. The Author has to keep track of all the publishers which are there and where to sync all the information.
 
 The default values in the configuration are for a single publish instance. As user sync is useful to synchronize multiple publish instances, such as for a publish farm, additional publish instances need to be added to the configuration.
 
+**How is the content synced?**
+
+Author instance pings the exporter endpoint of publishers. Whenever a user is created or updated on specific publishers (n), the Author gets the content from their exporter endpoints and [pushes the content](../../communities/using/sync.md#main-pars-image-1413756164) to other publishers (n-1, that is apart from the publishers from which the content is fetched).
+
 <details> 
- <summary>Item Title</summary> 
- <p>On AEM Author instance:</p> 
+ <summary>To configure Apache Sling Sync Agents configuration</summary> 
+ <p>On AEM author instance:</p> 
  <ol> 
-  <li>sign in with administrator privileges.</li> 
+  <li>Sign in with administrator privileges.</li> 
   <li>Access the <a href="https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/configuring-osgi.html">Web Console</a>.<br /> For example, <a href="http://localhost:4502/system/console/configMgr">http://localhost:4502/system/console/configMgr</a>.</li> 
   <li>Locate <strong>Apache Sling Distribution Agent - Sync Agents Factory.</strong> 
    <ul> 
     <li>Select the existing configuration to open for edit (pencil icon).<br /> Verify name: <strong> 
-      <g class="gr_ gr_18 gr-alert gr_spell gr_inline_cards gr_disable_anim_appear ContextualSpelling" data-gr-id="18" id="18">
+      <g class="gr_ gr_26 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling" data-gr-id="26" id="26">
         socialpubsync 
       </g>.</strong></li> 
     <li>Select the <strong>Enabled </strong>checkbox.</li> 
@@ -123,7 +135,7 @@ The [authorized user created](../../sites/administering/using/sync.md#createauth
 Whenever data is to be installed on or fetched from publishers, then the author connects with the publishers using the credentials (user name and password) set in this configuration.
 
 <details> 
- <summary>Item Title</summary> 
+ <summary>To connect author with publishers using authorized user</summary> 
  <p>On AEM author instance:</p> 
  <ol> 
   <li>Sign in with administrator privileges.</li> 
@@ -149,22 +161,25 @@ Whenever data is to be installed on or fetched from publishers, then the author 
 
 ### Apache Sling Distribution Agent - Queue Agents Factory {#apache-sling-distribution-agent-queue-agents-factory}
 
-This configuration is used to configure the data you want to sync across publishers. When data is created/ updated in paths specified in **Allowed Roots**, "var/community/distribution/diff" gets activated and the created replicator fetches the data from a publisher and installs it on other publishers.
+This configuration is used to configure the data you want to sync across publishers. When data is created/ updated in paths specified in **Allowed Roots**, the "var/community/distribution/diff" gets activated and the created replicator fetches the data from a publisher and installs it on other publishers.
 
 <details> 
- <summary>Item Title</summary> 
- <p>On AEM Publish instance:</p> 
+ <summary>To configure the data (node paths) to synchronize</summary> 
+ <p>On AEM publish instance:</p> 
  <ol> 
   <li>Sign in with administrator privileges.</li> 
   <li>Access the <a href="https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/configuring-osgi.html">Web Console</a>.<br /> For example, <a href="http://localhost:4503/system/console/configMgr">http://localhost:4503/system/console/configMgr</a>.</li> 
   <li>Locate <strong>Apache Sling Distribution Agent - Queue Agents Factory.</strong></li> 
   <li>Select the existing configuration to open for edit (pencil icon).<br /> Verify Name: 
-   <g class="gr_ gr_22 gr-alert gr_spell gr_inline_cards gr_disable_anim_appear ContextualSpelling" data-gr-id="22" id="22" style="font-size: 12px;">
+   <g class="gr_ gr_20 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling" data-gr-id="20" id="20">
      socialpubsync 
    </g>-reverse.</li> 
   <li>Select the <strong>Enabled</strong> checkbox and save.</li> 
   <li> Specify the node paths that are to be replicated in <strong>Allowed roots</strong>.</li> 
-  <li>Repeat<strong> </strong>for each publish instance.</li> 
+  <li>Repeat<strong> </strong>for each 
+   <g class="gr_ gr_21 gr-alert gr_gramm gr_inline_cards gr_run_anim Grammar multiReplace" data-gr-id="21" id="21">
+     publish 
+   </g> instance.</li> 
  </ol> 
  <img imageRotate="0" src="assets/queue-agents-fact.png" /> 
 </details>
@@ -175,22 +190,22 @@ This configuration syncs group membership across publishers.
 If changing the membership of a group in one publisher does not update its membership on other publishers, then ensure that **ref  :members ** is  added to **looked properties names**.
 
 <details> 
- <summary>Item Title</summary> 
- <p>On each AEM Publish instance:</p> 
+ <summary>To ensure member synchronization</summary> 
+ <p>On each AEM publish instance:</p> 
  <ol> 
   <li>Sign in with administrator privileges.</li> 
   <li>Access the <a href="https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/configuring-osgi.html">Web Console</a>.<br /> For example, <a href="http://localhost:4503/system/console/configMgr">http://localhost:4503/system/console/configMgr</a>.</li> 
   <li>Locate <strong>Adobe Granite Distribution - Diff Observer Factory.</strong></li> 
   <li>Select the existing configuration to open for edit (pencil icon).<br /> Verify <strong>agent name: 
-    <g class="gr_ gr_11 gr-alert gr_spell gr_inline_cards gr_disable_anim_appear ContextualSpelling" data-gr-id="11" id="11">
+    <g class="gr_ gr_19 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling" data-gr-id="19" id="19">
       socialpubsync 
     </g>-reverse</strong>.</li> 
   <li>Select the <strong>Enabled </strong>checkbox.</li> 
   <li>Specify <strong>rep 
-    <g class="gr_ gr_58 gr-alert gr_gramm gr_inline_cards gr_run_anim Style replaceWithoutSep" data-gr-id="58" id="58">
+    <g class="gr_ gr_25 gr-alert gr_gramm gr_inline_cards gr_run_anim Style replaceWithoutSep" data-gr-id="25" id="25">
       :members 
     </g> </strong>as 
-   <g class="gr_ gr_23 gr-alert gr_gramm gr_inline_cards gr_run_anim Grammar only-ins doubleReplace replaceWithoutSep" data-gr-id="23" id="23">
+   <g class="gr_ gr_24 gr-alert gr_gramm gr_inline_cards gr_run_anim Grammar only-ins doubleReplace replaceWithoutSep" data-gr-id="24" id="24">
      description 
    </g> for propertyName in <strong>looked properties names</strong>, and Save.</li> 
  </ol> 
@@ -199,10 +214,12 @@ If changing the membership of a group in one publisher does not update its membe
 
 ### Apache Sling Distribution Trigger - Scheduled Triggers Factory {#apache-sling-distribution-trigger-scheduled-triggers-factory}
 
-The author polls publishers every 30 seconds (default). If any packages are present at the folder /var/sling/distribution/packages/  socialpubsync -  vlt /shared, then it will fetch those packages and install them on other publishers.
+This configuration allows you to configure the polling interval (after which publishers are pinged and changes are pulled by author) to sync the changes across publishers.
+
+The author polls publishers every 30 seconds (default). If any packages are present at the folder */var/sling/distribution/packages/  socialpubsync -  vlt /shared*, then it will fetch those packages and install them on other publishers.
 
 <details> 
- <summary>To alter polling interval</summary> 
+ <summary>To alter the polling interval</summary> 
  <p>On AEM author instance:</p> 
  <ol> 
   <li>sign in with administrator privileges.</li> 
@@ -219,102 +236,65 @@ The author polls publishers every 30 seconds (default). If any packages are pres
     </g>-scheduled-trigger</strong></li> 
   <li>set the Interval in Seconds to the desired interval, and save.</li> 
  </ul> 
- <img /> 
-</details>
-
-### Apache Sling Distribution Agent - Sync Agents Factory {#apache-sling-distribution-agent-sync-agents-factory-1}
-
-Specify the exporter and importer endpoints.
-
-This configuration fetches the content to be synced across the publishers.
-
-The default values in the configuration are for a single publish instance. As user sync is useful to synchronize multiple publish instances, such as for a publish farm, additional publish instances need to be added to the configuration.
-
-<details> 
- <summary>Item Title</summary> 
- <p>On AEM Author instance:</p> 
- <ol> 
-  <li>sign in with administrator privileges.</li> 
-  <li>access the <a href="https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/configuring-osgi.html">Web Console</a>.<br /> For example, <a href="http://localhost:4502/system/console/configMgr">http://localhost:4502/system/console/configMgr</a>.</li> 
-  <li>locate <strong>Apache Sling Distribution Agent - Sync Agents Factory</strong> 
-   <ul> 
-    <li>select the existing configuration to open for edit (pencil icon)<br /> verify name: <strong> 
-      <g class="gr_ gr_18 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling" data-gr-id="18" id="18">
-        socialpubsync 
-      </g></strong></li> 
-    <li>select the <strong>Enabled </strong>checkbox.</li> 
-    <li>select <strong>Use Multiple queues.</strong></li> 
-    <li>specify <strong>Exporter Endpoints</strong> and <strong>Importer Endpoints </strong>(you can add more exporter and importer endpoints).<br /> These endpoints define where you want to get the content from and where you want to push the content. Author fetches the content from the specified exporter endpoint and pushes the content to the publishers (other than the publisher from which it fetched the content).</li> 
-   </ul> </li> 
- </ol> 
- <img /> 
+ <img imageRotate="0" src="assets/scheduled-trigger.png" /> 
 </details>
 
 ### AEM Communities User Sync Listener {#aem-communities-user-sync-listener}
 
-For issues in Sling distribution where there is a discrepancy in subscriptions and follows, check whether the following properties in **AEM Communities User Sync Listener** configurations are set.
+For issues in Sling distribution where there is a discrepancy in subscriptions and follows, check whether the following properties in **AEM Communities User Sync Listener** configurations are set:
+
+* NodeTypes
+* IgnorableProperties
+* IgnorableNodes
+* DistributedFolders
 
 <details> 
- <summary>Item Title</summary> 
- <p>On each AEM Publish instance:</p> 
+ <summary>To sync subscriptions, follows, and notifications</summary> 
+ <p>On each AEM publish instance:</p> 
  <ol> 
-  <li>sign in with administrator privileges.</li> 
-  <li>access the <a href="../../sites/deploying/using/configuring-osgi.md">Web Console.<br /> </a>For example, <a href="http://localhost:4503/system/console/configMgr">http://localhost:4503/system/console/configMgr</a>.</li> 
-  <li>locate <strong>AEM Communities User Sync Listener.</strong></li> 
-  <li>select the existing configuration to open for edit (pencil icon)<br /> Verify Name: <strong> 
-    <g class="gr_ gr_31 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling" data-gr-id="31" id="31">
+  <li>Sign in with administrator privileges.</li> 
+  <li>Access the <a href="../../sites/deploying/using/configuring-osgi.md">Web Console.<br /> </a>For example, <a href="http://localhost:4503/system/console/configMgr">http://localhost:4503/system/console/configMgr</a>.</li> 
+  <li>Locate <strong>AEM Communities User Sync Listener.</strong></li> 
+  <li>Select the existing configuration to open for edit (pencil icon)<br /> Verify Name: <strong> 
+    <g class="gr_ gr_37 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling" data-gr-id="37" id="37">
       socialpubsync 
     </g>-scheduled-trigger</strong></li> 
-  <li>set the following <strong> 
-    <g class="gr_ gr_28 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="28" id="28">
+  <li>Set the following <strong> 
+    <g class="gr_ gr_34 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="34" id="34">
       NodeTypes 
-    </g></strong>:<br /> rep 
-   <g class="gr_ gr_35 gr-alert gr_gramm gr_inline_cards gr_run_anim Style replaceWithoutSep" data-gr-id="35" id="35">
-     :User 
-   </g><br /> 
-   <g class="gr_ gr_29 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="29" id="29">
+    </g></strong>:<br /> rep:User<br /> 
+   <g class="gr_ gr_35 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="35" id="35">
      nt 
    </g>:unstructured<br /> 
-   <g class="gr_ gr_30 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="30" id="30">
+   <g class="gr_ gr_36 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling ins-del multiReplace" data-gr-id="36" id="36">
      nt 
-   </g> 
-   <g class="gr_ gr_36 gr-alert gr_gramm gr_inline_cards gr_run_anim Style replaceWithoutSep" data-gr-id="36" id="36">
-     :resource 
-   </g><br /> rep 
-   <g class="gr_ gr_37 gr-alert gr_gramm gr_inline_cards gr_run_anim Style replaceWithoutSep" data-gr-id="37" id="37">
-     :ACL 
-   </g><br /> sling 
-   <g class="gr_ gr_38 gr-alert gr_gramm gr_inline_cards gr_run_anim Style replaceWithoutSep" data-gr-id="38" id="38">
-     :Folder 
-   </g><br /> sling 
-   <g class="gr_ gr_39 gr-alert gr_gramm gr_inline_cards gr_run_anim Style replaceWithoutSep" data-gr-id="39" id="39">
-     :OrderedFolder 
-   </g><br /> The node types specified in this property will synchronize, and the notifications info (blogs and configurations followed) are synced between different publishers.</li> 
+   </g>:resource<br /> rep:ACL<br /> sling:Folder<br /> sling:OrderedFolder<br /> The node types specified in this property will synchronize, and the notifications info (blogs and configurations followed) are synced between different publishers.</li> 
   <li>Add all the folders to synchronize in <strong>DistributedFolders</strong>. For example,<br /> segments/scoring<br /> social/relationships<br /> activities</li> 
   <li>Set the<strong> 
-    <g class="gr_ gr_27 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling" data-gr-id="27" id="27">
+    <g class="gr_ gr_33 gr-alert gr_spell gr_inline_cards gr_run_anim ContextualSpelling" data-gr-id="33" id="33">
       ignorablenodes 
     </g></strong> to:<br /> .tokens<br /> system<br /> rep 
    <g class="gr_ gr_61 gr-alert gr_gramm gr_inline_cards gr_run_anim Style replaceWithoutSep" data-gr-id="61" id="61">
      :cache 
    </g> (since we use sticky sessions, we need not sync this node to different publishers)</li> 
  </ol> 
- <img /> 
+ <img imageRotate="0" src="assets/user-sync-listner.png" /> 
 </details>
 
 ### Unique Sling ID {#unique-sling-id}
 
-Make sure all the publishers in a publish farm have a unique Sling ID. If the Sling ID is the same for multiple publish instances in a publish farm, then user groups will not be synchronized.
+AEM author instance uses Sling ID to identify from where the data is coming and to which publishers it needs to (or need not) send the package back to.
+
+Make sure all the publishers in a publish farm have a unique Sling ID. If the Sling ID is the same for multiple publish instances in a publish farm, then user synchronization will fail. As the author won't know where to fetch the package from and where to install the package.
 
 <details> 
- <summary>Item Title</summary> 
- <p>Make sure all the publishers in a publish farm have a unique Sling ID. If the Sling ID is the same for multiple publish instances in a publish farm, then user groups will not be synchronized.</p> 
- <p>To validate that all Sling ID values differ, on each publish instance :</p> 
+ <summary>To ensure unique Sling ID of publishers in the publish farm</summary> 
+ <p>On each publish instance:</p> 
  <ol> 
-  <li>browse to <a href="http://localhost:4503/system/console/status-slingsettings">http://<em>host:port</em>/system/console/status-slingsettings</a></li> 
-  <li>check the value of <strong>Sling ID</strong></li> 
+  <li>Browse to <a href="http://localhost:4503/system/console/status-slingsettings">http://<em>host:port</em>/system/console/status-slingsettings</a>.</li> 
+  <li>Check the value of <strong>Sling ID.</strong></li> 
  </ol> 
- <img /> 
+ <img imageRotate="0" src="assets/slingid.png" /> 
  <p>If the Sling ID of a publish instance matches the Sling ID of any other publish instance, then:</p> 
  <ol> 
   <li>Stop one of the publish instances that has a matching Sling ID.</li> 
@@ -328,34 +308,40 @@ Make sure all the publishers in a publish farm have a unique Sling ID. If the Sl
 ### Vault Package Builder Factory {#vault-package-builder-factory}
 
 For updates to sync properly, it is necessary to modify the vault package builder for user sync.  
-In **/home/users** a **&#42;/rep:cache **node is created. It is a cache which is used to find that if we query on the  principal  name of a node then this cache can be used directly.
+In **/home/users**, a **&#42;/rep:cache **node is created. It is a cache which is used to find that if we query on the principal name of a node then this cache can be used directly.
+
+User synchronization can stop if `rep  :cache `nodes are synced across publishers.
 
 <details> 
- <summary>Item Title</summary> 
+ <summary>To ensure that updates are synced properly across publishers</summary> 
  <p>On each AEM publish instance:</p> 
  <ol> 
-  <li>access the <a href="../../sites/deploying/using/configuring-osgi.md">Web Console</a><br /> for example, <a href="http://localhost:4503/system/console/configMgr">http://localhost:4503/system/console/configMgr</a>.</li> 
-  <li>locate the <strong>Apache Sling Distribution Packaging - Vault Package Builder Factory<br /> </strong>Builder name: socialpubsync-vlt.</li> 
-  <li>select the edit icon.</li> 
-  <li>add two Package Filters: 
+  <li>Access the <a href="../../sites/deploying/using/configuring-osgi.md">Web Console</a><br /> for example, <a href="http://localhost:4503/system/console/configMgr">http://localhost:4503/system/console/configMgr</a>.</li> 
+  <li>Locate the <strong>Apache Sling Distribution Packaging - Vault Package Builder Factory<br /> </strong>Builder name: socialpubsync-vlt.</li> 
+  <li>Select the edit icon.</li> 
+  <li>Add two Package Filters: 
    <ul> 
     <li>/home/users|-.*/.tokens</li> 
     <li>/home/users|<strong>+</strong>.*/rep:cache</li> 
    </ul> </li> 
-  <li>policy handling 
+  <li>Policy handling 
    <ul> 
-    <li>to overwrite existing rep:policy nodes with new ones, add a third Package Filter:<br /> /home/users|<strong>+</strong>.*/rep:policy</li> 
+    <li>to overwrite existing rep 
+     <g class="gr_ gr_93 gr-alert gr_gramm gr_inline_cards gr_run_anim Style replaceWithoutSep" data-gr-id="93" id="93">
+       :policy 
+     </g> nodes with new ones, add a third Package Filter:<br /> /home/users|<strong>+</strong>.*/rep:policy</li> 
     <li>to prevent policies from being distributed, set<br /> Acl Handling: IGNORE</li> 
    </ul> </li> 
  </ol> 
+ <img imageRotate="0" src="assets/vault-package-builder-factory.png" /> 
 </details>
 
 ## Troubleshoot Sling distribution in AEM Communities {#troubleshoot-sling-distribution-in-aem-communities}
 
 If Sling distribution fails, try the following debugging steps:
 
-1. **Check for improperly added configurations.** Additional configurations added
-1. **Check configurations**. Ensure that all the [configurations](../../communities/using/sync.md#bestpractices)are appropriately set in your AEM Author instance.
+1. **Check for [improperly added configurations](../../sites/administering/using/sync.md#improperconfig).** Ensure that multiple configurations are not added or edited, instead, the existing default configurations should be edited.
+1. **Check configurations**. Ensure that all the [configurations](../../communities/using/sync.md#bestpractices)are appropriately set in your AEM Author instance, as mentioned in the [Best Practices](../../communities/using/sync.md#main-pars-header-863110628).
 1. **Check authorized user permissions**. If the packages are not installed properly, then check that the [authorized user](../../sites/administering/using/sync.md#createauthuser) created in the first Publish instance has the correct ACLs.
 
    To validate this, instead of the [created authorized user](../../sites/administering/using/sync.md#createauthuser) change the [Adobe Granite Distribution - Encrypted Password Transport Secret Provider](../../sites/administering/using/sync.md#adobegraniteencpasswrd) configuration on Author instance to use Admin user credentials. Now try installing the packages again. If the user sync works fine with administrator credentials, then it means that the created publish user did not have appropriate ACLs.
@@ -388,14 +374,19 @@ If Sling distribution fails, try the following debugging steps:
    To debug:
 
     1. Disable the user synchronization:  
-    1. On AEM Author instance, sign in with administrator privileges.  
+    1. On AEM author instance, sign in with administrator privileges.  
        2. Access the [Web Console](../../sites/deploying/using/configuring-osgi.md). For example, [http://localhost:4502/system/console/configMgr](http://localhost:4502/system/console/configMgr).  
        3. Locate the configuration **Apache Sling Distribution Agent - Sync Agents Factory**.  
-       4. Disable the **Enabled** checkbox.
+       4. Deselect the **Enabled** checkbox.  
+       On disabling the user synchronization on author instance, (exporter and importer) endpoints are disabled and the author instance is static. The ** vlt ** packages are not pinged or fetched by the author.  
+       Now if a user is created on publish instance, the ** vlt  **package is created in */var/sling/distribution/packages/  socialpubsync -  vlt /data* node. And if these packages are pushed by the author to another service. You can download and extract this data to check what all properties are pushed to other services. 
     
-    1. Go to the first publisher, and create a user on the publisher. As a result, events are created. 
-    1. Check the order of logs, created on user creation.
-    1. Check whether a ** vlt  **package is created on **/var/sling/distribution/packages/socialpubsync-vlt/data**.
+    1. Go to a publisher, and create a user on the publisher. As a result, events are created.
+    1. Check the [order of logs](../../communities/using/sync.md#troubleshoot-sling-distribution-in-aem-communities), created on user creation.  
     
-    1.
+    1. Check whether a **vlt **package is created on **/var/sling/distribution/packages/socialpubsync-vlt/data**.
+    
+    1. Now, enable the user synchronization on AEM author instance. 
+    1. On publisher, change the exporter or importer endpoints in **Apache Sling Distribution Agent - Sync Agents Factory**.   
+       We can download and extract package data to check what all properties are pushed to other publishers, and which data is lost.
 

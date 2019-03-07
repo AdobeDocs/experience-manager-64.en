@@ -3,12 +3,12 @@ title: OWASP Top 10
 seo-title: OWASP Top 10
 description: Learn how AEM deals with the top 10 OWASP security risks.
 seo-description: Learn how AEM deals with the top 10 OWASP security risks.
-uuid: f0af3afb-7bc3-4b41-b5fe-b7e59319a43d
+uuid: a0821db8-49e9-41e8-a149-ec798bbbbba7
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
-discoiquuid: 12026190-abc6-4cd8-a5a0-3c9476c20704
+discoiquuid: d95c4d29-39c9-47ba-84a1-e751cf5a390d
 index: y
 internal: n
 snippet: y

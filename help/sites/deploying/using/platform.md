@@ -3,12 +3,12 @@ title: Introduction to the AEM Platform
 seo-title: Introduction to the AEM Platform
 description: This article provides a general overview of the AEM platform and its most important components.
 seo-description: This article provides a general overview of the AEM platform and its most important components.
-uuid: baa3a7e2-b001-4f4b-9145-2efa73d6d2ca
+uuid: 560554f4-be69-4615-9860-274c821d64b1
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
-discoiquuid: 403442b8-9030-44b9-ad19-af438917dbae
+discoiquuid: 7b818719-08dd-4270-ae2c-3b1be91840e4
 legacypath: /content/docs/en/aem/6-0/deploy/upgrade/introduction-to-oak
 index: y
 internal: n

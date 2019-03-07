@@ -3,12 +3,12 @@ title: Tagging
 seo-title: Tagging
 description: Tagging allows content to be categorized and organized
 seo-description: Tagging allows content to be categorized and organized
-uuid: e85df34f-6b7e-4db6-9a6c-712ac38c9749
+uuid: cc2ba100-43e2-49be-af26-0fef6223e17b
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
-discoiquuid: 9a78aeee-3a54-4816-a56a-668854c25789
+discoiquuid: 886185ad-7fa4-4393-b78b-8098aab3cbdc
 index: y
 internal: n
 snippet: y

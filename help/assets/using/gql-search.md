@@ -3,12 +3,12 @@ title: GQL Full-text Search
 seo-title: GQL full-text search
 description: Explore the GQL full-text search feature in AEM Assets. Use it to search for assets based on specific metadata, such as title, description, and author name.
 seo-description: Use the GQL full-text search feature to search for assets based on specific metadata, such as title, description, and author name.
-uuid: 32da76f5-5d1b-499a-a63b-06704571d645
+uuid: 63e2927a-e7b7-4626-94b4-a1cc62abc9e0
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
 topic-tags: authoring
-discoiquuid: 7ef96d80-efa6-4b43-b84b-8efc23d1f71d
+discoiquuid: 88ff6a99-b80a-4bd1-9fbe-b56a40e09eb1
 index: y
 internal: n
 snippet: y

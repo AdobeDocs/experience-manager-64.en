@@ -3,12 +3,12 @@ title: Mitigating serialization issues in AEM
 seo-title: Mitigating serialization issues in AEM
 description: Learn how to mitigate serialization issues in AEM.
 seo-description: Learn how to mitigate serialization issues in AEM.
-uuid: 2905831f-bd63-48da-8fe6-c3fc3dcfcba3
+uuid: 08660d89-5032-4736-96cc-989fc110e0e9
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
-discoiquuid: 1bb7e7aa-35c0-49e3-ace6-80591f6a32a2
+discoiquuid: b8ba2657-8270-4700-9a08-3036f75e53d7
 index: y
 internal: n
 snippet: y

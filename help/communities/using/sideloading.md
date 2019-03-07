@@ -3,12 +3,12 @@ title: Component Sideloading
 seo-title: Component Sideloading
 description: Communities component sideloading is useful when a web page is designed as a simple, single page app that dynamically alters what is displayed depending on what is selected by the site visitor
 seo-description: Communities component sideloading is useful when a web page is designed as a simple, single page app that dynamically alters what is displayed depending on what is selected by the site visitor
-uuid: c2874405-629b-4b2f-981f-c3a84c114fee
+uuid: 48c7dc27-76e5-4c6b-ac43-200356d313dc
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 56e6b5c9-2d8e-46b4-add2-d351291901f9
+discoiquuid: 0ed29d41-1527-47e9-b3c7-9ace479f8a63
 index: y
 internal: n
 snippet: y

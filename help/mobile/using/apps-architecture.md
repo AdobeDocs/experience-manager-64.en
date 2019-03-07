@@ -3,12 +3,12 @@ title: Page Templates for Mobile Apps
 seo-title: Page Templates for Mobile Apps
 description: Follow this page to learn more about page templates. Page components that you create for your app are based on the /libs/mobileapps/components/angular/ng-page component.
 seo-description: Follow this page to learn more about page templates. Page components that you create for your app are based on the /libs/mobileapps/components/angular/ng-page component.
-uuid: 1a90f7a8-d39b-4a57-9aa7-5d166a1460bb
+uuid: a768ee66-010a-435b-be0f-91e4aa82e4d5
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: developing-on-demand-services-app
-discoiquuid: 5ec61de7-b355-407c-8064-3969d6d163f7
+discoiquuid: 882cd7eb-f0b2-4379-992c-a5f76a8e7ee2
 index: y
 internal: n
 snippet: y

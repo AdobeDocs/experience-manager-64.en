@@ -3,11 +3,11 @@ title: Using AEM Document Services Programmatically
 seo-title: Using AEM Document Services Programmatically
 description: Learn how to use Document Services APIs to Digitally sign, encrypt, and generate PDF documents.
 seo-description: Learn how to use Document Services APIs to Digitally sign, encrypt, and generate PDF documents.
-uuid: 2044a61e-9c54-40c5-bc04-fee0eb311067
+uuid: 2ac2bf73-d0e1-4c38-b31b-acd830786654
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: document_services
-discoiquuid: 8e191f42-d656-4fe2-b07f-0620917d3ce2
+discoiquuid: 510569c6-b725-4761-b6a1-8cabd6dfe138
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Community Groups Console
 seo-title: Community Groups Console
 description: Groups console lets you create Community groups
 seo-description: Groups console lets you create Community groups
-uuid: 2e8a72c8-f7cd-4f8e-95f5-1468e670440a
+uuid: 55792521-35e0-4de6-b0ea-65d26a4d292a
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 6d8026b3-0951-43e3-81e2-10959bf946c4
+discoiquuid: 42137f2d-c751-41fa-a5f7-643a8f745672
 pagetitle: Community Groups Console
 index: y
 internal: n

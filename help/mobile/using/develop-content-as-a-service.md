@@ -3,11 +3,11 @@ title: Content Delivery
 seo-title: Content Delivery
 description: null
 seo-description: null
-uuid: 23449f94-55e6-465f-b61b-2eb2356d4352
+uuid: 46b70e85-e0ab-47c9-af2e-aaa219e301c3
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
-discoiquuid: 273d019d-39e7-4536-a41a-faa340b6baeb
+discoiquuid: 076f962c-3e5d-4aca-bec9-50a437f29216
 index: y
 internal: n
 snippet: y

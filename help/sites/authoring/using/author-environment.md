@@ -3,12 +3,12 @@ title: Working with the Author Environment
 seo-title: Working with the Author Environment
 description: Get to know the author environment and how classic UI and the modern UI are different.
 seo-description: Get to know the author environment and how classic UI and the modern UI are different.
-uuid: 752017c6-c1fa-42c9-98a7-1a1285245014
+uuid: 791c748c-26a3-4991-a39d-27b66454dc5f
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
-discoiquuid: 9c297dc9-c391-4728-8c9e-48ba672eb7b8
+discoiquuid: ba9f8d79-d49a-4601-b0a4-668b8c2e8f5c
 index: y
 internal: n
 snippet: y
@@ -49,5 +49,5 @@ Two graphical user interfaces are provided to achieve this. These are accessible
     * It was designed for use on desktop devices.
     * The following documentation focuses on the modern UI. For information about authoring in the classic UI, see the [Authoring documentation for the Classic UI](../../../sites/classic-ui-authoring/using/classicui.md).
 
-   ![](assets/chlimage_1-261.png)
+   ![](assets/chlimage_1-232.png)
 

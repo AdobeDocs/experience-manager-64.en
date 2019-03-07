@@ -3,12 +3,12 @@ title: Creating and Organizing Pages
 seo-title: Creating and Organizing Pages
 description: This section describes how to create and manage pages with AEM so that you can then create content on those pages.
 seo-description: This section describes how to create and manage pages with AEM so that you can then create content on those pages.
-uuid: 91c0da41-ed90-4fbb-ba2f-3b104d896576
+uuid: 28c11765-e1bf-4167-b401-2c61ab292541
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: 3a27998f-efe2-489f-8211-19035c2fb0a9
+discoiquuid: c9a46648-c7bf-4085-aa98-856a516100be
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Embedding the Video or Image Viewer on a Web Page
 seo-title: Embedding the Video or Image Viewer on a Web Page
 description: Learn how to embed dynamic media video or images on a web page
 seo-description: Learn how to embed dynamic media video or images on a web page
-uuid: a297144c-90e8-4dee-a529-ca4f7de42839
+uuid: 83b06e84-e5d3-41ea-ad9a-a3b3e5c53769
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: 0105ee12-ddee-4b8b-b2b3-5f961eb5b595
+discoiquuid: 4b99eb86-de26-46d6-bfeb-5e763503da5a
 index: y
 internal: n
 snippet: y

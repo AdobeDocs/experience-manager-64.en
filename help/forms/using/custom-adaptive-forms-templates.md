@@ -3,11 +3,11 @@ title: Creating a custom adaptive form template
 seo-title: Creating a custom adaptive form template
 description: This article describes how to create custom adaptive form templates.
 seo-description: This article describes how to create custom adaptive form templates.
-uuid: 244d1325-9f33-4494-b58c-2e8b14d25ddb
+uuid: fcd11914-182b-440a-80a9-7445f3d79030
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: customization
-discoiquuid: 49f76f32-6910-4401-8f4d-5f5f3a42289d
+discoiquuid: 4117eb4f-a114-4af1-9082-e15332560eee
 index: y
 internal: n
 snippet: y
@@ -31,10 +31,8 @@ Once you create a form, any changes to the original template content structure a
 
 AEM QuickStart provides the following adaptive form templates:
 
-* Survey template: Lets you create a single page adaptive form using the Responsive layout that has multiple columns configured. The layout automatically adjusts based on the dimensions of the various screens on which you want to display the form.
-* Simple Enrollment template: Lets you create a multi-step adaptive form using a wizard layout. In this layout, you can specify a step completion expression for each step, which is validated before the wizard proceeds to the next step.
-* Tabbed Enrollment template: Lets you create a multi-tab adaptive form using a tabs-on-left layout, where you can visit tabs in any random order.
-* Advanced Enrollment template: Lets you create a form with mulitple tabs and wizard. It uses a tabs-on-left layout that lets you visit tabs in any order. It uses Adobe Document Cloud esign services for signing and verification.  
+* Basic: Lets you create a multi-tab adaptive form using a tabs-on-left layout, where you can visit tabs in any random order.
+* Basic wiith Adobe Sign: Lets you create a form with mulitple tabs and wizard. It uses a tabs-on-left layout that lets you visit tabs in any order. It uses Adobe Document Cloud esign services for signing and verification.  
 * Blank Template: Lets you create a form without any header, footer, and initial content. You can add components such as text boxes, buttons, and images. The blank template lets you create a form that you can [embed in AEM Site pages](../../forms/using/embed-adaptive-form-aem-sites.md).
 
 These templates have the `sling:resourceType` property set to the corresponding page component. The page component renders the CQ page, containing adaptive form container, which in turn renders adaptive form.

@@ -3,12 +3,12 @@ title: Developing Reports
 seo-title: Developing Reports
 description: AEM provides a selection of standard reports based on a reporting framework
 seo-description: AEM provides a selection of standard reports based on a reporting framework
-uuid: bda07777-86c8-401c-ae56-53396f4d3220
+uuid: 9acc503c-8917-48a1-9a9f-8d18c5a30345
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
-discoiquuid: 39a6b767-4d5e-4c79-95d5-d86c5f14de13
+discoiquuid: fe8c9357-5dc2-4d84-9585-3aa185b091d9
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: How to edit or add metadata
 seo-title: How to edit or add metadata
 description: Learn about asset metadata in AEM Assets an various ways by which you can edit asset metadata.
 seo-description: Learn about asset metadata in AEM Assets an various ways by which you can edit asset metadata.
-uuid: 0c12cc68-aa9b-4e52-8c03-c3915057cd0d
+uuid: b30292da-3666-4ecc-9938-ca420de41fbc
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: 5567f61d-de89-45ae-ba51-db966f5c32ca
+discoiquuid: 0ed2ddd9-9b7f-4d7c-8a6e-5253e70b5700
 index: y
 internal: n
 snippet: y
@@ -30,11 +30,11 @@ To edit metadata:
     * From the asset thumbnail, select the View Properties quick action.
     * From the asset page, click/tap the View Properties icon from the toolbar.
 
-   ![](assets/chlimage_1-173.png)
+   ![](assets/chlimage_1-168.png)
 
    The asset page displays all of the asset's metadata. This metadata was automatically extracted when it was uploaded (ingested) into AEM Assets.
 
-   ![](assets/chlimage_1-174.png)
+   ![](assets/chlimage_1-169.png)
 
 1. Make edits to the metadata under the various tabs, as required, and when completed, click/tap **Save** from the toolbar to save your changes. Click/tap **Close** to return to the Assets UI.
 

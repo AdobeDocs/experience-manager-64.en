@@ -3,10 +3,10 @@ title: Smart Content Service Release Notes
 seo-title: Smart Content Service Release Notes
 description: Overview of the Smart Content Service and known issues around the service.
 seo-description: Overview of the Smart Content Service and known issues around the service.
-uuid: 8abc10cc-97ba-48c8-b50d-f37498294a99
+uuid: 3828cc67-9adf-4bc8-85eb-4bdeb154aa09
 content-type: reference
 products: SG_EXPERIENCEMANAGER
-discoiquuid: 6cef15c9-93a6-4f73-8dfb-d5c22f86bc8e
+discoiquuid: 54b694d9-0e81-466e-b968-611e63177dfe
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Tough Day
 seo-title: Tough Day
 description: The Tough Day test simulates the daily load of around 1000 authors in a worst-case scenario with all the operations going on at the same time.
 seo-description: The Tough Day test simulates the daily load of around 1000 authors in a worst-case scenario with all the operations going on at the same time.
-uuid: 3fd3f735-ebe6-490f-8ce8-7841216c3f98
+uuid: 9b673a56-1bbd-4544-9223-db7e97245144
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: testing
 content-type: reference
-discoiquuid: 7381fca1-c324-458a-8f61-31cf904259b1
+discoiquuid: 64651726-29c4-4459-88c9-9884439d67c6
 index: y
 internal: n
 snippet: y

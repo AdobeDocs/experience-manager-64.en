@@ -3,12 +3,12 @@ title: Out of the Box App Handlers
 seo-title: Out of the Box App Handlers
 description: Follow this page to learn about the out-of-the-box handlers for Adobe PhoneGap Enterprise with AEM.
 seo-description: Follow this page to learn about the out-of-the-box handlers for Adobe PhoneGap Enterprise with AEM.
-uuid: 1d474d3a-a2f6-4806-b80d-2f209c0250cd
+uuid: ace3197e-6602-46d3-868d-27d1b79cabc6
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: developing-adobe-phonegap-enterprise
-discoiquuid: 45e06a9c-c2fd-4fc0-9f13-4f329b58988b
+discoiquuid: b5abd525-c172-4095-8a44-549a09f5598a
 index: y
 internal: n
 snippet: y

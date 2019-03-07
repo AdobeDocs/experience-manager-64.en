@@ -3,12 +3,12 @@ title: Trying out the Globalized Site Structure in We.Retail
 seo-title: Trying out the Globalized Site Structure in We.Retail
 description: null
 seo-description: null
-uuid: db953f8d-6b26-44f2-b2b0-4e7094281526
+uuid: 1cd133a3-e25d-48c2-b6ca-b198a25137f7
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
-discoiquuid: 27765357-b70c-4516-a1dc-a775340c3087
+discoiquuid: 50326ea8-6182-4e0c-b8a7-fbb0a303cbd5
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Customizing and Extending Content Fragments
 seo-title: Customizing and Extending Content Fragments
 description: A content fragment extends a standard asset.
 seo-description: A content fragment extends a standard asset.
-uuid: d9dedc2e-06e3-4794-bb8d-2aae86f23d7a
+uuid: 37eed50b-6886-4cdc-9874-cda644b127ed
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
-discoiquuid: 794e532a-5214-4311-b863-ea9a313682ab
+discoiquuid: 0308d2b4-9ca5-45e8-b749-5e36a52b74f1
 index: y
 internal: n
 snippet: y
