@@ -3,12 +3,15 @@ title: Communities Components Basics
 seo-title: Communities Components Basics
 description: Add Communities features to AEM sites in edit mode and configure components
 seo-description: Add Communities features to AEM sites in edit mode and configure components
-uuid: fb96ef35-acff-4278-8d11-697b439200ac
+uuid: 69cdc8a2-661c-4c18-966d-ee50d72fd2f1
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
-discoiquuid: 0e2250ab-2b50-4b1d-bbee-bbe67c6ce28b
+discoiquuid: ad0667ae-dd27-4629-855f-4212db1ebb26
+index: y
+internal: n
+snippet: y
 ---
 
 # Communities Components Basics{#communities-components-basics}

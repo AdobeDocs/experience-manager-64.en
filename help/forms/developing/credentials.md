@@ -3,12 +3,15 @@ title: Working with Credentials
 seo-title: Working with Credentials
 description: null
 seo-description: null
-uuid: 1e32ea15-d0ad-4e91-9e60-ee561eaea334
+uuid: 3efe38b2-8505-421f-8e89-8dd0cb4e9d34
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: 2abba576-ecae-43da-87de-da80ce373166
+discoiquuid: 8e259b40-8ed0-4fab-bf0b-93c8b9bb58ab
+index: y
+internal: n
+snippet: y
 ---
 
 # Working with Credentials{#working-with-credentials}

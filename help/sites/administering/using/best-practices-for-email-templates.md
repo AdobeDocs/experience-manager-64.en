@@ -3,13 +3,16 @@ title: Best Practices for Email Templates
 seo-title: Best Practices for Email Templates
 description: Find best practices on creating email templates in AEM.
 seo-description: Find best practices on creating email templates in AEM.
-uuid: 42d539a6-a050-4fd3-b38f-532d01f61496
+uuid: 362501df-40e2-4f85-9c97-eded3ba60cde
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 topic-tags: best-practices
-discoiquuid: ea9828c2-e1e8-40db-b5e6-29fe5ddaa133
+discoiquuid: 6daac2c3-77d6-4f53-a125-ff728a278cbc
+index: y
+internal: n
+snippet: y
 ---
 
 # Best Practices for Email Templates{#best-practices-for-email-templates}

@@ -3,12 +3,15 @@ title: Mitigating serialization issues in AEM
 seo-title: Mitigating serialization issues in AEM
 description: Learn how to mitigate serialization issues in AEM.
 seo-description: Learn how to mitigate serialization issues in AEM.
-uuid: 5e73a582-c656-4431-8135-5ff39da8dd26
+uuid: 2905831f-bd63-48da-8fe6-c3fc3dcfcba3
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
-discoiquuid: ef289862-79f6-4a37-bdbf-8bbaf7720e4e
+discoiquuid: 1bb7e7aa-35c0-49e3-ace6-80591f6a32a2
+index: y
+internal: n
+snippet: y
 ---
 
 # Mitigating serialization issues in AEM{#mitigating-serialization-issues-in-aem}
@@ -105,7 +108,7 @@ You can verify the deserialization agent's configuration by browsing to the URL 
 
 Once you access the URL, a list of health checks related to the agent will be displayed. You can determine if the agent is properly activated by verifying that the health checks are passing. If they are failing, you may need to load the agent manually.
 
-For more information on troubleshooting issues with the agent, see [Handling Errors With Dynamic Agent Loading](#main-pars-title-1104713798) below.
+For more information on troubleshooting issues with the agent, see [Handling Errors With Dynamic Agent Loading](#handling-errors-with-dynamic-agent-loading) below.
 
 >[!NOTE]
 >

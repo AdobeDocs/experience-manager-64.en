@@ -3,12 +3,15 @@ title: Performance Optimization
 seo-title: Performance Optimization
 description: Learn how to configure certain aspects of AEM to optimize performance.
 seo-description: Learn how to configure certain aspects of AEM to optimize performance.
-uuid: e480ad02-a587-480b-85b2-3514326b75b9
+uuid: 6f6c45fb-7393-46ec-b14c-0336721262ea
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: configuring
-discoiquuid: dd6e759d-b244-48e0-bb01-88e42100c20d
+discoiquuid: 69885324-d085-4854-92f7-055c243af36d
+index: y
+internal: n
+snippet: y
 ---
 
 # Performance Optimization{#performance-optimization}
@@ -509,7 +512,7 @@ The formula to calculate the cache ratio is:
 
 * (The total number of requests **minus** the number of requests on Publish) **divided** by the total number of requests.
 
-For example, if the total number of requests is 129491 and the number of requests served by the Publish instance is 58959 the cache ratio is:** (129491 - 58959)/129491= 54.5%**.
+For example, if the total number of requests is 129491 and the number of requests served by the Publish instance is 58959 the cache ratio is: **(129491 - 58959)/129491= 54.5%**.
 
 If you don't have a one to one publisher/dispatcher pairing, you will need to add requests from all dispatchers and publishers together to get an accurate measurement. See also [Recommended Deployments](../../../sites/deploying/using/recommended-deploys.md).
 

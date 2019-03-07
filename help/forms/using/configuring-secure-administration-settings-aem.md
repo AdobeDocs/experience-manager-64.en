@@ -3,11 +3,14 @@ title: Configuring Secure Administration Settings for AEM Forms on JEE
 seo-title: Configuring Secure Administration Settings for AEM Forms on JEE
 description: Learn how to administer user accounts and services that, although required in a private development environment, are not required in a production environment of AEM Forms on JEE.
 seo-description: Learn how to administer user accounts and services that, although required in a private development environment, are not required in a production environment of AEM Forms on JEE.
-uuid: dc335bf0-5e36-49e8-b539-d3b00b15fdd8
+uuid: 86a3679e-98e0-48bf-a046-12e1a2d1d646
 content-type: reference
 topic-tags: Security
 products: SG_EXPERIENCEMANAGER/6.4
-discoiquuid: 940fbecf-a000-41d3-bb19-f64f536b82ba
+discoiquuid: e3516699-79ad-436a-944b-b630ce453ea6
+index: y
+internal: n
+snippet: y
 ---
 
 # Configuring Secure Administration Settings for AEM Forms on JEE{#configuring-secure-administration-settings-for-aem-forms-on-jee}
@@ -71,7 +74,7 @@ Some forms server services permit unauthenticated (anonymous) invocation for som
 
 1. Click **Services &gt; Applications and Services &gt; Service Management**.
 1. Click the name of the service that you want to disable (for example, AuthenticationManagerService).
-1. Click the **Security** tab, deselect **Anonymous Access Allowed**, and click **Save**.
+1. Click the **Security **tab,****deselect** Anonymous Access Allowed**,**** and click **Save**.
 1. Complete steps 3 and 4 for the following services:
 
     * AuthenticationManagerService

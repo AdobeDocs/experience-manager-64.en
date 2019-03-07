@@ -3,12 +3,15 @@ title: Managing Audiences
 seo-title: Managing Audiences
 description: The Audiences console enables you to create, organize, and manage audiences for your Adobe Target account or manage segments for ContextHub or Client Context
 seo-description: The Audiences console enables you to create, organize, and manage audiences for your Adobe Target account or manage segments for ContextHub or Client Context
-uuid: cda623fd-3de8-4204-9839-ca35b69bb807
+uuid: bf1f50e6-f602-4430-89fa-9e996a3b71a5
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: personalization
-discoiquuid: ef37e847-8f7c-4a0b-bf71-4357c2a778af
+discoiquuid: 46e45ab5-e054-4576-9ed7-144a9bcc30df
+index: y
+internal: n
+snippet: y
 ---
 
 # Managing Audiences{#managing-audiences}

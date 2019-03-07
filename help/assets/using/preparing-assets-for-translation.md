@@ -3,12 +3,15 @@ title: Preparing Assets for Translation
 seo-title: Preparing Assets for Translation
 description: Create language root folders to prepare for translating multilingual assets.
 seo-description: Create language root folders to prepare for translating multilingual assets.
-uuid: 4ddf1487-738b-44ee-9551-5e857fa0b79d
+uuid: f2c8a013-1d9c-43ff-997b-f9bf6b527314
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference
-discoiquuid: 9c875777-5c08-4d16-8eba-cbf3151a5560
+discoiquuid: 41d44fdb-48b8-4725-80ae-c948c279c8cb
+index: y
+internal: n
+snippet: y
 ---
 
 # Preparing Assets for Translation{#preparing-assets-for-translation}

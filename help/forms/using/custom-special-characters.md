@@ -3,11 +3,14 @@ title: Custom special characters in Correspondence Management
 seo-title: Custom special characters in Correspondence Management
 description: Learn how to add custom special characters in Correspondence Management.
 seo-description: Learn how to add custom special characters in Correspondence Management.
-uuid: 557830f2-385a-4581-8070-cd8cf6c2a039
+uuid: ec8fcd5f-800c-4db3-95f9-380abd9130bc
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
-discoiquuid: 0b87de9a-ea99-4fea-944b-59f82180eb51
+discoiquuid: cac863b2-00f5-4c04-bb70-6714945067c5
+index: y
+internal: n
+snippet: y
 ---
 
 # Custom special characters in Correspondence Management{#custom-special-characters-in-correspondence-management}
@@ -73,7 +76,7 @@ Use the following steps to add support for custom special characters:
    | cmConfigurationType |String |cmTextEditorConfiguration |
    | cssPath |String |/libs/fd/cm/ma/gui/components/admin/createasset/textcontrol/clientlibs/textcontrol |
 
-1. Right-click the **[!UICONTROL specialcharacters]** folder at the following path and select **Create** &gt; **Child Node** and then click **Save All**:
+1. Right-click the ****[!UICONTROL specialcharacters]**** folder at the following path and select **Create &gt; Child Node **and then click **Save All**:
 
    /apps/fd/cm/ma/gui/configuration/textEditorConfig/specialcharacters/&lt;YourChildNode&gt;
 

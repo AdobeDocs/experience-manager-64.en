@@ -3,12 +3,15 @@ title: Encrypting and Decrypting PDF Documents
 seo-title: Encrypting and Decrypting PDF Documents
 description: null
 seo-description: null
-uuid: 37cfa7c0-77c6-4b68-b523-edde5fe4bbc5
+uuid: 4bf9afea-0353-45d9-b5a8-6aba32e7ffb8
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: 5cfa851a-6507-4fc8-bb48-7846c62a75af
+discoiquuid: 3682a6c9-3c8f-46ca-8cf8-cf12c1e00ad1
+index: y
+internal: n
+snippet: y
 ---
 
 # Encrypting and Decrypting PDF Documents{#encrypting-and-decrypting-pdf-documents}

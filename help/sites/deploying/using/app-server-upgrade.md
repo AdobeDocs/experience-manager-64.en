@@ -3,12 +3,15 @@ title: Upgrade Steps for Application Server Installations
 seo-title: Upgrade Steps for Application Server Installations
 description: Learn how to upgrade instances of AEM that are deployed via Application Servers.
 seo-description: Learn how to upgrade instances of AEM that are deployed via Application Servers.
-uuid: e7fec763-d1ef-4f88-9a89-69d4e71f731d
+uuid: c6d249dd-db2b-410e-96b6-b1829e943054
 contentOwner: sarchiz
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: upgrading
 content-type: reference
-discoiquuid: 76705da7-eefb-4f54-b573-f050074f6c3e
+discoiquuid: 909afdd9-945d-44d1-adc0-e5b972e3eb50
+index: y
+internal: n
+snippet: y
 ---
 
 # Upgrade Steps for Application Server Installations{#upgrade-steps-for-application-server-installations}

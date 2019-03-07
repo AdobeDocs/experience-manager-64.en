@@ -3,12 +3,15 @@ title: Custom Node Types
 seo-title: Custom Node Types
 description: AEM is based on Sling and uses a JCR repository with node types offered by both, but AEM also provides a range of custom node types
 seo-description: AEM is based on Sling and uses a JCR repository with node types offered by both, but AEM also provides a range of custom node types
-uuid: 7df32832-28c1-4e27-b09d-822d22d66ee7
+uuid: b5da690d-171c-458a-ad7e-6f59aca957e4
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
-discoiquuid: d00ddfe4-8990-460f-ab71-5340f6cc2277
+discoiquuid: 85e05469-313f-4ed3-a4d4-b99a37117706
+index: y
+internal: n
+snippet: y
 ---
 
 # Custom Node Types{#custom-node-types}

@@ -3,12 +3,15 @@ title: Creating a Video Padding Workflow
 seo-title: Creating a Video Padding Workflow
 description: Follow this page to learn about creating a video padding in the workflow for your assets.
 seo-description: Follow this page to learn about creating a video padding in the workflow for your assets.
-uuid: cf65cedc-1e23-44bf-a00b-2f9c07e91397
+uuid: c172f043-f2fa-474d-b285-60a1c5d07554
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: authoring
 content-type: reference
-discoiquuid: b69d60e0-3afe-4207-ad9a-4630da8edbe6
+discoiquuid: 1d51d5a4-5789-486d-985f-60d67524fa90
+index: y
+internal: n
+snippet: y
 ---
 
 # Creating a Video Padding Workflow{#creating-a-video-padding-workflow}

@@ -3,12 +3,15 @@ title: Tag Libraries
 seo-title: Tag Libraries
 description: The Granite, CQ, and Sling tag libraries give you access to specific functions for use in the JSP script of your templates and components
 seo-description: The Granite, CQ, and Sling tag libraries give you access to specific functions for use in the JSP script of your templates and components
-uuid: 2e9e45eb-62e6-477a-8e28-1cc0a37808f3
+uuid: 5a3efe58-b69c-47e4-adcc-6022459b9cfa
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
-discoiquuid: e0f1fa09-3890-4b99-b74f-e8dfbd619890
+discoiquuid: f10e72a5-9d1b-469e-9d0f-78475cf888c7
+index: y
+internal: n
+snippet: y
 ---
 
 # Tag Libraries{#tag-libraries}
@@ -206,7 +209,7 @@ It has the following attributes:
 
 **flush**
 
-* A boolean defining whether to flush the output before including the target.
+* A boolean defining whether to flush the output before including the target.****
 
 **path**
 
@@ -216,11 +219,11 @@ It has the following attributes:
 
 * The resource type of the resource to be included. If the resource type is set, the path must be the exact path to a resource object: in this case, adding parameters, selectors and extensions to the path is not supported.
 * If the resource to be included is specified with the path attribute that cannot be resolved to a resource, the tag may create a synthetic resource object out of the path and this resource type.
-* Either path and resourceType, or script must be specified.
+* Either path and resourceType, or script must be specified.****
 
 **script**
 
-* The jsp script to include. Either path and resourceType, or script must be specified.
+* The jsp script to include. Either path and resourceType, or script must be specified.****
 
 **ignoreComponentHierarchy**
 
@@ -314,7 +317,7 @@ The `<cq:defineObjects>` tag exposes the following, regularly used, scripting ob
 
 **currentStyle**
 
-* the current style object of the current cell (com.day.cq.wcm.api.designer.Style interface).
+* the current style object of the current cell (com.day.cq.wcm.api.designer.Style interface).****
 
 **designer**
 
@@ -322,15 +325,15 @@ The `<cq:defineObjects>` tag exposes the following, regularly used, scripting ob
 
 **editContext**
 
-* the edit context object of the AEM component (com.day.cq.wcm.api.components.EditContext interface).
+* the edit context object of the AEM component (com.day.cq.wcm.api.components.EditContext interface).****
 
 **pageManager**
 
-* the page manager object for page level operations (com.day.cq.wcm.api.PageManager interface).
+* the page manager object for page level operations (com.day.cq.wcm.api.PageManager interface).****
 
 **pageProperties**
 
-* the page properties object of the current page (org.apache.sling.api.resource.ValueMap).
+* the page properties object of the current page (org.apache.sling.api.resource.ValueMap).****
 
 **properties**
 
@@ -351,11 +354,11 @@ The `<cq:defineObjects>` tag exposes the following, regularly used, scripting ob
 
 **responseName**
 
-* inherited from sling
+* inherited from sling****
 
 **resourceName**
 
-* inherited from sling
+* inherited from sling****
 
 **nodeName**
 
@@ -363,7 +366,7 @@ The `<cq:defineObjects>` tag exposes the following, regularly used, scripting ob
 
 **logName**
 
-* inherited from sling
+* inherited from sling****
 
 **resourceResolverName**
 
@@ -379,7 +382,7 @@ The `<cq:defineObjects>` tag exposes the following, regularly used, scripting ob
 
 **editContextName**
 
-* specific to wcm
+* specific to wcm****
 
 **propertiesName**
 
@@ -387,7 +390,7 @@ The `<cq:defineObjects>` tag exposes the following, regularly used, scripting ob
 
 **pageManagerName**
 
-* specific to wcm
+* specific to wcm****
 
 **currentPageName**
 
@@ -411,11 +414,11 @@ The `<cq:defineObjects>` tag exposes the following, regularly used, scripting ob
 
 **currentDesignName**
 
-* specific to wcm
+* specific to wcm****
 
 **resourceDesignName**
 
-* specific to wcm
+* specific to wcm****
 
 **currentStyleName**
 
@@ -583,7 +586,7 @@ The `<sling:defineObjects>` tag exposes the following, regularly used, scripting
 
 * SlingHttpServletResponse object, providing access for the HTTP response that is created by the server. This is currently the same as the HttpServletResponse from which it extends.**request**
 * The standard JSP request object which is a pure HttpServletRequest.**response**
-* The standard JSP response object which is a pure HttpServletResponse.
+* The standard JSP response object which is a pure HttpServletResponse.****
 
 **resourceResolver**
 
@@ -591,7 +594,7 @@ The `<sling:defineObjects>` tag exposes the following, regularly used, scripting
 
 .**sling**
 
-* A SlingScriptHelper object, containing convenience methods for scripts, mainly sling.include('/some/other/resource') for including the responses of other resources inside this response (eg. embedding header html snippets) and sling.getService(foo.bar.Service.class) to retrieve OSGi services available in Sling (Class notation depending on scripting language).
+* A SlingScriptHelper object, containing convenience methods for scripts, mainly sling.include('/some/other/resource') for including the responses of other resources inside this response (eg. embedding header html snippets) and sling.getService(foo.bar.Service.class) to retrieve OSGi services available in Sling (Class notation depending on scripting language).****
 
 **resource**
 

@@ -3,12 +3,15 @@ title: Administering generic eCommerce
 seo-title: Administering generic eCommerce
 description: The AEM generic solution provides methods of managing the commerce information held within the repository.
 seo-description: The AEM generic solution provides methods of managing the commerce information held within the repository.
-uuid: 1ed11b21-bafa-498a-ad13-7491ebfe9f9f
+uuid: d941b9b1-32ec-44e5-b210-3fbc21fa9d02
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: e-commerce
 content-type: reference
-discoiquuid: efdb866d-401a-403d-8ec6-72270c687454
+discoiquuid: 28b68845-a77a-4375-885f-c0c231b1d439
+index: y
+internal: n
+snippet: y
 ---
 
 # Administering generic eCommerce{#administering-generic-ecommerce}
@@ -268,7 +271,7 @@ Two assets are now stored in your product component. You can configure which one
 Now your assets in the product component have a category. You can configure which category will be displayed at three different levels:
 
 * [Product Page](#productpage)
-* [Catalog](#main-pars-title-29)
+* [Catalog](#catalog)
 * [Products Console](#productsconsole)
 
 >[!NOTE]
@@ -655,7 +658,7 @@ In the demo site (Geometrixx Outdoors - English) you can see the voucher form on
 
    ![](do-not-localize/chlimage_1-26.png)
 
-1. The wizard will open. Use the **Basic**, **Content**, **Payment** and **Fulfilment** tabs to enter the [information about the new order](../../../sites/administering/using/concepts.md#orderinformation).  
+1. The wizard will open. Use the **Basic**, **Content**, **Payment** and **Fulfilment** tabs**** to enter the [information about the new order](../../../sites/administering/using/concepts.md#orderinformation).  
 
 1. Select **Create** to save the information.
 

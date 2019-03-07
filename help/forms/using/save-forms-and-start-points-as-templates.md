@@ -3,12 +3,15 @@ title: Save forms as templates
 seo-title: Save forms as templates
 description: Learn how to create templates from forms with data required repeatedly. 
 seo-description: Learn how to create templates from forms with data required repeatedly. 
-uuid: 14f8b4ec-fdd6-4f28-b312-1097ce067041
+uuid: dec2b657-ad7b-4978-8dbf-69211dba9cc8
 contentOwner: khsingh
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
-discoiquuid: 6182c0c1-8c20-4ba6-84ac-bba7ba6ee360
+discoiquuid: f9336a3f-e470-49ee-b9fd-1856abd03efa
+index: y
+internal: n
+snippet: y
 ---
 
 # Save forms as templates{#save-forms-as-templates}

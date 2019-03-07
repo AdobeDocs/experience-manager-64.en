@@ -3,12 +3,15 @@ title: Configuring fallback fonts
 seo-title: Configuring fallback fonts
 description: Learn how to configure fallback fonts.
 seo-description: Learn how to configure fallback fonts.
-uuid: 8329a71d-024b-41ff-b2e1-0cc76efefc6e
+uuid: 64350bcb-5551-41ac-9344-418bb6e32fd1
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_pdf_generator
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 1af9ea40-fa8e-4d14-adc8-93761f4b828d
+discoiquuid: 29b86aaf-ef80-495a-bfd1-da673edde740
+index: y
+internal: n
+snippet: y
 ---
 
 # Configuring fallback fonts{#configuring-fallback-fonts}

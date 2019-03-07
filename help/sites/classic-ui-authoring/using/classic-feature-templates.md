@@ -3,12 +3,15 @@ title: Creating Page Templates
 seo-title: Creating Page Templates
 description: The template defines the structure of the resultant page, any initial content and the components that can be used (design properties).
 seo-description: The template defines the structure of the resultant page, any initial content and the components that can be used (design properties).
-uuid: 9d614a60-cf64-4a58-bfdd-9bc9f9412e82
+uuid: 853aec7d-3cd6-4239-b5f8-ede1f3ba7d09
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
-discoiquuid: cf654b36-a60c-420c-a12e-312452e8a48a
+discoiquuid: 70a0017e-7138-4c92-bbdd-37d12151bb20
+index: y
+internal: n
+snippet: y
 ---
 
 # Creating Page Templates{#creating-page-templates}

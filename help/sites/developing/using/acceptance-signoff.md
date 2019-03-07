@@ -3,12 +3,15 @@ title: Acceptance and Sign-off
 seo-title: Acceptance and Sign-off
 description: Acceptance Tests are a special category of test used to verify that the project fulfils the customer's requirements and that the customer accepts the project
 seo-description: Acceptance Tests are a special category of test used to verify that the project fulfils the customer's requirements and that the customer accepts the project
-uuid: 84d37c93-4a34-49f8-a63b-76d08292cd37
+uuid: ce5cc1af-b054-47d9-939e-70cb54bcb7e5
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: testing
 content-type: reference
-discoiquuid: eb2dd7f2-6d36-4eb1-9c03-96e4d6efb09d
+discoiquuid: 4e7593be-7e1e-4eb5-8e52-efbfcd2aa942
+index: y
+internal: n
+snippet: y
 ---
 
 # Acceptance and Sign-off{#acceptance-and-sign-off}

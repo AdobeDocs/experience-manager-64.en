@@ -3,12 +3,15 @@ title: Backup and Restore Service APIQuick Starts
 seo-title: Backup and Restore Service APIQuick Starts
 description: null
 seo-description: null
-uuid: 0c361cff-1812-4bc7-92df-63ff6e631eb9
+uuid: c7746a63-b57c-4011-9af1-84ed162991c4
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
-discoiquuid: 1b484f8e-bb87-4065-870c-ee8a9e08a568
+discoiquuid: 7b181fa1-664e-41ed-bf29-29898d609c2a
+index: y
+internal: n
+snippet: y
 ---
 
 # Backup and Restore Service APIQuick Starts{#backup-and-restore-service-apiquick-starts}

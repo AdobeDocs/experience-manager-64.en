@@ -3,12 +3,15 @@ title: Connecting to Microsoft Translator
 seo-title: Connecting to Microsoft Translator
 description: Learn how to connect AEM to Microsoft Translator.
 seo-description: Learn how to connect AEM to Microsoft Translator.
-uuid: c56b66a1-03f6-423c-83f8-b0828fce3adc
+uuid: aa127f25-711c-4f37-b939-e88b97eab873
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features
 content-type: reference
-discoiquuid: 4a193e7b-8a63-4b32-94fa-7c4e0ffe55fa
+discoiquuid: 8f22c042-4282-42b0-a4fe-f8b2c67c128a
+index: y
+internal: n
+snippet: y
 ---
 
 # Connecting to Microsoft Translator{#connecting-to-microsoft-translator}

@@ -3,12 +3,15 @@ title: Preparing Content for Translation
 seo-title: Preparing Content for Translation
 description: Learn how to prepare content for translation.
 seo-description: Learn how to prepare content for translation.
-uuid: fa8a3a4d-c7d7-4ead-9d95-640314d5f1d6
+uuid: 63de6cca-71bf-437c-bdc5-9fafc9b6b18a
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features
 content-type: reference
-discoiquuid: d8fb1697-0891-4c23-9ba7-6ba32db6968e
+discoiquuid: f57ce5d5-cc64-4a63-9a66-bb1dc61d4227
+index: y
+internal: n
+snippet: y
 ---
 
 # Preparing Content for Translation{#preparing-content-for-translation}

@@ -3,12 +3,15 @@ title: Converting Postscript to PDF Documents
 seo-title: Converting Postscript to PDF Documents
 description: null
 seo-description: null
-uuid: ce37f466-3c59-4a0a-8933-d6057ab84b6f
+uuid: 85e94294-27e0-4c71-8465-fb002ab48fbf
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: 3824ef77-a0f8-4cb8-bf0e-ba973dd4f4b5
+discoiquuid: 95752fae-bd6d-47cd-b045-2175c79d182f
+index: y
+internal: n
+snippet: y
 ---
 
 # Converting Postscript to PDF Documents{#converting-postscript-to-pdf-documents}

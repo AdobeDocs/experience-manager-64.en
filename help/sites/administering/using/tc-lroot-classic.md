@@ -3,12 +3,15 @@ title: Creating a Language Root Using the Classic UI
 seo-title: Creating a Language Root Using the Classic UI
 description: Learn how to create a language root using the Classic UI.
 seo-description: Learn how to create a language root using the Classic UI.
-uuid: 6ad59702-3458-4e64-abae-e2efd803f567
+uuid: b2c19efa-b9dd-4c29-b1e4-0549f2b504bf
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features
 content-type: reference
-discoiquuid: 90232dfe-bf4e-4d47-93bc-618345360ba4
+discoiquuid: 9c4ac7f9-23d0-4614-9cfe-7c24def197ef
+index: y
+internal: n
+snippet: y
 ---
 
 # Creating a Language Root Using the Classic UI{#creating-a-language-root-using-the-classic-ui}

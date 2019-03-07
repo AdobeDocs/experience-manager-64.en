@@ -3,12 +3,15 @@ title: Configuring Task Manager endpoints
 seo-title: Configuring Task Manager endpoints
 description: Learn how to configure Task Manager endpoints.
 seo-description: Learn how to configure Task Manager endpoints.
-uuid: 70b6031d-c1a2-4320-8950-604c18c53138
+uuid: 669140c3-ba90-42ce-8d28-2b0ebacfa011
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/managing_endpoints
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: cad94712-ba20-40a4-a206-94470d20e98e
+discoiquuid: 4e3f3f71-f469-43fe-9ad3-51c1a50da1e8
+index: y
+internal: n
+snippet: y
 ---
 
 # Configuring Task Manager endpoints{#configuring-task-manager-endpoints}

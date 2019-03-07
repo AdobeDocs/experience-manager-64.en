@@ -3,12 +3,15 @@ title: Initial Sandbox Content
 seo-title: Initial Sandbox Content
 description: Create content
 seo-description: Create content
-uuid: b0edb308-e91c-4c82-ac3f-8b9ba9463a38
+uuid: e8afaa3d-d8cc-4eda-97e2-a1cf4cbceab7
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 282c1a63-3d14-4a77-8fff-542bbeec5da8
+discoiquuid: 4da3b76b-77e4-49fb-ba44-ffa2fc8b7893
+index: y
+internal: n
+snippet: y
 ---
 
 # Initial Sandbox Content{#initial-sandbox-content}
@@ -48,8 +51,8 @@ Now that there is a [page template](../../communities/using/initial-app.md#creat
 
    In the** Create Page** dialog, enter the following:
 
-    * Title:** SCF Sandbox Site**
-    * Name:** an-scf-sandbox**
+    * Title: **SCF Sandbox Site**
+    * Name: **an-scf-sandbox**
     * select **An SCF Sandbox Play Template**
     * click **Create**
 
@@ -57,15 +60,15 @@ Now that there is a [page template](../../communities/using/initial-app.md#creat
 
 1. In the explorer pane, select the page you just created, **/Websites/SCF Sandbox Site**, and click **New** &gt;** New Page :**
 
-    * Title:** SCF Sandbox**
-    * Name:** en**
+    * Title: **SCF Sandbox**
+    * Name: **en**
     * select **An SCF Sandbox Play Template**
     * click **Create**
 
 1. In the explorer pane, select the page you just created, **/Websites/SCF Sandbox Site/SCF Sandbox**, and click **New** &gt;** New Page :**
 
-    * Title:** SCF Play**
-    * Name:** play**
+    * Title: **SCF Play**
+    * Name: **play**
     * select **An SCF Sandbox Play Template**
     * click **Create**
 
@@ -90,9 +93,9 @@ was defined, which provides the optional ability to reference design assets in a
 1. 
 1.
 
-    * Name:** cq:designPath**
-    * Type:** String **
-    * Value:** /etc/designs/an-scf-sandbox**
+    * Name: **cq:designPath**
+    * Type: **String **
+    * Value: **/etc/designs/an-scf-sandbox**
 
 1. Click the green **[+] Add**
 

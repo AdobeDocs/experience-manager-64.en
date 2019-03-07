@@ -4,12 +4,15 @@ seo-title: Track Content Changes Using Task Management
 description: Learn how to track content changes using Task Management.
 seo-description: Learn how to track content changes using Task Management.
 page-status-flag: de-activated
-uuid: 083a68d5-c5dc-4687-967d-93799d60c8cb
+uuid: 1d8f7781-92b8-46e0-90be-48669fe66d72
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: content
 content-type: reference
-discoiquuid: ac73c6f8-cc29-4b11-8a85-89606d8b59be
+discoiquuid: 9762c652-cf91-4ecd-b9a3-5590e9e653ca
+index: y
+internal: n
+snippet: y
 ---
 
 # Track Content Changes Using Task Management{#track-content-changes-using-task-management}

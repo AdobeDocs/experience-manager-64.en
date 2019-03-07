@@ -3,12 +3,15 @@ title: Search
 seo-title: Search
 description: The author environment of AEM provides various mechanisms for searching for content, dependent on the the resource type.
 seo-description: The author environment of AEM provides various mechanisms for searching for content, dependent on the the resource type.
-uuid: a1a7331b-7e21-4207-a521-a1c0cab30ca4
+uuid: 5d5f94e8-5971-4d69-a698-0f70643fb1ab
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
-discoiquuid: 97d13d16-d1b2-4416-9dff-4230f92744f8
+discoiquuid: 7e3a0a0a-1fbe-40a3-b184-1ffcd6429097
+index: y
+internal: n
+snippet: y
 ---
 
 # Search{#search}

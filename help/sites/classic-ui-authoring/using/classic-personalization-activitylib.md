@@ -3,12 +3,15 @@ title: Managing Activities
 seo-title: Managing Activities
 description: The Activities console enables you to create, organize, and manage the marketing activities of your brands.
 seo-description: The Activities console enables you to create, organize, and manage the marketing activities of your brands.
-uuid: 176185c5-fb68-4cd9-8d1b-012815e26613
+uuid: d9882ebc-a756-4e17-91dc-b4ba92237c6d
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: 20fe644c-f24e-45a4-91c8-bade0b1793ab
+discoiquuid: 1c3421b2-37c7-4158-894a-dad4803d7e3d
+index: y
+internal: n
+snippet: y
 ---
 
 # Managing Activities{#managing-activities}

@@ -3,12 +3,15 @@ title: Managing Video Assets
 seo-title: Managing Video Assets
 description: Learn how to upload, preview, annotate, and publish video assets.
 seo-description: Learn how to upload, preview, annotate, and publish video assets.
-uuid: 30d8abab-cb36-4517-8f71-99dffa29afd3
+uuid: f74ae3b9-b886-4eb1-95c6-423f3c5e8904
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference
-discoiquuid: 8fd3c31a-9d18-43d9-9e91-08c98eb31db5
+discoiquuid: 5aa8c8d2-2ba9-4fde-8dbd-6f4b368bfd16
+index: y
+internal: n
+snippet: y
 ---
 
 # Managing Video Assets{#managing-video-assets}

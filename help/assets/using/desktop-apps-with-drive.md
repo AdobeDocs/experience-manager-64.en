@@ -3,13 +3,16 @@ title: Connecting Assets to Desktop Applications with Adobe Drive
 seo-title: Connecting Assets to Desktop Applications with Adobe Drive
 description: null
 seo-description: null
-uuid: a84ba166-606a-4a05-b01d-5c54c1d63c71
+uuid: 0de6ad7b-a04e-4924-80cf-f75ba27ae659
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: 04235cea-64ab-4fa4-b922-63e1528bbd35
+discoiquuid: 2ab82417-bf56-4de4-a3f9-e2e4eb1e4758
 draft: true
+index: y
+internal: n
+snippet: y
 ---
 
 # Connecting Assets to Desktop Applications with Adobe Drive{#connecting-assets-to-desktop-applications-with-adobe-drive}

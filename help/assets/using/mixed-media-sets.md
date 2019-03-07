@@ -3,12 +3,15 @@ title: Mixed Media Sets
 seo-title: Mixed Media Sets
 description: Learn how to work with mixed media sets in dynamic media
 seo-description: Learn how to work with mixed media sets in dynamic media
-uuid: a4a4fa80-c940-493c-9404-12d8ce441f49
+uuid: cb9ea76d-a4ff-461f-8e52-f0634135ab6d
 contentOwner: Alva Ware-Bevacqui
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: 35e214fe-4874-493d-8f9f-eddd62f9ae27
+discoiquuid: 30dc41e7-d3f7-4c63-b116-4810da2d7420
+index: y
+internal: n
+snippet: y
 ---
 
 # Mixed Media Sets{#mixed-media-sets}

@@ -3,12 +3,15 @@ title: Publish UnPublish Content
 seo-title: Publish UnPublish Content
 description: Once you are familiar with content management actions on articles, banners, and collections, follow this page to learn about how you can publish your content. Also you can unpublish your content.
 seo-description: Once you are familiar with content management actions on articles, banners, and collections, follow this page to learn about how you can publish your content. Also you can unpublish your content.
-uuid: 71218c70-0a4d-4dc5-ace4-4243fd043e70
+uuid: 4918bd13-af2f-43ad-893d-88f06f25b2fc
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: authoring-on-demand-services-app
-discoiquuid: d65dd5a2-16e9-47d3-94ca-f387b9b0b23e
+discoiquuid: 05e702bc-d9a2-4209-85f1-cb55499b27bd
+index: y
+internal: n
+snippet: y
 ---
 
 # Publish UnPublish Content{#publish-unpublish-content}

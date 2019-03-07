@@ -3,12 +3,15 @@ title: Using Social Tag Cloud
 seo-title: Using Social Tag Cloud
 description: Adding a Social Tag Cloud component to a page
 seo-description: Adding a Social Tag Cloud component to a page
-uuid: 40e7b57b-9a02-433f-8560-03a6599cfbca
+uuid: 7c47d9df-fa18-42d5-80ed-3f04b12ce604
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
-discoiquuid: 1fc253e8-a9f7-4c00-b35c-e13cfc6b3071
+discoiquuid: 9712d2c2-5fa0-438b-8105-4d742fb2aea4
+index: y
+internal: n
+snippet: y
 ---
 
 # Using Social Tag Cloud{#using-social-tag-cloud}

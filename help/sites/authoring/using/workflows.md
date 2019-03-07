@@ -3,12 +3,15 @@ title: Working with Workflows
 seo-title: Working with Workflows
 description: Workflows in AEM allow you to automate a series of steps that are performed on a page or asset.
 seo-description: Workflows in AEM allow you to automate a series of steps that are performed on a page or asset.
-uuid: 860f1a1b-65c8-4e33-af86-645a7dd5684c
+uuid: 854e4da4-cc5a-4d99-8958-6a7131c55470
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
-discoiquuid: 02179895-3e74-4237-ae4b-d5bb133e1c2c
+discoiquuid: d4f159a0-76c5-4bc3-9f9a-950cf0486963
+index: y
+internal: n
+snippet: y
 ---
 
 # Working with Workflows{#working-with-workflows}

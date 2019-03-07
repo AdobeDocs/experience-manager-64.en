@@ -3,12 +3,15 @@ title: Managing Compound Assets
 seo-title: Managing Compound Assets
 description: Learn how to create references to AEM assets from within Indesign, Adobe Illustrator, and Photoshop files. Also learn how to use the Page Viewer feature to view individual pages of multi-page files, including PDF, INDD, PPT, PPTX, and Ai files.
 seo-description: Learn how to create references to AEM assets from within Indesign, Adobe Illustrator, and Photoshop files. Also learn how to use the Page Viewer feature to view individual pages of multi-page files, including PDF, INDD, PPT, PPTX, and Ai files.
-uuid: b6771ea6-fc96-4bcd-b9c6-68e2c1d3a422
+uuid: d8a187ae-ee9d-47c8-8f12-28bee7dbe43f
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference
-discoiquuid: b72ab6ec-9a6a-43d5-a7fd-b1f0b55111e0
+discoiquuid: b642d927-c3ab-40c7-bfef-db8a14de2891
+index: y
+internal: n
+snippet: y
 ---
 
 # Managing Compound Assets{#managing-compound-assets}

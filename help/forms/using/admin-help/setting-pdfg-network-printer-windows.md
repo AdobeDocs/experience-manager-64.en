@@ -3,12 +3,15 @@ title: Setting up a PDFG Network Printer (Windows only)
 seo-title: Setting up a PDFG Network Printer (Windows only)
 description: Learn how to set up a PDFG Network Printer ( Windows only )
 seo-description: Learn how to set up a PDFG Network Printer ( Windows only )
-uuid: 05abe872-7be1-4c2f-9646-0da23d07f6ba
+uuid: c8e1904e-0d12-4c85-95db-070237a1a40a
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_pdf_generator
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 778bd1d5-e63d-4e6c-9f16-63e43e580fd8
+discoiquuid: 94537996-087f-4a57-a90f-dec3254aef95
+index: y
+internal: n
+snippet: y
 ---
 
 # Setting up a PDFG Network Printer (Windows only){#setting-up-a-pdfg-network-printer-windows-only}

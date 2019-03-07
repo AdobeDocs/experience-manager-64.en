@@ -3,12 +3,15 @@ title: Assets file format best practices
 seo-title: Assets file format best practices
 description: Best practices for file support in AEM Assets.
 seo-description: Best practices for file support in AEM Assets.
-uuid: ba94c666-da38-4434-bf49-f797cadb52a0
+uuid: 98054ec7-8efb-4ab4-8189-067abaa81356
 contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: b9da7293-b525-4e4b-a875-21fa58862680
+discoiquuid: f464c9f4-6098-4562-9f92-013e5daa4a47
+index: y
+internal: n
+snippet: y
 ---
 
 # Assets file format best practices{#assets-file-format-best-practices}

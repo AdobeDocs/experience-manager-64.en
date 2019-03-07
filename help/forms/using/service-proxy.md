@@ -3,11 +3,14 @@ title: HTML5 forms service proxy
 seo-title: HTML5 forms service proxy
 description: HTML5 forms Service Proxy is a configuration to register a proxy for the submission service. To configure Service Proxy, specify the URL of submission service through request parameter submissionServiceProxy.
 seo-description: HTML5 forms Service Proxy is a configuration to register a proxy for the submission service. To configure Service Proxy, specify the URL of submission service through request parameter submissionServiceProxy.
-uuid: 41238449-3c09-4dd7-b34f-cbd15d19fa3c
+uuid: 40139486-55b2-4a61-8200-e1a86c2f5314
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
-discoiquuid: 89cdc58f-ebb0-4d60-b4d6-5a272c1bbe38
+discoiquuid: b59059f9-664a-437d-a06f-d8ea77bc5bc1
+index: y
+internal: n
+snippet: y
 ---
 
 # HTML5 forms service proxy{#html-forms-service-proxy}

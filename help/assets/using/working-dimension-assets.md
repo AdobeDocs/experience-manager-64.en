@@ -3,12 +3,15 @@ title: Working with Adobe Dimension assets
 seo-title: Working with Adobe Dimension assets
 description: Working with Adobe Dimension assets in AEM 3D.
 seo-description: Working with Adobe Dimension assets in AEM 3D.
-uuid: 26942d69-d4ab-43b0-b1e5-507dfd709543
+uuid: c384e224-0c69-4375-8763-5fb50def9749
 contentOwner: rbrough
 topic-tags: 3D
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
-discoiquuid: 666876a0-e7ec-4b4b-a570-faa60cfdf436
+discoiquuid: b17a7936-e297-4cf2-aecb-21497449a4ca
+index: y
+internal: n
+snippet: y
 ---
 
 # Working with Adobe Dimension assets{#working-with-adobe-dimension-assets}

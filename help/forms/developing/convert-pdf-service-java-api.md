@@ -3,12 +3,15 @@ title: Convert PDF Service Java API QuickStart(SOAP)
 seo-title: Convert PDF Service Java API QuickStart(SOAP)
 description: null
 seo-description: null
-uuid: 0a691c8a-c169-4f22-a360-bf7f8e6e3274
+uuid: 9642bde1-a404-4ff5-a0b7-c53e0dffc3df
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
-discoiquuid: d9cc8716-ba3e-453e-9674-e3c6393663ab
+discoiquuid: 4bb24077-1618-4ec3-9d27-2778af2881bd
+index: y
+internal: n
+snippet: y
 ---
 
 # Convert PDF Service Java API QuickStart(SOAP){#convert-pdf-service-java-api-quickstart-soap}

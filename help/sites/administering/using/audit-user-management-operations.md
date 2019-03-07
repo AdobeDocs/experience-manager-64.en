@@ -3,12 +3,15 @@ title: How to Audit User Management Operations in AEM
 seo-title: How to Audit User Management Operations in AEM
 description: Learn how to audit User Management Operations in AEM.
 seo-description: Learn how to audit User Management Operations in AEM.
-uuid: 331aa3fe-c960-4179-a463-2845d45229e1
+uuid: 8be5cd0d-7aa9-422e-a3ed-24da132b1ba9
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
-discoiquuid: 94be1f93-8ed5-4a6b-ab88-af74dec52ff5
+discoiquuid: a6b0fc25-decf-4498-9ada-084ddccd8652
+index: y
+internal: n
+snippet: y
 ---
 
 # How to Audit User Management Operations in AEM{#how-to-audit-user-management-operations-in-aem}
@@ -37,7 +40,7 @@ In order to redirect the logging output to a separate log file, you'll need to c
     * **Log File:** logs/useraudit.log
     * **Message Pattern:** leavel default  
     
-    * **Logger:** com.adobe.granite.security.user.internal.audit, com.adobe.granite.security.user.internal.servlets.AuthorizableServlet
+    * **Logger: **com.adobe.granite.security.user.internal.audit, com.adobe.granite.security.user.internal.servlets.AuthorizableServlet
 
    In order to enter both loggers into the **Logger** field, you need to enter the name of the first, then create another field by pressing the "+" button and entering the name of the second logger.
 

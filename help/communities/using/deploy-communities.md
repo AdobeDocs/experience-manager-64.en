@@ -3,12 +3,15 @@ title: Deploying Communities
 seo-title: Deploying Communities
 description: How to deploy AEM Communities
 seo-description: How to deploy AEM Communities
-uuid: d08934da-f949-4c8f-a2da-f4ea32b4bb97
+uuid: b1754529-c13a-4303-ba6f-f4faf1ed1bda
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 content-type: reference
 topic-tags: deploying
-discoiquuid: 7bf1786e-3c5e-4852-923f-b6cd9401d3fb
+discoiquuid: b7e44ad8-fe57-498f-b41c-9a4e7c978ed4
+index: y
+internal: n
+snippet: y
 ---
 
 # Deploying Communities{#deploying-communities}
@@ -277,7 +280,7 @@ There are two replication agents in the author environment that need the transpo
 
 * access the Replication console on author
 
-    * from global navigation :** Tools, Deployment, Replication, Agents on author**
+    * from global navigation : **Tools, Deployment, Replication, Agents on author**
 
 * follow the same procecure for both agents :
 

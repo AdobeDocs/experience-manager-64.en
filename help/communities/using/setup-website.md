@@ -3,12 +3,15 @@ title: Setup Website Structure
 seo-title: Setup Website Structure
 description: Set up directories
 seo-description: Set up directories
-uuid: 97c429be-944a-4b5e-884c-3706022006f6
+uuid: 73b1584a-a55d-48b8-b5a9-7a3f38d276cf
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: b788ac52-7696-41bb-8111-28be5c605e60
+discoiquuid: 34863ce6-3606-4694-bfad-f1256137e7e1
+index: y
+internal: n
+snippet: y
 ---
 
 # Setup Website Structure{#setup-website-structure}
@@ -60,7 +63,7 @@ The /apps directory is protected and not publicly accessible as are the /content
     
     1. click **OK**
 
-1. Create **components** subfolder.
+1. Create **components **subfolder.
 
     1. select the **/apps/an-scf-sandbox** folder
     1. click **Create** &gt; **Create Folder**
@@ -71,12 +74,12 @@ The /apps directory is protected and not publicly accessible as are the /content
 
 1. Create **templates **subfolder.
 
-    1. select the **/apps/an-scf-sandbox** folder
+    1. select the **/apps/an-scf-sandbox **folder
     1. click **Create** &gt; **Create Folder**
     
     1. in the **Create Folder** dialog, enter **templates**
     
-    1. click **OK**
+    1. ****click **OK**
 
 1.
 
@@ -102,7 +105,7 @@ The /etc/designs directory contains the images, scripts, and stylesheets to be d
    Enter:
 
     * Title :** An SCF Sandbox**
-    * Name :** an-scf-sandbox**
+    * Name : **an-scf-sandbox**
     * select **Design Page Template**
 
    Click **Create**

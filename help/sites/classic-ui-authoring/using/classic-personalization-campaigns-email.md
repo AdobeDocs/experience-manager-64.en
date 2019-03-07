@@ -3,12 +3,15 @@ title: E-mail Marketing
 seo-title: E-mail Marketing
 description: E-mail marketing (for example, newsletters) are an important part of any marketing campaign as you use them to push content to your leads. In AEM, you can create newsletters from existing AEM content as well as add new content, specific to the newsletters.
 seo-description: E-mail marketing (for example, newsletters) are an important part of any marketing campaign as you use them to push content to your leads. In AEM, you can create newsletters from existing AEM content as well as add new content, specific to the newsletters.
-uuid: a9276364-d4ca-4798-9c63-bee83ffb6267
+uuid: 13ce554b-e44c-4e73-b8d3-cb86b67f5066
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: e2d90029-325e-4e9a-a040-d280061f08d6
+discoiquuid: 2ee40f4a-2b12-4cba-9d64-cb7c50ccbf0c
+index: y
+internal: n
+snippet: y
 ---
 
 # E-mail Marketing{#e-mail-marketing}

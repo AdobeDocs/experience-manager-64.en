@@ -3,12 +3,15 @@ title: Application Create and Configuration Actions
 seo-title: Application Create and Configuration Actions
 description: Creating an app is often the first step towards creating and managing AEM Mobile On-Demand content. Follow this page to learn more.
 seo-description: Creating an app is often the first step towards creating and managing AEM Mobile On-Demand content. Follow this page to learn more.
-uuid: d4efae2d-a648-48a8-86c3-a3703fed98f4
+uuid: db88b7c7-8b16-4353-b1ca-4099b13f060f
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: authoring-on-demand-services-app
-discoiquuid: d781eca3-ad3b-4727-a101-89b369a86ace
+discoiquuid: 3069f662-f526-4bf7-af10-07ef52c23311
+index: y
+internal: n
+snippet: y
 ---
 
 # Application Create and Configuration Actions{#application-create-and-configuration-actions}
@@ -59,7 +62,7 @@ You must have an existing mobile app template (or an app installed that has an a
 
 Once you create an On-Demand app from the application dashboard, the next step is to associate your app to the cloud configuration.
 
-See [Associating your app to the Cloud Configuration](../../mobile/using/mobile-on-demand-associating-an-on-demand-app-to-cloud-configuration.md) for more details.
+See [Associating your app to the Cloud Configuration](../../mobile/using/mobile-on-demand-associating-an-On-Demand-app-to-cloud-configuration.md) for more details.
 
 ### Getting Ahead {#getting-ahead}
 

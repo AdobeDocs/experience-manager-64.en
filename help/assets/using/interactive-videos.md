@@ -3,12 +3,15 @@ title: Interactive Videos
 seo-title: Interactive Videos
 description: Learn how to work with interactive video in dynamic media
 seo-description: Learn how to work with interactive video in dynamic media
-uuid: f84e5023-7f5f-4b3b-8a55-a63fc026b7b8
+uuid: 458c9104-103b-4d4a-a6cd-b33034c2695b
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: d9ebd094-52ab-4cee-923e-060bb4a3a3cf
+discoiquuid: 7d594e2c-22e6-4f68-a9ac-63651ad7ef82
+index: y
+internal: n
+snippet: y
 ---
 
 # Interactive Videos{#interactive-videos}

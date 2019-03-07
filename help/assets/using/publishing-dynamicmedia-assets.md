@@ -3,12 +3,15 @@ title: Publishing Dynamic Media Assets
 seo-title: Publishing Dynamic Media Assets
 description: How to publish dynamic media assets
 seo-description: How to publish dynamic media assets
-uuid: cfd0e0a4-ae8c-4c5d-b758-8bf204be2045
+uuid: 8bb61e32-5603-4597-8e73-b58382096afa
 contentOwner: Alva Ware-Bevacqui
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: cbee4214-d6a4-4aa5-9640-322a5b5c538f
+discoiquuid: 02f440b0-5bc4-4896-9b98-97f5e22d2cd9
+index: y
+internal: n
+snippet: y
 ---
 
 # Publishing Dynamic Media Assets{#publishing-dynamic-media-assets}

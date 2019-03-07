@@ -3,10 +3,13 @@ title: "Tutorial: Plan the Interactive Communication"
 seo-title: Plan your Interactive Communication
 description: Plan the anatomy for your Interactive Communication
 seo-description: Plan the anatomy for your Interactive Communication
-uuid: eaf3ad4d-5dd4-43b6-af0b-dbc1a08e6216
+uuid: fbbf7311-25ab-4d4c-8e2f-f29adfdaa2bb
 contentOwner: anujkapo
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 54578da6-5154-478d-909f-836442975e09
+discoiquuid: 71137230-c8ce-4130-8586-bed411e0b15b
+index: y
+internal: n
+snippet: y
 ---
 
 # Tutorial: Plan the Interactive Communication{#tutorial-plan-the-interactive-communication}

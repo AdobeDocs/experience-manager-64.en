@@ -3,12 +3,15 @@ title: Authoring Pages
 seo-title: Authoring Pages
 description: The tasks involved when authoring a content page
 seo-description: The tasks involved when authoring a content page
-uuid: 0bbaa94b-0641-4bb1-9e9b-13958d3623cb
+uuid: 1579d3a8-080b-474e-b9cc-2d90b36392b7
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: a112eb9b-956f-4283-8faa-6bfc8481159a
+discoiquuid: 6ade56aa-aa28-4546-8677-ca8cea932eb8
+index: y
+internal: n
+snippet: y
 ---
 
 # Authoring Pages{#authoring-pages}

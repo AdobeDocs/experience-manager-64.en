@@ -3,12 +3,15 @@ title: Setting up your campaign
 seo-title: Setting up your campaign
 description: Set up a new campaign
 seo-description: Set up a new campaign
-uuid: 220f41b5-41c6-4ba8-8df3-65d31f7af61b
+uuid: 60180849-cbbc-44fe-8dad-bc939823cc12
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: personalization
-discoiquuid: 23bf843b-aae2-4d94-8add-928bbae4b5da
+discoiquuid: eff43ebd-a8b3-4601-910e-a57b04d94e60
+index: y
+internal: n
+snippet: y
 ---
 
 # Setting up your campaign{#setting-up-your-campaign}

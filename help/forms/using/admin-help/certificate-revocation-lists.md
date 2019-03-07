@@ -3,12 +3,15 @@ title: Managing certificate revocationlists
 seo-title: Managing certificate revocationlists
 description: Learn how to manage certificate revocation lists.
 seo-description: Learn how to manage certificate revocation lists.
-uuid: 21191b05-02f0-4ccb-9316-0d029091e151
+uuid: 1e49b306-5909-4255-a299-ab749e72d522
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/managing_certificates_and_credentials
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 7b871c8d-922e-499e-9dee-c6ee3b77b31d
+discoiquuid: a967f232-c121-4ef7-9c5e-de40e1335a8d
+index: y
+internal: n
+snippet: y
 ---
 
 # Managing certificate revocationlists{#managing-certificate-revocationlists}

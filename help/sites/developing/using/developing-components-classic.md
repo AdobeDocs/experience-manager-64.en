@@ -3,13 +3,16 @@ title: Developing AEM Components (Classic UI)
 seo-title: Developing AEM Components (Classic UI)
 description: The classic UI uses ExtJS to create widgets that provide the look-and-feel of the components. HTL is not the recommended scripting language for AEM.
 seo-description: The classic UI uses ExtJS to create widgets that provide the look-and-feel of the components. HTL is not the recommended scripting language for AEM.
-uuid: e2776df1-9401-4ef8-8262-f3f0db56c390
+uuid: d477849c-2da6-4b69-a412-25b28af863c6
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: components
 content-type: reference
-discoiquuid: 2779f134-2107-4a16-9ac0-2bb79a01189e
+discoiquuid: 82e97adc-9a01-4233-96cf-715afc61546a
 legacypath: /content/docs/en/aem/6-2/develop/components/components-classic
+index: y
+internal: n
+snippet: y
 ---
 
 # Developing AEM Components (Classic UI){#developing-aem-components-classic-ui}

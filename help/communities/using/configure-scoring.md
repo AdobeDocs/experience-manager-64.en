@@ -3,12 +3,15 @@ title: Scoring and Badges Essentials
 seo-title: Scoring and Badges Essentials
 description: Scoring and Badges feature overview
 seo-description: Scoring and Badges feature overview
-uuid: 955b5812-3f5d-4929-bdb9-36f76733ac8a
+uuid: 350207d3-47bd-4278-93ad-9165033223df
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: be6cdaea-7f4c-436f-ba79-11e0d0d9888b
+discoiquuid: ea348e33-1ba1-4cba-b723-d6a39603c2a7
+index: y
+internal: n
+snippet: y
 ---
 
 # Scoring and Badges Essentials{#scoring-and-badges-essentials}
@@ -139,9 +142,7 @@ The latest Javadocs for the installed [feature pack](/communities/using/version-
 
 The screen shots of repository data come from setting up scoring and badging for a forum on two different AEM sites :
 
-<!-- Take a look at this formatting -->
-
-1 - An AEM site *with *an unique id (community site created using wizard) :
+1) An AEM site *with *an unique id (community site created using wizard) :
 
 * using the Getting Started Tutorial (engage) site created during the [getting started tutorial](../../communities/using/getting-started.md)
 * locate the forum page node
@@ -175,7 +176,7 @@ The screen shots of repository data come from setting up scoring and badging for
 
 * a user signs in, creates a forum topic, and is awarded a bronze badge
 
-2 - An AEM site *without *an unique id :
+2) An AEM site *without *an unique id :
 
 * using the [Community Components guide](../../communities/using/components-guide.md)
 * locate the forum page node
@@ -209,7 +210,7 @@ The screen shots of repository data come from setting up scoring and badging for
 
 * a user signs in, creates a forum topic, and is awarded a bronze badge
 
-3 - a user is assigned a moderator badge using cURL :
+3) a user is assigned a moderator badge using cURL :
 
 ```shell
 curl -i -X POST -H "Accept:application/json" -u admin:admin -F ":operation=social:assignBadge" -F "badgeContentPath=/etc/community/badging/images/moderator/jcr:content/moderator.png" http://localhost:4503/home/users/community/w271OOup2Z4DjnOQrviv/profile.social.json

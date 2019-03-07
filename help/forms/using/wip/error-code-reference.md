@@ -4,8 +4,11 @@ seo-title: [DO NOT PUBLISH] AEM Forms Error Code Reference
 description: null
 seo-description: null
 page-status-flag: never-activated
-uuid: 70b7e931-4b7c-4213-8f90-76330b60265c
-discoiquuid: f2b4b53b-eeaf-47c9-a041-b03a88c9d265
+uuid: 90b6844a-5967-4816-ad39-56728f0bf173
+discoiquuid: cf90cc82-4314-4c89-bc54-9725f8374460
+index: y
+internal: n
+snippet: y
 ---
 
 # [DO NOT PUBLISH] AEM Forms Error Code Reference{#do-not-publish-aem-forms-error-code-reference}

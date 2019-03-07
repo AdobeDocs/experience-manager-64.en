@@ -3,12 +3,15 @@ title: Converting PDF to Postscript andImage Files
 seo-title: Converting PDF to Postscript andImage Files
 description: null
 seo-description: null
-uuid: 856ad736-a3a4-4ab5-b40c-986f84ad8403
+uuid: c291bbac-3227-4fa3-8dee-bdf2cae10044
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: 3740fe37-edf3-46f4-b2b8-e27c8f669ef9
+discoiquuid: 18b9d17a-ed99-4965-93e5-73eea1074a32
+index: y
+internal: n
+snippet: y
 ---
 
 # Converting PDF to Postscript andImage Files{#converting-pdf-to-postscript-andimage-files}
@@ -201,6 +204,8 @@ Convert a PDF document to PostScript by using the Convert PDF Service API (web s
 [Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_mtom)
 
 [Invoking AEM Forms using SwaRef](/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_swaref)
+
+****
 
 ## Converting PDF Documents to Image Formats {#converting-pdf-documents-to-image-formats}
 

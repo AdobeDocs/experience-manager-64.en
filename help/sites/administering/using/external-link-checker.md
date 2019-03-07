@@ -3,12 +3,15 @@ title: The External Link Checker
 seo-title: The External Link Checker
 description: Learn about the External Link Checker in AEM.
 seo-description: Learn about the External Link Checker in AEM.
-uuid: 44cb4bd3-9651-43e6-bea7-f10e36b306eb
+uuid: de92df06-0ef2-4038-84de-757260bce9c1
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: fa525d40-8723-4704-9d9f-6646217b9d22
+discoiquuid: 4c8fbe85-29b8-4b4d-8647-ba19035ef2b1
+index: y
+internal: n
+snippet: y
 ---
 
 # The External Link Checker{#the-external-link-checker}

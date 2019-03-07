@@ -3,12 +3,15 @@ title: Modifying the PDF Export conversion settings
 seo-title: Modifying the PDF Export conversion settings
 description: Learn how to modify the PDF Export conversion settings.
 seo-description: Learn how to modify the PDF Export conversion settings.
-uuid: 8739ea27-16c8-4744-80cc-acbe8c5e6e4c
+uuid: 0b9a8b8e-59f0-42f1-b318-a0218ad00aac
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_pdf_generator
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: ae7a456f-783e-4cfb-8f25-9a7ab7167f42
+discoiquuid: 0bed6fc4-05cb-4a69-bcee-0c4180b9be83
+index: y
+internal: n
+snippet: y
 ---
 
 # Modifying the PDF Export conversion settings{#modifying-the-pdf-export-conversion-settings}

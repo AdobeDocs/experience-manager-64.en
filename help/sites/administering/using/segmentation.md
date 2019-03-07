@@ -3,12 +3,15 @@ title: Configuring Segmentation with ContextHub
 seo-title: Configuring Segmentation with ContextHub
 description: Learn how to configure segmentation with Context Hub.
 seo-description: Learn how to configure segmentation with Context Hub.
-uuid: 5c0f3704-0288-47cf-95bb-d4f0a1fa1090
+uuid: 8b3b7a4b-6145-4983-966c-5e328d13d3fe
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: 570f1ee4-ab12-4605-99d7-de72443e26b2
+discoiquuid: 21673213-478d-47f3-bca8-6a6b47cd4ca5
+index: y
+internal: n
+snippet: y
 ---
 
 # Configuring Segmentation with ContextHub{#configuring-segmentation-with-contexthub}

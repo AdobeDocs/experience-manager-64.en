@@ -4,9 +4,12 @@ seo-title: Text
 description: Document Fragments, such as Text, lists, conditions, and layout fragments, in Correspondence Management let you form the static, dynamic, and repeatable components of customer correspondence.
 seo-description: Document Fragments, such as Text, lists, conditions, and layout fragments, in Correspondence Management let you form the static, dynamic, and repeatable components of customer correspondence.
 page-status-flag: never-activated
-uuid: 42854501-5a99-4817-b2c5-f450905eb567
+uuid: fc854662-efd3-40f9-8819-a356e68c0d02
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 2a60fa15-d7f5-4c9b-9343-b31d9659a8d6
+discoiquuid: a29ba7c9-ac27-43e3-91dd-e6a579ec414c
+index: y
+internal: n
+snippet: y
 ---
 
 # [DO NOT PUBLISH] Text{#do-not-publish-text}
@@ -30,7 +33,7 @@ The Correspondence Management Solution supports two kinds to dynamic data items 
 1. Specify the following information for the text:
 
     * **Title: (Optional) **Enter the title for the text asset. Titles need not be unique and can have special characters and non-english characters. Texts are referred by their titles (when available) such as in thumbnails and asset properties. 
-    * **Name:** The unique name for the text asset. No two assets (text, condition, or list) in any state can exist with the same name. In the Name field, you can enter only English language characters, numbers, and hyphens. The Name field is automatically populated based on the Title field. The special characters, spaces, numbers, and non-English characters entered in the Title field are replaced with hyphens in the Name field. Although the value in the Title field is automatically copied to the Name, you can edit the value.  
+    * **Name: **The unique name for the text asset. No two assets (text, condition, or list) in any state can exist with the same name. In the Name field, you can enter only English language characters, numbers, and hyphens. The Name field is automatically populated based on the Title field. The special characters, spaces, numbers, and non-English characters entered in the Title field are replaced with hyphens in the Name field. Although the value in the Title field is automatically copied to the Name, you can edit the value.  
     
     * **Description**: Type a description of the asset.
     * **Data Dictionary**: Optionally, select the data dictionary in which to map. This attribute enables you to add references to data dictionary elements in the text asset.
@@ -141,19 +144,19 @@ The Find and Replace feature allows you to search for (and replace) any string o
 
    If you continue to press the Find button, the search continues down the page. After the last instance of the text is found, the message **Reached end of module **indicates that no more search results were found.
 
-   However, if no instance of the search text is found in the text module, the message displayed is:** Match Not Found**.
+   However, if no instance of the search text is found in the text module, the message displayed is: **Match Not Found**.
 
 1. If you press Find again, the search continues at the top of the page.
 
 ### Search Options {#search-options}
 
-**Match Case:** The search returns results with the same case only.
+**Match Case: **The search returns results with the same case only.
 
-**Whole word:** Search returns only whole words.
+**Whole word: **Search returns only whole words.
 
-***Note:** **If you enter any special characters in the Find text box, the Whole Word option is disabled.*
+***Note: ****If you enter any special characters in the Find text box, the Whole Word option is disabled.*
 
-**Reg ex:** Search using regular expressions. For example, the following regular expression searches for email addresses in a text document fragment:
+**Reg ex: **Search using regular expressions. For example, the following regular expression searches for email addresses in a text document fragment:
 
 `[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}`
 
@@ -178,8 +181,8 @@ The Find and Replace feature allows you to search for (and replace) any string o
 * Use appropriate data dictionary binding in text modules.
 * The following rules apply when using the Text Editor when changing a text asset:
 
-    * **Addition of variable:** Allowed
-    * **Removal of variable:** Allowed
-    * **Update of properties:** Allowed
-    * **Change of data dictionary:** Allowed until data dictionary element is not used. You cannot change the data dictionary on update.
+    * **Addition of variable: **Allowed
+    * **Removal of variable: **Allowed
+    * **Update of properties: **Allowed
+    * **Change of data dictionary: **Allowed until data dictionary element is not used. You cannot change the data dictionary on update.
 

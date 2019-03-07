@@ -3,12 +3,15 @@ title: Naming Conventions
 seo-title: Naming Conventions
 description: Nodes in the repository are subject to naming conventions of the Java Content Repository
 seo-description: Nodes in the repository are subject to naming conventions of the Java Content Repository
-uuid: a9d3bf41-a96c-4ece-a465-b613bcdfdfbd
+uuid: 05e4af2c-9d30-46d1-b152-9c866b8881b3
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
-discoiquuid: b723c006-466d-4eac-b689-fa70e8bbb08d
+discoiquuid: 268fd87f-b941-4d8c-a9b2-682841d3d7f7
+index: y
+internal: n
+snippet: y
 ---
 
 # Naming Conventions{#naming-conventions}

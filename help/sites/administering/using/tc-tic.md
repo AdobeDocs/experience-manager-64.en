@@ -3,12 +3,15 @@ title: Configuring the Translation Integration Framework
 seo-title: Configuring the Translation Integration Framework
 description: Learn how to configure the Translation Integration Framework.
 seo-description: Learn how to configure the Translation Integration Framework.
-uuid: 3e11e4b9-b690-45d4-8b89-766d0097837e
+uuid: ae2ca012-1ff8-4a3f-b1c9-4ba1d8ed0264
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features
 content-type: reference
-discoiquuid: 0cfb6042-077e-4aee-9f34-94da28e8678b
+discoiquuid: 72f29323-4e2d-47ff-8408-1165a80d9ff3
+index: y
+internal: n
+snippet: y
 ---
 
 # Configuring the Translation Integration Framework{#configuring-the-translation-integration-framework}

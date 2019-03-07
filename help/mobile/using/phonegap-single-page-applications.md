@@ -3,12 +3,15 @@ title: Single Page Applications
 seo-title: Single Page Applications
 description: Follow this page to learn about single page applications, that is, you can create an application that performs identically to a desktop or mobile application.
 seo-description: Follow this page to learn about single page applications, that is, you can create an application that performs identically to a desktop or mobile application.
-uuid: 5ac29f15-3c8d-42c5-a10b-2db7217c4ca8
+uuid: ef522486-221f-41bc-98a5-cd0307890600
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: developing-adobe-phonegap-enterprise
-discoiquuid: 9f7cc4da-1d19-488b-becf-b6a46541a6e4
+discoiquuid: ff49cb86-b00b-49aa-8778-9837cbc39a5e
+index: y
+internal: n
+snippet: y
 ---
 
 # Single Page Applications{#single-page-applications}

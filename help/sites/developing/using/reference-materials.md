@@ -3,13 +3,16 @@ title: Reference Materials
 seo-title: Reference Materials
 description: Documentation for the APIs that AEM provides for developing applications
 seo-description: Documentation for the APIs that AEM provides for developing applications
-uuid: 135c7ea4-1b6e-47de-b8b4-7defe1b58d36
+uuid: 09d43d53-0ce3-4805-bf18-605d225527d9
 contentOwner: Guillaume Carlino
 topic-tags: introduction
 audience: developing
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SITES
-discoiquuid: cdc5906f-885d-45d2-a2f8-37f16a20aae2
+discoiquuid: 2078ab1e-fd9f-4b7b-a5d2-e0da14304039
+index: y
+internal: n
+snippet: y
 ---
 
 # Reference Materials{#reference-materials}

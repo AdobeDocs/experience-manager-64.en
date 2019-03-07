@@ -3,12 +3,15 @@ title: Community Functions
 seo-title: Community Functions
 description: Learn how to access the Community Functions console
 seo-description: Learn how to access the Community Functions console
-uuid: 836e321c-24fa-4bda-9c95-16d5bb023115
+uuid: 8eb17f79-339a-4eb6-a9d1-b3ef4eb4b5bf
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 044e13b4-0165-4f77-baed-609b897b73fe
+discoiquuid: 799564eb-acdd-42aa-9798-849750e9d9d1
+index: y
+internal: n
+snippet: y
 ---
 
 # Community Functions{#community-functions}
@@ -27,7 +30,7 @@ A number of community functions are immediately available as seen in the communi
 
 In the author environment, to reach the community functions console
 
-* from global navigation :** Tools, Communities, Community Functions**
+* from global navigation : **Tools, Communities, Community Functions**
 
 ![](assets/chlimage_1-379.png)
 

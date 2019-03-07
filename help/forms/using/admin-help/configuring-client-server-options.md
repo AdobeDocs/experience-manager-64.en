@@ -3,12 +3,15 @@ title: Configuring client and server options
 seo-title: Configuring client and server options
 description: Learn how you can configure the various client and server options, such as server configuration settings, document security roles, and event auditing.
 seo-description: Learn how you can configure the various client and server options, such as server configuration settings, document security roles, and event auditing.
-uuid: 8d9c58ee-6a73-4bbd-848f-0bd1d7dbc3a7
+uuid: 79eb18b9-b5fe-48df-aee0-0c50ab3a6997
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_document_security
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 9a4d150a-371f-421c-a602-e22f7af5f1ef
+discoiquuid: 864c5602-840f-4edf-803d-cc8cff25e21f
+index: y
+internal: n
+snippet: y
 ---
 
 # Configuring client and server options{#configuring-client-and-server-options}
@@ -770,8 +773,8 @@ In the document security configuration file, you can specify the default frequen
 
 You can configure document security to deny services to applications that meet specific criteria. The criteria can specify a single attribute such as a platform name or it can specify multiple sets of attributes. This feature can help you control the requests document security must handle. Here are some applications of this feature:
 
-* **Revenue protection:** You may want to deny access to any client application that does not support your revenue conventions.
-* **Application compatibility:** Some application may be incompatible with the policies or behavior of your document security server.
+* **Revenue protection: **You may want to deny access to any client application that does not support your revenue conventions.
+* **Application compatibility: **Some application may be incompatible with the policies or behavior of your document security server.
 
 When client applications attempt to establish a link with document security, they supply application, version, and platform information. Document security compares this information against Denials settings it obtains from the document security configuration file.
 
@@ -801,21 +804,21 @@ Several Adobe applications include product information when requesting document 
 
 When Acrobat or Adobe Reader request a service from document security, it supplies the following product information:
 
-* **Integrator:** Adobe Systems, Inc.
-* **Integrator version:** 1.0
-* **Application family:** Acrobat
-* **Application name:** Acrobat
-* **Application version:** 9.0.0
+* **Integrator: **Adobe Systems, Inc.
+* **Integrator version: **1.0
+* **Application family: **Acrobat
+* **Application name: **Acrobat
+* **Application version: **9.0.0
 
 **Acrobat Reader DC extensions for Microsoft Office**
 
 Acrobat Reader DC extensions for Microsoft Office is a plug-in used with the Microsoft Office products Microsoft Word, Microsoft Excel, and Microsoft PowerPoint. When it requests a service, it supplies the following information:
 
-* **Integrator:** Adobe Systems Incorporated
-* **Integrator version:** 8.2
-* **Application family:** Acrobat Reader DC extensions for Microsoft Office
-* **Application name:** Microsoft Word, Microsoft Excel, or Microsoft PowerPoint
-* **Application version:** 2003 or 2007
+* **Integrator: **Adobe Systems Incorporated
+* **Integrator version: **8.2
+* **Application family: **Acrobat Reader DC extensions for Microsoft Office
+* **Application name: **Microsoft Word, Microsoft Excel, or Microsoft PowerPoint
+* **Application version: **2003 or 2007
 
 **Configure document security to deny services for specific applications**
 

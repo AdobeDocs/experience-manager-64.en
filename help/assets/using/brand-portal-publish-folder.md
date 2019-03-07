@@ -3,12 +3,15 @@ title: Publish folders to Brand Portal
 seo-title: Publish folders to Brand Portal
 description: Learn how to publish and unpublish folders to Brand Portal.
 seo-description: Learn how to publish and unpublish folders to Brand Portal.
-uuid: 572dc70f-e93f-41b5-b6e5-c262b6377c82
+uuid: 684a8d30-2501-40af-9931-5bb63c6e4906
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: brand-portal
 content-type: reference
-discoiquuid: cee3e1bd-96c1-4fbd-b0aa-bb7e5168a5f7
+discoiquuid: 34861c53-ea8e-4391-bc3f-0ff69b1fff27
+index: y
+internal: n
+snippet: y
 ---
 
 # Publish folders to Brand Portal{#publish-folders-to-brand-portal}

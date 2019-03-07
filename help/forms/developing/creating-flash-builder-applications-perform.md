@@ -3,12 +3,15 @@ title: Creating Flash Builder applicationsthat perform SSO authentication using 
 seo-title: Creating Flash Builder applicationsthat perform SSO authentication using HTTP tokens
 description: null
 seo-description: null
-uuid: 4c910952-023c-4f51-b83a-e510df077571
+uuid: df8e3af9-9df7-4d16-9571-12be862bfe47
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: coding
-discoiquuid: 38d97823-4a19-4327-ac1b-0051452f0658
+discoiquuid: cea6000f-10db-441e-8b3b-3416a20f1b0e
+index: y
+internal: n
+snippet: y
 ---
 
 # Creating Flash Builder applicationsthat perform SSO authentication using HTTP tokens{#creating-flash-builder-applicationsthat-perform-sso-authentication-using-http-tokens}

@@ -3,12 +3,15 @@ title: Protecting Documents with Policies
 seo-title: Protecting Documents with Policies
 description: null
 seo-description: null
-uuid: b48169c3-f0ee-4494-ab66-fd7b7673d70d
+uuid: 81d2a1f9-674f-4478-90a9-b2c30c82d2ec
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: df5918d6-c657-4ff4-947f-4b462a10aede
+discoiquuid: c6de6f81-ab4d-45ac-8a17-fd5f697f1932
+index: y
+internal: n
+snippet: y
 ---
 
 # Protecting Documents with Policies{#protecting-documents-with-policies}

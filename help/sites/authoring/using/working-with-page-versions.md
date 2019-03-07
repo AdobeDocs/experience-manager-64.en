@@ -3,12 +3,15 @@ title: Working with Page Versions
 seo-title: Working with Page Versions
 description: Create, compare, and restore versions of a page
 seo-description: Create, compare, and restore versions of a page
-uuid: 735d3b8d-b122-489a-b771-db4395092a41
+uuid: 304d4d42-5207-4117-95ee-bc134008862c
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: 6efb2d4e-a9c0-4dbb-aae8-dc0c1d1e9651
+discoiquuid: 3f277fb0-5200-4d4e-81a7-61f9602b6965
+index: y
+internal: n
+snippet: y
 ---
 
 # Working with Page Versions{#working-with-page-versions}

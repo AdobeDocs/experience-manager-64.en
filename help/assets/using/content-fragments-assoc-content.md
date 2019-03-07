@@ -3,12 +3,15 @@ title: Associated Content
 seo-title: Associated Content
 description: Associated content provides the connection so that assets can be (optionally) used with the fragment when it is added to a content page.
 seo-description: Associated content provides the connection so that assets can be (optionally) used with the fragment when it is added to a content page.
-uuid: f6670d56-673d-4415-be22-dffec84fd094
+uuid: 55258c7a-e15d-43ae-9dc7-21c7f3847b2c
 contentOwner: Alison Heimoz
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: content-fragments
 content-type: reference
-discoiquuid: 795ce00a-2127-4c7b-b013-4da2dd3091cd
+discoiquuid: 02db52ee-4e8a-434c-95a5-d7065032cc00
+index: y
+internal: n
+snippet: y
 ---
 
 # Associated Content{#associated-content}

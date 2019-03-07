@@ -3,12 +3,15 @@ title: Integrating with Adobe Dynamic Tag Management
 seo-title: Integrating with Adobe Dynamic Tag Management
 description: Learn about integration with Adobe Dynamic Tag Management.
 seo-description: Learn about integration with Adobe Dynamic Tag Management.
-uuid: 431f7d15-375b-4d20-b1a1-b0cc18957f1b
+uuid: 960491a4-2cb0-42b7-983a-66abfe93b148
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: fee45d2e-ea93-4961-b00a-bcc667d6c809
+discoiquuid: e53e2355-6db6-469f-be8e-fcbcf0e1d911
+index: y
+internal: n
+snippet: y
 ---
 
 # Integrating with Adobe Dynamic Tag Management{#integrating-with-adobe-dynamic-tag-management}

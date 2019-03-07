@@ -3,12 +3,15 @@ title: Configure AEM forms to prefetchdomain information
 seo-title: Configure AEM forms to prefetchdomain information
 description: Configure AEM forms to prefetch domain information if you experience a slower response time due to deeply nested groups or if you are a member of many groups. 
 seo-description: Configure AEM forms to prefetch domain information if you experience a slower response time due to deeply nested groups or if you are a member of many groups. 
-uuid: 573b56ff-29e9-4037-8865-b5d849b61963
+uuid: 3a6bd8f8-9372-4468-a098-2bead3721be6
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_user_management
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 2bcbe45c-3e57-46c1-b1a4-9d3a54689dcc
+discoiquuid: ca1d1d40-b076-493f-8fe3-88458dd38af5
+index: y
+internal: n
+snippet: y
 ---
 
 # Configure AEM forms to prefetchdomain information{#configure-aem-forms-to-prefetchdomain-information}

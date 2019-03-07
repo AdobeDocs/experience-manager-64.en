@@ -3,12 +3,15 @@ title: Authoring Mobile Applications
 seo-title: Authoring Mobile Applications
 description: he AEM Mobile Dashboard allows you to create, build and deploy your mobile application, create, delete and edit application metadata. Follow this page to learn more.
 seo-description: he AEM Mobile Dashboard allows you to create, build and deploy your mobile application, create, delete and edit application metadata. Follow this page to learn more.
-uuid: 7916ad84-0392-43a2-9ee6-28887bdd5fef
+uuid: 0341b9b1-9617-453b-9e47-05bb97480bfb
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: authoring-adobe-phonegap-enterprise
-discoiquuid: 2cc138de-05c7-4196-b1c4-7dab20c70da4
+discoiquuid: 27dd7f53-0264-4813-b2e9-0f9e65d26399
+index: y
+internal: n
+snippet: y
 ---
 
 # Authoring Mobile Applications{#authoring-mobile-applications}

@@ -3,12 +3,15 @@ title: Communities Notifications
 seo-title: Communities Notifications
 description: AEM Communities has notifications that display events of interest to the signed-in community member
 seo-description: AEM Communities has notifications that display events of interest to the signed-in community member
-uuid: 44301760-59a1-4aec-baad-d5834d9d7802
+uuid: f851b4ad-445c-4964-8cf1-e4ea3a2e5786
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 0a7d3f19-091d-447b-8718-38604c9cd388
+discoiquuid: cc0cd784-cb98-4076-b8cf-d73253d00848
+index: y
+internal: n
+snippet: y
 ---
 
 # Communities Notifications{#communities-notifications}

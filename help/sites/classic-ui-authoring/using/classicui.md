@@ -3,12 +3,15 @@ title: Authoring in the Classic UI
 seo-title: Authoring in the Classic UI
 description: The Classic UI is the desktop-oriented user interface that as been available since CQ5. The following documentation on authoring is focused on this UI. The touch-based UI is the new standard user interface for AEM, designed for use on both touch and desktop devices. Please see the standard authoring documentation for further information. 
 seo-description: The Classic UI is the desktop-oriented user interface that as been available since CQ5. The following documentation on authoring is focused on this UI. The touch-based UI is the new standard user interface for AEM, designed for use on both touch and desktop devices. Please see the standard authoring documentation for further information. 
-uuid: ebf2efc0-9ec6-4ff8-a437-4a1ddce13b62
+uuid: 55b1f244-9bf1-4e6e-95b3-5476c533845f
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
-discoiquuid: 6d57d571-f792-42d9-93be-744be7cb5b8d
+discoiquuid: b07cd6e0-5fc3-47a0-8297-ea6a0b232f40
+index: y
+internal: n
+snippet: y
 ---
 
 # Authoring in the Classic UI{#authoring-in-the-classic-ui}

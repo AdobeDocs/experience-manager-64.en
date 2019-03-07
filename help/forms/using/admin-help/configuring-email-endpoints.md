@@ -3,12 +3,15 @@ title: Configuring email endpoints
 seo-title: Configuring email endpoints
 description: Learn how to configure email endpoints.
 seo-description: Learn how to configure email endpoints.
-uuid: cc758f73-f120-488f-ad62-6b90838fb628
+uuid: 61dfd192-0ce7-4c08-a451-94f847573196
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/managing_endpoints
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 8c43aaba-3299-4d66-b621-141255996175
+discoiquuid: f6fbb1cd-81b8-4d18-9f53-15422a266ba2
+index: y
+internal: n
+snippet: y
 ---
 
 # Configuring email endpoints{#configuring-email-endpoints}
@@ -230,21 +233,21 @@ The default value is asynchronous.
 
 **Output Parameter Mappings:** Used to configure the output of the service and operation. The following characters in the output parameter mapping values are expanded in the attachment filename:
 
-**`%F`** Represents the source file’s filename (not including an extension).
+**%F** Represents the source file’s filename (not including an extension).
 
-**`%E`** Represents the source file’s extension.
+**%E** Represents the source file’s extension.
 
-Any occurrence of the backslash (\) is replaced with `%%`.
+**** Any occurrence of the backslash (\) is replaced with %%.
 
-**note**: If the service request message includes multiple file attachments, you cannot use the `%F` and `%E` parameters for the Output Parameter Mappints property of the endpoint. If the services response returns multiple file attachments, you cannot specify the same file name for more than one attachment. If you do not follow these recommendations, the invoked service create the names for the returned files, and the names are not predictable.*
+***note**: If the service request message includes multiple file attachments, you cannot use the %F and %E parameters for the Output Parameter Mappints property of the endpoint. If the services response returns multiple file attachments, you cannot specify the same file name for more than one attachment. If you do not follow these recommendations, the invoked service create the names for the returned files, and the names are not predictable.*
 
 The following values are available:
 
-**Single Object:** The email provider does not have the source folder destination; results are returned as attachments. The pattern is `Result/%F.ps` and returns `Result%%sourcefilename.ps` as the filename attachment.
+**Single Object:** The email provider does not have the source folder destination; results are returned as attachments. The pattern is Result/%F.ps and returns Result%%sourcefilename.ps as the filename attachment.
 
-**List:** The pattern is `Result/%F/` and returns `Result%%sourcefilename%%file1` as the filename attachment.
+**List:** The pattern is Result/%F/ and returns Result%%sourcefilename%%file1 as the filename attachment.
 
-**Map:** The pattern is `Result/%F/` and the source destination is `Result%%sourcefilename%%file1` and `Result%%sourcefilename%%file2`. If the map contains more than one object and the pattern is `Result/%F.ps`, the response file attachments are `Result%%sourcefilename1.ps` (output 1) and `Result%%sourcefilename2.ps` (output 2).
+**Map:** The pattern is Result/%F/ and the source destination is Result%%sourcefilename%%file1 and Result%%sourcefilename%%file2. If the map contains more than one object and the pattern is Result/%F.ps, the response file attachments are Result%%sourcefilename1.ps (output 1) and Result%%sourcefilename2.ps (output 2).
 
 ## Create an Email endpoint for the Complete Task service {#create-an-email-endpoint-for-the-complete-task-service}
 
@@ -265,3 +268,4 @@ For forms workflow to receive and handle incoming email messages from users, you
 1. In the mailFrom list, select Variable and type `%SENDER%` in the adjacent box. This maps the sender address to the Complete Task process data.
 1. In the results box, type `results`. This causes the Complete Task or Start Process to return a result string.
 1. Click Add.
+

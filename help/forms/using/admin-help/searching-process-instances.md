@@ -3,12 +3,15 @@ title: Searching for process instances
 seo-title: Searching for process instances
 description: Use the Process Search page to enter search criteria for finding a process instance.
 seo-description: Use the Process Search page to enter search criteria for finding a process instance.
-uuid: 6751f917-1d2b-4f8d-936c-774d5bc0e271
+uuid: 436e3d79-58a7-4c47-b606-3cfb7db119c6
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_forms_workflow
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: fc1be4b5-bbb5-4662-88e9-34572e9184fe
+discoiquuid: 737a4b33-0d1f-48e6-ae0d-6c6a9e2618e0
+index: y
+internal: n
+snippet: y
 ---
 
 # Searching for process instances{#searching-for-process-instances}
@@ -26,10 +29,10 @@ Enter basic criteria to perform a general search. If you enter multiple criteria
 1. In administration console, click Services &gt; Forms workflow &gt; Process Search.
 1. On the Process Search page, under General Search, provide the following criteria:
 
-    * **Process ID:** The positive integer that identifies each unique process instance.
-    * **Process Status:** Select a status from the list.
-    * **Application:** Select an application from the list. Only deployed applications are shown.
-    * **Process Name - Version:** Select a process name from the menu. Only deployed processes are shown.
+    * **Process ID: **The positive integer that identifies each unique process instance.
+    * **Process Status: **Select a status from the list.
+    * **Application: **Select an application from the list. Only deployed applications are shown.
+    * **Process Name - Version: **Select a process name from the menu. Only deployed processes are shown.
 
 1. Click Search. The Process Instance page appears, listing the found instances.
 

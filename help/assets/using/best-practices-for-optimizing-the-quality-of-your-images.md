@@ -3,12 +3,15 @@ title: Best practices for optimizing the quality of your images
 seo-title: Best practices for optimizing the quality of your images
 description: Learn best practices for optimizing image quality in dynamic media
 seo-description: Learn best practices for optimizing image quality in dynamic media
-uuid: abdf170f-ad70-4de0-ad3c-99283dad23f0
+uuid: c461877a-93dd-416e-ba5c-803c3af20a06
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: a125de08-709e-467e-8fc6-1ea97db38ab7
+discoiquuid: 6e0169c0-c7fe-4ba7-b040-9dd98d987360
+index: y
+internal: n
+snippet: y
 ---
 
 # Best practices for optimizing the quality of your images{#best-practices-for-optimizing-the-quality-of-your-images}

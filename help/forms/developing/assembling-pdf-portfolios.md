@@ -3,13 +3,16 @@ title: Assembling PDF Portfolios
 seo-title: Assembling PDF Portfolios
 description: null
 seo-description: null
-uuid: 6a3fe591-9d16-4fca-9b8e-466584ff6952
+uuid: 8cf1bbde-7ab8-453c-87e0-9fa1cd4e2412
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/assembling_pdf_documents
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: b51c4c2b-a1ed-41e8-8ceb-181469205aac
+discoiquuid: 69644cc4-7d3f-4ac6-a0f5-c0b5e89f61bf
+index: y
+internal: n
+snippet: y
 ---
 
 # Assembling PDF Portfolios{#assembling-pdf-portfolios}

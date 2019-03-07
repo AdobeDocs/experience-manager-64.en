@@ -3,13 +3,16 @@ title: Managing Viewer Presets
 seo-title: Managing Viewer Presets
 description: How to create and manage viewer presets
 seo-description: How to create and manage viewer presets
-uuid: fda4d1e1-92bb-4582-8d79-a8b91fe449ea
+uuid: 9d785ad6-109f-4200-ab53-45b184118f03
 contentOwner: Alva Ware-Bevacqui
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: e9104f7a-7c9f-455b-abe3-84a54dc8b598
+discoiquuid: c1c69a4c-fd7d-4850-a34c-752c0505c7e1
 legacypath: /content/docs/en/aem/6-0/administer/integration/dynamic-media/viewer-presets
+index: y
+internal: n
+snippet: y
 ---
 
 # Managing Viewer Presets{#managing-viewer-presets}

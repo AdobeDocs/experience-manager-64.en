@@ -3,22 +3,25 @@ title: Managing certificates
 seo-title: Managing certificates
 description: Learn how to import and export a certificate and edit its trust settings.
 seo-description: Learn how to import and export a certificate and edit its trust settings.
-uuid: dfd28819-3224-47f5-b0d1-46be90d0cdb5
+uuid: 63bafa4f-ffba-4e45-a9d6-1ffa599f99ac
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/managing_certificates_and_credentials
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: a23ef188-a023-413d-8ab8-006546415524
+discoiquuid: fcf20b6e-ce19-4e61-89fb-7b2da73f8368
+index: y
+internal: n
+snippet: y
 ---
 
 # Managing certificates{#managing-certificates}
 
 Using the Trust Store Management, you can import, edit, and delete certificates that you trust on the server for validation of digital signatures and certificate authentication. You can import and export any number of certificates. After a certificate is imported, you can edit the trust settings and trust store type. Consider the following options when combining trust store types:
 
-* **Trust for Certificate Authentication with CA:** For CRL validation, also select Trust for Identity.
-* **Trust for Certificate Authentication with ICA:** Select only Trust for Identity**. **An ICA should not be trusted for Certificate Authentication. If you trust the ICA for Certificate Authentication, the ICA becomes a CA for path building. If the ICA is trusted for both Certificate Authentication and Identity, the CA vendor certificate is ignored because the ICA becomes the CA.
-* **Trust for OCSP Server with HTTPs:** If the OSCP respondent server resides at an HTTPs location, you must also select Trust for SSL Connections. If the OSCP respondent requires CRL validation, ensure that you also select Trust for Identity.
-* **Adobe Root:** Do not select SSL Connections or OCSP Server Trust Store Types. Adobe Root is not trusted for SSL Connections and OCSP Server. Adobe does not issue OCSP and SSL certificates. Adobe Root is implicitly trusted with an alias name="ADOBEROOT".
+* **Trust for Certificate Authentication with CA: **For CRL validation, also select Trust for Identity.
+* **Trust for Certificate Authentication with ICA: **Select only Trust for Identity**. **An ICA should not be trusted for Certificate Authentication. If you trust the ICA for Certificate Authentication, the ICA becomes a CA for path building. If the ICA is trusted for both Certificate Authentication and Identity, the CA vendor certificate is ignored because the ICA becomes the CA.
+* **Trust for OCSP Server with HTTPs: **If the OSCP respondent server resides at an HTTPs location, you must also select Trust for SSL Connections. If the OSCP respondent requires CRL validation, ensure that you also select Trust for Identity.
+* **Adobe Root: **Do not select SSL Connections or OCSP Server Trust Store Types. Adobe Root is not trusted for SSL Connections and OCSP Server. Adobe does not issue OCSP and SSL certificates. Adobe Root is implicitly trusted with an alias name="ADOBEROOT".
 
 Only X509v3 certificates are supported. This certificate type can be supplied in a binary DER-encoded file (.cer file) or a text file that contains a Base64-encoded version of the same DER-encoded certificate (including X509 certificates in Privacy Enhanced Mail (PEM) format).
 
@@ -31,12 +34,12 @@ You can also import and delete certificates using the Trust Manager API. For det
 1. In administration console, click Settings &gt;Trust Store Management &gt; Certificates.
 1. Click Import and, under Trust Store Type, select one of these options:
 
-    * **Trust for SSL Connections:** Specifies that AEM forms can use certificates to connect to external systems over SSL. 
-    * **Trust for Certify Signature:** Specifies that certificates are trusted in document signing operations for certifying author digital signatures. 
-    * **Trust for Signature:** Specifies that certificates are trusted in document signing operations for non-author digital signatures. 
-    * **Trust for Certificate Authentication:** Specifies AEM forms uses certificates for authenticating users using certificate or smart card authentication.
-    * **Trust for OCSP Server:** Specifies that AEM forms can use certificates to connect to external OCSP responders
-    * **Trust for Identity:** Specifies that certificates can be used to trust information other than types specified above.
+    * **Trust for SSL Connections: **Specifies that AEM forms can use certificates to connect to external systems over SSL. 
+    * **Trust for Certify Signature: **Specifies that certificates are trusted in document signing operations for certifying author digital signatures. 
+    * **Trust for Signature: **Specifies that certificates are trusted in document signing operations for non-author digital signatures. 
+    * **Trust for Certificate Authentication: **Specifies AEM forms uses certificates for authenticating users using certificate or smart card authentication.
+    * **Trust for OCSP Server: **Specifies that AEM forms can use certificates to connect to external OCSP responders
+    * **Trust for Identity: **Specifies that certificates can be used to trust information other than types specified above.
 
    >[!NOTE]
    >

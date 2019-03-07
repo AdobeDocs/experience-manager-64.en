@@ -3,12 +3,15 @@ title: Trying out Experience Fragments in We.Retail
 seo-title: Trying out Experience Fragments in We.Retail
 description: Trying out Experience Fragments in We.Retail
 seo-description: Trying out Experience Fragments in We.Retail
-uuid: 9e3f3137-5288-4fc4-9a8a-f605847a4a5c
+uuid: 5af5617d-6f7b-458d-bb19-6806d2df9e60
 contentOwner: aheimoz
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
-discoiquuid: 3091d54a-53ce-4971-bbb7-d71d377f30ff
+discoiquuid: b4498b25-ac5d-4ba1-a977-1630dca2e612
+index: y
+internal: n
+snippet: y
 ---
 
 # Trying out Experience Fragments in We.Retail{#trying-out-experience-fragments-in-we-retail}

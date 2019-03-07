@@ -4,12 +4,15 @@ seo-title: [DO NOT PUBLISH] Upgrade or migrate to AEM 6.3 Forms
 description: You can perform a direct upgrade from AEM 6.1 Forms and AEM 6.2 Forms to AEM 6.3 Forms. You can also perform a multi-hop upgrade from a LiveCycle version to AEM 6.3 Forms. 
 seo-description: You can perform a direct upgrade from AEM 6.1 Forms and AEM 6.2 Forms to AEM 6.3 Forms. You can also perform a multi-hop upgrade from a LiveCycle version to AEM 6.3 Forms. 
 page-status-flag: never-activated
-uuid: ec3d0632-8cfd-4807-92cb-ea182fdb8c4c
+uuid: d8066c24-213b-4d04-8b9a-2cc745a45f3d
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.3/FORMS
 topic-tags: installing
 geptopics: SG_AEMFORMS/categories/jee
-discoiquuid: f66cd25b-e75b-4a83-80ed-f6573bfbfa21
+discoiquuid: a37934fd-65bb-40fc-9088-902836e59de3
+index: y
+internal: n
+snippet: y
 ---
 
 # [DO NOT PUBLISH] Upgrade or migrate to AEM 6.3 Forms{#do-not-publish-upgrade-or-migrate-to-aem-forms}
@@ -166,7 +169,7 @@ You can perform a direct upgrade from AEM 6.1 Forms and AEM 6.2 Forms to AEM 6.3
 
 1. Verify that the server is upgraded successfully, all the data is also migrated successfully, and it can operate normally.
 
-    * **Verify the status of the bundles:** Ensure that all the bundles are in active state.  
+    * **Verify the status of the bundles: **Ensure that all the bundles are in active state.  
     
     * **Verify replication and reverse replication:** Publish, fill, and submit a few migrated forms. Verify the submitted data also.
     * **Verify access to admin and developer user interfaces:** Log in to AEM instance from an admin account and verify that you have access to the following URLs:

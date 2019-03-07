@@ -3,12 +3,15 @@ title: Creating Translation Projects
 seo-title: Creating Translation Projects
 description: Learn how to create translation projects in AEM.
 seo-description: Learn how to create translation projects in AEM.
-uuid: 5dc7f506-6a2e-4b3f-875e-b51e7d44539b
+uuid: aab0d1df-dd8b-41e0-a233-5d3e8001fab6
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference
-discoiquuid: 00560fd9-f1a3-4194-bb0d-48f3834808f5
+discoiquuid: a8c3a7dd-40c1-467f-817c-5271d74909b1
+index: y
+internal: n
+snippet: y
 ---
 
 # Creating Translation Projects{#creating-translation-projects}
@@ -292,7 +295,7 @@ When you run a translation workflow to update a language copy with edited versio
    ![](assets/chlimage_1-105.png)
 
 1. Edit the asset and then save the changes.
-1. Perform steps 2-14 of the [Add to existing translation project](#main-pars-title-0) procedure to update the language copy.
+1. Perform steps 2-14 of the [Add to existing translation project](#add-to-existing-translation-project) procedure to update the language copy.
 1. Click/tap the ellipsis at the bottom of the **Translation Job** tile. From the list of assets in the **Translation Job** page, you can clearly view the temporary location where the translated version of the asset is stored.
 
    ![](assets/chlimage_1-106.png)

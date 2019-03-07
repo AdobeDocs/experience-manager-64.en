@@ -3,12 +3,15 @@ title: Working with AEM Forms Repository
 seo-title: Working with AEM Forms Repository
 description: null
 seo-description: null
-uuid: cd2c4624-cdc0-4ec3-a9a4-2e4a19da78ea
+uuid: 358afcb5-a62d-4166-b5ee-485b54dcef30
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: 1cd19215-69ac-4146-8291-ef5bfccdbee9
+discoiquuid: 76ee8fb1-0087-4e94-9385-dcfecee2d4ef
+index: y
+internal: n
+snippet: y
 ---
 
 # Working with AEM Forms Repository{#working-with-aem-forms-repository}

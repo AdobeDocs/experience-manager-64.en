@@ -3,11 +3,14 @@ title: Introduction to Process Reporting
 seo-title: Introduction to Process Reporting
 description: Introduction and key capabilities of AEM Forms on JEE Process Reporting
 seo-description: Introduction and key capabilities of AEM Forms on JEE Process Reporting
-uuid: 88a93479-7c83-4ba6-8344-c848159c1bec
+uuid: fc2046e1-8e80-42fe-a9ec-8181a836474d
 content-type: reference
 topic-tags: process-reporting
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 79a3509f-c4e3-4832-8e46-3c2dcabd6c14
+discoiquuid: 84336fdd-e595-4f8e-8553-0c33a9d023a2
+index: y
+internal: n
+snippet: y
 ---
 
 # Introduction to Process Reporting{#introduction-to-process-reporting}
@@ -20,7 +23,7 @@ Process Reporting provides a set of out-of-the-box reports that allow you to fil
 
 Additionaly Process Reporting provides an interface to run adhoc queries and to integrate custom report views into the Process Reporting user interface.
 
-For the list of supported browsers, see [AEM Forms Supported Platforms](../../../forms/using/aem-forms-jee-supported-platforms.md).
+For the list of supported browsers, see [AEM Forms Supported Platforms](../../../forms/using/AEM-forms-JEE-supported-platforms.md).
 
 Process Reporting is built on modules that:
 

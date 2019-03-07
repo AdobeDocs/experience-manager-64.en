@@ -3,12 +3,15 @@ title: Applying translation cloud services to folders
 seo-title: Applying translation cloud services to folders 
 description: null
 seo-description: null
-uuid: 201a5dcb-7748-46ff-8450-2e3c6eecd72f
+uuid: 64467459-2bc2-4dde-9b38-a3b815f4ebbd
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference
-discoiquuid: 1af39db4-39c6-490a-9c6b-e440ce2f743f
+discoiquuid: 16a92fd5-2a8d-4664-b034-27cfe0ed3ea7
+index: y
+internal: n
+snippet: y
 ---
 
 # Applying translation cloud services to folders {#applying-translation-cloud-services-to-folders}
@@ -51,7 +54,7 @@ If you want to apply a custom connector for the translation services you want to
 
    ![](assets/chlimage_1-224.png)
 
-1. Specify a title and a name for the connector, and then click/tap **Create**. The custom connector is available in the list of connectors in the **Cloud Services** tab described in step 5 of [Applying the translation services](#main-pars-title-1392200838). 
+1. Specify a title and a name for the connector, and then click/tap **Create**. The custom connector is available in the list of connectors in the **Cloud Services** tab described in step 5 of [Applying the translation services](#applying-the-translation-services). 
 1. Run any translation workflow described in [Creating Translation Projects](../../assets/using/translation-projects.md) after you apply the custom connector. Verify the details of the connector in the **Translation Summary** tile of the translation project in the **Projects** console.
 
    ![](assets/chlimage_1-225.png)

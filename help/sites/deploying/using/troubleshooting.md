@@ -3,12 +3,15 @@ title: Troubleshooting
 seo-title: Troubleshooting
 description: This article covers some of the installation issues you might encounter with AEM.
 seo-description: This article covers some of the installation issues you might encounter with AEM.
-uuid: 8b24a8df-ca2f-4946-bc8e-0e4d6023bdb1
+uuid: b62b3514-0fe8-4e01-b52e-e647637119e6
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
-discoiquuid: 73ddb2ed-a545-4500-95d1-76265ae86bd5
+discoiquuid: 3526b62a-941e-4408-9b25-7ef766d2a2ec
+index: y
+internal: n
+snippet: y
 ---
 
 # Troubleshooting{#troubleshooting}
@@ -98,7 +101,7 @@ If everything else fails, check the logs to find out what has happened.
 
 **Applies to WebLogic 10.3.5 and JBoss 5.1**
 
-When a request to geometrixx-outdoors/en page returns a 404 (Page Not Foun) then you may recheck that you have set the additional sling property in the sling.properties file needed for these specific Application Servers.
+****When a request to geometrixx-outdoors/en page returns a 404 (Page Not Foun) then you may recheck that you have set the additional sling property in the sling.properties file needed for these specific Application Servers.
 
 See in the *Deploy AEM web application* steps for the details.
 

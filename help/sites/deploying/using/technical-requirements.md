@@ -3,12 +3,15 @@ title: Technical Requirements
 seo-title: Technical Requirements
 description: A list of the supported client and server platforms for AEM.
 seo-description: A list of the supported client and server platforms for AEM.
-uuid: 7ca956c3-320a-4c95-bc8c-e4f5da7e4174
+uuid: 29c519df-1b31-4e6f-aa0f-cbf270bb3062
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: platform
-discoiquuid: 4a826384-f330-4ecd-bbf6-221d7d33013b
+discoiquuid: 3a8b3e58-3de7-4b2a-a55a-ca75686468ae
+index: y
+internal: n
+snippet: y
 ---
 
 # Technical Requirements{#technical-requirements}

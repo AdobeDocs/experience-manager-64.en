@@ -3,12 +3,15 @@ title: Managing the categories displayed in Workspace
 seo-title: Managing the categories displayed in Workspace 
 description: In Workspace, the processes that a user can start are displayed in categories in the left navigation pane. Learn how you can manage these categories displayed in Workspace.
 seo-description: In Workspace, the processes that a user can start are displayed in categories in the left navigation pane. Learn how you can manage these categories displayed in Workspace.
-uuid: 58d595f0-213e-4bc0-834f-a8b3a6406644
+uuid: 51dec54f-9ca1-45c0-b581-748fdffff1d2
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_workspace
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 6a5620a4-36c9-4b2e-8246-8e3a0f865893
+discoiquuid: 65e5960d-20ae-472a-9f19-c513d74d03da
+index: y
+internal: n
+snippet: y
 ---
 
 # Managing the categories displayed in Workspace {#managing-the-categories-displayed-in-workspace}

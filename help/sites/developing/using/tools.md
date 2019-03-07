@@ -3,12 +3,15 @@ title: Testing and Tracking Tools
 seo-title: Testing and Tracking Tools
 description: AEM provides a framework for testing component UI and a mechanism for testing and debugging components
 seo-description: AEM provides a framework for testing component UI and a mechanism for testing and debugging components
-uuid: 8b8e7b97-5d0c-40fc-a15f-e6f81f1f7478
+uuid: efe43db3-0efd-412f-8f19-a54cd58227cb
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: testing
 content-type: reference
-discoiquuid: 81a1f0e6-d6b2-401b-b005-2f728ad40c14
+discoiquuid: 10106ce0-d42c-47fe-9988-c908e361d0d6
+index: y
+internal: n
+snippet: y
 ---
 
 # Testing and Tracking Tools{#testing-and-tracking-tools}

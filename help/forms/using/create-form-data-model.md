@@ -4,10 +4,13 @@ seo-title: Create Form Data Model Tutorial
 description: null
 seo-description: null
 page-status-flag: de-activated
-uuid: 5819ae14-e92d-4d9a-888d-e11f66b3ab2c
+uuid: adb87844-5236-4db2-b637-1c8c094b818a
 contentOwner: khsingh
 products: SG_EXPERIENCEMANAGER/6.3/FORMS
-discoiquuid: 6cb3e7d8-4062-489a-a00a-b49f633105d1
+discoiquuid: b3b4ec75-1282-423c-9b70-2a0fbe76f47b
+index: y
+internal: n
+snippet: y
 ---
 
 # [DO NOT PUBLISH] Tutorial: Create form data model {#do-not-publish-tutorial-create-form-data-model}
@@ -71,8 +74,8 @@ Do the following to configure your MySQL database:
         * **JDBC driver class**: Specify Java class name of the JDBC driver. For MySQL database, specify **com.mysql.jdbc.Driver**. 
         
         * **JDBC connection URI**: Specify connection URL of the database. For MySQL database running on port 3306 and schema weretail, the URL is: jdbc:mysql://[server]:3306/weretail?autoReconnect=true&useUnicode=true&characterEncoding=utf-8
-        * **Username:** Username of the database. It is required to enable JDBC driver to establish a connection with the database.
-        * **Password:** Password of the database. It is required to enable JDBC driver to establish a connection with the database.
+        * **Username: **Username of the database. It is required to enable JDBC driver to establish a connection with the database.
+        * **Password: **Password of the database. It is required to enable JDBC driver to establish a connection with the database.
         * **Test on Borrow:** Enable the **Test on Borrow** option.   
         
         * **Test on Return:** Enable the **Test on Return** option.   

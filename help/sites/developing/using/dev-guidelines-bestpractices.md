@@ -3,12 +3,15 @@ title: AEM Development - Guidelines and Best Practices
 seo-title: AEM Development - Guidelines and Best Practices
 description: Guidelines and best practices for developing on AEM
 seo-description: Guidelines and best practices for developing on AEM
-uuid: 7c8ffc41-06d3-43bc-86e1-3a69df44dde0
+uuid: e0e19e50-9c87-421a-a5b4-1408229233a2
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
-discoiquuid: 07e13661-c104-401e-8e5f-4d129cef005b
+discoiquuid: 43adfaf0-9d84-4de5-8bc0-0ae5b3216b3b
+index: y
+internal: n
+snippet: y
 ---
 
 # AEM Development - Guidelines and Best Practices{#aem-development-guidelines-and-best-practices}

@@ -3,13 +3,16 @@ title: AEM and the Web Accessibility Guidelines
 seo-title: AEM and the Web Accessibility Guidelines
 description: Learn how to create accessible websites and content with AEM.
 seo-description: Learn how to create accessible websites and content with AEM.
-uuid: 934b24f0-e64e-4993-94d4-e5e835f1114f
+uuid: 219af18b-d28d-446c-b5cb-603ced11bc88
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/MANAGING
 topic-tags: managing-accessibility
 content-type: reference
 topic-tags: introduction
-discoiquuid: 4ba2c8ea-ab7c-4577-aaf9-7adcada93d9a
+discoiquuid: 69e21313-9427-48a1-af77-0910065fce88
+index: y
+internal: n
+snippet: y
 ---
 
 # AEM and the Web Accessibility Guidelines{#aem-and-the-web-accessibility-guidelines}

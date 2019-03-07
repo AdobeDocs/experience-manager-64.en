@@ -3,12 +3,15 @@ title: Video
 seo-title: Video
 description: Learn how to work with video in dynamic media
 seo-description: Learn how to work with video in dynamic media
-uuid: 84d4cc53-f7ee-4285-9436-d00c3aba0f18
+uuid: 5366049c-3212-4806-8911-ca988b9a04ac
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: fa98a211-e994-42b1-ac52-3a0f195d68f6
+discoiquuid: b86c7a37-81f0-45c8-a60d-8c7c3686bef2
+index: y
+internal: n
+snippet: y
 ---
 
 # Video{#video}

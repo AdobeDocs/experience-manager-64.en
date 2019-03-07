@@ -3,12 +3,15 @@ title: Your Inbox
 seo-title: Your Inbox
 description: You can receive notifications from various areas of AEM such as notification about work items or tasks that represent actions that you need to perform on page content.
 seo-description: You can receive notifications from various areas of AEM such as notification about work items or tasks that represent actions that you need to perform on page content.
-uuid: a921805a-f514-45a0-9e91-1799ebe1bceb
+uuid: faea1d50-2950-49f3-9c9a-8c0532dc6752
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
-discoiquuid: d947f1b5-e347-4f4b-9498-ebf54ded4b82
+discoiquuid: b8905e78-cd5b-4aa8-8720-fac983d93ebc
+index: y
+internal: n
+snippet: y
 ---
 
 # Your Inbox{#your-inbox}

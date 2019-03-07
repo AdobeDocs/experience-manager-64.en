@@ -4,10 +4,13 @@ seo-title: "DO NOT PUBLISH: AEM Forms Apache Felix and Apache Sling configuratio
 description: This article explores all the Apache Felix/Apache Sling configurations of AEM Forms. These configurations help you change the behavior of an AEM Forms author and publish instance.
 seo-description: This article explores all the Apache Felix/Apache Sling configurations of AEM Forms. These configurations help you change the behavior of an AEM Forms author and publish instance.
 page-status-flag: never-activated
-uuid: f085ff89-3619-4d8d-be31-d10a03faf345
+uuid: 3d0762a3-29c5-4093-8642-5ef6536ea48a
 contentOwner: khsingh
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: cdfaa8bb-19fe-4e15-af9e-25bd50015bc6
+discoiquuid: 363561c5-1be7-4838-bff6-efdee3537910
+index: y
+internal: n
+snippet: y
 ---
 
 # DO NOT PUBLISH: AEM Forms Apache Felix and Apache Sling configurations {#do-not-publish-aem-forms-apache-felix-and-apache-sling-configurations}

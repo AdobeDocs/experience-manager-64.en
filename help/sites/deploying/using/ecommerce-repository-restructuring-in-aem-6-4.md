@@ -3,11 +3,14 @@ title: E-Commerce Repository Restructuring in AEM 6.4
 seo-title: E-Commerce Repository Restructuring in AEM 6.4
 description: Learn how to make the necessary changes in order to migrate to the new repository structure in AEM 6.4 for E-Commerce.
 seo-description: Learn how to make the necessary changes in order to migrate to the new repository structure in AEM 6.4 for E-Commerce.
-uuid: 1f72c94b-f2d9-4aeb-ba7c-26d1b3a3169e
+uuid: ffbde343-b70c-4ba4-a3d2-fb7c5b596f87
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: repo_restructuring
-discoiquuid: e29b51ed-e495-40a7-95ac-37ee0bd955b7
+discoiquuid: 37f9304a-531d-4533-b2c7-35cddaa362c9
+index: y
+internal: n
+snippet: y
 ---
 
 # E-Commerce Repository Restructuring in AEM 6.4{#e-commerce-repository-restructuring-in-aem}

@@ -3,12 +3,15 @@ title: Configuring LDAP with AEM 6
 seo-title: Configuring LDAP with AEM 6
 description: Learn how to configure LDAP with AEM.
 seo-description: Learn how to configure LDAP with AEM.
-uuid: ef06c240-1758-4ad4-bca8-6487cfba3912
+uuid: 4d16567f-be3c-420f-997f-1cf623d9f8b3
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
-discoiquuid: 9d56692d-3381-4e2c-bbb0-f384a55991ac
+discoiquuid: 11678cce-4a7a-4182-b9fe-3e5933586a7a
+index: y
+internal: n
+snippet: y
 ---
 
 # Configuring LDAP with AEM 6{#configuring-ldap-with-aem}
@@ -225,7 +228,7 @@ The following configuration options are available:
 
 AEM 6 can be configured to authenticate with LDAP over SSL by following the below procedure:
 
-1. Check the **Use SSL** or **Use TLS** checkboxes when configuring the [LDAP Identity Provider](#main-pars-title-1).
+1. Check the **Use SSL** or **Use TLS** checkboxes when configuring the [LDAP Identity Provider](#configuring-the-ldap-identity-provider).
 1. Configure the Sync Handler and the External Login module according to your setup.
 1. Install the SSL certificates in your Java VM if needed. This can be done by using keytool:
 

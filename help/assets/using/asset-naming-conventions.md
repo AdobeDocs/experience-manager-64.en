@@ -3,19 +3,22 @@ title: Naming conventions for assets
 seo-title: Naming conventions for assets
 description: Learn about the naming conventions for assets.
 seo-description: Learn about the naming conventions for assets.
-uuid: 886405b5-0980-4d51-9fa8-8aced35df48a
+uuid: 74a09d16-67dc-4e4e-ad12-2791b5cb4e10
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: introduction
 content-type: reference
-discoiquuid: 97745cb6-ea3f-4860-8e8f-d7dacb47aae5
+discoiquuid: 6a0282bc-b55e-4576-a93e-5850176bb9e1
+index: y
+internal: n
+snippet: y
 ---
 
 # Naming conventions for assets{#naming-conventions-for-assets}
 
 Nodes in the repository are subject to naming conventions of the [Java Content Repository](../../sites/developing/using/the-basics.md#javacontentrepository). However, Adobe Experience Manager imposes further conventions for the name of asset nodes.
 
-## TOUCH-OPTIMIZED UI {#touch-optimized-ui}
+### TOUCH-OPTIMIZED UI {#touch-optimized-ui}
 
 The touch-optimized UI:
 

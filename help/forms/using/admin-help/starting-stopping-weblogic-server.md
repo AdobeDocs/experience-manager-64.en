@@ -3,12 +3,15 @@ title: Starting and stopping WebLogic Server
 seo-title: Starting and stopping WebLogic Server
 description: Several procedures require you to start or stop the instance of WebLogic Server where you want to deploy AEM forms modules. This document describes how to start and stop the WebLogic Server.
 seo-description: Several procedures require you to start or stop the instance of WebLogic Server where you want to deploy AEM forms modules. This document describes how to start and stop the WebLogic Server.
-uuid: a3a3fcf7-fc67-40ca-8786-8972027339e0
+uuid: aa54d28e-b8be-453d-98d8-ce0d9c02ab84
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/maintaining_the_application_server
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 094634dd-b794-43b8-817d-bc1a228eeef8
+discoiquuid: 62d5a180-4b87-4f64-a6fc-de06de30b1a7
+index: y
+internal: n
+snippet: y
 ---
 
 # Starting and stopping WebLogic Server{#starting-and-stopping-weblogic-server}
@@ -74,7 +77,7 @@ The WebLogic Server administration console is no longer available, and the comma
     * (Windows) `startWebLogic.cmd`
     * (Linux, UNIX) ./ `startWebLogic.sh`
 
-1. Access WebLogic Server administration console by typing `http://*[host name]*:`*[Port]* `/console` in the URL line of a web browser, where *[Port]* is the non-secure listening port. By default, this port value is 7001.
+1. Access WebLogic Server administration console by typing `http://*[host name]*:`*[Port]* `/console` in the URL line of a web browser, where *****[Port]* is the non-secure listening port. By default, this port value is 7001.
 1. On the login screen, type your administrator user name and password, and click Log In.
 
 ## Start Node Manager {#start-node-manager}

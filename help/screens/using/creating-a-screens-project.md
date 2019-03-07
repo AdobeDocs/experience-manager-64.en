@@ -3,12 +3,15 @@ title: Creating and Managing Projects
 seo-title: Creating a Project
 description: Follow this page to learn about creating a new Screens project.
 seo-description: Follow this page to learn about creating a new Screens project.
-uuid: 46abf9c1-8f08-4fb9-841d-532e4acc8f99
+uuid: 44a07394-06b4-4815-8f84-c6d0b4c41925
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: authoring
-discoiquuid: 52a7f763-2989-485e-a53a-442d1924763e
+discoiquuid: 3b4fb036-f025-49a4-a415-4e077133f0d8
+index: y
+internal: n
+snippet: y
 ---
 
 # Creating and Managing Projects{#creating-and-managing-projects}

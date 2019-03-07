@@ -3,13 +3,16 @@ title: Managing Projects - Best Practices Checklist
 seo-title: Managing Projects - Best Practices Checklist
 description: Managing a project to implement Adobe Experience Manager (AEM) requires planning and understanding. The Project Checklists are intended as a set of best practices for project delivery. They guide you through all phases of the project life cycle and provide high level monitoring of your current status. 
 seo-description: Managing a project to implement Adobe Experience Manager (AEM) requires planning and understanding. The Project Checklists are intended as a set of best practices for project delivery. They guide you through all phases of the project life cycle and provide high level monitoring of your current status. 
-uuid: 87840ee2-b568-4159-a953-ae568bf5d2fb
+uuid: a6c7e2c1-9735-45b8-960b-63c918887403
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/MANAGING
 topic-tags: managing-checklist
 content-type: reference
 topic-tags: introduction
-discoiquuid: d3a2c904-1c38-4b53-b67c-991ecf9393c3
+discoiquuid: 6e358f48-d7fc-4dab-aac3-16b27cd8f092
+index: y
+internal: n
+snippet: y
 ---
 
 # Managing Projects - Best Practices Checklist{#managing-projects-best-practices-checklist}

@@ -3,12 +3,15 @@ title: Metadata Profiles
 seo-title: Metadata Profiles
 description: Know about metadata profiles for assets. Learn how to create a metadata profile and apply it to folder assets.
 seo-description: Know about metadata profiles for assets. Learn how to create a metadata profile and apply it to folder assets.
-uuid: c0538068-93f1-43f3-a10f-ba1e62bc6a78
+uuid: c49a4da7-d362-4619-bb66-4d1db70269e5
 contentOwner: Alva Ware-Bevacqui
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: aa63950b-f764-4014-8f64-5383d6cce29c
+discoiquuid: 686f1f10-3727-4ffd-acde-3e8c04e19844
+index: y
+internal: n
+snippet: y
 ---
 
 # Metadata Profiles{#metadata-profiles}
@@ -188,7 +191,7 @@ To apply a profile globally, do one of the following:
 
   ![](assets/chlimage_1-497.png)
 
-* Navigate to CRXDE Lite to the following node:** /content/dam/jcr:content. **Add the property** metadataProfile:/etc/dam/metadata/dynamicmedia/&lt;name of metadata profile&gt; **and tap or click **Save All**. 
+* Navigate to CRXDE Lite to the following node: **/content/dam/jcr:content. **Add the property** metadataProfile:/etc/dam/metadata/dynamicmedia/&lt;name of metadata profile&gt; **and tap or click **Save All**. 
 
   ![](assets/chlimage_1-498.png)
 

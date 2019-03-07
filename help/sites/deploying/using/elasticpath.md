@@ -3,13 +3,16 @@ title: Elastic Path
 seo-title: Elastic Path
 description: Learn how to deploy eCommerce with Elastic Path.
 seo-description: Learn how to deploy eCommerce with Elastic Path.
-uuid: 75c447d1-3f7f-45d5-931a-100263d50938
+uuid: 455cf809-5929-44d5-a655-f966f0689f10
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: e-commerce
 content-type: reference
-discoiquuid: 65725540-97cd-4941-bdab-640809c5dc97
+discoiquuid: 3ae4fb41-7efd-4bf2-a903-813eaaf11df4
 pagetitle: Deploying eCommerce with Elastic Path
+index: y
+internal: n
+snippet: y
 ---
 
 # Elastic Path{#elastic-path}

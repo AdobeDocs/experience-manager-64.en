@@ -3,12 +3,15 @@ title: Creating and Managing Channels
 seo-title: Managing Channels
 description: Follow this page to learn about creating and managing channels. It also explains channel dashboard and editing content for a channel.
 seo-description: Follow this page to learn about creating and managing channels. It also explains channel dashboard and editing content for a channel.
-uuid: 7c3d9db8-c06a-4106-8f17-8b995c260faf
+uuid: e12801cc-8389-4807-9448-7816fa2ded82
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: authoring
-discoiquuid: 8964acb5-e22b-4763-b41a-abfce173c2cf
+discoiquuid: d3e751d9-b576-4446-a5af-46755bd16b1d
+index: y
+internal: n
+snippet: y
 ---
 
 # Creating and Managing Channels{#creating-and-managing-channels}

@@ -3,13 +3,16 @@ title: Rendering Forms
 seo-title: Rendering Forms
 description: null
 seo-description: null
-uuid: df7b35f9-3e0c-4441-9c27-2d8aa04ac5ba
+uuid: c3612180-4456-48cf-a001-a84a0723ba19
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/performing_service_operations_using_apis
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: 3bcd0761-451c-4480-a1c1-904856abc39e
+discoiquuid: 5b4ace54-9a6a-44e4-b972-54928d0a077c
+index: y
+internal: n
+snippet: y
 ---
 
 # Rendering Forms{#rendering-forms}

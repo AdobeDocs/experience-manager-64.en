@@ -3,13 +3,16 @@ title: Configuring Email
 seo-title: Configuring Email
 description: Email configuration for Communities
 seo-description: Email configuration for Communities
-uuid: c4b98175-356f-43d9-923e-c95f7e248ba1
+uuid: f0ecfd72-ca45-49bc-a6f3-ac3b0342e715
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 6e97ab5f-21df-4756-b754-21fc55a3eb2d
+discoiquuid: 18cc4cbf-ef16-4ab0-9bc2-e427d6f2004f
 pagetitle: Configuring Email
+index: y
+internal: n
+snippet: y
 ---
 
 # Configuring Email{#configuring-email}
@@ -44,17 +47,17 @@ For example (filled in with values for illustrative purposes only) :
 
 ![](assets/chlimage_1-98.png)
 
-* **SMTP server host name: *(required)*** The SMTP server to use.
+* **SMTP server host name : ***(required)* The SMTP server to use.
 
-* **SMTP server port: *(required)*** The SMTP server port must be 25 or higher.
+* **SMTP server port : ***(required)* The SMTP server port must be 25 or higher.
 
-* **SMTP user: *(required)*** The SMTP user.
+* **SMTP user : ***(required)* The SMTP user.
 
-* **SMTP password: *(required)*** The SMTP user's password.
+* **SMTP password : ***(required)* The SMTP user's password.
 
-* **"From" address**: Leave empty
-* **SMTP use SSL:** If checked, will send secure email. Ensure the port is set to 465 or as required for SMTP server.
-* **Debug email**: If checked, enables logging of SMTP server interactions.
+* **"From" address : **Leave empty
+* **SMTP use SSL : **If checked, will send secure email. Ensure the port is set to 465 or as required for SMTP server.
+* **Debug email : **If checked, enables logging of SMTP server interactions.
 
 ## AEM Communities Email Configuration {#aem-communities-email-configuration}
 

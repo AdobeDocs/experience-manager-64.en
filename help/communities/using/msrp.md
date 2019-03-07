@@ -3,12 +3,15 @@ title: MSRP - MongoDB Storage Resource Provider
 seo-title: MSRP - MongoDB Storage Resource Provider
 description: Set up AEM Communities to use a relational database as its common store
 seo-description: Set up AEM Communities to use a relational database as its common store
-uuid: e9dc0411-2cc8-4d2a-91c0-9c4461685631
+uuid: f27ade06-b15c-4531-a898-18af209f1875
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 58ce0fdb-77b9-4c54-abd4-b6218af863df
+discoiquuid: 749b425a-b909-4102-9c88-7bce570aff9e
+index: y
+internal: n
+snippet: y
 ---
 
 # MSRP - MongoDB Storage Resource Provider{#msrp-mongodb-storage-resource-provider}
@@ -51,7 +54,7 @@ The [Storage Configuration console](../../communities/using/srp-config.md) allow
 
 On author, to access the Storage Configuration console :
 
-* from global navigation :** Tools, Communities, Storage Configuration**
+* from global navigation : **Tools, Communities, Storage Configuration**
 
 ![](assets/chlimage_1-28.png)
 

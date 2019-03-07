@@ -3,12 +3,15 @@ title: Analytics with External Providers
 seo-title: Analytics with External Providers
 description: Learn about Analytics with External Providers.
 seo-description: Learn about Analytics with External Providers.
-uuid: f9bc7fea-4f1f-4767-ace0-6df0ad13510d
+uuid: abc9b997-f981-40c1-a4a8-3598d1ecba9f
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: 2fe37bfd-5fb8-4304-b551-7759ac1124c6
+discoiquuid: e2df924c-ec67-4d59-8162-4c943470b2f5
+index: y
+internal: n
+snippet: y
 ---
 
 # Analytics with External Providers{#analytics-with-external-providers}

@@ -4,12 +4,15 @@ seo-title: [DO NOT PUBLISH] Troubleshoot AEM Forms Android app build issues
 description: Steps to troubleshoot AEM Forms Android App build issues
 seo-description: Steps to troubleshoot AEM Forms Android App build issues
 page-status-flag: never-activated
-uuid: e7ef2c65-8b51-4489-a8c2-8e3787e25f87
+uuid: 842413f2-5e9e-45d5-a015-b7062efb6678
 contentOwner: anujkapo
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 content-type: reference
 topic-tags: forms-app
-discoiquuid: b8ba5346-22dc-472e-9fb1-1ad3c0950985
+discoiquuid: 17161413-953a-42f7-87da-775b126ad90d
+index: y
+internal: n
+snippet: y
 ---
 
 # [DO NOT PUBLISH] Troubleshoot AEM Forms Android app build issues{#do-not-publish-troubleshoot-aem-forms-android-app-build-issues}
@@ -27,7 +30,7 @@ The error messages described in this article are:
 
 The error message is displayed when you are using an unsupported version of Gradle and you select **Build APK** option from the **Build** menu on the Android Studio user interface.
 
-**Resolution:** Click **Fix Gradle wrapper and re-import project ** to resolve the issue.
+**Resolution: **Click **Fix Gradle wrapper and re-import project ** to resolve the issue.
 
 ![](assets/gradle_unsupported_version.png) 
 
@@ -39,7 +42,7 @@ The error message is displayed when you select **Build APK** option from the **B
 
 ![](assets/gradle_plugin_compatibility.png)
 
-**Resolution:** Open **gradle-wrapper.properties** and edit **distributionUrl**.
+**Resolution: **Open **gradle-wrapper.properties** and edit **distributionUrl**.
 
 For example, the Android Studio console recommends downgrading the Gradle version to 3.5. Edit the version in **distributionUrl **of** gradle-wrapper.properties** file.
 

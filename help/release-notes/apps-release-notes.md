@@ -4,12 +4,15 @@ seo-title: AEM Mobile
 description: Release notes specific to Adobe Experience Manager 6.3 Mobile.
 seo-description: Release notes specific to Adobe Experience Manager 6.3 Mobile.
 page-status-flag: de-activated
-uuid: ad51b62b-961a-421e-9b27-045354240650
+uuid: 6cf90384-c290-4c60-be61-8214131d2528
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4
 topic-tags: release-notes
 content-type: reference
-discoiquuid: 96dc6c68-705b-425f-b2a8-8307f39190f3
+discoiquuid: 5e4dd3ae-44c4-48fa-bb44-73723b4a03cc
+index: y
+internal: n
+snippet: y
 ---
 
 # AEM Mobile{#aem-mobile}

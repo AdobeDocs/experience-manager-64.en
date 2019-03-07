@@ -3,12 +3,15 @@ title: Running AEM forms in maintenance mode
 seo-title: Running AEM forms in maintenance mode
 description: Maintenance mode is useful when performing tasks such as patching a DSC, upgrading AEM forms, or applying a service pack. Learn more about running AEM forms in maintenance mode.
 seo-description: Maintenance mode is useful when performing tasks such as patching a DSC, upgrading AEM forms, or applying a service pack. Learn more about running AEM forms in maintenance mode.
-uuid: ad920b7f-4fc5-46c1-ac44-7cbf34a2ae07
+uuid: dd10d226-6f5f-412b-a155-4e67508c102f
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/maintaining_aem_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: d9235acd-da1e-406f-8acb-2b88998edf89
+discoiquuid: 241e9ee1-2a8d-4b7f-90e5-09e67f7f782b
+index: y
+internal: n
+snippet: y
 ---
 
 # Running AEM forms in maintenance mode{#running-aem-forms-in-maintenance-mode}

@@ -3,12 +3,15 @@ title: Translating User Generated Content
 seo-title: Translating User Generated Content
 description: How the translation feature works
 seo-description: How the translation feature works
-uuid: a0aa2523-08f8-46ad-b4d5-19b83b86d8d9
+uuid: 7eeadc70-6fae-4810-aa9a-0447bd9a6c0f
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: fc232ff7-8990-4073-8886-3ae6200966ca
+discoiquuid: 3019fffc-55df-458d-8df3-1ebd2429f1b4
+index: y
+internal: n
+snippet: y
 ---
 
 # Translating User Generated Content{#translating-user-generated-content}

@@ -3,12 +3,15 @@ title: Extending an AEM Screens Component
 seo-title: Extending an AEM Screens Component
 description: The following tutorial walks through the steps and best practices for extending out of the box AEM Screens components. The Image component is extended to add an authorable text overlay.
 seo-description: The following tutorial walks through the steps and best practices for extending out of the box AEM Screens components. The Image component is extended to add an authorable text overlay.
-uuid: 3f9e17df-7ffe-4775-b468-b8fdac13f9d7
+uuid: 9f623162-fa77-49f4-84b6-8bb586f937ad
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 content-type: reference
 topic-tags: developing
-discoiquuid: d57432fe-0d7b-4b48-8192-127a1f09b9be
+discoiquuid: dd4c0509-5584-47ed-ba80-02e46fe4e416
 targetaudience: target-audience new
+index: y
+internal: n
+snippet: y
 ---
 
 # Extending an AEM Screens Component{#extending-an-aem-screens-component}
@@ -482,7 +485,7 @@ A third clientlibrary category: `cq.screens.components.edit` could be used to ad
 
 The Poster component is intended to be used on a Sequence Channel. The starter package for this tutorial included an Idle Channel. The Idle Channel is pre-configured to allow components of the group **We.Retail Run - Content**. The Poster component's group is set to `We.Retail Run - Content` and is available to be added to the channel.
 
-1. Open the Idle Channel from the We.Retail Run project:** *http://localhost:4502/editor.html/content/screens/we-retail-run/channels/idle-channel.edit.html***
+1. Open the Idle Channel from the We.Retail Run project: ***http://localhost:4502/editor.html/content/screens/we-retail-run/channels/idle-channel.edit.html***
 1. Drag + Drop a new instance of the **Poster** component from the side bar on to the page.
 
    ![](assets/2018-05-07_at_3_23pm.png)

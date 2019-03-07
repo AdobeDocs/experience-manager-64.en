@@ -3,12 +3,15 @@ title: Personalization
 seo-title: Personalization
 description: Learn how to create personalized content in AEM
 seo-description: Learn how to create personalized content in AEM
-uuid: 93fd4e49-3da7-4b19-94bc-0eb077292e10
+uuid: a50902b6-9df0-4ed0-80c6-9a284d7fac58
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: personalization
-discoiquuid: 8daf7724-89b4-4576-9f88-f544263a880c
+discoiquuid: 4505c7a2-6519-4f48-b73a-4d3e5180f250
+index: y
+internal: n
+snippet: y
 ---
 
 # Personalization{#personalization}

@@ -3,12 +3,15 @@ title: Integrating with Adobe Campaign Standard
 seo-title: Integrating with Adobe Campaign Standard
 description: Integrating with Adobe Campaign Standard.
 seo-description: Integrating with Adobe Campaign Standard.
-uuid: fe34538c-eb40-4352-a776-e40c6ff1d0f6
+uuid: 651eb920-4df5-47d5-83e8-f9d195b1591e
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: 0aea3d94-c877-419f-90ad-de064b6a025e
+discoiquuid: b8cc2477-e2c0-459c-93cf-1f404c58e37f
+index: y
+internal: n
+snippet: y
 ---
 
 # Integrating with Adobe Campaign Standard{#integrating-with-adobe-campaign-standard}
@@ -108,10 +111,10 @@ By default, the AEM feature is not enabled in Adobe Campaign's email templates. 
 To create an AEM-specific email delivery template:
 
 1. Go to **Resources** &gt; **Templates** &gt; **Delivery templates**.
-1. **Enable selection** by clicking the checkmark in the action bar and selecting the existing **Standard email (mail)** default template, then duplicate** **it by clicking the **Copy** icon and clicking **Confirm**.**
+1. **Enable selection** by clicking the checkmark in the action bar and selecting the existing **Standard email (mail)** default template, then duplicate** **it by clicking the **Copy** icon and clicking **Confirm**.****
 1. Disable the selection mode by clicking the **x **and open the newly created **Copy of Standard email** **(mail)** template, then select **Edit properties** from the action bar of the template dashboard.
 
-   You can modify the** **template's** Label**.**
+   You can modify the** **template's** Label**.****
 
 1. In the properties **Content** section, change the **Content source** to **Adobe Experience Manager**. Then select the external account that was previously created and click **Confirm**.
 
@@ -168,7 +171,7 @@ Before you can use AEM and Adobe Campaign together, you must establish the link 
 1. Create a new configuration by entering a **Title** and click **Create**, or choose the existing configuration that you want to link with your Adobe Campaign instance.
 1. Edit the configuration so that it matches the parameters of your Adobe Campaign instance.
 
-    * **Username**:** aemserver**, the Adobe Campaign AEM Integration package operator used to establish the link between the two solutions.
+    * **Username**: **aemserver**, the Adobe Campaign AEM Integration package operator used to establish the link between the two solutions.
     
     * **Password**: Adobe Campaign aemserver operator password. You may have to re-specify the password for this operator directly in Adobe Campaign.
     * **API End Point**: Adobe Campaign instance URL.

@@ -3,12 +3,15 @@ title: Quick Guide to Authoring Pages
 seo-title: Quick Guide to Authoring Pages
 description: A quick, high-level guide to the key actions of authoring page content
 seo-description: A quick, high-level guide to the key actions of authoring page content
-uuid: a7299f8a-3603-401b-94dc-a430db593386
+uuid: eb9763bc-783f-4449-8cda-2a5bdd8a1be1
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: 173ba2d3-58b4-44e7-958d-fc6b6f8c836b
+discoiquuid: 29f9effc-72c7-4043-aca1-7bec9fe91392
+index: y
+internal: n
+snippet: y
 ---
 
 # Quick Guide to Authoring Pages{#quick-guide-to-authoring-pages}

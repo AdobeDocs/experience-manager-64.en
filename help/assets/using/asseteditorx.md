@@ -3,12 +3,15 @@ title: Extending Asset Editor
 seo-title: Extending Asset Editor
 description: Learn how to extend the capabilities of Asset Editor using custom components.
 seo-description: Learn how to extend the capabilities of Asset Editor using custom components.
-uuid: 126ed55f-8195-4a94-b012-81aab5e4c5f9
+uuid: 0feab774-f865-4424-83f5-98e752ddf6e9
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: extending-assets
 content-type: reference
-discoiquuid: 709590a5-d80c-4bad-9de8-60d134489826
+discoiquuid: 4dd59c7c-e725-477f-8542-3a252df61fcc
+index: y
+internal: n
+snippet: y
 ---
 
 # Extending Asset Editor{#extending-asset-editor}
@@ -23,8 +26,8 @@ In addition to using pre-existing editor components, Adobe Experience Manager (A
 
 The following sample pages are included in geometrixx:
 
-* Geometrixx Sample Page:** /content/geometrixx/en/press/asseteditor.html**
-* Sample Template:** /apps/geometrixx/templates/asseteditor**
+* Geometrixx Sample Page: **/content/geometrixx/en/press/asseteditor.html**
+* Sample Template: **/apps/geometrixx/templates/asseteditor**
 * Sample Page Component:** /apps/geometrixx/components/asseteditor**
 
 #### Configuring Clientlib {#configuring-clientlib}

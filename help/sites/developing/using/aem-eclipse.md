@@ -3,12 +3,15 @@ title: AEM Developer Tools for Eclipse
 seo-title: AEM Developer Tools for Eclipse
 description: null
 seo-description: null
-uuid: 3e0164d7-684d-4d3d-ab18-0d08eaa1228e
+uuid: c3933fc1-b5c5-4af5-aa9e-6e02214640d4
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: development-tools
 content-type: reference
-discoiquuid: ba983c90-6d14-4e2d-b9c5-68421cdbef54
+discoiquuid: b85fa668-f5fa-47c2-af57-33cf504f29d7
+index: y
+internal: n
+snippet: y
 ---
 
 # AEM Developer Tools for Eclipse{#aem-developer-tools-for-eclipse}

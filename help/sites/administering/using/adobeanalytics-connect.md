@@ -3,12 +3,15 @@ title: Connecting to Adobe Analytics and Creating Frameworks
 seo-title: Connecting to Adobe Analytics and Creating Frameworks
 description: Learn about connecting AEM to SiteCatalyst and creating frameworks.
 seo-description: Learn about connecting AEM to SiteCatalyst and creating frameworks.
-uuid: 9948ba2f-fe58-41cc-9982-3cdcf6045df3
+uuid: 6676f4c7-29a0-4eb6-a149-3d765cf3ce97
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: b290047c-6dfa-4b7a-bd9e-3f58107b2377
+discoiquuid: ca4888ec-8b05-4ff5-8d9c-3031173f03c4
+index: y
+internal: n
+snippet: y
 ---
 
 # Connecting to Adobe Analytics and Creating Frameworks{#connecting-to-adobe-analytics-and-creating-frameworks}
@@ -227,7 +230,7 @@ Start by opening the panel. Press the downward arrow next to **Servers**:
 * **Visitor Namespace**
 
     * The namespace determines the first part of the tracking URL.
-    * e.g. changing the namespace to **CNAME **will cause the calls made to Adobe Analytics to look like** **CNAME.d1.omtrdc.net** instead of the default.
+    * e.g. changing the namespace to **CNAME **will cause the calls made to Adobe Analytics to look like**** **CNAME.d1.omtrdc.net** instead of the default.
 
 ## Associating a Page with a Adobe Analytics Framework {#associating-a-page-with-a-adobe-analytics-framework}
 

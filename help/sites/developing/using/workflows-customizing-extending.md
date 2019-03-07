@@ -3,12 +3,15 @@ title: Extending Workflow Functionality
 seo-title: Extending Workflow Functionality
 description: null
 seo-description: null
-uuid: 66ff5ffe-12c3-47e6-bc86-14c47c424baf
+uuid: 0077e478-a700-422d-ac88-9193943076a6
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
-discoiquuid: 79ed5c56-d33b-46ae-a553-0a71f929ffd7
+discoiquuid: 7638c2af-bae5-4658-9c10-bfb239899ebb
+index: y
+internal: n
+snippet: y
 ---
 
 # Extending Workflow Functionality{#extending-workflow-functionality}
@@ -554,7 +557,7 @@ You can develop a service or ECMA script that selects the participant according 
 
 >[!NOTE]
 >
->For information about associating your **Dynamic Participant Step** component with the service or script, see [Dynamic Participant Step](../../../sites/developing/using/workflows-step-ref.md#dynamicparticipantstep) or [Overriding the Step Implementation](#main-pars-title).
+>For information about associating your **Dynamic Participant Step** component with the service or script, see [Dynamic Participant Step](../../../sites/developing/using/workflows-step-ref.md#dynamicparticipantstep) or [Overriding the Step Implementation](#persisting-and-accessing-data).
 
 ### Developing a Participant Chooser Using a Java class {#developing-a-participant-chooser-using-a-java-class}
 

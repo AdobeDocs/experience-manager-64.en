@@ -3,12 +3,15 @@ title: User and UGC Management Service in AEM Communities
 seo-title: User and UGC Management Service in AEM Communities
 description: Use APIs to bulk delete and bulk export user generated content, and disable user account. 
 seo-description: Use APIs to bulk delete and bulk export user generated content, and disable user account. 
-uuid: de9df9cc-a23e-4d1d-b217-1debbd356e0e
+uuid: ee6ac7b6-155e-463d-8035-0e6fdba79511
 contentOwner: mgulati
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
-discoiquuid: 15060fcd-f1d0-4b9a-bab5-0f31d2c81efb
+discoiquuid: 5c92f015-2440-4884-818d-ee6ea5f7cdb5
+index: y
+internal: n
+snippet: y
 ---
 
 # User and UGC Management Service in AEM Communities{#user-and-ugc-management-service-in-aem-communities}

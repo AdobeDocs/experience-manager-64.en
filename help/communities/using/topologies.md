@@ -3,12 +3,15 @@ title: Recommended Topologies for Communities
 seo-title: Recommended Topologies for Communities
 description: How to approach the handling of user-generated content (UGC)
 seo-description: How to approach the handling of user-generated content (UGC)
-uuid: c6af095a-960d-45af-850a-2294f755d95a
+uuid: 561babcf-34a5-4e84-94af-970691a57541
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 content-type: reference
 topic-tags: deploying
-discoiquuid: d0b6a4ba-1dec-49c6-80b7-9fed62d14b6d
+discoiquuid: e658f308-43d9-4188-a165-6ee2207a84f2
+index: y
+internal: n
+snippet: y
 ---
 
 # Recommended Topologies for Communities{#recommended-topologies-for-communities}

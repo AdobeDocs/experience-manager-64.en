@@ -3,12 +3,15 @@ title: Minification of the JavaScript files
 seo-title: Minification of the JavaScript files
 description: Instructions to generate minified code after AEM Forms workspace customizations to optimize the JS files for the web.
 seo-description: Instructions to generate minified code after AEM Forms workspace customizations to optimize the JS files for the web.
-uuid: 8a28865f-d964-494a-87b7-8899de32b5c3
+uuid: fb51c431-d7bd-4810-875b-d58b4800bacb
 contentOwner: robhagat
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
-discoiquuid: 12221bcd-d547-4adf-b495-c0b5bfb59f42
+discoiquuid: 9e568b92-691e-4c50-951d-10b9a671b705
+index: y
+internal: n
+snippet: y
 ---
 
 # Minification of the JavaScript files{#minification-of-the-javascript-files}

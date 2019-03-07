@@ -3,12 +3,15 @@ title: Adobe Campaign Components
 seo-title: Adobe Campaign Components
 description: When you integrate with Adobe Campaign, you have components available for when working with newsletters and with forms
 seo-description: When you integrate with Adobe Campaign, you have components available for when working with newsletters and with forms
-uuid: aadf4051-30b0-4753-8970-a8b0072496fd
+uuid: cafedaad-a0dd-4bbb-8786-15fcec3ac3a3
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: personalization
-discoiquuid: 71c796ff-b407-4dfe-a9fd-c38854d53f09
+discoiquuid: 49db6a63-79cf-42ae-81e2-317f01cc0873
+index: y
+internal: n
+snippet: y
 ---
 
 # Adobe Campaign Components{#adobe-campaign-components}

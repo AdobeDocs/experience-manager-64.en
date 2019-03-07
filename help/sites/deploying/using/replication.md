@@ -3,12 +3,15 @@ title: Replication
 seo-title: Replication
 description: Learn how to configure and monitor replication agents in AEM.
 seo-description: Learn how to configure and monitor replication agents in AEM.
-uuid: ffa25c70-2b19-49e3-9925-1ffd481efd96
+uuid: ce76fe1b-73b1-4512-8f04-8ed9311aaf62
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: configuring
-discoiquuid: 8f17c592-68ef-4ba2-9c74-1f46047b7e58
+discoiquuid: f55d697a-824e-40aa-8b22-142b29b3d823
+index: y
+internal: n
+snippet: y
 ---
 
 # Replication{#replication}

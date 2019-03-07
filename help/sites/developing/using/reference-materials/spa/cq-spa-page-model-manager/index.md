@@ -3,11 +3,14 @@ title: index
 seo-title: index
 description: null
 seo-description: null
-uuid: 77416359-21aa-4d1f-86bb-1725513d9d5a
+uuid: 80a1e865-fdf2-4af3-b43b-dcaa87f5d3fa
 contentOwner: carlino
-discoiquuid: ea982a98-c410-4fe2-bc27-4eadf4632d84
+discoiquuid: 48aec3fe-ee90-4a65-9e12-f4fb61d92513
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/sites/developing/using/reference-materials
+index: y
+internal: n
+snippet: y
 ---
 
 # index{#index}

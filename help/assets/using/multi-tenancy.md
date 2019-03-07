@@ -3,12 +3,15 @@ title: Multi-tenancy for Collections, Snippets, and Snippet Templates
 seo-title: Multi-tenancy for Collections, Snippets, and Snippet Templates
 description: Learn how the Multi-tenancy feature lets you segregate content in the CRX repository based on the customer organization to prevent unauthorized access.
 seo-description: Learn how the Multi-tenancy feature lets you segregate content in the CRX repository based on the customer organization to prevent unauthorized access.
-uuid: 0b238256-07bb-46df-b913-c2a4cc96b6a3
+uuid: 1d403dfe-e743-4ce0-9bbe-18adbc670f63
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: d6f4a146-7342-491a-ab9c-349b03905fb8
+discoiquuid: 37803c31-a1e0-4016-b1b9-cc8e449ba2ee
+index: y
+internal: n
+snippet: y
 ---
 
 # Multi-tenancy for Collections, Snippets, and Snippet Templates{#multi-tenancy-for-collections-snippets-and-snippet-templates}

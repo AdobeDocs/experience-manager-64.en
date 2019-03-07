@@ -3,12 +3,15 @@ title: Customizing Asset Share
 seo-title: Customizing Asset Share
 description: null
 seo-description: null
-uuid: cc8b7471-5b1a-4c01-bd4d-4be5d5e8ce45
+uuid: 62a29a60-6700-4443-8270-c3b42102912d
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: extending-assets
 content-type: reference
-discoiquuid: d26e8f26-4c6e-4615-b463-a68126be3726
+discoiquuid: c31149cb-8119-4dc0-b960-d434911f5289
+index: y
+internal: n
+snippet: y
 ---
 
 # Customizing Asset Share{#customizing-asset-share}
@@ -17,7 +20,7 @@ The Asset Share page is used to search for assets based on their metadata. You c
 
 ## Creating an Asset Share Template {#creating-an-asset-share-template}
 
-* Geometrixx Sample Page:** /content/geometrixx/en/press.html**
+* Geometrixx Sample Page: **/content/geometrixx/en/press.html**
 * Sample Template:** /apps/geometrixx/templates/assetshare**
 * Sample Page Component:** /apps/geometrixx/components/assetshare **
 

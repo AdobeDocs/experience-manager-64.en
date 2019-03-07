@@ -3,13 +3,16 @@ title: Assets Performance Tuning Guide
 seo-title: Assets Performance Tuning Guide
 description: Key focus areas around AEM configuration, changes to hardware, software, and network components to remove bottlenecks and optimize the performance of AEM Assets.
 seo-description: Key focus areas around AEM configuration, changes to hardware, software, and network components to remove bottlenecks and optimize the performance of AEM Assets.
-uuid: 8067d29d-73c9-4480-bbae-ca5c21c3be1e
+uuid: f768c939-404f-4f89-98b4-8c6097add973
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: e8f8de69-b4dc-4cca-ab26-bd3c092ea211
+discoiquuid: e6ab2ae5-b0cc-47ec-8d46-314d41ab6c5e
 tagskeywords: performance tuning, AEM Assets, software optimization, hardware optimization
+index: y
+internal: n
+snippet: y
 ---
 
 # Assets Performance Tuning Guide{#assets-performance-tuning-guide}

@@ -3,12 +3,15 @@ title: Create Nodes
 seo-title: Create Nodes
 description: Overlay the comments system 
 seo-description: Overlay the comments system 
-uuid: 3e612af2-19e8-4d87-bd32-723ff3c7a949
+uuid: 6b811184-f496-4b3e-8027-1539d927bdac
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: a1f3effb-9c88-4ad9-a747-8ba636c14dfb
+discoiquuid: ed3fe9fe-d5ed-4d97-a144-e9e7d88f406d
+index: y
+internal: n
+snippet: y
 ---
 
 # Create Nodes{#create-nodes}

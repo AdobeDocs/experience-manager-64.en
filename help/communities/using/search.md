@@ -3,12 +3,15 @@ title: Search Feature
 seo-title: Search Feature
 description: Adding and configuring Search to a Communities site
 seo-description: Adding and configuring Search to a Communities site
-uuid: 0809a17f-05cf-4113-b3ac-d99081d4ccfb
+uuid: 024ead1c-cf91-4056-8ce8-40f440920177
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
-discoiquuid: 3b1f2ae5-e237-43d3-89dd-808871031c04
+discoiquuid: 01ee4341-d747-46a5-b26f-749c84f89af6
+index: y
+internal: n
+snippet: y
 ---
 
 # Search Feature{#search-feature}

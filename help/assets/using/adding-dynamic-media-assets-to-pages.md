@@ -3,12 +3,15 @@ title: Adding Dynamic Media Assets to Pages
 seo-title: Adding Dynamic Media Assets to Pages
 description: How to add Dynamic Media components to a page in AEM
 seo-description: How to add Dynamic Media components to a page in AEM
-uuid: 13445eaf-fb9e-4d9f-ab51-3780f0de7dd4
+uuid: bd505de5-f87e-430f-b4d7-699328850237
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: 3dde7afb-7ad2-4393-a735-063a13cbc8b7
+discoiquuid: 1f8db937-30fa-4a24-b403-cddd40d8dfa1
+index: y
+internal: n
+snippet: y
 ---
 
 # Adding Dynamic Media Assets to Pages{#adding-dynamic-media-assets-to-pages}

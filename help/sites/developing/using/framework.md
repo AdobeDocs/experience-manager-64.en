@@ -3,12 +3,15 @@ title: AEM Tagging Framework
 seo-title: AEM Tagging Framework
 description: Tag content and leverage the AEM Tagging infrastructure
 seo-description: Tag content and leverage the AEM Tagging infrastructure
-uuid: 586c7e71-d7cd-4fda-9386-28eb40e4a60a
+uuid: 515a1024-dc3a-452d-84fc-fafa13bd3705
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
-discoiquuid: 31f0c317-234a-4caa-832c-74b02519af60
+discoiquuid: 8032b710-27ae-4b71-84dd-4ce874a29f83
+index: y
+internal: n
+snippet: y
 ---
 
 # AEM Tagging Framework{#aem-tagging-framework}

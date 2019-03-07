@@ -4,10 +4,13 @@ seo-title: Customizing Content Fragment Models
 description: Content Fragment Models can be customized and extended.
 seo-description: Content Fragment Models can be customized and extended.
 page-status-flag: de-activated
-uuid: 91ac76d9-3f21-442f-ac1b-af1e842d522b
+uuid: fca322bc-a0bd-46b1-8cef-b85bd0c06088
 contentOwner: aheimoz
-discoiquuid: 75179710-2dad-4804-bdda-d43141e328a8
+discoiquuid: e5579038-f516-4a22-9adb-404b4ee50b58
 noindex: true
+index: y
+internal: n
+snippet: y
 ---
 
 # DO NOT PUBLISH, BUT DO NOT DELETE Customizing Content Fragment Models{#do-not-publish-but-do-not-delete-customizing-content-fragment-models}

@@ -3,12 +3,15 @@ title: Working with Selectors
 seo-title: Working with Selectors
 description: Selecting assets for interactive images, interactive video, and carousel banners
 seo-description: Selecting assets for interactive images, interactive video, and carousel banners
-uuid: 0a841c75-cd4a-4f2a-9f0c-fe0bddda6169
+uuid: f83298f6-b390-4659-af4d-3e4934d4f9c1
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: 231cd9b0-7692-4bd2-b034-54f724d1db3e
+discoiquuid: d86522ca-c6a9-4cef-89ef-7f55201bcd8b
+index: y
+internal: n
+snippet: y
 ---
 
 # Working with Selectors{#working-with-selectors}

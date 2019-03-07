@@ -4,11 +4,14 @@ seo-title: DO NOT PUBLISH - AEM Forms Components
 description: Learn how to use AEM Forms Components and Component properties to create fields to let your customers effectively provide data. 
 seo-description: Learn how to use AEM Forms Components and Component properties to create fields to let your customers effectively provide data. 
 page-status-flag: never-activated
-uuid: 4fa0ed36-7980-44e3-987d-8c30c7b1fc74
+uuid: 18f423f8-0821-4753-9d62-0bd862e1caf2
 contentOwner: sashanka
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 content-type: reference
-discoiquuid: 50e7952d-3306-4818-a5d0-36fb27302222
+discoiquuid: 8b731a30-06ce-4648-ad28-b835f0401e11
+index: y
+internal: n
+snippet: y
 ---
 
 # DO NOT PUBLISH - AEM Forms Components{#do-not-publish-aem-forms-components}

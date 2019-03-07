@@ -3,12 +3,15 @@ title: Q&A Forum Feature
 seo-title: Q&A Forum Feature
 description: Adding the QnA forum feature to a page
 seo-description: Adding the QnA forum feature to a page
-uuid: c1db91ac-5dcd-4294-b595-33d376db3525
+uuid: 5428c0ca-77a1-4102-91aa-4f25468354b3
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
-discoiquuid: 571a738b-4fc4-4200-add7-ad08dc2091f9
+discoiquuid: 36f63503-2d3b-41ee-977d-ec1229b83ad2
+index: y
+internal: n
+snippet: y
 ---
 
 # Q&A Forum Feature{#q-a-forum-feature}

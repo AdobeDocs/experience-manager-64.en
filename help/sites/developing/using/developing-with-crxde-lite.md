@@ -3,12 +3,15 @@ title: Developing with CRXDE Lite
 seo-title: Developing with CRXDE Lite
 description: CRXDE Lite is embedded into AEM and enables you to perform standard development tasks in the browser
 seo-description: CRXDE Lite is embedded into AEM and enables you to perform standard development tasks in the browser
-uuid: 4464e00f-78a1-4fac-b96c-1786a3b4f6a6
+uuid: 1b0adcd8-27e9-4a0a-9182-05995a9f4725
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: development-tools
 content-type: reference
-discoiquuid: 502b3523-18f2-475e-91e6-1f2add0e6be3
+discoiquuid: bf64a826-e2a0-4fa6-921d-a494e83d078e
+index: y
+internal: n
+snippet: y
 ---
 
 # Developing with CRXDE Lite{#developing-with-crxde-lite}

@@ -3,12 +3,15 @@ title: Using the Sling Resource Merger in AEM
 seo-title: Using the Sling Resource Merger in AEM
 description: The Sling Resource Merger provides services to access and merge resources
 seo-description: The Sling Resource Merger provides services to access and merge resources
-uuid: dd6ba410-8975-4dce-b4c6-11170d1d6ba7
+uuid: 5fb66c5a-0700-43ad-be83-11561c9c658f
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
-discoiquuid: 2bed21b5-ec98-4c89-8744-391f54d1717d
+discoiquuid: edf1ce8d-f514-4b66-b88c-512b639f532f
+index: y
+internal: n
+snippet: y
 ---
 
 # Using the Sling Resource Merger in AEM{#using-the-sling-resource-merger-in-aem}

@@ -3,12 +3,15 @@ title: Types of endpoints
 seo-title: Types of endpoints
 description: Learn about the different types of endpoints.
 seo-description: Learn about the different types of endpoints.
-uuid: 90acff54-5156-420f-992c-aed24b5a2fb8
+uuid: 4c05be21-1e31-44b5-accc-ae87f383fc96
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/managing_endpoints
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: ce56405c-2214-4a63-80a1-39474a347e34
+discoiquuid: 0c758d61-2ad7-485b-9702-718a95adb0d8
+index: y
+internal: n
+snippet: y
 ---
 
 # Types of endpoints{#types-of-endpoints}

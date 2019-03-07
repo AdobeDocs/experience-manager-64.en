@@ -3,12 +3,15 @@ title: Importing and exporting the configuration file
 seo-title: Importing and exporting the configuration file
 description: Learn how to import and export the configuration file in order to edit server preferences or configure another AEM forms product instance.
 seo-description: Learn how to import and export the configuration file in order to edit server preferences or configure another AEM forms product instance.
-uuid: 88d525d3-d189-499a-ab49-e85fcb12953b
+uuid: 1b971ee9-9022-4a5e-a2ad-b1c35ae9719a
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_user_management
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 45a57952-e5ca-4e95-9c2c-ce00ac6c297d
+discoiquuid: b719bbc3-8fd5-48de-9e1a-2abf76eaf0c8
+index: y
+internal: n
+snippet: y
 ---
 
 # Importing and exporting the configuration file{#importing-and-exporting-the-configuration-file}

@@ -3,12 +3,15 @@ title: Configuring Link Tracking for Adobe Analytics
 seo-title: Configuring Link Tracking for Adobe Analytics
 description: Learn about configuring link tracking for SiteCatalyst.
 seo-description: Learn about configuring link tracking for SiteCatalyst.
-uuid: 8a959bc5-417a-4d42-b9c6-3df85ae3f8a0
+uuid: 5c936d2f-8368-49be-916f-fb5afa5f2202
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: 36752417-3350-43cf-9a8d-82505bfe16e2
+discoiquuid: 2504414d-fd28-4f02-8d1c-06d664d3d5f7
+index: y
+internal: n
+snippet: y
 ---
 
 # Configuring Link Tracking for Adobe Analytics{#configuring-link-tracking-for-adobe-analytics}

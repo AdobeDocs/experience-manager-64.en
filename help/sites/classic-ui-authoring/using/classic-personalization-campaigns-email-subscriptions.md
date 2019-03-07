@@ -3,12 +3,15 @@ title: Managing Subscriptions
 seo-title: Managing Subscriptions
 description: Users can be asked to subscribe to Email Service Provider's mailing lists with the help of the Form component used on an AEM web page. To prepare an AEM page with a sign-up form for subscription to your e-mail service mailing lists, you must apply the corresponding service configuration to the AEM page that the potential subscriber will visit.
 seo-description: Users can be asked to subscribe to Email Service Provider's mailing lists with the help of the Form component used on an AEM web page. To prepare an AEM page with a sign-up form for subscription to your e-mail service mailing lists, you must apply the corresponding service configuration to the AEM page that the potential subscriber will visit.
-uuid: 49880454-e03e-42e6-adbb-9e1067c17262
+uuid: 0c6b3903-c4ec-46f8-9f53-39af942a306c
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: 9e8155a4-9edb-48a3-9fcc-c31c3d5a875b
+discoiquuid: f0722750-3dc2-4a97-89a1-97ed5a95321b
+index: y
+internal: n
+snippet: y
 ---
 
 # Managing Subscriptions{#managing-subscriptions}
@@ -78,7 +81,7 @@ To unsubscribe users from lists:
 1. Open the page properties of the AEM page that has the sign-up form to unsubscribe a lead.
 1. Apply the service configuration to the page.
 1. Create a sign-up form on the page.
-1. While configuring the component, select the action **E-mail Service**:** Unsubscribe user from list.**
+1. While configuring the component, select the action **E-mail Service**: **Unsubscribe user from list.**
 1. From the drop-down menu, select the appropriate list from which the user will be removed when unsubscribing.
 
    ![](assets/chlimage_1-11.jpeg)

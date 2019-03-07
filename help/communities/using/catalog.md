@@ -3,12 +3,15 @@ title: Catalog Feature
 seo-title: Catalog Feature
 description: The Enablement Assignments and Enablement Catalog components are components of an enablement community
 seo-description: The Enablement Assignments and Enablement Catalog components are components of an enablement community
-uuid: f452d2a5-7809-4cb1-9101-882a5ccae9f8
+uuid: e62947eb-0ef5-465a-91b8-71a567cf3f43
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
-discoiquuid: 08b7a2c6-187c-4b57-945c-88c2b100ead7
+discoiquuid: fa4b9ab5-d9af-4ff8-b320-0a6e7f952b5a
+index: y
+internal: n
+snippet: y
 ---
 
 # Catalog Feature{#catalog-feature}

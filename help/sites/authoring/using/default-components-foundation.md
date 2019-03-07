@@ -3,14 +3,17 @@ title: Foundation Components
 seo-title: Foundation Components
 description: null
 seo-description: null
-uuid: 0acbdd65-bf92-4697-8a17-6d736c29839c
+uuid: 1f7950d8-b4f4-4f30-9ae2-1a0ef897cde2
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: 81db0445-583b-4838-8a08-bf4d154db3c2
+discoiquuid: adf3e9e8-1b92-47f1-b543-331e69ace550
 legacypath: /content/docs/en/aem/6-2/author/page-authoring/default-components/editmode
 pagetitle: Foundation Components
+index: y
+internal: n
+snippet: y
 ---
 
 # Foundation Components{#foundation-components}
@@ -291,7 +294,7 @@ The external application is integrated into the paragraph system of the AEM page
 
 The Flash component lets you load a Flash movie. You can drag a flash asset from the content finder onto the component, or you can use the dialog:
 
-* **Flash**
+* **Fla****sh**
 
     * **Flash movie** 
       The flash movie file. Either drag an asset from the content finder, or click to open a browse window.
@@ -994,7 +997,7 @@ This component is needed to define the start of a new form on a page. You can co
               `/forms/feedback/`
             
             * **Type** 
-              Select the required type.
+              Select the required type.**** 
             
             * **Form** 
               Specify the form.  

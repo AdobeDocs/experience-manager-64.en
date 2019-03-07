@@ -3,12 +3,15 @@ title: Using Quickviews to create custom pop-ups
 seo-title: Using Quickviews to create custom pop-ups
 description: The default Quickview is used in ecommerce experiences whereby a pop-up is displayed with product information to drive a purchase. You can trigger custom content to display in the pop-ups.
 seo-description: The default Quickview is used in ecommerce experiences whereby a pop-up is displayed with product information to drive a purchase. You can trigger custom content to display in the pop-ups.
-uuid: 4c485fff-8e83-4526-91fa-9ba004915b75
+uuid: 2af62b6e-afb4-4619-b457-8ff91cfddf23
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: 024a2ce4-a4a5-4ffd-a39b-6d44c916ca5c
+discoiquuid: e597f690-8350-45e9-aa3a-b2bb7895dde6
+index: y
+internal: n
+snippet: y
 ---
 
 # Using Quickviews to create custom pop-ups{#using-quickviews-to-create-custom-pop-ups}

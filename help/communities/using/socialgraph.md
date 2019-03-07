@@ -3,12 +3,15 @@ title: Using Social Graph
 seo-title: Using Social Graph
 description: Adding a Following component to a page
 seo-description: Adding a Following component to a page
-uuid: 65838eb0-70f8-4de4-8ce4-1d663d47d424
+uuid: 72d59746-48ac-4cf9-b1aa-5f5d886b67d2
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
-discoiquuid: 89899027-d8ff-487f-bbe6-99fa9467d978
+discoiquuid: d6b6a0a8-bd24-4a0a-973b-ad6469ea35c3
+index: y
+internal: n
+snippet: y
 ---
 
 # Using Social Graph{#using-social-graph}

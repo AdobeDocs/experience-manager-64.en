@@ -3,12 +3,15 @@ title: Invalidating your CDN cached content
 seo-title: Invalidating your CDN cached content
 description: Invalidating your CDN (Content Delivery Network) cached content lets you quickly update assets that are delivered by Dynamic Media, instead of waiting for the cache to expire.
 seo-description: Invalidating your CDN (Content Delivery Network) cached content lets you quickly update assets that are delivered by Dynamic Media, instead of waiting for the cache to expire.
-uuid: af4c035e-d84f-423e-a4fb-e94a949f9643
+uuid: ab98f7a0-9f83-4f19-8fc9-358b76f02582
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: 4b4c57f0-cd4f-4fe0-959e-91e8505c28a1
+discoiquuid: 21cca2e3-ab16-4da0-a650-757bb1b80402
+index: y
+internal: n
+snippet: y
 ---
 
 # Invalidating your CDN cached content{#invalidating-your-cdn-cached-content}

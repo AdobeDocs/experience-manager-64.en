@@ -3,12 +3,15 @@ title: Working with Page Versions
 seo-title: Working with Page Versions
 description: Versioning creates a "snapshot" of a page at a specific point in time.
 seo-description: Versioning creates a "snapshot" of a page at a specific point in time.
-uuid: 219f322d-e5c2-42fe-a2d6-c0411ca797e1
+uuid: ea2dbadc-793e-43ba-8116-f1c8a5263d40
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: c6038849-d6fb-40bf-a469-38124128d6d1
+discoiquuid: 79d4ad2a-805e-4083-8e90-97de7a82ec64
+index: y
+internal: n
+snippet: y
 ---
 
 # Working with Page Versions{#working-with-page-versions}
@@ -140,7 +143,7 @@ The calendar version is used if you have a specific day to be viewed:
 
 1. When you have finished viewing the page, click:
 
-    * **Exit Timewarp** to exit and return to the current author page.
+    * ******Exit Timewarp** to exit and return to the current author page.
     
     * [Show Timeline](#usingthetimewarptimeline) to view the timeline.
 

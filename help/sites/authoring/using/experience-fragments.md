@@ -3,12 +3,15 @@ title: Experience Fragments
 seo-title: Experience Fragments
 description: null
 seo-description: null
-uuid: f064f4b3-2aa2-4aa8-baa7-8e1fff22efb4
+uuid: c8a3e3ba-a531-444b-bd8d-fe0d1ff4bcd1
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: a97dfa98-ee61-44df-8ca2-968b603b8ff0
+discoiquuid: 591c4c27-9095-4a16-a0a6-dec8978e2ab3
+index: y
+internal: n
+snippet: y
 ---
 
 # Experience Fragments{#experience-fragments}

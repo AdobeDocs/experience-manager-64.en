@@ -3,12 +3,15 @@ title: Asset link sharing
 seo-title: Asset link sharing
 description: This article describes how to share assets, folders, and collections within AEM Assets as a URL to external parties.
 seo-description: Share assets, folders, and collections as a URL to external parties without them having to first log in to AEM Assets, thereby securing your asset repository.
-uuid: b69f913c-4ab2-490d-aaf2-8fc32af4230d
+uuid: 03280f5e-00d9-40d4-9a4b-1a2c92b0f146
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: 403f3c76-7c31-482e-8560-f31f86849daf
+discoiquuid: c776ded2-0561-45ee-a57b-04c34527bed4
+index: y
+internal: n
+snippet: y
 ---
 
 # Asset link sharing{#asset-link-sharing}

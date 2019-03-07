@@ -3,10 +3,13 @@ title: Data Dictionary
 seo-title: Data Dictionary
 description: Data dictionary in Correspondence Management lets you integrate back-end data to letters as inputs for use in customer correspondence.
 seo-description: Data dictionary in Correspondence Management lets you integrate back-end data to letters as inputs for use in customer correspondence.
-uuid: 9a32570d-124f-41ae-a621-f195c9fc6a4f
+uuid: 32ad83b3-49d9-47bc-afb3-09f3275135c3
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
-discoiquuid: c520360c-3a65-4529-a943-ad38ebeace31
+discoiquuid: 741a09d2-84cf-4938-87b3-73188f72b2a5
+index: y
+internal: n
+snippet: y
 ---
 
 # Data Dictionary{#data-dictionary}
@@ -50,7 +53,7 @@ You use the Data Dictionary Editor to create a data dictionary or you can upload
     * **Name:** The unique name for the data dictionary. In the Name field, you can enter only English language characters, numbers, and hyphens. The Name field is automatically populated based on the Title field and the special characters, spaces, numbers, and non-English characters entered in the Title field are replaced with hyphens. Although the value in the Title field is automatically copied to the Name, you can edit the value.
 
     * **Description**: (Optional) Description of the data dictionary.
-    * **Tags:** (Optional) To create custom tag, enter value in text field and press Enter. You can see your tag below text field of tags. When you save this text, the newly added tags also get created.
+    * **Tags: **(Optional) To create custom tag, enter value in text field and press Enter. You can see your tag below text field of tags. When you save this text, the newly added tags also get created.
     * **Extended Properties**: (Optional) Tap **Add Field **to specify metadata attributes for your data dictionary. In the Property Name column, enter a unique property name. In the Value column, enter a value to associate with the property.
 
    ![Data dictionary properties specified in German](do-not-localize/1_ddproperties.png)

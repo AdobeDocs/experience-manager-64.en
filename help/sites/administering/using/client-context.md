@@ -3,12 +3,15 @@ title: Client Context
 seo-title: Client Context
 description: Learn how to use the Client Context in AEM.
 seo-description: Learn how to use the Client Context in AEM.
-uuid: a5bba8fc-5ecd-4c71-9b1e-b57b02f3de16
+uuid: 98bfda9b-9e25-4d07-81cf-3cbf97d42773
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: 002bee62-a95c-4983-aafd-f27f5b9ebc8f
+discoiquuid: 58ce4cc1-2a50-45e7-a366-7547058a4984
+index: y
+internal: n
+snippet: y
 ---
 
 # Client Context{#client-context}

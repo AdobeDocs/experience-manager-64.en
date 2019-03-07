@@ -3,13 +3,16 @@ title: Digital Rights Management in Assets
 seo-title: Digital Rights Management in Assets
 description: Learn how to manage asset expiration states and information for licensed assets in AEM.
 seo-description: Learn how to manage asset expiration states and information for licensed assets in AEM.
-uuid: 3431ab4a-4930-4b74-be9c-7c190a9a0000
+uuid: 30384914-6835-4854-aabe-551d40709849
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: d00d3508-a038-477f-a25e-c74d28a010a4
+discoiquuid: fb6dda57-3f39-4349-a12e-c879177c296b
 legacypath: /content/docs/en/aem/6-2/author/assets/managing-assets-touch-ui/drm
+index: y
+internal: n
+snippet: y
 ---
 
 # Digital Rights Management in Assets{#digital-rights-management-in-assets}

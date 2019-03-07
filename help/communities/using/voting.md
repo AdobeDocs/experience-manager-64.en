@@ -3,12 +3,15 @@ title: Using Voting
 seo-title: Using Voting
 description: Adding the Voting component to a page
 seo-description: Adding the Voting component to a page
-uuid: 86233532-576c-40b8-a2dd-c3143f8f2a14
+uuid: 096aeb71-1d37-4aa9-ab74-27d99cd14c44
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
-discoiquuid: 1ab175d7-be74-4a8f-930c-d094b955a3d3
+discoiquuid: d3b5c194-0e4a-4e80-807f-1c653c244d5c
+index: y
+internal: n
+snippet: y
 ---
 
 # Using Voting{#using-voting}

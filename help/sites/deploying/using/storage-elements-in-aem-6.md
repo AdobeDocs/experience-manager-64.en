@@ -3,13 +3,16 @@ title: Storage Elements in AEM 6.4
 seo-title: Storage Elements in AEM 6.4
 description: Learn about the node storage implementations available in AEM 6.4 and how to maintain the repository.
 seo-description: Learn about the node storage implementations available in AEM 6.4 and how to maintain the repository.
-uuid: b1524b06-bb26-45d3-ac0f-62b129349fb3
+uuid: 351a26a3-fc66-48ab-97f9-03a4e9ec8882
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
-discoiquuid: 35bd980e-ff13-47b7-929a-c0dde83b5d98
+discoiquuid: e47f0efb-a5ba-4f54-ba96-97064b36b5ac
 legacypath: /content/docs/en/aem/6-0/deploy/upgrade/microkernels-in-aem-6-0
+index: y
+internal: n
+snippet: y
 ---
 
 # Storage Elements in AEM 6.4{#storage-elements-in-aem}

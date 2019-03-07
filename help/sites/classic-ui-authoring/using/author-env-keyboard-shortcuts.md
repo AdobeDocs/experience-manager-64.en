@@ -3,12 +3,15 @@ title: Keyboard Shortcuts for Consoles
 seo-title: Keyboard Shortcuts for Consoles
 description: Various keyboard shortcuts are available throughout AEM. Some apply to the use of consoles, others to page editing.
 seo-description: Various keyboard shortcuts are available throughout AEM. Some apply to the use of consoles, others to page editing.
-uuid: d58fe89c-838a-415d-bdb7-c47b0673c472
+uuid: fbe0afa7-44b9-48fc-b4f3-ee3a613b87e3
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
-discoiquuid: 2e604d47-d2a2-4694-aafb-20b6b171e828
+discoiquuid: 90827085-91e5-43a9-8141-27b3feba28e5
+index: y
+internal: n
+snippet: y
 ---
 
 # Keyboard Shortcuts for Consoles{#keyboard-shortcuts-for-consoles}
@@ -19,9 +22,9 @@ Various keyboard shortcuts are available throughout AEM. Some apply to the use o
 >
 >Multi-select on a desktop device:
 >
->* Windows:** Ctrl**+**click** on required components.  
+>* Windows: **Ctrl**+**click** on required components.  
 >
->* Mac:** Cmd**+**click** on required components.
+>* Mac: **Cmd**+**click** on required components.
 >
 
 ## Keyboard Shortcuts {#keyboard-shortcuts}

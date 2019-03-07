@@ -3,10 +3,13 @@ title: Adding information from user data to form submission metadata
 seo-title: Adding information from user data to form submission metadata
 description: Learn how to add information to metadata of a submitted form with user provided data. 
 seo-description: Learn how to add information to metadata of a submitted form with user provided data. 
-uuid: 41b5d01c-8f7a-4f4d-8ca3-15bdf0b02bc4
+uuid: 04d8369e-6955-4db6-9af8-222ec09b4e3b
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
-discoiquuid: fb4dc219-4100-4916-86b1-b7d495bf8915
+discoiquuid: ea063cc3-f453-4387-a0a0-00e028847079
+index: y
+internal: n
+snippet: y
 ---
 
 # Adding information from user data to form submission metadata{#adding-information-from-user-data-to-form-submission-metadata}

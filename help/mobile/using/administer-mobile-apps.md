@@ -3,12 +3,15 @@ title: Mobile Apps
 seo-title: Mobile Apps
 description: Follow this page to get started with administering content for mobile apps.
 seo-description: Follow this page to get started with administering content for mobile apps.
-uuid: 26c33042-16a5-4ffa-8a00-ef8d6d1a8a33
+uuid: 5af17d24-8431-4213-af0e-a9f55e6167e4
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: introduction
 content-type: reference
-discoiquuid: 70341231-df28-45d3-9310-c4508192d43b
+discoiquuid: 6c61f12e-7a49-4397-bdc1-00415c235a7f
+index: y
+internal: n
+snippet: y
 ---
 
 # Mobile Apps{#mobile-apps}

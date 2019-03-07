@@ -3,11 +3,14 @@ title: Cascading Metadata
 seo-title: Cascading Metadata
 description: This article describes how to define cascading metadata for assets.
 seo-description: How to define cascading metadata for assets.
-uuid: fd71b9e0-a7a3-40e8-a4c8-76f67edf8186
+uuid: 2f93e7c7-dede-4e2a-82ca-872178acb771
 contentOwner: cmajumda
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: authoring
-discoiquuid: bbc738c3-aa49-43dc-80fa-2a0f396efa33
+discoiquuid: 6ce24cd4-0610-4db8-b0be-e40197f85123
+index: y
+internal: n
+snippet: y
 ---
 
 # Cascading Metadata{#cascading-metadata}
@@ -43,7 +46,7 @@ Irrespective of the asset type chosen, display the copyright information as a re
 
 1. (Optional) In the metadata schema editor, create a new field to conditionalize. Specify a name and property path in the **[!UICONTROL Settings]** tab.
 
-   To create a new tab, tap/click **[!UICONTROL +]** to add a tab and then add a metadata field.
+   To create a new tab, tap/click ****[!UICONTROL +]**** to add a tab and then add a metadata field.
 
    ![](assets/add_tab.png)
 

@@ -3,12 +3,15 @@ title: Lightbox
 seo-title: Lightbox
 description: Learn about Lightbox in AEM Assets.
 seo-description: Learn about Lightbox in AEM Assets. Know how to add assets to Lightbox and remove assets from Lightbox.
-uuid: 78fb8144-a31f-40e5-96b9-2004eca1306d
+uuid: 18d3a40e-1f91-4349-9b05-0ad17bed1c4f
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference
-discoiquuid: 8545ead4-d945-44da-b4d5-0ecb5e8cef8e
+discoiquuid: 38c4e7b4-69e1-4f3d-93ef-541b0b74029d
+index: y
+internal: n
+snippet: y
 ---
 
 # Lightbox{#lightbox}

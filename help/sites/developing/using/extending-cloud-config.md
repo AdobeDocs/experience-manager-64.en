@@ -3,12 +3,15 @@ title: Cloud Service Configurations
 seo-title: Cloud Service Configurations
 description: You can extend the existing instances to create your own configurations
 seo-description: You can extend the existing instances to create your own configurations
-uuid: c0422dbe-938e-4eca-b1ec-55a7ebb16cdf
+uuid: 99521ed1-99b5-412d-b0c1-f740e031faec
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
-discoiquuid: 31ef76c1-e2ce-4a36-a900-7b6321c598f6
+discoiquuid: 8a5f8e38-68c6-4fd8-a50a-3209fd3af9a5
+index: y
+internal: n
+snippet: y
 ---
 
 # Cloud Service Configurations{#cloud-service-configurations}

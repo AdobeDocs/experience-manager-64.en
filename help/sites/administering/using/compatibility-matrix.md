@@ -4,9 +4,12 @@ seo-title: Compatibility Matrix for AEM Screens Player
 description: This page lists the AEM Screens Players with their respective AEM Screens version.
 seo-description: This page lists the AEM Screens Players with their respective AEM Screens version.
 page-status-flag: never-activated
-uuid: 0498c1da-e85b-4a44-89dc-003598978096
+uuid: 9405f967-5f18-435a-8246-e55b0f22c353
 contentOwner: jsyal
-discoiquuid: 42a2640e-a667-4c70-8abb-29bf89d808d9
+discoiquuid: 30f9d968-23b4-497e-9182-0880e57086db
+index: y
+internal: n
+snippet: y
 ---
 
 # Compatibility Matrix for AEM Screens Player{#compatibility-matrix-for-aem-screens-player}
@@ -84,7 +87,7 @@ aem-screens-player-windows-1.0.48-signed.exe.zip
 | **AEM Server Version** |**Android Player** |
 |---|---|
 | **AEM 6.3+SP1+Screens FP1(1.0.64_B002)** |**3.2.68 -** (Available on Macromedia Site) & Google Play Store |
-| **AEM 6.3+SP1+Screens FP2(1.0.298)** |**3.3.0 ** |
+| ****AEM 6.3+SP1+Screens FP2(1.0.298)**** |**3.3.0 ** |
 | **AEM 6.4** |**3.3.0 ** |
 
 ### Download Link {#download-link-2}

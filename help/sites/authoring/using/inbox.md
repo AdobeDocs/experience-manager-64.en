@@ -3,12 +3,15 @@ title: Your Inbox
 seo-title: Your Inbox
 description: Managing your tasks with the inbox
 seo-description: Managing your tasks with the inbox
-uuid: 72e6710e-eea3-40d8-baff-d9a23e0a0487
+uuid: 9e8e1dc0-4b19-4b26-bae8-6916d86b728a
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
-discoiquuid: 5ae8272e-d7b6-4530-8800-23f382a66482
+discoiquuid: d7b4f906-9381-4c50-9e0e-034fd5f035cc
+index: y
+internal: n
+snippet: y
 ---
 
 # Your Inbox{#your-inbox}

@@ -3,12 +3,15 @@ title: Image Sets
 seo-title: Image Sets
 description: Learn how to work with image sets in dynamic media
 seo-description: Learn how to work with image sets in dynamic media
-uuid: ef6a1c97-6c11-49ff-a8a1-4df3541ca19d
+uuid: d90c3f3b-907c-4477-a7d3-b58db065dbec
 contentOwner: Alva Ware-Bevacqui
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: 87c9c101-7642-481c-8ad0-dc4783232963
+discoiquuid: eb02243b-683c-42c6-a87b-1f89f69c54ce
+index: y
+internal: n
+snippet: y
 ---
 
 # Image Sets{#image-sets}

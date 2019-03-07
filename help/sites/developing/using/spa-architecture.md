@@ -3,12 +3,15 @@ title: Developing SPAs for AEM
 seo-title: Developing SPAs for AEM
 description: This article presents important questions to consider when engaging a front-end developer to develop a SPA for AEM as well as gives an overview of the architecture of AEM with respect to SPAs to keep in mind when deploying a developed SPA on AEM.
 seo-description: This article presents important questions to consider when engaging a front-end developer to develop a SPA for AEM as well as gives an overview of the architecture of AEM with respect to SPAs to keep in mind when deploying a developed SPA on AEM.
-uuid: 057ff5b1-0992-47da-8b79-7dc4f06c9515
+uuid: 26d16544-39ef-40d4-8df3-74939352d9a3
 contentOwner: bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: spa
 content-type: reference
-discoiquuid: fd4ffe4c-3f6a-436e-a5c9-15c63cc7a225
+discoiquuid: 7c90ffbd-ebf9-4e27-bf81-151daf2e07c5
+index: y
+internal: n
+snippet: y
 ---
 
 # Developing SPAs for AEM{#developing-spas-for-aem}

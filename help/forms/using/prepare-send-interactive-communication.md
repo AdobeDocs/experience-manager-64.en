@@ -3,10 +3,13 @@ title: Prepare and send Interactive Communication using the Agent UI
 seo-title: Prepare and send Interactive Communication using the Agent UI
 description: The Agent UI allows the agents to prepare and send Interactive Communication to the post process. The Agent makes the required modifications as allowed, and submits the Interactive Communication to a post process, such as email or print. 
 seo-description: Prepare and send Interactive Communication using the Agent UI
-uuid: c0160a7e-a8ab-4e99-8e73-cc47758698c9
+uuid: c24bdc1c-f576-44c1-babe-90e977c9c569
 topic-tags: interactive-communications
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 563fbc8c-08c0-4e75-a593-7d096789edde
+discoiquuid: bb5697e0-c772-461f-8fea-3002aebfd9c2
+index: y
+internal: n
+snippet: y
 ---
 
 # Prepare and send Interactive Communication using the Agent UI{#prepare-and-send-interactive-communication-using-the-agent-ui}

@@ -3,13 +3,16 @@ title: Configuring Layout Container and Layout Mode
 seo-title: Configuring Layout Container and Layout Mode
 description: Lear how to configure Layout Container and Layout Mode.
 seo-description: Lear how to configure Layout Container and Layout Mode.
-uuid: 7845ff4e-c17a-4bda-b314-7b8883dd09e6
+uuid: 4da5ffa4-207b-4997-ba18-73299d3f7ac6
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: 4dba3330-2ab0-4e60-8457-8502f9cd6124
+discoiquuid: 9a5a0ada-36d1-4df1-8167-8597c6c62672
 legacypath: /content/docs/en/aem/6-2/administer/operations/page-authoring/configuring-responsive-layouting
+index: y
+internal: n
+snippet: y
 ---
 
 # Configuring Layout Container and Layout Mode{#configuring-layout-container-and-layout-mode}
@@ -38,8 +41,7 @@ AEM realizes responsive layout for your pages using a combination of mechanisms:
 * ** [Layout Mode](../../../sites/authoring/using/responsive-layout.md#defining-layouts-layout-mode)** 
   Once the layout container is positioned on your page you can use the **Layout** mode to position content within the responsive grid.
 
-* [**Emulator**](../../../sites/authoring/using/responsive-layout.md#selectingadevicetoemulate)
-
+* [**Emulator**](../../../sites/authoring/using/responsive-layout.md#selectingadevicetoemulate)**** 
   This allows you to create and edit responsive websites that rearrange the layout according to device/window size by resizing components interactively. The user can then see how the content will be rendered using the Emulator.
 
 >[!CAUTION]

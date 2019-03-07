@@ -3,12 +3,15 @@ title: Create a Sample Page
 seo-title: Create a Sample Page
 description: Create a Sample community site
 seo-description: Create a Sample community site
-uuid: ca3da35a-4dd4-47fe-86a0-6b150d9c5f67
+uuid: 86cd95f7-f7ca-42f0-b787-d7749e0f5bb5
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 content-type: reference
 topic-tags: developing
-discoiquuid: 0b64da6d-1be4-4ab0-a012-7abf4af657ce
+discoiquuid: d4ff357d-6a08-4f78-89dd-f7efa59253e2
+index: y
+internal: n
+snippet: y
 ---
 
 # Create a Sample Page{#create-a-sample-page}

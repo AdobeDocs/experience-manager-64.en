@@ -3,12 +3,15 @@ title: Glossary
 seo-title: Glossary
 description: This glossary lists (alphabetically) details of all Deliverable documents from the Project Checklist.
 seo-description: This glossary lists (alphabetically) details of all Deliverable documents from the Project Checklist.
-uuid: e124ecfd-04ca-4962-821c-70ef086a7efe
+uuid: 5a2007cd-e269-46b3-9f4e-3e098fa99568
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/MANAGING
 topic-tags: managing-checklist
 content-type: reference
-discoiquuid: 6edc1b6e-11e6-4595-a301-286bf722b25d
+discoiquuid: a9b9534d-444c-4457-8621-d8abd36d610b
+index: y
+internal: n
+snippet: y
 ---
 
 # Glossary{#glossary}

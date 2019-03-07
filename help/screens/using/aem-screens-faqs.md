@@ -3,12 +3,15 @@ title: AEM Screens FAQs
 seo-title: AEM Screens FAQs
 description: Follow this page to get answers to FAQs related to an AEM Screens project.
 seo-description: Follow this page to get answers to FAQs related to an AEM Screens project.
-uuid: d880b428-fe95-479a-a461-2865e18f6d72
+uuid: 597c4a10-2f6f-4dd6-ba55-a1d5b55ad4b4
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 content-type: reference
 topic-tags: troubleshoot
-discoiquuid: f7ec64d7-a9e1-427b-8eaa-0dd8f3816b00
+discoiquuid: 7dce29f3-9df0-411c-bd31-1cd2fb78b7ff
+index: y
+internal: n
+snippet: y
 ---
 
 # AEM Screens FAQs{#aem-screens-faqs}
@@ -96,7 +99,7 @@ For more information on where you can monitor device activity, please refer to [
 
 ChromeOS player can be installed as Chrome Browser plugin in developer mode without requiring actual chrome player device. For installation, follow the steps below:
 
-1. Click [here](https://download.macromedia.com/screens/)** to download the latest Chrome Player.
+1. Click [here](https://download.macromedia.com/screens/)**** to download the latest Chrome Player.
 
 1. Unzip and save it on disk.
 1. Open Chrome browser and click the 3-dots menu and select **More Tools** --&gt; **Extensions** from the top right corner or directly navigate to ***chrome://extensions***.

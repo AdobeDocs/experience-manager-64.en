@@ -3,10 +3,13 @@ title: Integrating third-party applications in AEM Forms workspace
 seo-title: Integrating third-party applications in AEM Forms workspace
 description: How-to integrate third-party apps like Correspondence Management in AEM Forms workspace.
 seo-description: How-to integrate third-party apps like Correspondence Management in AEM Forms workspace.
-uuid: aae277a2-c40c-4a82-a12e-8e471cafb7b9
+uuid: 20c0a2c2-09af-46e8-a762-d7e3681b3207
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
-discoiquuid: 66dc445b-c319-43a9-bfc7-fe1c6e5b18e0
+discoiquuid: c9da182f-6727-41f8-8a6e-4d1279d2904d
+index: y
+internal: n
+snippet: y
 ---
 
 # Integrating third-party applications in AEM Forms workspace{#integrating-third-party-applications-in-aem-forms-workspace}

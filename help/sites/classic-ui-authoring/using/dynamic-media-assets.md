@@ -3,12 +3,15 @@ title: Working with Dynamic Media
 seo-title: Working with Dynamic Media
 description: Dynamic Media helps deliver rich visual merchandising and marketing assets on demand, automatically scaled for consumption on web, mobile, and social sites. Using a set of master assets, Dynamic Media generates and delivers multiple variations of rich content in real time through its global, scalable, performance-optimized network
 seo-description: Dynamic Media helps deliver rich visual merchandising and marketing assets on demand, automatically scaled for consumption on web, mobile, and social sites. Using a set of master assets, Dynamic Media generates and delivers multiple variations of rich content in real time through its global, scalable, performance-optimized network
-uuid: a70212c7-d6e8-4e02-b5db-0f16ad84b0f7
+uuid: e2f2e645-83cb-4795-b0f5-06a7dc4399e5
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: authoring
 content-type: reference
-discoiquuid: 97c1286e-4a3c-403d-afb7-d899812f4677
+discoiquuid: 7c918b73-f420-45d5-a367-355359035638
+index: y
+internal: n
+snippet: y
 ---
 
 # Working with Dynamic Media{#working-with-dynamic-media}

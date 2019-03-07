@@ -3,12 +3,15 @@ title: Carousel Banners
 seo-title: Carousel Banners
 description: Learn how to work with carousel banners in dynamic media
 seo-description: Learn how to work with carousel banners in dynamic media
-uuid: ff375dc9-fbb6-48b8-aacf-e3d06c35c87c
+uuid: 3484c5cd-d295-401b-8795-315dbfd8d350
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: dec8221f-e507-4623-b071-72f9d3e6068f
+discoiquuid: a5327a53-4142-4ce6-97eb-c8b18f7ecf4a
+index: y
+internal: n
+snippet: y
 ---
 
 # Carousel Banners{#carousel-banners}
@@ -54,7 +57,7 @@ To get you up and running quickly:
    >
    >If you are an AEM Assets and Dynamic Media customer, you will manually enter data for hotspots and image maps, and then integrate the published URL or Embed code with your third-party content management system.
 
-1. Optional: [Create a Carousel Set viewer preset](../../assets/using/managing-viewer-presets.md), as needed.
+1. Optional: [Create a Carousel Set viewer preset](../../assets/using/managing-viewer-presets.md), as needed.****
 
    If you are an administrator, you can customize the behavior and appearance of the carousel by creating your own Carousel viewer preset. The main benefit is that you can re-use this custom viewer preset for multiple carousels. However, users also have the option to customize the behavior and appearance of the carousel directly while authoring the carousel. This is the preferred approach when you want a very specific design for a given carousel.
 

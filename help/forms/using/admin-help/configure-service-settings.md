@@ -3,12 +3,15 @@ title: Configure service settings
 seo-title: Configure service settings
 description: Learn how to configure service settings.
 seo-description: Learn how to configure service settings.
-uuid: 673b35b2-66d8-4b82-9068-b57de59e5d06
+uuid: 5b4c5297-97d3-4235-a033-e285ce6ba3ec
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/managing_services
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 0d67041b-75b7-41dc-a608-1e435c6ffa60
+discoiquuid: 7ca4b00f-6bc0-4d4f-b606-4f8e749a3679
+index: y
+internal: n
+snippet: y
 ---
 
 # Configure service settings{#configure-service-settings}
@@ -792,11 +795,11 @@ Default security profiles are installed, which can then be configured to meet yo
 
    To specify the run-time identity used by a service to execute operations, select Specify Run As, select an option from the associated list, and then click Save. Choose from the following options:
 
-   **Invoker:** Uses the same identity as the user who invoked the service.
+   **Invoker: **Uses the same identity as the user who invoked the service.
 
-   **System:** Uses the System user to run the service with full privileges.
+   **System: **Uses the System user to run the service with full privileges.
 
-   **Named User:** Enables you to run the service as a specific user. When you select this option, click Select User to display the Select Principal page, where you can search for and select the user.
+   **Named User: **Enables you to run the service as a specific user. When you select this option, click Select User to display the Select Principal page, where you can search for and select the user.
 
    If you do not select Specify Run As, the default behavior is used.
 
@@ -808,18 +811,18 @@ Default security profiles are installed, which can then be configured to meet yo
 1. The Select Principal screen displays the users and groups that are configured in User Management. If the user or group you want is not displayed, use the search function to find it. Click a user or group name.
 1. On the Add Permissions screen, select the permissions to assign to the user or group for this service:
 
-    * **INVOKE_PERM:** To invoke all operations on the service
-    * **MODIFY_CONFIG_PERM:** To modify the configuration of a service
-    * **SUPERVISOR_PERM:** To view process instance data for a service that is created from a process
-    * **START_STOP_PERM:** To start and stop a service
-    * **ADD_REMOVE_ENDPOINTS_PERM:** To add, remove, and modify endpoints for a service
-    * **CREATE_VERSION_PERM:** To create a new version of the service
-    * **DELETE_VERSION_PERM:** To delete a version of the service
-    * **MODIFY_VERSION_PERM:** To modify a version of the service
-    * **READ_PERM:** To view the service
-    * **PROCESS_OWNER_PERM:** For use in a future version of AEM forms. Do not use this permission.
-    * **SERVICE_MANAGER_PERM:** For use in a future version of AEM forms. Do not use this permission.
-    * **SERVICE_AGENT_PERM:** For use in a future version of AEM forms. Do not use this permission.
+    * **INVOKE_PERM: **To invoke all operations on the service
+    * **MODIFY_CONFIG_PERM: **To modify the configuration of a service
+    * **SUPERVISOR_PERM: **To view process instance data for a service that is created from a process
+    * **START_STOP_PERM: **To start and stop a service
+    * **ADD_REMOVE_ENDPOINTS_PERM: **To add, remove, and modify endpoints for a service
+    * **CREATE_VERSION_PERM: **To create a new version of the service
+    * **DELETE_VERSION_PERM: **To delete a version of the service
+    * **MODIFY_VERSION_PERM: **To modify a version of the service
+    * **READ_PERM: **To view the service
+    * **PROCESS_OWNER_PERM: **For use in a future version of AEM forms. Do not use this permission.
+    * **SERVICE_MANAGER_PERM: **For use in a future version of AEM forms. Do not use this permission.
+    * **SERVICE_AGENT_PERM: **For use in a future version of AEM forms. Do not use this permission.
 
 1. Click Add.
 

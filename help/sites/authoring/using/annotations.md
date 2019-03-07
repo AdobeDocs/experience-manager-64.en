@@ -3,12 +3,15 @@ title: Annotations when Editing a Page
 seo-title: Annotations when Editing a Page
 description: Many components directly related to content allow you to add an annotation
 seo-description: Many components directly related to content allow you to add an annotation
-uuid: 5b4bd90c-f1e0-4933-8f2b-b5c8602338e6
+uuid: 59d60489-5786-4981-bb54-fcd4d066ad37
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: 86578803-ec26-4e2b-8568-014def1cb6c4
+discoiquuid: dfac934c-c7bb-4bf0-b58a-26200bf91e05
+index: y
+internal: n
+snippet: y
 ---
 
 # Annotations when Editing a Page{#annotations-when-editing-a-page}

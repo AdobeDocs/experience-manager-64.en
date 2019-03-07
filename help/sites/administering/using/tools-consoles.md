@@ -3,12 +3,15 @@ title: Tools Consoles
 seo-title: Tools Consoles
 description: Learn about the different tools consoles throughout AEM.
 seo-description: Learn about the different tools consoles throughout AEM.
-uuid: e6240fd2-4363-4459-a72d-99431a5065d3
+uuid: f2229df0-31d5-49c3-8278-e8efad929405
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: da2438ef-2663-486b-99dd-7920ec5a598f
+discoiquuid: f9679678-e3e3-4a42-abf5-9a28da3ca224
+index: y
+internal: n
+snippet: y
 ---
 
 # Tools Consoles{#tools-consoles}

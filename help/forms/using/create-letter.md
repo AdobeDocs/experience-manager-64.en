@@ -3,10 +3,13 @@ title: Create Letter
 seo-title: Create Letter
 description: This topic gives you the steps to create a letter, add data modules and attachments to it, and preview it in Correspondence Management. 
 seo-description: This topic gives you the steps to create a letter, add data modules and attachments to it, and preview it in Correspondence Management. 
-uuid: 9399a179-d8ca-4736-8166-2c0fd1b9baa6
+uuid: d38d9716-5b07-4911-97a7-98545c4fbe4e
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
-discoiquuid: b4e7ccb7-1348-43cd-baf4-2653c663491f
+discoiquuid: 63d78be0-cdae-4ca5-bd2b-514231713348
+index: y
+internal: n
+snippet: y
 ---
 
 # Create Letter{#create-letter}
@@ -246,11 +249,11 @@ You need the following in place first to create a correspondence:
 
 1. Enter the properties for the Correspondence and tap **Save:**
 
-    * **Title (Optional):** Enter the title for the letter. Title need not be unique and can have special characters and non-english characters. 
-    * **Name:** The unique name for the letter. No two letters in any state can exist with the same name. In the Name field, you can enter only English language characters, numbers, and hyphens. The Name field is automatically populated based on the Title field. The special characters, spaces, numbers, and non-English characters entered in the Title field are replaced with hyphens in the Name field. Although the value in the Title field is automatically copied to the Name, you can edit the value.
-    * **Description (Optional):** Describe the letter for your reference.
+    * **Title (Optional): **Enter the title for the letter. Title need not be unique and can have special characters and non-english characters. 
+    * **Name: **The unique name for the letter. No two letters in any state can exist with the same name. In the Name field, you can enter only English language characters, numbers, and hyphens. The Name field is automatically populated based on the Title field. The special characters, spaces, numbers, and non-English characters entered in the Title field are replaced with hyphens in the Name field. Although the value in the Title field is automatically copied to the Name, you can edit the value.
+    * **Description (Optional): **Describe the letter for your reference.
     * **Data Dictionary (Optional)**: The Data Dictionary can be associated to the correspondence. The assets that you later insert in this correspondence should either have the same data dictionary as the one you choose for the correspondence here or no data dictionary. 
-    * **Tags (Optional):** Select the tags to apply to the correspondence. You can also type in a new/custom tag name and press Enter to create it. 
+    * **Tags (Optional): **Select the tags to apply to the correspondence. You can also type in a new/custom tag name and press Enter to create it. 
     * **Post Process (Optional):** Select the post process to be applied to the letter template. There are out of the box post processes and the ones you have created using AEM, such as e-mail and print.
 
    ![Correspondence properties](assets/createcorrespondenceproperties.png)

@@ -3,12 +3,15 @@ title: Authoring
 seo-title: Authoring
 description: Concepts of authoring in AEM
 seo-description: Concepts of authoring in AEM
-uuid: cc0acea9-e71a-4a8e-8b1d-cf3a46bca755
+uuid: c79872ba-0ab7-4267-9c74-21e97f0fe964
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
-discoiquuid: 3eebec11-b1a7-4820-9906-3ff9aeb6300a
+discoiquuid: 851ff699-0d9f-4ddc-8bd4-0d1fa1f4e74e
+index: y
+internal: n
+snippet: y
 ---
 
 # Authoring{#authoring}

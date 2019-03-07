@@ -3,12 +3,15 @@ title: Tagging User Generated Content
 seo-title: Tagging User Generated Content
 description: Tagging of user generated content (UGC) is how community members can help other members search for content
 seo-description: Tagging of user generated content (UGC) is how community members can help other members search for content
-uuid: a5a0494d-51cb-43c2-a358-968226e007b6
+uuid: 300e5ec7-92ed-47bc-86b8-b103825875b5
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: f748c90b-0ace-404a-bf0b-63a977a6733e
+discoiquuid: 77da2043-d92c-48e1-9beb-5ef4ce89b8db
+index: y
+internal: n
+snippet: y
 ---
 
 # Tagging User Generated Content{#tagging-user-generated-content}

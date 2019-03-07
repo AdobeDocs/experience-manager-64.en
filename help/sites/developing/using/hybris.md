@@ -3,12 +3,15 @@ title: Developing with hybris
 seo-title: Developing with hybris
 description: The hybris integration framework includes an integration layer with an API
 seo-description: The hybris integration framework includes an integration layer with an API
-uuid: 0abc85f6-6028-4934-838e-9dd22b4275f5
+uuid: 49a3facc-7352-403e-a420-37d910559d4b
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: platform
-discoiquuid: 77eb1caa-9042-4459-b78e-c1c8fc1f5ad4
+discoiquuid: 1b33dcbb-e6ce-4335-aa24-a90dad523894
+index: y
+internal: n
+snippet: y
 ---
 
 # Developing with hybris{#developing-with-hybris}
@@ -129,7 +132,7 @@ hybris uses a user session to store information such as the customer's shopping 
 
 #### CommerceSession {#commercesession}
 
-* This session "owns" the **shopping cart**
+* This session "owns" the **s****hopping ****c****art**
 
     * performs add/remove/etc
     * performs the various calculations on the cart;  

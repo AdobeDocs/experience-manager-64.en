@@ -3,12 +3,15 @@ title: Controlling access to policy-protected documents
 seo-title: Controlling access to policy-protected documents
 description: See how you can view, manage and control the access to your policy-protected documents.
 seo-description: See how you can view, manage and control the access to your policy-protected documents.
-uuid: d6f8f46f-6362-42f1-b787-ec2ee1bee039
+uuid: 82a85810-7707-4f2e-a360-9c80987d0455
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_document_security
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 588492de-b434-4f6c-9c91-aebbfdfa3bb9
+discoiquuid: f494add7-1be8-4f42-a1ae-211288eb7161
+index: y
+internal: n
+snippet: y
 ---
 
 # Controlling access to policy-protected documents{#controlling-access-to-policy-protected-documents}
@@ -69,11 +72,11 @@ If this feature is enabled, you can view the related iterations of a document fr
 1. View the Document Detail page for a document. (See [View information about a document](controlling-access-policy-protected-documents#view_information_about_a_document).)
 1. Click View Related Iterations. The option is available only if the feature is enabled. The list of related iterations appears. For each iteration, you can view the following information:
 
-    * **Iteration:** The filename. It may be different from the original filename and it has a version number appended to the end of it.
-    * **Publisher:** The publisher of the original document.
-    * **Created By:** The user who saved the iteration.
-    * **Date Created:** The date and time that the Iteration was saved.
-    * **Policy:** The policy that protects the iteration. Different iterations may be protected by different policies.
+    * **Iteration: **The filename. It may be different from the original filename and it has a version number appended to the end of it.
+    * **Publisher: **The publisher of the original document.
+    * **Created By: **The user who saved the iteration.
+    * **Date Created: **The date and time that the Iteration was saved.
+    * **Policy: **The policy that protects the iteration. Different iterations may be protected by different policies.
 
 1. To display the Document Detail page for that iteration, click the filename of an iteration.
 
@@ -99,8 +102,8 @@ When you revoke or reinstate document access privileges, the change takes effect
 1. Select the check box beside the appropriate document and click Revoke. You can revoke access to multiple documents at a time.
 1. Select a message to display to users who attempt to open the document after it is revoked:
 
-    * **General Message:** Indicates that the author revoked the document
-    * **Document Terminated:** Indicates that the author terminated the document
+    * **General Message: **Indicates that the author revoked the document
+    * **Document Terminated: **Indicates that the author terminated the document
     * **Document Revised**: Indicates that the author revised the document
 
 1. (Optional) If a newer version of the document is available, enter the URL and click Test to verify the URL.

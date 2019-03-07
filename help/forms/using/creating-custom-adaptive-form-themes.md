@@ -3,11 +3,14 @@ title: Creating custom adaptive form themes
 seo-title: Creating custom adaptive form themes
 description: An adaptive form theme is an AEM client library that you use to define the styles (look and feel) for an adaptive form. Learn how you can create custom adaptive form themes.
 seo-description: An adaptive form theme is an AEM client library that you use to define the styles (look and feel) for an adaptive form. Learn how you can create custom adaptive form themes.
-uuid: 1f5fc8dc-8a72-4a58-a4bd-718f0649d59b
+uuid: ae1c0c14-0e5b-4e71-980d-d9a1d44b65b1
 content-type: reference
 topic-tags: customization
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: de22c54d-e69f-4666-b600-214de9ed17d4
+discoiquuid: 35ee3de9-ffc6-4bd9-b7bd-cfdaca8ac937
+index: y
+internal: n
+snippet: y
 ---
 
 # Creating custom adaptive form themes{#creating-custom-adaptive-form-themes}
@@ -102,7 +105,7 @@ Forest Theme Sample
    @button-hover-bg-color: rgb(30, 156, 67);
    ```
 
-   **Less mixin files:** You can define the functions that accept variables as arguments. The output of these functions are the resultant styles. Use these mixins within different styles, to avoid repeating CSS styles.
+   **Less mixin files: **You can define the functions that accept variables as arguments. The output of these functions are the resultant styles. Use these mixins within different styles, to avoid repeating CSS styles.
 
    Adaptive forms provide OOTB mixins defined in:
 
@@ -128,7 +131,7 @@ Forest Theme Sample
    }
    ```
 
-   **Styles.less File:** Use this file to include all the less files (variables, mixins, styles) that you need to use in the client library.
+   **Styles.less File: **Use this file to include all the less files (variables, mixins, styles) that you need to use in the client library.
 
    In the following sample `styles.less` file, the import statement can be placed in any order.
 

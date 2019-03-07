@@ -3,12 +3,15 @@ title: AEM Forms app
 seo-title: AEM Forms app
 description: AEM Forms app enables your field workers to use adaptive forms on their mobile devices. 
 seo-description: AEM Forms app enables your field workers to use adaptive forms on their mobile devices. 
-uuid: 7b8bcc2a-6795-4b30-be3f-6cf3ec0951a5
+uuid: 4e088150-8b8c-40e0-954a-e9b3d2c6ec71
 contentOwner: sashanka
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
-discoiquuid: 51c05440-e6dd-48d6-9479-cd07c0b4ab1f
+discoiquuid: 6d206557-7f1b-4978-a303-2a7dc3dce6ef
+index: y
+internal: n
+snippet: y
 ---
 
 # AEM Forms app{#aem-forms-app}
@@ -55,13 +58,13 @@ To sync your form in AEM Forms app:
 1. In author instance, select a form, and click **View Properties**.  
 
 1. In the properties page, click **Advanced.**
-1. Under Advanced, enable option:** Sync with AEM Forms App, **and tap **Save**.
+1. Under Advanced, enable option: **Sync with AEM Forms App, **and tap **Save**.
 
 When the form is published, the app syncs with the server and fetches the form. To sync multiple forms, in the author instance, select multiple forms in forms manager and tap **Sync with AEM Forms App**.
 
 ## Mobile device support {#mobile-device-support}
 
-See [AEM Forms app (previously known as Mobile Workspace)](../../forms/using/aem-forms-jee-supported-platforms.md#aem-forms-workspace-app)
+See [AEM Forms app (previously known as Mobile Workspace)](../../forms/using/AEM-forms-JEE-supported-platforms.md#aem-forms-workspace-app)
 
 ## Key features of AEM Forms app {#key-features-of-aem-forms-app}
 

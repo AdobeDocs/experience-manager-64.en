@@ -3,12 +3,15 @@ title: DSRP - Relational Database Storage Resource Provider
 seo-title: DSRP - Relational Database Storage Resource Provider
 description: Set up AEM Communities to use a relational database as its common store
 seo-description: Set up AEM Communities to use a relational database as its common store
-uuid: 1632d725-e053-4e42-ba7e-39eab4b4a623
+uuid: 4b6d202b-5001-44f9-89aa-60912d8de86e
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 6c232b1e-7624-4fb1-886e-c728454618f2
+discoiquuid: 09139067-774a-441a-b6c0-6674eceb50b3
+index: y
+internal: n
+snippet: y
 ---
 
 # DSRP - Relational Database Storage Resource Provider{#dsrp-relational-database-storage-resource-provider}
@@ -111,7 +114,7 @@ For information regarding *users*, *user profiles* and *user groups*, often ente
 
 ## Reindexing Solr for DSRP {#reindexing-solr-for-dsrp}
 
-To reindex DSRP Solr, follow the documentation for [reindexing MSRP](../../communities/using/msrp.md#msrpreindextool), however when reindexing for DSRP, use this URL instead:** /services/social/datastore/rdb/reindex**
+To reindex DSRP Solr, follow the documentation for [reindexing MSRP](../../communities/using/msrp.md#msrpreindextool), however when reindexing for DSRP, use this URL instead: **/services/social/datastore/rdb/reindex**
 
 For example, a curl command to re-index DSRP would look like this:
 

@@ -3,12 +3,15 @@ title: AEM Mobile On-Demand
 seo-title: AEM Mobile On-Demand
 description: Follow this page to get started with administering AEM mobile On-Demand services app. It provides an overview of the roles and responsibilities of an AEM administrator for On-Demand services.
 seo-description: Follow this page to get started with administering AEM mobile On-Demand services app. It provides an overview of the roles and responsibilities of an AEM administrator for On-Demand services.
-uuid: 54c65ce4-d0f0-4a8b-ae40-8ac361ce3da7
+uuid: 01bacda4-a714-44d3-870a-8f6c2024066a
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 content-type: reference
 topic-tags: administering-on-demand-services-app
-discoiquuid: c600382e-1d29-4edc-8905-b535fa26df64
+discoiquuid: c7e9b778-041c-4ce5-af39-b9183bceca22
+index: y
+internal: n
+snippet: y
 ---
 
 # AEM Mobile On-Demand{#aem-mobile-on-demand}

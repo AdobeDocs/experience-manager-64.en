@@ -3,11 +3,14 @@ title: Home screen
 seo-title: Home screen
 description: Description of the components of the AEM Forms app Home screen
 seo-description: Description of the components of the AEM Forms app Home screen
-uuid: 6b53b0df-a46a-41e0-995a-02d621678df6
+uuid: 843b3c85-2b1a-4859-ba77-30607061a11b
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
-discoiquuid: 910c9968-d5ce-49dd-9db5-b61f96b1ddf8
+discoiquuid: 7da6d186-62f5-43fe-b6ba-650737b11203
+index: y
+internal: n
+snippet: y
 ---
 
 # Home screen{#home-screen}

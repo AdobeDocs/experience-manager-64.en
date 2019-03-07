@@ -3,12 +3,15 @@ title: Best Practices
 seo-title: Best Practices
 description: Find best practices compiled by Adobe engineering and consulting teams to help administrators get up and running.
 seo-description: Find best practices compiled by Adobe engineering and consulting teams to help administrators get up and running.
-uuid: a6a840eb-518e-4d81-9f70-0353b74b768a
+uuid: 5e8d18a0-18b0-451c-a783-fd5ca4977db9
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
-discoiquuid: b51620fc-bb72-4836-9c63-70abfb1e9e4d
+discoiquuid: 4111c1ed-ba97-4e5f-a107-e34fd37b680e
+index: y
+internal: n
+snippet: y
 ---
 
 # Best Practices{#best-practices}

@@ -3,12 +3,15 @@ title: Push Notifications
 seo-title: Push Notifications
 description: Follow this page to learn about how to use push notifications in an AEM Mobile app.
 seo-description: Follow this page to learn about how to use push notifications in an AEM Mobile app.
-uuid: e02b6416-de23-47b7-bac9-914a8be4bdd4
+uuid: bdef8a4d-ef2e-44a3-ab7f-7dd5a5aea3a4
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: developing-adobe-phonegap-enterprise
-discoiquuid: 23f78422-7ffa-4fbd-842d-5aba5d4ce223
+discoiquuid: 95a0c802-f9a4-481f-9a1d-419a4454197d
+index: y
+internal: n
+snippet: y
 ---
 
 # Push Notifications{#push-notifications}
@@ -252,7 +255,7 @@ With XCode 8.1, before using Push Notifications you must go to the Capabilities 
 
 #### Android {#android}
 
-To install the app on an Android phone using CLI (see below:** 6 - Deploy the app onto your phone**), you first must put the phone in "developer mode." See [Enabling On-device Developer Options](http://developer.android.com/tools/device.html#developer-device-options) for details on doing this.
+To install the app on an Android phone using CLI (see below: **6 - Deploy the app onto your phone**), you first must put the phone in "developer mode." See [Enabling On-device Developer Options](http://developer.android.com/tools/device.html#developer-device-options) for details on doing this.
 
 ### Step 5: Configure push on AEM apps {#step-configure-push-on-aem-apps}
 

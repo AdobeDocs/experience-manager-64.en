@@ -3,12 +3,15 @@ title: About the use of stages in AEM 3D
 seo-title: About the use of stages in AEM 3D
 description: Stages are light-weight 3D scene files that provide the basic viewing environment.
 seo-description: Stages are light-weight 3D scene files that provide the basic viewing environment.
-uuid: e84f1046-6a74-4742-8eef-3aa593f6b4c6
+uuid: e63b2fd0-06b8-43a6-aec2-d7197eea60c4
 contentOwner: Rick Brough
 topic-tags: 3D
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-discoiquuid: e7dfffa9-1072-4baf-b285-b7119759382d
+discoiquuid: b32f5b06-0a49-4a91-b637-6c0c7d0b6367
+index: y
+internal: n
+snippet: y
 ---
 
 # About the use of stages in AEM 3D{#about-the-use-of-stages-in-aem-d}

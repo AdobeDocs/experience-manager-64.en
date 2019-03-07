@@ -3,12 +3,15 @@ title: Using Maven for Communities
 seo-title: Using Maven for Communities
 description: AEM Communities API jar and AEM Uber API jar
 seo-description: AEM Communities API jar and AEM Uber API jar
-uuid: 4d2fba91-67ba-4ee9-9e98-23cc61166908
+uuid: e5c3673d-29ec-4a5b-8412-b4ebdf6bcc33
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 37623434-985a-4bd2-9772-d480792d4b60
+discoiquuid: 9118accd-9808-40b7-a4d9-0b9db035003e
+index: y
+internal: n
+snippet: y
 ---
 
 # Using Maven for Communities{#using-maven-for-communities}

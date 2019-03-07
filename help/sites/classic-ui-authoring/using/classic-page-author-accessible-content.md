@@ -4,12 +4,15 @@ seo-title: Creating Accessible Content (WCAG 2.0 Conformance)
 description: WCAG 2.0 consists of a set of technology independent guidelines and success criteria to help make web content accessible to, and usable by, persons with disabilities.
 seo-description: WCAG 2.0 consists of a set of technology independent guidelines and success criteria to help make web content accessible to, and usable by, persons with disabilities.
 page-status-flag: de-activated
-uuid: 9f4b69b4-20e2-4803-96f8-9e65b3274906
+uuid: 46dd1a1d-78a1-42a4-8067-d0ffad29433c
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: 12518600-c6e3-488e-a81a-25e0f26fc459
+discoiquuid: c5a1c7d1-d8f0-49f0-8627-c99e7b975ff9
+index: y
+internal: n
+snippet: y
 ---
 
 # Creating Accessible Content (WCAG 2.0 Conformance){#creating-accessible-content-wcag-conformance}

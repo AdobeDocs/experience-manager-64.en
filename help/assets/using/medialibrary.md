@@ -3,12 +3,15 @@ title: AEM Assets vs. AEM MediaLibrary
 seo-title: AEM Assets vs. AEM MediaLibrary
 description: Frequently asked questions around AEM Assets and. AEM Media Library, including differences between the two.
 seo-description: Frequently asked questions around AEM Assets and. AEM Media Library, including differences between the two.
-uuid: d52ef821-c3c1-4864-a52d-4022f2502bff
+uuid: 3666f6fa-ab8a-45d6-8b1a-fcc4ad33cabe
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: e8ec4276-1cbb-46e4-8952-6f2c5c15821d
+discoiquuid: fc9a608a-e501-423c-8731-38cfeb699468
+index: y
+internal: n
+snippet: y
 ---
 
 # AEM Assets vs. AEM MediaLibrary{#aem-assets-vs-aem-medialibrary}

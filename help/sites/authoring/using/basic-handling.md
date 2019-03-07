@@ -3,12 +3,15 @@ title: Basic Handling
 seo-title: Basic Handling
 description: Get comfortable with navigating AEM and its basic usage
 seo-description: Get comfortable with navigating AEM and its basic usage
-uuid: 0b5cd875-b689-4b91-bfbe-39bc27b1accb
+uuid: a15993ae-373d-4ea2-9a86-cb0cc3322e48
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
-discoiquuid: 61e522c1-857d-4216-a3aa-1adacb1e2588
+discoiquuid: 00b0f879-7aa5-4192-8d23-a0461490a689
+index: y
+internal: n
+snippet: y
 ---
 
 # Basic Handling{#basic-handling}
@@ -187,7 +190,7 @@ The header is always present at the top of the screen. While most options in the
 
   ![](assets/screen_shot_2018-03-23at104126.png)
 
-  This is available in list view only. See [list view](#main-pars-title-859848004) for more information.
+  This is available in list view only. See [list view](#list-view) for more information.
 
 * **Create** button
 

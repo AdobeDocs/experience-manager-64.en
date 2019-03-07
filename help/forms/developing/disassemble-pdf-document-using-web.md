@@ -3,12 +3,15 @@ title: Disassemble a PDF document usingthe web service API
 seo-title: Disassemble a PDF document usingthe web service API
 description: null
 seo-description: null
-uuid: ee7bb3e7-ba23-491a-9211-2c5466ec5007
+uuid: adcc8aa3-fc04-4534-a1e7-df4ac22cbe4f
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/programmatically_disassembling_pdf_documents
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 1d401bf9-e638-48f0-80f1-6ed587851c66
+discoiquuid: 8f045416-3c1d-456a-a368-3d0c3293eb49
+index: y
+internal: n
+snippet: y
 ---
 
 # Disassemble a PDF document usingthe web service API{#disassemble-a-pdf-document-usingthe-web-service-api}

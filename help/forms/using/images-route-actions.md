@@ -3,11 +3,14 @@ title: Customize images used in route actions
 seo-title: Customize images used in route actions
 description: How-to customize the images used in route actions in LiveCycle AEM Forms workspace.
 seo-description: How-to customize the images used in route actions in LiveCycle AEM Forms workspace.
-uuid: 620b290e-65b4-4d18-8923-9e781ce9d14b
+uuid: acb09893-2772-4818-a4b1-3d755f14402d
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
-discoiquuid: b4c6c519-a3d2-4f8b-8d89-83aabb0aec55
+discoiquuid: 6e405d82-b66f-4864-9555-40abc055e820
+index: y
+internal: n
+snippet: y
 ---
 
 # Customize images used in route actions{#customize-images-used-in-route-actions}

@@ -3,12 +3,15 @@ title: Personalization
 seo-title: Personalization
 description: AEM provides a framework of tools for authoring targeted content and presenting personalized experiences.
 seo-description: AEM provides a framework of tools for authoring targeted content and presenting personalized experiences.
-uuid: 6593d460-7f6b-4efc-968f-dcd28013ab97
+uuid: e6f8bdf4-719b-478c-ab35-9960cba003b4
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: 074990da-fd64-4058-98de-bcce18a8f21c
+discoiquuid: 058b64de-3666-44f7-9c1e-3f8b128030a6
+index: y
+internal: n
+snippet: y
 ---
 
 # Personalization{#personalization}

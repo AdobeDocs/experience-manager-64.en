@@ -3,12 +3,15 @@ title: Concepts of the AEM Touch-Enabled UI
 seo-title: Concepts of the AEM Touch-Enabled UI
 description: With AEM 5.6 Adobe introduced a new touch-optimized UI with responsive design for the author environment
 seo-description: With AEM 5.6 Adobe introduced a new touch-optimized UI with responsive design for the author environment
-uuid: 833c5894-1d52-43e8-b610-2041ccbed7b1
+uuid: 4db94210-facc-46f6-a794-5d61ee9ce3c3
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
-discoiquuid: 4100a17e-f2cc-4587-a0ff-cc150abb6cda
+discoiquuid: 2e1d1fbe-e4b8-4e30-b493-14fabef98975
+index: y
+internal: n
+snippet: y
 ---
 
 # Concepts of the AEM Touch-Enabled UI{#concepts-of-the-aem-touch-enabled-ui}

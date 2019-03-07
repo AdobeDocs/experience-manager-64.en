@@ -3,11 +3,14 @@ title: Drafts and submissions component
 seo-title: Drafts and submissions component
 description: Drafts and submissions component lists forms that are in the draft state and are already submitted. You can customize appearance and style of the component.
 seo-description: Drafts and submissions component lists forms that are in the draft state and are already submitted. You can customize appearance and style of the component.
-uuid: cab748eb-94fe-4ee9-9f6c-8ebcd7522c15
+uuid: b0f722b5-b52d-4ed2-b347-703e726385a5
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: publish
-discoiquuid: 473cc633-adac-4166-adfa-cd7194f231f5
+discoiquuid: 54c5b0fc-1f48-454c-97b9-1d85bb51fa39
+index: y
+internal: n
+snippet: y
 ---
 
 # Drafts and submissions component{#drafts-and-submissions-component}

@@ -3,13 +3,16 @@ title: REDIRECT Core Components
 seo-title: Core Components
 description: The core components have been introduced with AEM 6.3 and offer flexible and feature-rich authoring functionality. 
 seo-description: The core components have been introduced with AEM 6.3 and offer flexible and feature-rich authoring functionality. 
-uuid: 5b047a9c-22aa-4361-92ab-3db10e832c69
+uuid: 52f440af-55a5-4cf0-82e5-b4751817c344
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
-discoiquuid: 72efeeb8-c185-423d-8b02-58fb5922877e
+discoiquuid: c37e2707-4b65-4910-91c7-138a2c62cedd
 noindex: true
 redirecttarget: /content/help/en/experience-manager/core-components/user-guide
+index: y
+internal: n
+snippet: y
 ---
 
 # REDIRECT Core Components{#redirect-core-components}

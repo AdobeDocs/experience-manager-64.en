@@ -3,12 +3,15 @@ title: Create Comments Page
 seo-title: Create Comments Page
 description: View Comments page
 seo-description: View Comments page
-uuid: 390a9a07-0e8c-4e04-b237-2b3144e35043
+uuid: 4b3effcc-4105-4f57-a4ee-4c2f364ee9b1
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 4b5f074b-12bb-476e-8f24-17de1e6a2bd0
+discoiquuid: cf438e67-c982-4a04-bc9b-e2aa1deb3b8d
+index: y
+internal: n
+snippet: y
 ---
 
 # Create Comments Page{#create-comments-page}

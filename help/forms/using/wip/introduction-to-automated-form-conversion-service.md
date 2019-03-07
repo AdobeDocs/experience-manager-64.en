@@ -3,9 +3,12 @@ title: Automated Forms Conversion service
 seo-title: Automated Forms Conversion service
 description: Speed up the conversion of print forms to adaptive forms
 seo-description: Speed up the conversion of print forms to adaptive forms
-uuid: 12b1f4c3-f9d0-4758-a42a-99928cc3efc2
+uuid: 6e325872-4853-4c1c-a0eb-1c9ca9a83da4
 contentOwner: khsingh
-discoiquuid: a4b1c7f5-dc24-4bf4-985d-c71a3dd736ec
+discoiquuid: 967cbd6f-b03b-44bf-9ddd-6bd1b209fc3b
+index: y
+internal: n
+snippet: y
 ---
 
 # Automated Forms Conversion service{#automated-forms-conversion-service}

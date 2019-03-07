@@ -3,12 +3,15 @@ title: Access Device Features
 seo-title: Access Device Features
 description: Follow this page to learn about building AEM components that access device features. The AEM PhoneGap Kitchen Sink Github repository provides developers with a functional AEM app that illustrates the use of a number of core Cordova APIs.
 seo-description: Follow this page to learn about building AEM components that access device features. The AEM PhoneGap Kitchen Sink Github repository provides developers with a functional AEM app that illustrates the use of a number of core Cordova APIs.
-uuid: 0ac99429-1873-4546-a554-8e1f8aca02a7
+uuid: 5fcd7774-8eea-457f-996c-993f24eae529
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: developing-adobe-phonegap-enterprise
-discoiquuid: d3de854d-26d0-4b1f-ad8f-8d38a84b4f63
+discoiquuid: 7bc280e7-9b5a-45fd-8961-cdd5dba678f8
+index: y
+internal: n
+snippet: y
 ---
 
 # Access Device Features{#access-device-features}

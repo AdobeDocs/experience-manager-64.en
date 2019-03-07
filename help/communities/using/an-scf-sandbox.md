@@ -3,12 +3,15 @@ title: Create An SCF Sandbox
 seo-title: Create An SCF Sandbox
 description: This tutorial is primarily for developers, new to AEM, who are interested in using SCF components.  It walks through the creation of An SCF Sandbox site
 seo-description: This tutorial is primarily for developers, new to AEM, who are interested in using SCF components.  It walks through the creation of An SCF Sandbox site
-uuid: 7cf8204f-24ee-4b31-b916-238732e25bff
+uuid: a27fbef9-2bbd-4696-a82b-ac83b7b3bfa5
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: fb576ffc-d1f9-4a87-a19b-f1f580dc5b28
+discoiquuid: d5ba78b2-50c3-4ae0-8958-0b75b30fa12b
+index: y
+internal: n
+snippet: y
 ---
 
 # Create An SCF Sandbox{#create-an-scf-sandbox}
@@ -72,7 +75,7 @@ To work with CRXDE Lite, you must sign in with developer or administrator privel
 * username : admin
 * password : admin
 
-***Be aware*** that this login will timeout and you will need to re-login periodically using the pull down on the right end of the CRXDe Lite tool bar.
+***Be aware** *that this login will timeout and you will need to re-login periodically using the pull down on the right end of the CRXDe Lite tool bar.
 
 If not logged in, you will be unable to navigate the JCR repository or perform any edit/save operations.
 

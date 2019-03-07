@@ -3,12 +3,15 @@ title: Asset Selector
 seo-title: Asset Selector
 description: Learn how to use the asset selector to search, filter, browse, and fetch metadata for assets within Adobe Experience Manager (AEM) Assets. Also learn how to customize the asset selector interface.
 seo-description: Learn how to use the asset selector to search, filter, browse, and fetch metadata for assets within Adobe Experience Manager (AEM) Assets. Also learn how to customize the asset selector interface.
-uuid: 106cc299-9210-43fa-a5c4-0c1564d0d701
+uuid: 2455914e-1d57-41ed-8558-28a699852b1d
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference
-discoiquuid: 384bbf1d-a9ac-43ab-b52a-7708df1793b3
+discoiquuid: 376fe91a-ebf1-4f01-a9ab-05c511abc5c7
+index: y
+internal: n
+snippet: y
 ---
 
 # Asset Selector{#asset-selector}

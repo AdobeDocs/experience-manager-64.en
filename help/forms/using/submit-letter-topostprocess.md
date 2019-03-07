@@ -3,11 +3,14 @@ title: Post processing of letters and interactive communications
 seo-title: Post Processing of Letters
 description: Post Processing of Letters in Correspondence Management lets you create AEM and Forms post processes, such as print and email, and integrate them with your letters.
 seo-description: Post Processing of Letters in Correspondence Management lets you create AEM and Forms post processes, such as print and email, and integrate them with your letters.
-uuid: 2c2d11f6-00fc-4418-944c-3a007abb9d3d
+uuid: 377754ef-cf6f-473f-9e52-269fadbeca1a
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
-discoiquuid: 4d4f421c-e620-4b91-97fd-0766e53108c0
+discoiquuid: 30e9c595-03f4-49fd-8e86-eb4192298287
+index: y
+internal: n
+snippet: y
 ---
 
 # Post processing of letters and interactive communications{#post-processing-of-letters-and-interactive-communications}
@@ -22,7 +25,7 @@ To associate post processes with letters or interactive communications, you firs
 
 1. **Forms Workflow:** These are the AEM Forms on JEE process management workflows. Instructions for setting up [Forms Workflow](../../forms/using/submit-letter-topostprocess.md#main-pars-header-3).
 
-1. **AEM Workflow:** AEM workflows can also be used as post processes for submitted letters. Instructions for setting up [AEM Workflow](../../forms/using/aem-forms-workflow.md).
+1. **AEM Workflow: **AEM workflows can also be used as post processes for submitted letters. Instructions for setting up [AEM Workflow](../../forms/using/aem-forms-workflow.md).
 
 ## Forms Workflow {##formsworkflow}
 
@@ -52,11 +55,11 @@ To associate post processes with letters or interactive communications, you firs
 
    Go to the Adobe Experience Manager Web Console Configurations page > **[!UICONTROL Correspondence Management Configurations]** and set up the following parameters:
 
-    1. **inPDFDoc (PDF document parameter):** A PDF document as input. This input contains the rendered letter as input. The parameter names indicated are configurable. They can be configured from Correspondence Management configurations from configuration. 
-    1. **inXMLDoc (XML data parameter):** An XML document as input. This input contains data entered by user in the form of XML. 
-    1. **inXDPDoc (XDP document parameter):** An XML document as input. This input contains underlying layout (XDP). 
-    1. **inAttachmentDocs (Attachment Documents parameter):** A list input parameter. This input contains all the attachments as input. 
-    1. **redirectURL (Redirect URL Output):** An output type indicating the url to redirect to.
+    1. **inPDFDoc (PDF document parameter): **A PDF document as input. This input contains the rendered letter as input. The parameter names indicated are configurable. They can be configured from Correspondence Management configurations from configuration. 
+    1. **inXMLDoc (XML data parameter): **An XML document as input. This input contains data entered by user in the form of XML. 
+    1. **inXDPDoc (XDP document parameter): **An XML document as input. This input contains underlying layout (XDP). 
+    1. **inAttachmentDocs (Attachment Documents parameter): **A list input parameter. This input contains all the attachments as input. 
+    1. **redirectURL (Redirect URL Output): **An output type indicating the url to redirect to.
 
    Your forms workflow must have either PDF document parameter or XML data parameter as input with the same name as specified in **[!UICONTROL Correspondence Management Configurations]**. This is required for the process to be listed in the Post Process dropdown.
 

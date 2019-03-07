@@ -4,12 +4,15 @@ seo-title: Calendar Views
 description: null
 seo-description: null
 page-status-flag: never-activated
-uuid: 9a0640bc-87d4-44a8-8996-0ef82cec3328
+uuid: fd71c15a-d4e5-4e40-a7ec-916328138dce
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: projects
 content-type: reference
-discoiquuid: a88f553b-b089-443e-a8fc-39e3ec025cbd
+discoiquuid: c8c67e2b-8961-4ff4-9edb-d572b6d5e15c
+index: y
+internal: n
+snippet: y
 ---
 
 # Calendar Views{#calendar-views}

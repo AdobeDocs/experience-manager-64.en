@@ -3,12 +3,15 @@ title: Files to back up and recover
 seo-title: Files to back up and recover
 description: This document describes the application and data files that must be backed up.
 seo-description: This document describes the application and data files that must be backed up.
-uuid: 14ac5161-9257-448d-9744-88ba255fa3dd
+uuid: c1f58b72-ed12-4105-9b69-ea4dc59273b0
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/aem_forms_backup_and_recovery
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: b29e7e3f-93c1-40b2-a39e-3d222c4ab056
+discoiquuid: 6908f23e-0f49-4406-94f7-f4accb077d91
+index: y
+internal: n
+snippet: y
 ---
 
 # Files to back up and recover{#files-to-back-up-and-recover}

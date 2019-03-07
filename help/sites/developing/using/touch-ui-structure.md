@@ -3,12 +3,15 @@ title: Structure of the AEM Touch-Enabled UI
 seo-title: Structure of the AEM Touch-Enabled UI
 description: The touch-optimized UI, as implemented in AEM, has several underlying principles and is made up of several key elements
 seo-description: The touch-optimized UI, as implemented in AEM, has several underlying principles and is made up of several key elements
-uuid: 5c4ced63-26ad-4735-b5ea-3d7ac2832500
+uuid: 4d9192ff-3f72-46ef-a30d-c53ddc0d10ba
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
-discoiquuid: 21291c78-6c8c-4fa9-9037-4b3a07dd3299
+discoiquuid: 6580cd01-49f7-471e-93e2-5ae9ec4fae11
+index: y
+internal: n
+snippet: y
 ---
 
 # Structure of the AEM Touch-Enabled UI{#structure-of-the-aem-touch-enabled-ui}

@@ -3,11 +3,14 @@ title: Getting Task Variables in Summary URL
 seo-title: Getting Task Variables in Summary URL
 description: How-to reuse the information about a task and generate a Summary URL to summarize or describe a task.
 seo-description: How-to reuse the information about a task and generate a Summary URL to summarize or describe a task.
-uuid: eac8c0e8-f41c-4f03-86e8-f1bf351a50e3
+uuid: c3a9006c-7fe1-4a2b-9bdb-1a532131b3b3
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
-discoiquuid: 430c3fac-34e3-49e3-8d05-f1ef897ca5f5
+discoiquuid: 55ed8b3a-1334-4160-be42-b7f4b0f680b6
+index: y
+internal: n
+snippet: y
 ---
 
 # Getting Task Variables in Summary URL{#getting-task-variables-in-summary-url}

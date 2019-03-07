@@ -3,12 +3,15 @@ title: Externalizing URLs
 seo-title: Externalizing URLs
 description: The Externalizer is an OSGI service that allows you to programmatically transform a resource path into an external and absolute URL
 seo-description: The Externalizer is an OSGI service that allows you to programmatically transform a resource path into an external and absolute URL
-uuid: fb31f0b8-d82e-499e-b00d-1662ab71510e
+uuid: de6f678c-7a4f-46c9-9f5e-52e280ab6e16
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
-discoiquuid: 5532f08c-d032-4e15-b7bc-5329084868ee
+discoiquuid: a592f01e-00a2-4ecc-886a-53b4e324bb0f
+index: y
+internal: n
+snippet: y
 ---
 
 # Externalizing URLs{#externalizing-urls}

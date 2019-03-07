@@ -3,12 +3,15 @@ title: Upgrade to AEM 6.4 Forms
 seo-title: Upgrade to AEM 6.4 Forms
 description: You can perform a direct upgrade from AEM 6.1 Forms, AEM 6.2 Forms, and LiveCycle ES4 SP1 to AEM 6.3 Forms. 
 seo-description: You can perform a direct upgrade from AEM 6.1 Forms, AEM 6.2 Forms, and LiveCycle ES4 SP1 to AEM 6.3 Forms. 
-uuid: 6a73a6f3-c7ac-48a8-91c6-c60015c2645c
+uuid: 271db490-147c-444b-9a25-cd0519f7f6b5
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.3/FORMS
 topic-tags: installing
 geptopics: SG_AEMFORMS/categories/jee
-discoiquuid: ff1556e1-b01d-4915-b088-45e0611b1d4c
+discoiquuid: b1938c21-d76f-41b4-9c86-463c046d2bbe
+index: y
+internal: n
+snippet: y
 ---
 
 # Upgrade to AEM 6.4 Forms{#upgrade-to-aem-forms}
@@ -127,7 +130,7 @@ You can perform a direct upgrade from AEM 6.2 Forms or AEM 6.3 Forms to AEM 6.4 
 
 1. Verify that the server is upgraded successfully, all the data is also migrated successfully, and it can operate normally.
 
-    * **Verify the status of the bundles:** Ensure that all the bundles are in active state.  
+    * **Verify the status of the bundles: **Ensure that all the bundles are in active state.  
     
     * **Verify replication and reverse replication:** Publish, fill, and submit a few migrated forms. Verify the submitted data also.
     * **Verify access to admin and developer user interfaces:** Log in to AEM instance from an admin account and verify that you have access to the following URLs:
@@ -175,7 +178,7 @@ Following is an overview of the procedure to upgrade an existing LiveCycle ES4 S
 
        Create a backup of LiveCycle ES4 SP1 database, Global Data Storage (GDS), and crx-repository (not required for document security). If you're upgrading to MongoMK or RDBMK persistence, export LiveCycle ES4 SP1 correspondence management assets in a .cmp file and forms assets as an AEM package.
     
-    1. Ensure your existing platform (that is, application server, database, operating system, Adobe Acrobat, third-party applications, and hardware) is supported for AEM 6.4 Forms on JEE. For information about supported hardware and software, refer to the [Supported Platform Combinations](../../forms/using/aem-forms-jee-supported-platforms.md) document.
+    1. Ensure your existing platform (that is, application server, database, operating system, Adobe Acrobat, third-party applications, and hardware) is supported for AEM 6.4 Forms on JEE. For information about supported hardware and software, refer to the [Supported Platform Combinations](../../forms/using/AEM-forms-JEE-supported-platforms.md) document.
 
        If you create a fresh instance of the database, import the data backed up in step 3 to the database. For information about how to import data to a database, see documentation of corresponding database vendor.
 
@@ -234,7 +237,7 @@ Following is an overview of the procedure to upgrade an existing LiveCycle ES4 S
       <li>You do not require Content Repository for AEM Forms Document Security.</li> 
      </ul> <p>Moreover, repository type of LiveCycle and AEM Forms are different. For available repository types and related information, see <a href="../../forms/using/choosing-persistence-type-for-aem-forms.md">Choosing a persistence type for an AEM Forms installation</a>. </p> </li> 
     <li><p>Create a backup of LiveCycle ES3 database, Global Data Storage (GDS), and Content Repository (not required for document security). If you're upgrading to MongoMK or RDBMK persistence, export LiveCycle ES3 correspondence management assets as an archive.</p> </li> 
-    <li><p>Ensure your existing platform (that is, application server, database, operating system, Adobe Acrobat, third-party applications, and hardware) is supported for AEM 6.4 Forms on JEE. For information about supported hardware and software, refer to the <a href="../../forms/using/aem-forms-jee-supported-platforms.md" target="_blank">Supported Platform Combinations</a> document.</p> <p>If you create a fresh instance of the database, import the data backed up in step 3 to the database. For information about how to import data to a database, see documentation of corresponding database vendor.<br /> </p> 
+    <li><p>Ensure your existing platform (that is, application server, database, operating system, Adobe Acrobat, third-party applications, and hardware) is supported for AEM 6.4 Forms on JEE. For information about supported hardware and software, refer to the <a href="../../forms/using/AEM-forms-JEE-supported-platforms.md" target="_blank">Supported Platform Combinations</a> document.</p> <p>If you create a fresh instance of the database, import the data backed up in step 3 to the database. For information about how to import data to a database, see documentation of corresponding database vendor.<br /> </p> 
      <note type="note"> 
       <p>If you are using RDBMK persistence format, use single database for both repository persistence and document services running on AEM Forms on JEE.</p> 
      </note></li> 

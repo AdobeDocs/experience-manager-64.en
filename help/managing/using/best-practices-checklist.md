@@ -3,12 +3,15 @@ title: The Checklist
 seo-title: The Checklist
 description: The Project Checklists are intended as a set of best practices for project delivery. They guide you through all phases of the project life cycle and provide high level monitoring of your current status. 
 seo-description: The Project Checklists are intended as a set of best practices for project delivery. They guide you through all phases of the project life cycle and provide high level monitoring of your current status. 
-uuid: 801302b3-771e-41d7-a5ec-a5c0dda8e3ae
+uuid: a82d0011-af98-441a-ba5e-4543fd3d4616
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/MANAGING
 topic-tags: managing-checklist
 content-type: reference
-discoiquuid: 3e9fd1f3-6d16-4840-9e27-2b235b735411
+discoiquuid: 22b0c40e-7f91-44ed-b225-b20ca868d868
+index: y
+internal: n
+snippet: y
 ---
 
 # The Checklist{#the-checklist}

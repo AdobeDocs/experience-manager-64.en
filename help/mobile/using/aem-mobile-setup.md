@@ -3,12 +3,15 @@ title: AEM Mobile SetUp
 seo-title: AEM Mobile SetUp
 description: Follow this page for setting up AEM Mobile and thus allowing the user to create and manage the content within AEM. This page provides information on integrating the AEM instance with the cloud-based AEM Mobile On-Demand Services account and project(s). 
 seo-description: Follow this page for setting up AEM Mobile and thus allowing the user to create and manage the content within AEM. This page provides information on integrating the AEM instance with the cloud-based AEM Mobile On-Demand Services account and project(s). 
-uuid: 331bd521-8909-4341-800d-77d7bc3860c3
+uuid: f9dd1d89-5a61-45ef-ae1a-68a5a2276e96
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: administering-on-demand-services-app
-discoiquuid: 34093a94-ebc5-4467-9a20-8c61d54afa6c
+discoiquuid: 86c6ffc3-d29a-4867-97d6-ba21abf71408
+index: y
+internal: n
+snippet: y
 ---
 
 # AEM Mobile SetUp{#aem-mobile-setup}

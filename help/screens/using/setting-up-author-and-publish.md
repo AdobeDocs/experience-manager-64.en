@@ -4,9 +4,12 @@ seo-title: Setting Up Author and Publish
 description: null
 seo-description: null
 page-status-flag: never-activated
-uuid: 4cf6ee56-756c-4d37-82c7-8000dbe881de
+uuid: b1b492ad-a867-4157-a284-92fcb59549b8
 contentOwner: jsyal
-discoiquuid: 38373dd8-ecb0-40bb-8ac0-25e79e872752
+discoiquuid: ce020aec-c76e-40c9-8633-b1cf8e70b50b
+index: y
+internal: n
+snippet: y
 ---
 
 # Setting Up Author and Publish{#setting-up-author-and-publish}

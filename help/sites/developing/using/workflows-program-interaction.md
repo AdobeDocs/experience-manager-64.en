@@ -3,12 +3,15 @@ title: Interacting with Workflows Programmatically
 seo-title: Interacting with Workflows Programmatically
 description: null
 seo-description: null
-uuid: 68635bf9-34a4-48da-9f86-47253e94cde5
+uuid: ecebbb46-5e5f-4060-8d96-641d7d0833c6
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
-discoiquuid: 190faaa0-9bf0-4c95-9149-7b843238144b
+discoiquuid: e4b40511-77d3-4341-8095-c951824a9c1c
+index: y
+internal: n
+snippet: y
 ---
 
 # Interacting with Workflows Programmatically{#interacting-with-workflows-programmatically}

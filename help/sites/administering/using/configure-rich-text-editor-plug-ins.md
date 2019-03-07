@@ -3,13 +3,16 @@ title: Configure the Rich Text Editor plug-ins
 seo-title: Configure the Rich Text Editor plug-ins
 description: Learn to configure the AEM Rich Text Editor plug-ins to enable individual functionalities.
 seo-description: Learn to configure the AEM Rich Text Editor plug-ins to enable individual functionalities.
-uuid: 6adc84c0-ed31-4521-8b81-d9bfa0596c45
+uuid: a4fb61b9-affd-48bb-8509-5ce276374e12
 contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: f2475f1d-3965-4219-a010-c0922c7d3cf9
+discoiquuid: 9c537550-1537-4b3e-a105-e935d6ec8f46
 noindex: true
+index: y
+internal: n
+snippet: y
 ---
 
 # Configure the Rich Text Editor plug-ins{#configure-the-rich-text-editor-plug-ins}
@@ -804,7 +807,7 @@ To configure how links are added in AEM from another program, define the HTML ru
 
 1. Under the `links` node define the properties as required:
 
-    * CSS style for internal links:
+    * ****CSS style for internal links:
 
         * **Name** `cssInternal`  
         
@@ -812,7 +815,7 @@ To configure how links are added in AEM from another program, define the HTML ru
         
         * **Value **the name of the CSS class (without a preceding '.'; for example, `cssClass` instead of `.cssClass`)
 
-    * CSS style for external links
+    * **** CSS style for external links
 
         * **Name** `cssExternal`  
         
@@ -858,7 +861,7 @@ To configure how links are added in AEM from another program, define the HTML ru
                 * `manual`: not applicable in this context
                 * `blank`: not applicable in this context
 
-        * The target for internal links:
+        * ****The target for internal links:
 
             * **Name** `targetInternal`  
             
@@ -866,7 +869,7 @@ To configure how links are added in AEM from another program, define the HTML ru
             
             * **Value **the target for internal links (only use when the `` mode is `auto`)
 
-        * The target for external links:
+        * ****The target for external links:
 
             * **Name** `targetExternal`
             

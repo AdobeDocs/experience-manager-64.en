@@ -4,10 +4,13 @@ seo-title: Cloud Services
 description: null
 seo-description: null
 page-status-flag: never-activated
-uuid: 395c35be-3d20-4637-a763-fd43509ec842
+uuid: 3d1bf0fb-dabf-4b4e-b934-f74f3bf64e30
 contentOwner: raiman
-discoiquuid: db8d5a75-a568-42bb-b257-977cdda3f392
+discoiquuid: 4657979f-d725-4db1-a930-c5ff63022263
 noindex: true
+index: y
+internal: n
+snippet: y
 ---
 
 # Cloud Services{#cloud-services}

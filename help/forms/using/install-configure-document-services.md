@@ -3,9 +3,12 @@ title: Installing and configuring document services
 seo-title: Installing and configuring document services
 description: Install AEM Forms document services to create, assemble, distribute, archive PDF documents, add digital signatures to limit access to documents, and decode barcoded forms.
 seo-description: Install AEM Forms document services to create, assemble, distribute, archive PDF documents, add digital signatures to limit access to documents, and decode barcoded forms.
-uuid: 84d4c9b3-4ea3-4fc4-ae85-c766864cfd7b
+uuid: 7b026460-5338-4faf-bf63-245d918c575f
 topic-tags: installing
-discoiquuid: dc2180a4-0cbd-4379-9ccd-7bfe01df3d5d
+discoiquuid: 82cdf90c-0e3c-4671-b896-5d7b8cbba176
+index: y
+internal: n
+snippet: y
 ---
 
 # Installing and configuring document services{#installing-and-configuring-document-services}
@@ -71,10 +74,10 @@ Before you begin to install and configure AEM Forms document services, ensure th
 
 * Client software required for PDF generator to perform conversion on Microsoft Windows and Linux are installed:
 
-    * **Microsoft Windows**: Install [Microsoft Office](../../forms/using/aem-forms-jee-supported-platforms.md#p-software-support-for-pdf-generator-p)or [Apache OpenOffice   
-      ](../../forms/using/aem-forms-jee-supported-platforms.md#p-software-support-for-pdf-generator-p)
+    * **Microsoft Windows**: Install [Microsoft Office](../../forms/using/AEM-forms-JEE-supported-platforms.md#p-software-support-for-pdf-generator-p)or [Apache OpenOffice   
+      ](../../forms/using/AEM-forms-JEE-supported-platforms.md#p-software-support-for-pdf-generator-p)
     
-    * **Linux**: Install [Apache OpenOffice](../../forms/using/aem-forms-jee-supported-platforms.md#p-software-support-for-pdf-generator-p)
+    * **Linux**: Install [Apache OpenOffice](../../forms/using/AEM-forms-JEE-supported-platforms.md#p-software-support-for-pdf-generator-p)
 
 >[!NOTE]
 >

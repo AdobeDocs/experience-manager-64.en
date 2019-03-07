@@ -3,12 +3,15 @@ title: Creating Workflow Models
 seo-title: Creating Workflow Models
 description: You create a workflow model to define the series of steps executed when a user starts the workflow.
 seo-description: You create a workflow model to define the series of steps executed when a user starts the workflow.
-uuid: 6e51e9eb-7344-4592-a5d2-13df7e02c00e
+uuid: 8c5d67f5-71d1-4369-8735-a938bfd8e1db
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
-discoiquuid: d155c20c-2db1-4711-874d-67e4bc7ecd8d
+discoiquuid: 8a61b661-d0db-4295-a1d4-d7c25fabfbde
+index: y
+internal: n
+snippet: y
 ---
 
 # Creating Workflow Models{#creating-workflow-models}

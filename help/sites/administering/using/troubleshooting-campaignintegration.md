@@ -3,12 +3,15 @@ title: Troubleshooting your Adobe Campaign Integration
 seo-title: Troubleshooting your Adobe Campaign Integration
 description: Learn how to troubleshoot issues with the Adobe Campaign Integration.
 seo-description: Learn how to troubleshoot issues with the Adobe Campaign Integration.
-uuid: c4c8763b-a07c-4897-af39-d8c3c1f02daa
+uuid: 0fe92a58-e013-4da4-b38b-2802bad55f99
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: 84209fc2-3bf3-4839-8547-133dcaf258db
+discoiquuid: 2621d091-b914-43fc-a6b7-c63a04ac4ebe
+index: y
+internal: n
+snippet: y
 ---
 
 # Troubleshooting your Adobe Campaign Integration{#troubleshooting-your-adobe-campaign-integration}

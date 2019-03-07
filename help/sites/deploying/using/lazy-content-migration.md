@@ -3,12 +3,15 @@ title: Lazy Content Migration
 seo-title: Lazy Content Migration
 description: Learn about Lazy Content Migration in AEM 6.4.
 seo-description: Learn about Lazy Content Migration in AEM 6.4.
-uuid: 9cc6d041-f3d2-4cc6-b8eb-f98b882703d3
+uuid: 23f09582-45a3-4d9d-a340-57bf58982460
 contentOwner: sarchiz
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: upgrading
-discoiquuid: 2efc51bf-4df5-4cef-b3b8-dbc9e01f00f6
+discoiquuid: e71b7e1c-2d14-4014-91c8-806e12d87a02
+index: y
+internal: n
+snippet: y
 ---
 
 # Lazy Content Migration{#lazy-content-migration}

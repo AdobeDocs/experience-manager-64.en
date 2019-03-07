@@ -3,12 +3,15 @@ title: Backup and Restore
 seo-title: Backup and Restore
 description: Learn how to backup and restore your AEM content.
 seo-description: Learn how to backup and restore your AEM content.
-uuid: fc71418a-bed1-4ec9-a1b5-2b4df7836de9
+uuid: 9f5a218f-d5a8-4564-98df-0246483d5f19
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: 8f561a01-59e5-4e0e-b5dc-88099f27fe27
+discoiquuid: 0d44f24e-7db6-4760-92ae-835ee2ee9bb5
+index: y
+internal: n
+snippet: y
 ---
 
 # Backup and Restore{#backup-and-restore}

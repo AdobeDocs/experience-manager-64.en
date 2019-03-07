@@ -4,9 +4,12 @@ seo-title: [DO NOT PUBLISH] Extending the default meta-model
 description: null
 seo-description: null
 page-status-flag: never-activated
-uuid: a81a92ee-03d4-41b7-8785-ae789cbb07c7
+uuid: e4efd453-1d1d-4201-9922-a18f80cafb27
 contentOwner: khsingh
-discoiquuid: 1d282c1f-ca09-402a-ab6d-e786554d3fd4
+discoiquuid: 644d99a1-4e35-4260-a99d-836e350e891e
+index: y
+internal: n
+snippet: y
 ---
 
 # [DO NOT PUBLISH] Extending the default meta-model{#do-not-publish-extending-the-default-meta-model}

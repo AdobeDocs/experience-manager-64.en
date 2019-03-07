@@ -3,11 +3,14 @@ title: Encryption Support for Configuration Properties
 seo-title: Encryption Support for Configuration Properties
 description: null
 seo-description: null
-uuid: a650133f-06b8-4081-acf8-aa18f4579cd3
+uuid: 268d9841-c34e-4c7d-8ef0-5584a6b4c0dc
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SITES
-discoiquuid: b67a85c7-6f5b-4259-9a33-bb645f38550b
+discoiquuid: 7ef0700f-daa9-4b9b-9282-dfb11ff0b59d
+index: y
+internal: n
+snippet: y
 ---
 
 # Encryption Support for Configuration Properties{#encryption-support-for-configuration-properties}

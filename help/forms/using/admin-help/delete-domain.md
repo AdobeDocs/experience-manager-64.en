@@ -3,12 +3,15 @@ title: Delete a domain
 seo-title: Delete a domain 
 description: Learn how to use the Domain Management page to delete a domain or to mark an existing domain as obsolete. 
 seo-description: Learn how to use the Domain Management page to delete a domain or to mark an existing domain as obsolete. 
-uuid: e6e4bb9b-1a69-4485-9ed3-b8b1cd4caba7
+uuid: b69ec7ef-a0a5-47a3-aace-a7bd8e17f8bc
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/setting_up_and_managing_domains
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: bb610536-8245-48f3-a8c3-3fbfae78b4e1
+discoiquuid: 2a68d3a4-656a-4d25-88f6-c8c50c6c7436
+index: y
+internal: n
+snippet: y
 ---
 
 # Delete a domain {#delete-a-domain}

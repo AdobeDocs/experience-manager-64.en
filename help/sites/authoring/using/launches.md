@@ -3,12 +3,15 @@ title: Launches
 seo-title: Launches
 description: Launches enable you to efficiently develop content for a future release. They allow you to make changes ready for future publication, while maintaining your current pages
 seo-description: Launches enable you to efficiently develop content for a future release. They allow you to make changes ready for future publication, while maintaining your current pages
-uuid: d94f2bd1-0fec-499c-af76-c9f0116a55ae
+uuid: 264a2ed4-b682-4403-b074-811d1937aba5
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
-discoiquuid: d39227b2-835e-4a0c-97da-27acf083a3c7
+discoiquuid: ae7eb9ff-db1e-4709-961e-27832ca456bc
+index: y
+internal: n
+snippet: y
 ---
 
 # Launches{#launches}
@@ -103,7 +106,7 @@ Launches allow you to:
 
 The Launches console provides an overview of your launches and allows you to take actions on those listed. The console can be accessed by:
 
-* The **Tools** Console:** Tools**, **Sites**, **Launches**.
+* The **Tools** Console: **Tools**, **Sites**, **Launches**.
 
 * Or directly with [http://localhost:4502/libs/launches/content/launches.html](http://localhost:4502/libs/launches/content/launches.html)
 

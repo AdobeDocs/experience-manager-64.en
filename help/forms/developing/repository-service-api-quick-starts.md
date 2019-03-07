@@ -3,12 +3,15 @@ title: Repository Service API Quick Starts
 seo-title: Repository Service API Quick Starts
 description: null
 seo-description: null
-uuid: cd92d7e2-a200-474c-ab42-c9c96a5e3433
+uuid: 39c4b4ef-2c75-4916-b31a-0ec778629df2
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
-discoiquuid: 2bb79666-97f1-4b90-acf2-07963e5aa7ea
+discoiquuid: b7c61628-c592-49ad-9f45-fee7becca985
+index: y
+internal: n
+snippet: y
 ---
 
 # Repository Service API Quick Starts{#repository-service-api-quick-starts}

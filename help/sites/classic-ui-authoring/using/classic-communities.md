@@ -3,12 +3,15 @@ title: Communities Components
 seo-title: Communities Components
 description: When AEM Communities is licensed, in addition to creating community sites, it is possible to add Communities features to any AEM site using standard AEM authoring tools.
 seo-description: When AEM Communities is licensed, in addition to creating community sites, it is possible to add Communities features to any AEM site using standard AEM authoring tools.
-uuid: 225cc96d-d920-4f3f-a44c-9cc6fe87d433
+uuid: 1723d47f-c92a-437a-b06e-df8adbd5c243
 contentOwner: Chris Bohnert
 content-type: reference
 topic-tags: communities
 products: SG_EXPERIENCEMANAGER/6.4/SITES
-discoiquuid: 1d8924a1-ba6f-4dd1-aff1-1862ecdefe44
+discoiquuid: 0d35fb95-ee65-4c05-a03d-4102e47e57eb
+index: y
+internal: n
+snippet: y
 ---
 
 # Communities Components{#communities-components}

@@ -4,10 +4,13 @@ seo-title: Troubleshooting Process Reporting
 description: Troubleshoot issues in AEM Forms on JEE Process Reporting
 seo-description: Troubleshoot issues in AEM Forms on JEE Process Reporting
 page-status-flag: de-activated
-uuid: aa997057-0292-47ef-80a6-c9d1507c0be8
+uuid: 520c58c5-5018-4f23-a2d0-935e2cd359a7
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 94b676cb-edde-4739-b921-745fcd94ec28
+discoiquuid: d9062f42-d831-46e4-b45c-fc44cab306ee
+index: y
+internal: n
+snippet: y
 ---
 
 # Troubleshooting Process Reporting{#troubleshooting-process-reporting}

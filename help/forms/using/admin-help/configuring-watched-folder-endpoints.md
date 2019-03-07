@@ -3,12 +3,15 @@ title: Configuring watched folder endpoints
 seo-title: Configuring watched folder endpoints
 description: Learn how to configure watched folder endpoints.
 seo-description: Learn how to configure watched folder endpoints.
-uuid: 33ef049e-b43b-4aa6-9268-e8a93d4b525c
+uuid: 288ced70-6c08-4cdc-afeb-9a4ad681e8b9
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/managing_endpoints
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 0679fc1f-6ad7-4bb2-8cfe-4e41366e4ade
+discoiquuid: 4934d823-9fb0-4f52-be1a-8508c65c4008
+index: y
+internal: n
+snippet: y
 ---
 
 # Configuring watched folder endpoints{#configuring-watched-folder-endpoints}
@@ -37,8 +40,8 @@ In a clustered environment, the folder that will be used as a watched folder mus
 
 In Windows, if the application server is running as a service, it must be started with appropriate access to the shared folder in one of the following ways:
 
-* Configure the application server service Log On As **parameter** to start as a specific user with appropriate access to the shared watched folder.
-* Configure the application server service Start as Local System option to Allow Service to Interact with the desktop. This option requires that the shared watched folder is accessible and writable to everyone.
+* Configure the application server service Log On As****parameter**** to start as****a specific user with appropriate access to the shared watched folder.
+* Configure the application server service Start as Local System**** option to Allow Service to Interact with the desktop. This option requires that the shared watched folder is accessible and writable to everyone.
 
 ## Chaining together watched folders {#chaining-together-watched-folders}
 

@@ -4,10 +4,13 @@ seo-title: DO NOT PUBLISH - Submitting and storing content in JCR repository
 description: You can configure store content path for your Adaptive Forms to configure to store form data in JCR repository on form submission. 
 seo-description: You can configure store content path for your Adaptive Forms to configure to store form data in JCR repository on form submission. 
 page-status-flag: never-activated
-uuid: b6d90e7d-0a8f-479e-b5a4-6bc175deb4cd
+uuid: 493c664f-11d6-4457-b9ac-b341259d6a1d
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: b77e0b23-3d33-4201-b6a3-d1ed3b0af5cf
+discoiquuid: 622b78d0-2572-49c2-99af-9c58b60c8564
+index: y
+internal: n
+snippet: y
 ---
 
 # DO NOT PUBLISH - Submitting and storing content in JCR repository{#do-not-publish-submitting-and-storing-content-in-jcr-repository}

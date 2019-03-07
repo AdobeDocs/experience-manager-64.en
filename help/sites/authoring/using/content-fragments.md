@@ -3,12 +3,15 @@ title: Page Authoring with Content Fragments
 seo-title: Page Authoring with Content Fragments
 description: AEM Content Fragments allow you to design, create, curate, and use page-independent content
 seo-description: AEM Content Fragments allow you to design, create, curate, and use page-independent content
-uuid: 3db94e71-4b8b-4811-a9f5-b9210185fd32
+uuid: bc113718-90a1-48b1-88af-0dbc96c6fb90
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: c9ff44c4-dbf5-4cc7-94ed-ed31611adde4
+discoiquuid: d9533146-400e-4779-85f0-4a6877814101
+index: y
+internal: n
+snippet: y
 ---
 
 # Page Authoring with Content Fragments{#page-authoring-with-content-fragments}

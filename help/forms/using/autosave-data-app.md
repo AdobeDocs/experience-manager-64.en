@@ -3,12 +3,15 @@ title: Using autosave in AEM Forms app
 seo-title: Using autosave in AEM Forms app
 description: Learn how to use autosave feature in AEM Forms app that lets you avoid data loss. 
 seo-description: Learn how to use autosave feature in AEM Forms app that lets you avoid data loss. 
-uuid: 68cca46d-74d8-43ae-bbd7-204c57960675
+uuid: fc094dcf-d23f-4900-b3cf-0f3a1cdf1b3b
 contentOwner: sashanka
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
-discoiquuid: 998674a6-f60f-4770-baf0-5698f165edc4
+discoiquuid: 3dfd71d9-26f0-450d-8d6b-b736ae824d06
+index: y
+internal: n
+snippet: y
 ---
 
 # Using autosave in AEM Forms app{#using-autosave-in-aem-forms-app}

@@ -3,12 +3,15 @@ title: Configuring your account environment
 seo-title: Configuring your account environment
 description: AEM provides you with the capability to configure your account and certain aspects of the author environment.
 seo-description: AEM provides you with the capability to configure your account and certain aspects of the author environment.
-uuid: ee84d828-fa43-418d-a7f6-9c8ff3493be8
+uuid: 5806d20e-6b18-40c3-ab72-39018032d530
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
-discoiquuid: c43144ec-a6cc-4af2-939a-2037caa2cf10
+discoiquuid: d2ab1488-c7fa-4d64-a560-e52280d275d0
+index: y
+internal: n
+snippet: y
 ---
 
 # Configuring your account environment{#configuring-your-account-environment}

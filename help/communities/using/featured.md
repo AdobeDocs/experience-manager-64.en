@@ -3,12 +3,15 @@ title: Featured Content Feature
 seo-title: Featured Content Feature
 description: The Featured Content feature lets signed-in site visitors highlight content 
 seo-description: The Featured Content feature lets signed-in site visitors highlight content 
-uuid: 4d635ec6-5c1b-48bf-8e56-e901bda9ea0c
+uuid: 6510fc45-84a1-413c-84cb-8b5cf5e08286
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
-discoiquuid: f969b274-dd00-4a3a-8a57-fb0ce2b49ef6
+discoiquuid: 08b3e4aa-9700-4707-b8af-21e9f46cf6c3
+index: y
+internal: n
+snippet: y
 ---
 
 # Featured Content Feature{#featured-content-feature}

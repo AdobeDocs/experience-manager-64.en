@@ -3,12 +3,15 @@ title: Common Repository Restructuring in AEM 6.4
 seo-title: Common Repository Restructuring in AEM 6.4
 description: Learn how to make the necessary changes in order to migrate to the new repository structure in AEM 6.4 that are common for all areas of AEM.
 seo-description: Learn how to make the necessary changes in order to migrate to the new repository structure in AEM 6.4 that are common for all areas of AEM.
-uuid: cf8a075a-a046-47f7-8492-61378169333c
+uuid: 6c0b9e00-4d82-4a88-8dab-e2647c9b87bd
 contentOwner: chaikels
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: repo_restructuring
-discoiquuid: 0ba094e3-eeca-4ab6-864c-0f902560dcc7
+discoiquuid: b47ee470-6cbf-40ff-9230-c5663859dd2d
+index: y
+internal: n
+snippet: y
 ---
 
 # Common Repository Restructuring in AEM 6.4{#common-repository-restructuring-in-aem}

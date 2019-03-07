@@ -3,12 +3,15 @@ title: Configuring Components in Design Mode
 seo-title: Configuring Components in Design Mode
 description: null
 seo-description: null
-uuid: 60855b4b-1927-4ef3-9a43-62392f012d0f
+uuid: b8357860-651b-4bd7-8fd0-171c9596062a
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: 81fc8fa2-9f5b-420a-8144-efeeb9aec4e3
+discoiquuid: 346dc281-2e57-4c7f-a912-167a1840a685
+index: y
+internal: n
+snippet: y
 ---
 
 # Configuring Components in Design Mode{#configuring-components-in-design-mode}

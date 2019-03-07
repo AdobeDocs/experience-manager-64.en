@@ -3,12 +3,15 @@ title: Scripting support for HTML5 forms
 seo-title: Scripting support for HTML5 forms
 description: JavaScript, FormCalc properties, and other methods that are supported in HTML5 Forms.
 seo-description: JavaScript, FormCalc properties, and other methods that are supported in HTML5 Forms.
-uuid: 9906c944-a3b6-4b42-8e94-d6ce6d9ef7d4
+uuid: 0c035882-e4e9-4e5a-8c4e-416d96c435e0
 contentOwner: robhagat
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
-discoiquuid: 39223918-2765-428e-bc34-9bbe1bc4f303
+discoiquuid: 0b5058f7-cfa8-4186-8fdb-a2b314796ff2
+index: y
+internal: n
+snippet: y
 ---
 
 # Scripting support for HTML5 forms{#scripting-support-for-html-forms}

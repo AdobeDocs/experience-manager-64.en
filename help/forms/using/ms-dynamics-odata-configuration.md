@@ -3,10 +3,13 @@ title: Microsoft Dynamics OData configuration
 seo-title: Microsoft Dynamics ODtata configuration
 description: Leverage, integrate, and work with online and on-premises Microsoft Dynamics services through form data model.
 seo-description: Learn how to leverage integrate and work with online and on-premises Microsoft Dynamics services through form data model.
-uuid: 0b7978b5-b9e6-414b-ba47-819795066146
+uuid: 7384a3df-fdc6-4c3d-b70e-221de19750a8
 topic-tags: integration
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 2e2183d0-172b-4f0c-873d-5b2c571d1450
+discoiquuid: ffef7860-a509-4543-a2e9-9c5abe559ed9
+index: y
+internal: n
+snippet: y
 ---
 
 # Microsoft Dynamics OData configuration{#microsoft-dynamics-odata-configuration}

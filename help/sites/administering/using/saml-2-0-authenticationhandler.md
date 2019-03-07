@@ -3,12 +3,15 @@ title: SAML 2.0 Authentication Handler
 seo-title: SAML 2.0 Authentication Handler
 description: Learn about the SAML 2.0 Authentication Handler in AEM.
 seo-description: Learn about the SAML 2.0 Authentication Handler in AEM.
-uuid: 3d439747-d9f6-4aa8-89ad-7dabdd0b8656
+uuid: 3ff71498-c921-4cf8-a165-09516f82e307
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
-discoiquuid: bd4235dc-0e37-4103-a4e4-3176bc0cfa36
+discoiquuid: 652e8383-8c43-4737-9cdd-c2fbf61837e5
+index: y
+internal: n
+snippet: y
 ---
 
 # SAML 2.0 Authentication Handler{#saml-authentication-handler}

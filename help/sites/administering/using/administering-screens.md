@@ -3,11 +3,14 @@ title: REDIRECT Administering Screens
 seo-title: REDIRECT Administering Screens
 description: null
 seo-description: null
-uuid: f87d2bd5-56f1-4cd8-9cce-eb0906fbb30b
+uuid: 94b3eb08-b86a-4c9e-8895-e9aa26b9e908
 contentOwner: jsyal
-discoiquuid: eabe4d4b-ff8c-4ed4-9c3c-bab88467d666
+discoiquuid: c48abf20-3c1a-4473-8237-1c8a2ccb0c71
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/screens/using/administering-screens
+index: y
+internal: n
+snippet: y
 ---
 
 # REDIRECT Administering Screens{#redirect-administering-screens}

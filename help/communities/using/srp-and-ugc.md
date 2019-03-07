@@ -3,12 +3,15 @@ title: SRP and UGC Essentials
 seo-title: SRP and UGC Essentials
 description: Storage resource provider and user-generated content overview
 seo-description: Storage resource provider and user-generated content overview
-uuid: 018d60df-90f8-4d0c-b2d2-c0638979b363
+uuid: 5f02fc5d-0ada-41ba-a0a9-0cbd7149c339
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 5faeb022-0efa-45d4-899b-000acc11c054
+discoiquuid: 40e0ce34-43dc-444b-a289-0a0dd7ef18d5
+index: y
+internal: n
+snippet: y
 ---
 
 # SRP and UGC Essentials{#srp-and-ugc-essentials}

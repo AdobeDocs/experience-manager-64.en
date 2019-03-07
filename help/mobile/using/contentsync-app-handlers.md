@@ -3,12 +3,15 @@ title: Out of the Box App Handlers
 seo-title: Out of the Box App Handlers
 description: Follow this page to learn about the out-of-the-box handlers for Adobe PhoneGap Enterprise with AEM.
 seo-description: Follow this page to learn about the out-of-the-box handlers for Adobe PhoneGap Enterprise with AEM.
-uuid: 43dc8590-9b01-4825-a7f2-7db15e45f0a6
+uuid: 1d474d3a-a2f6-4806-b80d-2f209c0250cd
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: developing-adobe-phonegap-enterprise
-discoiquuid: 4d7640d2-9895-42ef-9b72-a72a35861665
+discoiquuid: 45e06a9c-c2fd-4fc0-9f13-4f329b58988b
+index: y
+internal: n
+snippet: y
 ---
 
 # Out of the Box App Handlers{#out-of-the-box-app-handlers}
@@ -123,7 +126,7 @@ This handler should be used on a AEM App Shell ContentSync config (node with pge
 * ***type - String* - **widgetconfig
 * ***path** - **String*** - Path to any app shell child node (node with pge-type=[app-instance]).
 * ***targetRootDirectory - String*** -** **the prefix to add to paths as a target root for content update for this handler.
-* ***targetIconDirectory - String*** - **the directory to place the icons for the app
+* ***targetIconDirectory - String*** - ****the directory to place the icons for the app
 
 **mobileADBMobileConfigJSON** Include the ADBMobileConfig.JSON file if the AMS cloudservice was configured.
 

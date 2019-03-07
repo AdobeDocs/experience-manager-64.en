@@ -3,12 +3,15 @@ title: Configure User Management for an SSL-enabled LDAP server
 seo-title: Configure User Management for an SSL-enabled LDAP server
 description: Learn how  to configure User Management for an SSL-enabled LDAP server to enable synchronization to work properly over LDAPS.
 seo-description: Learn how  to configure User Management for an SSL-enabled LDAP server to enable synchronization to work properly over LDAPS.
-uuid: d3667975-27bc-43c1-b73c-d314300d3de0
+uuid: c21fa986-138a-46a7-b7a2-afc58adf59e2
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_user_management
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: cc78da3e-8a88-412f-9521-f984acc96b82
+discoiquuid: 34924d1f-0776-4429-8111-8439e6fc0c55
+index: y
+internal: n
+snippet: y
 ---
 
 # Configure User Management for an SSL-enabled LDAP server{#configure-user-management-for-an-ssl-enabled-ldap-server}

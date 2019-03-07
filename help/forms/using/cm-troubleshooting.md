@@ -3,11 +3,14 @@ title: "Correspondence Management: Troubleshooting"
 seo-title: Correspondence Management Troubleshooting
 description: Correspondence Management Troubleshooting
 seo-description: Correspondence Management Troubleshooting
-uuid: 1411df94-8f58-4dda-b665-8bdd3467c9d7
+uuid: 9ee35605-d3ce-4a1e-b5b2-76a3b4b932b2
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
-discoiquuid: 2bac047d-9b65-4a38-a6d9-128bff34528e
+discoiquuid: 28b898cd-cf2f-440f-a958-f969011c6ae9
+index: y
+internal: n
+snippet: y
 ---
 
 # Correspondence Management: Troubleshooting{#correspondence-management-troubleshooting}

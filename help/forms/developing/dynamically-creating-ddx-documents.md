@@ -3,13 +3,16 @@ title: Dynamically Creating DDX Documents
 seo-title: Dynamically Creating DDX Documents
 description: null
 seo-description: null
-uuid: 57935222-240e-44f4-ab4d-b2b3681146a4
+uuid: 4a1a5c13-f794-40a7-979b-e44a2b3919ca
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/assembling_pdf_documents
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: acf7f0cd-23b8-426e-a3e1-60c6a22f092f
+discoiquuid: 5e0f8638-5a26-4790-8313-05c0c1d18240
+index: y
+internal: n
+snippet: y
 ---
 
 # Dynamically Creating DDX Documents{#dynamically-creating-ddx-documents}

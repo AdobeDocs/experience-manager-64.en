@@ -3,12 +3,15 @@ title: Customizing the Adobe Analytics Framework
 seo-title: Customizing the Adobe Analytics Framework
 description: null
 seo-description: null
-uuid: 98717261-cda8-4eb6-9006-cb8f7467368d
+uuid: 18036dbd-cfcc-4401-9ebc-a2f8bd020d9a
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
-discoiquuid: a401145b-55a2-45fd-9b91-c6c546668632
+discoiquuid: ff09062d-c675-4c54-921f-9dbfac6bb5b6
+index: y
+internal: n
+snippet: y
 ---
 
 # Customizing the Adobe Analytics Framework{#customizing-the-adobe-analytics-framework}

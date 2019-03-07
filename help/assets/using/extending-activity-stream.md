@@ -3,12 +3,15 @@ title: Integrating Assets with Activity Stream
 seo-title: Integrating Assets with Activity Stream
 description: Describes the recording capabilities of AEM and how to configure AEM to record specific events.
 seo-description: Describes the recording capabilities of AEM and how to configure AEM to record specific events.
-uuid: c1a2d970-319f-467c-a4da-1287332a38bc
+uuid: eb0dd5f1-829d-4e21-9d6c-a77653c05e87
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: extending-assets
 content-type: reference
-discoiquuid: fed03ab0-6c5b-4d67-a87d-608d4271023a
+discoiquuid: ea2322be-b970-4dc6-a94a-066a592ec230
+index: y
+internal: n
+snippet: y
 ---
 
 # Integrating Assets with Activity Stream{#integrating-assets-with-activity-stream}

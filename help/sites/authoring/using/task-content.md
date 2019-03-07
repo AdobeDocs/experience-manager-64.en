@@ -3,12 +3,15 @@ title: Working with Tasks
 seo-title: Working with Tasks
 description: Tasks represent items of work to be done on content and are used in projects to determine the level of completeness of current tasks
 seo-description: Tasks represent items of work to be done on content and are used in projects to determine the level of completeness of current tasks
-uuid: 5a60ea2b-2a31-4b8b-8780-52072a28c1d4
+uuid: 3ae0639f-1897-4d09-8ad5-56c7d7f7b3af
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: projects
 content-type: reference
-discoiquuid: 3955d43b-b2d4-423a-9060-68904a5e949f
+discoiquuid: 171cf779-4a93-44bb-9bc1-c3999e33630d
+index: y
+internal: n
+snippet: y
 ---
 
 # Working with Tasks{#working-with-tasks}

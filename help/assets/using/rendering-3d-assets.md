@@ -3,12 +3,15 @@ title: Rendering 3D assets
 seo-title: Rendering 3D assets
 description: Learn how to render 3D assets you manipulated and saved in AEM to create 2D images for your web pages.
 seo-description: Learn how to render 3D assets you manipulated and saved in AEM to create 2D images for your web pages.
-uuid: d86dca01-f347-4b63-8c94-a60d65f411e9
+uuid: 2cef00f8-f22d-423d-82cf-995bbb8cc152
 contentOwner: Rick Brough
 topic-tags: 3D
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-discoiquuid: 395fe463-e95e-4ebf-8746-50e8144ac935
+discoiquuid: f4b503d6-dafb-4977-89f6-5bc34ebba7e8
+index: y
+internal: n
+snippet: y
 ---
 
 # Rendering 3D assets{#rendering-d-assets}

@@ -3,12 +3,15 @@ title: Integrating with Silverpop Engage
 seo-title: Integrating with Silverpop Engage
 description: Learn how to integrate AEM with Silverpop Engage
 seo-description: Learn how to integrate AEM with Silverpop Engage
-uuid: 011ce5cb-c49e-4d2d-8bc1-f304659e035f
+uuid: 6a0baf89-c9ba-4d50-9dec-1a6d9c1943b7
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: 4b61f971-f97b-4f9f-95db-29c07b94a670
+discoiquuid: f7756dcb-7d1d-49f3-9024-8334ada44ec3
+index: y
+internal: n
+snippet: y
 ---
 
 # Integrating with Silverpop Engage{#integrating-with-silverpop-engage}

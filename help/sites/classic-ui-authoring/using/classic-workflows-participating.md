@@ -3,12 +3,15 @@ title: Participating in Workflows
 seo-title: Participating in Workflows
 description: Workflows typically include steps that require a person to perform an activity on a page or asset. The workflow selects a user or group to perform the activity and assigns a work item to that person or group.
 seo-description: Workflows typically include steps that require a person to perform an activity on a page or asset. The workflow selects a user or group to perform the activity and assigns a work item to that person or group.
-uuid: ebbfa4f4-857b-4713-bb81-bfa76a791335
+uuid: 153d9a4c-0c82-4a70-8fe3-8fcdf59c9aeb
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
-discoiquuid: 4695ffae-2113-48dd-b268-5e64ea420f5e
+discoiquuid: 36083fbb-e61d-4f06-a2fb-66519dc6ba3f
+index: y
+internal: n
+snippet: y
 ---
 
 # Participating in Workflows{#participating-in-workflows}

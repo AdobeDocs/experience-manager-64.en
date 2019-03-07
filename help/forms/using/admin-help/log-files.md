@@ -3,12 +3,15 @@ title: Log files
 seo-title: Log files
 description: Events such as run-time or startup errors are recorded to the application server log files, which can be  opened using any text editor.
 seo-description: Events such as run-time or startup errors are recorded to the application server log files, which can be  opened using any text editor.
-uuid: fc8e8722-9487-44c9-bc16-e3c3395f88a1
+uuid: 8826524f-4397-4ce2-b666-63dbd7007c9a
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/maintaining_aem_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 1e9221bb-5107-4630-8cf8-0de2b0411548
+discoiquuid: 4500df64-364b-47aa-a17b-56ca59b876bf
+index: y
+internal: n
+snippet: y
 ---
 
 # Log files{#log-files}

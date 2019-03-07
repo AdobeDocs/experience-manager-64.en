@@ -3,11 +3,14 @@ title: Form Bridge APIs for HTML5 forms
 seo-title: Form Bridge APIs for HTML5 forms
 description: External applications use the FormBridge API to connect to the XFA Mobile Form. The API dispatches a FormBridgeInitialized event on the parent window.
 seo-description: External applications use the FormBridge API to connect to the XFA Mobile Form. The API dispatches a FormBridgeInitialized event on the parent window.
-uuid: 05b1d8ef-0351-490b-9335-91b8ebd1946b
+uuid: bbb0ea4f-29ab-43dc-9052-0ac09e1322b7
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: developer-reference
-discoiquuid: 57d7723c-c188-4438-bab2-97231f792dec
+discoiquuid: 4f391db1-53e6-4658-92dc-2e9a1cbbf26b
+index: y
+internal: n
+snippet: y
 ---
 
 # Form Bridge APIs for HTML5 forms{#form-bridge-apis-for-html-forms}
@@ -63,9 +66,9 @@ Returns the version number of the Scripting library
 
 **getDataXML(options)** Returns the current form data in XML Format
 
-* **Input:** 
+* **Input: **
 
-    * **options:** JavaScript Object containing following properties:
+    * **options: **JavaScript Object containing following properties:
 
         * **Error**: Error Handler Function  
         
@@ -77,8 +80,8 @@ Returns the version number of the Scripting library
 
         * **formState**: The JSON state of the XFA Form for which data XML has to be returned. If not specified, it returns the data XML for the currently rendered form.
 
-* **Output:** None
-* **Error:** None
+* **Output: **None
+* **Error: **None
 
 **registerConfig(configName, config)** Registers user / portal specific configurations with FormBridge. These configurations override the default configurations. The supported configurations are specified in the config section.
 
@@ -86,13 +89,13 @@ Returns the version number of the Scripting library
 
     * **configName:** Name of the configuration to override
 
-        * **widgetConfig:** Allows the user to override the default widgets in the form with custom widgets. The configuration is overridden as follows:  
+        * **widgetConfig: **Allows the user to override the default widgets in the form with custom widgets. The configuration is overridden as follows:  
           *formBridge.registerConfig("widgetConfig":{/&#42;configuration&#42;/})*
         
-        * ***pagingConfig:** Allows the user to override the default behavior of rendering only the first page. The configuration is overridden as follows:  
+        * ***pagingConfig: **Allows the user to override the default behavior of rendering only the first page. The configuration is overridden as follows:  
           **window.formBridge.registerConfig("pagingConfig":{pagingDisabled: <true | false>, shrinkPageDisabled: <true | false> }). *
         
-        * **LoggingConfig:** Allows the user to override the level of logging, disable logging for a category, or whether to display the logs console or send to server. The configuration can be overridden as follows:**
+        * ****LoggingConfig: **Allows the user to override the level of logging, disable logging for a category, or whether to display the logs console or send to server. The configuration can be overridden as follows:**
         * *formBridge.registerConfig{  
           **"LoggerConfig" : {  
         * *{  
@@ -103,7 +106,7 @@ Returns the version number of the Scripting library
         * *}  
           **}*
         
-        * ***SubmitServiceProxyConfig:** Allow the users to register submission and logger proxy services.  
+        * ***SubmitServiceProxyConfig: **Allow the users to register submission and logger proxy services.  
           *window.formBridge.registerConfig("submitServiceProxyConfig",  
           {  
           "submitServiceProxy" : "<submitServiceProxy>",  
@@ -113,27 +116,27 @@ Returns the version number of the Scripting library
 
     * **config:** Value of the configuration
 
-* **Output:** Object containing original value of the configuration in *data* property.
+* **Output: **Object containing original value of the configuration in *data* property.
 
-* **Error:** None
+* **Error: **None
 
 **hideFields(fieldArray)** Hides the fields whose Som expressions are provided in the fieldArray. Sets the presence property of the specified fields to invisible
 
-* **Input:** 
+* **Input: **
 
     * **fieldArray:** Array of Som expressions for the fields to hide
 
-* **Output:** None
-* **Error:** None
+* **Output: **None
+* **Error: **None
 
 **showFields(fieldArray)** Shows the fields whose Som expressions are provided in the fieldArray. Sets the presence property of the provided fields to visible
 
 * **Input:**
 
-    * **fieldArray:** Array of Som expressions for the fields to show
+    * **fieldArray: **Array of Som expressions for the fields to show
 
-* **Output:** None
-* **Error:** None
+* **Output: **None
+* **Error: **None
 
 **hideSubmitButtons()** Hides all the submit buttons in the form
 
@@ -143,16 +146,16 @@ Returns the version number of the Scripting library
 
 **getFormState()** Returns the JSON representing the Form State
 
-* **Input:** None
-* **Output:** Object containing JSON representing the current Form State in *data* property.
+* **Input: **None
+* **Output: **Object containing JSON representing the current Form State in *data* property.
 
-* **Error:** None
+* **Error: **None
 
 **restoreFormState(options)** Restores the Form State from the provided JSON state in the options object. The state is applied and success or error handlers are called after the operation is complete
 
 * **Input:**
 
-    * **Options:** JavaScript Object containing following properties:
+    * **Options: **JavaScript Object containing following properties:
 
         * **Error**: Error Handler Function
         * **success**: Success handler function
@@ -160,31 +163,31 @@ Returns the version number of the Scripting library
         
         * **formState**: JSON state of the form. The form is restored to the JSON state..
 
-* **Output:** None
-* **Error:** None
+* **Output: **None
+* **Error: **None
 
 **setFocus (som)** Sets focus on the field specified in the Som expression
 
-* **Input:** Som expression of the field on which to set focus
-* **Output:** None
-* **Error:** Throws an exception in case of incorrect Som expression
+* **Input: **Som expression of the field on which to set focus
+* **Output: **None
+* **Error: **Throws an exception in case of incorrect Som expression
 
 **setFieldValue (som, value)** Sets the value of the fields for the given Som expressions
 
-* **Input:** 
+* **Input: **
 
-    * **som:** Array containing Som expressions of the field. The som expression to set value of the fields. 
+    * **som: **Array containing Som expressions of the field. The som expression to set value of the fields. 
     * **value:** Array containing values corresponding to Som expressions provided in a **som **array. If the data type of the value is not the same as the fieldType, the value is not modified.
 
-* **Output:** None
-* **Error:** Throws an Exception in the case of an incorrect Som expression
+* **Output: **None
+* **Error: **Throws an Exception in the case of an incorrect Som expression
 
 **getFieldValue (som)** Returns the value of the fields for the given Som expressions
 
-* **Input:** Array containing Som expressions of the fields whose value has to be retrieved
-* **Output:** Object containing the result as Array in **data **property.
+* **Input: **Array containing Som expressions of the fields whose value has to be retrieved
+* **Output: **Object containing the result as Array in **data **property.
 
-* **Error:** None
+* **Error: **None
 
 #### Example of&nbsp;getFieldValue() API {#example-of-nbsp-getfieldvalue-api}
 
@@ -204,26 +207,26 @@ if(a.errors) {
 
 * **Input:**
 
-    * **som:** Array containing Som expressions for the fields  
+    * **som: **Array containing Som expressions for the fields  
     
     * **property**: Name of the property whose value is required
 
-* **Output:** Object containing the result as Array in *data *property
+* **Output: **Object containing the result as Array in *data *property
 
-* **Error:** None
+* **Error: **None
 
 **setFieldProperties(som, property, values)** Sets the value of the given property for all fields specified in the Som expressions
 
 * **Input:**
 
-    * **som:** Array** **containing** **Som expressions of the fields whose value has to be set  
+    * **som: **Array** **containing** **Som expressions of the fields whose value has to be set  
     
     * **property**: Property whose value has to be set  
     
     * **value:** Array containing values of the given property for fields specified in Som expressions
 
-* **Output:** None
-* **Error:** None
+* **Output: **None
+* **Error: **None
 
 ### Sample Usage of Form Bridge API {#sample-usage-of-form-bridge-api}
 

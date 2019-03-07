@@ -3,11 +3,14 @@ title: Watched folder in AEM Forms
 seo-title: Watched folder in AEM Forms
 description: An administrator can put a folder on watch and start a workflow, service, or script operation when a file is placed in the folder being watched.
 seo-description: An administrator can put a folder on watch and start a workflow, service, or script operation when a file is placed in the folder being watched.
-uuid: 6f6b10c5-3f50-4157-b890-51c95f95065a
+uuid: e3ee578a-7c03-4e81-8956-11addebeae11
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: publish
-discoiquuid: 6829ba24-01ed-4896-88cf-6f1f08239799
+discoiquuid: 5e3c95c2-d12b-443f-b893-c66fb501183b
+index: y
+internal: n
+snippet: y
 ---
 
 # Watched folder in AEM Forms{#watched-folder-in-aem-forms}
@@ -83,7 +86,7 @@ You can configure the following properties for a Watched Folder.
   **Note:** *Even when an input is marked as having timed out using this mechanism, it may still be processing in the background but just taking more time than expected. If the input contents were consumed before the timeout mechanism kicked in, the processing may even proceed to completion later and the output be dumped into the results folder. If the contents were not consumed before the timeout, it is very likely that the processing will error out later on trying to consume the contents, and this error will also be logged in the failure folder for the same input. On the other hand, if the processing for the input never activated due to an intermittent job/workflow misfire (which is the scenario the expiration mechanism aims to address), then of course neither of these two eventualities will occur. Hence, for any entries in the failure folder which were marked as failures due to a timeout (look for messages of the form "File not processed after a significant amount of time, marking as failure!" in the failure log), it is advisable to scan the result folder (and also the failure folder itself for another entry for the same input) to check whether any of the eventualities described previously actually occurred.*
 
 * 
-* **deleteExpiredStageFileOnlyWhenThrottled (Boolean, default true):** Whether the expiration mechanism should activate only when the watch-folder is throttled. The mechanism is more relevant for throttled watch-folders since a small number of files which are lingering around in an unprocessed state (owing to intermittent job/workflow misfires) have the potential to choke processing for the entire batch when throttling is enabled. If this property is kept as true (the default), the expiration mechanism will not activate for watch-folders which are not throttled. If the property is kept as false, the mechanism will always activate as long as the stageFileExpirationDuration property is a positive number.  
+* **deleteExpiredStageFileOnlyWhenThrottled (Boolean, default true): **Whether the expiration mechanism should activate only when the watch-folder is throttled. The mechanism is more relevant for throttled watch-folders since a small number of files which are lingering around in an unprocessed state (owing to intermittent job/workflow misfires) have the potential to choke processing for the entire batch when throttling is enabled. If this property is kept as true (the default), the expiration mechanism will not activate for watch-folders which are not throttled. If the property is kept as false, the mechanism will always activate as long as the stageFileExpirationDuration property is a positive number.  
 
 * **pollInterval (Long)**: The interval in seconds for scanning the Watched Folder for input. Unless the Throttle setting is enabled, poll Interval should be longer than the time to process an average job; otherwise, the system may become overloaded. The default value is 5. See the description for Batch Size for additional information. The value of the pollinterval must be greater than or equal to one.
 * **excludeFilePattern (String)**: A semi-colon (;) delimited list of patterns that a Watched Folder uses to determine which files and folders to scan and pick up. Any file or folder with this pattern is not scanned for processing. This setting is useful when the input is a folder with multiple files. The contents of the folder can be copied into a folder with a name that are picked up by the Watched Folder. This prevents the Watched Folder from picking up a folder for processing before the folder is completely copied into the input folder. The default value is null.   
@@ -166,7 +169,7 @@ For more information about file patterns, see [About file patterns](../../forms/
 
     * **Default mapper:** Use the default payload mapper to keep input and output contents of the watched folders in separate input and output folders in the payload. Also, in payload path of a workflow, use [payload]/input/ and [payload]/output paths to retrive and save content.  
     
-    * **Simple File-based payload mapper:** Use the Simple File-based payload mapper to keep input and output contents directly in the payload folder. It does not create any extra hierarchy, like default mapper.
+    * **Simple File-based payload mapper: **Use the Simple File-based payload mapper to keep input and output contents directly in the payload folder. It does not create any extra hierarchy, like default mapper.
 
 ### Custom configuration parameters {#custom-configuration-parameters}
 
@@ -649,7 +652,7 @@ The ECMAScript would use PDF Generator’s createPDF API to convert Microsoft Wo
 
 1. Right-click the Process Step and select **Edit**. The Step Properties window appears.  
 
-1. In the Process tab, select the ECMAScript. For example, the pdfg-openOffice-sample.ecma script created in [Create an ECMAScript](#main-pars-header-18). Enable the **Handler Advance **option and click **OK**.
+1. In the Process tab, select the ECMAScript. For example, the pdfg-openOffice-sample.ecma script created in [Create an ECMAScript](#p-create-an-ecmascript-p). Enable the **Handler Advance **option and click **OK**.
 
    ![](assets/create-a-workflow3-pdf.png)
 

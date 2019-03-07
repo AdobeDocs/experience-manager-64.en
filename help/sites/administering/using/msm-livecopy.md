@@ -3,12 +3,15 @@ title: Creating and Synchronizing Live Copies
 seo-title: Creating and Synchronizing Live Copies
 description: Learn how to create and synchronize Live Copies.
 seo-description: Learn how to create and synchronize Live Copies.
-uuid: ddf4548a-fd66-4f9f-9707-67150885b30b
+uuid: b610a3a9-c690-4342-a1a9-403aab7ab0c3
 contentOwner: Alison Heimoz
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features
 content-type: reference
-discoiquuid: 740e530c-a38e-4df4-a376-a6f473cdc7d6
+discoiquuid: cce1b768-f58d-43e3-8944-f98a4e73ad9b
+index: y
+internal: n
+snippet: y
 ---
 
 # Creating and Synchronizing Live Copies{#creating-and-synchronizing-live-copies}
@@ -315,7 +318,7 @@ To change live copy content, you can:
 
 Add components to a live copy page at any time. The inheritance status of the live copy and its paragraph system does not control your ability to add components.
 
-When the live copy page is synchronized with the source page, the added components remain unchanged. See also [Changing the Order of Components on a Live Copy Page](#main-pars-title-154027611).
+When the live copy page is synchronized with the source page, the added components remain unchanged. See also [Changing the Order of Components on a Live Copy Page](#changing-the-order-of-components-on-a-live-copy-page).
 
 >[!NOTE]
 >

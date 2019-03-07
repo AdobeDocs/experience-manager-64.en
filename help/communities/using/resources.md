@@ -3,12 +3,15 @@ title: Enablement Resources Console
 seo-title: Enablement Resources Console
 description: The Resources console is where Enablement Managers create, manage, and assign resources to members of an enablement community site
 seo-description: The Resources console is where Enablement Managers create, manage, and assign resources to members of an enablement community site
-uuid: 9015cc3d-f78d-4479-8bcf-65f4139fa627
+uuid: c4783500-015f-407a-96c9-0148b36775fd
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: dd212278-49fa-4531-b5a0-bc7c594ca750
+discoiquuid: a5c03ffc-2366-4084-baed-203a6c295c82
+index: y
+internal: n
+snippet: y
 ---
 
 # Enablement Resources Console{#enablement-resources-console}
@@ -70,7 +73,7 @@ For [enablement communities](../../communities/using/overview.md#enablementcommu
 
 In the author environment, to reach the Resources console
 
-* from global navigation :** Navigation, Communities, Resources**
+* from global navigation : **Navigation, Communities, Resources**
 
 ![](assets/chlimage_1-163.png) 
 

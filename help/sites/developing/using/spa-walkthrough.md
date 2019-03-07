@@ -3,12 +3,15 @@ title: SPA Introduction and Walkthrough
 seo-title: SPA Introduction and Walkthrough
 description: This article introduces the concepts of a SPA and walks through using a basic SPA application for authoring, showing how it relates to the underlying AEM SPA Editor.
 seo-description: This article introduces the concepts of a SPA and walks through using a basic SPA application for authoring, showing how it relates to the underlying AEM SPA Editor.
-uuid: 2e8d2041-5752-4fc5-8f98-ad047df1c25a
+uuid: 3eb2a076-2b53-495f-a433-62fe6bc091fc
 contentOwner: bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: spa
 content-type: reference
-discoiquuid: 172e00a6-23c8-4f86-8c81-d0db236f25ed
+discoiquuid: c0d7c0d1-a1bb-4a7a-9d64-e50ed53edcac
+index: y
+internal: n
+snippet: y
 ---
 
 # SPA Introduction and Walkthrough{#spa-introduction-and-walkthrough}

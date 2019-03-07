@@ -3,12 +3,15 @@ title: XMP Utilities Service Java APIQuick Start(SOAP)
 seo-title: XMP Utilities Service Java APIQuick Start(SOAP)
 description: null
 seo-description: null
-uuid: 43cc195a-233b-45d6-a916-20aed84088d9
+uuid: 7360c44c-d4ae-4672-9eee-300b084ab7b4
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
-discoiquuid: a597dace-92cf-466f-878a-cae6136c7806
+discoiquuid: a8a4bb59-0e0b-4049-a40e-984cad2bfdcf
+index: y
+internal: n
+snippet: y
 ---
 
 # XMP Utilities Service Java APIQuick Start(SOAP){#xmp-utilities-service-java-apiquick-start-soap}

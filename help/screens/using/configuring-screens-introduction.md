@@ -3,12 +3,15 @@ title: Configuring and Deploying AEM Screens
 seo-title: Configuring and Deploying Screens
 description: The AEM Screens player is available for Android, Chrome OS, iOS, and Windows. This page describes the configuration and deployment of AEM Screens and also summarizes the h/w selection guidelines for player device.
 seo-description: The AEM Screens player is available for Android, Chrome OS, iOS, and Windows. This page describes the configuration and deployment of AEM Screens and also summarizes the h/w selection guidelines for player device.
-uuid: f35bb201-1a0f-43f0-b25a-f4b7b726f912
+uuid: 663e0d3c-3231-4fb0-9fc2-5d0e23ec30c2
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: administering
-discoiquuid: bde6fb90-3380-4e17-9f8c-d07a024f13f9
+discoiquuid: a069faab-7117-4b24-88ba-3178f487f65e
+index: y
+internal: n
+snippet: y
 ---
 
 # Configuring and Deploying AEM Screens{#configuring-and-deploying-aem-screens}

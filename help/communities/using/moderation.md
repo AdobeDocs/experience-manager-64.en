@@ -3,12 +3,15 @@ title: Moderation Console
 seo-title: Moderation Console
 description: How to access the Moderation console
 seo-description: How to access the Moderation console
-uuid: d6a82089-d5d0-4aad-bfbe-63a5da8b72fe
+uuid: 7138b29c-8985-404b-b7c2-47a089d29b73
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 6e55f3d3-3597-4c13-9c49-c1d4d2d7d7ec
+discoiquuid: 7fcd0a07-9d17-4962-9e28-b86ad98866af
+index: y
+internal: n
+snippet: y
 ---
 
 # Moderation Console{#moderation-console}
@@ -46,7 +49,7 @@ By selecting the Administration link, the Moderation console appears :
 
 In the author environment, to reach the Moderation console
 
-* from global navigation :** Navigation, Communities, Moderation**
+* from global navigation : **Navigation, Communities, Moderation**
 
 Only when signed in as an administrator, or as a member with ` [moderator permissions](../../communities/using/in-context.md#identifyingtrustedmembers)`, may moderation tasks be performed. The only community content displayed is that which the signed in member is permitted to moderate.
 
@@ -110,7 +113,7 @@ The side-panel icon opens the filter rail. The filter rail, which appears to the
 
 The filters within each category are **OR**ed together, and the filters in different categories are **AND**ed together.
 
-For example, if you check both **Question** and **Answer**, you will see content that is either a **Question** *or* an **Answer**.
+For example, if you check both **Question** and **Answer**, you will see content that is either a **Question ***or* an **Answer**.
 
 However if you check **Question** and **Pending**, you will only see content that is a **Question **and is **Pending**.
 

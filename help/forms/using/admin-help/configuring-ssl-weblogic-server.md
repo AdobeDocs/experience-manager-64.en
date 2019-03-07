@@ -3,12 +3,15 @@ title: Configuring SSL for WebLogic Server
 seo-title: Configuring SSL for WebLogic Server
 description: Learn how to create an SSL credential for use on WebLogic server and how to configure SSL for WebLogic Server.
 seo-description: Learn how to create an SSL credential for use on WebLogic server and how to configure SSL for WebLogic Server.
-uuid: c6dc9291-3eb6-4792-997f-f7def3c13598
+uuid: 4c9cd6e5-6d82-4ac7-93d2-7653edca1100
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_ssl
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: dc557b65-f76c-4cd8-b511-f394534d2c3e
+discoiquuid: 7ecda2e6-6728-4fd8-8776-b19ba042e7f9
+index: y
+internal: n
+snippet: y
 ---
 
 # Configuring SSL for WebLogic Server{#configuring-ssl-for-weblogic-server}
@@ -123,7 +126,7 @@ For more information about using the keytool command, see the keytool.html file 
 
    `-file "ads-ca.cer" -keystore "ads-credentials.jks"`
 
-   `-storepass` `*store*`*_**password**
+   `-storepass` `*store*`*_**password*****
 
    >[!NOTE]
    >
@@ -140,7 +143,7 @@ For more information about using the keytool command, see the keytool.html file 
 1. Copy the ads-ca.cer file to any host computers that need secure communication with the application server.
 1. Insert the certificate into a new keystore file (the Custom Trust keystore) by entering the following command:
 
-   *[JAVA_HOME]* `/bin/keytool -import -v -noprompt -alias bedrock -file "ads-ca.cer" -keystore "ads-ca.jks" -storepass *store_password* -keypass *key_password*`
+   *[JAVA_HOME]* `/bin/keytool -import -v -noprompt -alias bedrock -file "ads-ca.cer" -keystore "ads-ca.jks" -storepass *store_password* -keypass *key_password*`****
 
    >[!NOTE]
    >

@@ -3,10 +3,13 @@ title: Configuring the Submit action
 seo-title: Configuring the Submit action
 description: AEM Forms allows you to configure a submit action to define how an adaptive form is processed after submission. You can use built-in submit actions or write your own from scratch.
 seo-description: AEM Forms allows you to configure a submit action to define how an adaptive form is processed after submission. You can use built-in submit actions or write your own from scratch.
-uuid: 4c9394d8-8a82-4c7b-9bc9-2ab3cef1a717
+uuid: e6753998-339f-4504-9bc7-b35f879c112f
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
-discoiquuid: 1c60e509-2d36-4002-83bc-67297a46b21a
+discoiquuid: 7afd94f6-70c3-4694-a8d5-ea1de0d6b58c
+index: y
+internal: n
+snippet: y
 ---
 
 # Configuring the Submit action{#configuring-the-submit-action}

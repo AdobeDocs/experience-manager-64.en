@@ -3,12 +3,15 @@ title: Forms Service API Quick Starts
 seo-title: Forms Service API Quick Starts
 description: null
 seo-description: null
-uuid: efdf1a55-401e-4cfa-8064-94af707390c6
+uuid: 449ff378-bfd6-4e32-ade0-66ca13602c92
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
-discoiquuid: dd504c48-953c-45b0-9bb8-b9f47113262b
+discoiquuid: c604ee29-d984-412d-b917-195d2eb520ce
+index: y
+internal: n
+snippet: y
 ---
 
 # Forms Service API Quick Starts{#forms-service-api-quick-starts}

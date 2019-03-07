@@ -3,12 +3,15 @@ title: Using Reviews and Reviews Summary (Display)
 seo-title: Using Reviews and Reviews Summary (Display)
 description: Adding the Reviews and Reviews Summary components to a page
 seo-description: Adding the Reviews and Reviews Summary components to a page
-uuid: 45f2e388-78d8-40fa-a7bf-d8e7a3a3715e
+uuid: 1f1ff1ff-e191-4406-a814-f9947fe263c1
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
-discoiquuid: 6658165b-85a5-4e1c-b4fb-7ab26436c5f6
+discoiquuid: 1b8b058b-da37-4f78-8f1c-d91944040467
+index: y
+internal: n
+snippet: y
 ---
 
 # Using Reviews and Reviews Summary (Display){#using-reviews-and-reviews-summary-display}

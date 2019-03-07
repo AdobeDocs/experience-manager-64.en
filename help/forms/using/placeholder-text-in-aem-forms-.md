@@ -3,10 +3,13 @@ title: Placeholder text in AEM Forms
 seo-title: Placeholder text in AEM Forms 
 description: Placeholder text is intended to aid the user with data entry when the control has no value. It could be a sample value or a brief description of the expected format.
 seo-description: Placeholder text is intended to aid the user with data entry when the control has no value. It could be a sample value or a brief description of the expected format.
-uuid: c23ded96-d131-405c-a0af-0188ccde509b
+uuid: 4dca5750-f831-446d-a7f8-8b64657d96e5
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
-discoiquuid: 5e0a5e2c-9dd4-48d0-bd75-a5677ee93c7a
+discoiquuid: bb803139-c9b4-41dc-8012-d4c51b247428
+index: y
+internal: n
+snippet: y
 ---
 
 # Placeholder text in AEM Forms {#placeholder-text-in-aem-forms}

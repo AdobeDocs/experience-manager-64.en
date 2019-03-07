@@ -3,9 +3,12 @@ title: AEM Commerce - GDPR Readiness
 seo-title: AEM Commerce - GDPR Readiness
 description: null
 seo-description: null
-uuid: 656166a8-985a-49f9-ac8b-1a60566480d7
+uuid: d63db2b2-4085-485e-accf-fcb87b1f871e
 contentOwner: carlino
-discoiquuid: 245e6d62-f37a-42d7-bbf7-7ed3f5c0c5b9
+discoiquuid: 9a8953bb-ed16-4f9f-b05e-cfe201d4d907
+index: y
+internal: n
+snippet: y
 ---
 
 # AEM Commerce - GDPR Readiness{#aem-commerce-gdpr-readiness}

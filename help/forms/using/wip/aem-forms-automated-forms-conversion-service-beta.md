@@ -3,9 +3,12 @@ title: AEM Forms Automated Forms Conversion service prerelease notes
 seo-title: AEM Forms Automated Forms Conversion service prerelease notes
 description: null
 seo-description: null
-uuid: 445131ff-a5e8-4c3e-936e-703bdccdc028
+uuid: a539621c-3e79-40b2-b6ef-e5566c79e162
 contentOwner: vishgupt
-discoiquuid: 8f8e958c-8db8-41e8-80b9-71db946b9690
+discoiquuid: 8c3db274-31c0-4f2c-977a-a43292cee885
+index: y
+internal: n
+snippet: y
 ---
 
 # AEM Forms Automated Forms Conversion service prerelease notes{#aem-forms-automated-forms-conversion-service-prerelease-notes}

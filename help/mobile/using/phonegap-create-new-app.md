@@ -3,12 +3,15 @@ title: Creating a new AEM Mobile app using create wizard
 seo-title: Creating a new AEM Mobile app using create wizard
 description: AEM Mobile apps are based on a blueprint that defines a page structure and properties. Follow this page to learn about how to create a new app based on an app template.
 seo-description: AEM Mobile apps are based on a blueprint that defines a page structure and properties. Follow this page to learn about how to create a new app based on an app template.
-uuid: 4f5bf791-d7bc-4cac-9d2a-b96e6b665d1a
+uuid: 60102b90-f058-4b69-bdd9-79156d34d518
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: authoring-adobe-phonegap-enterprise
-discoiquuid: 726d2074-5e0f-4687-8518-c93e26b246da
+discoiquuid: c1295358-9525-4d95-a862-272c88cd6d0d
+index: y
+internal: n
+snippet: y
 ---
 
 # Creating a new AEM Mobile app using create wizard{#creating-a-new-aem-mobile-app-using-create-wizard}

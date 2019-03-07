@@ -3,12 +3,15 @@ title: Dialog Conversion Tool
 seo-title: Dialog Conversion Tool
 description: The dialog conversion tool is provided to help you extend existing components that only have a dialog defined for the classic UI
 seo-description: The dialog conversion tool is provided to help you extend existing components that only have a dialog defined for the classic UI
-uuid: c4983b94-bdb6-4e4e-aa94-8db3f13909b7
+uuid: 8b1de7bd-5211-4aab-9c23-a7255cfcc2cc
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: development-tools
 content-type: reference
-discoiquuid: 84b57bef-2029-4d63-b194-06ab6fe66220
+discoiquuid: d13c2cea-e97e-4ba3-8770-1fd371f830d9
+index: y
+internal: n
+snippet: y
 ---
 
 # Dialog Conversion Tool{#dialog-conversion-tool}
@@ -121,7 +124,7 @@ The rewrite rules can be defined in two different ways, either as:
 
 * Java classes implementing a specific interface - [Java-Based Rewrite Rules](../../../sites/developing/using/dialog-conversion.md#java-based-rewrite-rules)
 
-Some are [provided out-of-the-box](#main-pars-title-1), but you can also define your own customized rules. [Sample rewrite rules](../../../sites/developing/using/dialog-conversion.md#sample-rewrite-rules) are also available.
+Some are [provided out-of-the-box](#provided-rewrite-rules), but you can also define your own customized rules. [Sample rewrite rules](../../../sites/developing/using/dialog-conversion.md#sample-rewrite-rules) are also available.
 
 Typically, a single dialog rewrite rule is responsible for rewriting a single dialog element, for example the pathbrowser input field.
 

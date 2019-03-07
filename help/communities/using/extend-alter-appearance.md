@@ -3,12 +3,15 @@ title: Alter the Appearance (HBS)
 seo-title: Alter the Appearance
 description: Modify the HBS scripts
 seo-description: Modify the HBS scripts
-uuid: 84c051a8-0c3c-41b0-9387-5ff662f17082
+uuid: 8a0fdca6-f073-4355-b6f0-632ebdb79a1f
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: af01284e-8711-4940-a73a-55541cc85e00
+discoiquuid: 790b45dd-8ba0-4938-b227-e6f23bf58a64
+index: y
+internal: n
+snippet: y
 ---
 
 # Alter the Appearance (HBS){#alter-the-appearance-hbs}

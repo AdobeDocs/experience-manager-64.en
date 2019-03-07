@@ -3,12 +3,15 @@ title: Badges Console
 seo-title: Badges Console
 description: The Communities Badges console lets you add custom badges that can be displayed for members when earned (awarded) or when they take on a specific role in the community (assigned)
 seo-description: The Communities Badges console lets you add custom badges that can be displayed for members when earned (awarded) or when they take on a specific role in the community (assigned)
-uuid: f2fb297e-826e-4fe9-9d3f-62af6e3b66ae
+uuid: cc422077-9290-42d5-9178-ab2577449303
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: fd311d84-0ec0-463a-9f6c-c54a0f1ceb1a
+discoiquuid: a1070eb1-008b-43d0-9924-d0da17cf3c88
+index: y
+internal: n
+snippet: y
 ---
 
 # Badges Console{#badges-console}
@@ -31,7 +34,7 @@ Currently, badges a community member earns or is assigned will appear along with
 
 In the author environment, to reach the Badges console
 
-* from global navigation :** Tools, Communities, Badges**
+* from global navigation : **Tools, Communities, Badges**
 
 This console displays the badges currently available and from which new badges can be added.
 

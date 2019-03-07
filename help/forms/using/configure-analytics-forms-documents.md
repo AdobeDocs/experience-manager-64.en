@@ -3,11 +3,14 @@ title: Configuring analytics and reports
 seo-title: Configuring analytics and reports
 description: Learn how to configure Adobe Analytics to discover interaction patterns and problems users face while using adaptive forms, adaptive documents, and HTML5 forms. 
 seo-description: Learn how to configure Adobe Analytics to discover interaction patterns and problems users face while using adaptive forms, adaptive documents, and HTML5 forms. 
-uuid: 05442166-3bc6-4fc9-a2b0-fadc1e0b0e62
+uuid: b4103ce2-4864-43f3-9448-7d175ab5febe
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: integrations
-discoiquuid: 143416b4-a0ff-49b4-bc74-c6c41e2e22af
+discoiquuid: 029b68be-d681-448b-90d1-58392bace877
+index: y
+internal: n
+snippet: y
 ---
 
 # Configuring analytics and reports{#configuring-analytics-and-reports}
@@ -174,7 +177,7 @@ An Adobe Analytics framework is a set of mappings between Adobe Analytics variab
     
     * **Analytics report sync cron**: Specify cron expression for fetching reports from Adobe Analytics. The default value is 0 0 2 ? &#42; &#42;.  
     
-    * **Fetch report timeout:** Specify the duration, in seconds, to wait for server to respond to the analytics report. The default time is 120 seconds.
+    * **Fetch report timeout: **Specify the duration, in seconds, to wait for server to respond to the analytics report. The default time is 120 seconds.
 
    >[!NOTE]
    >

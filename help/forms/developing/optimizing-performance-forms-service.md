@@ -3,13 +3,16 @@ title: Optimizing the Performance of theForms Service
 seo-title: Optimizing the Performance of theForms Service
 description: null
 seo-description: null
-uuid: 29848fe2-aba4-4b70-a258-7b1e860c9120
+uuid: 5b20a9f7-44ee-4992-85f4-805bd5435078
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/rendering_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: c4735c02-c09e-423b-b71c-f4a52af92394
+discoiquuid: a827c586-154d-4132-8b2f-b188233e1249
+index: y
+internal: n
+snippet: y
 ---
 
 # Optimizing the Performance of theForms Service{#optimizing-the-performance-of-theforms-service}

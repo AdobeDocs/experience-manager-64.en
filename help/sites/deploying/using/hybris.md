@@ -3,13 +3,16 @@ title: hybris
 seo-title: hybris
 description: Learn how to deploy eCommerce with hybris.
 seo-description: Learn how to deploy eCommerce with hybris.
-uuid: 4dfe3a9e-5b19-4058-a8d7-ce9613e30a58
+uuid: 7d3c4931-8f00-49f2-88e3-efe552bfe6ae
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: e-commerce
 content-type: reference
-discoiquuid: a130c1ba-7166-4aa2-9fff-27ebd03b074f
+discoiquuid: b0a0eae3-20c2-4965-be52-23a1d5b932ac
 pagetitle: Deploying eCommerce with hybris
+index: y
+internal: n
+snippet: y
 ---
 
 # hybris{#hybris}

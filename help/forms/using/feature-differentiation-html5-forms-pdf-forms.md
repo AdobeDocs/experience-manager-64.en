@@ -3,12 +3,15 @@ title: Feature differentiation between HTML5 forms and PDF forms
 seo-title: Feature differentiation between HTML5 forms and PDF forms 
 description: Feature supported in HTML5 forms and PDF forms
 seo-description: Feature supported in HTML5 forms and PDF forms
-uuid: d9a3d880-f183-4cd8-9cb8-68d14b93b43f
+uuid: 034227fd-9d46-4746-adb7-e06e75f5cdf9
 contentOwner: robhagat
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
-discoiquuid: e1289f3e-c4c6-4050-a591-69dc8d53e2e6
+discoiquuid: dd81ed0c-1168-4865-85bf-4672bb8e245d
+index: y
+internal: n
+snippet: y
 ---
 
 # Feature differentiation between HTML5 forms and PDF forms {#feature-differentiation-between-html-forms-and-pdf-forms}
@@ -75,6 +78,6 @@ The following table specifies the feature support provided for HTML5 forms and P
  </tbody>
 </table>
 
-Follow the best practices to enable a form template for HTML5 renditions and ensure that the behavior and appearance of HTML5 forms and XFA-based PDF is consistent. For detailed list of best practices, see [Best practices to design an HTML5 form.](../../forms/using/best-practices-for-html5-forms.md)
+Follow the best practices to enable a form template for HTML5 renditions and ensure that the behavior and appearance of HTML5 forms and XFA-based PDF is consistent. For detailed list of best practices, see [Best practices to design an HTML5 form.](../../forms/using/Best-practices-for-HTML5-forms.md)
 
 [**Contact Support**](https://www.adobe.com/account/sign-in.supportportal.html)

@@ -3,12 +3,15 @@ title: Application Manager Client JavaAPI Quick Start(SOAP)
 seo-title: Application Manager Client JavaAPI Quick Start(SOAP)
 description: null
 seo-description: null
-uuid: 25f20888-7b41-44e9-af70-ac78c0784d3e
+uuid: 6e45778f-93be-4233-8356-425e28484004
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
-discoiquuid: ddb53bf7-9b6f-4bae-bae2-ee68a38e5105
+discoiquuid: d850cead-9a39-4be0-a3a6-c5abd5de9ad7
+index: y
+internal: n
+snippet: y
 ---
 
 # Application Manager Client JavaAPI Quick Start(SOAP){#application-manager-client-javaapi-quick-start-soap}

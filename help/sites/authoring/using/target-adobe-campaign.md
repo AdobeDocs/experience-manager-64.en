@@ -3,12 +3,15 @@ title: Targeting your Adobe Campaign
 seo-title: Targeting your Adobe Campaign
 description: You can create targeted experiences for Adobe Campaign after setting up segmentation
 seo-description: You can create targeted experiences for Adobe Campaign after setting up segmentation
-uuid: 18aecd12-0284-4dc0-9247-f7f0629e16d2
+uuid: eace6394-bff8-4a28-8b04-cd4f3d9d3fc4
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: personalization
-discoiquuid: 65002096-627e-45a6-b1e8-9a23e2bac8d3
+discoiquuid: 16e952e5-89cd-43f6-998c-253d15516fe3
+index: y
+internal: n
+snippet: y
 ---
 
 # Targeting your Adobe Campaign{#targeting-your-adobe-campaign}

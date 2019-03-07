@@ -3,12 +3,15 @@ title: Best Practices
 seo-title: Best Practices
 description: Authoring best practices describe how to use AEM in the most efficient and most effective way possible. This growing list of topics includes a variety of areas in AEM.
 seo-description: Authoring best practices describe how to use AEM in the most efficient and most effective way possible. This growing list of topics includes a variety of areas in AEM.
-uuid: 269b6401-3263-4608-8252-4b3e893f3b28
+uuid: 32c2f61c-904e-4cff-af87-4d75747c1cde
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: 610663bd-395d-485f-996e-b0a03317a412
+discoiquuid: 2e283545-5986-48c0-97c1-622cdf00f6d9
+index: y
+internal: n
+snippet: y
 ---
 
 # Best Practices{#best-practices}
@@ -69,5 +72,5 @@ Managing and authoring your website content has some best practices outlined as 
 
 | Adaptive forms | [Best practices for working with adaptive forms](../../../forms/using/adaptive-forms-best-practices.md) |Describes best practices for setting up, authoring, and customizing adaptive forms. |
 |---|---|---|
-| HTML5 forms | [Best practices for designing HTML5 forms](../../../forms/using/best-practices-for-html5-forms.md) |Describes best practices for working on layout and design of HTML5 forms. |
+| HTML5 forms | [Best practices for designing HTML5 forms](../../../forms/using/Best-practices-for-HTML5-forms.md) |Describes best practices for working on layout and design of HTML5 forms. |
 

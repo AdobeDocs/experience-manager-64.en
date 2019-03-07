@@ -3,13 +3,16 @@ title: Liking Essentials
 seo-title: Liking Essentials
 description: Liking component overview
 seo-description: Liking component overview
-uuid: 2374b5a1-d130-424c-b5b5-c415e277a543
+uuid: 2a453f15-bf13-4a37-a19e-c0c658750c52
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: b777b591-1252-432a-a9e9-a303c4462472
+discoiquuid: f7c769c7-ade4-4cad-a440-ee16ef58863c
 pagetitle: Liking Essentials
+index: y
+internal: n
+snippet: y
 ---
 
 # Liking Essentials{#liking-essentials}

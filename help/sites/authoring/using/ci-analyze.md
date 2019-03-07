@@ -3,12 +3,15 @@ title: Analyzing Page Performance
 seo-title: Analyzing Page Performance
 description: Use the Content Insight page to analyze the performance of the page that you are authoring
 seo-description: Use the Content Insight page to analyze the performance of the page that you are authoring
-uuid: 0322fe9c-2fa6-4644-bd24-7fb3bab9fa80
+uuid: 0433d87f-dc5c-47d9-a849-4eccffd24c11
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
-discoiquuid: bb0ec7e9-2d4b-4453-b11d-526cde0b4636
+discoiquuid: 2c541cde-0c85-4944-a412-bc55ccb552c1
+index: y
+internal: n
+snippet: y
 ---
 
 # Analyzing Page Performance{#analyzing-page-performance}
@@ -100,7 +103,7 @@ Use the following procedure to create a task for an SEO recommendation.
     * Task Priority: The priority of the task.
     * Due Date: The date by which the task should be completed.
 
-   **Note:** The task that is created also includes the path to the page to which the SEO recommendation applies. 
+   **Note: **The task that is created also includes the path to the page to which the SEO recommendation applies. 
 
 1. Click or tap Done to close the Task Created message.
 

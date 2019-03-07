@@ -3,12 +3,15 @@ title: Using Liking
 seo-title: Using Liking
 description: Adding and configuring the Liking component
 seo-description: Adding and configuring the Liking component
-uuid: 0025252b-61d2-4d5b-bfcf-d7463d11a94f
+uuid: 359ad206-c811-46e7-8560-e0ef97533a5f
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
-discoiquuid: cf76f4b0-9574-46b9-b61b-6874f00e87d0
+discoiquuid: 6945fd84-5fb5-403f-97e7-c30277cad764
+index: y
+internal: n
+snippet: y
 ---
 
 # Using Liking{#using-liking}

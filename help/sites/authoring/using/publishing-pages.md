@@ -3,12 +3,15 @@ title: Publishing Pages
 seo-title: Publishing Pages
 description: null
 seo-description: null
-uuid: b4597a63-31c4-4640-b3b8-418bae0950d0
+uuid: 1677ec7b-ed9c-40f7-b775-466f8c6dfeaf
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: 418a0216-0e2e-48cd-b65c-d5aac2a8d917
+discoiquuid: 66887913-2d79-4d50-8789-be25bd5facf1
+index: y
+internal: n
+snippet: y
 ---
 
 # Publishing Pages{#publishing-pages}
@@ -251,7 +254,7 @@ You can use the [Manage Publication](../../../sites/authoring/using/publishing-p
 
    Remember that you can also review the references to be published via the **Published References** option.
 
-1. [Continue the Manage Publication wizard as normal](#main-pars-title-cd34) to complete the publication or unpublication of the tree.
+1. [Continue the Manage Publication wizard as normal](#manage-publication) to complete the publication or unpublication of the tree.
 
 ## Determining Publication Status {#determining-publication-status}
 

@@ -3,12 +3,15 @@ title: SharePoint Connector
 seo-title: SharePoint Connector
 description:  Day JCR Connector for Microsoft SharePoint 2010 and Microsoft SharePoint 2013, version 4.0.
 seo-description: Learn about the Sharepoint Connector in AEM.
-uuid: ea6af11a-d659-4ccb-91d4-337a88da511b
+uuid: 2669b419-99f1-4989-800e-567f5a5e8912
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: 96847a7b-3eba-42e7-9b27-c933da37146e
+discoiquuid: 048cc965-0c7d-48d3-8db7-c226630f288d
+index: y
+internal: n
+snippet: y
 ---
 
 # SharePoint Connector{#sharepoint-connector}
@@ -212,7 +215,7 @@ Go to: [http://localhost:4502/system/console/bundles](http://localhost:4502/syst
 
 **Configuring Basic Authentication (Windows)**
 
-1. [Disable Token Authentication](#main-pars-title-8).
+1. [Disable Token Authentication](#disable-token-authentication).
 1. Go to [http://localhost:4502/system/console/bundles](http://localhost:4502/system/console/bundles).
 1. Click OSGI &gt; Configuration.
 1. Search for **Day JCR Connector for Microsoft Sharepoint**.

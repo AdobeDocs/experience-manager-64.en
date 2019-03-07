@@ -3,12 +3,15 @@ title: Community Site Essentials
 seo-title: Community Site Essentials
 description: Exporting and deleting community sites and creating custom site templates
 seo-description: Exporting and deleting community sites and creating custom site templates
-uuid: 9690b18d-802a-4994-9095-f29a5b051300
+uuid: 346ffb60-1daf-451f-ae56-2198987b5a5e
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 18d28ece-6fcf-49a6-9f4a-cc5d7f0159b9
+discoiquuid: 69c4789a-d003-4931-a9ec-7e2328bec119
+index: y
+internal: n
+snippet: y
 ---
 
 # Community Site Essentials{#community-site-essentials}

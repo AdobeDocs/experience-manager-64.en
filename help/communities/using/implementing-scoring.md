@@ -3,13 +3,16 @@ title: Communities Scoring and Badges
 seo-title: Communities Scoring and Badges
 description: AEM Communities scoring and badges lets you identify and reward community members
 seo-description: AEM Communities scoring and badges lets you identify and reward community members
-uuid: c6633ed2-18b5-4a10-a9f0-ea43c1c3a98f
+uuid: 4ea44f8e-4a1b-43ed-ab8f-91179cd355d6
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: e57bd747-aee5-41b5-ad8d-19db7420cb7b
+discoiquuid: ac9931d9-c74e-4091-a334-0ff4db06ad70
 tagskeywords: scoring, badging, badges, gamification
+index: y
+internal: n
+snippet: y
 ---
 
 # Communities Scoring and Badges{#communities-scoring-and-badges}

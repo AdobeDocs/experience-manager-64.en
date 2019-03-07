@@ -3,11 +3,14 @@ title: Acrobat Reader DC extensions ServiceJava API Quick Start(SOAP)
 seo-title: Acrobat Reader DC extensions ServiceJava API Quick Start(SOAP)
 description: null
 seo-description: null
-uuid: 5cc75143-3047-4f3f-b5d9-3fedf54ce468
+uuid: 4961282d-8130-466c-97fe-9aac59559a90
 contentOwner: admin
 content-type: reference
 topic-tags: develop
-discoiquuid: 6e3316a2-d459-4931-be55-004281f642f9
+discoiquuid: a7ff4ee9-1862-4656-a034-1c7bab8bb4d1
+index: y
+internal: n
+snippet: y
 ---
 
 # Acrobat Reader DC extensions ServiceJava API Quick Start(SOAP){#acrobat-reader-dc-extensions-servicejava-api-quick-start-soap}

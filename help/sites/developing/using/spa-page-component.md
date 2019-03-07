@@ -3,12 +3,15 @@ title: SPA Page Component
 seo-title: SPA Page Component
 description: In an SPA the page component doesn't provide the HTML elements of its child components, but instead delegates this to the SPA framework. This document explains how this makes the page component of an SPA unique.
 seo-description: In an SPA the page component doesn't provide the HTML elements of its child components, but instead delegates this to the SPA framework. This document explains how this makes the page component of an SPA unique.
-uuid: 8c043d98-784a-44d7-965a-cc22da8b59c5
+uuid: 42dd7311-fef1-4fb4-bf17-9c2178a3c53b
 contentOwner: bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: spa
 content-type: reference
-discoiquuid: ee19298e-090e-486c-ad5b-74a1f655dcf5
+discoiquuid: 125346ae-3e17-4526-b0fc-0e709ff74789
+index: y
+internal: n
+snippet: y
 ---
 
 # SPA Page Component{#spa-page-component}

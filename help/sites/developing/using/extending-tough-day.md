@@ -4,10 +4,13 @@ seo-title: Extending Tough Day
 description: null
 seo-description: null
 page-status-flag: de-activated
-uuid: 386f618f-42c1-46e8-9d30-056d75b49ddd
+uuid: 5fc5841b-7a68-4f14-95a2-6d7e628b7c26
 contentOwner: raiman
-discoiquuid: a1f84446-74ae-4295-87f1-5358b322ae9b
+discoiquuid: f9ed1b77-57a4-4814-9c8a-475cee69eb4b
 noindex: true
+index: y
+internal: n
+snippet: y
 ---
 
 # Extending Tough Day{#extending-tough-day}

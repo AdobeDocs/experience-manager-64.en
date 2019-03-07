@@ -4,9 +4,12 @@ seo-title: [DO NOT PUBLISH] Create your first adaptive form
 description: Learn to create business class, interactive, and responsive forms. 
 seo-description: Learn to create business class, interactive, and responsive forms. 
 page-status-flag: de-activated
-uuid: d6289321-45f0-46da-9e83-235a2b0a30b8
+uuid: de14698c-54c4-4f10-8c2e-120ee502bf12
 topic-tags: introduction
-discoiquuid: 64f410bd-0326-4480-b1a6-322ce865516a
+discoiquuid: 4bc50b88-3a2a-47b4-8ee4-584d8e8171d3
+index: y
+internal: n
+snippet: y
 ---
 
 # [DO NOT PUBLISH] Create your first adaptive form{#do-not-publish-create-your-first-adaptive-form}

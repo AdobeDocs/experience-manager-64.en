@@ -3,12 +3,15 @@ title: Specify file locations for Output
 seo-title: Specify file locations for Output 
 description: Learn how to specify file locations for Output.
 seo-description: Learn how to specify file locations for Output.
-uuid: 1ceef744-50bd-44f4-a888-d450b9c9dcd8
+uuid: 105a8464-1a90-4f4d-98ae-93714715660a
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_output
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: a0d173e0-3b21-4ac8-972f-e3009d97275f
+discoiquuid: 81d9bb85-e617-4a3f-8ba9-3dcc4a323fc8
+index: y
+internal: n
+snippet: y
 ---
 
 # Specify file locations for Output {#specify-file-locations-for-output}
@@ -33,9 +36,9 @@ The default value is `com/adobe/formServer/PA/pa_output.xci`.
 
 **Default Location:** This is the default selection. When this option is selected, the cache is created at a location that is dependent on the application server you are using:
 
-* **JBoss:** *[JBoss Home]*\server\*[install type]*\svcdata\Output\Cache
-* **WebLogic:** *[WebLogic Home]*\user_projects\domains\*[aem-forms domain Name]*\adobe\*[forms server name]*\Output\Cache
-* **WebSphere:** *[IBM Home]*\WebSphere\AppServer\installedApps\adobe\server1\Output\Cache
+* **JBoss: ***[JBoss Home]*\server\*[install type]*\svcdata\Output\Cache
+* **WebLogic: ***[WebLogic Home]*\user_projects\domains\*[aem-forms domain Name]*\adobe\*[forms server name]*\Output\Cache
+* **WebSphere: ***[IBM Home]*\WebSphere\AppServer\installedApps\adobe\server1\Output\Cache
 
 **LC Temp Directory:** The cache is created in a subdirectory of the AEM forms temp directory, which is specified in the administration console under Settings > Core System Settings > Configurations > Location of Temp Directory. The subdirectory is named adobeoutput_[servername].
 

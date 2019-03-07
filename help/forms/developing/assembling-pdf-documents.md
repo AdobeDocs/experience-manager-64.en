@@ -3,13 +3,16 @@ title: Assembling PDF Documents
 seo-title: Assembling PDF Documents
 description: null
 seo-description: null
-uuid: 0acae3f1-64e1-4de7-bdca-be18afcdb0d8
+uuid: 9fc26577-244b-4ceb-b97d-cf8218a4af14
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/performing_service_operations_using_apis
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: fbba346a-3345-4db3-b1af-f4fcdaf50740
+discoiquuid: d7f59b03-3447-4d71-b0cc-1968c6aaaa8c
+index: y
+internal: n
+snippet: y
 ---
 
 # Assembling PDF Documents{#assembling-pdf-documents}

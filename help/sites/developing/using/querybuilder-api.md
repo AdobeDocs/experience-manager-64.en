@@ -3,14 +3,17 @@ title: Query Builder API
 seo-title: Query Builder API
 description: The functionality of the Asset Share Query Builder is exposed through a Java API and a REST API.
 seo-description: The functionality of the Asset Share Query Builder is exposed through a Java API and a REST API.
-uuid: 20bb4a00-fcf2-4390-8923-f7b8ad162108
+uuid: 8dea4e7c-3d8c-4e79-bf31-51c6f38e3074
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
-discoiquuid: 7cbafba5-751e-4424-a748-64dcaa6a5f3d
+discoiquuid: 4223b6d7-9634-4fab-b499-be027a2d8abe
 pagetitle: Query Builder API
 tagskeywords: querybuilder
+index: y
+internal: n
+snippet: y
 ---
 
 # Query Builder API{#query-builder-api}

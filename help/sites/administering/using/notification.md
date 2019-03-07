@@ -3,12 +3,15 @@ title: Configuring Email Notification
 seo-title: Configuring Email Notification
 description: Learn how to configure Email Notification in AEM.
 seo-description: Learn how to configure Email Notification in AEM.
-uuid: 7cabba4a-ed9f-466f-8cd7-050eb53c2ff5
+uuid: f488d2a3-90bf-45b0-abb8-cd3918625033
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: 51eaf49e-6038-4703-81a3-25bcf31bda69
+discoiquuid: ee03a0c9-f190-47f7-8671-532a22565752
+index: y
+internal: n
+snippet: y
 ---
 
 # Configuring Email Notification{#configuring-email-notification}

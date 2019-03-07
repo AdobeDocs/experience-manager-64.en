@@ -3,12 +3,15 @@ title: Resolving file dependencies
 seo-title: Resolving file dependencies
 description: How to resolve 3D file dependencies such as texture map files when auto-resolving fails.
 seo-description: How to resolve 3D file dependencies such as texture map files when auto-resolving fails.
-uuid: f9c72142-28f3-4b5d-a542-fa61576e00db
+uuid: 85b14ac6-5f7f-4886-bc1d-973c8d726d4d
 contentOwner: User
 topic-tags: 3D
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-discoiquuid: ccfbe9ec-f8b5-48bc-9af0-82372df8eeb3
+discoiquuid: fdb2a195-3cee-48b1-b2d1-1ef458b3f512
+index: y
+internal: n
+snippet: y
 ---
 
 # Resolving file dependencies{#resolving-file-dependencies}

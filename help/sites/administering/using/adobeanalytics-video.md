@@ -3,12 +3,15 @@ title: Configuring Video Tracking for Adobe Analytics
 seo-title: Configuring Video Tracking for Adobe Analytics
 description: Learn about configuring video tracking for SiteCatalyst.
 seo-description: Learn about configuring video tracking for SiteCatalyst.
-uuid: 4106d5c6-1a1e-471a-8836-9c2a881e34b8
+uuid: c777dfa7-d409-461e-b802-86a1f6b065a1
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: dc973be8-7d46-41a2-94b9-3d1bcf3f91c0
+discoiquuid: fc9f91a2-b818-4e5b-8ae7-7b83fa0eb05e
+index: y
+internal: n
+snippet: y
 ---
 
 # Configuring Video Tracking for Adobe Analytics{#configuring-video-tracking-for-adobe-analytics}

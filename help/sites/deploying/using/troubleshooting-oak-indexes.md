@@ -3,12 +3,15 @@ title: Troubleshooting Oak Indexes
 seo-title: Troubleshooting Oak Indexes
 description: How to detect and fix slow re-indexing.
 seo-description: How to detect and fix slow re-indexing.
-uuid: 00552e8f-1e68-438c-8ec1-d12064f5c4f5
+uuid: acac1028-14ee-41df-ac37-7e1ed5343c8d
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
-discoiquuid: 9ab2e9a0-9f5e-4b46-ab0b-950b7cf246cf
+discoiquuid: 820959f7-2a3d-4125-8959-70b3409c5f49
+index: y
+internal: n
+snippet: y
 ---
 
 # Troubleshooting Oak Indexes{#troubleshooting-oak-indexes}

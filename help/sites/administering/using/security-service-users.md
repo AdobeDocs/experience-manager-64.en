@@ -3,12 +3,15 @@ title: Service Users in AEM
 seo-title: Service Users in AEM
 description: Learn about Service Users in AEM.
 seo-description: Learn about Service Users in AEM.
-uuid: 480ef30e-9179-4471-8a8e-9820b3922202
+uuid: 1d192757-7d67-4a63-b60f-0d8c2ce4ce45
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
-discoiquuid: a9ef6896-3260-4722-aa41-1f389e491d11
+discoiquuid: 2ca5b834-524d-4ea6-819e-303ba5d414c8
+index: y
+internal: n
+snippet: y
 ---
 
 # Service Users in AEM{#service-users-in-aem}

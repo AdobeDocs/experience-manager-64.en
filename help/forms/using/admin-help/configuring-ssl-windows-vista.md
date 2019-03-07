@@ -3,12 +3,15 @@ title: Configuring SSL on Windows Vista
 seo-title: Configuring SSL on Windows Vista
 description: Learn how to configure SSL on Windows Vista.
 seo-description: Learn how to configure SSL on Windows Vista.
-uuid: 1bc88a64-c6ce-4b2a-8c6c-e00bdbf0df39
+uuid: 13bdfd8f-7434-4ec4-9aa1-0260ab2f5dcb
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_ssl
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 30d6eba3-b757-40da-8828-80f4eb83fb72
+discoiquuid: 6e28dbc9-9725-4b13-95dc-6d3355ff56da
+index: y
+internal: n
+snippet: y
 ---
 
 # Configuring SSL on Windows Vista{#configuring-ssl-on-windows-vista}
@@ -25,7 +28,7 @@ You can run keytool by using a single command that includes all the information 
 
 1. In a command prompt, navigate to *[JAVA HOME]*/bin and type the following command to create the certificate and keystore:
 
-   `keytool -genkey -keyalg RSA -dname "CN=`*Host Name* `, OU=`*Group Name* `, O=`*Company Name* `,L=`*City Name* `, S=`*State* `, C=`*Country Code* `" -alias`*"LC Cert"* `-keypass` `*key*`*_**password* `-keystore`*keystorename* `.keystore`
+   `keytool -genkey -keyalg RSA -dname "CN=`*Host Name* `, OU=`*Group Name* `, O=`*Company Name* `,L=`*City******Name* `, S=`*State* `, C=`*Country Code* `" -alias`*"LC Cert"* `-keypass` `*key*`*_**password* `-keystore`*keystorename* `.keystore`
 
    >[!NOTE]
    >

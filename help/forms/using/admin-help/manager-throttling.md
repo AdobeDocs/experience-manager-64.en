@@ -3,12 +3,15 @@ title: Work Manager and throttling
 seo-title: Work Manager and throttling
 description: This document provides background information on Work Manager, and provides instructions on configuring Work Manager throttling options.
 seo-description: This document provides background information on Work Manager, and provides instructions on configuring Work Manager throttling options.
-uuid: 0f7985d0-68a2-4462-9f7c-e24c2a99ddc1
+uuid: bbd491fe-18d5-4486-923a-84afaa981b2c
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/maintaining_aem_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 19892d85-70b7-4206-be9f-a50040f3e105
+discoiquuid: 7606dcf4-dbb9-45db-92da-935b122aa21c
+index: y
+internal: n
+snippet: y
 ---
 
 # Work Manager and throttling{#work-manager-and-throttling}

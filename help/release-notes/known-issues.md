@@ -3,12 +3,15 @@ title: Known Issues
 seo-title: Known Issues
 description: Release notes specific to the Known Issues with Adobe Experience Manager 6.3.
 seo-description: Release notes specific to the Known Issues with Adobe Experience Manager 6.3.
-uuid: fac42753-858a-406c-af7b-a636a20584e6
+uuid: e4cbd329-220c-4b1b-8d85-2db619ef0d4d
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4
 topic-tags: release-notes
 content-type: reference
-discoiquuid: 67fb2d29-dc83-474c-b852-032dcd1be2b5
+discoiquuid: 0e93cc77-1384-4508-afe7-e3c9bf4e4c91
+index: y
+internal: n
+snippet: y
 ---
 
 # Known Issues{#known-issues}
@@ -44,27 +47,27 @@ If you are using Edge as browser:
 
 ## Platform {#platform}
 
-* **Operations Dashboard:** Progress bar is not shown when backup file is missing .zip extension. (GRANITE-10713)
+* **Operations Dashboard: **Progress bar is not shown when backup file is missing .zip extension. (GRANITE-10713)
 * **HTL:** Java Use object with trailing whitespace in the package declaration freezes the SightlyJavaCompilerService (GRANITE-20836)
 * **Apache Felix/Sling:** Config file still present in the repository even after configuration.delete() (GRANITE-20618)
 * **Cloud Settings:** Console gets broken after editing configuration container (GRANITE-20726)
-* **Security:** IMS integration fails with custom context path (GRANITE-20639)
+* **Security: **IMS integration fails with custom context path (GRANITE-20639)
 * **Security:** Improve default JAAS Ranking of SSO, External and Default LoginModules (GRANITE-20590
 * **Tooling - CRX DE Lite:** Ridge of properties view keeps moving up (GRANITE-12040)
 * **Tooling - CRX DE Lite:** Cannot save changes to "Long" Value Types unless you double-click on Property Name (GRANITE-12351)  
 
 * **Tooling - CRX DE Lite:** ctrl+F search on open text files goes stuck on RegExp search (GRANITE-5996)  
 
-* **Tooling - CRX DE Lite:** Node property not displayed after renaming the node (GRANITE-7160)
-* **UI:** Pulldown "more..." doesn't showing all elements when opened at a popover element on IE and Firefox (GRANITE-16326)
+* **Tooling - CRX DE Lite: **Node property not displayed after renaming the node (GRANITE-7160)
+* **UI: **Pulldown "more..." doesn't showing all elements when opened at a popover element on IE and Firefox (GRANITE-16326)
 * **UI:** Info tooltip gets hidden when using fixed columns layout with 2 side-by-side columns (GRANITE-16869)
 * **UI:** Unhandled error when impersonating as a user that does not exist (GRANITE-23228). Workaround by [implementing an error handler](../sites/developing/using/customizing-errorhandler-pages.md) to customize error message.  
 
-* **Omnisearch:** **Searches with backslash cause exception (GRANITE-11769)
-* **Omnisearch:** Open "View Settings" in list view cause search filter to change (GRANITE-16524)
+* ****Omnisearch: ****Searches with backslash cause exception (GRANITE-11769)
+* **Omnisearch: **Open "View Settings" in list view cause search filter to change (GRANITE-16524)
 * **Omnisearch:** Wrong list of columnn configs shown when doing Assets search from Sites (GRANITE-16527)  
 
-* **Omnisearch:** Left rail predicates are getting along with the Omnisearch server request (GRANITE-20524)
+* **Omnisearch: **Left rail predicates are getting along with the Omnisearch server request (GRANITE-20524)
 * **Omnisearch:** Omnisearch does not support context paths (GRANITE-16044)
 
 ## Assets {#assets}

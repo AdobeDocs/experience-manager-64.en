@@ -3,12 +3,15 @@ title: Upgrading Custom Search Forms
 seo-title: Upgrading Custom Search Forms
 description: This article details the adjustments that are required after an upgrade in order for the custom search forms to function.
 seo-description: This article details the adjustments that are required after an upgrade in order for the custom search forms to function.
-uuid: 03250ca0-0595-4bd6-9c47-d2c535fe5a67
+uuid: 05f27c3f-5bb4-4788-9552-c4270ac5cbc8
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: upgrading
 content-type: reference
-discoiquuid: a77a8f59-d0e4-4fa8-8751-e119154ce17d
+discoiquuid: ec4352c0-20df-4f74-9418-3f167d7c82d9
+index: y
+internal: n
+snippet: y
 ---
 
 # Upgrading Custom Search Forms{#upgrading-custom-search-forms}
@@ -149,7 +152,7 @@ In AEM 6.1, the standard fulltext predicate was part of the search form. In 6.2,
 
 The Page Status has been replaced by two Options Property Predicates, one for publish and one for LiveCopy status.
 
-**Actions:** 
+**Actions: **
 
 * Remove the `pagestatuspredicate` node
 * Copy node
@@ -415,7 +418,7 @@ Action: Adjust the resourceType property (add "/coral" like in the 6.2 location 
 | Resource type in 6.1 |dam/gui/components/admin/customsearch/searchpredicates/publishpredicate |
 | Resource type in 6.2 |dam/gui/coral/components/admin/customsearch/searchpredicates/publishpredicate |
 
-**Actions:** 
+**Actions: **
 
 * Adjust the `resourceType` property (add "**/coral**" like in the 6.2 location indicated above)
 
@@ -466,7 +469,7 @@ Action: Adjust the resourceType property (add "/coral" like in the 6.2 location 
 | Resource type in 6.1 |dam/gui/components/admin/customsearch/searchpredicates/tagsfilterpredicate |
 | Resource type in 6.2 |cq/gui/components/coral/common/admin/customsearch/searchpredicates/tagspredicate |
 
-**Actions:** 
+**Actions: **
 
 * Adjust the `resourceType` property (add "**/coral**" like in the 6.2 location indicated above)
 
@@ -483,7 +486,7 @@ Action: Adjust the resourceType property (add "/coral" like in the 6.2 location 
 | Resource type in 6.1 |dam/gui/components/admin/customsearch/searchpredicates/tagsfilterpredicate |
 | Resource type in 6.2 |cq/gui/components/coral/common/admin/customsearch/searchpredicates/tagspredicate |
 
-**Actions:** 
+**Actions: **
 
 * Adjust the `resourceType` property (add "**/coral**" like in the 6.2 location indicated above)
 

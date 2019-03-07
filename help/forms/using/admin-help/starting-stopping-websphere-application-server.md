@@ -3,12 +3,15 @@ title: Starting and stopping WebSphere Application Server
 seo-title: Starting and stopping WebSphere Application Server
 description: Several procedures require you to stop or start the instance of WebSphere where you want to deploy AEM forms products. This document describes how to start and stop the WebSphere Application Server.
 seo-description: Several procedures require you to stop or start the instance of WebSphere where you want to deploy AEM forms products. This document describes how to start and stop the WebSphere Application Server.
-uuid: 67210e70-493a-4ba6-9981-cb0d7d272c40
+uuid: 8adb0155-f5f6-402d-b389-702ffcf57808
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/maintaining_the_application_server
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: be2a9da2-925a-43b4-bceb-aaa591d7cfff
+discoiquuid: 587fc9b3-193e-4109-97a8-06b15c40ccff
+index: y
+internal: n
+snippet: y
 ---
 
 # Starting and stopping WebSphere Application Server{#starting-and-stopping-websphere-application-server}

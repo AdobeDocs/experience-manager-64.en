@@ -3,12 +3,15 @@ title: Prepopulating Forms with Flowable Layouts
 seo-title: Prepopulating Forms with Flowable Layouts
 description: null
 seo-description: null
-uuid: 95db1e98-475a-49ce-aa83-e4f286e64cef
+uuid: b9df2d2f-f675-4a62-9a73-e7edaa3d653e
 content-type: reference
 geptopics: SG_AEMFORMS/categories/rendering_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: b4abd901-4010-49b9-a5d2-24a114d3569f
+discoiquuid: 0d3211b7-f8b3-4039-acde-453f130255b7
+index: y
+internal: n
+snippet: y
 ---
 
 # Prepopulating Forms with Flowable Layouts{#prepopulating-forms-with-flowable-layouts}

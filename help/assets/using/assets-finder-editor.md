@@ -3,12 +3,15 @@ title: Creating and Configuring Asset Editor pages
 seo-title: Creating and Configuring Asset Share and Asset Editor pages
 description: Learn how to create custom Asset Editor pages and edit multiple assets simultaneously.
 seo-description: Learn how to create custom Asset Editor pages and edit multiple assets simultaneously.
-uuid: 6251b6ed-1242-4373-ad5f-a61f52fa9a49
+uuid: 5d0188e9-879e-468d-8043-c08fd27829a6
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: 60222edd-8206-4f76-acaf-f1f2de66be26
+discoiquuid: 92203c99-a889-4dae-b977-d401645020ad
+index: y
+internal: n
+snippet: y
 ---
 
 # Creating and Configuring Asset Editor pages{#creating-and-configuring-asset-editor-pages}
@@ -164,20 +167,22 @@ The query builder lets you enter search terms and create content for the Asset S
 To customize the query builder:
 
 1. In the Asset Share page that you want to customize, click **Edit** in the Query Builder. By default, the **General** tab opens.
-1. Select the number of results per page, the path of the asset editor (if you have a customized asset editor) and the Actions title.
+
+2. Select the number of results per page, the path of the asset editor (if you have a customized asset editor) and the Actions title.
 
 ![](assets/screen_shot_2012-04-23at15055pm.png)
 
-1. Click the **Paths** tab. Enter a path or multiple paths that the search will run. These paths are overwritten if the user uses the Paths predicate.
+3. Click the **Paths** tab. Enter a path or multiple paths that the search will run. These paths are overwritten if the user uses the Paths predicate.
 
 ![](assets/screen_shot_2012-04-23at15150pm.png)
 
-1. Enter another node type, if desired.
-1. In the **Query Builder URL** field, you can override or wrap the query builder and enter the new servlet URLs with the existing query builder component. In the **Feed URL** field, you can override the Feed URL as well.
+4. Enter another node type, if desired.
+
+5. In the **Query Builder URL** field, you can override or wrap the query builder and enter the new servlet URLs with the existing query builder component. In the **Feed URL** field, you can override the Feed URL as well.
 
 ![](assets/screen_shot_2012-04-23at15313pm.png)
 
-1. In the **Text** field, enter the text you want to appear for results and page numbers of results. Click **OK** when finished making changes.
+6. In the **Text** field, enter the text you want to appear for results and page numbers of results. Click **OK** when finished making changes.
 
 ![](assets/screen_shot_2012-04-23at15300pm.png)
 
@@ -226,7 +231,7 @@ To create an Asset Editor page:
 
 1. In the **Websites** tab, navigate to the place where you want to create an asset editor page and click **New**.
 
-1. Select **Geometrixx Asset Editor** and click **Create**. The new page is created and the page is listed in the **Websites** tab.
+1. Select **Geometrixx**** Asset Editor** and click **Create**. The new page is created and the page is listed in the **Websites** tab.
 
 ![](assets/screen_shot_2012-04-23at15858pm.png)
 
@@ -372,7 +377,7 @@ The Title component displays the title of the asset and a description.
 
 ![](assets/chlimage_1-396.png)
 
-By default, it is in read-only mode so users cannot edit it. To make it editable, double-click the component and clear the **Hide edit button** checkbox. In addition, enter a title for multiple assets.
+By default, it is in read-only mode so users cannot edit it. To make it editable, double-click the component and clear the **Hide**** edit button** checkbox. In addition, enter a title for multiple assets.
 
 ![](assets/screen_shot_2012-04-23at35100pm.png)
 

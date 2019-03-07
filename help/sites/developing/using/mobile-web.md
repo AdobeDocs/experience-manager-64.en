@@ -3,13 +3,16 @@ title: Mobile Web
 seo-title: Mobile Web
 description: AEM provides several tools that enable you to develop sites for mobile devices and to integrate your content into mobile applications
 seo-description: AEM provides several tools that enable you to develop sites for mobile devices and to integrate your content into mobile applications
-uuid: 0fa79423-af24-49ee-96f3-668c474383c9
+uuid: 3d389304-f1c8-4566-ac29-5d12393cfe1a
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: mobile-web
 content-type: reference
-discoiquuid: 23cafbda-de63-4cdc-96f9-d19bedccd437
+discoiquuid: 7dce5965-172e-4c0a-a6da-3d69b55401c0
 legacypath: /content/docs/en/aem/6-0/develop/mobile
+index: y
+internal: n
+snippet: y
 ---
 
 # Mobile Web{#mobile-web}

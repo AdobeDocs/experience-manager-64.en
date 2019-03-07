@@ -3,12 +3,15 @@ title: Clientlibs for Communities Components
 seo-title: Clientlibs for Communities Components
 description: Client-side libraries for Communities
 seo-description: Client-side libraries for Communities
-uuid: 1f06986f-b10a-4c4d-b123-fda21f2bf5c6
+uuid: 5fceb736-c29d-4063-a6f5-a0340ccec9d0
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: d1272fb6-bf72-44cd-804d-787f5296bd55
+discoiquuid: 5ccd4a6f-7707-48fc-a525-0f085ad93141
+index: y
+internal: n
+snippet: y
 ---
 
 # Clientlibs for Communities Components{#clientlibs-for-communities-components}

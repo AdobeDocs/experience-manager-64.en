@@ -3,12 +3,15 @@ title: Administering Workflows
 seo-title: Administering Workflows
 description: Learn how to administer workflows in AEM.
 seo-description: Learn how to administer workflows in AEM.
-uuid: d61b54aa-6837-4701-acd8-5b37978556e5
+uuid: 501495aa-60be-4135-9744-5773fdbcb6c6
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: 35f44287-0005-4311-8ec5-8caf5accf1f9
+discoiquuid: 2de42b28-4c42-42ec-9d93-6db33c0461a8
+index: y
+internal: n
+snippet: y
 ---
 
 # Administering Workflows{#administering-workflows}

@@ -3,10 +3,13 @@ title: Synchronizing Adaptive Forms with XFA Form Templates
 seo-title: Synchronizing Adaptive Forms with XFA Form Templates
 description: Synchronizing Adaptive forms with XFA/XDP files.
 seo-description: Synchronizing Adaptive forms with XFA/XDP files.
-uuid: 4983d174-5bbd-4cbb-ac8f-4fe33c187f14
+uuid: bd2b312f-89d3-4895-9012-60d5d0c7daeb
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
-discoiquuid: 0f27db1b-57c1-434d-b791-519f99ed3bb1
+discoiquuid: 69fd0513-26c4-4966-87dd-35c7128fb7cb
+index: y
+internal: n
+snippet: y
 ---
 
 # Synchronizing Adaptive Forms with XFA Form Templates{#synchronizing-adaptive-forms-with-xfa-form-templates}

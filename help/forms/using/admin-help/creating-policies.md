@@ -3,12 +3,15 @@ title: Creating and managing policies
 seo-title: Creating and managing policies
 description: A policy is a set of confidentiality settings and users who can access a document to which the policy is applied. You can create and manage various types of policies using AEM forms.
 seo-description: A policy is a set of confidentiality settings and users who can access a document to which the policy is applied. You can create and manage various types of policies using AEM forms.
-uuid: 1ab6854f-df40-4a24-93d3-223ef90926c8
+uuid: 0481ce1a-f07f-461b-b981-9c9cdc41736a
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_document_security
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: d9890f08-1ab1-402f-a514-78657aa2f4a6
+discoiquuid: e33ecca6-961a-4044-ae91-627d2c2b6952
+index: y
+internal: n
+snippet: y
 ---
 
 # Creating and managing policies{#creating-and-managing-policies}

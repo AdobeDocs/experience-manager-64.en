@@ -3,12 +3,15 @@ title: Troubleshooting Dynamic Media - Scene7 mode
 seo-title: Troubleshooting Dynamic Media - Scene7 mode
 description: Troubleshooting Dynamic Media in Scene7 runmode.
 seo-description: Troubleshooting Dynamic Media in Scene7 runmode.
-uuid: 3e5ce86b-9144-451f-adc2-4ce325fb344d
+uuid: 07e1b1a1-190e-4294-b924-573ccbb67b42
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: aef0d05b-06ae-4b86-961b-a9fa7926ced2
+discoiquuid: 087fd351-7b08-4892-b495-e9424977b185
+index: y
+internal: n
+snippet: y
 ---
 
 # Troubleshooting Dynamic Media - Scene7 mode{#troubleshooting-dynamic-media-scene-mode}
@@ -43,11 +46,11 @@ The following asset properties can be reviewed in CRXDE Lite to confirm the succ
 | `<object_node>/jcr:content/metadata/dam:scene7ID` |**a|364266** |General indicator that node is linked to Dynamic Media. |
 | `<object_node>/jcr:content/metadata/dam:scene7FileStatus` |**PublishComplete** or error text |Status of upload of asset to Dynamic Media. |
 | `<object_node>/jcr:content/metadata/dam:scene7File`  |**myCompany/myAssetID** |Must be populated in order to generate URLs to remote asset of Dynamic Media. |
-| `<object_node>/jcr:content/dam:lastSyncStatus` |**success** or **failed: `<error text>`** |Synchronization status of sets (spin sets, image sets, and so on), image presets, viewer presets, image map updates for an asset, or images that were edited. |
+| `<object_node>/jcr:content/dam:lastSyncStatus` |**success **or **failed: <error text>** |Synchronization status of sets (spin sets, image sets, and so on), image presets, viewer presets, image map updates for an asset, or images that were edited. |
 
 ### Synchronization Logging {#synchronization-logging}
 
-Synchronization errors and issues are logged in **error.log** (`AEM server directory**` /`crx-quickstart/logs/**`). Sufficient logging is available to determine the root cause of most issues, however you can increase the logging to DEBUG on the ***com.adobe.cq.dam.ips*** package through the Sling Console ([http://localhost:4502/system/console/slinglog](http://localhost:4502/system/console/slinglog)) to gather more information.
+Synchronization errors and issues are logged in **error.log** (AEM server directory** /crx-quickstart/logs/**). Sufficient logging is available to determine the root cause of most issues, however you can increase the logging to DEBUG on the ***com.adobe.cq.dam.ips ***package through the Sling Console ([http://localhost:4502/system/console/slinglog](http://localhost:4502/system/console/slinglog)) to gather more information.
 
 ### Move, Copy, Delete {#move-copy-delete}
 

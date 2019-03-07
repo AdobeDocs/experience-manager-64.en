@@ -3,12 +3,15 @@ title: Concepts
 seo-title: Concepts
 description: General Concepts of eCommerce with AEM.
 seo-description: General Concepts of eCommerce with AEM.
-uuid: 61717468-9e76-4fa9-8b55-4a68919f0fe5
+uuid: 121fd95a-bbd1-4ed5-806b-ccbf7071b77b
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: e-commerce
 content-type: reference
-discoiquuid: bde5fab7-3d3c-4db5-ae78-971c79f65ebe
+discoiquuid: 6eb961cb-214c-4b3f-98db-b60153a87fd5
+index: y
+internal: n
+snippet: y
 ---
 
 # Concepts{#concepts}

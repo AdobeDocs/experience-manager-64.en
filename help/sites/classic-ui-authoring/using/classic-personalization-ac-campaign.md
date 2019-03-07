@@ -3,12 +3,15 @@ title: Working with Adobe Campaign 6.1 and Adobe Campaign Standard
 seo-title: Working with Adobe Campaign 6.1 and Adobe Campaign Standard
 description: You can create email content in AEM and process it in Adobe Campaign emails.
 seo-description: You can create email content in AEM and process it in Adobe Campaign emails.
-uuid: 79f92d46-eef6-4455-9a28-15c4f6c8ce28
+uuid: 829a2773-198a-4122-9faf-6df3f5dbec17
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: c69b3d3b-e51e-4a64-a81f-eb7112f91f0f
+discoiquuid: 06ba0cbd-e1bc-497a-96b9-02952d0b1489
+index: y
+internal: n
+snippet: y
 ---
 
 # Working with Adobe Campaign 6.1 and Adobe Campaign Standard{#working-with-adobe-campaign-and-adobe-campaign-standard}

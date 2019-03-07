@@ -3,12 +3,15 @@ title: Develop Sandbox Application
 seo-title: Develop Sandbox Application
 description: Develop application using foundation scripts
 seo-description: Develop application using foundation scripts
-uuid: def41862-33de-46a7-9c60-14824f53bc5e
+uuid: 9da10229-671a-4733-bd97-caac5f6efc4f
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: ca601dab-e02d-4ef4-9d4b-c9273d0d5864
+discoiquuid: efc5c18f-a1f3-4558-bebe-aea690af6078
+index: y
+internal: n
+snippet: y
 ---
 
 # Develop Sandbox Application{#develop-sandbox-application}
@@ -31,9 +34,9 @@ Using CRXDE Lite:
 1. 
 1.
 
-    * Name:**  `sling:resourceSuperType`**
-    * Type:** `String`**
-    * Value:** `foundation/components/page`**
+    * Name: ** `sling:resourceSuperType`**
+    * Type: **`String`**
+    * Value: **`foundation/components/page`**
 
 1. Click the green** [+] Add**
 1. click **Save All**
@@ -91,7 +94,7 @@ Using CRXDE Lite:
     1. select the `playpage`node
     1. right click and select `Create > Create File...`
 
-        * Name:** body.jsp**
+        * Name: **body.jsp**
 
     1. click** Save All**
 

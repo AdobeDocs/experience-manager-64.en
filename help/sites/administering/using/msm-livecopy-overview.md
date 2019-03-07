@@ -3,12 +3,15 @@ title: Live Copy Overview Console
 seo-title: Live Copy Overview Console
 description: Learn about the basics of the Live Copy Overview Console.
 seo-description: Learn about the basics of the Live Copy Overview Console.
-uuid: 8d53bf26-725c-404a-ab2b-789daf10c5d8
+uuid: 2f3dc6f3-62b3-4cb9-bdf0-6dc1f6c12658
 contentOwner: Alison Heimoz
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features
 content-type: reference
-discoiquuid: ef42815c-648b-4373-82ac-2cda87c05396
+discoiquuid: 8af80ac6-a8a7-4021-a9ea-62784402a805
+index: y
+internal: n
+snippet: y
 ---
 
 # Live Copy Overview Console{#live-copy-overview-console}

@@ -3,12 +3,15 @@ title: Using cURL with AEM
 seo-title: Using cURL with AEM
 description: Learn how to use cURL with AEM.
 seo-description: Learn how to use cURL with AEM.
-uuid: e61cd1bb-ecdf-4c13-a6dc-d16e3e18e660
+uuid: 6dba406c-99ff-4e76-b873-51fb4e44d302
 contentOwner: Silviu Raiman
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: ae38d576-f874-4589-a4ae-61342e1e024a
+discoiquuid: 7ea346a6-1d0f-47d1-a93f-7c6523d91af9
+index: y
+internal: n
+snippet: y
 ---
 
 # Using cURL with AEM{#using-curl-with-aem}

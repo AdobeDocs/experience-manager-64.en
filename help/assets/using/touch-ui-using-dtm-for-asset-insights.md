@@ -3,12 +3,15 @@ title: Enabling Asset Insights through DTM
 seo-title: Enabling Asset Insights through DTM
 description: Learn how to use Adobe Dynamic Tag Management (DTM )to enable Asset Insights.
 seo-description: Learn how to use Adobe Dynamic Tag Management (DTM )to enable Asset Insights.
-uuid: 6dd4559b-c28f-4d52-ab20-311684e67fc2
+uuid: cb02ab7f-0ba0-41dd-a5a7-39150b3619e7
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference
-discoiquuid: c58d83d2-38cb-4bc6-a4fc-a150950edc1c
+discoiquuid: c9c09993-6c72-4ac6-babf-5fb9e0c027bf
+index: y
+internal: n
+snippet: y
 ---
 
 # Enabling Asset Insights through DTM{#enabling-asset-insights-through-dtm}
@@ -29,11 +32,11 @@ Perform these steps to enable Asset Insights through DTM:
 
     * Select the **Web Properties** tab, and then tap/click **Add Property**.
     
-    * Update the fields as appropriate, and tap/click **Create Property** (see [documentation](https://helpx.adobe.com/experience-manager/using/dtm.html)).
+    * Update the fields as appropriate, and tap/click **Create Property*** *(see [documentation](https://helpx.adobe.com/experience-manager/using/dtm.html)).
 
    ![](assets/chlimage_1-198.png)
 
-1. In the **Rules** tab, select **Page Load Rules** from the navigation pane and tap/click **Create New Rule**.
+1. In the **Rules** tab, select **Page Load Rules** from the navigation pane and tap/click **Create New Rule***.*
 
    ![](assets/chlimage_1-199.png)
 
@@ -56,7 +59,7 @@ Perform these steps to enable Asset Insights through DTM:
    >    
    >
 
-1. Either create or open an existing Adobe Analytics Tool. While creating the tool, you can set **Configuration Method** to **Automatic**.
+1. Either create or open an existing Adobe Analytics Tool. While creating the tool, you can set **Configuration Method** to **Automatic***.*
 
    ![](assets/chlimage_1-201.png)
 
@@ -66,7 +69,7 @@ Perform these steps to enable Asset Insights through DTM:
 
    ![](assets/chlimage_1-202.png)
 
-1. Expand **Customize Page Code**, and click or tap **Open Editor**.
+1. Expand **Customize Page Code**, and click or tap **Open Editor***.*
 
    ![](assets/chlimage_1-203.png)
 

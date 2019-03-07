@@ -3,12 +3,15 @@ title: Opting Into Aggregated Usage Statistics Collection
 seo-title: Opting Into Aggregated Usage Statistics Collection
 description: Learn how to opt into aggregated usage statistics.
 seo-description: Learn how to opt into aggregated usage statistics.
-uuid: e00ffce7-31c0-40be-a78f-01253d8c8068
+uuid: 24ac319d-4f61-409d-9416-f6ad4fd1867d
 contentOwner: raiman
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
-discoiquuid: a1f16d2b-8f61-46af-bad5-8fad4d9aa343
+discoiquuid: 60d391fb-5b86-415e-b0e9-fad58c0fa6ac
+index: y
+internal: n
+snippet: y
 ---
 
 # Opting Into Aggregated Usage Statistics Collection{#opting-into-aggregated-usage-statistics-collection}

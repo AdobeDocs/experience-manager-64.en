@@ -3,11 +3,14 @@ title: Sending a form submission acknowledgement via email
 seo-title: Sending a form submission acknowledgement via email
 description: AEM Forms allows you to configure the email submit action that sends an acknowledgement to a user on submitting the form.
 seo-description: AEM Forms allows you to configure the email submit action that sends an acknowledgement to a user on submitting the form.
-uuid: 8e83f596-40f3-4f85-a93a-cb8c8df4c541
+uuid: 0bec126d-3b36-491e-a605-88a4efef6d39
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: publish
-discoiquuid: 373adc62-8217-4fbc-a74e-9c0d63bdd1f7
+discoiquuid: 15c0a483-e31b-46df-b152-bfac554dd08e
+index: y
+internal: n
+snippet: y
 ---
 
 # Sending a form submission acknowledgement via email{#sending-a-form-submission-acknowledgement-via-email}

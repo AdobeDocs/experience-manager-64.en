@@ -3,11 +3,14 @@ title: Sample for integrating drafts & submissions component with database
 seo-title: Sample for integrating drafts & submissions component with database
 description: Reference implementation of customized data and metadata services to integrate drafts and submissions component with a database.
 seo-description: Reference implementation of customized data and metadata services to integrate drafts and submissions component with a database.
-uuid: c28e4ba3-0a55-4281-b2cc-01866a7e3e2c
+uuid: 35de534c-657b-405c-a2cf-7aae5510dca1
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: publish
-discoiquuid: ff64cf58-c12f-4840-9385-a6ca11aac47c
+discoiquuid: 9f5ef33b-63db-472d-a5e8-24685229694f
+index: y
+internal: n
+snippet: y
 ---
 
 # Sample for integrating drafts & submissions component with database{#sample-for-integrating-drafts-submissions-component-with-database}
@@ -74,7 +77,7 @@ Perform the following steps, on all the author and publish instances, to install
 
     * In the Web Console Configuration, find and click Forms Portal Data Service Sample Implementation. You can change the values of data source and data table name.
 
-   ***Note:** If you change the table names, provide them in the Form Portal configuration.*
+   ***Note: **If you change the table names, provide them in the Form Portal configuration.*
 
 1. Leave other configurations as is and click **Save**.  
 

@@ -3,11 +3,14 @@ title: Searching for forms and assets
 seo-title: Searching for forms and assets
 description: You can search forms and assets in your AEM instance using AEM search. Basic and advanced search allows you to quickly locate your assets.
 seo-description: You can search forms and assets in your AEM instance using AEM search. Basic and advanced search allows you to quickly locate your assets.
-uuid: cab8b9cb-0328-40b8-b3fb-161e7d252889
+uuid: 61dbae5b-c119-4433-b615-e16f1ef1d777
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-manager
-discoiquuid: 343e274d-a126-45a6-8940-87e1b0081edd
+discoiquuid: 4d26f36e-aae5-4b47-8551-4735e7c8201a
+index: y
+internal: n
+snippet: y
 ---
 
 # Searching for forms and assets{#searching-for-forms-and-assets}

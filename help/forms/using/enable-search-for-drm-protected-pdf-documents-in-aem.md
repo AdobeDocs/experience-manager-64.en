@@ -3,12 +3,15 @@ title: Enable AEM to search document security protected PDF documents
 seo-title: Enable AEM to search document security protected PDF documents
 description: Learn how to enable native AEM search to perform full-text search on DRM protected PDF documents.  
 seo-description: Learn how to enable native AEM search to perform full-text search on DRM protected PDF documents.  
-uuid: cc251275-a888-406c-abab-2a2556a92cb9
+uuid: a10ac76a-f31a-4f7a-88c1-80cec13e5758
 contentOwner: khsingh
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 geptopics: SG_AEMFORMS/categories/working_with_document_security
-discoiquuid: 8516956e-8013-4e0e-9507-8baa4d3e7ca8
+discoiquuid: 35122840-05cc-40a4-8d26-c00f1ca2c3e6
+index: y
+internal: n
+snippet: y
 ---
 
 # Enable AEM to search document security protected PDF documents{#enable-aem-to-search-document-security-protected-pdf-documents}
@@ -51,9 +54,9 @@ You can use one of the following methods to establish the secure connection:
 1. Open AEM Web Console. The URL is http://[server]:[port]/system/console/configMgr.
 1. Locate and open the **Adobe LiveCycle Client SDK Bundle**. Specify value for the following fields:
 
-    * **Server URL:** Specify HTTP URL of AEM Forms on JEE server. To enable communication over https, restart the server with the -Djavax.net.ssl.trustStore=&lt;path of AEM Forms on JEE keystore file&gt; parameter.
+    * **Server URL: **Specify HTTP URL of AEM Forms on JEE server. To enable communication over https, restart the server with the -Djavax.net.ssl.trustStore=&lt;path of AEM Forms on JEE keystore file&gt; parameter.
     * **Service Name**: Add the RightsManagementService to the list of specified services.
-    * **Username:** Specify user name of the AEM Forms on JEE account to use to initiate calls from AEM server. The account specified must have permissions to start document services on the AEM Forms on JEE server.
+    * **Username: **Specify user name of the AEM Forms on JEE account to use to initiate calls from AEM server. The account specified must have permissions to start document services on the AEM Forms on JEE server.
     * **Password**: Specify password of the AEM Forms on JEE account mentioned in the Username field.
 
    Click **Save**. AEM is enabled to search document security protected PDF documents.

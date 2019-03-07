@@ -3,10 +3,13 @@ title: Print channel and web channel
 seo-title: Print channel and web channel
 description: Importing print channel templates and creating and enabling web channel templates
 seo-description: Importing print channel templates and creating and enabling web channel templates
-uuid: fa07f841-71e2-4803-b361-038f1971b3a1
+uuid: 2c4d3089-cfca-4785-9f8e-707202a9199b
 topic-tags: interactive-communications
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 871e5657-218a-4afd-8e76-a5f57a9ded97
+discoiquuid: a3aa596b-4980-481f-8fa8-f736b2933554
+index: y
+internal: n
+snippet: y
 ---
 
 # Print channel and web channel{#print-channel-and-web-channel}
@@ -47,7 +50,7 @@ To author a web channel template Complete the following steps:
 
     1. Tap **[!UICONTROL Tools]** ![](assets/tools-1.png) > **[!UICONTROL Configuration Browser]**. **[!UICONTROL]**
     1. In the Configuration Browser page, tap **[!UICONTROL Create]**. 
-    1. In the Create Configuration dialog, specify a title for the folder, check **[!UICONTROL Editable Templates]**, and tap **[!UICONTROL Create]**.
+    1. In the Create Configuration dialog, specify a title for the folder, check **[!UICONTROL Editable Templates]**, and tap ****[!UICONTROL Create]****.
 
        The Folder is created and listed in the Configuration Browser page.
 

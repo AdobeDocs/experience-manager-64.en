@@ -3,9 +3,12 @@ title: AEM Mobile - GDPR Readiness
 seo-title: AEM Mobile - GDPR Readiness
 description: null
 seo-description: null
-uuid: 491963e7-383f-4867-906e-72f37288dd1e
+uuid: f822ad01-7bf7-46e1-bb1e-90bd8055dbdd
 contentOwner: trushton
-discoiquuid: 2548ade2-ce28-48a5-8f23-46b8cf6d6044
+discoiquuid: bc87a5d9-7ed1-49a1-b27b-12f3e82f31fe
+index: y
+internal: n
+snippet: y
 ---
 
 # AEM Mobile - GDPR Readiness{#aem-mobile-gdpr-readiness}

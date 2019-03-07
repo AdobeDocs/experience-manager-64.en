@@ -3,13 +3,16 @@ title: Configuring node stores and data stores in AEM 6
 seo-title: Configuring node stores and data stores in AEM 6
 description: Learn how to configure node stores and data stores and how to perform data store garbage collection.
 seo-description: Learn how to configure node stores and data stores and how to perform data store garbage collection.
-uuid: 841d9845-76a6-46b2-9dca-5d2a023220c8
+uuid: 79edcc5f-5ad2-46ce-8df3-ef623048914c
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
-discoiquuid: e0181c23-5c2b-4101-b2dc-bd43e62b8239
+discoiquuid: bcc2cf3f-adc1-4a26-a143-61e80bdadb7b
 legacypath: /deploy/platform/data-store-config
+index: y
+internal: n
+snippet: y
 ---
 
 # Configuring node stores and data stores in AEM 6{#configuring-node-stores-and-data-stores-in-aem}
@@ -206,7 +209,7 @@ If you need to upgrade to a new version of the 1.8.x S3 connector (for example, 
 You can use the configuration file with the following options:
 
 * accessKey: The AWS access key.
-* secretKey: The AWS secret access key. **Note:** Alternatively, [IAM roles](https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/java-dg-roles.html) can be used for authentication. If you are using IAM roles you no longer need to specify the `accessKey` and `secretKey`.
+* secretKey: The AWS secret access key. **Note: **Alternatively, [IAM roles](https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/java-dg-roles.html) can be used for authentication. If you are using IAM roles you no longer need to specify the `accessKey` and `secretKey`.
 
 * s3Bucket: The bucket name.
 * s3Region: The bucket region.

@@ -3,12 +3,15 @@ title: Assets Workflow Offloader
 seo-title: Assets Workflow Offloader
 description: Learn about the Assets Workflow Offloader.
 seo-description: Learn about the Assets Workflow Offloader.
-uuid: dbe85da1-47b8-48ed-a4a6-9e84e62ce427
+uuid: 9a069e17-b462-4c9d-acc0-e8f4d1121023
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: content
 content-type: reference
-discoiquuid: ec497445-ce1f-411d-81da-d677d47ade5b
+discoiquuid: fe1e7cf3-0906-4c58-aa6f-d977329c96b3
+index: y
+internal: n
+snippet: y
 ---
 
 # Assets Workflow Offloader{#assets-workflow-offloader}

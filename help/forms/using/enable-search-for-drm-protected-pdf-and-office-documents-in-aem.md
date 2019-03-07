@@ -3,12 +3,15 @@ title: Enable AEM to search document security protected PDF and Microsoft Office
 seo-title: Enable AEM to search document security protected PDF and Microsoft Office documents
 description: Learn how to enable native AEM search to perform full-text search on DRM protected PDF documents.  
 seo-description: Learn how to enable native AEM search to perform full-text search on DRM protected PDF documents.  
-uuid: 8f454254-e071-4d68-ac58-f1db9291f885
+uuid: a54cce25-1958-4736-8a70-3a947468cd62
 content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_document_security
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 58f2d105-e9ef-41fc-959f-c0a0ef8c2ae2
+discoiquuid: 89f8bdf4-5945-42f8-af8c-2a619cd5404a
 noindex: true
+index: y
+internal: n
+snippet: y
 ---
 
 # Enable AEM to search document security protected PDF and Microsoft Office documents{#enable-aem-to-search-document-security-protected-pdf-and-microsoft-office-documents}
@@ -35,10 +38,10 @@ A secure connection enables  seamless  flow of information between AEM Forms on 
 1. Open AEM configuration manager and login as an administrator. The default URL is http://&lt;serverName&gt;:&lt;port&gt;/lc/system/console/configMgr.
 1. Search and open the AEM Forms Client SDK Bundle. Specify value for the following properties:
 
-    * **Server URL:** Specify HTTP URL of AEM Forms on JEE server. To enable communication over https, restart the AEM Forms on JEE server with the -Djavax.net.ssl.trustStore=&lt;path of AEM Forms on JEE  keystore  file&gt; parameter.
+    * **Server URL: **Specify HTTP URL of AEM Forms on JEE server. To enable communication over https, restart the AEM Forms on JEE server with the -Djavax.net.ssl.trustStore=&lt;path of AEM Forms on JEE  keystore  file&gt; parameter.
     
     * **Service Name**: Add the RightsManagementService to the list of specified services.
-    * **Username:** Specify username of the AEM Forms on JEE account to use to initiate calls from AEM Forms on JEE server. The account specified must have permissions to invoke Document services on the AEM Forms on JEE server.
+    * **Username: **Specify username of the AEM Forms on JEE account to use to initiate calls from AEM Forms on JEE server. The account specified must have permissions to invoke Document services on the AEM Forms on JEE server.
     * **Password**: Specify password of the AEM Forms on JEE account mentioned in the Username field.
 
    Click **Save**. AEM is enabled to search document security protected PDF and Microsoft Office documents.
@@ -49,7 +52,7 @@ A secure connection enables  seamless  flow of information between AEM Forms on 
 1. Open AEM configuration manager and login as an administrator. The default URL is http://&lt;serverName&gt;:&lt;port&gt;/lc/system/console/configMgr.
 1. Search and open the AEM Forms Client SDK Bundle. Specify value for the following properties:
 
-    * **Server URL:** Specify HTTPS URL of AEM Forms on JEE server. To enable communication over https, restart the AEM Forms on JEE server with the -Djavax.net.ssl.trustStore=&lt;path of AEM Forms on JEE  keystore  file&gt; parameter.
+    * **Server URL: **Specify HTTPS URL of AEM Forms on JEE server. To enable communication over https, restart the AEM Forms on JEE server with the -Djavax.net.ssl.trustStore=&lt;path of AEM Forms on JEE  keystore  file&gt; parameter.
     
     * **Enable 2-way SSL**: Enable the Enable 2-way SSL option.
     * **KeyStore File URL**: Specify the URL of the  keystore  file.

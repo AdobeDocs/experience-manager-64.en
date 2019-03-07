@@ -3,12 +3,15 @@ title: Using Rulesets to Transform URLs
 seo-title: Using Rulesets to Transform URLs
 description: You can deploy rule sets in Dynamic Media to transform URLs. Rule sets are sets of instructions written in a scripting language (such as JavaScript) that evaluate XML data and take certain actions if that data meets certain conditions. 
 seo-description: You can deploy rule sets in Dynamic Media to transform URLs. Rule sets are sets of instructions written in a scripting language (such as JavaScript) that evaluate XML data and take certain actions if that data meets certain conditions. 
-uuid: fb74741a-0ce8-4c2d-b4cd-ec845a9ce8c6
+uuid: d398d11d-f912-42a4-8f5f-4e325c4a41ea
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: 20e1e8f5-dd9e-4621-b498-e160a87547e9
+discoiquuid: ff04ea7c-8677-4bf8-98db-b63a1c55d904
+index: y
+internal: n
+snippet: y
 ---
 
 # Using Rulesets to Transform URLs{#using-rulesets-to-transform-urls}

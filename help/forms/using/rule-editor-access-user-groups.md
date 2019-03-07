@@ -3,12 +3,15 @@ title: Grant rule editor access to select user groups
 seo-title: Grant rule editor access to select user groups
 description: Grant restricted access to rule editor to select user groups.
 seo-description: Grant restricted access to rule editor to select user groups.
-uuid: e5d9c1a2-a44d-488f-8627-7de18c90054b
+uuid: dc19db99-1c13-4ff6-b4a2-cf61d947e1a1
 content-type: reference
 topic-tags: adaptive_forms
 topic-tags: develop
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 9b914eb0-7885-4b51-8f5e-b4b902e6f6ed
+discoiquuid: 60fa205f-8283-419a-a022-074470bf9c2e
+index: y
+internal: n
+snippet: y
 ---
 
 # Grant rule editor access to select user groups{#grant-rule-editor-access-to-select-user-groups}

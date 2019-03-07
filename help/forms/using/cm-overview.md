@@ -3,11 +3,14 @@ title: Correspondence Management Overview
 seo-title: Correspondence Management
 description: This topic gives you an overview of Correspondence Management.
 seo-description: This topic gives you an overview of Correspondence Management.
-uuid: 5833e0c9-94e1-48b0-8807-ceb9587a4123
+uuid: 3df190c6-cf0c-43c5-bbe4-9f5d5a866115
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
-discoiquuid: 201f4fbf-b673-4926-8c75-524a6ebbb5b0
+discoiquuid: 34567117-f2e7-4763-a593-2081fccc0bdb
+index: y
+internal: n
+snippet: y
 ---
 
 # Correspondence Management Overview{#correspondence-management-overview}

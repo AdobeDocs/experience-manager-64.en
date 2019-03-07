@@ -3,9 +3,12 @@ title: Installing Feature Pack 18912
 seo-title: Installing Feature Pack 18912
 description: Feature Pack 18912 lets you bulk ingest assets by way of FTP, or migrate assets from Dynamic Media Classic (Scene7), or both. This optional feature pack is available from Adobe support.
 seo-description: Feature Pack 18912 lets you bulk ingest assets by way of FTP, or migrate assets from Dynamic Media Classic (Scene7), or both. This optional feature pack is available from Adobe support.
-uuid: 2272513c-96d4-497b-9a50-ddfae773f5bb
+uuid: b9be43c9-f6ae-4d9b-90e1-9f698ff80e88
 contentOwner: rbrough
-discoiquuid: d0f51449-68e6-49b6-9cbb-193b181aed87
+discoiquuid: 327587b3-4e56-4cca-909e-3878092021ea
+index: y
+internal: n
+snippet: y
 ---
 
 # Installing Feature Pack 18912{#installing-feature-pack}

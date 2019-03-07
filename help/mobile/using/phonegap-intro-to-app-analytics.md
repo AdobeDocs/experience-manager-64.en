@@ -3,12 +3,15 @@ title: Track App Performance with Adobe Mobile Analytics
 seo-title: Track App Performance with Adobe Mobile Analytics
 description: With Adobe Mobile Services you can gain insight on how your users are using your mobile apps by tracking usage, app crashes, device details and so many other critical metrics for your mobile apps. Follow this page to learn more.
 seo-description: With Adobe Mobile Services you can gain insight on how your users are using your mobile apps by tracking usage, app crashes, device details and so many other critical metrics for your mobile apps. Follow this page to learn more.
-uuid: f64fd576-65c5-48b5-bacf-475319d14eea
+uuid: f7122e18-d668-4136-88d3-385b6c6e392e
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: developing-adobe-phonegap-enterprise
-discoiquuid: 2150f023-69b6-4a20-8745-475c1d29509d
+discoiquuid: 54d1e061-9f11-4091-b600-14d0540fbd2d
+index: y
+internal: n
+snippet: y
 ---
 
 # Track App Performance with Adobe Mobile Analytics{#track-app-performance-with-adobe-mobile-analytics}

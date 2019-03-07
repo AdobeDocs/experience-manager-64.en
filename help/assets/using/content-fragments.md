@@ -3,12 +3,15 @@ title: Working with Content Fragments
 seo-title: Working with Content Fragments
 description: Learn how Content Fragments allow you to design, create, curate and use page-independent content.
 seo-description: Learn how Content Fragments allow you to design, create, curate and use page-independent content.
-uuid: 9de80587-d843-4710-bc07-d55ae2941f41
+uuid: 10f44bdb-72a4-47a4-93a6-859b4a26ca1a
 contentOwner: Alison Heimoz
 topic-tags: content-fragments
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
-discoiquuid: 950d425d-16a7-4eb3-b3df-074bf178a96c
+discoiquuid: 18a5aa12-829b-43ca-a837-765503e456ee
+index: y
+internal: n
+snippet: y
 ---
 
 # Working with Content Fragments{#working-with-content-fragments}

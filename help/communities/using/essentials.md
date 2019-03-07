@@ -3,12 +3,15 @@ title: Component, Function and Feature Essentials
 seo-title: Component, Function and Feature Essentials
 description: How community sites, templates, and groups function
 seo-description: How community sites, templates, and groups function
-uuid: 60e6bc12-597c-45b3-9f75-f3107e5c5588
+uuid: e741b239-a144-48d0-86b9-26fc990b07ce
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 1b244559-7a15-4d78-95fa-a3744adb75e6
+discoiquuid: 2229b2b4-0936-4f2a-bba3-a269ff94f11a
+index: y
+internal: n
+snippet: y
 ---
 
 # Component, Function and Feature Essentials{#component-function-and-feature-essentials}

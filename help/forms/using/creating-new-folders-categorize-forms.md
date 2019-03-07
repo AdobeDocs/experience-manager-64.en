@@ -3,11 +3,14 @@ title: Create new folders to categorize forms
 seo-title: Create new folders to categorize forms
 description: Use folders to organize your form templates, PDFs, resources, and adaptive forms.
 seo-description: Use folders to organize your form templates, PDFs, resources, and adaptive forms.
-uuid: 169faed1-68f2-4969-a2fc-c8a132d048f9
+uuid: 205cc215-7292-4c53-bb38-557a515dfee8
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-manager
-discoiquuid: 0f5f4cf5-eb36-41c6-a4e6-e47bf9189ba1
+discoiquuid: f0a1b661-65e8-45b9-bdda-88f13fd1c5b0
+index: y
+internal: n
+snippet: y
 ---
 
 # Create new folders to categorize forms{#create-new-folders-to-categorize-forms}
@@ -39,7 +42,7 @@ You can create a folder in AEM Forms in one of the following ways:
    >
    >By default, the value of name field is automatically populated from the title. The name can only contain alphanumeric characters, or the hyphen (-) and underscore (_) special characters. Any other special characters entered in the title are automatically replaced with a hyphen and you are prompted to confirm the new name. You can choose to continue with suggested name or edit it further.
 
-1. Click **[!UICONTROL Submit]**.
+1. Click **[!UICONTROL Submit]****.**
 
    A new folder with the title you defined is displayed at the current location in the asset listing.
 
@@ -52,5 +55,5 @@ You can create a folder in AEM Forms in one of the following ways:
 
 1. Enter the new title. The text field is prepopulated with the current value of folder title. You can change it to a new value.  
 
-1. Click **[!UICONTROL Submit]**.
+1. Click **[!UICONTROL Submit]****.**
 

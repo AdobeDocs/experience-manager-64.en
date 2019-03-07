@@ -3,12 +3,15 @@ title: Publishing and unpublishing forms and documents
 seo-title: Publishing and unpublishing forms and documents
 description: You can schedule publishing and unpublishing of forms. Published forms are replicated on the publish instance.
 seo-description: You can schedule publishing and unpublishing of forms. Published forms are replicated on the publish instance.
-uuid: ca5171c3-8ab7-4e37-8998-15e0c41413d9
+uuid: 3a8102b9-9442-44d5-989d-fd35561437d9
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: publish
 content-strategy: max-2018
-discoiquuid: d84bd73a-1f32-4e03-93b6-2d0cbc87ca74
+discoiquuid: a3ba66b7-b6bc-46ea-b1c6-df930727534f
+index: y
+internal: n
+snippet: y
 ---
 
 # Publishing and unpublishing forms and documents{#publishing-and-unpublishing-forms-and-documents}
@@ -53,7 +56,7 @@ Your Adaptive Forms may utilize some configutaions, settings, and customizations
 
 An asset can have the following states:
 
-* **Unpublished:** An asset that has never been published (The unpublished state is applicable only to Forms assets. Correspondence Management assets do not have an Unpublished state.) 
+* **Unpublished: **An asset that has never been published (The unpublished state is applicable only to Forms assets. Correspondence Management assets do not have an Unpublished state.) 
 * **Published**: An asset that has been published and is available on the Publish instance
 * **Modified**: An asset that is modified after being published
 
@@ -65,7 +68,7 @@ An asset can have the following states:
     1. Move the pointer over an asset and tap **[!UICONTROL Publish]** ![](assets/aem6forms_globe.pngasset.png).
     1. Do one of following and then tap Publish:
 
-        * If you are in the card view, tap **[!UICONTROL Enter Selection]** ![](assets/aem6forms_check-circle.png), and tap the asset. The asset is selected.
+        * If you are in the card view, tap ****[!UICONTROL Enter Selection]** ** ![](assets/aem6forms_check-circle.png), and tap the asset. The asset is selected.
         
         * If you are in the list view, select the checkbox of an asset. The asset is selected.  
         * Tap an asset to display its details.
@@ -137,7 +140,7 @@ Follow these steps to schedule the date and time of publishing and unpublishing 
     1. Move the pointer over an asset and tap **[!UICONTROL Unpublish]** ![](assets/unpublish.png).
     1. Do one of following and then tap unpublish:
 
-        * If you are in the card view, tap **[!UICONTROL Enter Selection]** ![](assets/aem6forms_check-circle.png), and tap the asset. The asset is selected.
+        * If you are in the card view, tap ****[!UICONTROL Enter Selection]** ** ![](assets/aem6forms_check-circle.png), and tap the asset. The asset is selected.
         
         * If you are in the list view, hover over an asset and tap ![](assets/selectassetcheckmark.png) . The asset is selected.  
         

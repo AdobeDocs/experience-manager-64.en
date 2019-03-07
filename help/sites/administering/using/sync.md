@@ -3,12 +3,15 @@ title: User Synchronization
 seo-title: User Synchronization
 description: Learn about user synchronization in AEM.
 seo-description: Learn about user synchronization in AEM.
-uuid: 42a0d5d0-410e-4f01-847e-9bfed4cf4abd
+uuid: de66f95b-1762-438f-acbb-6bfb88aa7de7
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
-discoiquuid: 553b84c3-8b8c-46d9-a74d-9eb73b9ef343
+discoiquuid: edbe9479-bdc8-437f-9f25-25efaefda7d1
+index: y
+internal: n
+snippet: y
 ---
 
 # User Synchronization{#user-synchronization}
@@ -86,7 +89,7 @@ Once user sync is enabled, only newly created users and groups are syncrhonized.
     * locate `Apache Sling Distribution Agent - Sync Agents Factory`
 
         * select the existing configuration to open for edit (pencil icon)  
-          Verify `name` :** `socialpubsync`**
+          Verify `name` : **`socialpubsync`**
         
         * select the `Enabled` checkbox
         * select `Save`
@@ -169,7 +172,7 @@ Once an authorized user, a member of the **`administrators`**user group, has bee
 
     * locate `Adobe Granite Distribution - Encrypted Password Transport Secret Provider`
     * select the existing configuration to open for edit (pencil icon)  
-      Verify `property name` :** `socialpubsync-publishUser`**
+      Verify `property name` : **`socialpubsync-publishUser`**
     
     * set the username and password to the [authorized user](#createauthorizeduser) created on publish in step 2
 

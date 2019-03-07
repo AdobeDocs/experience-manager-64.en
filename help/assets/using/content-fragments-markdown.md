@@ -3,12 +3,15 @@ title: Markdown
 seo-title: Markdown
 description: When you are authoring, the content fragment editor uses markdown syntax to allow you to easily write content.
 seo-description: When you are authoring, the content fragment editor uses markdown syntax to allow you to easily write content.
-uuid: 5d34c6a2-c48b-4cd3-81dc-9d04fbed5fae
+uuid: 0562c82a-b69e-4bea-9efa-f2b6f46ba8f6
 contentOwner: Alison Heimoz
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: content-fragments
 content-type: reference
-discoiquuid: 72ce49d0-581b-4d1b-99e4-dcbd1695530c
+discoiquuid: e7271dcc-a877-4484-bc55-3921630eb0a9
+index: y
+internal: n
+snippet: y
 ---
 
 # Markdown{#markdown}

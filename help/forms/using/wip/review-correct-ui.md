@@ -4,9 +4,12 @@ seo-title: Review and Correct Converted Adaptive Forms
 description: Review and correct the adaptive forms converted by the Automated Forms Conversion service.
 seo-description: Review and correct the adaptive forms converted by the Automated Forms Conversion service
 page-status-flag: never-activated
-uuid: b4c8bf44-5bb0-4890-a932-2f8f8179f94e
+uuid: 801dd9db-11d8-4354-9069-c04aac0d56ea
 contentOwner: vishabgu
-discoiquuid: 3a18031e-38f6-4362-b888-d3c51d34efd0
+discoiquuid: f27b7cdd-31c3-49ce-98f1-775cd72986ef
+index: y
+internal: n
+snippet: y
 ---
 
 # Review and Correct Converted Adaptive Forms{#review-and-correct-converted-adaptive-forms}
@@ -32,10 +35,10 @@ Once the adaptive form is generated, you can review the conversion quality and m
 
 **Advantages of Review and Correct UI**
 
-* Easy to use interface.
-* Review and correct the conversion results from same UI.
-* Filter the conversions based on components.
-* Call the Automated Forms Conversion service for reconversion and view the modified results at runtime.
+* Easy to use interface.****
+* Review and correct the conversion results from same UI.****
+* Filter the conversions based on components.****
+* Call the Automated Forms Conversion service for reconversion and view the modified results at runtime.****
 * Open form in adaptive form editor for more corrections, if necessary.
 
 ## Supported components and field types {#supported-components-and-field-types}
@@ -64,7 +67,7 @@ Automated Forms Conversion service supports the following components and field t
 1. Log in to the AEM Forms instance.
 1. Tap **Adobe Experience Manager** &gt; **Navigation **&gt; **Forms** &gt; **Forms & Documents**.
 1. Tap the folder which contains the converted form.
-1. Select the PDF form and tap **[!UICONTROL Review Conversions]**. The Review and Correct UI opens in a new tab.
+1. Select the PDF form and tap ****[!UICONTROL Review Conversions]****. The Review and Correct UI opens in a new tab.
 
 ![](assets/img1.png)
 
@@ -91,7 +94,7 @@ You can see from the illustration that the section **Date of birth** is a **date
 
 **To add a new component:**
 
-1. Tap **[!UICONTROL Add]** dropdown > **[!UICONTROL Field]**.
+1. Tap ****[!UICONTROL Add]****dropdown > ****[!UICONTROL Field]****.
 
    ![](assets/img3.png)
 
@@ -99,11 +102,11 @@ You can see from the illustration that the section **Date of birth** is a **date
 
    To draw the overlay, tap and drag the pointer over the component and again tap the pointer to define the end point of the overlay.
 
-1. The Automated Forms Conversion service reflects the extraction results of the overlay in the **[!UICONTROL Properties]** view. You can verify the accuracy of the extraction and can modify the properties of the field in the **Properties** view (if necessary). The properties differ for different components.
+1. The Automated Forms Conversion service reflects the extraction results of the overlay in the ****[!UICONTROL Properties]**** view. You can verify the accuracy of the extraction and can modify the properties of the field in the **Properties** view (if necessary). The properties differ for different components.
 
    ![](assets/img4.png)
 
-   In this example, the **[!UICONTROL **Title**]** content is extracted correctly but the field type is identified incorrectly as **Text** that requires to be changed to **Date** type.
+   In this example, the **[!UICONTROL **Title**]**content is extracted correctly but the field type is identified incorrectly as **Text** that requires to be changed to **Date **type.
 
    **To modify the properties:**
 
@@ -135,7 +138,7 @@ You can see from the illustration that the section **Gender** is a multiple-choi
 
 **To transform a component and its relative content and properties:**
 
-1. Tap **[!UICONTROL Change]** to **dropdown > **[!UICONTROL Choice Group]**.
+1. Tap ****[!UICONTROL Change]**to **dropdown > ****[!UICONTROL Choice Group]****.
 
    ![](assets/img7.png)
 
@@ -147,7 +150,7 @@ You can see from the illustration that the section **Gender** is a multiple-choi
 
    **To modify the properties:**
 
-   In **[!UICONTROL **Properties**]**view, modify the **[!UICONTROL **Title**]** and add **[!UICONTROL Options]** for the **Gender** component.
+   In **[!UICONTROL **Properties**]**view, modify the **[!UICONTROL **Title**]**and add ****[!UICONTROL Options]**** for the **Gender** component.
 
    ![](assets/img8.png)
 
@@ -179,7 +182,7 @@ To merge the relative component within the panel, you must ungroup the panel and
 
 **To ungroup and group the relative component:**
 
-1. Select the panel and tap **[!UICONTROL Ungroup]** button. The panel definition, child components relationship, and the panel properties are deleted.
+1. Select the panel and tap ****[!UICONTROL Ungroup]****button. The panel definition, child components relationship, and the panel properties are deleted.
 
    ![](assets/img13.png)
 
@@ -199,7 +202,7 @@ To merge the relative component within the panel, you must ungroup the panel and
 
 Once you have completed the review and modified the conversion results, you can call the Automated Forms Conversion service to begin reconversion from the Review and Correct UI.
 
-To send the updated PDF for reconversion, tap **[!UICONTROL Save & Convert]** from the dropdown as shown in the following illustration. The folder status changes to **Sent for conversion**.
+To send the updated PDF for reconversion, tap ****[!UICONTROL Save & Convert]**** from the dropdown as shown in the following illustration. The folder status changes to **Sent for conversion**.
 
 ![](assets/img11.png)
 

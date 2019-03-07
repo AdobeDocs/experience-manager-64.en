@@ -3,11 +3,14 @@ title: Device Control Center
 seo-title: Device Control Center
 description: null
 seo-description: null
-uuid: ef740b00-b135-483d-944b-7dd0f458a790
+uuid: a2dbaf62-68e7-4771-b3a6-b2d609d8e40a
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SITES
-discoiquuid: c22412df-1a6c-43de-95c2-e7f1f1a73f7e
+discoiquuid: 73658460-79fb-4977-8c2f-65833b2e065b
+index: y
+internal: n
+snippet: y
 ---
 
 # Device Control Center{#device-control-center}

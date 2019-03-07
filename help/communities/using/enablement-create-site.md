@@ -3,12 +3,15 @@ title: Author a New Community Site for Enablement
 seo-title: Author a New Community Site for Enablement
 description: Create a community site for enablement
 seo-description: Create a community site for enablement
-uuid: ad36fab9-99c2-4a0b-bc34-ec861ce8fda8
+uuid: aea9f9b9-37c0-4286-997d-be8b26ad7cb7
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: introduction
 content-type: reference
-discoiquuid: 2de2b87a-96e7-43f7-9b0b-288fad146925
+discoiquuid: 556bc498-ee29-40a3-b3a2-36faecb9ac00
+index: y
+internal: n
+snippet: y
 ---
 
 # Author a New Community Site for Enablement{#author-a-new-community-site-for-enablement}

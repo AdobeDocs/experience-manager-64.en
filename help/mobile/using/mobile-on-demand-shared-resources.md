@@ -3,12 +3,15 @@ title: Uploading Shared Resources
 seo-title: Uploading Shared Resources
 description: Content Management actions are the building blocks that help to create and manage content within an application. Follow this page to learn about uploading shared resources.
 seo-description: Content Management actions are the building blocks that help to create and manage content within an application. Follow this page to learn about uploading shared resources.
-uuid: 5a5544fb-5e79-4a65-ad00-71d42da85f83
+uuid: 992987b6-48fd-472b-934d-5e5af64b210c
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: authoring-on-demand-services-app
-discoiquuid: 52dd063f-5215-457c-9ae6-c4d284064c06
+discoiquuid: 608d281c-b6a3-4579-9be0-1716cedd06a0
+index: y
+internal: n
+snippet: y
 ---
 
 # Uploading Shared Resources{#uploading-shared-resources}

@@ -3,12 +3,15 @@ title: Working with 3D assets
 seo-title: Working with 3D assets
 description: Learn how to work with 3D assets in AEM 3D
 seo-description: Learn how to work with 3D assets in AEM 3D
-uuid: 6886dea9-9360-43b2-9593-6845497e94fa
+uuid: 465b8f51-2c1e-45e8-ae30-c1bea4a100d9
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: introduction
 content-type: reference
-discoiquuid: 80a4a3ef-82f6-4e08-963f-fea94f290edd
+discoiquuid: fcf96bc7-4b06-4e13-ac5b-eb7b5025fa64
+index: y
+internal: n
+snippet: y
 ---
 
 # Working with 3D assets{#working-with-d-assets}
@@ -34,6 +37,8 @@ When you create 3D models for use in AEM 3D, be aware of the following:
   See [About the uploading and processing of 3D assets in AEM](../../assets/using/upload-processing-3d-assets.md).
 
 * The general scene lighting is provided by the stage. As such, Adobe does not recommend that you include lights with 3D model files. You can include lights in the model. However, they must be specific to the model only. For example, it may be necessary to include additional lighting to brighten a part of the object that is obscured by other parts. Therefore, it would not be sufficiently visible with just the stage lights.  
+  *** 
+  ***
 
 ## Supported files in AEM 3D {#supported-files-in-aem-d}
 

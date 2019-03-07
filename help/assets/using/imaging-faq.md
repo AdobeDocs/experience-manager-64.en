@@ -3,12 +3,15 @@ title: Smart Imaging
 seo-title: Smart Imaging
 description: Smart imaging leverages each user's unique viewing characteristics to automatically serve the right images optimized for their experience, resulting in better performance and engagement.
 seo-description: Smart imaging leverages each user's unique viewing characteristics to automatically serve the right images optimized for their experience, resulting in better performance and engagement.
-uuid: 94a21e87-d860-4599-9384-a52bd2b1b163
+uuid: 2d6f40ea-b56b-4383-9dc2-c5a361f97175
 contentOwner: rbrough
 topic-tags: dynamic-media
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-discoiquuid: 14ffa381-0b64-4c5b-a342-2660db5859ec
+discoiquuid: dea64b1e-2a71-4a05-9017-19a312fd3ddc
+index: y
+internal: n
+snippet: y
 ---
 
 # Smart Imaging{#smart-imaging}

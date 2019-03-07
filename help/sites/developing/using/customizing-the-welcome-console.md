@@ -3,12 +3,15 @@ title: Customizing the Welcome Console (Classic UI)
 seo-title: Customizing the Welcome Console (Classic UI)
 description: The Welcome console provides a list of links to the various consoles and functionality within AEM
 seo-description: The Welcome console provides a list of links to the various consoles and functionality within AEM
-uuid: c147638b-f7a9-401c-a36c-4ff83d479dc1
+uuid: c8876025-359a-4d71-8752-a748da58ae54
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
-discoiquuid: 43d646b9-f40b-4df9-88e6-fc6b0255b55a
+discoiquuid: 53456c51-59f0-480b-a269-389992a1711a
+index: y
+internal: n
+snippet: y
 ---
 
 # Customizing the Welcome Console (Classic UI){#customizing-the-welcome-console-classic-ui}

@@ -3,12 +3,15 @@ title: Managing Assets
 seo-title: Managing Assets
 description: Learn how to work with dynamic media assets
 seo-description: Learn how to work with dynamic media assets
-uuid: 3f8fcbe3-a2be-40b9-b5ee-cc8d308d2d89
+uuid: ec9649fb-c08e-4ff0-b6a7-9882527fd6e3
 contentOwner: Alva Ware-Bevacqui
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: 11e11392-c863-4cc3-9656-5d1fb39dab9e
+discoiquuid: 100a2b89-bd67-4440-8e86-ca0ac1c10b3d
+index: y
+internal: n
+snippet: y
 ---
 
 # Managing Assets{#managing-assets}

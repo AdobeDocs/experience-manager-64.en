@@ -3,12 +3,15 @@ title: Testing Mobile Apps
 seo-title: Testing Mobile Apps
 description: null
 seo-description: null
-uuid: 8559e1df-3c1b-4067-a786-4c2e03801bd9
+uuid: 423d17be-3e93-4992-9426-5b908ca0e9cc
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: developing
 content-type: reference
-discoiquuid: 09b56358-94b1-4d1a-ae87-cb52a2e573c4
+discoiquuid: 96b3fa56-ed76-4554-93bd-82feea4d0a00
+index: y
+internal: n
+snippet: y
 ---
 
 # Testing Mobile Apps{#testing-mobile-apps}

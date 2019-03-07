@@ -3,10 +3,13 @@ title: Adaptive Form Expressions
 seo-title: Adaptive Form Expressions
 description: Use adaptive forms expressions to add automatic validation, calculation, and turn visibility of a section on or off. 
 seo-description: Use adaptive forms expressions to add automatic validation, calculation, and turn visibility of a section on or off. 
-uuid: eef158b5-2cc7-448f-8754-e48315cd4d96
+uuid: 6be36164-9ab1-4978-89eb-22d73e2333e2
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
-discoiquuid: c818705c-3319-41ef-bf23-1aa42a95d2db
+discoiquuid: 46d4ffdc-3f5f-403e-ad6a-c977eced3086
+index: y
+internal: n
+snippet: y
 ---
 
 # Adaptive Form Expressions{#adaptive-form-expressions}
@@ -154,7 +157,7 @@ The Value Commit script is triggered when:
 
 **Return Type:** The value commit script expression does not return any value. If any expression returns a value, the value is ignored.
 
-**Example:** To convert the case of alphabets entered in the field to uppercase on commit, the value commit expression is:  
+**Example: **To convert the case of alphabets entered in the field to uppercase on commit, the value commit expression is:  
 `this.value=this.value.toUpperCase()`
 
 >[!NOTE]

@@ -3,12 +3,15 @@ title: Configuring Segmentation
 seo-title: Configuring Segmentation
 description: Learn how to configure segmentation for AEM Campaign.
 seo-description: Learn how to configure segmentation for AEM Campaign.
-uuid: 2fd15562-5e76-4ad3-9d30-4a0fa18079a4
+uuid: ca57f86f-1f0a-4c6f-8d7c-1e947067ff87
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: ddf5b069-cd7d-4b11-860b-df6a359427e4
+discoiquuid: 7c7abedb-8241-4df4-aa49-caa864b2a1ec
+index: y
+internal: n
+snippet: y
 ---
 
 # Configuring Segmentation{#configuring-segmentation}

@@ -3,12 +3,15 @@ title: Managing Collections
 seo-title: Managing Collections
 description: Understand the concept of collection in AEM Assets. Learn how to collections, manage, edit, and collections with other users.
 seo-description: Understand the concept of collection in AEM Assets and learn how you can share collections with other users.
-uuid: ddb62f47-2374-4059-88b2-7c179f00f135
+uuid: eac2d91a-84d0-4ad8-9bfc-a8fbab53399b
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
 topic-tags: authoring
-discoiquuid: bf4a1a08-a029-4191-a4c2-2acde762069b
+discoiquuid: 377701cd-e8f8-477a-a546-e170114f7abd
+index: y
+internal: n
+snippet: y
 ---
 
 # Managing Collections{#managing-collections}
@@ -214,7 +217,7 @@ Within a collection, AEM Asset search is restricted to assets (and their tags an
 You can edit collection settings, such as title and description, or to add members to a collection.
 
 1. Select a collection, and tap/click the **Settings** icon in the toolbar. Alternatively, use the **Settings** quick action from the collection thumbnail.
-1. Modify the collection settings in the **Collection Settings** page. For example, modify the collection title, descriptions, members, and permissions as discussed in [Adding Collections](#main-pars-title).   
+1. Modify the collection settings in the **Collection Settings** page. For example, modify the collection title, descriptions, members, and permissions as discussed in [Adding Collections](#creating-a-collection).   
 
 1. Tap/click **Save** to save the changes.
 

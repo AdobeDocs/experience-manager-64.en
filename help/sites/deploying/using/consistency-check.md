@@ -3,11 +3,14 @@ title: Consistency and Traversal Checks
 seo-title: Consistency and Traversal Checks
 description: Learn how to perform consistency and traversal checks.
 seo-description: Learn how to perform consistency and traversal checks.
-uuid: d30d4880-dbc6-49f4-94d6-1068eec818f3
+uuid: bba57b2e-4eeb-48b8-8fa9-53063c30f2d4
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
-discoiquuid: 8429a83e-5893-480f-b5c6-4e5b5d616cde
+discoiquuid: fb2b10d0-e6be-43e4-8592-2563cc333990
+index: y
+internal: n
+snippet: y
 ---
 
 # Consistency and Traversal Checks{#consistency-and-traversal-checks}
@@ -30,9 +33,9 @@ To perform a consistency check, navigate to the administration page for the JMX 
 
 **Tools &gt; Web Console &gt; Main(on menu bar) &gt; JMX &gt; com.adobe.granite (Repository)**
 
-On a default installation, it is found here:**  [|Show Me|](http://localhost:4502/system/console/jmx/com.adobe.granite%3Atype%3DRepository)**
+On a default installation, it is found here: ** [|Show Me|](http://localhost:4502/system/console/jmx/com.adobe.granite%3Atype%3DRepository)**
 
-In the **Operations** section of the page you will find two methods:** `traversalCheck`** and **`consistencyCheck`**. To execute a check, click on the operation and enter the desired parameters.
+In the **Operations** section of the page you will find two methods: **`traversalCheck`** and **`consistencyCheck`**. To execute a check, click on the operation and enter the desired parameters.
 
 ![](assets/chlimage_1-120.png)
 

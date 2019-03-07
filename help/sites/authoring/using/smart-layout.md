@@ -4,9 +4,12 @@ seo-title: Use Smart Layout to create page variations tailored to the typical au
 description: Use Smart Layout to create page variations tailored to the typical audiences visiting the page.
 seo-description: Use Smart Layout to create page variations tailored to the typical audiences visiting the page.
 page-status-flag: never-activated
-uuid: a73c1cc4-b194-4a42-a7a6-52380eed3ec0
+uuid: a1a59902-e3c5-4ad3-8116-98ebfe7ff426
 contentOwner: aheimoz
-discoiquuid: 0c398e98-8ba6-476e-9f36-d5cbd9c27ab3
+discoiquuid: 42c46e71-b73f-4cf3-acf2-e43c0bd31129
+index: y
+internal: n
+snippet: y
 ---
 
 # DO NOT PUBLISH Smart Layout{#do-not-publish-smart-layout}

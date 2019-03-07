@@ -3,12 +3,15 @@ title: User Administration and Security
 seo-title: User Administration and Security
 description: Learn about User Administration and Security in AEM.
 seo-description: Learn about User Administration and Security in AEM.
-uuid: 8aeb33ea-286e-4f78-b5be-b62ab2f2a705
+uuid: 118b689b-4bea-4cc2-a070-0d26c2fba8a2
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
-discoiquuid: 6745117f-4020-4a94-a1cb-ef7d193d5e76
+discoiquuid: a2f7c69e-06bc-4ea4-85a0-a1f7e9b5bfae
+index: y
+internal: n
+snippet: y
 ---
 
 # User Administration and Security{#user-administration-and-security}

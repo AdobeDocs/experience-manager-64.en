@@ -3,12 +3,15 @@ title: Working with Formsets in AEM Forms workspace
 seo-title: Working with Formsets in AEM Forms workspace
 description: A formset is a collection of HTML5 forms grouped and presented as a single set of forms to end users. Learn how you can work with formsets in AEM Forms workspace.
 seo-description: A formset is a collection of HTML5 forms grouped and presented as a single set of forms to end users. Learn how you can work with formsets in AEM Forms workspace.
-uuid: 8d9707ba-6d5d-4c58-884a-57af03015d5d
+uuid: fd8f4992-4623-42a6-bff6-61c2b4c4cc47
 contentOwner: vishgupt
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
-discoiquuid: 8cd2a93a-3797-46f2-9b47-c9dc570394f3
+discoiquuid: 2fd224be-03bf-4155-97be-91d63e87bbf4
+index: y
+internal: n
+snippet: y
 ---
 
 # Working with Formsets in AEM Forms workspace{#working-with-formsets-in-aem-forms-workspace}

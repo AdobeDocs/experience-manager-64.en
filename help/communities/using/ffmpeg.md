@@ -3,12 +3,15 @@ title: FFmpeg for Communities
 seo-title: FFmpeg for Communities
 description: How to install and configure FFmpeg for Communities
 seo-description: How to install and configure FFmpeg for Communities
-uuid: 8c7bf8bb-9449-4796-9a0a-293871308eb4
+uuid: cfc2b234-ae37-4456-98ec-4d384e34f4a3
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 16d1fe38-5e9e-4487-8e96-6abb2e0af5bf
+discoiquuid: 8a474707-6e5d-4b74-a857-34f21edae7b5
+index: y
+internal: n
+snippet: y
 ---
 
 # FFmpeg for Communities{#ffmpeg-for-communities}
@@ -46,7 +49,7 @@ As the transcodings are CPU intensive, it is recommended to modify the list of t
 To modify the DAM Update Asset workflow, and in this example, to turn off transcoding :
 
 * sign into the author instance with administrative privileges
-* from global navigation :** Tools, Workflow, Models**
+* from global navigation : **Tools, Workflow, Models**
 * locate **DAM Update Asset**
 * double-click to open the workflow for edit in the Classic UI  
   resulting location : [http://localhost:4502/cf#/etc/workflow/models/dam/update_asset.html](http://localhost:4502/cf#/etc/workflow/models/dam/update_asset.html)

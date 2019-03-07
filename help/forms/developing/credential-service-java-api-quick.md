@@ -3,12 +3,15 @@ title: Credential Service Java API QuickStart(SOAP)
 seo-title: Credential Service Java API QuickStart(SOAP)
 description: null
 seo-description: null
-uuid: ed0e00c2-a49a-473a-a65d-4ff65567d323
+uuid: ded0b8c7-eca2-4e34-8b66-d5c987357e09
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
-discoiquuid: d40de516-74b9-490c-a480-e8edd28ad444
+discoiquuid: 62e3745a-7289-45a2-823e-6f23691ab7bd
+index: y
+internal: n
+snippet: y
 ---
 
 # Credential Service Java API QuickStart(SOAP){#credential-service-java-api-quickstart-soap}

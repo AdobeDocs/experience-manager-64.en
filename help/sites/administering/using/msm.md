@@ -3,12 +3,15 @@ title: "Reusing Content: Multi Site Manager and Live Copy"
 seo-title: "Reusing Content: Multi Site Manager and Live Copy"
 description: Learn about reusing content with Live Copies and the Multi Site Manager.
 seo-description: Learn about reusing content with Live Copies and the Multi Site Manager.
-uuid: a1735bc9-9a00-4d04-bb14-81dfbe5171e0
+uuid: ad28817c-087f-4021-8fa1-dc7a047c88d5
 contentOwner: Alison Heimoz
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features
 content-type: reference
-discoiquuid: db13139d-98c9-41f3-846d-4f4082a20e09
+discoiquuid: 3d3c5efd-88b8-4b5d-822d-bcb258abf8ff
+index: y
+internal: n
+snippet: y
 ---
 
 # Reusing Content: Multi Site Manager and Live Copy{#reusing-content-multi-site-manager-and-live-copy}

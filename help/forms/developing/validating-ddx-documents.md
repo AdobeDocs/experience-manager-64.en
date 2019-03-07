@@ -3,13 +3,16 @@ title: Validating DDX Documents
 seo-title: Validating DDX Documents
 description: null
 seo-description: null
-uuid: abdf403d-4baf-4bb0-abc6-d720e9c9679d
+uuid: 490c75df-c01b-4fac-9329-6b691d02df0f
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/assembling_pdf_documents
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: 14aad3ea-2150-4419-9018-73c629c113d5
+discoiquuid: 399401a0-a0a5-4016-91ce-c8098ff7789d
+index: y
+internal: n
+snippet: y
 ---
 
 # Validating DDX Documents{#validating-ddx-documents}

@@ -3,12 +3,15 @@ title: Configuring validation messages
 seo-title: Configuring validation messages
 description: Learn how to specify how validation messages are displayed and their location relative to the form returned in the web browser.
 seo-description: Learn how to specify how validation messages are displayed and their location relative to the form returned in the web browser.
-uuid: 4c3f00b2-c6a1-4c49-adea-48e10f8b187b
+uuid: 1d13b0ed-d524-402e-bda6-6aed7e7ad0f8
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 0e263169-7063-4824-997f-bf2c4e140f74
+discoiquuid: 3add0894-d101-4b54-94d6-6d1c3018b955
+index: y
+internal: n
+snippet: y
 ---
 
 # Configuring validation messages{#configuring-validation-messages}

@@ -3,12 +3,15 @@ title: Target offers
 seo-title: Target offers
 description: How to create a Target Offer Experience
 seo-description: How to create a Target Offer Experience
-uuid: 247bed80-1d33-4216-999b-7ff4c9a86215
+uuid: 53c7091b-91cd-4fd6-83e0-655ac519a814
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: personalization
-discoiquuid: 0b43f8e3-5fd6-4e92-bd6c-89885126d18b
+discoiquuid: 08a5c920-8703-45b8-8f82-0cfb049ab5d5
+index: y
+internal: n
+snippet: y
 ---
 
 # Target offers{#target-offers}

@@ -3,12 +3,15 @@ title: Supporting Author and Publish in AEM Screens
 seo-title: Supporting Author and Publish in AEM Screens
 description: AEM Screens architecture resembles a traditional AEM Sites architecture. Content is authored on an AEM author instance and then forward-replicated to multiple publish instances. Follow this page to learn more.
 seo-description: AEM Screens architecture resembles a traditional AEM Sites architecture. Content is authored on an AEM author instance and then forward-replicated to multiple publish instances. Follow this page to learn more.
-uuid: 8119ca2e-91cf-4d05-9a53-687421fe7681
+uuid: 0f79d832-0956-4293-8357-96a38545fa3d
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: authoring
-discoiquuid: 51b36dde-c900-48fe-8b9a-7611d0728cfa
+discoiquuid: 2f34c1e6-9bd9-4a5f-83da-51653646bffc
+index: y
+internal: n
+snippet: y
 ---
 
 # Supporting Author and Publish in AEM Screens{#supporting-author-and-publish-in-aem-screens}

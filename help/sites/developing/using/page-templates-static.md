@@ -3,12 +3,15 @@ title: Page Templates - Static
 seo-title: Page Templates - Static
 description: A Template is used to create a Page and defines which components can be used within the selected scope
 seo-description: A Template is used to create a Page and defines which components can be used within the selected scope
-uuid: 64655110-d871-4798-a3fe-777fff08f83e
+uuid: d4d48fee-8a67-4b1e-94fc-2eadc3ad54a9
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
-discoiquuid: 0e3e0dd1-1e97-4767-b040-17fae8310d46
+discoiquuid: e4353211-158b-4a91-8aa4-55f86f4a6b49
+index: y
+internal: n
+snippet: y
 ---
 
 # Page Templates - Static{#page-templates-static}
@@ -160,7 +163,7 @@ To see a list of all templates in the repository, proceed as follows:
 
 In most cases, you will take an existing template and develop a new one for your own use. See [Developing Page Templates](#developingpagetemplates) for more information.
 
-To enable an existing template for your website and you want it to be displayed in the **Create Page** dialog when creating a page right under **Websites** from the **Websites** console, set the allowedPaths property of the template node to:** /content(/.&#42;)?**
+To enable an existing template for your website and you want it to be displayed in the **Create Page** dialog when creating a page right under **Websites** from the **Websites** console, set the allowedPaths property of the template node to: **/content(/.&#42;)?**
 
 ## How Template Designs are Applied {#how-template-designs-are-applied}
 

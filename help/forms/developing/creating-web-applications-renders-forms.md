@@ -3,13 +3,16 @@ title: Creating Web Applications thatRenders Forms
 seo-title: Creating Web Applications thatRenders Forms
 description: null
 seo-description: null
-uuid: 49618e2a-d2cf-420a-a53b-4202b99f462e
+uuid: 7b925578-372e-405c-8b66-50b1b2cd87cf
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/rendering_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: 275ead4e-e333-4826-8f7f-758ae9203536
+discoiquuid: 4e0a4342-e67e-4f43-a148-ac21a5456d33
+index: y
+internal: n
+snippet: y
 ---
 
 # Creating Web Applications thatRenders Forms{#creating-web-applications-thatrenders-forms}
@@ -90,7 +93,7 @@ For the location of these JAR files, see [Including AEM Forms Java library files
 
 **To create a web project:**
 
-1. Start Eclipse and click **File** &gt; **New Project**.
+1. Start Eclipse and click **File **&gt; **New****Project**.
 1. In the **New Project** dialog box, select **Web **&gt;** Dynamic Web Project**.
 1. Type `FragmentsWebApplication` for the name of your project and then click **Finish**.
 
@@ -104,13 +107,13 @@ For the location of these JAR files, see [Including AEM Forms Java library files
 
 1. From the Project Explorer window, right-click the `FragmentsWebApplication` project and select **New **&gt; **Other**. 
 1. Expand the **Web** folder, select **Servlet**, and then click **Next**. 
-1. In the Create Servlet dialog box, type **`RenderFormFragment`** for the name of the servlet and then click **Finish**.
+1. In the Create Servlet dialog box, type `RenderFormFragment`****for the name of the servlet and then click **Finish**.
 
 **To add an HTML page to your project:**
 
 1. From the Project Explorer window, right-click the `FragmentsWebApplication` project and select **New** &gt; **Other**. 
 1. Expand the **Web** folder, select **HTML**, and click **Next**. 
-1. In the **New HTML** dialog box, type `index.html` for the file name and then click **Finish**.
+1. In the New HTML****dialog box, type `index.html` for the file name and then click **Finish**.
 
 >[!NOTE]
 >

@@ -3,12 +3,15 @@ title: AEM Foundation & Repository
 seo-title: AEM Foundation & Repository
 description: Release notes specific to Adobe Experience Manager 6.3 AEM Platform and Repository.
 seo-description: Release notes specific to Adobe Experience Manager 6.3 AEM Platform and Repository.
-uuid: 9a7d273a-9822-4128-bee8-28f4bd60500a
+uuid: 25e18b34-fff2-4f3a-b526-415ab91db16f
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4
 topic-tags: release-notes
 content-type: reference
-discoiquuid: f2d7bce1-8bfb-426d-b5f7-e6f0724da5f6
+discoiquuid: a1323018-e752-4003-9ef1-092fe402559f
+index: y
+internal: n
+snippet: y
 ---
 
 # AEM Foundation & Repository{#aem-foundation-repository}

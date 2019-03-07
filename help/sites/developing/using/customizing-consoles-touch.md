@@ -3,12 +3,15 @@ title: Customizing the Consoles
 seo-title: Customizing the Consoles
 description: AEM provides various mechanisms to enable you to customize the consoles of your authoring instance
 seo-description: AEM provides various mechanisms to enable you to customize the consoles of your authoring instance
-uuid: 9f48cffe-81d9-48d0-9b07-811808ef179c
+uuid: 95c5cb56-c9e8-46a6-a363-e47c3831431d
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
-discoiquuid: 011267ec-b17b-4a6a-9495-beb9f590b87f
+discoiquuid: a0bca2c1-f96c-4031-b901-fa10f8e4b441
+index: y
+internal: n
+snippet: y
 ---
 
 # Customizing the Consoles{#customizing-the-consoles}

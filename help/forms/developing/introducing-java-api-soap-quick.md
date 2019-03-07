@@ -3,13 +3,16 @@ title: Introducing Java API QuickStart
 seo-title: Introducing Java API QuickStart
 description: null
 seo-description: null
-uuid: 5abd993a-5eb7-47d4-a151-80a2ada417a7
+uuid: 58e3877e-52c8-48b9-83d6-84456e340b8a
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 topic-tags: development-tools
-discoiquuid: c703e3d5-9935-4772-8600-62af87cf67ec
+discoiquuid: 17a47b96-a398-4f95-88e9-bcab24d7fe06
+index: y
+internal: n
+snippet: y
 ---
 
 # Introducing Java API QuickStart{#introducing-java-api-quickstart}

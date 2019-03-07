@@ -3,12 +3,15 @@ title: eCommerce
 seo-title: eCommerce
 description: AEM eCommerce helps marketers deliver branded, personalized shopping experiences across web, mobile, and social touchpoints. 
 seo-description: AEM eCommerce helps marketers deliver branded, personalized shopping experiences across web, mobile, and social touchpoints. 
-uuid: 2401b826-017d-411f-bc1d-a72de351ae73
+uuid: d37de797-c450-438c-8e1a-fa9bd3bd0213
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: e-commerce
 content-type: reference
-discoiquuid: 34db766f-743f-40c3-8573-95039d5ad492
+discoiquuid: b9c7e8f8-48c9-4ed3-bd20-1e8502bb36e0
+index: y
+internal: n
+snippet: y
 ---
 
 # eCommerce{#ecommerce}

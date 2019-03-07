@@ -3,12 +3,15 @@ title: Configure the Rich Text Editor
 seo-title: Configure the Rich Text Editor
 description: Learn to configure the AEM Rich Text Editor.
 seo-description: Learn to configure the AEM Rich Text Editor.
-uuid: 7d0a75d2-4bc3-4e13-82c8-4a8a781ecd74
+uuid: 75c48f71-8ae7-42c1-979c-39dd3ccb912f
 contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: 0886cdd2-441a-46be-9155-75abfcd5549a
+discoiquuid: 73f5f859-866d-41a8-8fc1-7c78629402e1
+index: y
+internal: n
+snippet: y
 ---
 
 # Configure the Rich Text Editor{#configure-the-rich-text-editor}

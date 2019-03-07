@@ -3,12 +3,15 @@ title: Logging
 seo-title: Logging
 description: Learn how to configure global parameters for the central logging service, specific settings for the individual services or how to request data logging.
 seo-description: Learn how to configure global parameters for the central logging service, specific settings for the individual services or how to request data logging.
-uuid: d8a923dc-8577-4658-abb0-68f96d1fabd2
+uuid: 7b08732a-40ca-42aa-a9fc-f4e4f6eddf99
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: configuring
 content-type: reference
-discoiquuid: 239e344a-4c62-4790-ab0f-1514247843b8
+discoiquuid: 891e53bd-6ed2-464f-9b55-2fb65c791e4b
+index: y
+internal: n
+snippet: y
 ---
 
 # Logging{#logging}

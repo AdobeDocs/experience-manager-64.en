@@ -3,12 +3,15 @@ title: Accessing UGC with SRP
 seo-title: Accessing UGC with SRP
 description: When a site is configured to use ASRP or MSRP, the actual UGC is not be stored in AEM's node store (JCR)
 seo-description: When a site is configured to use ASRP or MSRP, the actual UGC is not be stored in AEM's node store (JCR)
-uuid: 7f40aa8c-2027-46eb-b860-e032f691da87
+uuid: 7fe27288-82e9-4edc-a936-2a1750219583
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 8177d122-8829-4565-892f-956043262af4
+discoiquuid: 6b645b1f-a12e-4079-9743-315e06761a8b
+index: y
+internal: n
+snippet: y
 ---
 
 # Accessing UGC with SRP{#accessing-ugc-with-srp}

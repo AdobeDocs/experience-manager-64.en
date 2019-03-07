@@ -3,13 +3,16 @@ title: Creating Launches
 seo-title: Creating Launches
 description: You can create a launch to enable the updating of a new version of existing web pages for future activation. 
 seo-description: You can create a launch to enable the updating of a new version of existing web pages for future activation. 
-uuid: 483d58ba-16ef-476d-a93c-557345ec0097
+uuid: 4c8122f6-8177-4156-8980-8c7b5d6f1299
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
-discoiquuid: 4fdd2f7b-1517-483f-b04d-f1ace43ec1c1
+discoiquuid: 2f978c2e-2103-4eaf-8297-6a716e53eff8
 legacypath: /content/docs/en/aem/6-0/author/site-page-features/launches
+index: y
+internal: n
+snippet: y
 ---
 
 # Creating Launches{#creating-launches}

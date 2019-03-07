@@ -3,12 +3,15 @@ title: Activating hotlink protection in Dynamic Media
 seo-title: Activating hotlink protection in Dynamic Media
 description: Information on how to activate hotlink protection in Dynamic Media.
 seo-description: Information on how to activate hotlink protection in Dynamic Media.
-uuid: cc7e84a4-2f5b-4811-be67-f70cff82c116
+uuid: 1bf5bb05-6fa6-4724-825d-dac3da909c1f
 contentOwner: rbrough
 topic-tags: dynamic-media
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
-discoiquuid: f48010ca-e15c-40b4-b1ef-d1a1d8717eb9
+discoiquuid: 1f174785-697e-4cf5-8e27-71f0ae6f3a9e
+index: y
+internal: n
+snippet: y
 ---
 
 # Activating hotlink protection in Dynamic Media{#activating-hotlink-protection-in-dynamic-media}

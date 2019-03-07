@@ -3,13 +3,16 @@ title: Community Groups Console
 seo-title: Community Groups Console
 description: Groups console lets you create Community groups
 seo-description: Groups console lets you create Community groups
-uuid: 2d116728-e7e1-416c-bf6e-7d259c08f524
+uuid: 2e8a72c8-f7cd-4f8e-95f5-1468e670440a
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: bc639a72-bd03-4064-891a-7887945c9c73
+discoiquuid: 6d8026b3-0951-43e3-81e2-10959bf946c4
 pagetitle: Community Groups Console
+index: y
+internal: n
+snippet: y
 ---
 
 # Community Groups Console{#community-groups-console}
@@ -43,7 +46,7 @@ Several facets of community groups are :
 To access the Groups console :
 
 * on author, sign in with administrator privileges
-* from global navigation :** Communities, Sites**
+* from global navigation : **Communities, Sites**
 * select an existing community site folder to open it
 * select an instance of a community site within the folder
 

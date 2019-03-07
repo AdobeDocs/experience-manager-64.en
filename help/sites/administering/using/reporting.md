@@ -3,12 +3,15 @@ title: Reporting
 seo-title: Reporting
 description: Learn how to work with Reporting in AEM.
 seo-description: Learn how to work with Reporting in AEM.
-uuid: 64da0b7b-ee2b-4590-b528-0e09e3526dd8
+uuid: fcebcc35-2cb9-4a81-a70c-0c3c3bfdb5a8
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: 8748b006-ca9b-4011-bb1b-837af70a0fbd
+discoiquuid: 5e34118e-e898-4b90-9de7-777af79340bb
+index: y
+internal: n
+snippet: y
 ---
 
 # Reporting{#reporting}

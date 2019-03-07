@@ -3,12 +3,15 @@ title: Page Diff
 seo-title: Page Diff
 description: The page diff feature allows for the convenient side-by-side comparison of two pages with their differences highlighted.
 seo-description: The page diff feature allows for the convenient side-by-side comparison of two pages with their differences highlighted.
-uuid: 5f71bd9b-e06c-4f04-bbcb-598c2e456c61
+uuid: 1c2391c0-8e1c-4aec-8bc5-fd0104dcd85d
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
-discoiquuid: ea7bcaf0-10a1-4e74-866a-28ecf4657735
+discoiquuid: 39aaf5d5-7f6f-4963-bfa7-9983f3e5973f
+index: y
+internal: n
+snippet: y
 ---
 
 # Page Diff{#page-diff}

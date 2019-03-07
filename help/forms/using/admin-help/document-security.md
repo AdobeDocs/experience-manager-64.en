@@ -3,12 +3,15 @@ title: About document security
 seo-title: About document security 
 description: Learn how you can create, store, and apply predefined confidentiality settings, and distribute your information safely using document security.
 seo-description: Learn how you can create, store, and apply predefined confidentiality settings, and distribute your information safely using document security.
-uuid: 5cf580f6-2434-4f90-8077-5c5f1cb0e494
+uuid: e20d89a9-825e-44fd-b5eb-c51598514e6d
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_document_security
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 6a0bd7a4-0584-4ed5-9029-1322da5281a2
+discoiquuid: cbfda554-5e8e-4654-a598-c44b5e800f72
+index: y
+internal: n
+snippet: y
 ---
 
 # About document security {#about-document-security}

@@ -3,12 +3,15 @@ title: Interactive Communications configuration properties
 seo-title: Interactive Communication configuration properties
 description: Edit default configuration properties for Interactive Communications
 seo-description: Edit default configuration properties for Interactive Communications
-uuid: 2a35e2e1-a99f-4b13-a80e-c18c175ed15c
+uuid: eb24960b-9e76-4c0a-bb53-238753e749a1
 contentOwner: anujkapo
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 content-type: reference
 topic-tags: interactive-communications
-discoiquuid: e2134ae1-e4f9-4a1b-a833-757731fe4fcd
+discoiquuid: 5154ee3d-b5d1-4dca-82aa-139e085fe915
+index: y
+internal: n
+snippet: y
 ---
 
 # Interactive Communications configuration properties{#interactive-communications-configuration-properties}
@@ -23,10 +26,10 @@ http://&lt;server&gt;:&lt;port&gt;/&lt;contextPath&gt;/system/console/configMgr
 
 The configuration properties include:
 
-* [Document Fragments Configuration](#main-pars-header)
-* [Create Correspondence Configuration](#main-pars-header-669055494)
-* [Adaptive Form and Interactive Communication Web Channel Configuration](#main-pars-header-315118855)
-* [Adaptive Form and Interactive Communication Web Channel Theme Configuration](#main-pars-header-1499644829)
+* [Document Fragments Configuration](#document-fragments-configuration)
+* [Create Correspondence Configuration](#create-correspondence-configuration)
+* [Adaptive Form and Interactive Communication Web Channel Configuration](#adaptive-form-and-interactive-communication-web-channel-configuration)
+* [Adaptive Form and Interactive Communication Web Channel Theme Configuration](#adaptive-form-and-interactive-communication-web-channel-theme-configuration)
 
 ## Document Fragments Configuration {#document-fragments-configuration}
 

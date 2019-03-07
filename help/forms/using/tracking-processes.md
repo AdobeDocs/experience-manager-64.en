@@ -3,12 +3,15 @@ title: Tracking processes
 seo-title: Tracking processes
 description: How to track your processes by searching for them and viewing their details.
 seo-description: How to track your processes by searching for them and viewing their details.
-uuid: 7448e002-ed9e-4d5c-9364-b72d08ad34ac
+uuid: 90c81ce3-233c-4a6d-87ac-51d6fa72bec0
 contentOwner: robhagat
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
-discoiquuid: 7183d5e3-f6a8-471d-837f-7a4b5368f401
+discoiquuid: ef6d3cd6-6c3a-4cce-83bd-e9e3fdb18ea3
+index: y
+internal: n
+snippet: y
 ---
 
 # Tracking processes{#tracking-processes}
@@ -32,7 +35,7 @@ You can set which columns appear in the search results.
 
 ### Search for a task using a search template {#search-for-a-task-using-a-search-template}
 
-1. On the Tracking page, in the list on the left, select **Search Templates** and select a search template.
+1. On the Tracking page, in the list on the left, select **Search ****Templates** and select a search template.
 1. If the template supports search parameters, To narrow the search parameters, fill the template fields and then click **Search**. Displays a list of all tasks that you participated in, which match the search criteria.
 
 ## View process details {#view-process-details}

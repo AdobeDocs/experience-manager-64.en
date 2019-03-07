@@ -3,11 +3,14 @@ title: Creating an adaptive form
 seo-title: Creating an adaptive form
 description: How to create an adaptive form using AEM Forms. Adaptive forms are responsive HTML5 forms that streamline information gathering and processing.
 seo-description: How to create an adaptive form using AEM Forms. Adaptive forms are responsive HTML5 forms that streamline information gathering and processing.
-uuid: cc784d2e-c725-4304-b133-bdeaa41e872a
+uuid: c12a0b1c-8318-4704-9a00-4db73251fcc1
 content-type: reference
 topic-tags: author
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 7e60824c-5700-4ac5-a849-ec1fc5bfbd77
+discoiquuid: a34a8d35-2058-47b2-bf1a-18eafadd408e
+index: y
+internal: n
+snippet: y
 ---
 
 # Creating an adaptive form{#creating-an-adaptive-form}
@@ -36,8 +39,8 @@ Follow these steps to create an adaptive form.
 
     * **Title:** Specifies the display name of the form. The title helps you identify the form in the AEM Forms user interface.
     * **Name:** Specifies the name of the form. A node with the specified name is created in the repository. As you start typing a title, value for the name field is automatically generated. You can change the suggested value. The name field can include only alphanumeric characters, hyphens, and underscores. All the invalid inputs are replaced with a hyphen.
-    * **Description:** Specifies the detailed information about the form. 
-    * **Tags:** Specifies tags to uniquely identify the adaptive form. Tags help in searching the form. To create tags, type new tag names in the **Tags **box.
+    * **Description: **Specifies the detailed information about the form. 
+    * **Tags: **Specifies tags to uniquely identify the adaptive form. Tags help in searching the form. To create tags, type new tag names in the **Tags **box.
 
 1. You can create an adaptive form based on one of following form models:
 
@@ -116,7 +119,7 @@ See the following documents to understand how to design XML or JSON schema for a
 Do the following to use XML or JSON schema as form model for an adaptive form:
 
 1. On the **Add Properties** step of adaptive form creation page, tap on the **Form Model** tab.
-1. In the Form Model tab, select **[!UICONTROL Schema]** from the **[!UICONTROL Select From]** drop-down field.
+1. In the Form Model tab, select ****[!UICONTROL Schema]**** from the **[!UICONTROL Select From]** drop-down field.
 
 1. Tap **Select Schema** and do one of the following:
 

@@ -3,13 +3,16 @@ title: Release Notes for Feature Pack 201812
 seo-title: Release Notes for Feature Pack 201812
 description: Follow this page to get information for AEM Screens Feature Pack 201812 released on January 16, 2019.
 seo-description: Follow this page to get information for AEM Screens Feature Pack 201812 released on January 16, 2019.
-uuid: 8507291f-6cf9-42a3-8a4c-c03c8a2183c4
+uuid: 5fee094c-33d5-440d-8887-4e2b42993ee4
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 content-type: reference
 topic-tags: release-notes
-discoiquuid: 07105490-936e-4326-8a99-2f8d2b5c3f46
+discoiquuid: 71301f1b-fc65-422c-abe5-f0b2f8d495e0
 noindex: true
+index: y
+internal: n
+snippet: y
 ---
 
 # Release Notes for Feature Pack 201812{#release-notes-for-feature-pack}

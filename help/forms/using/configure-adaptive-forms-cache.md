@@ -3,11 +3,14 @@ title: Configure adaptive forms cache
 seo-title: Configure adaptive forms cache
 description: The adaptive forms cache is designed specifically for adaptive forms and documents. It caches adaptive forms and adaptive documents with the objective of reducing the time required to render an adaptive form or document on the client. 
 seo-description: The adaptive forms cache is designed specifically for adaptive forms and documents. It caches adaptive forms and adaptive documents with the objective of reducing the time required to render an adaptive form or document on the client. 
-uuid: 0b8391f7-8405-4072-ac35-c51268401c4b
+uuid: 7aa2358e-abab-4a22-97cc-04f4c6eb8ccc
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: Configuration
-discoiquuid: f50b761d-91c0-4784-9492-269d11919bc5
+discoiquuid: 5989ee3c-5a70-4229-99b0-5b1ad36d1287
+index: y
+internal: n
+snippet: y
 ---
 
 # Configure adaptive forms cache{#configure-adaptive-forms-cache}

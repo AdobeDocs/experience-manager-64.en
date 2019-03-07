@@ -3,12 +3,15 @@ title: Displaying information in the Task Summary pane
 seo-title: Displaying information in the Task Summary pane
 description: In AEM Forms workspace, a Task Summary pane can be configured to summarize the task or display any other web page.
 seo-description: In AEM Forms workspace, a Task Summary pane can be configured to summarize the task or display any other web page.
-uuid: f139492c-924e-4661-b243-3084efc5c0aa
+uuid: db66f794-6f89-4c54-be07-f2395ee40c2c
 contentOwner: robhagat
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
-discoiquuid: 163dbac7-9181-452d-85a0-fdc54b7e4f5d
+discoiquuid: 295d583a-5645-4cd6-bea6-a637ab7835ff
+index: y
+internal: n
+snippet: y
 ---
 
 # Displaying information in the Task Summary pane{#displaying-information-in-the-task-summary-pane}

@@ -4,10 +4,13 @@ seo-title: [DO NOT PUBLISH] Themes in AEM Forms
 description: Learn how to customize themes of your adaptive forms using AEM Forms theme editor. 
 seo-description: Learn how to customize themes of your adaptive forms using AEM Forms theme editor. 
 page-status-flag: never-activated
-uuid: 0d47f854-9ea7-4dba-ab29-2de26b7df322
+uuid: 4da013bb-919d-470e-9527-068bce32de0f
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
-discoiquuid: a89f57cc-d43c-431d-9645-c598e2ec897c
+discoiquuid: ae6ab660-1fba-4fb5-ad5d-e7d860a587ea
+index: y
+internal: n
+snippet: y
 ---
 
 # [DO NOT PUBLISH] Themes in AEM Forms{#do-not-publish-themes-in-aem-forms}
@@ -222,12 +225,12 @@ The Theme Editor is divided in two panels:
       In your form, when you customize all the field components with a specific background color, all the fields such as age, name, and address inherit the background color. When you select a numeric box, such as age, and reduce its width, width of all the numeric boxes such as age, number of people in a family is reduced. Width of text boxes is not changed.
 
     * ***State:*** Lets you customize styles of an object in a specific state. For example, you can specify how an object looks when it is in default, focus, disabled, hover, or error state.
-    * ***Property Categories:** *Styling properties are divided in various categories. For example Dimension & Position, Text, Background, Border, and Effects*.* Under each category, you provide styling information. For example, under Background, you can provide Background Color, and Image & Gradient. 
+    * ***Property Categories: ***Styling properties are divided in various categories. For example Dimension & Position, Text, Background, Border, and Effects*.* Under each category, you provide styling information. For example, under Background, you can provide Background Color, and Image & Gradient. 
     
-    * ***Advanced:** *Lets you add custom CSS to an object, which overrides the properties visual controls define if there is an overlap. 
+    * ***Advanced: ***Lets you add custom CSS to an object, which overrides the properties visual controls define if there is an overlap. 
     * ***View CSS***: Lets you view CSS of the selected component
 
-  Also, in Sidebar, at the bottom an arrow is present. When you click the arrow, you get two more options:** Simulate Success** and **Simulate Error. **These options, along with the options described above are discussed in detail [below](../../../forms/using/wip/themes-stylize-interactive-communication.md#using-rail).
+  Also, in Sidebar, at the bottom an arrow is present. When you click the arrow, you get two more options: **Simulate Success** and **Simulate Error. **These options, along with the options described above are discussed in detail [below](../../../forms/using/wip/themes-stylize-interactive-communication.md#using-rail).
 
 [ ![Theme editor with Rail and Canvas highlighted.](assets/themes.png)](assets/themes-1.png) **A.** Sidebar **B.** Canvas
 
@@ -606,7 +609,7 @@ After you customize the theme, apply it to your form.
 ## Impact on other adaptive form use cases {#impact-on-other-adaptive-form-use-cases}
 
 * **Publish/unpublish a form:** On publishing a form, theme applied to is also published (if it is not already published)
-* **Import/Export a form:** On importing or exporting a form, its associated theme is also automatically imported or exported.
+* **Import/Export a form: **On importing or exporting a form, its associated theme is also automatically imported or exported.
 * **References of a form:** The Refers section in form references contains an extra entry for the theme.
 * **Last Modification time of a form:** Updated when the associated theme is changed.
 * **A/B Testing:** You can apply a different theme to two versions of the form in A/B testing. The information of the two themes is individually stored on the two guide containers.

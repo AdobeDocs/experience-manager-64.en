@@ -3,12 +3,15 @@ title: Configuring ContextHub
 seo-title: Configuring ContextHub
 description: Learn how to configure Context Hub.
 seo-description: Learn how to configure Context Hub.
-uuid: 28b7ba26-035a-459f-839b-d523d3c17681
+uuid: bb8bff5e-eb6a-4fc6-ba2e-db6a7d70d2ca
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: 6280f282-00fe-405e-9141-6b0da0c36661
+discoiquuid: 8666f47f-32a6-4795-a785-d7ba733246ac
+index: y
+internal: n
+snippet: y
 ---
 
 # Configuring ContextHub{#configuring-contexthub}
@@ -151,7 +154,7 @@ AEM provides the following sample store candidates upon which you can base a sto
 
     * **Configuration Title:** The title that identifies the store
     * **Store Type:** The value of the storeType property of the store candidate upon which to base the store
-    * **Required:** Select
+    * **Required: **Select
     * **Enabled:** Select to enable the store
 
 1. (Optional) To override the default store configuration, enter a JSON object in the Detail Configuration (JSON) box.
@@ -180,7 +183,7 @@ To save data from the MD5 service of the jsontest.com site, use the procedure in
 
 * **Configuration Title:** md5
 * **Store Type:** contexthub.generic-jsonp
-* **Required:** Select
+* **Required: **Select
 * **Enabled:** Select
 * **Detail Configuration (JSON):**
 

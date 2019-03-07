@@ -3,13 +3,16 @@ title: Configure Asset tagging using the Smart Content Service
 seo-title: Configure Asset tagging using the Smart Content Service
 description: Learn how to configure smart tagging and enhanced smart tagging in AEM, using the Smart Content Service.
 seo-description: How to configure the Smart Tags Content Service from within AEM.
-uuid: f854e57a-216c-4212-8b9d-87725eb74452
+uuid: 525e4372-14ab-427e-8750-d4186c46b9a3
 contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference
-discoiquuid: 241bbe66-59ad-49df-a93c-961f2bab9bef
+discoiquuid: 352aaa4e-26d8-4276-850d-053f277bb90e
 legacypath: /content/docs/en/aem/6-2/author/assets/managing-assets-touch-ui/configuring-smart-content-services-integration
+index: y
+internal: n
+snippet: y
 ---
 
 # Configure Asset tagging using the Smart Content Service{#configure-asset-tagging-using-the-smart-content-service}
@@ -102,7 +105,7 @@ After you've completed the configuration, you can use a JMX MBean to validate th
 1. From the AEM user interface, tap/click the AEM logo, and go to **[!UICONTROL Tools > Workflow > Models]**.
 1. On **[!UICONTROL Workflow Models]** page, select the **[!UICONTROL DAM Update Asset]** workflow model.
 1. Tap/click **[!UICONTROL Edit]** from the toolbar.
-1. Expand the Side Panel to display the steps. Drag **[!UICONTROL Smart Tag Asset]** step that is available in the DAM Workflow section and place it after the **[!UICONTROL Process Thumbnails]** step.
+1. Expand the Side Panel to display the steps. Drag **[!UICONTROL Smart Tag Asset]**** **step that is available in the DAM Workflow section and place it after the **[!UICONTROL Process Thumbnails]** step.
 
    ![Add smart tag asset step after the process thumbnail  step in the DAM Update Asset workflow](assets/chlimage_1-110.png)
 

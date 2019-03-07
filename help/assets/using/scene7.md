@@ -3,12 +3,15 @@ title: Adding Scene7 Features to your Page
 seo-title: Adding Scene7 Features to your Page
 description: Learn how to add Scene7 features and components to your AEM page.
 seo-description: Learn how to add Scene7 features and components to your AEM page.
-uuid: 91218a65-02c0-4737-a187-fa10cd0014ba
+uuid: f9462c42-5da4-4d34-923a-428610b2ad34
 contentOwner: Alva Ware-Bevacqui
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
 topic-tags: managing-assets
-discoiquuid: dfdb9d49-f018-458e-a0a0-703fdcd72819
+discoiquuid: ad5a3803-6316-4c6b-bbe8-98c5c0b0fe45
+index: y
+internal: n
+snippet: y
 ---
 
 # Adding Scene7 Features to your Page{#adding-scene-features-to-your-page}

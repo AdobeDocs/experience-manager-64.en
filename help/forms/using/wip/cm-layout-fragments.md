@@ -4,9 +4,12 @@ seo-title: Layout Fragments
 description: One or more layout fragments can form parts of a letter and define the graphical layout of those parts. A layout fragment can contain typical form fields, such as Address and Reference Number, and empty subforms that denote target areas. In addition, layout fragments allow you to create tables and insert them in letters.  
 seo-description: One or more layout fragments can form parts of a letter and define the graphical layout of those parts. A layout fragment can contain typical form fields, such as Address and Reference Number, and empty subforms that denote target areas. In addition, layout fragments allow you to create tables and insert them in letters.  
 page-status-flag: never-activated
-uuid: c1c0870b-71bf-46fc-bec7-df9dea2f121f
+uuid: b8738eb1-d0c3-4bfb-9141-2a50ffcda7c3
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 1ac5e73f-3a14-48be-8dd1-1d6dc6942a0b
+discoiquuid: 20f7e2b0-76ee-4c39-af0f-755b2a55a516
+index: y
+internal: n
+snippet: y
 ---
 
 # [DO NOT PUBLISH] Layout Fragments{#do-not-publish-layout-fragments}
@@ -54,7 +57,7 @@ Consider the following points when designing tables:
     * header and footer for additional column
     * width ratio for each column
 
-You can nest fragments in a letter. This implies that you can add a fragment within a fragment. The Correspondence Management solution supports up to four levels of nesting within a letter:** Letter**-&gt;**Fragment**-&gt;**Fragment**-&gt;**Fragment**-&gt;**Fragment.**
+You can nest fragments in a letter. This implies that you can add a fragment within a fragment. The Correspondence Management solution supports up to four levels of nesting within a letter: **Letter**-&gt;**Fragment**-&gt;**Fragment**-&gt;**Fragment**-&gt;**Fragment.**
 
 For a detailed example of using static and dynamic tables in layout fragments, see [Example with sample files: using static and dynamic tables in a letter](#examplewithsamplefiles).
 
@@ -64,8 +67,8 @@ For a detailed example of using static and dynamic tables in layout fragments, s
 1. Correspondence Management displays the available XDPs. Select the XDP on which you want to base your layout fragment and tap **Next**.
 1. Specify the following information for the layout:
 
-    * **Title (Optional):** Enter the title for the layout fragment. Title needs not be unique and can have special characters and non-english characters. Layout fragments are referred by their titles (when available) such as in thumbnails and asset properties.
-    * **Name:** The unique name for the layout fragment. No two assets (text, condition, or list) in any state can exist with the same name. In the Name field, you can enter only English language characters, numbers, and hyphens. The Name field is automatically populated based on the Title field. The special characters, spaces, numbers, and non-English characters entered in the Title field are replaced with hyphens in the Name field. Although the value in the Title field is automatically copied to the Name, you can edit the value. This name appears in the list in the Manage Assets user interface.
+    * **Title (Optional): **Enter the title for the layout fragment. Title needs not be unique and can have special characters and non-english characters. Layout fragments are referred by their titles (when available) such as in thumbnails and asset properties.
+    * **Name: **The unique name for the layout fragment. No two assets (text, condition, or list) in any state can exist with the same name. In the Name field, you can enter only English language characters, numbers, and hyphens. The Name field is automatically populated based on the Title field. The special characters, spaces, numbers, and non-English characters entered in the Title field are replaced with hyphens in the Name field. Although the value in the Title field is automatically copied to the Name, you can edit the value. This name appears in the list in the Manage Assets user interface.
     * **Description (Optional)**: Description that appears in the list in the Manage Assets user interface.
     * **Tags (Optional)**: Optionally, select the tags to apply to the condition. You can also type in a new tag’s name and create it.
 
@@ -81,7 +84,7 @@ For a detailed example of using static and dynamic tables in layout fragments, s
     * **Header**: text to show for the header
     * **Footer**: text to show for the footer
     * **Type**: type of additional column. Field or Target Area. Type is enabled for static place holder tables. Type can be defined at column level and not at cell level. All the cells in an extended column would be of the same type. For a dynamic table, all the columns are of Field type. For non-placeholder tables, you cannot define the type of additional columns. In this case, type of additional cells in extended column is same as the type of last column in that row; and type of cell in additional row is same as type of last cell in that column.
-    * **Width ratio:** ratio of the table column widths.
+    * **Width ratio: **ratio of the table column widths.
 
    For a detailed example of using static and dynamic tables in layout fragments, see [Example with sample files: using static and dynamic tables in a letter](#main-pars-header-28).  
 

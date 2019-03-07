@@ -3,12 +3,15 @@ title: Assets Supported Formats
 seo-title: Assets Supported Formats
 description: List of file formats supported by AEM Assets and features supported for each format.
 seo-description: List of file formats supported by AEM Assets and features supported for each format.
-uuid: 457757b5-428e-4d2f-a5d4-4f3188af0cdd
+uuid: 88fb113f-997e-439c-81e0-bd31dfbd0875
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: a5a2ae55-d68a-4254-8708-79a168478d48
+discoiquuid: 2be838f2-4cd8-427d-bc3c-d6ec47175216
+index: y
+internal: n
+snippet: y
 ---
 
 # Assets Supported Formats{#assets-supported-formats}

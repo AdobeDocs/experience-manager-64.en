@@ -3,12 +3,15 @@ title: Working with tasks
 seo-title: Working with tasks
 description: Use the Task Search page to search for tasks by user name or task ID. Learn more about working with tasks.
 seo-description: Use the Task Search page to search for tasks by user name or task ID. Learn more about working with tasks.
-uuid: c33c1f1f-0bf7-4ad3-a5eb-17175e3bb28f
+uuid: 1966d2aa-69cc-42a9-8959-302b90ed383b
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_forms_workflow
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 4db5d6bb-9a4c-4b6f-8215-82ca2feaa64a
+discoiquuid: 2a7e79d2-89d8-4c03-b0e0-4c3e70d2e8dc
+index: y
+internal: n
+snippet: y
 ---
 
 # Working with tasks{#working-with-tasks}

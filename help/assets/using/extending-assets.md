@@ -3,12 +3,15 @@ title: Customizing and Extending Assets
 seo-title: Customizing and Extending Assets
 description: Learn ways by which you can customize and extend Asset Share and Asset Editor, which presents users with a specifically tailored interface and set of functionality.
 seo-description: Learn ways by which you can customize and extend Asset Share and Asset Editor, which presents users with a specifically tailored interface and set of functionality.
-uuid: 698dfff3-463d-4889-9a8a-6837fb7c7456
+uuid: 9594ee0c-c073-4a15-887d-90fc2cc5993d
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: extending-assets
 content-type: reference
-discoiquuid: 1612bda3-838d-4fae-bcee-1234d243f1ad
+discoiquuid: f2d0313b-00ed-4fa3-8917-fdfa37d73dc4
+index: y
+internal: n
+snippet: y
 ---
 
 # Customizing and Extending Assets{#customizing-and-extending-assets}

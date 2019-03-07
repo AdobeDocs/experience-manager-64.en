@@ -3,12 +3,15 @@ title: AEM Communities Release Notes
 seo-title: AEM Communities
 description: Release notes specific to Adobe Experience Manager 6.4 Communities.
 seo-description: Release notes specific to Adobe Experience Manager 6.4 Communities.
-uuid: fb3e704f-6fbb-46be-b270-408d9c60e523
+uuid: 5b39768d-5067-469f-9833-49523b8447cc
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4
 topic-tags: release-notes
 content-type: reference
-discoiquuid: 0d5a8ee3-ef4b-4dc5-b9e9-3d4425508e4b
+discoiquuid: a5448cb1-32fd-4503-b26f-3712fd6f0533
+index: y
+internal: n
+snippet: y
 ---
 
 # AEM Communities Release Notes{#aem-communities-release-notes}

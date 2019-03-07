@@ -3,11 +3,14 @@ title: Manage form metadata
 seo-title: Manage form metadata
 description: Metadata allows for easier categorization and organization of assets and helps users who are looking for a specific asset.
 seo-description: Metadata allows for easier categorization and organization of assets and helps users who are looking for a specific asset.
-uuid: 885095f1-bb02-4553-a43f-5b155f1d79c0
+uuid: 4746b9be-763f-42ec-859c-1e16a451d12b
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-manager
-discoiquuid: 566f062e-f60a-4df5-885a-5f7b0bdc24ab
+discoiquuid: bf378e5b-55db-459e-903d-1f895413cc2b
+index: y
+internal: n
+snippet: y
 ---
 
 # Manage form metadata{#manage-form-metadata}
@@ -242,9 +245,9 @@ AEM Forms exposes the metadata schemas of the supported forms types in this tool
 
 ### Navigate the metadata schema editor&nbsp; {#navigate-the-metadata-schema-editor-nbsp}
 
-1. Navigate to **[!UICONTROL Tools > Assets > Metadata Schemas]**. 
+1. Navigate to **[!UICONTROL Tools > Assets > Metadata Schemas]****.** 
 
-1. Click **[!UICONTROL forms]** from the listed schema forms.  
+1. Click **[!UICONTROL forms]**** **from the listed schema forms.  
 
 1. From the list that opens, click the asset type for which you want to add custom metadata.
 

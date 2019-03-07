@@ -4,9 +4,12 @@ seo-title: Apply rules to adaptive form fields
 description: Create rules to add interactivity, business logic, and smart validations to an adaptive form. 
 seo-description: Create rules to add interactivity, business logic, and smart validations to an adaptive form. 
 page-status-flag: de-activated
-uuid: 55349d60-47c3-47d0-a431-4d6d220a724a
+uuid: 1555b6ca-d4c1-48e0-9a00-255f2bff90fd
 products: SG_EXPERIENCEMANAGER/6.3/FORMS
-discoiquuid: 8e7b2080-514e-4934-a925-33e955c1a172
+discoiquuid: 4b97d127-d88b-4b16-88a7-8393a10223cf
+index: y
+internal: n
+snippet: y
 ---
 
 # [DO NOT PUBLISH] Tutorial: Apply rules to adaptive form fields{#do-not-publish-tutorial-apply-rules-to-adaptive-form-fields}

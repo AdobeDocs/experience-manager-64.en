@@ -3,12 +3,15 @@ title: Resource Mapping
 seo-title: Resource Mapping
 description: Learn how to define redirects, vanity URLs and virtual hosts for AEM by using resource mapping.
 seo-description: Learn how to define redirects, vanity URLs and virtual hosts for AEM by using resource mapping.
-uuid: 7034afb3-44f4-4f2a-a85d-03ed6878332e
+uuid: 5af1c38b-3864-4ff3-b89e-03ae0f0a8f29
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: configuring
 content-type: reference
-discoiquuid: c197304c-9234-4fad-a3ee-dc8ff09ff558
+discoiquuid: 70d7f6e7-b782-4ec7-9289-3867e8b7597a
+index: y
+internal: n
+snippet: y
 ---
 
 # Resource Mapping{#resource-mapping}

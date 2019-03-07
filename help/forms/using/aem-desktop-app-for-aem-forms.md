@@ -3,12 +3,15 @@ title: AEM Desktop App for AEM Forms
 seo-title: AEM Desktop App for AEM Forms
 description: null
 seo-description: null
-uuid: 0aaf0e78-d02b-4fb0-a69c-92cd764204d5
+uuid: 28386530-69ea-4e37-b90e-79e032cbbc89
 contentOwner: khsingh
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: manage
-discoiquuid: a748e0ea-1647-4d2a-a462-24965e952069
+discoiquuid: ed5f76e2-d511-4d64-9c34-1ad8c1488516
 noindex: true
+index: y
+internal: n
+snippet: y
 ---
 
 # AEM Desktop App for AEM Forms{#aem-desktop-app-for-aem-forms}

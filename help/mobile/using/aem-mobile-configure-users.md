@@ -3,12 +3,15 @@ title: Configure Your Users and User Groups
 seo-title: Configure Your Users and User Groups
 description: Follow this page to understand the user roles and how to configure your users and groups to support the authoring and mangement of your mobile On-Demand services app.
 seo-description: Follow this page to understand the user roles and how to configure your users and groups to support the authoring and mangement of your mobile On-Demand services app.
-uuid: a0cd2ad1-9812-40f9-84fa-4928e4bff1ca
+uuid: 29078942-52a1-41a2-87df-14cbbc4c2291
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: administering-on-demand-services-app
-discoiquuid: 881c08b2-5d64-4b38-8615-a81c95967f2c
+discoiquuid: 6fb481d0-7684-45c1-892f-7ef4596e5c5d
+index: y
+internal: n
+snippet: y
 ---
 
 # Configure Your Users and User Groups{#configure-your-users-and-user-groups}

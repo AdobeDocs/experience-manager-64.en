@@ -3,19 +3,22 @@ title: Processing Assets Using Media Handlers and Workflows
 seo-title: Processing Assets Using Media Handlers and Workflows
 description: Learn about various media handlers and how to use them in workflows to perform tasks on assets.
 seo-description: Learn about various media handlers and how to use them in workflows to perform tasks on assets.
-uuid: b136cf35-9499-4e67-90a5-4ae70102d976
+uuid: 2e85d213-4641-4342-b4fc-c3ca0cb3778f
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: extending-assets
 content-type: reference
-discoiquuid: 8c878b5f-722b-4c40-9eca-bbd305e5d323
+discoiquuid: df9ee779-2545-4723-a0f0-f4393443607f
+index: y
+internal: n
+snippet: y
 ---
 
 # Processing Assets Using Media Handlers and Workflows{#processing-assets-using-media-handlers-and-workflows}
 
 Adobe Experience Manager (AEM) Assets comes with a set of default workflows and media handlers to process assets. The workflow defines the general tasks to be executed on the assets, then delegates the specific tasks to the media handlers, for example thumbnail generation or metadata extraction.
 
-A workflow can be defined that will automatically execute when an asset of a particular type is uploaded to the server. The processing steps are defined in terms of a series of AEM Assets Media Handlers. AEM provides some [built in handlers,](#main-pars-par2) and additional ones can be either [custom developed](#main-pars-par30) or defined by delegating the process to a [command line tool](#main-pars-title-1).
+A workflow can be defined that will automatically execute when an asset of a particular type is uploaded to the server. The processing steps are defined in terms of a series of AEM Assets Media Handlers. AEM provides some [built in handlers,](#default-media-handlers) and additional ones can be either [custom developed](#creating-a-new-media-handler) or defined by delegating the process to a [command line tool](#command-line-based-media-handler).
 
 Media handlers are services inside AEM Assets that perform specific actions on assets. For example, when an MP3 audio file is uploaded into AEM, a workflow triggers an MP3 handler that extracts the metadata and generates a thumbnail. Media handlers are usually used in combination with workflows. Most common MIME types are supported within AEM. Specific tasks can be performed on assets by either extending/creating workflows, extending/creating media handlers or disabling/enabling media handlers.
 
@@ -129,7 +132,7 @@ The media handlers can be disabled or enabled through the Apache Felix Web Manag
 To enable/disable a media handler:
 
 1. In your browser, navigate to http://&lt;host&gt;:&lt;port&gt;/system/console/components.
-1. Click the** Disable** button right beside the name of the media handler. For example:** com.day.cq.dam.handler.standard.mp3.Mp3Handler.**
+1. Click the** Disable** button right beside the name of the media handler. For example: **com.day.cq.dam.handler.standard.mp3.Mp3Handler.**
 1. Refresh the page: a** Disabled **icon is displayed beside the media handler.
 1. To enable the media handler, click the **Enable **button beside the name of the media handler.
 

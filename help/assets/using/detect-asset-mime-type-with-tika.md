@@ -3,12 +3,15 @@ title: Detecting MIME Type of Assets Using Apache Tika
 seo-title: Detecting MIME Type of Assets Using Apache Tika
 description: Enable Apache Tika to help AEM Assets detect the MIME type of assets from the content stream during the upload operation instead of the file extension.
 seo-description: Enable Apache Tika to help AEM Assets detect the MIME type of assets from the content stream during the upload operation instead of the file extension.
-uuid: c127d159-9e1e-4a70-91e2-0dd288306e0a
+uuid: f480f581-bd56-469e-af55-a24bab08160c
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: 12f9df8f-61c0-4b25-b457-00b6fc557a05
+discoiquuid: 4a1a00dc-429e-433c-9ac6-7a6c999424d8
+index: y
+internal: n
+snippet: y
 ---
 
 # Detecting MIME Type of Assets Using Apache Tika{#detecting-mime-type-of-assets-using-apache-tika}

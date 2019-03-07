@@ -3,12 +3,15 @@ title: Structure an App
 seo-title: Structure an App
 description: Follow this page to learn about how to create structure of an app. This page describes how to structure templates and components along with information on JavaScript and CSS Clientlibs.
 seo-description: Follow this page to learn about how to create structure of an app. This page describes how to structure templates and components along with information on JavaScript and CSS Clientlibs.
-uuid: 1a410fa4-2d00-45bf-92d2-716a1c8d00b4
+uuid: ad1e7a70-675f-4bb0-816e-459d408198ef
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: developing-adobe-phonegap-enterprise
-discoiquuid: 751b1a6a-006d-4800-86e0-6e6e195bfadc
+discoiquuid: 00a96908-b13d-472f-ab9c-8d206b4b7675
+index: y
+internal: n
+snippet: y
 ---
 
 # Structure an App{#structure-an-app}

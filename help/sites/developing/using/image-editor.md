@@ -3,12 +3,15 @@ title: Image Editor
 seo-title: Image Editor
 description: The Image Editor is a core piece of AEM and can be leveraged by components to facilitate the manipulation of images by content authors.
 seo-description: The Image Editor is a core piece of AEM and can be leveraged by components to facilitate the manipulation of images by content authors.
-uuid: b11a4e5d-a858-4692-9661-f2301c899698
+uuid: 196096ba-e50d-4f6c-9b00-5c8237979a00
 contentOwner: bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: components
-discoiquuid: ddbb2ee8-7fce-4a87-a90c-c7965de08643
+discoiquuid: fe55a000-5715-40a0-928f-06c5f9cd693c
+index: y
+internal: n
+snippet: y
 ---
 
 # Image Editor{#image-editor}

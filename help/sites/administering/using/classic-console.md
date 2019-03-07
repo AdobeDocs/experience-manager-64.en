@@ -3,12 +3,15 @@ title: Classic UI Tagging Console
 seo-title: Classic UI Tagging Console
 description: Learn about the Classic UI Tagging Console.
 seo-description: Learn about the Classic UI Tagging Console.
-uuid: bb7b446a-9df5-42ef-a031-e2a46f4dcb4e
+uuid: fee52a97-583c-43b2-b534-8782fca4e184
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: content
 content-type: reference
-discoiquuid: 909aa5da-3253-4af4-a500-f54b6e84b45c
+discoiquuid: d9d60568-a1a8-450f-a49f-8520f06d0bb5
+index: y
+internal: n
+snippet: y
 ---
 
 # Classic UI Tagging Console{#classic-ui-tagging-console}

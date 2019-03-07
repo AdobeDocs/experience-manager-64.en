@@ -3,12 +3,15 @@ title: Granite Operations - User and Group Administration
 seo-title: Granite Operations - User and Group Administration
 description: Learn about Granite user and group administration.
 seo-description: Learn about Granite user and group administration.
-uuid: 2a62340d-7683-4220-aa71-4392ba92308a
+uuid: 0332f1f2-826f-40db-9b42-3ea99f475619
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
-discoiquuid: bf06c152-0273-434e-9d7c-2c9488454404
+discoiquuid: 7c32f339-adfa-42dd-ad50-b5ae9009eeae
+index: y
+internal: n
+snippet: y
 ---
 
 # Granite Operations - User and Group Administration{#granite-operations-user-and-group-administration}

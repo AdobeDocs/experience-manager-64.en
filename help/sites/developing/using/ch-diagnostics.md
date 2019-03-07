@@ -3,12 +3,15 @@ title: ContextHub Diagnostics
 seo-title: ContextHub Diagnostics
 description: ContextHub provides a diagnostics page where you can see an overview of the ContextHub framework
 seo-description: ContextHub provides a diagnostics page where you can see an overview of the ContextHub framework
-uuid: 52d7fee4-988a-4410-a718-dbeab623e3d7
+uuid: cdef9b4a-732d-4e61-b936-f3b6eb74a17a
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: aa8deb1a-1fcd-4cb8-9142-a7585f70c5cd
+discoiquuid: 1aa92802-8ca8-4cc6-a7e6-1e19470e6b74
+index: y
+internal: n
+snippet: y
 ---
 
 # ContextHub Diagnostics{#contexthub-diagnostics}
@@ -25,7 +28,7 @@ The ContextHub Diagnostics page provides information about the stores and UI mod
 
 The Stores section lists all the ContextHub stores that have been configured. Each item in the list consists of the following information:
 
-* **Title:** The [store type](../../../sites/developing/using/ch-samplestores.md) that the store is based on.
+* **Title: **The [store type](../../../sites/developing/using/ch-samplestores.md) that the store is based on.
 
 * **path:** The path to the repository node that holds the configuration.
 * **resourceType:** The path of the repository node where the store type is defined.

@@ -3,12 +3,15 @@ title: Single Sign On and timeout handlers
 seo-title: Single Sign On and timeout handlers
 description: How-to set the session timeout value for AEM Forms workspace.
 seo-description: How-to set the session timeout value for AEM Forms workspace.
-uuid: 781975da-8d2b-41c1-85f1-ca4decb05f43
+uuid: a018a301-feb0-4373-854e-646f8e3f41ff
 contentOwner: robhagat
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
-discoiquuid: d8faad97-c28a-433b-ad1d-1e42086f7165
+discoiquuid: 9aad7005-5a62-4cc6-bc99-59049d12fa32
+index: y
+internal: n
+snippet: y
 ---
 
 # Single Sign On and timeout handlers{#single-sign-on-and-timeout-handlers}

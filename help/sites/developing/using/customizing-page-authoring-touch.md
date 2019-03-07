@@ -3,12 +3,15 @@ title: Customizing Page Authoring
 seo-title: Customizing Page Authoring
 description: AEM provides various mechanisms to enable you to customize page authoring functionality
 seo-description: AEM provides various mechanisms to enable you to customize page authoring functionality
-uuid: 8e2626b2-c06e-404b-b7ab-b3cda534e64f
+uuid: 41cfe02b-6a1f-4b66-bb40-4d843f38a7e3
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
-discoiquuid: ae4863fa-47b0-4f97-9c9f-1a939dc0f346
+discoiquuid: df76e1c2-1e81-4958-ae42-3028f47b9a6d
+index: y
+internal: n
+snippet: y
 ---
 
 # Customizing Page Authoring{#customizing-page-authoring}

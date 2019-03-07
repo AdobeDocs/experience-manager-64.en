@@ -3,13 +3,16 @@ title: Creating Sites for Mobile Devices
 seo-title: Creating Sites for Mobile Devices
 description: Creating a mobile site is similar to creating a standard site as it also involves creating templates and components
 seo-description: Creating a mobile site is similar to creating a standard site as it also involves creating templates and components
-uuid: fc612fbb-19ca-4ccd-9fcb-f212643d501f
+uuid: cdbe03fb-3eda-47fc-9da8-c0770d9b809b
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: mobile-web
 content-type: reference
-discoiquuid: b51adb1f-44c3-4fef-b9e2-6d1cf86b1639
+discoiquuid: 87651fc5-df3c-4cd9-8f17-be64e1b8a8bc
 legacypath: /content/docs/en/aem/6-0/develop/mobile/mobile
+index: y
+internal: n
+snippet: y
 ---
 
 # Creating Sites for Mobile Devices{#creating-sites-for-mobile-devices}

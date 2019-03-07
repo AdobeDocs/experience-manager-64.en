@@ -3,12 +3,15 @@ title: Ideation Feature
 seo-title: Ideation Feature
 description: Adding and configuring the Ideation feature
 seo-description: Adding and configuring the Ideation feature
-uuid: aa703f61-1d33-4d65-acda-3580adb504b5
+uuid: 7d037fab-ed6a-4f89-bcc0-e26347bdbf82
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
-discoiquuid: 2b071f69-a43f-45a6-8e2c-3e214f4605cb
+discoiquuid: ac5bb219-55e9-47de-9ce1-a9dc0a04177f
+index: y
+internal: n
+snippet: y
 ---
 
 # Ideation Feature{#ideation-feature}

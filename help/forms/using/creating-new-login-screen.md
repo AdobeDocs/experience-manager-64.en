@@ -3,11 +3,14 @@ title: Creating a new login screen
 seo-title: Creating a new login screen
 description: How-to modify the login page of LiveCycle modules, for example of AEM Forms workspace or Forms Manager.
 seo-description: How-to modify the login page of LiveCycle modules, for example of AEM Forms workspace or Forms Manager.
-uuid: 468a60b7-58db-478e-bdd6-98391494823c
+uuid: 755f981d-ffc9-4a35-87f4-f03db666c99c
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
-discoiquuid: 5b40794a-7feb-4010-abb1-d4a6437cf9a3
+discoiquuid: 658a09d2-6757-4380-96be-20f22680a1c3
+index: y
+internal: n
+snippet: y
 ---
 
 # Creating a new login screen{#creating-a-new-login-screen}

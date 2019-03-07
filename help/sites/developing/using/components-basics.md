@@ -3,13 +3,16 @@ title: AEM Components - The Basics
 seo-title: AEM Components - The Basics
 description: When you start to develop new components you need to understand the basics of their structure and configuration
 seo-description: When you start to develop new components you need to understand the basics of their structure and configuration
-uuid: f665344f-861f-420c-b0c0-f2aa93a425d2
+uuid: 74d1bb6f-d469-49f6-b9d2-b147df37b289
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: components
 content-type: reference
-discoiquuid: 9a8a7655-fb7f-4774-8496-0388a03ba84c
+discoiquuid: 0a92c5aa-f56e-4657-96af-a02a2fea18b9
 legacypath: /content/docs/en/aem/6-0/develop/components/components-develop
+index: y
+internal: n
+snippet: y
 ---
 
 # AEM Components - The Basics{#aem-components-the-basics}

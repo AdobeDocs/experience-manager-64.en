@@ -3,9 +3,12 @@ title: Best practices and considerations
 seo-title: Best practices and considerations 
 description: null
 seo-description: null
-uuid: 557fffc3-c7b2-4ed4-943a-75965acdafe6
+uuid: 63854612-0b0f-4c8a-b2b7-40c68f2b8c9e
 contentOwner: khsingh
-discoiquuid: b40f2965-6cd8-4eed-af8f-ba5d8a4ebe03
+discoiquuid: 56650ec7-67e7-47ba-a1a5-21b188d306ab
+index: y
+internal: n
+snippet: y
 ---
 
 # Best practices and considerations {#best-practices-and-considerations}

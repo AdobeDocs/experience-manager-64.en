@@ -3,13 +3,16 @@ title: Developing AEM Components
 seo-title: Developing AEM Components
 description: AEM components are used to hold, format, and render the content made available on your webpages.
 seo-description: AEM components are used to hold, format, and render the content made available on your webpages.
-uuid: dba87d0e-fa9b-4dce-9afe-5728fbd9a53f
+uuid: c8b07daa-e382-44fc-b2c2-c76214e2e206
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: components
 content-type: reference
-discoiquuid: 6b63085f-bb95-481c-a0d5-e5119bfee2b5
+discoiquuid: adf4ef65-24ed-4af9-9322-f79ce54ff1aa
 legacypath: /content/docs/en/aem/6-2/develop/components/components-touch-optimized
+index: y
+internal: n
+snippet: y
 ---
 
 # Developing AEM Components{#developing-aem-components}

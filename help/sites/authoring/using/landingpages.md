@@ -3,12 +3,15 @@ title: Landing Pages
 seo-title: Landing Pages
 description: The landing pages feature allows quick and easy importing of a design and content right into an AEM page
 seo-description: The landing pages feature allows quick and easy importing of a design and content right into an AEM page
-uuid: 73b891de-0212-490c-a6a8-6f678fe2986f
+uuid: 0746d80f-c6fc-4728-ad09-ee0d63c02597
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: personalization
-discoiquuid: e314760a-9a57-4090-98dc-f49dcaf9045b
+discoiquuid: 259620a0-e109-4ae6-a03f-729940ef5520
+index: y
+internal: n
+snippet: y
 ---
 
 # Landing Pages{#landing-pages}
@@ -37,7 +40,7 @@ In AEM, you create landing pages by performing the following steps:
 1. [Prepare the HTML and assets.](../../../sites/administering/using/extending-the-design-importer-for-landingpages.md)
 1. Package the resources into a ZIP file referred to here as the Design Package.  
 1. Import the design package on the importer page.  
-1. Modify and publish the page.
+1. Modify and publish the page.****
 
 ### Desktop Landing Pages {#desktop-landing-pages}
 

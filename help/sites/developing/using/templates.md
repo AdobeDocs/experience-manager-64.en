@@ -3,13 +3,16 @@ title: Templates
 seo-title: Templates
 description: Templates are used when creating a page which will be used as the base for the new page
 seo-description: Templates are used when creating a page which will be used as the base for the new page
-uuid: 500133eb-dfc6-4693-af3a-3732d6a974e2
+uuid: 66bec7a8-65c9-43ed-ad73-7f8d9dedf206
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
-discoiquuid: 0458ebbd-99c7-47bf-8521-8880216531a1
+discoiquuid: 3d82d229-f719-4acb-9f91-7fcab5ec8fe1
 legacypath: /content/docs/en/aem/6-1/develop/the-basics/templates
+index: y
+internal: n
+snippet: y
 ---
 
 # Templates{#templates}

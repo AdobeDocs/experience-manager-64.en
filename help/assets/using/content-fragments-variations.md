@@ -3,12 +3,15 @@ title: Variations - Authoring Fragment Content
 seo-title: Variations - Authoring Fragment Content
 description: Variations allow you to author content for the fragment, then create variations of that content according to purpose (if required).
 seo-description: Variations allow you to author content for the fragment, then create variations of that content according to purpose (if required).
-uuid: 2375aace-b925-4012-99bb-9585e07fa1f3
+uuid: 167e38a4-15a0-4fb9-99fc-f40d66e59ebb
 contentOwner: Alison Heimoz
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: content-fragments
 content-type: reference
-discoiquuid: d5f9dafc-5534-42a6-acb9-c07f884477db
+discoiquuid: 77b29140-548f-4c39-89df-6edb2b00486e
+index: y
+internal: n
+snippet: y
 ---
 
 # Variations - Authoring Fragment Content{#variations-authoring-fragment-content}
@@ -183,7 +186,7 @@ Summarizing text is designed to help users reduce the length of their text to a 
 >
 >For example, `en/` as in the following path:
 >
->`/content/dam/my-brand/`**[!UICONTROL en]** `/path-down/my-content-fragment`
+>`/content/dam/my-brand/`****[!UICONTROL en]**** `/path-down/my-content-fragment`
 
 >[!CAUTION]
 >

@@ -3,12 +3,15 @@ title: Interactive Images
 seo-title: Interactive Images
 description: Learn how to work with interactive images in dynamic media
 seo-description: Learn how to work with interactive images in dynamic media
-uuid: 48403dd4-e5e2-4f74-9791-ecffa8fc70b8
+uuid: d3919435-3417-427f-9a81-f1bc73ba8b6d
 contentOwner: Alva Ware-Bevacqui
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: cfb4f1d9-fa6f-4c8e-a786-0abb51dad6eb
+discoiquuid: 0fb715e5-4513-48ca-bc15-bffd44b68b85
+index: y
+internal: n
+snippet: y
 ---
 
 # Interactive Images{#interactive-images}

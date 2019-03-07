@@ -3,12 +3,15 @@ title: Editor Limitations
 seo-title: Editor Limitations
 description: The editor in the touch-enabled UI makes use of overlays to interact with content confined in an iframe. This interaction creates some limitations in both usage of the editor and also for developers.
 seo-description: The editor in the touch-enabled UI makes use of overlays to interact with content confined in an iframe. This interaction creates some limitations in both usage of the editor and also for developers.
-uuid: 1137e8c6-acec-4ae6-bc14-22f11021a53a
+uuid: 3c8bfb9b-2544-4982-9f1b-b68956f5e7b3
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: introduction
-discoiquuid: 6b1927f3-4d8b-40db-8d56-3ac4bac1310b
+discoiquuid: 8d98cfd4-d574-4358-9eac-ef9c14afecf8
+index: y
+internal: n
+snippet: y
 ---
 
 # Editor Limitations{#editor-limitations}

@@ -3,11 +3,14 @@ title: Rendering form template for HTML5 forms
 seo-title: Rendering form template for HTML5 forms
 description: HTML5 forms profiles are associated with profile renders. Profile Renders are JSP pages responsible for generating HTML representation of the form by calling the Forms OSGi service.
 seo-description: HTML5 forms profiles are associated with profile renders. Profile Renders are JSP pages responsible for generating HTML representation of the form by calling the Forms OSGi service.
-uuid: 4ae4cb88-b835-4d91-bc83-ced8f49764c3
+uuid: 8cf0df2f-12e2-4a43-a884-95604054cfb3
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
-discoiquuid: 002e36b3-c95d-4254-a0c6-634afa1b9844
+discoiquuid: 69f005b3-e918-4cc5-abd1-0e2d5da550af
+index: y
+internal: n
+snippet: y
 ---
 
 # Rendering form template for HTML5 forms{#rendering-form-template-for-html-forms}

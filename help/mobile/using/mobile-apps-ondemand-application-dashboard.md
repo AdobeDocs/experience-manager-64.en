@@ -3,12 +3,15 @@ title: AEM Mobile Application Dashboard
 seo-title: AEM Mobile Application Dashboard
 description: You can manage your application and mobile app content from AEM Mobile Application Dashboard or the Control Center. Follow this page to learn more.
 seo-description: You can manage your application and mobile app content from AEM Mobile Application Dashboard or the Control Center. Follow this page to learn more.
-uuid: b079fecb-bb74-4858-b0cc-835d9c0b85e4
+uuid: 1d99dc0a-31ad-4c46-b498-7bd2d8894e1d
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: authoring-on-demand-services-app
-discoiquuid: 22352b3b-a803-45c2-a420-7bacdbe190e1
+discoiquuid: 7e182ca5-6005-41b9-956a-3175f3459d0a
+index: y
+internal: n
+snippet: y
 ---
 
 # AEM Mobile Application Dashboard{#aem-mobile-application-dashboard}
@@ -55,7 +58,7 @@ The **Manage Connection** tile displays the AEM Mobile On-Demand Services connec
 >
 >Click the gear in the top right to setup a Mobile On-Demand Cloud configuration.
 >
->See [Configuring Mobile On-Demand Services](../../mobile/using/mobile-on-demand-associating-an-on-demand-app-to-cloud-configuration.md) for details.
+>See [Configuring Mobile On-Demand Services](../../mobile/using/mobile-on-demand-associating-an-On-Demand-app-to-cloud-configuration.md) for details.
 
 ![](assets/chlimage_1-56.png) 
 
@@ -131,7 +134,7 @@ The following image shows the **Manage Collections** tile in AEM Mobile Applicat
 Once you are familiar with the application dashboard, see the following resources to create a mobile app:
 
 * [Application Create and Configuration Actions](../../mobile/using/mobile-apps-ondemand-application-create-configure-action.md)
-* [Associating an On-Demand App to a Cloud Configuration](../../mobile/using/mobile-on-demand-associating-an-on-demand-app-to-cloud-configuration.md)
+* [Associating an On-Demand App to a Cloud Configuration](../../mobile/using/mobile-on-demand-associating-an-On-Demand-app-to-cloud-configuration.md)
 * [Content Management Actions](../../mobile/using/mobile-apps-ondemand-manage-content-ondemand.md)
 
 ### Additional Resources {#additional-resources}

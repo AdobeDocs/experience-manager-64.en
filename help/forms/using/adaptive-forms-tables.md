@@ -3,10 +3,13 @@ title: Tables in adaptive forms
 seo-title: Tables in adaptive forms
 description: The Table component in AEM Forms lets you create tables in adaptive forms that are responsive to mobile layouts, and also allows using XDP table components. 
 seo-description: The Table component in AEM Forms lets you create tables in adaptive forms that are responsive to mobile layouts, and also allows using XDP table components. 
-uuid: 498eca56-c083-4a69-8319-692ce3a40582
+uuid: 3562739c-41bf-44aa-9f6d-32b1d02987dc
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
-discoiquuid: 75a702e4-0447-43a4-b6f2-61114feabbfb
+discoiquuid: 413732c4-5700-4623-9510-9b7f2c9ee1be
+index: y
+internal: n
+snippet: y
 ---
 
 # Tables in adaptive forms{#tables-in-adaptive-forms}

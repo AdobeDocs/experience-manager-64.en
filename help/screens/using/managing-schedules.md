@@ -3,12 +3,15 @@ title: Creating and Managing Schedules
 seo-title: Managing Schedules
 description: Follow this page to learn about Schedules, that lets you organise channels into re-usable groups so that you do not have to repeat their assignment individually for each display on which you want to show your content.
 seo-description: Follow this page to learn about Schedules, that lets you organise channels into re-usable groups so that you do not have to repeat their assignment individually for each display on which you want to show your content.
-uuid: 88619d2f-d4ae-4255-bdf8-84616a349797
+uuid: 5ed58272-4cf6-48a1-9877-6ea7e9b89556
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: authoring
-discoiquuid: 12dd36a3-f3ed-456f-9700-eae05983f6d7
+discoiquuid: 6a75b4a9-4a66-41e7-9a49-eb3c5a33b9ce
+index: y
+internal: n
+snippet: y
 ---
 
 # Creating and Managing Schedules{#creating-and-managing-schedules}

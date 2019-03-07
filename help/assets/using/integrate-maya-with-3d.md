@@ -3,12 +3,15 @@ title: Integrating AEM 3D with Autodesk Maya
 seo-title: Integrating AEM 3D with Autodesk Maya
 description: You can optionally integrate AEM 3D with Autodesk® Maya® software to enable support for native Maya files (.MA and .MB) and to let you render 3D assets in AEM with any available Maya renderer.
 seo-description: You can optionally integrate AEM 3D with Autodesk® Maya® software to enable support for native Maya files (.MA and .MB) and to let you render 3D assets in AEM with any available Maya renderer.
-uuid: 5525e39c-943f-4445-872b-732574507ccb
+uuid: 6fe819e2-91bd-4af0-9258-314ca7890080
 contentOwner: Rick Brough
 topic-tags: 3D
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-discoiquuid: b7e79d7e-eeb1-47b5-9ab2-570f455c195c
+discoiquuid: 42d6095a-7f5d-4e89-88d6-aebd5fa7b0fa
+index: y
+internal: n
+snippet: y
 ---
 
 # Integrating AEM 3D with Autodesk Maya{#integrating-aem-d-with-autodesk-maya}

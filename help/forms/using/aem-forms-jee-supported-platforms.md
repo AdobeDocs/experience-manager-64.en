@@ -3,11 +3,14 @@ title: Supported Platforms for AEM Forms on JEE
 seo-title: Supported Platforms for AEM Forms on JEE
 description: List of infrastructure components required and supported for installing AEM Forms on JEE
 seo-description: List of infrastructure components required and supported for installing AEM Forms on JEE
-uuid: 7fd2c66f-ea48-4c98-a0fe-75d9e25cae87
+uuid: 4bd8a855-c939-4d7b-aa1f-c9ec60d9eac1
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 geptopics: SG_AEMFORMS/categories/jee
-discoiquuid: 4b94db41-fec5-43b6-8669-bbcc825117fb
+discoiquuid: 651cea6d-e37c-41d0-b745-17e549523eb2
+index: y
+internal: n
+snippet: y
 ---
 
 # Supported Platforms for AEM Forms on JEE{#supported-platforms-for-aem-forms-on-jee}
@@ -22,7 +25,7 @@ This document lists the supported client and server platforms for AEM Forms on J
 
 >[!NOTE]
 >
->* For a complete list of exceptions to supported server platforms, see [Exceptions to supported server platforms](../../forms/using/aem-forms-jee-supported-platforms.md#p-exceptions-to-supported-server-platforms-p).
+>* For a complete list of exceptions to supported server platforms, see [Exceptions to supported server platforms](../../forms/using/AEM-forms-JEE-supported-platforms.md#p-exceptions-to-supported-server-platforms-p).
 >* AEM Forms on JEE supports only English, French, German, and Japanese versions of the supported operating systems and applications.
 >
 
@@ -343,7 +346,7 @@ In addition, consider the following points while choosing software for Adobe AEM
 
 * AEM Forms on JEE supports updates, patches, and fix packs on top of the specified major and minor version of supported software. However, update to the next major or minor version is not supported unless specified.
 * Cluster-based installations do not support TarMK persistence. For information about supported persistence, see [Choosing a persistence type for an AEM Forms installation](../../forms/using/choosing-persistence-type-for-aem-forms.md).
-* AEM Forms on JEE supports various third-party software as per our [Third-party software support Policy](../../forms/using/aem-forms-jee-supported-platforms.md#p-third-party-patch-support-policy-p).
+* AEM Forms on JEE supports various third-party software as per our [Third-party software support Policy](../../forms/using/AEM-forms-JEE-supported-platforms.md#p-third-party-patch-support-policy-p).
 * AEM Forms on JEE supports platforms as per the support provided by third-party vendors. Some combinations may not be allowed by third-party vendors. For example, many vendors have not certified their application servers with IBM® DB2. As a result, AEM Forms on JEE also doesn’t support these combinations. To ensure that you choose the supported software versions, check the support matrix for the third-party vendors as well.  
 * AEM Forms on JEE does not support TarMK Cold Standby.
 * AEM Forms on JEE does not support vertical clustering.

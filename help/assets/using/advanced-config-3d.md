@@ -3,12 +3,15 @@ title: Advanced configuration settings
 seo-title: Advanced configuration settings
 description: Learn about advanced configuration settings that apply to the integration of AEM 3D for both Maya and non-Maya deployments.
 seo-description: Learn about advanced configuration settings that apply to the integration of AEM 3D for both Maya and non-Maya deployments.
-uuid: ddba3be1-6b65-49b9-a498-cbcd74b608eb
+uuid: dc38cbdb-b93c-4b90-b415-d31539be3205
 contentOwner: Rick Brough
 topic-tags: 3D
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-discoiquuid: 23790287-c23c-477d-93ab-1f573276110b
+discoiquuid: 99f437b3-e57b-43d2-a3d6-2006eb96ac38
+index: y
+internal: n
+snippet: y
 ---
 
 # Advanced configuration settings{#advanced-configuration-settings}
@@ -84,7 +87,8 @@ In CRXDE Lite in AEM (**Tools **&gt; **General **&gt; **CRXDE Lite**), access th
 
 ## Cloud Services Configuration Settings {#cloud-services-configuration-settings}
 
-Values for the following settings are provided by your Adobe account manager, provisioning expert, or support representative.
+Values for the following settings are provided by your Adobe account manager, provisioning expert, or support representative.**** 
+****
 
 | **Path** |**Description** |
 |---|---|

@@ -3,12 +3,15 @@ title: Run Modes
 seo-title: Run Modes
 description: Learn how to tune your AEM instance for specific purposes by using run modes.
 seo-description: Learn how to tune your AEM instance for specific purposes by using run modes.
-uuid: 80e96bf4-b707-449e-9c89-c3cce8eb5e92
+uuid: 98989e9b-c024-4768-8b33-5140626021f5
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: configuring
 content-type: reference
-discoiquuid: a4f53cd7-0412-45be-a852-30bfa92b6b9f
+discoiquuid: 475f7020-b32e-41ba-aa1e-bc42eba930e8
+index: y
+internal: n
+snippet: y
 ---
 
 # Run Modes{#run-modes}

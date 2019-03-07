@@ -3,12 +3,15 @@ title: Managing Activities
 seo-title: Managing Activities
 description: The Activities console enables you to create, organize, and manage the marketing activities of your brands
 seo-description: The Activities console enables you to create, organize, and manage the marketing activities of your brands
-uuid: 9b83b89e-aa4c-475f-a0b1-f612469f1efc
+uuid: a01c91ca-9964-4b1e-a8a9-f46445f27f1d
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: personalization
-discoiquuid: f831bd47-3a62-490a-8b30-36eca3ddaf30
+discoiquuid: ec889bd3-b838-4ded-b1fe-f0700e1aeeca
+index: y
+internal: n
+snippet: y
 ---
 
 # Managing Activities{#managing-activities}
@@ -75,7 +78,7 @@ Add an activity or edit an existing activity to focus your marketing efforts on 
 * **Targeting Engine:** Either [AEM](../../../sites/authoring/using/personalization.md#aem) or [Adobe Target](../../../sites/authoring/using/personalization.md#adobe-target) as the engine for targeted content.
 
 * **Select a Target Configuration:** (Adobe Target only) The cloud configuration that this activity should use to connect to Adobe Target. This option appears only when Adobe Target is selected for Targeting Engine.
-* **Activity Type:** The activity type - A/B Test or Experience targeting
+* **Activity Type: **The activity type - A/B Test or Experience targeting
 * **Objective:** (Optional) A description of the activity.
 * **Experiences:** Mappings between audience names and the marketing segments that you are targeting.
 * **Traffic Percentages:** If A/B test is selected, you can change how much traffic (in percent) goes to each experience.

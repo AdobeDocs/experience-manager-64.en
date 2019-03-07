@@ -3,11 +3,14 @@ title: Indexing via the Oak-run Jar
 seo-title: Indexing via the Oak-run Jar
 description: Learn how to perform indexing via the Oak-run Jar.
 seo-description: Learn how to perform indexing via the Oak-run Jar.
-uuid: 0aca6f82-c45c-4559-a164-6629ea436599
+uuid: 10e25777-7962-44f3-9ea1-7939b863b43b
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
-discoiquuid: 49a40712-bf79-4937-b3b4-5686c76ceaf0
+discoiquuid: 8c16f3f8-56c3-4a27-8b2f-20f7f41a1025
+index: y
+internal: n
+snippet: y
 ---
 
 # Indexing via the Oak-run Jar{#indexing-via-the-oak-run-jar}

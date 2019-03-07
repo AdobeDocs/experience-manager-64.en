@@ -3,12 +3,15 @@ title: Creative Project and PIM Integration
 seo-title: Creative Project and PIM Integration
 description: Creative Project provides marketers and creative professionals with tools to plan, manage, and track marketing requests and related creative processes within an organization.
 seo-description: Creative Project provides marketers and creative professionals with tools to plan, manage, and track marketing requests and related creative processes within an organization.
-uuid: 2c0140bf-18e6-4273-b19d-eade727fd9f0
+uuid: 2fefc547-ad70-4565-8894-0199a866a666
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: projects
 content-type: reference
-discoiquuid: 9d2499bb-ea14-496f-80d9-3fd57ca3d4e3
+discoiquuid: a7a65eb1-c577-42cd-8963-7b91744ae63b
+index: y
+internal: n
+snippet: y
 ---
 
 # Creative Project and PIM Integration{#creative-project-and-pim-integration}

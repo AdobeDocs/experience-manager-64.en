@@ -3,12 +3,15 @@ title: Workflow Step Reference
 seo-title: Workflow Step Reference
 description: null
 seo-description: null
-uuid: 9948f920-2d41-44be-a00c-8d6fcf02f68b
+uuid: 4b888fc8-d97d-420e-bbeb-66d86e7db71d
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
-discoiquuid: 8dcc991f-3385-4c36-9be7-7bfc7f257371
+discoiquuid: b7febc6c-dd82-41f1-86af-0f41adef214c
+index: y
+internal: n
+snippet: y
 ---
 
 # Workflow Step Reference{#workflow-step-reference}
@@ -44,7 +47,7 @@ A combination of the following properties are available for most workflow step c
 
 * **Timeout** 
   The period after which the step will be "timed out".  
-  You can select between:** Off**, **Immediate**, **1h**, **6h**, **12h**, **24h**.
+  You can select between: **Off**, **Immediate**, **1h**, **6h**, **12h**, **24h**.
 
 * **Timeout Handler** 
   The handler which will control the workflow when the step times out; for example:  

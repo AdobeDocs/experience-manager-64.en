@@ -3,12 +3,15 @@ title: Creating and managing policy sets
 seo-title: Creating and managing policy sets
 description: Policy sets are used to group policies that have a common business purpose. You can create, edit and delete policies in a policy set.
 seo-description: Policy sets are used to group policies that have a common business purpose. You can create, edit and delete policies in a policy set.
-uuid: cabbe3fa-9eb8-4fdb-8540-792c07a3e2ff
+uuid: 42602fce-3a5a-4357-a94f-840e2dfdd421
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_document_security
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 8454f08d-5d8b-48d1-bf35-db547afc85fc
+discoiquuid: 51453695-4cd5-4ed5-8d6b-bc7d3ff446ac
+index: y
+internal: n
+snippet: y
 ---
 
 # Creating and managing policy sets{#creating-and-managing-policy-sets}

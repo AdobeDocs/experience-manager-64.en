@@ -3,12 +3,15 @@ title: Adding Search&Promote Features To Your Page
 seo-title: Adding Search&Promote Features To Your Page
 description: Integrating Search&Promote capabilities in your web site, you can use the Search&Promote components to add features to your pages such as keyword search, search results page search refinement, and banners.
 seo-description: Integrating Search&Promote capabilities in your web site, you can use the Search&Promote components to add features to your pages such as keyword search, search results page search refinement, and banners.
-uuid: b6ba1e14-5710-4bce-9727-43de26b5dd94
+uuid: d992cbc8-0cad-4836-ae1d-0942ea0f3add
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
-discoiquuid: 00492119-5c3b-4dc8-81d8-5f36b144248b
+discoiquuid: c46bd288-6c31-42cd-80e9-0913cc190114
+index: y
+internal: n
+snippet: y
 ---
 
 # Adding Search&Promote Features To Your Page{#adding-search-promote-features-to-your-page}

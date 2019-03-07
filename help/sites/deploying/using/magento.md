@@ -3,13 +3,16 @@ title: Magento
 seo-title: Magento
 description: Learn how to deploy eCommerce with Magento.
 seo-description: Learn how to deploy eCommerce with Magento.
-uuid: afbcf201-ff60-4c0c-a326-433b1cd851e3
+uuid: 8e38cdee-57f6-457c-a781-11e6921e4cf3
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: e-commerce
 content-type: reference
-discoiquuid: c01389f1-6bfa-4dc2-83a7-81b34b99a7c5
+discoiquuid: 290e1322-63d4-4afd-8733-84669f95c7f7
 pagetitle: Deploying eCommerce with Magento
+index: y
+internal: n
+snippet: y
 ---
 
 # Magento{#magento}

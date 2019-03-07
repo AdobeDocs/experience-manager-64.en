@@ -3,12 +3,15 @@ title: Integrating with Dynamic Media Classic (Scene7)
 seo-title: Integrating with Dynamic Media Classic (Scene7)
 description: Learn how to integrate AEM with Scene7.
 seo-description: Learn how to integrate AEM with Scene7.
-uuid: 55b52f6a-6e2e-48d3-9858-83e092abb7fd
+uuid: d2eede33-9d54-45c3-bff4-578dbf195afa
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: 081c4b13-ebd3-4b4c-bbbb-8fa08be624ff
+discoiquuid: f58938ca-29e1-4e9f-ade8-acdc43c10e30
+index: y
+internal: n
+snippet: y
 ---
 
 # Integrating with Dynamic Media Classic (Scene7){#integrating-with-dynamic-media-classic-scene}

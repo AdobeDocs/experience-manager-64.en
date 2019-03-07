@@ -3,12 +3,15 @@ title: Starting and stopping services
 seo-title: Starting and stopping services
 description: Learn how to start and stop services associated with AEM Forms modules and the application server and database.
 seo-description: Learn how to start and stop services associated with AEM Forms modules and the application server and database.
-uuid: 939e6bb0-db2f-47f9-9a57-31b49b066ecd
+uuid: c2fdc528-55e7-4c65-b7e0-2a323e5c9acb
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/managing_services
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 95e93f81-b834-414b-ae99-2e80ab69e4a4
+discoiquuid: d2445ba1-ecb0-4602-a00d-c2d582041c6e
+index: y
+internal: n
+snippet: y
 ---
 
 # Starting and stopping services{#starting-and-stopping-services}

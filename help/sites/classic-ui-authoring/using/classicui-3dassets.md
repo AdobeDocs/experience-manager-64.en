@@ -3,12 +3,15 @@ title: Working with 3D assets
 seo-title: Working with 3D assets
 description: AEM 3D (Adobe Experience Manager 3D) lets you upload, manage, view, and render 3D content. Support for viewing and rendering is optimized for individual objects.
 seo-description: AEM 3D (Adobe Experience Manager 3D) lets you upload, manage, view, and render 3D content. Support for viewing and rendering is optimized for individual objects.
-uuid: 3de9eaa7-3f95-4f6a-9ac1-55627ff4b301
+uuid: 8b6068b7-4699-4b80-a7a0-9e1d3f096841
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: authoring
 content-type: reference
-discoiquuid: 42d5d6a9-66d0-4876-9758-eb41cdada7da
+discoiquuid: 3fea0efd-e351-44c4-9166-319ba06f30ec
+index: y
+internal: n
+snippet: y
 ---
 
 # Working with 3D assets{#working-with-d-assets}

@@ -3,12 +3,15 @@ title: Managing Content
 seo-title: Managing Content
 description: Content Management actions are the building blocks that help to create and manage content within an application. Follow this page to learn more.
 seo-description: Content Management actions are the building blocks that help to create and manage content within an application. Follow this page to learn more.
-uuid: 667836ad-9a7a-4a16-85ed-5f42f20359dd
+uuid: ba598cb4-1cb1-45bb-a535-73d0334897e5
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: authoring-on-demand-services-app
-discoiquuid: 2259cbcc-9426-48a4-908b-1a73dc32b92e
+discoiquuid: 4510df4c-ee92-466a-b74a-1bfc6bfc6cd0
+index: y
+internal: n
+snippet: y
 ---
 
 # Managing Content{#managing-content}
@@ -25,7 +28,7 @@ If you think of an online magazine, the main content includes articles, ads, and
 
 * **Articles**: text based along with art to convey information
 * **Banners:** typically graphical promotional links
-* **Collections:** represent a well defined *bucket* filled with content such as articles or banners that suits the cover's theme
+* **Collections: **represent a well defined *bucket* filled with content such as articles or banners that suits the cover's theme
 
 * **Shared Resources:** allows reuse or sharing of common pieces across articles
 

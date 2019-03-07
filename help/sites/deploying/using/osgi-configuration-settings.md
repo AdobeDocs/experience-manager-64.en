@@ -3,12 +3,15 @@ title: OSGi Configuration Settings
 seo-title: OSGi Configuration Settings
 description: This article details the OSGi configuration settings (listed according to bundle) that are relevant to project implementation. The list acts as a guideline and it is not exhaustive. 
 seo-description: This article details the OSGi configuration settings (listed according to bundle) that are relevant to project implementation. The list acts as a guideline and it is not exhaustive. 
-uuid: de35e84e-0c03-4ecf-8d2b-8a74c6130b5c
+uuid: 95ad69d0-d080-486c-8f92-5095eb993252
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: configuring
 content-type: reference
-discoiquuid: 2eddcda7-8056-4ceb-9fc6-5bc11be0d0be
+discoiquuid: 2ca6f220-06b8-411c-8faa-276796a68ba6
+index: y
+internal: n
+snippet: y
 ---
 
 # OSGi Configuration Settings{#osgi-configuration-settings}
@@ -246,7 +249,7 @@ Various parameters can be set, including:
 
 **Apache HTTP Components Proxy Configuration** Proxy configuration for all code using the Apache HTTP client, used when a HTTP is made; for example upon replication.
 
-When creating a new configuration, do not make changes to the factory configuration but instead create a new factory configuration for this component using the configuration manager available here:** http://localhost:4502/system/console/configMgr/**. The proxy configuration is available in **org.apache.http.proxyconfigurator.**
+When creating a new configuration, do not make changes to the factory configuration but instead create a new factory configuration for this component using the configuration manager available here: **http://localhost:4502/system/console/configMgr/**. The proxy configuration is available in **org.apache.http.proxyconfigurator.**
 
 >[!NOTE]
 >

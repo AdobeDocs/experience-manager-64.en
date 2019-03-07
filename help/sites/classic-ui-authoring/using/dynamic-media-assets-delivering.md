@@ -3,12 +3,15 @@ title: Delivering Dynamic Media Assets
 seo-title: Delivering Dynamic Media Assets
 description: With Dynamic Media you have several options to deliver your dynamic media assets - both video and images -  to your website.
 seo-description: With Dynamic Media you have several options to deliver your dynamic media assets - both video and images -  to your website.
-uuid: b633f726-7f67-4a97-84fe-743b06e6f8b5
+uuid: cf0e47f8-8218-4f83-95b8-386090debc9c
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: authoring
 content-type: reference
-discoiquuid: a6eb19a7-b441-4920-9fb7-04d17eff89e6
+discoiquuid: 2d11f32c-ff72-44f3-b793-7ea7d258ef95
+index: y
+internal: n
+snippet: y
 ---
 
 # Delivering Dynamic Media Assets{#delivering-dynamic-media-assets}

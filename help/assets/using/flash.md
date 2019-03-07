@@ -3,13 +3,16 @@ title: [Redirect] Authoring Adobe Flash Content
 seo-title: Authoring Adobe Flash Content
 description: null
 seo-description: null
-uuid: 4ca494d7-8792-4cda-a1ff-3fcfad911d61
+uuid: 06faec3f-0d81-4a64-a924-0ffda44486ba
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
-discoiquuid: b1c6f29b-5152-42b3-893e-f4b0a3fa3b30
+discoiquuid: 23f2e2aa-a218-4b43-83ba-5444fcbad8fc
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/assets/user-guide
+index: y
+internal: n
+snippet: y
 ---
 
 # [Redirect] Authoring Adobe Flash Content{#redirect-authoring-adobe-flash-content}

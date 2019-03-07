@@ -3,12 +3,15 @@ title: Overview of Workspace
 seo-title: Overview of Workspace
 description: The workspace lets users start, participate in, and track business processes. Let us learn more about the workspace.
 seo-description: The workspace lets users start, participate in, and track business processes. Let us learn more about the workspace.
-uuid: db113ed3-1163-474b-9f4d-d9f871ac9df9
+uuid: 65f1f01c-8f4f-41da-8236-e3fa4206540d
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_workspace
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: c1bf0835-f58b-4082-a3c4-8027afbaadce
+discoiquuid: 54185bee-08b8-421b-926f-1c22c7d10e47
+index: y
+internal: n
+snippet: y
 ---
 
 # Overview of Workspace{#overview-of-workspace}

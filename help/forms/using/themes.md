@@ -3,12 +3,15 @@ title: Creating and using themes
 seo-title: Creating and using themes
 description: You can use themes to stylize and provide a visual identity to an adaptive form or interactive communication. You can share a theme across any number of adaptive forms or interactive communications.
 seo-description: You can use themes to stylize and provide a visual identity to an adaptive form or interactive communication. You can share a theme across any number of adaptive forms or interactive communications.
-uuid: 4feec15e-43c9-485b-877d-6a0446a12e8c
+uuid: f3aace72-4145-473c-84cd-b8f4414d84b1
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 topic-tags: interactive-communications
 content-strategy: max-2018
-discoiquuid: 6ae941a1-8a8d-4a15-823e-549b49297cc4
+discoiquuid: 2feb0ce9-fcd9-48b3-8f40-77d9ea99d0e5
+index: y
+internal: n
+snippet: y
 ---
 
 # Creating and using themes{#creating-and-using-themes}
@@ -212,13 +215,13 @@ The Theme Editor is divided in two panels:
       When you customize all the field components with a specific background color, all the fields such as age, name, and address inherit the background color. When you select a numeric box, such as age, and reduce its width, width of all the numeric boxes such as age, number of people in a family is reduced. Width of text boxes is not changed.
 
     * **State:** Lets you customize styles of an object in a specific state. For example, you can specify how an object looks when it is in default, focus, disabled, hover, or error state.
-    * **Property Categories:** Styling properties are divided in various categories. For example Dimension & Position, Text, Background, Border, and Effects. Under each category, you provide styling information. For example, under Background, you can provide Background Color, and Image & Gradient. 
+    * **Property Categories:***** ***Styling properties are divided in various categories. For example Dimension & Position, Text, Background, Border, and Effects*.* Under each category, you provide styling information. For example, under Background, you can provide Background Color, and Image & Gradient. 
     
-    * **Advanced:** Lets you add custom CSS to an object, which overrides the properties visual controls define if there is an overlap. 
+    * **Advanced:***** ***Lets you add custom CSS to an object, which overrides the properties visual controls define if there is an overlap. 
     
     * **View CSS**: Lets you view CSS of the selected component
 
-  Also, in the Sidebar, at the bottom an arrow is present. When you click the arrow, you get two more options:** Simulate Success** and **Simulate Error. **These options, along with the options described above are discussed in detail [below](../../forms/using/themes.md#using-rail).
+  Also, in the Sidebar, at the bottom an arrow is present. When you click the arrow, you get two more options: **Simulate Success** and **Simulate Error. **These options, along with the options described above are discussed in detail [below](../../forms/using/themes.md#using-rail).
 
 [ ![Theme editor with Rail and Canvas highlighted.](assets/themes.png)](assets/themes-1.png) **A.** Sidebar **B.** Canvas
 
@@ -602,7 +605,7 @@ After you customize the theme, apply it to your form or interactive communicatio
 ## Impact on other adaptive form use cases {#impact-on-other-adaptive-form-use-cases}
 
 * **Publish/unpublish a form:** On publishing a form, theme applied to is also published (if it is not already published)
-* **Import/Export a form:** On importing or exporting a form, its associated theme is also automatically imported or exported.
+* **Import/Export a form: **On importing or exporting a form, its associated theme is also automatically imported or exported.
 * **References of a form:** The Refers section in form references contains an extra entry for the theme.
 * **Last Modification time of a form:** Updated when the associated theme is changed.
 * **A/B Testing:** You can apply a different theme to two versions of the form in A/B testing. The information of the two themes is individually stored on the two guide containers.

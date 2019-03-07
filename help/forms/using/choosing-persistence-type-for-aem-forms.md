@@ -3,12 +3,15 @@ title: Choosing a persistence type for an AEM Forms installation
 seo-title: Choosing a persistence type for an AEM Forms installation
 description: Choose a persistence type wisely. It helps you build an efficient and scalable AEM Forms environment. 
 seo-description: Choose a persistence type wisely. It helps you build an efficient and scale able AEM Forms environment. 
-uuid: 28f04c04-4813-453c-b990-d001781e242f
+uuid: 1e9c3e13-54d7-4aaa-9966-5e105f61f26f
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: installing
 geptopics: SG_AEMFORMS/categories/jee
-discoiquuid: 7f4ee5fe-6047-4ae2-84c8-bcf4083ce875
+discoiquuid: 81b0df11-0be8-4718-af62-dcde47bd1cae
+index: y
+internal: n
+snippet: y
 ---
 
 # Choosing a persistence type for an AEM Forms installation{#choosing-a-persistence-type-for-an-aem-forms-installation}
@@ -52,9 +55,9 @@ The following table lists all the supported persistence types along with various
  </tbody>
 </table>
 
-TarMK is designed for performance, while MongoMK and RDBMK are designed for scalability. Adobe highly recommends TarMK as the default persistence technology for all AEM Forms deployment scenarios, for both Author and Publish instances, except in the use cases outlined in section [Choosing Mongo or a Relational Database Microkernel over TarMK](#main-pars-header).
+TarMK is designed for performance, while MongoMK and RDBMK are designed for scalability. Adobe highly recommends TarMK as the default persistence technology for all AEM Forms deployment scenarios, for both Author and Publish instances, except in the use cases outlined in section [Choosing Mongo or a Relational Database Microkernel over TarMK](#p-choosing-mongo-or-a-relational-database-microkernel-over-tarmk-p).
 
-For the list of supported Microkernels, see [AEM Forms on OSGi Technical Requirements](../../sites/deploying/using/technical-requirements.md) or [AEM Forms on JEE supported platform combinations](../../forms/using/aem-forms-jee-supported-platforms.md) articles.
+For the list of supported Microkernels, see [AEM Forms on OSGi Technical Requirements](../../sites/deploying/using/technical-requirements.md) or [AEM Forms on JEE supported platform combinations](../../forms/using/AEM-forms-JEE-supported-platforms.md) articles.
 
 ## Choosing Mongo or a Relational Database Microkernel over TarMK {#choosing-mongo-or-a-relational-database-microkernel-over-tarmk}
 

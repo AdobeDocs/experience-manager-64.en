@@ -3,12 +3,15 @@ title: Opting Into Adobe Analytics and Adobe Target
 seo-title: Opting Into Adobe Analytics and Adobe Target
 description: Learn how to opt into Adobe Analytics and Adobe Target.
 seo-description: Learn how to opt into Adobe Analytics and Adobe Target.
-uuid: 474d2a2b-8365-4d4b-aac5-75ae86062540
+uuid: afe04798-a847-4453-b5b6-e03a2f856576
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: 91d07334-6b57-42fd-92d3-b71e3fa41e02
+discoiquuid: 020694aa-dde9-4799-a436-efd1828b3d1f
+index: y
+internal: n
+snippet: y
 ---
 
 # Opting Into Adobe Analytics and Adobe Target{#opting-into-adobe-analytics-and-adobe-target}

@@ -3,13 +3,16 @@ title: Editing Launches
 seo-title: Editing Launches
 description: When a launch has been created for a page (or set of pages) you can edit the content in the launch copy of the page(s).
 seo-description: When a launch has been created for a page (or set of pages) you can edit the content in the launch copy of the page(s).
-uuid: 160b2a98-a7a3-43db-9c61-4221ddef8124
+uuid: 7f7d5280-8ced-4502-ae77-5a1d60899e22
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
-discoiquuid: 159ad4e4-8f0c-45a3-a299-cfb1bdc5d683
+discoiquuid: 8656d332-b62f-4775-bde0-97364edec1b8
 legacypath: /content/docs/en/aem/6-0/author/site-page-features/launches
+index: y
+internal: n
+snippet: y
 ---
 
 # Editing Launches{#editing-launches}

@@ -3,12 +3,15 @@ title: Query Builder Predicate Reference
 seo-title: Query Builder Predicate Reference
 description: Complete predicate reference for the Query Builder API.
 seo-description: Complete predicate reference for the Query Builder API.
-uuid: 4c045751-5c84-4f69-b577-80287c88e1b9
+uuid: 76cbc59e-fd0e-467b-9f63-91b9a684bcf2
 contentOwner: sarchiz
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: platform
-discoiquuid: 5e6f3722-302c-487f-8b34-20850dd13f74
+discoiquuid: d5592811-25dd-40cf-885e-22ace8a7538c
+index: y
+internal: n
+snippet: y
 ---
 
 # Query Builder Predicate Reference{#query-builder-predicate-reference}

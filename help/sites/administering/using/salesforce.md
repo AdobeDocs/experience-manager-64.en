@@ -3,12 +3,15 @@ title: Integrating with Salesforce
 seo-title: Integrating with Salesforce
 description: Learn about integrating AEM with Salesforce.
 seo-description: Learn about integrating AEM with Salesforce.
-uuid: c79a7eb3-a3f1-45fa-99c7-287a11fb18f9
+uuid: c7677efa-8393-473b-ae56-c421664749fe
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: 8ee4fa4f-e3fd-4e9c-b442-2ab182db9405
+discoiquuid: 7d7e1861-a96a-4107-9c48-a3e6f2598102
+index: y
+internal: n
+snippet: y
 ---
 
 # Integrating with Salesforce{#integrating-with-salesforce}
@@ -46,7 +49,7 @@ To configure AEM to integrate with Salesforce:
 
    >[!NOTE]
    >
-   >The new configuration redirects to a new page:** http://localhost:4502/etc/cloudservices/salesforce/developer.html**. This is the exact same value that you need to specify in the Callback URL while createing the remote access application in Salesforce. These values must match.
+   >The new configuration redirects to a new page: **http://localhost:4502/etc/cloudservices/salesforce/developer.html**. This is the exact same value that you need to specify in the Callback URL while createing the remote access application in Salesforce. These values must match.
 
 1. Log in to your salesforce account (or if you do not have one, create one at [http://developer.force.com](http://developer.force.com).)
 1. In Salesforce, navigate to **Create** &gt; **Apps **to get to **Connected Apps** (in former versions of salesforce, the workflow was **Deploy** &gt; **Remote Access**). 

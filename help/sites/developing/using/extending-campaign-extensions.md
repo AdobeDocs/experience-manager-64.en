@@ -3,12 +3,15 @@ title: Creating Custom Extensions
 seo-title: Creating Custom Extensions
 description: You can call your custom code in Adobe Campaign from AEM or from AEM to Adobe Campaign
 seo-description: You can call your custom code in Adobe Campaign from AEM or from AEM to Adobe Campaign
-uuid: a6db8c28-2dbf-444e-9a6e-f0d90e771eab
+uuid: 1079a39b-87ab-40f7-8809-112754fd2508
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
-discoiquuid: a5484f9e-b287-4c31-a736-6ade2b6cf6c5
+discoiquuid: 83d2f834-5b64-4947-936c-cc579c4a7c49
+index: y
+internal: n
+snippet: y
 ---
 
 # Creating Custom Extensions{#creating-custom-extensions}

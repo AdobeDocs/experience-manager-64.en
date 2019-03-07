@@ -3,12 +3,15 @@ title: Organize Digital Assets
 seo-title: Organize Digital Assets
 description: null
 seo-description: null
-uuid: c7e1e937-e93f-4374-b38c-6cb2bb502fad
+uuid: 437ae39a-616b-4dfa-86ba-7563be4808f8
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference
-discoiquuid: bbd3e0f5-a47a-4dcc-991a-7841942cff8d
+discoiquuid: 5b738fd5-1f01-448d-9b3e-38354a623cf6
+index: y
+internal: n
+snippet: y
 ---
 
 # Organize Digital Assets{#organize-digital-assets}

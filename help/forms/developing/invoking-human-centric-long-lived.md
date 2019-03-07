@@ -3,12 +3,15 @@ title: Invoking Human-Centric Long-Lived Processes
 seo-title: Invoking Human-Centric Long-Lived Processes
 description: null
 seo-description: null
-uuid: 1163652b-3919-479d-acdd-59ed750f8a8b
+uuid: 1bf31c51-e77b-4cfd-8730-57fc6804297c
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: coding
-discoiquuid: b27da844-6444-48c5-8ffa-c169a2d19bbe
+discoiquuid: be3ea695-9009-4dc6-8c68-f51e43d25ced
+index: y
+internal: n
+snippet: y
 ---
 
 # Invoking Human-Centric Long-Lived Processes{#invoking-human-centric-long-lived-processes}
@@ -107,8 +110,8 @@ For the location of these JAR files, see [Including AEM Forms Java library files
 
 **Create a web project**
 
-1. Start Eclipse and click **File** &gt; **New Project**.
-1. In the **New Project** dialog box, select **Web** &gt; **Dynamic Web Project**.
+1. Start Eclipse and click **File **&gt; **New****Project**.
+1. In the **New Project** dialog box, select **Web **&gt;** Dynamic Web Project**.
 1. Type `InvokePreLoanProcess` for the name of your project and then click **Finish**.
 
 **Add required JAR files to your project**
@@ -121,13 +124,13 @@ For the location of these JAR files, see [Including AEM Forms Java library files
 
 1. From the Project Explorer window, right-click the `InvokePreLoanProcess` project and select **New **&gt; **Other**. 
 1. Expand the **Web** folder, select **Servlet**, and then click **Next**. 
-1. In the Create Servlet dialog box, type **`SubmitXML`** for the name of the servlet and then click **Finish**.
+1. In the Create Servlet dialog box, type `SubmitXML`****for the name of the servlet and then click **Finish**.
 
 **Add an HTML page to your project**
 
 1. From the Project Explorer window, right-click the `InvokePreLoanProcess` project and select **New** &gt; **Other**. 
 1. Expand the **Web** folder, select **HTML**, and click **Next**. 
-1. In the **New HTML** dialog box, type `index.html` for the filename and then click **Finish**.
+1. In the New HTML****dialog box, type `index.html` for the filename and then click **Finish**.
 
 >[!NOTE]
 >
@@ -482,7 +485,7 @@ Notice under Service References, there are two items. The first item is named* J
 1. In the **Language** box, select Visual C#
 1. Click OK.
 
-**Add service references:** 
+**Add service references: **
 
 1. In the Project menu, select **Add Service Reference**.
 1. In the **Address** dialog box, specify the WSDL to the Job Manager service.

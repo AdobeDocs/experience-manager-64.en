@@ -3,11 +3,14 @@ title: Adding attachments
 seo-title: Adding attachments
 description: Add photographs and scribble notes as annotations to your task in the AEM Forms app
 seo-description: Add photographs and scribble notes as annotations to your task in the AEM Forms app
-uuid: ecda3f74-79e5-4d2b-804d-da4ae2b9c214
+uuid: 16769d05-d06a-44a1-8d60-4c4200cb33cc
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
-discoiquuid: a702d8f9-480c-4500-9910-cdbd9d67c5b6
+discoiquuid: f6970506-ed1f-4391-b04c-5d60490bf6ed
+index: y
+internal: n
+snippet: y
 ---
 
 # Adding attachments{#adding-attachments}

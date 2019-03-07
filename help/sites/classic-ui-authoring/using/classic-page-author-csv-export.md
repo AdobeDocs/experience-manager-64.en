@@ -4,12 +4,15 @@ seo-title: Export to CSV
 description: Create CSV Export enables you to export information about your pages to a CSV file on your local system.
 seo-description: Create CSV Export enables you to export information about your pages to a CSV file on your local system.
 page-status-flag: de-activated
-uuid: 86d3e130-c869-429c-ae2f-e56ba05637cb
+uuid: 95213375-18e7-4c8f-964f-e554a474e38f
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: 0fccb5d3-bea4-4f2e-b46b-f2545ac12dea
+discoiquuid: e1e5ebff-af90-4f3d-bcca-82a98a0099b1
+index: y
+internal: n
+snippet: y
 ---
 
 # Export to CSV{#export-to-csv}

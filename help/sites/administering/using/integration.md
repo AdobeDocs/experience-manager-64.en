@@ -3,12 +3,15 @@ title: Solutions Integration
 seo-title: Solutions Integration
 description: Learn more about Solutions Integration in AEM.
 seo-description: Learn more about Solutions Integration in AEM.
-uuid: cfdafe7c-4eb8-40a2-8dd4-0c6b64a8c66d
+uuid: 47faaa2a-5582-408b-a9ad-a7c6ea69267b
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: 08f8b63c-2f6c-45c7-900f-1bd7b2a6b6d6
+discoiquuid: f91bb714-014e-4fec-b8b7-30a1479e7a57
+index: y
+internal: n
+snippet: y
 ---
 
 # Solutions Integration{#solutions-integration}

@@ -3,12 +3,15 @@ title: How to Run AEM with TarMK Cold Standby
 seo-title: How to Run AEM with TarMK Cold Standby
 description: Learn how to create, configure and maintain a TarMK Cold Standby setup.
 seo-description: Learn how to create, configure and maintain a TarMK Cold Standby setup.
-uuid: 77c51b31-b69a-43ac-a794-01de0190e042
+uuid: c988949f-0601-4359-b8bb-0661cb8c9c0e
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
-discoiquuid: baa4908f-edb9-4215-ae4a-dc9a32fe73ea
+discoiquuid: 521eae71-f66d-402c-974f-6b88a2fc4d2a
+index: y
+internal: n
+snippet: y
 ---
 
 # How to Run AEM with TarMK Cold Standby{#how-to-run-aem-with-tarmk-cold-standby}
@@ -279,7 +282,7 @@ The following OSGi settings are available for the Cold Standby service:
 * **Standby Read Timeout (`standby.readtimeout`):** Timeout for requests issued from the standby instance in milliseconds. **The recommended timeout setting is 43200000. It is generally advised you set the timeout to a value of at least 12 hours.  
   **
 
-* **Standby Automatic Cleanup (`standby.autoclean`):** Call the cleanup method if the size of the store increases on a sync cycle**.  
+* **Standby Automatic Cleanup (`standby.autoclean`): **Call the cleanup method if the size of the store increases on a sync cycle**.  
   **
 
 >[!NOTE]
@@ -316,7 +319,7 @@ The recommended way to apply hotfixes to a cold stanby setup is by installing th
 
 You can do this by following the steps outlined below:
 
-1. Stop the synchronization process on the cold standby instance by going to the JMX Console and using the **org.apache.jackrabbit.oak: Status ("Standby")**bean. For more information on how to do this, see the section on [Monitoring](#main-pars-title-7).
+1. Stop the synchronization process on the cold standby instance by going to the JMX Console and using the **org.apache.jackrabbit.oak: Status ("Standby")**bean. For more information on how to do this, see the section on [Monitoring](#monitoring).
 1. Stop the cold standby instance.
 1. Install the hotfix on the primary instance. For more details on how to install a hotfix, see [How to Work With Packages](../../../sites/administering/using/package-manager.md).
 1. Test the instance for issues after the installation. 

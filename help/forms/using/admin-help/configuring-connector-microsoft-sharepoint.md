@@ -3,12 +3,15 @@ title: Configuring Connector for Microsoft SharePoint
 seo-title: Configuring Connector for Microsoft SharePoint
 description: Configure Connector for Microsoft SharePoint to enable communication between AEM forms and Microsoft SharePoint.
 seo-description: Configure Connector for Microsoft SharePoint to enable communication between AEM forms and Microsoft SharePoint.
-uuid: 6b3a0825-3e16-4c67-b733-4c7efbd25f1d
+uuid: ca56fd99-55ab-45c7-91f7-49179fd8f2cc
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/connecting_to_a_content_management_system
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: ca2decd8-6fdd-4af2-8951-cae2e762d9c0
+discoiquuid: 19f9c1b0-9267-4391-b9ce-fccce1af3ddd
+index: y
+internal: n
+snippet: y
 ---
 
 # Configuring Connector for Microsoft SharePoint{#configuring-connector-for-microsoft-sharepoint}

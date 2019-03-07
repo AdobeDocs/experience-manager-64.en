@@ -3,11 +3,14 @@ title: REDIRECT Working with an AEM Screens Player
 seo-title: REDIRECT Working with an AEM Screens Player
 description: null
 seo-description: null
-uuid: 529d144d-71f6-4d38-89ff-39fec0a16710
+uuid: e9ecfc47-052f-42aa-9e49-70d538071a2c
 contentOwner: jsyal
-discoiquuid: f06f093d-0ebe-455e-a693-32dc6e16524f
+discoiquuid: 561d2f4e-42f6-4065-912b-a394bfb26179
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/screens/using/working-with-screens-player
+index: y
+internal: n
+snippet: y
 ---
 
 # REDIRECT Working with an AEM Screens Player{#redirect-working-with-an-aem-screens-player}

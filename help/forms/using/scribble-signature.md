@@ -3,12 +3,15 @@ title: Using Scribble Signature in HTML5 forms
 seo-title: Using Scribble Signature in HTML5 forms
 description: HTML5 forms are increasingly used on touch devices, and one common requirement is to support signatures. Signing documents on mobile devices is becoming an accepted way of signing forms on mobile devices. 
 seo-description: HTML5 forms are increasingly used on touch devices, and one common requirement is to support signatures. Signing documents on mobile devices is becoming an accepted way of signing forms on mobile devices. 
-uuid: 3ff60f3e-0dcd-427e-9674-8abd10bb314d
+uuid: 79488e14-c322-470c-8da3-e16709a8f3aa
 contentOwner: robhagat
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: designer
-discoiquuid: b4462350-bb4d-4bfa-b17c-3209cfa734f3
+discoiquuid: ca0e39cd-41b7-4402-ab09-fe764281bd69
+index: y
+internal: n
+snippet: y
 ---
 
 # Using Scribble Signature in HTML5 forms{#using-scribble-signature-in-html-forms}

@@ -3,10 +3,13 @@ title: We.Gov reference site FOIA walkthrough
 seo-title: We.Gov reference site FOIA walkthrough
 description: See the We.Gov reference site walkthrough to understand how AEM Forms helps governments receive and impart information requested by individuals under the Freedom of Information Act. 
 seo-description: See the We.Gov reference site walkthrough to understand how AEM Forms helps governments receive and impart information requested by individuals under the Freedom of Information Act. 
-uuid: 79c22f95-ad56-4633-a6b8-1827e98367cb
+uuid: 61241e28-4278-43cb-b236-83694580d794
 topic-tags: introduction
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: feb591f1-494f-470d-b9d8-a373afb9a3ea
+discoiquuid: 957021e2-028d-4c2a-bbfd-bfea8fbc573b
+index: y
+internal: n
+snippet: y
 ---
 
 # We.Gov reference site FOIA walkthrough{#we-gov-reference-site-foia-walkthrough}
@@ -47,7 +50,7 @@ In your browser, open `http://<hostname>:<PublishPort>/wegov`. In the We.Gov sit
 
 Sarah clicks **Apply** and in the Freedom of Information Act Request Form page, Sarah enters information including the following:
 
-* **Agency:** Sarah specifies the agency to which the request was addressed as Department of Justice - Office of Information Policy**. **
+* **Agency: **Sarah specifies the agency to which the request was addressed as Department of Justice - Office of Information Policy**. **
 
 * **Will Pay Up To**: Sarah specifies that she is willing to pay up to USD 100 for printing and postage expenses. 
 * **Describe the request in detail**: Sarah specifies "Requesting copy of the Administration for Children and Families case logs for fiscal years 2013 through 2016."
@@ -72,7 +75,7 @@ When Sarah fills and submits the FOIA application, a record of the application i
 
 ### See it yourself {#see-it-yourself-1}
 
-You can access the AEM inbox at http://&lt;***hostname***&gt;:&lt;***PublishPort***&gt;/content/we-finance/global/en/login.html?resource=/aem/inbox.html. Log in to the AEM inbox, using jjacobs/password as the username/password for John Jacobs, and see the FOIA application. For information about using AEM Inbox for forms-centric workflow tasks, see [Manage Forms applications and tasks in AEM Inbox](../../forms/using/manage-applications-inbox.md).
+You can access the AEM inbox at http://&lt;***hostname***&gt;:&lt;***PublishP******ort***&gt;/content/we-finance/global/en/login.html?resource=/aem/inbox.html. Log in to the AEM inbox, using jjacobs/password as the username/password for John Jacobs, and see the FOIA application. For information about using AEM Inbox for forms-centric workflow tasks, see [Manage Forms applications and tasks in AEM Inbox](../../forms/using/manage-applications-inbox.md).
 
 ![](assets/johnjacobs.png)
 
@@ -98,7 +101,7 @@ When John Jacobs approves the FOIA request, a PDF or Document of Record of the a
 
 ### See for yourself {#see-for-yourself}
 
-You can access the AEM inbox at http://&lt;***hostname***&gt;:&lt;***PublishPort***&gt;/content/we-finance/global/en/login.html?resource=/aem/inbox.html. Log in to the AEM inbox using grios/password as the username/password for Gloria Rios, and see the FOIS request.
+You can access the AEM inbox at http://&lt;***hostname***&gt;:&lt;***PublishP******ort***&gt;/content/we-finance/global/en/login.html?resource=/aem/inbox.html. Log in to the AEM inbox using grios/password as the username/password for Gloria Rios, and see the FOIS request.
 
 Gloria opens the request and examines the details of the FOIA request. After reviewing the details of the request and checking the feasibility of furnishing the required documents, Gloria approves the request. 
 

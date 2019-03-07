@@ -3,12 +3,15 @@ title: Applying Workflows to Assets
 seo-title: Applying Workflows to Assets
 description: Learn how to apply workflows to assets, folders, and collections in AEM Assets.
 seo-description: Learn how to apply workflows to assets, folders, and collections in AEM Assets.
-uuid: af5261cb-e245-4b56-879b-ee62ae5b1b2f
+uuid: 6079641d-7623-4142-9cb5-685b67b54f25
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
 topic-tags: authoring
-discoiquuid: 886602db-2a85-4a60-8dec-e9dc85ac71f9
+discoiquuid: 9f628aae-8a31-4fc4-8e0c-3a5fb9408b26
+index: y
+internal: n
+snippet: y
 ---
 
 # Applying Workflows to Assets{#applying-workflows-to-assets}

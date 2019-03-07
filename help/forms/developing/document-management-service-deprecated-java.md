@@ -3,12 +3,15 @@ title: Document Management Service (Deprecated)Java API Quick Start(SOAP)
 seo-title: Document Management Service (Deprecated)Java API Quick Start(SOAP)
 description: null
 seo-description: null
-uuid: a157e582-760c-4b9e-97e2-e8a02b25a7e6
+uuid: 72281de6-627e-482b-8f17-f75e52138c06
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
-discoiquuid: 77638c38-57f3-4e1f-b8d6-1ad987c7eba3
+discoiquuid: 64fa99fc-535e-4152-b752-87d1cab2530c
+index: y
+internal: n
+snippet: y
 ---
 
 # Document Management Service (Deprecated)Java API Quick Start(SOAP){#document-management-service-deprecated-java-api-quick-start-soap}

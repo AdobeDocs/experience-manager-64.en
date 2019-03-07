@@ -3,12 +3,15 @@ title: Configuring Connector for IBM FileNet
 seo-title: Configuring Connector for IBM FileNet
 description: Learn how to configure the Connector for IBM FileNet to enable communication between AEM forms and IBM FileNet.
 seo-description: Learn how to configure the Connector for IBM FileNet to enable communication between AEM forms and IBM FileNet.
-uuid: e7556185-01db-4711-aa97-8b8d8d30b94f
+uuid: c97bde9f-9099-40e2-9b7a-75467cc2fbd1
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/connecting_to_a_content_management_system
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 2fe75ac1-c2e9-4c67-b9fb-830e2e5989dc
+discoiquuid: 34f77d77-d700-4220-a77a-0e559cacf953
+index: y
+internal: n
+snippet: y
 ---
 
 # Configuring Connector for IBM FileNet{#configuring-connector-for-ibm-filenet}
@@ -36,8 +39,8 @@ IBM FileNet P8 Content Engine provides software services for managing enterprise
 
 1. In the Credential Protection Scheme list, select one of these protection levels:
 
-    * **Clear:** Sends credentials across the network in an unprotected mode
-    * **Symmetric:** Sends encrypted credentials across the network
+    * **Clear: **Sends credentials across the network in an unprotected mode
+    * **Symmetric: **Sends encrypted credentials across the network
 
 1. In the Encryption File Location box, enter the path to the encryption file:
 

@@ -3,12 +3,15 @@ title: Video Renditions
 seo-title: Video Renditions
 description: Follow this page to learn about generating full HD renditions for your Screens project.
 seo-description: Follow this page to learn about generating full HD renditions for your Screens project.
-uuid: c504e74d-f5ec-4202-bab8-5e2a14c29c80
+uuid: 5d7d1d48-72e5-460c-8c1a-5b7124ba94ed
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: authoring
-discoiquuid: 1219b1e8-f8ee-4dcc-88fa-99743e8703c2
+discoiquuid: 0f8c2645-22b9-4668-a74d-418188aa9901
+index: y
+internal: n
+snippet: y
 ---
 
 # Video Renditions{#video-renditions}
@@ -39,7 +42,7 @@ Follow the steps below to automatically generate full HD renditions:
 
    ![](assets/screen_shot_2018-02-01at124454pm.png)
 
-1. Select the **Process** tab to edit the process arguments. Enter the full HD profiles to the list in **Arguments** as:** *,profile:fullhd-bp,profile:fullhd-hp*** and click **OK**.
+1. Select the **Process** tab to edit the process arguments. Enter the full HD profiles to the list in **Arguments** as: ***,profile:fullhd-bp,profile:fullhd-hp*** and click **OK**.
 
    ![](assets/screen_shot_2018-02-02at103340am.png)
 

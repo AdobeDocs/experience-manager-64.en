@@ -3,12 +3,15 @@ title: Closed User Groups in AEM
 seo-title: Closed User Groups in AEM
 description: Learn about Closed User Groups in AEM.
 seo-description: Learn about Closed User Groups in AEM.
-uuid: 692dceff-4425-43fd-91ab-4793c8af2823
+uuid: c0b424d5-b9e9-4120-a9c8-914d48eed29e
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
-discoiquuid: 307aee1c-ead8-4370-8fee-268eca1dace4
+discoiquuid: 5cfe1524-3525-4fb0-9c68-9518902b5b08
+index: y
+internal: n
+snippet: y
 ---
 
 # Closed User Groups in AEM{#closed-user-groups-in-aem}
@@ -587,7 +590,7 @@ The default since AEM 6.3 prevents the following principals from being afected b
 * service user principals
 * repository internal system principal
 
-For more info, see the table in the [Default Configuration since AEM 6.3](#main-pars-title-440923711) section below.
+For more info, see the table in the [Default Configuration since AEM 6.3](#default-configuration-since-aem) section below.
 
 The exclusion of the 'administrators' group can be altered or expanded in the system console in the confguration section of **Apache Jackrabbit Oak CUG Exclude List**.
 

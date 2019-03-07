@@ -3,12 +3,15 @@ title: Configure AEM Assets integration with Experience Cloud and Creative Cloud
 seo-title: Configure AEM Assets integration with Marketing Cloud and Creative Cloud
 description: Learn how to configure AEM Assets integration with Experience Cloud and Creative Cloud.
 seo-description: Learn how to configure AEM Assets integration with Experience Cloud and Creative Cloud.
-uuid: 8b24317f-c0d9-484a-a574-373937a0b8a2
+uuid: 9887867c-8544-45cb-940b-8538bbf32ec0
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: 5bea19ba-d6a3-484f-87c6-0ad099b0298c
+discoiquuid: 4af87d46-e991-4723-b9d9-838a331729ea
+index: y
+internal: n
+snippet: y
 ---
 
 # Configure AEM Assets integration with Experience Cloud and Creative Cloud{#configure-aem-assets-integration-with-experience-cloud-and-creative-cloud}
@@ -44,13 +47,13 @@ Flow of data when AEM Assets and Creative Cloud are integrated
    >You require administrator privileges to create an application ID.
 
 1. From the left pane, navigate to **[!UICONTROL Developer Tools]** > **[!UICONTROL Applications]** to view a list of applications.
-1. Click **[!UICONTROL Add]** ** ![](assets/aem_assets_addcircle_icon.png) to create an application.
+1. Click **[!UICONTROL Add]**** ** ![](assets/aem_assets_addcircle_icon.png) to create an application.
 1. From the **[!UICONTROL Client Credentials]** list, select **[!UICONTROL Service Account (JWT Assertion)]**, which is a server-to-server communication service for server authentication.
 
    ![](assets/chlimage_1-325.png)
 
 1. Specify a name for the application and an optional description.
-1. From the **[!UICONTROL Organization]** **list, select the organization for which you want to synchronize assets.
+1. From the **[!UICONTROL Organization]**** **list, select the organization for which you want to synchronize assets.
 1. From the **[!UICONTROL Scope]** list, select **[!UICONTROL dam-read]**, **[!UICONTROL dam-sync]**, **[!UICONTROL dam-write]**, and **[!UICONTROL cc-share]**.
 1. Click **[!UICONTROL Create]**. A message notifies that the application is created.
 
@@ -76,7 +79,7 @@ Flow of data when AEM Assets and Creative Cloud are integrated
 
    ![Name a new configuration to integrate AEM Assets and CC](assets/chlimage_1-327.png)
 
-1. In the **[!UICONTROL Adobe Marketing Cloud DAM Synchronisation]** dialog, specify the name of your organization in the **[!UICONTROL Tenant]** **field.
+1. In the **[!UICONTROL Adobe Marketing Cloud DAM Synchronisation]** dialog, specify the name of your organization in the **[!UICONTROL Tenant]**** **field.
 
    The **[!UICONTROL Tenant]** field is the technical name of the organization. You are using the display name. In other words, the **[!UICONTROL Tenant]** field has the first part of the domain name. If you provide the display name, synchronization works in one direction only.
 

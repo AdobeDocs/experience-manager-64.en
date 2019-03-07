@@ -4,9 +4,12 @@ seo-title: Conditions
 description: Document Fragments, such as Text, lists, conditions, and layout fragments, in Correspondence Management let you form the static, dynamic, and repeatable components of customer correspondence.
 seo-description: Document Fragments, such as Text, lists, conditions, and layout fragments, in Correspondence Management let you form the static, dynamic, and repeatable components of customer correspondence.
 page-status-flag: never-activated
-uuid: 566e421c-1f1a-402a-88dd-f2c982b5e036
+uuid: 88d8b504-4705-4ac7-82df-28d9fc23eff8
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 7a6caa62-f322-4bef-bba3-ab3d6cead606
+discoiquuid: bcdddb9c-7a5f-4915-aaeb-f1e0b788e4a1
+index: y
+internal: n
+snippet: y
 ---
 
 # [DO NOT PUBLISH] Conditions{#do-not-publish-conditions}
@@ -34,8 +37,8 @@ The Condition editor enables you to specify a default condition. If the value of
 1. Select **Create &gt; Condition**.
 1. Specify the following information for the list:
 
-    * **Title (Optional):** Enter the title for the condition. Title needs not be unique and can have special characters and non-english characters. Conditions are referred by their titles (when available) such as in thumbnails and asset properties. 
-    * **Name:** The unique name for the condition. No two assets (text, condition, or list) in any state can exist with the same name. In the Name field, you can enter only English language characters, numbers, and hyphens. The Name field is automatically populated based on the Title field. The special characters, spaces, numbers, and non-English characters entered in the Title field are replaced with hyphens in the Name field. Although the value in the Title field is automatically copied to the Name, you can edit the value.
+    * **Title (Optional): **Enter the title for the condition. Title needs not be unique and can have special characters and non-english characters. Conditions are referred by their titles (when available) such as in thumbnails and asset properties. 
+    * **Name: **The unique name for the condition. No two assets (text, condition, or list) in any state can exist with the same name. In the Name field, you can enter only English language characters, numbers, and hyphens. The Name field is automatically populated based on the Title field. The special characters, spaces, numbers, and non-English characters entered in the Title field are replaced with hyphens in the Name field. Although the value in the Title field is automatically copied to the Name, you can edit the value.
     * **Description (Optional)** Type a description of the condition.
     * **Data Dictionary (Optional)**: Optionally, select the data dictionary to which to connect. Only assets that use the same data dictionary as the condition, or assets that have no data dictionary assigned, can be added to the list. Assigning a data dictionary to a list makes it easier for the person creating a letter template to find the appropriate condition.
     * **Tags (Optional)**: Optionally, select the tags to apply. You can also type in a new tag’s name and create it. (The new tag is created when you tap **Save**.)
@@ -65,8 +68,8 @@ The Condition editor enables you to specify a default condition. If the value of
 * Use appropriate data dictionary binding
 * The following rules apply when using the Condition Editor to edit a condition:
 
-    * **Addition of variable:** Allowed
-    * **Removal of variable:** Allowed
-    * **Update of properties:** Allowed
-    * **Change of data dictionary:** Allowed until data dictionary element is not used.
+    * **Addition of variable: **Allowed
+    * **Removal of variable: **Allowed
+    * **Update of properties: **Allowed
+    * **Change of data dictionary: **Allowed until data dictionary element is not used.
 

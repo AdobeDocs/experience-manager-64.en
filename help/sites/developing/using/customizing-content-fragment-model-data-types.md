@@ -4,10 +4,13 @@ seo-title: Customizing Data Types for Content Fragment Models
 description: Data types used in Content Fragment Models can be customized.
 seo-description: Data types used in Content Fragment Models can be customized.
 page-status-flag: de-activated
-uuid: 76ba484d-0c3d-4598-969a-95f8d0a3de5c
+uuid: eb629ef8-ab3a-4b93-8f38-b12bd803622e
 contentOwner: aheimoz
-discoiquuid: d327bb26-25fd-4a65-94a0-5d12ec090755
+discoiquuid: 00d82bce-4bcd-42eb-bac6-820a0643163e
 noindex: true
+index: y
+internal: n
+snippet: y
 ---
 
 # DO NOT PUBLISH, BUT DO NOT DELETE Customizing Data Types for Content Fragment Models{#do-not-publish-but-do-not-delete-customizing-data-types-for-content-fragment-models}

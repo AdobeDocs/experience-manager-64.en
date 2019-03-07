@@ -4,9 +4,12 @@ seo-title: [DO NOT PUBLISH] AEM Forms Error Code Reference (JEE Only)
 description: null
 seo-description: null
 page-status-flag: never-activated
-uuid: a320ee64-cf52-45a8-92ad-c5046932bc36
+uuid: 972fef28-66c5-4f8d-b12a-62b1074b06a9
 topic-tags: developer-reference
-discoiquuid: fc575780-3038-454f-bb6a-1fc5d615d444
+discoiquuid: 8d4d356c-9f74-46a2-855b-f364343ed016
+index: y
+internal: n
+snippet: y
 ---
 
 # [DO NOT PUBLISH] AEM Forms Error Code Reference (JEE Only){#do-not-publish-aem-forms-error-code-reference-jee-only}

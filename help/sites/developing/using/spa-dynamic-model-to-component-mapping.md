@@ -3,12 +3,15 @@ title: Dynamic Model to Component Mapping for SPAs
 seo-title: Dynamic Model to Component Mapping for SPAs
 description: This article describes how the dynamic model to component mapping occurs in the Javascript SPA SDK for AEM.
 seo-description: This article describes how the dynamic model to component mapping occurs in the Javascript SPA SDK for AEM.
-uuid: e1800c09-067d-4e2b-b490-e771853f5ab5
+uuid: 02d3772c-fbe4-4a70-9609-d4e1fb3c2ac3
 contentOwner: bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: spa
 content-type: reference
-discoiquuid: 3cf07489-d01f-42cd-a9bd-619892a88f84
+discoiquuid: 0de5dd3e-5b3e-4c22-9f1a-b6db95ab3e69
+index: y
+internal: n
+snippet: y
 ---
 
 # Dynamic Model to Component Mapping for SPAs{#dynamic-model-to-component-mapping-for-spas}

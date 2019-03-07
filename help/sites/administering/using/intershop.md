@@ -3,13 +3,16 @@ title: Intershop
 seo-title: Intershop
 description: Learn how to use AEM with Intershop.
 seo-description: Learn how to use AEM with Intershop.
-uuid: 26cb89d2-f665-4ccc-b36d-13f375987aa8
+uuid: 6b448226-a721-48dc-b49a-2506927ed329
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: e-commerce
 content-type: reference
-discoiquuid: fe8aed0a-1f37-4ef0-b8cf-1fd3fdcead5d
+discoiquuid: 407ebf90-ba4b-476a-b604-4a21d7920946
 pagetitle: Administering Intershop
+index: y
+internal: n
+snippet: y
 ---
 
 # Intershop{#intershop}

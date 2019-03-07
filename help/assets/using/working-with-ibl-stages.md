@@ -3,12 +3,15 @@ title: About working with IBL stages
 seo-title: About working with IBL stages
 description: AEM 3D supports image-based lighting (IBL) for both interactive viewing and rendering with the built-in Adobe Rapid Refine™ renderer and third-party renderers.
 seo-description: AEM 3D supports image-based lighting (IBL) for both interactive viewing and rendering with the built-in Adobe Rapid Refine™ renderer and third-party renderers.
-uuid: b3ce7624-47f3-46e5-9474-7f0beaa3a989
+uuid: 096a50fa-132a-43fe-a309-46f06d138043
 contentOwner: Rick Brough
 topic-tags: 3D
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-discoiquuid: a8cab5aa-2f44-4458-869a-9a02a14aaaf3
+discoiquuid: 346940c1-05a8-4b9f-b9c0-fa4a55f1c693
+index: y
+internal: n
+snippet: y
 ---
 
 # About working with IBL stages{#about-working-with-ibl-stages}

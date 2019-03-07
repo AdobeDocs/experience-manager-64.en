@@ -3,12 +3,15 @@ title: Assignments Essentials
 seo-title: Assignments Essentials
 description: Assignments feature overview for enablement communities
 seo-description: Assignments feature overview for enablement communities
-uuid: 65736077-5a41-4cb9-91b7-ee72baba45e6
+uuid: 299ccc85-bdc3-440a-9f53-344369a3bc42
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 8b44ea64-67ac-4bf0-8f1a-a84545032677
+discoiquuid: 65e20ba3-52e7-4bba-bc9b-ca0ed6147761
+index: y
+internal: n
+snippet: y
 ---
 
 # Assignments Essentials{#assignments-essentials}

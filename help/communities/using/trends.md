@@ -3,12 +3,15 @@ title: Activity Trends
 seo-title: Activity Trends
 description: Adding a Community Activity List component to a page
 seo-description: Adding a Community Activity List component to a page
-uuid: 057b6799-126e-4595-98bf-60a5fa7e0709
+uuid: 0377723f-ce52-4de6-8bf1-037a9315ae57
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
-discoiquuid: 80ffa1da-e5f2-426e-a3c6-7246d9a573ae
+discoiquuid: d441164e-8849-4e3a-9947-e46a25678e7b
+index: y
+internal: n
+snippet: y
 ---
 
 # Activity Trends{#activity-trends}

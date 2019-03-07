@@ -3,10 +3,13 @@ title: Associating submission reviewers with a form
 seo-title: Associating submission reviewers with a form
 description: Learn how to associate submission reviewers with a form in AEM Forms. Associated reviewers review a form submitted via forms portal.
 seo-description: Learn how to associate submission reviewers with a form in AEM Forms. Associated reviewers review a form submitted via forms portal.
-uuid: 56ee9835-a73c-4979-b481-8a4b43e5c524
+uuid: f708dc26-6d31-45ad-aadc-984d611631cf
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
-discoiquuid: d27f62d1-a4f8-4878-a42e-08fff4020b9f
+discoiquuid: dddd4f89-cdef-4852-9b20-d17e861dc0a9
+index: y
+internal: n
+snippet: y
 ---
 
 # Associating submission reviewers with a form{#associating-submission-reviewers-with-a-form}
@@ -54,7 +57,7 @@ Before you perform the following steps, see [Prerequisite](../../forms/using/add
 
 To create a group and add members to it, navigate to **Tools** &gt; **Operations** &gt; **Security** &gt; **Groups**.  
 For more information, see [User Administration and Services](../../sites/administering/using/security.md).   
-Ensure that you add the group you create as a member of the out-of-the-box user group:** forms-submission-reviewers**. This user group is shipped with AEM Forms, and it ensures that users are added as submission reviewers.
+Ensure that you add the group you create as a member of the out-of-the-box user group: **forms-submission-reviewers**. This user group is shipped with AEM Forms, and it ensures that users are added as submission reviewers.
 
 To associate user groups with an adaptive form:
 

@@ -3,12 +3,15 @@ title: Image Profiles
 seo-title: Image Profiles
 description: Create image profiles that contain settings for unsharp mask, and smart crop, or smart swatch, or both, then apply the profile to a folder of image assets.
 seo-description: Create image profiles that contain settings for unsharp mask, and smart crop, or smart swatch, or both, then apply the profile to a folder of image assets.
-uuid: eca6e6bd-c20d-4397-ba17-9d4a9e86c77d
+uuid: 250c2fa4-4ae2-4368-89e0-13d4e5462675
 contentOwner: Alva Ware-Bevacqui
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: d4eb05da-e08a-46d6-b412-d500163693a9
+discoiquuid: 80db308a-6c95-41aa-bcbf-4d88c9a9dd23
+index: y
+internal: n
+snippet: y
 ---
 
 # Image Profiles{#image-profiles}
@@ -165,7 +168,7 @@ To apply a profile globally, do one of the following:
 
   ![](assets/chlimage_1-262.png)
 
-* Navigate to CRXDE Lite to the following node:** /content/dam/jcr:content.**
+* Navigate to CRXDE Lite to the following node: **/content/dam/jcr:content.**
 
   Add the property** imageProfile:/conf/global/settings/dam/adminui-extension/imageprofile/&lt;name of image profile&gt; **and tap **Save All**. 
 

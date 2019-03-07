@@ -3,17 +3,20 @@ title: Using Comments
 seo-title: Using Comments
 description: Comments feature lets signed-in site visitors share their opinions and knowledge
 seo-description: Comments feature lets signed-in site visitors share their opinions and knowledge
-uuid: 675d2786-5d7e-4c0b-80d9-20127cdbeac1
+uuid: 7bde1422-faf2-42ad-94da-7297b51005b0
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
-discoiquuid: 6de83a6a-6a88-494c-a361-eba0cd1772e1
+discoiquuid: 4f3e7934-d726-4861-b1db-22ac224c5fa6
+index: y
+internal: n
+snippet: y
 ---
 
 # Using Comments{#using-comments}
 
-## Introduction {#introduction}
+### Introduction {#introduction}
 
 The comments feature is used to allow signed-in site visitors (members) to share their opinions and knowledge regarding content on the site. This feature is often already present in other features, but may be added to any website.
 
@@ -26,7 +29,7 @@ This section of the documentation describes
 >
 >Anonymous posting of a comment is not supported. Site visitors must register (become a member) and sign in to participate.
 
-## Adding Comments to a Page {#adding-comments-to-a-page}
+### Adding Comments to a Page {#adding-comments-to-a-page}
 
 To add a `Comments`component to a page in author mode, use the component browser to locate
 
@@ -44,13 +47,13 @@ When the [required client-side libraries](../../communities/using/essentials-com
 >
 >Only one `Comments`component may exist on a page. Be aware that several Communities features already include comments, such as a blog, calendar, forum, QnA, and reviews.
 
-## Configuring Comments {#configuring-comments}
+### Configuring Comments {#configuring-comments}
 
 Select the placed `Comments` component to access and select the `Configure` icon which opens the edit dialog.
 
 ![](assets/configure.png) ![](assets/commentssettings.png)
 
-### Comments tab {#comments-tab}
+#### Comments tab {#comments-tab}
 
 Under the **Comments **tab, specify how comments are entered by visitors.
 
@@ -84,7 +87,7 @@ Under the **Comments **tab, specify how comments are entered by visitors.
 * **Display Badges** 
   If checked, allow earned and awarded badges to be displayed. Default is unchecked.
 
-### User Moderation tab {#user-moderation-tab}
+#### User Moderation tab {#user-moderation-tab}
 
 Under the **User Moderation **tab, specify how the posted comments are managed. For more information, see [Moderating User Generated Content](../../communities/using/moderate-ugc.md).
 
@@ -115,7 +118,7 @@ Under the **User Moderation **tab, specify how the posted comments are managed. 
 * **Flagging Limit** 
   Enter the number of times a comment has to be flagged before it is hidden from public view. This number must be greater than or equal to the **Moderation Threshold**. Default is 5.
 
-### Sort Settings tab {#sort-settings-tab}
+#### Sort Settings tab {#sort-settings-tab}
 
 Under the **Sort Settings **tab, specify how the posted comments are sorted when displayed.
 
@@ -125,13 +128,13 @@ Under the **Sort Settings **tab, specify how the posted comments are sorted when
 * **Sort Order** 
   Pull down to select one of `Ascending` or `Descending`.
 
-## Changing to a Custom Comment Type {#changing-to-a-custom-comment-type}
+### Changing to a Custom Comment Type {#changing-to-a-custom-comment-type}
 
 By changing the Comment Resource Type, the comment system will no longer generate an instance of a comment using the default, but rather one that has been customized (extended) by developers.
 
 Once the custom resource types is known, enter [Design Mode](../../sites/authoring/using/default-components-designmode.md) and double click on the placed `Comments` component to open a dialog with an additional tab.
 
-Under the **Resource Types** tab, specify the custom resourceType for new instances of the `Comments or Voting`components :
+Under the **Resource Types **tab, specify the custom resourceType for new instances of the `Comments or Voting`components :
 
 ![](assets/chlimage_1-429.png)
 
@@ -146,13 +149,13 @@ Under the **Resource Types** tab, specify the custom resourceType for new instan
 * **Comment System Resource Type** 
   Navigate to the resourceType of an extended `comments`component (Comment System) in /apps. Leave blank unless the page template [dynamically includes](../../communities/using/scf.md#addorincludeacommunitiescomponent) the Comment System in the underlying script instead of being added to the page as a resource (comments node). Learn more by reading about the [{{include}} helper](../../communities/using/handlebars-helpers.md#include).
 
-## Site Visitor Experience {#site-visitor-experience}
+### Site Visitor Experience {#site-visitor-experience}
 
-### Moderators and Administrators {#moderators-and-administrators}
+#### Moderators and Administrators {#moderators-and-administrators}
 
 When the signed in user has moderator or administrator privileges, they are able to perform the moderation tasks permitted by the configuration of the component, regardless of who authored the comment.
 
-### Members {#members}
+#### Members {#members}
 
 When the site visitor is signed in, depending on the configuration, they may
 
@@ -161,11 +164,11 @@ When the site visitor is signed in, depending on the configuration, they may
 * delete their own comment
 * flag others' comments
 
-### Anonymous {#anonymous}
+#### Anonymous {#anonymous}
 
 Site visitors who are not signed in may only read posted comments, translate them if supported, but may not add a comment nor flag others' comments.
 
-## Additional Information {#additional-information}
+### Additional Information {#additional-information}
 
 More information may be found on the [Comments Essentials](../../communities/using/essentials-comments.md) page for developers.
 

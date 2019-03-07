@@ -3,12 +3,15 @@ title: Editing Page Content
 seo-title: Editing Page Content
 description: Once your page is created you can edit the content to make the updates you require
 seo-description: Once your page is created you can edit the content to make the updates you require
-uuid: ade05dc5-a7cd-4185-a8ae-cf3d4df9f261
+uuid: 221f7599-a455-4194-814c-72a59a649bad
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: 978d5d3c-0f5f-4fdb-81bf-cc5c67be2287
+discoiquuid: 525dc8e6-7e83-4406-b999-5eb5b6430ab1
+index: y
+internal: n
+snippet: y
 ---
 
 # Editing Page Content{#editing-page-content}

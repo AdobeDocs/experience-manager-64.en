@@ -3,12 +3,15 @@ title: Best Practices for Queries and Indexing
 seo-title: Best Practices for Queries and Indexing
 description: This article provides guidelines on how to optimize your indexes and queries.
 seo-description: This article provides guidelines on how to optimize your indexes and queries.
-uuid: 25cfd6d8-1c4f-4c42-a7a7-38a6973fc530
+uuid: 6aeca48e-4f27-433a-8f49-139164135ed0
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
-discoiquuid: ea5b1d2b-3eb4-4f53-9837-918584539679
+discoiquuid: 73a4ded5-8501-4579-b2dd-b20f64121d2c
+index: y
+internal: n
+snippet: y
 ---
 
 # Best Practices for Queries and Indexing{#best-practices-for-queries-and-indexing}
@@ -31,7 +34,7 @@ Additionally, when designing a taxonomy, it is important to consider whether ord
 
 ### Queries in Components {#queries-in-components}
 
-Since queries can be one of the more taxing operations done on an AEM system, it is a good idea to avoid them in your components. Having several queries execute each time a page is rendered can often degrade the performance of the system. There are two strategies that can be used to avoid executing queries when rendering components:** traversing nodes** and **prefetching results**.
+Since queries can be one of the more taxing operations done on an AEM system, it is a good idea to avoid them in your components. Having several queries execute each time a page is rendered can often degrade the performance of the system. There are two strategies that can be used to avoid executing queries when rendering components: **traversing nodes** and **prefetching results**.
 
 #### Traversing Nodes {#traversing-nodes}
 
