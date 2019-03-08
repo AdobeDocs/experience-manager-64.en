@@ -3,12 +3,12 @@ title: Naming Conventions
 seo-title: Naming Conventions
 description: Nodes in the repository are subject to naming conventions of the Java Content Repository
 seo-description: Nodes in the repository are subject to naming conventions of the Java Content Repository
-uuid: a4d003ba-165f-426b-bc38-ab04389b4f47
+uuid: 73ccdc7f-f187-4a66-b281-613d2f68bf26
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
-discoiquuid: b560c589-65c6-46ac-9dee-72b0e257ba67
+discoiquuid: 76fe332a-6cc6-4b37-8f7c-0bccada4143c
 index: y
 internal: n
 snippet: y
@@ -16,23 +16,23 @@ snippet: y
 
 # Naming Conventions{#naming-conventions}
 
-Nodes in the repository are subject to naming conventions of the [Java Content Repository](../../../sites/developing/using/the-basics.md#javacontentrepository). However AEM imposes further conventions for the name of page nodes.
+Nodes in the repository are subject to naming conventions of the [Java Content Repository](../../../sites/developing/using/the-basics.md#java-content-repository). However AEM imposes further conventions for the name of page nodes.
 
 ## Naming Conventions for Pages {#naming-conventions-for-pages}
 
 These naming conventions are implemented at various levels:
 
-* JcrUtil: the AEM implementation of the [JCR utilities](#jcrutilities).
-* PageManager: the [Page Manager](#pagemanager) provides methods for page level operations.
+* JcrUtil: the AEM implementation of the [JCR utilities](#jcr-utilities).
+* PageManager: the [Page Manager](#page-manager) provides methods for page level operations.
 * According to the UI being used:
 
-    * [Standard, touch-enabled UI](#standardui)  
+    * [Standard, touch-enabled UI](#standard-ui)  
     
-    * [Classic UI](#classicui)
+    * [Classic UI](#classic-ui)
 
 ### JCR Utilities {#jcr-utilities}
 
-[JcrUtil](/sites/developing/using/reference-materials/javadoc/index.html?com/day/cq/commons/jcr/JcrUtil) is the AEM implementation of the JCR utilities. Of particular interest to validating names are the character mappings that it controls and the following validations:
+[JcrUtil](/sites/developing/using/reference-materials/javadoc/index.html?com/day/cq/commons/jcr/JcrUtil.md) is the AEM implementation of the JCR utilities. Of particular interest to validating names are the character mappings that it controls and the following validations:
 
 * `isValidName`
 
@@ -46,7 +46,7 @@ These naming conventions are implemented at various levels:
 
 ### Page Manager {#page-manager}
 
-[PageManager](/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/api/PageManager) provides methods for page level operations, based on [JCRUtil](#jcrutilities).
+[PageManager](/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/api/PageManager.md) provides methods for page level operations, based on [JCRUtil](#jcr-utilities).
 
 ### Standard UI {#standard-ui}
 

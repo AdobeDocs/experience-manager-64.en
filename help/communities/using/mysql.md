@@ -3,12 +3,12 @@ title: MySQL Configuration for Enablement Features
 seo-title: MySQL Configuration for Enablement Features
 description: Connecting your MySQL server
 seo-description: Connecting your MySQL server
-uuid: 4733e996-60fb-43dd-a117-0f46997f1347
+uuid: 0e47fb5f-815e-432e-b668-6499ef8a8bda
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: f28414a2-d28e-4182-b547-512645a93eb5
+discoiquuid: bf443655-8bf4-4322-bfc6-263e34af9d29
 index: y
 internal: n
 snippet: y
@@ -29,7 +29,7 @@ Before configuring MySQL for Communities' enablement feature, be sure to
     * version 5.7 is not supported for SCORM
     * may be same server as author AEM instance
 
-* on all AEM instances, install the official [JDBC driver for MySQL](../../communities/using/deploy-communities.md#jdbcdriverformysql)
+* on all AEM instances, install the official [JDBC driver for MySQL](../../communities/using/deploy-communities.md#jdbc-driver-for-mysql)
 * install [MySQL workbench](http://dev.mysql.com/downloads/tools/workbench/)
 * on all AEM instances, install the [SCORM package](../../communities/using/enablement.md#scorm)
 
@@ -94,7 +94,7 @@ When the MySQL Workbench is first launched, unless already in use for other purp
 **Notes **:
 
 * the default port is 3306
-* the `Connection Name` chosen is entered as the `datasource` name in [JDBC OSGi configuration](#configurejdbcconnections)
+* the `Connection Name` chosen is entered as the `datasource` name in [JDBC OSGi configuration](#configure-jdbc-connections)
 
 #### Successful Connection {#successful-connection}
 
@@ -141,7 +141,7 @@ The Enablement SCORM Database to be created is :
     * schema : `database_scormengine.sql`
     * data : `database_scorm_integration.sql`
 
-Follow the steps below ([open](#step1opensqlfile), [execute](#step2executesqlscript)) to install each [SQL script](#obtainsqlscripts) . [Refresh](#refresh) when necessary to see the results of the script execution.
+Follow the steps below ([open](#step-open-sql-file), [execute](#step-execute-sql-script)) to install each [SQL script](#obtain-sql-scripts) . [Refresh](#refresh) when necessary to see the results of the script execution.
 
 Be sure to install the schema before installing the data.
 
@@ -149,8 +149,8 @@ Be sure to install the schema before installing the data.
 >
 >If the database name is changed, be sure to specify it correctly in
 >
->* [JDBC config](#configurejdbcconnections)
->* [SCORM config](#configurescorm)
+>* [JDBC config](#configure-jdbc-connections)
+>* [SCORM config](#configure-scorm)
 >
 
 #### Step 1 : open SQL file {#step-open-sql-file}
@@ -219,7 +219,7 @@ When MySQL runs on a server different from AEM, the server hostname must be spec
       else enter the configured password for the MySQL Username
     
     * **...**
-    * **Datasource name** : name entered for the [MySQL connection](#newconnectionsettings), for example, 'enablement'
+    * **Datasource name** : name entered for the [MySQL connection](#new-connection-settings), for example, 'enablement'
 
 * select **Save**
 
@@ -229,11 +229,11 @@ When MySQL runs on a server different from AEM, the server hostname must be spec
 
 The OSGi configuration for **AEM Communities ScormEngine Service** configures SCORM for an enablement community's use of the MySQL server.
 
-This configuration is present when the [SCORM package](../../communities/using/deploy-communities.md#scormpackage) is installed.
+This configuration is present when the [SCORM package](../../communities/using/deploy-communities.md#scorm-package) is installed.
 
 All publish and author instances point to the same MySQL server.
 
-When MySQL runs on a server different from AEM, the server hostname must be specified in place of 'localhost' in the ScormEngine Serivce, which is typically populated from the [JDBC Connection](#configurejdbcconnections) config.
+When MySQL runs on a server different from AEM, the server hostname must be specified in place of 'localhost' in the ScormEngine Serivce, which is typically populated from the [JDBC Connection](#configure-jdbc-connections) config.
 
 * on each author and publish AEM instance
 * signed in with administrator privileges

@@ -3,9 +3,9 @@ title: REDIRECT Implementing Chrome OS Player
 seo-title: REDIRECT Implementing Chrome OS Player
 description: null
 seo-description: null
-uuid: d9132e81-0714-4846-8196-b360fe8be352
+uuid: 2671f18d-cfb7-48b0-b24a-3568e4fbe52c
 contentOwner: jsyal
-discoiquuid: eac11911-8a7f-4cc9-9b4b-b6c234d5e6c9
+discoiquuid: 03e5a29c-6ca6-4c9e-b13b-ae670ce1702b
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/screens/using/implementing-chrome-os-player
 index: y

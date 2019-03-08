@@ -3,12 +3,12 @@ title: APIs to work with submitted forms on forms portal
 seo-title: APIs to work with submitted forms on forms portal
 description: AEM Forms provides APIs that you can use to query and take actions on submitted forms data in forms portal. 
 seo-description: AEM Forms provides APIs that you can use to query and take actions on submitted forms data in forms portal. 
-uuid: 006d30f0-d680-4428-8464-eaecb4886ae0
+uuid: a9877f9e-7cfa-4b59-903e-43032d102edc
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: publish
 topic-tags: developer-reference
-discoiquuid: 208a0675-1474-42bb-83cf-8db5445b42f4
+discoiquuid: 17f1b733-ff80-4e66-9eca-552e314a55e2
 index: y
 internal: n
 snippet: y

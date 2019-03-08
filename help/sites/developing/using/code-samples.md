@@ -3,12 +3,12 @@ title: Code Samples
 seo-title: Code Samples
 description: The Adobe Consulting Services Team has generated a series of AEM code samples
 seo-description: The Adobe Consulting Services Team has generated a series of AEM code samples
-uuid: 89deef06-dbf6-4786-8cf7-7102f470eb53
+uuid: 2fc763f5-8875-40e2-b44f-38493c1e5c78
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
-discoiquuid: 9b993b1c-7f15-4f1f-bcb1-3f8bcd76325a
+discoiquuid: 72f76d77-1532-4e04-84d3-cfcbb9d4e1d2
 index: y
 internal: n
 snippet: y

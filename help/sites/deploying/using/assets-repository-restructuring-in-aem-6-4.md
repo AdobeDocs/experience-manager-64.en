@@ -3,11 +3,11 @@ title: Assets Repository Restructuring in AEM 6.4
 seo-title: Assets Repository Restructuring in AEM 6.4
 description: Learn how to make the necessary changes in order to migrate to the new repository structure in AEM 6.4 for Assets.
 seo-description: Learn how to make the necessary changes in order to migrate to the new repository structure in AEM 6.4 for Assets.
-uuid: ee9d8e00-b40b-4a78-b88a-845aed0e23c5
+uuid: 39684d34-2382-47fc-b483-bff2a69f15b7
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: repo_restructuring
-discoiquuid: c5515b93-286d-4f19-8355-d7adf63d89be
+discoiquuid: 01ca1d80-1395-4b8d-89a2-0b45ef488e61
 index: y
 internal: n
 snippet: y
@@ -24,13 +24,13 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 **Prior to 6.5 Upgrade**
 
 * [Asset/Collection Event E-mail Notification Template](../../../sites/deploying/using/assets-repository-restructuring-in-aem-6-4.md#asset-collection-event-e-mail-notification-template)
-* [Classic Asset Share Designs](../../../sites/deploying/using/assets-repository-restructuring-in-aem-6-4.md#classicassetsharedesigns)
-* [Download Asset E-mail Notification Template](../../../sites/deploying/using/assets-repository-restructuring-in-aem-6-4.md#downloadassetemailnotificationtemplate)
-* [Example DRM Licenses](../../../sites/deploying/using/assets-repository-restructuring-in-aem-6-4.md#exampledrmlicenses)  
+* [Classic Asset Share Designs](../../../sites/deploying/using/assets-repository-restructuring-in-aem-6-4.md#classic-asset-share-designs)
+* [Download Asset E-mail Notification Template](../../../sites/deploying/using/assets-repository-restructuring-in-aem-6-4.md#download-asset-e-mail-notification-template)
+* [Example DRM Licenses](../../../sites/deploying/using/assets-repository-restructuring-in-aem-6-4.md#example-drm-licenses)  
 
-* [Link Share E-mail Notification Template](../../../sites/deploying/using/assets-repository-restructuring-in-aem-6-4.md#linkshareemailnotificationtemplate)
-* [InDesign Workflow Scripts](../../../sites/deploying/using/assets-repository-restructuring-in-aem-6-4.md#indesignworkflowscripts)
-* [Video Transcoding Configurations](../../../sites/deploying/using/assets-repository-restructuring-in-aem-6-4.md#videotranscodingconfigurations)
+* [Link Share E-mail Notification Template](../../../sites/deploying/using/assets-repository-restructuring-in-aem-6-4.md#link-share-e-mail-notification-template)
+* [InDesign Workflow Scripts](../../../sites/deploying/using/assets-repository-restructuring-in-aem-6-4.md#indesign-workflow-scripts)
+* [Video Transcoding Configurations](../../../sites/deploying/using/assets-repository-restructuring-in-aem-6-4.md#video-transcoding-configurations)
 * [Misc](../../../sites/deploying/using/assets-repository-restructuring-in-aem-6-4.md#main-pars-header-284561465)
 
 ## With 6.4 Upgrade {#with-upgrade}

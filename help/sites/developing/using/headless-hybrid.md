@@ -3,11 +3,11 @@ title: Headless and Hybrid with AEM
 seo-title: Headless and Hybrid with AEM
 description: How to author and deliver multichannel content with a headless or hybrid implementation of AEM. 
 seo-description: How to author and deliver multichannel content with a headless or hybrid implementation of AEM. 
-uuid: 4e471e17-1d22-4835-bbe0-3cf85ce868ec
+uuid: ded2f538-082d-4218-9bcc-a369dd2014c7
 content-type: reference
 topic-tags: headless
 products: SG_EXPERIENCEMANAGER/6.4/SITES
-discoiquuid: a245c884-6122-439e-947e-159eed4e3434
+discoiquuid: e7ec9698-b401-4af4-a36f-4ccd00368b1c
 redirecttarget: https //www.adobe.com/content/dam/www/us/en/marketing/experience-manager-sites/headless-content-management-system/pdfs/aem-hybrid-architecture-wp-1-18-19.pdf
 index: y
 internal: n

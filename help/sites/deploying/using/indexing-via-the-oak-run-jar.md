@@ -3,11 +3,11 @@ title: Indexing via the Oak-run Jar
 seo-title: Indexing via the Oak-run Jar
 description: Learn how to perform indexing via the Oak-run Jar.
 seo-description: Learn how to perform indexing via the Oak-run Jar.
-uuid: cbf4a9b3-4f7d-494a-b2fc-22b519b6df8d
+uuid: 4417f149-10ff-43ad-9cf1-fd6324efe882
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
-discoiquuid: 69943bce-3a37-447f-9d64-56f4c7eeee27
+discoiquuid: 0a448509-6437-40c5-aa5e-305ec7ed69d2
 index: y
 internal: n
 snippet: y
@@ -61,7 +61,7 @@ This diagram is a decision tree for when to use the various re-indexing approach
 
 ### Text Pre-extraction for SegmentNodeStore and DocumentNodeStore {#textpre-extraction}
 
-[Text pre-extraction](../../../sites/deploying/using/best-practices-for-queries-and-indexing.md#howtoperformtextpreextraction) (a feature that has existed with AEM 6.3) can be used to reduce the time to re-index. Text pre-extraction can be used in conjunction with all re-indexing approaches.
+[Text pre-extraction](../../../sites/deploying/using/best-practices-for-queries-and-indexing.md#how-to-perform-text-pre-extraction) (a feature that has existed with AEM 6.3) can be used to reduce the time to re-index. Text pre-extraction can be used in conjunction with all re-indexing approaches.
 
 Depending on the `oak-run.jar` indexing approach there will be various steps on either side of the Perform Re-index step in the diagram below.
 

@@ -3,11 +3,11 @@ title: Watched folder in AEM Forms
 seo-title: Watched folder in AEM Forms
 description: An administrator can put a folder on watch and start a workflow, service, or script operation when a file is placed in the folder being watched.
 seo-description: An administrator can put a folder on watch and start a workflow, service, or script operation when a file is placed in the folder being watched.
-uuid: 3ecca002-337b-4fa7-a3b1-11e986d875ba
+uuid: 32000b14-c009-48ff-b8c5-a595829467cc
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: publish
-discoiquuid: a7c97225-d826-49d9-be80-656ff89bc99e
+discoiquuid: ae8407ee-d499-45a5-8022-28e58845a963
 index: y
 internal: n
 snippet: y

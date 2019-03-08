@@ -3,12 +3,12 @@ title: Deploying Best Practices
 seo-title: Deploying Best Practices
 description: Deploying and maintaining best practices.
 seo-description: Deploying and maintaining best practices.
-uuid: c3cd29c0-64f6-425e-8613-156dbcf1dbfa
+uuid: 0387336a-e8c8-41d0-8898-3d49c832d37a
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
-discoiquuid: 06f58280-12c6-4323-a927-4a8555855530
+discoiquuid: be1a266f-ac35-49ce-9312-5971702ffa70
 index: y
 internal: n
 snippet: y
@@ -73,7 +73,7 @@ AEM Communities simplifies the creation and management of on-premise Communities
 
 | Community Content Persistence | [Community Content Store](../../../communities/using/working-with-srp.md) |Discusses the new shared storage feature for user generated content (UGC) and the considerations for choosing the underlying [topology](../../../communities/using/topologies.md). |
 |---|---|---|
-| Deployments for Communities | [Recommended deployments](../../../sites/deploying/using/recommended-deploys.md#considerationsforaemcommunities) |Describes the recommended deployments for Communities. |
+| Deployments for Communities | [Recommended deployments](../../../sites/deploying/using/recommended-deploys.md#considerations-for-aem-communities) |Describes the recommended deployments for Communities. |
 
 ## UI {#ui}
 
@@ -90,12 +90,12 @@ Best practices around performance are listed here:
  <tbody>
   <tr>
    <td>Best Practices for Quality Assurance</td> 
-   <td><a href="../../../sites/deploying/using/configuring-performance.md#bestpracticesforqualityassurance">Best Practices for Quality Assurance</a></td> 
+   <td><a href="../../../sites/deploying/using/configuring-performance.md#best-practices-for-quality-assurance">Best Practices for Quality Assurance</a></td> 
    <td>A standardized overview of the issues involved with defining a Test Concept specifically for performance tests on your <em>publish</em> environment. This is primarily of interest to QA engineers, project managers and system administrators.</td> 
   </tr>
   <tr>
    <td>Using Dispatcher with a CDN</td> 
-   <td><a href="https://helpx.adobe.com/experience-manager/dispatcher/using/dispatcher.html#UsingDispatcherwithaCDN">Using Dispatcher with a CDN</a></td> 
+   <td><a href="https://helpx.adobe.com/experience-manager/dispatcher/using/dispatcher.html#using-dispatcher-with-a-cdn">Using Dispatcher with a CDN</a></td> 
    <td>A content delivery network (CDN), such as Akamai Edge Delivery or Amazon Cloud Front, deliver content from a location close to the end user.</td> 
   </tr>
   <tr>

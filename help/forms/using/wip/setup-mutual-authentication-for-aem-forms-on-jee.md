@@ -4,9 +4,9 @@ seo-title: [DO NOT PUBLISH] Set up Mutual Authentication for AEM Forms on JEE
 description: null
 seo-description: null
 page-status-flag: never-activated
-uuid: d4c550c4-2b3d-4bd6-b304-bc25af4c9148
+uuid: 6fc8b7f8-3d05-4a97-a36e-dcfe0aa293ed
 contentOwner: khsingh
-discoiquuid: 9c841fad-bc7a-4b4d-84ad-cdd5b9ff6a0a
+discoiquuid: eb19e43c-7b21-4942-853a-0d18177b387c
 index: y
 internal: n
 snippet: y
@@ -35,8 +35,8 @@ Configure application server and AEM Forms on JEE server to provide secure loggi
 Perform the following additional configurations to enable authenticate via a system user certificate instead of a pre-configured user name and password for Microsoft SharePoint, authenticate users using CAC cards, allow indexing protected documents, securely logging in to AEM Forms Workbench:
 
 * [Configure Microsoft SharePoint Connector Web part changes](https://helpx.adobe.com/livecycle/kb/cac-mutual-authentication.html#p-sharepoint-connector-web-part-changes-p)
-* [Configure document security iFilter](/content#main-pars_header_5)
-* [Provide access to HTML Workspace through CAC authentication](/content#main-pars_header_29601462)
+* [Configure document security iFilter](/content.md#main-pars_header_5)
+* [Provide access to HTML Workspace through CAC authentication](/content.md#main-pars_header_29601462)
 * Configure Workbench
 
 ### Pre-requisites {#pre-requisites}

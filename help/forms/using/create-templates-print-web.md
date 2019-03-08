@@ -3,10 +3,10 @@ title: "Tutorial: Create templates"
 seo-title: Create Print and Web templates for Interactive Communication
 description: Create Print and Web templates for Interactive Communication
 seo-description: Create Print and Web templates for Interactive Communication
-uuid: eb74632e-cc94-4ec6-b1a0-5475df78960e
+uuid: d1d66185-8846-4dee-b924-aea0c703d115
 contentOwner: anujkapo
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 8df792fe-4d39-4fb3-aa51-63d063d06cda
+discoiquuid: dcace538-2ffa-403d-a521-7d7fd63901de
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Configuring Dispatcher for Communities
 seo-title: Configuring Dispatcher for Communities
 description: Configure the dispatcher for AEM Communities
 seo-description: Configure the dispatcher for AEM Communities
-uuid: 8a3f4957-ed42-48db-b65b-8e589e03cba4
+uuid: 90f59bc4-7590-47e1-aaaa-ad35efdad069
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 content-type: reference
 topic-tags: deploying
-discoiquuid: 074bbe4d-6f17-412e-a997-e92ebf6cc01d
+discoiquuid: 0c1e625b-0b58-4b20-aca6-13f3b190980a
 index: y
 internal: n
 snippet: y
@@ -18,7 +18,7 @@ snippet: y
 
 ## AEM Communities {#aem-communities}
 
-For AEM Communities, it is necessary to configure the Dispatcher to ensure proper functioning of [community sites](../../communities/using/overview.md#communitysites). Additional configurations are necessary when including features such as Communities enablement and social login.
+For AEM Communities, it is necessary to configure the Dispatcher to ensure proper functioning of [community sites](../../communities/using/overview.md#community-sites). Additional configurations are necessary when including features such as Communities enablement and social login.
 
 To learn what is necessary for your particular deployment and site design
 

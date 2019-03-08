@@ -3,12 +3,12 @@ title: Client Context
 seo-title: Client Context
 description: Learn how to use the Client Context in AEM.
 seo-description: Learn how to use the Client Context in AEM.
-uuid: 48efb663-5311-400d-bd0c-9a5f0ef90094
+uuid: 7e52cb67-7cae-405d-a32d-242846156204
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: 62a6f335-48a5-4b7a-9418-5d58933376cf
+discoiquuid: 9f046029-0ee1-416f-b02f-003e6aaf589d
 index: y
 internal: n
 snippet: y
@@ -40,14 +40,14 @@ The icons (only available in the author environment) allow you to configure the 
   A new page will open allowing you to [edit, add or remove a profile property](#editingprofiledetails).  
 
 * **Load** 
-  You can [select from a list of profiles and load the profile](#loadinganewuserprofile) you want to test.  
+  You can [select from a list of profiles and load the profile](#loading-a-new-user-profile) you want to test.  
 
 * **Reset** 
-  You can [reset the profile](#resettingtheprofiletothecurrentuser) to that of the current user.
+  You can [reset the profile](#resetting-the-profile-to-the-current-user) to that of the current user.
 
 ## Available Client Context Components {#available-client-context-components}
 
-The Client Context can show the following properties ([depending on what has been selected using Edit](#addingapropertycomponent)):
+The Client Context can show the following properties ([depending on what has been selected using Edit](#adding-a-property-component)):
 
 **Surfer Information** Shows the following client-side information:
 
@@ -138,10 +138,10 @@ The Client Context allows you to interactively change details:
 
 You can change the profile by either:
 
-* [using the load icon](#loadinganewvisitorprofilewiththeloadprofileicon)
+* [using the load icon](#loading-a-new-visitor-profile-with-the-load-profile-icon)
 * [using the selection slider](#loadinganewvisitorprofilewiththeselectionslider)
 
-When finished you can [reset the profile](#resettingtheprofiletothecurrentuser).
+When finished you can [reset the profile](#resetting-the-profile-to-the-current-user).
 
 #### Loading a New Visitor Profile with the Load Profile Icon {#loading-a-new-visitor-profile-with-the-load-profile-icon}
 

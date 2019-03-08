@@ -3,12 +3,12 @@ title: Preparing AEM Forms for Backup
 seo-title: Preparing AEM Forms for Backup
 description: null
 seo-description: null
-uuid: f3c763d7-bbc7-4d25-acb5-c7776098f01b
+uuid: 1a6cef6a-35b9-4abe-ab1b-12dc65d64e06
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: c4f9d5ab-2bfa-40fa-94f4-84a30e5bc791
+discoiquuid: 283ec8a2-4359-4291-b590-e3ceb1a7f4d8
 index: y
 internal: n
 snippet: y
@@ -74,7 +74,7 @@ To create an application that enters backup mode, perform the following steps:
 
 Include necessary files in your development project. These files are important to include in your project for compiling your code properly and using the Backup and Restore Service API.
 
-For information about the location of these files, see [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files).
+For information about the location of these files, see [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files).
 
 **Create a BackupService Client API object**
 
@@ -114,7 +114,7 @@ Enter backup mode by using the Backup and Restore Service API:
 
    You use a `ServiceClientFactory` object and the BackupService client API object together.
 
-    * Create a `ServiceClientFactory` object that contains connection properties. (See [Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties).)
+    * Create a `ServiceClientFactory` object that contains connection properties. (See [Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties).)
     * Create an `BackupService` object by using its constructor and passing the `ServiceClientFactory` object.
 
 1. Decide upon a unique label, determine the amount of time to perform the backup, and decide whether to be in continuous backup mode
@@ -197,7 +197,7 @@ To leave backup mode, perform the following steps:
 
 Include all necessary files in your development project. These files are important for compiling your code properly and using the Backup and Restore Service API.
 
-For information about the location of these files, see [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files).
+For information about the location of these files, see [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files).
 
 **Create a BackupService Client API object**
 
@@ -229,7 +229,7 @@ Leave backup mode by using the Backup and Restore Service API (Java):
 
    You use a `ServiceClientFactory` object and the BackupService client API object together.
 
-    * Create a `ServiceClientFactory` object that contains connection properties. (See [Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties).)
+    * Create a `ServiceClientFactory` object that contains connection properties. (See [Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties).)
     * Create a `BackupService` object by using its constructor and passing the `ServiceClientFactory` object as parameter.
 
 1. Enter backup mode

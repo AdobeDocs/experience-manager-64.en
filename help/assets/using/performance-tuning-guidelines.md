@@ -3,12 +3,12 @@ title: Assets Performance Tuning Guide
 seo-title: Assets Performance Tuning Guide
 description: Key focus areas around AEM configuration, changes to hardware, software, and network components to remove bottlenecks and optimize the performance of AEM Assets.
 seo-description: Key focus areas around AEM configuration, changes to hardware, software, and network components to remove bottlenecks and optimize the performance of AEM Assets.
-uuid: 625b5e83-91e0-45a9-9f91-e69156c7b925
+uuid: caf615ea-c304-4b4a-8265-f4e4c6804bc0
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: 8ba96240-748b-494d-b35b-b08687361862
+discoiquuid: 0bcf0e80-6e99-47ce-bd80-8c502dcac863
 tagskeywords: performance tuning, AEM Assets, software optimization, hardware optimization
 index: y
 internal: n
@@ -130,7 +130,7 @@ Wherever possible, set the DAM Update Asset workflow to Transient. The setting s
 >
 >By default, the DAM Update Asset workflow is set to Transient in AEM 6.3. In this case, you can skip the following procedure.
 
-1. Open [http://localhost:4502/miscadmin](/miscadmin) on the AEM instance you want to configure.  
+1. Open [http://localhost:4502/miscadmin](/miscadmin.md) on the AEM instance you want to configure.  
 
 1. From the navigation tree, expand **[!UICONTROL Tools]** > **[!UICONTROL Workflow]** > **[!UICONTROL Models]** > **[!UICONTROL dam]**.
 1. Double-click **[!UICONTROL DAM Update Asset]**.

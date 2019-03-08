@@ -3,12 +3,12 @@ title: Global document storage directory
 seo-title: Global document storage directory
 description: The global document storage (GDS) directory is a directory used to store long-lived files that are used within a process.
 seo-description: The global document storage (GDS) directory is a directory used to store long-lived files that are used within a process.
-uuid: 41925518-d93c-4228-97ed-41d1176bc179
+uuid: 289ec394-515e-4a2a-947a-e26f793df05b
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/maintaining_the_application_server
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 0e58b931-1c75-4f64-9e4b-1ee1ec2de904
+discoiquuid: dc9481f6-e424-4070-bf2d-5a3b01a31761
 index: y
 internal: n
 snippet: y
@@ -101,5 +101,5 @@ Modules and AEM forms archive files are packaged in JAR files. Because they are 
 
 >[!NOTE]
 >
->Before you deploy the service containers, ensure that you created and configured the GDS directory. (See [Configuring the GDS directory](global-document-storage-directory#configuring_the_gds_directory))
+>Before you deploy the service containers, ensure that you created and configured the GDS directory. (See [Configuring the GDS directory](global-document-storage-directory.md#configuring_the_gds_directory))
 

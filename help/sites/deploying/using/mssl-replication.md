@@ -3,12 +3,12 @@ title: Replicating Using Mutual SSL
 seo-title: Replicating Using Mutual SSL
 description: Learn how to configure AEM so that a replication agent on the author instance uses mutual SSL (MSSL) to connect with the publish instance. Using MSSL, the replication agent and the HTTP service on the publish instance use certificates to authenticate each other. 
 seo-description: Learn how to configure AEM so that a replication agent on the author instance uses mutual SSL (MSSL) to connect with the publish instance. Using MSSL, the replication agent and the HTTP service on the publish instance use certificates to authenticate each other. 
-uuid: ccf08fff-19a8-434f-9768-aee81dfeadc5
+uuid: 64359381-f017-4422-a777-fb2388a74f2c
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: configuring
-discoiquuid: 01a9bdde-de4a-4632-a224-5d8c720933a0
+discoiquuid: 2249c59d-7e66-4a83-81dc-775f187751c8
 index: y
 internal: n
 snippet: y
@@ -220,7 +220,7 @@ The following table lists the OSGi properties that you need to configure whether
 
 ## Configure the Replication Agent on Author {#configure-the-replication-agent-on-author}
 
-Configure the replication agent on the author instance to use the HTTPS protocol when connecting to the publish instance. For complete information about configuring replication agents see [Configuring Your Replication Agents](../../../sites/deploying/using/replication.md#configuringyourreplicationagents).
+Configure the replication agent on the author instance to use the HTTPS protocol when connecting to the publish instance. For complete information about configuring replication agents see [Configuring Your Replication Agents](../../../sites/deploying/using/replication.md#configuring-your-replication-agents).
 
 To enable MSSL, configure the properties on the Transport tab according to the following table:
 

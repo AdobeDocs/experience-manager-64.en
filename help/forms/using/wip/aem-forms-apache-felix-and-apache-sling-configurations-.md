@@ -4,10 +4,10 @@ seo-title: "DO NOT PUBLISH: AEM Forms Apache Felix and Apache Sling configuratio
 description: This article explores all the Apache Felix/Apache Sling configurations of AEM Forms. These configurations help you change the behavior of an AEM Forms author and publish instance.
 seo-description: This article explores all the Apache Felix/Apache Sling configurations of AEM Forms. These configurations help you change the behavior of an AEM Forms author and publish instance.
 page-status-flag: never-activated
-uuid: 27438653-5534-4a1b-b79d-54c11a836e5d
+uuid: 9511768f-1922-4384-8f52-c95e336ab050
 contentOwner: khsingh
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 37ff376c-858b-4f84-9ee5-938722e5fbdf
+discoiquuid: 97af0174-7fc2-48ae-9eac-5e1ae2f3e2d8
 index: y
 internal: n
 snippet: y
@@ -83,13 +83,13 @@ Barcoded Forms service extracts data from electronic images of barcodes. By defa
 
 AEM Forms PDF Generator enables IT managers to centrally manage and control the creation of Adobe PDF documents throughout the enterprise. With it, employees can easily convert documents created within the organization to Adobe PDF files that can be viewed using the ubiquitous Adobe Reader® software. PDF Generator offers flexible deployment options, granular control over document properties, and feature sets that can meet the document conversion needs of every organization.
 
-* To install, configure, and run PDF Generator on an **AEM Forms on OSGi** environment, see the [Install and Configure PDF Generator](/forms/using/install-configure-pdf-generator) article.
+* To install, configure, and run PDF Generator on an **AEM Forms on OSGi** environment, see the [Install and Configure PDF Generator](/forms/using/install-configure-pdf-generator.md) article.
 
-* To install, configure, and run PDF generator on an **AEM Forms on JEE **environment, see AEM Forms on JEE specific Installing, Upgrading, and Clustering documentation at [AEM Forms help and tutorials](/forms/using/topics).
+* To install, configure, and run PDF generator on an **AEM Forms on JEE **environment, see AEM Forms on JEE specific Installing, Upgrading, and Clustering documentation at [AEM Forms help and tutorials](/forms/using/topics.md).
 
-The Reader Extensions service enables your organization to easily share interactive PDF documents by extending the functionality of Adobe Reader with additional usage rights. The Reader Extension service is part of the [DocAssurance Service](../../../forms/using/overview-aem-document-services.md). To configure the DocAssurance service, perform the steps listed in the [Configuring the DocAssurance service](/forms/using/configuring-document-services) article.
+The Reader Extensions service enables your organization to easily share interactive PDF documents by extending the functionality of Adobe Reader with additional usage rights. The Reader Extension service is part of the [DocAssurance Service](../../../forms/using/overview-aem-document-services.md). To configure the DocAssurance service, perform the steps listed in the [Configuring the DocAssurance service](/forms/using/configuring-document-services.md) article.
 
-The Signature service accesses certificates and credentials that are stored in the trust store. It lets you work with digital signatures and documents on the AEM server. The signature service is part of the [DocAssurance Service](../../../forms/using/overview-aem-document-services.md). To configure the DocAssurance service, perform the steps listed in the [Configuring the DocAssurance service](/forms/using/configuring-document-services) article.
+The Signature service accesses certificates and credentials that are stored in the trust store. It lets you work with digital signatures and documents on the AEM server. The signature service is part of the [DocAssurance Service](../../../forms/using/overview-aem-document-services.md). To configure the DocAssurance service, perform the steps listed in the [Configuring the DocAssurance service](/forms/using/configuring-document-services.md) article.
 
 AEM Forms can also use credentials stored on an HSM or etoken to eSign or apply server-sided digital signatures to a document. Hardware security modules (HSM) and etokens are dedicated, hardened, and tamper-resistance computing devices designed to securely manage, process, and store digital keys. These devices are directly attached to a computer or a network server. For detailed steps to use an HSM or etoken device with AEM Forms, see [Use HSM to digitally sign or certify documents](../../../forms/using/hsm-certify-esign-docs.md).
 

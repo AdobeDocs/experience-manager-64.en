@@ -3,14 +3,14 @@ title: Migrate AEM Forms assets and documents
 seo-title: Migrate AEM Forms assets and documents
 description: The Migration utility allows you to Migrate AEM Forms assets and documents from AEM 6.3 Forms or prior versions to AEM 6.4 Forms.
 seo-description: The Migration utility allows you to Migrate AEM Forms assets and documents from AEM 6.3 Forms or prior versions to AEM 6.4 Forms.
-uuid: 8d54f438-3664-47a1-9f9d-a773ccf807f6
+uuid: 4e9b313a-d23c-4904-b0a1-361958ac3529
 content-type: reference
 topic-tags: correspondence-management
 topic-tags: installing
 geptopics: SG_AEMFORMS/categories/jee
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 content-strategy: max-2018
-discoiquuid: 918f46a1-03f4-43e5-a8ef-384975d9d439
+discoiquuid: b9a28f8d-6eeb-469a-ad29-bc14005c1ff5
 index: y
 internal: n
 snippet: y

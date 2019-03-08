@@ -4,8 +4,8 @@ seo-title: "[DO NOT PUBLISH] Tutorial: Create an adaptive form"
 description: Learn to create, layout, and preview an adaptive form. Also, learn to configure submit actions.
 seo-description: Learn to create, layout, and preview an adaptive form. Also, learn to configure submit actions.
 page-status-flag: de-activated
-uuid: aaba1f9c-b4d4-4295-b0d4-35f90fca9405
-discoiquuid: fb9dfbee-f142-4ea0-a314-9cc8910547c7
+uuid: 9f32a8a1-0c43-4ceb-a963-b23be567e684
+discoiquuid: 9ca6a14f-fa90-44ad-ab2c-e0cf33c8bfe3
 index: y
 internal: n
 snippet: y
@@ -75,7 +75,7 @@ AEM Forms provides many components to display information on an adaptive form. H
 
 ## Step 3: Add components to capture and display information {#step-add-components-to-capture-and-display-information}
 
-Components are building blocks of an adaptive form. AEM Forms provides many components to capture and display information in an adaptive form. You can drag the components from ![](assets/treeexpandall.png) to a form. To learn about available components and corresponding functionality, see [Introduction to authoring adaptive forms](/forms/using/installing-configuring-aem-forms-osgi/introduction-forms-authoring).
+Components are building blocks of an adaptive form. AEM Forms provides many components to capture and display information in an adaptive form. You can drag the components from ![](assets/treeexpandall.png) to a form. To learn about available components and corresponding functionality, see [Introduction to authoring adaptive forms](/forms/using/installing-configuring-aem-forms-osgi/introduction-forms-authoring.md).
 
 1. Drag the Numeric Box component to the adaptive form. Place it before the footer component. Open properties of the component, change **Title **of the component to **`Customer ID`**, change **Element Name** to** `customer_ID`**, enable the **Required Field** option, enable the **Use HTML5 Number Input Type** option, and tap ![](assets/aem_6_3_forms_save.png).
 1. Drag three Text Box components to the adaptive form. Place these before the footer component. Set the following properties for these text boxes.:

@@ -3,12 +3,12 @@ title: Customizing the Welcome Console (Classic UI)
 seo-title: Customizing the Welcome Console (Classic UI)
 description: The Welcome console provides a list of links to the various consoles and functionality within AEM
 seo-description: The Welcome console provides a list of links to the various consoles and functionality within AEM
-uuid: 650f7c80-2905-40ad-bd24-532d780dec48
+uuid: 0297416e-e64d-45df-9d5d-1d9d063c235a
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
-discoiquuid: 653f1d31-a1bb-4a2f-883b-7ea34703f697
+discoiquuid: 77853973-d498-488f-b3d0-75a8d3481035
 index: y
 internal: n
 snippet: y
@@ -28,8 +28,8 @@ The Welcome console provides a list of links to the various consoles and functio
 
 It is possible to configure the links that are visible. This can be defined for specific users and/or groups. The actions to be taken are dependent on the target type (which correlates to the section of the console they are in):
 
-* [Main Consoles](#linksinmainconsoleleftpane) - Links in the main console (left pane)
-* [Resources, Documentation and Reference, Features](#linksinsidebarrightpane) - Links in the sidebar (right pane)
+* [Main Consoles](#links-in-main-console-left-pane) - Links in the main console (left pane)
+* [Resources, Documentation and Reference, Features](#links-in-sidebar-right-pane) - Links in the sidebar (right pane)
 
 ### Links in Main Console (Left Pane) {#links-in-main-console-left-pane}
 
@@ -188,7 +188,7 @@ See the [Security section](../../../sites/administering/using/security.md) for m
 
 ### Link Selection Mechanism {#link-selection-mechanism}
 
-In `/libs/cq/core/components/welcome/welcome.jsp` use is made of [ConsoleUtil](/sites/developing/using/reference-materials/javadoc/com/day/cq/commons/ConsoleUtil), which executes a query on nodes that have the property:
+In `/libs/cq/core/components/welcome/welcome.jsp` use is made of [ConsoleUtil](/sites/developing/using/reference-materials/javadoc/com/day/cq/commons/ConsoleUtil.md), which executes a query on nodes that have the property:
 
 * `jcr:mixinTypes` with the value: `cq:Console`
 
@@ -203,7 +203,7 @@ When a user or group does not have read permission on a node with the mixin `cq:
 
 ### Adding a Custom Item {#adding-a-custom-item}
 
-The [link selection mechanism](#linkselectionmechanism) can be used to add your own custom item to the list of links.
+The [link selection mechanism](#link-selection-mechanism) can be used to add your own custom item to the list of links.
 
 Add your custom item to the list by adding the `cq:Console` mixin to your widget or resource. This is done by defining the property:
 

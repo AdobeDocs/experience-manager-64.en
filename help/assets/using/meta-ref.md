@@ -3,12 +3,12 @@ title: Metadata Schemata Reference
 seo-title: Metadata Schemata Reference
 description: Learn about standard conventions for describing asset metadata, including Dublin Core, IPTC, and other metadata schema. 
 seo-description: Learn about standard conventions for describing asset metadata, including Dublin Core, IPTC, and other metadata schema. 
-uuid: 0d33a2e4-f6f2-4123-b910-67abde217c27
+uuid: 6033191c-4046-4aa1-bad5-c206c8697894
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: 8db63870-b80e-400e-ae58-8e09930eaaa6
+discoiquuid: cd86e711-cdc0-4d8d-8e4d-19f66e29ab4d
 index: y
 internal: n
 snippet: y

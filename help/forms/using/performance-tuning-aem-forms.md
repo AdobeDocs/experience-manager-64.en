@@ -3,11 +3,11 @@ title: Performance tuning of AEM Forms server
 seo-title: Performance tuning of AEM Forms server
 description: For AEM Forms to perform optimally, you can fine-tune the cache settings and JVM parameters. Also, using a web server can enhance the performance of AEM Forms deployment.
 seo-description: For AEM Forms to perform optimally, you can fine-tune the cache settings and JVM parameters. Also, using a web server can enhance the performance of AEM Forms deployment.
-uuid: b4e9fe6c-0014-402a-824c-3171de2a5151
+uuid: c440711a-348c-4a05-9e66-1a8368f60159
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: Configuration
-discoiquuid: c83f8968-d80c-43d5-a310-cb84d405bfc0
+discoiquuid: 151c9caf-91fd-4886-a09c-d8e8258a3204
 index: y
 internal: n
 snippet: y

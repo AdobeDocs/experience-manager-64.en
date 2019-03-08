@@ -3,12 +3,12 @@ title: Create a Fully-Featured Website (JSP)
 seo-title: Create a Fully-Featured Website (JSP)
 description: This tutorial enables you to create a fully featured website with AEM
 seo-description: This tutorial enables you to create a fully featured website with AEM
-uuid: a820ca45-f8f6-43af-9dce-b95e6a25d010
+uuid: 52fdc57f-d913-49dc-a4a8-377a2def462b
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
-discoiquuid: 5866d294-7b84-489c-88eb-463650a103c4
+discoiquuid: 8a4cd8e2-7d4a-4247-8f19-cde4342be560
 index: y
 internal: n
 snippet: y
@@ -520,9 +520,9 @@ In this exercise, Sling matches these URLs to the /apps/mywebsite/components/con
 
 1. Copy the following code into `navimage.png.java.`The code extends the AbstractImageServlet class:
 
-    * [AbstractImageServlet](/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/commons/AbstractImageServlet) creates an ImageContext object that stores the properties of the current resource.
+    * [AbstractImageServlet](/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/commons/AbstractImageServlet.md) creates an ImageContext object that stores the properties of the current resource.
     * The parent page of the resource is extracted from the ImageContext object. The page title and subtitle are then obtained. 
-    * [ImageHelper](/sites/developing/using/reference-materials/javadoc/com/day/cq/commons/ImageHelper) is used to generate the image from the navimage_bg.jpg file of the site design, the page title, and the page subtitle.
+    * [ImageHelper](/sites/developing/using/reference-materials/javadoc/com/day/cq/commons/ImageHelper.md) is used to generate the image from the navimage_bg.jpg file of the site design, the page title, and the page subtitle.
 
    ```java
    package apps.mywebsite.components.contentpage;

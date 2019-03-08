@@ -3,12 +3,12 @@ title: Setting Up Dynamic Media
 seo-title: Setting Up Dynamic Media
 description: To set up dynamic media, you need to configure dynamic media and manage image and viewer presets
 seo-description: To set up dynamic media, you need to configure dynamic media and manage image and viewer presets
-uuid: 486e5516-5cd9-4fc7-8006-e5326748017a
+uuid: 8ae4a031-7b40-4c61-a9cd-72e9170fa0f1
 contentOwner: Alva Ware-Bevacqui
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: 00691ea9-14a2-40aa-8b3d-1ef54d5d467c
+discoiquuid: 266fc0ff-7ec3-4b78-982c-3e18356df7ec
 legacypath: /content/docs/en/aem/6-0/administer/integration/dynamic-media
 index: y
 internal: n
@@ -23,7 +23,7 @@ snippet: y
 >
 >This documentation describes Dynamic Media capabilites, which are integrated directly into AEM. If you are using Dynamic Media Classic (Scene7) integrated into AEM, see [Dynamic Media Classic integration documentation](../../sites/administering/using/scene7.md). 
 >
->See [Dual Use Scenario](../../sites/administering/using/scene7.md#dualusescenario) for times when you may want to use AEM integrated with Dynamic Media Classic along with Dynamic Media.
+>See [Dual Use Scenario](../../sites/administering/using/scene7.md#dual-use-scenario) for times when you may want to use AEM integrated with Dynamic Media Classic along with Dynamic Media.
 
 If you are administering dynamic media, the following topics are of interest:
 

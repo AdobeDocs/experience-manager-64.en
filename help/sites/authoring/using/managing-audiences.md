@@ -3,12 +3,12 @@ title: Managing Audiences
 seo-title: Managing Audiences
 description: The Audiences console enables you to create, organize, and manage audiences for your Adobe Target account or manage segments for ContextHub or Client Context
 seo-description: The Audiences console enables you to create, organize, and manage audiences for your Adobe Target account or manage segments for ContextHub or Client Context
-uuid: 8a6fc857-b65d-4e5b-9797-2aa699b8eb67
+uuid: 887f1957-c249-42bb-aeaf-3093dffc0e4c
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: personalization
-discoiquuid: ca72b840-c1a3-4712-918b-862650eae5a3
+discoiquuid: 7d44f4a5-ddcc-4046-968b-46c685bc6fb4
 index: y
 internal: n
 snippet: y
@@ -75,7 +75,7 @@ To create an Adobe Target audience:
    ![](assets/chlimage_1-300.png)
 
 1. In the **Adobe Target Configuration** dialog box, select the target configuration and tap or click **OK**.
-1. In the Rule#1 area, tap or click the attribute type and enter any attribute information in the fields that are available. When finished, select the check mark to the right of the attribute to save it. See [Attributes and their options](#attributesandtheiroptions) for information on all the attributes.
+1. In the Rule#1 area, tap or click the attribute type and enter any attribute information in the fields that are available. When finished, select the check mark to the right of the attribute to save it. See [Attributes and their options](#attributes-and-their-options) for information on all the attributes.
 1. Click **Add Rule** to add another rule. Enter as many rules as needed. Rules are combined with the boolean operator AND, which means that the audience must meet all the requirements of each rule to be eligible for an activity.
 1. Tap or click **Next**.
 1. Enter a name for the audience and tap or click **Save**.

@@ -3,11 +3,11 @@ title: Integrate Adobe Sign with AEM Forms
 seo-title: Integrate Adobe Sign with AEM Forms
 description: Learn how to configure Adobe Sign for AEM Forms
 seo-description: Learn how to configure Adobe Sign for AEM Forms
-uuid: 7d2770c3-6855-430f-965b-e4390109ad33
+uuid: 1e6589ac-e741-4133-b321-3bac0dde0700
 contentOwner: sashanka
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
-discoiquuid: 58f1323a-7798-4b9e-8c55-8f379df8f26d
+discoiquuid: 008f215e-b977-48b7-974a-d2d0b674ec90
 index: y
 internal: n
 snippet: y
@@ -65,7 +65,7 @@ After prerequisites are in place, perform the following steps to configure Adobe
     * workflow_read
 
    For step-by-step information to configure OAuth settings for an Adobe Sign application and obtain the keys, see [Configure oAuth settings for the application](https://www.adobe.io/apis/documentcloud/sign/docs.html#!adobeio/adobeio-documentation/master/sign/gstarted/configure_oauth.md) developer documentation.
-   [ ![OAuth Config](assets/oauth_config.png)](OAuth Config)
+   [ ![OAuth Config](assets/oauth_config.png)](OAuth Config.md)
 
 1. Go back to the **Create Adobe Sign Configuration** page. In the ****[!UICONTROL Settings]**** tab, the ****[!UICONTROL OAuth URL]**** field mentions the following default URL:
 
@@ -92,7 +92,7 @@ After prerequisites are in place, perform the following steps to configure Adobe
 
 1. Repeat step 1 to 12 to configure Adobe Sign with AEM Forms. Use the same title for configuration (as specified in step 3) and same name (as specified in step 6) to replicate the settings configured on the Author instance.
 
-   Now, Adobe Sign is integrated with AEM Forms and ready for use in adaptive forms. To [use Adobe Sign service in an adaptive form](../../forms/using/working-with-adobe-sign.md#configureadobesignforanadaptiveform), specify the configuration container created above in adaptive form properties.
+   Now, Adobe Sign is integrated with AEM Forms and ready for use in adaptive forms. To [use Adobe Sign service in an adaptive form](../../forms/using/working-with-adobe-sign.md#configure-adobe-sign-for-an-adaptive-form), specify the configuration container created above in adaptive form properties.
 
 ## Configure Adobe Sign scheduler to sync the signing status {#configure-adobe-sign-scheduler-to-sync-the-signing-status}
 

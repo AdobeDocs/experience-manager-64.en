@@ -3,12 +3,12 @@ title: Configure your Adobe PhoneGap Build Cloud Service
 seo-title: Configure your Adobe PhoneGap Build Cloud Service
 description: Follow this page for configuring the cloud services and building your application with PhoneGap build.
 seo-description: Follow this page for configuring the cloud services and building your application with PhoneGap build.
-uuid: bbe937b0-d75e-43ba-abd6-566f46f0d2c8
+uuid: 295c2b30-d2b0-45f5-b6ab-6a5d6f6127d1
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: administering-adobe-phonegap-enterprise
-discoiquuid: bda92558-ca70-4c07-85d9-b3a53d9d12d6
+discoiquuid: 8fc08f9c-806e-4a9a-b225-8120cf31e850
 index: y
 internal: n
 snippet: y

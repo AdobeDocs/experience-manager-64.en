@@ -4,12 +4,12 @@ seo-title: Security Changes in CQ 5.3 and CRX 2.0
 description: Changes have been made to the security model between CRX 1.4.x and CRX 2.0 - and therefore between AEM 5.2 and AEM 5.3
 seo-description: Changes have been made to the security model between CRX 1.4.x and CRX 2.0 - and therefore between AEM 5.2 and AEM 5.3
 page-status-flag: de-activated
-uuid: 9b105bff-f017-4e25-8e38-876027b75afe
+uuid: e75d2e49-4de6-4762-880d-0f5fc4ef0daf
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
-discoiquuid: e4312d69-64ff-42b8-af62-5ad6a5471414
+discoiquuid: aa86cb89-e22d-48e4-a140-05ce567fccbd
 index: y
 internal: n
 snippet: y

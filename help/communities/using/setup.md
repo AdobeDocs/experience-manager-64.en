@@ -3,12 +3,12 @@ title: Initial Setup
 seo-title: Initial Setup
 description: Setting up Communities
 seo-description: Setting up Communities
-uuid: a2de1cda-2c3b-4432-ab2f-97d911a70482
+uuid: 174d6de8-3619-4eb5-8363-eaac0eaeef2d
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: introduction
 content-type: reference
-discoiquuid: d76f5bca-ae14-40cc-8019-565745f2a258
+discoiquuid: b0254f2d-0b1a-4169-9366-aa3c4e5a1e0f
 index: y
 internal: n
 snippet: y
@@ -23,7 +23,7 @@ snippet: y
 
 For development and demonstration purposes, it will be necessry to run one author and one publish instance.
 
-To do so, follow the basic AEM [Getting Started](../../sites/deploying/using/deploy.md#gettingstarted) instructions, which will result in
+To do so, follow the basic AEM [Getting Started](../../sites/deploying/using/deploy.md#getting-started) instructions, which will result in
 
 * author environment on [localhost:4502](http://localhost:4502/)
 * publish environment on [localhost:4503](http://localhost:4503/)
@@ -46,13 +46,13 @@ For AEM Communities,
 
 ## Install Latest Communities Release {#install-latest-communities-release}
 
-This tutorial creates an [engagement community site](../../communities/using/overview.md#engagementcommunity) and is based on AEM Communities 6.2 feature pack version 1.10.
+This tutorial creates an [engagement community site](../../communities/using/overview.md#engagement-community) and is based on AEM Communities 6.2 feature pack version 1.10.
 
 To ensure the latest feature pack is installed, visit:
 
-* [Latest Releases](../../communities/using/deploy-communities.md#latestreleases)
+* [Latest Releases](../../communities/using/deploy-communities.md#latest-releases)
 
-For a tutorial that creates an [enablement community site](../../communities/using/overview.md#enablementcommunity), visit [Getting Started with AEM Communities for Enablement](../../communities/using/getting-started-enablement.md).
+For a tutorial that creates an [enablement community site](../../communities/using/overview.md#enablement-community), visit [Getting Started with AEM Communities for Enablement](../../communities/using/getting-started-enablement.md).
 
 ## Configure Analytics {#configure-analytics}
 
@@ -74,7 +74,7 @@ When creating a community site in the author environment, the tunnel service mak
 
 The convention is for members and member groups created in the publish environment to *not *be recreated in the author environment. For more information see [Managing Users and User Groups](../../communities/using/users.md).
 
-For simple instructions to enable the tunnel service on an **author** instance, see [Tunnel Service](../../communities/using/deploy-communities.md#tunnelserviceonauthor).
+For simple instructions to enable the tunnel service on an **author** instance, see [Tunnel Service](../../communities/using/deploy-communities.md#tunnel-service-on-author).
 
 ## Community Administrator Role {#community-administrator-role}
 
@@ -122,7 +122,7 @@ Scroll down to `Add User to Groups` :
 Before the demonstration versions of social login with Facebook and Twitter may be used, it is necessary to
 
 1. install a fix pack or [latest feature pack](../../communities/using/deploy-communities.md#latestfeaturepack) (for March 2017 Facebook API changes)
-1. [enable the OAuth provider](../../communities/using/social-login.md#adobegraniteoauthauthenticationhandler) in the publish environment
+1. [enable the OAuth provider](../../communities/using/social-login.md#adobe-granite-oauth-authentication-handler) in the publish environment
 
 For production servers, it is necessary to create the cloud services necessary to provide social login.
 
@@ -132,7 +132,7 @@ See [Social Login with Facebook and Twitter](../../communities/using/social-logi
 
 Create tags to use for the engage and enablement tutorials, using the tag namespace of `Tutorial`.
 
-Use the [Tagging console](../../sites/administering/using/tags.md#taggingconsole) to create the following tags :
+Use the [Tagging console](../../sites/administering/using/tags.md#tagging-console) to create the following tags :
 
 * `Tutorial : Sports / Baseball`
 * `Tutorial : Sports / Gymnastics`
@@ -145,8 +145,8 @@ Use the [Tagging console](../../sites/administering/using/tags.md#taggingconsole
 
 Then follow the instructions to
 
-1. [set the tag permissions](../../sites/administering/using/tags.md#settingtagpermissions)
-1. [publish the tags](../../sites/administering/using/tags.md#publishingtags)
+1. [set the tag permissions](../../sites/administering/using/tags.md#setting-tag-permissions)
+1. [publish the tags](../../sites/administering/using/tags.md#publishing-tags)
 
 Sample package of tags created for the AEM Communities Getting Started Tutorials
 

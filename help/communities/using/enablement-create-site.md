@@ -3,12 +3,12 @@ title: Author a New Community Site for Enablement
 seo-title: Author a New Community Site for Enablement
 description: Create a community site for enablement
 seo-description: Create a community site for enablement
-uuid: 080f4bdb-edce-4272-926f-b80234bd141d
+uuid: cf2b7d38-db66-45da-ae5a-870587bddbda
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: introduction
 content-type: reference
-discoiquuid: e270b728-65e8-48c1-bcd4-309db262a11f
+discoiquuid: 410a7222-2a3c-4154-b606-e953f4611462
 index: y
 internal: n
 snippet: y
@@ -81,11 +81,11 @@ On the Settings step, before selecting `Next`, notice there are seven sections p
 
 #### USER MANAGEMENT {#user-management}
 
-It is recommended that [enablement communities](../../communities/using/overview.md#enablementcommunity) be private.
+It is recommended that [enablement communities](../../communities/using/overview.md#enablement-community) be private.
 
 A community site is private when anonymous site visitors are denied access, may not self-register, and may not use social login.
 
-Ensure most checkboxes are unchecked for [User Management](../../communities/using/sites-console.md#usermanagement) :
+Ensure most checkboxes are unchecked for [User Management](../../communities/using/sites-console.md#user-management) :
 
 * do NOT allow site visitors to self-register
 * do NOT allow anonymous site visitors to view the site
@@ -97,7 +97,7 @@ Ensure most checkboxes are unchecked for [User Management](../../communities/usi
 
 #### TAGGING {#tagging}
 
-The tags which may be applied to community content are controlled by selecting AEM namespaces previously defined through the [Tagging Console](../../sites/administering/using/tags.md#taggingconsole) (such as the [Tutorial namespace](../../communities/using/enablement-setup.md#createtutorialtags)).
+The tags which may be applied to community content are controlled by selecting AEM namespaces previously defined through the [Tagging Console](../../sites/administering/using/tags.md#tagging-console) (such as the [Tutorial namespace](../../communities/using/enablement-setup.md#create-tutorial-tags)).
 
 Further, selecting Tag Namespaces for the community site limits the selection presented when defining catalogs and enablement resources. See [Tagging Enablement Resources](../../communities/using/tag-resources.md) for important information.
 
@@ -121,7 +121,7 @@ For example,
 
 >[!NOTE]
 >
->[Tunnel service](../../communities/using/deploy-communities.md#tunnelserviceonauthor) allows selection of members and groups existing only in the publish environment.
+>[Tunnel service](../../communities/using/deploy-communities.md#tunnel-service-on-author) allows selection of members and groups existing only in the publish environment.
 
 ![](assets/community_roles.png)
 
@@ -135,7 +135,7 @@ Accept the default global settings for [moderating](../../communities/using/site
 
 From the pull-down menu, select the Analytics cloud service framework configured for this community site.
 
-The selection seen in the screenshot, `Communities`, is the framework example from the [configuration documentation.](../../communities/using/analytics.md#aemanalyticsframeworkconfiguration)
+The selection seen in the screenshot, `Communities`, is the framework example from the [configuration documentation.](../../communities/using/analytics.md#aem-analytics-framework-configuration)
 
 ![](assets/chlimage_1-288.png)
 
@@ -159,7 +159,7 @@ For an enablement community, it is necessary to identify one or more Community E
     * select `Sirius Nilson`
 
 * **Marketing Cloud Org Id** 
-  (optional) The ID for an Adobe Analytics account which is necessary when including [Video Heartbeat Analytics](../../communities/using/analytics.md#videoheartbeatanalytics) in the enablement reporting.
+  (optional) The ID for an Adobe Analytics account which is necessary when including [Video Heartbeat Analytics](../../communities/using/analytics.md#video-heartbeat-analytics) in the enablement reporting.
 
 ![](assets/chlimage_1-290.png)
 
@@ -223,7 +223,7 @@ There will be an indication the site was published.
 
 Along with the new community site, new user groups are created which have the appropriate permissions set for various administrative functions. For details, visit [User Groups for Community Sites](../../communities/using/users.md#usergroupsforcommunitysites).
 
-For this new community site, given the site name "enable" in Step 1, the new user groups that exist in the publish environment may be seen from the [Communities Members & Groups console](../../communities/using/members.md#groupsconsole) :
+For this new community site, given the site name "enable" in Step 1, the new user groups that exist in the publish environment may be seen from the [Communities Members & Groups console](../../communities/using/members.md#groups-console) :
 
 ![](assets/chlimage_1-294.png)
 
@@ -254,7 +254,7 @@ In this example, the group `Community Ski Class` is added as a member of the gro
 
 ### Configure for Authentication Error {#configure-for-authentication-error}
 
-Once a site has been configured and pushed to publish, [configure login mapping](../../communities/using/sites-console.md#configureforauthenticationerror) ( `Adobe Granite Login Selector Authentication Handler`) on the publish instance. The benefit is that when login credientials are not entered correctly, the authentication error will redisplay the community site's login page with an error message.
+Once a site has been configured and pushed to publish, [configure login mapping](../../communities/using/sites-console.md#configure-for-authentication-error) ( `Adobe Granite Login Selector Authentication Handler`) on the publish instance. The benefit is that when login credientials are not entered correctly, the authentication error will redisplay the community site's login page with an error message.
 
 Add a `Login Page Mapping` as
 
@@ -321,9 +321,9 @@ The '**$**' at the end of the regular expression `sling:match`string is crucial,
 
 ## Modifying the Community Site {#modifying-the-community-site}
 
-After the site has been initially created, authors may use the [Open Site icon](../../communities/using/sites-console.md#authoringsitecontent) to perform standard AEM authoring activities.
+After the site has been initially created, authors may use the [Open Site icon](../../communities/using/sites-console.md#authoring-site-content) to perform standard AEM authoring activities.
 
-In addition, administrators may use the [Edit Site icon](../../communities/using/sites-console.md#modifyingsiteproperties) to modify properties of the site, such as the title.
+In addition, administrators may use the [Edit Site icon](../../communities/using/sites-console.md#modifying-site-properties) to modify properties of the site, such as the title.
 
 After any modification, remember to **Save** and re-**Publish** the site.
 

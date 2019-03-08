@@ -3,12 +3,12 @@ title: Quick Guide to Authoring Pages
 seo-title: Quick Guide to Authoring Pages
 description: A high-level summary list of procedures has been created in the touch-optimized UI as a quick guide to authoring pages.
 seo-description: A high-level summary list of procedures has been created in the touch-optimized UI as a quick guide to authoring pages.
-uuid: a53246e8-eb54-48e0-963f-fb3be14434f1
+uuid: 6da6535d-d0f8-4a3d-bcd6-15a4e17b2764
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: 4edc17c9-1ba8-420e-854b-e864f5cb36c0
+discoiquuid: c1b3ce69-c22f-439c-a50b-3a953ce6a100
 index: y
 internal: n
 snippet: y

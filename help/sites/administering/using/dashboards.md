@@ -3,12 +3,12 @@ title: Dashboards
 seo-title: Dashboards
 description: Learn how to create, configure and develop new AEM dashboards.
 seo-description: Learn how to create, configure and develop new AEM dashboards.
-uuid: a7dc498c-01e4-419e-981a-5fd45eb746c2
+uuid: d63dfbf0-5e35-4774-87b4-96d067ea9510
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: b7aac3e6-4da3-40ea-963f-42c32771b157
+discoiquuid: 74111747-e9fa-4480-90f3-cbc2ed470a78
 index: y
 internal: n
 snippet: y
@@ -23,7 +23,7 @@ When using AEM you are able of managing a lot of content of different types (e.g
 >AEM Dashboards are created on a per user basis, so a user can only access to their own dashboard.  
 
 >
->However, [Dashboard templates](#creatingadashboardtemplate) can be used to share common configuration and Dashboard layout.
+>However, [Dashboard templates](#creating-a-dashboard-template) can be used to share common configuration and Dashboard layout.
 
 ![](assets/chlimage_1-22.jpeg) 
 
@@ -170,7 +170,7 @@ There is a default component group `Dashboard` containing analytics reporting co
 
 A template defines the default content of a new Dashboard. You may use several templates for creating different types of dashboards.
 
-Dashboard templates are created like other page templates, except that they are stored under `/libs/cq/dashboards/templates/`. See the [Creating Contentpage Template](../../../sites/developing/using/website.md#creatingthecontentpagetemplate) section.
+Dashboard templates are created like other page templates, except that they are stored under `/libs/cq/dashboards/templates/`. See the [Creating Contentpage Template](../../../sites/developing/using/website.md#creating-the-contentpage-template) section.
 
 >[!NOTE]
 >

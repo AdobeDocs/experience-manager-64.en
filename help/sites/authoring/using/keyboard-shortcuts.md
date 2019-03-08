@@ -3,12 +3,12 @@ title: Keyboard Shortcuts for Consoles
 seo-title: Keyboard Shortcuts for Consoles
 description: Save time when authoring by using these keyboard shortcuts
 seo-description: Save time when authoring by using these keyboard shortcuts
-uuid: 373f4bb1-fb8e-4b23-ab6f-3bc98d94c1cb
+uuid: 875243cd-8026-4d76-b315-5dbecf89d506
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
-discoiquuid: 2838c22f-955f-445b-948d-87f48d9f6b42
+discoiquuid: fb3f09a9-7849-4378-ba6f-c6b198543065
 index: y
 internal: n
 snippet: y

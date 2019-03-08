@@ -3,12 +3,12 @@ title: Assets Proxy Development
 seo-title: Assets Proxy Development
 description: A proxy is an AEM instance that uses proxy workers to process jobs. Learn how to configure an AEM proxy, supported operations, proxy components, and how to develop a custom proxy worker. 
 seo-description: A proxy is an AEM instance that uses proxy workers to process jobs. Learn how to configure an AEM proxy, supported operations, proxy components, and how to develop a custom proxy worker. 
-uuid: 2185aeed-9f8b-4271-9771-366248fed2e2
+uuid: 788ddae5-b2c7-4057-91c1-4d1a450383b4
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: extending-assets
 content-type: reference
-discoiquuid: a469cf1f-5c68-4e79-b819-f7611903039a
+discoiquuid: f5117ca3-07a1-4de6-885c-fb41352b5986
 index: y
 internal: n
 snippet: y
@@ -80,9 +80,9 @@ A proxy worker is a processor responsible for handling a job and creating a resu
 
 >[!NOTE]
 >
->Reference documentation for the proxy API is available under [com.day.cq.dam.api.proxy](/sites/developing/using/reference-materials/javadoc/com/day/cq/dam/api/proxy/package-summary).
+>Reference documentation for the proxy API is available under [com.day.cq.dam.api.proxy](/sites/developing/using/reference-materials/javadoc/com/day/cq/dam/api/proxy/package-summary.md).
 
-` [JobService](/sites/developing/using/reference-materials/javadoc/index)` is available as an OSGi service that provides methods to create jobs, remove jobs and to get results from those jobs. The default implementation of this service ( `JobServiceImpl`) uses the HTTP client to communicate with the remote proxy servlet.
+` [JobService](/sites/developing/using/reference-materials/javadoc/index.md)` is available as an OSGi service that provides methods to create jobs, remove jobs and to get results from those jobs. The default implementation of this service ( `JobServiceImpl`) uses the HTTP client to communicate with the remote proxy servlet.
 
 The following is an example of API usage:
 
@@ -111,7 +111,7 @@ The following is an example of API usage:
 
 >[!NOTE]
 >
->Reference documentation for the proxy API is available under [com.day.cq.dam.api.proxy](/sites/developing/using/reference-materials/javadoc/com/day/cq/dam/api/proxy/package-summary).
+>Reference documentation for the proxy API is available under [com.day.cq.dam.api.proxy](/sites/developing/using/reference-materials/javadoc/com/day/cq/dam/api/proxy/package-summary.md).
 
 Both proxy and proxy worker configurations are available via cloud services configurations as accessible from the AEM Assets **Tools** console or under:
 
@@ -125,7 +125,7 @@ for worker specific configuration details (e.g. `/etc/cloudservices/proxy/worker
 
 >[!NOTE]
 >
->See [Indesign Server Proxy Worker configuration](../../assets/using/indesign.md#configuringtheproxyworkerforindesignserver) and [Cloud Services configuration](../../sites/developing/using/extending-cloud-config.md) for more information.
+>See [Indesign Server Proxy Worker configuration](../../assets/using/indesign.md#configuring-the-proxy-worker-for-indesign-server) and [Cloud Services configuration](../../sites/developing/using/extending-cloud-config.md) for more information.
 
 The following is an example of API usage:
 

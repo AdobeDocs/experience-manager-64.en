@@ -3,11 +3,11 @@ title: Configuring analytics and reports
 seo-title: Configuring analytics and reports
 description: Learn how to configure Adobe Analytics to discover interaction patterns and problems users face while using adaptive forms, adaptive documents, and HTML5 forms. 
 seo-description: Learn how to configure Adobe Analytics to discover interaction patterns and problems users face while using adaptive forms, adaptive documents, and HTML5 forms. 
-uuid: 3a776142-04a5-4a01-b666-ccdd0ba2fea2
+uuid: 4221513c-ddd7-4f9d-9999-6368ac40425b
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: integrations
-discoiquuid: 636a3d64-f8f6-4166-8d0c-c0a7e5597b7f
+discoiquuid: 1c77b55a-256f-4742-a928-47ea24227000
 index: y
 internal: n
 snippet: y

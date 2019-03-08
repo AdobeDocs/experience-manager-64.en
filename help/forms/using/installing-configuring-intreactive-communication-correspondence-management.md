@@ -3,9 +3,9 @@ title: Install and configure Interactive Communications
 seo-title: Install and configure Interactive Communications
 description: Install and configure AEM Forms Interactive Communications to create business correspondences, documents, statements, benefit notices, marketing mails, bills, and welcome kits. 
 seo-description: Install and configure AEM Forms Interactive Communications to create business correspondences, documents, statements, benefit notices, marketing mails, bills, and welcome kits. 
-uuid: d65c47f1-eac6-4555-a82a-901606efa6d8
+uuid: f14933cd-a807-443f-b97e-c7c18cf87c15
 topic-tags: installing
-discoiquuid: ddbfcab7-41a9-44d5-a29f-bb3cc0deb476
+discoiquuid: 2a825c3b-29b5-44ac-be16-05fe6924c014
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Applying Viewer Presets
 seo-title: Applying Viewer Presets
 description: Learn how to apply viewer presets in dynamic media
 seo-description: Learn how to apply viewer presets in dynamic media
-uuid: 836db443-41b1-4211-b990-5be194f03876
+uuid: 27a02a94-c9b4-4e42-beb2-bee862b41071
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: 01745007-1057-42a1-8de4-f4b852713cf8
+discoiquuid: d726e4c7-4384-40f6-ad39-b551a8323614
 index: y
 internal: n
 snippet: y
@@ -22,7 +22,7 @@ If you are an administrator and need to manage, create, sort, and delete viewer 
 
 >[!NOTE]
 >
->See also [Publishing Viewer Presets](../../assets/using/managing-viewer-presets.md#publishingviewerpresets).
+>See also [Publishing Viewer Presets](../../assets/using/managing-viewer-presets.md#publishing-viewer-presets).
 >
 >You may not need to publish viewer presets depending on what publish mode you are using.
 >

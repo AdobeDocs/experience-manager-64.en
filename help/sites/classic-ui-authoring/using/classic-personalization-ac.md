@@ -3,12 +3,12 @@ title: Working with Adobe Campaign
 seo-title: Working with Adobe Campaign
 description: Adobe Campaign is a set of solutions that lets you personalize and deliver campaigns across all of your online and offline channels.
 seo-description: Adobe Campaign is a set of solutions that lets you personalize and deliver campaigns across all of your online and offline channels.
-uuid: 0fe5b6c2-d520-4000-be1d-72da6390875a
+uuid: d1b9ef73-1c64-4fbc-b929-f4d8b9510df0
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: 8fdac61c-5fdc-4eab-b0a4-33d74ac96f73
+discoiquuid: 608e57f0-5970-403c-816f-0e87194cc85c
 index: y
 internal: n
 snippet: y

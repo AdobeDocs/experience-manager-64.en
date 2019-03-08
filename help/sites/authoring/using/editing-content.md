@@ -3,12 +3,12 @@ title: Editing Page Content
 seo-title: Editing Page Content
 description: Once your page is created you can edit the content to make the updates you require
 seo-description: Once your page is created you can edit the content to make the updates you require
-uuid: 451d83f4-b919-4b1d-9a8c-5e25d3cd698c
+uuid: b9f543ec-b471-4ac3-9972-e34872348c4d
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: cff409ef-521b-4665-b73c-33d070daf9d6
+discoiquuid: d8122dbc-5445-4735-969f-6b87dd461b5e
 index: y
 internal: n
 snippet: y
@@ -130,11 +130,11 @@ The component placeholder is an indicator to show where a component will be posi
 
 ### Inserting a Component from the Components Browser {#inserting-a-component-from-the-components-browser}
 
-You can add a new component by using the [component browser](../../../sites/authoring/using/author-environment-tools.md#components-browser). The [component placeholder](#componentplaceholder) shows you where the component will be positioned:
+You can add a new component by using the [component browser](../../../sites/authoring/using/author-environment-tools.md#components-browser). The [component placeholder](#component-placeholder) shows you where the component will be positioned:
 
 1. Make sure that your page is in [**Edit** mode](../../../sites/authoring/using/author-environment-tools.md#page-modes).
 1. Open the [component browser](../../../sites/authoring/using/author-environment-tools.md#components-browser).
-1. Drag the required component to the [required position](#componentplaceholder).  
+1. Drag the required component to the [required position](#component-placeholder).  
 
 1. [Edit](#editmovecopypastedelete) the component.
 
@@ -198,13 +198,13 @@ This is valid for the following asset types (some will be dependent on page/para
 
 >[!NOTE]
 >
->This behavior can be configured for your installation. See [Configuring a Paragraph System so that Dragging an Asset Creates a Component Instance](../../../sites/developing/using/developing-components.md#configuringaparagraphsystemsothatdragginganassetcreatesacomponentinstance) for further details.
+>This behavior can be configured for your installation. See [Configuring a Paragraph System so that Dragging an Asset Creates a Component Instance](../../../sites/developing/using/developing-components.md#configuring-a-paragraph-system-so-that-dragging-an-asset-creates-a-component-instance) for further details.
 
 To create a component by dragging one of the above asset types:
 
 1. Make sure that your page is in [**Edit** mode](../../../sites/authoring/using/author-environment-tools.md#page-modes).
 1. Open the [asset browser](../../../sites/authoring/using/author-environment-tools.md#assets-browser).
-1. Drag the required asset to the required position. The [component placeholder](#componentplaceholder) shows you where the component will be positioned.
+1. Drag the required asset to the required position. The [component placeholder](#component-placeholder) shows you where the component will be positioned.
 
    A component, appropriate for the asset type, will be created at the required location - it will contain the selected asset.
 
@@ -228,7 +228,7 @@ The actual actions available to the user will be shown as appropriate and not al
 
 * **Edit**
 
-  [Dependent on the component type](../../../sites/authoring/using/default-components.md) this will allow you to [edit the content of the component](#editcontent). Often a toolbar will be provided.
+  [Dependent on the component type](../../../sites/authoring/using/default-components.md) this will allow you to [edit the content of the component](#edit-content). Often a toolbar will be provided.
 
   ![](do-not-localize/screen_shot_2018-03-22at112936.png)
 
@@ -305,14 +305,14 @@ The actual actions available to the user will be shown as appropriate and not al
 
 There are two methods of adding and/or editing content in components:
 
-* Open the [component dialog for editing](#componenteditdialog).
+* Open the [component dialog for editing](#component-edit-dialog).
 * [Drag and drop an asset](#draganddropintocomponent) from the assets browser to directly add content.
 
 ### Component Edit Dialog {#component-edit-dialog}
 
-You can open a component to edit the content using the [Edit (pencil) icon of the component toolbar](#editconfigurecopycutdeletepaste).
+You can open a component to edit the content using the [Edit (pencil) icon of the component toolbar](#edit-configure-copy-cut-delete-paste).
 
-The exact edit options will depend on the component. For some components [all actions will only be available in full screen mode](#editcontentfullscreenmode). For example:
+The exact edit options will depend on the component. For some components [all actions will only be available in full screen mode](#edit-content-full-screen-mode). For example:
 
 * [Text component](../../../sites/authoring/using/rich-text-editor.md#main-pars-title-24)
 
@@ -378,7 +378,7 @@ To move a paragraph component:
 
 >[!NOTE]
 >
->You can also use [Cut and Paste](../../../sites/authoring/using/editing-content.md#editconfigurecopycutdeletepaste) to move a component.
+>You can also use [Cut and Paste](../../../sites/authoring/using/editing-content.md#edit-configure-copy-cut-delete-paste) to move a component.
 
 ## Edit Component Layout {#edit-component-layout}
 
@@ -473,9 +473,9 @@ For example:
 
 There are two options for previewing a page:
 
-* [Preview Mode](#previewmode) - a quick, in-place preview  
+* [Preview Mode](#preview-mode) - a quick, in-place preview  
 
-* [View as Published](#viewaspublished) - a full preview that opens the page in a new tab
+* [View as Published](#view-as-published) - a full preview that opens the page in a new tab
 
 >[!NOTE]
 >
@@ -502,7 +502,7 @@ When authoring, the preview mode is available using the icon at the top right of
 
 ### View as Published {#view-as-published}
 
-The **View as Published** option is available from the [Page Information](../../../sites/authoring/using/author-environment-tools.md#pageinformation) menu. This opens the page in a new tab, refreshes the content and shows the page exactly as it will appear in the publish environment.
+The **View as Published** option is available from the [Page Information](../../../sites/authoring/using/author-environment-tools.md#page-information) menu. This opens the page in a new tab, refreshes the content and shows the page exactly as it will appear in the publish environment.
 
 ## Locking a Page {#locking-a-page}
 
@@ -534,7 +534,7 @@ Once locked the console view information is updated and when editing a lock symb
 
 ## Unlocking a Page {#unlocking-a-page}
 
-Unlocking a page is very similar to [locking the page](#lockingapage). Once the page is locked the lock options are replaced by unlock actions.
+Unlocking a page is very similar to [locking the page](#locking-a-page). Once the page is locked the lock options are replaced by unlock actions.
 
 The Page Information menu lists **Unlock** as an option and the Lock icon in the sites console is replaced by an **Unlock** icon.
 
@@ -560,7 +560,7 @@ The following icons allow you to undo or redo an action. These are shown in the 
 
 >[!NOTE]
 >
->See [Undoing and Redoing Page Edits - The Theory](#undoingandredoingpageeditsthetheory) for the full details of what is possible when undoing and redoing page edits.
+>See [Undoing and Redoing Page Edits - The Theory](#undoing-and-redoing-page-edits-the-theory) for the full details of what is possible when undoing and redoing page edits.
 
 ## Undoing and Redoing Page Edits - The Theory {#undoing-and-redoing-page-edits-the-theory}
 

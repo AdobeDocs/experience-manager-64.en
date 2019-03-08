@@ -3,12 +3,12 @@ title: Elastic Path
 seo-title: Elastic Path
 description: Learn how to deploy eCommerce with Elastic Path.
 seo-description: Learn how to deploy eCommerce with Elastic Path.
-uuid: 273f8a59-0e20-4763-91f5-d5cb2f77f631
+uuid: 04f615fa-93c4-4cfd-b40a-3d8d027a0000
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: e-commerce
 content-type: reference
-discoiquuid: 744ca5b7-ff5a-415a-9f88-cde90f7a1dcb
+discoiquuid: 3154f545-81a5-4d54-a3d9-9cfa5f9ce2e3
 pagetitle: Deploying eCommerce with Elastic Path
 index: y
 internal: n
@@ -30,7 +30,7 @@ This catalog is available under the English (US) branch ( `/content/geometrixx-o
 To install AEM with an Elastic Path integration configuration (using the demonstration catalog, Geometrixx Outdoors), the basic steps are:
 
 1. [Install AEM](../../../sites/deploying/using/deploy.md) and any other pre-requisite packages (see [https://docs.elasticpath.com/display/EP611DEV/System+Requirements](https://docs.elasticpath.com/display/EP611DEV/System+Requirements) for details).
-1. Install the latest demonstration content packages using the [Package Manager](../../../sites/administering/using/package-manager.md#packagemanager) in the following order:
+1. Install the latest demonstration content packages using the [Package Manager](../../../sites/administering/using/package-manager.md#package-manager) in the following order:
 
     1. `ep-cortex-java-bindings`
     1. `ep-aem-integration`

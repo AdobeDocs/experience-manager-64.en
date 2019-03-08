@@ -3,12 +3,12 @@ title: SharePoint Connector Licenses, Copyright Notices, and Disclaimers
 seo-title: SharePoint Connector Licenses, Copyright Notices, and Disclaimers
 description: Learn about SharePoint Connector Licenses, Copyright Notices and Disclaimers.
 seo-description: Learn about SharePoint Connector Licenses, Copyright Notices and Disclaimers.
-uuid: 4ff9a5f9-5be2-4668-97c8-0ce3a02c491a
+uuid: 28c7f9e1-d7fc-4146-b08a-ac16dd2af307
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: ef9af2de-7990-4e27-8d50-8c9f20440345
+discoiquuid: 6c3cb3c3-ab46-4ca9-9cce-c726ce25883f
 index: y
 internal: n
 snippet: y
@@ -49,8 +49,8 @@ The following table lists 3rd party libraries used within the SharePoint Connect
 | log4j | [Apache](#apache) |
 | lucene-core | [Apache](#apache) |
 | neethi | [Apache](#apache) |
-| slf4j-api | [SLF4J.ORG](#slf4jorg) |
-| slf4j-jdk14 | [SLF4J.ORG](#slf4jorg) |
+| slf4j-api | [SLF4J.ORG](#slf-j-org) |
+| slf4j-jdk14 | [SLF4J.ORG](#slf-j-org) |
 | stax-api | [Apache](#apache) |
 | wsdl4j | [Apache](#apache) |
 | wstx-asl | [Apache](#apache) |
@@ -102,7 +102,7 @@ The following table lists 3rd party libraries used within CRX, together with the
   </tr> 
   <tr> 
    <td>hsqldb-1.8.0.4.jar</td> 
-   <td><a href="#hypersonicsqlgroup">Hypersonic SQL Group</a></td> 
+   <td><a href="#hypersonic-sql-group">Hypersonic SQL Group</a></td> 
   </tr> 
   <tr> 
    <td>jaxen-1.1-beta-6.jar</td> 
@@ -110,7 +110,7 @@ The following table lists 3rd party libraries used within CRX, together with the
   </tr> 
   <tr> 
    <td>jcr-1.0.jar</td> 
-   <td><a href="#dayjcr">Day JCR</a></td> 
+   <td><a href="#day-jcr">Day JCR</a></td> 
   </tr> 
   <tr> 
    <td>jdom-1.0.jar</td> 
@@ -138,7 +138,7 @@ The following table lists 3rd party libraries used within CRX, together with the
   </tr> 
   <tr> 
    <td>slf4j-log4j12-1.0.jar</td> 
-   <td><a href="#slf4jorg">SLF4J.ORG</a></td> 
+   <td><a href="#slf-j-org">SLF4J.ORG</a></td> 
   </tr> 
   <tr> 
    <td>xercesImpl-2.6.2.jar</td> 
@@ -195,7 +195,7 @@ The following table lists 3rd party libraries used within the Communiqué Servle
   </tr> 
   <tr> 
    <td>servletapi-2.3.jar</td> 
-   <td><a href="#sunservlet">Sun Servlet</a></td> 
+   <td><a href="#sun-servlet">Sun Servlet</a></td> 
   </tr> 
   <tr> 
    <td>xml-apis-2.0.2.jar</td> 
@@ -207,11 +207,11 @@ The following table lists 3rd party libraries used within the Communiqué Servle
   </tr> 
   <tr> 
    <td><br /> </td> 
-   <td><a href="#w3cdocument">W3C Document</a></td> 
+   <td><a href="#w-c-document">W3C Document</a></td> 
   </tr> 
   <tr> 
    <td><br /> </td> 
-   <td><a href="#w3csoftware">W3C Software</a></td> 
+   <td><a href="#w-c-software">W3C Software</a></td> 
   </tr> 
  </tbody> 
 </table>

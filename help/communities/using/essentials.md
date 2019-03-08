@@ -3,12 +3,12 @@ title: Component, Function and Feature Essentials
 seo-title: Component, Function and Feature Essentials
 description: How community sites, templates, and groups function
 seo-description: How community sites, templates, and groups function
-uuid: 2889a17b-9386-410c-9ea9-1ba10a2f8284
+uuid: d82c1f7a-e9d8-4034-b235-39a222fe017a
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 97fea7e9-95c0-4f36-9f96-842aa456bb4e
+discoiquuid: 3d36181c-a893-4be1-9c40-a1adcf4b0df2
 index: y
 internal: n
 snippet: y
@@ -18,7 +18,7 @@ snippet: y
 
 AEM Communities features require site visitors to become members and login to the [community site](../../communities/using/overview.md#communitiessites) before being able to post content. Thus, [community site templates](../../communities/using/sites.md), from which a community site is [created](../../communities/using/sites-console.md), are designed to include a login feature as well as user profiles, messaging, search, moderation, and translation.
 
-A community site will support members creating community groups when the [community groups function](../../communities/using/functions.md#groupsfunction) is included in the selected community site template.
+A community site will support members creating community groups when the [community groups function](../../communities/using/functions.md#groups-function) is included in the selected community site template.
 
 Following are links to essential information for Communities components, functions and features.
 

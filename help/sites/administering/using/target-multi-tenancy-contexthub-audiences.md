@@ -4,12 +4,12 @@ seo-title: Multi-tenancy for ContextHub Audiences
 description: Learn about multi-tenancy support for ContextHub Audiences.
 seo-description: Learn about multi-tenancy support for ContextHub Audiences.
 page-status-flag: de-activated
-uuid: 2e0cbb7e-d073-4a72-8d30-f45df0591c8e
+uuid: 8085bf1f-fcee-4069-a29c-554d1efd8125
 audience: administering
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: 5ac3283e-a307-4eb6-9d6f-b37702599be0
+discoiquuid: a45dd420-1ac0-4915-9e50-015da9291bd2
 index: y
 internal: n
 snippet: y
@@ -164,7 +164,7 @@ In addition, all groups have access to common folders that are accessible to eve
 
 >[!NOTE]
 >
->See [Managing Users and Groups](../../../sites/administering/using/security.md#managingusersandgroups) for general information on accessing the user administration and security console, creating users and groups, adding users to a group, and impersonating another user.
+>See [Managing Users and Groups](../../../sites/administering/using/security.md#managing-users-and-groups) for general information on accessing the user administration and security console, creating users and groups, adding users to a group, and impersonating another user.
 
 By default, all tenants have access to all tenant folders unless you deny them explicitly. Given the previous example, **tenants1**, **tenants2**, and **tenantsX** all have write permissions to **/etc/segmentation** because they are members of the** content-authors** group.
 
@@ -184,7 +184,7 @@ In addition, tenants cannot read tenant folders if they are denied **rep:write**
 
 After changing the rights, if you are a user in the **tenantsX** group, you see all the folders. If you are a user in the **tenants1** group, you only see folders in tenant1. If you are a user in the **tenants2** group, you only see folders in tenants 2.
 
-You can ensure that users in each tenant are seeing the correct folders by impersonating a user in each tenant. See [Impersonating another user](../../../sites/administering/using/security.md#impersonatinganotheruser).
+You can ensure that users in each tenant are seeing the correct folders by impersonating a user in each tenant. See [Impersonating another user](../../../sites/administering/using/security.md#impersonating-another-user).
 
 ## Creating ContextHub audiences for tenants {#creating-contexthub-audiences-for-tenants}
 

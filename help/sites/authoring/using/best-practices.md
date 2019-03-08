@@ -3,12 +3,12 @@ title: Best Practices
 seo-title: Best Practices
 description: How to use AEM in the most efficient and most effective way possible
 seo-description: How to use AEM in the most efficient and most effective way possible
-uuid: 42cd1b95-190a-4c5d-8e4d-aae3208b1044
+uuid: 9f508e9e-6e54-421e-936f-07a7b7da7d3a
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
-discoiquuid: 9fe3869a-e127-4a1a-b8f0-5d47685fde6d
+discoiquuid: 23fe7d78-6f22-47c6-875f-7fc4228a2572
 index: y
 internal: n
 snippet: y
@@ -45,7 +45,7 @@ Best practices around Assets, including the dynamic media capability and Scene 7
   </tr>
   <tr>
    <td>Video Encoding</td> 
-   <td><a href="../../../assets/using/video.md#bestpracticesforencodingvideos">Encoding best practices</a></td> 
+   <td><a href="../../../assets/using/video.md#best-practices-for-encoding-videos">Encoding best practices</a></td> 
    <td>Describes best practice tips around encoding source video files.</td> 
   </tr>
   <tr>

@@ -3,12 +3,12 @@ title: Closed User Groups in AEM
 seo-title: Closed User Groups in AEM
 description: Learn about Closed User Groups in AEM.
 seo-description: Learn about Closed User Groups in AEM.
-uuid: a92bd14d-66ea-4cc6-8bc7-d78f168d335a
+uuid: fa333793-0aee-4d51-ad58-b39461f42b77
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
-discoiquuid: c64c8469-08a4-4b3b-90e3-382823026f4f
+discoiquuid: 1483c4d0-1118-44db-b825-fdad2279abd5
 index: y
 internal: n
 snippet: y
@@ -42,7 +42,7 @@ A CUG as it is known in the context of AEM consists of the following steps:
 
 The new implementation has been designed to draw a line between the authentication and the authorization elements. As of AEM 6.3, it is possible to restrict read access without explicitly adding an authentication requirement. For example, if a given instance requires authentication altogether or a given tree already resides in a subtree that requires authentication already.
 
-Equally, a given tree can be marked with an authentication requirement without changing the efective permission setup. The combinations and results are listed in the [Combining CUG Policies and the Authentication Requirement](../../../sites/administering/using/closed-user-groups.md#combiningcugpoliciesandtheauthenticationrequirement) section.
+Equally, a given tree can be marked with an authentication requirement without changing the efective permission setup. The combinations and results are listed in the [Combining CUG Policies and the Authentication Requirement](../../../sites/administering/using/closed-user-groups.md#combining-cug-policies-and-the-authentication-requirement) section.
 
 ## Overview {#overview}
 
@@ -69,7 +69,7 @@ These CUG policies are deployed to an AEM instance through a separate authorizat
 
 In this composite setup a new CUG does not replace the existing access control content attached to the target node, but is designed to be a supplement which can also be removed later on without afecting the original access control, that by default in AEM would be an access control list.
 
-In contrast to the former implementation the new CUG policies are always recognized and treated as access control content. This implies that they are created and edited using the JCR access control management API. For more info, see the [Managing CUG Policies](#managingcugpolicies) section.
+In contrast to the former implementation the new CUG policies are always recognized and treated as access control content. This implies that they are created and edited using the JCR access control management API. For more info, see the [Managing CUG Policies](#managing-cug-policies) section.
 
 #### Permission Evaluation of CUG Policies {#permission-evaluation-of-cug-policies}
 
@@ -444,7 +444,7 @@ Like with the login path, there is no public API to retrieve the inherited authe
 >
 >It is recommended to rely on the inheritance mechanism both for authentication requirements and login path and avoid creation of nested auth requirements.
 >
->For more information see [Evaluation and Inheritance of Authentication Requirement](/content#contentbody_title_1715134837), [Evaluation of Login Path](/content#contentbody_title_914954954) and [Best Practices](/content#contentbody_title_1658415695).
+>For more information see [Evaluation and Inheritance of Authentication Requirement](/content.md#contentbody_title_1715134837), [Evaluation of Login Path](/content.md#contentbody_title_914954954) and [Best Practices](/content.md#contentbody_title_1658415695).
 
 ```java
 String path = [...]
@@ -494,7 +494,7 @@ Setting up CUG authorization is described in detail in the [relevant Apache Docu
 
 #### Configuring the Referrer Filter {#configuring-the-referrer-filter}
 
-You also need to configure the [Sling Referrer Filter](../../../sites/administering/using/security-checklist.md#theslingreferrerfilter) with all hostnames that may be used to access AEM; for example, via CDN, Load Balancer, and any others.
+You also need to configure the [Sling Referrer Filter](../../../sites/administering/using/security-checklist.md#the-sling-referrer-filter) with all hostnames that may be used to access AEM; for example, via CDN, Load Balancer, and any others.
 
 If the referrer filter is not configured, then errors, similar to the following, are seen when a user tries to log in to a CUG site:
 
@@ -784,7 +784,7 @@ The import mechanism of Apache Jackrabbit FileVault has been adjusted to deal wi
 
 ### Apache Sling Content Distribution {#apache-sling-content-distribution}
 
-See the above [Apache Jackrabbit FileVault](../../../sites/administering/using/closed-user-groups.md#apachejackrabbitfilevault) section.
+See the above [Apache Jackrabbit FileVault](../../../sites/administering/using/closed-user-groups.md#apache-jackrabbit-filevault) section.
 
 ### Adobe Granite Replication {#adobe-granite-replication}
 
@@ -852,7 +852,7 @@ The CUG authorization model allows to individually turn on access control manage
 * access control management is enabled if the module has one or many supported paths where CUGs can be created
 * permission evaluation is only enabled if option **CUG Evaluation Enabled** is additionally checked.
 
-In the new AEM default setup evaluation of CUG policies it is only enabled with the 'publish' run mode. See the details on the [default configuration since AEM 6.3](#defaultconfigurationsinceaem63) for more details. This can be verifed by comparing the effective policies for a given path to the policies stored in the content. Effective policies will only be shown in case permission evaluation for CUGs is enabled.
+In the new AEM default setup evaluation of CUG policies it is only enabled with the 'publish' run mode. See the details on the [default configuration since AEM 6.3](#default-configuration-since-aem) for more details. This can be verifed by comparing the effective policies for a given path to the policies stored in the content. Effective policies will only be shown in case permission evaluation for CUGs is enabled.
 
 As explained above the CUG access control policies are now always stored in the content but evaluation of the effective permissions that result from those policies will only be enforced if **CUG Evaluation Enabled** is turned on in the system console at Apache Jackrabbit Oak **CUG Confguration.** By default, it is enabled with the 'publish' run mode only.
 

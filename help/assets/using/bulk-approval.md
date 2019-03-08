@@ -3,12 +3,12 @@ title: Review folder assets and collections
 seo-title: Review folder assets and collections
 description: Set up review workflows for assets within a folder or a collection and share it with reviewers or creative partners to seek feedback.
 seo-description: Set up review workflows for assets within a folder or a collection and share it with reviewers.
-uuid: 961f0f7c-f793-49ea-91d9-aefe5306d3ef
+uuid: 9493d9c7-08d5-4c5c-8ca4-f026ffc18a90
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
 topic-tags: authoring
-discoiquuid: 60b21190-e289-4d3c-9a75-1f3c9bfe8436
+discoiquuid: 35c84706-67fe-436e-8e5e-10d1576f2254
 index: y
 internal: n
 snippet: y

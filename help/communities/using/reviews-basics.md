@@ -3,12 +3,12 @@ title: Reviews Essentials
 seo-title: Reviews Essentials
 description: Reviews and Review Summary components
 seo-description: Reviews and Review Summary components
-uuid: 82feea0c-ed49-4ddf-913b-8016eb421ff1
+uuid: 3dac8902-0443-4f85-ab7b-4f44d6d6ebd3
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 49cd6f3e-d34e-4854-bdad-066627178a32
+discoiquuid: 9f055a2d-ab4b-4e91-a59a-8c475839501b
 index: y
 internal: n
 snippet: y
@@ -33,11 +33,11 @@ Anonymous posting of a review is not supported. Site visitors must register and 
    <td>social/reviews/components/hbs/reviews</td> 
   </tr>
   <tr>
-   <td> <a href="../../communities/using/scf.md#addorincludeacommunitiescomponent"><strong>includable</strong></a></td> 
+   <td> <a href="../../communities/using/scf.md#add-or-include-a-communities-component"><strong>includable</strong></a></td> 
    <td>Yes - properties are editable in <i>design </i>mode</td> 
   </tr>
   <tr>
-   <td> <a href="../../communities/using/client-customize.md#clientlibsforscf"><strong>clientllibs</strong></a></td> 
+   <td> <a href="../../communities/using/client-customize.md#clientlibs-for-scf"><strong>clientllibs</strong></a></td> 
    <td>cq.social.hbs.reviews</td> 
   </tr>
   <tr>
@@ -59,8 +59,8 @@ Anonymous posting of a review is not supported. Site visitors must register and 
 
 |  **resourceType** |social/reviews/components/hbs/summary |
 |---|---|
-|  [**includable**](../../communities/using/scf.md#addorincludeacommunitiescomponent) |Yes - properties are editable in *design *mode |
-|  [**clientllibs**](../../communities/using/client-customize.md#clientlibsforscf) |cq.social.hbs.reviews |
+|  [**includable**](../../communities/using/scf.md#add-or-include-a-communities-component) |Yes - properties are editable in *design *mode |
+|  [**clientllibs**](../../communities/using/client-customize.md#clientlibs-for-scf) |cq.social.hbs.reviews |
 |  **templates** | /libs/social/reviews/components/hbs/summary/summary.hbs |
 |  **css** | /libs/social/reviews/components/hbs/reviews/clientlibs/review.css |
 | **properties** |see [Using Reviews](../../communities/using/reviews.md) |
@@ -69,9 +69,9 @@ Anonymous posting of a review is not supported. Site visitors must register and 
 
 ## Essentials for Server-Side {#essentials-for-server-side}
 
-* [Review API](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/review/client/api/package-summary)
+* [Review API](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/review/client/api/package-summary.md)
 
-* [Review Endpoints](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/review/client/endpoints/package-summary)
+* [Review Endpoints](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/review/client/endpoints/package-summary.md)
 
 * [Server-side Customizations](../../communities/using/server-customize.md)
 

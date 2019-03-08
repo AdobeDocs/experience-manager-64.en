@@ -3,12 +3,12 @@ title: Forum Essentials
 seo-title: Forum Essentials
 description: Forum overview
 seo-description: Forum overview
-uuid: badf1db6-4ed6-4497-955a-d92e47e08db1
+uuid: a65caa7e-971e-46f1-ad7a-9aea44c5e1cf
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 9b5f442c-9640-4340-8ee0-864fef676317
+discoiquuid: ec965840-762b-42d0-9caf-f6272c21b195
 index: y
 internal: n
 snippet: y
@@ -27,7 +27,7 @@ This page provides the essential information for working with the forum feature.
    <td>social/forum/components/hbs/forum<br /> social/forum/components/hbs/topic<br /> social/forum/components/hbs/post</td> 
   </tr>
   <tr>
-   <td> <a href="../../communities/using/scf.md#addorincludeacommunitiescomponent"><strong>includable</strong></a></td> 
+   <td> <a href="../../communities/using/scf.md#add-or-include-a-communities-component"><strong>includable</strong></a></td> 
    <td>No</td> 
   </tr>
   <tr>
@@ -53,15 +53,15 @@ This page provides the essential information for working with the forum feature.
 
 ## Essentials for Server-Side {#essentials-for-server-side}
 
-* [Forum API](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/forum/client/api/package-summary)
+* [Forum API](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/forum/client/api/package-summary.md)
 
-* [Forum Endpoints](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/forum/client/endpoints/package-summary)
+* [Forum Endpoints](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/forum/client/endpoints/package-summary.md)
 
 * [Server-side Customizations](../../communities/using/server-customize.md)
 
 ### Forum Function {#forum-function}
 
-A community site structure that includes the [Forum function](../../communities/using/functions.md#forumfunction), includes a configured `forum` component, as well as settings affecting moderation, tagging and translation.
+A community site structure that includes the [Forum function](../../communities/using/functions.md#forum-function), includes a configured `forum` component, as well as settings affecting moderation, tagging and translation.
 
 ### Accessing Forum Posts (UGC) {#accessing-forum-posts-ugc}
 

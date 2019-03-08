@@ -4,12 +4,12 @@ seo-title: [DO NOT PUBLISH] Troubleshoot AEM Forms Android app build issues
 description: Steps to troubleshoot AEM Forms Android App build issues
 seo-description: Steps to troubleshoot AEM Forms Android App build issues
 page-status-flag: never-activated
-uuid: cf0d2d16-964b-4e9f-bd7c-79a1a877a03a
+uuid: 090c37d9-fedf-4e1f-8e9d-076f877de28c
 contentOwner: anujkapo
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 content-type: reference
 topic-tags: forms-app
-discoiquuid: 7faf4ef6-b0eb-4133-b951-2f8887c609b5
+discoiquuid: 409e3f20-4d79-44cb-a349-7540877b3858
 index: y
 internal: n
 snippet: y

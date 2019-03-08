@@ -3,12 +3,12 @@ title: Pre-Upgrade Maintenance Tasks
 seo-title: Pre-Upgrade Maintenance Tasks
 description: Learn about the pre-upgrade tasks in AEM.
 seo-description: Learn about the pre-upgrade tasks in AEM.
-uuid: a68d07d2-97bc-4974-b7f8-2ffb0ca13e53
+uuid: f909da7b-f1b4-4d76-8f57-4862d70985c7
 contentOwner: sarchiz
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: upgrading
-discoiquuid: 92c750dd-9a72-4782-8525-30a1b385c5b6
+discoiquuid: fcb58d20-1f2d-4350-a0b6-bf3911597b6f
 index: y
 internal: n
 snippet: y
@@ -18,19 +18,19 @@ snippet: y
 
 Before beginning your upgrade, it is important to follow these maintenance tasks to ensure that the system is ready and can be rolled back should issues occur:
 
-* [Ensure Sufficient Disk Space](/sites/deploying/using/pre-upgrade-maintenance-tasks.html?wcmmode=disabled#ensure-sufficient-disk-space)
-* [Fully Back Up AEM](/sites/deploying/using/pre-upgrade-maintenance-tasks.html?wcmmode=disabled#fully-back-up-aem)
-* [Back Up Changes to /etc](/sites/deploying/using/pre-upgrade-maintenance-tasks.html?wcmmode=disabled#backup-changes-etc)
-* [Generate The quickstart.properties File](/sites/deploying/using/pre-upgrade-maintenance-tasks.html?wcmmode=disabled#generate-quickstart-properties)
-* [Configure Workflow and Audit Log Purging](/sites/deploying/using/pre-upgrade-maintenance-tasks.html?wcmmode=disabled#configure-wf-audit-purging)
-* [Install, Configure, and Run The Pre-Upgrade Tasks](/sites/deploying/using/pre-upgrade-maintenance-tasks.html?wcmmode=disabled#install-configure-run-pre-upgrade-tasks)
-* [Disable Custom Login Modules](/sites/deploying/using/pre-upgrade-maintenance-tasks.html?wcmmode=disabled#disable-custom-login-modules)
-* [Remove Updates From The /install Directory](/sites/deploying/using/pre-upgrade-maintenance-tasks.html?wcmmode=disabled#remove-updates-install-directory)
-* [Stop Any Cold Standby Instances](/sites/deploying/using/pre-upgrade-maintenance-tasks.html?wcmmode=disabled#stop-tarmk-coldstandby-instance)
-* [Disable Custom Scheduled Jobs](/sites/deploying/using/pre-upgrade-maintenance-tasks.html?wcmmode=disabled#disable-custom-scheduled-jobs)
-* [Execute Offline Revision Cleanup](/sites/deploying/using/pre-upgrade-maintenance-tasks.html?wcmmode=disabled#execute-offline-revision-cleanup)
-* [Execute Datastore Garbage Collection](/sites/deploying/using/pre-upgrade-maintenance-tasks.html?wcmmode=disabled#execute-datastore-garbage-collection)
-* [Rotate Log Files](/sites/deploying/using/pre-upgrade-maintenance-tasks.html?wcmmode=disabled#rotate-log-files)
+* [Ensure Sufficient Disk Space](../../../sites/deploying/using/pre-upgrade-maintenance-tasks.md#ensure-sufficient-disk-space)
+* [Fully Back Up AEM](../../../sites/deploying/using/pre-upgrade-maintenance-tasks.md#fully-back-up-aem)
+* [Back Up Changes to /etc](../../../sites/deploying/using/pre-upgrade-maintenance-tasks.md#backup-changes-etc)
+* [Generate The quickstart.properties File](../../../sites/deploying/using/pre-upgrade-maintenance-tasks.md#generate-quickstart-properties)
+* [Configure Workflow and Audit Log Purging](../../../sites/deploying/using/pre-upgrade-maintenance-tasks.md#configure-wf-audit-purging)
+* [Install, Configure, and Run The Pre-Upgrade Tasks](../../../sites/deploying/using/pre-upgrade-maintenance-tasks.md#install-configure-run-pre-upgrade-tasks)
+* [Disable Custom Login Modules](../../../sites/deploying/using/pre-upgrade-maintenance-tasks.md#disable-custom-login-modules)
+* [Remove Updates From The /install Directory](../../../sites/deploying/using/pre-upgrade-maintenance-tasks.md#remove-updates-install-directory)
+* [Stop Any Cold Standby Instances](../../../sites/deploying/using/pre-upgrade-maintenance-tasks.md#stop-tarmk-coldstandby-instance)
+* [Disable Custom Scheduled Jobs](../../../sites/deploying/using/pre-upgrade-maintenance-tasks.md#disable-custom-scheduled-jobs)
+* [Execute Offline Revision Cleanup](../../../sites/deploying/using/pre-upgrade-maintenance-tasks.md#execute-offline-revision-cleanup)
+* [Execute Datastore Garbage Collection](../../../sites/deploying/using/pre-upgrade-maintenance-tasks.md#execute-datastore-garbage-collection)
+* [Rotate Log Files](../../../sites/deploying/using/pre-upgrade-maintenance-tasks.md#rotate-log-files)
 
 ## Ensure Sufficient Disk Space {#ensure-sufficient-disk-space}
 
@@ -50,7 +50,7 @@ When starting AEM from the jar file, a `quickstart.properties` file will be gene
 
 ## Configure Workflow and Audit Log Purging {#configure-wf-audit-purging}
 
-The `WorkflowPurgeTask` and `com.day.cq.audit.impl.AuditLogMaintenanceTask` tasks require separate OSGi configurations and will not work without them. If they fail during pre-upgrade task execution, missing configurations is the most likely reason. Therefore, make sure to add OSGi configurations for these tasks or remove them altogether from the pre-upgrade optimization tasks list if you do not wish to run them. Documentation for configuring workflow purging tasks can be found at [Administering Workflow Instances](https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/wf-administering.html#Regular Purging of Workflow Instances) and audit log maintenance task configuration can be found at [Audit Log Maintenance in AEM 6](../../../sites/administering/using/operations-audit-log.md).
+The `WorkflowPurgeTask` and `com.day.cq.audit.impl.AuditLogMaintenanceTask` tasks require separate OSGi configurations and will not work without them. If they fail during pre-upgrade task execution, missing configurations is the most likely reason. Therefore, make sure to add OSGi configurations for these tasks or remove them altogether from the pre-upgrade optimization tasks list if you do not wish to run them. Documentation for configuring workflow purging tasks can be found at [Administering Workflow Instances](https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/wf-administering.html#regular purging of workflow instances) and audit log maintenance task configuration can be found at [Audit Log Maintenance in AEM 6](../../../sites/administering/using/operations-audit-log.md).
 
 For workflow and audit log purging on CQ 5.6 as well as audit log purging on AEM 6.0, see [Purge workflow and audit nodes](https://helpx.adobe.com/experience-manager/kb/howtopurgewf.html).
 
@@ -292,7 +292,7 @@ Disable any OSGi scheduled jobs that are included in your application code.
 >
 >This step is only necessary for TarMK installations
 
-If using TarMK, you should execute Offline Revision Cleanup before upgrading. This will make the repository migration step and subsequent upgrade tasks execute much faster and will help to ensure that Online Revision Cleanup can execute successfully after the upgrade has completed. For information on running Offline Revision Cleanup, see [Performing Offline Revision Cleanup](https://helpx.adobe.com/experience-manager/6-2/sites/deploying/using/storage-elements-in-aem-6.html#PerformingOfflineRevisionCleanup).
+If using TarMK, you should execute Offline Revision Cleanup before upgrading. This will make the repository migration step and subsequent upgrade tasks execute much faster and will help to ensure that Online Revision Cleanup can execute successfully after the upgrade has completed. For information on running Offline Revision Cleanup, see [Performing Offline Revision Cleanup](https://helpx.adobe.com/experience-manager/6-2/sites/deploying/using/storage-elements-in-aem-6.html#performing-offline-revision-cleanup).
 
 ## Execute Datastore Garbage Collection {#execute-datastore-garbage-collection}
 

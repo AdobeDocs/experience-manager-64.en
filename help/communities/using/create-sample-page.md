@@ -3,12 +3,12 @@ title: Create a Sample Page
 seo-title: Create a Sample Page
 description: Create a Sample community site
 seo-description: Create a Sample community site
-uuid: d3f0e22e-aa9f-4224-80f0-e9afa20f1d82
+uuid: 68c79289-8980-4711-a63b-395dfb92b9f1
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 content-type: reference
 topic-tags: developing
-discoiquuid: c043819c-f41a-42ca-914f-c1c3901f3b88
+discoiquuid: 6e0438cb-a82b-4312-8bf3-c16f694eaa95
 index: y
 internal: n
 snippet: y
@@ -18,7 +18,7 @@ snippet: y
 
 As of AEM 6.1 Communities, the easiest way to create a sample page is to create a simple community site, consisting simply of a Page function.
 
-This will include a parsys component so that you can [enable components for authoring](../../communities/using/basics.md#accessingcommunitiescomponents).
+This will include a parsys component so that you can [enable components for authoring](../../communities/using/basics.md#accessing-communities-components).
 
 Another option for exploratoin with sample components is to use the features presented in the [Community Components Guide](../../communities/using/components-guide.md).
 
@@ -26,7 +26,7 @@ Another option for exploratoin with sample components is to use the features pre
 
 This is very similar to creating a new site described in [Getting Started with AEM Communities](../../communities/using/getting-started.md).
 
-The major difference is this tutorial will create a new community site template that only contains the [Page function](../../communities/using/functions.md#pagefunction) in order to create a simple community site free of other features (other than the pre-wired features basic to all community sites).
+The major difference is this tutorial will create a new community site template that only contains the [Page function](../../communities/using/functions.md#page-function) in order to create a simple community site free of other features (other than the pre-wired features basic to all community sites).
 
 ### Create New Site Template {#create-new-site-template}
 

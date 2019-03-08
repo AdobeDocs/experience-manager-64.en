@@ -3,12 +3,12 @@ title: Description of reusable components
 seo-title: Description of reusable components
 description: A complete list of reusable components with filenames and dependencies, to help you integrate AEM Forms workspace component in your web applications.
 seo-description: A complete list of reusable components with filenames and dependencies, to help you integrate AEM Forms workspace component in your web applications.
-uuid: 6d66bd59-cddd-4d8b-9f83-2d97782c56f3
+uuid: 8b23991c-4d7e-4cbb-8e9a-976456068248
 contentOwner: robhagat
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
-discoiquuid: dc27ac1e-79b6-4d82-b945-77a63f150fa1
+discoiquuid: a3836cbb-aefe-4879-828b-998fc36bd59f
 index: y
 internal: n
 snippet: y

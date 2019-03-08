@@ -3,11 +3,11 @@ title: Distribute AEM Forms app
 seo-title: Distribute AEM Forms app
 description: Use Mobile Device Management (MDM) for the large-scale deployment of apps on mobile devices.
 seo-description: Use Mobile Device Management (MDM) for the large-scale deployment of apps on mobile devices.
-uuid: 43d00507-3518-4b6b-8956-8d0e9275d5fd
+uuid: 27c9b62b-f405-443b-bdaf-3e558ecb3e77
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
-discoiquuid: d3efc410-3551-4df4-b4aa-24b96ceed0bc
+discoiquuid: fd11138d-3da6-4507-8e24-90be8385eb0a
 index: y
 internal: n
 snippet: y

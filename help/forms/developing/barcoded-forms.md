@@ -3,12 +3,12 @@ title: Working with barcoded forms
 seo-title: Working with barcoded forms
 description: null
 seo-description: null
-uuid: 4b285010-26e1-4a83-83a7-5807779d78a7
+uuid: 232a1323-b036-40d5-9d39-25adfd9f3527
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: 7397f349-4c5a-4e33-a36f-48c04d74b86e
+discoiquuid: b2e3c147-9d1f-4015-b0cb-37be45c60335
 index: y
 internal: n
 snippet: y
@@ -56,7 +56,7 @@ The following JAR files must be added to your project’s classpath:
 * jbossall-client.jar (Required if AEM Forms is deployed on JBoss)
 * xercesImpl.jar (located in &lt;install directory&gt;/Adobe/Adobe_Experience_Manager_forms/sdk/client-libs\thirdparty)
 
-If AEM Forms is deployed on a supported J2EE application server that is not JBOSS, then you will need to replace adobe-utilities.jar and jbossall-client.jar with JAR files that are specific to the J2EE application server on which AEM Forms is deployed. For information about the location of all AEM Forms JAR files, see [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files).
+If AEM Forms is deployed on a supported J2EE application server that is not JBOSS, then you will need to replace adobe-utilities.jar and jbossall-client.jar with JAR files that are specific to the J2EE application server on which AEM Forms is deployed. For information about the location of all AEM Forms JAR files, see [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files).
 
 **Create a barcoded forms Client API object **
 
@@ -83,7 +83,7 @@ Character set input as hex in the decode API implies that the content of the bar
 
 **Convert the data to an XML data source**
 
-After you decode form data, you can convert it to XDP or XFDF data. For example, assume that you want to import the data into another form. To import the data into an XFA form, then you have to convert the data to XDP data. For information, see [Importing Form Data](/programming-with-aem-forms/importing-exporting-data#importing_form_data).
+After you decode form data, you can convert it to XDP or XFDF data. For example, assume that you want to import the data into another form. To import the data into an XFA form, then you have to convert the data to XDP data. For information, see [Importing Form Data](/programming-with-aem-forms/importing-exporting-data.md#importing_form_data).
 
 **Process the decoded data**
 
@@ -95,13 +95,13 @@ You can process the converted data to meet your business requirements. For examp
 
 **See also**
 
-[Decode barcoded form data using the Java API](barcoded-forms#decode_barcoded_form_data_using_the_java_api)
+[Decode barcoded form data using the Java API](barcoded-forms.md#decode_barcoded_form_data_using_the_java_api)
 
-[Decode barcoded form data using the web service API](barcoded-forms#decode_barcoded_form_data_using_the_web_service_api)
+[Decode barcoded form data using the web service API](barcoded-forms.md#decode_barcoded_form_data_using_the_web_service_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
 
 ### Decode barcoded form data using the Java API {#decode-barcoded-form-data-using-the-java-api}
 
@@ -160,11 +160,11 @@ Decode form data by using the barcoded forms API(Java):
 
 **See also**
 
-[Quick Start (SOAP mode): Decoding barcoded form data using the Java API](/programming-with-aem-forms/barcoded-forms-service-java-api#quick_start_soap_mode_decoding_barcoded_form_data_using_the_java_api)
+[Quick Start (SOAP mode): Decoding barcoded form data using the Java API](/programming-with-aem-forms/barcoded-forms-service-java-api.md#quick_start_soap_mode_decoding_barcoded_form_data_using_the_java_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
 
 ### Decode barcoded form data using the web service API {#decode-barcoded-form-data-using-the-web-service-api}
 
@@ -172,8 +172,8 @@ Decode form data by using the barcoded forms API(web service):
 
 1. [Include project files](#unresolvedlink-lc-work-with-barcoded-forms-ww.xml#ws624e3cba99b79e12e69a9941333732bac8-7831.2)
 
-    * Create a Microsoft .NET client assembly that consumes the barcoded forms service WSDL. For information, see [Invoking AEM Forms using Base64 encoding](/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_base64_encoding).
-    * Reference the Microsoft .NET client assembly. For information, see “Referencing the .NET client assembly” in [Invoking AEM Forms using Base64 encoding](/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_base64_encoding).
+    * Create a Microsoft .NET client assembly that consumes the barcoded forms service WSDL. For information, see [Invoking AEM Forms using Base64 encoding](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_base64_encoding).
+    * Reference the Microsoft .NET client assembly. For information, see “Referencing the .NET client assembly” in [Invoking AEM Forms using Base64 encoding](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_base64_encoding).
 
 1. [Create a barcoded forms Client API object](#unresolvedlink-lc-work-with-barcoded-forms-ww.xml#ws624e3cba99b79e12e69a9941333732bac8-7830.2)
 
@@ -230,4 +230,4 @@ Decode form data by using the barcoded forms API(web service):
 
 [Quick Start (Base64): Decoding barcoded form data using the web service API](#unresolvedlink-lc-qs-barcoded-forms-bf.xml#ws624e3cba99b79e12e69a9941333732bac8-7f3d.2)
 
-[Invoking AEM Forms using Base64 encoding](/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_base64_encoding)
+[Invoking AEM Forms using Base64 encoding](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_base64_encoding)

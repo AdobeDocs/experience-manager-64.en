@@ -3,12 +3,12 @@ title: Upgrading Custom Search Forms
 seo-title: Upgrading Custom Search Forms
 description: This article details the adjustments that are required after an upgrade in order for the custom search forms to function.
 seo-description: This article details the adjustments that are required after an upgrade in order for the custom search forms to function.
-uuid: bbb84a1e-e888-4f4b-b9d6-3e518bc757ba
+uuid: f7c38c39-2fa9-4d6b-846e-61aeb0c7dbb3
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: upgrading
 content-type: reference
-discoiquuid: 81cd52f0-425a-4969-858f-0c38f41916d0
+discoiquuid: d8a79c92-8df3-4a95-ab80-1b8e61b5f8cd
 index: y
 internal: n
 snippet: y
@@ -28,7 +28,7 @@ Because of this, manual adjustments are required after an upgrade in order for t
 
 This applies to new Search Forms as well as default Forms that have been customized.
 
-For more information, see the documentation on [Search Facets](/assets/using/custom-search-facets).
+For more information, see the documentation on [Search Facets](/assets/using/custom-search-facets.md).
 
 ## Changing the resourceType property {#changing-the-resourcetype-property}
 
@@ -37,7 +37,7 @@ Unless stated otherwise, most of the adjustments that need to be done after the 
 You can change the property by doing the following:
 
 1. Open CRXDE Lite by going to `http://server:port/crx/de/index.jsp`
-1. Browse to the location of the node that needs to be adjusted, as specified in the List of [Custom Search Forms](../../../sites/deploying/using/upgrading-custom-search-forms.md#listofcustomsearchforms) below.
+1. Browse to the location of the node that needs to be adjusted, as specified in the List of [Custom Search Forms](../../../sites/deploying/using/upgrading-custom-search-forms.md#list-of-custom-search-forms) below.
 1. Click the node. In the right properties pane, click and modify the **sling:resourceType** property.
 1. Finally, save the changes by pressing the **Save All** button.
 

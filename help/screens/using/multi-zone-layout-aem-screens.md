@@ -3,12 +3,12 @@ title: Multi-zone Layout
 seo-title: Multi-zone Layout
 description: Multi-zone Layout allows you to create multiple zone content and use a variety of assets such as videos, images and text that can be combined in a single screen. Follow this page to learn more.
 seo-description: Multi-zone Layout allows you to create multiple zone content and use a variety of assets such as videos, images and text that can be combined in a single screen. Follow this page to learn more.
-uuid: 6cd913ba-9138-47ba-acb8-c716df72e005
+uuid: ea0f253f-4537-42ab-82a4-c6fd4f23afa1
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 content-type: reference
 topic-tags: authoring
-discoiquuid: d7a9d3c6-188c-4019-a42a-484dfdf5a5dc
+discoiquuid: b023b265-14ed-43ca-96b8-516142131e2d
 noindex: true
 index: y
 internal: n
@@ -19,12 +19,12 @@ snippet: y
 
 The following page describes the usage of multi-zone layout and covers the following topics:
 
-* [Overview](/screens/using/multi-zone-layout-aem-screens.html?cq_ck=1544732181418#Overview)
-* [Creating Multi-zone Layout](../../screens/using/multi-zone-layout-aem-screens.md#creatingmultizonelayout)
+* [Overview](../../screens/using/multi-zone-layout-aem-screens.md#overview)
+* [Creating Multi-zone Layout](../../screens/using/multi-zone-layout-aem-screens.md#creating-multi-zone-layout)
 
-    * [Prerequisites](/screens/using/multi-zone-layout-aem-screens.html?cq_ck=1544732181418#Prerequisites)
-    * [Using Single Assets in one or more Zones](/screens/using/multi-zone-layout-aem-screens.html?cq_ck=1545259747305#UsingSingleAssetsinoneormoreZones)
-    * [Using Sequenced Content in one or more Zones](/screens/using/multi-zone-layout-aem-screens.html?cq_ck=1545256536139#UsingSequencedContentinoneormoreZones)
+    * [Prerequisites](../../screens/using/multi-zone-layout-aem-screens.md#prerequisites)
+    * [Using Single Assets in one or more Zones](../../screens/using/multi-zone-layout-aem-screens.md#using-single-assets-in-one-or-more-zones)
+    * [Using Sequenced Content in one or more Zones](../../screens/using/multi-zone-layout-aem-screens.md#using-sequenced-content-in-one-or-more-zones)
 
 ## Overview {#overview}
 

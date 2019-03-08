@@ -4,11 +4,11 @@ seo-title: Deploying Communities
 description: How to deploy AEM Communities
 seo-description: How to deploy AEM Communities
 page-status-flag: never-activated
-uuid: f9fce3e0-e7b2-49cf-acd7-a78197bb5cf3
+uuid: a5c854c5-25ab-4cde-8f26-d1f47d31f617
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 content-type: reference
 topic-tags: deploying
-discoiquuid: 0b622570-dcdf-4e53-b093-ad6c1f01ecf7
+discoiquuid: 28327941-e2e3-43cc-ac6b-a2a1dd42b0d6
 index: y
 internal: n
 snippet: y
@@ -30,35 +30,35 @@ snippet: y
 
 ## Installation Checklist {#installation-checklist}
 
-**For the [AEM platform](../../sites/deploying/using/deploy.md#whatisaem)**
+**For the [AEM platform](../../sites/deploying/using/deploy.md#what-is-aem)**
 
-* install latest [AEM 6.4 Updates](#aem64updates)
+* install latest [AEM 6.4 Updates](#aem-updates)
 
-* if not using the default ports (4502, 4503), then [configure replication agents](#replicationagentsonauthor)
-* [replicate the crypto key](#replicatethecryptokey)
+* if not using the default ports (4502, 4503), then [configure replication agents](#replication-agents-on-author)
+* [replicate the crypto key](#replicate-the-crypto-key)
 * if supporting globalization, [setup automated translation](../../sites/administering/using/translation.md)  
   
   (sample setup is provided for development)
 
 **For the [Communities capability](../../communities/using/overview.md)**
 
-* if deploying a [publish farm](../../sites/deploying/using/recommended-deploys.md#tarmkfarm), [identify the primary publisher](#primarypublisher)
+* if deploying a [publish farm](../../sites/deploying/using/recommended-deploys.md#tarmk-farm), [identify the primary publisher](#primary-publisher)
 
-* [enable the tunnel service](#tunnelserviceonauthor)
-* [enable social login](../../communities/using/social-login.md#adobegraniteoauthauthenticationhandler)
+* [enable the tunnel service](#tunnel-service-on-author)
+* [enable social login](../../communities/using/social-login.md#adobe-granite-oauth-authentication-handler)
 * [configure Adobe Analytics](../../communities/using/analytics.md)
 * setup a [default email service](../../communities/using/email.md)
 * identify the choice for [shared UGC storage](../../communities/using/working-with-srp.md) (**SRP**)
 
     * if MongoDB SRP [(MSRP)](../../communities/using/msrp.md)
 
-        * [install and configure MongoDB](../../communities/using/msrp.md#mongodbconfiguration)
+        * [install and configure MongoDB](../../communities/using/msrp.md#mongodb-configuration)
         * [configure Solr](../../communities/using/solr.md)
         * [select MSRP](../../communities/using/srp-config.md)
 
     * if relational database SRP [(DSRP)](../../communities/using/dsrp.md)
 
-        * [install the JDBC driver for MySQL](#jdbcdriverformysql)
+        * [install the JDBC driver for MySQL](#jdbc-driver-for-mysql)
         * [install and configure MySQL for DSRP](../../communities/using/dsrp-mysql.md)
         * [configure Solr](../../communities/using/solr.md)
         * [select DSRP](../../communities/using/srp-config.md)
@@ -77,16 +77,16 @@ snippet: y
 
         * default is JSRP
 
-  **For the ** [**enablement feature**](../../communities/using/overview.md#enablementcommunity)
+  **For the ** [**enablement feature**](../../communities/using/overview.md#enablement-community)
 
     * [install and configure FFmpeg](../../communities/using/ffmpeg.md)
-    * [install the JDBC driver for MySQL](#jdbcdriverformysql)
-    * [install AEM Communities SCORM-Engine](#scormpackage)
+    * [install the JDBC driver for MySQL](#jdbc-driver-for-mysql)
+    * [install AEM Communities SCORM-Engine](#scorm-package)
     * [install and configure MySQL for enablement](../../communities/using/mysql.md)
 
 ## Latest Releases {#latest-releases}
 
-AEM 6.4 Communities GA ships with Communities package. To know about updates to AEM 6.4 [Communities](../../release-notes.md#experiencemanagercommunities), refer [AEM 6.4 Release Notes](../../release-notes.md#releaseinformation).
+AEM 6.4 Communities GA ships with Communities package. To know about updates to AEM 6.4 [Communities](../../release-notes.md#experience-manager-communities), refer [AEM 6.4 Release Notes](../../release-notes.md#release-information).
 
 ### AEM 6.4 Updates {#aem-updates}
 
@@ -140,7 +140,7 @@ Further information on installing bundles is found on the [Web Console](../../si
 
 Shareable Content Object Reference Model (SCORM) is a collection of standards and specifications for e-learning. SCORM also defines how content may be packaged into a transferable ZIP file.
 
-The AEM Communities SCORM engine is required for the [enablement](../../communities/using/overview.md#enablementcommunity) feature. Scorm packages supported on AEM Communities 6.5 version:
+The AEM Communities SCORM engine is required for the [enablement](../../communities/using/overview.md#enablement-community) feature. Scorm packages supported on AEM Communities 6.5 version:
 
 <details> 
  <summary>To install a SCORM package</summary>  
@@ -152,7 +152,7 @@ As installed, all enablement activity is verbosely logged to the system console.
 
 If desired, the log level can be set to WARN for the `RusticiSoftware.*` package.
 
-For working with logs, see [Working with Audit Records and Log Files](../../sites/deploying/using/monitoring-and-maintaining.md#workingwithauditrecordsandlogfiles).
+For working with logs, see [Working with Audit Records and Log Files](../../sites/deploying/using/monitoring-and-maintaining.md#working-with-audit-records-and-log-files).
 
 ### AEM Advanced MLS {#aem-advanced-mls}
 
@@ -186,7 +186,7 @@ Alternatively, accessing the package using package share from the local AEM inst
 
 Once in the local AEM instance's package repository, use package manager to install the package.
 
-For more information, visit [How to Work With Packages](../../sites/administering/using/package-manager.md#packageshare).
+For more information, visit [How to Work With Packages](../../sites/administering/using/package-manager.md#package-share).
 
 ## Recommended Deployments {#recommended-deployments}
 
@@ -208,7 +208,7 @@ In addition to upgrading the platform, read [Upgrading to AEM Communities 6.4](.
 
 ### Primary Publisher {#primary-publisher}
 
-When the deployment chosen is a [publish farm](../../communities/using/topologies.md#tarmkpublishfarm), then one AEM publish instance must be identified as the **`primary publisher`** for activities which should not occur on all instances, such as features that rely on **notifications **or **Adobe Analytics**.
+When the deployment chosen is a [publish farm](../../communities/using/topologies.md#tarmk-publish-farm), then one AEM publish instance must be identified as the **`primary publisher`** for activities which should not occur on all instances, such as features that rely on **notifications **or **Adobe Analytics**.
 
 By default, the `AEM Communities Publisher Configuration` OSGi configuration is configured with the **`Primary Publisher`** checkbox checked, such that all publish instances in a publish farm would self-identify as the primary.
 
@@ -230,7 +230,7 @@ For all other (secondary) publish instances in a publish farm :
 
 ### Replication Agents on Author {#replication-agents-on-author}
 
-Replication is used for site content created in the publish environment, such as community groups, as well as managing members and member groups from the author environment using the [tunnel service](#tunnelserviceonauthor).
+Replication is used for site content created in the publish environment, such as community groups, as well as managing members and member groups from the author environment using the [tunnel service](#tunnel-service-on-author).
 
 For the primary publisher, ensure the [Replication Agent Config](../../sites/deploying/using/replication.md) correctly identifies the publish server and authorized user. The default authorized user, `admin,` already has the appropriate permissions (is a member of `Communities Administrators`).
 
@@ -266,7 +266,7 @@ The following images show the results of changing the port from 4503 to 6103 by 
 
 ### Tunnel Service on Author {#tunnel-service-on-author}
 
-When using the author environment to [create sites](../../communities/using/sites-console.md), [modify site properties](../../communities/using/sites-console.md#modifyingsiteproperties) or [manage community members](../../communities/using/members.md), it is necessary to access members (users) registered in the publish environment, not users registered on author.
+When using the author environment to [create sites](../../communities/using/sites-console.md), [modify site properties](../../communities/using/sites-console.md#modifying-site-properties) or [manage community members](../../communities/using/members.md), it is necessary to access members (users) registered in the publish environment, not users registered on author.
 
 The tunnel service provides this access using the replication agent on author.
 
@@ -275,7 +275,7 @@ To enable the tunnel service :
 * on **author**
 * sign in with administrative privileges
 * if publisher is not localhost:4503 or transport user is not `admin`,  
-  then [configure the replication agent](#replicationagentsonauthor)
+  then [configure the replication agent](#replication-agents-on-author)
 
 * access the [Web Console](../../sites/deploying/using/configuring-osgi.md)
 
@@ -319,7 +319,7 @@ In order to copy the key material from author to all other instances, it is nece
         * `<publish-aem-install-dir>/crx-quickstart/launchpad/felix/bundle21/data`
 
     * paste the 2 files previously copied
-    * it is necessary to [refresh the Granite Crypto bundle](#refreshthegranitecryptobundle) if the target AEM instance is currently running
+    * it is necessary to [refresh the Granite Crypto bundle](#refresh-the-granite-crypto-bundle) if the target AEM instance is currently running
 
 >[!CAUTION]
 >
@@ -333,7 +333,7 @@ Having the key material stored in the repository, as was the case for AEM 6.2 an
 
 >[!NOTE]
 >
->It is important to verify that the [replication agent on author](#replicationagentsonauthor) is correctly configured.
+>It is important to verify that the [replication agent on author](#replication-agents-on-author) is correctly configured.
 
 With the key material stored in the repository, the manner for replicating the crypto key from author to other instances is as follows :
 
@@ -344,7 +344,7 @@ Using [CRXDE Lite](../../sites/developing/using/developing-with-crxde-lite.md) :
 * open `Replication` tab
 * select `Replicate`
 
-* [refresh the Granite Crypto bundle](#refreshthegranitecryptobundle)
+* [refresh the Granite Crypto bundle](#refresh-the-granite-crypto-bundle)
 
 ![](assets/chlimage_1-415.png) 
 
@@ -392,7 +392,7 @@ If using a Dispatcher, see :
 * AEM's [Dispatcher](https://helpx.adobe.com/experience-manager/dispatcher/using/dispatcher.html) documentation
 * [Installing Dispatcher](https://helpx.adobe.com/experience-manager/dispatcher/using/dispatcher-install.html)
 * [Configuring Dispatcher for Communities](../../communities/using/dispatcher.md)
-* [Known Issues](../../communities/using/troubleshooting.md#dispatcherrefetchfails)
+* [Known Issues](../../communities/using/troubleshooting.md#dispatcher-refetch-fails)
 
 ## Related Communities Documentation {#related-communities-documentation}
 

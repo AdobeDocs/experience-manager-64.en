@@ -3,10 +3,10 @@ title: Best practices for working with adaptive forms
 seo-title: Best practices for working with adaptive forms
 description: Explains best practices for setting up an AEM Forms project, developing adaptive forms, and optimizing the performance for AEM Forms system.
 seo-description: Explains best practices for setting up an AEM Forms project, developing adaptive forms, and optimizing the performance for AEM Forms system.
-uuid: df216385-163b-4893-a628-ea4d1e3ab633
+uuid: aa6fb91d-1803-46ca-93d2-4ffce6a30e65
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
-discoiquuid: 82301cc6-ce75-49e3-9ec3-11f1337f3c78
+discoiquuid: 4203572b-83d9-4176-93b0-5acfceab7b02
 index: y
 internal: n
 snippet: y
@@ -235,7 +235,7 @@ Server-side validations are required to prevent any attempts to bypass validatio
 
 ### Localizing adaptive forms {#localizing-adaptive-forms}
 
-AEM provides translation workflows that you can use to localize adaptive forms. For information, see [Using AEM translation workflow to localize adaptive forms](/forms/using/using-aem-translation-workflow-to-localize-adaptive-forms-).
+AEM provides translation workflows that you can use to localize adaptive forms. For information, see [Using AEM translation workflow to localize adaptive forms](/forms/using/using-aem-translation-workflow-to-localize-adaptive-forms-.md).
 
 Some best practices when localizing adaptive forms are as follows:
 
@@ -300,6 +300,6 @@ In a production environment, it is recommended not to store submitted form data 
 
 One of the key challenges for organizations is how to handle personally identifiable (PII) data. Some best practices that will help you handle such data are as follows:
 
-* Use a secure, external storage like database to store data from draft and submitted forms. See [Configuring external storage for drafts and submitted forms data](/forms/using/adaptive-forms-best-practices.html?cq_ck=1477304179789#external-storage).
+* Use a secure, external storage like database to store data from draft and submitted forms. See [Configuring external storage for drafts and submitted forms data](../../forms/using/adaptive-forms-best-practices.md#external-storage).
 * Use Terms and Conditions form component to take explicit consent from user before enabling auto save. In this case, enable auto save only when user agrees to the conditions in Terms and Conditions component.
 

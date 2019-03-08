@@ -3,12 +3,12 @@ title: Storage Resource Provider Overview
 seo-title: Storage Resource Provider Overview
 description: Common storage for Communities
 seo-description: Common storage for Communities
-uuid: b409285f-5902-4716-be8a-9bae5afc3e81
+uuid: 15154c69-ec7d-41f5-ae34-1ea4b07f6741
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 7ad7e2e3-3834-4a6d-b13f-9f5abd817109
+discoiquuid: b12e0011-4774-4745-8701-9337f933689d
 index: y
 internal: n
 snippet: y
@@ -50,7 +50,7 @@ One implementation of JCR is the AEM repository, OAK.
 
 Both JCR and OAK are typically used to refer to the AEM repository.
 
-After developing site content in the private author environment, it must by copied to the public publish environment. This is often done through an operation called * [replication](../../communities/using/deploy-communities.md#replicationagentsonauthor)*. This happens under control of the author/developer/administrator.
+After developing site content in the private author environment, it must by copied to the public publish environment. This is often done through an operation called * [replication](../../communities/using/deploy-communities.md#replication-agents-on-author)*. This happens under control of the author/developer/administrator.
 
 For UGC, the content is entered by registered site visitors (community members) in the public publish environment. This happens randomly.
 
@@ -102,8 +102,8 @@ JSRP uses the Oak indices for queries.
 
 Shadow nodes, which mimic the path to UGC, exist in the local repository to serve two purposes :
 
-1. [Access Control (ACLs](#foraccesscontrolacls))
-1. [Non-Existing Resources (NERs)](#fornonexistingresourcesners)
+1. [Access Control (ACLs](#for-access-control-acls))
+1. [Non-Existing Resources (NERs)](#for-non-existing-resources-ners)
 
 Regardless of SRP implementation, the actual UGC will *not *be visible at the same location as the shadow node.
 
@@ -119,7 +119,7 @@ See [SRP and UGC Essentials](../../communities/using/srp-and-ugc.md) for sample 
 
 ### For Non-Existing Resources (NERs) {#for-non-existing-resources-ners}
 
-Some Communities components are includable within a script and thus require a Sling addressable node to support Communities features. [Included components](../../communities/using/scf.md#addorincludeacommunitiescomponent) are referred to as non-existing resources (NERs).
+Some Communities components are includable within a script and thus require a Sling addressable node to support Communities features. [Included components](../../communities/using/scf.md#add-or-include-a-communities-component) are referred to as non-existing resources (NERs).
 
 Shadow nodes provide a Sling addressable location in the repository.
 

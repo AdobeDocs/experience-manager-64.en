@@ -3,13 +3,13 @@ title: First Steps for Authors
 seo-title: First Steps for Authors
 description: This section gives you an overview of the main tasks that you will be using when starting to author content with Adobe Experience Manager (AEM).
 seo-description: This section gives you an overview of the main tasks that you will be using when starting to author content with Adobe Experience Manager (AEM).
-uuid: ec4523e4-3f38-4257-94b6-629d892aee66
+uuid: b9ece59b-5cc7-46ed-ac67-2af99c644b9d
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
 topic-tags: page-authoring
-discoiquuid: bd9c8295-01d7-40c3-a55a-1474440e01f9
+discoiquuid: f38dae2f-f8e8-45d9-8e92-6d972d2167d9
 index: y
 internal: n
 snippet: y
@@ -17,14 +17,14 @@ snippet: y
 
 # First Steps for Authors{#first-steps-for-authors}
 
-This section gives you an overview of the main tasks that you will be using when [starting to author content](../../../sites/authoring/using/author.md#conceptofauthoringandpublishing) with Adobe Experience Manager (AEM).
+This section gives you an overview of the main tasks that you will be using when [starting to author content](../../../sites/authoring/using/author.md#concept-of-authoring-and-publishing) with Adobe Experience Manager (AEM).
 
 It covers:
 
-* [Getting Started](#gettingstarted)  
+* [Getting Started](#getting-started)  
   Detailing the basic sequence of events you need for creating and publishing your first page.  
 
-* [Further Actions](#furtheractions)  
+* [Further Actions](#further-actions)  
   Following on with the many other actions you can use when authoring.
 
 ## Getting Started {#getting-started}
@@ -87,7 +87,7 @@ Every [page has properties](../../../sites/classic-ui-authoring/using/classic-pa
 
 ### Creating a Version of a Page {#creating-a-version-of-a-page}
 
-You can [create a version of a page](../../../sites/classic-ui-authoring/using/classic-page-author-work-with-versions.md#creatinganewversion) and then [revert back to a version](../../../sites/classic-ui-authoring/using/classic-page-author-work-with-versions.md#restoringapageversionfromsidekick) if necessary.
+You can [create a version of a page](../../../sites/classic-ui-authoring/using/classic-page-author-work-with-versions.md#creating-a-new-version) and then [revert back to a version](../../../sites/classic-ui-authoring/using/classic-page-author-work-with-versions.md#restoring-a-page-version-from-sidekick) if necessary.
 
 ## More Information {#more-information}
 

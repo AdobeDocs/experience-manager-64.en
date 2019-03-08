@@ -3,12 +3,12 @@ title: Community Groups
 seo-title: Community Groups
 description: Creating community groups
 seo-description: Creating community groups
-uuid: a5863715-30f9-4556-9a8a-173cfff2748d
+uuid: 9b2c84e1-d64d-4268-94df-bd7546ada4c6
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
-discoiquuid: 576794a8-183e-436a-9497-02f580a51ed7
+discoiquuid: 0ee50057-4e4a-4463-8f7f-a61b83287ab2
 index: y
 internal: n
 snippet: y
@@ -18,7 +18,7 @@ snippet: y
 
 The community groups feature is the ability for a sub-community to be dynamically created within a community site by authorized users (community members and authors) from the publish and author environments.
 
-This ability is present when the [groups function](../../communities/using/functions.md#groupsfunction) is present in the [community site](../../communities/using/sites-console.md) structure.
+This ability is present when the [groups function](../../communities/using/functions.md#groups-function) is present in the [community site](../../communities/using/sites-console.md) structure.
 
 A [community group template](../../communities/using/tools-groups.md) provides the design of the community group page when a community group is dynamically created.
 

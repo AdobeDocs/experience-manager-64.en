@@ -3,12 +3,12 @@ title: Configuring Components in Design Mode
 seo-title: Configuring Components in Design Mode
 description: null
 seo-description: null
-uuid: b5c05d28-58aa-49b1-9702-bd5271da661b
+uuid: 40930e05-819a-4c56-84f1-ec1bc755e36d
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: c7c6dccd-1b1b-4032-94ef-9432376fb5ea
+discoiquuid: d4655cec-fa7a-4d61-892a-8e8a8a1f6dfd
 index: y
 internal: n
 snippet: y
@@ -45,7 +45,7 @@ For example, the content of a product page may contain a paragraph system holdin
 
 >[!NOTE]
 >
->See [Developing Components](../../../sites/developing/using/components.md#paragraphsystem) and [Guidelines for Using Templates and Components](../../../sites/developing/using/dev-guidelines-bestpractices.md#guidelinesforusingtemplatesandcomponents) for more information about `parsys`.
+>See [Developing Components](../../../sites/developing/using/components.md#paragraphsystem) and [Guidelines for Using Templates and Components](../../../sites/developing/using/dev-guidelines-bestpractices.md#guidelines-for-using-templates-and-components) for more information about `parsys`.
 
 >[!CAUTION]
 >

@@ -3,12 +3,12 @@ title: Task Manager Service Java API QuickStart(SOAP)
 seo-title: Task Manager Service Java API QuickStart(SOAP)
 description: null
 seo-description: null
-uuid: f0832af9-9eaf-4bc4-8d43-0589e9dbe4db
+uuid: 17ccceff-aaca-4a32-a376-424b80f42ead
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
-discoiquuid: 9741ec0a-68cd-4dc9-8a30-b7bd6fd54b7f
+discoiquuid: 447b3d01-a6e7-4593-9881-3052711d4c27
 index: y
 internal: n
 snippet: y
@@ -18,25 +18,25 @@ snippet: y
 
 The following Quick Starts are available for the Task Manager service.
 
-[Quick Start (SOAP mode): Assigning tasks using the Java API](task-manager-service-java-api#quick_start_soap_mode_assigning_tasks_using_the_java_api)
+[Quick Start (SOAP mode): Assigning tasks using the Java API](task-manager-service-java-api.md#quick_start_soap_mode_assigning_tasks_using_the_java_api)
 
-[Quick Start (SOAP mode): Locking tasks using the Java API](task-manager-service-java-api#quick_start_soap_mode_locking_tasks_using_the_java_api)
+[Quick Start (SOAP mode): Locking tasks using the Java API](task-manager-service-java-api.md#quick_start_soap_mode_locking_tasks_using_the_java_api)
 
-[Quick Start (SOAP mode): Retrieving tasks assigned to users using the Java API](task-manager-service-java-api#quick_start_soap_mode_retrieving_tasks_assigned_to_users_using_the_java_api)
+[Quick Start (SOAP mode): Retrieving tasks assigned to users using the Java API](task-manager-service-java-api.md#quick_start_soap_mode_retrieving_tasks_assigned_to_users_using_the_java_api)
 
-[Quick Start (SOAP mode): Retrieving form data from tasks using the Java API](task-manager-service-java-api#quick_start_soap_mode_retrieving_form_data_from_tasks_using_the_java_api)
+[Quick Start (SOAP mode): Retrieving form data from tasks using the Java API](task-manager-service-java-api.md#quick_start_soap_mode_retrieving_form_data_from_tasks_using_the_java_api)
 
-[Quick Start (SOAP mode): Modifying form data using the Java API](task-manager-service-java-api#quick_start_soap_mode_modifying_form_data_using_the_java_api)
+[Quick Start (SOAP mode): Modifying form data using the Java API](task-manager-service-java-api.md#quick_start_soap_mode_modifying_form_data_using_the_java_api)
 
-[Quick Start (SOAP mode): Retrieving file attachments from tasks using the Java API](task-manager-service-java-api#quick_start_soap_mode_retrieving_file_attachments_from_tasks_using_the_java_api)
+[Quick Start (SOAP mode): Retrieving file attachments from tasks using the Java API](task-manager-service-java-api.md#quick_start_soap_mode_retrieving_file_attachments_from_tasks_using_the_java_api)
 
-[Quick Start (SOAP mode): Retrieving task information using the Java API](task-manager-service-java-api#quick_start_soap_mode_retrieving_task_information_using_the_java_api)
+[Quick Start (SOAP mode): Retrieving task information using the Java API](task-manager-service-java-api.md#quick_start_soap_mode_retrieving_task_information_using_the_java_api)
 
 AEM Forms operations can be performed using the AEM Forms strongly-typed API and the connection mode should be set to SOAP.
 
 ***Note**: You cannot search for tasks assigned to users by using the web service API. The reason is because you cannot invoke the `taskList` method, which is a necessary method call to perform this task.*
 
-***Note**: Quick Start located in Programming with AEM Forms are based on the Forms server operating system. However, if you are using another operating system, such as UNIX, replace Windows-specific paths with paths that are supported by the applicable operating system. Likewise, if you are using another J2EE application server, ensure that you specify valid connection properties. (See [Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties).)*
+***Note**: Quick Start located in Programming with AEM Forms are based on the Forms server operating system. However, if you are using another operating system, such as UNIX, replace Windows-specific paths with paths that are supported by the applicable operating system. Likewise, if you are using another J2EE application server, ensure that you specify valid connection properties. (See [Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties).)*
 
 ## Quick Start (SOAP mode): Assigning tasks using the Java API {#quick-start-soap-mode-assigning-tasks-using-the-java-api}
 

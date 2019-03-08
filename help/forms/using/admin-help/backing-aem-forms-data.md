@@ -3,12 +3,12 @@ title: Backing up the AEM forms data
 seo-title: Backing up the AEM forms data
 description: This document describes the steps that are required to complete a hot, or online, backup of the AEM forms database, the GDS, and Content Storage Root directories.
 seo-description: This document describes the steps that are required to complete a hot, or online, backup of the AEM forms database, the GDS, and Content Storage Root directories.
-uuid: b5f574bb-e62a-45ba-9647-1e75085988b3
+uuid: b33e763b-0145-44a0-a87a-0924a473ccaa
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/aem_forms_backup_and_recovery
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: c9129c62-bb6b-4a53-ace0-ec7479c7b1ab
+discoiquuid: 728c99d2-e1aa-4b57-ac62-1ead3b740598
 index: y
 internal: n
 snippet: y
@@ -71,7 +71,7 @@ These articles provide guidance to basic database features for the backup and re
 
 ### Entering the backup modes {#entering-the-backup-modes}
 
-You can use either administration console, the LCBackupMode command, or the API available with the AEM forms installation to enter and leave backup modes. Note that for rolling backup (continuous coverage), the administration console option is not available; you should use either the command line option or the API. For information about using the API to enter and leave backup modes, see AEM forms API Reference on [Help and Tutorials](/forms/using/topics) page.
+You can use either administration console, the LCBackupMode command, or the API available with the AEM forms installation to enter and leave backup modes. Note that for rolling backup (continuous coverage), the administration console option is not available; you should use either the command line option or the API. For information about using the API to enter and leave backup modes, see AEM forms API Reference on [Help and Tutorials](/forms/using/topics.md) page.
 
 >[!NOTE]
 >

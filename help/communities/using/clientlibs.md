@@ -3,12 +3,12 @@ title: Clientlibs for Communities Components
 seo-title: Clientlibs for Communities Components
 description: Client-side libraries for Communities
 seo-description: Client-side libraries for Communities
-uuid: fb572457-e31e-4728-8103-25b658c5f223
+uuid: 575cb2d2-dc4c-4bbd-aec5-f56a3b1ecb5e
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: a04b857e-e772-4148-8666-1b763a3a3e76
+discoiquuid: a75a9401-66d9-4988-8a45-a493727ae7ef
 index: y
 internal: n
 snippet: y
@@ -59,7 +59,7 @@ For example, at the very top of the [Reviews page](http://localhost:4502/content
 
 When it is desired to add a Communities component to a page, it will be necessary to add the required clientlibs for the component if not already present.
 
-Use [CRXDE|Lite](#usingcrxdelite) to modify an existing clientlibslist for a community site page.
+Use [CRXDE|Lite](#using-crxde-lite) to modify an existing clientlibslist for a community site page.
 
 To add a clientlib for a community site using [CRXDE Lite](../../sites/developing/using/developing-with-crxde-lite.md) :
 

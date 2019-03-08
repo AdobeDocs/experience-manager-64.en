@@ -3,12 +3,12 @@ title: Administering generic eCommerce
 seo-title: Administering generic eCommerce
 description: The AEM generic solution provides methods of managing the commerce information held within the repository.
 seo-description: The AEM generic solution provides methods of managing the commerce information held within the repository.
-uuid: 81d8d091-5051-45b7-80dc-41a7574b31b3
+uuid: 4f529ba9-8143-48cb-aa17-683c933fc548
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: e-commerce
 content-type: reference
-discoiquuid: b3be4f7d-ee1b-4792-be8f-9c1989f03591
+discoiquuid: 5cac5bdf-7d59-4511-b6db-67b2635074fe
 index: y
 internal: n
 snippet: y
@@ -19,13 +19,13 @@ snippet: y
 The AEM generic solution provides methods of managing the commerce information held within the repository (as opposed to using an external ecommerce engine). This includes:
 
 * [Products](../../../sites/administering/using/concepts.md#products)
-* [Product Variants](../../../sites/administering/using/concepts.md#productvariants)  
+* [Product Variants](../../../sites/administering/using/concepts.md#product-variants)  
 
 * [Catalog(s)](../../../sites/administering/using/concepts.md#catalogs)
 * [Promotions](../../../sites/administering/using/concepts.md#promotions)
 * [Vouchers](../../../sites/administering/using/concepts.md#vouchers)
-* [Orders](../../../sites/administering/using/concepts.md#shoppingcartandorders)
-* [Proxy Pages](../../../sites/administering/using/concepts.md#proxypages)
+* [Orders](../../../sites/administering/using/concepts.md#shopping-cart-and-orders)
+* [Proxy Pages](../../../sites/administering/using/concepts.md#proxy-pages)
 
 >[!NOTE]
 >
@@ -71,7 +71,7 @@ A scaffold is needed for each distinct product type. The appropriate scaffold is
 1. Specify:
 
     * **Importer** 
-      The importer for the specific [commerce provider](../../../sites/administering/using/concepts.md#commerceproviders), by default `Geometrixx`.  
+      The importer for the specific [commerce provider](../../../sites/administering/using/concepts.md#commerce-providers), by default `Geometrixx`.  
     
     * **Source ** 
       The file you want imported; you can use the browser to select a file.  
@@ -112,7 +112,7 @@ A scaffold is needed for each distinct product type. The appropriate scaffold is
       `/etc/commerce/products/<*store name*>/`
     
     * **Commerce Provider** 
-      The importer for your [commerce provider](../../../sites/administering/using/concepts.md#commerceproviders); by default Geometrixx.  
+      The importer for your [commerce provider](../../../sites/administering/using/concepts.md#commerce-providers); by default Geometrixx.  
     
     * **Source File** 
       The location in the repository of the file you want imported.  
@@ -139,7 +139,7 @@ A scaffold is needed for each distinct product type. The appropriate scaffold is
 
    ![](do-not-localize/chlimage_1-14.png)
 
-1. The wizard will open. Use the **Basic** and **Product Tabs** to enter the [product attributes](../../../sites/administering/using/concepts.md#productattributes) for the new product or product variant.
+1. The wizard will open. Use the **Basic** and **Product Tabs** to enter the [product attributes](../../../sites/administering/using/concepts.md#product-attributes) for the new product or product variant.
 
    >[!NOTE]
    >
@@ -168,14 +168,14 @@ A scaffold is needed for each distinct product type. The appropriate scaffold is
 1. Using the **Products** console (via **Commerce**) navigate to your product information.
 1. Using either:
 
-    * [quick actions](../../../sites/authoring/using/basic-handling.md#quickactions)
+    * [quick actions](../../../sites/authoring/using/basic-handling.md#quick-actions)
     * [selection mode](../../../sites/authoring/using/basic-handling.md#navigatingandselectionmode)
 
    Select the **View Product Data** icon:
 
    ![](do-not-localize/chlimage_1-15.png)
 
-1. The [product attributes](../../../sites/administering/using/concepts.md#productattributes) will be shown. Use **Edit** and **Done** to make any changes.
+1. The [product attributes](../../../sites/administering/using/concepts.md#product-attributes) will be shown. Use **Edit** and **Done** to make any changes.
 
 ### Showing Product References {#showing-product-references}
 
@@ -253,7 +253,7 @@ You can add multiple assets in the product component, then specify the asset tha
 
    >[!NOTE]
    >
-   >The assets you can select are from [Assets](https://helpx.adobe.com/experience-manager/aem-previous-versions.html#Assets).
+   >The assets you can select are from [Assets](https://helpx.adobe.com/experience-manager/aem-previous-versions.html#assets).
 
 1. Tap/click Done icon.
 
@@ -266,13 +266,13 @@ Two assets are now stored in your product component. You can configure which one
    >
    >You can also use tags for categories.
 
-1. Tap/click Done icon. You now have to [rollout](#rollingoutacatalog) your changes.
+1. Tap/click Done icon. You now have to [rollout](#rolling-out-a-catalog) your changes.
 
 Now your assets in the product component have a category. You can configure which category will be displayed at three different levels:
 
-* [Product Page](#productpage)
+* [Product Page](#product-page)
 * [Catalog](#catalog)
-* [Products Console](#productsconsole)
+* [Products Console](#products-console)
 
 >[!NOTE]
 >
@@ -303,7 +303,7 @@ The mechanism to select the image to be displayed is as follows:
 1. Tap/click the **Assets **tab.
 1. Type the required **Product Asset Category**.
 1. Tap/click **Done**.
-1. [Rollout](#rollingoutacatalog) your changes.
+1. [Rollout](#rolling-out-a-catalog) your changes.
 
 #### Products Console {#products-console}
 
@@ -312,7 +312,7 @@ The mechanism to select the image to be displayed is as follows:
 1. Tap/click **Edit**.
 1. Type a **Default Asset Category**.
 1. Tap/click **Done**.
-1. [Rollout](#rollingoutacatalog) your changes.
+1. [Rollout](#rolling-out-a-catalog) your changes.
 
 ### Publishing/Unpublishing Product Information {#publishing-unpublishing-product-information}
 
@@ -327,7 +327,7 @@ The mechanism to select the image to be displayed is as follows:
 1. Using the **Products** console (via **Commerce**) navigate to your product information.
 1. Using either:
 
-    * [quick actions](../../../sites/authoring/using/basic-handling.md#quickactions)
+    * [quick actions](../../../sites/authoring/using/basic-handling.md#quick-actions)
     * [selection mode](../../../sites/authoring/using/basic-handling.md#navigatingandselectionmode)
 
    Select the **Publish** or **Unpublish** icon as required:
@@ -513,7 +513,7 @@ To rollout a catalog:
 1. Navigate to the catalog you want to rollout.
 1. Using either:
 
-    * [quick actions](../../../sites/authoring/using/basic-handling.md#quickactions)
+    * [quick actions](../../../sites/authoring/using/basic-handling.md#quick-actions)
     * [selection mode](../../../sites/authoring/using/basic-handling.md#navigatingandselectionmode)
 
    Select the **Rollout Changes** icon:
@@ -658,7 +658,7 @@ In the demo site (Geometrixx Outdoors - English) you can see the voucher form on
 
    ![](do-not-localize/chlimage_1-26.png)
 
-1. The wizard will open. Use the **Basic**, **Content**, **Payment** and **Fulfilment** tabs**** to enter the [information about the new order](../../../sites/administering/using/concepts.md#orderinformation).  
+1. The wizard will open. Use the **Basic**, **Content**, **Payment** and **Fulfilment** tabs**** to enter the [information about the new order](../../../sites/administering/using/concepts.md#order-information).  
 
 1. Select **Create** to save the information.
 
@@ -669,12 +669,12 @@ In the demo site (Geometrixx Outdoors - English) you can see the voucher form on
 1. Using the **Orders** console navigate to the order.
 1. Using either:
 
-    * [quick actions](../../../sites/authoring/using/basic-handling.md#quickactions)
+    * [quick actions](../../../sites/authoring/using/basic-handling.md#quick-actions)
     * [selection mode](../../../sites/authoring/using/basic-handling.md#navigatingandselectionmode)
 
    Select the **View Order Data** icon:
 
    ![](do-not-localize/chlimage_1-27.png)
 
-1. The [order information](../../../sites/administering/using/concepts.md#orderinformation) will be shown. Use **Edit** and **Done** to make any changes.
+1. The [order information](../../../sites/administering/using/concepts.md#order-information) will be shown. Use **Edit** and **Done** to make any changes.
 

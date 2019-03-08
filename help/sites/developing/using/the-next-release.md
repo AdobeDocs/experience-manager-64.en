@@ -3,12 +3,12 @@ title: The next release...
 seo-title: The next release...
 description: A subsequent release is nearly always foreseen, and can even start during the final stages of the current implementation
 seo-description: A subsequent release is nearly always foreseen, and can even start during the final stages of the current implementation
-uuid: 853996dc-9be9-478d-9260-1a9b292e1816
+uuid: 48e6e120-9ee7-49ea-806d-177d3996d825
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: testing
 content-type: reference
-discoiquuid: 840c0188-b5dc-4c8b-ade6-28c66dbec7f0
+discoiquuid: 50dc454c-a176-43bd-9c14-720d0a142942
 index: y
 internal: n
 snippet: y

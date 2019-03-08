@@ -3,11 +3,11 @@ title: Device Control Center
 seo-title: Device Control Center
 description: null
 seo-description: null
-uuid: bac517d3-e91d-47cb-a6ba-c4f4bceed601
+uuid: 589b14e4-8133-4a97-abd7-2cf282837a1b
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SITES
-discoiquuid: d23db5c5-cd97-4ed2-bd48-237fad45fc14
+discoiquuid: e8263bad-9e8a-4e5f-9ec8-924e017c5fba
 index: y
 internal: n
 snippet: y
@@ -62,7 +62,7 @@ The applications console allows you to preview the applications built for AEM Sc
 
 ![](assets/chlimage_1-28.png)
 
-For example, you can navigate to [http://localhost:4502/screens.html/content/screens/geometrixx/apps]( http://localhost:4502/screens.html/content/screens/geometrixx/apps) and select the **Preview **icon of the **Geometrixx Virtual Showroom Experience**.
+For example, you can navigate to [http://localhost:4502/screens.html/content/screens/geometrixx/apps]( http://localhost:4502/screens.html/content/screens/geometrixx/apps.md) and select the **Preview **icon of the **Geometrixx Virtual Showroom Experience**.
 
 The preview of the application should open in a new tab.
 
@@ -203,7 +203,7 @@ The channels could display just some images, but they could also display an appl
 
 From the Channels console, you can preview your channel on your browser.
 
-You can also open the Channel for authoring. For more information about authoring these channels, see [Screens Authoring Capabilites](/content/docs/en/aem/6-3/author/screens).
+You can also open the Channel for authoring. For more information about authoring these channels, see [Screens Authoring Capabilites](/content/docs/en/aem/6-3/author/screens.md).
 
 ### Creating a New Channel {#creating-a-new-channel}
 
@@ -234,7 +234,7 @@ The devices console allows you to access the device manager to assign your devic
 
 >[!NOTE]
 >
->Before assigning your device, you need to register it. For more information, see [Device Registration](/content/docs/en/aem/6-3/deploy/screens#Device Registration).
+>Before assigning your device, you need to register it. For more information, see [Device Registration](/content/docs/en/aem/6-3/deploy/screens.md#device registration).
 
 ### Device Assignment {#device-assignment}
 

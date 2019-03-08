@@ -3,12 +3,12 @@ title: Document security offerings
 seo-title: Document security offerings
 description: Learn about various tools and features of AEM Document Security
 seo-description: Learn about various tools and features of AEM Document Security
-uuid: 9c92b4e3-a38a-4eb2-9c48-fce53e391050
+uuid: ea2a49b4-52b8-44f1-a87c-3ff74d27adb9
 contentOwner: khsingh
 geptopics: SG_AEMFORMS/categories/working_with_document_security
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: b41f67ae-8738-4cea-a033-5a5c3ffa7006
+discoiquuid: ea0fc9ec-7229-4c9c-9591-f1e282d1f1ac
 index: y
 internal: n
 snippet: y

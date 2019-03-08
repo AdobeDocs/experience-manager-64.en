@@ -3,12 +3,12 @@ title: Encapsulated Token Support
 seo-title: Encapsulated Token Support
 description: Learn about the Encapsulated Token support in AEM.
 seo-description: Learn about the Encapsulated Token support in AEM.
-uuid: d91585e0-22d0-41a9-8796-ef35fd03d935
+uuid: 98b2050d-bff2-45a8-b749-2380cafd0cef
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
-discoiquuid: 33f0641f-9685-4a5c-adbf-28fc7fbc9895
+discoiquuid: 32f85cc3-163f-4c28-8169-5aeb2eb79176
 index: y
 internal: n
 snippet: y
@@ -85,7 +85,7 @@ In order to replicate the key across instances, you need to:
     * `<publish-aem-install-dir>/crx-quickstart/launchpad/felix/bundle21/data`
 
 1. Paste the two files you previously copied.
-1. [Refresh the Crypto Bundle](../../../communities/using/deploy-communities.md#refreshthegranitecryptobundle) if the target instance is already running.  
+1. [Refresh the Crypto Bundle](../../../communities/using/deploy-communities.md#refresh-the-granite-crypto-bundle) if the target instance is already running.  
 
 1. Repeat the above steps for all instances you want to replicate the key to.
 

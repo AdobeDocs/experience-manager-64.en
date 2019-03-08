@@ -3,12 +3,12 @@ title: Experience the Published Site
 seo-title: Experience the Published Site
 description: Browse to a published site
 seo-description: Browse to a published site
-uuid: 35d032af-4473-4380-b0d6-5a96cadd966d
+uuid: bd70c142-c1f4-4e72-8d4c-c9e54c48c429
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: introduction
 content-type: reference
-discoiquuid: 419b4f80-05cf-473c-bedc-63a427cc6ea1
+discoiquuid: d0125a11-a920-456f-b21d-a6957dda73f1
 index: y
 internal: n
 snippet: y
@@ -75,7 +75,7 @@ To protect your community site's content from access by anonymous users through 
 
 ## Trusted Community Member {#trusted-community-member}
 
-This experience assumes [Aaron McDonald](../../communities/using/tutorials.md#demousers) was assigned the roles of [community manager and moderator](../../communities/using/create-site.md#roles). If not, return to the author environment to [modify the site settings](../../communities/using/sites-console.md#modifyingsiteproperties) and select Aaron McDonald as both community manager and moderator.
+This experience assumes [Aaron McDonald](../../communities/using/tutorials.md#demo-users) was assigned the roles of [community manager and moderator](../../communities/using/create-site.md#roles). If not, return to the author environment to [modify the site settings](../../communities/using/sites-console.md#modifying-site-properties) and select Aaron McDonald as both community manager and moderator.
 
 In the upper right corner, select `Log in`, and sign with username "aaron.mcdonald@mailinator.com" and password "password". Notice the ability to sign in with Twitter or Facebook credentials.
 
@@ -85,7 +85,7 @@ Once signed in, notice there is a new menu item, `Administration`, which appears
 
 ![](assets/chlimage_1-313.png)
 
-Notice the Calendar page is the home page because the chosen Reference Site Template included the Calendar function first, followed by Activity Stream function, Forum function, and so on. This structure is visible from the [Site Template](../../communities/using/sites.md#editsitetemplate) console or when modifying site properties in the author environment :
+Notice the Calendar page is the home page because the chosen Reference Site Template included the Calendar function first, followed by Activity Stream function, Forum function, and so on. This structure is visible from the [Site Template](../../communities/using/sites.md#edit-site-template) console or when modifying site properties in the author environment :
 
 ![](assets/chlimage_1-314.png)
 

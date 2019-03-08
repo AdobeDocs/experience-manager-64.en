@@ -3,13 +3,13 @@ title: Asset Level Scheduling
 seo-title: Asset Level Scheduling
 description: Follow this page to learn how to activate a specific asset in a channel for a scheduled time frame in the player's local timezone. 
 seo-description: Follow this page to learn how to activate a specific asset in a channel for a scheduled time frame in the player's local timezone. 
-uuid: f9f2cb8b-0417-4278-a79f-784c499d54e9
+uuid: b2262eb7-137f-4866-ba02-2f44c3ef27d8
 admitteddomains: @adobe.com;@caesars.com
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: authoring
-discoiquuid: fd6c7351-4513-4aa4-871e-c488be35a734
+discoiquuid: ef0df265-804c-4667-b677-46625687fe94
 noindex: true
 index: y
 internal: n
@@ -22,9 +22,9 @@ This section describes asset level scheduling for the assets used in Channels.
 
 The following topics are covered in this section:
 
-* ** [Overview](/screens/using/asset-level-scheduling.html?cq_ck=1545086435144#Overview)**
-* ** [Using Asset Level Scheduling](/screens/using/asset-level-scheduling.html?cq_ck=1545086435144#UsingAssetLevelScheduling)**
-* ** [Handling Recurrence in Assets](/screens/using/asset-level-scheduling.html?cq_ck=1545086435144#HandlingRecurrenceinAssets)**
+* ** [Overview](../../screens/using/asset-level-scheduling.md#overview)**
+* ** [Using Asset Level Scheduling](../../screens/using/asset-level-scheduling.md#using-asset-level-scheduling)**
+* ** [Handling Recurrence in Assets](../../screens/using/asset-level-scheduling.md#handling-recurrence-in-assets)**
 * ** [Multi Asset Scheduling](#multi-assetscheduling)  
   **
 

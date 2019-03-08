@@ -3,12 +3,12 @@ title: Invoking AEM Forms using Remoting
 seo-title: Invoking AEM Forms using Remoting
 description: null
 seo-description: null
-uuid: 58f42bc4-070f-45d8-9c02-6e083de99a83
+uuid: 052c6457-5509-4839-8cb9-2bb8a1a4e080
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: coding
-discoiquuid: f5595d05-2fb2-4589-a3b5-50c41f651f60
+discoiquuid: 2c723c33-a27c-4c6b-871c-5a3785f3da4f
 index: y
 internal: n
 snippet: y
@@ -46,25 +46,25 @@ When this process is invoked, it performs the following actions:
 
 >[!NOTE]
 >
->For information about using Remoting to invoke a long-lived process, see [Invoking Human-Centric Long-Lived Processes](/programming-with-aem-forms/invoking-human-centric-long-lived#invoking_human_centric_long_lived_processes).
+>For information about using Remoting to invoke a long-lived process, see [Invoking Human-Centric Long-Lived Processes](/programming-with-aem-forms/invoking-human-centric-long-lived.md#invoking_human_centric_long_lived_processes).
 
 **See also**
 
-[Including the AEM Forms Flex library file](invoking-aem-forms-using-remoting#including_the_aem_forms_flex_library_file)
+[Including the AEM Forms Flex library file](invoking-aem-forms-using-remoting.md#including_the_aem_forms_flex_library_file)
 
-[Handling documents with (Deprecated for AEM forms) AEM Forms Remoting](invoking-aem-forms-using-remoting#handling_documents_with_remoting)
+[Handling documents with (Deprecated for AEM forms) AEM Forms Remoting](invoking-aem-forms-using-remoting.md#handling_documents_with_remoting)
 
-[Invoking a short-lived process by passing an unsecure document using (Deprecated for AEM forms) AEM Forms Remoting](invoking-aem-forms-using-remoting#invoking_a_short_lived_process_by_passing_an_unsecure_document_using_remoting)
+[Invoking a short-lived process by passing an unsecure document using (Deprecated for AEM forms) AEM Forms Remoting](invoking-aem-forms-using-remoting.md#invoking_a_short_lived_process_by_passing_an_unsecure_document_using_remoting)
 
-[Authenticating client applications built with Flex](invoking-aem-forms-using-remoting#authenticating_client_applications_built_with_flex)
+[Authenticating client applications built with Flex](invoking-aem-forms-using-remoting.md#authenticating_client_applications_built_with_flex)
 
-[Passing secure documents to invoke processes using Remoting](invoking-aem-forms-using-remoting#passing_secure_documents_to_invoke_processes_using_remoting)
+[Passing secure documents to invoke processes using Remoting](invoking-aem-forms-using-remoting.md#passing_secure_documents_to_invoke_processes_using_remoting)
 
-[Invoking custom component services using Remoting](invoking-aem-forms-using-remoting#invoking_custom_component_services_using_remoting)
+[Invoking custom component services using Remoting](invoking-aem-forms-using-remoting.md#invoking_custom_component_services_using_remoting)
 
-[Creating a client application built with Flex that invokes a human-centric long-lived process](/programming-with-aem-forms/invoking-human-centric-long-lived#creating_a_client_application_built_with_flex_that_invokes_a_human_centric_long_lived_process)
+[Creating a client application built with Flex that invokes a human-centric long-lived process](/programming-with-aem-forms/invoking-human-centric-long-lived.md#creating_a_client_application_built_with_flex_that_invokes_a_human_centric_long_lived_process)
 
-[Creating Flash Builder applications that perform SSO authentication using HTTP tokens](/programming-with-aem-forms/creating-flash-builder-applications-perform#creating_flash_builder_applications_that_perform_sso_authentication_using_http_tokens)
+[Creating Flash Builder applications that perform SSO authentication using HTTP tokens](/programming-with-aem-forms/creating-flash-builder-applications-perform.md#creating_flash_builder_applications_that_perform_sso_authentication_using_http_tokens)
 
 For information on how to display process data in a Flex graph control, see [Displaying AEM Forms process data in Flex graphs](http://www.adobe.com/devnet/livecycle/articles/populating_flexcontrols.html).
 
@@ -82,17 +82,17 @@ To programmatically invoke AEM Forms processes using Remoting, add the adobe-rem
 
 **See also**
 
-[Invoking AEM Forms using (Deprecated for AEM forms) AEM Forms Remoting](invoking-aem-forms-using-remoting#invoking_aem_forms_using_remoting)
+[Invoking AEM Forms using (Deprecated for AEM forms) AEM Forms Remoting](invoking-aem-forms-using-remoting.md#invoking_aem_forms_using_remoting)
 
-[Handling documents with (Deprecated for AEM forms) AEM Forms Remoting](invoking-aem-forms-using-remoting#handling_documents_with_remoting)
+[Handling documents with (Deprecated for AEM forms) AEM Forms Remoting](invoking-aem-forms-using-remoting.md#handling_documents_with_remoting)
 
-[Invoking a short-lived process by passing an unsecure document using (Deprecated for AEM forms) AEM Forms Remoting](invoking-aem-forms-using-remoting#invoking_a_short_lived_process_by_passing_an_unsecure_document_using_remoting)
+[Invoking a short-lived process by passing an unsecure document using (Deprecated for AEM forms) AEM Forms Remoting](invoking-aem-forms-using-remoting.md#invoking_a_short_lived_process_by_passing_an_unsecure_document_using_remoting)
 
-[Authenticating client applications built with Flex](invoking-aem-forms-using-remoting#authenticating_client_applications_built_with_flex)
+[Authenticating client applications built with Flex](invoking-aem-forms-using-remoting.md#authenticating_client_applications_built_with_flex)
 
 ## Handling documents with Remoting {#handling-documents-with-remoting}
 
-One of the most important non-primitive Java types used in AEM Forms is the `com.adobe.idp.Document` class. A document is commonly required to invoke a AEM Forms operation. It is primarily a PDF document, but can contain other document types such as SWF, HTML, XML, or a DOC file. (See [Passing data to AEM Forms services using the Java API](/programming-with-aem-forms/invoking-aem-forms-using-java#passing_data_to_aem_forms_services_using_the_java_api).)
+One of the most important non-primitive Java types used in AEM Forms is the `com.adobe.idp.Document` class. A document is commonly required to invoke a AEM Forms operation. It is primarily a PDF document, but can contain other document types such as SWF, HTML, XML, or a DOC file. (See [Passing data to AEM Forms services using the Java API](/programming-with-aem-forms/invoking-aem-forms-using-java.md#passing_data_to_aem_forms_services_using_the_java_api).)
 
 A client application built with Flex cannot directly request a document. For example, you cannot launch Adobe Reader to request a URL that produces a PDF file. Requests for document types, such as PDF and Microsoft Word documents, return a result that is a URL. It is the client’s responsibility to display the contents of the URL. The Document Management service helps generate the URL and content type information. Requests for XML documents return the full XML document in the result.
 
@@ -124,12 +124,12 @@ docRef.referenceType = DocumentReference.REF_TYPE_INLINE; 
 docRef.text = "Text for my document";  // Optionally, you can override the server’s default character set  // if necessary:  // docRef.charsetName=CharacterSetName  ...
 ```
 
-* When the document is not on the server, use the Remoting upload servlet to upload a document to AEM Forms. New in AEM Forms is the ability to upload secure documents. When uploading a secure document, you have to use a user who has the* Document Upload Application User *role. Without this role, the user cannot upload a secure document. It is recommended that you use single sign on to upload a secure document. (See [Passing secure documents to invoke processes using Remoting](invoking-aem-forms-using-remoting#passing_secure_documents_to_invoke_processes_using_remoting).)
+* When the document is not on the server, use the Remoting upload servlet to upload a document to AEM Forms. New in AEM Forms is the ability to upload secure documents. When uploading a secure document, you have to use a user who has the* Document Upload Application User *role. Without this role, the user cannot upload a secure document. It is recommended that you use single sign on to upload a secure document. (See [Passing secure documents to invoke processes using Remoting](invoking-aem-forms-using-remoting.md#passing_secure_documents_to_invoke_processes_using_remoting).)
 
-  ***Note**: if AEM Forms is configured to allow unsecure documents to be uploaded, you can use a user that does not have the Document Upload Application User role to upload a document. A user can also have the Document Upload permission. However, if AEM Forms is configured to only allow secure documents, then ensure that the user has the Document Upload Application User role or Document Upload permission. (See [Configuring AEM Forms to accept secure and unsecure documents](invoking-aem-forms-using-remoting#configuring_aem_forms_to_accept_secure_and_unsecure_documents)*.)**
+  ***Note**: if AEM Forms is configured to allow unsecure documents to be uploaded, you can use a user that does not have the Document Upload Application User role to upload a document. A user can also have the Document Upload permission. However, if AEM Forms is configured to only allow secure documents, then ensure that the user has the Document Upload Application User role or Document Upload permission. (See [Configuring AEM Forms to accept secure and unsecure documents](invoking-aem-forms-using-remoting.md#configuring_aem_forms_to_accept_secure_and_unsecure_documents)*.)**
 
   You use standard Flash upload capabilities for the designated upload URL: `http://SERVER:PORT/remoting/lcfileupload`. You can then use the `DocumentReference` object wherever an input parameter of type `Document` is expected
-  ` private function startUpload():void  {  fileRef.addEventListener(Event.SELECT, selectHandler);  fileRef.addEventListener("uploadCompleteData", completeHandler);  try  {   var success:Boolean = fileRef.browse();  }    catch (error:Error)  {   trace("Unable to browse for files.");  }  }      private function selectHandler(event:Event):void {  var request:URLRequest = new  URLRequest("http://SERVER:PORT/remoting/lcfileupload")  try   {   fileRef.upload(request);   }    catch (error:Error)   {   trace("Unable to upload file.");   }  }    private function completeHandler(event:DataEvent):void  {   var params:Object = new Object();   var docRef:DocumentReference = new DocumentReference();   docRef.url = event.data as String;   docRef.referenceType = DocumentReference.REF_TYPE_URL;  }`The Remoting Quick Start uses the Remoting upload servlet to pass a PDF file to the `MyApplication/EncryptDocument`process. (See [Invoking a short-lived process by passing an unsecure document using (Deprecated for AEM forms) AEM Forms Remoting](invoking-aem-forms-using-remoting#invoking_a_short_lived_process_by_passing_an_unsecure_document_using_remoting).)
+  ` private function startUpload():void  {  fileRef.addEventListener(Event.SELECT, selectHandler);  fileRef.addEventListener("uploadCompleteData", completeHandler);  try  {   var success:Boolean = fileRef.browse();  }    catch (error:Error)  {   trace("Unable to browse for files.");  }  }      private function selectHandler(event:Event):void {  var request:URLRequest = new  URLRequest("http://SERVER:PORT/remoting/lcfileupload")  try   {   fileRef.upload(request);   }    catch (error:Error)   {   trace("Unable to upload file.");   }  }    private function completeHandler(event:DataEvent):void  {   var params:Object = new Object();   var docRef:DocumentReference = new DocumentReference();   docRef.url = event.data as String;   docRef.referenceType = DocumentReference.REF_TYPE_URL;  }`The Remoting Quick Start uses the Remoting upload servlet to pass a PDF file to the `MyApplication/EncryptDocument`process. (See [Invoking a short-lived process by passing an unsecure document using (Deprecated for AEM forms) AEM Forms Remoting](invoking-aem-forms-using-remoting.md#invoking_a_short_lived_process_by_passing_an_unsecure_document_using_remoting).)
 
 ```java
  
@@ -162,7 +162,7 @@ function completeHandler(event: DataEvent): void  { 
 }
 ```
 
-The Remoting Quick Start uses the Remoting upload servlet to pass a PDF file to the `MyApplication/EncryptDocument`process. (See [Invoking a short-lived process by passing an unsecure document using (Deprecated for AEM forms) AEM Forms Remoting](invoking-aem-forms-using-remoting#invoking_a_short_lived_process_by_passing_an_unsecure_document_using_remoting).)
+The Remoting Quick Start uses the Remoting upload servlet to pass a PDF file to the `MyApplication/EncryptDocument`process. (See [Invoking a short-lived process by passing an unsecure document using (Deprecated for AEM forms) AEM Forms Remoting](invoking-aem-forms-using-remoting.md#invoking_a_short_lived_process_by_passing_an_unsecure_document_using_remoting).)
 
 ### Passing a document back to a client application {#passing-a-document-back-to-a-client-application}
 
@@ -170,15 +170,15 @@ A client application receives an object of type `mx.rpc.livecycle.DocumentRefere
 
 **See also**
 
-[Invoking AEM Forms using (Deprecated for AEM forms) AEM Forms Remoting](invoking-aem-forms-using-remoting#invoking_aem_forms_using_remoting)
+[Invoking AEM Forms using (Deprecated for AEM forms) AEM Forms Remoting](invoking-aem-forms-using-remoting.md#invoking_aem_forms_using_remoting)
 
-[Including the AEM Forms Flex library file](invoking-aem-forms-using-remoting#including_the_aem_forms_flex_library_file)
+[Including the AEM Forms Flex library file](invoking-aem-forms-using-remoting.md#including_the_aem_forms_flex_library_file)
 
-[Invoking a short-lived process by passing an unsecure document using (Deprecated for AEM forms) AEM Forms Remoting](invoking-aem-forms-using-remoting#invoking_a_short_lived_process_by_passing_an_unsecure_document_using_remoting)
+[Invoking a short-lived process by passing an unsecure document using (Deprecated for AEM forms) AEM Forms Remoting](invoking-aem-forms-using-remoting.md#invoking_a_short_lived_process_by_passing_an_unsecure_document_using_remoting)
 
-[Authenticating client applications built with Flex](invoking-aem-forms-using-remoting#authenticating_client_applications_built_with_flex)
+[Authenticating client applications built with Flex](invoking-aem-forms-using-remoting.md#authenticating_client_applications_built_with_flex)
 
-[Passing secure documents to invoke processes using Remoting](invoking-aem-forms-using-remoting#passing_secure_documents_to_invoke_processes_using_remoting)
+[Passing secure documents to invoke processes using Remoting](invoking-aem-forms-using-remoting.md#passing_secure_documents_to_invoke_processes_using_remoting)
 
 ## Invoking a short-lived process by passing an unsecure document using Remoting {#invoking-a-short-lived-process-by-passing-an-unsecure-document-using-remoting}
 
@@ -191,7 +191,7 @@ To invoke a AEM Forms process from an application built with Flex, perform the f
 
 >[!NOTE]
 >
->This section discusses how to invoke a AEM Forms process and upload a document when AEM Forms is configured to upload unsecure documents. For information about how to invoke AEM Forms processes and upload secure documents and how to configure AEM Forms to accept secure and unsecure documents, see [Passing secure documents to invoke processes using Remoting](invoking-aem-forms-using-remoting#passing_secure_documents_to_invoke_processes_using_remoting).
+>This section discusses how to invoke a AEM Forms process and upload a document when AEM Forms is configured to upload unsecure documents. For information about how to invoke AEM Forms processes and upload secure documents and how to configure AEM Forms to accept secure and unsecure documents, see [Passing secure documents to invoke processes using Remoting](invoking-aem-forms-using-remoting.md#passing_secure_documents_to_invoke_processes_using_remoting).
 
 **Creating a mx:RemoteObject instance**
 
@@ -231,7 +231,7 @@ Assign the `ChannelSet` instance to the `mx:RemoteObject` instance’s `channelS
 
 **Passing input values**
 
-A process created in Workbench can take zero or more input parameters and return an output value. A client application passes input parameters within an `ActionScript` object with fields that correspond to parameters that belong to the AEM Forms process. The short-lived process, named `MyApplication/EncryptDocument`, requires one input parameter named `inDoc`. The name of the operation exposed by the process is `invoke` (the default name for a short-lived process). (See [Invoking AEM Forms using (Deprecated for AEM forms) AEM Forms Remoting](invoking-aem-forms-using-remoting#invoking_aem_forms_using_remoting).)
+A process created in Workbench can take zero or more input parameters and return an output value. A client application passes input parameters within an `ActionScript` object with fields that correspond to parameters that belong to the AEM Forms process. The short-lived process, named `MyApplication/EncryptDocument`, requires one input parameter named `inDoc`. The name of the operation exposed by the process is `invoke` (the default name for a short-lived process). (See [Invoking AEM Forms using (Deprecated for AEM forms) AEM Forms Remoting](invoking-aem-forms-using-remoting.md#invoking_aem_forms_using_remoting).)
 
 The following code example passes a PDF document to the `MyApplication/EncryptDocument` process:
 
@@ -248,7 +248,7 @@ The following code example passes a PDF document to the `MyApplication/EncryptDo
      ...
 ```
 
-In this code example, `pdfDocument` is a `DocumentReference` instance that contains an unsecured PDF document. For information about a `DocumentReference`, see [Handling documents with (Deprecated for AEM forms) AEM Forms Remoting](invoking-aem-forms-using-remoting#handling_documents_with_remoting).
+In this code example, `pdfDocument` is a `DocumentReference` instance that contains an unsecured PDF document. For information about a `DocumentReference`, see [Handling documents with (Deprecated for AEM forms) AEM Forms Remoting](invoking-aem-forms-using-remoting.md#handling_documents_with_remoting).
 
 **Invoking a specific version of a service**
 
@@ -280,12 +280,12 @@ You can invoke the `MyApplication/EncryptDocument` process by performing the fol
 
 1. Create a `mx:RemoteObject` instance through either ActionScript or MXML. (See [Creating a mx:RemoteObject instance](#unresolvedlink-lc-in-invoke-using-remoting-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7ba9.2))
 1. Set up a `ChannelSet` instance to communicate with AEM Forms, and associate it with the `mx:RemoteObject` instance. (See [Create a Channel to AEM Forms](#unresolvedlink-lc-in-invoke-using-remoting-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7ba7.2).)
-1. Call the ChannelSet’s `login` method or the service’s `setCredentials` method to specify the user identifier value and password. (See [Using single sign-on](invoking-aem-forms-using-remoting#using_single_sign_on).)
-1. Populate an `mx.rpc.livecycle.DocumentReference` instance with an unsecured PDF document to pass to the `MyApplication/EncryptDocument` process. (See [Passing a document as an input parameter](invoking-aem-forms-using-remoting#passing_a_document_as_an_input_parameter).)
+1. Call the ChannelSet’s `login` method or the service’s `setCredentials` method to specify the user identifier value and password. (See [Using single sign-on](invoking-aem-forms-using-remoting.md#using_single_sign_on).)
+1. Populate an `mx.rpc.livecycle.DocumentReference` instance with an unsecured PDF document to pass to the `MyApplication/EncryptDocument` process. (See [Passing a document as an input parameter](invoking-aem-forms-using-remoting.md#passing_a_document_as_an_input_parameter).)
 1. Encrypt the PDF document by calling the `mx:RemoteObject` instance’s `invoke` method. Pass the `Object` that contains the input parameter (which is the unsecured PDF document). (See [Passing input values](#unresolvedlink-lc-in-invoke-using-remoting-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7baa.2).)
 1. Retrieve the password-encrypted PDF document that is returned from the process. (See [Handling return values](#unresolvedlink-lc-in-invoke-using-remoting-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7ba5.2).)
 
-[Quick Start: Invoking a short-lived process by passing an unsecure document using (Deprecated for AEM forms) AEM Forms Remoting](/programming-with-aem-forms/invocation-api-quick-starts#quick_start_invoking_a_short_lived_process_by_passing_an_unsecure_document_using_deprecated_for_aem_forms_aem_forms_remoting)
+[Quick Start: Invoking a short-lived process by passing an unsecure document using (Deprecated for AEM forms) AEM Forms Remoting](/programming-with-aem-forms/invocation-api-quick-starts.md#quick_start_invoking_a_short_lived_process_by_passing_an_unsecure_document_using_deprecated_for_aem_forms_aem_forms_remoting)
 
 ## Authenticating client applications built with Flex {#authenticating-client-applications-built-with-flex}
 
@@ -297,7 +297,7 @@ For custom authentication, the server sends a fault to the client to indicate th
 
 >[!NOTE]
 >
->For information about performing authentication using HTTP tokens, see [Creating Flash Builder applications that perform SSO authentication using HTTP tokens](/programming-with-aem-forms/creating-flash-builder-applications-perform#creating_flash_builder_applications_that_perform_sso_authentication_using_http_tokens).
+>For information about performing authentication using HTTP tokens, see [Creating Flash Builder applications that perform SSO authentication using HTTP tokens](/programming-with-aem-forms/creating-flash-builder-applications-perform.md#creating_flash_builder_applications_that_perform_sso_authentication_using_http_tokens).
 
 ### Using custom authentication {#using-custom-authentication}
 
@@ -528,21 +528,21 @@ You can start a client application built with Flex and use the centralized login
 
 **See also**
 
-[Invoking AEM Forms using (Deprecated for AEM forms) AEM Forms Remoting](invoking-aem-forms-using-remoting#invoking_aem_forms_using_remoting)
+[Invoking AEM Forms using (Deprecated for AEM forms) AEM Forms Remoting](invoking-aem-forms-using-remoting.md#invoking_aem_forms_using_remoting)
 
-[Handling documents with (Deprecated for AEM forms) AEM Forms Remoting](invoking-aem-forms-using-remoting#handling_documents_with_remoting)
+[Handling documents with (Deprecated for AEM forms) AEM Forms Remoting](invoking-aem-forms-using-remoting.md#handling_documents_with_remoting)
 
-[Including the AEM Forms Flex library file](invoking-aem-forms-using-remoting#including_the_aem_forms_flex_library_file)
+[Including the AEM Forms Flex library file](invoking-aem-forms-using-remoting.md#including_the_aem_forms_flex_library_file)
 
-[Invoking a short-lived process by passing an unsecure document using (Deprecated for AEM forms) AEM Forms Remoting](invoking-aem-forms-using-remoting#invoking_a_short_lived_process_by_passing_an_unsecure_document_using_remoting)
+[Invoking a short-lived process by passing an unsecure document using (Deprecated for AEM forms) AEM Forms Remoting](invoking-aem-forms-using-remoting.md#invoking_a_short_lived_process_by_passing_an_unsecure_document_using_remoting)
 
-[Passing secure documents to invoke processes using Remoting](invoking-aem-forms-using-remoting#passing_secure_documents_to_invoke_processes_using_remoting)
+[Passing secure documents to invoke processes using Remoting](invoking-aem-forms-using-remoting.md#passing_secure_documents_to_invoke_processes_using_remoting)
 
 ## Passing secure documents to invoke processes using Remoting {#passing-secure-documents-to-invoke-processes-using-remoting}
 
-You can pass secure documents to AEM Forms when invoking a process that requires one or more documents. By passing a secure document, you are protecting business information and confidential documents. In this situation, a document can refer to a PDF document, an XML document, a Word document, and so on. Passing a secure document to AEM Forms from a client application written in Flex is required when AEM Forms is configured to allow secure documents. (See [Configuring AEM Forms to accept secure and unsecure documents](invoking-aem-forms-using-remoting#configuring_aem_forms_to_accept_secure_and_unsecure_documents).)
+You can pass secure documents to AEM Forms when invoking a process that requires one or more documents. By passing a secure document, you are protecting business information and confidential documents. In this situation, a document can refer to a PDF document, an XML document, a Word document, and so on. Passing a secure document to AEM Forms from a client application written in Flex is required when AEM Forms is configured to allow secure documents. (See [Configuring AEM Forms to accept secure and unsecure documents](invoking-aem-forms-using-remoting.md#configuring_aem_forms_to_accept_secure_and_unsecure_documents).)
 
-When passing a secure document, use single sign-on and specify a AEM forms user who has the* Document Upload Application User *role. Without this role, the user cannot upload a secure document. You can programmatically assign a role to a user. (See [Managing Roles and Permissions](/programming-with-aem-forms/users#managing_roles_and_permissions).)
+When passing a secure document, use single sign-on and specify a AEM forms user who has the* Document Upload Application User *role. Without this role, the user cannot upload a secure document. You can programmatically assign a role to a user. (See [Managing Roles and Permissions](/programming-with-aem-forms/users.md#managing_roles_and_permissions).)
 
 >[!NOTE]
 >
@@ -873,15 +873,15 @@ if AEM Forms is configured to only allow secure documents to be uploaded and the
 
 **See also**
 
-[Invoking AEM Forms using (Deprecated for AEM forms) AEM Forms Remoting](invoking-aem-forms-using-remoting#invoking_aem_forms_using_remoting)
+[Invoking AEM Forms using (Deprecated for AEM forms) AEM Forms Remoting](invoking-aem-forms-using-remoting.md#invoking_aem_forms_using_remoting)
 
-[Handling documents with (Deprecated for AEM forms) AEM Forms Remoting](invoking-aem-forms-using-remoting#handling_documents_with_remoting)
+[Handling documents with (Deprecated for AEM forms) AEM Forms Remoting](invoking-aem-forms-using-remoting.md#handling_documents_with_remoting)
 
-[Including the AEM Forms Flex library file](invoking-aem-forms-using-remoting#including_the_aem_forms_flex_library_file)
+[Including the AEM Forms Flex library file](invoking-aem-forms-using-remoting.md#including_the_aem_forms_flex_library_file)
 
-[Invoking a short-lived process by passing an unsecure document using (Deprecated for AEM forms) AEM Forms Remoting](invoking-aem-forms-using-remoting#invoking_a_short_lived_process_by_passing_an_unsecure_document_using_remoting)
+[Invoking a short-lived process by passing an unsecure document using (Deprecated for AEM forms) AEM Forms Remoting](invoking-aem-forms-using-remoting.md#invoking_a_short_lived_process_by_passing_an_unsecure_document_using_remoting)
 
-[Authenticating client applications built with Flex](invoking-aem-forms-using-remoting#authenticating_client_applications_built_with_flex)
+[Authenticating client applications built with Flex](invoking-aem-forms-using-remoting.md#authenticating_client_applications_built_with_flex)
 
 ## Invoking custom component services using Remoting {#invoking-custom-component-services-using-remoting}
 
@@ -1260,14 +1260,14 @@ This quick start contains a style sheet named* bank.css*. The following code rep
 
 **See also**
 
-[Invoking AEM Forms using (Deprecated for AEM forms) AEM Forms Remoting](invoking-aem-forms-using-remoting#invoking_aem_forms_using_remoting)
+[Invoking AEM Forms using (Deprecated for AEM forms) AEM Forms Remoting](invoking-aem-forms-using-remoting.md#invoking_aem_forms_using_remoting)
 
-[Handling documents with (Deprecated for AEM forms) AEM Forms Remoting](invoking-aem-forms-using-remoting#handling_documents_with_remoting)
+[Handling documents with (Deprecated for AEM forms) AEM Forms Remoting](invoking-aem-forms-using-remoting.md#handling_documents_with_remoting)
 
-[Including the AEM Forms Flex library file](invoking-aem-forms-using-remoting#including_the_aem_forms_flex_library_file)
+[Including the AEM Forms Flex library file](invoking-aem-forms-using-remoting.md#including_the_aem_forms_flex_library_file)
 
-[Invoking a short-lived process by passing an unsecure document using (Deprecated for AEM forms) AEM Forms Remoting](invoking-aem-forms-using-remoting#invoking_a_short_lived_process_by_passing_an_unsecure_document_using_remoting)
+[Invoking a short-lived process by passing an unsecure document using (Deprecated for AEM forms) AEM Forms Remoting](invoking-aem-forms-using-remoting.md#invoking_a_short_lived_process_by_passing_an_unsecure_document_using_remoting)
 
-[Authenticating client applications built with Flex](invoking-aem-forms-using-remoting#authenticating_client_applications_built_with_flex)
+[Authenticating client applications built with Flex](invoking-aem-forms-using-remoting.md#authenticating_client_applications_built_with_flex)
 
-[Passing secure documents to invoke processes using Remoting](invoking-aem-forms-using-remoting#passing_secure_documents_to_invoke_processes_using_remoting)
+[Passing secure documents to invoke processes using Remoting](invoking-aem-forms-using-remoting.md#passing_secure_documents_to_invoke_processes_using_remoting)

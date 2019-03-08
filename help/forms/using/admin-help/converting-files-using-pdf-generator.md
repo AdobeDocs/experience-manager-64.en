@@ -3,12 +3,12 @@ title: Converting files using PDF Generator
 seo-title: Converting files using PDF Generator
 description: Learn how to convert files using PDF Generator.
 seo-description: Learn how to convert files using PDF Generator.
-uuid: 3d5bfff3-44c1-49b2-9269-898360f86da6
+uuid: 70f85fcc-78ad-44e4-80a3-4ff528a4a440
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_pdf_generator
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 1c6c173f-e1da-419b-bdff-6efd4221082d
+discoiquuid: e3d4a2b3-04aa-49ba-a009-8cb34462a517
 index: y
 internal: n
 snippet: y
@@ -35,7 +35,7 @@ You can use the PDF Generator web pages to convert files.
     
     * If you are uploading a settings file, type its path and name in the box, or click Browse to find and select the file.
 
-1. (Optional) Under XMP Metadata File, type the path and name of the XMP file, or click Browse to find and select the file. An XMP file can be used to include standard metadata information. (See [About XMP files](converting-files-using-pdf-generator#about_xmp_files).)
+1. (Optional) Under XMP Metadata File, type the path and name of the XMP file, or click Browse to find and select the file. An XMP file can be used to include standard metadata information. (See [About XMP files](converting-files-using-pdf-generator.md#about_xmp_files).)
 1. Click Create. When the file is created, a link to it appears. If an error occurs during conversion, a warning appears. If you are creating a Postscript file, the warning also contains a link to the log file.
 1. Click the link for the PDF file. The file opens in Acrobat.
 
@@ -82,7 +82,7 @@ If the ZIP file contains more than one HTML file at the lowest level of its fold
     
     * To use an existing settings file, select Upload Settings File and click Browse to go to the file location.
 
-1. To upload an XMP file, click Browse and go to the file location. An XMP file can be used to include standard metadata information. (See [About XMP files](converting-files-using-pdf-generator#about_xmp_files).)
+1. To upload an XMP file, click Browse and go to the file location. An XMP file can be used to include standard metadata information. (See [About XMP files](converting-files-using-pdf-generator.md#about_xmp_files).)
 1. Click Create. When the file is created, a link to the PDF file appears.
 1. Click the link to view the PDF document in Acrobat.
 

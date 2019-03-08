@@ -3,10 +3,10 @@ title: Install and configure data capture capabilities
 seo-title: Install and configure data capture capabilities
 description: Install and configure adaptive forms, PDF Forms, and HTML5 Forms. Configure Adobe Analytics and Adobe Target for adaptive forms to analyze usage of forms and target users based on their profile.
 seo-description: Install and configure adaptive forms, PDF Forms, and HTML5 Forms. Configure Adobe Analytics and Adobe Target for adaptive forms to analyze usage of forms and target users based on their profile.
-uuid: 808c8286-fc6e-44e6-8965-94fd5a047a54
+uuid: a522d901-0317-4c62-804a-330bf28b92cb
 contentOwner: khsingh
 topic-tags: installing
-discoiquuid: e84469b7-0ebc-4dd1-bddc-a74a1eb8d836
+discoiquuid: 1af79edf-dbf5-4aac-978a-698fdd626cf5
 index: y
 internal: n
 snippet: y

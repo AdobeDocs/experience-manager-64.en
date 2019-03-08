@@ -4,12 +4,12 @@ seo-title: Configuring Components in Design Mode
 description: When AEM instance is installed out-of-the-box, a selection of components are immediately available in the sidekick. In addition to these, various other components are also available. You can use Design mode to Enable/disable such components. 
 seo-description: When AEM instance is installed out-of-the-box, a selection of components are immediately available in the sidekick. In addition to these, various other components are also available. You can use Design mode to Enable/disable such components. 
 page-status-flag: de-activated
-uuid: f7fccd59-ed0e-490e-9286-1b7524d91163
+uuid: 414df7ba-e3d2-40a4-9eb9-35a9d6219133
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: 53c22af2-a96d-49e1-aad5-13070fab8016
+discoiquuid: 8a8efe44-6438-499b-9714-96539f0f32b2
 index: y
 internal: n
 snippet: y
@@ -36,7 +36,7 @@ For example, the content of a product page may contain a paragraph system holdin
 
 >[!NOTE]
 >
->See [Developing Components](../../../sites/developing/using/components.md#paragraphsystem) and [Guidelines for Using Templates and Components](../../../sites/developing/using/dev-guidelines-bestpractices.md#guidelinesforusingtemplatesandcomponents) for more information about `parsys`.
+>See [Developing Components](../../../sites/developing/using/components.md#paragraphsystem) and [Guidelines for Using Templates and Components](../../../sites/developing/using/dev-guidelines-bestpractices.md#guidelines-for-using-templates-and-components) for more information about `parsys`.
 
 ## Enable/Disable Components {#enable-disable-components}
 

@@ -3,12 +3,12 @@ title: Analyzing Page Performance
 seo-title: Analyzing Page Performance
 description: Use the Content Insight page to analyze the performance of the page that you are authoring
 seo-description: Use the Content Insight page to analyze the performance of the page that you are authoring
-uuid: c11e6a80-3f8b-4ac7-ba3e-4ffe50bd12db
+uuid: 39dbc1b9-a10d-47c9-a077-10065156b000
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
-discoiquuid: 9250a037-9bc8-4dcd-8fda-f1c519cd5d38
+discoiquuid: cc89b5e8-b84a-4306-87ee-7acbfb9a945d
 index: y
 internal: n
 snippet: y

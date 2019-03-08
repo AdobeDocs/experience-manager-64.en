@@ -3,11 +3,11 @@ title: Registering as a User
 seo-title: Registering as a User
 description: Learn how you can use policy-protected documents that you receive from an document security user, even if you are external to the user’s organization.
 seo-description: Learn how you can use policy-protected documents that you receive from an document security user, even if you are external to the user’s organization.
-uuid: f52e9659-54ca-4e95-b708-200c121fef77
+uuid: 42d8c8ad-ce1f-4ed8-a128-6b22b7532f05
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_document_security
-discoiquuid: 7cf6e09e-d166-4cd4-bd24-a6242b47b446
+discoiquuid: dee2e1cb-a3ae-4036-9366-63539ecece57
 index: y
 internal: n
 snippet: y

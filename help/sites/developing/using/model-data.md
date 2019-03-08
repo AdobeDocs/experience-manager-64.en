@@ -3,12 +3,12 @@ title: Data Modeling - David Nuescheler's Model
 seo-title: Data Modeling - David Nuescheler's Model
 description: David Nuescheler's content modelling recommendations
 seo-description: David Nuescheler's content modelling recommendations
-uuid: 0ac13083-22f0-4889-a5f0-67a0a92fb358
+uuid: 33db99b9-9f14-4600-9495-c13888201c67
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
-discoiquuid: 0157b871-cfc3-4013-ab54-d2e10f80e044
+discoiquuid: 2780ac60-f646-4341-9715-05cc9a7db36a
 index: y
 internal: n
 snippet: y

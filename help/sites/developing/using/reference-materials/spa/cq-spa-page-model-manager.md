@@ -3,9 +3,9 @@ title: cq-spa-page-model-manager
 seo-title: cq-spa-page-model-manager
 description: null
 seo-description: null
-uuid: 301af602-1de7-4f8b-a3ac-d845a647b20b
+uuid: a8bd39a9-0e5d-4543-a7a1-b35a7508bd08
 contentOwner: carlino
-discoiquuid: b53abbce-affb-490a-a545-05acd2f5c9a5
+discoiquuid: 768e932c-55a2-43da-bfe5-564f697118e1
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/sites/developing/using/reference-materials
 index: y

@@ -3,12 +3,12 @@ title: Initial Sandbox Content
 seo-title: Initial Sandbox Content
 description: Create content
 seo-description: Create content
-uuid: 2de1111e-7039-4cd4-8122-d309f1d1cb37
+uuid: fc694c25-039b-4eff-a1e4-8a7d4cfa3424
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 260b261b-13d1-4ded-b1ea-53146be8c4fc
+discoiquuid: 56cedb06-2554-44f4-9af0-48f038a7e885
 index: y
 internal: n
 snippet: y
@@ -109,7 +109,7 @@ The respository should appear as follows:
 
 >[!NOTE]
 >
->The use of cq:designPath is optional and is unrelated to the [use of clientlibs](../../communities/using/develop-app.md#includeclientlibsintemplate), which are essentially required as the SCF components use [clientlibs](../../communities/using/client-customize.md#clientlibsforscf) to manage their JS and CSS.
+>The use of cq:designPath is optional and is unrelated to the [use of clientlibs](../../communities/using/develop-app.md#includeclientlibsintemplate), which are essentially required as the SCF components use [clientlibs](../../communities/using/client-customize.md#clientlibs-for-scf) to manage their JS and CSS.
 
 | ** [⇐ Initial Sandbox Application](../../communities/using/initial-app.md)** |** [Develop Sandbox Application ⇒](../../communities/using/develop-app.md)** |
 |---|---|

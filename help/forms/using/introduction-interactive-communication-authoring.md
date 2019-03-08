@@ -3,11 +3,11 @@ title: Introduction to Interactive Communication authoring UI
 seo-title: An introduction to the various user interface elements you can use to author Interactive Communication
 description: An introduction to the various user interface elements you can use to author Interactive Communication
 seo-description: An introduction to the various user interface elements you can use to author Interactive Communication
-uuid: fe66caa0-34b1-44ba-a64b-cbaa2afd7dc6
+uuid: 4c464076-ea22-42e5-a05b-8e48058abe63
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: interactive-communications
-discoiquuid: c5e7a919-919d-4ab0-9b90-53c1583814a0
+discoiquuid: 0851ad60-a62a-43de-b823-30f9b492bcff
 index: y
 internal: n
 snippet: y

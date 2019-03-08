@@ -3,12 +3,12 @@ title: Configuring and Deploying AEM Screens
 seo-title: Configuring and Deploying Screens
 description: The AEM Screens player is available for Android, Chrome OS, iOS, and Windows. This page describes the configuration and deployment of AEM Screens and also summarizes the h/w selection guidelines for player device.
 seo-description: The AEM Screens player is available for Android, Chrome OS, iOS, and Windows. This page describes the configuration and deployment of AEM Screens and also summarizes the h/w selection guidelines for player device.
-uuid: 778dd682-03ae-4a24-b390-22f61d02ac53
+uuid: 59fc8dbc-30d9-4dcd-a8cd-894500eff9a1
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: administering
-discoiquuid: 82060c64-ff7f-4357-ad4e-b28482ad7496
+discoiquuid: a7b2469b-91d4-4303-9222-bb3c1f6bfb39
 index: y
 internal: n
 snippet: y
@@ -18,11 +18,11 @@ snippet: y
 
 This page shows how to install and configure the Screens players on your devices and covers the following topics:
 
-* [Installing AEM Screens Player](../../screens/using/configuring-screens-introduction.md#installingaemscreensplayer)
-* [Server Configuration](../../screens/using/configuring-screens-introduction.md#serverconfiguration)
-* [Hardware Selection Guidelines for Player Device](#hardwareselectionguidelinesforplayerdevice)  
+* [Installing AEM Screens Player](../../screens/using/configuring-screens-introduction.md#installing-aem-screens-player)
+* [Server Configuration](../../screens/using/configuring-screens-introduction.md#server-configuration)
+* [Hardware Selection Guidelines for Player Device](#hardware-selection-guidelines-for-player-device)  
 
-* [The Next Steps](../../screens/using/configuring-screens-introduction.md#thenextsteps)
+* [The Next Steps](../../screens/using/configuring-screens-introduction.md#the-next-steps)
 
 ## Installing AEM Screens Player {#installing-aem-screens-player}
 

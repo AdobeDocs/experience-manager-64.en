@@ -3,12 +3,12 @@ title: Manage Forms applications and tasks in AEM Inbox
 seo-title: Manage Forms applications and tasks in AEM Inbox
 description: AEM Inbox allows you to launch Forms-centric workflows through submitting applications and manage tasks.
 seo-description: AEM Inbox allows you to launch Forms-centric workflows through submitting applications and manage tasks.
-uuid: 3a40170b-7d36-4482-bfe4-6507eb832406
+uuid: 49d377fa-38dd-48bb-b7b0-0858871145df
 contentOwner: vishgupt
 products: SG_EXPERIENCEMANAGER/6.3/FORMS
 topic-tags: document_services
 topic-tags: publish
-discoiquuid: 4a370859-0bd5-457a-8ea2-a11044a52cc3
+discoiquuid: 040da43c-a785-47cb-b5c9-60fab94689ce
 index: y
 internal: n
 snippet: y

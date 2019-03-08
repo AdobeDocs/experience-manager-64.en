@@ -3,12 +3,12 @@ title: Enabling online commenting for Adobe Reader web browser plug-in
 seo-title: Enabling online commenting for Adobe Reader web browser plug-in
 description: Learn how to enable online commenting for Adobe Reader web browser plug-in.
 seo-description: Learn how to enable online commenting for Adobe Reader web browser plug-in.
-uuid: 01a6f035-2e93-400f-a0ec-5ab5fe7c789c
+uuid: 1cd98260-441e-4e89-a76f-6fb5a04db84f
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_acrobat_reader_dc_extensions
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 9ab7238d-76b8-43cd-9b59-c2a0859348a4
+discoiquuid: 8ac76f02-0737-418f-b3ac-bc29edb16da3
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Tagging User Generated Content
 seo-title: Tagging User Generated Content
 description: Tagging of user generated content (UGC) is how community members can help other members search for content
 seo-description: Tagging of user generated content (UGC) is how community members can help other members search for content
-uuid: e1a44ce1-4d8b-4fb8-9928-4c9d9994e592
+uuid: ace34439-3b32-4b31-85f9-0f7a8318f165
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: d50d7a21-a15a-4597-a398-3819ec3a1566
+discoiquuid: 60ba60e1-6474-4783-8dca-7c1a6dcf9508
 index: y
 internal: n
 snippet: y
@@ -36,7 +36,7 @@ The AEM Communities features which can be configured to allow tagging are
 
 ## Administering Tags {#administering-tags}
 
-See [Administering Tags](../../sites/administering/using/tags.md#taggingconsole) for creating and managing tag namespaces and taxonomies.
+See [Administering Tags](../../sites/administering/using/tags.md#tagging-console) for creating and managing tag namespaces and taxonomies.
 
 See [Tag Essentials](../../communities/using/tag.md) for developer information.
 
@@ -48,7 +48,7 @@ The default permissions are set to not allow tag namespaces to be read by everyo
 
 Because tags are applied to UGC in the publish environment, read permission needs to be enabled for community members in order for them to be able to select tags to apply.
 
-See [Setting Tag Permissions](../../sites/administering/using/tags.md#settingtagpermissions).
+See [Setting Tag Permissions](../../sites/administering/using/tags.md#setting-tag-permissions).
 
 The following is how it appears in CRXDE when an administrator applies read permissions to `/etc/tag/discussions` for the group `*Community Engage Members*`.
 

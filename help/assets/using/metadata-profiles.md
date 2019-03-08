@@ -3,12 +3,12 @@ title: Metadata Profiles
 seo-title: Metadata Profiles
 description: Know about metadata profiles for assets. Learn how to create a metadata profile and apply it to folder assets.
 seo-description: Know about metadata profiles for assets. Learn how to create a metadata profile and apply it to folder assets.
-uuid: 6c66ba06-e6bd-405d-8488-eba6937c2e3d
+uuid: bf5edfb6-8b5c-482f-b641-8a3876abd4ec
 contentOwner: Alva Ware-Bevacqui
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: 4372f7d8-eea0-48b3-8aad-4c5af59dd0cc
+discoiquuid: 95a94859-26a0-4bfc-b74a-3800aea88ca1
 index: y
 internal: n
 snippet: y

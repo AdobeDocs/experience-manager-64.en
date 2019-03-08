@@ -3,12 +3,12 @@ title: Video
 seo-title: Video
 description: Learn how to work with video in dynamic media
 seo-description: Learn how to work with video in dynamic media
-uuid: 0a37a45a-2fe8-45a9-93ac-0b51d9f10198
+uuid: b6000d4e-7b18-4b1e-a048-7331beac29ff
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: 7a479b39-704c-43eb-a5cc-c5a3a05471b1
+discoiquuid: 5c85cf8f-c9d0-4419-a089-5d030a41a09b
 index: y
 internal: n
 snippet: y
@@ -35,20 +35,20 @@ The following step-by-step workflow description is designed to help you get up a
     * Create your own video encoding profile. Or, you can simply use the predefined "Adaptive Video Encoding" profile that comes with Dynamic Media.
 
         * [Creating a video encoding profile](../../assets/using/video-profiles.md).
-        * Learn more about [Best practices for video encoding](#bestpracticesforencodingvideos).
+        * Learn more about [Best practices for video encoding](#best-practices-for-encoding-videos).
 
     * Associate the video processing profile to one or more folders where you are going to upload your master videos.
 
-        * [Applying a video profile to folders](../../assets/using/video-profiles.md#applyingavideoprofiletofolders).
+        * [Applying a video profile to folders](../../assets/using/video-profiles.md#applying-a-video-profile-to-folders).
         * Learn more about [Best practices for organizing your digital assets for using processing profiles](../../assets/using/best-practices-for-file-management.md).
         * Learn more about [Organizing digital assets](../../assets/using/organize-assets.md).
 
     * Upload your master videos to the folders. You can upload video files that are up to 20 GB each. When you add videos to the folder, they are encoded according to the video processing profile that you assigned to the folder.
 
-        * [Upload your videos](../../assets/using/managing-video-assets.md#uploadingandpreviewingvideoassets).
-        * Learn more about [Supported input file formats](../../assets/using/assets-formats.md#supportedmultimediaformats).
+        * [Upload your videos](../../assets/using/managing-video-assets.md#uploading-and-previewing-video-assets).
+        * Learn more about [Supported input file formats](../../assets/using/assets-formats.md#supported-multimedia-formats).
 
-    * Monitor how [video encoding is progressing](#monitoringvideoencodingandyoutubepublishingprogress) either from the asset or workflow view.
+    * Monitor how [video encoding is progressing](#monitoring-video-encoding-and-youtube-publishing-progress) either from the asset or workflow view.
 
 1. **Manage your Dynamic Media videos** by doing any of the following:
 
@@ -57,14 +57,14 @@ The following step-by-step workflow description is designed to help you get up a
         * [Organizing digital assets](../../assets/using/organize-assets.md)  
           Learn more about [Best practices for organizing your digital assets for using processing profiles](../../assets/using/best-practices-for-file-management.md)
         
-        * [Searching video assets](../../assets/using/search-video-assets.md) or [Searching assets](../../assets/using/managing-assets-touch-ui.md#searchingassets)
+        * [Searching video assets](../../assets/using/search-video-assets.md) or [Searching assets](../../assets/using/managing-assets-touch-ui.md#searching-assets)
 
     * Preview and publish video assets
 
         * View the source video and encoded renditions of the video along with its associated thumbnails:  
-          [Previewing videos](../../assets/using/managing-video-assets.md#uploadingandpreviewingvideoassets) or [Previewing assets](../../assets/using/previewing-assets.md)  
+          [Previewing videos](../../assets/using/managing-video-assets.md#uploading-and-previewing-video-assets) or [Previewing assets](../../assets/using/previewing-assets.md)  
           [Viewing video renditions](../../assets/using/video-renditions.md)  
-          [Managing video renditions](../../assets/using/managing-assets-touch-ui.md#managingrenditions)
+          [Managing video renditions](../../assets/using/managing-assets-touch-ui.md#managing-renditions)
         
         * [Manage viewer presets](../../assets/using/managing-viewer-presets.md)
         * [Publishing assets](../../assets/using/publishing-dynamicmedia-assets.md)
@@ -75,7 +75,7 @@ The following step-by-step workflow description is designed to help you get up a
           [Viewing video rendition properties](../../assets/using/video-renditions.md) 
         
         * Edit the properties of video such as the title, description, and tags, custom metadata fields:  
-          [Editing video properties](../../assets/using/managing-assets-touch-ui.md#editingproperties)
+          [Editing video properties](../../assets/using/managing-assets-touch-ui.md#editing-properties)
         
         * [Managing metadata for digital assets](../../assets/using/metadata.md)
         * [Metadata schemas](../../assets/using/metadata-schemas.md)
@@ -85,7 +85,7 @@ The following step-by-step workflow description is designed to help you get up a
         * [Annotating videos](../../assets/using/managing-video-assets.md#annotatingvideos) or [Annotating assets](../../assets/using/managing-assets-touch-ui.md#annotating)
         
         * [Creating a version](../../assets/using/managing-assets-touch-ui.md#creatingaversion)
-        * [Applying workflows to assets](../../assets/using/assets-workflow.md) or [Starting a workflow on an asset](../../assets/using/managing-assets-touch-ui.md#startingaworkflowonanasset)
+        * [Applying workflows to assets](../../assets/using/assets-workflow.md) or [Starting a workflow on an asset](../../assets/using/managing-assets-touch-ui.md#starting-a-workflow-on-an-asset)
         
         * [Review folder assets](../../assets/using/bulk-approval.md)
         * [Projects](../../sites/authoring/using/projects.md)
@@ -105,9 +105,9 @@ The following step-by-step workflow description is designed to help you get up a
           [Embedding the video viewer on a web page](../../assets/using/embed-code.md).
 
     * [Publishing videos to YouTube](#videoyoutubehtml).
-    * [Generating video reports](#viewingvideoreports).   
+    * [Generating video reports](#viewing-video-reports).   
     
-    * [Adding captions to video](#addingcaptionstovideo).
+    * [Adding captions to video](#adding-captions-to-video).
 
 ## Working with video in Dynamic Media {#working-with-video-in-dynamic-media}
 
@@ -267,7 +267,7 @@ The following graphic shows the overall authoring workflow of videos that are up
 
 ## Best practices for encoding videos {#best-practices-for-encoding-videos}
 
-The **Dynamic Media Encode Video** workflow encodes video if you have enabled dynamic media and set up video cloud services. This workflow captures workflow process history and failure information. See [Monitoring video encoding and YouTube publishing progress](#monitoringvideoencodingandyoutubepublishingprogress). If you have enabled dynamic media and set up video cloud services, the **Dynamic Media Encode Video** workflow automatically takes effect when you upload a video. (If you are not using dynamic media, the **DAM Update Asset** workflow takes effect.)
+The **Dynamic Media Encode Video** workflow encodes video if you have enabled dynamic media and set up video cloud services. This workflow captures workflow process history and failure information. See [Monitoring video encoding and YouTube publishing progress](#monitoring-video-encoding-and-youtube-publishing-progress). If you have enabled dynamic media and set up video cloud services, the **Dynamic Media Encode Video** workflow automatically takes effect when you upload a video. (If you are not using dynamic media, the **DAM Update Asset** workflow takes effect.)
 
 The following are best-practice tips for encoding source video files.
 
@@ -367,7 +367,7 @@ Bitrate is the amount of data that is encoded to make up a single second of vide
 When selecting a bitrate encoding, there are two types you can choose:
 
 * **Constant Bitrate Encoding** (CBR) - During CBR encoding, the bitrate or the number of bits per second is kept the same throughout the encoding process. CBR encoding persists the set data rate to your setting over the entire video. Also, CBR encoding does not optimize media files for quality but does save on storage space.  
-  Use CBR if your video contains a similar motion level throughout the entire video. CBR is most commonly used for streaming video content. See also [Using custom-added video encoding parameters](../../assets/using/video-profiles.md#usingcustomaddedvideoencodingparameters).  
+  Use CBR if your video contains a similar motion level throughout the entire video. CBR is most commonly used for streaming video content. See also [Using custom-added video encoding parameters](../../assets/using/video-profiles.md#using-custom-added-video-encoding-parameters).  
 
 * **Variable Bitrate Encoding** (VBR) - VBR encoding adjusts the data rate down and to the upper limit you set, based on the data required by the compressor. This means that during a VBR encoding process the bitrate of the media file dynamically increases or decreases depending on the media files bitrate needs.  
   VBR takes longer to encode but produces the most favorable results; the quality of the media file is superior. VBR is most commonly used for http progressive delivery of video content.
@@ -551,17 +551,17 @@ Publishing to YouTube bypasses the processing profile system in AEM and, therefo
 
 Publishing video assets to YouTube servers involves completing the following tasks to ensure safe and secure server-to-server authentication with YouTube:
 
-1. [Configuring Google Cloud Settings](#configuringgooglecloudsettings)
-1. [Creating a YouTube channel](#creatingayoutubechannel)
-1. [Adding tags for publishing](#addingtagsforpublishing)
-1. [Enabling the YouTube Publish Replication agent](#enablingtheyoutubepublishreplicationagent)
-1. [Setting up YouTube in AEM](#settingupyoutubeinaem)
+1. [Configuring Google Cloud Settings](#configuring-google-cloud-settings)
+1. [Creating a YouTube channel](#creating-a-youtube-channel)
+1. [Adding tags for publishing](#adding-tags-for-publishing)
+1. [Enabling the YouTube Publish Replication agent](#enabling-the-youtube-publish-replication-agent)
+1. [Setting up YouTube in AEM](#setting-up-youtube-in-aem)
 1. [(Optional) Automating the setting of default YouTube properties for your uploaded videos](#28optional29automatingthesettingofdefaultyoutubepropertiesforyouruploadedvideos)
-1. [Publishing videos to your YouTube channel](#publishingvideostoyouryoutubechannel)
-1. [(Optional) Verifying the published video on YouTube](../../assets/using/video.md#optionalverifyingthepublishedvideoonyoutube)
-1. [Linking YouTube URLs to your Web Application](#linkingyoutubeurlstoyourwebapplication)
+1. [Publishing videos to your YouTube channel](#publishing-videos-to-your-youtube-channel)
+1. [(Optional) Verifying the published video on YouTube](../../assets/using/video.md#optional-verifying-the-published-video-on-youtube)
+1. [Linking YouTube URLs to your Web Application](#linking-youtube-urls-to-your-web-application)
 
-You can also [unpublish videos to remove them from YouTube](#unpublishingvideostoremovethemfromyoutube).
+You can also [unpublish videos to remove them from YouTube](#unpublishing-videos-to-remove-them-from-youtube).
 
 ### Configuring Google Cloud settings {#configuring-google-cloud-settings}
 
@@ -631,7 +631,7 @@ Publishing videos to YouTube requires that you have one or more channels. If you
 
 >[!CAUTION]
 >
->Be sure you have already set up one or more channels in YouTube &#42;before&#42; you add channels under YouTube Settings in AEM (see [Setting up YouTube in AEM](#settingupyoutubeinaem) below). If you fail to do this, you are not given any warning of no existing channels. However, Google authentication still occurs when you add a channel, but there is not an option to choose which channel the video is sent.
+>Be sure you have already set up one or more channels in YouTube &#42;before&#42; you add channels under YouTube Settings in AEM (see [Setting up YouTube in AEM](#setting-up-youtube-in-aem) below). If you fail to do this, you are not given any warning of no existing channels. However, Google authentication still occurs when you add a channel, but there is not an option to choose which channel the video is sent.
 
 To create a YouTube channel:
 
@@ -651,7 +651,7 @@ To create a YouTube channel:
 
 To publish to your videos to YouTube, AEM associates tags to one or more YouTube channels. To add tags for publishing, see [Administering Tags](../../sites/administering/using/tags.md).
 
-Or, if you intend to use the default tags in AEM, you can skip this task and go to [Enabling the YouTube Publish replication agent](#enablingtheyoutubepublishreplicationagent).
+Or, if you intend to use the default tags in AEM, you can skip this task and go to [Enabling the YouTube Publish replication agent](#enabling-the-youtube-publish-replication-agent).
 
 ### Enabling the YouTube Publish replication agent {#enabling-the-youtube-publish-replication-agent}
 
@@ -783,7 +783,7 @@ Now you associate the tags that you added earlier to video assets. This process 
 >
 >To publish content from YouTube, AEM uses the **Publish to YouTube** workflow, which lets you monitor progress and view any failure information.
 >
->See [Monitoring video encoding and YouTube publishing progress](#monitoringvideoencodingandyoutubepublishingprogress).
+>See [Monitoring video encoding and YouTube publishing progress](#monitoring-video-encoding-and-youtube-publishing-progress).
 
 To publish videos to your YouTube channel:
 
@@ -805,7 +805,7 @@ To publish videos to your YouTube channel:
 
 You can monitor progress of your YouTube publishing (or unpublishing).
 
-See [Monitoring video encoding and YouTube publishing progress](#monitoringvideoencodingandyoutubepublishingprogress).
+See [Monitoring video encoding and YouTube publishing progress](#monitoring-video-encoding-and-youtube-publishing-progress).
 
 Publishing times can vary greatly depending on numerous factors that include the format of your master video, file size, and upload traffic. The publishing process can take anywhere from a few minutes to several hours. Also, be aware that higher resolution formats are rendered much more slowly. For example, 720p and 1080p take significantly longer to appear than 480p.
 
@@ -841,7 +841,7 @@ When you unpublish a video asset in AEM, the video is removed from YouTube.
 >
 >To remove content from YouTube, AEM uses the **Unpublish from YouTube** workflow, which lets you monitor progress and view any failure information.
 >
->See [Monitoring video encoding and YouTube publishing progress](#monitoringvideoencodingandyoutubepublishingprogress).
+>See [Monitoring video encoding and YouTube publishing progress](#monitoring-video-encoding-and-youtube-publishing-progress).
 
 To unpublish videos to remove them from YouTube:
 
@@ -934,7 +934,7 @@ To monitor progress (including failed encoding/YouTube publish):
 
    ![](assets/chlimage_1-436.png)
 
-1. You may receive email notifications about aborted or failed workflow jobs. These email notifications are configurable by an administrator. See [Configuring email notifications](#configuringemailnotifications).
+1. You may receive email notifications about aborted or failed workflow jobs. These email notifications are configurable by an administrator. See [Configuring email notifications](#configuring-e-mail-notifications).
 
 #### Configuring e-mail notifications {#configuring-e-mail-notifications}
 
@@ -1182,7 +1182,7 @@ See [WebVTT: The Web Video Text Tracks format](http://dev.w3.org/html5/webvtt/)
    Generally, you want to name the chapter VTT file the same name as the video file, and append it with chapters. By doing so, it can help you with automating the generation of the video URLs using your existing web content management system.
 1. In AEM, upload your WebVTT chapter file.
 
-   See [Uploading Assets](../../assets/using/managing-assets-touch-ui.md#uploadingassets).
+   See [Uploading Assets](../../assets/using/managing-assets-touch-ui.md#uploading-assets).
 
 1. Do one of the following:
 
@@ -1254,13 +1254,13 @@ If you prefer, you can choose to upload a custom thumbnail to represent your vid
 
    If you configured new default time intervals, or you uploaded a new video to replace the existing video, you will need to have Dynamic Media regenerate the thumbnails.
 
-   See [Configuring the default time interval that video thumbnails are generated](#configuringthedefaulttimeintervalthatvideothumbnailsaregenerated).
+   See [Configuring the default time interval that video thumbnails are generated](#configuring-the-default-time-interval-that-video-thumbnails-are-generated).
 
 #### Configuring the default time interval that video thumbnails are generated {#configuring-the-default-time-interval-that-video-thumbnails-are-generated}
 
 When you configure and save the new default time interval, your change automatically applies only to videos that you upload in the future. It does not automatically apply the new default to videos that you previously uploaded. For existing videos, you must regenerate the thumbnails.
 
-See [Adding a video thumbnail](#addingavideothumbnail).
+See [Adding a video thumbnail](#adding-a-video-thumbnail).
 
 To configure the default time interval that video thumbnails are generated,
 
@@ -1280,7 +1280,7 @@ To configure the default time interval that video thumbnails are generated,
 1. Tap **OK** to return to the Properties tab.
 1. Near the upper-left corner of the CRXDE Lite page, tap **Save All**, then tap the Back Home icon in the upper-left corner to return to AEM.
 
-   See [Adding a video thumbnail.](#addingavideothumbnail)
+   See [Adding a video thumbnail.](#adding-a-video-thumbnail)
 
 ### Adding a custom video thumbnail {#adding-a-custom-video-thumbnail}
 

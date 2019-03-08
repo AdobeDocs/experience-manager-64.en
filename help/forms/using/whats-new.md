@@ -3,11 +3,11 @@ title: New features summary | AEM 6.4 Forms
 seo-title: New features summary | AEM 6.4 Forms
 description: Summary of new features and enhancements in AEM 6.4 Forms.
 seo-description: Summary of new features and enhancements in AEM 6.4 Forms.
-uuid: 14b57688-2cfa-4f16-975b-e0a78295d749
+uuid: 0b9bb148-f4db-422f-a071-ea290fa19b43
 contentOwner: vishgupt
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: introduction
-discoiquuid: cf9471ac-c74d-4971-b395-c66bc3c9b68c
+discoiquuid: f665ad66-b9cd-42ad-bedc-48e23e9dc76b
 index: y
 internal: n
 snippet: y
@@ -19,7 +19,7 @@ Summary of new features and enhancements in AEM 6.4 Forms.
 
 AEM Forms includes several new features and enhancements that further streamline creation, management, and user experiences with adaptive forms and interactive communications.
 
-Read on for quick introduction to new features and enhancements. Visit documentation for resources offering details. Also, see AEM 6.4 Forms [release notes](../../release-notes/forms.md). For complete AEM 6.4 Forms documentation, visit [AEM 6.4 Forms User Guide](/forms/user-guide).
+Read on for quick introduction to new features and enhancements. Visit documentation for resources offering details. Also, see AEM 6.4 Forms [release notes](../../release-notes/forms.md). For complete AEM 6.4 Forms documentation, visit [AEM 6.4 Forms User Guide](/forms/user-guide.md).
 
 ## Interactive Communications {#interactive-communications}
 

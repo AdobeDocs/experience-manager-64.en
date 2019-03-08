@@ -3,12 +3,12 @@ title: Initial Sandbox Application
 seo-title: Initial Sandbox Application
 description: Create template, component, and script
 seo-description: Create template, component, and script
-uuid: c93d9b35-52fb-4f34-a460-53661b7d9a23
+uuid: 7f8af302-e85f-4556-9cf5-2f2790209276
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 966b17c9-b961-496f-95d2-10acf62bceaf
+discoiquuid: 3107bd46-2b3d-489e-b588-2c50f0ccb4e0
 index: y
 internal: n
 snippet: y
@@ -22,7 +22,7 @@ snippet: y
 In this section, you will create the following:
 
 * The ** [template](#createthepagetemplate) **that will be used to create content pages in the example website
-* The [**component** and **script**](#createthetemplatesrenderingcomponent) that will be used to render the website pages
+* The [**component** and **script**](#create-the-template-s-rendering-component) that will be used to render the website pages
 
 ### Create the Content Template {#create-the-content-template}
 

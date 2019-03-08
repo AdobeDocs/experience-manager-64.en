@@ -3,12 +3,12 @@ title: Configuring Cookie Usage
 seo-title: Configuring Cookie Usage
 description: AEM provides a service that enables you to configure and control how cookies are used with your web pages
 seo-description: AEM provides a service that enables you to configure and control how cookies are used with your web pages
-uuid: e4188ee3-d3b3-4c47-98bb-a83152733905
+uuid: 7322c88e-241d-4776-aea0-1eb073ab5c79
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
-discoiquuid: 4a4eb6c2-0b58-47b7-9881-c224a0d58776
+discoiquuid: e2ba01f1-4f1d-4c8c-ae86-3c68f763edd4
 index: y
 internal: n
 snippet: y
@@ -27,7 +27,7 @@ Use this feature to make sure that your pages comply with your users' consent re
 
 Configure the Adobe Granite Opt-Out Service to specify how cookies are used on your web pages. The following table describes the properties that you can configure.
 
-To configure the service, you can use the [Web Console](../../../sites/deploying/using/configuring-osgi.md#osgiconfigurationwiththewebconsole) or [add an OSGi configuration to the repository](../../../sites/deploying/using/configuring-osgi.md#addinganewconfigurationtotherepository). The following table desribes the properties that you need for either method. For an OSGi configuration, the service PID is `com.adobe.granite.optout`.
+To configure the service, you can use the [Web Console](../../../sites/deploying/using/configuring-osgi.md#osgi-configuration-with-the-web-console) or [add an OSGi configuration to the repository](../../../sites/deploying/using/configuring-osgi.md#adding-a-new-configuration-to-the-repository). The following table desribes the properties that you need for either method. For an OSGi configuration, the service PID is `com.adobe.granite.optout`.
 
 | Property Name (Web Console) |OSGi Property Name |Description |
 |---|---|---|

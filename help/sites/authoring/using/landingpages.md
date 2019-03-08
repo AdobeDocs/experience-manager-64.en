@@ -3,12 +3,12 @@ title: Landing Pages
 seo-title: Landing Pages
 description: The landing pages feature allows quick and easy importing of a design and content right into an AEM page
 seo-description: The landing pages feature allows quick and easy importing of a design and content right into an AEM page
-uuid: 37b6ac44-b6d3-4ba9-9061-5bac7605b0f6
+uuid: 987344ad-3627-4fc5-8d8b-bd2f698c0dd7
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: personalization
-discoiquuid: 4e14f5b5-00e6-41b0-ab94-cf21348ea78b
+discoiquuid: 1ab989bb-ec33-4456-9802-1108c9d20cb3
 index: y
 internal: n
 snippet: y
@@ -397,7 +397,7 @@ This section describes how to do the following:
 * Download the design package
 * View import information
 * Reset a landing page
-* [Configure the CTA components and add content to the page](#calltoactioncta)
+* [Configure the CTA components and add content to the page](#call-to-action-cta)
 * Preview the landing page
 * Activate/publish a landing page
 

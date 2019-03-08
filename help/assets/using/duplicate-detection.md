@@ -3,12 +3,12 @@ title: Enabling Duplicate Detection
 seo-title: Enabling Duplicate Detection
 description: Learn how to enable the detection of duplicate assets in AEM.
 seo-description: Learn how to enable the detection of duplicate assets in AEM.
-uuid: 73cefe78-6fc1-4e49-9d89-397f6993ea55
+uuid: 475596cc-4990-4efe-8d65-29e4a3de09e6
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference
-discoiquuid: b5588c08-b573-451a-881b-650b5299f215
+discoiquuid: ee54deae-630e-4360-b1a6-b6c32e1e491d
 index: y
 internal: n
 snippet: y

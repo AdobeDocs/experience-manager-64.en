@@ -3,13 +3,13 @@ title: Validating DDX Documents
 seo-title: Validating DDX Documents
 description: null
 seo-description: null
-uuid: 31b12e21-a654-4f16-baa1-f99e0cacd62e
+uuid: 8d023065-ff94-4b8b-94e1-051df0572f52
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/assembling_pdf_documents
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: bed60144-8aba-4429-913e-4c9f5861200a
+discoiquuid: ce38b403-769d-4926-acbd-b407f5ef91d9
 index: y
 internal: n
 snippet: y
@@ -76,15 +76,15 @@ The Assembler service returns the validation results that you can write to a XML
 
 **See also**
 
-[Validate a DDX document using the Java API](/programming-with-aem-forms/validating-ddx-documents-validating-ddx validate-ddx-document-using-java#validate_a_ddx_document_using_the_java_api)
+[Validate a DDX document using the Java API](/programming-with-aem-forms/validating-ddx-documents-validating-ddx validate-ddx-document-using-java.md#validate_a_ddx_document_using_the_java_api)
 
-[Validate a DDX document using the web service API](/programming-with-aem-forms/validating-ddx-documents-validating-ddx validate-ddx-document-using-web#validate_a_ddx_document_using_the_web_service_api)
+[Validate a DDX document using the web service API](/programming-with-aem-forms/validating-ddx-documents-validating-ddx validate-ddx-document-using-web.md#validate_a_ddx_document_using_the_web_service_api)
 
 [Including AEM Forms Java library files](#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
 
 [Setting connection properties](#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2)
 
-[Programmatically Assembling PDF Documents](/programming-with-aem-forms/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically#programmatically_assembling_pdf_documents)
+[Programmatically Assembling PDF Documents](/programming-with-aem-forms/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically.md#programmatically_assembling_pdf_documents)
 
 ## Validate a DDX document using the Java API {#validate-a-ddx-document-using-the-java-api}
 
@@ -132,7 +132,7 @@ Validate a DDX document by using the Assembler Service API (Java):
 
 **See also**
 
-[Validating DDX Documents](validating-ddx-documents-validating-ddx#validating_ddx_documents)
+[Validating DDX Documents](validating-ddx-documents-validating-ddx.md#validating_ddx_documents)
 
 [Quick Start (SOAP mode): Validating DDX documents using the Java API](#unresolvedlink-lc-qs-assembler-as.xml#ws624e3cba99b79e12e69a9941333732bac8-7f7a.2) (SOAP mode)
 
@@ -203,7 +203,7 @@ Validate a DDX document by using the Assembler Service API (web service):
 
 **See also**
 
-[Validating DDX Documents](validating-ddx-documents-validating-ddx#validating_ddx_documents)
+[Validating DDX Documents](validating-ddx-documents-validating-ddx.md#validating_ddx_documents)
 
 [Quick Start (MTOM): Validating DDX documents using the web service API](#unresolvedlink-lc-qs-assembler-as.xml#ws624e3cba99b79e12e69a9941333732bac8-7f79.2)
 

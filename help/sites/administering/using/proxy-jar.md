@@ -3,12 +3,12 @@ title: Proxy Server Tool (proxy.jar)
 seo-title: Proxy Server Tool (proxy.jar)
 description: Learn about the Proxy Server Tool in AEM.
 seo-description: Learn about the Proxy Server Tool in AEM.
-uuid: 3a25f33c-8442-4928-8f25-61513f668681
+uuid: 913acc98-6954-45ed-b0c2-906ae8267b39
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: 89062df9-8db9-43b1-bf83-d9e2a799a322
+discoiquuid: c9b6f82c-97cc-4b94-9d28-588793dc017c
 index: y
 internal: n
 snippet: y

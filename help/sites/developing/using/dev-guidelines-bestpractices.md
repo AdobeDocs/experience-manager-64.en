@@ -3,12 +3,12 @@ title: AEM Development - Guidelines and Best Practices
 seo-title: AEM Development - Guidelines and Best Practices
 description: Guidelines and best practices for developing on AEM
 seo-description: Guidelines and best practices for developing on AEM
-uuid: e31b8e99-d315-4f42-9e67-c78e35909df8
+uuid: e0305fb5-9f47-4ed5-9585-9264b523ad69
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
-discoiquuid: 317ef524-df70-4803-bffe-945ec7097a30
+discoiquuid: eb8d1852-80f7-4fd7-b257-e57f781bc71a
 index: y
 internal: n
 snippet: y
@@ -68,7 +68,7 @@ For example:
             
             * to `/apps/myProject/components/text`
 
-* [Customizing pages shown by the Error Handler](../../../sites/developing/using/customizing-errorhandler-pages.md#howtocustomizepagesshownbytheerrorhandler)  
+* [Customizing pages shown by the Error Handler](../../../sites/developing/using/customizing-errorhandler-pages.md#how-to-customize-pages-shown-by-the-error-handler)  
   This case involves overlaying a servlet:
 
     * In the repository, copy the default script(s):
@@ -162,7 +162,7 @@ See [Customizing Error Pages shown by the Error Handler](../../../sites/developi
 
 ### Open Files in the Java Process {#open-files-in-the-java-process}
 
-Because AEM can access a large number of files it is recommended that the number of [open files for a Java process](../../../sites/deploying/using/configuring.md#openfilesinthejavaprocess) be explicitly configured for AEM.
+Because AEM can access a large number of files it is recommended that the number of [open files for a Java process](../../../sites/deploying/using/configuring.md#open-files-in-the-java-process) be explicitly configured for AEM.
 
 To minimize this issue development should ensure that any file opened is correctly closed as soon as (meaningfully) possible.  
 

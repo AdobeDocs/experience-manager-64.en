@@ -3,12 +3,12 @@ title: Enable PDF/A support
 seo-title: Enable PDF/A support
 description: Learn how to enable PDF/A support. PDF/A-compliant files can be created from Microsoft Excel, Microsoft PowerPoint, and Microsoft Word files.
 seo-description: Learn how to enable PDF/A support. PDF/A-compliant files can be created from Microsoft Excel, Microsoft PowerPoint, and Microsoft Word files.
-uuid: 3c2caab6-3991-487b-8c9c-1c7a9e40e4da
+uuid: 6554a41e-6a35-4e4e-bbc8-0b65bbf850fe
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_pdf_generator
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 2012572b-afbe-40f2-8d7b-ffb3b0e888d6
+discoiquuid: 15904169-e0c9-4c27-9aa0-1fbbe4a33ce7
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Extracting Strings for Translating
 seo-title: Extracting Strings for Translating
 description: Use xgettext-maven-plugin to extract strings from your source code that need translating
 seo-description: Use xgettext-maven-plugin to extract strings from your source code that need translating
-uuid: d71053ba-0643-4641-ab4d-53f4a8bf68fa
+uuid: 01f2df13-c675-4c82-8547-a367b389465d
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: components
-discoiquuid: 81a9783c-5409-4801-95f3-d5fd0b0ee9ec
+discoiquuid: 0c60ad10-de00-4931-bf86-651e7fbbdc49
 index: y
 internal: n
 snippet: y

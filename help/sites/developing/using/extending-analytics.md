@@ -3,12 +3,12 @@ title: Extending Event Tracking
 seo-title: Extending Event Tracking
 description: AEM Analytics allows you to track user interaction on your website
 seo-description: AEM Analytics allows you to track user interaction on your website
-uuid: c620f026-def0-4a06-a736-6da58210906f
+uuid: 13c20165-4f16-4c86-be46-bbffc20c9921
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
-discoiquuid: 83805a60-7124-4cf8-b6a1-93b2143275d6
+discoiquuid: 659c46c2-996c-479d-a6e1-c19cea978abe
 index: y
 internal: n
 snippet: y
@@ -18,9 +18,9 @@ snippet: y
 
 AEM Analytics allows you to track user interaction on your website. As a developer you may need to:
 
-* Track how visitors are interacting with your components. This can be done with [Custom events.](#customevents)
-* [Access values in the ContextHub](/sites/developing/using/extending-analytics.html?cq_ck=1527751640055#Accessingvaluesintheclientcontext).
-* [Add record callbacks](#addingrecordcallbacks).
+* Track how visitors are interacting with your components. This can be done with [Custom events.](#custom-events)
+* [Access values in the ContextHub](../../../sites/developing/using/extending-analytics.md#accessingvaluesintheclientcontext).
+* [Add record callbacks](#adding-record-callbacks).
 
 >[!NOTE]
 >

@@ -3,12 +3,12 @@ title: Rich Text Editor Essentials
 seo-title: Rich Text Editor Essentials
 description: Rich text Editor feature overview
 seo-description: Rich text Editor feature overview
-uuid: c5a3d874-dedc-47a1-920e-3e4330fef721
+uuid: 057ccd5b-e2ca-4d28-8ec1-2b5004d5a04e
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 21686100-23d4-4efb-8f12-0f6855908d4b
+discoiquuid: b2acefbf-ef27-40c4-a8ff-c2cba6044b12
 index: y
 internal: n
 snippet: y
@@ -28,7 +28,7 @@ For Communities components, while similar to the [rich text editor in the author
 
 Communities components that allow user generated content (UGC) can be enabled to allow RTE. Depending on whether the component was added to a page or included within a [function](../../communities/using/functions.md), RTE may or may not be enabled by default.
 
-If not enabled, simply enter [author edit mode](../../communities/using/sites-console.md#authoringsitecontent), select the component for edit, and select the `Rich Text Editor` checkbox.
+If not enabled, simply enter [author edit mode](../../communities/using/sites-console.md#authoring-site-content), select the component for edit, and select the `Rich Text Editor` checkbox.
 
 RTE is available for the following Communities components:
 

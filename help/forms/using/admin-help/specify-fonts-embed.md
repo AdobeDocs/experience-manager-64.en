@@ -3,12 +3,12 @@ title: Specify fonts to embed
 seo-title: Specify fonts to embed
 description: Learn how to specify fonts to embed.
 seo-description: Learn how to specify fonts to embed.
-uuid: 3f8bc06f-7db3-4745-8f7a-6e2ee00813d4
+uuid: 2a3217ab-6613-4234-b0a4-d59daa5d5ddb
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_output
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: dd5fbd79-15f2-4c51-a47f-c1c038e8c0e3
+discoiquuid: 0ac2a960-2430-4555-be4f-e67a0739fc83
 index: y
 internal: n
 snippet: y

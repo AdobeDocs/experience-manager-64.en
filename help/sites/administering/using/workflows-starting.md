@@ -3,12 +3,12 @@ title: Starting Workflows
 seo-title: Starting Workflows
 description: Learn how to start Workflows in AEM.
 seo-description: Learn how to start Workflows in AEM.
-uuid: cc1cb74b-adfc-4b0d-808f-449afa5fca35
+uuid: d59db7c7-5d28-4d53-bd1f-b1cf9eba1480
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: f8779d48-8f5e-4c04-8a59-40cca93bc0b6
+discoiquuid: 8a1e5139-aaa6-42fe-b16d-d46767b7ddd9
 index: y
 internal: n
 snippet: y
@@ -20,8 +20,8 @@ When administering workflows you can start them using a variety of methods:
 
 * Manually:
 
-    * From a [Workflow Model](#workflowmodels).
-    * Using a workflow package for [batch processing](#workflowpackagesforbatchprocessing).
+    * From a [Workflow Model](#workflow-models).
+    * Using a workflow package for [batch processing](#workflow-packages-for-batch-processing).
 
 * Automatically:
 
@@ -39,7 +39,7 @@ When administering workflows you can start them using a variety of methods:
 
 ### Workflow Models {#workflow-models}
 
-You can start a workflow [based on one of the models](../../../sites/administering/using/workflows.md#workflowmodelsandinstances) listed on the Workflow Models console. The only mandatory information is the payload, though a title and/or comment can be added as well.
+You can start a workflow [based on one of the models](../../../sites/administering/using/workflows.md#workflow-models-and-instances) listed on the Workflow Models console. The only mandatory information is the payload, though a title and/or comment can be added as well.
 
 ### Workflows Launchers {#workflows-launchers}
 
@@ -90,7 +90,7 @@ A workflow package:
 
    >[!NOTE]
    >
-   >The ** [Transient](../../../sites/developing/using/workflows.md#transientworkflows)** indicator shows workflows for which the workflow history will not be persisted.
+   >The ** [Transient](../../../sites/developing/using/workflows.md#transient-workflows)** indicator shows workflows for which the workflow history will not be persisted.
 
 1. Select **Start Workflow** from the toolbar. 
 1. The Run Workflow dialog will open, allowing you to specify:

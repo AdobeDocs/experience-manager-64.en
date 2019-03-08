@@ -3,12 +3,12 @@ title: Security
 seo-title: Security
 description: Application Security starts during the development phase
 seo-description: Application Security starts during the development phase
-uuid: 3a434a27-94c7-45d1-8c3f-7e6eee8cc16a
+uuid: 00e3e8c5-26d9-4cdc-ba29-e10e6de072fb
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
-discoiquuid: 6ae11ef0-e0fd-426d-88ff-738440f72ca8
+discoiquuid: be3efde8-baca-45a0-a722-4a8e38c57c0c
 index: y
 internal: n
 snippet: y
@@ -36,7 +36,7 @@ It is important that you adapt this configuration to your own security needs by 
 
 >[!NOTE]
 >
->We strongly recommend you always access to the XSS protection API by using the [XSSAPI provided by AEM](/sites/developing/using/reference-materials/javadoc/com/adobe/granite/xss/XSSAPI).
+>We strongly recommend you always access to the XSS protection API by using the [XSSAPI provided by AEM](/sites/developing/using/reference-materials/javadoc/com/adobe/granite/xss/XSSAPI.md).
 
 Additionally, a web application firewall, such as [mod_security for Apache](https://www.modsecurity.org), can provide reliable, central control over the security of the deployment environment and protect against previously undetected cross-site scripting attacks.
 

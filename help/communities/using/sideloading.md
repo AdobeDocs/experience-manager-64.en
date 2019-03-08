@@ -3,12 +3,12 @@ title: Component Sideloading
 seo-title: Component Sideloading
 description: Communities component sideloading is useful when a web page is designed as a simple, single page app that dynamically alters what is displayed depending on what is selected by the site visitor
 seo-description: Communities component sideloading is useful when a web page is designed as a simple, single page app that dynamically alters what is displayed depending on what is selected by the site visitor
-uuid: 48c7dc27-76e5-4c6b-ac43-200356d313dc
+uuid: 36e342c8-3001-4ba9-9657-59f98907c089
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 0ed29d41-1527-47e9-b3c7-9ace479f8a63
+discoiquuid: 6b4a6d63-93f8-45d5-a78e-a2b0a7a21365
 index: y
 internal: n
 snippet: y
@@ -28,21 +28,21 @@ When a page is designed to sideload Communities components, it is possible to ca
 
 The steps to dynamically add SCF components are :
 
-1) [add the component to the DOM](#dynamicallyaddcomponenttodom)
+1) [add the component to the DOM](#dynamically-add-component-to-dom)
 
-2) [sideload the component](#sideloadbyinvokingscf) using one of two methods :
+2) [sideload the component](#sideload-by-invoking-scf) using one of two methods :
 
-* [dynamic inclusion](#dynamicinclusion)
+* [dynamic inclusion](#dynamic-inclusion)
 
     * boostrap all dynamically added components
 
-* [dynamic loading](#dynamicloading)
+* [dynamic loading](#dynamic-loading)
 
     * add one specific component on-demand
 
 >[!NOTE]
 >
->Sideloading of [non-existing resources](../../communities/using/scf.md#addorincludeacommunitiescomponent) is not supported.
+>Sideloading of [non-existing resources](../../communities/using/scf.md#add-or-include-a-communities-component) is not supported.
 
 ## Dynamically Add Component to DOM {#dynamically-add-component-to-dom}
 

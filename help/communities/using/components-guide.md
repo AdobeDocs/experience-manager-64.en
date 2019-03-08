@@ -3,12 +3,12 @@ title: Community Components Guide
 seo-title: Community Components Guide
 description: An interactive development tool to get started with the social component framework (SCF)
 seo-description: An interactive development tool to get started with the social component framework (SCF)
-uuid: 5ddaf158-087a-4a77-b6a3-23e97f680499
+uuid: 655d3f9c-26c8-4321-8e96-1238d5c717c6
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 8ec4e19a-59cb-4f75-8eca-cf2c3207e1ad
+discoiquuid: abd60f5e-0d8f-436e-9900-167fdf02b2a0
 index: y
 internal: n
 snippet: y
@@ -74,8 +74,8 @@ Select a component from the list along the left side of the page.
 The main body of the guide displays :
 
 1. Title : the name of the component selected
-1. [Client-Side Llibraries](#clientsidelibraries) : a list of one or more required categories
-1. [Includable](../../communities/using/scf.md#addorincludeacommunitiescomponent) : if the component may be dynamically included, then the state can be toggled in author edit mode :
+1. [Client-Side Llibraries](#client-side-libraries) : a list of one or more required categories
+1. [Includable](../../communities/using/scf.md#add-or-include-a-communities-component) : if the component may be dynamically included, then the state can be toggled in author edit mode :
 
     * if added, text displayed is : "This component is included via its par node."
     * if included, text displayed is : "This component is included dynamically."
@@ -91,7 +91,7 @@ The main body of the guide displays :
 
 When using the guide on an author instance, it is possible to experience configuring a component by opening its dialog. Information for developers is provided in the [Component and Feature Essentials](../../communities/using/essentials.md) section of the documentation, while the dialog settings are described in [Communities Components](../../communities/using/author-communities.md) section for authors.
 
-For the Community Components guide, some component dialog settings are overlayed with the [Includable](../../communities/using/scf.md#addorincludeacommunitiescomponent) toggle state. To toggle between using the existing resource or a dynamically included resource, in edit mode select both the component and includable text and double-click to open the edit dialog :
+For the Community Components guide, some component dialog settings are overlayed with the [Includable](../../communities/using/scf.md#add-or-include-a-communities-component) toggle state. To toggle between using the existing resource or a dynamically included resource, in edit mode select both the component and includable text and double-click to open the edit dialog :
 
 ![](assets/chlimage_1-406.png)
 
@@ -129,7 +129,7 @@ For more information, visit [Clientlibs for Communities Components](../../commun
 
 On the author instance, where one is often signed in as an administrator or developer, in order to experience the component logged in as another user, use the text box to the left of the **Impersonate **button to either type in the username or select from the pull down list, and then click the button. Click Revert to signout and end the impersonation.
 
-The publish instance does not need to impersonate. Simply use the Login/Logout link to impersonate various users, such as the [demo users](../../communities/using/tutorials.md#demousers).
+The publish instance does not need to impersonate. Simply use the Login/Logout link to impersonate various users, such as the [demo users](../../communities/using/tutorials.md#demo-users).
 
 ## Customization {#customization}
 

@@ -3,12 +3,12 @@ title: Enablement Resources Console
 seo-title: Enablement Resources Console
 description: The Resources console is where Enablement Managers create, manage, and assign resources to members of an enablement community site
 seo-description: The Resources console is where Enablement Managers create, manage, and assign resources to members of an enablement community site
-uuid: 266a0633-7b6f-4635-be43-33d9be4f41b1
+uuid: 8900ec6f-6362-4feb-87fb-f8bbc17cb31b
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 784da1d3-e708-4684-9137-585802cb8a01
+discoiquuid: 3e15d312-6c7a-48cb-b042-c02e9cd0ce28
 index: y
 internal: n
 snippet: y
@@ -39,7 +39,7 @@ For details, see [Configuring Enablement](../../communities/using/enablement.md)
 
 ### Resource {#resource}
 
-Resources are essential to an [enablement community](../../communities/using/overview.md#enablementcommunity). They are the materials assigned to members that enable them to improve their skills.
+Resources are essential to an [enablement community](../../communities/using/overview.md#enablement-community). They are the materials assigned to members that enable them to improve their skills.
 
 Characteristics of a Resource:
 
@@ -65,7 +65,7 @@ One such user group is `Community *<site-name>* Members` group, which identifies
 
 For [engagement communities](../../communities/using/overview.md#egagementcommunity), it is reasonable to allow site visitors to self-register or use social login, at which point they are automatically added to the members group.
 
-For [enablement communities](../../communities/using/overview.md#enablementcommunity), it is recommended to make the site private which then requires an administrator to add users to the members group.
+For [enablement communities](../../communities/using/overview.md#enablement-community), it is recommended to make the site private which then requires an administrator to add users to the members group.
 
 ## Accessing a Community Site's Enablement Resources {#accessing-a-community-site-s-enablement-resources}
 
@@ -138,7 +138,7 @@ When the resource is part of a course, a learning path, members should only be a
   (*optional*) One or more tags may be chosen which associate the enablement resource with one or more catalogs. See [Tagging Enablement Resources](../../communities/using/tag-resources.md).
 
 * **Show in Catalog** 
-  When unchecked, the enablement resource will not appear in any catalog. If checked, the enablement resource will appear in all catalogs unless [pre-filtered](../../communities/using/catalog-developer-essentials.md#prefilters) or the member filters from the UI. Default is unchecked.
+  When unchecked, the enablement resource will not appear in any catalog. If checked, the enablement resource will appear in all catalogs unless [pre-filtered](../../communities/using/catalog-developer-essentials.md#pre-filters) or the member filters from the UI. Default is unchecked.
 
 * **Description** 
   (*optional*) The description to display for the enablement resource.
@@ -236,26 +236,26 @@ Select the `'+' icon`, in the upper right corner, to begin the process of choosi
   *(Optional)* A date by which the assignment should be completed may be selected.
 
 * **Resource Author** 
-  *(Optional)* The author of the enablement resource. Use the pulldown menu to select from the users who are members of the [members group](#membersgroup).
+  *(Optional)* The author of the enablement resource. Use the pulldown menu to select from the users who are members of the [members group](#members-group).
 
 * **Resource Contact&#42;** 
-  *(Required)* A person the member can contact regarding the enablement resource. Use the pulldown menu to select from the users who are members of the [members group](#membersgroup).
+  *(Required)* A person the member can contact regarding the enablement resource. Use the pulldown menu to select from the users who are members of the [members group](#members-group).
 
 * **Resource Expert** 
-  *(Optional)* A person the member can contact who has expertise regarding the enablement resource. Use the pulldown menu to select from users who are members of the [members group](#membersgroup).
+  *(Optional)* A person the member can contact who has expertise regarding the enablement resource. Use the pulldown menu to select from users who are members of the [members group](#members-group).
 
 ### 4 Assignments {#assignments}
 
 ![](assets/chlimage_1-174.png)
 
 * **Add Assignees** 
-  Use the pulldown menu to select from [members](#membersgroup) - the users and user groups (listed in bold face) - who are to be enrolled as Learners. When members sign into the community site, the enablement resources (and learning paths) in which they are enrolled will appear on their [Assignments](../../communities/using/functions.md#assignmentsfunction) page.
+  Use the pulldown menu to select from [members](#members-group) - the users and user groups (listed in bold face) - who are to be enrolled as Learners. When members sign into the community site, the enablement resources (and learning paths) in which they are enrolled will appear on their [Assignments](../../communities/using/functions.md#assignments-function) page.
 
 * select **Create**
 
 ![](assets/chlimage_1-175.png)
 
-Successful creation of the enablement resource returns to the Resources console with the newly created resource selected. From this console, it is possible to [manage the resource](#managingaresource).
+Successful creation of the enablement resource returns to the Resources console with the newly created resource selected. From this console, it is possible to [manage the resource](#managing-a-resource).
 
 ## Create a Learning Path {#create-a-learning-path}
 
@@ -296,7 +296,7 @@ For enablement resources included in a learning path, the assignments should onl
   (*optional*) One or more tags may be chosen which associate the learning path with one or more catalogs. See [Tagging Enablement Resources](../../communities/using/tag-resources.md).
 
 * **Show in Catalog** 
-  When unchecked, the learning path will not appear in any catalog. If checked, the learning path will appear in all catalogs unless [pre-filtered](../../communities/using/catalog-developer-essentials.md#prefilters) or the member filters from the UI. Showing the learning path in a catalog will indirectly grant READ access to all its contained resources. Default is unchecked.
+  When unchecked, the learning path will not appear in any catalog. If checked, the learning path will appear in all catalogs unless [pre-filtered](../../communities/using/catalog-developer-essentials.md#pre-filters) or the member filters from the UI. Showing the learning path in a catalog will indirectly grant READ access to all its contained resources. Default is unchecked.
 
 * **Description** 
   (*optional*) The description to display for the enablement resource.
@@ -342,10 +342,10 @@ For enablement resources included in a learning path, the assignments should onl
 ![](assets/chlimage_1-180.png)
 
 * **Add Enrollments** 
-  Use the pulldown menu to select from the members and member groups (listed in bold face) who are members of the community site's [members group](#membersgroup). It is not necessary to add assignments when first creating the learning path. The learning path properties can be modified to add learners at a later time. 
+  Use the pulldown menu to select from the members and member groups (listed in bold face) who are members of the community site's [members group](#members-group). It is not necessary to add assignments when first creating the learning path. The learning path properties can be modified to add learners at a later time. 
 
 * **Learning Path Contact&#42;** 
-  *(Required)* A person the member can contact regarding the learning path. Use the pulldown menu to select from the users who are members of the community site's [members group](#membersgroup).
+  *(Required)* A person the member can contact regarding the learning path. Use the pulldown menu to select from the users who are members of the community site's [members group](#members-group).
 
 * select **Create**
 
@@ -415,9 +415,9 @@ For all learning paths, it is possible to view a report based either on resource
 
 ![](assets/chlimage_1-186.png)
 
-This Report is specifically for the current enablement resource or learning path. The depth of reporting provided depends on whether or not [Adobe Analytics](../../communities/using/analytics.md) is licensed and enabled for the community site. The [Timeline](#timeline), [Viewer Engagement](#viewerengagement), and [Engagement by Device](#engagementbydevice) reports are imported from Adobe Analytics based on the [polling interval](../../communities/using/analytics.md#reportimporter).
+This Report is specifically for the current enablement resource or learning path. The depth of reporting provided depends on whether or not [Adobe Analytics](../../communities/using/analytics.md) is licensed and enabled for the community site. The [Timeline](#timeline), [Viewer Engagement](#viewer-engagement), and [Engagement by Device](#engagement-by-device) reports are imported from Adobe Analytics based on the [polling interval](../../communities/using/analytics.md#report-importer).
 
-For all enablement resources, regardless of whether or not Adobe Analytics is enabled, there are reports on [Assignee Status](#assigneestatus) and [Ratings](#ratings) as well as a [Report Summary](#reportsummary) table.
+For all enablement resources, regardless of whether or not Adobe Analytics is enabled, there are reports on [Assignee Status](#assignee-status) and [Ratings](#ratings) as well as a [Report Summary](#report-summary) table.
 
 ![](assets/chlimage_1-187.png) 
 

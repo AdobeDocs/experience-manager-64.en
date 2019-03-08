@@ -3,12 +3,12 @@ title: Query Builder API
 seo-title: Query Builder API
 description: The functionality of the Asset Share Query Builder is exposed through a Java API and a REST API.
 seo-description: The functionality of the Asset Share Query Builder is exposed through a Java API and a REST API.
-uuid: aaa38582-9101-42ed-b398-c8217ff06f20
+uuid: b13effd5-4b17-45f3-98e3-d67cae2aacca
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
-discoiquuid: 3c8180cf-d2ff-4ce5-9c0c-f368e6d04768
+discoiquuid: 8103f345-d2ff-4032-8abf-f8f6309f0fa3
 pagetitle: Query Builder API
 tagskeywords: querybuilder
 index: y
@@ -20,11 +20,11 @@ snippet: y
 
 The functionality of the [Asset Share Query Builder](../../../assets/using/assets-finder-editor.md) is exposed through a Java API and a REST API. This section describes these APIs.
 
-The server-side query builder ( ` [QueryBuilder](/sites/developing/using/reference-materials/javadoc/com/day/cq/search/QueryBuilder)`) will accept a query description, create and run an XPath query, optionally filter the result set, and also extract facets, if desired.
+The server-side query builder ( ` [QueryBuilder](/sites/developing/using/reference-materials/javadoc/com/day/cq/search/QueryBuilder.md)`) will accept a query description, create and run an XPath query, optionally filter the result set, and also extract facets, if desired.
 
-The query description is simply a set of predicates ( ` [Predicate](/sites/developing/using/reference-materials/javadoc/com/day/cq/search/Predicate)`). Examples include a full-text predicate, which corresponds to the `jcr:contains()` function in XPath, and an image size predicate that looks for width and height properties in the DAM asset subtree.
+The query description is simply a set of predicates ( ` [Predicate](/sites/developing/using/reference-materials/javadoc/com/day/cq/search/Predicate.md)`). Examples include a full-text predicate, which corresponds to the `jcr:contains()` function in XPath, and an image size predicate that looks for width and height properties in the DAM asset subtree.
 
-For each predicate type, there is an evaluator component ( ` [PredicateEvaluator](/sites/developing/using/reference-materials/javadoc/com/day/cq/search/eval/PredicateEvaluator)`) that knows how to handle that specific predicate for XPath, filtering, and facet extraction. It is very easy to create custom evaluators, which are plugged-in through the OSGi component runtime.
+For each predicate type, there is an evaluator component ( ` [PredicateEvaluator](/sites/developing/using/reference-materials/javadoc/com/day/cq/search/eval/PredicateEvaluator.md)`) that knows how to handle that specific predicate for XPath, filtering, and facet extraction. It is very easy to create custom evaluators, which are plugged-in through the OSGi component runtime.
 
 The REST API provides access to exactly the same features through HTTP with responses being sent in JSON.
 
@@ -34,11 +34,11 @@ The REST API provides access to exactly the same features through HTTP with resp
 
 ## Gem Session {#gem-session}
 
-[AEM Gems](/content/ddc/en/gems) is a series of technical deep dives into Adobe Experience Manager delivered by Adobe experts. This session dedicated to the query builder is very useful for an overview and use of the tool.
+[AEM Gems](/content/ddc/en/gems.md) is a series of technical deep dives into Adobe Experience Manager delivered by Adobe experts. This session dedicated to the query builder is very useful for an overview and use of the tool.
 
 >[!NOTE]
 >
->See the AEM Gem session [Search forms made easy with the AEM querybuilder](/content/ddc/en/gems/Search-forms-made-easy-with-the-AEM-querybuilder) for a detailed overview of the query builder.
+>See the AEM Gem session [Search forms made easy with the AEM querybuilder](/content/ddc/en/gems/Search-forms-made-easy-with-the-AEM-querybuilder.md) for a detailed overview of the query builder.
 
 ## Sample Queries {#sample-queries}
 
@@ -134,7 +134,7 @@ By default the Query Builder would also provide the number of hits. Depending on
 
 For example, the UI can adapt following approach:
 
-* Get and display the accurate count of the number of total hits ([SearchResult.getTotalMatches()](/sites/developing/using/reference-materials/javadoc/com/day/cq/search/result/SearchResult#getTotalMatches) or total in the querybuilder.json response) are less than or equal to 100;
+* Get and display the accurate count of the number of total hits ([SearchResult.getTotalMatches()](/sites/developing/using/reference-materials/javadoc/com/day/cq/search/result/SearchResult.md#gettotalmatches) or total in the querybuilder.json response) are less than or equal to 100;
 * Set `guessTotal` to 100 while making the call to the Query Builder.  
 
 * The response can have the following outcome:
@@ -378,9 +378,9 @@ p.nodedepth=5
 
 For more predicates, see the [Query Builder Predicate Reference page](../../../sites/developing/using/querybuilder-predicate-reference.md).
 
-You can also check the [Javadoc for the `*PredicateEvaluator` classes](/sites/developing/using/reference-materials/javadoc/com/day/cq/search/eval/PredicateEvaluator). The Javadoc for these classes contains the list of properties that you can use.
+You can also check the [Javadoc for the `*PredicateEvaluator` classes](/sites/developing/using/reference-materials/javadoc/com/day/cq/search/eval/PredicateEvaluator.md). The Javadoc for these classes contains the list of properties that you can use.
 
-The prefix of the class name (for example, " `similar`" in ` [SimilarityPredicateEvaluator](/sites/developing/using/reference-materials/javadoc/com/day/cq/search/eval/SimilarityPredicateEvaluator)`) is the *principal property* of the class. This property is also the name of the predicate to use in the query (in lower case).
+The prefix of the class name (for example, " `similar`" in ` [SimilarityPredicateEvaluator](/sites/developing/using/reference-materials/javadoc/com/day/cq/search/eval/SimilarityPredicateEvaluator.md)`) is the *principal property* of the class. This property is also the name of the predicate to use in the query (in lower case).
 
 For such principal properties, you can shorten the query and use " `similar=/content/en`" instead of the fully qualified variant " `similar.similar=/content/en`". The fully qualified form must be used for all non-principal properties of a class.
 
@@ -456,13 +456,13 @@ Queries can be stored to the repository so that you can use them later. The `Que
 void storeQuery(Query query, String path, boolean createFile, Session session) throws RepositoryException, IOException;
 ```
 
-When using the [ `QueryBuilder#storeQuery`](/sites/developing/using/reference-materials/javadoc/com/day/cq/search/QueryBuilder#storeQuerycomdaycqsearchQueryjavalangStringbooleanjavaxjcrSession) method, the given `Query` is stored into the repository as a file or as a property according to the `createFile` argument value. The following example shows how to save a `Query` to the path `/mypath/getfiles` as a file:
+When using the [ `QueryBuilder#storeQuery`](/sites/developing/using/reference-materials/javadoc/com/day/cq/search/QueryBuilder.md#storequerycomdaycqsearchqueryjavalangstringbooleanjavaxjcrsession) method, the given `Query` is stored into the repository as a file or as a property according to the `createFile` argument value. The following example shows how to save a `Query` to the path `/mypath/getfiles` as a file:
 
 ```java
 builder.storeQuery(query, "/mypath/getfiles", true, session);
 ```
 
-Any previously stored queries can be loaded from the repository by using the ` [QueryBuilder#loadQuery](/sites/developing/using/reference-materials/javadoc/com/day/cq/search/QueryBuilder#loadQueryjavalangStringjavaxjcrSession)` method:
+Any previously stored queries can be loaded from the repository by using the ` [QueryBuilder#loadQuery](/sites/developing/using/reference-materials/javadoc/com/day/cq/search/QueryBuilder.md#loadqueryjavalangstringjavaxjcrsession)` method:
 
 ```java
 Query loadQuery(String path, Session session) throws RepositoryException, IOException
@@ -547,7 +547,7 @@ For a rundown on how to debug queries with QueryBuilder, see the video below.
 
 >[!NOTE]
 >
->The configuration of the loggers is described in the section [Creating Your Own Loggers and Writers](../../../sites/deploying/using/configure-logging.md#creatingyourownloggersandwriters).
+>The configuration of the loggers is described in the section [Creating Your Own Loggers and Writers](../../../sites/deploying/using/configure-logging.md#creating-your-own-loggers-and-writers).
 
 The log output (INFO level) of the query builder implementation when executing the query described in Testing and Debugging:
 
@@ -586,11 +586,11 @@ com.day.cq.search.impl.builder.QueryImpl query execution took 272 ms
 
 | **Javadoc** |**Description** |
 |---|---|
-| [com.day.cq.search](/sites/developing/using/reference-materials/javadoc/com/day/cq/search/package-summary) |Basic QueryBuilder and Query API |
-| [com.day.cq.search.result](/sites/developing/using/reference-materials/javadoc/com/day/cq/search/result/package-summary) |Result API |
-| [com.day.cq.search.facets](/sites/developing/using/reference-materials/javadoc/com/day/cq/search/facets/package-summary) |Facets |
-| [com.day.cq.search.facets.buckets](/sites/developing/using/reference-materials/javadoc/com/day/cq/search/facets/buckets/package-summary) |Buckets (contained within facets) |
-| [com.day.cq.search.eval](/sites/developing/using/reference-materials/javadoc/com/day/cq/search/eval/package-summary) |Predicate Evaluators |
-| [com.day.cq.search.facets.extractors](/sites/developing/using/reference-materials/javadoc/com/day/cq/search/facets/extractors/package-summary) |Facet Extractors (for evaluators) |
-| [com.day.cq.search.writer](/sites/developing/using/reference-materials/javadoc/com/day/cq/search/writer/package-summary) |JSON Result Hit Writer for Querybuilder servlet (/bin/querybuilder.json) |
+| [com.day.cq.search](/sites/developing/using/reference-materials/javadoc/com/day/cq/search/package-summary.md) |Basic QueryBuilder and Query API |
+| [com.day.cq.search.result](/sites/developing/using/reference-materials/javadoc/com/day/cq/search/result/package-summary.md) |Result API |
+| [com.day.cq.search.facets](/sites/developing/using/reference-materials/javadoc/com/day/cq/search/facets/package-summary.md) |Facets |
+| [com.day.cq.search.facets.buckets](/sites/developing/using/reference-materials/javadoc/com/day/cq/search/facets/buckets/package-summary.md) |Buckets (contained within facets) |
+| [com.day.cq.search.eval](/sites/developing/using/reference-materials/javadoc/com/day/cq/search/eval/package-summary.md) |Predicate Evaluators |
+| [com.day.cq.search.facets.extractors](/sites/developing/using/reference-materials/javadoc/com/day/cq/search/facets/extractors/package-summary.md) |Facet Extractors (for evaluators) |
+| [com.day.cq.search.writer](/sites/developing/using/reference-materials/javadoc/com/day/cq/search/writer/package-summary.md) |JSON Result Hit Writer for Querybuilder servlet (/bin/querybuilder.json) |
 

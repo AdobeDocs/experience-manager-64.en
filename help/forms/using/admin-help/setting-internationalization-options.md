@@ -3,12 +3,12 @@ title: Setting internationalization options
 seo-title: Setting internationalization options
 description: Learn how to specify the locale used to render forms and how to specify the character set used to encode the output stream.
 seo-description: Learn how to specify the locale used to render forms and how to specify the character set used to encode the output stream.
-uuid: dae43c21-0c45-4c25-a890-53489e4d12b4
+uuid: bf557825-a514-4ff5-99b7-fb9cf032c80f
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 1cefeffc-dd85-4df5-8411-8219e8fc38b0
+discoiquuid: e6d78aa5-bc35-41af-b3ab-30fefadc6db4
 index: y
 internal: n
 snippet: y

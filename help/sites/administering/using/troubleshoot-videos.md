@@ -3,9 +3,9 @@ title: REDIRECT Video Playback Configuration and Troubleshooting
 seo-title: REDIRECT Video Playback Configuration and Troubleshooting
 description: null
 seo-description: null
-uuid: 34dfc01f-18ee-4111-a6a6-99671160b44d
+uuid: 73457125-1325-4b2f-84cb-f1e907bd1d01
 contentOwner: jsyal
-discoiquuid: 0b4f6a46-cdeb-4d5c-9eb7-bc4d34f910f5
+discoiquuid: 47597b9a-1b4a-45b2-ba29-5e224083d310
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/screens/using/troubleshoot-videos
 index: y

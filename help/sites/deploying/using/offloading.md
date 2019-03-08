@@ -3,12 +3,12 @@ title: Offloading Jobs
 seo-title: Offloading Jobs
 description: Learn how to configure and use AEM instances in a topology in order to perform specific types of processing.
 seo-description: Learn how to configure and use AEM instances in a topology in order to perform specific types of processing.
-uuid: a50703a5-d8ce-491a-9622-326ed349edf3
+uuid: bd797c8b-1aae-4758-9302-765223d5f37f
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: configuring
 content-type: reference
-discoiquuid: 83248cbb-a847-4603-8bfe-d2f08866ad49
+discoiquuid: 9e8c8f0c-7f73-439e-a764-3207c6d4c19d
 index: y
 internal: n
 snippet: y
@@ -348,6 +348,6 @@ The following procedure assumes the following characteristics for the offloading
 In addition to the details presented on this page, you can also read the following:
 
 * For information about using Java APIs to create jobs and job consumers, see [Creating and Consuming Jobs for Offloading](../../../sites/developing/using/dev-offloading.md).
-* For general guidelines and best practices for asset offloading, see [General Guidelines and Best Practices for Asset Offloading](../../../assets/using/assets-offloading-best-practices.md#generalguidanceandbestpracticesforassetoffloading).
-* To know how to disable the automatic creation of offloading agents, see [Turning Off Automatic Agent Management](../../../assets/using/assets-offloading-best-practices.md#turningoffautomaticagentmanagement).
+* For general guidelines and best practices for asset offloading, see [General Guidelines and Best Practices for Asset Offloading](../../../assets/using/assets-offloading-best-practices.md#general-guidance-and-best-practices-for-asset-offloading).
+* To know how to disable the automatic creation of offloading agents, see [Turning Off Automatic Agent Management](../../../assets/using/assets-offloading-best-practices.md#turning-off-automatic-agent-management).
 

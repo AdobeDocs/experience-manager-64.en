@@ -3,12 +3,12 @@ title: Rating Essentials
 seo-title: Rating Essentials
 description: Rating component overview
 seo-description: Rating component overview
-uuid: 86cef205-98cb-4cb2-aba8-347ab4a52ad2
+uuid: 8d7d3259-f7a1-40cd-ba4a-fedd9276d9b5
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 1c24298d-3fed-4c50-ba22-e54884df67cd
+discoiquuid: fc6d1fa7-8802-4264-aa61-95a8066fa779
 index: y
 internal: n
 snippet: y
@@ -31,11 +31,11 @@ Anonymous posting of a rating is not supported. Site visitors must register and 
    <td> social/tally/components/hbs/rating</td> 
   </tr> 
   <tr> 
-   <td> <a href="../../communities/using/scf.md#addorincludeacommunitiescomponent"><strong>includable</strong></a></td> 
+   <td> <a href="../../communities/using/scf.md#add-or-include-a-communities-component"><strong>includable</strong></a></td> 
    <td>Yes - properties are editable in <i>design </i>mode</td> 
   </tr> 
   <tr> 
-   <td> <a href="../../communities/using/client-customize.md#clientlibsforscf"><strong>clientlibs</strong></a></td> 
+   <td> <a href="../../communities/using/client-customize.md#clientlibs-for-scf"><strong>clientlibs</strong></a></td> 
    <td> cq.social.hbs.rating</td> 
   </tr> 
   <tr> 
@@ -57,9 +57,9 @@ Anonymous posting of a rating is not supported. Site visitors must register and 
 
 ## Essentials for Server-Side {#essentials-for-server-side}
 
-* [Tally APIs](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/tally/client/api/package-summary)
+* [Tally APIs](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/tally/client/api/package-summary.md)
 
-* [Tally Endpoints](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/tally/client/endpoints/package-summary)
+* [Tally Endpoints](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/tally/client/endpoints/package-summary.md)
 
 * [Server-side Customizations](../../communities/using/server-customize.md)
 

@@ -3,12 +3,12 @@ title: Configuring Connector for IBM FileNet
 seo-title: Configuring Connector for IBM FileNet
 description: Learn how to configure the Connector for IBM FileNet to enable communication between AEM forms and IBM FileNet.
 seo-description: Learn how to configure the Connector for IBM FileNet to enable communication between AEM forms and IBM FileNet.
-uuid: 42277eb6-56d5-49c0-80ec-0e555d4bd389
+uuid: 025f268a-48a9-47c8-b5fb-ff5fec7acf72
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/connecting_to_a_content_management_system
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 930b719a-a904-4740-a406-7b673e9fb2b6
+discoiquuid: 5596777c-c339-4eb1-ae0a-cde78b84030b
 index: y
 internal: n
 snippet: y
@@ -83,7 +83,7 @@ The following options are available:
 
 **repository provider:** Makes the native repository provider the provider for the repository
 
-***Note**: To select a repository service provider other than those listed, configure RepositoryService in Applications and Services. (See [Managing Services](/forms/using/admin-help/topics/managing-services).)*
+***Note**: To select a repository service provider other than those listed, configure RepositoryService in Applications and Services. (See [Managing Services](/forms/using/admin-help/topics/managing-services.md).)*
 
 1. In administration console, click Services > Connector for IBM FileNet.
 1. In the Repository Service Provider Information area, select the alternative repository service provider, and then click Save.

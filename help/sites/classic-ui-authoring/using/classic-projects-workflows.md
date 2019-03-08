@@ -3,12 +3,12 @@ title: Working with Project Workflows
 seo-title: Working with Project Workflows
 description: There are a number of project workflows available out of the box.
 seo-description: There are a number of project workflows available out of the box.
-uuid: 0a0f9b5c-0135-4942-9273-61f20f556f3d
+uuid: b300e88f-7333-4c9f-b652-77c8463b56ab
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: projects
 content-type: reference
-discoiquuid: bc459105-cd8b-456d-8c45-313e252ca709
+discoiquuid: f5238bb0-3c9b-4890-a971-2927324320e2
 index: y
 internal: n
 snippet: y

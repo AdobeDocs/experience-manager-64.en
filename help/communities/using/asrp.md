@@ -3,12 +3,12 @@ title: ASRP - Adobe Storage Resource Provider
 seo-title: ASRP - Adobe Storage Resource Provider
 description: Set up AEM Communities to use a relational database as its common store
 seo-description: Set up AEM Communities to use a relational database as its common store
-uuid: ab29edac-d179-4480-9e9e-1bb8e52ed1b7
+uuid: 217ae433-db1f-42ed-af7f-a7f5641e31c1
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: eb97190e-110a-4fd5-8939-779f0e15773c
+discoiquuid: 6d0d915f-8abd-4474-9231-a853c47a1ca1
 index: y
 internal: n
 snippet: y
@@ -20,7 +20,7 @@ snippet: y
 
 When AEM Communities is configured to use ASRP as its common store, user generated content (UGC) is accessible from all author and publish instances without the need for synchronization nor replication.
 
-See also [Characteristics of SRP Options](../../communities/using/working-with-srp.md#characteristicsofsrpoptions) and [Recommended Topologies](../../communities/using/topologies.md).
+See also [Characteristics of SRP Options](../../communities/using/working-with-srp.md#characteristics-of-srp-options) and [Recommended Topologies](../../communities/using/topologies.md).
 
 ## Requirements {#requirements}
 
@@ -66,21 +66,21 @@ The [Storage Configuration console](../../communities/using/srp-config.md) allow
 
 Prepare the publish instances :
 
-* [replicate the crypto key](#replicatethecryptokey)
-* [replicate the configuration](#publishingtheconfiguration)
+* [replicate the crypto key](#replicate-the-crypto-key)
+* [replicate the configuration](#publishing-the-configuration)
 
 After submitting the configuration, test the connection :
 
 * select **Test Config** 
   for each author and publish instance, test the connection to the data center from the Storage Configuration console
 
-* finally, ensure that the site URLs for profile data are routable from the Data Center by [externalizing links](#externalizelinks).
+* finally, ensure that the site URLs for profile data are routable from the Data Center by [externalizing links](#externalize-links).
 
 ### Replicate the Crypto Key {#replicate-the-crypto-key}
 
 The Consumer Key and Secret Key are encrypted. In order for the keys to be encrypted/decrypted properly, the master Granite Crypto key must be the same on all AEM instances.
 
-Follow the instructions at [Replicate the Crypto Key](../../communities/using/deploy-communities.md#replicatethecryptokey).
+Follow the instructions at [Replicate the Crypto Key](../../communities/using/deploy-communities.md#replicate-the-crypto-key).
 
 ### Externalize Links {#externalize-links}
 
@@ -117,7 +117,7 @@ To make the identical configuration available in the publish environment :
 
 **`AEM Communities Extension`**was previously introduced in AEM 6.0 social communities as a cloud service. As of AEM 6.1 Communities, no cloud configuration is necessary, simply select ASRP from the [storage configuration console](../../communities/using/srp-config.md).
 
-Due to the new storage structure, it is necessary to follow the [upgrade](../../communities/using/upgrade.md#adobecloudstorage) instructions when upgrading from social communities to Communities.
+Due to the new storage structure, it is necessary to follow the [upgrade](../../communities/using/upgrade.md#adobe-cloud-storage) instructions when upgrading from social communities to Communities.
 
 ## Managing User Data {#managing-user-data}
 
@@ -130,7 +130,7 @@ For information regarding *users*, *user profiles* and *user groups*, often ente
 
 ### UGC Disappears after Upgrade {#ugc-disappears-after-upgrade}
 
-If upgrading from an exisitng AEM 6.0 social community site, be sure to follow the [upgrade instructions](../../communities/using/upgrade.md#adobecloudstorage), else UGC will *appear* to be lost.
+If upgrading from an exisitng AEM 6.0 social community site, be sure to follow the [upgrade instructions](../../communities/using/upgrade.md#adobe-cloud-storage), else UGC will *appear* to be lost.
 
 ### Authentication Errors {#authentication-errors}
 

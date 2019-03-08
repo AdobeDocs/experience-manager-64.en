@@ -3,12 +3,12 @@ title: Configuring Dynamic Media - Scene7 mode
 seo-title: Configuring Dynamic Media - Scene7 mode
 description: Information on how to configure Dynamic Media - Scene7 mode.
 seo-description: Information on how to configure Dynamic Media - Scene7 mode.
-uuid: f05549d6-e215-4532-a6ac-018200155585
+uuid: 269654eb-0d70-4b61-b46f-8c47d97de03d
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: 5f1ddf13-381a-4705-bb85-ca98fda554e0
+discoiquuid: 17b77c4b-e524-430f-8d80-11ea19aeab3f
 index: y
 internal: n
 snippet: y
@@ -121,8 +121,8 @@ If you want to further customize the configuration and setup of Dynamic Media - 
 
 * [(Optional) Setup and configuration of Dynamic Media - Scene7 mode settings](#optionalsetupandconfigurationofdynamicmediascene7modesettings)  
 
-* [(Optional) Tuning the performance of Dynamic Media - Scene7 mode](#optionaltuningtheperformanceofdynamicmediascene7mode)
-* [(Optional) Filtering assets for replication](#optionalfilteringassetsforreplication)
+* [(Optional) Tuning the performance of Dynamic Media - Scene7 mode](#optional-tuning-the-performance-of-dynamic-media-scene-mode)
+* [(Optional) Filtering assets for replication](#optional-filtering-assets-for-replication)
 
 ### (Optional) Setup and configuration of Dynamic Media - Scene7 mode settings</p> {#optional-setup-and-configuration-of-dynamic-media-scene-mode-settings-p}
 
@@ -132,11 +132,11 @@ Some of the tasks above require that you log into Dynamic Media Classic (Scene7)
 
 Setup and configuration tasks include the following:
 
-* [Publishing setup for Image Server](#publishingsetupforimageserver)
-* [Configuring application general settings](#configuringapplicationgeneralsettings)
-* [Configuring color management](#configuringcolormanagement)
-* [Configuring asset processing](#configuringassetprocessing)
-* [Creating batch set presets to auto-generate Image Sets and Spin Sets](#creatingbatchsetpresetstoautogenerateimagesetsandspinsets)
+* [Publishing setup for Image Server](#publishing-setup-for-image-server)
+* [Configuring application general settings](#configuring-application-general-settings)
+* [Configuring color management](#configuring-color-management)
+* [Configuring asset processing](#configuring-asset-processing)
+* [Creating batch set presets to auto-generate Image Sets and Spin Sets](#creating-batch-set-presets-to-auto-generate-image-sets-and-spin-sets)
 
 #### Publishing setup for Image Server {#publishing-setup-for-image-server}
 
@@ -171,11 +171,11 @@ To open the Application General Settings page, in Dynamic Media Classic Global N
 * **Overwrite in any folder, same base asset name/extension** - Requires that the replacement image has the same filename extension as the original image (for example, chair.jpg must replace chair.jpg, not chair.tif). However, you can upload the replacement image to a different folder than the original. The updated image resides in the new folder; the file can no longer be found in its original location
 * **Overwrite in any folder, same base asset name regardless of extension** - This option is the most inclusive replacement rule. You can upload a replacement image to a different folder than the original, upload a file with a different filename extension, and replace the original file. If the original file is in a different folder, the replacement image resides in the new folder to which it was uploaded.
 
-**Default Color Profiles** - See [Configuring Color Management](#configuringcolormanagement) for additional information.
+**Default Color Profiles** - See [Configuring Color Management](#configuring-color-management) for additional information.
 
 >[!NOTE]
 >
->By default, the system shows 15 renditions when you select **Renditions** and 15 viewer presets when you select **Viewers** in the asset's detail view. You can increase this limit. See [Increasing the number of image presets that display](../../assets/using/managing-image-presets.md#increasingthenumberofimagepresetsthatdisplay) or [Increasing the number of viewer presets that display](../../assets/using/managing-viewer-presets.md#increasingthenumberofviewerpresetsthatdisplay).
+>By default, the system shows 15 renditions when you select **Renditions** and 15 viewer presets when you select **Viewers** in the asset's detail view. You can increase this limit. See [Increasing the number of image presets that display](../../assets/using/managing-image-presets.md#increasingthenumberofimagepresetsthatdisplay) or [Increasing the number of viewer presets that display](../../assets/using/managing-viewer-presets.md#increasing-the-number-of-viewer-presets-that-display).
 >
 
 #### Configuring color management {#configuring-color-management}
@@ -216,7 +216,7 @@ You can define which asset types should be processed by Dynamic Media and custom
 * Rasterize an Adobe Illustrator file (.AI) or an Adobe Photoshop Encapsulated Postscript file (.EPS).
 * Note: Video Profiles and Imaging Profiles can be used to define processing of videos and images, respectively.
 
-See [Uploading Assets](../../assets/using/managing-assets-touch-ui.md#uploadingassets).
+See [Uploading Assets](../../assets/using/managing-assets-touch-ui.md#uploading-assets).
 
 **To configure asset processing**:
 
@@ -232,7 +232,7 @@ See [Uploading Assets](../../assets/using/managing-assets-touch-ui.md#uploadinga
 
     * double-click the **enabled **field. By default all asset mime types are enabled (set to **true**), which means the assets will be synched to Dynamic Media for processing. If you wish to exclude this asset mime type from being processed, change this setting to **false**.
     
-    * double-click **jobParam** to open its associated text field. See [Supported Mime Types](/assets/using/assets-formats.html?cq_ck=1499979499518#SupportedMimeTypes) for a list of permitted processing parameter values you can use for a given mime type.
+    * double-click **jobParam** to open its associated text field. See [Supported Mime Types](../../assets/using/assets-formats.md#supported-mime-types) for a list of permitted processing parameter values you can use for a given mime type.
 
 1. Do one of the following:
 

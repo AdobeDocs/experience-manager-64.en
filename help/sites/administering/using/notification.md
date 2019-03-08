@@ -3,12 +3,12 @@ title: Configuring Email Notification
 seo-title: Configuring Email Notification
 description: Learn how to configure Email Notification in AEM.
 seo-description: Learn how to configure Email Notification in AEM.
-uuid: 49310e48-12fc-408b-8dac-f6eddea63e2c
+uuid: 7024b865-6f75-41c7-902a-ba0f149f65e4
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: 21b7958e-c3d9-4217-b43f-f5d13363dfda
+discoiquuid: 98ad086d-32d2-419c-af17-a17c54543a1d
 index: y
 internal: n
 snippet: y
@@ -18,10 +18,10 @@ snippet: y
 
 AEM sends email notifications to users who:
 
-* Have subscribed to page events, for example modification or replication. The [Notification Inbox](../../../sites/classic-ui-authoring/using/author-env-inbox.md#subscribingtonotifications) section describes how to subscribe to such events.  
+* Have subscribed to page events, for example modification or replication. The [Notification Inbox](../../../sites/classic-ui-authoring/using/author-env-inbox.md#subscribing-to-notifications) section describes how to subscribe to such events.  
 
 * Have subscribed to forum events.
-* Have to perform a step in a workflow. The [Participant Step](../../../sites/developing/using/workflows-step-ref.md#participantstep) section describes how to trigger email notification in a workflow.
+* Have to perform a step in a workflow. The [Participant Step](../../../sites/developing/using/workflows-step-ref.md#participant-step) section describes how to trigger email notification in a workflow.
 
 Pre-requisites:
 
@@ -299,7 +299,7 @@ To add a template for a new language:
 
 When Collections in AEM Assets are shared or unshared, users can receive email notifications from AEM. To configure email notifications, follow these steps.
 
-1. Configure the email service, as described above in [Configuring the Mail Service](../../../sites/administering/using/notification.md#configuringthemailservice).
+1. Configure the email service, as described above in [Configuring the Mail Service](../../../sites/administering/using/notification.md#configuring-the-mail-service).
 1. Log into AEM as an administrator. Click **Tools **&gt; **Operations **&gt; **Web Console** to open Web Console Configuration.
 1. Edit **Day CQ DAM Resource Collection Servlet**. Select **send email**. Click **Save**.
 

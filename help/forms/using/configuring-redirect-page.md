@@ -3,10 +3,10 @@ title: Configuring redirect page
 seo-title: Configuring redirect page
 description: After filling an adaptive form, users can be redirected to a webpage that form authors can configure while creating the form.
 seo-description: After filling an adaptive form, users can be redirected to a webpage that form authors can configure while creating the form.
-uuid: af2303eb-2c54-4a13-a85d-55a8128c1c38
+uuid: 18a0e9d7-48aa-45b3-98c3-9385fbe1c90b
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
-discoiquuid: 84180b70-7c0d-4536-9b59-4108fc6d1c7f
+discoiquuid: 22be942f-017c-4ab8-8909-77551c93b4b3
 index: y
 internal: n
 snippet: y

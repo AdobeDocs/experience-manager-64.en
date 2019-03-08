@@ -3,12 +3,12 @@ title: Editing Launches
 seo-title: Editing Launches
 description: After creating a launch for your page (or set of pages) you can edit the content in the launch copy of the page(s). 
 seo-description: After creating a launch for your page (or set of pages) you can edit the content in the launch copy of the page(s). 
-uuid: e62942eb-e90d-4a81-99e5-5962bd1a9da1
+uuid: ed6fb413-d6fa-46a6-a60c-7992a8d22df5
 contentOwner: Alison Heimoz
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
-discoiquuid: c1b11533-3360-4f14-a635-9e2e08bc0e1c
+discoiquuid: 0e5b5afa-79ac-416a-8ea8-942ddf73e90b
 legacypath: /content/docs/en/aem/6-0/author/site-page-features/launches
 index: y
 internal: n
@@ -21,7 +21,7 @@ snippet: y
 
 When a launch has been created for a page (or set of pages) you can edit the content in the launch copy of the page(s).
 
-1. Access the [Launch from References (Sites console)](../../../sites/authoring/using/launches.md#launchesinreferencessitesconsole) to show the available actions.
+1. Access the [Launch from References (Sites console)](../../../sites/authoring/using/launches.md#launches-in-references-sites-console) to show the available actions.
 1. Select **Go to the page** to open the page for editing.
 
 ### Editing Launch Pages Subject to a Live Copy {#editing-launch-pages-subject-to-a-live-copy}
@@ -38,7 +38,7 @@ You can make changes in the same way as you can edit a standard live copy; for e
 * Clicking on a closed padlock will break this synchronization and allow you to make new updates to the content in your launch. Once unlocked (open padlock) your changes will not be overwritten by any changes made at the same location within the source branch.
 * **Suspend** (and **Resume**) inheritance for a specific page.
 
-See [Changing Live Copy Content](../../../sites/administering/using/msm-livecopy.md#changinglivecopycontent) for further information.
+See [Changing Live Copy Content](../../../sites/administering/using/msm-livecopy.md#changing-live-copy-content) for further information.
 
 ## Comparing a Launch Page to its Source Page {#comparing-a-launch-page-to-its-source-page}
 
@@ -60,11 +60,11 @@ At any time you can either add or remove pages to/from the range of source pages
 
 1. Access and select the launch from either:
 
-    * the [Launches console](../../../sites/authoring/using/launches.md#thelaunchesconsole):
+    * the [Launches console](../../../sites/authoring/using/launches.md#the-launches-console):
 
         * Select **Edit**.
 
-    * [References (Sites console)](../../../sites/authoring/using/launches.md#launchesinreferencessitesconsole) to show the available actions:
+    * [References (Sites console)](../../../sites/authoring/using/launches.md#launches-in-references-sites-console) to show the available actions:
 
         * Select **Edit Launch**.
 
@@ -82,11 +82,11 @@ At any time you can edit the properties for a launch:
 
 1. Access and select the launch from either:
 
-    * the [Launches console](../../../sites/authoring/using/launches.md#thelaunchesconsole):
+    * the [Launches console](../../../sites/authoring/using/launches.md#the-launches-console):
 
         * Select **Properties**.
 
-    * [References (Sites console)](../../../sites/authoring/using/launches.md#launchesinreferencessitesconsole) to show the available actions:
+    * [References (Sites console)](../../../sites/authoring/using/launches.md#launches-in-references-sites-console) to show the available actions:
 
         * Select **Edit Properties**.
 
@@ -98,7 +98,7 @@ At any time you can edit the properties for a launch:
 
 ## Discovering the Launch Status of a Page {#discovering-the-launch-status-of-a-page}
 
-The status is shown when you select a specific launch from the references tab (see [Launches in References (Sites Console)](../../../sites/authoring/using/launches.md#launchesinreferencessitesconsole)).
+The status is shown when you select a specific launch from the references tab (see [Launches in References (Sites Console)](../../../sites/authoring/using/launches.md#launches-in-references-sites-console)).
 
 ![](assets/chlimage_1-97.png)
 

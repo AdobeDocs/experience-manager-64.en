@@ -3,12 +3,12 @@ title: MSM Rollout Conflicts
 seo-title: MSM Rollout Conflicts
 description: Learn how to deal with Multi Site Manager rollout conflicts.
 seo-description: Learn how to deal with Multi Site Manager rollout conflicts.
-uuid: fdabafec-2305-4825-8694-c3d56830a794
+uuid: c4ac0cd4-d6aa-42d4-bc74-b0aa951b55f8
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features
 content-type: reference
-discoiquuid: ede2ff8b-df97-4ebb-974e-852c9c9b6866
+discoiquuid: 362ced4b-8d92-4afc-b268-a51b859d5211
 index: y
 internal: n
 snippet: y
@@ -80,7 +80,7 @@ This is done using [OSGi configuration](../../../sites/deploying/using/configuri
   ( `rolloutmgr.conflicthandling.enabled`)  
   Set to true if the rollout manager should handle conflicts from a page created in the live copy with a name that exists in the blueprint.
 
-AEM has [predefined behavior when conflict management has been deactivated](#behaviorwhenconflicthandlingdeactivated).
+AEM has [predefined behavior when conflict management has been deactivated](#behavior-when-conflict-handling-deactivated).
 
 ## Conflict Handlers {#conflict-handlers}
 
@@ -88,11 +88,11 @@ AEM uses conflict handlers to resolve any page conflicts that exist when rolling
 
 AEM provides:
 
-* The [default conflict handler](#defaultconflicthandler):
+* The [default conflict handler](#default-conflict-handler):
 
     * `ResourceNameRolloutConflictHandler`
 
-* The possibility to implement a [customized handler](#customizedhandlers).
+* The possibility to implement a [customized handler](#customized-handlers).
 * The service ranking mechanism that allows you to set the priority of each individual handler. The service with the highest ranking is used.
 
 ### Default Conflict Handler {#default-conflict-handler}
@@ -161,7 +161,7 @@ Customized conflict handlers can:
 
 ### Behavior When Conflict Handling Deactivated {#behavior-when-conflict-handling-deactivated}
 
-If you manually [deactivate conflict handling](#rolloutmanagerandconflicthandling) then AEM takes no action on any conflicting pages (non-conflicting pages are rolled out as expected).
+If you manually [deactivate conflict handling](#rollout-manager-and-conflict-handling) then AEM takes no action on any conflicting pages (non-conflicting pages are rolled out as expected).
 
 >[!CAUTION]
 >

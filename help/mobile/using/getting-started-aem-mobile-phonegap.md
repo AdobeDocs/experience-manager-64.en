@@ -3,12 +3,12 @@ title: AEM Adobe PhoneGap
 seo-title: AEM Adobe PhoneGap
 description: AEM integrates with PhoneGap so that you can easily create apps using AEM pages. Follow this page to get started with Adobe PhoneGap Enterprise.
 seo-description: AEM integrates with PhoneGap so that you can easily create apps using AEM pages. Follow this page to get started with Adobe PhoneGap Enterprise.
-uuid: c44a7016-1d54-4e36-8198-e95dbd8ba424
+uuid: 5d724288-9df2-4221-ae9b-771f15931164
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: introduction
 content-type: reference
-discoiquuid: 9e9714ed-595e-4123-9712-4c895a0bae06
+discoiquuid: 49faba37-794a-4b4b-9695-279437718f7d
 index: y
 internal: n
 snippet: y

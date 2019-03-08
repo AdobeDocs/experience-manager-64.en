@@ -3,12 +3,12 @@ title: Recognizing valid and expired certificates in PDF documents
 seo-title: Recognizing valid and expired certificates in PDF documents
 description: Learn how to recognize valid and expired certificates in PDF documents.
 seo-description: Learn how to recognize valid and expired certificates in PDF documents.
-uuid: d9dd4575-995c-4781-a741-83f8372c9952
+uuid: 7710badf-a71e-449f-84dd-b5a07f9160b6
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_acrobat_reader_dc_extensions
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: e97b9431-d3fd-4568-95cb-6f8e5cefd3b4
+discoiquuid: 1b670593-476b-4f49-9f76-c6b6cedc8228
 index: y
 internal: n
 snippet: y

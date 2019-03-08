@@ -4,12 +4,12 @@ seo-title: Components
 description: AEM comes with a variety of out-of-the-box components that provide comprehensive functionality for website authors. 
 seo-description: AEM comes with a variety of out-of-the-box components that provide comprehensive functionality for website authors. 
 page-status-flag: de-activated
-uuid: 41e4d0e3-d3b3-4e61-ae21-5c48d36646ab
+uuid: 98dbb8fd-d58f-4379-b31b-e684918ce489
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: f32afe8d-abf9-4c17-ad67-b96bec0ebdbc
+discoiquuid: 0af0d06b-00d2-4ff9-b0e0-6e4e97d44b87
 index: y
 internal: n
 snippet: y

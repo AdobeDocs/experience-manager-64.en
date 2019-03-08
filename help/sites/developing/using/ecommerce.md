@@ -3,12 +3,12 @@ title: eCommerce
 seo-title: eCommerce
 description: The integration framework includes an integration layer with an API
 seo-description: The integration framework includes an integration layer with an API
-uuid: c532b66b-680d-45a0-aebb-a5b627482667
+uuid: cc91ac95-df29-4b4b-9c73-864172e35f90
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: platform
-discoiquuid: 33558a96-009d-4b32-8093-9652c4092c46
+discoiquuid: 5d024e3d-ef4b-4dd2-bd7c-7c1f6927a09e
 index: y
 internal: n
 snippet: y
@@ -42,7 +42,7 @@ The eCommerce API is provided by the packages:
 
 `com.adobe.cq.commerce.*`
 
-See the [API documentation](/sites/developing/using/reference-materials/javadoc/index) for further information.
+See the [API documentation](/sites/developing/using/reference-materials/javadoc/index.md) for further information.
 
 >[!NOTE]
 >

@@ -3,11 +3,11 @@ title: Writing custom Submit action for adaptive forms
 seo-title: Writing custom Submit action for adaptive forms
 description: AEM Forms lets you create custom Submit action for Adaptive forms. This article describes the procedure to add custom Submit action for Adaptive forms.
 seo-description: AEM Forms lets you create custom Submit action for Adaptive forms. This article describes the procedure to add custom Submit action for Adaptive forms.
-uuid: df9e82a2-bfbe-492b-8178-165a54cb92da
+uuid: e20bb31f-041f-421d-a54b-5e9f7483f594
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: customization
-discoiquuid: ac9bf17d-5e3e-46d8-b495-daabbf48cbd7
+discoiquuid: 24a59efd-c68e-4ea4-baaf-b18f051f9ece
 index: y
 internal: n
 snippet: y

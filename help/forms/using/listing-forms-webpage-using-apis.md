@@ -3,11 +3,11 @@ title: Listing forms on a web page using APIs
 seo-title: Listing forms on a web page using APIs
 description: Programmatically query Forms Manager to retrieve a filtered list of forms and display on your own web pages.
 seo-description: Programmatically query Forms Manager to retrieve a filtered list of forms and display on your own web pages.
-uuid: 5fe975de-d612-4306-bcdf-571700225b4f
+uuid: 20ccca07-6848-474a-ae90-667875e6986d
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: publish
-discoiquuid: 0760dc78-d043-4e26-868a-539b8c3d9f16
+discoiquuid: d1b959a7-2f01-4965-9b68-d5e0523cfd02
 index: y
 internal: n
 snippet: y

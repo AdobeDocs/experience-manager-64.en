@@ -3,12 +3,12 @@ title: Endpoint Registry Java API QuickStart(SOAP)
 seo-title: Endpoint Registry Java API QuickStart(SOAP)
 description: null
 seo-description: null
-uuid: bd508d00-215d-4d9b-9619-b8e0732bf976
+uuid: ff481c1c-40c9-4a12-bbee-8792821f163c
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
-discoiquuid: 28ffbd8b-e32a-4a1c-941f-6fa66a5397a3
+discoiquuid: 3bc620b3-359f-45e6-a77d-b007cb269f51
 index: y
 internal: n
 snippet: y
@@ -18,33 +18,33 @@ snippet: y
 
 Java API Quick Start(SOAP) is available for the Endpoint Registry.
 
-[QuickStart: Adding an EJB endpoint using the Java API](endpoint-registry-java-api-quick#quickstart_adding_an_ejb_endpoint_using_the_java_api)
+[QuickStart: Adding an EJB endpoint using the Java API](endpoint-registry-java-api-quick.md#quickstart_adding_an_ejb_endpoint_using_the_java_api)
 
-[QuickStart: Adding a SOAP endpoint using the Java API](endpoint-registry-java-api-quick#quickstart_adding_a_soap_endpoint_using_the_java_api)
+[QuickStart: Adding a SOAP endpoint using the Java API](endpoint-registry-java-api-quick.md#quickstart_adding_a_soap_endpoint_using_the_java_api)
 
-[QuickStart: Adding a Watched Folder endpoint using the Java API](endpoint-registry-java-api-quick#quickstart_adding_a_watched_folder_endpoint_using_the_java_api)
+[QuickStart: Adding a Watched Folder endpoint using the Java API](endpoint-registry-java-api-quick.md#quickstart_adding_a_watched_folder_endpoint_using_the_java_api)
 
-[QuickStart: Adding an Email endpoint using the Java API](endpoint-registry-java-api-quick#quickstart_adding_an_email_endpoint_using_the_java_api)
+[QuickStart: Adding an Email endpoint using the Java API](endpoint-registry-java-api-quick.md#quickstart_adding_an_email_endpoint_using_the_java_api)
 
-[QuickStart: Adding a Remoting endpoint using the Java API](endpoint-registry-java-api-quick#quickstart_adding_a_remoting_endpoint_using_the_java_api)
+[QuickStart: Adding a Remoting endpoint using the Java API](endpoint-registry-java-api-quick.md#quickstart_adding_a_remoting_endpoint_using_the_java_api)
 
-[QuickStart: Adding a TaskManager endpoint using the Java API](endpoint-registry-java-api-quick#quickstart_adding_a_taskmanager_endpoint_using_the_java_api)
+[QuickStart: Adding a TaskManager endpoint using the Java API](endpoint-registry-java-api-quick.md#quickstart_adding_a_taskmanager_endpoint_using_the_java_api)
 
-[QuickStart: Modifying an endpoint using the Java API](endpoint-registry-java-api-quick#quickstart_modifying_an_endpoint_using_the_java_api)
+[QuickStart: Modifying an endpoint using the Java API](endpoint-registry-java-api-quick.md#quickstart_modifying_an_endpoint_using_the_java_api)
 
-[QuickStart: Removing an endpoint using the Java API](endpoint-registry-java-api-quick#quickstart_removing_an_endpoint_using_the_java_api)
+[QuickStart: Removing an endpoint using the Java API](endpoint-registry-java-api-quick.md#quickstart_removing_an_endpoint_using_the_java_api)
 
-[QuickStart: Retrieving endpoint connector information using the Java API](endpoint-registry-java-api-quick#quickstart_retrieving_endpoint_connector_information_using_the_java_api)
+[QuickStart: Retrieving endpoint connector information using the Java API](endpoint-registry-java-api-quick.md#quickstart_retrieving_endpoint_connector_information_using_the_java_api)
 
 AEM Forms operations can be performed using the AEM Forms strongly-typed API and the connection mode should be set to SOAP.
 
-***Note**: Quick start located in Programming with AEM forms are based on the Forms if you are using another operating system, such as Unix, replace windows specific paths with paths supported by the applicable operating system. Likewise, if you are using another J2EE application server, then ensure that you specify valid connection properties. (See [Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties).)*
+***Note**: Quick start located in Programming with AEM forms are based on the Forms if you are using another operating system, such as Unix, replace windows specific paths with paths supported by the applicable operating system. Likewise, if you are using another J2EE application server, then ensure that you specify valid connection properties. (See [Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties).)*
 
 ***Note**: You cannot work with endpoints by using a web service. *
 
 ## QuickStart: Adding an EJB endpoint using the Java API {#quickstart-adding-an-ejb-endpoint-using-the-java-api}
 
-The following Java code example adds an EJB endpoint to a service named *MyApplication/EncryptDocument*. (See [Adding EJB Endpoints](/programming-with-aem-forms/programmatically-endpoints#adding_ejb_endpoints).)
+The following Java code example adds an EJB endpoint to a service named *MyApplication/EncryptDocument*. (See [Adding EJB Endpoints](/programming-with-aem-forms/programmatically-endpoints.md#adding_ejb_endpoints).)
 
 ```as3
  /* 
@@ -143,7 +143,7 @@ The following Java code example adds an EJB endpoint to a service named *MyAppli
 
 ## QuickStart: Adding a SOAP endpoint using the Java API {#quickstart-adding-a-soap-endpoint-using-the-java-api}
 
-The following Java code example adds a SOAP endpoint to a service named *MyApplication/EncryptDocument*. (See [Adding SOAP Endpoints](/programming-with-aem-forms/programmatically-endpoints#adding_soap_endpoints).)
+The following Java code example adds a SOAP endpoint to a service named *MyApplication/EncryptDocument*. (See [Adding SOAP Endpoints](/programming-with-aem-forms/programmatically-endpoints.md#adding_soap_endpoints).)
 
 ```as3
  /* 
@@ -243,11 +243,11 @@ The following Java code example adds a SOAP endpoint to a service named *MyAppli
 
 ## QuickStart: Adding a Watched Folder endpoint using the Java API {#quickstart-adding-a-watched-folder-endpoint-using-the-java-api}
 
-The following Java code example adds a Watched Folder endpoint to a service named *MyApplication/EncryptDocument*. (See [Adding Watched Folder Endpoints](/programming-with-aem-forms/programmatically-endpoints#adding_watched_folder_endpoints).)
+The following Java code example adds a Watched Folder endpoint to a service named *MyApplication/EncryptDocument*. (See [Adding Watched Folder Endpoints](/programming-with-aem-forms/programmatically-endpoints.md#adding_watched_folder_endpoints).)
 
 >[!NOTE]
 >
->You must include the WatchedFolderEndpointConfigConstants.java file in your project to compile and run the following quick start. (See [Watched folder configuration values constant file](/programming-with-aem-forms/programmatically-endpoints#watched_folder_configuration_values_constant_file).)
+>You must include the WatchedFolderEndpointConfigConstants.java file in your project to compile and run the following quick start. (See [Watched folder configuration values constant file](/programming-with-aem-forms/programmatically-endpoints.md#watched_folder_configuration_values_constant_file).)
 
 ```as3
  /* 
@@ -378,11 +378,11 @@ The following Java code example adds a Watched Folder endpoint to a service name
 
 ## QuickStart: Adding an Email endpoint using the Java API {#quickstart-adding-an-email-endpoint-using-the-java-api}
 
-The following Java code example adds an Email endpoint to a service named *MyApplication/EncryptDocumen*t. (See [Adding Email Endpoints](/programming-with-aem-forms/programmatically-endpoints#adding_email_endpoints).)
+The following Java code example adds an Email endpoint to a service named *MyApplication/EncryptDocumen*t. (See [Adding Email Endpoints](/programming-with-aem-forms/programmatically-endpoints.md#adding_email_endpoints).)
 
 >[!NOTE]
 >
->You must include the EmailEndpointConfigConstants.java file in your project to compile and run the following quick start. (See [Email configuration values constant file](/programming-with-aem-forms/programmatically-endpoints#email_configuration_values_constant_file).)
+>You must include the EmailEndpointConfigConstants.java file in your project to compile and run the following quick start. (See [Email configuration values constant file](/programming-with-aem-forms/programmatically-endpoints.md#email_configuration_values_constant_file).)
 
 ```as3
  /* 
@@ -521,7 +521,7 @@ The following Java code example adds an Email endpoint to a service named *MyApp
 
 ## QuickStart: Adding a Remoting endpoint using the Java API {#quickstart-adding-a-remoting-endpoint-using-the-java-api}
 
-The following Java code example adds a Remoting endpoint to a service named *MyApplication/EncryptDocument*. (See [Adding Remoting Endpoints](/programming-with-aem-forms/programmatically-endpoints#adding_remoting_endpoints).)
+The following Java code example adds a Remoting endpoint to a service named *MyApplication/EncryptDocument*. (See [Adding Remoting Endpoints](/programming-with-aem-forms/programmatically-endpoints.md#adding_remoting_endpoints).)
 
 ```as3
  /* 
@@ -626,7 +626,7 @@ The following Java code example adds a Remoting endpoint to a service named *MyA
 
 ## QuickStart: Adding a TaskManager endpoint using the Java API {#quickstart-adding-a-taskmanager-endpoint-using-the-java-api}
 
-The following Java code example adds a TaskManager endpoint to a service named *MyApplication/EncryptDocument*. Notice that the name of the category is *EncryptProcess*. (See [Adding TaskManager Endpoints](/programming-with-aem-forms/programmatically-endpoints#adding_taskmanager_endpoints).)
+The following Java code example adds a TaskManager endpoint to a service named *MyApplication/EncryptDocument*. Notice that the name of the category is *EncryptProcess*. (See [Adding TaskManager Endpoints](/programming-with-aem-forms/programmatically-endpoints.md#adding_taskmanager_endpoints).)
 
 ```as3
  /* 
@@ -735,7 +735,7 @@ The following Java code example adds a TaskManager endpoint to a service named *
 
 ## QuickStart: Modifying an endpoint using the Java API {#quickstart-modifying-an-endpoint-using-the-java-api}
 
-The following Java code example modifies a Watched Folder endpoint.The endpoint is for the *MyApplication/EncryptDocument* process. The watched folder is changed to `C:\NewWatchedFolder`. (See [Modifying Endpoints](/programming-with-aem-forms/programmatically-endpoints#modifying_endpoints).)
+The following Java code example modifies a Watched Folder endpoint.The endpoint is for the *MyApplication/EncryptDocument* process. The watched folder is changed to `C:\NewWatchedFolder`. (See [Modifying Endpoints](/programming-with-aem-forms/programmatically-endpoints.md#modifying_endpoints).)
 
 ```as3
  /* 
@@ -885,7 +885,7 @@ The following Java code example modifies a Watched Folder endpoint.The endpoint 
 
 ## QuickStart: Removing an endpoint using the Java API {#quickstart-removing-an-endpoint-using-the-java-api}
 
-The following Java code removes an EJB endpoint from a service named *MyApplication/EncryptDocument*. (See [Removing Endpoints](/programming-with-aem-forms/programmatically-endpoints#removing_endpoints).)
+The following Java code removes an EJB endpoint from a service named *MyApplication/EncryptDocument*. (See [Removing Endpoints](/programming-with-aem-forms/programmatically-endpoints.md#removing_endpoints).)
 
 ```as3
  /* 
@@ -1004,7 +1004,7 @@ The following Java code removes an EJB endpoint from a service named *MyApplicat
 
 ## QuickStart: Retrieving endpoint connector information using the Java API {#quickstart-retrieving-endpoint-connector-information-using-the-java-api}
 
-The following Java code retrieves information about a Watched Folder endpoint. Information about each configuration value is retrieved and displayed. This code list specifies whether each configuration value is required or optional. In addition, the name and value for each configuration value is displayed. (See [Retrieving Endpoint Connector Information](/programming-with-aem-forms/programmatically-endpoints#retrieving_endpoint_connector_information).)
+The following Java code retrieves information about a Watched Folder endpoint. Information about each configuration value is retrieved and displayed. This code list specifies whether each configuration value is required or optional. In addition, the name and value for each configuration value is displayed. (See [Retrieving Endpoint Connector Information](/programming-with-aem-forms/programmatically-endpoints.md#retrieving_endpoint_connector_information).)
 
 ```as3
  /* 

@@ -3,12 +3,12 @@ title: Adobe Campaign Components
 seo-title: Adobe Campaign Components
 description: When you integrate with Adobe Campaign, you have components available for when working with newsletters and with forms.
 seo-description: When you integrate with Adobe Campaign, you have components available for when working with newsletters and with forms.
-uuid: 51061c21-f99a-46e2-9ee9-2060ed879452
+uuid: 0e8c00ce-5385-4989-9f6f-b9f5b0665662
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: 7aa55a0d-e699-4330-a6f9-83d0e6f25fc2
+discoiquuid: f3dc4670-6fc2-4265-89b1-72254de71377
 index: y
 internal: n
 snippet: y
@@ -195,7 +195,7 @@ The following example shows a Text & Image (Campaign) component being displayed.
 
 ### Text & Personalization (Campaign) {#text-personalization-campaign}
 
-The Text & Personalization (Campaign) component lets you enter a text block using a WYSIWYG editor, with functionality provided by the [Rich Text editor](../../../sites/authoring/using/rich-text-editor.md). In addition, this component lets you use context fields and personalization blocks available from Adobe Campaign; also see [Inserting Personalization](../../../sites/classic-ui-authoring/using/classic-personalization-ac-campaign.md#insertingpersonalization).
+The Text & Personalization (Campaign) component lets you enter a text block using a WYSIWYG editor, with functionality provided by the [Rich Text editor](../../../sites/authoring/using/rich-text-editor.md). In addition, this component lets you use context fields and personalization blocks available from Adobe Campaign; also see [Inserting Personalization](../../../sites/classic-ui-authoring/using/classic-personalization-ac-campaign.md#inserting-personalization).
 
 The selection of icons allow you to format your text, including font characteristics, alignment, links, lists and indentation.
 
@@ -213,7 +213,7 @@ You add the text and context fields or personalization blocks to create the cont
 
 You use Adobe Campaign components to create a form that users fill out to either subscribe to a newsletter, unsubscribe from a newsletter, or update their user profiles. See [Creating Adobe Campaign Forms](../../../sites/classic-ui-authoring/using/classic-personalization-ac-forms.md) for more information.
 
-Each component field can be linked to an Adobe Campaign database field. The available fields differ according to the type of data they contain as described in the section [Components and Data Type](#componentsanddatatype). If you extend your recipient schema in Adobe Campaign, the new fields will be available in the components whose data types match.
+Each component field can be linked to an Adobe Campaign database field. The available fields differ according to the type of data they contain as described in the section [Components and Data Type](#components-and-data-type). If you extend your recipient schema in Adobe Campaign, the new fields will be available in the components whose data types match.
 
 When you open a form that is configured to integrate with Adobe Campaign, you see the following components in the **Adobe Campaign **section:
 
@@ -314,7 +314,7 @@ You can configure the following:
 
 The Checkbox (Campaign) component lets the user modify Adobe Campaign profile fields that are of boolean data type. For example, you could have a Checkbox (Campaign) component that lets the recipient specify that he or she does not want to be contacted via any channel.
 
-You can [configure settings common to most Adobe Campaign components](#settingscommontomostcomponents) in the Checkbox (Campaign) component.
+You can [configure settings common to most Adobe Campaign components](#settings-common-to-most-components) in the Checkbox (Campaign) component.
 
 The following example shows a Checkbox (Campaign) component being displayed.
 
@@ -324,7 +324,7 @@ The following example shows a Checkbox (Campaign) component being displayed.
 
 Use the date field to allow recipients to a date; for example you may want the recipients to specify their birth dates. The date format matches the format used in your Adobe Campaign instance.
 
-In addition to [settings common to most Adobe Campaign components](#settingscommontomostcomponents), you can configure the following:
+In addition to [settings common to most Adobe Campaign components](#settings-common-to-most-components), you can configure the following:
 
 * **Constraints - Constraint **drop-down  
   You can select - **None** or **Date - **to add the constraint of a date or no constraint. If you select date, the answer users enter into the field must be in a date format. 
@@ -382,7 +382,7 @@ The following example shows an Hidden Reconciliation Key (Campaign) component be
 
 Use the numeric field to allow recipients to enter numbers, for example their age.
 
-In addition to [settings common to most Adobe Campaign components](#settingscommontomostcomponents), you can configure the following:
+In addition to [settings common to most Adobe Campaign components](#settings-common-to-most-components), you can configure the following:
 
 * **Constraints - Constraint **drop-down  
   You can select - **None** or **Numeric - **to add the constraint of either a number or no constraint. If you select number, the answer users enter into the field must be numeric. 
@@ -400,7 +400,7 @@ The following example shows a Numeric Field (Campaign) component with the width 
 
 This drop-down list lets you select an option; for example, the gender or status of a recipient.
 
-You can [configure settings common to most Adobe Campaign components](#settingscommontomostcomponents) in the Option Field (Campaign) component. To populate the drop-down list, select the appropriate field in the Adobe Campaign personalization fields by clicking or tapping the Adobe Campaign symbol and navigating to the field.
+You can [configure settings common to most Adobe Campaign components](#settings-common-to-most-components) in the Option Field (Campaign) component. To populate the drop-down list, select the appropriate field in the Adobe Campaign personalization fields by clicking or tapping the Adobe Campaign symbol and navigating to the field.
 
 The following example shows an Option Field (Campaign) component being displayed.
 
@@ -416,7 +416,7 @@ When added to a form, this component displays all available subscriptions as che
 >
 >The component does not check what services the user is already subscribed to/unsubscribed from.
 
-You can [configure settings common to most Adobe Campaign components](#settingscommontomostcomponents) in the Subscriptions Checklist (Campaign) component. (There are no Adobe Campaign configurations available for this component.)
+You can [configure settings common to most Adobe Campaign components](#settings-common-to-most-components) in the Subscriptions Checklist (Campaign) component. (There are no Adobe Campaign configurations available for this component.)
 
 The following example shows a Subscriptions Checklist (Campaign) component being displayed.
 
@@ -426,7 +426,7 @@ The following example shows a Subscriptions Checklist (Campaign) component being
 
 The Text Field (Campaign) component that lets you enter string type data, such as a first name, last name, address, email address, and so on.
 
-In addition to [settings common to most Adobe Campaign components](#settingscommontomostcomponents), you can configure the following:
+In addition to [settings common to most Adobe Campaign components](#settings-common-to-most-components), you can configure the following:
 
 * **Constraints - Constraint **drop-down  
   You can select - **None,** **Email, **or** Name (no umlauts) - **to add the constraint of either an email address, name, or no constraint. If you select email, the answer users enter into the field must be an email address. If you select name, it must be a name (umlauts are not allowed). 

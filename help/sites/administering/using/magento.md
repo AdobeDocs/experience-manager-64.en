@@ -3,12 +3,12 @@ title: Magento
 seo-title: Magento
 description: Learn how to use AEM with Magento.
 seo-description: Learn how to use AEM with Magento.
-uuid: 3d34288c-beb5-4539-acc3-88824ae64479
+uuid: f3377316-7292-4c14-8ed0-ac181b3d4f4c
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: e-commerce
 content-type: reference
-discoiquuid: e603e67a-8365-48de-ae69-50a2adec8d85
+discoiquuid: 03d5c142-9caf-4e78-938b-7c94dff6c9b1
 pagetitle: Administering Magento
 index: y
 internal: n
@@ -24,7 +24,7 @@ Make sure you select **Magento Registration** as the action type. [](../../../si
 
 ## Product/Catalog Import {#product-catalog-import}
 
-You can re-import catalog blueprint and products from your Magento server by using the [standard blueprint import procedure](../../../sites/administering/using/generic.md#importingproducts).  
+You can re-import catalog blueprint and products from your Magento server by using the [standard blueprint import procedure](../../../sites/administering/using/generic.md#importing-products).  
 You just need to select the **Magento2** importer.
 
 ![](assets/chlimage_1-42.jpeg) 

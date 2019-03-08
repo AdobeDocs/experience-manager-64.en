@@ -3,12 +3,12 @@ title: hybris
 seo-title: hybris
 description: Learn how to use AEM with hybris.
 seo-description: Learn how to use AEM with hybris.
-uuid: 850262b2-59ac-4c5f-945d-8593f9c4ede7
+uuid: ddfc07ff-2800-47fa-9c7e-16afdd0be89c
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: e-commerce
 content-type: reference
-discoiquuid: f43d5bfb-9932-4e9a-b237-94b3257785ae
+discoiquuid: e7a50b13-1a6c-4e78-9c73-8fb49aab9fee
 pagetitle: Administering hybris
 index: y
 internal: n
@@ -19,12 +19,12 @@ snippet: y
 
 After installation you can configure your instance:
 
-1. [Configure the Facetted Search for Geometrixx Outdoors](#configurethefacettedsearchforgeometrixxoutdoors).
-1. [Configure the Catalog Version](#configurethecatalogversion).
-1. [Configure the Import Structure](#configuretheimportstructure).
-1. [Configure the Product Attributes to Load](#configuretheproductattributestoload).
-1. [Importing the Product Data](#importingtheproductdata).
-1. [Configure the Catalog Importer](#configurethecatalogimporter).
+1. [Configure the Facetted Search for Geometrixx Outdoors](#configure-the-facetted-search-for-geometrixx-outdoors).
+1. [Configure the Catalog Version](#configure-the-catalog-version).
+1. [Configure the Import Structure](#configure-the-import-structure).
+1. [Configure the Product Attributes to Load](#configure-the-product-attributes-to-load).
+1. [Importing the Product Data](#importing-the-product-data).
+1. [Configure the Catalog Importer](#configure-the-catalog-importer).
 1. Use the [importer to import the catalog](#catalogimporter) into a specific location in AEM.
 
 ## Configure the Facetted Search for Geometrixx Outdoors {#configure-the-facetted-search-for-geometrixx-outdoors}
@@ -187,9 +187,9 @@ The response parser can be configured to define the properties and attributes to
 
 There are a variety of ways to import the product data. The product data can be imported when initially setting up the environment, or after changes have been made in the hybris data:
 
-* [Full Import](#fullimport)
-* [Incremental Import](#incrementalimport)
-* [Express Update](#expressupdate)
+* [Full Import](#full-import)
+* [Incremental Import](#incremental-import)
+* [Express Update](#express-update)
 
 Actual product information imported from hybris is held in the repository under:
 
@@ -344,7 +344,7 @@ The following information has to be provided:
 
 To remove one, or more, products from the catalog:
 
-1. [Configure the for OSGi service](../../../sites/deploying/using/configuring-osgi.md) **Day CQ Commerce Hybris Catalog Importer**; see also [Configure the Catalog Importer](#configurethecatalogimporter).
+1. [Configure the for OSGi service](../../../sites/deploying/using/configuring-osgi.md) **Day CQ Commerce Hybris Catalog Importer**; see also [Configure the Catalog Importer](#configure-the-catalog-importer).
 
    Activate the following properties:
 
@@ -355,7 +355,7 @@ To remove one, or more, products from the catalog:
    >
    >When working with AEM there are several methods of managing the configuration settings for such services; see [Configuring OSGi](../../../sites/deploying/using/configuring-osgi.md) for full details. Also see the console for a full list of configurable parameters and their defaults.
 
-1. Initialize the importer by performing two incremental updates (see [Catalog Import](#catalogimport)):
+1. Initialize the importer by performing two incremental updates (see [Catalog Import](#catalog-import)):
 
     * The first time run result in a set of changed products - indicated in the log list.  
     * For the second time no products should be updated.
@@ -379,8 +379,8 @@ To remove one, or more, products from the catalog:
     * Search for `Cajamara`
     * Select this product and change the approval status to `unapproved`
 
-1. Perform another incremental update (see [Catalog Import](#catalogimport)). The log will list the deleted product.
-1. [Rollout](../../../sites/administering/using/generic.md#rollingoutacatalog) the appropriate catalog. The product and product page will have been removed from within AEM.
+1. Perform another incremental update (see [Catalog Import](#catalog-import)). The log will list the deleted product.
+1. [Rollout](../../../sites/administering/using/generic.md#rolling-out-a-catalog) the appropriate catalog. The product and product page will have been removed from within AEM.
 
    For example:
 
@@ -413,7 +413,7 @@ To add order history to the [client context](../../../sites/developing/using/cli
     
     * Navigate directly to [http://localhost:4502/etc/clientcontext/default/content.html](http://localhost:4502/etc/clientcontext/default/content.html)
 
-1. [Add the **Order History** component](../../../sites/administering/using/client-context.md#addingapropertycomponent) to the **Shopping Car**t component of the client context.
+1. [Add the **Order History** component](../../../sites/administering/using/client-context.md#adding-a-property-component) to the **Shopping Car**t component of the client context.
 1. You can confirm that the client context is showing details of your order history. For example:
 
     1. Open the [client context](../../../sites/administering/using/client-context.md).

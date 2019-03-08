@@ -4,11 +4,11 @@ seo-title: Scaling
 description: null
 seo-description: null
 page-status-flag: de-activated
-uuid: 55fca2f8-f335-46ac-b985-6e56895b407a
+uuid: 2614d595-879e-49de-b7cf-59033a9c8063
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
-discoiquuid: 9086b990-48ea-4402-9d24-78c1de42aa80
+discoiquuid: db44e2d0-a067-4738-ac0e-d8941255e235
 redirecttarget: /content/help/en/experience-manager/6-4/sites/deploying/using/recommended-deploys.html
 index: y
 internal: n
@@ -35,7 +35,7 @@ Note that the capacity numbers mentioned in this section are meant only for purp
 
 ## Prerequisites {#prerequisites}
 
-You should be familiar with the general overview and basic concepts of CQ as described in [Basic Concepts](/content/docs/en/aem/6-1/deploy#Basic Concepts), in particular:
+You should be familiar with the general overview and basic concepts of CQ as described in [Basic Concepts](/content/docs/en/aem/6-1/deploy.md#basic concepts), in particular:
 
 * JCR Content Repository
 * Author instance
@@ -65,7 +65,7 @@ In CQ 5.6.1 **Author Offload** is the preferred solution. It consists of the fol
 
 * **Separate Processing and Editing Instances**: Install a *processing* author instance, separate from the normal *editing* author instance.
 
-* **Offload the Processing Step**: Asset ingestion is initiated by a user on the editing author. During the asset ingestion workflow, the step that does the actual processing is offloaded to the processing instance. This ensures that the high load task does not interrupt the normal everyday authoring activity, which still continues on the editing instance. See [Offloading Jobs](/content/docs/en/aem/6-1/deploy/configuring/offloading).
+* **Offload the Processing Step**: Asset ingestion is initiated by a user on the editing author. During the asset ingestion workflow, the step that does the actual processing is offloaded to the processing instance. This ensures that the high load task does not interrupt the normal everyday authoring activity, which still continues on the editing instance. See [Offloading Jobs](/content/docs/en/aem/6-1/deploy/configuring/offloading.md).
 
 * **Use Binaryless Replication and Shared Data Store**: Configure a Shared Data Store between the processing and editing instances (and potentially, the publish instance). Configure binaryless replication between the processing instance and the editing instance (and between the editing instance and the publish instance, if it too shares the same data store). Once ingestion of an asset is complete and its various renditions have been created, the workflow should replicate the resulting assets back to the editing instance.  
   
@@ -185,7 +185,7 @@ Alernatively, you can create `cq:Page` nodes but turn off the heavy-wight listen
 
 #### No NAS {#no-nas}
 
-The content repository consists of a number of storage elements, most importantly the main content store (also called the persistence manger store or the fine-grained content store) and the data store (See [Persistence Managers and Other Storage Elements](/content/docs/en/aem/6-1/deploy/upgrade/persistence-managers)).
+The content repository consists of a number of storage elements, most importantly the main content store (also called the persistence manger store or the fine-grained content store) and the data store (See [Persistence Managers and Other Storage Elements](/content/docs/en/aem/6-1/deploy/upgrade/persistence-managers.md)).
 
 The main content store holds the repository hierarchy of node and properties. The values of most properties are stored inline within the main content store, however, large binary properties are stored in a separate are, the data store, with a reference to the binary data held in the hierarchy.
 
@@ -296,14 +296,14 @@ Caching goes hand in hand with optimizing your deployment and custom development
 
 There are many factors which influence your instances' performances, which are documented elsewhere in greater depth:
 
-* [Performance Optimization](/content/docs/en/aem/6-1/deploy/configuring/performance) (AEM Documentation)
-* [CQ Development - Guidelines and Best Practices](/content/docs/en/aem/6-1/develop/the-basics/dev-guidelines-bestpractices)
+* [Performance Optimization](/content/docs/en/aem/6-1/deploy/configuring/performance.md) (AEM Documentation)
+* [CQ Development - Guidelines and Best Practices](/content/docs/en/aem/6-1/develop/the-basics/dev-guidelines-bestpractices.md)
 * [Performance Tuning Tips](http://helpx.adobe.com/cq/kb/performancetuningtips.html) (Knowledge Base Article)
-* [DAM Performance Guide](/content/docs/en/aem/6-1/deploy/configuring/performance/assets-performance-sizing)
+* [DAM Performance Guide](/content/docs/en/aem/6-1/deploy/configuring/performance/assets-performance-sizing.md)
 
 Many aspects are also part of general web development best practices and not particular to AEM deployments, such as
 
-* reducing number and heaviness of requests by minifying and concatenating JavaScript in CSS (in AEM, the [Client Library Manager](/content/docs/en/aem/6-1/develop/the-basics/clientlibs) helps with this)
+* reducing number and heaviness of requests by minifying and concatenating JavaScript in CSS (in AEM, the [Client Library Manager](/content/docs/en/aem/6-1/develop/the-basics/clientlibs.md) helps with this)
 * using CSS sprites
 * sending deflated responses
 

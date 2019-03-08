@@ -3,13 +3,13 @@ title: Optimizing the Performance of theForms Service
 seo-title: Optimizing the Performance of theForms Service
 description: null
 seo-description: null
-uuid: 42eb2ac1-172d-4cd1-a20f-46888c3f4ec3
+uuid: c00dd735-c40c-466a-8b82-bcb2a91e6b36
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/rendering_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: c2c9a9fd-a773-46cf-b061-48e868e13f72
+discoiquuid: 97594f8f-f53f-4028-98d6-72e86f2626d4
 index: y
 internal: n
 snippet: y
@@ -53,7 +53,7 @@ You can set the following performance run-time options to improve the performanc
 * **Linearized PDF**: A linearized PDF file is organized to enable efficient incremental access in a network environment. The PDF file is valid PDF in all respects, and is compatible with all existing viewers and other PDF applications. That is, a linearized PDF can be viewed while it is still being downloaded.
 * This option does not improve performance when a PDF form is rendered on the client. 
 * **GuideRSL option**: Enables form Guide (deprecated) generation using run-time shared libraries. This means the first request will download a smaller SWF file, plus larger shared-libraries that are stored in the browser cache. For more information, see RSL in the Flex documentation. 
-* You can also improve the performance of the Forms service by rendering a form on the client. (See [Rendering Forms at the Client](/programming-with-aem-forms/rendering-forms-rendering-forms rendering-forms-client-rendering-forms#rendering_forms_at_the_client).)
+* You can also improve the performance of the Forms service by rendering a form on the client. (See [Rendering Forms at the Client](/programming-with-aem-forms/rendering-forms-rendering-forms rendering-forms-client-rendering-forms.md#rendering_forms_at_the_client).)
 
 **Render the form**
 
@@ -65,9 +65,9 @@ After the Forms service renders a form, it returns a form data stream that you m
 
 **See also**
 
-[Optimize the performance using the Java API](/programming-with-aem-forms/rendering-forms-rendering-forms optimizing-performance-forms-service-optimizing optimizing-performance-forms-service-optimizing#optimize_the_performance_using_the_java_api)
+[Optimize the performance using the Java API](/programming-with-aem-forms/rendering-forms-rendering-forms optimizing-performance-forms-service-optimizing optimizing-performance-forms-service-optimizing.md#optimize_the_performance_using_the_java_api)
 
-[Optimize the performance using the web service API](/programming-with-aem-forms/rendering-forms-rendering-forms optimizing-performance-forms-service-optimizing optimizing-performance-forms-service-optimizing#optimize_the_performance_using_the_web_service_api)
+[Optimize the performance using the web service API](/programming-with-aem-forms/rendering-forms-rendering-forms optimizing-performance-forms-service-optimizing optimizing-performance-forms-service-optimizing.md#optimize_the_performance_using_the_web_service_api)
 
 [Including AEM Forms Java library files](#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
 
@@ -75,11 +75,11 @@ After the Forms service renders a form, it returns a form data stream that you m
 
 [Forms Service API Quick Starts](#unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7af6.2)
 
-[Rendering Interactive PDF Forms](/programming-with-aem-forms/rendering-forms-rendering-forms rendering-interactive-pdf-forms-rendering#rendering_interactive_pdf_forms)
+[Rendering Interactive PDF Forms](/programming-with-aem-forms/rendering-forms-rendering-forms rendering-interactive-pdf-forms-rendering.md#rendering_interactive_pdf_forms)
 
-[Rendering Forms as HTML](/programming-with-aem-forms/rendering-forms-rendering-forms rendering-forms-html-rendering-forms rendering-forms-html-rendering-forms#rendering_forms_as_html)
+[Rendering Forms as HTML](/programming-with-aem-forms/rendering-forms-rendering-forms rendering-forms-html-rendering-forms rendering-forms-html-rendering-forms.md#rendering_forms_as_html)
 
-[Creating Web Applications that Renders Forms](/programming-with-aem-forms/rendering-forms-rendering-forms creating-web-applications-renders-forms#creating_web_applications_that_renders_forms)
+[Creating Web Applications that Renders Forms](/programming-with-aem-forms/rendering-forms-rendering-forms creating-web-applications-renders-forms.md#creating_web_applications_that_renders_forms)
 
 ### Optimize the performance using the Java API {#optimize-the-performance-using-the-java-api}
 
@@ -122,7 +122,7 @@ Render a form with optimized performance by using the Forms API (Java):
 
 **See also**
 
-[Optimizing the Performance of the Forms Service](/programming-with-aem-forms/rendering-forms-rendering-forms optimizing-performance-forms-service-optimizing#optimizing_the_performance_of_the_forms_service)
+[Optimizing the Performance of the Forms Service](/programming-with-aem-forms/rendering-forms-rendering-forms optimizing-performance-forms-service-optimizing.md#optimizing_the_performance_of_the_forms_service)
 
 [Quick Start (SOAP mode): Optimizing performance using the Java API](#unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7e1e.2)
 
@@ -176,7 +176,7 @@ Render a form with optimized performance by using the Forms API (web service):
 
 **See also**
 
-[Optimizing the Performance of the Forms Service](/programming-with-aem-forms/rendering-forms-rendering-forms optimizing-performance-forms-service-optimizing#optimizing_the_performance_of_the_forms_service)
+[Optimizing the Performance of the Forms Service](/programming-with-aem-forms/rendering-forms-rendering-forms optimizing-performance-forms-service-optimizing.md#optimizing_the_performance_of_the_forms_service)
 
 [Quick Start (Base64): Optimizing performance using the web service API](#unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7e1d.2)
 

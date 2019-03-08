@@ -3,12 +3,12 @@ title: Embedding the Video or Image Viewer on a Web Page
 seo-title: Embedding the Video or Image Viewer on a Web Page
 description: Learn how to embed dynamic media video or images on a web page
 seo-description: Learn how to embed dynamic media video or images on a web page
-uuid: 83b06e84-e5d3-41ea-ad9a-a3b3e5c53769
+uuid: 8e9ec599-6b41-4e8b-841b-722943c7f819
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: 4b99eb86-de26-46d6-bfeb-5e763503da5a
+discoiquuid: dae0b712-a73c-4aef-855e-21a7486d3693
 index: y
 internal: n
 snippet: y
@@ -30,9 +30,9 @@ See also [Delivering Optimized Images for a Responsive Site.](../../assets/using
 >
 >See [Publishing Assets](../../assets/using/publishing-dynamicmedia-assets.md).
 >
->See [Publishing Viewer Presets](../../assets/using/managing-viewer-presets.md#publishingviewerpresets).
+>See [Publishing Viewer Presets](../../assets/using/managing-viewer-presets.md#publishing-viewer-presets).
 >
->See [Publishing Image Presets](../../assets/using/managing-image-presets.md#publishingimagepresets).
+>See [Publishing Image Presets](../../assets/using/managing-image-presets.md#publishing-image-presets).
 
 To embed the video viewer or asset viewer on a web page:
 
@@ -42,9 +42,9 @@ To embed the video viewer or asset viewer on a web page:
 
    See [Publishing Assets.](../../assets/using/publishing-dynamicmedia-assets.md)
 
-   See [Publishing Viewer Presets](../../assets/using/managing-viewer-presets.md#publishingviewerpresets).
+   See [Publishing Viewer Presets](../../assets/using/managing-viewer-presets.md#publishing-viewer-presets).
 
-   See [Publishing Image Presets](../../assets/using/managing-image-presets.md#publishingimagepresets).
+   See [Publishing Image Presets](../../assets/using/managing-image-presets.md#publishing-image-presets).
 
 1. In the left rail, select the drop-down menu and click or tap **Viewers**. 
 1. In the left rail, click a viewer preset name. The viewer preset is applied to the asset.

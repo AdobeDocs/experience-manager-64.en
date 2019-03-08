@@ -3,12 +3,12 @@ title: Barcoded Forms Service Java APIQuick Start(SOAP)
 seo-title: Barcoded Forms Service Java APIQuick Start(SOAP)
 description: null
 seo-description: null
-uuid: c0606b53-b786-408b-a99e-0f1bbc78cf52
+uuid: e468a984-7766-448f-acb9-c6f6a79d72de
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
-discoiquuid: cb0e0b3c-5f96-4268-8ab3-20d4bafbe31a
+discoiquuid: 8e348251-16f2-4cd7-8814-5ab10bdfb4fe
 index: y
 internal: n
 snippet: y
@@ -18,15 +18,15 @@ snippet: y
 
 Java API Quick Start(SOAP) is available for the Barcoded Forms service:
 
-[Quick Start (SOAP mode): Decoding barcoded form data using the Java API](barcoded-forms-service-java-api#quick_start_soap_mode_decoding_barcoded_form_data_using_the_java_api)
+[Quick Start (SOAP mode): Decoding barcoded form data using the Java API](barcoded-forms-service-java-api.md#quick_start_soap_mode_decoding_barcoded_form_data_using_the_java_api)
 
 AEM Forms operations can be performed using the AEM Forms strongly-typed API and the connection mode should be set to SOAP.
 
-***Note**: Quick Starts located in Programming with AEM Forms are based on the Forms Server being deployed on JBoss Application Server and the Microsoft Windows operating system. However, if you are using another operating system, such as UNIX, replace Windows-specific paths with paths that are supported by the applicable operating system. Likewise, if you are using another J2EE application server, ensure that you specify valid connection properties. (See [Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties).)*
+***Note**: Quick Starts located in Programming with AEM Forms are based on the Forms Server being deployed on JBoss Application Server and the Microsoft Windows operating system. However, if you are using another operating system, such as UNIX, replace Windows-specific paths with paths that are supported by the applicable operating system. Likewise, if you are using another J2EE application server, ensure that you specify valid connection properties. (See [Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties).)*
 
 ## Quick Start (SOAP mode): Decoding barcoded form data using the Java API {#quick-start-soap-mode-decoding-barcoded-form-data-using-the-java-api}
 
-The following Java code decodes form data that is located in a PDF form that is saved as Loan.pdf. The decoded data is saved as an XML file named extractedData.xml. This code example converts a `org.w3c.dom.Document` object into a `com.adobe.idp.Document` object. (See [Decoding Barcoded Form Data](/programming-with-aem-forms/barcoded-forms#decoding_barcoded_form_data).)
+The following Java code decodes form data that is located in a PDF form that is saved as Loan.pdf. The decoded data is saved as an XML file named extractedData.xml. This code example converts a `org.w3c.dom.Document` object into a `com.adobe.idp.Document` object. (See [Decoding Barcoded Form Data](/programming-with-aem-forms/barcoded-forms.md#decoding_barcoded_form_data).)
 
 ```as3
  /* 

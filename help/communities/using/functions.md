@@ -3,12 +3,12 @@ title: Community Functions
 seo-title: Community Functions
 description: Learn how to access the Community Functions console
 seo-description: Learn how to access the Community Functions console
-uuid: b566a009-5025-469d-8be4-c8b95331941f
+uuid: 81fe4993-0acf-4b3f-8f0c-dccf9a3d80cd
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: e0aa6953-5c3a-44fd-a999-0fdb4f6d60d2
+discoiquuid: 07345be3-36e2-4014-a90a-d5c712b59c85
 index: y
 internal: n
 snippet: y
@@ -44,7 +44,7 @@ A community site template provides the structure for a community site including 
 
 **Title **and **URL **are properties common to all community functions.
 
-When a community function is added to a community site template or added when [modifying](../../communities/using/sites-console.md#modifyingsiteproperties) the structure of a community site, the function's dialog opens so that the Title and URL may be configured.
+When a community function is added to a community site template or added when [modifying](../../communities/using/sites-console.md#modifying-site-properties) the structure of a community site, the function's dialog opens so that the Title and URL may be configured.
 
 #### Configuration Function Details {#configuration-function-details}
 
@@ -77,7 +77,7 @@ When added to a template, the following dialog opens :
 
 ![](assets/chlimage_1-382.png)
 
-* see [Title and URL Settings](#titleandurlsettings)
+* see [Title and URL Settings](#title-and-url-settings)
 * **Show "My Activities" view** 
   if checked, the Activities page will include a tab which filters activities based on those generated within the community by the current member. Default is checked.
 
@@ -89,11 +89,11 @@ When added to a template, the following dialog opens :
 
 ### Assignments Function {#assignments-function}
 
-The assignments function is the basic feature which defines a [community site for enablement](../../communities/using/overview.md#enablementcommunity). It allows for the assignment of enablement resources to community members. See also [Assignments Essentials](../../communities/using/essentials-assignments.md) for developers.
+The assignments function is the basic feature which defines a [community site for enablement](../../communities/using/overview.md#enablement-community). It allows for the assignment of enablement resources to community members. See also [Assignments Essentials](../../communities/using/essentials-assignments.md) for developers.
 
 This function is available as a feature of the [enablement add-on](../../communities/using/enablement.md). The enablement add-on requires additional licensing for use in a production environment.
 
-When added to a template, the only configuration is for the [Title and URL Settings](#titleandurlsettings).
+When added to a template, the only configuration is for the [Title and URL Settings](#title-and-url-settings).
 
 ### Blog Function {#blog-function}
 
@@ -103,9 +103,9 @@ When added to a template, the following dialog opens :
 
 ![](assets/chlimage_1-383.png)
 
-* see [Title and URL Settings](#titleandurlsettings)
+* see [Title and URL Settings](#title-and-url-settings)
 * **Allow Privileged Members** 
-  if checked, the blog will only allow privileged members to create articles by allowing selection of a [privileged members group](../../communities/using/users.md#privilegedmembersgroup). If not checked, all community members are allowed to create. Default is unchecked.
+  if checked, the blog will only allow privileged members to create articles by allowing selection of a [privileged members group](../../communities/using/users.md#privileged-members-group). If not checked, all community members are allowed to create. Default is unchecked.
 
 * **Allow File Uploads** 
   if checked, the blog will include the ability for members to upload files. Default is checked.
@@ -124,12 +124,12 @@ When added to a template, the following dialog opens :
 
 ![](assets/chlimage_1-384.png)
 
-* see [Title and URL Settings](#titleandurlsettings)
+* see [Title and URL Settings](#title-and-url-settings)
 * **Allow Pinning** 
   if checked, the forum will allow topic replies to be pinned to the beginning of the list of comments. Default is checked.
 
 * **Allow Privileged Members** 
-  if checked, the blog will only allow privileged members to create articles by allowing selection of a [privileged members group](../../communities/using/users.md#privilegedmembersgroup). If not checked, all community members are allowed to create. Default is unchecked.
+  if checked, the blog will only allow privileged members to create articles by allowing selection of a [privileged members group](../../communities/using/users.md#privileged-members-group). If not checked, all community members are allowed to create. Default is unchecked.
 
 * **Allow File Uploads** 
   if checked, the blog will include the ability for members to upload files. Default is checked.
@@ -142,15 +142,15 @@ When added to a template, the following dialog opens :
 
 ### Catalog Function {#catalog-function}
 
-The catalog function provides the ability for [enablement community](../../communities/using/overview.md#enablementcommunity) members to browse enablement resources which are not assigned to them. See [Tagging Enablement Resources](../../communities/using/tag-resources.md) and [Catalog Essentials](../../communities/using/catalog-developer-essentials.md) for developers.
+The catalog function provides the ability for [enablement community](../../communities/using/overview.md#enablement-community) members to browse enablement resources which are not assigned to them. See [Tagging Enablement Resources](../../communities/using/tag-resources.md) and [Catalog Essentials](../../communities/using/catalog-developer-essentials.md) for developers.
 
-All enablement resources and learning paths for the community site will show in all catalogs if their property, ` [Show in Catalog](../../communities/using/resources.md)`, is set to true. To explicitly include resources and learning paths, it is necessary to apply a [pre-filter](../../communities/using/catalog-developer-essentials.md#prefilters) to the catalog.
+All enablement resources and learning paths for the community site will show in all catalogs if their property, ` [Show in Catalog](../../communities/using/resources.md)`, is set to true. To explicitly include resources and learning paths, it is necessary to apply a [pre-filter](../../communities/using/catalog-developer-essentials.md#pre-filters) to the catalog.
 
 When added to a template, the configuration allows specifying tag namespace(s) used to configure the tag filter presented to site visitors :
 
 ![](assets/catalogfunc.png)
 
-* see [Title and URL Settings](#titleandurlsettings)
+* see [Title and URL Settings](#title-and-url-settings)
 * **Select All Namespaces** 
   The selected tag namespaces define which tags are selectable by visitors for filtering the list of enablement resources listed in the catalog.  
   If checked, all tag namespaces allowed for the community site are available.  
@@ -161,15 +161,15 @@ When added to a template, the configuration allows specifying tag namespace(s) u
 
 The featured content function is a page with a [Featured Content component](../../communities/using/featured.md) configured to allow comments to be added and deleted.
 
-The ability to feature content may be allowed or disallowed per component (see [Blog Function](#blogfunction), [Calendar Function](#calendarfunction), [Forum Function](#forumfunction), [Ideation Function](#ideationfunction), and [QnA Function](#qnafunction)).
+The ability to feature content may be allowed or disallowed per component (see [Blog Function](#blog-function), [Calendar Function](#calendar-function), [Forum Function](#forum-function), [Ideation Function](#ideation-function), and [QnA Function](#qna-function)).
 
-When added to a template, the only configuration is for the [Title and URL Settings](#titleandurlsettings).
+When added to a template, the only configuration is for the [Title and URL Settings](#title-and-url-settings).
 
 ### File Library Function {#file-library-function}
 
 The file library function is a page with a [File Library component](../../communities/using/file-library.md) configured to allow comments to be added and deleted.
 
-When added to a template, the only configuration is for the [Title and URL Settings](#titleandurlsettings).
+When added to a template, the only configuration is for the [Title and URL Settings](#title-and-url-settings).
 
 ### Forum Function {#forum-function}
 
@@ -181,12 +181,12 @@ When added to a template, the following dialog opens :
 
 ![](assets/chlimage_1-385.png)
 
-* see [Title and URL Settings](#titleandurlsettings)
+* see [Title and URL Settings](#title-and-url-settings)
 * **Allow Pinning** 
   if checked, the forum will allow topic replies to be pinned to the beginning of the list of comments. Default is checked.
 
 * **Allow Privileged Members** 
-  if checked, the forum will only allow privileged members to post topics by allowing selection of a [privileged members group](../../communities/using/users.md#privilegedmembersgroup). If not checked, all community members are allowed to post. Default is unchecked.
+  if checked, the forum will only allow privileged members to post topics by allowing selection of a [privileged members group](../../communities/using/users.md#privileged-members-group). If not checked, all community members are allowed to post. Default is unchecked.
 
 * **Allow File Uploads** 
   if checked, the forum will include the ability for members to upload files. Default is checked.
@@ -203,7 +203,7 @@ When added to a template, the following dialog opens :
 >
 >The groups function must *not *be the *first nor the only* function in a site's structure or in a community site template.
 >
->Any other function, such as the [page function](#pagefunction), must be included and listed first.
+>Any other function, such as the [page function](#page-function), must be included and listed first.
 
 The groups function provides the ability for community members to create sub-communities within the community site in the publish environment.
 
@@ -217,12 +217,12 @@ When added to a template, the following dialog opens :
 
 ![](assets/chlimage_1-386.png)
 
-* see [Title and URL Settings](#titleandurlsettings)
+* see [Title and URL Settings](#title-and-url-settings)
 * **Select Group Templates** 
   a pull-down menu that allows selection of one or more enabled group templates from which the future creator of a new community group (in the publish environment) may choose.
 
 * **Allow Privileged Members** 
-  if checked, the forum will only allow privileged members to post topics by allowing selection of a [privileged members security group](../../communities/using/users.md#privilegedmembersgroup). If not checked, all community members are allowed to post. Default is unchecked.
+  if checked, the forum will only allow privileged members to post topics by allowing selection of a [privileged members security group](../../communities/using/users.md#privileged-members-group). If not checked, all community members are allowed to post. Default is unchecked.
 
 * **Allow Publish Creation** 
   If checked, it is possible for authorized community members to create a group in the publish environment. If unchecked, new groups (sub-communities) may only be created in the author environment from the Communities Sites' Groups console.  
@@ -236,9 +236,9 @@ When added to a template, the following dialog opens, which specifies the defaul
 
 ![](assets/chlimage_1-387.png)
 
-* see [Title and URL Settings](#titleandurlsettings)
+* see [Title and URL Settings](#title-and-url-settings)
 * **Allow Privileged Members** 
-  if checked, the forum will only allow privileged members to post topics by allowing selection of a [privileged members security group](../../communities/using/users.md#privilegedmembersgroup). If not checked, all community members are allowed to post. Default is unchecked.
+  if checked, the forum will only allow privileged members to post topics by allowing selection of a [privileged members security group](../../communities/using/users.md#privileged-members-group). If not checked, all community members are allowed to post. Default is unchecked.
 
 * **Allow File Uploads** 
   if checked, the idea will include the ability for members to upload files. Default is checked.
@@ -253,13 +253,13 @@ When added to a template, the following dialog opens, which specifies the defaul
 
 The leaderboard function is a page with one [Leaderboard component](../../communities/using/enabling-leaderboard.md).
 
-**NOTE** : the Leaderboard component will need further configuration *after* a community site is created from a community template which includes the Leaderboard funciton. The Leaderboard component's [rules](../../communities/using/enabling-leaderboard.md#rulestab) will need to be specified, which depend on configuration of [scoring and badges](../../communities/using/implementing-scoring.md) for the community site.
+**NOTE** : the Leaderboard component will need further configuration *after* a community site is created from a community template which includes the Leaderboard funciton. The Leaderboard component's [rules](../../communities/using/enabling-leaderboard.md#rules-tab) will need to be specified, which depend on configuration of [scoring and badges](../../communities/using/implementing-scoring.md) for the community site.
 
 When added to a template, the following dialog opens, which specifies the default Title and URL names, as well as default display settings for the template :
 
 ![](assets/chlimage_1-388.png)
 
-* see [Title and URL Settings](#titleandurlsettings)
+* see [Title and URL Settings](#title-and-url-settings)
 * **Display Badge** 
   If checked, a column for badge icons is included in the leaderboard.  
   Default is unchecked.
@@ -276,7 +276,7 @@ When added to a template, the following dialog opens, which specifies the defaul
 
 The page function adds a blank page to the community site that it is wired into the features of the community site : login, menu, notifications, messaging, theming and branding. Content may be added to the page using the [standard AEM authoring mode](../../sites/authoring/using/editing-content.md).
 
-When added to a template, the only configuration is for the [Title and URL Settings](#titleandurlsettings).
+When added to a template, the only configuration is for the [Title and URL Settings](#title-and-url-settings).
 
 ### QnA Function {#qna-function}
 
@@ -286,12 +286,12 @@ When added to a template, the configuration allows restriction to privileged mem
 
 ![](assets/chlimage_1-389.png)
 
-* see [Title and URL Settings](#titleandurlsettings)
+* see [Title and URL Settings](#title-and-url-settings)
 * **Allow Pinning** 
   if checked, the forum will allow topic replies to be pinned to the beginning of the list of comments. Default is checked.
 
 * **Allow Privileged Members** 
-  if checked, the QnA forum will only allow privileged members to post questions by allowing selection of a [privileged members group](../../communities/using/users.md#privilegedmembersgroup). If not checked, all community members are allowed to post. Default is unchecked.
+  if checked, the QnA forum will only allow privileged members to post questions by allowing selection of a [privileged members group](../../communities/using/users.md#privileged-members-group). If not checked, all community members are allowed to post. Default is unchecked.
 
 * **Allow File Uploads** 
   if checked, the QnA forum will include the ability for members to upload files. Default is checked.
@@ -329,9 +329,9 @@ On the Community Function Name panel, a name, description and whether the functi
 
 On the `AEM Blueprint` panel, it is possible to select the blueprint which is the underlying implementation of the community function.
 
-The community function is a mini site comprised of one or more pages, pre-wired for inclusion into a community site including login, user profiles, notifications, messaging, site menu, search, theming, and branding features. Once the function is created, it is possible to [open the function](#opencommunityfunction) in author edit mode and customize the page and/or component settings.
+The community function is a mini site comprised of one or more pages, pre-wired for inclusion into a community site including login, user profiles, notifications, messaging, site menu, search, theming, and branding features. Once the function is created, it is possible to [open the function](#open-community-function) in author edit mode and customize the page and/or component settings.
 
-Since the community function is implemented as a [live copy](../../sites/administering/using/msm.md#livecopies) of a [blueprint](../../sites/administering/using/msm-livecopy.md#creatingablueprint), it is possible to rollout changes made to a function which affects all community site pages created from the [community site template](../../communities/using/sites.md) or [community group template](../../communities/using/tools-groups.md) that included the function. It is also possible to disassociate a page from its parent blueprint in order to make page-level modifications.
+Since the community function is implemented as a [live copy](../../sites/administering/using/msm.md#live-copies) of a [blueprint](../../sites/administering/using/msm-livecopy.md#creatingablueprint), it is possible to rollout changes made to a function which affects all community site pages created from the [community site template](../../communities/using/sites.md) or [community group template](../../communities/using/tools-groups.md) that included the function. It is also possible to disassociate a page from its parent blueprint in order to make page-level modifications.
 
 See also [Multi Site Manager](../../sites/administering/using/msm.md).
 
@@ -339,7 +339,7 @@ See also [Multi Site Manager](../../sites/administering/using/msm.md).
 
 ![](assets/chlimage_1-393.png)
 
-On the Thumbnail panel, an image may be uploaded to display in the [Community Functions console](#communityfunctionsconsole).
+On the Thumbnail panel, an image may be uploaded to display in the [Community Functions console](#community-functions-console).
 
 ## Open Community Function {#open-community-function}
 
@@ -353,7 +353,7 @@ A community function is implemented as a Live Copy of an AEM Blueprint, details 
 
 It is possible to not only author page content, but to configure components.
 
-If configuring a component on a page of a created community site, it may be necessary to cancel [inheritance](../../sites/administering/using/msm-livecopy.md#changinglivecopycontent) in order to configure the component. Inheritance should be re-established when configuration is completed.
+If configuring a component on a page of a created community site, it may be necessary to cancel [inheritance](../../sites/administering/using/msm-livecopy.md#changing-live-copy-content) in order to configure the component. Inheritance should be re-established when configuration is completed.
 
 For configuration details, visit [Communities Components](../../communities/using/author-communities.md) for authors.
 
@@ -361,4 +361,4 @@ For configuration details, visit [Communities Components](../../communities/usin
 
 ![](assets/chlimage_1-395.png)
 
-Select the `Edit Community Function` icon to edit the function's properties using the same panels as [creating a community function](#createcommunityfunction), including enabling or disabling the function.
+Select the `Edit Community Function` icon to edit the function's properties using the same panels as [creating a community function](#create-community-function), including enabling or disabling the function.

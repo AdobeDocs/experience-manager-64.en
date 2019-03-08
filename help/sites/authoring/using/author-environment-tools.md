@@ -3,12 +3,12 @@ title: Authoring - the Environment and Tools
 seo-title: Authoring - the Environment and Tools
 description: The authoring environment of AEM provides various mechanisms for organizing and editing your content
 seo-description: The authoring environment of AEM provides various mechanisms for organizing and editing your content
-uuid: 127fb9b8-ec82-4fd6-bf20-23dcb0a019e8
+uuid: 48c54f53-18f0-4cb7-97a6-46a7f72ec0ef
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: c79acbd9-52e3-4a63-8580-98d8a7486142
+discoiquuid: 39805b2d-2b62-4e1c-8868-522ffe6c0a5d
 index: y
 internal: n
 snippet: y
@@ -103,7 +103,7 @@ The actual appearance and handling is dependent on the device type you are using
 
 ## Assets Browser {#assets-browser}
 
-The assets browser shows all [assets](/assets/using/author-assets) that are available for direct use on your current page.
+The assets browser shows all [assets](/assets/using/author-assets.md) that are available for direct use on your current page.
 
 The assets browser is a tab within the side panel along with the [components browse](../../../sites/authoring/using/author-environment-tools.md#components-browser)r and [content tree](../../../sites/authoring/using/author-environment-tools.md#content-tree). To open or close the side panel use the icon at the top left of the toolbar:
 
@@ -224,11 +224,11 @@ Open the required console, then navigate to the required resource and open **Ref
 Select the appropriate reference type for more information. In certain situations further actions are available when you select a specific reference, including:
 
 * Instances of the Reference component (e.g. navigate to referencing/referenced page)  
-* [References to Product pages](../../../sites/administering/using/generic.md#showingproductreferences) (available from the Commerce-Products console)
+* [References to Product pages](../../../sites/administering/using/generic.md#showing-product-references) (available from the Commerce-Products console)
 * [Launches](../../../sites/authoring/using/launches.md)
 * [Live Copies](../../../sites/administering/using/msm.md) displays the paths of all live copies that are based on the selected resource.
 * [Blueprint](../../../sites/administering/using/msm-best-practices.md)
-* [Languages Copies](../../../sites/administering/using/tc-manage.md#creatingtranslationprojectsusingthereferencespanel)
+* [Languages Copies](../../../sites/administering/using/tc-manage.md#creating-translation-projects-using-the-references-panel)
 
 For example, you can fix a broken reference within a Reference component:
 

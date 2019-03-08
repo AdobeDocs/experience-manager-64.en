@@ -3,9 +3,9 @@ title: Installing Feature Pack 18912
 seo-title: Installing Feature Pack 18912
 description: Feature Pack 18912 lets you bulk ingest assets by way of FTP, or migrate assets from Dynamic Media Classic (Scene7), or both. This optional feature pack is available from Adobe support.
 seo-description: Feature Pack 18912 lets you bulk ingest assets by way of FTP, or migrate assets from Dynamic Media Classic (Scene7), or both. This optional feature pack is available from Adobe support.
-uuid: ae236ad7-92d0-4634-acea-f669f2e144d2
+uuid: 1b78f38a-3525-4850-bd2b-5b14abbda10d
 contentOwner: rbrough
-discoiquuid: 288994b0-3511-4a82-a0c8-ed17d8f9ca58
+discoiquuid: 028b79f7-cd77-4ffb-ad82-5df0669ec62a
 index: y
 internal: n
 snippet: y
@@ -17,7 +17,7 @@ The installation of Feature Pack 18912 is optional. Feature Pack 18912 lets you 
 
 When installing this feature pack, you must also create a service user and provide that information to Adobe support.
 
-See also [Configuring Dynamic Media - Scene7 mode](/assets/using/config-dynamic-fp-14410).
+See also [Configuring Dynamic Media - Scene7 mode](/assets/using/config-dynamic-fp-14410.md).
 
 **To install feature pack 18912**,
 

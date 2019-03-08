@@ -3,12 +3,12 @@ title: Using Tags
 seo-title: Using Tags
 description: Tags are a quick and easy method of classifying content within a website. Tags may be thought of as keywords or labels that can be attached to a page, an asset, or other content to enable searches to find that content and related content.
 seo-description: Tags are a quick and easy method of classifying content within a website. Tags may be thought of as keywords or labels that can be attached to a page, an asset, or other content to enable searches to find that content and related content.
-uuid: ad9a06d7-c3da-417b-a845-47400215b4b9
+uuid: 49ca7a47-680d-4f0d-abfe-ece1f47f3ed0
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
-discoiquuid: aa7ed24d-e736-4b54-af6d-755894488e5c
+discoiquuid: 33984887-929d-48ac-9d90-f8cb1ff11e8d
 index: y
 internal: n
 snippet: y
@@ -75,7 +75,7 @@ As with pages you can perform the following on tags and namespaces:
 
 Tag clouds show a cloud of tags, either for the current page, the entire website, or those most commonly accessed. Tag clouds are a means of highlighting the issues that are (have been) of interest to the user. The size of the text used to display the tag varies in relationship to its use.
 
-The [Tag Cloud](../../../sites/classic-ui-authoring/using/classic-page-author-edit-mode.md#tagcloud) component (General component group) is used to add a tag cloud to a page.
+The [Tag Cloud](../../../sites/classic-ui-authoring/using/classic-page-author-edit-mode.md#tag-cloud) component (General component group) is used to add a tag cloud to a page.
 
 ## Searching on Tags {#searching-on-tags}
 

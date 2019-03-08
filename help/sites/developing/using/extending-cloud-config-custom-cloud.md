@@ -3,12 +3,12 @@ title: Creating a Custom Cloud Service
 seo-title: Creating a Custom Cloud Service
 description: The default set of Cloud Services can be extended with custom Cloud Service types
 seo-description: The default set of Cloud Services can be extended with custom Cloud Service types
-uuid: acb2aec1-b56f-4244-9f2e-2dbbf17d822f
+uuid: e83a2e3b-f881-4bc1-b8d9-a3ec2736e9c5
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
-discoiquuid: 1a3a5ece-9601-430d-bb70-b4cdca21ae0e
+discoiquuid: ad143f09-fa39-4abf-b1f9-71b0be918127
 index: y
 internal: n
 snippet: y

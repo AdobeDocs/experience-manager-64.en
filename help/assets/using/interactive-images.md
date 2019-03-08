@@ -3,12 +3,12 @@ title: Interactive Images
 seo-title: Interactive Images
 description: Learn how to work with interactive images in dynamic media
 seo-description: Learn how to work with interactive images in dynamic media
-uuid: 3f96a049-481f-4a77-a945-655302826812
+uuid: 33cfdcee-10b2-4dc9-906d-5640c8788792
 contentOwner: Alva Ware-Bevacqui
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: 54fbe9f7-941d-41ad-86ab-f15402b36824
+discoiquuid: 83f913dc-8aa7-403d-9585-8957f77c013d
 index: y
 internal: n
 snippet: y
@@ -42,25 +42,25 @@ The tutorial helps to illustrate the steps of integrating interactive images on 
 
 Interactive Images steps:
 
-1. **(Optional) Identifying hotspot variables** - If you use AEM Assets and Dynamic Media standalone, start by identifying dynamic variables used in your existing Quickview implementation so that you can enter hotspot data when creating the interactive image. See [(Optional) Identifying hotspot variables](#optionalidentifyinghotspotvariables).  
+1. **(Optional) Identifying hotspot variables** - If you use AEM Assets and Dynamic Media standalone, start by identifying dynamic variables used in your existing Quickview implementation so that you can enter hotspot data when creating the interactive image. See [(Optional) Identifying hotspot variables](#optional-identifying-hotspot-variables).  
    However, if you use AEM Sites, or AEM eCommerce, or both, then this step is not necessary.  
    See [eCommerce concepts in AEM Assets](../../sites/administering/using/concepts.md).  
 
 1. **(Optional) Creating an Interactive Image viewer preset **- Customize the graphic image that is used to represent hotspots. Creating your own Interactive Image viewer preset is not required if you intend to use the out-of-the-box Interactive Image viewer preset named `Shoppable_Banner` instead.** 
-   **See [(Optional) Creating an Interactive Image viewer preset](../../assets/using/managing-viewer-presets.md#creatinganewviewerpreset).  
+   **See [(Optional) Creating an Interactive Image viewer preset](../../assets/using/managing-viewer-presets.md#creating-a-new-viewer-preset).  
 
 1. **Uploading an image banner** - Upload image banners that you want to make interactive.  
-   See [Uploading an image banner](#uploadinganimagebanner).  
+   See [Uploading an image banner](#uploading-an-image-banner).  
 
 1. **Adding hotspots to an image banner** - Add one or more hotspots to an image banner and associate each one with an action such as a hyperlink, a Quickview, or an Experience Fragment. After you add hotspots, you will finish this task by publishing the interactive image.  
-   See [Adding hotspots to an image banner](#addinghotspotstoanimagebanner).  
-   See [Previewing interactive images](#optionalpreviewinginteractiveimages) - Optional. If desired, you can view a representation of your shoppable banner and test its interactivity.  
+   See [Adding hotspots to an image banner](#adding-hotspots-to-an-image-banner).  
+   See [Previewing interactive images](#optional-previewing-interactive-images) - Optional. If desired, you can view a representation of your shoppable banner and test its interactivity.  
    See [Publishing Assets](../../assets/using/publishing-dynamicmedia-assets.md) for details on how to publish interactive image assets.  
 
 1. **Adding an interactive image to your website or to your website in AEM** 
    If you use AEM Sites, or AEM eCommerce, or both, you can add the interactive image directly to a web page in AEM by dragging the Interactive Media component onto the page. See [Adding Dynamic Media Assets to Pages.](../../assets/using/adding-dynamic-media-assets-to-pages.md)  
-   If you use AEM Assets and Dynamic Media standalone, you must copy the embed code on your website and then integrate it with your existing Quickview. See [Integrating an interactive image with your website](#integratinganinteractiveimagewithyourwebsite).  
-   If you are using a third party WCM (Web Content Manager), you must integrate the new interactive video with the existing Quickview implementation that is used on your website. See [Integrating an interactive image with an existing Quickview](#integratinganinteractiveimagewithanexistingquickview).
+   If you use AEM Assets and Dynamic Media standalone, you must copy the embed code on your website and then integrate it with your existing Quickview. See [Integrating an interactive image with your website](#integrating-an-interactive-image-with-your-website).  
+   If you are using a third party WCM (Web Content Manager), you must integrate the new interactive video with the existing Quickview implementation that is used on your website. See [Integrating an interactive image with an existing Quickview](#integrating-an-interactive-image-with-an-existing-quickview).
 
 ## (Optional) Identifying hotspot variables {#optional-identifying-hotspot-variables}
 
@@ -211,19 +211,19 @@ To create an Interactive Image viewer preset:
 
    Be sure you publish the new viewer preset.
 
-   See [Publishing Viewer Presets That You Have Added](../../assets/using/managing-viewer-presets.md#publishingviewerpresets).
+   See [Publishing Viewer Presets That You Have Added](../../assets/using/managing-viewer-presets.md#publishing-viewer-presets).
 
    You are now ready to upload an image banner.
 
 ## Uploading an image banner {#uploading-an-image-banner}
 
-If you have already uploaded the images that you want to use, advance to the next step, [Adding hotspots to an image banner](#addinghotspotstoanimagebanner).
+If you have already uploaded the images that you want to use, advance to the next step, [Adding hotspots to an image banner](#adding-hotspots-to-an-image-banner).
 
 To upload an image banner:
 
 1. Upload image banners that you want to make interactive.
 
-   See [Uploading assets](../../assets/using/managing-assets-touch-ui.md#uploadingassets).
+   See [Uploading assets](../../assets/using/managing-assets-touch-ui.md#uploading-assets).
 
    You are now ready to add hotspots to the image banner; see the next task below.
 
@@ -239,7 +239,7 @@ Undo and Redo options, near the upper-right corner of the page, are supported du
 
 When you finish creating your interactive image, you can use Preview to see a representation of how your interactive image will appear to customers.
 
-See [(Optional) Previewing interactive images](#optionalpreviewinginteractiveimages).
+See [(Optional) Previewing interactive images](#optional-previewing-interactive-images).
 
 >[!NOTE]
 >
@@ -281,7 +281,7 @@ To add hotspots to an image banner:
         * If you are an AEM Sites or eCommerce customer, tap or click the Product Picker icon (magnifying glass) to open the Select Product page. Tap or click the product you want to use, then tap **Select **in the upper-right corner of the page to return to the Hotspot management page.
         * If you are *not* an AEM Sites or eCommerce customer
 
-            * See [Identifying hotspot variables](#optionalidentifyinghotspotvariables); you will need to define these variables. 
+            * See [Identifying hotspot variables](#optional-identifying-hotspot-variables); you will need to define these variables. 
             * Then, manually enter the SKU value. In the SKU Value text field, type the product's SKU (Stock Keeping Unit), which is a unique identifier for each distinct product or service that you offer. The entered SKU value automatically populates the variable portion of the Quickview template so that the system knows to associate the tapped hotspot with a particular SKU's Quickview.
             * (Optional) If there are other variables within the Quickview that you need to use to further identify a product, tap **Add Generic Variable**. In the text field, specify an additional variable. For example, `category=Mens` is an added variable.
 
@@ -304,11 +304,11 @@ To add hotspots to an image banner:
 1. Tap **Save** to save your work and return to the Browse page.
 1. Publish the interactive image. Publishing allows for the banner to be delivered through the cloud and also generates embed code if you need to integrate with a third party website.
 
-   See [Publishing assets](../../assets/using/managing-assets-touch-ui.md#publishingassets).
+   See [Publishing assets](../../assets/using/managing-assets-touch-ui.md#publishing-assets).
 
    After you have added hotspots and published the interactive image, you are now ready to add it to your existing website.
 
-   See [Integrating an interactive image with your website](#integratinganinteractiveimagewithyourwebsite).
+   See [Integrating an interactive image with your website](#integrating-an-interactive-image-with-your-website).
 
    >[!NOTE]
    >
@@ -432,7 +432,7 @@ So, it is only necessary to uncomment the code and replace the dummy handler bod
 
 The process of constructing the Quickview URL is basically opposite of the process used for identifying hotspot variables covered earlier.
 
-See [Identifying hotspot variables](#optionalidentifyinghotspotvariables).
+See [Identifying hotspot variables](#optional-identifying-hotspot-variables).
 
 Using our previous Quickview URL examples, you can see, in the following examples, how the Quickview URL is constructed in each case:
 

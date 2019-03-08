@@ -3,12 +3,12 @@ title: Document Management Service (Deprecated)Java API Quick Start(SOAP)
 seo-title: Document Management Service (Deprecated)Java API Quick Start(SOAP)
 description: null
 seo-description: null
-uuid: c053bbf9-167b-4572-84e7-de11ae1bf432
+uuid: 0f308182-09fd-4988-9931-19da792d4a53
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
-discoiquuid: 65cee08a-c02a-45c8-bd8f-84e9010e47f9
+discoiquuid: a7b9420b-5078-434f-8206-cbed54427468
 index: y
 internal: n
 snippet: y
@@ -22,25 +22,25 @@ The following Quick Starts are available for the Document Management service (De
 >
 >Effective August 5th 2011, Adobe is migrating Content Services ES customers to the Adobe Digital Enterprise Platform Experience Services. The product roadmap for customers that use Content Services is to move to the new ADEP Experience Services - Core, which includes a native Content Repository built on the modern, modular CRX architecture, acquired during the Adobe acquisition of Day Software.
 
-[Quick Start (SOAP mode): Create Content Services spaces using the Java API](document-management-service-deprecated-java#quick_start_soap_mode_create_content_services_spaces_using_the_java_api_deprecated)
+[Quick Start (SOAP mode): Create Content Services spaces using the Java API](document-management-service-deprecated-java.md#quick_start_soap_mode_create_content_services_spaces_using_the_java_api_deprecated)
 
-[Quick Start (SOAP mode): Delete Content Services content using the Java API](document-management-service-deprecated-java#quick_start_soap_mode_delete_content_services_content_using_the_java_api_deprecated)
+[Quick Start (SOAP mode): Delete Content Services content using the Java API](document-management-service-deprecated-java.md#quick_start_soap_mode_delete_content_services_content_using_the_java_api_deprecated)
 
-[Quick Start (SOAP mode): Add content to Content Services using the Java API](document-management-service-deprecated-java#quick_start_soap_mode_add_content_to_content_services_using_the_java_api_deprecated)
+[Quick Start (SOAP mode): Add content to Content Services using the Java API](document-management-service-deprecated-java.md#quick_start_soap_mode_add_content_to_content_services_using_the_java_api_deprecated)
 
-[Quick Start (SOAP mode): Retrieve content from Content Services using the Java API](document-management-service-deprecated-java#quick_start_soap_mode_retrieve_content_from_content_services_using_the_java_api_deprecated)
+[Quick Start (SOAP mode): Retrieve content from Content Services using the Java API](document-management-service-deprecated-java.md#quick_start_soap_mode_retrieve_content_from_content_services_using_the_java_api_deprecated)
 
-[Quick Start (SOAP mode): Move Content Services content using the Java API](document-management-service-deprecated-java#quick_start_soap_mode_move_content_services_content_using_the_java_api_deprecated)
+[Quick Start (SOAP mode): Move Content Services content using the Java API](document-management-service-deprecated-java.md#quick_start_soap_mode_move_content_services_content_using_the_java_api_deprecated)
 
-[Quick Start (SOAP mode): List Content Services content using the Java API](document-management-service-deprecated-java#quick_start_soap_mode_list_content_services_content_using_the_java_api_deprecated)
+[Quick Start (SOAP mode): List Content Services content using the Java API](document-management-service-deprecated-java.md#quick_start_soap_mode_list_content_services_content_using_the_java_api_deprecated)
 
-[Quick Start (SOAP mode): Search Content Services content using the Java API](document-management-service-deprecated-java#quick_start_soap_mode_search_content_services_content_using_the_java_api_deprecated)
+[Quick Start (SOAP mode): Search Content Services content using the Java API](document-management-service-deprecated-java.md#quick_start_soap_mode_search_content_services_content_using_the_java_api_deprecated)
 
-[Quick Start (SOAP mode): Setting Content Services Permissions using the Java API](document-management-service-deprecated-java#quick_start_soap_mode_setting_content_services_permissions_using_the_java_api_deprecated)
+[Quick Start (SOAP mode): Setting Content Services Permissions using the Java API](document-management-service-deprecated-java.md#quick_start_soap_mode_setting_content_services_permissions_using_the_java_api_deprecated)
 
 AEM Forms operations can be performed using the AEM Forms strongly-typed API and the connection mode should be set to SOAP.
 
-***Note**: Quick starts located in Programming with AEM forms are based on the Forms Server being deployed on JBoss and the Windows operating system. However, if you are using another operating system, such as UNIX, replace windows-specific paths with paths supported by the applicable operating system. Likewise, if you are using another J2EE application server, ensure that you specify valid connection properties. (See [Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties).)*
+***Note**: Quick starts located in Programming with AEM forms are based on the Forms Server being deployed on JBoss and the Windows operating system. However, if you are using another operating system, such as UNIX, replace windows-specific paths with paths supported by the applicable operating system. Likewise, if you are using another J2EE application server, ensure that you specify valid connection properties. (See [Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties).)*
 
 ## Quick Start (SOAP mode): Create Content Services spaces using the Java API (Deprecated) {#quick-start-soap-mode-create-content-services-spaces-using-the-java-api-deprecated}
 

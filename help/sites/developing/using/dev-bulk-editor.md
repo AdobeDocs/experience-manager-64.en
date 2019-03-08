@@ -3,12 +3,12 @@ title: Developing the Bulk Editor
 seo-title: Developing the Bulk Editor
 description: Tagging allows content to be categorized and organized
 seo-description: Tagging allows content to be categorized and organized
-uuid: 86f41d0e-11e5-49e0-a298-c7877f82bdad
+uuid: e8891c89-fb59-4197-8298-288d4e753523
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
-discoiquuid: 7ee91ad2-6b88-4746-84a3-b4fbe8edcaaa
+discoiquuid: ade28db0-69fd-4b4f-b394-d1cb5212f50c
 index: y
 internal: n
 snippet: y
@@ -170,7 +170,7 @@ With the bulk editor, you can add, modify, delete, filter, and export the rows, 
 The source code of the Product List component is available in the repository at /apps/geometrixx/components/productlist and is composed of several parts like all CQ5 components:
 
 * HTML rendering: the rendering is done in a JSP file (/apps/geometrixx/components/productlist/productlist.jsp). The JSP reads the subnodes of the current Product List component and displays each of them as a row of an HTML table.
-* Edit dialog, which is where you define the Bulk Editor configuration. Configure the dialog to match the needs of the component: columns available and possible actions performed on the grid or on the search. See [bulk editor configuration properties](develop_bulk_editor#Bulk%20Editor%20Configuration%20Properties) for information on all of the configuration properties.
+* Edit dialog, which is where you define the Bulk Editor configuration. Configure the dialog to match the needs of the component: columns available and possible actions performed on the grid or on the search. See [bulk editor configuration properties](develop_bulk_editor.md#bulk%20editor%20configuration%20properties) for information on all of the configuration properties.
 
 Here is an XML representation of the dialog sub nodes:
 

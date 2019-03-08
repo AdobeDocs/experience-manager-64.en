@@ -3,12 +3,12 @@ title: Recovering the AEM forms data
 seo-title: Recovering the AEM forms data
 description: This document describes the steps required to recover the AEM forms data.
 seo-description: This document describes the steps required to recover the AEM forms data.
-uuid: 37ca4c4a-ef6e-4826-bea9-c832b4c897f4
+uuid: 72eef2e0-4440-4bbc-9194-95818f332933
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/aem_forms_backup_and_recovery
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 5d1d1695-2f02-4a40-a29d-3b74c8ce2f41
+discoiquuid: 1f592e42-75fa-4048-a948-f40daea0a0d8
 index: y
 internal: n
 snippet: y
@@ -59,7 +59,7 @@ If a single node of a multinode cluster failed and the remaining nodes of the cl
     * [Microsoft SQL Server Backup and Recovery for AEM forms](http://www.adobe.com/go/kb403623)
     * [DB2 Backup and Recovery for AEM forms](http://www.adobe.com/go/kb403626)
 
-1. Recover the GDS directory by first deleting the contents of the GDS directory on the existing installation of AEM forms and then copying the contents of the GDS directory from the backed-up GDS. If you changed the GDS directory location, see [Changing the GDS location during recovery](recovering-aem-forms-data#changing_the_gds_location_during_recovery).
+1. Recover the GDS directory by first deleting the contents of the GDS directory on the existing installation of AEM forms and then copying the contents of the GDS directory from the backed-up GDS. If you changed the GDS directory location, see [Changing the GDS location during recovery](recovering-aem-forms-data.md#changing_the_gds_location_during_recovery).
 1. Rename the GDS backup directory to be restored as shown in these examples:
 
    >[!NOTE]
@@ -105,7 +105,7 @@ If a single node of a multinode cluster failed and the remaining nodes of the cl
       For restoration in a clustered environment, see [Strategy for backup and restore in a clustered environment](../../../forms/using/admin-help/strategy-backup-restore-clustered-environment.md#strategy-for-backup-and-restore-in-a-clustered-environment).
 
 1. Delete any AEM forms temporary files that were created in the java.io.temp directory or in the Adobe temp directory.
-1. Start AEM forms (see [Starting and stopping services](../../../forms/using/admin-help/starting-stopping-services.md#starting-and-stopping-services)) and the application server(s) (see [Maintaining the Application Server](/forms/using/admin-help/topics/maintaining-the-application-server)).
+1. Start AEM forms (see [Starting and stopping services](../../../forms/using/admin-help/starting-stopping-services.md#starting-and-stopping-services)) and the application server(s) (see [Maintaining the Application Server](/forms/using/admin-help/topics/maintaining-the-application-server.md)).
 
 ## Changing the GDS location during recovery {#changing-the-gds-location-during-recovery}
 
@@ -125,7 +125,7 @@ If your GDS is restored to a location other than where it was originally, run th
 
 ## Recovering the GDS to a clustered environment {#recovering-the-gds-to-a-clustered-environment}
 
-To change the GDS location in a clustered environment, shut down the entire cluster and run the LCSetGDS script on a single node of the cluster. (See [Changing the GDS location during recovery](recovering-aem-forms-data#changing_the_gds_location_during_recovery).) Start only that node. When that node is fully started, other nodes in the cluster may be started safely and will correctly point at the new GDS.
+To change the GDS location in a clustered environment, shut down the entire cluster and run the LCSetGDS script on a single node of the cluster. (See [Changing the GDS location during recovery](recovering-aem-forms-data.md#changing_the_gds_location_during_recovery).) Start only that node. When that node is fully started, other nodes in the cluster may be started safely and will correctly point at the new GDS.
 
 >[!NOTE]
 >

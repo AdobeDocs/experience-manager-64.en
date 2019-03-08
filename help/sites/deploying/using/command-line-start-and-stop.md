@@ -3,12 +3,12 @@ title: Command Line Start and Stop
 seo-title: Command Line Start and Stop
 description: Learn how to start and stop AEM from the command line.
 seo-description: Learn how to start and stop AEM from the command line.
-uuid: 0272bb58-3843-455f-8dbe-b1e5c69ffab4
+uuid: ff0ae020-1301-4949-b84d-69fbb3234892
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
-discoiquuid: 0c90c1ae-d71e-499d-b8c1-c9c7001f90dd
+discoiquuid: 32f188c0-fe48-4df8-b8f9-b13a25991201
 index: y
 internal: n
 snippet: y

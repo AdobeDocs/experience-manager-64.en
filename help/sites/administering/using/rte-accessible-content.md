@@ -3,12 +3,12 @@ title: Configuring RTE for Producing Accessible Sites
 seo-title: Configuring RTE for Producing Accessible Sites
 description: Learn how to configure the AEM Rich Text Editor to produce accessible sites.
 seo-description: Learn how to configure the AEM Rich Text Editor to produce accessible sites.
-uuid: ed73d991-4da6-459d-bd14-b557a42a396f
+uuid: 22dde621-c432-46e6-9164-5bf769401189
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: 0fd59fb0-90fb-401a-ae80-83b1edb55b86
+discoiquuid: 185f97b3-8a9d-4395-955b-726bf3fc0027
 index: y
 internal: n
 snippet: y
@@ -49,8 +49,8 @@ The **Text** component in AEM is available for both the touch-optimized and the 
 >
 >There are differences between the RTE features available in the classic UI and the touch-optimized UI. For more details see
 >
->* [Plugins and their Features](/sites/administering/using/rich-text-editor.html?#PluginsandtheirFeatures)
->* [Plugins and their Features - Touch-optimized UI](/sites/administering/using/rich-text-editor.html?#PluginsandtheirFeaturesTouchoptimizedUI)
+>* [Plugins and their Features](../../../sites/administering/using/rich-text-editor.md#pluginsandtheirfeatures)
+>* [Plugins and their Features - Touch-optimized UI](../../../sites/administering/using/rich-text-editor.md#pluginsandtheirfeaturestouchoptimizedui)
 >
 
 ## Configuring the Plugin Features {#configuring-the-plugin-features}

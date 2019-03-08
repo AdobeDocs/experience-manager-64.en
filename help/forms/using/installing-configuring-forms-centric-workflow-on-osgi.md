@@ -3,9 +3,9 @@ title: Installing and Configuring Forms-centric workflow on OSGi
 seo-title: Installing and Configuring Forms-centric workflow on OSGi
 description: Install and configure AEM Forms Interactive Communications to create business correspondences, documents, statements, benefit notices, marketing mails, bills, and welcome kits. 
 seo-description: Install and configure AEM Forms Interactive Communications to create business correspondences, documents, statements, benefit notices, marketing mails, bills, and welcome kits. 
-uuid: ddc2a1d0-31e6-46f5-bf67-85a1c395428a
+uuid: 35e379ec-2bc1-48b4-bc4c-ea31d9482b3b
 topic-tags: installing
-discoiquuid: d1719ada-8678-4168-82a7-faff8ac1a541
+discoiquuid: 540f183a-397a-4cd6-8b49-4780a5196995
 index: y
 internal: n
 snippet: y
@@ -27,7 +27,7 @@ AEM Forms is a powerful enterprise-class platform. Forms-centric workflow on OSG
 >
 >With Forms-centric workflow on OSGi, you can rapidly build and deploy workflows for various tasks on the OSGi stack, without having to install the full-fledged Process Management capability on JEE stack. See a [comparison](../../forms/using/capabilities-osgi-jee-workflows.md) of the Forms-centric AEM Workflows on OSGi and Process Management on JEE to learn the difference and similarities in the capabilities. 
 >
->After the comparison, If you choose to install the Process Management capability on JEE stack, see [Install or Upgrade AEM Forms on JEE](/forms/user-guide) for detailed information about installing and configuring JEE stack and the Process Management capabilities.
+>After the comparison, If you choose to install the Process Management capability on JEE stack, see [Install or Upgrade AEM Forms on JEE](/forms/user-guide.md) for detailed information about installing and configuring JEE stack and the Process Management capabilities.
 
 ## Deployment Topology {#deployment-topology}
 
@@ -43,7 +43,7 @@ AEM Forms Forms-centric workflow on OSGi runs AEM Inbox and AEM Workflow Model c
 
 >[!NOTE]
 >
->Skip to the [Next steps](/forms/using/installing-configuring-Forms-centric-workflow-on-OSGi.html?cq_ck=1528114097413#Nextsteps) section of the document, if you have already installed AEM Forms on OSGi as explained in the [install and configure data capture capabilities](../../forms/using/installing-configuring-aem-forms-osgi.md) article.
+>Skip to the [Next steps](../../forms/using/installing-configuring-Forms-centric-workflow-on-OSGi.md#next-steps) section of the document, if you have already installed AEM Forms on OSGi as explained in the [install and configure data capture capabilities](../../forms/using/installing-configuring-aem-forms-osgi.md) article.
 
 Before you begin to install and configure Forms-centric workflow on OSGi, ensure that:
 

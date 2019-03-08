@@ -3,12 +3,12 @@ title: Editing Page Content
 seo-title: Editing Page Content
 description: Content is added using components that can be dragged onto the page. These can then be edited in place, moved, or deleted.
 seo-description: Content is added using components that can be dragged onto the page. These can then be edited in place, moved, or deleted.
-uuid: a6fb87fd-f001-4b10-93c4-e0cacf34ef93
+uuid: 84dc170e-6016-4e3f-8ef0-2b87ee3992b8
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: cf64414d-4956-4a16-a331-11e51bb7957e
+discoiquuid: 043e087c-1291-400d-b2f2-728cd004d591
 index: y
 internal: n
 snippet: y
@@ -98,7 +98,7 @@ This is valid for the following asset types (some will be dependent on page/para
 
 >[!NOTE]
 >
->This behavior can be configured for your installation. See [Configuring a Paragraph System so that Dragging an Asset Creates a Component Instance](../../../sites/developing/using/developing-components.md#configuringaparagraphsystemsothatdragginganassetcreatesacomponentinstance) for further details.
+>This behavior can be configured for your installation. See [Configuring a Paragraph System so that Dragging an Asset Creates a Component Instance](../../../sites/developing/using/developing-components.md#configuring-a-paragraph-system-so-that-dragging-an-asset-creates-a-component-instance) for further details.
 
 To create a component by dragging one of the above asset types:
 
@@ -126,7 +126,7 @@ To move a paragraph:
 
 >[!NOTE]
 >
->You can also use [Cut and Paste](#cutcopypasteacomponent) to move a component.
+>You can also use [Cut and Paste](#cut-copy-paste-a-component) to move a component.
 
 1. Select the paragraph to be moved:
 
@@ -157,7 +157,7 @@ To delete a paragraph:
 
 ## Cut/Copy/Paste a Component {#cut-copy-paste-a-component}
 
-As when [Deleting a Component](#deletingacomponent) you can use the context menu to copy, cut and/or paste a component
+As when [Deleting a Component](#deleting-a-component) you can use the context menu to copy, cut and/or paste a component
 
 >[!NOTE]
 >
@@ -174,7 +174,7 @@ As when [Deleting a Component](#deletingacomponent) you can use the context menu
 
 Inherited components can be the product of various scenarios, including:
 
-* [Multi site management](../../../sites/administering/using/msm.md); also in combination with [scaffolding](../../../sites/classic-ui-authoring/using/classic-feature-scaffolding.md#scaffoldingwithmsminheritance).
+* [Multi site management](../../../sites/administering/using/msm.md); also in combination with [scaffolding](../../../sites/classic-ui-authoring/using/classic-feature-scaffolding.md#scaffolding-with-msm-inheritance).
 
 * [Launches](../../../sites/classic-ui-authoring/using/classic-launches.md) (when based on livecopy).
 * Specific components; for example the Inherited Paragraph System within Geometrixx.
@@ -223,7 +223,7 @@ There are two icons in the bottom border of the sidekick that are important to p
 
 ## Find & Replace {#find-replace}
 
-For larger scale edits of the same phrase a ** [Find & Replace](../../../sites/classic-ui-authoring/using/author-env-search.md#findandreplace)** menu option allows you to search for, and replace multiple instances of a string, within a section of the website.
+For larger scale edits of the same phrase a ** [Find & Replace](../../../sites/classic-ui-authoring/using/author-env-search.md#find-and-replace)** menu option allows you to search for, and replace multiple instances of a string, within a section of the website.
 
 ## Locking a Page {#locking-a-page}
 
@@ -264,7 +264,7 @@ When you undo or redo the removal, addition, or relocation of one or more paragr
 
 >[!NOTE]
 >
->See [Undoing and Redoing Page Edits - The Theory](#undoingandredoingpageeditsthetheory) for the full details of what is possible when undoing and redoing page edits.
+>See [Undoing and Redoing Page Edits - The Theory](#undoing-and-redoing-page-edits-the-theory) for the full details of what is possible when undoing and redoing page edits.
 
 ## Undoing and Redoing Page Edits - The Theory {#undoing-and-redoing-page-edits-the-theory}
 

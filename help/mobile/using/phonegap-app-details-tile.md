@@ -3,12 +3,12 @@ title: Manage App Tile
 seo-title: Manage App Tile
 description: Follow this page to learn about the Manage App Tile on the app dashboard that provides the ability to modify details about the Application. 
 seo-description: Follow this page to learn about the Manage App Tile on the app dashboard that provides the ability to modify details about the Application. 
-uuid: 507e5bbb-998b-4408-9e51-4029998c6233
+uuid: 704b5b9c-a9e4-4c32-833e-d630cfdcc76e
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: authoring-adobe-phonegap-enterprise
-discoiquuid: 3099bb5f-13bc-46d9-9f64-aabe5a0c0f72
+discoiquuid: ba3b7317-271e-48aa-b201-c0e3f499f9e2
 index: y
 internal: n
 snippet: y
@@ -157,7 +157,7 @@ Once you have learnt about Managing App Tile in the application dashboard, see t
 * [App Definitions](../../mobile/using/phonegap-app-definitions.md)
 * [Creating a New App using Create App Wizard](../../mobile/using/phonegap-create-new-app.md)
 * [Import an Existing Hybrid App](../../mobile/using/phonegap-import-hybrid-app.md)
-* [Content Services](/mobile/using/content-as-a-service)
+* [Content Services](/mobile/using/content-as-a-service.md)
 
 ### Additional Resources {#additional-resources}
 

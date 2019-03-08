@@ -3,10 +3,10 @@ title: Work with form data model
 seo-title: Work with form data model
 description: Data Integration provides form data model editor to configure and work with form data models.
 seo-description: Data Integration provides form data model editor to configure and work with form data models.
-uuid: b71afebd-866f-4628-a6eb-fb1dfb79fa3d
+uuid: 203c9922-8119-4f4f-bb36-d907c22d0adb
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: integration
-discoiquuid: 4f31af57-f3f3-4c09-8d3a-62af1f25e6cd
+discoiquuid: e72b37cc-a81b-4576-9533-ccb7d91de8bc
 index: y
 internal: n
 snippet: y

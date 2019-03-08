@@ -3,12 +3,12 @@ title: Workflow Best Practices
 seo-title: Workflow Best Practices
 description: null
 seo-description: null
-uuid: 3232c631-a1ab-4a7a-b9cc-e75f8f427697
+uuid: 72ebd817-84e8-419e-9537-15ab1a50542c
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
-discoiquuid: 2534b670-f369-4102-a450-fa32a5933953
+discoiquuid: f861a7b5-9cb3-4813-828c-4688aa0aa5fe
 index: y
 internal: n
 snippet: y
@@ -28,7 +28,7 @@ When configuring workflow processes (customized and/or out-of-the-box), there ar
 
 ### Transient Workflows {#transient-workflows}
 
-To optimize high ingestion loads you can define a [workflow as transient](../../../sites/developing/using/workflows.md#transientworkflows).
+To optimize high ingestion loads you can define a [workflow as transient](../../../sites/developing/using/workflows.md#transient-workflows).
 
 When a workflow is transient the runtime data related to the intermediate worksteps are not persisted in the JCR when they run (the output renditions are persisted of course).
 
@@ -273,7 +273,7 @@ Saving a session:
 
 ### Minimize the Number/Scope of Launchers {#minimize-the-number-scope-of-launchers}
 
-There is one listener that is responsible for all of the [workflow launchers](../../../sites/administering/using/workflows-starting.md#workflowslaunchers) that are registered:
+There is one listener that is responsible for all of the [workflow launchers](../../../sites/administering/using/workflows-starting.md#workflows-launchers) that are registered:
 
 * It will listen for changes at all of the paths specified in the globbing properties of the other launchers. 
 * When an event is dispatched, the workflow engine will then evaluate each launcher to determine if it should run.
@@ -286,7 +286,7 @@ Due to the impact of these launchers on workflow behavior, it can also be helpfu
 
 ### Configuration Enhancements for Launchers {#configuration-enhancements-for-launchers}
 
-The custom [launcher configuration](../../../sites/administering/using/workflows-starting.md#workflowslaunchers) has been enhanced to support the following:
+The custom [launcher configuration](../../../sites/administering/using/workflows-starting.md#workflows-launchers) has been enhanced to support the following:
 
 * Have multiple conditions "AND"ed together.
 * Have OR conditions within a single condition.
@@ -309,9 +309,9 @@ It is recommened to use handler advance as it delivers better performance.
 
 ### Workflow Stages {#workflow-stages}
 
-You can define [workflow stages](../../../sites/developing/using/workflows.md#workflowstages), then assign tasks/steps to a specific workflow stage.
+You can define [workflow stages](../../../sites/developing/using/workflows.md#workflow-stages), then assign tasks/steps to a specific workflow stage.
 
-This information is used for displaying the progress of a workflow when you click on the [**Workflow Info** tab of a workitem from the **Inbox**](../../../sites/authoring/using/workflows-participating.md#openingaworkflowitemtoviewdetailsandtakeactions). Existing workflow models can be edited to add stages.
+This information is used for displaying the progress of a workflow when you click on the [**Workflow Info** tab of a workitem from the **Inbox**](../../../sites/authoring/using/workflows-participating.md#opening-a-workflow-item-to-view-details-and-take-actions). Existing workflow models can be edited to add stages.
 
 ### Activate Page Process Step {#activate-page-process-step}
 

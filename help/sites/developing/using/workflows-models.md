@@ -3,12 +3,12 @@ title: Creating Workflow Models
 seo-title: Creating Workflow Models
 description: You create a workflow model to define the series of steps executed when a user starts the workflow.
 seo-description: You create a workflow model to define the series of steps executed when a user starts the workflow.
-uuid: 6f85afb7-a4d3-4494-a42c-56fd48c9be04
+uuid: d568b8da-e817-4e77-b900-37ab0be7f64b
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
-discoiquuid: c4397366-60df-4207-9b1e-f52c77156730
+discoiquuid: 431f9f03-5775-49b5-9cef-648f5ee23a4b
 index: y
 internal: n
 snippet: y
@@ -22,7 +22,7 @@ snippet: y
 
 You create a [workflow model](../../../sites/developing/using/workflows.md#model) to define the series of steps executed when a user starts the workflow. You can also define model properties, such as whether the workflow is transient or uses multiple resources.
 
-When a user starts a workflow, an instance is started; this is the corresponding runtime model, created when you [Sync](#syncyourworkflowgeneratearuntimemodel) your changes.
+When a user starts a workflow, an instance is started; this is the corresponding runtime model, created when you [Sync](#sync-your-workflow-generate-a-runtime-model) your changes.
 
 ## Creating a New Workflow {#creating-a-new-workflow}
 
@@ -56,23 +56,23 @@ To create a new workflow with the editor:
 >
 >For example, `/var/workflow/models/prototypes`
 >
->This folder can then be used for [managing access to the models in that folder](/sites/administering/using/workflows-managing.html?cq_ck=1524050766250#CreateasubfolderinvarworkflowmodelsandapplytheACLtothat).
+>This folder can then be used for [managing access to the models in that folder](../../../sites/administering/using/workflows-managing.md#create-a-subfolder-in-var-workflow-models-and-apply-the-acl-to-that).
 
 ## Editing a Workflow {#editing-a-workflow}
 
 You can edit any existing workflow model to:
 
-* [define steps](#addingasteptoamodel-) and their [parameters](#configuringaworkflowstep)
+* [define steps](#addingasteptoamodel-) and their [parameters](#configuring-a-workflow-step)
 
-* configure workflow properties, including [stages](#configuringworkflowstagesthatshowworkflowprogress), [whether the workflow is transient](#creatingatransientworkflow-) and/or [uses multiple resources](#configuringaworkflowformultiresourcesupport)
+* configure workflow properties, including [stages](#configuring-workflow-stages-that-show-workflow-progress), [whether the workflow is transient](#creatingatransientworkflow-) and/or [uses multiple resources](#configuring-a-workflow-for-multi-resource-support)
 
-Editing a [**Default and/or Legacy** (out-of-the-box) workflow](#editingadefaultorlegacyworkflowforthefirsttime) has an additional step, to ensure that a [safe copy](../../../sites/developing/using/workflows-best-practices.md#locationsworkflowmodels) is taken prior to your changes being made.
+Editing a [**Default and/or Legacy** (out-of-the-box) workflow](#editing-a-default-or-legacy-workflow-for-the-first-time) has an additional step, to ensure that a [safe copy](../../../sites/developing/using/workflows-best-practices.md#locations-workflow-models) is taken prior to your changes being made.
 
-When updates to your workflow are complete you must use **Sync** to **Generate a Runtime Model**. See [Sync your Workflow](#syncyourworkflowgeneratearuntimemodel) for details.
+When updates to your workflow are complete you must use **Sync** to **Generate a Runtime Model**. See [Sync your Workflow](#sync-your-workflow-generate-a-runtime-model) for details.
 
 ### Sync your Workflow - Generate a Runtime Model {#sync-your-workflow-generate-a-runtime-model}
 
-**Sync** (right in the editor toolbar) generates a [runtime model](../../../sites/developing/using/workflows.md#runtimemodel). The runtime model is the model actually used when a user starts a workflow. If you do not **Sync** your changes, then the changes will not be available at runtime.
+**Sync** (right in the editor toolbar) generates a [runtime model](../../../sites/developing/using/workflows.md#runtime-model). The runtime model is the model actually used when a user starts a workflow. If you do not **Sync** your changes, then the changes will not be available at runtime.
 
 When you (or any other user) make any changes to the workflow you must use **Sync** to generate a runtime model - even when individual dialogs (for example, for steps) have had their own save options.
 
@@ -84,7 +84,7 @@ Some steps have mandatory fields and/or built in validation. When these conditio
 
 ### Editing a Default or Legacy Workflow for the First Time {#editing-a-default-or-legacy-workflow-for-the-first-time}
 
-When you open a [Default and/or Legacy model](../../../sites/developing/using/workflows.md#workflowtypes) for editing:
+When you open a [Default and/or Legacy model](../../../sites/developing/using/workflows.md#workflow-types) for editing:
 
 * The Steps browser is not available (left side).  
 * There is an **Edit** action available in the toolbar (right side).
@@ -101,7 +101,7 @@ Selecting **Edit** will:
 
 >[!NOTE]
 >
->See [Locations of Workflow Models](../../../sites/developing/using/workflows-best-practices.md#locationsworkflowmodels) for further information.
+>See [Locations of Workflow Models](../../../sites/developing/using/workflows-best-practices.md#locations-workflow-models) for further information.
 
 ![](assets/wf-22.png) 
 
@@ -132,7 +132,7 @@ To add steps to your workflow model:
 
    For example, a **Participant Step**.
 
-   Once added to the flow you can [configure the step](#configuringaworkflowstep).
+   Once added to the flow you can [configure the step](#configuring-a-workflow-step).
 
    ![](assets/wf-03.png)
 
@@ -146,7 +146,7 @@ To add steps to your workflow model:
 
 1. Confirm the changes with **Sync** (editor toolbar) to generate the runtime model.
 
-   See [Sync your Workflow](#syncyourworkflowgeneratearuntimemodel) for details.
+   See [Sync your Workflow](#sync-your-workflow-generate-a-runtime-model) for details.
 
 ### Configuring a Workflow Step {#configuring-a-workflow-step}
 
@@ -169,11 +169,11 @@ You can **Configure** and customize the behavior of a workflow step using the **
 1. Confirm your updates with the tick.
 1. Confirm the changes with **Sync** (editor toolbar) to generate the runtime model.
 
-   See [Sync your Workflow](#syncyourworkflowgeneratearuntimemodel) for details.
+   See [Sync your Workflow](#sync-your-workflow-generate-a-runtime-model) for details.
 
 ### Creating a Transient Workflow {#creating-a-transient-workflow}
 
-You can create a [Transient](../../../sites/developing/using/workflows.md#transientworkflows) workflow model when creating a new model, or by editing an existing one:
+You can create a [Transient](../../../sites/developing/using/workflows.md#transient-workflows) workflow model when creating a new model, or by editing an existing one:
 
 1. Open the workflow model for [editing](#editinganexistingworkflow).
 1. Select **Workflow Model Properties** from the toolbar.
@@ -183,15 +183,15 @@ You can create a [Transient](../../../sites/developing/using/workflows.md#transi
 
 1. Confirm the change with **Save & Close**; followed by **Sync** (editor toolbar) to generate the runtime model.
 
-   See [Sync your Workflow](#syncyourworkflowgeneratearuntimemodel) for details.
+   See [Sync your Workflow](#sync-your-workflow-generate-a-runtime-model) for details.
 
 >[!NOTE]
 >
->When you run a workflow in [transient](../../../sites/developing/using/workflows.md#transientworkflows) mode AEM does not store any workflow history. Therefore, [Timeline](../../../sites/authoring/using/basic-handling.md#timeline) does not display any information related to that workflow. [](../../../sites/authoring/using/basic-handling.md#timeline)
+>When you run a workflow in [transient](../../../sites/developing/using/workflows.md#transient-workflows) mode AEM does not store any workflow history. Therefore, [Timeline](../../../sites/authoring/using/basic-handling.md#timeline) does not display any information related to that workflow. [](../../../sites/authoring/using/basic-handling.md#timeline)
 
 ### Configuring a Workflow for Multi Resource Support {#configuring-a-workflow-for-multi-resource-support}
 
-You can configure a workflow model for [Multi Resource Support](../../../sites/developing/using/workflows.md#multiresourcesupport) when creating a new model, or by editing an existing one:
+You can configure a workflow model for [Multi Resource Support](../../../sites/developing/using/workflows.md#multi-resource-support) when creating a new model, or by editing an existing one:
 
 1. Open the workflow model for [editing](#editinganexistingworkflow).
 1. Select **Workflow Model Properties** from the toolbar.  
@@ -202,11 +202,11 @@ You can configure a workflow model for [Multi Resource Support](../../../sites/d
 
 1. Confirm the change with **Save & Close**; followed by **Sync** (editor toolbar) to generate the runtime model.
 
-   See [Sync your Workflow](#syncyourworkflowgeneratearuntimemodel) for details.
+   See [Sync your Workflow](#sync-your-workflow-generate-a-runtime-model) for details.
 
 ### Configuring Workflow Stages (that show Workflow Progress) {#configuring-workflow-stages-that-show-workflow-progress}
 
-[Workflow Stages](../../../sites/developing/using/workflows.md#workflowstages) help visualize the progress of a workflow when handling tasks.
+[Workflow Stages](../../../sites/developing/using/workflows.md#workflow-stages) help visualize the progress of a workflow when handling tasks.
 
 >[!CAUTION]
 >
@@ -242,13 +242,13 @@ To define **Stages** for your workflow:
 
 1. Confirm the changes with **Sync** (editor toolbar) to generate the runtime model.
 
-   See [Sync your Workflow](#syncyourworkflowgeneratearuntimemodel) for details.
+   See [Sync your Workflow](#sync-your-workflow-generate-a-runtime-model) for details.
 
 ## Exporting a Workflow Model in a Package {#exporting-a-workflow-model-in-a-package}
 
 To export a workflow model in a package:
 
-1. Create a new package using the [Package Manager](../../../sites/administering/using/package-manager.md#packagemanager):
+1. Create a new package using the [Package Manager](../../../sites/administering/using/package-manager.md#package-manager):
 
     1. Navigate to the Package Manager via **Tools**, **Deployment**, **Packages**.
     
@@ -312,7 +312,7 @@ You can also configure AEM to display **DEBUG** messages in the log files. See [
 
 To illustrate some of the possibilities for creating a workflow, the following example creates a variation of the `Publish Example` workflow.
 
-1. [Create a new workflow model](#creatinganewworkflow).
+1. [Create a new workflow model](#creating-a-new-workflow).
 
    The new workflow will contain:
 
@@ -371,7 +371,7 @@ To illustrate some of the possibilities for creating a workflow, the following e
 
 1. Click **Sync** (editor toolbar) to generate the runtime model.
 
-   See [Sync your Workflow](#syncyourworkflowgeneratearuntimemodel) for details.
+   See [Sync your Workflow](#sync-your-workflow-generate-a-runtime-model) for details.
 
    Your new workflow model will look like:
 
@@ -393,7 +393,7 @@ To define an OR rule, proceed as follows:
 
    >[!NOTE]
    >
-   >The scripts must have a [function `check()`](#functioncheck) that returns a boolean.
+   >The scripts must have a [function `check()`](#function-check) that returns a boolean.
 
 1. Edit the workflow and add the **OR Split** to the model.
 1. Edit the properties of **Branch 1** of the **OR Split**:
@@ -415,13 +415,13 @@ To define an OR rule, proceed as follows:
 1. Set the properties of the individual steps in each branch. Make sure the **User/Group** is set.
 1. Click **Sync** (editor toolbar) to persist your changes to the runtime model.
 
-   See [Sync your Workflow](#syncyourworkflowgeneratearuntimemodel) for details.
+   See [Sync your Workflow](#sync-your-workflow-generate-a-runtime-model) for details.
 
 #### Function Check() {#function-check}
 
 >[!NOTE]
 >
->See [Using ECMAScript](../../../sites/developing/using/workflows-customizing-extending.md#usingecmascript).
+>See [Using ECMAScript](../../../sites/developing/using/workflows-customizing-extending.md#using-ecmascript).
 
 The following sample script returns `true` if the node is a `JCR_PATH` located under `/content/we-retail/us/en`:
 
@@ -447,4 +447,4 @@ function check() {
 
 You can customize any of the out-of-the-box workflows. To have customized behavior you overlay details of the appropriate workflow.
 
-For example, **Request for Activation**. This workflow is used for publishing pages within **Sites** and is automatically triggered when a content author does not have the appropriate replication rights. See [Customizing Page Authoring - Customizing the Request for Activation Workflow](../../../sites/developing/using/customizing-page-authoring-touch.md#customizingtherequestforactivationworkflow) for further details.
+For example, **Request for Activation**. This workflow is used for publishing pages within **Sites** and is automatically triggered when a content author does not have the appropriate replication rights. See [Customizing Page Authoring - Customizing the Request for Activation Workflow](../../../sites/developing/using/customizing-page-authoring-touch.md#customizing-the-request-for-activation-workflow) for further details.

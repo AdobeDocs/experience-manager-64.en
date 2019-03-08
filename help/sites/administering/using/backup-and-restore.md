@@ -3,12 +3,12 @@ title: Backup and Restore
 seo-title: Backup and Restore
 description: Learn how to backup and restore your AEM content.
 seo-description: Learn how to backup and restore your AEM content.
-uuid: 92028359-61d2-4b9e-87be-9246556d49b4
+uuid: d1eaf528-083c-4f39-b313-6347a50666c2
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: b072ff8b-dea7-4cf9-a01a-a8aea59e6636
+discoiquuid: 0d5e3a2e-bd75-441d-a09e-49e3e32ea3ba
 index: y
 internal: n
 snippet: y
@@ -30,7 +30,7 @@ If you need to backup and/or recover a small amount of content, which is lost, a
 * Either you can fetch the data from another system via a package
 * or you restore the backup on a temporary system, create a content package and deploy it on the system, where this content is missing.
 
-For details, see [Package Backup](../../../sites/administering/using/backup-and-restore.md#packagebackup) below.
+For details, see [Package Backup](../../../sites/administering/using/backup-and-restore.md#package-backup) below.
 
 ### Timing {#timing}
 
@@ -77,7 +77,7 @@ An online backup of your repository lets you create, download, and delete backup
 
 >[!CAUTION]
 >
->Do not run AEM Online Backup concurrently with [Datastore Garbage Collection](../../../sites/administering/using/data-store-garbage-collection.md) or [Revision Cleanup](../../../sites/deploying/using/storage-elements-in-aem-6.md#performingofflinerevisioncleanup). It will negatively affect the system performance.
+>Do not run AEM Online Backup concurrently with [Datastore Garbage Collection](../../../sites/administering/using/data-store-garbage-collection.md) or [Revision Cleanup](../../../sites/deploying/using/storage-elements-in-aem-6.md#performing-offline-revision-cleanup). It will negatively affect the system performance.
 
 When starting a backup you can specify a** Target Path** and/or a **Delay**.
 
@@ -109,7 +109,7 @@ A delay of 1 millisecond typically results in 10% CPU usage, and a delay of 10 m
 
 >[!NOTE]
 >
->See [How AEM Online Backup Works](#howaemonlinebackupworks) for internal details of the process.
+>See [How AEM Online Backup Works](#how-aem-online-backup-works) for internal details of the process.
 
 To create a backup:
 

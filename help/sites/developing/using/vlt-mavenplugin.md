@@ -3,12 +3,12 @@ title: Managing Packages Using Maven
 seo-title: Managing Packages Using Maven
 description: Use the Content Package Maven plugin to integrate package management tasks into your Maven projects
 seo-description: Use the Content Package Maven plugin to integrate package management tasks into your Maven projects
-uuid: 14160573-d41c-4b28-912a-39ffd4ef019e
+uuid: cd07dfa5-1872-4a2c-9044-7bcc6745a816
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: development-tools
 content-type: reference
-discoiquuid: 44e297b9-fd9a-44f1-841e-bc761d8c24da
+discoiquuid: 58af2e77-9fa9-4aeb-811a-b3b31631d055
 index: y
 internal: n
 snippet: y
@@ -39,7 +39,7 @@ To use the Content Package Maven Plugin, add the following plugin element inside
 </plugin>
 ```
 
-To enable Maven to download the plugin, use the profile provided in the [Obtaining the Content Package Maven Plugin](#obtainingthecontentpackagemavenplugin) section on this page.
+To enable Maven to download the plugin, use the profile provided in the [Obtaining the Content Package Maven Plugin](#obtaining-the-content-package-maven-plugin) section on this page.
 
 ## Goals of the Content Package Maven Plugin {#goals-of-the-content-package-maven-plugin}
 
@@ -164,7 +164,7 @@ Builds a content package that is already defined on a CRX or CQ5 server.
 
 #### Parameters {#parameters}
 
-All paramaters for the build goal are described in the [Common Parameters](#commonparameters) section.
+All paramaters for the build goal are described in the [Common Parameters](#common-parameters) section.
 
 #### Example {#example}
 
@@ -207,7 +207,7 @@ Installs a package in the CRX respository. Execution of this goal does not requi
 
 #### Parameters {#parameters-1}
 
-In addition to the following parameters, see the descriptions in the [Common Parameters](#commonparameters) section.
+In addition to the following parameters, see the descriptions in the [Common Parameters](#common-parameters) section.
 
 <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
  <tbody> 
@@ -352,7 +352,7 @@ Lists the packages that are deployed to Package Manager.
 
 #### Parameters {#parameters-2}
 
-All parameters of the ls goal are described in the [Common Parameters](#commonparameters) section.
+All parameters of the ls goal are described in the [Common Parameters](#common-parameters) section.
 
 #### Example {#example-2}
 
@@ -393,7 +393,7 @@ Removes a package from Package Manager.
 
 #### Parameters {#parameters-3}
 
-All parameters of the rm goal are described in the [Common Parameters](#commonparameters) section.
+All parameters of the rm goal are described in the [Common Parameters](#common-parameters) section.
 
 #### Example {#example-3}
 
@@ -435,7 +435,7 @@ Uninstalls a package. The package remains on the server in the uninstalled state
 
 #### Parameters {#parameters-4}
 
-All parameters of the uninstall goal are described in the [Common Parameters](#commonparameters) section.
+All parameters of the uninstall goal are described in the [Common Parameters](#common-parameters) section.
 
 #### Example {#example-4}
 
@@ -478,7 +478,7 @@ Creates a content package. The default configuration of the package goal include
 
 #### Parameters {#parameters-5}
 
-In addition to the following parameters, see the description of the `name` parameter in the [Common Parameters](#commonparameters) section.
+In addition to the following parameters, see the description of the `name` parameter in the [Common Parameters](#common-parameters) section.
 
 <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
  <tbody> 
@@ -889,9 +889,9 @@ The following POM code adds only a thumbnail image to the package. The thumbnail
 
 Several Maven archetypes are available for generating CQ projects. Use the archetype that corresponds with your development goals:
 
-* A content package that installs resources for a CQ application: [simple-content-package-archetype](#simplecontentpackagearchetype)
-* A content package that includes third-party artifacts: [simple-content-package-with-embedded-archetype](#simplecontentpackagewithembeddedarchetype).
-* A multi-module application that accomodates the development of Java classes and unit tests: [multimodule-content-package-archetype](#multimodulecontentpackagearchetype).
+* A content package that installs resources for a CQ application: [simple-content-package-archetype](#simple-content-package-archetype)
+* A content package that includes third-party artifacts: [simple-content-package-with-embedded-archetype](#simple-content-package-with-embedded-archetype).
+* A multi-module application that accomodates the development of Java classes and unit tests: [multimodule-content-package-archetype](#multimodule-content-package-archetype).
 
 >[!NOTE]
 >

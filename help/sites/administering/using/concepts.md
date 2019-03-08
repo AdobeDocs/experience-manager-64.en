@@ -3,12 +3,12 @@ title: Concepts
 seo-title: Concepts
 description: General Concepts of eCommerce with AEM.
 seo-description: General Concepts of eCommerce with AEM.
-uuid: 86dea58b-55bb-45d0-9767-c5fe306823a0
+uuid: 64b52fa9-10a6-429b-b3af-c8a6eed55fee
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: e-commerce
 content-type: reference
-discoiquuid: 25029541-0889-4d84-a3e0-b480d3445103
+discoiquuid: edde3c63-21e5-4acb-9a92-e92a25a9bbf1
 index: y
 internal: n
 snippet: y
@@ -165,7 +165,7 @@ Though usually a project will need to develop their own, customized, commerce pr
 >
 >The geometrixx importers use CSV files; there is a description of the schema accepted (with custom properties allowed) in the comments above their implementation.
 
-The ` [ProductServicesManager](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/commerce/pim/api/ProductServicesManager)` maintains (through [OSGi](../../../sites/deploying/using/configuring.md#osgiconfigurationsettings)) a list of implementations of the ` [ProductImporter](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/commerce/pim/api/ProductImporter)` and ` [CatalogBlueprintImporter](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/commerce/pim/api/CatalogBlueprintImporter)` interfaces. These are listed in the **Importer/Commerce Provider** dropdown field of the importer wizard (using the `commerceProvider` property as a name).
+The ` [ProductServicesManager](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/commerce/pim/api/ProductServicesManager.md)` maintains (through [OSGi](../../../sites/deploying/using/configuring.md#osgi-configuration-settings)) a list of implementations of the ` [ProductImporter](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/commerce/pim/api/ProductImporter.md)` and ` [CatalogBlueprintImporter](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/commerce/pim/api/CatalogBlueprintImporter.md)` interfaces. These are listed in the **Importer/Commerce Provider** dropdown field of the importer wizard (using the `commerceProvider` property as a name).
 
 When a specific importer/commerce provider is available from the dropdown, any supplemental data it needs must be defined (depending on the importer type) in either:
 
@@ -298,7 +298,7 @@ A catalog groups product data together for both ease of management and represent
 
 AEM supports product content in multiple languages. When requesting data, the integration framework retrieves the language from the current tree (for example, `en_US` for pages under `/content/geometrixx-outdoors/en_US`).
 
-For a multi-lingual store, you can import your catalog for each language tree individually (or copy it by means of [MSM](/content/docs/en/aem/6-3/administer/sites/multi-site-manager)).
+For a multi-lingual store, you can import your catalog for each language tree individually (or copy it by means of [MSM](/content/docs/en/aem/6-3/administer/sites/multi-site-manager.md)).
 
 #### Catalogs for Multiple Brands {#catalogs-for-multiple-brands}
 
@@ -319,8 +319,8 @@ Depending on your implementation, you can import the product data required for y
 
 Further changes to the product data will be inevitable:
 
-* for the generic implementation these can be managed with the [product editor](../../../sites/administering/using/generic.md#editingproductinformation)
-* when using an [eCommerce engine the changes must be synchronized](#datasynchronizationwithanecommerceengineongoing)
+* for the generic implementation these can be managed with the [product editor](../../../sites/administering/using/generic.md#editing-product-information)
+* when using an [eCommerce engine the changes must be synchronized](#data-synchronization-with-an-ecommerce-engine-ongoing)
 
 #### Data Synchronization with an eCommerce Engine (Ongoing) {#data-synchronization-with-an-ecommerce-engine-ongoing}
 
@@ -330,7 +330,7 @@ When using an eCommerce engine the product data is maintained there and needs to
 
 This can depend on the type of data:
 
-* A [periodic synchronization is used together with a data feed of changes](../../../sites/developing/using/hybris.md#productsynchronizationandpublishing).  
+* A [periodic synchronization is used together with a data feed of changes](../../../sites/developing/using/hybris.md#product-synchronization-and-publishing).  
   In addition to this, you can select specific updates for an express update.
 
 * Highly volatile data, such as price information, is retrieved from the commerce engine for each page request, to ensure that it is always up to date.
@@ -343,11 +343,11 @@ There are various strategies you can choose to work around these issues:
 
 * [Bucketing](#bucketing) - to cater for the large number of nodes  
 
-* [Offload asset post processing to a dedicated instance](#offloadassetpostprocessingtoadedicatedinstance)
-* [Only import product data](#onlyimportproductdata)
-* [Import Throttling and Batch Saves](#importthrottlingandbatchsaves)
-* [Performance Testing](#performancetesting)
-* [Performance - Miscellaneous](#performancemiscellaneous)
+* [Offload asset post processing to a dedicated instance](#offload-asset-post-processing-to-a-dedicated-instance)
+* [Only import product data](#only-import-product-data)
+* [Import Throttling and Batch Saves](#import-throttling-and-batch-saves)
+* [Performance Testing](#performance-testing)
+* [Performance - Miscellaneous](#performance-miscellaneous)
 
 #### Bucketing {#bucketing}
 
@@ -374,7 +374,7 @@ For cases when products do not contain assets (images) to be imported, you can i
 
 #### Import Throttling and Batch Saves {#import-throttling-and-batch-saves}
 
-[Import throttling](../../../sites/deploying/using/scaling.md#importthrottling) and [batch saves](../../../sites/deploying/using/scaling.md#batchsaves) are two general [scaling](../../../sites/deploying/using/scaling.md) mechanisms that can help when importing large volumes of data.
+[Import throttling](../../../sites/deploying/using/scaling.md#import-throttling) and [batch saves](../../../sites/deploying/using/scaling.md#batch-saves) are two general [scaling](../../../sites/deploying/using/scaling.md) mechanisms that can help when importing large volumes of data.
 
 #### Performance Testing {#performance-testing}
 
@@ -428,7 +428,7 @@ For all implementations the following points can be kept in mind:
 
 * In your technical stack, plan very factorized content access model and services. This is a general best practice, but is even more crucial her, as you can, in optimization phases, add application caches for data that is read very often (and that you do not want to fill the bundle cache with).  
   For example, attributes management is very frequently a good candidate for caching as it concerns data that is updated through products import.
-* Consider use of [proxy pages](../../../sites/administering/using/concepts.md#proxypages).
+* Consider use of [proxy pages](../../../sites/administering/using/concepts.md#proxy-pages).
 
 ### Catalog Section Pages {#catalog-section-pages}
 
@@ -818,13 +818,13 @@ Payment Card Industry (PCI) complicance can be achieved.
 
 ### Confirmation of Order {#confirmation-of-order}
 
-The order is confirmed on screen and can be tracked with the [order tracking](#ordertracking).
+The order is confirmed on screen and can be tracked with the [order tracking](#order-tracking).
 
 ## Search {#search}
 
 ![](assets/chlimage_1-181.png)
 
-Since AEM uses standard pages for products, you can use the [standard search component](/content/docs/en/aem/6-3/author/page-authoring/default-components/editmode#Search) to create a search page.
+Since AEM uses standard pages for products, you can use the [standard search component](/content/docs/en/aem/6-3/author/page-authoring/default-components/editmode.md#search) to create a search page.
 
 If you require a more thorough implementation, you can either:
 

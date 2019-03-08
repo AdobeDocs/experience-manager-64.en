@@ -3,12 +3,12 @@ title: MSRP - MongoDB Storage Resource Provider
 seo-title: MSRP - MongoDB Storage Resource Provider
 description: Set up AEM Communities to use a relational database as its common store
 seo-description: Set up AEM Communities to use a relational database as its common store
-uuid: fd7f7854-12a0-4bf8-aafa-0f3b384258dc
+uuid: 8c5e7cf2-c415-4436-b698-1c7de3eee1e3
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 1b4f2484-c2c6-4ba9-ae8e-48b4b714fb87
+discoiquuid: df49752c-9cd7-41c8-b03a-0c4af9429f22
 index: y
 internal: n
 snippet: y
@@ -20,7 +20,7 @@ snippet: y
 
 When AEM Communities is configured to use MSRP as its common store, user generated content (UGC) is accessible from all author and publish instances without the need for synchronization nor replication.
 
-See also [Characteristics of SRP Options](../../communities/using/working-with-srp.md#characteristicsofsrpoptions) and [Recommended Topologies](../../communities/using/topologies.md).
+See also [Characteristics of SRP Options](../../communities/using/working-with-srp.md#characteristics-of-srp-options) and [Recommended Topologies](../../communities/using/topologies.md).
 
 ## Requirements {#requirements}
 
@@ -39,12 +39,12 @@ See also [Characteristics of SRP Options](../../communities/using/working-with-s
     * choice of run modes :
 
         * standalone mode
-        * [SolrCloud mode](../../communities/using/solr.md#solrcloudmode) (recommended for production environments)
+        * [SolrCloud mode](../../communities/using/solr.md#solrcloud-mode) (recommended for production environments)
 
     * choice of Multilingual Search (MLS)
 
-        * [Installing Standard MLS](../../communities/using/solr.md#installingstandardmls)
-        * [Installing Advanced MLS](../../communities/using/solr.md#installingadvancedmls)
+        * [Installing Standard MLS](../../communities/using/solr.md#installing-standard-mls)
+        * [Installing Advanced MLS](../../communities/using/solr.md#installing-advanced-mls)
 
 ## MongoDB Configuration {#mongodb-configuration}
 
@@ -76,7 +76,7 @@ On author, to access the Storage Configuration console :
 * **SolrConfiguration**
 
     * ** [Zookeeper](https://cwiki.apache.org/confluence/display/solr/Using+ZooKeeper+to+Manage+Configuration+Files) Host** 
-      When running in [SolrCloud mode](../../communities/using/solr.md#solrcloudmode) with an external ZooKeeper, set this value to the `HOST:PORT` for the ZooKeeper, such as *my.server.com:2181* 
+      When running in [SolrCloud mode](../../communities/using/solr.md#solrcloud-mode) with an external ZooKeeper, set this value to the `HOST:PORT` for the ZooKeeper, such as *my.server.com:2181* 
       For a ZooKeeper Ensemble, enter comma-separated `HOST:PORT` values, such as *host1:2181,host2:2181* 
       Leave blank if running Solr in standalone mode using the internal ZooKeeper.  
       *default* : * &lt;blank&gt;*
@@ -120,7 +120,7 @@ A Solr installation may be shared between the node store (Oak) and common store 
 
 If both the Oak and MSRP collections are used intensively, a second Solr may be installed for performance reasons.
 
-For production environments, [SolrCloud mode](../../communities/using/solr.md#solrcloudmode) provides improved performance over standalone mode (a single, local Solr setup).
+For production environments, [SolrCloud mode](../../communities/using/solr.md#solrcloud-mode) provides improved performance over standalone mode (a single, local Solr setup).
 
 For configuration details, see [Solr Configuration for SRP](../../communities/using/solr.md).
 
@@ -131,11 +131,11 @@ If upgrading from an earlier version configured with MSRP, it will be necessary 
 1. perform the [upgrade to AEM Communities](../../communities/using/upgrade.md)
 1. install new Solr configuration files
 
-    * for [standard MLS](../../communities/using/solr.md#installingstandardmls)
-    * for [advanced MLS](../../communities/using/solr.md#installingadvancedmls)
+    * for [standard MLS](../../communities/using/solr.md#installing-standard-mls)
+    * for [advanced MLS](../../communities/using/solr.md#installing-advanced-mls)
 
 1. reindex MSRP  
-   see section [MSRP Reindex Tool](#msrpreindextool)
+   see section [MSRP Reindex Tool](#msrp-reindex-tool)
 
 ## Publishing the Configuration {#publishing-the-configuration}
 
@@ -253,7 +253,7 @@ at com.adobe.cq.social.scf.core.BaseSocialComponent.toJSONString(BaseSocialCompo
 ... 124 common frames omitted
 ```
 
-To resolve the error, when following the instructions for [Installing Standard MLS](../../communities/using/solr.md#installingstandardmls), ensure
+To resolve the error, when following the instructions for [Installing Standard MLS](../../communities/using/solr.md#installing-standard-mls), ensure
 
 * the XML configuration files were copied to the correct Solr location
 * Solr was restarted after the new configuration files replaced the existing ones

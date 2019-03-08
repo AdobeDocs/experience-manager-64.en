@@ -3,12 +3,12 @@ title: Creating Adobe Campaign Forms in AEM
 seo-title: Creating Adobe Campaign Forms in AEM
 description: AEM lets you create and use forms that interact with Adobe Campaign on your website
 seo-description: AEM lets you create and use forms that interact with Adobe Campaign on your website
-uuid: dbb5c931-ae7b-4c1c-973b-5c6d46929fa0
+uuid: b60db0d5-c213-4355-889b-7bef56841372
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: personalization
-discoiquuid: da0aaca4-6949-4700-950b-4f269261b7ca
+discoiquuid: bb4f212b-f33d-48ac-a4ac-cfa8105c7428
 index: y
 internal: n
 snippet: y
@@ -36,7 +36,7 @@ These forms define a URL parameter that accepts the encrypted primary key of an 
 
 Although you create these forms independently, in a typical use case, you generate a personalized link to a form page inside the newsletter content, so that recipients can open the link and make adjustments to their profile data (whether unsubscribing, subscribing, or updating their profile).
 
-The form automatically updates based on the user. See [Editing Form Content](#editingformcontent) for more information.
+The form automatically updates based on the user. See [Editing Form Content](#editing-form-content) for more information.
 
 ## Making a Template Available {#making-a-template-available}
 
@@ -68,7 +68,7 @@ First of all, check the connection between the author and publish instances and 
 
    ![](assets/chlimage_1-44.png)
 
-1. On the page, in the **Form Start** component, select the type of form it is - **Subscribe, Unsubscribe, **or** Save Profile**. You can only have one type per form. You can now [edit the form's content](#editingformcontent).
+1. On the page, in the **Form Start** component, select the type of form it is - **Subscribe, Unsubscribe, **or** Save Profile**. You can only have one type per form. You can now [edit the form's content](#editing-form-content).
 
 ## Editing Form Content {#editing-form-content}
 
@@ -112,7 +112,7 @@ This section only details specific links to Adobe Campaign. For more information
    >
    >You can add/remove fields that are displayed in the recipient table by following the instructions here: [http://blogs.adobe.com/experiencedelivers/experience-management/aem-campaign-integration/](http://blogs.adobe.com/experiencedelivers/experience-management/aem-campaign-integration/)
 
-1. Click **Publish Page**. The page is activated on your site. You can view it by going to your AEM publication instance. You can also [test a form](#testingaform).
+1. Click **Publish Page**. The page is activated on your site. You can view it by going to your AEM publication instance. You can also [test a form](#testing-a-form).
 
    >[!CAUTION]
    >

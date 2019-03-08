@@ -3,9 +3,9 @@ title: AEM FAQs
 seo-title: AEM 6.4 frequently asked questions
 description: Use these FAQs to understand, configure, and troubleshoot common workflows or issues in AEM.
 seo-description: Use these FAQs to understand, configure, and troubleshoot common workflows or issues in AEM.
-uuid: 02fab458-58c6-40e1-9dc9-4395f2ad9508
+uuid: 04cc1dda-ab4e-44a9-9aa3-941c99cf628c
 contentOwner: jsyal
-discoiquuid: 2fc7396e-19b9-4174-aa25-41c4364638a1
+discoiquuid: b30939a8-7304-44b3-81a6-24d2d9bd476f
 index: y
 internal: n
 snippet: y

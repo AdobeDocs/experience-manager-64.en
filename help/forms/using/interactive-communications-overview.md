@@ -3,12 +3,12 @@ title: Interactive Communications Overview
 seo-title: Interactive Communications Overview
 description: This article includes overview, sample use cases, creation workflow, and differences between Interactive Communication and letter.
 seo-description: Interactive Communication key capabilities, sample use cases, creation workflow, and differences between Interactive Communication and Correspondence Management
-uuid: 263f7f1a-2e9d-4ee6-addd-8bb185259c55
+uuid: c9556a79-c394-4220-b1e1-90d85d9c656f
 contentOwner: gtalwar
 topic-tags: interactive-communications
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: introduction
-discoiquuid: 1594c1d1-5b74-4975-9064-4f131f76195d
+discoiquuid: cf8e81e8-7a42-4c52-b1e5-03c9bae29c3a
 index: y
 internal: n
 snippet: y
@@ -35,7 +35,7 @@ Following are the key capabilities of Interactive Communications:
 
 ## Sample use case {#sample-use-case}
 
-The [Welcome kit for a credit card customer](../../forms/using/finance-reference-site-walkthrough.md#creditcardapplicationwalkthrough) sample use case showcases the capabilities of an Interactive Communication. 
+The [Welcome kit for a credit card customer](../../forms/using/finance-reference-site-walkthrough.md#credit-card-application-walkthrough) sample use case showcases the capabilities of an Interactive Communication. 
 
 ## Interactive Communication creation  {#interactive-communication-creation}
 
@@ -55,7 +55,7 @@ To create an Interactive Communication, have the [building blocks](#buildingbloc
     1. Images
     1. [Tables](../../forms/using/create-interactive-communication.md#tables) (Including Layout Fragments)
     1. [Charts](../../forms/using/chart-component-interactive-communications.md)
-    1. [Document fragments](../../forms/using/create-interactive-communication.md#documentfragmentproperties)
+    1. [Document fragments](../../forms/using/create-interactive-communication.md#document-fragment-properties)
 
 1. Preview print and web channels and, if required, edit the Interactive Communication. 
 1. The agent uses the Agent UI to [prepare the Interactive Communication](../../forms/using/prepare-send-interactive-communication.md) for sending it to the recipient/post process.

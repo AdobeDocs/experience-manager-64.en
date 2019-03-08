@@ -3,12 +3,12 @@ title: Language Copy Wizard
 seo-title: Language Copy Wizard
 description: Learn about using the Language Copy Wizard in AEM.
 seo-description: Learn about using the Language Copy Wizard in AEM.
-uuid: 99df14ad-3b9d-432e-8ca0-ab1d094834af
+uuid: 09f02e99-3939-46fe-9158-7826f0531a71
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features
 content-type: reference
-discoiquuid: 1b9a5d7c-0dc4-4340-8b98-3c7ff44f50f8
+discoiquuid: c51acc86-3f23-443c-8d90-2120fb7752ac
 index: y
 internal: n
 snippet: y

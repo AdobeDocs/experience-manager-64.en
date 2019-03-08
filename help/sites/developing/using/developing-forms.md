@@ -3,12 +3,12 @@ title: Developing Forms (Classic UI)
 seo-title: Developing Forms (Classic UI)
 description: Learn how to develop forms
 seo-description: Learn how to develop forms
-uuid: 41f84213-3459-495b-921f-512ce923cbcf
+uuid: 23f746be-21d6-400a-b129-57e9847442b1
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: components
 content-type: reference
-discoiquuid: 9f26ae49-dde5-4be5-99a4-b5feb142702d
+discoiquuid: 6e4aa9e0-6ea1-4c0c-90a3-c1431984ebf8
 index: y
 internal: n
 snippet: y
@@ -26,14 +26,14 @@ All of these are realised with a series of default [Form components](../../../si
 
 In addition to [developing new components](../../../sites/developing/using/developing-components-samples.md) for use on your forms you can also:
 
-* [Preload your form with values](#preloadingformvalues)
+* [Preload your form with values](#preloading-form-values)
 * [Preload (certain) fields with multiple values   
-  ](#preloadingformfieldswithmultiplevalues)
-* [Develop new actions](#developingyourownformactions)
-* [Develop new constraints](#developingyourownformconstraints)
-* [Show or hide specific form fields](#showingandhidingformcomponents)
+  ](#preloading-form-fields-with-multiple-values)
+* [Develop new actions](#developing-your-own-form-actions)
+* [Develop new constraints](#developing-your-own-form-constraints)
+* [Show or hide specific form fields](#showing-and-hiding-form-components)
 
-[Using scripts](#developingscriptsforusewithforms) to extend functionality where necessary.
+[Using scripts](#developing-scripts-for-use-with-forms) to extend functionality where necessary.
 
 >[!NOTE]
 >
@@ -49,7 +49,7 @@ This is an optional field that specifies the path to a node in the repository. W
 
 >[!NOTE]
 >
->A [form action](#developingyourownformactions) can also set the resource from which to load the initial values. This is done using `FormsHelper#setFormLoadResource` inside `init.jsp`.
+>A [form action](#developing-your-own-form-actions) can also set the resource from which to load the initial values. This is done using `FormsHelper#setFormLoadResource` inside `init.jsp`.
 >
 >Only if that is not set, will the form be populated from the path set in the start form component by the author.
 
@@ -190,8 +190,8 @@ You can add your own action under `/apps` as follows:
 
 Constraints can be imposed at two levels:
 
-* For [individual fields (see the following procedure)](#constraintsforindividualfields)
-* As [form-global validation](#formglobalconstraints)
+* For [individual fields (see the following procedure)](#constraints-for-individual-fields)
+* As [form-global validation](#form-global-constraints)
 
 #### Constraints for Individual Fields {#constraints-for-individual-fields}
 
@@ -318,7 +318,7 @@ When the Show/Hide configuration is invalid, the configuration is provided only 
 
 ### Developing Scripts for use with Forms {#developing-scripts-for-use-with-forms}
 
-For more information about the API elements that can be used when writing scripts see the [javadocs related to forms](/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/foundation/forms/package-summary).
+For more information about the API elements that can be used when writing scripts see the [javadocs related to forms](/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/foundation/forms/package-summary.md).
 
 You can use this for actions such as calling a service before the form is submitted and canceling the service if it fails:
 

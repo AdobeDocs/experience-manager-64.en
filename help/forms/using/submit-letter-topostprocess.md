@@ -3,11 +3,11 @@ title: Post processing of letters and interactive communications
 seo-title: Post Processing of Letters
 description: Post Processing of Letters in Correspondence Management lets you create AEM and Forms post processes, such as print and email, and integrate them with your letters.
 seo-description: Post Processing of Letters in Correspondence Management lets you create AEM and Forms post processes, such as print and email, and integrate them with your letters.
-uuid: 58c3143c-d0bc-4e32-80ec-d58325012f45
+uuid: 5bf68aa6-71d6-4c4a-a5ed-c73792da1bdf
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
-discoiquuid: 55097f47-d177-471b-a602-17084c515aec
+discoiquuid: 058ba141-54ea-4260-9ab4-40ebb36c5478
 index: y
 internal: n
 snippet: y
@@ -127,4 +127,4 @@ A draft letter instance can be reloaded in user interface by using the following
 
 LetterInstaceID: The unique ID of the submitted letter instance.
 
-For more information on saving a draft letter, see [Saving drafts and submitting letter instances](/forms/using/create-correspondence.html?cq_ck=1466429992287#SavingDrafts).
+For more information on saving a draft letter, see [Saving drafts and submitting letter instances](../../forms/using/create-correspondence.md#savingdrafts).

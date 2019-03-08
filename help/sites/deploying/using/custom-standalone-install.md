@@ -3,12 +3,12 @@ title: Custom Standalone Install
 seo-title: Custom Standalone Install
 description: Learn about the options available when installing a standalone AEM instance. 
 seo-description: Learn about the options available when installing a standalone AEM instance. 
-uuid: 7414bdd7-a042-4a8f-83b2-3a1e79433723
+uuid: 70800353-7804-4700-8569-ce16330dc186
 contentOwner: Tyler Rushton
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
-discoiquuid: 04bf096c-a07c-4926-b29c-102809bf40d9
+discoiquuid: 125fdb5c-36dd-4e7e-b8ee-5eb6ca8de8d3
 index: y
 internal: n
 snippet: y
@@ -294,8 +294,8 @@ Although there are many possibilities to configure AEM WCM, certain actions shou
 
 Once AEM WCM has been started, you can also access:
 
-* [CRXDE Lite](#accessingcrxdelite) - used to access and manage the repository
-* [Web Console](#accessingthewebconsole) - used to manage or configure the OSGi bundles (also known as the OSGi Console)
+* [CRXDE Lite](#accessing-crxde-lite) - used to access and manage the repository
+* [Web Console](#accessing-the-web-console) - used to manage or configure the OSGi bundles (also known as the OSGi Console)
 
 #### Accessing CRXDE Lite {#accessing-crxde-lite}
 
@@ -325,7 +325,7 @@ or for the Bundles page
 
 ![](assets/chlimage_1-74.png)
 
-See [OSGi Configuration with the Web Console](../../../sites/deploying/using/configuring-osgi.md#osgiconfigurationwiththewebconsole) for further details.
+See [OSGi Configuration with the Web Console](../../../sites/deploying/using/configuring-osgi.md#osgi-configuration-with-the-web-console) for further details.
 
 ## Troubleshooting {#troubleshooting}
 

@@ -3,12 +3,12 @@ title: Configuring Live Copy Synchronization
 seo-title: Configuring Live Copy Synchronization
 description: Learn about configuring Live Copy Synchronization.
 seo-description: Learn about configuring Live Copy Synchronization.
-uuid: 77f72963-1b17-4d8b-8a53-a294e5fbab58
+uuid: aa980789-5188-48f4-bacd-b9f4accc5593
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features
 content-type: reference
-discoiquuid: d05db8aa-e85f-43f8-a79f-47095882a671
+discoiquuid: 797ad6d6-01b8-444b-af5a-5b84bbaf2d75
 index: y
 internal: n
 snippet: y
@@ -43,7 +43,7 @@ Each rollout configuration uses a rollout trigger that causes the rollout to occ
 
 ### Installed Rollout Configurations {#installed-rollout-configurations}
 
-The following table lists the rollout configurations that are installed with AEM. The table includes the trigger and synchronization actions of each rollout configuration. If the installed rollout configuration actions do not meet your requirements, you can [create a new rollout configuration](#creatingarolloutconfiguration).
+The following table lists the rollout configurations that are installed with AEM. The table includes the trigger and synchronization actions of each rollout configuration. If the installed rollout configuration actions do not meet your requirements, you can [create a new rollout configuration](#creating-a-rollout-configuration).
 
 <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
  <tbody> 
@@ -51,7 +51,7 @@ The following table lists the rollout configurations that are installed with AEM
    <th>Name</th> 
    <th>Description</th> 
    <th>Trigger</th> 
-   <th>Synchronization Actions<br /> <br /> see also <a href="#installedsynchronizationactions">Installed Synchronization Actions</a></th> 
+   <th>Synchronization Actions<br /> <br /> see also <a href="#installed-synchronization-actions">Installed Synchronization Actions</a></th> 
   </tr> 
   <tr> 
    <td>Standard rollout config</td> 
@@ -118,7 +118,7 @@ The following table lists the rollout configurations that are installed with AEM
 
 ### Installed Synchronization Actions {#installed-synchronization-actions}
 
-The following table lists the synchronization actions that are installed with AEM. If the installed actions do not meet your requirements, you can [Create a New Synchronization Action](../../../sites/developing/using/extending-msm.md#creatinganewsynchronizationaction).
+The following table lists the synchronization actions that are installed with AEM. If the installed actions do not meet your requirements, you can [Create a New Synchronization Action](../../../sites/developing/using/extending-msm.md#creating-a-new-synchronization-action).
 
 <table border="1" cellpadding="1" cellspacing="0"> 
  <tbody> 
@@ -129,17 +129,17 @@ The following table lists the synchronization actions that are installed with AE
   </tr> 
   <tr> 
    <td>contentCopy</td> 
-   <td>When nodes of the source do not exist on the live copy, copies the nodes to the live copy. <a href="#excludingpropertiesandnodetypesfromsynchronization">Configure the CQ MSM Content Copy Action service</a> to specify the node types, paragraph items, and page properties to exclude. <br /> </td> 
+   <td>When nodes of the source do not exist on the live copy, copies the nodes to the live copy. <a href="#excluding-properties-and-node-types-from-synchronization">Configure the CQ MSM Content Copy Action service</a> to specify the node types, paragraph items, and page properties to exclude. <br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>contentDelete</td> 
-   <td><p>Deletes nodes of the live copy that do not exist on the source. <a href="#excludingpropertiesandnodetypesfromsynchronization">Configure the CQ MSM Content Delete Action service</a> to specify the node types, paragraph items, and page properties to exclude. </p> </td> 
+   <td><p>Deletes nodes of the live copy that do not exist on the source. <a href="#excluding-properties-and-node-types-from-synchronization">Configure the CQ MSM Content Delete Action service</a> to specify the node types, paragraph items, and page properties to exclude. </p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>contentUpdate</td> 
-   <td>Updates the live copy content with the changes from the source. <a href="#excludingpropertiesandnodetypesfromsynchronization">Configure the CQ MSM Content Update Action service</a> to specify the node types, paragraph items, and page properties to exclude. <br /> </td> 
+   <td>Updates the live copy content with the changes from the source. <a href="#excluding-properties-and-node-types-from-synchronization">Configure the CQ MSM Content Update Action service</a> to specify the node types, paragraph items, and page properties to exclude. <br /> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -163,7 +163,7 @@ The following table lists the synchronization actions that are installed with AE
   </tr> 
   <tr> 
    <td>referencesUpdate</td> 
-   <td><p>On the live copy, this synchronization action updates references such as like links.<br /> It searches for paths in the live copy pages that point to a resource within the blueprint. When found, it updates the path to point to the related resource inside the live copy (instead of the blueprint). References that have targets outside the blueprint are not changed.</p> <p><a href="#excludingpropertiesandnodetypesfromsynchronization">Configure the CQ MSM References Update Action service</a> to specify the node types, paragraph items, and page properties to exclude. </p> </td> 
+   <td><p>On the live copy, this synchronization action updates references such as like links.<br /> It searches for paths in the live copy pages that point to a resource within the blueprint. When found, it updates the path to point to the related resource inside the live copy (instead of the blueprint). References that have targets outside the blueprint are not changed.</p> <p><a href="#excluding-properties-and-node-types-from-synchronization">Configure the CQ MSM References Update Action service</a> to specify the node types, paragraph items, and page properties to exclude. </p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -217,7 +217,7 @@ The following table lists the synchronization actions that are installed with AE
   </tr> 
   <tr> 
    <td>PageMoveAction</td> 
-   <td><p>The PageMoveAction applies when a page has been moved in the blueprint.</p> <p>The action copies rather than moves the (related) LiveCopy page from the location before the move to the location after.</p> <p>The PageMoveAction does not change the LiveCopy page at the location before the move. Therefore, for consecutive RolloutConfigurations it has the status of a LiveRelationhip without Blueprint.</p> <p><a href="#excludingpropertiesandnodetypesfromsynchronization">Configure the CQ MSM Page Move Action service</a> to specify the node types, paragraph items, and page properties to exclude. </p> <p>This action must be the only synchronization action included in a rollout configuration.</p> </td> 
+   <td><p>The PageMoveAction applies when a page has been moved in the blueprint.</p> <p>The action copies rather than moves the (related) LiveCopy page from the location before the move to the location after.</p> <p>The PageMoveAction does not change the LiveCopy page at the location before the move. Therefore, for consecutive RolloutConfigurations it has the status of a LiveRelationhip without Blueprint.</p> <p><a href="#excluding-properties-and-node-types-from-synchronization">Configure the CQ MSM Page Move Action service</a> to specify the node types, paragraph items, and page properties to exclude. </p> <p>This action must be the only synchronization action included in a rollout configuration.</p> </td> 
    <td><p>prop_referenceUpdate: (Boolean) Set to true to update references. Default is true.</p> <p> </p> </td> 
   </tr> 
   <tr> 
@@ -249,10 +249,10 @@ The following table lists the synchronization actions that are installed with AE
 
 ### Creating a Rollout Configuration {#creating-a-rollout-configuration}
 
-You can [create a rollout configuration](../../../sites/developing/using/extending-msm.md#creatinganewrolloutconfiguration) when the installed rollout configurations do not meet your application requirements:
+You can [create a rollout configuration](../../../sites/developing/using/extending-msm.md#creating-a-new-rollout-configuration) when the installed rollout configurations do not meet your application requirements:
 
-* [Create the rollout configuration](../../../sites/developing/using/extending-msm.md#createtherolloutconfiguration).
-* [Add synchronization actions to the rollout configuration](../../../sites/developing/using/extending-msm.md#addsynchronizationactionstotherolloutconfiguration).
+* [Create the rollout configuration](../../../sites/developing/using/extending-msm.md#create-the-rollout-configuration).
+* [Add synchronization actions to the rollout configuration](../../../sites/developing/using/extending-msm.md#add-synchronization-actions-to-the-rollout-configuration).
 
 The new rollout configuration is then available to you when setting rollout configurations on a blueprint or live copy page.
 

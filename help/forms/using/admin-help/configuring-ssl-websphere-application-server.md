@@ -3,12 +3,12 @@ title: Configuring SSL for WebSphere Application Server
 seo-title: Configuring SSL for WebSphere Application Server
 description: Learn how to configure SSL for WebSphere Application Server.
 seo-description: Learn how to configure SSL for WebSphere Application Server.
-uuid: b35a9226-945a-4d7a-a0a5-5f499e838e5d
+uuid: 54ce346b-28a3-4ab5-9b18-8243dd92fefd
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_ssl
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 78958ad2-6d32-451e-9667-1859ba8426cd
+discoiquuid: 2c2df454-b869-4ec1-a059-444d372075b0
 index: y
 internal: n
 snippet: y
@@ -22,7 +22,7 @@ This section includes the following steps to configure SSL with your IBM WebSphe
 
 For enabling SSL, WebSphere needs access to a user account in the local OS user registry that has permission to administer the system:
 
-* (Windows) Create a new Windows user who is part of the Administrators group and has the privilege to act as part of the operating system. (See [Create a Windows user for WebSphere](configuring-ssl-websphere-application-server#create_a_windows_user_for_websphere).) 
+* (Windows) Create a new Windows user who is part of the Administrators group and has the privilege to act as part of the operating system. (See [Create a Windows user for WebSphere](configuring-ssl-websphere-application-server.md#create_a_windows_user_for_websphere).) 
 * (Linux, UNIX) The user can be a root user or another user who has root privileges. When you enable SSL on WebSphere, use the server identification and password of this user.
 
 ### Create a Linux or UNIX user for WebSphere {#create-a-linux-or-unix-user-for-websphere}

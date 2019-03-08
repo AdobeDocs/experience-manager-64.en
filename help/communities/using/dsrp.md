@@ -3,12 +3,12 @@ title: DSRP - Relational Database Storage Resource Provider
 seo-title: DSRP - Relational Database Storage Resource Provider
 description: Set up AEM Communities to use a relational database as its common store
 seo-description: Set up AEM Communities to use a relational database as its common store
-uuid: e3e43257-a3ed-41b6-9d5d-ad3933dae54e
+uuid: 53e9421a-7b20-4718-ae51-15ed63695966
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 97948432-1b86-490a-aa03-73b37bff4bfe
+discoiquuid: c344e51f-854f-42da-b6ab-b0ac42cfe9a4
 index: y
 internal: n
 snippet: y
@@ -20,12 +20,12 @@ snippet: y
 
 When AEM Communities is configured to use a relational database as its common store, user generated content (UGC) is accessible from all author and publish instances without the need for synchronization nor replication.
 
-See also [Characteristics of SRP Options](../../communities/using/working-with-srp.md#characteristicsofsrpoptions) and [Recommended Topologies](../../communities/using/topologies.md).
+See also [Characteristics of SRP Options](../../communities/using/working-with-srp.md#characteristics-of-srp-options) and [Recommended Topologies](../../communities/using/topologies.md).
 
 ## Requirements {#requirements}
 
-* [MySQL](#mysqlconfiguration), a relational database
-* [Apache Solr](#solrconfiguration), a search platform
+* [MySQL](#mysql-configuration), a relational database
+* [Apache Solr](#solr-configuration), a search platform
 
 ## Relational Database Configuration {#relational-database-configuration}
 
@@ -71,13 +71,13 @@ On author, to access the Storage Configuration console
       *default* : communities
     
     * **Database name** 
-      name given to schema in [init_schema.sql](../../communities/using/dsrp-mysql.md#obtainthesqlscript) script  
+      name given to schema in [init_schema.sql](../../communities/using/dsrp-mysql.md#obtain-the-sql-script) script  
       *default* : communities
 
 * **SolrConfiguration**
 
     * ** [Zookeeper](https://cwiki.apache.org/confluence/display/solr/Using+ZooKeeper+to+Manage+Configuration+Files) Host** 
-      Leave this value blank if running Solr using the internal ZooKeeper. Else, when running in [SolrCloud mode](../../communities/using/solr.md#solrcloudmode) with an external ZooKeeper, set this value to the URI for the ZooKeeper, such as *my.server.com:80* 
+      Leave this value blank if running Solr using the internal ZooKeeper. Else, when running in [SolrCloud mode](../../communities/using/solr.md#solrcloud-mode) with an external ZooKeeper, set this value to the URI for the ZooKeeper, such as *my.server.com:80* 
       *default* : * &lt;blank&gt;*
     
     * **Solr URL** 
@@ -114,7 +114,7 @@ For information regarding *users*, *user profiles* and *user groups*, often ente
 
 ## Reindexing Solr for DSRP {#reindexing-solr-for-dsrp}
 
-To reindex DSRP Solr, follow the documentation for [reindexing MSRP](../../communities/using/msrp.md#msrpreindextool), however when reindexing for DSRP, use this URL instead: **/services/social/datastore/rdb/reindex**
+To reindex DSRP Solr, follow the documentation for [reindexing MSRP](../../communities/using/msrp.md#msrp-reindex-tool), however when reindexing for DSRP, use this URL instead: **/services/social/datastore/rdb/reindex**
 
 For example, a curl command to re-index DSRP would look like this:
 

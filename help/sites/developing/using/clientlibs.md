@@ -3,12 +3,12 @@ title: Using Client-Side Libraries
 seo-title: Using Client-Side Libraries
 description: AEM provides Client-side Library Folders, which allow you to store your client-side code in the repository, organize it into categories, and define when and how each category of code is to be served to the client
 seo-description: AEM provides Client-side Library Folders, which allow you to store your client-side code in the repository, organize it into categories, and define when and how each category of code is to be served to the client
-uuid: 10e82204-8e67-484c-b7dc-652971e2ad8a
+uuid: 86afa837-da11-49e5-bb93-1af8cd1ce4e4
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
-discoiquuid: ac0ebfdc-c9da-411f-b58e-06e1b362cbad
+discoiquuid: 0b768960-0d95-467d-8f90-3de9345526a0
 index: y
 internal: n
 snippet: y
@@ -71,7 +71,7 @@ In HTL, client libraries are loaded through a helper template provided by AEM, w
 
 Each helper template expects a `categories` option for referencing the desired client libraries. That option can be either an array of string values, or a string containing a comma separated values list.
 
-For further details and exmple of usage, see the document [Getting Started with the HTML Template Language](https://helpx.adobe.com/experience-manager/htl/using/getting-started.html#LoadingClientLibraries).
+For further details and exmple of usage, see the document [Getting Started with the HTML Template Language](https://helpx.adobe.com/experience-manager/htl/using/getting-started.html#loading-client-libraries).
 
 ### Using JSP {#using-jsp}
 

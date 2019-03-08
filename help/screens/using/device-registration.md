@@ -3,12 +3,12 @@ title: Device Registration
 seo-title: Device Registration
 description: This page describes the device registration process in an AEM Screens project.
 seo-description: This page describes the device registration process in an AEM Screens project.
-uuid: a70c0c04-9dc5-49bf-878b-2bdc99d5ba21
+uuid: 794c13ba-a16c-425c-b176-731912ea5036
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 content-type: reference
 topic-tags: administering
-discoiquuid: 0d57eca8-7907-4a5f-b0df-f2bba84c3d40
+discoiquuid: a41e748b-23f1-4a99-9394-15a2a7ac4818
 index: y
 internal: n
 snippet: y

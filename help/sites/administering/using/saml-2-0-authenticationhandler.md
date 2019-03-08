@@ -3,12 +3,12 @@ title: SAML 2.0 Authentication Handler
 seo-title: SAML 2.0 Authentication Handler
 description: Learn about the SAML 2.0 Authentication Handler in AEM.
 seo-description: Learn about the SAML 2.0 Authentication Handler in AEM.
-uuid: 8724512d-d344-40fb-a197-290317af7d4b
+uuid: a7b2aeb2-86aa-4338-a698-0c0dda9bcbbb
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
-discoiquuid: 6b2a0bf6-5584-4a76-bda0-0de4e2e12d88
+discoiquuid: 83d1d302-0038-4cbd-8223-e26718b28a23
 index: y
 internal: n
 snippet: y
@@ -47,7 +47,7 @@ The [Web console](../../../sites/deploying/using/configuring-osgi.md) provides a
 
 >[!NOTE]
 >
->SAML assertions are signed and may optionally be encrypted. In order for this to work you have to provide at least the public certificate of the Indentity Provider in the TrustStore. See [Adding the IdP certificate to the TrustStore](../../../sites/administering/using/saml-2-0-authenticationhandler.md#addtheidpcertificatetotheaemtruststore) section for more information.
+>SAML assertions are signed and may optionally be encrypted. In order for this to work you have to provide at least the public certificate of the Indentity Provider in the TrustStore. See [Adding the IdP certificate to the TrustStore](../../../sites/administering/using/saml-2-0-authenticationhandler.md#add-the-idp-certificate-to-the-aem-truststore) section for more information.
 
 **Path** Repository path for which this authentication handler should be used by Sling. If this is empty, the authentication handler will be disabled.
 

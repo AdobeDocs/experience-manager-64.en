@@ -3,9 +3,9 @@ title: Hardening and Securing AEM forms on OSGi environment
 seo-title: Hardening and Securing AEM forms on OSGi environment
 description: Learn recommendations and best practices for securing AEM Forms on OSGi server.
 seo-description: Learn recommendations and best practices for securing AEM Forms on OSGi server.
-uuid: df1bd568-64f8-406b-b4f5-5b8ae5a3bbf6
+uuid: ce763aac-43fc-46d8-8c90-397f347e5e2a
 topic-tags: Security
-discoiquuid: 6a80721c-bc42-47a7-9533-ee52f3248a91
+discoiquuid: 4d8a9b1f-9e10-4d4c-b018-216a4a4d4130
 index: y
 internal: n
 snippet: y

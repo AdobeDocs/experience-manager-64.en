@@ -3,12 +3,12 @@ title: Activity Trends
 seo-title: Activity Trends
 description: Adding a Community Activity List component to a page
 seo-description: Adding a Community Activity List component to a page
-uuid: d84c2e5d-46cc-45b9-8167-7734d1f49aed
+uuid: 03934fa8-5430-41a2-b1a9-7e2207e08c30
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
-discoiquuid: 6ca2f22b-1005-4ac3-8f25-b66bf2bee715
+discoiquuid: 0e42c872-001d-40c0-8fc8-f59104e1e1ea
 index: y
 internal: n
 snippet: y
@@ -22,7 +22,7 @@ The `Community Activity List` component provides the ability to add trending inf
 
 This section of the documentation describes
 
-* adding the `Community Activity List` component to a [community site](../../communities/using/overview.md#communitysites)
+* adding the `Community Activity List` component to a [community site](../../communities/using/overview.md#community-sites)
 
 * configuration settings for the `Community Activity List` component
 

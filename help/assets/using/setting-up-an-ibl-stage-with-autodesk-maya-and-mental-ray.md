@@ -3,12 +3,12 @@ title: Setting up an IBL stage with Autodesk Maya and Mental Ray
 seo-title: Setting up an IBL stage with Autodesk Maya and Mental Ray
 description: How to set up an IBL stage with Autodesk Maya and Mental Ray
 seo-description: How to set up an IBL stage with Autodesk Maya and Mental Ray
-uuid: 26198ae7-f31c-40c9-a302-463c69a68ab0
+uuid: 64bf3f93-0a6d-465c-aed5-80b23c52f81f
 contentOwner: User
 topic-tags: 3D
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-discoiquuid: ec224478-e84e-47bd-b8d7-682196135617
+discoiquuid: dc29cd52-ce5a-4e27-bcba-be634c573dae
 index: y
 internal: n
 snippet: y
@@ -68,7 +68,7 @@ snippet: y
 
 1. Upload the scene and the IBL PTIFF into AEM and wait for upload processing to complete.
 
-   See [Uploading Assets](../../assets/using/managing-assets-touch-ui.md#uploadingassets).
+   See [Uploading Assets](../../assets/using/managing-assets-touch-ui.md#uploading-assets).
 
 1. Resolve any file dependencies.
 

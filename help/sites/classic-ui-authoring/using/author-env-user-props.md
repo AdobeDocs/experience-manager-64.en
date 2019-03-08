@@ -3,12 +3,12 @@ title: Configuring your account environment
 seo-title: Configuring your account environment
 description: AEM provides you with the capability to configure your account and certain aspects of the author environment.
 seo-description: AEM provides you with the capability to configure your account and certain aspects of the author environment.
-uuid: ce5a20c8-2bb0-4968-93a7-123516892421
+uuid: 2b455aa8-2213-4236-9c90-f171c0275fa3
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
-discoiquuid: adeb20bd-72e9-4686-b8b6-a553bc4f93c3
+discoiquuid: 44a7a618-f973-45db-ab4b-6a78311b1b26
 index: y
 internal: n
 snippet: y
@@ -18,7 +18,7 @@ snippet: y
 
 AEM provides you with the capability to configure your account and certain aspects of the author environment.
 
-Using the [account settings](#accountsettings) and [user preferences](#userpreferences) the following options and preferences can be defined:
+Using the [account settings](#account-settings) and [user preferences](#user-preferences) the following options and preferences can be defined:
 
 * **Editing Toolbar** 
   Select whether you want to have the global editing toolbar. This toolbar, which is shown at the top of the browser window, gives you **Copy**, **Cut**, **Paste**, **Delete** buttons for using with the paragraph components on that page:
@@ -47,7 +47,7 @@ The user icon gives you access to various to the following options:
 
 * Sign Out
 * [Impersonate as](../../../sites/administering/using/security.md#impersonating-another-user)
-* [User Preferences](#userpreferences) 
+* [User Preferences](#user-preferences) 
 * [Notification Inbox](../../../sites/classic-ui-authoring/using/author-env-inbox.md)
 
 ![](assets/chlimage_1-170.png)

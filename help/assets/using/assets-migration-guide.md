@@ -3,12 +3,12 @@ title: Assets Migration Guide
 seo-title: Assets Migration Guide
 description: Describes how to bring assets into AEM, apply metadata, generate renditions, and activate them to publish instances.
 seo-description: Describes how to bring assets into AEM, apply metadata, generate renditions, and activate them to publish instances.
-uuid: 6803f743-c118-4668-aa8a-70fd12ac01c5
+uuid: 4f4f3e8b-04d4-488c-9be6-cfeaa56a5734
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: 37d3cbf3-7df2-4307-9321-c4903f3ffbe0
+discoiquuid: 22058b5e-721f-499b-af65-3667f26e53f3
 index: y
 internal: n
 snippet: y
@@ -141,11 +141,11 @@ In this case, your assets are already populated with metadata and renditions are
 
 1. Activate assets.
 
-   Follow the instructions for [activating assets](#activatingassets) documented for the inital migration to AEM.
+   Follow the instructions for [activating assets](#activating-assets) documented for the inital migration to AEM.
 
 1. Clone publish.
 
-   As with a new migration, loading a single publish instance and cloning it is more efficient than activating the content on both nodes. See [Cloning Publish.](#cloningpublish)
+   As with a new migration, loading a single publish instance and cloning it is more efficient than activating the content on both nodes. See [Cloning Publish.](#cloning-publish)
 
 1. Enabling workflows.
 

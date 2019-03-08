@@ -3,12 +3,12 @@ title: Communities Subscriptions
 seo-title: Communities Subscriptions
 description: Community members interact with other members through email 
 seo-description: Community members interact with other members through email 
-uuid: ee05f0a6-d197-4ba2-a21c-0cb98131cd27
+uuid: db9d017d-b309-4f5f-8de1-036c70d9c31b
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 3515da21-f937-440d-9a73-12b8be7af53f
+discoiquuid: 6023fa9d-0e8a-4db8-abdd-a73a4203121b
 index: y
 internal: n
 snippet: y
@@ -60,13 +60,13 @@ The **Follow **button will include the `Email Subscriptions` option only when a 
 
 ## Reply by Email {#reply-by-email}
 
-When email is [configured for replying by email](../../communities/using/email.md#configurepollingimporter), the member who subscribed will receive an email with the posted content and a link to the online content.
+When email is [configured for replying by email](../../communities/using/email.md#configure-polling-importer), the member who subscribed will receive an email with the posted content and a link to the online content.
 
 If they reply to the email, the content they enter in the reply will appear as content online.
 
 ![](assets/chlimage_1-6.png)
 
-The amount of time it takes for a reply to be posted is controlled by the [polling importer's update interval](../../communities/using/email.md#configurepollingimporter).
+The amount of time it takes for a reply to be posted is controlled by the [polling importer's update interval](../../communities/using/email.md#configure-polling-importer).
 
 ![](assets/chlimage_1-7.png)
 

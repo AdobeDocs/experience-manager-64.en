@@ -3,12 +3,12 @@ title: Publishing Pages
 seo-title: Publishing Pages
 description: Once you have created and reviewed your content on the author environment, the goal is to make it available on your public website.
 seo-description: Once you have created and reviewed your content on the author environment, the goal is to make it available on your public website.
-uuid: 493cf9ff-a5db-459b-a66e-1d74c77713a5
+uuid: 2287c23f-73cd-4114-9242-7e37d31dd90f
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: f8ffc1c2-e15a-48fa-b093-3b15e219a6b4
+discoiquuid: 917fa21e-9f67-476f-9f3b-f68c20a1c6fe
 index: y
 internal: n
 snippet: y
@@ -48,8 +48,8 @@ You can also publish/unpublish a page immediately or at a predefined date/time i
 
 There are two methods for activating a page:
 
-* [from the Websites console](#activatingapagefromthewebsitesconsole)
-* [from the sidekick on the page itself](#activatingapagefromsidekick)
+* [from the Websites console](#activating-a-page-from-the-websites-console)
+* [from the sidekick on the page itself](#activating-a-page-from-sidekick)
 
 >[!NOTE]
 >

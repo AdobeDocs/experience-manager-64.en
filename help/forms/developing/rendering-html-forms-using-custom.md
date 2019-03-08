@@ -3,13 +3,13 @@ title: Rendering HTML Forms Using Custom CSS Files
 seo-title: Rendering HTML Forms Using Custom CSS Files
 description: null
 seo-description: null
-uuid: ef236900-24bb-4b8a-9d28-eafdb87ab8dd
+uuid: 19f0977b-9fd2-4371-baf2-3c789ffb7404
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/rendering_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: f1c4cd59-f3a8-4bf7-b6e3-4bc4674885df
+discoiquuid: 3c38829e-e59e-4d1e-8032-7c3815160730
 index: y
 internal: n
 snippet: y
@@ -35,7 +35,7 @@ You can retrieve a sample CSS file by using the FormsIVS application. Upload the
 
 >[!NOTE]
 >
->Before rendering an HTML form that uses a custom CSS file, it is important that you have a solid understanding of rendering HTML forms. (See [Rendering Forms as HTML](/programming-with-aem-forms/rendering-forms-rendering-forms rendering-forms-html-rendering-forms rendering-forms-html-rendering-forms#rendering_forms_as_html).)
+>Before rendering an HTML form that uses a custom CSS file, it is important that you have a solid understanding of rendering HTML forms. (See [Rendering Forms as HTML](/programming-with-aem-forms/rendering-forms-rendering-forms rendering-forms-html-rendering-forms rendering-forms-html-rendering-forms.md#rendering_forms_as_html).)
 
 >[!NOTE]
 >
@@ -75,7 +75,7 @@ When the Forms service renders an HTML form, it returns a form data stream that 
 
 **See also**
 
-[Render an HTML form that uses a CSS file using the Java API](/programming-with-aem-forms/rendering-forms-rendering-forms rendering-html-forms-using-custom rendering-html-forms-using-custom#render_an_html_form_that_uses_a_css_file_using_the_java_api)
+[Render an HTML form that uses a CSS file using the Java API](/programming-with-aem-forms/rendering-forms-rendering-forms rendering-html-forms-using-custom rendering-html-forms-using-custom.md#render_an_html_form_that_uses_a_css_file_using_the_java_api)
 
 [Including AEM Forms Java library files](#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
 
@@ -83,11 +83,11 @@ When the Forms service renders an HTML form, it returns a form data stream that 
 
 [Forms Service API Quick Starts](#unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7af6.2)
 
-[Rendering Interactive PDF Forms](/programming-with-aem-forms/rendering-forms-rendering-forms rendering-interactive-pdf-forms-rendering#rendering_interactive_pdf_forms)
+[Rendering Interactive PDF Forms](/programming-with-aem-forms/rendering-forms-rendering-forms rendering-interactive-pdf-forms-rendering.md#rendering_interactive_pdf_forms)
 
-[Rendering Forms as HTML](/programming-with-aem-forms/rendering-forms-rendering-forms rendering-forms-html-rendering-forms rendering-forms-html-rendering-forms#rendering_forms_as_html)
+[Rendering Forms as HTML](/programming-with-aem-forms/rendering-forms-rendering-forms rendering-forms-html-rendering-forms rendering-forms-html-rendering-forms.md#rendering_forms_as_html)
 
-[Creating Web Applications that Renders Forms](/programming-with-aem-forms/rendering-forms-rendering-forms creating-web-applications-renders-forms#creating_web_applications_that_renders_forms)
+[Creating Web Applications that Renders Forms](/programming-with-aem-forms/rendering-forms-rendering-forms creating-web-applications-renders-forms.md#creating_web_applications_that_renders_forms)
 
 ### Render an HTML form that uses a CSS file using the Java API {#render-an-html-form-that-uses-a-css-file-using-the-java-api}
 
@@ -133,7 +133,7 @@ Render an HTML form that uses a custom CSS file by using the Forms API (Java):
 
 **See also**
 
-[Rendering HTML Forms Using Custom CSS Files](/programming-with-aem-forms/rendering-forms-rendering-forms rendering-html-forms-using-custom#rendering_html_forms_using_custom_css_files)
+[Rendering HTML Forms Using Custom CSS Files](/programming-with-aem-forms/rendering-forms-rendering-forms rendering-html-forms-using-custom.md#rendering_html_forms_using_custom_css_files)
 
 [Quick Start (SOAP mode): Rendering an HTML form that uses a CSS file using the Java API](#unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7a03.2)
 
@@ -165,7 +165,7 @@ Render an HTML form that uses a custom CSS file by using the Forms API (web serv
 
     * A string value that specifies the form design name, including the file name extension. If you reference a form design that is part of a Forms application, ensure that you specify the complete path, such as `Applications/FormsApplication/1.0/FormsFolder/Loan.xdp`.
     * A `TransformTo` enum value that specifies the HTML preference type. For example, to render an HTML form that is compatible with dynamic HTML for Internet Explorer 5.0 or later, specify `TransformTo.MSDHTML`. 
-    * A `BLOB` object that contains data to merge with the form. If you do not want to merge data, pass `null`. (See [Prepopulating Forms with Flowable Layouts](/programming-with-aem-forms/rendering-forms-rendering-forms prepopulating-forms-flowable-layouts-prepopulating#prepopulating_forms_with_flowable_layouts).)
+    * A `BLOB` object that contains data to merge with the form. If you do not want to merge data, pass `null`. (See [Prepopulating Forms with Flowable Layouts](/programming-with-aem-forms/rendering-forms-rendering-forms prepopulating-forms-flowable-layouts-prepopulating.md#prepopulating_forms_with_flowable_layouts).)
     * The `HTMLRenderSpec` object that stores HTML run-time options. 
     * A string value that specifies the `HTTP_USER_AGENT` header value, such as `Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322)`. You can pass an empty string if you do not want to set this value. 
     * A `URLSpec` object that stores URI values required to render an HTML form. (See [Specify URI values](#unresolvedlink-lc-re-render-interactive-forms-ri.xml#ws624e3cba99b79e12e69a9941333732bac8-7a96.2).)
@@ -191,7 +191,7 @@ Render an HTML form that uses a custom CSS file by using the Forms API (web serv
 
 **See also**
 
-[Rendering HTML Forms Using Custom CSS Files](/programming-with-aem-forms/rendering-forms-rendering-forms rendering-html-forms-using-custom#rendering_html_forms_using_custom_css_files)
+[Rendering HTML Forms Using Custom CSS Files](/programming-with-aem-forms/rendering-forms-rendering-forms rendering-html-forms-using-custom.md#rendering_html_forms_using_custom_css_files)
 
 [Quick Start (Base64): Rendering an HTML form that uses a CSS file using the web service API](#unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7e32.2)
 

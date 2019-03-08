@@ -3,12 +3,12 @@ title: Tally Essentials
 seo-title: Tally Essentials
 description: Tally class overview
 seo-description: Tally class overview
-uuid: 28b206b2-d577-4a95-b7ee-319ca5b9c88a
+uuid: 857f1f52-4097-42d8-9db4-ad722ab43087
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: deb0197e-7ef9-498a-8548-f87343d22e7f
+discoiquuid: 100ac0e7-b43f-48ed-a63a-a06eee7001fd
 index: y
 internal: n
 snippet: y
@@ -36,9 +36,9 @@ As of AEM 6.1, the [poll](../../communities/using/poll-basics.md) component is n
 
 ## Essentials for Server-Side {#essentials-for-server-side}
 
-* [Tally APIs](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/tally/client/api/package-summary)
+* [Tally APIs](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/tally/client/api/package-summary.md)
 
-* [Tally Endpoints](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/tally/client/endpoints/package-summary)
+* [Tally Endpoints](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/tally/client/endpoints/package-summary.md)
 
 * [Server-side Customizations](../../communities/using/server-customize.md)
 

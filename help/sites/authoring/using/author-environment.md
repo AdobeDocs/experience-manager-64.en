@@ -3,12 +3,12 @@ title: Working with the Author Environment
 seo-title: Working with the Author Environment
 description: Get to know the author environment and how classic UI and the modern UI are different.
 seo-description: Get to know the author environment and how classic UI and the modern UI are different.
-uuid: 791c748c-26a3-4991-a39d-27b66454dc5f
+uuid: 49d6589c-6f21-4f6a-8f56-e8af70c8877e
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
-discoiquuid: ba9f8d79-d49a-4601-b0a4-668b8c2e8f5c
+discoiquuid: 53ef3823-3ba5-4fbe-b69d-df33bb893488
 index: y
 internal: n
 snippet: y
@@ -18,13 +18,13 @@ snippet: y
 
 >[!NOTE]
 >
->The following documentation focuses on the AEM standard, touch-enabled UI. For information about authoring in the classic UI, see the [Classic UI Authoring User Guide](/sites/classic-ui-authoring/user-guide).
+>The following documentation focuses on the AEM standard, touch-enabled UI. For information about authoring in the classic UI, see the [Classic UI Authoring User Guide](/sites/classic-ui-authoring/user-guide.md).
 
 The author environment allows for:
 
-* [Authoring](../../../sites/authoring/using/author.md) (including [page authoring](../../../sites/authoring/using/page-authoring.md), [managing assets](/assets/user-guide), [communities](../../../communities/using/author-communities.md))  
+* [Authoring](../../../sites/authoring/using/author.md) (including [page authoring](../../../sites/authoring/using/page-authoring.md), [managing assets](/assets/user-guide.md), [communities](../../../communities/using/author-communities.md))  
 
-* [Administering](/sites/administering/user-guide) tasks you need when generating and maintaining the content on your website
+* [Administering](/sites/administering/user-guide.md) tasks you need when generating and maintaining the content on your website
 
 Two graphical user interfaces are provided to achieve this. These are accessible through any modern browser.
 

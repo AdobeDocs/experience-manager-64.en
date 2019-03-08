@@ -3,10 +3,10 @@ title: Forms JEE workflows | Handling user data
 seo-title: Forms JEE workflows | Handling user data
 description: null
 seo-description: null
-uuid: 4644839f-a33c-4a04-a70a-e0a9704c3cd9
+uuid: 992d9865-9416-4210-8034-27af59cadb1f
 topic-tags: grdp
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: a271232a-7d31-468b-b5c2-46afd7403fda
+discoiquuid: 26b730d0-2013-470f-b8dc-6d282a95f976
 index: y
 internal: n
 snippet: y
@@ -74,7 +74,7 @@ Perform the following steps to identify process instance IDs for a workflow init
 
    For orphan tasks or tasks where the `process_instance_id` is 0 (zero), take note of the corresponding task IDs and see [Work with orphan tasks](#orphan).
 
-1. Follow the instructions in [Purge user data from workflow instances based on process instance IDs](/forms/using/forms-workflow-jee-handling-user-data.html?cq_ck=1523864709777#purge) section to delete user data for identified process instance IDs.
+1. Follow the instructions in [Purge user data from workflow instances based on process instance IDs](../../forms/using/forms-workflow-jee-handling-user-data.md#purge) section to delete user data for identified process instance IDs.
 
 #### Identify process instance IDs when user data is stored in primitive variables {##primitive}
 
@@ -110,7 +110,7 @@ Perform the following steps to determine if a workflow that stores data in primi
 
    The query returns all process instance IDs associated with the specified `user_ID`.
 
-1. Follow the instructions in [Purge user data from workflow instances based on process instance IDs](/forms/using/forms-workflow-jee-handling-user-data.html?cq_ck=1523864709777#purge) section to delete user data for identified process instance IDs.
+1. Follow the instructions in [Purge user data from workflow instances based on process instance IDs](../../forms/using/forms-workflow-jee-handling-user-data.md#purge) section to delete user data for identified process instance IDs.
 
 #### Purge user data from workflow instances based on process instance IDs {#purge}
 
@@ -140,7 +140,7 @@ Now that you have identified the process instance IDs associated with a user, do
 
 #### Work with orphan tasks {#orphan}
 
-Orphan tasks are the tasks whose containing process has been initiated but not submitted yet. in this case, the `process_instance_id` is **0** (zero). Therefore, you cannot trace user data stored for orphan tasks using process instance IDs. However, you can trace it using the task ID for an orphan task. You can identify the tasks IDs from the `tb_task` table for a user as described in [Identify process instance IDs when workflow initiator or participant is known](/forms/using/forms-workflow-jee-handling-user-data.html?cq_ck=1523866585112#initiator-participant).
+Orphan tasks are the tasks whose containing process has been initiated but not submitted yet. in this case, the `process_instance_id` is **0** (zero). Therefore, you cannot trace user data stored for orphan tasks using process instance IDs. However, you can trace it using the task ID for an orphan task. You can identify the tasks IDs from the `tb_task` table for a user as described in [Identify process instance IDs when workflow initiator or participant is known](../../forms/using/forms-workflow-jee-handling-user-data.md#initiator-participant).
 
 Once you have the task IDs, do the following to purge the associated files and data with an orphan task from GDS and database.
 

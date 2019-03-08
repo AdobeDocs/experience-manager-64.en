@@ -3,12 +3,12 @@ title: Metadata Schemas
 seo-title: Metadata Schemas
 description: Metadata schema defines the layout of the properties page and the metadata properties displayed for assets. Learn how to create custom metadata schema, edit metadata schema, and how to apply metadata schema to assets.  
 seo-description: Metadata schema defines the layout of the properties page and the metadata properties displayed for assets. Learn how to create custom metadata schema, edit metadata schema, and how to apply metadata schema to assets.  
-uuid: b76a3a4d-2d0c-4835-939d-c4ceeacfe2b1
+uuid: 267d0172-173b-4e14-aab3-c1ada839e5ff
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: e29c2ffa-f390-4854-ad5d-508e4d375e8e
+discoiquuid: 18c6a170-9b67-41cf-8b4d-7d96607da5b9
 index: y
 internal: n
 snippet: y

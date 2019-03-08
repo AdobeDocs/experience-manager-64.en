@@ -3,12 +3,12 @@ title: SCF Handlebars Helpers
 seo-title: SCF Handlebars Helpers
 description: Handlebars Helper methods to facilitate work with SCF
 seo-description: Handlebars Helper methods to facilitate work with SCF
-uuid: 7c80066f-c1ae-4e68-90e0-3e90db20d116
+uuid: 16785e7c-e181-4242-9853-0811f76b3d8f
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 4bd2d2a2-99a7-46aa-b1a6-0ac007d2a36f
+discoiquuid: fed0b7a7-3459-4f33-ac5c-c4674cacff2b
 index: y
 internal: n
 snippet: y
@@ -168,7 +168,7 @@ A helper to return content depending on an equality conditional.
 
 ## if-wcm-mode {#if-wcm-mode}
 
-A block helper that tests the current value of [WCM mode](/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/api/WCMMode) against a string separated list of modes.
+A block helper that tests the current value of [WCM mode](/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/api/WCMMode.md) against a string separated list of modes.
 
 #### parameters {#parameters-4}
 
@@ -176,7 +176,7 @@ A block helper that tests the current value of [WCM mode](/sites/developing/usin
   (optional) The string to translate. Required if no default provided.
 
 * **mode** : String  
-  (optional) A comma separated list of [WCM modes](/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/api/WCMMode) to test if set.
+  (optional) A comma separated list of [WCM modes](/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/api/WCMMode.md) to test if set.
 
 #### example {#example-2}
 
@@ -192,7 +192,7 @@ A block helper that tests the current value of [WCM mode](/sites/developing/usin
 
 This helper overrides the Handlebars helper 'i18n'.
 
-See also [Internationalizing Strings in JavaScript Code](../../sites/developing/using/i18n-dev.md#internationalizingstringsinjavascriptcode).
+See also [Internationalizing Strings in JavaScript Code](../../sites/developing/using/i18n-dev.md#internationalizing-strings-in-javascript-code).
 
 #### parameters {#parameters-5}
 
@@ -217,7 +217,7 @@ See also [Internationalizing Strings in JavaScript Code](../../sites/developing/
 
 A helper to include a component as a non-existing resource in a template.
 
-This allows the resource to be programmatically customized more easily than is possible for a resource added as a JCR node. See [Add or Include a Communities Component](../../communities/using/scf.md#addorincludeacommunitiescomponent).
+This allows the resource to be programmatically customized more easily than is possible for a resource added as a JCR node. See [Add or Include a Communities Component](../../communities/using/scf.md#add-or-include-a-communities-component).
 
 Only a select few of Communities components are includable. For AEM 6.1, those that are includable are [comments](../../communities/using/essentials-comments.md), [rating](../../communities/using/rating-basics.md), [reviews](../../communities/using/reviews-basics.md), and [voting](../../communities/using/essentials-voting.md).
 
@@ -492,7 +492,7 @@ Custom helpers must be implemented on the server-side as well as the client-side
 
 ### Server-side Custom Helpers {#server-side-custom-helpers}
 
-To implement and register a custom SCF helper on the server-side, simply implement the Java interface [TemplateHelper](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/handlebars/api/TemplateHelper), make it an [OSGi Service](../../sites/developing/using/the-basics.md#osgi) and install it as part of an OSGi bundle.
+To implement and register a custom SCF helper on the server-side, simply implement the Java interface [TemplateHelper](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/handlebars/api/TemplateHelper.md), make it an [OSGi Service](../../sites/developing/using/the-basics.md#osgi) and install it as part of an OSGi bundle.
 
 For example :
 

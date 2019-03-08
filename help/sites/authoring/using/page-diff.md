@@ -3,12 +3,12 @@ title: Page Diff
 seo-title: Page Diff
 description: The page diff feature allows for the convenient side-by-side comparison of two pages with their differences highlighted.
 seo-description: The page diff feature allows for the convenient side-by-side comparison of two pages with their differences highlighted.
-uuid: cbc0b53c-4614-404e-9434-627eab448dc2
+uuid: 6d96ecd7-c6e2-40bf-8058-fcd8ce5d2ab4
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
-discoiquuid: 5bcf89ca-2568-4c76-a48a-001bbc458667
+discoiquuid: 2fe00808-e0ee-40c0-9f76-3de919af5a04
 index: y
 internal: n
 snippet: y
@@ -35,7 +35,7 @@ The side-by-side diff can compare:
 * [Versions](../../../sites/authoring/using/working-with-page-versions.md#comparing-a-version-with-current-page) - Earlier version of a page with its current state
 * [Live Copies](../../../sites/administering/using/msm-livecopy.md#comparing-a-live-copy-page-with-a-blueprint-page) - Live Copy with its Blueprint
 * [Launches](../../../sites/authoring/using/launches-editing.md#comparing-a-launch-page-to-its-source-page) - Launch with its Source
-* [Language Copies](../../../sites/administering/using/tc-manage.md#comparinglanguagecopies) - A page before and after (re-)translation
+* [Language Copies](../../../sites/administering/using/tc-manage.md#comparing-language-copies) - A page before and after (re-)translation
 
 See the respective topics on how to start the diff within those contexts.
 

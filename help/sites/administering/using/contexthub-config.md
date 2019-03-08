@@ -3,12 +3,12 @@ title: Configuring ContextHub
 seo-title: Configuring ContextHub
 description: Learn how to configure Context Hub.
 seo-description: Learn how to configure Context Hub.
-uuid: 6f9a9f50-ee1e-4522-a2b9-618dc608dfaf
+uuid: 29f447ad-b586-4cdf-9a64-e6d9d98b67f8
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: 51d469df-6e0b-4644-ad6a-77d5f59a0bcc
+discoiquuid: f42d70bc-76e8-4445-a988-4c68a1e84e7d
 index: y
 internal: n
 snippet: y
@@ -58,7 +58,7 @@ UI modes appear as a series of icons on the left side of the toolbar. When selec
 
 ![](assets/chlimage_1-319.png)
 
-Icons are references from the [Coral UI icon library](/sites/developing/using/reference-materials/coral-ui/docs/2.17.0-granite-004/icon).
+Icons are references from the [Coral UI icon library](/sites/developing/using/reference-materials/coral-ui/docs/2.17.0-granite-004/icon.md).
 
 ### Adding a UI Mode {#adding-a-ui-mode}
 
@@ -74,7 +74,7 @@ Add a UI mode to group related ContextHub modules. When you create the UI mode, 
 1. Provide values for the following properties:
 
     * UI Mode Title: The title that identifies the UI mode 
-    * Mode Icon: The selector for the [Coral UI icon](/sites/developing/using/reference-materials/coral-ui/docs/2.17.0-granite-004/icon) to use, for example `coral-Icon--user`
+    * Mode Icon: The selector for the [Coral UI icon](/sites/developing/using/reference-materials/coral-ui/docs/2.17.0-granite-004/icon.md) to use, for example `coral-Icon--user`
     
     * Enabled: Select to show the UI mode in the ContextHub toolbar
 

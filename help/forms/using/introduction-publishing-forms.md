@@ -3,11 +3,11 @@ title: Introduction to publishing forms on a portal
 seo-title: Introduction to publishing forms on a portal
 description: AEM Forms provides with components that you can use to build your forms portal. This articles introduces you to the available forms portal components.
 seo-description: AEM Forms provides with components that you can use to build your forms portal. This articles introduces you to the available forms portal components.
-uuid: c15aa081-1589-48ca-9260-824ae5eb3fb1
+uuid: 6b2982f9-e755-41fa-85cf-b7f1a1544dda
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: publish
-discoiquuid: d1b77a9c-276d-4181-86bb-ff195f705bce
+discoiquuid: 5e438171-3cd1-4b8c-b99b-d78eaac74999
 index: y
 internal: n
 snippet: y
@@ -61,7 +61,7 @@ Forms portal enables you to list forms from the forms repository onto your porta
 1. **Enable Forms Portal components**: Out of the box, forms portal components are not available for use. [Enable the components from AEM sidekick](../../forms/using/enabling-forms-portal-components.md) for an AEM Sites page. 
 1. **List forms on a page (create forms portal page): **You can list forms on both AEM Sites and non-AEM Site pages. The list contains forms available on the publish instance. A user can open forms and start filling those. Whenever a user opens a form, a new instance of the form is created:
 
-    1. **List forms on an AEM Sites page**: Add the ** [Search & Lister](../../forms/using/creating-form-portal-page.md) **component to the page and configure the ** [List Pane](../../forms/using/creating-form-portal-page.md#p-list-pane-p) **in it**, **to list forms on a page. Add and configure the [**Search Pane** ](/content#main-pars_header_2)component to the **Search & Lister **component also to add search functionality to the page. The page with forms portal component is known as [forms portal page](../../forms/using/creating-form-portal-page.md).
+    1. **List forms on an AEM Sites page**: Add the ** [Search & Lister](../../forms/using/creating-form-portal-page.md) **component to the page and configure the ** [List Pane](../../forms/using/creating-form-portal-page.md#p-list-pane-p) **in it**, **to list forms on a page. Add and configure the [**Search Pane** ](/content.md#main-pars_header_2)component to the **Search & Lister **component also to add search functionality to the page. The page with forms portal component is known as [forms portal page](../../forms/using/creating-form-portal-page.md).
     
     1. **List forms on a non-AEM Sites page: **Use the [forms portal search APIs](../../forms/using/listing-forms-webpage-using-apis.md) to query, retrieve, and list forms on non-AEM Sites pages.
 

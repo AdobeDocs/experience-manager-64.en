@@ -3,12 +3,12 @@ title: Performance Tree
 seo-title: Performance Tree
 description: Learn about the steps that need to be taken in order to troubleshoot performance issues in AEM.
 seo-description: Learn about the steps that need to be taken in order to troubleshoot performance issues in AEM.
-uuid: 08199ce5-9d39-4062-b122-0b990531df5d
+uuid: 76300bc5-c4a3-4873-b485-41f516559762
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
-discoiquuid: 829dc8d7-ec12-4ca4-9dbc-d1c981dc3518
+discoiquuid: 66aea3b8-9cd3-47e7-9c72-ce4604d62ed5
 index: y
 internal: n
 snippet: y
@@ -70,12 +70,12 @@ The analysis starts at step 0. The goal is to determine which entity (dispatcher
   <tr> 
    <td><strong>Step 3</strong></td> 
    <td>Can the requests be cached?</td> 
-   <td>For more information on cacheable requests and general Dispatcher performance optimization advice, see <a href="../../../sites/deploying/using/configuring-performance.md#optimizingperformancewhenusingthedispatcher">Dispatcher Performance Optimization</a>.</td> 
+   <td>For more information on cacheable requests and general Dispatcher performance optimization advice, see <a href="../../../sites/deploying/using/configuring-performance.md#optimizing-performance-when-using-the-dispatcher">Dispatcher Performance Optimization</a>.</td> 
   </tr> 
   <tr> 
    <td><strong>Step 4</strong></td> 
    <td>Are requests coming from the Dispatcher?</td> 
-   <td><p>Check the <a href="https://helpx.adobe.com/experience-manager/dispatcher/using/dispatcher-configuration.html#Debugging">Dispatcher debugging documentation</a> to see if the requests are cached properly.<br /> </p> </td> 
+   <td><p>Check the <a href="https://helpx.adobe.com/experience-manager/dispatcher/using/dispatcher-configuration.html#debugging">Dispatcher debugging documentation</a> to see if the requests are cached properly.<br /> </p> </td> 
   </tr> 
   <tr> 
    <td><strong>Step 5</strong></td> 
@@ -130,7 +130,7 @@ The analysis starts at step 0. The goal is to determine which entity (dispatcher
   <tr> 
    <td><strong>Step 15</strong></td> 
    <td>Find slow requests</td> 
-   <td><p>You can check for slow requests by analysing the <span class="code">request.log</span> or by using <span class="code">rlog.jar</span>.</p> <p>For more information about using rlog.jar, see this page.</p> <p>See <a href="../../../sites/deploying/using/monitoring-and-maintaining.md#usingrlogjartofindrequestswithlongdurationtimes">Using rlog.jar to find requests with long duration times</a>.<br /> </p> <p> </p> </td> 
+   <td><p>You can check for slow requests by analysing the <span class="code">request.log</span> or by using <span class="code">rlog.jar</span>.</p> <p>For more information about using rlog.jar, see this page.</p> <p>See <a href="../../../sites/deploying/using/monitoring-and-maintaining.md#using-rlog-jar-to-find-requests-with-long-duration-times">Using rlog.jar to find requests with long duration times</a>.<br /> </p> <p> </p> </td> 
   </tr> 
   <tr> 
    <td><strong>Step 16</strong></td> 
@@ -145,12 +145,12 @@ The analysis starts at step 0. The goal is to determine which entity (dispatcher
   <tr> 
    <td><strong>Step 18</strong></td> 
    <td>Common scenarios of profiling</td> 
-   <td>See <a href="../../../sites/deploying/using/monitoring-and-maintaining.md#analyzingspecificscenarios">Analyzing Specific Scenarios</a> in the Performance Optimization section.<br /> </td> 
+   <td>See <a href="../../../sites/deploying/using/monitoring-and-maintaining.md#analyzing-specific-scenarios">Analyzing Specific Scenarios</a> in the Performance Optimization section.<br /> </td> 
   </tr> 
   <tr> 
    <td><strong>Step 19</strong></td> 
    <td>100% CPU</td> 
-   <td><a href="../../../sites/deploying/using/monitoring-and-maintaining.md#monitoringperformance">https://helpx.adobe.com/experience-manager/6-3/sites/deploying/using/monitoring-and-maintaining.html#MonitoringPerformance</a></td> 
+   <td><a href="../../../sites/deploying/using/monitoring-and-maintaining.md#monitoring-performance">https://helpx.adobe.com/experience-manager/6-3/sites/deploying/using/monitoring-and-maintaining.html#MonitoringPerformance</a></td> 
   </tr> 
   <tr> 
    <td><strong>Step 20</strong></td> 
@@ -170,7 +170,7 @@ The analysis starts at step 0. The goal is to determine which entity (dispatcher
   <tr> 
    <td><strong>Steps 22 and 22.1</strong></td> 
    <td>Cache ratio</td> 
-   <td>See <a href="../../../sites/deploying/using/configuring-performance.md#calculatingthedispatchercacheratio">Calculating the Dispatcher Cache Ratio</a>.<br /> <br /> </td> 
+   <td>See <a href="../../../sites/deploying/using/configuring-performance.md#calculating-the-dispatcher-cache-ratio">Calculating the Dispatcher Cache Ratio</a>.<br /> <br /> </td> 
   </tr> 
   <tr> 
    <td><strong>Step 23</strong></td> 
@@ -183,7 +183,7 @@ The analysis starts at step 0. The goal is to determine which entity (dispatcher
    <td> 
     <ul> 
      <li><a href="https://helpx.adobe.com/experience-manager/kb/performance-tuning-tips.html">Performance Tuning Tips</a></li> 
-     <li><a href="../../../sites/deploying/using/configuring-performance.md#configuringforperformance">Configuring for Performance</a></li> 
+     <li><a href="../../../sites/deploying/using/configuring-performance.md#configuring-for-performance">Configuring for Performance</a></li> 
      <li><a href="http://www.slideshare.net/jukka/repository-performance-tuning">Repository Performance Tuning</a></li> 
     </ul> </td> 
   </tr> 
@@ -192,10 +192,10 @@ The analysis starts at step 0. The goal is to determine which entity (dispatcher
    <td>Workflows running</td> 
    <td> 
     <ul> 
-     <li><a href="../../../sites/deploying/using/configuring-performance.md#concurrentworkflowprocessing">Concurrent Workflow Processing</a></li> 
-     <li><a href="../../../sites/deploying/using/configuring-performance.md#configurethequeueforaspecificworkflow">Configure the Queue for a Specific Workflow</a></li> 
-     <li><a href="../../../sites/administering/using/workflows-administering.md#regularpurgingofworkflowinstances">Regular Purging of Workflow Instances</a></li> 
-     <li><a href="/sites/developing/using/workflows.html?#TransientWorkflows">Transient Workflows</a><br /> </li> 
+     <li><a href="../../../sites/deploying/using/configuring-performance.md#concurrent-workflow-processing">Concurrent Workflow Processing</a></li> 
+     <li><a href="../../../sites/deploying/using/configuring-performance.md#configure-the-queue-for-a-specific-workflow">Configure the Queue for a Specific Workflow</a></li> 
+     <li><a href="../../../sites/administering/using/workflows-administering.md#regular-purging-of-workflow-instances">Regular Purging of Workflow Instances</a></li> 
+     <li><a href="../../../sites/developing/using/workflows.md#transient-workflows">Transient Workflows</a><br /> </li> 
     </ul> <p> </p> </td> 
   </tr> 
   <tr> 
@@ -208,15 +208,15 @@ The analysis starts at step 0. The goal is to determine which entity (dispatcher
    <td>Assets tuning</td> 
    <td> 
     <ol> 
-     <li><a href="../../../sites/deploying/using/configuring-performance.md#cq5damassetsynchronizationservice">Assets Synchronization Service</a></li> 
-     <li><a href="../../../sites/deploying/using/configuring-performance.md#multipledaminstances">Multiple DAM Instances</a></li> 
+     <li><a href="../../../sites/deploying/using/configuring-performance.md#cq-dam-asset-synchronization-service">Assets Synchronization Service</a></li> 
+     <li><a href="../../../sites/deploying/using/configuring-performance.md#multiple-dam-instances">Multiple DAM Instances</a></li> 
      <li>Performance tuning tips articles <a href="https://helpx.adobe.com/experience-manager/kb/performance-tuning-tips.html">here</a> and <a href="https://helpx.adobe.com/experience-manager/kb/performance-tuning-tips.html">here</a>.<br /> </li> 
     </ol> </td> 
   </tr> 
   <tr> 
    <td><strong>Step 28</strong></td> 
    <td>Unclosed sessions</td> 
-   <td><p> </p> <p><a href="../../../sites/administering/using/troubleshoot.md#checkingforunclosedjcrsessions">Checking for unclosed JCR sessions</a></p> <p> </p> </td> 
+   <td><p> </p> <p><a href="../../../sites/administering/using/troubleshoot.md#checking-for-unclosed-jcr-sessions">Checking for unclosed JCR sessions</a></p> <p> </p> </td> 
   </tr> 
   <tr> 
    <td><strong>Step 30</strong></td> 
@@ -226,12 +226,12 @@ The analysis starts at step 0. The goal is to determine which entity (dispatcher
   <tr> 
    <td><strong>Step 31</strong></td> 
    <td>Use CDN in front of dispatcher</td> 
-   <td><a href="https://helpx.adobe.com/experience-manager/dispatcher/using/dispatcher.html#UsingDispatcherwithaCDN">Using Dispatcher with a CDN</a><br /> </td> 
+   <td><a href="https://helpx.adobe.com/experience-manager/dispatcher/using/dispatcher.html#using-dispatcher-with-a-cdn">Using Dispatcher with a CDN</a><br /> </td> 
   </tr> 
   <tr> 
    <td><strong>Step 32</strong></td> 
    <td>Use session management at the dispatcher level to offload AEM server</td> 
-   <td><p><a href="https://helpx.adobe.com/experience-manager/dispatcher/using/dispatcher-configuration.html#EnablingSecureSessionssessionmanagement">Enabling Secure Sessions</a></p> </td> 
+   <td><p><a href="https://helpx.adobe.com/experience-manager/dispatcher/using/dispatcher-configuration.html#enabling-secure-sessions-sessionmanagement">Enabling Secure Sessions</a></p> </td> 
   </tr> 
   <tr> 
    <td><strong>Step 33</strong></td> 
@@ -239,7 +239,7 @@ The analysis starts at step 0. The goal is to determine which entity (dispatcher
    <td> 
     <ol> 
      <li><a href="https://helpx.adobe.com/experience-manager/dispatcher/using/dispatcher.html">General Dispatcher Configuration</a></li> 
-     <li><a href="https://helpx.adobe.com/experience-manager/dispatcher/using/dispatcher-configuration.html#ConfiguringtheDispatcherCachecache">Configuring the Dispatcher Cache</a></li> 
+     <li><a href="https://helpx.adobe.com/experience-manager/dispatcher/using/dispatcher-configuration.html#configuring-the-dispatcher-cache-cache">Configuring the Dispatcher Cache</a></li> 
     </ol> <p>How to improve cache ratio; make requests cache-able (Dispatcher best practices)</p> <p>Also, take into consideration the below settings in order to optimize your caching configurations<br /> </p> 
     <ol> 
      <li>Set a no-cache rule for HTTP requesrst that are not GET</li> 
@@ -263,8 +263,8 @@ The analysis starts at step 0. The goal is to determine which entity (dispatcher
    <td>Check cache invalidation</td> 
    <td><br /> 
     <ul> 
-     <li><a href="https://helpx.adobe.com/experience-manager/dispatcher/using/page-invalidate.html#InvalidatingDispatcherCachefromtheAuthoringEnvironment">Cache Invalidation for the Author tier;</a></li> 
-     <li><a href="https://helpx.adobe.com/experience-manager/dispatcher/using/page-invalidate.html#InvalidatingDispatcherCachefromaPublishingInstance">Cache Invalidation for the Publish tier.</a></li> 
+     <li><a href="https://helpx.adobe.com/experience-manager/dispatcher/using/page-invalidate.html#invalidating-dispatcher-cache-from-the-authoring-environment">Cache Invalidation for the Author tier;</a></li> 
+     <li><a href="https://helpx.adobe.com/experience-manager/dispatcher/using/page-invalidate.html#invalidating-dispatcher-cache-from-a-publishing-instance">Cache Invalidation for the Publish tier.</a></li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -310,7 +310,7 @@ The analysis starts at step 0. The goal is to determine which entity (dispatcher
      <li>Concatenate resources (images, CSS sprites, JSON, etc.)<br /> </li> 
      <li>Clientlibs embedding: 
       <ol> 
-       <li><a href="../../../sites/developing/using/clientlibs.md#creatingclientlibraryfolders">Creating Client Library Folders</a> - see heading Using embedding to minimize requests</li> 
+       <li><a href="../../../sites/developing/using/clientlibs.md#creating-client-library-folders">Creating Client Library Folders</a> - see heading Using embedding to minimize requests</li> 
       </ol> </li> 
     </ol> </td> 
   </tr> 

@@ -3,12 +3,12 @@ title: Configuring the Translation Integration Framework
 seo-title: Configuring the Translation Integration Framework
 description: Learn how to configure the Translation Integration Framework.
 seo-description: Learn how to configure the Translation Integration Framework.
-uuid: 1b1f45f0-b2e2-4e10-93c1-fa62d4600839
+uuid: 051b70a4-d825-41bd-ad43-1fe837bffffb
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features
 content-type: reference
-discoiquuid: 037a2fb0-9ed4-4e45-885f-a1ab15685696
+discoiquuid: c25b6cff-fae2-48e2-a81d-d99f007158f1
 index: y
 internal: n
 snippet: y
@@ -135,7 +135,7 @@ Communities properties control how the translation of user-generated content is 
 
 #### Assets Configuration Properties {#assets-configuration-properties}
 
-Assets properties control how to configure assets. For more information about translating assets, see [Creating Language Copies for Assets](/sites/authoring/using/language-copy).
+Assets properties control how to configure assets. For more information about translating assets, see [Creating Language Copies for Assets](/sites/authoring/using/language-copy.md).
 
 <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
  <tbody> 

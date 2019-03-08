@@ -3,12 +3,12 @@ title: How to Work With Packages
 seo-title: How to Work With Packages
 description: Learn the basics of working with packages in AEM.
 seo-description: Learn the basics of working with packages in AEM.
-uuid: 0dcdaef1-0312-410f-b459-e9c54b0f6e5c
+uuid: 77cd7114-7657-4f0f-8a8a-9f239ab6aa56
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: content
 content-type: reference
-discoiquuid: d93c600c-9358-4332-8102-f4e69fad629d
+discoiquuid: 337e57f5-b575-4af3-b9de-8830cdb276b4
 index: y
 internal: n
 snippet: y
@@ -20,9 +20,9 @@ Packages enable the importing and exporting of repository content. For example, 
 
 Packages can be accessed and/or maintained from the following pages:
 
-* [Package Manager](#packagemanager), which you use to manage the packages in your local AEM instance.  
+* [Package Manager](#package-manager), which you use to manage the packages in your local AEM instance.  
 
-* [Package Share](#packageshare), a centralized server holding both publicly available packages and those private to your company. The public packages can contain hotfixes, new functionality, documentation, etc.
+* [Package Share](#package-share), a centralized server holding both publicly available packages and those private to your company. The public packages can contain hotfixes, new functionality, documentation, etc.
 
 You can transfer packages between Package Manager, Package Share, and your file system.
 
@@ -61,16 +61,16 @@ You can perform the following actions on or with packages:
 
 A package definition is made up of various types of information:
 
-* [Package Settings](#packagesettings)
-* [Package Filters](#packagefilters)
-* [Package Screenshots](#packagescreenshots)
-* [Package Icons](#packageicons)
+* [Package Settings](#package-settings)
+* [Package Filters](#package-filters)
+* [Package Screenshots](#package-screenshots)
+* [Package Icons](#package-icons)
 
 ### Package Settings {#package-settings}
 
 You can edit a variety of Package Settings to define aspects such as the package description, related bugs, dependencies and provider information.
 
-The **Package Settings** dialog is available via the **Edit** button when [creating](#creatinganewpackage) or [editing](#viewingandeditingpackageinformation) a package and provides three tabs for configuration. After any changes are made click **OK** to save these.
+The **Package Settings** dialog is available via the **Edit** button when [creating](#creating-a-new-package) or [editing](#viewing-and-editing-package-information) a package and provides three tabs for configuration. After any changes are made click **OK** to save these.
 
 ![](assets/packagesedit.png) 
 
@@ -219,8 +219,8 @@ Official Feature packs:
 
 The Package Manager manages the packages on your local AEM installation. After you have [assigned the necessary permissions](#providingpermissionstothepackagemanager) you can use the Package Manager for various actions, including configuring, building, downloading and installing your packages. The key elements to be configured are:
 
-* [Package Settings](#packagesettings)
-* [Package Filters](#packagefilters)
+* [Package Settings](#package-settings)
+* [Package Filters](#package-filters)
 
 ### Permissions needed for using the Package Manager {#permissions-needed-for-using-the-package-manager}
 
@@ -274,17 +274,17 @@ To create a new package definition:
    >
    >You can return to this page at a later stage if required.
 
-1. Click **Edit** to edit the [package settings](#packagesettings).
+1. Click **Edit** to edit the [package settings](#package-settings).
 
-   Here, you can add information and/or define certain settings; for example these include a description, the [icon](#packageicons), related bugs and add provider details.
+   Here, you can add information and/or define certain settings; for example these include a description, the [icon](#package-icons), related bugs and add provider details.
 
    Click **OK** after you are finished editing the settings.
 
-1. Add ** [Screenshots](#packagescreenshots)** to the package as required. One instance is available when the package is created, add more if required by using **Package Screenshot** from sidekick.
+1. Add ** [Screenshots](#package-screenshots)** to the package as required. One instance is available when the package is created, add more if required by using **Package Screenshot** from sidekick.
 
    Add the actual image by double-clicking the image component in the **Screenshots** area, adding an image, and clicking **OK**.
 
-1. Define the ** [Package Filters](#packagefilters)** by dragging instances of the **Filter Definition** from the sidekick, then double-clicking to open for editing:
+1. Define the ** [Package Filters](#package-filters)** by dragging instances of the **Filter Definition** from the sidekick, then double-clicking to open for editing:
 
    ![](assets/packagesfilter.png)
 
@@ -295,7 +295,7 @@ To create a new package definition:
     
     * **Rules** 
       Rules are optional; for simple package definitions, it is not necessary to specify include or exclude rules.  
-      If needed, you can define either [**Include** or **Exclude** rules](#packagefilters) to exactly define the package contents.   
+      If needed, you can define either [**Include** or **Exclude** rules](#package-filters) to exactly define the package contents.   
       Add rules using the **+** symbol, alternatively remove rules using the **-** symbol. Rules are applied according to their order so position them as required using the **Up** and **Down** buttons.
 
    Then click **OK** to save the filter.
@@ -305,7 +305,7 @@ To create a new package definition:
    >You can use as many filter definitions as you need, though care must be taken to ensure they do not conflict. Use **Preview** to confirm what the package contents will be.
 
 1. To confirm what the package will hold you can use **Preview**. This performs a dry run of the build process and lists everything that will be added to the package when it is actually built.
-1. You can now [Build](#buildingapackage) your package.
+1. You can now [Build](#building-a-package) your package.
 
    >[!NOTE]
    >
@@ -313,7 +313,7 @@ To create a new package definition:
 
 ### Building a Package {#building-a-package}
 
-A package is often built at the same time as you [create the package definition](#creatinganewpackage), but you can return at a later point in time to either build, or rebuild the package. This can be useful if the content within the repository has changed.
+A package is often built at the same time as you [create the package definition](#creating-a-new-package), but you can return at a later point in time to either build, or rebuild the package. This can be useful if the content within the repository has changed.
 
 >[!NOTE]
 >
@@ -339,7 +339,7 @@ A major use case for rewrap is when preparing a package for the package share. F
 
 1. Open the package definition from **Package Manager** (click on the package icon or name).  
 
-1. Click **Edit** and update the ** [Package Settings](#packagesettings)** as required. Click **OK** to save.  
+1. Click **Edit** and update the ** [Package Settings](#package-settings)** as required. Click **OK** to save.  
 
 1. Click **Rewrap**, a dialog will ask for confirmation.
 
@@ -382,14 +382,14 @@ This section describes how to download a package from AEM to your file system by
 
 >[!NOTE]
 >
->See [Package Share](#packageshare) for information on downloading hotfixes, feature packs, and packages from the public area and your company's internal area of package share.
+>See [Package Share](#package-share) for information on downloading hotfixes, feature packs, and packages from the public area and your company's internal area of package share.
 >
 >From Package Share you can:
 >
->* download packages from [Package Share directly into your local AEM instance](#downloadingandinstallingpackagesfrompackageshare).  
+>* download packages from [Package Share directly into your local AEM instance](#downloading-and-installing-packages-from-package-share).  
 >  Upon download the package is imported into your repository, after which you can immediately install it on your local instance using the **Package Manager**. These packages include hotfixes and other shared packages.
 >
->* download packages from [Package Share to your file system](#downloadingpackagestoyourfilesystemfrompackageshare).
+>* download packages from [Package Share to your file system](#downloading-packages-to-your-file-system-from-package-share).
 >
 
 1. On the AEM Welcome screen, click **Packages**, then select **Package Manager**.
@@ -429,7 +429,7 @@ To upload a package:
 
    >[!NOTE]
    >
-   >To make the content available to AEM, be sure to [install the package](#installingpackages).
+   >To make the content available to AEM, be sure to [install the package](#installing-packages).
 
 ### Validating Packages {#validating-packages}
 
@@ -570,7 +570,7 @@ The following is an example of using cURL to execute a package validation.
 
 After you upload a package, you need to install the content. To have the package content installed and functional, it needs to be both:
 
-* loaded into AEM (either [uploaded from your filesystem](#uploadingpackagesfromyourfilesystem) or [downloaded from package share](#downloadingandinstallingpackagesfrompackageshare))  
+* loaded into AEM (either [uploaded from your filesystem](#uploading-packages-from-your-file-system) or [downloaded from package share](#downloading-and-installing-packages-from-package-share))  
 
 * installed
 
@@ -690,12 +690,12 @@ Access to the Package Share is available for our partners and customers. Registr
 
 To gain access to Package Share:
 
-* Use the [Sign In page](#signingintopackageshare)
+* Use the [Sign In page](#signing-in-to-package-share)
 * The first time you use the sign in page you will need to:
 
-    * [Register for an Adobe ID](#registeringforpackageshare) and/or [validate your existing Adobe ID](#validatingyouradobeid)  
+    * [Register for an Adobe ID](#registering-for-package-share) and/or [validate your existing Adobe ID](#validating-your-adobe-id)  
     
-    * so that your [Package Share Account](#packageshareaccount) can be created
+    * so that your [Package Share Account](#package-share-account) can be created
 
 >[!NOTE]
 >
@@ -707,11 +707,11 @@ To gain access to Package Share:
 1. Then select **Package Share**. You will be required to either:
 
     * login with your Adobe ID
-    * [Create an Adobe ID](#registeringforpackageshare)
+    * [Create an Adobe ID](#registering-for-package-share)
 
    >[!NOTE]
    >
-   >The first time you login with your Adobe ID, you must complete the [validation of your email address](#validatingyouradobeid).
+   >The first time you login with your Adobe ID, you must complete the [validation of your email address](#validating-your-adobe-id).
 
    >[!NOTE]
    >
@@ -736,7 +736,7 @@ The first time you sign into Package Share with your Adobe ID your email address
 
 If you need access to Package Share, you will need to register for an Adobe ID:
 
-* The [Package Share sign-in page](#signingintopackageshare) offers a link for registering an Adobe ID.
+* The [Package Share sign-in page](#signing-in-to-package-share) offers a link for registering an Adobe ID.
 * You can register for an Adobe ID from certain Adobe desktop software.
 * Alternatively, you can register online on the [Adobe Sign In page](https://www.adobe.com/cfusion/membership/index.cfm?nf=1&nl=1).
 
@@ -801,7 +801,7 @@ To download packages from Package Share and install them on your local instance,
 
    >[!NOTE]
    >
-   >Before starting to download packages from Package Share, make sure you have the [required access](#accesstopackageshare).
+   >Before starting to download packages from Package Share, make sure you have the [required access](#access-to-package-share).
 
 1. Navigate to the package you want to download and click **Download**.  
 
@@ -832,7 +832,7 @@ To download packages from Package Share and install them on your local instance,
 
 ### Downloading Packages to Your File System From Package Share {#downloading-packages-to-your-file-system-from-package-share}
 
-[Downloading and installing](#downloadingandinstallingpackagesfrompackageshare) is very convenient, but if required you can also download the package and save it to your local file system:
+[Downloading and installing](#downloading-and-installing-packages-from-package-share) is very convenient, but if required you can also download the package and save it to your local file system:
 
 1. In Package Share click on the package icon or name.
 1. Click the **Assets** tab.

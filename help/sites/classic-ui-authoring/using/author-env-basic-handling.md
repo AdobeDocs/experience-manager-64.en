@@ -3,12 +3,12 @@ title: Basic Handling
 seo-title: Basic Handling
 description: An overview of basic handling when using the AEM author environment. It uses the Sites console as a basis.
 seo-description: An overview of basic handling when using the AEM author environment. It uses the Sites console as a basis.
-uuid: ddcf859f-371f-43ff-b1cc-a1a87921f04f
+uuid: ebf78df3-8ab6-4372-b1e1-222bafe7fb0d
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
-discoiquuid: 3543c4d7-54bf-4d52-8b12-b12c2f7c84e6
+discoiquuid: 135d0697-aa42-4bb7-86b9-35055cc9018e
 index: y
 internal: n
 snippet: y
@@ -26,7 +26,7 @@ snippet: y
 
 ## The Welcome Screen {#the-welcome-screen}
 
-The classic UI provides a selection of consoles, using well-known mechanisms for navigating and initiating actions, including click, double-click and [context menus](#contextmenus).
+The classic UI provides a selection of consoles, using well-known mechanisms for navigating and initiating actions, including click, double-click and [context menus](#context-menus).
 
 Upon login the Welcome screen will be shown, this provides a list of links to consoles and services:
 
@@ -104,7 +104,7 @@ On various consoles (e.g. Websites) there is also **Help** button is available, 
 
 ![](assets/chlimage_1-10.png)
 
-When editing a page the [sidekick also has a button for accessing help](../../../sites/classic-ui-authoring/using/classic-page-author-env-tools.md#accessinghelp).
+When editing a page the [sidekick also has a button for accessing help](../../../sites/classic-ui-authoring/using/classic-page-author-env-tools.md#accessing-help).
 
 ## Navigating with the Websites Console {#navigating-with-the-websites-console}
 

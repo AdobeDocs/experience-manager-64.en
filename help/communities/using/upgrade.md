@@ -3,12 +3,12 @@ title: Upgrading to AEM 6.4 Communities
 seo-title: Upgrading to AEM 6.4 Communities
 description: How to upgrade from an earlier version to AEM 6.4 Communities
 seo-description: How to upgrade from an earlier version to AEM 6.4 Communities
-uuid: 5ab945b5-1456-4b49-b986-4d8c22fe51cb
+uuid: 1723fc94-0df3-4d90-9925-6133235d180b
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 content-type: reference
 topic-tags: deploying
-discoiquuid: fdbc3ff9-4829-4113-a2f6-3171d7f4a329
+discoiquuid: afdd859c-e924-48a5-a081-d8d94c7f200e
 index: y
 internal: n
 snippet: y
@@ -29,7 +29,7 @@ When installing a new Communities feature pack on a deployment configured with M
 1. install the [latest feature pack](../../communities/using/deploy-communities.md#latestfeaturepack)
 1. install the [latest Solr config files](../../communities/using/msrp.md#upgrading)
 1. reindex MSRP  
-   see section [MSRP Reindex Tool](../../communities/using/msrp.md#msrpreindextool)
+   see section [MSRP Reindex Tool](../../communities/using/msrp.md#msrp-reindex-tool)
 
 ### Enablement 2.0 {#enablement}
 
@@ -39,7 +39,7 @@ Please contact [customer care](https://helpx.adobe.com/marketing-cloud/contact-s
 
 ## Upgrading from AEM 6.0 {#upgrading-from-aem}
 
-If pre-existing UGC needs to be retained, then the means to do so depends on whether the deployment stored UGC [on-premise](#onpremisestorage) or in the [Adobe cloud](#adobecloudstorage).
+If pre-existing UGC needs to be retained, then the means to do so depends on whether the deployment stored UGC [on-premise](#on-premise-storage) or in the [Adobe cloud](#adobe-cloud-storage).
 
 ### Adobe Cloud Storage {#adobe-cloud-storage}
 

@@ -3,12 +3,12 @@ title: Tracking Bounced Emails
 seo-title: Tracking Bounced Emails
 description: When you send a newsletter to many users, there are usually some invalid emails addresses in the list. Sending newsletters to those addresses bounce back. AEM is capable of managing those bounces and can stop sending newsletters to those addresses after the configured bounce counter is exceeded.
 seo-description: When you send a newsletter to many users, there are usually some invalid emails addresses in the list. Sending newsletters to those addresses bounce back. AEM is capable of managing those bounces and can stop sending newsletters to those addresses after the configured bounce counter is exceeded.
-uuid: ae0f6b87-3841-4f8d-930d-d8f12545c188
+uuid: cfe396ce-b6f9-4e23-83a7-db24e8161882
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: ee8f58b9-7e81-4c9e-80ed-5b0f34fdc535
+discoiquuid: d67f7a45-3513-4b12-a4f5-b96aeabb03fa
 index: y
 internal: n
 snippet: y

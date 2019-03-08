@@ -3,12 +3,12 @@ title: Manually Configuring the Integration with Adobe Target
 seo-title: Manually Configuring the Integration with Adobe Target 
 description: Learn how to manually configure the integration with Adobe Target.
 seo-description: Learn how to manually configure the integration with Adobe Target.
-uuid: b2f94689-1da1-4319-bbbb-763a589babbe
+uuid: 9988a7d0-d20c-43de-a063-3f8083f910a3
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: 8cb96834-21eb-46ef-b358-df844bec993a
+discoiquuid: 964d7120-6150-4e7c-8376-84a3aa8e8ccb
 index: y
 internal: n
 snippet: y
@@ -162,7 +162,7 @@ Use the following procedure to create a Target cloud configuration in AEM:
     * **E-Mail**: the Target account email.
     * **Password**: the Target account password.
     * **API Type**: either REST or XML
-    * **A4T Analytics Cloud Configuration**: Select the Analytics cloud configuration that is used for target activity goals and metrics. You need this if you are using Adobe Analytics as the reporting source when targeting content. If you do not see your cloud configuration, see note in [Configuring A4T Analytics Cloud Configuration](#configuringa4tanalyticscloudconfiguration).
+    * **A4T Analytics Cloud Configuration**: Select the Analytics cloud configuration that is used for target activity goals and metrics. You need this if you are using Adobe Analytics as the reporting source when targeting content. If you do not see your cloud configuration, see note in [Configuring A4T Analytics Cloud Configuration](#configuring-a-t-analytics-cloud-configuration).
     
     * **Use accurate targeting: **By default this check box is selected. If selected, the cloud service configuration will wait for the context to load before loading content. See note that follows.
     * **Synchronize Segments from Adobe Target:** Select this option to download segments that are defined in Target to use them in AEM. You must select this option when the API Type property is REST, because inline segments are not supported and you always need to use segments from Target. (Note that the AEM term of 'segment' is equivalent to the Target 'audience'.)
@@ -246,7 +246,7 @@ After you create a Target framework in AEM, associate your web pages with the fr
 When you associate a page with the framework, the child pages inherit the association.
 
 1. In the **Sites** console, navigate to the site that you want to configure.
-1. Using either [quick actions](../../../sites/authoring/using/basic-handling.md#quickactions) or [selection mode](../../../sites/authoring/using/basic-handling.md#navigatingandselectionmode), select **View Properties.**
+1. Using either [quick actions](../../../sites/authoring/using/basic-handling.md#quick-actions) or [selection mode](../../../sites/authoring/using/basic-handling.md#navigatingandselectionmode), select **View Properties.**
 1. Select the **Cloud Services** tab.
 1. Tap/click **Edit**.
 1. Tap/click **Add Configuration** under **Cloud Service Configurations** and select **Adobe Target**.

@@ -3,10 +3,10 @@ title: Actions and capabilities of Form-centric AEM Workflows on OSGi and AEM Fo
 seo-title: Actions and capabilities of Form-centric AEM Workflows on OSGi and AEM Forms JEE workflows 
 description: null
 seo-description: null
-uuid: 79416f6f-3168-423a-85ac-051f76badcbe
+uuid: fa620de2-29a2-4108-ad56-02c31a88153f
 contentOwner: khsingh
 topic-tags: publish
-discoiquuid: a5516040-0fcf-4faa-b16b-a9f294e0857a
+discoiquuid: 95677ca8-805e-4f1a-91b3-574dcfa3e29a
 index: y
 internal: n
 snippet: y

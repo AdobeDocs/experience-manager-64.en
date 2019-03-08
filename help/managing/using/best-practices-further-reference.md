@@ -3,12 +3,12 @@ title: The Checklist - Further Reference
 seo-title: The Checklist - Further Reference
 description: Learn about further details that elaborate on and/or augment the documents and principles covered by the Managing Projects - Best Practices Checklist.
 seo-description: Learn about further details that elaborate on and/or augment the documents and principles covered by the Managing Projects - Best Practices Checklist.
-uuid: 6715962e-e9b1-4b9f-acd4-2ee49d2acb0e
+uuid: ac08fd07-fe0f-41e5-b2ca-a0446ad5b24c
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/MANAGING
 topic-tags: managing-checklist
 content-type: reference
-discoiquuid: 4c865042-51ed-4f81-a92d-c79145605b95
+discoiquuid: 159ba2aa-d55b-48fd-9abb-1adda0a2fda8
 index: y
 internal: n
 snippet: y
@@ -35,7 +35,7 @@ Consider the features of AEM that you will be using, and the impact on your desi
 * [Assets](../../assets/using/assets.md)
 * [Tags](../../sites/administering/using/tags.md)
 * [Multi Site Management and Translation](../../sites/administering/using/msm-and-translation.md)
-* [Forms](/forms/user-guide)
+* [Forms](/forms/user-guide.md)
 * [Communities](../../communities/using/deploy-communities.md)
 * [Livefyre](https://answers.livefyre.com/product/livefyre-for-adobe-experience-manager-aem/livefyre-for-adobe-experience-manager/)
 
@@ -98,7 +98,7 @@ As with any project it is critical to establish ground-rules as soon as possible
 
 * **Tracking Tools**
 
-  There are many tools available for tracking information on bugs, tasks, and other aspects of your project - see [Overview of Potential Tools](#overviewofpotentialtools) for more details.
+  There are many tools available for tracking information on bugs, tasks, and other aspects of your project - see [Overview of Potential Tools](#overview-of-potential-tools) for more details.
 
     * The key point to note here is to keep only one copy of the information and share the information (and therefore access to the tool being used). This will ease maintenance and help prevent discrepancies.
 
@@ -372,7 +372,7 @@ However, it is preferable to have a small set of accurate, core metrics that fun
 
 Security is crucial and an ever-increasing challenge. It ***must*** be considered and planned from the earliest stages of your project.
 
-The [Security Checklist](../../sites/administering/using/security-checklist.md) details steps that you should take to ensure that your AEM installation is secure when deployed. Other security aspects are covered under [Security (when developing)](../../sites/developing/using/security.md) and [User Administration and Security](/sites/administering/using/security-landing).
+The [Security Checklist](../../sites/administering/using/security-checklist.md) details steps that you should take to ensure that your AEM installation is secure when deployed. Other security aspects are covered under [Security (when developing)](../../sites/developing/using/security.md) and [User Administration and Security](/sites/administering/using/security-landing.md).
 
 ## Parallel and Iterative Tasks {#parallel-and-iterative-tasks}
 
@@ -527,7 +527,7 @@ The following list is provided to inform you of tools that can be used. It is in
      <li>The <a href="../../sites/developing/using/hobbes.md">Testing Console</a></li> 
      <li><a href="../../sites/administering/using/operations-dashboard.md">Operations Dashboard</a></li> 
      <li><a href="../../sites/authoring/using/content-insights.md">Content Insight</a></li> 
-     <li>The <a href="../../sites/authoring/using/author-environment-tools.md#contenttree">Content Tree</a></li> 
+     <li>The <a href="../../sites/authoring/using/author-environment-tools.md#content-tree">Content Tree</a></li> 
     </ul> </td> 
   </tr> 
   <tr> 

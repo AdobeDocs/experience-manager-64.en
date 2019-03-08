@@ -3,10 +3,10 @@ title: Configure data sources
 seo-title: Configure data sources
 description: Learn how to configure different types of data sources and leverage to create form data models.
 seo-description: Learn how to configure different types of data sources and leverage to create form data models.
-uuid: f16f5d5e-fb70-4372-a421-0bed78afd5a8
+uuid: ec6b1aad-6cb5-4671-b27a-e167076ca97c
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: integration
-discoiquuid: b9f1f628-ce7c-45d6-9b1e-3bb563e01c76
+discoiquuid: 070f9343-7ff1-4398-b9c9-2f8d4574600a
 index: y
 internal: n
 snippet: y
@@ -113,7 +113,7 @@ Do the following to configure RESTful services:
 
 1. Go to **[!UICONTROL Tools > Cloud Services > Data Sources]**. Tap to select the folder where you want to create a cloud configuration.
 
-   See [Configure folder for cloud service configurations](/forms/using/configure-data-sources.html?cq_ck=1520948098975#cloud-folder) for information about creating and configuring a folder for cloud service configurations.
+   See [Configure folder for cloud service configurations](../../forms/using/configure-data-sources.md#cloud-folder) for information about creating and configuring a folder for cloud service configurations.
 
 1. Tap **[!UICONTROL Create]** to open the **[!UICONTROL Create Data Source Configuration dialog]**. Specify a name and optionally a title for the configuration, select **[!UICONTROL RESTful Service]** from the **[!UICONTROL Service Type]** drop-down, optionally browse and select a thumbnail image for the configuration, and tap **[!UICONTROL Next]**.
 1. Specify the following details for the RESTful service:
@@ -129,7 +129,7 @@ SOAP-based web services are described using [Web Services Description Language (
 
 1. Go to **[!UICONTROL Tools > Cloud Services > Data Sources]**. Tap to select the folder where you want to create a cloud configuration.
 
-   See [Configure folder for cloud service configurations](/forms/using/configure-data-sources.html?cq_ck=1520948098975#cloud-folder) for information about creating and configuring a folder for cloud service configurations.
+   See [Configure folder for cloud service configurations](../../forms/using/configure-data-sources.md#cloud-folder) for information about creating and configuring a folder for cloud service configurations.
 
 1. Tap **[!UICONTROL Create]** to open the **[!UICONTROL Create Data Source Configuration dialog]**. Specify a name and optionally a title for the configuration, select **[!UICONTROL SOAP Web Service]** from the **[!UICONTROL Service Type]** drop-down, optionally browse and select a thumbnail image for the configuration, and tap **[!UICONTROL Next]**.
 1. Specify the following for the SOAP web service:
@@ -149,7 +149,7 @@ An OData service is identified by its service root URL. To configure an OData se
 
 1. Go to **[!UICONTROL Tools > Cloud Services > Data Sources]**. Tap to select the folder where you want to create a cloud configuration.
 
-   See [Configure folder for cloud service configurations](/forms/using/configure-data-sources.html?cq_ck=1520948098975#cloud-folder) for information about creating and configuring a folder for cloud service configurations.
+   See [Configure folder for cloud service configurations](../../forms/using/configure-data-sources.md#cloud-folder) for information about creating and configuring a folder for cloud service configurations.
 
 1. Tap **[!UICONTROL Create]** to open the **[!UICONTROL Create Data Source Configuration dialog]**. Specify a name and optionally a title for the configuration, select **[!UICONTROL OData Service]** from the **[!UICONTROL Service Type]** drop-down, optionally browse and select a thumbnail image for the configuration, and tap **[!UICONTROL Next]**.
 1. Specify the following details for the OData service:

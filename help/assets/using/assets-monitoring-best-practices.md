@@ -3,12 +3,12 @@ title: Assets Monitoring Best Practices
 seo-title: Assets Monitoring Best Practices
 description: Best practices for monitoring the environment and performance of your AEM instance after it is deployed.
 seo-description: Best practices for monitoring the environment and performance of your AEM instance after it is deployed.
-uuid: b1884ceb-5688-4fac-bb26-80429ebbd9f9
+uuid: 15646b64-918a-4d0e-8050-585eb80c3ea5
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: df6789f2-2468-4f4b-984c-3b015f282032
+discoiquuid: c324d80e-b76f-41da-8a64-ea39c753379c
 index: y
 internal: n
 snippet: y
@@ -135,7 +135,7 @@ Session counter
 
 Health Checks
 
-Health checks that are available in the [operations dashboard](../../sites/administering/using/operations-dashboard.md#healthreports) have corresponding JMX MBeans for monitoring. However, you can write custom health checks to expose additional system statistics.
+Health checks that are available in the [operations dashboard](../../sites/administering/using/operations-dashboard.md#health-reports) have corresponding JMX MBeans for monitoring. However, you can write custom health checks to expose additional system statistics.
 
 Here are some out-of-the-box health checks that are helpful to monitor:
 
@@ -191,7 +191,7 @@ Here are some out-of-the-box health checks that are helpful to monitor:
 
 In the process of monitoring, if you encounter issues, here are some troubleshooting tasks that you can perform to resolve common issues with AEM instances:
 
-* If using TarMK, run Tar compaction often. For more details, see [Maintaining the Repository](../../sites/deploying/using/storage-elements-in-aem-6.md#maintainingtherepository).
+* If using TarMK, run Tar compaction often. For more details, see [Maintaining the Repository](../../sites/deploying/using/storage-elements-in-aem-6.md#maintaining-the-repository).
 * Check `OutOfMemoryError` logs. For more information, see [Analyze memory problems](https://helpx.adobe.com/experience-manager/kb/AnalyzeMemoryProblems.html).
 
 * Check the logs for any references to unindexed queries, tree traversals, or index traversals. These indicate unindexed queries or inadequately indexed queries. For For best practices on optimizing query and indexing performance, see [Best Practices for Queries and Indexing](../../sites/deploying/using/best-practices-for-queries-and-indexing.md).

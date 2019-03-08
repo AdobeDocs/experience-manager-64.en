@@ -4,9 +4,9 @@ seo-title: Getting Started with AEM Assets
 description: null
 seo-description: null
 page-status-flag: de-activated
-uuid: 8aa97a17-0644-41b5-8193-81ddcb33578f
+uuid: b1bcb22c-18a3-465d-98de-4b603abeb41d
 contentOwner: alvawb
-discoiquuid: 3ac96a30-c96f-4ccc-8dae-1083a2caf567
+discoiquuid: 2e9c833f-1304-4235-8817-8d6144fed9ad
 index: y
 internal: n
 snippet: y
@@ -158,9 +158,9 @@ In this tutorial, you learned how to navigate in AEM Assets as well as how to up
 
 For more information, see the following topics:
 
-* [Uploading assets](../../assets/using/managing-assets-touch-ui.md#uploadingassets)
-* [Uploading assets via FTP](../../assets/using/managing-assets-touch-ui.md#uploadingassetsusingftp)
-* [Downloading assets](../../assets/using/managing-assets-touch-ui.md#downloadingassets)
+* [Uploading assets](../../assets/using/managing-assets-touch-ui.md#uploading-assets)
+* [Uploading assets via FTP](../../assets/using/managing-assets-touch-ui.md#uploading-assets-using-ftp)
+* [Downloading assets](../../assets/using/managing-assets-touch-ui.md#downloading-assets)
 * [Organizing assets](../../assets/using/best-practices-for-file-management.md)
 
 ## Working with Individual Assets {#working-with-individual-assets}
@@ -230,5 +230,5 @@ In this tutorial, you learn how to search for assets.
 In this tutorial you learned how to search for an asset. For more information, see the following:
 
 * [Searching video assets](../../assets/using/search-video-assets.md)
-* [Search facets](/assets/using/custom-search-facets)
+* [Search facets](/assets/using/custom-search-facets.md)
 

@@ -3,11 +3,11 @@ title: Cascading Metadata
 seo-title: Cascading Metadata
 description: This article describes how to define cascading metadata for assets.
 seo-description: How to define cascading metadata for assets.
-uuid: e22571c5-b068-484c-ae88-d6b57afd983c
+uuid: 2bd28ca2-91fe-4fb3-80a6-af444e7351eb
 contentOwner: cmajumda
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: authoring
-discoiquuid: 631d7c3d-ce93-446d-babb-5d239e866bb0
+discoiquuid: c28333dc-764a-46e2-9867-0f8ed83e6b61
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Social Graph Essentials
 seo-title: Social Graph Essentials
 description: follow component and following component overview
 seo-description: follow component and following component overview
-uuid: 13bbea2b-702b-4ce7-b670-8e2241fd3713
+uuid: 649cf23a-e191-49ad-9141-bd49cc7b61d4
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 6743310b-a849-4ab4-8e63-b21a9f8d21d8
+discoiquuid: 8a5530a1-ef78-4dc1-b6f6-f2850507bc78
 index: y
 internal: n
 snippet: y
@@ -33,7 +33,7 @@ The `following`component lists the members that are either following the current
    <td>social/socialgraph/components/hbs/relationships</td> 
   </tr>
   <tr>
-   <td> <a href="../../communities/using/scf.md#addorincludeacommunitiescomponent"><strong>includable</strong></a></td> 
+   <td> <a href="../../communities/using/scf.md#add-or-include-a-communities-component"><strong>includable</strong></a></td> 
    <td>No</td> 
   </tr>
   <tr>
@@ -72,7 +72,7 @@ The `following`component lists the members that are either following the current
 
 |  **resourceType** |social/socialgraph/components/hbs/following |
 |---|---|
-|  [**includable**](../../communities/using/scf.md#addorincludeacommunitiescomponent) |No |
+|  [**includable**](../../communities/using/scf.md#add-or-include-a-communities-component) |No |
 |  **templates** | /libs/social/socialgraph/components/hbs/following/following.hbs |
 |  **css** | /libs/social/socialgraph/components/hbs/following/clientlibs/following.css |
 
@@ -80,9 +80,9 @@ The `following`component lists the members that are either following the current
 
 ## Essentials for Server-Side {#essentials-for-server-side}
 
-* [Social Graph API](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/graph/client/api/package-frame)
+* [Social Graph API](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/graph/client/api/package-frame.md)
 
-* [Social Graph Endpoints](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/graph/client/endpoint/package-frame)
+* [Social Graph Endpoints](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/graph/client/endpoint/package-frame.md)
 
 * [Server-side Customizations](../../communities/using/server-customize.md)
 

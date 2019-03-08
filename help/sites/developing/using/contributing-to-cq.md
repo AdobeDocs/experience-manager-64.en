@@ -3,12 +3,12 @@ title: Contributing to AEM
 seo-title: Contributing to AEM
 description: AEM is developed following proven methodologies commonly practiced in large open source projects
 seo-description: AEM is developed following proven methodologies commonly practiced in large open source projects
-uuid: e64fa2f7-d6e2-4d55-b014-8f87ddbcc036
+uuid: 8431fc39-07ea-49e6-ac12-988047f57534
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
-discoiquuid: 8696d306-cbeb-4ac3-ad3b-aab30880c0a9
+discoiquuid: 12741b8c-54b4-4035-a676-d68fee28e0ca
 index: y
 internal: n
 snippet: y
@@ -144,7 +144,7 @@ JCR has a number of predefined node types and property types, but in general the
 
 The JavaDoc for JCR's Java API is [here](http://www.day.com/maven/javax.jcr/javadocs/jcr-2.0/index.html).
 
-Before attempting to read the JavaDoc or the JCR spec itself, you might want to look at [this high-level explanation](../../../sites/developing/using/the-basics.md#javacontentrepository) of JCR as implemented by Adobe Experience Services.
+Before attempting to read the JavaDoc or the JCR spec itself, you might want to look at [this high-level explanation](../../../sites/developing/using/the-basics.md#java-content-repository) of JCR as implemented by Adobe Experience Services.
 
 **Multi-Site Manager (MSM)** The MSM feature of AEM helps customers handle multilingual and multinational content, enabling them to balance centralized branding with localized content.
 

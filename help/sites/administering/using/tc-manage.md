@@ -3,12 +3,12 @@ title: Managing Translation Projects
 seo-title: Managing Translation Projects
 description: Learn how to manage translation projects in AEM.
 seo-description: Learn how to manage translation projects in AEM.
-uuid: cba459f5-95fb-4e8e-9774-0c291784a164
+uuid: 29384e25-ad59-435c-9666-5a77015a25ea
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features
 content-type: reference
-discoiquuid: c651746d-57f7-4d9d-b994-d07703855732
+discoiquuid: 8bf13470-bd4b-471e-93a9-939b40d83cd4
 index: y
 internal: n
 snippet: y
@@ -30,9 +30,9 @@ Translation projects are long-running items, defined by language and translation
 
 Translation projects and jobs are created with translation preparation workflows. These workflows have three options, for both initial translation (Create&Translate) and updates (Update Translation):
 
-1. [Create new project](#creatingtranslationprojectsusingthereferencespanel)
-1. [Add to existing project](#addingpagestoatranslationproject)
-1. [Content structure only](#creatingthestructureofalanguagecopy)
+1. [Create new project](#creating-translation-projects-using-the-references-panel)
+1. [Add to existing project](#adding-pages-to-a-translation-project)
+1. [Content structure only](#creating-the-structure-of-a-language-copy)
 
 >[!NOTE]
 >
@@ -63,7 +63,7 @@ Create translation projects so that you can execute and manage the workflow for 
 
 You can specify that the child pages of the selected page are also selected. In this case, copies of the child pages are also added to each project so that they are translated. When any child pages are associated with different translation integration framework configurations, AEM creates additional projects.
 
-You can also [manually create translation projects](#creatingatranslationprojectusingtheprojectsconsole).
+You can also [manually create translation projects](#creating-a-translation-project-using-the-projects-console).
 
 **Initial Translations and Updating Translations**
 
@@ -71,7 +71,7 @@ The References panel indicates whether the you are updating existing language co
 
 ![](assets/chlimage_1-239.png)
 
-After translating, you can [review the translation](#reviewingandpromotingupdatedcontent) before overwriting the language copy with it. When no language copy exists for the selected page, the Create & Translate tab appears to provide access to project-related commands.
+After translating, you can [review the translation](#reviewing-and-promoting-updated-content) before overwriting the language copy with it. When no language copy exists for the selected page, the Create & Translate tab appears to provide access to project-related commands.
 
 ![](assets/chlimage_1-240.png) 
 
@@ -124,7 +124,7 @@ After you have created a translation project, you can use the Resources pane to 
 
 When you add pages to a translation project, the pages are included in a new translation job. You can also [add pages to an existing job](#addingpagestoatranslationjob).
 
-As when creating a new project, when adding pages, copies of the pages are added to a launch when necessary to avoid overwriting existing language copies. (See [Creating Translation Projects for Existing Language Copies](#performinginitialtranslationsandupdatingexistingtranslations).)
+As when creating a new project, when adding pages, copies of the pages are added to a launch when necessary to avoid overwriting existing language copies. (See [Creating Translation Projects for Existing Language Copies](#performing-initial-translations-and-updating-existing-translations).)
 
 1. Use the Sites console to select the page that you are adding to the translation project.
 

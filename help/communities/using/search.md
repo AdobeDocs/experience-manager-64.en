@@ -3,12 +3,12 @@ title: Search Feature
 seo-title: Search Feature
 description: Adding and configuring Search to a Communities site
 seo-description: Adding and configuring Search to a Communities site
-uuid: e449de81-87ee-4a3a-951c-dff8a13302a3
+uuid: 31fd494a-9ace-4293-b42c-bf48f78b166b
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
-discoiquuid: c16d6b4a-8338-4413-8042-893cb3155b12
+discoiquuid: 3b258200-ccc8-4439-ba11-c79cacb358bc
 index: y
 internal: n
 snippet: y
@@ -18,7 +18,7 @@ snippet: y
 
 The search feature works with various other features, such as forums, to provide the ability to search for content.
 
-When adding the ability to search posts entered by community members, referred to as user generated content (UGC), there are two components : [ `Search`](#search) and [ `Search Results`](#searchresults).
+When adding the ability to search posts entered by community members, referred to as user generated content (UGC), there are two components : [ `Search`](#search) and [ `Search Results`](#search-results).
 
 The page that includes the `Search Results` component supports both searching and the display of results.
 

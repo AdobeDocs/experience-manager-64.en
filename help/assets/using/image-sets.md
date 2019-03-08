@@ -3,12 +3,12 @@ title: Image Sets
 seo-title: Image Sets
 description: Learn how to work with image sets in dynamic media
 seo-description: Learn how to work with image sets in dynamic media
-uuid: e9ea04bb-aaec-41d8-86a1-8cb4c763d0e8
+uuid: 26832ebc-a75e-4f6d-98eb-d8cece5c9ab0
 contentOwner: Alva Ware-Bevacqui
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: 5999db4f-26e7-436f-91d8-6b0f816b8282
+discoiquuid: a0d02226-72c9-4a7a-a7ee-66c7959ce854
 index: y
 internal: n
 snippet: y
@@ -36,11 +36,11 @@ For example, suppose you want to present images of caps with different color bil
 
 To get you up and running quickly:
 
-1. [Upload your master images for multiple views.](#uploadingassetsinimagesets)
+1. [Upload your master images for multiple views.](#uploading-assets-in-image-sets)
 
    Start by uploading the images for your Image Sets. Because users can zoom on images in the Image Set Viewer, take zooming into account when you choose images. Make sure that the images are least 2000 pixels in the largest dimension. AEM Assets supports many image file formats, but lossless TIFF, PNG, and EPS images are recommended.
 
-1. [Create Image Sets.](#creatingimagesets)
+1. [Create Image Sets.](#creating-image-sets)
 
    In Image Sets, users click thumbnail images in the Image Set Viewer.
 
@@ -48,7 +48,7 @@ To get you up and running quickly:
 
    You can also create image sets automatically through [batch set presets](../../assets/using/config-dms7.md#creating%20batch%20set%20presets%20to%20auto-generate%20image%20sets%20and%20spin%20sets). **Important:** Batch sets are created by the IPS (Image Production System) as part of asset ingestion and are available only in Dynamic Media - Scene7 mode.
 
-   See [Preparing Image Set assets for upload and Uploading your files](#uploadingassetsinimagesets).
+   See [Preparing Image Set assets for upload and Uploading your files](#uploading-assets-in-image-sets).
 
    See [Working with Selectors.](../../assets/using/working-with-selectors.md)
 
@@ -58,7 +58,7 @@ To get you up and running quickly:
 
    See **Tools** &gt; **Assets** &gt; **Viewer Presets** to create or edit viewer presets.
 
-1. (Optional) [Viewing Image Sets](../../assets/using/image-sets.md#viewingimagesets) that were created using batch set presets. 
+1. (Optional) [Viewing Image Sets](../../assets/using/image-sets.md#viewing-image-sets) that were created using batch set presets. 
 1. [Preview Image Sets.](../../assets/using/previewing-assets.md)
 
    Select the Image Set and you can preview it. Click the thumbnail icons to examine your Image Set in the selected Viewer. You can choose different viewers from the **Viewers** menu, available from the left rail drop-down menu.
@@ -75,15 +75,15 @@ To get you up and running quickly:
 
    See [Linking an Image Set to a web page](../../assets/using/linking-urls-to-yourwebapplication.md) and [Embedding the Video or Image Viewer](../../assets/using/embed-code.md).
 
-To edit Image Sets, see [editing Image Sets.](#editingimagesets) In addition, you can view and edit [Image Set properties](../../assets/using/managing-assets-touch-ui.md#editingproperties).
+To edit Image Sets, see [editing Image Sets.](#editing-image-sets) In addition, you can view and edit [Image Set properties](../../assets/using/managing-assets-touch-ui.md#editing-properties).
 
-If you have issues creating sets, see Images and Sets in [Troubleshooting Dynamic Media - Scene7 mode](../../assets/using/troubleshoot-dms7.md#imagesandsets).
+If you have issues creating sets, see Images and Sets in [Troubleshooting Dynamic Media - Scene7 mode](../../assets/using/troubleshoot-dms7.md#images-and-sets).
 
 ## Uploading Assets in Image Sets {#uploading-assets-in-image-sets}
 
 Start by uploading the images for your Image Sets. Because users can zoom on images in the Image Set Viewer, take zooming into account when you choose images. Make sure that the images are least 2000 pixels in the largest dimension. Image Sets supports many image file formats, but lossless TIFF, PNG, and EPS images are recommended.
 
-You can upload images for Image Sets as you would [upload any other asset in Assets](../../assets/using/managing-assets-touch-ui.md#uploadingassets).
+You can upload images for Image Sets as you would [upload any other asset in Assets](../../assets/using/managing-assets-touch-ui.md#uploading-assets).
 
 #### Preparing Image Set assets for upload {#preparing-image-set-assets-for-upload}
 
@@ -183,7 +183,7 @@ However, sets created using batch set presets, do **not** appear in the user int
 
 >[!NOTE]
 >
->You can view sets by way of the user interface as described in [Editing Image Sets](#editingimagesets).
+>You can view sets by way of the user interface as described in [Editing Image Sets](#editing-image-sets).
 
 ## Editing Image Sets {#editing-image-sets}
 

@@ -3,12 +3,12 @@ title: User Synchronization
 seo-title: User Synchronization
 description: Learn about user synchronization in AEM.
 seo-description: Learn about user synchronization in AEM.
-uuid: 1baf711a-aaf1-4441-8088-31e1fcfd3b41
+uuid: f970881a-52a0-486f-ad07-10ceabd6db26
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
-discoiquuid: a4ed1b63-981d-4179-9f24-48de8f0c08b1
+discoiquuid: 239ab95f-3044-4f02-a237-3d1f55d48626
 index: y
 internal: n
 snippet: y
@@ -18,7 +18,7 @@ snippet: y
 
 ## Introduction {#introduction}
 
-When the deployment is a [publish farm](../../../sites/deploying/using/recommended-deploys.md#tarmkfarm), members need to be able to log in and see their data on any publish node.
+When the deployment is a [publish farm](../../../sites/deploying/using/recommended-deploys.md#tarmk-farm), members need to be able to log in and see their data on any publish node.
 
 Users and user groups (user data) created in the publish environment are not needed in the author environment.
 
@@ -30,7 +30,7 @@ As of AEM 6.1, when user synchronization is enabled, user data is automatically 
 
 ## Sling Distribution {#sling-distribution}
 
-The user data, along with their [ACLs](../../../sites/administering/using/security.md), are stored in the [Oak Core](../../../sites/deploying/using/platform.md), the layer below Oak JCR, and are accessed using the [Oak API](/sites/developing/using/reference-materials/javadoc/org/apache/jackrabbit/oak/api/package-tree). With infrequent updates, it is reasonable for user data to be synchronized with other publish instances using [Sling Content Distribution](https://github.com/apache/sling/blob/trunk/contrib/extensions/distribution/README.md) (Sling distribution).
+The user data, along with their [ACLs](../../../sites/administering/using/security.md), are stored in the [Oak Core](../../../sites/deploying/using/platform.md), the layer below Oak JCR, and are accessed using the [Oak API](/sites/developing/using/reference-materials/javadoc/org/apache/jackrabbit/oak/api/package-tree.md). With infrequent updates, it is reasonable for user data to be synchronized with other publish instances using [Sling Content Distribution](https://github.com/apache/sling/blob/trunk/contrib/extensions/distribution/README.md) (Sling distribution).
 
 The benefits of user sync using Sling distribution, compared to traditional replication are :
 
@@ -66,7 +66,7 @@ Following are the steps necessary to enable user synchronization, followed by a 
 
 ### Prerequisites {#prerequisites}
 
-1) If users and user groups have already been created on one publisher, it is recommended to [manually sync](#manuallysyncingusersandusergroups) the user data to all publishers prior to configuring and enabling user sync.
+1) If users and user groups have already been created on one publisher, it is recommended to [manually sync](#manually-syncing-users-and-user-groups) the user data to all publishers prior to configuring and enabling user sync.
 
 Once user sync is enabled, only newly created users and groups are syncrhonized.
 
@@ -154,8 +154,8 @@ This authorized user will be used in step 3 to configure Sling distribution on a
 
 See also
 
-* [Access Right Management](../../../sites/administering/using/user-group-ac-admin.md#accessrightmanagement)
-* Troubleshooting section [Modify Operation Exception During Response Processing](#modifyoperationexceptionduringresponseprocessing).
+* [Access Right Management](../../../sites/administering/using/user-group-ac-admin.md#access-right-management)
+* Troubleshooting section [Modify Operation Exception During Response Processing](#modify-operation-exception-during-response-processing).
 
 ### 3. Adobe Granite Distribution - Encrypted Password Transport Secret Provider {#adobegraniteencpasswrd}
 
@@ -405,7 +405,7 @@ In order for updates to sync properly, it is necessary to modify the vault packa
 
 By design, users and profiles created in the publish environment (self-registration) do not appear in the author environment.
 
-When the topology is a [publish farm](../../../sites/deploying/using/recommended-deploys.md#tarmkfarm) and user sync has been correctly configured, the *user *and *user profile* is synchronized across the publish farm using Sling distribution.
+When the topology is a [publish farm](../../../sites/deploying/using/recommended-deploys.md#tarmk-farm) and user sync has been correctly configured, the *user *and *user profile* is synchronized across the publish farm using Sling distribution.
 
 ### Users or User Groups are Created Using Security Console {#users-or-user-groups-are-created-using-security-console}
 
@@ -417,7 +417,7 @@ When the [User Administration and Security](../../../sites/administering/using/s
 
 ### How to Take User Sync Offline {#how-to-take-user-sync-offline}
 
-To take user sync offine, in order to [remove a publisher](#howtoremoveapublisher) or [manually sync data](#manuallysyncingusersandusergroups), the distribution queue must be empty and quiet.
+To take user sync offine, in order to [remove a publisher](#how-to-remove-a-publisher) or [manually sync data](#manually-syncing-users-and-user-groups), the distribution queue must be empty and quiet.
 
 To check the state of the distribution queue :
 
@@ -440,13 +440,13 @@ When the distribution queue is empty, disable user sync :
 
 * on author
 
-    * *uncheck *the `Enabled` checkbox for [Apache Sling Distribution Agent - Sync Agents Factory](#1apacheslingdistributionagentsyncagentsfactory)
+    * *uncheck *the `Enabled` checkbox for [Apache Sling Distribution Agent - Sync Agents Factory](#apache-sling-distribution-agent-sync-agents-factory)
 
 Once tasks are completed, to re-enable user sync :
 
 * on author
 
-    * check the `Enabled` checkbox for [Apache Sling Distribution Agent - Sync Agents Factory](#1apacheslingdistributionagentsyncagentsfactory)
+    * check the `Enabled` checkbox for [Apache Sling Distribution Agent - Sync Agents Factory](#apache-sling-distribution-agent-sync-agents-factory)
 
 ### User Sync Diagnostics {#user-sync-diagnostics}
 
@@ -504,7 +504,7 @@ If the following is visible in the log :
 
 `java.lang.IllegalStateException: This tree does not exist`
 
-Then verify that the section [2. Create Authorized User](/content/docs/en/aem/6-1/administer/security/security/sync#2. Create Authorized User) was properly followed.
+Then verify that the section [2. Create Authorized User](/content/docs/en/aem/6-1/administer/security/security/sync.md#2. create authorized user) was properly followed.
 
 This section describes creating an authorized user, who exists on all publish instances, and identifying them in the 'Secret Provider' OSGi config on author. By default, the user is `admin`.
 
@@ -532,27 +532,27 @@ As a member of the `administrators` group, the authorized user should have the f
 
 If the Sling ID matches between two or more publish instances then user group sync will fail.
 
-See section [9. Unique Sling ID](#9uniqueslingid)
+See section [9. Unique Sling ID](#unique-sling-id)
 
 ### Manually Syncing Users and User Groups {#manually-syncing-users-and-user-groups}
 
 * on publisher on which users and user groups exist :
 
-    * [if enabled, disable user sync](#howtotakeusersyncoffline)
-    * [create a package](../../../sites/administering/using/package-manager.md#creatinganewpackage) of `/home`
+    * [if enabled, disable user sync](#how-to-take-user-sync-offline)
+    * [create a package](../../../sites/administering/using/package-manager.md#creating-a-new-package) of `/home`
 
         * when editing the package
 
             * Filters tab : Add Filter : Root path: `/home`
             * Advanced tab : AC Handling : `Overwrite`
 
-    * [export the package](../../../sites/administering/using/package-manager.md#downloadingpackagestoyourfilesystem)
+    * [export the package](../../../sites/administering/using/package-manager.md#downloading-packages-to-your-file-system)
 
 * on other publish instances :
 
-    * [import the package](../../../sites/administering/using/package-manager.md#installingpackages)
+    * [import the package](../../../sites/administering/using/package-manager.md#installing-packages)
 
-To configure or enable user sync, go to step 1: [Apache Sling Distribution Agent - Sync Agents Factory](#1apacheslingdistributionagentsyncagentsfactory)
+To configure or enable user sync, go to step 1: [Apache Sling Distribution Agent - Sync Agents Factory](#apache-sling-distribution-agent-sync-agents-factory)
 
 ### When a Publisher Becomes Unavailable {#when-a-publisher-becomes-unavailable}
 
@@ -572,17 +572,17 @@ When a publisher is down, the author log will have exceptions similar to :
 
 ### How To Remove a Publisher {#how-to-remove-a-publisher}
 
-To remove a publisher from the [Apache Sling Distribution Agent - Sync Agents Factory](#7apacheslingdistributionagentsyncagentsfactory), the distribution queue must be empty and quiet.
+To remove a publisher from the [Apache Sling Distribution Agent - Sync Agents Factory](#apache-sling-distribution-agent-sync-agents-factory), the distribution queue must be empty and quiet.
 
 * on author :
 
-    * [Take user sync offline](#howtotakeusersyncoffline)
-    * follow [step 7](#7apacheslingdistributionagentsyncagentsfactory) to remove the publisher from both server lists :
+    * [Take user sync offline](#how-to-take-user-sync-offline)
+    * follow [step 7](#apache-sling-distribution-agent-sync-agents-factory) to remove the publisher from both server lists :
 
         * `Exporter Endpoints`
         * `Importer Endpoints`
 
     * re-enable user sync
 
-        * check the `Enabled` checkbox for [Apache Sling Distribution Agent - Sync Agents Factory](#1apacheslingdistributionagentsyncagentsfactory)
+        * check the `Enabled` checkbox for [Apache Sling Distribution Agent - Sync Agents Factory](#apache-sling-distribution-agent-sync-agents-factory)
 

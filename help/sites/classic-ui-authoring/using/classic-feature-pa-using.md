@@ -3,12 +3,12 @@ title: Seeing Page Analytics Data
 seo-title: Seeing Page Analytics Data
 description: Use page analytics data to gauge the effectiveness of their page content.
 seo-description: Use page analytics data to gauge the effectiveness of their page content.
-uuid: 053756a0-1d5c-4d57-aa11-c4d7f29b8725
+uuid: 87ae3347-22dd-4c4a-822b-419cf3b5016e
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
-discoiquuid: 85632c9e-f1d3-4bbc-ace2-e5129ed7e4bc
+discoiquuid: e674d192-b2bc-4654-a329-2ba63f22a00a
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Change the order of evaluation for authentication
 seo-title: Change the order of evaluation for authentication
 description: You can change the order in which AEM forms evaluates multiple authentication providers. 
 seo-description: You can change the order in which AEM forms evaluates multiple authentication providers. 
-uuid: 69b228ff-8727-466f-9eb5-70944a426374
+uuid: ca06bfa1-2c2c-4c16-b761-ce4c1b9653a2
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_user_management
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: e66dbcb7-770e-4855-becc-bf384645fbca
+discoiquuid: 2ebf1d3a-cbb8-42d4-a5bd-804ec18b1def
 index: y
 internal: n
 snippet: y

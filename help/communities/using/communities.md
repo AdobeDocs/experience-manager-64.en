@@ -3,12 +3,12 @@ title: Developing Communities
 seo-title: Developing Communities
 description: Create and customize community features such as forums, user groups, and more
 seo-description: Create and customize community features such as forums, user groups, and more
-uuid: c1f69b95-ee33-4750-9611-04a5eafd5650
+uuid: 41a4c4b0-77d7-4fd8-86d3-d1c903df6c95
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: fbbb0c01-11f4-4fda-b1dc-0ac5da1e44bb
+discoiquuid: d5e274b6-9328-492d-ae13-a318a5778741
 index: y
 internal: n
 snippet: y
@@ -30,7 +30,7 @@ For an overview and getting started tutorials, visit :
 
 >[!NOTE]
 >
->It is highly recommended to keep up-to-date with the [latest releases](../../communities/using/deploy-communities.md#latestreleases).
+>It is highly recommended to keep up-to-date with the [latest releases](../../communities/using/deploy-communities.md#latest-releases).
 
 ## Recommended Deployments {#recommended-deployments}
 
@@ -67,7 +67,7 @@ AEM Communities components, functions and features provide the building blocks f
 [Community groups](../../communities/using/overview.md#communitygroups) is the concept of allowing community members to form sub-communities within the community site. Creation of a community group may occur in the publish or author environment.
 
 * [Community Group Essentials](../../communities/using/essentials-groups.md)
-* [Groups Function](../../communities/using/functions.md#groupsfunction)
+* [Groups Function](../../communities/using/functions.md#groups-function)
 * [Community Group Templates](../../communities/using/tools-groups.md)
 * [Managing Users and User Groups](../../communities/using/users.md)
 * [Community Groups for Authors](../../communities/using/creating-groups.md)
@@ -79,11 +79,11 @@ AEM Communities components, functions and features provide the building blocks f
 
 ## Tutorials {#tutorials}
 
-* [Client-side tutorials](../../communities/using/tutorials.md#clientsidecustomization)
+* [Client-side tutorials](../../communities/using/tutorials.md#client-side-customization)
 * 
-* [Server-side tutorials](../../communities/using/tutorials.md#serversidecustomization)
+* [Server-side tutorials](../../communities/using/tutorials.md#server-side-customization)
 * 
-* [How-To Instructions](../../communities/using/tutorials.md#howtoinstructions)
+* [How-To Instructions](../../communities/using/tutorials.md#how-to-instructions)
 
 ## Troubleshooting {#troubleshooting}
 

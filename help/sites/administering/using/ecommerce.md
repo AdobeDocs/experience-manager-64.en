@@ -3,12 +3,12 @@ title: eCommerce
 seo-title: eCommerce
 description: AEM eCommerce helps marketers deliver branded, personalized shopping experiences across web, mobile, and social touchpoints. 
 seo-description: AEM eCommerce helps marketers deliver branded, personalized shopping experiences across web, mobile, and social touchpoints. 
-uuid: 12116d61-501c-4e01-93f1-4a0728921c74
+uuid: 08634ca4-0cad-4654-b6ee-5960b3ef0065
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: e-commerce
 content-type: reference
-discoiquuid: e83f68ae-38cb-4c9d-b2f9-6cce3f8d1da7
+discoiquuid: 87dbef35-b198-46d5-887d-9b587a1f6eac
 index: y
 internal: n
 snippet: y
@@ -90,7 +90,7 @@ AEM eCommerce provides:
 
   ![](assets/chlimage_1-152.png)
 
-* The ability to **develop your own integration implementation based on the [AEM eCommerce framework](#theframework)**.
+* The ability to **develop your own integration implementation based on the [AEM eCommerce framework](#the-framework)**.
 
   The two implementations currently available are both built on the same basis - on top of the general API (the framework). Implementing a new integration only involves implementing the feature(s) that your integration needs. Front end components can be used by any new implementation as they use interfaces (so are independent from the implementation).
 

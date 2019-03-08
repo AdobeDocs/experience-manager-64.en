@@ -4,9 +4,9 @@ seo-title: Review and Correct Converted Adaptive Forms
 description: Review and correct the adaptive forms converted by the Automated Forms Conversion service.
 seo-description: Review and correct the adaptive forms converted by the Automated Forms Conversion service
 page-status-flag: never-activated
-uuid: 9037bb16-2e17-44a0-a29c-644187b0fd68
+uuid: 55fe9e2a-00c1-4d79-984f-0487e1c2502a
 contentOwner: vishabgu
-discoiquuid: 32471839-5b16-44ca-9b31-1a334a37655a
+discoiquuid: 70748efd-13e1-49b4-8807-481873f274c0
 index: y
 internal: n
 snippet: y
@@ -25,9 +25,9 @@ Automated Forms Conversion service by AEM Forms allows you to convert the legacy
 
 Before you get into the Review and Correct feature, it is recommended to go through the following articles to understand the Automated Forms Conversion service and related information.
 
-* [Automated Forms Conversion service](/cf#introduction-to-automated-form-conversion-service.html)
-* [Configure the Automated Forms Conversion service](/cf#configure-the-automated-forms-conversion-service.html)
-* [Convert existing forms to adaptive forms](/cf#convert-existing-forms-to-adaptive-forms.html)
+* [Automated Forms Conversion service](/cf.md#introduction-to-automated-form-conversion-service.html)
+* [Configure the Automated Forms Conversion service](/cf.md#configure-the-automated-forms-conversion-service.html)
+* [Convert existing forms to adaptive forms](/cf.md#convert-existing-forms-to-adaptive-forms.html)
 * Supported forms for conversion (Link TBD)
 * FAQs (Link TBD)
 

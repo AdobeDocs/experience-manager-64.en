@@ -3,11 +3,11 @@ title: Adaptive Form Templates
 seo-title: Adaptive Form Templates
 description: Create adaptive form templates by defining the basic structure and initial form content using the Template Editor.
 seo-description: Create adaptive form templates by defining the basic structure and initial form content using the Template Editor.
-uuid: 176cb121-ba28-487b-b03d-acaba4746dd2
+uuid: 202f510d-4509-49c6-93e7-144fc721fbed
 contentOwner: sashanka
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
-discoiquuid: 37cfa58e-a81d-4022-a7c5-2ff07b899cd1
+discoiquuid: 7fac67d0-d7a9-4556-8a4f-01eff4300ff9
 index: y
 internal: n
 snippet: y

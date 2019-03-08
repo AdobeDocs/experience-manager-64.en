@@ -3,12 +3,12 @@ title: Enabling JSON Export for a Component
 seo-title: Enabling JSON Export for a Component
 description: Components can be adapted to generate JSON export of their content based on a modeler framework.
 seo-description: Components can be adapted to generate JSON export of their content based on a modeler framework.
-uuid: c8dd638b-8934-4fd3-a7dc-45b24d3f9567
+uuid: d7d3b008-bbb4-40c2-801e-c936ba9be784
 contentOwner: User
 content-type: reference
 topic-tags: components
 products: SG_EXPERIENCEMANAGER/6.4/SITES
-discoiquuid: 1f263600-e2ad-47d2-8df9-0fe0dde25558
+discoiquuid: dc83d1a5-b992-472c-8ad9-14afbd8ca1f1
 index: y
 internal: n
 snippet: y
@@ -25,7 +25,7 @@ The JSON Export is based on [Sling Models](https://sling.apache.org/documentatio
 This means that the component must have a Sling Model if it needs to export JSON. Therefore you will need to follow these two steps to enable JSON export on any component.
 
 * [Define a Sling Model for the component](../../../sites/developing/using/json-exporter-components.md#define-a-sling-model-for-the-component)
-* [Annotate the Sling Model interface](/content#contentbody_title_820975085)
+* [Annotate the Sling Model interface](/content.md#contentbody_title_820975085)
 
 ## Define a Sling Model for the Component {#define-a-sling-model-for-the-component}
 

@@ -3,12 +3,12 @@ title: "DB2 database: Running a process weekly"
 seo-title: "DB2 database: Running a process weekly"
 description: See how you can improve the performance of your AEM forms DB2 database.
 seo-description: See how you can improve the performance of your AEM forms DB2 database.
-uuid: e5af4235-a5de-42c1-b1e7-7b1972c1f322
+uuid: 87dd890d-ab07-49a0-bddf-0a6ef96e04ce
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/maintaining_the_aem_forms_database
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 8ca0624f-57bf-4d93-825a-c4cdd3a95785
+discoiquuid: 4a2236e3-9686-4683-b914-815297372141
 index: y
 internal: n
 snippet: y

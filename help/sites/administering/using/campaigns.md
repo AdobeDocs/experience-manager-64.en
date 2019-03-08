@@ -3,12 +3,12 @@ title: Campaigns
 seo-title: Campaigns
 description: Learn the basics of using AEM Campaigns.
 seo-description: Learn the basics of using AEM Campaigns.
-uuid: c35efdbe-b6a6-46d9-a091-bc39f11c7df5
+uuid: 56830a8b-d168-4bf8-9467-36072a59e8ea
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: 399012f7-c524-42cc-8d1c-b4609d3245ec
+discoiquuid: 943f4770-14c0-458c-b0d5-bd60de18f001
 index: y
 internal: n
 snippet: y

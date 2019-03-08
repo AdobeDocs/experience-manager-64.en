@@ -3,11 +3,11 @@ title: Add custom properties to Correspondence Management assets
 seo-title: Add custom properties to Correspondence Management assets
 description: Learn how to add custom properties to Correspondence Management assets.
 seo-description: Learn how to add custom properties to Correspondence Management assets.
-uuid: 1caad646-a220-4ca2-9b5e-70b169b6e009
+uuid: 137f160b-da47-4cf4-88cb-534d0717401f
 content-type: reference
 topic-tags: correspondence-management
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: dd62d3a5-7aba-4ad5-a6cc-1e441a2183b4
+discoiquuid: a870f791-b5fd-436e-8fc9-eb229c138db8
 index: y
 internal: n
 snippet: y

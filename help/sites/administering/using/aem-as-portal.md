@@ -3,12 +3,12 @@ title: AEM Portals and Portlets
 seo-title: AEM Portals and Portlets
 description: Learn about Portals and Portles in AEM.
 seo-description: Learn about Portals and Portles in AEM.
-uuid: 75711dac-4d8e-4b9a-a2a9-33415bbadbb6
+uuid: 38672cc9-7b64-46ab-b8f5-a67afe228dbf
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: deeaf198-77cd-46d3-98cd-03e3f580bc0e
+discoiquuid: 20c7b918-2ca6-47e5-a6b9-b6ca3a86d000
 index: y
 internal: n
 snippet: y
@@ -140,7 +140,7 @@ The portlet can be configured with the following preferences:
 
 Assuming the portal server runs on host localhost, port 8080 and the AEM portlet web application is mounted in the web application context *cqportlet*, the url to for the web console is `http://localhost:8080/cqportlet/cqbridge/system/console`. The default user and password is **admin**.
 
-Open the **Configurations** tab and select **Portal Directory CQ Server Configuration**. Here you specify the base URL to the author and the publish instance. This procedure is described in [Configuring the Portlet](#configuringtheportlet).
+Open the **Configurations** tab and select **Portal Directory CQ Server Configuration**. Here you specify the base URL to the author and the publish instance. This procedure is described in [Configuring the Portlet](#configuring-the-portlet).
 
 >[!NOTE]
 >
@@ -222,7 +222,7 @@ To configure a replication agent for the portal:
 
 #### Manually Flushing the Portlet Cache {#manually-flushing-the-portlet-cache}
 
-You can manually flush the portlet cache by accessing the same URL configured for the replication agent. See [Flushing the Cache](#flushingthecacheviareplicationagent) for the form of the URL. In addition, the URL needs to be extended with a URL parameter Path=&lt;path&gt; to indicate what to flush.
+You can manually flush the portlet cache by accessing the same URL configured for the replication agent. See [Flushing the Cache](#flushing-the-cache-via-replication-agent) for the form of the URL. In addition, the URL needs to be extended with a URL parameter Path=&lt;path&gt; to indicate what to flush.
 
 For example:
 
@@ -641,7 +641,7 @@ To use AEM as a portal, perform the following tasks:
 
 >[!NOTE]
 >
->You can use the portlet component only when AEM is deployed as a web application. ([See Installing AEM With an Application Server](/content/docs/en/aem/6-3/deploy/installing#Installing Adobe Experience Manager with an Application Server).)
+>You can use the portlet component only when AEM is deployed as a web application. ([See Installing AEM With an Application Server](/content/docs/en/aem/6-3/deploy/installing.md#installing adobe experience manager with an application server).)
 
 ### Installing the portlet component {#installing-the-portlet-component}
 
@@ -759,7 +759,7 @@ After you install the portlet, you need to configure it so that it knows the URL
 To configure the portlet:
 
 1. In the Portal administration window of the app server, navigate to portlet management, where all portlets are listed and select the AEM Portal Director portlet.
-1. Configure the portlet, as necessary. For example, you may need to change the URL for the author and publish instances and the URL for the start path. Default configurations are described in [Portlet Preferences](../../../sites/administering/using/aem-as-portal.md#portletpreferences).
+1. Configure the portlet, as necessary. For example, you may need to change the URL for the author and publish instances and the URL for the start path. Default configurations are described in [Portlet Preferences](../../../sites/administering/using/aem-as-portal.md#portlet-preferences).
 
    >[!NOTE]
    >

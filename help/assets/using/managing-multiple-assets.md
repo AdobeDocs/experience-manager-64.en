@@ -3,12 +3,12 @@ title: Managing Multiple Assets and Collections
 seo-title: Managing Multiple Assets and Collections
 description: Learn how to edit the metadata of multiple assets and collections simultaneously to quickly propagate common metadata changes.
 seo-description: Learn how to edit the metadata of multiple assets and collections in bulk.
-uuid: 9dcbfdaa-8dec-4032-93bb-0a8d660b1148
+uuid: 4b005882-c4c9-4a2c-83d8-b6f013debd71
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
 topic-tags: authoring
-discoiquuid: 55e2b8dc-9fb7-4801-b626-b3b08b1a68e3
+discoiquuid: 892e593d-8755-4722-b0ba-77187e074a29
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Creating Launches
 seo-title: Creating Launches
 description: Create a launch to enable the updating of a new version of existing web pages for future activation. When you create a Launch, you specify a title and the source page.
 seo-description: Create a launch to enable the updating of a new version of existing web pages for future activation. When you create a Launch, you specify a title and the source page.
-uuid: b324bf9a-6eca-4721-98c9-ba7c85325cb2
+uuid: 0d437ea0-0234-45c0-99e9-27881b4d2e3d
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
-discoiquuid: e9189105-85ca-45c7-a66a-023364427830
+discoiquuid: 5a77d929-e4e7-43c0-85a3-6ce6abc473e3
 legacypath: /content/docs/en/aem/6-0/author/site-page-features/launches
 index: y
 internal: n
@@ -23,7 +23,7 @@ Create a launch to enable the updating of a new version of existing web pages fo
 * The child pages of the source page are included in the launch by default. You can use only the source page if desired. 
 * By default, [Live Copy](../../../sites/administering/using/msm.md) automatically updates the launch pages as the source pages change. You can specify that a static copy is created to prevent automatic changes.
 
-Optionally, you can specify the **Launch Date** (and time) to define when the launch pages are to be promoted and activated. However the **Launch Date** only operates in combination with the **Production Ready** flag (see [Editing a Launch Configuration](../../../sites/classic-ui-authoring/using/classic-launches-editing.md#editingalaunchconfiguration)); for the actions to actually occur automatically, both must be set.
+Optionally, you can specify the **Launch Date** (and time) to define when the launch pages are to be promoted and activated. However the **Launch Date** only operates in combination with the **Production Ready** flag (see [Editing a Launch Configuration](../../../sites/classic-ui-authoring/using/classic-launches-editing.md#editing-a-launch-configuration)); for the actions to actually occur automatically, both must be set.
 
 ## Creating a Launch {#creating-a-launch}
 

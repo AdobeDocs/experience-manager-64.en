@@ -3,12 +3,12 @@ title: Identifying Content to Translate
 seo-title: Identifying Content to Translate
 description: Learn how to identify content that needs translating.
 seo-description: Learn how to identify content that needs translating.
-uuid: ec810e16-6507-44e5-a874-06e4bb5f8b31
+uuid: f125ab5d-e1c7-41a9-ad1d-c85f3d555b3d
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features
 content-type: reference
-discoiquuid: a2c779d9-b69d-46df-8f02-7f3a2de34070
+discoiquuid: 4c43cdfd-1339-47ac-9f52-ea4a6d44e5ff
 index: y
 internal: n
 snippet: y
@@ -30,7 +30,7 @@ The file applies to all translation projects.
 
 >[!NOTE]
 >
->After an upgrade to 6.4, it is recommended to move the file from /etc. See [Common Repository Restructuring in AEM 6.4](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#translationrules) for more details.
+>After an upgrade to 6.4, it is recommended to move the file from /etc. See [Common Repository Restructuring in AEM 6.4](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#translation-rules) for more details.
 
 Rules include the following information:
 
@@ -39,7 +39,7 @@ Rules include the following information:
 
 For example, you can create a rule that translates the content that authors add to all AEM foundation Text components on your pages. The rule can identify the `/content` node and the `text` property for the `foundation/components/text` component.
 
-There is a [console](#translationrulesui) that has been added for configuring translation rules. The definitions in the UI will populate the file for you.
+There is a [console](#translation-rules-ui) that has been added for configuring translation rules. The definitions in the UI will populate the file for you.
 
 For an overview of the content translation features in AEM, see [Translating Content for Multilingual Sites](../../../sites/administering/using/translation.md).
 

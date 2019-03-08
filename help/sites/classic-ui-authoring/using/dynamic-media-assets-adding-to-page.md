@@ -3,12 +3,12 @@ title: Adding Dynamic Media Assets to Pages
 seo-title: Adding Dynamic Media Assets to Pages
 description: To add the dynamic media functionality to assets you use on your websites, you can add the Dynamic Media or Interactive Media component directly on the page.
 seo-description: To add the dynamic media functionality to assets you use on your websites, you can add the Dynamic Media or Interactive Media component directly on the page.
-uuid: 8d2db837-c64f-466b-94c6-8703fb476709
+uuid: 2b87e153-519e-4da8-a034-fe93a99cc7c6
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: authoring
 content-type: reference
-discoiquuid: 3a0c4278-d976-4482-aa51-0629ba1f5230
+discoiquuid: f1f087bd-bdcc-4466-ae38-0f87387a4356
 index: y
 internal: n
 snippet: y
@@ -42,7 +42,7 @@ To add a Dynamic Media component/viewer to a page:
 1. Return to **Edit** mode by clicking the pencil icon in the sidekick.
 1. Drag the Dynamic Media or Interactive Media component from the **Other** group in the sidekick onto the page in the desired location.
 1. Click **Edit** to open the component.
-1. [Edit the component](#dynamicmediacomponent) as necessary and click **OK** to save changes.
+1. [Edit the component](#dynamic-media-component) as necessary and click **OK** to save changes.
 
 ## Dynamic Media Components {#dynamic-media-components}
 

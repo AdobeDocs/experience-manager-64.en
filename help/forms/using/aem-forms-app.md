@@ -3,12 +3,12 @@ title: AEM Forms app
 seo-title: AEM Forms app
 description: AEM Forms app enables your field workers to use adaptive forms on their mobile devices. 
 seo-description: AEM Forms app enables your field workers to use adaptive forms on their mobile devices. 
-uuid: cade7dbd-1c13-44d3-bfd4-a486cc9c9386
+uuid: e8dec29a-e0ce-4bd4-bc5b-b5ddcc339354
 contentOwner: sashanka
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
-discoiquuid: 618bcb9f-f17b-479a-9669-8d108287f84c
+discoiquuid: 60fd136d-c45e-4ca1-a312-dffb36763ff1
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Salesforce Commerce Cloud
 seo-title: Salesforce Commerce Cloud / Demandware
 description: Learn how to deploy eCommerce with Salesforce Commerce Cloud / Demandware.
 seo-description: Learn how to deploy eCommerce with Salesforce Commerce Cloud / Demandware.
-uuid: 5f80d8f5-eb2c-4f28-92d4-dc49512361c4
+uuid: f03577ff-e8ca-43ec-8bb6-7cb0a3a37967
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: e-commerce
 content-type: reference
-discoiquuid: 0960f77b-2740-49dd-9f77-31003eff4a7c
+discoiquuid: f65bb7a6-ccf2-4327-bd33-db05663d1124
 pagetitle: Deploying eCommerce with Demandware
 index: y
 internal: n
@@ -45,7 +45,7 @@ To install AEM with a Demandware Commerce integration configuration (using the d
 
 >[!NOTE]
 >
->To download the packages, navigate to [Package Share](../../../sites/administering/using/package-manager.md#packageshare).
+>To download the packages, navigate to [Package Share](../../../sites/administering/using/package-manager.md#package-share).
 
 The server connection between AEM and the Demandware Sandbox needs to be configured. Most of the configuration is already preconfigured to work with the provided SiteGenisis demo content package using default paths, libraries, and so on. If the connector is used with other sites and libraries, you will need to update this configuration.
 

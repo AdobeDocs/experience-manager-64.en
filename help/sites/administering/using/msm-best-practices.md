@@ -3,13 +3,13 @@ title: MSM Best Practices
 seo-title: MSM Best Practices
 description: Find best practices compiled by Adobe engineering and consulting teams to help get up and running with the AEM Multi Site Manager.
 seo-description: Find best practices compiled by Adobe engineering and consulting teams to help get up and running with the AEM Multi Site Manager.
-uuid: 686ad679-2abe-4c9c-ba93-c2ff46dd7445
+uuid: 33293ee4-81df-4178-84f6-10dc7ba5000d
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features
 content-type: reference
 topic-tags: best-practices
-discoiquuid: 4de6647b-25f8-4006-b6b7-e385b7f926fc
+discoiquuid: 97314bc6-1225-45b1-9ce6-00a6b9f53b81
 index: y
 internal: n
 snippet: y
@@ -46,7 +46,7 @@ MSM is a configurable framework for automating content deployment. Implementatio
 
 ## Live Copy Sources and Blueprint Configurations {#live-copy-sources-and-blueprint-configurations}
 
-Keep in mind that a live copy can be created using either [regular pages](../../../sites/administering/using/msm-livecopy.md#creatingalivecopyofapage) or a [blueprint configuration](../../../sites/administering/using/msm-livecopy.md#creatingalivecopyofasitefromablueprintconfiguration). Both are valid use cases.
+Keep in mind that a live copy can be created using either [regular pages](../../../sites/administering/using/msm-livecopy.md#creating-a-live-copy-of-a-page) or a [blueprint configuration](../../../sites/administering/using/msm-livecopy.md#creating-a-live-copy-of-a-site-from-a-blueprint-configuration). Both are valid use cases.
 
 The additional benefits of using a blueprint configuration are that they:
 
@@ -77,17 +77,17 @@ To support the nesting of components such that locally added components are main
 
 Notice that AEM has two main approaches for creating live copies:
 
-* When [creating a **Live Copy**](../../../sites/administering/using/msm-livecopy.md#creatingalivecopyofapage)  
+* When [creating a **Live Copy**](../../../sites/administering/using/msm-livecopy.md#creating-a-live-copy-of-a-page)  
   This can be considered as the more generic approach, allowing you to create live copies from any page. The content structure of a live copy exactly matches the source.
 
-* When [creating a **Site**](../../../sites/administering/using/msm-livecopy.md#creatingalivecopyofasitefromablueprintconfiguration)   
+* When [creating a **Site**](../../../sites/administering/using/msm-livecopy.md#creating-a-live-copy-of-a-site-from-a-blueprint-configuration)   
   This is a more specialized approach, primarily for creating websites with a multilingual structure.
 
 Following are a few considerations to keep in mind when creating a site:
 
-* To create a new site, you need a [blueprint configuration](../../../sites/administering/using/msm-livecopy.md#managingblueprintconfigurations). 
+* To create a new site, you need a [blueprint configuration](../../../sites/administering/using/msm-livecopy.md#managing-blueprint-configurations). 
 * To allow the selection of language paths to create in a new site, the corresponding language roots must exist in the blueprint (source). 
-* Once a [new site has been created as a live copy](../../../sites/administering/using/msm-livecopy.md#creatingalivecopyofasitefromablueprintconfiguration) (using **Create**, then **Site**), the first two levels of this live copy are *shallow*. Children of the page do not belong to the live-relationship, but a roll-out will still descend if a live-relationship that matches the trigger is found.  
+* Once a [new site has been created as a live copy](../../../sites/administering/using/msm-livecopy.md#creating-a-live-copy-of-a-site-from-a-blueprint-configuration) (using **Create**, then **Site**), the first two levels of this live copy are *shallow*. Children of the page do not belong to the live-relationship, but a roll-out will still descend if a live-relationship that matches the trigger is found.  
   It helps avoid:
 
     * manually adding languages in the blueprint (below the first level)  
@@ -129,7 +129,7 @@ Modifications to the content structure in a blueprint/source tree are reflected 
 
 >[!NOTE]
 >
->This will work only with the [On Rollout trigger](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/msm-sync.html#RolloutTriggers).
+>This will work only with the [On Rollout trigger](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/msm-sync.html#rollout-triggers).
 
 * Create a custom rollout configuration:
 
@@ -154,13 +154,13 @@ Modifications to the content structure in a blueprint/source tree are reflected 
 MSM rollout configurations are highly customizable. You should be aware that automating rollouts can have far reaching consequences. As a best practice, you should plan *very* carefully before, for example:
 
 * automating rollouts; for example, with [onModify triggers](#onmodify),
-* customizing [node types/properties](#nodetypesproperties),
+* customizing [node types/properties](#node-types-properties),
 * starting subsequent workflows, 
 * and/or activating content as part of rollouts.
 
 ### onModify {#onmodify}
 
-When using the [rollout trigger](../../../sites/administering/using/msm-sync.md#rollouttriggers) `onModify` you should consider that:
+When using the [rollout trigger](../../../sites/administering/using/msm-sync.md#rollout-triggers) `onModify` you should consider that:
 
 * Automating rollouts with `onModify` triggers may have a negative impact on authoring performance as they trigger rollouts after *every* page modification. 
 
@@ -177,7 +177,7 @@ Therefore, it is recommended that you *only* use `onModify` triggers if the bene
 
 Remember that:
 
-* In addition to customizing rollout actions, MSM also allows you to customize node properties that are being rolled out. The [MSM OSGi configuration allows you to exclude node types](../../../sites/administering/using/msm-sync.md#excludingpropertiesandnodetypesfromsynchronization) from being copied from the source to the live copy.
+* In addition to customizing rollout actions, MSM also allows you to customize node properties that are being rolled out. The [MSM OSGi configuration allows you to exclude node types](../../../sites/administering/using/msm-sync.md#excluding-properties-and-node-types-from-synchronization) from being copied from the source to the live copy.
 
 ## Further Information {#further-information}
 

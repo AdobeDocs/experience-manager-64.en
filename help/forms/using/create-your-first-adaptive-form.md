@@ -4,9 +4,9 @@ seo-title: [DO NOT PUBLISH] Create your first adaptive form
 description: Learn to create business class, interactive, and responsive forms. 
 seo-description: Learn to create business class, interactive, and responsive forms. 
 page-status-flag: de-activated
-uuid: 00271d55-8f24-471a-b313-6d387d3112c6
+uuid: 51b0db72-b69a-4a09-9675-10bb7bca011f
 topic-tags: introduction
-discoiquuid: fc35a21a-005d-4ce0-b50b-7ffda9d517a1
+discoiquuid: bf299931-84fc-4d34-8d39-4dd67cf3ec66
 index: y
 internal: n
 snippet: y
@@ -58,7 +58,7 @@ Goals:
 * Create submit action to send an email containing form content
 * Preview and submit an adaptive form
 
-[ ![](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](create-adaptive-form)
+[ ![](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](create-adaptive-form.md)
 
 ## Step 2: Create Form Data Model {#step-create-form-data-model}
 
@@ -74,7 +74,7 @@ Goals:
 * Configure read and write services for the form data model  
 * Test form data model and configured services with test data
 
-[ ![](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](create-form-data-model)
+[ ![](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](create-form-data-model.md)
 
 ## Step 3: Apply rules to adaptive form fields {#step-apply-rules-to-adaptive-form-fields}
 
@@ -87,7 +87,7 @@ Goals:
 * Create and apply rules to adaptive form fields
 * Use rules to trigger form data model services to update data to database
 
-[ ![](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](apply-rules-to-adaptive-form-fields)
+[ ![](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](apply-rules-to-adaptive-form-fields.md)
 
 ## Step 4: Style your adaptive form {#step-style-your-adaptive-form}
 
@@ -101,7 +101,7 @@ Goals:
 * Create a theme for adaptive form using the theme editor
 * Use web fonts in a custom theme
 
-[ ![](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](style-your-adaptive-form)
+[ ![](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](style-your-adaptive-form.md)
 
 ## Step 5: Test your adaptive form {#step-test-your-adaptive-form}
 

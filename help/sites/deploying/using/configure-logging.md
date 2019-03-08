@@ -3,12 +3,12 @@ title: Logging
 seo-title: Logging
 description: Learn how to configure global parameters for the central logging service, specific settings for the individual services or how to request data logging.
 seo-description: Learn how to configure global parameters for the central logging service, specific settings for the individual services or how to request data logging.
-uuid: 4d24702d-1e23-427a-ad0e-1d2ee4137c82
+uuid: 75ae87bd-257c-4a65-8265-d242ef5b604a
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: configuring
 content-type: reference
-discoiquuid: d70fd80b-0210-4d00-ad2d-807dc3f401d6
+discoiquuid: dc096882-de96-4a45-8d03-c1cbc1115f3a
 index: y
 internal: n
 snippet: y
@@ -132,5 +132,5 @@ You can define your own Logger / Writer pair:
 
 >[!NOTE]
 >
->In certain circumstances you may want to create a [custom log file](../../../sites/deploying/using/monitoring-and-maintaining.md#createacustomlogfile).
+>In certain circumstances you may want to create a [custom log file](../../../sites/deploying/using/monitoring-and-maintaining.md#create-a-custom-log-file).
 

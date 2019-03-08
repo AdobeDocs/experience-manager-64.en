@@ -3,12 +3,12 @@ title: Client Context in Detail
 seo-title: Client Context in Detail
 description: The Client Context represents a dynamically assembled collection of user data
 seo-description: The Client Context represents a dynamically assembled collection of user data
-uuid: b1bb9a7d-ce42-439e-9227-3414bbaeda38
+uuid: 9e715e25-e8f5-4105-92cf-ee446146aa10
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: 81cffa02-aaa8-4de4-afda-dade905f4d78
+discoiquuid: 9006d190-b9bc-499d-bc33-61ed4c6d5d01
 index: y
 internal: n
 snippet: y
@@ -137,7 +137,7 @@ Including the javascript in the personalization.stores.kernel client library cau
 
 Session stores are either created and available during a browser session, or are persisted in browser storage or cookies. The Client Context javascript API defines several classes that represent both types of data stores:
 
-* ` [CQ_Analytics.SessionStore](../../../sites/developing/using/ccjsapi.md#cqanalyticssessionstore)`: These objects reside only in the page DOM. The data is created and persisted during the lifetime of the page.
+* ` [CQ_Analytics.SessionStore](../../../sites/developing/using/ccjsapi.md#cq-analytics-sessionstore)`: These objects reside only in the page DOM. The data is created and persisted during the lifetime of the page.
 * ` [CQ_Analytics.PerstistedSessionStore](../../../sites/developing/using/ccjsapi.md#cq-analytics-persistedsessionstore)`: These objects reside in the page DOM and are persisted either in browser storage or cookies. The data is available across pages and across user sessions.
 
 The API also provides extensions of these classes that are specialized for storing JSON data or JSONP data:
@@ -148,7 +148,7 @@ The API also provides extensions of these classes that are specialized for stori
 
 #### Creating the Session Store Object {#creating-the-session-store-object}
 
-The javascript of your client library folder creates and initializes the session store. The session store must then be registered using Context Store Manager. The following example creates and registers a [CQ_Analytics.SessionStore](../../../sites/developing/using/ccjsapi.md#cqanalyticssessionstore) object.
+The javascript of your client library folder creates and initializes the session store. The session store must then be registered using Context Store Manager. The following example creates and registers a [CQ_Analytics.SessionStore](../../../sites/developing/using/ccjsapi.md#cq-analytics-sessionstore) object.
 
 ```
 //Create the session store
@@ -164,7 +164,7 @@ if (CQ_Analytics.ClientContextMgr){
 }
 ```
 
-For storing JSON data, the following example creates and registers a [CQ_Analytics.JSONStore](../../../sites/developing/using/ccjsapi.md#cqanalyticssessionstore) object.
+For storing JSON data, the following example creates and registers a [CQ_Analytics.JSONStore](../../../sites/developing/using/ccjsapi.md#cq-analytics-sessionstore) object.
 
 ```
 if (!CQ_Analytics.myJSONStore) {

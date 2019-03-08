@@ -3,12 +3,12 @@ title: CRX2OAK Migration Tool
 seo-title: CRX2OAK Migration Tool
 description: Release notes specific to the Adobe Experience Manager 6.3 CRX2OAK Migration tool.
 seo-description: Release notes specific to the Adobe Experience Manager 6.3 CRX2OAK Migration tool.
-uuid: 5866722e-4892-4846-9b0d-73c2ceb9b8f6
+uuid: 3e6ad843-2059-4b28-826e-c69aaac9549c
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4
 topic-tags: release-notes
 content-type: reference
-discoiquuid: 02e51559-b139-46f3-bc5b-5407838501bc
+discoiquuid: 8e994af4-4d9a-4ac8-bd41-4ac96d5f3ac9
 index: y
 internal: n
 snippet: y

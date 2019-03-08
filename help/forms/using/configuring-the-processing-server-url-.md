@@ -3,11 +3,11 @@ title: Configuring AEM DS settings
 seo-title: Configuring AEM DS settings
 description: You need to specify the processing server URL before you submit a form.
 seo-description: You need to specify the processing server URL before you submit a form.
-uuid: aee6f027-345e-4b81-9dae-bb9db22b4461
+uuid: 93998dee-e20b-46ac-aeb1-b83d6f9a6f79
 contentOwner: amgoyal
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: Configuration
-discoiquuid: 65bf2f19-3ded-4d0d-bc58-c33decc4d6e3
+discoiquuid: 2661a58a-e486-4971-9545-0fe09bd13232
 index: y
 internal: n
 snippet: y

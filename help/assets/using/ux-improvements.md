@@ -3,9 +3,9 @@ title: User experience enhancements in Assets
 seo-title: User experience enhancements in Assets
 description: This article describes the user experience improvements in AEM 6.4 Assets.
 seo-description: Usability improvements in AEM 6.4 Assets.
-uuid: 8b1a4b62-cf04-4711-bed7-7130128c3374
+uuid: 979e8d0f-fcf5-421b-917d-f8834d5fdf8b
 contentOwner: asgupta
-discoiquuid: 133c89e5-f481-4fd6-9ca2-2e5fe19f18fa
+discoiquuid: 6459b9c6-5ec5-4528-aac1-352beb70b7c9
 index: y
 internal: n
 snippet: y

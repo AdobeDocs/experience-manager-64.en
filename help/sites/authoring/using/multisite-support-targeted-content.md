@@ -3,12 +3,12 @@ title: Working with Targeted Content in Multisites
 seo-title: Working with Targeted Content in Multisites
 description: If you need to manage targeted content, such as activities, experiences, and offers between your sites, you can take advantage of AEM's built-in multisite support for targeted content
 seo-description: If you need to manage targeted content, such as activities, experiences, and offers between your sites, you can take advantage of AEM's built-in multisite support for targeted content
-uuid: 754b8211-7522-4834-8ae4-9c1aa5248db9
+uuid: 4a31ece1-9599-405a-8365-94667ff4b558
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: personalization
-discoiquuid: 8446e981-6123-43c2-b814-ef19f7f70c58
+discoiquuid: d7921f5b-1553-4afe-9fa9-c7b7fb36d776
 index: y
 internal: n
 snippet: y
@@ -31,9 +31,9 @@ This document describes the following:
 
 To set up how your sites share personalized content, you need to perform the following steps:
 
-1. [Create a new area](#creatingnewareas) or [create a new area as live copy](#creatingnewareasaslivecopies). An area includes all the activities tha are available for an *area* of the page; that is , the location on the page where the component is targeted. Creating a new area creates an empty area, whereas creating a new area as a live copy lets you inherit content across site structures.
+1. [Create a new area](#creating-new-areas) or [create a new area as live copy](#creatingnewareasaslivecopies). An area includes all the activities tha are available for an *area* of the page; that is , the location on the page where the component is targeted. Creating a new area creates an empty area, whereas creating a new area as a live copy lets you inherit content across site structures.
 
-1. [Link your site or page](#linkingsitestoanarea) to an area.
+1. [Link your site or page](#linking-sites-to-an-area) to an area.
 
 At any time you can suspend or restore inheritance. In addition, if you do not want to suspend inheritance, you can also create local experiences. By default, all pages use the Master Area unless you specify otherwise.
 
@@ -192,7 +192,7 @@ To create an area as a livecopy:
 
 1. In the **Rollout Configs** drop-down menu, select the appropriate configuration.
 
-   See [Installed Rollout Configurations](../../../sites/administering/using/msm-sync.md#installedrolloutconfigurations) for descriptions of each option.
+   See [Installed Rollout Configurations](../../../sites/administering/using/msm-sync.md#installed-rollout-configurations) for descriptions of each option.
 
    See [Creating and Synchronizing Live Copies](../../../sites/administering/using/msm-livecopy.md) for more information on live copies.
 

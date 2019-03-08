@@ -3,12 +3,12 @@ title: Configuring your Page for Bulk Editing of Page Properties
 seo-title: Configuring your Page for Bulk Editing of Page Properties
 description: Bulk editing of page properties allows you to edit the properties of multiple pages at once
 seo-description: Bulk editing of page properties allows you to edit the properties of multiple pages at once
-uuid: d9aa105c-e029-4d25-8a46-7c0219868238
+uuid: bd27b49c-f15a-4d11-a686-c50b157fea86
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
-discoiquuid: e858b0aa-bc54-4eb7-a53d-0ca87b35996b
+discoiquuid: 7cfd2450-2e62-4e6d-b1ed-a55401c08e52
 index: y
 internal: n
 snippet: y
@@ -16,7 +16,7 @@ snippet: y
 
 # Configuring your Page for Bulk Editing of Page Properties{#configuring-your-page-for-bulk-editing-of-page-properties}
 
-[Bulk editing of page properties](../../../sites/authoring/using/editing-page-properties.md#fromthesitesconsolemultiplepages) allows you to edit the properties of multiple pages at once.
+[Bulk editing of page properties](../../../sites/authoring/using/editing-page-properties.md#from-the-sites-console-multiple-pages) allows you to edit the properties of multiple pages at once.
 
 Due to the possibility of different values, page properties are not enabled for bulk editing as default. They must be explicitily whitelisted (enabled). When defining the page properties to be available for bulk editing you need to consider certain implications, such as:
 

@@ -3,12 +3,12 @@ title: Managing Viewer Presets
 seo-title: Managing Viewer Presets
 description: How to create and manage viewer presets
 seo-description: How to create and manage viewer presets
-uuid: 2d5a34f1-df88-4900-9a7b-112c2f575268
+uuid: bb95e3ca-0cd8-4069-98cf-06fecee06634
 contentOwner: Alva Ware-Bevacqui
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: fc3dee08-b5a1-43f0-986e-b03c27b53dda
+discoiquuid: ff430cae-2b08-44cc-9e75-5f7a3e236e8c
 legacypath: /content/docs/en/aem/6-0/administer/integration/dynamic-media/viewer-presets
 index: y
 internal: n
@@ -46,7 +46,7 @@ You can add, edit, delete, publish, unpublish, and preview viewer presets in AEM
 
 >[!NOTE]
 >
->By default, the system shows 15 viewer presets when you select Viewers in an asset's detail view. You can increase this limit. See [Increasing the number of viewer presets that display](#increasingthenumberofviewerpresetsthatdisplay).
+>By default, the system shows 15 viewer presets when you select Viewers in an asset's detail view. You can increase this limit. See [Increasing the number of viewer presets that display](#increasing-the-number-of-viewer-presets-that-display).
 
 ### Viewer support for responsive designed web pages {#viewer-support-for-responsive-designed-web-pages}
 
@@ -57,7 +57,7 @@ See [Responsive Image library](https://marketing.adobe.com/resources/help/en_US/
 >[!NOTE]
 >
 >Please note that you must publish all out-of-the-box viewers before you first use them.  
->See [Publishing Viewer Presets.](#publishingviewerpresets)
+>See [Publishing Viewer Presets.](#publishing-viewer-presets)
 
 ### Viewer Preset system compatiblity  {#viewer-preset-system-compatiblity}
 
@@ -148,10 +148,10 @@ See "Viewers release notes" in the table of contents of the [Viewers Reference G
 >[!NOTE]
 >
 >All out-of-the-box viewer presets in Dynamic Media come already activated (on), but you must publish them.  
->See [Publishing Viewer Presets](#publishingviewerpresets).
+>See [Publishing Viewer Presets](#publishing-viewer-presets).
 >
 >Any new viewer presets that you create and add must be both activated *and *published.  
->See [Activating or Deactivating Viewer Presets](#activatingordeactivatingviewerpresets) and [Publishing Viewer Presets](#publishingviewerpresets).
+>See [Activating or Deactivating Viewer Presets](#activating-or-deactivating-viewer-presets) and [Publishing Viewer Presets](#publishing-viewer-presets).
 
 <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
  <tbody> 
@@ -372,9 +372,9 @@ If you choose to create a new viewer preset, after you save it, the viewer's sta
 
 Some viewer presets have exclusive settings that can affect the use and overall behavior of the viewer. Depending on the viewer preset you are creating, you may want to be aware of these special considerations.
 
-See [Special considerations for creating an Interactive Viewer preset](#specialconsiderationsforcreatinganinteractiveviewerpreset).
+See [Special considerations for creating an Interactive Viewer preset](#special-considerations-for-creating-an-interactive-viewer-preset).
 
-See [Special considerations for creating a Carousel Banner Viewer preset](#specialconsiderationsforcreatingacarouselbannerviewerpreset).
+See [Special considerations for creating a Carousel Banner Viewer preset](#special-considerations-for-creating-a-carousel-banner-viewer-preset).
 
 To create a new viewer preset:
 
@@ -389,7 +389,7 @@ To create a new viewer preset:
 
 1. On the Rich Media Type drop-down menu, select the type of viewer preset you want to create, then in the upper-right corner of the page, tap **Create**.
 
-   See [Rich Media Types for Viewer Presets](#richmediatypesforviewerpresets).
+   See [Rich Media Types for Viewer Presets](#rich-media-types-for-viewer-presets).
 
 1. On the Edit Viewer Preset page, tap the **Appearance **tab.
 1. Do one of the following:
@@ -435,7 +435,7 @@ To create a new viewer preset:
 1. Near the upper-right corner of the page, tap **Save**.
 1. Publish your new viewer preset. You must publish the preset before you can use it on your website.
 
-   See [Publishing Viewer Presets](#publishingviewerpresets).
+   See [Publishing Viewer Presets](#publishing-viewer-presets).
 
 ### Special considerations for creating an Interactive Viewer preset {#special-considerations-for-creating-an-interactive-viewer-preset}
 
@@ -516,7 +516,7 @@ Activating (or turning "On") the state of a viewer preset means that it is visib
 
 However, to deliver* *an asset with a viewer preset, the viewer preset must be published as well. All viewer presets must be activated *and *published to obtain URL or embed code for an asset. You must activate and publish all out-of-the-box viewer presets that come with Dynamic Media. Custom viewer presets that you create and add are auto-activated, but must also be published.
 
-See [Activating or Deactivating Viewer Presets](#activatingordeactivatingviewerpresets).
+See [Activating or Deactivating Viewer Presets](#activating-or-deactivating-viewer-presets).
 
 See also [Previewing Assets](../../assets/using/previewing-assets.md).
 

@@ -3,12 +3,12 @@ title: Configuring Connector for EMC Documentum
 seo-title: Configuring Connector for EMC Documentum
 description: Learn how to configure the Connector for EMC Documentum to enable communication between AEM forms and EMC Documentum.
 seo-description: Learn how to configure the Connector for EMC Documentum to enable communication between AEM forms and EMC Documentum.
-uuid: 9c0e0067-e141-41f0-b715-eab73c95b31f
+uuid: e3db2de8-9e3a-4aa4-b326-33a3ac79b9fb
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/connecting_to_a_content_management_system
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 06df47d4-393f-453e-ae02-1b26b851297f
+discoiquuid: d54f9ae3-efd5-4e63-90f8-de51347c536b
 index: y
 internal: n
 snippet: y
@@ -64,7 +64,7 @@ You can configure which repository service provider to use with Documentum. Repo
 
 **repository provider:** Makes the native repository provider the provider for the repository
 
-***Note**: To select a repository service provider other than those listed, configure RepositoryService in Applications and Services > Service Management. (See [Managing Services](/forms/using/admin-help/topics/managing-services).)*
+***Note**: To select a repository service provider other than those listed, configure RepositoryService in Applications and Services > Service Management. (See [Managing Services](/forms/using/admin-help/topics/managing-services.md).)*
 
 1. In administration console, click Services > Connector for EMC Documentum > Configuration Settings.
 1. In the Repository Service Provider Information area, select the alternative repository service provider.

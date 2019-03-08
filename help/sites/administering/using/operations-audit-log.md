@@ -3,12 +3,12 @@ title: Audit Log Maintenance in AEM 6
 seo-title: Audit Log Maintenance in AEM 6
 description: Lear about Audit Log Maintenance in AEM.
 seo-description: Lear about Audit Log Maintenance in AEM.
-uuid: 873d8f39-3559-47ce-95d3-ed69c1f8a1a7
+uuid: 4bf21c63-c973-4cd1-af16-e97815b1f534
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: f53eee8a-8114-42fe-8505-526e60a7d7f7
+discoiquuid: ebae4ef4-b723-4b42-bb56-076b0ad26546
 index: y
 internal: n
 snippet: y
@@ -26,9 +26,9 @@ For more information, refer to the [Operations Dashboard Documentation](../../..
 
 There are three types of Audit Log Purge options:
 
-1. [Page Audit Log Purging](../../../sites/administering/using/operations-audit-log.md#configurepageauditlogpurging)
-1. [DAM Audit Log Purging](../../../sites/administering/using/operations-audit-log.md#configuredamauditlogpurging)
-1. [Replication Audit Log Puring](../../../sites/administering/using/operations-audit-log.md#configurereplicationauditlogpurging)
+1. [Page Audit Log Purging](../../../sites/administering/using/operations-audit-log.md#configure-page-audit-log-purging)
+1. [DAM Audit Log Purging](../../../sites/administering/using/operations-audit-log.md#configure-dam-audit-log-purging)
+1. [Replication Audit Log Puring](../../../sites/administering/using/operations-audit-log.md#configure-replication-audit-log-purging)
 
 Each can be configured by creating rules in the AEM Web Console. After they have been configured, you can trigger them by going to **Tools - Operations - Maintenance** **-** **Weekly Maintenance Window **and running the **AuditLog Maintenance Task**.
 

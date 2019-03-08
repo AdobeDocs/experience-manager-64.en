@@ -3,12 +3,12 @@ title: View statistics related to Work Manager
 seo-title: View statistics related to Work Manager
 description: The Work Manager tab displays statistics that relate to Work Manager items. Learn how you can view and filter the work items.
 seo-description: The Work Manager tab displays statistics that relate to Work Manager items. Learn how you can view and filter the work items.
-uuid: 47af4a5e-62ae-409d-90f7-ebc9b4c118ac
+uuid: b6f3cc49-b95e-4562-9cef-51d8a206a313
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/health_monitor
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 0844de02-00c3-4d7f-ba8e-5059c13a993f
+discoiquuid: dd2958c1-d162-4c5b-ac6c-1d073e43e476
 index: y
 internal: n
 snippet: y
@@ -16,7 +16,7 @@ snippet: y
 
 # View statistics related to Work Manager{#view-statistics-related-to-work-manager}
 
-The Work Manager tab displays statistics that relate to Work Manager items. These work items are in different states depending on where they are in their process. (See [Status (for Default, Workflow, or Events categories only)](view-statistics-related-manager#status_for_default_workflow_or_events_categories_only).) You can filter the information to view only a subset of the items by using the various options that are available (for example, Status or Category). You can sort resulting work or job items (in ascending or descending order) by clicking one of the column headers. Also, you can manage the work items by using the operation tools that are displayed above the work items list.
+The Work Manager tab displays statistics that relate to Work Manager items. These work items are in different states depending on where they are in their process. (See [Status (for Default, Workflow, or Events categories only)](view-statistics-related-manager.md#status_for_default_workflow_or_events_categories_only).) You can filter the information to view only a subset of the items by using the various options that are available (for example, Status or Category). You can sort resulting work or job items (in ascending or descending order) by clicking one of the column headers. Also, you can manage the work items by using the operation tools that are displayed above the work items list.
 
 ## Filter the work items {#filter-the-work-items}
 

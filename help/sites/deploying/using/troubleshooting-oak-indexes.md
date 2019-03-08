@@ -3,12 +3,12 @@ title: Troubleshooting Oak Indexes
 seo-title: Troubleshooting Oak Indexes
 description: How to detect and fix slow re-indexing.
 seo-description: How to detect and fix slow re-indexing.
-uuid: 22a189c4-c73d-47b0-be84-cf46a30dfd74
+uuid: 68af6157-bd09-401f-b1ed-d42c932b7046
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
-discoiquuid: 924670fa-29e1-4697-bcaa-0529211be5e8
+discoiquuid: 7842ecea-a8ad-408d-b036-e5e6c8866077
 index: y
 internal: n
 snippet: y
@@ -38,7 +38,7 @@ Initial detection slow indexing requires reviewing the `IndexStats` JMX MBeans. 
 
 ## Indexing is paused after a forced shutdown {#indexing-is-paused-after-a-forced-shutdown}
 
-A forced shutdown results in AEM suspending asynchronous indexing for up to 30 minutes after the restart, and typically requires another 15 minutes to complete the first re-indexing pass, for a total of approximately 45 minutes (tying back to the [Initial Detection](../../../sites/deploying/using/troubleshooting-oak-indexes.md#initialdetection) timeframe of 45 minutes). In the event you suspect indexing is paused after a forced shutdown:
+A forced shutdown results in AEM suspending asynchronous indexing for up to 30 minutes after the restart, and typically requires another 15 minutes to complete the first re-indexing pass, for a total of approximately 45 minutes (tying back to the [Initial Detection](../../../sites/deploying/using/troubleshooting-oak-indexes.md#initial-detection) timeframe of 45 minutes). In the event you suspect indexing is paused after a forced shutdown:
 
 1. Firstly, determine if the AEM instance was shut down in a forced manner (the AEM process was forcefully killed, or a power failure occured) and subsequently restarted.
 

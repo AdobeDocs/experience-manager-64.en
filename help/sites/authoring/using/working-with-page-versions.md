@@ -3,12 +3,12 @@ title: Working with Page Versions
 seo-title: Working with Page Versions
 description: Create, compare, and restore versions of a page
 seo-description: Create, compare, and restore versions of a page
-uuid: f1eccc18-14cd-45f2-8562-21ba214f899d
+uuid: 178c4865-2a97-42a9-b48f-b14e3f4c0203
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: b33770e2-fd97-4026-99aa-989eb7a44e74
+discoiquuid: 33e8cd48-6f09-427d-aec0-7c299c7797da
 index: y
 internal: n
 snippet: y
@@ -26,8 +26,8 @@ Versioning creates a "snapshot" of a page at a specific point in time. With vers
 
 You can create a version of your resource from:
 
-* the [Timeline rail](#creatinganewversiontimeline)
-* the [Create](#creatinganewversioncreatewithaselectedresource) option (when a resource is selected)
+* the [Timeline rail](#creating-a-new-version-timeline)
+* the [Create](#creating-a-new-version-create-with-a-selected-resource) option (when a resource is selected)
 
 ### Creating a New Version - Timeline {#creating-a-new-version-timeline}
 

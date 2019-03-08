@@ -3,12 +3,12 @@ title: Creating Sites for Mobile Devices
 seo-title: Creating Sites for Mobile Devices
 description: Creating a mobile site is similar to creating a standard site as it also involves creating templates and components
 seo-description: Creating a mobile site is similar to creating a standard site as it also involves creating templates and components
-uuid: 19dd1e3f-1d62-4aaf-bc04-b1abf571e738
+uuid: b209473a-6d0b-4f1d-b758-68430592864d
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: mobile-web
 content-type: reference
-discoiquuid: 83e23465-0f2e-4bbf-8495-4b0b54fa4625
+discoiquuid: ba4aa145-1622-4c73-8820-07bb8d27510a
 legacypath: /content/docs/en/aem/6-0/develop/mobile/mobile
 index: y
 internal: n
@@ -69,15 +69,15 @@ Use Multi Site Manager (MSM) to create a mobile live copy from a standard site. 
 
 The Java packages containing the mobile classes are:
 
-* [com.day.cq.wcm.mobile.api](/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/mobile/api/device/capability/package-summary) - defines MobileConstants.  
+* [com.day.cq.wcm.mobile.api](/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/mobile/api/device/capability/package-summary.md) - defines MobileConstants.  
 
-* [com.day.cq.wcm.mobile.api.device](/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/mobile/api/device/package-summary) - defines Device, DeviceGroup and DeviceGroupList.  
+* [com.day.cq.wcm.mobile.api.device](/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/mobile/api/device/package-summary.md) - defines Device, DeviceGroup and DeviceGroupList.  
 
-* [com.day.cq.wcm.mobile.api.device.capability](/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/mobile/api/device/capability/package-summary) - defines DeviceCapability.  
+* [com.day.cq.wcm.mobile.api.device.capability](/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/mobile/api/device/capability/package-summary.md) - defines DeviceCapability.  
 
-* [com.day.cq.wcm.mobile.api.wurfl](/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/workflow/api/package-summary) - defines WurflQueryEngine.  
+* [com.day.cq.wcm.mobile.api.wurfl](/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/workflow/api/package-summary.md) - defines WurflQueryEngine.  
 
-* [com.day.cq.wcm.mobile.core](/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/mobile/core/package-summary) - defines MobileUtil, which provides various utility methods revolving around WCM Mobile.
+* [com.day.cq.wcm.mobile.core](/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/mobile/core/package-summary.md) - defines MobileUtil, which provides various utility methods revolving around WCM Mobile.
 
 ### Mobile Components {#mobile-components}
 
@@ -205,7 +205,7 @@ When you create a mobile site, you need to assign device groups to your site. AE
 
 * **Touch** phones, for devices like the iPad with full support for HTML, images, JavaScript and device rotation.
 
-As emulators can be associated with a device group (see the section [Creating a Device Group](#creatingadevicegroup)), assigning a device group to a site enables authors to select between the emulators that are associated with the device group to edit the page.
+As emulators can be associated with a device group (see the section [Creating a Device Group](#creating-a-device-group)), assigning a device group to a site enables authors to select between the emulators that are associated with the device group to edit the page.
 
 To assign a device group to your site:
 
@@ -315,7 +315,7 @@ Device capabilities are stored as node properties, and nodes represent device mo
 As the WURFL™ database is evolving, you may need to customize or replace it. To update the mobile devices database you have the following options:
 
 * Replace the file with the latest version, if you have a license that allows this usage. See Installing a Different WURFL Database.
-* Use the version that is available in AEM and configure a regexp that matches your User-Agent strings and points to an existing WURFL™ device. See [Adding a regexp-based User-Agent Matching](#addingaregexpbaseduseragentmatching).
+* Use the version that is available in AEM and configure a regexp that matches your User-Agent strings and points to an existing WURFL™ device. See [Adding a regexp-based User-Agent Matching](#adding-a-regexp-based-user-agent-matching).
 
 #### Testing the Mapping of a User-Agent to WURFL™ Capabilities {#testing-the-mapping-of-a-user-agent-to-wurfl-capabilities}
 
@@ -360,10 +360,10 @@ AEM supports device client-side detection based on `BrowserMap`. `BrowserMap` is
   
 `BrowserMap` provides you with three strategies you can use to provide an alternate website to a client, which are employed in the following order:
 
-1. [Alternate links](#providingalternatelinks)  
+1. [Alternate links](#providing-alternate-links)  
 
 1. [Device Group Specific URL](#definingdevicegroupspecificurl)
-1. [Selector-based URL](#definingselectorbasedurls)
+1. [Selector-based URL](#defining-selector-based-urls)
 
 >[!NOTE]
 >

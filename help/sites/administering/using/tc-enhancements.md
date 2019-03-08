@@ -3,11 +3,11 @@ title: Translation Enhancements
 seo-title: Translation Enhancements
 description: Translation enhancements in AEM.
 seo-description: Translation enhancements in AEM.
-uuid: 20e67d18-7088-47d6-93e3-f190b370efe8
+uuid: 34331fa2-c959-4852-9c50-67911da408e5
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features
 content-type: reference
-discoiquuid: c9ba1556-ef46-4aa2-b7b7-6d33b31c39ea
+discoiquuid: 20fb2269-435a-4dc6-bfd0-e0a528a4d739
 index: y
 internal: n
 snippet: y

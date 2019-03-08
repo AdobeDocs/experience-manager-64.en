@@ -3,12 +3,12 @@ title: Storage Configuration
 seo-title: Storage Configuration
 description: How to access the Storage Configuration Console
 seo-description: How to access the Storage Configuration Console
-uuid: 54e1d731-92bb-47a6-ba72-d454161001c2
+uuid: 5a9f498f-81df-4850-9887-55debfa58a70
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: b846ee69-baa0-4a17-a032-3787c9ee89b5
+discoiquuid: 8e1ea9b9-22d0-470e-b5c1-42e1c9653f2f
 index: y
 internal: n
 snippet: y
@@ -38,9 +38,9 @@ To select a storage option other than the default JCR :
 * select an option
 * configure appropriately
 
-    * see details for [selecting MSRP](../../communities/using/msrp.md#selectmsrp)
-    * see details for [selecting DSRP](../../communities/using/dsrp.md#selectdsrp)
-    * see details for [selecting ASRP](../../communities/using/asrp.md#selectasrp)
+    * see details for [selecting MSRP](../../communities/using/msrp.md#select-msrp)
+    * see details for [selecting DSRP](../../communities/using/dsrp.md#select-dsrp)
+    * see details for [selecting ASRP](../../communities/using/asrp.md#select-asrp)
 
 * select **Submit**
 

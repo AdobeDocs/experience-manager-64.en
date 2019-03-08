@@ -3,12 +3,12 @@ title: AEM Livefyre Recipes
 seo-title: AEM Livefyre Recipes
 description: Step-by-step instructions on common use cases for Adobe Experience Manager Livefyre. 
 seo-description: Step-by-step instructions on common use cases for Adobe Experience Manager Livefyre. 
-uuid: 8745d5f2-32e3-43c8-8683-937c3dec48f0
+uuid: fbf7c0a6-03b7-4a5e-a967-e4bd6df16157
 contentOwner: alba
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: 54ee9947-5e70-40b0-81fc-c9054daa61a9
+discoiquuid: 7ebc75b8-4e6a-45fd-97d3-afb65808e44c
 index: y
 internal: n
 snippet: y
@@ -181,7 +181,7 @@ For advanced customizations using the SDK, please see [StreamHub SDKs](https://g
 
 **Method 2: API Implementation**
 
-* For creating customized experiences and data visualizations, Livefyre Apps can be created from scratch by consuming Livefyre and social data using the [Bootstrap and Stream API](Bootstrap and Stream API).
+* For creating customized experiences and data visualizations, Livefyre Apps can be created from scratch by consuming Livefyre and social data using the [Bootstrap and Stream API](Bootstrap and Stream API.md).
 
 Additional Ratings and Reviews APIs can be found [here](https://api.livefyre.com/docs/apis/by-category/ratings-and-reviews).
 

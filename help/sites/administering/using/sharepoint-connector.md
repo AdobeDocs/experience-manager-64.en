@@ -3,12 +3,12 @@ title: SharePoint Connector
 seo-title: SharePoint Connector
 description:  Day JCR Connector for Microsoft SharePoint 2010 and Microsoft SharePoint 2013, version 4.0.
 seo-description: Learn about the Sharepoint Connector in AEM.
-uuid: 914e2a85-7a8e-4ddb-82e0-dfc16fda183a
+uuid: a568e553-78f1-4528-8557-efb5c288bb37
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: 5b6707a2-fbde-4e24-93c5-c070498f5126
+discoiquuid: 8e1d11ff-5f1e-40e6-b977-ea533e67c1dc
 index: y
 internal: n
 snippet: y
@@ -62,7 +62,7 @@ The connector requires the following:
 * SharePoint Web Services available through the network
 * SharePoint server URL  
 * User credentials and permissions for CRX and SharePoint repositories
-* [Supported platforms](#supportedplatforms)
+* [Supported platforms](#supported-platforms)
 
 The SharePoint connector is available for downloading from [packageshare](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq630/featurepack/cq-6.3.0-featurepack-17673).
 
@@ -87,7 +87,7 @@ The connector supports the following:
 
 ### Standard installation {#standard-installation}
 
-AEM Package Share is used to distribute product features, examples, and hot fixes. For details, see the [Package Share documentation](../../../sites/administering/using/package-manager.md#packageshare).
+AEM Package Share is used to distribute product features, examples, and hot fixes. For details, see the [Package Share documentation](../../../sites/administering/using/package-manager.md#package-share).
 
 To access Package Share on the AEM Welcome page, tap/click **Tools** and then select **Package Share**. You require a valid Adobe ID that includes your company email address. In addition, after logging in to your account, apply for Package Share access.
 

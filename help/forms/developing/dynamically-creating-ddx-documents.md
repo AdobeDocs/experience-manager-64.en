@@ -3,13 +3,13 @@ title: Dynamically Creating DDX Documents
 seo-title: Dynamically Creating DDX Documents
 description: null
 seo-description: null
-uuid: 16e92fe7-25c2-43c6-b3c5-696572239e75
+uuid: 94c49487-fcf4-415b-b64f-d3c85cdaa751
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/assembling_pdf_documents
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: 22280149-6cb3-4103-b03b-88c8e08c5a6a
+discoiquuid: 748a2cdb-bc6f-4de2-a186-d7dbf031f4ca
 index: y
 internal: n
 snippet: y
@@ -96,17 +96,17 @@ All disassembled PDF documents are returned within a collection object. Iterate 
 
 **See also**
 
-[Dynamically create a DDX document using the Java API](/programming-with-aem-forms/dynamically-creating-ddx-documents-dynamically dynamically-creating-ddx-documents-dynamically#dynamically_create_a_ddx_document_using_the_java_api)
+[Dynamically create a DDX document using the Java API](/programming-with-aem-forms/dynamically-creating-ddx-documents-dynamically dynamically-creating-ddx-documents-dynamically.md#dynamically_create_a_ddx_document_using_the_java_api)
 
-[Dynamically create a DDX document using the web service API](/programming-with-aem-forms/dynamically-creating-ddx-documents-dynamically dynamically-creating-ddx-documents-dynamically#dynamically_create_a_ddx_document_using_the_web_service_api)
+[Dynamically create a DDX document using the web service API](/programming-with-aem-forms/dynamically-creating-ddx-documents-dynamically dynamically-creating-ddx-documents-dynamically.md#dynamically_create_a_ddx_document_using_the_web_service_api)
 
 [Including AEM Forms Java library files](#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
 
 [Setting connection properties](#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2)
 
-[Programmatically Assembling PDF Documents](/programming-with-aem-forms/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically#programmatically_assembling_pdf_documents)
+[Programmatically Assembling PDF Documents](/programming-with-aem-forms/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically.md#programmatically_assembling_pdf_documents)
 
-[Programmatically Disassembling PDF Documents](/programming-with-aem-forms/programmatically-disassembling-pdf-documents-programmatically#programmatically_disassembling_pdf_documents)
+[Programmatically Disassembling PDF Documents](/programming-with-aem-forms/programmatically-disassembling-pdf-documents-programmatically.md#programmatically_disassembling_pdf_documents)
 
 ## Dynamically create a DDX document using the Java API {#dynamically-create-a-ddx-document-using-the-java-api}
 
@@ -182,7 +182,7 @@ Dynamically create a DDX document and disassemble a PDF document by using the As
 
 **See also**
 
-[Dynamically Creating DDX Documents](/programming-with-aem-forms/dynamically-creating-ddx-documents-dynamically dynamically-creating-ddx-documents-dynamically#dynamically_creating_ddx_documents)
+[Dynamically Creating DDX Documents](/programming-with-aem-forms/dynamically-creating-ddx-documents-dynamically dynamically-creating-ddx-documents-dynamically.md#dynamically_creating_ddx_documents)
 
 [Quick Start (SOAP mode): Dynamically creating a DDX document using the Java API](#unresolvedlink-lc-qs-assembler-as.xml#ws624e3cba99b79e12e69a9941333732bac8-7f6c.2)
 
@@ -269,7 +269,7 @@ Dynamically create a DDX document and disassemble a PDF document by using the As
 
 **See also**
 
-[Dynamically Creating DDX Documents](/programming-with-aem-forms/dynamically-creating-ddx-documents-dynamically dynamically-creating-ddx-documents-dynamically#dynamically_creating_ddx_documents)
+[Dynamically Creating DDX Documents](/programming-with-aem-forms/dynamically-creating-ddx-documents-dynamically dynamically-creating-ddx-documents-dynamically.md#dynamically_creating_ddx_documents)
 
 [Quick Start (MTOM mode): Dynamically creating a DDX document using the web service API](#unresolvedlink-lc-qs-assembler-as.xml#ws624e3cba99b79e12e69a9941333732bac8-7f6b.2)
 

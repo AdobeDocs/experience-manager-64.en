@@ -3,12 +3,12 @@ title: MySQL Configuration for DSRP
 seo-title: MySQL Configuration for DSRP
 description: How to connect to the MySQL server and establish the UGC database
 seo-description: How to connect to the MySQL server and establish the UGC database
-uuid: 5f7665e3-1cb9-4fbd-ab89-f37444268399
+uuid: cc02a3be-3ff8-4d74-8bcb-f868b5d25936
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 95d6af29-ad16-43bb-9b13-8e082320e968
+discoiquuid: 1a7ae4d3-822f-4e61-88a8-be152ff2a841
 index: y
 internal: n
 snippet: y
@@ -23,7 +23,7 @@ These instructions describe how to connect to the MySQL server and establish the
 ## Requirements {#requirements}
 
 * [latest Communities feature pack](../../communities/using/deploy-communities.md#latestfeaturepack)
-* [JDBC driver for MySQL](../../communities/using/deploy-communities.md#jdbcdriverformysql)
+* [JDBC driver for MySQL](../../communities/using/deploy-communities.md#jdbc-driver-for-mysql)
 * a relational database :
 
     * [MySQL server](http://dev.mysql.com/downloads/mysql/) Community Server version 5.6 or later
@@ -188,7 +188,7 @@ When MySQL runs on a server different from AEM, the server hostname must be spec
       else enter the configured password for the MySQL Username
     
     * **...**
-    * **Datasource name** : name entered for the [MySQL connection](#newconnectionsettings), for example, 'communities'
+    * **Datasource name** : name entered for the [MySQL connection](#new-connection-settings), for example, 'communities'
 
 * select **Save**
 

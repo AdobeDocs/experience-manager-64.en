@@ -3,12 +3,12 @@ title: Sample ContextHub UI Module Types
 seo-title: Sample ContextHub UI Module Types
 description: ContextHub provides several sample UI modules that you can use in your solutions
 seo-description: ContextHub provides several sample UI modules that you can use in your solutions
-uuid: 49317824-ceda-4748-926b-44de0ea0ac19
+uuid: 7093f63b-2d1f-4104-add6-aeeaac4fdc59
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: 9185c065-f643-4ebe-8398-1d839840f6b6
+discoiquuid: ae1446ac-ab7d-45ff-a049-9753dfccb1d4
 index: y
 internal: n
 snippet: y
@@ -43,7 +43,7 @@ The source code is located at /libs/granite/contexthub/code/ui/container/js/Cont
 Configure the contexthub.base UI module using a Javascript object in JSON format. Include any of the following properties to configure the UI module features:
 
 * **image:** A URL to an image to display as the icon.
-* **icon:** The name of a [Coral UI icon](/sites/developing/using/reference-materials/coral-ui/docs/2.17.0-granite-004/icon) class. If you specify a value for both the icon and image properties, the image is used.
+* **icon:** The name of a [Coral UI icon](/sites/developing/using/reference-materials/coral-ui/docs/2.17.0-granite-004/icon.md) class. If you specify a value for both the icon and image properties, the image is used.
 
 * **title:** A title for the UI module. The title appears when the pointer is paused over the UI module icon.
 * **fullscreen:** A boolean value that indicates whether the UI module supports fullscreen mode. Use `true` to support fullscreen and `false` to prevent fullscreen mode.

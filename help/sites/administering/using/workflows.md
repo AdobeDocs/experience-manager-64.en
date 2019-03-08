@@ -3,12 +3,12 @@ title: Administering Workflows
 seo-title: Administering Workflows
 description: Learn how to administer workflows in AEM.
 seo-description: Learn how to administer workflows in AEM.
-uuid: 5b3787e1-2938-4760-aa5d-595f86e5a5c1
+uuid: 51d2cc15-f6cb-462f-a0dd-7a00b60a7157
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: f664b373-04a0-467e-9d1b-d62f2a49905e
+discoiquuid: b8b6a35a-5ed4-4600-ad79-83abad24b0cf
 index: y
 internal: n
 snippet: y
@@ -37,7 +37,7 @@ The business processes that your organization has established can be represented
 >
 >* Applying and participating in workflows: [Working with Workflows](../../../sites/authoring/using/workflows.md). 
 >* Creating workflow models and extending workflow functionality: [Developing and Extending Workflows](../../../sites/developing/using/workflows.md). 
->* Improving the performance of workflows that use significant server resources: [Concurrent Workflow Processing](../../../sites/deploying/using/configuring-performance.md#concurrentworkflowprocessing).
+>* Improving the performance of workflows that use significant server resources: [Concurrent Workflow Processing](../../../sites/deploying/using/configuring-performance.md#concurrent-workflow-processing).
 >
 
 ## Workflow Models and Instances {#workflow-models-and-instances}

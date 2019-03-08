@@ -3,12 +3,12 @@ title: Resolving file dependencies
 seo-title: Resolving file dependencies
 description: Primary 3D model file dependencies, such as texture map files, are automatically resolved where possible. This functionality is accomplished by having AEM search nearby Asset folders for files with the same names that are found in the 3D file.
 seo-description: Primary 3D model file dependencies, such as texture map files, are automatically resolved where possible. This functionality is accomplished by having AEM search nearby Asset folders for files with the same names that are found in the 3D file.
-uuid: f65da62b-dec4-474b-b764-a7b226e3e37f
+uuid: bfbc3842-0ca3-465e-98e4-bebf50420342
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: authoring
 content-type: reference
-discoiquuid: 4292e378-c859-41e3-b094-12862d73ce26
+discoiquuid: b2d8d903-49fc-4f88-a23d-ea68d3507ac0
 index: y
 internal: n
 snippet: y

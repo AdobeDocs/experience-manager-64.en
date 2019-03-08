@@ -3,12 +3,12 @@ title: Extending Assets Search
 seo-title: Extending Assets Search
 description: Extend the search capabilities of AEM Assets beyond out-of-the-box searches for assets by strings.
 seo-description: Extend the search capabilities of AEM Assets beyond out-of-the-box searches for assets by strings.
-uuid: de0c8847-4ccc-4269-a923-b00b61a850cb
+uuid: b2e4f607-fe6e-4cf9-a3f7-13da6532d6cb
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: extending-assets
 content-type: reference
-discoiquuid: 0d646051-8d5f-4e89-bc5a-4c2b2fff3a2b
+discoiquuid: 1ee73a1d-f8de-4ee6-9bf2-7c6f4a0ca8f7
 duration: 10 minutes
 index: y
 internal: n
@@ -55,7 +55,7 @@ AEM Assets comes with a set of predefined predicates that can be used to customi
 
 In addition to using pre-existing predicates, AEM developers can also create their own predicates using the [Query Builder API](../../sites/developing/using/querybuilder-api.md).
 
-Creating custom predicates requires basic knowledge about the [Widgets framework](/sites/developing/using/reference-materials/widgets-api/index).
+Creating custom predicates requires basic knowledge about the [Widgets framework](/sites/developing/using/reference-materials/widgets-api/index.md).
 
 The best practice is to copy an existing predicate and adjust it. Sample predicates are located in **/libs/cq/search/components/predicates**.
 

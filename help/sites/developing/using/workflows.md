@@ -3,12 +3,12 @@ title: Developing and Extending Workflows
 seo-title: Developing and Extending Workflows
 description: AEM provides several tools and resources for creating worklfow models, developing workflow steps, and for programmatically interacting with workflows
 seo-description: AEM provides several tools and resources for creating worklfow models, developing workflow steps, and for programmatically interacting with workflows
-uuid: 8f9a736f-3d47-4081-b91b-5f2310c6c5d1
+uuid: ff608533-2d4b-47d4-b5f9-a2c488896431
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
-discoiquuid: ed43afc0-0116-450e-9523-2910a2192563
+discoiquuid: e005d9ee-dc7d-45fc-a43d-cf5de4e0640c
 index: y
 internal: n
 snippet: y
@@ -51,13 +51,13 @@ A `WorkflowModel` represents a definition (model) of a workflow. It is made of `
 
 Workflow models are versioned. When you run a workflow instance it will use (and keep) the runtime model of the workflow (as available at the time the workflow was started).
 
-A runtime model is [generated when **Sync** is triggered in the workflow model editor](../../../sites/developing/using/workflows-models.md#syncyourworkflowgeneratearuntimemodel).
+A runtime model is [generated when **Sync** is triggered in the workflow model editor](../../../sites/developing/using/workflows-models.md#sync-your-workflow-generate-a-runtime-model).
 
 Edits to the workflow model that occur, and/or runtime models that are generated, *after* the specific instance was started will not be applied to that instance.
 
 >[!CAUTION]
 >
->The steps performed are those as defined by the [runtime model](../../../sites/developing/using/workflows-models.md#syncyourworkflowgeneratearuntimemodel); this is generated at the time the **Sync** action is triggered in the workflow model editor.
+>The steps performed are those as defined by the [runtime model](../../../sites/developing/using/workflows-models.md#sync-your-workflow-generate-a-runtime-model); this is generated at the time the **Sync** action is triggered in the workflow model editor.
 >
 >If the workflow model is changed after this point in time (without **Sync** being triggered), then the runtime instance will not reflect those changes. Only runtime models generated after the update will reflect the changes. The exceptions are the underlying ECMA scripts, which are held only once so changes to these are taken.
 
@@ -141,7 +141,7 @@ Transient workflows were introduced for loading a large number of assets, where 
 
 >[!NOTE]
 >
->See [Creating a Transient Workflow](../../../sites/developing/using/workflows-models.md#creatingatransientworkflow) for further details.
+>See [Creating a Transient Workflow](../../../sites/developing/using/workflows-models.md#creating-a-transient-workflow) for further details.
 
 >[!CAUTION]
 >
@@ -162,7 +162,7 @@ Transient workflows were introduced for loading a large number of assets, where 
 
 >[!NOTE]
 >
->See [Best Practices for Assets](../../../assets/using/performance-tuning-guidelines.md#transientworkflows) for further information about how Transient Workflows impact Asset performance.
+>See [Best Practices for Assets](../../../assets/using/performance-tuning-guidelines.md#transient-workflows) for further information about how Transient Workflows impact Asset performance.
 
 ### Multi Resource Support {#multi-resource-support}
 
@@ -172,7 +172,7 @@ If **Multi Resource Support** is not activated for your workflow model and multi
 
 >[!NOTE]
 >
->See [Configuring a Workflow for Multi Resource Support](../../../sites/developing/using/workflows-models.md#configuringaworkflowformultiresourcesupport) for further details.
+>See [Configuring a Workflow for Multi Resource Support](../../../sites/developing/using/workflows-models.md#configuring-a-workflow-for-multi-resource-support) for further details.
 
 ### Workflow Stages {#workflow-stages}
 
@@ -182,7 +182,7 @@ As the individual step names can be specific and technical, the stage names can 
 
 For example, for a workflow with six steps and four stages:
 
-1. You can [configure Workflow Stages (that show Workflow Progress) and then assign the appropriate stage to each step in your workflow](../../../sites/developing/using/workflows-models.md#configuringworkflowstagesthatshowworkflowprogress):
+1. You can [configure Workflow Stages (that show Workflow Progress) and then assign the appropriate stage to each step in your workflow](../../../sites/developing/using/workflows-models.md#configuring-workflow-stages-that-show-workflow-progress):
 
     * Multiple stage names can be created.
     * Then an individual stage name is assigned to each step (a stage name can be assigned to one or more steps).
@@ -196,7 +196,7 @@ For example, for a workflow with six steps and four stages:
    | Step 5 |Complete |
    | Step 6 |Complete |
 
-1. When the workflow is run, the user can view the progress according to the Stage names (instead of the step names). The workflow progress will be displayed in the [**WORKFLOW INFO** tab of the task details window of the workitem](../../../sites/authoring/using/workflows-participating.md#openingaworkflowitemtoviewdetailsandtakeactions) listed in the ** [Inbox](../../../sites/authoring/using/inbox.md)**.
+1. When the workflow is run, the user can view the progress according to the Stage names (instead of the step names). The workflow progress will be displayed in the [**WORKFLOW INFO** tab of the task details window of the workitem](../../../sites/authoring/using/workflows-participating.md#opening-a-workflow-item-to-view-details-and-take-actions) listed in the ** [Inbox](../../../sites/authoring/using/inbox.md)**.
 
 ### Workflows and Forms {#workflows-and-forms}
 

@@ -3,12 +3,12 @@ title: Publishing an Email to Email Service Providers
 seo-title: Publishing an Email to Email Service Providers
 description: You can publish newsletters to e-mail services such as ExactTarget and Silverpop Engage.
 seo-description: You can publish newsletters to e-mail services such as ExactTarget and Silverpop Engage.
-uuid: 58207c3c-569c-4d6e-8f79-d56b3dad6fea
+uuid: 54aaa21f-1700-45cb-b378-974a514b3f83
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: 8a863813-9ec8-49a4-8519-684fdbd34d9e
+discoiquuid: a6b84a75-9be6-4e00-88de-95cfdfb6de62
 index: y
 internal: n
 snippet: y
@@ -44,7 +44,7 @@ To create a new email that is published to the configured e-mail service:
 1. Click **Create**.
 1. Open the created email. 
 1. Switch to design mode to select the components you want to display in the sidekick. 
-1. Switch to edit mode and start adding content (text, images, [email tools](#addingexacttargetemailtoolstoyouremail), [personalization variables](#addingtextandpersonalizationtooltoyouremail), and so on) to your email.
+1. Switch to edit mode and start adding content (text, images, [email tools](#adding-exacttarget-email-tools-to-your-email), [personalization variables](#adding-text-and-personalization-tool-to-your-e-mail), and so on) to your email.
 
 ### Adding ExactTarget Email Tools to your email {#adding-exacttarget-email-tools-to-your-email}
 
@@ -96,7 +96,7 @@ The **Email Tools** component for ExactTarget can add more email functionality t
 
    >[!NOTE]
    >
-   >The **Options** drop-down menu is only populated if ExactTarget configuration is applied to the email. See [Applying Email Service Configuration to Email Settings](#applyingemailserviceconfigurationtoemailsettings) for more information.
+   >The **Options** drop-down menu is only populated if ExactTarget configuration is applied to the email. See [Applying Email Service Configuration to Email Settings](#applying-e-mail-service-configuration-to-e-mail-settings) for more information.
 
 1. Publish the email to ExactTarget.
 

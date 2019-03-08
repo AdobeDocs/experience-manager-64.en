@@ -3,12 +3,12 @@ title: WebDAV Access
 seo-title: WebDAV Access
 description: Learn about WebDAV access in AEM.
 seo-description: Learn about WebDAV access in AEM.
-uuid: bc6fc839-8560-4238-b645-f7acf6e92ef6
+uuid: c18ab907-3893-4e00-b1b7-22acd7b23c11
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: content
 content-type: reference
-discoiquuid: bc7d0dd9-363a-469d-92f5-22e25af861de
+discoiquuid: 402b0481-ed86-4f86-8755-8a4602fc8ffd
 index: y
 internal: n
 snippet: y

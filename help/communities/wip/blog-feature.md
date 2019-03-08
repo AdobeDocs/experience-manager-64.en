@@ -3,11 +3,11 @@ title: Blog Feature
 seo-title: Blog Feature
 description: Community information in a journaling format
 seo-description: Community information in a journaling format
-uuid: 76c328b2-b974-43af-85c5-47e9aaf46a4d
+uuid: 7497f8a4-5fdb-43f2-9a9a-0cb729fb3205
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
-discoiquuid: ce4b6f37-54c3-443b-b63e-61846b5eefdd
+discoiquuid: 8cdbf71b-9c38-46a8-9b78-c6bfbb552c44
 index: y
 internal: n
 snippet: y
@@ -26,10 +26,10 @@ The blog feature provides :
 * Publish-side creation of blog articles and comments
 * Rich text editing
 * Inline images (with support for drag and drop)
-* Embedded social networking content ([oEmbed support](../../communities/using/blog-developer-basics.md#allowingrichmedia))
+* Embedded social networking content ([oEmbed support](../../communities/using/blog-developer-basics.md#allowing-rich-media))
 * Draft mode
 * Scheduled publishing
-* Compose on-behalf (a [privileged member](../../communities/using/users.md#privilegedmembersgroup) can create content on behalf of a different communty member)
+* Compose on-behalf (a [privileged member](../../communities/using/users.md#privileged-members-group) can create content on behalf of a different communty member)
 * [In-context and bulk moderation](../../communities/using/moderate-ugc.md) of blog articles and comments
 
 This section of the documentation describes
@@ -54,7 +54,7 @@ and drag them into place on a page where the blog should appear.
 
 For necessary information, visit [Communities Components Basics](../../communities/using/basics.md).
 
-When the [required client-side libraries](../../communities/using/blog-developer-basics.md#essentialsforclientside) are included, this is how the `Blog`component will appear :
+When the [required client-side libraries](../../communities/using/blog-developer-basics.md#essentials-for-client-side) are included, this is how the `Blog`component will appear :
 
 ![](assets/chlimage_1-147.png)
 
@@ -242,7 +242,7 @@ When the signed in user has moderator or administrator privileges, they are able
 
 #### Members {#members}
 
-When the signed in user is a community member or [privileged member](../../communities/using/users.md#privilegedmembersgroup) (depending on configuration), they are able to select `New Article` to create and post a new blog article.
+When the signed in user is a community member or [privileged member](../../communities/using/users.md#privileged-members-group) (depending on configuration), they are able to select `New Article` to create and post a new blog article.
 
 Specifically, they may
 

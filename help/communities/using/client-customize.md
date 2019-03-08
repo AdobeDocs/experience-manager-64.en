@@ -3,12 +3,12 @@ title: Client-side Customization
 seo-title: Client-side Customization
 description: Customizing behavior or appearance client-side in AEM Communities
 seo-description: Customizing behavior or appearance client-side in AEM Communities
-uuid: 0c4c80a1-1f8c-44b5-a5b8-c092e4aaca37
+uuid: 1197f393-6b21-438c-91f9-5a9f6b002121
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 35f3d557-5145-45f8-8338-1c3d71047d14
+discoiquuid: 39e5d510-0828-43c8-9858-6f91a2be3756
 index: y
 internal: n
 snippet: y
@@ -92,7 +92,7 @@ To skin a component:
 1. Identify the elements that you want to change (example - composer area, toolbar buttons, message font, etc).
 1. Identify the CSS class/rules that affect these elements.
 1. Create a stylesheet file (.css).
-1. Include the stylesheet in a client library folder ([clientlibs](#clientlibsforscf)) for your site and make sure it is included from your templates and pages with [ui:includeClientLib](../../sites/developing/using/clientlibs.md).
+1. Include the stylesheet in a client library folder ([clientlibs](#clientlibs-for-scf)) for your site and make sure it is included from your templates and pages with [ui:includeClientLib](../../sites/developing/using/clientlibs.md).
 
 1. Redefine the CSS classes and rules that you have identified (#2) in your style sheet and add styles.
 

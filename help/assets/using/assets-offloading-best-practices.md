@@ -3,12 +3,12 @@ title: Assets Offloading Best Practices
 seo-title: Assets Offloading Best Practices
 description: Recommended use cases and best practices for offloading asset ingestion and replication workflows in AEM Assets.
 seo-description: Recommended use cases and best practices for offloading asset ingestion and replication workflows in AEM Assets.
-uuid: cf6d53b3-90f5-4a42-92c4-38d50051e464
+uuid: 8a3855fd-9199-4b3c-97b2-7aaa8934dfd6
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: 5b75e079-076d-40b4-9756-03f9d4942717
+discoiquuid: 4cc811d9-7217-4f5b-868a-24c439585c74
 index: y
 internal: n
 snippet: y
@@ -108,7 +108,7 @@ Adobe recommends that you turn off automatic agent management because it does no
 By default, offloading transport uses reverse replication to pull back the offloaded assets from the worker to the master. Reverse replication agents do not support binary-less replication. You should configure offloading to use forward replication to push the offloaded assets back from worker to master.
 
 1. If you are migrating from the default configuration using reverse replication, disable or delete all agents named " `offloading_outbox`" and " `offloading_reverse_*`" on master and worker, where &#42; represents the Sling id of the target instance.
-1. On each worker, create new forward replication agent pointing to the master. The procedure is the same as creating forward agents from master to worker. See [Creating Replication Agents For Offloading](../../sites/deploying/using/offloading.md#creatingreplicationagentsforoffloading) for instructions around setting up offloading replication agents.
+1. On each worker, create new forward replication agent pointing to the master. The procedure is the same as creating forward agents from master to worker. See [Creating Replication Agents For Offloading](../../sites/deploying/using/offloading.md#creating-replication-agents-for-offloading) for instructions around setting up offloading replication agents.
 1. Open configuration for OffloadingDefaultTransporter (*http://localhost:4502/system/console/configMgr/com.adobe.granite.offloading.impl.transporter.OffloadingDefaultTransporter*).
 1. Change value of the property `default.transport.agent-to-master.prefix` from *offloading_reverse* to *offloading*.
 

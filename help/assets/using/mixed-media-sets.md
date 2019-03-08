@@ -3,12 +3,12 @@ title: Mixed Media Sets
 seo-title: Mixed Media Sets
 description: Learn how to work with mixed media sets in dynamic media
 seo-description: Learn how to work with mixed media sets in dynamic media
-uuid: 5a7ea273-a0ee-498d-9a5e-28342f36e51f
+uuid: 3fd7c5ff-08cb-4630-9d94-11def73600f3
 contentOwner: Alva Ware-Bevacqui
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: 4329c2fd-e4d4-4dab-9529-32d9774201e9
+discoiquuid: 33ed8a1a-d224-4203-84ab-81a59ff01fb5
 index: y
 internal: n
 snippet: y
@@ -30,11 +30,11 @@ Mixed Media Sets are designated by a banner with the word **MixedMediaSet**. In 
 
 To get you up and running quickly with Mixed Media Sets, follow these steps:
 
-1. [Upload your assets](#uploadingassets).
+1. [Upload your assets](#uploading-assets).
 
    Start by uploading the images and videos for your Mixed Media Sets. If necessary, create your [Image Sets](../../assets/using/image-sets.md) and [Spin Sets](../../assets/using/spin-sets.md). Because users can zoom on images in the Mixed Media Set Viewer, take zooming into account when you choose images. Make sure that the images are least 2000 pixels in the largest dimension.
 
-1. [Create Mixed Media Sets.](#creatingmixedmediasets)
+1. [Create Mixed Media Sets.](#creating-mixed-media-sets)
 
    To create a Mixed Media Set, from the Assets page, tap **Create** &gt; **Mixed Media Set** and then name the set, choose the assets, and choose the order the images appear.
 
@@ -48,13 +48,13 @@ To get you up and running quickly with Mixed Media Sets, follow these steps:
 
    See [Adding and editing viewer presets.](../../assets/using/managing-viewer-presets.md)
 
-1. [Preview Mixed Media Sets.](#previewingmixedmediasets)
+1. [Preview Mixed Media Sets.](#previewing-mixed-media-sets)
 
    Select the Mixed Media Set and you can preview it. Click the thumbnail icons to examine your Mixed Media Set in the selected Viewer. You can choose different Viewers from the **Viewers** menu, available from the left rail drop-down menu.
 
-1. [Publish Mixed Media Sets.](#publishingmixedmediasets)
+1. [Publish Mixed Media Sets.](#publishing-mixed-media-sets)
 
-   Publishing a Mixed Media Set activates the URL and Embed string. In addition, you must [publish the viewer preset](../../assets/using/managing-viewer-presets.md#publishingviewerpresets).
+   Publishing a Mixed Media Set activates the URL and Embed string. In addition, you must [publish the viewer preset](../../assets/using/managing-viewer-presets.md#publishing-viewer-presets).
 
 1. [Link URLs to your Web Application](../../assets/using/linking-urls-to-yourwebapplication.md) or [Embed the Video or Image Viewer](../../assets/using/embed-code.md).
 
@@ -64,7 +64,7 @@ To get you up and running quickly with Mixed Media Sets, follow these steps:
 
    See [Linking a Mixed Media Set to a web page](../../assets/using/linking-urls-to-yourwebapplication.md) and [Embedding the Video or Image Viewer](../../assets/using/embed-code.md).
 
-If you need to, you can edit [Mixed Media Sets](#editingmixedmediasets). In addition, you can view and modify [Mixed Media Set properties](../../assets/using/managing-assets-touch-ui.md#editingproperties).
+If you need to, you can edit [Mixed Media Sets](#editing-mixed-media-sets). In addition, you can view and modify [Mixed Media Set properties](../../assets/using/managing-assets-touch-ui.md#editing-properties).
 
 >[!NOTE]
 >

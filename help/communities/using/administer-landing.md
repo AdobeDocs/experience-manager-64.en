@@ -3,12 +3,12 @@ title: Communities Sites
 seo-title: Communities Sites
 description: Overview of the AEM Communities documentation
 seo-description: Overview of the AEM Communities documentation
-uuid: 5e2a83e5-0e4b-465d-9ad8-39e4201b6bda
+uuid: 2e10c333-e5d1-42d2-aaf5-898e6f171573
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 2d6edada-898a-4d07-99de-b9dc66bd1341
+discoiquuid: 90a5aec0-3839-4ff5-87fb-746e2b2839dd
 index: y
 internal: n
 snippet: y
@@ -64,7 +64,7 @@ A major feature of AEM Communities is the generation of user generated content (
 
 * [Managing Users and User Groups](../../communities/using/users.md) : details of community members and member groups, including privileged members
 * [Contribution Limits](../../communities/using/limits.md) : ability to constrain posting by new members
-* [Tunnel Service](../../communities/using/deploy-communities.md#tunnelserviceonauthor) : allows publish-side members and member groups to be accessed from the author environment
+* [Tunnel Service](../../communities/using/deploy-communities.md#tunnel-service-on-author) : allows publish-side members and member groups to be accessed from the author environment
 * [Members and Groups consoles](../../communities/using/members.md) : allows publish-side members and member groups to be created and managed from the author environment
 * [User Synchronization](../../communities/using/sync.md) : for synchronizing members and member groups across multiple publish instances
 * [Social Login with Facebook and Twitter](../../communities/using/social-login.md) : ability for site visitors to become a community member using their Facebook or Twitter credentials
@@ -91,7 +91,7 @@ It is important to install the most recent Communities release on the AEM platfo
 
 * [Latest Communities Feature Pack](../../communities/using/deploy-communities.md#latestfeaturepack)
 
-See the deployment page for other Communities specific information, such as for [Upgrading](../../communities/using/upgrade.md), [Dispatcher](../../communities/using/dispatcher.md) and [Replication](../../communities/using/deploy-communities.md#replicationagentsonauthor).
+See the deployment page for other Communities specific information, such as for [Upgrading](../../communities/using/upgrade.md), [Dispatcher](../../communities/using/dispatcher.md) and [Replication](../../communities/using/deploy-communities.md#replication-agents-on-author).
 
 ## Related Communities Documentation {#related-communities-documentation}
 

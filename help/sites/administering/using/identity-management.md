@@ -3,12 +3,12 @@ title: Identity Management
 seo-title: Identity Management
 description: Learn about identity management in AEM.
 seo-description: Learn about identity management in AEM.
-uuid: 50645a63-c84b-40c0-b5f4-5394bf814676
+uuid: 4326c297-be29-486a-85ce-1e968401cd40
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
-discoiquuid: 3b5559a6-b8d3-4de7-83bb-0cbba419b2f5
+discoiquuid: 40d4c7bc-069e-4bf5-8496-128dc9c87a93
 index: y
 internal: n
 snippet: y
@@ -26,7 +26,7 @@ Individual visitors to your website can only be identified when you provide the 
 * [Personalization  
   ](../../../sites/administering/using/personalization.md) Allowing visitors to configure certains aspects of how they access your website.
 
-Log in (and out) functionality is provided by an [account with a **Profile**](#profilesanduseraccounts), which holds additional information about the registered visitor (user). The actual processes for registration and authorization may differ:
+Log in (and out) functionality is provided by an [account with a **Profile**](#profiles-and-user-accounts), which holds additional information about the registered visitor (user). The actual processes for registration and authorization may differ:
 
 * Self-registration from the website  
   A [Community Site](../../../communities/using/sites-console.md) may be configured to allow visitors to self-register or sign-in with their Facebook or Twitter accounts.  
@@ -152,7 +152,7 @@ This involves defining an appropriate property in the user profile in a way that
 
 This is done with:
 
-* [State Providers](#stateproviders)  
+* [State Providers](#state-providers)  
   To manage the two states of a specific property and the transitions between the two.  
 
 * [Workflows](#workflows)  
@@ -180,7 +180,7 @@ A workflow is needed to implement the actions related to the states. For example
 
 ## Profiles and User Accounts {#profiles-and-user-accounts}
 
-Profiles are stored in the Content Repository as part of the the [user account](/sites/administering/using/security-landing#UsersandGroupsinAEM).
+Profiles are stored in the Content Repository as part of the the [user account](/sites/administering/using/security-landing.md#usersandgroupsinaem).
 
 The profile can be found under `/home/users/geometrixx`:
 
@@ -199,7 +199,7 @@ That allows:
 
 If such access is not appropriate for your installation you can change these default settings.
 
-This can be done using the ** [Access Control](../../../sites/administering/using/user-group-ac-admin.md#accessrightmanagement)** tab:
+This can be done using the ** [Access Control](../../../sites/administering/using/user-group-ac-admin.md#access-right-management)** tab:
 
 ![](assets/aclmanager.png)  
 

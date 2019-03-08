@@ -3,12 +3,12 @@ title: Feature Packs
 seo-title: Feature Packs
 description: Release notes listing all the Feature Packs available for  to Adobe Experience Manager 6.4.
 seo-description: Release notes listing all the Feature Packs available for  to Adobe Experience Manager 6.4.
-uuid: cd96c206-802d-4201-8176-502f45a7ea6b
+uuid: 434138bb-a4ef-45e7-90ef-7a1421acdb83
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4
 topic-tags: release-notes
 content-type: reference
-discoiquuid: ed6b2148-a5ca-4d82-9a0d-142d7ca7ddb6
+discoiquuid: 0104db2c-66f4-4089-8c8f-037ce52ad358
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: IBM Websphere Commerce
 seo-title: IBM Websphere Commerce
 description: Learn how to use AEM with IBM Websphere Commerce.
 seo-description: Learn how to use AEM with IBM Websphere Commerce.
-uuid: 5828bd10-9d07-4c93-8ab3-2b3e7048c513
+uuid: 824b93f9-0622-4137-a19a-e344787abdbe
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: e-commerce
 content-type: reference
-discoiquuid: 6e1d079a-efb2-4dcd-be20-0630a507b094
+discoiquuid: 8d223358-ab22-476f-b904-67d2470dccb9
 pagetitle: Administering IBM Websphere Commerce
 index: y
 internal: n
@@ -68,7 +68,7 @@ To do roll-out the catalog:
 1. Navigate to the **Base Catalog** in the **Geometrixx Outdoors WC** catalog blueprint folder.
 1. Using either:
 
-    * [quick actions](../../../sites/authoring/using/basic-handling.md#quickactions)
+    * [quick actions](../../../sites/authoring/using/basic-handling.md#quick-actions)
     * [selection mode](../../../sites/authoring/using/basic-handling.md#navigatingandselectionmode)
 
    Select the **Rollout Changes** icon.
@@ -87,7 +87,7 @@ To change the current configuration:
 1. Click **Adobe CQ Commerce - IBM WebSphere Commerce product & product variant data parser**.
 1. Change the configuration as required.
 1. Click **Save**.
-1. Do a [full import](#fullproductimport).
+1. Do a [full import](#full-product-import).
 
 ## Change Product Price {#change-product-price}
 

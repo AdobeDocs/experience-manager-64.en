@@ -3,11 +3,11 @@ title: Create new folders to categorize forms
 seo-title: Create new folders to categorize forms
 description: Use folders to organize your form templates, PDFs, resources, and adaptive forms.
 seo-description: Use folders to organize your form templates, PDFs, resources, and adaptive forms.
-uuid: b29a690a-aa5c-4f44-b8df-a68c9c2f68fc
+uuid: 99eedc6d-f170-4adb-970d-618c2256dba0
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-manager
-discoiquuid: f9a47d1e-5168-4952-ba42-fc7d1e133b2a
+discoiquuid: 3ee39f51-c1cd-465f-b4a6-fbfd9965800b
 index: y
 internal: n
 snippet: y

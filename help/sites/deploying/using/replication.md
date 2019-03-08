@@ -3,12 +3,12 @@ title: Replication
 seo-title: Replication
 description: Learn how to configure and monitor replication agents in AEM.
 seo-description: Learn how to configure and monitor replication agents in AEM.
-uuid: d8fc8206-10db-48a9-84f7-710e469b833e
+uuid: 2e115711-5b09-462f-a993-e0f2ae6ea9b3
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: configuring
-discoiquuid: cec48c7f-a1b0-4cf7-8125-53bbb80d0e23
+discoiquuid: 2e5c296d-bf8f-4c37-a172-e37d772b459c
 index: y
 internal: n
 snippet: y
@@ -78,7 +78,7 @@ To follow this example and use the default replication agents you need to [Insta
 >* Agents on publish : Reverse Replication (outbox)
 >
 >To check the status of either the agent or the queue use the **Tools** console.  
->See [Monitoring your Replication Agents](#monitoringyourreplicationagents).
+>See [Monitoring your Replication Agents](#monitoring-your-replication-agents).
 
 #### Replication (Author to Publish) {#replication-author-to-publish}
 
@@ -101,13 +101,13 @@ This replication is actioned from the author environment by the:
 
 The following agents are available in a standard AEM installation:
 
-* [Default Agent](#replicationauthortopublish)  
+* [Default Agent](#replication-author-to-publish)  
   Used for replicating from author to publish.
 
 * Dispatcher Flush  
-  This is used for managing the Dispatcher cache. See [Invalidating Dispatcher Cache from the Authoring Environment](https://helpx.adobe.com/experience-manager/dispatcher/using/page-invalidate.html#InvalidatingDispatcherCachefromtheAuthoringEnvironment) and [Invalidating Dispatcher Cache from a Publishing Instance](https://helpx.adobe.com/experience-manager/dispatcher/using/page-invalidate.html#InvalidatingDispatcherCachefromaPublishingInstance) for more information.
+  This is used for managing the Dispatcher cache. See [Invalidating Dispatcher Cache from the Authoring Environment](https://helpx.adobe.com/experience-manager/dispatcher/using/page-invalidate.html#invalidating-dispatcher-cache-from-the-authoring-environment) and [Invalidating Dispatcher Cache from a Publishing Instance](https://helpx.adobe.com/experience-manager/dispatcher/using/page-invalidate.html#invalidating-dispatcher-cache-from-a-publishing-instance) for more information.
 
-* [Reverse Replication](#reversereplicationpublishtoauthor)  
+* [Reverse Replication](#reverse-replication-publish-to-author)  
   Used for replicating from publish to author. Reverse replication is not used for Communities features, such as forums, blogs, and comments. It is effectively disabled as the outbox is not enabled. Use of reverse replication would require custom configuration.
 
 * Static Agent  
@@ -189,7 +189,7 @@ When configuring a replication agent from the Tools console, four tabs are avail
 
 * **Alias update**
 
-  Selecting this option enables alias or vanity path invalidation requests to Dispatcher. Also, see [Configuring a Dispatcher Flush Agent](../../../sites/deploying/using/replication.md#configuringadispatcherflushagent).
+  Selecting this option enables alias or vanity path invalidation requests to Dispatcher. Also, see [Configuring a Dispatcher Flush Agent](../../../sites/deploying/using/replication.md#configuring-a-dispatcher-flush-agent).
 
 #### Transport {#transport}
 
@@ -353,7 +353,7 @@ From the Tools tab in the author environment you can configure replication agent
 
 >[!NOTE]
 >
->When a dispatcher handles HTTP requests for author or publish instances, the HTTP request from the replication agent must include the PATH header. In addition to the following procedure, you must add the PATH header to the dispatcher list of client headers. (See [/clientheaders (Client Headers)](https://helpx.adobe.com/experience-manager/dispatcher/using/dispatcher-configuration.html#SpecifyingtheHTTPHeaderstoPassThroughclientheaders). [](https://helpx.adobe.com/experience-manager/dispatcher/using/dispatcher-configuration.html#SpecifyingtheHTTPHeaderstoPassThroughclientheaders)
+>When a dispatcher handles HTTP requests for author or publish instances, the HTTP request from the replication agent must include the PATH header. In addition to the following procedure, you must add the PATH header to the dispatcher list of client headers. (See [/clientheaders (Client Headers)](https://helpx.adobe.com/experience-manager/dispatcher/using/dispatcher-configuration.html#specifying-the-http-headers-to-pass-through-clientheaders). [](https://helpx.adobe.com/experience-manager/dispatcher/using/dispatcher-configuration.html#specifying-the-http-headers-to-pass-through-clientheaders)
 >
 
 1. Access the **Tools** tab in AEM.
@@ -364,7 +364,7 @@ From the Tools tab in the author environment you can configure replication agent
 
    ![](assets/chlimage_1-145.png)
 
-1. The values provided should be sufficient for a default installation. If you make changes then click **OK** to save them (see [Replication Agents - Configuration Parameters](#replicationagentsconfigurationparameters) for more details of the individual parameters).
+1. The values provided should be sufficient for a default installation. If you make changes then click **OK** to save them (see [Replication Agents - Configuration Parameters](#replication-agents-configuration-parameters) for more details of the individual parameters).
 
 >[!NOTE]
 >

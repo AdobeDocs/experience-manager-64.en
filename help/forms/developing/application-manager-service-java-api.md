@@ -3,12 +3,12 @@ title: Application Manager Service JavaAPI Quick Start(SOAP)
 seo-title: Application Manager Service JavaAPI Quick Start(SOAP)
 description: null
 seo-description: null
-uuid: 2f0ee35a-53c4-47dc-bc58-4b8078a3bddd
+uuid: b4e0dce4-1975-4140-b13c-c9a4ae9634b3
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
-discoiquuid: 56f90887-c873-46b1-a9dd-54eaf570de76
+discoiquuid: c3d0b677-2b28-4b94-9580-79e6e7a95339
 index: y
 internal: n
 snippet: y
@@ -18,9 +18,9 @@ snippet: y
 
 Java API Quick Start(SOAP) is available for the Application Manager service.
 
-[Quick Start: Deploying applications using the Java API(SOAP)](application-manager-service-java-api#quick_start_soap_mode_deploying_applications_using_the_java_api)
+[Quick Start: Deploying applications using the Java API(SOAP)](application-manager-service-java-api.md#quick_start_soap_mode_deploying_applications_using_the_java_api)
 
-[Quick Start: Removing an application using the Java API(SOAP)](application-manager-service-java-api#quick_start_soap_mode_removing_an_application_using_the_java_api)
+[Quick Start: Removing an application using the Java API(SOAP)](application-manager-service-java-api.md#quick_start_soap_mode_removing_an_application_using_the_java_api)
 
 >[!NOTE]
 >
@@ -28,11 +28,11 @@ Java API Quick Start(SOAP) is available for the Application Manager service.
 
 AEM Forms operations can be performed using the AEM Forms strongly typed API and the connection mode should be set to SOAP.
 
-* ***Note**: Java API(SOAP) Quick Start located in Programming with AEM forms are based on the Forms if you are using another operating system, such as Unix, replace windows specific paths with paths supported by the applicable operating system. Likewise, if you are using another J2EE application server, then ensure that you specify valid connection properties. (See [Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties).)*
+* ***Note**: Java API(SOAP) Quick Start located in Programming with AEM forms are based on the Forms if you are using another operating system, such as Unix, replace windows specific paths with paths supported by the applicable operating system. Likewise, if you are using another J2EE application server, then ensure that you specify valid connection properties. (See [Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties).)*
 
 ## Quick Start (SOAP mode): Deploying Applications using the Java API {#quick-start-soap-mode-deploying-applications-using-the-java-api}
 
-The following Java code example imports an application based on an existing LCA file named *EncryptDocument.lca*. (See [Deploying applications](/programming-with-aem-forms/processes-tasks#deploying_applications).)
+The following Java code example imports an application based on an existing LCA file named *EncryptDocument.lca*. (See [Deploying applications](/programming-with-aem-forms/processes-tasks.md#deploying_applications).)
 
 ```as3
  /* 
@@ -134,7 +134,7 @@ The following Java code example imports an application based on an existing LCA 
 
 ## Quick Start (SOAP mode): Removing an application using the Java API {#quick-start-soap-mode-removing-an-application-using-the-java-api}
 
-The following Java code example removes an application named *EncryptDocument*. (See [Removing Applications](/programming-with-aem-forms/processes-tasks#removing_applications).)
+The following Java code example removes an application named *EncryptDocument*. (See [Removing Applications](/programming-with-aem-forms/processes-tasks.md#removing_applications).)
 
 ```as3
  /* 

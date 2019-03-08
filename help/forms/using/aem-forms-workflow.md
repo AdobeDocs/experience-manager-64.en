@@ -3,11 +3,11 @@ title: Forms-centric workflow on OSGi
 seo-title: Rapidly build adaptive forms-based processes, automate document services operations, and use Adobe Sign with AEM workflows
 description: Use AEM Forms Workflow to automate and rapidly build review and approvals, to start document services (For example, to convert a PDF document to another format), integrate with Adobe Sign signature workflow, and more.
 seo-description: Use AEM Forms Workflow to automate and rapidly build review and approvals, to start document services (For example, to convert a PDF document to another format), integrate with Adobe Sign signature workflow, and more.
-uuid: 8bdd8840-7dd0-472e-a5a5-bc4374c26f9e
+uuid: 1c098ab2-6345-4fbe-b4f4-4b57bd9058e6
 products: SG_EXPERIENCEMANAGER/6.3/FORMS
 topic-tags: publish
 topic-tags: document_services
-discoiquuid: 605d585d-f384-4b96-8699-462b9cc54aaf
+discoiquuid: bcf82820-20db-4efa-80af-348a2617a855
 noindex: true
 index: y
 internal: n
@@ -45,7 +45,7 @@ The following diagram depicts end-to-end procedure to create, run, and monitor a
 
 ## Create a workflow model {#create-a-workflow-model}
 
-A workflow model consists of logic and flow of a business process. It is made up of a series of the steps. These steps are AEM components. You can extend workflow steps with parameters and scripts to provide more functionality and control, as required. AEM Forms provides a few steps in addition to AEM steps available out of the box. For a detailed list of AEM and AEM Forms steps, see [AEM Workflow Step Reference](/experience-manager/6-3/sites/developing/using/workflows-step-ref) and [Forms-centric workflow on OSGi - Step Reference](../../forms/using/aem-forms-workflow.md).
+A workflow model consists of logic and flow of a business process. It is made up of a series of the steps. These steps are AEM components. You can extend workflow steps with parameters and scripts to provide more functionality and control, as required. AEM Forms provides a few steps in addition to AEM steps available out of the box. For a detailed list of AEM and AEM Forms steps, see [AEM Workflow Step Reference](/experience-manager/6-3/sites/developing/using/workflows-step-ref.md) and [Forms-centric workflow on OSGi - Step Reference](../../forms/using/aem-forms-workflow.md).
 
 AEM provides an intuitive user interface to create a workflow model using the provided workflow steps. For step-by-step instructions to create a workflow model, see [Creating Workflow Models](../../sites/developing/using/workflows-models.md). The following example provides step-by-step instructions to create a workflow model for an approval and review workflow:
 
@@ -248,7 +248,7 @@ An administrator (a member of fd-administrators group) can configure a network f
   </tr> 
   <tr> 
    <td><span class="uicontrol">Output File Pattern</span></td> 
-   <td>Specify the directory structure for output files and directories. You can also specify a <a href="/forms/using/configuring-watched-folder-endpoints" target="_blank">pattern for output files and directories</a>.</td> 
+   <td>Specify the directory structure for output files and directories. You can also specify a <a href="/forms/using/configuring-watched-folder-endpoints.md" target="_blank">pattern for output files and directories</a>.</td> 
   </tr> 
  </tbody> 
 </table>

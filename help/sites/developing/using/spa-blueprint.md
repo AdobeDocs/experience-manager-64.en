@@ -3,11 +3,11 @@ title: SPA Blueprint
 seo-title: SPA Blueprint
 description: This document describes the general, framework-independent contract that any SPA framework should fulfill in order to implement editable SPA components within AEM.
 seo-description: This document describes the general, framework-independent contract that any SPA framework should fulfill in order to implement editable SPA components within AEM.
-uuid: ac8858e1-a6ec-48c8-8cb8-249e40e96bbc
+uuid: 58742bd1-10ff-403e-b138-41e79d7e705a
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: spa
 content-type: reference
-discoiquuid: b95fc015-f46a-4dcf-9282-3d3cdfba9b72
+discoiquuid: 702d1d3a-8a22-4544-8870-0d3dfe0ed3c0
 index: y
 internal: n
 snippet: y
@@ -203,7 +203,7 @@ class MyComponent extends Component {
 MapTo('component/resource/path')(MyComponent, EditConfig);
 ```
 
-In the above implementation, the project component is extended with the emptiness functionality before the being actually registered in the [Component Mapping](../../../sites/developing/using/spa-blueprint.md#componentmapping) store. This is done by encapsulating and extending the ` [ComponentMapping](/content#main-pars_header_906602219)` library to introduce the support of the `EditConfig` configuration object:
+In the above implementation, the project component is extended with the emptiness functionality before the being actually registered in the [Component Mapping](../../../sites/developing/using/spa-blueprint.md#componentmapping) store. This is done by encapsulating and extending the ` [ComponentMapping](/content.md#main-pars_header_906602219)` library to introduce the support of the `EditConfig` configuration object:
 
 ```
 /**

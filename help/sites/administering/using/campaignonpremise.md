@@ -3,12 +3,12 @@ title: Integrating with Adobe Campaign Classic
 seo-title: Integrating with Adobe Campaign Classic
 description: Learn how to integrate AEM with Adobe Campaign Classic
 seo-description: Learn how to integrate AEM with Adobe Campaign Classic
-uuid: edc18360-d024-4247-802c-cd2edf4f3810
+uuid: 58bdf361-7964-4453-ad63-c155b4e673a5
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: c9457760-000b-4706-92de-df5d3616e623
+discoiquuid: 4d9c0e17-923c-48a6-851f-37c61c854f8f
 index: y
 internal: n
 snippet: y
@@ -78,7 +78,7 @@ If you are new to AEM, you may find the following links helpful to understand AE
 
 * [Starting AEM](../../../sites/deploying/using/deploy.md)
 * [Understanding replication agents](../../../sites/deploying/using/replication.md)
-* [Finding and working with log files](../../../sites/deploying/using/monitoring-and-maintaining.md#workingwithauditrecordsandlogfiles)
+* [Finding and working with log files](../../../sites/deploying/using/monitoring-and-maintaining.md#working-with-audit-records-and-log-files)
 * [Introduction to the AEM Platform](../../../sites/deploying/using/platform.md)
 
 ## Configuring Adobe Campaign {#configuring-adobe-campaign}
@@ -94,7 +94,7 @@ In addition, there are advanced configurations that you can make, including :
 * Managing content blocks
 * Managing personalization fields
 
-See [Advanced Configurations](#advancedconfigurations).
+See [Advanced Configurations](#advanced-configurations).
 
 >[!NOTE]
 >
@@ -104,8 +104,8 @@ See [Advanced Configurations](#advancedconfigurations).
 
 Make sure you have the following elements beforehand:
 
-* [An AEM authoring instance](../../../sites/deploying/using/deploy.md#gettingstarted)
-* [An AEM publishing instance](../../../sites/deploying/using/deploy.md#authorandpublishinstalls)
+* [An AEM authoring instance](../../../sites/deploying/using/deploy.md#getting-started)
+* [An AEM publishing instance](../../../sites/deploying/using/deploy.md#author-and-publish-installs)
 * [An Adobe Campaign Classic instance](https://helpx.adobe.com/support/campaign/classic.html) - including a client and a server
 * Internet Explorer 11
 
@@ -115,7 +115,7 @@ Make sure you have the following elements beforehand:
 
 >[!CAUTION]
 >
->Operations detailed in the [Configuring Adobe Campaign](#configuringadobecampaign) and [Configuring Adobe Experience Manager](#configuringadobeexperiencemanager) sections are necessary for the integration functionalities between AEM and Adobe Campaign to work correctly.
+>Operations detailed in the [Configuring Adobe Campaign](#configuring-adobe-campaign) and [Configuring Adobe Experience Manager](#configuring-adobe-experience-manager) sections are necessary for the integration functionalities between AEM and Adobe Campaign to work correctly.
 
 ### Installing the AEM Integration Package {#installing-the-aem-integration-package}
 
@@ -346,7 +346,7 @@ The **Registration Number** field is now part of the available personalization f
 
 #### Hiding a personalization field {#hiding-a-personalization-field}
 
-To hide a personalization field among those that are already available, you must extend the Adobe Campaign **nms:seedMember **schema as detailed in the [Adding a personalization field](#addingapersonalizationfield) section. Apply the following steps:
+To hide a personalization field among those that are already available, you must extend the Adobe Campaign **nms:seedMember **schema as detailed in the [Adding a personalization field](#adding-a-personalization-field) section. Apply the following steps:
 
 1. Copy the field that you want to take from the **nms:seedMember** schema in the extended schema (**cus:seedMember** for example).
 1. Add the **advanced="true"** XML attribute to the field. It no longer appears in the list of personalization fields available in AEM.
@@ -379,7 +379,7 @@ You can also insert target extension data for personalization. Target extension 
 
 >[!NOTE]
 >
->The data in the target is only available if the AEM content is synchronized with an Adobe Campaign delivery. See [Synchronizing content created in AEM with a delivery from Adobe Campaign](../../../sites/authoring/using/campaign.md#synchronizingcontentcreatedinaemwithadeliveryfromadobecampaignclassic).
+>The data in the target is only available if the AEM content is synchronized with an Adobe Campaign delivery. See [Synchronizing content created in AEM with a delivery from Adobe Campaign](../../../sites/authoring/using/campaign.md#synchronizing-content-created-in-aem-with-a-delivery-from-adobe-campaign-classic).
 
 ![](assets/chlimage_1-148.png)
 

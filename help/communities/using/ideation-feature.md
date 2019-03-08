@@ -3,12 +3,12 @@ title: Ideation Feature
 seo-title: Ideation Feature
 description: Adding and configuring the Ideation feature
 seo-description: Adding and configuring the Ideation feature
-uuid: c55e3244-7cad-49f0-9118-866aeed40370
+uuid: f416438a-2721-465f-9b1b-a56fb3798979
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
-discoiquuid: 6d358ba9-a833-4f7a-b5b8-b530b114e36f
+discoiquuid: ac7f6099-7678-4df4-8d91-7e35c01e26cc
 index: y
 internal: n
 snippet: y
@@ -40,7 +40,7 @@ and drag it into place on a page where the idea should appear.
 
 For necessary information, visit [Communities Components Basics](../../communities/using/basics.md).
 
-When the [required client-side libraries](../../communities/using/ideation.md#essentialsforclientside) are included, this is how the `Ideation`component will appear :
+When the [required client-side libraries](../../communities/using/ideation.md#essentials-for-client-side) are included, this is how the `Ideation`component will appear :
 
 ![](assets/chlimage_1-29.png)
 

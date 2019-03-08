@@ -3,12 +3,12 @@ title: Your Inbox
 seo-title: Your Inbox
 description: Managing your tasks with the inbox
 seo-description: Managing your tasks with the inbox
-uuid: 7090ae38-1bd6-4c01-b871-82d20ec21247
+uuid: a99bd1cc-922c-48ef-a1a2-ca5294d3117c
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
-discoiquuid: 5d2954f8-6ffc-40a0-bb8d-20021940d110
+discoiquuid: 3bd5e576-7c8c-4958-b3d2-1061b2c699e3
 index: y
 internal: n
 snippet: y
@@ -35,7 +35,7 @@ You receive these notifications in your own Inbox where you can view them and ta
 
 >[!NOTE]
 >
->Out-of-the-box AEM comes pre-loaded with administrative tasks assigned to the administrator user group. See [Out-of-the-Box Administrative Tasks](#outoftheboxadministrativetasks) for details.
+>Out-of-the-box AEM comes pre-loaded with administrative tasks assigned to the administrator user group. See [Out-of-the-Box Administrative Tasks](#out-of-the-box-administrative-tasks) for details.
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ You receive these notifications in your own Inbox where you can view them and ta
 >* [Projects](../../../sites/authoring/using/touch-ui-managing-projects.md)
 >* [Projects - working with Tasks](../../../sites/authoring/using/task-content.md)
 >* [Workflows](../../../sites/authoring/using/workflows.md)
->* [Forms](/forms/user-guide)
+>* [Forms](/forms/user-guide.md)
 >
 
 ## Inbox in the Header {#inbox-in-the-header}
@@ -73,15 +73,15 @@ To open the AEM notification inbox:
 1. Click/tap on the indicator in the toolbar.  
 
 1. Select **View all**. The **AEM Inbox** will open. The inbox shows items from workflows, projects and tasks.
-1. The default view is [List View](#inboxlistview), but you can also switch to [Calendar View](#inboxcalendarview). This is done with the view selector (toolbar, top right).
+1. The default view is [List View](#inbox-list-view), but you can also switch to [Calendar View](#inbox-calendar-view). This is done with the view selector (toolbar, top right).
 
-   For both views you can also define [View Settings](#inboxviewsettings); the options available are dependent on the current view.
+   For both views you can also define [View Settings](#inbox-view-settings); the options available are dependent on the current view.
 
    ![](assets/wf-79.png)
 
 >[!NOTE]
 >
->The Inbox operates as a console, so use [Global Navigation](../../../sites/authoring/using/basic-handling.md#globalnavigation) or [Search](../../../sites/authoring/using/search.md) to navigate to another location when you are finished.
+>The Inbox operates as a console, so use [Global Navigation](../../../sites/authoring/using/basic-handling.md#global-navigation) or [Search](../../../sites/authoring/using/search.md) to navigate to another location when you are finished.
 
 ### Inbox - List View {#inbox-list-view}
 
@@ -238,7 +238,7 @@ For certain tasks you can create a [Project](../../../sites/authoring/using/proj
 
    >[!NOTE]
    >
-   >See [Creating a Project](../../../sites/authoring/using/touch-ui-managing-projects.md#creatingaproject) for full information.
+   >See [Creating a Project](../../../sites/authoring/using/touch-ui-managing-projects.md#creating-a-project) for full information.
 
 1. Select **Create** to confirm the action.
 
@@ -258,5 +258,5 @@ You can filter the items listed:
 
    >[!NOTE]
    >
-   >With [View Settings](#inboxviewsettings) you can also configure the sort order when using the [List View](#inboxlistview).
+   >With [View Settings](#inbox-view-settings) you can also configure the sort order when using the [List View](#inbox-list-view).
 

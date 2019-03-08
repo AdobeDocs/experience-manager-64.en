@@ -3,12 +3,12 @@ title: Integrating AEM Assets with InDesign Server
 seo-title: Integrating AEM Assets with InDesign Server
 description: Learn how to integrate AEM Assets with InDesign Server.
 seo-description: Learn how to integrate AEM Assets with InDesign Server.
-uuid: 5cf9efc7-fc9e-4968-b7f2-0c4d9168ed98
+uuid: 7f88c3e2-f6f5-4607-bb4c-7d60afbe35f0
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: 24912aac-40e6-444a-9958-9aa46098f188
+discoiquuid: d5554be6-9141-4c7c-9736-0b1b1ccbb6be
 index: y
 internal: n
 snippet: y
@@ -78,11 +78,11 @@ The InDesign Server can be integrated with AEM Assets so that files created with
 
 To integrate the InDesign Server for use with AEM Assets and after configuring your proxy, you need to:
 
-1. [Install the InDesign Server](#installingtheindesignserver).
+1. [Install the InDesign Server](#installing-the-indesign-server).
 1. If required, [configure the AEM Assets Workflow](#configuringthecqdamworkflow).  
    This is only necessary if the default values are not appropriate for your instance.
 
-1. Configure a [proxy worker for the InDesign Server](#configuringtheproxyworkerforindesignserver).
+1. Configure a [proxy worker for the InDesign Server](#configuring-the-proxy-worker-for-indesign-server).
 
 ### Installing the InDesign Server {#installing-the-indesign-server}
 
@@ -113,8 +113,8 @@ To install and start the InDesign Server for use with AEM:
 
 AEM Assets has a preconfigured workflow **DAM Update Asset**, that has several process steps specifically for InDesign:
 
-* [Media Extraction](#mediaextraction)
-* [Page Extraction](#pageextraction)
+* [Media Extraction](#media-extraction)
+* [Page Extraction](#page-extraction)
 
 This workflow is setup with default values that can be adapted for your setup on the various author instances (this is a standard workflow, so further information is available under [Editing a Workflow](../../sites/developing/using/workflows-models.md#configuring-a-workflow-step)). If you are using the default values (including the SOAP port), then no configuration is needed.
 
@@ -245,7 +245,7 @@ To configure the number of parallel IDS jobs:
 
    `com.day.cq.dam.ids.impl.IDSJobProcessor.name configuration`
 
-1. Create a [pool of < `*x*>` IDS workers by adding SOAP endpoints to the IDS Worker configuration](#configuringtheproxyworkerforindesignserver).
+1. Create a [pool of < `*x*>` IDS workers by adding SOAP endpoints to the IDS Worker configuration](#configuring-the-proxy-worker-for-indesign-server).
 
    If there are multiple machines running InDesign Servers, add SOAP endpoints (number of processors per machine -1) for each machine.
 

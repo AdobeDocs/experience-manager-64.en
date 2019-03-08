@@ -3,12 +3,12 @@ title: Managing Assets with the Touch-Optimized UI
 seo-title: Managing Assets with the Touch-Optimized UI
 description: Learn about various asset management and editing tasks that you can perform using the Touch-optimized user interface of AEM Assets.
 seo-description: Learn how to upload, manage, and edit assets using the touch-optimized user interface
-uuid: ca645f2f-0490-4631-be31-1e0dc566458e
+uuid: feca58c4-fcb6-40d0-a943-0cc7993e5bd7
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
 topic-tags: authoring
-discoiquuid: f485b4c4-8599-4284-9021-3eb0cb6fb435
+discoiquuid: 72bb4494-90f1-44e1-99de-ef2cb6bb2aa3
 index: y
 internal: n
 snippet: y
@@ -128,7 +128,7 @@ Dynamic Media enables batch uploading of assets via FTP server. If you intend to
 1. On the left side of the page, choose an FTP folder to upload files from; on the right side of the page, choose a destination folder.
 1. Near the lower-right corner of the page, click **Job Options** and then set the options you want based on the assets in the folder you selected.
 
-   See [Upload Job Options](#uploadjoboptions).
+   See [Upload Job Options](#upload-job-options).
 
    >[!NOTE]
    >
@@ -215,37 +215,37 @@ Dynamic Media enables batch uploading of assets via FTP server. If you intend to
   <tr> 
    <td> </td> 
    <td>Image Editing Options</td> 
-   <td><p>You can preserve the clipping masks in images, and choose a color profile.</p> <p>See <a href="#settingimageeditingoptionsatupload">Setting image editing options at upload</a>.</p> </td> 
+   <td><p>You can preserve the clipping masks in images, and choose a color profile.</p> <p>See <a href="#setting-image-editing-options-at-upload">Setting image editing options at upload</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td>Postscript Options</td> 
-   <td><p>You can rasterize PostScript® files, crop files, maintain transparent backgrounds, choose a resolution, and choose a color space.</p> <p>See <a href="#settingpostscriptandillustratoruploadoptions">Setting PostScript and Illustrator upload options</a>.</p> </td> 
+   <td><p>You can rasterize PostScript® files, crop files, maintain transparent backgrounds, choose a resolution, and choose a color space.</p> <p>See <a href="#setting-postscript-and-illustrator-upload-options">Setting PostScript and Illustrator upload options</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td>Photoshop Options</td> 
-   <td><p>You can create templates from Adobe® Photoshop® files, maintain layers, specify how layers are named, extract text, and specify how images are anchored into templates.</p> <p>Note that templates are not supported in AEM.</p> <p>See <a href="#settingphotoshopuploadoptions">Setting Photoshop upload options</a>.</p> </td> 
+   <td><p>You can create templates from Adobe® Photoshop® files, maintain layers, specify how layers are named, extract text, and specify how images are anchored into templates.</p> <p>Note that templates are not supported in AEM.</p> <p>See <a href="#setting-photoshop-upload-options">Setting Photoshop upload options</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td>PDF Options</td> 
-   <td><p>You can rasterize the files, extract search words and links, auto-generate an eCatalog, set the resolution, and choose a color space.</p> <p>Note that eCatalogs are not supported in AEM</p> <p>See <a href="#settingpdfuploadoptions">Setting PDF upload options</a>.</p> </td> 
+   <td><p>You can rasterize the files, extract search words and links, auto-generate an eCatalog, set the resolution, and choose a color space.</p> <p>Note that eCatalogs are not supported in AEM</p> <p>See <a href="#setting-pdf-upload-options">Setting PDF upload options</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td>Illustrator Options</td> 
-   <td><p>You can rasterize Adobe Illustrator® files, maintain transparent backgrounds, choose a resolution, and choose a color space.</p> <p>See <a href="#settingpostscriptandillustratoruploadoptions">Setting PostScript and Illustrator upload options</a>.</p> </td> 
+   <td><p>You can rasterize Adobe Illustrator® files, maintain transparent backgrounds, choose a resolution, and choose a color space.</p> <p>See <a href="#setting-postscript-and-illustrator-upload-options">Setting PostScript and Illustrator upload options</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td>EVideo Options</td> 
-   <td><p>You can transcode a video file by choosing a Video Preset.</p> <p>See <a href="#settingevideouploadoptions">Setting eVideo upload options</a>.</p> </td> 
+   <td><p>You can transcode a video file by choosing a Video Preset.</p> <p>See <a href="#setting-evideo-upload-options">Setting eVideo upload options</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td>Batch Set Presets<br /> </td> 
-   <td><p>To create an Image Set, or Spin Set from the uploaded files, click the Active column for the preset you want to use. You can select more than one preset. You create the presets in the Application Setup/Batch Set Presets page of Dynamic Media Classic.</p> <p>See <a href="../../assets/using/config-dms7.md#creatingbatchsetpresetstoautogenerateimagesetsandspinsets" target="_blank">Configuring Batch Set Presets to Auto-Generate Image Sets and Spin Sets</a> to learn more about creating batch set presets.</p> <p>See <a href="../../assets/using/managing-assets-touch-ui.md#settingbatchsetpresetsatupload">Setting Batch Set Presets at upload</a>.</p> <p> </p> </td> 
+   <td><p>To create an Image Set, or Spin Set from the uploaded files, click the Active column for the preset you want to use. You can select more than one preset. You create the presets in the Application Setup/Batch Set Presets page of Dynamic Media Classic.</p> <p>See <a href="../../assets/using/config-dms7.md#creating-batch-set-presets-to-auto-generate-image-sets-and-spin-sets" target="_blank">Configuring Batch Set Presets to Auto-Generate Image Sets and Spin Sets</a> to learn more about creating batch set presets.</p> <p>See <a href="../../assets/using/managing-assets-touch-ui.md#setting-batch-set-presets-at-upload">Setting Batch Set Presets at upload</a>.</p> <p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -559,7 +559,7 @@ You can transcode a video file by choosing from a variety of video presets.
 
 If you want to automatically create an Image Set or Spin Set from uploaded images, click the Active column for the preset you want to use. You can select more than one preset.
 
-See [Configuring Batch Set Presets to Auto-Generate Image Sets and Spin Sets](../../assets/using/config-dms7.md#creatingbatchsetpresetstoautogenerateimagesetsandspinsets) to learn more about creating batch set presets.
+See [Configuring Batch Set Presets to Auto-Generate Image Sets and Spin Sets](../../assets/using/config-dms7.md#creating-batch-set-presets-to-auto-generate-image-sets-and-spin-sets) to learn more about creating batch set presets.
 
 ### Streamed uploads {#streamed-uploads}
 
@@ -979,7 +979,7 @@ CUGs are an extra way to restrict access to your assets. You can also configure 
 
 ## Searching Assets {#searching-assets}
 
-Basic search is detailed in the [Search and filter](../../sites/authoring/using/search.md#search-and-filter) section. Use the Search panel to search for assets, tags, and metadata. You can search parts of a string using the wildcard asterisk. In addition, you can customize the Search panel using [Search facets](/assets/using/custom-search-facets). 
+Basic search is detailed in the [Search and filter](../../sites/authoring/using/search.md#search-and-filter) section. Use the Search panel to search for assets, tags, and metadata. You can search parts of a string using the wildcard asterisk. In addition, you can customize the Search panel using [Search facets](/assets/using/custom-search-facets.md). 
 
 ![](assets/filters_panel.png)
 
@@ -1092,7 +1092,7 @@ The timeline lets you view various events for a selected item, such as active wo
 
    >[!NOTE]
    >
-   >Timeline contains several [options specific to content fragments](../../assets/using/content-fragments-managing.md#timelineforcontentfragments); this functionality requires the application of [AEM 6.4 Service Pack 2 (6.4.2.0)](../../release-notes/sp-release-notes.md).
+   >Timeline contains several [options specific to content fragments](../../assets/using/content-fragments-managing.md#timeline-for-content-fragments); this functionality requires the application of [AEM 6.4 Service Pack 2 (6.4.2.0)](../../release-notes/sp-release-notes.md).
 
 ## Annotating {#annotating}
 
@@ -1102,12 +1102,12 @@ Video annotations are only supported on browsers with HTML5-compatible video for
 
 >[!NOTE]
 >
->For Content Fragments, [annotations are created in the editor](../../assets/using/content-fragments-variations.md#annotatingacontentfragment); this functionality requires the application of [AEM 6.4 Service Pack 2 (6.4.2.0)](../../release-notes/sp-release-notes.md).
+>For Content Fragments, [annotations are created in the editor](../../assets/using/content-fragments-variations.md#annotating-a-content-fragment); this functionality requires the application of [AEM 6.4 Service Pack 2 (6.4.2.0)](../../release-notes/sp-release-notes.md).
 
 1. Navigate to the location of the asset to which you want to add annotations.
 1. Tap/click the **Annotate** icon from one of the following:
 
-    * [Quick actions](../../assets/using/managing-assets-touch-ui.md#quickactions)
+    * [Quick actions](../../assets/using/managing-assets-touch-ui.md#quick-actions)
     * From the toolbar after selecting the asset or navigating to the asset page
 
    ![](assets/chlimage_1-29.png)

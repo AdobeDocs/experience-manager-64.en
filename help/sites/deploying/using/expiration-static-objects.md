@@ -3,12 +3,12 @@ title: Expiration of Static Objects
 seo-title: Expiration of Static Objects
 description: Learn how to configure AEM so that static objects do not expire (for a reasonable period of time).
 seo-description: Learn how to configure AEM so that static objects do not expire (for a reasonable period of time).
-uuid: b58a0480-8b42-4f52-b624-d23b5e5c6663
+uuid: 06fafe0a-9454-4604-97b8-2d2a13004b3e
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: configuring
 content-type: reference
-discoiquuid: 904f2e95-ab9d-4b6e-a9a8-aa2baf00e35b
+discoiquuid: a521a9c6-d616-49ed-ada4-b9dabdddb21e
 index: y
 internal: n
 snippet: y

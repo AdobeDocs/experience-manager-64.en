@@ -3,12 +3,12 @@ title: ContextHub Diagnostics
 seo-title: ContextHub Diagnostics
 description: ContextHub provides a diagnostics page where you can see an overview of the ContextHub framework
 seo-description: ContextHub provides a diagnostics page where you can see an overview of the ContextHub framework
-uuid: b17b55e2-617a-4c95-86a5-1da51f66e231
+uuid: 6656433a-7cc7-4163-8358-048a1663f45f
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: 22551b67-938e-48aa-a8c8-199cc7db304e
+discoiquuid: 9a2fa3fa-7acf-4d66-8c21-840070d3ad30
 index: y
 internal: n
 snippet: y

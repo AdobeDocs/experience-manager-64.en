@@ -3,12 +3,12 @@ title: Managing Access to Workflows
 seo-title: Managing Access to Workflows
 description: Learn how to manage access to Workflows.
 seo-description: Learn how to manage access to Workflows.
-uuid: eea8b314-80a0-4438-80c3-3b108f9a282a
+uuid: 248c79f3-3cd6-42f7-806e-474c2841dd20
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: 9130d941-165d-4afb-8440-0b8b9a6c0e81
+discoiquuid: 57829246-5211-4177-a8bd-c4c35ca317d4
 index: y
 internal: n
 snippet: y
@@ -41,12 +41,12 @@ Actions on workflows can be undertaken if:
 
 Workflow models inherit a default access control list (ACL) for controlling how users can interact with workflows. To customize user access for a workflow, modify the Access Control List (ACL) in the repository for the folder containing the workflow model node:
 
-* [Apply an ACL for the specific workflow model to `/var/workflow/models`](/sites/administering/using/workflows-managing.html?cq_ck=1524050766250#ApplyanACLforthespecificworkflowmodeltovarworkflowmodels)
-* [Create a subfolder in `/var/workflow/models` and apply the ACL to that](/sites/administering/using/workflows-managing.html?cq_ck=1524050766250#CreateasubfolderinvarworkflowmodelsandapplytheACLtothat)
+* [Apply an ACL for the specific workflow model to `/var/workflow/models`](../../../sites/administering/using/workflows-managing.md#apply-an-acl-for-the-specific-workflow-model-to-var-workflow-models)
+* [Create a subfolder in `/var/workflow/models` and apply the ACL to that](../../../sites/administering/using/workflows-managing.md#create-a-subfolder-in-var-workflow-models-and-apply-the-acl-to-that)
 
 >[!NOTE]
 >
->For information about using CRXDE Lite to configure ACLs, see [Access Right Management](../../../sites/administering/using/user-group-ac-admin.md#accessrightmanagement).
+>For information about using CRXDE Lite to configure ACLs, see [Access Right Management](../../../sites/administering/using/user-group-ac-admin.md#access-right-management).
 
 ### Apply an ACL for the specific workflow model to /var/workflow/models {#apply-an-acl-for-the-specific-workflow-model-to-var-workflow-models}
 
@@ -81,7 +81,7 @@ If the workflow model is stored within `/var/workflow/models` then you can assig
 
 ### Create a subfolder in /var/workflow/models and apply the ACL to that {#create-a-subfolder-in-var-workflow-models-and-apply-the-acl-to-that}
 
-Your [development team can create the workflows in a sub-folder](../../../sites/developing/using/workflows-models.md#creatinganewworkflow) of
+Your [development team can create the workflows in a sub-folder](../../../sites/developing/using/workflows-models.md#creating-a-new-workflow) of
 
 `/var/workflow/models`
 
@@ -109,7 +109,7 @@ You can then add an ACL to the folder itself.
 
    >[!NOTE]
    >
-   >As with [Apply an ACL for the specific workflow model to /var/workflow/models](/sites/administering/using/workflows-managing.html?cq_ck=1524050766250#ApplyanACLforthespecificworkflowmodeltovarworkflowmodels) you can include a rep:glob to limit access to a specific workflow.
+   >As with [Apply an ACL for the specific workflow model to /var/workflow/models](../../../sites/administering/using/workflows-managing.md#apply-an-acl-for-the-specific-workflow-model-to-var-workflow-models) you can include a rep:glob to limit access to a specific workflow.
 
    ![](assets/wf-110.png)
 

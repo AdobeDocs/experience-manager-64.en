@@ -3,12 +3,12 @@ title: Cloud Service Configurations
 seo-title: Cloud Service Configurations
 description: You can extend the existing instances to create your own configurations
 seo-description: You can extend the existing instances to create your own configurations
-uuid: 3bc53f86-ca58-4e00-8733-65e1701e8caa
+uuid: 4bbf6c6a-f1e5-4002-94a1-e9f5c569239b
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
-discoiquuid: c6f7bab1-2602-4e31-b67e-9410f7c17ac6
+discoiquuid: f521488a-3785-454d-9394-2cea1af0ce8b
 index: y
 internal: n
 snippet: y
@@ -135,7 +135,7 @@ propertyname
 
 ### API {#api}
 
-For reference documentation on the API see [com.day.cq.wcm.webservicesupport](/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/webservicesupport/package-summary).
+For reference documentation on the API see [com.day.cq.wcm.webservicesupport](/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/webservicesupport/package-summary.md).
 
 ### CQ Integration {#cq-integration}
 
@@ -218,8 +218,8 @@ These services are provided by default:
 * [Tracker Snippets](../../../sites/administering/using/external-providers.md) (Google, WebTrends etc.)
 * [SiteCatalyst](../../../sites/administering/using/marketing-cloud.md#integratingwithsitecatalyst)
 * [Test&Target](../../../sites/administering/using/marketing-cloud.md#integratingwithtesttarget)
-* [Search&Promote](../../../sites/administering/using/marketing-cloud.md#integratingwithsearchpromote)
-* [Scene7](../../../sites/administering/using/marketing-cloud.md#integratingwithscene7)
+* [Search&Promote](../../../sites/administering/using/marketing-cloud.md#integrating-with-search-promote)
+* [Scene7](../../../sites/administering/using/marketing-cloud.md#integrating-with-scene)
 
 >[!NOTE]
 >

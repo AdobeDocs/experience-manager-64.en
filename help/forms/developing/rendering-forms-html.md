@@ -3,13 +3,13 @@ title: Rendering Forms as HTML
 seo-title: Rendering Forms as HTML
 description: null
 seo-description: null
-uuid: 62585568-6761-46ba-b8ff-4cfc56da230a
+uuid: 1ceecce9-0df7-4cbd-8a01-04fc0b111770
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/rendering_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: 13fbed63-3547-4025-890a-da30aee200d4
+discoiquuid: 620a1c62-ce24-4a57-9726-e1ef1d49c49d
 index: y
 internal: n
 snippet: y
@@ -174,7 +174,7 @@ You cannot sign an HTML form that contains a digital signature field if the form
 * StaticHTML
 * NoScriptXHTML
 
-For information about digitally signing a document, see [Digitally Signing and Certifying Documents](/programming-with-aem-forms/digitally-signing-certifying-documents-digitally digitally-signing-certifying-documents-digitally#digitally_signing_and_certifying_documents).
+For information about digitally signing a document, see [Digitally Signing and Certifying Documents](/programming-with-aem-forms/digitally-signing-certifying-documents-digitally digitally-signing-certifying-documents-digitally.md#digitally_signing_and_certifying_documents).
 
 ## Rendering an accessibility guidelines-compliant XHTML form {#rendering-an-accessibility-guidelines-compliant-xhtml-form}
 
@@ -240,9 +240,9 @@ When the Forms service renders an HTML form, it returns a form data stream that 
 
 **See also**
 
-[Render a form as HTML using the Java API](/programming-with-aem-forms/rendering-forms-rendering-forms rendering-forms-html-rendering-forms rendering-forms-html-rendering-forms#render_a_form_as_html_using_the_java_api)
+[Render a form as HTML using the Java API](/programming-with-aem-forms/rendering-forms-rendering-forms rendering-forms-html-rendering-forms rendering-forms-html-rendering-forms.md#render_a_form_as_html_using_the_java_api)
 
-[Render a form as HTML using the web service API](/programming-with-aem-forms/rendering-forms-rendering-forms rendering-forms-html-rendering-forms rendering-forms-html-rendering-forms#render_a_form_as_html_using_the_web_service_api)
+[Render a form as HTML using the web service API](/programming-with-aem-forms/rendering-forms-rendering-forms rendering-forms-html-rendering-forms rendering-forms-html-rendering-forms.md#render_a_form_as_html_using_the_web_service_api)
 
 [Including AEM Forms Java library files](#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
 
@@ -250,11 +250,11 @@ When the Forms service renders an HTML form, it returns a form data stream that 
 
 [Forms Service API Quick Starts](#unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7af6.2)
 
-[Rendering Interactive PDF Forms](/programming-with-aem-forms/rendering-forms-rendering-forms rendering-interactive-pdf-forms-rendering#rendering_interactive_pdf_forms)
+[Rendering Interactive PDF Forms](/programming-with-aem-forms/rendering-forms-rendering-forms rendering-interactive-pdf-forms-rendering.md#rendering_interactive_pdf_forms)
 
-[Rendering HTML Forms with Custom Toolbars](/programming-with-aem-forms/rendering-forms-rendering-forms rendering-html-forms-custom-toolbars#rendering_html_forms_with_custom_toolbars)
+[Rendering HTML Forms with Custom Toolbars](/programming-with-aem-forms/rendering-forms-rendering-forms rendering-html-forms-custom-toolbars.md#rendering_html_forms_with_custom_toolbars)
 
-[Creating Web Applications that Renders Forms](/programming-with-aem-forms/rendering-forms-rendering-forms creating-web-applications-renders-forms#creating_web_applications_that_renders_forms)
+[Creating Web Applications that Renders Forms](/programming-with-aem-forms/rendering-forms-rendering-forms creating-web-applications-renders-forms.md#creating_web_applications_that_renders_forms)
 
 ## Render a form as HTML using the Java API {#render-a-form-as-html-using-the-java-api}
 
@@ -306,7 +306,7 @@ Render an HTML form by using the Forms API (Java):
 
 **See also**
 
-[Rendering Forms as HTML](/programming-with-aem-forms/rendering-forms-rendering-forms rendering-forms-html-rendering-forms rendering-forms-html-rendering-forms#rendering_forms_as_html)
+[Rendering Forms as HTML](/programming-with-aem-forms/rendering-forms-rendering-forms rendering-forms-html-rendering-forms rendering-forms-html-rendering-forms.md#rendering_forms_as_html)
 
 [Quick Start (SOAP mode): Rendering an HTML form using the Java API](#unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7e36.2)
 
@@ -344,7 +344,7 @@ Render an HTML form by using the Forms API (web service):
 
     * A string value that specifies the form design name, including the file name extension. If you reference a form design that is part of a Forms application, ensure that you specify the complete path, such as `Applications/FormsApplication/1.0/FormsFolder/Loan.xdp`.
     * A `TransformTo` enum value that specifies the HTML preference type. For example, to render an HTML form that is compatible with dynamic HTML for Internet Explorer 5.0 or later, specify `TransformTo.MSDHTML`. 
-    * A `BLOB` object that contains data to merge with the form. If you do not want to merge data, pass `null`. (See [Prepopulating Forms with Flowable Layouts](/programming-with-aem-forms/rendering-forms-rendering-forms prepopulating-forms-flowable-layouts-prepopulating#prepopulating_forms_with_flowable_layouts).)
+    * A `BLOB` object that contains data to merge with the form. If you do not want to merge data, pass `null`. (See [Prepopulating Forms with Flowable Layouts](/programming-with-aem-forms/rendering-forms-rendering-forms prepopulating-forms-flowable-layouts-prepopulating.md#prepopulating_forms_with_flowable_layouts).)
     * The `HTMLRenderSpec` object that stores HTML run-time options. 
     * A string value that specifies the `HTTP_USER_AGENT` header value; for example, `Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 1.1.4322)`. You can pass an empty string if you do not want to set this value. 
     * A `URLSpec` object that stores URI values required to render an HTML form. (See [Specify URI values](#unresolvedlink-lc-re-render-interactive-forms-ri.xml#ws624e3cba99b79e12e69a9941333732bac8-7a96.2).)
@@ -370,7 +370,7 @@ Render an HTML form by using the Forms API (web service):
 
 **See also**
 
-[Rendering Forms as HTML](/programming-with-aem-forms/rendering-forms-rendering-forms rendering-forms-html-rendering-forms rendering-forms-html-rendering-forms#rendering_forms_as_html)
+[Rendering Forms as HTML](/programming-with-aem-forms/rendering-forms-rendering-forms rendering-forms-html-rendering-forms rendering-forms-html-rendering-forms.md#rendering_forms_as_html)
 
 [Quick Start (Base64): Rendering an HTML form using the web service API](#unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7e35.2)
 

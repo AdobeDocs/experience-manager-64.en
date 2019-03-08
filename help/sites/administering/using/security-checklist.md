@@ -3,12 +3,12 @@ title: Security Checklist
 seo-title: Security Checklist
 description: Learn about the various security considerations when configuring and deploying AEM.
 seo-description: Learn about the various security considerations when configuring and deploying AEM.
-uuid: 89fc49d5-d4e8-4846-911a-9863ad40a64a
+uuid: 240c65f2-9085-4442-a90f-83a1b838d9c0
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
-discoiquuid: ae5db469-5c6f-4226-b875-69aab0e2d80b
+discoiquuid: 952b7ef0-b486-47db-9aa4-33ea0f4f1498
 index: y
 internal: n
 snippet: y
@@ -24,7 +24,7 @@ This section deals with various steps that you should take to ensure that your A
 
 >[!NOTE]
 >
->There are some additional [security considerations](../../../sites/developing/using/dev-guidelines-bestpractices.md#securityconsiderations) applicable at the development phase.
+>There are some additional [security considerations](../../../sites/developing/using/dev-guidelines-bestpractices.md#security-considerations) applicable at the development phase.
 
 ## Main Security Measures {#main-security-measures}
 
@@ -62,7 +62,7 @@ These two accounts use separate credentials and having distinct, strong password
 
 The password for the AEM admin account can be changed via the [Granite Operations - Users](../../../sites/administering/using/granite-user-group-admin.md) console.
 
-Here you can edit the `admin` account and [change the password](../../../sites/administering/using/granite-user-group-admin.md#changingthepasswordforanexistinguser).
+Here you can edit the `admin` account and [change the password](../../../sites/administering/using/granite-user-group-admin.md#changing-the-password-for-an-existing-user).
 
 >[!NOTE]
 >
@@ -135,7 +135,7 @@ All example content and users (e.g. the Geometrixx project and its components) s
 
 >[!NOTE]
 >
->The sample Geometrixx applications are removed if this instance is running in [Production Ready Mode](../../../sites/administering/using/production-ready.md). If, for any reason, this is not the case, you can uninstall the `cq-geometrixx-all-pkg` package as described in [Uninstalling Packages](../../../sites/administering/using/package-manager.md#uninstallingpackages). You can then delete all geometrixx packages using the same user interface.
+>The sample Geometrixx applications are removed if this instance is running in [Production Ready Mode](../../../sites/administering/using/production-ready.md). If, for any reason, this is not the case, you can uninstall the `cq-geometrixx-all-pkg` package as described in [Uninstalling Packages](../../../sites/administering/using/package-manager.md#uninstalling-packages). You can then delete all geometrixx packages using the same user interface.
 
 ### Check if the CRX development bundles are present {#check-if-the-crx-development-bundles-are-present}
 
@@ -265,7 +265,7 @@ Sling is *content-centric*. This means that processing is focused on the content
 
 >[!NOTE]
 >
->This is covered in more detail under [Sling Request Processing](../../../sites/developing/using/the-basics.md#slingrequestprocessing).
+>This is covered in more detail under [Sling Request Processing](../../../sites/developing/using/the-basics.md#sling-request-processing).
 
 This approach makes Sling very powerful and very flexible, but as always it is the flexibility that needs to be carefully managed.
 
@@ -402,7 +402,7 @@ More specifically, you need to:
     * `<publish-aem-install-dir>/crx-quickstart/launchpad/felix/bundle21/data`
 
 1. Paste the two files you previously copied.
-1. [Refresh the Crypto Bundle](../../../communities/using/deploy-communities.md#refreshthegranitecryptobundle) if the target instance is already running.
+1. [Refresh the Crypto Bundle](../../../communities/using/deploy-communities.md#refresh-the-granite-crypto-bundle) if the target instance is already running.
 1. Repeat the above steps for all instances you want to replicate the key to.
 
 >[!NOTE]

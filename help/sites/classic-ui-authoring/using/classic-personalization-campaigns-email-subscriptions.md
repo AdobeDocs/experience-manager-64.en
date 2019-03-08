@@ -3,12 +3,12 @@ title: Managing Subscriptions
 seo-title: Managing Subscriptions
 description: Users can be asked to subscribe to Email Service Provider's mailing lists with the help of the Form component used on an AEM web page. To prepare an AEM page with a sign-up form for subscription to your e-mail service mailing lists, you must apply the corresponding service configuration to the AEM page that the potential subscriber will visit.
 seo-description: Users can be asked to subscribe to Email Service Provider's mailing lists with the help of the Form component used on an AEM web page. To prepare an AEM page with a sign-up form for subscription to your e-mail service mailing lists, you must apply the corresponding service configuration to the AEM page that the potential subscriber will visit.
-uuid: f8507cf6-272b-491e-b6c7-17b5ff7ab3d7
+uuid: 754b29e0-6ccb-49ef-bf7e-38485b52b494
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: 6f96841c-0253-4268-8de9-a1f9857ee563
+discoiquuid: 7157c92d-d9c9-4f04-8076-373823b6c33b
 index: y
 internal: n
 snippet: y
@@ -62,7 +62,7 @@ To create a sign-up form and configure it for subscriptions to Email Service Pro
 
    >[!NOTE]
    >
-   >To make the form subscription fucntion correctly, [encryption keys from author need to be exported and imported on the publish instance](#exportingkeysfromauthorandimportingonpublish).
+   >To make the form subscription fucntion correctly, [encryption keys from author need to be exported and imported on the publish instance](#exporting-keys-from-author-and-importing-on-publish).
 
 ### Exporting keys from author and importing on publish {#exporting-keys-from-author-and-importing-on-publish}
 
@@ -112,7 +112,7 @@ To configure an auto-responder email for a subscriber:
 
    >[!NOTE]
    >
-   >To make the sign-up form subscription function correctly, [encryption keys from author need to be exported and imported on the publish instance](#exportingkeysfromauthorandimportingonpublish).
+   >To make the sign-up form subscription function correctly, [encryption keys from author need to be exported and imported on the publish instance](#exporting-keys-from-author-and-importing-on-publish).
 
    ![](assets/chlimage_1-12.jpeg)
 

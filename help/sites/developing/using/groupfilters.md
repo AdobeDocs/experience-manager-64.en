@@ -3,12 +3,12 @@ title: Creating Device Group Filters
 seo-title: Creating Device Group Filters
 description: Create a device group filter to define a set of device capability requirements
 seo-description: Create a device group filter to define a set of device capability requirements
-uuid: 46bb120b-0081-428b-8b92-9153a21f1b2f
+uuid: 73782d53-f37a-48f5-ab5f-d05d92c3f467
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: mobile-web
 content-type: reference
-discoiquuid: 168f4706-01f3-4e7a-8197-8704dcb06d4f
+discoiquuid: e689e73f-8489-4459-8ee4-1899e35f6b8c
 legacypath: /content/docs/en/aem/6-0/develop/mobile/groupfilters
 index: y
 internal: n
@@ -29,7 +29,7 @@ After you create a filter, you can use it in the [group configuration.](../../..
 
 ### The Filter Java Class {#the-filter-java-class}
 
-A device group filter is an OSGi component that implements the [com.day.cq.wcm.mobile.api.device.DeviceGroupFilter](/sites/developing/using/reference-materials/javadoc/index.html?com/day/cq/wcm/mobile/api/device/DeviceGroupFilter) interface. When deployed, the implementation class provides a filter service that is available to device group configurations.
+A device group filter is an OSGi component that implements the [com.day.cq.wcm.mobile.api.device.DeviceGroupFilter](/sites/developing/using/reference-materials/javadoc/index.html?com/day/cq/wcm/mobile/api/device/DeviceGroupFilter.md) interface. When deployed, the implementation class provides a filter service that is available to device group configurations.
 
 The solution described in this article uses the Apache Felix Maven SCR Plugin to facilitate the development of the component and service. Therefore, the example Java class uses the `@Component`and `@Service` annotations. The class has the following structure:
 
@@ -93,7 +93,7 @@ The `matches` function returns `true` if the device capabilities satisfy all of 
 * The name of the user agent
 * A Map object that contains the device capabilities. The Map keys are the WURFL™ capability names and the values are are the corresponding values from the WURFL™ database.
 
-The [com.day.cq.wcm.mobile.api.devicespecs.DeviceSpecsConstants](/sites/developing/using/reference-materials/javadoc/index.html?com/day/cq/wcm/mobile/api/device/DeviceGroupFilter) interface contains a subset of the WURFL™ capability names in static fields. Use these field constants as keys when retrieving values from the Map of device capabilities.
+The [com.day.cq.wcm.mobile.api.devicespecs.DeviceSpecsConstants](/sites/developing/using/reference-materials/javadoc/index.html?com/day/cq/wcm/mobile/api/device/DeviceGroupFilter.md) interface contains a subset of the WURFL™ capability names in static fields. Use these field constants as keys when retrieving values from the Map of device capabilities.
 
 For example, the following code example determines whether the device supports CSS:
 

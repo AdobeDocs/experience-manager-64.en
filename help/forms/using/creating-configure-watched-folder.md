@@ -3,11 +3,11 @@ title: Create or Configure a watched folder
 seo-title: Create or Configure a watched folder
 description: Learn how to create or delete a watched folder, or modify the properties of an existing watched folder.
 seo-description: Learn how to create or delete a watched folder, or modify the properties of an existing watched folder.
-uuid: ccda643e-8ab6-4d6e-92e4-d98d563acf50
+uuid: 8c46a586-e58b-4411-a1dc-ab153cc748c7
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: publish
-discoiquuid: 8633c2ea-b6df-40a0-9e67-be345c04f310
+discoiquuid: f2e18388-70b7-417c-9617-82f9a3c3f228
 index: y
 internal: n
 snippet: y
@@ -29,7 +29,7 @@ Before you configure a watched folder, ensure the following:
 
 * Watched folders is an advanced feature of AEM forms. It requires AEM forms add-on package to function. Ensure that appropriate AEM Forms add-on package is installed and configured.
 * You can create the watched folder at a shared or local storage. Ensure that AEM forms user configured to run the watched folder has read and write permissions on the watched folder.
-* You can use a Service, Workflow, or a Script to automate an operation with watched folder. Ensure that the corresponding Service, Workflow, or a Script is created and ready to run. For information about creating a Service, Workflow, and Script, see [Various methods of processing files](/forms/using/watched-folder-in-aem-forms.html?#VariousMethodsForProcessingFiles).
+* You can use a Service, Workflow, or a Script to automate an operation with watched folder. Ensure that the corresponding Service, Workflow, or a Script is created and ready to run. For information about creating a Service, Workflow, and Script, see [Various methods of processing files](../../forms/using/watched-folder-in-aem-forms.md#variousmethodsforprocessingfiles).
 * A watched folder has various properties, see [Watched Folder Properties](../../forms/using/watched-folder-in-aem-forms.md#main-pars-header-1).
 
 Perform the following steps to create a watched folder:

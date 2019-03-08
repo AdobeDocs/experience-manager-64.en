@@ -3,12 +3,12 @@ title: Configure the Admin Password on Installation
 seo-title: Configure the Admin Password on Installation
 description: Learn how to change the Admin Password on AEM Installation.
 seo-description: Learn how to change the Admin Password on AEM Installation.
-uuid: 1a258902-ab3c-4408-bf83-7d7cc5548fba
+uuid: dc4e1d34-bdfb-4e59-b2e8-c00a5152387c
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
-discoiquuid: 0652203e-3d02-412c-90e1-49bb6feddfa0
+discoiquuid: 29021a56-b4df-4f49-9c88-6e30e76cc868
 index: y
 internal: n
 snippet: y
@@ -26,7 +26,7 @@ This feature adds the facility of setting a new administrator password for the r
 
 >[!CAUTION]
 >
->Please note that feature does not cover the Felix Console, for which the password needs to be changed manually. For more information, see the relevant [Security Checklist section](../../../sites/administering/using/security-checklist.md#changedefaultpasswordsfortheaemandosgiconsoleadminaccounts).
+>Please note that feature does not cover the Felix Console, for which the password needs to be changed manually. For more information, see the relevant [Security Checklist section](../../../sites/administering/using/security-checklist.md#change-default-passwords-for-the-aem-and-osgi-console-admin-accounts).
 
 ## How Do I Use It? {#how-do-i-use-it}
 

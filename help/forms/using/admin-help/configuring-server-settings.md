@@ -3,12 +3,12 @@ title: Configuring Server Settings
 seo-title: Configuring Server Settings
 description: The Server Settings page provides access to email, task notification and administrator notification settings.
 seo-description: The Server Settings page provides access to email, task notification and administrator notification settings.
-uuid: 1d09d2f4-2121-44a5-a5db-b6fe34be059e
+uuid: eff038cb-5144-4a41-81be-08f763724929
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_forms_workflow
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: ad1c2ca4-70c1-4e41-9672-41cb1dd88557
+discoiquuid: 873a5358-6dcf-43c4-bdfe-37fcd79e4e66
 index: y
 internal: n
 snippet: y
@@ -18,9 +18,9 @@ snippet: y
 
 The Server Settings page provides access to various settings for forms workflow:
 
-* **Email settings** that enable outgoing email messages, along with the email server settings used for those messages. (See [Configuring email settings](configuring-server-settings#configuring_email_settings).)
-* **Task notification settings **that enable, disable, or modify the messages sent in email notifications to end users and groups regarding their tasks. (See [Configuring notifications for users and groups](configuring-server-settings#configuring_notifications_for_users_and_groups).)
-* **Administrator notification settings **that enable, disable, or modify the messages sent in email notifications for administrative tasks. (See [Configuring notifications for administrators](configuring-server-settings#configuring_notifications_for_administrators).)
+* **Email settings** that enable outgoing email messages, along with the email server settings used for those messages. (See [Configuring email settings](configuring-server-settings.md#configuring_email_settings).)
+* **Task notification settings **that enable, disable, or modify the messages sent in email notifications to end users and groups regarding their tasks. (See [Configuring notifications for users and groups](configuring-server-settings.md#configuring_notifications_for_users_and_groups).)
+* **Administrator notification settings **that enable, disable, or modify the messages sent in email notifications for administrative tasks. (See [Configuring notifications for administrators](configuring-server-settings.md#configuring_notifications_for_administrators).)
 
 ## Configuring email settings {#configuring-email-settings}
 
@@ -76,7 +76,7 @@ You configure the following types of notifications for users and groups:
 * task assignments
 * deadlines
 
-To generate email notifications for a group, specify an email address for the group in User Management. (See [Setting up and organizing users](/forms/using/admin-help/topics/setting-up-and-organizing-users).) When forms workflow sends an email notification to a group, each member within the group who has an email address specified receives the email notification. When a member of the group receives an email notification and wants to claim the task, the member must click the claim link in the email notification, which opens the task details page in Workspace. From there, the member can either claim or claim and open the work item.
+To generate email notifications for a group, specify an email address for the group in User Management. (See [Setting up and organizing users](/forms/using/admin-help/topics/setting-up-and-organizing-users.md).) When forms workflow sends an email notification to a group, each member within the group who has an email address specified receives the email notification. When a member of the group receives an email notification and wants to claim the task, the member must click the claim link in the email notification, which opens the task details page in Workspace. From there, the member can either claim or claim and open the work item.
 
 >[!NOTE]
 >
@@ -90,8 +90,8 @@ You can send reminder notifications to the assigned user or group when a deadlin
 1. Under Notification Type, click Reminder (for users) or Group - Reminder (for groups).
 1. Select Enable Reminder or Enable Group - Reminder.
 1. (User notifications only) To include an attachment of the form and its data with the reminder email message, select Include Form Data.
-1. In the Subject box, type the text for the subject line of the email message. This field is prepopulated with default text. For details about customizing this field, see [Customizing the content of notifications](configuring-server-settings#customizing_the_content_of_notifications).
-1. In the Notification Template box, type the text for the body of the email message. This field is prepopulated with default text. For details about customizing this field, see [Customizing the content of notifications](configuring-server-settings#customizing_the_content_of_notifications).
+1. In the Subject box, type the text for the subject line of the email message. This field is prepopulated with default text. For details about customizing this field, see [Customizing the content of notifications](configuring-server-settings.md#customizing_the_content_of_notifications).
+1. In the Notification Template box, type the text for the body of the email message. This field is prepopulated with default text. For details about customizing this field, see [Customizing the content of notifications](configuring-server-settings.md#customizing_the_content_of_notifications).
 1. In the Message Format list, select the format that the email message is sent in, either HTML or Text. The default format is HTML.
 1. In the Email Encoding list, select the encoding format to use for the email message. The default is UTF-8, which most users outside of Japan will use. Users in Japan may select ISO2022-JP.
 1. Click Save.
@@ -104,8 +104,8 @@ You can send task assignment notifications to a user or group when they are assi
 1. Under Notification Type, click Task Assignment for users or Group - Task Assignment for groups.
 1. Select Enable Task Assignment for users or Enable Group - Task Assignment for groups.
 1. (User notifications only) To include an attachment of the form and its data with the task assignment email message, select Include Form Data.
-1. In the Subject box, type the text for the subject line of the email message. This field is prepopulated with default text. For details about customizing this field, see [Customizing the content of notifications](configuring-server-settings#customizing_the_content_of_notifications).
-1. In the Notification Template box, type the text for the body of the email message. This field is prepopulated with default text. For details about customizing this field, see [Customizing the content of notifications](configuring-server-settings#customizing_the_content_of_notifications).
+1. In the Subject box, type the text for the subject line of the email message. This field is prepopulated with default text. For details about customizing this field, see [Customizing the content of notifications](configuring-server-settings.md#customizing_the_content_of_notifications).
+1. In the Notification Template box, type the text for the body of the email message. This field is prepopulated with default text. For details about customizing this field, see [Customizing the content of notifications](configuring-server-settings.md#customizing_the_content_of_notifications).
 1. In the Message Format list, select the format that the email message is sent in, either HTML or Text. The default format is HTML.
 1. In the Email Encoding list, select the encoding format to use for the email message. The default is UTF-8, which most users outside of Japan will use. Users in Japan may select ISO2022-JP.
 1. Click Save.
@@ -117,8 +117,8 @@ You can send deadline notifications to users and groups when the deadline to act
 1. In administration console, click Services &gt; Forms workflow &gt; Server Settings &gt; Task Notifications.
 1. Under Notification Type, click Deadline (for users) or Group - Deadline (for groups).
 1. Select Enable Deadline or Enable Group - Deadline.
-1. In the Subject box, type the text for the subject line of the email message. This field is prepopulated with default text. For details about customizing this field, see [Customizing the content of notifications](configuring-server-settings#customizing_the_content_of_notifications).
-1. In the Notification Template box, type the text for the body of the email message. This field is prepopulated with default text. For details about customizing this field, see [Customizing the content of notifications](configuring-server-settings#customizing_the_content_of_notifications).
+1. In the Subject box, type the text for the subject line of the email message. This field is prepopulated with default text. For details about customizing this field, see [Customizing the content of notifications](configuring-server-settings.md#customizing_the_content_of_notifications).
+1. In the Notification Template box, type the text for the body of the email message. This field is prepopulated with default text. For details about customizing this field, see [Customizing the content of notifications](configuring-server-settings.md#customizing_the_content_of_notifications).
 1. In the Message Format list, select the format that the email message is sent in, either HTML or Text. The default format is HTML.
 1. In the Email Encoding list, select the encoding format to use for the email message. The default is UTF-8, which most users outside of Japan will use. Users in Japan may select ISO2022-JP.
 1. Click Save.
@@ -144,8 +144,8 @@ If a branch stalls (stops proceeding either deliberately or because of an error)
 1. Under Notification Type, click Stalled Branch.
 1. Select Enable Stalled Branch.
 1. In the Email Address box, type the addresses of the users to notify when a branch stalls. Use the format user@domain.com and separate each address with a comma. Typically, this email address is for an administrator.
-1. In the Subject box, type the text for the subject line of the email message. This field is prepopulated with default text. For details about customizing this field, see [Customizing the content of notifications](configuring-server-settings#customizing_the_content_of_notifications).
-1. In the Notification Template box, type the text for the body of the email message. This field is prepopulated with default text. For details about customizing this field, see [Customizing the content of notifications](configuring-server-settings#customizing_the_content_of_notifications).
+1. In the Subject box, type the text for the subject line of the email message. This field is prepopulated with default text. For details about customizing this field, see [Customizing the content of notifications](configuring-server-settings.md#customizing_the_content_of_notifications).
+1. In the Notification Template box, type the text for the body of the email message. This field is prepopulated with default text. For details about customizing this field, see [Customizing the content of notifications](configuring-server-settings.md#customizing_the_content_of_notifications).
 1. In the Message Format list, select the format that the email message is sent in, either HTML or Text. The default format is HTML.
 1. In the Email Encoding list, select the encoding format to use for the email message. The default is UTF-8, which most users outside Japan use. Users in Japan may select ISO2022-JP.
 1. Click Save.
@@ -158,8 +158,8 @@ If an operation stalls (stops proceeding either deliberately or because of an er
 1. Under Notification Type, click Stalled Operation.
 1. Select Enable Stalled Operation.
 1. In the Email Addresses box, type the addresses of the users to notify when an operation stalls. Use the format user@domain.com and separate each address with a comma. Typically, this email address is for an administrator.
-1. In the Subject box, type the text for the subject line of the email message. This field is prepopulated with default text. For details about customizing this field, see [Customizing the content of notifications](configuring-server-settings#customizing_the_content_of_notifications)
-1. In the Notification Template box, type the text for the body of the email message. This field is prepopulated with default text. For details about customizing this field, see [Customizing the content of notifications](configuring-server-settings#customizing_the_content_of_notifications).
+1. In the Subject box, type the text for the subject line of the email message. This field is prepopulated with default text. For details about customizing this field, see [Customizing the content of notifications](configuring-server-settings.md#customizing_the_content_of_notifications)
+1. In the Notification Template box, type the text for the body of the email message. This field is prepopulated with default text. For details about customizing this field, see [Customizing the content of notifications](configuring-server-settings.md#customizing_the_content_of_notifications).
 1. Click Save.
 
 ## Customizing the content of notifications {#customizing-the-content-of-notifications}

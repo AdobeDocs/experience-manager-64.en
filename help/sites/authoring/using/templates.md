@@ -3,12 +3,12 @@ title: Creating Page Templates
 seo-title: Creating Page Templates
 description: The template defines the structure of the resultant page and with the template editor, creating and maintaining templates is no longer a developer-only task
 seo-description: The template defines the structure of the resultant page and with the template editor, creating and maintaining templates is no longer a developer-only task
-uuid: ef836756-3264-4ff3-91b6-04ef7890f684
+uuid: 9886d4d6-f1ed-4ab3-9897-1d8e81585d54
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
-discoiquuid: 2be36b7c-bebf-44e2-920b-538757d7e513
+discoiquuid: 9b24bd6f-dade-4bc7-8ac3-44e7112ab39a
 index: y
 internal: n
 snippet: y
@@ -53,7 +53,7 @@ The following points are important to consider before you start:
 
 * Creating a new template requires collaboration. For this reason the [Role](#roles) is indicated for each task.  
 
-* Depending on how your instance is configured, it might be useful to be aware that AEM now provides [two basic types of template](../../../sites/authoring/using/templates.md#editable-and-static-templates). This does not impact how you actually [use a template to create a page](#usingatemplatetocreateapage), but it does impact the type of template you can create and how a page relates to its template.
+* Depending on how your instance is configured, it might be useful to be aware that AEM now provides [two basic types of template](../../../sites/authoring/using/templates.md#editable-and-static-templates). This does not impact how you actually [use a template to create a page](#using-a-template-to-create-a-page), but it does impact the type of template you can create and how a page relates to its template.
 
 ### Roles {#roles}
 
@@ -112,7 +112,7 @@ By definition, the template console and template editor only allow creation and 
 
 ### Using a Template to Create a Page {#using-a-template-to-create-a-page}
 
-When using a template to [create a new page](../../../sites/authoring/using/managing-pages.md#creatinganewpage) there is no visible difference and no indication between static and editable templates. For the page author, the process is transparent.
+When using a template to [create a new page](../../../sites/authoring/using/managing-pages.md#creating-a-new-page) there is no visible difference and no indication between static and editable templates. For the page author, the process is transparent.
 
 ## Creating and Managing Templates {#creating-and-managing-templates}
 
@@ -122,7 +122,7 @@ When creating a new editable template you:
 
     * Or directly at: [http://localhost:4502/libs/wcm/core/content/sites/templates.html/conf](http://localhost:4502/libs/wcm/core/content/sites/templates.html/conf)
 
-* Can [create a folder for the templates](#creatingatemplatefolderadmin) if necessary
+* Can [create a folder for the templates](#creating-a-template-folder-admin) if necessary
 * [Create a new template](#creatinganewtemplateauthor), which will initially be empty [](#templatedefinitions)
 
 * [Define additional properties](#definingtemplatepropertiesauthor) for the template if required
@@ -130,13 +130,13 @@ When creating a new editable template you:
 
     * [Structure](#editingatemplatestructureauthor) - Predefined content that cannot be changed on pages created with the template.  
     
-    * [Initial Content](#editingatemplateinitialcontentauthor) - Predefined content that can be changed on pages created with the template.  
+    * [Initial Content](#editing-a-template-initial-content-author) - Predefined content that can be changed on pages created with the template.  
     
     * [Layout](#editingatemplatelayoutauthor) - For a range of devices.
     * [Styles](../../../sites/authoring/using/style-system.md) - Define the styles to be used with the template and its components.
 
 * [Enable the template](#enablingatemplateauthor) for use when creating a page
-* [Allow the template](#allowingatemplateauthor) for the required page or branch of your website
+* [Allow the template](#allowing-a-template-author) for the required page or branch of your website
 * [Publish the template](#publishingatemplateauthor) to make it available on the publish environment
 
 >[!NOTE]
@@ -243,7 +243,7 @@ A template can be enabled or disabled to make it available or unavailable in the
 
 1. In the **Templates Console**, select the template.
 1. Select **Enable** or **Disable** from the toolbar, and again in the confirmation dialog.
-1. You can now use your template when [creating a new page](../../../sites/authoring/using/managing-pages.md#creatinganewpage), though you will probably want to [edit the template](#editingatemplate) according to your requirements.
+1. You can now use your template when [creating a new page](../../../sites/authoring/using/managing-pages.md#creating-a-new-page), though you will probably want to [edit the template](#editingatemplate) according to your requirements.
 
 >[!NOTE]
 >

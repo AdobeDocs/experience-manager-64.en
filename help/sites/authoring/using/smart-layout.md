@@ -4,9 +4,9 @@ seo-title: Use Smart Layout to create page variations tailored to the typical au
 description: Use Smart Layout to create page variations tailored to the typical audiences visiting the page.
 seo-description: Use Smart Layout to create page variations tailored to the typical audiences visiting the page.
 page-status-flag: never-activated
-uuid: ed57cae7-ab8b-48cb-b5c1-ef3eee6c6260
+uuid: 0a15017e-f09f-4151-918e-12b0919a6d7f
 contentOwner: aheimoz
-discoiquuid: 9914ca8b-ef01-480d-85c2-06a68678cfff
+discoiquuid: 846b8730-9097-42fb-8e5d-9b93112ef996
 index: y
 internal: n
 snippet: y
@@ -79,9 +79,9 @@ Using Smart Layout follows the work flow:
 
 To use Smart Layouting to create variations targeted at the appropriate audience there are several stages:
 
-* [Create a new page with the targeting and smart layout containers, the latter holding experience fragments](/sites/authoring/using/smart-layout.html?cq_ck=1542091597887#CreateaPagewithContainers).
-* [Create an activity](/sites/authoring/using/smart-layout.html?cq_ck=1542091597887#CreateanActivity).
-* [Configure targeting](/sites/authoring/using/smart-layout.html?cq_ck=1542091597887#ConfigureTargeting).
+* [Create a new page with the targeting and smart layout containers, the latter holding experience fragments](../../../sites/authoring/using/smart-layout.md#create-a-page-with-containers).
+* [Create an activity](../../../sites/authoring/using/smart-layout.md#create-an-activity).
+* [Configure targeting](../../../sites/authoring/using/smart-layout.md#configure-targeting).
 
 ### Create a Page with Containers {#create-a-page-with-containers}
 

@@ -3,12 +3,12 @@ title: Common Repository Restructuring in AEM 6.4
 seo-title: Common Repository Restructuring in AEM 6.4
 description: Learn how to make the necessary changes in order to migrate to the new repository structure in AEM 6.4 that are common for all areas of AEM.
 seo-description: Learn how to make the necessary changes in order to migrate to the new repository structure in AEM 6.4 that are common for all areas of AEM.
-uuid: 63cbd66f-a70d-4f9e-b72b-d51d92a40fe1
+uuid: 74ca0fc5-a86d-40a8-a288-a0d6ffeb1d68
 contentOwner: chaikels
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: repo_restructuring
-discoiquuid: c2f4dde6-1597-444d-93ae-130a4855367d
+discoiquuid: c7a41db2-30fc-47a7-8252-14867118c39a
 index: y
 internal: n
 snippet: y
@@ -20,32 +20,32 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 
 **With 6.4 Upgrade**
 
-* [Workflow Instances](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#workflowinstances)
-* [Workflow Models](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#workflowmodels)
-* [Workflow Launchers](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#workflowlaunchers)
-* [Workflow Scripts](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#workflowscripts)
+* [Workflow Instances](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#workflow-instances)
+* [Workflow Models](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#workflow-models)
+* [Workflow Launchers](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#workflow-launchers)
+* [Workflow Scripts](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#workflow-scripts)
 
 **Prior to 6.5 Upgrade**
 
-* [ContextHub Configurations](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#contexthubconfigurations)
-* [Classic Cloud Services Designs](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#classiccloudservicesdesigns)
-* [Classic Dashboards Designs](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#classicdashboardsdesigns)
-* [Classic Reports Designs](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#classicreportsdesigns)
-* [Default Designs](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#defaultdesigns)
-* [Adobe DTM JavaScript Endpoint](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#adobedtmjavascriptendpoint)
-* [Adobe DTM Web-Hook Endpoint](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#adobedtmwebhookendpoint)
-* [Inbox Tasks](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#inboxtasks)
-* [Multi-site Manager Blueprint Configurations](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#multisitemanagerblueprintconfigurations)
-* [AEM Projects Dashboard Gadget Configurations](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#aemprojectsdashboardgadgetconfigurations)
-* [Replication Notification E-mail Template](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#replicationnotificationemailtemplate)
+* [ContextHub Configurations](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#contexthub-configurations)
+* [Classic Cloud Services Designs](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#classic-cloud-services-designs)
+* [Classic Dashboards Designs](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#classic-dashboards-designs)
+* [Classic Reports Designs](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#classic-reports-designs)
+* [Default Designs](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#default-designs)
+* [Adobe DTM JavaScript Endpoint](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#adobe-dtm-javascript-endpoint)
+* [Adobe DTM Web-Hook Endpoint](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#adobe-dtm-web-hook-endpoint)
+* [Inbox Tasks](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#inbox-tasks)
+* [Multi-site Manager Blueprint Configurations](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#multi-site-manager-blueprint-configurations)
+* [AEM Projects Dashboard Gadget Configurations](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#aem-projects-dashboard-gadget-configurations)
+* [Replication Notification E-mail Template](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#replication-notification-e-mail-template)
 * [Tags](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#tags)
-* [Translation Cloud Services](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#translationcloudservices)
-* [Translation Languages](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#translationlanguages)
-* [Translation Rules](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#translationrules)
-* [Translation Widget Client Library](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#translationwidgetclientlibrary)
-* [Tree Activation Web Console](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#treeactivationwebconsole)
-* [Vendor Translation Connector Cloud Services](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#vendortranslationconnectorcloudservices)
-* [Workflow Notification Email Templates](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#workflownotificationemailtemplates)
+* [Translation Cloud Services](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#translation-cloud-services)
+* [Translation Languages](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#translation-languages)
+* [Translation Rules](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#translation-rules)
+* [Translation Widget Client Library](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#translation-widget-client-library)
+* [Tree Activation Web Console](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#tree-activation-web-console)
+* [Vendor Translation Connector Cloud Services](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#vendor-translation-connector-cloud-services)
+* [Workflow Notification Email Templates](../../../sites/deploying/using/all-repository-restructuring-in-aem-6-4.md#workflow-notification-email-templates)
 
 ## With 6.4 Upgrade {#with-upgrade}
 

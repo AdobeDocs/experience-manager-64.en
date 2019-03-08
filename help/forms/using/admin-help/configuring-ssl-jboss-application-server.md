@@ -3,12 +3,12 @@ title: Configuring SSL for JBoss Application Server
 seo-title: Configuring SSL for JBoss Application Server
 description: Learn how to configure SSL for JBoss Application Server.
 seo-description: Learn how to configure SSL for JBoss Application Server.
-uuid: 30d7dcbc-e177-4776-b251-5aa37992410b
+uuid: 7970029a-e74c-4108-8713-77a136881b4c
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_ssl
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 2b2b2e59-07a7-4461-b25c-ad76d2d8f62e
+discoiquuid: 5e5ff14f-95d7-48aa-bb5a-27946b2c102f
 index: y
 internal: n
 snippet: y

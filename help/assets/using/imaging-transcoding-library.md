@@ -3,12 +3,12 @@ title: Imaging Transcoding Library
 seo-title: Imaging Transcoding Library
 description: Learn how to configure and use Adobe's Imaging Transcoding Library, an image processing solution that can perform core image-handling functions, including encoding, transcoding, image resampling, and image resizing.
 seo-description: Learn how to configure and use Adobe's Imaging Transcoding Library, an image processing solution that can perform core image-handling functions, including encoding, transcoding, image resampling, and image resizing.
-uuid: 7aaee66e-d8b2-4271-be10-a5084178fba5
+uuid: 67b91353-71ab-4579-88d6-db3eddd7bd92
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: f616a211-7d3f-43fb-95ed-edea00da0b87
+discoiquuid: 1ef283c2-8eb0-4cd6-8df1-0ddef38400ff
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Markdown
 seo-title: Markdown
 description: When you are authoring, the content fragment editor uses markdown syntax to allow you to easily write content.
 seo-description: When you are authoring, the content fragment editor uses markdown syntax to allow you to easily write content.
-uuid: 965201ef-f608-4928-af62-3f8936da29e7
+uuid: 5600ca81-5360-4b14-88c9-52c83de026f3
 contentOwner: Alison Heimoz
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: content-fragments
 content-type: reference
-discoiquuid: e0a08b70-57b3-49d1-8bca-184024d35cac
+discoiquuid: 2b822de5-1637-42e9-b503-8947791324ec
 index: y
 internal: n
 snippet: y
@@ -20,21 +20,21 @@ snippet: y
 >
 >Some Content Fragment functionality requires the application of [AEM 6.4 Service Pack 2 (6.4.2.0) or later](../../release-notes/sp-release-notes.md).
 
-When you are [authoring](../../assets/using/content-fragments-variations.md#authoringyourcontent), the content fragment editor uses *markdown* syntax to allow you to easily write content:
+When you are [authoring](../../assets/using/content-fragments-variations.md#authoring-your-content), the content fragment editor uses *markdown* syntax to allow you to easily write content:
 
 ![](assets/cfm-6420-08.png)
 
 You can define:
 
-* [Heading Notation](#headingnotation)
-* [Paragraphs and Line Breaks](#paragraphsandlinebreaks)
+* [Heading Notation](#heading-notation)
+* [Paragraphs and Line Breaks](#paragraphs-and-line-breaks)
 * [Links](#links)
 * [Images](#images)
-* [Block Quotes](#blockquotes)
+* [Block Quotes](#block-quotes)
 * [Lists](#lists)
 * [Emphasis](#emphasis)
-* [Code Blocks](#codeblocks)
-* [Backslash Escapes](#backslashescapes)
+* [Code Blocks](#code-blocks)
+* [Backslash Escapes](#backslash-escapes)
 
 ### Heading Notation {#heading-notation}
 

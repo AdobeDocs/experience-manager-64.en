@@ -3,11 +3,11 @@ title: Quickstart for AEM Screens
 seo-title: Quickstart for AEM Screens
 description: null
 seo-description: null
-uuid: 7dcd273b-941d-42bb-bd44-fbdd11996085
+uuid: de55cc26-6199-46cf-a251-3a21152cf830
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SITES
-discoiquuid: ac622ff9-4443-45a4-b9aa-c4bc60b2ddd5
+discoiquuid: 353777c0-7c27-4d43-abdd-b7cbac96e6d5
 index: y
 internal: n
 snippet: y
@@ -200,7 +200,7 @@ For in-depth understanding for all the modules for Screens, see the resources be
 
 1. [Installing and Configuring Screens](../../../sites/deploying/using/configuring-screens-introduction.md)
 1. [Screens Project Creation](../../../sites/authoring/using/creating-a-screens-project.md)
-1. [Device Assignment](/content/docs/en/aem/6-3/administer/administering-screens/managing-devices/device-assignment)
+1. [Device Assignment](/content/docs/en/aem/6-3/administer/administering-screens/managing-devices/device-assignment.md)
 1. Application Management
 1. Channel Management
 1. Device Management

@@ -3,12 +3,12 @@ title: Site Templates
 seo-title: Site Templates
 description: How to access the Site Templates console
 seo-description: How to access the Site Templates console
-uuid: 2db488d4-b230-4e77-a72a-c8db4c1d7252
+uuid: 2fd6f658-46c6-493c-9739-38a4a1327027
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 2f91e83d-0501-470f-9cfc-93d587d00d07
+discoiquuid: 48be14a1-d8ed-46f6-8c73-93de33238089
 index: y
 internal: n
 snippet: y
@@ -75,7 +75,7 @@ The page function provides an empty page. The groups function provides the abili
 >
 >The groups function must *not *be the *first nor the only* function in the site structure.
 >
->Any other function, such as the [page function](../../communities/using/functions.md#pagefunction), must be included and listed first.
+>Any other function, such as the [page function](../../communities/using/functions.md#page-function), must be included and listed first.
 
 ![](assets/chlimage_1-22.png)
 
@@ -95,6 +95,6 @@ By selecting two or more community group templates, a choice is provided to the 
 
 ## Edit Site Template {#edit-site-template}
 
-When viewing site templates in the main [Site Templates console](#sitetemplatesconsole), it is possible to select an existing site template for edit.
+When viewing site templates in the main [Site Templates console](#site-templates-console), it is possible to select an existing site template for edit.
 
-This process provides the same panels as [creating a site template](#createsitetemplate).
+This process provides the same panels as [creating a site template](#create-site-template).

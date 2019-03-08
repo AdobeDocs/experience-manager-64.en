@@ -3,13 +3,13 @@ title: Creating PDF Documents with SubmittedXML Data
 seo-title: Creating PDF Documents with SubmittedXML Data
 description: null
 seo-description: null
-uuid: 104d808c-f929-4082-9257-5f8d3fc3fb31
+uuid: eadc79ed-8fde-4c06-8d44-3109dd96f779
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/rendering_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: 93384320-6420-4f2d-9a95-9cc1a2851c02
+discoiquuid: dd8e6b1c-993a-48b4-8e1d-dacad798de59
 index: y
 internal: n
 snippet: y
@@ -23,7 +23,7 @@ Web-based applications that enable users to fill interactive forms require the d
 
 >[!NOTE]
 >
->Before you read this content, it is recommended that you have a solid understanding of handling submitted forms. Concepts such as the relationship between a form design and submitted XML data are covered in [Handling Submitted Forms](/programming-with-aem-forms/rendering-forms-rendering-forms handling-submitted-forms-handling-submitted#handling_submitted_forms).
+>Before you read this content, it is recommended that you have a solid understanding of handling submitted forms. Concepts such as the relationship between a form design and submitted XML data are covered in [Handling Submitted Forms](/programming-with-aem-forms/rendering-forms-rendering-forms handling-submitted-forms-handling-submitted.md#handling_submitted_forms).
 
 Consider the following workflow that involves three AEM Forms services:
 
@@ -72,7 +72,7 @@ Use the Document Management service API to store a PDF document in Content Servi
 
 **See also**
 
-[Create a PDF Document with submitted XML data using the Java API](/programming-with-aem-forms/rendering-forms-rendering-forms creating-pdf-documents-submitted-xml creating-pdf-documents-submitted-xml#create_a_pdf_document_with_submitted_xml_data_using_the_java_api)
+[Create a PDF Document with submitted XML data using the Java API](/programming-with-aem-forms/rendering-forms-rendering-forms creating-pdf-documents-submitted-xml creating-pdf-documents-submitted-xml.md#create_a_pdf_document_with_submitted_xml_data_using_the_java_api)
 
 [Including AEM Forms Java library files](#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
 
@@ -80,7 +80,7 @@ Use the Document Management service API to store a PDF document in Content Servi
 
 [Forms Service API Quick Starts](#unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7af6.2)
 
-[Creating PDF Documents](/programming-with-aem-forms/creating-document-output-streams-creating creating-document-output-streams-creating#creating_pdf_documents)
+[Creating PDF Documents](/programming-with-aem-forms/creating-document-output-streams-creating creating-document-output-streams-creating.md#creating_pdf_documents)
 
 [Adding Content to Content Services (deprecated)](#unresolvedlink-lc-cs-api-add-content-ac.xml#ws624e3cba99b79e12e69a9941333732bac8-7ffd.2)
 
@@ -149,7 +149,7 @@ Create a PDF document with submitted XML data by using the Forms, Output, and Do
 
 **See also**
 
-[Creating PDF Documents with Submitted XML Data](/programming-with-aem-forms/rendering-forms-rendering-forms creating-pdf-documents-submitted-xml#creating_pdf_documents_with_submitted_xml_data)
+[Creating PDF Documents with Submitted XML Data](/programming-with-aem-forms/rendering-forms-rendering-forms creating-pdf-documents-submitted-xml.md#creating_pdf_documents_with_submitted_xml_data)
 
 [Quick Start (EJB mode): Creating PDF Documents with submitted XML data using the Java API](#unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd2.2)
 

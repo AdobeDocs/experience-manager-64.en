@@ -3,12 +3,12 @@ title: Authoring - the Environment and Tools
 seo-title: Authoring - the Environment and Tools
 description: The Websites console allows you to manage and navigate your website. Using two panes, the structure of your website can be expanded and actions taken on the required elements.
 seo-description: The Websites console allows you to manage and navigate your website. Using two panes, the structure of your website can be expanded and actions taken on the required elements.
-uuid: cfed24b2-4224-45ee-85ba-f5ea1543415d
+uuid: 4c171352-9fc0-4dfb-a98e-429bbfb4c40f
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: 8357fd0a-5b8c-4af6-815a-d9516a3baa49
+discoiquuid: ab39856a-1bef-4cb0-8f6e-523cb0ee77b0
 index: y
 internal: n
 snippet: y
@@ -60,17 +60,17 @@ The Content Finder is a quick and easy way to find assets and/or content within 
 
 You can use the content finder to locate a range of resources. Where appropriate you can drag an item and drop it into a paragraph on your page:
 
-* [Images](#findingimages)
-* [Documents](#findingdocuments)
-* [Movies](#findingmovies)
+* [Images](#finding-images)
+* [Documents](#finding-documents)
+* [Movies](#finding-movies)
 * [Scene 7 Media Browser](../../../sites/administering/using/scene7.md#scene7contentbrowser)
 * [](#products) [Pages](../../../sites/classic-ui-authoring/using/classic-page-author-env-tools.md#finding-pages)  
 
-* [Paragraphs](#referencingparagraphsfromotherpages)
+* [Paragraphs](#referencing-paragraphs-from-other-pages)
 * [Products](../../../sites/classic-ui-authoring/using/classic-page-author-env-tools.md#products)
-* Or to [browse the website by repository structure](#thecontentfinder)
+* Or to [browse the website by repository structure](#the-content-finder)
 
-With all options you can [search for specific items](#thecontentfinder).
+With all options you can [search for specific items](#the-content-finder).
 
 ### Finding Images {#finding-images}
 
@@ -153,7 +153,7 @@ the following search patterns will find it (and any other images matching the pa
 
 >[!NOTE]
 >
->You can also use [SQL2](/sites/developing/using/reference-materials/javadoc/org/apache/jackrabbit/commons/query/sql2/package-summary) search.
+>You can also use [SQL2](/sites/developing/using/reference-materials/javadoc/org/apache/jackrabbit/commons/query/sql2/package-summary.md) search.
 
 ## Showing References {#showing-references}
 

@@ -3,9 +3,9 @@ title: What's New in AEM 6.4 Communities
 seo-title: What's New in AEM 6.4 Communities
 description: null
 seo-description: null
-uuid: 5fc47ba3-a887-443f-b7e0-414db9c8737e
+uuid: ad361fd9-3d6e-4c31-b30f-1f8ba654e1c7
 contentOwner: mgulati
-discoiquuid: 1162f995-dc07-45ea-a05e-c67939ddf0d8
+discoiquuid: 61b47a5b-b061-40f1-af9a-7141dce485a0
 index: y
 internal: n
 snippet: y

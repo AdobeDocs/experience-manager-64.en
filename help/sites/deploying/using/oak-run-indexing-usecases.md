@@ -3,11 +3,11 @@ title: Oak-run.jar Indexing Use Cases
 seo-title: Oak-run.jar Indexing Use Cases
 description: Learn about the various user cases for performing indexing with the Oak-run tool.
 seo-description: Learn about the various user cases for performing indexing with the Oak-run tool.
-uuid: 1af64112-cfaa-49e2-af4d-9b9116991330
+uuid: 84442e54-8852-4d19-a44c-b1bd1433c59c
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
-discoiquuid: 825c6e72-ddf0-45e6-9fc6-c5be86238f8a
+discoiquuid: 846f161c-4945-405b-be81-904f0e26c4cc
 noindex: true
 index: y
 internal: n

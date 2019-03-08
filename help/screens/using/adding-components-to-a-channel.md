@@ -3,12 +3,12 @@ title: Adding Components to a Channel
 seo-title: Adding Components to a Channel
 description: Follow this page to learn more about adding components to channels in an AEM Screens project.
 seo-description: Follow this page to learn more about adding components to channels in an AEM Screens project.
-uuid: 6098fd87-9fe4-461d-9916-f915df786253
+uuid: 2c25f8e8-ca73-4de4-a6e6-bacf53c6b984
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: authoring
-discoiquuid: 98aad28b-592b-40f9-84db-eff6de830de2
+discoiquuid: cdc4f03c-41bd-4faa-8d5c-0aa4fe6698fa
 index: y
 internal: n
 snippet: y

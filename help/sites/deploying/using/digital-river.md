@@ -3,12 +3,12 @@ title: Digital River
 seo-title: Digital River
 description: Learn how to install eCommenrce with Digital River.
 seo-description: Learn how to install eCommenrce with Digital River.
-uuid: 4969b217-ab5e-4769-927e-92e73b475524
+uuid: b2bce20b-c7b0-4b1e-b582-444e97f138f7
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: e-commerce
 content-type: reference
-discoiquuid: 0d75d06b-3c12-4a1c-8636-515b6b703045
+discoiquuid: 3c7251d8-f1a8-4393-a1eb-486bd0e79259
 pagetitle: Deploying eCommerce with Digital River
 index: y
 internal: n

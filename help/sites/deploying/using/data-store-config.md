@@ -3,12 +3,12 @@ title: Configuring node stores and data stores in AEM 6
 seo-title: Configuring node stores and data stores in AEM 6
 description: Learn how to configure node stores and data stores and how to perform data store garbage collection.
 seo-description: Learn how to configure node stores and data stores and how to perform data store garbage collection.
-uuid: cc28d2b0-8ae3-4cf6-8e22-24f6b402898c
+uuid: 302a0503-b8c9-49de-bb3c-90ccfb50bf72
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
-discoiquuid: 49184b1b-0ee8-4694-bd01-63cae3bdae3d
+discoiquuid: 5ba2596d-e168-4c09-8d26-4cd4b659b88a
 legacypath: /deploy/platform/data-store-config
 index: y
 internal: n
@@ -38,7 +38,7 @@ To configure both the node store and the data store, perform these steps:
 
    >[!NOTE]
    >
-   >See [Node Store Configurations](#nodestoreconfigurations) and [Data Store Configurations](#datastoreconfigurations) for configuration options.
+   >See [Node Store Configurations](#node-store-configurations) and [Data Store Configurations](#data-store-configurations) for configuration options.
 
 1. Start AEM.
 

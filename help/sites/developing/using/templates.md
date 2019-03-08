@@ -3,12 +3,12 @@ title: Templates
 seo-title: Templates
 description: Templates are used when creating a page which will be used as the base for the new page
 seo-description: Templates are used when creating a page which will be used as the base for the new page
-uuid: b469a679-7fc9-40b2-8b2f-ff0238554cbe
+uuid: 5dde7b24-2318-41d3-9241-6062b52c5288
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
-discoiquuid: 60f2928c-ac72-47c5-a6ab-71c339423d25
+discoiquuid: 937f390e-a711-4f65-beda-47f539d840f0
 legacypath: /content/docs/en/aem/6-1/develop/the-basics/templates
 index: y
 internal: n
@@ -19,9 +19,9 @@ snippet: y
 
 Templates are used at various points in AEM:
 
-* When [creating a page you need to select a template](#templatespages); this will be used as the base for the new page. The template defines the structure of the resultant page, any initial content and the [components](../../../sites/authoring/using/default-components.md) that can be used (design properties).
+* When [creating a page you need to select a template](#templates-pages); this will be used as the base for the new page. The template defines the structure of the resultant page, any initial content and the [components](../../../sites/authoring/using/default-components.md) that can be used (design properties).
 
-* When [creating a Content Fragment you also need to select a template](#templatescontentfragments). This template defines the structure, initial elements and variations.
+* When [creating a Content Fragment you also need to select a template](#templates-content-fragments). This template defines the structure, initial elements and variations.
 
 The following templates are covered in detail:
 
@@ -36,7 +36,7 @@ AEM now offers two basic types of templates for creating pages:
 
 >[!NOTE]
 >
->When using a template to [create a new page](../../../sites/authoring/using/managing-pages.md#creatinganewpage) there is no visible difference (to the page author) and no indication of the type of template being used.
+>When using a template to [create a new page](../../../sites/authoring/using/managing-pages.md#creating-a-new-page) there is no visible difference (to the page author) and no indication of the type of template being used.
 
 ### Editable Templates {#editable-templates}
 

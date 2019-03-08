@@ -3,12 +3,12 @@ title: Troubleshooting Slow Queries
 seo-title: Troubleshooting Slow Queries
 description: null
 seo-description: null
-uuid: ecbbc73d-8ac4-43ae-8076-79ed6603adf1
+uuid: 63c8a0fa-377c-49e1-b220-707534a0754e
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
-discoiquuid: d96c07bf-3520-419a-b64a-92c1975cbc15
+discoiquuid: 99adac53-edab-43b3-9fd2-7f89379e3b81
 index: y
 internal: n
 snippet: y
@@ -57,7 +57,7 @@ Explain **all** queries and ensure their query plans do not contain the **/&#42;
     * `*INFO* org.apache.jackrabbit.oak.query.QueryImpl Traversal query (query without index) ... ; consider creating and index`
     * This message is only logged if no index is available, and if the query potentially traverses many nodes. Messages are not logged if an index is available, but amount to traversing is small, and thus fast.
 
-* Visit the AEM [Query Performance](../../../sites/administering/using/operations-dashboard.md#queryperformance) operations console and [Explain](../../../sites/administering/using/operations-dashboard.md#explainquery) slow queries looking for traversal or no index query explanations.
+* Visit the AEM [Query Performance](../../../sites/administering/using/operations-dashboard.md#query-performance) operations console and [Explain](../../../sites/administering/using/operations-dashboard.md#explain-query) slow queries looking for traversal or no index query explanations.
 
 ### Detecting Poorly Restricted Queries {#detecting-poorly-restricted-queries}
 
@@ -136,7 +136,7 @@ A useful way to identify if the Lucene index is returning a lot of results to re
 
     * `*WARN* org.apache.jackrabbit.oak.spi.query.Cursors$TraversingCursor Traversed ### nodes ... consider creating an index or changing the query`
 
-* Visit the AEM [Query Performance](../../../sites/administering/using/operations-dashboard.md#queryperformance) operations console and [Explain](../../../sites/administering/using/operations-dashboard.md#explainquery) slow queries looking for query plans that do not resolve query property restrictions to index property rules.
+* Visit the AEM [Query Performance](../../../sites/administering/using/operations-dashboard.md#query-performance) operations console and [Explain](../../../sites/administering/using/operations-dashboard.md#explain-query) slow queries looking for query plans that do not resolve query property restrictions to index property rules.
 
 ### Detecting Large Result Set Queries {#detecting-large-result-set-queries}
 
@@ -319,7 +319,7 @@ The following example uses Query Builder as it's the most common query language 
 
 1. ***This adjustment is Query Builder specific, and does not apply to JCR-SQL2 or XPath.***
 
-   Use [Query Builder' guessTotal](../../../sites/developing/using/querybuilder-api.md#usingpguesstotaltoreturntheresults) when the full set of results is **not **immediately needed.
+   Use [Query Builder' guessTotal](../../../sites/developing/using/querybuilder-api.md#using-p-guesstotal-to-return-the-results) when the full set of results is **not **immediately needed.
 
     * **Unoptimized query**
 
@@ -458,19 +458,19 @@ Therefore, ensure an indexes satisfy queries, except if the combination of path 
     * A WebUI for executing XPath and JCR-SQL2 queries.
     * Located on AEM at [/crx/de/index.jsp](http://localhost:4502/crx/de/index.jsp) &gt; Tools &gt; Query...
 
-* ** [Explain Query](../../../sites/administering/using/operations-dashboard.md#explainquery)**
+* ** [Explain Query](../../../sites/administering/using/operations-dashboard.md#explain-query)**
 
     * An AEM Operations dashboard that provides a detailed explanation (Query plan, query time, and # of results) for any given XPATH or JCR-SQL2 query.
 
-* ** [Slow/Popular Queries](../../../sites/administering/using/operations-dashboard.md#queryperformance)**
+* ** [Slow/Popular Queries](../../../sites/administering/using/operations-dashboard.md#query-performance)**
 
     * An AEM Operations dashboard listing the recent slow and popular queries executed on AEM.
 
-* ** [Index Manager](../../../sites/administering/using/operations-dashboard.md#theindexmanager)**
+* ** [Index Manager](../../../sites/administering/using/operations-dashboard.md#the-index-manager)**
 
     * An AEM Operations WebUI displaying the indexes on the AEM instance; facilitates understanding what indexes already exist, can be targeted or augmented.
 
-* ** [Logging](../../../sites/administering/using/operations-dashboard.md#logmessages)**
+* ** [Logging](../../../sites/administering/using/operations-dashboard.md#log-messages)**
 
     * Query Builder logging
 

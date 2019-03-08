@@ -3,9 +3,9 @@ title: Configure the Automated Forms Conversion service
 seo-title: Configure the Automated Forms Conversion service
 description: Ready your AEM instance to use Automated Forms Conversion service
 seo-description: Ready your AEM instance to use Automated Forms Conversion service
-uuid: cb32bd6f-2126-47d1-aca9-6dc3aaa43226
+uuid: 3c5e6d7e-a896-47cb-8d98-5894718ba957
 contentOwner: khsingh
-discoiquuid: 8e8e2183-68d4-4ef6-bc92-7889b277fd03
+discoiquuid: efce6a1d-4489-48ce-be47-a557c4f8ee01
 index: y
 internal: n
 snippet: y
@@ -23,7 +23,7 @@ Before using the service, you connect your AEM Forms instance to the service run
 
 * [Download and install AEM Forms add-on package](../../../forms/using/installing-configuring-aem-forms-osgi.md)
 * [Download and install Conversion Manager package](../../../forms/using/wip/configure-the-automated-forms-conversion-service.md#download-and-install-conversion-manager-package)
-* [Configure email notifications](../../../forms/using/wip/configure-the-automated-forms-conversion-service.md#configureemailnotification)
+* [Configure email notifications](../../../forms/using/wip/configure-the-automated-forms-conversion-service.md#configure-email-notification)
 * [Configure the cloud service](../../../forms/using/wip/configure-the-automated-forms-conversion-service.md#configure-the-cloud-service)
 
 ## Download and install AEM Forms add-on package  {#download-and-install-aem-forms-add-on-package}

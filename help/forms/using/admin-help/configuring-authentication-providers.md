@@ -3,12 +3,12 @@ title: Configuring authentication providers
 seo-title: Configuring authentication providers
 description: Add, edit, or delete authentication providers, change authentication settings, and read about just-in-time provisioning of users.
 seo-description: Add, edit, or delete authentication providers, change authentication settings, and read about just-in-time provisioning of users.
-uuid: 5db5ca33-ed28-4395-bd67-328bced1417a
+uuid: 9214228c-faac-48c1-a9f3-15a0c8927960
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/setting_up_and_managing_domains
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 235841f8-31a3-49a0-89a2-bd692d61b0b1
+discoiquuid: 9280fa7f-b33d-44d4-b911-57ad8d985872
 index: y
 internal: n
 snippet: y
@@ -25,7 +25,7 @@ If you enable SSO using SPNEGO, add a Kerberos authentication provider with SPNE
 1. In administration console, click Settings &gt; User Management &gt; Domain Management.
 1. Click an existing domain in the list. If you are adding authentication for a new domain, see [Add an enterprise domain](../../../forms/using/admin-help/adding-domains.md#add-an-enterprise-domain) or [Add a hybrid domain](../../../forms/using/admin-help/adding-domains.md#add-a-hybrid-domain). 
 1. Click Add Authentication and, in the Authentication Provider list, select a provider, depending on the authentication mechanism your organization uses. 
-1. Provide any additional information required on the page. (See [Authentication settings](configuring-authentication-providers#authentication_settings).) 
+1. Provide any additional information required on the page. (See [Authentication settings](configuring-authentication-providers.md#authentication_settings).) 
 1. (Optional) Click Test to test the configuration.
 1. Click OK and then click OK again.
 
@@ -33,7 +33,7 @@ If you enable SSO using SPNEGO, add a Kerberos authentication provider with SPNE
 
 1. In administration console, click Settings &gt; User Management &gt; Domain Management.
 1. Click the appropriate domain in the list.
-1. On the page that appears, select the appropriate authentication provider from the list and make changes as required. (See [Authentication settings](configuring-authentication-providers#authentication_settings).)
+1. On the page that appears, select the appropriate authentication provider from the list and make changes as required. (See [Authentication settings](configuring-authentication-providers.md#authentication_settings).)
 1. Click OK.
 
 ## Delete an authentication provider {#delete-an-authentication-provider}
@@ -154,6 +154,6 @@ Without just-in-time provisioning, when a user is successfully authenticated but
 
    ***note**: If the Enable Just In Time Provisioning checkbox is missing, click Home &gt; Settings &gt; User Management&gt; Configuration &gt; Advanced System Attributes and then click Reload.*
 
-1. Add authentication providers. While adding authentication providers, on the New Authentication screen, select a registered Identity Creator and Assignment Provider. (See [Configuring authentication providers](configuring-authentication-providers#configuring_authentication_providers).)
+1. Add authentication providers. While adding authentication providers, on the New Authentication screen, select a registered Identity Creator and Assignment Provider. (See [Configuring authentication providers](configuring-authentication-providers.md#configuring_authentication_providers).)
 1. Save the domain.
 

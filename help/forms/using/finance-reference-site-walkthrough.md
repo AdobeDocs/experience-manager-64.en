@@ -3,11 +3,11 @@ title: We.Finance reference site walkthrough
 seo-title: We.Finance reference site walkthrough
 description: Explore the We.Finance reference site and understand how it has been implemented. We.Finance is a sample implementation to showcase key features and functionalities of AEM Forms. 
 seo-description: Explore the We.Finance reference site and understand how it has been implemented. We.Finance is a sample implementation to showcase key features and functionalities of AEM Forms. 
-uuid: 7408202d-738d-4c91-a69a-753f07167d02
+uuid: a76cb6fc-ae6c-481b-be77-a68626176f2b
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: introduction
-discoiquuid: 742079f8-17b0-4dd1-891b-d7abbc184f4f
+discoiquuid: ea954172-e1b6-4da5-8b66-9bed43e2b643
 index: y
 internal: n
 snippet: y
@@ -27,10 +27,10 @@ Their goal is to reach out to existing and prospective customers on their prefer
 
 Read on for detailed walkthroughs of We.Finance use cases and understand how AEM Forms helps financial organizations achieve their objectives. The following walkthroughs are covered:
 
-* [Credit card application walkthrough](#creditcardapplicationwalkthrough)
-* [Home mortgage application walkthrough](#homemortgageapplicationwalkthrough)
-* [Home Mortgage application walkthrough with Microsoft Dynamics](#homemortgageapplicationwalkthroughwithmicrosoftdynamics)
-* [Home insurance application walkthrough](#homeinsuranceapplicationwalkthrough)
+* [Credit card application walkthrough](#credit-card-application-walkthrough)
+* [Home mortgage application walkthrough](#home-mortgage-application-walkthrough)
+* [Home Mortgage application walkthrough with Microsoft Dynamics](#home-mortgage-application-walkthrough-with-microsoft-dynamics)
+* [Home insurance application walkthrough](#home-insurance-application-walkthrough)
 * [Wealth management walkthrough](#wealthmanagementwalkthrough)
 * [Auto insurance application walkthrough](#autoinsuranceapplicationwalkthrough)
 

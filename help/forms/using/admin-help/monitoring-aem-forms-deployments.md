@@ -3,12 +3,12 @@ title: Monitoring AEM forms deployments
 seo-title: Monitoring AEM forms deployments
 description: You can monitor AEM forms deployments from both a system level and an internal level. Learn more about monitoring AEM forms deployments from this document.
 seo-description: You can monitor AEM forms deployments from both a system level and an internal level. Learn more about monitoring AEM forms deployments from this document.
-uuid: e4d77ca7-7070-4c28-80f5-35fc60fbd68a
+uuid: 9d61d440-6d8b-48f7-93ee-9e203e941070
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/maintaining_aem_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 92a997a8-f033-442c-a52d-9c1208f6de71
+discoiquuid: bed1db3b-8e30-4731-b853-71c959488c72
 index: y
 internal: n
 snippet: y

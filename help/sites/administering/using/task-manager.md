@@ -4,12 +4,12 @@ seo-title: Track Content Changes Using Task Management
 description: Learn how to track content changes using Task Management.
 seo-description: Learn how to track content changes using Task Management.
 page-status-flag: de-activated
-uuid: 20cc782f-8481-4c19-8653-893f70e2ea38
+uuid: c5dc7ebe-a581-4be5-acb6-259a71308138
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: content
 content-type: reference
-discoiquuid: 3375a06d-b6d1-456c-881c-873077c416e4
+discoiquuid: 1c514487-db69-4c1a-ae66-c52878c5a6b8
 index: y
 internal: n
 snippet: y
@@ -69,7 +69,7 @@ Tasks can have a status of Created or Completed:
 
 Create a heirarchy of tasks to represent task dependencies. Add a task as the child of another task to indicate that the parent depends on the child. The task tree provides a visual representation of task dependency. Dependencies are not enforced, so that parent tasks can be completed before child tasks are completed.
 
-**Note:** If you are archiving tasks, do not complete parent tasks until all subtasks are complete. See [Archiving Tasks](#archivingtasks).
+**Note:** If you are archiving tasks, do not complete parent tasks until all subtasks are complete. See [Archiving Tasks](#archiving-tasks).
 
 Select the parent folder of the task to see the details in the right-hand panel.
 

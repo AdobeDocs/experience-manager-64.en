@@ -3,12 +3,12 @@ title: Upgrading Code and Customizations
 seo-title: Upgrading Code and Customizations
 description: Learn more about upgrading custom code in AEM.
 seo-description: Learn more about upgrading custom code in AEM.
-uuid: bc45c031-4ba8-454c-ae2f-66e5e04b0b05
+uuid: fd5e5368-05c7-4cd6-bcb1-968dced07ef2
 contentOwner: sarchiz
 topic-tags: upgrading
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
-discoiquuid: 8b37d0b6-7d48-487c-ab67-fa70c9d5f999
+discoiquuid: 58df3454-90cb-4bbd-bf20-3cd9b6f7eb0f
 targetaudience: target-audience upgrader
 index: y
 internal: n
@@ -74,7 +74,7 @@ Several tools for tools for analyzing and inspecting query performance are avail
 
 * [AEM Index Tools](../../../sites/deploying/using/queries-and-indexing.md)  
 
-* [Operations Diagnosis Tools - Query Performance](../../../sites/administering/using/operations-dashboard.md#diagnosistools)  
+* [Operations Diagnosis Tools - Query Performance](../../../sites/administering/using/operations-dashboard.md#diagnosis-tools)  
 
 * [Oak Utils](https://oakutils.appspot.com/). This is an open source tool that is not maintained by Adobe.
 

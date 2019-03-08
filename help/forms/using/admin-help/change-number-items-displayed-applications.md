@@ -3,12 +3,12 @@ title: Change the number of items displayed on the Applications and Services pag
 seo-title: Change the number of items displayed on the Applications and Services pages
 description: Learn how to change the number of items displayed on the Applications and Services pages.
 seo-description: Learn how to change the number of items displayed on the Applications and Services pages.
-uuid: a5b47b1d-824a-48b6-988f-21b11c733f23
+uuid: b3d8483e-7ddc-468f-8e99-9458907d0a5c
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/importing_and_managing_applications_and_archives
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 5f2537e2-bce3-4d13-ad75-b15c46daf676
+discoiquuid: 6b057a45-df27-4a44-a629-4c0ae233df88
 index: y
 internal: n
 snippet: y

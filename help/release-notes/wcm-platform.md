@@ -3,12 +3,12 @@ title: AEM Foundation & Repository
 seo-title: AEM Foundation & Repository
 description: Release notes specific to Adobe Experience Manager 6.3 AEM Platform and Repository.
 seo-description: Release notes specific to Adobe Experience Manager 6.3 AEM Platform and Repository.
-uuid: a59a0d97-0251-428f-9696-cd87c4b9c279
+uuid: 2d73a0aa-d525-419d-95e8-892e9fb4829e
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4
 topic-tags: release-notes
 content-type: reference
-discoiquuid: aa39a265-4378-485f-ae3a-edfb2ab85d89
+discoiquuid: 26ba5385-1746-41a5-951d-09fd06317e25
 index: y
 internal: n
 snippet: y
@@ -36,7 +36,7 @@ snippet: y
 
 >[!CAUTION]
 >
->* The new version of the Oak Segment Tar present since AEM 6.3 requires a repository migration. This step is mandatory if you are upgrading from an older version of TarMK or want to switch the new Segment Tar from another type of persistence. For more information on what the benefits of the new Segment Tar are, see the [Migrating to Oak Segment Tar FAQ](../sites/deploying/using/revision-cleanup.md#migratingtooaksegmenttar).
+>* The new version of the Oak Segment Tar present since AEM 6.3 requires a repository migration. This step is mandatory if you are upgrading from an older version of TarMK or want to switch the new Segment Tar from another type of persistence. For more information on what the benefits of the new Segment Tar are, see the [Migrating to Oak Segment Tar FAQ](../sites/deploying/using/revision-cleanup.md#migrating-to-oak-segment-tar).
 >
 
 ### Search &amp; Indexing {#search-amp-indexing}

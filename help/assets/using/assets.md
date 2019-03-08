@@ -3,12 +3,12 @@ title: Administering Assets
 seo-title: Administering Assets
 description: Learn about the activities typically performed by an AEM Assets administrator.
 seo-description: Learn about the activities typically performed by an AEM Assets administrator.
-uuid: 8c776155-47a5-43bf-a56b-94664aeb68e5
+uuid: 721d81df-fb56-4ab6-8425-fd8354f1980f
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: 7cf4a754-aff6-49c2-934c-ee243cd728a0
+discoiquuid: b01fdb76-4e12-4201-95bc-fe2f89c439c7
 index: y
 internal: n
 snippet: y
@@ -24,7 +24,7 @@ The following activities are those that you typically perform as a digital asset
 * [Assets Supported Formats](../../assets/using/assets-formats.md)
 * [Integrating AEM Assets with InDesign Server](../../assets/using/indesign.md)
 * [Managing Metadata for Digital Assets](../../assets/using/metadata.md)
-* [Search Facets](/assets/using/custom-search-facets)
+* [Search Facets](/assets/using/custom-search-facets.md)
 * [Camera Raw Support](../../assets/using/camera-raw.md)
 * [Metadata Schemas](../../assets/using/metadata-schemas.md)
 * [Profiles for Processing Metadata, Images, and Videos](../../assets/using/processing-profiles.md)
@@ -44,7 +44,7 @@ The following activities are those that you typically perform as a digital asset
 
 For supported file formats, see [Assets Supported Formats](../../assets/using/assets-formats.md).
 
-For information about extending CQ DAM, see [Customizing and Extending CQ DAM](../../assets/using/extending-assets.md). To learn how authors add assets to web pages, see [Working with Assets](/assets/using/author-assets).
+For information about extending CQ DAM, see [Customizing and Extending CQ DAM](../../assets/using/extending-assets.md). To learn how authors add assets to web pages, see [Working with Assets](/assets/using/author-assets.md).
 
 ## What is Digital Asset Management? {#what-is-digital-asset-management}
 

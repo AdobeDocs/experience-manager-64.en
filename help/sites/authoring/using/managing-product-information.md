@@ -3,12 +3,12 @@ title: Creative Project and PIM Integration
 seo-title: Creative Project and PIM Integration
 description: Creative Project streamlines the entire photo shoot workflow that including generating a photo shoot request, uploading a photo shoot, collaborating on a photo shoot, and packaging approved assets
 seo-description: Creative Project streamlines the entire photo shoot workflow that including generating a photo shoot request, uploading a photo shoot, collaborating on a photo shoot, and packaging approved assets
-uuid: eb0cd1b6-36d5-42a9-ba28-4187ccc35ad0
+uuid: fd2c4790-ffd5-4a9d-ae2f-dd1f53a56954
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: projects
 content-type: reference
-discoiquuid: 44d76786-5285-4196-a9c9-cd79c03d7bf0
+discoiquuid: 18893755-7b67-4636-a999-6895739b5185
 index: y
 internal: n
 snippet: y
@@ -27,7 +27,7 @@ In particular, you can use Creative Project to streamline the following tasks in
 
 >[!NOTE]
 >
->See [Project User Roles for information](../../../sites/authoring/using/projects.md#userrolesinaproject) on assigning user roles and workflows to certain types of users.
+>See [Project User Roles for information](../../../sites/authoring/using/projects.md#user-roles-in-a-project) on assigning user roles and workflows to certain types of users.
 
 ### Exploring Product Photo Shoot workflows  {#exploring-product-photo-shoot-workflows}
 
@@ -264,7 +264,7 @@ The name of images to be uploaded should begin with "**&lt;productId&gt;_" **whe
 
 You can either upload the images directly or upload a ZIP file that contains the images. Based on their names, the images are placed inside respective product folders within the **Photo Shoot **folder.
 
-1. Under the project folder, tap/click the ellipses in the [Task Card](#trackingprojectprogress) to view the task item in the workflow.
+1. Under the project folder, tap/click the ellipses in the [Task Card](#tracking-project-progress) to view the task item in the workflow.
 1. Select the **Upload Photo Shoot** task, and then tap/click the **Open** icon from the toolbar.
 
    ![](assets/chlimage_1-153.png)
@@ -276,7 +276,7 @@ You can either upload the images directly or upload a ZIP file that contains the
 
 If you have editing rights, perform the Retouch Photo Shoot task to edit the images uploaded to the Photo Shoot folder.
 
-1. Under the project folder, tap/click the ellipses in the [Task Card](#trackingprojectprogress) to view the task item in the workflow.
+1. Under the project folder, tap/click the ellipses in the [Task Card](#tracking-project-progress) to view the task item in the workflow.
 1. Select the **Retouch Photo Shoot** task, and then tap/click the **Open** icon from the toolbar.
 
    ![](assets/chlimage_1-154.png)
@@ -295,7 +295,7 @@ If you have editing rights, perform the Retouch Photo Shoot task to edit the ima
 
 In this task, you review the photo shoot images uploaded by a photographer and mark images as approved for use.
 
-1. Under the project folder, tap/click the ellipses in the [Task Card](#trackingprojectprogress) to view the task item in the workflow.
+1. Under the project folder, tap/click the ellipses in the [Task Card](#tracking-project-progress) to view the task item in the workflow.
 1. Select the **Review & Approve** task, and then tap/click the **Open** icon from the toolbar.
 
    ![](assets/chlimage_1-157.png)
@@ -330,7 +330,7 @@ Creative Project associates approved assets with the referenced product. The ass
 
 This task moves the approved assets to the production-ready folder to make them available for use.
 
-1. Under the project folder, tap/click the ellipses in the [Task Card](#trackingprojectprogress) to view the task item in the workflow.
+1. Under the project folder, tap/click the ellipses in the [Task Card](#tracking-project-progress) to view the task item in the workflow.
 1. Select the **Move to Production** task, and then tap/click the **Open** icon from the toolbar.
 
    ![](assets/chlimage_1-160.png)
@@ -349,7 +349,7 @@ This task moves the approved assets to the production-ready folder to make them 
 
 ### Viewing DAM Asset Metadata {#viewing-dam-asset-metadata}
 
-After you approve, the assets are linked to the corresponding products. The [Properties Page](../../../assets/using/managing-assets-touch-ui.md#editingproperties) of the approved assets now has an additional **Product Data **(linked product information) tab. This tab displays the product details, SKU number, and other product-related details linking the asset. Tap/click the **Edit** icon to update an asset property. The product-related information remains read-only.
+After you approve, the assets are linked to the corresponding products. The [Properties Page](../../../assets/using/managing-assets-touch-ui.md#editing-properties) of the approved assets now has an additional **Product Data **(linked product information) tab. This tab displays the product details, SKU number, and other product-related details linking the asset. Tap/click the **Edit** icon to update an asset property. The product-related information remains read-only.
 
 Tap/click the link that appears to navigate to the respective product detail page in the product console with which asset is associated.
 
@@ -412,7 +412,7 @@ You can customize the Project Photo Shoot workflows based on requirements. This 
 
    ![](assets/chlimage_1-167.png)
 
-1. A new Project owner acceptance task now comes up after the [Move to Production task](#movetoproductiontask) is completed and is assigned to the owner.
+1. A new Project owner acceptance task now comes up after the [Move to Production task](#move-to-production-task) is completed and is assigned to the owner.
 
    The user in the Owner role can complete the task and select an action (from the list of actions added in the workflow step configurations) from the list in the comments popup.
 

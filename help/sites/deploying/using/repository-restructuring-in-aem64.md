@@ -3,12 +3,12 @@ title: Repository Restructuring in AEM 6.4
 seo-title: Repository Restructuring in AEM 6.4
 description: Learn about the repository restructuring in AEM 6.4
 seo-description: Learn about the repository restructuring in AEM 6.4
-uuid: 28b3d88f-f971-4359-9a83-ea2d833bd1d5
+uuid: 0a70d4c6-0b1b-4bf4-898c-32d327ff05b8
 contentOwner: sarchiz
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: upgrading
-discoiquuid: a8bba256-04be-41c7-a416-3627f2082bbe
+discoiquuid: 66e4e22f-e051-4307-b310-816cfc6cbfc8
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/sites/deploying/using/repository-restructuring.html
 index: y
@@ -235,7 +235,7 @@ The table below includes an additional column named "Configuration Type" to expl
      <li>Still loaded on the page (if the given path is selected in <strong>Page Properties &gt; Personalization &gt; Segments Path</strong>).</li> 
      <li>Can be used for content targetting.</li> 
     </ul> </td> 
-   <td>You can use the <a href="/sites/deploying/using/upgrading-code-and-customizations.html?#MigrateConfigurations" target="_blank">Segments Migration Tool</a> to migrate to the new location.</td> 
+   <td>You can use the <a href="../../../sites/deploying/using/upgrading-code-and-customizations.md#migrateconfigurations" target="_blank">Segments Migration Tool</a> to migrate to the new location.</td> 
   </tr> 
   <tr> 
    <td>AEM Communities</td> 

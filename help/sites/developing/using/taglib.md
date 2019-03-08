@@ -3,12 +3,12 @@ title: Tag Libraries
 seo-title: Tag Libraries
 description: The Granite, CQ, and Sling tag libraries give you access to specific functions for use in the JSP script of your templates and components
 seo-description: The Granite, CQ, and Sling tag libraries give you access to specific functions for use in the JSP script of your templates and components
-uuid: 0d63c627-7b8f-4209-a0e9-8e76eed97520
+uuid: 11491812-0b32-47cd-af44-67cd9fddb558
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
-discoiquuid: edd44656-3499-49bd-8a59-42229586b80a
+discoiquuid: 707cc460-b2e5-40c0-8629-ec8cbe6342a9
 index: y
 internal: n
 snippet: y
@@ -36,7 +36,7 @@ The global also declares the [Sling library](../../../sites/developing/using/tag
 
 ### &amp;lt;ui:includeClientLib> {#amp-lt-ui-includeclientlib}
 
-The `<ui:includeClientLib>` tag Includes a AEM html client library, which can be a js, a css, or a theme library. For multiple inclusions of different types, for example js and css, this tag needs to be used multiple times in the jsp. This tag is a convenience wrapper around the ` [com.adobe.granite.ui.clientlibs.HtmlLibraryManager](/sites/developing/using/reference-materials/javadoc/com/adobe/granite/ui/clientlibs/HtmlLibraryManager)` service interface.
+The `<ui:includeClientLib>` tag Includes a AEM html client library, which can be a js, a css, or a theme library. For multiple inclusions of different types, for example js and css, this tag needs to be used multiple times in the jsp. This tag is a convenience wrapper around the ` [com.adobe.granite.ui.clientlibs.HtmlLibraryManager](/sites/developing/using/reference-materials/javadoc/com/adobe/granite/ui/clientlibs/HtmlLibraryManager.md)` service interface.
 
 It has the following attributes:
 

@@ -3,12 +3,12 @@ title: Multilingual Assets
 seo-title: Multilingual Assets
 description: Learn how to automate workflows for translating assets, including binaries, metadata, and tags into multiple languages.
 seo-description: Learn how to automate workflows for translating assets, including binaries, metadata, and tags into multiple languages.
-uuid: 6f666a0b-b126-4b7b-88dc-f35e336b5d7c
+uuid: af4ce8f0-eb0f-43b2-948e-dbf5c93cc9fd
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
 topic-tags: authoring
-discoiquuid: a1ae56eb-3d94-4161-b86a-c3cf507ef969
+discoiquuid: 4a09c1b4-4949-49d6-9968-063a98359d55
 index: y
 internal: n
 snippet: y
@@ -32,6 +32,6 @@ Translating assets includes the following:
 1. [Applying translation cloud services to folders](../../assets/using/transition-cloud-services.md)
 1. [Create translation projects](../../assets/using/translation-projects.md)
 
-If your translation service provider does not provide a connector to integrate with AEM, use an [alternative process](../../sites/administering/using/tc-manage.md#exportingatranslationjob).
+If your translation service provider does not provide a connector to integrate with AEM, use an [alternative process](../../sites/administering/using/tc-manage.md#exporting-a-translation-job).
 
 Also see, [Creating translation projects for content fragments](../../assets/using/creating-translation-projects-for-content-fragments.md).

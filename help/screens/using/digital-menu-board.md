@@ -4,9 +4,9 @@ seo-title: Setting up a Digital Menu Board
 description: null
 seo-description: null
 page-status-flag: never-activated
-uuid: 64aa19a5-cf8d-4404-8143-79f5cf69c1c7
+uuid: dd30a645-a7b4-4faf-bdd5-5b0a54b6bfbf
 contentOwner: jsyal
-discoiquuid: d88d4dd7-76c9-4cd0-8df2-7dc10f03a623
+discoiquuid: a6cbe8d6-a395-4ce4-abb1-2b62f6143c32
 index: y
 internal: n
 snippet: y

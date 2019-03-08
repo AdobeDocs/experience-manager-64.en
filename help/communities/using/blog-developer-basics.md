@@ -3,12 +3,12 @@ title: Blog Essentials
 seo-title: Blog Essentials
 description: Blog overview
 seo-description: Blog overview
-uuid: 7f5e9575-e6fc-4739-af00-5a5ac9985c85
+uuid: ac831071-46f0-43ed-8da7-c18021d154bb
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 2c7a74a2-40bb-4fcc-8678-febd68f37a87
+discoiquuid: d8cf684b-e751-40c5-aae9-6215ff045085
 index: y
 internal: n
 snippet: y
@@ -28,7 +28,7 @@ This page provides the essential information for working with the blog feature.
 
 ## Essentials for Client-Side {#essentials-for-client-side}
 
-The blog feature is comprised of two main components that are available by adding the [Blog function](../../communities/using/functions.md#blogfunction) or by adding the components to a page in author edit mode.
+The blog feature is comprised of two main components that are available by adding the [Blog function](../../communities/using/functions.md#blog-function) or by adding the components to a page in author edit mode.
 
 ### Blog {#blog}
 
@@ -39,7 +39,7 @@ The blog feature is comprised of two main components that are available by addin
    <td>social/journal/components/hbs/journal</td> 
   </tr>
   <tr>
-   <td> <a href="../../communities/using/scf.md#addorincludeacommunitiescomponent"><strong>includable</strong></a></td> 
+   <td> <a href="../../communities/using/scf.md#add-or-include-a-communities-component"><strong>includable</strong></a></td> 
    <td>No</td> 
   </tr>
   <tr>
@@ -65,7 +65,7 @@ The blog feature is comprised of two main components that are available by addin
 
 |  **resourceType** |social/journal/components/hbs/sidebar |
 |---|---|
-|  [**includable**](../../communities/using/scf.md#addorincludeacommunitiescomponent) |No |
+|  [**includable**](../../communities/using/scf.md#add-or-include-a-communities-component) |No |
 |  [**clientllibs**](../../communities/using/clientlibs.md) |cq.social.hbs.journal_sidebar |
 |  **templates** | /libs/social/journal/components/hbs/sidebar/sidebar.hbs |
 |  **css** | /libs/social/journal/components/hbs/sidebar/clientlibs/sidebar.css |
@@ -75,15 +75,15 @@ The blog feature is comprised of two main components that are available by addin
 
 ## Essentials for Server-Side {#essentials-for-server-side}
 
-* [Blog API](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/journal/client/api/package-summary)
+* [Blog API](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/journal/client/api/package-summary.md)
 
-* [Blog Endpoints](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/journal/client/endpoints/package-summary)
+* [Blog Endpoints](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/journal/client/endpoints/package-summary.md)
 
 * [Server-side Customizations](../../communities/using/server-customize.md)
 
 ### Blog Function {#blog-function}
 
-A community site structure that includes the [Bog function](../../communities/using/functions.md#blogfunction) will have configured `Blog` and `Blog Sidebar` components. The Blog function supports identifying a [privileged member user group](../../communities/using/users.md#privilegedmembersgroup).
+A community site structure that includes the [Bog function](../../communities/using/functions.md#blog-function) will have configured `Blog` and `Blog Sidebar` components. The Blog function supports identifying a [privileged member user group](../../communities/using/users.md#privileged-members-group).
 
 ### Accessing Blog Entries (UGC) {#accessing-blog-entries-ugc}
 
@@ -105,13 +105,13 @@ See :
 
 When the deployment is a publish farm, it is necessary to identify a primary publisher that will poll for articles scheduled to be published.
 
-See [Primary Publisher](../../communities/using/deploy-communities.md#primarypublisher) for more details.
+See [Primary Publisher](../../communities/using/deploy-communities.md#primary-publisher) for more details.
 
 ## Allowing Rich Media {#allowing-rich-media}
 
 The AEM platform blocks links from other websites to prevent XSS attacks as described in
 
-* [Protect against Cross-Site Scripting (XSS)](../../sites/developing/using/security.md#protectagainstcrosssitescriptingxss)
+* [Protect against Cross-Site Scripting (XSS)](../../sites/developing/using/security.md#protect-against-cross-site-scripting-xss)
 
 As of AEM 6.2, the modifications previously required to be made manually are included in the default AntiSamy config file.
 

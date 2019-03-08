@@ -3,12 +3,12 @@ title: About the uploading and processing of 3D assets in AEM
 seo-title: About the uploading and processing of 3D assets in AEM
 description: Best practices for uploading and processing 3D assets.
 seo-description: Best practices for uploading and processing 3D assets.
-uuid: 013e9b6f-058e-4d61-8c67-3837bb829420
+uuid: cff0894e-4a49-4d31-8948-176504f3bec7
 contentOwner: Rick Brough
 topic-tags: 3D
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-discoiquuid: 94461e84-62ef-443d-800e-830815f1444f
+discoiquuid: 8711ac0f-564c-49be-a20a-815d83352077
 index: y
 internal: n
 snippet: y
@@ -18,7 +18,7 @@ snippet: y
 
 Use standard upload or sync mechanisms to bring 3D assets and their associated referenced files into AEM Assets.
 
-See [Uploading Assets](../../assets/using/managing-assets-touch-ui.md#uploadingassets).
+See [Uploading Assets](../../assets/using/managing-assets-touch-ui.md#uploading-assets).
 
 Adobe recommends that you upload all referenced files before-or at the same time-you upload the primary 3D model file. However, this is not a requirement.
 

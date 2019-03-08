@@ -3,12 +3,12 @@ title: Messaging Feature
 seo-title: Messaging Feature
 description: Configuring Messaging components
 seo-description: Configuring Messaging components
-uuid: cfc262f3-0945-4fbe-9c1e-e827a07656d3
+uuid: 4338e196-b1b4-4e9c-a1ac-df0328e0c95b
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
-discoiquuid: d4001604-3695-4644-80d1-f9242ef58484
+discoiquuid: f945f4ae-f507-4cc7-b7b3-807765c25dd0
 index: y
 internal: n
 snippet: y
@@ -45,7 +45,7 @@ When messaging is enabled for a community site, it is completely setup with no f
 
 ### Configuring Message List (messagebox) {#configuring-message-list-messagebox}
 
-In order to modify the configuration of the list of messages for **Inbox**, **Sent Items**, and **Trash **pages of the messaging feature, open the site in [author edit mode](../../communities/using/sites-console.md#authoringsitecontent).
+In order to modify the configuration of the list of messages for **Inbox**, **Sent Items**, and **Trash **pages of the messaging feature, open the site in [author edit mode](../../communities/using/sites-console.md#authoring-site-content).
 
 In `Preview`mode, select the **Messages **link to open the main messaging page. Then select either **Inbox**, **Sent Items **or **Trash **in order to configure the component for that message list.
 
@@ -66,7 +66,7 @@ Once inheritance is canceled, it will be possible to select the `configure` icon
 ![](assets/chlimage_1-398.png)
 
 * **Service selector** 
-  (*Required*) Set this to the value of the property**`serviceSelector.name`** from the [AEM Communities Messaging Operations Service](../../communities/using/messaging.md#messagingoperationsservice).
+  (*Required*) Set this to the value of the property**`serviceSelector.name`** from the [AEM Communities Messaging Operations Service](../../communities/using/messaging.md#messaging-operations-service).
 
 * **Compose Page** 
   (*Required*) The page to open when a member clicks on the **`Reply`**button. The target page should contain the **Compose Message** form.
@@ -81,7 +81,7 @@ Once inheritance is canceled, it will be possible to select the `configure` icon
   If checked, this Message List component displays only messages flagged as deleted (trash).
 
 * **Folder Paths** 
-  (*Required*) Referencing the values set for **inbox.path.name** and **sentitems.path.name **in the [AEM Communities Messaging Operations Service](../../communities/using/messaging.md#messagingoperationsservice). When configuring for an `Inbox`, add one entry using the value of **inbox.path.name**. When configuring for an `Outbox`, add one entry using the value of **sentitems.path.name**. When configuring for `Trash`, add two entries with both values.
+  (*Required*) Referencing the values set for **inbox.path.name** and **sentitems.path.name **in the [AEM Communities Messaging Operations Service](../../communities/using/messaging.md#messaging-operations-service). When configuring for an `Inbox`, add one entry using the value of **inbox.path.name**. When configuring for an `Outbox`, add one entry using the value of **sentitems.path.name**. When configuring for `Trash`, add two entries with both values.
 
 #### Display tab {#display-tab}
 
@@ -110,7 +110,7 @@ Once inheritance is canceled, it will be possible to select the `configure` icon
 
 ### Configuring Compose Message {#configuring-compose-message}
 
-In order to modify the configuration of the compose message page, open the site in [author edit mode](../../communities/using/sites-console.md#authoringsitecontent).
+In order to modify the configuration of the compose message page, open the site in [author edit mode](../../communities/using/sites-console.md#authoring-site-content).
 
 In `Preview`mode, select the **Messages **link to open the main messaging page. Then select the New Message button to open the `Compose Message` page..
 
@@ -143,7 +143,7 @@ Once inheritance is canceled, it will be possible to select the `configure` icon
   The maximum number of characters allowed in the Content field. For example, 10000. Default is no limit.
 
 * **Service selector** 
-  (*Required*) Set this to the value of the property**`serviceSelector.name`** from the [AEM Communities Messaging Operations Service](../../communities/using/messaging.md#messagingoperationsservice).
+  (*Required*) Set this to the value of the property**`serviceSelector.name`** from the [AEM Communities Messaging Operations Service](../../communities/using/messaging.md#messaging-operations-service).
 
 #### Display tab {#display-tab-1}
 

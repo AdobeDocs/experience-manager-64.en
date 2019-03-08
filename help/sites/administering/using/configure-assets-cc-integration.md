@@ -3,12 +3,12 @@ title: Configure AEM Assets integration with Experience Cloud and Creative Cloud
 seo-title: Configure AEM Assets integration with Marketing Cloud and Creative Cloud
 description: Learn how to configure AEM Assets integration with Experience Cloud and Creative Cloud.
 seo-description: Learn how to configure AEM Assets integration with Experience Cloud and Creative Cloud.
-uuid: a7dcf60c-979b-41a9-a33c-dd96a68baabe
+uuid: 5aca47ea-4d54-4653-bb13-25f060282f5c
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: 571efba7-20b7-49de-a2f2-cf318b84f336
+discoiquuid: a5886b76-12a6-4e0b-a81f-2d534cbbbafd
 index: y
 internal: n
 snippet: y

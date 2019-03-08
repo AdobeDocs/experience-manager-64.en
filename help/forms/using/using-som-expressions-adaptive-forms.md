@@ -3,10 +3,10 @@ title: Using SOM expressions in adaptive forms
 seo-title: Using SOM expressions in adaptive forms
 description: Learn how to extract SOM expressions of a panel of an adaptive form.
 seo-description: Learn how to extract SOM expressions of a panel of an adaptive form.
-uuid: 4a8b96aa-dfb0-45a9-abae-75cf8f6a3f90
+uuid: 9691f6c2-65ed-4072-95a9-17f0c7fd5154
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
-discoiquuid: 45a6be17-aa80-43d0-89b2-3a46ba4df565
+discoiquuid: 962e0883-5467-4594-b8da-4a17440d3676
 index: y
 internal: n
 snippet: y
@@ -42,5 +42,5 @@ Within panels, you can access the feature from the panel toolbar. The feature fa
 
 Extracting SOM Expressions using panel toolbar
 
-Some APIs listed in [GuideBridge]( http://helpx.adobe.com/aem-forms/6/javascript-api/GuideBridge) use the SOM expression of an element. For example, to bring focus to a particular field in an adaptive form, pass the corresponding SOM expression to the `getFocus`API in `guideBridge`.  
+Some APIs listed in [GuideBridge]( http://helpx.adobe.com/aem-forms/6/javascript-api/GuideBridge.md) use the SOM expression of an element. For example, to bring focus to a particular field in an adaptive form, pass the corresponding SOM expression to the `getFocus`API in `guideBridge`.  
 

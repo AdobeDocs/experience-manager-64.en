@@ -3,12 +3,12 @@ title: OSGi Events for Communities Components
 seo-title: OSGi Events for Communities Components
 description: OSGi events are sent that can trigger asynchronous listeners
 seo-description: OSGi events are sent that can trigger asynchronous listeners
-uuid: 1f877a1c-9f0d-4878-8ba2-a9ce54e67aab
+uuid: a4ee2c39-1ba4-4008-b04f-e017e26c8cfd
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: fe78a2f8-9300-46a0-bbff-c278f0fa6af5
+discoiquuid: 440e878f-971f-4388-b845-a1d9459ea3a9
 index: y
 internal: n
 snippet: y
@@ -20,7 +20,7 @@ snippet: y
 
 When members interact with Communities features, OSGi events are sent that can trigger asynchronous listeners, like notifications or gamification (scoring and badging).
 
-A component's [SocialEvent](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/scf/core/SocialEvent) instance records the events as `actions`that occur for a `topic`. The SocialEvent includes a method to return a `verb`associated with the action. There is an *n-1* relationship between `actions`and `verbs`.
+A component's [SocialEvent](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/scf/core/SocialEvent.md) instance records the events as `actions`that occur for a `topic`. The SocialEvent includes a method to return a `verb`associated with the action. There is an *n-1* relationship between `actions`and `verbs`.
 
 For the Communities components delivered in the release, the following tables describe the `verbs`defined for each `topic`available for use.
 
@@ -127,7 +127,7 @@ SocialEvent `topic`= com/adobe/cq/social/moderation
 
 ## Events for Custom Components {#events-for-custom-components}
 
-For a custom component, the [SocialEvent abstract class](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/scf/core/SocialEvent) must be extended d to record the component's events as `actions`that occur for a `topic`.
+For a custom component, the [SocialEvent abstract class](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/scf/core/SocialEvent.md) must be extended d to record the component's events as `actions`that occur for a `topic`.
 
 The custom event would override the method `getVerb()` so that an appropriate `verb`is returned for each `action`. The `verb` returned for an action may be one commonly used (such as `POST`) or one specialized for the component (such as `ADD RATING`). There is an *n-1* relationship between `actions`and `verbs`.
 
@@ -138,9 +138,9 @@ The custom event would override the method `getVerb()` so that an appropriate `v
 #### Pseudo-Code for Custom Component Event {#pseudo-code-for-custom-component-event}
 
 [org.osgi.service.event.Event](https://osgi.org/javadoc/r4v41/org/osgi/service/event/Event.html);  
-[com.adobe.cq.social.scf.core.SocialEvent](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/scf/core/SocialEvent);  
-[com.adobe.granite.activitystreams.ObjectTypes](/sites/developing/using/reference-materials/javadoc/com/adobe/granite/activitystreams/ObjectTypes);  
-[com.adobe.granite.activitystreams.Verbs](/sites/developing/using/reference-materials/javadoc/com/adobe/granite/activitystreams/Verbs);
+[com.adobe.cq.social.scf.core.SocialEvent](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/scf/core/SocialEvent.md);  
+[com.adobe.granite.activitystreams.ObjectTypes](/sites/developing/using/reference-materials/javadoc/com/adobe/granite/activitystreams/ObjectTypes.md);  
+[com.adobe.granite.activitystreams.Verbs](/sites/developing/using/reference-materials/javadoc/com/adobe/granite/activitystreams/Verbs.md);
 
 ```java
 package com.mycompany.recipe;

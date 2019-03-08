@@ -3,10 +3,10 @@ title: Use form data model
 seo-title: Use form data model
 description: Learn how to use form data model to create and work with adaptive forms and interactive communications.
 seo-description: Learn how to use form data model to create and work with adaptive forms and interactive communications.
-uuid: 60cd68ca-e15b-4dc6-8442-e50f7032d174
+uuid: 4e223171-7c1a-43a9-a68b-a5efdc6ceb31
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: integration
-discoiquuid: 5562f062-9d86-4db5-90f3-ae7b7fa41700
+discoiquuid: 949ccbb1-f2de-4b38-9caf-9bdcd5d03cc0
 index: y
 internal: n
 snippet: y
@@ -74,11 +74,11 @@ For more information, see:
 
 [Create an interactive communication](../../forms/using/create-interactive-communication.md)
 
-[Text in Interactive Communications](/forms/using/text-interactive-communications)
+[Text in Interactive Communications](/forms/using/text-interactive-communications.md)
 
-[Conditions in Interactive Communications](/forms/using/condition-interactive-communications)
+[Conditions in Interactive Communications](/forms/using/condition-interactive-communications.md)
 
-[List fragments](/forms/using/list)
+[List fragments](/forms/using/list.md)
 
 ## Preview with sample data {#preview-ic}
 

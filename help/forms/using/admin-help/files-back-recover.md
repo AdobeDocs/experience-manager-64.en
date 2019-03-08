@@ -3,12 +3,12 @@ title: Files to back up and recover
 seo-title: Files to back up and recover
 description: This document describes the application and data files that must be backed up.
 seo-description: This document describes the application and data files that must be backed up.
-uuid: 2006a203-1496-411d-8e62-1f3fcf899ce4
+uuid: aa7cebe9-103b-4746-a4d6-10287b5e9ce7
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/aem_forms_backup_and_recovery
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: c7bdcaa9-c6dd-4801-a6cc-bce7a8724228
+discoiquuid: f63012b6-ce6c-4bc3-b21c-71659da3d7e8
 index: y
 internal: n
 snippet: y
@@ -30,7 +30,7 @@ The GDS is a directory used to store long-lived files that are used within a pro
 
 Input documents for asynchronous job invocation are also stored in the GDS and must be available to process requests. Therefore, it is important that you consider the reliability of the file system that hosts the GDS and employ a redundant array of independent disks (RAID) or other technology as appropriate for your quality and level of service requirements.
 
-The location of the GDS is determined during the AEM forms installation process or later by using administration console. In addition to keeping a high-availability location for GDS, you can also enable database storage for documents. See [Backup options when database is used for document storage](files-back-recover#backup_options_when_database_is_used_for_document_storage).
+The location of the GDS is determined during the AEM forms installation process or later by using administration console. In addition to keeping a high-availability location for GDS, you can also enable database storage for documents. See [Backup options when database is used for document storage](files-back-recover.md#backup_options_when_database_is_used_for_document_storage).
 
 ### GDS location {#gds-location}
 
@@ -110,7 +110,7 @@ For more information about DB2 database backup and recovery, see [Developing a b
 
 ### Oracle {#oracle}
 
-Use snapshot backups or configure your Oracle database to run in archive log mode. (See [Oracle Backup: An Introduction]( http://www.databasedesign-resource.com/oracle-backup).) For more information about backing up and recovering your Oracle database, go to these sites:
+Use snapshot backups or configure your Oracle database to run in archive log mode. (See [Oracle Backup: An Introduction]( http://www.databasedesign-resource.com/oracle-backup.md).) For more information about backing up and recovering your Oracle database, go to these sites:
 
 [Oracle Backup and Recovery:](http://www.oracle.com/technetwork/database/features/availability/br-overview-097160.html) Explains the concepts of backup and recovery and the most common techniques for using Recovery Manager (RMAN) for backup, recovery, and reporting in more detail, as well as providing more information about how to plan a backup and recovery strategy.
 
@@ -127,11 +127,11 @@ SQL Server also provides two backup and recovery tools:
 * SQL Server Management Studio (GUI)
 * T-SQL (command line)
 
-See [Backup Strategies]( http://articles.techrepublic.com.com/5100-1035_61-1043671)and [Backup and Restore](http://msdn.microsoft.com/en-us/library/ms187048(v=SQL.90).aspx).
+See [Backup Strategies]( http://articles.techrepublic.com.com/5100-1035_61-1043671.md)and [Backup and Restore](http://msdn.microsoft.com/en-us/library/ms187048(v=SQL.90).aspx).
 
 ### MySQL {#mysql}
 
-Use MySQLAdmin or modify the INI files in Windows to configure your MySQL database to run in binary log mode. (See [MySQL binary logging](http://dev.mysql.com/doc/refman/5.1/en/binary-log.html).) A hot backup tool for MySQL is also available from InnoBase software. (See [Innobase Hot Backup]( http://www.innodb.com/hot-backup/features).)
+Use MySQLAdmin or modify the INI files in Windows to configure your MySQL database to run in binary log mode. (See [MySQL binary logging](http://dev.mysql.com/doc/refman/5.1/en/binary-log.html).) A hot backup tool for MySQL is also available from InnoBase software. (See [Innobase Hot Backup]( http://www.innodb.com/hot-backup/features.md).)
 
 ***note**: The default binary logging mode for MySQL is "Statement", which is incompatible with tables used by Content Services (Deprecated). Using binary logging in this default mode causes Content Services (Deprecated) to fail. If your system includes Content Services (Deprecated), use "Mixed" logging mode. To enable "Mixed" logging, add the following argument to the my.ini file:*
 `binlog_format=mixed log-bin=logname`
@@ -175,7 +175,7 @@ When you install Content Services (Deprecated) in a clustered environment, the C
 
 **Index Root directory:** A directory that is created on each node in the cluster, always having the same path and directory name
 
-The default location for the Content Storage Root directory is *[GDS root]*/lccs_data, where *[GDS root]* is the location described in [GDS location](files-back-recover#gds_location). Back up the following directories located in the Content Storage Root directory:
+The default location for the Content Storage Root directory is *[GDS root]*/lccs_data, where *[GDS root]* is the location described in [GDS location](files-back-recover.md#gds_location). Back up the following directories located in the Content Storage Root directory:
 
 /audit.contentstore
 

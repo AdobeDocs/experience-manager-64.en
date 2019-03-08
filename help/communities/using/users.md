@@ -3,12 +3,12 @@ title: Managing Users and User Groups
 seo-title: Managing Users and User Groups
 description: Users of AEM Communities can self-register and edit their profiles
 seo-description: Users of AEM Communities can self-register and edit their profiles
-uuid: 1f668f97-31b2-4fda-aa19-3f605690a7f0
+uuid: bd2fe564-a635-4643-84f2-b1f5795d6d29
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 3709e7f9-33ba-4d6d-bfa4-c2556f44e870
+discoiquuid: b94ea9ba-bbe1-4934-8a25-d8ee29fe3030
 index: y
 internal: n
 snippet: y
@@ -23,17 +23,17 @@ In AEM Communities, in the publish environment, users can self-register and edit
 * create sub-communities within the community site (see [community groups](../../communities/using/creating-groups.md))
 * [moderate](../../communities/using/moderation.md) user generated content (UGC)
 * be [enablement resource](../../communities/using/resources.md) contacts
-* be [privileged](#privilegedmembersgroup) to create entries for blogs, calendars, QnA, and forums
+* be [privileged](#privileged-members-group) to create entries for blogs, calendars, QnA, and forums
 
 Users registered in the publish environment are generally referred to as *community members (members)* to distinguish them from *users *in the author environment.
 
-Permissions are granted by assigning members to one of the [member (user) groups](#publishgrouproles) dynamically created when the community site is [created](../../communities/using/sites-console.md) or [modified](../../communities/using/sites-console.md#modifyingsiteproperties) from the author environment. When working from the author environment, members are visible from the publish environment by means of the [tunnel service](#tunnelservice).
+Permissions are granted by assigning members to one of the [member (user) groups](#publish-group-roles) dynamically created when the community site is [created](../../communities/using/sites-console.md) or [modified](../../communities/using/sites-console.md#modifying-site-properties) from the author environment. When working from the author environment, members are visible from the publish environment by means of the [tunnel service](#tunnel-service).
 
 By design, members and member groups created in the publish environment should not appear in the author environment. Users and user groups created in the author environment are similarly intended to remain in the author environment.
 
 When users on author and members on publish come from the same list of users, such as synchronized from the same LDAP directory, they are not considered the same user with the same permissions and group membership in both the author and publish environments. The role(s) of members and users must be established separately on publish and author, as appropriate.
 
-For a [publish farm](../../communities/using/topologies.md), registration and modifications made on one publish instance need to be synchronized with other publish instances in order for them to have access to the same user data. For details see [User Synchronization](../../communities/using/sync.md), which includes a section describing [What Happens When...](../../communities/using/sync.md#whathappenswhen).
+For a [publish farm](../../communities/using/topologies.md), registration and modifications made on one publish instance need to be synchronized with other publish instances in order for them to have access to the same user data. For details see [User Synchronization](../../communities/using/sync.md), which includes a section describing [What Happens When...](../../communities/using/sync.md#what-happens-when).
 
 ### Contribution Limits {#contribution-limits}
 
@@ -43,7 +43,7 @@ For details, see [Member Contribution Limits](../../communities/using/limits.md)
 
 ### Dynamically Created User Groups {#dynamically-created-user-groups}
 
-When a new community site is created, new user groups are dynamically created with uniquie ids (uid) and permissions appropriate for various administrative functions necessary to manage the community site either in the author environment (see [Author Group Roles](#authorgrouproles)) or the publish environment (see [Publish Group Roles](#publishgrouproles)).
+When a new community site is created, new user groups are dynamically created with uniquie ids (uid) and permissions appropriate for various administrative functions necessary to manage the community site either in the author environment (see [Author Group Roles](#author-group-roles)) or the publish environment (see [Publish Group Roles](#publish-group-roles)).
 
 The names of the groups are generated from the name given the site during [community site creation](../../communities/using/sites-console.md#step13asitetemplate). The unique ids avoid naming conflicts for similarly named community sites and community groups on the same server.
 
@@ -55,11 +55,11 @@ For example, if the site name were "*engage*" for a site titled "We.Retail Engag
 
 ### Tunnel Service {#tunnel-service}
 
-When using the author environment to [create sites](../../communities/using/sites-console.md), [modify site properties](../../communities/using/sites-console.md#modifyingsiteproperties) and [manage community members and member groups](../../communities/using/members.md), it is necessary to access users and user groups registered in the publish environment.
+When using the author environment to [create sites](../../communities/using/sites-console.md), [modify site properties](../../communities/using/sites-console.md#modifying-site-properties) and [manage community members and member groups](../../communities/using/members.md), it is necessary to access users and user groups registered in the publish environment.
 
 The tunnel service provides this access using the replication agent on author.
 
-* for details, see [configuration instructions](../../communities/using/deploy-communities.md#tunnelserviceonauthor) on the deployment page
+* for details, see [configuration instructions](../../communities/using/deploy-communities.md#tunnel-service-on-author) on the deployment page
 
 The [Communities Members and Groups consoles](../../communities/using/members.md) are for the sole purpose of managing users (members) and user groups (member groups) registered only in the publish environment.
 
@@ -90,7 +90,7 @@ Be sure to follow the [Security Checklist](../../sites/administering/using/secur
 
 ### Becoming a Member {#becoming-a-member}
 
-In the publish environment, depending on the [settings](../../communities/using/sites-console.md#usermanagement) of the community site, a site visitor may become a community member
+In the publish environment, depending on the [settings](../../communities/using/sites-console.md#user-management) of the community site, a site visitor may become a community member
 
 * when the community site is private (closed) :
 
@@ -114,16 +114,16 @@ In the publish environment, depending on the [settings](../../communities/using/
 | Community &lt;*site name&gt; *Moderators |A community site moderator is a trusted community member who is able to moderate UGC either in bulk, using the moderation console, or in-context, on the page where the content is posted. |
 | Community &lt;*site name&gt; *&lt;*group name*&gt; Members |A community group member is a community member who has either joined an open community group or has been invited to a closed community group. They have the abilities of a member for that community group within the site. |
 | Community &lt;*site name&gt; *Groupadministrators |A community site group administrator is a trusted community member who is assigned to create and manage sub-communities (groups) within a community site. Included is the ability to provide in-context moderation.  |
-| *Privileged Members Security Group* |A manually created and maintained user group for the purpose of restricting content creation. See [Privileged Members Group](#privilegedmembersgroup). |
+| *Privileged Members Security Group* |A manually created and maintained user group for the purpose of restricting content creation. See [Privileged Members Group](#privileged-members-group). |
 | None |An anonymous site visitor, who discovers the site, may view and search community sites that allow anonymous access. In order to participate and post content, the user must self-register (if allowed) and become a community member. |
 
 ### Assigning Members to Publish Group Roles {#assigning-members-to-publish-group-roles}
 
-When [creating a community site](../../communities/using/sites-console.md) in the author environment, or when [modifying site properties,](../../communities/using/sites-console.md#modifyingsiteproperties) members may be assigned various roles performed in the publish environment, such as moderators, group administrators, resource contacts, or privileged members.
+When [creating a community site](../../communities/using/sites-console.md) in the author environment, or when [modifying site properties,](../../communities/using/sites-console.md#modifying-site-properties) members may be assigned various roles performed in the publish environment, such as moderators, group administrators, resource contacts, or privileged members.
 
 [Enabling the tunnel service](../../communities/using/sync.md#accessingpublishusersfromauthor) results in assignment choices being presented from members on publish instead of users on author.
 
-The selected members will be automatically assigned to the [appropriate group](#publishgrouproles) and their memberships will be included when the community site is (re)published.
+The selected members will be automatically assigned to the [appropriate group](#publish-group-roles) and their memberships will be included when the community site is (re)published.
 
 ### Privileged Members Group {#privileged-members-group}
 
@@ -131,14 +131,14 @@ The purpose of a privileged members security group is to restrict the creation o
 
 The privileged members group is a member group created and managed using the [Communities Groups console](../../communities/using/members.md).
 
-After a privileged members group is created, and with the [tunnel service enabled](../../communities/using/sync.md#accessingpublishusersfromauthor), an existing community site's structure may be [modified](../../communities/using/sites-console.md#modifystructure) to edit the configuration of its community functions to 'Allow Privileged Members' and add the created group.
+After a privileged members group is created, and with the [tunnel service enabled](../../communities/using/sync.md#accessingpublishusersfromauthor), an existing community site's structure may be [modified](../../communities/using/sites-console.md#modify-structure) to edit the configuration of its community functions to 'Allow Privileged Members' and add the created group.
 
 The community functions which allow specification of one or more privileged members groups are :
 
-* [blog function](../../communities/using/functions.md#blogfunction) - to restrict creation of new articles
-* [calendar function](../../communities/using/functions.md#calendarfunction) - to restrict creation of new events
-* [forum function](../../communities/using/functions.md#forumfunction) - to restrict creation of new topics
-* [QnA function](../../communities/using/functions.md#qnafunction) - to restrict creation of new questions
+* [blog function](../../communities/using/functions.md#blog-function) - to restrict creation of new articles
+* [calendar function](../../communities/using/functions.md#calendar-function) - to restrict creation of new events
+* [forum function](../../communities/using/functions.md#forum-function) - to restrict creation of new topics
+* [QnA function](../../communities/using/functions.md#qna-function) - to restrict creation of new questions
 
 When a community function is not secured (no privileged members group assigned), then all community site members are allowed to create feature content (articles, events, topics, questions).
 
@@ -214,7 +214,7 @@ There are four separate consoles available only in the author environment:
 
 ### Community Enablement Manager Role {#community-enablement-manager-role}
 
-The ability for a site visitor to self register is typically not allowed for an [enablement community](../../communities/using/overview.md#enablementcommunity) as there are costs associated with each member. Enablement learners and resources are managed by a user assigned the [role](#authorgrouproles) of `enablement manager` [during site creation](../../communities/using/sites-console.md#enablement) on author (added as member of group `Community <site-name> Siteenablementmanagers`). The `enablement manager` is also responsible for [assigning learning resources](../../communities/using/resources.md) to community members on author.
+The ability for a site visitor to self register is typically not allowed for an [enablement community](../../communities/using/overview.md#enablement-community) as there are costs associated with each member. Enablement learners and resources are managed by a user assigned the [role](#author-group-roles) of `enablement manager` [during site creation](../../communities/using/sites-console.md#enablement) on author (added as member of group `Community <site-name> Siteenablementmanagers`). The `enablement manager` is also responsible for [assigning learning resources](../../communities/using/resources.md) to community members on author.
 
 Only users who are members of the global `Community Enablement Managers` group may be selected as an `enablement manager` for a specific community site.
 
@@ -250,7 +250,7 @@ In the left pane :
 
 ### Community Administrators Role {#community-administrators-role}
 
-As stated in the [Author Group Roles](#authorgrouproles) chart, members of the Community Administrators group are able to create community sites, manage sites, manage members (they can ban members from the community), and moderate content.
+As stated in the [Author Group Roles](#author-group-roles) chart, members of the Community Administrators group are able to create community sites, manage sites, manage members (they can ban members from the community), and moderate content.
 
 Follow the same steps as creating and assigning a user to the role of [enablement manager](#communitysiteenablementmanagerrole), but add c `ommunity-administrators` group under the user's Groups tab.
 
@@ -261,11 +261,11 @@ AEM supports the use of LDAP for authentication of users as well as creation of 
 Following are some configuration details specific for community members and member groups.
 
 1. configure LDAP for each AEM publish instance
-1. [the LDAP Identity Provider](../../sites/administering/using/ldap-config.md#configuringtheldapidentityprovider)
+1. [the LDAP Identity Provider](../../sites/administering/using/ldap-config.md#configuring-the-ldap-identity-provider)
 
     * no special instructions
 
-1. [the Synchronization Handler](../../sites/administering/using/ldap-config.md#configuringthesynchronizationhandler)
+1. [the Synchronization Handler](../../sites/administering/using/ldap-config.md#configuring-the-synchronization-handler)
 
     * set the following properties :
 
@@ -275,7 +275,7 @@ Following are some configuration details specific for community members and memb
         
         * **Group Path Prefix** : `/community`
 
-1. [the External Login Module](../../sites/administering/using/ldap-config.md#theexternalloginmodule)
+1. [the External Login Module](../../sites/administering/using/ldap-config.md#the-external-login-module)
 
     * no special instructions
 
@@ -287,7 +287,7 @@ This results in users automatically being assigned to the community site's membe
 
 When using a [publish farm](../../communities/using/topologies.md), ensure users have the same path on each publish instance by importing the users first to one instance and [enabling user sync](../../communities/using/sync.md) to Sling distribute the users to the other publish instances.
 
-If importing user groups, to ensure the user groups have the same path on each publish instance, import to one instance, then [create a package](../../sites/administering/using/package-manager.md#creatinganewpackage) for export, and install that package on all other publish instances.
+If importing user groups, to ensure the user groups have the same path on each publish instance, import to one instance, then [create a package](../../sites/administering/using/package-manager.md#creating-a-new-package) for export, and install that package on all other publish instances.
 
 While the syncing of user groups through user sync will be included in a future release, presently only the *membership *of a user group will sync when user sync runs.
 

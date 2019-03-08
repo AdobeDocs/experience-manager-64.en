@@ -3,12 +3,12 @@ title: Customizing the Consoles
 seo-title: Customizing the Consoles
 description: AEM provides various mechanisms to enable you to customize the consoles of your authoring instance
 seo-description: AEM provides various mechanisms to enable you to customize the consoles of your authoring instance
-uuid: 96047f7a-4389-4a08-ba65-ef99167385b5
+uuid: 9b32a29e-a3b5-4717-bb2b-1b7315c03361
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
-discoiquuid: f9f74263-7403-49ee-abb9-33cab4a96de3
+discoiquuid: 491325ce-f1fc-4a78-bd9b-a36874495e41
 index: y
 internal: n
 snippet: y
@@ -36,7 +36,7 @@ These can be used in many ways to extend your AEM consoles. A small selection ar
 >
 >* Using and creating [clientlibs](../../../sites/developing/using/clientlibs.md).
 >* Using and creating [overlays](../../../sites/developing/using/overlays.md).
->* [Granite](/sites/developing/using/reference-materials/granite-ui/api/index) 
+>* [Granite](/sites/developing/using/reference-materials/granite-ui/api/index.md) 
 >
 >This topic is also covered in the [AEM Gems](http://docs.adobe.com/content/ddc/en/gems.html) session - [User interface customization for AEM 6.0](http://docs.adobe.com/content/ddc/en/gems/user-interface-customization-for-aem-6.html).
 
@@ -89,7 +89,7 @@ Various packages have been made available on Github. These provide code samples 
 
 #### aem-admin-extension-new-console {#aem-admin-extension-new-console}
 
-`aem-admin-extension-new-console` is a sample package showing how to [create a new AEM 6 console](#createacustomconsole). This package provides a UI for managing [Launches](../../../sites/authoring/using/launches.md) and adds a link in the navigation:
+`aem-admin-extension-new-console` is a sample package showing how to [create a new AEM 6 console](#create-a-custom-console). This package provides a UI for managing [Launches](../../../sites/authoring/using/launches.md) and adds a link in the navigation:
 
 CODE ON GITHUB
 
@@ -141,7 +141,7 @@ You can find the code of this page on GitHub
 
    ![](assets/chlimage_1-236.png)
 
-   To use the new console (for example in the [rail for navigation](#addnewnavigationoptiontorail)) an ID is used, so that it can be explicitly referenced. The ID is used to connect the console and its navigation definition. The ID is defined in the `rail` node of the page; for example, for the Sites console:
+   To use the new console (for example in the [rail for navigation](#add-new-navigation-option-to-rail)) an ID is used, so that it can be explicitly referenced. The ID is used to connect the console and its navigation definition. The ID is defined in the `rail` node of the page; for example, for the Sites console:
 
     * the rail node is:  
       `/libs/wcm/core/content/sites/jcr:content/body/rail`
@@ -202,7 +202,7 @@ You can find the code of this page on GitHub
 
 ### Add New Navigation Option to Rail {#add-new-navigation-option-to-rail}
 
-1. You can add a navigation entry in the rail (for example, a [custom console](#createacustomconsole) such as Launches).
+1. You can add a navigation entry in the rail (for example, a [custom console](#create-a-custom-console) such as Launches).
 
    To do this, you create an overlay of:
 
@@ -224,7 +224,7 @@ You can find the code of this page on GitHub
 
         * property: `sling:orderBefore`
 
-    * To create the connection, the `id` property references (i.e. must be the same as) the `currentID` property [for the appropriate console](#createacustomconsole):
+    * To create the connection, the `id` property references (i.e. must be the same as) the `currentID` property [for the appropriate console](#create-a-custom-console):
 
         * property: `id`
         * value: same as for your console (e.g. `cq-launches`)  
@@ -327,7 +327,7 @@ You can restrict access to a navigation option using ACLs:
 
    >[!NOTE]
    >
-   >Avoid assigning/restricting permissions on a user-by-user basis. It is [recommended to use groups](../../../sites/administering/using/security.md#bestpractices).
+   >Avoid assigning/restricting permissions on a user-by-user basis. It is [recommended to use groups](../../../sites/administering/using/security.md#best-practices).
 
 1. Remove access [permissions](../../../sites/administering/using/security.md#permissions) to the appropriate node(s) under `/libs/cq/core/content/nav/sites`. These correlate to the navigation options in the rail:
 
@@ -382,7 +382,7 @@ To customize the columns in the list view:
 
 1. Optionally:
 
-    * If you want to plug additional data, you need to write a ` [PageInforProvider](/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/api/PageInfoProvider)` with a   
+    * If you want to plug additional data, you need to write a ` [PageInforProvider](/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/api/PageInfoProvider.md)` with a   
       `pageInfoProviderType` property.
 
    For example, see the class/bundle attached (from GitHub) below.

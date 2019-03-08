@@ -3,12 +3,12 @@ title: Develop Sandbox Application
 seo-title: Develop Sandbox Application
 description: Develop application using foundation scripts
 seo-description: Develop application using foundation scripts
-uuid: 558bc094-b30d-45ce-a286-2b0212bcebbd
+uuid: a69b5b70-604b-4909-b59f-442a203f062d
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: c92f0d4b-45d4-45f7-ad79-6be0ab0c082a
+discoiquuid: c4d90c88-fab3-454d-b87e-eb6329830d86
 index: y
 internal: n
 snippet: y
@@ -120,7 +120,7 @@ Using CRXDE Lite:
 
 **View the page in a browser in edit mode:**
 
-* Standard UI : [http://localhost:4502/editor.html/content/an-scf-sandbox/en/play.html]( http://localhost:4502/editor.html/content/an-scf-sandbox/en/play)
+* Standard UI : [http://localhost:4502/editor.html/content/an-scf-sandbox/en/play.html]( http://localhost:4502/editor.html/content/an-scf-sandbox/en/play.md)
 
 You should not only see the heading **Community Play**, but also the UI for editing page content.
 
@@ -138,7 +138,7 @@ Following is how the play page appears in the classic UI including with content 
 
 To enable Communities components for authoring, start by following these instructions :
 
-* [Accessing Communities Components](../../communities/using/basics.md#accessingcommunitiescomponents)
+* [Accessing Communities Components](../../communities/using/basics.md#accessing-communities-components)
 
 For the purposes of this sandbox, start with these **Communities **components (enable by checking the box):
 

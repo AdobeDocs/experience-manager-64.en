@@ -3,12 +3,12 @@ title: Assets Network Considerations
 seo-title: Assets Network Considerations
 description: Discusses network considerations when designing an AEM Assets deployment.
 seo-description: Discusses network considerations when designing an AEM Assets deployment.
-uuid: a9d6cc21-4af0-4382-a9af-3f948f33ff3a
+uuid: 8288c7aa-3628-4c97-ad98-aed9899b7db5
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: 5ef02fb0-e0ba-487d-b4f7-319f86a0290e
+discoiquuid: 90b9f307-e6cf-45f5-9095-8c156a22d950
 index: y
 internal: n
 snippet: y

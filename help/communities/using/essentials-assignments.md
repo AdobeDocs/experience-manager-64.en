@@ -3,12 +3,12 @@ title: Assignments Essentials
 seo-title: Assignments Essentials
 description: Assignments feature overview for enablement communities
 seo-description: Assignments feature overview for enablement communities
-uuid: 7befb9d0-20b2-4f6e-b056-474329c5efae
+uuid: b9410d8d-ac49-4271-bb29-84291e06a643
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 37d34163-3987-4705-91ae-a9d8203df73a
+discoiquuid: 111e841f-8c42-456e-8e75-a10a00d5fc74
 index: y
 internal: n
 snippet: y
@@ -16,7 +16,7 @@ snippet: y
 
 # Assignments Essentials{#assignments-essentials}
 
-This page provides the essential information for working with the assignments feature of [enablement community](../../communities/using/overview.md#enablementcommunity) sites.
+This page provides the essential information for working with the assignments feature of [enablement community](../../communities/using/overview.md#enablement-community) sites.
 
 The assignments feature is the ability to assign enablement resources and learning paths to members of enablement communities.
 
@@ -29,7 +29,7 @@ The assignments feature is the ability to assign enablement resources and learni
    <td>social/enablement/components/hbs/myassigned</td> 
   </tr>
   <tr>
-   <td> <a href="../../communities/using/scf.md#addorincludeacommunitiescomponent"><strong>includable</strong></a></td> 
+   <td> <a href="../../communities/using/scf.md#add-or-include-a-communities-component"><strong>includable</strong></a></td> 
    <td>No</td> 
   </tr>
   <tr>
@@ -81,13 +81,13 @@ The only possible Combinations of Completion and Success Status are :
 
 ### Assignments Function {#assignments-function}
 
-A community site structure that includes the [Assignments function](../../communities/using/functions.md#assignmentsfunction), includes a configured ` [assignments](../../communities/using/assignments.md)` component.
+A community site structure that includes the [Assignments function](../../communities/using/functions.md#assignments-function), includes a configured ` [assignments](../../communities/using/assignments.md)` component.
 
 ### Reference APIs {#reference-apis}
 
-* [Enablement API](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/enablement/client/api/package-summary)
+* [Enablement API](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/enablement/client/api/package-summary.md)
 
-* [Reporting API](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/enablement/client/reporting/api/package-summary)
+* [Reporting API](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/enablement/client/reporting/api/package-summary.md)
 
-* [Reporting Analytics API](/content/docs/en/aem/6-3/develop/ref/javadoc/com/adobe/cq/social/enablement/client/reporting/analytics/api/package-summary)
+* [Reporting Analytics API](/content/docs/en/aem/6-3/develop/ref/javadoc/com/adobe/cq/social/enablement/client/reporting/analytics/api/package-summary.md)
 

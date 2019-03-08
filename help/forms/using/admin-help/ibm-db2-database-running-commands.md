@@ -3,12 +3,12 @@ title: "IBM DB2 database: Running commands for regular maintenance"
 seo-title: "IBM DB2 database: Running commands for regular maintenance"
 description: This document lists IBM DB2 commands that are recommended for regular maintenance of your AEM forms database. 
 seo-description: This document lists IBM DB2 commands that are recommended for regular maintenance of your AEM forms database. 
-uuid: 31d30736-919e-4126-b34c-8f6baaf7482e
+uuid: 40e62fd0-2f80-40e5-9d8c-ee9f3a6da76c
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/maintaining_the_aem_forms_database
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: f3099a2c-0ee3-4042-9d9b-b1d1bc817a1f
+discoiquuid: 3b051a68-2ec5-49d5-ac06-39159235c821
 index: y
 internal: n
 snippet: y

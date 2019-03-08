@@ -3,12 +3,12 @@ title: Configuring Asset Insights
 seo-title: Configuring Asset Insights
 description: Learn how to configure Asset Insights in AEM Assets.
 seo-description: Learn how to configure Asset Insights in AEM Assets.
-uuid: 041dd233-8eba-4464-8189-46e5b8055d3f
+uuid: 918b935a-833e-4460-9904-2619a691d76e
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference
-discoiquuid: 707bc22d-49b3-4c0c-8a4e-e39d99fb3caa
+discoiquuid: fd59c456-765d-4147-ad10-d9374ee14046
 index: y
 internal: n
 snippet: y

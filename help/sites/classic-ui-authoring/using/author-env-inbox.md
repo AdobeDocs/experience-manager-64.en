@@ -3,12 +3,12 @@ title: Your Inbox
 seo-title: Your Inbox
 description: You can receive notifications from various areas of AEM such as notification about work items or tasks that represent actions that you need to perform on page content.
 seo-description: You can receive notifications from various areas of AEM such as notification about work items or tasks that represent actions that you need to perform on page content.
-uuid: b944e0f9-cac9-4fd5-a8a0-80c4aa214262
+uuid: 9e4c5b76-4587-4d83-b7a0-4170a9ce2201
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
-discoiquuid: 5e7c52b9-849c-4479-93e6-18b74aa0b83f
+discoiquuid: 8d7dedce-b8b1-4213-a247-b08a004ef33b
 index: y
 internal: n
 snippet: y
@@ -40,8 +40,8 @@ To view your notifications:
 
 1. Your notifcations will be listed. You can take actions as required:
 
-    * [Subscribing to Notifications](#subscribingtonotifications)
-    * [Processing your Notifications](#processingyournotifications)
+    * [Subscribing to Notifications](#subscribing-to-notifications)
+    * [Processing your Notifications](#processing-your-notifications)
 
    ![](assets/chlimage_1-8.jpeg)
 
@@ -101,7 +101,7 @@ To subscribe to notifications:
 
 ## Processing your Notifications {#processing-your-notifications}
 
-If you have chosen to receive notifications in your AEM inbox, your inbox will fill up with notifications. You can [view your notifications](#viewingyournotifications) then select the required notification(s) to:
+If you have chosen to receive notifications in your AEM inbox, your inbox will fill up with notifications. You can [view your notifications](#viewing-your-notifications) then select the required notification(s) to:
 
 * Approve it by clicking **Approve**: the value in the **Read** column is set to **true**.
 

@@ -3,11 +3,11 @@ title: Search Facets
 seo-title: Search Facets
 description: This article describes how to create, modify, and use search facets in AEM.
 seo-description: Learn how to create, modify, and use search facets in AEM.
-uuid: 13744a5b-350f-472b-bed3-431184862fd8
+uuid: a4ddd7b9-8650-4399-9e54-00acfb2d0939
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: 2cf4c2b9-00c4-4d8d-9ee3-fd6983ecdd13
+discoiquuid: aa11e26a-dc1e-4259-b70a-7a9fdf8e7a2d
 index: y
 internal: n
 snippet: y

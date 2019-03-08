@@ -3,12 +3,12 @@ title: Advanced configuration settings
 seo-title: Advanced configuration settings
 description: Learn about advanced configuration settings that apply to the integration of AEM 3D for both Maya and non-Maya deployments.
 seo-description: Learn about advanced configuration settings that apply to the integration of AEM 3D for both Maya and non-Maya deployments.
-uuid: c9ec78a9-b3cf-489e-8bcc-f030804defb0
+uuid: d56a10df-7e5b-4e3b-8756-bb31ec6209cd
 contentOwner: Rick Brough
 topic-tags: 3D
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-discoiquuid: 808c646b-dc40-491e-a4c2-7b50ec718875
+discoiquuid: 39f37774-09f6-451c-99ab-46d1cf3c6ddc
 index: y
 internal: n
 snippet: y

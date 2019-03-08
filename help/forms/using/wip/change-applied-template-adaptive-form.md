@@ -4,9 +4,9 @@ seo-title: DO NOT PUBLISH - Changing the template applied to an adaptive form
 description: To change the appearance, design, or layout of an adaptive form, you can change the template applied to it without impacting the form contents.
 seo-description: To change the appearance, design, or layout of an adaptive form, you can change the template applied to it without impacting the form contents.
 page-status-flag: never-activated
-uuid: 2921d160-7dac-46e6-9437-6d63e0007e15
+uuid: b4fffdc6-813c-407f-9133-5d1296bfe542
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 3a6fca46-20b5-4e10-9f76-086f0546006f
+discoiquuid: a2923a8d-b886-43bd-acfe-1f74aec6c5ab
 index: y
 internal: n
 snippet: y

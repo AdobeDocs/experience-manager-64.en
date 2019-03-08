@@ -3,12 +3,12 @@ title: Content Architecture
 seo-title: Content Architecture
 description: "Tips for architecting your content (hint: everything is content)"
 seo-description: "Tips for architecting your content (hint: everything is content)"
-uuid: 7f02ab81-25ee-4dfc-a3e5-ead0a709cbf5
+uuid: ea957c8a-57f5-4b39-9840-3949d2634871
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
-discoiquuid: c0131867-fdd7-429d-92c8-aff4e252ed03
+discoiquuid: e14f18ec-e1b5-4c3b-8eca-ecba1acfaf0b
 index: y
 internal: n
 snippet: y

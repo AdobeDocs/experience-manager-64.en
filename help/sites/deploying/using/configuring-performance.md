@@ -3,12 +3,12 @@ title: Performance Optimization
 seo-title: Performance Optimization
 description: Learn how to configure certain aspects of AEM to optimize performance.
 seo-description: Learn how to configure certain aspects of AEM to optimize performance.
-uuid: e5036ede-e538-42ab-bad6-c71ffd8fdf7e
+uuid: b49bed0c-b99c-4c0a-8928-086fa6a004dc
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: configuring
-discoiquuid: 0444589c-55e5-47dd-9cc0-c9449e27c57a
+discoiquuid: 919ecd7a-5a76-418d-b003-5ca123d8bf54
 index: y
 internal: n
 snippet: y
@@ -46,11 +46,11 @@ This environment contains content which you make available to your users. Here t
 
 A performance optimization methodology for CQ projects can be summed up in five very simple rules that can be followed to avoid performance issues from the start:
 
-1. [Planning for Optimization](#planningforoptimization)
-1. [Simulate Reality](#simulatereality)
-1. [Establish Solid Goals](#establishsolidgoals)
-1. [Stay Relevant](#stayrelevant)
-1. [Agile Iteration Cycles](#agileiterationcycles)
+1. [Planning for Optimization](#planning-for-optimization)
+1. [Simulate Reality](#simulate-reality)
+1. [Establish Solid Goals](#establish-solid-goals)
+1. [Stay Relevant](#stay-relevant)
+1. [Agile Iteration Cycles](#agile-iteration-cycles)
 
 These rules, to a large degree, apply to web projects in general, and are relevant to project managers and system administrators to ensure that their projects will not face performance challenges when launch time comes.
 
@@ -223,7 +223,7 @@ For example, when images (or DAM assets in general) are uploaded, workflows auto
 The workflow engine uses Apache Sling job queues for handling and scheduling work item processing. The following job queue services have been created by default from the Apache Sling Job Queue Configuration service factory for processing workflow jobs:
 
 * Granite Workflow Queue: Most workflow steps, such as the ones that process DAM assets, use the Granite Workflow Queue service.
-* Granite Workflow External Process Job Queue: This service is used for special extermal workflow steps that are typically used for contacting an external system and polling for results. For example the InDesign Media Extraction Process step is implemented as an external process. The workflow engine uses the external queue for processing the polling. (See [com.day.cq.workflow.exec.WorkflowExternalProcess](/sites/developing/using/reference-materials/javadoc/com/day/cq/workflow/exec/WorkflowExternalProcess).)
+* Granite Workflow External Process Job Queue: This service is used for special extermal workflow steps that are typically used for contacting an external system and polling for results. For example the InDesign Media Extraction Process step is implemented as an external process. The workflow engine uses the external queue for processing the polling. (See [com.day.cq.workflow.exec.WorkflowExternalProcess](/sites/developing/using/reference-materials/javadoc/com/day/cq/workflow/exec/WorkflowExternalProcess.md).)
 
 Configure these services to limit the maximum number of concurrently running workflow processes.
 
@@ -296,10 +296,10 @@ This section aims to give a standardized overview of the issues involved with de
 
 The following covers a standardized approach to performance tests for a CQ application on the *Publish* environment. This involves the following 5 phases:
 
-* [Verification of Knowledge](#verificationofknowledge)
-* [Definition of Scope](#scopedefinition)
-* [Test Methodologies](#testmethodologies)
-* [Definition of Performance Goals](#definingtheperformancegoals)
+* [Verification of Knowledge](#verification-of-knowledge)
+* [Definition of Scope](#scope-definition)
+* [Test Methodologies](#test-methodologies)
+* [Definition of Performance Goals](#defining-the-performance-goals)
 * [Optimization](#optimization)
 
 Controlling is an additional, all-encompassing process - necessary but not limited to testing.
@@ -497,7 +497,7 @@ The Dispatcher offers a number of built-in mechanisms that you can use to optimi
 >
 >In general, a lot of caching strategies involve selecting good URLs and not relying on this additional data. 
 >
->With Dispatcher version 4.1.11 you can also cache response headers, see [Caching HTTP Response Headers](https://helpx.adobe.com/experience-manager/dispatcher/using/dispatcher-configuration.html#ConfiguringtheDispatcherCachecache).
+>With Dispatcher version 4.1.11 you can also cache response headers, see [Caching HTTP Response Headers](https://helpx.adobe.com/experience-manager/dispatcher/using/dispatcher-configuration.html#configuring-the-dispatcher-cache-cache).
 >
 
 #### Calculating the Dispatcher Cache Ratio {#calculating-the-dispatcher-cache-ratio}
@@ -506,7 +506,7 @@ The cache ratio formula estimates the percentage of requests handled by the cach
 
 * The total number of requests. This information is available in the Apache `access.log`. For more details, see the [official Apache documentation](https://httpd.apache.org/docs/2.4/logs.html#accesslog).
 
-* The number of requests the Publish instance served. This information is available in the `request.log` of the instance. For further details, see [Interpreting the request.log](../../../sites/deploying/using/monitoring-and-maintaining.md#interpretingtherequestlog) and [Finding the log Files](../../../sites/deploying/using/monitoring-and-maintaining.md#findingthelogfiles).
+* The number of requests the Publish instance served. This information is available in the `request.log` of the instance. For further details, see [Interpreting the request.log](../../../sites/deploying/using/monitoring-and-maintaining.md#interpreting-the-request-log) and [Finding the log Files](../../../sites/deploying/using/monitoring-and-maintaining.md#finding-the-log-files).
 
 The formula to calculate the cache ratio is:
 
@@ -533,7 +533,7 @@ With Dispatcher version 4.1.11 you can cache response headers. If you are not ca
 
 #### Avoid URL Parameters {#avoid-url-parameters}
 
-If possible, avoid URL parameters for pages that you want to cache. For example, if you have a picture gallery, the following URL is never cached (unless Dispatcher is [configured accordingly](https://helpx.adobe.com/experience-manager/dispatcher/using/dispatcher-configuration.html#ConfiguringtheDispatcherCachecache)):
+If possible, avoid URL parameters for pages that you want to cache. For example, if you have a picture gallery, the following URL is never cached (unless Dispatcher is [configured accordingly](https://helpx.adobe.com/experience-manager/dispatcher/using/dispatcher-configuration.html#configuring-the-dispatcher-cache-cache)):
 
 ```xml
 www.myCompany.com/pictures/gallery.html?event=christmas&amp;page=1
@@ -618,7 +618,7 @@ The Dispatcher cannot cache personalized data, so it is recommended that you lim
 
 #### Sticky Connections {#sticky-connections}
 
-[Sticky connections](https://helpx.adobe.com/experience-manager/dispatcher/using/dispatcher.html#TheBenefitsofLoadBalancing) ensure that the documents for one user are all composed on the same server. If a user leaves this folder and later returns to it, the connection still sticks. Define one folder to hold all documents that require sticky connections for the website. Try not to have other documents in it. This impacts load-balancing if you use personalized pages and session data.
+[Sticky connections](https://helpx.adobe.com/experience-manager/dispatcher/using/dispatcher.html#the-benefits-of-load-balancing) ensure that the documents for one user are all composed on the same server. If a user leaves this folder and later returns to it, the connection still sticks. Define one folder to hold all documents that require sticky connections for the website. Try not to have other documents in it. This impacts load-balancing if you use personalized pages and session data.
 
 #### MIME Types {#mime-types}
 
@@ -752,5 +752,5 @@ The actual impact of application throughput of an ongoing backup does depend on 
 ### References {#references}
 
 * [Administering - Backup and Restore](../../../sites/administering/using/backup-and-restore.md)
-* [Managing - Capacity and Volume](../../../managing/using/best-practices-further-reference.md#capacityandvolume)
+* [Managing - Capacity and Volume](../../../managing/using/best-practices-further-reference.md#capacity-and-volume)
 

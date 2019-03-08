@@ -3,12 +3,12 @@ title: Classic UI Tagging Console
 seo-title: Classic UI Tagging Console
 description: Learn about the Classic UI Tagging Console.
 seo-description: Learn about the Classic UI Tagging Console.
-uuid: 0f24cb24-6a7c-406b-96d8-380716984e98
+uuid: 0517f425-b200-4d8f-8d27-2062efa01d49
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: content
 content-type: reference
-discoiquuid: e2703a09-032d-4f6e-9215-d716da8dc1bc
+discoiquuid: 3d79e98f-6cee-4a03-b062-b9dd41763a9f
 index: y
 internal: n
 snippet: y
@@ -18,7 +18,7 @@ snippet: y
 
 This section is for the Classic UI Tagging Console.
 
-The Touch-optimized UI Tagging Console is [here](../../../sites/administering/using/tags.md#taggingconsole).
+The Touch-optimized UI Tagging Console is [here](../../../sites/administering/using/tags.md#tagging-console).
 
 To access the Classic UI Tagging console :
 
@@ -105,7 +105,7 @@ The **Move Tag** dialog looks as follows:
 
 >[!NOTE]
 >
->Authors should not move tags or rename a tag ID. When necessary, Authors should only [change the tag titles](#editingtags).
+>Authors should not move tags or rename a tag ID. When necessary, Authors should only [change the tag titles](#editing-tags).
 
 ## Merging Tags {#merging-tags}
 
@@ -157,7 +157,7 @@ The dialog looks as follows:
 
 The Tagging console uses the user language setting, so for the Animal tag, 'Animaux' is displayed for a user who sets the language to French in user properties.
 
-To add a new language to the dialog, please refer to the section [Adding a New Language to the Edit Tag Dialog](../../../sites/developing/using/building.md#addinganewlanguagetotheedittagdialog) in the **Tagging for Developers** section.
+To add a new language to the dialog, please refer to the section [Adding a New Language to the Edit Tag Dialog](../../../sites/developing/using/building.md#adding-a-new-language-to-the-edit-tag-dialog) in the **Tagging for Developers** section.
 
 ### Displaying Tag Titles in Page Properties in a Specified Language {#displaying-tag-titles-in-page-properties-in-a-specified-language}
 
@@ -174,7 +174,7 @@ By default the tag `titles`in the page properties are displayed in the page lang
 
 By default, the Page Properties dialog displays the tag `titles`according to the page language.
 
-In general, the language of the tag is taken from the page language if the page language is available. When the [ `tag` widget](../../../sites/developing/using/building.md#taggingontheclientside) is used in other cases (for example in forms or in dialogs), the tag language depends on the context.
+In general, the language of the tag is taken from the page language if the page language is available. When the [ `tag` widget](../../../sites/developing/using/building.md#tagging-on-the-client-side) is used in other cases (for example in forms or in dialogs), the tag language depends on the context.
 
 >[!NOTE]
 >

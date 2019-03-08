@@ -3,12 +3,12 @@ title: Add Clientlibs
 seo-title: Add Clientlibs
 description: Add a ClientLibraryFolder
 seo-description: Add a ClientLibraryFolder
-uuid: 166a586a-c13a-4260-a320-5ca19654063e
+uuid: a59f2be0-9ba8-4239-916a-70c74e68f030
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: a7c3997f-a89e-4aee-ac83-d3ccab06aa56
+discoiquuid: f95dbb8d-73d0-4c97-a15e-f1fae4784eba
 index: y
 internal: n
 snippet: y
@@ -76,7 +76,7 @@ Then create a file under clientlibs named style.css, and set the content to
 
 ### Embed SCF Clientlibs {#embed-scf-clientlibs}
 
-In the **Properties** tab for the `clientlibs` node, enter the multi-value String property **embed**. This will embed the necessary [client-side libraries (clientlibs) for SCF components](../../communities/using/client-customize.md#clientlibsforscf). For this tutorial we will add many of the clientlibs necessary for the Communities components.
+In the **Properties** tab for the `clientlibs` node, enter the multi-value String property **embed**. This will embed the necessary [client-side libraries (clientlibs) for SCF components](../../communities/using/client-customize.md#clientlibs-for-scf). For this tutorial we will add many of the clientlibs necessary for the Communities components.
 
 **Note** that this may or may not be the desired approach to use for a production site as there are considerations of convenience versus size/speed of the clientlibs downloaded for every page.
 

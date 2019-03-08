@@ -3,12 +3,12 @@ title: Editing Page Properties
 seo-title: Editing Page Properties
 description: Define the required properties for a page
 seo-description: Define the required properties for a page
-uuid: d6d18892-a57d-4752-bb8f-7808252b5d79
+uuid: 4f8d5ea0-e818-4783-9743-2130269daefe
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: ec50b682-30bd-4c09-9391-589347b06385
+discoiquuid: 5a03055f-81ba-48dd-97ca-e295f95989c1
 index: y
 internal: n
 snippet: y
@@ -183,7 +183,7 @@ The properties are distributed across several tabs.
   In this tab you can:
 
     * [Add Permissions](../../../sites/administering/using/user-group-ac-admin.md)
-    * [Edit Closed User Group](../../../sites/administering/using/cug.md#applyingyourclosedusergrouptocontentpages)  
+    * [Edit Closed User Group](../../../sites/administering/using/cug.md#applying-your-closed-user-group-to-content-pages)  
     
     * View the [Effective Permissions](../../../sites/administering/using/user-group-ac-admin.md)
 
@@ -239,7 +239,7 @@ Clicking or tapping** Properties** to define the page properties:
 
 1. Select the **Properties** option for the required page using either:
 
-    * [Quick actions](../../../sites/authoring/using/basic-handling.md#quickactions)
+    * [Quick actions](../../../sites/authoring/using/basic-handling.md#quick-actions)
     * [Selection mode](../../../sites/authoring/using/basic-handling.md#selectionmode)
 
    The page properties will be shown using the appropriate tabs.

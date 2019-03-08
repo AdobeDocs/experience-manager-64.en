@@ -3,11 +3,11 @@ title: AEM Forms workspace JSON object description
 seo-title: AEM Forms workspace JSON object description
 description: Conceptual information about the JSON JavaScript objects used in LiveCycle AEM Forms workspace for customization, extension, modification, and reuse.
 seo-description: Conceptual information about the JSON JavaScript objects used in LiveCycle AEM Forms workspace for customization, extension, modification, and reuse.
-uuid: 732fe2f4-55bf-420a-af82-9cd99623c06c
+uuid: 267d55bd-f4aa-4b93-8e78-fa87276840f3
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
-discoiquuid: 0fe25986-9bab-43da-b1df-3ec9cd948e67
+discoiquuid: 14d8e670-dd12-40b7-9423-7a0bac13a798
 index: y
 internal: n
 snippet: y

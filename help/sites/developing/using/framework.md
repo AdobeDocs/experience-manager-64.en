@@ -3,12 +3,12 @@ title: AEM Tagging Framework
 seo-title: AEM Tagging Framework
 description: Tag content and leverage the AEM Tagging infrastructure
 seo-description: Tag content and leverage the AEM Tagging infrastructure
-uuid: 119e3ba7-d96c-4b7e-9296-18800f8873d2
+uuid: 52ac1cee-52b2-437a-aed8-0eb840e05dd1
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
-discoiquuid: 25af10c4-8c54-4646-90fe-d5b6c1af5afc
+discoiquuid: 2223865b-f5a6-490b-92e5-0c814ff77dda
 index: y
 internal: n
 snippet: y
@@ -18,10 +18,10 @@ snippet: y
 
 To tag content and leverage the AEM Tagging infrastructure :
 
-* The tag must exist as a node of type ` [cq:Tag](#tagscqtagnodetype)` under the [taxonomy root node](#taxonomyrootnode)
+* The tag must exist as a node of type ` [cq:Tag](#tags-cq-tag-node-type)` under the [taxonomy root node](#taxonomy-root-node)
 
-* The tagged content node's NodeType must include the [ `cq:Taggable`](#taggablecontentcqtaggablemixin) mixin
-* The [TagID](#tagid) is added to the content node's [ `cq:tags`](#taggedcontentcqtagsproperty) property and resolves to a node of type ` [cq:Tag](#tagscqtagnodetype)`
+* The tagged content node's NodeType must include the [ `cq:Taggable`](#taggable-content-cq-taggable-mixin) mixin
+* The [TagID](#tagid) is added to the content node's [ `cq:tags`](#tagged-content-cq-tags-property) property and resolves to a node of type ` [cq:Tag](#tags-cq-tag-node-type)`
 
 ## Tags : cq:Tag Node Type  {#tags-cq-tag-node-type}
 
@@ -39,24 +39,24 @@ The tagging framework also provides the ability to restrict authors and site vis
 
 * node type is `cq:Tag`
 * node name is a component of the ` [TagID](#tagid)`
-* the ` [TagID](#tagid)` always includes a [namespace](#tagnamespace)
+* the ` [TagID](#tagid)` always includes a [namespace](#tag-namespace)
 
 * optional `jcr:title` property (the Title to display in the UI)  
 
 * optional `jcr:description` property  
 
-* when containing child nodes, is referred to as a [container tag](#containertags)
-* is stored in the repository below a base path called the [taxonomy root node](#taxonomyrootnode)
+* when containing child nodes, is referred to as a [container tag](#container-tags)
+* is stored in the repository below a base path called the [taxonomy root node](#taxonomy-root-node)
 
 ### TagID {#tagid}
 
 A TagID identifies a path which resolves to a tag node in the repository.
 
-Typically, the TagID is a shorthand TagID starting with the namespace or it can be an absolute TagID starting from the [taxonomy root node](#taxonomyrootnode).
+Typically, the TagID is a shorthand TagID starting with the namespace or it can be an absolute TagID starting from the [taxonomy root node](#taxonomy-root-node).
 
-When content is tagged, if it does not yet exist, the ` [cq:tags](#taggedcontentcqtagsproperty)` property is added to the content node and the TagID is added to the property's String array value.
+When content is tagged, if it does not yet exist, the ` [cq:tags](#tagged-content-cq-tags-property)` property is added to the content node and the TagID is added to the property's String array value.
 
-The TagID consists of a [namespace](#tagnamespace) followed by the local TagID. [Container tags](#containertags) have sub-tags that represent a hierarchical order in the taxonomy. Sub-tags can be used to reference tags same as any local TagID. For example tagging content with "fruit" is allowed, even if it is a container tag with sub-tags, such as "fruit/apple" and "fruit/banana".
+The TagID consists of a [namespace](#tag-namespace) followed by the local TagID. [Container tags](#container-tags) have sub-tags that represent a hierarchical order in the taxonomy. Sub-tags can be used to reference tags same as any local TagID. For example tagging content with "fruit" is allowed, even if it is a container tag with sub-tags, such as "fruit/apple" and "fruit/banana".
 
 ### Taxonomy Root Node {#taxonomy-root-node}
 
@@ -68,7 +68,7 @@ In AEM, the base path is `/content/  cq   :tags` and the root node is of type ` 
 
 Namespaces allow to group things. The most typical use-case is to have a namespace per (web)site (for example public, internal, and portal) or per larger application (e.g. WCM, Assets, Communities) but namespaces can be used for various other needs. Namespaces are used in the user interface to only show the subset of tags (i.e. tags of a certain namespace) that is applicable to the current content.
 
-The tag's namespace is the first level in the taxonomy subtree, which is the node immediately below the [taxonomy root node](#taxonomyrootnode). A namespace is a node of type `cq:Tag` whose parent is not a `cq:Tag`node type.
+The tag's namespace is the first level in the taxonomy subtree, which is the node immediately below the [taxonomy root node](#taxonomy-root-node). A namespace is a node of type `cq:Tag` whose parent is not a `cq:Tag`node type.
 
 All tags have a namespace. If no namespace is specified, the tag is assigned to the default namespace, which is TagID `default` (Title is `Standard Tags),`that is `/content/cq:tags/default.`
 
@@ -150,12 +150,12 @@ When the tag includes the optional title string ( `jcr:title`) it is possible to
 
 For more details see
 
-* [Tags in Different Languages](../../../sites/developing/using/building.md#tagsindifferentlanguages) - which describes use of the APIs
-* [Managing Tags in Different Languages](../../../sites/administering/using/tags.md#managingtagsindifferentlanguages) - which describes use of the Tagging console
+* [Tags in Different Languages](../../../sites/developing/using/building.md#tags-in-different-languages) - which describes use of the APIs
+* [Managing Tags in Different Languages](../../../sites/administering/using/tags.md#managing-tags-in-different-languages) - which describes use of the Tagging console
 
 ### Access Control {#access-control}
 
-Tags exist as nodes in the repository under the [taxonomy root node](#taxonomyrootnode). Allowing or denying authors and site visitors to create tags in a given namespace can be achieved by setting appropiate ACLs in the repository.
+Tags exist as nodes in the repository under the [taxonomy root node](#taxonomy-root-node). Allowing or denying authors and site visitors to create tags in a given namespace can be achieved by setting appropiate ACLs in the repository.
 
 Also, denying read permissions for certains tags or namespaces will control the ability to apply tags to specific content.
 
@@ -204,7 +204,7 @@ The essential definitions for the Node Types included in AEM are as follows:
 
 ## Tagged Content: cq:tags Property {#tagged-content-cq-tags-property}
 
-The `cq:tags` property is a String array used to store one or more TagIDs when they are applied to content by authors or site visitors. The property only has meaning when added to a node which is defined with the ` [cq:Taggable](#taggablecontentcqtaggablemixin)` mixin.
+The `cq:tags` property is a String array used to store one or more TagIDs when they are applied to content by authors or site visitors. The property only has meaning when added to a node which is defined with the ` [cq:Taggable](#taggable-content-cq-taggable-mixin)` mixin.
 
 >[!NOTE]
 >

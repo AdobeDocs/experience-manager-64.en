@@ -3,12 +3,12 @@ title: Troubleshooting your Adobe Campaign Integration
 seo-title: Troubleshooting your Adobe Campaign Integration
 description: Learn how to troubleshoot issues with the Adobe Campaign Integration.
 seo-description: Learn how to troubleshoot issues with the Adobe Campaign Integration.
-uuid: 6d51922d-1079-452e-b2ed-868cc6736ddc
+uuid: 8ffa589a-8338-4809-8588-6ef5fc6d7bab
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: bd685d62-0a65-4d27-896f-b7a61afe76bb
+discoiquuid: 41aa7286-abf3-4ad1-88e7-56e6a88cad22
 index: y
 internal: n
 snippet: y
@@ -38,7 +38,7 @@ Check that you have configured the **aemserver** operator in Adobe Campaign.
 
 Check the HTML source and validate that you can open the URL from the client machine. If the URL has localhost:4503 in it, then change the configuration of Day CQ Link Externalizer on your author instance to point to a publish instance that can be reached from the Adobe Campaign console machine.
 
-See [Configuring the Externalizer.](../../../sites/administering/using/campaignstandard.md#configuringtheexternalizer)
+See [Configuring the Externalizer.](../../../sites/administering/using/campaignstandard.md#configuring-the-externalizer)
 
 ## If you cannot connect from AEM to Adobe Campaign {#if-you-cannot-connect-from-aem-to-adobe-campaign}
 
@@ -132,4 +132,4 @@ When creating a mail template for Adobe Campaign, you must include the property 
 
 ## If you get the error "com.day.cq.mcm.campaign.servlets.util.ParameterMapper" in your logs {#if-you-get-the-error-com-day-cq-mcm-campaign-servlets-util-parametermapper-in-your-logs}
 
-When using your custom template, you get the error "com.day.cq.mcm.campaign.servlets.util.ParameterMapper" in your logs. In this event, be sure to install Featurepack 6576 from [Package Share](../../../sites/administering/using/package-manager.md#packageshare). This is an issue where if the acMapping property is set to a value other than recipient.firstName, a blank value is created on the Adobe Campaign Manager side. 
+When using your custom template, you get the error "com.day.cq.mcm.campaign.servlets.util.ParameterMapper" in your logs. In this event, be sure to install Featurepack 6576 from [Package Share](../../../sites/administering/using/package-manager.md#package-share). This is an issue where if the acMapping property is set to a value other than recipient.firstName, a blank value is created on the Adobe Campaign Manager side. 

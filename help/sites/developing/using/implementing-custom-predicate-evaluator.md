@@ -3,12 +3,12 @@ title: Implementing a Custom Predicate Evaluator for the Query Builder
 seo-title: Implementing a Custom Predicate Evaluator for the Query Builder
 description: The Query Builder offers an easy way of querying the content repository
 seo-description: The Query Builder offers an easy way of querying the content repository
-uuid: dc402986-b95e-4c26-aaab-b42b056f6695
+uuid: cafe4d1c-6ba5-4c15-a973-9ef9d5015cfa
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
-discoiquuid: fe9fda7e-e99f-4197-939a-bb621dc5d2f1
+discoiquuid: 17ccffd2-b257-4879-a442-7646b8c46098
 index: y
 internal: n
 snippet: y
@@ -52,7 +52,7 @@ It maps a higher-level search constraint (such as "width &gt; 200") to a specifi
 
 >[!NOTE]
 >
->For more information about the `PredicateEvaluator` and the `com.day.cq.search` package see the [Java documentation](/sites/developing/using/reference-materials/javadoc/index.html?com/day/cq/search/package-summary).
+>For more information about the `PredicateEvaluator` and the `com.day.cq.search` package see the [Java documentation](/sites/developing/using/reference-materials/javadoc/index.html?com/day/cq/search/package-summary.md).
 
 ### Implementing a Custom Predicate Evaluator for Replication Metadata {#implementing-a-custom-predicate-evaluator-for-replication-metadata}
 
@@ -131,7 +131,7 @@ The `cq-search` project contains the `AbstractPredicateEvaluator` abstract class
 
 >[!NOTE]
 >
->The following procedure explains how to build an `Xpath` expression to filter data. Another option would be to implement the `includes` method that selects data on a row basis. See the [Java documentation](/sites/developing/using/reference-materials/javadoc/com/day/cq/search/eval/PredicateEvaluator#includes28comdaycqsearchPredicatejavaxjcrqueryRowcomdaycqsearchevalEvaluationContext29) for more information.
+>The following procedure explains how to build an `Xpath` expression to filter data. Another option would be to implement the `includes` method that selects data on a row basis. See the [Java documentation](/sites/developing/using/reference-materials/javadoc/com/day/cq/search/eval/PredicateEvaluator.md#includes28comdaycqsearchpredicatejavaxjcrqueryrowcomdaycqsearchevalevaluationcontext29) for more information.
 
 1. Create a new Java class which extends `com.day.cq.search.eval.AbstractPredicateEvaluator`
 1. Annotate your class with a `@Component` like the following

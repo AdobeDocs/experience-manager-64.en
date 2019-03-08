@@ -3,12 +3,12 @@ title: Assigning Usage Rights
 seo-title: Assigning Usage Rights
 description: null
 seo-description: null
-uuid: a4e9142a-f80e-456c-8ea4-435de21809b6
+uuid: 4ed19570-60d2-410d-821b-10a41d94cbf8
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: 5c750f5a-0428-4502-994a-7387d67fcd52
+discoiquuid: adb9ea07-6d7c-4a09-8eb1-bca9bdfa533b
 index: y
 internal: n
 snippet: y
@@ -22,9 +22,9 @@ The Acrobat Reader DC extensions service enables your organization to easily sha
 
 You can accomplish these tasks using the Acrobat Reader DC extensions service:
 
-* Apply usage rights to PDF documents. For information, see [Applying Usage Rights to PDF Documents](assigning-usage-rights#applying_usage_rights_to_pdf_documents).
-* Remove usage rights from PDF documents. For information, see [Removing Usage Rights from PDF Documents](assigning-usage-rights#removing_usage_rights_from_pdf_documents).
-* Retrieve credential details. For information, see [Retrieving Credential Information](assigning-usage-rights#retrieving_credential_information).
+* Apply usage rights to PDF documents. For information, see [Applying Usage Rights to PDF Documents](assigning-usage-rights.md#applying_usage_rights_to_pdf_documents).
+* Remove usage rights from PDF documents. For information, see [Removing Usage Rights from PDF Documents](assigning-usage-rights.md#removing_usage_rights_from_pdf_documents).
+* Retrieve credential details. For information, see [Retrieving Credential Information](assigning-usage-rights.md#retrieving_credential_information).
 
 >[!NOTE]
 >
@@ -83,15 +83,15 @@ After the Acrobat Reader DC extensions service applies usage rights to a PDF doc
 
 **See also**
 
-[Apply usage rights using the Java API](assigning-usage-rights#apply_usage_rights_using_the_java_api)
+[Apply usage rights using the Java API](assigning-usage-rights.md#apply_usage_rights_using_the_java_api)
 
-[Apply usage rights using the web service API](assigning-usage-rights#apply_usage_rights_using_the_web_service_api)
+[Apply usage rights using the web service API](assigning-usage-rights.md#apply_usage_rights_using_the_web_service_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
 
-[Acrobat Reader DC Extensions Service API Quick Starts](/programming-with-aem-forms/acrobat-reader-dc-extensions-service#acrobat_reader_dc_extensions_service_java_api_quick_start_soap)
+[Acrobat Reader DC Extensions Service API Quick Starts](/programming-with-aem-forms/acrobat-reader-dc-extensions-service.md#acrobat_reader_dc_extensions_service_java_api_quick_start_soap)
 
 ### Apply usage rights using the Java API {#apply-usage-rights-using-the-java-api}
 
@@ -140,13 +140,13 @@ Apply usage rights to a PDF document by using the Acrobat Reader DC Extensions A
 
 **See also**
 
-[Applying Usage Rights to PDF Documents](assigning-usage-rights#applying_usage_rights_to_pdf_documents)
+[Applying Usage Rights to PDF Documents](assigning-usage-rights.md#applying_usage_rights_to_pdf_documents)
 
-[Quick Start (SOAP mode):Applying usage rights using the Java API](/programming-with-aem-forms/acrobat-reader-dc-extensions-service#quick_start_soap_mode_applying_usage_rights_using_the_java_api)
+[Quick Start (SOAP mode):Applying usage rights using the Java API](/programming-with-aem-forms/acrobat-reader-dc-extensions-service.md#quick_start_soap_mode_applying_usage_rights_using_the_java_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
 
 ### Apply usage rights using the web service API {#apply-usage-rights-using-the-web-service-api}
 
@@ -210,15 +210,15 @@ Apply usage rights to a PDF document by using the Acrobat Reader DC Extensions A
 
 **See also**
 
-[Applying Usage Rights to PDF Documents](assigning-usage-rights#applying_usage_rights_to_pdf_documents)
+[Applying Usage Rights to PDF Documents](assigning-usage-rights.md#applying_usage_rights_to_pdf_documents)
 
 [Quick Start (MTOM): Applying usage rights using the web service API](#unresolvedlink-lc-qs-reader-extensions-re.xml#ws624e3cba99b79e12e69a9941333732bac8-7d0f.2)
 
 [Quick Start (SwaRef): Applying usage rights using the web service API](#unresolvedlink-lc-qs-reader-extensions-re.xml#ws624e3cba99b79e12e69a9941333732bac8-7d0e.2)
 
-[Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_mtom)
+[Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
 
-[Invoking AEM Forms using SwaRef](/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_swaref)
+[Invoking AEM Forms using SwaRef](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_swaref)
 
 ## Removing Usage Rights from PDF Documents {#removing-usage-rights-from-pdf-documents}
 
@@ -260,17 +260,17 @@ You can save the PDF document that no longer contains usage-rights as a PDF file
 
 **See also**
 
-[Remove usage rights using the Java API](assigning-usage-rights#remove_usage_rights_using_the_java_api)
+[Remove usage rights using the Java API](assigning-usage-rights.md#remove_usage_rights_using_the_java_api)
 
-[Remove usage rights using the web service API](assigning-usage-rights#remove_usage_rights_using_the_web_service_api)
+[Remove usage rights using the web service API](assigning-usage-rights.md#remove_usage_rights_using_the_web_service_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
 
-[Acrobat Reader DC Extensions Service API Quick Starts](/programming-with-aem-forms/acrobat-reader-dc-extensions-service#acrobat_reader_dc_extensions_service_java_api_quick_start_soap)
+[Acrobat Reader DC Extensions Service API Quick Starts](/programming-with-aem-forms/acrobat-reader-dc-extensions-service.md#acrobat_reader_dc_extensions_service_java_api_quick_start_soap)
 
-[Applying Usage Rights to PDF Documents](assigning-usage-rights#applying_usage_rights_to_pdf_documents)
+[Applying Usage Rights to PDF Documents](assigning-usage-rights.md#applying_usage_rights_to_pdf_documents)
 
 ### Remove usage rights using the Java API {#remove-usage-rights-using-the-java-api}
 
@@ -300,13 +300,13 @@ Remove usage rights from a rights-enabled PDF document by using the Acrobat Read
 
 **See also**
 
-[Removing Usage Rights from PDF Documents](assigning-usage-rights#removing_usage_rights_from_pdf_documents)
+[Removing Usage Rights from PDF Documents](assigning-usage-rights.md#removing_usage_rights_from_pdf_documents)
 
 [Quick Start (SOAP mode): Removing usage rights from a PDF document using the Java API](#unresolvedlink-lc-qs-reader-extensions-re.xml#ws624e3cba99b79e12e69a9941333732bac8-7d0b.2)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
 
 ### Remove usage rights using the web service API {#remove-usage-rights-using-the-web-service-api}
 
@@ -353,15 +353,15 @@ Remove usage rights from a rights-enabled PDF document by using the Acrobat Read
 
 **See also**
 
-[Removing Usage Rights from PDF Documents](assigning-usage-rights#removing_usage_rights_from_pdf_documents)
+[Removing Usage Rights from PDF Documents](assigning-usage-rights.md#removing_usage_rights_from_pdf_documents)
 
 [Quick Start (MTOM): Removing usage rights from a PDF document using the web service API](#unresolvedlink-lc-qs-reader-extensions-re.xml#ws624e3cba99b79e12e69a9941333732bac8-7d0a.2)
 
 [Quick Start (SwaRef): Removing usage rights from a PDF document using the web service API](#unresolvedlink-lc-qs-reader-extensions-re.xml#ws624e3cba99b79e12e69a9941333732bac8-7d05.2)
 
-[Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_mtom)
+[Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
 
-[Invoking AEM Forms using SwaRef](/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_swaref)
+[Invoking AEM Forms using SwaRef](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_swaref)
 
 ## Retrieving Credential Information {#retrieving-credential-information}
 
@@ -404,15 +404,15 @@ After you retrieve a rights-enabled PDF document, you can obtain information abo
 
 **See also**
 
-[Remove usage rights using the Java API](assigning-usage-rights#remove_usage_rights_using_the_java_api)
+[Remove usage rights using the Java API](assigning-usage-rights.md#remove_usage_rights_using_the_java_api)
 
-[Remove usage rights using the web service API](assigning-usage-rights#remove_usage_rights_using_the_web_service_api)
+[Remove usage rights using the web service API](assigning-usage-rights.md#remove_usage_rights_using_the_web_service_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
 
-[Acrobat Reader DC Extensions Service API Quick Starts](/programming-with-aem-forms/acrobat-reader-dc-extensions-service#acrobat_reader_dc_extensions_service_java_api_quick_start_soap)
+[Acrobat Reader DC Extensions Service API Quick Starts](/programming-with-aem-forms/acrobat-reader-dc-extensions-service.md#acrobat_reader_dc_extensions_service_java_api_quick_start_soap)
 
 ### Retrieve credential information using the Java API {#retrieve-credential-information-using-the-java-api}
 
@@ -439,13 +439,13 @@ Retrieve credential information by using the Acrobat Reader DC extensions API (J
 
 **See also**
 
-[Retrieving Credential Information](assigning-usage-rights#retrieving_credential_information)
+[Retrieving Credential Information](assigning-usage-rights.md#retrieving_credential_information)
 
 [Quick Start (SOAP mode): Retrieving credential information using the Java API](#unresolvedlink-lc-qs-reader-extensions-re.xml#ws624e3cba99b79e12e69a9941333732bac8-7d02.2)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
 
 ### Retrieve credential information using the web service API {#retrieve-credential-information-using-the-web-service-api}
 
@@ -489,12 +489,12 @@ Retrieve credential information using the Acrobat Reader DC extensions API (web 
 
 **See also**
 
-[Retrieving Credential Information](assigning-usage-rights#retrieving_credential_information)
+[Retrieving Credential Information](assigning-usage-rights.md#retrieving_credential_information)
 
 [Quick Start (MTOM): Retrieving credential information using the web service API](#unresolvedlink-lc-qs-reader-extensions-re.xml#ws624e3cba99b79e12e69a9941333732bac8-7d01.2)
 
 [Quick Start (SwaRef): Retrieving credential information using the web service API](#unresolvedlink-lc-qs-reader-extensions-re.xml#ws624e3cba99b79e12e69a9941333732bac8-7d00.2)
 
-[Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_mtom)
+[Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
 
-[Invoking AEM Forms using SwaRef](/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_swaref)
+[Invoking AEM Forms using SwaRef](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_swaref)

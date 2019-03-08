@@ -3,12 +3,12 @@ title: Content Fragments - Delete Considerations
 seo-title: Content Fragments - Delete Considerations
 description: Content Fragments - Delete Considerations
 seo-description: Content Fragments - Delete Considerations
-uuid: 94780587-13e7-4f9f-be3b-2180bb60276c
+uuid: e1532e30-dad1-4791-9742-8c9c97b78c80
 contentOwner: aheimoz
 topic-tags: content-fragments
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
-discoiquuid: 8d8e4895-8651-403d-a506-2fdb4239e590
+discoiquuid: 6a256902-329b-4259-9f4e-29c9203ad7c1
 index: y
 internal: n
 snippet: y
@@ -30,7 +30,7 @@ With regards to delete permissions, Content Fragments must be considered at two 
 
     * **Use case**: A user who needs to edit/update a content fragment - **and delete an entire fragment**.  
     
-    * **Permissions**: The [Delete](../../sites/administering/using/security.md#actions) permission can be [assigned through User and/or Group Management](../../sites/administering/using/security.md#managingpermissions).
+    * **Permissions**: The [Delete](../../sites/administering/using/security.md#actions) permission can be [assigned through User and/or Group Management](../../sites/administering/using/security.md#managing-permissions).
 
 1. **The multiple sub-entities that make up a content fragment; for example, variations, sub-nodes.**
 
@@ -38,7 +38,7 @@ With regards to delete permissions, Content Fragments must be considered at two 
 
     * **Use case**: A user who needs to edit/update a content fragment - **without being allowed to delete an entire fragment**.  
     
-    * **Permissions**: See [Permissions Required for Editor Functionality Only](/assets/using/content-fragments-delete.html?cq_ck=1542192276518#PermissionsRequiredforEditorFunctionalityOnly).
+    * **Permissions**: See [Permissions Required for Editor Functionality Only](../../assets/using/content-fragments-delete.md#permissions-required-for-editor-functionality-only).
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ For example, when manipulating variations; also when editing metadata or managin
 
 >[!NOTE]
 >
->The delete permissions, required to edit/update a Content Fragment, are included in the Delete permission [assigned through User and/or Group Management](../../sites/administering/using/security.md#managingpermissions).
+>The delete permissions, required to edit/update a Content Fragment, are included in the Delete permission [assigned through User and/or Group Management](../../sites/administering/using/security.md#managing-permissions).
 
 The permissions needed to edit/update a fragment need to be applied to either the node containing the content fragment, or an appropriate parent node (at any level under `/content/dam`). When assigned to such a parent node, the permissions will be applied to all nodes within that branch.
 
@@ -88,7 +88,7 @@ The permissions prerequisite to allowing a specific user and/or group to edit/up
 
     * `jcr:addChildNodes`, `jcr:modifyProperties` and `jcr:removeChildNodes`, `jcr:removeNode`
 
-These `remove` privileges must be [administered using Access Control Lists, within CRXDE Lite](../../sites/administering/using/user-group-ac-admin.md#accessrightmanagement).
+These `remove` privileges must be [administered using Access Control Lists, within CRXDE Lite](../../sites/administering/using/user-group-ac-admin.md#access-right-management).
 
 The `add` and `modify` privileges can also be administered in CRXDE Lite, or using the User Management console.
 

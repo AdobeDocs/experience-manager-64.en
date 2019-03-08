@@ -3,12 +3,12 @@ title: Integrating with Adobe Campaign
 seo-title: Integrating with Adobe Campaign
 description: Learn how to integrate AEM with Adobe Campaign.
 seo-description: Learn how to integrate AEM with Adobe Campaign.
-uuid: 3512941d-b8cc-45bd-9039-e1a81b74c664
+uuid: b6a35dd0-b43b-4a56-8a4e-8cb6cc33c6a5
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: 459ad773-ffc2-4027-9bd4-e52ee4756c22
+discoiquuid: c0f0c373-3133-4da9-afe3-2e29c135d547
 index: y
 internal: n
 snippet: y

@@ -3,11 +3,11 @@ title: Supported Platforms for AEM Forms on JEE
 seo-title: Supported Platforms for AEM Forms on JEE
 description: List of infrastructure components required and supported for installing AEM Forms on JEE
 seo-description: List of infrastructure components required and supported for installing AEM Forms on JEE
-uuid: 8af93141-a718-43f1-bae8-4a88e20d0e6c
+uuid: 939c363e-2865-4695-bfea-8585f1276a5e
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 geptopics: SG_AEMFORMS/categories/jee
-discoiquuid: 8da81a52-8ded-43ed-98d3-1136f3969cfa
+discoiquuid: 6a7789c4-87b8-4c0c-8c1b-34fe42b59144
 index: y
 internal: n
 snippet: y

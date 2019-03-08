@@ -3,11 +3,11 @@ title: Using the sendToPrinter API
 seo-title: Using the sendToPrinter API
 description: Using the sendToPrinter service to send a document to printer.
 seo-description: Using the sendToPrinter service to send a document to printer.
-uuid: 2bd9b7c2-b3b8-4dc9-837d-0062e482f858
+uuid: b15a9c92-3821-4a34-8701-35a5e9d2690c
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: document_services
-discoiquuid: 618d17a7-c7d9-47aa-972b-cd15ba89781d
+discoiquuid: 4fa14e62-800e-48bf-a3e0-a8911f634544
 index: y
 internal: n
 snippet: y

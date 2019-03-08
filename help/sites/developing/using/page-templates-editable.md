@@ -3,12 +3,12 @@ title: Page Templates - Editable
 seo-title: Page Templates - Editable 
 description: Editable templates have been introduced to, allow non-developers to create and edit templates, provide templates that retain a dynamic connection to any pages created from them, and make the page component more generic
 seo-description: Editable templates have been introduced to, allow non-developers to create and edit templates, provide templates that retain a dynamic connection to any pages created from them, and make the page component more generic
-uuid: d0b51146-ba24-4733-a38a-89ebcad6d211
+uuid: 3d95b438-0d94-4aab-87bf-3922d88cca65
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
-discoiquuid: 3101825d-eee2-449e-af65-fc8ed3751b6e
+discoiquuid: bc83bc15-3dbf-478a-be9d-daf7f942fcc8
 index: y
 internal: n
 snippet: y
@@ -56,8 +56,8 @@ For information on how to use editable templates in an AEM project see [Creating
 
 When creating a new editable template you:
 
-1. Create a [folder for the templates](#templatefolders). This is not mandatory, but is recommended best practice.
-1. Select a [template type](#templatetype). This is copied to create the [template definition](#templatedefinitions).
+1. Create a [folder for the templates](#template-folders). This is not mandatory, but is recommended best practice.
+1. Select a [template type](#template-type). This is copied to create the [template definition](#template-definitions).
 
    >[!NOTE]
    >
@@ -205,7 +205,7 @@ To create a new folder, you can either do this:
 
    The `template-authors` group is the default group that needs to be assigned. See the following section [ACLs and Groups](../../../sites/developing/using/page-templates-editable.md#acls-and-groups) for details.
 
-   See [Access Right Management](../../../sites/administering/using/user-group-ac-admin.md#accessrightmanagement) for full details on managing and assigning access rights.
+   See [Access Right Management](../../../sites/administering/using/user-group-ac-admin.md#access-right-management) for full details on managing and assigning access rights.
 
 #### Using the Configuration Browser {#using-the-configuration-browser}
 
@@ -481,7 +481,7 @@ The main elements are:
 
 * `<*template-name*>`
 
-    * ` [initial](#initialcontent)`
+    * ` [initial](#initial-content)`
     * `jcr:content`
     * ` [structure](#structure)`
     * ` [policies](#policies)`
@@ -557,7 +557,7 @@ The content (or design) policies define the design properties of a component. Fo
 
 ### Page Policies {#page-policies}
 
-Page policies allow you to define the [content policy](#contentpolicies) for the page (main parsys), in either the template or resultant pages.
+Page policies allow you to define the [content policy](#content-policies) for the page (main parsys), in either the template or resultant pages.
 
 ### Enabling and Allowing a Template for Use {#enabling-and-allowing-a-template-for-use}
 
@@ -580,7 +580,7 @@ Page policies allow you to define the [content policy](#contentpolicies) for the
 
 1. **Allowed Templates**
 
-    * [Define the Allowed Template path(s) on the **Page Properties**](../../../sites/authoring/using/templates.md#allowingatemplateauthor) of the appropriate page or root page of a sub-branch.
+    * [Define the Allowed Template path(s) on the **Page Properties**](../../../sites/authoring/using/templates.md#allowing-a-template-author) of the appropriate page or root page of a sub-branch.
     * Set the property:  
       `cq:allowedTemplates`  
       On the `jcr:content` node of the required branch.
@@ -611,7 +611,7 @@ The above diagram shows how templates, content, and components interrelate:
   The resultant page that references the template. The content controls the entire process. According to the definitions it accesses the appropriate template and components.  
 
 * Configuration - `/conf/<*my-folder*>/settings/wcm/templates/<*my-template*>`  
-  The [template and related content policies](#templatedefinitions) define the page configuration.  
+  The [template and related content policies](#template-definitions) define the page configuration.  
 
 * Model - OSGi bundles  
   The [OSGI bundles](../../../sites/deploying/using/osgi-configuration-settings.md) implement the functionality.  

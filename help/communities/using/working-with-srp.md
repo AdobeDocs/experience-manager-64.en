@@ -3,12 +3,12 @@ title: SRP - Community Content Storage
 seo-title: SRP - Community Content Storage
 description: As of AEM Communities 6.1, user generated content (UGC) is stored in a single, common store provided by a storage resource provider (SRP)
 seo-description: As of AEM Communities 6.1, user generated content (UGC) is stored in a single, common store provided by a storage resource provider (SRP)
-uuid: baba5096-ba6c-4df8-997d-3cd5ba4b820c
+uuid: 5764f3b6-7d3b-4e60-b9ba-d465e9d9d06c
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 422c5baa-01f7-43aa-b288-78ec490e41c5
+discoiquuid: 37a36f32-769d-4144-9f9c-988f55e3ac7e
 index: y
 internal: n
 snippet: y
@@ -22,17 +22,17 @@ As of AEM Communities 6.1, user-generated content (UGC) is stored in a single, c
 
 Unlike prior releases, there is no reverse/forward replication of UGC across AEM instances. Instead, the SRP makes UGC directly accessible for create, read, update, and delete (CRUD) operations from all author and publish instances, with an exception for JSRP.
 
-Following are the [characteristics of each SRP option](#characteristicsofsrpoptions), which is crucial information for the decision process when choosing the appropriate SRP and [underlying deployment](../../communities/using/topologies.md).
+Following are the [characteristics of each SRP option](#characteristics-of-srp-options), which is crucial information for the decision process when choosing the appropriate SRP and [underlying deployment](../../communities/using/topologies.md).
 
 For details regarding the use of SRP for UGC, see [Storage Resource Provider Overview](../../communities/using/srp.md).
 
 >[!NOTE]
 >
->SRP applies only to community content. It does not affect where site content is stored ([node store](../../sites/deploying/using/data-store-config.md)), and does not affect the secure handling of user registration, user profiles and user groups between AEM instances (see also [Managing User Data](#managinguserdata)).
+>SRP applies only to community content. It does not affect where site content is stored ([node store](../../sites/deploying/using/data-store-config.md)), and does not affect the secure handling of user registration, user profiles and user groups between AEM instances (see also [Managing User Data](#managing-user-data)).
 
 >[!CAUTION]
 >
->As of AEM 6.1, [UGC is never replicated](#ugcneverreplicated). 
+>As of AEM 6.1, [UGC is never replicated](#ugc-never-replicated). 
 >
 >When the deployment does not include a common store, such as the default [JSRP](../../communities/using/topologies.md#jsrp) topology, UGC will be visible only on the AEM publish or author instance on which it was entered. Only if the topology includes a publish cluster will the UGC be visible on any publish instance.
 
@@ -110,7 +110,7 @@ While site content is replicated, UGC is never replicated.
 
 ### Managing User Data {#managing-user-data}
 
-Also of interest to Communites are [*users*, *user groups*, and *user profiles*](../../communities/using/users.md). This user-related data, when created and updated in the publish environment, needs to be made available to other publish instances when the topology is a [publish farm](../../sites/deploying/using/recommended-deploys.md#tarmkfarm).
+Also of interest to Communites are [*users*, *user groups*, and *user profiles*](../../communities/using/users.md). This user-related data, when created and updated in the publish environment, needs to be made available to other publish instances when the topology is a [publish farm](../../sites/deploying/using/recommended-deploys.md#tarmk-farm).
 
 As of AEM Communities 6.1, user-related data is synchronized using Sling distribution instead of replication. For more information visit [User Synchronization](../../communities/using/sync.md).
 

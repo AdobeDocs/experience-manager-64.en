@@ -3,10 +3,10 @@ title: Improve performance of large forms with lazy loading
 seo-title: Improve performance of large forms with lazy loading
 description: Lazy loading significantly improves the performance of large and complex adaptive forms by deferring initialization and loading of form fragments until they are visible.
 seo-description: Lazy loading significantly improves the performance of large and complex adaptive forms by deferring initialization and loading of form fragments until they are visible.
-uuid: bfa8d70c-220d-4513-b217-cffa25daa2e4
+uuid: 4886b4ad-c6bd-4954-be4d-d4b025932331
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
-discoiquuid: 78ba77b6-10e3-4ee8-aae1-1718b684d93f
+discoiquuid: 31d2be1c-a423-4a13-9938-ceaeff6ba92b
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Application Server Install
 seo-title: Application Server Install
 description: Learn how to install AEM with an application server.
 seo-description: Learn how to install AEM with an application server.
-uuid: 0eff5267-95f2-450a-b330-8e97a922ebcb
+uuid: 1825d509-f582-42f0-8689-a8d17c2e8918
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
-discoiquuid: e28e6231-529b-4042-b68f-17a849dd59d6
+discoiquuid: eaeaa5d7-2e28-40df-a455-ada42c649829
 index: y
 internal: n
 snippet: y
@@ -21,20 +21,20 @@ snippet: y
 >`JAR` and `WAR` are the file types AEM is released in. These formats are undergoing quality assurance to accomodate the support levels Adobe has committed to.
 >
 
-This section tells you how to install Adobe Experience Manager (AEM) with an application server. Consult the [Supported Platforms](../../../sites/deploying/using/technical-requirements.md#servletenginesapplicationservers) section to see the specific support levels provided for the individual application servers.
+This section tells you how to install Adobe Experience Manager (AEM) with an application server. Consult the [Supported Platforms](../../../sites/deploying/using/technical-requirements.md#servlet-engines-application-servers) section to see the specific support levels provided for the individual application servers.
 
 The installation steps of the following Application Servers are described:
 
-* [WebSphere 8.5](#websphere85)
-* [JBoss EAP 6.3.0/6.4.0](#jbosseap630640)
-* [Oracle WebLogic 12.1.3/12.2](#oracleweblogic1213122)
-* [Tomcat 8/8.5](#tomcat885)
+* [WebSphere 8.5](#websphere)
+* [JBoss EAP 6.3.0/6.4.0](#jboss-eap)
+* [Oracle WebLogic 12.1.3/12.2](#oracle-weblogic)
+* [Tomcat 8/8.5](#tomcat)
 
 Consult the appropriate application server documentation for more information on installing web applications, server configurations and how to start and stop the server.
 
 >[!NOTE]
 >
->If you are using Dynamic Media in a WAR deployment, please see the [dynamic media documentation](../../../assets/using/config-dynamic.md#enablingdynamicmedia).
+>If you are using Dynamic Media in a WAR deployment, please see the [dynamic media documentation](../../../assets/using/config-dynamic.md#enabling-dynamic-media).
 
 ## General Description {#general-description}
 
@@ -96,7 +96,7 @@ For demonstration purposes it can be appropriate to install author and publish i
 
 #### WebSphere 8.5 {#websphere}
 
-Before a deployment read the [General Description](#generaldescription) above.
+Before a deployment read the [General Description](#general-description) above.
 
 **Server Preparation**
 
@@ -125,7 +125,7 @@ Before a deployment read the [General Description](#generaldescription) above.
 
 #### JBoss EAP 6.3.0/6.4.0 {#jboss-eap}
 
-Before a deployment read the [General Description](#generaldescription) above.
+Before a deployment read the [General Description](#general-description) above.
 
 **Prepare JBoss server**
 
@@ -149,7 +149,7 @@ if you use the deployment-scanner for to install the AEM web application it migh
 
 #### Oracle WebLogic 12.1.3/12.2 {#oracle-weblogic}
 
-Before a deployment read the [General Description](#generaldescription) above.
+Before a deployment read the [General Description](#general-description) above.
 
 This uses a simple Server Layout with only an Admin Server.
 
@@ -185,7 +185,7 @@ This uses a simple Server Layout with only an Admin Server.
 
 #### Tomcat 8/8.5 {#tomcat}
 
-Before a deployment read the [General Description](#generaldescription) above.
+Before a deployment read the [General Description](#general-description) above.
 
 * **Prepare Tomcat Server**
 

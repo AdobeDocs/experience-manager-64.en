@@ -3,12 +3,12 @@ title: Oracle database maximum open cursors threshold
 seo-title: Oracle database maximum open cursors threshold
 description: Learn about configuring a maximum value for open cursors in Oracle.
 seo-description: Learn about configuring a maximum value for open cursors in Oracle.
-uuid: 12eb73b6-65b4-4fb8-aafa-3974b78fbecb
+uuid: 61f48605-a26b-48af-b482-861a91ca6ebb
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/maintaining_the_aem_forms_database
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 2db4ea9d-9384-4562-9c94-cbc782eda5bb
+discoiquuid: 9c371c72-a4bb-45dc-9c4a-6bfb4f5bdfa1
 index: y
 internal: n
 snippet: y

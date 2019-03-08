@@ -4,12 +4,12 @@ seo-title: Page Authoring with Content Fragments
 description: Content fragments are created and managed as page-independent assets. They allow you to create channel-neutral content, together with variations.
 seo-description: Content fragments are created and managed as page-independent assets. They allow you to create channel-neutral content, together with variations.
 page-status-flag: de-activated
-uuid: 5496a86b-96c2-4afd-89f8-db54a45f6212
+uuid: b639546d-a8b0-4ccb-91ad-fabf5f6deb5c
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: 20fb309d-2302-41f0-bad4-0ff1715873d6
+discoiquuid: 068f545f-1dbb-4e7f-ac4e-189920deef75
 index: y
 internal: n
 snippet: y

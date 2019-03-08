@@ -3,12 +3,12 @@ title: Customizing the Websites Console (Classic UI)
 seo-title: Customizing the Websites Console (Classic UI)
 description: The Websites Administration console can be extended to display custom columns
 seo-description: The Websites Administration console can be extended to display custom columns
-uuid: 3648298e-b96a-4c81-95ba-9c92c187d15d
+uuid: 733d35a3-639c-4ef6-a396-7572f5505a24
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
-discoiquuid: e1ae2be4-02f0-48ad-b2da-6310d0e04309
+discoiquuid: 9d0ad5cd-c567-47c9-8420-5d6c3f1cd85e
 index: y
 internal: n
 snippet: y
@@ -22,9 +22,9 @@ The Websites Administration console can be extended to display custom columns. T
 
 This step-by-step tutorial explains how to display a new column in the Websites Administration console by implementing the `ListInfoProvider` interface. It consists of the following steps:
 
-1. [Creating the OSGI service](#creatingtheosgiservice) and deploying the bundle containing it to the AEM server.
-1. (optional) [Testing the new service](#testingthenewservice) by issuing a JSON call to request the JSON object that is used to build the console.
-1. [Displaying the new column](#displayingthenewcolumn) by extending the nodes structure of the console in the repository.
+1. [Creating the OSGI service](#creating-the-osgi-service) and deploying the bundle containing it to the AEM server.
+1. (optional) [Testing the new service](#testing-the-new-service) by issuing a JSON call to request the JSON object that is used to build the console.
+1. [Displaying the new column](#displaying-the-new-column) by extending the nodes structure of the console in the repository.
 
 >[!NOTE]
 >
@@ -55,7 +55,7 @@ The sample implementation below:
 
 To create the OSGI service:
 
-1. In CRXDE Lite, [create a bundle](../../../sites/developing/using/developing-with-crxde-lite.md#managingabundle).
+1. In CRXDE Lite, [create a bundle](../../../sites/developing/using/developing-with-crxde-lite.md#managing-a-bundle).
 1. Add the sample code below.
 1. Build the bundle.
 

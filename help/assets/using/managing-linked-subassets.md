@@ -3,12 +3,12 @@ title: Managing Compound Assets
 seo-title: Managing Compound Assets
 description: Learn how to create references to AEM assets from within Indesign, Adobe Illustrator, and Photoshop files. Also learn how to use the Page Viewer feature to view individual pages of multi-page files, including PDF, INDD, PPT, PPTX, and Ai files.
 seo-description: Learn how to create references to AEM assets from within Indesign, Adobe Illustrator, and Photoshop files. Also learn how to use the Page Viewer feature to view individual pages of multi-page files, including PDF, INDD, PPT, PPTX, and Ai files.
-uuid: e1796dfe-7494-4711-9a4f-d8344582ac93
+uuid: 6119d08a-d68c-45d5-9eab-e30e41c03cfa
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference
-discoiquuid: dc69d939-b830-4778-8b59-c0f35f321604
+discoiquuid: 8a2dc88a-07a0-4982-a65d-3862de2ef4fc
 index: y
 internal: n
 snippet: y
@@ -30,7 +30,7 @@ You can reference existing AEM assets from within an Adobe Illustrator file.
 
 1. Using [AEM Desktop App](https://helpx.adobe.com/experience-manager/desktop-app/aem-desktop-app.html), mount AEM Assets repository as a drive on your local machine. Within the mounted drive, navigate to the location of the asset that you want to reference.
 1. Drag the asset from the mounted drive to the Illustrator file.
-1. Save the Illustrator file to the mounted drive, or [upload](../../assets/using/managing-assets-touch-ui.md#uploadingassets) to the AEM repository.
+1. Save the Illustrator file to the mounted drive, or [upload](../../assets/using/managing-assets-touch-ui.md#uploading-assets) to the AEM repository.
 1. After the worflow completes, go to the asset details page for the asset. The references to existing AEM assets are listed under **Dependencies** in the **References** column.
 
    ![](assets/chlimage_1-258.png)
@@ -55,7 +55,7 @@ Referenced assets already exist in AEM Assets. You can extract subassets by [con
 
 ### Create references By Dragging AEM assets {#create-references-by-dragging-aem-assets}
 
-This procedure is similar to [Adding AEM assets as references in Adobe Illustrator](#refai). [](/assets/using/managing-linked-subassets.html?cq_ck=1538679171221#refai)
+This procedure is similar to [Adding AEM assets as references in Adobe Illustrator](#refai). [](../../assets/using/managing-linked-subassets.md#refai)
 
 ### Create references to AEM assets by exporting a ZIP file {#create-references-to-aem-assets-by-exporting-a-zip-file}
 
@@ -73,7 +73,7 @@ This procedure is similar to [Adding AEM assets as references in Adobe Illustrat
 
    ![](assets/chlimage_1-261.png)
 
-1. Save in Photoshop file to the mounted drive or or [upload](../../assets/using/managing-assets-touch-ui.md#uploadingassets) to the AEM repository.
+1. Save in Photoshop file to the mounted drive or or [upload](../../assets/using/managing-assets-touch-ui.md#uploading-assets) to the AEM repository.
 1. After the worflow completes, the references to existing AEM assets are listed in the asset details page.
 
    To view the referenced assets, close the [Rail](../../sites/authoring/using/basic-handling.md#therail) in the asset details page.

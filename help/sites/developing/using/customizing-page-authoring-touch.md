@@ -3,12 +3,12 @@ title: Customizing Page Authoring
 seo-title: Customizing Page Authoring
 description: AEM provides various mechanisms to enable you to customize page authoring functionality
 seo-description: AEM provides various mechanisms to enable you to customize page authoring functionality
-uuid: e9aeedd4-0a91-4b28-ac8c-1ca9e2b249e2
+uuid: 97b54f98-11cc-4ea5-ad0f-7e629ea2bb40
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
-discoiquuid: 0e9a54da-325d-4048-864e-d404ce70a5e9
+discoiquuid: 99505987-c7ee-40bb-b0a6-3eff8a437327
 index: y
 internal: n
 snippet: y
@@ -33,7 +33,7 @@ AEM provides various mechanisms to enable you to customize the page authoring fu
 
 >[!NOTE]
 >
->For further information see the [JS documentation set](/sites/developing/using/reference-materials/jsdoc/ui-touch/editor-core/index).
+>For further information see the [JS documentation set](/sites/developing/using/reference-materials/jsdoc/ui-touch/editor-core/index.md).
 
 These can be used in many ways to extend the page authoring functionality in your AEM instance. A selection are covered below (at a high level).
 
@@ -43,7 +43,7 @@ These can be used in many ways to extend the page authoring functionality in you
 >
 >* Using and creating [clientlibs](../../../sites/developing/using/clientlibs.md).
 >* Using and creating [overlays](../../../sites/developing/using/overlays.md).
->* [Granite](/sites/developing/using/reference-materials/granite-ui/api/jcr_root/libs/granite/ui/index) 
+>* [Granite](/sites/developing/using/reference-materials/granite-ui/api/jcr_root/libs/granite/ui/index.md) 
 >* [Structure of the AEM Touch-Enabled UI](../../../sites/developing/using/touch-ui-structure.md) for details of the structural areas used for page authoring.  
 >
 >This topic is also covered in the [AEM Gems](http://docs.adobe.com/content/ddc/en/gems.html) session - [User interface customization for AEM 6.0](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/aem-user-interface-customization-for-aem6.html).
@@ -105,9 +105,9 @@ You can find the code of this page on GitHub
 
 When authoring pages, the user must often select from resources (e.g. pages, components, assets, etc.). This can take the form of a list for example from which the author must choose an item.
 
-In order to keep the list to a reasonable size and also relevant to the use case, a filter can be implemented in the form of a custom predicate. For example, if the ` [pathbrowser](/sites/developing/using/reference-materials/granite-ui/api/index)` [Granite](../../../sites/developing/using/touch-ui-concepts.md#granite-ui) component is used to allow the user to select the path to a particular resource, the paths presented can be filtered in the following way:
+In order to keep the list to a reasonable size and also relevant to the use case, a filter can be implemented in the form of a custom predicate. For example, if the ` [pathbrowser](/sites/developing/using/reference-materials/granite-ui/api/index.md)` [Granite](../../../sites/developing/using/touch-ui-concepts.md#granite-ui) component is used to allow the user to select the path to a particular resource, the paths presented can be filtered in the following way:
 
-* Implement the custom predicate by implementing ` [com.day.cq.commons.predicate.AbstractNodePredicate](/sites/developing/using/reference-materials/javadoc/com/day/cq/commons/predicate/package-summary)` interface.
+* Implement the custom predicate by implementing ` [com.day.cq.commons.predicate.AbstractNodePredicate](/sites/developing/using/reference-materials/javadoc/com/day/cq/commons/predicate/package-summary.md)` interface.
 * Specify a name for the predicate, and refer that name when using the `pathbrowser`.
 
 For further detail on creating a custom predicate, see [this article](../../../sites/developing/using/implementing-custom-predicate-evaluator.md).

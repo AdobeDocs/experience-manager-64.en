@@ -3,12 +3,12 @@ title: Add Comment to Sample Page
 seo-title: Add Comment to Sample Page
 description: Add Custom Comments to a page
 seo-description: Add Custom Comments to a page
-uuid: ad2f93d4-7707-4d4a-a490-4fdec8170c26
+uuid: f331b7c8-ba8b-4d0f-b7ef-6df79a2e38b5
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 3dfd390b-09d7-4489-96a3-f326bfc7694f
+discoiquuid: 5b499ac1-5af0-4510-9ac8-43d54eaa3df4
 index: y
 internal: n
 snippet: y
@@ -29,7 +29,7 @@ The [Community Components Guide](../../communities/using/components-guide.md) id
 
 [http://localhost:4502/content/community-components/en/comments.html](http://localhost:4502/content/community-components/en/comments.html)
 
-Note the three client libraries required for Comments to render and function properly. These will need to be included where the extended Comments is referenced, as well as the [extended Comments' client library](../../communities/using/extend-create-components.md#createaclientlibraryfolder) ( `apps.custom.comments`).
+Note the three client libraries required for Comments to render and function properly. These will need to be included where the extended Comments is referenced, as well as the [extended Comments' client library](../../communities/using/extend-create-components.md#create-a-client-library-folder) ( `apps.custom.comments`).
 
 ![](assets/chlimage_1-47.png)
 
@@ -57,11 +57,11 @@ You can verify the resourceType in CRXDE by viewing the properties of the commen
 
 #### Publish Sample Page {#publish-sample-page}
 
-After the custom component is added to the page, it is also necessary to (re) [publish the page](../../communities/using/sites-console.md#publishingthesite).
+After the custom component is added to the page, it is also necessary to (re) [publish the page](../../communities/using/sites-console.md#publishing-the-site).
 
 #### Publish : Alt Comment on Sample Page {#publish-alt-comment-on-sample-page}
 
-After publishing both the custom application and the sample page, it should be possible to enter a comment. When signed in, either with a [demo user](../../communities/using/tutorials.md#demousers) or admin, it should be possible to post a comment.
+After publishing both the custom application and the sample page, it should be possible to enter a comment. When signed in, either with a [demo user](../../communities/using/tutorials.md#demo-users) or admin, it should be possible to post a comment.
 
 Here is aaron.mcdonald@mailinator.com posting a comment :
 

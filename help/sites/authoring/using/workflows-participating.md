@@ -3,12 +3,12 @@ title: Participating in Workflows
 seo-title: Participating in Workflows
 description: Workflows typically include steps that require a person to perform an activity on a page or asset.
 seo-description: Workflows typically include steps that require a person to perform an activity on a page or asset.
-uuid: 3942c499-4f79-4b6c-9243-e3a019f3afb6
+uuid: bbdc9c8f-e539-4753-bb96-4aac64465839
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
-discoiquuid: 38341782-908f-40a3-8d7f-0ff493c0d5dd
+discoiquuid: c3280542-27ce-470b-a158-d160fdd255b5
 index: y
 internal: n
 snippet: y
@@ -18,12 +18,12 @@ snippet: y
 
 Workflows typically include steps that require a person to perform an activity on a page or asset. The workflow selects a user or group to perform the activity and assigns a work item to that person or group. The user receives notification and can then take the appropriate action:
 
-* [Viewing Notifications](#notificationsofavailableworkflowactions)
-* [Complete a Participant Step](#completingaparticipantstep)
-* [Delegate a Participant Step](#delegatingaparticipantstep)
-* [Perform Step Back on a Participant Step](#performingstepbackonaparticipantstep)
-* [Open a Workflow Item to View Details (and Take Actions)](#openingaworkflowitemtoviewdetailsandtakeactions)
-* [View the Workflow Payload (Multiple Resources)](#viewingtheworkflowpayloadmultipleresources)
+* [Viewing Notifications](#notifications-of-available-workflow-actions)
+* [Complete a Participant Step](#completing-a-participant-step)
+* [Delegate a Participant Step](#delegating-a-participant-step)
+* [Perform Step Back on a Participant Step](#performing-step-back-on-a-participant-step)
+* [Open a Workflow Item to View Details (and Take Actions)](#opening-a-workflow-item-to-view-details-and-take-actions)
+* [View the Workflow Payload (Multiple Resources)](#viewing-the-workflow-payload-multiple-resources)
 
 ### Notifications of Available Workflow Actions {#notifications-of-available-workflow-actions}
 
@@ -70,10 +70,10 @@ On this action you can indicate:
 
 You can complete a participant step from either:
 
-* [the Inbox](#completingaparticipantstepinbox)
-* [the Page Editor](#completingaparticipantsteppageeditor)
-* [Timeline](#completingaparticipantsteptimeline)
-* when [opening a workflow item to view details](#openingaworkflowitemtoviewdetailsandtakeactions).
+* [the Inbox](#completing-a-participant-step-inbox)
+* [the Page Editor](#completing-a-participant-step-page-editor)
+* [Timeline](#completing-a-participant-step-timeline)
+* when [opening a workflow item to view details](#opening-a-workflow-item-to-view-details-and-take-actions).
 
 #### Completing a Participant Step - Inbox {#completing-a-participant-step-inbox}
 
@@ -89,7 +89,7 @@ Use the following procedure to complete the work item:
 
 Use the following procedure to complete the work item:
 
-1. Open the [page for editing](../../../sites/authoring/using/managing-pages.md#openingapageforediting).
+1. Open the [page for editing](../../../sites/authoring/using/managing-pages.md#opening-a-page-for-editing).
 1. Select **Complete** from the status bar at the top.
 1. The **Complete Work Item** dialog will open. Select the **Next Step** from the drop down selector and add a **Comment** if required. 
 1. Use **OK** to complete the step (or the **Cancel** to abort the action).
@@ -129,10 +129,10 @@ On this action you can indicate:
 
 You can delegate a participant step from either:
 
-* [the Inbox](#delegatingaparticipantstepinbox)
-* [the Page Editor](#delegatingaparticipantsteppageeditor)
-* [Timeline](#delegatingaparticipantsteptimeline)
-* when [opening a workflow item to view details](#openingaworkflowitemtoviewdetailsandtakeactions).
+* [the Inbox](#delegating-a-participant-step-inbox)
+* [the Page Editor](#delegating-a-participant-step-page-editor)
+* [Timeline](#delegating-a-participant-step-timeline)
+* when [opening a workflow item to view details](#opening-a-workflow-item-to-view-details-and-take-actions).
 
 #### Delegating a Participant Step - Inbox {#delegating-a-participant-step-inbox}
 
@@ -148,7 +148,7 @@ Use the following procedure to delegate a work item:
 
 Use the following procedure to delegate a work item:
 
-1. Open the [page for editing](../../../sites/authoring/using/managing-pages.md#openingapageforediting).
+1. Open the [page for editing](../../../sites/authoring/using/managing-pages.md#opening-a-page-for-editing).
 1. Select **Delegate** from the status bar at the top.
 1. The dialog will open. Specify the **User** from the drop down selector (this can also be a group) and add a **Comment** if required. 
 1. Use **OK** to complete the step (or the **Cancel** to abort the action).
@@ -179,10 +179,10 @@ On this action you can indicate:
 
 You can perform step back on a participant step from either:
 
-* [the Inbox](#performingstepbackonaparticipantstepinbox)
-* [the Page Editor](#performingstepbackonaparticipantsteppageeditor)
-* [Timeline](#performingstepbackonaparticipantsteptimeline)
-* when [opening a workflow item to view details](#openingaworkflowitemtoviewdetailsandtakeactions).
+* [the Inbox](#performing-step-back-on-a-participant-step-inbox)
+* [the Page Editor](#performing-step-back-on-a-participant-step-page-editor)
+* [Timeline](#performing-step-back-on-a-participant-step-timeline)
+* when [opening a workflow item to view details](#opening-a-workflow-item-to-view-details-and-take-actions).
 
 #### Performing Step Back on a Participant Step - Inbox {#performing-step-back-on-a-participant-step-inbox}
 
@@ -199,7 +199,7 @@ Use the following procedure to step back:
 
 Use the following procedure to step back:
 
-1. Open the [page for editing](../../../sites/authoring/using/managing-pages.md#openingapageforediting).
+1. Open the [page for editing](../../../sites/authoring/using/managing-pages.md#opening-a-page-for-editing).
 1. Select **Step Back** from the status bar at the top.
 1. Specify the **Previous Step** and add a **Comment** if required. 
 1. Use **OK** to complete the step (or the **Cancel** to abort the action).
@@ -233,7 +233,7 @@ The workflow details are shown in tabs and appropriate actions are available in 
 
   ![](assets/wf-73.png)
 
-  If [Workflow Stages](../../../sites/developing/using/workflows.md#workflowstages) have been configured for the model, you can view the progress according to these:
+  If [Workflow Stages](../../../sites/developing/using/workflows.md#workflow-stages) have been configured for the model, you can view the progress according to these:
 
   ![](assets/wf-107.png)
 
@@ -243,8 +243,8 @@ The workflow details are shown in tabs and appropriate actions are available in 
 
 You can open the work item details from either:
 
-* [the Inbox](#performingstepbackonaparticipantstepinbox)
-* [the Page Editor](#performingstepbackonaparticipantsteppageeditor)
+* [the Inbox](#performing-step-back-on-a-participant-step-inbox)
+* [the Page Editor](#performing-step-back-on-a-participant-step-page-editor)
 
 #### Opening Workflow Details - Inbox {#opening-workflow-details-inbox}
 
@@ -261,7 +261,7 @@ To open a workflow item and view the details:
 
 To open a workflow item and view the details:
 
-1. Open the [page for editing](../../../sites/authoring/using/managing-pages.md#openingapageforediting).
+1. Open the [page for editing](../../../sites/authoring/using/managing-pages.md#opening-a-page-for-editing).
 1. Select **View Details** from the status bar to open the information tabs.  
 
 1. If required, select the appropriate action, supply any details and confirm with **OK** (or **Cancel**).

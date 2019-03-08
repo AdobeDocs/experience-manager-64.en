@@ -3,12 +3,12 @@ title: Creating and Organizing Pages
 seo-title: Creating and Organizing Pages
 description: This section describes how to create and manage pages with AEM so that you can then create content on those pages.
 seo-description: This section describes how to create and manage pages with AEM so that you can then create content on those pages.
-uuid: 28c11765-e1bf-4167-b401-2c61ab292541
+uuid: 36f03e31-162c-457f-a69a-94a5a3d5ea62
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: c9a46648-c7bf-4085-aa98-856a516100be
+discoiquuid: 82a13b32-190b-4941-a778-89de31a16c1f
 index: y
 internal: n
 snippet: y
@@ -31,7 +31,7 @@ As an author you will need to organize your website within AEM. This involves cr
 * you can easily find them on the author environment  
 * visitors to your site can easily browse them on the publish environment
 
-You can also use [folders](#creatinganewfolder) to help organize your content.
+You can also use [folders](#creating-a-new-folder) to help organize your content.
 
 The structure of a website can be thought of as a *tree structure* that holds your content pages. The names of these content pages are used to form the URLs, whereas the title is shown when the page content is viewed.
 
@@ -186,7 +186,7 @@ Unless all pages have been created for you in advance, before you can start crea
 
    >[!NOTE]
    >
-   >See [Page Naming Conventions](#pagenamingconventions).
+   >See [Page Naming Conventions](#page-naming-conventions).
 
    The minimum information required to create a new page is the **Title** and the template required.
 
@@ -248,7 +248,7 @@ When copying, you can copy either:
 
 >[!NOTE]
 >
->Renaming a page is also subject to the [Page Naming Conventions](#pagenamingconventions) when specifying the new page name.
+>Renaming a page is also subject to the [Page Naming Conventions](#page-naming-conventions) when specifying the new page name.
 
 The procedure to move or rename a page is the same. With the same action you can:
 
@@ -331,7 +331,7 @@ You can [lock/unlock a page](../../../sites/classic-ui-authoring/using/classic-p
 
 >[!NOTE]
 >
->Folders are also subject to the [Page Naming Conventions](#pagenamingconventions) when specifying the new folder name.
+>Folders are also subject to the [Page Naming Conventions](#page-naming-conventions) when specifying the new folder name.
 
 1. Open the **Websites** console and navigate to the required location.
 1. In the **New...** menu (click the arrow next to **New...**), select **New Folder...**. 

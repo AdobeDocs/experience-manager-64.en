@@ -3,12 +3,12 @@ title: Working with Adobe Campaign 6.1 and Adobe Campaign Standard
 seo-title: Working with Adobe Campaign 6.1 and Adobe Campaign Standard
 description: You can create email content in AEM and process it in Adobe Campaign emails.
 seo-description: You can create email content in AEM and process it in Adobe Campaign emails.
-uuid: ecd8e11d-9e65-42b9-9068-1e691991be51
+uuid: b7bf5e38-db47-41d2-bfba-7904eb658d30
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: 05d5324f-6d14-4bb4-bf47-2cfca0087624
+discoiquuid: a495d561-be0d-4e22-9010-2c05cf16f762
 index: y
 internal: n
 snippet: y
@@ -133,7 +133,7 @@ See [Adobe Campaign Components](../../../sites/classic-ui-authoring/using/classi
    >The available context fields correspond to the **Profiles** targeting dimension in Adobe Campaign.
    >
    >
-   >See [Linking an AEM page to an Adobe Campaign email](/sites/classic-ui-authoring/using/classic-personalization-ac-campaign.html?cq_ck=1450290357185#LinkinganAEMpagetoanAdobeCampaignemail).
+   >See [Linking an AEM page to an Adobe Campaign email](../../../sites/classic-ui-authoring/using/classic-personalization-ac-campaign.md#linkinganaempagetoanadobecampaignemail).
 
    ![](assets/chlimage_1-178.png)
 

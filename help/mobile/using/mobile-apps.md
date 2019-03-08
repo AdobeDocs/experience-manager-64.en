@@ -3,11 +3,11 @@ title: Mobile-Apps
 seo-title: Mobile-Apps
 description: null
 seo-description: null
-uuid: ef38eee5-e82b-42d9-ad4e-bc013a1b7c51
+uuid: 651e53f1-e031-4f92-ba7b-21c52e151c77
 contentOwner: msm-service
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
-discoiquuid: 48e547da-3d99-496a-91cc-47a99206d696
+discoiquuid: ba4d4a8e-c279-4f9b-bf5c-16ab3d821ccb
 index: y
 internal: n
 snippet: y

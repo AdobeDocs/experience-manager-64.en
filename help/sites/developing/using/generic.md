@@ -3,12 +3,12 @@ title: Developing (generic)
 seo-title: Developing (generic)
 description: The integration framework includes an integration layer with an API, allowing you to build AEM components for eCommerce capabilities
 seo-description: The integration framework includes an integration layer with an API, allowing you to build AEM components for eCommerce capabilities
-uuid: da2c64e6-2132-48b2-b0df-fd6e32ac3a39
+uuid: cd93a766-c12b-43f9-8384-d0d66c9efbc9
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: platform
-discoiquuid: e8b93765-aa72-4ca4-b4e3-1e9af617026f
+discoiquuid: 6e5b5c73-6007-4e73-bbd6-5501d41a077e
 index: y
 internal: n
 snippet: y
@@ -18,7 +18,7 @@ snippet: y
 
 >[!NOTE]
 >
->[API documentation](../../../sites/developing/using/ecommerce.md#apidocumentation) is also available.
+>[API documentation](../../../sites/developing/using/ecommerce.md#api-documentation) is also available.
 
 The integration framework includes an integration layer with an API. This allows you to build AEM components for eCommerce capabilities (independent of your specific eCommerce engine). It also allows you to use the internal CRX database or to plug in an eCommerce system and pull product data into AEM.
 
@@ -413,7 +413,7 @@ The eCommerce project contains a default search component, located in:
 
 ![](assets/chlimage_1-34.png)
 
-This makes use of the search API to query the selected commerce engine (see [eCommerce Engine Selection](#ecommerceengineselection)):
+This makes use of the search API to query the selected commerce engine (see [eCommerce Engine Selection](#ecommerce-engine-selection)):
 
 #### Search API {#search-api}
 

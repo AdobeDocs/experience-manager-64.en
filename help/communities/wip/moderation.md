@@ -4,11 +4,11 @@ seo-title: Moderation Console
 description: How to access the Moderation console
 seo-description: How to access the Moderation console
 page-status-flag: never-activated
-uuid: 2a4b3067-b94a-448d-ae7b-7bd5e98b3497
+uuid: d6719b05-f60a-4fcc-9024-05a772be8f55
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 3d6bd68d-5799-41ac-8cf7-00427e235655
+discoiquuid: 8b4bb134-13f8-4289-a840-18f23c2e3624
 index: y
 internal: n
 snippet: y
@@ -63,9 +63,9 @@ Only when signed in as an administrator, or as a member with ` [moderator permis
 
 Setting aside the left navigation rail (which appears on author, but not on publish), the moderation UI has following main areas:
 
-* ** [top navigation bar](#topnavigationbar)**
+* ** [top navigation bar](#top-navigation-bar)**
 * ** [toolbar](#toolbar)** 
-* ** [content area](#contentarea)**
+* ** [content area](#content-area)**
 
 ### Top Navigation Bar {#top-navigation-bar}
 
@@ -75,14 +75,14 @@ The top navigation bar is constant for all consoles. For more information, see [
 
 The toolbar, located beneath the top navigation bar, provides the following toggle switch on the left side:
 
-* [Filter rail](../../communities/wip/moderation.md#filterrail)  
+* [Filter rail](../../communities/wip/moderation.md#filter-rail)  
   opens a rail which allows a choice of properties on which to filter the content.
 
 The toolbar, located beneath the top navigation bar, provides the following toggle switch on the left side:
 
 ![](assets/toggleswitch.png)
 
-[Filter rail](../../communities/wip/moderation.md#filterrail)  
+[Filter rail](../../communities/wip/moderation.md#filter-rail)  
 opens a rail, on selecting Search, which allows a choice of properties on which to filter the content.
 
 ![](assets/filterrail.png)
@@ -230,7 +230,7 @@ Posted In The Last limits the referenced UGC displayed to posts made in the last
 
 ## Moderation Actions {#moderation-actions}
 
-[Moderation actions](../../communities/using/moderate-ugc.md#moderationactions) can be performed on one or more selections made in the content area or when viewing content detail.
+[Moderation actions](../../communities/using/moderate-ugc.md#moderation-actions) can be performed on one or more selections made in the content area or when viewing content detail.
 
 To bulk-moderate the posts, in the content area click the Select ( ![](assets/selecticon.png)) icon on a post, which appears on hovering over it with the mouse (desktop) or pressing and holding a finger on the post (mobile). By doing this, you enter the multi-select mode and can now select the subsequent posts to be bulk moderated by simply clicking them. Use the buttons displayed on the toolbar to perform moderation actions on the selected posts. All the actions will prompt for confirmation.
 
@@ -265,7 +265,7 @@ In single selection mode, it is possible to
 * [Deny](#deny)
 * [Delete](#delete)
 * [Close](#close)
-* view [Moderation History](#moderationhistory)
+* view [Moderation History](#moderation-history)
 * [View Details](#viewdetails)
 
 Present on the card view above the moderation action icons is the text of the post and below is data indicating

@@ -3,13 +3,13 @@ title: Testing Your UI
 seo-title: Testing Your UI
 description: AEM provides a framework for automating tests for your AEM UI
 seo-description: AEM provides a framework for automating tests for your AEM UI
-uuid: 32a35d4a-ae8f-47b3-9827-c86330b55e93
+uuid: 2626015e-5910-4ff7-a47c-e16e621f57da
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: components
 topic-tags: testing
-discoiquuid: 7ef1d496-9ee1-4054-bf9a-08541bfbd1e4
+discoiquuid: 98838eed-d385-4da9-b1a5-b8527ba692e2
 index: y
 internal: n
 snippet: y
@@ -23,7 +23,7 @@ The AEM test framework uses Hobbes.js, a testing library written in Javascript. 
 
 >[!NOTE]
 >
->Refer to the Hobbes.js [documentation](/sites/developing/using/reference-materials/test-api/index) for full details of the API.
+>Refer to the Hobbes.js [documentation](/sites/developing/using/reference-materials/test-api/index.md) for full details of the API.
 
 ## Structure of Tests {#structure-of-tests}
 
@@ -96,7 +96,7 @@ Test Suites execute sequentially in the order that they appear in the console. Y
 
 The following procedure steps you through the creation and execution of a Test Suite using [We.Retail content](../../../sites/developing/using/we-retail.md), but you can easily modify the test to use a different web page.
 
-For full details about creating your own Test Suites, see the [Hobbes.js API documentation](/sites/developing/using/reference-materials/test-api/index).
+For full details about creating your own Test Suites, see the [Hobbes.js API documentation](/sites/developing/using/reference-materials/test-api/index.md).
 
 1. Open CRXDE Lite. ([http://localhost:4502/crx/de](http://localhost:4502/crx/de))
 1. Right-click the `/etc/clientlibs` folder and click **Create > Create Folder**. Type `myTests` for the name and click **OK**.

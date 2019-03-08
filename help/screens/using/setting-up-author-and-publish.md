@@ -4,9 +4,9 @@ seo-title: Setting Up Author and Publish
 description: null
 seo-description: null
 page-status-flag: never-activated
-uuid: 34a571b4-513b-40f6-a50f-935a8be406d2
+uuid: b015173d-7184-48ac-a5b8-f8994bbdbf26
 contentOwner: jsyal
-discoiquuid: 4ef7603e-3229-4a63-8b06-e0ed50bad892
+discoiquuid: dfddac96-ad34-4fde-8a45-763afd4004dc
 index: y
 internal: n
 snippet: y
@@ -40,7 +40,7 @@ Follow the steps below to set up and implement author and publish channels in yo
 
 ## On the Author Instance {#on-the-author-instance}
 
-Follow the steps on the author instance, such as [http://localhost:4502/aem/start.html.](/aem/start)
+Follow the steps on the author instance, such as [http://localhost:4502/aem/start.html.](/aem/start.md)
 
 1. **Create Channels**
 

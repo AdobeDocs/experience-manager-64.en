@@ -3,12 +3,12 @@ title: Setting up your campaign
 seo-title: Setting up your campaign
 description: Set up a new campaign
 seo-description: Set up a new campaign
-uuid: 273a1aa7-31f5-4d9b-ab5c-27170ae1b6f4
+uuid: d018a175-efed-41ba-99a2-933b6efd75b5
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: personalization
-discoiquuid: bae921ed-ede4-463b-8904-d692b3d042f2
+discoiquuid: 310d6e94-f5a9-4185-9cea-a3f1725f8eaf
 index: y
 internal: n
 snippet: y
@@ -18,12 +18,12 @@ snippet: y
 
 Setting up a new campaign includes the following (generic) steps:
 
-1. [Create a brand](#creatinganewbrand) to hold your campaigns.
-1. If required you can [define the properties for your new brand](#definingthepropertiesforyournewbrand).
-1. [Create a campaign](#creatinganewcampaign) to hold experiences; for example teaser pages or a newsletter.
-1. If required you can [define the properties for your new campaign](#definingthepropertiesforyournewcampaign).
+1. [Create a brand](#creating-a-new-brand) to hold your campaigns.
+1. If required you can [define the properties for your new brand](#defining-the-properties-for-your-new-brand).
+1. [Create a campaign](#creating-a-new-campaign) to hold experiences; for example teaser pages or a newsletter.
+1. If required you can [define the properties for your new campaign](#defining-the-properties-for-your-new-campaign).
 
-Then depending on the type of experience(s) you are creating, you will need to [create an experience](#creatinganewexperience). The details of the experience, and the actions that follow its creation, are dependent on the type of experience you want to create:
+Then depending on the type of experience(s) you are creating, you will need to [create an experience](#creating-a-new-experience). The details of the experience, and the actions that follow its creation, are dependent on the type of experience you want to create:
 
 * If creating a Teaser:
 
@@ -170,7 +170,7 @@ In the Dashboard, you access all leads by clicking **Leads** from the left pane.
 
 ### Creating new leads {#creating-new-leads}
 
-After you create new leads, be sure to [activate them](#activatingordeactivatingleads) so that you can track their activity on the publish instance and personalize their experience.
+After you create new leads, be sure to [activate them](#activating-or-deactivating-leads) so that you can track their activity on the publish instance and personalize their experience.
 
 To create a new lead manually:
 

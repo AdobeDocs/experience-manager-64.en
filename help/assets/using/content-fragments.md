@@ -3,12 +3,12 @@ title: Working with Content Fragments
 seo-title: Working with Content Fragments
 description: Learn how Content Fragments allow you to design, create, curate and use page-independent content.
 seo-description: Learn how Content Fragments allow you to design, create, curate and use page-independent content.
-uuid: 9f89dabd-ae15-4644-b803-f89f77e044ad
+uuid: 8a42ccda-2eab-4400-b9ce-9919330bd76d
 contentOwner: Alison Heimoz
 topic-tags: content-fragments
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
-discoiquuid: 84ccd1c1-c445-4720-802b-53d7ae3c6f4d
+discoiquuid: adff87a2-5a0c-4db6-9771-4c17d86c2557
 index: y
 internal: n
 snippet: y
@@ -127,9 +127,9 @@ Content fragments are:
 Content Fragments are a content structure that:
 
 * Are without layout or design (some text formatting is possible in Rich Text mode).
-* Contain one, or more, [constituent parts](#constituentpartsofacontentfragment).
-* Can [contain, or be connected to, images](#fragmentswithvisualassets).
-* Can use [in-between content](#inbetweencontentwhenpageauthoringwithcontentfragments) when referenced on a page.  
+* Contain one, or more, [constituent parts](#constituent-parts-of-a-content-fragment).
+* Can [contain, or be connected to, images](#fragments-with-visual-assets).
+* Can use [in-between content](#in-between-content-when-page-authoring-with-content-fragments) when referenced on a page.  
 
 * Are independent from the delivery mechanism (i.e. page, channel).
 
@@ -141,9 +141,9 @@ Assets can be used with a content fragment in several ways; each with its own ad
 
 * **Insert Asset** into a fragment (mixed-media fragments)
 
-    * Are an integral part of the fragment (see [Constituent Parts of a Content Fragment](#constituentpartsofacontentfragment)).
+    * Are an integral part of the fragment (see [Constituent Parts of a Content Fragment](#constituent-parts-of-a-content-fragment)).
     * Define the position of the asset.
-    * See [Inserting Assets into your Fragment](../../assets/using/content-fragments-variations.md#insertingassetsintoyourfragment) in the Fragment Editor for more information.
+    * See [Inserting Assets into your Fragment](../../assets/using/content-fragments-variations.md#inserting-assets-into-your-fragment) in the Fragment Editor for more information.
 
   >[!NOTE]
   >
@@ -151,7 +151,7 @@ Assets can be used with a content fragment in several ways; each with its own ad
 
 * **Associated Content**
 
-    * Are connected to a fragment; but not a fixed part of the fragment (see [Constituent Parts of a Content Fragment](#constituentpartsofacontentfragment)).
+    * Are connected to a fragment; but not a fixed part of the fragment (see [Constituent Parts of a Content Fragment](#constituent-parts-of-a-content-fragment)).
     * Allows some flexibility for positioning.
     * Are easily available for use (as in-between content) when using the fragment on a page.
     * See [Associated Content](../../assets/using/content-fragments-assoc-content.md) for more information.
@@ -161,7 +161,7 @@ Assets can be used with a content fragment in several ways; each with its own ad
     * Allow full flexibility for selection of an asset.
     * Allows some flexibility for positioning.
     * Does not provide the concept of being approved for a specific fragment.
-    * See [Assets Browser](../../sites/authoring/using/author-environment-tools.md#assetsbrowser) for more information.
+    * See [Assets Browser](../../sites/authoring/using/author-environment-tools.md#assets-browser) for more information.
 
 ### Constituent Parts of a Content Fragment {#constituent-parts-of-a-content-fragment}
 
@@ -183,7 +183,7 @@ The content fragment assets are made up of the following parts (either directly 
         * separated by vertical spaces (carriage return)   
         * in multi-line text elements; in either simple or structured fragments
 
-    * In the [Rich Text](../../assets/using/content-fragments-variations.md#richtext) and [Markdown](../../assets/using/content-fragments-variations.md#markdown) modes, a paragraph can be formatted as a header, in which case it and the following paragraph belong together as one unit.
+    * In the [Rich Text](../../assets/using/content-fragments-variations.md#rich-text) and [Markdown](../../assets/using/content-fragments-variations.md#markdown) modes, a paragraph can be formatted as a header, in which case it and the following paragraph belong together as one unit.
     
     * Enable content control during page authoring.
 
@@ -193,7 +193,7 @@ The content fragment assets are made up of the following parts (either directly 
     * Are embedded in the paragraph system of the fragment.
     * Can be formatted when the [fragment is used/referenced on a page](../../sites/authoring/using/content-fragments.md).
     * Can only be added to, deleted from, or moved within, a fragment using the fragment editor. These actions cannot be made in the page editor.
-    * Can only be added to, deleted from, or moved within, a fragment using [Rich Text format in the fragment editor](../../assets/using/content-fragments-variations.md#insertingassetsintoyourfragment).
+    * Can only be added to, deleted from, or moved within, a fragment using [Rich Text format in the fragment editor](../../assets/using/content-fragments-variations.md#inserting-assets-into-your-fragment).
     * Can only be added to multi-line text elements (any fragment type).  
     * Are attached to the preceding text (paragraph).
 
@@ -203,7 +203,7 @@ The content fragment assets are made up of the following parts (either directly 
 
   >[!NOTE]
   >
-  >Assets can also be added as [additional (in-between) content](../../sites/authoring/using/content-fragments.md#usingassociatedcontent) when using a fragment on a page; using either Associated Content or assets from the Assets browser.
+  >Assets can also be added as [additional (in-between) content](../../sites/authoring/using/content-fragments.md#using-associated-content) when using a fragment on a page; using either Associated Content or assets from the Assets browser.
 
 * **Associated Content**
 
@@ -247,8 +247,8 @@ The content fragment assets are made up of the following parts (either directly 
     * Are created as copies of **Master**, but can then be edited a required; there is usually content overlap between the variations themselves.
     * Can be defined during fragment authoring or pre-defined in fragment templates.
     * Stored in the fragment, to help avoid scattering of content copies.
-    * Variations can be [synchronized](../../assets/using/content-fragments-variations.md#synchronizingwithmaster) with Master if the Master content has been updated.
-    * Can be [Summarized](../../assets/using/content-fragments-variations.md#summarizingtext) to quickly truncate the text to a predefined length.
+    * Variations can be [synchronized](../../assets/using/content-fragments-variations.md#synchronizing-with-master) with Master if the Master content has been updated.
+    * Can be [Summarized](../../assets/using/content-fragments-variations.md#summarizing-text) to quickly truncate the text to a predefined length.
     * Available under the [Variations](../../assets/using/content-fragments-variations.md) tab of the fragment editor.
 
 ### In-Between Content when Page Authoring with Content Fragments {#in-between-content-when-page-authoring-with-content-fragments}
@@ -256,7 +256,7 @@ The content fragment assets are made up of the following parts (either directly 
 In-between content:
 
 * Is available for use in the [Page Editor when working with Content Fragments](../../sites/authoring/using/content-fragments.md).
-* Is [additional content added within the flow of a fragment](../../sites/authoring/using/content-fragments.md#addinginbetweencontent) once it has been used/referenced on a page.
+* Is [additional content added within the flow of a fragment](../../sites/authoring/using/content-fragments.md#adding-in-between-content) once it has been used/referenced on a page.
 * In-between content can be added to any fragment, where there is only one element visible.  
 * Associated content can be used, as can assets and/or components from the appropriate browser.
 
@@ -271,13 +271,13 @@ To create, edit and use content fragments you also need:
 * **Content Model**
 
     * Are [enabled and then created using Tools](../../assets/using/content-fragments-models.md).
-    * Required to [create a structured fragment](../../assets/using/content-fragments-managing.md#creatingcontentfragments).
+    * Required to [create a structured fragment](../../assets/using/content-fragments-managing.md#creating-content-fragments).
     * Defines the structure of a fragment (title, content elements, tag definitions).
     * Content models definitions require a title and one data element; everything else is optional. The model defines a minimal scope of the fragment and default content if applicable. Authors cannot change the defined structure when authoring fragment content.
 
 * **Fragment Template**
 
-    * Required to [create a simple fragment](../../assets/using/content-fragments-managing.md#creatingcontentfragments).
+    * Required to [create a simple fragment](../../assets/using/content-fragments-managing.md#creating-content-fragments).
     * Usually [developed during project implementation](../../sites/developing/using/content-fragment-templates.md); cannot be created when authoring.  
     
     * Defines the basics properties of a simple fragment (title, number of text elements, tag definitions).

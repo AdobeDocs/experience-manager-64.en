@@ -3,12 +3,12 @@ title: Enterprise DevOps
 seo-title: Enterprise DevOps
 description: Learn about the processes, methods and communication required to ease deployment and simplify collaboration.
 seo-description: Learn about the processes, methods and communication required to ease deployment and simplify collaboration.
-uuid: 830d2049-e9dc-4bf5-bba5-94c91e2ba32f
+uuid: 0e0b24b0-48bc-4408-a9a5-976e8b8f72a6
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/MANAGING
 topic-tags: managing
 content-type: reference
-discoiquuid: 72c8b04a-5754-443c-9e68-52c972c3b2b5
+discoiquuid: 0f3893d5-1409-46e2-8e21-48079982d676
 index: y
 internal: n
 snippet: y
@@ -32,9 +32,9 @@ DevOps aims to avoid problems such as:
 An Adobe Experience Manager (AEM) deployment usually consists of multiple environments, used for different purposes on different levels:
 
 * [Development](#development)
-* [Quality Assurance](#qualityassurance) 
+* [Quality Assurance](#quality-assurance) 
 * [Staging](#staging)
-* [Production](#productionauthorandpublish)
+* [Production](#production-author-and-publish)
 
 >[!NOTE]
 >
@@ -59,7 +59,7 @@ Depending on the scale of your system, the development environment can have both
 
 ### Quality Assurance {#quality-assurance}
 
-This environment is used by the quality assurance team to comprehensively [test](/sites/developing/using/test) your new system; both design and function. It should have both author and publish environments, with suitable content, and provide all necessary services to enable a complete suite of tests.
+This environment is used by the quality assurance team to comprehensively [test](/sites/developing/using/test.md) your new system; both design and function. It should have both author and publish environments, with suitable content, and provide all necessary services to enable a complete suite of tests.
 
 ### Staging {#staging}
 
@@ -71,7 +71,7 @@ The staging environment should be a mirror of the production environment - confi
 
 ### Production - Author and Publish {#production-author-and-publish}
 
-The production environment consists of the environments needed to actually [author and publish](../../sites/authoring/using/author.md#conceptofauthoringandpublishing) your implementation.
+The production environment consists of the environments needed to actually [author and publish](../../sites/authoring/using/author.md#concept-of-authoring-and-publishing) your implementation.
 
 A production environment consists of at least one author instance and one publish instance:
 

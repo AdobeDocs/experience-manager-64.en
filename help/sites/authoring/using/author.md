@@ -3,12 +3,12 @@ title: Authoring
 seo-title: Authoring
 description: Concepts of authoring in AEM
 seo-description: Concepts of authoring in AEM
-uuid: 580a2303-06eb-4e30-9e31-c75066bba452
+uuid: 423121b9-5f4e-437a-aa47-ad7542054027
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
-discoiquuid: fdbe18a1-e1a4-48c9-8c1e-ce6c8168fe44
+discoiquuid: fe87cf5f-8f39-4f33-a2f4-4c821f47958b
 index: y
 internal: n
 snippet: y
@@ -22,7 +22,7 @@ snippet: y
 >
 >For an explanation of the differences between the standard UI and the classic UI, see [Working with the Author Enviornment](../../../sites/authoring/using/author-environment.md).
 >
->If you are looking for authoring documentation for the classic UI, see [Authoring in the Classic UI User Guide](/sites/classic-ui-authoring/user-guide).
+>If you are looking for authoring documentation for the classic UI, see [Authoring in the Classic UI User Guide](/sites/classic-ui-authoring/user-guide.md).
 
 ## Concept of Authoring (and Publishing) {#concept-of-authoring-and-publishing}
 
@@ -74,7 +74,7 @@ Additionally, there are administrative tasks that help you manage your content:
 
 >[!NOTE]
 >
->AEM is also [administered](/sites/administering/user-guide) (for a majority of tasks) from the author environment.
+>AEM is also [administered](/sites/administering/user-guide.md) (for a majority of tasks) from the author environment.
 
 #### Publish Environment {#publish-environment}
 

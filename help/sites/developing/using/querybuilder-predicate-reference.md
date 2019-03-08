@@ -3,12 +3,12 @@ title: Query Builder Predicate Reference
 seo-title: Query Builder Predicate Reference
 description: Complete predicate reference for the Query Builder API.
 seo-description: Complete predicate reference for the Query Builder API.
-uuid: 97632168-7cf6-4b29-a54d-fbd8f2743284
+uuid: 3114c8af-995f-4811-8f7d-77b5a235e4ec
 contentOwner: sarchiz
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: platform
-discoiquuid: 4a7b9923-3974-496c-87f3-41db1f5619b3
+discoiquuid: 0baeb7b8-d68d-4f5e-9cab-c36e532bd4ef
 index: y
 internal: n
 snippet: y
@@ -237,7 +237,7 @@ Supports facet extraction. Will provide 2 buckets for main and subassets.
 
 ### memberOf {#memberof}
 
-Finds items that are member of a specific [sling resource collection](/sites/developing/using/reference-materials/javadoc/org/apache/sling/resource/collection/ResourceCollection).
+Finds items that are member of a specific [sling resource collection](/sites/developing/using/reference-materials/javadoc/org/apache/sling/resource/collection/ResourceCollection.md).
 
 This is a filtering-only predicate and cannot leverage a search index. Does not support facet extraction.
 

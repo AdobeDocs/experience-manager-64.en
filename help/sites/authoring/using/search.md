@@ -3,12 +3,12 @@ title: Search
 seo-title: Search
 description: Find your content faster with comprehensive search
 seo-description: Find your content faster with comprehensive search
-uuid: 7034f2ca-5c4a-4ca5-b0dd-da81ce5672c8
+uuid: 2230460f-625c-4a8d-89c4-3b2f6145d3e5
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
-discoiquuid: f907f65e-fe1c-4064-8537-8f8c92f832fa
+discoiquuid: dd3649fd-910b-4776-a565-b9bc1149e9e9
 index: y
 internal: n
 snippet: y
@@ -32,7 +32,7 @@ With the search rail you can:
 
 * Search for a specific keyword, path or tag.  
 * Filter according to resource specific criteria, such as modified dates, page status, file size, etc.
-* Define and use a [saved search](#savedsearches) - based on the above criteria.
+* Define and use a [saved search](#saved-searches) - based on the above criteria.
 
 >[!NOTE]
 >

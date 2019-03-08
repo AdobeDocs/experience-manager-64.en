@@ -4,8 +4,8 @@ seo-title: [DO NOT PUBLISH] Create your first adaptive document
 description: null
 seo-description: null
 page-status-flag: de-activated
-uuid: 84c6d4b3-b20f-461d-90c0-a4cdd4747579
-discoiquuid: 56535bfa-350d-4cdf-9ef6-4b63a4335ec9
+uuid: ec05c74c-422b-43b1-bac1-92357170b813
+discoiquuid: 4d88f412-2a6e-4f0e-a508-a6d4a921194a
 index: y
 internal: n
 snippet: y
@@ -67,7 +67,7 @@ Goals:
 
 Customer Communications centralizes and manages the creation, assembly, and delivery of secure, personalized, and interactive correspondences such as business correspondence, letters, documents, statements, benefit notices, wealth management prospectus, marketing mails, bills, and welcome kits.
 
-Using adaptive documents, you can create customer communications that are engaging, responsive, dynamic, and adaptive in nature. AEM Forms provide a drag-and-drop WYSIWYG editor to create adaptive documents. For more information about adaptive documents, see [Introduction to authoring adaptive documents](/forms/using/introduction-ad-authoring).
+Using adaptive documents, you can create customer communications that are engaging, responsive, dynamic, and adaptive in nature. AEM Forms provide a drag-and-drop WYSIWYG editor to create adaptive documents. For more information about adaptive documents, see [Introduction to authoring adaptive documents](/forms/using/introduction-ad-authoring.md).
 
 Goals:
 
@@ -75,7 +75,7 @@ Goals:
 * Layout fields of an adaptive form to display information to the customer
 * Create rules to retrieve and display information from form data model to adaptive document.
 
-[ ![](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](create-ad) 
+[ ![](https://helpx.adobe.com/content/dam/help/en/marketing-cloud/how-to/digital-foundation/_jcr_content/main-pars/image_1250343773/see-the-guide-sm.png)](create-ad.md) 
 
 ## Step 3: Apply rules to adaptive document fields (Web channel only) {#step-apply-rules-to-adaptive-document-fields-web-channel-only}
 

@@ -3,12 +3,12 @@ title: Emulators
 seo-title: Emulators
 description: AEM enables authors to view a page in an emulator that simulates the environment in which an end-user will view the page
 seo-description: AEM enables authors to view a page in an emulator that simulates the environment in which an end-user will view the page
-uuid: a9125d47-f500-4fc3-8b85-24deffde653d
+uuid: 0418221b-5672-41bb-b405-c857ec508b2c
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: mobile-web
 content-type: reference
-discoiquuid: d0e2d1c4-aebd-409f-9e4b-7ef866d404fd
+discoiquuid: 5d08b0f4-17a2-4cf0-b4cd-e4fdc645b847
 legacypath: /content/docs/en/aem/6-0/develop/mobile/emulators
 index: y
 internal: n

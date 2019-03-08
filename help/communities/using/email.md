@@ -3,12 +3,12 @@ title: Configuring Email
 seo-title: Configuring Email
 description: Email configuration for Communities
 seo-description: Email configuration for Communities
-uuid: 1d05198e-016c-4e9e-82d8-5135fa9db795
+uuid: 08d1d731-e978-46ee-95f2-c875c65dbb8b
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: c71df66c-c3fe-436e-a14d-3d3ae2ae40e8
+discoiquuid: 9e6f6067-7069-448c-8482-6626ef7bf038
 pagetitle: Configuring Email
 index: y
 internal: n
@@ -26,7 +26,7 @@ By default, the email feature is not functional as it requires specification of 
 
 >[!CAUTION]
 >
->Email for notifications and subscriptions must be configured only on the [primary publisher](../../communities/using/deploy-communities.md#primarypublisher).
+>Email for notifications and subscriptions must be configured only on the [primary publisher](../../communities/using/deploy-communities.md#primary-publisher).
 
 ## Default Mail Service Configuration {#default-mail-service-configuration}
 
@@ -61,14 +61,14 @@ For example (filled in with values for illustrative purposes only) :
 
 ## AEM Communities Email Configuration {#aem-communities-email-configuration}
 
-Once the [default mail service](#defaultmailserviceconfiguration) is configured, the two existing instances of the `AEM Communities Email Reply Configuration` OSGi config, included in the release, become functional.
+Once the [default mail service](#default-mail-service-configuration) is configured, the two existing instances of the `AEM Communities Email Reply Configuration` OSGi config, included in the release, become functional.
 
 Only the instance for subscriptions needs to be further configured when allowing reply by email.
 
-1. ` [email](#configurationfornotifications)` instance  
+1. ` [email](#configuration-for-notifications)` instance  
    for notifications, which does not support reply email, and should not be altered
 
-1. ` [subscriptions-email](#configurationforsubscriptions)` instance  
+1. ` [subscriptions-email](#configuration-for-subscriptions)` instance  
    requires configuration to fully enable creating post from reply email
 
 To reach the Communities email configuration instances:

@@ -3,12 +3,12 @@ title: Intershop
 seo-title: Intershop
 description: Learn how to use AEM with Intershop.
 seo-description: Learn how to use AEM with Intershop.
-uuid: 5963e67e-08ae-4aaa-aed7-64d68d58997c
+uuid: f1b26a6a-7ada-4445-9bca-4450b4e5dc9e
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: e-commerce
 content-type: reference
-discoiquuid: 9fabd870-b5df-4c3a-950c-d4136d4eafc1
+discoiquuid: 3d0662cd-839f-4b05-8a82-a6ff16ef82c6
 pagetitle: Administering Intershop
 index: y
 internal: n
@@ -27,9 +27,9 @@ There are a variety of ways to import product and catalog data. The product and 
 
 The importer supports the following modes:
 
-* [Full Import](#fullimport)
-* [Incremental Import](#incrementalimport)
-* [Express Update](#expressupdate)
+* [Full Import](#full-import)
+* [Incremental Import](#incremental-import)
+* [Express Update](#express-update)
 
 The product data is maintained in Intershop 7 software and made available through AEM.
 

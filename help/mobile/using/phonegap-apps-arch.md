@@ -3,11 +3,11 @@ title: The Anatomy of an App
 seo-title: The Anatomy of an App
 description: This page provides description of the page components that you create for your app are based on the /libs/mobileapps/components/angular/ng-page component (CRXDE Lite on a local server). 
 seo-description: This page provides description of the page components that you create for your app are based on the /libs/mobileapps/components/angular/ng-page component (CRXDE Lite on a local server). 
-uuid: 1768c380-c292-40e7-bb1f-9cd4a52f71d4
+uuid: df519a0c-2032-43d7-871a-0835e8d85932
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
-discoiquuid: 1b5d84e9-fd49-4add-b506-64bec921007c
+discoiquuid: cae9b4bf-b9a0-41c6-b349-adec58381e0f
 index: y
 internal: n
 snippet: y

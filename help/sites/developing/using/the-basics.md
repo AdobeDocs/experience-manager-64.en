@@ -3,12 +3,12 @@ title: AEM Core Concepts
 seo-title: The Basics
 description: An overview of the core concepts of how AEM is structured and how to develop on top of it including understanding the JCR, Sling, OSGi, the dispatcher, workflows, and MSM
 seo-description: An overview of the core concepts of how AEM is structured and how to develop on top of it including understanding the JCR, Sling, OSGi, the dispatcher, workflows, and MSM
-uuid: 5175e1a5-703e-4ee7-a0a1-3f445bf39130
+uuid: 054a2852-a2d5-4fee-98cc-18105ae2a009
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
-discoiquuid: 67e46f21-78f6-4289-84c6-5dc70cf3269b
+discoiquuid: 9afd0e43-906e-4b8c-adc3-39c7d9ea46d2
 index: y
 internal: n
 snippet: y
@@ -150,7 +150,7 @@ The path specified by the `sling:resourceType` can be either:
 * relative, to a configuration parameter  
   Relative paths are recommended by Adobe as they increase portability.
 
-All Sling scripts are stored in subfolders of either `/apps` or `/libs`, which will be searched in this order (see [Customizing Components and Other Elements](../../../sites/developing/using/dev-guidelines-bestpractices.md#customizingcomponentsandotherelements)).
+All Sling scripts are stored in subfolders of either `/apps` or `/libs`, which will be searched in this order (see [Customizing Components and Other Elements](../../../sites/developing/using/dev-guidelines-bestpractices.md#customizing-components-and-other-elements)).
 
 A few other points to note are:
 
@@ -369,7 +369,7 @@ For example, to get the name of the current page, you can use following code in 
 
 String pageName = currentPage.getName();
 
-With currentPage being the current page object. For more information on manipulating Page objects, refer to the [Javadocs](/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/api/Page).
+With currentPage being the current page object. For more information on manipulating Page objects, refer to the [Javadocs](/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/api/Page.md).
 
 **Page Manager** The page manager is an Interface that provides methods for page level operations.
 
@@ -377,7 +377,7 @@ For example, to get the containing page of a resource, you can use following cod
 
 Page myPage = pageManager.getContainingPage(myResource);
 
-With pageManager being the page manager object and myResource a resource object. For more information on the methods provided by the page manager, refer to the [Javadocs](/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/api/PageManager).
+With pageManager being the page manager object and myResource a resource object. For more information on the methods provided by the page manager, refer to the [Javadocs](/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/api/PageManager.md).
 
 ## Structure within the Repository {#structure-within-the-repository}
 
@@ -405,7 +405,7 @@ The following list gives an overview of the structure you will see within the re
   User and Group information.
 
 * `/libs`  
-  Libraries and definitions that belong to the core of AEM. The sub-folders in `/libs` represent the out of the box AEM features as for example search or replication. The content in `/libs` should not be modified as it affects the way AEM works. Features specific to your website should be developed under `/apps` (see [Customizing Components and Other Elements](../../../sites/developing/using/dev-guidelines-bestpractices.md#customizingcomponentsandotherelements)).
+  Libraries and definitions that belong to the core of AEM. The sub-folders in `/libs` represent the out of the box AEM features as for example search or replication. The content in `/libs` should not be modified as it affects the way AEM works. Features specific to your website should be developed under `/apps` (see [Customizing Components and Other Elements](../../../sites/developing/using/dev-guidelines-bestpractices.md#customizing-components-and-other-elements)).
 
 * `/tmp`  
   Temporary working area.
@@ -415,7 +415,7 @@ The following list gives an overview of the structure you will see within the re
 
 ## Environments {#environments}
 
-With AEM a production environment often consists of two different types of instances: an [Author and a Publish instances](../../../sites/deploying/using/deploy.md#authorandpublishinstalls).
+With AEM a production environment often consists of two different types of instances: an [Author and a Publish instances](../../../sites/deploying/using/deploy.md#author-and-publish-installs).
 
 ## The Dispatcher {#the-dispatcher}
 

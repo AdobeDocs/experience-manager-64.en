@@ -3,12 +3,12 @@ title: Using demo package for Asset Insights
 seo-title: Using demo package for Asset Insights
 description: Use the demo package to enable Adobe Asset Insights to capture data from and generate insights for a web page.
 seo-description: Use the demo package to enable Adobe Asset Insights to capture data from and generate insights for a web page.
-uuid: 786a1911-711f-4689-bab9-15ece79963ce
+uuid: e9dd934f-e4ca-4677-a2f2-de5ff9d9ea94
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference
-discoiquuid: 6c5ea536-e4e7-4751-962d-40934ec0f16c
+discoiquuid: 5310547c-b50b-4adb-9ad0-d3a927ee852c
 index: y
 internal: n
 snippet: y

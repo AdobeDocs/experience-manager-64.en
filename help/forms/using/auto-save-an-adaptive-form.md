@@ -3,10 +3,10 @@ title: Auto-save an adaptive form
 seo-title: Auto-save an adaptive form
 description: You can configure an adaptive form to automatically start saving the content based on an event or a pre-defined time-interval
 seo-description: You can configure an adaptive form to automatically start saving the content based on an event or a pre-defined time-interval
-uuid: 7ba37c4b-39b1-4fab-b0eb-5304e73dfdd6
+uuid: f34ea830-a400-4fca-935e-a21bd8afd6ca
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
-discoiquuid: dd048d76-e937-4799-95a0-672ce7e8468c
+discoiquuid: 75d83b17-9df0-424d-9d85-297d227480e1
 index: y
 internal: n
 snippet: y

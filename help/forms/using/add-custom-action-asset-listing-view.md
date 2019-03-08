@@ -3,11 +3,11 @@ title: Add custom action to the Asset Listing view
 seo-title: Add custom action to the Asset Listing view
 description: This article teaches how to add custom action to the Asset Listing view
 seo-description: This article teaches how to add custom action to the Asset Listing view
-uuid: f6617cfa-0258-422a-931d-e37dec28305e
+uuid: 4520b23b-eca9-49c1-9e8a-4974e355a9fc
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
-discoiquuid: f70df70a-093e-4cc9-a9bd-d42c5c47e1ec
+discoiquuid: b9ffaeb1-ca23-4829-8865-9b7ff52bdc6c
 index: y
 internal: n
 snippet: y

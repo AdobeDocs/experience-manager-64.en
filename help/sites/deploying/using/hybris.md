@@ -3,12 +3,12 @@ title: hybris
 seo-title: hybris
 description: Learn how to deploy eCommerce with hybris.
 seo-description: Learn how to deploy eCommerce with hybris.
-uuid: 863bf868-12fb-403d-be42-7769859d015f
+uuid: f2ab47c5-3a73-45ad-a8f7-c557078c82be
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: e-commerce
 content-type: reference
-discoiquuid: f2f7a0eb-2ac8-4d4b-accd-00aafdd6df18
+discoiquuid: a52b3b9b-6366-437a-b4c8-ed243a9003d4
 pagetitle: Deploying eCommerce with hybris
 index: y
 internal: n
@@ -29,7 +29,7 @@ snippet: y
 >
 >`Geometrixx Outdoors Site English (US)`
 
-Deploying the [necessary eCommerce packages](#packagesneededforecommercewithhybris) will provide the full functionality of the eCommerce framework, together with a reference implementation of eCommerce functionality as provided with a hybris implementation (including a demonstration catalog)
+Deploying the [necessary eCommerce packages](#packages-needed-for-ecommerce-with-hybris) will provide the full functionality of the eCommerce framework, together with a reference implementation of eCommerce functionality as provided with a hybris implementation (including a demonstration catalog)
 
 This is available under the English (US) branch ( `/content/geometrixx-outdoors/en_US`) of the Geometrixx Outdoors site:
 
@@ -42,7 +42,7 @@ This is available under the English (US) branch ( `/content/geometrixx-outdoors/
 
 ### Technical Requirements - hybris Server {#technical-requirements-hybris-server}
 
-The hybris extension of the eCommerce Integration Framework has been updated to support Hybris 5 (as default), while maintaining backward compatibility with [Hybris 4](../../../sites/developing/using/hybris.md#developingforhybris4).
+The hybris extension of the eCommerce Integration Framework has been updated to support Hybris 5 (as default), while maintaining backward compatibility with [Hybris 4](../../../sites/developing/using/hybris.md#developing-for-hybris).
 
 >[!NOTE]
 >
@@ -91,10 +91,10 @@ To install a fully-fledged configuration (using the demonstration catalog, Geome
     1. ` [cq-hybris-content-6.3.2](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq630/product/cq-hybris-content)`
     1. ` [cq-geometrixx-hybris-content-6.3.2](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq630/product/cq-geometrixx-hybris-content)`
 
-1. [Download and build your hybris Server](#downloadandbuildyourhybrisserver).
+1. [Download and build your hybris Server](#download-and-build-your-hybris-server).
 1. Construct your catalog in your eCommerce engine:
 
-    1. [Setup the Geometrixx Outdoor Store](#setupthegeometrixxoutdoorsstore).
+    1. [Setup the Geometrixx Outdoor Store](#setup-the-geometrixx-outdoors-store).
 
 1. [Author](../../../sites/authoring/using/page-authoring.md) any supplementary pages that you need in AEM.
 
@@ -104,7 +104,7 @@ To install a fully-fledged configuration (using the demonstration catalog, Geome
 
 >[!NOTE]
 >
->For developers [API documentation](../../../sites/developing/using/ecommerce.md#apidocumentation) is also available for download.
+>For developers [API documentation](../../../sites/developing/using/ecommerce.md#api-documentation) is also available for download.
 
 ### Download and Build your hybris Server {#download-and-build-your-hybris-server}
 

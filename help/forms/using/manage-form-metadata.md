@@ -3,11 +3,11 @@ title: Manage form metadata
 seo-title: Manage form metadata
 description: Metadata allows for easier categorization and organization of assets and helps users who are looking for a specific asset.
 seo-description: Metadata allows for easier categorization and organization of assets and helps users who are looking for a specific asset.
-uuid: d72cc29f-341d-40f4-bfcf-ba959be068e2
+uuid: cae2bcd7-a5da-42ac-bd01-5713f1dc70ff
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-manager
-discoiquuid: 343906e3-a67f-49b2-a72b-51b069af7021
+discoiquuid: d07581e2-48bb-4ece-b0d1-61a536091394
 index: y
 internal: n
 snippet: y

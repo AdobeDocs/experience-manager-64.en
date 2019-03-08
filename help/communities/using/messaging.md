@@ -3,12 +3,12 @@ title: Configuring Messaging
 seo-title: Configuring Messaging
 description: Communities messaging
 seo-description: Communities messaging
-uuid: 538b78c4-ce9b-4bc0-969d-282497940b5a
+uuid: 1d99018a-8507-4a5e-954f-5cf2db3b8a66
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: dbc81482-c951-4c67-aedd-2031d4be992e
+discoiquuid: 65096248-fbdc-491f-be2d-e5be3b0847c5
 index: y
 internal: n
 snippet: y
@@ -109,6 +109,6 @@ To add a new configuration, select the plus '**+**' icon next to the service's n
 
 One way to troubleshoot problems is to enable [debugging messages in the log.](../../sites/administering/using/troubleshooting.md)
 
-See also [Loggers and Writers for Individual Services](../../sites/deploying/using/configure-logging.md#loggersandwritersforindividualservices).
+See also [Loggers and Writers for Individual Services](../../sites/deploying/using/configure-logging.md#loggers-and-writers-for-individual-services).
 
 The package to monitor is `com.adobe.cq.social.messaging`. 

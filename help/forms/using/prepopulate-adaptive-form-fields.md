@@ -3,10 +3,10 @@ title: Prefill adaptive form fields
 seo-title: Prefill adaptive form fields
 description: Use existing data to prefill fields of an adaptive form.
 seo-description: With adaptive forms, you users can prefill basic information in a form by logging in with their social profiles. This article describes how you can accomplish this.
-uuid: 5592004e-6922-4548-9799-2063ccf07873
+uuid: 3c4e1884-2c89-45e6-8a5a-0e16d719c870
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
-discoiquuid: 7e375a9d-5f0b-4093-935a-befa3f46cdc6
+discoiquuid: 8df08690-3064-44de-9036-b14b3108d244
 index: y
 internal: n
 snippet: y

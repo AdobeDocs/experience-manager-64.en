@@ -4,12 +4,12 @@ seo-title: Site and Page Features
 description: null
 seo-description: null
 page-status-flag: never-activated
-uuid: af09709f-bd9d-4b93-8911-032226324caa
+uuid: aa3a2413-65ca-42ba-8e06-c89c0353599c
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-features
 content-type: reference
-discoiquuid: e2dfd4e6-a21e-4b74-a3f3-1f9e0672dccf
+discoiquuid: 946b3729-771f-4079-93bc-676ca1c3865d
 index: y
 internal: n
 snippet: y

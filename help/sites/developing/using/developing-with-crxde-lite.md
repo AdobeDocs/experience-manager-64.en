@@ -3,12 +3,12 @@ title: Developing with CRXDE Lite
 seo-title: Developing with CRXDE Lite
 description: CRXDE Lite is embedded into AEM and enables you to perform standard development tasks in the browser
 seo-description: CRXDE Lite is embedded into AEM and enables you to perform standard development tasks in the browser
-uuid: 903c96b1-ff61-4e32-a71f-fecb99686a59
+uuid: 4353e013-f3ab-4d5e-8a9f-d2af62fe52eb
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: development-tools
 content-type: reference
-discoiquuid: ac9b7bb4-b026-4227-afe0-18f30d47c806
+discoiquuid: 293ff3fa-bafb-4337-87fa-645d6736f850
 index: y
 internal: n
 snippet: y
@@ -25,7 +25,7 @@ CRXDE Lite is recommended when you do not have direct access to the AEM server, 
 
 >[!NOTE]
 >
->By default, all AEM users can access CRXDE Lite. If desired, [configure ACLs](../../../sites/administering/using/security.md#permissionsandacls) for the following node so that only developers can access CRX DE Lite:
+>By default, all AEM users can access CRXDE Lite. If desired, [configure ACLs](../../../sites/administering/using/security.md#permissions-and-acls) for the following node so that only developers can access CRX DE Lite:
 >
 >`/libs/granite/crxde`
 
@@ -216,7 +216,7 @@ It creates:
 
 * A child node of type `cq:PageContent` with Page Content properties
 
-You can add properties to your template: refer to the [Creating a Property](#creatingaproperty) section.
+You can add properties to your template: refer to the [Creating a Property](#creating-a-property) section.
 
 ### Creating a Component {#creating-a-component}
 
@@ -314,7 +314,7 @@ This section describes how to create a `Test` bundle with a `HelloWorld` Java cl
 
 To create the Test bundle with CRXDE Lite:
 
-1. In CRXDE Lite create `myapp` project with the [project wizard](#creatingaproject). Among others the following nodes are created:
+1. In CRXDE Lite create `myapp` project with the [project wizard](#creating-a-project). Among others the following nodes are created:
 
     * `/apps/myapp/src`
     * 

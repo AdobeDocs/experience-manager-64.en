@@ -3,12 +3,12 @@ title: Troubleshooting Integration Issues
 seo-title: Troubleshooting Integration Issues
 description: Learn how to troubleshoot integration issues.
 seo-description: Learn how to troubleshoot integration issues.
-uuid: 69dbbeb8-81c2-4e19-9345-1ef090ca9e8d
+uuid: f60e5132-96d3-4054-967c-886e94c40203
 contentOwner: raiman
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: 092a2e78-8836-4d11-8833-f5132e863422
+discoiquuid: cae2cc87-5995-4da3-bca4-77163a5899a0
 index: y
 internal: n
 snippet: y
@@ -40,7 +40,7 @@ ${ myHtlVariable }
 -->
 ```
 
-For additional details about logging, see the [Logging](../../../sites/deploying/using/configure-logging.md) and [Working with Audit Records and Log Files](../../../sites/deploying/using/monitoring-and-maintaining.md#workingwithauditrecordsandlogfiles) pages.
+For additional details about logging, see the [Logging](../../../sites/deploying/using/configure-logging.md) and [Working with Audit Records and Log Files](../../../sites/deploying/using/monitoring-and-maintaining.md#working-with-audit-records-and-log-files) pages.
 
 ## Analytics Integration Issues {#analytics-integration-issues}
 
@@ -104,7 +104,7 @@ To fix the issue, you can try the following:
     * allow; jcr:read; everyone; rep:glob:&#42;/public/&#42;
     * allow; jcr:read; everyone; rep:glob:&#42;/public
 
-For more information about managing ACLs, read the [User Administration and Security](../../../sites/administering/using/security.md#permissionsinaem) page.
+For more information about managing ACLs, read the [User Administration and Security](../../../sites/administering/using/security.md#permissions-in-aem) page.
 
 ## Target Integration Issues {#target-integration-issues}
 
@@ -136,7 +136,7 @@ The set of libraries that are loaded depend on the type of target client library
 
 When using DTM to deliver `mbox.js` or `at.js` make sure the libraries are loaded before the content is rendered. Using Tag Management Systems that load these libraries asynchronously could cause issues in executing the target specific JavaScript code.
 
-For additional information, read the [Developing for Targeted Content](../../../sites/developing/using/target.md#understandingthetargetcomponent) page.
+For additional information, read the [Developing for Targeted Content](../../../sites/developing/using/target.md#understanding-the-target-component) page.
 
 ### The error "Missing Report Suite ID in AppMeasurement initialization" is displayed in the browser console {#the-error-missing-report-suite-id-in-appmeasurement-initialization-is-displayed-in-the-browser-console}
 
@@ -163,7 +163,7 @@ This issue can have multiple causes:
 
 You can try the following solutions:
 
-* Make sure the customer code loading the DTM-like libraries (which in turn load the Target libraries) is executed synchronously in the [page head](../../../sites/developing/using/target.md#enablingtargetingwithadobetargetonyourpages).
+* Make sure the customer code loading the DTM-like libraries (which in turn load the Target libraries) is executed synchronously in the [page head](../../../sites/developing/using/target.md#enabling-targeting-with-adobe-target-on-your-pages).
 * if the site is configured to use DTM to deliver Target libraries ensure that the **Clientlib delivered by DTM** option is checked in the [Target configuration](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/target-configuring.html) for the site.
 
 ### A default offer is always displayed instead of correct offer when using AT.js 1.3+ {#a-default-offer-is-always-displayed-instead-of-correct-offer-when-using-at-js}

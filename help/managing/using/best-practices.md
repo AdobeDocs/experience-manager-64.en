@@ -3,13 +3,13 @@ title: Managing Projects - Best Practices Checklist
 seo-title: Managing Projects - Best Practices Checklist
 description: Managing a project to implement Adobe Experience Manager (AEM) requires planning and understanding. The Project Checklists are intended as a set of best practices for project delivery. They guide you through all phases of the project life cycle and provide high level monitoring of your current status. 
 seo-description: Managing a project to implement Adobe Experience Manager (AEM) requires planning and understanding. The Project Checklists are intended as a set of best practices for project delivery. They guide you through all phases of the project life cycle and provide high level monitoring of your current status. 
-uuid: f3e3a1b8-8968-447f-8f27-2f3fdc76f562
+uuid: f8345422-8ed3-42fa-aa66-e6317b134932
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/MANAGING
 topic-tags: managing-checklist
 content-type: reference
 topic-tags: introduction
-discoiquuid: ad72b3a4-98c3-4b74-9996-de85afcce8a3
+discoiquuid: c8b28ae6-22cc-483e-b14a-cfe83ec2ab00
 index: y
 internal: n
 snippet: y
@@ -29,10 +29,10 @@ To help you, the best practices consist of:
 * Documentation, based directly on the [checklist](../../managing/using/best-practices-checklist.md), that details the:
 
     * [Project Heartbeat](#projectheartbeat) analysis.
-    * [Status by Role](#statusbyrole) overview.
-    * [Phases and Milestones](#phasesandmilestones).
+    * [Status by Role](#status-by-role) overview.
+    * [Phases and Milestones](#phases-and-milestones).
     * [Key Persona](#persona) and their involvement at every (relevant) stage.
-    * A [Glossary](../../managing/using/best-practices-glossary.md) of the [Required Documents and Deliverables](#requireddocumentsanddeliverables).
+    * A [Glossary](../../managing/using/best-practices-glossary.md) of the [Required Documents and Deliverables](#required-documents-and-deliverables).
 
 * [Further reference](../../managing/using/best-practices-further-reference.md) material to provide more details on specific areas.
 
@@ -42,7 +42,7 @@ The **Project Heartbeat** worksheet provides a graphical overview of critical me
 
 * **Phase Quality**
 
-    * Indicates the quality of the [Required Documents and Deliverables](#requireddocumentsanddeliverables) across the project.
+    * Indicates the quality of the [Required Documents and Deliverables](#required-documents-and-deliverables) across the project.
 
 * **Phase Health**
 
@@ -54,7 +54,7 @@ The **Project Heartbeat** worksheet provides a graphical overview of critical me
 
 ## Status by Role {#status-by-role}
 
-The **Status by Role** worksheet shows detailed breakdown of [**Health**, **Quality** and **Completeness**](#projectheartbeat) by ** [Phase](#phasesandmilestones)** and ** [Persona](#persona)**.
+The **Status by Role** worksheet shows detailed breakdown of [**Health**, **Quality** and **Completeness**](#projectheartbeat) by ** [Phase](#phases-and-milestones)** and ** [Persona](#persona)**.
 
 ## Phases and Milestones {#phases-and-milestones}
 
@@ -178,7 +178,7 @@ Planning the development is key to ensure that your project is built on a solid 
 
   The system architecture defines the conceptual view of your system; including (amongst other information):
 
-    * [System structure](../../sites/deploying/using/recommended-deploys.md#deploymentscenarios) for all required environments
+    * [System structure](../../sites/deploying/using/recommended-deploys.md#deployment-scenarios) for all required environments
     * Sub-systems
     * Third party systems
     * Interfaces; hardware, software and human interaction
@@ -187,7 +187,7 @@ Planning the development is key to ensure that your project is built on a solid 
     * Processes for each environment; for example, deployment and maintenance requirements
     * Maintenance activities (Datastore GC, TarPM optimization, etc.)
     * [Dispatcher](https://helpx.adobe.com/experience-manager/dispatcher/user-guide.html) caching 
-    * [Clustering](../../sites/deploying/using/recommended-deploys.md#deploymentscenarios) Publish/Authorshare 
+    * [Clustering](../../sites/deploying/using/recommended-deploys.md#deployment-scenarios) Publish/Authorshare 
     * Performance for the client-side (JS minify, concat, css sprites, total number of http requests, and others)
 
 * **Application Architecture**
@@ -217,7 +217,7 @@ Planning the development is key to ensure that your project is built on a solid 
 
 * **Test Concept**
 
-  Before starting development you should draw up an in-depth and comprehensive concept of all [testing](/sites/developing/using/test) requirements for your project.
+  Before starting development you should draw up an in-depth and comprehensive concept of all [testing](/sites/developing/using/test.md) requirements for your project.
 
   This should include (amongst others):
 
@@ -321,15 +321,15 @@ Development is a crucial phase that requires more than just coding.
     * Third party software integration/dependencies
     * Security setup
     * Baseline performance verified by running the [Tough Day tests](../../sites/developing/using/tough-day.md) on the production setup
-    * Requirements for performance tests; see [Best Practices for Quality Assurance](../../sites/deploying/using/configuring-performance.md#bestpracticesforqualityassurance)
+    * Requirements for performance tests; see [Best Practices for Quality Assurance](../../sites/deploying/using/configuring-performance.md#best-practices-for-quality-assurance)
 
 * **Integration**
 
   Plan, document and test all aspects of the system and [solution integration](../../sites/administering/using/integration.md), including:
 
     * An automated testing strategy
-    * Automated processes to [move applications from development to test, then production](../../managing/using/enterprise-devops.md#codemovement)
-    * Automated processes to [move content from production to test and development](../../managing/using/enterprise-devops.md#contentmovement)
+    * Automated processes to [move applications from development to test, then production](../../managing/using/enterprise-devops.md#code-movement)
+    * Automated processes to [move content from production to test and development](../../managing/using/enterprise-devops.md#content-movement)
 
 * **Migration**
 
@@ -380,7 +380,7 @@ Once the new application is available it will need to undergo stringent testing,
     * [Performance Testing](../../sites/deploying/using/configuring-performance.md)
     * [How to plan and run testing](../../sites/developing/using/planning.md)  
     
-    * [Basic Performance Guidelines](../../sites/deploying/using/configuring-performance.md#basicperformanceguidelines)
+    * [Basic Performance Guidelines](../../sites/deploying/using/configuring-performance.md#basic-performance-guidelines)
 
   >[!NOTE]
   >
@@ -462,7 +462,7 @@ You want your Go Live to be as smooth as possible. Again the final steps need pl
 
 The checklists are designed by persona. These are the roles with significant involved in the project life cycle.
 
-There are also some [other persona](#otherpersona) that are involved in specific tasks.
+There are also some [other persona](#other-persona) that are involved in specific tasks.
 
 ### Project Sponsor {#project-sponsor}
 

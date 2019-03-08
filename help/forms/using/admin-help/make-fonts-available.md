@@ -3,12 +3,12 @@ title: Make fonts available
 seo-title: Make fonts available
 description: Ensure that the fonts used within a form are available for use on the J2EE application server hosting AEM forms.
 seo-description: Ensure that the fonts used within a form are available for use on the J2EE application server hosting AEM forms.
-uuid: aaf80b65-4007-473b-a14a-bc9cc6ba7631
+uuid: 4a81400a-44e9-49ca-9206-96f5956685e8
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_output
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: e078b25d-2069-4209-9c28-0e153c6c28e6
+discoiquuid: 3d884c31-1743-41fe-a0cc-6a1675813cf6
 index: y
 internal: n
 snippet: y

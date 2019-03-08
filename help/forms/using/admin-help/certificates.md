@@ -3,12 +3,12 @@ title: Managing certificates
 seo-title: Managing certificates
 description: Learn how to import and export a certificate and edit its trust settings.
 seo-description: Learn how to import and export a certificate and edit its trust settings.
-uuid: 74765d3c-8a0e-4934-a310-23a5bbee976b
+uuid: 150f4662-81fa-4cd5-80f0-7b171f6d19a7
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/managing_certificates_and_credentials
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 0691c3f6-2430-4e6c-a7d3-575558b678c4
+discoiquuid: 0d5a11a7-56cd-4803-b581-0a79d88ddea7
 index: y
 internal: n
 snippet: y

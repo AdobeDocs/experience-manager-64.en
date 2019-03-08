@@ -3,12 +3,12 @@ title: Responsive Layout
 seo-title: Responsive Layout
 description: AEM allows you to realize a responsive layout for your pages
 seo-description: AEM allows you to realize a responsive layout for your pages
-uuid: aa6cee52-d2f1-41c5-bfad-eedc378c6c0a
+uuid: 9fa7f92b-68d3-49c7-8825-36b3141b921b
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: a8c10089-813a-42c1-9c8e-056b0445cc88
+discoiquuid: e67baf8e-45ca-461d-8e5a-aaac1756f858
 index: y
 internal: n
 snippet: y
@@ -37,13 +37,13 @@ The user can then see how the content will be rendered for specific devices usin
 
 AEM realizes responsive layout for your pages using a combination of mechanisms:
 
-* [**Layout Container**](#addingalayoutcontaineranditscontenteditmode) component  
+* [**Layout Container**](#adding-a-layout-container-and-its-content-edit-mode) component  
   This component is available in the [component browser](../../../sites/authoring/using/author-environment-tools.md#components-browser) and provides a grid-paragraph system to allow you to add and position components within a responsive grid. It can also be set as the default paragraph system on your page.  
 
 * [**Layout** **Mode**](../../../sites/authoring/using/responsive-layout.md#defining-layouts-layout-mode)  
   Once the layout container is positioned on your page you can use the **Layout** mode to position content within the responsive grid.
 
-* [**Emulator**](#selectingadevicetoemulate)**** 
+* [**Emulator**](#selecting-a-device-to-emulate)**** 
   This allows you to create and edit responsive websites that rearrange the layout according to device/window size by resizing components interactively. The user can then see how the content will be rendered using the emulator.
 
 With these responsive grid mechanisms you can:
@@ -188,7 +188,7 @@ As with other components, you can select and then take action on (cut, copy, del
 
 >[!NOTE]
 >
->You can define a separate layout for each [breakpoint](#layoutdefinitionsdeviceemulationandbreakpoints) (as determined by emulated device type and orientation).
+>You can define a separate layout for each [breakpoint](#layout-definitions-device-emulation-and-breakpoints) (as determined by emulated device type and orientation).
 
 To configure the layout of a responsive grid implemented with the Layout Container you need to use the **Layout** mode.
 
@@ -200,7 +200,7 @@ To configure the layout of a responsive grid implemented with the Layout Contain
     
     * **Layout** mode remains persistent and you do not leave **Layout** mode until you select another mode via the mode selector.
 
-* When [editing an individual component.](../../../sites/authoring/using/editing-content.md#editcomponentlayout)
+* When [editing an individual component.](../../../sites/authoring/using/editing-content.md#edit-component-layout)
 
     * By using the **Layout** option in the component's quick action menu, you can switch to **Layout** mode.
     

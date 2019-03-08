@@ -3,12 +3,12 @@ title: How to Run AEM with TarMK Cold Standby
 seo-title: How to Run AEM with TarMK Cold Standby
 description: Learn how to create, configure and maintain a TarMK Cold Standby setup.
 seo-description: Learn how to create, configure and maintain a TarMK Cold Standby setup.
-uuid: bf810bba-6225-43c6-a447-578d6760687c
+uuid: f8e0ac92-2cd5-4f97-987b-69a21aaebc15
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
-discoiquuid: 1d4277f2-8f1a-470d-abb6-bcee97aa6560
+discoiquuid: f67d7ef1-98b5-490f-9072-8498973a54ff
 index: y
 internal: n
 snippet: y
@@ -325,7 +325,7 @@ You can do this by following the steps outlined below:
 1. Test the instance for issues after the installation. 
 1. Remove the cold standby instance by deleting its installation folder.
 1. Stop the primary instance and clone it by performing a file system copy of its entire installation folder to the location of the cold standby.
-1. Reconfigure the newly created clone to act as a cold standby instance. For additional details, see [Creating an AEM TarMK Cold Standby Setup.](../../../sites/deploying/using/tarmk-cold-standby.md#creatinganaemtarmkcoldstandbysetup)
+1. Reconfigure the newly created clone to act as a cold standby instance. For additional details, see [Creating an AEM TarMK Cold Standby Setup.](../../../sites/deploying/using/tarmk-cold-standby.md#creating-an-aem-tarmk-cold-standby-setup)
 1. Start both the primary and the cold standby instances.
 
 ## Monitoring {#monitoring}
@@ -400,10 +400,10 @@ As an alternative, the primary repository can be copied over to the standby manu
 
 It is important to run garbage collection on file datastore instances from time to time as otherwise, deleted binaries will remain on the filesystem, eventually filling up the drive. To run garbage collection, follow the below procedure:
 
-1. Run cold standby repository maintenance as described in the section [above](../../../sites/deploying/using/tarmk-cold-standby.md#coldstandbyrepositorymaintenance).
+1. Run cold standby repository maintenance as described in the section [above](../../../sites/deploying/using/tarmk-cold-standby.md#cold-standby-repository-maintenance).
 1. After the maintenance process has completed and the instances have been restarted:
 
-    * On the primary, run the data store garbage collection via the relevant JMX bean as described in [this article](../../../sites/administering/using/data-store-garbage-collection.md#runningdatastoregarbagecollectionviathejmxconsole).
+    * On the primary, run the data store garbage collection via the relevant JMX bean as described in [this article](../../../sites/administering/using/data-store-garbage-collection.md#running-data-store-garbage-collection-via-the-jmx-console).
     * On the standby, the data store garbage collection is available only via the **BlobGarbageCollection** MBean - `startBlobGC()`. The **RepositoryManagement **MBean is not available on the standby.
 
    >[!NOTE]

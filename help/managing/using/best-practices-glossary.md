@@ -3,12 +3,12 @@ title: Glossary
 seo-title: Glossary
 description: This glossary lists (alphabetically) details of all Deliverable documents from the Project Checklist.
 seo-description: This glossary lists (alphabetically) details of all Deliverable documents from the Project Checklist.
-uuid: 64c28988-da26-4e36-b435-917225f0d17e
+uuid: 06abd6a5-2384-474e-8237-0b6c05b82836
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/MANAGING
 topic-tags: managing-checklist
 content-type: reference
-discoiquuid: 600de3ce-7439-4a97-8979-7aeef99cba5c
+discoiquuid: de2f0369-8c2d-448b-b114-7071d347b376
 index: y
 internal: n
 snippet: y
@@ -89,7 +89,7 @@ The Customer Roadmap is comprised of high level milestones and business goals. T
 
 ### Application Architecture Definition {#application-architecture-definition}
 
-The [application architecture](../../managing/using/best-practices.md#developmentpreparation) should clearly define the behavior of the proposed applications.
+The [application architecture](../../managing/using/best-practices.md#development-preparation) should clearly define the behavior of the proposed applications.
 
 It is focused on:
 
@@ -501,7 +501,7 @@ Results of a feasibility study for both AEM and the high level solution design. 
 
 ### Finalized Contract {#finalized-contract}
 
-A finalized and signed contract is needed before proceeding with the project. This is based on the [Contract Draft](#contractdraft).
+A finalized and signed contract is needed before proceeding with the project. This is based on the [Contract Draft](#contract-draft).
 
 ### Functionality of the Solution Accepted by Stakeholders {#functionality-of-the-solution-accepted-by-stakeholders}
 
@@ -900,7 +900,7 @@ Define the communication plan for both businesss stakeholders and the project te
 
 ### Project Efforts - Final Estimates {#project-efforts-final-estimates}
 
-The [initial estimates](#projecteffortsinitialestimates) were high level and made according to the high level requirements for the implementation.
+The [initial estimates](#project-efforts-initial-estimates) were high level and made according to the high level requirements for the implementation.
 
 These are now reviewed, refined and expanded to provide the final estimates. Estimates should be delivered by each appropriate project lead, including project management, consulting, architecture, testing and development.
 
@@ -1284,7 +1284,7 @@ The Testing Concept is the very high-level outline of testing for the project; i
 
 ### Testing Plans {#testing-plans}
 
-These plans outline in greater detail the execution of tests for each phase of development and are based on the [Testing Strategy](#testingstrategy).
+These plans outline in greater detail the execution of tests for each phase of development and are based on the [Testing Strategy](#testing-strategy).
 
 ### Testing Scope {#testing-scope}
 

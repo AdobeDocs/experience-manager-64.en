@@ -3,12 +3,12 @@ title: Connecting to SQL Databases
 seo-title: Connecting to SQL Databases
 description: Access an external SQL database to so that your AEM applications can interact with the data
 seo-description: Access an external SQL database to so that your AEM applications can interact with the data
-uuid: fb2f0281-c967-4499-b895-e695a87515c6
+uuid: b9bcee5c-3fca-4ada-af1e-b422ef0bc582
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
-discoiquuid: e7cac638-dd0e-4ca8-a04f-f2c60496b1cc
+discoiquuid: 755f9f66-9fe1-44bf-8616-b5aa1d17eaee
 index: y
 internal: n
 snippet: y
@@ -18,9 +18,9 @@ snippet: y
 
 Access an external SQL database to so that your CQ applications can interact with the data:
 
-1. [Create or obtain an OSGi bundle that that exports the JDBC driver package](#bundlingthejdbcdatabasedriver).
-1. [Configure a JDBC data source pool provider](#configuringthejdbcconnectionpoolservice).
-1. [Obtain a data source object and create the connection in your code](#connectingtothedatabase).
+1. [Create or obtain an OSGi bundle that that exports the JDBC driver package](#bundling-the-jdbc-database-driver).
+1. [Configure a JDBC data source pool provider](#configuring-the-jdbc-connection-pool-service).
+1. [Obtain a data source object and create the connection in your code](#connecting-to-the-database).
 
 ### Bundling the JDBC Database Driver {#bundling-the-jdbc-database-driver}
 

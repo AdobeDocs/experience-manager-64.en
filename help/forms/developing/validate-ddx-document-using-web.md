@@ -3,12 +3,12 @@ title: Validate a DDX document using theweb service API
 seo-title: Validate a DDX document using theweb service API
 description: null
 seo-description: null
-uuid: 6ec5b51c-a6ef-4f38-bb3c-56faa684e63d
+uuid: cddf7fd1-635e-4da9-9e20-56e1d5c545d1
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/validating_ddx_documents
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 07fe8a31-4957-4a27-8466-b78403e99d24
+discoiquuid: 39727f4d-2398-4faa-a464-af635f90bf44
 index: y
 internal: n
 snippet: y
@@ -77,7 +77,7 @@ Validate a DDX document by using the Assembler Service API (web service):
 
 **See also**
 
-[Validating DDX Documents](/programming-with-aem-forms/validating-ddx-documents-validating-ddx#validating_ddx_documents)
+[Validating DDX Documents](/programming-with-aem-forms/validating-ddx-documents-validating-ddx.md#validating_ddx_documents)
 
 [Quick Start (MTOM): Validating DDX documents using the web service API](#unresolvedlink-lc-qs-assembler-as.xml#ws624e3cba99b79e12e69a9941333732bac8-7f79.2)
 

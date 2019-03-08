@@ -3,12 +3,12 @@ title: Social Login with Facebook and Twitter
 seo-title: Social Login with Facebook and Twitter
 description: Social login lets site visitors to sign in with their Facebook or Twitter account.
 seo-description: Social login lets site visitors to sign in with their Facebook or Twitter account.
-uuid: e8d26c7b-35ad-41a8-8c8d-3404eaf7e4bf
+uuid: a2c324c1-3e6c-432c-b89d-71d40b0bcf97
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: d7e06dff-d187-46ed-89ff-ea1986fca2db
+discoiquuid: 95b0a1cf-bc3a-4ca3-a41d-1be0ebdbbb33
 index: y
 internal: n
 snippet: y
@@ -28,32 +28,32 @@ While the we-retail sample provides sample Facebook and Twitter apps and cloud s
 
 The required steps are:
 
-1. [**Enable **OAuth authentication](#adobegraniteoauthauthenticationhandler) on all AEM publish instances.  
+1. [**Enable **OAuth authentication](#adobe-granite-oauth-authentication-handler) on all AEM publish instances.  
    Without OAuth enabled, attempts to log in fail.
 
 1. **Create **a social app and cloud service.
 
     * To support log in with Facebook:
 
-        * create a [Facebook app](#createafacebookapp).
-        * create and publish a [Facebook Connect cloud service](#createafacebookconnectcloudservice).
+        * create a [Facebook app](#create-a-facebook-app).
+        * create and publish a [Facebook Connect cloud service](#create-a-facebook-connect-cloud-service).
 
     * To support log in with Twitter:
 
-        * create a [Twitter app](#createatwitterapp).
-        * create and publish a [Twitter Connect cloud service](#createatwitterconnectcloudservice).
+        * create a [Twitter app](#create-a-twitter-app).
+        * create and publish a [Twitter Connect cloud service](#create-a-twitter-connect-cloud-service).
 
-1. [**Enable** social login](#enablesociallogin) for a community site.
+1. [**Enable** social login](#enable-social-login) for a community site.
 
 There are two basic concepts:
 
 1. **scope** (permissions) specifies the data the app is allowed to request.
 
-    * The Facebook and Twitter [Adobe Granite OAuth Application and Provider](#adobegraniteoauthapplicationandprovider) instances, by default, include the basic app permissions within their scope.
+    * The Facebook and Twitter [Adobe Granite OAuth Application and Provider](#adobe-granite-oauth-application-and-provider) instances, by default, include the basic app permissions within their scope.
 
 1. **fields** (params) specifies the actual data requested using URL parameters.
 
-    * These fields are specified in [AEM Communities Facebook OAuth Provider](#aemcommunitiesfacebookoauthprovider) and [AEM Communities Twitter OAuth Provider](#aemcommunitiestwitteroauthprovider).
+    * These fields are specified in [AEM Communities Facebook OAuth Provider](#aem-communities-facebook-oauth-provider) and [AEM Communities Twitter OAuth Provider](#aem-communities-twitter-oauth-provider).
     
     * The default fields are sufficient for most use cases but can be modified.
 
@@ -134,16 +134,16 @@ The [Adobe Granite OAuth Application and Provider](https://chl-author.corp.adobe
     * Select **SAVE.**
     * **Publish.**
 
-The result is an [Adobe Granite OAuth Application and Provider](https://helpx.adobe.com/experience-manager/6-3/communities/using/social-login.html#AdobeGraniteOAuthApplicationandProvider) instance which does not require further modification unless adding additional scope (permissions). The default scope is the standard permissions for Facebook login. If additional scope is desired, it is necessary to edit the OSGI configuration directly. If there are modifications done directly via system/console, avoid editing your cloud service configurations from touch UI to avoid overwriting.
+The result is an [Adobe Granite OAuth Application and Provider](https://helpx.adobe.com/experience-manager/6-3/communities/using/social-login.html#adobe-granite-oauth-application-and-provider) instance which does not require further modification unless adding additional scope (permissions). The default scope is the standard permissions for Facebook login. If additional scope is desired, it is necessary to edit the OSGI configuration directly. If there are modifications done directly via system/console, avoid editing your cloud service configurations from touch UI to avoid overwriting.
 
 ### AEM Communities Facebook OAuth Provider {#aem-communities-facebook-oauth-provider}
 
-The AEM Communities provider extends the [Adobe Granite OAuth Application and Provider](#adobegraniteoauthapplicationandprovider) instance.
+The AEM Communities provider extends the [Adobe Granite OAuth Application and Provider](#adobe-granite-oauth-application-and-provider) instance.
 
 This provider will require editing to:
 
 * Allow user updates 
-* Add additional fields [within  scope ](#adobegraniteoauthapplicationandprovider)
+* Add additional fields [within  scope ](#adobe-granite-oauth-application-and-provider)
 
     * not all fields permitted by default are included by default.
 
@@ -199,7 +199,7 @@ If editing is necessary, on each AEM publish instance:
 The next steps are the same for both Facebook and Twitter :
 
 * [publish the cloud service configurations](#publishcloudservices)
-* [enable for a community site](#enablesociallogin)
+* [enable for a community site](#enable-social-login)
 
 ## Twitter Login {#twitter-login}
 
@@ -242,7 +242,7 @@ The only REST request made for social login is to * [GET account/verify credenti
 
 ### Create a Twitter Connect Cloud Service {#create-a-twitter-connect-cloud-service}
 
-The [Adobe Granite OAuth Application and Provider](#adobegraniteoauthapplicationandprovider) instance, instantiated by creating a cloud service configuration, identifies the Twitter application and the member group(s) to which the new users are added.
+The [Adobe Granite OAuth Application and Provider](#adobe-granite-oauth-application-and-provider) instance, instantiated by creating a cloud service configuration, identifies the Twitter application and the member group(s) to which the new users are added.
 
 1. On the author instance, sign in with administrator privileges.
 1. From global navigation, select **Tools, Cloud Services, Twitter Social login configuration.**
@@ -275,11 +275,11 @@ The [Adobe Granite OAuth Application and Provider](#adobegraniteoauthapplication
 
 1. Select **SAVE**, and** Publish**.
 
-The result is an [Adobe Granite OAuth Application and Provider](https://helpx.adobe.com/experience-manager/6-3/communities/using/social-login.html#AdobeGraniteOAuthApplicationandProvider) instance which does not require further modification. The default scope is the standard permissions for Twitter login.
+The result is an [Adobe Granite OAuth Application and Provider](https://helpx.adobe.com/experience-manager/6-3/communities/using/social-login.html#adobe-granite-oauth-application-and-provider) instance which does not require further modification. The default scope is the standard permissions for Twitter login.
 
 ### AEM Communities Twitter OAuth Provider {#aem-communities-twitter-oauth-provider}
 
-The AEM Communities configuration extends the [Adobe Granite OAuth Application and Provider](#adobegraniteoauthapplicationandprovider) instance. This provider will require editing to allow user updates.
+The AEM Communities configuration extends the [Adobe Granite OAuth Application and Provider](#adobe-granite-oauth-application-and-provider) instance. This provider will require editing to allow user updates.
 
 If editing is necessary, on each AEM publish instance:
 
@@ -313,7 +313,7 @@ If editing is necessary, on each AEM publish instance:
 The next steps are the same for both Facebook and Twitter:
 
 * [publish the cloud service configurations](#publishcloudservices)
-* [enable for a community site](#enablesociallogin)
+* [enable for a community site](#enable-social-login)
 
 ## Enable Social Login {#enable-social-login}
 
@@ -333,7 +333,7 @@ Once a cloud service is configured, it may be enabled for the relevant Social Lo
 
 ## Test Social Login {#test-social-login}
 
-* ensure [Adobe Granite OAuth Authentication Handler](#adobegraniteoauthauthenticationhandler) has been enabled on all publish instances
+* ensure [Adobe Granite OAuth Authentication Handler](#adobe-granite-oauth-authentication-handler) has been enabled on all publish instances
 * ensure the cloud services have been published
 * ensure the community site has been published
 * launch the published site in a browser  
@@ -458,7 +458,7 @@ On an author instance, signed in with administrative privileges:
 
     * Select **Save All.**
 
-**&#42;** For the **name** oauthid-*123*, replace *123* with the Facebook ***App ID*** or Twitter ***Consumer (API) Key*** that is the value of the **Client ID** in the [Adobe Granite OAuth Application and Provider](../../communities/using/social-login.md#adobegraniteoauthapplicationandprovider)configuration.
+**&#42;** For the **name** oauthid-*123*, replace *123* with the Facebook ***App ID*** or Twitter ***Consumer (API) Key*** that is the value of the **Client ID** in the [Adobe Granite OAuth Application and Provider](../../communities/using/social-login.md#adobe-granite-oauth-application-and-provider)configuration.
 
 ![](assets/chlimage_1-492.png)
 

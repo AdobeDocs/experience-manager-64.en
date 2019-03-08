@@ -3,12 +3,12 @@ title: Dialog Conversion Tool
 seo-title: Dialog Conversion Tool
 description: The dialog conversion tool is provided to help you extend existing components that only have a dialog defined for the classic UI
 seo-description: The dialog conversion tool is provided to help you extend existing components that only have a dialog defined for the classic UI
-uuid: a1981277-03ca-4550-9d9c-52c1ef287d11
+uuid: 09c55a89-d368-4516-be4d-73b879e83531
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: development-tools
 content-type: reference
-discoiquuid: 3cc73890-2974-4876-80a4-b4d099af7ae3
+discoiquuid: 69611e01-d5ff-43bd-ac17-55c6f6615212
 index: y
 internal: n
 snippet: y

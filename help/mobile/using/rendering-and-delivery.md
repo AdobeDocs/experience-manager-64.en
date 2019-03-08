@@ -3,11 +3,11 @@ title: Rendering and Delivery
 seo-title: Rendering and Delivery
 description: null
 seo-description: null
-uuid: 4b251abc-e09c-4efd-a7d6-fea06eb2aa4d
+uuid: b329a5c5-2bae-42e7-9c03-35114bd12927
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
-discoiquuid: 556c7998-b6bb-48b8-a731-a1458636257a
+discoiquuid: 751e9e03-8f7a-4a5f-abd1-aafdd41395e1
 index: y
 internal: n
 snippet: y
@@ -226,6 +226,6 @@ This configuration extend the default to include grouping children under a child
 See the resources below to learn about additional topics in Content Services:
 
 * [Developing Models](../../mobile/using/models-in-repository.md)
-* [Authoring Content Services](/mobile/using/content-as-a-service)
-* [Administering Content Services](/mobile/using/content-services)
+* [Authoring Content Services](/mobile/using/content-as-a-service.md)
+* [Administering Content Services](/mobile/using/content-services.md)
 

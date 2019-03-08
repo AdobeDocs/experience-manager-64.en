@@ -3,9 +3,9 @@ title: Forms-centric workflow on OSGi - Step Reference
 seo-title: Forms-centric workflow on OSGi - Step Reference
 description: Forms-centric workflow on OSGi steps allow you rapidly build adaptive forms based workflows.
 seo-description: Forms-centric workflow on OSGi steps allow you rapidly build adaptive forms based workflows.
-uuid: ba9cd07c-4c4a-49c0-a722-cc2281df22f2
+uuid: 17cf6f42-689f-47e9-9fc0-fa8d43a7e74b
 contentOwner: aheimoz
-discoiquuid: c0aa565d-2750-4ab8-b39e-36020514afa1
+discoiquuid: 930bb25e-6262-41f5-86f4-71e36797c8ba
 index: y
 internal: n
 snippet: y

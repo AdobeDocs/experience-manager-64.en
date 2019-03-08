@@ -3,11 +3,11 @@ title: Backbone interaction
 seo-title: Backbone interaction
 description: Conceptual information about use of Backbone JavaScript models in AEM Forms workspace.
 seo-description: Conceptual information about use of Backbone JavaScript models in AEM Forms workspace.
-uuid: 24c693c6-8c36-4e11-ad7c-a08c31809bee
+uuid: 94260f07-0a3b-45ab-acd4-ae6352987715
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
-discoiquuid: 54025710-5ea7-4356-80df-eec107abad1a
+discoiquuid: 115daf52-23c8-4805-8137-335256e3d28e
 index: y
 internal: n
 snippet: y

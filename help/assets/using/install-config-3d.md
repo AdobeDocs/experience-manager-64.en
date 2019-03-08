@@ -3,12 +3,12 @@ title: Installing and configuring AEM 3D
 seo-title: Installing and configuring AEM 3D
 description: Learn how to install and configure AEM 3D
 seo-description: Learn how to install and configure AEM 3D
-uuid: 92b5bb03-9fbd-4b81-923e-605582fa8030
+uuid: eb0a9882-ee7c-477c-a8cb-6804a3f93cbc
 contentOwner: Rick Brough
 topic-tags: 3D
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-discoiquuid: aa0926c3-90e5-4e2e-b68a-a39674118cec
+discoiquuid: b78be8e0-f04b-45b1-81dc-bc166865b62a
 index: y
 internal: n
 snippet: y
@@ -78,7 +78,7 @@ To install the native 3D code package,
 
 1. Ensure that you have a supported browser available to access AEM.
 
-   See [System requirements](../../release-notes/aem3d-release-notes.md#systemrequirements).
+   See [System requirements](../../release-notes/aem3d-release-notes.md#system-requirements).
 
 1. Using a supported browser, log on to AEM with Administrator privileges.
 1. In AEM, click the AEM logo to access the global navigation console, then click the Tools icon and navigate to **Administration** &gt; **Deployment** &gt; **Package Share**.
@@ -91,7 +91,7 @@ To install the native 3D code package,
 1. In the Install Package dialog box, expand **Advanced Settings**, then set Access Control Handling to **Merge**.
 1. Click **Install** to begin installation of the package.
 
-   The file `sample-3D-content.zip` is placed in the **Assets** root folder. See [Validating the setup of AEM 3D](#validatingthesetupofaem3d) for additional information.
+   The file `sample-3D-content.zip` is placed in the **Assets** root folder. See [Validating the setup of AEM 3D](#validating-the-setup-of-aem-d) for additional information.
 
 ## Configuring the 3D asset ingestion workflow and restarting AEM {#configuring-the-d-asset-ingestion-workflow-and-restarting-aem}
 
@@ -120,7 +120,7 @@ To configure the 3D asset ingestion workflow:
 
    After restart, you are ready to upload 3D content and have AEM process it.
 
-   Continue with [Validating the setup of AEM 3D](#validatingthesetupofaem3d).
+   Continue with [Validating the setup of AEM 3D](#validating-the-setup-of-aem-d).
 
 ## Validating the setup of AEM 3D {#validating-the-setup-of-aem-d}
 

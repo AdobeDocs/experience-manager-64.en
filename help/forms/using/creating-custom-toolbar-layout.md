@@ -3,11 +3,11 @@ title: Creating custom toolbar layout
 seo-title: Creating custom toolbar layout
 description: You can specify a toolbar layout for the form. The toolbar layout defines the commands and the layout of the toolbar on the form.
 seo-description: You can specify a toolbar layout for the form. The toolbar layout defines the commands and the layout of the toolbar on the form.
-uuid: 4af6771a-47a1-4dd9-9293-56f475e75db3
+uuid: 58cc77c5-7782-44a3-a465-b804773f53f2
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: customization
-discoiquuid: 6a56d22b-6ef3-4a31-aa09-1dbcdb5b5ac1
+discoiquuid: 62f7b09e-6aca-4877-9ea1-53566083e8e8
 index: y
 internal: n
 snippet: y

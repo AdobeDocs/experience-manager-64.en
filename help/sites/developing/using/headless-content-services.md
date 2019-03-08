@@ -3,11 +3,11 @@ title: Understanding Content Fragments and Content Services in AEM
 seo-title: Understanding Content Fragments and Content Services in AEM
 description: This tutorial shows how to use Content Fragments for managing and delivering structured content with AEM.
 seo-description: This tutorial shows how to use Content Fragments for managing and delivering structured content with AEM.
-uuid: 0c070411-3b63-4b39-a768-27311248f8c8
+uuid: c8df5437-f21b-4515-9d51-cdddc6d9e707
 topic-tags: headless
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SITES
-discoiquuid: 4dffd3ae-2924-4840-850c-0556002ce44d
+discoiquuid: af8b6244-98d3-4c84-8dcf-814c537ab5eb
 redirecttarget: /content/help/en/experience-manager/kt/sites/using/content-fragments-mixed-media-feature-video-use
 index: y
 internal: n

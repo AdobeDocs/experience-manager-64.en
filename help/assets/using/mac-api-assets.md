@@ -3,12 +3,12 @@ title: Assets HTTP API
 seo-title: Assets HTTP API
 description: Learn about the implementation, data model, and features of Assets HTTP API. Use Assets HTTP API to perform various tasks around assets.
 seo-description: Learn about the implementation, data model, and features of Assets HTTP API. Use Assets HTTP API to perform various tasks around assets.
-uuid: 72ef6445-968a-4004-93a3-71778a33ded6
+uuid: 3ba094d2-6e88-4193-9192-3f629551a001
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: extending-assets
 content-type: reference
-discoiquuid: 93beddc5-a565-4b86-9251-5779c685a78f
+discoiquuid: 49d86174-cbc5-4cbb-9aff-49162e4b7a8d
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Integrating with ExactTarget
 seo-title: Integrating with ExactTarget
 description: Learn how to integrate AEM with ExactTarget.
 seo-description: Learn how to integrate AEM with ExactTarget.
-uuid: 32ae72dc-2eb8-4d44-95c9-eb2d91ea9220
+uuid: a8ab09f8-a267-4977-a538-4479431d5dcc
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: 7e8c3a4c-f2dd-4dc7-bffa-23e0146b6e96
+discoiquuid: 18a18be0-4a2e-41b5-8b16-d1f8a73bd334
 index: y
 internal: n
 snippet: y

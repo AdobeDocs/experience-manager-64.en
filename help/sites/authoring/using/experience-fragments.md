@@ -3,12 +3,12 @@ title: Experience Fragments
 seo-title: Experience Fragments
 description: null
 seo-description: null
-uuid: b8f79166-7d45-4cd9-808b-4f604e773b19
+uuid: ead4d066-5f4e-4ec3-b4da-d644ba10fc96
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: d3e20de9-658c-4d0d-8e76-24a7a11030b5
+discoiquuid: eb60a289-5b81-4f4d-a6e8-b8fb67ae6756
 index: y
 internal: n
 snippet: y
@@ -112,11 +112,11 @@ The Experience Fragment Editor offers you similar capabilities to the normal pag
 
 The following example procedure illustrates how to create a teaser for a product:
 
-1. Drag and drop a **Category Teaser** from the [Components Browser](../../../sites/authoring/using/author-environment-tools.md#componentsbrowser).
+1. Drag and drop a **Category Teaser** from the [Components Browser](../../../sites/authoring/using/author-environment-tools.md#components-browser).
 
    ![](assets/xf-authoring-04.png)
 
-1. Select ** [Configure](../../../sites/authoring/using/editing-content.md#editconfigurecopycutdeletepaste)** from the component toolbar.
+1. Select ** [Configure](../../../sites/authoring/using/editing-content.md#edit-configure-copy-cut-delete-paste)** from the component toolbar.
 1. Add the **Asset** and define the **Properties** as required.
 1. Confirm the definitions with **Done** (tick icon).
 1. Add more components as required.
@@ -125,7 +125,7 @@ The following example procedure illustrates how to create a teaser for a product
 
 You can create variations of your Experience Fragment, depending on your needs:
 
-1. Open your fragment for [editing](/sites/authoring/using/experience-fragments.html?cq_ck=1544783361584#EditingyourExperienceFragment).
+1. Open your fragment for [editing](../../../sites/authoring/using/experience-fragments.md#editing-your-experience-fragment).
 1. Open the **Variations** tab.
 
    ![](assets/xf-authoring-06.png)

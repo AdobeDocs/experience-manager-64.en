@@ -3,12 +3,12 @@ title: Best Practices for Assets
 seo-title: Best Practices for Assets
 description: Depending upon your AEM Assets deployment and features that you use for asset ingestion, rendition generation, and metadata extraction, identifying and adhering to best practices in different areas greatly enhances system stability and performance under load.
 seo-description: Depending upon your AEM Assets deployment and features that you use for asset ingestion, rendition generation, and metadata extraction, identifying and adhering to best practices in different areas greatly enhances system stability and performance under load.
-uuid: 1fd31d44-23bd-4b06-bfe8-e594e888bdb6
+uuid: 6737aaa4-d4a1-4903-a5d7-b41bf69873d8
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: 1f75e2df-4bcc-4b88-a4a2-76501b93dce6
+discoiquuid: 1913b54a-29df-4be2-a1f3-8761c29de6e9
 index: y
 internal: n
 snippet: y
@@ -29,7 +29,7 @@ After reviewing the following guides, you will have the knowledge and tools to b
 * The [Assets Network Considerations document](../../assets/using/assets-network-considerations.md): When handling AEM instances, understanding the network topology is important to understand network performance, identify chokepoints, and describe the expected user experience. The Assets Network Considerations document discusses network considerations when designing your AEM Asset deployment.
 * The [Assets Monitoring guide](../../assets/using/assets-monitoring-best-practices.md): After your AEM instance is deployed, you should monitor certain tasks and the system in general to ensure system integrity and efficiency of operations. The Monitoring guide includes best practices for monitoring various aspects of your system.
 * The [Assets Offloading guide](../../assets/using/assets-offloading-best-practices.md): Handling large files and running workflows in AEM Assets can consume considerable CPU, memory, and I/O resources. Offloading these tasks can reduce CPU, memory, and IO overheads. The Assets offloading guide includes recommended use cases and best practices for Assets offloading.
-* [AEM Desktop App Best Practices](/assets/using/aem-desktop-app-best-practices): AEM Desktop App links your digital asset management (DAM) solution with your desktop so you can open the files that are available in the AEM web UI directly on desktop. Desktop App's easy-to-use workflow is enabled using network share technology that desktop operating systems provide. This guide explains key capabilities and recommended use of AEM Desktop App.
+* [AEM Desktop App Best Practices](/assets/using/aem-desktop-app-best-practices.md): AEM Desktop App links your digital asset management (DAM) solution with your desktop so you can open the files that are available in the AEM web UI directly on desktop. Desktop App's easy-to-use workflow is enabled using network share technology that desktop operating systems provide. This guide explains key capabilities and recommended use of AEM Desktop App.
 * [AEM and Creative Cloud Integration Best Practices](../../assets/using/aem-cc-integration-best-practices.md): You can integrate your AEM instance with Creative Cloud in multiple ways. Following some best practices to streamline your integration and asset transfer workflows helps achieve maximum efficiency. This guide includes best practices around integrating AEM Assets with Adobe Creative Cloud.
 * [AEM to Creative Cloud Folder Sharing Best Practices](../../assets/using/aem-cc-folder-sharing-best-practices.md): You can configure AEM to allow users in DAM to share folders with Creative Cloud (CC) users, so they are available as shared folders in the Creative Cloud Assets service. The feature can be used to exchange files between creative teams and DAM users. This guide explains best practices for leveraging the AEM to CC folder sharing feature.
 

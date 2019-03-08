@@ -3,11 +3,11 @@ title: How Process Reporting Works
 seo-title: How Process Reporting Works
 description: Description of the services that make up the AEM Forms on JEE Process Reporting and an introduction to the Process Reporting UI
 seo-description: Description of the services that make up the AEM Forms on JEE Process Reporting and an introduction to the Process Reporting UI
-uuid: a1ee5691-03ee-4256-a6d0-8b7c4de682f2
+uuid: 00a2dd6d-8a6f-4c7b-b03e-81cfd4bcf50d
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: process-reporting
-discoiquuid: c84e4568-43f8-4a55-bdb2-ffb580203ddc
+discoiquuid: 4afc68fc-6b39-4c31-95fa-2ef3111c57da
 index: y
 internal: n
 snippet: y
@@ -61,7 +61,7 @@ The service then uses OSGi services to obtain the relevant reporting data, proce
 
 The Process Reporting user interface is a Web browser-based interface. You use this interface to view process and task information that is published from the AEM Forms database.
 
-For an introduction to the Process Reporting user interface, see [Process Reporting user interface](/forms/using/process-reporting/process-reporting-user-interface).
+For an introduction to the Process Reporting user interface, see [Process Reporting user interface](/forms/using/process-reporting/process-reporting-user-interface.md).
 
 ### QueryDataServlet service <br> {#querydataservlet-service-br-1}
 

@@ -3,12 +3,12 @@ title: "Tutorial: Create your first Interactive Communication"
 seo-title: Create your first Interactive Communication
 description: Learn to create your first Interactive Communication.
 seo-description: Learn to create your first Interactive Communication.
-uuid: 426fb9d5-1add-44eb-8054-d7e4bd560a9a
+uuid: 0c841b48-f774-43d7-a958-5e368f06db9e
 contentOwner: anujkapo
 topic-tags: introduction
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: interactive-communications
-discoiquuid: 9aaf3a59-1d53-4529-900e-aaeb616db76f
+discoiquuid: c24f5158-12f2-4647-9d4a-1328c3785e6f
 index: y
 internal: n
 snippet: y

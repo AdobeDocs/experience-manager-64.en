@@ -3,12 +3,12 @@ title: Creating an Effective Newsletter Landing Page
 seo-title: Creating an Effective Newsletter Landing Page
 description: An effective newsletter landing page helps you get as many people as possible to sign up for your newsletter (or other email marketing campaign). You can use the information you gather from your newsletter sign ups to get leads.
 seo-description: An effective newsletter landing page helps you get as many people as possible to sign up for your newsletter (or other email marketing campaign). You can use the information you gather from your newsletter sign ups to get leads.
-uuid: e8bddc99-ab8f-404e-826c-5ae995e6bf4b
+uuid: 207d0e2f-f2cd-4cd7-b5b1-1d159ee5fdc9
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: 2ecf69e9-7b87-41eb-933c-685811e44438
+discoiquuid: ac66348a-a099-4b12-b57c-e054acefe225
 index: y
 internal: n
 snippet: y
@@ -52,7 +52,7 @@ The following example is a form created at http://localhost:4502/cf#/content/geo
 
    ![](assets/mcm_newsletterpage.png)
 
-1. Click **Edit** in the Form component to configure the form to go to a Thank you page (see [Creating Thank You Pages](#creatingathankyoupage)).
+1. Click **Edit** in the Form component to configure the form to go to a Thank you page (see [Creating Thank You Pages](#creating-a-thank-you-page)).
 
    ![](assets/dc_formstart_thankyou.png)
 

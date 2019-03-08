@@ -3,12 +3,12 @@ title: Asset Templates
 seo-title: Asset Templates
 description: Learn about Asset templates in AEM Assets and how to use Asset templates to create marketing collateral.
 seo-description: Learn about Asset templates in AEM Assets and how to use Asset templates to create marketing collateral.
-uuid: 70215524-86da-4aa4-971f-99f63191ba37
+uuid: 1d5580fd-4f14-4dfd-b3e0-a4b95da56cc0
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: 2953c919-d0a0-40f7-a8b2-67bb2a22c3ee
+discoiquuid: 4e2a1b3a-2866-454a-80f3-dd0e4ea95659
 index: y
 internal: n
 snippet: y

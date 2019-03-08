@@ -3,12 +3,12 @@ title: Scoring and Badges Essentials
 seo-title: Scoring and Badges Essentials
 description: Scoring and Badges feature overview
 seo-description: Scoring and Badges feature overview
-uuid: 29d2c31f-ce8d-4c9c-b02b-91fe861b26ad
+uuid: 3e2f7142-b344-4abf-afcb-734d3442f7fc
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 7a715e29-f6ce-4894-b0fe-e0ff4b394bb3
+discoiquuid: 4236c9d3-99bd-4ce2-b5e8-65847946e45d
 index: y
 internal: n
 snippet: y
@@ -24,9 +24,9 @@ The details of setting up the feature are described at
 
 This page contains additional technical details :
 
-* how to [display a badge](#displayingbadges) as either image or text
-* how to turn on extensive [debug logging](#debuglogforscoringandbadging)
-* how to [access UGC](#ugcforscoringandbadging) related to scoring and badging
+* how to [display a badge](#displaying-badges) as either image or text
+* how to turn on extensive [debug logging](#debug-log-for-scoring-and-badging)
+* how to [access UGC](#ugc-for-scoring-and-badging) related to scoring and badging
 
 >[!CAUTION]
 >
@@ -74,7 +74,7 @@ Any changes to this behavior should be made in a customized script (either overr
 
 To help debug scoring and badging, a custom log file can be setup. The contents of this log file may then be provided to customer support if problems are encountered with the feature.
 
-For detailed instructions, visit [Create a Custom Log File](../../sites/deploying/using/monitoring-and-maintaining.md#createacustomlogfile).
+For detailed instructions, visit [Create a Custom Log File](../../sites/deploying/using/monitoring-and-maintaining.md#create-a-custom-log-file).
 
 To quickly setup a slinglog file :
 
@@ -134,7 +134,7 @@ The following APIs are available for use :
 * [com.adobe.cq.social.scoring.api](https://docs.adobe.com/content/docs/en/aem/6-3/develop/ref/javadoc/com/adobe/cq/social/scoring/api/package-summary.html)
 * [com.adobe.cq.social.badging.api](https://docs.adobe.com/content/docs/en/aem/6-3/develop/ref/javadoc/com/adobe/cq/social/badging/api/package-summary.html)
 
-The latest Javadocs for the installed [feature pack](/communities/using/version-history) are available to developers from the Adobe repository. See [Using Maven for Communities : Javadocs](../../communities/using/maven.md#javadocs).
+The latest Javadocs for the installed [feature pack](/communities/using/version-history.md) are available to developers from the Adobe repository. See [Using Maven for Communities : Javadocs](../../communities/using/maven.md#javadocs).
 
 **The location and format of the UGC in the repository is subject to change without warning**.
 
@@ -235,7 +235,7 @@ As a user has earned two bronze badges and has been awarded a moderator badge, t
 
 ### Access Scoring UGC {#access-scoring-ugc}
 
-Use of the [APIs](#scoringandbadgingapis) is preferred.
+Use of the [APIs](#scoring-and-badging-apis) is preferred.
 
 For investigative purposes, using JSRP for the example, the base folder containing scores is
 
@@ -257,7 +257,7 @@ The score is stored in the property `scoreValue_tl` which may directonly contain
 
 ### Access Badging UGC {#access-badging-ugc}
 
-Use of the [APIs](#scoringandbadgingapis) is preferred.
+Use of the [APIs](#scoring-and-badging-apis) is preferred.
 
 For investigative purposes, using JSRP for the example, the base folder containing information about assigned or awarded badges is
 
@@ -279,6 +279,6 @@ Followed by the path to the user's profile, ending in a badges folder, such as
 
 To display a sorted list of members based on points :
 
-* [Leaderboard function](../../communities/using/functions.md#leaderboardfunction) for inclusion in a community site or group template.
+* [Leaderboard function](../../communities/using/functions.md#leaderboard-function) for inclusion in a community site or group template.
 * [Leaderboard component](../../communities/using/enabling-leaderboard.md), the featured component of the Leaderboard function, for page authoring.
 

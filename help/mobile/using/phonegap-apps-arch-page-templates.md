@@ -3,12 +3,12 @@ title: Page Templates for Mobile Apps
 seo-title: Page Templates for Mobile Apps
 description: Follow this page to learn about page templates for mobile apps. 
 seo-description: Follow this page to learn about page templates for mobile apps. 
-uuid: 81479bee-91db-4517-ad27-e508d7c2a7ad
+uuid: afefa82b-850e-46c4-8ba8-8e867d584b6a
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: developing-adobe-phonegap-enterprise
-discoiquuid: 72bf4e1e-7309-440e-8d0a-713a8f2bd662
+discoiquuid: fe2e48f2-e992-4fa4-9cb6-7cf34287fa0d
 index: y
 internal: n
 snippet: y
@@ -240,7 +240,7 @@ In components driven by JSON data (such as 'ng-text': /libs/mobileapps/component
 
 #### controller.js.jsp {#controller-js-jsp-1}
 
-As described in [AEM Page Templates](/content/docs/en/aem/6-2/develop/mobile/apps/apps-arch#par_title), each component can output a JavaScript fragment to consume the JSON content exposed by the `data` promise. Following Angular conventions, a controller should only be used for assigning variables to the scope.
+As described in [AEM Page Templates](/content/docs/en/aem/6-2/develop/mobile/apps/apps-arch.md#par_title), each component can output a JavaScript fragment to consume the JSON content exposed by the `data` promise. Following Angular conventions, a controller should only be used for assigning variables to the scope.
 
 #### angular.json.jsp {#angular-json-jsp}
 

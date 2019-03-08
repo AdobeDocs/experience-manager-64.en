@@ -3,12 +3,12 @@ title: Using Tags
 seo-title: Using Tags
 description: Tags are a quick and easy method of classifying content within a website
 seo-description: Tags are a quick and easy method of classifying content within a website
-uuid: 8578c01e-3bd6-441b-9a1f-1a845cf7d428
+uuid: e9a7fc75-d82f-4a7d-8909-71762dabd072
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
-discoiquuid: bd760fcb-c098-478d-8a8c-ee7d2f78b230
+discoiquuid: 94ebd827-72d5-45e2-8f13-f5762c4e58b2
 index: y
 internal: n
 snippet: y
@@ -75,7 +75,7 @@ As with pages you can perform the following on tags and namespaces:
 
 Tag clouds show a cloud of tags, either for the current page, the entire website, or those most commonly accessed. Tag clouds are a means of highlighting the issues that are (have been) of interest to the user. The size of the text used to display the tag varies in relationship to its use.
 
-The [Tag Cloud](../../../sites/authoring/using/default-components-foundation.md#tagcloud) component (General component group) is used to add a tag cloud to a page.
+The [Tag Cloud](../../../sites/authoring/using/default-components-foundation.md#tag-cloud) component (General component group) is used to add a tag cloud to a page.
 
 ## Searching on Tags {#searching-on-tags}
 

@@ -3,12 +3,12 @@ title: Solutions Integration
 seo-title: Solutions Integration
 description: Learn more about Solutions Integration in AEM.
 seo-description: Learn more about Solutions Integration in AEM.
-uuid: 4ba41d77-42bb-4e7a-9762-2fb077b19bac
+uuid: 64d1e202-0b49-4719-8463-f9ac89bc0219
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: df209e60-94d1-4518-85f8-1832285e3a1a
+discoiquuid: 3897f193-e218-46a5-af2e-7d8431c24c0d
 index: y
 internal: n
 snippet: y
@@ -19,10 +19,10 @@ snippet: y
 * [Integrating with the Adobe Marketing Cloud](../../../sites/administering/using/marketing-cloud.md)
 * [Integrating with Third-Party Services](../../../sites/administering/using/third-party-services.md)
 * [Analytics with External Providers](../../../sites/administering/using/external-providers.md)
-* [CQ Portals and Portlets](/sites/administering/using/cq-as-portal)
+* [CQ Portals and Portlets](/sites/administering/using/cq-as-portal.md)
 * [Catalog Producer](../../../sites/administering/using/catalog-producer.md)
 * [Configuring AEM Assets integration with Marketing Cloud and Creative Cloud](../../../sites/administering/using/configure-assets-cc-integration.md)
-* [Adobe Experience Manager Desktop App](/assets/using/aem-desktop-app)
+* [Adobe Experience Manager Desktop App](/assets/using/aem-desktop-app.md)
 * [SharePoint Connector](../../../sites/administering/using/sharepoint-connector.md)
 
 The following information is available about integrating AEM with other Adobe or third-party services:

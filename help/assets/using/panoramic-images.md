@@ -3,12 +3,12 @@ title: Panoramic Images
 seo-title: Panoramic Images
 description: Learn how to work with panoramic images in Dynamic Media.
 seo-description: Learn how to work with panoramic images in Dynamic Media.
-uuid: 07ecb73f-0509-46fd-ab0a-9bca18fb97ff
+uuid: b08fbf6d-855b-4eee-a7e7-91ffeb8fcae1
 contentOwner: rbrough
 topic-tags: dynamic-media
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
-discoiquuid: 23767b66-e4e4-484b-a49c-c71e1cc2ce66
+discoiquuid: 4c742adf-26f3-447f-98ea-e62d4649066b
 index: y
 internal: n
 snippet: y
@@ -34,7 +34,7 @@ For an uploaded asset to qualify as a spherical panorama image that you intend t
 
 Both the aspect ratio and keyword criteria apply to panoramic assets for the asset details page and the "Panoramic Media" WCM component.
 
-To upload assets for use with the Panoramic Image viewer, see [Uploading Assets](../../assets/using/managing-assets-touch-ui.md#uploadingassets).
+To upload assets for use with the Panoramic Image viewer, see [Uploading Assets](../../assets/using/managing-assets-touch-ui.md#uploading-assets).
 
 ## Configuring Dynamic Media Classic (Scene7) {#configuring-dynamic-media-classic-scene}
 

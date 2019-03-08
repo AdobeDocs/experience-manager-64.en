@@ -3,12 +3,12 @@ title: Configuring caching for Output
 seo-title: Configuring caching for Output 
 description: The Output service caches the form designs, fragments and images. Learn how to configure the caching for output.
 seo-description: The Output service caches the form designs, fragments and images. Learn how to configure the caching for output.
-uuid: abc4e8eb-872d-4bdd-a570-46f00af163dd
+uuid: c9268de7-63a0-4294-8303-90a057732624
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_output
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: de8f7c09-d8e2-419d-ba4d-f8441d62d2fd
+discoiquuid: 91d894bf-1c70-4691-ac3c-a5c4eda0658a
 index: y
 internal: n
 snippet: y

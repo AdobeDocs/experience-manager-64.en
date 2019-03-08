@@ -3,12 +3,12 @@ title: Tools Consoles
 seo-title: Tools Consoles
 description: Learn about the different tools consoles throughout AEM.
 seo-description: Learn about the different tools consoles throughout AEM.
-uuid: d31b65aa-d74b-404f-b320-7757ec60efbd
+uuid: 8ed4818a-9e0c-40f0-adac-74dbc5cae332
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: fd69717a-9352-4fa3-a396-de489c253b00
+discoiquuid: f578aee8-b8cd-4b36-81af-81495dd5fd88
 index: y
 internal: n
 snippet: y
@@ -18,8 +18,8 @@ snippet: y
 
 The **Tools** consoles provide access to a number of specialized tools that help you administer your websites, digital assets and other aspects of your content repository. There are currently two flavors of the **Tools** console dependent on the UI you are using:
 
-* [Tools - Classic UI](#toolsclassicui)
-* [Tools - Touch-Optimized UI](#toolstouchoptimizedui)
+* [Tools - Classic UI](#tools-classic-ui)
+* [Tools - Touch-Optimized UI](#tools-touch-optimized-ui)
 
 ## Tools - Classic UI {#tools-classic-ui}
 
@@ -96,7 +96,7 @@ The **Tools** consoles provide access to a number of specialized tools that help
    <td>Lets you search for items and edit them in bulk. You can also export and import content (in bulk) into the repository.</td> 
   </tr> 
   <tr> 
-   <td width="200">Importers - <a href="/content/docs/en/aem/6-3/administer/content/offline-importer">Offline Importer</a></td> 
+   <td width="200">Importers - <a href="/content/docs/en/aem/6-3/administer/content/offline-importer.md">Offline Importer</a></td> 
    <td> </td> 
    <td>The offline importer enables you to import content from MS Word documents generated offline.</td> 
   </tr> 
@@ -156,7 +156,7 @@ The **Tools** consoles provide access to a number of specialized tools that help
    <td>With scaffolding you can create a form (a scaffold) with fields that reflect the structure you want for your pages and then use this form to easily create pages based on this structure.</td> 
   </tr> 
   <tr> 
-   <td width="200">Security - <a href="/content/docs/en/aem/6-3/administer/security/configure-account-services">Self-Service Configuration </a> </td> 
+   <td width="200">Security - <a href="/content/docs/en/aem/6-3/administer/security/configure-account-services.md">Self-Service Configuration </a> </td> 
    <td> </td> 
    <td>Lets you configure the emails that users automatically receive when they create an account or reset a password and to confirm a password that has been reset.</td> 
   </tr> 
@@ -299,7 +299,7 @@ The **Tools** consoles provide access to a number of specialized tools that help
   </tr> 
   <tr> 
    <td> </td> 
-   <td><a href="../../../sites/administering/using/package-manager.md#packageshare">Package Share</a></td> 
+   <td><a href="../../../sites/administering/using/package-manager.md#package-share">Package Share</a></td> 
    <td>Download applications from Adobe and the community.<br /> </td> 
   </tr> 
   <tr> 
@@ -309,7 +309,7 @@ The **Tools** consoles provide access to a number of specialized tools that help
   </tr> 
   <tr> 
    <td> </td> 
-   <td><a href="../../../sites/deploying/using/offloading.md#administeringtopologies">Topology Browser</a></td> 
+   <td><a href="../../../sites/deploying/using/offloading.md#administering-topologies">Topology Browser</a></td> 
    <td>View the instances topology.</td> 
   </tr> 
   <tr> 

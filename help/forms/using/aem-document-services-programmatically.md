@@ -3,11 +3,11 @@ title: Using AEM Document Services Programmatically
 seo-title: Using AEM Document Services Programmatically
 description: Learn how to use Document Services APIs to Digitally sign, encrypt, and generate PDF documents.
 seo-description: Learn how to use Document Services APIs to Digitally sign, encrypt, and generate PDF documents.
-uuid: 2ac2bf73-d0e1-4c38-b31b-acd830786654
+uuid: 16653dbb-97e1-44a9-afa2-72b7d21f0c49
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: document_services
-discoiquuid: 510569c6-b725-4761-b6a1-8cabd6dfe138
+discoiquuid: b765597f-1bc8-4193-bde8-2318987d02e5
 index: y
 internal: n
 snippet: y
@@ -19,7 +19,7 @@ Client classes required to build Maven Projects using AEM Document Services are 
 
 >[!NOTE]
 >
->Before using the DocAssurance service APIs, [configure the DocAssurance service](/forms/using/configuring-document-services).
+>Before using the DocAssurance service APIs, [configure the DocAssurance service](/forms/using/configuring-document-services.md).
 
 ## DocAssurance Service {#docassurance-service}
 

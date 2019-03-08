@@ -3,12 +3,12 @@ title: Overlays
 seo-title: Overlays
 description: AEM uses the principle of overlays to allow you to extend and customize the consoles and other functionality 
 seo-description: AEM uses the principle of overlays to allow you to extend and customize the consoles and other functionality 
-uuid: 79a6b7fe-aa3e-419e-ad69-a439bfa55483
+uuid: f95fb629-0337-4013-b7a7-64b99e5db5a1
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
-discoiquuid: 5eff9477-3230-48d6-9c00-51913456bee0
+discoiquuid: a76d8d76-bf52-4894-8a07-60fb82bc0404
 index: y
 internal: n
 snippet: y
@@ -20,11 +20,11 @@ AEM (and prior to that, CQ) has long used the principle of overlays to allow you
 
 Overlay is a term that can be used in many contexts. In this context (extending AEM) an overlay means taking the predefined functionality and imposing your own definitions over that (to customize the standard functionality).
 
-In a standard instance the predefined functionality is held under `/libs` and it is recommended practice to define your overlay (customizations) under the `/apps` branch. AEM uses a search path to find a resource, searching first the `/apps` branch and then the `/libs` branch (the [search path can be configured](#configuringthesearchpaths)). This mechanism means that your overlay (and the customizations defined there) will have priority.
+In a standard instance the predefined functionality is held under `/libs` and it is recommended practice to define your overlay (customizations) under the `/apps` branch. AEM uses a search path to find a resource, searching first the `/apps` branch and then the `/libs` branch (the [search path can be configured](#configuring-the-search-paths)). This mechanism means that your overlay (and the customizations defined there) will have priority.
 
 Since AEM 6.0, changes have been made to how overlays are implemented and used:
 
-* AEM 6.0 onwards - for [Granite](/sites/developing/using/reference-materials/granite-ui/api/index)-related overlays (i.e. the touch-enabled UI)
+* AEM 6.0 onwards - for [Granite](/sites/developing/using/reference-materials/granite-ui/api/index.md)-related overlays (i.e. the touch-enabled UI)
 
     * Method
 
@@ -53,11 +53,11 @@ Since AEM 6.0, changes have been made to how overlays are implemented and used:
 
 >[!CAUTION]
 >
->The [Sling Resource Merger](../../../sites/developing/using/sling-resource-merger.md) and the related methods can only be used with [Granite](/sites/developing/using/reference-materials/granite-ui/api/index). This means that creating an overlay with a skeleton structure is only appropriate for the standard, touch-enabled UI.
+>The [Sling Resource Merger](../../../sites/developing/using/sling-resource-merger.md) and the related methods can only be used with [Granite](/sites/developing/using/reference-materials/granite-ui/api/index.md). This means that creating an overlay with a skeleton structure is only appropriate for the standard, touch-enabled UI.
 >
 >Overlays for other areas (including the classic UI) involve copying the appropriate node and entire sub-structure, then making the required changes.
 
-Overlays are the recommended method for many changes, such as [configuring your consoles](../../../sites/developing/using/customizing-consoles-touch.md#createacustomconsole) or [creating your selection category to the asset browser in the side panel](../../../sites/developing/using/customizing-page-authoring-touch.md#addnewselectioncategorytoassetbrowser) (used when authoring pages). They are required as:
+Overlays are the recommended method for many changes, such as [configuring your consoles](../../../sites/developing/using/customizing-consoles-touch.md#create-a-custom-console) or [creating your selection category to the asset browser in the side panel](../../../sites/developing/using/customizing-page-authoring-touch.md#add-new-selection-category-to-asset-browser) (used when authoring pages). They are required as:
 
 * You ***must not* make changes in the `/libs` branch** 
   Any changes you do make may be lost, because this branch is liable to changes whenever you:

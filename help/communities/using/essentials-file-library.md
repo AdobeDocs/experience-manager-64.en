@@ -3,12 +3,12 @@ title: File Library Essentials
 seo-title: File Library Essentials
 description: Working with the file library feature
 seo-description: Working with the file library feature
-uuid: 3049bf5d-e712-408f-a272-eb186edaa79e
+uuid: 42e7b780-a959-42ca-abb0-e5aa517963f6
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: bca578c5-3964-48ed-b8d1-f4e154ddbe22
+discoiquuid: 62e4321a-5624-4606-ad40-bc2602111a8c
 index: y
 internal: n
 snippet: y
@@ -27,7 +27,7 @@ This page provides the essential information for working with the file library f
    <td>social/filelibrary/components/hbs/filelibrary</td> 
   </tr>
   <tr>
-   <td> <a href="../../communities/using/scf.md#addorincludeacommunitiescomponent"><strong>includable</strong></a></td> 
+   <td> <a href="../../communities/using/scf.md#add-or-include-a-communities-component"><strong>includable</strong></a></td> 
    <td>No</td> 
   </tr>
   <tr>
@@ -53,15 +53,15 @@ This page provides the essential information for working with the file library f
 
 ## Essentials for Server-Side {#essentials-for-server-side}
 
-* [File Library API](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/filelibrary/client/api/package-summary)
+* [File Library API](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/filelibrary/client/api/package-summary.md)
 
-* [File Library Endpoints](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/filelibrary/client/endpoints/package-summary)
+* [File Library Endpoints](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/filelibrary/client/endpoints/package-summary.md)
 
 * [Server-side Customizations](../../communities/using/server-customize.md)
 
 ### File Library Function {#file-library-function}
 
-A community site structure that includes the [File Library function](../../communities/using/functions.md#filelibraryfunction), includes a configured `file library` component.
+A community site structure that includes the [File Library function](../../communities/using/functions.md#file-library-function), includes a configured `file library` component.
 
 ### Accessing Comments Posted for File Libraries (UGC) {#accessing-comments-posted-for-file-libraries-ugc}
 

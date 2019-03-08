@@ -3,12 +3,12 @@ title: Managing Users
 seo-title: Managing Users
 description: null
 seo-description: null
-uuid: 88d86813-7d59-45c0-a018-f9cb0a21fc4d
+uuid: bec6df79-57af-453b-b31e-d3e1998901af
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: 6e3813ad-799d-4f7d-8937-a8c41917f0bd
+discoiquuid: fc67d8c2-d5b5-48ef-ac78-d7e56631c827
 index: y
 internal: n
 snippet: y
@@ -26,15 +26,15 @@ You can use the User Management API to create client applications that can manag
 
 User Management enables you to assign, remove, and determine roles and permissions. It also enables you to assign, remove, and query domains, users, and groups. Finally, you can use User Management to authenticate users.
 
-In [Adding Users](users#adding_users) you will understand how to programmatically add users. This section uses the Directory Manager Service API.
+In [Adding Users](users.md#adding_users) you will understand how to programmatically add users. This section uses the Directory Manager Service API.
 
-In [Deleting Users](users#deleting_users) you will understand how to programmatically delete users. This section uses the Directory Manager Service API.
+In [Deleting Users](users.md#deleting_users) you will understand how to programmatically delete users. This section uses the Directory Manager Service API.
 
-In [Managing Users and Groups](users#managing_users_and_groups) you will understand the difference between a local user and a directory user, and see examples of how to use the Java and web service APIs to programmatically manage users and groups. This section uses the Directory Manager Service API.
+In [Managing Users and Groups](users.md#managing_users_and_groups) you will understand the difference between a local user and a directory user, and see examples of how to use the Java and web service APIs to programmatically manage users and groups. This section uses the Directory Manager Service API.
 
-In [Managing Roles and Permissions](users#managing_roles_and_permissions) you will learn about the system roles and permissions and what you can do programmatically to augment them, and see examples of how to use the Java and web service APIs to programmatically manage roles and permissions. This section uses both the Directory Manager Service API and Authorization Manager Service API.
+In [Managing Roles and Permissions](users.md#managing_roles_and_permissions) you will learn about the system roles and permissions and what you can do programmatically to augment them, and see examples of how to use the Java and web service APIs to programmatically manage roles and permissions. This section uses both the Directory Manager Service API and Authorization Manager Service API.
 
-In [Authenticating Users](users#authenticating_users) you will see examples of how to use the Java and web service APIs to programmatically authenticate users. This section uses the Authorization Manager Service API.
+In [Authenticating Users](users.md#authenticating_users) you will see examples of how to use the Java and web service APIs to programmatically authenticate users. This section uses the Authorization Manager Service API.
 
 **Understanding the authentication process**
 
@@ -103,7 +103,7 @@ An `objectSID` value would change if an object is moved from one Active Director
 
 ## Adding Users {#adding-users}
 
-You can use the Directory Manager Service API (Java and web service) to programmatically add users to AEM Forms. After you add a user, you can use that user when performing a service operation that requires a user. For example, you can assign a task to the new user. (See [Assigning Tasks](/programming-with-aem-forms/processes-tasks#assigning_tasks).)
+You can use the Directory Manager Service API (Java and web service) to programmatically add users to AEM Forms. After you add a user, you can use that user when performing a service operation that requires a user. For example, you can assign a task to the new user. (See [Assigning Tasks](/programming-with-aem-forms/processes-tasks.md#assigning_tasks).)
 
 ### Summary of steps {#summary-of-steps}
 
@@ -144,15 +144,15 @@ You can verify that the user was added to ensure that no issues occurred. Locate
 
 **See also**
 
-[Add users using the Java API](users#add_users_using_the_java_api)
+[Add users using the Java API](users.md#add_users_using_the_java_api)
 
-[Add users using the web service API](users#add_users_using_the_web_service_api)
+[Add users using the web service API](users.md#add_users_using_the_web_service_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
 
-[Deleting Users](users#deleting_users)
+[Deleting Users](users.md#deleting_users)
 
 ### Add users using the Java API {#add-users-using-the-java-api}
 
@@ -197,13 +197,13 @@ Add users by using the Directory Manager Service API (Java):
 
 **See also**
 
-[Summary of steps](users#summary_of_steps)
+[Summary of steps](users.md#summary_of_steps)
 
 [Quick Start (SOAP mode): Adding users using the Java API](#unresolvedlink-lc-qs-user-manager-um.xml#ws624e3cba99b79e12e69a9941333732bac8-7bdc.2)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
 
 ### Add users using the web service API {#add-users-using-the-web-service-api}
 
@@ -257,19 +257,19 @@ Add users by using the Directory Manager Service API (web service):
 
 **See also**
 
-[Summary of steps](users#summary_of_steps)
+[Summary of steps](users.md#summary_of_steps)
 
 [Quick Start (MTOM): Adding users using the web service API](#unresolvedlink-lc-qs-user-manager-um.xml#ws624e3cba99b79e12e69a9941333732bac8-7bdb.2)
 
 [Quick Start (SwaRef): Adding users using the web service API](#unresolvedlink-lc-qs-user-manager-um.xml#ws624e3cba99b79e12e69a9941333732bac8-7bda.2)
 
-[Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_mtom)
+[Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
 
-[Invoking AEM Forms using SwaRef](/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_swaref)
+[Invoking AEM Forms using SwaRef](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_swaref)
 
 ## Deleting Users {#deleting-users}
 
-You can use the Directory Manager Service API (Java and web service) to programmatically delete users from AEM Forms. After you delete a user, the user can no longer be used to perform a service operation that requires a user. For example, you cannot assign a task to a deleted user. (See [Assigning Tasks](/programming-with-aem-forms/processes-tasks#assigning_tasks).)
+You can use the Directory Manager Service API (Java and web service) to programmatically delete users from AEM Forms. After you delete a user, the user can no longer be used to perform a service operation that requires a user. For example, you cannot assign a task to a deleted user. (See [Assigning Tasks](/programming-with-aem-forms/processes-tasks.md#assigning_tasks).)
 
 ### Summary of steps {#summary_of_steps-1}
 
@@ -298,15 +298,15 @@ To delete a user, invoke the `DirectoryManagerServiceClient` object’s `deleteL
 
 **See also**
 
-[Delete users using the Java API](users#delete_users_using_the_java_api)
+[Delete users using the Java API](users.md#delete_users_using_the_java_api)
 
-[Delete users using the web service API](users#delete_users_using_the_web_service_api)
+[Delete users using the web service API](users.md#delete_users_using_the_web_service_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
 
-[Adding Users](users#adding_users)
+[Adding Users](users.md#adding_users)
 
 ### Delete users using the Java API {#delete-users-using-the-java-api}
 
@@ -332,15 +332,15 @@ Delete users by using the Directory Manager Service API (Java):
 
 **See also**
 
-[Summary of steps](users#summary_of_steps)
+[Summary of steps](users.md#summary_of_steps)
 
-[Quick Start (EJB mode): Deleting users using the Java API](/programming-with-aem-forms/user-manager-java-api-quick#quick_start_soap_mode_deleting_users_using_the_java_api)
+[Quick Start (EJB mode): Deleting users using the Java API](/programming-with-aem-forms/user-manager-java-api-quick.md#quick_start_soap_mode_deleting_users_using_the_java_api)
 
 [Quick Start (SOAP mode): Deleting users using the Java API](#unresolvedlink-lc-qs-user-manager-um.xml#ws624e3cba99b79e12e69a9941333732bac8-7bd7.2)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
 
 ### Delete users using the web service API {#delete-users-using-the-web-service-api}
 
@@ -375,19 +375,19 @@ Delete users by using the Directory Manager Service API (web service):
 
 **See also**
 
-[Summary of steps](users#summary_of_steps)
+[Summary of steps](users.md#summary_of_steps)
 
 [Quick Start (MTOM): Deleting users using the Java API](#unresolvedlink-lc-qs-user-manager-um.xml#ws624e3cba99b79e12e69a9941333732bac8-7bd0.2)
 
 [Quick Start (SwaRef): Deleting users using the Java API](#unresolvedlink-lc-qs-user-manager-um.xml#ws624e3cba99b79e12e69a9941333732bac8-7bcd.2)
 
-[Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_mtom)
+[Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
 
-[Invoking AEM Forms using SwaRef](/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_swaref)
+[Invoking AEM Forms using SwaRef](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_swaref)
 
 ## Creating Groups {#creating-groups}
 
-You can use the Directory Manager Service API (Java and web service) to programmatically create AEM Forms groups. After you create a group, you can use that group to perform a service operation that requires a group. For example, you can assign a user to the new group. (See [Managing Users and Groups](users#managing_users_and_groups).)
+You can use the Directory Manager Service API (Java and web service) to programmatically create AEM Forms groups. After you create a group, you can use that group to perform a service operation that requires a group. For example, you can assign a user to the new group. (See [Managing Users and Groups](users.md#managing_users_and_groups).)
 
 ### Summary of steps {#summary_of_steps-2}
 
@@ -410,7 +410,7 @@ The following JAR files must be added to your project’s classpath:
 * adobe-utilities.jar (Required if AEM Forms is deployed on JBoss)
 * jbossall-client.jar (Required if AEM Forms is deployed on JBoss)
 
-For information about the location of these JAR files, see [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files).
+For information about the location of these JAR files, see [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files).
 
 **Create a DirectoryManagerService client**
 
@@ -434,15 +434,15 @@ After you create a group, you can perform an action using the group. For example
 
 **See also**
 
-[Create groups using the Java API](users#create_groups_using_the_java_api)
+[Create groups using the Java API](users.md#create_groups_using_the_java_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
 
-[Adding Users](users#adding_users)
+[Adding Users](users.md#adding_users)
 
-[Deleting Users](users#deleting_users)
+[Deleting Users](users.md#deleting_users)
 
 ### Create groups using the Java API {#create-groups-using-the-java-api}
 
@@ -482,11 +482,11 @@ Create a group by using the Directory Manager Service API (Java):
 
 **See also**
 
-[Summary of steps](users#summary_of_steps)
+[Summary of steps](users.md#summary_of_steps)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
 
 ## Managing Users and Groups {#managing-users-and-groups}
 
@@ -525,15 +525,15 @@ Once you have created the service client, you can then invoke the user or group 
 
 **See also**
 
-[Managing users and groups using the Java API](users#managing_users_and_groups_using_the_java_api)
+[Managing users and groups using the Java API](users.md#managing_users_and_groups_using_the_java_api)
 
-[Managing users and groups using the web service API](users#managing_users_and_groups_using_the_web_service_api)
+[Managing users and groups using the web service API](users.md#managing_users_and_groups_using_the_web_service_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
 
-[User Manager API Quick Starts](/programming-with-aem-forms/user-manager-java-api-quick#user_manager_java_api_quick_start_soap)
+[User Manager API Quick Starts](/programming-with-aem-forms/user-manager-java-api-quick.md#user_manager_java_api_quick_start_soap)
 
 ### Managing users and groups using the Java API {#managing-users-and-groups-using-the-java-api}
 
@@ -541,11 +541,11 @@ To programmatically manage users, groups, and domains using the (Java), perform 
 
 1. Include project files.
 
-   Include client JAR files, such as adobe-usermanager-client.jar, in your Java project’s class path. For information about the location of these files, see [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files).
+   Include client JAR files, such as adobe-usermanager-client.jar, in your Java project’s class path. For information about the location of these files, see [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files).
 
 1. Create a DirectoryManagerService client.
 
-   Create a `DirectoryManagerServiceClient` object by using its constructor and passing a `ServiceClientFactory` object that contains connection properties. For information, see [Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties)*.*
+   Create a `DirectoryManagerServiceClient` object by using its constructor and passing a `ServiceClientFactory` object that contains connection properties. For information, see [Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)*.*
 
 1. Invoke the appropriate user or group operations.
 
@@ -561,13 +561,13 @@ To programmatically manage users, groups, and domains using the (Java), perform 
 
 **See also**
 
-[Summary of steps](users#summary_of_steps)
+[Summary of steps](users.md#summary_of_steps)
 
 [Quick Start (SOAP): Managing users and groups using the Java API](#unresolvedlink-lc-qs-user-manager-um.xml#ws624e3cba99b79e12e69a9941333732bac8-7bc7.2)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
 
 ### Managing users and groups using the web service API {#managing-users-and-groups-using-the-web-service-api}
 
@@ -575,8 +575,8 @@ To programmatically manage users, groups, and domains using the Directory Manage
 
 1. Include project files.
 
-    * Create a Microsoft .NET client assembly that consumes the Directory Manager WSDL. (See [Invoking AEM Forms using Base64 encoding](/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_base64_encoding).)
-    * Reference the Microsoft .NET client assembly. (See [Creating a .NET client assembly that uses Base64 encoding](/programming-with-aem-forms/invoking-aem-forms-using-web#creating_a_net_client_assembly_that_uses_base64_encoding).)
+    * Create a Microsoft .NET client assembly that consumes the Directory Manager WSDL. (See [Invoking AEM Forms using Base64 encoding](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_base64_encoding).)
+    * Reference the Microsoft .NET client assembly. (See [Creating a .NET client assembly that uses Base64 encoding](/programming-with-aem-forms/invoking-aem-forms-using-web.md#creating_a_net_client_assembly_that_uses_base64_encoding).)
 
 1. Create a DirectoryManagerService client.
 
@@ -600,11 +600,11 @@ To programmatically manage users, groups, and domains using the Directory Manage
 
 **See also**
 
-[Summary of steps](users#summary_of_steps)
+[Summary of steps](users.md#summary_of_steps)
 
 [Quick Start (MTOM): Managing users and groups using the web service API](#unresolvedlink-lc-qs-user-manager-um.xml#ws624e3cba99b79e12e69a9941333732bac8-7251.2)
 
-[Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_mtom)
+[Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
 
 ## Managing Roles and Permissions {#managing-roles-and-permissions}
 
@@ -638,15 +638,15 @@ Once you have created the service client, you can then invoke the role or permis
 
 **See also**
 
-[Managing roles and permissions using the Java API](users#managing_roles_and_permissions_using_the_java_api)
+[Managing roles and permissions using the Java API](users.md#managing_roles_and_permissions_using_the_java_api)
 
-[Managing roles and permissions using the web service API](users#managing_roles_and_permissions_using_the_web_service_api)
+[Managing roles and permissions using the web service API](users.md#managing_roles_and_permissions_using_the_web_service_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
 
-[User Manager API Quick Starts](/programming-with-aem-forms/user-manager-java-api-quick#user_manager_java_api_quick_start_soap)
+[User Manager API Quick Starts](/programming-with-aem-forms/user-manager-java-api-quick.md#user_manager_java_api_quick_start_soap)
 
 ### Managing roles and permissions using the Java API {#managing-roles-and-permissions-using-the-java-api}
 
@@ -674,13 +674,13 @@ To manage roles and permissions using the Authorization Manager Service API (Jav
 
 **See also**
 
-[Summary of steps](users#summary_of_steps)
+[Summary of steps](users.md#summary_of_steps)
 
 [Quick Start (SOAP mode): Managing roles and permissions using the Java API](#unresolvedlink-lc-qs-user-manager-um.xml#ws624e3cba99b79e12e69a9941333732bac8-7bbe.2)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
 
 ### Managing roles and permissions using the web service API {#managing-roles-and-permissions-using-the-web-service-api}
 
@@ -721,11 +721,11 @@ Manage roles and permissions by using the Authorization Manager Service API (web
 
 **See also**
 
-[Summary of steps](users#summary_of_steps)
+[Summary of steps](users.md#summary_of_steps)
 
 [Quick Start (MTOM): Managing roles and permissions using the web service API](#unresolvedlink-lc-qs-user-manager-um.xml#ws624e3cba99b79e12e69a9941333732bac8-7bbd.2)
 
-[Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_mtom)
+[Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
 
 ## Authenticating Users {#authenticating-users}
 
@@ -797,13 +797,13 @@ Once you have authenticated the user, you can create a context based in the auth
 
 **See also**
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
 
-[User Manager API Quick Starts](/programming-with-aem-forms/user-manager-java-api-quick#user_manager_java_api_quick_start_soap)
+[User Manager API Quick Starts](/programming-with-aem-forms/user-manager-java-api-quick.md#user_manager_java_api_quick_start_soap)
 
-[Encrypting PDF Documents with a Password](/programming-with-aem-forms/encrypting-decrypting-pdf-documents#encrypting_pdf_documents_with_a_password)
+[Encrypting PDF Documents with a Password](/programming-with-aem-forms/encrypting-decrypting-pdf-documents.md#encrypting_pdf_documents_with_a_password)
 
 ### Authenticate a user using the Java API {#authenticate-a-user-using-the-java-api}
 
@@ -838,8 +838,8 @@ Authenticate a user using the Authentication Manager Service API (web service):
 
 1. Include project files.
 
-    * Create a Microsoft .NET client assembly that consumes the Authentication Manager WSDL. (See [Invoking AEM Forms using Base64 encoding](/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_base64_encoding).)
-    * Reference the Microsoft .NET client assembly. (See “Referencing the .NET client assembly” in [Invoking AEM Forms using Base64 encoding](/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_base64_encoding).)
+    * Create a Microsoft .NET client assembly that consumes the Authentication Manager WSDL. (See [Invoking AEM Forms using Base64 encoding](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_base64_encoding).)
+    * Reference the Microsoft .NET client assembly. (See “Referencing the .NET client assembly” in [Invoking AEM Forms using Base64 encoding](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_base64_encoding).)
 
 1. Create an AuthenticationManagerService client.
 
@@ -859,9 +859,9 @@ Authenticate a user using the Authentication Manager Service API (web service):
 
 [Quick Start (SwaRef): Removing a digital signature using the web service API](#unresolvedlink-lc-qs-signature-si.xml#ws624e3cba99b79e12e69a9941333732bac8-7c06.2)
 
-[Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_mtom)
+[Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
 
-[Invoking AEM Forms using SwaRef](/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_swaref)
+[Invoking AEM Forms using SwaRef](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_swaref)
 
 ## Programmatically Synchronizing Users {#programmatically-synchronizing-users}
 
@@ -932,13 +932,13 @@ After you programmatically perform a synchronization operation, you can detemine
 
 **See also**
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
 
-[User Manager API Quick Starts](/programming-with-aem-forms/user-manager-java-api-quick#user_manager_java_api_quick_start_soap)
+[User Manager API Quick Starts](/programming-with-aem-forms/user-manager-java-api-quick.md#user_manager_java_api_quick_start_soap)
 
-[Encrypting PDF Documents with a Password](/programming-with-aem-forms/encrypting-decrypting-pdf-documents#encrypting_pdf_documents_with_a_password)
+[Encrypting PDF Documents with a Password](/programming-with-aem-forms/encrypting-decrypting-pdf-documents.md#encrypting_pdf_documents_with_a_password)
 
 ### Programmatically synchronizing users using the Java API {#programmatically-synchronizing-users-using-the-java-api}
 
@@ -966,8 +966,8 @@ Synchronize users by using the User Management API (Java):
 
 **See also**
 
-[Programmatically Synchronizing Users](users#programmatically_synchronizing_users)
+[Programmatically Synchronizing Users](users.md#programmatically_synchronizing_users)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)

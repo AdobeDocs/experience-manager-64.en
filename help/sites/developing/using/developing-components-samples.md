@@ -3,12 +3,12 @@ title: Developing AEM Components - Code Samples
 seo-title: Developing AEM Components - Code Samples
 description: This section provides some examples on how to create your own components for AEM.
 seo-description: This section provides some examples on how to create your own components for AEM.
-uuid: 878cbaa7-e1a2-40ce-8f69-3841e4e1fce3
+uuid: 932dcde5-774c-48d3-9064-77f827c6a2c4
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: components
 content-type: reference
-discoiquuid: 72d05149-616d-4933-834b-c35f3a90d042
+discoiquuid: 21b7e3bc-152c-4f70-b3f8-19ba88e87553
 legacypath: /content/docs/en/aem/6-2/develop/components/components-develop
 index: y
 internal: n
@@ -53,7 +53,7 @@ You can find the code of this page on GitHub
 
 New actions can be added to component toolbars using the edit layer of the page editor.
 
-Details, together with links to the code sample, are under [Add New Action to a Component Toolbar](../../../sites/developing/using/customizing-page-authoring-touch.md#addnewactiontoacomponenttoolbar).
+Details, together with links to the code sample, are under [Add New Action to a Component Toolbar](../../../sites/developing/using/customizing-page-authoring-touch.md#add-new-action-to-a-component-toolbar).
 
 ### Customizing and Extending Content Fragments {#customizing-and-extending-content-fragments}
 

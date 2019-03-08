@@ -3,12 +3,12 @@ title: Author a New Community Site
 seo-title: Author a New Community Site
 description: How to author a new AEM Communities site
 seo-description: How to author a new AEM Communities site
-uuid: 8734938e-f0bc-4527-b870-ff56ee3b7436
+uuid: 7ae1cecd-4dff-4ee9-be48-74ec27017d1a
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: introduction
 content-type: reference
-discoiquuid: 66cf6ae5-a1fa-4359-b242-407a37b15c65
+discoiquuid: d157b066-5b09-4695-a737-6a128695a735
 index: y
 internal: n
 snippet: y
@@ -86,7 +86,7 @@ Visit the [Getting Started with AEM Communities for Enablement](../../communitie
 
 #### USER MANAGEMENT {#user-management}
 
-Check all checkboxes for [User Management](../../communities/using/sites-console.md#usermanagement)
+Check all checkboxes for [User Management](../../communities/using/sites-console.md#user-management)
 
 * to allow site visitors to self-register
 * to allow site visitors to vew the site without signing in
@@ -102,7 +102,7 @@ Check all checkboxes for [User Management](../../communities/using/sites-console
 
 #### TAGGING {#tagging}
 
-The tags which may be applied to community content are controlled by selecting AEM namespaces previously defined through the [Tagging Console](../../sites/administering/using/tags.md#taggingconsole) (such as the [Tutorial namespace](../../communities/using/setup.md#createtutorialtags)).
+The tags which may be applied to community content are controlled by selecting AEM namespaces previously defined through the [Tagging Console](../../sites/administering/using/tags.md#tagging-console) (such as the [Tutorial namespace](../../communities/using/setup.md#create-tutorial-tags)).
 
 Finding namespaces is easy using type-ahead search. For example,
 
@@ -124,7 +124,7 @@ For example,
 
 >[!NOTE]
 >
->[Tunnel service](https://helpx.adobe.com/experience-manager/6-3/communities/using/deploy-communities.html#TunnelServiceonAuthor) allows selection of members and groups existing only in the  publish  environment.
+>[Tunnel service](https://helpx.adobe.com/experience-manager/6-3/communities/using/deploy-communities.html#tunnel-service-on-author) allows selection of members and groups existing only in the  publish  environment.
 
 ![](assets/community_roles-1.png) 
 
@@ -159,7 +159,7 @@ The [Translation settings](../../communities/using/sites-console.md#translation)
 
 Leave empty when creating an engagement community.
 
-For a similar tutorial to quickly create an [enablement community](../../communities/using/overview.md#enablementcommunity), see [Getting Started with AEM Communities for Enablement](../../communities/using/getting-started-enablement.md).
+For a similar tutorial to quickly create an [enablement community](../../communities/using/overview.md#enablement-community), see [Getting Started with AEM Communities for Enablement](../../communities/using/getting-started-enablement.md).
 
 Select **Next**.
 
@@ -247,7 +247,7 @@ For this new community site, given the site name "engage" in Step 1, the four ne
 * Community Engage Privilegedmembers
 * Community Engage Sitecontentmanager
 
-Notice that [Aaron McDonald](../../communities/using/tutorials.md#demousers) is a member of
+Notice that [Aaron McDonald](../../communities/using/tutorials.md#demo-users) is a member of
 
 * Community Engage Cpommunitymanagers
 * Community Engage Moderators
@@ -261,7 +261,7 @@ Notice that [Aaron McDonald](../../communities/using/tutorials.md#demousers) is 
 
 ## Configure for Authentication Error {#configure-for-authentication-error}
 
-Once a site has been configured and pushed to publish, [configure login mapping](../../communities/using/sites-console.md#configureforauthenticationerror) ( `Adobe Granite Login Selector Authentication Handler`) on the publish instance. The benefit is that when login credientials are not entered correctly, the authentication error will redisplay the community site's login page with an error message.
+Once a site has been configured and pushed to publish, [configure login mapping](../../communities/using/sites-console.md#configure-for-authentication-error) ( `Adobe Granite Login Selector Authentication Handler`) on the publish instance. The benefit is that when login credientials are not entered correctly, the authentication error will redisplay the community site's login page with an error message.
 
 Add a `Login Page Mapping` as
 
@@ -328,9 +328,9 @@ The '**$**' at the end of the regular expression `sling:match`string is crucial,
 
 ### Modify the Site {#modify-the-site}
 
-After the site has been initially created, authors may use the [Open Site icon](../../communities/using/sites-console.md#authoringsitecontent) to perform standard AEM authoring activities.
+After the site has been initially created, authors may use the [Open Site icon](../../communities/using/sites-console.md#authoring-site-content) to perform standard AEM authoring activities.
 
-In addition, administrators may use the [Edit Site icon](../../communities/using/sites-console.md#modifyingsiteproperties) to modify properties of the site, such as the title.
+In addition, administrators may use the [Edit Site icon](../../communities/using/sites-console.md#modifying-site-properties) to modify properties of the site, such as the title.
 
 After any modification, remember to **Save** and re-**Publish** the site.
 

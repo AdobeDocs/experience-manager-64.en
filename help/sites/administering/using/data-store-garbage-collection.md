@@ -3,12 +3,12 @@ title: Data Store Garbage Collection
 seo-title: Data Store Garbage Collection
 description: Learn how to configure Data Store Garbage Collection to free up disk space.
 seo-description: Learn how to configure Data Store Garbage Collection to free up disk space.
-uuid: bb0ff615-b28e-4c48-96f0-bb842468d7ec
+uuid: 3f6e5bc5-2478-4f59-92ec-0309d842dc5e
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: 5c360599-14d3-40f4-9fda-985d5a545e12
+discoiquuid: 35579db1-3fcb-4935-a064-cb3552527146
 index: y
 internal: n
 snippet: y
@@ -180,7 +180,7 @@ The curl command returns immediately.
 
 The data store consistency check will report any data store binaries that are missing but are still referenced. To start a consistency check, follow these steps:
 
-1. Go to the JMX console. For information on how to use the JMX console, see [this article](../../../sites/administering/using/jmx-console.md#usingthejmxconsole).
+1. Go to the JMX console. For information on how to use the JMX console, see [this article](../../../sites/administering/using/jmx-console.md#using-the-jmx-console).
 1. Search for the **BlobGarbageCollection **Mbean and click it.
 1. Click the `checkConsistency()` link.
 

@@ -3,12 +3,12 @@ title: User Administration and Security
 seo-title: User Administration and Security
 description: Learn about User Administration and Security in AEM.
 seo-description: Learn about User Administration and Security in AEM.
-uuid: 2d72e0d1-c8b3-47fd-9642-0d49f665d181
+uuid: 1d097ee0-624f-4f27-9a1a-70cc28a44683
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
-discoiquuid: 35915632-7422-4ed3-83fc-87b8476ae657
+discoiquuid: 3d0ea06f-402a-4cfb-84df-7991a1cc5c35
 index: y
 internal: n
 snippet: y
@@ -141,15 +141,15 @@ AEM uses ACLs to determine what actions a user or group and can take and where i
 
 ### Permissions and ACLs {#permissions-and-acls}
 
-Permissions define who is allowed to perform which actions on a resource. The permissions are the result of [access control](security#Access%20Control%20Lists%20and%20how%20they%20are%20evaluated) evaluations.
+Permissions define who is allowed to perform which actions on a resource. The permissions are the result of [access control](security.md#access%20control%20lists%20and%20how%20they%20are%20evaluated) evaluations.
 
-You can change the permissions granted/denied to a given user by selecting or clearing the checkboxes for the individual AEM [actions](security#Actions). A check mark indicates that an action is allowed. No checkmark indicates that an action is denied.
+You can change the permissions granted/denied to a given user by selecting or clearing the checkboxes for the individual AEM [actions](security.md#actions). A check mark indicates that an action is allowed. No checkmark indicates that an action is denied.
 
 Where the checkmark is located in the grid also indicates what permissions users have in what locations within AEM (that is, which paths).
 
 ### Actions {#actions}
 
-Actions can be performed on a page (resource). For each page in the hierarchy, you can specify which action the user is allowed to take on that page. [Permissions](security.html?#Permissions%20and%20ACLs) enable you to allow or deny an action.
+Actions can be performed on a page (resource). For each page in the hierarchy, you can specify which action the user is allowed to take on that page. [Permissions](security.md#permissions%20and%20acls) enable you to allow or deny an action.
 
 <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
  <tbody> 
@@ -291,9 +291,9 @@ This will simplify the maintenance, as the number of groups is much smaller than
 
   Using deny can cause unexpected effects if the permissions are applied in a different order than the order expected. If a user is a member of more than one group, the Deny statements from one group may cancel the Allow statement from another group or vice versa. It is hard to keep an overview when this happens and can easily lead to unforeseen results, whereas Allow assignments do not cause such conflicts.
 
-  Adobe recommends that you work with Allow rather than Deny see [Best Practices](#bestpractices).
+  Adobe recommends that you work with Allow rather than Deny see [Best Practices](#best-practices).
 
-Before modifying either permission, be sure you understand how they work and inter-relate. See the CRX documentation to illustrate how AEM WCM [evaluates access rights](../../../sites/administering/using/user-group-ac-admin.md#howaccessrightsareevaluated) and examples on setting up access control lists.
+Before modifying either permission, be sure you understand how they work and inter-relate. See the CRX documentation to illustrate how AEM WCM [evaluates access rights](../../../sites/administering/using/user-group-ac-admin.md#how-access-rights-are-evaluated) and examples on setting up access control lists.
 
 ### Permissions {#permissions}
 
@@ -309,7 +309,7 @@ You allow or deny permissions by selecting or clearing the appropriate check box
 
 Along with the grid view, AEM provides a detailed view of permissions for a selected user/group at a given path. The detail view provides additional information.
 
-In addition to viewing information, you can also include or exclude the current user or group from a group. See [Adding Users or Groups while Adding Permissions](#addingusersorgroupswhileaddingpermissions). Changes made here are immediately reflected in the upper portion of the detailed view.
+In addition to viewing information, you can also include or exclude the current user or group from a group. See [Adding Users or Groups while Adding Permissions](#adding-users-or-groups-while-adding-permissions). Changes made here are immediately reflected in the upper portion of the detailed view.
 
 To access the Detail view, in the **Permissions** tab, click **Details** for any selected group/user and path.
 
@@ -351,7 +351,7 @@ This allows the impersonator accounts to complete tasks as if they were using th
 >
 >In order for impersonating to work for non-admin users, the impersonator (in the above case user-B) is required to have READ permissions in the `/home/users` path.
 >
->For more information on how to achieve this, see [Permissions in AEM](../../../sites/administering/using/security.md#permissionsinaem).
+>For more information on how to achieve this, see [Permissions in AEM](../../../sites/administering/using/security.md#permissions-in-aem).
 
 >[!CAUTION]
 >
@@ -429,60 +429,60 @@ The tabs provide access to various configurations:
 <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
  <tbody> 
   <tr> 
-   <td><strong>Tab<a href="#settingpermissions"></a></strong></td> 
+   <td><strong>Tab<a href="#setting-permissions"></a></strong></td> 
    <td><strong>Description </strong></td> 
   </tr> 
   <tr> 
    <td>Filter box</td> 
-   <td>A mechanism for filtering the users and/or groups listed. See <a href="#filteringusersandgroups">Filtering Users and Groups</a>.</td> 
+   <td>A mechanism for filtering the users and/or groups listed. See <a href="#filtering-users-and-groups">Filtering Users and Groups</a>.</td> 
   </tr> 
   <tr> 
    <td>Hide Users</td> 
-   <td>A toggle switch which will hide all users listed, leaving only groups. See <a href="#hidingusersandgroups">Hiding Users and Groups</a>.</td> 
+   <td>A toggle switch which will hide all users listed, leaving only groups. See <a href="#hiding-users-and-groups">Hiding Users and Groups</a>.</td> 
   </tr> 
   <tr> 
    <td>Hide Groups</td> 
-   <td>A toggle switch which will hide all groups listed, leaving only users. See <a href="#hidingusersandgroups">Hiding Users and Groups</a>.</td> 
+   <td>A toggle switch which will hide all groups listed, leaving only users. See <a href="#hiding-users-and-groups">Hiding Users and Groups</a>.</td> 
   </tr> 
   <tr> 
    <td>Edit</td> 
-   <td>A menu allowing you to create and delete as well activate and deactivate users or groups. See <a href="#creatingusersandgroups">Creating Users and Groups</a> and <a href="#deletingusersandgroups">Deleting Users and Groups</a>.</td> 
+   <td>A menu allowing you to create and delete as well activate and deactivate users or groups. See <a href="#creating-users-and-groups">Creating Users and Groups</a> and <a href="#deleting-users-and-groups">Deleting Users and Groups</a>.</td> 
   </tr> 
   <tr> 
    <td>Properties</td> 
-   <td>Lists information about the user or group that can include email information, a description, and name information. Also allows you to change a user's password. See <a href="http://security.html#Creating%20Users%20and%20Groups">Creating Users and Groups</a>, <a href="http://security.html#Modifying%20User%20and%20Group%20Properties">Modifying User and Group Properties</a> and <a href="#changingauserpassword">Changing a User Password</a>.</td> 
+   <td>Lists information about the user or group that can include email information, a description, and name information. Also allows you to change a user's password. See <a href="http://security.html#Creating%20Users%20and%20Groups">Creating Users and Groups</a>, <a href="http://security.html#Modifying%20User%20and%20Group%20Properties">Modifying User and Group Properties</a> and <a href="#changing-a-user-password">Changing a User Password</a>.</td> 
   </tr> 
   <tr> 
    <td>Groups</td> 
-   <td>Lists all groups that the selected user or group belongs to. You can assign the selected user or groups to additional groups or remove them from groups. See <a href="#addingusersorgroupstoagroup">Groups</a>.</td> 
+   <td>Lists all groups that the selected user or group belongs to. You can assign the selected user or groups to additional groups or remove them from groups. See <a href="#adding-users-or-groups-to-a-group">Groups</a>.</td> 
   </tr> 
   <tr> 
    <td>Members</td> 
-   <td>Available for groups only. Lists the members of a particular group. See <a href="#membersaddingusersorgroupstoagroup">Members</a>.</td> 
+   <td>Available for groups only. Lists the members of a particular group. See <a href="#members-adding-users-or-groups-to-a-group">Members</a>.</td> 
   </tr> 
   <tr> 
    <td>Permissions</td> 
    <td><p>You can allocate permissions to a user or group. Lets you control the following:</p> 
     <ul> 
-     <li>Permissions related to particular pages/nodes. See <a href="#settingpermissions">Setting Permissions</a>.<br /> </li> 
+     <li>Permissions related to particular pages/nodes. See <a href="#setting-permissions">Setting Permissions</a>.<br /> </li> 
      <li>Permissions related to creating and deleting pages and hierarchy modification. ??? lets you <a href="#settingprivileges">allocate privileges</a>, such as hierarchy modification, which lets you create and delete pages, </li> 
-     <li>Permissions related to <a href="#settingreplicationprivileges">replication privileges</a> (usually from author to publish) according to a path.</li> 
+     <li>Permissions related to <a href="#setting-replication-privileges">replication privileges</a> (usually from author to publish) according to a path.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Impersonators</td> 
-   <td>Lets another user impersonate the account. Useful when you need a user to act on behalf of another user. See <a href="#impersonatinganotheruser">Imperso</a><a name="Impersonating Users"></a>nating Users.</td> 
+   <td>Lets another user impersonate the account. Useful when you need a user to act on behalf of another user. See <a href="#impersonating-another-user">Imperso</a><a name="Impersonating Users"></a>nating Users.</td> 
   </tr> 
   <tr> 
    <td>Preferences</td> 
-   <td>Sets <a href="#settinguserandgrouppreferences">preferences for the group or user</a>. For example, language preferences.<br /> </td> 
+   <td>Sets <a href="#setting-user-and-group-preferences">preferences for the group or user</a>. For example, language preferences.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### Filtering Users and Groups {#filtering-users-and-groups}
 
-You can filter the list by entering a filter expression, which hides all the users and groups that do not match the expression. You can also hide users and groups by using the [Hide User and Hide Group](#hidingusersandgroups) buttons.
+You can filter the list by entering a filter expression, which hides all the users and groups that do not match the expression. You can also hide users and groups by using the [Hide User and Hide Group](#hiding-users-and-groups) buttons.
 
 To filter users or groups:
 
@@ -495,7 +495,7 @@ To filter users or groups:
 
 ### Hiding Users and Groups {#hiding-users-and-groups}
 
-Hiding users or groups is another way to filter the list of all users and groups in a system. There are two toggle mechanisms. Clicking Hide User hides all users from view and clicking Hide Groups hides all groups from view (you cannot hide both users and groups at the same time). To filter the list by using a filter expression, see [Filtering users and groups](security#Filtering%20Users%20and%20Groups).
+Hiding users or groups is another way to filter the list of all users and groups in a system. There are two toggle mechanisms. Clicking Hide User hides all users from view and clicking Hide Groups hides all groups from view (you cannot hide both users and groups at the same time). To filter the list by using a filter expression, see [Filtering users and groups](security.md#filtering%20users%20and%20groups).
 
 To hide users and groups:
 
@@ -662,7 +662,7 @@ To remove members from a group at a certain path:
 
 ### User Synchronization {#user-synchronization}
 
-When the deployment is a [publish farm](../../../sites/deploying/using/recommended-deploys.md#tarmkfarm), users and groups need to be synchronized among all publish nodes.
+When the deployment is a [publish farm](../../../sites/deploying/using/recommended-deploys.md#tarmk-farm), users and groups need to be synchronized among all publish nodes.
 
 To learn about user sync and how to enable it, see [User Sychronization](../../../sites/administering/using/sync.md).
 
@@ -676,7 +676,7 @@ Permissions allow users to perform certain actions on resources at certain paths
 
 To add, modify, or delete permissions:
 
-1. In the **Security** console, double-click the name of the user or group you want to set permissions for or [search for nodes](#searchingfornodes).  
+1. In the **Security** console, double-click the name of the user or group you want to set permissions for or [search for nodes](#searching-for-nodes).  
 
 1. Click the **Permissions** tab.
 
@@ -694,13 +694,13 @@ Replication privilege is the right to publish content, and it can be set for gro
 >
 >* Any replication rights applied to a group apply to all the users in that group.
 >* A user's replication privileges supersedes a group's replication privileges.
->* The Allow replication rights have a higher precedence than the Deny replication rights. See [Permissions in AEM](#permissionsinaem) for more information.
+>* The Allow replication rights have a higher precedence than the Deny replication rights. See [Permissions in AEM](#permissions-in-aem) for more information.
 >
 
 To set replication privileges:
 
 1. Select the user or group from the list, double-click to open, and click **Permissions**.
-1. In the grid, navigate to the path where you want the user to have replication privileges or [search for nodes.](#searchingfornodes)  
+1. In the grid, navigate to the path where you want the user to have replication privileges or [search for nodes.](#searching-for-nodes)  
 
 1. In the **Replicate** column at the path selected, select a check box to add the replication privilege for that user or group, or clear the check box to remove the replication privilege. AEM displays a red triangle anywhere you have made changes that have not yet been saved.
 

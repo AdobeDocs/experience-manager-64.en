@@ -3,9 +3,9 @@ title: REDIRECT Monitoring and Troubleshooting Performance
 seo-title: REDIRECT Monitoring and Troubleshooting Performance
 description: null
 seo-description: null
-uuid: a18787aa-b478-43a7-bad1-990732741164
+uuid: 9dd28d83-02e4-44b2-86d8-b90f0d9564ec
 contentOwner: jsyal
-discoiquuid: 45556147-e0ed-418d-a823-91a860c71a5a
+discoiquuid: b69a137d-6a8f-42a8-8118-eb50f55f3a52
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/screens/using/monitoring-screens
 index: y

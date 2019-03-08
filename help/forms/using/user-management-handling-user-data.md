@@ -3,10 +3,10 @@ title: Forms user management | Handling user data
 seo-title: Forms user management | Handling user data
 description: null
 seo-description: null
-uuid: 31da70bd-d407-42a2-8d99-b96eaf54c7de
+uuid: 92482174-24b1-4d4b-a76f-eca46a7fa494
 topic-tags: grdp
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 728dfea1-a09d-423e-ad3d-309a0e898014
+discoiquuid: 7ac4fb4e-488d-4c3d-bb97-346bb6049b61
 index: y
 internal: n
 snippet: y
@@ -22,7 +22,7 @@ User management is an AEM Forms JEE component that allows creating, managing, an
 
 **Enterprise domains**: Consist of users and groups that reside in a third-party storage system, such as an LDAP directory. User Management does not write to the third-party storage system. Instead, User Management synchronizes the user and group information with the User Management database. Enterprise domains also use an external authentication provider, which can be LDAP, Kerberos, SAML, or a custom authentication provider.
 
-For more information about how user management works and configured, see [AEM Forms JEE administration help](/forms/using/admin-help/topics).
+For more information about how user management works and configured, see [AEM Forms JEE administration help](/forms/using/admin-help/topics.md).
 
 ## User data and data stores {#user-data-and-data-stores}
 

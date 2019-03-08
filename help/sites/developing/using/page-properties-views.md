@@ -3,12 +3,12 @@ title: Customizing Views of Page Properties
 seo-title: Customizing Views of Page Properties
 description: Every page has a set of properties that you can edit as required
 seo-description: Every page has a set of properties that you can edit as required
-uuid: 21aa7652-57c7-4935-b729-a8b974bfb310
+uuid: 7af96435-c281-419f-a5f4-0a63ac22841a
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
-discoiquuid: 433c5df2-439f-4a84-a97c-9ef915a4b3ee
+discoiquuid: aa3fe9a9-ff55-4b03-a0ea-74063242d281
 index: y
 internal: n
 snippet: y

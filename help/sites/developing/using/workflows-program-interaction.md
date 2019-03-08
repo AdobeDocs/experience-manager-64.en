@@ -3,12 +3,12 @@ title: Interacting with Workflows Programmatically
 seo-title: Interacting with Workflows Programmatically
 description: null
 seo-description: null
-uuid: e1a71071-1c77-4f38-baee-5c06f0a8b9b3
+uuid: b4e226e9-87d4-4261-a7b1-06ff252e8a5f
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
-discoiquuid: 7483d064-910f-40d5-a194-0e9bec0edc3b
+discoiquuid: f0d75749-f0c4-462f-985a-f72ef0535f66
 index: y
 internal: n
 snippet: y
@@ -18,13 +18,13 @@ snippet: y
 
 When [customizing and extending your workflows](../../../sites/developing/using/workflows-customizing-extending.md) you can access workflow objects:
 
-* [Using the Workflow Java API](#usingtheworkflowjavaapi)
-* [Obtaining Workflow Objects in ECMA Scripts](#obtainingworkflowobjectsinecmascripts)
-* [Using the Workflow REST API](#usingtheworkflowrestapi)
+* [Using the Workflow Java API](#using-the-workflow-java-api)
+* [Obtaining Workflow Objects in ECMA Scripts](#obtaining-workflow-objects-in-ecma-scripts)
+* [Using the Workflow REST API](#using-the-workflow-rest-api)
 
 ## Using the Workflow Java API {#using-the-workflow-java-api}
 
-The workflow Java API consists of the [ `com.adobe.granite.workflow`](/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/package-summary) package and several sub-packages. The most significant member of the API is the `com.adobe.granite.workflow.WorkflowSession` class. The `WorkflowSession` class provides access to both design-time and runtime workflow objects:
+The workflow Java API consists of the [ `com.adobe.granite.workflow`](/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/package-summary.md) package and several sub-packages. The most significant member of the API is the `com.adobe.granite.workflow.WorkflowSession` class. The `WorkflowSession` class provides access to both design-time and runtime workflow objects:
 
 * workflow models
 * work items
@@ -39,24 +39,24 @@ The following table provides links to the reference documentation of several key
 <table border="1" cellpadding="1" cellspacing="0"> 
  <tbody> 
   <tr> 
-   <th>Features<a href="/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/status/WorkflowStatus"></a></th> 
+   <th>Features<a href="/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/status/WorkflowStatus.md"></a></th> 
    <th>Objects<br /> </th> 
   </tr> 
   <tr> 
    <td>Accessing a workflow<br /> </td> 
-   <td><a href="/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/WorkflowSession"><span class="code">WorkflowSession</span></a><br /> </td> 
+   <td><a href="/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/WorkflowSession.md"><span class="code">WorkflowSession</span></a><br /> </td> 
   </tr> 
   <tr> 
    <td>Executing and querying a workflow instance<br /> </td> 
-   <td><a href="/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/exec/Workflow"><span class="code">Workflow</span></a><br /> <a href="/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/exec/WorkItem"><span class="code">WorkItem</span></a><br /> <a href="/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/exec/WorkflowData"><span class="code">WorkflowData</span></a><br /> </td> 
+   <td><a href="/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/exec/Workflow.md"><span class="code">Workflow</span></a><br /> <a href="/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/exec/WorkItem.md"><span class="code">WorkItem</span></a><br /> <a href="/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/exec/WorkflowData.md"><span class="code">WorkflowData</span></a><br /> </td> 
   </tr> 
   <tr> 
    <td>Managing a workflow model<br /> </td> 
-   <td><a href="/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/model/WorkflowModel"><span class="code">WorkflowModel</span></a><br /> <a href="/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/model/WorkflowNode"><span class="code">WorkflowNode</span></a><br /> <a href="/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/model/WorkflowTransition"><span class="code">WorkflowTransition</span></a><br /> </td> 
+   <td><a href="/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/model/WorkflowModel.md"><span class="code">WorkflowModel</span></a><br /> <a href="/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/model/WorkflowNode.md"><span class="code">WorkflowNode</span></a><br /> <a href="/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/model/WorkflowTransition.md"><span class="code">WorkflowTransition</span></a><br /> </td> 
   </tr> 
   <tr> 
    <td>Information for a node that is in the workflow (or not) </td> 
-   <td><a href="/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/status/WorkflowStatus"><span class="code">WorkflowStatus</span></a></td> 
+   <td><a href="/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/status/WorkflowStatus.md"><span class="code">WorkflowStatus</span></a></td> 
   </tr> 
  </tbody> 
 </table>
@@ -83,7 +83,7 @@ The following actions are supported with the REST API:
 
 * start or stop a workflow service
 * create, update or delete workflow models
-* [start, suspend, resume or terminate workflow instances](../../../sites/administering/using/workflows.md#workflowstatusandactions)
+* [start, suspend, resume or terminate workflow instances](../../../sites/administering/using/workflows.md#workflow-status-and-actions)
 * complete or delegate work items
 
 >[!NOTE]
@@ -415,7 +415,7 @@ The `uri` displayed in the results can be used as the instance `id` in other com
 
 >[!NOTE]
 >
->This `curl` command can be used with any [workflow status](../../../sites/administering/using/workflows.md#workflowstatusandactions) in place of `RUNNING`.
+>This `curl` command can be used with any [workflow status](../../../sites/administering/using/workflows.md#workflow-status-and-actions) in place of `RUNNING`.
 
 ### How to change the Workflow Title {#how-to-change-the-workflow-title}
 
@@ -456,7 +456,7 @@ curl -u admin:admin http://localhost:4502/etc/workflow/models.json
 
 >[!NOTE]
 >
->See also [Managing Workflow Models](#managingworkflowmodels).
+>See also [Managing Workflow Models](#managing-workflow-models).
 
 ### Obtaining a WorkflowSession Object {#obtaining-a-workflowsession-object}
 
@@ -520,7 +520,7 @@ When creating a new model:
 
   >[!NOTE]
   >
-  >See [How to List all Workflow Models](#howtolistallworkflowmodels).
+  >See [How to List all Workflow Models](#how-to-list-all-workflow-models).
 
 #### Creating, Reading or Deleting Workflow Models - Java {#creating-reading-or-deleting-workflow-models-java}
 
@@ -576,7 +576,7 @@ curl -u admin:admin -X DELETE http://localhost:4502/etc/workflow/models/{id}
 
 ### Filtering Out System Workflows when Checking Workflow Status {#filtering-out-system-workflows-when-checking-workflow-status}
 
-You can use the [WorkflowStatus API](/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/status/WorkflowStatus) to retrieve information about the workflow status of a node.
+You can use the [WorkflowStatus API](/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/status/WorkflowStatus.md) to retrieve information about the workflow status of a node.
 
 Various methods have the parameter:
 
@@ -668,7 +668,7 @@ wfSession.terminateWorkflow(workflow);
 
   >[!NOTE]
   >
-  >See [How to get a List of all Running Workflows](#howtogetalistofallrunningworkflowswiththeirids) with their IDs for listing instances with a specific status.
+  >See [How to get a List of all Running Workflows](#how-to-get-a-list-of-all-running-workflows-with-their-ids) with their IDs for listing instances with a specific status.
 
 * **Suspending a workflow**
 
@@ -830,7 +830,7 @@ wfSession.complete(workItem, routes.get(0));
 
 ### Listening for Workflow Events {#listening-for-workflow-events}
 
-Use the OSGi event framework to listen for events that the [ `com.adobe.granite.workflow.event.WorkflowEvent`](/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/event/WorkflowEvent) class defines. This class also provides several useful methods for obtaining information about the subject of the event. For example, the `getWorkItem` method returns the `WorkItem` object for the workitem that is involved in the event.
+Use the OSGi event framework to listen for events that the [ `com.adobe.granite.workflow.event.WorkflowEvent`](/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/event/WorkflowEvent.md) class defines. This class also provides several useful methods for obtaining information about the subject of the event. For example, the `getWorkItem` method returns the `WorkItem` object for the workitem that is involved in the event.
 
 The following example code defines a service that listens to workflow events and performs tasks according to the type of event.
 

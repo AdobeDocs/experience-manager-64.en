@@ -3,12 +3,12 @@ title: Communities Components Basics
 seo-title: Communities Components Basics
 description: Add Communities features to AEM sites in edit mode and configure components
 seo-description: Add Communities features to AEM sites in edit mode and configure components
-uuid: 8e7040bb-210b-44f9-ad39-d6d8625758d5
+uuid: 22d301b8-c873-4212-b6f2-806791b696b9
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
-discoiquuid: 70e17d52-50c1-485b-bdbe-12d6cd774eff
+discoiquuid: 2eb7781d-96dd-416c-8abe-75ee01f9a85d
 index: y
 internal: n
 snippet: y
@@ -26,7 +26,7 @@ Components may be explored using an AEM instance and the interactive [Community 
 
 When authoring page content, if the underlying template permits changes to the design of the page, it is possible to enable components that are not already available in the components browser as part of the site design.
 
-The available Communities components are listed [here](../../communities/using/author-communities.md#availablecommunitiescomponents).
+The available Communities components are listed [here](../../communities/using/author-communities.md#available-communities-components).
 
 >[!NOTE]
 >
@@ -36,7 +36,7 @@ The available Communities components are listed [here](../../communities/using/a
 
 ### Entering Design Mode {#entering-design-mode}
 
-If a **Communities **component is not found in the components browser (sidekick), it will be necessary to enter `Design Mode` to add other Communities components. [Required client-side libraries](#requiredclientlibs) (clientlibs) may also need to be added.
+If a **Communities **component is not found in the components browser (sidekick), it will be necessary to enter `Design Mode` to add other Communities components. [Required client-side libraries](#required-clientlibs) (clientlibs) may also need to be added.
 
 For details, see [Configuring Components in Design Mode](../../sites/authoring/using/default-components-designmode.md).
 

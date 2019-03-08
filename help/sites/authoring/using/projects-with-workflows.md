@@ -3,12 +3,12 @@ title: Working with Project Workflows
 seo-title: Working with Project Workflows
 description: A variety of project workflows are available out of the box.
 seo-description: A variety of project workflows are available out of the box.
-uuid: 5e03d130-f3ec-4b56-a658-63808413d555
+uuid: fc0610f2-b0c4-4e97-80f0-b96284e0793c
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: projects
 content-type: reference
-discoiquuid: 38e214cd-df65-4acb-9dec-9646d69b59ef
+discoiquuid: e8cb53ce-0475-42ac-983f-32d97c7d6b22
 index: y
 internal: n
 snippet: y
@@ -41,7 +41,7 @@ Depending on which Project template you select, you have certain workflows avail
 
 >[!NOTE]
 >
->&#42; These workflows are not started from the **Workflow** tile in Projects. See [Creating Language Copies for Assets.](/sites/authoring/using/language-copy)
+>&#42; These workflows are not started from the **Workflow** tile in Projects. See [Creating Language Copies for Assets.](/sites/authoring/using/language-copy.md)
 
 The steps for starting and completing workflows are the same no matter which workflow you choose. Only the steps change.
 

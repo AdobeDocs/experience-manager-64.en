@@ -3,12 +3,12 @@ title: Creating Custom Form Mappings
 seo-title: Creating Custom Form Mappings
 description: When you create a custom table in Adobe Campaign, you may want to build a form in AEM that maps to that custom table
 seo-description: When you create a custom table in Adobe Campaign, you may want to build a form in AEM that maps to that custom table
-uuid: 90868a5a-0d5c-4e2d-9001-23d52c634be6
+uuid: 23a5ffb8-5754-44d3-a381-e9cbd5a045c1
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
-discoiquuid: 0f6fdcdc-e1c7-4c07-a78f-950ee52c8f23
+discoiquuid: 83fbbf2e-1d1a-4fc0-b3d4-b51b80eee302
 index: y
 internal: n
 snippet: y
@@ -96,7 +96,7 @@ In **Resources/Templates**, navigate to the Delivery Template and duplicate the 
 
 In AEM, make sure you have configured a Cloud Service in **Page Properties**.
 
-Then, in the **Adobe Campaign** tab, select the delivery that was created in [Creating a Custom Delivery Template](#creatingacustomdeliverytemplate).
+Then, in the **Adobe Campaign** tab, select the delivery that was created in [Creating a Custom Delivery Template](#creating-a-custom-delivery-template).
 
 ![](assets/chlimage_1-197.png)
 

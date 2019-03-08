@@ -3,12 +3,12 @@ title: Working with Page Versions
 seo-title: Working with Page Versions
 description: Versioning creates a "snapshot" of a page at a specific point in time.
 seo-description: Versioning creates a "snapshot" of a page at a specific point in time.
-uuid: 30d12638-35b0-460a-ad84-f96ac8ace751
+uuid: 9206baa3-7ebf-4526-898e-ae3485e6b942
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: 15b4b3ae-1c5d-450f-b440-f6bcc0e3a4fe
+discoiquuid: 47c37780-f835-4565-b66b-d0989b3c14ed
 index: y
 internal: n
 snippet: y
@@ -145,7 +145,7 @@ The calendar version is used if you have a specific day to be viewed:
 
     * ******Exit Timewarp** to exit and return to the current author page.
     
-    * [Show Timeline](#usingthetimewarptimeline) to view the timeline.
+    * [Show Timeline](#using-the-timewarp-timeline) to view the timeline.
 
    ![](assets/chlimage_1-107.png)
 
@@ -159,7 +159,7 @@ If you want to view the timeline of the document:
 
     1. Open the **Versioning** tab and then click **Timewarp** (near the bottom of the sidekick).
     
-    1. Use the sidekick dialog shown after [using the Timewarp Calendar](#usingthetimewarpcalendar).
+    1. Use the sidekick dialog shown after [using the Timewarp Calendar](#using-the-timewarp-calendar).
 
 1. Click on **Show Timeline** - the document's timeline will appear; for example:
 

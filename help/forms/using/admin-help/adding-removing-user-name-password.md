@@ -3,12 +3,12 @@ title: Adding and removing user name and password credentials
 seo-title: Adding and removing user name and password credentials
 description: Learn how to add and remove user name and password credentials.
 seo-description: Learn how to add and remove user name and password credentials.
-uuid: 631621a2-7606-402e-bb31-080c8be6db07
+uuid: 603f759a-e7a9-476f-b198-c5b228eb3f1a
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/managing_certificates_and_credentials
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 1440d502-4ee9-4ab0-a004-96fcf5c10754
+discoiquuid: 82770439-b679-4f4b-8be8-bbc6ba53bb60
 index: y
 internal: n
 snippet: y

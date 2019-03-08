@@ -3,12 +3,12 @@ title: Previewing with Preflight
 seo-title: Previewing with Preflight
 description: This page explains Previewing with Preflight app.
 seo-description: With the Mobile On Demand Preflight app, you can view all projects to which you have access. Follow this page to learn more about this.
-uuid: add49ad9-1e97-4bc9-836b-3305469173a9
+uuid: 7f960a80-d12a-4a5b-bcb8-54999712bd4b
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: administering-on-demand-services-app
-discoiquuid: b01e9672-f1eb-4a30-a673-2c63e20ed0b9
+discoiquuid: b7e79ef4-45e2-4959-9644-792585eea390
 index: y
 internal: n
 snippet: y

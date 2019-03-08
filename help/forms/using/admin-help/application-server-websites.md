@@ -3,12 +3,12 @@ title: Application server websites
 seo-title: Application server websites
 description: This document contains links to the manufacturer websites for all supported application servers.
 seo-description: This document contains links to the manufacturer websites for all supported application servers.
-uuid: 22be0345-70c6-48c1-951f-425a4624d65b
+uuid: a63199f3-efc0-4faa-80c6-81bf9d903550
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/maintaining_the_application_server
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 5592953f-9857-4022-8242-7a6ca58e77b6
+discoiquuid: 051a134c-4e1c-4e5d-83f1-4d4599be6df0
 index: y
 internal: n
 snippet: y

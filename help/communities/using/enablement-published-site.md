@@ -3,12 +3,12 @@ title: Experience the Published Site
 seo-title: Experience the Published Site
 description: Browse to a published site for enablement
 seo-description: Browse to a published site for enablement
-uuid: 85181721-fe5c-4f5f-a2c1-8042747c4540
+uuid: dd9bc1b2-46b2-404a-9f59-197f2d36c5c8
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: introduction
 content-type: reference
-discoiquuid: 73a01b96-5c35-4d19-807a-63580bb1a732
+discoiquuid: 7bcd3a04-5149-4478-9e36-4f31ab678df4
 index: y
 internal: n
 snippet: y
@@ -124,7 +124,7 @@ When a member has not been assigned enablement resources, either directly or thr
 
 ### Discussions {#discussions}
 
-In addition to rating and commenting on enablement resources ([when enabled](../../communities/using/enablement-create-site.md#step33asettings)), the community site template from which `Enablement Tutorial` was created includes the [forum function](../../communities/using/functions.md#forumfunction) (title is `Discussions)`.
+In addition to rating and commenting on enablement resources ([when enabled](../../communities/using/enablement-create-site.md#step33asettings)), the community site template from which `Enablement Tutorial` was created includes the [forum function](../../communities/using/functions.md#forum-function) (title is `Discussions)`.
 
 Select the `Discussions`link and post a topic.
 
@@ -136,7 +136,7 @@ Notice, in addition to inline moderation, there are options to share the topic o
 
 ### What's New {#what-s-new}
 
-The `What's New` menu item is the title given the [activity stream function](../../communities/using/functions.md#activitystreamfunction) in this community site's structure.
+The `What's New` menu item is the title given the [activity stream function](../../communities/using/functions.md#activity-stream-function) in this community site's structure.
 
 Still signed in as Sidney, select the `What's New` link to show the activity.
 

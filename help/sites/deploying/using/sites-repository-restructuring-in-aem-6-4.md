@@ -3,11 +3,11 @@ title: Sites Repository Restructuring in AEM 6.4
 seo-title: Sites Repository Restructuring in AEM 6.4
 description: Learn how to make the necessary changes in order to migrate to the new repository structure in AEM 6.4 for Sites.
 seo-description: Learn how to make the necessary changes in order to migrate to the new repository structure in AEM 6.4 for Sites.
-uuid: 30d16cfe-a217-49b7-80b3-8b3e987323a6
+uuid: 13285cf5-b802-476b-8406-288c8901d508
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: repo_restructuring
-discoiquuid: b7b5a098-e708-4e44-bd01-2ef83ca9f0e0
+discoiquuid: cb43d281-a314-4cab-af55-64c41ec7c12e
 index: y
 internal: n
 snippet: y
@@ -19,22 +19,22 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 
 **With 6.4 Upgrade**
 
-* [ContextHub Segments](../../../sites/deploying/using/sites-repository-restructuring-in-aem-6-4.md#contexthubsegments)
+* [ContextHub Segments](../../../sites/deploying/using/sites-repository-restructuring-in-aem-6-4.md#contexthub-segments)
 
 **Prior to 6.5 Upgrade**
 
-* [Adobe Analytics Client Libraries](../../../sites/deploying/using/sites-repository-restructuring-in-aem-6-4.md#adobeanalyticsclientlibraries)
-* [Classic Microsoft Word to Web Page Designs](../../../sites/deploying/using/sites-repository-restructuring-in-aem-6-4.md#classicmicrosoftwordtowebpagedesigns)
-* [Mobile Device Emulator Configurations](../../../sites/deploying/using/sites-repository-restructuring-in-aem-6-4.md#mobiledeviceemulatorconfigurations)
-* [Multi-site Manager Blueprint Configurations](../../../sites/deploying/using/sites-repository-restructuring-in-aem-6-4.md#multisitemanagerblueprintconfigurations)
-* [Multi-site Manager Rollout Configurations](../../../sites/deploying/using/sites-repository-restructuring-in-aem-6-4.md#multisitemanagerrolloutconfigurations)
-* [Page Event Notification E-mail Template](../../../sites/deploying/using/sites-repository-restructuring-in-aem-6-4.md#pageeventnotificationemailtemplate)
-* [Page Scaffolding](../../../sites/deploying/using/sites-repository-restructuring-in-aem-6-4.md#pagescaffolding)
-* [Responsive Grid LESS](../../../sites/deploying/using/sites-repository-restructuring-in-aem-6-4.md#responsivegridless)
-* [Static Template Designs](../../../sites/deploying/using/sites-repository-restructuring-in-aem-6-4.md#statictemplatedesigns)
-* [Adobe Search and Promote Integration Client Libraries](../../../sites/deploying/using/sites-repository-restructuring-in-aem-6-4.md#adobesearchandpromoteintegrationclientlibraries)
-* [Adobe Target Integration Client Libraries](../../../sites/deploying/using/sites-repository-restructuring-in-aem-6-4.md#adobetargetintegrationclientlibraries)
-* [WCM Foundation Client Libraries](../../../sites/deploying/using/sites-repository-restructuring-in-aem-6-4.md#wcmfoundationclientlibraries)
+* [Adobe Analytics Client Libraries](../../../sites/deploying/using/sites-repository-restructuring-in-aem-6-4.md#adobe-analytics-client-libraries)
+* [Classic Microsoft Word to Web Page Designs](../../../sites/deploying/using/sites-repository-restructuring-in-aem-6-4.md#classic-microsoft-word-to-web-page-designs)
+* [Mobile Device Emulator Configurations](../../../sites/deploying/using/sites-repository-restructuring-in-aem-6-4.md#mobile-device-emulator-configurations)
+* [Multi-site Manager Blueprint Configurations](../../../sites/deploying/using/sites-repository-restructuring-in-aem-6-4.md#multi-site-manager-blueprint-configurations)
+* [Multi-site Manager Rollout Configurations](../../../sites/deploying/using/sites-repository-restructuring-in-aem-6-4.md#multi-site-manager-rollout-configurations)
+* [Page Event Notification E-mail Template](../../../sites/deploying/using/sites-repository-restructuring-in-aem-6-4.md#page-event-notification-e-mail-template)
+* [Page Scaffolding](../../../sites/deploying/using/sites-repository-restructuring-in-aem-6-4.md#page-scaffolding)
+* [Responsive Grid LESS](../../../sites/deploying/using/sites-repository-restructuring-in-aem-6-4.md#responsive-grid-less)
+* [Static Template Designs](../../../sites/deploying/using/sites-repository-restructuring-in-aem-6-4.md#static-template-designs)
+* [Adobe Search and Promote Integration Client Libraries](../../../sites/deploying/using/sites-repository-restructuring-in-aem-6-4.md#adobe-search-and-promote-integration-client-libraries)
+* [Adobe Target Integration Client Libraries](../../../sites/deploying/using/sites-repository-restructuring-in-aem-6-4.md#adobe-target-integration-client-libraries)
+* [WCM Foundation Client Libraries](../../../sites/deploying/using/sites-repository-restructuring-in-aem-6-4.md#wcm-foundation-client-libraries)
 
 ## With 6.4 Upgrade {#with-upgrade}
 
@@ -90,7 +90,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
    <td><strong>Restructuring guidance</strong></td> 
    <td><p>Any custom use of these Client Libraries should reference the Client Library by category, and not by path:</p> 
     <ol> 
-     <li>Any references to the Client Library by path at the Previous Location should be updated to use <a href="../../../sites/developing/using/clientlibs.md#referencingclientsidelibraries" target="_blank">AEM's Client Library referencing framework</a>.</li> 
+     <li>Any references to the Client Library by path at the Previous Location should be updated to use <a href="../../../sites/developing/using/clientlibs.md#referencing-client-side-libraries" target="_blank">AEM's Client Library referencing framework</a>.</li> 
      <li>If AEM's Client Library referencing framework cannot be used, the absolute path of the Client Libraries can be referenced via AEM's Client Library Proxy servlet.
       <ul> 
        <li><span class="code">/etc.clientlibs/cq/analytics/clientlibs/sitecatalyst/appmeasurement.js</span></li> 
@@ -388,7 +388,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
    <td><strong>Restructuring guidance</strong></td> 
    <td><p>Any custom use of these Client Libraries should reference the Client Library by category, and not by path.</p> 
     <ol> 
-     <li>Any references to the Client Library by path at the Previous Location should be updated to use <a href="../../../sites/developing/using/clientlibs.md#referencingclientsidelibraries" target="_blank">AEM's Client Library referencing framework</a>.</li> 
+     <li>Any references to the Client Library by path at the Previous Location should be updated to use <a href="../../../sites/developing/using/clientlibs.md#referencing-client-side-libraries" target="_blank">AEM's Client Library referencing framework</a>.</li> 
      <li>If AEM's Client Library referencing framework cannot be used, the absolute path of the Client Libraries can be referenced via AEM's Client Library Proxy servlet:</li> 
     </ol> 
     <ul> 
@@ -421,7 +421,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
    <td><strong>Restructuring guidance</strong></td> 
    <td><p>Any custom use of these Client Libraries should reference the Client Library by category, and not by path.</p> 
     <ol> 
-     <li>Any references to the Client Library by path at the Previous Location should be updated to use <a href="../../../sites/developing/using/clientlibs.md#referencingclientsidelibraries" target="_blank">AEM's Client Library referencing framework</a>.</li> 
+     <li>Any references to the Client Library by path at the Previous Location should be updated to use <a href="../../../sites/developing/using/clientlibs.md#referencing-client-side-libraries" target="_blank">AEM's Client Library referencing framework</a>.</li> 
      <li>If AEM's Client Library referencing framework cannot be used, the absolute path of the Client Libraries can be referenced via AEM's Client Library Proxy servlet:</li> 
     </ol> 
     <ul> 
@@ -466,7 +466,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
    <td><strong>Restructuring guidance</strong></td> 
    <td><p>Any custom use of these Client Libraries should reference the Client Library by category, and not by path.</p> 
     <ol> 
-     <li>Any references to the Client Library by path at the Previous Location should be updated to use <a href="../../../sites/developing/using/clientlibs.md#referencingclientsidelibraries" target="_blank">AEM's Client Library referencing framework</a>.</li> 
+     <li>Any references to the Client Library by path at the Previous Location should be updated to use <a href="../../../sites/developing/using/clientlibs.md#referencing-client-side-libraries" target="_blank">AEM's Client Library referencing framework</a>.</li> 
      <li>If AEM's Client Library referencing framework cannot be used, the absolute path of the Client Libraries can be referenced via AEM's Client Library Proxy servlet.</li> 
     </ol> 
     <ul> 

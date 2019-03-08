@@ -3,12 +3,12 @@ title: Developing Reports
 seo-title: Developing Reports
 description: AEM provides a selection of standard reports based on a reporting framework
 seo-description: AEM provides a selection of standard reports based on a reporting framework
-uuid: 9acc503c-8917-48a1-9a9f-8d18c5a30345
+uuid: ff5d5133-5eb9-452e-90f5-764bdb1e5c4d
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
-discoiquuid: fe8c9357-5dc2-4d84-9585-3aa185b091d9
+discoiquuid: 883a7bc4-0382-4014-862f-3ac663926380
 index: y
 internal: n
 snippet: y
@@ -37,7 +37,7 @@ For the standard reports delivered with CQ:
 
 >[!NOTE]
 >
->The tutorial [Creating Your Own Report - An Example](#creatingyourownreportanexample) also shows how many of the principles below can be used.  
+>The tutorial [Creating Your Own Report - An Example](#creating-your-own-report-an-example) also shows how many of the principles below can be used.  
 
 >
 >You can also refer to the standard reports to see other examples of implementation.
@@ -60,7 +60,7 @@ For the standard reports delivered with CQ:
 >* Indentation shows the hierarchical dependencies between the nodes.
 >* Items separated by | denotes a list of possible items; for example, types or names:  
 >  e.g. String|String[] means that the property can be either String or String[].
->* [] depicts an array; such as String[] or an array of nodes as in the [Query Definition](#querydefinition). 
+>* [] depicts an array; such as String[] or an array of nodes as in the [Query Definition](#query-definition). 
 >
 >Unless otherwise stated the default types are:
 >
@@ -88,13 +88,13 @@ The reporting framework (illustrated by the structure of a standard report) uses
 The report page:
 
 * Is a standard CQ5 page.
-* Is based on a [standard CQ5 template, configured for the report](#reporttemplate).
+* Is based on a [standard CQ5 template, configured for the report](#report-template).
 
 ### Report Base {#report-base}
 
-The [ `reportbase` component](#reportbasecomponent) forms the basis of any report as it:
+The [ `reportbase` component](#report-base-component) forms the basis of any report as it:
 
-* Holds the definition of the [query](#thequeryanddataretrieval) that delivers the underlying result set of data.  
+* Holds the definition of the [query](#the-query-and-data-retrieval) that delivers the underlying result set of data.  
 
 * Is an adapted paragraph system that will contain all columns ( `columnbase`) added to the report.
 * Defines which chart types are available and which are currently active.
@@ -102,36 +102,36 @@ The [ `reportbase` component](#reportbasecomponent) forms the basis of any repor
 
 ### Column Base {#column-base}
 
-Each column is an instance of the [ `columnbase` component](#columnbasecomponent) that:
+Each column is an instance of the [ `columnbase` component](#column-base-component) that:
 
 * Is a paragraph, used by the parsys ( `reportbase`) of the respective report.
-* Defines the link to the [underlying result set](#thequeryanddataretrieval); i.e. defines the specific data referenced within this result set, and how it is processed.
+* Defines the link to the [underlying result set](#the-query-and-data-retrieval); i.e. defines the specific data referenced within this result set, and how it is processed.
 * Holds additional definitions; such as the aggregates and filters available, together with any default values.
 
 ### The Query and Data Retrieval {#the-query-and-data-retrieval}
 
 The query:
 
-* Is defined as part of the [ `reportbase`](#reportbase) component.
-* Is based on the [CQ QueryBuilder](/sites/developing/using/reference-materials/javadoc/com/day/cq/search/QueryBuilder).
-* Retrieves the data used as the basis of the report. Each row of the result set (table) is tied to a node as returned by the query. Specific information for [individual columns](#columnbasecomponent) is then extracted from this data set.  
+* Is defined as part of the [ `reportbase`](#report-base) component.
+* Is based on the [CQ QueryBuilder](/sites/developing/using/reference-materials/javadoc/com/day/cq/search/QueryBuilder.md).
+* Retrieves the data used as the basis of the report. Each row of the result set (table) is tied to a node as returned by the query. Specific information for [individual columns](#column-base-component) is then extracted from this data set.  
 
 * Usually consists of:
 
     * A root path.  
       This specifies the sub-tree of the repository to be searched.  
-      To help minimize the performance impact, it is advisable to (try to) restrict the query to a specific sub-tree of the repository. The root path can be either predefined in the [report template](#reporttemplate) or set by the user in the [Configuration (Edit) dialog](#configurationdialog).  
+      To help minimize the performance impact, it is advisable to (try to) restrict the query to a specific sub-tree of the repository. The root path can be either predefined in the [report template](#report-template) or set by the user in the [Configuration (Edit) dialog](#configuration-dialog).  
     
-    * [One or more criteria](#querydefinition).  
+    * [One or more criteria](#query-definition).  
       These are imposed to produce the (initial) result set; they include for example, restrictions on the node type, or property constraints.
 
 **[!UICONTROL The key point here is that each single node returned in the result set of the query is used to generate a single row on the report (so a 1:1 relationship).]**
 
-The developer has to ensure that the query defined for a report returns a node set appropriate for that report. However, the node itself need not hold all the required information, this can also be derived from parent and/or child nodes. For example, the query used for the [User Report](../../../sites/administering/using/reporting.md#userreport) selects nodes based on the node type (in this case `rep:user`). However, most columns on this report do not take their data directly from these nodes, but from the child nodes `profile`.
+The developer has to ensure that the query defined for a report returns a node set appropriate for that report. However, the node itself need not hold all the required information, this can also be derived from parent and/or child nodes. For example, the query used for the [User Report](../../../sites/administering/using/reporting.md#user-report) selects nodes based on the node type (in this case `rep:user`). However, most columns on this report do not take their data directly from these nodes, but from the child nodes `profile`.
 
 ### Processing Queue {#processing-queue}
 
-The [query](#thequeryanddataretrieval) returns a result set of data to be displayed as rows on the report. Each row in the result set is processed (server-side), in [several phases](#phasesoftheprocessingqueue), before being transferred to the client for display on the report.
+The [query](#the-query-and-data-retrieval) returns a result set of data to be displayed as rows on the report. Each row in the result set is processed (server-side), in [several phases](#phases-of-the-processing-queue), before being transferred to the client for display on the report.
 
 This allows:
 
@@ -154,22 +154,22 @@ The following workflow represents the processing queue:
 
 Where the detailed steps and elements are:
 
-1. Transforms the results returned by the [initial query ( `reportbase`)](#querydefinition) into the basic result set using value extractors.  
-   Value extractors are automatically chosen depending on the [column type](#columnspecificdefinitions). They are used for reading values from the underlying JCR Query and creating a result set from them; after which further processing may then be applied. For example, for the `diff` type, the value extractor reads two properties, calculates the single value that is then added to the result set. The value extractors cannot be configured.  
+1. Transforms the results returned by the [initial query ( `reportbase`)](#query-definition) into the basic result set using value extractors.  
+   Value extractors are automatically chosen depending on the [column type](#column-specific-definitions). They are used for reading values from the underlying JCR Query and creating a result set from them; after which further processing may then be applied. For example, for the `diff` type, the value extractor reads two properties, calculates the single value that is then added to the result set. The value extractors cannot be configured.  
 
-1. To that initial result set, containing raw data, [initial filtering](#columnspecificdefinitions) (*raw* phase) is applied.
+1. To that initial result set, containing raw data, [initial filtering](#column-specific-definitions) (*raw* phase) is applied.
 
-1. Values are [preprocessed](#processingqueue); as defined for the *apply* phase.
+1. Values are [preprocessed](#processing-queue); as defined for the *apply* phase.
 
-1. [Filtering](#columnspecificdefinitions) (assigned to the *preprocessed* phase) is executed on the preprocessed values.
+1. [Filtering](#column-specific-definitions) (assigned to the *preprocessed* phase) is executed on the preprocessed values.
 
-1. Values are resolved; according to the [defined resolver](#processingqueue).
-1. [Filtering](#columnspecificdefinitions) (assigned to the *resolved* phase) is executed on the resolved values.
+1. Values are resolved; according to the [defined resolver](#processing-queue).
+1. [Filtering](#column-specific-definitions) (assigned to the *resolved* phase) is executed on the resolved values.
 
-1. Data is [grouped and aggregated](#columnspecificdefinitions).
+1. Data is [grouped and aggregated](#column-specific-definitions).
 1. Array data is resolved by converting it into a (string-based) list.  
    This is an implicit step that converts a multi-value result into a list that can be displayed; it is required for (unaggregated) cell values that are based on multi-value JCR properties.
-1. Values are again [preprocessed](#processingqueue); as defined for the *afterApply* phase.
+1. Values are again [preprocessed](#processing-queue); as defined for the *afterApply* phase.
 
 1. Data is sorted.
 1. The processed data is transferred to the client.
@@ -184,12 +184,12 @@ Where the detailed steps and elements are:
 
 The following are needed to construct and configure a report:
 
-* a [location for the definition of your report components](#locationofreportcomponents)
-* a [ `reportbase` component](#reportbasecomponent)
-* one, or more, [ `columnbase` component(s)](#columnbasecomponent)
-* a [page component](#pagecomponent)
-* a [report design](#reportdesign)
-* a [report template](#reporttemplate)
+* a [location for the definition of your report components](#location-of-report-components)
+* a [ `reportbase` component](#report-base-component)
+* one, or more, [ `columnbase` component(s)](#column-base-component)
+* a [page component](#page-component)
+* a [report design](#report-design)
+* a [report template](#report-template)
 
 ### Location of Report Components {#location-of-report-components}
 
@@ -230,9 +230,9 @@ Each report type requires a container component derived from `/libs/cq/reporting
 
 This component acts as a container for the report as a whole and provides information for:
 
-* The [query definition](#querydefinition).
-* An [(optional) dialog](#configurationdialog) for configuring the report.
-* Any [Charts](#chartdefinitions) integrated in the report.
+* The [query definition](#query-definition).
+* An [(optional) dialog](#configuration-dialog) for configuring the report.
+* Any [Charts](#chart-definitions) integrated in the report.
 
 ```xml
 N:<reportname> [cq:Component]
@@ -339,7 +339,7 @@ N:charting
             * `fixedRadius` ( `Double/Long`)  
               Defines a fixed radius for the pie chart.
 
-        * [for the chart type `lineseries`](../../../sites/administering/using/reporting.md#displaylimits):
+        * [for the chart type `lineseries`](../../../sites/administering/using/reporting.md#display-limits):
 
             * `totals` ( `Boolean`)  
               True if an additional line showing the **Total** should be shown.  
@@ -429,7 +429,7 @@ Additionally a root path can be defined for the report:
   This limits the report to a certain section (tree or subtree) of the repository, which is recommended for performance optimization. The root path is specified by the `rootPath` property of the `report` node of each report page (taken from the template upon page creation).  
   It can be specified by:
 
-    * the [report template](#reporttemplate) (either as a fixed value or as the default value for the configuration dialog).
+    * the [report template](#report-template) (either as a fixed value or as the default value for the configuration dialog).
     * the user (using this parameter)
 
 ## Column Base Component {#column-base-component}
@@ -438,45 +438,45 @@ Each column type requires a component derived from `/libs/cq/reporting/component
 
 A column component defines a combination of the following:
 
-* The [Column Specific Query](#columnspecificquery) configuration.
-* The [Resolvers and Preprocessing](#resolversandpreprocessing).
-* The [Column Specific Definitions](#columnspecificdefinitions) (such as filters and aggregates; `definitions` child node).
+* The [Column Specific Query](#column-specific-query) configuration.
+* The [Resolvers and Preprocessing](#resolvers-and-preprocessing).
+* The [Column Specific Definitions](#column-specific-definitions) (such as filters and aggregates; `definitions` child node).
 
-* [Column Default Values](#columndefaultvalues).
-* The [Client Filter](#clientfilter) to extracts the information to be displayed from the data returned by the server.
-* Additionally, a column component must provide a suitable instance of `cq:editConfig`. to define the [Events and Actions](#eventsandactions) required.  
+* [Column Default Values](#column-default-values).
+* The [Client Filter](#client-filter) to extracts the information to be displayed from the data returned by the server.
+* Additionally, a column component must provide a suitable instance of `cq:editConfig`. to define the [Events and Actions](#events-and-actions) required.  
 
-* The configuration for [generic columns](#genericcolumns).
+* The configuration for [generic columns](#generic-columns).
 
 ```
 N:<columnname> [cq:Component]
  P:componentGroup
  P:jcr:title
  P:sling:resourceSuperType = "cq/reporting/components/columnbase"
- N:cq:editConfig [cq:EditConfig] // <a href="#eventsandactions">Events and Actions</a>
- N:defaults // <a href="#columndefaultvalues">Column Default Values</a>
+ N:cq:editConfig [cq:EditConfig] // <a href="#events-and-actions">Events and Actions</a>
+ N:defaults // <a href="#column-default-values">Column Default Values</a>
  N:definitions
- N:queryBuilder // <a href="#columnspecificquery">Column Specific Query</a>
+ N:queryBuilder // <a href="#column-specific-query">Column Specific Query</a>
  P:property [String|String[]] // Column Specific Query
  P:subPath // Column Specific Query
  P:secondaryProperty [String|String[]] // Column Specific Query
  P:secondarySubPath // Column Specific Query
  N:data
- P:clientFilter [String] // <a href="#clientfilter">Client Filter</a>
- P:resolver // <a href="#resolversandpreprocessing">Resolvers and Preprocessing</a>
+ P:clientFilter [String] // <a href="#client-filter">Client Filter</a>
+ P:resolver // <a href="#resolvers-and-preprocessing">Resolvers and Preprocessing</a>
  N:resolverConfig // Resolvers and Preprocessing
  N:preprocessing // Resolvers and Preprocessing
- P:type // <a href="#columnspecificdefinitions">Column Specific Definitions</a>
+ P:type // <a href="#column-specific-definitions">Column Specific Definitions</a>
  P:groupable [Boolean] // Column Specific Definitions
  N:filters [cq:WidgetCollection] // Column Specific Definitions
  N:aggregates [cq:WidgetCollection] // Column Specific Definitions
 ```
 
-See also [Defining Your New Report](#definingyournewreport).
+See also [Defining Your New Report](#defining-your-new-report).
 
 ### Column Specific Query {#column-specific-query}
 
-This defines the specific data extraction (from the [report data result set](#thequeryanddataretrieval)) for use in the individual column.
+This defines the specific data extraction (from the [report data result set](#the-query-and-data-retrieval)) for use in the individual column.
 
 ```xml
 N:definitions 
@@ -542,7 +542,7 @@ function(v) {
 
 ### Resolvers and Preprocessing {#resolvers-and-preprocessing}
 
-The [processing queue](#processingqueue) defines the various resolvers and configures the preprocessing:
+The [processing queue](#processing-queue) defines the various resolvers and configures the preprocessing:
 
 ```xml
 N:definitions
@@ -610,10 +610,10 @@ N:definitions
   Preprocessing is optional and can be bound (separately) to the processing phases *apply* or *applyAfter*:
 
     * `apply`  
-      The initial preprocessing phase ([step 3 in the representation of the processing queue](#processingqueue)).  
+      The initial preprocessing phase ([step 3 in the representation of the processing queue](#processing-queue)).  
     
     * `applyAfter`  
-      Apply after preprocessing ([step 9 in the representation of the processing queue](#processingqueue)).
+      Apply after preprocessing ([step 9 in the representation of the processing queue](#processing-queue)).
 
 #### Resolvers {#resolvers}
 
@@ -686,10 +686,10 @@ N:data
 
 You can specify either of the following to be used during preprocessing:
 
-* [find and replace patterns](#preprocessingfindandreplacepatterns)  
+* [find and replace patterns](#preprocessing-find-and-replace-patterns)  
   When found, the specified pattern (which is defined as a regular expression) is replaced by another pattern; for example, this can be used to extract a substring of the original.  
 
-* [data type formatters](#preprocessingdatatypeformatters)  
+* [data type formatters](#preprocessing-data-type-formatters)  
   Converts a numeric value into a relative string; for example, the value ``representing a time difference of 1 hour would be resolved to a string such as `1:24PM (1 hour ago)`.
 
 For example:
@@ -976,7 +976,7 @@ To make a column generic:
 
 The design defines which column types are available for creating a report. It also defines the paragraph system to which the columns are added.
 
-You are strongly recommended to create an individual design for each report. This ensures full flexibility. See also [Defining Your New Report](#definingyournewreport).
+You are strongly recommended to create an individual design for each report. This ensures full flexibility. See also [Defining Your New Report](#defining-your-new-report).
 
 The default reporting components are held under `/etc/designs/reports`.
 
@@ -1072,7 +1072,7 @@ The default reporting templates are held under `/libs/cq/reporting/templates`.
 
 However, it is strongly recommended that you do not update these nodes, but create your own component nodes under `/apps/cq/reporting/templates` or if more appropriate `/apps/<*yourProject*>/reports/templates`.
 
-Where, as an example (see also [Location of Report Components](#locationofreportcomponents)):
+Where, as an example (see also [Location of Report Components](#location-of-report-components)):
 
 ```xml
 N:apps 
@@ -1289,7 +1289,7 @@ An instance of your new report can now be created:
 1. Select **Reports** in the left-hand pane.
 1. Then **New...** from the toolbar. Define a **Title** and **Name**, select your new report type (the **OSGi Report Template**) from the list of templates, then click **Create**.
 1. Your new report instance will appear in the list. Double-click this to open.
-1. Drag a component (for this example, **Bundle** in the **OSGi Report** group) from the sidekick to create the first column and [start the report definition](../../../sites/administering/using/reporting.md#thebasicsofreportcustomization). [](../../../sites/administering/using/reporting.md#thebasicsofreportcustomization)
+1. Drag a component (for this example, **Bundle** in the **OSGi Report** group) from the sidekick to create the first column and [start the report definition](../../../sites/administering/using/reporting.md#the-basics-of-report-customization). [](../../../sites/administering/using/reporting.md#the-basics-of-report-customization)
 
    >[!NOTE]
    >

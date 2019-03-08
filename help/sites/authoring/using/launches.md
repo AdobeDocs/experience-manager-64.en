@@ -3,12 +3,12 @@ title: Launches
 seo-title: Launches
 description: Launches enable you to efficiently develop content for a future release. They allow you to make changes ready for future publication, while maintaining your current pages
 seo-description: Launches enable you to efficiently develop content for a future release. They allow you to make changes ready for future publication, while maintaining your current pages
-uuid: a1aa962c-8725-4bc3-adfb-dd7c7630d975
+uuid: 1f941746-2b07-4c7e-84d6-5ca8160b61ec
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
-discoiquuid: 25f6bd6c-96c0-4b44-b436-adf8e160cbee
+discoiquuid: 1c58a24a-7e30-4321-85c9-4d6654b617fe
 index: y
 internal: n
 snippet: y
@@ -32,7 +32,7 @@ Launches can also be:
 * Created for multiple root branches. While you could create the launch for the entire site (and do the changes there) this can be impractical as the whole site needs to be copied. When hundreds or even thousands of pages are involved, the system requirements and performance are impacted by both the copy action and later the comparisons required for the promotion tasks.
 * Nested (a launch within a launch) to give you the ability to create a launch from an existing launch so that authors can take advantage of changes already made, rather than having to make the same changes multiple times for each launch.
 
-This section descibes how to create, edit and promote (and if necessary [delete](../../../sites/authoring/using/launches-creating.md#deletingalaunch)) launch pages from within the Sites console or [the Launches console](#thelaunchesconsole):
+This section descibes how to create, edit and promote (and if necessary [delete](../../../sites/authoring/using/launches-creating.md#deleting-a-launch)) launch pages from within the Sites console or [the Launches console](#the-launches-console):
 
 * [Creating Launches](../../../sites/authoring/using/launches-creating.md)
 * [Editing Launches](../../../sites/authoring/using/launches-editing.md)
@@ -85,10 +85,10 @@ Launches allow you to:
 
   ![](assets/chlimage_1-234.png)
 
-* [Create a nested launch](../../../sites/authoring/using/launches-creating.md#creatinganestedlaunch) - a launch within a launch:
+* [Create a nested launch](../../../sites/authoring/using/launches-creating.md#creating-a-nested-launch) - a launch within a launch:
 
     * The source is an existing launch.
-    * You can [promote a nested launch](../../../sites/authoring/using/launches-promoting.md#promotinganestedlaunch) to any target; this can be a parent launch or the top-level source pages (Production).
+    * You can [promote a nested launch](../../../sites/authoring/using/launches-promoting.md#promoting-a-nested-launch) to any target; this can be a parent launch or the top-level source pages (Production).
 
   ![](assets/chlimage_1-235.png)
 

@@ -3,11 +3,11 @@ title: Acrobat Reader DC extensions ServiceJava API Quick Start(SOAP)
 seo-title: Acrobat Reader DC extensions ServiceJava API Quick Start(SOAP)
 description: null
 seo-description: null
-uuid: 0967eac0-213c-4017-978a-41f4b8168233
+uuid: 5c77bde4-c692-4f78-ab1c-34ab09835f2b
 contentOwner: admin
 content-type: reference
 topic-tags: develop
-discoiquuid: fa3295f9-f4b1-4828-bc75-bb42ad19d443
+discoiquuid: a4f2a9b4-566c-4269-abd1-55ef10117eb1
 index: y
 internal: n
 snippet: y
@@ -21,7 +21,7 @@ The following Quick Starts are available for the Acrobat Reader DC Extensions se
 
 [Removing Usage Rights from PDF Documents](../../forms/developing/acrobat-reader-dc-extensions-service.md#main-pars-heading-1)
 
-[Quick Start (SOAP mode): Retrieving credential information using the Java API](acrobat-reader-dc-extensions-service#quick_start_soap_mode_retrieving_credential_information_using_the_java_api)
+[Quick Start (SOAP mode): Retrieving credential information using the Java API](acrobat-reader-dc-extensions-service.md#quick_start_soap_mode_retrieving_credential_information_using_the_java_api)
 
 AEM Forms operations can be performed using the AEM Forms strongly-typed API and the connection mode should be set to SOAP.
 

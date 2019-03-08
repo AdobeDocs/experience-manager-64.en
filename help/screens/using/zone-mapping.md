@@ -4,9 +4,9 @@ seo-title: Display Layout Editor
 description: null
 seo-description: null
 page-status-flag: never-activated
-uuid: 36117bcb-f1ae-422c-8214-356b9a87c228
+uuid: 75d7fde6-ea74-4b87-bb75-61aee5fa8987
 contentOwner: jsyal
-discoiquuid: 3c742503-7f2d-41a9-a43b-a686dccabf6c
+discoiquuid: afbcfe4a-45a2-4815-96da-b02801d83245
 index: y
 internal: n
 snippet: y
@@ -34,7 +34,7 @@ Using any one of these templates allows you to create an intuitive and interacti
 
 >[!NOTE]
 >
->To learn in-depth about creating channels and displays, see [Managing Channels](../../screens/using/managing-channels.md) and [Managing Displays](/sites/authoring/using/managing-displays) respectively in Authoring Screens.
+>To learn in-depth about creating channels and displays, see [Managing Channels](../../screens/using/managing-channels.md) and [Managing Displays](/sites/authoring/using/managing-displays.md) respectively in Authoring Screens.
 
 ## Use Case Description {#use-case-description}
 

@@ -3,12 +3,12 @@ title: File Library Feature
 seo-title: File Library Feature
 description: The File Library feature lets signed-in site visitors upload, manage, and download files
 seo-description: The File Library feature lets signed-in site visitors upload, manage, and download files
-uuid: 0a05a479-b54e-46c1-8db8-853818996527
+uuid: c6838482-7aa6-41d0-a956-bafbf670b892
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
-discoiquuid: ada73b8f-4e88-4bcf-a888-38b46405b23f
+discoiquuid: 4a0b4e82-7a6a-4bab-a94c-72ff137ea349
 index: y
 internal: n
 snippet: y
@@ -35,7 +35,7 @@ and drag it into place on a page.
 
 For necessary information, visit [Communities Components Basics](../../communities/using/basics.md).
 
-When the [required client-side libraries](../../communities/using/essentials-file-library.md#essentialsforclientside) are included, this is how the `File Library` component will appear :
+When the [required client-side libraries](../../communities/using/essentials-file-library.md#essentials-for-client-side) are included, this is how the `File Library` component will appear :
 
 ![](assets/chlimage_1-430.png)
 

@@ -3,13 +3,13 @@ title: Determining Whether Documents Are PDF/A-Compliant
 seo-title: Determining Whether Documents Are PDF/A-Compliant
 description: null
 seo-description: null
-uuid: ea2dc49d-6866-4938-a2ba-e3360e0e817d
+uuid: b5b9c2e8-d1dc-4672-baf4-7ff0dae545ef
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/assembling_pdf_documents
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: 2116daef-99ec-490d-9e2f-0b6c7fc9c4e9
+discoiquuid: 4bceb150-64f3-4013-a9c7-85c42a1f893a
 index: y
 internal: n
 snippet: y
@@ -106,15 +106,15 @@ Save the XML document as an XML file so that you can open the file and view the 
 
 **See also**
 
-[Determine whether a document is PDF/A compliant using the Java API](/programming-with-aem-forms/determining-whether-documents-pdf-a determining-whether-documents-pdf-a#determine_whether_a_document_is_pdf_a_compliant_using_the_java_api)
+[Determine whether a document is PDF/A compliant using the Java API](/programming-with-aem-forms/determining-whether-documents-pdf-a determining-whether-documents-pdf-a.md#determine_whether_a_document_is_pdf_a_compliant_using_the_java_api)
 
-[Determine whether a document is PDF/A compliant using the web service API](/programming-with-aem-forms/determining-whether-documents-pdf-a determining-whether-documents-pdf-a#determine_whether_a_document_is_pdf_a_compliant_using_the_web_service_api)
+[Determine whether a document is PDF/A compliant using the web service API](/programming-with-aem-forms/determining-whether-documents-pdf-a determining-whether-documents-pdf-a.md#determine_whether_a_document_is_pdf_a_compliant_using_the_web_service_api)
 
 [Including AEM Forms Java library files](#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
 
 [Setting connection properties](#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2)
 
-[Programmatically Assembling PDF Documents](/programming-with-aem-forms/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically#programmatically_assembling_pdf_documents)
+[Programmatically Assembling PDF Documents](/programming-with-aem-forms/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically.md#programmatically_assembling_pdf_documents)
 
 ## Determine whether a document is PDF/A compliant using the Java API {#determine-whether-a-document-is-pdf-a-compliant-using-the-java-api}
 
@@ -169,7 +169,7 @@ Determine whether a PDF document is PDF/A-compliant by using the Assembler Servi
 
 **See also**
 
-[Determining Whether Documents Are PDF/A- Compliant](/programming-with-aem-forms/determining-whether-documents-pdf-a determining-whether-documents-pdf-a#determining_whether_documents_are_pdf_a_compliant)
+[Determining Whether Documents Are PDF/A- Compliant](/programming-with-aem-forms/determining-whether-documents-pdf-a determining-whether-documents-pdf-a.md#determining_whether_documents_are_pdf_a_compliant)
 
 [Quick Start (SOAP mode): Determining whether a document is PDF/A compliant using the Java API](#unresolvedlink-lc-qs-assembler-as.xml#ws624e3cba99b79e12e69a9941333732bac8-7f7f.2) (SOAP mode)
 
@@ -248,7 +248,7 @@ Determine whether a PDF document is PDF/A-compliant by using the Assembler Servi
 
 **See also**
 
-[Determining Whether Documents Are PDF/A- Compliant](/programming-with-aem-forms/determining-whether-documents-pdf-a determining-whether-documents-pdf-a#determining_whether_documents_are_pdf_a_compliant)
+[Determining Whether Documents Are PDF/A- Compliant](/programming-with-aem-forms/determining-whether-documents-pdf-a determining-whether-documents-pdf-a.md#determining_whether_documents_are_pdf_a_compliant)
 
 [Quick Start (MTOM): Determining whether a document is PDF/A compliant using the web service API](#unresolvedlink-lc-qs-assembler-as.xml#ws624e3cba99b79e12e69a9941333732bac8-7f7e.2)
 

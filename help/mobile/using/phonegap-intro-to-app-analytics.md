@@ -3,12 +3,12 @@ title: Track App Performance with Adobe Mobile Analytics
 seo-title: Track App Performance with Adobe Mobile Analytics
 description: With Adobe Mobile Services you can gain insight on how your users are using your mobile apps by tracking usage, app crashes, device details and so many other critical metrics for your mobile apps. Follow this page to learn more.
 seo-description: With Adobe Mobile Services you can gain insight on how your users are using your mobile apps by tracking usage, app crashes, device details and so many other critical metrics for your mobile apps. Follow this page to learn more.
-uuid: 84fa7ed5-86d5-4806-8daf-bed35c9bb155
+uuid: 62c2d9dc-d5e5-424b-92bf-9dd2cbeae88d
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: developing-adobe-phonegap-enterprise
-discoiquuid: e644218d-64a4-4e4c-87f9-dc0b8c4cc524
+discoiquuid: b42f1f2b-235f-40c2-9403-b5e54463309e
 index: y
 internal: n
 snippet: y
@@ -55,7 +55,7 @@ Finally, [AEM Administrators](#administrators)* *learn to:
 
 **Prerequisite:** AEM administrators need to configure the Adobe Mobile Services cloud config, [as discussed below](#amscloudserviceconfig).
 
-Developers are responsible for [adding analytics to an AEM Mobile app](/content/docs/en/aem/6-3/develop/mobile-apps/apps/add-analytics-to-apps) as necessary to track, report and understand how you users engage with your mobile app content and to measure key lifecycle metrics such as launches, time in app, and crash rate.
+Developers are responsible for [adding analytics to an AEM Mobile app](/content/docs/en/aem/6-3/develop/mobile-apps/apps/add-analytics-to-apps.md) as necessary to track, report and understand how you users engage with your mobile app content and to measure key lifecycle metrics such as launches, time in app, and crash rate.
 
 ## For Administrators - Configure the Adobe Mobile Services Cloud Service {#for-administrators-configure-the-adobe-mobile-services-cloud-service}
 
@@ -107,13 +107,13 @@ Now that the mobile app has access to the ADBMobileConfig.json file it has the k
 
 ## What's Next? {#what-s-next}
 
-1. [Start my AEM Mobile app experience](/content/docs/en/aem/6-3/develop/mobile-apps/starting-a-new-aem-mobile-app)
-1. [Manage my app's content](/content/docs/en/aem/6-3/develop/mobile-apps/manage-my-apps-content)
-1. [Build my application](/content/docs/en/aem/6-3/author/authoring-mobile-apps/build-app-through-adobe-phonegap-build-cloud-service)
+1. [Start my AEM Mobile app experience](/content/docs/en/aem/6-3/develop/mobile-apps/starting-a-new-aem-mobile-app.md)
+1. [Manage my app's content](/content/docs/en/aem/6-3/develop/mobile-apps/manage-my-apps-content.md)
+1. [Build my application](/content/docs/en/aem/6-3/author/authoring-mobile-apps/build-app-through-adobe-phonegap-build-cloud-service.md)
 1. [Track my app's performance with Adobe Mobile Analytics](../../mobile/using/phonegap-intro-to-app-analytics.md)
 1. 
 
-   ##### [Deliver a personalized app experience with Adobe Target](/content/docs/en/aem/6-3/develop/mobile-apps/apps/aem-mobile-content-personalization) {#deliver-a-personalized-app-experience-with-adobe-target}
+   ##### [Deliver a personalized app experience with Adobe Target](/content/docs/en/aem/6-3/develop/mobile-apps/apps/aem-mobile-content-personalization.md) {#deliver-a-personalized-app-experience-with-adobe-target}
 
-1. [Send important messages to my users](/content/docs/en/aem/6-3/develop/mobile-apps/apps/push-notifications)
+1. [Send important messages to my users](/content/docs/en/aem/6-3/develop/mobile-apps/apps/push-notifications.md)
 

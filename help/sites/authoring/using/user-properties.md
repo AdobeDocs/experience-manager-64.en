@@ -3,12 +3,12 @@ title: Configuring your account environment
 seo-title: Configuring your account environment
 description: AEM provides you with the capability to configure your account and certain aspects of the author environment
 seo-description: AEM provides you with the capability to configure your account and certain aspects of the author environment
-uuid: 9dfc97d8-c45c-424a-a6c6-42e92941d896
+uuid: 11e8567b-eeb9-42c5-9996-f0267881c4cf
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
-discoiquuid: bd651f39-864c-4610-80ba-d8dfcd954d02
+discoiquuid: b5f8e98d-2f9a-4acd-9405-f6e202c7ea1a
 index: y
 internal: n
 snippet: y
@@ -108,7 +108,7 @@ Each user can set certain properties for himself or herself.
 * **Use Classic Authoring Experience  
   **
 
-  This option enables [classic UI](/sites/classic-ui-authoring/user-guide)-based page authoring. By default the standard UI is used.
+  This option enables [classic UI](/sites/classic-ui-authoring/user-guide.md)-based page authoring. By default the standard UI is used.
 
 * **Enable Assets Home Page  
   **

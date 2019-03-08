@@ -3,12 +3,12 @@ title: Publish UnPublish Content
 seo-title: Publish UnPublish Content
 description: Once you are familiar with content management actions on articles, banners, and collections, follow this page to learn about how you can publish your content. Also you can unpublish your content.
 seo-description: Once you are familiar with content management actions on articles, banners, and collections, follow this page to learn about how you can publish your content. Also you can unpublish your content.
-uuid: 9dddf2ee-fd0e-4f90-94cb-937c554fde1a
+uuid: e9c86011-1b93-4eab-bebd-9a513156d14e
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: authoring-on-demand-services-app
-discoiquuid: ccc0ad47-b29b-4899-a71a-ed08038a6f4c
+discoiquuid: 142e2cad-4419-4876-ab1e-a459ff43e14d
 index: y
 internal: n
 snippet: y
@@ -44,7 +44,7 @@ The general workflow to publish/unpublish an article:
 
 >[!NOTE]
 >
->Generally, you should preflight before publishing. See [Previewing with Preflight](/content/docs/en/aem/6-3/administer/mobile-apps/aem-mobile/previewing-with-preflight-on-demand-services) for more details.
+>Generally, you should preflight before publishing. See [Previewing with Preflight](/content/docs/en/aem/6-3/administer/mobile-apps/aem-mobile/previewing-with-preflight-on-demand-services.md) for more details.
 
 ![](assets/chlimage_1-9.gif)
 

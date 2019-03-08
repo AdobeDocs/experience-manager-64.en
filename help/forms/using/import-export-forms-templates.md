@@ -3,11 +3,11 @@ title: Importing and exporting assets to AEM Forms
 seo-title: Importing and exporting assets to AEM Forms
 description: You can import and export adaptive forms and templates from and in to AEM instances. This helps in migrating forms or moving them across systems.
 seo-description: You can import and export adaptive forms and templates from and in to AEM instances. This helps in migrating forms or moving them across systems.
-uuid: b0c36a43-0538-45b5-b703-6d20556ddd0b
+uuid: b1dc133e-e9f5-4236-8eba-7d82e44f3add
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-manager
-discoiquuid: 5538c955-242c-4113-bb8e-dc8e0bc2cd40
+discoiquuid: da65db4a-272d-448a-a568-df4a85cbe715
 index: y
 internal: n
 snippet: y
@@ -155,7 +155,7 @@ You can import assets that are exported into a .cmp file. A .cmp file can have o
 
 >[!NOTE]
 >
->While importing old Correspondence Management assets for migration, log in using an Admin account. For more information on Migrating old Correspondence Management assets, see [Migrate Correspondence Management assets to AEM 6.1 forms](/forms/using/cm-migration-utility).
+>While importing old Correspondence Management assets for migration, log in using an Admin account. For more information on Migrating old Correspondence Management assets, see [Migrate Correspondence Management assets to AEM 6.1 forms](/forms/using/cm-migration-utility.md).
 
 1. On the data dictionary, letters, or document fragments page, tap **Create &gt; File Upload** and select the .cmp file.
 1. Correspondence Management displays the Import Assets dialog with the list of assets that are imported. Tap **Import**.

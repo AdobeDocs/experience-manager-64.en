@@ -3,12 +3,12 @@ title: Responsive Design for Web Pages
 seo-title: Responsive Design for Web Pages
 description: With responsive design, the same pages can be effectively displayed on multiple devices in multiple orientations
 seo-description: With responsive design, the same pages can be effectively displayed on multiple devices in multiple orientations
-uuid: 40d91725-77d6-4455-8526-9edf2a3ad4ea
+uuid: 63a4bcbc-4349-4d76-9806-37eb0d1ccd46
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: mobile-web
 content-type: reference
-discoiquuid: ef097039-e284-483d-8c73-c893730c59d4
+discoiquuid: 135d3738-b9d2-44cb-9ad0-308c77fb632b
 legacypath: /content/docs/en/aem/6-0/develop/mobile/responsive
 index: y
 internal: n
@@ -41,9 +41,9 @@ Develop Adobe Experience Manager (AEM) applications that generate HTML5 pages th
 
 See the following topics for information about implementing responsive design behavior:
 
-* [Media queries](../../../sites/developing/using/responsive.md#usingmediaqueries)
-* [Fluid grids](../../../sites/developing/using/responsive.md#developingafluidgrid)
-* [Adaptive images](../../../sites/developing/using/responsive.md#usingadaptiveimages)
+* [Media queries](../../../sites/developing/using/responsive.md#using-media-queries)
+* [Fluid grids](../../../sites/developing/using/responsive.md#developing-a-fluid-grid)
+* [Adaptive images](../../../sites/developing/using/responsive.md#using-adaptive-images)
 
 As you design, use Sidekick to preview your pages for various screen sizes.
 
@@ -494,7 +494,7 @@ For information about how to configure AEM services, see [Configuring OSGi](../.
 
 #### Implementation details {#implementation-details}
 
-The c `om.day.cq.wcm.foundation.impl.AdaptiveImageComponentServlet` class extends the [ `AbstractImageServlet`](/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/commons/AbstractImageServlet) class. The AdaptiveImageComponentServlet source code is located in the `/libs/foundation/src/impl/src/com/day/cq/wcm/foundation/impl` folder.
+The c `om.day.cq.wcm.foundation.impl.AdaptiveImageComponentServlet` class extends the [ `AbstractImageServlet`](/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/commons/AbstractImageServlet.md) class. The AdaptiveImageComponentServlet source code is located in the `/libs/foundation/src/impl/src/com/day/cq/wcm/foundation/impl` folder.
 
 The class uses Felix SCR annotations to configure the resource type and file extension that the servlet is associated with, and the name of the first selector.
 
@@ -529,7 +529,7 @@ The servlet uses the Property SCR annotation to set the default supported image 
 
 The `AbstractImageServlet` class provides the `doGet` method that processes the HTTP request. This method determines the resource that is associated with the request, retrieves resource properties from the repository, and returns them in an [ `ImageContext`](/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/commons/AbstractImageServlet.ImageContext) object.
 
-**Note:** The [ `com.day.cq.commons.DownloadResource`](/sites/developing/using/reference-materials/javadoc/com/day/cq/commons/DownloadResource)** **class provides the `getFileReference method`, which retrieves the value of the resource's `fileReference` property.
+**Note:** The [ `com.day.cq.commons.DownloadResource`](/sites/developing/using/reference-materials/javadoc/com/day/cq/commons/DownloadResource.md)** **class provides the `getFileReference method`, which retrieves the value of the resource's `fileReference` property.
 
 The `AdaptiveImageComponentServlet` class overrides the `createLayer` method. The method obtains the path of the image resource and the requested image width from the `ImageContext` object. It then calls the methods of the `info.geometrixx.commons.impl.AdaptiveImageHelper` class, which performs the actual image scaling.
 
@@ -597,7 +597,7 @@ When authoring a page, use Sidekick to specify the image and add the `image` nod
 
 #### Implementation details {#implementation-details-1}
 
-The info.geometrixx.commons.impl.servlets.ImageReferenceModificationServlet class extends the [AbstractImageServlet](/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/commons/AbstractImageServlet) class. If you have the cq-geometrixx-commons-pkg package installed, the ImageReferenceModificationServlet source code is located in the `/apps/geometrixx-commons/src/core/src/main/java/info/geometrixx/commons/impl/servlets` folder.
+The info.geometrixx.commons.impl.servlets.ImageReferenceModificationServlet class extends the [AbstractImageServlet](/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/commons/AbstractImageServlet.md) class. If you have the cq-geometrixx-commons-pkg package installed, the ImageReferenceModificationServlet source code is located in the `/apps/geometrixx-commons/src/core/src/main/java/info/geometrixx/commons/impl/servlets` folder.
 
 The class uses Felix SCR annotations to configure the resource type and file extension that the servlet is associated with, and the name of the first selector.
 
@@ -639,15 +639,15 @@ The servlet uses the Property SCR annotation to set the default supported image 
 
 The `AbstractImageServlet` class provides the `doGet` method that processes the HTTP request. This method determines the resource that is associated with the call, retrieves resource properties from the repository, and saves them in an [ `ImageContext`](/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/commons/AbstractImageServlet.ImageContext) object.
 
-The `ImageReferenceModificationServlet` class overrides the `createLayer` method and implements the logic that determines the image resource to render. The method retrieves a child node of the page's `jcr:content` node named `image`. An [ `Image`](/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/foundation/Image) object is created from this `image` node, and the `getFileReference` method returns the path to the image file from the `fileReference` property of the image node.
+The `ImageReferenceModificationServlet` class overrides the `createLayer` method and implements the logic that determines the image resource to render. The method retrieves a child node of the page's `jcr:content` node named `image`. An [ `Image`](/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/foundation/Image.md) object is created from this `image` node, and the `getFileReference` method returns the path to the image file from the `fileReference` property of the image node.
 
-**Note:** The [com.day.cq.commons.DownloadResource](/sites/developing/using/reference-materials/javadoc/com/day/cq/commons/DownloadResource)** **class provides the getFileReferencemethod.
+**Note:** The [com.day.cq.commons.DownloadResource](/sites/developing/using/reference-materials/javadoc/com/day/cq/commons/DownloadResource.md)** **class provides the getFileReferencemethod.
 
 ## Developing a Fluid Grid {#developing-a-fluid-grid}
 
 AEM enables you to efficiently and effectively implement fluid grids. This page explains how you can integrate your fluid grid or an existing grid implementation (such as [Bootstrap](http://twitter.github.com/bootstrap/)) into your AEM application.
 
-If you are not familiar with fluid grids, see the [Introduction to Fluid Grids](../../../sites/developing/using/responsive.md#developingafluidgrid) section at the bottom of this page. This introduction provides an overview of fluid grids and guidance for designing them.
+If you are not familiar with fluid grids, see the [Introduction to Fluid Grids](../../../sites/developing/using/responsive.md#developing-a-fluid-grid) section at the bottom of this page. This introduction provides an overview of fluid grids and guidance for designing them.
 
 ### Defining the Grid Using a Page Component {#defining-the-grid-using-a-page-component}
 

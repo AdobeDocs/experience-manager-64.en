@@ -3,12 +3,12 @@ title: SRP and UGC Essentials
 seo-title: SRP and UGC Essentials
 description: Storage resource provider and user-generated content overview
 seo-description: Storage resource provider and user-generated content overview
-uuid: c4d296a7-3937-4692-b1a1-7d21dcf86bf2
+uuid: 9da1f22a-16d6-45f8-8746-d145c771dfcd
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 1ec2b260-03df-4de5-8f43-0e01b09264d6
+discoiquuid: d83edb9b-d5f0-44a7-82f4-1d26b8738fdb
 index: y
 internal: n
 snippet: y
@@ -67,7 +67,7 @@ For coding guidelines, visit [Accessing UGC with SRP](../../communities/using/ac
 
 >[!CAUTION]
 >
->The path resourceToUGCStoragePath() returns is *not *suitable for [ACL checking](../../communities/using/srp.md#foraccesscontrolacls).
+>The path resourceToUGCStoragePath() returns is *not *suitable for [ACL checking](../../communities/using/srp.md#for-access-control-acls).
 
 ## Utility Method to Access ACLs {#utility-method-to-access-acls}
 
@@ -94,7 +94,7 @@ protected void doGet(final SlingHttpServletRequest request, final SlingHttpServl
 
 >[!CAUTION]
 >
->The path returned by resourceToACLPath() is *not *suitable for [accessing the UGC](#utilitymethodtoaccessacls) itself.
+>The path returned by resourceToACLPath() is *not *suitable for [accessing the UGC](#utility-method-to-access-acls) itself.
 
 ## UGC-Related Storage Locations {#ugc-related-storage-locations}
 
@@ -110,14 +110,14 @@ An example of such a component is the [comments component](http://localhost:4502
 
 **shadow node location**
 
-The creation of UGC also creates a [shadow node](../../communities/using/srp.md#aboutshadownodesinjcr) to which the necessary ACLs are applied. The path to the corresponding shadow node in the local repository is the result of prepending the shadow node root path to the component path :
+The creation of UGC also creates a [shadow node](../../communities/using/srp.md#about-shadow-nodes-in-jcr) to which the necessary ACLs are applied. The path to the corresponding shadow node in the local repository is the result of prepending the shadow node root path to the component path :
 
 * root path = /content/usergenerated
 * comment shadow node = /content/usergenerated*/content/community-components/en/comments/jcr:content/content/includable/comments*
 
 **UGC location**
 
-The UGC is created in neither of those locations, and should only be accessed using an [utility method](#utilitymethodtoaccessugc) which invokes the SRP API.
+The UGC is created in neither of those locations, and should only be accessed using an [utility method](#utility-method-to-access-ugc) which invokes the SRP API.
 
 * root path = /content/usergenerated/asi/*&lt;srp-choice&gt;*
 * UGC node for JSRP = /content/usergenerated/asi/jcr*/content/community-components/en/comments/jcr:content/content/includable/comments*/srzd-let_it_be_

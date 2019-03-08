@@ -3,12 +3,12 @@ title: Using Voting
 seo-title: Using Voting
 description: Adding the Voting component to a page
 seo-description: Adding the Voting component to a page
-uuid: 66fd71fe-e109-4c19-8c59-508526917ca7
+uuid: 0a1790af-8ad8-4f96-8583-b7b960b49a15
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
-discoiquuid: 580f7607-adbc-4526-88f4-b419871b76d1
+discoiquuid: 7b12dacf-2e15-4355-a6fa-577672530742
 index: y
 internal: n
 snippet: y
@@ -28,7 +28,7 @@ and drag it into place on a page, such as a position relative to the feature for
 
 For necessary information, visit [Communities Components Basics](../../communities/using/basics.md).
 
-When the [required client-side libraries](../../communities/using/essentials-voting.md#essentialsforclientside) are included, this is how the `Voting` component will appear.
+When the [required client-side libraries](../../communities/using/essentials-voting.md#essentials-for-client-side) are included, this is how the `Voting` component will appear.
 
 ![](assets/chlimage_1-307.png)
 

@@ -3,12 +3,12 @@ title: Developing AEM Components
 seo-title: Developing AEM Components
 description: AEM components are used to hold, format, and render the content made available on your webpages.
 seo-description: AEM components are used to hold, format, and render the content made available on your webpages.
-uuid: b23c3cb8-245b-4d01-bc13-83405c7d6c10
+uuid: 4789c05c-dff0-4ac7-9284-e2803aab9980
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: components
 content-type: reference
-discoiquuid: 305e433f-c4bd-42cc-8a40-103881f9a382
+discoiquuid: 4652220c-8d35-4d7a-8e03-9d2d35a4bec4
 legacypath: /content/docs/en/aem/6-2/develop/components/components-touch-optimized
 index: y
 internal: n
@@ -53,7 +53,7 @@ When extending or customing an existing component or dialog, you can copy or rep
 
 ### Extending an Existing Component {#extending-an-existing-component}
 
-Extending an existing component can be achieved with [Resource Type Hierarchy](../../../sites/developing/using/components-basics.md#componenthierarchyandinheritance) and the related inheritance mechanisms.
+Extending an existing component can be achieved with [Resource Type Hierarchy](../../../sites/developing/using/components-basics.md#component-hierarchy-and-inheritance) and the related inheritance mechanisms.
 
 >[!NOTE]
 >
@@ -109,27 +109,27 @@ Read [Using Client-Side HTML Libraries](../../../sites/developing/using/clientli
 
 You can configure the edit behavior of a component including attributes such as actions available for the component, characteristics of the inplace editor, and the listeners related to events on the component. The configuration is common to both the touch-enabled and classic UI, albeit with certain, specific differences.
 
-The [edit behavior of a component is configured](../../../sites/developing/using/components-basics.md#editbehavior) by adding a `cq:editConfig` node of type `cq:EditConfig` below the component node (of type `cq:Component`) and by adding specific properties and child nodes.
+The [edit behavior of a component is configured](../../../sites/developing/using/components-basics.md#edit-behavior) by adding a `cq:editConfig` node of type `cq:EditConfig` below the component node (of type `cq:Component`) and by adding specific properties and child nodes.
 
 ## Configuring the Preview Behavior {#configuring-the-preview-behavior}
 
-The [WCM Mode](/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/api/WCMMode) cookie is set when switching to **Preview** mode even when the page is not refreshed.
+The [WCM Mode](/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/api/WCMMode.md) cookie is set when switching to **Preview** mode even when the page is not refreshed.
 
 For components with a rendering that are sensitive to the WCM Mode, they need to be defined to refresh themselves specifically, then rely on the value of the cookie.
 
 >[!NOTE]
 >
->In the touch-enabeld UI only the values `EDIT` and `PREVIEW` are used for the [WCM Mode](/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/api/WCMMode) cookie.
+>In the touch-enabeld UI only the values `EDIT` and `PREVIEW` are used for the [WCM Mode](/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/api/WCMMode.md) cookie.
 
 ## Creating and Configuring a Dialog {#creating-and-configuring-a-dialog}
 
-Dialogs are used to allow author to interact with the component. Using a dialog allows authors and/or administrators to edit content, configure the component or define design parameters (using a [Design Dialog](#creatingandconfiguringadesigndialog))
+Dialogs are used to allow author to interact with the component. Using a dialog allows authors and/or administrators to edit content, configure the component or define design parameters (using a [Design Dialog](#creating-and-configuring-a-design-dialog))
 
 ### Coral UI and Granite UI {#coral-ui-and-granite-ui}
 
-[Coral UI](/sites/developing/using/reference-materials/coral-ui/coralui3/index) and [Granite UI](/sites/developing/using/reference-materials/granite-ui/api/index) define the modern look and feel of AEM.
+[Coral UI](/sites/developing/using/reference-materials/coral-ui/coralui3/index.md) and [Granite UI](/sites/developing/using/reference-materials/granite-ui/api/index.md) define the modern look and feel of AEM.
 
-[Granite UI provides a large range of the basic components (widgets)](/sites/developing/using/reference-materials/granite-ui/api/index) needed to create your dialog on the authoring environment. When necessary you can extend this selection and [create your own widget](#creatinganewwidget).
+[Granite UI provides a large range of the basic components (widgets)](/sites/developing/using/reference-materials/granite-ui/api/index.md) needed to create your dialog on the authoring environment. When necessary you can extend this selection and [create your own widget](#creatinganewwidget).
 
 For more information on developing components using Coral and Granite resource types see: [Building Experience Manager components using Coral/Granite resource types](https://helpx.adobe.com/experience-manager/using/aem64_coral_resourcetypes.html).
 
@@ -138,14 +138,14 @@ For full details see:
 * Coral UI
 
     * Provides a consistent UI across all cloud solutions  
-    * [Concepts of the AEM Touch-Enabled UI - Coral UI](../../../sites/developing/using/touch-ui-concepts.md#coralui)
-    * [Coral UI Guide](/sites/developing/using/reference-materials/coral-ui/coralui3/index)
+    * [Concepts of the AEM Touch-Enabled UI - Coral UI](../../../sites/developing/using/touch-ui-concepts.md#coral-ui)
+    * [Coral UI Guide](/sites/developing/using/reference-materials/coral-ui/coralui3/index.md)
 
 * Granite UI
 
     * Provides Coral UI markup wrapped into Sling components for building UI consoles and dialogs  
-    * [Concepts of the AEM Touch-Enabled UI - Granite UI](../../../sites/developing/using/touch-ui-concepts.md#coralui) 
-    * [Granite UI Documentation](/sites/developing/using/reference-materials/granite-ui/api/index)
+    * [Concepts of the AEM Touch-Enabled UI - Granite UI](../../../sites/developing/using/touch-ui-concepts.md#coral-ui) 
+    * [Granite UI Documentation](/sites/developing/using/reference-materials/granite-ui/api/index.md)
 
 >[!NOTE]
 >
@@ -197,7 +197,7 @@ For examples, see:
 >See:
 >
 >* the AEM Gems session on [Customizing Dialog Fields](http://docs.adobe.com/content/ddc/en/gems/customizing-dialog-fields-in-touch-ui.html).
->* the related sample code covered under [Code Sample - How to Customize Dialog Fields](../../../sites/developing/using/developing-components-samples.md#codesamplehowtocustomizedialogfields).  
+>* the related sample code covered under [Code Sample - How to Customize Dialog Fields](../../../sites/developing/using/developing-components-samples.md#code-sample-how-to-customize-dialog-fields).  
 >
 
 #### Creating a New Field {#creating-a-new-field}
@@ -208,13 +208,13 @@ To create a new widget for use in a component dialog for the touch-enabled UI re
 
 >[!NOTE]
 >
->For full details about the Granite UI, please see the [Granite UI documentation](/sites/developing/using/reference-materials/granite-ui/api/index).
+>For full details about the Granite UI, please see the [Granite UI documentation](/sites/developing/using/reference-materials/granite-ui/api/index.md).
 
 If you consider your dialog as a simple container for a form element, then you can also see the primary content of your dialog content as form fields. Creating a new form field requires you to create a resource type; this is equivalent to creating a new component. To help you in that task, Granite UI offers a generic field component to inherit from (using `sling:resourceSuperType`):
 
 `/libs/granite/ui/components/coral/foundation/form/field`
 
-More specifically Granite UI provides a range of field components that are suitable for use in dialogs (or, more generally speaking, in [forms](/sites/developing/using/reference-materials/granite-ui/api/jcr_root/libs/granite/ui/components/foundation/form/index)).
+More specifically Granite UI provides a range of field components that are suitable for use in dialogs (or, more generally speaking, in [forms](/sites/developing/using/reference-materials/granite-ui/api/jcr_root/libs/granite/ui/components/foundation/form/index.md)).
 
 >[!NOTE]
 >
@@ -234,7 +234,7 @@ For an example, see:
 
 * `cqgems/customizingfield/components/colorpicker/clientlibs`
 
-    * provided by the [Code Sample](../../../sites/developing/using/developing-components-samples.md#codesamplehowtocustomizedialogfields)
+    * provided by the [Code Sample](../../../sites/developing/using/developing-components-samples.md#code-sample-how-to-customize-dialog-fields)
 
 #### Extending (Inheriting from) a Field {#extending-inheriting-from-a-field}
 
@@ -257,7 +257,7 @@ You can also use render conditions ( `rendercondition`) to control who has acces
 
 ### Handling Field Events {#handling-field-events}
 
-The method of handling events on dialog fields is now done with [listeners in a custom client library](#listenersinacustomclientlibrary). This is a change from the older method of having [listeners in the content structure](#listenersinthecontentstructureclassicui).
+The method of handling events on dialog fields is now done with [listeners in a custom client library](#listeners-in-a-custom-client-library). This is a change from the older method of having [listeners in the content structure](#listenersinthecontentstructureclassicui).
 
 #### Listeners in a Custom Client Library {#listeners-in-a-custom-client-library}
 
@@ -266,13 +266,13 @@ To inject logic into your field, you should:
 1. Have your field marked with a given CSS class (the *hook*).
 1. Define, in your client library a JS listener hooked on that CSS class name (this ensures that your custom logic is scoped to your field only, and does not affect other fields of the same type).
 
-To achieve this you need to know about the underlying widget library with which you want to interact. See the [Coral UI documentation](/sites/developing/using/reference-materials/coral-ui/coralui3/index) to identify to which event you want to react. This is very similar to the process that you had to perform with ExtJS in the past: find the documentation page of a given widget, then check the details of its event API.
+To achieve this you need to know about the underlying widget library with which you want to interact. See the [Coral UI documentation](/sites/developing/using/reference-materials/coral-ui/coralui3/index.md) to identify to which event you want to react. This is very similar to the process that you had to perform with ExtJS in the past: find the documentation page of a given widget, then check the details of its event API.
 
 For an example, see:
 
 * `cqgems/customizingfield/components/clientlibs/customizingfield`
 
-    * provided by the [Code Sample](../../../sites/developing/using/developing-components-samples.md#codesamplehowtocustomizedialogfields)
+    * provided by the [Code Sample](../../../sites/developing/using/developing-components-samples.md#code-sample-how-to-customize-dialog-fields)
 
 #### Listeners in the Content Structure {#listeners-in-the-content-structure}
 
@@ -297,13 +297,13 @@ For an example, see:
 
 #### Field Validation (Granite UI) {#field-validation-granite-ui}
 
-Field validation in Granite UI and the Granite UI Components (equivalent to widgets), is done by using the `foundation-validation` API. [See the `foundation-valdiation` Granite documentation for details.](/sites/developing/using/reference-materials/granite-ui/api/jcr_root/libs/granite/ui/components/coral/foundation/clientlibs/foundation/js/validation/index)
+Field validation in Granite UI and the Granite UI Components (equivalent to widgets), is done by using the `foundation-validation` API. [See the `foundation-valdiation` Granite documentation for details.](/sites/developing/using/reference-materials/granite-ui/api/jcr_root/libs/granite/ui/components/coral/foundation/clientlibs/foundation/js/validation/index.md)
 
 For examples, see:
 
 * `cqgems/customizingfield/components/clientlibs/customizingfield/js/validations.js`
 
-    * provided by the [Code Sample](../../../sites/developing/using/developing-components-samples.md#codesamplehowtocustomizedialogfields)
+    * provided by the [Code Sample](../../../sites/developing/using/developing-components-samples.md#code-sample-how-to-customize-dialog-fields)
 
 * `/libs/cq/gui/components/authoring/dialog/clientlibs/dialog/js/validations.js`
 
@@ -311,7 +311,7 @@ For examples, see:
 
 The Design dialog is provided when a component has design details that can be edited in [Design Mode](../../../sites/authoring/using/default-components-designmode.md).
 
-The definition is very similar to that of a [dialog used for editing content](#creatinganewdialog), with the difference that it is defined as a node:
+The definition is very similar to that of a [dialog used for editing content](#creating-a-new-dialog), with the difference that it is defined as a node:
 
 * Node name: `cq:design_dialog`
 * Type: `nt:unstructured`
@@ -322,13 +322,13 @@ An inplace editor allows the user to edit content directly in the paragraph flow
 
 An inplace editor is not necessary/meaningful for every component type.
 
-See [Extending Page Authoring - Add New Inplace Editor](../../../sites/developing/using/customizing-page-authoring-touch.md#addnewinplaceeditor) for more information.
+See [Extending Page Authoring - Add New Inplace Editor](../../../sites/developing/using/customizing-page-authoring-touch.md#add-new-in-place-editor) for more information.
 
 ## Customizing the Component Toolbar {#customizing-the-component-toolbar}
 
-The [Component Toolbar](../../../sites/developing/using/touch-ui-structure.md#componenttoolbar) gives the user access to a range of actions for the component such as edit, configure, copy, and delete.
+The [Component Toolbar](../../../sites/developing/using/touch-ui-structure.md#component-toolbar) gives the user access to a range of actions for the component such as edit, configure, copy, and delete.
 
-See [Extending Page Authoring - Add New Action to a Component Toolbar](../../../sites/developing/using/customizing-page-authoring-touch.md#addnewactiontoacomponenttoolbar) for more information.
+See [Extending Page Authoring - Add New Action to a Component Toolbar](../../../sites/developing/using/customizing-page-authoring-touch.md#add-new-action-to-a-component-toolbar) for more information.
 
 ## Configuring a Component for the References Rail (Borrowed/Lent) {#configuring-a-component-for-the-references-rail-borrowed-lent}
 
@@ -351,7 +351,7 @@ After the component has been developed it needs to be enabled for use in an appr
 This can be done by either:
 
 * using [Design mode](../../../sites/authoring/using/default-components-designmode.md) when editing a specific page.
-* [defining the `components` property on the paragraph system of a template](../../../sites/developing/using/components-basics.md#addingyourcomponenttotheparagraphsystem).
+* [defining the `components` property on the paragraph system of a template](../../../sites/developing/using/components-basics.md#adding-your-component-to-the-paragraph-system).
 
 ## Configuring a Paragraph System so that Dragging an Asset Creates a Component Instance {#configuring-a-paragraph-system-so-that-dragging-an-asset-creates-a-component-instance}
 
@@ -447,7 +447,7 @@ When migrating a component that was designed for use with the classic UI to a co
 
     * Migrate [ `cq:listener`](../../../sites/developing/using/developing-components.md#migrating-cq-listener-code) code that use classic UI specific functions
     * RTE plugin, for further information see [Configuring the Rich Text Editor](../../../sites/administering/using/rich-text-editor.md).
-    * [Migrate `cq:listener` code](#migratingcqlistenercode) that uses functions specific to the classic UI
+    * [Migrate `cq:listener` code](#migrating-cq-listener-code) that uses functions specific to the classic UI
 
 * Dialogs
 
@@ -455,8 +455,8 @@ When migrating a component that was designed for use with the classic UI to a co
     * The [Dialog Conversion Tool](../../../sites/developing/using/dialog-conversion.md) is provided to help you extend existing components.
     * [Mapping ExtJS to Granite UI Components](../../../sites/developing/using/touch-ui-concepts.md#extjs-and-corresponding-granite-ui-components) provides a convenient overview of ExtJS xtypes and node types with their equivalent Granite UI resource types.
     * Customizing fields, for more information see the AEM Gems session on [Customizing Dialog Fields](http://docs.adobe.com/content/ddc/en/gems/customizing-dialog-fields-in-touch-ui.html).
-    * Migrate from vtypes to [Granite UI validation](/sites/developing/using/reference-materials/granite-ui/api/jcr_root/libs/granite/ui/components/foundation/clientlibs/foundation/js/validation/index)
-    * Using JS listeners, for more information see [Handling Field Events](#handlingfieldevents) and the AEM Gems session on [Customizing Dialog Fields](http://docs.adobe.com/content/ddc/en/gems/customizing-dialog-fields-in-touch-ui.html).
+    * Migrate from vtypes to [Granite UI validation](/sites/developing/using/reference-materials/granite-ui/api/jcr_root/libs/granite/ui/components/foundation/clientlibs/foundation/js/validation/index.md)
+    * Using JS listeners, for more information see [Handling Field Events](#handling-field-events) and the AEM Gems session on [Customizing Dialog Fields](http://docs.adobe.com/content/ddc/en/gems/customizing-dialog-fields-in-touch-ui.html).
 
 ### Migrating cq:listener Code {#migrating-cq-listener-code}
 

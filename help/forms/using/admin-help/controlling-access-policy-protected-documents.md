@@ -3,12 +3,12 @@ title: Controlling access to policy-protected documents
 seo-title: Controlling access to policy-protected documents
 description: See how you can view, manage and control the access to your policy-protected documents.
 seo-description: See how you can view, manage and control the access to your policy-protected documents.
-uuid: 76dae054-a122-4d5d-b208-a683e289ff12
+uuid: 73c81de2-5b6a-44ee-b71b-512f38923015
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_document_security
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 347d31be-ccf0-4ed1-9ff1-1637eca52dc8
+discoiquuid: 21c49da7-75ed-4d49-9ffd-1a7fd421195a
 index: y
 internal: n
 snippet: y
@@ -69,7 +69,7 @@ This feature is useful when multiple users are collaborating and are saving diff
 
 If this feature is enabled, you can view the related iterations of a document from the Documents page.
 
-1. View the Document Detail page for a document. (See [View information about a document](controlling-access-policy-protected-documents#view_information_about_a_document).)
+1. View the Document Detail page for a document. (See [View information about a document](controlling-access-policy-protected-documents.md#view_information_about_a_document).)
 1. Click View Related Iterations. The option is available only if the feature is enabled. The list of related iterations appears. For each iteration, you can view the following information:
 
     * **Iteration: **The filename. It may be different from the original filename and it has a version number appended to the end of it.

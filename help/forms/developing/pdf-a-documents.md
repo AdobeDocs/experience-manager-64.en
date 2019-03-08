@@ -3,12 +3,12 @@ title: Working with PDF/A Documents
 seo-title: Working with PDF/A Documents
 description: null
 seo-description: null
-uuid: 1dd0b710-0e43-4dda-8dc2-4097321f869b
+uuid: 1ccd5654-93af-4615-9b9b-96a1ed025339
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: e64ea7bd-c469-4b6f-a9a8-100037817f4d
+discoiquuid: 3ee10ea5-182c-4e84-b8af-3c4fb5e1b8ef
 index: y
 internal: n
 snippet: y
@@ -20,8 +20,8 @@ snippet: y
 
 The DocConverter service can convert PDF documents to PDA/A documents. You can accomplish these tasks using this service:
 
-* Convert PDF documents to PDF/A documents. (See [Converting Documents to PDF/A Documents](pdf-a-documents#converting_documents_to_pdf_a_documents).)
-* Determine if PDF documents are PDF/A documents. (See [Programmatically Determining PDF/A Compliancy](pdf-a-documents#programmatically_determining_pdf_a_compliancy).)
+* Convert PDF documents to PDF/A documents. (See [Converting Documents to PDF/A Documents](pdf-a-documents.md#converting_documents_to_pdf_a_documents).)
+* Determine if PDF documents are PDF/A documents. (See [Programmatically Determining PDF/A Compliancy](pdf-a-documents.md#programmatically_determining_pdf_a_compliancy).)
 
 >[!NOTE]
 >
@@ -62,7 +62,7 @@ The following JAR files must be added to your project’s class path:
 * adobe-utilities.jar (required if AEM Forms is deployed on JBoss Application Server) 
 * jbossall-client.jar (required if AEM Forms is deployed on JBoss Application Server)
 
-For information about the location of these JAR files, see [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files).
+For information about the location of these JAR files, see [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files).
 
 **Create a DocConvert client**
 
@@ -86,15 +86,15 @@ You can save the PDF/A document as a PDF file.
 
 **See also**
 
-[Convert documents to PDF/A documents using the Java API](pdf-a-documents#convert_documents_to_pdf_a_documents_using_the_java_api)
+[Convert documents to PDF/A documents using the Java API](pdf-a-documents.md#convert_documents_to_pdf_a_documents_using_the_java_api)
 
-[Convert documents to PDF/A documents using the web service API](pdf-a-documents#convert_documents_to_pdf_a_documents_using_the_web_service_api)
+[Convert documents to PDF/A documents using the web service API](pdf-a-documents.md#convert_documents_to_pdf_a_documents_using_the_web_service_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
 
-[Programmatically Determining PDF/A Compliancy](pdf-a-documents#programmatically_determining_pdf_a_compliancy)
+[Programmatically Determining PDF/A Compliancy](pdf-a-documents.md#programmatically_determining_pdf_a_compliancy)
 
 ### Convert documents to PDF/A documents using the Java API {#convert-documents-to-pdf-a-documents-using-the-java-api}
 
@@ -136,13 +136,13 @@ Convert a PDF document to a PDF/A document by using the Java API:
 
 **See also**
 
-[Working with PDF/A Documents](pdf-a-documents#working_with_pdf_a_documents)
+[Working with PDF/A Documents](pdf-a-documents.md#working_with_pdf_a_documents)
 
-[Quick Start (SOAP mode): Converting a document to a PDF/A document using the Java API](/programming-with-aem-forms/docconverter-service-java-api-quick#quick_start_soap_mode_converting_a_document_to_a_pdf_a_document_using_the_java_api)
+[Quick Start (SOAP mode): Converting a document to a PDF/A document using the Java API](/programming-with-aem-forms/docconverter-service-java-api-quick.md#quick_start_soap_mode_converting_a_document_to_a_pdf_a_document_using_the_java_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
 
 ### Convert documents to PDF/A documents using the web service API {#convert-documents-to-pdf-a-documents-using-the-web-service-api}
 
@@ -190,17 +190,17 @@ Convert a PDF document to a PDF/A document by using the DocConverter API (web se
 
 **See also**
 
-[Working with PDF/A Documents](pdf-a-documents#working_with_pdf_a_documents)
+[Working with PDF/A Documents](pdf-a-documents.md#working_with_pdf_a_documents)
 
 [Quick Start (Base64): Converting a document to a PDF/A document using the web service API](#unresolvedlink-lc-qs-doc-converter-dc.xml#ws624e3cba99b79e12e69a9941333732bac8-7efc.2)
 
-[Invoking AEM Forms using Base64 encoding](/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_base64_encoding)
+[Invoking AEM Forms using Base64 encoding](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_base64_encoding)
 
-[Creating a .NET client assembly that uses Base64 encoding](/programming-with-aem-forms/invoking-aem-forms-using-web#creating_a_net_client_assembly_that_uses_base64_encoding)
+[Creating a .NET client assembly that uses Base64 encoding](/programming-with-aem-forms/invoking-aem-forms-using-web.md#creating_a_net_client_assembly_that_uses_base64_encoding)
 
 ## Programmatically Determining PDF/A Compliancy {#programmatically-determining-pdf-a-compliancy}
 
-You can use the DocConverter service to determine whether a PDF document is PDF/A-compliant. For information about a PDF/A document and how to convert a PDF document to a PDF/A document, see [Converting Documents to PDF/A Documents](pdf-a-documents#converting_documents_to_pdf_a_documents).
+You can use the DocConverter service to determine whether a PDF document is PDF/A-compliant. For information about a PDF/A document and how to convert a PDF document to a PDF/A document, see [Converting Documents to PDF/A Documents](pdf-a-documents.md#converting_documents_to_pdf_a_documents).
 
 >[!NOTE]
 >
@@ -228,7 +228,7 @@ The following JAR files must be added to your project’s class path:
 * adobe-utilities.jar (required if AEM Forms is deployed on JBoss Application Server)
 * jbossall-client.jar (required if AEM Forms is deployed on JBoss Application Server)
 
-For information about the location of these JAR files, see [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files).
+For information about the location of these JAR files, see [Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files).
 
 **Create a DocConvert client**
 
@@ -248,13 +248,13 @@ After you create the DocConverter service client, reference the PDF document, an
 
 **See also**
 
-[Determine PDF/A compliancy using the Java API](pdf-a-documents#determine_pdf_a_compliancy_using_the_java_api)
+[Determine PDF/A compliancy using the Java API](pdf-a-documents.md#determine_pdf_a_compliancy_using_the_java_api)
 
-[Determine PDF/A compliancy using the web service API](pdf-a-documents#determine_pdf_a_compliancy_using_the_web_service_api)
+[Determine PDF/A compliancy using the web service API](pdf-a-documents.md#determine_pdf_a_compliancy_using_the_web_service_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
 
 ### Determine PDF/A compliancy using the Java API {#determine-pdf-a-compliancy-using-the-java-api}
 
@@ -291,13 +291,13 @@ Determine PDF/A compliancy by using the Java API:
 
 **See also**
 
-[Working with PDF/A Documents](pdf-a-documents#working_with_pdf_a_documents)
+[Working with PDF/A Documents](pdf-a-documents.md#working_with_pdf_a_documents)
 
-[Quick Start (SOAP mode): Determining PDF/A compliancy using the Java API](/programming-with-aem-forms/docconverter-service-java-api-quick#quick_start_soap_mode_determining_pdf_a_compliancy_using_the_java_api)
+[Quick Start (SOAP mode): Determining PDF/A compliancy using the Java API](/programming-with-aem-forms/docconverter-service-java-api-quick.md#quick_start_soap_mode_determining_pdf_a_compliancy_using_the_java_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
 
 ### Determine PDF/A compliancy using the web service API {#determine-pdf-a-compliancy-using-the-web-service-api}
 
@@ -338,10 +338,10 @@ Determine PDF/A compliancy by using the web service API:
 
 **See also**
 
-[Working with PDF/A Documents](pdf-a-documents#working_with_pdf_a_documents)
+[Working with PDF/A Documents](pdf-a-documents.md#working_with_pdf_a_documents)
 
 [Quick Start (Base64): Determining PDF/A compliancy using the web service API](#unresolvedlink-lc-qs-doc-converter-dc.xml#ws624e3cba99b79e12e69a9941333732bac8-7ef9.2)
 
-[Invoking AEM Forms using Base64 encoding](/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_base64_encoding)
+[Invoking AEM Forms using Base64 encoding](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_base64_encoding)
 
-[Creating a .NET client assembly that uses Base64 encoding](/programming-with-aem-forms/invoking-aem-forms-using-web#creating_a_net_client_assembly_that_uses_base64_encoding)
+[Creating a .NET client assembly that uses Base64 encoding](/programming-with-aem-forms/invoking-aem-forms-using-web.md#creating_a_net_client_assembly_that_uses_base64_encoding)

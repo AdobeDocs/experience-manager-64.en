@@ -3,12 +3,12 @@ title: Applying Workflows to Pages
 seo-title: Applying Workflows to Pages
 description: Workflows can be started from either the Websites console or, when editing a page, from Sidekick.
 seo-description: Workflows can be started from either the Websites console or, when editing a page, from Sidekick.
-uuid: 75ed0bac-bf61-4720-b577-80fbc25b329c
+uuid: 55fa973f-fcad-4091-b7cf-bfb8785ddeb0
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
-discoiquuid: f2fa049b-1177-4726-b3dc-9154eac3d055
+discoiquuid: 73df8c87-c683-41ed-9b62-f7742c813dd0
 index: y
 internal: n
 snippet: y

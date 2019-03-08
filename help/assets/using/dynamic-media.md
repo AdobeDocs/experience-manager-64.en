@@ -3,12 +3,12 @@ title: Working with Dynamic Media
 seo-title: Working with Dynamic Media
 description: Learn how to use Dynamic Media to deliver assets for consumption on web, mobile, and social sites.
 seo-description: Learn how to use Dynamic Media to deliver assets for consumption on web, mobile, and social sites.
-uuid: 850021ac-ab91-4b01-a322-56bf438e92bc
+uuid: a1a53c06-2bbd-4997-a5ba-009ef482566d
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: introduction
 content-type: reference
-discoiquuid: 92fd80b5-6eb3-49cd-b110-1a9ba70704c1
+discoiquuid: a55e94f9-06aa-4c5d-9308-7a0da91fd8d9
 index: y
 internal: n
 snippet: y
@@ -57,7 +57,7 @@ You can tell whether Dynamic Media is turned on by the following characteristics
 * Image sets, Spin sets, Mixed media sets are available.
 * PTIFF renditions are created.
 
-When clicking on an image asset, the view of the asset is different with Dynamic Media [enabled](../../assets/using/config-dynamic.md#enablingdynamicmedia). Dynamic Media uses the on-demand HTML5 viewers.
+When clicking on an image asset, the view of the asset is different with Dynamic Media [enabled](../../assets/using/config-dynamic.md#enabling-dynamic-media). Dynamic Media uses the on-demand HTML5 viewers.
 
 #### Dynamic Renditions {#dynamic-renditions}
 

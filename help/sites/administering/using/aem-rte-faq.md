@@ -4,9 +4,9 @@ seo-title: FAQs to troubleshoot Rich Text Editor
 description: null
 seo-description: null
 page-status-flag: never-activated
-uuid: 06a7b582-d45d-48da-80c1-949650be4a1e
+uuid: e4244668-5a45-475a-b101-baa7c04c6be4
 contentOwner: asgupta
-discoiquuid: a9f9653a-7d73-4d89-960c-8c6ae8019544
+discoiquuid: 22647e23-c2c2-4992-90f5-ba2ebffbf4c0
 index: y
 internal: n
 snippet: y

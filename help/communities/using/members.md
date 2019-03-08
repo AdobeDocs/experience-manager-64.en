@@ -3,12 +3,12 @@ title: Members & Groups Management Consoles
 seo-title: Members & Groups Management Consoles
 description: How to access Members and Groups Management consoles
 seo-description: How to access Members and Groups Management consoles
-uuid: ce8dcef9-4346-46ac-ae05-6b6309eb4288
+uuid: 43138965-3c51-4e21-940d-350a3f3147f6
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 96549b70-d08e-4472-8bee-8bdd9f2ec333
+discoiquuid: a363db11-0264-4e3d-b8a8-17f1d94b81f4
 index: y
 internal: n
 snippet: y
@@ -22,7 +22,7 @@ AEM Communities features often require site visitors to be registered and signed
 
 #### Members (Users) on Publish {#members-users-on-publish}
 
-Using the Communities Members and Groups consoles, members and member groups registered in the *publish* environment may be created and managed from the *author* environment. This is only possible when the [tunnel service](../../communities/using/deploy-communities.md#tunnelserviceonauthor) is enabled.
+Using the Communities Members and Groups consoles, members and member groups registered in the *publish* environment may be created and managed from the *author* environment. This is only possible when the [tunnel service](../../communities/using/deploy-communities.md#tunnel-service-on-author) is enabled.
 
 #### Users on Author {#users-on-author}
 
@@ -43,7 +43,7 @@ In the author environment, to reach the Members console for managing members reg
 
 >[!CAUTION]
 >
->It will not be possible to use the Members console if the [tunnel service](../../communities/using/deploy-communities.md#tunnelserviceonauthor) is not enabled.
+>It will not be possible to use the Members console if the [tunnel service](../../communities/using/deploy-communities.md#tunnel-service-on-author) is not enabled.
 
 ![](assets/chlimage_1-119.png)
 
@@ -165,7 +165,7 @@ To access the Groups console :
 
 >[!CAUTION]
 >
->It will not be possible to use the Groups console if the [tunnel service](../../communities/using/deploy-communities.md#tunnelserviceonauthor) is not enabled.
+>It will not be possible to use the Groups console if the [tunnel service](../../communities/using/deploy-communities.md#tunnel-service-on-author) is not enabled.
 
 ### Create New Group {#create-new-group}
 
@@ -193,8 +193,8 @@ The required fields for creating a new publish-side member group are :
 
 ## Authorized Administrators {#authorized-administrators}
 
-When working with members in the Communities members console, it is necessary to be signed in as a user with appropriate permissions, and for the replication agent used by the [tunnel service](../../communities/using/deploy-communities.md#tunnelserviceonauthor) to be correctly configured.
+When working with members in the Communities members console, it is necessary to be signed in as a user with appropriate permissions, and for the replication agent used by the [tunnel service](../../communities/using/deploy-communities.md#tunnel-service-on-author) to be correctly configured.
 
 If not signed in as `admin`, then the signed in user must be a member of the `administrators` user group.
 
-See also [Replication Agents on Author](../../communities/using/deploy-communities.md#replicationagentsonauthor).
+See also [Replication Agents on Author](../../communities/using/deploy-communities.md#replication-agents-on-author).

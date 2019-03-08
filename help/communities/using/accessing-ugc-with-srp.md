@@ -3,12 +3,12 @@ title: Accessing UGC with SRP
 seo-title: Accessing UGC with SRP
 description: When a site is configured to use ASRP or MSRP, the actual UGC is not be stored in AEM's node store (JCR)
 seo-description: When a site is configured to use ASRP or MSRP, the actual UGC is not be stored in AEM's node store (JCR)
-uuid: 4847c2fd-7344-4a4f-bc78-4cd92ed3bebb
+uuid: 7920625c-a75d-4f5c-9e2f-7d872f9f998d
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: bf5f2669-061b-488a-a8d9-1f22febcb265
+discoiquuid: 68b53e11-70a8-46dc-ab90-8e333d1483dd
 index: y
 internal: n
 snippet: y
@@ -52,8 +52,8 @@ Methods to use :
 
     * do not assume there are JCR events
 
-* [SocialResourceUtilities](../../communities/using/socialutils.md#socialresourceutilitiespackage)
-* [SCFUtilities](../../communities/using/socialutils.md#scfutilitiespackage)
+* [SocialResourceUtilities](../../communities/using/socialutils.md#socialresourceutilities-package)
+* [SCFUtilities](../../communities/using/socialutils.md#scfutilities-package)
 
 Methods to avoid :
 
@@ -63,7 +63,7 @@ Methods to avoid :
 
 ### Use Search Collections {#use-search-collections}
 
-Different SRPs can have different native query languages. It is recommended to use methods from the [com.adobe.cq.social.ugc.api](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/ugc/api/package-summary) package to invoke the appropriate query language.
+Different SRPs can have different native query languages. It is recommended to use methods from the [com.adobe.cq.social.ugc.api](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/ugc/api/package-summary.md) package to invoke the appropriate query language.
 
 For more information, see [Search Essentials](../../communities/using/search-implementation.md).
 

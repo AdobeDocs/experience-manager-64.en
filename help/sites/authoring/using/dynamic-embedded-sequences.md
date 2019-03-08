@@ -3,9 +3,9 @@ title: REDIRECT Using Dynamic Embedded Sequence
 seo-title: REDIRECT Using Dynamic Embedded Sequence
 description: null
 seo-description: null
-uuid: 56099e49-c0e4-452a-8c07-c3eeb933bb86
+uuid: 65f3b807-0192-49a9-a785-f0eeea3326e6
 contentOwner: jsyal
-discoiquuid: 2fd43100-5c59-4054-87d1-afa2f3d971ed
+discoiquuid: c20c60ca-652f-4e48-9c0b-549ceec6e7e5
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/screens/using/use-case-dynamic-embedded-sequence
 index: y

@@ -4,9 +4,9 @@ seo-title: Integrating with Livefyre
 description: null
 seo-description: null
 page-status-flag: never-activated
-uuid: 7d42028e-54b0-4fde-8da3-17fb32577419
+uuid: 46de5311-67f2-46b6-9dd9-e17c31858bbb
 contentOwner: alba
-discoiquuid: 3140c988-3154-4c88-ab90-8081fa2ec6cc
+discoiquuid: 338e5eae-5f55-43d3-a7a9-e55e5ca3aa6f
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Leaderboard Feature
 seo-title: Leaderboard Feature
 description: Adding a Leaderboard component to a page
 seo-description: Adding a Leaderboard component to a page
-uuid: ebf053b1-9c0e-4e6c-89bd-c7bbef584a88
+uuid: ce888c43-42bd-4f1a-ba36-95c10238cf0d
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
-discoiquuid: 9ca57a3b-e39d-42f2-a8a7-fc696ce6d1b3
+discoiquuid: 20b00d44-5a27-4a15-a367-69ffce6ec4d3
 index: y
 internal: n
 snippet: y
@@ -24,7 +24,7 @@ Prior to including the leaderboard component on a page, it is necessary to confi
 
 This section of the documentation describes
 
-* adding the `Leaderboard` component to a [community site](../../communities/using/overview.md#communitysites)
+* adding the `Leaderboard` component to a [community site](../../communities/using/overview.md#community-sites)
 
 * configuration settings for the `Leaderboard` component
 

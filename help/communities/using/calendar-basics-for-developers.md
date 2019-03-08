@@ -3,12 +3,12 @@ title: Calendar Essentials
 seo-title: Calendar Essentials
 description: Calendar feature overview
 seo-description: Calendar feature overview
-uuid: e129c889-c55d-4eef-b96e-2d6b5bb0860a
+uuid: 4768f78a-62a0-4e0e-b74a-dd5b7c4529d3
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: a4809ef9-7123-4203-8e50-80232f5a61ae
+discoiquuid: 4e0b5189-dd6f-4c9d-bcd2-0e22bad4c2b1
 index: y
 internal: n
 snippet: y
@@ -27,11 +27,11 @@ This page provides essential information on working with the calendar feature.
    <td>social/calendar/components/hbs/calendar</td> 
   </tr>
   <tr>
-   <td> <a href="../../communities/using/scf.md#addorincludeacommunitiescomponent"><strong>includable</strong></a></td> 
+   <td> <a href="../../communities/using/scf.md#add-or-include-a-communities-component"><strong>includable</strong></a></td> 
    <td>No</td> 
   </tr>
   <tr>
-   <td> <a href="../../communities/using/client-customize.md#clientlibsforscf"><strong>clientllibs</strong></a></td> 
+   <td> <a href="../../communities/using/client-customize.md#clientlibs-for-scf"><strong>clientllibs</strong></a></td> 
    <td>cq.social.hbs.calendar</td> 
   </tr>
   <tr>
@@ -54,15 +54,15 @@ This page provides essential information on working with the calendar feature.
 
 ## Essentials for Server-Side {#essentials-for-server-side}
 
-* [Calendar APIs](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/calendar/client/api/package-summary)
+* [Calendar APIs](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/calendar/client/api/package-summary.md)
 
-* [Calendar Endpoints](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/calendar/client/endpoints/package-summary)
+* [Calendar Endpoints](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/calendar/client/endpoints/package-summary.md)
 
 * [Server-side Customizations](../../communities/using/server-customize.md)
 
 ### Calendar Function {#calendar-function}
 
-A community site structure that includes the [Calendar function](../../communities/using/functions.md#calendarfunction) will have a configured c `alendar`component. The Calendar function supports identifying a [privileged member user group](../../communities/using/users.md#privilegedmembersgroup).
+A community site structure that includes the [Calendar function](../../communities/using/functions.md#calendar-function) will have a configured c `alendar`component. The Calendar function supports identifying a [privileged member user group](../../communities/using/users.md#privileged-members-group).
 
 ### Accessing Calendar Posts (UGC) {#accessing-calendar-posts-ugc}
 

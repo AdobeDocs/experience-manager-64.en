@@ -3,10 +3,10 @@ title: Apply electronic signatures to a form using scribble signatures
 seo-title: Apply electronic signatures to a form using scribble signatures
 description: Signing forms using scribble
 seo-description: Signing forms using scribble
-uuid: 3d56f888-b2d5-452d-b990-8177775783f8
+uuid: 409e8d72-c3fa-443d-b5dc-248464c1dff1
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
-discoiquuid: d2078006-7435-4988-9868-67888aa131ca
+discoiquuid: 538495c3-28bc-4214-b9ba-311f2744352f
 index: y
 internal: n
 snippet: y

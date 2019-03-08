@@ -3,12 +3,12 @@ title: Signature Service Java API QuickStart(SOAP)
 seo-title: Signature Service Java API QuickStart(SOAP)
 description: null
 seo-description: null
-uuid: fd13e8c6-797e-4e7d-ae4b-5cdbd4364a1f
+uuid: 42e4f96d-34ea-490a-a834-039bbbad0713
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
-discoiquuid: df8aa145-d373-4445-86a4-8776c3406a5f
+discoiquuid: 3bd19c08-631e-4be0-82ee-9a3df224b77d
 index: y
 internal: n
 snippet: y
@@ -18,31 +18,31 @@ snippet: y
 
 Java API Quick Start(SOAP) is available for the Signature service:
 
-[Quick Start (SOAP mode): Adding a signature field to a PDF document using the Java API](signature-service-java-api-quick#quick_start_soap_mode_adding_a_signature_field_to_a_pdf_document_using_the_java_api)
+[Quick Start (SOAP mode): Adding a signature field to a PDF document using the Java API](signature-service-java-api-quick.md#quick_start_soap_mode_adding_a_signature_field_to_a_pdf_document_using_the_java_api)
 
-[Quick Start (SOAP mode): Retrieving signature field names using the Java API](signature-service-java-api-quick#quick_start_soap_mode_retrieving_signature_field_names_using_the_java_api)
+[Quick Start (SOAP mode): Retrieving signature field names using the Java API](signature-service-java-api-quick.md#quick_start_soap_mode_retrieving_signature_field_names_using_the_java_api)
 
-[Quick Start (SOAP mode): Modifying a signature field using the Java API](signature-service-java-api-quick#quick_start_soap_mode_modifying_a_signature_field_using_the_java_api)
+[Quick Start (SOAP mode): Modifying a signature field using the Java API](signature-service-java-api-quick.md#quick_start_soap_mode_modifying_a_signature_field_using_the_java_api)
 
-[Quick Start (SOAP mode): Digitally signing a PDF document using the Java API](signature-service-java-api-quick#quick_start_soap_mode_digitally_signing_a_pdf_document_using_the_java_api)
+[Quick Start (SOAP mode): Digitally signing a PDF document using the Java API](signature-service-java-api-quick.md#quick_start_soap_mode_digitally_signing_a_pdf_document_using_the_java_api)
 
-[Quick Start (SOAP mode): Digitally signing a XFA-based Form using the Java API](signature-service-java-api-quick#quick_start_soap_mode_digitally_signing_a_xfa_based_form_using_the_java_api)
+[Quick Start (SOAP mode): Digitally signing a XFA-based Form using the Java API](signature-service-java-api-quick.md#quick_start_soap_mode_digitally_signing_a_xfa_based_form_using_the_java_api)
 
-[Quick Start (SOAP mode): Certifying a PDF document using the Java API](signature-service-java-api-quick#quick_start_soap_mode_certifying_a_pdf_document_using_the_java_api)
+[Quick Start (SOAP mode): Certifying a PDF document using the Java API](signature-service-java-api-quick.md#quick_start_soap_mode_certifying_a_pdf_document_using_the_java_api)
 
-[Quick Start (SOAP mode): Verifying a digital signature using the Java API](signature-service-java-api-quick#quick_start_soap_mode_verifying_a_digital_signature_using_the_java_api)
+[Quick Start (SOAP mode): Verifying a digital signature using the Java API](signature-service-java-api-quick.md#quick_start_soap_mode_verifying_a_digital_signature_using_the_java_api)
 
-[Quick Start (SOAP mode): Verifying multiple digital signatures using the Java API](signature-service-java-api-quick#quick_start_soap_mode_verifying_multiple_digital_signatures_using_the_java_api)
+[Quick Start (SOAP mode): Verifying multiple digital signatures using the Java API](signature-service-java-api-quick.md#quick_start_soap_mode_verifying_multiple_digital_signatures_using_the_java_api)
 
-[Quick Start (SOAP mode): Removing a digital signature using the Java API](signature-service-java-api-quick#quick_start_soap_mode_removing_a_digital_signature_using_the_java_api)
+[Quick Start (SOAP mode): Removing a digital signature using the Java API](signature-service-java-api-quick.md#quick_start_soap_mode_removing_a_digital_signature_using_the_java_api)
 
 AEM Forms operations can be performed using the AEM Forms strongly-typed API and the connection mode should be set to SOAP.
 
-***Note**: Quick Start located in Programming with AEM Forms are based on the Forms server being deployed on JBoss Application Server and the Microsoft Windows operating system. However, if you are using another operating system, such as UNIX, replace Windows-specific paths with paths that are supported by the applicable operating system. Likewise, if you are using another J2EE application server, ensure that you specify valid connection properties. (See [Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties).)*
+***Note**: Quick Start located in Programming with AEM Forms are based on the Forms server being deployed on JBoss Application Server and the Microsoft Windows operating system. However, if you are using another operating system, such as UNIX, replace Windows-specific paths with paths that are supported by the applicable operating system. Likewise, if you are using another J2EE application server, ensure that you specify valid connection properties. (See [Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties).)*
 
 ## Quick Start (SOAP mode): Adding a signature field to a PDF document using the Java API {#quick-start-soap-mode-adding-a-signature-field-to-a-pdf-document-using-the-java-api}
 
-The following Java code example adds a signature field named *SignatureField1* to a PDF document that is based on a PDF file named*Loan.pdf*. The PDF document that contains the new signature field is saved as a PDF file named *LoanSig.pdf*. (See [Adding Signature Fields](/programming-with-aem-forms/digitally-signing-certifying-documents#adding_signature_fields).)
+The following Java code example adds a signature field named *SignatureField1* to a PDF document that is based on a PDF file named*Loan.pdf*. The PDF document that contains the new signature field is saved as a PDF file named *LoanSig.pdf*. (See [Adding Signature Fields](/programming-with-aem-forms/digitally-signing-certifying-documents.md#adding_signature_fields).)
 
 ```as3
  /* 
@@ -158,7 +158,7 @@ The following Java code example adds a signature field named *SignatureField1* t
 
 ## Quick Start (SOAP mode): Retrieving signature field names using the Java API {#quick-start-soap-mode-retrieving-signature-field-names-using-the-java-api}
 
-The following Java code example retrieves the names of signature fields located in a PDF document named *LoanSig.pdf*. (See [Retrieving Signature Field Names](/programming-with-aem-forms/digitally-signing-certifying-documents#retrieving_signature_field_names).)
+The following Java code example retrieves the names of signature fields located in a PDF document named *LoanSig.pdf*. (See [Retrieving Signature Field Names](/programming-with-aem-forms/digitally-signing-certifying-documents.md#retrieving_signature_field_names).)
 
 ```as3
  /* 
@@ -264,7 +264,7 @@ The following Java code example retrieves the names of signature fields located 
 
 ## Quick Start (SOAP mode): Modifying a signature field using the Java API {#quick-start-soap-mode-modifying-a-signature-field-using-the-java-api}
 
-The following Java code example modifies a signature field named SignatureField1 by locking all fields in the form when a signature is applied to the signature field and ensuring that no changes are allowed. After the Signature service returns the PDF document that contains the modified signature field, the PDF document is saved as a PDF file named LoanSig.pdf. (This example overwrites the PDF file that is passed to the Signature service.) (See [Modifying Signature Fields](/programming-with-aem-forms/digitally-signing-certifying-documents#modifying_signature_fields).)
+The following Java code example modifies a signature field named SignatureField1 by locking all fields in the form when a signature is applied to the signature field and ensuring that no changes are allowed. After the Signature service returns the PDF document that contains the modified signature field, the PDF document is saved as a PDF file named LoanSig.pdf. (This example overwrites the PDF file that is passed to the Signature service.) (See [Modifying Signature Fields](/programming-with-aem-forms/digitally-signing-certifying-documents.md#modifying_signature_fields).)
 
 ```as3
  /* 
@@ -392,7 +392,7 @@ The following Java code example modifies a signature field named SignatureField1
 
 ## Quick Start (SOAP mode): Digitally signing a PDF document using the Java API {#quick-start-soap-mode-digitally-signing-a-pdf-document-using-the-java-api}
 
-The following Java code example digitally signs a PDF document that is based on a PDF file named *LoanSig.pdf*. The alias that is specified for the security credential is secure, and revocation checking is performed. Because no CRL or OCSP server information is specified, the server information is obtained from the certificate used to digitally sign the PDF document. The signed document is saved as a PDF file named *LoanSigned.pdf*. (See [Digitally Signing PDF Documents](/programming-with-aem-forms/digitally-signing-certifying-documents#digitally_signing_pdf_documents).)
+The following Java code example digitally signs a PDF document that is based on a PDF file named *LoanSig.pdf*. The alias that is specified for the security credential is secure, and revocation checking is performed. Because no CRL or OCSP server information is specified, the server information is obtained from the certificate used to digitally sign the PDF document. The signed document is saved as a PDF file named *LoanSigned.pdf*. (See [Digitally Signing PDF Documents](/programming-with-aem-forms/digitally-signing-certifying-documents.md#digitally_signing_pdf_documents).)
 
 ```as3
  /* 
@@ -753,7 +753,7 @@ The following Java code example signs an interactive form that is rendered by th
 
 ## Quick Start (SOAP mode): Certifying a PDF document using the Java API {#quick-start-soap-mode-certifying-a-pdf-document-using-the-java-api}
 
-The following Java code example certifies a PDF document that is based on a PDF file named *LoanSig.pdf*. The alias that is specified for the security credential is secure, and revocation checking is not performed. The certified document is saved as a PDF file named *LoanCertified.pdf*. (See [Certifying PDF Documents](/programming-with-aem-forms/digitally-signing-certifying-documents#certifying_pdf_documents).)
+The following Java code example certifies a PDF document that is based on a PDF file named *LoanSig.pdf*. The alias that is specified for the security credential is secure, and revocation checking is not performed. The certified document is saved as a PDF file named *LoanCertified.pdf*. (See [Certifying PDF Documents](/programming-with-aem-forms/digitally-signing-certifying-documents.md#certifying_pdf_documents).)
 
 ```as3
  /* 
@@ -1228,7 +1228,7 @@ The following Java code example verifies multiple digital signatures that are lo
 
 ## Quick Start (SOAP mode): Removing a digital signature using the Java API {#quick-start-soap-mode-removing-a-digital-signature-using-the-java-api}
 
-The following Java code example removes a digital signature from a signature field named *SignatureField1*. The name of the PDF file that contain the signature field is *LoanSigned.pdf*. (See [Removing Digital Signatures](/programming-with-aem-forms/digitally-signing-certifying-documents#removing_digital_signatures).)
+The following Java code example removes a digital signature from a signature field named *SignatureField1*. The name of the PDF file that contain the signature field is *LoanSigned.pdf*. (See [Removing Digital Signatures](/programming-with-aem-forms/digitally-signing-certifying-documents.md#removing_digital_signatures).)
 
 ```as3
  /* 

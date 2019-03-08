@@ -3,11 +3,11 @@ title: Forms Repository Restructuring in AEM 6.4
 seo-title: Forms Repository Restructuring in AEM 6.4
 description: Learn how to make the necessary changes in order to migrate to the new repository structure in AEM 6.4 for Forms.
 seo-description: Learn how to make the necessary changes in order to migrate to the new repository structure in AEM 6.4 for Forms.
-uuid: e711a2ee-2492-4c5e-91ac-52fb058e538c
+uuid: d1e09c7d-842a-4ffb-bb92-6afb31efb9b8
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: repo_restructuring
-discoiquuid: 71e4d722-a93a-406c-be28-43f9369ac3b8
+discoiquuid: 743cd969-94f5-4572-abad-0c29eeef8af4
 index: y
 internal: n
 snippet: y
@@ -23,9 +23,9 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 
 **Prior to 6.5 Upgrade**
 
-* [Echosign Cloud Service Configuration](../../../sites/deploying/using/forms-repository-restructuring-in-aem-6-4.md#echosigncloudserviceconfiguration)
-* [Recaptcha Cloud Service Configurations](../../../sites/deploying/using/forms-repository-restructuring-in-aem-6-4.md#recaptchacloudserviceconfigurations)
-* [Typekit Cloud Service Configurations](../../../sites/deploying/using/forms-repository-restructuring-in-aem-6-4.md#typekitcloudserviceconfigurations)
+* [Echosign Cloud Service Configuration](../../../sites/deploying/using/forms-repository-restructuring-in-aem-6-4.md#echosign-cloud-service-configuration)
+* [Recaptcha Cloud Service Configurations](../../../sites/deploying/using/forms-repository-restructuring-in-aem-6-4.md#recaptcha-cloud-service-configurations)
+* [Typekit Cloud Service Configurations](../../../sites/deploying/using/forms-repository-restructuring-in-aem-6-4.md#typekit-cloud-service-configurations)
 * [Misc](../../../sites/deploying/using/forms-repository-restructuring-in-aem-6-4.md#misc)
 
 ## With 6.4 Upgrade {#with-upgrade}

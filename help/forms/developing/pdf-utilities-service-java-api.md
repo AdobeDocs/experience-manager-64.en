@@ -3,12 +3,12 @@ title: PDF Utilities Service Java APIQuick Start(SOAP)
 seo-title: PDF Utilities Service Java APIQuick Start(SOAP)
 description: null
 seo-description: null
-uuid: 7b527c79-d4f4-4abf-bb7b-135c01b8d770
+uuid: c6c759dc-6da5-4552-b355-88e921ae003f
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
-discoiquuid: f12fd112-5c0f-4300-9017-a8bd5e9f3b17
+discoiquuid: 2a4d9de3-7c56-41ce-a310-0af44f0c4e4a
 index: y
 internal: n
 snippet: y
@@ -18,23 +18,23 @@ snippet: y
 
 The following Quick Starts are available for the PDF Utilities service.
 
-[Quick Start (SOAP mode): Converting a PDF document to an XDP document using the Java API](pdf-utilities-service-java-api#quick_start_soap_mode_converting_a_pdf_document_to_an_xdp_document_using_the_java_api)
+[Quick Start (SOAP mode): Converting a PDF document to an XDP document using the Java API](pdf-utilities-service-java-api.md#quick_start_soap_mode_converting_a_pdf_document_to_an_xdp_document_using_the_java_api)
 
-[Quick Start (SOAP mode): Converting an XDP document to a PDF document using the Java API](pdf-utilities-service-java-api#quick_start_soap_mode_converting_an_xdp_document_to_a_pdf_document_using_the_java_api)
+[Quick Start (SOAP mode): Converting an XDP document to a PDF document using the Java API](pdf-utilities-service-java-api.md#quick_start_soap_mode_converting_an_xdp_document_to_a_pdf_document_using_the_java_api)
 
-[Quick Start (SOAP mode): Retrieving PDF document properties using the Java API](pdf-utilities-service-java-api#quick_start_soap_mode_retrieving_pdf_document_properties_using_the_java_api)
+[Quick Start (SOAP mode): Retrieving PDF document properties using the Java API](pdf-utilities-service-java-api.md#quick_start_soap_mode_retrieving_pdf_document_properties_using_the_java_api)
 
-[Quick Start (SOAP mode): Setting the save style for a PDF document using the Java API](pdf-utilities-service-java-api#quick_start_soap_mode_setting_the_save_style_for_a_pdf_document_using_the_java_api)
+[Quick Start (SOAP mode): Setting the save style for a PDF document using the Java API](pdf-utilities-service-java-api.md#quick_start_soap_mode_setting_the_save_style_for_a_pdf_document_using_the_java_api)
 
-[Quick Start (SOAP mode): Sanitizing PDF documents](pdf-utilities-service-java-api#quick_start_soap_mode_sanitizing_pdf_documents)
+[Quick Start (SOAP mode): Sanitizing PDF documents](pdf-utilities-service-java-api.md#quick_start_soap_mode_sanitizing_pdf_documents)
 
 AEM Forms operations can be performed using the AEM Forms strongly-typed API and the connection mode should be set to SOAP.
 
-***Note**: Quick Starts located in Programming with AEM forms are based on the Forms Server operating system. However, if you are using another operating system, such as UNIX, replace Windows-specific paths with paths that are supported by the applicable operating system. Likewise, if you are using another J2EE application server, ensure that you specify valid connection properties. (See [Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties).)*
+***Note**: Quick Starts located in Programming with AEM forms are based on the Forms Server operating system. However, if you are using another operating system, such as UNIX, replace Windows-specific paths with paths that are supported by the applicable operating system. Likewise, if you are using another J2EE application server, ensure that you specify valid connection properties. (See [Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties).)*
 
 ## Quick Start (SOAP mode): Converting a PDF document to an XDP document using the Java API {#quick-start-soap-mode-converting-a-pdf-document-to-an-xdp-document-using-the-java-api}
 
-The following code example converts a PDF document to an XDP document. (See [Converting PDF Documents into XDP Documents](/programming-with-aem-forms/pdf-utilities#converting_pdf_documents_into_xdp_documents).
+The following code example converts a PDF document to an XDP document. (See [Converting PDF Documents into XDP Documents](/programming-with-aem-forms/pdf-utilities.md#converting_pdf_documents_into_xdp_documents).
 
 ```as3
  /* 
@@ -135,7 +135,7 @@ The following code example converts a PDF document to an XDP document. (See [Con
 
 ## Quick Start (SOAP mode): Converting an XDP document to a PDF document using the Java API {#quick-start-soap-mode-converting-an-xdp-document-to-a-pdf-document-using-the-java-api}
 
-The following code example converts an XDP document to a PDF document. (See [Converting XDP Documents into PDF Documents](/programming-with-aem-forms/pdf-utilities#converting_xdp_documents_into_pdf_documents).)
+The following code example converts an XDP document to a PDF document. (See [Converting XDP Documents into PDF Documents](/programming-with-aem-forms/pdf-utilities.md#converting_xdp_documents_into_pdf_documents).)
 
 ```as3
  /* 
@@ -235,7 +235,7 @@ The following code example converts an XDP document to a PDF document. (See [Con
 
 ## Quick Start (SOAP mode): Retrieving PDF document properties using the Java API {#quick-start-soap-mode-retrieving-pdf-document-properties-using-the-java-api}
 
-The following code example determines whether the document is a PDF document and, if so, the earliest Acrobat version able to read it. (See [Retrieving PDF Document Properties](/programming-with-aem-forms/pdf-utilities#retrieving_pdf_document_properties).)
+The following code example determines whether the document is a PDF document and, if so, the earliest Acrobat version able to read it. (See [Retrieving PDF Document Properties](/programming-with-aem-forms/pdf-utilities.md#retrieving_pdf_document_properties).)
 
 ```as3
  /* 
@@ -352,7 +352,7 @@ The following code example determines whether the document is a PDF document and
 
 ## Quick Start (SOAP mode): Setting the save style for a PDF document using the Java API {#quick-start-soap-mode-setting-the-save-style-for-a-pdf-document-using-the-java-api}
 
-The following code example sets the save mode for fast web viewing and then passes the PDF document to the Encryption service where it is encrypted. The encrypted PDF document that is saved for fast web viewing is saved as a PDF file named* FastWebViewLoan.pdf*. (See [Setting PDF Document Save Modes](/programming-with-aem-forms/pdf-utilities#setting_pdf_document_save_modes).)
+The following code example sets the save mode for fast web viewing and then passes the PDF document to the Encryption service where it is encrypted. The encrypted PDF document that is saved for fast web viewing is saved as a PDF file named* FastWebViewLoan.pdf*. (See [Setting PDF Document Save Modes](/programming-with-aem-forms/pdf-utilities.md#setting_pdf_document_save_modes).)
 
 ```as3
  /* 
@@ -492,7 +492,7 @@ The following code example sets the save mode for fast web viewing and then pass
 
 ## Quick Start (SOAP mode): Converting a document to a PDF/A-2b document using the Java API {#quick-start-soap-mode-converting-a-document-to-a-pdf-a-2b-document-using-the-java-api}
 
-The following Java code example converts a PDF document named *Loan.pdf* to a PDF/A-2b document that is saved as a PDF file named *LoanArchive.pdf*. (See [Converting Documents to PDF/A Documents](/programming-with-aem-forms/pdf-a-documents#converting_documents_to_pdf_a_documents).)
+The following Java code example converts a PDF document named *Loan.pdf* to a PDF/A-2b document that is saved as a PDF file named *LoanArchive.pdf*. (See [Converting Documents to PDF/A Documents](/programming-with-aem-forms/pdf-a-documents.md#converting_documents_to_pdf_a_documents).)
 
 ```as3
 /* 

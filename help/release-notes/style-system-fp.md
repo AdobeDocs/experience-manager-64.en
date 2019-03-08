@@ -4,9 +4,9 @@ seo-title: Style System
 description: null
 seo-description: null
 page-status-flag: de-activated
-uuid: a0b81a38-abfb-42c0-aa47-f0db03d78225
+uuid: 45543205-9d5f-47f8-82f0-2894c6077586
 contentOwner: bohnert
-discoiquuid: a54b2119-4467-466f-8d4e-f165f014bcdb
+discoiquuid: 6ca8ec59-0c74-4d77-8d8b-069cd997f809
 index: y
 internal: n
 snippet: y
@@ -66,13 +66,13 @@ To demonstrate the feature, styles need to be created for a component. Using [We
 Style system demo package
 
 [Get File](assets/package_-_style_systemdemo.zip)
-The following sections [As a Content Author](../release-notes/style-system-fp.md#as-a-content-author) and [As a Template Author](/content#main-pars_header_1183415855) describe how to test the functionality of the style system using the style system demo package on top of We.Retail.
+The following sections [As a Content Author](../release-notes/style-system-fp.md#as-a-content-author) and [As a Template Author](/content.md#main-pars_header_1183415855) describe how to test the functionality of the style system using the style system demo package on top of We.Retail.
 
 If you wish to use the style system for your own components follow these steps:
 
-1. Install the CSS as client libraries as discussed in the section [Overview](/content#main-pars_header_364726274).
-1. Configure the CSS classes that you wish to make available to your content authors as described in the section [As a Template Author](/content#main-pars_header_1183415855).
-1. Content authors can then use the styles as described in the section [As a Content Author](/content#main-pars_header_1976461423).
+1. Install the CSS as client libraries as discussed in the section [Overview](/content.md#main-pars_header_364726274).
+1. Configure the CSS classes that you wish to make available to your content authors as described in the section [As a Template Author](/content.md#main-pars_header_1183415855).
+1. Content authors can then use the styles as described in the section [As a Content Author](/content.md#main-pars_header_1976461423).
 
 ### As a Content Author {#as-a-content-author}
 

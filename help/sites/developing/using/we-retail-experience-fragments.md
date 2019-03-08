@@ -3,12 +3,12 @@ title: Trying out Experience Fragments in We.Retail
 seo-title: Trying out Experience Fragments in We.Retail
 description: Trying out Experience Fragments in We.Retail
 seo-description: Trying out Experience Fragments in We.Retail
-uuid: c1a75766-db7a-4cbb-88a6-179af7a18234
+uuid: 6ed1c20a-89cc-4e08-ad03-4cbb9707dab9
 contentOwner: aheimoz
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
-discoiquuid: cbb01df2-99e8-445b-87ff-dc066769120b
+discoiquuid: 1a247ca3-3b09-4018-bf44-da5580f150ab
 index: y
 internal: n
 snippet: y
@@ -35,7 +35,7 @@ This supports the headless Content Management System (CMS) use-case, where autho
 
 ### Where to Create Experience Fragments in We.Retail {#where-to-create-experience-fragments-in-we-retail}
 
-Select **Experience Fragments** from the Global Navigation. Here you configure, [create](../../../sites/authoring/using/experience-fragments.md#creatinganexperiencefragment) and [author](../../../sites/authoring/using/experience-fragments.md#authoringyourexperiencefragment) your Experience Fragments, and any related [variations](../../../sites/authoring/using/experience-fragments.md#creatingexperiencefragmentsvariants).
+Select **Experience Fragments** from the Global Navigation. Here you configure, [create](../../../sites/authoring/using/experience-fragments.md#creating-an-experience-fragment) and [author](../../../sites/authoring/using/experience-fragments.md#authoringyourexperiencefragment) your Experience Fragments, and any related [variations](../../../sites/authoring/using/experience-fragments.md#creatingexperiencefragmentsvariants).
 
 ### Where to Use Experience Fragments in We.Retail {#where-to-use-experience-fragments-in-we-retail}
 

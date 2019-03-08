@@ -3,12 +3,12 @@ title: Translating User Generated Content
 seo-title: Translating User Generated Content
 description: How the translation feature works
 seo-description: How the translation feature works
-uuid: 15c2fc04-4d9e-4519-861b-3ff000bd87a2
+uuid: fc826e03-578f-40a4-85ed-5705f3446d56
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 177e56cc-0ba0-4dfb-aac9-3bd37e05d261
+discoiquuid: 1a8092c3-93a1-4abe-baa9-ddb26eff6eab
 index: y
 internal: n
 snippet: y
@@ -34,11 +34,11 @@ This seciton of the documentation specifically discusses how the translation ser
 
 When a translation service provider is associated with the site, each language copy of the site maintains its own threads of UGC posted through SCF components such as comments.
 
-When a translation integration framework is configured in addition to the translation service provider, it is possible for each language copy of the site to share a single thread of UGC, thus providing global communication across language copies. Instead of a discussion thread segregated by language, the configured [global shared store](#globaltranslationofugc) enables the entire thread to be visible regardless from which language copy it is being viewed. Further, multiple translation integration configurations can be configured specifying different global shared stores for a logical grouping of global participants, such as by regions.
+When a translation integration framework is configured in addition to the translation service provider, it is possible for each language copy of the site to share a single thread of UGC, thus providing global communication across language copies. Instead of a discussion thread segregated by language, the configured [global shared store](#global-translation-of-ugc) enables the entire thread to be visible regardless from which language copy it is being viewed. Further, multiple translation integration configurations can be configured specifying different global shared stores for a logical grouping of global participants, such as by regions.
 
 ## The Default Translation Service {#the-default-translation-service}
 
-AEM Communities ships with a [trial license](../../sites/administering/using/tc-msconf.md#microsofttranslatortriallicense) for a [default translation service](../../sites/administering/using/tc-msconf.md) enabled for several languages.
+AEM Communities ships with a [trial license](../../sites/administering/using/tc-msconf.md#microsoft-translator-trial-license) for a [default translation service](../../sites/administering/using/tc-msconf.md) enabled for several languages.
 
 When [creating a community site](../../communities/using/sites-console.md), the default translation service is enabled when `Allow Machine Translation` is checked from the [TRANSLATION](../../communities/using/sites-console.md#translation) sub-panel.
 
@@ -46,7 +46,7 @@ When [creating a community site](../../communities/using/sites-console.md), the 
 >
 >The default translation service is for demonstration only.
 >
->For a production system, a licensed translation service is required. If not licensed, the default translation service should be [turned off](../../sites/administering/using/tc-msconf.md#turningofftranslation).
+>For a production system, a licensed translation service is required. If not licensed, the default translation service should be [turned off](../../sites/administering/using/tc-msconf.md#turning-off-translation).
 
 ## Global Translation of UGC {#global-translation-of-ugc}
 
@@ -105,7 +105,7 @@ To create a new Translation Integration, which integrates a Translation Service 
 
 ![](assets/chlimage_1-68.png)
 
-For detailed instructions visit [Creating a Translation Integration Configuration](../../sites/administering/using/tc-tic.md#creatingatranslationintegrationconfiguration)
+For detailed instructions visit [Creating a Translation Integration Configuration](../../sites/administering/using/tc-tic.md#creating-a-translation-integration-configuration)
 
 * **Sites** tab : can leave as defaults
 * **Communities** tab :

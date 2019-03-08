@@ -3,12 +3,12 @@ title: Managing Video Assets
 seo-title: Managing Video Assets
 description: Learn how to upload, preview, annotate, and publish video assets.
 seo-description: Learn how to upload, preview, annotate, and publish video assets.
-uuid: 9076e3ba-54f3-4a24-97c9-979cb2d0a2f6
+uuid: 27f538b1-34f4-48fb-bbfb-25e261a64fa3
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference
-discoiquuid: e4791e24-2cd6-47a2-aaaf-a4e7f2a1bfb3
+discoiquuid: 817ff97c-09c6-4925-b2a3-615ba685e791
 index: y
 internal: n
 snippet: y
@@ -29,7 +29,7 @@ This section describes how to manage and edit video assets.
 Adobe Experience Manager Assets generates previews for video assets with the extension **.mp4**. If the format of the asset is not **mp4**, install the FFmpeg pack to generate a preview. See [FFmpeg installation instructions](../../sites/authoring/using/default-components-foundation.md#video). FFmpeg creates video renditions of type **ogg** and **mp4**. You can preview these renditions in the Adobe Experience Manager Assets user interface.
 
 1. In the Digital Assets folder (or sub-folders), navigate to the location where you want to add digital assets.
-1. To upload the asset, click or tap **Create** from the toolbar and then choose **Files**. Alternatively, drop it directly in the assets area. See [Uploading assets](../../assets/using/managing-assets-touch-ui.md#uploadingassets) for details around the upload operation.
+1. To upload the asset, click or tap **Create** from the toolbar and then choose **Files**. Alternatively, drop it directly in the assets area. See [Uploading assets](../../assets/using/managing-assets-touch-ui.md#uploading-assets) for details around the upload operation.
 1. To preview a video in the Card view, click the **Play** button on the video asset.
 
    ![](assets/chlimage_1-201.png)

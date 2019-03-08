@@ -3,12 +3,12 @@ title: Community Groups Console
 seo-title: Community Groups Console
 description: Groups console lets you create Community groups
 seo-description: Groups console lets you create Community groups
-uuid: 55792521-35e0-4de6-b0ea-65d26a4d292a
+uuid: 438e7b4a-875e-4604-be71-4f6f6f37e172
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 42137f2d-c751-41fa-a5f7-643a8f745672
+discoiquuid: 9dd02a7a-1a15-45da-860e-22199e09a5b2
 pagetitle: Community Groups Console
 index: y
 internal: n
@@ -17,7 +17,7 @@ snippet: y
 
 # Community Groups Console{#community-groups-console}
 
-The Groups console provides access to creating community groups when a community site's [template structure](../../communities/using/sites-console.md#step1) includes the [groups function](../../communities/using/functions.md#groupsfunction).
+The Groups console provides access to creating community groups when a community site's [template structure](../../communities/using/sites-console.md#step1) includes the [groups function](../../communities/using/functions.md#groups-function).
 
 * Groups may be nested within other groups. This happens when the [structure of the new group](../../communities/using/tools-groups.md) contains the groups function.
 * For the author environment only, there is a group creation wizard similar to the site creation wizard.
@@ -33,13 +33,13 @@ Several facets of community groups are :
 
 >[!NOTE]
 >
->Community groups, created in the publish environment prior to the [existence of the Community Groups console](/communities/using/version-history#FeaturePack1FP1), will not be listed in the Community Groups console, and thus, are not modifiable using the console.
+>Community groups, created in the publish environment prior to the [existence of the Community Groups console](/communities/using/version-history.md#featurepack1fp1), will not be listed in the Community Groups console, and thus, are not modifiable using the console.
 
 >[!NOTE]
 >
 >This Groups console, only accessible from the Communities Sites console, is not to be confused with the member [Groups console](../../communities/using/members.md) for managing member groups. 
 >
->Member groups are user groups registered in the publish environment and accessed from the author environment using the [tunnel service](../../communities/using/deploy-communities.md#tunnelserviceonauthor).
+>Member groups are user groups registered in the publish environment and accessed from the author environment using the [tunnel service](../../communities/using/deploy-communities.md#tunnel-service-on-author).
 
 ## Group Creation {#group-creation}
 
@@ -99,7 +99,7 @@ When selected, the theme will be overlayed with an opaque blue checkmark.
 
 It is possible to select a theme which differs from the parent site's theme.
 
-After the community site is published, it is possible to [edit the properties](#modifyinggroupproperties) and select a different theme.
+After the community site is published, it is possible to [edit the properties](#modifying-group-properties) and select a different theme.
 
 #### COMMUNITY GROUP BRANDING {#community-group-branding}
 
@@ -184,7 +184,7 @@ The properties of an exisitng sub-community site, specified during the community
 
 ![](assets/chlimage_1-142.png)
 
-Details of the following properties match the descriptions provided in the [Group Creation](#groupcreation) section. Any nested group may be modified, whether created in the publish environment or author environment.
+Details of the following properties match the descriptions provided in the [Group Creation](#group-creation) section. Any nested group may be modified, whether created in the publish environment or author environment.
 
 ![](assets/chlimage_1-143.png)
 
@@ -199,7 +199,7 @@ The Community Group Name may not be modified.
 
 Choosing a different community group template would have no affect on an existing community group site as no connection remains between templates and sites.
 
-Instead, the [STRUCTURE](#modifystructure) of the sub-community may be modified.
+Instead, the [STRUCTURE](#modify-structure) of the sub-community may be modified.
 
 ### Modify Structure {#modify-structure}
 
@@ -228,7 +228,7 @@ The STRUCTURE panel allows the modification of the structure initially created f
 >
 >The groups function must *not *be the *first nor the only* function in the site structure.
 >
->Any other function, such as the [page function](../../communities/using/functions.md#pagefunction), must be included and listed first.
+>Any other function, such as the [page function](../../communities/using/functions.md#page-function), must be included and listed first.
 
 #### Example: Adding a Calendar Function to a Sub-Community (Group) Structure {#example-adding-a-calendar-function-to-a-sub-community-group-structure}
 
@@ -238,8 +238,8 @@ The STRUCTURE panel allows the modification of the structure initially created f
 
 The DESIGN panel allows the modification of the theme :
 
-* [Community Group Theme](#communitygrouptheme)
-* [Community Group Branding](#communitygroupbranding)
+* [Community Group Theme](#community-group-theme)
+* [Community Group Branding](#community-group-branding)
 
     * scroll to the bottom of the panel to change the brand image
 

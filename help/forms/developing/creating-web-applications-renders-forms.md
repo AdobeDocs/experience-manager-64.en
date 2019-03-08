@@ -3,13 +3,13 @@ title: Creating Web Applications thatRenders Forms
 seo-title: Creating Web Applications thatRenders Forms
 description: null
 seo-description: null
-uuid: 562136d9-9307-4cc8-9ffd-5ecac1c5cf8e
+uuid: a201688a-cfbc-4d0b-b50b-61bdc7abf906
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/rendering_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: f0f364be-ffff-4627-aa84-43221b5cae05
+discoiquuid: b7b17868-c3f2-43b5-a803-d5f8a1857200
 index: y
 internal: n
 snippet: y
@@ -23,7 +23,7 @@ You can create a web-based application that uses Java servlets to invoke the For
 
 >[!NOTE]
 >
->This section describes how to create a web-based application that uses a Java servlet that invokes the Forms service and renders forms-based on fragments. (See [Rendering Forms Based on Fragments](/programming-with-aem-forms/rendering-forms-rendering-forms rendering-forms-based-fragments-rendering#rendering_forms_based_on_fragments).)
+>This section describes how to create a web-based application that uses a Java servlet that invokes the Forms service and renders forms-based on fragments. (See [Rendering Forms Based on Fragments](/programming-with-aem-forms/rendering-forms-rendering-forms rendering-forms-based-fragments-rendering.md#rendering_forms_based_on_fragments).)
 
 Using a Java servlet, you can write a form to a client web browser so that a customer can view and enter data into the form. After populating the form with data, the web user clicks a submit button located on the form to send information back to the Java servlet, where the data can be retrieved and processed. For example, the data can be sent to another process.
 
@@ -117,7 +117,7 @@ For the location of these JAR files, see [Including AEM Forms Java library files
 
 >[!NOTE]
 >
->For information about creating the HTML page that invokes the `RenderFormFragment` Java servlet, see [Creating the web page](/programming-with-aem-forms/rendering-forms-rendering-forms creating-web-applications-renders-forms creating-web-applications-renders-forms#creating_the_web_page).
+>For information about creating the HTML page that invokes the `RenderFormFragment` Java servlet, see [Creating the web page](/programming-with-aem-forms/rendering-forms-rendering-forms creating-web-applications-renders-forms creating-web-applications-renders-forms.md#creating_the_web_page).
 
 ### Creating Java application logic for the servlet {#creating-java-application-logic-for-the-servlet}
 
@@ -327,7 +327,7 @@ The Java servlet captures the data that is posted from the HTML page by using th
              }
 ```
 
-The following HTML code is located in the index.html file that was created during setup of the development environment. (See [Creating a web project](/programming-with-aem-forms/rendering-forms-rendering-forms creating-web-applications-renders-forms creating-web-applications-renders-forms#creating_a_web_project).)
+The following HTML code is located in the index.html file that was created during setup of the development environment. (See [Creating a web project](/programming-with-aem-forms/rendering-forms-rendering-forms creating-web-applications-renders-forms creating-web-applications-renders-forms.md#creating_a_web_project).)
 
 ```as3
  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 

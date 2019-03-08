@@ -3,12 +3,12 @@ title: Reports Console
 seo-title: Reports Console
 description: Learn how to access reports
 seo-description: Learn how to access reports
-uuid: 89507623-2345-47cf-b889-8ec4c3a2ba86
+uuid: 52c59c92-a017-4906-80ce-2c135ae90028
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 3cbecbba-3635-4d0c-bcc0-558a70a80880
+discoiquuid: 2be84127-52a2-4826-949c-2a0404fe8ad2
 index: y
 internal: n
 snippet: y
@@ -22,10 +22,10 @@ For AEM Communities, there are various reports that may be accessed in several w
 
 In general, the various reports are :
 
-* [Assignments Report](#assignmentsreport) - for an [enablement community](../../communities/using/overview.md#enablementcommunity), provides an overview of learners' progress on their assignments, including an associated score if implementing the SCORM standard
+* [Assignments Report](#assignments-report) - for an [enablement community](../../communities/using/overview.md#enablement-community), provides an overview of learners' progress on their assignments, including an associated score if implementing the SCORM standard
 
-* [Views Report](#viewsreport) - provides a chart of views of content by community members and site visitors for any community site
-* [Posts Report](#postsreport) - provides a chart of various types of posts by community members to any community site
+* [Views Report](#views-report) - provides a chart of views of content by community members and site visitors for any community site
+* [Posts Report](#posts-report) - provides a chart of various types of posts by community members to any community site
 
 When [Adobe Analytics is enabled](../../communities/using/sites-console.md#analytics), reports will include the number of views, plays, comments and ratings for each enablement resource over time
 

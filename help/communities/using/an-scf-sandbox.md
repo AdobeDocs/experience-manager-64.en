@@ -3,12 +3,12 @@ title: Create An SCF Sandbox
 seo-title: Create An SCF Sandbox
 description: This tutorial is primarily for developers, new to AEM, who are interested in using SCF components.  It walks through the creation of An SCF Sandbox site
 seo-description: This tutorial is primarily for developers, new to AEM, who are interested in using SCF components.  It walks through the creation of An SCF Sandbox site
-uuid: 5161ce0e-bebd-4cde-b9e8-e06e7141f88a
+uuid: 3fe85c23-68a9-403e-b012-0bfe226528d5
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 08798fbe-8540-4a29-b921-f6764ddc340e
+discoiquuid: d4fdf36f-92dd-403d-98b2-415e10c15be6
 index: y
 internal: n
 snippet: y
@@ -43,11 +43,11 @@ The steps in this tutorial are:
 
 ### Prerequisites {#prerequisites}
 
-This tutorial assumes you have one AEM author and one AEM publish instance installed that has the [latest release](../../communities/using/deploy-communities.md#latestreleases) of Communities.
+This tutorial assumes you have one AEM author and one AEM publish instance installed that has the [latest release](../../communities/using/deploy-communities.md#latest-releases) of Communities.
 
 Following are some helpful links for developers new to the AEM platform :
 
-* [Getting Started](../../sites/deploying/using/deploy.md#gettingstarted) - for deploying AEM instances
+* [Getting Started](../../sites/deploying/using/deploy.md#getting-started) - for deploying AEM instances
 
     * [The Basics](../../sites/developing/using/the-basics.md) - for developers of websites and features
     * [First Steps for Authors](../../sites/authoring/using/first-steps.md) - for authoring page content

@@ -3,12 +3,12 @@ title: Programmatically Disassembling PDF Documents
 seo-title: Programmatically Disassembling PDF Documents
 description: null
 seo-description: null
-uuid: b887066d-2244-49ed-9974-83ca1108abf1
+uuid: 1a3c0a47-f51b-4cb8-9da2-fdc383c66b8d
 content-type: reference
 geptopics: SG_AEMFORMS/categories/assembling_pdf_documents
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: ba518e0c-95e8-4a4e-84b8-57746268eae0
+discoiquuid: 095ecafa-a975-4ca5-81d0-81ba2cbd60d4
 index: y
 internal: n
 snippet: y
@@ -37,7 +37,7 @@ For the purpose of this discussion, assume the following DDX document is used.
 
 >[!NOTE]
 >
->Before reading this section, it is recommended that you be familiar with assembling PDF documents by using the Assembler service. (See [Programmatically Assembling PDF Documents](/programming-with-aem-forms/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically#programmatically_assembling_pdf_documents).)
+>Before reading this section, it is recommended that you be familiar with assembling PDF documents by using the Assembler service. (See [Programmatically Assembling PDF Documents](/programming-with-aem-forms/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically.md#programmatically_assembling_pdf_documents).)
 
 >[!NOTE]
 >
@@ -103,15 +103,15 @@ All disassembled PDF documents are returned within a collection object. Iterate 
 
 **See also**
 
-[Disassemble a PDF document using the Java API](/programming-with-aem-forms/programmatically-disassembling-pdf-documents-programmatically disassemble-pdf-document-using-java#disassemble_a_pdf_document_using_the_java_api)
+[Disassemble a PDF document using the Java API](/programming-with-aem-forms/programmatically-disassembling-pdf-documents-programmatically disassemble-pdf-document-using-java.md#disassemble_a_pdf_document_using_the_java_api)
 
-[Disassemble a PDF document using the web service API](/programming-with-aem-forms/programmatically-disassembling-pdf-documents-programmatically disassemble-pdf-document-using-web#disassemble_a_pdf_document_using_the_web_service_api)
+[Disassemble a PDF document using the web service API](/programming-with-aem-forms/programmatically-disassembling-pdf-documents-programmatically disassemble-pdf-document-using-web.md#disassemble_a_pdf_document_using_the_web_service_api)
 
 [Including AEM Forms Java library files](#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
 
 [Setting connection properties](#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2)
 
-[Programmatically Assembling PDF Documents](/programming-with-aem-forms/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically#programmatically_assembling_pdf_documents)
+[Programmatically Assembling PDF Documents](/programming-with-aem-forms/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically.md#programmatically_assembling_pdf_documents)
 
 ## Disassemble a PDF document using the Java API {#disassemble-a-pdf-document-using-the-java-api}
 
@@ -166,7 +166,7 @@ Disassemble a PDF document by using the Assembler Service API (Java):
 
 **See also**
 
-[Programmatically Disassembling PDF Documents](programmatically-disassembling-pdf-documents-programmatically#programmatically_disassembling_pdf_documents)
+[Programmatically Disassembling PDF Documents](programmatically-disassembling-pdf-documents-programmatically.md#programmatically_disassembling_pdf_documents)
 
 [Quick Start (SOAP mode): Disassembling a PDF document using the Java API](#unresolvedlink-lc-qs-assembler-as.xml#ws624e3cba99b79e12e69a9941333732bac8-7fb2.2)
 
@@ -245,7 +245,7 @@ Disassemble a PDF document by using the Assembler Service API (web service):
 
 **See also**
 
-[Programmatically Disassembling PDF Documents](programmatically-disassembling-pdf-documents-programmatically#programmatically_disassembling_pdf_documents)
+[Programmatically Disassembling PDF Documents](programmatically-disassembling-pdf-documents-programmatically.md#programmatically_disassembling_pdf_documents)
 
 [Quick Start (MTOM): Disassembling a PDF document using the web service API](#unresolvedlink-lc-qs-assembler-as.xml#ws624e3cba99b79e12e69a9941333732bac8-7fb1.2)
 

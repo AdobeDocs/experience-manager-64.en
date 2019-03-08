@@ -3,12 +3,12 @@ title: Overview of Forms workflow
 seo-title: Overview of Forms workflow
 description: Forms workflow lets users design, manage, and optimize human-centric processes. Using forms workflow, users can also manage automated business-process applications that connect systems and people.
 seo-description: Forms workflow lets users design, manage, and optimize human-centric processes. Using forms workflow, users can also manage automated business-process applications that connect systems and people.
-uuid: db4aa748-9f43-40b9-af2a-cdf9815d0499
+uuid: 304f4c33-d107-4b3f-9f58-43091df60043
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_forms_workflow
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: a3f84031-2503-4425-8c14-773decbc3ab8
+discoiquuid: e31aba18-9f01-4e84-985a-9e60c20d13ac
 index: y
 internal: n
 snippet: y

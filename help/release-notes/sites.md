@@ -3,12 +3,12 @@ title: AEM Sites Release Notes
 seo-title: AEM Sites
 description: Release notes specific to Adobe Experience Manager 6.4 Sites.
 seo-description: Release notes specific to Adobe Experience Manager 6.4 Sites.
-uuid: 79e6ccaa-ec19-48e9-9992-326b90b8beee
+uuid: 42637bb4-5997-4afb-bf96-beb1236c3b6b
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4
 topic-tags: release-notes
 content-type: reference
-discoiquuid: 236d9aca-e710-4342-98f2-a5a155272b46
+discoiquuid: b99c2534-406c-4ef3-898b-e552f4807496
 index: y
 internal: n
 snippet: y

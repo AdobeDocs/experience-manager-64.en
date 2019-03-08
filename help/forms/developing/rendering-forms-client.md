@@ -3,13 +3,13 @@ title: Rendering Forms at the Client
 seo-title: Rendering Forms at the Client
 description: null
 seo-description: null
-uuid: 3ae792b4-33a0-4483-bae5-6bd9b11a6f8b
+uuid: 5b2f9b61-5aca-409c-a810-19ebb27d335b
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/rendering_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: 531e7a99-1489-46b3-90e3-5fbc997488db
+discoiquuid: d2932bf3-8d41-46d5-8b8e-9b67aaf125d0
 index: y
 internal: n
 snippet: y
@@ -71,9 +71,9 @@ The Forms service creates a form data stream that you must write to the client w
 
 **See also**
 
-[Render a form at the client using the Java API](/programming-with-aem-forms/rendering-forms-rendering-forms rendering-forms-client-rendering-forms rendering-forms-client-rendering-forms#render_a_form_at_the_client_using_the_java_api)
+[Render a form at the client using the Java API](/programming-with-aem-forms/rendering-forms-rendering-forms rendering-forms-client-rendering-forms rendering-forms-client-rendering-forms.md#render_a_form_at_the_client_using_the_java_api)
 
-[Render a form at the client using the web service API](/programming-with-aem-forms/rendering-forms-rendering-forms rendering-forms-client-rendering-forms rendering-forms-client-rendering-forms#render_a_form_at_the_client_using_the_web_service_api)
+[Render a form at the client using the web service API](/programming-with-aem-forms/rendering-forms-rendering-forms rendering-forms-client-rendering-forms rendering-forms-client-rendering-forms.md#render_a_form_at_the_client_using_the_web_service_api)
 
 [Including AEM Forms Java library files](#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
 
@@ -81,9 +81,9 @@ The Forms service creates a form data stream that you must write to the client w
 
 [Forms Service API Quick Starts](#unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7af6.2)
 
-[Passing Documents to the Forms Service](/programming-with-aem-forms/rendering-forms-rendering-forms passing-documents-forms-service-passing#passing_documents_to_the_forms_service)
+[Passing Documents to the Forms Service](/programming-with-aem-forms/rendering-forms-rendering-forms passing-documents-forms-service-passing.md#passing_documents_to_the_forms_service)
 
-[Creating Web Applications that Renders Forms](/programming-with-aem-forms/rendering-forms-rendering-forms creating-web-applications-renders-forms#creating_web_applications_that_renders_forms)
+[Creating Web Applications that Renders Forms](/programming-with-aem-forms/rendering-forms-rendering-forms creating-web-applications-renders-forms.md#creating_web_applications_that_renders_forms)
 
 ### Render a form at the client using the Java API {#render-a-form-at-the-client-using-the-java-api}
 
@@ -127,7 +127,7 @@ Render a form at the client by using the Forms API (Java):
 
 **See also**
 
-[Rendering Forms at the Client](/programming-with-aem-forms/rendering-forms-rendering-forms rendering-forms-client-rendering-forms#rendering_forms_at_the_client)
+[Rendering Forms at the Client](/programming-with-aem-forms/rendering-forms-rendering-forms rendering-forms-client-rendering-forms.md#rendering_forms_at_the_client)
 
 [Quick Start (SOAP mode): Rendering a form at the client using the Java API](#unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7e41.2)
 
@@ -158,7 +158,7 @@ Render a form at the client by using the Forms API (web service):
    Invoke the `FormsService` object’s `renderPDFForm` method and pass the following values:
 
     * A string value that specifies the form design name, including the file name extension. If you reference a form design that is part of a Forms application, ensure that you specify the complete path, such as `Applications/FormsApplication/1.0/FormsFolder/Loan.xdp`.
-    * A `BLOB` object that contains data to merge with the form. If you do not want to merge data, pass `null`. (See [Prepopulating Forms with Flowable Layouts](/programming-with-aem-forms/rendering-forms-rendering-forms prepopulating-forms-flowable-layouts-prepopulating#prepopulating_forms_with_flowable_layouts).)
+    * A `BLOB` object that contains data to merge with the form. If you do not want to merge data, pass `null`. (See [Prepopulating Forms with Flowable Layouts](/programming-with-aem-forms/rendering-forms-rendering-forms prepopulating-forms-flowable-layouts-prepopulating.md#prepopulating_forms_with_flowable_layouts).)
     * A `PDFFormRenderSpec` object that stores run-time options required to render a form at the client. 
     * A `URLSpec` object that contains URI values that are required by the Forms service. (See [Specify URI values](#unresolvedlink-lc-re-render-interactive-forms-ri.xml#ws624e3cba99b79e12e69a9941333732bac8-7a96.2).) 
     * A `java.util.HashMap` object that stores file attachments. This is an optional parameter and you can specify `null` if you do not want to attach files to the form. (See [Attach files to the form](#unresolvedlink-lc-re-render-interactive-forms-ri.xml#ws624e3cba99b79e12e69a9941333732bac8-7a95.2).)
@@ -181,7 +181,7 @@ Render a form at the client by using the Forms API (web service):
 
 **See also**
 
-[Rendering Forms at the Client](/programming-with-aem-forms/rendering-forms-rendering-forms rendering-forms-client-rendering-forms#rendering_forms_at_the_client)
+[Rendering Forms at the Client](/programming-with-aem-forms/rendering-forms-rendering-forms rendering-forms-client-rendering-forms.md#rendering_forms_at_the_client)
 
 [Quick Start (Base64): Rendering a form at the client using the web service API](#unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7e40.2)
 

@@ -3,12 +3,12 @@ title: Searching Video Assets
 seo-title: Searching Video Assets
 description: Use keywords, file properties such as a Mime type, size, or recently modified time stamp to quickly find your file in AEM Assets.
 seo-description: Use keywords, file properties such as a Mime type, size, or recently modified time stamp to quickly find your file in AEM Assets.
-uuid: 523aaafc-33e2-4d9a-a099-e53f75484304
+uuid: ed2a8229-05dc-49ae-893b-0d422346b991
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference
-discoiquuid: 80d3c08b-72e1-49a3-801f-e7541da88ef1
+discoiquuid: 8d02fea9-d206-4f74-9c49-d50e50ca1fd1
 index: y
 internal: n
 snippet: y

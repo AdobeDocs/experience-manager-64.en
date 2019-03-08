@@ -3,12 +3,12 @@ title: Embedded Sequences
 seo-title: Embedded Sequences
 description: Follow this page to learn about embedded sequences for channels that allows the user to add components in the parent channel and also to re-use the content from a different channel and embed it into the parent channel.
 seo-description: Follow this page to learn about embedded sequences for channels that allows the user to add components in the parent channel and also to re-use the content from a different channel and embed it into the parent channel.
-uuid: b90852cd-eddf-4095-89fd-cd8178f22d3a
+uuid: 9752b752-608f-4f94-9975-a48f9926f268
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: authoring
-discoiquuid: 88ae49de-721d-4882-a4f9-33b49890bf8d
+discoiquuid: 5f178405-bd7e-46b8-8990-4281d6583413
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Intershop
 seo-title: Intershop
 description: Learn how to deploy eCommerce with Intershop.
 seo-description: Learn how to deploy eCommerce with Intershop.
-uuid: 3aa4269b-0855-4839-8569-63e351a30946
+uuid: 6caec2ef-8694-43d0-acdd-db194132efec
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: e-commerce
 content-type: reference
-discoiquuid: 6ff0dbfa-10bb-493a-a414-6cdf79112f85
+discoiquuid: e2b4e479-f440-4feb-a7b2-142f15251c5a
 pagetitle: Deploying eCommerce with Intershop
 index: y
 internal: n

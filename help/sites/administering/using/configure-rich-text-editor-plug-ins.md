@@ -3,12 +3,12 @@ title: Configure the Rich Text Editor plug-ins
 seo-title: Configure the Rich Text Editor plug-ins
 description: Learn to configure the AEM Rich Text Editor plug-ins to enable individual functionalities.
 seo-description: Learn to configure the AEM Rich Text Editor plug-ins to enable individual functionalities.
-uuid: 3f9a0243-2d0d-4951-9130-ba8a45c98fd4
+uuid: faed6f3d-b24a-4853-82a3-35ddcb8e86de
 contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: 1173bba2-263a-45a1-98b8-2d4c79ef97b7
+discoiquuid: 8e99e566-f3a2-4aa7-b2d3-743095ffe5ee
 noindex: true
 index: y
 internal: n
@@ -122,7 +122,7 @@ To configure RTE to display the required icons, follow these steps.
 
 1. Navigate to your component; for example:  
    `/apps/<*myProject*>/components/text`
-1. Navigate to the node `rtePlugins/edit`. See [activate a plug-in](/sites/administering/using/configure-rich-text-editor-plug-ins.html?cq_ck=1534404875505#activateplugin) if the node does not exist.
+1. Navigate to the node `rtePlugins/edit`. See [activate a plug-in](../../../sites/administering/using/configure-rich-text-editor-plug-ins.md#activateplugin) if the node does not exist.
 1. Create the `features` property on the `edit` node and add one or more of the features.
 
    Save all changes.
@@ -139,7 +139,7 @@ The configuration allows for the following three types of use cases:
 
 * Paste the text, including tables, with formatting when copying from MS Word. Copying and pasting text from another source such as a web page or MS Excel is not supported and retain only partial formatting. Configured using `wordhtml` below.
 
-1. In your component, navigate to `<rtePlugins-node>/edit` node. Create the nodes if these do not exist. For more information, see [activate a plug-in](/sites/administering/using/configure-rich-text-editor-plug-ins.html?cq_ck=1534404875505#activateplugin).
+1. In your component, navigate to `<rtePlugins-node>/edit` node. Create the nodes if these do not exist. For more information, see [activate a plug-in](../../../sites/administering/using/configure-rich-text-editor-plug-ins.md#activateplugin).
 1. In the `edit` node create a property using the following details:
 
     * **Name** `defaultPasteMode`
@@ -163,7 +163,7 @@ For links, you can also define the protocols that are automatically accepted.
 
 To configure which formats are allowed when pasting text into AEM from another program:
 
-1. In your component, navigate to the node `<*rtePlugins-node*>/edit`. Create the nodes if these do not exist. For more details, see [activate a plug-in](/sites/administering/using/configure-rich-text-editor-plug-ins.html?cq_ck=1534360744060#activateplugin).
+1. In your component, navigate to the node `<*rtePlugins-node*>/edit`. Create the nodes if these do not exist. For more details, see [activate a plug-in](../../../sites/administering/using/configure-rich-text-editor-plug-ins.md#activateplugin).
 1. Create a node under the `edit` node to hold the HTML paste rules:
 
     * **Name** `htmlPasteRules`
@@ -286,7 +286,7 @@ For later (re-)configurations, say to add more styles, follow only the instructi
 
 This is done by enabling the styles plug-in.
 
-1. In your component, navigate to the node `<*rtePlugins-node*>/styles`. Create the nodes if these do not exist. For more details, see [activate a plug-in](/sites/administering/using/configure-rich-text-editor-plug-ins.html?cq_ck=1534360744060#activateplugin).
+1. In your component, navigate to the node `<*rtePlugins-node*>/styles`. Create the nodes if these do not exist. For more details, see [activate a plug-in](../../../sites/administering/using/configure-rich-text-editor-plug-ins.md#activateplugin).
 1. Create the `features` property on the `styles` node:
 
     * **Name ** `features`  
@@ -395,7 +395,7 @@ For later (re-)configurations, say to add more formats, follow only the relevant
 
 First enable the paraformat plug-in:
 
-1. In your component, navigate to the node `<*rtePlugins-node*>/paraformat`. Create the nodes if these do not exist. For more details, see [activate a plug-in](/sites/administering/using/configure-rich-text-editor-plug-ins.html?cq_ck=1534360744060#activateplugin).
+1. In your component, navigate to the node `<*rtePlugins-node*>/paraformat`. Create the nodes if these do not exist. For more details, see [activate a plug-in](../../../sites/administering/using/configure-rich-text-editor-plug-ins.md#activateplugin).
 1. Create the `features` property on the `paraformat` node:
 
     * **Name ** `features`  
@@ -472,7 +472,7 @@ You can configure the RTE to make your own selection of characters available; ei
 
 ### Define a single character {#definesinglechar}
 
-1. In your component, navigate to the node `<*rtePlugins-node*>/misctools`. Create the nodes if these do not exist. For more details, see [activate a plug-in](/sites/administering/using/configure-rich-text-editor-plug-ins.html?cq_ck=1534360744060#activateplugin).
+1. In your component, navigate to the node `<*rtePlugins-node*>/misctools`. Create the nodes if these do not exist. For more details, see [activate a plug-in](../../../sites/administering/using/configure-rich-text-editor-plug-ins.md#activateplugin).
 1. Create the `features` property on the `misctools` node:
 
     * **Name** `features`
@@ -564,7 +564,7 @@ Styles are typically applied on text, but a separate set of Styles can also be a
 >
 >Copying and pasting tables in or from RTE component is browser-dependent. It is not supported out of the box for all browsers. You may get varied results depending on table structure and browser. For example, when you copy and paste a table in a RTE component in Mozilla Firefox in Classic UI and Touch UI, the layout of the table is not preserved.
 
-1. Within your component navigate to the node `<*rtePlugins-node*>/table`. Create the nodes if these do not exist. For more details, see [activate a plug-in](/sites/administering/using/configure-rich-text-editor-plug-ins.html?cq_ck=1534360744060#activateplugin).
+1. Within your component navigate to the node `<*rtePlugins-node*>/table`. Create the nodes if these do not exist. For more details, see [activate a plug-in](../../../sites/administering/using/configure-rich-text-editor-plug-ins.md#activateplugin).
 1. Create the `features` property on the `table` node:
 
     * **Name** `features`
@@ -689,7 +689,7 @@ To add more dictionaries, if required, follow these steps.
 
 RTE allows authors to undo or redo a few last edits. By default, 50 edits are stored in the history. You can configure this value as required.
 
-1. Within your component navigate to the node `<*rtePlugins-node*>/undo`. Create these nodes if they do not exist. For more details, see [activate a plug-in](/sites/administering/using/configure-rich-text-editor-plug-ins.html?cq_ck=1534360744060#activateplugin).
+1. Within your component navigate to the node `<*rtePlugins-node*>/undo`. Create these nodes if they do not exist. For more details, see [activate a plug-in](../../../sites/administering/using/configure-rich-text-editor-plug-ins.md#activateplugin).
 1. On the `undo` node create the property:
 
     * **Name** `maxUndoSteps`
@@ -709,7 +709,7 @@ When the tab character is pressed within any text a predefined number of spaces 
 
 To define the tab size:
 
-1. In your component, navigate to the node `<*rtePlugins-node*>/keys`. Create the nodes if these do not exist. For more details, see [activate a plug-in](/sites/administering/using/configure-rich-text-editor-plug-ins.html?cq_ck=1534360744060#activateplugin).
+1. In your component, navigate to the node `<*rtePlugins-node*>/keys`. Create the nodes if these do not exist. For more details, see [activate a plug-in](../../../sites/administering/using/configure-rich-text-editor-plug-ins.md#activateplugin).
 1. On the `keys` node create the property:
 
     * **Name** `tabSize`
@@ -728,7 +728,7 @@ When indentation is enabled (default) you can define the size of indent:
 >
 >This indent size is only applied to paragraphs (blocks) of text; it does not affect the indentation of actual lists.
 
-1. Within your component navigate to the node `<*rtePlugins-node*>/lists`. Create these nodes if they do not exist. For more details, see [activate a plug-in](/sites/administering/using/configure-rich-text-editor-plug-ins.html?cq_ck=1534360744060#activateplugin).
+1. Within your component navigate to the node `<*rtePlugins-node*>/lists`. Create these nodes if they do not exist. For more details, see [activate a plug-in](../../../sites/administering/using/configure-rich-text-editor-plug-ins.md#activateplugin).
 1. On the `lists` node create the `identSize` parameter:
 
     * **Name**: `identSize`

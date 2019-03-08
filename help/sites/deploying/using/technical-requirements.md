@@ -3,12 +3,12 @@ title: Technical Requirements
 seo-title: Technical Requirements
 description: A list of the supported client and server platforms for AEM.
 seo-description: A list of the supported client and server platforms for AEM.
-uuid: bb9feb64-d476-4ef3-8ec0-ba8a9e9af290
+uuid: 4d09db8f-64a3-4263-a864-050ee5728745
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: platform
-discoiquuid: deb1a0ce-f7a0-47b1-911b-112dad90db5c
+discoiquuid: 0f4d0d49-3413-4b32-8a90-9e3cb7a75c7a
 index: y
 internal: n
 snippet: y
@@ -28,7 +28,7 @@ For any issues that are specifically related to the platform itself, please cont
 
 Minimum requirements for installing Adobe Experience Manager:
 
-* Installed Java Platform, Standard Edition JDK, or other supported [Java Virtual Machines](#javavirtualmachines)
+* Installed Java Platform, Standard Edition JDK, or other supported [Java Virtual Machines](#java-virtual-machines)
 * Experience Manager Quickstart file (Standalone JAR or web-application deployment WAR)
 
 ### Minimum Sizing Requirements {#minimum-sizing-requirements}
@@ -478,7 +478,7 @@ This means that when an IP address needs to be specified you can select (as requ
 
 ### Requirements for AEM Dynamic Media Add-on {#requirements-for-aem-dynamic-media-add-on}
 
-AEM Dynamic Media is disabled by default. See here to [enable Dynamic Media](../../../assets/using/config-dynamic.md#enablingdynamicmedia).
+AEM Dynamic Media is disabled by default. See here to [enable Dynamic Media](../../../assets/using/config-dynamic.md#enabling-dynamic-media).
 
 With Dynamic Media enabled, the following additional technical requirements apply.
 

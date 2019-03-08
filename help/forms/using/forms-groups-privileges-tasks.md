@@ -3,12 +3,12 @@ title: AEM Forms on OSGi Groups and Privileges
 seo-title: AEM Forms on OSGi Groups and Privileges
 description: Assign users to the groups to manage AEM Forms on OSGi
 seo-description: Assign users to the groups to manage AEM Forms on OSGi
-uuid: 1ab318b2-ecc9-4d57-b903-4b53c30986f2
+uuid: 81377532-28c3-413e-8f61-0a0d12b74dea
 contentOwner: anujkapo
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 content-type: reference
 topic-tags: Configuration
-discoiquuid: 9c5ecaa3-8b7a-4a72-9e62-2dfb04db362d
+discoiquuid: 62d7dc45-f97c-4c8b-9f21-52edbd1696af
 index: y
 internal: n
 snippet: y
@@ -18,7 +18,7 @@ snippet: y
 
 Assign users to the groups to manage AEM Forms on OSGi
 
-You can [create groups](../../sites/administering/using/user-group-ac-admin.md#groupadministration) and assign policies and [users](../../sites/administering/using/user-group-ac-admin.md#useradministration) to the groups in AEM. These policies control privileges of the users that are part of the group.
+You can [create groups](../../sites/administering/using/user-group-ac-admin.md#group-administration) and assign policies and [users](../../sites/administering/using/user-group-ac-admin.md#user-administration) to the groups in AEM. These policies control privileges of the users that are part of the group.
 
 Once you install [AEM Forms add-on package](../../forms/using/installing-configuring-aem-forms-osgi.md), the groups mentioned in this article, such as forms-user and forms-power-user, are automatically available for assignment. The following table lists the tasks a user can perform for AEM Forms on OSGi based on the group assignments:
 

@@ -4,10 +4,10 @@ seo-title: Create Form Data Model Tutorial
 description: null
 seo-description: null
 page-status-flag: de-activated
-uuid: 94b0693e-77af-4c95-987f-c43e9ab25f7b
+uuid: 72ef89d2-9a17-490d-8909-4fc65a262014
 contentOwner: khsingh
 products: SG_EXPERIENCEMANAGER/6.3/FORMS
-discoiquuid: e18bee05-f84a-472e-b488-6b4718b2991e
+discoiquuid: 3c4a0905-b99a-4c92-bf73-a28321417801
 index: y
 internal: n
 snippet: y
@@ -44,7 +44,7 @@ The form data model will look similar to the following:
 Before you begin, ensure that you have the following:
 
 * MySQL database with sample data as stated in the Prerequisites section of [Create your first adaptive form](../../forms/using/create-your-first-adaptive-form.md)
-* OSGi bundle for MySQL JDBC driver as explained in [Bundling the JDBC Database Driver](../../sites/developing/using/jdbc.md#bundlingthejdbcdatabasedriver)
+* OSGi bundle for MySQL JDBC driver as explained in [Bundling the JDBC Database Driver](../../sites/developing/using/jdbc.md#bundling-the-jdbc-database-driver)
 * Adaptive form as explained in the first tutorial [Create an adaptive form](../../forms/using/create-adaptive-form.md)
 
 ## Step 1: Configure MySQL database as data source {#config-database}

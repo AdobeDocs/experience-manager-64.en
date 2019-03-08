@@ -3,12 +3,12 @@ title: Introduction to Customizing AEM form workspace
 seo-title: Introduction to Customizing AEM form workspace
 description: A quick introduction, with conceptual and technical information, to customize LiveCycle AEM Forms workspace for process management.
 seo-description: A quick introduction, with conceptual and technical information, to customize LiveCycle AEM Forms workspace for process management.
-uuid: b45ed058-d5c0-438e-ae13-4e05c67bc6c4
+uuid: f217f944-2605-4711-b3c4-3b6ea30c9e73
 contentOwner: robhagat
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
-discoiquuid: 4a9de6f2-6da5-4566-974b-e0f0c68cdd52
+discoiquuid: 682fb0a1-227c-45ca-8926-2ed9b4456b1d
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Adding Dynamic Media Assets to Pages
 seo-title: Adding Dynamic Media Assets to Pages
 description: How to add Dynamic Media components to a page in AEM
 seo-description: How to add Dynamic Media components to a page in AEM
-uuid: 3aab972e-9a4c-4f08-8a3d-593ef3e6f40b
+uuid: 57b389de-7ac4-4953-b059-2105ec971239
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: 0db61c2f-eda3-4c69-8bda-991139158a7d
+discoiquuid: 549c6e11-9482-4e5d-ab25-5d33666dc6ac
 index: y
 internal: n
 snippet: y
@@ -35,13 +35,13 @@ Adding the Dynamic Media or Interactive Media component to a page is the same as
 >To avoid this issue, ensure that AEM Sites users have the necessary permissions to access the assets.
 
 1. In AEM, open the page where you want to add the Dynamic Media or Interactive Media component.
-1. In the left pane, click the **Components icon **and filter for Dynamic Media.** **If no Dynamic Media component is available, you need to enable the Dynamic Media components. See [Editing Page Templates](../../sites/authoring/using/templates.md#editingtemplatestemplateauthors) for more information. 
+1. In the left pane, click the **Components icon **and filter for Dynamic Media.** **If no Dynamic Media component is available, you need to enable the Dynamic Media components. See [Editing Page Templates](../../sites/authoring/using/templates.md#editing-templates-template-authors) for more information. 
 
    ![](assets/chlimage_1-537.png)
 
 1. Drag the **Dynamic Media** or **Interactive Media** component onto the page in the desired location.
 1. Click** **the blue box around the component and click the** Configuration** (wrench)** **icon**.**
-1. [Edit the components](#dynamicmediacomponents) as necessary and click the checkmark to save changes.
+1. [Edit the components](#dynamic-media-components) as necessary and click the checkmark to save changes.
 
 ## Localizing Dynamic Media Components {#localizing-dynamic-media-components}
 
@@ -63,7 +63,7 @@ Dynamic Media and Interactive Media are available under the **Dynamic Media** ta
 
 >[!NOTE]
 >
->These components are not available by default and need to be made available via the template editor before using. [After they are made available i](../../sites/authoring/using/templates.md#editingtemplatestemplateauthors)n the template editor, you can add the components to your page as you would any other AEM component.
+>These components are not available by default and need to be made available via the template editor before using. [After they are made available i](../../sites/authoring/using/templates.md#editing-templates-template-authors)n the template editor, you can add the components to your page as you would any other AEM component.
 
 ![](assets/chlimage_1-539.png) 
 

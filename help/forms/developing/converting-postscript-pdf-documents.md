@@ -3,12 +3,12 @@ title: Converting Postscript to PDF Documents
 seo-title: Converting Postscript to PDF Documents
 description: null
 seo-description: null
-uuid: 79d4b4c0-e8fe-46f2-929e-b64ae0c29238
+uuid: 49e394ac-aa92-42b1-af20-5d6d2b8c1d84
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: b3a9e23b-4e59-4a5c-b11b-29ab5d366fd0
+discoiquuid: 2547e74e-60d2-48c1-9be2-de6c938ec357
 index: y
 internal: n
 snippet: y
@@ -68,15 +68,15 @@ You can save the PDF document as a PDF file.
 
 **See also**
 
-[Convert a PostScript file to PDF using the Java API](converting-postscript-pdf-documents#convert_a_postscript_file_to_pdf_using_the_java_api)
+[Convert a PostScript file to PDF using the Java API](converting-postscript-pdf-documents.md#convert_a_postscript_file_to_pdf_using_the_java_api)
 
-[Converting a PostScript file to PDF using the web service API](converting-postscript-pdf-documents#converting_a_postscript_file_to_pdf_using_the_web_service_api)
+[Converting a PostScript file to PDF using the web service API](converting-postscript-pdf-documents.md#converting_a_postscript_file_to_pdf_using_the_web_service_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
 
-[Output Service API Quick Starts](/programming-with-aem-forms/output-service-java-api-quick#output_service_java_api_quick_start_soap)
+[Output Service API Quick Starts](/programming-with-aem-forms/output-service-java-api-quick.md#output_service_java_api_quick_start_soap)
 
 ### Convert a PostScript file to PDF using the Java API {#convert-a-postscript-file-to-pdf-using-the-java-api}
 
@@ -123,13 +123,13 @@ Convert a PostScript file to PDF document by using the Distiller Service API (Ja
 
 **See also**
 
-[Summary of steps](converting-postscript-pdf-documents#summary_of_steps)
+[Summary of steps](converting-postscript-pdf-documents.md#summary_of_steps)
 
-[Quick Start (SOAP mode): Converting a PostScript file to a PDF document using the Java API](/programming-with-aem-forms/distiller-service-java-api-quick#quick_start_soap_mode_converting_a_postscript_file_to_a_pdf_document_using_the_java_api)
+[Quick Start (SOAP mode): Converting a PostScript file to a PDF document using the Java API](/programming-with-aem-forms/distiller-service-java-api-quick.md#quick_start_soap_mode_converting_a_postscript_file_to_a_pdf_document_using_the_java_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
 
 ### Converting a PostScript file to PDF using the web service API {#converting-a-postscript-file-to-pdf-using-the-web-service-api}
 
@@ -186,12 +186,12 @@ Convert a PostScript file to PDF document by using the Distiller Service API (we
 
 **See also**
 
-[Summary of steps](converting-postscript-pdf-documents#summary_of_steps)
+[Summary of steps](converting-postscript-pdf-documents.md#summary_of_steps)
 
 [Quick Start (MTOM): Converting a PostScript file to a PDF document using the web service API](#unresolvedlink-lc-qs-distiller-di.xml#ws624e3cba99b79e12e69a9941333732bac8-7f01.2)
 
 [Quick Start (SwaRef): Converting a PostScript file to a PDF document using the web service API](#unresolvedlink-lc-qs-distiller-di.xml#ws624e3cba99b79e12e69a9941333732bac8-7eff.2)
 
-[Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_mtom)
+[Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
 
-[Invoking AEM Forms using SwaRef](/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_swaref)
+[Invoking AEM Forms using SwaRef](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_swaref)

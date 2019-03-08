@@ -3,12 +3,12 @@ title: Rich Text Editor
 seo-title: Rich Text Editor
 description: The Rich Text Editor is a basic building block for inputting textual content into AEM.
 seo-description: The Rich Text Editor is a basic building block for inputting textual content into AEM.
-uuid: c5ed842c-56e5-42b2-aca2-2f6b95fd9345
+uuid: e4c9250f-6703-41bc-958b-1aa119363ad8
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: 8e11359a-0973-48c0-bc2b-186cf14cc004
+discoiquuid: 187dcea5-b1b6-4685-9177-6e4e3af25689
 index: y
 internal: n
 snippet: y
@@ -267,31 +267,31 @@ The table specific functions are:
 <table border="1" cellpadding="1" cellspacing="0" columns="3" header="none" width="400"> 
  <tbody> 
   <tr> 
-   <td><a href="#tableproperties">Table Properties</a><br /> </td> 
+   <td><a href="#table-properties">Table Properties</a><br /> </td> 
   </tr> 
   <tr> 
-   <td><a href="#cellproperties">Cell Properties<br /> </a></td> 
+   <td><a href="#cell-properties">Cell Properties<br /> </a></td> 
   </tr> 
   <tr> 
-   <td><a href="#addordeleterows">Add or Delete Rows<br /> </a></td> 
+   <td><a href="#add-or-delete-rows">Add or Delete Rows<br /> </a></td> 
   </tr> 
   <tr> 
-   <td><a href="#addordeletecolumns">Add or Delete Columns<br /> </a></td> 
+   <td><a href="#add-or-delete-columns">Add or Delete Columns<br /> </a></td> 
   </tr> 
   <tr> 
-   <td><a href="#selectingentirerowsorcolumns">Selecting Entire Rows or Columns<br /> </a></td> 
+   <td><a href="#selecting-entire-rows-or-columns">Selecting Entire Rows or Columns<br /> </a></td> 
   </tr> 
   <tr> 
-   <td><a href="#mergecells">Merge Cells<br /> </a></td> 
+   <td><a href="#merge-cells">Merge Cells<br /> </a></td> 
   </tr> 
   <tr> 
-   <td><a href="#splitcells">Split Cells<br /> </a></td> 
+   <td><a href="#split-cells">Split Cells<br /> </a></td> 
   </tr> 
   <tr> 
-   <td><a href="#creatingnestedtables">Nested Tables</a></td> 
+   <td><a href="#creating-nested-tables">Nested Tables</a></td> 
   </tr> 
   <tr> 
-   <td><a href="#removetable">Remove Table</a> </td> 
+   <td><a href="#remove-table">Remove Table</a> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -3,12 +3,12 @@ title: Invoking AEM Forms using the JavaAPI
 seo-title: Invoking AEM Forms using the JavaAPI
 description: null
 seo-description: null
-uuid: cabe6836-1c95-4866-83f4-0976e1b3c821
+uuid: bb44f8fb-93a1-4386-a67c-324415f7f86c
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: coding
-discoiquuid: 027f34ba-fd47-4b4e-925e-ee581619542f
+discoiquuid: 15e11f9d-6662-4686-a7ae-f34e72b17396
 index: y
 internal: n
 snippet: y
@@ -40,19 +40,19 @@ The Adobe Developer website contains the following articles that discuss invokin
 
 **See also**
 
-[Including AEM Forms Java library files](invoking-aem-forms-using-java#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 [Invoking Human-Centric Long-Lived Processes](../../forms/developing/invoking-human-centric-long-lived.md#main-pars-text-0)
 
 [Invoking AEM Forms using Web Services](../../forms/developing/invoking-aem-forms-using-web.md)
 
-[Setting connection properties](invoking-aem-forms-using-java#setting_connection_properties)
+[Setting connection properties](invoking-aem-forms-using-java.md#setting_connection_properties)
 
-[Passing data to AEM Forms services using the Java API](invoking-aem-forms-using-java#passing_data_to_aem_forms_services_using_the_java_api)
+[Passing data to AEM Forms services using the Java API](invoking-aem-forms-using-java.md#passing_data_to_aem_forms_services_using_the_java_api)
 
-[Invoking a service using a Java client library](invoking-aem-forms-using-java#invoking_a_service_using_a_java_client_library)
+[Invoking a service using a Java client library](invoking-aem-forms-using-java.md#invoking_a_service_using_a_java_client_library)
 
-[Invoking a short-lived process using the Invocation API](invoking-aem-forms-using-java#invoking_a_short_lived_process_using_the_invocation_api)
+[Invoking a short-lived process using the Invocation API](invoking-aem-forms-using-java.md#invoking_a_short_lived_process_using_the_invocation_api)
 
 [Creating a Java web application that invokes a human-centric long-lived process](../../forms/developing/invoking-human-centric-long-lived.md)
 
@@ -61,7 +61,7 @@ The Adobe Developer website contains the following articles that discuss invokin
 To programmatically invoke a AEM Forms service by using the Java API, include required library files (JAR files) in your Java project’s classpath. The JAR files that you include in your client application’s classpath depend on several factors:
 
 * The AEM Forms service to invoke. A client application can invoke one or more services.
-* The mode in which you want to invoke a AEM Forms service. You can use the EJB or SOAP mode. (See [Setting connection properties](invoking-aem-forms-using-java#setting_connection_properties).)
+* The mode in which you want to invoke a AEM Forms service. You can use the EJB or SOAP mode. (See [Setting connection properties](invoking-aem-forms-using-java.md#setting_connection_properties).)
 * The J2EE application server on which AEM Forms is deployed.
 
 ### Service-specific JAR files {#service-specific-jar-files}
@@ -405,17 +405,17 @@ Assuming that you are upgrading to AEM Forms. To use a Java application that inv
 
 **See also**
 
-[Invoking AEM Forms using the Java API](invoking-aem-forms-using-java#invoking_aem_forms_using_the_java_api)
+[Invoking AEM Forms using the Java API](invoking-aem-forms-using-java.md#invoking_aem_forms_using_the_java_api)
 
-[Setting connection properties](invoking-aem-forms-using-java#setting_connection_properties)
+[Setting connection properties](invoking-aem-forms-using-java.md#setting_connection_properties)
 
-[Passing data to AEM Forms services using the Java API](invoking-aem-forms-using-java#passing_data_to_aem_forms_services_using_the_java_api)
+[Passing data to AEM Forms services using the Java API](invoking-aem-forms-using-java.md#passing_data_to_aem_forms_services_using_the_java_api)
 
-[Invoking a service using a Java client library](invoking-aem-forms-using-java#invoking_a_service_using_a_java_client_library)
+[Invoking a service using a Java client library](invoking-aem-forms-using-java.md#invoking_a_service_using_a_java_client_library)
 
 ## Setting connection properties {#setting-connection-properties}
 
-You set connection properties to invoke AEM Forms when using the Java API. When setting connection properties, specify whether to invoke services remotely or locally, and also specify the connection mode and authentication values. Authentication values are required if service security is enabled. However, if service security is disabled, it is not necessary to specify authentication values. (See [Disabling Service Security](/programming-with-aem-forms/processes-tasks#disabling_service_security).)
+You set connection properties to invoke AEM Forms when using the Java API. When setting connection properties, specify whether to invoke services remotely or locally, and also specify the connection mode and authentication values. Authentication values are required if service security is enabled. However, if service security is disabled, it is not necessary to specify authentication values. (See [Disabling Service Security](/programming-with-aem-forms/processes-tasks.md#disabling_service_security).)
 
 The connection mode can either be SOAP or EJB mode. The EJB mode uses the RMI/IIOP protocol, and the performance of the EJB mode is better than the performance of the SOAP mode. The SOAP mode is used to eliminate a J2EE application server dependency or when a firewall is located between AEM Forms and the client application. The SOAP mode uses the https protocol as the underlying transport and can communicate across firewall boundaries. If neither a J2EE application server dependency or a firewall is an issue, it is recommended that you use the EJB mode.
 
@@ -441,7 +441,7 @@ To successfully invoke a AEM Forms service, set the following connection propert
 
   ***Note**: Instead of using a string to set the `DSC_SERVER_TYPE` connection property, you can use a static member of the `ServiceClientFactoryProperties` class. The following values can be used: `ServiceClientFactoryProperties.DSC_WEBSPHERE_SERVER_TYPE`, `ServiceClientFactoryProperties.DSC_WEBLOGIC_SERVER_TYPE`, or `ServiceClientFactoryProperties.DSC_JBOSS_SERVER_TYPE`*.**
 
-* **DSC_CREDENTIAL_USERNAME:** Specifies the AEM forms user name. For a user to sucessfully invoke a AEM Forms service, they need the Services User role. A user can also have another role that includes the Service Invoke permission. Otherwise, an exception is thrown when they attempt to invoke a service. If service security is disabled, it is not necessary to specify this connection property. (See [Disabling Service Security](/programming-with-aem-forms/processes-tasks#disabling_service_security).)
+* **DSC_CREDENTIAL_USERNAME:** Specifies the AEM forms user name. For a user to sucessfully invoke a AEM Forms service, they need the Services User role. A user can also have another role that includes the Service Invoke permission. Otherwise, an exception is thrown when they attempt to invoke a service. If service security is disabled, it is not necessary to specify this connection property. (See [Disabling Service Security](/programming-with-aem-forms/processes-tasks.md#disabling_service_security).)
 * **DSC_CREDENTIAL_PASSWORD:** Specifies the corresponding password value. If service security is disabled, it is not necessary to specify this connection property.
 * **DSC_REQUEST_TIMEOUT: **The default request timeout limit for the SOAP request is 1200000 milliseconds (20 minutes). Sometime, a request can require longer time to complete the operation. For example, a SOAP request that retrieves a large set of records can require a longer timeout limit. You can use the `ServiceClientFactoryProperties.DSC_REQUEST_TIMEOUT` to increase the request call timeout limit for the SOAP requests.
 
@@ -542,7 +542,7 @@ The following Java code example sets connection properties in SOAP mode to invok
 
 **Setting connection properties when service security is disabled**
 
-The following Java code example sets connection properties required to invoke AEM Forms deployed on JBoss Application Server and when service security is disabled. (See [Disabling Service Security](/programming-with-aem-forms/processes-tasks#disabling_service_security).)
+The following Java code example sets connection properties required to invoke AEM Forms deployed on JBoss Application Server and when service security is disabled. (See [Disabling Service Security](/programming-with-aem-forms/processes-tasks.md#disabling_service_security).)
 
 ```as3
  Properties ConnectionProps = new Properties(); 
@@ -612,7 +612,7 @@ The following code example shows how to use a `com.adobe.idp.Context` object wit
 
 >[!NOTE]
 >
->For complete details about authenticating a user, see [Authenticating Users](/programming-with-aem-forms/users#authenticating_users).
+>For complete details about authenticating a user, see [Authenticating Users](/programming-with-aem-forms/users.md#authenticating_users).
 
 ### Invoking scenarios {#invoking_scenarios-1}
 
@@ -676,11 +676,11 @@ The following example shows the contents of a jndi.properties file that is used 
 
 **See also**
 
-[Including AEM Forms Java library files](invoking-aem-forms-using-java#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Passing data to AEM Forms services using the Java API](invoking-aem-forms-using-java#passing_data_to_aem_forms_services_using_the_java_api)
+[Passing data to AEM Forms services using the Java API](invoking-aem-forms-using-java.md#passing_data_to_aem_forms_services_using_the_java_api)
 
-[Invoking a service using a Java client library](invoking-aem-forms-using-java#invoking_a_service_using_a_java_client_library)
+[Invoking a service using a Java client library](invoking-aem-forms-using-java.md#invoking_a_service_using_a_java_client_library)
 
 ## Passing data to AEM Forms services using the Java API {#passing-data-to-aem-forms-services-using-the-java-api}
 
@@ -690,15 +690,15 @@ AEM Forms services do not accept a PDF document as other data types, such as a `
 
 A `com.adobe.idp.Document` object is a Java serializable type, so it can be passed over an RMI call. The receiving side can be collocated (same host, same class loader), local (same host, different class loader), or remote (different host). Passing of document content is optimized for each case. For example, if the sender and receiver are located on the same host, the content is passed over a local file system. (In some cases, documents can be passed in memory.)
 
-Depending on the `com.adobe.idp.Document` object size, the data is carried within the `com.adobe.idp.Document` object or stored on the server's file system. Any temporary storage resources occupied by the `com.adobe.idp.Document` object are removed automatically upon the `com.adobe.idp.Document` disposal. (See [Disposing Document objects](invoking-aem-forms-using-java#disposing_document_objects).)
+Depending on the `com.adobe.idp.Document` object size, the data is carried within the `com.adobe.idp.Document` object or stored on the server's file system. Any temporary storage resources occupied by the `com.adobe.idp.Document` object are removed automatically upon the `com.adobe.idp.Document` disposal. (See [Disposing Document objects](invoking-aem-forms-using-java.md#disposing_document_objects).)
 
-Sometimes it is necessary to know the content type of a `com.adobe.idp.Document` object before you can pass it to a service. For example, if an operation requires a specific content type, such as `application/pdf`, it is recommended that you determine the content type. (See [Determining the content type of a document](invoking-aem-forms-using-java#determining_the_content_type_of_a_document).)
+Sometimes it is necessary to know the content type of a `com.adobe.idp.Document` object before you can pass it to a service. For example, if an operation requires a specific content type, such as `application/pdf`, it is recommended that you determine the content type. (See [Determining the content type of a document](invoking-aem-forms-using-java.md#determining_the_content_type_of_a_document).)
 
-The `com.adobe.idp.Document` object attempts to determine the content type using the supplied data. If the content type cannot be retrieved from the data supplied (for example, when the data was supplied as a byte array), set the content type. To set the content type, invoke the `com.adobe.idp.Document` object’s `setContentType` method. (See [Determining the content type of a document](invoking-aem-forms-using-java#determining_the_content_type_of_a_document))
+The `com.adobe.idp.Document` object attempts to determine the content type using the supplied data. If the content type cannot be retrieved from the data supplied (for example, when the data was supplied as a byte array), set the content type. To set the content type, invoke the `com.adobe.idp.Document` object’s `setContentType` method. (See [Determining the content type of a document](invoking-aem-forms-using-java.md#determining_the_content_type_of_a_document))
 
 If collateral files reside on the same file system, creating a `com.adobe.idp.Document` object is faster. If collateral files reside on remote file systems, a copy operation must be done, which affects performance.
 
-An application can contain both `com.adobe.idp.Document` and `org.w3c.dom.Document` data types. However, ensure that you fully qualify the `org.w3c.dom.Document` data type. For information about converting a `org.w3c.dom.Document` object to a `com.adobe.idp.Document` object, see [Quick Start (EJB mode): Prepopulating Forms with Flowable Layouts using the Java API](/programming-with-aem-forms/forms-service-api-quick-starts#quick_start_soap_mode_prepopulating_forms_with_flowable_layouts_using_the_java_api).
+An application can contain both `com.adobe.idp.Document` and `org.w3c.dom.Document` data types. However, ensure that you fully qualify the `org.w3c.dom.Document` data type. For information about converting a `org.w3c.dom.Document` object to a `com.adobe.idp.Document` object, see [Quick Start (EJB mode): Prepopulating Forms with Flowable Layouts using the Java API](/programming-with-aem-forms/forms-service-api-quick-starts.md#quick_start_soap_mode_prepopulating_forms_with_flowable_layouts_using_the_java_api).
 
 >[!NOTE]
 >
@@ -743,9 +743,9 @@ An application can contain both `com.adobe.idp.Document` and `org.w3c.dom.Docume
 
 **See also**
 
-[Invoking AEM Forms using the Java API](invoking-aem-forms-using-java#invoking_aem_forms_using_the_java_api)
+[Invoking AEM Forms using the Java API](invoking-aem-forms-using-java.md#invoking_aem_forms_using_the_java_api)
 
-[Setting connection properties](invoking-aem-forms-using-java#setting_connection_properties)
+[Setting connection properties](invoking-aem-forms-using-java.md#setting_connection_properties)
 
 ### Creating documents {#creating-documents}
 
@@ -840,9 +840,9 @@ The c:/temp/input.pdf file must be located on the client computer (not on the se
 
 **See also**
 
-[Invoking AEM Forms using the Java API](invoking-aem-forms-using-java#invoking_aem_forms_using_the_java_api)
+[Invoking AEM Forms using the Java API](invoking-aem-forms-using-java.md#invoking_aem_forms_using_the_java_api)
 
-[Setting connection properties](invoking-aem-forms-using-java#setting_connection_properties)
+[Setting connection properties](invoking-aem-forms-using-java.md#setting_connection_properties)
 
 ### Handling returned documents {#handling-returned-documents}
 
@@ -874,9 +874,9 @@ The following code example copies the contents of a `com.adobe.idp.Document` obj
 
 **See also**
 
-[Invoking AEM Forms using the Java API](invoking-aem-forms-using-java#invoking_aem_forms_using_the_java_api)
+[Invoking AEM Forms using the Java API](invoking-aem-forms-using-java.md#invoking_aem_forms_using_the_java_api)
 
-[Setting connection properties](invoking-aem-forms-using-java#setting_connection_properties)
+[Setting connection properties](invoking-aem-forms-using-java.md#setting_connection_properties)
 
 ### Determining the content type of a document {#determining-the-content-type-of-a-document}
 
@@ -937,9 +937,9 @@ The following code example determines the content type of a `com.adobe.idp.Docum
 
 **See also**
 
-[Invoking AEM Forms using the Java API](invoking-aem-forms-using-java#invoking_aem_forms_using_the_java_api)
+[Invoking AEM Forms using the Java API](invoking-aem-forms-using-java.md#invoking_aem_forms_using_the_java_api)
 
-[Setting connection properties](invoking-aem-forms-using-java#setting_connection_properties)
+[Setting connection properties](invoking-aem-forms-using-java.md#setting_connection_properties)
 
 ### Disposing Document objects {#disposing-document-objects}
 
@@ -947,17 +947,17 @@ When you no longer require a `Document` object, it is recommended that you dispo
 
 **See also**
 
-[Invoking AEM Forms using the Java API](invoking-aem-forms-using-java#invoking_aem_forms_using_the_java_api)
+[Invoking AEM Forms using the Java API](invoking-aem-forms-using-java.md#invoking_aem_forms_using_the_java_api)
 
-[Including AEM Forms Java library files](invoking-aem-forms-using-java#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Invoking a service using a Java client library](invoking-aem-forms-using-java#invoking_a_service_using_a_java_client_library)
+[Invoking a service using a Java client library](invoking-aem-forms-using-java.md#invoking_a_service_using_a_java_client_library)
 
 ## Invoking a service using a Java client library {#invoking-a-service-using-a-java-client-library}
 
-AEM Forms service operations can be invoked by using a service’s strongly typed API, which is known as a Java client library. A *Java client library* is a set of concrete classes that provide access to services deployed in the service container. You instantiate a Java object that represents the service to invoke instead of creating an `InvocationRequest` object by using the Invocation API. The Invocation API is used to invoke processes, such as long-lived processes, created in Workbench. (See [Invoking Human-Centric Long-Lived Processes](/programming-with-aem-forms/invoking-human-centric-long-lived#invoking_human_centric_long_lived_processes).)
+AEM Forms service operations can be invoked by using a service’s strongly typed API, which is known as a Java client library. A *Java client library* is a set of concrete classes that provide access to services deployed in the service container. You instantiate a Java object that represents the service to invoke instead of creating an `InvocationRequest` object by using the Invocation API. The Invocation API is used to invoke processes, such as long-lived processes, created in Workbench. (See [Invoking Human-Centric Long-Lived Processes](/programming-with-aem-forms/invoking-human-centric-long-lived.md#invoking_human_centric_long_lived_processes).)
 
-To perform a service operation, invoke a method that belongs to the Java object. A Java client library contains methods that typically map one-to-one with service operations. When using a Java client library, set required connection properties. (See [Setting connection properties](invoking-aem-forms-using-java#setting_connection_properties).)
+To perform a service operation, invoke a method that belongs to the Java object. A Java client library contains methods that typically map one-to-one with service operations. When using a Java client library, set required connection properties. (See [Setting connection properties](invoking-aem-forms-using-java.md#setting_connection_properties).)
 
 After you set connection properties, create a `ServiceClientFactory` object that is used to instantiate a Java object that lets you invoke a service. Each service that has a Java client library has a corresponding client object. For example, to invoke the Repository service, create a `ResourceRepositoryClient` object by using its constructor and passing the `ServiceClientFactory` object. The `ServiceClientFactory` object is responsible for maintaining connection settings that are required to invoke AEM Forms services.
 
@@ -971,7 +971,7 @@ There is a User Manager setting that controls the lifetime of the SAML assertion
 
 You can invoke the Repository service by using a Java client library and by performing the following steps:
 
-1. Include client JAR files, such as the adobe-repository-client.jar, in your Java project’s class path. For information about the location of these files, see [Including AEM Forms Java library files](invoking-aem-forms-using-java#including_aem_forms_java_library_files).
+1. Include client JAR files, such as the adobe-repository-client.jar, in your Java project’s class path. For information about the location of these files, see [Including AEM Forms Java library files](invoking-aem-forms-using-java.md#including_aem_forms_java_library_files).
 1. Set connection properties that are required to invoke a service. 
 1. Create a `ServiceClientFactory` object by invoking the `ServiceClientFactory` object’s static `createInstance` method and passing the `java.util.Properties` object that contains connection properties.
 1. Create a `ResourceRepositoryClient` object by using its constructor and passing the `ServiceClientFactory` object. Use the `ResourceRepositoryClient` object to invoke Repository service operations. 
@@ -985,7 +985,7 @@ You can invoke the Repository service by using a Java client library and by perf
    Cast the return value to `Resource`. 
 
 1. Create a `ResourceContent` object by invoking the `RepositoryInfomodelFactoryBean` object’s `newImage` method and casting the return value to `ResourceContent`. This object represents the content that is added to the repository.
-1. Create a `com.adobe.idp.Document` object by passing a `java.io.FileInputStream` object that stores the XDP file to add to the repository. (See [Creating a document based on an InputStream object](invoking-aem-forms-using-java#creating_a_document_based_on_an_inputstream_object).)
+1. Create a `com.adobe.idp.Document` object by passing a `java.io.FileInputStream` object that stores the XDP file to add to the repository. (See [Creating a document based on an InputStream object](invoking-aem-forms-using-java.md#creating_a_document_based_on_an_inputstream_object).)
 1. Add the content of the `com.adobe.idp.Document` object to the `ResourceContent` object by invoking the `ResourceContent` object’s `setDataDocument` method. Pass the `com.adobe.idp.Document` object.
 1. Set the MIME type of the XDP file to add to the repository by invoking the `ResourceContent` object’s `setMimeType` method and passing `application/vnd.adobe.xdp+xml`.
 1. Add the content of the `ResourceContent` object to the `Resource` object by invoking the `Resource` object ‘s `setContent` method and passing the `ResourceContent` object.
@@ -997,11 +997,11 @@ You can invoke the Repository service by using a Java client library and by perf
 
 **See also**
 
-[Quick Start (EJB mode): Writing a resource using the Java API](/programming-with-aem-forms/repository-service-api-quick-starts#quick_start_soap_mode_writing_a_resource_using_the_java_api)
+[Quick Start (EJB mode): Writing a resource using the Java API](/programming-with-aem-forms/repository-service-api-quick-starts.md#quick_start_soap_mode_writing_a_resource_using_the_java_api)
 
-[Invoking AEM Forms using the Java API](invoking-aem-forms-using-java#invoking_aem_forms_using_the_java_api)
+[Invoking AEM Forms using the Java API](invoking-aem-forms-using-java.md#invoking_aem_forms_using_the_java_api)
 
-[Including AEM Forms Java library files](invoking-aem-forms-using-java#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
 ## Invoking a short-lived process using the Invocation API {#invoking-a-short-lived-process-using-the-invocation-api}
 
@@ -1009,7 +1009,7 @@ You can invoke a short-lived process using the Java Invocation API. When you inv
 
 >[!NOTE]
 >
->For information about invoking a long-lived process, see [Invoking Human-Centric Long-Lived Processes](/programming-with-aem-forms/invoking-human-centric-long-lived#invoking_human_centric_long_lived_processes).
+>For information about invoking a long-lived process, see [Invoking Human-Centric Long-Lived Processes](/programming-with-aem-forms/invoking-human-centric-long-lived.md#invoking_human_centric_long_lived_processes).
 
 The discussion here is about using Invocation API to invoke the following AEM Forms short-lived process named `MyApplication/EncryptDocument`.
 
@@ -1026,8 +1026,8 @@ When this process is invoked, it performs the following actions:
 
 Invoke the `MyApplication/EncryptDocument` short-lived process using the Java invocation API:
 
-1. Include client JAR files, such as the adobe-livecycle-client.jar, in your Java project’s class path. (See [Including AEM Forms Java library files](invoking-aem-forms-using-java#including_aem_forms_java_library_files).)
-1. Create a `ServiceClientFactory` object that contains connection properties. (See [Setting connection properties](invoking-aem-forms-using-java#setting_connection_properties).)
+1. Include client JAR files, such as the adobe-livecycle-client.jar, in your Java project’s class path. (See [Including AEM Forms Java library files](invoking-aem-forms-using-java.md#including_aem_forms_java_library_files).)
+1. Create a `ServiceClientFactory` object that contains connection properties. (See [Setting connection properties](invoking-aem-forms-using-java.md#setting_connection_properties).)
 1. Create a `ServiceClient` object by using its constructor and passing the `ServiceClientFactory` object. A `ServiceClient` object lets you invoke a service operation. It handles tasks such as locating, dispatching, and routing invocation requests.
 1. Create a `java.util.HashMap` object by using its constructor. 
 1. Invoke the `java.util.HashMap` object’s `put` method for each input parameter to pass to the long-lived process. Because the `MyApplication/EncryptDocument` short-lived process requires one input parameter of type `Document`, you only have to invoke the `put` method once, as shown in the following example.
@@ -1065,9 +1065,9 @@ Invoke the `MyApplication/EncryptDocument` short-lived process using the Java in
 
 **See also**
 
-[Quick Start: Invoking a short-lived process using the Invocation API](/programming-with-aem-forms/invocation-api-quick-starts#quick_start_invoking_a_short_lived_process_using_the_invocation_api)
+[Quick Start: Invoking a short-lived process using the Invocation API](/programming-with-aem-forms/invocation-api-quick-starts.md#quick_start_invoking_a_short_lived_process_using_the_invocation_api)
 
-[Invoking Human-Centric Long-Lived Processes](/programming-with-aem-forms/invoking-human-centric-long-lived#invoking_human_centric_long_lived_processes)
+[Invoking Human-Centric Long-Lived Processes](/programming-with-aem-forms/invoking-human-centric-long-lived.md#invoking_human_centric_long_lived_processes)
 
-[Including AEM Forms Java library files](invoking-aem-forms-using-java#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 

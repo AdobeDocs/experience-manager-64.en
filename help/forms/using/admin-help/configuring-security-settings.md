@@ -3,12 +3,12 @@ title: Configuring security settings
 seo-title: Configuring security settings
 description: Learn how to configure security settings.
 seo-description: Learn how to configure security settings.
-uuid: d180568f-fd53-40c1-9037-01c0b5a38c5f
+uuid: 8426dee6-5a5b-4885-90f7-4c710450f43a
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_pdf_generator
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 4d9f5299-d1a1-488b-8981-93395005d718
+discoiquuid: e833fd8b-f01c-4bf4-af77-fa711da04f8a
 index: y
 internal: n
 snippet: y
@@ -31,7 +31,7 @@ A *security setting* controls the security and permissions for files that are co
 
 ### Security settings {#security-settings}
 
-These settings configure the compatibility and encryption. For instructions about accessing the fonts settings, see [Create or edit a security setting](configuring-security-settings#create_or_edit_a_security_setting).
+These settings configure the compatibility and encryption. For instructions about accessing the fonts settings, see [Create or edit a security setting](configuring-security-settings.md#create_or_edit_a_security_setting).
 
 **Compatibility:** Sets the type of encryption for opening a password-protected document. The Acrobat 3.0 And Later option uses a low encryption level, but the other options use a high encryption level:
 

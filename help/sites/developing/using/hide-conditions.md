@@ -3,12 +3,12 @@ title: Using Hide Conditions
 seo-title: Using Hide Conditions
 description: Hide conditions can be used to determine if a component resource is rendered or not.
 seo-description: Hide conditions can be used to determine if a component resource is rendered or not.
-uuid: 90b0113a-05b1-4989-92ad-ac8a7e4778a6
+uuid: 7744b449-ceb4-4cf1-bd8b-a4441b0202d7
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: components
 content-type: reference
-discoiquuid: 96d81c68-ac67-4f10-acb9-ff2f907dd85b
+discoiquuid: 047fd32a-9429-4f9d-a40a-3febdc20880d
 index: y
 internal: n
 snippet: y
@@ -32,7 +32,7 @@ By using hide conditions, admins, developers, and super users have a way to hide
 
 `com.adobe.granite.ui.components.FilteringResourceWrapper` is responsible filtering the resources based on the existence and value of the `granite:hide` property, located on the field to be filtered. The implementation of `/libs/cq/gui/components/authoring/dialog/dialog.jsp` includes an instance of `FilteringResourceWrapper.`
 
-The implementation makes use of the Granite [ELResolver API](/sites/developing/using/reference-materials/granite-ui/api/jcr_root/libs/granite/ui/docs/server/el) and adds a `cqDesign` custom variable via the ExpressionCustomizer.
+The implementation makes use of the Granite [ELResolver API](/sites/developing/using/reference-materials/granite-ui/api/jcr_root/libs/granite/ui/docs/server/el.md) and adds a `cqDesign` custom variable via the ExpressionCustomizer.
 
 Here are a few examples of hide conditions on a design node located either under `etc/design` or as a Content Policy.
 

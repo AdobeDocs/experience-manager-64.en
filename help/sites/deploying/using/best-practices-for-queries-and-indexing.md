@@ -3,12 +3,12 @@ title: Best Practices for Queries and Indexing
 seo-title: Best Practices for Queries and Indexing
 description: This article provides guidelines on how to optimize your indexes and queries.
 seo-description: This article provides guidelines on how to optimize your indexes and queries.
-uuid: 071da574-9e01-4e89-ba75-ffbde11ab323
+uuid: 96ac6f7e-a9db-49d0-a654-5549ed404295
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
-discoiquuid: 3f4d67a0-8b2c-4951-abfb-3f7af2807b8b
+discoiquuid: 5b1533f6-97d0-4d8b-8e17-5031eddefbef
 index: y
 internal: n
 snippet: y
@@ -223,7 +223,7 @@ Re-indexing of Oak indexes is to be avoided unless covered by a reasons in the t
 >Prior to consulting the tables below to determine is re-indexing is useful,** always **verify:
 >
 >* the query is correct 
->* the query resolves to the expected index (using [Explain Query](../../../sites/administering/using/operations-dashboard.md#diagnosistools))
+>* the query resolves to the expected index (using [Explain Query](../../../sites/administering/using/operations-dashboard.md#diagnosis-tools))
 >* the indexing process has completed
 >
 
@@ -235,8 +235,8 @@ The only acceptable non-erring conditions for re-indexing Oak indexes, is if the
 
 The following detail possible issues together with resolutions:
 
-* [Property Index Definition Change](#propertyindexdefinitionchange)
-* [Lucene Index Definition Change](#luceneindexdefinitionchange)
+* [Property Index Definition Change](#property-index-definition-change)
+* [Lucene Index Definition Change](#lucene-index-definition-change)
 
 #### Property Index Definition Change {#property-index-definition-change}
 
@@ -256,7 +256,7 @@ The following detail possible issues together with resolutions:
 
 * How to Resolve:
 
-    * [Re-index](/sites/deploying/using/best-practices-for-queries-and-indexing.html?cq_ck=1496173166571#HowtoReindex) the lucene index  
+    * [Re-index](../../../sites/deploying/using/best-practices-for-queries-and-indexing.md#how-to-re-index) the lucene index  
     
     * Alternatively, touch (perform a benign write operation) to the missing nodes
 
@@ -285,7 +285,7 @@ The following detail possible issues together with resolutions:
 
     * Oak versions prior to 1.6:
 
-        * [Re-index](#howtoreindex) the lucene index
+        * [Re-index](#how-to-re-index) the lucene index
 
     * Oak versions 1.6+
 
@@ -293,7 +293,7 @@ The following detail possible issues together with resolutions:
 
             * [Refresh](http://jackrabbit.apache.org/oak/docs/query/lucene.html#stored-index-definition) the lucene index by setting [oak:queryIndexDefinition]@refresh=true
 
-        * Else, [re-index](#howtoreindex) the lucene index
+        * Else, [re-index](#how-to-re-index) the lucene index
 
             * Note: The index state from the last good re-indexing (or initial indexing) will be used until a new re-indexing is triggered
 
@@ -305,8 +305,8 @@ If an issue is experienced on AEM that does not match the criteria outlined belo
 
 The following detail possible issues together with resolutions:
 
-* [Lucene Index Binary is Missing](#luceneindexbinaryismissing)
-* [Lucene Index Binary is Corrupt](#luceneindexbinaryiscorrupt)
+* [Lucene Index Binary is Missing](#lucene-index-binary-is-missing)
+* [Lucene Index Binary is Corrupt](#lucene-index-binary-is-corrupt)
 
 #### Lucene Index Binary is Missing {#lucene-index-binary-is-missing}
 
@@ -330,7 +330,7 @@ The following detail possible issues together with resolutions:
       traversing the repository determines if other binaries (besides lucene files) are missing
     
     * If binaries other than lucene indexes are missing, restore from backup
-    * Otherwise, [re-index](#howtoreindex) *all* lucene indexes
+    * Otherwise, [re-index](#how-to-re-index) *all* lucene indexes
     
     * Note:  
       This condition is indicative of a misconfigured datastore that may result in ANY binary (eg. assets binaries) to go missing.  
@@ -362,7 +362,7 @@ The following detail possible issues together with resolutions:
 
     * If this does not resolve the issue, and the `AsyncIndexUpdate` exceptions persist then:
 
-        1. [Re-index](#howtoreindex) the erring index
+        1. [Re-index](#how-to-re-index) the erring index
         1. Also file an [Adobe Support](https://helpx.adobe.com/support.html) ticket
 
 ### How to Re-index {#how-to-re-index}
@@ -471,7 +471,7 @@ Pre-extracted text can be incrementally added to over time. Text pre-extraction 
 
 *Execute re-indexing (Steps 3a-b) during a maintenance/low-use period as the Node Store is traversed during this operation, which may incur significant load on the system.*
 
-3a. [Re-index](#howtoreindex) of Lucene indexes is invoked in AEM
+3a. [Re-index](#how-to-re-index) of Lucene indexes is invoked in AEM
 
 3b. The Apache Jackrabbit Oak DataStore PreExtractedTextProvider OSGi config (configured to point at the Extracted text via a file system path) instructs Oak to sourced full-text text from the Extracted  Files,  and avoids directly hitting and processing the data stored in the repository.
 

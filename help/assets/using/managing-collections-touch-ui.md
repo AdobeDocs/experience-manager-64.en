@@ -3,12 +3,12 @@ title: Managing Collections
 seo-title: Managing Collections
 description: Understand the concept of collection in AEM Assets. Learn how to collections, manage, edit, and collections with other users.
 seo-description: Understand the concept of collection in AEM Assets and learn how you can share collections with other users.
-uuid: 0d590304-709d-4c0e-ac87-9f35de0a971c
+uuid: 77186fbe-168f-4dd5-bdb1-b9676b83691c
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
 topic-tags: authoring
-discoiquuid: 9e4ec6f9-774d-448a-bd83-7f010511a388
+discoiquuid: ba2603e2-0ce4-4294-9424-e87a22e75728
 index: y
 internal: n
 snippet: y
@@ -40,7 +40,7 @@ To open the **Collections** console:
 
 ## Creating a collection {#creating-a-collection}
 
-You can create a collection either with [static references](#creatingacollectionwithstaticreferences) or based on a [search criteria-based filter](#creatingacollectionwithsearchcriteriabasedfilteralsocalledsmartcollection). You can also create a collection from a lightbox.
+You can create a collection either with [static references](#creating-a-collection-with-static-references) or based on a [search criteria-based filter](#creatingacollectionwithsearchcriteriabasedfilteralsocalledsmartcollection). You can also create a collection from a lightbox.
 
 ### Creating a collection with static references {#creating-a-collection-with-static-references}
 
@@ -153,7 +153,7 @@ You can add assets to a collection that contains a list of referenced assets or 
 
 ## Editing a smart collection {#editing-a-smart-collection}
 
-Smart collections are built by saving a search so you can alter their content by modifying the search parameters of the [saved search](#editingsavedsearches).
+Smart collections are built by saving a search so you can alter their content by modifying the search parameters of the [saved search](#editing-saved-searches).
 
 1. In the** Assets **UI, tap/click the** Search** icon from the toolbar.
 
@@ -200,7 +200,7 @@ You can edit the metadata of multiple collections simultaneously. This functiona
 
 ## Searching {#searching}
 
-The Search feature within Collections supports both [Searching for Collections](#searchingcollections) and [Searching for assets within a Collection](#searchingwithincollections).
+The Search feature within Collections supports both [Searching for Collections](#searching-collections) and [Searching for assets within a Collection](#searching-within-collections).
 
 #### Searching Collections {#searching-collections}
 
@@ -233,7 +233,7 @@ You can edit collection settings, such as title and description, or to add membe
 
    >[!NOTE]
    >
-   >You can also detete Smart collections by [deleting saved searches](#deletingsavedsearches).
+   >You can also detete Smart collections by [deleting saved searches](#deleting-saved-searches).
 
 ## Downloading a collection {#downloading-a-collection}
 
@@ -273,7 +273,7 @@ In the Assets UI, you can search or filter assets based on certain rules, search
 
 ### Creating Saved Searches {#creating-saved-searches}
 
-Saved searches are created when you create a smart collection. Smart collections are automatically added to the **Saved Searches** list. The Saved Searches query for the collection is saved in the `dam:query` property in crxde at the relative location */content/dam/collections/*. [](#creatingasmartcollection)
+Saved searches are created when you create a smart collection. Smart collections are automatically added to the **Saved Searches** list. The Saved Searches query for the collection is saved in the `dam:query` property in crxde at the relative location */content/dam/collections/*. [](#creating-a-smart-collection)
 
 >[!NOTE]
 >

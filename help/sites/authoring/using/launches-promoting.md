@@ -3,12 +3,12 @@ title: Promoting Launches
 seo-title: Promoting Launches
 description: You need to promote launch pages to move the content back into the source (production) before publishing. 
 seo-description: You need to promote launch pages to move the content back into the source (production) before publishing. 
-uuid: 94375efa-cfb6-4939-9894-ab347e0cb891
+uuid: 798d22db-62d1-4327-a138-1010f9941083
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
-discoiquuid: edaeb5ae-08c2-4a29-beb7-143e4753027b
+discoiquuid: 54c865ce-4683-4f9b-8d8a-fd3f5937506e
 legacypath: /content/docs/en/aem/6-0/author/site-page-features/launches
 index: y
 internal: n
@@ -25,7 +25,7 @@ You need to promote launch pages to move the content back into the source (produ
 
 >[!NOTE]
 >
->After you promote the launch pages to the target (**Production**), you can activate the **Production** pages as an entity (to make the process quicker). Add the pages to a workflow package and use it as the payload for a workflow that activates a package of pages. You need to create the workflow package before promoting the launch. See [Processing Promoted Pages Using AEM Workflow](#processingpromotedpagesusingaemworkflow).
+>After you promote the launch pages to the target (**Production**), you can activate the **Production** pages as an entity (to make the process quicker). Add the pages to a workflow package and use it as the payload for a workflow that activates a package of pages. You need to create the workflow package before promoting the launch. See [Processing Promoted Pages Using AEM Workflow](#processing-promoted-pages-using-aem-workflow).
 
 >[!CAUTION]
 >
@@ -41,8 +41,8 @@ You need to promote launch pages to move the content back into the source (produ
 >
 >This covers the manual action of promoting launch pages when there is only one launch level. See:
 >
->* [Promoting a Nested Launch](#promotinganestedlaunch) when there is more than one launch in the structure.
->* [Launches - the Order of Events](../../../sites/authoring/using/launches.md#launchestheorderofevents) for further details about automatic promotion and publication.
+>* [Promoting a Nested Launch](#promoting-a-nested-launch) when there is more than one launch in the structure.
+>* [Launches - the Order of Events](../../../sites/authoring/using/launches.md#launches-the-order-of-events) for further details about automatic promotion and publication.
 >
 
 You can promote launches from either the **Sites** console or the **Launches** console:
@@ -75,7 +75,7 @@ You can promote launches from either the **Sites** console or the **Launches** c
 
    >[!NOTE]
    >
-   >This covers a single launch, if you have nested launches see [Promoting a Nested Launch](#promotinganestedlaunch).
+   >This covers a single launch, if you have nested launches see [Promoting a Nested Launch](#promoting-a-nested-launch).
 
 1. Select **Next** to proceed.
 1. You can review the pages to be promoted, these will depend on the range of pages you have chosen:
@@ -92,7 +92,7 @@ When you are editing a launch page, the **Promote Launch** action is also availa
 
 >[!NOTE]
 >
->This is available for single and [nested launches](#promotinganestedlaunch).
+>This is available for single and [nested launches](#promoting-a-nested-launch).
 
 ## Promoting a Nested Launch {#promoting-a-nested-launch}
 

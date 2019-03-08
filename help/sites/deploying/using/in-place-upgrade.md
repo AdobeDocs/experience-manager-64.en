@@ -3,12 +3,12 @@ title: Performing an In-Place Upgrade
 seo-title: Performing an In-Place Upgrade
 description: Learn how to perform an in-place upgrade.
 seo-description: Learn how to perform an in-place upgrade.
-uuid: 0b5a0854-afe0-487d-9148-262b7c6b25f1
+uuid: e237d10c-1e81-41f2-b0b1-a916c58c6e50
 contentOwner: sarchiz
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: upgrading
-discoiquuid: 23569988-0d77-4ceb-ae2d-723feccb8a8c
+discoiquuid: 7e6d363c-f013-46fd-8b0a-65b364537104
 index: y
 internal: n
 snippet: y
@@ -44,7 +44,7 @@ Before executing your upgrade, there are several steps that must be completed. S
 
 ## Content Repository Migration {#content-repository-migration}
 
-This migration is not required if you are upgrading from AEM 6.3. For versions older than 6.3, Adobe provides a tool that can be used to migrate the repository to the new version of the Oak Segment Tar present in AEM 6.3. It is provided as part of the quickstart package and is mandatory for any upgrades that will be using TarMK. Upgrades for environments that are using MongoMK do not require repository migration. For more information on what the benefits of the new Segment Tar format are, see the [Migrating to Oak Segment Tar FAQ](../../../sites/deploying/using/revision-cleanup.md#onlinerevisioncleanupfrequentlyaskedquestions).
+This migration is not required if you are upgrading from AEM 6.3. For versions older than 6.3, Adobe provides a tool that can be used to migrate the repository to the new version of the Oak Segment Tar present in AEM 6.3. It is provided as part of the quickstart package and is mandatory for any upgrades that will be using TarMK. Upgrades for environments that are using MongoMK do not require repository migration. For more information on what the benefits of the new Segment Tar format are, see the [Migrating to Oak Segment Tar FAQ](../../../sites/deploying/using/revision-cleanup.md#online-revision-cleanup-frequently-asked-questions).
 
 The actual migration is performed using the standard AEM quickstart jar file, executed with a new `-x crx2oak` option which executes the crx2oak tool in order to simplify the upgrade and make it more robust.
 

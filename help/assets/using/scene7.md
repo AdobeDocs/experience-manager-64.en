@@ -3,12 +3,12 @@ title: Adding Scene7 Features to your Page
 seo-title: Adding Scene7 Features to your Page
 description: Learn how to add Scene7 features and components to your AEM page.
 seo-description: Learn how to add Scene7 features and components to your AEM page.
-uuid: 9d0953a2-4b64-42f0-80d1-cb1f331b2e86
+uuid: ad9d4c11-9ba3-4a79-86c5-f19eefc21af6
 contentOwner: Alva Ware-Bevacqui
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
 topic-tags: managing-assets
-discoiquuid: 663064e6-dcde-4d6f-a3b6-4fbd3f3ac6da
+discoiquuid: 43b2eaaf-552f-4150-bc96-ef313827a559
 index: y
 internal: n
 snippet: y
@@ -38,15 +38,15 @@ For more information on using video components with AEM, see the following:
 
 >[!NOTE]
 >
->If Scene7 assets do not display properly, please make sure that Dynamic media is [disabled](../../assets/using/config-dynamic.md#disablingdynamicmedia) and then refresh the page.
+>If Scene7 assets do not display properly, please make sure that Dynamic media is [disabled](../../assets/using/config-dynamic.md#disabling-dynamic-media) and then refresh the page.
 
 ## Manually Publishing to Scene7 from Assets {#manually-publishing-to-scene-from-assets}
 
 You can publish digital assets to Scene7 as follows:
 
-* [In the classic user interface from the Assets console](../../sites/classic-ui-authoring/using/manage-assets-classic-s7.md#publishingfromtheassetsconsole)
-* [In the classic user interface from an asset](../../sites/classic-ui-authoring/using/manage-assets-classic-s7.md#publishingfromanasset)
-* [In the classic user interface from outside the the CQ Target folder](../../sites/classic-ui-authoring/using/manage-assets-classic-s7.md#publishingassetsfromoutsidethecqtargetfolder)
+* [In the classic user interface from the Assets console](../../sites/classic-ui-authoring/using/manage-assets-classic-s7.md#publishing-from-the-assets-console)
+* [In the classic user interface from an asset](../../sites/classic-ui-authoring/using/manage-assets-classic-s7.md#publishing-from-an-asset)
+* [In the classic user interface from outside the the CQ Target folder](../../sites/classic-ui-authoring/using/manage-assets-classic-s7.md#publishing-assets-from-outside-the-cq-target-folder)
 
 >[!NOTE]
 >
@@ -112,7 +112,7 @@ See also [Responsive Design for Web Pages](../../sites/developing/using/responsi
 
 To add an interactive viewing experience to a responsive site in the touch-optimized UI:
 
-1. Log in to AEM, and ensure that you have [configured Adobe Scene7 Cloud Services](../../sites/administering/using/scene7.md#configuringscene7integration) and that Scene7 components are available.
+1. Log in to AEM, and ensure that you have [configured Adobe Scene7 Cloud Services](../../sites/administering/using/scene7.md#configuring-scene-integration) and that Scene7 components are available.
 
    >[!NOTE]
    >
@@ -142,7 +142,7 @@ You set these configuration options by opening (double-clicking) a Scene7 compon
 
 The HTML5 Zoom component displays a larger image when you press the + button.
 
-The asset has zoom tools at the bottom. Click **+** to enlarge. Click **-** to reduce. Clicking the **x** or the reset zoom arrow brings the image back to the original size it was imported as. Click the diagonal arrows to make it full screen. Click **Edit** to configure the component. With this component, you can configure [settings common to all Scene7 components](#settingscommontoallscene7components).
+The asset has zoom tools at the bottom. Click **+** to enlarge. Click **-** to reduce. Clicking the **x** or the reset zoom arrow brings the image back to the original size it was imported as. Click the diagonal arrows to make it full screen. Click **Edit** to configure the component. With this component, you can configure [settings common to all Scene7 components](#settings-common-to-all-scene-components).
 
 ![](assets/chlimage_1-227.png) 
 
@@ -266,12 +266,12 @@ See [Excluding master videos from adaptive video sets](../../sites/administering
 
 The Scene7 content browser lets you view content from Scene7 directly in AEM. To access the content browser, in the Content Finder, select **Scene7** in the touch-optimized user interface or the **S7** icon in the classic user interface. Functionality is identical between both user interfaces.
 
-If you have multiple configurations, AEM by default displays the [default configuration](../../sites/administering/using/scene7.md#configuringadefaultconfiguration). You can select different configurations directly in the Scene7 content browser in the drop-down menu.
+If you have multiple configurations, AEM by default displays the [default configuration](../../sites/administering/using/scene7.md#configuring-a-default-configuration). You can select different configurations directly in the Scene7 content browser in the drop-down menu.
 
 >[!NOTE]
 >
 >* Assets located in the ad-hoc folder will not appear in the Scene7 content browser.
->* When [Secure Preview is enabled](../../sites/administering/using/scene7.md#configuringthestatepublishedunpublishedofassetspushedtoscene7), both published and unpublished assets on Scene7 do appear in the Scene7 content browser.
+>* When [Secure Preview is enabled](../../sites/administering/using/scene7.md#configuring-the-state-published-unpublished-of-assets-pushed-to-scene), both published and unpublished assets on Scene7 do appear in the Scene7 content browser.
 >* If you do not see **Scene7 **or the** S7 **icon as an option in the content browser, you need to [configure Scene7 to work with AEM](../../sites/administering/using/scene7.md).
 >
 >* For video, the Scene7 content browser supports: >

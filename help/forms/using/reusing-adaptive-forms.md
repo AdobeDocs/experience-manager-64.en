@@ -3,10 +3,10 @@ title: Reusing adaptive forms
 seo-title: Reusing adaptive forms
 description: You can reuse an existing adaptive form to create new adaptive forms. 
 seo-description: You can reuse an existing adaptive form to create new adaptive forms. 
-uuid: a7557aac-82c5-41cb-b1f2-c466a3f206b7
+uuid: 55b203cd-48ee-4e32-bca0-15bd74ad5233
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
-discoiquuid: 185fd61c-a4ef-44a3-b382-d83351f34795
+discoiquuid: 2822b6aa-01c2-491b-a918-e4e5a26fe415
 index: y
 internal: n
 snippet: y

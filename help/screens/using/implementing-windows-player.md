@@ -3,12 +3,12 @@ title: Implementing Windows 10 Player
 seo-title: Implementing Windows 10 Player
 description: Follow this page to learn about configuring AEM Screens Windows 10 player. 
 seo-description: Follow this page to learn about configuring AEM Screens Windows 10 player. 
-uuid: f81f34b3-8bac-46da-8aba-e5251217bdfa
+uuid: be1c32c3-c3cc-4fc6-8ab4-2ac6ae71b014
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: administering
 content-type: reference
-discoiquuid: d82a2123-6694-4d5b-9f52-327ab8ddf37a
+discoiquuid: 61893b86-eaec-439f-a87f-8ed43bc899b5
 index: y
 internal: n
 snippet: y

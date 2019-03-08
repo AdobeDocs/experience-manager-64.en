@@ -3,11 +3,11 @@ title: PhoneGap
 seo-title: PhoneGap
 description:   
 seo-description: Follow this page to get started with authoring for Adobe PhoneGap Enterprise in AEM.  
-uuid: c4d8fb8e-dd50-441b-9e63-3790d777de2b
+uuid: c33e5860-9d69-4aa5-896d-657c92bcca52
 contentOwner: msm-service
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
-discoiquuid: 0fe022a4-64df-4ce7-8885-91f60c142ec3
+discoiquuid: d225f211-58d1-47bd-9a48-eed79500f111
 index: y
 internal: n
 snippet: y
@@ -41,7 +41,7 @@ See the following resources to get started:
 * [Creating a new AEM Mobile app using create wizard](../../mobile/using/phonegap-create-new-app.md)
 * [Import an existing hybrid app](../../mobile/using/phonegap-import-hybrid-app.md)
 
-To learn about **Content Services**, see [Content Services Overview](/mobile/using/content-as-a-service) to get started.
+To learn about **Content Services**, see [Content Services Overview](/mobile/using/content-as-a-service.md) to get started.
 
 ### Additional Resources {#additional-resources}
 

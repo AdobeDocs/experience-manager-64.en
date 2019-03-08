@@ -3,11 +3,11 @@ title: Introduction to AEM Forms
 seo-title: Introduction to AEM Forms
 description: With Adobe Experience Manager Forms, business users can integrate engaging, responsive, and adaptive forms into web and mobile sites, simplifying the digital enrollment process and increasing customer conversion rates.
 seo-description: With Adobe Experience Manager Forms, business users can integrate engaging, responsive, and adaptive forms into web and mobile sites, simplifying the digital enrollment process and increasing customer conversion rates.
-uuid: dbf057cf-2a41-472d-bbb3-ac29ec74803f
+uuid: 0d907053-986d-491a-9fdb-5d1c56db7146
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: introduction
-discoiquuid: 2572f103-04c6-418d-9bc4-24e8a6c64af0
+discoiquuid: ed26d3b2-3c76-4cb7-8a1a-ce37f2c088eb
 index: y
 internal: n
 snippet: y
@@ -23,7 +23,7 @@ Adobe Experience Manager (AEM) provides an easy-to-use solution to create, manag
 
 AEM Forms combine form authoring, management, and publishing along with correspondence management capabilities, document security, and integrated analytics to create engaging end-to-end experiences. Designed to work across web and mobile channels, AEM Forms can be efficiently integrated into your business processes, reducing paper processes and errors while improving efficiency.
 
-AEM Forms leverages and extends the capabilities of your existing investments in XFA forms and Adobe LiveCycle solution. For details, see [AEM Forms - securing and extending your existing forms ecosystem](/forms/using/aem-forms-complement-xfa-livecycle-processes).
+AEM Forms leverages and extends the capabilities of your existing investments in XFA forms and Adobe LiveCycle solution. For details, see [AEM Forms - securing and extending your existing forms ecosystem](/forms/using/aem-forms-complement-xfa-livecycle-processes.md).
 
 In large enterprises, forms are often created once and reused by copying to a content management system. Keeping a large database of forms up-to-date and making them discoverable can be a considerable challenge. AEM provides a customizable Forms Portal that ensures that customers find and access forms they need across both web and mobile channels.
 

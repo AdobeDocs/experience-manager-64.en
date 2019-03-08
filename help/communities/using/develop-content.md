@@ -3,12 +3,12 @@ title: Develop Sandbox Content
 seo-title: Develop Sandbox Content
 description: Develop content 
 seo-description: Develop content 
-uuid: 52a01e47-6940-4deb-bccb-e5e1fb63ca02
+uuid: dfb32bbe-af4c-488e-98cf-50b2e2db83d3
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 069a17a5-21d6-4c68-903a-49157fd908af
+discoiquuid: 9f1bba3b-345f-49f6-aca3-0e7c7eda0ae9
 index: y
 internal: n
 snippet: y

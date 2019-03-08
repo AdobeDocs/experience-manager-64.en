@@ -3,12 +3,12 @@ title: Creating and Configuring Asset Editor pages
 seo-title: Creating and Configuring Asset Share and Asset Editor pages
 description: Learn how to create custom Asset Editor pages and edit multiple assets simultaneously.
 seo-description: Learn how to create custom Asset Editor pages and edit multiple assets simultaneously.
-uuid: 0dd4c417-c3bf-4694-8e0e-491b110083a5
+uuid: 7a4ea54f-492e-4a82-b258-f542f9cc23ba
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: 2b3db254-a408-4c19-96ec-266e76399032
+discoiquuid: 343f6caa-ef66-4e87-a158-9c75d55b7062
 index: y
 internal: n
 snippet: y
@@ -209,7 +209,7 @@ The following predicates are available:
 | **Path Predicate** |Lets users define the path and subfolders, if desired. |
 | **Property Predicate** |The site owner specifies a property to search for, e.g. tiff:ImageLength and the user can then enter a value, e.g. 800. This returns all images that are 800 pixels high. Useful predicate if your property can have arbitrary values.  |
 
-For more information, see the [predicate javadocs](/sites/developing/using/reference-materials/javadoc/com/day/cq/search/eval/package-summary).
+For more information, see the [predicate javadocs](/sites/developing/using/reference-materials/javadoc/com/day/cq/search/eval/package-summary.md).
 
 3. To configure the predicate further, double-click it. For example, when you open the Path Predicate, you need to assign the root path.
 
@@ -323,7 +323,7 @@ On the Asset Editor page, users can then enter values into the metadata fields (
 
 #### Sub Assets {#sub-assets}
 
-The Sub Assets component is where you can view and select sub-assets. You can determine what names appear under the [main asset](../../assets/using/assets.md#whataredigitalassets) and sub-assets.
+The Sub Assets component is where you can view and select sub-assets. You can determine what names appear under the [main asset](../../assets/using/assets.md#what-are-digital-assets) and sub-assets.
 
 ![](assets/screen_shot_2012-04-23at24025pm.png)
 

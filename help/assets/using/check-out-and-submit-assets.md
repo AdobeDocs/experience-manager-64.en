@@ -3,12 +3,12 @@ title: Check In and Check Out Files in Assets
 seo-title: Check In and Check Out Files in Assets
 description: Learn how to check out assets for editing and check them back in after the changes are complete.
 seo-description: Learn how to check out assets for editing and check them back in after the changes are complete.
-uuid: 47b13eee-7398-4cb0-821e-7565655435fc
+uuid: afc80a72-b319-42b4-a10b-e797418e0f71
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference
-discoiquuid: 8bd6eca2-bd9a-449d-9d0d-55be0b78b944
+discoiquuid: 9e73dc29-a56c-4331-9595-71c3d6998aed
 index: y
 internal: n
 snippet: y

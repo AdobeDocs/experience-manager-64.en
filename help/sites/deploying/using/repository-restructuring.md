@@ -3,12 +3,12 @@ title: Repository Restructuring in AEM 6.4
 seo-title: Repository Restructuring in AEM 6.4
 description: Learn about the basics and reasoning behind the repository restructuring in AEM 6.4
 seo-description: Learn about the basics and reasoning behind the repository restructuring in AEM 6.4
-uuid: d2c6af82-9593-4467-891d-e36bc2cc12e6
+uuid: 60680be0-4244-4b6a-898a-1797a776a700
 contentOwner: chaikels
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: repo_restructuring
-discoiquuid: 60107dc2-137c-45f9-acb9-ec795b025d13
+discoiquuid: b9dab2e2-a6c4-4de0-a3b5-99c8c9a9f26d
 index: y
 internal: n
 snippet: y

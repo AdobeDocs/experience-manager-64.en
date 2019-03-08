@@ -3,12 +3,12 @@ title: Recommended Topologies for Communities
 seo-title: Recommended Topologies for Communities
 description: How to approach the handling of user-generated content (UGC)
 seo-description: How to approach the handling of user-generated content (UGC)
-uuid: 55c0bcac-aff9-4705-9b16-02855c9376c3
+uuid: 5056f340-a0e5-44ec-a11b-5a5e51e30850
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 content-type: reference
 topic-tags: deploying
-discoiquuid: 3b559772-4a90-4bdd-837c-23b2ab5f8307
+discoiquuid: cc3b1e03-4533-47e5-987a-a3650b3f9ae5
 index: y
 internal: n
 snippet: y
@@ -34,7 +34,7 @@ Requiring a common store results in the following recommended topologies.
 
 >[!NOTE]
 >
->For AEM Communities, [UGC is never replicated](../../communities/using/working-with-srp.md#ugcneverreplicated). 
+>For AEM Communities, [UGC is never replicated](../../communities/using/working-with-srp.md#ugc-never-replicated). 
 >
 >When the deployment does not include a [common store](../../communities/using/working-with-srp.md), UGC will be visible only on the AEM publish or author instance on which it was entered.
 
@@ -50,7 +50,7 @@ Two examples :
 
 1) If the expected volume of UGC is high and a local MongoDB instance is possible, then the choice would be [MSRP](../../communities/using/msrp.md).
 
-2) For optimal performance for page content, the choice of a [publish farm](../../sites/deploying/using/recommended-deploys.md#tarmkfarm) and [ASRP](../../communities/using/asrp.md) would provide optimal scaling of UGC with relatively straightforward operations.
+2) For optimal performance for page content, the choice of a [publish farm](../../sites/deploying/using/recommended-deploys.md#tarmk-farm) and [ASRP](../../communities/using/asrp.md) would provide optimal scaling of UGC with relatively straightforward operations.
 
 For both, the deployment may be based on any OAK microkernel.
 

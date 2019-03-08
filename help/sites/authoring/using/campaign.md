@@ -3,12 +3,12 @@ title: Working with Adobe Campaign Classic and Adobe Campaign Standard
 seo-title: Working with Adobe Campaign 6.1 and Adobe Campaign Standard
 description: You can create email content in AEM and process it in Adobe Campaign emails
 seo-description: You can create email content in AEM and process it in Adobe Campaign emails
-uuid: 237cb419-d05d-49a2-bcb7-c7705b6d9afd
+uuid: 806a1ff1-24b4-4627-8769-8d8c03d18ecd
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: personalization
-discoiquuid: 91ef48ea-923c-4312-b18d-11003ba37c22
+discoiquuid: 8a40835c-710d-4a11-b77a-5920d7ab5924
 index: y
 internal: n
 snippet: y
@@ -19,7 +19,7 @@ snippet: y
 You can create email content in AEM and process it in Adobe Campaign emails. To do that, you must:
 
 1. Create a new newsletter in AEM from an Adobe Campaign-specific template.  
-1. Select [an Adobe Campaign service](#selectingtheadobecampaigncloudserviceandtemplate) before editing the content to access all the functionality.
+1. Select [an Adobe Campaign service](#selecting-the-adobe-campaign-cloud-service-and-template) before editing the content to access all the functionality.
 1. Edit the content.
 1. Validate the content.
 
@@ -175,16 +175,16 @@ To insert personalization:
    >    
    >    
    >    * Available context fields correspond to the **Profiles** targeting dimension in Adobe Campaign.
-   >    * See [Linking an AEM page to an Adobe Campaign email](#linkinganaempagetoanadobecampaignemailadobecampaignstandard).
+   >    * See [Linking an AEM page to an Adobe Campaign email](#linking-an-aem-page-to-an-adobe-campaign-email-adobe-campaign-standard).
    >    
    >    
    >**For Adobe Campaign Classic:**
    >
    >    
    >    
-   >    * Available context fields are dynamically recovered from the Adobe Campaign **nms:seedMember** schema. Target extension data is dynamically recovered from the workflow that contains the delivery synchronized with the content. (See the [Synchronizing content created in AEM with a delivery from Adobe Campaign](#synchronizingcontentcreatedinaemwithadeliveryfromadobecampaignclassic) section).
+   >    * Available context fields are dynamically recovered from the Adobe Campaign **nms:seedMember** schema. Target extension data is dynamically recovered from the workflow that contains the delivery synchronized with the content. (See the [Synchronizing content created in AEM with a delivery from Adobe Campaign](#synchronizing-content-created-in-aem-with-a-delivery-from-adobe-campaign-classic) section).
    >    
-   >    * To add or hide personalization elements, see [Managing personalization fields and blocks](../../../sites/administering/using/campaignonpremise.md#managingpersonalizationfieldsandblocks).
+   >    * To add or hide personalization elements, see [Managing personalization fields and blocks](../../../sites/administering/using/campaignonpremise.md#managing-personalization-fields-and-blocks).
    >    * **Important**: All seed table fields must also be in the recipient table (or corresponding contact table).
    >    
    >
@@ -193,7 +193,7 @@ To insert personalization:
 
    ![](assets/chlimage_1-27.png)
 
-   After inserting context fields or personalization blocks, you can preview your newsletter and test your fields. See [Previewing a Newsletter](#previewinganewsletter).
+   After inserting context fields or personalization blocks, you can preview your newsletter and test your fields. See [Previewing a Newsletter](#previewing-a-newsletter).
 
 ### Previewing a newsletter {#previewing-a-newsletter}
 
@@ -247,8 +247,8 @@ How you link or synchronize AEM with Adobe Campaign depends on whether you are u
 
 See the following sections for instructions based on your Adobe Campaign solution:
 
-* [Linking an AEM page to an Adobe Campaign Email (Adobe Campaign Standard)](#linkinganaempagetoanadobecampaignemailadobecampaignstandard)
-* [Synchronizing Content Created in AEM with a Delivery from Adobe Campaign Classic](#synchronizingcontentcreatedinaemwithadeliveryfromadobecampaignclassic)
+* [Linking an AEM page to an Adobe Campaign Email (Adobe Campaign Standard)](#linking-an-aem-page-to-an-adobe-campaign-email-adobe-campaign-standard)
+* [Synchronizing Content Created in AEM with a Delivery from Adobe Campaign Classic](#synchronizing-content-created-in-aem-with-a-delivery-from-adobe-campaign-classic)
 
 ### Linking an AEM page to an Adobe Campaign email (Adobe Campaign Standard) {#linking-an-aem-page-to-an-adobe-campaign-email-adobe-campaign-standard}
 

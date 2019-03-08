@@ -3,12 +3,12 @@ title: Connecting to Adobe Analytics and Creating Frameworks
 seo-title: Connecting to Adobe Analytics and Creating Frameworks
 description: Learn about connecting AEM to SiteCatalyst and creating frameworks.
 seo-description: Learn about connecting AEM to SiteCatalyst and creating frameworks.
-uuid: 81e2f4ab-e25c-4ff5-8de3-5dc49592a542
+uuid: 9a4cdabf-8589-4e28-a4f2-e32cd9066229
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: 3426a1e0-12bf-4b4f-a033-69b8943420b5
+discoiquuid: cdcbd39c-f8a9-4373-8380-b32c172fbcf6
 index: y
 internal: n
 snippet: y
@@ -60,7 +60,7 @@ Adobe Analytics [data centers](https://developer.omniture.com/en_US/content_page
 
 AEM uses the San Jose (https://api.omniture.com/admin/1.4/rest/) data center by default.
 
-Use the [Web Console to configure the OSGi bundle](../../../sites/deploying/using/configuring-osgi.md#osgiconfigurationwiththewebconsole) **Adobe AEM Analytics HTTP Client**. Add the **Data Center URL** for the data center that hosts a report suite for which your AEM pages collect data. 
+Use the [Web Console to configure the OSGi bundle](../../../sites/deploying/using/configuring-osgi.md#osgi-configuration-with-the-web-console) **Adobe AEM Analytics HTTP Client**. Add the **Data Center URL** for the data center that hosts a report suite for which your AEM pages collect data. 
 
 ![](assets/aa-07.png)
 
@@ -279,7 +279,7 @@ When editing an Adobe Analytics configuration, you also need to press the **Edit
 
 ## Deleting Adobe Analytics Frameworks {#deleting-adobe-analytics-frameworks}
 
-To delete an Adobe Analytics framework, first [open it for editing](#editingadobeanalyticsconfigurationsandorframeworks).
+To delete an Adobe Analytics framework, first [open it for editing](#editing-adobe-analytics-configurations-and-or-frameworks).
 
 Then select **Delete Framework** from the **Page** tab of the sidekick.  
 

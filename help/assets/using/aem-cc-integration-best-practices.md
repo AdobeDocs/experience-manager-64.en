@@ -3,12 +3,12 @@ title: AEM and Creative Cloud Integration Best Practices
 seo-title: AEM and Creative Cloud Integration Best Practices
 description: Best practices for integrating an AEM instance with Adobe Creative Cloud to streamline asset transfer workflows and achieve maximum efficiency.
 seo-description: Best practices for integrating an AEM instance with Adobe Creative Cloud.
-uuid: dd908546-6f73-453c-a5eb-cb243e02ce4b
+uuid: 3ba62ff9-2097-4667-8181-0a6277325f32
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: b36a801c-8d60-4d09-ab92-655947089346
+discoiquuid: 39e4544e-47e7-4742-8afa-85247d0839b7
 index: y
 internal: n
 snippet: y
@@ -33,7 +33,7 @@ This document includes the following:
 
 You can also review the following best practices documents around specific types of integration in more depth:
 
-* [AEM Desktop App best practices](/assets/using/aem-desktop-app-best-practices)
+* [AEM Desktop App best practices](/assets/using/aem-desktop-app-best-practices.md)
 * [AEM to Creative Cloud folder sharing best practices](../../assets/using/aem-cc-folder-sharing-best-practices.md)
 
 ## Terms and definitions {#terms-and-definitions}
@@ -58,7 +58,7 @@ The terms used in this document may have a different meaning in other contexts. 
 
 The following types of integration are described in this guide:
 
-* **Integration 1 - [AEM Desktop App](/sites/administering/using/aem-desktop-app):** Linking AEM Assets with the desktop and desktop applications directly. It uses a network share that  is  mounted on the local  filesystem,  and maps assets from DAM into virtualized folders/files on the local disk share. This type of integration requires network connection on the user's desktop and direct user access to AEM (including AEM login).
+* **Integration 1 - [AEM Desktop App](/sites/administering/using/aem-desktop-app.md):** Linking AEM Assets with the desktop and desktop applications directly. It uses a network share that  is  mounted on the local  filesystem,  and maps assets from DAM into virtualized folders/files on the local disk share. This type of integration requires network connection on the user's desktop and direct user access to AEM (including AEM login).
 
 * **Integration 2 - [AEM / Creative Cloud folder sharing](../../sites/administering/using/creative-cloud.md):** Sharing AEM folders with Creative Cloud file storage, to let creative users access selected assets and provide new assets back into DAM. This type of integration does not require the creative user to have access / login to AEM, only their login with Adobe ID to Creative Cloud.
 
@@ -164,7 +164,7 @@ This is a brief summary of best practices for AEM & Creative Cloud Integration. 
 
 ### Best Practices for AEM Desktop App {#best-practices-for-aem-desktop-app}
 
-This is a brief summary of best practices for AEM Desktop App. Refer to [AEM Desktop App best practices](/assets/using/aem-desktop-app-best-practices) document for more information.
+This is a brief summary of best practices for AEM Desktop App. Refer to [AEM Desktop App best practices](/assets/using/aem-desktop-app-best-practices.md) document for more information.
 
 * **Understand how Desktop App works:** Linking between Web UI and desktop, repository mapping, asset caching, saving locally and uploading in background  
 
@@ -329,7 +329,7 @@ Note that this description refers to uploading files operationally (e.g., every 
 
 You can leverage the following capabilities if you want to upload assets in bulk:
 
-* To upload large/hierarchical folders, use AEM Desktop App, which provides a [Folder Upload](/sites/administering/using/aem-desktop-app#main-pars_title_f8d7) feature in the AEM Assets Web UI. You can also upload hierarchical folder structures. Assets are uploaded in background and, therefore, it is not tied to a web browser session
+* To upload large/hierarchical folders, use AEM Desktop App, which provides a [Folder Upload](/sites/administering/using/aem-desktop-app.md#main-pars_title_f8d7) feature in the AEM Assets Web UI. You can also upload hierarchical folder structures. Assets are uploaded in background and, therefore, it is not tied to a web browser session
 * If you want to upload a few files from a single folder, drag them directly from desktop to the Web UI or use the Create option in the AEM Assets web UI.
 
 >[!NOTE]
@@ -352,6 +352,6 @@ Please refer to the [Migration Guide](../../assets/using/assets-migration-guide.
 
 The following documents include best practices around specific integrations in greater detail:
 
-* [AEM Desktop App best practices](/assets/using/aem-desktop-app-best-practices)
+* [AEM Desktop App best practices](/assets/using/aem-desktop-app-best-practices.md)
 * [AEM to Creative Cloud folder sharing best practices](../../assets/using/aem-cc-folder-sharing-best-practices.md)
 

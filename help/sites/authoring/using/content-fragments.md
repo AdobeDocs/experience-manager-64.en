@@ -3,12 +3,12 @@ title: Page Authoring with Content Fragments
 seo-title: Page Authoring with Content Fragments
 description: AEM Content Fragments allow you to design, create, curate, and use page-independent content
 seo-description: AEM Content Fragments allow you to design, create, curate, and use page-independent content
-uuid: 92f6b2b9-1867-4fd3-a161-e6151299cec6
+uuid: 634d8bce-92dd-4a02-999c-445c8a73d394
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: fb1532cd-109a-43fb-a1dd-ca015c80b773
+discoiquuid: 8f83cc2e-d099-47ac-99cc-7c35ec30f2e1
 index: y
 internal: n
 snippet: y
@@ -81,7 +81,7 @@ The content fragments enable:
    >
    >An alternative method is to drag a specific content fragment directly onto the page. This will automatically create the associated component (Content Fragment).
 
-1. Initially the content from the **Main** Element and **Master** (variation) will be shown. You can [select other elements and/or variations](#selectingtheelementorvariation) as required.
+1. Initially the content from the **Main** Element and **Master** (variation) will be shown. You can [select other elements and/or variations](#selecting-the-element-or-variation) as required.
 
    ![](assets/cfm-6420-01.png)
 
@@ -152,9 +152,9 @@ This allows you to add extra content [in-between (i.e. in-between content)](../.
 
 For in-between content you can:
 
-* Add components from the [Components browser](../../../sites/authoring/using/author-environment-tools.md#componentsbrowser).
-* Add assets from the [Assets browser](../../../sites/authoring/using/author-environment-tools.md#assetsbrowser).
-* Use [Associated Content](#usingassociatedcontent) as a source for in-between content.
+* Add components from the [Components browser](../../../sites/authoring/using/author-environment-tools.md#components-browser).
+* Add assets from the [Assets browser](../../../sites/authoring/using/author-environment-tools.md#assets-browser).
+* Use [Associated Content](#using-associated-content) as a source for in-between content.
 
 >[!CAUTION]
 >
@@ -164,7 +164,7 @@ For in-between content you can:
 
 >[!NOTE]
 >
->You can also [insert visual assets (images) to the fragment itself](../../../assets/using/content-fragments-variations.md#insertingassetsintoyourfragment).
+>You can also [insert visual assets (images) to the fragment itself](../../../assets/using/content-fragments-variations.md#inserting-assets-into-your-fragment).
 >
 >Visual assets inserted into the fragment itself are attached to the preceding paragraph in the fragment. This means that you cannot position in-between content between a visual asset and the preceding paragraph.
 
@@ -181,11 +181,11 @@ For in-between content you can:
 
 ### Using Associated Content {#using-associated-content}
 
-If you have [associated content](../../../assets/using/content-fragments-assoc-content.md) with the [content fragment](../../../assets/using/content-fragments.md) these assets will be available from the side panel (after you place your fragment on the content page). Associated content is effectively a special source of content for of [in-between content](#addinginbetweencontent).
+If you have [associated content](../../../assets/using/content-fragments-assoc-content.md) with the [content fragment](../../../assets/using/content-fragments.md) these assets will be available from the side panel (after you place your fragment on the content page). Associated content is effectively a special source of content for of [in-between content](#adding-in-between-content).
 
 >[!NOTE]
 >
->There are various methods of adding [visual assets (e.g. images)](../../../assets/using/content-fragments.md#fragmentswithvisualassets) to the fragment and/or page.
+>There are various methods of adding [visual assets (e.g. images)](../../../assets/using/content-fragments.md#fragments-with-visual-assets) to the fragment and/or page.
 
 >[!NOTE]
 >
@@ -199,7 +199,7 @@ From here you can drag the assets to the required location (either to an existin
 
 ### Assets Inserted into the Fragment {#assets-inserted-into-the-fragment}
 
-If [assets (e.g. images) have been inserted into the fragment itself](/assets/using/content-fragments-authoring#InsertingAssetsintoyourFragment), then the options for editing these assets in the page editor is limited.
+If [assets (e.g. images) have been inserted into the fragment itself](/assets/using/content-fragments-authoring.md#insertingassetsintoyourfragment), then the options for editing these assets in the page editor is limited.
 
 For example, for an image you can
 

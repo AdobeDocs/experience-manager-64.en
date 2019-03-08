@@ -3,12 +3,12 @@ title: Opting Into Adobe Analytics and Adobe Target
 seo-title: Opting Into Adobe Analytics and Adobe Target
 description: Learn how to opt into Adobe Analytics and Adobe Target.
 seo-description: Learn how to opt into Adobe Analytics and Adobe Target.
-uuid: 7fd76e4e-c14a-4cc1-ab15-722b773e4757
+uuid: 445d35b3-1a97-409c-bb35-2d29558a5076
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: 44bb3873-5892-4f52-b4dd-5f7acb8b0c4a
+discoiquuid: d0ae2d74-f76d-4322-b217-e94af0f825fc
 index: y
 internal: n
 snippet: y
@@ -18,7 +18,7 @@ snippet: y
 
 AEM has an opt-in procedure to help you integrate with Adobe Analytics and Adobe Target. This is available out-of-the-box, as a pre-loaded task assigned to the administrator user group.
 
-When you log in as an administrator this task (**Configuring Analytics & Targeting**) is available from the [Inbox](../../../sites/authoring/using/inbox.md#outoftheboxadministrativetasks). Based on the credentials you supply, it helps you configure and integrate these services.
+When you log in as an administrator this task (**Configuring Analytics & Targeting**) is available from the [Inbox](../../../sites/authoring/using/inbox.md#out-of-the-box-administrative-tasks). Based on the credentials you supply, it helps you configure and integrate these services.
 
 You have the following options for configuring the integration:
 
@@ -41,7 +41,7 @@ For either option you need to provide the user account information and specify t
 
 >[!NOTE]
 >
->You can optionally provide Analytics and Target account information using a properties file that is read upon server startup. See [Providing Account Information Using a Properties File](../../../sites/administering/using/opt-in.md#providingaccountinformationusingapropertiesfile).
+>You can optionally provide Analytics and Target account information using a properties file that is read upon server startup. See [Providing Account Information Using a Properties File](../../../sites/administering/using/opt-in.md#providing-account-information-using-a-properties-file).
 
 When you opt into the integration, AEM performs the following tasks:
 
@@ -51,13 +51,13 @@ When you opt into the integration, AEM performs the following tasks:
 
 >[!NOTE]
 >
->AT.js is the default client library. This is configured under your [target cloud services configuration](../../../sites/administering/using/target-configuring.md#creatingatargetcloudconfiguration). 
+>AT.js is the default client library. This is configured under your [target cloud services configuration](../../../sites/administering/using/target-configuring.md#creating-a-target-cloud-configuration). 
 >
 >Adobe recommends that you use AT.js as the client library.
 
 To opt-in from the pre-loaded, out-of-the-box task:
 
-1. From your [Inbox, select and **Open** the Configure Analytics & Targeting](../../../sites/authoring/using/inbox.md#takingactiononanitem) task.
+1. From your [Inbox, select and **Open** the Configure Analytics & Targeting](../../../sites/authoring/using/inbox.md#taking-action-on-an-item) task.
 
    ![](assets/optin-01.png)
 
@@ -91,7 +91,7 @@ Opt out of the integration with Analytics and Target when you either:
 
 To opt out you need to complete the pre-loaded task:
 
-* From your [Inbox, select and **Complete** the Configure Analytics & Targeting](../../../sites/authoring/using/inbox.md#takingactiononanitem) task.
+* From your [Inbox, select and **Complete** the Configure Analytics & Targeting](../../../sites/authoring/using/inbox.md#taking-action-on-an-item) task.
 
 ## Providing Account Information Using a Properties File {#providing-account-information-using-a-properties-file}
 

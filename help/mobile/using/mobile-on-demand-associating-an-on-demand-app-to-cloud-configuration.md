@@ -3,12 +3,12 @@ title: Cloud Configuration
 seo-title: Cloud Configuration
 description: Associating an On-Demand App to a Cloud Configuration allows Adobe Experience Manager (AEM) to communicate directly with a Mobile On-Demand hosted project by establishing a two way link. Follow this page to learn more.
 seo-description: Associating an On-Demand App to a Cloud Configuration allows Adobe Experience Manager (AEM) to communicate directly with a Mobile On-Demand hosted project by establishing a two way link. Follow this page to learn more.
-uuid: bbaba9f1-8c82-4572-8157-d89554c44209
+uuid: 902be0ce-61e6-4944-a089-cbf8bca5e9af
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: authoring-on-demand-services-app
-discoiquuid: fcc94a17-9c26-4f05-9aec-e16b761e7bca
+discoiquuid: b6905f52-1e1f-4713-bad3-b563fba6f340
 index: y
 internal: n
 snippet: y

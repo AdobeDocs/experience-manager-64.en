@@ -3,11 +3,11 @@ title: Consistency and Traversal Checks
 seo-title: Consistency and Traversal Checks
 description: Learn how to perform consistency and traversal checks.
 seo-description: Learn how to perform consistency and traversal checks.
-uuid: e859b123-9161-4900-ba97-f9fc1bd16dac
+uuid: 7fe9d12e-b471-47d2-ab57-8032d1c911d6
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
-discoiquuid: 515386c1-880a-4bb7-b62e-a9e4f8c4c0ee
+discoiquuid: 3ddeb167-6f1b-4de8-af0e-aa8406e22eec
 index: y
 internal: n
 snippet: y

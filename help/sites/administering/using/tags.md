@@ -3,12 +3,12 @@ title: Administering Tags
 seo-title: Administering Tags
 description: Learn how to administer Tags in AEM.
 seo-description: Learn how to administer Tags in AEM.
-uuid: 26d0453d-4f22-4ae8-a947-be15cc3b9074
+uuid: ffc669de-08e1-4946-8ba5-191ba811aebb
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: content
 content-type: reference
-discoiquuid: 46b49ef2-4817-480d-8cfb-34eb273734df
+discoiquuid: c7c7d3be-4d3d-496c-b405-be844334acd8
 index: y
 internal: n
 snippet: y
@@ -28,7 +28,7 @@ In addition to pages and assets, tags are used for AEM Communities features
 
 * user generated content (see [Tagging UGC)](../../../communities/using/tag-ugc.md)  
 
-* Enablement Resources (see [Tagging Enablement Resources](../../../communities/using/functions.md#catalogfunction))
+* Enablement Resources (see [Tagging Enablement Resources](../../../communities/using/functions.md#catalog-function))
 
 ## Tag Features {#tag-features}
 
@@ -77,7 +77,7 @@ To access the Tagging console :
 
 To create a new namespace, select the **`Create Namespace`** icon.
 
-The namespace is itself a tag, and need not contain any sub-tags. However, to continue creating a taxonomy, [create sub-tags](#creatingtags), which in turn may be either leaf tags or container tags.
+The namespace is itself a tag, and need not contain any sub-tags. However, to continue creating a taxonomy, [create sub-tags](#creating-tags), which in turn may be either leaf tags or container tags.
 
 ![](assets/chlimage_1-183.png) ![](assets/creating_tags_andnamespaces.png)
 
@@ -98,15 +98,15 @@ Once the required information is entered
 
 Selecting a namespace or other tag makes available the following operations :
 
-* [View Properties](#viewingtagproperties)
-* [References](#showingtagreferences)
-* [Create Tag](#creatingtags)
-* [Edit](#editingtags)
-* [Move](#movingtags)
-* [Merge](#mergingtags)
-* [Publish](#publishingtags)
-* [Unpublish](#unpublishingtags)
-* [Delete](#deletingtags)
+* [View Properties](#viewing-tag-properties)
+* [References](#showing-tag-references)
+* [Create Tag](#creating-tags)
+* [Edit](#editing-tags)
+* [Move](#moving-tags)
+* [Merge](#merging-tags)
+* [Publish](#publishing-tags)
+* [Unpublish](#unpublishing-tags)
+* [Delete](#deleting-tags)
 
 ![](assets/chlimage_1-184.png)
 
@@ -175,7 +175,7 @@ When a namespace or other tag is selected, it is possible to alter the Title, De
 
 After edits are made, select **Save**.
 
-For details about adding language translations, see the section on [Managing Tags in Different Languages](#managingtagsindifferentlanguages).
+For details about adding language translations, see the section on [Managing Tags in Different Languages](#managing-tags-in-different-languages).
 
 ![](assets/chlimage_1-196.png) 
 
@@ -187,7 +187,7 @@ When a namespace or other tag is selected, selecting the **`Move`** icon will al
 
 >[!NOTE]
 >
->It is recommended that Authors only be allowed to [edit](#editingtags) the tag's `title`, not to move or rename tags.
+>It is recommended that Authors only be allowed to [edit](#editing-tags) the tag's `title`, not to move or rename tags.
 
 ![](assets/chlimage_1-198.png)
 
@@ -231,7 +231,7 @@ When a namespace or other tag is selected, selecting the **`Merge`**icon will op
 
 When a namespace or other tag is selected, selecting the **`Publish`**icon to activate the tag in the publish environment. Similar to page content, only the selected tag is published, regardless of whether it is a container tag or not.
 
-To publish a taxonomy (a namespace and sub-tags), the best practice is to create a [package](../../../sites/administering/using/package-manager.md) of the namespace (see [Taxonomy Root Node](../../../sites/developing/using/framework.md#taxonomyrootnode)). Be sure to [apply permissions](#settingtagpermissions) to the namespace before creating the package.
+To publish a taxonomy (a namespace and sub-tags), the best practice is to create a [package](../../../sites/administering/using/package-manager.md) of the namespace (see [Taxonomy Root Node](../../../sites/developing/using/framework.md#taxonomy-root-node)). Be sure to [apply permissions](#setting-tag-permissions) to the namespace before creating the package.
 
 ### Unpublishing Tags {#unpublishing-tags}
 
@@ -252,7 +252,7 @@ Tag permissions are ['secure (by default)'](../../../sites/administering/using/p
 * on author instance
 
     * sign in with administrative privileges
-    * access the [Security Console](../../../sites/administering/using/security.md#accessinguseradministrationwiththesecurityconsole),
+    * access the [Security Console](../../../sites/administering/using/security.md#accessing-user-administration-with-the-security-console),
 
         * for example, browse to http://localhost:4502/useradmin
 
@@ -269,7 +269,7 @@ Tag permissions are ['secure (by default)'](../../../sites/administering/using/p
 
 * ensure all publish instances have same permissions
 
-    * one approach is to [create a package](../../../sites/administering/using/package-manager.md#packagemanager) of the namespace on author
+    * one approach is to [create a package](../../../sites/administering/using/package-manager.md#package-manager) of the namespace on author
 
         * on `Advanced` tab, for `AC Handling` select `Overwrite`
 
@@ -285,7 +285,7 @@ The `title`property of a tag may be translated into multiple languages. Once tra
 
 The following describes how to translate the `title`of the tag **Animals** from English into German and French.
 
-Start by selecting the tag under the **Stock Photography** namespace and selecting the **`Edit`**icon (see [Editing Tags](#editingtags) section).
+Start by selecting the tag under the **Stock Photography** namespace and selecting the **`Edit`**icon (see [Editing Tags](#editing-tags) section).
 
 The Edit Tag panel presents the ability to choose languages into which the tag title is to be localized.
 
@@ -295,11 +295,11 @@ Once all translations are entered, select **Save **to exit edit mode.
 
 ![](assets/chlimage_1-205.png)
 
-In general, the language chosen for the tag is taken from the page language, when available. When the [ `tag` widget](../../../sites/developing/using/building.md#taggingontheclientside) is used in other cases (for example in forms or in dialogs), the tag language depends on the context.
+In general, the language chosen for the tag is taken from the page language, when available. When the [ `tag` widget](../../../sites/developing/using/building.md#tagging-on-the-client-side) is used in other cases (for example in forms or in dialogs), the tag language depends on the context.
 
 Instead of using the page language setting, the Tagging console uses the user language setting. In the Tagging console, for the 'Animals' tag, 'Animaux' would be displayed for a user who sets the language to French in their user properties.
 
-To add a new language to the dialog, see [Adding a New Language to the Edit Tag Dialog](../../../sites/developing/using/building.md#addinganewlanguagetotheedittagdialog).
+To add a new language to the dialog, see [Adding a New Language to the Edit Tag Dialog](../../../sites/developing/using/building.md#adding-a-new-language-to-the-edit-tag-dialog).
 
 >[!NOTE]
 >

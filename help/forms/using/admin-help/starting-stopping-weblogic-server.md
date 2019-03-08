@@ -3,12 +3,12 @@ title: Starting and stopping WebLogic Server
 seo-title: Starting and stopping WebLogic Server
 description: Several procedures require you to start or stop the instance of WebLogic Server where you want to deploy AEM forms modules. This document describes how to start and stop the WebLogic Server.
 seo-description: Several procedures require you to start or stop the instance of WebLogic Server where you want to deploy AEM forms modules. This document describes how to start and stop the WebLogic Server.
-uuid: 4f8acc1c-4e32-4381-a437-d9477547c35f
+uuid: f5a6e82a-c46c-4e3f-9cf7-7c50d4f0b3a1
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/maintaining_the_application_server
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: fd0501de-d6c1-41db-a3bd-0dd20354a6b2
+discoiquuid: 669ce0d3-4cfd-4fb8-b708-c47fcb0fedbd
 index: y
 internal: n
 snippet: y

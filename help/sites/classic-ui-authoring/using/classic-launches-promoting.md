@@ -3,12 +3,12 @@ title: Promoting Launches
 seo-title: Promoting Launches
 description: You need to promote launch pages to move the content back into the source (production) before publishing. When a launch page is promoted, the corresponding page of the source pages is replaced with the content of the promoted page.
 seo-description: You need to promote launch pages to move the content back into the source (production) before publishing. When a launch page is promoted, the corresponding page of the source pages is replaced with the content of the promoted page.
-uuid: 5955b6fc-6f75-453b-aaa5-e2d784fc458b
+uuid: 7ca9cb64-ca46-4b5a-8f10-f4716df0ab9e
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
-discoiquuid: b5ec3255-2b85-4dbf-8350-854b45b168a6
+discoiquuid: 44a50232-6844-43f5-88ba-0486ad6187c9
 legacypath: /content/docs/en/aem/6-0/author/site-page-features/launches
 index: y
 internal: n

@@ -3,12 +3,12 @@ title: Authoring Pages
 seo-title: Authoring Pages
 description: "There are two overviews to authoring with AEM: First Steps for Authors - an introduction for new authors and Quick Guide to Authoring Pages - a quick guide (high-level) to the main actions."
 seo-description: "There are two overviews to authoring with AEM: First Steps for Authors - an introduction for new authors and Quick Guide to Authoring Pages - a quick guide (high-level) to the main actions."
-uuid: 025a0b74-dd1c-4ce3-993c-b77058bf636b
+uuid: 9f8eb9fa-798c-4269-8f5c-a3c9798f1f38
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: 23c80557-cf13-46cc-bc78-472f9819d82a
+discoiquuid: 5ba6bbdd-6a72-4b15-87c9-cdb38c9f8102
 index: y
 internal: n
 snippet: y
@@ -24,7 +24,7 @@ The following provide two types of overview to authoring with AEM:
 
 >[!NOTE]
 >
->This section covers the tasks involved when authoring a content page. There are many additional features closely related to page authoring, these are covered under [Site and Page Features](/sites/classic-ui-authoring/using/classic-feature).
+>This section covers the tasks involved when authoring a content page. There are many additional features closely related to page authoring, these are covered under [Site and Page Features](/sites/classic-ui-authoring/using/classic-feature.md).
 
 ## Quick Overview of Features Used for Authoring Pages {#quick-overview-of-features-used-for-authoring-pages}
 

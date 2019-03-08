@@ -3,12 +3,12 @@ title: Administering Screens
 seo-title: Administering Screens
 description: This page serves as a landing for Administering AEM Screens. Follow this page to learn about administrative roles associated with AEM Screens.
 seo-description: This page serves as a landing for Administering AEM Screens. Follow this page to learn about administrative roles associated with AEM Screens.
-uuid: 8b278f7a-03f3-4a66-bd61-ac4d156f688b
+uuid: 04f5031e-b46b-4b78-b59d-6e6346b99ecc
 contentOwner: Jyotika Syal
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 content-type: reference
 topic-tags: administering
-discoiquuid: 438b454c-2df5-43f6-80f7-8b8480cbe329
+discoiquuid: db7e2215-e5bf-4a13-b147-ec7f1d17411f
 index: y
 internal: n
 snippet: y

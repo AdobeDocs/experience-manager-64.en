@@ -3,12 +3,12 @@ title: Using Comments
 seo-title: Using Comments
 description: Comments feature lets signed-in site visitors share their opinions and knowledge
 seo-description: Comments feature lets signed-in site visitors share their opinions and knowledge
-uuid: 693e5677-67b6-4b85-98c6-f40952bbb30b
+uuid: 76948af4-5eb7-4c4a-a12c-903f54219cb9
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
-discoiquuid: a0a09097-50ea-4d43-9bec-c4ed09a6f600
+discoiquuid: d10bd3f5-a2e7-4a89-9e0a-6a6b5d7e9f08
 index: y
 internal: n
 snippet: y
@@ -39,7 +39,7 @@ and drag it into place on a page, such as a position relative to the feature for
 
 For necessary information, visit [Communities Components Basics](../../communities/using/basics.md).
 
-When the [required client-side libraries](../../communities/using/essentials-comments.md#essentialsforclientside) are included, this is how the `Comments`component will appear.
+When the [required client-side libraries](../../communities/using/essentials-comments.md#essentials-for-client-side) are included, this is how the `Comments`component will appear.
 
 ![](assets/chlimage_1-428.png)
 
@@ -147,7 +147,7 @@ Under the **Resource Types **tab, specify the custom resourceType for new instan
   This resource will identify the resource type of the UGC created when a visitor posts a vote.
 
 * **Comment System Resource Type** 
-  Navigate to the resourceType of an extended `comments`component (Comment System) in /apps. Leave blank unless the page template [dynamically includes](../../communities/using/scf.md#addorincludeacommunitiescomponent) the Comment System in the underlying script instead of being added to the page as a resource (comments node). Learn more by reading about the [{{include}} helper](../../communities/using/handlebars-helpers.md#include).
+  Navigate to the resourceType of an extended `comments`component (Comment System) in /apps. Leave blank unless the page template [dynamically includes](../../communities/using/scf.md#add-or-include-a-communities-component) the Comment System in the underlying script instead of being added to the page as a resource (comments node). Learn more by reading about the [{{include}} helper](../../communities/using/handlebars-helpers.md#include).
 
 ### Site Visitor Experience {#site-visitor-experience}
 

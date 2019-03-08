@@ -3,12 +3,12 @@ title: Dialog Editor
 seo-title: Dialog Editor
 description: The dialog editor provides a graphical interface for easily creating and editing dialog boxes and scaffolds
 seo-description: The dialog editor provides a graphical interface for easily creating and editing dialog boxes and scaffolds
-uuid: 36a2b516-544d-4377-8efd-7817971e14dc
+uuid: 1a214312-72c0-4b65-905b-1daaafe2c84d
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: development-tools
 content-type: reference
-discoiquuid: 6515bb72-6902-4879-b007-2e11e754671d
+discoiquuid: 6457e0dd-964f-4c15-ab05-35666aff0cff
 index: y
 internal: n
 snippet: y

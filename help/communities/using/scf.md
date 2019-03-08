@@ -3,12 +3,12 @@ title: Social Component Framework
 seo-title: Social Component Framework
 description: The social component framework (SCF) simplifies the process of configuring, customizing, and extending Communities components
 seo-description: The social component framework (SCF) simplifies the process of configuring, customizing, and extending Communities components
-uuid: 98496a19-2cf0-41a8-a147-f93f92bcf2fa
+uuid: 4cb7c585-9088-47f2-a41f-106f1560a9f0
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: fe20bb7e-8bc7-4cfe-9faa-25fa148983a6
+discoiquuid: 41d6f0d1-a50d-4ee1-97f9-bab84de710e1
 index: y
 internal: n
 snippet: y
@@ -49,7 +49,7 @@ To customize or extend the components, you write only the overlays and extension
 
 * for Skinning
 
-    * only the [CSS needs editing](../../communities/using/client-customize.md#skinningcss)
+    * only the [CSS needs editing](../../communities/using/client-customize.md#skinning-css)
 
 * for Look and Feel
 
@@ -57,20 +57,20 @@ To customize or extend the components, you write only the overlays and extension
 
 * for Look, Feel and UX
 
-    * change the JS Template, CSS and [extend/override Javascript](../../communities/using/client-customize.md#extendingjavascript)
+    * change the JS Template, CSS and [extend/override Javascript](../../communities/using/client-customize.md#extending-javascript)
 
 * to modify the information availble to the JS Template or to the GET endpoint
 
-    * extend the [SocialComponent](../../communities/using/server-customize.md#socialcomponentinterface)
+    * extend the [SocialComponent](../../communities/using/server-customize.md#socialcomponent-interface)
 
 * to add custom processing during operations
 
-    * write an [OperationExtension](../../communities/using/server-customize.md#operationextensionclass)
+    * write an [OperationExtension](../../communities/using/server-customize.md#operationextension-class)
 
 * to add a new custom operation
 
-    * create a new [Sling Post Operation](../../communities/using/server-customize.md#postoperationclass)
-    * use existing [OperationServices](../../communities/using/server-customize.md#operationserviceclass) as needed
+    * create a new [Sling Post Operation](../../communities/using/server-customize.md#postoperation-class)
+    * use existing [OperationServices](../../communities/using/server-customize.md#operationservice-class) as needed
     * add Javascript code to invoke your operation from the client side as needed
 
 ## Server-Side Framework {#server-side-framework}
@@ -163,7 +163,7 @@ The result is a JCR child node under a par node, which is Sling addressable.
 
 **Include a Component**
 
-Including a component refers to the process of adding a reference to a ["non-existing" resource](../../communities/using/srp.md#fornonexistingresourcesners) (no JCR node) within the template, such as using a scripting language.
+Including a component refers to the process of adding a reference to a ["non-existing" resource](../../communities/using/srp.md#for-non-existing-resources-ners) (no JCR node) within the template, such as using a scripting language.
 
 As of AEM 6.1, when a component is dynamically included instead of added, it is possible to edit the component's properties in author *design *mode.
 
@@ -221,11 +221,11 @@ For customizing the appearance and behavior of a Communities component on the cl
 * [Overlays](../../communities/using/client-customize.md#overlays)
 * [Extensions](../../communities/using/client-customize.md#extensions)
 * [HTML Markup](../../communities/using/client-customize.md#htmlmarkup)
-* [Skinning CSS](../../communities/using/client-customize.md#skinningcss)
-* [Extending Javascript](../../communities/using/client-customize.md#extendingjavascript)** 
+* [Skinning CSS](../../communities/using/client-customize.md#skinning-css)
+* [Extending Javascript](../../communities/using/client-customize.md#extending-javascript)** 
   **
 
-* [Clientlibs for SCF](../../communities/using/client-customize.md#clientlibsforscf)
+* [Clientlibs for SCF](../../communities/using/client-customize.md#clientlibs-for-scf)
 
 ## Feature and Component Essentials {#feature-and-component-essentials}
 

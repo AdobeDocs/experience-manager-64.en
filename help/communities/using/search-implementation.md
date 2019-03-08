@@ -3,12 +3,12 @@ title: Search Essentials
 seo-title: Search Essentials
 description: Search in Communities
 seo-description: Search in Communities
-uuid: 0f019b1d-8f6b-4cae-abce-342bb78ba5e2
+uuid: 004d30e7-fa2a-48e1-bccc-a2a80dc4c8ac
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 3e02a227-c9fc-4538-a2b1-0f4bf571f6fb
+discoiquuid: 741bbdc1-e4c7-4584-bade-504499a36a26
 index: y
 internal: n
 snippet: y
@@ -18,7 +18,7 @@ snippet: y
 
 ## Overview {#overview}
 
-The search feature is an essential feature of AEM Communities. In addition to the [AEM platform search](../../sites/deploying/using/queries-and-indexing.md) capabilities, AEM Communities provides the [UGC search API](#ugcsearchapi) for the purpose of searching user generated content (UGC). UGC has unique properties as it is entered and stored separately from other AEM content and user data.
+The search feature is an essential feature of AEM Communities. In addition to the [AEM platform search](../../sites/deploying/using/queries-and-indexing.md) capabilities, AEM Communities provides the [UGC search API](#ugc-search-api) for the purpose of searching user generated content (UGC). UGC has unique properties as it is entered and stored separately from other AEM content and user data.
 
 For Communities, the two things generally searched for are
 
@@ -34,7 +34,7 @@ This section of the documentation is of interest to developers who are creating 
 
 ## Security and Shadow Nodes {#security-and-shadow-nodes}
 
-For a custom component, it is necessary to use the [SocialResourceUtilities](../../communities/using/socialutils.md#socialresourceutilitiespackage) methods. The utility methods that create and search for UGC will establish the required [shadow nodes](../../communities/using/srp.md#aboutshadownodesinjcr) and ensure the member has the correct permissions for the request.
+For a custom component, it is necessary to use the [SocialResourceUtilities](../../communities/using/socialutils.md#socialresourceutilities-package) methods. The utility methods that create and search for UGC will establish the required [shadow nodes](../../communities/using/srp.md#about-shadow-nodes-in-jcr) and ensure the member has the correct permissions for the request.
 
 What is not managed through the SRP utilities are properties related to moderation.
 
@@ -42,15 +42,15 @@ See [SRP and UGC Essentials](../../communities/using/srp-and-ugc.md) for informa
 
 ## UGC Search API {#ugc-search-api}
 
-The [UGC common store](../../communities/using/working-with-srp.md) is provided by one of a variety of storage resource providers (SRPs), each possibly having a different native query language. Therefore, regardless of the SRP chosen, custom code should use methods from the [UGC API package](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/ugc/api/package-summary) (*com.adobe.cq.social.ugc.api*) which will invoke the query language appropriate for the chosen SRP.
+The [UGC common store](../../communities/using/working-with-srp.md) is provided by one of a variety of storage resource providers (SRPs), each possibly having a different native query language. Therefore, regardless of the SRP chosen, custom code should use methods from the [UGC API package](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/ugc/api/package-summary.md) (*com.adobe.cq.social.ugc.api*) which will invoke the query language appropriate for the chosen SRP.
 
 ### ASRP Searches {#asrp-searches}
 
-For [ASRP](../../communities/using/asrp.md), UGC is stored in the Adobe cloud. While UGC is not visible in CRX, [moderation](../../communities/using/moderate-ugc.md) is available from both the author and publish environments. The use of the [UGC search API](#ugcsearchapi) works for ASRP the same as for other SRPs.
+For [ASRP](../../communities/using/asrp.md), UGC is stored in the Adobe cloud. While UGC is not visible in CRX, [moderation](../../communities/using/moderate-ugc.md) is available from both the author and publish environments. The use of the [UGC search API](#ugc-search-api) works for ASRP the same as for other SRPs.
 
 Tools do not currently exist for managing ASRP searches.
 
-When creating custom properties that are searchable, it is necessary to adhere to the [naming requirements](#namingofcustomproperties).
+When creating custom properties that are searchable, it is necessary to adhere to the [naming requirements](#naming-of-custom-properties).
 
 ### MSRP Searches {#msrp-searches}
 
@@ -61,11 +61,11 @@ Regarding MSRP and Solr :
 * the embedded Solr for the AEM platform is not used for MSRP
 * if using a remote Solr for the AEM platform, it may be shared with MSRP, but they should use different collections
 * Solr may be configured for standard search or for multilingual search (MLS)
-* for configuration details, see [Solr Configuration](../../communities/using/msrp.md#solrconfiguration) for MSRP
+* for configuration details, see [Solr Configuration](../../communities/using/msrp.md#solr-configuration) for MSRP
 
-Custom search features should use the [UGC search API](#ugcsearchapi).
+Custom search features should use the [UGC search API](#ugc-search-api).
 
-When creating custom properties that are searchable, it is necessary to adhere to the [naming requirements](#namingofcustomproperties).
+When creating custom properties that are searchable, it is necessary to adhere to the [naming requirements](#naming-of-custom-properties).
 
 ### JSRP Searches {#jsrp-searches}
 
@@ -75,13 +75,13 @@ Since UGC is typically entered in the publish environment, for multi-publisher p
 
 For JSRP, UGC entered in the publish environment will never be visible in the author environment. Thus all [moderation](../../communities/using/moderate-ugc.md) tasks take place in the publish environment.
 
-Custom search features should use the [UGC search API](#ugcsearchapi).
+Custom search features should use the [UGC search API](#ugc-search-api).
 
 #### Oak Indexing {#oak-indexing}
 
 While Oak indices are not automatically created for the AEM platform search, as of AEM 6.2 they have been added for AEM Communities to improve performance and provide support for pagination when presenting UGC search results.
 
-If custom properties are in use and searches are slow, then additional indices would need to be created for the custom properties to make them more performant. To maintain portability, adhere to the [naming requirements](#namingofcustomproperties) when creating custom properties that are searchable.
+If custom properties are in use and searches are slow, then additional indices would need to be created for the custom properties to make them more performant. To maintain portability, adhere to the [naming requirements](#naming-of-custom-properties) when creating custom properties that are searchable.
 
 To modify existing indices or create custom indices, refer to [Oak Queries and Indexing](../../sites/deploying/using/queries-and-indexing.md).
 
@@ -134,7 +134,7 @@ Following are some of the searchable properties used for various Communities fea
 
 ### Naming of Custom Properties {#naming-of-custom-properties}
 
-When adding custom properties, in order for those properties to be visible to sorts and searches created with the [UGC search API](#ugcsearchapi), it is *required *to add a suffix to the property name.
+When adding custom properties, in order for those properties to be visible to sorts and searches created with the [UGC search API](#ugc-search-api), it is *required *to add a suffix to the property name.
 
 The suffix is for query languages which use a schema :
 

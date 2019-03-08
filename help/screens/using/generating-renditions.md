@@ -3,12 +3,12 @@ title: Video Renditions
 seo-title: Video Renditions
 description: Follow this page to learn about generating full HD renditions for your Screens project.
 seo-description: Follow this page to learn about generating full HD renditions for your Screens project.
-uuid: 153415b5-5d39-4b17-93cd-dac4365bdb47
+uuid: 6ca797a2-cbde-4210-8401-8fe640ed66e5
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: authoring
-discoiquuid: d022b73d-4463-4082-99ef-c8b9afbddd99
+discoiquuid: 06fe621e-1a3d-4d55-8355-9abaffe011bc
 index: y
 internal: n
 snippet: y

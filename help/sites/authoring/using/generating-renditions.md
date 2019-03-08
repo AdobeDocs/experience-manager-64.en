@@ -3,9 +3,9 @@ title: REDIRECT Video Renditions
 seo-title: REDIRECT Video Renditions
 description: null
 seo-description: null
-uuid: 3f921c7f-602d-41ed-8548-54b506737553
+uuid: fae99170-c18f-4a53-8fc0-b633437d6aba
 contentOwner: jsyal
-discoiquuid: 1d3cf6b6-0205-46e7-85eb-e35a1d309cc2
+discoiquuid: fde3d1fc-3b03-40c3-bcb7-4e9f44638225
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/screens/using/generating-renditions
 index: y

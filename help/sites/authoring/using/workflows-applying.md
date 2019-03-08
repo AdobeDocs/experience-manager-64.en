@@ -3,12 +3,12 @@ title: Applying Workflows to Pages
 seo-title: Applying Workflows to Pages
 description: When authoring, you can invoke workflows to take action on your pages; it is also possible to apply more than one workflow..
 seo-description: When authoring, you can invoke workflows to take action on your pages; it is also possible to apply more than one workflow..
-uuid: c2ad5fcd-61d9-4e19-b9e8-fc98168ed3d4
+uuid: 954261e0-02fe-41ba-b3d3-560ca354d988
 contentOwner: Alison Heimoz
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
-discoiquuid: 6d2d004e-d301-476b-bbdd-9135fd9e0bfb
+discoiquuid: 41f25d4f-b1b8-43d0-9ab6-1c87a9d4d6c7
 index: y
 internal: n
 snippet: y
@@ -27,8 +27,8 @@ When you apply the workflow, you specify the following information:
 
 Workflows can be started from:
 
-* [the **Sites** console](#startingaworkflowfromthesitesconsole).
-* [when editing a page, from **Page Information**](#startingaworkflowfromthepageeditor).
+* [the **Sites** console](#starting-a-workflow-from-the-sites-console).
+* [when editing a page, from **Page Information**](#starting-a-workflow-from-the-page-editor).
 
 >[!NOTE]
 >
@@ -46,12 +46,12 @@ Workflows can be started from:
 
 You can start a workflow from either:
 
-* [the **Create** option of the Sites toolbar](#startingaworkflowfromthesitestoolbar).
-* [the **Timeline** rail of the Sites console](#startingaworkflowfromthetimeline).
+* [the **Create** option of the Sites toolbar](#starting-a-workflow-from-the-sites-toolbar).
+* [the **Timeline** rail of the Sites console](#starting-a-workflow-from-the-timeline).
 
 In both cases you will need to:
 
-* [Specify the Workflow Details in the Create Workflow Wizard](#specifyingworkflowdetailsinthecreateworkflowwizard).
+* [Specify the Workflow Details in the Create Workflow Wizard](#specifying-workflow-details-in-the-create-workflow-wizard).
 
 ### Starting a Workflow from the Sites Toolbar {#starting-a-workflow-from-the-sites-toolbar}
 
@@ -63,7 +63,7 @@ You can start a workflow from the toolbar of the **Sites** console:
 
    ![](assets/screen_shot_2019-03-06at121237pm.png)
 
-1. The **Create Workflow** wizard will help you [specify the workflow details](#specifyingworkflowdetailsinthecreateworkflowwizard).
+1. The **Create Workflow** wizard will help you [specify the workflow details](#specifying-workflow-details-in-the-create-workflow-wizard).
 
 ### Starting a Workflow from the Timeline {#starting-a-workflow-from-the-timeline}
 
@@ -74,7 +74,7 @@ From the **Timeline** you can start a workflow to be applied to your selected re
 
    ![](assets/wf-51.png)
 
-1. The **Create Workflow** wizard will help you [specify the workflow details](#specifyingworkflowdetailsinthecreateworkflowwizard).
+1. The **Create Workflow** wizard will help you [specify the workflow details](#specifying-workflow-details-in-the-create-workflow-wizard).
 
 ### Specifying Workflow Details in the Create Workflow Wizard {#specifying-workflow-details-in-the-create-workflow-wizard}
 
@@ -82,8 +82,8 @@ The **Create Workflow** wizard will help you select the workflow and specify the
 
 After opening the **Create Workflow** wizard from either:
 
-* [the **Create** option of the Sites toolbar](#startingaworkflowfromthesitestoolbar).
-* [the **Timeline** rail of the Sites console](#startingaworkflowfromthetimeline).
+* [the **Create** option of the Sites toolbar](#starting-a-workflow-from-the-sites-toolbar).
+* [the **Timeline** rail of the Sites console](#starting-a-workflow-from-the-timeline).
 
 You can specify details:
 
@@ -103,7 +103,7 @@ You can specify details:
 
    >[!NOTE]
    >
-   >The **Keep workflow package** option is available when the workflow has been configured for [Multi Resource Support](../../../sites/developing/using/workflows-models.md#configuringaworkflowformultiresourcesupport) and multiple resources have been selected.
+   >The **Keep workflow package** option is available when the workflow has been configured for [Multi Resource Support](../../../sites/developing/using/workflows-models.md#configuring-a-workflow-for-multi-resource-support) and multiple resources have been selected.
 
    When complete, use **Next** to proceed.
 
@@ -111,7 +111,7 @@ You can specify details:
 
 1. In the **Scope** step you can select:
 
-    * **Add Content** to open the [path browser](../../../sites/authoring/using/author-environment-tools.md#pathbrowser) and select additional resources; when in the browser, click/tap **Select** to add the content to the workflow instance.
+    * **Add Content** to open the [path browser](../../../sites/authoring/using/author-environment-tools.md#path-browser) and select additional resources; when in the browser, click/tap **Select** to add the content to the workflow instance.
     
     * An existing resource to see additional actions:
 

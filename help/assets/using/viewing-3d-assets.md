@@ -3,12 +3,12 @@ title: Viewing 3D assets
 seo-title: Viewing 3D assets
 description: Learn about the interactive 3D viewer available from the asset details page in AEM and how to use it to view 3D assets.
 seo-description: Learn about the interactive 3D viewer available from the asset details page in AEM and how to use it to view 3D assets.
-uuid: 50f90bf9-7b4d-49a1-a3eb-b96c4c9f1f4f
+uuid: d3fb7bee-c03a-4d88-bfc9-dbd18d69f3c6
 contentOwner: Rick Brough
 topic-tags: 3D
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-discoiquuid: 66e754e1-6429-438b-8989-f9dd5fa4d041
+discoiquuid: ce5632f0-cbe1-4190-9f15-f77e8c2ec9f9
 index: y
 internal: n
 snippet: y
@@ -131,7 +131,7 @@ For more information, see the following:
 * [Touchpad devices](#touchpad-devices)
 * [Mouse and trackball devices](#mouse-and-trackball-devices)
 
-See also [Previewing a web page that has a 3D component](/assets/using/using-the-3d-sites-component.html?cq_ck=1531856703338#Previewingawebpagethathasa3Dcomponent).
+See also [Previewing a web page that has a 3D component](../../assets/using/using-the-3d-sites-component.md#previewing-a-web-page-that-has-a-d-component).
 
 ![](assets/screen_shot_2017-12-11at145654.png) 
 

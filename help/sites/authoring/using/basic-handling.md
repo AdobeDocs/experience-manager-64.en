@@ -3,12 +3,12 @@ title: Basic Handling
 seo-title: Basic Handling
 description: Get comfortable with navigating AEM and its basic usage
 seo-description: Get comfortable with navigating AEM and its basic usage
-uuid: 61b553e6-f099-41a7-82c5-effc38d50851
+uuid: b5944a4a-d31f-4743-834d-2e52f68aa71e
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
-discoiquuid: 46ac2a1c-3d96-4bdd-aa1f-0a4892a3b402
+discoiquuid: 08eeed7c-4733-473d-9e8a-e962b172edd2
 index: y
 internal: n
 snippet: y
@@ -83,11 +83,11 @@ The options available on these panels are described below.
   </tr>
   <tr>
    <td>Assets<br /> </td> 
-   <td>These consoles let you import and <a href="/assets/user-guide">manage digital assets</a> such as images, videos, documents and audio files. These assets can then be used by any website running on the same AEM instance. </td> 
+   <td>These consoles let you import and <a href="/assets/user-guide.md">manage digital assets</a> such as images, videos, documents and audio files. These assets can then be used by any website running on the same AEM instance. </td> 
   </tr>
   <tr>
    <td>Communities</td> 
-   <td>This console allows you to create and manage <a href="../../../communities/using/sites-console.md">community sites</a> for <a href="../../../communities/using/overview.md#engagementcommunity">engagement</a> and <a href="../../../communities/using/overview.md#enablementcommunity">enablement</a>.</td> 
+   <td>This console allows you to create and manage <a href="../../../communities/using/sites-console.md">community sites</a> for <a href="../../../communities/using/overview.md#engagement-community">engagement</a> and <a href="../../../communities/using/overview.md#enablement-community">enablement</a>.</td> 
   </tr>
   <tr>
    <td>Commerce</td> 
@@ -99,7 +99,7 @@ The options available on these panels are described below.
   </tr>
   <tr>
    <td>Forms</td> 
-   <td>This console allows you to create, manage, and process your <a href="/forms/user-guide">forms and documents</a>.</td> 
+   <td>This console allows you to create, manage, and process your <a href="/forms/user-guide.md">forms and documents</a>.</td> 
   </tr>
   <tr>
    <td>Personalization</td> 
@@ -158,7 +158,7 @@ The header is always present at the top of the screen. While most options in the
 
   >[!NOTE]
   >
-  >Out-of-the-box AEM comes pre-loaded with administrative tasks assigned to the administrator user group. See [Your Inbox - Out-of-the-Box Administrative Tasks](../../../sites/authoring/using/inbox.md#outoftheboxadministrativetasks) for details.
+  >Out-of-the-box AEM comes pre-loaded with administrative tasks assigned to the administrator user group. See [Your Inbox - Out-of-the-Box Administrative Tasks](../../../sites/authoring/using/inbox.md#out-of-the-box-administrative-tasks) for details.
 
 * [User Properties](../../../sites/authoring/using/user-properties.md)
 
@@ -224,7 +224,7 @@ There are various help resources available:
 
   Navigate this overview as you would the [product navigation overview](../../../sites/authoring/using/basic-handling.md#product-navigation) when first accessing any console.
 
-  From the [**Page Information** menu you can select **Help**](../../../sites/authoring/using/author-environment-tools.md#accessinghelp) to show this again at any time.
+  From the [**Page Information** menu you can select **Help**](../../../sites/authoring/using/author-environment-tools.md#accessing-help) to show this again at any time.
 
 * **Tools Console**
 
@@ -284,10 +284,10 @@ Viewing, navigating, and selecting are each conceptually the same across all vie
 
 You can view, navigate through, and select (for further action) your resources with any of the available views, each of which can be selected by the icon at the top right:
 
-* [Column View](#columnview)
-* [Card View](#cardview)  
+* [Column View](#column-view)
+* [Card View](#card-view)  
 
-* [List View](#listview)
+* [List View](#list-view)
 
 >[!NOTE]
 >
@@ -414,7 +414,7 @@ Selecting a resource in the leftmost column will display the child resources in 
 
         * Markers that indicate required actions may be related to entries in your [Inbox](../../../sites/authoring/using/inbox.md).
 
-* [Quick actions](#quickactions) are also available in this view such as selection and common actions such as edit.
+* [Quick actions](#quick-actions) are also available in this view such as selection and common actions such as edit.
 
   ![](assets/screen_shot_2018-03-23at104953-1.png)
 
@@ -513,7 +513,7 @@ The timeline column allows you to:
         * [Versions](../../../sites/authoring/using/working-with-page-versions.md)
         * [Workflows](../../../sites/authoring/using/workflows-applying.md)
 
-            * with the exception of [transient workflows](../../../sites/developing/using/workflows.md#transientworkflows) as no history information is saved for these
+            * with the exception of [transient workflows](../../../sites/developing/using/workflows.md#transient-workflows) as no history information is saved for these
 
         * and Show All
 

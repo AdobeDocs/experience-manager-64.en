@@ -3,10 +3,10 @@ title: Working with Models
 seo-title: Working with Models
 description: null
 seo-description: null
-uuid: 9b65c3df-9e13-4953-9de6-705e968ec564
+uuid: f1508146-595d-4456-b41b-fc763aa33d2e
 contentOwner: Jyotika Syal
 content-type: reference
-discoiquuid: abbeafcb-be58-4a77-bd3b-d93b8fe45869
+discoiquuid: c3a9b3ad-9ae2-4eff-ab81-65bc8945d282
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/mobile/using/administer-mobile-apps
 index: y
@@ -28,7 +28,7 @@ A model describes a type of content and denotes what will be information will be
 >
 >Models can only be created under nodes that have been enabled by the Configuration Browser. The Configuration Browser also allows permissions to be defined so different users may only have access to the creation of models under certain configurations.
 >
->See, **Enabling Data Models** in ** [Administering Content Services](/mobile/using/content-services)** for detailed steps.
+>See, **Enabling Data Models** in ** [Administering Content Services](/mobile/using/content-services.md)** for detailed steps.
 
 1.
 

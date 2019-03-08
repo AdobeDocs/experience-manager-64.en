@@ -3,13 +3,13 @@ title: Single Sign On
 seo-title: Single Sign On
 description: Learn how to configure Single Sign On (SSO) for an AEM instance.
 seo-description: Learn how to configure Single Sign On (SSO) for an AEM instance.
-uuid: 3a211c74-593a-445e-a4cb-cd6c1cc38c1d
+uuid: 2cb0bc0e-ccd1-4549-b71c-687c741ea915
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: configuring
 content-type: reference
 topic-tags: Security
-discoiquuid: aca5025c-afb2-4384-8c27-e861422e374a
+discoiquuid: da93803c-d9d8-4b00-b9a3-69fda8c68e37
 index: y
 internal: n
 snippet: y
@@ -89,7 +89,7 @@ To configure SSO for a AEM instance, you need to configure the [SSO Authenticati
 >* IIS
 >
 >In `disp_iis.ini` set:  
->(see [installing the Dispatcher with the Microsoft Internet Information Server](https://helpx.adobe.com/experience-manager/dispatcher/using/dispatcher-install.html#MicrosoftInternetInformationServer) for full details)  
+>(see [installing the Dispatcher with the Microsoft Internet Information Server](https://helpx.adobe.com/experience-manager/dispatcher/using/dispatcher-install.html#microsoft-internet-information-server) for full details)  
 
 >
 >* `servervariables=1` (forwards IIS server variables as request headers to the remote instance)

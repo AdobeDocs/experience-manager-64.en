@@ -3,12 +3,12 @@ title: Server-side Customization
 seo-title: Server-side Customization
 description: Customizing server-side in AEM Communities
 seo-description: Customizing server-side in AEM Communities
-uuid: 7ed661b3-1894-4f68-8c60-b03c6f3dc205
+uuid: b834a270-676c-4331-9d75-07a999693500
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 0d9712c0-01db-4465-95ea-8676895555b9
+discoiquuid: 727b592c-fbbf-4e78-9e44-d6ca5ad09e11
 index: y
 internal: n
 snippet: y

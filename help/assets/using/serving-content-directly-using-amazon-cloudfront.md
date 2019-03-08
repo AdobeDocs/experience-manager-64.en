@@ -4,11 +4,11 @@ seo-title: Enable Amazon Cloudfront to serve content
 description: Use S3-based datastore using AWS Cloudfront to directly serve content.
 seo-description: Use S3-based datastore using AWS Cloudfront to directly serve content.
 page-status-flag: never-activated
-uuid: 2d8ebc9b-1dfe-47e4-a007-94dba3be174d
+uuid: 5773de6d-27c5-4f02-85b2-f7e2488da43b
 contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
-discoiquuid: 220c6d6c-7de6-4120-a320-33429111a0cb
+discoiquuid: b79cea08-7b4a-40d3-a82b-1fe7d764db83
 index: y
 internal: n
 snippet: y

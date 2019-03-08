@@ -3,12 +3,12 @@ title: Liking Essentials
 seo-title: Liking Essentials
 description: Liking component overview
 seo-description: Liking component overview
-uuid: fabbaf66-5755-4940-8099-b5e3995b9790
+uuid: ebda0d4e-7261-4d0c-9ac6-fd3c433ff1e1
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 18354473-9288-4463-94f7-064936d58b3c
+discoiquuid: 01df1f7c-c3a0-40be-b4bd-7f5b30ed690f
 pagetitle: Liking Essentials
 index: y
 internal: n
@@ -32,11 +32,11 @@ Anonymous posting of a like is not supported. Site visitors must register and si
    <td>social/tally/components/hbs/liking</td> 
   </tr> 
   <tr> 
-   <td> <a href="../../communities/using/scf.md#addorincludeacommunitiescomponent"><strong>includable</strong></a></td> 
+   <td> <a href="../../communities/using/scf.md#add-or-include-a-communities-component"><strong>includable</strong></a></td> 
    <td>Yes - properties are editable in <i>design </i>mode</td> 
   </tr> 
   <tr> 
-   <td> <a href="../../communities/using/client-customize.md#clientlibsforscf"><strong>clientlibs</strong></a></td> 
+   <td> <a href="../../communities/using/client-customize.md#clientlibs-for-scf"><strong>clientlibs</strong></a></td> 
    <td> cq.social.hbs.liking</td> 
   </tr> 
   <tr> 
@@ -58,9 +58,9 @@ Anonymous posting of a like is not supported. Site visitors must register and si
 
 ## Essentials for Server-Side {#essentials-for-server-side}
 
-* [Tally APIs](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/tally/client/api/package-summary)
+* [Tally APIs](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/tally/client/api/package-summary.md)
 
-* [Tally Endpoints](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/tally/client/endpoints/package-summary)
+* [Tally Endpoints](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/tally/client/endpoints/package-summary.md)
 
 * [Server-side Customizations](../../communities/using/server-customize.md)
 

@@ -4,9 +4,9 @@ seo-title: Customizing Data Types for Content Fragment Models
 description: Data types used in Content Fragment Models can be customized.
 seo-description: Data types used in Content Fragment Models can be customized.
 page-status-flag: de-activated
-uuid: ac85149d-6972-447c-978d-fc97b14510af
+uuid: af5fb619-3318-4ecc-972c-04942a2a8935
 contentOwner: aheimoz
-discoiquuid: 1fa7985b-6d05-402a-937b-262334a7aaef
+discoiquuid: de111c26-6a16-4bc3-9dbd-683799ab6092
 noindex: true
 index: y
 internal: n
@@ -15,11 +15,11 @@ snippet: y
 
 # DO NOT PUBLISH, BUT DO NOT DELETE Customizing Data Types for Content Fragment Models{#do-not-publish-but-do-not-delete-customizing-data-types-for-content-fragment-models}
 
-[Content fragments](../../../assets/using/content-fragments.md) are based on [content fragment models](../../../assets/using/content-fragments-models.md). These models are built up from [elements](../../../assets/using/content-fragments.md#constituentpartsofacontentfragment) of different data types.
+[Content fragments](../../../assets/using/content-fragments.md) are based on [content fragment models](../../../assets/using/content-fragments-models.md). These models are built up from [elements](../../../assets/using/content-fragments.md#constituent-parts-of-a-content-fragment) of different data types.
 
 Various data types are available out-of-the-box, including single-line text, multi-line rich text, numerical fields, boolean selectors, dropdown menu options, date and time, and others. AEM users can select data types based on the editorial intent of the corresponding fragment(s). This allows you to cater for simple text models through to complex models with various different kinds of content, and the associated fragment authoring experience.
 
-Data types are defined by a [combination of node properties](#properties) held in [specific locations in the repository](#locationsintherepository). You can also create your own [data types](#creatingyourdatatype) and [fieldProperties](#creatingyourownfieldpropertiesproperty).
+Data types are defined by a [combination of node properties](#properties) held in [specific locations in the repository](#locations-in-the-repository). You can also create your own [data types](#creating-your-data-type) and [fieldProperties](#creating-your-own-fieldproperties-property).
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ You can add new data types by overlaying the node structure as follows under `/a
 
 Node properties are used to define the data types:
 
-* [Data Types Properties](#datatypeproperties)
+* [Data Types Properties](#data-type-properties)
 * and within those [fieldProperties](#fieldproperties-)
 
 ### Data Type Properties {#data-type-properties}
@@ -59,7 +59,7 @@ Each node under `/items` has properties that define how that data type should be
 All of the following properties must be present for the data type to be present in the model editor:
 
 * `fieldIcon`  
-  [CoralUI icon](/sites/developing/using/reference-materials/coral-ui/coralui3/Coral.Icon#availableIcons) to represent the data type in the model editor UI. 
+  [CoralUI icon](/sites/developing/using/reference-materials/coral-ui/coralui3/Coral.Icon#availableicons) to represent the data type in the model editor UI. 
 
 * ` [fieldProperties](#fieldproperties)`  
   An array that represents the configuration properties for each data type.  
@@ -216,12 +216,12 @@ The configuration properties for each data type. Values for `fieldProperties`:
 
 To create your own data type you need to:
 
-* [Create the Node Structure](#creatingthenodestructure)
-* [Define the Properties for your Data Type](#definingthepropertiesforyourdatatype)
+* [Create the Node Structure](#creating-the-node-structure)
+* [Define the Properties for your Data Type](#defining-the-properties-for-your-data-type)
 
-You can then [use your data type](#usingyourdatatype).
+You can then [use your data type](#using-your-data-type).
 
-You can also [create your own `fieldProperties`](#creatingyourownfieldpropertiesproperty).
+You can also [create your own `fieldProperties`](#creating-your-own-fieldproperties-property).
 
 ### Creating the Node Structure {#creating-the-node-structure}
 
@@ -251,11 +251,11 @@ The node structure must be created under `/apps` in order to overlay the data ty
 1. Under `/items` you can add new node(s) to represent your new data type(s):
 
     * Node Type: `nt:unstructured`
-    * ``Properties: see [Defining the Properties for your Data Type](#definingthepropertiesforyourdatatype)
+    * ``Properties: see [Defining the Properties for your Data Type](#defining-the-properties-for-your-data-type)
 
 ### Defining the Properties for your Data Type {#defining-the-properties-for-your-data-type}
 
-1. Determine values for the following [data type properties](#datatypeproperties) that are required for your data type:
+1. Determine values for the following [data type properties](#data-type-properties) that are required for your data type:
 
     * `fieldResourceType`
     * `fieldPropResourceType`
@@ -273,7 +273,7 @@ The node structure must be created under `/apps` in order to overlay the data ty
 
    Define these properties, with the approriate values, on the node for your data type.
 
-1. Determine values for the following [data type properties](#datatypeproperties):
+1. Determine values for the following [data type properties](#data-type-properties):
 
     * `fieldIcon`
     * `fieldTitle`

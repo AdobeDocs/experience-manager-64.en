@@ -3,12 +3,12 @@ title: Backing up and recovering the EMC Documentum repository
 seo-title: Backing up and recovering the EMC Documentum repository
 description: This document describes the tasks required to back up and recover the EMC Documentum repository configured for your AEM forms environment.
 seo-description: This document describes the tasks required to back up and recover the EMC Documentum repository configured for your AEM forms environment.
-uuid: 8eabaa64-ddc6-43f8-8269-4a07b73bcb88
+uuid: 8df98ed0-1ce7-41c5-ba4d-860d48586cb1
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/aem_forms_backup_and_recovery
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: a3a24c36-2642-4a70-b118-77a1975419d3
+discoiquuid: 846da5ea-c9a7-489b-b75a-74d0e60f5a7c
 index: y
 internal: n
 snippet: y
@@ -237,7 +237,7 @@ Perform the following tasks after you complete a full backup of your AEM forms d
 
 >[!NOTE]
 >
->The command scripts require the full path to the nsrnmd_win.cfg file that you created in [Preparing the EMC Document Content Server for backup and recovery](backing-recovering-emc-documentum-repository#preparing_the_emc_document_content_server_for_backup_and_recovery).
+>The command scripts require the full path to the nsrnmd_win.cfg file that you created in [Preparing the EMC Document Content Server for backup and recovery](backing-recovering-emc-documentum-repository.md#preparing_the_emc_document_content_server_for_backup_and_recovery).
 
 1. Open a command prompt, and change to *[NetWorker_root]*\Legato\nsr\bin.
 1. Run the following command:
@@ -252,7 +252,7 @@ Perform the following tasks before you restore your AEM forms data. (See [Recove
 
 >[!NOTE]
 >
->The command scripts require the full path to the nsrnmd_win.cfg file that you created in [Preparing the EMC Document Content Server for backup and recovery](backing-recovering-emc-documentum-repository#preparing_the_emc_document_content_server_for_backup_and_recovery).
+>The command scripts require the full path to the nsrnmd_win.cfg file that you created in [Preparing the EMC Document Content Server for backup and recovery](backing-recovering-emc-documentum-repository.md#preparing_the_emc_document_content_server_for_backup_and_recovery).
 
 1. Stop the Docbase service that you are restoring.
 1. Start the NetWorker User utility for your database module (for example, *NetWorker User for SQL Server*). 

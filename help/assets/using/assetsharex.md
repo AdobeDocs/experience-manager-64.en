@@ -3,12 +3,12 @@ title: Customizing Asset Share
 seo-title: Customizing Asset Share
 description: null
 seo-description: null
-uuid: 176ed0bf-52fc-4caf-8f62-02e2440ea615
+uuid: 597afbf0-aabf-43e0-bf4b-20329d62cfc4
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: extending-assets
 content-type: reference
-discoiquuid: db4770ce-6600-4b01-bc24-ff05f40f660b
+discoiquuid: 5761776e-b983-401e-a3b7-dd6e9b47f591
 index: y
 internal: n
 snippet: y
@@ -71,7 +71,7 @@ In addition to using pre-existing actions, AEM developers can also create their 
 
 ### Adding a custom action {#adding-a-custom-action}
 
-Creating custom actions requires basic knowledge about the [Widgets framework](/sites/developing/using/reference-materials/widgets-api/index).
+Creating custom actions requires basic knowledge about the [Widgets framework](/sites/developing/using/reference-materials/widgets-api/index.md).
 
 The best practice is to copy an existing action and adjust it. Sample actions are located in **/libs/cq/dam/assetshare/components/actions**. See also [Developing components](../../sites/developing/using/developing-components-samples.md).
 

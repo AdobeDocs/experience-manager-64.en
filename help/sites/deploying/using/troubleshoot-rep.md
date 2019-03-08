@@ -3,12 +3,12 @@ title: Troubleshooting Replication
 seo-title: Troubleshooting Replication
 description: This article provides information on how to troubleshoot replication issues.
 seo-description: This article provides information on how to troubleshoot replication issues.
-uuid: 17fba96a-a08a-4176-94ef-be8a4664842a
+uuid: 6bc7f086-de2f-431c-97a2-0305dd40e26d
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: configuring
-discoiquuid: a7cd3756-06ff-47de-a644-42cbac78bc1d
+discoiquuid: afd1767f-b62b-4a6e-a298-568b3d2dfac6
 index: y
 internal: n
 snippet: y
@@ -98,7 +98,7 @@ In general page permissions should not be replicated from the author to publish 
 
 In some cases the replication queue is blocked when trying to replicate namespace information from the author instance to the publish instance. This happens because the replication user does not have `jcr:namespaceManagement` privilege. To avoid this issue, make sure that:
 
-* The replication user (as configured under the [Transport](../../../sites/deploying/using/replication.md#replicationagentsconfigurationparameters) tab&gt;User) also exists on the Publish instance.
+* The replication user (as configured under the [Transport](../../../sites/deploying/using/replication.md#replication-agents-configuration-parameters) tab&gt;User) also exists on the Publish instance.
 * The user has read and write privileges at the path where the content is installed.
 * The user has `jcr:namespaceManagement` privilege at the repository level. You can grant the privilege as follows:
 

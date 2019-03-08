@@ -4,10 +4,10 @@ seo-title: DO NOT PUBLISH - Synchronize AEM Forms on JEE assets
 description: Learn how to synchronize AEM Forms on JEE Assets.
 seo-description: Learn how to synchronize AEM Forms on JEE Assets.
 page-status-flag: never-activated
-uuid: f3f0b8e5-b2af-41e7-8f16-470a397ad025
+uuid: 8c6932f8-3a32-48fc-a35c-ab90f7337469
 contentOwner: khsingh
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: df370069-ed9d-44ae-ad16-c14686952de1
+discoiquuid: ad67a574-1a9d-44c9-ba07-f0e0cdee632b
 index: y
 internal: n
 snippet: y
@@ -49,9 +49,9 @@ Perform the following steps to manually sync the assets:
 
 If an asset with the identical name already exists in AEM forms UI or the network connectivity is disturbed, the default synchronization process fails to synchronize the assets. These issues can happen during post-upgrade asset migration and while synchronizing assets:
 
-* Post upgrade asset migration is an automated process which migrates assets available in the shadow root of previous version of AEM Forms (/content/dam/formsanddocument) to the current version of AEM Forms. If AEM Forms Management User Interface and location /content/dam/formsanddocuments contains an application with the identical name, then the dialog box displayed below appears. To resolve the issue, delete or rename the conflicting application and run the [on-demand asset synchronization](/forms/using/synchronize-aem-forms-on-jee-assets-#main-pars_header) to manually synchronize the assets.
+* Post upgrade asset migration is an automated process which migrates assets available in the shadow root of previous version of AEM Forms (/content/dam/formsanddocument) to the current version of AEM Forms. If AEM Forms Management User Interface and location /content/dam/formsanddocuments contains an application with the identical name, then the dialog box displayed below appears. To resolve the issue, delete or rename the conflicting application and run the [on-demand asset synchronization](/forms/using/synchronize-aem-forms-on-jee-assets-.md#main-pars_header) to manually synchronize the assets.
 
 ![](assets/asset-sync-error-message.png)
 
-* If a folder with the identical name already exists in AEM Forms management user interface and in Workbench, then delete or rename the conflicting folder in LiveCycle Workbench or AEM Forms management user interface. After deleting or renaming the folder, run the o [n-demand asset synchronization](/forms/using/synchronize-aem-forms-on-jee-assets-) to manually synchronize the assets.
+* If a folder with the identical name already exists in AEM Forms management user interface and in Workbench, then delete or rename the conflicting folder in LiveCycle Workbench or AEM Forms management user interface. After deleting or renaming the folder, run the o [n-demand asset synchronization](/forms/using/synchronize-aem-forms-on-jee-assets-.md) to manually synchronize the assets.
 

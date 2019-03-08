@@ -3,12 +3,12 @@ title: Using the CRX2Oak Migration Tool
 seo-title: Using the CRX2Oak Migration Tool
 description: Learn how to use the CRX2Oak migration tool.
 seo-description: Learn how to use the CRX2Oak migration tool.
-uuid: f23fdc87-242b-4e95-bff1-7487c6c79a1b
+uuid: 6762cd72-70c0-46d4-aeab-69dac4d1c45b
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: upgrading
 content-type: reference
-discoiquuid: be974c1b-123c-4f8a-90f9-0274b7803872
+discoiquuid: 4eed8447-8762-4632-8c32-f3031ed0c853
 index: y
 internal: n
 snippet: y

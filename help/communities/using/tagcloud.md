@@ -3,12 +3,12 @@ title: Using Social Tag Cloud
 seo-title: Using Social Tag Cloud
 description: Adding a Social Tag Cloud component to a page
 seo-description: Adding a Social Tag Cloud component to a page
-uuid: cde03004-b035-4b1e-9c84-5c9af3dafce4
+uuid: 900c6230-f1dd-4511-a7bf-23fddc172ad8
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
-discoiquuid: bfddf338-3a1a-49ca-ac69-ac8762d54357
+discoiquuid: a506ad6a-9122-44bb-b9a7-2debea0eabce
 index: y
 internal: n
 snippet: y
@@ -38,7 +38,7 @@ and drag it into place on a page where the tag cloud should appear.
 
 For necessary information, visit [Communities Components Basics](../../communities/using/basics.md).
 
-When the [required client-side libraries](../../communities/using/tag.md#essentialsforclientside) are included, this is how the `Social Tag Cloud` component will appear :
+When the [required client-side libraries](../../communities/using/tag.md#essentials-for-client-side) are included, this is how the `Social Tag Cloud` component will appear :
 
 ![](assets/chlimage_1-303.png)
 

@@ -3,12 +3,12 @@ title: Create and Assign Enablement Resources
 seo-title: Create and Assign Enablement Resources
 description: Add enablement resources
 seo-description: Add enablement resources
-uuid: 7f5b806e-bb88-4fc9-85fd-1b0fb0b947c9
+uuid: 3529aa3b-764b-4be3-957c-245c9162412b
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: introduction
 content-type: reference
-discoiquuid: e8e9e6ec-5e51-4a2c-b01c-9675569523a6
+discoiquuid: 9ddc9cdb-3fc1-4818-ac08-0f3ff6e7c3c8
 index: y
 internal: n
 snippet: y

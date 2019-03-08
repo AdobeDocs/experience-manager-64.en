@@ -3,12 +3,12 @@ title: Keyboard Shortcuts when Editing Pages
 seo-title: Keyboard Shortcuts when Editing Pages
 description: Various keyboard shortcuts are available throughout AEM, including some for page editing
 seo-description: Various keyboard shortcuts are available throughout AEM, including some for page editing
-uuid: f993eeeb-0e62-4826-8aba-f05a93ac34a9
+uuid: 288eaca1-bbb7-4023-b631-51c306fac346
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: 42a2e650-218a-4051-b741-d3bd2aa51584
+discoiquuid: c4015062-da74-4610-88c4-c1215d0ac56f
 index: y
 internal: n
 snippet: y

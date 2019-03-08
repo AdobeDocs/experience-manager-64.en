@@ -3,12 +3,12 @@ title: Spin Sets
 seo-title: Spin Sets
 description: Learn how to work with spin sets in dynamic media
 seo-description: Learn how to work with spin sets in dynamic media
-uuid: 15367a5e-a37b-4535-9ff9-f06c758c19ed
+uuid: e28c5c89-1d40-4a59-a6ea-bbac53dbc519
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: 96f33773-cc0d-4c14-9334-165403ce04c8
+discoiquuid: 540498ae-1971-462d-b36b-a9d04a05ce90
 index: y
 internal: n
 snippet: y
@@ -32,11 +32,11 @@ Spin Sets are designated by a banner with the word **SPINSET**. In addition, if 
 
 To get you up and running quickly with Spin Sets, follow these steps:
 
-1. [Upload your images for multiple views.](#uploadingassetsforspinsets)
+1. [Upload your images for multiple views.](#uploading-assets-for-spin-sets)
 
    At minimum, you need 8-12 shots of an item for a one-dimensional Spin Set and 16-24 for a two-dimensional Spin Set. The shots must be taken at regular intervals to give the impression that the item is rotating and being flipped. For example, if a one-dimensional Spin Set includes 12 shots, rotate the item 30 degrees (360/12) for each shot.
 
-1. [Create Spin Sets.](#creatingspinsets)
+1. [Create Spin Sets.](#creating-spin-sets)
 
    To create a Spin Set, select **Create **&gt; **Spin Set** and then name the set, choose the assets, and choose the order the images appear.
 
@@ -54,7 +54,7 @@ To get you up and running quickly with Spin Sets, follow these steps:
 
    See [Adding and editing viewer presets.](../../assets/using/managing-viewer-presets.md)
 
-1. [Viewing Spin Sets](#viewingspinsets).
+1. [Viewing Spin Sets](#viewing-spin-sets).
 
    You can view and access sets created by way of batch set presets in three different ways. (Sets created using batch set presets, do **not** appear in the user interface.)
 
@@ -74,7 +74,7 @@ To get you up and running quickly with Spin Sets, follow these steps:
 
    See [Linking a Spin Set to a web page](../../assets/using/linking-urls-to-yourwebapplication.md) and [Embedding the Video or Image Viewer](../../assets/using/embed-code.md).
 
-If you need to, you can [edit Spin Sets](#editingspinsets). In addition, you can view and modify [Spin Set properties](../../assets/using/managing-assets-touch-ui.md#editingproperties).
+If you need to, you can [edit Spin Sets](#editing-spin-sets). In addition, you can view and modify [Spin Set properties](../../assets/using/managing-assets-touch-ui.md#editing-properties).
 
 ## Uploading Assets for Spin Sets {#uploading-assets-for-spin-sets}
 
@@ -155,7 +155,7 @@ You can create spin sets either in the user interface or automatically using [ba
 
 >[!NOTE]
 >
->You can also view sets by way of the user interface as described in [Editing Spin Sets](#editingspinsets).
+>You can also view sets by way of the user interface as described in [Editing Spin Sets](#editing-spin-sets).
 
 **To view Spin Sets:**
 

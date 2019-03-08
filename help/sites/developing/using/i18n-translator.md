@@ -3,12 +3,12 @@ title: Using Translator to Manage Dictionaries
 seo-title: Using Translator to Manage Dictionaries
 description: AEM provides a console for managing the various translations of texts used in component UI
 seo-description: AEM provides a console for managing the various translations of texts used in component UI
-uuid: a7652201-b941-49cf-9177-3964e4da43d3
+uuid: e7ca9c84-2ad1-40e7-91af-04eaeebf5819
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: components
-discoiquuid: bd338c9a-154f-4f3e-bf09-bf24f71d373d
+discoiquuid: 96e8cbd9-1020-48a2-a6e7-9b0ed07b0d03
 index: y
 internal: n
 snippet: y

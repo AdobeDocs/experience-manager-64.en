@@ -3,12 +3,12 @@ title: Configuring Segmentation
 seo-title: Configuring Segmentation
 description: Learn how to configure segmentation for AEM Campaign.
 seo-description: Learn how to configure segmentation for AEM Campaign.
-uuid: 5bd189e2-369b-448d-ae68-309fa4793f21
+uuid: a2371ada-66c8-4d14-837d-0453a96f2a9c
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: bc88b3a4-5b79-4ba5-a599-74880ad070b9
+discoiquuid: e4efa90d-87f1-49bb-9ce1-7b9983213097
 index: y
 internal: n
 snippet: y
@@ -103,9 +103,9 @@ The following segment traits are available out-of-the-box; they can be dragged f
  </tbody> 
 </table>
 
-You can combine these traits using the boolean operators OR and AND (see [Creating a New Segment](#creatinganewsegment)) to define the exact scenario for selecting this segment.
+You can combine these traits using the boolean operators OR and AND (see [Creating a New Segment](#creating-a-new-segment)) to define the exact scenario for selecting this segment.
 
-When the entire statement evaluates to true then this segment has resolved. In the event of multiple segments being applicable, then the ** [Boost](../../../sites/administering/using/campaign-segmentation.md#boostfactor)** factor is also used.
+When the entire statement evaluates to true then this segment has resolved. In the event of multiple segments being applicable, then the ** [Boost](../../../sites/administering/using/campaign-segmentation.md#boost-factor)** factor is also used.
 
 >[!CAUTION]
 >
@@ -134,7 +134,7 @@ To define your new segment:
    ![](assets/screen_shot_2012-02-02at103135am-1.png)
 
 1. Click **OK** to save your definition:
-1. You can **Edit** the segment definition to give it a **Title**, **Description** and ** [Boost](../../../sites/administering/using/campaign-segmentation.md#boostfactor)** factor:
+1. You can **Edit** the segment definition to give it a **Title**, **Description** and ** [Boost](../../../sites/administering/using/campaign-segmentation.md#boost-factor)** factor:
 
    ![](assets/screen_shot_2012-02-02at103547am.png)
 

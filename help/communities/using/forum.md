@@ -3,12 +3,12 @@ title: Forum Feature
 seo-title: Forum Feature
 description: How to add and configure the forum feature
 seo-description: How to add and configure the forum feature
-uuid: c6082093-4150-4245-ae9a-3a254360bf4a
+uuid: 64496e92-304a-45b5-b643-b3a17b1f0292
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
-discoiquuid: 8abddb6a-11d6-4277-8162-df5ac830cd2e
+discoiquuid: 2082532b-bf82-4c8e-876e-fccc167db80a
 index: y
 internal: n
 snippet: y
@@ -42,7 +42,7 @@ and drag it into place on a page where the forum should appear.
 
 For necessary information, visit [Communities Components Basics](../../communities/using/basics.md).
 
-When the [required client-side libraries](../../communities/using/essentials-forum.md#essentialsforclientside) are included, this is how the `Forum`component will appear :
+When the [required client-side libraries](../../communities/using/essentials-forum.md#essentials-for-client-side) are included, this is how the `Forum`component will appear :
 
 ![](assets/chlimage_1-60.png)
 

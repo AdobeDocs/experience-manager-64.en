@@ -3,12 +3,12 @@ title: Developer Mode
 seo-title: Developer Mode
 description: Developer mode opens a side panel with several tabs that provide a developer with infomation about the current page
 seo-description: Developer mode opens a side panel with several tabs that provide a developer with infomation about the current page
-uuid: 8da4163d-792e-4bfa-8f58-1dfb3537a188
+uuid: 3b5a796a-63ab-4454-a665-6177724a7eaf
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: components
 content-type: reference
-discoiquuid: 8c8d32f0-febd-4ec5-92b0-b28324c96278
+discoiquuid: c124afea-fbd1-46f4-a393-19c7ca684978
 index: y
 internal: n
 snippet: y

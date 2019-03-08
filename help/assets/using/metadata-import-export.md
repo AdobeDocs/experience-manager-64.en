@@ -3,11 +3,11 @@ title: Bulk Metadata Import and Export
 seo-title: Bulk Metadata Import and Export
 description: This article describes how to import and export metadata in bulk.
 seo-description: This article describes how to import and export metadata in bulk.
-uuid: 38fe8f5a-1f0f-46c5-a0d9-856a2439dbe9
+uuid: 63901e1d-d911-4a82-be22-74d9a581863f
 contentOwner: cmajumda
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
-discoiquuid: 8053c957-2cf3-4b40-9537-362e780cfc57
+discoiquuid: d03ad764-b9a7-4a3a-a2c6-af52aa53cac8
 index: y
 internal: n
 snippet: y

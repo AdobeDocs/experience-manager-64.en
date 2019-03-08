@@ -3,12 +3,12 @@ title: Externalizing URLs
 seo-title: Externalizing URLs
 description: The Externalizer is an OSGI service that allows you to programmatically transform a resource path into an external and absolute URL
 seo-description: The Externalizer is an OSGI service that allows you to programmatically transform a resource path into an external and absolute URL
-uuid: 3e9fa743-7546-4073-ad59-adcb3567ea6f
+uuid: 485439fa-aa87-4660-a6d5-75a3c5016e4d
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
-discoiquuid: f446c5d7-c330-4a72-a464-58de7bb8da04
+discoiquuid: dffcdc5c-0774-4839-9b91-302bda8cf72e
 index: y
 internal: n
 snippet: y
@@ -20,7 +20,7 @@ In AEM, the **Externalizer** is an OSGI service that allows you to programmatica
 
 Because an instance can not know its externally visible URL if it is running behind a web layer, and because sometimes a link has to be created outside of the request scope, this service provides a central place to configure those external URLs and build them.
 
-This page explains how to configure the **Externalizer** service and how to use it. For more details, please refer to the [Javadocs](/sites/developing/using/reference-materials/javadoc/com/day/cq/commons/Externalizer).
+This page explains how to configure the **Externalizer** service and how to use it. For more details, please refer to the [Javadocs](/sites/developing/using/reference-materials/javadoc/com/day/cq/commons/Externalizer.md).
 
 ### Configuring the Externalizer service {#configuring-the-externalizer-service}
 
@@ -92,4 +92,4 @@ Assuming the domain mapping " `author http://author.website.com`", myExternalize
 
 Assuming the domain mapping " `local http://publish-3.internal`", myExternalizedUrl ends up with the value " `http://publish-3.internal/contextpath/my/page.html`".
 
-You can find more examples in the [Javadocs](/sites/developing/using/reference-materials/javadoc/com/day/cq/commons/Externalizer).
+You can find more examples in the [Javadocs](/sites/developing/using/reference-materials/javadoc/com/day/cq/commons/Externalizer.md).

@@ -3,11 +3,11 @@ title: Hardening Your AEM Forms on JEE Environment
 seo-title: Hardening Your AEM Forms on JEE Environment
 description: Learn a variety of security-hardening settings to enhance the security of AEM Forms on JEE running in a corporate intranet.
 seo-description: Learn a variety of security-hardening settings to enhance the security of AEM Forms on JEE running in a corporate intranet.
-uuid: f59d69d9-39a1-415b-ab96-01927cd5e73f
+uuid: e6d88ca0-0ae8-45de-98da-526949289544
 content-type: reference
 topic-tags: Security
 products: SG_EXPERIENCEMANAGER/6.4
-discoiquuid: 51384d9e-cc55-4191-bf4d-862372fb45a8
+discoiquuid: 70539179-cfab-4079-ad62-70647c4cb8a5
 index: y
 internal: n
 snippet: y
@@ -72,7 +72,7 @@ The following table describes common processes that reduce network security vuln
   </tr> 
   <tr> 
    <td class="cellrowborder" headers="d19e799 " valign="top" width="NaN%"><p>Database ports</p> </td> 
-   <td class="cellrowborder" headers="d19e802 " valign="top" width="NaN%"><p>Do not use default listening ports for databases (MySQL - 3306, Oracle - 1521, MS SQL - 1433). For information about changing database ports, see your database documentation.</p> <p>Using a different database port affects the overall AEM Forms on JEE configuration. If you change default ports, you must make corresponding modifications in other areas of configuration, such as the data sources for AEM Forms on JEE.</p> <p>For information about configuring data sources in AEM Forms on JEE, see Install and Upgrade AEM Forms on JEE or Upgrading to AEM Forms on JEE for your application server at <a href="/forms/user-guide" target="_blank">AEM Forms user guide</a>.</p> </td> 
+   <td class="cellrowborder" headers="d19e802 " valign="top" width="NaN%"><p>Do not use default listening ports for databases (MySQL - 3306, Oracle - 1521, MS SQL - 1433). For information about changing database ports, see your database documentation.</p> <p>Using a different database port affects the overall AEM Forms on JEE configuration. If you change default ports, you must make corresponding modifications in other areas of configuration, such as the data sources for AEM Forms on JEE.</p> <p>For information about configuring data sources in AEM Forms on JEE, see Install and Upgrade AEM Forms on JEE or Upgrading to AEM Forms on JEE for your application server at <a href="/forms/user-guide.md" target="_blank">AEM Forms user guide</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -919,7 +919,7 @@ For information about WebSphere ports that AEM Forms on JEE requires, go to Port
 
 ### Configuring SSL {#configuring-ssl}
 
-Referring to the physical architecture that is described in the section [AEM Forms on JEE physical architecture](hardening-aem-forms-jee-environment#aem_forms_on_jee_physical_architecture), you should configure SSL for all of the connections that you plan to use. Specifically, all SOAP connections must be conducted over SSL to prevent exposure of user credentials on a network.
+Referring to the physical architecture that is described in the section [AEM Forms on JEE physical architecture](hardening-aem-forms-jee-environment.md#aem_forms_on_jee_physical_architecture), you should configure SSL for all of the connections that you plan to use. Specifically, all SOAP connections must be conducted over SSL to prevent exposure of user credentials on a network.
 
 For instructions on how to configure SSL on JBoss, WebLogic, and WebSphere, see “Configuring SSL” in the [administration help](http://www.adobe.com/go/learn_aemforms_admin_64).
 

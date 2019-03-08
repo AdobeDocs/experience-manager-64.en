@@ -3,12 +3,12 @@ title: Integrating with Salesforce
 seo-title: Integrating with Salesforce
 description: Learn about integrating AEM with Salesforce.
 seo-description: Learn about integrating AEM with Salesforce.
-uuid: 0b8db4a9-d797-424e-9d64-adbd8a413c16
+uuid: d7c9adb1-d9e1-4c43-ba89-4b2014c2fd07
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: e755f633-894c-436b-8c50-144e4e648186
+discoiquuid: e76dbbed-e9e6-4557-81ad-b6010f06e523
 index: y
 internal: n
 snippet: y
@@ -108,7 +108,7 @@ To export AEM users as Salesforce leads:
 
    >[!NOTE]
    >
-   >Before starting this workflow, there are certain mandatory fields that a lead node in AEM must have before getting published to Salesforce. These are **givenName**, **familyName**, **company**and **email**. To see a complete list of mapping between AEM user and Salesforce lead, see [Mapping Configuration between AEM user and Slaesforce lead.](#mappingconfigurationbetweenaemuserandsalesforcelead)
+   >Before starting this workflow, there are certain mandatory fields that a lead node in AEM must have before getting published to Salesforce. These are **givenName**, **familyName**, **company**and **email**. To see a complete list of mapping between AEM user and Salesforce lead, see [Mapping Configuration between AEM user and Slaesforce lead.](#mapping-configuration-between-aem-user-and-salesforce-lead)
 
 1. Click **OK**. The user information is exported to salesforce.com. You can verify it at salesforce.com.
 

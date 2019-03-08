@@ -3,12 +3,12 @@ title: Configuring Adobe Analytics with AEM Screens
 seo-title: Configuring Adobe Analytics with AEM Screens
 description: Follow this section to learn more about sequencing and sending custom events using Offline Adobe Analytics 
 seo-description: Follow this section to learn more about sequencing and sending custom events using Offline Adobe Analytics 
-uuid: 5e5e52ee-c3cd-48fe-aa2a-4100cd98dd07
+uuid: 1061b665-2a03-4c50-9ea9-e9e8fbfa1af9
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: developing
-discoiquuid: 569e68cc-0d03-49fb-a02c-79f38735c162
+discoiquuid: fd166952-2159-4562-b561-5e1b30159094
 index: y
 internal: n
 snippet: y

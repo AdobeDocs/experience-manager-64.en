@@ -3,12 +3,12 @@ title: Community Site Essentials
 seo-title: Community Site Essentials
 description: Exporting and deleting community sites and creating custom site templates
 seo-description: Exporting and deleting community sites and creating custom site templates
-uuid: 5ad57e63-4f7b-49a0-bb14-d0f2b49a7598
+uuid: 6997de8e-2072-4128-95a4-23d30c228a5b
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 9e5d06e4-c574-40be-ae04-7e100882116e
+discoiquuid: b566e5a9-32c0-40ce-8be6-ae212baa0b73
 index: y
 internal: n
 snippet: y
@@ -70,13 +70,13 @@ Identify the custom template by adding a `page-template` property to the configu
 
 Be sure to** Save All** and replicate custom code to all AEM instances (custom code is not included when the community site content is published from the console).
 
-The recommended practice for replicating custom code is to [create a package](../../sites/administering/using/package-manager.md#creatinganewpackage) and deploy it on all instances.
+The recommended practice for replicating custom code is to [create a package](../../sites/administering/using/package-manager.md#creating-a-new-package) and deploy it on all instances.
 
 ## Exporting a Community Site {#exporting-a-community-site}
 
 Once a community site is created, it is possible to export the site as an AEM package stored in package manager and available for download and upload.
 
-This is available from the [Communities Sites console](../../communities/using/sites-console.md#exportingthesite).
+This is available from the [Communities Sites console](../../communities/using/sites-console.md#exporting-the-site).
 
 Note that UGC and custom code is not included in the community site package.
 
@@ -86,10 +86,10 @@ To export UGC, use the [AEM Communities UGC Migration Tool](https://github.com/A
 
 As of AEM Communities 6.3 Service Pack 1, Delete Site icon appears on hovering over the community site from Communities &gt; Sites console. During development, if it is desired to delete a community site and start fresh, you can use this functionality. Deleting a community site, removes the following items associated with that site:
 
-* [UGC](#usergeneratedcontent)
-* [user groups](#communityusergroups)
-* [assets](#enablementassets)
-* [database records](#databaserecords)
+* [UGC](#user-generated-content)
+* [user groups](#community-user-groups)
+* [assets](#enablement-assets)
+* [database records](#database-records)
 
 ### Community Unique Site ID {#community-unique-site-id}
 
@@ -130,7 +130,7 @@ This only removes user generated content (entered on publish) and not authored c
 On all author and publish instances, from the [security console](../../sites/administering/using/security.md), locate and remove the [user groups](../../communities/using/users.md) that are :
 
 * prefixed with `community`
-* followed by [unique site id](#communityuniquesiteid)
+* followed by [unique site id](#community-unique-site-id)
 
 For example, `community-engage-x0e11-members`.
 
@@ -140,7 +140,7 @@ From the main console :
 
 * select **Assets**
 * enter **Select** mode
-* select folder named with the [unique site Id](#communityuniquesiteid)
+* select folder named with the [unique site Id](#community-unique-site-id)
 * select **Delete** (may need to select from **More...**)
 
 ### Database Records {#database-records}

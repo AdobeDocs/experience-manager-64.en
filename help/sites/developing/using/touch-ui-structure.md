@@ -3,12 +3,12 @@ title: Structure of the AEM Touch-Enabled UI
 seo-title: Structure of the AEM Touch-Enabled UI
 description: The touch-optimized UI, as implemented in AEM, has several underlying principles and is made up of several key elements
 seo-description: The touch-optimized UI, as implemented in AEM, has several underlying principles and is made up of several key elements
-uuid: 65d5cb06-59a0-401d-b476-9f36c24798f3
+uuid: 291ad666-b794-45e8-90df-eb119691319e
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
-discoiquuid: 7430763b-b96b-4a80-94bc-e6aa0f7788f3
+discoiquuid: c96207cb-6214-4a63-96c1-d099d1b38133
 index: y
 internal: n
 snippet: y
@@ -165,5 +165,5 @@ Depending on the space available, the component toolbars are positioned at the t
 
 For more details about the concepts around the touch-enabled UI, continue to the article [Concepts of the AEM Touch-Enabled UI](../../../sites/developing/using/touch-ui-concepts.md).
 
-For further technical information see the [JS documentation set](/sites/developing/using/reference-materials/jsdoc/ui-touch/editor-core/index) for the touch-enabled page editor.  
+For further technical information see the [JS documentation set](/sites/developing/using/reference-materials/jsdoc/ui-touch/editor-core/index.md) for the touch-enabled page editor.  
 

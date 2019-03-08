@@ -3,12 +3,12 @@ title: Configuring Connector for IBM Content Manager
 seo-title: Configuring Connector for IBM Content Manager
 description: Configure the Connector for IBM Content Manager to enable communication between AEM forms and IBM Content Manager.
 seo-description: Configure the Connector for IBM Content Manager to enable communication between AEM forms and IBM Content Manager.
-uuid: d6d55732-dfac-4191-86e1-cd2402131a3a
+uuid: a3b0960d-4bdc-4b4f-81ed-bf219bdce776
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/connecting_to_a_content_management_system
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 64140b9e-bd26-401b-ab8e-b0e80a38ee86
+discoiquuid: 7706a1c1-9422-4284-b318-37cf6640b2e9
 index: y
 internal: n
 snippet: y

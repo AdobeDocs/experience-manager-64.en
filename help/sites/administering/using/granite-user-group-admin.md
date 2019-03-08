@@ -3,12 +3,12 @@ title: Granite Operations - User and Group Administration
 seo-title: Granite Operations - User and Group Administration
 description: Learn about Granite user and group administration.
 seo-description: Learn about Granite user and group administration.
-uuid: 156460c3-68b6-493e-af8e-e8989b813b24
+uuid: c804533b-34cd-418b-b17b-c42475eab2ca
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
-discoiquuid: 72cffa70-4371-4492-a3c4-1a14cddd075f
+discoiquuid: 78667228-f07c-4e6a-bc0c-1c5124bdf751
 index: y
 internal: n
 snippet: y
@@ -18,7 +18,7 @@ snippet: y
 
 As Granite incorporates the CRX Repository implementation of the JCR API Specification it has its own user and group administration.
 
-These accounts are the underlying basis of the [AEM accounts](../../../sites/administering/using/security.md) and any account changes made with the Granite administration will be reflected if/when the accounts are accessed from the [AEM Users console](../../../sites/administering/using/security.md#accessinguseradministrationwiththesecurityconsole) (e.g. `http://localhost:4502/useradmin`). From the AEM Users console you can also manage the privileges and other AEM specifics.
+These accounts are the underlying basis of the [AEM accounts](../../../sites/administering/using/security.md) and any account changes made with the Granite administration will be reflected if/when the accounts are accessed from the [AEM Users console](../../../sites/administering/using/security.md#accessing-user-administration-with-the-security-console) (e.g. `http://localhost:4502/useradmin`). From the AEM Users console you can also manage the privileges and other AEM specifics.
 
 Granite user and group administration consoles are both available from the ** [Tools](../../../sites/administering/using/tools-consoles.md)** console of the touch-optimized UI:
 
@@ -26,7 +26,7 @@ Granite user and group administration consoles are both available from the ** [T
 
 Choosing either **Users** or **Groups** from the Tools console will open the appropriate console. In both you can take action either by using the clickbox and then actions from the toolbar, or by opening the account details via the link under **Name**.
 
-* [User Administration](#useradministration)
+* [User Administration](#user-administration)
 
   ![](assets/chlimage_1-73.png)
 
@@ -36,7 +36,7 @@ Choosing either **Users** or **Groups** from the Tools console will open the app
     * the user login name (account name)  
     * any title that the account has been given
 
-* [Group Administration](#groupadministration)
+* [Group Administration](#group-administration)
 
   ![](assets/chlimage_1-74.png)
 
@@ -108,17 +108,17 @@ Choosing either **Users** or **Groups** from the Tools console will open the app
 
 1. Access the user details from the link under the user name in the Users console.  
 
-1. You can now edit the details as in [Adding a New User](#addinganewuser).
+1. You can now edit the details as in [Adding a New User](#adding-a-new-user).
 
 1. Access the user details from the link under the user name in the Users console.  
 
-1. You can now edit the details as in [Adding a New User](#addinganewuser).
+1. You can now edit the details as in [Adding a New User](#adding-a-new-user).
 
 ### Changing the Password for an Existing User {#changing-the-password-for-an-existing-user}
 
 1. Access the user details from the link under the user name in the Users console.  
 
-1. You can now edit the details as in [Adding a New User](#addinganewuser). Under **Account Settings** there is a link for **Change Password**.
+1. You can now edit the details as in [Adding a New User](#adding-a-new-user). Under **Account Settings** there is a link for **Change Password**.
 
    ![](assets/chlimage_1-76.png)
 
@@ -194,7 +194,7 @@ Choosing either **Users** or **Groups** from the Tools console will open the app
 
 1. Access the group details from the link under the group name in the Groups console.  
 
-1. You can now edit and save the details as in [Adding a New Group](#addinganewgroup).
+1. You can now edit and save the details as in [Adding a New Group](#adding-a-new-group).
 
 ### Copying an Existing Group {#copying-an-existing-group}
 
@@ -207,7 +207,7 @@ Choosing either **Users** or **Groups** from the Tools console will open the app
 
    The group ID will be the same as the original, but prefixed with `Copy of`. You must edit this as the ID cannot contain spaces. All other details will be the same as the original.
 
-   You can now edit and save the details as in [Adding a New Group](#addinganewgroup).
+   You can now edit and save the details as in [Adding a New Group](#adding-a-new-group).
 
 ### Deleting an Existing Group {#deleting-an-existing-group}
 

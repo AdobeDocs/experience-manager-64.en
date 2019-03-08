@@ -3,12 +3,12 @@ title: Interactive Videos
 seo-title: Interactive Videos
 description: Learn how to work with interactive video in dynamic media
 seo-description: Learn how to work with interactive video in dynamic media
-uuid: 727cfa89-3b50-442a-9342-0c9ccfc4cb81
+uuid: 9adeb82c-e18b-4d91-9784-6ab7c66b72f5
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: 7db9c512-f930-4c98-8f89-3bf44362d75a
+discoiquuid: 510a836a-4798-47c2-9c42-f78f75ef21ce
 index: y
 internal: n
 snippet: y
@@ -65,28 +65,28 @@ When you finish the tutorial in the last Example section, the final demo web pag
 
 Interactive video steps:
 
-1. **(Optional) Identifying Quickview variables** - Start by identifying dynamic variables used by your existing Quickview implementation. You use the variables to map product thumbnails to their corresponding product Quickview when you create your interactive video. See [(Optional) Identifying Quickview variables](#optionalidentifyingquickviewvariables).  
+1. **(Optional) Identifying Quickview variables** - Start by identifying dynamic variables used by your existing Quickview implementation. You use the variables to map product thumbnails to their corresponding product Quickview when you create your interactive video. See [(Optional) Identifying Quickview variables](#optional-identifying-quickview-variables).  
    *Note that this step is only required if all the following are true*:  
    • You want to add interactivity to your video by triggering to quickviews.  
    • Your implementation of AEM does *not* use an eCommerce integration framework for pulling product data into AEM from any eCommerce solution such as IBM Websphere Commerce, Elastic Path, hybris, or Intershop. See [eCommerce concepts in AEM Assets](../../sites/administering/using/concepts.md).  
 
 1. **(Optional) Creating an Interactive Video viewer preset** - Customize the appearance and behavior of various components that make up the player such as the video scrubber and the interactive thumbnails.  
    Creating your own Interactive Video viewer preset is not required if you intend to use the out-of-the-box Interactive Video viewer presets `Shoppable_Video_Light` or `Shoppable_Video_Dark` instead.** 
-   **See [Creating a New Viewer Preset](../../assets/using/managing-viewer-presets.md#creatinganewviewerpreset) (this is optional) and [Special considerations for creating an Interactive Viewer preset](../../assets/using/managing-viewer-presets.md#specialconsiderationsforcreatinganinteractiveviewerpreset).** 
+   **See [Creating a New Viewer Preset](../../assets/using/managing-viewer-presets.md#creating-a-new-viewer-preset) (this is optional) and [Special considerations for creating an Interactive Viewer preset](../../assets/using/managing-viewer-presets.md#special-considerations-for-creating-an-interactive-viewer-preset).** 
    **
 
 1. **Uploading a video and its associated image assets** - Upload a video and associated images that you want to make interactive.  
-   See [Uploading a video and its associated thumbnail assets](#uploadingavideoanditsassociatedthumbnailassets).  
+   See [Uploading a video and its associated thumbnail assets](#uploading-a-video-and-its-associated-thumbnail-assets).  
 
 1. **Adding interactivity to your video** - Add one or more time segments to the video. Then, associate image thumbnails within those time segments. Assign each image thumbnail to an action such as a hyperlink, a Quickview, or an Experience Fragment.  
    (Note that the URL-based method of linking is not possible if your interactive content has links with relative URLs, particularly links to AEM Sites pages.)  
-   Finish by publishing the interactive video assets. Publishing creates the embed code or URL that you will eventually copy and apply to your website landing page.See [Adding interactivity to your video](#addinginteractivitytoyourvideo).  
+   Finish by publishing the interactive video assets. Publishing creates the embed code or URL that you will eventually copy and apply to your website landing page.See [Adding interactivity to your video](#adding-interactivity-to-your-video).  
    See [Publishing Assets](../../assets/using/publishing-dynamicmedia-assets.md).
 
 1. **Adding an interactive video to your website or to your website in AEM** 
    If you use AEM Sites, or AEM eCommerce, or both, you can add the interactive video directly to a web page in AEM by dragging the Interactive Media component onto the page. See [Adding Dynamic Media Assets to Pages.](../../assets/using/adding-dynamic-media-assets-to-pages.md)  
-   Use the embed code or URL to integrate your interactive video with your website experiences. See [Integrating an interactive video with your website](#integratinganinteractivevideowithyourwebsite).  
-   If you are using a third party WCM (Web Content Manager), you must integrate the new interactive video with the existing Quickview implementation that is used on your website. See [Integrating an interactive video with an existing Quickview](#integratinganinteractivevideowithanexistingquickview).  
+   Use the embed code or URL to integrate your interactive video with your website experiences. See [Integrating an interactive video with your website](#integrating-an-interactive-video-with-your-website).  
+   If you are using a third party WCM (Web Content Manager), you must integrate the new interactive video with the existing Quickview implementation that is used on your website. See [Integrating an interactive video with an existing Quickview](#integrating-an-interactive-video-with-an-existing-quickview).  
    [](../../assets/using/adding-dynamic-media-assets-to-pages.md)
 
 ## (Optional) Identifying Quickview variables {#optional-identifying-quickview-variables}
@@ -239,13 +239,13 @@ An Interactive Video viewer preset properly renders the video and all timeline s
 
 After you save the viewer preset, its state is automatically set to **On **in the Viewer Presets page. This state means that it is visible in the Dynamic Media component and whenever you preview a video with it. Be sure you also manually publish your new viewer preset.
 
-See [Creating a New Viewer Preset](../../assets/using/managing-viewer-presets.md#creatinganewviewerpreset) to create your own Interactive Video viewer preset.
+See [Creating a New Viewer Preset](../../assets/using/managing-viewer-presets.md#creating-a-new-viewer-preset) to create your own Interactive Video viewer preset.
 
 ## Uploading a video and its associated thumbnail assets {#uploading-a-video-and-its-associated-thumbnail-assets}
 
-If you have already uploaded your video and thumbnail assets, proceed to [Adding interactivity to your video](#addinginteractivitytoyourvideo).
+If you have already uploaded your video and thumbnail assets, proceed to [Adding interactivity to your video](#adding-interactivity-to-your-video).
 
-If you uploaded the wrong videos or images, or you want to delete uploaded videos or images that you no longer need, see [Deleting Assets](../../assets/using/managing-assets-touch-ui.md#deletingassets).
+If you uploaded the wrong videos or images, or you want to delete uploaded videos or images that you no longer need, see [Deleting Assets](../../assets/using/managing-assets-touch-ui.md#deleting-assets).
 
 To upload a video and its associated thumbnail assets:
 
@@ -503,7 +503,7 @@ To add interactivty to your video:
    >
    >To publish a shoppable video with Quickviews, be sure you also publish each of the video's related image assets from your commerce area, separately.
 
-   After you have added timeline segments and published the interactive video, you are ready to add it to your existing website landing page. See [Integrating an interactive video with your website.](#integratinganinteractivevideowithyourwebsite)
+   After you have added timeline segments and published the interactive video, you are ready to add it to your existing website landing page. See [Integrating an interactive video with your website.](#integrating-an-interactive-video-with-your-website)
 
 ## Publishing interactive video assets {#publishing-interactive-video-assets}
 

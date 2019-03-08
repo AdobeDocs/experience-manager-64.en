@@ -3,12 +3,12 @@ title: Seeing Page Analytics Data
 seo-title: Seeing Page Analytics Data
 description: Use page analytics data to gauge the effectiveness of their page content
 seo-description: Use page analytics data to gauge the effectiveness of their page content
-uuid: 3a3c9527-b729-4e09-97bf-9b6f498f6d18
+uuid: 6a278fff-6daa-413e-be0b-584f47534d4d
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
-discoiquuid: 19486305-2e9b-489a-bd91-a3f2ad05e96e
+discoiquuid: d453a8de-489e-4f66-be9c-54f1d99b6fc3
 index: y
 internal: n
 snippet: y
@@ -22,7 +22,7 @@ Use page analytics data to gauge the effectiveness of the page content.
 
 ![](assets/aa-10.png)
 
-Page analytics data is displayed in [List View](../../../sites/authoring/using/basic-handling.md#listview) of the Sites console. When the pages are displayed in list format, the following columns are available by default:
+Page analytics data is displayed in [List View](../../../sites/authoring/using/basic-handling.md#list-view) of the Sites console. When the pages are displayed in list format, the following columns are available by default:
 
 * Page Views
 * Unique Visitors
@@ -32,10 +32,10 @@ Each column shows a value for the current reporting period, and also indicates w
 
 >[!NOTE]
 >
->To change the update period, [configure the import interval](../../../sites/administering/using/adobeanalytics-connect.md#configuringtheimportinterval).
+>To change the update period, [configure the import interval](../../../sites/administering/using/adobeanalytics-connect.md#configuring-the-import-interval).
 
 1. Open the **Sites** console; for example [http://localhost:4502/sites.html/content](http://localhost:4502/sites.html/content)
-1. In the far right of the toolbar, (upper right corner), click or tap the icon to select **List View** (the icon shown will depend on the [current view](../../../sites/authoring/using/basic-handling.md#viewingandselectingresources)).  
+1. In the far right of the toolbar, (upper right corner), click or tap the icon to select **List View** (the icon shown will depend on the [current view](../../../sites/authoring/using/basic-handling.md#viewing-and-selecting-resources)).  
 
 1. Again, in the far right of the toolbar, (upper right corner), click or tap the icon then select **View Settings**. The **Configure Columns** dialog will open. Make any changes required and confirm with **Update**.
 
@@ -83,19 +83,19 @@ Open [Content Insight](../../../sites/authoring/using/content-insights.md) from 
 
 >[!NOTE]
 >
->This will be shown if the [Activity Map has been configured](../../../sites/administering/using/adobeanalytics-connect.md#configuringfortheactivitymap) for your website.
+>This will be shown if the [Activity Map has been configured](../../../sites/administering/using/adobeanalytics-connect.md#configuring-for-the-activity-map) for your website.
 
 >[!NOTE]
 >
 >Data for the Activity Map is taken from Adobe Analytics.
 
-When your website has been [configured for Adobe Analytics](../../../sites/administering/using/adobeanalytics-connect.md), you can use the [mode Activity Map](../../../sites/authoring/using/author-environment-tools.md#pagemodes) to view relevant data. For example:
+When your website has been [configured for Adobe Analytics](../../../sites/administering/using/adobeanalytics-connect.md), you can use the [mode Activity Map](../../../sites/authoring/using/author-environment-tools.md#page-modes) to view relevant data. For example:
 
 ![](assets/aa-07.png) 
 
 ### Accessing the Activity Map {#accessing-the-activity-map}
 
-After selecting the [Activity Map](../../../sites/authoring/using/author-environment-tools.md#pagemodes) mode, you will be requested to enter your Adobe Analytics credentials.
+After selecting the [Activity Map](../../../sites/authoring/using/author-environment-tools.md#page-modes) mode, you will be requested to enter your Adobe Analytics credentials.
 
 ![](assets/aa-03.png)
 

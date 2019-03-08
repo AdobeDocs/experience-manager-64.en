@@ -3,11 +3,11 @@ title: Enabling forms portal components
 seo-title: Enabling forms portal components
 description: Out of the box, Forms Portal components are disabled. Enable Document Services and Document Services Predicates groups to enable Forms Portal components.
 seo-description: Out of the box, Forms Portal components are disabled. Enable Document Services and Document Services Predicates groups to enable Forms Portal components.
-uuid: 931b2bc1-35fa-4125-843b-a7da00ab7c7f
+uuid: 2a8e5c31-6388-451c-aa0e-34161f4bee72
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: publish
-discoiquuid: f19be10c-c422-4424-a20f-dfcfdbe67662
+discoiquuid: fccfbb17-d22d-41af-9d81-911cf6bfddb9
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Troubleshooting
 seo-title: Troubleshooting
 description: This article covers some of the installation issues you might encounter with AEM.
 seo-description: This article covers some of the installation issues you might encounter with AEM.
-uuid: 3de1bedd-ebf7-45fa-923d-14acc13e2b62
+uuid: e1823735-b889-4eff-8d28-2ed24bc45a7d
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
-discoiquuid: 37a7e8ac-2301-4200-b1e1-d18e4fe8b9c9
+discoiquuid: b8760af7-f3c0-453e-8a50-df69e26832ce
 index: y
 internal: n
 snippet: y
@@ -32,7 +32,7 @@ The following decision tree provides guidenance to narrow down the bottleneck.
 
 ### Configuring log files and audit logs {#configuring-log-files-and-audit-logs}
 
-AEM records detailed logs that you might want to configure in order to troubleshoot installation issues. For information, see the [Working with Audit Records and Log Files](../../../sites/deploying/using/monitoring-and-maintaining.md#workingwithauditrecordsandlogfiles) section.
+AEM records detailed logs that you might want to configure in order to troubleshoot installation issues. For information, see the [Working with Audit Records and Log Files](../../../sites/deploying/using/monitoring-and-maintaining.md#working-with-audit-records-and-log-files) section.
 
 ### Using the Verbose Option {#using-the-verbose-option}
 

@@ -3,11 +3,11 @@ title: Content Fragment Models
 seo-title: Content Fragment Models
 description: Content Fragment Models are used to create content fragments with structured content.
 seo-description: Content Fragment Models are used to create content fragments with structured content.
-uuid: 2d44df5d-20eb-4c96-adaa-6350e8ab232e
+uuid: 7c9decdd-9461-4a93-a3a6-f4720dfb5b9b
 content-type: reference
 topic-tags: content-fragments
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-discoiquuid: 7ef86d6d-3c1a-4fcc-bdb2-eaf8a3dabf08
+discoiquuid: 94ae21b7-7462-422c-a630-e8ffa0c0a3d1
 index: y
 internal: n
 snippet: y
@@ -34,7 +34,7 @@ To enable content fragment models you need to:
 
 ### Enable Content Fragment Models in Configuration Manager {#enable-content-fragment-models-in-configuration-manager}
 
-To [create a new Content Fragment Model](#creatingacontentfragmentmodel) you **must** first enable them using the Configuration Manager:
+To [create a new Content Fragment Model](#creating-a-content-fragment-model) you **must** first enable them using the Configuration Manager:
 
 1. Navigate to **Tools**, **General**, then open the **Configuration Browser**.
 1. Select the location appropriate to your website.
@@ -56,12 +56,12 @@ To use other configurations (i.e. excluding global) with a comparable Assets fol
 ## Creating a Content Fragment Model {#creating-a-content-fragment-model}
 
 1. Navigate to **Tools**, **Assets**, then open **Content Fragment Models**.
-1. Navigate to the folder appropriate to your [configuration](#enablecontentfragmentmodels).
+1. Navigate to the folder appropriate to your [configuration](#enable-content-fragment-models).
 1. Use **Create** to open the wizard.
 
    >[!CAUTION]
    >
-   >If the [use of content fragment models have not been enabled](#enablecontentfragmentmodels), the **Create** option will not be available.
+   >If the [use of content fragment models have not been enabled](#enable-content-fragment-models), the **Create** option will not be available.
 
 1. Specify the **Model Title**. You can also add a **Description** if required.
 

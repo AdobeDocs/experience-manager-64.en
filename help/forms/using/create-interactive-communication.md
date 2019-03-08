@@ -3,10 +3,10 @@ title: Create an Interactive Communication
 seo-title: Create an Interactive Communication
 description: Create an Interactive Communication using the Interactive Communication editor. Use drag-and-drop functionality to build the Interactive Communication, and preview both print and web outputs on different device types. 
 seo-description: Create an Interactive Communication using the Interactive Communication editor. Use drag-and-drop functionality to build the Interactive Communication, and preview both print and web outputs on different device types. 
-uuid: d24491e5-c301-46dc-87da-5b74ce6affe0
+uuid: d662195f-cb86-4657-95a6-f62eb30ed280
 topic-tags: interactive-communications
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 48cf59c2-88bd-4fa1-914b-71b861f7e32f
+discoiquuid: 38b5a1f1-83b6-4d09-a38e-49ce6ff44610
 index: y
 internal: n
 snippet: y
@@ -82,7 +82,7 @@ For more information on the Interactive Communication authoring interface, see [
 
    | **Component** |**Functionality** |
    |---|---|
-   | Chart |Adds a chart that you can use in Interactive Communication for visual representation of two-dimensional data retrieved from an form data model collection. For more information, see [Using charts in Interactive Communications](/forms/using/chart-component). |
+   | Chart |Adds a chart that you can use in Interactive Communication for visual representation of two-dimensional data retrieved from an form data model collection. For more information, see [Using charts in Interactive Communications](/forms/using/chart-component.md). |
    | Document Fragment |Allows you to add a reusable component, such as text, list, or condition, to an Interactive Communication. The added component could be either form data model-based or without a form data model. |
    | Image |Allows you to insert an image. |
 
@@ -137,7 +137,7 @@ For more information on the Interactive Communication authoring interface, see [
 
    Further, manage the following in the Interactive Communication:
 
-    * [Adding and configuring charts](/forms/using/chart-component)
+    * [Adding and configuring charts](/forms/using/chart-component.md)
     * [Sychronizing web channel with the print channel](../../forms/using/create-interactive-communication.md#synchronize)
 
         * Auto sync
@@ -159,7 +159,7 @@ For more information on the Interactive Communication authoring interface, see [
 
    | Components |Functionality |
    |---|---|
-   | Chart |Adds a chart that you can use in Interactive Communication for visual representation of two-dimensional data retrieved from a form data model collection. For more information, see [Using chart component](/forms/using/chart-component). |
+   | Chart |Adds a chart that you can use in Interactive Communication for visual representation of two-dimensional data retrieved from a form data model collection. For more information, see [Using chart component](/forms/using/chart-component.md). |
    | Document Fragment |Allows you to add a reusable component, text, list, or condition, to an Interactive Communication. The reusable component you add to an Interactive Communication could be either form data model-based or without a form data model. |
    | Image |Allows you to insert an image. |
    | Panel |The Panel component is a placeholder for grouping other components together and controls how a group of components, such as accordion and tabs, are laid out in the Interactive Communication. A panel component also allows you to make a group of components repeatable for the end user, such as in multiple entries required for filling in educational credentials.  |

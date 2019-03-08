@@ -3,12 +3,12 @@ title: Featured Content Feature
 seo-title: Featured Content Feature
 description: The Featured Content feature lets signed-in site visitors highlight content 
 seo-description: The Featured Content feature lets signed-in site visitors highlight content 
-uuid: 6873aae6-0b17-457b-9f6b-84149b888246
+uuid: 42a42e98-7d76-4cba-9d55-a4b1f1cc42ba
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
-discoiquuid: d8bbfb39-bd93-43db-985e-963e81dce889
+discoiquuid: 81174c4e-779a-4262-85cb-f86c15717cf4
 index: y
 internal: n
 snippet: y
@@ -45,7 +45,7 @@ and drag it into place on a page where the featured contentshould appear.
 
 For necessary information, visit [Communities Components Basics](../../communities/using/basics.md).
 
-When the [required client-side libraries](../../communities/using/essentials-featured.md#essentialsforclientside) are included, this is how the `Featured Content`component will appear :
+When the [required client-side libraries](../../communities/using/essentials-featured.md#essentials-for-client-side) are included, this is how the `Featured Content`component will appear :
 
 ![](assets/chlimage_1-13.png)
 

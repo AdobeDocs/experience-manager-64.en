@@ -3,12 +3,12 @@ title: Working with To-do lists
 seo-title: Working with To-do lists
 description: How to open, work on, and complete the tasks as required, such as approving or rejecting a request or adding more information.
 seo-description: How to open, work on, and complete the tasks as required, such as approving or rejecting a request or adding more information.
-uuid: e3f353e3-8181-42d6-8b50-19f494b33b0f
+uuid: 80dd67ce-f0d0-4ac7-ae94-191d53c64407
 contentOwner: robhagat
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
-discoiquuid: 6e45abb3-930b-41fc-9cb8-8377acb603d7
+discoiquuid: 30e50767-fbd5-4d59-a43d-92d80b1a7650
 index: y
 internal: n
 snippet: y

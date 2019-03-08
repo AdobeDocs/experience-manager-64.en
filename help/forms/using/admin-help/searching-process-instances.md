@@ -3,12 +3,12 @@ title: Searching for process instances
 seo-title: Searching for process instances
 description: Use the Process Search page to enter search criteria for finding a process instance.
 seo-description: Use the Process Search page to enter search criteria for finding a process instance.
-uuid: 4c2a12da-2fa0-460f-9f7b-43d10e30f669
+uuid: 238ff6c9-e2bf-48a8-a9f2-d1978fb39cd9
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_forms_workflow
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 1bd27f91-ebc9-4615-9e99-1711b8493794
+discoiquuid: c95a6532-c385-4598-b26b-24c7125fe0d0
 index: y
 internal: n
 snippet: y

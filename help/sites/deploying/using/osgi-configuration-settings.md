@@ -3,12 +3,12 @@ title: OSGi Configuration Settings
 seo-title: OSGi Configuration Settings
 description: This article details the OSGi configuration settings (listed according to bundle) that are relevant to project implementation. The list acts as a guideline and it is not exhaustive. 
 seo-description: This article details the OSGi configuration settings (listed according to bundle) that are relevant to project implementation. The list acts as a guideline and it is not exhaustive. 
-uuid: 5dc925b0-f9a3-40d6-9bde-b456b5f66e53
+uuid: 493710f8-1810-4e6f-91a5-af060c11dcd1
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: configuring
 content-type: reference
-discoiquuid: ded4468b-092a-47d4-971d-7cb9177db2e5
+discoiquuid: d519cbe8-8d84-410b-b7d1-49f3abfec6ca
 index: y
 internal: n
 snippet: y
@@ -52,7 +52,7 @@ The following OSGi configuration settings (listed according to bundle) are relev
 
 **CRX Sling Client Repository** Configure access to the underlying content repository.
 
-* The **Admin Password** should be changed after installation to ensure the [security](/content/docs/en/aem/6-3/deploy/security_checklist) of your instance.
+* The **Admin Password** should be changed after installation to ensure the [security](/content/docs/en/aem/6-3/deploy/security_checklist.md) of your instance.
 
 * Other changes should not be necessary and care must be taken as they can affect access to the repository.
 
@@ -67,7 +67,7 @@ The following OSGi configuration settings (listed according to bundle) are relev
 >Be sure to configure the following:
 >
 >**User Name** and **Password**, the credentials for accessing the Apache Felix Web Management Console itself.  
->The password must be changed after the initial installation to ensure the [security](/content/docs/en/aem/6-3/deploy/security_checklist) of your instance.
+>The password must be changed after the initial installation to ensure the [security](/content/docs/en/aem/6-3/deploy/security_checklist.md) of your instance.
 
 >[!NOTE]
 >
@@ -146,7 +146,7 @@ In particular for production instances:
 
 * **Message Pattern** defines the format of the log messages.
 
-For further information see [AEM Logging](../../../sites/deploying/using/configure-logging.md#globallogging) and [Sling Logging](http://sling.apache.org/site/logging.html).
+For further information see [AEM Logging](../../../sites/deploying/using/configure-logging.md#global-logging) and [Sling Logging](http://sling.apache.org/site/logging.html).
 
 **Apache Sling Logging Logger Configuration (Factory Configuration)** Configure:
 
@@ -400,7 +400,7 @@ Various configuration properties are available:
 
 >[!NOTE]
 >
->See [Page Impressions](../../../sites/deploying/using/configuring.md#enablingpageimpressions) for more information.
+>See [Page Impressions](../../../sites/deploying/using/configuring.md#enabling-page-impressions) for more information.
 
 **Day CQ WCM Page Statistics** For a publish instance configure:
 
@@ -410,7 +410,7 @@ Various configuration properties are available:
 
 >[!NOTE]
 >
->See [Page Impressions](../../../sites/deploying/using/configuring.md#enablingpageimpressions) for more information.
+>See [Page Impressions](../../../sites/deploying/using/configuring.md#enabling-page-impressions) for more information.
 
 **Day CQ WCM Version Manager** Control if, and how, versions are managed in your system:
 

@@ -3,12 +3,12 @@ title: Calendar Feature
 seo-title: Calendar Feature
 description: Provides community event information in a calendar format
 seo-description: Provides community event information in a calendar format
-uuid: 367b48b0-400a-47bb-9faa-118bb0ad49f6
+uuid: 9b96c8cc-af87-4b10-96c0-9b07f46949ed
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
-discoiquuid: c48db095-9aed-450a-bb7e-9b17c71f6cc6
+discoiquuid: 83b05ab9-8047-4905-8865-4d7b13333508
 index: y
 internal: n
 snippet: y
@@ -35,7 +35,7 @@ and drag it into place on a page, such as a position relative to the feature for
 
 For necessary information, visit [Communities Components Basics](../../communities/using/basics.md).
 
-When the [required client-side libraries](../../communities/using/calendar-basics-for-developers.md#essentialsforclientside) are included, this is how the `Calendar` component will appear.
+When the [required client-side libraries](../../communities/using/calendar-basics-for-developers.md#essentials-for-client-side) are included, this is how the `Calendar` component will appear.
 
 ![](assets/chlimage_1-112.png)
 
@@ -162,7 +162,7 @@ When the signed in user has moderator or administrator privileges, they are able
 
 #### Members {#members}
 
-When the signed in user is a community member or [privileged member](../../communities/using/users.md#privilegedmembersgroup) (depending on configuration), they are able to select `New Event` to create and post a new calendar event.
+When the signed in user is a community member or [privileged member](../../communities/using/users.md#privileged-members-group) (depending on configuration), they are able to select `New Event` to create and post a new calendar event.
 
 Specifically, they may
 

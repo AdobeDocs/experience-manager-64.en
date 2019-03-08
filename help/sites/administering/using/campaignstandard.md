@@ -3,12 +3,12 @@ title: Integrating with Adobe Campaign Standard
 seo-title: Integrating with Adobe Campaign Standard
 description: Integrating with Adobe Campaign Standard.
 seo-description: Integrating with Adobe Campaign Standard.
-uuid: b80f69ce-0d38-43df-b69d-8357c796b164
+uuid: 9abbf77e-7cfa-479a-ba08-c48ad5f419e4
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: 60df24f4-2427-4237-bb38-4c0a6ef83195
+discoiquuid: 386b1548-496b-4a0f-95a3-7026b764f9e7
 index: y
 internal: n
 snippet: y
@@ -53,13 +53,13 @@ Configuring Adobe Campaign involves the following:
 
 Make sure you have the following elements beforehand:
 
-* [An AEM authoring instance](../../../sites/deploying/using/deploy.md#gettingstarted)
-* [An AEM publishing instance](../../../sites/deploying/using/deploy.md#authorandpublishinstalls)
+* [An AEM authoring instance](../../../sites/deploying/using/deploy.md#getting-started)
+* [An AEM publishing instance](../../../sites/deploying/using/deploy.md#author-and-publish-installs)
 * [An Adobe Campaign instance](https://docs.adobe.com/content/docs/en/campaign/ACS.html)
 
 >[!CAUTION]
 >
->Operations detailed in the [Configuring Adobe Campaign](#configuringadobecampaign) and [Configuring Adobe Experience Manager](#configuringadobeexperiencemanager) sections are necessary for the integration functionalities between AEM and Adobe Campaign to work correctly.
+>Operations detailed in the [Configuring Adobe Campaign](#configuring-adobe-campaign) and [Configuring Adobe Experience Manager](#configuring-adobe-experience-manager) sections are necessary for the integration functionalities between AEM and Adobe Campaign to work correctly.
 
 ### Configuring the aemserver user {#configuring-the-aemserver-user}
 

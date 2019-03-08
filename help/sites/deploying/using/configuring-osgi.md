@@ -3,12 +3,12 @@ title: Configuring OSGi
 seo-title: Configuring OSGi
 description: OSGi is a fundamental element in the technology stack of Adobe Experience Manager (AEM). It is used to control the composite bundles of AEM and their configuration. This article details how you can manage the configuration settings for such bundles.
 seo-description: OSGi is a fundamental element in the technology stack of Adobe Experience Manager (AEM). It is used to control the composite bundles of AEM and their configuration. This article details how you can manage the configuration settings for such bundles.
-uuid: e15ce819-8b02-4c1f-8248-751c7cb4e1b6
+uuid: f5557a5a-5835-4280-9d70-b2d8ec6320a5
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: configuring
 content-type: reference
-discoiquuid: 04fc5650-2ada-426a-ba51-e363010637c5
+discoiquuid: c34f11a4-b442-42fa-b18e-a53927850290
 index: y
 internal: n
 snippet: y
@@ -24,24 +24,24 @@ This allows easy management of bundles as they can be stopped, installed, starte
 
 You can manage the configuration settings for such bundles by either:
 
-* using the [Adobe CQ Web console](#osgiconfigurationwiththewebconsole)
-* using [configuration files](#osgiconfigurationwithconfigurationfiles)
-* configuring [content-nodes ( `sling:OsgiConfig`) in the repository](#osgiconfigurationintherepository)
+* using the [Adobe CQ Web console](#osgi-configuration-with-the-web-console)
+* using [configuration files](#osgi-configuration-with-configuration-files)
+* configuring [content-nodes ( `sling:OsgiConfig`) in the repository](#osgi-configuration-in-the-repository)
 
 Either method can be used though there are subtle differences, primarily in relation to [Run Modes](../../../sites/deploying/using/configure-runmodes.md):
 
-* [Adobe CQ Web console](#osgiconfigurationwiththewebconsole)
+* [Adobe CQ Web console](#osgi-configuration-with-the-web-console)
 
     * The Web Console is the standard interface for OSGi configuration. It provides a UI for editing the various properties, where possible values can be selected from predefined lists.  
       As such it is the easiest method to use.
     * Any configurations made with the Web Console are applied immediately and applicable to the current instance, irrespective of the current run mode, or any subsequent changes to the run mode.
 
-* [configuration files](#osgiconfigurationwithconfigurationfiles)
+* [configuration files](#osgi-configuration-with-configuration-files)
 
     * Contain settings defined in the web console.
     * Can be included in content packages for use on other instances.
 
-* [content-nodes (sling:osgiConfig) in the repository](#osgiconfigurationintherepository)
+* [content-nodes (sling:osgiConfig) in the repository](#osgi-configuration-in-the-repository)
 
     * This requires manual configuration using CRXDE Lite.
     * Due to the naming conventions of the `sling:OsgiConfig` nodes, you can tie the configuration to a specific [run mode](../../../sites/deploying/using/configure-runmodes.md). You can even save configurations for more than one run mode in the same repository.
@@ -67,7 +67,7 @@ Any changes made are immediately applied to the relevant OSGi configuration, no 
 
 >[!NOTE]
 >
->Changes made in the web console are saved in the respository as [configuration files](#osgiconfigurationwithconfigurationfiles). These can be included in content packages for re-use in further installations.
+>Changes made in the web console are saved in the respository as [configuration files](#osgi-configuration-with-configuration-files). These can be included in content packages for re-use in further installations.
 
 >[!NOTE]
 >
@@ -99,7 +99,7 @@ To update a configuration with the web console:
 
    >[!NOTE]
    >
-   >Updates are saved in the repository as [configuration files](#osgiconfigurationwithconfigurationfiles). To locate these afterwards, (e.g. to include in a content package for use on another instance) you should make a note of the persistent identity ( `PID`).
+   >Updates are saved in the repository as [configuration files](#osgi-configuration-with-configuration-files). To locate these afterwards, (e.g. to include in a content package for use on another instance) you should make a note of the persistent identity ( `PID`).
 
 1. Click **Save**.
 
@@ -107,7 +107,7 @@ To update a configuration with the web console:
 
    >[!NOTE]
    >
-   >You can now locate the related [configuration file(s)](#osgiconfigurationwithconfigurationfiles); for example, to include in a content package for use on another instance.
+   >You can now locate the related [configuration file(s)](#osgi-configuration-with-configuration-files); for example, to include in a content package for use on another instance.
 
 ## OSGi Configuration with configuration files {#osgi-configuration-with-configuration-files}
 

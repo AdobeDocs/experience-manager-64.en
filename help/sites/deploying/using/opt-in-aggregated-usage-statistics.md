@@ -3,12 +3,12 @@ title: Opting Into Aggregated Usage Statistics Collection
 seo-title: Opting Into Aggregated Usage Statistics Collection
 description: Learn how to opt into aggregated usage statistics.
 seo-description: Learn how to opt into aggregated usage statistics.
-uuid: db49ead9-bed7-41ca-95eb-e6826db666ab
+uuid: 92431e6a-7c48-4dcf-bb3c-5c563e6e602c
 contentOwner: raiman
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
-discoiquuid: d1129120-1b69-464a-868e-98b0818c3e3c
+discoiquuid: be7c1436-cada-47e9-aefe-cf277f367464
 index: y
 internal: n
 snippet: y
@@ -30,7 +30,7 @@ You can opt into usage statistics collection by using either the Touch UI or the
 
 >[!NOTE]
 >
->You can also opt-out at anytime by either using the [Web Console](/sites/deploying/using/opt-in-aggregated-usage-statistics.html?cq_ck=1524753613547#OptinbyusingtheWebConsole) or by not selecting the opt-in option on the AEM opt-in screen.
+>You can also opt-out at anytime by either using the [Web Console](../../../sites/deploying/using/opt-in-aggregated-usage-statistics.md#opt-in-by-using-the-web-console) or by not selecting the opt-in option on the AEM opt-in screen.
 
 ## Opt-in by using the Touch UI {#opt-in-by-using-the-touch-ui}
 

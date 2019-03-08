@@ -3,11 +3,11 @@ title: Web Console
 seo-title: Web Console
 description: Learn how to use the web console in AEM.
 seo-description: Learn how to use the web console in AEM.
-uuid: 2c7e25f8-a17a-4605-9bcb-001cdc202ebb
+uuid: ee8a6f07-48f4-416a-8cf7-4d241fcf603e
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
-discoiquuid: 8c88a3af-97fc-4ac9-af08-bc4b849ed6ed
+discoiquuid: bc122547-98be-4b6b-8169-283e8bf7e6eb
 index: y
 internal: n
 snippet: y
@@ -41,7 +41,7 @@ The **Configuration** tab is used for configuring the OSGi bundles, and is there
 
 >[!NOTE]
 >
->See [OSGi Configuration with the Web Console](../../../sites/deploying/using/configuring-osgi.md#osgiconfigurationwiththewebconsole) for further details.
+>See [OSGi Configuration with the Web Console](../../../sites/deploying/using/configuring-osgi.md#osgi-configuration-with-the-web-console) for further details.
 
 The **Configuration** tab can be accessed by either:
 

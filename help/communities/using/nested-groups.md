@@ -3,12 +3,12 @@ title: Authoring Nested Groups
 seo-title: Authoring Nested Groups
 description: Create nested groups
 seo-description: Create nested groups
-uuid: d1941f83-66cd-4dc2-811f-94cb3131cbc2
+uuid: b3537b20-f83d-47a9-aada-8f976761bc08
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: introduction
 content-type: reference
-discoiquuid: d1f6712f-fd00-44e8-84e6-1bf559a21e47
+discoiquuid: d0775b1d-9a9a-48f1-9a00-859204c29575
 index: y
 internal: n
 snippet: y
@@ -123,7 +123,7 @@ The `arts` group should also contain a `groups` folder, but one that is empty an
     * Template : `Reference Group`
     * Membership : select `Restricted Membership`  
       a secret group, visible only to invited members  
-      as an example, invite [demo user](../../communities/using/tutorials.md#demousers) `emily.andrews@mailinator.com`
+      as an example, invite [demo user](../../communities/using/tutorials.md#demo-users) `emily.andrews@mailinator.com`
 
 Refresh the page to see all three nested groups (sub-communities).
 
@@ -155,7 +155,7 @@ After publishing the main community site, it is necessary to
 
 ## Experience on Publish {#experience-on-publish}
 
-It is possible to experience the different groups when signed in, for example with the [demo users](../../communities/using/tutorials.md#demousers) used for
+It is possible to experience the different groups when signed in, for example with the [demo users](../../communities/using/tutorials.md#demo-users) used for
 
 * Art/History group member : emily.andrews@mailinator.com/password
 

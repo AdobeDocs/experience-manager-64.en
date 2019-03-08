@@ -3,12 +3,12 @@ title: Configure Your Users and User Groups
 seo-title: Configure Your Users and User Groups
 description: Follow this page to understand the user roles and how to configure your users and groups to support the authoring and mangement of your mobile apps.
 seo-description: Follow this page to understand the user roles and how to configure your users and groups to support the authoring and mangement of your mobile apps.
-uuid: 4c53a450-65c4-49ee-9a68-cedbc50f5add
+uuid: 3b11f39f-75a8-4639-b843-4dfba3264996
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: administering-adobe-phonegap-enterprise
-discoiquuid: b7eead68-c27d-4171-be03-f33c20aba772
+discoiquuid: 32dff558-9685-4c5c-8b16-02192412de38
 index: y
 internal: n
 snippet: y
@@ -49,7 +49,7 @@ Members of the app-author group are responsible for authoring AEM mobile applica
 
    Add app-authors to the Authors group
 
-1. Now that you have created the app-authors User Group, you can add individual team members to this new group through the [User Admin console](/libs/granite/security/content/useradmin).
+1. Now that you have created the app-authors User Group, you can add individual team members to this new group through the [User Admin console](/libs/granite/security/content/useradmin.md).
 
    ![](assets/chlimage_1-19.png)
 

@@ -3,11 +3,11 @@ title: XMP writeback to renditions
 seo-title: XMP writeback to renditions
 description: Learn how the XMP writeback feature propagates the metadata changes for an asset to all or specific renditions of the asset.
 seo-description: Learn how the XMP writeback feature propagates the metadata changes for an asset to all or specific renditions of the asset.
-uuid: 9a22ce0c-fa60-4a7c-bdc5-8b68cd489947
+uuid: 7f74567c-ebfa-4e00-8d2b-037b06994a26
 contentOwner: Chiradeep Majumdar
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-discoiquuid: ad8febc4-7bde-47d4-91e7-80d34d451bed
+discoiquuid: 11155285-4342-40bd-b839-63d125b015b9
 index: y
 internal: n
 snippet: y

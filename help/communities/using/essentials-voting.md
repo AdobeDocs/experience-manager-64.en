@@ -3,12 +3,12 @@ title: Voting Essentials
 seo-title: Voting Essentials
 description: Voting component overview
 seo-description: Voting component overview
-uuid: b2de31fd-d800-4fb3-a877-f0e6a44c0528
+uuid: 37162d84-df95-4f20-91d8-489c32b4b1e4
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: ba5063bf-1339-4700-8b79-a6b81f8809b2
+discoiquuid: 865e781d-f671-4f2f-9d30-00526cdc694a
 index: y
 internal: n
 snippet: y
@@ -31,11 +31,11 @@ Anonymous posting of a vote is not supported. Site visitors must register and si
    <td>social/tally/components/hbs/voting</td> 
   </tr> 
   <tr> 
-   <td> <a href="../../communities/using/scf.md#addorincludeacommunitiescomponent"><strong>includable</strong></a></td> 
+   <td> <a href="../../communities/using/scf.md#add-or-include-a-communities-component"><strong>includable</strong></a></td> 
    <td>Yes - properties are editable in <i>design </i>mode</td> 
   </tr> 
   <tr> 
-   <td> <a href="../../communities/using/client-customize.md#clientlibsforscf"><strong>clientlibs</strong></a></td> 
+   <td> <a href="../../communities/using/client-customize.md#clientlibs-for-scf"><strong>clientlibs</strong></a></td> 
    <td> cq.social.hbs.voting</td> 
   </tr> 
   <tr> 
@@ -57,9 +57,9 @@ Anonymous posting of a vote is not supported. Site visitors must register and si
 
 ## Essentials for Server-Side {#essentials-for-server-side}
 
-* [Tally APIs](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/tally/client/api/package-summary)
+* [Tally APIs](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/tally/client/api/package-summary.md)
 
-* [Tally Endpoints](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/tally/client/endpoints/package-summary)
+* [Tally Endpoints](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/tally/client/endpoints/package-summary.md)
 
 * [Server-side Customizations](../../communities/using/server-customize.md)
 

@@ -3,12 +3,12 @@ title: Configuring Multiple In-Place Editors
 seo-title: Configuring Multiple In-Place Editors
 description: It is possible to configure your component so that it has multiple in-place editors
 seo-description: It is possible to configure your component so that it has multiple in-place editors
-uuid: dd4969ff-0561-4f1f-aa85-5d74e6304d90
+uuid: c1ce2577-05e9-4633-957b-dba386495b0a
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: components
 content-type: reference
-discoiquuid: 28cdc573-5c78-4359-a60e-8974b3392750
+discoiquuid: 3d660dbc-e0ef-46cc-a691-c06a0b92e039
 index: y
 internal: n
 snippet: y

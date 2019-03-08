@@ -3,10 +3,10 @@ title: Adaptive form fragments
 seo-title: Adaptive form fragments
 description: Adaptive forms provides a mechanism to create a form segment, such as a panel or a group of fields, as use it in any adaptive form. You can also save an existing panel as fragment.
 seo-description: Adaptive forms provides a mechanism to create a form segment, such as a panel or a group of fields, as use it in any adaptive form. You can also save an existing panel as fragment.
-uuid: 61210573-ad2d-4d69-a34e-2eb236922c2d
+uuid: c606fdfb-74a3-4d87-8910-f907b69aebe4
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
-discoiquuid: ecd8631f-d09f-4215-927b-1f27b5d2c0bb
+discoiquuid: ef993890-0a1e-4705-9c8a-f91ae070fce3
 index: y
 internal: n
 snippet: y
@@ -200,7 +200,7 @@ You can perform several operations on adaptive form fragments using the AEM Form
   </tr> 
   <tr> 
    <td valign="top" width="132"><p>Create Dictionary</p> </td> 
-   <td valign="top" width="406"><p>Generates a dictionary for localizing the selected fragment. For more information, see <a href="/forms/using/localizing-adaptive-forms" target="_blank">Localizing adaptive forms</a>.<br /> <br /> </p> </td> 
+   <td valign="top" width="406"><p>Generates a dictionary for localizing the selected fragment. For more information, see <a href="/forms/using/localizing-adaptive-forms.md" target="_blank">Localizing adaptive forms</a>.<br /> <br /> </p> </td> 
   </tr> 
   <tr> 
    <td valign="top" width="132"><p>Publish / Unpublish</p> </td> 

@@ -3,9 +3,9 @@ title: Use Automated Forms Conversion service
 seo-title: Use Automated Forms Conversion service
 description: Run the Automated Forms Conversion service to convert PDF forms to adaptive forms
 seo-description: Run the Automated Forms Conversion service to convert PDF forms to adaptive forms
-uuid: 027858aa-cc53-48b6-8171-7720da710a03
+uuid: f8b0e4ba-f7ef-4bad-9d6d-39b2c206ae18
 contentOwner: khsingh
-discoiquuid: 92f4498e-c48e-4fb8-b863-ceda89e3f9e4
+discoiquuid: 35a2d379-a35f-4a61-8f4d-0330078f82f3
 index: y
 internal: n
 snippet: y
@@ -30,7 +30,7 @@ After you connect your AEM instance with AEM Forms Conversion Service, you can c
 
 * [Upload PDF forms to your AEM Forms server](../../../forms/using/wip/convert-existing-forms-to-adaptive-forms.md#upload-pdf-forms-to-your-aem-forms-server)
 * [Run the conversion](../../../forms/using/wip/convert-existing-forms-to-adaptive-forms.md#run-the-conversion)
-* [Review and correct the converted forms](/content#main-pars_header_1485925451)
+* [Review and correct the converted forms](/content.md#main-pars_header_1485925451)
 
 ### Upload PDF forms to your AEM Forms server {#upload-pdf-forms-to-your-aem-forms-server}
 

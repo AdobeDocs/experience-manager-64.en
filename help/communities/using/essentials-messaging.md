@@ -3,12 +3,12 @@ title: Messaging Essentials
 seo-title: Messaging Essentials
 description: Messaging component overview
 seo-description: Messaging component overview
-uuid: 8eec55c8-de0d-4d1e-bbd9-e3d88743986e
+uuid: 834e1acb-c3bb-4479-a178-6b4b4d97e4e8
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 0afa7404-c3aa-42fe-838c-8ff8613c4056
+discoiquuid: 905f936a-c8b6-4905-b754-23b4523a0214
 index: y
 internal: n
 snippet: y
@@ -30,7 +30,7 @@ This page documents the details of working with using the Messaging component to
    <td><p>social/messaging/components/hbs/composemessage</p> </td> 
   </tr> 
   <tr> 
-   <td style="text-align: center;"> <a href="../../communities/using/client-customize.md#clientlibsforscf"><strong>clientllibs</strong></a></td> 
+   <td style="text-align: center;"> <a href="../../communities/using/client-customize.md#clientlibs-for-scf"><strong>clientllibs</strong></a></td> 
    <td><p>cq.social.hbs.messaging</p> </td> 
   </tr> 
   <tr> 
@@ -65,7 +65,7 @@ This page documents the details of working with using the Messaging component to
    <td><p>social/messaging/components/hbs/messagebox</p> </td> 
   </tr> 
   <tr> 
-   <td style="text-align: center;"> <a href="../../communities/using/client-customize.md#clientlibsforscf"><strong>clientllibs</strong></a></td> 
+   <td style="text-align: center;"> <a href="../../communities/using/client-customize.md#clientlibs-for-scf"><strong>clientllibs</strong></a></td> 
    <td><p>cq.social.hbs.messaging</p> </td> 
   </tr> 
   <tr> 
@@ -93,11 +93,11 @@ See also [Client-side Customizations](../../communities/using/client-customize.m
 
 * [Configuring Messaging](../../communities/using/configure-messaging.md)
 
-* [Messaging client APIs](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/messaging/client/api/package-summary) for SCF components
+* [Messaging client APIs](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/messaging/client/api/package-summary.md) for SCF components
 
-* [Messaging APIs](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/messaging/api/package-summary) for the service
+* [Messaging APIs](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/messaging/api/package-summary.md) for the service
 
-* [Messaging Endpoints](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/messaging/client/endpoints/package-summary)
+* [Messaging Endpoints](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/messaging/client/endpoints/package-summary.md)
 
 * [Server-side Customizations](../../communities/using/server-customize.md)
 
@@ -117,7 +117,7 @@ See also [Client-side Customizations](../../communities/using/client-customize.m
 
 ### Community Site {#community-site}
 
-A community site structure, created using the wizard, will include the messaging feature when selected. See `User Management` settings of [Community Sites Console](../../communities/using/sites-console.md#usermanagement).
+A community site structure, created using the wizard, will include the messaging feature when selected. See `User Management` settings of [Community Sites Console](../../communities/using/sites-console.md#user-management).
 
 ### Sample Code : Message Received Notification {#sample-code-message-received-notification}
 

@@ -4,9 +4,9 @@ seo-title: [DO NOT PUBLISH] Style your adaptive form
 description: Learn to create a custom theme, style individual components, and use web fonts in a theme 
 seo-description: Learn to create a custom theme, style individual components, and use web fonts in a theme 
 page-status-flag: de-activated
-uuid: 8dda411d-08cc-4f03-897f-60644dae1560
+uuid: 6aa5390f-3fc6-4eea-9e7a-68f000387531
 topic-tags: introduction
-discoiquuid: 8556bb96-c8a0-4469-96f8-8e39ddb75f45
+discoiquuid: dbb34dae-65bc-4741-9431-b97a26f3b8bc
 index: y
 internal: n
 snippet: y
@@ -50,7 +50,7 @@ Adaptive forms editor provides multiple out-of-the-box themes. If you plan not t
 
 1. Open the adaptive form for editing.
 
-   [http://localhost:4502/editor.html/content/forms/af/shipping-address-add-update-form.html](/editor.html/content/forms/af/shipping-address-add-update-form) 
+   [http://localhost:4502/editor.html/content/forms/af/shipping-address-add-update-form.html](/editor.html/content/forms/af/shipping-address-add-update-form.md) 
 
 1. Open properties of **Adaptive Form container**. In the properties browser, navigate to **Basic** &gt; **Adaptive Form Theme**. The** Adaptive Form Theme** field lists all the out-of-the-box and custom themes. By default, the Canvas theme is applied.
 1. Select a theme from the **Adaptive Form Theme** field. For example, **Survey theme**. Tap ![](assets/aem_6_3_forms_save.png) to apply the selected theme.
@@ -70,7 +70,7 @@ The design displayed above requires changes in placeholder text and logo of your
 1. Change the existing logo and text of the header. To remove the logo:
 
     1. Open the form in form editor.  
-       [http://localhost:4502/editor.html/content/forms/af/shipping-address-add-update-form.html](/editor.html/content/forms/af/shipping-address-add-update-form)
+       [http://localhost:4502/editor.html/content/forms/af/shipping-address-add-update-form.html](/editor.html/content/forms/af/shipping-address-add-update-form.md)
     
     1. Tap logo image in the header component and tap ![](https://chl-author-preview.corp.adobe.com/content/dam/help/en/aem-forms/6-2/cmppr.png) properties. In the image property, tap X to remove the existing logo image.
     1. Tap upload, select the logo.png, and tap ![](https://chl-author-preview.corp.adobe.com/content/dam/help/en/aem-forms/icons/AEM_6_3_Forms_save.PNG) to save the changes. The image was downloaded in the [Before you start](../../forms/using/style-your-adaptive-form.md#before-you-start) section.  

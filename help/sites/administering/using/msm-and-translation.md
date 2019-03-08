@@ -3,12 +3,12 @@ title: Website Administration
 seo-title: Website Administration
 description: Learn how to manage multilingual websites in AEM.
 seo-description: Learn how to manage multilingual websites in AEM.
-uuid: 546a3152-cd27-4f8d-902f-c8cd80095bb5
+uuid: dd71acf8-7b75-45f0-9028-c45d37aa6db5
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features
 content-type: reference
-discoiquuid: e4731696-20e6-4d61-b99d-d4e9bc9a5a1d
+discoiquuid: 55334c59-5c23-4250-b931-b04a26234578
 index: y
 internal: n
 snippet: y
@@ -26,7 +26,7 @@ The following administration tools are available for managing websites and pages
 
     * [Translating Content for Multilingual Sites](../../../sites/administering/using/translation.md)
 
-* These two features can be combined to cater for websites that are both [Multinational and Multilingual](#multinationalandmultilingualsites).
+* These two features can be combined to cater for websites that are both [Multinational and Multilingual](#multinational-and-multilingual-sites).
 
 ## Multinational and Multilingual Sites {#multinational-and-multilingual-sites}
 
@@ -58,8 +58,8 @@ The following diagram illustrates how the main concepts intersect (but does not 
 >For all use-cases it is recommended to read the following best practices:
 >
 >* [Best Practices for MSM](../../../sites/administering/using/msm-best-practices.md); particularly: >
->    * [Create Site](../../../sites/administering/using/msm-best-practices.md#createsite)
->    * [MSM and Multilingual Websites](../../../sites/administering/using/msm-best-practices.md#msmandmultilingualwebsites)
+>    * [Create Site](../../../sites/administering/using/msm-best-practices.md#create-site)
+>    * [MSM and Multilingual Websites](../../../sites/administering/using/msm-best-practices.md#msm-and-multilingual-websites)
 >
 >* [Best Practices for Translation](../../../sites/administering/using/tc-bp.md)
 >

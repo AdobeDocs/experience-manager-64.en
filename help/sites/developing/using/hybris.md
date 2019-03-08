@@ -3,12 +3,12 @@ title: Developing with hybris
 seo-title: Developing with hybris
 description: The hybris integration framework includes an integration layer with an API
 seo-description: The hybris integration framework includes an integration layer with an API
-uuid: 139879d8-f15a-4f1d-8195-1cbb033017e3
+uuid: 2fb70bbf-2fbe-4806-8364-8a6cefd51e00
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: platform
-discoiquuid: efffa684-9caf-454d-bc30-fff2b1ffef3d
+discoiquuid: 1953b7f8-cf49-4446-b5e5-0157e914c29f
 index: y
 internal: n
 snippet: y
@@ -29,7 +29,7 @@ The integration framework includes an integration layer with an API. This allows
 
 >[!NOTE]
 >
->[API documentation](../../../sites/developing/using/ecommerce.md#apidocumentation) is also available.
+>[API documentation](../../../sites/developing/using/ecommerce.md#api-documentation) is also available.
 
 A number of out-of-the-box AEM components are provided to use the integration layer. Currently these are:
 
@@ -526,7 +526,7 @@ The eCommerce project contains a default search component, located in:
 
 ![](assets/chlimage_1-14.png)
 
-This makes use of the search API to query the selected commerce engine (see [eCommerce Engine Selection](#ecommerceengineselection)):
+This makes use of the search API to query the selected commerce engine (see [eCommerce Engine Selection](#ecommerce-engine-selection)):
 
 #### Search API {#search-api}
 
@@ -538,7 +538,7 @@ There are several generic / helper classes provided by the core project:
 1. `FacetParamHelper`  
    Is a utility class that provides one static method - `toParams` - that is used for generating `GET` parameter strings from a list of facets and one toggled value. This is useful on the UI side, where you need to display a hyperlink for each value of each facet, such that when the user clicks on the hyperlink the respective value is toggled (i.e. if it was selected it is removed from the query, otherwise added). This takes care of all the logic of handling multiple/single-valued facets, overriding values, etc.
 
-The entry point for the search API is the `CommerceService#search` method which returns a `CommerceResult` object. See the [API Documentation](../../../sites/developing/using/ecommerce.md#apidocumentation) for more information on this topic.
+The entry point for the search API is the `CommerceService#search` method which returns a `CommerceResult` object. See the [API Documentation](../../../sites/developing/using/ecommerce.md#api-documentation) for more information on this topic.
 
 ### User Integration {#user-integration}
 

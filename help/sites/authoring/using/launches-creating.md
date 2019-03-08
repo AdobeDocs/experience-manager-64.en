@@ -3,12 +3,12 @@ title: Creating Launches
 seo-title: Creating Launches
 description: You can create a launch to enable the updating of a new version of existing web pages for future activation. 
 seo-description: You can create a launch to enable the updating of a new version of existing web pages for future activation. 
-uuid: f73f792c-8fc1-4343-8a34-e1b7012ff83f
+uuid: 2edda473-b9bb-4995-9324-f3c5d93736cc
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
-discoiquuid: 97a08478-18ac-4ae4-983d-1bab6030e99e
+discoiquuid: 1240ea44-c416-4212-b31b-692dd2cdc67e
 legacypath: /content/docs/en/aem/6-0/author/site-page-features/launches
 index: y
 internal: n
@@ -23,7 +23,7 @@ Create a launch to enable the updating of a new version of existing web pages fo
 * The child pages of the source page are included in the launch by default. You can use only the source page if desired. 
 * By default, [Live Copy](../../../sites/administering/using/msm.md) automatically updates the launch pages as the source pages change. You can specify that a static copy is created to prevent automatic changes.
 
-Optionally, you can specify the **Launch Date** (and time) to define when the launch pages are to be promoted and activated. However the **Launch Date** only operates in combination with the **Production Ready** flag (see [Editing a Launch Configuration](../../../sites/authoring/using/launches-editing.md#editingalaunchconfiguration)); for the actions to actually occur automatically, both must be set.
+Optionally, you can specify the **Launch Date** (and time) to define when the launch pages are to be promoted and activated. However the **Launch Date** only operates in combination with the **Production Ready** flag (see [Editing a Launch Configuration](../../../sites/authoring/using/launches-editing.md#editing-a-launch-configuration)); for the actions to actually occur automatically, both must be set.
 
 ## Creating a Launch {#creating-a-launch}
 
@@ -86,7 +86,7 @@ You can create a launch from either the Sites or Launches console:
     * **Launch Title**: The name of the Launch. The name should be meaningful for authors.
     * **with existing content**: the original content will be used to create the launch.  
     
-    * **use a new template to replace the page**: See [Create Launch with New Template](#createlaunchwithnewtemplate) for more details.  
+    * **use a new template to replace the page**: See [Create Launch with New Template](#create-launch-with-new-template) for more details.  
     
     * **Inherit source page live data**: Select this option to automatically update the content of launch pages when the source pages change. This option achieves this by making the launch a [live copy](../../../sites/administering/using/msm.md).  
       By default, this option is selected.  
@@ -99,8 +99,8 @@ You can create a launch from either the Sites or Launches console:
 
    If you return the console (with **Done**) you can see (and access) your launch from either:
 
-    * the [**Launches** console](../../../sites/authoring/using/launches.md#thelaunchesconsole)
-    * the [**References** in the **Sites** console](../../../sites/authoring/using/launches.md#launchesinreferencessitesconsole)
+    * the [**Launches** console](../../../sites/authoring/using/launches.md#the-launches-console)
+    * the [**References** in the **Sites** console](../../../sites/authoring/using/launches.md#launches-in-references-sites-console)
 
 ### Create Launch with New Template {#create-launch-with-new-template}
 
@@ -133,7 +133,7 @@ Creating a nested launch (launch within a launch) gives you the ability to creat
 
 >[!NOTE]
 >
->See also [Promoting a Nested Launch](../../../sites/authoring/using/launches-promoting.md#promotinganestedlaunch).
+>See also [Promoting a Nested Launch](../../../sites/authoring/using/launches-promoting.md#promoting-a-nested-launch).
 
 #### Creating a Nested Launch - Launches Console {#creating-a-nested-launch-launches-console}
 
@@ -152,7 +152,7 @@ Creating a nested launch from the **Launches** console is basically the same as 
 
 To create a nested launch from the **Sites** console - based on an existing launch:
 
-1. Access the [Launch from References (Sites console)](../../../sites/authoring/using/launches.md#launchesinreferencessitesconsole) to show the available actions.
+1. Access the [Launch from References (Sites console)](../../../sites/authoring/using/launches.md#launches-in-references-sites-console) to show the available actions.
 1. Select **Create launch** to open the wizard (as the source has already been selected it will skip the **Select Source** step).  
 
 1. Enter the **Launch Title** and any other required details (as with a normal launch).  
@@ -163,7 +163,7 @@ To create a nested launch from the **Sites** console - based on an existing laun
 
 ### Deleting a Launch {#deleting-a-launch}
 
-You can delete a launch from the [launches console](../../../sites/authoring/using/launches.md#thelaunchesconsole):
+You can delete a launch from the [launches console](../../../sites/authoring/using/launches.md#the-launches-console):
 
 * Select the launch, by tapping/clicking on the thumbnail.
 * The toolbar will appear - select Delete.

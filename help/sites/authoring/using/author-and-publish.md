@@ -3,9 +3,9 @@ title: REDIRECT Supporting Author and Publish in AEM Screens
 seo-title: REDIRECT Supporting Author and Publish in AEM Screens
 description: null
 seo-description: null
-uuid: 1a477320-3069-4ee2-aae5-7b6284775ef0
+uuid: 814a1807-58a0-4409-b1e5-fcf1d7cc2e64
 contentOwner: jsyal
-discoiquuid: 0390de53-1abe-4cfb-b023-cca56cab20d4
+discoiquuid: 5f6d81d1-d00e-4263-83e4-77b2ac8a07bf
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/screens/using/author-and-publish
 index: y

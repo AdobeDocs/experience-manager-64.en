@@ -3,9 +3,9 @@ title: REDIRECT Creating a Project
 seo-title: REDIRECT Creating a Project
 description: null
 seo-description: null
-uuid: 47d9e7a6-6a32-4224-8310-3184a653483d
+uuid: c83eca03-fdaa-47d6-956c-36d4dc6e33ea
 contentOwner: jsyal
-discoiquuid: 311efb32-2c78-4839-9f2b-f36505adc30a
+discoiquuid: 54f4b127-b0f0-463d-9ff3-77da07a42d66
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/screens/using/creating-a-screens-project
 index: y

@@ -3,12 +3,12 @@ title: Integrating Landing Pages with Adobe Analytics
 seo-title: Integrating Landing Pages with Adobe Analytics
 description: Learn how to integrate landing pages with Adobe Analytics.
 seo-description: Learn how to integrate landing pages with Adobe Analytics.
-uuid: 72d08641-8911-47e3-9628-bee879d6aa72
+uuid: 6a8b0e81-ee45-44b8-a904-5df14e7f7667
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: 43c6d500-d4ac-4ae2-80a6-d211264ecf6d
+discoiquuid: 6ded8a85-19fd-42f5-a7d8-86daed49824b
 index: y
 internal: n
 snippet: y

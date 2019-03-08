@@ -3,12 +3,12 @@ title: SPA Javascript API References
 seo-title: SPA Javascript API References
 description: An overview of the single page application API references
 seo-description: An overview of the single page application API references
-uuid: 9e713672-e13d-45cc-8f38-4d7e9a41b30f
+uuid: 3626a5ff-3783-41c1-9278-bf47a2ad4a9c
 contentOwner: bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: spa
 content-type: reference
-discoiquuid: 0858e96b-a4f3-4054-a458-a555a7ac0f9b
+discoiquuid: bc2968ed-fde1-4c0e-85ea-7f0d2f1e0022
 index: y
 internal: n
 snippet: y

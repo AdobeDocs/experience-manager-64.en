@@ -3,12 +3,12 @@ title: Creating a Closed User Group
 seo-title: Creating a Closed User Group
 description: Learn how to create a Closed User Group.
 seo-description: Learn how to create a Closed User Group.
-uuid: adb4454a-de76-44a3-a9c7-2f3edcad2b6d
+uuid: feb751b5-b61d-49e1-babd-737d46a06e41
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
-discoiquuid: bd7fd3d0-e4ff-4c85-878a-78a11d0a1ee6
+discoiquuid: 77b832e5-0043-42a6-9933-40b2f786ac24
 index: y
 internal: n
 snippet: y
@@ -20,11 +20,11 @@ Closed User Groups (CUGs) are used to limit access to specific pages that reside
 
 To configure such a area within your website you:
 
-* [create the actual closed user group and assign members](#creatingtheusergrouptobeused).  
+* [create the actual closed user group and assign members](#creating-the-user-group-to-be-used).  
 
-* [apply this group to the required pages](#applyingyourclosedusergrouptocontentpages) and select (or create) the login page for use by the members of the CUG; also specified when applying a CUG to a content page.  
+* [apply this group to the required pages](#applying-your-closed-user-group-to-content-pages) and select (or create) the login page for use by the members of the CUG; also specified when applying a CUG to a content page.  
 
-* [create a link, of some form, to at least one page within the protected area](#linkingtotherealm), otherwise it will not be visible.
+* [create a link, of some form, to at least one page within the protected area](#linking-to-the-realm), otherwise it will not be visible.
 * [configure the Dispatcher](#configurethedispatcher) if in use.
 
 >[!CAUTION]
@@ -43,7 +43,7 @@ To create a closed user group:
 
    >[!NOTE]
    >
-   >See [Managing Users and Groups](../../../sites/administering/using/security.md#managingusersandgroups) for full information on creating and configuring users and groups.
+   >See [Managing Users and Groups](../../../sites/administering/using/security.md#managing-users-and-groups) for full information on creating and configuring users and groups.
 
 1. Select the **Groups** card from the next screen.
 
@@ -99,13 +99,13 @@ To avoid this, it is advisable to create non-protected redirect pages that point
 
 If you are using Dispatcher, you need to define a Dispatcher farm with the following properties:
 
-* [virtualhosts](https://helpx.adobe.com/experience-manager/dispatcher/using/dispatcher-configuration.html#IdentifyingVirtualHostsvirtualhosts): Matches the path to the pages that the CUG applies to.
+* [virtualhosts](https://helpx.adobe.com/experience-manager/dispatcher/using/dispatcher-configuration.html#identifying-virtual-hosts-virtualhosts): Matches the path to the pages that the CUG applies to.
 * \sessionmanagement: see below.
-* [cache](https://helpx.adobe.com/experience-manager/dispatcher/using/dispatcher-configuration.html#ConfiguringtheDispatcherCachecache): A cache directory that is dedicated to the files that the CUG applies to.
+* [cache](https://helpx.adobe.com/experience-manager/dispatcher/using/dispatcher-configuration.html#configuring-the-dispatcher-cache-cache): A cache directory that is dedicated to the files that the CUG applies to.
 
 ### Configuring Dispatcher Session Management for CUGs {#configuring-dispatcher-session-management-for-cugs}
 
-Configure [session management in the dispatcher.any file](https://helpx.adobe.com/experience-manager/dispatcher/using/dispatcher-configuration.html#EnablingSecureSessionssessionmanagement) for the CUG. The authentication handler that is used when access is requested for CUG pages determines how you configure session management.
+Configure [session management in the dispatcher.any file](https://helpx.adobe.com/experience-manager/dispatcher/using/dispatcher-configuration.html#enabling-secure-sessions-sessionmanagement) for the CUG. The authentication handler that is used when access is requested for CUG pages determines how you configure session management.
 
 ```xml
 /sessionmanagement
@@ -119,7 +119,7 @@ Configure [session management in the dispatcher.any file](https://helpx.adobe.co
 >When a Dispatcher farm has session-management enabled, all pages that the farm handles are not cached. To cache pages that are outside of CUG, create a second farm in dispatcher.any  
 >that handles the non-CUG pages.
 
-1. Configure [/sessionmanagement](https://helpx.adobe.com/experience-manager/dispatcher/using/dispatcher-configuration.html#EnablingSecureSessionssessionmanagement) by defining `/directory`; for example:
+1. Configure [/sessionmanagement](https://helpx.adobe.com/experience-manager/dispatcher/using/dispatcher-configuration.html#enabling-secure-sessions-sessionmanagement) by defining `/directory`; for example:
 
    ```xml
    /sessionmanagement

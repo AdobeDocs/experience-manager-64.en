@@ -3,12 +3,12 @@ title: Reporting
 seo-title: Reporting
 description: Learn how to work with Reporting in AEM.
 seo-description: Learn how to work with Reporting in AEM.
-uuid: 9a7c9fce-5782-44e8-9433-3ef981245dfa
+uuid: b95236c5-4c99-4a75-8d31-d67edd90fa03
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: b0015000-5920-45c0-8781-f4ed1c284408
+discoiquuid: ea0269a4-9494-4a23-8db8-e44b4ee8059d
 index: y
 internal: n
 snippet: y
@@ -18,14 +18,14 @@ snippet: y
 
 To help you monitor and analyze the state of your instance, AEM provides a selection of default reports, which can be configured for your individual requirements:
 
-* [Component Report](#componentreport)
-* [Disk Usage](#diskusage)
-* [Health Check](#healthcheck)
-* [Page Activity Report](#pageactivityreport)
-* [User Generated Content Report](#usergeneratedcontentreport)
-* [User Report](#userreport)
-* [Workflow Instance Report](#workflowinstancereport)
-* [Workflow Report](#workflowreport)
+* [Component Report](#component-report)
+* [Disk Usage](#disk-usage)
+* [Health Check](#health-check)
+* [Page Activity Report](#page-activity-report)
+* [User Generated Content Report](#user-generated-content-report)
+* [User Report](#user-report)
+* [Workflow Instance Report](#workflow-instance-report)
+* [Workflow Report](#workflow-report)
 
 All reports can be accessed from the **Tools** console. Select **Reports** in the left-hand pane, then double-click the required report in the right-hand pane to open it for viewing and/or configuration.
 
@@ -39,21 +39,21 @@ New instances of a report can also be created from the **Tools** console. Select
 
 There are various formats of reports available. The following reports all use columns that can be customized as detailed in the following sections:
 
-* [Component Report](#componentreport)
-* [Page Activity Report](#pageactivityreport)
-* [User Generated Content Report](#usergeneratedcontentreport)
-* [User Report](#userreport)
-* [Workflow Instance Report](#workflowinstancereport)
+* [Component Report](#component-report)
+* [Page Activity Report](#page-activity-report)
+* [User Generated Content Report](#user-generated-content-report)
+* [User Report](#user-report)
+* [Workflow Instance Report](#workflow-instance-report)
 
 >[!NOTE]
 >
 >The following reports each have their own format and customization:  
 
 >
->* [Health Check](#healthcheck) uses selection fields to specify the data you want to report on.  
+>* [Health Check](#health-check) uses selection fields to specify the data you want to report on.  
 >
->* [Disk Usage](#diskusage) uses links to drill down through the repository structure.
->* [Workflow report](../../../sites/administering/using/reporting.md#workflowreport) gives an overview of the workflows running on your instance.
+>* [Disk Usage](#disk-usage) uses links to drill down through the repository structure.
+>* [Workflow report](../../../sites/administering/using/reporting.md#workflow-report) gives an overview of the workflows running on your instance.
 >
 >So the following procedures for column configuration are not appropriate. See the descriptions of the individual reports for their details.
 
@@ -77,7 +77,7 @@ To change the data selection:
 
 Each column in the report has a drop-down menu. This becomes visible when your mouse cursor moves over the column title cell.
 
-An arrow head will appear at the far right of the title cell (not to be confused with the arrow head immediately to the right of the title text that indicates the [current sort mechanism](#sortingthedata)).
+An arrow head will appear at the far right of the title cell (not to be confused with the arrow head immediately to the right of the title text that indicates the [current sort mechanism](#sorting-the-data)).
 
 ![](assets/reportcolumnsort.png)
 
@@ -88,11 +88,11 @@ The options available on the menu will depend on the configuration of the column
 The data can be sorted according to a specific column by either:
 
 * clicking on the appropriate column header; the sort will toggle between ascending and descending, indicated by an arrow head immediately next to the title text  
-* use the [column's drop-down menu](#columndropdownmenu) to specifically select either **Sort Ascending** or **Sort Descending**; again this will be indicated by an arrow head immediately next to the title text
+* use the [column's drop-down menu](#column-drop-down-menu) to specifically select either **Sort Ascending** or **Sort Descending**; again this will be indicated by an arrow head immediately next to the title text
 
 ### Groups and the Current data Chart {#groups-and-the-current-data-chart}
 
-On appropriate columns you can select **Group by this column** from the [column's drop-down menu](#columndropdownmenu). This will group the data according to each distinct value within that column. You can select more than one column to be grouped. The option will be greyed out when the data in the column is inappropriate; i.e. every entry is distinct and unique so no groups can be formed, for example the User ID column of the user report.
+On appropriate columns you can select **Group by this column** from the [column's drop-down menu](#column-drop-down-menu). This will group the data according to each distinct value within that column. You can select more than one column to be grouped. The option will be greyed out when the data in the column is inappropriate; i.e. every entry is distinct and unique so no groups can be formed, for example the User ID column of the user report.
 
 After at least one column has been grouped a pie-chart of **Current data** will be generated, based on this grouping. If multiple columns are grouped then this will also be indicated on the chart.
 
@@ -102,7 +102,7 @@ Moving your cursor over the pie-chart will show the aggregated value for the app
 
 ### Filters and Aggregates {#filters-and-aggregates}
 
-On appropriate columns you can also configure **Filter Settings** and/or **Aggregates** from the [column's drop-down menu](#columndropdownmenu).
+On appropriate columns you can also configure **Filter Settings** and/or **Aggregates** from the [column's drop-down menu](#column-drop-down-menu).
 
 #### Filters {#filters}
 
@@ -133,7 +133,7 @@ You can also select an aggregation method (these may vary depending on the colum
 
 ### Column Properties {#column-properties}
 
-This option is only available when the [Generic column](#genericcolumn) has been used in the [User Report](#userreport).
+This option is only available when the [Generic column](#generic-column) has been used in the [User Report](#user-report).
 
 ### Historic data {#historic-data}
 
@@ -221,7 +221,7 @@ Customized reports can also show the **Total** value for all series. This is sho
 
 The **Edit** button opens the **Edit Report** Dialog.
 
-This is one location where the period for collecting snapshots for [Historic data](#historicdata) is defined, but various other settings can also be defined:
+This is one location where the period for collecting snapshots for [Historic data](#historic-data) is defined, but various other settings can also be defined:
 
 ![](assets/reportedit.png)
 
@@ -242,14 +242,14 @@ This is one location where the period for collecting snapshots for [Historic dat
     * **manually refresh data** 
       This option can be used to prevent delays caused by automatic refresh operations when there is a large volume of data.  
       Selecting this indicates that the report data must be manually refreshed when any aspect of the report configuration has changed. It also means that as soon as you change any aspect of the configuration the report table will be blanked out.  
-      When this is selected the ** [Load data](#loaddata)** button will be displayed (next to **Edit** on the report). **Load data** will load the data and refresh the report data shown.
+      When this is selected the ** [Load data](#load-data)** button will be displayed (next to **Edit** on the report). **Load data** will load the data and refresh the report data shown.
 
 * **Snapshots** 
   You can define how often snapshots are to be made; daily, hourly or not at all.
 
 ### Load data {#load-data}
 
-The **Load data** button is only visible when **manually refresh data** has been selected from ** [Edit](#editreport)**.
+The **Load data** button is only visible when **manually refresh data** has been selected from ** [Edit](#edit-report)**.
 
 ![](assets/chlimage_1-65.png)
 
@@ -268,7 +268,7 @@ When you **Finish** the report:
 * The report definition *as of that point in time* will be used for taking the snapshots (afterwards you can continue working on a report definition as it is then separate from the snaphots).  
 
 * Any existing snapshots will be removed.
-* New snapshots are collected for the [Historic data](#historicdata).
+* New snapshots are collected for the [Historic data](#historic-data).
 
 With this dialog you can define, or update, your own title and description for the resulting report.
 
@@ -280,7 +280,7 @@ With this dialog you can define, or update, your own title and description for t
 
 The component report delivers information about how your website uses the components.
 
-[Columns of information](#selectingandpositioningthedatacolumns) about:
+[Columns of information](#selecting-and-positioning-the-data-columns) about:
 
 * Author
 * Component Path
@@ -343,7 +343,7 @@ To generate the report you can specify:
 
 The page activity report lists pages and the actions made on them.
 
-[Columns of information](#selectingandpositioningthedatacolumns) about:
+[Columns of information](#selecting-and-positioning-the-data-columns) about:
 
 * Page
 * Time
@@ -366,7 +366,7 @@ The page activity report takes all its information from the audit log. By defaul
 
 This report provides information about user generated content; be that comments, ratings or forums.
 
-[Columns of information](#selectingandpositioningthedatacolumns) on:
+[Columns of information](#selecting-and-positioning-the-data-columns) on:
 
 * Date
 * IP Address
@@ -387,7 +387,7 @@ Allow you to:
 
 This report gives information about all users that have registered an account and/or profile; this can include both authors within your organization and external visitors.
 
-[Columns of information](#selectingandpositioningthedatacolumns) (where available) about:
+[Columns of information](#selecting-and-positioning-the-data-columns) (where available) about:
 
 * Age
 * Country
@@ -395,7 +395,7 @@ This report gives information about all users that have registered an account an
 * E-Mail
 * Family Name
 * Gender
-* [Generic](#genericcolumn)
+* [Generic](#generic-column)
 * Given Name
 * Info
 * Interest
@@ -412,7 +412,7 @@ Allow you to:
 
 #### Generic Column {#generic-column}
 
-The **Generic** column is available in the User Report so that you can access customized information, usually from the [user profiles](../../../sites/administering/using/identity-management.md#profilesanduseraccounts); for example, [Favorite Color as detailed under Adding Fields to the Profile Definition](../../../sites/administering/using/identity-management.md#addingfieldstotheprofiledefinition).
+The **Generic** column is available in the User Report so that you can access customized information, usually from the [user profiles](../../../sites/administering/using/identity-management.md#profiles-and-user-accounts); for example, [Favorite Color as detailed under Adding Fields to the Profile Definition](../../../sites/administering/using/identity-management.md#adding-fields-to-the-profile-definition).
 
 The Generic column dialog will open when you either:
 
@@ -447,7 +447,7 @@ In the **Extended** tab you can also define the aggregates and filters available
 
 This gives you a concise overview, providing information about the individual instances of workflows, both running and completed.
 
-[Columns of information](#selectingandpositioningthedatacolumns) about:
+[Columns of information](#selecting-and-positioning-the-data-columns) about:
 
 * Completed
 * Duration
@@ -493,7 +493,7 @@ As no report configuration is allowed in the publish environment, the **Edit** a
 
 >[!CAUTION]
 >
->Access to these reports may be a security issue; therefore we recommend you configure the Dispatcher so that `/etc/reports` is not available to external visitors. See the [Security Checklist](/content/docs/en/aem/6-3/deploy/security_checklist#Restrict Access via the Dispatcher) for more details.
+>Access to these reports may be a security issue; therefore we recommend you configure the Dispatcher so that `/etc/reports` is not available to external visitors. See the [Security Checklist](/content/docs/en/aem/6-3/deploy/security_checklist.md#restrict access via the dispatcher) for more details.
 
 ## Permissions Needed for Running Reports {#permissions-needed-for-running-reports}
 

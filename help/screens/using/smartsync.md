@@ -4,9 +4,9 @@ seo-title: Transitioning from ContentSync to SmartSync
 description: Follow this page to learn about SmartSync feature and how you can transition from ContentSync to SmartSync.
 seo-description: Follow this page to learn about SmartSync feature and how you can transition from ContentSync to SmartSync.
 page-status-flag: never-activated
-uuid: 1464a35e-6cf1-404b-9ee6-513d2b30e8bf
+uuid: b307f8ec-0a15-4248-b9ab-fa45362e1a2e
 contentOwner: jsyal
-discoiquuid: 42059316-fbba-422f-9d00-341212985468
+discoiquuid: aed50084-af57-4fa1-824d-fac98ade206c
 index: y
 internal: n
 snippet: y

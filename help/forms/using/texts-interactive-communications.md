@@ -3,10 +3,10 @@ title: Texts in Interactive Communications
 seo-title: Text in Interactive Communications
 description: Creating and editing text document fragments to be used in Interactive Communications - text is one of the four types of document fragments used to build Interactive Communications. The other three are conditions, lists, and layout fragments.  
 seo-description: Creating and editing text document fragments to be used in Interactive Communications
-uuid: 88612154-54ed-4338-b380-f0916b41a4d5
+uuid: d0b7036c-4105-44d1-b3e9-cbc98ab38074
 topic-tags: interactive-communications
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: c6032ac7-9ede-41c4-b67f-e558285f4638
+discoiquuid: e8f1627b-d168-493d-a26a-6226c8e9d485
 index: y
 internal: n
 snippet: y

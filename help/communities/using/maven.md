@@ -3,12 +3,12 @@ title: Using Maven for Communities
 seo-title: Using Maven for Communities
 description: AEM Communities API jar and AEM Uber API jar
 seo-description: AEM Communities API jar and AEM Uber API jar
-uuid: bef79452-6932-44a8-868b-d529fdfc1dd8
+uuid: 5148b0fe-c579-4990-9cb5-4ee8751855fb
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 1c07d3a6-5627-43b1-8b41-1a9039eb6532
+discoiquuid: 8cfdf1a6-ef11-40e8-a00e-4582c248b5e4
 index: y
 internal: n
 snippet: y
@@ -24,8 +24,8 @@ This section of the AEM Communities documentation is in addition to:
 
 There are now two "uber" artifacts that replace individual artifacts :
 
-* AEM [Communities API jar](#communitiesapijarartifact)
-* AEM [Uber API jar](../../sites/developing/using/ht-projects-maven.md#whatistheuberjar)
+* AEM [Communities API jar](#communities-api-jar-artifact)
+* AEM [Uber API jar](../../sites/developing/using/ht-projects-maven.md#what-is-the-uberjar)
 
 ## Communities API Jar Artifact {#communities-api-jar-artifact}
 
@@ -57,7 +57,7 @@ The version specified should correspond to the Communities package version insta
 >
 >It is recommended to keep up-to-date with the most recent Communities release. 
 >
->Visit the [Latest Releases](../../communities/using/deploy-communities.md#latestreleases) section to identify the most recent version.
+>Visit the [Latest Releases](../../communities/using/deploy-communities.md#latest-releases) section to identify the most recent version.
 
 ## Maven Dependency Example {#maven-dependency-example}
 

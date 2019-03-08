@@ -3,11 +3,11 @@ title: Use Adobe Stock assets in AEM Assets
 seo-title: Use Adobe Stock assets in AEM Assets
 description: Search, fetch, license, and manage Adobe Stock assets in AEM. Treat the licensed assets as any other AEM asset.
 seo-description: Search, fetch, license, and manage Adobe Stock assets in AEM. Treat the licensed assets as any other AEM asset.
-uuid: 6730dc2a-4de7-4ec3-862a-f717e7ead4d1
+uuid: f6bc3bec-82c2-40ad-86da-f395a78b20bd
 contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: authoring
-discoiquuid: 7c1aefbd-0975-4189-a1b6-c0d1a46917a8
+discoiquuid: 1d73d215-d81d-4f63-a947-21caa9ed56d5
 index: y
 internal: n
 snippet: y
@@ -77,7 +77,7 @@ Alternatively, start typing ' `Location: Adobe Stock`' in the search bar to sele
 
 >[!NOTE]
 >
->Assets searched from Adobe Stock are just displayed in AEM. Adobe Stock assets are fetched and stored in AEM repository only after a user either [saves an asset](/assets/using/aem-assets-adobe-stock.html?cq_ck=1538142629383#saveassets) or [licenses an asset](/assets/using/aem-assets-adobe-stock.html?cq_ck=1538142629383#licenseassets). Assets that are already stored in AEM are displayed and highlighted for ease of reference and access. Also, such assets are saved with some additional metadata to indicate the source as Adobe Stock.
+>Assets searched from Adobe Stock are just displayed in AEM. Adobe Stock assets are fetched and stored in AEM repository only after a user either [saves an asset](../../assets/using/aem-assets-adobe-stock.md#saveassets) or [licenses an asset](../../assets/using/aem-assets-adobe-stock.md#licenseassets). Assets that are already stored in AEM are displayed and highlighted for ease of reference and access. Also, such assets are saved with some additional metadata to indicate the source as Adobe Stock.
 
 ![Search filters in AEM and highlighted Adobe Stock assets in search results](assets/aem-search-filters2.jpg)
 

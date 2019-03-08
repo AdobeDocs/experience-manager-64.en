@@ -3,12 +3,12 @@ title: Configure Your Users and User Groups
 seo-title: Configure Your Users and User Groups
 description: Follow this page to understand the user roles and how to configure your users and groups to support the authoring and mangement of your mobile On-Demand services app.
 seo-description: Follow this page to understand the user roles and how to configure your users and groups to support the authoring and mangement of your mobile On-Demand services app.
-uuid: dddc000a-04d1-4a7a-a30d-749dea5632a0
+uuid: b0de3648-90a6-49fb-972a-53739accba5b
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: administering-on-demand-services-app
-discoiquuid: 0e1c029f-c61b-4377-bb49-867f6ae74686
+discoiquuid: b2c265a8-c2e7-4a61-b6c8-aafe89eda0d0
 index: y
 internal: n
 snippet: y
@@ -44,7 +44,7 @@ Members of the app-author group are responsible for authoring AEM mobile applica
 
    Add app-authors to the Authors group
 
-1. Now that you have created the app-authors User Group, you can add individual team members to this new group through the [User Admin console](/libs/granite/security/content/useradmin).
+1. Now that you have created the app-authors User Group, you can add individual team members to this new group through the [User Admin console](/libs/granite/security/content/useradmin.md).
 
    ![](assets/chlimage_1-168.png)
 

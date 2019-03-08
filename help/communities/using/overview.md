@@ -3,12 +3,12 @@ title: AEM Communities Overview
 seo-title: AEM Communities Overview
 description: An overview of AEM Communities features and setup
 seo-description: An overview of AEM Communities features and setup
-uuid: bbc09e5e-b556-4c09-894e-d80547cda699
+uuid: 90193a36-4a87-4f02-9137-2e0693b2e08f
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: dd0d03b0-f26f-4c0d-ac0e-0c83ff9d210c
+discoiquuid: 36cae23e-8577-4862-8d57-eacff52548ab
 index: y
 internal: n
 snippet: y
@@ -36,7 +36,7 @@ The [site creation wizard](../../communities/using/sites-console.md) :
 
 * assembles features of the site, based on the selected [community site template](../../communities/using/sites.md) which is
 
-    * built from [community functions](#communityfunctions)
+    * built from [community functions](#community-functions)
     * optional [community groups](#communitygroups) feature
 
 * uses settings to configure :
@@ -161,7 +161,7 @@ See the [Community Functions console](../../communities/using/functions.md).
 
 The community groups feature is the ability for a sub-community to be dynamically created within a community site by authorized users and community members from both the author and publish environments .
 
-From the author environment, community groups (sub-communities) may be created within an existing community site or nested within an existing group, when the structure of the template contains the [Groups function](../../communities/using/functions.md#groupsfunction).
+From the author environment, community groups (sub-communities) may be created within an existing community site or nested within an existing group, when the structure of the template contains the [Groups function](../../communities/using/functions.md#groups-function).
 
 Creating a community group requires the selection of a community group template that provides the design of the community group page(s). When a Groups function is added to a template structure, it is configured to either specify one group template or to provide a choice of templates at the time a new community group is created.
 
@@ -209,14 +209,14 @@ An enablement community is a community site that includes features for online le
 
 Features of an enablement community may include :
 
-* all the features of an [engagement community](#engagementcommunity)
+* all the features of an [engagement community](#engagement-community)
 * ability to assign content and learning resources to members and member groups
 * supports SCORM content, like quizzes and tests
 * tracking of assignments completion
 * access to reporting and analytics
 * the ability to have a conversation about a learning resource through forums, messaging, comments and ratings
 
-An enablement community may be created when the [Enablement add-on is configured](../../communities/using/enablement.md), which requires additional licensing for use in a production environment. An enablement community site will include the [assignments function](#communityfunctions).
+An enablement community may be created when the [Enablement add-on is configured](../../communities/using/enablement.md), which requires additional licensing for use in a production environment. An enablement community site will include the [assignments function](#community-functions).
 
 To experience the ease of creating a new enablement community, visit [Getting Started with AEM Communities for Enablement](../../communities/using/getting-started-enablement.md).
 

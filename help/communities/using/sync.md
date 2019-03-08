@@ -3,12 +3,12 @@ title: Communities User Synchronization
 seo-title: Communities User Synchronization
 description: How user synchronization works
 seo-description: How user synchronization works
-uuid: da7c34bc-5284-4dfd-8810-c9ed01252c87
+uuid: df0bb0fe-2632-41d2-b184-fcd03736d284
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: a0fe183c-00c6-401e-ad5d-a4d6201fadbd
+discoiquuid: ca56c585-328e-49e1-bc9f-570e94f5e6df
 index: y
 internal: n
 snippet: y
@@ -32,7 +32,7 @@ By design, user data created in the publish environment does not appear in the  
 
 Most user data created in the  author  environment is intended to remain in the  author  environment and is not synchronized nor replicated to publish instances.
 
-When the [topology](../../communities/using/topologies.md) is a [publish farm](../../sites/deploying/using/recommended-deploys.md#tarmkfarm), registration  and  modifications made on one publish instance need to be synchronized with other publish instances. Members need to be able to log in and see their data on any publish node.
+When the [topology](../../communities/using/topologies.md) is a [publish farm](../../sites/deploying/using/recommended-deploys.md#tarmk-farm), registration  and  modifications made on one publish instance need to be synchronized with other publish instances. Members need to be able to log in and see their data on any publish node.
 
 When user synchronization is enabled, user data is automatically synchronized across the publish instances in the farm.
 
@@ -54,7 +54,7 @@ For detailed, step-by-step instructions, on how to enable synchronization across
 
 ### Publish Site from Communities Sites Console {#publish-site-from-communities-sites-console}
 
-On author, when a community site is published from the [Communities Sites console](../../communities/using/sites-console.md), the effect is to [replicate](../../sites/deploying/using/configuring.md#replicationreversereplicationandreplicationagents) the associated pages, and Sling distribute the dynamically created community user groups, including their membership.
+On author, when a community site is published from the [Communities Sites console](../../communities/using/sites-console.md), the effect is to [replicate](../../sites/deploying/using/configuring.md#replication-reverse-replication-and-replication-agents) the associated pages, and Sling distribute the dynamically created community user groups, including their membership.
 
 ### User is Created or Edits Profile on Publish {#user-is-created-or-edits-profile-on-publish}
 
@@ -86,7 +86,7 @@ User sync relies on the  author  environment to manage the user data distributio
 
 **Prerequisites**
 
-1. If users and user groups have already been created on one publisher, it is recommended to [manually sync](../../sites/administering/using/sync.md#manuallysyncingusersandusergroups) the user data to all publishers prior to configuring and enabling user sync.  
+1. If users and user groups have already been created on one publisher, it is recommended to [manually sync](../../sites/administering/using/sync.md#manually-syncing-users-and-user-groups) the user data to all publishers prior to configuring and enabling user sync.  
    Once user sync is enabled, only newly created users and groups are  syncrhonized . 
 
 1. Ensure the latest code has been installed:

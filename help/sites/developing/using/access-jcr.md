@@ -3,12 +3,12 @@ title: How to programmatically access the AEM JCR
 seo-title: How to programmatically access the AEM JCR
 description: You can programmatically modify nodes and properties located within the AEM repository, which is part of the Adobe Marketing Cloud
 seo-description: You can programmatically modify nodes and properties located within the AEM repository, which is part of the Adobe Marketing Cloud
-uuid: 8f780efa-a8ca-48b4-8586-063c88eff1f9
+uuid: 765ac21e-e82d-4610-910a-e53a05299311
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
-discoiquuid: ae92ad42-cd99-4b16-a151-0eb270105aa9
+discoiquuid: 601a31bf-45fb-43e2-ac6a-9cc9d3a62be0
 index: y
 internal: n
 snippet: y

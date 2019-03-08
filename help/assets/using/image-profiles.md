@@ -3,12 +3,12 @@ title: Image Profiles
 seo-title: Image Profiles
 description: Create image profiles that contain settings for unsharp mask, and smart crop, or smart swatch, or both, then apply the profile to a folder of image assets.
 seo-description: Create image profiles that contain settings for unsharp mask, and smart crop, or smart swatch, or both, then apply the profile to a folder of image assets.
-uuid: 81229c4b-0e85-4b51-a53c-494121e06521
+uuid: ed86ff75-4788-4fcf-a1f8-23a4359c4ffb
 contentOwner: Alva Ware-Bevacqui
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: 09b3a0e6-5aa7-4095-9bd4-121e3784dc03
+discoiquuid: cb0a1312-95cc-4b95-aa4f-e1279a6a0879
 index: y
 internal: n
 snippet: y
@@ -98,7 +98,7 @@ Sharpening is described in [Sharpening Images](https://marketing.adobe.com/resou
 
 ## Creating image profiles {#creating-image-profiles}
 
-To define advanced processing parameters for other asset types, see [Configuring Asset Processing](../../assets/using/config-dms7.md#configuringassetprocessing).
+To define advanced processing parameters for other asset types, see [Configuring Asset Processing](../../assets/using/config-dms7.md#configuring-asset-processing).
 
 **To create image profiles**:
 
@@ -186,7 +186,7 @@ After you edit a smart crop and save, the change is propagated everywhere you us
 
 You can re-run smart crop to generate the additional crops again, if required.
 
-See also [Editing the smart crop or smart swatch of multiple images](#editingthesmartcroporsmartswatchofmultipleimages).
+See also [Editing the smart crop or smart swatch of multiple images](#editing-the-smart-crop-or-smart-swatch-of-multiple-images).
 
 1. Tap or click the AEM logo and navigate to **Assets**, then to the folder that has a smart crop or smart swatch image profile applied to it.  
 

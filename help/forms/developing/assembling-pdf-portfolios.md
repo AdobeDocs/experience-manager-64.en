@@ -3,13 +3,13 @@ title: Assembling PDF Portfolios
 seo-title: Assembling PDF Portfolios
 description: null
 seo-description: null
-uuid: 6200675f-6a43-470e-8919-78a5ab879add
+uuid: a8279721-7b46-4a64-bf83-2f30ba3c29e3
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/assembling_pdf_documents
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: e7bb9ca3-ea15-4e60-b872-e8dae28739fa
+discoiquuid: 6f55cb37-9a20-4300-9a77-18114426a814
 index: y
 internal: n
 snippet: y
@@ -117,15 +117,15 @@ A PDF Portfolio is returned within a collection object. Iterate through the coll
 
 **See also**
 
-[Assemble a PDF Portfolio using the Java API](/programming-with-aem-forms/assembling-pdf-portfolios-assembling-pdf assembling-pdf-portfolios-assembling-pdf#assemble_a_pdf_portfolio_using_the_java_api)
+[Assemble a PDF Portfolio using the Java API](/programming-with-aem-forms/assembling-pdf-portfolios-assembling-pdf assembling-pdf-portfolios-assembling-pdf.md#assemble_a_pdf_portfolio_using_the_java_api)
 
-[Assemble a PDF Portfolio using the web service API](/programming-with-aem-forms/assembling-pdf-portfolios-assembling-pdf assembling-pdf-portfolios-assembling-pdf#assemble_a_pdf_portfolio_using_the_web_service_api)
+[Assemble a PDF Portfolio using the web service API](/programming-with-aem-forms/assembling-pdf-portfolios-assembling-pdf assembling-pdf-portfolios-assembling-pdf.md#assemble_a_pdf_portfolio_using_the_web_service_api)
 
 [Including AEM Forms Java library files](#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
 
 [Setting connection properties](#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2)
 
-[Programmatically Assembling PDF Documents](/programming-with-aem-forms/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically#programmatically_assembling_pdf_documents)
+[Programmatically Assembling PDF Documents](/programming-with-aem-forms/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically.md#programmatically_assembling_pdf_documents)
 
 ## Assemble a PDF Portfolio using the Java API {#assemble-a-pdf-portfolio-using-the-java-api}
 
@@ -180,7 +180,7 @@ Assemble a PDF Portfolio by using the Assembler Service API (Java):
 
 **See also**
 
-[Assembling PDF Portfolios](/programming-with-aem-forms/assembling-pdf-portfolios-assembling-pdf assembling-pdf-portfolios-assembling-pdf#assembling_pdf_portfolios)
+[Assembling PDF Portfolios](/programming-with-aem-forms/assembling-pdf-portfolios-assembling-pdf assembling-pdf-portfolios-assembling-pdf.md#assembling_pdf_portfolios)
 
 [Quick Start (SOAP mode): Assembling PDF Portfolios using the Java API](#unresolvedlink-lc-qs-assembler-as.xml#ws624e3cba99b79e12e69a9941333732bac8-7f67.2)
 
@@ -259,7 +259,7 @@ Assemble a PDF Portfolio by using the Assembler Service API (web service):
 
 **See also**
 
-[Assembling PDF Portfolios](/programming-with-aem-forms/assembling-pdf-portfolios-assembling-pdf assembling-pdf-portfolios-assembling-pdf#assembling_pdf_portfolios)
+[Assembling PDF Portfolios](/programming-with-aem-forms/assembling-pdf-portfolios-assembling-pdf assembling-pdf-portfolios-assembling-pdf.md#assembling_pdf_portfolios)
 
 [Quick Start (MTOM): Assembling PDF Portfolios using the web service API](#unresolvedlink-lc-qs-assembler-as.xml#ws624e3cba99b79e12e69a9941333732bac8-7f66.2)
 

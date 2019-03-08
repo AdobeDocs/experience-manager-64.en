@@ -3,11 +3,11 @@ title: Set up and configure AEM Forms reference sites
 seo-title: Set up and configure AEM Forms reference sites
 description: AEM Forms reference sites showcase how you can use AEM Forms to implement end-to-end workflow in an organization.
 seo-description: AEM Forms reference sites showcase how you can use AEM Forms to implement end-to-end workflow in an organization.
-uuid: 29f2a364-3f2b-4be0-b9ce-18926b886cdc
+uuid: 0212dc27-03cb-4d4b-b476-1a7e78eac79d
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: introduction
-discoiquuid: be535df6-a2a8-496a-b4be-7dfa5258bc59
+discoiquuid: a181e65d-764c-453b-a4f3-4a168200ef33
 index: y
 internal: n
 snippet: y

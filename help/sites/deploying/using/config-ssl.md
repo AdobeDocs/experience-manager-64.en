@@ -3,11 +3,11 @@ title: Enabling HTTP Over SSL
 seo-title: Enabling HTTP Over SSL
 description: Learn how to enable and configure HTTP over SSL in AEM.
 seo-description: Learn how to enable and configure HTTP over SSL in AEM.
-uuid: aa2052ab-eb31-4c39-b0aa-8d7b0e5d884f
+uuid: a55f53f3-adf6-4758-8586-ba272cbfe0f5
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
-discoiquuid: dd571e26-1d12-4b9d-b04b-f637a119df33
+discoiquuid: e6314fe9-518e-4cdc-aea7-0838fdbd8194
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/sites/administering/using/ssl-by-default
 index: y
@@ -61,7 +61,7 @@ In production environments you should use a certificate that is signed from a tr
 
 #### Generate a Certificate Signing Request (CSR) {#generate-a-certificate-signing-request-csr}
 
-1. Use keytool to generate the public/private key pair and add it to a keystore (See [Create a Credential for Development](#createacredentialfordevelopment)).
+1. Use keytool to generate the public/private key pair and add it to a keystore (See [Create a Credential for Development](#create-a-credential-for-development)).
 1. Type the following command to generate a certificate request:
 
    ```shell

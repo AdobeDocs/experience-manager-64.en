@@ -3,12 +3,12 @@ title: Communities Consoles
 seo-title: Communities Consoles
 description: Community Consoles explained
 seo-description: Community Consoles explained
-uuid: 08075e0a-2f5a-43ba-89a9-d570ff146d54
+uuid: dfe0d4c2-0f59-4127-8592-94d47540c4ca
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: acadf6b6-5560-4a26-a162-49ef0bd3f72f
+discoiquuid: bea76c31-8558-4054-8f9b-69dcfd7b7513
 index: y
 internal: n
 snippet: y
@@ -40,7 +40,7 @@ In the author environment, after signing in with administrator privileges, the `
 
 Select the `Adobe Experience Manager` icon in the upper left corner to open the global navigation panel and access to two icons :
 
-* [navigation console](#navigationconsole)
+* [navigation console](#navigation-console)
 * [tools console](../../communities/using/tools.md)
 
 ### Navigation console {#navigation-console}
@@ -62,7 +62,7 @@ To access the various Communities consoles, from global navigation select **navi
   The Reports console is where reports on assignments, page views, and posted content (UGC) may be generated when a community site has [enabled Adobe Analytics](../../communities/using/sites-console.md#analytics). The console is only available in the author environment.
 
 * [Resources](../../communities/using/resources.md)  
-  The Resources console is where [enablement managers](../../communities/using/enablement.md#communitymanagers) create, manage and assign resources to members of an [enablement community site](../../communities/using/overview.md#enablementcommunity). The console is only available in the author environment.
+  The Resources console is where [enablement managers](../../communities/using/enablement.md#communitymanagers) create, manage and assign resources to members of an [enablement community site](../../communities/using/overview.md#enablement-community). The console is only available in the author environment.
 
 ### Tools Console {#tools-console}
 

@@ -3,12 +3,12 @@ title: Release Notes for Feature Pack 201809
 seo-title: Release Notes for Feature Pack 201809
 description: Follow this page to get information for AEM Screens Feature Pack 201809 released on October 01, 2018.
 seo-description: Follow this page to get information for AEM Screens Feature Pack 201809 released on October 01, 2018.
-uuid: 588bbf3f-059a-4e87-aae5-fb2da98fee9b
+uuid: c5b3b863-6a75-4692-9517-844fb774e6c1
 contentOwner: jsyal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: release-notes
-discoiquuid: 31589442-0701-4f1a-9daa-1f9dd8423643
+discoiquuid: 6afac90c-1172-47ae-9a9b-2acaef6e5bbc
 index: y
 internal: n
 snippet: y

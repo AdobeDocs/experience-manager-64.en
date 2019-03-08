@@ -3,12 +3,12 @@ title: Using Ratings
 seo-title: Using Ratings
 description: Adding a Rating component to a page
 seo-description: Adding a Rating component to a page
-uuid: fc2c51d3-868a-4809-ac93-be479f6236cd
+uuid: d88282c5-459d-4163-acd6-59b13d9ad1db
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
-discoiquuid: 637a31d2-1dc7-4115-bd31-c834f60fa91f
+discoiquuid: 223c78fe-30ad-422a-b475-4e9c75bd7c8d
 index: y
 internal: n
 snippet: y
@@ -28,7 +28,7 @@ and drag it into place on a page, such as a position relative to the feature for
 
 For necessary information, visit [Communities Components Basics](../../communities/using/basics.md).
 
-When the [required client-side libraries](../../communities/using/rating-basics.md#essentialsforclientside) are included, this is how the `Rating` component will appear.
+When the [required client-side libraries](../../communities/using/rating-basics.md#essentials-for-client-side) are included, this is how the `Rating` component will appear.
 
 ![](assets/chlimage_1-493.png)
 

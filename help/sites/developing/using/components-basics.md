@@ -3,12 +3,12 @@ title: AEM Components - The Basics
 seo-title: AEM Components - The Basics
 description: When you start to develop new components you need to understand the basics of their structure and configuration
 seo-description: When you start to develop new components you need to understand the basics of their structure and configuration
-uuid: 103ef411-c6bc-4e7e-8c9a-7862b19074a1
+uuid: 916a87cb-ccb9-4fdb-9fd2-6f0f6b9ffa82
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: components
 content-type: reference
-discoiquuid: 0b71a660-2de4-4a46-9637-92a9d8a4e74b
+discoiquuid: bb692fb8-8a86-4064-9d38-b5625b8f8a42
 legacypath: /content/docs/en/aem/6-0/develop/components/components-develop
 index: y
 internal: n
@@ -49,14 +49,14 @@ Before starting to actually configure/code your component you should ask:
 
 * What security aspects should I take into consideration?
 
-    * See [Security Checklist - Development Best Practices](../../../sites/administering/using/security-checklist.md#developmentbestpractices) for further details.
+    * See [Security Checklist - Development Best Practices](../../../sites/administering/using/security-checklist.md#development-best-practices) for further details.
 
 ### Touch-Enabled vs Classic UI {#touch-enabled-vs-classic-ui}
 
 Before any serious discussion starts about developing components you need to know which UI your authors will be using:
 
 * **Touch-Enabled UI** 
-  [The standard user interface](../../../sites/developing/using/touch-ui-concepts.md) that was introduced in AEM 5.6.0 as a preview and extended in 6.x. It is based on the unified user experience for the Adobe Marketing Cloud, using the underlying technologies of [Coral UI](../../../sites/developing/using/touch-ui-concepts.md#coralui) and [Granite UI](../../../sites/developing/using/touch-ui-concepts.md#graniteui).  
+  [The standard user interface](../../../sites/developing/using/touch-ui-concepts.md) that was introduced in AEM 5.6.0 as a preview and extended in 6.x. It is based on the unified user experience for the Adobe Marketing Cloud, using the underlying technologies of [Coral UI](../../../sites/developing/using/touch-ui-concepts.md#coral-ui) and [Granite UI](../../../sites/developing/using/touch-ui-concepts.md#granite-ui).  
 
 * **Classic UI** 
   User interface based on ExtJS technology that was introduced with CQ 5.1.
@@ -340,7 +340,7 @@ A component is a node of type `cq:Component` and has the following properties an
   <tr> 
    <td><span class="code">cq:editConfig</span></td> 
    <td><span class="code">cq:EditConfig</span></td> 
-   <td><a href="#editbehavior">Edit configuration of the component</a>.<br /> </td> 
+   <td><a href="#edit-behavior">Edit configuration of the component</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td><span class="code">cq:htmlTag</span></td> 
@@ -584,7 +584,7 @@ The configuration is common to both the touch-enabled and classic UI, albeit wit
 
 The edit behavior of a component is configured by adding a `cq:editConfig` node of type `cq:EditConfig` below the component node (of type `cq:Component`) and by adding specific properties and child nodes. The following properties and child nodes are available:
 
-* [ `cq:editConfig` node properties](#configuringwithcqeditconfigproperties):
+* [ `cq:editConfig` node properties](#configuring-with-cq-editconfig-properties):
 
     * `cq:actions` ( `String array`): defines the actions that can be performed on the component.  
     
@@ -600,7 +600,7 @@ The edit behavior of a component is configured by adding a `cq:editConfig` node 
     
     * `dialogLayout` (String): defines how the dialog should open.
 
-* [ `cq:editConfig` child nodes](#configuringwithcqeditconfigchildnodes):
+* [ `cq:editConfig` child nodes](#configuring-with-cq-editconfig-child-nodes):
 
     * `cq:dropTargets` (node type `nt:unstructured`): defines a list of drop targets that can accept a drop from an asset of the content finder
 
@@ -886,7 +886,7 @@ The following sample configuration defines a new button (with a separator for th
 
 >[!NOTE]
 >
->See [Add New Action to a Component Toolbar](../../../sites/developing/using/customizing-page-authoring-touch.md#addnewactiontoacomponenttoolbar) as an example for the touch-enabled UI.
+>See [Add New Action to a Component Toolbar](../../../sites/developing/using/customizing-page-authoring-touch.md#add-new-action-to-a-component-toolbar) as an example for the touch-enabled UI.
 
 ### cq:formParameters {#cq-formparameters}
 

@@ -3,12 +3,12 @@ title: Planning
 seo-title: Planning
 description: What you need to know to plan for your test
 seo-description: What you need to know to plan for your test
-uuid: fd661d92-41a5-47bb-a900-9629575e4b56
+uuid: 84fc821f-e97b-475c-ae5c-dfab2bca3143
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: testing
 content-type: reference
-discoiquuid: f251a819-b54a-4417-9a96-013bb55c4a29
+discoiquuid: a1c007ec-ebb6-46c7-9131-5796db3ee97a
 index: y
 internal: n
 snippet: y
@@ -107,7 +107,7 @@ Before starting on your detailed Test Cases and Test Plan you can:
 **Define the goals** Define your high-level goals to act as a starting point for fine-tuning as testing proceeds. You will want to:
 
 * Test the functionality according to the Detailed Requirement Specification.
-* Test Performance according to the [Target Metrics](../../../managing/using/best-practices-further-reference.md#keyperformanceindicatorsandtargetmetrics).
+* Test Performance according to the [Target Metrics](../../../managing/using/best-practices-further-reference.md#key-performance-indicators-and-target-metrics).
 
 amongst others.
 

@@ -3,11 +3,11 @@ title: Custom watermark in letter PDF preview
 seo-title: Custom watermark in letter PDF preview
 description: Learn how to create custom watermark in letter PDF preview.
 seo-description: Learn how to create custom watermark in letter PDF preview.
-uuid: b549ea8c-6a4e-4b85-8bf2-d6e0a24b0361
+uuid: 5f46ca20-8ff5-4a72-bd64-b55a18a23ce2
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
-discoiquuid: 5dc4fa12-adb9-4786-9c0e-80ff69a97aaa
+discoiquuid: 81cea92c-adf3-4a25-ab04-774af5be9c3e
 index: y
 internal: n
 snippet: y

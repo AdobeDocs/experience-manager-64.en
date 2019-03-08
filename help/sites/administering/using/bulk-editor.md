@@ -3,12 +3,12 @@ title: The Bulk Editor
 seo-title: The Bulk Editor
 description: Learn how to use the Bulk Editor.
 seo-description: Learn how to use the Bulk Editor.
-uuid: 3b642530-fa9d-4077-aed2-f2a443789160
+uuid: 2ba31a8f-d900-45eb-81ce-682ebcd6dd2f
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: c28183c9-abe7-4b19-8482-46a7313d8488
+discoiquuid: bc538a1c-e99a-4311-a720-16585e77ace8
 index: y
 internal: n
 snippet: y
@@ -52,10 +52,10 @@ An example to illustrate such a use case is included in the Geometrixx web site:
 
 The bulk editor allows you to:
 
-* [search for content based on query parameters, to display specified properties of the results in columns, to edit this content and save the changes](#searchingandeditingcontent)
-* [to export this content to a tab-separated spreadsheet](#exportingcontent)  
+* [search for content based on query parameters, to display specified properties of the results in columns, to edit this content and save the changes](#searching-and-editing-content)
+* [to export this content to a tab-separated spreadsheet](#exporting-content)  
 
-* [to import content from a tab-separated spreadsheet](#importingcontent)
+* [to import content from a tab-separated spreadsheet](#importing-content)
 
 ### Searching and Editing Content {#searching-and-editing-content}
 
@@ -126,7 +126,7 @@ You may need to export content and make changes to it in an Excel spreadsheet. F
 
 To export content:
 
-1. Search for content as described in [Searching and Editing Content](#searchingandeditingcontent).
+1. Search for content as described in [Searching and Editing Content](#searching-and-editing-content).
 1. Click **Export** to export the changes into a tab-separated Excel spreadsheet. AEM WCM asks you where you want to download the file.
 
    >[!NOTE]

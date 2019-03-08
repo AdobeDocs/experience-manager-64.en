@@ -3,12 +3,12 @@ title: Configure the Video component
 seo-title: Configure the Video component
 description: Learn how to configure the Video Component.
 seo-description: Learn how to configure the Video Component.
-uuid: ee930972-c094-4f91-a41d-d643820b70af
+uuid: d60ed58d-5b82-4961-8c1c-2ca0a370c6a2
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: 043a24c6-dc6a-4726-aaa8-9592e86ce324
+discoiquuid: 3bf5b4cc-1567-4b66-a1fc-d98e0492a38e
 index: y
 internal: n
 snippet: y

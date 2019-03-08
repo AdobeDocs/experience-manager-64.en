@@ -3,9 +3,9 @@ title: REDIRECT Configuring Adobe Analytics with AEM Screens
 seo-title: REDIRECT Configuring Adobe Analytics with AEM Screens
 description: null
 seo-description: null
-uuid: 4aa597ff-1203-4d1c-8641-e6bd9d2c2019
+uuid: b37daa01-a267-47f4-ac53-a89a21bf346f
 contentOwner: jsyal
-discoiquuid: 42e7dd11-ec04-4150-bcbf-70bf84e3c767
+discoiquuid: e867ccac-bc85-4805-a5f2-589bb0f4e31e
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/screens/using/configuring-adobe-analytics-aem-screens
 index: y

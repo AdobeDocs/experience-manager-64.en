@@ -3,11 +3,11 @@ title: Using charts in Interactive Communications
 seo-title: Chart component in Interactive Communications
 description: Using charts in an Interactive Communication, you can condense large amounts of information into an easy to analyze and understand visual format  
 seo-description: AEM Forms provides a chart component that you can use to create charts in your Interactive Communication. This document explains basic and agent configurations of the chart component.
-uuid: 8b9f00ae-fa5d-444f-b8eb-b07ba10fa284
+uuid: 98911754-2322-4b33-b9fd-fd1a07be41a1
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: interactive-communications
-discoiquuid: 8fbf538c-67f7-4738-8cbc-35c00a865da0
+discoiquuid: 3a35c4b4-27b4-4da9-a3f6-1fff66afe816
 index: y
 internal: n
 snippet: y
@@ -69,7 +69,7 @@ Complete the following steps to add a chart to an Interactive Communication:
    >
    >For print channel, on the X axis, the data model object that you bind should be of Number, String, or Date type. On the Y axis the data model object that you bind should be of Number type. It is recommended that you use the right-side legend in the print channel.
 
-   For more information on chart properties, see [Basic properties in charts](/forms/using/chart-component.html?cq_ck=1520443323457#BasicPropertiesCharts). 
+   For more information on chart properties, see [Basic properties in charts](/forms/using/chart-component.md#basicpropertiescharts). 
 
 1. (Print channel only) In the Agent Settings, specify whether it is mandatory for the agent to use this chart. If i **[!UICONTROL t Is Mandatory For the Agent To Use This Chart]** option is not selected, the agent can tap the eye icon for the chart in the Content tab of Agent UI to show/hide the chart. 
 

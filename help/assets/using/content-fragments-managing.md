@@ -3,12 +3,12 @@ title: Managing Content Fragments
 seo-title: Managing Content Fragments
 description: Content Fragments are stored as Assets, so are primarily managed from the Assets console.
 seo-description: Content Fragments are stored as Assets, so are primarily managed from the Assets console.
-uuid: d1c91471-3535-4e59-8806-0f2eeca72954
+uuid: cf1981f1-6fc5-45c9-b6af-7ee41742e024
 contentOwner: Alison Heimoz
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: content-fragments
 content-type: reference
-discoiquuid: 2a87df2b-4ff4-4fab-86dc-76ea5587ccb9
+discoiquuid: 0e12fccd-8748-4364-834d-53f630b786f9
 index: y
 internal: n
 snippet: y
@@ -80,7 +80,7 @@ The method of creating a content fragment is (basically) the same for both simpl
 In the **Assets** console a range of actions are available for your content fragments, either:
 
 * From the toolbar; after selection of your fragment all appropriate actions are available.
-* As [quick actions](../../sites/authoring/using/basic-handling.md#quickactions); a subset of actions available for the individual fragment cards.
+* As [quick actions](../../sites/authoring/using/basic-handling.md#quick-actions); a subset of actions available for the individual fragment cards.
 
 ![](assets/cfm-6420-17.png)
 
@@ -105,7 +105,7 @@ Select the fragment to reveal the toolbar with applicable actions:
 * **To Collection**
 
     * Add the fragment to a collection.  
-    * This can also be done when [associating a collection with the fragment](../../assets/using/content-fragments-assoc-content.md#addingassociatedcontent).
+    * This can also be done when [associating a collection with the fragment](../../assets/using/content-fragments-assoc-content.md#adding-associated-content).
 
 * **Copy**/**Paste**
 
@@ -124,7 +124,7 @@ To open your fragment for editing:
 
 >[!CAUTION]
 >
->To edit a content fragment you need [the appropriate permissions](../../sites/developing/using/customizing-content-fragments.md#assetpermissions). Please contact your system administrator if you are experiencing issues.
+>To edit a content fragment you need [the appropriate permissions](../../sites/developing/using/customizing-content-fragments.md#asset-permissions). Please contact your system administrator if you are experiencing issues.
 
 1. Use the **Assets** console to navigate to the location of your content fragment.
 1. Open the fragment for editing, by either:
@@ -145,10 +145,10 @@ To open your fragment for editing:
 
 1. Navigate through the three modes using the icons in the side panel:
 
-    * Variations: [Editing the content](#editingthecontentofyourfragment) and [Managing your Variations](#creatingandmanagingvariationswithinyourfragment)
+    * Variations: [Editing the content](#editing-the-content-of-your-fragment) and [Managing your Variations](#creating-and-managing-variations-within-your-fragment)
     
-    * [Annotations](../../assets/using/content-fragments-variations.md#annotatingacontentfragment)
-    * [Associated Content](#associatingcontentwithyourfragment)
+    * [Annotations](../../assets/using/content-fragments-variations.md#annotating-a-content-fragment)
+    * [Associated Content](#associating-content-with-your-fragment)
     * [Metadata](#viewingandeditingthemetadataofyourfragment)
 
    ![](assets/cfm-10.png)
@@ -157,13 +157,13 @@ To open your fragment for editing:
 
    >[!NOTE]
    >
-   >Both **Save** and **Cancel** will exit the editor - see [Save, Cancel and Versions](#savecancelandversions) for full information on how both options operate for content fragments.
+   >Both **Save** and **Cancel** will exit the editor - see [Save, Cancel and Versions](#save-cancel-and-versions) for full information on how both options operate for content fragments.
 
 ## Save, Cancel and Versions {#save-cancel-and-versions}
 
 >[!NOTE]
 >
->Versions can also be [created, compared and reverted from the Timeline](https://helpx.adobe.com/experience-manager/6-3/assets/using/content-fragments-managing.html#TimelineforContentFragments).
+>Versions can also be [created, compared and reverted from the Timeline](https://helpx.adobe.com/experience-manager/6-3/assets/using/content-fragments-managing.html#timeline-for-content-fragments).
 
 The editor has two options:
 
@@ -173,7 +173,7 @@ The editor has two options:
 
   >[!CAUTION]
   >
-  >To edit a content fragment you need [the appropriate permissions](../../sites/developing/using/customizing-content-fragments.md#assetpermissions). Please contact your system administrator if you are experiencing issues.
+  >To edit a content fragment you need [the appropriate permissions](../../sites/developing/using/customizing-content-fragments.md#asset-permissions). Please contact your system administrator if you are experiencing issues.
 
   >[!NOTE]
   >
@@ -235,9 +235,9 @@ In addition to the standard options, [Timeline](../../assets/using/managing-asse
 * View information about versions, comments, and annotations
 * Actions for Versions
 
-    * ** [Revert to this Version](#revertingtoaversion)** (select an existing fragment, then a specific version)  
+    * ** [Revert to this Version](#reverting-to-a-version)** (select an existing fragment, then a specific version)  
     
-    * ** [Compare to Current](#comparingfragmentversions)** (select an existing fragment, then a specific version)  
+    * ** [Compare to Current](#comparing-fragment-versions)** (select an existing fragment, then a specific version)  
     
     * Add a **Label** and/or **Comment** (select an existing fragment, then a specific version)  
     
@@ -266,7 +266,7 @@ For example:
 
 ## Comparing Fragment Versions {#comparing-fragment-versions}
 
-The **Compare to Current** action is available from the [Timeline](https://helpx.adobe.com/experience-manager/6-3/assets/using/content-fragments-managing.html#TimelineforContentFragments) after you have selected a specific version.
+The **Compare to Current** action is available from the [Timeline](https://helpx.adobe.com/experience-manager/6-3/assets/using/content-fragments-managing.html#timeline-for-content-fragments) after you have selected a specific version.
 
 This will open:
 
@@ -296,16 +296,16 @@ They will be shown side-by-side, where:
 
 You can revert to a specific version of your fragment:
 
-* Directly from the [Timeline](../../assets/using/content-fragments-managing.md#timelineforcontentfragments).  
+* Directly from the [Timeline](../../assets/using/content-fragments-managing.md#timeline-for-content-fragments).  
   Select the required version, then the **Revert to this Version** action.
 
-* While [comparing a version to the current version](../../assets/using/content-fragments-managing.md#comparingfragmentversions) you can **Revert** to the selected version.
+* While [comparing a version to the current version](../../assets/using/content-fragments-managing.md#comparing-fragment-versions) you can **Revert** to the selected version.
 
 ## Publishing and Referencing a Fragment {#publishing-and-referencing-a-fragment}
 
 >[!CAUTION]
 >
->If your fragment is based on a model, then you should ensure that the [model has been published](../../assets/using/content-fragments-models.md#publishingacontentfragmentmodel).
+>If your fragment is based on a model, then you should ensure that the [model has been published](../../assets/using/content-fragments-models.md#publishing-a-content-fragment-model).
 >
 >If you publish a content fragment for which the model has not yet been published, a selection list will indicate this and the model will be published with the fragment.
 

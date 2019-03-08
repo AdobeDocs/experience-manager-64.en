@@ -3,12 +3,12 @@ title: Building Tagging into an AEM Application
 seo-title: Building Tagging into an AEM Application
 description: Programmatically work with tags or extending tags within a custom AEM application
 seo-description: Programmatically work with tags or extending tags within a custom AEM application
-uuid: 6fdff554-faa1-4ae6-b408-2044c3f4de79
+uuid: 75dfd949-da52-4c6d-9f05-18769b97abca
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
-discoiquuid: 4486a2b3-912d-44f6-9861-4e82d9312b32
+discoiquuid: f62e3cfd-a3f9-415c-a29c-e0625fb1a758
 index: y
 internal: n
 snippet: y
@@ -18,7 +18,7 @@ snippet: y
 
 For the purpose of programmatically working with tags or extending tags within a custom AEM application, this page describes use of the
 
-* [Tagging API](/sites/developing/using/reference-materials/javadoc/com/day/cq/tagging/package-summary)
+* [Tagging API](/sites/developing/using/reference-materials/javadoc/com/day/cq/tagging/package-summary.md)
 
 that interacts with the
 
@@ -31,7 +31,7 @@ For related information regarding tagging, see :
 
 ## Overview of the Tagging API {#overview-of-the-tagging-api}
 
-The implementation of the [tagging framework](../../../sites/developing/using/framework.md) in AEM allows management of tags and tag content using the JCR API . The TagManager ensures that tags entered as values on the `cq:tags` string array property are not duplicated, it removes TagIDs pointing to non-existing tags and updates TagIDs for moved or merged tags. TagManager uses a JCR observation listener that reverts any incorrect changes. The main classes are in the [com.day.cq.tagging](/sites/developing/using/reference-materials/javadoc/index.html?com/day/cq/tagging/package-summary) package:
+The implementation of the [tagging framework](../../../sites/developing/using/framework.md) in AEM allows management of tags and tag content using the JCR API . The TagManager ensures that tags entered as values on the `cq:tags` string array property are not duplicated, it removes TagIDs pointing to non-existing tags and updates TagIDs for moved or merged tags. TagManager uses a JCR observation listener that reverts any incorrect changes. The main classes are in the [com.day.cq.tagging](/sites/developing/using/reference-materials/javadoc/index.html?com/day/cq/tagging/package-summary.md) package:
 
 * JcrTagManagerFactory - returns a JCR-based implementation of a `TagManager`. It is the reference implementation of the Tagging API.
 * `TagManager` - allows for resolving and creating tags by paths and names.
@@ -148,13 +148,13 @@ The search for tags and the tag listing work as follows:
 
 ## Tags in Different Languages {#tags-in-different-languages}
 
-As described in the documentation for administering tags, in the section [Managing Tags in Different Languages](../../../sites/administering/using/tags.md#managingtagsindifferentlanguages), a tag `title`can be defined in different languages. A language sensitive property is then added to the tag node. This property has the format `jcr:title.<locale>`, e.g. `jcr:title.fr` for the French translation. `<locale>` must be a lower case ISO locale string and use "_" instead of "-", for example: `de_ch`.
+As described in the documentation for administering tags, in the section [Managing Tags in Different Languages](../../../sites/administering/using/tags.md#managing-tags-in-different-languages), a tag `title`can be defined in different languages. A language sensitive property is then added to the tag node. This property has the format `jcr:title.<locale>`, e.g. `jcr:title.fr` for the French translation. `<locale>` must be a lower case ISO locale string and use "_" instead of "-", for example: `de_ch`.
 
 When the **Animals** tag is added to the **Products** page, the value `stockphotography:animals` is added to the property `cq:tags` of the node /content/geometrixx/en/products/jcr:content. The translation is referenced from the tag node.
 
 The server-side API has localized `title`-related methods:
 
-* [com.day.cq.tagging.Tag](/sites/developing/using/reference-materials/javadoc/index.html?com/day/cq/tagging/Tag)
+* [com.day.cq.tagging.Tag](/sites/developing/using/reference-materials/javadoc/index.html?com/day/cq/tagging/Tag.md)
 
     * getLocalizedTitle(Locale locale)  
     * getLocalizedTitlePaths()  
@@ -162,7 +162,7 @@ The server-side API has localized `title`-related methods:
     * getTitle(Locale locale)  
     * getTitlePath(Locale locale)
 
-* [com.day.cq.tagging.TagManager](/sites/developing/using/reference-materials/javadoc/index.html?com/day/cq/tagging/TagManager)
+* [com.day.cq.tagging.TagManager](/sites/developing/using/reference-materials/javadoc/index.html?com/day/cq/tagging/TagManager.md)
 
     * canCreateTagByTitle(String tagTitlePath, Locale locale)  
     * createTagByTitle(String tagTitlePath, Locale locale)  

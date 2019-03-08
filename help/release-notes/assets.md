@@ -3,12 +3,12 @@ title: AEM Assets Release Notes
 seo-title: AEM Assets
 description: Release notes specific to Adobe Experience Manager 6.4 Assets.
 seo-description: Release notes specific to Adobe Experience Manager 6.4 Assets.
-uuid: b7ca9b4d-713d-41b7-bae5-9ef26cf54464
+uuid: 397ba8aa-fb25-4dca-be4c-3370d5303216
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4
 topic-tags: release-notes
 content-type: reference
-discoiquuid: 174d42ec-056e-44fe-810b-11128cb3dbdf
+discoiquuid: bba2bf68-5493-485a-bc8c-c38d382f63e1
 index: y
 internal: n
 snippet: y
@@ -116,8 +116,8 @@ Here is a list of AEM Desktop App highlights added since AEM 6.3 was released:
 
 For easier access to the documentation and best practices, the following documentation is available:
 
-* [User Guide](/assets/using/aem-desktop-app), aimed at end users working with the application
-* [Best Practices Guide](/assets/using/aem-desktop-app-best-practices), aimed at end users and administrators
+* [User Guide](/assets/using/aem-desktop-app.md), aimed at end users working with the application
+* [Best Practices Guide](/assets/using/aem-desktop-app-best-practices.md), aimed at end users and administrators
 * Configuration Guide, aimed at administrators setting up AEM and AEM Desktop App to work together
 
 ## Tiered Storage {#tiered-storage}

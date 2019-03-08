@@ -3,11 +3,11 @@ title: Saving an HTML5 form as a draft
 seo-title: Saving an HTML5 form as a draft
 description: Save an HTML5 form as a draft and resume filling the form at a later stage.
 seo-description: Save an HTML5 form as a draft and resume filling the form at a later stage.
-uuid: 2568156a-4628-492e-927d-c46e8cf934de
+uuid: 1f80f686-3b6b-416f-a52f-6a967f42bcde
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
-discoiquuid: 23e5ef53-4f84-4967-b072-92bd29dc4ffc
+discoiquuid: 7e20c050-c309-49d7-9933-a302fe2bf470
 index: y
 internal: n
 snippet: y

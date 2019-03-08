@@ -3,12 +3,12 @@ title: Using Liking
 seo-title: Using Liking
 description: Adding and configuring the Liking component
 seo-description: Adding and configuring the Liking component
-uuid: 525f5e75-f876-4b42-8911-57931fc9123c
+uuid: 84ec1cfa-6230-4e8f-8d1a-7c64db49a864
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
-discoiquuid: 21ee754c-d039-4c43-896e-522b9ae324e1
+discoiquuid: 8915de39-b0d3-4fd9-b302-3c07a83f089d
 index: y
 internal: n
 snippet: y
@@ -28,7 +28,7 @@ and drag it into place on a page, such as a position relative to the feature for
 
 For necessary information, visit [Communities Components Basics](../../communities/using/basics.md).
 
-When the [required client-side libraries](../../communities/using/essentials-liking.md#essentialsforclientside) are included, this is how the `Liking` component will appear.
+When the [required client-side libraries](../../communities/using/essentials-liking.md#essentials-for-client-side) are included, this is how the `Liking` component will appear.
 
 ![](assets/chlimage_1-93.png)
 

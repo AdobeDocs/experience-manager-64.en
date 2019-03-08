@@ -3,12 +3,12 @@ title: Managing Subscriptions
 seo-title: Managing Subscriptions
 description: Users can be asked to subscribe to Email Service Provider's mailing lists with the help of the Form component used on an AEM web page
 seo-description: Users can be asked to subscribe to Email Service Provider's mailing lists with the help of the Form component used on an AEM web page
-uuid: f1aa4cb2-82a8-4b79-8122-7c68eafa00a0
+uuid: c778fb84-2c19-4e6e-9050-919fdb20529d
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: personalization
-discoiquuid: ec7489db-29ec-44a3-ba68-1fc88d5f3d3d
+discoiquuid: 73d64c25-cbc0-4bda-839f-ac832e4d872e
 index: y
 internal: n
 snippet: y

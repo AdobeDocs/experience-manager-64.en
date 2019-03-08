@@ -3,12 +3,12 @@ title: Leaderboard Essentials
 seo-title: Leaderboard Essentials
 description: Leaderboard feature overview
 seo-description: Leaderboard feature overview
-uuid: be139e24-7809-4035-ad5c-8506e3adbc1c
+uuid: ada3b6bb-ce6e-4cf2-ba99-4ebd04cdc6f3
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 6ded5b18-9b67-4ee0-b11d-808daa62e9c0
+discoiquuid: d2181023-beb8-47ee-bdf1-d67736d07077
 index: y
 internal: n
 snippet: y
@@ -29,7 +29,7 @@ Prior to including the leaderboard component on a page, it is necessary to confi
    <td>social/gamification/components/hbs/leaderboard</td> 
   </tr>
   <tr>
-   <td> <a href="../../communities/using/scf.md#addorincludeacommunitiescomponent"><strong>includable</strong></a></td> 
+   <td> <a href="../../communities/using/scf.md#add-or-include-a-communities-component"><strong>includable</strong></a></td> 
    <td>No</td> 
   </tr>
   <tr>
@@ -55,4 +55,4 @@ Prior to including the leaderboard component on a page, it is necessary to confi
 
 ### File Library Function {#file-library-function}
 
-A community site structure that includes the [Leaderboard function](../../communities/using/functions.md#leaderboardfunction), includes a configured `leaderboard` component.
+A community site structure that includes the [Leaderboard function](../../communities/using/functions.md#leaderboard-function), includes a configured `leaderboard` component.

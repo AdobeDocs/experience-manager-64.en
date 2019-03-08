@@ -3,12 +3,12 @@ title: Getting Started with AEM Communities
 seo-title: Getting Started with AEM Communities
 description: A tutorial on getting started with AEM Communities
 seo-description: A tutorial on getting started with AEM Communities
-uuid: f2631ac2-2dfb-449a-838a-1082ecfcba7f
+uuid: 88a711f0-acee-4927-8185-4fb6c9c73664
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: introduction
 content-type: reference
-discoiquuid: f65eb962-6b15-473d-a0cb-5a86b85fd096
+discoiquuid: 3508314d-ba99-43ab-898c-05d8c098a49e
 index: y
 internal: n
 snippet: y
@@ -18,9 +18,9 @@ snippet: y
 
 AEM Communities allows companies to create dedicated branded community experiences from a library of site templates. Forums, groups, blogs, file sharing, calendars, activity feeds, and extended user profiles can be integrated into your website to foster interactions between propsects, customers, and companies.
 
-Following is a tutorial on quickly setting up an [engagement community](../../communities/using/overview.md#engagementcommunity) for demonstration or development purposes.
+Following is a tutorial on quickly setting up an [engagement community](../../communities/using/overview.md#engagement-community) for demonstration or development purposes.
 
-For a tutorial on quickly setting up an [enablement community](../../communities/using/overview.md#enablementcommunity), visit [Getting Started with AEM Communities for Enablement](../../communities/using/getting-started-enablement.md).
+For a tutorial on quickly setting up an [enablement community](../../communities/using/overview.md#enablement-community), visit [Getting Started with AEM Communities for Enablement](../../communities/using/getting-started-enablement.md).
 
 * [Initial Setup](../../communities/using/setup.md)
 

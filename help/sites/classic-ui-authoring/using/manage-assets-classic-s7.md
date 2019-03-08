@@ -3,12 +3,12 @@ title: Adding Scene7 Features to your Page
 seo-title: Adding Scene7 Features to your Page
 description: Adobe Scene7 is a hosted solution for managing, enhancing, publishing, and delivering rich media assets to Web, mobile, email, and Internet-connected displays and print.
 seo-description: Adobe Scene7 is a hosted solution for managing, enhancing, publishing, and delivering rich media assets to Web, mobile, email, and Internet-connected displays and print.
-uuid: bca145c8-6edb-44f6-8d8b-f5f854a72be4
+uuid: 21989e89-2ec7-452d-ad5a-cb15db271099
 contentOwner: Alva Ware-Bevacqui
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: authoring
 content-type: reference
-discoiquuid: 2311ab40-0e11-4722-9661-70ad5dcc440a
+discoiquuid: 0eefa47b-cb81-479f-bedc-9462961d9d8b
 index: y
 internal: n
 snippet: y
@@ -38,7 +38,7 @@ For more information on using video components with AEM, see the following:
 
 >[!NOTE]
 >
->If Scene7 assets do not display properly, please make sure that Dynamic media is [disabled](../../../assets/using/config-dynamic.md#disablingdynamicmedia) and then refresh the page.
+>If Scene7 assets do not display properly, please make sure that Dynamic media is [disabled](../../../assets/using/config-dynamic.md#disabling-dynamic-media) and then refresh the page.
 
 ## Manually Publishing to Scene7 from Assets {#manually-publishing-to-scene-from-assets}
 
@@ -175,7 +175,7 @@ Responsive design for your assets means that your assets adapts depending on whe
 
 To add an interactive viewing experience to a responsive site in the classic UI:
 
-1. Log in to AEM, and ensure that you have [configured Adobe Scene7 Cloud Services](../../../sites/administering/using/scene7.md#configuringscene7integration) and that Scene7 components are available.
+1. Log in to AEM, and ensure that you have [configured Adobe Scene7 Cloud Services](../../../sites/administering/using/scene7.md#configuring-scene-integration) and that Scene7 components are available.
 
    >[!NOTE]
    >
@@ -204,7 +204,7 @@ You set these configuration options by opening (double-clicking) a Scene7 compon
 
 The HTML5 Zoom component displays a larger image when you press the + button.
 
-The asset has zoom tools at the bottom. Click **+** to enlarge. Click **-** to reduce. Clicking the **x** or the reset zoom arrow brings the image back to the original size it was imported as. Click the diagonal arrows to make it full screen. Click **Edit** to configure the component. With this component, you can configure [settings common to all Scene7 components](#settingscommontoallscene7components).
+The asset has zoom tools at the bottom. Click **+** to enlarge. Click **-** to reduce. Clicking the **x** or the reset zoom arrow brings the image back to the original size it was imported as. Click the diagonal arrows to make it full screen. Click **Edit** to configure the component. With this component, you can configure [settings common to all Scene7 components](#settings-common-to-all-scene-components).
 
 ![](do-not-localize/chlimage_1-5.png) 
 
@@ -324,12 +324,12 @@ When using an adaptive video set with the Scene7 video component, the component 
 
 The Scene7 content browser lets you view content from Scene7 directly in AEM. To access the content browser, in the Content Finder, select **Scene7** in the touch-optimized user interface or the **S7** icon in the classic user interface. Functionality is identical between both user interfaces.
 
-If you have multiple configurations, AEM by default displays the [default configuration](../../../sites/administering/using/scene7.md#configuringadefaultconfiguration). You can select different configurations directly in the Scene7 content browser in the drop-down menu.
+If you have multiple configurations, AEM by default displays the [default configuration](../../../sites/administering/using/scene7.md#configuring-a-default-configuration). You can select different configurations directly in the Scene7 content browser in the drop-down menu.
 
 >[!NOTE]
 >
 >* Assets located in the ad-hoc folder will not appear in the Scene7 content browser.
->* When [Secure Preview is enabled](../../../sites/administering/using/scene7.md#configuringthestatepublishedunpublishedofassetspushedtoscene7), both published and unpublished assets on Scene7 do appear in the Scene7 content browser.
+>* When [Secure Preview is enabled](../../../sites/administering/using/scene7.md#configuring-the-state-published-unpublished-of-assets-pushed-to-scene), both published and unpublished assets on Scene7 do appear in the Scene7 content browser.
 >* If you do not see **Scene7 **or the** S7 **icon as an option in the content browser, you need to [configure Scene7 to work with AEM](../../../sites/administering/using/scene7.md).
 >
 >* For video, the Scene7 content browser supports: >

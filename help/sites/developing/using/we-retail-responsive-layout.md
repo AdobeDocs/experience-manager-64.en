@@ -3,12 +3,12 @@ title: Trying out Responsive Layout in We.Retail
 seo-title: Trying out Responsive Layout in We.Retail
 description: null
 seo-description: null
-uuid: 7b8d17f4-9c18-4562-897a-6bcbdb7f673e
+uuid: 94f27c05-36b3-41ac-9a1d-afde68210997
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
-discoiquuid: bccc6603-6efe-49ce-a28f-55e47363b745
+discoiquuid: f9183003-4372-43e2-986c-9ed41378ef93
 index: y
 internal: n
 snippet: y

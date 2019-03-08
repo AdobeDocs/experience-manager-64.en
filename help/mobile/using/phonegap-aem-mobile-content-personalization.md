@@ -3,12 +3,12 @@ title: AEM Mobile content personalization
 seo-title: AEM Mobile content personalization
 description: Follow this page to learn about AEM Mobile content personalization feature that allows AEM authors to personalize mobile app content by leveraging Adobe Target. 
 seo-description: Follow this page to learn about AEM Mobile content personalization feature that allows AEM authors to personalize mobile app content by leveraging Adobe Target. 
-uuid: 1f86c5c7-37d1-4ee8-a111-7160adaa4653
+uuid: f211c2d8-0dfb-4170-84c3-aed5e9865819
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: developing-adobe-phonegap-enterprise
-discoiquuid: a4baec3d-96ac-4bf6-aee4-fa2b9d5c074a
+discoiquuid: 9bc4adaa-4f88-47d7-8e92-5f24ef461cea
 index: y
 internal: n
 snippet: y
@@ -278,14 +278,14 @@ For each mbox an attribute of **cq-targeting** is added allowing application dev
 
 ## What's Next? {#what-s-next}
 
-1. [Start my AEM Mobile app experience](/content/docs/en/aem/6-3/develop/mobile-apps/starting-a-new-aem-mobile-app)
-1. [Manage my app's content](/content/docs/en/aem/6-3/develop/mobile-apps/manage-my-apps-content)
-1. [Build my application](/content/docs/en/aem/6-3/author/authoring-mobile-apps/build-app-through-adobe-phonegap-build-cloud-service)
-1. [Track my app's performance with Adobe Mobile Analytics](/content/docs/en/aem/6-3/develop/mobile-apps/apps/intro-to-app-analytics)
+1. [Start my AEM Mobile app experience](/content/docs/en/aem/6-3/develop/mobile-apps/starting-a-new-aem-mobile-app.md)
+1. [Manage my app's content](/content/docs/en/aem/6-3/develop/mobile-apps/manage-my-apps-content.md)
+1. [Build my application](/content/docs/en/aem/6-3/author/authoring-mobile-apps/build-app-through-adobe-phonegap-build-cloud-service.md)
+1. [Track my app's performance with Adobe Mobile Analytics](/content/docs/en/aem/6-3/develop/mobile-apps/apps/intro-to-app-analytics.md)
 1. [Deliver a personalized app experience with Adobe Target](../../mobile/using/phonegap-aem-mobile-content-personalization.md)
 1. **
 
-   ##### [Send important messages to my users](/content/docs/en/aem/6-3/develop/mobile-apps/apps/push-notifications) {#send-important-messages-to-my-users}
+   ##### [Send important messages to my users](/content/docs/en/aem/6-3/develop/mobile-apps/apps/push-notifications.md) {#send-important-messages-to-my-users}
 
    **
 

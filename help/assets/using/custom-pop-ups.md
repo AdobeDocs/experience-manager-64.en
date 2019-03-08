@@ -3,12 +3,12 @@ title: Using Quickviews to create custom pop-ups
 seo-title: Using Quickviews to create custom pop-ups
 description: The default Quickview is used in ecommerce experiences whereby a pop-up is displayed with product information to drive a purchase. You can trigger custom content to display in the pop-ups.
 seo-description: The default Quickview is used in ecommerce experiences whereby a pop-up is displayed with product information to drive a purchase. You can trigger custom content to display in the pop-ups.
-uuid: 3e649f25-7798-4c59-906d-9a9e4731ebe7
+uuid: a16b5958-a654-4a44-85c9-b4e1ac1f9488
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: a37e6671-c91b-419b-9c6e-070aea60a599
+discoiquuid: 48592656-5de8-4bea-a10d-45b1f0f3d5b9
 index: y
 internal: n
 snippet: y
@@ -40,15 +40,15 @@ While the functionality of each viewer differs, the process of creating a Quickv
   </tr> 
   <tr> 
    <td>Interactive Images</td> 
-   <td><a href="../../assets/using/interactive-images.md#addinghotspotstoanimagebanner" target="_blank">Adding hotspots to an image banner</a>.</td> 
+   <td><a href="../../assets/using/interactive-images.md#adding-hotspots-to-an-image-banner" target="_blank">Adding hotspots to an image banner</a>.</td> 
   </tr> 
   <tr> 
    <td>Interactive Videos</td> 
-   <td><a href="../../assets/using/interactive-videos.md#addinginteractivitytoyourvideo" target="_blank">Adding interactivity to your video</a>.</td> 
+   <td><a href="../../assets/using/interactive-videos.md#adding-interactivity-to-your-video" target="_blank">Adding interactivity to your video</a>.</td> 
   </tr> 
   <tr> 
    <td>Carousel Banners</td> 
-   <td><a href="../../assets/using/carousel-banners.md#addinghotspotsorimagemapstoanimagebanner" target="_blank">Adding Hotspots or Image Maps to a Banner</a>.<br /> </td> 
+   <td><a href="../../assets/using/carousel-banners.md#adding-hotspots-or-image-maps-to-an-image-banner" target="_blank">Adding Hotspots or Image Maps to a Banner</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,15 +63,15 @@ While the functionality of each viewer differs, the process of creating a Quickv
   </tr> 
   <tr> 
    <td>Interactive image</td> 
-   <td><a href="../../assets/using/interactive-images.md#integratinganinteractiveimagewithyourwebsite" target="_blank">Integrating an interactive image with your website</a>.<br /> </td> 
+   <td><a href="../../assets/using/interactive-images.md#integrating-an-interactive-image-with-your-website" target="_blank">Integrating an interactive image with your website</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td>Interactive video<br /> </td> 
-   <td><a href="../../assets/using/interactive-videos.md#integratinganinteractivevideowithyourwebsite" target="_blank">Integrating an interactive video with your website</a>.<br /> </td> 
+   <td><a href="../../assets/using/interactive-videos.md#integrating-an-interactive-video-with-your-website" target="_blank">Integrating an interactive video with your website</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td>Carousel banner</td> 
-   <td><a href="../../assets/using/carousel-banners.md#addingacarouselbannertoyourwebsitepage" target="_blank">Adding a carousel banner to your website page</a>.<br /> </td> 
+   <td><a href="../../assets/using/carousel-banners.md#adding-a-carousel-banner-to-your-website-page" target="_blank">Adding a carousel banner to your website page</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>

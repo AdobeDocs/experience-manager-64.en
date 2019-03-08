@@ -3,10 +3,10 @@ title: Authoring in-context help for form fields
 seo-title: Authoring in-context help for form fields
 description: AEM Forms allows you to add in-context help to adaptive form fields and panels, as text or rich media, including videos. 
 seo-description: AEM Forms allows you to add in-context help to adaptive form fields and panels, as text or rich media, including videos. 
-uuid: a54bfbaa-7728-49ea-a28f-80f8d929e57b
+uuid: 8a7942b1-dc48-4d7e-bccc-fa725f4751e2
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
-discoiquuid: b18d78d3-464f-4fe2-9015-b13838404d17
+discoiquuid: 066094f8-7444-4d12-853a-03067b6be14c
 index: y
 internal: n
 snippet: y

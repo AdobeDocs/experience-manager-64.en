@@ -3,12 +3,12 @@ title: Credential Service Java API QuickStart(SOAP)
 seo-title: Credential Service Java API QuickStart(SOAP)
 description: null
 seo-description: null
-uuid: ecc4f86e-2761-4b09-8734-2d0cdde3da17
+uuid: 0c68371a-541f-405e-9500-d55fad140225
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
-discoiquuid: 01ddce71-22c3-43f0-b08b-2db5e04f4773
+discoiquuid: 08b5ba95-65dd-4c00-abdb-4b28223970a5
 index: y
 internal: n
 snippet: y
@@ -18,19 +18,19 @@ snippet: y
 
 Java API Quick Start(SOAP) is available for the Credential service.
 
-[Quick Start (SOAP mode): Importing credentials using the Java API](credential-service-java-api-quick#quick_start_soap_mode_importing_credentials_using_the_java_api)
+[Quick Start (SOAP mode): Importing credentials using the Java API](credential-service-java-api-quick.md#quick_start_soap_mode_importing_credentials_using_the_java_api)
 
-[Quick Start (SOAP mode): Deleting credentials using the Java API](credential-service-java-api-quick#quick_start_soap_mode_deleting_credentials_using_the_java_api)
+[Quick Start (SOAP mode): Deleting credentials using the Java API](credential-service-java-api-quick.md#quick_start_soap_mode_deleting_credentials_using_the_java_api)
 
 AEM Forms operations can be performed using the AEM Forms strongly-typed API and the connection mode should be set to SOAP.
 
-***Note**: Quick starts located in Programming with AEM forms are based on the FormsServer being deployed on JBoss and the Windows operating system. However, if you are using another operating system, such as Unix, replace Windows-specific paths with paths supported by the applicable operating system. Likewise, if you are using another J2EE application server, then ensure that you specify valid connection properties. (See [Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties).)*
+***Note**: Quick starts located in Programming with AEM forms are based on the FormsServer being deployed on JBoss and the Windows operating system. However, if you are using another operating system, such as Unix, replace Windows-specific paths with paths supported by the applicable operating system. Likewise, if you are using another J2EE application server, then ensure that you specify valid connection properties. (See [Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties).)*
 
 ***Note**: You cannot perform Credential service operations using web services.*
 
 ## Quick Start (SOAP mode): Importing credentials using the Java API {#quick-start-soap-mode-importing-credentials-using-the-java-api}
 
-The following code example imports a credential based on a file named *cred.p12*. The alias value used to import the credential is `Secure`. (See [Importing Credentials by using the Trust Manager API](/programming-with-aem-forms/credentials#importing_credentials_by_using_the_trust_manager_api).)
+The following code example imports a credential based on a file named *cred.p12*. The alias value used to import the credential is `Secure`. (See [Importing Credentials by using the Trust Manager API](/programming-with-aem-forms/credentials.md#importing_credentials_by_using_the_trust_manager_api).)
 
 ```as3
  /* 
@@ -131,7 +131,7 @@ The following code example imports a credential based on a file named *cred.p12*
 
 ## Quick Start (SOAP mode): Deleting credentials using the Java API {#quick-start-soap-mode-deleting-credentials-using-the-java-api}
 
-The following code example deletes a credential based on an alias value *secure*. (See [Deleting Credentials by using the Trust Manager API](/programming-with-aem-forms/credentials#deleting_credentials_by_using_the_trust_manager_api).)
+The following code example deletes a credential based on an alias value *secure*. (See [Deleting Credentials by using the Trust Manager API](/programming-with-aem-forms/credentials.md#deleting_credentials_by_using_the_trust_manager_api).)
 
 ```as3
  /* 

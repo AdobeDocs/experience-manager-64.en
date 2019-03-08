@@ -3,12 +3,12 @@ title: XMP Utilities Service Java APIQuick Start(SOAP)
 seo-title: XMP Utilities Service Java APIQuick Start(SOAP)
 description: null
 seo-description: null
-uuid: 9de802ac-cacd-44ff-8c1e-c6a51fd8814c
+uuid: c354d341-015f-403a-82c6-cec0296565ee
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
-discoiquuid: 7b520805-301f-4aad-a06b-fe4284e21c75
+discoiquuid: 5e92f8ad-3b94-4e5c-819d-1b00cf88c66d
 index: y
 internal: n
 snippet: y
@@ -18,17 +18,17 @@ snippet: y
 
 The following Quick Starts are available for the XMP Utilities service.
 
-[Quick Start (SOAP mode): Exporting XMP metadata using the Java API](xmp-utilities-service-java-api#quick_start_soap_mode_exporting_xmp_metadata_using_the_java_api)
+[Quick Start (SOAP mode): Exporting XMP metadata using the Java API](xmp-utilities-service-java-api.md#quick_start_soap_mode_exporting_xmp_metadata_using_the_java_api)
 
-[Quick Start (SOAP mode): Importing XMP metadata using the Java API](xmp-utilities-service-java-api#quick_start_soap_mode_importing_xmp_metadata_using_the_java_api)
+[Quick Start (SOAP mode): Importing XMP metadata using the Java API](xmp-utilities-service-java-api.md#quick_start_soap_mode_importing_xmp_metadata_using_the_java_api)
 
 AEM Forms operations can be performed using the AEM Forms strongly-typed API and the connection mode should be set to SOAP.
 
-***Note**: Quick starts located in Programming with AEM forms are based on the Forms server if you are using another operating system, such as UNIX, replace windows-specific paths with paths supported by the applicable operating system. Likewise, if you are using another J2EE application server, ensure that you specify valid connection properties. (See [Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties).)*
+***Note**: Quick starts located in Programming with AEM forms are based on the Forms server if you are using another operating system, such as UNIX, replace windows-specific paths with paths supported by the applicable operating system. Likewise, if you are using another J2EE application server, ensure that you specify valid connection properties. (See [Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties).)*
 
 ## Quick Start (SOAP mode): Exporting XMP metadata using the Java API {#quick-start-soap-mode-exporting-xmp-metadata-using-the-java-api}
 
-The following code example retrieves, inspects, and saves XMP metadata. (See [Exporting Metadata from PDF Documents](/programming-with-aem-forms/xmp-utilities#exporting_metadata_from_pdf_documents).)
+The following code example retrieves, inspects, and saves XMP metadata. (See [Exporting Metadata from PDF Documents](/programming-with-aem-forms/xmp-utilities.md#exporting_metadata_from_pdf_documents).)
 
 ```as3
  /* 
@@ -133,7 +133,7 @@ The following code example retrieves, inspects, and saves XMP metadata. (See [Ex
 
 ## Quick Start (SOAP mode): Importing XMP metadata using the Java API {#quick-start-soap-mode-importing-xmp-metadata-using-the-java-api}
 
-The following code example imports XMP metadata and saves the new PDF file to disk. The PDF document is based on a PDF file named Loan.pdf. The XML document that contains the metadata to import into the PDF document is based on an XML file named *LoanMetaData.xml*. For information about this XML file, see [Importing Metadata into PDF Documents](/programming-with-aem-forms/xmp-utilities#importing_metadata_into_pdf_documents).
+The following code example imports XMP metadata and saves the new PDF file to disk. The PDF document is based on a PDF file named Loan.pdf. The XML document that contains the metadata to import into the PDF document is based on an XML file named *LoanMetaData.xml*. For information about this XML file, see [Importing Metadata into PDF Documents](/programming-with-aem-forms/xmp-utilities.md#importing_metadata_into_pdf_documents).
 
 ```as3
  /* 

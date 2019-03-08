@@ -3,12 +3,12 @@ title: Configuring client and server options
 seo-title: Configuring client and server options
 description: Learn how you can configure the various client and server options, such as server configuration settings, document security roles, and event auditing.
 seo-description: Learn how you can configure the various client and server options, such as server configuration settings, document security roles, and event auditing.
-uuid: c41230db-4f8f-45bb-b399-c47ca8e3121e
+uuid: 2bb0f143-b015-48f2-a4d4-795d081ad114
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_document_security
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 0656f165-adbe-4418-a619-bafec94256d9
+discoiquuid: afb24cae-9265-42ae-9d2f-37b7ea50bcd2
 index: y
 internal: n
 snippet: y
@@ -51,7 +51,7 @@ For a discussion of how offline lease and synchronization works, see [Primer on 
 
 **Allow Extended Authentication** Select to enable extended authentication and then enter the Extended Authentication Landing URL.
 
-Selecting this option enables client applications to use extended authentication. Extended authentication provides for customized authentication processes and different authentication options configured on the AEM forms server. For example, users can now experience the SAML-based authentication instead of AEM forms username/Password, from Acrobat and Reader Client. By default, the Landing URL contains *localhost* as the server name. Replace the server name with a fully-qualified hostname. The hostname in the landing URL is automatically populated from the base URL, if extended Authentication is not enabled yet. See [Add the extended authentication provider](configuring-client-server-options#add_the_extended_authentication_provider).
+Selecting this option enables client applications to use extended authentication. Extended authentication provides for customized authentication processes and different authentication options configured on the AEM forms server. For example, users can now experience the SAML-based authentication instead of AEM forms username/Password, from Acrobat and Reader Client. By default, the Landing URL contains *localhost* as the server name. Replace the server name with a fully-qualified hostname. The hostname in the landing URL is automatically populated from the base URL, if extended Authentication is not enabled yet. See [Add the extended authentication provider](configuring-client-server-options.md#add_the_extended_authentication_provider).
 
 ***note**: Extended authentication is supported on Apple Mac OS X with Adobe Acrobat release 11.0.6 and above.*
 
@@ -80,7 +80,7 @@ To view users and groups in selected domains during policy user searches, a supe
 
 The visible user and group list is visible to the policy set coordinator and is used to restrict which domains the end user can browse when choosing users or groups to add to policies. If this task is not performed, the policy set coordinator will not find any users or groups to add to the policy. There can be more than one policy set coordinator for any given policy set.
 
-1. After you install and configure your AEM forms environment with document security, set up all appropriate domains in User Management. (See [Setting up and managing domains](/forms/using/admin-help/topics/setting-up-and-managing-domains)
+1. After you install and configure your AEM forms environment with document security, set up all appropriate domains in User Management. (See [Setting up and managing domains](/forms/using/admin-help/topics/setting-up-and-managing-domains.md)
 
    ***note**: Creating domains must be done before any policies can be created.*
 
@@ -99,13 +99,13 @@ AEM forms provides a sample configuration that you can customize for your enviro
 >Extended authentication is supported on Apple Mac OS X with Adobe Acrobat release 11.0.6 and above.
 
 1. Obtain the sample WAR file deploy it. See the installation guide appropriate for your application server. 
-1. Ensure that the forms server has a fully qualified name instead of IP addresses as the base URL and that it is a HTTPS URL. See [Server configuration settings](configuring-client-server-options#server_configuration_settings).
-1. Enable Extended Authentication from the Server Configuration page. See [Server configuration settings](configuring-client-server-options#server_configuration_settings).
-1. Add the required SSO redirect URLs in the User Management configuration file. See [Add SSO redirect URLs for extended authentication](configuring-client-server-options#add_sso_redirect_urls_for_extended_authentication).
+1. Ensure that the forms server has a fully qualified name instead of IP addresses as the base URL and that it is a HTTPS URL. See [Server configuration settings](configuring-client-server-options.md#server_configuration_settings).
+1. Enable Extended Authentication from the Server Configuration page. See [Server configuration settings](configuring-client-server-options.md#server_configuration_settings).
+1. Add the required SSO redirect URLs in the User Management configuration file. See [Add SSO redirect URLs for extended authentication](configuring-client-server-options.md#add_sso_redirect_urls_for_extended_authentication).
 
 ### Add SSO redirect URLs for extended authentication {#add-sso-redirect-urls-for-extended-authentication}
 
-With extended authentication enabled, users opening a policy protected document in Acrobat XI or Reader XI get a dialog for authentication. This dialog loads the HTML page that you specified as the extended authentication landing URL on the document security server settings. See [Server configuration settings](configuring-client-server-options#server_configuration_settings).
+With extended authentication enabled, users opening a policy protected document in Acrobat XI or Reader XI get a dialog for authentication. This dialog loads the HTML page that you specified as the extended authentication landing URL on the document security server settings. See [Server configuration settings](configuring-client-server-options.md#server_configuration_settings).
 
 >[!NOTE]
 >
@@ -208,7 +208,7 @@ When you enable the server auditing, you can view the audited events on the Even
     * To audit all events in the category, select All.
     * To audit only some events, deselect All, and then select the check boxes beside the events you want to audit.
 
-      (See [Event auditing options](configuring-client-server-options#event_auditing_options).)
+      (See [Event auditing options](configuring-client-server-options.md#event_auditing_options).)
 
 1. Click OK.
 
@@ -378,7 +378,7 @@ After you enable tracking, all policies that are subsequently created will have 
 
 ### Enable or disable extended usage tracking {#enable-or-disable-extended-usage-tracking}
 
-Before you begin, ensure that Server Auditing is enabled. See [Configuring event auditing and privacy settings](configuring-client-server-options#configuring_event_auditing_and_privacy_settings) for more information on auditing.
+Before you begin, ensure that Server Auditing is enabled. See [Configuring event auditing and privacy settings](configuring-client-server-options.md#configuring_event_auditing_and_privacy_settings) for more information on auditing.
 
 1. In administration console, click Services &gt; Document Security &gt; Configuration &gt; Audit and Privacy Settings.
 1. To configure extended usage tracking, under Enable Tracking, select Yes or No.
@@ -441,12 +441,12 @@ For example, if you want to specify different text in the header, footer, on the
 
 Typically, you use PDF-based watermarks to include graphic contents such as logos or special symbols such as copyright or registered trademark.
 
-You can change the limits on the number of watermark elements and the PDF file size by modifying the document security configuration file. See [Change the watermark configuration parameters](configuring-client-server-options#change_the_watermark_configuration_parameters).
+You can change the limits on the number of watermark elements and the PDF file size by modifying the document security configuration file. See [Change the watermark configuration parameters](configuring-client-server-options.md#change_the_watermark_configuration_parameters).
 
 Keep in mind the following when you configure watermarks:
 
 * You cannot use a password-protected PDF document as the watermark element. However, if the watermark that you create contains other elements that are not password-protected, they will be applied as part of the watermark.
-* You can change the maximum PDF file size that you want to use as watermark element. However, large PDF documents used as watermarks degrade performance during offline synchronization of documents applied with such watermarks. See [Change the watermark configuration parameters](configuring-client-server-options#change_the_watermark_configuration_parameters).
+* You can change the maximum PDF file size that you want to use as watermark element. However, large PDF documents used as watermarks degrade performance during offline synchronization of documents applied with such watermarks. See [Change the watermark configuration parameters](configuring-client-server-options.md#change_the_watermark_configuration_parameters).
 * Only the first page of the selected PDF is used as the watermark. Ensure that the information that you want to appear as watermark is available on the first page itself.
 * Even though you can specify the scaling of the PDF document, consider the page size and layout of the PDF if you plan to use it as a watermark in the header, footer, or margins. 
 * When specifying the font name, enter the name correctly. AEM forms substitutes the font that you specified if it is not present in the client machine where the document is opened.
@@ -560,11 +560,11 @@ By default, the invited user registration process is disabled. You can enable an
 1. Select Enable Invited User Registration. 
 1. (Optional) Update the invited user registration settings as required:
 
-    * [Exclude or include an external user or group](configuring-client-server-options#exclude_or_include_an_external_user_or_group)
-    * [Server and registration account parameters](configuring-client-server-options#server_and_registration_account_parameters)
-    * [Registration invitation email settings](configuring-client-server-options#registration_invitation_email_settings)
-    * [Activation email settings](configuring-client-server-options#activation_email_settings)
-    * [Configure a password reset email](configuring-client-server-options#configure_a_password_reset_email)
+    * [Exclude or include an external user or group](configuring-client-server-options.md#exclude_or_include_an_external_user_or_group)
+    * [Server and registration account parameters](configuring-client-server-options.md#server_and_registration_account_parameters)
+    * [Registration invitation email settings](configuring-client-server-options.md#registration_invitation_email_settings)
+    * [Activation email settings](configuring-client-server-options.md#activation_email_settings)
+    * [Configure a password reset email](configuring-client-server-options.md#configure_a_password_reset_email)
 
 1. (Optional) Under Built-in Registration, select Yes to enable this option. If you do not enable built-in registration, you must set up your own user registration system.
 1. Click OK.
@@ -618,7 +618,7 @@ If required by your SMTP host, type the required information in the SMTP Server 
    >**SMTP Host:** smtp.office365.com  
    >**Port:** 587
 
-1. Next, you need to update the config.xml. See [Configuration to enable SMTP for Transport Layer Security (TLS)](configuring-client-server-options#configuration_to_enable_smtp_for_transport_layer_security_tls)
+1. Next, you need to update the config.xml. See [Configuration to enable SMTP for Transport Layer Security (TLS)](configuring-client-server-options.md#configuration_to_enable_smtp_for_transport_layer_security_tls)
 
 >[!NOTE]
 >
@@ -719,15 +719,15 @@ You can import and export the configuration information that is stored in the do
 
 You can make the following changes using the configuration file:
 
-[Display CATIA permissions when creating and editing policies](configuring-client-server-options#display_catia_permissions_when_creating_and_editing_policies)
+[Display CATIA permissions when creating and editing policies](configuring-client-server-options.md#display_catia_permissions_when_creating_and_editing_policies)
 
-[Specify a timeout period for offline synchronization](configuring-client-server-options#specify_a_timeout_period_for_offline_synchronization)
+[Specify a timeout period for offline synchronization](configuring-client-server-options.md#specify_a_timeout_period_for_offline_synchronization)
 
-[Denying document security services for specific applications](configuring-client-server-options#denying_document_security_services_for_specific_applications)
+[Denying document security services for specific applications](configuring-client-server-options.md#denying_document_security_services_for_specific_applications)
 
-[Change the watermark configuration parameters](configuring-client-server-options#change_the_watermark_configuration_parameters)
+[Change the watermark configuration parameters](configuring-client-server-options.md#change_the_watermark_configuration_parameters)
 
-[Disabling external links](configuring-client-server-options#disabling_external_links)
+[Disabling external links](configuring-client-server-options.md#disabling_external_links)
 
 >[!NOTE]
 >
@@ -759,7 +759,7 @@ By default, the synchronization occurs automatically every four hours and as-nee
 
 In the document security configuration file, you can specify the default frequency of the automatic background synchronization. This setting acts as the default timeout period client applications, unless the client explicitly sets its own timeout value.
 
-1. Export the document security configuration file. (See [Manually editing the document security configuration file](configuring-client-server-options#manually_editing_the_document_security_configuration_file).)
+1. Export the document security configuration file. (See [Manually editing the document security configuration file](configuring-client-server-options.md#manually_editing_the_document_security_configuration_file).)
 1. Open the configuration file in an editor and locate the `PolicyServer` node. Under that node, locate the `ServerSettings` node. 
 1. In the `ServerSettings` node, add this following entry and then save the file:
 
@@ -767,7 +767,7 @@ In the document security configuration file, you can specify the default frequen
 
    where *time* is the number of seconds between automatic background synchronizations. If you sent this value to `0`, synchronization always occurs. The default value is `14400` seconds (every four hours).
 
-1. Import the configuration file. (See [Manually editing the document security configuration file](configuring-client-server-options#manually_editing_the_document_security_configuration_file).)
+1. Import the configuration file. (See [Manually editing the document security configuration file](configuring-client-server-options.md#manually_editing_the_document_security_configuration_file).)
 
 ### Denying document security services for specific applications {#denying-document-security-services-for-specific-applications}
 
@@ -822,7 +822,7 @@ Acrobat Reader DC extensions for Microsoft Office is a plug-in used with the Mic
 
 **Configure document security to deny services for specific applications**
 
-1. Export the document security configuration file. (See [Manually editing the document security configuration file](configuring-client-server-options#manually_editing_the_document_security_configuration_file).)
+1. Export the document security configuration file. (See [Manually editing the document security configuration file](configuring-client-server-options.md#manually_editing_the_document_security_configuration_file).)
 1. Open the configuration file in an editor and locate the `PolicyServer` node. Add a `ClientVersionRules` node as an immediate child of the `PolicyServer` node, if one does not exist:
 
    ```as3
@@ -876,7 +876,7 @@ Acrobat Reader DC extensions for Microsoft Office is a plug-in used with the Mic
 
 1. For each additional set of denial data, add another *MyEntryName* element.
 1. Save the configuration file.
-1. Import the configuration file. (See [Manually editing the document security configuration file](configuring-client-server-options#manually_editing_the_document_security_configuration_file).)
+1. Import the configuration file. (See [Manually editing the document security configuration file](configuring-client-server-options.md#manually_editing_the_document_security_configuration_file).)
 
 **Examples**
 
@@ -950,7 +950,7 @@ By default, you can specify a maximum of five elements in a watermark. Also, the
 
 ***note**: You should change these parameters with caution.*
 
-1. Export the document security configuration file. (See [Manually editing the document security configuration file](configuring-client-server-options#manually_editing_the_document_security_configuration_file).)
+1. Export the document security configuration file. (See [Manually editing the document security configuration file](configuring-client-server-options.md#manually_editing_the_document_security_configuration_file).)
 1. Open the configuration file in an editor and locate the `ServerSettings` node. 
 1. In the `ServerSettings` node, add the following entries and then save the file: `<entry key="maximumSizeOfWatermarkElement" value="max filesize in KB"/> <entry key="maximumWatermarkElementsPerWatermark" value="max elements"/>`
 
@@ -963,7 +963,7 @@ By default, you can specify a maximum of five elements in a watermark. Also, the
    <entry key="maximumWatermarkElementsPerWatermark" value="max elements"/>
    ```
 
-1. Import the configuration file. (See [Manually editing the document security configuration file](configuring-client-server-options#manually_editing_the_document_security_configuration_file).)
+1. Import the configuration file. (See [Manually editing the document security configuration file](configuring-client-server-options.md#manually_editing_the_document_security_configuration_file).)
 
 ### Disabling external links {#disabling-external-links}
 
@@ -974,7 +974,7 @@ Many document security users do not have access to external links such as **www.
 
 The following changes to the config.xml disables all external links from the Right Management user interfaces.
 
-1. Export the document security configuration file. (See [Manually editing the document security configuration file](configuring-client-server-options#manually_editing_the_document_security_configuration_file).)
+1. Export the document security configuration file. (See [Manually editing the document security configuration file](configuring-client-server-options.md#manually_editing_the_document_security_configuration_file).)
 1. Open the configuration file in an editor and locate the `DisplaySettings` node. 
 1. To disable all external links, in the `DisplaySettings` node, add the following entry and then save the file: `<entry key="ExternalLinksAllowed" value="false"/>`
 
@@ -982,13 +982,13 @@ The following changes to the config.xml disables all external links from the Rig
    <entry key="ExternalLinksAllowed" value="false"/>
    ```
 
-1. Import the configuration file. (See [Manually editing the document security configuration file](configuring-client-server-options#manually_editing_the_document_security_configuration_file).)
+1. Import the configuration file. (See [Manually editing the document security configuration file](configuring-client-server-options.md#manually_editing_the_document_security_configuration_file).)
 
 ### Configuration to enable SMTP for Transport Layer Security (TLS) {#configuration-to-enable-smtp-for-transport-layer-security-tls}
 
 The following changes to the config.xml enable TLS support for the Invited User Registration feature.
 
-1. Export the document security configuration file. (See [Manually editing the document security configuration file](configuring-client-server-options#manually_editing_the_document_security_configuration_file).)
+1. Export the document security configuration file. (See [Manually editing the document security configuration file](configuring-client-server-options.md#manually_editing_the_document_security_configuration_file).)
 1. Open the configuration file in an editor and locate the `DisplaySettings` node. 
 1. Locate the following node: `<node name="ExternalUser">`
 
@@ -999,13 +999,13 @@ The following changes to the config.xml enable TLS support for the Invited User 
 1. Set the value of the `SmtpUseTls` key in the `ExternalUser` node to **true**.
 1. Set the value of the `SmtpUseSsl` key in the `ExternalUser` node to **false**.
 1. Save the `config.xml`.
-1. Import the configuration file. (See [Manually editing the document security configuration file](configuring-client-server-options#manually_editing_the_document_security_configuration_file).)
+1. Import the configuration file. (See [Manually editing the document security configuration file](configuring-client-server-options.md#manually_editing_the_document_security_configuration_file).)
 
 ### Disable SOAP endpoints for Document Security documents {#disable-soap-endpoints-for-document-security-documents}
 
 The following changes to the config.xml todisable SOAP endpoints for document security documents.
 
-1. Export the document security configuration file. (See [Manually editing the document security configuration file](configuring-client-server-options#manually_editing_the_document_security_configuration_file).)
+1. Export the document security configuration file. (See [Manually editing the document security configuration file](configuring-client-server-options.md#manually_editing_the_document_security_configuration_file).)
 1. Open the configuration file in an editor and locate the following node: `<node name="DRM">`
 
    ```as3
@@ -1027,7 +1027,7 @@ The following changes to the config.xml todisable SOAP endpoints for document se
    ```
 
 1. Save the `config.xml`.
-1. Import the configuration file. (See [Manually editing the document security configuration file](configuring-client-server-options#manually_editing_the_document_security_configuration_file).)
+1. Import the configuration file. (See [Manually editing the document security configuration file](configuring-client-server-options.md#manually_editing_the_document_security_configuration_file).)
 
 ### Increasing scalability of the document security server {#increasingscalability}
 
@@ -1035,7 +1035,7 @@ By default, while synchronizing a document for offline use, along with the infor
 
 You can increase the scalability of the document security server by limiting the information being sent to the client. The reduction in amount of information sent to client results in improved scalability, reduced response time, and better performance of the server. Perform the following steps to increase the scalability:
 
-1. Export the document security configuration file. (See [Manually editing the document security configuration file](configuring-client-server-options#manually_editing_the_document_security_configuration_file).) [](../../../forms/using/admin-help/configuring-client-server-options.md#manually-editing-the-document-security-configuration-file)
+1. Export the document security configuration file. (See [Manually editing the document security configuration file](configuring-client-server-options.md#manually_editing_the_document_security_configuration_file).) [](../../../forms/using/admin-help/configuring-client-server-options.md#manually-editing-the-document-security-configuration-file)
 1. Open the configuration file in an editor and locate the ServerSettings node. 
 1. In the ServerSettings node, set the value of the `DisableGlobalOfflineSynchronizationData`property to `true`.
 

@@ -3,12 +3,12 @@ title: Run Modes
 seo-title: Run Modes
 description: Learn how to tune your AEM instance for specific purposes by using run modes.
 seo-description: Learn how to tune your AEM instance for specific purposes by using run modes.
-uuid: 8bfe4d37-bb3b-4712-b092-f5e1ca4df6c9
+uuid: e3dc61c4-4eba-4661-a62d-ba64884ebe39
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: configuring
 content-type: reference
-discoiquuid: ea73ae25-302e-431f-895a-1659eb841a77
+discoiquuid: 71f85ee9-460a-42d0-8008-c33f88ca1a20
 index: y
 internal: n
 snippet: y
@@ -20,10 +20,10 @@ Run modes allow you to tune your AEM instance for a specific purpose; for exampl
 
 You can:
 
-* [Define collections of configuration parameters for each run mode](#definingconfigurationpropertiesforarunmode).  
+* [Define collections of configuration parameters for each run mode](#defining-configuration-properties-for-a-run-mode).  
   A basic set of configuration parameters is applied for all run modes, you can then tune additional sets to the purpose of your specific environment. These are applied as required.
 
-* [Define additional bundles to be installed for a particular mode](#definingadditionalbundlestobeinstalledforarunmode).
+* [Define additional bundles to be installed for a particular mode](#defining-additional-bundles-to-be-installed-for-a-run-mode).
 
 All settings and definitions are stored in the one repository and activated by setting the **Run Mode**.
 
@@ -100,11 +100,11 @@ The run mode is indicated by a suffix on the folder name. This allows you to sto
 * `config.<*run-mode*>`  
   Used for the applicable run mode; for example, config
 
-See [OSGi Configuration in the Repository](/sites/deploying/using/configuring-osgi.html?cq_ck=1368002864971#OSGiConfigurationintheRepository) for further details on defining the individual configuration nodes within these folders and for creating configurations for combinations of multiple run modes.
+See [OSGi Configuration in the Repository](../../../sites/deploying/using/configuring-osgi.md#osgi-configuration-in-the-repository) for further details on defining the individual configuration nodes within these folders and for creating configurations for combinations of multiple run modes.
 
 >[!NOTE]
 >
->For [Installation Run Modes](#installationrunmodes) (e.g. author) the run mode cannot be changed after installation. However, changes to the individual configuration properties will take effect upon restart.
+>For [Installation Run Modes](#installation-run-modes) (e.g. author) the run mode cannot be changed after installation. However, changes to the individual configuration properties will take effect upon restart.
 
 ## Defining additional bundles to be installed for a run mode {#defining-additional-bundles-to-be-installed-for-a-run-mode}
 
@@ -119,13 +119,13 @@ These folders are of type `nt:folder` and should contain the appropriate bundle.
 
 If you have defined configurations for multiple run modes then you need to define which is to be used upon startup. There are several methods for specifying which run mode to use; the order of resolution is:
 
-1. [ `sling.properties` file](#usingtheslingpropertiesfile)
-1. [ `-r` option](#usingtheroption)
+1. [ `sling.properties` file](#using-the-sling-properties-file)
+1. [ `-r` option](#using-the-r-option)
 1. [system properties ( `-D`)](#usingasystemproperty)  
 
-1. [Filename detection](#filenamedetectionrenamingthejarfile)
+1. [Filename detection](#filename-detection-renaming-the-jar-file)
 
-When you are using an application server you can also [define the run mode in `web.xml`](#definingtherunmodeinwebxmlwithapplicationserver).
+When you are using an application server you can also [define the run mode in `web.xml`](#defining-the-run-mode-in-web-xml-with-application-server).
 
 ### Using the sling.properties file {#using-the-sling-properties-file}
 

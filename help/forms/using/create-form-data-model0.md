@@ -3,10 +3,10 @@ title: "Tutorial: Create form data model"
 seo-title: Create form data model for Interactive Communication
 description: Create form data model for Interactive Communication
 seo-description: Create form data model for Interactive Communication
-uuid: 36a5ac3c-aafa-4fda-bb1e-984e71dba061
+uuid: 90fafd06-ccb8-4dab-b0fa-c0b014095379
 contentOwner: anujkapo
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 9feaf9ad-6fe3-4274-96fd-5b4a961e1aa4
+discoiquuid: da76763a-e0e5-4ff7-a639-b02a572fa905
 index: y
 internal: n
 snippet: y
@@ -46,7 +46,7 @@ The form data model looks similar to the following:
 Before you begin, ensure that you have the following:
 
 * MySQL database with sample data as stated in the [Set up the database](../../forms/using/create-form-data-model0.md#step-set-up-the-database) section.
-* OSGi bundle for MySQL JDBC driver as explained in [Bundling the JDBC Database Driver](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/jdbc.html#BundlingtheJDBCDatabaseDriver)
+* OSGi bundle for MySQL JDBC driver as explained in [Bundling the JDBC Database Driver](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/jdbc.html#bundling-the-jdbc-database-driver)
 
 ## Step 1: Set up the database {#step-set-up-the-database}
 
@@ -121,10 +121,10 @@ Do the following to create form data model:
 Configuring form data model includes:
 
 * [adding data model objects and services](../../forms/using/create-form-data-model0.md#add-data-model-objects-and-services)
-* [creating computed child properties for data model object](/content#main-pars_header_72155927)
-* [adding associations between data model objects](/content#main-pars_header_1093081045)
-* [editing data model object properties](/content#main-pars_header_1673827991)
-* [configuring services for data model objects](/content#main-pars_header_599411965)
+* [creating computed child properties for data model object](/content.md#main-pars_header_72155927)
+* [adding associations between data model objects](/content.md#main-pars_header_1093081045)
+* [editing data model object properties](/content.md#main-pars_header_1673827991)
+* [configuring services for data model objects](/content.md#main-pars_header_599411965)
 
 ### Add data model objects and services {#add-data-model-objects-and-services}
 

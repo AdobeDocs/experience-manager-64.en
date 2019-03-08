@@ -3,12 +3,12 @@ title: AEM Developer Tools for Eclipse
 seo-title: AEM Developer Tools for Eclipse
 description: null
 seo-description: null
-uuid: 3758ccc3-0d4a-49c0-aed6-23e7e2da71e2
+uuid: feaf0e27-5460-4c2b-80bb-cc659102b53c
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: development-tools
 content-type: reference
-discoiquuid: 76194084-ace5-4023-bc9d-b124354a8863
+discoiquuid: 250acb8c-516f-45a2-a81e-fecafcfdc80d
 index: y
 internal: n
 snippet: y
@@ -117,7 +117,7 @@ Follow these steps to create the sample project:
 
    >[!NOTE]
    >
-   >On a fresh installation (more specifically: when maven dependencies have never been downloaded) you might get the project created with errors. In this case please follow the procedure describe in [Resolving Invalid Project Definition](#resolvinginvalidprojectdefinition).
+   >On a fresh installation (more specifically: when maven dependencies have never been downloaded) you might get the project created with errors. In this case please follow the procedure describe in [Resolving Invalid Project Definition](#resolving-invalid-project-definition).
 
 ### Troubleshooting {#troubleshooting}
 

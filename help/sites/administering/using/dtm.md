@@ -3,12 +3,12 @@ title: Integrating with Adobe Dynamic Tag Management
 seo-title: Integrating with Adobe Dynamic Tag Management
 description: Learn about integration with Adobe Dynamic Tag Management.
 seo-description: Learn about integration with Adobe Dynamic Tag Management.
-uuid: 9b386b9d-70b8-44e6-b789-344f46a88829
+uuid: d5839ef8-fa77-47fc-81a1-3c42a8ac9e45
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: 1729bd30-9992-4f22-906d-4b0d177995b5
+discoiquuid: 0dbf7015-3889-4870-a925-13ea0c8254ec
 index: y
 internal: n
 snippet: y
@@ -235,7 +235,7 @@ Manually download the Dynamic Tag Management libraries to immediately update the
 >
 >The downloaded files are stored under `/etc/clientlibs/dtm/my config/companyID/propertyID/servertype`.
 >
->The following are taken directly from your [DTM configuration](#creatingthedynamictagmanagementconfiguration).
+>The following are taken directly from your [DTM configuration](#creating-the-dynamic-tag-management-configuration).
 >
 >* `myconfig`
 >* `companyID`

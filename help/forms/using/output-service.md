@@ -3,11 +3,11 @@ title: Output Service
 seo-title: Output Service
 description: Describes Output Service, which is part of AEM Document Services
 seo-description: Describes Output Service, which is part of AEM Document Services
-uuid: 72b0a80e-ca9e-4bff-957c-f075d72d1086
+uuid: e7d32c64-65d9-46fd-ab04-9eef695dca23
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: document_services
-discoiquuid: a6873a56-f58a-4eab-a851-7aa2041284ac
+discoiquuid: 2294bdeb-0100-4366-b5f6-12251407a1d2
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Creating and Managing Locations
 seo-title: Managing Locations
 description: Follow this page to learn about creating/managing locations.
 seo-description: Follow this page to learn about creating/managing locations.
-uuid: 849cd197-6778-440f-9b7a-111bc04d8264
+uuid: e989aa69-d81c-4946-975f-2e40126e7e2e
 contentOwner: Jyotika syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: authoring
-discoiquuid: 7f4312ac-6702-4f66-89f7-6f842f2d118f
+discoiquuid: 2866c551-a559-47ce-8c66-91c9cf0cca4f
 index: y
 internal: n
 snippet: y

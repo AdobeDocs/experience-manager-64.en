@@ -3,12 +3,12 @@ title: Troubleshooting guidelines for AEM Forms workspace
 seo-title: Troubleshooting guidelines for AEM Forms workspace
 description: Enable logs and use debugger in browser to troubleshoot AEM Forms workspace.
 seo-description: Enable logs and use debugger in browser to troubleshoot AEM Forms workspace.
-uuid: a1618fd3-74d1-4fc6-82eb-2c4a92af0b6a
+uuid: 5b64de47-14db-4d1e-9a48-a89689d6a75c
 contentOwner: robhagat
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
-discoiquuid: 23f46997-2e34-4dac-93f4-50159a2a08f6
+discoiquuid: 345bd2df-3a90-411d-9d68-d3769ae00e86
 index: y
 internal: n
 snippet: y

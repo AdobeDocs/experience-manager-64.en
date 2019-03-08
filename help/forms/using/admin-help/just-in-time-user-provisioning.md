@@ -3,12 +3,12 @@ title: Just-in-time user provisioning
 seo-title: Just-in-time user provisioning
 description: Use just-in-time provisioning to add users to User Management after successfull authentication and dynamically assign relevant roles and groups to the new user.
 seo-description: Use just-in-time provisioning to add users to User Management after successfull authentication and dynamically assign relevant roles and groups to the new user.
-uuid: 05114f37-3134-412b-b4ab-498c9437d3fc
+uuid: 0ed64c58-0d60-40aa-8ade-6e05099a3bef
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/setting_up_and_organizing_users
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: ddda693b-94b7-45ff-87ed-de33344bb8f5
+discoiquuid: fa51631b-9d06-4ff0-bc82-fe81ba8cc65a
 index: y
 internal: n
 snippet: y
@@ -90,7 +90,7 @@ public Boolean assign(User user);
 1. Create a just-in-time-enabled domain:
 
     * In Administration Console, click Settings &gt; User Management &gt; Domain Management &gt; New Enterprise Domain.
-    * Configure the domain and select Enable Just In Time Provisioning. (See [Setting up and managing domains](/forms/using/admin-help/topics/setting-up-and-managing-domains).
+    * Configure the domain and select Enable Just In Time Provisioning. (See [Setting up and managing domains](/forms/using/admin-help/topics/setting-up-and-managing-domains.md).
     * Add authentication providers. While adding authentication providers, on the New Authentication screen, select a registered Identity Creator and Assignment Provider.
 
 1. Save the new domain.

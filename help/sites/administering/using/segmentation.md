@@ -3,12 +3,12 @@ title: Configuring Segmentation with ContextHub
 seo-title: Configuring Segmentation with ContextHub
 description: Learn how to configure segmentation with Context Hub.
 seo-description: Learn how to configure segmentation with Context Hub.
-uuid: cfeae818-0b96-4113-93d4-d407ea49af93
+uuid: cbf12abc-c6f6-41d9-b46e-e289a6adfdcc
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: 19324214-055a-4af3-9beb-78a920061ad6
+discoiquuid: 352e65a9-9aed-4d59-b5be-b89b228da17e
 index: y
 internal: n
 snippet: y
@@ -43,9 +43,9 @@ The **Segment Editor** allows you to easily modify a segment. To edit a segment,
 
 ![](assets/segmenteditor.png)
 
-Using the components browser you can add **AND** and **OR** containers to define the segment logic, then add additional components to compare properties and values or reference scripts and other segments to define the selection criteria (see [Creating a New Segment](#creatinganewsegment)) to define the exact scenario for selecting the segment.
+Using the components browser you can add **AND** and **OR** containers to define the segment logic, then add additional components to compare properties and values or reference scripts and other segments to define the selection criteria (see [Creating a New Segment](#creating-a-new-segment)) to define the exact scenario for selecting the segment.
 
-When the entire statement evaluates to true then the segment has resolved. In the event of multiple segments being applicable, then the **Boost** factor is also used. See [Creating a New Segment](#creatinganewsegment) for details on the [boost factor.](../../../sites/administering/using/campaign-segmentation.md#boostfactor)
+When the entire statement evaluates to true then the segment has resolved. In the event of multiple segments being applicable, then the **Boost** factor is also used. See [Creating a New Segment](#creating-a-new-segment) for details on the [boost factor.](../../../sites/administering/using/campaign-segmentation.md#boost-factor)
 
 >[!CAUTION]
 >

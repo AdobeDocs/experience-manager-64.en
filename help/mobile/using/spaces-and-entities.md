@@ -3,11 +3,11 @@ title: Spaces and Entities
 seo-title: Developing AEM Mobile Content Services
 description: This page serves a landing page for developing AEM Mobile Content Services.
 seo-description: This page serves a landing page for developing AEM Mobile Content Services.
-uuid: 33fa8994-b1d5-4620-a24e-6f020f6aa3a9
+uuid: 0b0ef328-ae47-4de4-866f-2f0b927568e7
 contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
-discoiquuid: 6ea29df1-2f00-4d0c-8b2f-3b012f166da1
+discoiquuid: fe6445bc-562d-4a1a-b1ad-5c6885213aa5
 index: y
 internal: n
 snippet: y
@@ -37,7 +37,7 @@ For the first time user, who has not configured content services to work with sp
 >
 >Check the **Enable AEM Content Services** to work with Spaces and enable it in your AEM Mobile application dashboard.
 >
->See [Administering Content Services](/mobile/using/content-services) for more details.
+>See [Administering Content Services](/mobile/using/content-services.md) for more details.
 
 Once you configure Spaces in dashboard, follow these steps to create Spaces:
 

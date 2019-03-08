@@ -3,11 +3,11 @@ title: Viewing and Understanding Transaction Reports
 seo-title: Viewing and Understanding Transaction Reports
 description: Use transaction reports to make an informed decision about the product usage and rebalancing investments in hardware and software.
 seo-description: Use transaction reports to make an informed decision about the product usage and rebalancing investments in hardware and software.
-uuid: 0144c202-0b04-488b-a635-7146c951593a
+uuid: 2f2d59d3-e15a-4cc8-895d-69b03a034f35
 contentOwner: khsingh
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-manager
-discoiquuid: e4890268-31d2-4a44-be8b-8ae138d0f8d2
+discoiquuid: b1a52b9b-8089-457a-9a39-c5d8631cab71
 index: y
 internal: n
 snippet: y

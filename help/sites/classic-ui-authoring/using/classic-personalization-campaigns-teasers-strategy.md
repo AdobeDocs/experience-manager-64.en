@@ -3,12 +3,12 @@ title: Teasers and Strategies
 seo-title: Teasers and Strategies
 description: Campaigns often use teasers as a mechanism to entice a specific segment of the visitor population through to content focused on their interests. One or more teasers are defined for a specific campaign.
 seo-description: Campaigns often use teasers as a mechanism to entice a specific segment of the visitor population through to content focused on their interests. One or more teasers are defined for a specific campaign.
-uuid: 64df563d-173b-4c5d-b924-26a1e6ac5230
+uuid: 0a55a111-bcfb-4e67-babb-31dafa2fd27e
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: f2458c95-989c-4450-90e1-fe0585ecc9b5
+discoiquuid: e544fa88-22e9-4073-9beb-e395e899db9c
 index: y
 internal: n
 snippet: y
@@ -45,7 +45,7 @@ This is for the case that several teasers are available for selection as their a
 
 * **First** in the list of resolved segments. The order is that of the teasers within the campaign container page.
 
-The [Boost Factor](../../../sites/administering/using/campaign-segmentation.md#boostfactor) of the segment also has an impact on the selection. This is a weighting factor added to a segment definition to increase/decrease the relative likelihood of it being selected.
+The [Boost Factor](../../../sites/administering/using/campaign-segmentation.md#boost-factor) of the segment also has an impact on the selection. This is a weighting factor added to a segment definition to increase/decrease the relative likelihood of it being selected.
 
 The process and interrelationships of the various selection criteria are best illustrated with an example (a method that can also be used to ensure that your teasers will reach the required audience).
 

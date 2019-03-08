@@ -3,12 +3,12 @@ title: General AEM Forms settings
 seo-title: General AEM Forms settings
 description: Learn to configure the Core Configurations page settings in administration console that can help improve system performance.
 seo-description: Learn to configure the Core Configurations page settings in administration console that can help improve system performance.
-uuid: c3fba354-3ae1-4118-9c6d-3909d94c70b7
+uuid: 27e7c94a-5275-4c08-85d2-eb905e0a8474
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/get_started_with_administering_aem_forms_on_jee
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 454729bd-66e7-4884-9d9a-dd081ca1407b
+discoiquuid: 07e14265-0bec-4930-81ba-608ed2f36cc1
 index: y
 internal: n
 snippet: y
@@ -25,7 +25,7 @@ For information about enabling safe backup mode, see [Enabling and disabling saf
 >The files in the temp directory and the long-lived documents in the global document storage (GDS) root directory may contain sensitive user information, such as information that requires special credentials when accessed by using the APIs or user interfaces. Therefore, it is important that this directory is properly secured by using whatever methods are available to the operating system. It is recommended that only the operating system account that is used to run the application server has read and write access to this directory.
 
 1. In administration console, click Settings &gt; Core System Settings &gt; Configurations.
-1. On the Core Configurations page, change the options as required and click OK. For details about the options, see [Core Configurations options](configure-general-aem-forms-settings#core_configurations_options).
+1. On the Core Configurations page, change the options as required and click OK. For details about the options, see [Core Configurations options](configure-general-aem-forms-settings.md#core_configurations_options).
 
 ## Core Configurations options {#core-configurations-options}
 

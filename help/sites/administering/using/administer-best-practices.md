@@ -3,12 +3,12 @@ title: Best Practices
 seo-title: Best Practices
 description: Find best practices compiled by Adobe engineering and consulting teams to help administrators get up and running.
 seo-description: Find best practices compiled by Adobe engineering and consulting teams to help administrators get up and running.
-uuid: 7e48e3e0-893c-47a5-9eec-247c0f80b5e2
+uuid: 634840fd-eb1c-4763-b4ae-7991e63447a3
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
-discoiquuid: fcbfae40-daa3-4cf5-aa52-519a0a982b10
+discoiquuid: 0928d12e-9f59-419a-aabb-da51c11dcd7a
 index: y
 internal: n
 snippet: y
@@ -49,17 +49,17 @@ Best practices around Assets, including the dynamic media capability and Scene 7
   </tr>
   <tr>
    <td>Integrating Scene7 and AEM</td> 
-   <td><a href="../../../sites/administering/using/scene7.md#bestpracticesforintegratingscene7withaem">Best practices for integrating Scene7 with AEM</a></td> 
+   <td><a href="../../../sites/administering/using/scene7.md#best-practices-for-integrating-scene-with-aem">Best practices for integrating Scene7 with AEM</a></td> 
    <td><p>Describes when to turn on polling importer, how to test drive your integration, and when to use the content browser versus a direct upload to Assets.</p> </td> 
   </tr>
   <tr>
    <td>Image preset options</td> 
-   <td>Understanding <a href="../../../assets/using/managing-image-presets.md#understandingimagepresets">image presets</a> and <a href="../../../assets/using/managing-image-presets.md#imagepresetbestpractices">image preset best practices</a></td> 
+   <td>Understanding <a href="../../../assets/using/managing-image-presets.md#understanding-image-presets">image presets</a> and <a href="../../../assets/using/managing-image-presets.md#imagepresetbestpractices">image preset best practices</a></td> 
    <td>As part of the documentation on <a href="../../../assets/using/managing-image-presets.md">Managing Image presets</a>, these topics describe what image presets are and best practices around selecting image preset options.</td> 
   </tr>
   <tr>
    <td>Dynamic Media versus direct integration with Scene7</td> 
-   <td><a href="../../../sites/administering/using/scene7.md#aemscene7integrationversusdynamicmedia">Scene7/AEM integration versus Dynamic Media</a></td> 
+   <td><a href="../../../sites/administering/using/scene7.md#aem-scene-integration-versus-dynamic-media">Scene7/AEM integration versus Dynamic Media</a></td> 
    <td>Describes when it is best to use the Dynamic Media solution, when to integrate S7 with AEM, or when to use both.</td> 
   </tr>
  </tbody>
@@ -78,7 +78,7 @@ Managing and authoring your website content has some best practices outlined as 
   </tr>
   <tr>
    <td>Define the default UI for your instance.</td> 
-   <td><p><a href="../../../sites/authoring/using/select-ui.md#configuringthedefaultuiforyourinstance">Configuring the default UI for your instance</a></p> </td> 
+   <td><p><a href="../../../sites/authoring/using/select-ui.md#configuring-the-default-ui-for-your-instance">Configuring the default UI for your instance</a></p> </td> 
    <td>AEM has two UIs: touch-optimized and classic. This section details how to define the default UI for your instance.</td> 
   </tr>
   <tr>
@@ -93,7 +93,7 @@ Managing and authoring your website content has some best practices outlined as 
   </tr>
   <tr>
    <td>User administration</td> 
-   <td><a href="../../../sites/administering/using/security.md#bestpractices">Permissions and privileges best practices</a></td> 
+   <td><a href="../../../sites/administering/using/security.md#best-practices">Permissions and privileges best practices</a></td> 
    <td>Describes best practices when working with permissions and privileges </td> 
   </tr>
   <tr>

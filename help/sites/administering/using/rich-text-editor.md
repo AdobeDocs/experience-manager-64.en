@@ -3,12 +3,12 @@ title: Configure the Rich Text Editor
 seo-title: Configure the Rich Text Editor
 description: Learn to configure the AEM Rich Text Editor.
 seo-description: Learn to configure the AEM Rich Text Editor.
-uuid: e25898bd-dcb7-412f-b3c2-53a2195a69fe
+uuid: 3dc11c97-05e3-4fc9-8a22-6306cddd00bb
 contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: eaeaef32-4b3a-4e19-9d7a-09ae67bc67dd
+discoiquuid: 12d41b30-0e5c-4f1d-ae5e-16b6aae5d8d1
 index: y
 internal: n
 snippet: y
@@ -289,7 +289,7 @@ For detailed configurations of the RTE plug-ins, see [how to activate and config
 
 >[!NOTE]
 >
->The [Core Components text component](https://helpx.adobe.com/experience-manager/core-components/using/text.html) allows template editors to configure many RTE plug-ins in the user interface as content policies, eliminating the need for technical configuration. Content policies can work with RTE user interface configurations as described. For more information, see the [RTE user interface settings and content polices](/sites/administering/using/rich-text-editor.html?cq_ck=1551276796788#rtecontentpolicies), [Create page templates](../../../sites/authoring/using/templates.md), and the [Core Components developer documentation](https://helpx.adobe.com/experience-manager/core-components/using/developing.html).
+>The [Core Components text component](https://helpx.adobe.com/experience-manager/core-components/using/text.html) allows template editors to configure many RTE plug-ins in the user interface as content policies, eliminating the need for technical configuration. Content policies can work with RTE user interface configurations as described. For more information, see the [RTE user interface settings and content polices](../../../sites/administering/using/rich-text-editor.md#rtecontentpolicies), [Create page templates](../../../sites/authoring/using/templates.md), and the [Core Components developer documentation](https://helpx.adobe.com/experience-manager/core-components/using/developing.html).
 
 >[!NOTE]
 >
@@ -432,7 +432,7 @@ On a page, you can either include CoralUI 2 RTE clientlib or the CoralUI 3 RTE c
 
 ## Further Information {#further-information}
 
-For more information about configuring the RTE, see the [AEM Widget API](/sites/developing/using/reference-materials/widgets-api/index) reference.
+For more information about configuring the RTE, see the [AEM Widget API](/sites/developing/using/reference-materials/widgets-api/index.md) reference.
 
 In particular, to see the plug-ins and related options available:
 

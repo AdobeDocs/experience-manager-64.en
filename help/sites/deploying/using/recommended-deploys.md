@@ -3,12 +3,12 @@ title: Recommended Deployments
 seo-title: Recommended Deployments
 description: This article describes the recommended topologies for AEM.
 seo-description: This article describes the recommended topologies for AEM.
-uuid: a694fec6-f926-4b14-8aee-3a2e12c47852
+uuid: d00602ed-3205-4388-bf6c-70e0c473a30f
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
-discoiquuid: 08e00440-99f8-4351-9d4e-1807a1f23380
+discoiquuid: 88f200eb-ff78-4b9a-8227-9ecd43a9c40d
 index: y
 internal: n
 snippet: y
@@ -80,7 +80,7 @@ Multiple Oak instances run each with one TarMK instance. The TarMK repositories 
 
 Keeping the repositories in sync is provided with the fact that the author server is publishing the same content to each farm member. For more information, see [Replication](../../../sites/deploying/using/replication.md).
 
-For AEM Communities, user generated content (UGC) is never replicated. For supporting UGC on a TarMK Farm, see [considerations for AEM Communities](#considerationsforaemcommunities).
+For AEM Communities, user generated content (UGC) is never replicated. For supporting UGC on a TarMK Farm, see [considerations for AEM Communities](#considerations-for-aem-communities).
 
 **This is the default deployment for publish environments.**
 

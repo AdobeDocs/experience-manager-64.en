@@ -3,12 +3,12 @@ title: Starting AEM PhoneGap
 seo-title: Starting AEM PhoneGap
 description: Follow this page to learn about the starterkit for developers.
 seo-description: Follow this page to learn about the starterkit for developers.
-uuid: 3b3cf0af-57b9-40cb-8866-cd637f4a055a
+uuid: 69cf4458-f414-4ade-b7a3-d43add5200bb
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: developing-adobe-phonegap-enterprise
-discoiquuid: ea13da33-a179-42fd-981e-87e99fa205d1
+discoiquuid: 87ce0591-16c7-430a-a251-0827bc2d7a96
 index: y
 internal: n
 snippet: y
@@ -55,7 +55,7 @@ Once you have a solid understanding of the above two steps, jump into:
 1. [Start my AEM Mobile app experience](../../mobile/using/starting-aem-phonegap-app.md)
 1. 
 
-   ##### ** [Manage my app's content](/content/docs/en/aem/6-3/author/authoring-mobile-apps/phonegap/manage-my-apps-content)** {#manage-my-app-s-content}
+   ##### ** [Manage my app's content](/content/docs/en/aem/6-3/author/authoring-mobile-apps/phonegap/manage-my-apps-content.md)** {#manage-my-app-s-content}
 
 1. [Build my application](../../mobile/using/building-app-mobile-phonegap.md)
 1. [Track my app's performance with Adobe Mobile Analytics](../../mobile/using/phonegap-intro-to-app-analytics.md)

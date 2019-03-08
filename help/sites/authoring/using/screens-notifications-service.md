@@ -3,9 +3,9 @@ title: REDIRECT AEM Screens Notifications Service
 seo-title: REDIRECT AEM Screens Notifications Service
 description: null
 seo-description: null
-uuid: b939713b-e301-49eb-a734-694ea1e7fbc3
+uuid: fa94365c-62c8-4320-b98a-aade26377b9e
 contentOwner: jsyal
-discoiquuid: 87c8a8ce-491e-450e-8588-df695e192a59
+discoiquuid: 52971946-863f-46b2-80b6-0124fc0e9f1a
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/screens/using/screens-notifications-service
 index: y

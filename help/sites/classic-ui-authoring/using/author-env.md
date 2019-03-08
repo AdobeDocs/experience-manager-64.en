@@ -3,12 +3,12 @@ title: Working with the Author Environment
 seo-title: Working with the Author Environment
 description: The author environment allows you to perform tasks related to authoring (including page authoring and managing assets) and administering tasks you need when generating and maintaining the content on your website.
 seo-description: The author environment allows you to perform tasks related to authoring (including page authoring and managing assets) and administering tasks you need when generating and maintaining the content on your website.
-uuid: 6adcc1fb-8bf1-4b92-91d4-a15d416a885f
+uuid: 6099295d-895d-4f48-8033-8960e29ce098
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
-discoiquuid: 5dfdfcc2-51bc-480a-8a0d-3770ea6f8f7d
+discoiquuid: 8d9aa4c1-556b-4581-a92c-312f1ac4b775
 index: y
 internal: n
 snippet: y
@@ -22,9 +22,9 @@ snippet: y
 
 The author environment allows you to perform tasks related to:
 
-* [Authoring](../../../sites/authoring/using/author.md) (including [page authoring](../../../sites/authoring/using/page-authoring.md) and [managing assets](/assets/using/author-assets))  
+* [Authoring](../../../sites/authoring/using/author.md) (including [page authoring](../../../sites/authoring/using/page-authoring.md) and [managing assets](/assets/using/author-assets.md))  
 
-* [Administering](/sites/administering/using/administer) tasks you need when generating and maintaining the content on your website
+* [Administering](/sites/administering/using/administer.md) tasks you need when generating and maintaining the content on your website
 
 Two graphical user interfaces are provided to achieve this, these are accessible through any modern browser:
 

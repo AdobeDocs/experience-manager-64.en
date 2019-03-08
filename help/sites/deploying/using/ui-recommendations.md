@@ -3,12 +3,12 @@ title: User Interface Recommendations for Customers
 seo-title: User Interface Recommendations for Customers
 description: A list of recommendations related to the classic and touch-optimized user interfaces. 
 seo-description: A list of recommendations related to the classic and touch-optimized user interfaces. 
-uuid: 0ec4321e-77d4-44e7-95a2-28804aad80f1
+uuid: 1edb7c28-86eb-4915-bec1-1798ca09347b
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
-discoiquuid: 87f9e48d-fe46-49f1-ae17-aea52650e582
+discoiquuid: 0b444db5-dab9-41f0-afe9-ced000cb8548
 index: y
 internal: n
 snippet: y
@@ -70,7 +70,7 @@ The following is a list of recommendations from Product Management for Adobe Exp
     <ol> 
      <li>Update to 6.4</li> 
      <li>Use the default UI for site administration, assets, .. etc.<br /> </li> 
-     <li>Configure the "Edit Page" action to open the classic UI Page Editor. See <a href="#selectingyourui">Selecting Your UI</a>.</li> 
+     <li>Configure the "Edit Page" action to open the classic UI Page Editor. See <a href="#selecting-your-ui">Selecting Your UI</a>.</li> 
     </ol> <p>Then, in a second phase:</p> 
     <ol> 
      <li>Update your components dialogs to use the Coral 3 dialog format. Adobe recommends to use the <a href="../../../sites/developing/using/dialog-conversion.md">Dialog Conversion Tool</a> to update the components.</li> 
@@ -82,7 +82,7 @@ The following is a list of recommendations from Product Management for Adobe Exp
     <ol> 
      <li>Update to 6.4</li> 
      <li>Use the default UI for site administration, assets, .. etc.</li> 
-     <li>Configure the "Edit Page" action to open the classic UI Page Editor. See <a href="#selectingyourui">Selecting Your UI</a>.</li> 
+     <li>Configure the "Edit Page" action to open the classic UI Page Editor. See <a href="#selecting-your-ui">Selecting Your UI</a>.</li> 
     </ol> <p>Then, in a second phase:</p> 
     <ol> 
      <li>Update your components dialogs to use the Coral 3 dialog format. Adobe recommends to use the <a href="../../../sites/developing/using/dialog-conversion.md">Dialog Conversion Tool</a> to update the components.</li> 
@@ -91,7 +91,7 @@ The following is a list of recommendations from Product Management for Adobe Exp
   </tr> 
   <tr> 
    <td><p>Has used CQ/AEM for many years.</p> <p>Has extended the product UI (e.g Site Admin) and built components with extensive edit dialogs.</p> </td> 
-   <td><p>Update to 6.4 and configure the classic UI as the default for page authoring for all users. See <a href="#selectingyourui">Selecting Your UI</a>.</p> <p>Then start a project to apply customization and optimize component dialogs in Coral 3 format. See <a href="#resourcestohelp">Resources to Help</a>.<br /> </p> </td> 
+   <td><p>Update to 6.4 and configure the classic UI as the default for page authoring for all users. See <a href="#selecting-your-ui">Selecting Your UI</a>.</p> <p>Then start a project to apply customization and optimize component dialogs in Coral 3 format. See <a href="#resources-to-help">Resources to Help</a>.<br /> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -106,7 +106,7 @@ See [Selecting Your UI](../../../sites/authoring/using/select-ui.md) for informa
 
 ### Touch-Optimized UI Status {#touch-optimized-ui-status}
 
-For details of the enhancements made to the touch-optimized UI in the AEM 6.3 see [What's New](../../../release-notes.md#whatsnew) in the Release Notes.
+For details of the enhancements made to the touch-optimized UI in the AEM 6.3 see [What's New](../../../release-notes.md#what-s-new) in the Release Notes.
 
 A complete overview see the [Touch UI Feature Status](../../../release-notes/touch-ui-features-status.md) page
 
@@ -129,5 +129,5 @@ For detailed development information:
 * [Customizing page authoring in the touch-optimized UI](../../../sites/developing/using/customizing-page-authoring-touch.md) (includes sample code).  
 
 * [AEM Gem Session on touch-optimized customization](http://docs.adobe.com/content/ddc/en/gems/user-interface-customization-for-aem-6.html).
-* [Granite UI documentation](/sites/developing/using/reference-materials/granite-ui/api/index).
+* [Granite UI documentation](/sites/developing/using/reference-materials/granite-ui/api/index.md).
 

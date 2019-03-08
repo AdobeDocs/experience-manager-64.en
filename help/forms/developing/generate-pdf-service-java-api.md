@@ -3,12 +3,12 @@ title: Generate PDF Service Java API QuickStart(SOAP)
 seo-title: Generate PDF Service Java API QuickStart(SOAP)
 description: null
 seo-description: null
-uuid: 9c054685-7fd7-402e-83ed-cc1e0c94ddb3
+uuid: 154b4138-dc0e-4fba-954c-db012756f185
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
-discoiquuid: 60b9cc3b-6f55-44b6-a2c4-2da8f4b1ac2e
+discoiquuid: fb7c894b-39d7-45cd-bc98-057815c43460
 index: y
 internal: n
 snippet: y
@@ -18,19 +18,19 @@ snippet: y
 
 Java API Quick Start(SOAP) is available for the Generate PDF service.
 
-[Quick Start (SOAP mode): Converting a Microsoft Word document to a PDF document using the Java API](generate-pdf-service-java-api#quick_start_soap_mode_converting_a_microsoft_word_document_to_a_pdf_document_using_the_java_api)
+[Quick Start (SOAP mode): Converting a Microsoft Word document to a PDF document using the Java API](generate-pdf-service-java-api.md#quick_start_soap_mode_converting_a_microsoft_word_document_to_a_pdf_document_using_the_java_api)
 
-[Quick Start (SOAP mode): Converting HTML content to a PDF document using the Java API](generate-pdf-service-java-api#quick_start_soap_mode_converting_html_content_to_a_pdf_document_using_the_java_api)
+[Quick Start (SOAP mode): Converting HTML content to a PDF document using the Java API](generate-pdf-service-java-api.md#quick_start_soap_mode_converting_html_content_to_a_pdf_document_using_the_java_api)
 
-[Quick Start (SOAP mode): Converting a PDF document to an RTF file using the Java API (SOAP mode)](generate-pdf-service-java-api#quick_start_soap_mode_converting_a_pdf_document_to_an_rtf_file_using_the_java_api_soap_mode)
+[Quick Start (SOAP mode): Converting a PDF document to an RTF file using the Java API (SOAP mode)](generate-pdf-service-java-api.md#quick_start_soap_mode_converting_a_pdf_document_to_an_rtf_file_using_the_java_api_soap_mode)
 
 AEM Forms operations can be performed using the AEM Forms strongly-typed API and the connection mode should be set to SOAP.
 
-***Note**: Quick Start located in Programming with AEM Forms are based on the Forms Server being deployed on JBoss Application Server and the Microsoft Windows operating system. However, if you are using another operating system, such as UNIX, replace Windows-specific paths with paths that are supported by the applicable operating system. Likewise, if you are using another J2EE application server, ensure that you specify valid connection properties. (See [Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties).)*
+***Note**: Quick Start located in Programming with AEM Forms are based on the Forms Server being deployed on JBoss Application Server and the Microsoft Windows operating system. However, if you are using another operating system, such as UNIX, replace Windows-specific paths with paths that are supported by the applicable operating system. Likewise, if you are using another J2EE application server, ensure that you specify valid connection properties. (See [Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties).)*
 
 ## Quick Start (SOAP mode): Converting a Microsoft Word document to a PDF document using the Java API {#quick-start-soap-mode-converting-a-microsoft-word-document-to-a-pdf-document-using-the-java-api}
 
-The following code example converts a Word file named *Loan.doc* to a PDF document named *Loan.pdf*. (See [Converting Word Documents to PDF Documents](/programming-with-aem-forms/converting-file-formats-pdf#converting_word_documents_to_pdf_documents).)
+The following code example converts a Word file named *Loan.doc* to a PDF document named *Loan.pdf*. (See [Converting Word Documents to PDF Documents](/programming-with-aem-forms/converting-file-formats-pdf.md#converting_word_documents_to_pdf_documents).)
 
 ```as3
  /* 
@@ -144,7 +144,7 @@ The following code example converts a Word file named *Loan.doc* to a PDF docume
 
 ## Quick Start (SOAP mode): Converting HTML content to a PDF document using the Java API {#quick-start-soap-mode-converting-html-content-to-a-pdf-document-using-the-java-api}
 
-The following Java code example converts HTML content located at http://www.adobe.com to a PDF document named *AdobeHTML.pdf*. (See [Converting HTML Documents to PDF Documents](/programming-with-aem-forms/converting-file-formats-pdf#converting_html_documents_to_pdf_documents).)
+The following Java code example converts HTML content located at http://www.adobe.com to a PDF document named *AdobeHTML.pdf*. (See [Converting HTML Documents to PDF Documents](/programming-with-aem-forms/converting-file-formats-pdf.md#converting_html_documents_to_pdf_documents).)
 
 ```as3
  /* 
@@ -250,7 +250,7 @@ The following Java code example converts HTML content located at http://www.adob
 
 ## Quick Start (SOAP mode): Converting a PDF document to an RTF file using the Java API (SOAP mode) {#quick-start-soap-mode-converting-a-pdf-document-to-an-rtf-file-using-the-java-api-soap-mode}
 
-The following code example converts a PDF document named *Loan.pdf* to an RTF document named *Loan.rtf*. (See [Converting PDF Documents to Non-image Formats](/programming-with-aem-forms/converting-file-formats-pdf#converting_pdf_documents_to_non_image_formats).)
+The following code example converts a PDF document named *Loan.pdf* to an RTF document named *Loan.rtf*. (See [Converting PDF Documents to Non-image Formats](/programming-with-aem-forms/converting-file-formats-pdf.md#converting_pdf_documents_to_non_image_formats).)
 
 ```as3
  /* 

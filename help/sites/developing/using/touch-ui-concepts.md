@@ -3,12 +3,12 @@ title: Concepts of the AEM Touch-Enabled UI
 seo-title: Concepts of the AEM Touch-Enabled UI
 description: With AEM 5.6 Adobe introduced a new touch-optimized UI with responsive design for the author environment
 seo-description: With AEM 5.6 Adobe introduced a new touch-optimized UI with responsive design for the author environment
-uuid: c1815ebe-e3be-41a0-bbd4-bece3e98d766
+uuid: 63bb3075-a02c-4599-9a04-8320dd77a86d
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
-discoiquuid: f96f6c09-b5fc-492e-bc90-cc31989000a0
+discoiquuid: 97b804f4-b263-477b-bceb-b6fb214ef4ae
 index: y
 internal: n
 snippet: y
@@ -131,10 +131,10 @@ The Granite UI:
 
 ![](assets/chlimage_1-186.png)
 
-* [Granite UI Foundation Components](#graniteuifoundationcomponents)  
+* [Granite UI Foundation Components](#granite-ui-foundation-components)  
   This library of foundation components can be used or extended by other libraries.
 
-* [Granite UI Administration Components](#graniteuiadministrationcomponents)
+* [Granite UI Administration Components](#granite-ui-administration-components)
 
 ### Client Side vs Server Side {#client-side-vs-server-side}
 
@@ -208,7 +208,7 @@ The differences between Granite UI and ExtJS (used for the classic UI) are also 
 
 ### Granite UI Foundation Components {#granite-ui-foundation-components}
 
-The [Granite UI foundation components](/sites/developing/using/reference-materials/granite-ui/api/jcr_root/libs/granite/ui/index) provide the basic building blocks needed for building any UI. They include, amongst others:
+The [Granite UI foundation components](/sites/developing/using/reference-materials/granite-ui/api/jcr_root/libs/granite/ui/index.md) provide the basic building blocks needed for building any UI. They include, amongst others:
 
 * Button
 * Hyperlink
@@ -279,7 +279,7 @@ granite/ui/components/foundation/container
 
 ### Granite UI Administration Components {#granite-ui-administration-components}
 
-The [Granite UI administration components](/sites/developing/using/reference-materials/granite-ui/api/jcr_root/libs/granite/ui/index) build on the foundation components to provide generic building blocks that any administration application can implement. These include, amongst others:
+The [Granite UI administration components](/sites/developing/using/reference-materials/granite-ui/api/jcr_root/libs/granite/ui/index.md) build on the foundation components to provide generic building blocks that any administration application can implement. These include, amongst others:
 
 * Global Navigation Bar  
 * Rail (skeleton)  

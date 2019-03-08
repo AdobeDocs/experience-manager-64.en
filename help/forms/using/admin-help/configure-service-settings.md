@@ -3,12 +3,12 @@ title: Configure service settings
 seo-title: Configure service settings
 description: Learn how to configure service settings.
 seo-description: Learn how to configure service settings.
-uuid: e1d44bcb-d1a4-4b87-998b-a88db2e9d8af
+uuid: 57e60609-efdc-4055-ae5a-0d4a69329d30
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/managing_services
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: f4ed6de3-09ce-433a-9005-dfa82ea142cf
+discoiquuid: 51437153-7c05-47dc-b9b9-abbb9d299c6b
 index: y
 internal: n
 snippet: y
@@ -27,9 +27,9 @@ You can use the Service Management page to configure settings for each of the se
    >
    >Not all of the services listed on the Service Management page have a Configuration tab. For processes that you have created, the Configuration tab appears only if you have added a configuration parameter to the process in Workbench. (See “Configuration parameters” in the * [Workbench Help](http://www.adobe.com/go/learn_aemforms_workbench_63) .) *
 
-1. Click the Security tab and set the security settings for the service. See [Modifying security settings for a service](configure-service-settings#modifying_security_settings_for_a_service).
-1. If the service has an Endpoints tab, use it to change the endpoint settings. See [Managing Endpoints](/forms/using/admin-help/topics/managing-endpoints).
-1. Click the Pooling tab and set the pooling settings. See [Configuring pooling for a service](configure-service-settings#configuring_pooling_for_a_service).
+1. Click the Security tab and set the security settings for the service. See [Modifying security settings for a service](configure-service-settings.md#modifying_security_settings_for_a_service).
+1. If the service has an Endpoints tab, use it to change the endpoint settings. See [Managing Endpoints](/forms/using/admin-help/topics/managing-endpoints.md).
+1. Click the Pooling tab and set the pooling settings. See [Configuring pooling for a service](configure-service-settings.md#configuring_pooling_for_a_service).
 1. Click Save to save your changes or click Cancel to discard them.
 1. Select the checkbox next to the service name and click Start to restart the service.
 

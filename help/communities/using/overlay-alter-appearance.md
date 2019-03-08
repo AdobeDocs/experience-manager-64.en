@@ -3,12 +3,12 @@ title: Alter the Appearance
 seo-title: Alter the Appearance
 description: Modify the script
 seo-description: Modify the script
-uuid: 1620f13c-e737-4d72-bcff-dffc6e828c15
+uuid: 3aa709cb-92ee-48a7-8233-c6d062de411d
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: b91e24a6-f138-4dfe-980d-faf42838c4f4
+discoiquuid: d58767a3-8327-4d01-8b0e-94fa47a5092e
 index: y
 internal: n
 snippet: y
@@ -61,7 +61,7 @@ Push the overlaid comments component to the publish instance using the Replicati
 
 >[!NOTE]
 >
->A more robust form of replication would be to create a package in Package Manager and [activate](../../sites/administering/using/package-manager.md#replicatingpackages) it. A package can be exported and archived.
+>A more robust form of replication would be to create a package in Package Manager and [activate](../../sites/administering/using/package-manager.md#replicating-packages) it. A package can be exported and archived.
 
 From the global navigation, select **Tools, Deployment, Replication** and then **Activate Tree**.
 

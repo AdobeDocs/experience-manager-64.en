@@ -3,12 +3,12 @@ title: Integrating with the Adobe Marketing Cloud
 seo-title: Integrating with the Adobe Marketing Cloud
 description: Learn how to integrate AEM with Adobe Marketing Cloud.
 seo-description: Learn how to integrate AEM with Adobe Marketing Cloud.
-uuid: 9f336338-9a09-4bd3-9b70-b8a55f41b211
+uuid: 1ff0f94b-8d40-47fb-816b-861044ec215b
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: f1a9f3c4-aea9-49a7-9a80-c8237d9e0e5b
+discoiquuid: c1efb423-3eb2-4427-8ef2-0f581b5474af
 index: y
 internal: n
 snippet: y

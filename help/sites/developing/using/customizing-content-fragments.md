@@ -3,12 +3,12 @@ title: Customizing and Extending Content Fragments
 seo-title: Customizing and Extending Content Fragments
 description: A content fragment extends a standard asset.
 seo-description: A content fragment extends a standard asset.
-uuid: 37eed50b-6886-4cdc-9874-cda644b127ed
+uuid: 994edaaa-272c-47b3-8486-1fcb0a0547cf
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
-discoiquuid: 0308d2b4-9ca5-45e8-b749-5e36a52b74f1
+discoiquuid: df9f6721-c826-44a2-ac78-24293b887c07
 index: y
 internal: n
 snippet: y
@@ -28,7 +28,7 @@ A content fragment extends a standard asset; see:
 
 ## Architecture {#architecture}
 
-The basic [constituent parts](../../../assets/using/content-fragments.md#constituentpartsofacontentfragment) of a content fragment are:
+The basic [constituent parts](../../../assets/using/content-fragments.md#constituent-parts-of-a-content-fragment) of a content fragment are:
 
 * A *Content Fragment,*
 * consisting of one or more *Content Element*s,
@@ -129,13 +129,13 @@ For further details see [Content Fragment - Delete Considerations](../../../asse
 >
 >The [Content Fragment Core Component](https://helpx.adobe.com/experience-manager/core-components/using/content-fragment-component.html) is now recommended. See [Developing Core Components](https://helpx.adobe.com/experience-manager/core-components/using/developing.html) for more details.
 
-Content fragments can be referenced from AEM pages, just as any other asset type. AEM provides the [**Content Fragment** core component](https://helpx.adobe.com/experience-manager/core-components/using/content-fragment-component.html) - a [component that allows you to include content fragments on your pages](../../../sites/authoring/using/content-fragments.md#addingacontentfragmenttoyourpage). You can also extend, this **Content Fragment** core component.
+Content fragments can be referenced from AEM pages, just as any other asset type. AEM provides the [**Content Fragment** core component](https://helpx.adobe.com/experience-manager/core-components/using/content-fragment-component.html) - a [component that allows you to include content fragments on your pages](../../../sites/authoring/using/content-fragments.md#adding-a-content-fragment-to-your-page). You can also extend, this **Content Fragment** core component.
 
 * The component uses the `fragmentPath` property to reference the actual content fragment. The `fragmentPath` property is handled in the same manner as similar properties of other asset types; for example, when the content fragment is moved to another location.
 
 * The component allows you to select the variation to be displayed.
 * Additionally, a range of paragraphs can be selected to restrict the output; for example, this can be used for multi-column output.
-* The component allows [in-between content](../../../sites/developing/using/components-content-fragments.md#inbetweencontent):
+* The component allows [in-between content](../../../sites/developing/using/components-content-fragments.md#in-between-content):
 
     * Here the component allows you to place other assets (images, etc.) in between the paragraphs of the referenced fragment.
     * For in-between content you need to:
@@ -157,7 +157,7 @@ Content fragments can be referenced from AEM pages, just as any other asset type
 
 The backend implementation of content fragments is, for example, responsible for making instances of a fragment used on a page searchable, or for managing mixed media content. This implementation needs to know which components are used for rendering fragments and how the rendering is parameterized.
 
-The parameters for this can be configured in the [Web Console](../../../sites/deploying/using/configuring-osgi.md#osgiconfigurationwiththewebconsole), for the OSGi bundle **DAM Content Fragments Configuration**.
+The parameters for this can be configured in the [Web Console](../../../sites/deploying/using/configuring-osgi.md#osgi-configuration-with-the-web-console), for the OSGi bundle **DAM Content Fragments Configuration**.
 
 * **Resource types** 
   A list of `sling:resourceTypes` can be provided to define components that are used for rendering content fragments and where the background processing should be applied to.
@@ -237,7 +237,7 @@ Content fragments can be integrated with:
 
 You can use the server-side API to access your content fragments; see:
 
-` [com.adobe.cq.dam.cfm](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/dam/cfm/package-summary)`
+` [com.adobe.cq.dam.cfm](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/dam/cfm/package-summary.md)`
 
 >[!CAUTION]
 >
@@ -247,7 +247,7 @@ You can use the server-side API to access your content fragments; see:
 
 The following three interfaces can serve as entry points:
 
-* **Fragment Template** ( ` [FragmentTemplate](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/dam/cfm/FragmentTemplate)`)
+* **Fragment Template** ( ` [FragmentTemplate](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/dam/cfm/FragmentTemplate.md)`)
 
   Use `FragmentTemplate.createFragment()` for creating a new fragment.
 
@@ -291,7 +291,7 @@ The following three interfaces can serve as entry points:
 
         * Get basic data (name, title, description)
 
-* **Content Fragment** ( ` [ContentFragment](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/dam/cfm/ContentFragment)`)
+* **Content Fragment** ( ` [ContentFragment](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/dam/cfm/ContentFragment.md)`)
 
   This interface allows you to work with a content fragment in an abstract way.
 
@@ -323,7 +323,7 @@ The following three interfaces can serve as entry points:
 
   Interfaces that represent the prime elements of a fragment are:
 
-    * **Content Element** ( ` [ContentElement](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/dam/cfm/ContentElement)`)
+    * **Content Element** ( ` [ContentElement](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/dam/cfm/ContentElement.md)`)
 
         * Get basic data (name, title, description)
         * Get/Set content
@@ -337,7 +337,7 @@ The following three interfaces can serve as entry points:
 
         * Shortcut for resolving variations (applying some additional, implementation-specific fallback logic if the specified variation is not available for an element)
 
-    * **Content Variation** ( ` [ContentVariation](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/dam/cfm/ContentVariation)`)
+    * **Content Variation** ( ` [ContentVariation](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/dam/cfm/ContentVariation.md)`)
 
         * Get basic data (name, title, description)
         * Get/Set content
@@ -531,7 +531,7 @@ See [Content Fragment Templates](../../../sites/developing/using/content-fragmen
 For further information see
 
 * [Core Components - Content Fragment Component](https://helpx.adobe.com/experience-manager/core-components/using/content-fragment-component.html) (recommended)
-* [Content Fragment Components - Components for Page Authoring](../../../sites/developing/using/components-content-fragments.md#componentsforpageauthoring)
+* [Content Fragment Components - Components for Page Authoring](../../../sites/developing/using/components-content-fragments.md#components-for-page-authoring)
 
 >[!MORE_LIKE_THIS]
 >

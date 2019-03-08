@@ -3,12 +3,12 @@ title: JSRP - JCR Storage Resource Provider
 seo-title: JSRP - JCR Storage Resource Provider
 description: JSRP is generally best suited for demonstration or development environments of one publish instance and one author instance
 seo-description: JSRP is generally best suited for demonstration or development environments of one publish instance and one author instance
-uuid: c817e060-05a8-4c9a-a8b6-944944a2700a
+uuid: cb8ab222-d87a-49da-ad37-923f3867a570
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: f9e83dcb-9e5b-423e-ad29-40138dc5318d
+discoiquuid: d85c027d-dcc3-4a9c-be58-1ade050256f4
 index: y
 internal: n
 snippet: y
@@ -22,7 +22,7 @@ When AEM Communities uses JSRP as its storage option (the default), community co
 
 Because of the simplicity of deployment, JSRP is generally best suited for demonstration or development environments of one publish instance and one author instance.
 
-See also [Characteristics of SRP Options](../../communities/using/working-with-srp.md#characteristicsofsrpoptions) and [Recommended Topologies](../../communities/using/topologies.md).
+See also [Characteristics of SRP Options](../../communities/using/working-with-srp.md#characteristics-of-srp-options) and [Recommended Topologies](../../communities/using/topologies.md).
 
 ## Configuration {#configuration}
 
@@ -81,7 +81,7 @@ This is not a bug. A characteristic of JSRP is that community content entered in
 
 ### UGC Not Visible on Publish Instance {#ugc-not-visible-on-publish-instance}
 
-If a single publish instance or if a publish cluster is deployed, then follow instructions for [UGC Not Visible in JCR](#ugcnotvisibleinjcr).
+If a single publish instance or if a publish cluster is deployed, then follow instructions for [UGC Not Visible in JCR](#ugc-not-visible-in-jcr).
 
 If a publish farm is deployed, a characteristic of JSRP is that community content will only be visible on the publish instance to which it was posted.
 

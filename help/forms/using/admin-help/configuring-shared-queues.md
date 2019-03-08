@@ -3,12 +3,12 @@ title: Configuring Shared Queues
 seo-title: Configuring Shared Queues
 description: Shared Queues allow you to configure and manage user queues effectively. Learn how to configure shared queues.
 seo-description: Shared Queues allow you to configure and manage user queues effectively. Learn how to configure shared queues.
-uuid: ca13dce0-4f4f-46df-b0eb-e44d145afd5b
+uuid: 1d1fb81f-ab50-4d8a-8261-c8d25a2d6f5b
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_forms_workflow
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 482948de-7a06-4ac0-9eeb-5bd0893e9d3f
+discoiquuid: 04403a91-0d4e-45d7-8bd5-40293bf47456
 index: y
 internal: n
 snippet: y

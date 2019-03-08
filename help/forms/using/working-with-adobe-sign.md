@@ -3,11 +3,11 @@ title: Using Adobe Sign in an adaptive form
 seo-title: Using Adobe Sign in an adaptive form
 description: Enable e-signature (Adobe Sign) workflows for an adaptive form to automate signing workflows, simplify single and multi-signature processes, and to electronically sign forms from mobile devices. 
 seo-description: Enable e-signature (Adobe Sign) workflows for an adaptive form to automate signing workflows, simplify single and multi-signature processes, and to electronically sign forms from mobile devices.
-uuid: 6f334317-5ac5-4b88-b680-437bf3f721ba
+uuid: 0332115e-7892-48eb-bd16-d94f28dd0109
 contentOwner: khsingh
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
-discoiquuid: 38784ea7-f821-4e89-8525-b4115b89021d
+discoiquuid: f1c5cccd-acfa-424d-8cfe-1fb8497b9aaf
 noindex: true
 index: y
 internal: n

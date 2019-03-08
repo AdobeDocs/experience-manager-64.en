@@ -3,12 +3,12 @@ title: Connecting Assets to Desktop Applications with Adobe Drive
 seo-title: Connecting Assets to Desktop Applications with Adobe Drive
 description: null
 seo-description: null
-uuid: f427f96a-c645-4104-9a69-9bc6099d72f1
+uuid: 3f5cb0d8-c81c-4d7d-a47b-5a80036ea1e7
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: 433a0dab-3674-445c-96fc-df3fcde42daa
+discoiquuid: c3d27dca-229f-4ee5-997f-0401e962704a
 draft: true
 index: y
 internal: n
@@ -21,7 +21,7 @@ snippet: y
 
 Once connected, you can access AEM assets through Windows Explorer or Mac OS Finder, as well as directly through the UI of the integrated CS applications (Photoshop, Illustrator, Bridge, etc.).
 
-You can also use Adobe Experience Manager Desktop App to map the AEM Assets repository to a network directory on your system so assets within AEM are available at your local system. For details, see [Adobe Experience Manager Desktop App](/assets/using/aem-desktop-app).
+You can also use Adobe Experience Manager Desktop App to map the AEM Assets repository to a network directory on your system so assets within AEM are available at your local system. For details, see [Adobe Experience Manager Desktop App](/assets/using/aem-desktop-app.md).
 
 ### Supported Features {#supported-features}
 

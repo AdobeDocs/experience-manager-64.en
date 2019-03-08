@@ -3,12 +3,12 @@ title: Version Purging
 seo-title: Version Purging
 description: This article describes the available options for version purging.
 seo-description: This article describes the available options for version purging.
-uuid: af1ff37e-96fb-474d-84b9-2e99ffdc3ecb
+uuid: 86063e75-ce85-4a85-870f-c2c1cd827e8e
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: configuring
 content-type: reference
-discoiquuid: 8d6894f9-68e9-4d4e-b840-6ea9fd534586
+discoiquuid: 3f311b34-462e-4fd8-985e-d7757fb0c8ee
 index: y
 internal: n
 snippet: y
@@ -28,7 +28,7 @@ These versions are never purged, so the repository size will grow over time and 
 
 AEM is shipped with various mechanisms to help you manage your repository:
 
-* the [Version Manager](#versionmanager)  
+* the [Version Manager](#version-manager)  
   This can be configured to purge old versions when new versions are created.  
 
 * the [Purge Versions](../../../sites/deploying/using/monitoring-and-maintaining.md#purgeversionstool)** **tool  
@@ -41,7 +41,7 @@ AEM is shipped with various mechanisms to help you manage your repository:
     * The maximum age of any version kept in the repository.  
       When the age of a version exceeds this value, it is purged from the repository.
 
-* the [Version Purge maintenance task](../../../sites/administering/using/operations-dashboard.md#automatedmaintenancetasks). You can schedule the Version Purge maintenance task to delete old versions automatically. As a result, this minimizes the need to manually use the Version Purge tools.
+* the [Version Purge maintenance task](../../../sites/administering/using/operations-dashboard.md#automated-maintenance-tasks). You can schedule the Version Purge maintenance task to delete old versions automatically. As a result, this minimizes the need to manually use the Version Purge tools.
 
 >[!CAUTION]
 >

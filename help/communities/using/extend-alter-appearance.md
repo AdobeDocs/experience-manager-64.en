@@ -3,12 +3,12 @@ title: Alter the Appearance (HBS)
 seo-title: Alter the Appearance
 description: Modify the HBS scripts
 seo-description: Modify the HBS scripts
-uuid: 51c11fdc-a3fd-439c-8fc9-a98ae599d7ba
+uuid: 8bbb2528-d6f7-42bf-b2ba-650c506eed2a
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: a5285b7f-784b-4871-8f7f-0fb463faff95
+discoiquuid: 67d2be82-90b7-4bdd-874d-83bdabbbd612
 index: y
 internal: n
 snippet: y
@@ -70,7 +70,7 @@ One way to do so is
 
 ### View Modified Comment on Published Sample Page {#view-modified-comment-on-published-sample-page}
 
-[Continuing the experience](../../communities/using/extend-sample-page.md#publishsamplepage) on the publish instance, still signed in as the same user, it is now possible to refresh the page in the publish environment to view the modification to remove the avatar :
+[Continuing the experience](../../communities/using/extend-sample-page.md#publish-sample-page) on the publish instance, still signed in as the same user, it is now possible to refresh the page in the publish environment to view the modification to remove the avatar :
 
 ![](assets/chlimage_1-81.png) 
 

@@ -3,12 +3,12 @@ title: Communities Scoring and Badges
 seo-title: Communities Scoring and Badges
 description: AEM Communities scoring and badges lets you identify and reward community members
 seo-description: AEM Communities scoring and badges lets you identify and reward community members
-uuid: d1d1375b-6bd2-44e9-a950-54f7a994b06f
+uuid: a751264c-9c85-4ad0-8692-c610f7d4392a
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: a09e0e9d-11b0-4ef3-9b74-699ceba55b80
+discoiquuid: be3c7bad-b5b7-4c9d-9233-3c64616a8bc3
 tagskeywords: scoring, badging, badges, gamification
 index: y
 internal: n
@@ -23,9 +23,9 @@ The AEM Communities scoring and badges feature provides the ability to identify 
 
 The main aspects of scoring and badges are :
 
-* [assign badges](#assignandrevokebadges) to identify the role of a member  in  the community
+* [assign badges](#assign-and-revoke-badges) to identify the role of a member  in  the community
 
-* [basic awarding of badges](#enablescoring) to members to encourage their participation (quantity of content created)
+* [basic awarding of badges](#enable-scoring) to members to encourage their participation (quantity of content created)
 * [advanced awarding of badges](../../communities/using/advanced.md) to identify members as experts (quality of content created)
 
 **Note** that awarding of badges is [not enabled by default](../../communities/using/implementing-scoring.md#main-pars-text-237875536).
@@ -54,7 +54,7 @@ The Communities [Badges console](../../communities/using/badges.md) provides the
 
 Role-based badges are assigned by an administrator to community members based on their role in the community.
 
-Assigned (and awared) badges are stored in the selected [SRP](../../communities/using/srp.md) and are not directly accessible. Until a GUI is available, the only means for assigning role-based badges is to do so with code or cURL. For cURL instructions, see the section titled [Assign and Revoke Badges](#assignandrevokebadges).
+Assigned (and awared) badges are stored in the selected [SRP](../../communities/using/srp.md) and are not directly accessible. Until a GUI is available, the only means for assigning role-based badges is to do so with code or cURL. For cURL instructions, see the section titled [Assign and Revoke Badges](#assign-and-revoke-badges).
 
 Included in the release are three role-based badges :
 
@@ -95,7 +95,7 @@ Included in the release are three reward-based badges :
 >
 >Scoring rules may be configured to assign negative points for posts flagged as inappropriate and thus affect the score value. However, once a badge is earned, it will not be automatically removed due to scoring point reduction or scoring rule changes.
 >
->Awarded badges may be revoked in the same manner as assigned badges. See the [Assign and Revoke Badges](#assignandrevokebadges) section. Future improvements will include an UI to manage members’ badges.
+>Awarded badges may be revoked in the same manner as assigned badges. See the [Assign and Revoke Badges](#assign-and-revoke-badges) section. Future improvements will include an UI to manage members’ badges.
 
 ### Custom Badges {#custom-badges}
 
@@ -107,13 +107,13 @@ When installed from the Badges console, custom badges are automatically replicat
 
 Scoring is not enabled by default. The basic steps for setting up and enabling scoring and awarding of badges are :
 
-* identify rules for earning points ([scoring rules](#scoringrules))
-* for points accumulated per scoring rules, assign [badges](#badges) ([badging rules](#badgingrules))
+* identify rules for earning points ([scoring rules](#scoring-rules))
+* for points accumulated per scoring rules, assign [badges](#badges) ([badging rules](#badging-rules))
 
-* [apply the scoring and badging rules to a community site](#applyrulestocontent)
-* [enable badging for community features](#enablebadgesforcomponent)
+* [apply the scoring and badging rules to a community site](#apply-rules-to-content)
+* [enable badging for community features](#enable-badges-for-component)
 
-See the [Quick Test](#quicktest) section to enable scoring for a community site using the default scoring and badging rules for forums and comments.
+See the [Quick Test](#quick-test) section to enable scoring for a community site using the default scoring and badging rules for forums and comments.
 
 ### Apply Rules to Content {#apply-rules-to-content}
 
@@ -127,12 +127,12 @@ If the node is of type `cq:Page` (recommended), then, using CRXDE|Lite, add the 
 
 | **Property** |**Type** |**Description** |
 |---|---|---|
-| badgingRules |String[] |an array list of [badging rules](#badgingrules) |
-| scoringRules |String[] |an array list of [scoring rules](#scoringrules) |
+| badgingRules |String[] |an array list of [badging rules](#badging-rules) |
+| scoringRules |String[] |an array list of [scoring rules](#scoring-rules) |
 
 >[!NOTE]
 >
->If a scoring rule appears to have no effect on awarding badges, ensure the scoring rule has not been blocked by the badging rule's scoringRules property. See the section titled [Badging Rules](#badgingrules).
+>If a scoring rule appears to have no effect on awarding badges, ensure the scoring rule has not been blocked by the badging rule's scoringRules property. See the section titled [Badging Rules](#badging-rules).
 
 ### Enable Badges for Component {#enable-badges-for-component}
 
@@ -198,7 +198,7 @@ The name of the sub-rule typically follows the pattern of using a *subject, obje
 * member-comment-create
 * member-receive-vote
 
-Sub-rules are nodes of type `cq:Page` with properties on its `jcr:content`node that specify the [verbs and topics](#topicsandverbs) .
+Sub-rules are nodes of type `cq:Page` with properties on its `jcr:content`node that specify the [verbs and topics](#topics-and-verbs) .
 
 <table border="2" cellpadding="4" cellspacing="1" width="95%"> 
  <tbody> 
@@ -218,7 +218,7 @@ Sub-rules are nodes of type `cq:Page` with properties on its `jcr:content`node t
      <li>there can be multiple verb properties, but no duplicates</li> 
      <li>the value is the score to apply for this event</li> 
      <li>the value can be positive or negative</li> 
-     <li>a list of verbs supported in the release is in the <a href="#topicsandverbs">Topics and Verbs</a> section</li> 
+     <li>a list of verbs supported in the release is in the <a href="#topics-and-verbs">Topics and Verbs</a> section</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -228,7 +228,7 @@ Sub-rules are nodes of type `cq:Page` with properties on its `jcr:content`node t
     <ul> 
      <li>optional; restricts sub-rule to community components identified by event topics</li> 
      <li>if specified : value is multi-value string of event topics</li> 
-     <li>a list of topics in the release is in the <a href="#topicsandverbs">Topics and Verbs</a> section</li> 
+     <li>a list of topics in the release is in the <a href="#topics-and-verbs">Topics and Verbs</a> section</li> 
      <li>default is to apply to all topics associated with the verb(s)</li> 
     </ul> </td> 
   </tr> 
@@ -265,7 +265,7 @@ Sub-rules are nodes of type `cq:Page` with properties on its `jcr:content`node t
 
 ### Included Scoring Rules and Sub-Rules {#included-scoring-rules-and-sub-rules}
 
-Included in the release are two scoring rules for the [Forum Function](../../communities/using/functions.md#forumfunction) (one each for the Forum and Comments components of the Forum feature) :
+Included in the release are two scoring rules for the [Forum Function](../../communities/using/functions.md#forum-function) (one each for the Forum and Comments components of the Forum feature) :
 
 1. /etc/community/scoring/rules/comments-scoring
 
@@ -321,7 +321,7 @@ The rules for badging consist of a mandatory `thresholds`property that is an ord
 
     * a gold badge is awared when 80 points have been accumulated
 
-Badging rules are paired with scoring rules, which determine how points accumulate. See the section titled [Apply Rules to Content](#applyrulestocontent).
+Badging rules are paired with scoring rules, which determine how points accumulate. See the section titled [Apply Rules to Content](#apply-rules-to-content).
 
 The `scoringRules`property on a badging rule simply restricts which scoring rules can be paired with that particular badging rule.
 
@@ -384,7 +384,7 @@ Any changes or additions made to badging rules or images made in the author envi
 
 ## Assign and Revoke Badges {#assign-and-revoke-badges}
 
-Badges may be assigned to members either using the [members console](../../communities/using/members.md#badgestab) or programmatically using cURL commands.
+Badges may be assigned to members either using the [members console](../../communities/using/members.md#badges-tab) or programmatically using cURL commands.
 
 The following cURL commands show what is necessary for an HTTP request for assigning and revoking badges. The basic format is :
 
@@ -410,8 +410,8 @@ for example : http://&lt;server&gt;:&lt;port&gt;/home/users/community/riley/prof
 >
 >The *member-profile-url*
 >
->* may refer to an author instance if the [Tunnel Service](../../communities/using/users.md#tunnelservice) is enabled
->* may be an obscure, random name - see [Security Checklist](../../sites/administering/using/security-checklist.md#verifythatyouarenotdisclosingpersonallyidentifiableinformationintheusershomepath) regarding authorizable ID
+>* may refer to an author instance if the [Tunnel Service](../../communities/using/users.md#tunnel-service) is enabled
+>* may be an obscure, random name - see [Security Checklist](../../sites/administering/using/security-checklist.md#verify-that-you-are-not-disclosing-personally-identifiable-information-in-the-users-home-path) regarding authorizable ID
 >
 
 #### Examples : {#examples}
@@ -442,7 +442,7 @@ When members interact with communities features, events are sent that can trigge
 
 A component's SocialEvent instance records the events as `actions`that occur for a `topic`. The SocialEvent includes a method to return a `verb`associated with the action. There is an *n-1* relationship between `actions`and `verbs`.
 
-For the communities components delivered, the following tables describe the `verbs`defined for each `topic`available for use in [scoring sub-rules](#scoringsubrules).
+For the communities components delivered, the following tables describe the `verbs`defined for each `topic`available for use in [scoring sub-rules](#scoring-sub-rules).
 
 >[!NOTE]
 >
@@ -559,13 +559,13 @@ To support scoring, the SocialEvent would need to override the method `getVerb()
 
 If scoring and badging rules have been applied to the web site's content, but badges are not being awared for any activity, ensure badges have been enabled for that component's instance.
 
-See [Enable Badges for Component](#enablebadgesforcomponent).
+See [Enable Badges for Component](#enable-badges-for-component).
 
 ### Scoring rule has no effect {#scoring-rule-has-no-effect}
 
 If scoring and badging rules have been applied to the web site's content, and badges are being awarded for some actions, but not others, check that the badging rule has not restricted the scoring rules to which it applies.
 
-See the `scoringRules`property of [Badging Rules](#badgingrules).
+See the `scoringRules`property of [Badging Rules](#badging-rules).
 
 ### Case Sensitive Typo {#case-sensitive-typo}
 
@@ -629,7 +629,7 @@ Next ensure the forum and comments components allow badges to be displayed :
 
 ![](assets/chlimage_1-371.png)
 
-Next, [republish](../../communities/using/sites-console.md#publishingthesite) the community site.
+Next, [republish](../../communities/using/sites-console.md#publishing-the-site) the community site.
 
 Finally,
 
@@ -652,4 +652,4 @@ More information may be found on the [Scoring and Badges Essentials](../../commu
 
 For information on the advanced scoring engine, see [Advanced Scoring and Badges](../../communities/using/advanced.md).
 
-The configurable Leaderboard [component](../../communities/using/enabling-leaderboard.md) and [function](../../communities/using/functions.md#leaderboardfunction) simplifies the display of members and their scores on a community site.
+The configurable Leaderboard [component](../../communities/using/enabling-leaderboard.md) and [function](../../communities/using/functions.md#leaderboard-function) simplifies the display of members and their scores on a community site.

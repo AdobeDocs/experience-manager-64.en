@@ -3,11 +3,11 @@ title: Creating an adaptive form
 seo-title: Creating an adaptive form
 description: How to create an adaptive form using AEM Forms. Adaptive forms are responsive HTML5 forms that streamline information gathering and processing.
 seo-description: How to create an adaptive form using AEM Forms. Adaptive forms are responsive HTML5 forms that streamline information gathering and processing.
-uuid: 36c9d2c9-2b2e-4e41-9dc3-a6a1e4ae59b7
+uuid: ecd78da5-1a90-4e36-b638-f7faaba6296d
 content-type: reference
 topic-tags: author
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 9f35883f-429e-4ac6-8fd7-2ba8358bf92b
+discoiquuid: 8b655e67-2ed7-446e-9b7d-39fe11d7b026
 index: y
 internal: n
 snippet: y

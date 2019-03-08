@@ -3,12 +3,12 @@ title: Content Management for Screens
 seo-title: Content Management for Screens
 description: Learn about the basics of Content Management for Screens.
 seo-description: Learn about the basics of Content Management for Screens.
-uuid: a9bcafe7-0471-4f0d-a00e-fc278823f368
+uuid: e843e992-e3eb-4ce1-b0ac-6f27348f47d5
 contentOwner: Jyotika Syal
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: content
 content-type: reference
-discoiquuid: 58c96d57-7e32-42db-b664-502696f70905
+discoiquuid: bf97d5c7-a221-4d23-a104-63bff3d7f588
 index: y
 internal: n
 snippet: y

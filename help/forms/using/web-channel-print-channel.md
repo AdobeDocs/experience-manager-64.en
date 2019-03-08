@@ -3,10 +3,10 @@ title: Print channel and web channel
 seo-title: Print channel and web channel
 description: Importing print channel templates and creating and enabling web channel templates
 seo-description: Importing print channel templates and creating and enabling web channel templates
-uuid: 2efbb0c7-0357-4b51-a85d-ae9bad5c9a83
+uuid: 443a4458-7c37-464b-a28e-60ba1873ffd3
 topic-tags: interactive-communications
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 0eb62484-967d-43b4-84fe-ae09358e65af
+discoiquuid: 285226bf-1eea-458b-ac62-aedbd5058ae4
 index: y
 internal: n
 snippet: y

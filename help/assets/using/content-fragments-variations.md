@@ -3,12 +3,12 @@ title: Variations - Authoring Fragment Content
 seo-title: Variations - Authoring Fragment Content
 description: Variations allow you to author content for the fragment, then create variations of that content according to purpose (if required).
 seo-description: Variations allow you to author content for the fragment, then create variations of that content according to purpose (if required).
-uuid: 5e6511f6-f7ca-4efb-828b-ee0dfabc4a92
+uuid: 4be2ecec-0ff0-42ea-8707-5c139016954b
 contentOwner: Alison Heimoz
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: content-fragments
 content-type: reference
-discoiquuid: 0e31f97c-7a00-4986-abb7-ab9647468f91
+discoiquuid: 28972538-cbbf-4880-a3cf-f84ca76f1234
 index: y
 internal: n
 snippet: y
@@ -20,24 +20,24 @@ snippet: y
 >
 >Some Content Fragment functionality requires the application of [AEM 6.4 Service Pack 2 (6.4.2.0) or later](../../release-notes/sp-release-notes.md).
 
-[Variations](../../assets/using/content-fragments.md#constituentpartsofacontentfragment) are a significant feature of content fragments, as they allow you to create and edit copies of the master content for use on specific channels, and/or scenarios.
+[Variations](../../assets/using/content-fragments.md#constituent-parts-of-a-content-fragment) are a significant feature of content fragments, as they allow you to create and edit copies of the master content for use on specific channels, and/or scenarios.
 
 From the **Variations** tab you can:
 
-* [Enter the content](#authoringyourcontent) for your fragment
-* [Create and manage variations](#managingvariations) of the **Master** content
+* [Enter the content](#authoring-your-content) for your fragment
+* [Create and manage variations](#managing-variations) of the **Master** content
 
 Perform a range of other actions depending on the data-type being edited; for example:
 
-* [Insert visual assets into your fragment](#insertingassetsintoyourfragment) (images)
-* Select between [Rich Text](#richtext), [Plain Text](#plain-text) and [Markdown](#markdown) for editing
+* [Insert visual assets into your fragment](#inserting-assets-into-your-fragment) (images)
+* Select between [Rich Text](#rich-text), [Plain Text](#plain-text) and [Markdown](#markdown) for editing
 
-* [Upload Content](#uploadingcontent)  
+* [Upload Content](#uploading-content)  
 
-* [View key statistics](#viewingkeystatistics) (about multi-line text)
-* [Summarize Text](#summarizingtext)  
+* [View key statistics](#viewing-key-statistics) (about multi-line text)
+* [Summarize Text](#summarizing-text)  
 
-* [Synchronize variations with Master content](#synchronizingwithmaster)
+* [Synchronize variations with Master content](#synchronizing-with-master)
 
 >[!CAUTION]
 >
@@ -48,10 +48,10 @@ Perform a range of other actions depending on the data-type being edited; for ex
 When you open your content fragment for editing, the **Variations** tab will be open by default. Here you can author the content, for Master or any variations you have. You can:
 
 * make edits directly in the **Variations** tab
-* open the [full-screen editor](#fullscreeneditor) to:
+* open the [full-screen editor](#full-screen-editor) to:
 
     * select the [Format](#formats)
-    * see more editing options (for [Rich Text](#richtext) format)  
+    * see more editing options (for [Rich Text](#rich-text) format)  
     
     * access a range of [actions](#actions)
 
@@ -65,7 +65,7 @@ For example:
 
 * Editing a fragment with structured content
 
-  A structured fragment contains various fields, of various data-types, that were defined in the content model. For any multi-line fields the [full-screen editor](#fullscreeneditor) is available.
+  A structured fragment contains various fields, of various data-types, that were defined in the content model. For any multi-line fields the [full-screen editor](#full-screen-editor) is available.
 
   ![](assets/cfm-6420-16.png)
 
@@ -78,22 +78,22 @@ When editing a multi-line text field you can open the full-screen editor:
 The full-screen editor provides:
 
 * Access to various [actions](#actions)
-* Depending on the [format](#formats), additional formatting options ([Rich Text](#richtext))
+* Depending on the [format](#formats), additional formatting options ([Rich Text](#rich-text))
 
 ### Actions {#actions}
 
 The following actions are also available (for all the [formats](#formats)) when the full-screen editor (i.e. multi-line text) is open:
 
-* Select the [format](#formats) ([Rich Text](#richtext), [Plain Text,](#plaintext,) [Markdown](#markdown))  
+* Select the [format](#formats) ([Rich Text](#rich-text), [Plain Text,](#plaintext,) [Markdown](#markdown))  
 
-* [Show Text Statistics](#viewingkeystatistics)  
+* [Show Text Statistics](#viewing-key-statistics)  
 
-* [Upload content](#uploadingcontent)
-* [Synchronize with Master](#synchronizingwithmaster) (when editing a variation)
-* [Summarize Text](#summarizingtext)
-* [Annotate](../../assets/using/content-fragments-variations.md#annotatingacontentfragment) your text  
+* [Upload content](#uploading-content)
+* [Synchronize with Master](#synchronizing-with-master) (when editing a variation)
+* [Summarize Text](#summarizing-text)
+* [Annotate](../../assets/using/content-fragments-variations.md#annotating-a-content-fragment) your text  
 
-* [Insert visual assets into your fragment](#insertingassetsintoyourfragment) (images)
+* [Insert visual assets into your fragment](#inserting-assets-into-your-fragment) (images)
 
 ### Formats {#formats}
 
@@ -122,11 +122,11 @@ Rich text editing allows you to format:
     * Paste Text/from Word
     * Insert a table
     * Paragraph style: Paragraph, Heading 1/2/3
-    * [Insert visual assets](#insertingassetsintoyourfragment)
+    * [Insert visual assets](#inserting-assets-into-your-fragment)
     * Search
     * Find/Replace
     * Spellchecker
-    * [Annotations](/assets/using/content-fragments-variations.html?cq_ck=1534146684970#AnnotatingaContentFragment)
+    * [Annotations](../../assets/using/content-fragments-variations.md#annotating-a-content-fragment)
 
 The [actions](#actions) are also accessible from the full-screen editor.
 
@@ -248,7 +248,7 @@ Annotations:
 
   ![](assets/cfm-6420-25.png)
 
-* Can be viewed, and deleted, in [Timeline](https://helpx.adobe.com/experience-manager/6-3/assets/using/content-fragments-managing.html#TimelineforContentFragments) for the selected fragment.
+* Can be viewed, and deleted, in [Timeline](https://helpx.adobe.com/experience-manager/6-3/assets/using/content-fragments-managing.html#timeline-for-content-fragments) for the selected fragment.
 
 ### Inserting Assets into your Fragment {#inserting-assets-into-your-fragment}
 
@@ -264,7 +264,7 @@ They will be added to the paragraph sequence of the fragment without any formatt
 
 >[!NOTE]
 >
->There are various methods of adding [images](../../assets/using/content-fragments.md#fragmentswithvisualassets) to the fragment and/or page.
+>There are various methods of adding [images](../../assets/using/content-fragments.md#fragments-with-visual-assets) to the fragment and/or page.
 
 1. Position the cursor at the position you want to add the image.
 1. Use the **Insert Asset** icon to open the search dialog.
@@ -304,7 +304,7 @@ To create a new variation:
 1. Select **Variations** from the icon bar in the side panel.
 1. Select **Create Variation**.
 1. A dialog will open, specify the **Title** and **Description** for the new variation.
-1. Select **Add**; the fragment **Master** will be copied to the new variation, which is now open for [editing](#editingavariation).
+1. Select **Add**; the fragment **Master** will be copied to the new variation, which is now open for [editing](#editing-a-variation).
 
    >[!NOTE]
    >
@@ -314,7 +314,7 @@ To create a new variation:
 
 You can make changes to the variation content after either:
 
-* [Creating your variation](#creatingavariation).
+* [Creating your variation](#creating-a-variation).
 * Opening an existing fragment, then selecting the required variation from the side panel.
 
 ![](assets/cfm-6420-26.png) 

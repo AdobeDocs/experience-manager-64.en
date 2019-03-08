@@ -3,12 +3,12 @@ title: Testing Mobile Apps
 seo-title: Testing Mobile Apps
 description: null
 seo-description: null
-uuid: 740fd226-b55a-482d-8f0d-65c868a0f757
+uuid: 48bf565f-c6ce-43a1-b9aa-b5c04b1605fd
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: developing
 content-type: reference
-discoiquuid: d2c50407-738e-49c5-899a-7a16cdf8594e
+discoiquuid: 41f976be-2aa7-4c91-92a3-fe7bd6abf6ee
 index: y
 internal: n
 snippet: y
@@ -20,7 +20,7 @@ snippet: y
 >
 >Adobe recommends using the SPA Editor for projects that require single page application framework-based client-side rendering (e.g. React). [Learn more](../../sites/developing/using/spa-overview.md).
 
-Given the wide range of devices on the market and devices being released, testing your Apps has become extremely important. This is an area where functionality and usability may garner low reviews on an app store, but a single defect can result in your app being uninstalled. Careful attention has to be made in your testing plans and quality assurance. The following link covers many of the topics that need to be addressed in general, such as, identify your environment, define test cases, types of testing, assumptions, customer involvement, etc. Also discussed are tools to help in the testing effort. Internal tools, like [Hobbes](../../sites/developing/using/hobbes.md), can help with web-based UI testing. [Tough Day](../../sites/developing/using/tough-day.md) can stress your instances with a simulated load. If your testing environment already has experience with 3rd-party tools, like Selenium, these too can be used. Additional tools are listed [here](/sites/developing/using/test) that can assist with issues specific to mobile testing.
+Given the wide range of devices on the market and devices being released, testing your Apps has become extremely important. This is an area where functionality and usability may garner low reviews on an app store, but a single defect can result in your app being uninstalled. Careful attention has to be made in your testing plans and quality assurance. The following link covers many of the topics that need to be addressed in general, such as, identify your environment, define test cases, types of testing, assumptions, customer involvement, etc. Also discussed are tools to help in the testing effort. Internal tools, like [Hobbes](../../sites/developing/using/hobbes.md), can help with web-based UI testing. [Tough Day](../../sites/developing/using/tough-day.md) can stress your instances with a simulated load. If your testing environment already has experience with 3rd-party tools, like Selenium, these too can be used. Additional tools are listed [here](/sites/developing/using/test.md) that can assist with issues specific to mobile testing.
 
 When developing a mobile app, there are many new concerns specific to devices that have to be addressed along with those of traditional testing.
 

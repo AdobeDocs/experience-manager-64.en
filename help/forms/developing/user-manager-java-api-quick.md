@@ -3,12 +3,12 @@ title: User Manager Java API Quick Start(SOAP)
 seo-title: User Manager Java API Quick Start(SOAP)
 description: null
 seo-description: null
-uuid: 996e5ed5-f996-44ae-8f24-e3b8c069d2b7
+uuid: 006d8cce-7f16-4e54-9a90-f089018a2cc2
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
-discoiquuid: f74b4eb4-1cff-4cb5-a017-16727de28589
+discoiquuid: 1ecd3a3a-cb2c-464c-aa6e-287197fc66a6
 index: y
 internal: n
 snippet: y
@@ -18,29 +18,29 @@ snippet: y
 
 Java API Quick Start(SOAP) is available for the User Manager API.
 
-[Quick Start (SOAP mode): Adding users using the Java API](user-manager-java-api-quick#quick_start_soap_mode_adding_users_using_the_java_api)
+[Quick Start (SOAP mode): Adding users using the Java API](user-manager-java-api-quick.md#quick_start_soap_mode_adding_users_using_the_java_api)
 
-[Quick Start (SOAP mode): Deleting users using the Java API](user-manager-java-api-quick#quick_start_soap_mode_deleting_users_using_the_java_api)
+[Quick Start (SOAP mode): Deleting users using the Java API](user-manager-java-api-quick.md#quick_start_soap_mode_deleting_users_using_the_java_api)
 
-[Quick Start (SOAP mode): Creating Groups using the Java API](user-manager-java-api-quick#quick_start_soap_mode_creating_groups_using_the_java_api)
+[Quick Start (SOAP mode): Creating Groups using the Java API](user-manager-java-api-quick.md#quick_start_soap_mode_creating_groups_using_the_java_api)
 
-[Quick Start (SOAP mode): Managing users and groups using the Java API](user-manager-java-api-quick#quick_start_soap_mode_managing_users_and_groups_using_the_java_api)
+[Quick Start (SOAP mode): Managing users and groups using the Java API](user-manager-java-api-quick.md#quick_start_soap_mode_managing_users_and_groups_using_the_java_api)
 
-[Quick Start (SOAP mode): Managing roles and permissions using the Java API](user-manager-java-api-quick#quick_start_soap_mode_managing_roles_and_permissions_using_the_java_api)
+[Quick Start (SOAP mode): Managing roles and permissions using the Java API](user-manager-java-api-quick.md#quick_start_soap_mode_managing_roles_and_permissions_using_the_java_api)
 
 [Quick Start(SOAP mode): Authenticating a user using the Java API](#unresolvedlink-lc-qs-user-manager-um.xml#ws624e3cba99b79e12e69a9941333732bac8-7bbb.2)
 
-[Quick Start (SOAP mode): Programmatically synchronizing users using the Java API](user-manager-java-api-quick#quick_start_soap_mode_programmatically_synchronizing_users_using_the_java_api)
+[Quick Start (SOAP mode): Programmatically synchronizing users using the Java API](user-manager-java-api-quick.md#quick_start_soap_mode_programmatically_synchronizing_users_using_the_java_api)
 
-[Quick Start (SOAP mode): Programmatically managing the Preferences Nodes using the Java API](user-manager-java-api-quick#quick_start_soap_mode_programmatically_managing_the_preferences_nodes_using_the_java_api)
+[Quick Start (SOAP mode): Programmatically managing the Preferences Nodes using the Java API](user-manager-java-api-quick.md#quick_start_soap_mode_programmatically_managing_the_preferences_nodes_using_the_java_api)
 
 AEM Forms operations can be performed using the AEM Forms strongly-typed API and the connection mode should be set to SOAP.
 
-***Note**: Quick start located in Programming with AEM forms are based on the Document if you are using another operating system, such as Unix, replace Windows-specific paths with paths supported by the applicable operating system. Likewise, if you are using another J2EE application server, then ensure that you specify valid connection properties. (See [Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties).)*
+***Note**: Quick start located in Programming with AEM forms are based on the Document if you are using another operating system, such as Unix, replace Windows-specific paths with paths supported by the applicable operating system. Likewise, if you are using another J2EE application server, then ensure that you specify valid connection properties. (See [Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties).)*
 
 ## Quick Start (SOAP mode): Adding users using the Java API {#quick-start-soap-mode-adding-users-using-the-java-api}
 
-The following code example adds a user named Wendy Blue to AEM Forms. (See [Adding Users](/programming-with-aem-forms/users#adding_users).)
+The following code example adds a user named Wendy Blue to AEM Forms. (See [Adding Users](/programming-with-aem-forms/users.md#adding_users).)
 
 ```as3
  /* 
@@ -158,7 +158,7 @@ The following code example adds a user named Wendy Blue to AEM Forms. (See [Addi
 
 ## Quick Start (SOAP mode): Deleting users using the Java API {#quick-start-soap-mode-deleting-users-using-the-java-api}
 
-The following code example deletes a user named Wendy Blue from AEM Forms. (See [Deleting Users](/programming-with-aem-forms/users#deleting_users).)
+The following code example deletes a user named Wendy Blue from AEM Forms. (See [Deleting Users](/programming-with-aem-forms/users.md#deleting_users).)
 
 ```as3
  /* 
@@ -254,7 +254,7 @@ The following code example deletes a user named Wendy Blue from AEM Forms. (See 
 
 ## Quick Start (SOAP mode): Managing users and groups using the Java API {#quick-start-soap-mode-managing-users-and-groups-using-the-java-api}
 
-The following code example finds a local user and the local group to which the user belongs. (See [Managing Users and Groups](/programming-with-aem-forms/users#managing_users_and_groups).)
+The following code example finds a local user and the local group to which the user belongs. (See [Managing Users and Groups](/programming-with-aem-forms/users.md#managing_users_and_groups).)
 
 ```as3
  /* 
@@ -378,7 +378,7 @@ The following code example finds a local user and the local group to which the u
 
 ## Quick Start (SOAP mode): Managing roles and permissions using the Java API {#quick-start-soap-mode-managing-roles-and-permissions-using-the-java-api}
 
-The following code example assigns the Services User role to a principal, prints the roles the principal has, and subsequently removes the role from the principal. Two services are invoked for this quick start: the DirectoryManager service and the AuthorizationManager service.(See [Managing Roles and Permissions](/programming-with-aem-forms/users#managing_roles_and_permissions).)
+The following code example assigns the Services User role to a principal, prints the roles the principal has, and subsequently removes the role from the principal. Two services are invoked for this quick start: the DirectoryManager service and the AuthorizationManager service.(See [Managing Roles and Permissions](/programming-with-aem-forms/users.md#managing_roles_and_permissions).)
 
 ```as3
  /* 
@@ -521,7 +521,7 @@ The following code example assigns the Services User role to a principal, prints
 
 ## Quick Start (SOAP mode): Programmatically synchronizing users using the Java API {#quick-start-soap-mode-programmatically-synchronizing-users-using-the-java-api}
 
-The following Java code example synchronizes users by using the User Management APIs. (See [Programmatically Synchronizing Users](/programming-with-aem-forms/users#programmatically_synchronizing_users).)
+The following Java code example synchronizes users by using the User Management APIs. (See [Programmatically Synchronizing Users](/programming-with-aem-forms/users.md#programmatically_synchronizing_users).)
 
 ```as3
  /* 
@@ -630,7 +630,7 @@ The following Java code example synchronizes users by using the User Management 
 
 ## Quick Start (SOAP mode): Adding users using the Java API {#quick_start_soap_mode_adding_users_using_the_java_api-1}
 
-The following code example adds a user named Wendy Blue to AEM Forms. (See [Adding Users](/programming-with-aem-forms/users#adding_users).)
+The following code example adds a user named Wendy Blue to AEM Forms. (See [Adding Users](/programming-with-aem-forms/users.md#adding_users).)
 
 ```as3
  /* 
@@ -748,7 +748,7 @@ The following code example adds a user named Wendy Blue to AEM Forms. (See [Addi
 
 ## Quick Start (SOAP mode): Creating Groups using the Java API {#quick-start-soap-mode-creating-groups-using-the-java-api}
 
-The following code example creates a group named AdobeGroup to AEM Forms. (See [Creating Groups](/programming-with-aem-forms/users#creating_groups).)
+The following code example creates a group named AdobeGroup to AEM Forms. (See [Creating Groups](/programming-with-aem-forms/users.md#creating_groups).)
 
 ```as3
  /* 
@@ -900,7 +900,7 @@ The following code example creates a group named AdobeGroup to AEM Forms. (See [
 
 ## Quick Start (SOAP mode) Managing Preferences Nodes {#quick-start-soap-mode-managing-preferences-nodes}
 
-The following Java code models managing of Preferences Nodes by using the User Management APIs. ( See [Programmatically Managing the Preferences Nodes](/programming-with-aem-forms/programmatically-preferences-nodes#programmatically_managing_the_preferences_nodes))
+The following Java code models managing of Preferences Nodes by using the User Management APIs. ( See [Programmatically Managing the Preferences Nodes](/programming-with-aem-forms/programmatically-preferences-nodes.md#programmatically_managing_the_preferences_nodes))
 
 ```as3
 /* 
@@ -1003,7 +1003,7 @@ public class ManagePreferences {
 
 ## Quick Start (SOAP mode): Programmatically managing the Preferences Nodes using the Java API {#quick-start-soap-mode-programmatically-managing-the-preferences-nodes-using-the-java-api}
 
-The following Java code models managing of Preferences Nodes by using the User Management APIs ( See [Programmatically Managing the Preferences Nodes](/programming-with-aem-forms/programmatically-preferences-nodes#programmatically_managing_the_preferences_nodes))
+The following Java code models managing of Preferences Nodes by using the User Management APIs ( See [Programmatically Managing the Preferences Nodes](/programming-with-aem-forms/programmatically-preferences-nodes.md#programmatically_managing_the_preferences_nodes))
 
 ```as3
 /* 

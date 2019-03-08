@@ -3,12 +3,12 @@ title: AEM 6.4 Service Pack Release Notes
 seo-title: AEM 6.4 Service Pack Release Notes
 description: Release notes specific to Adobe Experience Manager 6.4 Service Pack 3.
 seo-description: Release notes specific to Adobe Experience Manager 6.4 Service Pack 3.
-uuid: 366febf5-9f44-4a6d-bbcf-6984dca59320
+uuid: 5c9765a3-1ce2-4f0f-874e-971673e276bc
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4
 topic-tags: release-notes
 content-type: reference
-discoiquuid: 82cfc02c-19bf-477d-b56b-9b22afa94889
+discoiquuid: baea2037-49a4-44a4-8c03-7efedbb0cda7
 legacypath: /content/docs/en/aem/6-1/release-notes-sp1
 index: y
 internal: n
@@ -699,9 +699,9 @@ The key highlights for AEM 6.4.3.0 forms are:
  </ul> 
  <h4>Sites</h4> 
  <ul> 
-  <li>Allow editing a content fragment without delete permissions. For more information, see <a href="../sites/developing/using/customizing-content-fragments.md#assetpermissions">Customizing and Extending Content Fragments</a>. NPR-25793: Hotfix for CQ-4248750</li> 
-  <li>Added the capability to annotate Content Fragments. For more information, see <a href="../assets/using/content-fragments-variations.md#annotatingacontentfragment" target="_blank">Variations-Authoring Fragments</a>. NPR-25188: Hotfix for CQ-4235336</li> 
-  <li>Versioning: Compare Content Fragments Side-by-Side. For more information, see <a href="../assets/using/content-fragments-managing.md#comparingfragmentversions">Managing Content Fragments</a>. NPR-25187: Hotfix for CQ-4237412</li> 
+  <li>Allow editing a content fragment without delete permissions. For more information, see <a href="../sites/developing/using/customizing-content-fragments.md#asset-permissions">Customizing and Extending Content Fragments</a>. NPR-25793: Hotfix for CQ-4248750</li> 
+  <li>Added the capability to annotate Content Fragments. For more information, see <a href="../assets/using/content-fragments-variations.md#annotating-a-content-fragment" target="_blank">Variations-Authoring Fragments</a>. NPR-25188: Hotfix for CQ-4235336</li> 
+  <li>Versioning: Compare Content Fragments Side-by-Side. For more information, see <a href="../assets/using/content-fragments-managing.md#comparing-fragment-versions">Managing Content Fragments</a>. NPR-25187: Hotfix for CQ-4237412</li> 
   <li>Image Editor enhancements backported to AEM 6.4.2.0. For more information, see <a href="../sites/developing/using/image-editor.md">Image Editor</a>. NPR-24467</li> 
  </ul> 
  <h3>OSGI Bundles and Content Packages Included</h3> 

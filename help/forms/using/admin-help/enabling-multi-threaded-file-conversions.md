@@ -3,12 +3,12 @@ title: Enabling multi-threaded file conversions
 seo-title: Enabling multi-threaded file conversions
 description: Learn how to enable multi-threaded file conversions.
 seo-description: Learn how to enable multi-threaded file conversions.
-uuid: 682e428b-f2c0-458f-bbb8-b5c84af1d178
+uuid: 4bb93c77-53b7-44dc-af20-cc492e09cb6b
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_pdf_generator
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 3790e8a0-6f65-459e-8662-22f4db42419e
+discoiquuid: 339e26f7-9c01-40c1-999d-edd2ea8f241e
 index: y
 internal: n
 snippet: y
@@ -54,7 +54,7 @@ If you are running OpenOffice, Microsoft Word, or Microsoft PowerPoint on Window
 
 ### Additional configuration required for OpenOffice on Linux or Solaris {#additional-configuration-required-for-openoffice-on-linux-or-solaris}
 
-1. Add user accounts. (See [Add a user account](enabling-multi-threaded-file-conversions#add_a_user_account).) 
+1. Add user accounts. (See [Add a user account](enabling-multi-threaded-file-conversions.md#add_a_user_account).) 
 1. Next, you will make changes to the /etc/sudoers file. The default permission for this file is 440. Change the permission for this file to writable. 
 1. Add entries for additional users (other than the administrator who runs the forms server) in the /etc/sudoers file. For example, if you are running AEM forms as a user named lcadm and a server named myhost, and you want to impersonate user1 and user2, add the following entries to /etc/sudoers:
 
@@ -67,7 +67,7 @@ If you are running OpenOffice, Microsoft Word, or Microsoft PowerPoint on Window
 
    >[!NOTE]
    >
-   >Ensure that you have assigned system user and PDFG user roles to ‘user1’ and ‘user2’ . To assign PDFG role to a user, see [Add a user account](enabling-multi-threaded-file-conversions#add_a_user_account)
+   >Ensure that you have assigned system user and PDFG user roles to ‘user1’ and ‘user2’ . To assign PDFG role to a user, see [Add a user account](enabling-multi-threaded-file-conversions.md#add_a_user_account)
 
 1. Also in the /etc/sudoers file, locate and comment out this line by adding a number sign (#) at the beginning of the line:
 
@@ -78,7 +78,7 @@ If you are running OpenOffice, Microsoft Word, or Microsoft PowerPoint on Window
    This enables you to add Linux users. 
 
 1. Change the permission for the etc/sudoers file back to 440. 
-1. Allow all the users that you added via [Add a user account](enabling-multi-threaded-file-conversions#add_a_user_account) to make connections to the forms server. For example, to allow a local user named user1 the permission of making the connection to the forms server, use the following command
+1. Allow all the users that you added via [Add a user account](enabling-multi-threaded-file-conversions.md#add_a_user_account) to make connections to the forms server. For example, to allow a local user named user1 the permission of making the connection to the forms server, use the following command
 
    `xhost +local:user1@`
 

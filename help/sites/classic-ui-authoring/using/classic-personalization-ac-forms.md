@@ -3,12 +3,12 @@ title: Creating Adobe Campaign Forms in AEM
 seo-title: Creating Adobe Campaign Forms in AEM
 description: AEM lets you create and use forms that interact with Adobe Campaign on your website. Specific fields can be inserted into your forms and mapped to the Adobe Campaign database.
 seo-description: AEM lets you create and use forms that interact with Adobe Campaign on your website. Specific fields can be inserted into your forms and mapped to the Adobe Campaign database.
-uuid: 6726a0cf-2b8a-4647-8c33-c14e6dd0dbea
+uuid: 1dcf5490-3158-449e-a3d0-3d7c3e28f153
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: 7b72ee8c-2816-4379-bff2-0bf04de122f4
+discoiquuid: 8fbf719f-4aa2-4fcd-b161-5d89ffbc8a51
 index: y
 internal: n
 snippet: y
@@ -36,7 +36,7 @@ These forms define a URL parameter that accepts the encrypted primary key of an 
 
 Although you create these forms independently, in a typical use case, you generate a personalized link to a form page inside the newsletter content, so that recipients can open the link and make adjustments to their profile data (whether unsubscribing, subscribing, or updating their profile).
 
-The form automatically updates based on the user. See [Editing Form Content](#editingformcontent) for more information.
+The form automatically updates based on the user. See [Editing Form Content](#editing-form-content) for more information.
 
 ## Making a Template Available {#making-a-template-available}
 
@@ -66,7 +66,7 @@ First of all, check the connection between the author and publish instances and 
 
    ![](assets/chlimage_1-187.png)
 
-   You can then [edit and configure your form's content](#editingformcontent).
+   You can then [edit and configure your form's content](#editing-form-content).
 
 ## Editing Form Content {#editing-form-content}
 
@@ -80,7 +80,7 @@ This section only details specific links to Adobe Campaign. For more information
 
 1. Navigate to the form you want to edit.
 1. In the toolbox, select **Page** &gt; **Page Properties...** then go to the **Cloud Services** tab of the pop-up window.
-1. Add the Adobe Campaign service by clicking **Add service**, and then selecting the configuration that corresponds to your Adobe Campaign instance in the service's drop down list. This configuration is carried out when setting up the connection between your instances. For more information, see [Connecting AEM to Adobe Campaign](../../../sites/administering/using/campaignonpremise.md#connectingaemtoadobecampaign).
+1. Add the Adobe Campaign service by clicking **Add service**, and then selecting the configuration that corresponds to your Adobe Campaign instance in the service's drop down list. This configuration is carried out when setting up the connection between your instances. For more information, see [Connecting AEM to Adobe Campaign](../../../sites/administering/using/campaignonpremise.md#connecting-aem-to-adobe-campaign).
 
    >[!NOTE]
    >

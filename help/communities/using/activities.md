@@ -3,12 +3,12 @@ title: Activity Streams Feature
 seo-title: Activity Streams Feature
 description: Activities of a signed-in community member
 seo-description: Activities of a signed-in community member
-uuid: e1c7a5f1-7bc3-47ac-ae44-0dddef7db3e8
+uuid: dc4a9dba-b11d-42c9-9216-d68a0f06c3d3
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
-discoiquuid: 9a1cde0a-87f6-47d0-9b25-b72d85e2babd
+discoiquuid: bb7a8394-b588-473f-bc09-087955929084
 index: y
 internal: n
 snippet: y
@@ -37,7 +37,7 @@ and drag it into place on a page where activity streams should appear.
 
 For necessary information, visit [Communities Components Basics](../../communities/using/basics.md).
 
-When the [required client-side libraries](../../communities/using/essentials-activities.md#essentialsforclientside) are included, this is how the `Activity Streams` component will appear :
+When the [required client-side libraries](../../communities/using/essentials-activities.md#essentials-for-client-side) are included, this is how the `Activity Streams` component will appear :
 
 ![](assets/chlimage_1-195.png)
 

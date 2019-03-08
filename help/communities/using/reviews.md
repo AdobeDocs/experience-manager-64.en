@@ -3,12 +3,12 @@ title: Using Reviews and Reviews Summary (Display)
 seo-title: Using Reviews and Reviews Summary (Display)
 description: Adding the Reviews and Reviews Summary components to a page
 seo-description: Adding the Reviews and Reviews Summary components to a page
-uuid: 4c23d052-ec4e-4ab9-9839-8aafacf4cf16
+uuid: e6fff4ac-84b1-4b2e-869a-21fc6d35bf79
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
-discoiquuid: 75805fc8-c8c0-46b0-bc47-450a97b9d587
+discoiquuid: 927f250f-c625-4f65-a42a-16be751d0b04
 index: y
 internal: n
 snippet: y
@@ -34,7 +34,7 @@ and drag it into place on a page, such as a position relative to the feature for
 
 For necessary information, visit [Communities Components Basics](../../communities/using/basics.md).
 
-When the [required client-side libraries](../../communities/using/reviews-basics.md#essentialsforclientside) are included, this is how the `Reviews`component will appear.
+When the [required client-side libraries](../../communities/using/reviews-basics.md#essentials-for-client-side) are included, this is how the `Reviews`component will appear.
 
 ![](assets/chlimage_1-340.png)
 
@@ -137,7 +137,7 @@ and drag it into place on a page where a summary of an active or closed review i
 
 For necessary information, visit [Communities Components Basics](../../communities/using/basics.md).
 
-When the [required client-side libraries](../../communities/using/reviews-basics.md#essentialsforclientside) are included, this is how the `Reviews Summary (Display)`component will appear.
+When the [required client-side libraries](../../communities/using/reviews-basics.md#essentials-for-client-side) are included, this is how the `Reviews Summary (Display)`component will appear.
 
 ![](assets/chlimage_1-346.png)
 
@@ -183,7 +183,7 @@ Under the **Resource Types **tab, specify the custom resourceType for new instan
   This resource will identify the resource type of the UGC created when a visitor posts a vote.
 
 * **Comment System Resource Type** 
-  Navigate to the resourceType of an extended `comments`component (Comment System) in /apps. Leave blank unless the page template [dynamically includes](../../communities/using/scf.md#addorincludeacommunitiescomponent) the Comment System in the underlying script instead of being added to the page as a resource (comments node). Learn more by reading about the [{{include}} helper](../../communities/using/handlebars-helpers.md#include)
+  Navigate to the resourceType of an extended `comments`component (Comment System) in /apps. Leave blank unless the page template [dynamically includes](../../communities/using/scf.md#add-or-include-a-communities-component) the Comment System in the underlying script instead of being added to the page as a resource (comments node). Learn more by reading about the [{{include}} helper](../../communities/using/handlebars-helpers.md#include)
 
 ### Site Visitor Experience {#site-visitor-experience}
 

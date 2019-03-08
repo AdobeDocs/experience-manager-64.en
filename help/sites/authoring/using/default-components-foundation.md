@@ -3,12 +3,12 @@ title: Foundation Components
 seo-title: Foundation Components
 description: null
 seo-description: null
-uuid: fa0d326b-8218-4203-9f40-73f77cf9d7cf
+uuid: ab4ded1d-098a-4a9c-850e-7ab3f8e604a4
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: b2e577fd-5e4d-4fae-a007-69b305ab5e17
+discoiquuid: 51da4cb4-0be8-4e97-b129-0dc687b24802
 legacypath: /content/docs/en/aem/6-2/author/page-authoring/default-components/editmode
 pagetitle: Foundation Components
 index: y
@@ -138,7 +138,7 @@ The dialog allows you to edit properties for your instance of the Adaptive Image
 
 #### Extending the Adaptive Image Component {#extending-the-adaptive-image-component}
 
-For information about customizing the Adaptive Image component, see [Understanding the Adaptive Image Component](../../../sites/developing/using/responsive.md#usingadaptiveimages).
+For information about customizing the Adaptive Image component, see [Understanding the Adaptive Image Component](../../../sites/developing/using/responsive.md#using-adaptive-images).
 
 ### Carousel {#carousel}
 
@@ -807,7 +807,7 @@ Form components are used to create forms for visitors to submit input. Forms and
 
 >[!NOTE]
 >
->See [AEM Forms Help](/forms/user-guide) for information about AEM Forms.
+>See [AEM Forms Help](/forms/user-guide.md) for information about AEM Forms.
 
 Forms are built up from several different components:
 
@@ -968,7 +968,7 @@ This component is needed to define the start of a new form on a page. You can co
     * **Load Path** 
       The path to node properties used to load predefined values into the form fields.  
       This is an optional field that specifies the path to a node in the repository. When this node has properties that match the field names, then the appropriate fields on the form are preloaded with the value of those properties. If no match exists, then the field contains the default value.  
-      Using **Load Path** you can preload the form with values in the required fields. See [Preloading Form Values](../../../sites/developing/using/developing-forms.md#preloadingformvalues).
+      Using **Load Path** you can preload the form with values in the required fields. See [Preloading Form Values](../../../sites/developing/using/developing-forms.md#preloading-form-values).
     
     * **Client Validation** 
       Indicates whether client validation is required for this form (server validation *always* occurs.). This can be achieved in conjunction with the **Forms Captcha** component.
@@ -1126,7 +1126,7 @@ You can specify various parameters including a title, description and element na
 >
 >Using **Items Load Path** you can preload the check box group list with values.
 >
->See [Preloading Form Fields with Multiple Values](../../../sites/developing/using/developing-forms.md#preloadingformfieldswithmultiplevalues).
+>See [Preloading Form Fields with Multiple Values](../../../sites/developing/using/developing-forms.md#preloading-form-fields-with-multiple-values).
 
 ### Credit Card Details {#credit-card-details}
 
@@ -1146,7 +1146,7 @@ You can specify a title and items to appear in the list. Using the + and - butto
 >
 >Using **Items Load Path** you can preload the drop down list with values.
 >
->See [Preloading Form Fields with Multiple Values](../../../sites/developing/using/developing-forms.md#preloadingformfieldswithmultiplevalues).
+>See [Preloading Form Fields with Multiple Values](../../../sites/developing/using/developing-forms.md#preloading-form-fields-with-multiple-values).
 
 ### File Upload {#file-upload}
 
@@ -1168,7 +1168,7 @@ This component allows you to create a hidden field. These can be used for variou
 >
 >You can also customize your form to show or hide specific form components according to the value of other fields in the form. Changing the visibility of a form field is useful when the field is needed only under specific conditions.
 >
->See [Showing and Hiding Form Components](../../../sites/developing/using/developing-forms.md#showingandhidingformcomponents).
+>See [Showing and Hiding Form Components](../../../sites/developing/using/developing-forms.md#showing-and-hiding-form-components).
 
 ### Image Button {#image-button}
 
@@ -1219,7 +1219,7 @@ You can specify the element name together with a title and description Using the
 >
 >Using **Items Load Path** you can preload the radio group with values.
 >
->See [Preloading Form Fields with Multiple Values](../../../sites/developing/using/developing-forms.md#preloadingformfieldswithmultiplevalues).
+>See [Preloading Form Fields with Multiple Values](../../../sites/developing/using/developing-forms.md#preloading-form-fields-with-multiple-values).
 
 ### Submit Button {#submit-button}
 

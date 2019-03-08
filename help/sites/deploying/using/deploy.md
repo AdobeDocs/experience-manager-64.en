@@ -3,12 +3,12 @@ title: Deploying and Maintaining
 seo-title: Deploying and Maintaining
 description: Learn how to get started with the AEM installation.
 seo-description: Learn how to get started with the AEM installation.
-uuid: 217fcb58-bd78-4184-a249-911159ba4eae
+uuid: aff8fca2-e80e-41e7-8f3e-c2f8d78c7f67
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
-discoiquuid: e4b93683-ac8b-4cf1-8863-083787385eb4
+discoiquuid: e1ff68d4-2b86-4d32-b3b5-18730b0d713b
 index: y
 internal: n
 snippet: y
@@ -18,22 +18,22 @@ snippet: y
 
 In this page you will find:
 
-* [Basic Concepts](#basicconcepts)
+* [Basic Concepts](#basic-concepts)
 
-    * [What is AEM?](#whatisaem)
-    * [Typical Deployments](#typicaldeploymentscenarios)
+    * [What is AEM?](#what-is-aem)
+    * [Typical Deployments](#typical-deployment-scenarios)
 
-        * [On-premise](#onpremise)
-        * [Managed Services using Cloud Manager](#managedservicesusingcloudmanager)
+        * [On-premise](#on-premise)
+        * [Managed Services using Cloud Manager](#managed-services-using-cloud-manager)
 
-* [Getting Started](#gettingstarted)
+* [Getting Started](#getting-started)
 
     * [Prerequisites](#prerequisites)
-    * [Getting the Software](#gettingthesoftware)
-    * [Default Local Install](#defaultlocalinstall)
-    * [Author and Publish Installs](#authorandpublishinstalls)
-    * [Unpacked Install Directory](#unpackedinstalldirectory)
-    * [Starting and Stopping](#startingandstopping)
+    * [Getting the Software](#getting-the-software)
+    * [Default Local Install](#default-local-install)
+    * [Author and Publish Installs](#author-and-publish-installs)
+    * [Unpacked Install Directory](#unpacked-install-directory)
+    * [Starting and Stopping](#starting-and-stopping)
 
 Once you have familiarized yourself with these basics, you will find in more advanced and detailed information in the following subpages:
 
@@ -290,9 +290,9 @@ AEM starts and automatically redirects your web browser to the appropriate page,
 
 Once logged in, you have access to AEM. For further information, depending on the your role, see the following:
 
-* [Authoring](/sites/authoring/user-guide) 
-* [Administering](/sites/administering/user-guide)
-* [Developing](/sites/developing/user-guide)
+* [Authoring](/sites/authoring/user-guide.md) 
+* [Administering](/sites/administering/user-guide.md)
+* [Developing](/sites/developing/user-guide.md)
 * [Managing](../../../managing/using/manage-reference.md)
 
 ## Advanced Deployment {#advanced-deployment}

@@ -3,12 +3,12 @@ title: E-mail Marketing
 seo-title: E-mail Marketing
 description: In AEM you can create newsletters from existing AEM content as well as add new content, specific to the newsletters
 seo-description: In AEM you can create newsletters from existing AEM content as well as add new content, specific to the newsletters
-uuid: ef2dfd87-1fc1-43c5-8509-3a15b54430da
+uuid: c09a390a-a81a-4df5-9e18-8be5f459782d
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: personalization
-discoiquuid: 57050210-5e95-4ae7-a108-980ac26a8a3c
+discoiquuid: b126b58f-2595-4467-ad71-bc4597a89a52
 index: y
 internal: n
 snippet: y
@@ -197,7 +197,7 @@ While flight testing is not mandatory, before you send out a newsletter, you may
 
 Flight testing lets you do the following:
 
-* Look at the newsletter in [all intended clients](#testingnewslettersindifferentemailclients).
+* Look at the newsletter in [all intended clients](#testing-newsletters-in-different-e-mail-clients).
 * Validate that the mail server is set up correctly.
 * Determine whether your emai is getting flagged as spam. (Make sure you include yourself in the list of recipients.)
 
@@ -242,10 +242,10 @@ To send out a newsletter from within the campaign:
 
    >[!NOTE]
    >
-   >Before sending out, make sure you have customized your newsletter's subject and originating e-mail address by [customizing its settings](#customizingnewslettersettings).
+   >Before sending out, make sure you have customized your newsletter's subject and originating e-mail address by [customizing its settings](#customizing-newsletter-settings).
    >
    >
-   >[Flight testing](#flighttestingnewsletters) the newsletter before sending is recommended.
+   >[Flight testing](#flight-testing-newsletters) the newsletter before sending is recommended.
 
 1. At the top of the newsletter, click **Send**. The Newsletter wizard opens.  
 
@@ -269,7 +269,7 @@ To send out a newsletter from a list:
 
    >[!NOTE]
    >
-   >Before sending out, make sure you have customized your newsletter's subject and originating e-mail address by [customizing its settings](#customizingnewslettersettings). You cannot test a newsletter if you send it from the list; you can [flight test](#flighttestingnewsletters) it if you send it from the newsletter.
+   >Before sending out, make sure you have customized your newsletter's subject and originating e-mail address by [customizing its settings](#customizing-newsletter-settings). You cannot test a newsletter if you send it from the list; you can [flight test](#flight-testing-newsletters) it if you send it from the newsletter.
 
 1. Select the check box next to the list of leads you want to send a newsletter to.  
 

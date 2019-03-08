@@ -3,12 +3,12 @@ title: Featured Content Essentials
 seo-title: Featured Content Essentials
 description: Working with feature content
 seo-description: Working with feature content
-uuid: 5ec2c219-69b8-48e3-927b-04bcfe5f6a25
+uuid: f01747bc-9cd6-4dd2-b8b7-495488170872
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: bd70ef9d-fd28-48ec-9efd-532a7cdca8d7
+discoiquuid: 1769eedf-bc8f-4909-b747-8557d263bfd9
 index: y
 internal: n
 snippet: y
@@ -29,7 +29,7 @@ In contrast to pinning a post to the top of a forum, this feature allows for con
    <td>social/commons/components/hbs/featuredcontent</td> 
   </tr>
   <tr>
-   <td> <a href="../../communities/using/scf.md#addorincludeacommunitiescomponent"><strong>includable</strong></a></td> 
+   <td> <a href="../../communities/using/scf.md#add-or-include-a-communities-component"><strong>includable</strong></a></td> 
    <td>No</td> 
   </tr>
   <tr>
@@ -55,4 +55,4 @@ In contrast to pinning a post to the top of a forum, this feature allows for con
 
 ### File Library Function {#file-library-function}
 
-A community site structure that includes the [Featured Content function](../../communities/using/functions.md#featuredcontentfunction), includes a configured `featured content` component.
+A community site structure that includes the [Featured Content function](../../communities/using/functions.md#featured-content-function), includes a configured `featured content` component.

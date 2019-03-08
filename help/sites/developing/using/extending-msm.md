@@ -3,12 +3,12 @@ title: Extending the Multi Site Manager
 seo-title: Extending the Multi Site Manager
 description: This page helps you extend the functionalities of the Multi Site Manager
 seo-description: This page helps you extend the functionalities of the Multi Site Manager
-uuid: d6337043-1393-40b3-8031-7ed17f3da2d3
+uuid: dd9bd0d1-07df-4fd1-a6f7-02793b1efd0f
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
-discoiquuid: edfda693-5acd-4027-b24e-3bf9c0a0cba3
+discoiquuid: 8b0f77a3-2947-4e4d-acac-8a701bee3e8a
 index: y
 internal: n
 snippet: y
@@ -35,15 +35,15 @@ This page helps you extend the functionalities of the Multi Site Manager:
 
 Multi Site Management consists of the following packages:
 
-* [com.day.cq.wcm.msm.api](/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/msm/api/package-frame)
-* [com.day.cq.wcm.msm.commons](/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/msm/commons/package-frame)
+* [com.day.cq.wcm.msm.api](/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/msm/api/package-frame.md)
+* [com.day.cq.wcm.msm.commons](/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/msm/commons/package-frame.md)
 
-The main MSM API objects interact as follows (see also [Terms Used](../../../sites/administering/using/msm.md#termsused)):
+The main MSM API objects interact as follows (see also [Terms Used](../../../sites/administering/using/msm.md#terms-used)):
 
 ![](assets/chlimage_1-35.png)
 
 * **`Blueprint`** 
-  A `Blueprint` (as in [blueprint configuration](../../../sites/administering/using/msm.md#sourceblueprintsandblueprintconfigurations)) specifies the pages from which a live copy can inherit content. 
+  A `Blueprint` (as in [blueprint configuration](../../../sites/administering/using/msm.md#source-blueprints-and-blueprint-configurations)) specifies the pages from which a live copy can inherit content. 
 
   ![](assets/chlimage_1-36.png)
 
@@ -89,10 +89,10 @@ The main MSM API objects interact as follows (see also [Terms Used](../../../sit
 
 ### Creating a New Synchronization Action {#creating-a-new-synchronization-action}
 
-Create custom synchronization actions to use with your rollout configurations. Create a synchronization action when the [installed actions](../../../sites/administering/using/msm-sync.md#installedsynchronizationactions) do not meet your specific application requirements. To do so, create two classes:
+Create custom synchronization actions to use with your rollout configurations. Create a synchronization action when the [installed actions](../../../sites/administering/using/msm-sync.md#installed-synchronization-actions) do not meet your specific application requirements. To do so, create two classes:
 
-* An implementation of the [ `com.day.cq.wcm.msm.api.LiveAction`](/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/msm/api/LiveAction) interface that performs the action. 
-* An OSGI component that implements the [ `com.day.cq.wcm.msm.api.LiveActionFactory`](/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/msm/api/LiveActionFactory) interface and creates instances of your `LiveAction` class.
+* An implementation of the [ `com.day.cq.wcm.msm.api.LiveAction`](/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/msm/api/LiveAction.md) interface that performs the action. 
+* An OSGI component that implements the [ `com.day.cq.wcm.msm.api.LiveActionFactory`](/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/msm/api/LiveActionFactory.md) interface and creates instances of your `LiveAction` class.
 
 The `LiveActionFactory` creates instances of the `LiveAction` class for a given configuration:
 
@@ -115,7 +115,7 @@ Use the `LiveAction` configuration node in the repository to store information t
 
 For example, a `LiveAction` needs to store the name of the blueprint author. A property of the configuration node includes the property name of the blueprint page that stores the information. At runtime, the `LiveAction` retrieves the property name from the configuration, then obtains the property value.
 
-The parameter of the ` [LiveActionFactory](/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/msm/api/LiveActionFactory).createAction` method is a `Resource` object. This `Resource` object represents the `cq:LiveSyncAction` node for this live action in the rollout configuration; see [Creating a Rollout Configuration](../../../sites/administering/using/msm-sync.md#creatingarolloutconfiguration). As usual when using a configuration node, you should adapt it to a `ValueMap` object:
+The parameter of the ` [LiveActionFactory](/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/msm/api/LiveActionFactory.md).createAction` method is a `Resource` object. This `Resource` object represents the `cq:LiveSyncAction` node for this live action in the rollout configuration; see [Creating a Rollout Configuration](../../../sites/administering/using/msm-sync.md#creating-a-rollout-configuration). As usual when using a configuration node, you should adapt it to a `ValueMap` object:
 
 ```java
 public LiveAction createAction(Resource resource) throws WCMException {
@@ -133,9 +133,9 @@ public LiveAction createAction(Resource resource) throws WCMException {
 
 The following objects are provided as parameters of the `execute` method of the `LiveAction` object:
 
-* A [ `Resource`](/sites/developing/using/reference-materials/javadoc/org/apache/sling/api/resource/Resource) object that represents the source of the Live Copy.
+* A [ `Resource`](/sites/developing/using/reference-materials/javadoc/org/apache/sling/api/resource/Resource.md) object that represents the source of the Live Copy.
 * A `Resource` object that represents the target of the Live Copy.
-* The [ `LiveRelationship`](/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/msm/api/LiveRelationship) object for the live copy.
+* The [ `LiveRelationship`](/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/msm/api/LiveRelationship.md) object for the live copy.
 * The `autoSave` value indicates whether your `LiveAction` should save changes that are made to the repository.
 
 * The reset value indicates the rollout reset mode.
@@ -152,20 +152,20 @@ Node sourcenode = source.adaptTo(javax.jcr.Node.class);
 
 >[!NOTE]
 >
->The `Resource` arguments may be `null` or `Resources` objects that do not adapt to `Node` objects, such as [ `NonExistingResource`](/sites/developing/using/reference-materials/javadoc/org/apache/sling/api/resource/NonExistingResource) objects.
+>The `Resource` arguments may be `null` or `Resources` objects that do not adapt to `Node` objects, such as [ `NonExistingResource`](/sites/developing/using/reference-materials/javadoc/org/apache/sling/api/resource/NonExistingResource.md) objects.
 
 ### Creating a New Rollout Configuration {#creating-a-new-rollout-configuration}
 
 Create a rollout configuration when the installed rollout configurations do not meet your application requirements:
 
-* [Create the rollout configuration](#createtherolloutconfiguration).
-* [Add synchronization actions to the rollout configuration](#addsynchronizationactionstotherolloutconfiguration).
+* [Create the rollout configuration](#create-the-rollout-configuration).
+* [Add synchronization actions to the rollout configuration](#add-synchronization-actions-to-the-rollout-configuration).
 
 The new rollout configuration is then available to you when setting rollout configurations on a blueprint or live copy page.
 
 >[!NOTE]
 >
->See also the [best practices for customizing rollouts](../../../sites/administering/using/msm-best-practices.md#customizingrollouts).
+>See also the [best practices for customizing rollouts](../../../sites/administering/using/msm-best-practices.md#customizing-rollouts).
 
 #### Create the Rollout Configuration {#create-the-rollout-configuration}
 
@@ -185,7 +185,7 @@ The new rollout configuration is then available to you when setting rollout conf
 1. Click **Create**.
 1. Double-click on the rollout configuration that you created to open it for further configuration.
 1. Click **Edit**.
-1. In the **Rollout Config** dialog, select the ** [Sync Trigger](../../../sites/administering/using/msm-sync.md#rollouttriggers)** to define the action that causes the rollout to occur.
+1. In the **Rollout Config** dialog, select the ** [Sync Trigger](../../../sites/administering/using/msm-sync.md#rollout-triggers)** to define the action that causes the rollout to occur.
 1. Click **OK** to save the changes.
 
 #### Add Synchronization Actions to the Rollout Configuration {#add-synchronization-actions-to-the-rollout-configuration}
@@ -201,17 +201,17 @@ Rollout configurations are stored below the `/etc/msm/rolloutconfigs` node. Add 
 
 1. Click **Create** then **Create Node**. Then configure the following node properties and click **OK**:
 
-    * **Name**: The node name of the synchronization action. The name must be the same as the **Action Name** in the table under [Synchronization Actions](../../../sites/administering/using/msm-sync.md#installedsynchronizationactions), for example `contentCopy` or `workflow`.
+    * **Name**: The node name of the synchronization action. The name must be the same as the **Action Name** in the table under [Synchronization Actions](../../../sites/administering/using/msm-sync.md#installed-synchronization-actions), for example `contentCopy` or `workflow`.
     
     * **Type**: `cq:LiveSyncAction`
 
 1. Select the action node just created and add the following property to the node:
 
-    * **Name**: The property name of the action. The name must be the same as the **Property Name** in the table under [Synchronization Actions](../../../sites/administering/using/msm-sync.md#installedsynchronizationactions), for example `enabled`.  
+    * **Name**: The property name of the action. The name must be the same as the **Property Name** in the table under [Synchronization Actions](../../../sites/administering/using/msm-sync.md#installed-synchronization-actions), for example `enabled`.  
     
     * **Type**: String  
     
-    * **Value**: the property value of the action. For valid values, see the **Properties** column in [Synchronization Actions](../../../sites/administering/using/msm-sync.md#installedsynchronizationactions), for example `true`.
+    * **Value**: the property value of the action. For valid values, see the **Properties** column in [Synchronization Actions](../../../sites/administering/using/msm-sync.md#installed-synchronization-actions), for example `true`.
 
 1. Add and configure as many synchronization action nodes as you require. Rearrange the action nodes so that their order matches the order in which you want them to occur. The topmost action node occurs first.
 1. Click **Save All**.
@@ -220,11 +220,11 @@ Rollout configurations are stored below the `/etc/msm/rolloutconfigs` node. Add 
 
 Follow the procedures in this section to develop a `LiveActionFactory` and use it in a rollout configuration. The procedures use Maven and Eclipse to develop and deploy the `LiveActionFactory`:
 
-1. [Create the maven project](#createthemavenproject) and import it into Eclipse.
-1. [Add dependencies](#adddependenciestothepomfile) to the POM file.
-1. [Implement the `LiveActionFactory` inteface](#implementliveactionfactory) and deploy the OSGi bundle.
-1. [Create the rollout configuration](#createtheexamplerolloutconfiguration).
-1. [Create the live copy](#createthelivecopy).
+1. [Create the maven project](#create-the-maven-project) and import it into Eclipse.
+1. [Add dependencies](#add-dependencies-to-the-pom-file) to the POM file.
+1. [Implement the `LiveActionFactory` inteface](#implement-liveactionfactory) and deploy the OSGi bundle.
+1. [Create the rollout configuration](#create-the-example-rollout-configuration).
+1. [Create the live copy](#create-the-live-copy).
 
 The Maven project and the source code of the Java class is available in the public Git repository.
 
@@ -239,7 +239,7 @@ You can find the code of this page on GitHub
 
 The following procedure requires that you have added the adobe-public profile to your Maven settings file.
 
-* For information about the adobe-public profile, see [Obtaining the Content Package Maven Plugin](../../../sites/developing/using/vlt-mavenplugin.md#obtainingthecontentpackagemavenplugin)
+* For information about the adobe-public profile, see [Obtaining the Content Package Maven Plugin](../../../sites/developing/using/vlt-mavenplugin.md#obtaining-the-content-package-maven-plugin)
 * For information about the Maven settings file, see the Maven [Settings Reference](http://maven.apache.org/settings.html).
 
 1. Open a terminal or command-line session and change the directory to point to the location of where to create the project.
@@ -265,7 +265,7 @@ The following procedure requires that you have added the adobe-public profile to
     
     * `packageGroup`: `myPackages`
 
-1. Start Eclipse and [import the Maven project](../../../sites/developing/using/howto-projects-eclipse.md#importthemavenprojectintoeclipse).
+1. Start Eclipse and [import the Maven project](../../../sites/developing/using/howto-projects-eclipse.md#import-the-maven-project-into-eclipse).
 
 #### Add Dependencies to the POM File {#add-dependencies-to-the-pom-file}
 
@@ -529,7 +529,7 @@ The following `LiveActionFactory` class implements a `LiveAction` that logs mess
 
 Create the MSM rollout configuration that uses the `LiveActionFactory` that you created:
 
-1. Create and configuration a [Rollout Configuration with the standard procedure](../../../sites/administering/using/msm-sync.md#creatingarolloutconfiguration) - and using the properties:
+1. Create and configuration a [Rollout Configuration with the standard procedure](../../../sites/administering/using/msm-sync.md#creating-a-rollout-configuration) - and using the properties:
 
     1. Create:
 
@@ -569,7 +569,7 @@ Configure the rollout configuration that you created in the previous procedure s
 
 #### Create the Live Copy {#create-the-live-copy}
 
-[Create a live copy](../../../sites/administering/using/msm-livecopy.md#creatingalivecopyofapage) of the English/Products branch of the We.Retail Reference Site using your rollout configuration:
+[Create a live copy](../../../sites/administering/using/msm-livecopy.md#creating-a-live-copy-of-a-page) of the English/Products branch of the We.Retail Reference Site using your rollout configuration:
 
 * **Source**: `/content/we-retail/language-masters/en/products`
 

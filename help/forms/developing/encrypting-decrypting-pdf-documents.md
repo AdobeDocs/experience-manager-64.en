@@ -3,12 +3,12 @@ title: Encrypting and Decrypting PDF Documents
 seo-title: Encrypting and Decrypting PDF Documents
 description: null
 seo-description: null
-uuid: f0ef0aad-bb1b-4b99-9b29-9788796a0b84
+uuid: 58e8d055-3f7a-4000-afea-ecba8d455923
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: 5feb4f14-2a27-43f6-a1c0-1ac918701f54
+discoiquuid: 211013b1-33a5-4957-a53b-9f18a32754a2
 index: y
 internal: n
 snippet: y
@@ -22,12 +22,12 @@ The Encryption service lets you encrypt and decrypt documents. When a document i
 
 You can accomplish these tasks using the Encryption service:
 
-* Encrypt a PDF document with a password. (See [Encrypting PDF Documents with a Password](encrypting-decrypting-pdf-documents#encrypting_pdf_documents_with_a_password).) 
-* Encrypt a PDF document with a certificate. (See [Encrypting PDF Documents with Certificates](encrypting-decrypting-pdf-documents#encrypting_pdf_documents_with_certificates).)
-* Remove password-based encryption from a PDF document. (See [Removing Password Encryption](encrypting-decrypting-pdf-documents#removing_password_encryption).)
-* Remove certificate-based encryption from a PDF document. (See [Removing Certificate Based Encryption](encrypting-decrypting-pdf-documents#removing_certificate_based_encryption).)
-* Unlock the PDF document so that other service operations can be performed. For example, after a password-encrypted PDF document is unlocked, you can apply a digital signature to it. (See [Unlocking Encrypted PDF Documents](encrypting-decrypting-pdf-documents#unlocking_encrypted_pdf_documents).)
-* Determine the encryption type of a secured PDF document. (See [Determining Encryption Type](encrypting-decrypting-pdf-documents#determining_encryption_type).)
+* Encrypt a PDF document with a password. (See [Encrypting PDF Documents with a Password](encrypting-decrypting-pdf-documents.md#encrypting_pdf_documents_with_a_password).) 
+* Encrypt a PDF document with a certificate. (See [Encrypting PDF Documents with Certificates](encrypting-decrypting-pdf-documents.md#encrypting_pdf_documents_with_certificates).)
+* Remove password-based encryption from a PDF document. (See [Removing Password Encryption](encrypting-decrypting-pdf-documents.md#removing_password_encryption).)
+* Remove certificate-based encryption from a PDF document. (See [Removing Certificate Based Encryption](encrypting-decrypting-pdf-documents.md#removing_certificate_based_encryption).)
+* Unlock the PDF document so that other service operations can be performed. For example, after a password-encrypted PDF document is unlocked, you can apply a digital signature to it. (See [Unlocking Encrypted PDF Documents](encrypting-decrypting-pdf-documents.md#unlocking_encrypted_pdf_documents).)
+* Determine the encryption type of a secured PDF document. (See [Determining Encryption Type](encrypting-decrypting-pdf-documents.md#determining_encryption_type).)
 
   ***Note**: For more information about the Encryption service, see [Services Reference for AEM Forms](http://www.adobe.com/go/learn_aemforms_services_63).*
 
@@ -37,7 +37,7 @@ When you encrypt a PDF document with a password, a user must specify the passwor
 
 >[!NOTE]
 >
->If you upload an encrypted PDF document to the AEM Forms repository, it cannot decrypt the PDF document and extract the XDP content. It is recommended that you do not encrypt a document prior to uploading it to the AEM Forms repository. (See [Writing Resources](/programming-with-aem-forms/aem-forms-repository#writing_resources).)
+>If you upload an encrypted PDF document to the AEM Forms repository, it cannot decrypt the PDF document and extract the XDP content. It is recommended that you do not encrypt a document prior to uploading it to the AEM Forms repository. (See [Writing Resources](/programming-with-aem-forms/aem-forms-repository.md#writing_resources).)
 
 >[!NOTE]
 >
@@ -99,17 +99,17 @@ You can save the password-encrypted PDF document as a PDF file.
 
 **See also**
 
-[Encrypt a PDF document using the Java API](encrypting-decrypting-pdf-documents#encrypt_a_pdf_document_using_the_java_api)
+[Encrypt a PDF document using the Java API](encrypting-decrypting-pdf-documents.md#encrypt_a_pdf_document_using_the_java_api)
 
-[Encrypting a PDF document using the web service API](encrypting-decrypting-pdf-documents#encrypting_a_pdf_document_using_the_web_service_api)
+[Encrypting a PDF document using the web service API](encrypting-decrypting-pdf-documents.md#encrypting_a_pdf_document_using_the_web_service_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
 
-[Encryption Service API Quick Starts](/programming-with-aem-forms/encryption-service-java-api-quick#encryption_service_java_api_quick_start_soap)
+[Encryption Service API Quick Starts](/programming-with-aem-forms/encryption-service-java-api-quick.md#encryption_service_java_api_quick_start_soap)
 
-[Encrypting PDF Documents with Certificates](encrypting-decrypting-pdf-documents#encrypting_pdf_documents_with_certificates)
+[Encrypting PDF Documents with Certificates](encrypting-decrypting-pdf-documents.md#encrypting_pdf_documents_with_certificates)
 
 ### Encrypt a PDF document using the Java API {#encrypt-a-pdf-document-using-the-java-api}
 
@@ -155,13 +155,13 @@ Encrypt a PDF document with a password by using the Encryption API (Java):
 
 **See also**
 
-[Summary of steps](encrypting-decrypting-pdf-documents#summary_of_steps)
+[Summary of steps](encrypting-decrypting-pdf-documents.md#summary_of_steps)
 
-[Quick Start (SOAP mode): Encrypting a PDF document using the Java API](/programming-with-aem-forms/encryption-service-java-api-quick#quick_start_soap_mode_encrypting_a_pdf_document_using_the_java_api)
+[Quick Start (SOAP mode): Encrypting a PDF document using the Java API](/programming-with-aem-forms/encryption-service-java-api-quick.md#quick_start_soap_mode_encrypting_a_pdf_document_using_the_java_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
 
 ### Encrypting a PDF document using the web service API {#encrypting-a-pdf-document-using-the-web-service-api}
 
@@ -222,15 +222,15 @@ Encrypt a PDF document with a password by using the Encryption API (web service)
 
 **See also**
 
-[Summary of steps](encrypting-decrypting-pdf-documents#summary_of_steps)
+[Summary of steps](encrypting-decrypting-pdf-documents.md#summary_of_steps)
 
 [Quick Start (MTOM): Encrypting a PDF document using the web service API](#unresolvedlink-lc-qs-encryption-en.xml#ws624e3cba99b79e12e69a9941333732bac8-7e9c.2)
 
 [Quick Start (Java SwaRef): Encrypting a PDF document using the web service API](#unresolvedlink-lc-qs-encryption-en.xml#ws624e3cba99b79e12e69a9941333732bac8-7e9b.2)
 
-[Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_mtom)
+[Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
 
-[Invoking AEM Forms using SwaRef](/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_swaref)
+[Invoking AEM Forms using SwaRef](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_swaref)
 
 ## Encrypting PDF Documents with Certificates {#encrypting-pdf-documents-with-certificates}
 
@@ -245,11 +245,11 @@ A public key certificate contains a user’s public key and identifying informat
 
 >[!NOTE]
 >
->If you upload an encrypted PDF document to the AEM Forms repository, it cannot decrypt the PDF document and extract the XDP content. It is recommended that you do not encrypt a document prior to uploading it to the AEM Forms repository. (See [Writing Resources](/programming-with-aem-forms/aem-forms-repository#writing_resources).)
+>If you upload an encrypted PDF document to the AEM Forms repository, it cannot decrypt the PDF document and extract the XDP content. It is recommended that you do not encrypt a document prior to uploading it to the AEM Forms repository. (See [Writing Resources](/programming-with-aem-forms/aem-forms-repository.md#writing_resources).)
 
 >[!NOTE]
 >
->Before you can encrypt a PDF document with a certificate, you must ensure that you add the certificate to AEM Forms. A certificate is added using administration console or programmatically using the Trust Manager API. (See [Importing Credentials by using the Trust Manager API](/programming-with-aem-forms/credentials#importing_credentials_by_using_the_trust_manager_api).)
+>Before you can encrypt a PDF document with a certificate, you must ensure that you add the certificate to AEM Forms. A certificate is added using administration console or programmatically using the Trust Manager API. (See [Importing Credentials by using the Trust Manager API](/programming-with-aem-forms/credentials.md#importing_credentials_by_using_the_trust_manager_api).)
 
 >[!NOTE]
 >
@@ -307,17 +307,17 @@ You can save the encrypted PDF document as a PDF file.
 
 **See also**
 
-[Encrypt a PDF document with a certificate using the Java API](encrypting-decrypting-pdf-documents#encrypt_a_pdf_document_with_a_certificate_using_the_java_api)
+[Encrypt a PDF document with a certificate using the Java API](encrypting-decrypting-pdf-documents.md#encrypt_a_pdf_document_with_a_certificate_using_the_java_api)
 
-[Encrypt a PDF document with a certificate using the web service API](encrypting-decrypting-pdf-documents#encrypt_a_pdf_document_with_a_certificate_using_the_web_service_api)
+[Encrypt a PDF document with a certificate using the web service API](encrypting-decrypting-pdf-documents.md#encrypt_a_pdf_document_with_a_certificate_using_the_web_service_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
 
-[Encryption Service API Quick Starts](/programming-with-aem-forms/encryption-service-java-api-quick#encryption_service_java_api_quick_start_soap)
+[Encryption Service API Quick Starts](/programming-with-aem-forms/encryption-service-java-api-quick.md#encryption_service_java_api_quick_start_soap)
 
-[Encrypting PDF Documents with a Password](encrypting-decrypting-pdf-documents#encrypting_pdf_documents_with_a_password)
+[Encrypting PDF Documents with a Password](encrypting-decrypting-pdf-documents.md#encrypting_pdf_documents_with_a_password)
 
 ### Encrypt a PDF document with a certificate using the Java API {#encrypt-a-pdf-document-with-a-certificate-using-the-java-api}
 
@@ -374,13 +374,13 @@ Encrypt a PDF document with a certificate by using the Encryption API (Java):
 
 **See also**
 
-[Summary of steps](encrypting-decrypting-pdf-documents#summary_of_steps)
+[Summary of steps](encrypting-decrypting-pdf-documents.md#summary_of_steps)
 
-[Quick Start (SOAP mode): Encrypting a PDF document with a certificate using the Java API](/programming-with-aem-forms/encryption-service-java-api-quick#quick_start_soap_mode_encrypting_a_pdf_document_with_a_certificate_using_the_java_api)
+[Quick Start (SOAP mode): Encrypting a PDF document with a certificate using the Java API](/programming-with-aem-forms/encryption-service-java-api-quick.md#quick_start_soap_mode_encrypting_a_pdf_document_with_a_certificate_using_the_java_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
 
 ### Encrypt a PDF document with a certificate using the web service API {#encrypt-a-pdf-document-with-a-certificate-using-the-web-service-api}
 
@@ -453,15 +453,15 @@ Encrypt a PDF document with a certificate by using the Encryption API (web servi
 
 **See also**
 
-[Summary of steps](encrypting-decrypting-pdf-documents#summary_of_steps)
+[Summary of steps](encrypting-decrypting-pdf-documents.md#summary_of_steps)
 
 [Quick Start (MTOM): Encrypting a PDF document with a certificate using the web service API](#unresolvedlink-lc-qs-encryption-en.xml#ws624e3cba99b79e12e69a9941333732bac8-7e92.2)
 
 [Quick Start (Java SwaRef): Encrypting a PDF document with a certificate using the web service API](#unresolvedlink-lc-qs-encryption-en.xml#ws624e3cba99b79e12e69a9941333732bac8-7e91.2)
 
-[Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_mtom)
+[Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
 
-[Invoking AEM Forms using SwaRef](/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_swaref)
+[Invoking AEM Forms using SwaRef](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_swaref)
 
 ## Removing Certificate Based Encryption {#removing-certificate-based-encryption}
 
@@ -503,7 +503,7 @@ You must obtain an encrypted PDF document to remove certificate-based encryption
 
 **Remove encryption**
 
-To remove certificate-based encryption from an encrypted PDF document, you require both an encrypted PDF document and the private key that corresponds to the key that was used to encrypt the PDF document. The alias value of the private key is specified when removing certificate-based encryption from an encrypted PDF document. For information about the public key, see [Encrypting PDF Documents with Certificates](encrypting-decrypting-pdf-documents#encrypting_pdf_documents_with_certificates).
+To remove certificate-based encryption from an encrypted PDF document, you require both an encrypted PDF document and the private key that corresponds to the key that was used to encrypt the PDF document. The alias value of the private key is specified when removing certificate-based encryption from an encrypted PDF document. For information about the public key, see [Encrypting PDF Documents with Certificates](encrypting-decrypting-pdf-documents.md#encrypting_pdf_documents_with_certificates).
 
 >[!NOTE]
 >
@@ -515,15 +515,15 @@ After certificate-based encryption is removed from an encrypted PDF document, yo
 
 **See also**
 
-[Remove certificate-based encryption using the Java API](encrypting-decrypting-pdf-documents#remove_certificate_based_encryption_using_the_java_api)
+[Remove certificate-based encryption using the Java API](encrypting-decrypting-pdf-documents.md#remove_certificate_based_encryption_using_the_java_api)
 
-[Remove certificate-based encryption using the web service API](encrypting-decrypting-pdf-documents#remove_certificate_based_encryption_using_the_web_service_api)
+[Remove certificate-based encryption using the web service API](encrypting-decrypting-pdf-documents.md#remove_certificate_based_encryption_using_the_web_service_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
 
-[Encryption Service API Quick Starts](/programming-with-aem-forms/encryption-service-java-api-quick#encryption_service_java_api_quick_start_soap)
+[Encryption Service API Quick Starts](/programming-with-aem-forms/encryption-service-java-api-quick.md#encryption_service_java_api_quick_start_soap)
 
 ### Remove certificate-based encryption using the Java API {#remove-certificate-based-encryption-using-the-java-api}
 
@@ -559,13 +559,13 @@ Remove certificate-based encryption from a PDF document by using the Encryption 
 
 **See also**
 
-[Summary of steps](encrypting-decrypting-pdf-documents#summary_of_steps)
+[Summary of steps](encrypting-decrypting-pdf-documents.md#summary_of_steps)
 
-[Quick Start (SOAP mode): Removing certificate-based encryption using the Java API](/programming-with-aem-forms/encryption-service-java-api-quick#quick_start_soap_mode_removing_certificate_based_encryption_using_the_java_api)
+[Quick Start (SOAP mode): Removing certificate-based encryption using the Java API](/programming-with-aem-forms/encryption-service-java-api-quick.md#quick_start_soap_mode_removing_certificate_based_encryption_using_the_java_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
 
 ### Remove certificate-based encryption using the web service API {#remove-certificate-based-encryption-using-the-web-service-api}
 
@@ -618,15 +618,15 @@ Remove certificate-based encryption by using the Encryption API (web service):
 
 **See also**
 
-[Summary of steps](encrypting-decrypting-pdf-documents#summary_of_steps)
+[Summary of steps](encrypting-decrypting-pdf-documents.md#summary_of_steps)
 
 [Quick Start (MTOM): Removing certificate-based encryption using the web service API](#unresolvedlink-lc-qs-encryption-en.xml#ws624e3cba99b79e12e69a9941333732bac8-7e8d.2)
 
 [Quick Start (Java SWAref): Removing certificate-based encryption using the web service API](#unresolvedlink-lc-qs-encryption-en.xml#ws624e3cba99b79e12e69a9941333732bac8-7e8c.2)
 
-[Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_mtom)
+[Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
 
-[Invoking AEM Forms using SwaRef](/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_swaref)
+[Invoking AEM Forms using SwaRef](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_swaref)
 
 ## Removing Password Encryption {#removing-password-encryption}
 
@@ -668,7 +668,7 @@ You must obtain an encrypted PDF document to remove password-based encryption. I
 
 **Remove the password**
 
-To remove password-based encryption from an encrypted PDF document, you require both an encrypted PDF document and a master password value that is used to remove encryption from the PDF document. The password that is used to open a password-encrypted PDF document cannot be used to remove encryption. A master password is specified when the PDF document is encrypted with a password. (See [Encrypting PDF Documents with a Password](encrypting-decrypting-pdf-documents#encrypting_pdf_documents_with_a_password).)
+To remove password-based encryption from an encrypted PDF document, you require both an encrypted PDF document and a master password value that is used to remove encryption from the PDF document. The password that is used to open a password-encrypted PDF document cannot be used to remove encryption. A master password is specified when the PDF document is encrypted with a password. (See [Encrypting PDF Documents with a Password](encrypting-decrypting-pdf-documents.md#encrypting_pdf_documents_with_a_password).)
 
 **Save the PDF document **
 
@@ -676,13 +676,13 @@ After the Encryption service removes password-based encryption from a PDF docume
 
 **See also**
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
 
-[Encryption Service API Quick Starts](/programming-with-aem-forms/encryption-service-java-api-quick#encryption_service_java_api_quick_start_soap)
+[Encryption Service API Quick Starts](/programming-with-aem-forms/encryption-service-java-api-quick.md#encryption_service_java_api_quick_start_soap)
 
-[Encrypting PDF Documents with a Password](encrypting-decrypting-pdf-documents#encrypting_pdf_documents_with_a_password)
+[Encrypting PDF Documents with a Password](encrypting-decrypting-pdf-documents.md#encrypting_pdf_documents_with_a_password)
 
 ### Remove password-based encryption using the Java API {#remove-password-based-encryption-using-the-java-api}
 
@@ -718,7 +718,7 @@ Remove password-based encryption from a PDF document by using the Encryption API
 
 **See also**
 
-[Quick Start (SOAP mode): Removing password-based encryption using the Java API](/programming-with-aem-forms/encryption-service-java-api-quick#quick_start_soap_mode_removing_password_based_encryption_using_the_java_api)
+[Quick Start (SOAP mode): Removing password-based encryption using the Java API](/programming-with-aem-forms/encryption-service-java-api-quick.md#quick_start_soap_mode_removing_password_based_encryption_using_the_java_api)
 
 ### Remove password-based encryption using the web service API {#remove-password-based-encryption-using-the-web-service-api}
 
@@ -775,9 +775,9 @@ Remove password-based encryption by using the Encryption API (web service):
 
 [Quick Start (Java SWAref): Removing password-based encryption using web service API](#unresolvedlink-lc-qs-encryption-en.xml#ws624e3cba99b79e12e69a9941333732bac8-7e96.2)
 
-[Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_mtom)
+[Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
 
-[Invoking AEM Forms using SwaRef](/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_swaref)
+[Invoking AEM Forms using SwaRef](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_swaref)
 
 ## Unlocking Encrypted PDF Documents {#unlocking-encrypted-pdf-documents}
 
@@ -819,7 +819,7 @@ You must obtain an encrypted PDF document in order to unlock it. If you attempt 
 
 **Unlock the document**
 
-To unlock a password-encrypted PDF document, you require both an encrypted PDF document and a password value that is used to open a password-encrypted PDF document. This value is specified when encrypting the PDF document with a password. (See [Encrypting PDF Documents with a Password](encrypting-decrypting-pdf-documents#encrypting_pdf_documents_with_a_password).)
+To unlock a password-encrypted PDF document, you require both an encrypted PDF document and a password value that is used to open a password-encrypted PDF document. This value is specified when encrypting the PDF document with a password. (See [Encrypting PDF Documents with a Password](encrypting-decrypting-pdf-documents.md#encrypting_pdf_documents_with_a_password).)
 
 To unlock a certificate-encrypted PDF document, you require both an encrypted PDF document and the alias value of the public key that corresponds to the private key that was used to encrypt the PDF document.
 
@@ -829,15 +829,15 @@ After an encrypted PDF document is unlocked, you can perform another service ope
 
 **See also**
 
-[Unlock an encrypted PDF document using the Java API](encrypting-decrypting-pdf-documents#unlock_an_encrypted_pdf_document_using_the_java_api)
+[Unlock an encrypted PDF document using the Java API](encrypting-decrypting-pdf-documents.md#unlock_an_encrypted_pdf_document_using_the_java_api)
 
-[Unlock an encrypted PDF document using the web service API](encrypting-decrypting-pdf-documents#unlock_an_encrypted_pdf_document_using_the_web_service_api)
+[Unlock an encrypted PDF document using the web service API](encrypting-decrypting-pdf-documents.md#unlock_an_encrypted_pdf_document_using_the_web_service_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
 
-[Encryption Service API Quick Starts](/programming-with-aem-forms/encryption-service-java-api-quick#encryption_service_java_api_quick_start_soap)
+[Encryption Service API Quick Starts](/programming-with-aem-forms/encryption-service-java-api-quick.md#encryption_service_java_api_quick_start_soap)
 
 ### Unlock an encrypted PDF document using the Java API {#unlock-an-encrypted-pdf-document-using-the-java-api}
 
@@ -879,15 +879,15 @@ Unlock an encrypted PDF document by using the Encryption API (Java):
 
 **See also**
 
-[Summary of steps](encrypting-decrypting-pdf-documents#summary_of_steps)
+[Summary of steps](encrypting-decrypting-pdf-documents.md#summary_of_steps)
 
-[Quick Start (SOAP mode): Unlocking an encrypted PDF document using the Java API](/programming-with-aem-forms/encryption-service-java-api-quick#quick_start_soap_mode_unlocking_an_encrypted_pdf_document_using_the_java_api) (SOAP mode)
+[Quick Start (SOAP mode): Unlocking an encrypted PDF document using the Java API](/programming-with-aem-forms/encryption-service-java-api-quick.md#quick_start_soap_mode_unlocking_an_encrypted_pdf_document_using_the_java_api) (SOAP mode)
 
-[Applying Usage Rights to PDF Documents](/programming-with-aem-forms/assigning-usage-rights#applying_usage_rights_to_pdf_documents)
+[Applying Usage Rights to PDF Documents](/programming-with-aem-forms/assigning-usage-rights.md#applying_usage_rights_to_pdf_documents)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
 
 ### Unlock an encrypted PDF document using the web service API {#unlock-an-encrypted-pdf-document-using-the-web-service-api}
 
@@ -944,15 +944,15 @@ Unlock an encrypted PDF document by using the Encryption API (web service):
 
 **See also**
 
-[Summary of steps](encrypting-decrypting-pdf-documents#summary_of_steps)
+[Summary of steps](encrypting-decrypting-pdf-documents.md#summary_of_steps)
 
 [Quick Start (MTOM): Unlocking an encrypted PDF document using the web service API](#unresolvedlink-lc-qs-encryption-en.xml#ws624e3cba99b79e12e69a9941333732bac8-7e88.2)
 
 [Quick Start (Java SwaRef): Unlocking an encrypted PDF document using the web service API](#unresolvedlink-lc-qs-encryption-en.xml#ws624e3cba99b79e12e69a9941333732bac8-7e87.2)
 
-[Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_mtom)
+[Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
 
-[Invoking AEM Forms using SwaRef](/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_swaref)
+[Invoking AEM Forms using SwaRef](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_swaref)
 
 ## Determining Encryption Type {#determining-encryption-type}
 
@@ -1004,17 +1004,17 @@ You can determine the type of encryption that is protecting a PDF document. If t
 
 **See also**
 
-[Determine the encryption type using the Java API](encrypting-decrypting-pdf-documents#determine_the_encryption_type_using_the_java_api)
+[Determine the encryption type using the Java API](encrypting-decrypting-pdf-documents.md#determine_the_encryption_type_using_the_java_api)
 
-[Determine the encryption type using the web service API](encrypting-decrypting-pdf-documents#determine_the_encryption_type_using_the_web_service_api)
+[Determine the encryption type using the web service API](encrypting-decrypting-pdf-documents.md#determine_the_encryption_type_using_the_web_service_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
 
-[Encryption Service API Quick Starts](/programming-with-aem-forms/encryption-service-java-api-quick#encryption_service_java_api_quick_start_soap)
+[Encryption Service API Quick Starts](/programming-with-aem-forms/encryption-service-java-api-quick.md#encryption_service_java_api_quick_start_soap)
 
-[Protecting Documents with Policies](/programming-with-aem-forms/protecting-documents-policies#protecting_documents_with_policies)
+[Protecting Documents with Policies](/programming-with-aem-forms/protecting-documents-policies.md#protecting_documents_with_policies)
 
 ### Determine the encryption type using the Java API {#determine-the-encryption-type-using-the-java-api}
 
@@ -1041,13 +1041,13 @@ Determine the type of encryption that is protecting a PDF document by using the 
 
 **See also**
 
-[Summary of steps](encrypting-decrypting-pdf-documents#summary_of_steps)
+[Summary of steps](encrypting-decrypting-pdf-documents.md#summary_of_steps)
 
-[Quick Start (SOAP mode): Determining encryption type using the Java API](/programming-with-aem-forms/encryption-service-java-api-quick#quick_start_soap_mode_determining_encryption_type_using_the_java_api)
+[Quick Start (SOAP mode): Determining encryption type using the Java API](/programming-with-aem-forms/encryption-service-java-api-quick.md#quick_start_soap_mode_determining_encryption_type_using_the_java_api)
 
-[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java#including_aem_forms_java_library_files)
+[Including AEM Forms Java library files](/programming-with-aem-forms/invoking-aem-forms-using-java.md#including_aem_forms_java_library_files)
 
-[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties)
+[Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties)
 
 ### Determine the encryption type using the web service API {#determine-the-encryption-type-using-the-web-service-api}
 
@@ -1089,13 +1089,13 @@ Determine the type of encryption that is protecting a PDF document by using the 
 
 **See also**
 
-[Summary of steps](encrypting-decrypting-pdf-documents#summary_of_steps)
+[Summary of steps](encrypting-decrypting-pdf-documents.md#summary_of_steps)
 
 [Quick Start (MTOM): Determining encryption type using the web service API](#unresolvedlink-lc-qs-encryption-en.xml#ws624e3cba99b79e12e69a9941333732bac8-7e83.2)
 
 [Quick Start (Java SWAref): Determining encryption type using the web service API](#unresolvedlink-lc-qs-encryption-en.xml#ws624e3cba99b79e12e69a9941333732bac8-7e82.2)
 
-[Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_mtom)
+[Invoking AEM Forms using MTOM](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_mtom)
 
-[Invoking AEM Forms using SwaRef](/programming-with-aem-forms/invoking-aem-forms-using-web#invoking_aem_forms_using_swaref)
+[Invoking AEM Forms using SwaRef](/programming-with-aem-forms/invoking-aem-forms-using-web.md#invoking_aem_forms_using_swaref)
 

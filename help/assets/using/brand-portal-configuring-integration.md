@@ -3,11 +3,11 @@ title: Configure AEM Assets integration with Brand Portal
 seo-title: Configure AEM Assets integration with Brand Portal
 description: Learn how to integrate AEM Assets with Brand Portal for publishing assets and collections to Brand Portal. 
 seo-description: Learn how to integrate AEM Assets with Brand Portal for publishing assets and collections to Brand Portal. 
-uuid: c08e8fa8-7a43-4880-a978-48a601844c1e
+uuid: 3e9feacc-4df0-4109-a9bc-98553ad05aee
 topic-tags: brand-portal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-discoiquuid: 8da49123-a2e5-4e27-8f29-ba47bde994ac
+discoiquuid: 6c24682e-19c3-4a9b-9231-cc9d07ec8623
 index: y
 internal: n
 snippet: y

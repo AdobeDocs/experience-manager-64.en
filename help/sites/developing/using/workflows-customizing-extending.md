@@ -3,12 +3,12 @@ title: Extending Workflow Functionality
 seo-title: Extending Workflow Functionality
 description: null
 seo-description: null
-uuid: bcfef8f3-a579-4b76-9590-89de555c5924
+uuid: 9292c7e9-e303-4135-bbad-0e2ffbc1ede2
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
-discoiquuid: 9c40210b-f6c8-4db4-96cb-c89db7e5ec0c
+discoiquuid: 75fe0c53-eab3-4e76-8dc0-9d4edc4fb89a
 index: y
 internal: n
 snippet: y
@@ -61,7 +61,7 @@ The `/libs/cq/workflow/components/model/step` component is the nearest common an
 
   ![](assets/wf-22-1.png)
 
-* [cq:dialog](../../../sites/developing/using/developing-components.md#creatingandconfiguringadialog)
+* [cq:dialog](../../../sites/developing/using/developing-components.md#creating-and-configuring-a-dialog)
 
   A dialog with the following tabs:
 
@@ -78,9 +78,9 @@ The `/libs/cq/workflow/components/model/step` component is the nearest common an
 
 The following objects are available (dependent on step type) within ECMA scripts:
 
-* [WorkItem](/sites/developing/using/reference-materials/javadoc/com/day/cq/workflow/exec/WorkItem) workItem
-* [WorkflowSession](/sites/developing/using/reference-materials/javadoc/com/day/cq/workflow/WorkflowSession) workflowSession
-* [WorkflowData](/sites/developing/using/reference-materials/javadoc/com/day/cq/workflow/exec/WorkflowData) workflowData
+* [WorkItem](/sites/developing/using/reference-materials/javadoc/com/day/cq/workflow/exec/WorkItem.md) workItem
+* [WorkflowSession](/sites/developing/using/reference-materials/javadoc/com/day/cq/workflow/WorkflowSession.md) workflowSession
+* [WorkflowData](/sites/developing/using/reference-materials/javadoc/com/day/cq/workflow/exec/WorkflowData.md) workflowData
 * `args`: array with the process arguments.  
 
 * `sling`: to access other osgi services.
@@ -151,7 +151,7 @@ Use the following procedure to specify default values for the **Title** and **De
 
 >[!NOTE]
 >
->See [Persisting and Accessing Data](#persistingandaccessingdata). In particular, for information about accessing the property value at runtime, see [Accessing Dialog Property Values at Runtime](#accessingdialogpropertyvaluesatruntime).
+>See [Persisting and Accessing Data](#persisting-and-accessing-data). In particular, for information about accessing the property value at runtime, see [Accessing Dialog Property Values at Runtime](#accessing-dialog-property-values-at-runtime).
 
 The name property of `cq:Widget` items specifies the JCR node that stores the widget's value. When widgets in the dialog of workflow step compnents store values below the `./metaData` node, the value is added to the workflow `MetaDataMap`.
 
@@ -212,7 +212,7 @@ Customize your participant step component to provide features that are found in 
 * Present a form to the user when they open the generated work item. 
 * Present a custom dialog to the user when they complete the generated work item.
 
-Peform the following procedure on your new component (see [Creating Custom Workflow Step Components](#creatingcustomworkflowstepcomponents)):
+Peform the following procedure on your new component (see [Creating Custom Workflow Step Components](#creating-custom-workflow-step-components)):
 
 1. Below the `cq:Component` node, add the following node:
 
@@ -261,7 +261,7 @@ Below the `cq:Component` node, add a `cq:EditConfig` node. Below that add an `nt
 
 You can use workflow metadata to persist information that is required during the lifetime of the workflow - and between steps. A common requirement of workflow steps is to persist data for future use, or to retrieve the persisted data from prior steps.
 
-Workflow metadata is stored in a ` [MetaDataMap](#metadatamaps)` object. The Java API provides the ` [Workflow.getWorkflowData](/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/exec/Workflow)` method to return a ` [WorkflowData](/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/exec/WorkflowData)` object that provides the appropriate `MetaDataMap` object. This `WorkflowData` `MetaDataMap` object is available to the OSGi service or ECMA script of a step component.
+Workflow metadata is stored in a ` [MetaDataMap](#metadatamaps)` object. The Java API provides the ` [Workflow.getWorkflowData](/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/exec/Workflow.md)` method to return a ` [WorkflowData](/sites/developing/using/reference-materials/javadoc/com/adobe/granite/workflow/exec/WorkflowData.md)` object that provides the appropriate `MetaDataMap` object. This `WorkflowData` `MetaDataMap` object is available to the OSGi service or ECMA script of a step component.
 
 #### Java {#java}
 
@@ -311,7 +311,7 @@ The `MetaDataMap` object of workflow instances is useful for storing and retriev
 
 >[!NOTE]
 >
->For information about configuring the component dialog to store properties as workflow metadata, see [Saving Property Values in Workflow Metadata](#savingpropertyvaluesinworkflowmetadata).
+>For information about configuring the component dialog to store properties as workflow metadata, see [Saving Property Values in Workflow Metadata](#saving-property-values-in-workflow-metadata).
 
 The workflow `MetaDataMap` is available to Java and ECMA script process implementations:
 
@@ -366,7 +366,7 @@ log.info("currentDateInMillisKey "+ graniteWorkItem.getWorkflowData().getMetaDat
 
 >[!NOTE]
 >
->For another example of storing component properties in workflow metadata, see [Example: Create a Logger Workflow Step](#examplecreatealoggerworkflowstep). This example features a dailog that associates metadata value with a key other than `PROCESS_ARGS`.
+>For another example of storing component properties in workflow metadata, see [Example: Create a Logger Workflow Step](#example-create-a-logger-workflow-step). This example features a dailog that associates metadata value with a key other than `PROCESS_ARGS`.
 
 ### Scripts and Process Arguments {#scripts-and-process-arguments}
 
@@ -380,7 +380,7 @@ When process steps are started during the process of a workflow, the steps send 
 
 >[!NOTE]
 >
->For information about associating your Process Step component with the service or script, see [Process Step](../../../sites/developing/using/workflows-step-ref.md#main-pars-title-0) or [Overriding the Step Implementation](#overridingthestepimplementation).
+>For information about associating your Process Step component with the service or script, see [Process Step](../../../sites/developing/using/workflows-step-ref.md#main-pars-title-0) or [Overriding the Step Implementation](#overriding-the-step-implementation).
 
 ### Implementing a Process Step with a Java Class {#implementing-a-process-step-with-a-java-class}
 
@@ -557,7 +557,7 @@ You can develop a service or ECMA script that selects the participant according 
 
 >[!NOTE]
 >
->For information about associating your **Dynamic Participant Step** component with the service or script, see [Dynamic Participant Step](../../../sites/developing/using/workflows-step-ref.md#dynamicparticipantstep) or [Overriding the Step Implementation](#persisting-and-accessing-data).
+>For information about associating your **Dynamic Participant Step** component with the service or script, see [Dynamic Participant Step](../../../sites/developing/using/workflows-step-ref.md#dynamic-participant-step) or [Overriding the Step Implementation](#persisting-and-accessing-data).
 
 ### Developing a Participant Chooser Using a Java class {#developing-a-participant-chooser-using-a-java-class}
 
@@ -663,14 +663,14 @@ function getParticipant() {
 
 ## Handling Workflow Packages {#handling-workflow-packages}
 
-[Workflow packages](../../../sites/authoring/using/workflows-applying.md#specifyingworkflowdetailsinthecreateworkflowwizard) can be passed to a workflow for processing. Workflow packages contain references to resources such as pages and assets.
+[Workflow packages](../../../sites/authoring/using/workflows-applying.md#specifying-workflow-details-in-the-create-workflow-wizard) can be passed to a workflow for processing. Workflow packages contain references to resources such as pages and assets.
 
 >[!NOTE]
 >
 >The following workflow process steps accept workflow packages for bulk page activation:
 >
->* ` [com.day.cq.wcm.workflow.process.ActivatePageProcess](/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/workflow/process/ActivatePageProcess)` 
->* ` [com.day.cq.wcm.workflow.process.DeactivatePageProcess](/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/workflow/process/DeactivatePageProcess)` 
+>* ` [com.day.cq.wcm.workflow.process.ActivatePageProcess](/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/workflow/process/ActivatePageProcess.md)` 
+>* ` [com.day.cq.wcm.workflow.process.DeactivatePageProcess](/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/workflow/process/DeactivatePageProcess.md)` 
 >
 
 You can develop workflow steps that obtain the package resources and process them. The following members of the `com.day.cq.workflow.collection` package provide access to workflow packages:

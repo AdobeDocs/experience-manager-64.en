@@ -3,12 +3,12 @@ title: Preventing CSRF attacks
 seo-title: Preventing CSRF attacks
 description: Learn how to prevent Cross-site request forgery (CSRF) attacks and safeguard user data from being compromised.
 seo-description: Learn how to prevent Cross-site request forgery (CSRF) attacks and safeguard user data from being compromised.
-uuid: 58d57bfe-02f7-4590-8f74-d815610bd626
+uuid: 7498f8c9-1203-44b9-81e7-5636d9bacad8
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_user_management
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 5636c7d5-c4da-45f3-bce8-d7d7f82554fa
+discoiquuid: 6afe85da-5ab1-47aa-b5c4-ccf9da7e66d1
 index: y
 internal: n
 snippet: y
@@ -34,7 +34,7 @@ For example, consider a scenario where you are logged in to administration conso
 * any desktop client making an HTTP request on a AEM forms SOAP or REST endpoint
 * when a new browser window is opened and the URL for any AEM forms web application login page is entered
 
-Allow a null referer on SOAP and REST endpoints. Also allow a null referer on all URI login pages such as /adminui and /contentspace and their corresponding mapped resources. For example, the mapped servlet for /contentspace is /contentspace/faces/jsp/login.jsp, which should be a null referer exception. This exception is required only if you enable GET filtering for your web application. Your applications can specify whether to allow null referers. (See “Protecting from Cross-Site Request Forgery attacks” in Hardening and Security for AEM forms on [Help and Tutorials](/forms/using/topics) page.)
+Allow a null referer on SOAP and REST endpoints. Also allow a null referer on all URI login pages such as /adminui and /contentspace and their corresponding mapped resources. For example, the mapped servlet for /contentspace is /contentspace/faces/jsp/login.jsp, which should be a null referer exception. This exception is required only if you enable GET filtering for your web application. Your applications can specify whether to allow null referers. (See “Protecting from Cross-Site Request Forgery attacks” in Hardening and Security for AEM forms on [Help and Tutorials](/forms/using/topics.md) page.)
 
 **Allowed Referer Exception:** Allowed Referer Exception is a sublist of the list of allowed referers, from which requests are blocked. Allowed Refer Exceptions are particular to a web application. If a subset of the Allowed Referers should not be allowed to invoke a particular web application, you can blacklist the referers via Allowed Referer Exceptions. Allowed Referer Exceptions are specified in the web.xml file for your application. (See “Protecting from Cross-Site Request Forgery attacks” in Hardening and Security for AEM forms on Help and Tutorials page.)
 

@@ -3,12 +3,12 @@ title: Basic Configuration Concepts
 seo-title: Basic Configuration Concepts
 description: Learn how to configure AEM.
 seo-description: Learn how to configure AEM.
-uuid: df015c81-b85e-4d51-94c6-ef36eedae1c5
+uuid: 0b47ebd1-d6b4-4063-9a81-b526781ce553
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: configuring
 content-type: reference
-discoiquuid: 9edb8c6e-6932-4c67-921d-84999b66cb51
+discoiquuid: e918a281-e69e-4abb-89de-9dc168a0e1c0
 index: y
 internal: n
 snippet: y
@@ -20,8 +20,8 @@ Adobe Experience Manager (AEM) is installed with default settings for all parame
 
 There are many aspects of AEM that can be configured:
 
-* Some are [commonly configured for every project installation](#primaryconfigurationconsiderations) and must be reviewed to confirm whether or not they are applicable to your project.
-* [Further configurations](#furtherconfigurationconsiderations) may be common though not imperative; related to features, or system performance and stability.
+* Some are [commonly configured for every project installation](#primary-configuration-considerations) and must be reviewed to confirm whether or not they are applicable to your project.
+* [Further configurations](#further-configuration-considerations) may be common though not imperative; related to features, or system performance and stability.
 * Others are only required for certain optional features of AEM (these are documented together with the appropriate feature).
 
 Depending on the specific configuration these changes can be made by using either the:
@@ -32,7 +32,7 @@ Depending on the specific configuration these changes can be made by using eithe
 
 * **Repository** 
   A sub-set of OSGi configurations are available in the repository. This ensures that copying, or replicating, repository contents recreates identical configurations. You can also add your own configurations, dependent on run-mode, to the repository.  
-  See [OSGi Configuration in the Repository](../../../sites/deploying/using/configuring-osgi.md#osgiconfigurationintherepository) and in particular [Adding a New Configuration to the Repository](../../../sites/deploying/using/configuring-osgi.md#addinganewconfigurationtotherepository) for further details.
+  See [OSGi Configuration in the Repository](../../../sites/deploying/using/configuring-osgi.md#osgi-configuration-in-the-repository) and in particular [Adding a New Configuration to the Repository](../../../sites/deploying/using/configuring-osgi.md#adding-a-new-configuration-to-the-repository) for further details.
 
 * **File system** 
   A few configuration files reside within the file system.
@@ -101,7 +101,7 @@ In a standard installation AEM creates a new version of a page or node whenever 
 
 These versions are never purged, so the repository size will grow over time and therefore need to be managed.
 
-See [Version Purging](../../../sites/deploying/using/version-purging.md) for full details, in particular [Version Manager](../../../sites/deploying/using/version-purging.md#versionmanager) for details of how to configure AEM to purge older versions when a new version is created.
+See [Version Purging](../../../sites/deploying/using/version-purging.md) for full details, in particular [Version Manager](../../../sites/deploying/using/version-purging.md#version-manager) for details of how to configure AEM to purge older versions when a new version is created.
 
 ### Logging {#logging}
 
@@ -194,7 +194,7 @@ It is possible to configure the links that are visible, see [Configuring the Wel
 
 [Performance](../../../sites/deploying/using/configuring-performance.md) is key to your project. Certain aspects of AEM (and/or the underlying repository) can be configured to optimize performance.
 
-See [Configuring for Performance](../../../sites/deploying/using/configuring-performance.md#configuringforperformance) for further details.
+See [Configuring for Performance](../../../sites/deploying/using/configuring-performance.md#configuring-for-performance) for further details.
 
 ### Scaling {#scaling}
 
@@ -269,7 +269,7 @@ For proper transcoding to occur, your adminstrator must [Install FFmpeg](../../.
 
 To help you monitor and analyze the state of your instance, CQ provides a selection of default reports, which can be configured for your individual requirements:
 
-See the [Basics of Report Customization](../../../sites/administering/using/reporting.md#thebasicsofreportcustomization) for further details.
+See the [Basics of Report Customization](../../../sites/administering/using/reporting.md#the-basics-of-report-customization) for further details.
 
 ### Configuring Email Notification {#configuring-email-notification}
 

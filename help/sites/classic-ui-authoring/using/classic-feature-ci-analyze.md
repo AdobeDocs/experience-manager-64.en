@@ -3,12 +3,12 @@ title: Analyzing Page Performance
 seo-title: Analyzing Page Performance
 description: Content Insight and the ability to use it to analyze page performance is only available from the touch-optimized UI.
 seo-description: Content Insight and the ability to use it to analyze page performance is only available from the touch-optimized UI.
-uuid: 2eb39670-f911-4c72-bc30-32a26e599f27
+uuid: c8682065-92be-4efe-b0ec-3d37d1c59455
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
-discoiquuid: 6a3bb00d-f882-4893-9564-be8185f9b258
+discoiquuid: 51b4360d-0eef-4fbf-b34f-cfe3946ac36e
 index: y
 internal: n
 snippet: y

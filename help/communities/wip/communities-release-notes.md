@@ -4,11 +4,11 @@ seo-title: AEM Communities
 description: Release notes specific to Adobe Experience Manager 6.4 Communities.
 seo-description: Release notes specific to Adobe Experience Manager 6.4 Communities.
 page-status-flag: never-activated
-uuid: 225740d9-e7fa-4699-bdaf-099b391e252c
+uuid: c5ee329b-01dc-49e6-adc5-afc5a280c7dc
 products: SG_EXPERIENCEMANAGER/6.4
 topic-tags: release-notes
 content-type: reference
-discoiquuid: 1e48fa33-0afb-4216-86ad-59fe436a13a2
+discoiquuid: 9b540727-22a4-44a5-8f11-07db24e3843a
 index: y
 internal: n
 snippet: y
@@ -18,7 +18,7 @@ snippet: y
 
 This section provides information on the improvements to AEM Communities since the 6.3 release. To learn about the new features in greater detail, see [What's New in AEM 6.4 Communities](/communities/using/whats-new-aem-communities.html?cq_ck=1522837662674).
 
-To obtain the latest release, see the [Deploying Communities](../../communities/using/deploy-communities.md#latestreleases) section of the documentation.
+To obtain the latest release, see the [Deploying Communities](../../communities/using/deploy-communities.md#latest-releases) section of the documentation.
 
 ## Main improvements {#main-improvements}
 

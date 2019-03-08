@@ -3,12 +3,12 @@ title: Tag Essentials
 seo-title: Tag Essentials
 description: Tag overview
 seo-description: Tag overview
-uuid: 04f55d6b-2786-4bba-be8f-0aa13954cc48
+uuid: e20cda03-4e68-4f65-a97f-2cb3ba1a120e
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: ed5df45f-db40-433d-b330-8ff9f72d5b15
+discoiquuid: 48bb86af-67a9-47fe-988a-14775a07ceb4
 index: y
 internal: n
 snippet: y
@@ -47,7 +47,7 @@ Tagging of UGC may be enabled when configuring a [community site](../../communit
    <td>social/commons/components/hbs/tagcloud</td> 
   </tr>
   <tr>
-   <td> <a href="../../communities/using/scf.md#addorincludeacommunitiescomponent"><strong>includable</strong></a></td> 
+   <td> <a href="../../communities/using/scf.md#add-or-include-a-communities-component"><strong>includable</strong></a></td> 
    <td>No</td> 
   </tr>
   <tr>
@@ -73,14 +73,14 @@ Tagging of UGC may be enabled when configuring a [community site](../../communit
 
 ## Essentials for Server-Side {#essentials-for-server-side}
 
-* [Social Tag Cloud API](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/commons/tagcloud/api/package-summary)
+* [Social Tag Cloud API](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/commons/tagcloud/api/package-summary.md)
 
-* [Social Tag Manager](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/commons/tagging/package-summary)
+* [Social Tag Manager](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/commons/tagging/package-summary.md)
 
 * [Server-side Customizations](../../communities/using/server-customize.md)
 
 ## Tag Searching {#tag-searching}
 
-As of [feature pack 1](../../communities/using/deploy-communities.md#latestfeaturepack) (FP1), tag searching is performed using [tag titles](../../sites/developing/using/framework.md#tagcharacteristics).
+As of [feature pack 1](../../communities/using/deploy-communities.md#latestfeaturepack) (FP1), tag searching is performed using [tag titles](../../sites/developing/using/framework.md#tag-characteristics).
 
 Prior to FP1, search was performed using [tag ids](../../sites/developing/using/framework.md#tagid).

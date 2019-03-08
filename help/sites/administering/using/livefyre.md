@@ -3,12 +3,12 @@ title: Integrating with Livefyre
 seo-title: Integrating with Livefyre
 description: Learn how to integrate Livefyre's industry-leading curation capabilities with your AEM 6.4 instance, allowing you to publish valuable user-generated content (UGC) from social networks to your site in minutes.
 seo-description: Learn how to integrate and use Livefyre with AEM 6.4.
-uuid: 2451ed53-2e31-4e5d-a325-dedc1c6e5a98
+uuid: 1dc2bf23-99e9-48a5-a5a3-4d25190bcae2
 contentOwner: ind14750
 content-type: reference
 topic-tags: integration
 products: SG_EXPERIENCEMANAGER/6.4/SITES
-discoiquuid: 551ecb75-8867-49fb-aa53-ae5ab13702d9
+discoiquuid: 7eab19eb-3628-4339-a8f6-d4d78aefef17
 index: y
 internal: n
 snippet: y

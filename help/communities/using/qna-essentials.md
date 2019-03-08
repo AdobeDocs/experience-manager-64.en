@@ -3,12 +3,12 @@ title: QnA Essentials
 seo-title: QnA Essentials
 description: Questions and answers forum feature
 seo-description: Questions and answers forum feature
-uuid: 1710b87b-b5ab-4921-8c5a-8eecaa71b27e
+uuid: 53252625-f4ad-4a2f-a2b3-37837b4d6549
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: a4116740-f5c9-4f9f-adfc-5a416545610b
+discoiquuid: 4ca00776-eac9-4321-bb2d-2a3194d67105
 index: y
 internal: n
 snippet: y
@@ -27,7 +27,7 @@ This page provides the essential information for working with the questions and 
    <td>social/qna/components/hbs/qnaforum</td> 
   </tr>
   <tr>
-   <td> <a href="../../communities/using/scf.md#addorincludeacommunitiescomponent">includable</a></td> 
+   <td> <a href="../../communities/using/scf.md#add-or-include-a-communities-component">includable</a></td> 
    <td>No</td> 
   </tr>
   <tr>
@@ -53,15 +53,15 @@ This page provides the essential information for working with the questions and 
 
 ## Essentials for Server-Side {#essentials-for-server-side}
 
-* [QnA API](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/qna/client/api/package-summary)
+* [QnA API](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/qna/client/api/package-summary.md)
 
-* [QnA Endpoints](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/qna/client/endpoints/package-summary)
+* [QnA Endpoints](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/qna/client/endpoints/package-summary.md)
 
 * [Server-side Customizations](../../communities/using/server-customize.md)
 
 ### QnA Function {#qna-function}
 
-A community site structure that includes the [QnA function](../../communities/using/functions.md#qnafunction) will have a configured `QnA` component, as well as settings affecting moderation and tagging. The QnA function supports identifying a [privileged member user group](../../communities/using/users.md#privilegedmembersgroup).
+A community site structure that includes the [QnA function](../../communities/using/functions.md#qna-function) will have a configured `QnA` component, as well as settings affecting moderation and tagging. The QnA function supports identifying a [privileged member user group](../../communities/using/users.md#privileged-members-group).
 
 ### Accessing QnA Forum Posts (UGC) {#accessing-qna-forum-posts-ugc}
 

@@ -3,11 +3,11 @@ title: Opening a task
 seo-title: Opening a task
 description: Steps to open a task on your AEM Forms app.
 seo-description: Steps to open a task on your AEM Forms app.
-uuid: 7764518a-a740-4cd9-927f-b04c5e530d2e
+uuid: be7970b3-7e6e-4102-9f88-563ccb6215bd
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
-discoiquuid: 7f2f47b4-ed2c-4f02-94a5-195bb448811c
+discoiquuid: 39160775-7eae-4b70-b6a1-387da37931a6
 index: y
 internal: n
 snippet: y

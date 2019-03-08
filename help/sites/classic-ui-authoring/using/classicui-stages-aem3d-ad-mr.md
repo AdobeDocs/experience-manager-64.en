@@ -3,12 +3,12 @@ title: Setting up a standard stage with Autodesk Maya and Mental Ray
 seo-title: Setting up a standard stage with Autodesk Maya and Mental Ray
 description: Learn how to set up a standard stage with Autodesk Maya and Mental Ray.
 seo-description: Learn how to set up a standard stage with Autodesk Maya and Mental Ray.
-uuid: 29fade83-0008-4d9e-ba12-302138a61107
+uuid: a368a83f-6436-4e45-bc92-07be3ee8a525
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: authoring
 content-type: reference
-discoiquuid: 55969280-47a1-44e5-b242-8b52203e7d39
+discoiquuid: 14e5d242-bb81-456a-9f0a-594d2075a8b0
 index: y
 internal: n
 snippet: y

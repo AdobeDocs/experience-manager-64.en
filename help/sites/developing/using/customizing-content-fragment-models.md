@@ -4,9 +4,9 @@ seo-title: Customizing Content Fragment Models
 description: Content Fragment Models can be customized and extended.
 seo-description: Content Fragment Models can be customized and extended.
 page-status-flag: de-activated
-uuid: e2f09516-e7f3-4cfc-96ec-bf5e4d439e25
+uuid: f1ebe676-7ea9-471e-a45d-6641f899a48c
 contentOwner: aheimoz
-discoiquuid: 40ee62a2-5a7d-441b-a14d-2b561de80221
+discoiquuid: cebaa5fd-fded-4d47-ac2f-b0cc138a8e3a
 noindex: true
 index: y
 internal: n
@@ -23,17 +23,17 @@ This component has the tools necessary to render the drag and drop interface of 
 
 ## Locations {#locations}
 
-Models are saved and created under `/conf`, under a folder that has the [Content Fragment Models property](../../../assets/using/content-fragments-models.md#enablecontentfragmentmodels) enabled. This setting can also be seen in the **Configuration Properties**, accessible from the **Configuration Browser**.
+Models are saved and created under `/conf`, under a folder that has the [Content Fragment Models property](../../../assets/using/content-fragments-models.md#enable-content-fragment-models) enabled. This setting can also be seen in the **Configuration Properties**, accessible from the **Configuration Browser**.
 
 1. Navigate to the browser via **Tools**, **General**, **Configuration Browser** 
-   For example, [http://localhost:4502/libs/granite/configurations/content/view.html/conf](/libs/granite/configurations/content/view.html/conf)
+   For example, [http://localhost:4502/libs/granite/configurations/content/view.html/conf](/libs/granite/configurations/content/view.html/conf.md)
 
 1. From the browser, select the appropriate configuration then **Properties** from the toolbar.  
    For example, the properties for `global`: [http://localhost:4502/libs/granite/configurations/content/edit.html/conf/global](http://localhost:4502/libs/granite/configurations/content/edit.html/conf/global)
 
 In the models console, all folders with the **Content Fragment Models** property will appear. Navigate via **Tools**, **Assets**, **Content Fragment Models**; for example, [http://localhost:4502/libs/dam/cfm/models/console/content/models.html/conf](http://localhost:4502/libs/dam/cfm/models/console/content/models.html/conf).
 
-A user can [create a content fragment model](../../../assets/using/content-fragments-models.md#creatingacontentfragmentmodel) using the **Create Model** wizard (using **Create** from the console).
+A user can [create a content fragment model](../../../assets/using/content-fragments-models.md#creating-a-content-fragment-model) using the **Create Model** wizard (using **Create** from the console).
 
 >[!CAUTION]
 >
@@ -95,7 +95,7 @@ The **Content Fragment Model Editor** has two parts:
 >
 >This is because the content of `/libs` is overwritten the next time you upgrade your instance (and may be overwritten when you apply either a hotfix or feature pack).
 
-The properties on the right side define a form that is submitted directly into JCR under `/conf`; see the path in the example [Structure of a Model](/sites/developing/using/customizing-content-fragment-models.html?cq_ck=1521442259410#StructureofaModel).
+The properties on the right side define a form that is submitted directly into JCR under `/conf`; see the path in the example [Structure of a Model](../../../sites/developing/using/customizing-content-fragment-models.md#structure-of-a-model).
 
 When a data type is instantiated, HTML inputs are created for every property the component needs to be rendered in a content fragment. For example, these include:
 

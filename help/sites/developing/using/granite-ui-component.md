@@ -3,12 +3,12 @@ title: Creating a New Granite UI Field Component
 seo-title: Creating a New Granite UI Field Component
 description: Granite UI provides a range of components designed to be used in forms, called fields
 seo-description: Granite UI provides a range of components designed to be used in forms, called fields
-uuid: 2a2a5ccb-6717-4fa0-808c-43b9e54a2224
+uuid: 76dc9f46-bf9c-4a72-9965-f4f00ea9808e
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
-discoiquuid: 53e110d8-3d9c-4d9a-9159-04a3e4fde5b7
+discoiquuid: 9a0788d5-13b4-464c-9887-8140a9ae029e
 index: y
 internal: n
 snippet: y
@@ -26,7 +26,7 @@ Granite UI provides a range of components designed to be used in forms; these ar
 
 >[!NOTE]
 >
->For full details about fields, please see the [Granite UI documentation](/sites/developing/using/reference-materials/granite-ui/api/index).
+>For full details about fields, please see the [Granite UI documentation](/sites/developing/using/reference-materials/granite-ui/api/index.md).
 
 Use the Granite UI Foundation framework to develop and/or extend Granite components. This has two elements:
 
@@ -48,13 +48,13 @@ The generic Granite UI component `field` is composed of two files of interest:
 * `init.jsp`: handles the generic processing; labelling, description, and provides form value you will need when rendering your field.
 * `render.jsp`: this is where the actual rendering of the field is performed and needs to be overridden for your custom field; is included by `init.jsp`.
 
-Please refer to the [Granite UI documentation - Field](/sites/developing/using/reference-materials/granite-ui/api/jcr_root/libs/granite/ui/components/foundation/form/field/index) if you want more details.
+Please refer to the [Granite UI documentation - Field](/sites/developing/using/reference-materials/granite-ui/api/jcr_root/libs/granite/ui/components/foundation/form/field/index.md) if you want more details.
 
 For examples, see:
 
 * `cqgems/customizingfield/components/colorpicker`
 
-    * provided by the [Code Sample](../../../sites/developing/using/developing-components-samples.md#codesamplehowtocustomizedialogfields)
+    * provided by the [Code Sample](../../../sites/developing/using/developing-components-samples.md#code-sample-how-to-customize-dialog-fields)
 
 * `granite/ui/components/foundation/form`
 

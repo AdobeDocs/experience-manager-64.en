@@ -3,12 +3,12 @@ title: Trying out Content Fragments in We.Retail
 seo-title: Trying out Content Fragments in We.Retail
 description: null
 seo-description: null
-uuid: 40b342d9-6a7e-4efc-a93e-6b16c8c475b8
+uuid: 279416a4-26f2-4a1f-b6e1-bbffa13601fb
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
-discoiquuid: 0c90e8ad-b296-4fd7-9da6-8db53fd87b59
+discoiquuid: 3135b4b0-aefd-4fe2-a5f4-1c7b92655ffd
 index: y
 internal: n
 snippet: y
@@ -20,15 +20,15 @@ Content Fragments allow you to create channel-neutral content, together with (po
 
 * Adobe Experience Manager (AEM) content fragments are [created and managed as page-independent assets](../../../assets/using/content-fragments.md). They allow you to create channel-neutral content, together with (possibly channel-specific) variations.
 
-    * See [Where to Find Content Fragment assets in We.Retail](#wheretofindcontentfragmentsinweretail)
+    * See [Where to Find Content Fragment assets in We.Retail](#where-to-find-content-fragments-in-we-retail)
 
 * You can then [use these fragments, and their variations, when authoring](../../../sites/authoring/using/content-fragments.md) your content pages.
 
-    * See [Where Content Fragments are Used in We.Retail](#wherecontentfragmentsareusedinweretail)
+    * See [Where Content Fragments are Used in We.Retail](#where-content-fragments-are-used-in-we-retail)
 
 For the full documentation on creating, managing, using and developing content fragments:
 
-* See [Further Information](#furtherinformation)
+* See [Further Information](#further-information)
 
 >[!NOTE]
 >
@@ -70,7 +70,7 @@ Here you can [edit and manage](../../../assets/using/content-fragments.md) your 
 
 To illustrate [page authoring with a content fragment](../../../sites/authoring/using/content-fragments.md) there are several example pages provided under, for example:
 
-* [http://localhost:4502/sites.html/content/we-retail/language-masters/en/experience](/sites.html/content/we-retail/language-masters/en/experience)
+* [http://localhost:4502/sites.html/content/we-retail/language-masters/en/experience](/sites.html/content/we-retail/language-masters/en/experience.md)
 
 For example, the **Arctic Surfing in Lofoten** content fragment is referenced in the Sites page:
 

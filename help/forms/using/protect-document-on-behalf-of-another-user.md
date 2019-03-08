@@ -3,9 +3,9 @@ title: Protect a document on behalf of another user
 seo-title: Protect a document on behalf of another user
 description: null
 seo-description: null
-uuid: be8ba72c-f231-4c30-ba9e-76e12997db4f
+uuid: 0c57ceab-28c1-45bf-a2c3-6524c4810e54
 geptopics: SG_AEMFORMS/categories/working_with_document_security
-discoiquuid: 1e3bb4b2-9034-472f-8d46-d0ba0c223554
+discoiquuid: f1ea9286-7a9c-46e2-bf09-73dff2c41c54
 index: y
 internal: n
 snippet: y

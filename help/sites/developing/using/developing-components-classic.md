@@ -3,12 +3,12 @@ title: Developing AEM Components (Classic UI)
 seo-title: Developing AEM Components (Classic UI)
 description: The classic UI uses ExtJS to create widgets that provide the look-and-feel of the components. HTL is not the recommended scripting language for AEM.
 seo-description: The classic UI uses ExtJS to create widgets that provide the look-and-feel of the components. HTL is not the recommended scripting language for AEM.
-uuid: 62603692-a341-4a74-88de-62552105c803
+uuid: 664212f4-68ff-4594-8392-48bc53467fae
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: components
 content-type: reference
-discoiquuid: b2dc6c4a-efcf-44e5-993a-3b0e46d7772d
+discoiquuid: 8c8cb8ca-07f1-4482-9aa2-d9fd45181097
 legacypath: /content/docs/en/aem/6-2/develop/components/components-classic
 index: y
 internal: n
@@ -94,7 +94,7 @@ There are three methods to access content in AEM WCM:
   Example: `String paragraphTitle = properties.get("jcr:title", "no title");` used in the rendering script of a standard paragraph component.
 
 * Via the `currentPage` object introduced in `global.jsp`:  
-  The `currentPage` object is an instance of a page (see [AEM API](/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/api/Page)). The page class provides some methods to access content.  
+  The `currentPage` object is an instance of a page (see [AEM API](/sites/developing/using/reference-materials/javadoc/com/day/cq/wcm/api/Page.md)). The page class provides some methods to access content.  
   Example: `String pageTitle = currentPage.getTitle();`
 
 * Via `currentNode` object introduced in `global.jsp`:  
@@ -125,7 +125,7 @@ See [AEM Components - The Basics](../../../sites/developing/using/components-bas
 
 You can configure the edit behavir of a component. This includes attributes such as actions available for the component, characteristics of the inplace editor, and the listeners related to events on the component. The configuration is common to both the touch-enabled and classic UIs, albeit with certain, specific differences.
 
-The [edit behavior of a component is configured](../../../sites/developing/using/components-basics.md#editbehavior) by adding a `cq:editConfig` node of type `cq:EditConfig` below the component node (of type `cq:Component`) and by adding specific properties and child nodes.
+The [edit behavior of a component is configured](../../../sites/developing/using/components-basics.md#edit-behavior) by adding a `cq:editConfig` node of type `cq:EditConfig` below the component node (of type `cq:Component`) and by adding specific properties and child nodes.
 
 ## Using and Extending ExtJS Widgets {#using-and-extending-extjs-widgets}
 
@@ -141,11 +141,11 @@ This section describes how to create your own components and add them to the par
 
 A quick way to get started is to copy an existing component and then make the changes you want.
 
-An example of how to develop a component is described in detail in [Extending the Text and Image Component - An Example.](#extendingthetextandimagecomponentanexample)
+An example of how to develop a component is described in detail in [Extending the Text and Image Component - An Example.](#extending-the-text-and-image-component-an-example)
 
 ### Develop a New Component (Adapt Existing Component) {#develop-a-new-component-adapt-existing-component}
 
-To develop new components for AEM based on existing component you can copy the component, create a javascript file for the new component and store it in a location accessible to AEM (see also [Customizing Components and Other Elements](../../../sites/developing/using/dev-guidelines-bestpractices.md#customizingcomponentsandotherelements)):
+To develop new components for AEM based on existing component you can copy the component, create a javascript file for the new component and store it in a location accessible to AEM (see also [Customizing Components and Other Elements](../../../sites/developing/using/dev-guidelines-bestpractices.md#customizing-components-and-other-elements)):
 
 1. Using CRXDE Lite, create a new component folder in:
 
@@ -179,9 +179,9 @@ To develop new components for AEM based on existing component you can copy the c
    >
    >    
    >    
-   >    * Touch-enabled UI uses [Granite](/sites/developing/using/reference-materials/granite-ui/api/jcr_root/libs/granite/ui/index) components  
+   >    * Touch-enabled UI uses [Granite](/sites/developing/using/reference-materials/granite-ui/api/jcr_root/libs/granite/ui/index.md) components  
    >    
-   >    * Classic UI uses [ExtJS widgets](/sites/developing/using/reference-materials/widgets-api/index)
+   >    * Classic UI uses [ExtJS widgets](/sites/developing/using/reference-materials/widgets-api/index.md)
    >    
    >
 
@@ -209,7 +209,7 @@ To develop new components for AEM based on existing component you can copy the c
 
     * using CRXDE Lite to add the value `<path-to-component>` (for example, `/apps/geometrixx/components/myComponent`) to the property components of the node `/etc/designs/geometrixx/jcr:content/contentpage/par`   
     
-    * following the instructions in [Adding new components to paragraph systems](#addinganewcomponenttotheparagraphsystemdesignmode)
+    * following the instructions in [Adding new components to paragraph systems](#adding-a-new-component-to-the-paragraph-system-design-mode)
 
 1. In AEM WCM, open a page in your web site and insert a new paragraph of the type you just created to make sure the component is working properly.
 

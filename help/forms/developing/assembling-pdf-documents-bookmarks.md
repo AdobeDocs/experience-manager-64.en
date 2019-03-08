@@ -3,13 +3,13 @@ title: Assembling PDF Documents with Bookmarks
 seo-title: Assembling PDF Documents with Bookmarks
 description: null
 seo-description: null
-uuid: e29df7e2-7d82-4c4e-a866-dae3dbcf34c6
+uuid: a34fba55-e7c8-45ff-9d0f-3f82aff441e9
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/assembling_pdf_documents
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: 30686aeb-e420-4cac-9181-f883ea555953
+discoiquuid: a19acfad-5b5f-4bfc-9e3c-f9e0342d6dd3
 index: y
 internal: n
 snippet: y
@@ -79,7 +79,7 @@ When a user clicks on the *Open the Loan Details* bookmark, the LoanDetails.pdf 
 
 >[!NOTE]
 >
->Before reading this section, it is recommended that you be familiar with assembling PDF documents using the Assembler service. This section does not discuss concepts, such as creating a collection object that contains input documents or learning how to extract the results from the returned collection object. (See [Programmatically Assembling PDF Documents](/programming-with-aem-forms/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically#programmatically_assembling_pdf_documents).)
+>Before reading this section, it is recommended that you be familiar with assembling PDF documents using the Assembler service. This section does not discuss concepts, such as creating a collection object that contains input documents or learning how to extract the results from the returned collection object. (See [Programmatically Assembling PDF Documents](/programming-with-aem-forms/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically.md#programmatically_assembling_pdf_documents).)
 
 >[!NOTE]
 >
@@ -158,19 +158,19 @@ To assemble a PDF document that contains new bookmarks, use the Assembler servic
 
 **Save the PDF document that contains bookmarks**
 
-You must extract the results from the returned map object and save the corresponding PDF document. (See “Extract the results” in [Programmatically Assembling PDF Documents](/programming-with-aem-forms/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically#programmatically_assembling_pdf_documents).)
+You must extract the results from the returned map object and save the corresponding PDF document. (See “Extract the results” in [Programmatically Assembling PDF Documents](/programming-with-aem-forms/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically.md#programmatically_assembling_pdf_documents).)
 
 **See also**
 
-[Assemble PDF documents with bookmarks using the Java API](/programming-with-aem-forms/assembling-pdf-documents-bookmarks-assembling assembling-pdf-documents-bookmarks-assembling#assemble_pdf_documents_with_bookmarks_using_the_java_api)
+[Assemble PDF documents with bookmarks using the Java API](/programming-with-aem-forms/assembling-pdf-documents-bookmarks-assembling assembling-pdf-documents-bookmarks-assembling.md#assemble_pdf_documents_with_bookmarks_using_the_java_api)
 
-[Assemble PDF documents with bookmarks using the web service API](/programming-with-aem-forms/assembling-pdf-documents-bookmarks-assembling assembling-pdf-documents-bookmarks-assembling#assemble_pdf_documents_with_bookmarks_using_the_web_service_api)
+[Assemble PDF documents with bookmarks using the web service API](/programming-with-aem-forms/assembling-pdf-documents-bookmarks-assembling assembling-pdf-documents-bookmarks-assembling.md#assemble_pdf_documents_with_bookmarks_using_the_web_service_api)
 
 [Including AEM Forms Java library files](#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
 
 [Setting connection properties](#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2)
 
-[Programmatically Assembling PDF Documents](/programming-with-aem-forms/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically#programmatically_assembling_pdf_documents)
+[Programmatically Assembling PDF Documents](/programming-with-aem-forms/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically.md#programmatically_assembling_pdf_documents)
 
 ## Assemble PDF documents with bookmarks using the Java API {#assemble-pdf-documents-with-bookmarks-using-the-java-api}
 
@@ -238,7 +238,7 @@ Assemble a PDF document with bookmarks by using the Assembler Service API (Java)
 
 **See also**
 
-[Assembling PDF Documents with Bookmarks](/programming-with-aem-forms/assembling-pdf-documents-bookmarks-assembling assembling-pdf-documents-bookmarks-assembling#assembling_pdf_documents_with_bookmarks)
+[Assembling PDF Documents with Bookmarks](/programming-with-aem-forms/assembling-pdf-documents-bookmarks-assembling assembling-pdf-documents-bookmarks-assembling.md#assembling_pdf_documents_with_bookmarks)
 
 [Quick Start (SOAP mode): Assembling PDF documents with bookmarks using the Java API](#unresolvedlink-lc-qs-assembler-as.xml#ws624e3cba99b79e12e69a9941333732bac8-7f75.2)
 
@@ -328,7 +328,7 @@ Assemble a PDF document with bookmarks by using the Assembler Service API (web s
 
 **See also**
 
-[Assembling PDF Documents with Bookmarks](/programming-with-aem-forms/assembling-pdf-documents-bookmarks-assembling assembling-pdf-documents-bookmarks-assembling#assembling_pdf_documents_with_bookmarks)
+[Assembling PDF Documents with Bookmarks](/programming-with-aem-forms/assembling-pdf-documents-bookmarks-assembling assembling-pdf-documents-bookmarks-assembling.md#assembling_pdf_documents_with_bookmarks)
 
 [Quick Start (MTOM): Assembling PDF documents with bookmarks using the web service API](#unresolvedlink-lc-qs-assembler-as.xml#ws624e3cba99b79e12e69a9941333732bac8-7f74.2)
 

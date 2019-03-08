@@ -3,12 +3,12 @@ title: Metadata - Fragment Properties
 seo-title: Metadata - Fragment Properties
 description: You can view and edit the metadata (properties) for content fragments.
 seo-description: You can view and edit the metadata (properties) for content fragments.
-uuid: c5393e48-5d0e-4b13-b0d5-e7c69699c749
+uuid: 848382bd-d3e3-4196-856a-e3cad7f6d0aa
 contentOwner: Alison Heimoz
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: content-fragments
 content-type: reference
-discoiquuid: 899b4782-bfa2-4052-8d1a-59a03f796209
+discoiquuid: 3e52100b-3843-4d73-ae67-a9ac6c983cdd
 index: y
 internal: n
 snippet: y
@@ -27,8 +27,8 @@ You can view and edit the metadata (properties) for content fragments:
 1. In the **Assets** console navigate to the location of the content fragment.
 1. Either:
 
-    * Select [**View Properties** to open the dialogs](../../assets/using/managing-assets-touch-ui.md#editingproperties). Once open for viewing you can also edit.
-    * Open the [content fragment for Edit](../../assets/using/content-fragments-managing.md#openingthefragmenteditor), then select **Metadata** from the side panel.
+    * Select [**View Properties** to open the dialogs](../../assets/using/managing-assets-touch-ui.md#editing-properties). Once open for viewing you can also edit.
+    * Open the [content fragment for Edit](../../assets/using/content-fragments-managing.md#opening-the-fragment-editor), then select **Metadata** from the side panel.
 
    ![](assets/cfm-6420-06.png)
 

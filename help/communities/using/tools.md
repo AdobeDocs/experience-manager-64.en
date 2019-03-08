@@ -3,12 +3,12 @@ title: Communities Tools
 seo-title: Communities Tools
 description: How to access Communities Tools console
 seo-description: How to access Communities Tools console
-uuid: d5300581-cdce-47e7-8aa4-dde93971a69a
+uuid: 1ed87b0f-172f-49e3-a278-0ba01b634b19
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: ddb4bd27-ad5c-415b-b8bb-bcf81075dc57
+discoiquuid: bf688095-5273-494d-bc52-5c4199d8f2a4
 pagetitle: Communities Tools
 index: y
 internal: n

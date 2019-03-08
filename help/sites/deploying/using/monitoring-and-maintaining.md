@@ -3,12 +3,12 @@ title: Monitoring and Maintaining Your AEM instance
 seo-title: Monitoring and Maintaining Your AEM instance
 description: Learn how to monitor AEM.
 seo-description: Learn how to monitor AEM.
-uuid: 89a0b181-c4ab-40a3-bbb9-44f96e2d0528
+uuid: e5a8052a-33e7-4b18-a28f-158b0ca58230
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: configuring
 content-type: reference
-discoiquuid: f47f82d2-ea7d-43cb-baba-e91a378d9f54
+discoiquuid: 4ca70d11-6859-462e-b0f6-4fa4dc9f3adb
 index: y
 internal: n
 snippet: y
@@ -26,11 +26,11 @@ A key factor here is that to recognize potential issues you need to know how you
 | Disaster recovery plan. |Your company's disaster recovery guidelines. |  |
 | An error tracking system is available for reporting problems. |For example, [bugzilla](http://www.bugzilla.org/), [jira](http://www.atlassian.com/software/jira/), or one of many others. |  |
 | File systems are being monitored. |The CRX repository will "freeze" if there is insufficient free disk space. It will resume once space becomes available. |" `*ERROR* LowDiskSpaceBlocker`" messages can be seen in the log file when free space becomes low. |
-| [Log files](../../../sites/deploying/using/monitoring-and-maintaining.md#workingwithauditrecordsandlogfiles) are being monitored. |  |  |
+| [Log files](../../../sites/deploying/using/monitoring-and-maintaining.md#working-with-audit-records-and-log-files) are being monitored. |  |  |
 | System monitoring is (constantly) running in the background. |Including CPU, memory, disk and network usage. Using for example, iostat / vmstat / perfmon. |Logged data is visualized and can be used for tracking performance problems. Raw data is also accessible. |
-| [AEM performance is being monitored](../../../sites/deploying/using/monitoring-and-maintaining.md#monitoringperformance). |Including [Request Counters](../../../sites/deploying/using/monitoring-and-maintaining.md#requestcounters) to monitor traffic levels. |If a significant, or long term loss, of performance is seen, detailed investigation should be made. |
-| You are monitoring your [Replication Agents](../../../sites/deploying/using/monitoring-and-maintaining.md#monitoringyourreplicationagents). `` |  |  |
-| Regularly purge workflow instances. |Repository size and workflow performance. |See [Regular Purging of Workflow Instances](../../../sites/administering/using/workflows-administering.md#regularpurgingofworkflowinstances). |
+| [AEM performance is being monitored](../../../sites/deploying/using/monitoring-and-maintaining.md#monitoring-performance). |Including [Request Counters](../../../sites/deploying/using/monitoring-and-maintaining.md#request-counters) to monitor traffic levels. |If a significant, or long term loss, of performance is seen, detailed investigation should be made. |
+| You are monitoring your [Replication Agents](../../../sites/deploying/using/monitoring-and-maintaining.md#monitoring-your-replication-agents). `` |  |  |
+| Regularly purge workflow instances. |Repository size and workflow performance. |See [Regular Purging of Workflow Instances](../../../sites/administering/using/workflows-administering.md#regular-purging-of-workflow-instances). |
 
 ## Backups {#backups}
 
@@ -59,20 +59,20 @@ Often a full backup is taken at regular intervals (e.g. daily, weekly or monthly
 
 >[!NOTE]
 >
->For more information about backup performances, please read the [Backup Performance](../../../sites/deploying/using/configuring-performance.md#backupperformance) section.
+>For more information about backup performances, please read the [Backup Performance](../../../sites/deploying/using/configuring-performance.md#backup-performance) section.
 
 ### Backing up your software installation {#backing-up-your-software-installation}
 
 After installation, or significant changes in the configuration, take a backup of your software installation.
 
-To do this, you need to [back up your entire repository](#backingupyourrepository) and then:
+To do this, you need to [back up your entire repository](#backing-up-your-repository) and then:
 
 1. Stop AEM.
 1. Back up the entire `<cq-installation-dir>` from your file system.
 
 >[!CAUTION]
 >
->If you are operating a third-party application server, then additional folders may be in a different location and may also need to be backed up. See [How to install AEM with an Application Server](../../../sites/deploying/using/application-server-install.md) for information about installing application servers. [](/content/docs/en/aem/6-3/deploy/installing#Installing Adobe Experience Manager with an Application Server)
+>If you are operating a third-party application server, then additional folders may be in a different location and may also need to be backed up. See [How to install AEM with an Application Server](../../../sites/deploying/using/application-server-install.md) for information about installing application servers. [](/content/docs/en/aem/6-3/deploy/installing.md#installing adobe experience manager with an application server)
 
 >[!CAUTION]
 >
@@ -86,7 +86,7 @@ To do this, you need to [back up your entire repository](#backingupyourrepositor
 
 The [Backup and Restore](../../../sites/administering/using/backup-and-restore.md) section of the CRX documentation covers all issues related to backups of the CRX repository.
 
-For full details of making an online "hot" backup see [Creating an Online Backup](../../../sites/administering/using/backup-and-restore.md#onlinebackup).
+For full details of making an online "hot" backup see [Creating an Online Backup](../../../sites/administering/using/backup-and-restore.md#online-backup).
 
 ## Version Purging {#version-purging}
 
@@ -519,7 +519,7 @@ Methods used while collecting information for optimization can also be used for 
 
 >[!NOTE]
 >
->Specific [configurations available to improve performance](../../../sites/deploying/using/configuring-performance.md#configuringforperformance) can also be checked.
+>Specific [configurations available to improve performance](../../../sites/deploying/using/configuring-performance.md#configuring-for-performance) can also be checked.
 
 The following lists common performance issues which occur, together with proposals on how to spot and counteract them.
 
@@ -577,7 +577,7 @@ Some of these will be dependent on your operating system.
   <tr> 
    <td>request.log</td> 
    <td>Response times and concurrency.</td> 
-   <td><a href="#interpretingtherequestlog">Interpreting the request.log</a>.</td> 
+   <td><a href="#interpreting-the-request-log">Interpreting the request.log</a>.</td> 
   </tr> 
   <tr> 
    <td>truss/strace</td> 
@@ -597,12 +597,12 @@ Some of these will be dependent on your operating system.
   <tr> 
    <td>System calls</td> 
    <td>Identify timing issues.</td> 
-   <td><p>Calls to <span class="code">System.currentTimeMillis()</span> or <span class="code">com.day.util</span>.Timing are used to generate timestamps from your code, or via <a href="#htmlcomments">HTML-comments</a>.</p> <p><strong>Note:</strong> These should be implemented so that they can be activated / deactivated as required; when a system is running smoothly the overhead of collecting statistics will not be needed.</p> </td> 
+   <td><p>Calls to <span class="code">System.currentTimeMillis()</span> or <span class="code">com.day.util</span>.Timing are used to generate timestamps from your code, or via <a href="#html-comments">HTML-comments</a>.</p> <p><strong>Note:</strong> These should be implemented so that they can be activated / deactivated as required; when a system is running smoothly the overhead of collecting statistics will not be needed.</p> </td> 
   </tr> 
   <tr> 
    <td>Apache Bench</td> 
    <td>Identify memory leaks, selectively analyze response time.</td> 
-   <td><p>basic usage is:</p> <p><span class="code">ab -k -n &lt;<em>requests</em>&gt; -c &lt;<em>concurrency</em>&gt; &lt;<em>url</em>&gt;</span></p> <p>See <a href="#apachebench">Apache Bench</a> and the <a href="http://httpd.apache.org/docs/2.2/programs/ab.html">ab man page</a> for full details.</p> </td> 
+   <td><p>basic usage is:</p> <p><span class="code">ab -k -n &lt;<em>requests</em>&gt; -c &lt;<em>concurrency</em>&gt; &lt;<em>url</em>&gt;</span></p> <p>See <a href="#apache-bench">Apache Bench</a> and the <a href="http://httpd.apache.org/docs/2.2/programs/ab.html">ab man page</a> for full details.</p> </td> 
   </tr> 
   <tr> 
    <td>Search Analysis</td> 
@@ -622,12 +622,12 @@ Some of these will be dependent on your operating system.
   <tr> 
    <td>JConsole</td> 
    <td>Observe JVM metrics and threads.</td> 
-   <td><p>Usage: jconsole</p> <p>See <a href="http://java.sun.com/developer/technicalArticles/J2SE/jconsole.html">jconsole</a> and <a href="#monitoringperformanceusingjconsole">Monitoring Performance using JConsole</a>.</p> <p><strong>Note:</strong> With JDK 1.6, JConsole is extensible with plug-ins; for example, Top or TDA (Thread Dump Analyzer).</p> </td> 
+   <td><p>Usage: jconsole</p> <p>See <a href="http://java.sun.com/developer/technicalArticles/J2SE/jconsole.html">jconsole</a> and <a href="#monitoring-performance-using-jconsole">Monitoring Performance using JConsole</a>.</p> <p><strong>Note:</strong> With JDK 1.6, JConsole is extensible with plug-ins; for example, Top or TDA (Thread Dump Analyzer).</p> </td> 
   </tr> 
   <tr> 
    <td>Java VisualVM</td> 
    <td>Observe JVM metrics, threads, memory and profiling.</td> 
-   <td><p>Usage: jvisualvm or visualvm<br /> </p> <p>See <a href="http://java.sun.com/javase/6/docs/technotes/tools/share/jvisualvm.html">jvisualvm</a>, <a href="https://visualvm.dev.java.net/">visualvm</a> and <a href="#monitoringperformanceusingjvisualvm">Monitoring Performance using (J)VisualVM</a>.</p> <p><strong>Note:</strong> With JDK 1.6, VisualVM is extensible with plug-ins.</p> </td> 
+   <td><p>Usage: jvisualvm or visualvm<br /> </p> <p>See <a href="http://java.sun.com/javase/6/docs/technotes/tools/share/jvisualvm.html">jvisualvm</a>, <a href="https://visualvm.dev.java.net/">visualvm</a> and <a href="#monitoring-performance-using-j-visualvm">Monitoring Performance using (J)VisualVM</a>.</p> <p><strong>Note:</strong> With JDK 1.6, VisualVM is extensible with plug-ins.</p> </td> 
   </tr> 
   <tr> 
    <td>truss/strace, lsof</td> 
@@ -641,11 +641,11 @@ Some of these will be dependent on your operating system.
   </tr> 
   <tr> 
    <td>CPU and memory profiling tool<br /> </td> 
-   <td><a href="#interpretingtherequestlog">Used when analyzing slow requests during development</a>.</td> 
+   <td><a href="#interpreting-the-request-log">Used when analyzing slow requests during development</a>.</td> 
    <td>For example, <a href="http://www.yourkit.com/">YourKit</a>.</td> 
   </tr> 
   <tr> 
-   <td><a href="#informationcollection">Information Collection</a></td> 
+   <td><a href="#information-collection">Information Collection</a></td> 
    <td>The ongoing state of your installation.</td> 
    <td>Knowing as much as possible about your installation can also help you track down what might have caused a change in performance, and whether these changes are justified. These metrics need to be collected at regular intervals so you can easily see significant changes.</td> 
   </tr> 
@@ -656,7 +656,7 @@ Some of these will be dependent on your operating system.
 
 This file registers basic information about every request made to AEM. From this valuable conclusions can be extracted.
 
-The `request.log` offers a built-in way to get a look at how long requests take. For development purposes it is useful to `tail -f` the `request.log` and watch for slow response times. To analyze a bigger `request.log` we recommend the [use of `rlog.jar` which allows you to sort and filter for response times](#usingrlogjartofindrequestswithlongdurationtimes).
+The `request.log` offers a built-in way to get a look at how long requests take. For development purposes it is useful to `tail -f` the `request.log` and watch for slow response times. To analyze a bigger `request.log` we recommend the [use of `rlog.jar` which allows you to sort and filter for response times](#using-rlog-jar-to-find-requests-with-long-duration-times).
 
 We recommend isolating the "slow" pages from the `request.log`, then individually tuning them for a better performance. This is usually done by including performance metrics per component or using a performance profiling tool such as ` [yourkit](http://www.yourkit.com/)`.
 
@@ -857,7 +857,7 @@ The numbers above are taken from a standard MAcBook Pro laptop (mid 2010) access
 
 ### Request Counters {#request-counters}
 
-Information about request traffic (number of requests during a specific time period) gives you an indication of the load on your instance. This information can be extracted from [request.log](#interpretingtherequestlog), though using counters will automate data collection to let you see:
+Information about request traffic (number of requests during a specific time period) gives you an indication of the load on your instance. This information can be extracted from [request.log](#interpreting-the-request-log), though using counters will automate data collection to let you see:
 
 * significant differences in activity (ie differentiate between "many requests" and "low activity"
 * when an instance is not being used
@@ -929,17 +929,17 @@ Knowing as much as possible about your installation can help you track down what
 
 The following information can be useful:
 
-* [How many authors are working with the system?](#howmanyauthorsareworkingwiththesystem)
-* [What is the average number of page activations per day?](#whatistheaveragenumberofpageactivationsperday)
-* [How many pages do you currently maintain on this system?](#howmanypagesdoyoucurrentlymaintainonthissystem)
-* [If you use MSM, what is the average number of rollouts per month?](#ifyouusemsmwhatistheaveragenumberofrolloutspermonth)
-* [What is the average number of Live Copies per month?](#whatistheaveragenumberoflivecopiespermonth)
+* [How many authors are working with the system?](#how-many-authors-are-working-with-the-system)
+* [What is the average number of page activations per day?](#what-is-the-average-number-of-page-activations-per-day)
+* [How many pages do you currently maintain on this system?](#how-many-pages-do-you-currently-maintain-on-this-system)
+* [If you use MSM, what is the average number of rollouts per month?](#if-you-use-msm-what-is-the-average-number-of-rollouts-per-month)
+* [What is the average number of Live Copies per month?](#what-is-the-average-number-of-live-copies-per-month)
 * [If you use AEM Assets, how many assets do you currently maintain in Assets?](#ifyouusecqdamhowmanyassetsdoyoucurrentlymaintainincqdam)
-* [What is the average size of the assets?](#whatistheaveragesizeoftheassets)
-* [How many templates are currently used?](#howmanytemplatesarecurrentlyused)
-* [How many components are currently used?](#howmanycomponentsarecurrentlyused)
-* [How many requests per hour do you have on the author system at peak time?](#howmanyrequestsperhourdoyouhaveontheauthorsystematpeaktime)
-* [How many requests per hour do you have on the publish system at peak time?](#howmanyrequestsperhourdoyouhaveonthepublishsystematpeaktime)
+* [What is the average size of the assets?](#what-is-the-average-size-of-the-assets)
+* [How many templates are currently used?](#how-many-templates-are-currently-used)
+* [How many components are currently used?](#how-many-components-are-currently-used)
+* [How many requests per hour do you have on the author system at peak time?](#how-many-requests-per-hour-do-you-have-on-the-author-system-at-peak-time)
+* [How many requests per hour do you have on the publish system at peak time?](#how-many-requests-per-hour-do-you-have-on-the-publish-system-at-peak-time)
 
 #### How many authors are working with the system? {#how-many-authors-are-working-with-the-system}
 
@@ -1103,7 +1103,7 @@ If your system is running out of memory this can be seen in various ways, includ
 
 In these cases check:
 
-* the JVM settings used to [start AEM](../../../sites/deploying/using/deploy.md#gettingstarted)
+* the JVM settings used to [start AEM](../../../sites/deploying/using/deploy.md#getting-started)
 * The Knowledge Base:
 
     * [Analyze Memory Problems](https://helpx.adobe.com/experience-manager/kb/AnalyzeMemoryProblems.html)
@@ -1119,7 +1119,7 @@ If your system is either running out of diskspace, or you notice disk thrashing 
     * [Apache Sling Logging Configuration](../../../sites/deploying/using/osgi-configuration-settings.md#apacheslingloggingconfiguration)
     * [CQ HTML Library Manager](../../../sites/deploying/using/osgi-configuration-settings.md#daycqhtmllibrarymanager)
     * [CQ WCM Debug Filter](../../../sites/deploying/using/osgi-configuration-settings.md#daycqwcmdebugfilter)
-    * [Loggers](../../../sites/deploying/using/monitoring-and-maintaining.md#activatingthedebugloglevel) [](../../../sites/deploying/using/configuring.md#loggersandwritersforindividualservices)
+    * [Loggers](../../../sites/deploying/using/monitoring-and-maintaining.md#activating-the-debug-log-level) [](../../../sites/deploying/using/configuring.md#loggersandwritersforindividualservices)
 
 * Whether and how you have configured [Version Purging](../../../sites/deploying/using/version-purging.md)
 * The Knowledge Base:

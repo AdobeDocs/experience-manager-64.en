@@ -3,12 +3,12 @@ title: Configuring email endpoints
 seo-title: Configuring email endpoints
 description: Learn how to configure email endpoints.
 seo-description: Learn how to configure email endpoints.
-uuid: 15ae0fc8-825f-4c21-baa2-ee23620f6a94
+uuid: 9586571b-d0b7-41b5-ba0d-8bf13b0ef338
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/managing_endpoints
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: d7f72c63-f17a-47a9-ac2c-216d2c9af67c
+discoiquuid: 9f7e7539-c89d-47c7-b89f-9d45b6582315
 index: y
 internal: n
 snippet: y
@@ -30,7 +30,7 @@ All email endpoints are configured with an authorized user name and password for
 
 If your users send documents with Western European language characters in file and conversion path names, they must use an email application that supports the required encoding types (Latin1 [ISO-8859-1], Western European [Windows], or UTF-8). For more information, see the *Installing and Deploying AEM forms* document for your application server.
 
-Before you configure an email endpoint, configure the Email service. (See [Configure default email endpoint settings](configuring-email-endpoints#configure_default_email_endpoint_settings).) The Email service’s configuration parameters have two purposes:
+Before you configure an email endpoint, configure the Email service. (See [Configure default email endpoint settings](configuring-email-endpoints.md#configure_default_email_endpoint_settings).) The Email service’s configuration parameters have two purposes:
 
 * To configure attributes that are common for all email endpoints
 * To provide default values for all the email endpoints
@@ -59,7 +59,7 @@ You can configure POP3, IMAP, or SMTP to use Secure Sockets Layer (SSL) for an e
 
 You can use the Service Management page to configure attributes that are common for all email endpoints, and to provide default values for all the email endpoints.
 
-For forms workflow to receive and handle incoming email messages from users, you need to create an email endpoint for the Complete Task service. This email endpoint requires additional settings, as described in [Create an Email endpoint for the Complete Task service](configuring-email-endpoints#create_an_email_endpoint_for_the_complete_task_service).
+For forms workflow to receive and handle incoming email messages from users, you need to create an email endpoint for the Complete Task service. This email endpoint requires additional settings, as described in [Create an Email endpoint for the Complete Task service](configuring-email-endpoints.md#create_an_email_endpoint_for_the_complete_task_service).
 
 ### Change the default values for email endpoints {#change-the-default-values-for-email-endpoints}
 

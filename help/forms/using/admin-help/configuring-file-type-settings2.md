@@ -3,12 +3,12 @@ title: Configuring file type settings
 seo-title: Configuring file type settings
 description: Learn how to configure file type settings.
 seo-description: Learn how to configure file type settings.
-uuid: f4dba0d3-904c-4998-8629-830d822f5065
+uuid: 6743be13-2cb5-4ecb-a5a1-ad6200580c23
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_pdf_generator
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: fed259f1-9d27-4a69-b946-5702d3662ae7
+discoiquuid: 50114d0d-6900-43e1-8721-e9320bece3f1
 index: y
 internal: n
 snippet: y
@@ -109,7 +109,7 @@ You can delete a file type setting that is no longer used.
 
 ## Image to PDF settings {#image-to-pdf-settings}
 
-The following options determine how image files are converted to PDF. For instructions about accessing these settings, see [Create or edit file type settings](configuring-file-type-settings#create_or_edit_file_type_settings).
+The following options determine how image files are converted to PDF. For instructions about accessing these settings, see [Create or edit file type settings](configuring-file-type-settings.md#create_or_edit_file_type_settings).
 
 **Filename Extensions:** Comma-separated list of filename extensions that can be converted.
 
@@ -137,11 +137,11 @@ The following options determine how image files are converted to PDF. For instru
 
 The Export File Type setting in the Adobe PDF export settings section is used for converting a PDF file to another format. The default is HTML 4.01 with cascading style sheets (CSS) 1.0****(&#42;.htm, &#42;.html).
 
-For instructions about accessing this setting, see [Create or edit file type settings](configuring-file-type-settings#create_or_edit_file_type_settings).
+For instructions about accessing this setting, see [Create or edit file type settings](configuring-file-type-settings.md#create_or_edit_file_type_settings).
 
 ## HTML-to-PDF settings {#html-to-pdf-settings}
 
-The following options determine how HTML files are converted to PDF. For instructions about accessing these options, see [Create or edit file type settings](configuring-file-type-settings#create_or_edit_file_type_settings).
+The following options determine how HTML files are converted to PDF. For instructions about accessing these options, see [Create or edit file type settings](configuring-file-type-settings.md#create_or_edit_file_type_settings).
 
 **Try Fallback Converter:** PDF Generator can use either Java™ or Acrobat to convert HTML files to PDF. When this option is selected and a conversion fails or reaches the specified time-out limit, PDF Generator attempts the conversion by using the alternate method. If alternate method fails or reaches the specified time-out limit, an exception is written to the log file.
 
@@ -213,7 +213,7 @@ Enable these options to specify the window appearance:
 
 ## Flash videos to PDF settings {#flash-videos-to-pdf-settings}
 
-PDF Generator supports the ability to submit a video for Adobe Flash (SWF or FLV file) and create a PDF file with a video for Adobe Flash embedded in it. This conversion does not require Adobe Flash Player to be installed on the forms server. For instructions about accessing this option, see [Create or edit file type settings](configuring-file-type-settings#create_or_edit_file_type_settings).
+PDF Generator supports the ability to submit a video for Adobe Flash (SWF or FLV file) and create a PDF file with a video for Adobe Flash embedded in it. This conversion does not require Adobe Flash Player to be installed on the forms server. For instructions about accessing this option, see [Create or edit file type settings](configuring-file-type-settings.md#create_or_edit_file_type_settings).
 
 **Filename Extensions:** Comma-separated list of filename extensions that can be converted.
 
@@ -231,7 +231,7 @@ PDF Generator supports the ability to reduce the size of PDF files. Whether you 
 >
 >Optimizing a digitally signed document removes and invalidates the digital signatures.
 
-For instructions about accessing this setting, see [Create or edit file type settings](configuring-file-type-settings#create_or_edit_file_type_settings).
+For instructions about accessing this setting, see [Create or edit file type settings](configuring-file-type-settings.md#create_or_edit_file_type_settings).
 
 **Target PDF Version:** Specifies the version of Acrobat that the PDF is compatible with.
 

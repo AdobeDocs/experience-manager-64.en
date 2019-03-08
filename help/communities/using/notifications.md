@@ -3,12 +3,12 @@ title: Communities Notifications
 seo-title: Communities Notifications
 description: AEM Communities has notifications that display events of interest to the signed-in community member
 seo-description: AEM Communities has notifications that display events of interest to the signed-in community member
-uuid: 1e857b2f-12d7-4598-92a8-a0cef2dd310d
+uuid: 55806731-77e1-404b-abac-afcda4d0ec79
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 14b6750c-4d0b-4b82-ad7e-2c36f32ba286
+discoiquuid: a5dcd933-bfd5-49e7-91a8-b716f90452a5
 index: y
 internal: n
 snippet: y
@@ -30,7 +30,7 @@ What distinguishes notifications from activities and subscriptions is
 
 * a link to the notifications section is always present in a community site's header
 
-    * activities require the [activity stream function](../../communities/using/functions.md#activitystreamfunction) to be included in the community site's structure
+    * activities require the [activity stream function](../../communities/using/functions.md#activity-stream-function) to be included in the community site's structure
     * subscriptions require [configuration of email](../../communities/using/email.md)
 
 * the implementation of notifications is through scalable and pluggable channels

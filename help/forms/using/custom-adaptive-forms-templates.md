@@ -3,11 +3,11 @@ title: Creating a custom adaptive form template
 seo-title: Creating a custom adaptive form template
 description: This article describes how to create custom adaptive form templates.
 seo-description: This article describes how to create custom adaptive form templates.
-uuid: fcd11914-182b-440a-80a9-7445f3d79030
+uuid: 3e6c1285-17cb-40fa-be9e-f8c9e077d5cc
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: customization
-discoiquuid: 4117eb4f-a114-4af1-9082-e15332560eee
+discoiquuid: 9374624b-73fa-4f2a-8124-287dd5686995
 index: y
 internal: n
 snippet: y

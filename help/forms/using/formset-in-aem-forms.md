@@ -3,11 +3,11 @@ title: Form set in AEM Forms
 seo-title: Form set in AEM Forms
 description: This article introduces form set and explains how to create form sets by stitching together HTML5 forms. This article also explains how you can prefill xml data to a form set and how you can use form sets in process management.
 seo-description: This article introduces form set and explains how to create form sets by stitching together HTML5 forms. This article also explains how you can prefill xml data to a form set and how you can use form sets in process management.
-uuid: d4405827-b1ef-4850-bb78-6462edeabf34
+uuid: ec773536-c41f-40f7-b43c-3fc175214cc6
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
-discoiquuid: 6f4f999d-6b3d-4c29-9eac-2d1429c6ecd1
+discoiquuid: e537460f-0831-4910-a020-078fcfd95b84
 index: y
 internal: n
 snippet: y
@@ -348,7 +348,7 @@ In case there is a root element in the prefill XML, the name of that element is 
 
 AEM Forms app allows field workers to synchronize their mobile devices with an AEM Forms server and work on their tasks. The application works even when the device is offline by saving data locally on the device. Using annotation features, such as photographs, field workers can provide accurate information to integrate into the business processes.  
   
-For more information on AEM Forms app, see [AEM Forms app overview](/forms/using/mobile-workspace-overview).
+For more information on AEM Forms app, see [AEM Forms app overview](/forms/using/mobile-workspace-overview.md).
 
 ## Known limitations - patterns not fully supported in Form set {#known-limitations-patterns-not-fully-supported-in-form-set}
 

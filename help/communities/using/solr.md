@@ -3,12 +3,12 @@ title: Solr Configuration for SRP
 seo-title: Solr Configuration for SRP
 description: An Apache Solr installation may be shared between the node store (Oak) and common store (SRP) by using different collections
 seo-description: An Apache Solr installation may be shared between the node store (Oak) and common store (SRP) by using different collections
-uuid: afa33412-5eda-42ac-8bde-38356be76b17
+uuid: 72d6a7a3-907c-46d4-b9aa-0f26777638a4
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: a23c7f10-0b49-4e9a-8eb0-2327563188c5
+discoiquuid: 77546166-b190-4140-9431-872e76ae60ca
 index: y
 internal: n
 snippet: y
@@ -22,7 +22,7 @@ An [Apache Solr](http://lucene.apache.org/solr/) installation may be shared betw
 
 If both the Oak and SRP collections are used intensively, a second Solr may be installed for performance reasons.
 
-For production environments, [SolrCloud mode](#solrcloudmode) provides improved performance over standalone mode (a single, local Solr setup).
+For production environments, [SolrCloud mode](#solrcloud-mode) provides improved performance over standalone mode (a single, local Solr setup).
 
 ### Requirements {#requirements}
 
@@ -35,12 +35,12 @@ Download and install Apache Solr :
 * choice of run modes :
 
     * standalone mode
-    * [SolrCloud mode](#solrcloudmode) (recommended for production environments)
+    * [SolrCloud mode](#solrcloud-mode) (recommended for production environments)
 
 * choice of Multilingual Search (MLS)
 
-    * [Installing Standard MLS](#installingstandardmls)
-    * [Installing Advanced MLS](#installingadvancedmls)
+    * [Installing Standard MLS](#installing-standard-mls)
+    * [Installing Advanced MLS](#installing-advanced-mls)
 
 ## SolrCloud Mode {#solrcloud-mode}
 
@@ -193,11 +193,11 @@ The Standard MLS files are stored in the AEM repository.
 
     1. copy the downloaded **schema.xml** and **solrconfig.xml** to *new-config-dir* to overwrite existing files
 
-1. [Upload the new configuration](#1uploadaconfigurationtozookeeper) to ZooKeeper
-1. [Create a collection](#2createacollection) specifying the necessary parameters, such as number of shards, number of replicas, and configuration name.
-1. If the configuration name was *not *provided during creation of the collection, [link this newly created collection](#3linkacollectiontoaconfigurationset) with the configuration uploaded to ZooKeeper
+1. [Upload the new configuration](#upload-a-configuration-to-zookeeper) to ZooKeeper
+1. [Create a collection](#create-a-collection) specifying the necessary parameters, such as number of shards, number of replicas, and configuration name.
+1. If the configuration name was *not *provided during creation of the collection, [link this newly created collection](#link-a-collection-to-a-configuration-set) with the configuration uploaded to ZooKeeper
 
-1. For MSRP, run [MSRP Reindex Tool](../../communities/using/msrp.md#msrpreindextool), unless this is a new installation
+1. For MSRP, run [MSRP Reindex Tool](../../communities/using/msrp.md#msrp-reindex-tool), unless this is a new installation
 
 #### Standalone Mode - Standard MLS {#standalone-mode-standard-mls}
 
@@ -221,7 +221,7 @@ The Standard MLS files are stored in the AEM repository.
 
 For the SRP collection (MSRP or DSRP) to support advanced MLS, new Solr plug-ins are required in addition to a custom schema and Solr configuration. All required items are packaged into a downloadable zip file. In addition, an install script is included for use when Solr is deployed in standalone mode.
 
-To obtain the Advanced MLS package, see [AEM Advanced MLS](../../communities/using/deploy-communities.md#aemadvancedmls) in the deploy section of the documentation.
+To obtain the Advanced MLS package, see [AEM Advanced MLS](../../communities/using/deploy-communities.md#aem-advanced-mls) in the deploy section of the documentation.
 
 To get started with the install for either SolrCloud or standalone mode:
 
@@ -261,7 +261,7 @@ Installation instructions - note the few differences for Solr4 and Solr5 :
 
         * resulting in *new-config-dir*/stopwords/&#42;.txt
 
-1. [Upload the new configuration](#1uploadaconfigurationtozookeeper) to ZooKeeper
+1. [Upload the new configuration](#upload-a-configuration-to-zookeeper) to ZooKeeper
 1. Copy the new **profiles/** folder ...
 
     * for Solr4 : copy to each node's resources/ folder
@@ -281,8 +281,8 @@ Installation instructions - note the few differences for Solr4 and Solr5 :
     * *solr-install-dir*/contrib/analysis-extras/lib/&#42;.jar
     * *solr-install-dir*/contrib/analysis-extras/lucene-libs/&#42;.jar
 
-1. [Create a collection](#2createacollection) specifying the necessary parameters, such as number of shards, number of replicas, and configuration name.
-1. If the configuration name was *not* provided during creation of the collection, [link this newly created collection](#3linkacollectiontoaconfigurationset) with the configuration uploaded to ZooKeeper
+1. [Create a collection](#create-a-collection) specifying the necessary parameters, such as number of shards, number of replicas, and configuration name.
+1. If the configuration name was *not* provided during creation of the collection, [link this newly created collection](#link-a-collection-to-a-configuration-set) with the configuration uploaded to ZooKeeper
 
 1. For MSRP, run [MSRP Reindex Tool](#msrpreindextool), unless this is a new installation
 

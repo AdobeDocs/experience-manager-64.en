@@ -3,12 +3,12 @@ title: Form Data Integration Service JavaAPI Quick Start(SOAP)
 seo-title: Form Data Integration Service JavaAPI Quick Start(SOAP)
 description: null
 seo-description: null
-uuid: 97f1714c-8172-47d1-a3aa-b068be34db05
+uuid: c8f44d0e-6d5f-4f8f-90fa-4d14f76483e8
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
-discoiquuid: 2b18d6d3-9da6-4f60-9a5f-f0d0aa1d9411
+discoiquuid: 75633b48-5614-46e8-9762-ba361bc17747
 index: y
 internal: n
 snippet: y
@@ -18,17 +18,17 @@ snippet: y
 
 The following Quick Starts are available for the Form Data Integration service.
 
-[Quick Start (SOAP mode): Importing form data using the Java API](form-data-integration-service-java#quick_start_soap_mode_importing_form_data_using_the_java_api)
+[Quick Start (SOAP mode): Importing form data using the Java API](form-data-integration-service-java.md#quick_start_soap_mode_importing_form_data_using_the_java_api)
 
-[Quick Start (SOAP mode): Exporting form data using the Java API](form-data-integration-service-java#quick_start_soap_mode_exporting_form_data_using_the_java_api)
+[Quick Start (SOAP mode): Exporting form data using the Java API](form-data-integration-service-java.md#quick_start_soap_mode_exporting_form_data_using_the_java_api)
 
 AEM Forms operations can be performed using the AEM Forms strongly-typed API and the connection mode should be set to SOAP.
 
-***Note**: Quick Start located in Programming with AEM forms are based on the Forms Server being deployed on JBoss Application Server and the Microsoft Windows operating system. However, if you are using another operating system, such as UNIX, replace Windows-specific paths with paths that are supported by the applicable operating system. Likewise, if you are using another J2EE application server, ensure that you specify valid connection properties. (See [Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties).)*
+***Note**: Quick Start located in Programming with AEM forms are based on the Forms Server being deployed on JBoss Application Server and the Microsoft Windows operating system. However, if you are using another operating system, such as UNIX, replace Windows-specific paths with paths that are supported by the applicable operating system. Likewise, if you are using another J2EE application server, ensure that you specify valid connection properties. (See [Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties).)*
 
 ## Quick Start (SOAP mode): Importing form data using the Java API {#quick-start-soap-mode-importing-form-data-using-the-java-api}
 
-The following Java code example imports data into a PDF form. The data is located in an XML file named *Loan_data.xml* and the PDF form is saved as a PDF file named *ResultLoanForm.pdf*. (See [Importing Form Data](/programming-with-aem-forms/importing-exporting-data#importing_form_data).)
+The following Java code example imports data into a PDF form. The data is located in an XML file named *Loan_data.xml* and the PDF form is saved as a PDF file named *ResultLoanForm.pdf*. (See [Importing Form Data](/programming-with-aem-forms/importing-exporting-data.md#importing_form_data).)
 
 ```as3
  /* 
@@ -130,7 +130,7 @@ The following Java code example imports data into a PDF form. The data is locate
 
 ## Quick Start (SOAP mode): Exporting form data using the Java API {#quick-start-soap-mode-exporting-form-data-using-the-java-api}
 
-The following Java code example exports data from a PDF form. The form data is saved as an XML file named *Loan_data.xml*. (See [Exporting Form Data](/programming-with-aem-forms/importing-exporting-data#exporting_form_data).)
+The following Java code example exports data from a PDF form. The form data is saved as an XML file named *Loan_data.xml*. (See [Exporting Form Data](/programming-with-aem-forms/importing-exporting-data.md#exporting_form_data).)
 
 ```as3
  /* 

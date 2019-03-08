@@ -3,12 +3,12 @@ title: Configuring for AEM Apps
 seo-title: Configuring for AEM Apps
 description: Learn how to configure AEM Apps.
 seo-description: Learn how to configure AEM Apps.
-uuid: a292ba88-04b2-452e-a1fe-89a066b89e87
+uuid: e2fd12f1-42ef-4b82-b5d9-471da25ee795
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: f121f0cc-2c18-4ecc-9165-f4025269327f
+discoiquuid: ffb08ec5-a3d3-42aa-b700-de7590fa6110
 index: y
 internal: n
 snippet: y
@@ -34,4 +34,4 @@ To configure the referrer filter service:
 
 ![](assets/chlimage_1-58.png)
 
-See the [OSGI Configuration Settings](../../../sites/deploying/using/osgi-configuration-settings.md) and [Security Checklist - Issues with Cross-Site Request Forgery](/content/docs/en/aem/6-3/administer/security/crx-security-checklist#Issues%20with%20Cross-Site%20Request%20Forgery) for further details. 
+See the [OSGI Configuration Settings](../../../sites/deploying/using/osgi-configuration-settings.md) and [Security Checklist - Issues with Cross-Site Request Forgery](/content/docs/en/aem/6-3/administer/security/crx-security-checklist.md#issues%20with%20cross-site%20request%20forgery) for further details. 

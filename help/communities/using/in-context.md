@@ -3,12 +3,12 @@ title: In-Context Moderation
 seo-title: In-Context Moderation
 description: How to perform moderator actions
 seo-description: How to perform moderator actions
-uuid: f2af8ae7-5be4-42f5-999a-412adefa2cb3
+uuid: e566facd-495a-4fcf-b5f5-c4e0cfd3d458
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: efd8b15a-86c9-419a-865a-4718f7d13211
+discoiquuid: 79b44c93-895b-433e-b0f7-b9343adc0e1d
 index: y
 internal: n
 snippet: y
@@ -22,7 +22,7 @@ When using a [moderation console](../../communities/using/moderation.md), the in
 
 ## Moderation Actions {#moderation-actions}
 
-Visit the moderation overview for a description of [moderation actions](../../communities/using/moderate-ugc.md#moderationactions).
+Visit the moderation overview for a description of [moderation actions](../../communities/using/moderate-ugc.md#moderation-actions).
 
 ## Moderation UI {#moderation-ui}
 

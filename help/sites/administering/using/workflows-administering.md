@@ -3,12 +3,12 @@ title: Administering Workflow Instances
 seo-title: Administering Workflow Instances
 description: Lear how to administer Workflow Instances.
 seo-description: Lear how to administer Workflow Instances.
-uuid: 5404b3e5-c39f-4f78-a567-e3f2cf761020
+uuid: a9c71726-d441-42ce-886c-239e8c39a289
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: 7911c7ad-652b-4a17-8ce1-adcef4709dde
+discoiquuid: 117efec0-7edd-4ac8-8d27-a3adc1388c09
 index: y
 internal: n
 snippet: y
@@ -20,9 +20,9 @@ The workflow console provides several tools for administering workflow instances
 
 >[!NOTE]
 >
->The [JMX console](../../../sites/administering/using/jmx-console.md#workflowmaintenance) provides additional workflow maintenance operations.
+>The [JMX console](../../../sites/administering/using/jmx-console.md#workflow-maintenance) provides additional workflow maintenance operations.
 
-A range of consoles are available for administering your workflows. Use the [global navigation](../../../sites/authoring/using/basic-handling.md#globalnavigation) to open the **Tools** pane, then select **Workflow**:
+A range of consoles are available for administering your workflows. Use the [global navigation](../../../sites/authoring/using/basic-handling.md#global-navigation) to open the **Tools** pane, then select **Workflow**:
 
 * **Models**: Manage workflow definitions
 * **Instances**: View and manage running workflow instances

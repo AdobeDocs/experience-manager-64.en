@@ -3,12 +3,12 @@ title: Managing Image Presets
 seo-title: Managing Image Presets
 description: Understand image presets and learn how to create, modify, and manage image presets
 seo-description: Understand image presets and learn how to create, modify, and manage image presets
-uuid: bf2565e2-6a55-4ce9-8271-72b4369ce8fa
+uuid: 6e2561d0-bb9f-40fd-bd56-c280a5762a5b
 contentOwner: Rick Brough
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: fa33511d-85de-4f3f-9e01-bd7ed6d4b3b5
+discoiquuid: d39dc346-6b24-470e-b9d4-009ca25fc4d5
 legacypath: /content/docs/en/aem/6-0/administer/integration/dynamic-media/image-presets
 index: y
 internal: n
@@ -53,7 +53,7 @@ You manage your image presets in AEM by tapping or clicking the AEM logo to acce
 >
 >In *Dynamic Media - Hybrid mode*, you need to manually publish image presets.
 >
->See [Publishing Image Presets.](#publishingimagepresets)
+>See [Publishing Image Presets.](#publishing-image-presets)
 
 >[!NOTE]
 >
@@ -236,10 +236,10 @@ Creating an image preset lets you apply those settings to any images when previe
 >If using Internet Explorer 9, creating a preset does not appear in the preset list immediately after saving. To work around this issue, disable the cache for IE9.
 
 If you intend to support the ingestion of AI, PDF, and EPS files so that you can generate dynamic rendition of these file formats, you may want to review the following information before you create image presets.  
-See [Adobe Illustrator (AI), Postscript (EPS), and PDF file formats](#adobeillustratoraipostscriptepsandpdffileformats).
+See [Adobe Illustrator (AI), Postscript (EPS), and PDF file formats](#adobe-illustrator-ai-postscript-eps-and-pdf-file-formats).
 
 If you intend to support the ingestion of INDD files so that you can generate dynamic rendition of this file format, you may want to review the following information before you create image presets.  
-See [InDesign (INDD) file format](#indesigninddfileformat).
+See [InDesign (INDD) file format](#indesign-indd-file-format).
 
 To create an image preset:
 
@@ -252,7 +252,7 @@ To create an image preset:
    >
    >To make this image preset responsive, erase the values in the **width** and **height** fields and leave them blank.
 
-1. Enter values into the **Basic** and **Advanced** tabs as appropriate, including a name. The options are outlined in [Image Preset Options](#imagepresetoptions). Presets appear in the left pane and can be used on-the-fly with other assets.
+1. Enter values into the **Basic** and **Advanced** tabs as appropriate, including a name. The options are outlined in [Image Preset Options](#image-preset-options). Presets appear in the left pane and can be used on-the-fly with other assets.
 
    ![](assets/chlimage_1-497.png)
 
@@ -260,7 +260,7 @@ To create an image preset:
 
 ### Creating a Responsive Image Preset {#creating-a-responsive-image-preset}
 
-To create a responsive image preset, perform the steps in [Creating Image Presets](#creatingimagepresets). When entering the height and width in the **Edit Image Preset** window, erase the values and leave them blank.
+To create a responsive image preset, perform the steps in [Creating Image Presets](#creating-image-presets). When entering the height and width in the **Edit Image Preset** window, erase the values and leave them blank.
 
 Leaving them blank tells AEM that this image preset is responsive. You can adjust the other values as appropriate. 
 
@@ -429,7 +429,7 @@ The following are some basic examples of what you can do with image modifiers.
 
 >[!NOTE]
 >
->Some image modifiers [cannot be used in AEM](#advancedtaboptions).
+>Some image modifiers [cannot be used in AEM](#advanced-tab-options).
 
 * [op_invert](http://microsite.omniture.com/t2/help/en_US/s7/is_ir_api/is_api/http_ref/r_op_invert.html) - Inverts each color component for a negative image effect.
 

@@ -3,12 +3,12 @@ title: Channel Level Activation - Single Event Playback
 seo-title: Channel Level Activation - Single Event Playback
 description: Follow this guide to understand channel level activation using single event playback.
 seo-description: Follow this guide to understand channel level activation using single event playback.
-uuid: cb32b1b9-5f18-4c81-95e4-8fb4dd323e20
+uuid: 0f7c5040-84c9-46e3-8d0b-1cfe8f988f0c
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: authoring
 content-type: reference
-discoiquuid: 274bd805-deab-4dac-8785-7a3c9de64a18
+discoiquuid: 7c746207-a90f-41d9-99e8-d50026229e49
 noindex: true
 index: y
 internal: n
@@ -19,14 +19,14 @@ snippet: y
 
 Using Channel Level Activation covers the following topics:
 
-* ** [Overview](/screens/using/channel-level-activation.html?cq_ck=1543343331251#Overview)**
-* ** [Using Channel Level Activation as a Single Event Playback](/screens/using/channel-level-activation.html?cq_ck=1543343331251#UsingChannelLevelActivation)**
+* ** [Overview](../../screens/using/channel-level-activation.md#overview)**
+* ** [Using Channel Level Activation as a Single Event Playback](../../screens/using/channel-level-activation.md#using-channel-level-activation)**
 
-    * ** [Prerequisites](/screens/using/channel-level-activation.html?cq_ck=1543343331251#Prerequisites)**
-    * ** [Implementation](/screens/using/channel-level-activation.html?cq_ck=1543343331251#Implementation)  
+    * ** [Prerequisites](../../screens/using/channel-level-activation.md#prerequisites)**
+    * ** [Implementation](../../screens/using/channel-level-activation.md#implementation)  
       **
 
-* ** [Viewing the Results](/screens/using/channel-level-activation.html?cq_ck=1543343331251#ViewingtheResults)**
+* ** [Viewing the Results](../../screens/using/channel-level-activation.md#viewing-the-results)**
 
 ## Overview {#overview}
 

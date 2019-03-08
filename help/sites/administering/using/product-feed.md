@@ -3,12 +3,12 @@ title: Product Feed
 seo-title: Product Feed
 description: Learn about the AEM Product Feed.
 seo-description: Learn about the AEM Product Feed.
-uuid: 3527564f-35e6-4815-a13c-df7f680e9a5b
+uuid: 03c02183-7b9a-4514-8208-4c59cacb7bc1
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: b3d3dc68-bf84-4220-aa89-46ec664dbd35
+discoiquuid: ba6c93b4-fe7a-4330-91fd-ee2fccd999ef
 index: y
 internal: n
 snippet: y
@@ -23,7 +23,7 @@ AEM integrates with [Search&Promote](http://www.adobe.com/solutions/testing-targ
 * leverage the Remote Control feature of Search&Promote to perform on-demand or scheduled requests of the product feed
 * feed generation for different Search&Promote accounts, configured as cloud services configurations.
 
-You need to have a valid acount and to [configure the connection to Search&Promote](../../../sites/administering/using/search-and-promote.md#configuringtheconnectiontosearchpromote). You also have to verify that you are using the correct [data center](../../../sites/administering/using/search-and-promote.md#configuringthedatacenter) and make sure that the **Remote server URI **is configured.
+You need to have a valid acount and to [configure the connection to Search&Promote](../../../sites/administering/using/search-and-promote.md#configuring-the-connection-to-search-promote). You also have to verify that you are using the correct [data center](../../../sites/administering/using/search-and-promote.md#configuring-the-data-center) and make sure that the **Remote server URI **is configured.
 
 ## Set up the Product Feed {#set-up-the-product-feed}
 

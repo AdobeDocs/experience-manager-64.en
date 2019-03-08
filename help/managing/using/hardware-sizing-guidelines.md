@@ -3,12 +3,12 @@ title: Hardware Sizing Guidelines
 seo-title: Hardware Sizing Guidelines
 description: These sizing guidelines offer an approximation of the hardware resources required to deploy an AEM project.
 seo-description: These sizing guidelines offer an approximation of the hardware resources required to deploy an AEM project.
-uuid: 78fddec9-e590-4838-b628-0e0925de9371
+uuid: ebbf6512-476a-4fb0-b2bc-3b499ea19bd2
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/MANAGING
 topic-tags: managing
 content-type: reference
-discoiquuid: fdbaeecd-6505-4269-b51c-eb5a0b49b121
+discoiquuid: 01ad37b9-69e6-49f0-8f4b-87715285896e
 index: y
 internal: n
 snippet: y
@@ -49,7 +49,7 @@ Basic factors to consider are (in this order):
 
 ### Architecture {#architecture}
 
-A typical AEM setup consists of an author and a publish environment. These environments have different requirements regarding the underlying hardware size and system configuration. Detailed considerations for both environments are described in the [author environment](../../managing/using/hardware-sizing-guidelines.md#authorenvironmentspecificcalculations) and [publish environment](../../managing/using/hardware-sizing-guidelines.md#publishenvironmentspecificcalculations) sections.
+A typical AEM setup consists of an author and a publish environment. These environments have different requirements regarding the underlying hardware size and system configuration. Detailed considerations for both environments are described in the [author environment](../../managing/using/hardware-sizing-guidelines.md#author-environment-specific-calculations) and [publish environment](../../managing/using/hardware-sizing-guidelines.md#publish-environment-specific-calculations) sections.
 
 In a typical project setup, you have several environments on which to stage project phases:
 
@@ -116,7 +116,7 @@ While all systems are running, an increased computational performance is availab
 The estimation of how many cluster nodes are necessary is based on the basic requirements and specific use-cases of the particular web project:
 
 * From the perspective of fail-safeness it is necessary to determine, for all environments, how critical failure is and the failure compensation time based on how long it takes for a cluster node to recover.
-* For the aspect of scalability, the number of write operations is basically the most important factor; see [Authors Working in Parallel](../../managing/using/hardware-sizing-guidelines.md#authorsworkinginparallel) for the author environment and [Social Collaboration](../../managing/using/hardware-sizing-guidelines.md#socialcollaborationspecificconsiderations) for the publish environment. Load balancing can be established for operations that access the system solely to process read operations; see [Dispatcher](https://helpx.adobe.com/experience-manager/dispatcher/user-guide.html) for details.
+* For the aspect of scalability, the number of write operations is basically the most important factor; see [Authors Working in Parallel](../../managing/using/hardware-sizing-guidelines.md#authors-working-in-parallel) for the author environment and [Social Collaboration](../../managing/using/hardware-sizing-guidelines.md#socialcollaborationspecificconsiderations) for the publish environment. Load balancing can be established for operations that access the system solely to process read operations; see [Dispatcher](https://helpx.adobe.com/experience-manager/dispatcher/user-guide.html) for details.
 
 ## Author environment specific calculations {#author-environment-specific-calculations}
 
@@ -180,7 +180,7 @@ You can calculate the number of computers (or CPUs) required for the author envi
 
 This formula can serve as a general guideline for scaling CPUs when authors are performing basic operations with AEM. It assumes that the system and the application are optimized. However, the formula will not hold true for advanced features such as MSM or Assets (see the sections below).
 
-Please also see the additional comments on [Parallelization](../../managing/using/hardware-sizing-guidelines.md#parallelizationofaeminstances) and [Performance Optimization](../../sites/deploying/using/configuring-performance.md).
+Please also see the additional comments on [Parallelization](../../managing/using/hardware-sizing-guidelines.md#parallelization-of-aem-instances) and [Performance Optimization](../../sites/deploying/using/configuring-performance.md).
 
 ### Hardware Recommendations {#hardware-recommendations}
 

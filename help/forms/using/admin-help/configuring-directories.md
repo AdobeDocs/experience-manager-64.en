@@ -3,12 +3,12 @@ title: Configuring directories
 seo-title: Configuring directories
 description: Learn how to add, edit and delete directories and configure user management to use virtual list view.
 seo-description: Learn how to add, edit and delete directories and configure user management to use virtual list view.
-uuid: b804a822-fae2-4523-b0a6-93a4901a572e
+uuid: 0a41fca0-617c-4bb5-9151-f7d2a7f6bc36
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/setting_up_and_managing_domains
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 0d24d144-4f9f-4f90-be4c-ea515b7a4f8d
+discoiquuid: af0c1347-c1f9-4dac-a0df-5afd981b0521
 index: y
 internal: n
 snippet: y
@@ -28,14 +28,14 @@ For each enterprise domain you configure, specify the directories that the authe
 1. Click New Enterprise Domain or select an existing enterprise domain.
 1. Click Add Directory. 
 1. In the Profile Name box, type a name to distinguish this directory and then click Next.
-1. Configure the directory server settings. (See [Directory settings](configuring-directories#directory_settings).) 
+1. Configure the directory server settings. (See [Directory settings](configuring-directories.md#directory_settings).) 
 1. To verify that a connection can be made to the LDAP server, click Test. If the test fails, review the exception in the Application Server log file to determine the root cause of the failure. Click Close and then click Next.
-1. Select User Settings and configure the settings as required. (See [Directory settings](configuring-directories#directory_settings).) 
+1. Select User Settings and configure the settings as required. (See [Directory settings](configuring-directories.md#directory_settings).) 
 1. To verify that the base DN and other configured attributes collect the correct batch of users, click Test. LDAP attempts to retrieve the first 200 records by using the provided settings (such as the base DN, search filter, and all attributes).
 
    If users are returned, the results show the values that are assigned to each field as per the attribute set. If the test fails because of a non-existent server name, incorrect authorization information, or incorrect attributes, the following error message appears: "The search criteria specified did not return any result". To determine the root cause of the failure, review the exception in the Application Server log file. Click Close and then click Next. 
 
-1. Select Group Settings and configure the settings as required. (See [Directory settings](configuring-directories#directory_settings).)
+1. Select Group Settings and configure the settings as required. (See [Directory settings](configuring-directories.md#directory_settings).)
 1. To verify that the base DN and other configured attributes collect the correct batch of groups, click Test. If groups are returned, the results show the values that are assigned to each field as per the attribute set. Click Close.
 
 ### Add a custom SPI {#add-a-custom-spi}
@@ -55,7 +55,7 @@ You can edit the details of a directory that you previously configured.
 
 1. In administration console, click Settings &gt; User Management &gt; Domain Management.
 1. Click the appropriate domain in the list and, on the page that appears, select the appropriate directory from the list.
-1. Configure the directory, user, and group settings as required. (See [Directory settings](configuring-directories#directory_settings).) 
+1. Configure the directory, user, and group settings as required. (See [Directory settings](configuring-directories.md#directory_settings).) 
 1. Click OK.
 
 ## Delete a directory {#delete-a-directory}
@@ -151,7 +151,7 @@ The amount of space used to display the name of the business calendar key in the
 
 **Enable Virtual List View (VLV) Control:** An LDAP control that enables AEM forms to retrieve data in batches from the directory server. If you are using Sun One as your LDAP directory and the directory contains many users, enabling VLV creates an index that User Management can use when searching users. This feature is useful when using a normal user account that can synchronize only a limited amount of data. You can also enable VLV for groups. If you select Enable Virtual List View (VLV) Control, specify a name in the Sort Field box.
 
-***Note**: To enable VLV, configure Sun One. (See [Configure User Management to use Virtual List View (VLV)](configuring-directories#configure_user_management_to_use_virtual_list_view_vlv).)*
+***Note**: To enable VLV, configure Sun One. (See [Configure User Management to use Virtual List View (VLV)](configuring-directories.md#configure_user_management_to_use_virtual_list_view_vlv).)*
 
 **Sort Field:** If you selected Enable Virtual List View (VLV) Control, specify the attribute name used to sort the index. This attribute name (such as uid) is the one you specified when you created an index for VLV on the directory server.
 
@@ -189,7 +189,7 @@ If DN is specified as a unique identifier, you do not need to configure Member U
 
 **Enable Virtual List View (VLV) Control:** An LDAP control that enables AEM forms to retrieve data in batches from the directory server. If you are using Sun One as your LDAP directory and the directory contains many groups, enabling VLV creates an index that User Management can use when searching groups. This feature is useful when using a normal user account that can synchronize only a limited amount of data. You can also enable VLV for users. If you select Enable Virtual List View (VLV) Control, specify a Sort Field Name.
 
-***Note**: To enable VLV, configure Sun One. (See [Configure User Management to use Virtual List View (VLV)](configuring-directories#configure_user_management_to_use_virtual_list_view_vlv).)*
+***Note**: To enable VLV, configure Sun One. (See [Configure User Management to use Virtual List View (VLV)](configuring-directories.md#configure_user_management_to_use_virtual_list_view_vlv).)*
 
 **Sort Field Name:** If you selected Enable Virtual List View (VLV) Control, specify the attribute name used to sort the index. This attribute name is the one you specified when you created an index for VLV on the directory server.
 
@@ -207,9 +207,9 @@ The LDAP protocol provides a mechanism to query large data sets in a paginated w
 >
 >This section describes using the VLV control for the Sun ONE Directory Server. However, you can use this control for any directory server that supports VLV control.
 
-1. When configuring the directory, select Enable Virtual List View (VLV) Control on both the User Settings page and the Group Settings page. When you select the check box, you must also specify a sort name in the Sort Field box. The default value is uid. (See [Adding directories or custom SPIs](configuring-directories#adding_directories_or_custom_spis) or [Edit a directory](configuring-directories#edit_a_directory).)
-1. Use Sun ONE administration console or a command-line script to create the LDAP VLV entries for users and groups. If you use a command-line script, you can use the sample users and groups LDIF files. (See [Configuring the Sun ONE Directory Server for VLV](configuring-directories#configuring_the_sun_one_directory_server_for_vlv).) 
-1. Stop the server and create the required index. (See [Create the Directory Server Index for VLV](configuring-directories#create_the_directory_server_index_for_vlv).)
+1. When configuring the directory, select Enable Virtual List View (VLV) Control on both the User Settings page and the Group Settings page. When you select the check box, you must also specify a sort name in the Sort Field box. The default value is uid. (See [Adding directories or custom SPIs](configuring-directories.md#adding_directories_or_custom_spis) or [Edit a directory](configuring-directories.md#edit_a_directory).)
+1. Use Sun ONE administration console or a command-line script to create the LDAP VLV entries for users and groups. If you use a command-line script, you can use the sample users and groups LDIF files. (See [Configuring the Sun ONE Directory Server for VLV](configuring-directories.md#configuring_the_sun_one_directory_server_for_vlv).) 
+1. Stop the server and create the required index. (See [Create the Directory Server Index for VLV](configuring-directories.md#create_the_directory_server_index_for_vlv).)
 
 ### Configuring the Sun ONE Directory Server for VLV {#configuring-the-sun-one-directory-server-for-vlv}
 
@@ -254,7 +254,7 @@ Here is a sample script LDIF for VLV entry for users:
 
    >[!NOTE]
    >
-   >As a convention, the vlvIndex entry name is also set to `lcuser`, but you can give it a different name. Use the same name in the vlvindex tool. (See [Create the Directory Server Index for VLV](configuring-directories#create_the_directory_server_index_for_vlv)*.)*
+   >As a convention, the vlvIndex entry name is also set to `lcuser`, but you can give it a different name. Use the same name in the vlvindex tool. (See [Create the Directory Server Index for VLV](configuring-directories.md#create_the_directory_server_index_for_vlv)*.)*
 
 1. Using the `ldapmodify` tool provided with Sun ONE Server, create a similar entry for groups by using the group's Base DN, Search Filter and Sort Field respectively:
 

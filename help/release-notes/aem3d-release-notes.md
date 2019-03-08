@@ -3,13 +3,13 @@ title: AEM 3D Release Notes
 seo-title: AEM 3D Release Notes
 description: Release notes specific to 3D content in Adobe Experience Manager Assets.
 seo-description: Release notes specific to 3D content in Adobe Experience Manager Assets.
-uuid: fd1e6020-513f-4ec4-8c65-398991e4b211
+uuid: 7b3283aa-c299-4629-81d0-4f2b9b41e033
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4
 topic-tags: release-notes
 content-type: reference
 topic-tags: 3D
-discoiquuid: d490ef6f-649a-4a63-a346-fc3df10b48c8
+discoiquuid: 2b744df5-9aef-41a5-bc05-60aab2e3782d
 index: y
 internal: n
 snippet: y
@@ -122,7 +122,7 @@ See also [Integrating AEM 3D with Autodesk Maya](../assets/using/integrate-maya-
   </tr>
   <tr>
    <td>*</td> 
-   <td><p>Additional 3D input formats supported by Autodesk Maya can be enabled.</p> <p>See <a href="../assets/using/integrate-maya-with-3d.md#enablingadditionalformatssupportedbymaya" target="_blank">Enabling Additional Formats Supported by Maya</a>.</p> </td> 
+   <td><p>Additional 3D input formats supported by Autodesk Maya can be enabled.</p> <p>See <a href="../assets/using/integrate-maya-with-3d.md#enabling-additional-formats-supported-by-maya" target="_blank">Enabling Additional Formats Supported by Maya</a>.</p> </td> 
    <td>Windows only</td> 
    <td>Autodesk Maya is required on the Author node to enable these file formats. See <a href="../assets/using/integrate-maya-with-3d.md">Integrating AEM 3D with Autodesk Maya</a>.</td> 
   </tr>

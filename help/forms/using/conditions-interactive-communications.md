@@ -3,10 +3,10 @@ title: Conditions in Interactive Communications
 seo-title: Conditions in Interactive Communications
 description: Creating and editing condition fragments to be used in Interactive Communications - condition is one of the four types of document fragments used to build Interactive Communications. The other three are texts, lists, and layout fragments.  
 seo-description: Creating and editing conditions to be used in Interactive Communications
-uuid: e901e46b-003b-4c8f-a175-d171ce5b164a
+uuid: da46367f-3ee1-4792-85bb-8ed5b32b0675
 topic-tags: interactive-communications
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: e027b30b-ee0e-4dec-9835-9fff2f0c083c
+discoiquuid: a520d487-0ee0-4166-a462-bf8923bae8f0
 index: y
 internal: n
 snippet: y

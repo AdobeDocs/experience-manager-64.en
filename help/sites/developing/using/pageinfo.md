@@ -3,12 +3,12 @@ title: Obtaining Page Information in JSON Format
 seo-title: Obtaining Page Information in JSON Format
 description: To obtain the page information, send a request to the PageInfo servlet to obtain the page metadata in JSON format
 seo-description: To obtain the page information, send a request to the PageInfo servlet to obtain the page metadata in JSON format
-uuid: d78656cd-61b4-48da-8a15-4a9a5438a8bb
+uuid: 587b3612-bcfa-4024-a998-b69bf61f4788
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: components
 content-type: reference
-discoiquuid: afd7660c-a64b-4493-9158-ddc8b6eef63a
+discoiquuid: 30b6be13-2493-46ec-a60c-85f9b3423124
 index: y
 internal: n
 snippet: y
@@ -554,7 +554,7 @@ For resources that use your application page component as the `sling:resourceTyp
 
 #### Example PageInfoProvider implementation {#example-pageinfoprovider-implementation}
 
-The following Java class implements [PageInfoProvider](/sites/developing/using/reference-materials/javadoc/index) and returns the published URL of the current page resource.
+The following Java class implements [PageInfoProvider](/sites/developing/using/reference-materials/javadoc/index.md) and returns the published URL of the current page resource.
 
 ```java
 package com.adobe.example;

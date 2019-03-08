@@ -3,12 +3,12 @@ title: Managing Activities
 seo-title: Managing Activities
 description: The Activities console enables you to create, organize, and manage the marketing activities of your brands
 seo-description: The Activities console enables you to create, organize, and manage the marketing activities of your brands
-uuid: 14e079d3-ea01-4470-90c4-c1e738738d15
+uuid: ce74ab97-284b-4ecb-a9e8-1266a53b1178
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: personalization
-discoiquuid: c6b7c33e-bbd2-4176-a1f7-811a390a36d5
+discoiquuid: 9aead2fe-9bc4-4168-bc73-a64e990f5683
 index: y
 internal: n
 snippet: y
@@ -24,7 +24,7 @@ The Activities console enables you to create, organize, and manage the marketing
 
 >[!NOTE]
 >
->If you are using Adobe Target as your targeting engine, you can also [view performance data of your activities](#viewingperformanceandconvertingwinningexperiencesabtest). If you are using A/B testing, you can [convert winners](#viewingperformanceandconvertingwinningexperiencesabtest).
+>If you are using Adobe Target as your targeting engine, you can also [view performance data of your activities](#viewing-performance-and-converting-winning-experiences-a-b-test). If you are using A/B testing, you can [convert winners](#viewing-performance-and-converting-winning-experiences-a-b-test).
 
 On the Activities console, activities are organized by brand. You can use brands and folders to structure the organization of your activities. You navigate to the Activities console by tapping/clicking **Personalization** and tapping/clicking **Activities**.
 

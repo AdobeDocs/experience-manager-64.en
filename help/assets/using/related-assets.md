@@ -3,12 +3,12 @@ title: Related Assets
 seo-title: Related Assets
 description: Learn how to relate assets that share certain common attributes. You can also use the feature to create source/derived relationships between assets.
 seo-description: Learn how to relate assets that share certain common attributes. You can also use the feature to create source/derived relationships between assets.
-uuid: 71dae67d-615a-432e-bf77-e7aae057c5e5
+uuid: ffde2865-91e8-4710-8b5b-d43e51a22e27
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference
-discoiquuid: a7b3da57-380e-42fb-a7ad-bf11da948e3a
+discoiquuid: 12a4b4e8-a161-4d45-aeeb-88650a8bc3bd
 index: y
 internal: n
 snippet: y

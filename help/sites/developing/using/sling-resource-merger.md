@@ -3,12 +3,12 @@ title: Using the Sling Resource Merger in AEM
 seo-title: Using the Sling Resource Merger in AEM
 description: The Sling Resource Merger provides services to access and merge resources
 seo-description: The Sling Resource Merger provides services to access and merge resources
-uuid: a16b8771-c0f7-4765-b131-2b410860a5a9
+uuid: 9bd68973-fab2-4e62-8cb4-c231739b31a9
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
-discoiquuid: 0c8f34e3-ef74-4160-9dba-26a80158dca2
+discoiquuid: 9ae42409-2d41-4d8e-9e7b-0b845ca09a96
 index: y
 internal: n
 snippet: y
@@ -20,7 +20,7 @@ snippet: y
 
 The Sling Resource Merger provides services to access and merge resources. It provides diff (differencing) mechanisms for both:
 
-* ** [Overlays](../../../sites/developing/using/overlays.md)** of resources using the [configured search paths](../../../sites/developing/using/overlays.md#configuringthesearchpaths).
+* ** [Overlays](../../../sites/developing/using/overlays.md)** of resources using the [configured search paths](../../../sites/developing/using/overlays.md#configuring-the-search-paths).
 
 * **Overrides** of component dialogs for the touch-enabled UI ( `cq:dialog`), using the resource type hierarchy (by means of the property `sling:resourceSuperType`).
 
@@ -32,7 +32,7 @@ With the Sling Resource Merger, the overlay/override resources and/or properties
 
 >[!CAUTION]
 >
->The Sling Resource Merger and related methods can only be used with [Granite](/sites/developing/using/reference-materials/granite-ui/api/index). This also means that it is only appropriate for the stndard, touch-enabled UI; in particular overrides defined in this manner are only applicable for the touch-enabled dialog of a component.  
+>The Sling Resource Merger and related methods can only be used with [Granite](/sites/developing/using/reference-materials/granite-ui/api/index.md). This also means that it is only appropriate for the stndard, touch-enabled UI; in particular overrides defined in this manner are only applicable for the touch-enabled dialog of a component.  
 
 >
 >Overlays/overrides for other areas (including other aspects of a touch-enabled component or the classic UI) involve copying the appropriate node and structure from the original to where the customization will be defined.
@@ -254,5 +254,5 @@ Some examples are covered:
 
 * Override:
 
-    * [Configuring your Page Properties](../../../sites/developing/using/page-properties-views.md#configuringyourpageproperties)
+    * [Configuring your Page Properties](../../../sites/developing/using/page-properties-views.md#configuring-your-page-properties)
 

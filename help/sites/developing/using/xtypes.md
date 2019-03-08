@@ -3,12 +3,12 @@ title: Using xtypes (Classic UI)
 seo-title: Using xtypes (Classic UI)
 description: Learn about all the xtypes that are available with AEM
 seo-description: Learn about all the xtypes that are available with AEM
-uuid: 614d78e4-ade8-426e-8f3d-df7b17668e9f
+uuid: 6819a84f-5f44-4f09-9c90-7a8566758f57
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: components
 content-type: reference
-discoiquuid: 29bf20c4-d3f4-4d8a-9340-c67277227649
+discoiquuid: b84d7948-b93a-4675-bf01-c9af31088aba
 index: y
 internal: n
 snippet: y
@@ -20,7 +20,7 @@ This page describes all the xtypes that are available with Adobe Experience Mana
 
 In the ExtJS language, an xtype is a symbolic name given to a class. You can read the "Component XTypes" paragraph of the [Overview of ExtJS 2](http://www.sencha.com/learn/overview-of-extjs-2) for a detailed explanation about what an xtype is and how it can be used.
 
-For a complete information on all the available widgets in AEM refer to the [widget API documentation](/sites/developing/using/reference-materials/widgets-api/index).
+For a complete information on all the available widgets in AEM refer to the [widget API documentation](/sites/developing/using/reference-materials/widgets-api/index.md).
 
 To find out in which components a given xtype is used in AEM, you can use the following Xpath query in CRXDE by replacing 'checkbox' with the xtype that you are interested in:   
 `//element(*, cq:Widget)[@xtype='checkbox']`

@@ -3,12 +3,12 @@ title: Mapping Component Data with Adobe Analytics Properties
 seo-title: Mapping Component Data with Adobe Analytics Properties
 description: Learn how to map component data with SiteCatalyst properties.
 seo-description: Learn how to map component data with SiteCatalyst properties.
-uuid: d55a7cec-fc22-4bb8-9d71-83dd32dc3ecb
+uuid: 2794754d-1796-44e4-8d9b-fee6eadffb38
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: 517fbf44-b9a4-4d7b-bd51-e9e9db2f1511
+discoiquuid: 549c4106-e311-46b5-8485-e3c1581d0362
 index: y
 internal: n
 snippet: y

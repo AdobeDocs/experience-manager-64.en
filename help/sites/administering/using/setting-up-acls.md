@@ -3,9 +3,9 @@ title: REDIRECT Setting up ACLs
 seo-title: REDIRECT Setting up ACLs
 description: null
 seo-description: null
-uuid: f2ac2c6a-946f-483d-b34b-1cea7dbbc775
+uuid: 9ee6ec8c-4fdf-4460-8822-dd02a7d223b0
 contentOwner: jsyal
-discoiquuid: ec54e10d-761e-4a67-ab63-42ecf2e3c7d9
+discoiquuid: 7e05c86d-74e7-4e17-9893-d5789d223662
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/screens/using/setting-up-acls
 index: y

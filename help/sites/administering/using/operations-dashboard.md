@@ -3,12 +3,12 @@ title: Operations Dashboard
 seo-title: Operations Dashboard
 description: Learn how to use the Operations Dashboard.
 seo-description: Learn how to use the Operations Dashboard.
-uuid: 10cae0f3-5111-4879-bed7-fd846d433486
+uuid: 002b290e-ced3-4fa6-814b-cdf2649c115c
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: 01f65d59-9025-4894-9c2f-67f1d84ec62c
+discoiquuid: b98afc6f-dc00-4964-bd08-29c0b1ed595b
 index: y
 internal: n
 snippet: y
@@ -264,7 +264,7 @@ A Composite Health Check's role is to aggregate a number of individual Health Ch
      <li>each maintenance task is accompanied by an associated health check</li> 
      <li>if a task is not added to a maintenance window, its health check will return Critical</li> 
      <li>you need to configure the Audit Log and Workflow Purge maintenance tasks or otherwise remove them from the maintenance windows. If left unconfigured, these tasks will fail on the first attempted run, so the System Maintenance check will return the Critical status.</li> 
-     <li><strong>With AEM 6.4</strong>, there is also a check for the <a href="/sites/administering/using/operations-dashboard.html?cq_ck=1521648062578#AutomatedMaintenanceTasks">Lucene Binaries Maintenance</a> task</li> 
+     <li><strong>With AEM 6.4</strong>, there is also a check for the <a href="../../../sites/administering/using/operations-dashboard.md#automated-maintenance-tasks">Lucene Binaries Maintenance</a> task</li> 
      <li>on AEM 6.2 and lower, the system maintenance check returns a Warning status right after startup because the tasks never run. Starting with 6.3, they will return OK if the first maintenance window wasn't reached yet.</li> 
     </ul> <p>The MBean for this health check is <a href="http://localhost:4502/system/console/jmx/org.apache.sling.healthcheck%3Aname%3Dsystemchecks%2Ctype%3DHealthCheck">org.apache.sling.healthcheck:name=systemchecks,type=HealthCheck</a>.</p> </td> 
   </tr> 

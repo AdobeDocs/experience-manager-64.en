@@ -3,13 +3,13 @@ title: GDPR Readiness
 seo-title: AEM and General Data Protection Regulation (GDPR) 
 description: Learn about AEM support for the EU General Data Protection Regulation (GDPR) and how to comply when implementing a new AEM project.
 seo-description: Learn about AEM support for the EU General Data Protection Regulation (GDPR) and how to comply when implementing a new AEM project.
-uuid: 94b2ab51-e477-499e-b0c8-fc0c98c751a9
+uuid: 0f57eefe-522f-4058-be7c-5b78940663f5
 contentOwner: aheimoz
 topic-tags: introduction
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MANAGING
 topic-tags: grdp
-discoiquuid: 9022f1a2-c5b9-4698-b811-da05f83b8ddd
+discoiquuid: f6d4cf9e-cd83-424c-862a-7c5a3fd51851
 index: y
 internal: n
 snippet: y

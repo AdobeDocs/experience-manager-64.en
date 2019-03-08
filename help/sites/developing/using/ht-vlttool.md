@@ -3,12 +3,12 @@ title: How to use the VLT Tool
 seo-title: How to use the VLT Tool
 description: The Jackrabbit FileVault tool (VLT) is developed by The Apache Foundation that maps the content of a Jackrabbit/AEM instance to your file system
 seo-description: The Jackrabbit FileVault tool (VLT) is developed by The Apache Foundation that maps the content of a Jackrabbit/AEM instance to your file system
-uuid: 74fbeb80-6e4a-4bd6-a079-23cdf55d6b51
+uuid: 49aa1f03-b3ae-47d3-929f-3d0c4da4bab0
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: development-tools
 content-type: reference
-discoiquuid: e1a6a9ee-d9ee-45d6-8368-2639e8b3dd4c
+discoiquuid: ee7296a7-2678-4bf8-8630-840488d57653
 index: y
 internal: n
 snippet: y
@@ -18,7 +18,7 @@ snippet: y
 
 The Jackrabbit FileVault tool (VLT) is a tool developed by [The Apache Foundation](http://www.apache.org/) that maps the content of a Jackrabbit/AEM instance to your file system. The VLT tool has similar functions as source control system client (such as a Subversion (SVN) client), providing normal check-in, check-out and management operations, as well as configuration options for flexible representation of the project content.
 
-You run the VLT tool from the command line. This document describes how to use the tool, including how to get started and get help, as well as a list of all [commands](#vltcommands) and available [options](#vltglobaloptions).
+You run the VLT tool from the command line. This document describes how to use the tool, including how to get started and get help, as well as a list of all [commands](#vlt-commands) and available [options](#vlt-global-options).
 
 ## Concepts and Architecture {#concepts-and-architecture}
 
@@ -215,7 +215,7 @@ Options:
 
 ## Common Tasks Performed in VLT {#common-tasks-performed-in-vlt}
 
-The following are some common tasks performed in VLT. For detailed information on each command see the individual [commands](#vltcommands).
+The following are some common tasks performed in VLT. For detailed information on each command see the individual [commands](#vlt-commands).
 
 ### Checking out a subtree {#checking-out-a-subtree}
 
@@ -1279,7 +1279,7 @@ Each sync folder stores configuration and status in three files:
 * `.vlt-sync-config.properties`: configuration file.  
 
 * `.vlt-sync.log`: log file that contains information about the operations performed during syncing.
-* `.vlt-sync-filter.xml`: filters that define what portions of the repository are synced. The format of this file is decribed by the [Performing a filtered checkout](#performingafilteredcheckout) section.
+* `.vlt-sync-filter.xml`: filters that define what portions of the repository are synced. The format of this file is decribed by the [Performing a filtered checkout](#performing-a-filtered-checkout) section.
 
 The `.vlt-sync-config.properties` file allows you to configure the following properties:
 
@@ -1304,7 +1304,7 @@ To setup a development environment based on a sync folder proceed as follows:
 
    >[!NOTE]
    >
-   >You can use filters to only checkout the appropriate paths. See the [Performing a filtered checkout](#performingafilteredcheckout) section for information.
+   >You can use filters to only checkout the appropriate paths. See the [Performing a filtered checkout](#performing-a-filtered-checkout) section for information.
 
 1. Go to the root folder of your working copy:
 

@@ -3,12 +3,12 @@ title: Creating and Organizing Pages
 seo-title: Creating and Organizing Pages
 description: How to create and manage pages with AEM
 seo-description: How to create and manage pages with AEM
-uuid: a7ca6609-dacb-4369-88be-7d382e28d440
+uuid: 1f05d860-a5a3-4248-87a0-a2a1406ba3bc
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: 0b3c6309-248b-4955-987a-54ca5ffadfeb
+discoiquuid: 542fed92-95f7-48ca-9691-d782f39ef193
 index: y
 internal: n
 snippet: y
@@ -35,7 +35,7 @@ As an author you will need to organize your website within AEM. This involves cr
 * You can easily find them on the author environment  
 * Visitors to your site can easily browse them on the publish environment
 
-You can also use [folders](#creatinganewfolder) to help organize your content.
+You can also use [folders](#creating-a-new-folder) to help organize your content.
 
 The structure of a website can be thought of as a tree structure that holds your content pages. The names of these content pages are used to form the URLs, whereas the title is shown when the page content is viewed.
 
@@ -75,7 +75,7 @@ Depending on the configuration of your instance, use of `/content` might be opti
  /...
 ```
 
-This structure can be viewed From the **Sites** console, where you can [navigate through the pages of your website](../../../sites/authoring/using/basic-handling.md#navigating) and perform actions on the pages. You can also create new sites and [new pages](#creatinganewpage).
+This structure can be viewed From the **Sites** console, where you can [navigate through the pages of your website](../../../sites/authoring/using/basic-handling.md#navigating) and perform actions on the pages. You can also create new sites and [new pages](#creating-a-new-page).
 
 From any point, you can see the upward branch from breadcrumbs in the header bar:
 
@@ -225,7 +225,7 @@ Unless all pages have been created for you in advance, before you can start crea
 
    >[!NOTE]
    >
-   >See [Page Naming Conventions](#pagenamingconventions).
+   >See [Page Naming Conventions](#page-naming-conventions).
 
    The minimum information required to create a new page is the **Title**.
 
@@ -245,7 +245,7 @@ Unless all pages have been created for you in advance, before you can start crea
 
 >[!CAUTION]
 >
->Once a page has been created its template cannot be changed - unless you [create a launch with a new template](../../../sites/authoring/using/launches-creating.md#createlaunchwithnewtemplate), though this will lose any content already existing.
+>Once a page has been created its template cannot be changed - unless you [create a launch with a new template](../../../sites/authoring/using/launches-creating.md#create-launch-with-new-template), though this will lose any content already existing.
 
 ### Opening a Page For Editing {#opening-a-page-for-editing}
 
@@ -255,7 +255,7 @@ After creating a page, or navigating to an existing page (in the console), you c
 1. Navigate until you find the page that you want to edit.
 1. Select your page by using either:
 
-    * [Quick actions](../../../sites/authoring/using/basic-handling.md#quickactions)
+    * [Quick actions](../../../sites/authoring/using/basic-handling.md#quick-actions)
     * [Selection mode](../../../sites/authoring/using/basic-handling.md#navigatingandselectionmode) and the toolbar
 
    And then select the **Edit** icon:
@@ -275,7 +275,7 @@ You can copy a page and all of its subpages to a new location:
 1. In the **Sites** console, navigate until you find the page that you want to copy.
 1. Select your page using either:
 
-    * [Quick actions](../../../sites/authoring/using/basic-handling.md#quickactions)
+    * [Quick actions](../../../sites/authoring/using/basic-handling.md#quick-actions)
     * [Selection mode](../../../sites/authoring/using/basic-handling.md#navigatingandselectionmode) and the toolbar
 
    And then the **Copy** page icon:
@@ -301,7 +301,7 @@ You can copy a page and all of its subpages to a new location:
 
 >[!NOTE]
 >
->Renaming a page is also subject to the [Page Naming Conventions](#pagenamingconventions) when specifying the new page name.
+>Renaming a page is also subject to the [Page Naming Conventions](#page-naming-conventions) when specifying the new page name.
 
 >[!NOTE]
 >
@@ -318,7 +318,7 @@ AEM offers you the functionality to update any internal links that refer to the 
 1. Navigate until you find the page that you want to move.
 1. Select your page using either:
 
-    * [Quick actions](../../../sites/authoring/using/basic-handling.md#quickactions)
+    * [Quick actions](../../../sites/authoring/using/basic-handling.md#quick-actions)
     * [Selection mode](../../../sites/authoring/using/basic-handling.md#navigatingandselectionmode) and the toolbar
 
    And then select the **Move** page icon:
@@ -405,7 +405,7 @@ You can create folders to help organize your files and pages.
 
 >[!NOTE]
 >
->Folders are also subject to the [Page Naming Conventions](#pagenamingconventions) when specifying the new folder name.
+>Folders are also subject to the [Page Naming Conventions](#page-naming-conventions) when specifying the new folder name.
 
 >[!CAUTION]
 >

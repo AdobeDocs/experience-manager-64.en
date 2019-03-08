@@ -3,12 +3,12 @@ title: Targeting your Adobe Campaign
 seo-title: Targeting your Adobe Campaign
 description: Setting up segmentation includes creating segments, a brand, campaign, and experiences.
 seo-description: Setting up segmentation includes creating segments, a brand, campaign, and experiences.
-uuid: 3d1a6a3d-db1c-467b-8645-6ce9c66fc242
+uuid: 06d4e805-2ffc-49d5-98b3-ae023d23dd4d
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: 433f5785-82d5-475a-a64c-cb9093af9bf2
+discoiquuid: 8e453885-fc21-4fd6-9bfa-35149fbe07fe
 index: y
 internal: n
 snippet: y

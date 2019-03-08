@@ -3,12 +3,12 @@ title: Community Group Essentials
 seo-title: Community Group Essentials
 description: Creating community sites dynamically
 seo-description: Creating community sites dynamically
-uuid: 0cbdb99c-9d28-45b2-b420-c07ad8e0271c
+uuid: 292a5d76-1995-4a60-b992-c08f1e18798e
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: da2b1cc2-fdae-4265-9045-84556b0c7431
+discoiquuid: 08b8702b-0889-4e9f-8dd1-c5745f918ab0
 index: y
 internal: n
 snippet: y
@@ -76,15 +76,15 @@ As of Communities [feature pack 1](../../communities/using/deploy-communities.md
 
 ## Essentials for Server-Side {#essentials-for-server-side}
 
-* [Community Group API](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/group/client/api/package-summary)
+* [Community Group API](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/group/client/api/package-summary.md)
 
-* [Community Group Endpoints](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/group/client/endpoints/package-summary)
+* [Community Group Endpoints](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/group/client/endpoints/package-summary.md)
 
 * [Server-side Customizations](../../communities/using/server-customize.md)
 
 ### Groups Function {#groups-function}
 
-A community site structure that includes a [Groups function](../../communities/using/functions.md#groupsfunction) will support the creation of new `community groups` from the publish and author environments. The community group created will include a `community groups member list` component that will list the members of the group.
+A community site structure that includes a [Groups function](../../communities/using/functions.md#groups-function) will support the creation of new `community groups` from the publish and author environments. The community group created will include a `community groups member list` component that will list the members of the group.
 
 One or more [community group templates](../../communities/using/tools-groups.md), which provide the design of the community group page(s), may be configured for the Groups function when the function is being added to a [community site template](../../communities/using/sites.md) or nested within a community group template.
 
@@ -105,6 +105,6 @@ When creating a group in the author environment, it is necessary to first publis
 
 * [Managing Users and User Groups](../../communities/using/users.md)
 * [Communities Groups Console](../../communities/using/groups.md)
-* [Groups Function](../../communities/using/functions.md#groupsfunction)
+* [Groups Function](../../communities/using/functions.md#groups-function)
 * [Group Templates](../../communities/using/tools-groups.md)
 

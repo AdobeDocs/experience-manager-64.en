@@ -3,12 +3,12 @@ title: Configuring Dynamic Media - Hybrid mode
 seo-title: Configuring Dynamic Media - Hybrid mode
 description: Learn how to configure Dynamic Media - Hybrid mode.
 seo-description: Learn how to configure Dynamic Media - Hybrid mode.
-uuid: 3ffc46f9-c902-45df-90ad-fe0d2e5bff0a
+uuid: ebfdb77f-7e9f-47fa-bc41-306d2ea3d0f9
 contentOwner: Alva Ware-Bevacqui
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
-discoiquuid: ba5245a4-cd5d-4dfa-836c-3362a8060ff2
+discoiquuid: 0b9d2f53-6d05-4f50-9a6c-016e0814e448
 legacypath: /content/docs/en/aem/6-0/administer/integration/dynamic-media/config-dynamic
 index: y
 internal: n
@@ -17,7 +17,7 @@ snippet: y
 
 # Configuring Dynamic Media - Hybrid mode{#configuring-dynamic-media-hybrid-mode}
 
-Dynamic Media-Hybrid needs to be enabled and configured for use. Depending on your use case, Dynamic Media has several [supported configurations](#supporteddynamicmediaconfigurations).
+Dynamic Media-Hybrid needs to be enabled and configured for use. Depending on your use case, Dynamic Media has several [supported configurations](#supported-dynamic-media-configurations).
 
 >[!NOTE]
 >
@@ -78,14 +78,14 @@ You may choose to implement Dynamic Media only for imaging, only for video, or f
    <td>Images are delivered through servers in Adobe’s worldwide data centers and then cached by a CDN for scalable performance and global reach.</td> 
    <td> 
     <ol> 
-     <li>On the AEM <strong>author</strong> node, <a href="#enablingdynamicmedia">enable dynamic media</a>.</li> 
-     <li>Configure imaging in <a href="#configuringdynamicmediacloudservices">Dynamic Media Cloud Services</a>.</li> 
-     <li><a href="#configuringimagereplication">Configure image replication</a>.</li> 
-     <li><a href="#replicatingcatalogsettings">Replicate catalog settings</a>.</li> 
-     <li><a href="#replicatingviewerpresets">Replicate viewer presets</a>.</li> 
-     <li><a href="#usingdefaultassetfiltersforreplication">Use default asset filters for replication</a>.</li> 
-     <li><a href="#configuringdynamicmediaimageserversettings">Configure Dynamic Media Image Server settings</a>.</li> 
-     <li><a href="#deliveringassets">Deliver assets</a>.</li> 
+     <li>On the AEM <strong>author</strong> node, <a href="#enabling-dynamic-media">enable dynamic media</a>.</li> 
+     <li>Configure imaging in <a href="#configuring-dynamic-media-cloud-services">Dynamic Media Cloud Services</a>.</li> 
+     <li><a href="#configuring-image-replication">Configure image replication</a>.</li> 
+     <li><a href="#replicating-catalog-settings">Replicate catalog settings</a>.</li> 
+     <li><a href="#replicating-viewer-presets">Replicate viewer presets</a>.</li> 
+     <li><a href="#using-default-asset-filters-for-replication">Use default asset filters for replication</a>.</li> 
+     <li><a href="#configuring-dynamic-media-image-server-settings">Configure Dynamic Media Image Server settings</a>.</li> 
+     <li><a href="#delivering-assets">Deliver assets</a>.</li> 
     </ol> </td> 
   </tr> 
   <tr> 
@@ -93,12 +93,12 @@ You may choose to implement Dynamic Media only for imaging, only for video, or f
    <td>Images are delivered through the AEM publish node. In this scenario, since traffic is minimal, there is no need to deliver images to Adobe’s data center. An additional benefit is that this allows for secure preview of content before production launch</td> 
    <td> 
     <ol> 
-     <li>On the AEM <strong>author</strong> node, <a href="#enablingdynamicmedia">enable dynamic media</a>.</li> 
-     <li>On AEM <strong>publish</strong> node, <a href="#enablingdynamicmedia">enable dynamic media</a>.</li> 
-     <li><a href="#replicatingviewerpresets">Replicate viewer presets</a>.</li> 
-     <li>Set up <a href="#settingupassetfiltersforimaginginnonproductiondeployments">asset filter for non-production images</a>.</li> 
-     <li><a href="#configuringdynamicmediaimageserversettings">Configure Dynamic Media Image Server settings.</a></li> 
-     <li><a href="#deliveringassets">Deliver assets.</a></li> 
+     <li>On the AEM <strong>author</strong> node, <a href="#enabling-dynamic-media">enable dynamic media</a>.</li> 
+     <li>On AEM <strong>publish</strong> node, <a href="#enabling-dynamic-media">enable dynamic media</a>.</li> 
+     <li><a href="#replicating-viewer-presets">Replicate viewer presets</a>.</li> 
+     <li>Set up <a href="#setting-up-asset-filters-for-imaging-in-non-production-deployments">asset filter for non-production images</a>.</li> 
+     <li><a href="#configuring-dynamic-media-image-server-settings">Configure Dynamic Media Image Server settings.</a></li> 
+     <li><a href="#delivering-assets">Deliver assets.</a></li> 
     </ol> </td> 
   </tr> 
   <tr> 
@@ -106,12 +106,12 @@ You may choose to implement Dynamic Media only for imaging, only for video, or f
    <td>Videos are delivered and cached by a CDN for scalable performance and global reach. The video poster image (thumbnail of video which shows before playback initiates) will be delivered by the AEM publish instance.</td> 
    <td> 
     <ol> 
-     <li>On the AEM <strong>author</strong> node, <a href="#enablingdynamicmedia">enable dynamic media</a>.</li> 
-     <li>On the AEM <strong>publish</strong> node, <a href="#enablingdynamicmedia">enable dynamic media</a> (the publish instance serves the video poster image and provides metadata for video playback).</li> 
-     <li>Configure video in <a href="#configuringdynamicmediacloudservices">Dynamic Media Cloud Services.</a></li> 
-     <li><a href="#replicatingviewerpresets">Replicate viewer presets</a>.</li> 
-     <li>Set up <a href="#settingupassetfiltersforvideoonlydeployments">asset filter for video-only</a>.</li> 
-     <li><a href="#deliveringassets">Deliver assets.</a></li> 
+     <li>On the AEM <strong>author</strong> node, <a href="#enabling-dynamic-media">enable dynamic media</a>.</li> 
+     <li>On the AEM <strong>publish</strong> node, <a href="#enabling-dynamic-media">enable dynamic media</a> (the publish instance serves the video poster image and provides metadata for video playback).</li> 
+     <li>Configure video in <a href="#configuring-dynamic-media-cloud-services">Dynamic Media Cloud Services.</a></li> 
+     <li><a href="#replicating-viewer-presets">Replicate viewer presets</a>.</li> 
+     <li>Set up <a href="#setting-up-asset-filters-for-video-only-deployments">asset filter for video-only</a>.</li> 
+     <li><a href="#delivering-assets">Deliver assets.</a></li> 
     </ol> </td> 
   </tr> 
   <tr> 
@@ -119,15 +119,15 @@ You may choose to implement Dynamic Media only for imaging, only for video, or f
    <td><p>Videos are delivered and cached by a CDN for scalable performance and global reach. Images and video poster images are delivered through servers in Adobe’s worldwide data centers and then cached by a CDN for scalable performance and global reach.</p> <p>Please refer to previous sections to setup image or video in pre-production. </p> </td> 
    <td> 
     <ol> 
-     <li>On the AEM <strong>author</strong> node, <a href="#enablingdynamicmedia">enable dynamic media</a>.</li> 
-     <li>Configure video in <a href="#configuringdynamicmediacloudservices">Dynamic Media Cloud Services.</a></li> 
-     <li>Configure imaging in <a href="#configuringdynamicmediacloudservices">Dynamic Media Cloud Services.</a></li> 
-     <li><a href="#configuringimagereplication">Configure image replication</a>.</li> 
-     <li><a href="#replicatingcatalogsettings">Replicate catalog settings</a>.</li> 
-     <li><a href="#replicatingviewerpresets">Replicate viewer presets</a>.</li> 
-     <li><a href="#usingdefaultassetfiltersforreplication">Use default asset filters for replication.</a></li> 
-     <li><a href="#configuringdynamicmediaimageserversettings">Configure Dynamic Media Image Server settings.</a></li> 
-     <li><a href="#deliveringassets">Deliver assets.</a></li> 
+     <li>On the AEM <strong>author</strong> node, <a href="#enabling-dynamic-media">enable dynamic media</a>.</li> 
+     <li>Configure video in <a href="#configuring-dynamic-media-cloud-services">Dynamic Media Cloud Services.</a></li> 
+     <li>Configure imaging in <a href="#configuring-dynamic-media-cloud-services">Dynamic Media Cloud Services.</a></li> 
+     <li><a href="#configuring-image-replication">Configure image replication</a>.</li> 
+     <li><a href="#replicating-catalog-settings">Replicate catalog settings</a>.</li> 
+     <li><a href="#replicating-viewer-presets">Replicate viewer presets</a>.</li> 
+     <li><a href="#using-default-asset-filters-for-replication">Use default asset filters for replication.</a></li> 
+     <li><a href="#configuring-dynamic-media-image-server-settings">Configure Dynamic Media Image Server settings.</a></li> 
+     <li><a href="#delivering-assets">Deliver assets.</a></li> 
     </ol> </td> 
   </tr> 
   <tr> 
@@ -135,8 +135,8 @@ You may choose to implement Dynamic Media only for imaging, only for video, or f
    <td>Dynamic Media generates image renditions on-the-fly without incurring any additional storage. You can use Asset Share in conjunction with Dynamic Media to download image renditions for different formats, sizes, quality, and so on.<br /> </td> 
    <td> 
     <ol> 
-     <li>On AEM <strong>publish</strong> node for Asset Share, <a href="#enablingdynamicmedia">enable dynamic media</a>.</li> 
-     <li><a href="#configuringdynamicmediaimageserversettings">Configure Dynamic Media Image Server settings</a>.</li> 
+     <li>On AEM <strong>publish</strong> node for Asset Share, <a href="#enabling-dynamic-media">enable dynamic media</a>.</li> 
+     <li><a href="#configuring-dynamic-media-image-server-settings">Configure Dynamic Media Image Server settings</a>.</li> 
     </ol> </td> 
   </tr> 
  </tbody> 
@@ -152,7 +152,7 @@ You may choose to implement Dynamic Media only for imaging, only for video, or f
 
 By enabling Dynamic Media, the dynamic media features will be available in the UI and every uploaded image asset receives a *cqdam.pyramid.tiff* rendition that is used for fast delivery of dynamic image renditions. Those PTIFFs have significant advantages including (1) the ability to manage only a single master image and generate infinite renditions on-the-fly without any additional storage and (2) the ability to use interactive visualization such as zoom, pan, spin, and so on.
 
-If you want to use Dynamic Media Classic (Scene7) in AEM, you should not enable Dynamic Media unless you are using a [specific scenario](../../sites/administering/using/scene7.md#aemscene7integrationversusdynamicmedia). Dynamic Media is disabled unless you enable dynamic media by way of the runmode.
+If you want to use Dynamic Media Classic (Scene7) in AEM, you should not enable Dynamic Media unless you are using a [specific scenario](../../sites/administering/using/scene7.md#aem-scene-integration-versus-dynamic-media). Dynamic Media is disabled unless you enable dynamic media by way of the runmode.
 
 To enable dynamic media, you must enable the dynamic media runmode either from the command line or from the quickstart file name.
 
@@ -267,12 +267,12 @@ Dynamic Media image delivery works by publishing image assets, including video t
 
 You must do the following:
 
-1. [Set up authentication](#settingupauthentication). 
-1. [Configure the replication agent](#configuringthereplicationagent).
+1. [Set up authentication](#setting-up-authentication). 
+1. [Configure the replication agent](#configuring-the-replication-agent).
 
 The Replication Agent publishes Dynamic Media assets such as images, video metadata, and sets to the Adobe-hosted Image Service. The Replication Agent is not enabled by default.
 
-After you have configured the replication agent, you need to [validate and test that it has been successfully set up](#validatingthereplicationagentfordynamicmedia). This section describes these procedures.
+After you have configured the replication agent, you need to [validate and test that it has been successfully set up](#validating-the-replication-agent-for-dynamic-media). This section describes these procedures.
 
 >[!NOTE]
 >
@@ -324,7 +324,7 @@ To set up authentication:
 
 1. Tap **Save & Close** to save your changes to this user.
 
-   Next, you need to [configure the replication agent.](#configuringthereplicationagent)
+   Next, you need to [configure the replication agent.](#configuring-the-replication-agent)
 
 ### Configuring the Replication Agent {#configuring-the-replication-agent}
 
@@ -339,9 +339,9 @@ To configure the replication agent:
     * **Region **- Set to the appropriate region: North America, Europe, or Asia
     * **Tenant ID** - This value is the name of your company/tenant that is publishing to the Replication Service. This value is the Tenant ID that Adobe provides in the Welcome email sent to you during provisioning. Contact Adobe Customer Care if you did not receive this.
 
-    * **Key Store Alias** - This value is the same as the** New Alias** value set when generating the key in [Setting Up Authentication](#settingupauthentication); for example, `replication`. (See step 7 in [Setting Up Authentication](#settingupauthentication).)
+    * **Key Store Alias** - This value is the same as the** New Alias** value set when generating the key in [Setting Up Authentication](#setting-up-authentication); for example, `replication`. (See step 7 in [Setting Up Authentication](#setting-up-authentication).)
 
-    * **Key Store Password** - This is the KeyStore password that was created when you clicked/tapped **Create KeyStore**. Adobe does not provide this password. See** **step 5 of [Setting up Authentication](#settingupauthentication).
+    * **Key Store Password** - This is the KeyStore password that was created when you clicked/tapped **Create KeyStore**. Adobe does not provide this password. See** **step 5 of [Setting up Authentication](#setting-up-authentication).
 
    The following image shows the replication agent with sample data:
 
@@ -464,8 +464,8 @@ Replication test to s7delivery:https://replicate-na.assetsadobe.com/is-publish
 1. Navigate to the User Management page:  
    `localhost:4502/libs/granite/security/content/useradmin.html`
 1. On the User Management page, navigate to the **dynamic-media-replication **user, then tap to open.
-1. Click the **KeyStore** tab. If the **Create KeyStore** button appears, then you need to redo the steps under [Setting up Authentication](#settingupauthentication) earlier.
-1. If you had to redo the KeyStore setup, you may need to do [Configuring the Replication Agent](/assets/using/config-dynamic.html?cq_ck=1547765376731#ConfiguringtheReplicationAgent) again, as well.
+1. Click the **KeyStore** tab. If the **Create KeyStore** button appears, then you need to redo the steps under [Setting up Authentication](#setting-up-authentication) earlier.
+1. If you had to redo the KeyStore setup, you may need to do [Configuring the Replication Agent](../../assets/using/config-dynamic.md#configuring-the-replication-agent) again, as well.
 
    Reconfigure the s7delivery Replication Agent.  
    `localhost:4502/etc/replication/agents.author/s7delivery.html`
@@ -680,11 +680,11 @@ You must publish your own default catalog settings as part of the setup process 
 
 ## Replicating Viewer Presets {#replicating-viewer-presets}
 
-To deliver* *an asset with a viewer preset, you must replicate/publish* *the viewer preset. (All viewer presets must be activated *and *replicated to obtain the URL or embed code for an asset.) See [Publishing Viewer Presets](../../assets/using/managing-viewer-presets.md#publishingviewerpresets) for more information.
+To deliver* *an asset with a viewer preset, you must replicate/publish* *the viewer preset. (All viewer presets must be activated *and *replicated to obtain the URL or embed code for an asset.) See [Publishing Viewer Presets](../../assets/using/managing-viewer-presets.md#publishing-viewer-presets) for more information.
 
 >[!NOTE]
 >
->By default, the system shows a variety of renditions when you select **Renditions** and a variety of viewer presets when you select **Viewers** in the asset's detail view. You can increase or decrease the number seen. See [Increasing the number of image presets that display](../../assets/using/managing-image-presets.md#increasingthenumberofimagepresetsthatdisplay) or [Increasing the number of viewer presets that display](../../assets/using/managing-viewer-presets.md#increasingthenumberofviewerpresetsthatdisplay).
+>By default, the system shows a variety of renditions when you select **Renditions** and a variety of viewer presets when you select **Viewers** in the asset's detail view. You can increase or decrease the number seen. See [Increasing the number of image presets that display](../../assets/using/managing-image-presets.md#increasingthenumberofimagepresetsthatdisplay) or [Increasing the number of viewer presets that display](../../assets/using/managing-viewer-presets.md#increasing-the-number-of-viewer-presets-that-display).
 
 ## Filtering Assets for Replication {#filtering-assets-for-replication}
 
@@ -859,7 +859,7 @@ Configuring the Dynamic Media Image Server involves editing the Adobe CQ Scene7 
 
 >[!NOTE]
 >
->Dynamic Media works out-of-the-box [after it is enabled](#enablingdynamicmedia). However, you can optionally choose to fine tune your installation by configuring Dynamic Media Image Server to meet certain specifications or requirements.
+>Dynamic Media works out-of-the-box [after it is enabled](#enabling-dynamic-media). However, you can optionally choose to fine tune your installation by configuring Dynamic Media Image Server to meet certain specifications or requirements.
 
 **Prerequisite**: *Before *you configure Dynamic Media Image Server, ensure that your VM of Windows includes an installation of the Microsoft Visual C++ Libraries. The libraries are necessary to run Dynamic Media Image Server. You can [download the Microsoft Visual C++ 2010 Redistributable Package (x64) here](http://www.microsoft.com/en-us/download/details.aspx?id=14632).
 
@@ -1005,7 +1005,7 @@ Table of Manifest settings and their default values:
   <tr> 
    <td>thumbnailtime</td> 
    <td>1%,11%,21%,31%,41%,51%,61%,71%,81%,91%</td> 
-   <td>These values represent a snapshot of video playtime and are passed to <a href="http://encoding.com/">encoding.com</a>. See <a href="../../assets/using/video.md#aboutvideothumbnails">About video thumbnails</a> for more information.</td> 
+   <td>These values represent a snapshot of video playtime and are passed to <a href="http://encoding.com/">encoding.com</a>. See <a href="../../assets/using/video.md#about-video-thumbnails">About video thumbnails</a> for more information.</td> 
   </tr> 
  </tbody> 
 </table>

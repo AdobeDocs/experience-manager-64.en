@@ -3,12 +3,12 @@ title: XMP Metadata
 seo-title: XMP Metadata
 description: Learn about the XMP (Extensible Metadata Platform) metadata standard used by AEM Assets for metadata management. XMP provides a standard format for the creation, processing, and interchange of metadata for a wide variety of applications.
 seo-description: Learn about the XMP (Extensible Metadata Platform) metadata standard used by AEM Assets for metadata management. XMP provides a standard format for the creation, processing, and interchange of metadata for a wide variety of applications.
-uuid: 6ea64fab-a135-4840-bfac-3469753f621e
+uuid: c9376a5f-0943-42b1-bb3f-3bca41833a79
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: 3eb259aa-61a3-4e1a-aad0-9e34da693a64
+discoiquuid: f044087d-5ff8-4b76-af0b-1e2637481a98
 index: y
 internal: n
 snippet: y
@@ -50,7 +50,7 @@ XMP is most commonly serialized and stored using a subset of the [W3C](http://en
 XMP has the following advantages over other encoding standards and schemata:
 
 * XMP-based metadata is very powerful and fine-grained.   
-* XMP lets you have [multiple values for one property.](#multivalueproperties)
+* XMP lets you have [multiple values for one property.](#multivalue-properties)
 * XMP has standardized encoding, which lets you easily exchange metadata.
 * XMP is extensible. You can add addtional information into your assets.
 

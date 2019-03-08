@@ -3,12 +3,12 @@ title: Communities Components
 seo-title: Communities Components
 description: Adding community features to any AEM site 
 seo-description: Adding community features to any AEM site 
-uuid: b5ccf74f-1a56-4272-b75b-267c97fe51a2
+uuid: 344e25fd-675f-4655-a779-e4e84a88f008
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
-discoiquuid: 81e98c9a-3056-4511-b65a-c75047dc7f4b
+discoiquuid: 2c1912f6-9aff-46cf-9d2e-64eb2458cc07
 index: y
 internal: n
 snippet: y

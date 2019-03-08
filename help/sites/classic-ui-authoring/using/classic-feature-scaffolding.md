@@ -3,12 +3,12 @@ title: Scaffolding
 seo-title: Scaffolding
 description: Sometimes you may need to create a large set of pages that share the same structure but have differing content. With scaffolding you can create a form (a scaffold) with fields that reflect the structure you want for your pages and then use this form to easily create pages based on this structure.
 seo-description: Sometimes you may need to create a large set of pages that share the same structure but have differing content. With scaffolding you can create a form (a scaffold) with fields that reflect the structure you want for your pages and then use this form to easily create pages based on this structure.
-uuid: e6a2f2a9-1801-473b-a9aa-4c118cffc507
+uuid: 66f45e27-2a33-4af3-a358-6c98441b2832
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
-discoiquuid: 6ff003c0-e5e6-46f3-9a36-a946e9d1a7c8
+discoiquuid: 4e350c3f-fad3-40d0-81b8-2d64a5e72243
 index: y
 internal: n
 snippet: y
@@ -22,7 +22,7 @@ With scaffolding you can create a form (a scaffold) with fields that reflect the
 
 >[!NOTE]
 >
->Scaffolding (in the classic UI) [respects MSM inheritance](#scaffoldingwithmsminheritance).
+>Scaffolding (in the classic UI) [respects MSM inheritance](#scaffolding-with-msm-inheritance).
 
 ### How Scaffolding Works {#how-scaffolding-works}
 

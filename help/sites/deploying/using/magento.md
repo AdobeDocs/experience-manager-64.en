@@ -3,12 +3,12 @@ title: Magento
 seo-title: Magento
 description: Learn how to deploy eCommerce with Magento.
 seo-description: Learn how to deploy eCommerce with Magento.
-uuid: ae8eea42-43f7-4307-bd5b-5b47fb7a0a20
+uuid: 84eed55a-052c-4b56-a291-6509bc5f4060
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: e-commerce
 content-type: reference
-discoiquuid: 5034d52c-dbbd-459a-9b44-e6ec5ceac8d3
+discoiquuid: 0d451bc7-fbf9-4a3b-a304-0ce515624114
 pagetitle: Deploying eCommerce with Magento
 redirecttarget: https //github.com/adobe/commerce-cif-magento
 index: y

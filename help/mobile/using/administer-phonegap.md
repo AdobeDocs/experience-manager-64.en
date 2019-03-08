@@ -3,12 +3,12 @@ title: Administering Content for Adobe PhoneGap Enterprise with AEM
 seo-title: Administering Content for Adobe PhoneGap Enterprise with AEM
 description: This page serves as landing page for administering Adobe PhoneGap Enterprise.
 seo-description: This page serves as landing page for administering Adobe PhoneGap Enterprise.
-uuid: d377a494-3271-4e10-b381-2434a1be6bea
+uuid: 28c0517e-d17e-487e-9dda-f777eae85cb0
 contentOwner: msm-service
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: administering-adobe-phonegap-enterprise
-discoiquuid: b6e60ada-082e-476a-b8c5-d026d450a668
+discoiquuid: 3980fced-a465-46b6-9bfb-bed82ca26d65
 index: y
 internal: n
 snippet: y
@@ -35,7 +35,7 @@ To setup your environment and get started with the Control Center,
 1. [Configure your Adobe PhoneGap Build Cloud Service](../../mobile/using/configure-phonegap-build-cloud.md)
 1. [Configure your Adobe Analytics Cloud Service](../../mobile/using/configure-adobe-mobile-cloud-service.md)
 
-For learn about content services Content Services, see [Administering Content Services](/mobile/using/content-services).
+For learn about content services Content Services, see [Administering Content Services](/mobile/using/content-services.md).
 
 >[!NOTE]
 >

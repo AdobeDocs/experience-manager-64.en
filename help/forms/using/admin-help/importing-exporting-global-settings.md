@@ -3,12 +3,12 @@ title: Importing and exporting global settings
 seo-title: Importing and exporting global settings
 description: You can import and export search template definitions and global settings for Workspace.
 seo-description: You can import and export search template definitions and global settings for Workspace.
-uuid: c81e24a1-9f43-451c-a3dd-77cc8c472338
+uuid: 3a413ac4-6b9f-4742-a84c-fa01b09fc1f5
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_workspace
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: b1d9777b-1432-4a51-afbe-cdcbe0cbbada
+discoiquuid: 6c3d4e17-e1c3-4d23-856e-efa2ee642ab0
 index: y
 internal: n
 snippet: y
@@ -24,7 +24,7 @@ You can import and export search template definitions and global settings for Wo
 
 For example, you can move from a development environment to a production environment by exporting the search template definitions and global settings from one environment and importing them into the other.
 
-After you export the global settings file, you can modify the settings in an XML or text editor. However, the only settings you may want to edit are the JChannelConnectionProperties, formViewOnly, and specialRoutes settings. For more information, see [Workspace global settings](importing-exporting-global-settings#workspace_global_settings).
+After you export the global settings file, you can modify the settings in an XML or text editor. However, the only settings you may want to edit are the JChannelConnectionProperties, formViewOnly, and specialRoutes settings. For more information, see [Workspace global settings](importing-exporting-global-settings.md#workspace_global_settings).
 
 >[!NOTE]
 >

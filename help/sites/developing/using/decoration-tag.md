@@ -3,12 +3,12 @@ title: Decoration Tag
 seo-title: Decoration Tag
 description: When a component in a web page is rendered, an HTML element can be generated, wrapping the rendered component within itself. For developers, AEM offers clear and simple logic controlling the decoration tags that wrap included components.
 seo-description: When a component in a web page is rendered, an HTML element can be generated, wrapping the rendered component within itself. For developers, AEM offers clear and simple logic controlling the decoration tags that wrap included components.
-uuid: 7941b6a9-7925-44e2-99de-685958003447
+uuid: 05f144ce-92b1-4835-9349-c2378662baea
 contentOwner: user
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: components
 content-type: reference
-discoiquuid: fbf676d3-4f87-4bf4-bab1-607d42895c69
+discoiquuid: ef8165d8-1957-4043-bb57-c426000ffeb7
 index: y
 internal: n
 snippet: y

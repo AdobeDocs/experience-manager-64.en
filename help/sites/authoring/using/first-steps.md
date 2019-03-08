@@ -3,12 +3,12 @@ title: First Steps for Authors
 seo-title: First Steps for Authors
 description: An overview of the main tasks that you will be using when starting to author content with AEM
 seo-description: An overview of the main tasks that you will be using when starting to author content with AEM
-uuid: cd5315e2-5bd7-4838-8a06-37ac03d39aa4
+uuid: 99890648-22a3-4740-b1e0-253b9a746f4f
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: c85dcdcc-a4e2-43f1-af58-71f541e9e429
+discoiquuid: b5b7ea7a-aa7a-4dc9-9509-95d952d7871d
 index: y
 internal: n
 snippet: y
@@ -16,19 +16,19 @@ snippet: y
 
 # First Steps for Authors{#first-steps-for-authors}
 
-This section gives you an overview of the main tasks that you will be using when [starting to author content](../../../sites/authoring/using/author.md#conceptofauthoringandpublishing) with Adobe Experience Manager (AEM).
+This section gives you an overview of the main tasks that you will be using when [starting to author content](../../../sites/authoring/using/author.md#concept-of-authoring-and-publishing) with Adobe Experience Manager (AEM).
 
 It covers:
 
-* [Getting Started](#gettingstarted)  
+* [Getting Started](#getting-started)  
   Detailing the basic sequence of events you need for creating and publishing your first page.  
 
-* [Further Actions](#furtheractions)  
+* [Further Actions](#further-actions)  
   Following on with the many other actions you can use when authoring.
 
 ## Overview {#overview}
 
-This slideshow (click-through) gives a quick visual overview of using AEM to author your first page. Links to details about the individual steps involved are then provided under [Getting Started](#gettingstarted).
+This slideshow (click-through) gives a quick visual overview of using AEM to author your first page. Links to details about the individual steps involved are then provided under [Getting Started](#getting-started).
 
 ## Getting Started {#getting-started}
 
@@ -89,7 +89,7 @@ Every [page has properties](../../../sites/authoring/using/editing-page-properti
 
 ### Creating a Version of a Page {#creating-a-version-of-a-page}
 
-You can [create a version](../../../sites/authoring/using/working-with-page-versions.md#creating-a-new-version) of a page and then [revert to a version](../../../sites/authoring/using/working-with-page-versions.md#revertingtoapageversion) if necessary.
+You can [create a version](../../../sites/authoring/using/working-with-page-versions.md#creating-a-new-version) of a page and then [revert to a version](../../../sites/authoring/using/working-with-page-versions.md#reverting-to-a-page-version) if necessary.
 
 ## More Information {#more-information}
 

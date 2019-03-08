@@ -3,12 +3,12 @@ title: Setting up a standard stage with Autodesk Maya and Mental Ray
 seo-title: Setting up a standard stage with Autodesk Maya and Mental Ray
 description: How to set up a standard stage with Autodesk Maya and Mental Ray
 seo-description: How to set up a standard stage with Autodesk Maya and Mental Ray
-uuid: 49a1b12d-07e8-4c76-ae4f-4593fcba35cb
+uuid: 60892529-9b79-437a-ac6e-291ed4210979
 contentOwner: rbrough
 topic-tags: 3D
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
-discoiquuid: b5e36b31-c497-44a0-b030-58df7823304d
+discoiquuid: 363ad3c5-ebd3-4fae-b78e-218addf39dd4
 index: y
 internal: n
 snippet: y
@@ -58,7 +58,7 @@ snippet: y
 1. Save the scene, then exit Autodesk Maya.
 1. Upload the scene into AEM and wait for upload processing to complete.
 
-   See [Uploading Assets](../../assets/using/managing-assets-touch-ui.md#uploadingassets).
+   See [Uploading Assets](../../assets/using/managing-assets-touch-ui.md#uploading-assets).
 
    If Autodesk® Maya® is not configured on the AEM server, export an FBX from Maya and upload it into AEM.
 

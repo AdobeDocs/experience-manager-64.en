@@ -3,12 +3,12 @@ title: Comments Essentials
 seo-title: Comments Essentials
 description: Comments component overview
 seo-description: Comments component overview
-uuid: 85e22c48-5c99-4a33-ab40-83da94b0aba6
+uuid: 5d30e95b-268d-4880-b2f4-499bbbcf7ef1
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 0cee8edc-e1d5-4abf-aceb-ecbfa305a9ae
+discoiquuid: 2e817643-5793-4122-a845-b8c15831eb1c
 index: y
 internal: n
 snippet: y
@@ -29,11 +29,11 @@ The comments component establishes a comment system such that each individual po
    <td> social/commons/components/hbs/comments</td> 
   </tr>
   <tr>
-   <td> <a href="../../communities/using/scf.md#addorincludeacommunitiescomponent"><strong>includable</strong></a></td> 
+   <td> <a href="../../communities/using/scf.md#add-or-include-a-communities-component"><strong>includable</strong></a></td> 
    <td>Yes - properties are editable in <i>design </i>mode</td> 
   </tr>
   <tr>
-   <td> <a href="../../communities/using/client-customize.md#clientlibsforscf"><strong>Clientlibs</strong></a></td> 
+   <td> <a href="../../communities/using/client-customize.md#clientlibs-for-scf"><strong>Clientlibs</strong></a></td> 
    <td>cq.ckeditor<br /> cq.social.hbs.comments<br /> cq.social.hbs.voting</td> 
   </tr>
   <tr>
@@ -76,9 +76,9 @@ This applies to any component which extends a comment system.
 
 ## Essentials for Server-Side {#essentials-for-server-side}
 
-* [Comments API](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/commons/comments/api/package-summary)
+* [Comments API](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/commons/comments/api/package-summary.md)
 
-* [Comments Endpoints](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/commons/comments/endpoints/package-summary)
+* [Comments Endpoints](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/commons/comments/endpoints/package-summary.md)
 
 * [Server-side Customizations](../../communities/using/server-customize.md)
 

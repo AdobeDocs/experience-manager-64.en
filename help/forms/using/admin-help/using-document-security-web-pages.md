@@ -3,12 +3,12 @@ title: Using the document security webpages
 seo-title: Using the document security webpages
 description: Learn how you can login, navigate and use the document security web pages.
 seo-description: Learn how you can login, navigate and use the document security web pages.
-uuid: c547bc23-71b8-48be-932c-c1f1c2477018
+uuid: 9dfd9593-9ae2-4077-84da-419a8ea185a2
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_document_security
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 87dd6063-e077-4ad8-8fe8-c654f6efdc6e
+discoiquuid: 9d7b9570-9431-48ec-a21d-c86f701cb1aa
 index: y
 internal: n
 snippet: y
@@ -20,7 +20,7 @@ Users and administrators use the document security web pages to create and manag
 
 >[!NOTE]
 >
->You can also log in to document security through Acrobat and other client applications using your user login account. (See [Setting up access to document security from client applications](using-document-security-web-pages#setting_up_access_to_document_security_from_client_applications).)
+>You can also log in to document security through Acrobat and other client applications using your user login account. (See [Setting up access to document security from client applications](using-document-security-web-pages.md#setting_up_access_to_document_security_from_client_applications).)
 
 To open the web pages, you require a browser and the URL and your login information for document security. The URL for users is different from the URL for administrators.
 
@@ -85,7 +85,7 @@ Client applications must be set up to connect to document security to protect do
 
 Document security is accessed via Secure Sockets Layer (SSL). You must install the website’s certificate in your certificate store so that you can access document security through the client applications.
 
-See [Configuring SSL](/forms/using/admin-help/topics/configuring-ssl) for information on SSL.
+See [Configuring SSL](/forms/using/admin-help/topics/configuring-ssl.md) for information on SSL.
 
 These instructions are specific to Internet Explorer, but you can install the certificate by using any supported web browser. For more information, see the Help for your browser.
 

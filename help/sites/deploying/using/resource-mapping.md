@@ -3,12 +3,12 @@ title: Resource Mapping
 seo-title: Resource Mapping
 description: Learn how to define redirects, vanity URLs and virtual hosts for AEM by using resource mapping.
 seo-description: Learn how to define redirects, vanity URLs and virtual hosts for AEM by using resource mapping.
-uuid: 64c0ce2d-ebc9-41fc-bf34-79844d3cb9ae
+uuid: 4c247225-6d34-46c2-b74a-732c7a7ddcae
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: configuring
 content-type: reference
-discoiquuid: 05b468b7-e2b4-4952-8129-b7e1d260c9e1
+discoiquuid: 843886ee-12fb-42fc-b293-f71f0562109a
 index: y
 internal: n
 snippet: y
@@ -23,7 +23,7 @@ For example, you can use these mappings to:
 * Prefix all requests with `/content` so that the internal structure is hidden from the visitors to your website.
 * Define a redirect so that all requests to the `/content/en/gateway` page of your website are redirected to `http://gbiv.com/`.
 
-One possible HTTP mapping [prefixes all requests to `localhost:4503` with `/content`](#configuringaninternalredirecttocontent). A mapping like this could be used to hide the internal structure from the visitors to the website as it allows:
+One possible HTTP mapping [prefixes all requests to `localhost:4503` with `/content`](#configuring-an-internal-redirect-to-content). A mapping like this could be used to hide the internal structure from the visitors to the website as it allows:
 
 `localhost:4503/content/geometrixx/en/products.html`
 

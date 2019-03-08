@@ -3,12 +3,12 @@ title: Moderating Community Content
 seo-title: Moderating Community Content
 description: Moderation concepts and actions
 seo-description: Moderation concepts and actions
-uuid: 299c3d1e-61a9-46b7-ba42-2aeb0ab6b3a3
+uuid: 7768a31c-6abc-4a17-add4-84fa0aa8aa92
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: 4ee60456-5c92-404c-bcbf-da07d4a86a6d
+discoiquuid: 9cfde790-39bd-4935-bbbe-787d8cff56db
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Integrating Assets with Activity Stream
 seo-title: Integrating Assets with Activity Stream
 description: Describes the recording capabilities of AEM and how to configure AEM to record specific events.
 seo-description: Describes the recording capabilities of AEM and how to configure AEM to record specific events.
-uuid: 056615e1-77fc-4df5-a5e9-1054292de85e
+uuid: 28d023ae-7a6f-4a20-b82c-e7e22c571e0a
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: extending-assets
 content-type: reference
-discoiquuid: 873aa006-10be-49d4-9d25-7cbadb71ee52
+discoiquuid: a567a36a-dfc9-4934-ac0b-fa60c128607a
 index: y
 internal: n
 snippet: y
@@ -60,5 +60,5 @@ The [Web console](../../sites/deploying/using/configuring-osgi.md) provides acce
 
 ### Reading recorded events {#reading-recorded-events}
 
-The recorded events are stored as activities. You can read them programmatically by using the [ActivityManager API](/sites/developing/using/reference-materials/javadoc/com/adobe/granite/activitystreams/ActivityManager).  
+The recorded events are stored as activities. You can read them programmatically by using the [ActivityManager API](/sites/developing/using/reference-materials/javadoc/com/adobe/granite/activitystreams/ActivityManager.md).  
 

@@ -3,12 +3,12 @@ title: Monitoring Server Resources Using the JMX Console
 seo-title: Monitoring Server Resources Using the JMX Console
 description: Learn how to monitor server resources using the JMX console.
 seo-description: Learn how to monitor server resources using the JMX console.
-uuid: 2e5fd93a-d8e1-444d-9449-e5385a44f69f
+uuid: 33aff42e-5731-4c24-9351-b54d118264e8
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: 2df6be0f-af2d-47cc-80d4-60dd28b65359
+discoiquuid: 5eb6f4f9-7fdb-4c03-b57e-0006621a26df
 index: y
 internal: n
 snippet: y
@@ -18,7 +18,7 @@ snippet: y
 
 The JMX Console enables you to monitor and manage services on the CRX server. The sections that follow summarize the attributes and operations that are exposed through the JMX framework.
 
-For information about how to use the console controls, see [Using the JMX Console](#usingthejmxconsole). For background information about JMX, see the [Java Management Extensions (JMX) Technology](http://www.oracle.com/technetwork/java/javase/tech/javamanagement-140525.html) page on the Oracle website.
+For information about how to use the console controls, see [Using the JMX Console](#using-the-jmx-console). For background information about JMX, see the [Java Management Extensions (JMX) Technology](http://www.oracle.com/technetwork/java/javase/tech/javamanagement-140525.html) page on the Oracle website.
 
 For information about creating MBeans to manage your services using the JMX Console, see [Integrating Services with the JMX Console](../../../sites/developing/using/jmx-integration.md).
 
@@ -525,13 +525,13 @@ Read-only.
     * delete: A Boolean value that indicates whether to delete unused repository items. A value of true causes the deletion of unused nodes and properties. A value of false causes all nodes to be scanned but none are deleted.
 
 * Returned value: none
-* See also the [documentation on the Datastore](/content/docs/en/aem/6-3/deploy/upgrade/repository-consistency-checking#Data Store Garbage Collection).
+* See also the [documentation on the Datastore](/content/docs/en/aem/6-3/deploy/upgrade/repository-consistency-checking.md#data store garbage collection).
 
 **stopDataStoreGarbageCollection** Stops a running data store garbage collection.
 
 * Arguments: none
 * Returned value: string representation of the current status
-* See also the [documentation on the Datastore](/content/docs/en/aem/6-3/deploy/upgrade/repository-consistency-checking#Data Store Garbage Collection).
+* See also the [documentation on the Datastore](/content/docs/en/aem/6-3/deploy/upgrade/repository-consistency-checking.md#data store garbage collection).
 
 **startBackup** Backs up repository data in a ZIP file.
 

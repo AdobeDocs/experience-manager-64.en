@@ -3,13 +3,13 @@ title: Assembling Non-Interactive PDF Documents
 seo-title: Assembling Non-Interactive PDF Documents
 description: null
 seo-description: null
-uuid: e44e40f6-0a56-4841-81d3-62b91df7273e
+uuid: fdf44c8e-632a-4566-927b-95c1b8e1f9ac
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/assembling_pdf_documents
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: 1ce01b94-92c5-41cf-9132-aec366477e63
+discoiquuid: 0036c0f9-fc83-492d-84e1-c1275eb2030d
 index: y
 internal: n
 snippet: y
@@ -39,11 +39,11 @@ In contrast, when passing two or more input PDF documents to the Assembler servi
 
 This DDX document contains the `NoXFA` element, which instructs the Assembler service to return a non-interactive PDF document.
 
-The Assembler service can assemble non-interactive PDF documents without the Output service being part of your AEM forms installation if the input PDF document is based on an Acrobat form or a static XFA form. However, if the input PDF document is a dynamic XFA form, the Output service must be part of your AEM forms installation. If the Output service is not part of your AEM forms installation when a dynamic XFA form is assembled, an exception is thrown. See [Creating Document Output Streams](/programming-with-aem-forms/creating-document-output-streams-creating creating-document-output-streams-creating#creating_document_output_streams).
+The Assembler service can assemble non-interactive PDF documents without the Output service being part of your AEM forms installation if the input PDF document is based on an Acrobat form or a static XFA form. However, if the input PDF document is a dynamic XFA form, the Output service must be part of your AEM forms installation. If the Output service is not part of your AEM forms installation when a dynamic XFA form is assembled, an exception is thrown. See [Creating Document Output Streams](/programming-with-aem-forms/creating-document-output-streams-creating creating-document-output-streams-creating.md#creating_document_output_streams).
 
 >[!NOTE]
 >
->Before reading this section, it is recommended that you be familiar with assembling PDF documents using the Assembler service. This section does not discuss concepts, such as creating a collection object that contains input documents or learning how to extract the results from the returned collection object. (See [Programmatically Assembling PDF Documents](/programming-with-aem-forms/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically#programmatically_assembling_pdf_documents).)
+>Before reading this section, it is recommended that you be familiar with assembling PDF documents using the Assembler service. This section does not discuss concepts, such as creating a collection object that contains input documents or learning how to extract the results from the returned collection object. (See [Programmatically Assembling PDF Documents](/programming-with-aem-forms/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically.md#programmatically_assembling_pdf_documents).)
 
 >[!NOTE]
 >
@@ -105,15 +105,15 @@ If only a single PDF document is passed to the Assembler service, the Assembler 
 
 **See also**
 
-[Assemble a non-interactive PDF document using the Java API](/programming-with-aem-forms/assembling-non-interactive-pdf-documents assembling-non-interactive-pdf-documents#assemble_a_non_interactive_pdf_document_using_the_java_api)
+[Assemble a non-interactive PDF document using the Java API](/programming-with-aem-forms/assembling-non-interactive-pdf-documents assembling-non-interactive-pdf-documents.md#assemble_a_non_interactive_pdf_document_using_the_java_api)
 
-[Assemble a non-interactive PDF document using the web service API](/programming-with-aem-forms/assembling-non-interactive-pdf-documents assembling-non-interactive-pdf-documents#assemble_a_non_interactive_pdf_document_using_the_web_service_api)
+[Assemble a non-interactive PDF document using the web service API](/programming-with-aem-forms/assembling-non-interactive-pdf-documents assembling-non-interactive-pdf-documents.md#assemble_a_non_interactive_pdf_document_using_the_web_service_api)
 
 [Including AEM Forms Java library files](#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
 
 [Setting connection properties](#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd6.2)
 
-[Programmatically Assembling PDF Documents](/programming-with-aem-forms/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically#programmatically_assembling_pdf_documents)
+[Programmatically Assembling PDF Documents](/programming-with-aem-forms/programmatically-assembling-pdf-documents-programmatically programmatically-assembling-pdf-documents-programmatically.md#programmatically_assembling_pdf_documents)
 
 ## Assemble a non-interactive PDF document using the Java API {#assemble-a-non-interactive-pdf-document-using-the-java-api}
 
@@ -231,6 +231,6 @@ For code examples, see this Assembler Service Quick Start in * [API Quick Starts
 
 **See also**
 
-[Assembling Non-Interactive PDF Documents](/programming-with-aem-forms/assembling-non-interactive-pdf-documents assembling-non-interactive-pdf-documents#assembling_non_interactive_pdf_documents)
+[Assembling Non-Interactive PDF Documents](/programming-with-aem-forms/assembling-non-interactive-pdf-documents assembling-non-interactive-pdf-documents.md#assembling_non_interactive_pdf_documents)
 
 [Invoking AEM Forms using MTOM](#unresolvedlink-lc-in-invoke-using-web-services-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7fe7.2)

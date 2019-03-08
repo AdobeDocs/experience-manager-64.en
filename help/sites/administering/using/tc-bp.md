@@ -3,13 +3,13 @@ title: Translation Best Practices
 seo-title: Translation Best Practices
 description: Find best practices compiled by Adobe engineering and consulting teams to help you get up and running with translation projects.
 seo-description: Find best practices compiled by Adobe engineering and consulting teams to help you get up and running with translation projects.
-uuid: 2052180c-9136-4df0-aefa-e821c1da690a
+uuid: 9f51005b-8e6b-4470-806e-c812e7579418
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features
 content-type: reference
 topic-tags: best-practices
-discoiquuid: 80c1f20d-c227-42e4-81ce-e572c73beb93
+discoiquuid: 23cee259-653a-492c-b05f-fe594b4fbb48
 index: y
 internal: n
 snippet: y
@@ -40,7 +40,7 @@ Creating or expanding a global web presence can be a complex process, but with g
 * There are two approaches to creating language masters: using language copies, and using MSM/live copies.
 
     * The language copy approach is the one used by AEM's out-of-the-box translation integration framework, and therefore it's the easiest way to get started. The framework provides a user interface that makes it initially easy to propagate and translate content changes from the main language (e.g. English) master to language masters. However, as the project grows, workflow automation becomes increasingly necessary to manage the translation of the increased number of pages and/or languages.
-    * The MSM/live copy approach may be an alternative for advanced uses cases, where sites are larger and more complex. Strong governance and workflow automation are necessary from the start to handle the complex inheritance relationships between English and language masters, and to reduce the risk of overwriting existing translations. This handling can be accomplished with the help of some translation connectors. See [MSM and Multilingual Sites](../../../sites/administering/using/msm-best-practices.md#msmandmultilingualwebsites) for more information.
+    * The MSM/live copy approach may be an alternative for advanced uses cases, where sites are larger and more complex. Strong governance and workflow automation are necessary from the start to handle the complex inheritance relationships between English and language masters, and to reduce the risk of overwriting existing translations. This handling can be accomplished with the help of some translation connectors. See [MSM and Multilingual Sites](../../../sites/administering/using/msm-best-practices.md#msm-and-multilingual-websites) for more information.
 
 * If your master language has global variations, an option is to use MSM to create a live copy from the global master to use for translation. For example, if global authoring is performed in a US English master, create an International English master as a live copy and basis for translation to other languages.
 * Use MSM to create country sites from the translated language masters and to roll out content to sites sharing the same language. For example, the French language master can be rolled out to France, Belgium, and Switzerland sites.

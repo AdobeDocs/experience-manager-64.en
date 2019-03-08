@@ -4,10 +4,10 @@ seo-title: DO NOT PUBLISH Customize components to create unique data capturing e
 description: With AEM Forms, you can easily create custom components and add them in your adaptive forms. The custom components you add let you capture user data according to your specifications. 
 seo-description: With AEM Forms, you can easily create custom components and add them in your adaptive forms. The custom components you add let you capture user data according to your specifications. 
 page-status-flag: never-activated
-uuid: 2b7e73e4-2574-4ea7-bb9f-db86166286c8
+uuid: a26be7ab-1e3c-481c-86fe-da773f573d9d
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 3363ebc3-0159-4ec9-b2e8-e3c1d992803d
+discoiquuid: 95e7a8a7-1566-47bd-94f8-81d442a7e129
 draft: true
 index: y
 internal: n

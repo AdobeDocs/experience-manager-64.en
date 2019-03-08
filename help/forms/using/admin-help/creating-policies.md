@@ -3,12 +3,12 @@ title: Creating and managing policies
 seo-title: Creating and managing policies
 description: A policy is a set of confidentiality settings and users who can access a document to which the policy is applied. You can create and manage various types of policies using AEM forms.
 seo-description: A policy is a set of confidentiality settings and users who can access a document to which the policy is applied. You can create and manage various types of policies using AEM forms.
-uuid: 6a89551f-09ef-4ffa-9703-187bc80cf2ea
+uuid: 64f665f8-1e66-48b7-9f41-12f8318ee732
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_document_security
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: da2958ea-1b6b-4171-bd4d-482a0cc28064
+discoiquuid: 1bc90c82-7d4a-4485-938b-b991a641d7ae
 index: y
 internal: n
 snippet: y
@@ -108,17 +108,17 @@ When you edit policies, these restrictions apply:
    >
    >You can create a policy name that contains extended characters; however, when a comparison is made between two strings, accented and non-accented characters such as "e" and "é" are considered to be the same. When someone creates a policy, a comparison is made to check whether a policy with the same name already exists. The comparison cannot distinguish between names that are the same except for accented characters. It is assumed that the policy is already added to the database and the new one is not added.
 
-1. Add users and groups to the policy and set the appropriate permissions. (See [Users and Groups](creating-policies#users_and_groups).)
-1. Under General Settings, select the appropriate options. (See [General Settings](creating-policies#general_settings).)
+1. Add users and groups to the policy and set the appropriate permissions. (See [Users and Groups](creating-policies.md#users_and_groups).)
+1. Under General Settings, select the appropriate options. (See [General Settings](creating-policies.md#general_settings).)
 1. (Optional) If applicable, select an external authorization provider and specify its properties. If you do not want to use an external authorization provider, click Remove Default Provider.
 
    An external authorization provider is used to set up properties within the policy and when selected, the external authorization provider uses this information to evaluate the policy. The available properties are configured by the administrator and the person who installs the software.
 
-1. Under Advanced Settings, select the appropriate options. (See [Advanced Settings](creating-policies#advanced_settings).)
-1. Under Unchangeable Advanced Settings, select the appropriate options. (See [Unchangeable Advanced Settings](creating-policies#unchangeable_advanced_settings).)
+1. Under Advanced Settings, select the appropriate options. (See [Advanced Settings](creating-policies.md#advanced_settings).)
+1. Under Unchangeable Advanced Settings, select the appropriate options. (See [Unchangeable Advanced Settings](creating-policies.md#unchangeable_advanced_settings).)
 1. Click Save. The policy appears in the policy list. An icon with a red circle appears beside the new policy, indicating that it is still disabled.
 
-   To make the policy available to users, enable it. (See [Enable or disable shared policies](creating-policies#enable_or_disable_shared_policies).)
+   To make the policy available to users, enable it. (See [Enable or disable shared policies](creating-policies.md#enable_or_disable_shared_policies).)
 
 ### Users and Groups {#users-and-groups}
 

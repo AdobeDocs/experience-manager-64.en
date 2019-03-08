@@ -3,12 +3,12 @@ title: Tips for minimizing database growth
 seo-title: Tips for minimizing database growth
 description: Long-lived processes store process data in the AEM forms database. The growth of the AEM forms database can be minimized using a few easy process design and product configuration strategies.
 seo-description: Long-lived processes store process data in the AEM forms database. The growth of the AEM forms database can be minimized using a few easy process design and product configuration strategies.
-uuid: f6737951-04b5-4fe8-9538-61a63a2ca33b
+uuid: 0dcb0a56-011c-4c57-8156-44d83fdc7e28
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/maintaining_the_aem_forms_database
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 451dee23-5df5-46f4-8d77-ea7b74efbf0c
+discoiquuid: 83ff5341-d71f-44c3-b48f-11231d7ffe3b
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: The Checklist
 seo-title: The Checklist
 description: The Project Checklists are intended as a set of best practices for project delivery. They guide you through all phases of the project life cycle and provide high level monitoring of your current status. 
 seo-description: The Project Checklists are intended as a set of best practices for project delivery. They guide you through all phases of the project life cycle and provide high level monitoring of your current status. 
-uuid: 74243d96-4b2d-41a4-ae4f-b7e951a7dd49
+uuid: ac22afb6-5390-4e79-ba24-bdddd98dce6f
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/MANAGING
 topic-tags: managing-checklist
 content-type: reference
-discoiquuid: d79d0619-eb79-4d0c-9b16-b2cbd8027743
+discoiquuid: 6f509605-0a78-4618-85d3-c6dfa754175b
 index: y
 internal: n
 snippet: y
@@ -35,8 +35,8 @@ The spreadsheet provides you with the following worksheets:
     * Provides instructions on how to use the spreadsheet, together with explanations of the mechanisms used.
 
 * ** [Project Heartbeat](../../managing/using/best-practices.md#projectheartbeat)**
-* ** [Status by Role](../../managing/using/best-practices.md#statusbyrole)**
-* A series of checklists, according to [Persona](../../managing/using/best-practices.md#persona), [Phase and Milestone](../../managing/using/best-practices.md#phasesandmilestones)
+* ** [Status by Role](../../managing/using/best-practices.md#status-by-role)**
+* A series of checklists, according to [Persona](../../managing/using/best-practices.md#persona), [Phase and Milestone](../../managing/using/best-practices.md#phases-and-milestones)
 
 * **Glossary**
 
@@ -50,11 +50,11 @@ The spreadsheet provides you with the following worksheets:
 To successfully deliver a high quality project, you need to complete all items in the checklists, preferably in order:
 
 1. The checklists are defined according to the ** [Persona](../../managing/using/best-practices.md#persona)** (role) involved. Each person should use the checklist appropriate to their role in the project. 
-1. The checklists cover the ** [Required Documents](../../managing/using/best-practices.md#requireddocuments)** and ** [Deliverables](../../managing/using/best-practices.md#deliverables)** for each milestone - the relevant persona must set the status and quality fields appropriate.
+1. The checklists cover the ** [Required Documents](../../managing/using/best-practices.md#required-documents)** and ** [Deliverables](../../managing/using/best-practices.md#deliverables)** for each milestone - the relevant persona must set the status and quality fields appropriate.
 
    >[!NOTE]
    >
    >There is not a direct 1:1 relationship between the individual required documents and deliverables.
 
-1. Based on the statuses of the ** [Required Documents](../../managing/using/best-practices.md#requireddocuments)** and ** [Deliverables](../../managing/using/best-practices.md#deliverables)**, the worksheets ** [Project Heartbeat](../../managing/using/best-practices.md#projectheartbeat)** and ** [Status by Role](../../managing/using/best-practices.md#statusbyrole)** are automatically updated to give you an up-to-date indication of the progress and health of your project.
+1. Based on the statuses of the ** [Required Documents](../../managing/using/best-practices.md#required-documents)** and ** [Deliverables](../../managing/using/best-practices.md#deliverables)**, the worksheets ** [Project Heartbeat](../../managing/using/best-practices.md#projectheartbeat)** and ** [Status by Role](../../managing/using/best-practices.md#status-by-role)** are automatically updated to give you an up-to-date indication of the progress and health of your project.
 

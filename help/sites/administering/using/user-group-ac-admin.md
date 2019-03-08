@@ -3,11 +3,11 @@ title: User, Group and Access Rights Administration
 seo-title: User, Group and Access Rights Administration
 description: Learn about user, group and access rights administration in AEM.
 seo-description: Learn about user, group and access rights administration in AEM.
-uuid: d0e5b181-beb9-476a-9b91-af5486362ced
+uuid: fce035ff-e2a2-4882-b0d3-96299356f8e4
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
-discoiquuid: b0159b02-3cc6-421c-91ba-dcd9a6ad74fb
+discoiquuid: 2f6e5571-19ae-403e-9f0d-3776a54d797c
 index: y
 internal: n
 snippet: y
@@ -18,10 +18,10 @@ snippet: y
 Enabling access to a CRX repository involves several topics:
 
 * [Access Rights](#evaluatingaccessrightsforusersandgroups) - the concepts of how they are defined and evaluated
-* [User Administration](#useradministration) - managing the individual accounts used for access
-* [Group Administration](#groupadministration) - simplify user management by forming groups  
+* [User Administration](#user-administration) - managing the individual accounts used for access
+* [Group Administration](#group-administration) - simplify user management by forming groups  
 
-* [Access Right Management](#accessrightmanagement) - defining policies that control how these users and groups can access resources
+* [Access Right Management](#access-right-management) - defining policies that control how these users and groups can access resources
 
 The basic elements are:
 
@@ -231,7 +231,7 @@ You must be logged into the appropriate workspace, then you can access the dialo
 
 **Group Membership** This displays all groups that the account belongs to. The Inherited column indicates membership that has been inherited as a result of membership of another group.
 
-Clicking on a GroupID (when available) will open the [Group Administration](#groupadministration) for that group.
+Clicking on a GroupID (when available) will open the [Group Administration](#group-administration) for that group.
 
 **Impersonators** With the Impersonate functionality a user can work on behalf of another user.
 

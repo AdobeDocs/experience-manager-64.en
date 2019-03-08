@@ -3,12 +3,12 @@ title: Selecting your UI
 seo-title: Selecting your UI
 description: Configure which interface you will use to work in AEM
 seo-description: Configure which interface you will use to work in AEM
-uuid: acb049f2-a498-45c2-8901-999f6a9ac6d4
+uuid: ba8d541c-a8b8-49ca-9a3d-fa0492a804b5
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
-discoiquuid: 6a7e5958-dddf-4716-af51-1a7310693e6d
+discoiquuid: 7423a775-e048-472f-bc48-e289850eb3ce
 index: y
 internal: n
 snippet: y
@@ -24,16 +24,16 @@ Although the touch-enabled UI is now the standard UI and feature parity has been
 
 There are various locations where you can define which UI is to be used:
 
-* [Configuring the default UI for your instance](#configuringthedefaultuiforyourinstance)  
+* [Configuring the default UI for your instance](#configuring-the-default-ui-for-your-instance)  
   This will set the default UI to be shown at user login, although the user may be able to override this and select a different UI for their account or current session.  
 
 * [Setting Classic UI Authoring for your account](../../../sites/authoring/using/select-ui.md#setting-classic-ui-authoring-for-your-account)  
   This will set the UI to be used as default when editing pages, although the user can override this and select a different UI for their account or current session.  
 
-* [Switching to classic UI for the current session](#switchingtoclassicuiforthecurrentsession)  
+* [Switching to classic UI for the current session](#switching-to-classic-ui-for-the-current-session)  
   This switches to the classic UI for the current session.
 
-* For the case of [page authoring the system makes certain overrides in the relation to the UI](#uioverridesfortheeditor).
+* For the case of [page authoring the system makes certain overrides in the relation to the UI](#ui-overrides-for-the-editor).
 
 >[!CAUTION]
 >
@@ -45,7 +45,7 @@ There are various locations where you can define which UI is to be used:
 >
 >Instances upgraded from a previous version will retain the classic UI for page authoring.
 >
->After upgrade, page authoring will not be automatically switched to the touch-enabled UI, but you can configure this using the the [OSGi configuration](../../../sites/deploying/using/configuring-osgi.md) of the **WCM Authoring UI Mode Service** ( `AuthoringUIMode` service). See [UI Overrides for the Editor](#uioverridesfortheeditor).
+>After upgrade, page authoring will not be automatically switched to the touch-enabled UI, but you can configure this using the the [OSGi configuration](../../../sites/deploying/using/configuring-osgi.md) of the **WCM Authoring UI Mode Service** ( `AuthoringUIMode` service). See [UI Overrides for the Editor](#ui-overrides-for-the-editor).
 
 ## Configuring the Default UI for Your Instance {#configuring-the-default-ui-for-your-instance}
 

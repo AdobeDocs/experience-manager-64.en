@@ -3,12 +3,12 @@ title: How to Develop AEM Projects Using Eclipse
 seo-title: How to Develop AEM Projects Using Eclipse
 description: This guide describes how to use Eclipse for developing AEM based projects
 seo-description: This guide describes how to use Eclipse for developing AEM based projects
-uuid: 7f3297e8-7f87-4c3b-ba3c-b99f2e5f355b
+uuid: 67c559cd-ed96-4a0b-ad05-8fe1355656de
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: development-tools
 content-type: reference
-discoiquuid: 074aed6e-77b1-440c-b171-bda5556945f6
+discoiquuid: fe30d5f5-4782-465b-9fb4-98aa1c8451b0
 index: y
 internal: n
 snippet: y
@@ -56,7 +56,7 @@ Eclipse can also provide support in working with JSP, e.g.
 
 For that to work:
 
-1. Follow the instructions on [How-To Work with JSPs](../../../sites/developing/using/ht-projects-maven.md#howtoworkwithjsps) in [How-To Build AEM Projects using Apache Maven](../../../sites/developing/using/ht-projects-maven.md).
+1. Follow the instructions on [How-To Work with JSPs](../../../sites/developing/using/ht-projects-maven.md#how-to-work-with-jsps) in [How-To Build AEM Projects using Apache Maven](../../../sites/developing/using/ht-projects-maven.md).
 1. Add the following to the &lt;build /&gt; section in your content module's POM.
 
    Eclipse's Maven support plugin, m2e, does not provide support for the maven-jspc-plugin, and this configuration tells m2e to ignore the plugin and the related task of cleaning up the temporary compilation results.
@@ -130,5 +130,5 @@ For that to work:
 
    >[!NOTE]
    >
-   >If you include `/libs/foundation/global.jsp` or other JSPs in `/libs`, you will need to copy that to your project so Eclipse can resolve the inclusion. At the same time, you need to make sure that it is not bundled into your content package by Maven. How to achieve this is described in [How to Build AEM Projects using Apache Maven](/content/docs/en/aem/6-3/develop/how-tos/ht-projects-maven#Syncing Paths Without Adding Them to the Package).
+   >If you include `/libs/foundation/global.jsp` or other JSPs in `/libs`, you will need to copy that to your project so Eclipse can resolve the inclusion. At the same time, you need to make sure that it is not bundled into your content package by Maven. How to achieve this is described in [How to Build AEM Projects using Apache Maven](/content/docs/en/aem/6-3/develop/how-tos/ht-projects-maven.md#syncing paths without adding them to the package).
 

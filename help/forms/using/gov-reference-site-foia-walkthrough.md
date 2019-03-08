@@ -3,10 +3,10 @@ title: We.Gov reference site FOIA walkthrough
 seo-title: We.Gov reference site FOIA walkthrough
 description: See the We.Gov reference site walkthrough to understand how AEM Forms helps governments receive and impart information requested by individuals under the Freedom of Information Act. 
 seo-description: See the We.Gov reference site walkthrough to understand how AEM Forms helps governments receive and impart information requested by individuals under the Freedom of Information Act. 
-uuid: 874575f8-17dd-4f4e-954f-7340259b6a60
+uuid: 70947b07-a5fe-40a7-a9f9-988f0c67e1c9
 topic-tags: introduction
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 9b64895b-51a2-4890-a7eb-fadd90b0d6fb
+discoiquuid: 46a2b38d-5710-427a-90e3-9c9c153c705c
 index: y
 internal: n
 snippet: y

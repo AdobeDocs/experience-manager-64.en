@@ -3,9 +3,9 @@ title: Installing and configuring document services
 seo-title: Installing and configuring document services
 description: Install AEM Forms document services to create, assemble, distribute, archive PDF documents, add digital signatures to limit access to documents, and decode barcoded forms.
 seo-description: Install AEM Forms document services to create, assemble, distribute, archive PDF documents, add digital signatures to limit access to documents, and decode barcoded forms.
-uuid: da6487e0-4bb3-4858-802f-700c553fbc82
+uuid: 92117503-e058-46e9-9eaf-e92845423238
 topic-tags: installing
-discoiquuid: ad9fd73d-9961-4f12-8ceb-45ca9faef430
+discoiquuid: 44cb5452-813b-49bd-94b8-8f0de50fb864
 index: y
 internal: n
 snippet: y

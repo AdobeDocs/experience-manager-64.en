@@ -3,12 +3,12 @@ title: Q&A Forum Feature
 seo-title: Q&A Forum Feature
 description: Adding the QnA forum feature to a page
 seo-description: Adding the QnA forum feature to a page
-uuid: 803a50e0-4fd0-4424-8aed-ec0ab2c25315
+uuid: 0ca8811b-9449-48e9-b510-0d8090ba832b
 contentOwner: msm-service
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
-discoiquuid: 22592d39-3d41-4d3a-9704-8a4ffc08bc9e
+discoiquuid: 4381bca4-2392-41b0-9edd-1830026a714b
 index: y
 internal: n
 snippet: y
@@ -43,7 +43,7 @@ and drag it into place on a page where the QnA forum should appear.
 
 For necessary information, visit [Communities Components Basics](../../communities/using/basics.md).
 
-When the [required client-side libraries](../../communities/using/qna-essentials.md#essentialsforclientside) are included, this is how the `QnA`component will appear :
+When the [required client-side libraries](../../communities/using/qna-essentials.md#essentials-for-client-side) are included, this is how the `QnA`component will appear :
 
 ![](assets/chlimage_1-280.png)
 

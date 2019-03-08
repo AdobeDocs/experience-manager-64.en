@@ -3,12 +3,12 @@ title: Activity Stream Essentials
 seo-title: Activity Stream Essentials
 description: List of recent activites performed by a member or a list of recent activities on a single thread of content
 seo-description: List of recent activites performed by a member or a list of recent activities on a single thread of content
-uuid: 83df353f-9582-4d80-a386-5fdb3f9192b9
+uuid: fb2ec853-d52b-4267-a683-0dd2642d2745
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: c3119efe-737e-4519-904f-fbb3d56b1dce
+discoiquuid: a61dbb60-2caa-4bd5-8a43-5dd64211c0b1
 index: y
 internal: n
 snippet: y
@@ -41,7 +41,7 @@ A * [social graph](../../communities/using/essentials-socialgraph.md)* captures 
    <td>social/activitystreams/components/hbs/activitystreams</td> 
   </tr>
   <tr>
-   <td> <a href="../../communities/using/scf.md#addorincludeacommunitiescomponent"><strong>includable</strong></a></td> 
+   <td> <a href="../../communities/using/scf.md#add-or-include-a-communities-component"><strong>includable</strong></a></td> 
    <td>No</td> 
   </tr>
   <tr>
@@ -67,12 +67,12 @@ A * [social graph](../../communities/using/essentials-socialgraph.md)* captures 
 
 ## Essentials for Server-Side {#essentials-for-server-side}
 
-* [Activity Streams API](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/activitystreams/api/package-frame)
+* [Activity Streams API](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/activitystreams/api/package-frame.md)
 
-* [Activity Streams Listener API](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/activitystreams/listener/api/package-frame)
+* [Activity Streams Listener API](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/activitystreams/listener/api/package-frame.md)
 
 * [Server-side Customizations](../../communities/using/server-customize.md)
 
 ### Activity Stream Function {#activity-stream-function}
 
-A community site structure that includes the [Activity Stream function](../../communities/using/functions.md#activitystreamfunction), includes a configured `activity streams` component.
+A community site structure that includes the [Activity Stream function](../../communities/using/functions.md#activity-stream-function), includes a configured `activity streams` component.

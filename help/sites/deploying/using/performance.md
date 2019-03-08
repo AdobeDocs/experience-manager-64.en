@@ -3,12 +3,12 @@ title: Performance & Scalability
 seo-title: Performance & Scalability
 description: This white paper discusses the ways scalability has been built into AEM along with performance indicators and disaster recovery features.  
 seo-description: This white paper discusses the ways scalability has been built into AEM along with performance indicators and disaster recovery features.  
-uuid: 72480121-add0-427d-b0ec-a06b51200b87
+uuid: 1df281e9-a489-4552-ad55-1d2e4d4469ab
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
-discoiquuid: a31fe866-a16a-45df-a7f5-1b83b80c6ce1
+discoiquuid: 529455e6-69d5-45c1-a08b-8640f4e77096
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Synchronizing directories
 seo-title: Synchronizing directories 
 description: Learn how to synchronize the User Management database with changes to the source directory servers using manual or scheduled synchronization.
 seo-description: Learn how to synchronize the User Management database with changes to the source directory servers using manual or scheduled synchronization.
-uuid: ddecb507-ada1-4573-8898-f134db705bf4
+uuid: b25f9fd8-be53-42b8-8584-a33dbd47fd75
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/setting_up_and_managing_domains
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 6da75788-4d95-443a-b758-e154540733b7
+discoiquuid: 56840159-643a-4394-83cf-c95ba5f2386c
 index: y
 internal: n
 snippet: y

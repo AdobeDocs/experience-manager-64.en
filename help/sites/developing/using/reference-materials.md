@@ -3,13 +3,13 @@ title: API Guides
 seo-title: API Guides
 description: Documentation for the APIs that AEM provides for developing applications
 seo-description: Documentation for the APIs that AEM provides for developing applications
-uuid: bfe27631-86d5-40ff-9055-384e712bd54a
+uuid: 67b31825-0ca5-41f2-9c57-2e70c3b64f0c
 contentOwner: Guillaume Carlino
 topic-tags: introduction
 audience: developing
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SITES
-discoiquuid: 5dd808cf-c7aa-4384-aa09-61a3d829cb7a
+discoiquuid: 62088d4e-da9e-4969-94f3-9f0e07147e7e
 index: y
 internal: n
 snippet: y
@@ -19,19 +19,19 @@ snippet: y
 
 AEM provides several APIs for developing applications. The following list provides the documentation for APIs supported by AEM:
 
-* [Adobe AEM 6.4.0 API](/sites/developing/using/reference-materials/javadoc/index)  
+* [Adobe AEM 6.4.0 API](/sites/developing/using/reference-materials/javadoc/index.md)  
 
-* [API Differences](/sites/developing/using/reference-materials/diff-previous/changes)  
+* [API Differences](/sites/developing/using/reference-materials/diff-previous/changes.md)  
 
-* [Granite UI (Touch-Enabled) API Documentation](/sites/developing/using/reference-materials/granite-ui/api/index)  
+* [Granite UI (Touch-Enabled) API Documentation](/sites/developing/using/reference-materials/granite-ui/api/index.md)  
 
-* [Coral UI Guide](/sites/developing/using/reference-materials/coral-ui/coralui3/index)  
+* [Coral UI Guide](/sites/developing/using/reference-materials/coral-ui/coralui3/index.md)  
 
-* [Widgets API (Classic UI) Documentation](/sites/developing/using/reference-materials/widgets-api/index)  
+* [Widgets API (Classic UI) Documentation](/sites/developing/using/reference-materials/widgets-api/index.md)  
 
-* [UI Test Framework Javascript API Reference](/sites/developing/using/reference-materials/test-api/index)  
+* [UI Test Framework Javascript API Reference](/sites/developing/using/reference-materials/test-api/index.md)  
 
-* [Editor Core Javascript API Reference](/sites/developing/using/reference-materials/jsdoc/ui-touch/editor-core/index)
+* [Editor Core Javascript API Reference](/sites/developing/using/reference-materials/jsdoc/ui-touch/editor-core/index.md)
 
 AEM Single-Page Application (SPA) Editor SDK framework JavaScript API references:
 

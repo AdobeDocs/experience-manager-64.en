@@ -3,12 +3,12 @@ title: Overview of output service
 seo-title: Overview of output service
 description: Output lets you merge XML form data with a form design created in Designer to create a document output stream in various formats.
 seo-description: Output lets you merge XML form data with a form design created in Designer to create a document output stream in various formats.
-uuid: fe783924-de70-4869-92c1-f873c00ddb7a
+uuid: 7ea2fcb3-6d37-4f46-a830-3fbd15f567bd
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_output
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: e5afe0ea-a66c-493d-bc98-62e1dc1f381e
+discoiquuid: 970d192f-9aee-42f1-b8cf-696f555b166a
 index: y
 internal: n
 snippet: y

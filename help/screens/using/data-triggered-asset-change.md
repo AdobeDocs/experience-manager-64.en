@@ -3,12 +3,12 @@ title: Data Triggered Asset Change
 seo-title: Data Triggered Asset Change
 description: Follow this use case example to learn how to achieve personalized content based on some precondition (for example, weather of your location).
 seo-description: Follow this use case example to learn how to achieve personalized content based on some precondition (for example, weather of your location).
-uuid: 65b71117-d3bb-45e0-8e19-6df3d02cc2bb
+uuid: e6e96671-ba97-4014-a599-16dce6911b9e
 contentOwner: jsyal
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 content-type: example
 topic-tags: use-case-examples
-discoiquuid: a51b7756-4fae-4096-b4d4-78dc51a4bb85
+discoiquuid: 7fc93ed2-bc36-4485-b101-5d78594f1a32
 index: y
 internal: n
 snippet: y

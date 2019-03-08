@@ -3,12 +3,12 @@ title: Client Context Javascript API
 seo-title: Client Context Javascript API
 description: The Javascript API for Client Context
 seo-description: The Javascript API for Client Context
-uuid: 85981374-713a-4928-a5c2-3b772da9a8d1
+uuid: 5a595c2d-edc4-490c-9071-2a4164064591
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
-discoiquuid: a4d92031-873e-4825-a580-25b33fb6dd8b
+discoiquuid: 05c46ec4-babc-4541-83df-99417e230350
 index: y
 internal: n
 snippet: y
@@ -82,7 +82,7 @@ No returned value.
 
 #### onStoreRegistered(storeName, callback) {#onstoreregistered-storename-callback}
 
-Registers a callback function that is called when a session store is registered. The register event occurs when a store is registered to [CQ_Analytics.ClientContextMgr](#cqanalyticsclientcontextmgr).
+Registers a callback function that is called when a session store is registered. The register event occurs when a store is registered to [CQ_Analytics.ClientContextMgr](#cq-analytics-clientcontextmgr).
 
 **Parameters**
 

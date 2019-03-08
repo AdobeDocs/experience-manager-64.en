@@ -3,12 +3,12 @@ title: Configuring Search Forms
 seo-title: Configuring Search Forms
 description: Learn how to configure Search Forms.
 seo-description: Learn how to configure Search Forms.
-uuid: e1974a36-ea75-4180-aee3-114fcef17889
+uuid: 662a811b-41f3-4b01-b5d4-fb5c1853a204
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: 0af0c78c-4241-4fcf-beb0-36a8239acac3
+discoiquuid: 259352e6-5db6-49fc-badc-0069ac394939
 index: y
 internal: n
 snippet: y
@@ -18,9 +18,9 @@ snippet: y
 
 Use **Search Forms** to customize the selection of search predicates used in the search panels available in various AEM consoles and/or panels of the author environment. Customizing these panels makes the search functionality versatile according your specific needs.
 
-A [range of predicate](#predicatesandtheirsettings)s are available out-of-the-box. You can add multiple predicates, including (amongst others) the Fulltext predicate for full-text searches, the Property predicate to search for assets that match a single property specified by you, or the Options predicate to search assets that match one or more values that you specify for a particular property.
+A [range of predicate](#predicates-and-their-settings)s are available out-of-the-box. You can add multiple predicates, including (amongst others) the Fulltext predicate for full-text searches, the Property predicate to search for assets that match a single property specified by you, or the Options predicate to search assets that match one or more values that you specify for a particular property.
 
-You can [configure the search forms](#configuringyoursearchforms) used within various consoles and the asset browser (when editing pages). The [dialogs for configuring these forms](#configuringyoursearchforms) can be accessed via:
+You can [configure the search forms](#configuring-your-search-forms) used within various consoles and the asset browser (when editing pages). The [dialogs for configuring these forms](#configuring-your-search-forms) can be accessed via:
 
 * **Tools**
 
@@ -384,7 +384,7 @@ Dependent on the predicate a selection of settings are available for configurati
 
 1. Select the configuration that you want to customize.
 1. Use the **Edit** icon to open the configuration for updating.
-1. If a new customization you will probably want to [add new predicate fields and define the settings](#addeditapredicatefieldanddefinefieldsettings) as required. If an existing customization you can select an existing field and [update the settings](#addeditapredicatefieldanddefinefieldsettings).
+1. If a new customization you will probably want to [add new predicate fields and define the settings](#add-edit-a-predicate-field-and-define-field-settings) as required. If an existing customization you can select an existing field and [update the settings](#add-edit-a-predicate-field-and-define-field-settings).
 1. Select **Done** to save the configuration.
 
    >[!NOTE]
@@ -403,7 +403,7 @@ Dependent on the predicate a selection of settings are available for configurati
 
 You can add or edit fields and define/update their settings:
 
-1. [Open the customized configuration](#creatingopeningacustomizedconfiguration) for updating.
+1. [Open the customized configuration](#creating-opening-a-customized-configuration) for updating.
 1. If you want to add a new field, open the **Select Predicate** tab and drag the required predicate to the required location. For example, the **Date Range Predicate**:
 
    ![](assets/chlimage_1-375.png)
@@ -436,7 +436,7 @@ You can add or edit fields and define/update their settings:
 
 ### Deleting a Predicate Field {#deleting-a-predicate-field}
 
-1. [Open the customized configuration](#creatingopeningacustomizedconfiguration) for updating.
+1. [Open the customized configuration](#creating-opening-a-customized-configuration) for updating.
 1. Select the predicate field (on the right), open the **Settings** tab and then select the **Delete** icon (bottom left).
 
    ![](do-not-localize/chlimage_1-32.png)

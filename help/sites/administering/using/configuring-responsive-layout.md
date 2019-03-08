@@ -3,12 +3,12 @@ title: Configuring Layout Container and Layout Mode
 seo-title: Configuring Layout Container and Layout Mode
 description: Lear how to configure Layout Container and Layout Mode.
 seo-description: Lear how to configure Layout Container and Layout Mode.
-uuid: 7b2b7c04-8c6f-4a7d-9832-00ab2838a5bb
+uuid: e63303f0-a015-4abf-8f6f-702ce5729230
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
-discoiquuid: f162b544-0fd8-4666-8d90-7ca202b053d8
+discoiquuid: 9c796aaf-5c8c-4e70-ae85-177125d82bb0
 legacypath: /content/docs/en/aem/6-2/administer/operations/page-authoring/configuring-responsive-layouting
 index: y
 internal: n
@@ -25,7 +25,7 @@ snippet: y
 
 AEM realizes responsive layout for your pages using a combination of mechanisms:
 
-* [**Layout Container**](../../../sites/authoring/using/responsive-layout.md#addingalayoutcontaineranditscontenteditmode) component  
+* [**Layout Container**](../../../sites/authoring/using/responsive-layout.md#adding-a-layout-container-and-its-content-edit-mode) component  
   This component provides a grid-paragraph system to allow you to add and position components within a responsive grid. It can be used as the default parsys for your page and/or made available to authors in the component browser.
 
     * The default **Layout Container** component is defined under:  
@@ -41,7 +41,7 @@ AEM realizes responsive layout for your pages using a combination of mechanisms:
 * ** [Layout Mode](../../../sites/authoring/using/responsive-layout.md#defining-layouts-layout-mode)** 
   Once the layout container is positioned on your page you can use the **Layout** mode to position content within the responsive grid.
 
-* [**Emulator**](../../../sites/authoring/using/responsive-layout.md#selectingadevicetoemulate)**** 
+* [**Emulator**](../../../sites/authoring/using/responsive-layout.md#selecting-a-device-to-emulate)**** 
   This allows you to create and edit responsive websites that rearrange the layout according to device/window size by resizing components interactively. The user can then see how the content will be rendered using the Emulator.
 
 >[!CAUTION]
@@ -65,15 +65,15 @@ This tasks allow you to see the responsive **Emulator** on your site.
 
 ### Register your Page Components for Emulation {#register-your-page-components-for-emulation}
 
-To enable the emulator to support your pages, you must register your page components. See [Registering Page Components for Simulation](../../../sites/developing/using/responsive.md#registeringpagecomponentsforsimulation).
+To enable the emulator to support your pages, you must register your page components. See [Registering Page Components for Simulation](../../../sites/developing/using/responsive.md#registering-page-components-for-simulation).
 
 ### Specify the Device Groups {#specify-the-device-groups}
 
-To specify the device groups that appear in the Devices list of the emulator see [Specifying the Device Groups](../../../sites/developing/using/responsive.md#specifyingthedevicegroups).
+To specify the device groups that appear in the Devices list of the emulator see [Specifying the Device Groups](../../../sites/developing/using/responsive.md#specifying-the-device-groups).
 
 ### Link your Site to the Specified Device Groups {#link-your-site-to-the-specified-device-groups}
 
-To include the dmulator you need to link your site to the device groups. See [Adding the Devices List](../../../sites/developing/using/responsive.md#addingthedeviceslist) (for both the classic and touch-optimized UI).
+To include the dmulator you need to link your site to the device groups. See [Adding the Devices List](../../../sites/developing/using/responsive.md#adding-the-devices-list) (for both the classic and touch-optimized UI).
 
 ## Activate Layout Mode for your Site {#activate-layout-mode-for-your-site}
 
@@ -81,7 +81,7 @@ These procedures are used to enable the **Layout** mode on your site.
 
 ### Configure the Breakpoints {#configure-the-breakpoints}
 
-[Breakpoints](../../../sites/authoring/using/responsive-layout.md#selectingadevicetoemulate):
+[Breakpoints](../../../sites/authoring/using/responsive-layout.md#selecting-a-device-to-emulate):
 
 * Are used in responsive design.
 * Can be defined:

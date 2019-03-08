@@ -3,12 +3,12 @@ title: Mobile On-Demand
 seo-title: Mobile On-Demand
 description: Follow this page to learn about the roles and responsibilities for AEM mobile On-Demand services author.
 seo-description: Follow this page to learn about the roles and responsibilities for AEM mobile On-Demand services author.
-uuid: 7723094f-9408-4575-8667-7d16636e3c4c
+uuid: f70ee984-e9e2-4162-b8cd-62caf61e7a42
 contentOwner: msm-service
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: authoring-on-demand-services-app
-discoiquuid: d0b15387-397f-47b5-a5f9-1967fde32b38
+discoiquuid: ee3ba88f-24b4-41c0-97bf-a9bfb0898469
 index: y
 internal: n
 snippet: y
@@ -43,7 +43,7 @@ An AEM author is responsible for the following tasks while creating an app using
 * [Cloud Configuration](../../mobile/using/mobile-on-demand-associating-an-On-Demand-app-to-cloud-configuration.md)
 * [Managing Content](../../mobile/using/mobile-apps-ondemand-manage-content-ondemand.md)
 
-To learn about **Content Services**, see [Content Services Overview](/mobile/using/content-as-a-service) to get started.
+To learn about **Content Services**, see [Content Services Overview](/mobile/using/content-as-a-service.md) to get started.
 
 >[!NOTE]
 >

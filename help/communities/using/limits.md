@@ -3,12 +3,12 @@ title: Member Contribution Limits
 seo-title: Member Contribution Limits
 description: Contribution limits feature lets you limit the contributions to protect against spam
 seo-description: Contribution limits feature lets you limit the contributions to protect against spam
-uuid: 4e34c765-26e1-416b-99c2-35183c8e2bc0
+uuid: 663d224d-79da-41dc-9ad8-b7bdef7d43ff
 contentOwner: Janice Kendall
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
-discoiquuid: db2a428f-3c69-4066-b91e-f91bafa8eaa7
+discoiquuid: 1d7348d8-cb99-4fc4-8748-23ab67215662
 index: y
 internal: n
 snippet: y

@@ -3,12 +3,12 @@ title: Picture clause support for HTML5 forms
 seo-title: Picture clause support for HTML5 forms
 description: HTML5 forms supports XFA Picture clause for display value and formatted value for date, text, and numeric symbols.
 seo-description: HTML5 forms supports XFA Picture clause for display value and formatted value for date, text, and numeric symbols.
-uuid: fa468be4-b223-41fe-a846-ccdebcb0aa3f
+uuid: 0b98f228-7e4a-4cb9-a98c-a165897a03f3
 contentOwner: robhagat
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
-discoiquuid: eb102fe3-da9d-4ab5-a6bf-74664b21ce79
+discoiquuid: eac4af3c-c1f8-4855-b988-a57dafcb488f
 index: y
 internal: n
 snippet: y

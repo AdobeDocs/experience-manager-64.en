@@ -3,12 +3,12 @@ title: AEM Mobile On-Demand
 seo-title: AEM Mobile On-Demand
 description: Starting a new AEM Mobile app experience requires a cohesion of roles before it is ready for content editing. Follow this page to get started with AEM mobile On-Demand services.
 seo-description: Starting a new AEM Mobile app experience requires a cohesion of roles before it is ready for content editing. Follow this page to get started with AEM mobile On-Demand services.
-uuid: cdc48f00-901c-4aba-a54f-65421e23ca4e
+uuid: 2dce48ca-3090-468b-95e0-8de0b59795cc
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: introduction
 content-type: reference
-discoiquuid: a0a8cdaf-6b55-4e73-97ef-71ff1b55e546
+discoiquuid: 34df28e8-1e97-46e6-885a-f6f7fbadac1d
 index: y
 internal: n
 snippet: y
@@ -67,7 +67,7 @@ An AEM administrator is responsible for the following tasks while creating an ap
 * [Setting up AEM Mobile](../../mobile/using/aem-mobile-setup.md)
 * [Configuring your User and User Groups](../../mobile/using/aem-mobile-configure-users.md)
 * [Previewing with Preflight](../../mobile/using/aem-mobile-manage-ondemand-services.md)
-* [Administering Content Services](/mobile/using/content-services)
+* [Administering Content Services](/mobile/using/content-services.md)
 
 To get started with an Administrator's roles and responsibilities, See [Administering Content to Use AEM Mobile On-Demand Services](../../mobile/using/aem-mobile.md).
 
@@ -98,7 +98,7 @@ An AEM author must understand the following topics, while creating an app using 
 * [Application Create and Configuration Actions](../../mobile/using/mobile-apps-ondemand-application-create-configure-action.md)
 * [Cloud Configuration](../../mobile/using/mobile-on-demand-associating-an-On-Demand-app-to-cloud-configuration.md)
 * [Managing Content](../../mobile/using/mobile-apps-ondemand-manage-content-ondemand.md)
-* [Content Services Overview](/mobile/using/content-as-a-service)
+* [Content Services Overview](/mobile/using/content-as-a-service.md)
 
 To get started with an Author's roles and responsibilities, See [Authoring AEM Content for AEM Mobile On-Demand Services App](../../mobile/using/mobile-apps-ondemand.md).
 

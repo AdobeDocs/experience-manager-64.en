@@ -3,12 +3,12 @@ title: Projects
 seo-title: Projects
 description: Projects let you group resources into one entity whose common, shared environment makes it easy to manage your projects
 seo-description: Projects let you group resources into one entity whose common, shared environment makes it easy to manage your projects
-uuid: a3337bfd-9123-480a-9435-0bf1d98b1211
+uuid: f14241b9-f604-43aa-bc84-f18b158e14e1
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: projects
 content-type: reference
-discoiquuid: 138df0ac-14e8-48cd-b4d7-13d148bc0604
+discoiquuid: b563eb5f-5b6c-4465-b3c5-69c34cd33c1c
 index: y
 internal: n
 snippet: y
@@ -16,7 +16,7 @@ snippet: y
 
 # Projects{#projects}
 
-Projects let you group resources into one entity. A common, shared environment makes it easy to manage your projects. The types of resources you can associate with a project are referred to in AEM as Tiles. Tiles may include project and team information, assets, workflows, and other types of information, as described in detail in [Project Tiles.](#projecttiles)
+Projects let you group resources into one entity. A common, shared environment makes it easy to manage your projects. The types of resources you can associate with a project are referred to in AEM as Tiles. Tiles may include project and team information, assets, workflows, and other types of information, as described in detail in [Project Tiles.](#project-tiles)
 
 >[!CAUTION]
 >
@@ -142,7 +142,7 @@ The **Landing** Pages tile lets you request a new landing page.
 
 ![](assets/chlimage_1-183.png)
 
-This workflow is described in [Create a Landing Page workflow](../../../sites/authoring/using/projects-with-workflows.md#requestlandingpageworkflow).
+This workflow is described in [Create a Landing Page workflow](../../../sites/authoring/using/projects-with-workflows.md#request-landing-page-workflow).
 
 ### Emails {#emails}
 
@@ -150,7 +150,7 @@ The **Emails** tile helps you manage requests for email. It starts the Request f
 
 ![](assets/chlimage_1-184.png)
 
-More information is described in the [Request Email workflow.](../../../sites/authoring/using/projects-with-workflows.md#requestemailworkflow)
+More information is described in the [Request Email workflow.](../../../sites/authoring/using/projects-with-workflows.md#request-email-workflow)
 
 ### Workflows {#workflows}
 

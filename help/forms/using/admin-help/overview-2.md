@@ -3,12 +3,12 @@ title: Basics of managing certificates and credentials
 seo-title: Basics of managing certificates and credentials
 description: Learn about the basics of managing certificates and credentials.
 seo-description: Learn about the basics of managing certificates and credentials.
-uuid: 7af5c9a1-5e52-4733-84bf-d37c22686e27
+uuid: faeb3474-132e-453a-aaa9-fe69eee4db8f
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/managing_certificates_and_credentials
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
-discoiquuid: 3e4d93ab-ebad-4252-b915-951ad46c6699
+discoiquuid: 98ee9fe9-a824-4d12-a114-749ed0911180
 index: y
 internal: n
 snippet: y

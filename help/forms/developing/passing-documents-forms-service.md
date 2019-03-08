@@ -3,13 +3,13 @@ title: Passing Documents to the FormsService
 seo-title: Passing Documents to the FormsService
 description: null
 seo-description: null
-uuid: 8baff76b-ab2c-4d8a-9de2-496d14c2ba2b
+uuid: a835d5db-9e8c-46b8-bb3f-fd435a286410
 contentOwner: admin
 content-type: reference
 geptopics: SG_AEMFORMS/categories/rendering_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
-discoiquuid: c1bd9f95-65ae-44fd-a56f-e6e57c046d77
+discoiquuid: 7df5c9e5-f6b2-4fa9-9c7e-d9a728134dc2
 index: y
 internal: n
 snippet: y
@@ -67,9 +67,9 @@ Depending on the type of client application, you can write the form to a client 
 
 **See also**
 
-[Pass documents to the Forms Service using the Java API](/programming-with-aem-forms/rendering-forms-rendering-forms passing-documents-forms-service-passing passing-documents-forms-service-passing#pass_documents_to_the_forms_service_using_the_java_api)
+[Pass documents to the Forms Service using the Java API](/programming-with-aem-forms/rendering-forms-rendering-forms passing-documents-forms-service-passing passing-documents-forms-service-passing.md#pass_documents_to_the_forms_service_using_the_java_api)
 
-[Pass documents to the Forms Service using the web service API](/programming-with-aem-forms/rendering-forms-rendering-forms passing-documents-forms-service-passing passing-documents-forms-service-passing#pass_documents_to_the_forms_service_using_the_web_service_api)
+[Pass documents to the Forms Service using the web service API](/programming-with-aem-forms/rendering-forms-rendering-forms passing-documents-forms-service-passing passing-documents-forms-service-passing.md#pass_documents_to_the_forms_service_using_the_web_service_api)
 
 [Including AEM Forms Java library files](#unresolvedlink-lc-in-invoke-using-java-iu.xml#ws624e3cba99b79e12e69a9941333732bac8-7b4b.2)
 
@@ -127,7 +127,7 @@ Pass a document obtained from Content Services (deprecated) by using the Forms s
 
 **See also**
 
-[Passing Documents to the Forms Service](/programming-with-aem-forms/rendering-forms-rendering-forms passing-documents-forms-service-passing#passing_documents_to_the_forms_service)
+[Passing Documents to the Forms Service](/programming-with-aem-forms/rendering-forms-rendering-forms passing-documents-forms-service-passing.md#passing_documents_to_the_forms_service)
 
 [Quick Start (SOAP mode): Passing documents to the Forms Service using the Java API](#unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7fd1.2)
 
@@ -206,7 +206,7 @@ Pass a document obtained from Content Services (deprecated) by using the Forms s
 
 **See also**
 
-[Passing Documents to the Forms Service](/programming-with-aem-forms/rendering-forms-rendering-forms passing-documents-forms-service-passing#passing_documents_to_the_forms_service)
+[Passing Documents to the Forms Service](/programming-with-aem-forms/rendering-forms-rendering-forms passing-documents-forms-service-passing.md#passing_documents_to_the_forms_service)
 
 [Quick Start (MTOM): Passing documents to the Forms Service using the web service API](#unresolvedlink-lc-qs-forms-fo.xml#ws624e3cba99b79e12e69a9941333732bac8-7e17.2)
 

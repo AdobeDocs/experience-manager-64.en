@@ -3,12 +3,12 @@ title: Working with the 3D Sites component
 seo-title: Working with the 3D Sites component
 description: AEM 3D includes an AEM Sites component that can be used to implement interactive viewing of 3D models on web pages.
 seo-description: AEM 3D includes an AEM Sites component that can be used to implement interactive viewing of 3D models on web pages.
-uuid: fa04fe6e-de4e-4005-af8c-f9bfe253a4fa
+uuid: 5e185e1f-cb9c-4843-a506-80582659bf50
 contentOwner: Rick Brough
 topic-tags: 3D
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
-discoiquuid: 61ea2c25-98f9-47f0-8d6c-2bae8fbc2e25
+discoiquuid: 85c181d1-493c-4666-9bfe-d262dc147cb3
 index: y
 internal: n
 snippet: y
@@ -153,7 +153,7 @@ While the web page is in Edit mode, the 3D component displays the 3D model but n
 
 You can preview the web page in the page editor with full access to the functionality of the 3D component.
 
-See also [Viewing 3D assets in the Sites 3D component](../../assets/using/viewing-3d-assets.md#viewing3dassetsinthesites3dcomponent).
+See also [Viewing 3D assets in the Sites 3D component](../../assets/using/viewing-3d-assets.md#viewing-d-assets-in-the-sites-d-component).
 
 To preview a web page that has a 3D component:
 

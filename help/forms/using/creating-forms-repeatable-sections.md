@@ -3,10 +3,10 @@ title: Creating forms with repeatable sections
 seo-title: Creating forms with repeatable sections
 description: Repeatable sections are panels that can be dynamically added or removed to a form.  
 seo-description: Repeatable sections are panels that can be dynamically added or removed to a form.  
-uuid: 65667eff-2f5d-4e8d-8682-077b4ca56036
+uuid: cb21a336-69d7-430c-bc2c-b3a799ed9bef
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
-discoiquuid: eb7aeb70-d779-455f-b027-007ca67fa069
+discoiquuid: 2db2576d-ca08-4d17-9a61-6873eaf3e8de
 index: y
 internal: n
 snippet: y

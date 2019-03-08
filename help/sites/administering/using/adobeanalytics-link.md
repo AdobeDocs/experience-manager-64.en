@@ -3,12 +3,12 @@ title: Configuring Link Tracking for Adobe Analytics
 seo-title: Configuring Link Tracking for Adobe Analytics
 description: Learn about configuring link tracking for SiteCatalyst.
 seo-description: Learn about configuring link tracking for SiteCatalyst.
-uuid: ace5f0d1-3b29-443c-a16b-66fb5830f5fe
+uuid: bb6cd23d-d65d-480a-9223-5aafc6cba562
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: f196ac0f-bdfe-4615-bc6d-4f81a5d9172c
+discoiquuid: 37745e49-470f-47a2-9062-fa81cd229f71
 index: y
 internal: n
 snippet: y
@@ -56,7 +56,7 @@ s.linkDownloadFileTypes= 'exe,zip,wav,mp3,mov,mpg,avi,wmv,doc,pdf,xls';
 
 To enable download tracking for your Adobe Analytics framework:
 
-1. [Open the Adobe Analytics framework and expand the **Link Tracking Configuration** section](#configuringlinktrackingforanadobeanalyticsframework).
+1. [Open the Adobe Analytics framework and expand the **Link Tracking Configuration** section](#configuring-link-tracking-for-an-adobe-analytics-framework).
 1. Enable **Track Downloads**.
 1. In the **Download File Types** box, type the filename extensions for the types of files that you want tracked.
 
@@ -66,7 +66,7 @@ You can track the clicking of external links (exit links) on your pages.
 
 To track external links for your Adobe Analytics framework:
 
-1. [Open the Adobe Analytics framework and expand the **Link Tracking Configuration** section](#configuringlinktrackingforanadobeanalyticsframework).
+1. [Open the Adobe Analytics framework and expand the **Link Tracking Configuration** section](#configuring-link-tracking-for-an-adobe-analytics-framework).
 1. Configure the following properties according to your requirements.
 
 Properties for tracking when external links are clicked:
@@ -108,7 +108,7 @@ The framework mappings determine the event and variable values. You can map Adob
 
 To send variable data with link clicks:
 
-1. [Open the Adobe Analytics framework and expand the **Link Tracking Configuration** section](#configuringlinktrackingforanadobeanalyticsframework).
+1. [Open the Adobe Analytics framework and expand the **Link Tracking Configuration** section](#configuring-link-tracking-for-an-adobe-analytics-framework).
 1. Configure the following properties according to your requirements.
 
 Properties for sending variable data with link clicks:
@@ -253,9 +253,9 @@ Ad-hoc link tracking enables you to track download links, external links, togeth
 
 To enable ad-hoc link tracking you need to:
 
-* [Associate the page that contains the **Text** component with the framework](../../../sites/administering/using/adobeanalytics-connect.md#associatingapagewithaadobeanalyticsframework).
-* [Configure the Adobe Analytics framework to enable ad-hoc link tracking](#enablingadhoclinktracking).
-* [Configure Link Tracking for a Text component](#configuringlinktrackingforatextcomponent).
+* [Associate the page that contains the **Text** component with the framework](../../../sites/administering/using/adobeanalytics-connect.md#associating-a-page-with-a-adobe-analytics-framework).
+* [Configure the Adobe Analytics framework to enable ad-hoc link tracking](#enabling-ad-hoc-link-tracking).
+* [Configure Link Tracking for a Text component](#configuring-link-tracking-for-a-text-component).
 
 ### Enabling Ad-hoc Link Tracking {#enabling-ad-hoc-link-tracking}
 
@@ -303,8 +303,8 @@ Configure your Adobe Analytics framework to enable ad-hoc link tracking.
 
 Before you can configure ad-hoc link tracking for **Text** components themselves, the following configurations must have already been implemented:
 
-* The [Adobe Analytics framework is configured to enable ad-hoc link tracking](#enablingadhoclinktracking).
-* The [page that contains the **Text** component is associated with the framework](../../../sites/administering/using/adobeanalytics-connect.md#associatingapagewithaadobeanalyticsframework).
+* The [Adobe Analytics framework is configured to enable ad-hoc link tracking](#enabling-ad-hoc-link-tracking).
+* The [page that contains the **Text** component is associated with the framework](../../../sites/administering/using/adobeanalytics-connect.md#associating-a-page-with-a-adobe-analytics-framework).
 
 Use the following procedure to configure link tracking for a **Text** component:
 

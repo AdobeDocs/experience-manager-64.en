@@ -3,12 +3,12 @@ title: Workflow Step Reference
 seo-title: Workflow Step Reference
 description: null
 seo-description: null
-uuid: 5b3ce535-f904-47d0-b240-ad885a90bc6e
+uuid: f5eb3d65-ae75-4ebf-8776-78d820600f2b
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
-discoiquuid: 4f2c8117-b4e8-4799-8cbc-99cdadb2d8dc
+discoiquuid: 7b161e2c-1621-430b-bdb7-b883cde86721
 index: y
 internal: n
 snippet: y
@@ -43,7 +43,7 @@ A combination of the following properties are available for most workflow step c
   A description of the step.
 
 * **Workflow Stage  
-  **A drop down selector to apply a [Stage](../../../sites/developing/using/workflows.md#workflowstages) to the step.  
+  **A drop down selector to apply a [Stage](../../../sites/developing/using/workflows.md#workflow-stages) to the step.  
 
 * **Timeout** 
   The period after which the step will be "timed out".  
@@ -105,7 +105,7 @@ This container can allow you to reuse workflow models to implement common sequen
 
 To configure the step, edit and use the following tabs:
 
-* [Common](#steppropertiescommontab)
+* [Common](#step-properties-common-tab)
 * **Container**
 
     * **Sub Workflow**: Select the workflow to start.
@@ -124,7 +124,7 @@ The **Goto Step** enables you to implement advanced routing structures in your w
 
 To configure the step, edit and use the following tabs:
 
-* [Common](#steppropertiescommontab)
+* [Common](#step-properties-common-tab)
 * **Process**
 
     * **The step to go to.**: Select the step to execute.
@@ -238,8 +238,8 @@ Although not directly related, user authorization must be considered when assign
 
 To configure the step, edit and use the following tabs:
 
-* [Common](#steppropertiescommontab)
-* [User/Group](#steppropertiesusergrouptab)
+* [Common](#step-properties-common-tab)
+* [User/Group](#step-properties-user-group-tab)
 
 >[!NOTE]
 >
@@ -265,18 +265,18 @@ To configure the step, you specify the group or user to assign the work item to,
 
 To configure the step, edit and use the following tabs:
 
-* [Common](#steppropertiescommontab)
-* [User/Group](#steppropertiesusergrouptab)
+* [Common](#step-properties-common-tab)
+* [User/Group](#step-properties-user-group-tab)
 * **Dialog**
 
-    * **Dialog Path**: The path to the dialog node of the [dialog you create](#dialogparticipantstepcreatingadialog).
+    * **Dialog Path**: The path to the dialog node of the [dialog you create](#dialog-participant-step-creating-a-dialog).
 
 #### Dialog Participant Step - Creating a dialog {#dialog-participant-step-creating-a-dialog}
 
 To create a dialog you need to create the dialog:
 
-* Decide where the resulting data will be [stored in the payload](#dialogparticipantstepstoringdatainthepayload).
-* [Define the dialog; this includes defining the fields used to collect (and save) the data](#dialogparticipantstepdialogdefinition).
+* Decide where the resulting data will be [stored in the payload](#dialog-participant-step-storing-data-in-the-payload).
+* [Define the dialog; this includes defining the fields used to collect (and save) the data](#dialog-participant-step-dialog-definition).
 
 #### Dialog Participant Step - Storing Data in the Payload {#dialog-participant-step-storing-data-in-the-payload}
 
@@ -322,11 +322,11 @@ You can store widget data in the workflow payload or in the work item metadata. 
 
    >[!NOTE]
    >
-   >For further information see [Creating and Configuring a Dialog](../../../sites/developing/using/developing-components.md#creatingandconfiguringadialog).
+   >For further information see [Creating and Configuring a Dialog](../../../sites/developing/using/developing-components.md#creating-and-configuring-a-dialog).
 
 1. **Dialog Path Property**
 
-   The **Dialog Participant Step** has the **Dialog Path** property (together with the properties of a [Participant Step](#participantstep)). The value of the **Dialog Path** property is the path to the `dialog` node of your dialog.
+   The **Dialog Participant Step** has the **Dialog Path** property (together with the properties of a [Participant Step](#participant-step)). The value of the **Dialog Path** property is the path to the `dialog` node of your dialog.
 
    For example, the dialog is contained in a component named `EmailWatch` that is stored in the node:
 
@@ -340,7 +340,7 @@ You can store widget data in the workflow payload or in the work item metadata. 
 
 1. **Example Dialog Definition**
 
-   The following XML code snippet represents a dialog that stores a `String` value in the `watchEmail` node of the payload content. The title node represents the [TextField](/sites/developing/using/reference-materials/granite-ui/api/jcr_root/libs/granite/ui/components/coral/foundation/form/textfield/index) component:
+   The following XML code snippet represents a dialog that stores a `String` value in the `watchEmail` node of the payload content. The title node represents the [TextField](/sites/developing/using/reference-materials/granite-ui/api/jcr_root/libs/granite/ui/components/coral/foundation/form/textfield/index.md) component:
 
    ```xml
    jcr:primaryType="nt:unstructured" 
@@ -374,7 +374,7 @@ You can store widget data in the workflow payload or in the work item metadata. 
 
 ### Dynamic Participant Step {#dynamic-participant-step}
 
-The **Dynamic Participant Step** component is similar to ** [Participant Step](#participantstep)** with the difference that the participant is selected automatically at run time.
+The **Dynamic Participant Step** component is similar to ** [Participant Step](#participant-step)** with the difference that the participant is selected automatically at run time.
 
 To configure the step, you select a **Participant Chooser** that identifies the participant to assign the work item to, together with a dialog.
 
@@ -382,7 +382,7 @@ To configure the step, you select a **Participant Chooser** that identifies the 
 
 To configure the step, edit and use the following tabs:
 
-* [Common](#steppropertiescommontab)
+* [Common](#step-properties-common-tab)
 * **Participant Chooser**
 
     * **Participant Chooser**: The name of the [participant chooser that you create](#developingtheparticipantchooser).
@@ -392,7 +392,7 @@ To configure the step, edit and use the following tabs:
 
 * **Dialog**
 
-    * **Dialog Path**: The path to the dialog node of the [dialog you create (as with the **Dialog Participant Step**)](#dialogparticipantstepcreatingadialog).
+    * **Dialog Path**: The path to the dialog node of the [dialog you create (as with the **Dialog Participant Step**)](#dialog-participant-step-creating-a-dialog).
 
 #### Dynamic Participant Step - Developing the participant chooser {#dynamic-participant-step-developing-the-participant-chooser}
 
@@ -429,7 +429,7 @@ Create an OSGi service or an ECMAScript that selects a user to assign the work i
 
 * **OSGi service**
 
-  Services must implement the [com.day.cq.workflow.exec.ParticipantStepChooser](/sites/developing/using/reference-materials/javadoc/com/day/cq/workflow/exec/ParticipantStepChooser) interface. The interface defines the following members:
+  Services must implement the [com.day.cq.workflow.exec.ParticipantStepChooser](/sites/developing/using/reference-materials/javadoc/com/day/cq/workflow/exec/ParticipantStepChooser.md) interface. The interface defines the following members:
 
     * `SERVICE_PROPERTY_LABEL` field: Use this field to specify the name of the participant chooser. The name appears in a list of available participant choosers in the **Dynamic Participant Step** properties.
     
@@ -511,11 +511,11 @@ To configure the step, you specify the group or user to assign the work item to,
 
 To configure the step, edit and use the following tabs:
 
-* [Common](#steppropertiescommontab)
-* [User/Group](#steppropertiesusergrouptab)
+* [Common](#step-properties-common-tab)
+* [User/Group](#step-properties-user-group-tab)
 * **Form**
 
-    * **Form Path**: The path to the [form you create](#formparticipantstepcreatingtheform).
+    * **Form Path**: The path to the [form you create](#form-participant-step-creating-the-form).
 
 #### Form Participant Step - Creating the form {#form-participant-step-creating-the-form}
 
@@ -553,7 +553,7 @@ The **Random Participant Chooser** step is a participant chooser that assigns th
 
 To configure the step, edit and use the following tabs:
 
-* [Common](#steppropertiescommontab)
+* [Common](#step-properties-common-tab)
 * **Arguments**
 
     * **Participants**: Specifies the list of users available for selection. To add a user to the list, click **Add Item** and type the home path of the user node or the user ID. The order of the users does not affect the likelihood of being assigned a work item.
@@ -566,7 +566,7 @@ The **Workflow Initiator Participant Chooser** step is a participant chooser tha
 
 To configure the step, edit using the following tabs:
 
-* [Common](#steppropertiescommontab)
+* [Common](#step-properties-common-tab)
 
 ## Process Step {#process-step}
 
@@ -578,14 +578,14 @@ A **Process Step** executes an ECMAScript or calls an OSGi service to perform au
 
 To configure the step, edit and use the following tabs:
 
-* [Common](#steppropertiescommontab)
+* [Common](#step-properties-common-tab)
 * **Process**
 
     * **Process**: The process implementation to execute. Use the drop-down menu to select the ECMAScript or OSGi service. For information about:
 
         * The standard ECMAScripts and OSGi services, see [Built-In Processes for Process Steps](../../../sites/developing/using/workflows-process-ref.md).
-        * Creating ECMAScripts for a Process step, see [Implementing a Process Step with an ECMAScript](../../../sites/developing/using/workflows-customizing-extending.md#usingecmascript).
-        * Creating OSGi services for a Process step, see [Implementing a Process Step with a Java Class](../../../sites/developing/using/workflows-customizing-extending.md#implementingaprocessstepwithajavaclass).
+        * Creating ECMAScripts for a Process step, see [Implementing a Process Step with an ECMAScript](../../../sites/developing/using/workflows-customizing-extending.md#using-ecmascript).
+        * Creating OSGi services for a Process step, see [Implementing a Process Step with a Java Class](../../../sites/developing/using/workflows-customizing-extending.md#implementing-a-process-step-with-a-java-class).
 
     * **Handler Advance**: Select this option to automatically advance the workflow to the next step after execution. If not selected, the implementation script must handle workflow advancement.
     * **Arguments**: Arguments to be passed to the process.

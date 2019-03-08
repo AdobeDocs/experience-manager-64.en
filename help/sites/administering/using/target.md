@@ -3,12 +3,12 @@ title: Integrating with Adobe Target
 seo-title: Integrating with Adobe Target
 description: Learn about integrating AEM with Adobe Target.
 seo-description: Learn about integrating AEM with Adobe Target.
-uuid: 64bb288c-546b-4909-8a37-66a76e3e4344
+uuid: 90be203e-afa7-49e3-a808-73c4cf568e3a
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
-discoiquuid: f519f230-5923-4e29-9691-c4e6074fadf6
+discoiquuid: b3283db4-a8b2-419a-9976-e01411e41d2e
 index: y
 internal: n
 snippet: y
@@ -31,9 +31,9 @@ To integrate with Target, perform the following tasks:
 
 1. Either:
 
-    1. [Opt into Adobe Target](../../../sites/administering/using/opt-in.md): The opt-in wizard takes your Target account information and creates an Adobe Target cloud configuration and a Target Framework. The wizard also associates your sites with the Target Framework. If the wizard cannot connect to target, refer to the [connection trouble shooting](../../../sites/administering/using/target-configuring.md#troubleshooting-target-connection-problems) section. You can then [Modify the default cloud configurations](../../../sites/administering/using/target-configuring.md#modifyingtheoptinwizardconfigurations): If necessary, modify the cloud configuration and framework that the opt-in wizard created. For example, modify the framework to send additional context data to Target. If you want to use Adobe Analytics as a reporting source for Adobe Target, you need to modify the cloud configuration to point to the A4T configuration.
+    1. [Opt into Adobe Target](../../../sites/administering/using/opt-in.md): The opt-in wizard takes your Target account information and creates an Adobe Target cloud configuration and a Target Framework. The wizard also associates your sites with the Target Framework. If the wizard cannot connect to target, refer to the [connection trouble shooting](../../../sites/administering/using/target-configuring.md#troubleshooting-target-connection-problems) section. You can then [Modify the default cloud configurations](../../../sites/administering/using/target-configuring.md#modifying-the-opt-in-wizard-configurations): If necessary, modify the cloud configuration and framework that the opt-in wizard created. For example, modify the framework to send additional context data to Target. If you want to use Adobe Analytics as a reporting source for Adobe Target, you need to modify the cloud configuration to point to the A4T configuration.
     
-    1. [Manually Integrate with Adobe Target](../../../sites/administering/using/target-configuring.md#manuallyintegratingwithadobetarget).
+    1. [Manually Integrate with Adobe Target](../../../sites/administering/using/target-configuring.md#manually-integrating-with-adobe-target).
 
 1. [Configure Activities](../../../sites/authoring/using/activitylib.md): Associate your Activities with the Target cloud configuration.
 

@@ -3,12 +3,12 @@ title: Catalog Essentials
 seo-title: Catalog Essentials
 description: Catalog overview
 seo-description: Catalog overview
-uuid: d808c22b-900b-4967-93d6-a71bcc19ed4d
+uuid: 18e6097f-e683-49ad-9d80-25b04b940b76
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
-discoiquuid: 0c70667f-7885-445f-bee1-8f1dafebdfe2
+discoiquuid: 425da53a-437a-42ad-99f0-5ca723278da0
 index: y
 internal: n
 snippet: y
@@ -33,7 +33,7 @@ See [Tagging Enablement Resources](../../communities/using/tag-resources.md).
    <td>social/enablement/components/hbs/catalog</td> 
   </tr> 
   <tr> 
-   <td> <a href="../../communities/using/scf.md#addorincludeacommunitiescomponent"><strong>includable</strong></a></td> 
+   <td> <a href="../../communities/using/scf.md#add-or-include-a-communities-component"><strong>includable</strong></a></td> 
    <td>No</td> 
   </tr> 
   <tr> 
@@ -59,7 +59,7 @@ See [Tagging Enablement Resources](../../communities/using/tag-resources.md).
 
 ### Catalog Function {#catalog-function}
 
-A community site structure that includes the [Catalog function](../../communities/using/functions.md#catalogfunction), includes a configured `enablement catalog` component.
+A community site structure that includes the [Catalog function](../../communities/using/functions.md#catalog-function), includes a configured `enablement catalog` component.
 
 ### Pre-Filters {#pre-filters}
 
@@ -93,7 +93,7 @@ Using the example of the [Enablement Tutorial](../../communities/using/getting-s
 
         * Name : `se_resource-tags`
         * Type : String
-        * Value : *&lt;enter a [TagID](#prefiltertagids)&gt;*
+        * Value : *&lt;enter a [TagID](#pre-filter-tagids)&gt;*
         * select **Multi**
         * select **Add**
 
@@ -111,9 +111,9 @@ The pre-filter [TagIDs](../../sites/developing/using/framework.md#tagid) must ex
 
 ### Reference APIs {#reference-apis}
 
-* [Enablement API](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/enablement/client/api/package-summary)
+* [Enablement API](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/enablement/client/api/package-summary.md)
 
-* [Reporting API](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/enablement/client/reporting/api/package-summary)
+* [Reporting API](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/enablement/client/reporting/api/package-summary.md)
 
-* [Reporting Analytics API](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/enablement/client/reporting/analytics/api/package-summary)
+* [Reporting Analytics API](/sites/developing/using/reference-materials/javadoc/com/adobe/cq/social/enablement/client/reporting/analytics/api/package-summary.md)
 

@@ -3,12 +3,12 @@ title: Convert PDF Service Java API QuickStart(SOAP)
 seo-title: Convert PDF Service Java API QuickStart(SOAP)
 description: null
 seo-description: null
-uuid: 9d8cd37f-f1dd-4503-9ae7-5a554170f9bc
+uuid: dab1b7e8-7bc3-4a4a-8f08-f59a30a46165
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
-discoiquuid: 7dfa6965-0507-4c92-bea6-f1e6bd62cdd9
+discoiquuid: 44a6ef2c-3dfb-446d-8e21-c3c68c5f9639
 index: y
 internal: n
 snippet: y
@@ -18,17 +18,17 @@ snippet: y
 
 The following Quick Starts are available for the Convert PDF service API.
 
-[Quick Start (SOAP mode): Converting a PDF document to PostScript using the Java API](convert-pdf-service-java-api#quick_start_soap_mode_converting_a_pdf_document_to_postscript_using_the_java_api)
+[Quick Start (SOAP mode): Converting a PDF document to PostScript using the Java API](convert-pdf-service-java-api.md#quick_start_soap_mode_converting_a_pdf_document_to_postscript_using_the_java_api)
 
-[Quick Start (SOAP mode): Converting a PDF document to JPEG files using the Java API](convert-pdf-service-java-api#quick_start_soap_mode_converting_a_pdf_document_to_jpeg_files_using_the_java_api)
+[Quick Start (SOAP mode): Converting a PDF document to JPEG files using the Java API](convert-pdf-service-java-api.md#quick_start_soap_mode_converting_a_pdf_document_to_jpeg_files_using_the_java_api)
 
 AEM Forms operations can be performed using the AEM Forms strongly-typed API and the connection mode should be set to SOAP.
 
-***Note**: Quick Start located in Programming with AEM forms are based on the Forms Server being deployed on JBoss Application Server and the Microsoft Windows operating system. However, if you are using another operating system, such as UNIX, replace Windows-specific paths with paths that are supported by the applicable operating system. Likewise, if you are using another J2EE application server, ensure that you specify valid connection properties. (See [Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java#setting_connection_properties).)*
+***Note**: Quick Start located in Programming with AEM forms are based on the Forms Server being deployed on JBoss Application Server and the Microsoft Windows operating system. However, if you are using another operating system, such as UNIX, replace Windows-specific paths with paths that are supported by the applicable operating system. Likewise, if you are using another J2EE application server, ensure that you specify valid connection properties. (See [Setting connection properties](/programming-with-aem-forms/invoking-aem-forms-using-java.md#setting_connection_properties).)*
 
 ## Quick Start (SOAP mode): Converting a PDF document to PostScript using the Java API {#quick-start-soap-mode-converting-a-pdf-document-to-postscript-using-the-java-api}
 
-The following code example converts a PDF document called *Loan.pdf* to a PostScript document called *Loan.ps*. (See [Converting PDF Documents to PostScript](/programming-with-aem-forms/converting-pdf-postscript-image-files#converting_pdf_documents_to_postscript).)
+The following code example converts a PDF document called *Loan.pdf* to a PostScript document called *Loan.ps*. (See [Converting PDF Documents to PostScript](/programming-with-aem-forms/converting-pdf-postscript-image-files.md#converting_pdf_documents_to_postscript).)
 
 ```as3
  /* 
@@ -143,7 +143,7 @@ The following code example converts a PDF document called *Loan.pdf* to a PostSc
 
 ## Quick Start (SOAP mode): Converting a PDF document to JPEG files using the Java API {#quick-start-soap-mode-converting-a-pdf-document-to-jpeg-files-using-the-java-api}
 
-The following Java code example converts a PDF document called *Loan.pdf* to a set of JPEG files and stores them in the C:\Adobe directory. Each file is named *tempFile[index].jpg*, where the first image file is named *tempFile0.jpg*. (See [Converting PDF Documents to Image Formats](/programming-with-aem-forms/converting-pdf-postscript-image-files#converting_pdf_documents_to_image_formats).)
+The following Java code example converts a PDF document called *Loan.pdf* to a set of JPEG files and stores them in the C:\Adobe directory. Each file is named *tempFile[index].jpg*, where the first image file is named *tempFile0.jpg*. (See [Converting PDF Documents to Image Formats](/programming-with-aem-forms/converting-pdf-postscript-image-files.md#converting_pdf_documents_to_image_formats).)
 
 ```as3
  /* 

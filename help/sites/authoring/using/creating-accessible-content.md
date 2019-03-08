@@ -3,12 +3,12 @@ title: Creating Accessible Content (WCAG 2.0 Conformance)
 seo-title: Creating Accessible Content (WCAG 2.0 Conformance)
 description: Help make web content accessible to, and usable by, persons with disabilities
 seo-description: Help make web content accessible to, and usable by, persons with disabilities
-uuid: b7e49fc7-2de3-4dfe-8b33-870868ec9fd7
+uuid: 9ce65d86-f8c5-4e38-b7ae-02841c6926d2
 contentOwner: Chris Bohnert
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
-discoiquuid: 250c5b5c-b06f-4bc1-8022-1b562af1b9a4
+discoiquuid: c2e8c76e-3a1e-4ee7-ae26-eb5a8d9c070a
 index: y
 internal: n
 snippet: y
@@ -74,7 +74,7 @@ For static graphics, the basic requirement is to provide an equivalent text alte
 
 >[!NOTE]
 >
->Some out-of-the-box components, such as **Carousel** and **Slideshow** do not provide a means for adding alternate text descriptions to images. When implementing versions of these for your AEM instance, your development team will need to configure such components to support the `alt` attribute so that authors can add it to the content (see [Adding Support for Additional HTML Elements and Attributes](../../../sites/administering/using/rte-accessible-content.md#addingsupportforadditionalhtmlelementsandattributes)).
+>Some out-of-the-box components, such as **Carousel** and **Slideshow** do not provide a means for adding alternate text descriptions to images. When implementing versions of these for your AEM instance, your development team will need to configure such components to support the `alt` attribute so that authors can add it to the content (see [Adding Support for Additional HTML Elements and Attributes](../../../sites/administering/using/rte-accessible-content.md#adding-support-for-additional-html-elements-and-attributes)).
 
 The **Alternative Text** field is available in the **Image **component dialog on the **Metadata** tab:
 
@@ -122,7 +122,7 @@ Specific types of non-text content that require text alternatives might include:
   >
   >The above snippet is only used to illustrate the order. It is recommended to use the **Image** component (rather than the `img src` reference used above.
 
-  In AEM this can be done using a combination of the **Alt Text** and **Description** fields in the image’s configuration dialog - as in [How to Meet - Non-text Content (1.1.1)](#howtomeetnontextcontent111).
+  In AEM this can be done using a combination of the **Alt Text** and **Description** fields in the image’s configuration dialog - as in [How to Meet - Non-text Content (1.1.1)](#how-to-meet-non-text-content).
 
 * Maps, diagrams, flowcharts:  
   For graphics providing spatial data (for example. to support describing relationships between objects or a process), ensure that the key message is provided in text format. For maps, providing a full text equivalent is likely to be impractical, but if the map is provided as a way of helping people find their way to a particular location, then the map image’s alternative text can briefly indicate *Map of X*, then provide directions to that location in text elsewhere in the page or through the **Description** field in the **Advanced** tab of the **Image** component.
@@ -140,7 +140,7 @@ Specific types of non-text content that require text alternatives might include:
 
   >[!NOTE]
   >
-  >There should be an appropriate level of contrast between the background and the foreground text; this is discussed in more detail in [Contrast (Minimum) (1.4.3)](#contrastminimum143).
+  >There should be an appropriate level of contrast between the background and the foreground text; this is discussed in more detail in [Contrast (Minimum) (1.4.3)](#contrast-minimum).
 
 #### More Information - Non-text Content (1.1.1) {#more-information-non-text-content}
 
@@ -226,7 +226,7 @@ Captions can be either:
 
 Use closed captioning wherever possible, as this gives users the choice over whether or not to view captions.
 
-For closed captions, you will need to create and provide a synchronized caption file in an appropriate format (such as [SMIL](http://www.w3.org/AudioVideo/)) alongside the video file (details on how to do this are beyond the scope of this guide, but we have provided links to some tutorials under [More Information - Captions (Pre-Recorded) (1.2.2)](#moreinformationcaptionsprerecorded122)). Make sure you provide a note to let users know that captions are available for the video.
+For closed captions, you will need to create and provide a synchronized caption file in an appropriate format (such as [SMIL](http://www.w3.org/AudioVideo/)) alongside the video file (details on how to do this are beyond the scope of this guide, but we have provided links to some tutorials under [More Information - Captions (Pre-Recorded) (1.2.2)](#more-information-captions-pre-recorded)). Make sure you provide a note to let users know that captions are available for the video.
 
 If you must use open captions, embed the text into the video track. This can be achieved using video editing applications that allow the overlaying of titles onto the video.
 
@@ -413,7 +413,7 @@ You can make sure your web pages are given the appropriate structure by:
 
   >[!NOTE]
   >
-  >By default, these elements and attributes are not directly available, though it is possible for the system administrator to add support for these values in the **Table properties** dialog box (see [Adding Support for Additional HTML Elements and Attributes](../../../sites/administering/using/rte-accessible-content.md#addingsupportforadditionalhtmlelementsandattributes)).
+  >By default, these elements and attributes are not directly available, though it is possible for the system administrator to add support for these values in the **Table properties** dialog box (see [Adding Support for Additional HTML Elements and Attributes](../../../sites/administering/using/rte-accessible-content.md#adding-support-for-additional-html-elements-and-attributes)).
 
   When adding a **Table** you can configure **Table properties** using the dialog.
 
@@ -490,7 +490,7 @@ Similarly, information that requires distinguishing between different sounds (e.
 
 >[!NOTE]
 >
->For requirements related to alternatives to color, refer to [Use of Color](#useofcolor141).
+>For requirements related to alternatives to color, refer to [Use of Color](#use-of-color).
 
 #### How to Meet - Sensory Characteristics (1.3.3) {#how-to-meet-sensory-characteristics}
 
@@ -520,7 +520,7 @@ Make sure that any information that relies on visual characteristics of page con
 
 >[!NOTE]
 >
->This success criterion addresses color perception specifically. Other forms of perception are covered in [Adaptable (1.3)](#adaptable13); including programmatic access to color and other visual presentation coding.
+>This success criterion addresses color perception specifically. Other forms of perception are covered in [Adaptable (1.3)](#adaptable); including programmatic access to color and other visual presentation coding.
 
 #### Purpose - Use of Color (1.4.1) {#purpose-use-of-color}
 
@@ -780,7 +780,7 @@ While it’s advisable to provide link text that identifies the purpose of the l
 
 In some cases, where there are several links on a page (each of which provides the direction of a link in complex, but necessary detail), it can be appropriate to provide an alternative version of the web page that displays the exact same content but where the link text is not as detailed.
 
-Alternatively, scripts can be used so that a minimal amount of text is provided within the link itself, but on activating an appropriate control positioned towards the top of the page, the link text is *expanded* into further detail. A similar approach is to use CSS to *hide* the full link from sighted users, but still output it in full to screen reader users. This falls outside the scope of this document, but more information on how this can be achieved can be found in the [More Information - Link Purpose (In Context) (2.4.4)](#moreinformationlinkpurposeincontext244) section.
+Alternatively, scripts can be used so that a minimal amount of text is provided within the link itself, but on activating an appropriate control positioned towards the top of the page, the link text is *expanded* into further detail. A similar approach is to use CSS to *hide* the full link from sighted users, but still output it in full to screen reader users. This falls outside the scope of this document, but more information on how this can be achieved can be found in the [More Information - Link Purpose (In Context) (2.4.4)](#more-information-link-purpose-in-context) section.
 
 #### More Information - Link Purpose (In Context) (2.4.4) {#more-information-link-purpose-in-context}
 
@@ -864,7 +864,7 @@ Similarly, the browser can render an uncommon loan word or phrase correctly if t
 >
 >It is not necessary to follow this success criterion when including names or cities in different languages, or when using loan words or phrases that have become commonplace in the default language (such as *schadenfreude* in English).
 
-To add the span element, with an appropriate language, you can manually edit your HTML markup in the source edit mode of the RTE so that it reads as above. Alternatively the `lang` attribute can be included in the RTE by a system administrator (see [Adding Support for Additional HTML Elements and Attributes](../../../sites/administering/using/rte-accessible-content.md#addingsupportforadditionalhtmlelementsandattributes)).
+To add the span element, with an appropriate language, you can manually edit your HTML markup in the source edit mode of the RTE so that it reads as above. Alternatively the `lang` attribute can be included in the RTE by a system administrator (see [Adding Support for Additional HTML Elements and Attributes](../../../sites/administering/using/rte-accessible-content.md#adding-support-for-additional-html-elements-and-attributes)).
 
 #### More Information - Language of Parts (3.1.2) {#more-information-language-of-parts}
 
@@ -905,7 +905,7 @@ Where there is a group of related controls, such as **Radio Group**, a title may
 
 ![Adding items to the radio group. The group title is 'Contact me by' - defined in the Title field.](assets/chlimage_1-209.png)
 
-However, there is no programmatic association between the group title and the radio buttons themselves. Template editors would need to wrap the title in the necessary `fieldset` and `legend` tags to create this association and this can only be done by editing the page source code. Alternatively, a system administrator can add support for these elements so that they appear in the **Field Properties** dialog (see [Adding Support for Additional HTML Elements and Attributes](../../../sites/administering/using/rte-accessible-content.md#addingsupportforadditionalhtmlelementsandattributes)).
+However, there is no programmatic association between the group title and the radio buttons themselves. Template editors would need to wrap the title in the necessary `fieldset` and `legend` tags to create this association and this can only be done by editing the page source code. Alternatively, a system administrator can add support for these elements so that they appear in the **Field Properties** dialog (see [Adding Support for Additional HTML Elements and Attributes](../../../sites/administering/using/rte-accessible-content.md#adding-support-for-additional-html-elements-and-attributes)).
 
 #### Additional Considerations for Forms {#additional-considerations-for-forms}
 

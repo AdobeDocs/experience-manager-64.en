@@ -3,12 +3,12 @@ title: Using and Extending Widgets (Classic UI)
 seo-title: Using and Extending Widgets (Classic UI)
 description: AEM's web-based interface uses AJAX and other modern browser technologies to enable WYSIWYG editing and formatting of content by authors right on the web page
 seo-description: AEM's web-based interface uses AJAX and other modern browser technologies to enable WYSIWYG editing and formatting of content by authors right on the web page
-uuid: 5e17c226-4aab-40a4-bf6f-c918091afc90
+uuid: e8ed280c-a365-409d-8402-e5cfbdcd1acd
 contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: components
 content-type: reference
-discoiquuid: e3d57d9f-c7b7-4430-a8f9-636e3444a80f
+discoiquuid: 1c847557-c8cb-4242-afbd-72ccbeba8be8
 index: y
 internal: n
 snippet: y
@@ -22,17 +22,17 @@ Adobe Experience Manager (AEM) uses the [ExtJS](http://www.sencha.com/) widgets 
 
 These widgets are included within AEM and, in addition to being used by AEM itself, can be used by any website built using AEM.
 
-For a complete reference of all the available widgets in AEM you can refer to the [widget API documentation](/sites/developing/using/reference-materials/widgets-api/index) or to the [list of existing xtypes](../../../sites/developing/using/xtypes.md). In addition, many examples showing how to use the ExtJS framework are available on the [Sencha](http://www.sencha.com/products/extjs/examples/) site, the owner of the framework.
+For a complete reference of all the available widgets in AEM you can refer to the [widget API documentation](/sites/developing/using/reference-materials/widgets-api/index.md) or to the [list of existing xtypes](../../../sites/developing/using/xtypes.md). In addition, many examples showing how to use the ExtJS framework are available on the [Sencha](http://www.sencha.com/products/extjs/examples/) site, the owner of the framework.
 
-This page gives some insights about how to use and extend widgets. It first describes how to [include client-sided code in a page](#includingtheclientsidedcodeinapage). It then describes some sample components that have been created to illustrate some basic use and extension. Those components are available in the **Using ExtJS Widgets** package on **Package Share**.
+This page gives some insights about how to use and extend widgets. It first describes how to [include client-sided code in a page](#including-the-client-sided-code-in-a-page). It then describes some sample components that have been created to illustrate some basic use and extension. Those components are available in the **Using ExtJS Widgets** package on **Package Share**.
 
 The package includes examples of:
 
-* [Basic dialogs](#basicdialogs) built with out-of-the-box widgets.
-* [Dynamic dialogs](#dynamicdialogs) built with out-of-the-box widgets and customized javascript logic.
-* Dialogs based on [custom widgets](#customwidgets).
-* A [tree panel](#treeoverview) displaying a JCR tree below a given path.
-* A [grid panel](#gridoverview) displaying data in a tabular format.
+* [Basic dialogs](#basic-dialogs) built with out-of-the-box widgets.
+* [Dynamic dialogs](#dynamic-dialogs) built with out-of-the-box widgets and customized javascript logic.
+* Dialogs based on [custom widgets](#custom-widgets).
+* A [tree panel](#tree-overview) displaying a JCR tree below a given path.
+* A [grid panel](#grid-overview) displaying data in a tabular format.
 
 >[!NOTE]
 >
@@ -224,7 +224,7 @@ The **Multi Panel** dialog has the same display as the **Full** dialog but it is
 To use the Multi Panel dialog:
 
 1. Replace the dialog of the **Dialog Basics** component with the **Multi Panel **dialog:  
-   follow the steps described for the [Example 2: Single Panel Dialog](#example2singlepaneldialog)  
+   follow the steps described for the [Example 2: Single Panel Dialog](#example-single-panel-dialog)  
 
 1. Edit the component: the dialog displays as follows:
 
@@ -250,7 +250,7 @@ The **Rich** dialog displays a window with two tabs. The first tab has a text fi
 To use the **Rich** dialog:
 
 1. Replace the dialog of the **Dialog Basics** component with the **Rich** dialog:  
-   follow the steps described for the [Example 2: Single Panel Dialog](#example2singlepaneldialog)
+   follow the steps described for the [Example 2: Single Panel Dialog](#example-single-panel-dialog)
 
 1. Edit the component: the dialog displays as follows:
 
@@ -363,7 +363,7 @@ The logic is implemented through event listeners and javascript code as follows:
 To use the **Arbitrary** dialog:
 
 1. Replace the dialog of the **Dynamic Dialog** component with the **Arbitrary** dialog:  
-   follow the steps described for the [Example 2: Single Panel Dialog](#example2singlepaneldialog)
+   follow the steps described for the [Example 2: Single Panel Dialog](#example-single-panel-dialog)
 
 1. Edit the component: the dialog displays as follows:
 
@@ -406,7 +406,7 @@ The logic is implemented through event listeners and javascript code as follows:
 To use the **Toggle Fields** dialog:
 
 1. Replace the dialog of the **Dynamic Dialog** component with the **Toggle Fields** dialog:  
-   follow the steps described for the [Example 2: Single Panel Dialog](#example2singlepaneldialog)
+   follow the steps described for the [Example 2: Single Panel Dialog](#example-single-panel-dialog)
 
 1. Edit the component: the dialog displays as follows:
 
@@ -530,7 +530,7 @@ The custom treebrowse widget (xtype = `ejstbrowse`):
 To use the **Custom Treebrowse** widget based dialog:
 
 1. Replace the dialog of the **Custom Widgets** component with the **Custom Treebrowse** dialog:  
-   follow the steps described for the [Example 2: Single Panel Dialog](#example2singlepaneldialog)
+   follow the steps described for the [Example 2: Single Panel Dialog](#example-single-panel-dialog)
 
 1. Edit the component: the dialog displays as follows:
 
@@ -577,7 +577,7 @@ The RTE plugin:
 To use the **Rich Text Editor (RTE) Plug-in** based dialog:
 
 1. Replace the dialog of the **Custom Widgets** component with the **Rich Text Editor (RTE) Plug-in** based dialog:  
-   follow the steps described for the [Example 2: Single Panel Dialog](#example2singlepaneldialog)
+   follow the steps described for the [Example 2: Single Panel Dialog](#example-single-panel-dialog)
 
 1. Edit the component.
 1. Click the the last icon on the right (the one with four arrows). Enter a path and click **OK**:  

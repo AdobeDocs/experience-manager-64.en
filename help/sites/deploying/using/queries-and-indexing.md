@@ -3,12 +3,12 @@ title: Oak Queries and Indexing
 seo-title: Oak Queries and Indexing
 description: Learn how to configure indexes in AEM.
 seo-description: Learn how to configure indexes in AEM.
-uuid: 0ccb2592-75b5-4129-a5d2-2785a1c94848
+uuid: 060cd97e-f082-4431-bd0e-96f86de4fb3d
 contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
-discoiquuid: 97c9bf83-1bce-40b3-82a0-a1696ebd5be0
+discoiquuid: 37bfc533-ddc0-49c6-bc47-4fa6a7e7fada
 legacypath: /content/docs/en/aem/6-0/deploy/upgrade/queries-and-indexing
 index: y
 internal: n

@@ -3,11 +3,11 @@ title: Customizing the listing of process instances
 seo-title: Customizing the listing of process instances
 description: How-to customize the properties displayed in process instance in AEM Forms workspace.
 seo-description: How-to customize the properties displayed in process instance in AEM Forms workspace.
-uuid: 751b6123-7a32-4cf5-b481-38970b8e1a34
+uuid: 03dc24cd-d1a1-4797-bbe9-f9357b5107e8
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
-discoiquuid: bf01154c-6b2b-455f-a5e2-6fe998b41a27
+discoiquuid: 263c3501-a2fc-4f97-9891-28c39a198bbc
 index: y
 internal: n
 snippet: y

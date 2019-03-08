@@ -3,12 +3,12 @@ title: App definitions
 seo-title: App definitions
 description: Follow this page to learn about app definitions, that are a way to identify what spaces and other configurations are appropriate for the app. App definitions allows the user to add space, without having to recompile the app. 
 seo-description: Follow this page to learn about app definitions, that are a way to identify what spaces and other configurations are appropriate for the app. App definitions allows the user to add space, without having to recompile the app. 
-uuid: 359ee459-721c-4044-a6a5-1827ffb5942e
+uuid: d74f9b07-bc71-4d6b-b797-05b8f5953467
 contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: authoring-adobe-phonegap-enterprise
-discoiquuid: 72486e78-f8e1-48ae-86f0-4d2c6c6e6644
+discoiquuid: 005eccdd-2201-4136-bfed-6e1f1d45ac62
 index: y
 internal: n
 snippet: y
@@ -44,7 +44,7 @@ Once you are familiar with App Definitions, learn more about the following autho
 
 * [Import an existing hybrid app](../../mobile/using/phonegap-import-hybrid-app.md)
 * [Create a New App using Create App Wizard](../../mobile/using/phonegap-create-new-app.md)
-* [Content Services](/mobile/using/content-as-a-service)
+* [Content Services](/mobile/using/content-as-a-service.md)
 
 ### Additional Resources {#additional-resources}
 

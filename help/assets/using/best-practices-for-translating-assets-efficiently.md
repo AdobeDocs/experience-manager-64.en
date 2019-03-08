@@ -3,12 +3,12 @@ title: Best Practices for Translating Assets Efficiently
 seo-title: Best Practices for Translating Assets Efficiently
 description: Best practices for efficient management of assets to synchronize various translated versions and to streamline translation workflows.
 seo-description: Best practices for efficient management of assets to synchronize various translated versions and to streamline translation workflows.
-uuid: 559be0bc-37d5-4df4-ae54-5c291b314473
+uuid: ead1fdd1-519f-453b-828d-da2e90638964
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: 5ef8c597-dbb0-4fe0-a7c1-07f23c290bbc
+discoiquuid: 91bab331-8930-485f-b009-73e584c5cd7b
 index: y
 internal: n
 snippet: y
@@ -35,7 +35,7 @@ You can also make a few configuration changes to a couple of workflows and the t
     * [Set up File Data Store](../../sites/deploying/using/data-store-config.md)
     * [Set up Amazon S3 Data Store](../../sites/deploying/using/data-store-config.md)
 
-1. Disable the [DAM MetaData Writeback](../../sites/administering/using/workflow-offloader.md#disableoffloading) workflow
+1. Disable the [DAM MetaData Writeback](../../sites/administering/using/workflow-offloader.md#disable-offloading) workflow
 
    As the name suggests, the *DAM Metadata Writeback* workflow rewrites the metadata to the binary file. Because the metadata changes after translation, writing it back to the binary file generates a different binary for a language copy.
 

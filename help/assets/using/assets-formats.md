@@ -3,12 +3,12 @@ title: Assets Supported Formats
 seo-title: Assets Supported Formats
 description: List of file formats supported by AEM Assets and features supported for each format.
 seo-description: List of file formats supported by AEM Assets and features supported for each format.
-uuid: 51e3bae2-cd12-47b9-9faf-799d1f6e1c87
+uuid: fec8d160-8bd7-404f-a40f-ce7e32868b01
 contentOwner: Chiradeep Majumdar
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
-discoiquuid: d37a5572-a63b-4ea1-bfc4-c9e2a396ab29
+discoiquuid: bf9f486c-3b84-4279-9196-5f22a72d76ef
 index: y
 internal: n
 snippet: y
@@ -47,7 +47,7 @@ The following legend describes the level of support AEM Assets offers for a feat
 | PBM |x |x |  |  |  |  |  |  |  |  |  |
 | PPM |x |x |  |  |  |  |  |  |  |  |  |
 | PSD&#42; |x |x |x |x |  |  |x |  |  |  |  |
-| [EPS](../../assets/using/managing-image-presets.md#adobeillustratoraipostscriptepsandpdffileformats) |x |x |x |x |  |x |x |x |x |x |x |
+| [EPS](../../assets/using/managing-image-presets.md#adobe-illustrator-ai-postscript-eps-and-pdf-file-formats) |x |x |x |x |  |x |x |x |x |x |x |
 | PICT |  |  |  |  |  |  |x |  |  |  |  |
 | PSB |x  |x  |x  |x  |  |  |  |  |  |  |  |
 
@@ -121,7 +121,7 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
    <td colspan="12"> </td> 
   </tr>
   <tr>
-   <td><a href="../../assets/using/managing-image-presets.md#adobeillustratoraipostscriptepsandpdffileformats"><strong>AI</strong></a></td> 
+   <td><a href="../../assets/using/managing-image-presets.md#adobe-illustrator-ai-postscript-eps-and-pdf-file-formats"><strong>AI</strong></a></td> 
    <td style="text-align: center;">x</td> 
    <td style="text-align: center;">x</td> 
    <td> </td> 
@@ -181,7 +181,7 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
    <td> </td> 
   </tr>
   <tr>
-   <td title="Adobe PDF"><a href="../../assets/using/managing-image-presets.md#adobeillustratoraipostscriptepsandpdffileformats"><strong>PDF</strong></a></td> 
+   <td title="Adobe PDF"><a href="../../assets/using/managing-image-presets.md#adobe-illustrator-ai-postscript-eps-and-pdf-file-formats"><strong>PDF</strong></a></td> 
    <td style="text-align: center;">x</td> 
    <td style="text-align: center;">x</td> 
    <td style="text-align: center;">x</td> 
@@ -331,7 +331,7 @@ The Adobe Camera Raw library enables AEM Assets to ingest raw images. For detail
    <td> </td> 
   </tr>
   <tr>
-   <td title="Adobe In Design"><strong><a href="../../assets/using/managing-image-presets.md#indesigninddfileformat">INDD</a></strong></td> 
+   <td title="Adobe In Design"><strong><a href="../../assets/using/managing-image-presets.md#indesign-indd-file-format">INDD</a></strong></td> 
    <td style="text-align: center;">x</td> 
    <td style="text-align: center;">x</td> 
    <td style="text-align: center;"> </td> 
@@ -613,7 +613,7 @@ Mime types are available in CRXDE Lite at the following path:
 
 See [Configuring mime type-based for upload job parameters support](../../assets/using/config-dynamic.md#configuringmimetypebasedassetsforuploadjobparametersupport).
 
-See also [Enabling MIME type-based Assets/Scene7 upload job parameter support](../../sites/administering/using/scene7.md#enablingmimetypebasedassetsscene7uploadjobparametersupport).
+See also [Enabling MIME type-based Assets/Scene7 upload job parameter support](../../sites/administering/using/scene7.md#enabling-mime-type-based-assets-scene-upload-job-parameter-support).
 
 <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
  <tbody>

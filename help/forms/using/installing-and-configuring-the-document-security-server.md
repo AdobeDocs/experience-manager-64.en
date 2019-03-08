@@ -3,9 +3,9 @@ title: Installing and configuring the document security server
 seo-title: Installing and configuring the document security server
 description: Use document security to safely distribute any information that you have saved in a supported format. Only authorized users can access protected documents. 
 seo-description: Use document security to safely distribute any information that you have saved in a supported format. Only authorized users can access protected documents. 
-uuid: 13fc7f95-2dca-4d75-b1b8-dfee13c26499
+uuid: bf53420b-8028-42a5-9089-d6dffab21e89
 contentOwner: khsingh
-discoiquuid: 7e3402df-0cf1-4abf-90dc-d9c3ec218bc8
+discoiquuid: 3014e689-24d1-40a4-9906-c8c0a9c28f28
 index: y
 internal: n
 snippet: y
@@ -59,5 +59,5 @@ Perform the following steps to install and configure AEM Forms on JEE:
 * [Configure client and server options](https://chl-author-preview.corp.adobe.com/content/help/en/experience-manager/6-4/forms/using/admin-help/configuring-client-server-options.html)
 * [Create and managing policies](https://chl-author-preview.corp.adobe.com/content/help/en/experience-manager/6-4/forms/using/admin-help/creating-policies.html)
 * [Create and managing policy sets](https://chl-author-preview.corp.adobe.com/content/help/en/experience-manager/6-4/forms/using/admin-help/creating-policy-sets.html)
-* [Working with document security](/forms/using/admin-help/topics)
+* [Working with document security](/forms/using/admin-help/topics.md)
 
