@@ -43,8 +43,6 @@ In CRXDE Lite in AEM (**Tools **&gt; **General **&gt; **CRXDE Lite**), access th
 
 In CRXDE Lite in AEM (**Tools **&gt; **General **&gt; **CRXDE Lite**), access the following configurations:
 
-##
-
 <table border="1" cellpadding="1" cellspacing="0" width="100%"> 
  <tbody> 
   <tr> 

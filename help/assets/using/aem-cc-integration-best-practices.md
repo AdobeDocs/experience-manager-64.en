@@ -183,8 +183,6 @@ This is a brief summary of best practices for AEM Desktop App. Refer to [AEM Des
 
 This is a brief summary of best practices for AEM to CC folder sharing. Refer to [AEM to Creative Cloud folder sharing best practices](../../assets/using/aem-cc-folder-sharing-best-practices.md) for more information.
 
-** **
-
 * **One-direction flow of assets:** folder sharing can be used to share assets to CC, or get new assets from CC to DAM - it won't work for modifying existing assets in DAM
 * **Volume considerations:** Share smaller number/sizes of files
 * **Avoid sharing deep hierarchies:** Sharing works recursively - you have better control over what is shared by sharing flat or shallow folders

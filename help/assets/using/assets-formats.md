@@ -43,7 +43,7 @@ The following legend describes the level of support AEM Assets offers for a feat
 | PGM |x |x |  |  |  |  |  |  |  |  |  |
 | PBM |x |x |  |  |  |  |  |  |  |  |  |
 | PPM |x |x |  |  |  |  |  |  |  |  |  |
-| PSD&#42; |x |x |x |x |  |  |x |  |  |  |  |
+| PSD* |x |x |x |x |  |  |x |  |  |  |  |
 | [EPS](../../assets/using/managing-image-presets.md#adobe-illustrator-ai-postscript-eps-and-pdf-file-formats) |x |x |x |x |  |x |x |x |x |x |x |
 | PICT |  |  |  |  |  |  |x |  |  |  |  |
 | PSB |x  |x  |x  |x  |  |  |  |  |  |  |  |
