@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/maintaining_the_application_server
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: dc9481f6-e424-4070-bf2d-5a3b01a31761
-index: y
-internal: n
-snippet: y
 ---
 
 # Global document storage directory{#global-document-storage-directory}

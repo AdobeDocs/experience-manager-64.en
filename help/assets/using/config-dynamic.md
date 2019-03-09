@@ -10,9 +10,6 @@ topic-tags: dynamic-media
 content-type: reference
 discoiquuid: 0b9d2f53-6d05-4f50-9a6c-016e0814e448
 legacypath: /content/docs/en/aem/6-0/administer/integration/dynamic-media/config-dynamic
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring Dynamic Media - Hybrid mode{#configuring-dynamic-media-hybrid-mode}
@@ -183,7 +180,7 @@ To enable dynamic media:
    >
    >    
    >    
-   >    * ImageServer-&lt;PortId&gt;-&lt;yyyy&gt;&lt;mm&gt;&lt;dd&gt;.log - The ImageServer log provides statistics and analytical information used for analyzing the behavior of the internal ImageServer process.  
+   >* ImageServer-&lt;PortId&gt;-&lt;yyyy&gt;&lt;mm&gt;&lt;dd&gt;.log - The ImageServer log provides statistics and analytical information used for analyzing the behavior of the internal ImageServer process.  
    >      Example of an Image Server log file name: `ImageServer-57346-2019-07-25.log`
    >    
    >    
@@ -191,7 +188,7 @@ To enable dynamic media:
    >
    >    
    >    
-   >    * s7access-&lt;yyyy&gt;&lt;mm&gt;&lt;dd&gt;.log - The s7access log records each request made to Dynamic Media through **/is/image** and **/is/content**.
+   >* s7access-&lt;yyyy&gt;&lt;mm&gt;&lt;dd&gt;.log - The s7access log records each request made to Dynamic Media through **/is/image** and **/is/content**.
    >    
    >    
    >    
@@ -694,9 +691,9 @@ However, in Dynamic Media deployments, because assets are delivered by way of th
 
 Besides replicating the assets, the following non-assets are also replicated:
 
-* Dynamic Media Delivery configuration: **/conf/global/settings/dam/dm/imageserver/configuration/jcr:content/settings**
-* Image Presets: **/conf/global/settings/dam/dm/presets/macros**
-* Viewer Presets: **/conf/global/settings/dam/dm/presets/viewer**
+* Dynamic Media Delivery configuration:** /conf/global/settings/dam/dm/imageserver/configuration/jcr:content/settings**
+* Image Presets:** /conf/global/settings/dam/dm/presets/macros**
+* Viewer Presets:** /conf/global/settings/dam/dm/presets/viewer**
 
 The filters provide a way for you to *exclude* assets from being replicated to the AEM publish node.
 

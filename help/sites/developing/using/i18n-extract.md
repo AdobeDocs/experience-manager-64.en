@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: components
 discoiquuid: 0c60ad10-de00-4931-bf86-651e7fbbdc49
-index: y
-internal: n
-snippet: y
 ---
 
 # Extracting Strings for Translating{#extracting-strings-for-translating}

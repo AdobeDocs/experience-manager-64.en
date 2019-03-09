@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
 discoiquuid: a1004f93-ea04-4e68-b4d3-2c6d72ead23b
-index: y
-internal: n
-snippet: y
 ---
 
 # Using Social Graph{#using-social-graph}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: personalization
 discoiquuid: 055f8af2-ae93-462a-9d26-53b5ba5be0ad
-index: y
-internal: n
-snippet: y
 ---
 
 # Publishing an Email to Email Service Providers{#publishing-an-email-to-email-service-providers}

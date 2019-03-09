@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: authoring
 discoiquuid: f58ccd38-fa60-4539-a519-465c8852786c
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating and Managing Projects{#creating-and-managing-projects}

@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: 19dd1372-cb10-4d5d-948f-38da75eeeb4c
-index: y
-internal: n
-snippet: y
 ---
 
 # Initiating a new process with existing process data in AEM Forms workspace{#initiating-a-new-process-with-existing-process-data-in-aem-forms-workspace}

@@ -8,9 +8,6 @@ contentOwner: vishgupt
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: fdd276d8-7a2e-4c02-a010-8f7feb9c2d2a
-index: y
-internal: n
-snippet: y
 ---
 
 # Asynchronous submission of adaptive forms{#asynchronous-submission-of-adaptive-forms}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: authoring
 content-type: reference
 discoiquuid: 816096d8-0238-434d-9925-e8bd32aa9314
-index: y
-internal: n
-snippet: y
 ---
 
 # Rendering 3D assets{#rendering-d-assets}

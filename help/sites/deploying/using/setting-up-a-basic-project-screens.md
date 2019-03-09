@@ -8,9 +8,6 @@ contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 discoiquuid: 353777c0-7c27-4d43-abdd-b7cbac96e6d5
-index: y
-internal: n
-snippet: y
 ---
 
 # Quickstart for AEM Screens{#quickstart-for-aem-screens}

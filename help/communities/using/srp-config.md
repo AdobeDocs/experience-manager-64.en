@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: 8e1ea9b9-22d0-470e-b5c1-42e1c9653f2f
-index: y
-internal: n
-snippet: y
 ---
 
 # Storage Configuration{#storage-configuration}
@@ -31,7 +28,7 @@ For a discussion of storage options and deployment topologies, visit
 
 In the author environment, to reach the storage configuration console
 
-* from global navigation : **Tools, Communities, Storage Configuration**
+* from global navigation :** Tools, Communities, Storage Configuration**
 
 To select a storage option other than the default JCR :
 

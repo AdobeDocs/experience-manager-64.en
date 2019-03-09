@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_ssl
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 5e5ff14f-95d7-48aa-bb5a-27946b2c102f
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring SSL for JBoss Application Server{#configuring-ssl-for-jboss-application-server}
@@ -214,8 +211,8 @@ In this procedure:
    >
    >    
    >    
-   >    * Replace [JAVA_HOME] with the directory where the JDK is installed, and replace the text in italic with values that correspond with your environment.
-   >    * The imported CA signed certificate will replace a self-signed public certificate if it exists.
+   >* Replace [JAVA_HOME] with the directory where the JDK is installed, and replace the text in italic with values that correspond with your environment.
+   >* The imported CA signed certificate will replace a self-signed public certificate if it exists.
    >    
    >
 

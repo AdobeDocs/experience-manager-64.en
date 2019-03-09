@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: df49752c-9cd7-41c8-b03a-0c4af9429f22
-index: y
-internal: n
-snippet: y
 ---
 
 # MSRP - MongoDB Storage Resource Provider{#msrp-mongodb-storage-resource-provider}
@@ -54,7 +51,7 @@ The [Storage Configuration console](../../communities/using/srp-config.md) allow
 
 On author, to access the Storage Configuration console :
 
-* from global navigation : **Tools, Communities, Storage Configuration**
+* from global navigation :** Tools, Communities, Storage Configuration**
 
 ![](assets/chlimage_1-28.png)
 

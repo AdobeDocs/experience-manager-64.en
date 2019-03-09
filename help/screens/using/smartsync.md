@@ -7,9 +7,6 @@ page-status-flag: never-activated
 uuid: b307f8ec-0a15-4248-b9ab-fa45362e1a2e
 contentOwner: jsyal
 discoiquuid: aed50084-af57-4fa1-824d-fac98ade206c
-index: y
-internal: n
-snippet: y
 ---
 
 # Transitioning from ContentSync to SmartSync{#transitioning-from-contentsync-to-smartsync}

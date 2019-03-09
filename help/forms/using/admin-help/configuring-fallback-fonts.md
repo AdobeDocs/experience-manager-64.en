@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_pdf_generator
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: fd862c5e-0355-4e39-bb1d-5171e6e19c73
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring fallback fonts{#configuring-fallback-fonts}

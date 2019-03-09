@@ -8,9 +8,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: spa
 content-type: reference
 discoiquuid: 702d1d3a-8a22-4544-8870-0d3dfe0ed3c0
-index: y
-internal: n
-snippet: y
 ---
 
 # SPA Blueprint{#spa-blueprint}

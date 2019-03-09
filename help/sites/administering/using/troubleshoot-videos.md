@@ -8,9 +8,6 @@ contentOwner: jsyal
 discoiquuid: 47597b9a-1b4a-45b2-ba29-5e224083d310
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/screens/using/troubleshoot-videos
-index: y
-internal: n
-snippet: y
 ---
 
 # REDIRECT Video Playback Configuration and Troubleshooting{#redirect-video-playback-configuration-and-troubleshooting}

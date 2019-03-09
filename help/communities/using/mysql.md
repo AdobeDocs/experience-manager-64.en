@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: bf443655-8bf4-4322-bfc6-263e34af9d29
-index: y
-internal: n
-snippet: y
 ---
 
 # MySQL Configuration for Enablement Features{#mysql-configuration-for-enablement-features}

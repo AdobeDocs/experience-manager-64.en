@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
 discoiquuid: 6238b5d9-acae-46fb-bfc4-5d569e62c268
-index: y
-internal: n
-snippet: y
 ---
 
 # Scripting support for HTML5 forms{#scripting-support-for-html-forms}

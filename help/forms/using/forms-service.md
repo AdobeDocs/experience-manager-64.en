@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: document_services
 discoiquuid: e61efe40-7b8e-46ea-85f4-c7dda9f5ccc1
-index: y
-internal: n
-snippet: y
 ---
 
 # Forms Service{#forms-service}

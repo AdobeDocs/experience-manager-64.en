@@ -10,9 +10,6 @@ topic-tags: e-commerce
 content-type: reference
 discoiquuid: e7a50b13-1a6c-4e78-9c73-8fb49aab9fee
 pagetitle: Administering hybris
-index: y
-internal: n
-snippet: y
 ---
 
 # hybris{#hybris}
@@ -433,14 +430,14 @@ To add order history to the [client context](../../../sites/developing/using/cli
    >
    >    
    >    
-   >    * Navigate to  
+   >* Navigate to  
    >      [http://localhost:4502/content/campaigns/geometrixx-outdoors/hybris-returning-customer.html](http://localhost:4502/content/campaigns/geometrixx-outdoors/hybris-returning-customer.html)  
    >      The campaign consists of one experience.
    >    
-   >    * Click on the segment  
+   >* Click on the segment  
    >      ([http://localhost:4502/etc/segmentation/geometrixx-outdoors/returning-customer.html](http://localhost:4502/etc/segmentation/geometrixx-outdoors/returning-customer.html))
    >    
-   >    * The segment is built using the **Order History Property** trait.
+   >* The segment is built using the **Order History Property** trait.
    >    
    >
 

@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: 5974e430-c2c8-42cf-bf92-ae1c56cdba07
-index: y
-internal: n
-snippet: y
 ---
 
 # Displaying the user avatar{#displaying-the-user-avatar}

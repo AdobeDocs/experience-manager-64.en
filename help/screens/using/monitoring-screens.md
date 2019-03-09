@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: troubleshoot
 discoiquuid: 719b3058-c6bd-40e5-892d-fd073c533c03
-index: y
-internal: n
-snippet: y
 ---
 
 # Troubleshooting Device Control Center{#troubleshooting-device-control-center}

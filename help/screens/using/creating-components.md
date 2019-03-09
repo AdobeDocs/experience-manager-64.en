@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: developing
 discoiquuid: fecb1265-b3bc-44a9-bfe7-e4c7a7a777c2
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating Components{#creating-components}

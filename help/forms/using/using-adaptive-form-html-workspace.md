@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: 2c37194d-0aeb-490f-98ad-bd55d88c720d
-index: y
-internal: n
-snippet: y
 ---
 
 # Using an adaptive form in HTML Workspace{#using-an-adaptive-form-in-html-workspace}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.3/FORMS
 topic-tags: document_services
 topic-tags: publish
 discoiquuid: 040da43c-a785-47cb-b5c9-60fab94689ce
-index: y
-internal: n
-snippet: y
 ---
 
 # Manage Forms applications and tasks in AEM Inbox{#manage-forms-applications-and-tasks-in-aem-inbox}

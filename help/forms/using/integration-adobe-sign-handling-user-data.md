@@ -7,9 +7,6 @@ uuid: c37596fa-b5c7-49eb-9dec-4063328bdb04
 topic-tags: grdp
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: b4e63af5-1f06-4da6-9cce-0008e2c8f426
-index: y
-internal: n
-snippet: y
 ---
 
 # Integration with Adobe Sign | Handling user data{#integration-with-adobe-sign-handling-user-data}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
 discoiquuid: 8915de39-b0d3-4fd9-b302-3c07a83f089d
-index: y
-internal: n
-snippet: y
 ---
 
 # Using Liking{#using-liking}

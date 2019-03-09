@@ -10,9 +10,6 @@ geptopics: SG_AEMFORMS/categories/assembling_pdf_documents
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: 6f55cb37-9a20-4300-9a77-18114426a814
-index: y
-internal: n
-snippet: y
 ---
 
 # Assembling PDF Portfolios{#assembling-pdf-portfolios}

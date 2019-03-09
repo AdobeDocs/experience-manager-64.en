@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
 discoiquuid: fb76ce44-1bc3-4274-b4e6-50b0c335ef78
-index: y
-internal: n
-snippet: y
 ---
 
 # Carousel Banners{#carousel-banners}
@@ -57,7 +54,7 @@ To get you up and running quickly:
    >
    >If you are an AEM Assets and Dynamic Media customer, you will manually enter data for hotspots and image maps, and then integrate the published URL or Embed code with your third-party content management system.
 
-1. Optional: [Create a Carousel Set viewer preset](../../assets/using/managing-viewer-presets.md), as needed.****
+1. Optional: [Create a Carousel Set viewer preset](../../assets/using/managing-viewer-presets.md), as needed.
 
    If you are an administrator, you can customize the behavior and appearance of the carousel by creating your own Carousel viewer preset. The main benefit is that you can re-use this custom viewer preset for multiple carousels. However, users also have the option to customize the behavior and appearance of the carousel directly while authoring the carousel. This is the preferred approach when you want a very specific design for a given carousel.
 
@@ -223,11 +220,11 @@ To upload image banners, see [Uploading assets](../../assets/using/managing-asse
    >
    >    
    >    
-   >    * Duration that an image displays. By default, each image displays for 9 seconds.
-   >    * Animation. By default, each slide transition is a fade. You can change that to a slide transition.
-   >    * Style of the buttons. Users can rotate through the banners by tapping each dot or number. You can change where the set indicator buttons appear (and if they are numeric or a dotted style) and how large they are.
-   >    * Change the highlight style of an image map or the icon used for hotspots.
-   >    * Before you edit a viewer preset, choose the style you want to base the preset off of. If you do not do this, when you start to edit the viewer preset, you will lose all of your changes if you decide change to a different preset
+   >* Duration that an image displays. By default, each image displays for 9 seconds.
+   >* Animation. By default, each slide transition is a fade. You can change that to a slide transition.
+   >* Style of the buttons. Users can rotate through the banners by tapping each dot or number. You can change where the set indicator buttons appear (and if they are numeric or a dotted style) and how large they are.
+   >* Change the highlight style of an image map or the icon used for hotspots.
+   >* Before you edit a viewer preset, choose the style you want to base the preset off of. If you do not do this, when you start to edit the viewer preset, you will lose all of your changes if you decide change to a different preset
    >    
    >    
    >See [Special Considerations for Carousel Banners](../../assets/using/viewer-presets.md#specialconsiderationsforcreatingacarouselbannerviewerpreset) for detailed instructions and more information on the viewer editor.

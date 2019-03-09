@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: c1efb423-3eb2-4427-8ef2-0f581b5474af
-index: y
-internal: n
-snippet: y
 ---
 
 # Integrating with the Adobe Marketing Cloud{#integrating-with-the-adobe-marketing-cloud}

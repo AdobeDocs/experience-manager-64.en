@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-manager
 discoiquuid: da65db4a-272d-448a-a568-df4a85cbe715
-index: y
-internal: n
-snippet: y
 ---
 
 # Importing and exporting assets to AEM Forms{#importing-and-exporting-assets-to-aem-forms}

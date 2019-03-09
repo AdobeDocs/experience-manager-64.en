@@ -8,9 +8,6 @@ contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 discoiquuid: fe6445bc-562d-4a1a-b1ad-5c6885213aa5
-index: y
-internal: n
-snippet: y
 ---
 
 # Spaces and Entities{#spaces-and-entities}

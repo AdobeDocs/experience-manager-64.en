@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
 discoiquuid: 40d4c7bc-069e-4bf5-8496-128dc9c87a93
-index: y
-internal: n
-snippet: y
 ---
 
 # Identity Management{#identity-management}

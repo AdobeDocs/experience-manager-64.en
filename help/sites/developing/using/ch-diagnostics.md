@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
 discoiquuid: 9a2fa3fa-7acf-4d66-8c21-840070d3ad30
-index: y
-internal: n
-snippet: y
 ---
 
 # ContextHub Diagnostics{#contexthub-diagnostics}
@@ -28,7 +25,7 @@ The ContextHub Diagnostics page provides information about the stores and UI mod
 
 The Stores section lists all the ContextHub stores that have been configured. Each item in the list consists of the following information:
 
-* **Title: **The [store type](../../../sites/developing/using/ch-samplestores.md) that the store is based on.
+* **Title:** The [store type](../../../sites/developing/using/ch-samplestores.md) that the store is based on.
 
 * **path:** The path to the repository node that holds the configuration.
 * **resourceType:** The path of the repository node where the store type is defined.

@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: developing
 discoiquuid: 66dadc6f-b25d-4172-bccb-b209f322a4c2
-index: y
-internal: n
-snippet: y
 ---
 
 # REST APIs{#rest-apis}

@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: integrations
 discoiquuid: 1c77b55a-256f-4742-a928-47ea24227000
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring analytics and reports{#configuring-analytics-and-reports}
@@ -177,7 +174,7 @@ An Adobe Analytics framework is a set of mappings between Adobe Analytics variab
     
     * **Analytics report sync cron**: Specify cron expression for fetching reports from Adobe Analytics. The default value is 0 0 2 ? &#42; &#42;.  
     
-    * **Fetch report timeout: **Specify the duration, in seconds, to wait for server to respond to the analytics report. The default time is 120 seconds.
+    * **Fetch report timeout:** Specify the duration, in seconds, to wait for server to respond to the analytics report. The default time is 120 seconds.
 
    >[!NOTE]
    >

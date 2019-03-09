@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
 discoiquuid: cd86e711-cdc0-4d8d-8e4d-19f66e29ab4d
-index: y
-internal: n
-snippet: y
 ---
 
 # Metadata Schemata Reference{#metadata-schemata-reference}

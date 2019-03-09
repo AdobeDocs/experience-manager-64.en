@@ -10,9 +10,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: a45dd420-1ac0-4915-9e50-015da9291bd2
-index: y
-internal: n
-snippet: y
 ---
 
 # Multi-tenancy for ContextHub Audiences{#multi-tenancy-for-contexthub-audiences}
@@ -62,7 +59,7 @@ In addition, there are also changes in the Resolved Segments UI, which are descr
 
 The Resolved Segments UI has been extended to be able to filter the displayed segments based on the accessible segments paths for the current user.
 
-To access the Resolved Segments UI, navigate through the Cloud Settings to the following location; for example: **http://localhost:4502/etc/cloudsettings/default/contexthub/persona.html**
+To access the Resolved Segments UI, navigate through the Cloud Settings to the following location; for example:** http://localhost:4502/etc/cloudsettings/default/contexthub/persona.html**
 
 ```
 {
@@ -80,7 +77,7 @@ To access the Resolved Segments UI, navigate through the Cloud Settings to the f
 }
 ```
 
-A key/value pair is available to the JSON configuration of the Resolved Segments UI so you can configure whether the resolved segments are filtered by the accessible segments paths for the current user: **"isFilteredByAccessiblePaths": true/false**
+A key/value pair is available to the JSON configuration of the Resolved Segments UI so you can configure whether the resolved segments are filtered by the accessible segments paths for the current user:** "isFilteredByAccessiblePaths": true/false**
 
 The filter is turned off by default, that is **"isFilteredByAccessiblePaths": false **
 
@@ -113,15 +110,15 @@ The detailed configuration in JSON looks like this:
 
 You can set up multiple tenants by creating groups for those tenant users and adding users to those groups. Then, you set the privileges for the tenant group.
 
-In this example, there are three tenant groups: **tenants1**, **tenants2**, and **tenantsX**. You can manage groups and users by navigating to **Tools** &gt; **Security** &gt; **Users** or **Groups** respectively.
+In this example, there are three tenant groups:** tenants1**, **tenants2**, and **tenantsX**. You can manage groups and users by navigating to **Tools** &gt; **Security** &gt; **Users** or **Groups** respectively.
 
 ![](assets/chlimage_1-278.png)
 
-Each tenant group in this example has one user: **tenant1**, **tenant2**, and **tenantX**.
+Each tenant group in this example has one user:** tenant1**, **tenant2**, and **tenantX**.
 
 ![](assets/chlimage_1-279.png)
 
-For example, if you select the group **tenants1**, you see that **tenant1** is a member of that group. The same is true of the other users: **tenant2** is a member of group **tenants2**.** tenantX **is a member of group **tenantsX**.
+For example, if you select the group **tenants1**, you see that **tenant1** is a member of that group. The same is true of the other users:** tenant2** is a member of group **tenants2**.** tenantX **is a member of group **tenantsX**.
 
 ![](assets/chlimage_1-280.png)
 

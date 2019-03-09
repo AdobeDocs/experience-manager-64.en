@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: c2a9f3a4-2d1d-4c3b-9c9b-a9bd1572a734
-index: y
-internal: n
-snippet: y
 ---
 
 # Integrating with Adobe Search&Promote{#integrating-with-adobe-search-promote}
@@ -93,9 +90,9 @@ Configure one or more connections to Search&Promote so that your web pages can i
    >
    >    
    >    
-   >    * **XXXXXXXX** corresponds with your** Member id**
+   >* **XXXXXXXX** corresponds with your** Member id**
    >    
-   >    * **spYYYYYYYY** corresponds with your **Account Number**
+   >* **spYYYYYYYY** corresponds with your **Account Number**
    >    
    >    
    >

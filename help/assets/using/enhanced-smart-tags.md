@@ -8,9 +8,6 @@ contentOwner: cmajumda
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: authoring
 discoiquuid: a8f21986-74bb-4af3-8ae0-ab65c882baba
-index: y
-internal: n
-snippet: y
 ---
 
 # Enhanced Smart Tags{#enhanced-smart-tags}

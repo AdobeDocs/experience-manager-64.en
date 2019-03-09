@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: manage
 discoiquuid: a94ff8b5-dda9-4377-95f0-6234ca5f76c8
 noindex: true
-index: y
-internal: n
-snippet: y
 ---
 
 # AEM Desktop App for AEM Forms{#aem-desktop-app-for-aem-forms}

@@ -10,9 +10,6 @@ topic-tags: e-commerce
 content-type: reference
 discoiquuid: 4876b064-d5bf-4b4d-b02c-491a764d8cbe
 pagetitle: Deploying eCommerce with IBM Websphere Commerce
-index: y
-internal: n
-snippet: y
 ---
 
 # IBM Websphere Commerce{#ibm-websphere-commerce}

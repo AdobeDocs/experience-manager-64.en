@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_pdf_generator
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: be605a79-4002-4f62-a795-72af541a1ba0
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring file type settings{#configuring-file-type-settings}
@@ -39,7 +36,7 @@ Create or edit a file type setting to specify how the application handles the co
 1. In the Filename Extensions box, type the filename extensions, separated by commas, for file types that are accepted for this application. Do not include the period before or a space between the extensions. The default is `bmp,gif,jpeg,jpg,tif,tiff,png`.
 1. (Optional) To use optical code recognition (OCR) of text in graphics or images, select Use OCR and set the following options:
 
-**Primary OCR****Language:** The language for the OCR engine to use to identify the characters. The default is English (US).
+**Primary OCR Language:** The language for the OCR engine to use to identify the characters. The default is English (US).
 
 **PDF Output Style:** Select Searchable Image to have a bitmap image of the pages in the foreground and the scanned text on an invisible layer beneath. The appearance of the page does not change, but the text becomes selectable and readable. Select Formatted Text & Graphics to reconstruct the original page by using recognized text, fonts, pictures, and other graphic elements. The default is Searchable Image (Exact).
 
@@ -135,7 +132,7 @@ The following options determine how image files are converted to PDF. For instru
 
 ## Adobe PDF export settings (Windows only) {#adobe-pdf-export-settings-windows-only}
 
-The Export File Type setting in the Adobe PDF export settings section is used for converting a PDF file to another format. The default is HTML 4.01 with cascading style sheets (CSS) 1.0****(&#42;.htm, &#42;.html).
+The Export File Type setting in the Adobe PDF export settings section is used for converting a PDF file to another format. The default is HTML 4.01 with cascading style sheets (CSS) 1.0 (&#42;.htm, &#42;.html).
 
 For instructions about accessing this setting, see [Create or edit file type settings](configuring-file-type-settings.md#create_or_edit_file_type_settings).
 
@@ -240,11 +237,11 @@ For instructions about accessing this setting, see [Create or edit file type set
 1. Select **Fonts.**
 1. Select one of the following options:
 
-   **Unembed all fonts: **Unembeds all embedded fonts.
+   **Unembed all fonts:** Unembeds all embedded fonts.
 
-   **Do not unembed any font: **Does not unembed any fonts.
+   **Do not unembed any font:** Does not unembed any fonts.
 
-   **Unembed some fonts: **Unembeds only the specified fonts. Follow these steps to specify the fonts that you want to unembed:
+   **Unembed some fonts:** Unembeds only the specified fonts. Follow these steps to specify the fonts that you want to unembed:
 
     * If necessary, select a different fonts directory from the **Font source** drop-down menu. This drop-down menu lists fonts directories specified in **Home &gt; Settings &gt; Core System &gt; Core Configurations**.
     * Select one or more fonts from the **Available Fonts** list and click **Add**. These fonts are added to the **Fonts to Unembed** list.
@@ -258,7 +255,7 @@ For instructions about accessing this setting, see [Create or edit file type set
 
    >[!NOTE]
    >
-   >*If you’re using this option in combination with **Unembed some fonts**, fonts in the **A**dd fonts to unembed**** list are still completely unembedded.*
+   >*If you’re using this option in combination with **Unembed some fonts**, fonts in the **Add fonts to unembed** list are still completely unembedded.*
 
    >[!NOTE]
    >
@@ -433,11 +430,11 @@ These options determine how Microsoft PowerPoint files are converted. For instru
 
 **[!UICONTROL Try OpenOffice As Fallback Converter]**: When this option is selected and a conversion using Microsoft PowerPoint fails or reaches the specified time-out limit, PDF Generator attempts the conversion by using OpenOffice. If the conversion using OpenOffice fails or reaches the specified time-out limit, an exception is written to the log file.
 
-****[!UICONTROL Filename Extensions]****: Specifies the filename extensions for file types, separated by commas, that are accepted for this application. The default is ppt,pptx. Do not include a period before or a space between the extensions.
+**[!UICONTROL Filename Extensions]**: Specifies the filename extensions for file types, separated by commas, that are accepted for this application. The default is ppt,pptx. Do not include a period before or a space between the extensions.
 
-****[!UICONTROL Convert Document Information]****: Adds document information from the Properties dialog box of the source file, including title, subject, author, keywords, manager, company, category, and comments. This option is selected by default.
+**[!UICONTROL Convert Document Information]**: Adds document information from the Properties dialog box of the source file, including title, subject, author, keywords, manager, company, category, and comments. This option is selected by default.
 
-****[!UICONTROL Add Bookmarks To Adobe PDF]****: Converts PowerPoint titles to bookmarks. This option is selected by default.
+**[!UICONTROL Add Bookmarks To Adobe PDF]**: Converts PowerPoint titles to bookmarks. This option is selected by default.
 
 **[!UICONTROL Attach Source File To Adobe PDF]**: Adds the source file to the PDF file as an attachment. This option is deselected by default.
 
@@ -467,7 +464,7 @@ These options determine how Microsoft Project files are converted. For instructi
 
 1. **[!UICONTROL **Filename Extensions**:]** Specifies the filename extensions for file types, separated by commas, that are accepted for this application. The default is `mpp`. Do not include a period before or a space between the extensions.
 
-1. ****[!UICONTROL Convert Document Information]****: Adds document information from the Properties dialog box of the source file, including title, subject, author, keywords, manager, company, category, and comments. This option is selected by default.
+1. **[!UICONTROL Convert Document Information]**: Adds document information from the Properties dialog box of the source file, including title, subject, author, keywords, manager, company, category, and comments. This option is selected by default.
 1. **[!UICONTROL Attach Source File To Adobe PDF]**: Adds the source file to the PDF file as an attachment. 
 1. **[!UICONTROL Create PDF/A-1a Compliant File]**: Forces the use of the PDF/A-1b:2005 RGB Adobe PDF setting.
 1. **[!UICONTROL Run Macros Automatically]**: Runs any macros in the Microsoft Project document (such as a macro that inserts the current time) before converting the document.

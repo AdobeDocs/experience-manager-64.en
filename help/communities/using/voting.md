@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
 discoiquuid: 7b12dacf-2e15-4355-a6fa-577672530742
-index: y
-internal: n
-snippet: y
 ---
 
 # Using Voting{#using-voting}

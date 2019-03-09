@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
 discoiquuid: eb8d1852-80f7-4fd7-b257-e57f781bc71a
-index: y
-internal: n
-snippet: y
 ---
 
 # AEM Development - Guidelines and Best Practices{#aem-development-guidelines-and-best-practices}

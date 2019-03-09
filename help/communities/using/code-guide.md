@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: bb40d925-4141-42c0-a413-dc762ba375f8
-index: y
-internal: n
-snippet: y
 ---
 
 # Coding Guidelines{#coding-guidelines}

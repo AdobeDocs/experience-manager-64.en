@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
 discoiquuid: 8d9aa4c1-556b-4581-a92c-312f1ac4b775
-index: y
-internal: n
-snippet: y
 ---
 
 # Working with the Author Environment{#working-with-the-author-environment}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
 discoiquuid: b8760af7-f3c0-453e-8a50-df69e26832ce
-index: y
-internal: n
-snippet: y
 ---
 
 # Troubleshooting{#troubleshooting}
@@ -101,7 +98,7 @@ If everything else fails, check the logs to find out what has happened.
 
 **Applies to WebLogic 10.3.5 and JBoss 5.1**
 
-****When a request to geometrixx-outdoors/en page returns a 404 (Page Not Foun) then you may recheck that you have set the additional sling property in the sling.properties file needed for these specific Application Servers.
+When a request to geometrixx-outdoors/en page returns a 404 (Page Not Foun) then you may recheck that you have set the additional sling property in the sling.properties file needed for these specific Application Servers.
 
 See in the *Deploy AEM web application* steps for the details.
 

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
 discoiquuid: ebae4ef4-b723-4b42-bb56-076b0ad26546
-index: y
-internal: n
-snippet: y
 ---
 
 # Audit Log Maintenance in AEM 6{#audit-log-maintenance-in-aem}

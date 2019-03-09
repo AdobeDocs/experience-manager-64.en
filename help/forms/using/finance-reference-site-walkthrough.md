@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: introduction
 discoiquuid: ea954172-e1b6-4da5-8b66-9bed43e2b643
-index: y
-internal: n
-snippet: y
 ---
 
 # We.Finance reference site walkthrough{#we-finance-reference-site-walkthrough}
@@ -301,14 +298,15 @@ Perform the following steps to experience the creation of A/B test for We.Financ
 
 1. Now open the form in chrome browser several times using the following url:  
    http://&lt;*hostname*&gt;:&lt;*port*&gt;/content/dam/formsanddocuments/we-finance/cc-app/jcr:content?wcmmode=disabled*** 
-   Note:**** Remove the cookie with the name **mbox **from browser’s cookie persistence before opening the form next time.* 
+
+   **Note:** Remove the cookie with the name **mbox **from browser’s cookie persistence before opening the form next time.* 
    You will see experience A and B of the form at random.
 
 1. Select the form, click **More**, and click **A/B Testing Report**. You won’t find much data in the report as you have just started the testing. Let’s now provide some seed data to see how A/B Testing report looks like.
 
 1. Open CRXDE Lite and take a back-up of the following file: /libs/fd/fmaddon/gui/components/admin/targetreport/clientlibs/targetreport/js/targetreport.js
 1. Replace the definition of function `onReportLoadSuccess` in the above mentioned file with the function definition in the following file: /apps/we-finance/demo-artifacts/targetreport.js** 
-   Note: **These changes are only for the demo purpose. Ensure that you restore the file contents after completing this procedure.
+   Note:** These changes are only for the demo purpose. Ensure that you restore the file contents after completing this procedure.
 
 1. Refresh the report that you generated, and you will see something like the following. Review the reporting dashboard.
 
@@ -437,7 +435,7 @@ The following image depicts the AEM workflow associated with the mortgage applic
 
 #### See it yourself {#see-it-yourself-7}
 
-You can access the AEM inbox at http://<***hostname***>:<***AuthorP******ort***>/content/we-finance/global/en/login.html?resource=/aem/inbox.html. Log in to the AEM inbox using `grios/password` as the username/password for Gloria Rios and `jdoe/jdoe` for John Doe, and explore the home mortgage application workflow.
+You can access the AEM inbox at http://<***hostname***>:<***AuthorPort***>/content/we-finance/global/en/login.html?resource=/aem/inbox.html. Log in to the AEM inbox using `grios/password` as the username/password for Gloria Rios and `jdoe/jdoe` for John Doe, and explore the home mortgage application workflow.
 
 For information about using AEM Inbox for forms-centric workflow tasks, see [Manage Forms applications and tasks in AEM Inbox](../../forms/using/manage-applications-inbox.md).
 
@@ -551,14 +549,15 @@ Perform the following steps in the author instance to experience the creation of
 
 1. Now open the form in chrome browser several times using the following url:  
    http://&lt;*hostname*&gt;:&lt;*port*&gt;/content/dam/formsanddocuments/we-finance/hm-app/jcr:content?wcmmode=disabled** 
-   ****** Note:*** Remove the cookie with the name **mbox **from browser’s cookie persistence before opening the form next time.* 
+
+   **Note:** Remove the cookie with the name **mbox **from browser’s cookie persistence before opening the form next time.
    You will see experience A and B of the form at random.
 
 1. Select the form, click **More**, and click **A/B Testing Report**. You won’t find much data in the report as you have just started the testing. Let’s now provide some seed data to see how A/B Testing report looks like.
 
 1. Open CRXDE Lite and take a back-up of the following file: /libs/fd/fmaddon/gui/components/admin/targetreport/clientlibs/targetreport/js/targetreport.js
 1. Replace the definition of the `onReportLoadSuccess` function in the above mentioned file with the function definition in the following file: /apps/we-finance/demo-artifacts/targetreport.js** 
-   Note: **These changes are only for the demo purpose. Ensure that you restore the file contents after completing this procedure.
+   Note:** These changes are only for the demo purpose. Ensure that you restore the file contents after completing this procedure.
 
 1. Refresh the report that you generated, and you will see something like the following. Review the reporting dashboard.
 

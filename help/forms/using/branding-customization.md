@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
 discoiquuid: f4b4057b-232f-4c0e-8f0f-9e1462219914
-index: y
-internal: n
-snippet: y
 ---
 
 # Branding Customization{#branding-customization}

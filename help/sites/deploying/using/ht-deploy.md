@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: configuring
 discoiquuid: 3dfab88c-28e7-4ed0-ba52-2a5facf3524a
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuration How-To Articles{#configuration-how-to-articles}

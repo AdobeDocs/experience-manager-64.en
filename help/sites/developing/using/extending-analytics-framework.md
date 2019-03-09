@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
 discoiquuid: 8156bbab-cf72-4c81-9c73-99b47837e8c2
-index: y
-internal: n
-snippet: y
 ---
 
 # Customizing the Adobe Analytics Framework{#customizing-the-adobe-analytics-framework}

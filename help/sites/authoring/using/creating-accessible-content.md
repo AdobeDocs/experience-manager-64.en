@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
 discoiquuid: c2e8c76e-3a1e-4ee7-ae26-eb5a8d9c070a
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating Accessible Content (WCAG 2.0 Conformance){#creating-accessible-content-wcag-conformance}
@@ -368,8 +365,8 @@ You can make sure your web pages are given the appropriate structure by:
   >
   >    
   >    
-  >    * &lt;b&gt; for &lt;strong&gt;
-  >    * &lt;i&gt; for &lt;em&gt;
+  >* &lt;b&gt; for &lt;strong&gt;
+  >* &lt;i&gt; for &lt;em&gt;
   >    
   >    
   >They are effectively the same, but &lt;strong&gt; and &lt;em&gt; are preferable as they are semantically correct html. Your development team can configure the RTE to use &lt;strong&gt; and &lt;em&gt; (instead of &lt;b&gt; and &lt;i&gt;) when developing your project instance.

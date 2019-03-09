@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: d5e274b6-9328-492d-ae13-a318a5778741
-index: y
-internal: n
-snippet: y
 ---
 
 # Developing Communities{#developing-communities}

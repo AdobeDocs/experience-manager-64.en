@@ -7,9 +7,6 @@ uuid: 385745c4-1c92-4836-a831-7cf529a6e59a
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: f67852a4-1026-49d5-a418-d0f2805770d5
-index: y
-internal: n
-snippet: y
 ---
 
 # Create an adaptive form using a set of adaptive forms{#create-an-adaptive-form-using-a-set-of-adaptive-forms}

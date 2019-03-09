@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: 8bbacdaa-eceb-4c6c-9f79-64b11437223c
-index: y
-internal: n
-snippet: y
 ---
 
 # APIs used in AEM Forms workspace{#apis-used-in-aem-forms-workspace}

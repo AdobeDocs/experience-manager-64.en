@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: fed0b7a7-3459-4f33-ac5c-c4674cacff2b
-index: y
-internal: n
-snippet: y
 ---
 
 # SCF Handlebars Helpers{#scf-handlebars-helpers}

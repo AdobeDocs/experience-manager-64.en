@@ -8,9 +8,6 @@ uuid: 92b6c1c4-8884-42ea-9f77-d7adb1f3bebc
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: d09b92f6-52ff-47ac-9dce-d160bc8382a4
-index: y
-internal: n
-snippet: y
 ---
 
 # Troubleshooting Process Reporting{#troubleshooting-process-reporting}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: personalization
 discoiquuid: 771dc3ad-f72b-47fe-b133-ad2bc47cf41c
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating and Managing Offers{#creating-and-managing-offers}

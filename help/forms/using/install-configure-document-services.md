@@ -6,9 +6,6 @@ seo-description: Install AEM Forms document services to create, assemble, distri
 uuid: 92117503-e058-46e9-9eaf-e92845423238
 topic-tags: installing
 discoiquuid: 44cb5452-813b-49bd-94b8-8f0de50fb864
-index: y
-internal: n
-snippet: y
 ---
 
 # Installing and configuring document services{#installing-and-configuring-document-services}
@@ -507,10 +504,10 @@ The DocAssurance service can apply usage rights to PDF documents. To apply usage
    >
    >    
    >    
-   >    * To determine the **Private Key Alias** of a certificate, you can use the Java keytool command: keytool -list -v -keystore [keystore-file] -storetype pkcs12
-   >    * In the **Key Store Password** and **Private Key Password** fields, specify the password provided with the certificate file.
+   >* To determine the **Private Key Alias** of a certificate, you can use the Java keytool command: keytool -list -v -keystore [keystore-file] -storetype pkcs12
+   >* In the **Key Store Password** and **Private Key Password** fields, specify the password provided with the certificate file.
    >    
-   >    * In the production environment, replace your evaluation credentials with production credentials. Ensure that you delete your old Reader Extensions credentials, before updating an expired or evaluations credential. 
+   >* In the production environment, replace your evaluation credentials with production credentials. Ensure that you delete your old Reader Extensions credentials, before updating an expired or evaluations credential. 
    >    
    >
 

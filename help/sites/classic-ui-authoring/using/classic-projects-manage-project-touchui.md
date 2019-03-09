@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: projects
 content-type: reference
 discoiquuid: 6a481e8f-d4b8-4d1b-9555-0fcdba3c660a
-index: y
-internal: n
-snippet: y
 ---
 
 # Managing Projects with the Touch-Enabled UI{#managing-projects-with-the-touch-enabled-ui}

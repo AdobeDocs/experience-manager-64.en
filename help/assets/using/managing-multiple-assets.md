@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
 topic-tags: authoring
 discoiquuid: 892e593d-8755-4722-b0ba-77187e074a29
-index: y
-internal: n
-snippet: y
 ---
 
 # Managing Multiple Assets and Collections{#managing-multiple-assets-and-collections}
@@ -45,8 +42,8 @@ To customize the metadata properties page, including adding, modifying, deleting
    >
    >    
    >    
-   >    * In the properties page, you can remove assets from the asset list by deselecting them. The asset list has all the assets selected by default. The metadata for assets that you remove from the list is not updated.
-   >    * At the top of assets list, select the check box near **Title** to toggle between selecting the assets and clearing the list.
+   >* In the properties page, you can remove assets from the asset list by deselecting them. The asset list has all the assets selected by default. The metadata for assets that you remove from the list is not updated.
+   >* At the top of assets list, select the check box near **Title** to toggle between selecting the assets and clearing the list.
    >    
    >
 
@@ -77,8 +74,8 @@ To customize the metadata properties page, including adding, modifying, deleting
    >
    >    
    >    
-   >    * In the collection properties page, you can remove collections from the list of collections by deselecting them. The collections list has all the collections selected by default. The metadata for collections that you remove is not updated.
-   >    * At the top of the list, select the check box near **Title** to toggle between selecting the collections and clearing the list.
+   >* In the collection properties page, you can remove collections from the list of collections by deselecting them. The collections list has all the collections selected by default. The metadata for collections that you remove is not updated.
+   >* At the top of the list, select the check box near **Title** to toggle between selecting the collections and clearing the list.
    >    
    >
 

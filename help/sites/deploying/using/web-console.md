@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: configuring
 discoiquuid: cb91ee23-38dc-4dfb-9520-69b7f75cbe4e
-index: y
-internal: n
-snippet: y
 ---
 
 # Web Console{#web-console}

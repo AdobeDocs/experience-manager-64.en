@@ -10,16 +10,13 @@ topic-tags: administering
 content-type: reference
 discoiquuid: bf688095-5273-494d-bc52-5c4199d8f2a4
 pagetitle: Communities Tools
-index: y
-internal: n
-snippet: y
 ---
 
 # Communities Tools{#communities-tools}
 
 On author, to access the Communities tools console :
 
-* from global navigation : **Tools, Communities**
+* from global navigation :** Tools, Communities**
 
 ![](assets/chlimage_1-129.png)
 

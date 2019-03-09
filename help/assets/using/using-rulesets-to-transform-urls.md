@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
 discoiquuid: d6c50600-a9bd-4bd9-8238-31cf3b359dbf
-index: y
-internal: n
-snippet: y
 ---
 
 # Using Rulesets to Transform URLs{#using-rulesets-to-transform-urls}

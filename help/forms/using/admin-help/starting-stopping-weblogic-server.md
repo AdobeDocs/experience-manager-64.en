@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/maintaining_the_application_server
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 669ce0d3-4cfd-4fb8-b708-c47fcb0fedbd
-index: y
-internal: n
-snippet: y
 ---
 
 # Starting and stopping WebLogic Server{#starting-and-stopping-weblogic-server}
@@ -77,7 +74,7 @@ The WebLogic Server administration console is no longer available, and the comma
     * (Windows) `startWebLogic.cmd`
     * (Linux, UNIX) ./ `startWebLogic.sh`
 
-1. Access WebLogic Server administration console by typing `http://*[host name]*:`*[Port]* `/console` in the URL line of a web browser, where *****[Port]* is the non-secure listening port. By default, this port value is 7001.
+1. Access WebLogic Server administration console by typing `http://*[host name]*:`*[Port]* `/console` in the URL line of a web browser, where *[Port]* is the non-secure listening port. By default, this port value is 7001.
 1. On the login screen, type your administrator user name and password, and click Log In.
 
 ## Start Node Manager {#start-node-manager}

@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
 discoiquuid: dcddca94-4f58-4673-a342-02670a4beb45
-index: y
-internal: n
-snippet: y
 ---
 
 # Theme Customization{#theme-customization}

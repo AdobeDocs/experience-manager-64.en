@@ -7,9 +7,6 @@ uuid: 63fe002c-c13c-45a0-9514-d2b18e55afd1
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
 discoiquuid: 86329ad8-8665-4c3e-8070-39825e25275e
-index: y
-internal: n
-snippet: y
 ---
 
 # Layout capabilities of adaptive forms{#layout-capabilities-of-adaptive-forms}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features
 content-type: reference
 discoiquuid: c51acc86-3f23-443c-8d90-2120fb7752ac
-index: y
-internal: n
-snippet: y
 ---
 
 # Language Copy Wizard{#language-copy-wizard}

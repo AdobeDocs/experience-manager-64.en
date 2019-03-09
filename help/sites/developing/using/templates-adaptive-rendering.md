@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
 discoiquuid: 80c27265-0508-4367-b280-64b9a4aed1eb
-index: y
-internal: n
-snippet: y
 ---
 
 # Adaptive Template Rendering{#adaptive-template-rendering}

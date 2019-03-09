@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: 9f970be5-2713-4a92-9ffe-0d34d96f2938
-index: y
-internal: n
-snippet: y
 ---
 
 # Integrating with Dynamic Media Classic (Scene7){#integrating-with-dynamic-media-classic-scene}
@@ -398,8 +395,8 @@ To configure autouploading from AEM Assets:
    >
    >    
    >    
-   >    * When adding assets after automating, if they are not placed in the CQ target folder, they are not uploaded to Scene7.
-   >    * AEM embeds all the metadata as XMP before uploading it to Scene7, so all properties on the metadata node are available in Scene7 as XMP.
+   >* When adding assets after automating, if they are not placed in the CQ target folder, they are not uploaded to Scene7.
+   >* AEM embeds all the metadata as XMP before uploading it to Scene7, so all properties on the metadata node are available in Scene7 as XMP.
    >    
    >
 

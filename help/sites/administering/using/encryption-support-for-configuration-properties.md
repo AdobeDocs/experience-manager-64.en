@@ -8,9 +8,6 @@ contentOwner: User
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 discoiquuid: 481e1513-874f-4460-a40f-dd6da5abcccb
-index: y
-internal: n
-snippet: y
 ---
 
 # Encryption Support for Configuration Properties{#encryption-support-for-configuration-properties}

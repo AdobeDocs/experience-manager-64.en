@@ -10,9 +10,6 @@ topic-tags: administering
 content-type: reference
 discoiquuid: be3c7bad-b5b7-4c9d-9233-3c64616a8bc3
 tagskeywords: scoring, badging, badges, gamification
-index: y
-internal: n
-snippet: y
 ---
 
 # Communities Scoring and Badges{#communities-scoring-and-badges}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: 3d4653f2-6500-4f68-b264-9be9d69a4f41
-index: y
-internal: n
-snippet: y
 ---
 
 # Adobe Classifications{#adobe-classifications}

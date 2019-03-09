@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: components
 content-type: reference
 discoiquuid: c124afea-fbd1-46f4-a393-19c7ca684978
-index: y
-internal: n
-snippet: y
 ---
 
 # Developer Mode{#developer-mode}
@@ -35,11 +32,11 @@ These help a developer to:
 >* Is only available in the touch-enabled UI (when editing pages).
 >* Is not available on mobile devices or small windows on desktop (due to space restrictions).  
 >
->    * This occurs when the width is less than 1024px.  
+>* This occurs when the width is less than 1024px.  
 >
 >* Requires the appropriate permissions/privileges:  
 >
->    * Access to Developer Mode is given to users who have write access on `/apps`.
+>* Access to Developer Mode is given to users who have write access on `/apps`.
 >
 
 >[!CAUTION]

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
 discoiquuid: 431f9f03-5775-49b5-9cef-648f5ee23a4b
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating Workflow Models{#creating-workflow-models}

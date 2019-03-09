@@ -7,9 +7,6 @@ uuid: f44f2936-948c-4bda-8be2-f03013fa1f8c
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
 discoiquuid: 6f2c3637-2b1e-43fb-8af1-941fc60503dc
-index: y
-internal: n
-snippet: y
 ---
 
 # Create Correspondence{#create-correspondence}
@@ -299,7 +296,7 @@ This option exists for people who have concerns over saving user data on publish
 
 1. In AEM, open Adobe Experience Manager Web Console Configuration for your server using the following URL: `http://<server>:<port>/<contextpath>/system/console/configMgr`
 1. Search for **[!UICONTROL Correspondence Management Configurations]**and click it. 
-1. Locate the ****[!UICONTROL Remote Save]**** configuration, check it, and the click ****[!UICONTROL Save]****.
+1. Locate the **[!UICONTROL Remote Save]** configuration, check it, and the click **[!UICONTROL Save]**.
 
 #### Specify processing author settings {#specify-processing-author-settings}
 
@@ -354,5 +351,5 @@ To change the preview mode of the letter, complete the following steps:
 
 1. Go to `http://[system]:[port]/system/console/configMgr` and, if necessary, log in as Admin.
 1. Go to **[!UICONTROL Correspondence Management Configurations]** > **[!UICONTROL Rendition Type]** and select **HTML Rendition** (Default) or **PDF Rendition**. 
-1. Click ****[!UICONTROL Save]****.
+1. Click **[!UICONTROL Save]**.
 

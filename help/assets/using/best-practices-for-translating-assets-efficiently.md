@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
 discoiquuid: 91bab331-8930-485f-b009-73e584c5cd7b
-index: y
-internal: n
-snippet: y
 ---
 
 # Best Practices for Translating Assets Efficiently{#best-practices-for-translating-assets-efficiently}

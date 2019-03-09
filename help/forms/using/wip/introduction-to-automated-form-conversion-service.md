@@ -6,9 +6,6 @@ seo-description: Speed up the conversion of print forms to adaptive forms
 uuid: 2f8dd9d8-495d-45d4-b063-eb98bd26e840
 contentOwner: khsingh
 discoiquuid: 8b9ced4e-d692-4e32-83b3-0e5462458316
-index: y
-internal: n
-snippet: y
 ---
 
 # Automated Forms Conversion service{#automated-forms-conversion-service}

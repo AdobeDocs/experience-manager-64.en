@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 discoiquuid: 7c6580b8-6a27-44a2-ae96-b8f054637f66
 redirecttarget: /content/help/en/experience-manager/6-4/sites/developing/using/json-exporter-components
-index: y
-internal: n
-snippet: y
 ---
 
 # Content Services API with AEM Core Components{#content-services-api-with-aem-core-components}

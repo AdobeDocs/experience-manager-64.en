@@ -7,9 +7,6 @@ uuid: 512024e8-f9af-4180-94ae-31f9296d4245
 contentOwner: anujkapo
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: dbfb5fd5-9454-42a6-8881-7524c599388c
-index: y
-internal: n
-snippet: y
 ---
 
 # Tutorial: Plan the Interactive Communication{#tutorial-plan-the-interactive-communication}

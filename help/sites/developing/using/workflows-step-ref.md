@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
 discoiquuid: 7b161e2c-1621-430b-bdb7-b883cde86721
-index: y
-internal: n
-snippet: y
 ---
 
 # Workflow Step Reference{#workflow-step-reference}
@@ -47,7 +44,7 @@ A combination of the following properties are available for most workflow step c
 
 * **Timeout** 
   The period after which the step will be "timed out".  
-  You can select between: **Off**, **Immediate**, **1h**, **6h**, **12h**, **24h**.
+  You can select between:** Off**, **Immediate**, **1h**, **6h**, **12h**, **24h**.
 
 * **Timeout Handler** 
   The handler which will control the workflow when the step times out; for example:  
@@ -201,13 +198,13 @@ To configure the split:
   >
   >    
   >    
-  >    * The script of each branch is evaluated one at a time.   >    
+  >* The script of each branch is evaluated one at a time.   >    
   >        
   >        
   >        * The branches are evaluated left to right.
   >        
   >        
-  >    * The first script that evaluates to true is executed.   >    
+  >* The first script that evaluates to true is executed.   >    
   >        
   >        
   >        * If no branch evaluates to true, then the workflow does not advance.

@@ -10,9 +10,6 @@ topic-tags: mobile-web
 content-type: reference
 discoiquuid: e689e73f-8489-4459-8ee4-1899e35f6b8c
 legacypath: /content/docs/en/aem/6-0/develop/mobile/groupfilters
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating Device Group Filters{#creating-device-group-filters}
@@ -189,7 +186,7 @@ The DeviceGroup and DeviceGroupFilter interfaces are included in the Day Communi
 
 At the time of authoring, 5.5.2 is the version of the WCM Mobile API bundle that is in the latest release of AEM. Use Adobe Web Console ([http://localhost:4502/system/console/bundles](http://localhost:4502/system/console/bundles)) to ensure this is the bundle version that is deployed in your environment.
 
-**POM: **(Your POM will use a different groupId and version.)
+**POM:** (Your POM will use a different groupId and version.)
 
 ```xml
 <project xmlns="http://maven.apache.org/POM/4.0.0"

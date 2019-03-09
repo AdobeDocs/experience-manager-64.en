@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: 2be84127-52a2-4826-949c-2a0404fe8ad2
-index: y
-internal: n
-snippet: y
 ---
 
 # Reports Console{#reports-console}
@@ -35,7 +32,7 @@ Tabular reports can be exported in .csv format for subsequent processing.
 
 ### Reports for Community Sites {#reports-for-community-sites}
 
-* from global navigation : **Navigation**, **Communities, Reports**
+* from global navigation :** Navigation**, **Communities, Reports**
 
 * choose from
 
@@ -55,7 +52,7 @@ Tabular reports can be exported in .csv format for subsequent processing.
 
 ### Reports for Enablement Resources and Learning Paths {#reports-for-enablement-resources-and-learning-paths}
 
-* from global navigation : **Navigation**, **Communities, Resources**
+* from global navigation :** Navigation**, **Communities, Resources**
 
 * select an existing enablement community site
 

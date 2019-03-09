@@ -10,9 +10,6 @@ geptopics: SG_AEMFORMS/categories/assembling_pdf_documents
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: 748a2cdb-bc6f-4de2-a186-d7dbf031f4ca
-index: y
-internal: n
-snippet: y
 ---
 
 # Dynamically Creating DDX Documents{#dynamically-creating-ddx-documents}

@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
 discoiquuid: 6f000ff5-8125-4053-a2a3-d34e6da0c933
-index: y
-internal: n
-snippet: y
 ---
 
 # Designing form templates for HTML5 forms{#designing-form-templates-for-html-forms}

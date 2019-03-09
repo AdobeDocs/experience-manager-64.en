@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
 discoiquuid: a506ad6a-9122-44bb-b9a7-2debea0eabce
-index: y
-internal: n
-snippet: y
 ---
 
 # Using Social Tag Cloud{#using-social-tag-cloud}

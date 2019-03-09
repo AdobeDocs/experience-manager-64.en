@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
 discoiquuid: 239ab95f-3044-4f02-a237-3d1f55d48626
-index: y
-internal: n
-snippet: y
 ---
 
 # User Synchronization{#user-synchronization}
@@ -89,7 +86,7 @@ Once user sync is enabled, only newly created users and groups are syncrhonized.
     * locate `Apache Sling Distribution Agent - Sync Agents Factory`
 
         * select the existing configuration to open for edit (pencil icon)  
-          Verify `name` : **`socialpubsync`**
+          Verify `name` :** `socialpubsync`**
         
         * select the `Enabled` checkbox
         * select `Save`
@@ -172,7 +169,7 @@ Once an authorized user, a member of the **`administrators`**user group, has bee
 
     * locate `Adobe Granite Distribution - Encrypted Password Transport Secret Provider`
     * select the existing configuration to open for edit (pencil icon)  
-      Verify `property name` : **`socialpubsync-publishUser`**
+      Verify `property name` :** `socialpubsync-publishUser`**
     
     * set the username and password to the [authorized user](#createauthorizeduser) created on publish in step 2
 

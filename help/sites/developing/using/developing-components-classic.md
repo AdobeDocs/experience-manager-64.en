@@ -10,9 +10,6 @@ topic-tags: components
 content-type: reference
 discoiquuid: 8c8cb8ca-07f1-4482-9aa2-d9fd45181097
 legacypath: /content/docs/en/aem/6-2/develop/components/components-classic
-index: y
-internal: n
-snippet: y
 ---
 
 # Developing AEM Components (Classic UI){#developing-aem-components-classic-ui}
@@ -179,9 +176,9 @@ To develop new components for AEM based on existing component you can copy the c
    >
    >    
    >    
-   >    * Touch-enabled UI uses [Granite](/sites/developing/using/reference-materials/granite-ui/api/jcr_root/libs/granite/ui/index.md) components  
+   >* Touch-enabled UI uses [Granite](/sites/developing/using/reference-materials/granite-ui/api/jcr_root/libs/granite/ui/index.md) components  
    >    
-   >    * Classic UI uses [ExtJS widgets](/sites/developing/using/reference-materials/widgets-api/index.md)
+   >* Classic UI uses [ExtJS widgets](/sites/developing/using/reference-materials/widgets-api/index.md)
    >    
    >
 
@@ -285,8 +282,8 @@ To create the new component, we use the standard textimage component as a basis 
    >
    >    
    >    
-   >    * Touch-enabled UI: `textimage/cq:dialog`
-   >    * Classic UI: `textimage/dialog`
+   >* Touch-enabled UI: `textimage/cq:dialog`
+   >* Classic UI: `textimage/dialog`
    >    
    >
 

@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_acrobat_reader_dc_extensions
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 7e904f5d-a83a-48c3-87b3-fbcdeba51fe1
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring Acrobat Reader DC extensions for data capture{#configuring-acrobat-reader-dc-extensions-for-data-capture}

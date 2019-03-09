@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: process-reporting
 discoiquuid: 4afc68fc-6b39-4c31-95fa-2ef3111c57da
-index: y
-internal: n
-snippet: y
 ---
 
 # How Process Reporting Works{#how-process-reporting-works}

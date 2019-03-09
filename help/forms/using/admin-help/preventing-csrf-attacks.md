@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_user_management
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 6afe85da-5ab1-47aa-b5c4-ccf9da7e66d1
-index: y
-internal: n
-snippet: y
 ---
 
 # Preventing CSRF attacks{#preventing-csrf-attacks}

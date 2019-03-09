@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: upgrading
 content-type: reference
 discoiquuid: aed25e2d-fb93-4d22-a101-a42bdaa219f5
-index: y
-internal: n
-snippet: y
 ---
 
 # Upgrade Steps for Application Server Installations{#upgrade-steps-for-application-server-installations}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
 discoiquuid: 275bfa89-4585-45b1-966f-b0c31483cb55
-index: y
-internal: n
-snippet: y
 ---
 
 # Profiles for Processing Metadata, Images, and Videos{#profiles-for-processing-metadata-images-and-videos}

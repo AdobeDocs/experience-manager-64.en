@@ -8,9 +8,6 @@ contentOwner: User
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 discoiquuid: ae805bf4-f0c7-48b4-9c43-250c44b41863
-index: y
-internal: n
-snippet: y
 ---
 
 # Removing the Geometrixx Sites{#removing-the-geometrixx-sites}

@@ -8,9 +8,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
 discoiquuid: ba95ce38-74ef-4c70-90c4-8c09d73b2537
-index: y
-internal: n
-snippet: y
 ---
 
 # Style System{#style-system}

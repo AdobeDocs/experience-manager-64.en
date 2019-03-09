@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: adaptive_forms
 topic-tags: author
 discoiquuid: 2c3691df-18fb-4fb3-a46a-b9a1743dabb2
-index: y
-internal: n
-snippet: y
 ---
 
 # Using CAPTCHA in adaptive forms{#using-captcha-in-adaptive-forms}

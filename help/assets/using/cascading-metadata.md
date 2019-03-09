@@ -8,9 +8,6 @@ contentOwner: cmajumda
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: authoring
 discoiquuid: c28333dc-764a-46e2-9867-0f8ed83e6b61
-index: y
-internal: n
-snippet: y
 ---
 
 # Cascading Metadata{#cascading-metadata}
@@ -46,7 +43,7 @@ Irrespective of the asset type chosen, display the copyright information as a re
 
 1. (Optional) In the metadata schema editor, create a new field to conditionalize. Specify a name and property path in the **[!UICONTROL Settings]** tab.
 
-   To create a new tab, tap/click ****[!UICONTROL +]**** to add a tab and then add a metadata field.
+   To create a new tab, tap/click **[!UICONTROL +]** to add a tab and then add a metadata field.
 
    ![](assets/add_tab.png)
 

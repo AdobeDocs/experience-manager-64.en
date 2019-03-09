@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
 discoiquuid: 361092ce-1f24-43c3-8780-3c2cf2975c3a
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring LDAP with AEM 6{#configuring-ldap-with-aem}

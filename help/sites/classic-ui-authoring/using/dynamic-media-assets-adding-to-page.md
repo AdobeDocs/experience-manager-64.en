@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: authoring
 content-type: reference
 discoiquuid: f1f087bd-bdcc-4466-ae38-0f87387a4356
-index: y
-internal: n
-snippet: y
 ---
 
 # Adding Dynamic Media Assets to Pages{#adding-dynamic-media-assets-to-pages}

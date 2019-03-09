@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: d85c027d-dcc3-4a9c-be58-1ade050256f4
-index: y
-internal: n
-snippet: y
 ---
 
 # JSRP - JCR Storage Resource Provider{#jsrp-jcr-storage-resource-provider}
@@ -34,7 +31,7 @@ The [Storage Configuration console](../../communities/using/srp-config.md) allow
 
 In the author environment, to reach the Storage Configuration console
 
-* from global navigation : **Tools, Communities, Storage Configuration**
+* from global navigation :** Tools, Communities, Storage Configuration**
 
 ![](assets/chlimage_1-234.png)
 
@@ -47,7 +44,7 @@ While JSRP is the default configuration, to ensure the identical configuration i
 
 * on author :
 
-    * from global navigation : **Tools, Deployment, Replication**
+    * from global navigation :** Tools, Deployment, Replication**
     * select **Activate Tree**
     * **Start Path :**
 

@@ -10,9 +10,6 @@ topic-tags: authoring
 content-type: reference
 discoiquuid: 7c746207-a90f-41d9-99e8-d50026229e49
 noindex: true
-index: y
-internal: n
-snippet: y
 ---
 
 # Channel Level Activation - Single Event Playback{#channel-level-activation-single-event-playback}

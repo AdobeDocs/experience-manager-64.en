@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
 discoiquuid: 48592656-5de8-4bea-a10d-45b1f0f3d5b9
-index: y
-internal: n
-snippet: y
 ---
 
 # Using Quickviews to create custom pop-ups{#using-quickviews-to-create-custom-pop-ups}

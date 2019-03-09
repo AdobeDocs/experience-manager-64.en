@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 discoiquuid: 73ddc532-7760-4a50-a325-26807c8bea1e
-index: y
-internal: n
-snippet: y
 ---
 
 # SSL By Default{#ssl-by-default}

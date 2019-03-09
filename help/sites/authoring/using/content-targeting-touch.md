@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: personalization
 discoiquuid: 663fc03f-f0a0-4ec0-921e-f0becc584ed1
-index: y
-internal: n
-snippet: y
 ---
 
 # Authoring Targeted Content Using Targeting Mode{#authoring-targeted-content-using-targeting-mode}

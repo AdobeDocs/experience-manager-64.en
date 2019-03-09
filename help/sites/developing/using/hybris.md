@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: platform
 discoiquuid: 1953b7f8-cf49-4446-b5e5-0157e914c29f
-index: y
-internal: n
-snippet: y
 ---
 
 # Developing with hybris{#developing-with-hybris}
@@ -132,7 +129,7 @@ hybris uses a user session to store information such as the customer's shopping 
 
 #### CommerceSession {#commercesession}
 
-* This session "owns" the **s****hopping ****c****art**
+* This session "owns" the **shopping cart**
 
     * performs add/remove/etc
     * performs the various calculations on the cart;  
@@ -495,9 +492,9 @@ The `CommerceSession` owns the three elements:
 >`yourProject/commerce/components/shippingpicker`:
 >
 >* Essentially this could be a copy of `foundation/components/form/radio`, but with callbacks to the `CommerceSession` for: >
->    * Checking if the method is available
->    * Adding pricing information
->    * To enable shoppers to update the order page in AEM (including the superset of shipping methods and the text describing them), while still having the control to expose the relevant `CommerceSession` information.
+>* Checking if the method is available
+>* Adding pricing information
+>* To enable shoppers to update the order page in AEM (including the superset of shipping methods and the text describing them), while still having the control to expose the relevant `CommerceSession` information.
 >
 
 **Payment Processing**

@@ -7,9 +7,6 @@ uuid: e707a73f-317d-43fd-a3ac-bd9db43e0bbf
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
 discoiquuid: 4d1a81d0-6d59-43be-9e57-fcc68bff3b1a
-index: y
-internal: n
-snippet: y
 ---
 
 # Document Fragments{#document-fragments}
@@ -24,6 +21,6 @@ Document fragments are reusable parts/components of a correspondence using which
 
     * [Conditions in Interactive Communications](../../forms/using/conditions-interactive-communications.md)
 
-* **List: **List is a group of document fragments, including text, lists, conditions, and images. The order of the list elements can be fixed or editable. While creating a letter, you can use some or all the list elements to replicate a reusable pattern of elements.
+* **List:** List is a group of document fragments, including text, lists, conditions, and images. The order of the list elements can be fixed or editable. While creating a letter, you can use some or all the list elements to replicate a reusable pattern of elements.
 * **Layout fragment**: A layout fragment is a layout that can be used within one or more letters. A layout fragment is used to create repeatable patterns, especially dynamic tables. The layout can contain typical form fields such as “Address” and "Reference Number." It also contains empty sub forms that denote target areas. The layouts (XDPs) are created in Designer and then are uploaded to AEM Forms.
 

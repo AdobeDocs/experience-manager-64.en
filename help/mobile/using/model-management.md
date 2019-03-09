@@ -8,9 +8,6 @@ contentOwner: Jyotika Syal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 discoiquuid: b3e6ff8f-c638-4a16-a2c3-b74961aff3ee
-index: y
-internal: n
-snippet: y
 ---
 
 # Models Overview{#models-overview}

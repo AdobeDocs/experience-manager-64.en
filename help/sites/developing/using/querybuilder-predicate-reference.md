@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: platform
 discoiquuid: 0baeb7b8-d68d-4f5e-9cab-c36e532bd4ef
-index: y
-internal: n
-snippet: y
 ---
 
 # Query Builder Predicate Reference{#query-builder-predicate-reference}

@@ -6,9 +6,6 @@ seo-description: null
 uuid: f2954ed2-a2cd-45e2-8748-761479aa76d9
 contentOwner: alba
 discoiquuid: 59c2ccdb-ac88-4103-95aa-5887b1ae932f
-index: y
-internal: n
-snippet: y
 ---
 
 # Livefyre Feature Pack 2.0.6 Release Notes{#livefyre-feature-pack-release-notes}

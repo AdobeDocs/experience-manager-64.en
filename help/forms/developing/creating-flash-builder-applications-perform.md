@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: coding
 discoiquuid: df5b670b-49eb-4bf0-ac9d-3e313cb22cd1
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating Flash Builder applicationsthat perform SSO authentication using HTTP tokens{#creating-flash-builder-applicationsthat-perform-sso-authentication-using-http-tokens}

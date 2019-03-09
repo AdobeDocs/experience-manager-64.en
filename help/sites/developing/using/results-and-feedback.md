@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: testing
 content-type: reference
 discoiquuid: ff3fc494-bcde-40fd-b08f-aed4dafdf58a
-index: y
-internal: n
-snippet: y
 ---
 
 # Tracking results and providing feedback{#tracking-results-and-providing-feedback}

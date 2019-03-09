@@ -8,9 +8,6 @@ content-type: reference
 topic-tags: content-fragments
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: 94ae21b7-7462-422c-a630-e8ffa0c0a3d1
-index: y
-internal: n
-snippet: y
 ---
 
 # Content Fragment Models{#content-fragment-models}
@@ -85,7 +82,7 @@ The content fragment model effectively defines the structure of the resulting co
    Once open the model editor shows:
 
     * left: fields already defined
-    * right: **Data Types** available for creating fields (and **Properties** for use once fields have been created)
+    * right:** Data Types** available for creating fields (and **Properties** for use once fields have been created)
 
    >[!NOTE]
    >

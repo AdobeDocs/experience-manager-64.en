@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: platform
 discoiquuid: 5d024e3d-ef4b-4dd2-bd7c-7c1f6927a09e
-index: y
-internal: n
-snippet: y
 ---
 
 # eCommerce{#ecommerce}

@@ -8,9 +8,6 @@ contentOwner: jsyal
 discoiquuid: f511091e-4317-4525-b762-7129192b6a20
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/screens/using/offline-channels
-index: y
-internal: n
-snippet: y
 ---
 
 # REDIRECT Offline Channels{#redirect-offline-channels}

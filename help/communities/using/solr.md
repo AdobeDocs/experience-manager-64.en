@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: 77546166-b190-4140-9431-872e76ae60ca
-index: y
-internal: n
-snippet: y
 ---
 
 # Solr Configuration for SRP{#solr-configuration-for-srp}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
 discoiquuid: a0d02226-72c9-4a7a-a7ee-66c7959ce854
-index: y
-internal: n
-snippet: y
 ---
 
 # Image Sets{#image-sets}

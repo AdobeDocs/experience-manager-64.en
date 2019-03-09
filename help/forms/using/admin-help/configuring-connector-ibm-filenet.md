@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/connecting_to_a_content_management_system
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 5596777c-c339-4eb1-ae0a-cde78b84030b
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring Connector for IBM FileNet{#configuring-connector-for-ibm-filenet}
@@ -39,8 +36,8 @@ IBM FileNet P8 Content Engine provides software services for managing enterprise
 
 1. In the Credential Protection Scheme list, select one of these protection levels:
 
-    * **Clear: **Sends credentials across the network in an unprotected mode
-    * **Symmetric: **Sends encrypted credentials across the network
+    * **Clear:** Sends credentials across the network in an unprotected mode
+    * **Symmetric:** Sends encrypted credentials across the network
 
 1. In the Encryption File Location box, enter the path to the encryption file:
 

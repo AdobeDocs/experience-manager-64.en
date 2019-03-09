@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
 discoiquuid: e4efa90d-87f1-49bb-9ce1-7b9983213097
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring Segmentation{#configuring-segmentation}

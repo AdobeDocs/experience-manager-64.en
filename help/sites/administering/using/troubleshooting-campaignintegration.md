@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: 41aa7286-abf3-4ad1-88e7-56e6a88cad22
-index: y
-internal: n
-snippet: y
 ---
 
 # Troubleshooting your Adobe Campaign Integration{#troubleshooting-your-adobe-campaign-integration}

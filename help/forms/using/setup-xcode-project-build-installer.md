@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
 discoiquuid: 3ce18a36-f639-4c0b-8e9b-14eb66832051
-index: y
-internal: n
-snippet: y
 ---
 
 # Set up the Xcode project and build the iOS app{#set-up-the-xcode-project-and-build-the-ios-app}

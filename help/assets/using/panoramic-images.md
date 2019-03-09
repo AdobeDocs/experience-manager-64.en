@@ -9,9 +9,6 @@ topic-tags: dynamic-media
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
 discoiquuid: 4c742adf-26f3-447f-98ea-e62d4649066b
-index: y
-internal: n
-snippet: y
 ---
 
 # Panoramic Images{#panoramic-images}

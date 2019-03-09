@@ -9,9 +9,6 @@ topic-tags: headless
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 discoiquuid: e7ec9698-b401-4af4-a36f-4ccd00368b1c
 redirecttarget: https //www.adobe.com/content/dam/www/us/en/marketing/experience-manager-sites/headless-content-management-system/pdfs/aem-hybrid-architecture-wp-1-18-19.pdf
-index: y
-internal: n
-snippet: y
 ---
 
 # Headless and Hybrid with AEM{#headless-and-hybrid-with-aem}

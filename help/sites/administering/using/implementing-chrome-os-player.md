@@ -8,9 +8,6 @@ contentOwner: jsyal
 discoiquuid: 03e5a29c-6ca6-4c9e-b13b-ae670ce1702b
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/screens/using/implementing-chrome-os-player
-index: y
-internal: n
-snippet: y
 ---
 
 # REDIRECT Implementing Chrome OS Player{#redirect-implementing-chrome-os-player}

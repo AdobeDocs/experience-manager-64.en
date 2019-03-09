@@ -9,9 +9,6 @@ topic-tags: 3D
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: 71c24a08-fe60-4d72-8a20-b402d7301ec2
-index: y
-internal: n
-snippet: y
 ---
 
 # Resolving file dependencies{#resolving-file-dependencies}

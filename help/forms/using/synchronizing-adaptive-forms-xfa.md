@@ -7,9 +7,6 @@ uuid: a20b5450-97c1-4a42-9abb-dd18d7643e90
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: 11b6a3f6-83a2-432d-97ad-9cdea0337b6c
-index: y
-internal: n
-snippet: y
 ---
 
 # Synchronizing Adaptive Forms with XFA Form Templates{#synchronizing-adaptive-forms-with-xfa-form-templates}

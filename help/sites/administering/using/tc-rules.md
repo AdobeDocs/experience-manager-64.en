@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features
 content-type: reference
 discoiquuid: 4c43cdfd-1339-47ac-9f52-ea4a6d44e5ff
-index: y
-internal: n
-snippet: y
 ---
 
 # Identifying Content to Translate{#identifying-content-to-translate}

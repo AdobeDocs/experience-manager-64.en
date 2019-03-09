@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
 discoiquuid: 8952594e-1073-4367-b435-41bb2517ad3e
-index: y
-internal: n
-snippet: y
 ---
 
 # Customizing Pages shown by the Error Handler{#customizing-pages-shown-by-the-error-handler}

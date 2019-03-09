@@ -7,9 +7,6 @@ page-status-flag: never-activated
 uuid: b4fffdc6-813c-407f-9133-5d1296bfe542
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: a2923a8d-b886-43bd-acfe-1f74aec6c5ab
-index: y
-internal: n
-snippet: y
 ---
 
 # DO NOT PUBLISH - Changing the template applied to an adaptive form{#do-not-publish-changing-the-template-applied-to-an-adaptive-form}

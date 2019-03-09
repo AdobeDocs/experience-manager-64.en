@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features
 content-type: reference
 discoiquuid: d96022d1-02af-4206-a9eb-84092945eabb
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating and Synchronizing Live Copies{#creating-and-synchronizing-live-copies}

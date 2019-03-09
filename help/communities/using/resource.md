@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: introduction
 content-type: reference
 discoiquuid: 9ddc9cdb-3fc1-4818-ac08-0f3ff6e7c3c8
-index: y
-internal: n
-snippet: y
 ---
 
 # Create and Assign Enablement Resources{#create-and-assign-enablement-resources}
@@ -90,7 +87,7 @@ Upload a Resource. If a video resource, either upload a custom image to display 
 * **Resource Expert** 
   *(Optional)* Leave blank.
 
-****Note**** ****: if users or groups are not visible, check that they were added to the `Community Enable Members` group and *Saved *on the publish instance.
+**Note**: if users or groups are not visible, check that they were added to the `Community Enable Members` group and *Saved* on the publish instance.
 
 ![](assets/chlimage_1-206.png)
 

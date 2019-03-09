@@ -7,9 +7,6 @@ uuid: e97dde88-8e28-4758-9f6f-03c0785e50cf
 topic-tags: interactive-communications
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: a16aa640-8d13-4c0d-ae42-42f417b20fe4
-index: y
-internal: n
-snippet: y
 ---
 
 # Prepare and send Interactive Communication using the Agent UI{#prepare-and-send-interactive-communication-using-the-agent-ui}

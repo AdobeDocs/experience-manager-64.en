@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: developing-adobe-phonegap-enterprise
 discoiquuid: 1a56933f-e51c-4ed8-866b-b01f440bf7c6
-index: y
-internal: n
-snippet: y
 ---
 
 # Developing Apps with PhoneGap CLI{#developing-apps-with-phonegap-cli}

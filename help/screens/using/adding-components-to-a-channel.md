@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: authoring
 discoiquuid: cdc4f03c-41bd-4faa-8d5c-0aa4fe6698fa
-index: y
-internal: n
-snippet: y
 ---
 
 # Adding Components to a Channel{#adding-components-to-a-channel}

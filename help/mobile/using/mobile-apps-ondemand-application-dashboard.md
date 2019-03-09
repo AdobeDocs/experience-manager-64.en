@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: authoring-on-demand-services-app
 discoiquuid: a44533f3-b92a-4a27-be1e-c51ecdc39d52
-index: y
-internal: n
-snippet: y
 ---
 
 # AEM Mobile Application Dashboard{#aem-mobile-application-dashboard}

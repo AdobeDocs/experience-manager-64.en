@@ -9,9 +9,6 @@ topic-tags: introduction
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: interactive-communications
 discoiquuid: c24f5158-12f2-4647-9d4a-1328c3785e6f
-index: y
-internal: n
-snippet: y
 ---
 
 # Tutorial: Create your first Interactive Communication{#tutorial-create-your-first-interactive-communication}

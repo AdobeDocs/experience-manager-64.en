@@ -10,9 +10,6 @@ geptopics: SG_AEMFORMS/categories/rendering_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: 7df5c9e5-f6b2-4fa9-9c7e-d9a728134dc2
-index: y
-internal: n
-snippet: y
 ---
 
 # Passing Documents to the FormsService{#passing-documents-to-the-formsservice}

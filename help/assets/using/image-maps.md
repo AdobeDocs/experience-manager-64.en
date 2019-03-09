@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
 topic-tags: authoring
 discoiquuid: 72ddff45-fa0d-4855-9f09-4e9edaca9880
-index: y
-internal: n
-snippet: y
 ---
 
 # Adding Image Maps{#adding-image-maps}

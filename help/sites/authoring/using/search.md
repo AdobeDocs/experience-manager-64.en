@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
 discoiquuid: dd3649fd-910b-4776-a565-b9bc1149e9e9
-index: y
-internal: n
-snippet: y
 ---
 
 # Search{#search}
@@ -76,8 +73,8 @@ To search and filter your resources:
    >
    >    
    >    
-   >    * Depending on the resource type you have selected; for example, the Assets and Communities criteria are understandably specialized.
-   >    * Your instance as the [Search Forms](../../../sites/administering/using/search-forms.md) can be customized (appropriate to the location within AEM).
+   >* Depending on the resource type you have selected; for example, the Assets and Communities criteria are understandably specialized.
+   >* Your instance as the [Search Forms](../../../sites/administering/using/search-forms.md) can be customized (appropriate to the location within AEM).
    >    
    >
 

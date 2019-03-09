@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
 discoiquuid: e005d9ee-dc7d-45fc-a43d-cf5de4e0640c
-index: y
-internal: n
-snippet: y
 ---
 
 # Developing and Extending Workflows{#developing-and-extending-workflows}

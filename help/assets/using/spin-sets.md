@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
 discoiquuid: 540498ae-1971-462d-b36b-a9d04a05ce90
-index: y
-internal: n
-snippet: y
 ---
 
 # Spin Sets{#spin-sets}
@@ -207,7 +204,7 @@ You can perform a variety of editing tasks on Spin Sets such as the following:
    >
    >    
    >    
-   >    * You can edit the images in a Spin Set by navigating to the set, tap **Set Members** in the left rail, and then tap the Pencil icon on an individual asset to open the editing window.
+   >* You can edit the images in a Spin Set by navigating to the set, tap **Set Members** in the left rail, and then tap the Pencil icon on an individual asset to open the editing window.
    >    
    >
 

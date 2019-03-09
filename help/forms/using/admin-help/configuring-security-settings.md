@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_pdf_generator
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: e833fd8b-f01c-4bf4-af77-fa711da04f8a
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring security settings{#configuring-security-settings}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: d58767a3-8327-4d01-8b0e-94fa47a5092e
-index: y
-internal: n
-snippet: y
 ---
 
 # Alter the Appearance{#alter-the-appearance}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
 discoiquuid: f5b52be5-6f9c-488a-9181-3711cd906a64
-index: y
-internal: n
-snippet: y
 ---
 
 # Service Users in AEM{#service-users-in-aem}

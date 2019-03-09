@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
 discoiquuid: bd1771a6-e603-47e3-a47b-4847b14579b2
-index: y
-internal: n
-snippet: y
 ---
 
 # JCR Integration{#jcr-integration}

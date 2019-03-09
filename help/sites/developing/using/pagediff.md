@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
 discoiquuid: 1ca9cdcc-946c-4d3e-9266-cbe2873168ac
-index: y
-internal: n
-snippet: y
 ---
 
 # Developing and Page Diff{#developing-and-page-diff}

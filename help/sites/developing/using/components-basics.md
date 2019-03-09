@@ -10,9 +10,6 @@ topic-tags: components
 content-type: reference
 discoiquuid: bb692fb8-8a86-4064-9d38-b5625b8f8a42
 legacypath: /content/docs/en/aem/6-0/develop/components/components-develop
-index: y
-internal: n
-snippet: y
 ---
 
 # AEM Components - The Basics{#aem-components-the-basics}
@@ -1027,9 +1024,9 @@ The `cq:listeners` node (node type `cq:EditListenersConfig`) defines what happen
 
 >
 >* For nested components, the values of the following properties *must* be `REFRESH_PAGE`: >
->    * `aftermove`  
+>* `aftermove`  
 >    
->    * `aftercopy` ``  
+>* `aftercopy` ``  
 >
 
 The event handler can be implemented with a custom implementation. For example (where `project.customerAction` is a static method):

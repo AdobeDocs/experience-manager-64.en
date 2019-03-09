@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: 14d8e670-dd12-40b7-9423-7a0bac13a798
-index: y
-internal: n
-snippet: y
 ---
 
 # AEM Forms workspace JSON object description{#aem-forms-workspace-json-object-description}

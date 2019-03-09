@@ -7,9 +7,6 @@ uuid: 203c9922-8119-4f4f-bb36-d907c22d0adb
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: integration
 discoiquuid: e72b37cc-a81b-4576-9533-ccb7d91de8bc
-index: y
-internal: n
-snippet: y
 ---
 
 # Work with form data model{#work-with-form-data-model}

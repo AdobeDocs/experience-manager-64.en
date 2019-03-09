@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
 discoiquuid: 9a0788d5-13b4-464c-9887-8140a9ae029e
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating a New Granite UI Field Component{#creating-a-new-granite-ui-field-component}

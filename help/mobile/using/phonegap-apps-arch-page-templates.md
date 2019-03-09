@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: developing-adobe-phonegap-enterprise
 discoiquuid: fe2e48f2-e992-4fa4-9cb6-7cf34287fa0d
-index: y
-internal: n
-snippet: y
 ---
 
 # Page Templates for Mobile Apps{#page-templates-for-mobile-apps}

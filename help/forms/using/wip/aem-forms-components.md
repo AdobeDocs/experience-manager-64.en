@@ -9,9 +9,6 @@ contentOwner: sashanka
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 content-type: reference
 discoiquuid: b1716202-aa2a-4e84-b3bf-5bb08ec6d436
-index: y
-internal: n
-snippet: y
 ---
 
 # DO NOT PUBLISH - AEM Forms Components{#do-not-publish-aem-forms-components}

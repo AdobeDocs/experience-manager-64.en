@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: personalization
 discoiquuid: ea2ccf15-93fb-4c74-a36a-18b88ec66d21
-index: y
-internal: n
-snippet: y
 ---
 
 # Working with Adobe Campaign{#working-with-adobe-campaign}

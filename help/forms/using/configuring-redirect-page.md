@@ -7,9 +7,6 @@ uuid: 18a0e9d7-48aa-45b3-98c3-9385fbe1c90b
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
 discoiquuid: 22be942f-017c-4ab8-8909-77551c93b4b3
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring redirect page{#configuring-redirect-page}

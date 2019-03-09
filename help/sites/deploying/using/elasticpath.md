@@ -10,9 +10,6 @@ topic-tags: e-commerce
 content-type: reference
 discoiquuid: 3154f545-81a5-4d54-a3d9-9cfa5f9ce2e3
 pagetitle: Deploying eCommerce with Elastic Path
-index: y
-internal: n
-snippet: y
 ---
 
 # Elastic Path{#elastic-path}

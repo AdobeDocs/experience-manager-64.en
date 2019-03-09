@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: 18c09216-b631-4600-a526-1e4194716df6
-index: y
-internal: n
-snippet: y
 ---
 
 # Create the Components{#create-the-components}
@@ -69,7 +66,7 @@ The deletion of the auto-created JSP file is because the default HBS file will b
     * Select **Next**
     * Select **OK**
 
-1. Expand the node just created : **/apps/custom/components/comments**
+1. Expand the node just created :** /apps/custom/components/comments**
 1. Select **Save All**
 1. Right-click **comments.jsp**
 1. Select **Delete**
@@ -103,7 +100,7 @@ The deletion of the auto-created JSP file is because the default HBS file will b
     * Select **Next**
     * Select **OK**
 
-1. Expand the node just created : **/apps/custom/components/comments/comment**
+1. Expand the node just created :** /apps/custom/components/comments/comment**
 1. Select **Save All**
 1. Right-click **comment.jsp**
 1. Select **Delete**

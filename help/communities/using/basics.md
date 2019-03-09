@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
 discoiquuid: 2eb7781d-96dd-416c-8abe-75ee01f9a85d
-index: y
-internal: n
-snippet: y
 ---
 
 # Communities Components Basics{#communities-components-basics}

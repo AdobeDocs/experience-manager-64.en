@@ -8,9 +8,6 @@ uuid: fa80550a-0b99-42f2-aa11-0d61e3211cd6
 contentOwner: sashanka
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: da137a96-2737-464e-aeba-b9d2c5fb780c
-index: y
-internal: n
-snippet: y
 ---
 
 # DO NOT PUBLISH - New states in Theme Editor{#do-not-publish-new-states-in-theme-editor}

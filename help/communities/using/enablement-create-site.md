@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: introduction
 content-type: reference
 discoiquuid: 410a7222-2a3c-4154-b606-e953f4611462
-index: y
-internal: n
-snippet: y
 ---
 
 # Author a New Community Site for Enablement{#author-a-new-community-site-for-enablement}

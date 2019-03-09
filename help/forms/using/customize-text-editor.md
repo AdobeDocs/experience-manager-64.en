@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
 discoiquuid: f80ffdfd-d42b-4395-b415-b15784a6f147
-index: y
-internal: n
-snippet: y
 ---
 
 # Customize text editor{#customize-text-editor}

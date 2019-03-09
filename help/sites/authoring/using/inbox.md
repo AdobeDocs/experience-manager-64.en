@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
 discoiquuid: 3bd5e576-7c8c-4958-b3d2-1061b2c699e3
-index: y
-internal: n
-snippet: y
 ---
 
 # Your Inbox{#your-inbox}
@@ -159,7 +156,7 @@ For both views (List and Calendar) you can define settings:
    >
    >    
    >    
-   >    * Workflow items - [Participating in Workflows](../../../sites/authoring/using/workflows-participating.md)
+   >* Workflow items - [Participating in Workflows](../../../sites/authoring/using/workflows-participating.md)
    >    
    >
 

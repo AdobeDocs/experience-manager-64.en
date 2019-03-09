@@ -10,9 +10,6 @@ topic-tags: mobile-web
 content-type: reference
 discoiquuid: 135d3738-b9d2-44cb-9ad0-308c77fb632b
 legacypath: /content/docs/en/aem/6-0/develop/mobile/responsive
-index: y
-internal: n
-snippet: y
 ---
 
 # Responsive Design for Web Pages{#responsive-design-for-web-pages}
@@ -154,7 +151,7 @@ Include the client library folder in the JSP script of your page component to ge
 <ui:includeClientLib categories="apps.weretail.all"/>
 ```
 
-**Note: **the apps.weretail.all client library folder embeds the clientlibs library.
+**Note:** the apps.weretail.all client library folder embeds the clientlibs library.
 
 The JSP script generates the following HTML code that references the style sheets:
 
@@ -292,7 +289,7 @@ Obtain the following javascript libraries and include them in a client library f
 * jquery.js (avaliable via the /etc/clientlibs/granite/jquery client library folder (category = jquery)
 * [jquery.debouncedresize.js](https://github.com/louisremi/jquery-smartresize) (a jquery event that occurs once after the window is resized)
 
-**Tip: **You can automatically concatenate multiple client library folders by [embedding](../../../sites/developing/using/clientlibs.md#embedding-code-from-other-libraries).
+**Tip:** You can automatically concatenate multiple client library folders by [embedding](../../../sites/developing/using/clientlibs.md#embedding-code-from-other-libraries).
 
 **HTML**
 

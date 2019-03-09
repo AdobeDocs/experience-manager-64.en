@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: 6cfc0e28-f92e-4b62-b28a-d8c95109ff01
-index: y
-internal: n
-snippet: y
 ---
 
 # Integrating with Adobe Creative Cloud{#integrating-with-adobe-creative-cloud}

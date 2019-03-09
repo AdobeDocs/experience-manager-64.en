@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
 discoiquuid: 022f5eee-af04-4b21-9f2e-f03aab55e4d8
-index: y
-internal: n
-snippet: y
 ---
 
 # AEM to Creative Cloud Folder Sharing Best Practices{#aem-to-creative-cloud-folder-sharing-best-practices}

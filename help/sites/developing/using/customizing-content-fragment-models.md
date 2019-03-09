@@ -8,9 +8,6 @@ uuid: f1ebe676-7ea9-471e-a45d-6641f899a48c
 contentOwner: aheimoz
 discoiquuid: cebaa5fd-fded-4d47-ac2f-b0cc138a8e3a
 noindex: true
-index: y
-internal: n
-snippet: y
 ---
 
 # DO NOT PUBLISH, BUT DO NOT DELETE Customizing Content Fragment Models{#do-not-publish-but-do-not-delete-customizing-content-fragment-models}

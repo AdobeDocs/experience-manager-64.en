@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
 discoiquuid: 5c85cf8f-c9d0-4419-a089-5d030a41a09b
-index: y
-internal: n
-snippet: y
 ---
 
 # Video{#video}
@@ -884,9 +881,9 @@ To monitor progress (including failed encoding/YouTube publish):
    >
    >    
    >    
-   >    * Apache Sling Job Queue Configuration
-   >    * Adobe Granite Workflow External Process Job Handler
-   >    * Granite Workflow Timeout Queue
+   >* Apache Sling Job Queue Configuration
+   >* Adobe Granite Workflow External Process Job Handler
+   >* Granite Workflow Timeout Queue
    >    
    >    
    >You may adjust the **retries**, **retry delay**, and **timeout** properties in these configurations.
@@ -919,9 +916,9 @@ To monitor progress (including failed encoding/YouTube publish):
    >
    >    
    >    
-   >    * Apache Sling Job Queue Configuration
-   >    * Adobe Granite Workflow External Process Job Handler
-   >    * Granite Workflow Timeout Queue
+   >* Apache Sling Job Queue Configuration
+   >* Adobe Granite Workflow External Process Job Handler
+   >* Granite Workflow Timeout Queue
    >    
    >    
    >You may adjust the **retries**, **retry delay**, and **timeout** properties in these configurations.

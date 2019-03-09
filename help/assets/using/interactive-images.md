@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
 discoiquuid: 83f913dc-8aa7-403d-9585-8957f77c013d
-index: y
-internal: n
-snippet: y
 ---
 
 # Interactive Images{#interactive-images}

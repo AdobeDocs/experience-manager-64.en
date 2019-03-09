@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: df943663-2d7b-4891-a354-907980ae3f13
-index: y
-internal: n
-snippet: y
 ---
 
 # FFmpeg for Communities{#ffmpeg-for-communities}
@@ -49,7 +46,7 @@ As the transcodings are CPU intensive, it is recommended to modify the list of t
 To modify the DAM Update Asset workflow, and in this example, to turn off transcoding :
 
 * sign into the author instance with administrative privileges
-* from global navigation : **Tools, Workflow, Models**
+* from global navigation :** Tools, Workflow, Models**
 * locate **DAM Update Asset**
 * double-click to open the workflow for edit in the Classic UI  
   resulting location : [http://localhost:4502/cf#/etc/workflow/models/dam/update_asset.html](http://localhost:4502/cf#/etc/workflow/models/dam/update_asset.html)

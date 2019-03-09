@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
 discoiquuid: d5ed7b29-b8e0-45e2-94a0-f53b425aca4c
-index: y
-internal: n
-snippet: y
 ---
 
 # Set up the Visual Studio project and build the Windows app{#set-up-the-visual-studio-project-and-build-the-windows-app}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
 topic-tags: authoring
 discoiquuid: 35c84706-67fe-436e-8e5e-10d1576f2254
-index: y
-internal: n
-snippet: y
 ---
 
 # Review folder assets and collections{#review-folder-assets-and-collections}

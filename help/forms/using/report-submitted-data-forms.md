@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: publish
 topic-tags: developer-reference
 discoiquuid: 17f1b733-ff80-4e66-9eca-552e314a55e2
-index: y
-internal: n
-snippet: y
 ---
 
 # APIs to work with submitted forms on forms portal{#apis-to-work-with-submitted-forms-on-forms-portal}

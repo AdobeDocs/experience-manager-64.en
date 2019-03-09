@@ -7,9 +7,6 @@ page-status-flag: never-activated
 uuid: c17763d5-cd6a-426f-8021-229764325321
 contentOwner: jsyal
 discoiquuid: 89fa6e28-d996-41f7-8372-b742b7a57e24
-index: y
-internal: n
-snippet: y
 ---
 
 # Data Driven Events{#data-driven-events}

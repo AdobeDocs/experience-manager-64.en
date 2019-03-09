@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: 48be14a1-d8ed-46f6-8c73-93de33238089
-index: y
-internal: n
-snippet: y
 ---
 
 # Site Templates{#site-templates}
@@ -26,7 +23,7 @@ The Site Templates console is very similar to the [Group Templates](../../commun
 
 In the author environment, to reach the community sites console
 
-* from global navigation : **Tools, Communities, Site Templates**
+* from global navigation :** Tools, Communities, Site Templates**
 
 This console displays the templates from which a [community site](../../communities/using/sites-console.md) can be created and allows new site templates to be created.
 

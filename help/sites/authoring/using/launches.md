@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
 discoiquuid: 1c58a24a-7e30-4321-85c9-4d6654b617fe
-index: y
-internal: n
-snippet: y
 ---
 
 # Launches{#launches}
@@ -106,7 +103,7 @@ Launches allow you to:
 
 The Launches console provides an overview of your launches and allows you to take actions on those listed. The console can be accessed by:
 
-* The **Tools** Console: **Tools**, **Sites**, **Launches**.
+* The **Tools** Console:** Tools**, **Sites**, **Launches**.
 
 * Or directly with [http://localhost:4502/libs/launches/content/launches.html](http://localhost:4502/libs/launches/content/launches.html)
 

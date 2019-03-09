@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
 discoiquuid: 7e20c050-c309-49d7-9933-a302fe2bf470
-index: y
-internal: n
-snippet: y
 ---
 
 # Saving an HTML5 form as a draft{#saving-an-html-form-as-a-draft}

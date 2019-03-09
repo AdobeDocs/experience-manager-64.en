@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
 discoiquuid: 3d0ea06f-402a-4cfb-84df-7991a1cc5c35
-index: y
-internal: n
-snippet: y
 ---
 
 # User Administration and Security{#user-administration-and-security}

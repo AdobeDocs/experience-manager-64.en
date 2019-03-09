@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
 discoiquuid: 99933930-bf8e-4f7b-a83d-a10a0e093669
-index: y
-internal: n
-snippet: y
 ---
 
 # Authoring a Page for Mobile Devices{#authoring-a-page-for-mobile-devices}

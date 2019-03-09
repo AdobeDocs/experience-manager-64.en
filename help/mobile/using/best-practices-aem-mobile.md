@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: developing-on-demand-services-app
 discoiquuid: 42e4e7cc-2068-491d-ab25-9972ca305b12
-index: y
-internal: n
-snippet: y
 ---
 
 # Best Practices{#best-practices}

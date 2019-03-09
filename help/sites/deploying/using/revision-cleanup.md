@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
 discoiquuid: b886f0ab-e6e8-419c-bb1a-70aeb10f321d
-index: y
-internal: n
-snippet: y
 ---
 
 # Revision Cleanup{#revision-cleanup}
@@ -24,7 +21,7 @@ With AEM 6.3 an online version of this functionality called Online Revision Clea
 
 **Note**: [See the Video](https://helpx.adobe.com/experience-manager/kt/platform-repository/using/revision-cleanup-technical-video-use.html) for an introduction and how to use Online Revision Cleanup.
 
-The revision cleanup process consists of three phases: **estimation**, **compaction** and **clean up**. Estimation determines whether to run the next phase (compaction) or not based on how much garbage might be collected. During the compaction phase segments and tar files are rewritten leaving out any unused content. The clean up phase subsequently removes the old segments including any garbage they may contain. The offline mode can usually reclaim more space because the online mode needs to account for AEM's working set which retains additional segments from being collected.
+The revision cleanup process consists of three phases:** estimation**, **compaction** and **clean up**. Estimation determines whether to run the next phase (compaction) or not based on how much garbage might be collected. During the compaction phase segments and tar files are rewritten leaving out any unused content. The clean up phase subsequently removes the old segments including any garbage they may contain. The offline mode can usually reclaim more space because the online mode needs to account for AEM's working set which retains additional segments from being collected.
 
 For more details regarding Revision Cleanup, see the following links:
 

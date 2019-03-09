@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: d83edb9b-d5f0-44a7-82f4-1d26b8738fdb
-index: y
-internal: n
-snippet: y
 ---
 
 # SRP and UGC Essentials{#srp-and-ugc-essentials}

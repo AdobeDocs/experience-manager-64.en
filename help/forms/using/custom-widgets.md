@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
 discoiquuid: 7ccb55d2-168f-4707-b75f-e150fce45c27
-index: y
-internal: n
-snippet: y
 ---
 
 # Create custom appearances in HTML5 forms{#create-custom-appearances-in-html-forms}

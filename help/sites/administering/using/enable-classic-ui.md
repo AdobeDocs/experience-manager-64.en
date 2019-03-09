@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
 discoiquuid: 77355a51-37e1-4cd5-bedc-c51f712acd94
-index: y
-internal: n
-snippet: y
 ---
 
 # Enabling Access to Classic UI{#enabling-access-to-classic-ui}

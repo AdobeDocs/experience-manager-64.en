@@ -10,9 +10,6 @@ topic-tags: administering
 content-type: reference
 discoiquuid: 8b823ee1-6100-4f23-88d8-72db1d818a6d
 legacypath: /content/docs/en/aem/6-2/author/assets/managing-assets-touch-ui/drm
-index: y
-internal: n
-snippet: y
 ---
 
 # Digital Rights Management in Assets{#digital-rights-management-in-assets}

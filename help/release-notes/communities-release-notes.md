@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4
 topic-tags: release-notes
 content-type: reference
 discoiquuid: 98d8f68f-f450-4a97-83bc-e2f1b01fcdf4
-index: y
-internal: n
-snippet: y
 ---
 
 # AEM Communities Release Notes{#aem-communities-release-notes}

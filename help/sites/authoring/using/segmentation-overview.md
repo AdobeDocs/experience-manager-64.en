@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: personalization
 discoiquuid: 990a3957-8d71-4ba2-b259-ff47c1b67d34
-index: y
-internal: n
-snippet: y
 ---
 
 # Understanding Segmentation{#understanding-segmentation}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: personalization
 discoiquuid: 67d1ecff-5716-4525-b7df-47b5069d0d04
-index: y
-internal: n
-snippet: y
 ---
 
 # Personalization{#personalization}

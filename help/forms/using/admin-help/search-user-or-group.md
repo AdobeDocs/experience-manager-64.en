@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/setting_up_and_organizing_users
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: aca576ff-4ab1-4ee2-a552-812b7922beba
-index: y
-internal: n
-snippet: y
 ---
 
 # Search for a user or group{#search-for-a-user-or-group}

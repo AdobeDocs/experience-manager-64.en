@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 content-type: reference
 topic-tags: authoring
 discoiquuid: de2932de-ca7d-47ac-a9ac-378d7d962baa
-index: y
-internal: n
-snippet: y
 ---
 
 # Asset Reports{#asset-reports}

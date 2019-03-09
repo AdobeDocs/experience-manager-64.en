@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
 discoiquuid: 12e2f291-690a-4fea-9638-683d974e7d33
-index: y
-internal: n
-snippet: y
 ---
 
 # Asset link sharing{#asset-link-sharing}
@@ -49,9 +46,9 @@ To generate the URL for assets you want to share with users, use the Link Sharin
    >
    >    
    >    
-   >    * &lt;AEM Server&gt;/linkshare.html
-   >    * &lt;AEM Server&gt;/linksharepreview.html
-   >    * &lt;AEM Server&gt;/linkexpired.html
+   >* &lt;AEM Server&gt;/linkshare.html
+   >* &lt;AEM Server&gt;/linksharepreview.html
+   >* &lt;AEM Server&gt;/linkexpired.html
    >    
    >    
    >Block other URLs to ensure that your Author instance is secure.
@@ -111,13 +108,13 @@ To generate the URL for assets you want to share with users, use the Link Sharin
    >
    >    
    >    
-   >    * JPG
-   >    * PNG
-   >    * GIF
-   >    * BMP
-   >    * INDD
-   >    * PDF
-   >    * PPT
+   >* JPG
+   >* PNG
+   >* GIF
+   >* BMP
+   >* INDD
+   >* PDF
+   >* PPT
    >    
    >    
    >For assets of other MIME types, you can only download the assets.

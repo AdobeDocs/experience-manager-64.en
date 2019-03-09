@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
 discoiquuid: 29a21a6e-ce70-434e-a0ba-ea267fa663d7
-index: y
-internal: n
-snippet: y
 ---
 
 # Logging in to AEM Forms app{#logging-in-to-aem-forms-app}
@@ -28,8 +25,8 @@ When you start your AEM Forms app, you first need to provide your login credenti
    >
    >    
    >    
-   >    * To display the list of server URLs, click the list arrow at the right corner of the Server URL text box.
-   >    * You can the select a AEM Forms server URL to log in to via the app.
+   >* To display the list of server URLs, click the list arrow at the right corner of the Server URL text box.
+   >* You can the select a AEM Forms server URL to log in to via the app.
    >    
    >
 

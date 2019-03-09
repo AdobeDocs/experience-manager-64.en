@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
 discoiquuid: dae0b712-a73c-4aef-855e-21a7486d3693
-index: y
-internal: n
-snippet: y
 ---
 
 # Embedding the Video or Image Viewer on a Web Page{#embedding-the-video-or-image-viewer-on-a-web-page}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
 discoiquuid: 5f19c785-c1bf-4130-aab1-7a8af0acab8f
-index: y
-internal: n
-snippet: y
 ---
 
 #  Adobe IMS Authentication and Admin Console Support for AEM Managed Services {#adobe-ims-authentication-and-admin-console-support-for-aem-managed-services}

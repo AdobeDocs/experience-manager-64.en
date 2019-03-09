@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: e-commerce
 content-type: reference
 discoiquuid: 5cac5bdf-7d59-4511-b6db-67b2635074fe
-index: y
-internal: n
-snippet: y
 ---
 
 # Administering generic eCommerce{#administering-generic-ecommerce}
@@ -658,7 +655,7 @@ In the demo site (Geometrixx Outdoors - English) you can see the voucher form on
 
    ![](do-not-localize/chlimage_1-26.png)
 
-1. The wizard will open. Use the **Basic**, **Content**, **Payment** and **Fulfilment** tabs**** to enter the [information about the new order](../../../sites/administering/using/concepts.md#order-information).  
+1. The wizard will open. Use the **Basic**, **Content**, **Payment** and **Fulfilment** tabs to enter the [information about the new order](../../../sites/administering/using/concepts.md#order-information).  
 
 1. Select **Create** to save the information.
 

@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/get_started_with_administering_aem_forms_on_jee
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 247efe73-c736-4478-8187-78d943c1ca79
-index: y
-internal: n
-snippet: y
 ---
 
 # Update the license type for the deployment{#update-the-license-type-for-the-deployment}
@@ -38,10 +35,10 @@ The Change License page displays information about your license:
 1. On the Change License page, select a license type:
 
     * **EVAL:** 60-day evaluation license
-    * **DEV: **Perpetual development license
+    * **DEV:** Perpetual development license
     * **NFR:** 2-year evaluation license
     * **IDEV:** 1-year subscription to the Adobe Developer Program
-    * **Production: **Perpetual license
+    * **Production:** Perpetual license
 
 1. Select Yes, License Change Is Valid for All Deployed Modules.
 1. Click Confirm License Change. A message appears, stating that the license was updated successfully.

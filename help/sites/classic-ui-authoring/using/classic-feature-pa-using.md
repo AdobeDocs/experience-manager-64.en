@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
 discoiquuid: e674d192-b2bc-4654-a329-2ba63f22a00a
-index: y
-internal: n
-snippet: y
 ---
 
 # Seeing Page Analytics Data{#seeing-page-analytics-data}

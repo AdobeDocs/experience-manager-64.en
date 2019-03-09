@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/maintaining_the_application_server
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 051a134c-4e1c-4e5d-83f1-4d4599be6df0
-index: y
-internal: n
-snippet: y
 ---
 
 # Application server websites{#application-server-websites}

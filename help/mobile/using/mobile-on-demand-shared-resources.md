@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: authoring-on-demand-services-app
 discoiquuid: ca88f0be-ad8e-4e46-a2cf-324755717901
-index: y
-internal: n
-snippet: y
 ---
 
 # Uploading Shared Resources{#uploading-shared-resources}

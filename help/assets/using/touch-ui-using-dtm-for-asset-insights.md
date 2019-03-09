@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference
 discoiquuid: 37f728e7-0df0-4853-82ae-192933bf297a
-index: y
-internal: n
-snippet: y
 ---
 
 # Enabling Asset Insights through DTM{#enabling-asset-insights-through-dtm}
@@ -52,10 +49,10 @@ Perform these steps to enable Asset Insights through DTM:
    >
    >    
    >    
-   >    * AppMeasurement.js has been removed. It is expected to be available through DTM's Adobe Analytics tool.
-   >    * The call to `assetAnalytics.dispatcher.init`() is removed. The function is expected to be called once DTM's Adobe Analytics tool finishes loading.
-   >    * Depending on where Asset Insights Page Tracker is hosted (for example AEM, CDN and so on), the origin of the script source may require changes.
-   >    * For AEM-hosted Page Tracker, the source should point to a publish instance using the host name of the dispatcher instance.
+   >* AppMeasurement.js has been removed. It is expected to be available through DTM's Adobe Analytics tool.
+   >* The call to `assetAnalytics.dispatcher.init`() is removed. The function is expected to be called once DTM's Adobe Analytics tool finishes loading.
+   >* Depending on where Asset Insights Page Tracker is hosted (for example AEM, CDN and so on), the origin of the script source may require changes.
+   >* For AEM-hosted Page Tracker, the source should point to a publish instance using the host name of the dispatcher instance.
    >    
    >
 

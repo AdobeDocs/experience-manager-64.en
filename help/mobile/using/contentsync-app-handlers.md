@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: developing-adobe-phonegap-enterprise
 discoiquuid: 203491ed-9151-452d-a7b2-f2e0b984e781
-index: y
-internal: n
-snippet: y
 ---
 
 # Out of the Box App Handlers{#out-of-the-box-app-handlers}
@@ -125,8 +122,8 @@ This handler should be used on a AEM App Shell ContentSync config (node with pge
 
 * ***type - String* - **widgetconfig
 * ***path** - **String*** - Path to any app shell child node (node with pge-type=[app-instance]).
-* ***targetRootDirectory - String*** -** **the prefix to add to paths as a target root for content update for this handler.
-* ***targetIconDirectory - String*** - ****the directory to place the icons for the app
+* ***targetRootDirectory - String*** - the prefix to add to paths as a target root for content update for this handler.
+* ***targetIconDirectory - String*** - the directory to place the icons for the app
 
 **mobileADBMobileConfigJSON** Include the ADBMobileConfig.JSON file if the AMS cloudservice was configured.
 
@@ -134,9 +131,9 @@ This is used at compile time to configure the AMS plugin for analytic support.
 
 The handler should be used on AEM App Shell ContentSync Config (node with pge-type=app-instance)
 
-* ***type - String *- **mobileADBMobileConfigJSON
-* ***path** - **String*** - Path to an app shell (node with pge-type=app-instance or a RT that extends /libs/mobileapps/core/components/instance)
-* ***targetRootDirectory - String*** -** **the prefix to add to paths as a target root for content update for this handler
+* ***type - String *-*** mobileADBMobileConfigJSON
+* ***path - String*** - Path to an app shell (node with pge-type=app-instance or a RT that extends /libs/mobileapps/core/components/instance)
+* ***targetRootDirectory - String*** - the prefix to add to paths as a target root for content update for this handler
 
 **notificationsconfig** Extracts notifications configurations required on device. The properties are extracted from the respective push service cloud  service configuration associated with the app.
 

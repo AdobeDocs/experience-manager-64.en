@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
 discoiquuid: 4cc811d9-7217-4f5b-868a-24c439585c74
-index: y
-internal: n
-snippet: y
 ---
 
 # Assets Offloading Best Practices{#assets-offloading-best-practices}

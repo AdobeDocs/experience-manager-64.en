@@ -6,9 +6,6 @@ seo-description: Use document security to safely distribute any information that
 uuid: bf53420b-8028-42a5-9089-d6dffab21e89
 contentOwner: khsingh
 discoiquuid: 3014e689-24d1-40a4-9906-c8c0a9c28f28
-index: y
-internal: n
-snippet: y
 ---
 
 # Installing and configuring the document security server{#installing-and-configuring-the-document-security-server}

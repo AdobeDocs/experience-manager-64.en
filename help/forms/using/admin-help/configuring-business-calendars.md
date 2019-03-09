@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_forms_workflow
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 9f531481-d43e-457f-bd82-b404e88bc8cc
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring Business Calendars{#configuring-business-calendars}

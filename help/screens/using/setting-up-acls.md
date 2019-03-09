@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: administering
 discoiquuid: be5ecffc-85ca-4c96-9047-396b8066e15b
-index: y
-internal: n
-snippet: y
 ---
 
 # Setting up ACLs{#setting-up-acls}

@@ -8,9 +8,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: repo_restructuring
 discoiquuid: 743cd969-94f5-4572-abad-0c29eeef8af4
-index: y
-internal: n
-snippet: y
 ---
 
 # Forms Repository Restructuring in AEM 6.4{#forms-repository-restructuring-in-aem}
@@ -106,7 +103,7 @@ As described on the parent [Repository Restructuring in AEM 6.4](../../../sites/
 
 ### Typekit Cloud Service Configurations {#typekit-cloud-service-configurations}
 
-| ****Previous location** | `/etc/cloudservices/typekit` |
+| **Previous location** | `/etc/cloudservices/typekit` |
 |---|---|
 | **New location(s)** | `/conf/<tenant>/settings/cloudconfigs/typekit` |
 | **Restructuring guidance** |The [Lazy Content Migration](../../../sites/deploying/using/lazy-content-migration.md) utility to be triggered from Forms Migration UI. |

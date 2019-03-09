@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
 discoiquuid: 33e8cd48-6f09-427d-aec0-7c299c7797da
-index: y
-internal: n
-snippet: y
 ---
 
 # Working with Page Versions{#working-with-page-versions}
@@ -108,7 +105,7 @@ You can preview a specific version:
    >
    >    
    >    
-   >    * If you experience problems with a preview, check the [Timeline](../../../sites/authoring/using/basic-handling.md#timeline) for the page to see whether the page has been moved.
+   >* If you experience problems with a preview, check the [Timeline](../../../sites/authoring/using/basic-handling.md#timeline) for the page to see whether the page has been moved.
    >    
    >
 

@@ -8,9 +8,6 @@ uuid: cff36759-250f-436f-ab6a-4f12e57b4116
 contentOwner: raiman
 discoiquuid: bf02080f-1b11-4d7e-b3c1-d7549aa96596
 noindex: true
-index: y
-internal: n
-snippet: y
 ---
 
 # Extending Tough Day{#extending-tough-day}

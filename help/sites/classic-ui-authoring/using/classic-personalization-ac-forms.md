@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
 discoiquuid: 8fbf719f-4aa2-4fcd-b161-5d89ffbc8a51
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating Adobe Campaign Forms in AEM{#creating-adobe-campaign-forms-in-aem}

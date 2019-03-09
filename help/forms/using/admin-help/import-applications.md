@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/importing_and_managing_applications_and_archives
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 9a443aab-34cf-4985-93dc-a96992c3f7ef
-index: y
-internal: n
-snippet: y
 ---
 
 # Import and manage applications{#import-and-manage-applications}
