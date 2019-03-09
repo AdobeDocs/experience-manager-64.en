@@ -3,11 +3,11 @@ title: How Process Reporting Works
 seo-title: How Process Reporting Works
 description: Description of the services that make up the AEM Forms on JEE Process Reporting and an introduction to the Process Reporting UI
 seo-description: Description of the services that make up the AEM Forms on JEE Process Reporting and an introduction to the Process Reporting UI
-uuid: d8284374-0264-4ab3-80e0-b8cd60b7b934
+uuid: 00a2dd6d-8a6f-4c7b-b03e-81cfd4bcf50d
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: process-reporting
-discoiquuid: fd58e477-da11-4c15-88f1-0441174e63b2
+discoiquuid: 4afc68fc-6b39-4c31-95fa-2ef3111c57da
 ---
 
 # How Process Reporting Works{#how-process-reporting-works}
@@ -20,11 +20,11 @@ Process Reporting uses the embedded Process Reporting repository to publish Form
 
 Process Reporting consists of the following modules:
 
-* [ProcessDataPublisher service](../../../forms/using/process-reporting/process-reporting-architecture.md#p-processdatapublisher-service-br-p)
-* [ProcessDataStorage service](../../../forms/using/process-reporting/process-reporting-architecture.md#p-processdatastorageprovider-service-br-p)
-* [OSGi service](../../../forms/using/process-reporting/process-reporting-architecture.md#p-osgi-service-br-p)
-* [Query Data servlet](../../../forms/using/process-reporting/process-reporting-architecture.md#p-querydataservlet-service-br-p)
-* [Process Reporting user interface](../../../forms/using/process-reporting/process-reporting-architecture.md#p-process-reporting-user-interface-br-p)
+* [ProcessDataPublisher service](../../../forms/using/process-reporting/process_reporting_architecture.md#p-processdatapublisher-service-br-p)
+* [ProcessDataStorage service](../../../forms/using/process-reporting/process_reporting_architecture.md#p-processdatastorageprovider-service-br-p)
+* [OSGi service](../../../forms/using/process-reporting/process_reporting_architecture.md#p-osgi-service-br-p)
+* [Query Data servlet](../../../forms/using/process-reporting/process_reporting_architecture.md#p-querydataservlet-service-br-p)
+* [Process Reporting user interface](../../../forms/using/process-reporting/process_reporting_architecture.md#p-process-reporting-user-interface-br-p)
 
 ## Process Reporting architecture <br> {#process-reporting-architecture-br}
 
@@ -58,7 +58,7 @@ The service then uses OSGi services to obtain the relevant reporting data, proce
 
 The Process Reporting user interface is a Web browser-based interface. You use this interface to view process and task information that is published from the AEM Forms database.
 
-For an introduction to the Process Reporting user interface, see [Process Reporting user interface](/forms/using/process-reporting/process-reporting-user-interface).
+For an introduction to the Process Reporting user interface, see [Process Reporting user interface](/forms/using/process-reporting/process-reporting-user-interface.md).
 
 ### QueryDataServlet service <br> {#querydataservlet-service-br-1}
 
