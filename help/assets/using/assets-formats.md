@@ -21,19 +21,19 @@ The following tables describes all the formats supported by AEM Assets as well a
 
 The following legend describes the level of support AEM Assets offers for a feature: 
 
-| 
-|
 | Support Level |Description |
+|--- |--- |
 | x |Supported |
-| &#42; |Supported with add-on features |
+| * |Supported with add-on features |
 | - |Not applicable |
 
 ## Supported Raster Image Formats {#supported-raster-image-formats}
 
-| Asset Management Features |Dynamic Media Features |
-|---|---|
-|   |Storage |Metadata management |Metadata extraction |Thumbnail generation |Interactive editing |Metadata writeback |Upload (Input format) |Create image preset (Output format) |Preview dynamic rendition |Deliver dynamic rendition |Download dynamic rendition |
-| Format |  |
+<!-- This table needs to be fixed-->
+
+||| Asset Management Features ||||||| Dynamic Media Features |||
+|Format |Storage |Metadata management |Metadata extraction |Thumbnail generation |Interactive editing |Metadata writeback |Upload (Input format) |Create image preset (Output format) |Preview dynamic rendition |Deliver dynamic rendition |Download dynamic rendition |
+|---|---|---|---|---|---|---|---|---|---|---|---|
 | PNG |x |x |x |x |x |x |x |x |x |x |x |
 | GIF |x |x |x |x |x |  |x |x |x |x |x |
 | TIFF |x |x |x |x |  |x |x |x |x |x |x |
@@ -44,7 +44,7 @@ The following legend describes the level of support AEM Assets offers for a feat
 | PBM |x |x |  |  |  |  |  |  |  |  |  |
 | PPM |x |x |  |  |  |  |  |  |  |  |  |
 | PSD* |x |x |x |x |  |  |x |  |  |  |  |
-| [EPS](../../assets/using/managing-image-presets.md#adobe-illustrator-ai-postscript-eps-and-pdf-file-formats) |x |x |x |x |  |x |x |x |x |x |x |
+| [EPS](../../assets/using/managing-image-presets.md#adobeillustratoraipostscriptepsandpdffileformats) |x |x |x |x |  |x |x |x |x |x |x |
 | PICT |  |  |  |  |  |  |x |  |  |  |  |
 | PSB |x  |x  |x  |x  |  |  |  |  |  |  |  |
 

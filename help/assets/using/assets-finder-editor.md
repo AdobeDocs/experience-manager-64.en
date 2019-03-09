@@ -89,46 +89,46 @@ To add actions to the Asset Share page:
 
 1. In the Asset Share page that you want to customize, click **Actions** in the sidekick.
 
-The following actions are available: 
+    The following actions are available: 
 
-![](assets/assetshare2.bmp)
+    ![](assets/assetshare2.bmp)
 
-<table border="1" cellpadding="1" cellspacing="0" columns="3" header="none" width="400">
- <tbody> 
-  <tr> 
-   <td><strong>Action</strong></td> 
-   <td><strong>Description </strong></td> 
-  </tr> 
-  <tr> 
-   <td><strong>Delete Action</strong></td> 
-   <td>Users can delete the selected assets.</td> 
-  </tr> 
-  <tr> 
-   <td><strong>Download Action</strong></td> 
-   <td>Lets users download selected assets to their computers.</td> 
-  </tr> 
-  <tr> 
-   <td><strong>Lightbox Action</strong></td> 
-   <td>Saves assets to a "lightbox" where you can perform other actions on them. This comes in handy when working with assets across multiple pages. The lightbox can also be used as a shopping cart for assets.<br /> </td> 
-  </tr> 
-  <tr> 
-   <td><strong>Move Action</strong></td> 
-   <td>Users can move the asset to another location</td> 
-  </tr> 
-  <tr> 
-   <td><strong>Tags Action</strong></td> 
-   <td>Lets users add tags to selected assets</td> 
-  </tr> 
-  <tr> 
-   <td><strong>View Asset Action </strong></td> 
-   <td>Opens the asset in the Asset editor for user manipulation.</td> 
-  </tr> 
- </tbody> 
-</table>
+    <table border="1" cellpadding="1" cellspacing="0" columns="3" header="none" width="400">
+    <tbody> 
+    <tr> 
+    <td><strong>Action</strong></td> 
+    <td><strong>Description </strong></td> 
+    </tr> 
+    <tr> 
+    <td><strong>Delete Action</strong></td> 
+    <td>Users can delete the selected assets.</td> 
+    </tr> 
+    <tr> 
+    <td><strong>Download Action</strong></td> 
+    <td>Lets users download selected assets to their computers.</td> 
+    </tr> 
+    <tr> 
+    <td><strong>Lightbox Action</strong></td> 
+    <td>Saves assets to a "lightbox" where you can perform other actions on them. This comes in handy when working with assets across multiple pages. The lightbox can also be used as a shopping cart for assets.<br /> </td> 
+    </tr> 
+    <tr> 
+    <td><strong>Move Action</strong></td> 
+    <td>Users can move the asset to another location</td> 
+    </tr> 
+    <tr> 
+    <td><strong>Tags Action</strong></td> 
+    <td>Lets users add tags to selected assets</td> 
+    </tr> 
+    <tr> 
+    <td><strong>View Asset Action </strong></td> 
+    <td>Opens the asset in the Asset editor for user manipulation.</td> 
+    </tr> 
+    </tbody> 
+    </table>
 
-2. Drag the appropriate action to the **Actions** area on the page. Doing so creates a button that is used to execute that action. 
+1. Drag the appropriate action to the **Actions** area on the page. Doing so creates a button that is used to execute that action. 
 
-![](assets/chlimage_1-387.png)
+   ![](assets/chlimage_1-387.png)
 
 #### Determining how Search Results are Presented {#determining-how-search-results-are-presented}
 
@@ -138,9 +138,9 @@ To change how search results are viewed:
 
 1. In the Asset Share page that you want to customize, click Search.
 
-![](assets/chlimage_1.bmp)
+   ![](assets/chlimage_1.bmp)
 
-2. Drag the appropriate lens to the top center of the page. In the Press Center, the lenses are already available. Users press the appropriate lens icon to display search results as desired.
+1. Drag the appropriate lens to the top center of the page. In the Press Center, the lenses are already available. Users press the appropriate lens icon to display search results as desired.
 
 The following lenses are available: 
 

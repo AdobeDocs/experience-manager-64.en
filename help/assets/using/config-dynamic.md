@@ -43,11 +43,11 @@ Other content, such as Dynamic Media viewers, Site pages, and static content wil
 
 If you are a customer of Dynamic Media, you are required to use hybrid delivery as the delivery mechanism for all Dynamic Media content.
 
-#### Hybrid publishing architecture for videos {#hybrid-publishing-architecture-for-videos}
+## Hybrid publishing architecture for videos {#hybrid-publishing-architecture-for-videos}
 
 ![](assets/chlimage_1-506.png) 
 
-#### Hybrid publishing architecture for images {#hybrid-publishing-architecture-for-images}
+## Hybrid publishing architecture for images {#hybrid-publishing-architecture-for-images}
 
 ![](assets/chlimage_1-507.png) 
 
@@ -539,8 +539,6 @@ As part of the configuration, you need to enter a registration ID, video service
 
 To configure dynamic media cloud services:
 
-##
-
 1. In AEM, tap or click the AEM logo to access the global navigation console and tap **Tools **&gt; **Cloud Services** &gt; **Dynamic Media Configuration (Pre-6.3)**.
 1. On the Dynamic Media Configuration Browser page, in the left pane, select **global**, then click **Create**.
 1. In the **Create Dynamic Media Configuration** dialog box, in the Title field, type a title.
@@ -932,7 +930,7 @@ To configure Dynamic Media Image Server settings:
    | Cache Max Size |200000000 |Maximum size of response cache in bytes. |
    | Cache Max Entries |100000 |Maximum number of entries allowed in the cache. |
 
-#### Default Manifest settings {#default-manifest-settings}
+### Default Manifest settings {#default-manifest-settings}
 
 The default manifest lets you configure the defaults that are used to generate the Dynamic Media Delivery responses. You can fine tune quality (JPEG quality, resolution, resampling mode), caching (expiration), and prevent the rendering of images that are too large (defaultpix, defaultthumbpix, maxpix).
 
