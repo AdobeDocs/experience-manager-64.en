@@ -7,9 +7,6 @@ uuid: 996f21fa-40ea-4068-88b0-3dcee43ab7de
 content-type: reference
 products: SG_EXPERIENCEMANAGER
 discoiquuid: e3a57c14-222d-433d-8e47-d08c9df62635
-index: y
-internal: n
-snippet: y
 ---
 
 # Smart Content Service Release Notes{#smart-content-service-release-notes}

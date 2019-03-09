@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: publish
 content-strategy: max-2018
 discoiquuid: 642377d6-c385-407e-80de-ad971b22268e
-index: y
-internal: n
-snippet: y
 ---
 
 # Publishing and unpublishing forms and documents{#publishing-and-unpublishing-forms-and-documents}
@@ -56,7 +53,7 @@ Your Adaptive Forms may utilize some configutaions, settings, and customizations
 
 An asset can have the following states:
 
-* **Unpublished: **An asset that has never been published (The unpublished state is applicable only to Forms assets. Correspondence Management assets do not have an Unpublished state.) 
+* **Unpublished:** An asset that has never been published (The unpublished state is applicable only to Forms assets. Correspondence Management assets do not have an Unpublished state.) 
 * **Published**: An asset that has been published and is available on the Publish instance
 * **Modified**: An asset that is modified after being published
 
@@ -68,7 +65,7 @@ An asset can have the following states:
     1. Move the pointer over an asset and tap **[!UICONTROL Publish]** ![](assets/aem6forms_globe.pngasset.png).
     1. Do one of following and then tap Publish:
 
-        * If you are in the card view, tap ****[!UICONTROL Enter Selection]** ** ![](assets/aem6forms_check-circle.png), and tap the asset. The asset is selected.
+        * If you are in the card view, tap **[!UICONTROL Enter Selection]** ** ![](assets/aem6forms_check-circle.png), and tap the asset. The asset is selected.
         
         * If you are in the list view, select the checkbox of an asset. The asset is selected.  
         * Tap an asset to display its details.
@@ -140,7 +137,7 @@ Follow these steps to schedule the date and time of publishing and unpublishing 
     1. Move the pointer over an asset and tap **[!UICONTROL Unpublish]** ![](assets/unpublish.png).
     1. Do one of following and then tap unpublish:
 
-        * If you are in the card view, tap ****[!UICONTROL Enter Selection]** ** ![](assets/aem6forms_check-circle.png), and tap the asset. The asset is selected.
+        * If you are in the card view, tap **[!UICONTROL Enter Selection]** ![](assets/aem6forms_check-circle.png), and tap the asset. The asset is selected.
         
         * If you are in the list view, hover over an asset and tap ![](assets/selectassetcheckmark.png) . The asset is selected.  
         

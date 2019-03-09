@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
 discoiquuid: 6ded8a85-19fd-42f5-a7d8-86daed49824b
-index: y
-internal: n
-snippet: y
 ---
 
 # Integrating Landing Pages with Adobe Analytics{#integrating-landing-pages-with-adobe-analytics}

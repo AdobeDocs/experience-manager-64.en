@@ -9,9 +9,6 @@ topic-tags: interactive-communications
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: introduction
 discoiquuid: cf8e81e8-7a42-4c52-b1e5-03c9bae29c3a
-index: y
-internal: n
-snippet: y
 ---
 
 # Interactive Communications Overview{#interactive-communications-overview}

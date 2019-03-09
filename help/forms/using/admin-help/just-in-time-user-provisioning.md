@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/setting_up_and_organizing_users
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: fa51631b-9d06-4ff0-bc82-fe81ba8cc65a
-index: y
-internal: n
-snippet: y
 ---
 
 # Just-in-time user provisioning{#just-in-time-user-provisioning}

@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
 discoiquuid: 81cea92c-adf3-4a25-ab04-774af5be9c3e
-index: y
-internal: n
-snippet: y
 ---
 
 # Custom watermark in letter PDF preview{#custom-watermark-in-letter-pdf-preview}
@@ -50,9 +47,9 @@ You can use the following steps to customize the text and appearance of the wate
        >
        >    
        >    
-       >    * Upgrade on your instance
-       >    * Apply a hot fix
-       >    * Install a feature pack
+       >* Upgrade on your instance
+       >* Apply a hot fix
+       >* Install a feature pack
        >    
        >
 

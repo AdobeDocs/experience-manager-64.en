@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: ca56c585-328e-49e1-bc9f-570e94f5e6df
-index: y
-internal: n
-snippet: y
 ---
 
 # Communities User Synchronization{#communities-user-synchronization}

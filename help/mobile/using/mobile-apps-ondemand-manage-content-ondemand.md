@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: authoring-on-demand-services-app
 discoiquuid: 896309a9-d5b0-4fda-935d-8e51478ea189
-index: y
-internal: n
-snippet: y
 ---
 
 # Managing Content{#managing-content}
@@ -28,7 +25,7 @@ If you think of an online magazine, the main content includes articles, ads, and
 
 * **Articles**: text based along with art to convey information
 * **Banners:** typically graphical promotional links
-* **Collections: **represent a well defined *bucket* filled with content such as articles or banners that suits the cover's theme
+* **Collections:** represent a well defined *bucket* filled with content such as articles or banners that suits the cover's theme
 
 * **Shared Resources:** allows reuse or sharing of common pieces across articles
 

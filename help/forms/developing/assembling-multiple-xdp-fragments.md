@@ -10,9 +10,6 @@ geptopics: SG_AEMFORMS/categories/assembling_pdf_documents
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: 51dba24d-7044-408f-b2c3-a91f2ba5a4e2
-index: y
-internal: n
-snippet: y
 ---
 
 # Assembling Multiple XDP Fragments{#assembling-multiple-xdp-fragments}

@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: 82ad5e22-7bdd-4d0d-8bc9-783828eca720
-index: y
-internal: n
-snippet: y
 ---
 
 # Hosting two AEM Forms workspace instances on one server{#hosting-two-aem-forms-workspace-instances-on-one-server}

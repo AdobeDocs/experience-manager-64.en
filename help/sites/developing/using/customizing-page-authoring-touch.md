@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
 discoiquuid: 99505987-c7ee-40bb-b0a6-3eff8a437327
-index: y
-internal: n
-snippet: y
 ---
 
 # Customizing Page Authoring{#customizing-page-authoring}

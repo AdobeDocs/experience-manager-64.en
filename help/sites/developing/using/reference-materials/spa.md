@@ -8,9 +8,6 @@ contentOwner: carlino
 discoiquuid: 559e3f86-cb71-4409-a85a-b62834f51eb4
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/sites/developing/using/reference-materials
-index: y
-internal: n
-snippet: y
 ---
 
 # spa (redirect){#spa-redirect}

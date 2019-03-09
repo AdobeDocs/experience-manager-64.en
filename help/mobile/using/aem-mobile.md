@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 content-type: reference
 topic-tags: administering-on-demand-services-app
 discoiquuid: 9132d38f-f9a4-4f72-8afb-e2f50bef7ca0
-index: y
-internal: n
-snippet: y
 ---
 
 # AEM Mobile On-Demand{#aem-mobile-on-demand}

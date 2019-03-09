@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: testing
 content-type: reference
 discoiquuid: bf06f621-923a-4e73-b1a5-2116b6f9a8e3
-index: y
-internal: n
-snippet: y
 ---
 
 # Testing and Tracking Tools{#testing-and-tracking-tools}

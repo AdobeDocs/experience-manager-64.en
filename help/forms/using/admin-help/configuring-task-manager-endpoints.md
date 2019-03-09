@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/managing_endpoints
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: f2e21fd8-a8d8-41b8-9674-eabaab70bfa0
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring Task Manager endpoints{#configuring-task-manager-endpoints}

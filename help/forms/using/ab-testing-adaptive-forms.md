@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: integrations
 discoiquuid: eb121d0d-ec68-4dc7-8b1c-cb41b7ab25c4
-index: y
-internal: n
-snippet: y
 ---
 
 # Create and manage A/B test for adaptive forms{#create-and-manage-a-b-test-for-adaptive-forms}

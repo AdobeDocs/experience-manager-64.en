@@ -7,9 +7,6 @@ uuid: 6272694c-1aba-4740-bd54-bdea0ea3bd4f
 topic-tags: grdp
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: c47644e5-cd8b-4d30-9044-0f78f32d3ea6
-index: y
-internal: n
-snippet: y
 ---
 
 # Correspondence Management | Handling user data{#correspondence-management-handling-user-data}

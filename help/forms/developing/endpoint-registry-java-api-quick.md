@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: 3bc620b3-359f-45e6-a77d-b007cb269f51
-index: y
-internal: n
-snippet: y
 ---
 
 # Endpoint Registry Java API QuickStart(SOAP){#endpoint-registry-java-api-quickstart-soap}

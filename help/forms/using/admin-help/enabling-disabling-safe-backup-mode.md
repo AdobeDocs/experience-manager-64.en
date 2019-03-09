@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/aem_forms_backup_and_recovery
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 0f7fcd67-7074-435d-b647-3e3e48dc3177
-index: y
-internal: n
-snippet: y
 ---
 
 # Enabling and disabling safe backup mode{#enabling-and-disabling-safe-backup-mode}

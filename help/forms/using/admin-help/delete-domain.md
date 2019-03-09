@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/setting_up_and_managing_domains
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 96592616-99b5-4e7c-a754-f59cca4de6f7
-index: y
-internal: n
-snippet: y
 ---
 
 # Delete a domain {#delete-a-domain}

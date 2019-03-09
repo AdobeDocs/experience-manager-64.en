@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
 discoiquuid: 47c37780-f835-4565-b66b-d0989b3c14ed
-index: y
-internal: n
-snippet: y
 ---
 
 # Working with Page Versions{#working-with-page-versions}
@@ -143,7 +140,7 @@ The calendar version is used if you have a specific day to be viewed:
 
 1. When you have finished viewing the page, click:
 
-    * ******Exit Timewarp** to exit and return to the current author page.
+    * **Exit Timewarp** to exit and return to the current author page.
     
     * [Show Timeline](#using-the-timewarp-timeline) to view the timeline.
 

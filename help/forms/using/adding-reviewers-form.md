@@ -7,9 +7,6 @@ uuid: ba4372c4-6a88-45c0-9b04-2bff8c2bfb00
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: author
 discoiquuid: a60a7ce3-1775-423d-96da-64c925f866b1
-index: y
-internal: n
-snippet: y
 ---
 
 # Associating submission reviewers with a form{#associating-submission-reviewers-with-a-form}
@@ -57,7 +54,7 @@ Before you perform the following steps, see [Prerequisite](../../forms/using/add
 
 To create a group and add members to it, navigate to **Tools** &gt; **Operations** &gt; **Security** &gt; **Groups**.  
 For more information, see [User Administration and Services](../../sites/administering/using/security.md).   
-Ensure that you add the group you create as a member of the out-of-the-box user group: **forms-submission-reviewers**. This user group is shipped with AEM Forms, and it ensures that users are added as submission reviewers.
+Ensure that you add the group you create as a member of the out-of-the-box user group:** forms-submission-reviewers**. This user group is shipped with AEM Forms, and it ensures that users are added as submission reviewers.
 
 To associate user groups with an adaptive form:
 

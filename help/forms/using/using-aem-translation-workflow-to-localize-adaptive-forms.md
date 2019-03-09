@@ -8,9 +8,6 @@ content-type: reference
 topic-tags: develop
 discoiquuid: 2f04d32e-83a0-4943-9280-2d52e90989e0
 noindex: true
-index: y
-internal: n
-snippet: y
 ---
 
 # Using AEM translation workflow to localize adaptive forms and document of record{#using-aem-translation-workflow-to-localize-adaptive-forms-and-document-of-record}
@@ -38,8 +35,8 @@ The machine translation service immediately translates your content in adaptive 
    >
    >    
    >    
-   >    * Before opening the localized version of form in the browser window, ensure that the locale of the browser is set to match the locale of the form. For example, if the form is translated to German(de) language then set the locale of the browser to German(de).
-   >    * Adaptive form components do not support right to left (RTL) languages. For example, Hebrew.
+   >* Before opening the localized version of form in the browser window, ensure that the locale of the browser is set to match the locale of the form. For example, if the form is translated to German(de) language then set the locale of the browser to German(de).
+   >* Adaptive form components do not support right to left (RTL) languages. For example, Hebrew.
    >    
    >
 

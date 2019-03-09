@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: authoring
 discoiquuid: 41eb1066-7902-446f-852b-2ae454a3b79a
-index: y
-internal: n
-snippet: y
 ---
 
 # Managing Devices{#managing-devices}

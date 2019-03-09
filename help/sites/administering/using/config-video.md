@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
 discoiquuid: 3bf5b4cc-1567-4b66-a1fc-d98e0492a38e
-index: y
-internal: n
-snippet: y
 ---
 
 # Configure the Video component{#configure-the-video-component}

@@ -8,9 +8,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
 discoiquuid: 8cdbf71b-9c38-46a8-9b78-c6bfbb552c44
-index: y
-internal: n
-snippet: y
 ---
 
 # Blog Feature{#blog-feature}

@@ -10,9 +10,6 @@ topic-tags: components
 content-type: reference
 discoiquuid: 51bfb36f-f72f-4a71-90b2-6bcf93cd7c8e
 pagetitle: Components for Content Fragments
-index: y
-internal: n
-snippet: y
 ---
 
 # Components for Content Fragments{#components-for-content-fragments}

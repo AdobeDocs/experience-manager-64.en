@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
 discoiquuid: 8f83cc2e-d099-47ac-99cc-7c35ec30f2e1
-index: y
-internal: n
-snippet: y
 ---
 
 # Page Authoring with Content Fragments{#page-authoring-with-content-fragments}
@@ -91,8 +88,8 @@ The content fragments enable:
    >
    >    
    >    
-   >    * [Responsive Layout](../../../sites/authoring/using/responsive-layout.md)
-   >    * [Editing Page Content](../../../sites/authoring/using/editing-content.md)
+   >* [Responsive Layout](../../../sites/authoring/using/responsive-layout.md)
+   >* [Editing Page Content](../../../sites/authoring/using/editing-content.md)
    >    
    >
 

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference
 discoiquuid: 4014f646-807c-4721-a3ab-be6bd6c9d8dc
-index: y
-internal: n
-snippet: y
 ---
 
 # Private folder sharing{#private-folder-sharing}

@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_document_security
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: c2b1bf64-997e-4f4c-81ee-e26259f40bc4
-index: y
-internal: n
-snippet: y
 ---
 
 # Monitoring events{#monitoring-events}

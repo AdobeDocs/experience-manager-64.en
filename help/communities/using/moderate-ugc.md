@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: 9cfde790-39bd-4935-bbbe-787d8cff56db
-index: y
-internal: n
-snippet: y
 ---
 
 # Moderating Community Content{#moderating-community-content}

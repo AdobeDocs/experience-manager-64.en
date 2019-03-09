@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference
 discoiquuid: 2fd9b8fc-2708-4ccc-9396-8330f8f4c75d
-index: y
-internal: n
-snippet: y
 ---
 
 # Applying translation cloud services to folders {#applying-translation-cloud-services-to-folders}

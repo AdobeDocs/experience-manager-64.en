@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
 discoiquuid: d68684ef-0318-47da-a72a-82a46634b61b
-index: y
-internal: n
-snippet: y
 ---
 
 # Mitigating serialization issues in AEM{#mitigating-serialization-issues-in-aem}
@@ -78,7 +75,7 @@ The firewall configuration is dynamic, and can be changed at any time by:
    >
    >    
    >    
-   >    * `http://server:port/system/console/configMgr/com.adobe.cq.deserfw.impl.DeserializationFirewallImpl`
+   >* `http://server:port/system/console/configMgr/com.adobe.cq.deserfw.impl.DeserializationFirewallImpl`
    >    
    >
 

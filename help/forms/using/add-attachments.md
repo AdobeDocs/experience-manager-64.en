@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
 discoiquuid: 433c8b70-7d22-49dd-a7a1-decc28fa1d66
-index: y
-internal: n
-snippet: y
 ---
 
 # Adding attachments{#adding-attachments}

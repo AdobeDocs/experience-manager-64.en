@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: configuring
 discoiquuid: 919ecd7a-5a76-418d-b003-5ca123d8bf54
-index: y
-internal: n
-snippet: y
 ---
 
 # Performance Optimization{#performance-optimization}
@@ -512,7 +509,7 @@ The formula to calculate the cache ratio is:
 
 * (The total number of requests **minus** the number of requests on Publish) **divided** by the total number of requests.
 
-For example, if the total number of requests is 129491 and the number of requests served by the Publish instance is 58959 the cache ratio is: **(129491 - 58959)/129491= 54.5%**.
+For example, if the total number of requests is 129491 and the number of requests served by the Publish instance is 58959 the cache ratio is:** (129491 - 58959)/129491= 54.5%**.
 
 If you don't have a one to one publisher/dispatcher pairing, you will need to add requests from all dispatchers and publishers together to get an accurate measurement. See also [Recommended Deployments](../../../sites/deploying/using/recommended-deploys.md).
 

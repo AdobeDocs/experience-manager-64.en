@@ -8,9 +8,6 @@ topic-tags: brand-portal
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: 6c24682e-19c3-4a9b-9231-cc9d07ec8623
-index: y
-internal: n
-snippet: y
 ---
 
 # Configure AEM Assets integration with Brand Portal{#configure-aem-assets-integration-with-brand-portal}

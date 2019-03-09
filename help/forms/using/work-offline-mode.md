@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
 discoiquuid: a12bf8a4-bb77-4e4e-9b38-6f1a0867348e
-index: y
-internal: n
-snippet: y
 ---
 
 # Working in the offline mode{#working-in-the-offline-mode}

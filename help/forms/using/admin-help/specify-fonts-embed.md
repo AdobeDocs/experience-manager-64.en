@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_output
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 0ac2a960-2430-4555-be4f-e67a0739fc83
-index: y
-internal: n
-snippet: y
 ---
 
 # Specify fonts to embed{#specify-fonts-to-embed}

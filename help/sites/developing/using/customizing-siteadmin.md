@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
 discoiquuid: 9d0ad5cd-c567-47c9-8420-5d6c3f1cd85e
-index: y
-internal: n
-snippet: y
 ---
 
 # Customizing the Websites Console (Classic UI){#customizing-the-websites-console-classic-ui}

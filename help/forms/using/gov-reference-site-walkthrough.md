@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: introduction
 discoiquuid: e7ee2f41-9214-4016-9f6c-84b94a0f92e8
-index: y
-internal: n
-snippet: y
 ---
 
 # We.Gov reference site walkthrough{#we-gov-reference-site-walkthrough}
@@ -209,7 +206,7 @@ When Sarah fills and submits the child support application, a PDF or Document of
 
 ### See it yourself {#see-it-yourself-2}
 
-Open page `http://<***hostname***>:<*PublishP****ort***>/content/we-gov/en.html.`On the page, tap **Sign In**, select the** Login as representative** checkbox, log in to the AEM inbox using grios/password as the username/password for Gloria Rios. The child support application appears. For information about using AEM Inbox for forms-centric workflow tasks, see [Manage Forms applications and tasks in AEM Inbox](../../forms/using/manage-applications-inbox.md).
+Open page `http://<***hostname***>:<*PublishPort***>/content/we-gov/en.html.`On the page, tap **Sign In**, select the** Login as representative** checkbox, log in to the AEM inbox using grios/password as the username/password for Gloria Rios. The child support application appears. For information about using AEM Inbox for forms-centric workflow tasks, see [Manage Forms applications and tasks in AEM Inbox](../../forms/using/manage-applications-inbox.md).
 
 ![Gloria's inbox in We.Gov refsite](assets/gloria-inbox.png)
 
@@ -230,7 +227,7 @@ Sarah's application is a startpoint in the AEM workflow. It initiates the AEM wo
 
 If the configuration is complete, the AEM workflow starts immediately after the form is submitted. Log in to the inbox using Gloria's credentials.
 
-Access inbox at http://&lt;***hostname***&gt;:&lt;***PublishP******ort***&gt;/content/we-gov/en.html. On the page, tap **Sign In**, select the** Login as representative** checkbox use Gloria's default credentials:
+Access inbox at http://&lt;***hostname***&gt;:&lt;***PublishPort***&gt;/content/we-gov/en.html. On the page, tap **Sign In**, select the** Login as representative** checkbox use Gloria's default credentials:
 
 * Username: grios
 * Password: password
@@ -343,11 +340,11 @@ For you to view and explore the analytics report, we are providing seed data for
 
 To generate analytics report with seed data:
 
-1. In the address browser of CRXDE lite, type: **/apps/we-gov/demo-artifacts/analyticsTestData/Child support service Analytics Test Data**
+1. In the address browser of CRXDE lite, type:** /apps/we-gov/demo-artifacts/analyticsTestData/Child support service Analytics Test Data**
 1. The seed data is selected in the left side directory structure. 
 1. Double click the selected file to open its content in the right side panel. 
 1. Copy all the content in the test data file. 
-1. In CRXDE, navigate to: **/content/dam/formsanddocuments/we-gov/child-support/css/jcr:content/analyticsdatanode/lastsevendays**
+1. In CRXDE, navigate to:** /content/dam/formsanddocuments/we-gov/child-support/css/jcr:content/analyticsdatanode/lastsevendays**
 1. In the analyticsdata field under Properties, paste the copied content of the test data file.
 1. Now generate analytics report again for **Application for Child Support Services**. You can see the seed data in the generated report.
 

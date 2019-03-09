@@ -9,9 +9,6 @@ topic-tags: 3D
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 discoiquuid: 084388d4-cb57-4673-a9dd-8788b450c9e3
-index: y
-internal: n
-snippet: y
 ---
 
 # About working with IBL stages{#about-working-with-ibl-stages}

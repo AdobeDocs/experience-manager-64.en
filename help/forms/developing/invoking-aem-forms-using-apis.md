@@ -10,9 +10,6 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: coding
 topic-tags: development-tools
 discoiquuid: 06a92dbd-0bc5-4c9c-bc73-6bb8938a220f
-index: y
-internal: n
-snippet: y
 ---
 
 # Invoking AEM Forms using APIs{#invoking-aem-forms-using-apis}

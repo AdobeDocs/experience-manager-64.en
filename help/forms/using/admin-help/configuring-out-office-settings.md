@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_forms_workflow
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: b29e2904-f518-4e23-9206-23edaf5bd5a6
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring Out of Office Settings{#configuring-out-of-office-settings}

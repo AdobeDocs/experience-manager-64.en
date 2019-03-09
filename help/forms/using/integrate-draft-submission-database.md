@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: publish
 discoiquuid: 9db8d1c5-97c6-4a4f-afcb-9250fdf7b7ba
-index: y
-internal: n
-snippet: y
 ---
 
 # Sample for integrating drafts & submissions component with database{#sample-for-integrating-drafts-submissions-component-with-database}
@@ -77,7 +74,7 @@ Perform the following steps, on all the author and publish instances, to install
 
     * In the Web Console Configuration, find and click Forms Portal Data Service Sample Implementation. You can change the values of data source and data table name.
 
-   ***Note: **If you change the table names, provide them in the Form Portal configuration.*
+   ***Note:** If you change the table names, provide them in the Form Portal configuration.*
 
 1. Leave other configurations as is and click **Save**.  
 
@@ -158,8 +155,8 @@ Perform the following steps, on all the author and publish instances, to install
    >
    >    
    >    
-   >    * The JDBC driver for MySQL is not provided with the sample. Ensure that you have provisioned for it and provide the required information to configure the JDBC connection pool.
-   >    * Point your author and publish instances to use same database. Value of the JDBC connection URI field must be same for all the author and publish instances.
+   >* The JDBC driver for MySQL is not provided with the sample. Ensure that you have provisioned for it and provide the required information to configure the JDBC connection pool.
+   >* Point your author and publish instances to use same database. Value of the JDBC connection URI field must be same for all the author and publish instances.
    >    
    >
 

@@ -7,9 +7,6 @@ uuid: d1d66185-8846-4dee-b924-aea0c703d115
 contentOwner: anujkapo
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: dcace538-2ffa-403d-a521-7d7fd63901de
-index: y
-internal: n
-snippet: y
 ---
 
 # Tutorial: Create templates{#tutorial-create-templates}

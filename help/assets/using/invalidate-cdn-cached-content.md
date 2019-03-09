@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
 discoiquuid: 3a201112-97b0-4f57-9f06-976d0b2ca2cc
-index: y
-internal: n
-snippet: y
 ---
 
 # Invalidating your CDN cached content{#invalidating-your-cdn-cached-content}

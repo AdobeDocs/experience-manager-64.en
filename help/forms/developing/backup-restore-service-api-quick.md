@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: 50ad1819-142c-44f3-b2ec-d1de9f72d6a8
-index: y
-internal: n
-snippet: y
 ---
 
 # Backup and Restore Service APIQuick Starts{#backup-and-restore-service-apiquick-starts}

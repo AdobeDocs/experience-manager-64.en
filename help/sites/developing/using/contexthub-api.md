@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
 discoiquuid: bc7b0061-672c-44f4-b398-9ba8bdbb85b2
-index: y
-internal: n
-snippet: y
 ---
 
 # ContextHub Javascript API Reference{#contexthub-javascript-api-reference}

@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: document_services
 discoiquuid: d60e5cb7-94d9-4839-921d-da17541fd292
-index: y
-internal: n
-snippet: y
 ---
 
 # Initiate Document Services APIs from AEM Workflow {#initiate-document-services-apis-from-aem-workflow}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: 6b4a6d63-93f8-45d5-a78e-a2b0a7a21365
-index: y
-internal: n
-snippet: y
 ---
 
 # Component Sideloading{#component-sideloading}

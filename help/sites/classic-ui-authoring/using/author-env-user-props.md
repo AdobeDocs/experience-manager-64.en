@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
 discoiquuid: 44a7a618-f973-45db-ab4b-6a78311b1b26
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring your account environment{#configuring-your-account-environment}

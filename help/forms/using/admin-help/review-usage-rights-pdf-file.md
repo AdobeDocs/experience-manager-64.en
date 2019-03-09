@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_acrobat_reader_dc_extensions
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: a3f1898e-ce5b-4687-8af4-35447d4901b8
-index: y
-internal: n
-snippet: y
 ---
 
 # Review the usage rights of a PDF file{#review-the-usage-rights-of-a-pdf-file}

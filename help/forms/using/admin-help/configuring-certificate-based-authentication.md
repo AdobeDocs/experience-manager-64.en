@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_user_management
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 3133b51c-ff4b-447b-b836-1eb80c6a8761
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring certificate-based authentication{#configuring-certificate-based-authentication}

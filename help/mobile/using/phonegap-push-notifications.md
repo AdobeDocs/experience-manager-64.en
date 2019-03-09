@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: developing-adobe-phonegap-enterprise
 discoiquuid: 38df5d10-e2e7-40b5-baef-f4a48e62ff6b
-index: y
-internal: n
-snippet: y
 ---
 
 # Push Notifications{#push-notifications}
@@ -255,7 +252,7 @@ With XCode 8.1, before using Push Notifications you must go to the Capabilities 
 
 #### Android {#android}
 
-To install the app on an Android phone using CLI (see below: **6 - Deploy the app onto your phone**), you first must put the phone in "developer mode." See [Enabling On-device Developer Options](http://developer.android.com/tools/device.html#developer-device-options) for details on doing this.
+To install the app on an Android phone using CLI (see below:** 6 - Deploy the app onto your phone**), you first must put the phone in "developer mode." See [Enabling On-device Developer Options](http://developer.android.com/tools/device.html#developer-device-options) for details on doing this.
 
 ### Step 5: Configure push on AEM apps {#step-configure-push-on-aem-apps}
 

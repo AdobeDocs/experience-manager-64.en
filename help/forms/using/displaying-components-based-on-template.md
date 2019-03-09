@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: customization
 content-type: reference
 discoiquuid: 27857c6b-5740-4343-896d-e98f8b07b893
-index: y
-internal: n
-snippet: y
 ---
 
 # Displaying components based on the template used{#displaying-components-based-on-the-template-used}

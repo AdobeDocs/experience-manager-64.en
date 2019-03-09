@@ -8,9 +8,6 @@ content-type: reference
 topic-tags: customization
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 0cf3b65f-22c3-43f2-a706-98bf1d30b70c
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating custom adaptive form themes{#creating-custom-adaptive-form-themes}
@@ -105,7 +102,7 @@ Forest Theme Sample
    @button-hover-bg-color: rgb(30, 156, 67);
    ```
 
-   **Less mixin files: **You can define the functions that accept variables as arguments. The output of these functions are the resultant styles. Use these mixins within different styles, to avoid repeating CSS styles.
+   **Less mixin files:** You can define the functions that accept variables as arguments. The output of these functions are the resultant styles. Use these mixins within different styles, to avoid repeating CSS styles.
 
    Adaptive forms provide OOTB mixins defined in:
 
@@ -131,7 +128,7 @@ Forest Theme Sample
    }
    ```
 
-   **Styles.less File: **Use this file to include all the less files (variables, mixins, styles) that you need to use in the client library.
+   **Styles.less File:** Use this file to include all the less files (variables, mixins, styles) that you need to use in the client library.
 
    In the following sample `styles.less` file, the import statement can be placed in any order.
 

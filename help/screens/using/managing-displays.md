@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: authoring
 discoiquuid: cd8c0070-a0bd-4ebe-9f31-1583b3977f53
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating and Managing Displays{#creating-and-managing-displays}
@@ -59,7 +56,7 @@ Once you have display in position, the next step will be to create a device conf
 >
 >Once you create a display for your location, you need to assign a channel to your display to leverage the content.
 >
->See [Assign Channels](../../screens/using/channel-assignment.md)**** section to learn how to assign a channel to the display.
+>See [Assign Channels](../../screens/using/channel-assignment.md) section to learn how to assign a channel to the display.
 
 ## Creating a New Device Config {#creating-a-new-device-config}
 

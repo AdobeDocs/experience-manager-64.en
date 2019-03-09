@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: content-fragments
 content-type: reference
 discoiquuid: 28972538-cbbf-4880-a3cf-f84ca76f1234
-index: y
-internal: n
-snippet: y
 ---
 
 # Variations - Authoring Fragment Content{#variations-authoring-fragment-content}
@@ -186,7 +183,7 @@ Summarizing text is designed to help users reduce the length of their text to a 
 >
 >For example, `en/` as in the following path:
 >
->`/content/dam/my-brand/`****[!UICONTROL en]**** `/path-down/my-content-fragment`
+>`/content/dam/my-brand/`**[!UICONTROL en]** `/path-down/my-content-fragment`
 
 >[!CAUTION]
 >
@@ -286,8 +283,8 @@ They will be added to the paragraph sequence of the fragment without any formatt
    >
    >    
    >    
-   >    * **Plain Text**: the asset will be completely lost from the fragment.
-   >    * **Markdown**: the asset will not be visible, but will still be there when you return to **Rich Text**.
+   >* **Plain Text**: the asset will be completely lost from the fragment.
+   >* **Markdown**: the asset will not be visible, but will still be there when you return to **Rich Text**.
    >    
    >    
    >

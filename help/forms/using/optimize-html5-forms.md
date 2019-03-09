@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
 discoiquuid: b804fac0-fd0d-42f2-9156-e6b2fd1d2fbe
-index: y
-internal: n
-snippet: y
 ---
 
 # Optimizing HTML5 forms{#optimizing-html-forms}
@@ -55,9 +52,9 @@ Apache can communicate with JBoss using HTTP or the AJP protocol.
    >
    >    
    >    
-   >    * Access: *http://&lt;server&gt;:&lt;port&gt;/system/console/configMgr*
-   >    * Edit the configuration for Apache Sling Referrer Filter
-   >    * In the Allow Hosts, add the entry for the proxy server
+   >* Access: *http://&lt;server&gt;:&lt;port&gt;/system/console/configMgr*
+   >* Edit the configuration for Apache Sling Referrer Filter
+   >* In the Allow Hosts, add the entry for the proxy server
    >    
    >
 

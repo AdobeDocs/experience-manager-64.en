@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: development-tools
 content-type: reference
 discoiquuid: 8e5070eb-b314-4baa-beea-9a70705ef03c
-index: y
-internal: n
-snippet: y
 ---
 
 # How to use the Proxy Server Tool{#how-to-use-the-proxy-server-tool}

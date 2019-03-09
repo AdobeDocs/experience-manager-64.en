@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
 discoiquuid: 17b77c4b-e524-430f-8d80-11ea19aeab3f
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring Dynamic Media - Scene7 mode{#configuring-dynamic-media-scene-mode}
@@ -166,7 +163,7 @@ To open the Application General Settings page, in Dynamic Media Classic Global N
 
 >[!NOTE]
 >
->To maintain consistency with AEM, always choose this setting: **Overwrite in current folder, same base image name/extension**
+>To maintain consistency with AEM, always choose this setting:** Overwrite in current folder, same base image name/extension**
 
 * **Overwrite in any folder, same base asset name/extension** - Requires that the replacement image has the same filename extension as the original image (for example, chair.jpg must replace chair.jpg, not chair.tif). However, you can upload the replacement image to a different folder than the original. The updated image resides in the new folder; the file can no longer be found in its original location
 * **Overwrite in any folder, same base asset name regardless of extension** - This option is the most inclusive replacement rule. You can upload a replacement image to a different folder than the original, upload a file with a different filename extension, and replace the original file. If the original file is in a different folder, the replacement image resides in the new folder to which it was uploaded.
@@ -193,11 +190,11 @@ To configure the default color properties to enable color correction when reques
     * CMYK Default Color Space - Name of the default CMYK color profile
     * Gray-Scale Default Color Space - Name of the default Gray color profile
     * RGB Default Color Space - Name of the default RGB color profile
-    * Color Conversion Rendering Intent - Specifies the render intent. Acceptable values are: **perceptual, relative colometric, saturation, absolute colometric. ****Adobe recommends **relative ****as the default.
+    * Color Conversion Rendering Intent - Specifies the render intent. Acceptable values are:** perceptual, relative colometric, saturation, absolute colometric.** Adobe recommends **relative** as the default.
 
 1. Tap or click **Save**.
 
-For example, you could set the **RGB Default Color Space** to *sRGB*, and **CMYK Default Color Space*** *to *WebCoated. *
+For example, you could set the **RGB Default Color Space** to *sRGB*, and **CMYK Default Color Space** to *WebCoated.*
 
 Doing so would do the following:
 

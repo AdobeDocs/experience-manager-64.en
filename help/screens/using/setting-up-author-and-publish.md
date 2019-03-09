@@ -7,9 +7,6 @@ page-status-flag: never-activated
 uuid: b015173d-7184-48ac-a5b8-f8994bbdbf26
 contentOwner: jsyal
 discoiquuid: dfddac96-ad34-4fde-8a45-763afd4004dc
-index: y
-internal: n
-snippet: y
 ---
 
 # Setting Up Author and Publish{#setting-up-author-and-publish}

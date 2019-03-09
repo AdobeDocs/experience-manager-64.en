@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
 discoiquuid: d155eaaf-b9ce-4d7b-83c9-0d85e5c836c6
-index: y
-internal: n
-snippet: y
 ---
 
 # Setting up your campaign{#setting-up-your-campaign}
@@ -219,9 +216,9 @@ To import leads from a comma-separated list:
    >
    >    
    >    
-   >    * In the Dashboard, click **Import Leads** in the **Lists** pane  
+   >* In the Dashboard, click **Import Leads** in the **Lists** pane  
    >    
-   >    * Click **Lists** and in the **Tools** menu, select **Import Leads**.  
+   >* Click **Lists** and in the **Tools** menu, select **Import Leads**.  
    >    
    >    
    >

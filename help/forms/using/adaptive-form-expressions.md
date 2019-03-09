@@ -7,9 +7,6 @@ uuid: 72b88877-ccc5-40c0-ab5d-1b90225fc599
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: 9035e460-845d-4d65-b4b1-7edd511ce4a8
-index: y
-internal: n
-snippet: y
 ---
 
 # Adaptive Form Expressions{#adaptive-form-expressions}
@@ -157,7 +154,7 @@ The Value Commit script is triggered when:
 
 **Return Type:** The value commit script expression does not return any value. If any expression returns a value, the value is ignored.
 
-**Example: **To convert the case of alphabets entered in the field to uppercase on commit, the value commit expression is:  
+**Example:** To convert the case of alphabets entered in the field to uppercase on commit, the value commit expression is:  
 `this.value=this.value.toUpperCase()`
 
 >[!NOTE]

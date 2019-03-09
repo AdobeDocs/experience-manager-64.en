@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
 discoiquuid: 85d94fdb-1def-4278-976c-168d15a13164
-index: y
-internal: n
-snippet: y
 ---
 
 # Save forms as templates{#save-forms-as-templates}

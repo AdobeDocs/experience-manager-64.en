@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: abd60f5e-0d8f-436e-9900-167fdf02b2a0
-index: y
-internal: n
-snippet: y
 ---
 
 # Community Components Guide{#community-components-guide}

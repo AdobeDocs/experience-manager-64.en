@@ -9,9 +9,6 @@ geptopics: SG_AEMFORMS/categories/assembling_pdf_documents
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: 095ecafa-a975-4ca5-81d0-81ba2cbd60d4
-index: y
-internal: n
-snippet: y
 ---
 
 # Programmatically Disassembling PDF Documents{#programmatically-disassembling-pdf-documents}

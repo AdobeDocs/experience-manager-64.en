@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: e41d430e-eda2-4a8f-86d5-a2b3a461c688
-index: y
-internal: n
-snippet: y
 ---
 
 # Integrating AEM Forms workspace components in web applications{#integrating-aem-forms-workspace-components-in-web-applications}

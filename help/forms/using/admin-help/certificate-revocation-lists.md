@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/managing_certificates_and_credentials
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 2857071a-e14a-423f-96c1-da9808b80f89
-index: y
-internal: n
-snippet: y
 ---
 
 # Managing certificate revocationlists{#managing-certificate-revocationlists}

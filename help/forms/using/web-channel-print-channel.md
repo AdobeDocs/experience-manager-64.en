@@ -7,9 +7,6 @@ uuid: 443a4458-7c37-464b-a28e-60ba1873ffd3
 topic-tags: interactive-communications
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 285226bf-1eea-458b-ac62-aedbd5058ae4
-index: y
-internal: n
-snippet: y
 ---
 
 # Print channel and web channel{#print-channel-and-web-channel}
@@ -50,7 +47,7 @@ To author a web channel template Complete the following steps:
 
     1. Tap **[!UICONTROL Tools]** ![](assets/tools-1.png) > **[!UICONTROL Configuration Browser]**. **[!UICONTROL]**
     1. In the Configuration Browser page, tap **[!UICONTROL Create]**. 
-    1. In the Create Configuration dialog, specify a title for the folder, check **[!UICONTROL Editable Templates]**, and tap ****[!UICONTROL Create]****.
+    1. In the Create Configuration dialog, specify a title for the folder, check **[!UICONTROL Editable Templates]**, and tap **[!UICONTROL Create]**.
 
        The Folder is created and listed in the Configuration Browser page.
 

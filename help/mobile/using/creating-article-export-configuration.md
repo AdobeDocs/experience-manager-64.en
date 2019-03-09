@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: developing-on-demand-services-app
 discoiquuid: 39b4e3f0-906f-49fc-b842-7a390d241403
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating Article Export Configuration{#creating-article-export-configuration}

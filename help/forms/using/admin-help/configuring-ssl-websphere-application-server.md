@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_ssl
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 2c2df454-b869-4ec1-a059-444d372075b0
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring SSL for WebSphere Application Server{#configuring-ssl-for-websphere-application-server}

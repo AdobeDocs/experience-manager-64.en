@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: Configuration
 discoiquuid: 8cf38d1c-20c4-4a84-83b4-f84618f199d9
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring the synchronization scheduler{#configuring-the-synchronization-scheduler}

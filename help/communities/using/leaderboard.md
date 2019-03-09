@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: d2181023-beb8-47ee-bdf1-d67736d07077
-index: y
-internal: n
-snippet: y
 ---
 
 # Leaderboard Essentials{#leaderboard-essentials}

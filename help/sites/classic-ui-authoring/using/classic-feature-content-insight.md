@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: site-features
 discoiquuid: 3306a201-4d3e-4e0d-a984-25ac95ecd1aa
-index: y
-internal: n
-snippet: y
 ---
 
 # Content Insight{#content-insight}

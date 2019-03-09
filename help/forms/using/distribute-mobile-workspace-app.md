@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
 discoiquuid: fd11138d-3da6-4507-8e24-90be8385eb0a
-index: y
-internal: n
-snippet: y
 ---
 
 # Distribute AEM Forms app{#distribute-aem-forms-app}

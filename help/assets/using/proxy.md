@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: extending-assets
 content-type: reference
 discoiquuid: f5117ca3-07a1-4de6-885c-fb41352b5986
-index: y
-internal: n
-snippet: y
 ---
 
 # Assets Proxy Development{#assets-proxy-development}

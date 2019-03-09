@@ -7,9 +7,6 @@ uuid: b8bb2a7f-c21e-4f9c-802f-b8630206a0ff
 topic-tags: develop
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 34227c6a-0375-42c5-83c0-3fe545347338
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating adaptive forms using JSON Schema{#creating-adaptive-forms-using-json-schema}

@@ -6,9 +6,6 @@ seo-description: null
 uuid: 2c2f4294-7ff4-4028-af0a-764cf627bc24
 contentOwner: cmajumda
 discoiquuid: f07ebcde-a2ba-42a3-a6f4-e355a712f9f0
-index: y
-internal: n
-snippet: y
 ---
 
 # Managing Smart Tags{#managing-smart-tags}

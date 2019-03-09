@@ -9,9 +9,6 @@ contentOwner: Guillaume Carlino
 products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 discoiquuid: 1908267f-7595-406c-9a35-4b35a7e711af
-index: y
-internal: n
-snippet: y
 ---
 
 # Performance Guidelines PDF{#performance-guidelines-pdf}

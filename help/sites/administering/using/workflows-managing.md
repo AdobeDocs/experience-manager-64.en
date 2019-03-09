@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
 discoiquuid: 57829246-5211-4177-a8bd-c4c35ca317d4
-index: y
-internal: n
-snippet: y
 ---
 
 # Managing Access to Workflows{#managing-access-to-workflows}

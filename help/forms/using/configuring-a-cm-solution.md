@@ -8,9 +8,6 @@ topic-tags: correspondence-management
 content-type: reference
 products: SG_EXPERIENCEMANAGER/6.3/FORMS
 discoiquuid: 02f8d0d8-e8e2-42d3-8a40-5ac00535e605
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring a Correspondence Management solution{#configuring-a-correspondence-management-solution}

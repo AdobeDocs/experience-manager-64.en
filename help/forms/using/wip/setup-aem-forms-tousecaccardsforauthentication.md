@@ -8,9 +8,6 @@ uuid: 3420b18d-0281-4cf9-bd77-b79481346c98
 contentOwner: khsingh
 geptopics: SG_AEMFORMS/categories/working_with_document_security
 discoiquuid: 5b6c7253-d1d9-413e-b403-324c657fb144
-index: y
-internal: n
-snippet: y
 ---
 
 # [Do not publish] Use CAC cards with AEM Forms Document Security{#do-not-publish-use-cac-cards-with-aem-forms-document-security}
@@ -55,8 +52,8 @@ The only difference between mutual authentication, CAC cards, and HSM based auth
        >
        >    
        >    
-       >    * Ensure that the version of the files matches the version of JDK installed on the client machine.
-       >    * If you are using IBM JDK, add the following to the [JAVA_HOME]\jre\lib\security\java.security file:
+       >* Ensure that the version of the files matches the version of JDK installed on the client machine.
+       >* If you are using IBM JDK, add the following to the [JAVA_HOME]\jre\lib\security\java.security file:
        >    
        >    
        >ssl.SocketFactory.provider=

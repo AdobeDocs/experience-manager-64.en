@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: 4e0b5189-dd6f-4c9d-bcd2-0e22bad4c2b1
-index: y
-internal: n
-snippet: y
 ---
 
 # Calendar Essentials{#calendar-essentials}

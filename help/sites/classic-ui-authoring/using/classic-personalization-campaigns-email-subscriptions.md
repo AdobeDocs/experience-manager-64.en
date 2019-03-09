@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
 discoiquuid: 7157c92d-d9c9-4f04-8076-373823b6c33b
-index: y
-internal: n
-snippet: y
 ---
 
 # Managing Subscriptions{#managing-subscriptions}
@@ -81,7 +78,7 @@ To unsubscribe users from lists:
 1. Open the page properties of the AEM page that has the sign-up form to unsubscribe a lead.
 1. Apply the service configuration to the page.
 1. Create a sign-up form on the page.
-1. While configuring the component, select the action **E-mail Service**: **Unsubscribe user from list.**
+1. While configuring the component, select the action **E-mail Service**:** Unsubscribe user from list.**
 1. From the drop-down menu, select the appropriate list from which the user will be removed when unsubscribing.
 
    ![](assets/chlimage_1-11.jpeg)

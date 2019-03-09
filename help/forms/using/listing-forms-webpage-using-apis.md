@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: publish
 discoiquuid: d1b959a7-2f01-4965-9b68-d5e0523cfd02
-index: y
-internal: n
-snippet: y
 ---
 
 # Listing forms on a web page using APIs{#listing-forms-on-a-web-page-using-apis}

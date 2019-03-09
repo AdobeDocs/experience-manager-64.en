@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_workspace
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 6e722969-d102-4990-b2c6-8f623363431e
-index: y
-internal: n
-snippet: y
 ---
 
 # Customizing search templates{#customizing-search-templates}

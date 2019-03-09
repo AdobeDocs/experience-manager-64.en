@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
 discoiquuid: 219ceacc-7be5-4891-8196-c9634f0f6038
-index: y
-internal: n
-snippet: y
 ---
 
 # Integrating Form Bridge with custom portal for HTML5 forms{#integrating-form-bridge-with-custom-portal-for-html-forms}
@@ -79,7 +76,7 @@ An existing HTML application can leverage the FormBridge API to interact with a 
    >The &lt;div id="rightdiv"&gt; tag on **line 18** contains the HTML snippet of the XFA form.
    >
    >
-   >The page is styled into two containers: **left** and **right**. The right container has the form. The left container has two input fields and part of the external HTML page.
+   >The page is styled into two containers:** left** and **right**. The right container has the form. The left container has two input fields and part of the external HTML page.
    >
    >
    >The following screen shot shows how the form displays in a browser.

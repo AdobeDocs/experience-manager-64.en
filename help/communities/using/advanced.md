@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: 3644d3b8-eb3c-4dfb-9379-c6e893ea591c
-index: y
-internal: n
-snippet: y
 ---
 
 # Advanced Scoring and Badges{#advanced-scoring-and-badges}

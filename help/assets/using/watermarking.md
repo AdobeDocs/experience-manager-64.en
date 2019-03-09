@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
 discoiquuid: 2fc8a709-b154-4c90-95a0-c647a70ec0de
-index: y
-internal: n
-snippet: y
 ---
 
 # Watermarking{#watermarking}

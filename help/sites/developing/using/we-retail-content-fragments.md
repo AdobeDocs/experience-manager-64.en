@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
 discoiquuid: 3135b4b0-aefd-4fe2-a5f4-1c7b92655ffd
-index: y
-internal: n
-snippet: y
 ---
 
 # Trying out Content Fragments in We.Retail{#trying-out-content-fragments-in-we-retail}

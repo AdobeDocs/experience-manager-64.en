@@ -9,9 +9,6 @@ content-type: reference
 topic-tags: adaptive_forms
 topic-tags: develop
 discoiquuid: 820fcf3c-17e7-4d73-8d95-c74384f8ba4e
-index: y
-internal: n
-snippet: y
 ---
 
 # Automate testing of adaptive forms{#automate-testing-of-adaptive-forms}

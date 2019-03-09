@@ -7,9 +7,6 @@ page-status-flag: de-activated
 uuid: 51b0db72-b69a-4a09-9675-10bb7bca011f
 topic-tags: introduction
 discoiquuid: bf299931-84fc-4d34-8d39-4dd67cf3ec66
-index: y
-internal: n
-snippet: y
 ---
 
 # [DO NOT PUBLISH] Create your first adaptive form{#do-not-publish-create-your-first-adaptive-form}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: authoring
 content-type: reference
 discoiquuid: 14e5d242-bb81-456a-9f0a-594d2075a8b0
-index: y
-internal: n
-snippet: y
 ---
 
 # Setting up a standard stage with Autodesk Maya and Mental Ray{#setting-up-a-standard-stage-with-autodesk-maya-and-mental-ray}

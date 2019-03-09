@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: integrations
 discoiquuid: 510abef8-4b91-4931-9078-9df947df2481
-index: y
-internal: n
-snippet: y
 ---
 
 # Measure and improve effectiveness and conversion of forms{#measure-and-improve-effectiveness-and-conversion-of-forms}

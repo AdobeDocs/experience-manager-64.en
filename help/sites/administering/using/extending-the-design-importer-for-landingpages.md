@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
 discoiquuid: 3b8930dd-8ae1-4798-b563-0afaf87ae8da
-index: y
-internal: n
-snippet: y
 ---
 
 # Extending and Configuring the Design Importer for Landing Pages{#extending-and-configuring-the-design-importer-for-landing-pages}

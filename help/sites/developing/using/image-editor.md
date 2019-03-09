@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: components
 discoiquuid: 6a62c2fc-b317-42aa-9ba1-498c6ca7467b
-index: y
-internal: n
-snippet: y
 ---
 
 # Image Editor{#image-editor}

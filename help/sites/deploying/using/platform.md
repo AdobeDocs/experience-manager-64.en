@@ -10,9 +10,6 @@ topic-tags: platform
 content-type: reference
 discoiquuid: 9d0a279b-0b4f-4fa3-a6d0-cb9b271cf64c
 legacypath: /content/docs/en/aem/6-0/deploy/upgrade/introduction-to-oak
-index: y
-internal: n
-snippet: y
 ---
 
 # Introduction to the AEM Platform{#introduction-to-the-aem-platform}
@@ -65,7 +62,7 @@ In addition, non-Java implementations are now possible and part of the Oak JCR c
 
 The Oak storage layer provides an abstraction layer for the actual storage of the content.
 
-Currently, there are two storage implementations available in AEM6: **Tar Storage** and **MongoDB Storage**.
+Currently, there are two storage implementations available in AEM6:** Tar Storage** and **MongoDB Storage**.
 
 #### Tar Storage {#tar-storage}
 

@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_ssl
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: ddc0d5dd-487e-4d98-bb97-9ec22bd1b95d
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring SSL on Windows Vista{#configuring-ssl-on-windows-vista}
@@ -28,11 +25,11 @@ You can run keytool by using a single command that includes all the information 
 
 1. In a command prompt, navigate to *[JAVA HOME]*/bin and type the following command to create the certificate and keystore:
 
-   `keytool -genkey -keyalg RSA -dname "CN=`*Host Name* `, OU=`*Group Name* `, O=`*Company Name* `,L=`*City******Name* `, S=`*State* `, C=`*Country Code* `" -alias`*"LC Cert"* `-keypass` `*key*`*_**password* `-keystore`*keystorename* `.keystore`
+   `keytool -genkey -keyalg RSA -dname "CN=`*Host Name*`, OU=`*Group Name*`, O=`*Company Name*`,L=`*City Name*`, S=`*State* `, C=`*Country Code* `" -alias`*"LC Cert"* `-keypass` `*key*`*_**password* `-keystore`*keystorename* `.keystore`
 
    >[!NOTE]
    >
-   >Replace *[JAVA_HOME] with the directory where the JDK is installed, and replace the text in italic with values that correspond with your environment.*
+   >Replace `[JAVA_HOME]` with the directory where the JDK is installed, and replace the text in italic with values that correspond with your environment.
 
 1. Type `changeit` as the password. This password is the default for a Java installation, and the system administrator may have changed it.
 

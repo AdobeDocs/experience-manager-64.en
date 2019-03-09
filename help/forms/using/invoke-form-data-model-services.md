@@ -7,9 +7,6 @@ uuid: 57373a2c-65ac-497e-aae2-b1420f9d84fd
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: d325ada2-c655-4fd2-b750-3ffb283d3943
-index: y
-internal: n
-snippet: y
 ---
 
 # API to invoke form data model service from adaptive forms{#api-to-invoke-form-data-model-service-from-adaptive-forms}

@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: 3ee10ea5-182c-4e84-b8af-3c4fb5e1b8ef
-index: y
-internal: n
-snippet: y
 ---
 
 # Working with PDF/A Documents{#working-with-pdf-a-documents}

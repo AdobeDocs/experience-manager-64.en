@@ -10,9 +10,6 @@ topic-tags: e-commerce
 content-type: reference
 discoiquuid: 8d223358-ab22-476f-b904-67d2470dccb9
 pagetitle: Administering IBM Websphere Commerce
-index: y
-internal: n
-snippet: y
 ---
 
 # IBM Websphere Commerce{#ibm-websphere-commerce}

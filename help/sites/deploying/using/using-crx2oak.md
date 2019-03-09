@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: upgrading
 content-type: reference
 discoiquuid: 4eed8447-8762-4632-8c32-f3031ed0c853
-index: y
-internal: n
-snippet: y
 ---
 
 # Using the CRX2Oak Migration Tool{#using-the-crx-oak-migration-tool}

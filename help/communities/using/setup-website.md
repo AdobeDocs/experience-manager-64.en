@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: 9a365c21-cd23-4142-ab21-9956c41ac83a
-index: y
-internal: n
-snippet: y
 ---
 
 # Setup Website Structure{#setup-website-structure}
@@ -39,8 +36,8 @@ The code in this tutorial will rely on the main folder name being the same for t
 >* the names seen in CRXDE are node names which form the path to addressable content
 >* node names may contain spaces, but when used in an URI, the space must be encoded either as '%20' or '+'
 >* node names may contain hyphens and underscores, but they must be encoded when referenced as a package name within a Java file. Both hyphens and underscores are escaped with underscore followed by their unicode value : >
->    * hypen becomes '_002d'  
->    * underscore becomes '_005f'
+>* hypen becomes '_002d'  
+>* underscore becomes '_005f'
 >
 
 ### Setup the Application Directory (/apps) {#setup-the-application-directory-apps}
@@ -79,7 +76,7 @@ The /apps directory is protected and not publicly accessible as are the /content
     
     1. in the **Create Folder** dialog, enter **templates**
     
-    1. ****click **OK**
+    1. click **OK**
 
 1.
 
@@ -105,7 +102,7 @@ The /etc/designs directory contains the images, scripts, and stylesheets to be d
    Enter:
 
     * Title :** An SCF Sandbox**
-    * Name : **an-scf-sandbox**
+    * Name :** an-scf-sandbox**
     * select **Design Page Template**
 
    Click **Create**

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
 discoiquuid: c324d80e-b76f-41da-8a64-ea39c753379c
-index: y
-internal: n
-snippet: y
 ---
 
 # Assets Monitoring Best Practices{#assets-monitoring-best-practices}

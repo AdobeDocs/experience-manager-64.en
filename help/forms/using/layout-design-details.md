@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
 topic-tags: interactive-communications
 discoiquuid: 66b5ca80-fc14-477a-b411-83aa2e050404
-index: y
-internal: n
-snippet: y
 ---
 
 # Layout Design{#layout-design}

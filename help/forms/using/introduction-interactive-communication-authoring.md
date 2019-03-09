@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: interactive-communications
 discoiquuid: 0851ad60-a62a-43de-b823-30f9b492bcff
-index: y
-internal: n
-snippet: y
 ---
 
 # Introduction to Interactive Communication authoring UI{#introduction-to-interactive-communication-authoring-ui}

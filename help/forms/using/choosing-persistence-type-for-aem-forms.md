@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: installing
 geptopics: SG_AEMFORMS/categories/jee
 discoiquuid: fd579427-c254-4d4d-898c-eb141a09c695
-index: y
-internal: n
-snippet: y
 ---
 
 # Choosing a persistence type for an AEM Forms installation{#choosing-a-persistence-type-for-an-aem-forms-installation}

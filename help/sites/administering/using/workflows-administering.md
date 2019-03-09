@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
 discoiquuid: 117efec0-7edd-4ac8-8d27-a3adc1388c09
-index: y
-internal: n
-snippet: y
 ---
 
 # Administering Workflow Instances{#administering-workflow-instances}
@@ -65,8 +62,8 @@ A range of consoles are available for administering your workflows. Use the [glo
    >
    >    
    >    
-   >    * use of the **Terminate** action
-   >    * when a page, that is subject to a workflow, is (force) deleted, then the workflow will be terminated
+   >* use of the **Terminate** action
+   >* when a page, that is subject to a workflow, is (force) deleted, then the workflow will be terminated
    >    
    >
 

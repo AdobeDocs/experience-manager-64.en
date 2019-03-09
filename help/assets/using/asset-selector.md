@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference
 discoiquuid: 461b1244-a2f2-4e4d-ae7c-bf91a116b3c3
-index: y
-internal: n
-snippet: y
 ---
 
 # Asset Selector{#asset-selector}

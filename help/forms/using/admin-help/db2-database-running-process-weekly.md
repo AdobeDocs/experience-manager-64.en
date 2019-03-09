@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/maintaining_the_aem_forms_database
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 4a2236e3-9686-4683-b914-815297372141
-index: y
-internal: n
-snippet: y
 ---
 
 # DB2 database: Running a process weekly{#db-database-running-a-process-weekly}

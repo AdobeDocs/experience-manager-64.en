@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: brand-portal
 content-type: reference
 discoiquuid: a7731afa-bd79-4424-b9b9-2be5b7a7421d
-index: y
-internal: n
-snippet: y
 ---
 
 # Publish collections to Brand Portal{#publish-collections-to-brand-portal}

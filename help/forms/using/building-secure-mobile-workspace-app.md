@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
 discoiquuid: 48f6c027-d378-44bb-bd3c-0d2567ca4342
-index: y
-internal: n
-snippet: y
 ---
 
 # Building a secure AEM Forms app for iOS{#building-a-secure-aem-forms-app-for-ios}

@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/importing_and_managing_applications_and_archives
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 8fcc8e6b-6f56-4423-9ba8-efb11196d173
-index: y
-internal: n
-snippet: y
 ---
 
 # Import and manage archives{#import-and-manage-archives}
@@ -58,33 +55,33 @@ Use the archives tab to import and manage LCAs that were created in workbench.
     
     * **Run As:** Specifies run-time identity used by a service after it has been invoked. To change this option, click Change. Choose from the following options:
 
-      **Unspecified: **The default behavior is used.
+      **Unspecified:** The default behavior is used.
 
       **Invoker:** Uses the same identity as the user who invoked the service.
 
-      **System: **Runs the service with full privileges. This is the default setting for long-lived processes.
+      **System:** Runs the service with full privileges. This is the default setting for long-lived processes.
 
-      **Named User: **Enables you to run the service as a specific user. This is the default setting for short-lived processes. When you select this option, click Select User to display the Select Principal page, where you can search for and select the user. 
+      **Named User:** Enables you to run the service as a specific user. This is the default setting for short-lived processes. When you select this option, click Select User to display the Select Principal page, where you can search for and select the user. 
     
     * To add a principal to the security profile, click Add Principal and select the user or group to add as a principal. Click Next and then select the permissions you want to assign to this principal:
 
-      **INVOKE_PERM: **To invoke all operations on the service
+      **INVOKE_PERM:** To invoke all operations on the service
 
-      **MODIFY_CONFIG_PERM: **To modify the configuration of a service
+      **MODIFY_CONFIG_PERM:** To modify the configuration of a service
 
-      **SUPERVISOR_PERM: **To view process instance data for a service that is created from a process
+      **SUPERVISOR_PERM:** To view process instance data for a service that is created from a process
 
-      **START_STOP_PERM: **To start and stop a service
+      **START_STOP_PERM:** To start and stop a service
 
-      **ADD_REMOVE_ENDPOINTS_PERM: **To add, remove, and modify endpoints for a service
+      **ADD_REMOVE_ENDPOINTS_PERM:** To add, remove, and modify endpoints for a service
 
-      **CREATE_VERSION_PERM: **To create a new version of the service
+      **CREATE_VERSION_PERM:** To create a new version of the service
 
-      **DELETE_VERSION_PERM: **To delete a version of the service
+      **DELETE_VERSION_PERM:** To delete a version of the service
 
-      **MODIFY_VERSION_PERM: **To modify a version of the service
+      **MODIFY_VERSION_PERM:** To modify a version of the service
 
-      **READ_PERM: **To view the service
+      **READ_PERM:** To view the service
 
       Click Finished to add the principal to the security profile.
 
@@ -125,33 +122,33 @@ Use the archives tab to import and manage LCAs that were created in workbench.
     
     * **Run As:** Specifies run-time identity used by a service after it has been invoked. To change this option, click Change. Choose from the following options:
 
-      **Unspecified: **The default behavior is used.
+      **Unspecified:** The default behavior is used.
 
       **Invoker:** Uses the same identity as the user who invoked the service.
 
-      **System: **Runs the service with full privileges. This is the default setting for long-lived processes.
+      **System:** Runs the service with full privileges. This is the default setting for long-lived processes.
 
-      **Named User: **Enables you to run the service as a specific user. This is the default setting for short-lived processes. When you select this option, click Select User to display the Select Principal page, where you can search for and select the user. 
+      **Named User:** Enables you to run the service as a specific user. This is the default setting for short-lived processes. When you select this option, click Select User to display the Select Principal page, where you can search for and select the user. 
     
     * To add a principal to the security profile, click Add Principal and select the user or group to add as a principal. Click Next and then select the permissions you want to assign to this principal:
 
-      **INVOKE_PERM: **To invoke all operations on the service
+      **INVOKE_PERM:** To invoke all operations on the service
 
-      **MODIFY_CONFIG_PERM: **To modify the configuration of a service
+      **MODIFY_CONFIG_PERM:** To modify the configuration of a service
 
-      **SUPERVISOR_PERM: **To view process instance data for a service that is created from a process
+      **SUPERVISOR_PERM:** To view process instance data for a service that is created from a process
 
-      **START_STOP_PERM: **To start and stop a service
+      **START_STOP_PERM:** To start and stop a service
 
-      **ADD_REMOVE_ENDPOINTS_PERM: **To add, remove, and modify endpoints for a service
+      **ADD_REMOVE_ENDPOINTS_PERM:** To add, remove, and modify endpoints for a service
 
-      **CREATE_VERSION_PERM: **To create a new version of the service
+      **CREATE_VERSION_PERM:** To create a new version of the service
 
-      **DELETE_VERSION_PERM: **To delete a version of the service
+      **DELETE_VERSION_PERM:** To delete a version of the service
 
-      **MODIFY_VERSION_PERM: **To modify a version of the service
+      **MODIFY_VERSION_PERM:** To modify a version of the service
 
-      **READ_PERM: **To view the service
+      **READ_PERM:** To view the service
 
       Click Finished to add the principal to the security profile.
 

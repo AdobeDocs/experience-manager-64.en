@@ -7,9 +7,6 @@ uuid: fdbcf6d1-6409-41e9-a057-a60bf04fad7f
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: customization
 discoiquuid: fe917ad2-6c7c-46cc-95e4-9234911112c4
-index: y
-internal: n
-snippet: y
 ---
 
 # Customizing error messages for HTML5 forms{#customizing-error-messages-for-html-forms}

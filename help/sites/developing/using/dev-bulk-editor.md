@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
 discoiquuid: ade28db0-69fd-4b4f-b394-d1cb5212f50c
-index: y
-internal: n
-snippet: y
 ---
 
 # Developing the Bulk Editor{#developing-the-bulk-editor}

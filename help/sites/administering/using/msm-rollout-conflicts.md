@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features
 content-type: reference
 discoiquuid: 362ced4b-8d92-4afc-b268-a51b859d5211
-index: y
-internal: n
-snippet: y
 ---
 
 # MSM Rollout Conflicts{#msm-rollout-conflicts}

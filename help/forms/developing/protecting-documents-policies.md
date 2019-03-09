@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: 566e3689-d0eb-494a-a3ac-f0986452d186
-index: y
-internal: n
-snippet: y
 ---
 
 # Protecting Documents with Policies{#protecting-documents-with-policies}

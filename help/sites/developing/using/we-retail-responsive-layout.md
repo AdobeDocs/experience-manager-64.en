@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
 discoiquuid: f9183003-4372-43e2-986c-9ed41378ef93
-index: y
-internal: n
-snippet: y
 ---
 
 # Trying out Responsive Layout in We.Retail{#trying-out-responsive-layout-in-we-retail}

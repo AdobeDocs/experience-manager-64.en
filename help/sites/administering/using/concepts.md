@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: e-commerce
 content-type: reference
 discoiquuid: edde3c63-21e5-4acb-9a92-e92a25a9bbf1
-index: y
-internal: n
-snippet: y
 ---
 
 # Concepts{#concepts}

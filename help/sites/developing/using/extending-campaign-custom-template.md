@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
 discoiquuid: 8ab340b9-8a02-4aad-bd0c-5850a79bdbcf
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating Custom AEM Page Template with Adobe Campaign Form Components{#creating-custom-aem-page-template-with-adobe-campaign-form-components}

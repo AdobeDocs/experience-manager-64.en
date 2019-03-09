@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: authoring
 content-type: reference
 discoiquuid: 0eefa47b-cb81-479f-bedc-9462961d9d8b
-index: y
-internal: n
-snippet: y
 ---
 
 # Adding Scene7 Features to your Page{#adding-scene-features-to-your-page}
@@ -333,9 +330,9 @@ If you have multiple configurations, AEM by default displays the [default config
 >* If you do not see **Scene7 **or the** S7 **icon as an option in the content browser, you need to [configure Scene7 to work with AEM](../../../sites/administering/using/scene7.md).
 >
 >* For video, the Scene7 content browser supports: >
->    * Adaptive Video Sets: container of all video renditions needed for seamless playback across multiple screens
->    * Single MP4 video 
->    * Single F4V video 
+>* Adaptive Video Sets: container of all video renditions needed for seamless playback across multiple screens
+>* Single MP4 video 
+>* Single F4V video 
 >
 
 ### Browsing content in the classic UI {#browsing-content-in-the-classic-ui}

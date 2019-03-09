@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: ca270f39-c24c-4e06-874e-466aebf6e00a
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring validation messages{#configuring-validation-messages}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 content-type: reference
 topic-tags: troubleshoot
 discoiquuid: 3b81503a-cbdd-48d6-8aec-83976698d1b2
-index: y
-internal: n
-snippet: y
 ---
 
 # AEM Screens FAQs{#aem-screens-faqs}
@@ -99,7 +96,7 @@ For more information on where you can monitor device activity, please refer to [
 
 ChromeOS player can be installed as Chrome Browser plugin in developer mode without requiring actual chrome player device. For installation, follow the steps below:
 
-1. Click [here](https://download.macromedia.com/screens/)**** to download the latest Chrome Player.
+1. Click [here](https://download.macromedia.com/screens/) to download the latest Chrome Player.
 
 1. Unzip and save it on disk.
 1. Open Chrome browser and click the 3-dots menu and select **More Tools** --&gt; **Extensions** from the top right corner or directly navigate to ***chrome://extensions***.

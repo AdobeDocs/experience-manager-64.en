@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
 discoiquuid: 655e452c-aad8-4355-b282-1c6541de41d6
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating Custom Extensions{#creating-custom-extensions}

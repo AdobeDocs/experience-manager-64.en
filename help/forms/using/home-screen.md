@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
 discoiquuid: 8eab2b30-2e80-4d2b-8693-3aa3659f9af7
-index: y
-internal: n
-snippet: y
 ---
 
 # Home screen{#home-screen}

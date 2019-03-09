@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: integration
 content-type: reference
 discoiquuid: cdcbd39c-f8a9-4373-8380-b32c172fbcf6
-index: y
-internal: n
-snippet: y
 ---
 
 # Connecting to Adobe Analytics and Creating Frameworks{#connecting-to-adobe-analytics-and-creating-frameworks}
@@ -230,7 +227,7 @@ Start by opening the panel. Press the downward arrow next to **Servers**:
 * **Visitor Namespace**
 
     * The namespace determines the first part of the tracking URL.
-    * e.g. changing the namespace to **CNAME **will cause the calls made to Adobe Analytics to look like**** **CNAME.d1.omtrdc.net** instead of the default.
+    * e.g. changing the namespace to **CNAME** will cause the calls made to Adobe Analytics to look like **CNAME.d1.omtrdc.net** instead of the default.
 
 ## Associating a Page with a Adobe Analytics Framework {#associating-a-page-with-a-adobe-analytics-framework}
 

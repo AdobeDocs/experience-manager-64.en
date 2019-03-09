@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: projects
 content-type: reference
 discoiquuid: 18893755-7b67-4636-a999-6895739b5185
-index: y
-internal: n
-snippet: y
 ---
 
 # Creative Project and PIM Integration{#creative-project-and-pim-integration}
@@ -153,13 +150,11 @@ To configure the **Product Photo Shoot** workflow:
     * Photo Shoot Review
     * Move to Production
 
-   Perform a similar procedure to configure the tasks in the **Product Photo Shoot (Commerce Integration) workflow**.****
-
-##
-
-This section describes how to integrate product information management with your creative project.
+   Perform a similar procedure to configure the tasks in the **Product Photo Shoot (Commerce Integration) workflow**.
 
 ### Starting a Project Workflow {#starting-a-project-workflow}
+
+This section describes how to integrate product information management with your creative project.
 
 1. Navigate to a Product Photo Shoot project, and tap/click the **Add Work** icon on the **Workflows** card.
 1. Select the **Product Photo Shoot (Commerce Integration)** workflow card to start the Product Photo Shoot (Commerce Integration) workflow. If the product information isn't available under /etc/commerce, select the **Product Photo Shoot** workflow and start the Product Photo Shoot workflow.

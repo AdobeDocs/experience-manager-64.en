@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
 discoiquuid: f40c7b41-23c4-49c8-a4eb-d522540dbc46
-index: y
-internal: n
-snippet: y
 ---
 
 # HTTP2 Delivery of Content{#http-delivery-of-content}

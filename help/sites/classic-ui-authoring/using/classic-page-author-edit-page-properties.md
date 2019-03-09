@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
 discoiquuid: 3dce06d3-142a-4544-af7a-70cb9ce17f5b
-index: y
-internal: n
-snippet: y
 ---
 
 # Editing Page Properties{#editing-page-properties}
@@ -84,8 +81,8 @@ The properties are distributed across several tabs:
   >
   >    
   >    
-  >    * must be unique so you should take care that the value is not already used by another page.
-  >    * do not support regex patterns.
+  >* must be unique so you should take care that the value is not already used by another page.
+  >* do not support regex patterns.
   >    
   >
 

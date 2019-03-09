@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: authoring
 discoiquuid: be2392c5-0e46-4f84-bd5e-ccaf2aae885d
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring Author and Publish in AEM Screens{#configuring-author-and-publish-in-aem-screens}

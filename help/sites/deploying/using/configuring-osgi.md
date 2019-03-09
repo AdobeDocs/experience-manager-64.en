@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: configuring
 content-type: reference
 discoiquuid: c34f11a4-b442-42fa-b18e-a53927850290
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring OSGi{#configuring-osgi}

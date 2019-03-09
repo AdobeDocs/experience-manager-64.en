@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: introduction
 content-type: reference
 discoiquuid: d157b066-5b09-4695-a737-6a128695a735
-index: y
-internal: n
-snippet: y
 ---
 
 # Author a New Community Site{#author-a-new-community-site}
@@ -24,7 +21,7 @@ snippet: y
 Use the author instance to create a new community site
 
 * sign in with administrator privileges
-* from global navigation : **Navigation, Communities, Sites**
+* from global navigation :** Navigation, Communities, Sites**
 
 The Communities Sites console provides a wizard to guide one through the steps of creating a community site. It is possible to move forward to the `Next`step or `Back`to the previous step before committing the site in the final step.
 
@@ -217,7 +214,7 @@ From left to right they are :
 >1. next to "Settings" select "Edit"
 >1. in pop up dialog for Agent Settings, select Transport tab
 >1. in URI, change the port number, 4503, to the desired port number >
->    * for example, to use port 6103 :   
+>* for example, to use port 6103 :   
 >      http://localhost:6103/bin/receive?sling:authRequestLogin=1
 >
 >1. select "OK"

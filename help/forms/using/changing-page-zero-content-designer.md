@@ -7,9 +7,6 @@ uuid: 98913b43-630f-40b1-a9f8-568f539ed392
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: 675744b1-c7b6-41d9-bf2f-a3668eb7d424
-index: y
-internal: n
-snippet: y
 ---
 
 # Changing Page Zero content in Designer{#changing-page-zero-content-in-designer}

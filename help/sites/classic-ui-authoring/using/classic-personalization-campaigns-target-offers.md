@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
 discoiquuid: 2b26f88c-40ac-4896-ad00-f8ed01e8e3ff
-index: y
-internal: n
-snippet: y
 ---
 
 # Target offers{#target-offers}

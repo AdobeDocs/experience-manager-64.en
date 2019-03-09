@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: managing-assets
 content-type: reference
 discoiquuid: 6fa25ac3-bf82-4e3a-8e65-96ba3d169b4e
-index: y
-internal: n
-snippet: y
 ---
 
 # Organize Digital Assets{#organize-digital-assets}

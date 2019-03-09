@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/maintaining_aem_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: bed1db3b-8e30-4731-b853-71c959488c72
-index: y
-internal: n
-snippet: y
 ---
 
 # Monitoring AEM forms deployments{#monitoring-aem-forms-deployments}
@@ -24,8 +21,8 @@ For more information about monitoring AEM forms deployments, see [A technical gu
 
 AEM forms provides two registered MBeans that provide navigation and statistic information. These are the only MBeans that are supported for integration and inspection:
 
-* **ServiceStatistic: **This MBean provides information about Service name and its version. 
-* **OperationStatistic: **This MBean provides the statistic of every forms server’s service. This is where administrators can get information about a particular service such as invocation time, number of errors, and so on.
+* **ServiceStatistic:** This MBean provides information about Service name and its version. 
+* **OperationStatistic:** This MBean provides the statistic of every forms server’s service. This is where administrators can get information about a particular service such as invocation time, number of errors, and so on.
 
 ### ServiceStatisticMbean public interfaces {#servicestatisticmbean-public-interfaces}
 

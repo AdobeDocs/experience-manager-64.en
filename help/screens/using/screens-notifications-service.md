@@ -10,9 +10,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: authoring
 discoiquuid: a57d8212-7652-4f31-aeb9-2bc36c8e5976
-index: y
-internal: n
-snippet: y
 ---
 
 # AEM Screens Notifications Service{#aem-screens-notifications-service}

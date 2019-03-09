@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
 discoiquuid: cf7c61a6-4579-4f07-bb2a-967748b1439a
-index: y
-internal: n
-snippet: y
 ---
 
 # Designing accessible HTML5 forms{#designing-accessible-html-forms}

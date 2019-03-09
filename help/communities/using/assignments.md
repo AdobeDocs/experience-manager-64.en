@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: authoring
 content-type: reference
 discoiquuid: 2c8aeed0-02e6-4f2a-bd08-212e6f78a8f9
-index: y
-internal: n
-snippet: y
 ---
 
 # Assignments Feature{#assignments-feature}

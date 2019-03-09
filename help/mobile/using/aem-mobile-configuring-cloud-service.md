@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: developing-adobe-phonegap-enterprise
 discoiquuid: 19f9e171-7691-4b4b-ab10-a38210d24523
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring Adobe Target Cloud Service{#configuring-adobe-target-cloud-service}

@@ -8,9 +8,6 @@ contentOwner: khsingh
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-manager
 discoiquuid: aacc933d-6c47-4aeb-baf7-3eccade69b38
-index: y
-internal: n
-snippet: y
 ---
 
 # Transaction Reports Billable APIs{#transaction-reports-billable-apis}

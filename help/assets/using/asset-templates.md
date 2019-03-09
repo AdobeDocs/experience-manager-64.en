@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
 discoiquuid: 4e2a1b3a-2866-454a-80f3-dd0e4ea95659
-index: y
-internal: n
-snippet: y
 ---
 
 # Asset Templates{#asset-templates}
@@ -151,16 +148,16 @@ You can edit a collateral immediately after you create it. Alternatively, you op
    >
    >    
    >    
-   >    * Images are not embeded in the underlying InDesign template
-   >    * Images are linked from the local file system
+   >* Images are not embeded in the underlying InDesign template
+   >* Images are linked from the local file system
    >    
    >    
    >To enable AEM to resolve images, do the following:
    >
    >    
    >    
-   >    * Embed images while creating InDesign templates (See [About links and embedded graphics](https://helpx.adobe.com/indesign/using/graphics-links.html)).
-   >    * Mount AEM to your local file system, and then map missing icons with existing AEM assets.
+   >* Embed images while creating InDesign templates (See [About links and embedded graphics](https://helpx.adobe.com/indesign/using/graphics-links.html)).
+   >* Mount AEM to your local file system, and then map missing icons with existing AEM assets.
    >    
    >    
    >For more information around working with InDesign documents, see [Best Practices for Working with InDesign Documents in AEM](https://helpx.adobe.com/experience-manager/kb/best-practices-idd-docs-aem.html).

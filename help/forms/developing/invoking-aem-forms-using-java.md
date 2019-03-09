@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: coding
 discoiquuid: 15e11f9d-6662-4686-a7ae-f34e72b17396
-index: y
-internal: n
-snippet: y
 ---
 
 # Invoking AEM Forms using the JavaAPI{#invoking-aem-forms-using-the-javaapi}
@@ -443,7 +440,7 @@ To successfully invoke a AEM Forms service, set the following connection propert
 
 * **DSC_CREDENTIAL_USERNAME:** Specifies the AEM forms user name. For a user to sucessfully invoke a AEM Forms service, they need the Services User role. A user can also have another role that includes the Service Invoke permission. Otherwise, an exception is thrown when they attempt to invoke a service. If service security is disabled, it is not necessary to specify this connection property. (See [Disabling Service Security](/programming-with-aem-forms/processes-tasks.md#disabling_service_security).)
 * **DSC_CREDENTIAL_PASSWORD:** Specifies the corresponding password value. If service security is disabled, it is not necessary to specify this connection property.
-* **DSC_REQUEST_TIMEOUT: **The default request timeout limit for the SOAP request is 1200000 milliseconds (20 minutes). Sometime, a request can require longer time to complete the operation. For example, a SOAP request that retrieves a large set of records can require a longer timeout limit. You can use the `ServiceClientFactoryProperties.DSC_REQUEST_TIMEOUT` to increase the request call timeout limit for the SOAP requests.
+* **DSC_REQUEST_TIMEOUT:** The default request timeout limit for the SOAP request is 1200000 milliseconds (20 minutes). Sometime, a request can require longer time to complete the operation. For example, a SOAP request that retrieves a large set of records can require a longer timeout limit. You can use the `ServiceClientFactoryProperties.DSC_REQUEST_TIMEOUT` to increase the request call timeout limit for the SOAP requests.
 
   ***note**: Only SOAP-based invocations support the DSC_REQUEST_TIMEOUT property. *
 

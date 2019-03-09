@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: customization
 discoiquuid: 80464712-611a-4865-9eca-6e84a64bbbcc
-index: y
-internal: n
-snippet: y
 ---
 
 # Adding custom action on form lister items{#adding-custom-action-on-form-lister-items}

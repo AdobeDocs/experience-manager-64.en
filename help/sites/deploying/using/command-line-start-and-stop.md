@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: deploying
 discoiquuid: 32f188c0-fe48-4df8-b8f9-b13a25991201
-index: y
-internal: n
-snippet: y
 ---
 
 # Command Line Start and Stop{#command-line-start-and-stop}

@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: correspondence-management
 discoiquuid: 4f96cc16-5e0a-45b9-932d-788f35f2cc73
-index: y
-internal: n
-snippet: y
 ---
 
 # Customize create correspondence UI{#customize-create-correspondence-ui}
@@ -74,9 +71,9 @@ Use the following steps to create the required folder structure in the /apps bra
        >
        >    
        >    
-       >    * Upgrade on your instance
-       >    * Apply a hot fix
-       >    * Install a feature pack
+       >* Upgrade on your instance
+       >* Apply a hot fix
+       >* Install a feature pack
        >    
        >
 

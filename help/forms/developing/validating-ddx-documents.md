@@ -10,9 +10,6 @@ geptopics: SG_AEMFORMS/categories/assembling_pdf_documents
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: ce38b403-769d-4926-acbd-b407f5ef91d9
-index: y
-internal: n
-snippet: y
 ---
 
 # Validating DDX Documents{#validating-ddx-documents}

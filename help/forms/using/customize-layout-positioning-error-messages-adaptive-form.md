@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: customization
 discoiquuid: d4b9529f-06c8-4b0f-bcc5-11422956483e
-index: y
-internal: n
-snippet: y
 ---
 
 # Customize layout and positioning of error messages of an adaptive form{#customize-layout-and-positioning-of-error-messages-of-an-adaptive-form}

@@ -8,9 +8,6 @@ products: SG_EXPERIENCEMANAGER/6.4/FORMS
 content-type: reference
 geptopics: SG_AEMFORMS/categories/working_with_document_security
 discoiquuid: dee2e1cb-a3ae-4036-9366-63539ecece57
-index: y
-internal: n
-snippet: y
 ---
 
 # Registering as a User{#registering-as-a-user}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: authoring
 content-type: reference
 discoiquuid: 0053f8de-6699-4808-b0ce-30b7695e428b
-index: y
-internal: n
-snippet: y
 ---
 
 # Working with Assets{#working-with-assets}

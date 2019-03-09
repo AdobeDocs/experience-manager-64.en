@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
 discoiquuid: 5ba6e326-66ff-420e-a9e8-4df4eb88d1f8
-index: y
-internal: n
-snippet: y
 ---
 
 # Developing for Targeted Content{#developing-for-targeted-content}

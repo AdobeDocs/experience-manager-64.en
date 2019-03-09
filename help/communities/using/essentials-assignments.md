@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: 111e841f-8c42-456e-8e75-a10a00d5fc74
-index: y
-internal: n
-snippet: y
 ---
 
 # Assignments Essentials{#assignments-essentials}

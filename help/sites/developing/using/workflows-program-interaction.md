@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
 discoiquuid: f0d75749-f0c4-462f-985a-f72ef0535f66
-index: y
-internal: n
-snippet: y
 ---
 
 # Interacting with Workflows Programmatically{#interacting-with-workflows-programmatically}

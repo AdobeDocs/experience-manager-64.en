@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
 discoiquuid: e814c6be-379c-4e68-ac9f-916e5a7fb674
-index: y
-internal: n
-snippet: y
 ---
 
 # Applying Image Presets{#applying-image-presets}
@@ -35,9 +32,9 @@ You can apply an image preset to an image anytime you preview it. To apply an im
    >
    >    
    >    
-   >    * Static renditions appear in the top half of the the pane. Dynamic renditions appear in the lower half. With dynamic renditions only, you can use the URL to display the image. The **URL** button only appears if you select a dynamic rendition. The **RESS** button only appears if you select a responsive image preset.
+   >* Static renditions appear in the top half of the the pane. Dynamic renditions appear in the lower half. With dynamic renditions only, you can use the URL to display the image. The **URL** button only appears if you select a dynamic rendition. The **RESS** button only appears if you select a responsive image preset.
    >    
-   >    * The system shows numerous renditions when you select **Renditions** in an asset's Detail view. You can increase the number of presets seen. See [Increasing the number of image presets that display](../../assets/using/managing-image-presets.md#increasingthenumberofimagepresetsthatdisplay).
+   >* The system shows numerous renditions when you select **Renditions** in an asset's Detail view. You can increase the number of presets seen. See [Increasing the number of image presets that display](../../assets/using/managing-image-presets.md#increasingthenumberofimagepresetsthatdisplay).
    >    
    >    
    >

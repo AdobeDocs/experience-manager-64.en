@@ -8,9 +8,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: repo_restructuring
 discoiquuid: f15d077a-1b6f-4ac4-b3a7-c559e24837e9
-index: y
-internal: n
-snippet: y
 ---
 
 # E-Commerce Repository Restructuring in AEM 6.4{#e-commerce-repository-restructuring-in-aem}

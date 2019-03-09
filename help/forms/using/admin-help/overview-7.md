@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_forms
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 2053933d-e33b-4fda-be48-c7b42bdec230
-index: y
-internal: n
-snippet: y
 ---
 
 # Basics of configuring forms{#basics-of-configuring-forms}

@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: authoring-on-demand-services-app
 discoiquuid: b6905f52-1e1f-4713-bad3-b563fba6f340
-index: y
-internal: n
-snippet: y
 ---
 
 # Cloud Configuration{#cloud-configuration}

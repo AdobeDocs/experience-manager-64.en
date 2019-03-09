@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: e-commerce
 content-type: reference
 discoiquuid: 036bba91-d07c-4d0b-b94b-3741d831b6bd
-index: y
-internal: n
-snippet: y
 ---
 
 # IBM Websphere Setup{#ibm-websphere-setup}

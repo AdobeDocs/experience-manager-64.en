@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-workspace
 discoiquuid: 646076c3-44be-4ad7-b718-366ee056e9d5
-index: y
-internal: n
-snippet: y
 ---
 
 # Tracking processes{#tracking-processes}
@@ -35,7 +32,7 @@ You can set which columns appear in the search results.
 
 ### Search for a task using a search template {#search-for-a-task-using-a-search-template}
 
-1. On the Tracking page, in the list on the left, select **Search ****Templates** and select a search template.
+1. On the Tracking page, in the list on the left, select **Search Templates** and select a search template.
 1. If the template supports search parameters, To narrow the search parameters, fill the template fields and then click **Search**. Displays a list of all tasks that you participated in, which match the search criteria.
 
 ## View process details {#view-process-details}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features
 content-type: reference
 discoiquuid: 9268b375-df12-4eec-9c6d-60e4d67bf756
-index: y
-internal: n
-snippet: y
 ---
 
 # Reusing Content: Multi Site Manager and Live Copy{#reusing-content-multi-site-manager-and-live-copy}
@@ -114,14 +111,14 @@ There are many use-cases for MSM and live copies, some scenerios include:
   >
   >    
   >    
-  >    * How much of the core content will need updating over the multiple versions.
+  >* How much of the core content will need updating over the multiple versions.
   >    
   >    
   >Against:
   >
   >    
   >    
-  >    * How much of the individual copies will need to be adjusted.
+  >* How much of the individual copies will need to be adjusted.
   >    
   >
 

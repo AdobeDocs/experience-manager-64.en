@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: development-tools
 content-type: reference
 discoiquuid: 6457e0dd-964f-4c15-ab05-35666aff0cff
-index: y
-internal: n
-snippet: y
 ---
 
 # Dialog Editor{#dialog-editor}

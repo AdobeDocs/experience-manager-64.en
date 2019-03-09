@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features
 content-type: reference
 discoiquuid: 797ad6d6-01b8-444b-af5a-5b84bbaf2d75
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring Live Copy Synchronization{#configuring-live-copy-synchronization}

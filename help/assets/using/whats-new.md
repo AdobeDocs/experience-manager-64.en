@@ -7,9 +7,6 @@ page-status-flag: de-activated
 uuid: 9752a011-6e4f-4f35-ac68-de82affd1173
 contentOwner: cmajumda
 discoiquuid: 8e638072-c97a-43c4-8c4c-aa752eb3b0fc
-index: y
-internal: n
-snippet: y
 ---
 
 # DO NOT PUBLISH | New features summary | AEM Assets{#do-not-publish-new-features-summary-aem-assets}

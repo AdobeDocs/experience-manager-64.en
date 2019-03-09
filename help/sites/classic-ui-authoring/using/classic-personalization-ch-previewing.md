@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
 discoiquuid: 9c1f5b61-8c42-4871-8634-bb1a5e5775a6
-index: y
-internal: n
-snippet: y
 ---
 
 # Previewing Pages Using ContextHub Data{#previewing-pages-using-contexthub-data}

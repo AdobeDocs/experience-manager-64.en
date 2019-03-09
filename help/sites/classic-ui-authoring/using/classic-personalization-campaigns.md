@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
 discoiquuid: 2db40069-6b19-43d5-bcb0-5841abae8ca4
-index: y
-internal: n
-snippet: y
 ---
 
 # Campaign Management{#campaign-management}
@@ -65,7 +62,7 @@ Campaign management is made up of various elements:
   Recommendation is to [leverage Adobe Campaign and the integration to AEM](../../../sites/administering/using/campaign.md).  
 
 * **Lists** 
-  Leads are usually grouped into lists so that you can take collective action on them. Note: **Note:** Adobe is not planning to further enhance this capability.  
+  Leads are usually grouped into lists so that you can take collective action on them. Note:** Note:** Adobe is not planning to further enhance this capability.  
   Recommendation is to [leverage Adobe Campaign and the integration to AEM.](../../../sites/administering/using/campaign.md)  
 
 * **Segments** 

@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: customization
 discoiquuid: e9570775-1fd3-439d-81da-d9affeae0195
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating custom layout components for adaptive forms{#creating-custom-layout-components-for-adaptive-forms}

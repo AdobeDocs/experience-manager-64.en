@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: dynamic-media
 content-type: reference
 discoiquuid: d726e4c7-4384-40f6-ad39-b551a8323614
-index: y
-internal: n
-snippet: y
 ---
 
 # Applying Viewer Presets{#applying-viewer-presets}
@@ -41,9 +38,9 @@ To apply any applicable viewer preset to an asset:
    >
    >    
    >    
-   >    * The **URL** and **Embed** buttons appear after you select a viewer preset.
+   >* The **URL** and **Embed** buttons appear after you select a viewer preset.
    >    
-   >    * The system shows numerous viewer presets when you select Viewers in an asset's Detail view. You can increase the number of presets seen. See [Increasing the number of viewer presets that display](../../assets/using/managing-viewer-presets.md).
+   >* The system shows numerous viewer presets when you select Viewers in an asset's Detail view. You can increase the number of presets seen. See [Increasing the number of viewer presets that display](../../assets/using/managing-viewer-presets.md).
    >    
    >
 

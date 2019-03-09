@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
 discoiquuid: 08eeed7c-4733-473d-9e8a-e962b172edd2
-index: y
-internal: n
-snippet: y
 ---
 
 # Basic Handling{#basic-handling}
@@ -245,8 +242,8 @@ There are various help resources available:
   >
   >    
   >    
-  >    * [Keyboard shortcuts for editing pages](../../../sites/authoring/using/page-authoring-keyboard-shortcuts.md)
-  >    * [Keyboard shortcuts for consoles](../../../sites/authoring/using/keyboard-shortcuts.md)
+  >* [Keyboard shortcuts for editing pages](../../../sites/authoring/using/page-authoring-keyboard-shortcuts.md)
+  >* [Keyboard shortcuts for consoles](../../../sites/authoring/using/keyboard-shortcuts.md)
   >    
   >
 

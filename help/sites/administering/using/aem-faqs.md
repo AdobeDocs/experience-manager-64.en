@@ -6,9 +6,6 @@ seo-description: Use these FAQs to understand, configure, and troubleshoot commo
 uuid: 04cc1dda-ab4e-44a9-9aa3-941c99cf628c
 contentOwner: jsyal
 discoiquuid: b30939a8-7304-44b3-81a6-24d2d9bd476f
-index: y
-internal: n
-snippet: y
 ---
 
 # AEM FAQs{#aem-faqs}

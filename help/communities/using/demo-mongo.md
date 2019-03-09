@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: 0f723d56-ae0a-467b-93f4-67017d4abb1d
-index: y
-internal: n
-snippet: y
 ---
 
 # How to Setup MongoDB for Demo{#how-to-setup-mongodb-for-demo}

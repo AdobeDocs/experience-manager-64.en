@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
 discoiquuid: 78667228-f07c-4e6a-bc0c-1c5124bdf751
-index: y
-internal: n
-snippet: y
 ---
 
 # Granite Operations - User and Group Administration{#granite-operations-user-and-group-administration}

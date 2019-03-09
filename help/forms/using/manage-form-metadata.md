@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-manager
 discoiquuid: d07581e2-48bb-4ece-b0d1-61a536091394
-index: y
-internal: n
-snippet: y
 ---
 
 # Manage form metadata{#manage-form-metadata}
@@ -245,9 +242,9 @@ AEM Forms exposes the metadata schemas of the supported forms types in this tool
 
 ### Navigate the metadata schema editor&nbsp; {#navigate-the-metadata-schema-editor-nbsp}
 
-1. Navigate to **[!UICONTROL Tools > Assets > Metadata Schemas]****.** 
+1. Navigate to **[!UICONTROL Tools > Assets > Metadata Schemas]**.
 
-1. Click **[!UICONTROL forms]**** **from the listed schema forms.  
+1. Click **[!UICONTROL forms]** from the listed schema forms.  
 
 1. From the list that opens, click the asset type for which you want to add custom metadata.
 

@@ -7,9 +7,6 @@ uuid: 5a12a49c-77a0-45ae-aa20-6c6bbe77d097
 topic-tags: grdp
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 80183338-1c15-4819-b1f7-c0ab82007048
-index: y
-internal: n
-snippet: y
 ---
 
 # Forms-centric workflows on OSGi | Handling user data{#forms-centric-workflows-on-osgi-handling-user-data}

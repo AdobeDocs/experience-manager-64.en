@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: projects
 content-type: reference
 discoiquuid: f5238bb0-3c9b-4890-a971-2927324320e2
-index: y
-internal: n
-snippet: y
 ---
 
 # Working with Project Workflows{#working-with-project-workflows}

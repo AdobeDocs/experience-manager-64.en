@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: administering
 content-type: reference
 discoiquuid: 7a8b313b-1d9a-4523-89f7-868b9fef59ef
-index: y
-internal: n
-snippet: y
 ---
 
 # Group Templates{#group-templates}
@@ -32,7 +29,7 @@ At the moment the action is taken to create a new community group, the group's t
 
 In the author environment, to reach the groups templates console
 
-* from global navigation : **Tools, Communities, Group Templates**
+* from global navigation :** Tools, Communities, Group Templates**
 
 This console displays the templates from which a [community site](../../communities/using/sites-console.md) can be created and allows new group templates to be created.
 

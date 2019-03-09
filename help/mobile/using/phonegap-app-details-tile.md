@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: authoring-adobe-phonegap-enterprise
 discoiquuid: ba3b7317-271e-48aa-b201-c0e3f499f9e2
-index: y
-internal: n
-snippet: y
 ---
 
 # Manage App Tile{#manage-app-tile}

@@ -8,9 +8,6 @@ contentOwner: asgupta
 products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: authoring
 discoiquuid: 1e620509-d632-4372-be88-2634e0b1cc97
-index: y
-internal: n
-snippet: y
 ---
 
 # Search assets in AEM{#search-assets-in-aem}

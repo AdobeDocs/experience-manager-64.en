@@ -7,9 +7,6 @@ uuid: 80b229d4-c7b6-4a7c-ae63-2ac4d8e13bcd
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: develop
 discoiquuid: 56ef5ce6-56ae-4c13-a054-226b9df0f9c9
-index: y
-internal: n
-snippet: y
 ---
 
 # Reference Themes{#reference-themes}

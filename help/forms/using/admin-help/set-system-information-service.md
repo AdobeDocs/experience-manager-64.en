@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/system_information_service
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: d34d7f29-e917-4e47-99db-c6b65c4b917b
-index: y
-internal: n
-snippet: y
 ---
 
 # Set up the System information service{#set-up-the-system-information-service}

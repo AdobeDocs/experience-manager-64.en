@@ -9,9 +9,6 @@ content-type: reference
 topic-tags: introduction
 products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 discoiquuid: 861c3880-1eda-48de-80e9-6c32a8090aae
-index: y
-internal: n
-snippet: y
 ---
 
 # Kickstart Guide{#kickstart-guide}

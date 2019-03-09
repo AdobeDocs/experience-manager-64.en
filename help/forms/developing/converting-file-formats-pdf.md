@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: operations
 discoiquuid: d9253516-1ab9-4a62-a1d0-6d563dc10091
-index: y
-internal: n
-snippet: y
 ---
 
 # Converting Between File Formatsand PDF{#converting-between-file-formatsand-pdf}
@@ -732,7 +729,7 @@ The dialog and script files reside in the appmondata.jar file. Before you can mo
 
 After you add these XML files to the adobe-appmondata.jar file, you must redeploy the GeneratePDF component. To add dialog and script XML files to the adobe-appmondata.jar file, perform these tasks:
 
-1. Using a tool such as WinZip or WinRAR, open the adobe-livecycle-native-jboss-x86_win32.ear****file &gt; adobe-Native2PDFSvc.war\WEB-INF\lib &gt; adobe-native.jar &gt; Native2PDFSvc-native.jar\bin &gt; adobe-appmondata.jar file.
+1. Using a tool such as WinZip or WinRAR, open the adobe-livecycle-native-jboss-x86_win32.ear file &gt; adobe-Native2PDFSvc.war\WEB-INF\lib &gt; adobe-native.jar &gt; Native2PDFSvc-native.jar\bin &gt; adobe-appmondata.jar file.
 1. Add the dialog and script XML files to the appmondata.jar file or modify existing XML files in this file. (See [Creating or modifying a script XML file for a native application](converting-file-formats-pdf.md#creating_or_modifying_a_script_xml_file_for_a_native_application)and [Creating or modifying an additional dialog XML file for a native application](converting-file-formats-pdf.md#creating_or_modifying_an_additional_dialog_xml_file_for_a_native_application).) 
 1. Using a tool such as WinZip or WinRAR, open adobe-generatepdf-dsc.jar &gt; adobe-appmondata.jar. 
 1. Add the dialog and script XML files to the appmondata.jar file or modify existing XML files in this file. (See [Creating or modifying a script XML file for a native application](converting-file-formats-pdf.md#creating_or_modifying_a_script_xml_file_for_a_native_application)and [Creating or modifying an additional dialog XML file for a native application](converting-file-formats-pdf.md#creating_or_modifying_an_additional_dialog_xml_file_for_a_native_application).) After you add the XML files to the adobe-appmondata.jar file, place the new adobe-appmondata.jar file into the adobe-generatepdf-dsc.jar file. 

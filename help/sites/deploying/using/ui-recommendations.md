@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 content-type: reference
 topic-tags: best-practices
 discoiquuid: 0b444db5-dab9-41f0-afe9-ced000cb8548
-index: y
-internal: n
-snippet: y
 ---
 
 # User Interface Recommendations for Customers{#user-interface-recommendations-for-customers}

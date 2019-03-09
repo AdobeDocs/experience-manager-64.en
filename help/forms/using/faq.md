@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
 discoiquuid: e9d19d3f-80b1-4d10-868e-cf402bf48b71
-index: y
-internal: n
-snippet: y
 ---
 
 # Frequently asked questions (FAQ) for HTML5 forms{#frequently-asked-questions-faq-for-html-forms}

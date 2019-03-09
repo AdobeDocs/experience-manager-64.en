@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
 discoiquuid: a963ad49-0a67-4e56-9a59-5fc33233ccdd
-index: y
-internal: n
-snippet: y
 ---
 
 # Sample ContextHub Store Candidates{#sample-contexthub-store-candidates}

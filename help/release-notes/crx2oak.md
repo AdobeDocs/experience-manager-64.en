@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4
 topic-tags: release-notes
 content-type: reference
 discoiquuid: 8e994af4-4d9a-4ac8-bd41-4ac96d5f3ac9
-index: y
-internal: n
-snippet: y
 ---
 
 # CRX2OAK Migration Tool{#crx-oak-migration-tool}

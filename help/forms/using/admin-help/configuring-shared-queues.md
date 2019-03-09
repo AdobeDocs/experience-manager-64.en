@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_forms_workflow
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 04403a91-0d4e-45d7-8bd5-40293bf47456
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring Shared Queues{#configuring-shared-queues}

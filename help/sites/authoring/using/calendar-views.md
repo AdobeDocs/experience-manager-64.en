@@ -10,9 +10,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: projects
 content-type: reference
 discoiquuid: b118be96-e97d-4147-a33e-c6f6c2a32a8e
-index: y
-internal: n
-snippet: y
 ---
 
 # Calendar Views{#calendar-views}

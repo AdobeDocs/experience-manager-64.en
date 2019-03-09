@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: operations
 content-type: reference
 discoiquuid: f578aee8-b8cd-4b36-81af-81495dd5fd88
-index: y
-internal: n
-snippet: y
 ---
 
 # Tools Consoles{#tools-consoles}

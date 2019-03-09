@@ -10,9 +10,6 @@ content-type: reference
 topic-tags: site-features
 discoiquuid: 0e5b5afa-79ac-416a-8ea8-942ddf73e90b
 legacypath: /content/docs/en/aem/6-0/author/site-page-features/launches
-index: y
-internal: n
-snippet: y
 ---
 
 # Editing Launches{#editing-launches}

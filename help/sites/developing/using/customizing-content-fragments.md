@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
 discoiquuid: df9f6721-c826-44a2-ac78-24293b887c07
-index: y
-internal: n
-snippet: y
 ---
 
 # Customizing and Extending Content Fragments{#customizing-and-extending-content-fragments}
@@ -218,9 +215,9 @@ Content fragments can be integrated with:
   >
   >    
   >    
-  >    * As the content fragment models reside in `/conf`, these are not included in such translations. You can [internationalize the UI strings](../../../sites/developing/using/i18n-dev.md).  
+  >* As the content fragment models reside in `/conf`, these are not included in such translations. You can [internationalize the UI strings](../../../sites/developing/using/i18n-dev.md).  
   >    
-  >    * Templates are copied to create the fragment so this is implicit.  
+  >* Templates are copied to create the fragment so this is implicit.  
   >    
   >
 

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: personalization
 content-type: reference
 discoiquuid: 91ee6410-8559-4750-b1f5-d2191be615e5
-index: y
-internal: n
-snippet: y
 ---
 
 # How Multisite Management for Targeted Content is Structured{#how-multisite-management-for-targeted-content-is-structured}

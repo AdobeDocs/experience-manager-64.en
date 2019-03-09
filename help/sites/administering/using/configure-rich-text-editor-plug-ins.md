@@ -10,9 +10,6 @@ topic-tags: operations
 content-type: reference
 discoiquuid: 8e99e566-f3a2-4aa7-b2d3-743095ffe5ee
 noindex: true
-index: y
-internal: n
-snippet: y
 ---
 
 # Configure the Rich Text Editor plug-ins{#configure-the-rich-text-editor-plug-ins}
@@ -579,10 +576,10 @@ Styles are typically applied on text, but a separate set of Styles can also be a
    >
    >    
    >    
-   >    * **Type** `String[]`
+   >* **Type** `String[]`
    >    
-   >    * **Value**(s) one, or both, of the following, as required:
-   >    * 
+   >* **Value**(s) one, or both, of the following, as required:
+   >* 
    >    
    >    
    >
@@ -782,11 +779,11 @@ To configure how links are added in AEM from another program, define the HTML ru
    >
    >    
    >    
-   >    * **Name** `xtype`
+   >* **Name** `xtype`
    >    
-   >    * **Type** `String`
+   >* **Type** `String`
    >    
-   >    * **Value** `richtext`
+   >* **Value** `richtext`
    >    
    >    
    >    
@@ -794,8 +791,8 @@ To configure how links are added in AEM from another program, define the HTML ru
    >
    >    
    >    
-   >    * `/apps/<*myProject*>/components/text/dialog/items/text`
-   >    * `/apps/<*myProject*>/components/text/dialog/items/panel/items/text`
+   >* `/apps/<*myProject*>/components/text/dialog/items/text`
+   >* `/apps/<*myProject*>/components/text/dialog/items/panel/items/text`
    >    
    >
 
@@ -807,7 +804,7 @@ To configure how links are added in AEM from another program, define the HTML ru
 
 1. Under the `links` node define the properties as required:
 
-    * ****CSS style for internal links:
+    * CSS style for internal links:
 
         * **Name** `cssInternal`  
         
@@ -815,7 +812,7 @@ To configure how links are added in AEM from another program, define the HTML ru
         
         * **Value **the name of the CSS class (without a preceding '.'; for example, `cssClass` instead of `.cssClass`)
 
-    * **** CSS style for external links
+    * CSS style for external links
 
         * **Name** `cssExternal`  
         
@@ -861,7 +858,7 @@ To configure how links are added in AEM from another program, define the HTML ru
                 * `manual`: not applicable in this context
                 * `blank`: not applicable in this context
 
-        * ****The target for internal links:
+        * The target for internal links:
 
             * **Name** `targetInternal`  
             
@@ -869,7 +866,7 @@ To configure how links are added in AEM from another program, define the HTML ru
             
             * **Value **the target for internal links (only use when the `` mode is `auto`)
 
-        * ****The target for external links:
+        * The target for external links:
 
             * **Name** `targetExternal`
             

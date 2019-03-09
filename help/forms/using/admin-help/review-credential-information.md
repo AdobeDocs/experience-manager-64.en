@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/configuring_acrobat_reader_dc_extensions
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: b49372a4-6cff-43c7-bf03-ba8c19e3bfe0
-index: y
-internal: n
-snippet: y
 ---
 
 # Review credential use information{#review-credential-use-information}

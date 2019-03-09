@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: configuring
 content-type: reference
 discoiquuid: 4ca70d11-6859-462e-b0f6-4fa4dc9f3adb
-index: y
-internal: n
-snippet: y
 ---
 
 # Monitoring and Maintaining Your AEM instance{#monitoring-and-maintaining-your-aem-instance}
@@ -259,7 +256,7 @@ The log levels are as follows:
 In certain circumstances you may want to create a custom log file with a different log level. You can do this in the repository by:
 
 1. If not already existing, create a new configuration folder ( `sling:Folder`) for your project `/apps/<*project-name*>/config`.
-1. Under `/apps/<*project-name*>/config`, create a node for the new [Apache Sling Logging Logger Configuration](../../../sites/deploying/using/osgi-configuration-settings.md#apacheslingloggingloggerconfigurationfactoryconfiguration):****
+1. Under `/apps/<*project-name*>/config`, create a node for the new [Apache Sling Logging Logger Configuration](../../../sites/deploying/using/osgi-configuration-settings.md#apacheslingloggingloggerconfigurationfactoryconfiguration):
 
     * Name: `org.apache.sling.commons.log.LogManager.factory.config-<*identifier*>` (as this is a Logger)  
       Where `<*identifier*>` is replaced by free text that you (must) enter to identify the instance (you cannot omit this information). For example, `org.apache.sling.commons.log.LogManager.factory.config-MINE`  
@@ -362,7 +359,7 @@ In certain circumstances you may want to create a custom log file with a differe
    >
    >If no explicit Writer is configured the system will automatically generate an implicit Writer based on the default.
 
-   Under `/apps/<*project-name*>/config`, create a node for the new [Apache Sling Logging Writer Configuration](../../../sites/deploying/using/osgi-configuration-settings.md#apacheslingloggingwriterconfigurationfactoryconfiguration):****
+   Under `/apps/<*project-name*>/config`, create a node for the new [Apache Sling Logging Writer Configuration](../../../sites/deploying/using/osgi-configuration-settings.md#apacheslingloggingwriterconfigurationfactoryconfiguration):
 
     * Name: `org.apache.sling.commons.log.LogManager.factory.writer-<*identifier*>` (as this is a Writer)  
       As with the Logger, `<*identifier*>` is replaced by free text that you (must) enter to identify the instance (you cannot omit this information). For example, `org.apache.sling.commons.log.LogManager.factory.writer-MINE`
@@ -396,8 +393,8 @@ In certain circumstances you may want to create a custom log file with a differe
    >
    >    
    >    
-   >    * a maximum file size
-   >    * a time/date schedule   
+   >* a maximum file size
+   >* a time/date schedule   
    >    
    >    
    >to indicate when a new file will be created (and the existing file renamed according to the name pattern).  
@@ -405,9 +402,9 @@ In certain circumstances you may want to create a custom log file with a differe
    >
    >    
    >    
-   >    * A size limit can be specified with a number. If no size indicator is given, then this is taken as the number of bytes, or you can add one of the size indicators - `KB`, `MB`, or `GB` (case is ignored).
+   >* A size limit can be specified with a number. If no size indicator is given, then this is taken as the number of bytes, or you can add one of the size indicators - `KB`, `MB`, or `GB` (case is ignored).
    >    
-   >    * A time/date schedule can be specified as a `java.util.SimpleDateFormat` pattern. This defines the time period after which the file will be rotated; also the suffix appended to the rotated file (for identification).  
+   >* A time/date schedule can be specified as a `java.util.SimpleDateFormat` pattern. This defines the time period after which the file will be rotated; also the suffix appended to the rotated file (for identification).  
    >      The default is '.'yyyy-MM-dd (for daily log rotation).   
    >      So for example, at midnight of January 20th 2010 (or when the first log message after this occurs to be precise), ../logs/error.log will be renamed to ../logs/error.log.2010-01-20. Logging for the 21st of January will be output to (a new and empty) ../logs/error.log until it is rolled over at the next change of day.  
    >    

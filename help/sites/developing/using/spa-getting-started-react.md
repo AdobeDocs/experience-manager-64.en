@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: spa
 content-type: reference
 discoiquuid: ddc7dc2a-4291-4c62-a49a-647256eb1d91
-index: y
-internal: n
-snippet: y
 ---
 
 # Getting Started with SPAs in AEM - React{#getting-started-with-spas-in-aem-react}

@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/MOBILE
 topic-tags: developing-on-demand-services-app
 discoiquuid: 6fcb98bf-5779-4aad-8574-8cf6689456d9
-index: y
-internal: n
-snippet: y
 ---
 
 # App Templates and Components{#app-templates-and-components}

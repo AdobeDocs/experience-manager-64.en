@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: forms-app
 discoiquuid: 0849b013-d635-4901-bce7-a798d0d784fe
-index: y
-internal: n
-snippet: y
 ---
 
 # Working with a Form{#working-with-a-form}
@@ -24,7 +21,7 @@ To sync your form in AEM Forms app:
 1. In author instance, select a form, and click **View Properties**.  
 
 1. In the properties page, click **Advanced.**
-1. Under Advanced, enable option: **Sync with AEM Forms App, **and tap **Save**.
+1. Under Advanced, enable option:** Sync with AEM Forms App, **and tap **Save**.
 
 To sync multiple forms, in the author instance, select multiple forms in forms manager and tap **Sync with AEM Forms App**. When the form is published, the AEM Forms app can connect to the publish server and fetch the forms.
 

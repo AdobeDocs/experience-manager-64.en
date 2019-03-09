@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: introduction
 content-type: reference
 discoiquuid: cbee7972-d39a-4b1a-b8ad-9aa342aea3a5
-index: y
-internal: n
-snippet: y
 ---
 
 # Keyboard Shortcuts for Consoles{#keyboard-shortcuts-for-consoles}
@@ -22,9 +19,9 @@ Various keyboard shortcuts are available throughout AEM. Some apply to the use o
 >
 >Multi-select on a desktop device:
 >
->* Windows: **Ctrl**+**click** on required components.  
+>* Windows:** Ctrl**+**click** on required components.  
 >
->* Mac: **Cmd**+**click** on required components.
+>* Mac:** Cmd**+**click** on required components.
 >
 
 ## Keyboard Shortcuts {#keyboard-shortcuts}

@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/get_started_with_administering_aem_forms_on_jee
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 07e14265-0bec-4930-81ba-608ed2f36cc1
-index: y
-internal: n
-snippet: y
 ---
 
 # General AEM Forms settings{#general-aem-forms-settings}

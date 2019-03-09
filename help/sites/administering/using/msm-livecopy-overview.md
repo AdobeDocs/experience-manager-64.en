@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: site-features
 content-type: reference
 discoiquuid: 18f44f39-d4ba-4a4d-86e2-18b7af60c11b
-index: y
-internal: n
-snippet: y
 ---
 
 # Live Copy Overview Console{#live-copy-overview-console}

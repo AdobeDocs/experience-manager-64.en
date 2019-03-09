@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/aem_forms_backup_and_recovery
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 2f18bec7-477f-4451-b6eb-7e14587d3498
-index: y
-internal: n
-snippet: y
 ---
 
 # Backup strategy for Connector for EMC Documentum users{#backup-strategy-for-connector-for-emc-documentum-users}

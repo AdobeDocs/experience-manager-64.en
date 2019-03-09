@@ -8,9 +8,6 @@ contentOwner: jsyal
 discoiquuid: 7e05c86d-74e7-4e17-9893-d5789d223662
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/screens/using/setting-up-acls
-index: y
-internal: n
-snippet: y
 ---
 
 # REDIRECT Setting up ACLs{#redirect-setting-up-acls}

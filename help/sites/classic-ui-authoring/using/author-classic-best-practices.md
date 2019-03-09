@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: page-authoring
 content-type: reference
 discoiquuid: 522886d3-d9ad-4dd4-9a1a-ce3d7aeb2895
-index: y
-internal: n
-snippet: y
 ---
 
 # Best Practices{#best-practices}

@@ -11,9 +11,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SCREENS
 topic-tags: authoring
 discoiquuid: ef0df265-804c-4667-b677-46625687fe94
 noindex: true
-index: y
-internal: n
-snippet: y
 ---
 
 # Asset Level Scheduling{#asset-level-scheduling}
@@ -58,8 +55,8 @@ Follow the steps below to perform asset level scheduling:
    >
    >    
    >    
-   >    * Create a project, see ** [Creating a new Project](../../sites/authoring/using/creating-a-screens-project.md)**.
-   >    * Create and add content to a channel, see ** [Managing Channels](../../screens/using/managing-channels.md)**.
+   >* Create a project, see ** [Creating a new Project](../../sites/authoring/using/creating-a-screens-project.md)**.
+   >* Create and add content to a channel, see ** [Managing Channels](../../screens/using/managing-channels.md)**.
    >    
    >
 

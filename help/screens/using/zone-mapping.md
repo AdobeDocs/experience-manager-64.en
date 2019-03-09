@@ -7,9 +7,6 @@ page-status-flag: never-activated
 uuid: 75d7fde6-ea74-4b87-bb75-61aee5fa8987
 contentOwner: jsyal
 discoiquuid: afbcfe4a-45a2-4815-96da-b02801d83245
-index: y
-internal: n
-snippet: y
 ---
 
 # Display Layout Editor{#display-layout-editor}
@@ -179,8 +176,8 @@ Follow the steps below to create an AEM Screens project that shows how to achiev
    >
    >    
    >    
-   >    * identifiers "a1" and "a2" correspond to the zones defined in the template, that is, "screens-zone-a1" and "screens-zone-a2".
-   >    * ${display.channel}/left" points to the channel to embed in the zone, where "display.channel" points to the current channel path in the display. This effectively embeds the "left" and "right" children of the channel.
+   >* identifiers "a1" and "a2" correspond to the zones defined in the template, that is, "screens-zone-a1" and "screens-zone-a2".
+   >* ${display.channel}/left" points to the channel to embed in the zone, where "display.channel" points to the current channel path in the display. This effectively embeds the "left" and "right" children of the channel.
    >    
    >
 

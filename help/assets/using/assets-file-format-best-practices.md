@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/ASSETS
 topic-tags: administering
 content-type: reference
 discoiquuid: d9e2905a-c5d8-439c-9d1f-749cfad75749
-index: y
-internal: n
-snippet: y
 ---
 
 # Assets file format best practices{#assets-file-format-best-practices}

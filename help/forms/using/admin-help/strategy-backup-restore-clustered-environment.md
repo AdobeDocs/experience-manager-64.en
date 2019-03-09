@@ -9,9 +9,6 @@ content-type: reference
 geptopics: SG_AEMFORMS/categories/aem_forms_backup_and_recovery
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 discoiquuid: 47b4b1a5-38a3-4bdc-b3c9-5992b02566e9
-index: y
-internal: n
-snippet: y
 ---
 
 # Strategy for backup and restore in a clustered environment{#strategy-for-backup-and-restore-in-a-clustered-environment}

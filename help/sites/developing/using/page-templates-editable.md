@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
 discoiquuid: bc83bc15-3dbf-478a-be9d-daf7f942fcc8
-index: y
-internal: n
-snippet: y
 ---
 
 # Page Templates - Editable {#page-templates-editable}

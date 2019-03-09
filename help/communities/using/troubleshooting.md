@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/COMMUNITIES
 topic-tags: developing
 content-type: reference
 discoiquuid: c0e3d7d9-5e4f-4760-84e5-04979777d175
-index: y
-internal: n
-snippet: y
 ---
 
 # Troubleshooting{#troubleshooting}

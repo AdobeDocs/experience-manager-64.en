@@ -9,9 +9,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: coding
 discoiquuid: 3611e5c9-8675-419b-927c-8507f57ca73d
-index: y
-internal: n
-snippet: y
 ---
 
 # Invoking AEM Forms using Web Services{#invoking-aem-forms-using-web-services}

@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: platform
 content-type: reference
 discoiquuid: a76d8d76-bf52-4894-8a07-60fb82bc0404
-index: y
-internal: n
-snippet: y
 ---
 
 # Overlays{#overlays}

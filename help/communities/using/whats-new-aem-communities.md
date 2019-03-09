@@ -6,9 +6,6 @@ seo-description: null
 uuid: ad361fd9-3d6e-4c31-b30f-1f8ba654e1c7
 contentOwner: mgulati
 discoiquuid: 61b47a5b-b061-40f1-af9a-7141dce485a0
-index: y
-internal: n
-snippet: y
 ---
 
 # What's New in AEM 6.4 Communities{#what-s-new-in-aem-communities}

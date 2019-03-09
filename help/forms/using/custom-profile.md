@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: hTML5_forms
 discoiquuid: d582f8e4-ba16-4737-afd1-c066d9fd869b
-index: y
-internal: n
-snippet: y
 ---
 
 # Creating a custom profile for HTML5 forms{#creating-a-custom-profile-for-html-forms}

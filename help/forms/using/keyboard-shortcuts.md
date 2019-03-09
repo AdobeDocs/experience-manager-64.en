@@ -9,9 +9,6 @@ content-type: reference
 topic-tags: author
 topic-tags: correspondence-management
 discoiquuid: 8a4e036c-ce22-4e5d-8081-d5e3622d4c86
-index: y
-internal: n
-snippet: y
 ---
 
 # AEM Forms Keyboard Shortcuts{#aem-forms-keyboard-shortcuts}

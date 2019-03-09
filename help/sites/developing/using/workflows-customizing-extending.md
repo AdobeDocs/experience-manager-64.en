@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: extending-aem
 content-type: reference
 discoiquuid: 75fe0c53-eab3-4e76-8dc0-9d4edc4fb89a
-index: y
-internal: n
-snippet: y
 ---
 
 # Extending Workflow Functionality{#extending-workflow-functionality}
@@ -119,8 +116,8 @@ Use the following procedure to specify default values for the **Title** and **De
 >The field values appear on the step instance when both of the following requirements are satisfied:
 >
 >* The edit dialog of the step stores the title and description in the following locations: >
->    * `./jcr:title`
->    * `./jcr:description` locations
+>* `./jcr:title`
+>* `./jcr:description` locations
 >
 >  This requirement is satisfied when the edit dialog uses the Common tab that the `/libs/cq/flow/components/step/step` component implements.
 >
@@ -1052,11 +1049,11 @@ The `_cq_dialog/.content.xml` sample used in this example:
 
 >
 >* In cases where an upgraded dialog is empty you can look at dialogs in `/libs` that have similar functionality as examples of how to provide a solution. For example: >
->    * `/libs/cq/workflow/components/model`
->    * `/libs/cq/workflow/components/workflow`
->    * `/libs/dam/components`
->    * `/libs/wcm/workflow/components/autoassign`
->    * `/libs/cq/projects`
+>* `/libs/cq/workflow/components/model`
+>* `/libs/cq/workflow/components/workflow`
+>* `/libs/dam/components`
+>* `/libs/wcm/workflow/components/autoassign`
+>* `/libs/cq/projects`
 >
 >  You must not modify anything in `/libs`, simply use them as examples. If you want to leverage any of the existing steps, copy them to `/apps` and modify them there.
 >

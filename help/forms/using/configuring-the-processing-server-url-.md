@@ -8,9 +8,6 @@ contentOwner: amgoyal
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: Configuration
 discoiquuid: 2661a58a-e486-4971-9545-0fe09bd13232
-index: y
-internal: n
-snippet: y
 ---
 
 # Configuring AEM DS settings{#configuring-aem-ds-settings}
@@ -43,16 +40,11 @@ Following are the steps to configure the **[!UICONTROL AEM DS Settings]**:
 
    **[!UICONTROL **Processing Server UR**L]**: The Processing Server is the server where the Forms or AEM workflow needs to be triggered. This can be same as the URL of the AEM author instance or the other Server URL (that is, http://localhost:port/).
 
-   ****[!UICONTROL Processing Server User Name]****: Workflow user's User Name [based on the server URL being used]
+   **[!UICONTROL Processing Server User Name]**: Workflow user's User Name [based on the server URL being used]
 
-   ****[!UICONTROL Processing Server Password]****: Workflow user's Password
+   **[!UICONTROL Processing Server Password]**: Workflow user's Password
 
    >[!NOTE]
    >
-   >
-   >    
-   >    
-   >    * While using either Forms or AEM workflows, before you make any submission from the publish server, it is necessary to configure the DS settings service. Otherwise, the Form submission shall fail.
-   >    
-   >
+   >* While using either Forms or AEM workflows, before you make any submission from the publish server, it is necessary to configure the DS settings service. Otherwise, the Form submission shall fail.
 

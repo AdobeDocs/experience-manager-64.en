@@ -9,9 +9,6 @@ products: SG_EXPERIENCEMANAGER/6.4/SITES
 topic-tags: Security
 content-type: reference
 discoiquuid: 29021a56-b4df-4f49-9c88-6e30e76cc868
-index: y
-internal: n
-snippet: y
 ---
 
 # Configure the Admin Password on Installation{#configure-the-admin-password-on-installation}

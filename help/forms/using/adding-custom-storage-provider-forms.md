@@ -8,9 +8,6 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/6.4/FORMS
 topic-tags: Configuration
 discoiquuid: 24251cd9-d6ac-41f1-9b87-76e2bc04b843
-index: y
-internal: n
-snippet: y
 ---
 
 # Custom storage for drafts and submissions component{#custom-storage-for-drafts-and-submissions-component}

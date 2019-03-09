@@ -8,9 +8,6 @@ contentOwner: jsyal
 discoiquuid: 54f4b127-b0f0-463d-9ff3-77da07a42d66
 noindex: true
 redirecttarget: /content/help/en/experience-manager/6-4/screens/using/creating-a-screens-project
-index: y
-internal: n
-snippet: y
 ---
 
 # REDIRECT Creating a Project{#redirect-creating-a-project}
