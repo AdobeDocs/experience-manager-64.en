@@ -15,11 +15,11 @@ discoiquuid: a567a36a-dfc9-4934-ac0b-fa60c128607a
 
 Adobe Experience Manager (AEM) Assets users perform many actions like creating, uploading and deleting Assets. These actions can be recorded so you are able to provide an history of what has been done by a user. This section describes the recording capabilities of AEM and how to configure AEM in order to record specific events.
 
-### Performance Considerations and Default Behavior {#performance-considerations-and-default-behavior}
+## Performance Considerations and Default Behavior {#performance-considerations-and-default-behavior}
 
 This integration could be CPU and disk space consuming for example when doing bulk import. For these reasons the AEM Assets integration with the Activity Stream is disabled by default.
 
-### Supported Action Events {#supported-action-events}
+## Supported Action Events {#supported-action-events}
 
 The following events can be configured to be recorded:
 
@@ -39,7 +39,7 @@ The following events can be configured to be recorded:
 * Sub-asset updated (SUBASSET_UPDATED)
 * Sub-asset removed (SUBASSET_REMOVED)
 
-### Configuring AEM Assets Events Recording {#configuring-aem-assets-events-recording}
+## Configuring AEM Assets Events Recording {#configuring-aem-assets-events-recording}
 
 The [Web console](../../sites/deploying/using/configuring-osgi.md) provides access to the AEM Assets Event Recorder tuning. To configure the AEM Assets Event Recorder, proceed as follows:
 
@@ -55,7 +55,7 @@ The [Web console](../../sites/deploying/using/configuring-osgi.md) provides acce
 
 1. Click **Save**.
 
-### Reading recorded events {#reading-recorded-events}
+## Reading recorded events {#reading-recorded-events}
 
 The recorded events are stored as activities. You can read them programmatically by using the [ActivityManager API](/sites/developing/using/reference-materials/javadoc/com/adobe/granite/activitystreams/ActivityManager.md).  
 
