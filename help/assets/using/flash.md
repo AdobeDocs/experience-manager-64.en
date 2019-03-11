@@ -21,7 +21,7 @@ AEM enables you to:
 * Author Flash content for use in an AIR application.
 * Author Flash content that can be viewed on Flash disabled devices like the iPad.
 
-### Authoring Flash Content for AIR Applications {#authoring-flash-content-for-air-applications}
+## Authoring Flash Content for AIR Applications {#authoring-flash-content-for-air-applications}
 
 The Mobile Trader application is a Flash based AIR application that can run on any Flash enabled device. It consists of a window with four tabs (Assets, Watchlist, Alerts, Advisor) displaying some financial informations in a dynamic and interactive way. Its content can be managed with AEM, the same way a web page is authored with AEM. You can for example change a title, add an image or add a new tab. Once you have modified the content with AEM, you just have to refresh the application on your desktop computer to display the modifications.
 
@@ -99,7 +99,7 @@ You can also:
 >
 >To see the changes in the AIR application, you need to perform the steps 7 and 8 of the above procedure.
 
-### Viewing Flash Content on an iPad {#viewing-flash-content-on-an-ipad}
+## Viewing Flash Content on an iPad {#viewing-flash-content-on-an-ipad}
 
 When a Flash disabled device like the iPad requests a AEM page that includes Flash-AEM compatible components, AEM automatically sends the page content in HTML5 format to the device.  
   

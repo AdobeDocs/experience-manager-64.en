@@ -69,7 +69,7 @@ To integrate AEM 3D with Autodesk 3ds Max:
 
 1. Near the upper-left corner of the CRXDE Lite page, tap or click **Save All**.
 
-### Testing the integration of AEM 3D with Autodesk 3ds Max {#testing-the-integration-of-aem-d-with-autodesk-ds-max}
+## Testing the integration of AEM 3D with Autodesk 3ds Max {#testing-the-integration-of-aem-d-with-autodesk-ds-max}
 
 1. Open AEM Assets, then upload the .MAX file located in `sample-3D-content/models`** **to the **test3d** folder.
 

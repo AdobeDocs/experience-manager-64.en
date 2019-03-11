@@ -11,7 +11,7 @@ content-type: reference
 discoiquuid: a55e94f9-06aa-4c5d-9308-7a0da91fd8d9
 ---
 
-# Working with Dynamic Media{#working-with-dynamic-media}
+# Working with Dynamic Media {#working-with-dynamic-media}
 
 [Dynamic Media](http://www.adobe.com/solutions/web-experience-management/dynamic-media.html) helps deliver rich visual merchandising and marketing assets on demand, automatically scaled for consumption on web, mobile, and social sites. Using a set of master assets, Dynamic Media generates and delivers multiple variations of rich content in real time through its global, scalable, performance-optimized network.
 
@@ -56,25 +56,25 @@ You can tell whether Dynamic Media is turned on by the following characteristics
 
 When clicking on an image asset, the view of the asset is different with Dynamic Media [enabled](../../assets/using/config-dynamic.md#enabling-dynamic-media). Dynamic Media uses the on-demand HTML5 viewers.
 
-#### Dynamic Renditions {#dynamic-renditions}
+### Dynamic Renditions {#dynamic-renditions}
 
 Dynamic renditions such as image and viewer presets (under **Dynamic**) are available when Dynamic Media is enabled.
 
 ![](assets/chlimage_1-358.png) 
 
-#### Image sets, spins sets, mixed media sets {#image-sets-spins-sets-mixed-media-sets}
+### Image sets, spins sets, mixed media sets {#image-sets-spins-sets-mixed-media-sets}
 
 Image sets, spin sets, and mixed media sets are available if Dynamic Media is enabled.
 
 ![](assets/chlimage_1-359.png) 
 
-#### Ptiff renditions {#ptiff-renditions}
+### Ptiff renditions {#ptiff-renditions}
 
 Dynamic media enabled assets include pyramid.tiffs.
 
 ![](assets/chlimage_1-360.png) 
 
-#### Asset views change {#asset-views-change}
+### Asset views change {#asset-views-change}
 
 With Dynamic Media enabled, you can zoom in and out by clicking the + and - buttons. You can also click/tap to zoom into certain area. Revert brings you to the original version and you can make the image full screen by clicking the diagonal arrows. Dynamic Media enabled looks like this:
 

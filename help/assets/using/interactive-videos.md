@@ -19,7 +19,7 @@ When the video ends, a visual summary of all offerings is displayed to drive a c
 
 See also [Interactive Images](../../assets/using/interactive-images.md).
 
-### Interactive video in action {#interactive-video-in-action}
+## Interactive video in action {#interactive-video-in-action}
 
 Click the following screenshot to watch the interactive video in full.
 
@@ -33,12 +33,12 @@ Click the thumbnail to pause the video and open the product's quickview. For exa
 >
 >If you create an interactive video to launch a web page when a user clicks a thumbnail image, some devices will block the pop-up web page from opening. In such cases, you must change the pop-up blocker setting on the device. For example, on an Apple iPhone 6, tap **Settings** &gt; **Safari** &gt; **Block Pop-ups**, then slide the control to **Off**. Now, when you play an interactive video and click a thumbnail, you are prompted if you want to open the pop-up. If you accept, the web page opens.
 
-### Watch how interactive videos are created {#watch-how-interactive-videos-are-created}
+## Watch how interactive videos are created {#watch-how-interactive-videos-are-created}
 
 Watch a 7 minute 30 second walkthrough on [how interactive videos are created](http://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=http://s7d5.scene7.com/is/content/&emailurl=http://s7d5.scene7.com/s7/emailFriend&serverUrl=http://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video_social&contenturl=http://s7d5.scene7.com/skins/&asset=S7tutorials/InteractiveVideo) [](https://outv.omniture.com?v=s4NHQ2dzqd7hIqWjeG2sIdyNWsTWyupA).  
 (Although the video walkthrough is branded with Assets on Demand, the principles and steps still apply to Interactive Video in AEM Assets.)
 
-### Adobe Customer Success Webinar {#adobe-customer-success-webinar}
+## Adobe Customer Success Webinar {#adobe-customer-success-webinar}
 
 The "Using Interactive Video, Link Sharing, and YouTube sharing in AEM Assets" webinar teaches you how to use interactive video and other features to tie conversion driven events into your video marketing content.
 
@@ -134,11 +134,7 @@ However, in complex cases, the Quickview URL has different varying elements in a
 
 Consider the following examples of Quickview URLs and their resulting thumbnail variables:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
- <tbody> 
-  <tr> 
-   <td colspan="3" rowspan="2"> 
-    <table border="1" cellpadding="4" cellspacing="0"> 
+<table> 
      <tbody> 
       <tr> 
        <td valign="top" width="22.271714922048996%"><p>Single SKU, found in the query string.</p> </td> 
@@ -296,7 +292,7 @@ To add interactivty to your video:
 
    Depending on the length of your video, the Segment Duration defaults to the following values:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>If the video length is...</strong></td> 
@@ -375,7 +371,7 @@ To add interactivty to your video:
 
 1. In the asset selector below the Content tab, do any of the following:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td>To associate a thumbnail to the selected timeline segment</td> 
@@ -399,7 +395,7 @@ To add interactivty to your video:
 1. Select a single thumbnail image within one of the timeline segments, then tap the **Actions** tab.
 1. Do any of the following:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td>To associate the selected thumbnail image with a Quickview</td> 
@@ -649,11 +645,7 @@ There are two default callback handlers present in the standard embed code: `qui
 
 The process of constructing the Quickview URL is opposite to the process of identifying thumbnail variables covered earlier in this topic. Using our previously identified Quickview URL examples, you can see how the Quickview URL is constructed in each case:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
- <tbody> 
-  <tr> 
-   <td colspan="3" rowspan="3"> 
-    <table border="1" cellpadding="1" cellspacing="0" height="263" width="541"> 
+<table> 
      <tbody> 
       <tr> 
        <td valign="top" width="17.035775127768314%"><p>Single SKU, found in the query string</p> </td> 
