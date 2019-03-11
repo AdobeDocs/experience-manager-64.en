@@ -138,7 +138,7 @@ AEM provides you with an out-of-the-box list of the most popular metadata schema
 
 The metadata schemata supported are listed in the following section.
 
-#### Standard Metadata {#standard-metadata}
+### Standard Metadata {#standard-metadata}
 
 * dc - Dublin Core - the most important and widely used set of metadata
 * DICOM - Digital Imaging and Communications in Medicine
@@ -147,7 +147,7 @@ The metadata schemata supported are listed in the following section.
 * xmp - Extensible Metadata Platform
 * xmpBJ - Basic Job Ticketing
 
-#### Application-Specific Metadata {#application-specific-metadata}
+### Application-Specific Metadata {#application-specific-metadata}
 
 >[!NOTE]
 >
@@ -167,7 +167,7 @@ The metadata schemata supported are listed in the following section.
 * pdf & pdfx
 * photoshop & psAux - Adobe Photoshop
 
-#### Digital Rights Management Metadata {#digital-rights-management-metadata}
+### Digital Rights Management Metadata {#digital-rights-management-metadata}
 
 * cc - creative commons
 * xmpRights
@@ -177,21 +177,21 @@ The metadata schemata supported are listed in the following section.
 * pur - Prism Usage Rights
 * xmpPlus - integration of PLUS with XMP
 
-#### Photography-Specific Metadata {#photography-specific-metadata}
+### Photography-Specific Metadata {#photography-specific-metadata}
 
 * exif - lots of technical information from camera, including GPS position
 * crs - photoshop camera raw
 * Iptc4xmpCore & iptc4xmpExt
 * TIFF - image metadata (not only for TIFF images)
 
-#### Print-Specific Metadata {#print-specific-metadata}
+### Print-Specific Metadata {#print-specific-metadata}
 
 * pdf & pdfx - Adobe PDF and third-party applications
 * prism - http://www.prismstandard.org Publishing Requirements for Industry Standard Metadata
 * xmp
 * xmpPG - xmp for paged text
 
-#### Multimedia-Specific Metadata {#multimedia-specific-metadata}
+### Multimedia-Specific Metadata {#multimedia-specific-metadata}
 
 * xmpDM - Dynamic Media
 * xmpMM - Media Management

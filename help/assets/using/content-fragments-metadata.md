@@ -11,13 +11,13 @@ content-type: reference
 discoiquuid: 3e52100b-3843-4d73-ae67-a9ac6c983cdd
 ---
 
-# Metadata - Fragment Properties{#metadata-fragment-properties}
+# Metadata - Fragment Properties {#metadata-fragment-properties}
 
 >[!CAUTION]
 >
 >Some Content Fragment functionality requires the application of [AEM 6.4 Service Pack 2 (6.4.2.0) or later](../../release-notes/sp-release-notes.md).
 
-### Editing Properties / Meta data {#editing-properties-meta-data}
+## Editing Properties / Meta data {#editing-properties-meta-data}
 
 You can view and edit the metadata (properties) for content fragments:
 

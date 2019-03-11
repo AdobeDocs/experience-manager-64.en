@@ -27,7 +27,7 @@ Media handlers are services inside AEM Assets that perform specific actions on a
 
 The following media handlers are available within AEM Assets and handle the most common MIME types:
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td>Handler name</td> 
@@ -532,7 +532,7 @@ The `CommandLineProcess` process performs the following operations in the order 
 * Deletes the temporary directory.  
 * Creates thumbnails based on those renditions, if specified. The number and the dimensions of the thumbnails are defined by the arguments of the step.
 
-#### An Example Using ImageMagick {#an-example-using-imagemagick}
+### An Example Using ImageMagick {#an-example-using-imagemagick}
 
 The following example shows you how to set up the command line process step so that every time an asset with the mime-type gif or tiff is added to /content/dam on the AEM server, a flipped image of the original is created together with three additional thumbnails (140x100, 48x48 and 10x250).
 
@@ -576,7 +576,7 @@ This section describes how to set the **Process Arguments** of the **CommandLine
 
 The values of the **Process Arguments** must be separated by a comma and must not start with a whitespace.
 
-<table border="1" cellpadding="1" cellspacing="0" columns="3" header="none" width="400"> 
+<table> 
  <tbody> 
   <tr> 
    <td> Argument-Format</td> 

@@ -29,7 +29,7 @@ This section describes how to create, edit, and manage viewer presets. You can a
 >
 >Be aware that editing any *predefined, out-of-the-box viewer presets* is not a supported scenario. If you attempt to edit an out-of-the-box viewer preset, you are prompted to save the viewer preset using a new name.
 
-#### Keyboard accessibility for viewers {#keyboard-accessibility-for-viewers}
+## Keyboard accessibility for viewers {#keyboard-accessibility-for-viewers}
 
 All out-of-the-box viewers support keyboard accessibility.
 
@@ -56,7 +56,7 @@ See [Responsive Image library](https://marketing.adobe.com/resources/help/en_US/
 >Please note that you must publish all out-of-the-box viewers before you first use them.  
 >See [Publishing Viewer Presets.](#publishing-viewer-presets)
 
-### Viewer Preset system compatiblity  {#viewer-preset-system-compatiblity}
+### Viewer Preset system compatibility  {#viewer-preset-system-compatibility}
 
 All out-of-the-box Viewer Presets that come with Dynamic Media are fully compatible with the following systems:
 
@@ -71,7 +71,7 @@ All out-of-the-box Viewer Presets that come with Dynamic Media are fully compati
 
 Administrators can add and customize the following rich media types when creating new viewer presets.
 
-<table border="1" cellpadding="1" cellspacing="0" height="19" width="522"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Carousel Set</strong><br /> </td> 
@@ -150,7 +150,7 @@ See "Viewers release notes" in the table of contents of the [Viewers Reference G
 >Any new viewer presets that you create and add must be both activated *and *published.  
 >See [Activating or Deactivating Viewer Presets](#activating-or-deactivating-viewer-presets) and [Publishing Viewer Presets](#publishing-viewer-presets).
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Viewer preset title</strong></td> 
@@ -440,7 +440,7 @@ To create a new viewer preset:
 
 When you create or edit an Interactive Video viewer preset, you have the choice of which Display Mode setting to use when you select `InteractiveSwatches` from the Selected Component pull-down menu under the **Behavior **tab. The display mode you choose affects how and when thumbnails appear while the video is playing. You can choose either a `segment`display mode (default) or a `continuous`display mode.
 
-<table border="1" cellpadding="1" cellspacing="0" width="100%"> 
+<table> 
  <tbody> 
   <tr> 
    <td><strong>Display Mode</strong></td> 
@@ -494,7 +494,7 @@ When creating Carousel Banner viewer presets, changing the style of hotspots can
 
 | ** ** |**Description** |**Actions** |
 |---|---|---|
-| **Hotspot Icon ** |Change the icon used for hotspot  |To change the hotspot icon image, in the **Appearance** tab, in **Selected Component**, click or tap **ImageMapEffect**.** **Under **Icon**, select **Background** and in the **Image** field navigate to the background image you want. |
+| **Hotspot Icon** |Change the icon used for hotspot  |To change the hotspot icon image, in the **Appearance** tab, in **Selected Component**, click or tap **ImageMapEffect**.** **Under **Icon**, select **Background** and in the **Image** field navigate to the background image you want. |
 
 ## Activating or Deactivating Viewer Presets {#activating-or-deactivating-viewer-presets}
 
