@@ -5,8 +5,13 @@ archtype: end-user
 user-guide: null
 ---
 
-# Table of Contents - AEM 6.4 - Mobile User Guide {#table-of-contents}
+# Table of Contents - AEM 6.4 - Mobile User Guide {#using}
 
++ Introduction to AEM Mobile {#introduction}
+    + [Getting Started with AEM Mobile](getting-started-aem-mobile.md)
+    + [AEM Mobile On-Demand](getting-started-aem-mobile-on-demand.md)
+    + [AEM Adobe PhoneGap](getting-started-aem-mobile-phonegap.md)
++ Authoring On-Demand Services App {#authoring} 
 + [Working with Models](working-with-a-model.md)
 + [Models in Repository](models-in-repository.md)
 + [Mobile Quickstart](phonegap-mobile-quickstart.md)
@@ -23,7 +28,7 @@ user-guide: null
 + [Configure Your Users and User Groups](configure-users-groups.md)
 + [Mobile-Apps](mobile-apps.md)
 + [Managing Articles](mobile-on-demand-managing-articles.md)
-+ [AEM Adobe PhoneGap](getting-started-aem-mobile-phonegap.md)
+
 + [AEM Mobile On-Demand](aem-mobile.md)
 + [Configure your Adobe Mobile Services Cloud Service](configure-adobe-mobile-cloud-service.md)
 + [Editing App Metadata](phonegap-editmetadata.md)
@@ -57,7 +62,6 @@ user-guide: null
 + [Push Notifications](phonegap-push-notifications.md)
 + [Manage App Tile](phonegap-app-details-tile.md)
 + [Track App Performance with Adobe Mobile Analytics](phonegap-intro-to-app-analytics.md)
-+ [Getting Started with AEM Mobile](getting-started-aem-mobile.md)
 + [Best Practices](best-practices-aem-mobile.md)
 + [Mobile with Content Sync](phonegap-contentsync.md)
 + [Publish UnPublish Content](mobile-on-demand-publishing-unpublishing.md)
@@ -78,4 +82,4 @@ user-guide: null
 + [Creating and Managing App Content](phonegap-manage-app-content.md)
 + [Configure Your Users and User Groups](aem-mobile-configure-users.md)
 + [App definitions](phonegap-app-definitions.md)
-+ [AEM Mobile On-Demand](getting-started-aem-mobile-on-demand.md)
+
