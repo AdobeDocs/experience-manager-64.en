@@ -20,6 +20,7 @@ user-guide: null
     + [Managing Articles](mobile-on-demand-managing-articles.md)
 + Developing On-Demand Services App {#developing}
     + [App Templates and Components](app-templates-and-components1.md)
+    + test
 
 
 + [Working with Models](working-with-a-model.md)
