@@ -11,7 +11,7 @@ topic-tags: authoring
 discoiquuid: ba2603e2-0ce4-4294-9424-e87a22e75728
 ---
 
-# Managing Collections{#managing-collections}
+# Managing Collections {#managing-collections}
 
 Understand the concept of collection in AEM Assets. Learn how to collections, manage, edit, and collections with other users.
 
@@ -199,17 +199,17 @@ You can edit the metadata of multiple collections simultaneously. This functiona
 
 The Search feature within Collections supports both [Searching for Collections](#searching-collections) and [Searching for assets within a Collection](#searching-within-collections).
 
-#### Searching Collections {#searching-collections}
+### Searching Collections {#searching-collections}
 
 You can search collections from the Collections console. When you search with keywords in the Omni Search box, AEM Assets searches for collection names, metadata, and the tags added to the collections.
 
-#### Searching within Collections {#searching-within-collections}
+### Searching within Collections {#searching-within-collections}
 
 In the Collections console, tap/click a collection to open it.
 
 Within a collection, AEM Asset search is restricted to assets (and their tags and metadata) within the collection that you are viewing.
 
-### Editing Collection Settings {#editing-collection-settings}
+## Editing Collection Settings {#editing-collection-settings}
 
 You can edit collection settings, such as title and description, or to add members to a collection.
 
